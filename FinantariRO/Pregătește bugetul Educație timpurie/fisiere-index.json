@@ -144,6 +144,13 @@
     "sha256": "70f65409eb5c0d38dacc7ffffa7669e63e45ac7b0dd6af701db63abf3613dad2"
   },
   {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026/3.2 Unitati private acreditare Alba/Lista_verificata_Alba_Sebes.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Lista_verificata_Alba_Sebes--9f1af067.html",
+    "bytes": 4275,
+    "sha256": "e59fa7261d55b9f3cb4a6a7d4c85ac2c4fde12cc790e1af4675104781c812a2b"
+  },
+  {
     "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026/8.1 Documente necesare din proiectele anterioare/Lista_documente_pe_proiect.html",
     "status": "copiat",
     "saved_path": "fisiere/Lista_documente_pe_proiect--1f8fa081.html",
@@ -155,7 +162,19 @@
     "status": "referinta_externa_necopiata"
   },
   {
+    "source_reference": "https://legislatie.just.ro/public/DetaliiDocument/274172",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/public/DetaliiDocument/297953",
+    "status": "referinta_externa_necopiata"
+  },
+  {
     "source_reference": "https://ro.scribd.com/document/469517300/Copy-of-Chestionar-MMJS-2019-BIHOR2-3-1-xls",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.aracip.eu/categorii-documente/info-unitati-invatamant",
     "status": "referinta_externa_necopiata"
   },
   {

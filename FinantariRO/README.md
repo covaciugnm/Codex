@@ -1,12 +1,12 @@
 # FinantariRO
 
-Conversații: 4; subagenți: 14; mesaje: 133; fișiere copiate: 92.
+Conversații: 4; subagenți: 14; mesaje: 138; fișiere copiate: 93.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
 | [Caută liniile de finanțare din RO](Caut%C4%83%20liniile%20de%20finan%C8%9Bare%20din%20RO/conversatie.md) | Conversație | 16 |
 | [Organizează proiectele noi](Organizeaz%C4%83%20proiectele%20noi/conversatie.md) | Conversație | 14 |
-| [Pregătește bugetul Educație timpurie](Preg%C4%83te%C8%99te%20bugetul%20Educa%C8%9Bie%20timpurie/conversatie.md) | Conversație | 40 |
+| [Pregătește bugetul Educație timpurie](Preg%C4%83te%C8%99te%20bugetul%20Educa%C8%9Bie%20timpurie/conversatie.md) | Conversație | 45 |
 | [Fara titlu](subagenti/Fara%20titlu/conversatie.md) | Subagent | 7 |
 | [Fara titlu](subagenti/Fara%20titlu--ddf2e878/conversatie.md) | Subagent | 2 |
 | [Fara titlu](subagenti/Fara%20titlu--d156418b/conversatie.md) | Subagent | 2 |

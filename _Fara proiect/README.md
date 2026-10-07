@@ -1,6 +1,6 @@
 # _Fara proiect
 
-Conversații: 6; subagenți: 9; mesaje: 150; fișiere copiate: 226.
+Conversații: 7; subagenți: 9; mesaje: 178; fișiere copiate: 226.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -19,3 +19,4 @@ Conversații: 6; subagenți: 9; mesaje: 150; fișiere copiate: 226.
 | [Fara titlu](subagenti/Fara%20titlu--d910d699/conversatie.md) | Subagent | 2 |
 | [Găsește emailurile din Eva](G%C4%83se%C8%99te%20emailurile%20din%20Eva/conversatie.md) | Conversație | 13 |
 | [Creează anexa la factură](Creeaz%C4%83%20anexa%20la%20factur%C4%83/conversatie.md) | Conversație | 9 |
+| [Organizează folderele din Google‌‌ ‌](Organizeaz%C4%83%20folderele%20din%20Google%E2%80%8C%E2%80%8C%20%E2%80%8C/conversatie.md) | Conversație | 28 |

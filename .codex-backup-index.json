@@ -56,8 +56,8 @@
     },
     "7310b49a-fe03-4b49-b6de-1877255e0742": {
       "name": "FinantariRO",
-      "content_sha256": "ee693d11d48a9dde33209ba4be2b724739569b30e52e6c0388e7a7e9c486447c",
-      "snapshot_utc": "2026-10-07T14:10:54.540840+00:00",
+      "content_sha256": "9b6832b2ff1c0be1aefc317127435340c66a3526162005e56ecadefa61143768",
+      "snapshot_utc": "2026-10-07T20:11:34.069036+00:00",
       "folder": "FinantariRO"
     },
     "ec58c433-8025-4835-8910-bab2f99b913f": {
@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "e5634ac3da5b80d258c9f512fee00b9ce282a519d569a9381d4cf3c20173e80a",
-      "snapshot_utc": "2026-10-07T14:10:54.540840+00:00",
+      "content_sha256": "b747cd4584953fab601b9028ab7a3eebf1bc36508bfb767e2c97f9bd5e26be27",
+      "snapshot_utc": "2026-10-07T20:11:34.069036+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -104,8 +104,8 @@
     },
     "_Fara proiect": {
       "name": "_Fara proiect",
-      "content_sha256": "a3b81a44ec733b5320658e03dd7fb6abdd92f6874b51c9a9de9f3f06e822d351",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "33d25c3c0ec042ff1164b874d37ef5f00ae6cce705493b650e408b5522484f59",
+      "snapshot_utc": "2026-10-07T20:11:34.069036+00:00",
       "folder": "_Fara proiect"
     },
     "0342b0dc-be68-43fb-b135-3d436d2d009d": {
@@ -115,5 +115,5 @@
       "folder": "Hidroelectrica"
     }
   },
-  "updated_at_utc": "2026-10-07T14:20:21.970816+00:00"
+  "updated_at_utc": "2026-10-07T20:19:30.172212+00:00"
 }

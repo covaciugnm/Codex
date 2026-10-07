@@ -2,7 +2,7 @@
 
 ID: `01a115a1-81b1-7ce3-ba21-45dd985f8c26`  
 Proiect: FinantariRO  
-Export UTC: 2026-10-07T14:10:54.540840+00:00
+Export UTC: 2026-10-07T20:11:34.069036+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -294,3 +294,54 @@ Dosarul include SWOT, analiza juridică, documentația programatică, grile sala
 **După trei runde, auditul nu a acordat încă 10/10.** Pregătirea documentară este **4/10**; intervalele interne de punctaj sunt **36–67 pentru pilot** și **36–53 pentru extins**, cu punctele condiționate tratate separat. Acestea nu sunt punctaje oficiale.
 
 Calculele bugetelor au trecut verificarea independentă. Pentru închiderea auditului sunt necesare actele proiectelor anterioare, datele reale despre copii, unități și spații, inventarele, ofertele și asumările instituționale. Întrebările și dovezile necesare sunt enumerate în index; următoarea rundă trebuie să pornească de la acestea.
+
+## Utilizator
+
+ce unitati de invatamant prescolar private sunt acreditate in judetul alba ?
+in localitatea sebes ?
+
+
+## Asistent
+
+Voi verifica registrele oficiale de acreditare și rețeaua școlară, separat pentru județul Alba și municipiul Sebeș. Voi distinge unitățile acreditate de cele autorizate provizoriu.
+
+
+## Asistent
+
+Rețeaua școlară include trei grădinițe private în Sebeș: Heidi, Sfântul Nicolae și Mirela. Prezența în rețea nu dovedește însă acreditarea. Verific fiecare în registrul ARACIP actualizat la 6 octombrie 2026.
+
+
+## Asistent
+
+Registrul confirmă **8 unități private acreditate la nivel preșcolar în Alba, dintre care 3 în Sebeș**. Am găsit o eroare în numărul ordinului trecut pentru Mirela: actul oficial este nr. **3.592/20.03.2025**. Totodată, Swimmy apare cu mențiunea „desființare”, deci nu o includ în lista actuală.
+
+
+## Asistent
+
+**În județul Alba figurează 8 unități private acreditate la nivel preșcolar, dintre care 3 în municipiul Sebeș**, conform registrului ARACIP actualizat la **6 octombrie 2026**. [Registrul oficial ARACIP](https://www.aracip.eu/categorii-documente/info-unitati-invatamant)
+
+**În Sebeș:**
+
+| Unitate | Adresă | Ordin de acreditare |
+|---|---|---|
+| **Grădinița „Heidi”** | Str. Bistriței nr. 1 | 4933/31.07.2012 |
+| **Grădinița cu Program Prelungit „Sfântul Nicolae”** | Str. Crișan nr. 37 | 5507/21.08.2023 |
+| **Grădinița „Mirela”** | Str. Aviator Ghe. Olteanu nr. 7 | **3592/20.03.2025** |
+
+„Sfântul Nicolae” este acreditată pentru **program prelungit**, iar „Mirela” pentru **program normal**. Pentru Mirela, registrul conține o eroare de transcriere: ordinul corect este **3592**, conform actului publicat. [Ordin Sfântul Nicolae](https://legislatie.just.ro/public/DetaliiDocument/274172), [Ordin Mirela](https://legislatie.just.ro/public/DetaliiDocument/297953)
+
+**Celelalte cinci înregistrări din județ:**
+
+| Localitate | Unitate / nivel preșcolar | Ordin de acreditare |
+|---|---|---|
+| Alba Iulia | Grădinița „Sfântul Iosif” | 5660/14.11.2006 |
+| Alba Iulia | Grădinița cu Program Normal „Licurici” | 5633/25.10.2016 |
+| Alba Iulia | Grădinița cu Program Normal „Emanuel” | 5053/30.08.2016 |
+| Alba Iulia | Grădinița cu Program Prelungit „Lumea Ștrumfilor”, asociată Școlii „1 Decembrie 1918” | 4910/31.08.2018 |
+| Ocna Mureș | Grădinița Adventistă cu Program Prelungit „Emanuel” | 3545/25.03.2021 |
+
+Acestea sunt înregistrări pentru **nivelul preșcolar**; unele funcționează în cadrul unor instituții cu alte niveluri de învățământ. [Sursa ARACIP](https://www.aracip.eu/categorii-documente/info-unitati-invatamant)
+
+**Swimmy din Sebeș nu este inclusă:** registrul autorizărilor provizorii consemnează desființarea prin OM 4473/03.07.2025. [Registrul ARACIP](https://www.aracip.eu/categorii-documente/info-unitati-invatamant)
+
+Am salvat registrele și [lista verificată, cu observațiile pentru proiect](<Z:/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026/3.2 Unitati private acreditare Alba/Lista_verificata_Alba_Sebes.html>) în subfolderul **3.2 Unitati private acreditare Alba**.
