@@ -1,0 +1,53 @@
+AUDIT JURIDIC APROFUNDAT — ITERAȚIA 2 / 07.10.2026
+Lider: Municipiul Sebeș. Partener: ASOCIAȚIA ROMANIAN SOUL ENTITY, CUI 29433614.
+
+CONCLUZIE
+Dosarul are o structură de proiectare verificabilă, dar conformitatea juridică finală nu este închisă. Corectitudinea formulelor nu confirmă existența autorizațiilor, disponibilitatea personalului, capacitatea grupelor, eligibilitatea individuală a copiilor, legalitatea achizițiilor ori acceptarea costurilor de AM. Nu acord un calificativ de conformitate 10/10 fără aceste probe.
+
+Matricea manuală identifică 94 de cerințe/grupuri de obligații, inclusiv completarea privind îngrijirea. Fiecare are sursă/localizare, obligație, dovadă existentă, lipsă/remediere, risc și responsabil. Toate rămân deschise până la validarea documentelor. Înregistrările marcate CALCUL confirmă numai verificarea numerică a fotografiei inițiale a bugetelor; după revizie se actualizează valorile și se păstrează istoricul.
+
+Corpusul documentar conține 4.052 de fragmente, inclusiv tabelele GSCG care nu trebuie omise la extracția DOCX. Inventarul automat a semnalat 955 de fragmente candidate pentru obligații. Inventarierea nu este lectura juridică exhaustivă și nu echivalează cu 955 de cerințe validate. Fragmentele PDF pot continua pe linia următoare. Trierea și corelarea cu matricea rămân necesare pentru a demonstra acoperirea fiecărei clauze și trimiteri externe.
+
+1. EXPERIENȚA ONG — CLARIFICAREA ACCEPTATĂ
+Utilizatorul confirmă că EcoWarriors a produs aplicație, module și materiale educative pentru copii și că există contractul de finanțare și raportul final/acceptarea. În consecință, experiența este DECLARATĂ CONFIRMATĂ DE UTILIZATOR, CU DOCUMENTE EXISTENTE DE DEPUS ȘI VERIFICAT. Nu mai este tratată doar ca o pistă publică neconfirmată.
+GSCS 5.1.3, pagina 29, permite, între domeniile enumerate, dezvoltarea de resurse educaționale și metode pedagogice inovatoare. Relevanța se argumentează prin contract și livrabile, nu prin simpla denumire de proiect de mediu. Sunt necesare datele calendaristice exacte și rolul juridic al asociației. Fereastra de trei ani se raportează la momentul relevant al depunerii; nu presupunem date calendaristice pe care utilizatorul nu le-a furnizat. Licența serviciului pentru vârstnici nu este utilizată ca probă a acestei experiențe.
+
+2. EFECTIVELE GRUPELOR ȘI CES
+Surse primare consultate:
+https://legislatie.just.ro/Public/DetaliiDocumentAfis/300022 — Legea 141/2025, art. LIII, punctele 2-3.
+https://legislatie.just.ro/Public/DetaliiDocument/306009 — Legea 198/2023, forma consultată la 18.01.2026, art. 23.
+
+Prin modificarea din 2025, antepreșcolar: grupa mică medie 9/minim 7/maxim 11; mijlocie 14/10/17; mare 16/10/22. Preșcolar: medie 17/minim 12/maxim 22. Cifra 26 poate rezulta numai din aprobarea derogării de maximum patru beneficiari peste maxim, potrivit alin. (6); nu este plafonul general.
+Alin. (1^1)-(1^2) privind constituirea peste medie și excepția unei formațiuni sub medie pe nivel/unitate cu personalitate juridică trebuie verificate împreună cu aprobările reale. Alin. (8) reglementează situația CES, iar alin. (9) reduce efectivul maxim cu trei pentru fiecare copil cu CES integrat.
+Pentru ipoteza simultană de 1.260 de preșcolari, dintre care 224 CES, fără derogări și folosind maximul general 22, o condiție agregată necesară este G >= ceil((1.260 + 3×224)/22) = 88 grupe. Aceasta nu este o dimensionare definitivă: repartizarea pe locații, grupe, perioade, tipuri de CES și aprobările pot impune alte condiții. Dacă beneficiarii sunt cohorte succesive, se verifică încărcarea simultană, nu se presupune că toți ocupă locuri în aceeași lună. O țintă de beneficiari nu este identică unei capacități autorizate.
+Pentru serviciul complementar, HG 1563/2024 are metodologia specială: minimum două grupe, program flexibil de maximum cinci ore/zi și maximum zece ore/zi pentru proiecte europene. Ipoteza de patru ore necesită aprobarea programului și normare legală. Relația dintre metodologia specială, art. 23 în forma actuală și configurația CES trebuie validată de operator/ISJ, nu doar prin formule.
+În arhivă, Legea198_2023_invatamant.html, din forma printabilă 00000G3ANXUL2SCLNQJ2ZR2N1PB7YOIM, include efectivele modificate de Legea 141/2025; data exactă a consolidării acelei copii nu este însă certificată. Fișierul distinct Legea198_2023_forma_de_baza_ID314199.html conține vechile efective și este etichetat expres formă de bază. Aceste două copii nu se confundă.
+
+3. ÎNGRIJIREA ȘI PERSONALUL OPERAȚIONAL AL SERVICIULUI — CORECȚIE DUPĂ REAUDIT
+În prima interpretare a acestui punct s-a dat o pondere prea mare încadrării generale a auxiliarului/administrativului la indirecte. Confruntarea cu auditorul a identificat prevederea specifică expresă din GSCS 5.3.2, pagina 37, în tabelul cheltuielilor directe: include personalul de îngrijire, sprijin și administrativ încadrat în serviciile nou înființate/extinse, inclusiv serviciile complementare. Această corecție înlocuiește interpretarea anterioară și a fost transmisă managerului.
+Prin urmare, funcția operațională din serviciul complementar nou/extins poate fi personal direct pe acest temei specific. Nu se reclasifică automat indirect doar deoarece titlul/COR este auxiliar sau administrativ. Distincția relevantă este între funcționarea serviciului nou/extins și administrația generală a proiectului, aceasta din urmă rămânând indirectă conform GSCG.
+Rămân de verificat încadrarea efectivă în serviciu, fișa postului, norma, pontajul și lipsa dublei finanțări. GSCS p37 exclude decontarea separată a salariilor aferente activităților deja finanțate prin barem; complementar cost real se delimitează de standard ED01/ED02. Pentru un post hibrid se separă sarcinile și se cere clarificare AM/OI numai dacă aplicarea rămâne neclară. Un calcul net sub plafon nu înlocuiește această analiză, iar simpla redenumire nu este probă.
+Nu recomandăm eliminarea liniei actuale de îngrijire pe baza etichetei postului. Reducerea directelor și a bazei15% ar deveni relevantă doar dacă documentele ar arăta că linia privește administrația generală a proiectului sau o altă situație neeligibilă.
+
+4. SALARIZARE, TIMP DE MUNCĂ ȘI REGIM PUBLIC
+GSCG separă personalul public din organigramă de posturile în afara organigramei. Tariful PEO net este plafon de eligibilitate, nu grilă salarială automată pentru personalul UAT. Fiecare post necesită temei de ocupare, statut, salariu/majorare legală și documente de experiență. Se verifică Legea 153/2017 art. 16, HG 234/2023 și modificările, inclusiv HG 1009/2025. Forma de bază a Legii 153 descărcată nu certifică toate drepturile salariale actuale.
+HG 146/2026, art. 1, stabilește de la 01.07.2026 salariul minim brut 4.325 lei/lună și 25,949 lei/oră. Sursa primară: https://legislatie.just.ro/Public/FormaPrintabila/00000G0UWAJQDLM8S3J00SPP9LDAJLOY . Pentru execuția din 2027-2029 se reverifică regulile în vigoare, fără a prezuma păstrarea valorii din 2026.
+Costul total al angajatorului, brutul, netul, CAS/CASS, impozitul, CAM și eventualele excepții se determină individual. Bugetul estimativ nu este stat de plată. Limita de decontare PEO de 12 ore/zi și 60 ore/săptămână cumulat nu înlocuiește Codul muncii privind durata, media legală, repausul și pontajele. Cumulurile între angajatori și concediile se verifică nominal. Ipoteza de 21 zile/lună nu este un calendar legal al muncii.
+
+5. RECTIFICĂRI REMEDIABILE ÎN DOCUMENTELE DE PROIECTARE
+- Defalcarea costurilor salariale pe regim UAT/ONG, tip funcție, experiență, brut/net/CAM, ore reale și temei; fără validare numai printr-o conversie netă generică.
+- Registru al grupelor: operator, locație, nivel/vârste, efectiv total, CES, simultaneitate, program, autorizație și derogare. Separarea țintelor de copii unici de capacitatea fizică.
+- Documentarea rolului operațional din serviciul complementar conform GSCS p37; recalcul numai dacă probele schimbă încadrarea, nu automat după titlul de auxiliar.
+- Calendar copil-lună pentru bareme, vârsta la fiecare lună, absențe și măsuri împotriva finanțării acelorași componente din costul standard național/PEO/PNRR/buget local.
+- Fundamentare cu oferte comparabile și specificații. Prețul estimat nu este ofertă de piață obținută.
+- Plan distinct, cuantificat, pentru lunile nefinanțate de grant și minimum trei ani de continuitate. Existența fondurilor a fost confirmată; se cer alocarea instituțională și actele, nu reconfirmarea disponibilității.
+- Dosar de selecție transparentă a ONG, acord unic și notă de valoare adăugată. Nominalizarea ONG de către utilizator nu substituie procedura publică.
+- Formulare GDPR pentru copii și roluri UAT/ONG/operator: cerința consimțământului din GSCS se armonizează cu temeiurile art. 6/art. 9, reprezentarea legală și informarea. Un acord general nu validează orice prelucrare. Registrele de audit folosesc pseudonimizare.
+
+6. DOCUMENTE ȘI LIMITE
+Au fost analizate regulile relevante din GSCS, GSCG, anexele de selecție/experți, grilă și condițiile contractuale specifice, sursele legislative citate și fotografia bugetară. Contractul general integral aplicabil, manualul beneficiarului, instrucțiunile AM/OI și trimiterile normative trebuie confruntate în versiunile valabile. Nu se afirmă lectura integrală sau validarea fiecărui act voluminos din arhivă.
+Lipsurile de probă se închid numai prin documente; reviziile de text ori schimbarea etichetelor nu le închid. Iterația următoare verifică probele primite, noile bugete și închiderea fiecărei constatări, cu sursă și dată.
+
+ACTUALIZAREA ARHIVEI LEGISLATIVE
+Registrul final din 2.1 consemnează 30 din 35 de surse descărcate. GDPR, sursă oficială ANSPDCP, a fost recuperat integral ca PDF de 87 pagini; au fost citite secțiunile relevante art. 6, 9, 13, 26, 28 și 35, fără a declara lectura integrală a celor 87 de pagini. Sursa: https://www.dataprotection.ro/servlet/ViewDocument?id=1262 . Art. 6 cere un temei pentru fiecare scop; art. 9 necesită în plus excepția aplicabilă datelor sensibile (sănătate/etnie); art. 26/28 delimitează operatorii asociați și persoanele împuternicite. Evaluarea necesității unei analize de impact potrivit art. 35 trebuie consemnată. Cerința de consimțământ din GSCS p18 rămâne de armonizat cu aceste temeiuri și cu reprezentarea copilului; nu se folosește un acord general pentru orice prelucrare.
+Restante: Regulamentele UE 2021/1057, 2024/2509 și 2023/1676, Recomandarea 2022/C 476/01 și Carta drepturilor fundamentale. Un răspuns HTTP fără conținut nu a fost înregistrat drept document descărcat.

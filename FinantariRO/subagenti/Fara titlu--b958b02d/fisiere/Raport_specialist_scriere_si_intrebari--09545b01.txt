@@ -1,0 +1,116 @@
+RAPORT SPECIALIST SCRIERE PROIECTE – ARHITECTURĂ ȘI CLARIFICĂRI
+07.10.2026 | ASOCIAȚIA ROMANIAN SOUL ENTITY, CUI 29433614
+Stadiu: proiectare condiționată de datele beneficiarului; nu reprezintă cerere finală, audit certificat sau confirmare AM.
+
+1. CONCLUZII PENTRU DECIZIE
+ONG-ul poate participa ca partener finanțat, dacă dovedește condițiile GSCS 5.1.3; nu este categorie de lider eligibil. ROSE este serviciul social, nu o persoană juridică distinctă demonstrată. Alegerea unui lider eligibil și dovada minimum unui proiect relevant implementat de ONG în ultimii 3 ani preced definitivarea bugetului. Nu inventăm experiență educațională pornind de la serviciul de îngrijire a vârstnicilor.
+Scenarii financiare de lucru: 700.000 EUR = 3.680.880 lei și 1.000.000 EUR = 5.258.400 lei, curs GSCS 5,2584. Sunt totaluri eligibile, inclusiv contribuțiile proprii ale entităților. Contribuția ONG de 0% nu înseamnă automat contribuție 0% pentru liderul public; se calculează separat pe entități potrivit categoriei GSCG.
+Anexa 3 nu punctează o contribuție proprie mai mare. Nu există «contribuție maximă pentru punctaj». O contribuție voluntară poate fi simulată separat, fără a-i atribui puncte. Nu folosim o sumă arbitrară drept prag oficial.
+480/720 elevi sunt ipoteze, nu recrutare confirmată. Ambele depășesc 456 și pot obține aceleași 3 puncte la 1.7. 720 elevi se justifică prin nevoi și capacitate, nu prin puncte suplimentare inexistente. Minimele de rezultat corespunzătoare sunt 384/576 elevi, înaintea oricărei ținte asumate mai ambițioase.
+Pentru Alba, fără intervenție reală ITI Delta Dunării și aviz, maximul teoretic este 99/100. Nu confundăm maximul posibil cu punctajul demonstrat astăzi. Pragurile eliminatorii sunt 21/30, 21/30, 21/30 și 7/10, minimum total 70.
+
+2. ARHITECTURA PROPUSĂ, TOATE ACTIVITĂȚILE ELIGIBILE
+Lider: școală eligibilă acreditată, ISJ sau CJRAE, de confirmat. Partener: asociația, numai după verificarea experienței și capacității. Școlile de recrutare pot fi parteneri asociați fără finanțare, cu Anexa 7, dacă nu sunt deja membri finanțați care asigură integral grupul țintă.
+Nu este necesară adăugarea tuturor categoriilor de parteneri eligibili. Reducerea numărului de entități scade costurile coordonării, dacă rămân acoperite competențele necesare. Bugetul liderului trebuie să fie strict mai mare decât al fiecărui partener individual; excepția pentru parteneriate exclusiv publice nu se aplică parteneriatului cu ONG.
+
+A1.1 – Alfabetizare funcțională: diagnostic T0 pe domenii, planuri individuale, activități remediale SAU pregătire/aprofundare în funcție de diagnostic, lectură/scriere, matematică aplicată, științe, media, digital, AI și date; reevaluare și ajustare. Livrabile: instrumente, registre distincte de participare, planuri și fișe de progres. Elevul nu se plasează automat concomitent în remediere și aprofundare pe aceeași nevoie.
+A1.2 – STEAM și inovare: ateliere/mentorat, proiecte aplicate, utilizare kituri și dotări justificate prin inventarul existent, competiții documentate. Premiile sunt condiționate de rezultatele reale; nu sunt plăți automate tuturor. Pentru competițiile interne, comisie cu cel puțin un membru extern și maximum 30% elevi premiați; plafoane elev/concurs 1.000/700/500/300 lei, cu subvențiile mentorilor în condițiile ghidului. Calendar și procedură de concurs distincte de simpla participare la ateliere.
+A2 – Echitate: transport, masă justificată prin zile și prezențe, consiliere, abilități sociale, prezentări/târguri/ateliere non-formale. Analiză pe elev/interval pentru complementaritatea cu Masa Sănătoasă și alte programe; nu eliminăm automat masa suplimentară eligibilă, dar nici nu dublăm aceeași prestație.
+A3 – Inovare curriculară: consultări elevi/părinți/comunitate, proiectare și avizare CDEOȘ, resurse interactive și accesibile, formare/mentorat profesori pentru aplicarea noilor abordări. Modulele profesorilor sunt complementare apelului necompetitiv relevant; declarație individuală anti-dublă finanțare în metodologia GT. Asumarea EECO05/EECR03 se corelează cu profesorii efectiv formați și documentele rezultate.
+A4 – Colaborare comunitară: aplicații reale cu muzee, universități, firme sau alte entități relevante; vizite și mentorat cu obiective educaționale, produse elevi și dovezi. Acordurile de colaborare descriu contribuții concrete; nu transformăm furnizorul de excursii în partener de expertiză.
+A5 – Impact și scalare: T0, evaluări intermediare și finale, progres raportat la standardele aplicabile, efectele A3/A4, raport cu limitările metodologice, recomandări de integrare și diseminare. Publicarea datelor se face agregat și cu respectarea protecției minorilor.
+Management și monitorizare transversală: calendar, achiziții, buget, date GT, riscuri, vizibilitate, control al dublei finanțări. Activitățile A1+A2 minimum 50% din totalul eligibil. A3–A5 sunt opționale în ghid, incluse aici la cererea beneficiarului; simpla lor bifare nu produce automat punctaj maxim.
+
+Calendar orientativ: lunile 1–3 organizare, diagnostic, recrutare, achiziții și proiectare; 4–24 implementare în semestre școlare și monitorizare; 25–30 consolidare, evaluare finală, integrare instituțională și diseminare. Succesiunea se ajustează după data contractului și calendarul școlar. Maximum 30 luni, final cel târziu 31.12.2029.
+
+3. PERSONAL PUȚIN, DAR CAPACITATE DEMONSTRABILĂ
+Nucleu de management: manager și responsabil financiar la lider, coordonator și responsabil financiar la partener; orice cumul de funcții necesită verificarea legală, a orelor și separării atribuțiilor. Achiziții/asistent manager nu se adaugă automat ca posturi distincte. Experții educaționali se dimensionează prin număr grupe × ore/grupă × cicluri, plus diagnostic, pregătire, monitorizare și livrabile; nu numai prin salarii maxime admise.
+Se folosesc spațiile și resursele existente înaintea achizițiilor noi. ONG trebuie să execute activitatea relevantă pentru care este selectat și nu o poate transfera integral unui subcontractor. Contractarea suportului este posibilă în limitele GSCS. Echipa de agenți pentru pregătirea dosarului nu este echipa de salariați bugetată în proiect.
+Atribuțiile tuturor posturilor trebuie să aibă educație, experiență specifică, ore, activități și livrabile; evităm suprapunerea manager/coordonator, mentor/formator/evaluator pentru aceleași ore. Reducerea artificială a personalului riscă punctele 3.3–3.4 și imposibilitatea realizării indicatorilor.
+
+4. MATRICE DOCUMENTE – DEPUNERE
+D01 Cerere MySMIS completă, semnată; lider; obligatoriu. Activități, indicatori, buget pe entități, achiziții, capacitate, teme secundare și sustenabilitate concordante.
+D02 Anexa 1 GSCS Declarația unică; reprezentanții entităților în forma cerută de sistem/model; obligatoriu. Eligibilitate, excluderi, cofinanțare, cheltuieli neeligibile, lichiditate și notificarea schimbărilor în 5 zile lucrătoare. Nu declarăm pozitiv elemente neprobate.
+D03 Acord unic de parteneriat, Anexa 1 GSCG; toate entitățile finanțate; obligatoriu pentru această structură.
+D04 Notă valoare adăugată; lider, cu datele partenerului; roluri, expertiză, resurse, bugete și avantajul utilizării eficiente a fondurilor.
+D05 Dosar/procedură selecție partener privat, Anexa 2 GSCG; lider public; condiție de eligibilitate, nu formalitate completată retroactiv.
+D06 Analize de piață bunuri/servicii/lucrări; titular achiziție; cantități, specificații neutre, prețuri comparabile și necesitate; documente justificative încărcate conform 7.3–7.4.
+D07 Anexa 5 GSCS Carta drepturilor fundamentale; fiecare entitate potrivit modelului; include asumări în elaborare, implementare și sustenabilitate.
+D08 Anexa 6 GSCS Convenția ONU; fiecare entitate potrivit modelului; acces fizic, transport, informație și tehnologie, nu doar semnătură formală.
+D09 Anexa 7 GSCS acorduri de colaborare; lider + fiecare școală sursă unde este necesar; și colaboratori A3/A4 după caz. Asociații nu primesc finanțare; rolurile includ acces, date inițiale/progres, corelare PDI și cooperare la verificări.
+D10 CV manager și documente studii/experiență; lider; obligatoriu la depunere.
+D11 CV coordonator partener și documente studii/experiență; ONG; obligatoriu la depunere.
+D12 Probe experiență instituțională solicitant/parteneri; contracte/protocoale, rapoarte, rezultate, durate și indicatori; distinct de CV persoană.
+D13 Aviz ADI ITI Delta Dunării; doar dacă există intervenție aferentă; neaplicabil scenariului Alba de bază.
+D14 Metodologie identificare/selectare GT; opțională la depunere în ghid, recomandată pentru 4 puncte. Include selecție elevi/profesori, suport catering/transport/mentorat, mecanism premii/subvenții și declarația profesorilor privind dubla finanțare.
+D15 Analiză de nevoi pe fiecare școală, surse datate, rezultate testări/examene, inventar resurse și date de participare; probă esențială pentru Anexa 3, nu simplă descriere națională.
+D16 Dovezi atingere indicatori în operațiuni anterioare; fiecare entitate; necesare susținerii punctajului 3.7, separat de eligibilitatea proiectului relevant în ultimii 3 ani.
+D17 Fișe post/organigramă, plan monitorizare și riscuri, angajamente integrare curriculară și surse sustenabilitate; informațiile se integrează în cerere și se anexează unde este util/solicitat.
+Documentele în altă limbă se încarcă împreună cu traducerea legalizată în română cerută de 7.2.
+
+5. ANEXELE 1–7: OBLIGAȚII ȘI DISTINCȚII
+Anexa 1: declarație de eligibilitate și asumare, cu probe la contractare; nu înlocuiește verificarea internă înaintea depunerii.
+Anexa 2: grilă preliminară DA/NU/NA, inclusiv capacitate financiară, selecție partener, activități obligatorii, grup țintă, buget și principii. Instrument de verificare, nu formular de semnat ca declarație.
+Anexa 3: grilă calitativă. Fiecare punct cerut se leagă de o secțiune și o probă; contribuția suplimentară nu este criteriu. Tema verde minimum 4% din directe pentru punctul aferent; tema 10 în proporție de 100%, explicată coerent în buget.
+Anexa 4: contract – condiții specifice; de analizat și asumat la contractare. Aprobarea nu validează definitiv cheltuielile. Reducerea indicatorilor poate diminua finanțarea, iar plafoanele se recontrolează la cheltuielile autorizate. Numerarul temporar și corecțiile nu sunt acoperite automat de finanțator. Drepturi asupra rezultatelor, acces la documente, conturi/pre-finanțare, modificări, conflicte, nereguli și răspunderi ale partenerilor rămân obligații.
+Anexa 5: Carta; asumări în toate fazele și răspundere pentru încălcări.
+Anexa 6: Convenția ONU; accesibilitate concretă conform art. 9.
+Anexa 7: acord asociat fără buget; nu înlocuiește acordul de parteneriat finanțat. Bunurile puse la dispoziție pot fi donate de lider în condițiile durabilității; verificăm traseul juridic al fiecărei dotări, fără presupunere că ONG păstrează echipamentele școlii.
+
+6. CONTRACTARE – PACHET DE PREGĂTIT DIN TIMP
+Acte de înființare/personalitate juridică, statut actualizat; extras Registrul Asociațiilor/Fundațiilor sau certificat instanță pentru ONG; ONRC numai unde se aplică formei juridice, nu cerut mecanic ONG-ului.
+Certificate fiscale ANAF și locale, inclusiv puncte de lucru și anexele cerute; verificare praguri restanțe din ghid, fără deducție din bilanț că nu există datorii fiscale.
+Împuternicire consiliu director, după caz; lista nominală resurse umane; CV Europass în română și probe educație/experiență; declarațiile specifice funcțiilor/incompatibilităților și GSCG.
+Declarații anti-dublă finanțare și utilizare eficientă a fondurilor; declarație menținere condiții inițiale; fișe identificare financiară și conturi; lista echipamentelor cu justificarea destinației/utilității și declarație anti-dublă finanțare; anexe actualizate dacă au intervenit schimbări.
+Plan monitorizare – Anexa 2 contract general; grafic cereri – Anexa 3 contract general; acestea nu se confundă cu anexele 2 și 3 GSCS (grilele).
+Situații financiare și documentele necesare algoritmului GSCG, evidența proiectelor simultane și lichiditatea; consultarea ANAF publică nu înlocuiește documentele semnate/depuse ale ONG-ului.
+
+7. ÎNTREBĂRI PRIORITARE PENTRU BENEFICIAR
+P0 – ÎNAINTE DE FIXAREA STRUCTURII ȘI BUGETULUI
+1. Ce instituție eligibilă acceptă concret rolul de lider: denumire, CUI, reprezentant și regim de finanțare? Care este persoana de contact și când poate confirma instituțional?
+2. Ce proiect implementat de ROMANIAN SOUL ENTITY în ultimii 3 ani dovedește domeniul educațional/STEAM/tehnologic/alfabetizare cerut? Pentru fiecare: denumire, perioadă, contract, rol, activități, beneficiari, raport și rezultate. Dacă nu există, indicăm explicit; nu îl substituim cu experiența personală a unui viitor expert.
+3. Care sunt școlile concrete, acreditarea, nivelurile școlare, localitățile și elevii recrutabili? Ce număr poate fi susținut prin acord și date: 480 sau 720, cu rezervă realistă de recrutare și retenție?
+4. Puteți furniza bilanțurile/situațiile financiare depuse, recipisele și balanțele necesare pentru 2023–2025 (și istoric unde lipsește din ANAF), lista proiectelor în curs și sursele de numerar temporar? Cine este contabilul autorizat să confirme datele?
+5. Ce activități relevante va executa direct ONG și cu ce personal calificat disponibil, demonstrabil? Care este bugetul operațional pe care îl poate gestiona în mod realist?
+
+P1 – PENTRU DESIGN ȘI PUNCTAJ
+6. Pe fiecare școală, ce date concrete arată deficitul de alfabetizare și potențialul STEAM? Sunt disponibile rezultate examene/testări, evaluări inițiale, participări la competiții, date SIIIR și consultări elevi/profesori/părinți?
+7. Ce clase și vârste includem și ce proporție estimăm în A1.1/A1.2, cu eventuală suprapunere documentată? Câte grupe, ore săptămânale și semestre sunt realizabile în spațiile și orarele școlilor?
+8. Ce dotări, laboratoare, platforme, licențe și consumabile există deja, inclusiv din PNRR/PNRAS/alte proiecte? Cine deține inventarul, ce lipsește efectiv și cine suportă mentenanța după proiect?
+9. Ce elevi au nevoie de transport/masă/adaptări accesibilitate și pentru ce zile/intervale? Ce sprijin primesc deja, din ce programe și pe ce intervale?
+10. Câți profesori trebuie formați pentru CDEOȘ și ce formări au parcurs sau vor parcurge în paralel? Ce module complementare sunt necesare, cine le avizează și în ce calendar curricular?
+11. Ce instituții/firme/muzee/universități sunt disponibile pentru A4 și ce contribuție educațională concretă oferă? Sunt confirmabile accesul, mentorii și numărul de activități?
+12. Cine sunt managerul și coordonatorul ONG propuși, cu ce CV și probe? Ce experți educaționali sunt disponibili și ce încărcare au deja în alte contracte/proiecte?
+13. Ce operațiuni anterioare ale liderului și ONG au indicatori realizați peste 90% și ce documente finale confirmă rata, pentru punctajul 3.7?
+14. Ce hotărâri/angajamente pot asigura integrarea curriculară, accesul gratuit viitor la dotări și finanțarea mentenanței, licențelor și activităților după finalizare? Cu ce surse și sume anuale?
+15. Care variantă este preferată după verificarea școlilor și capacității: minimul eligibil sau maximul? O contribuție voluntară ONG este dorită din motive de finanțare, deși nu aduce punctaj, și din ce sursă certă?
+16. Cine confirmă reprezentarea legală, sediul actual, situația fiscală, statutul educațional și eventualele conflicte de interese? Datele publice diferite de adresă trebuie reconciliate prin acte actuale.
+
+P2 – DETALII OPERAȚIONALE
+17. Ce competiții dorim și putem susține, cu calendar, nivele și rezultate urmărite? Ce regulă de premiere este adecvată numărului real de participanți?
+18. Ce politică de protecție a minorilor, informare GDPR, consimțământ pentru fotografii unde este necesar și mecanism de reclamații există în școli/ONG?
+19. Ce limite de achiziții și termene administrative are liderul și cine efectuează procedurile? Ce interval de lansare a activităților este realist după contract?
+20. Care sunt cele mai importante rezultate educaționale dorite de beneficiar, în afara finanțării: recuperare decalaje, rezultate examene, performanță STEAM sau toate, și cu ce prioritate fundamentată?
+
+8. CLARIFICĂRI CĂTRE AM/OI – PROIECTE DE ÎNTREBĂRI, NETRANSMISE
+AM1 Dacă probele ONG sunt proiecte mixte de servicii sociale cu o componentă educațională, se poate confirma încadrarea acelei componente în «impact social în educație» pe baza dosarului anexat? Se descriu concret proiectul, obiectivele, perioada și rezultatele; nu cerem derogare generică pentru orice activitate socială.
+AM2 Cum se aplică la verificarea preliminară excepția GSCS 5.1.4 privind contractarea de către partener a activităților suport, în raport cu formularea generală din Anexa 2 că subcontractarea revine solicitantului? Solicităm confirmare pe lista efectivă de suport și păstrăm execuția directă a activității relevante.
+AM3 Pentru subvențiile mentorilor, cum se cumulează pe concurs situația mai multor elevi/echipe cu aceeași distincție pregătiți de același mentor și cea cu mai mulți mentori pentru același elev? Bugetarea definitivă necesită regula de numărare; plafoanele pe tip de premiu sunt deja în ghid.
+AM4 Vă rugăm confirmați trimiterile aplicabile competițiilor din GSCS (OME 4203/2022, OMEC 3066/2026), în raport cu actele actuale identificate de jurist, și efectul asupra calendarului competițiilor 2026–2029.
+AM5 Pentru echipamente achiziționate de un lider ISJ/CJRAE și utilizate de școli asociate, care este traseul de proprietate/documentare acceptat pentru cerința de durabilitate, ținând cont de GSCS 3.18, Anexa 3 pct. 4.1 și donația prevăzută în Anexa 7? Atașăm schema concretă a bunurilor; nu presupunem transfer automat.
+AM6 Dacă API-ul ANAF public nu furnizează valorile ONG pentru anii analizați, ce set de situații/recipise/confirmări este acceptat pentru dovedirea capacității, în situația concretă constatată de economist? Nu echivalăm lipsa publicării cu venituri zero.
+AM7 În măsura în care forma finală a standardelor OMEC 4615/2026 se modifică înaintea implementării, care este referința de actualizat în metodologia T0/Tfinal și ce actualizare necesită aprobarea AM? Nu se aplică unui proiect de ordin statut de normă în vigoare.
+Nu transmitem email/tichete fără instrucțiune explicită. Ghidul 4.2 indică Helpdesk/ticketing, răspuns în maximum 10 zile lucrătoare și nu după închiderea apelului; întrebările trebuie trimise suficient de devreme.
+
+9. CONTROLUL DOCUMENTULUI PREEXISTENT «CONDIȚII DE ELIGIBILITATE.docx»
+Verificat prin textul extras existent. Conținutul principal este concordant cu GSCS: calendar, interval/curs, ONG partener, experiență, 400 elevi, 80% rezultat, activități, plafoane și praguri. Nu este justificată rescrierea ca document eronat.
+Completări necesare: rata proprie ONG 0% și rata distinctă a liderului potrivit GSCG; inexistența bonusului pentru contribuție proprie; plafon teoretic 99 puncte pentru Alba fără ITI; dovada experienței ONG nu rezultă din statutul social; buget lider strict mai mare individual decât fiecare partener; capacitatea financiară încă necertificată; prag >456 elevi pentru maxim la 1.7; costul sustenabilității și traseul bunurilor.
+Formularea despre proprietatea dotărilor trebuie citită împreună cu Anexa 7 și cu liderul ales; nu este suficientă pentru a decide o donație sau pentru a bugeta dotări păstrate de ONG.
+Nu am modificat DOCX-ul preexistent; raportul este supliment de control, pentru a păstra documentul original.
+
+10. TRASABILITATE ȘI LIMITE
+Surse principale: GSCS anexă OMIPE 1517/2026, secțiuni 3.7–3.8, 3.18, 4, 5.1–5.6, 7–8; anexele 1–7 din surse_text; raportul juridic existent și concluziile economistului/managerului pentru coordonarea scenariilor. Matricea distinge cerințele explicite de documentele recomandate pentru punctaj.
+Acesta nu este un certificat că fiecare document programatic, act normativ și copie descărcată ulterior a fost citit integral. Documentele oficiale prevalează; versiunile în vigoare și clarificările publicate se reverifică înaintea depunerii. Lista poate fi completată după analiza tuturor documentelor noi și primirea datelor reale. Nicio experiență, acreditare, recrutare, ofertă sau cofinanțare nu a fost inventată.
+
+ACTUALIZARE DE CADRU – 07.10.2026, DUPĂ CLARIFICAREA UTILIZATORULUI
+Se continuă proiectarea în condiții ideale, urmând selectarea școlilor și a proiectelor anterioare ROSE care corespund profilului. Fondurile sunt declarate suficiente; utilizatorul declară că nu există alte proiecte PEO aprobate. Întrebările P0 de mai sus devin checklist de definitivare, nu blocaje ale proiectării. Consultați Fisa_selectie_scoli_ideale.txt și Fisa_conditii_minime_ROSE.txt pentru cerințe obligatorii, punctaj și recomandări distincte. Centralizatorul oficial Q33 p.16 precizează că proiectele/contractele invocate trebuie finalizate, nu în curs, indiferent de sursa de finanțare. Această clarificare completează formularea GSCS despre implementare în ultimii 3 ani. Profilul ideal presupune demonstrarea separată a minimum unui proiect relevant, a duratei experienței pentru 3.6 și a ratelor indicatorilor peste 90% pentru 3.7. Documentele originale nu sunt tratate ca verificate doar prin alegerea ipotezei ideale.

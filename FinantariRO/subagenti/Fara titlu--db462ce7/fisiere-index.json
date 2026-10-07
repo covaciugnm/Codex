@@ -1,0 +1,65 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\7.1 Audit iterativ\\lectura_Runda2\\HCL235-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/HCL235-1--34831770.png",
+    "bytes": 95132,
+    "sha256": "ef18bd24339950fb0f39ca7383db9e81c6518f3a3a4755370ec4fd42ae370e98"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\7.1 Audit iterativ\\lectura_Runda2\\HCL235-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/HCL235-2--296d28bc.png",
+    "bytes": 57109,
+    "sha256": "9cbb498587a98bc340eb4f59bf0c563f0b9e481e9962bcf2829d61882abc78ab"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\7.1 Audit iterativ\\lectura_Runda2\\HCL235-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/HCL235-3--194cc47f.png",
+    "bytes": 62487,
+    "sha256": "edf6fe286b124c78555e1790ae621df02432388b6f58e8c67a623f1f4fb0a37e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\7.1 Audit iterativ\\lectura_Runda2\\HCL235-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/HCL235-4--dbf5c81c.png",
+    "bytes": 24108,
+    "sha256": "eedd694365e55d9db907c3d45f8778adfb8aacd78bf4e9012e367ee1cdefd53e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\audit_round3_new.py",
+    "status": "copiat",
+    "saved_path": "fisiere/audit_round3_new--2300ee95.py",
+    "bytes": 4834,
+    "sha256": "60a7e7f3a382b008e86b64549a9d9491944f1098aa170c91832f9e1450d1063b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\build_a44_matrix.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_a44_matrix--d6a90ba5.py",
+    "bytes": 14410,
+    "sha256": "90ee110c768e0a5541681791c5a90da063f2a52ebaa609fbdcb79975d34b486e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\build_round2_report.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_round2_report--8c9ea93b.py",
+    "bytes": 21281,
+    "sha256": "83b5894a9608dd30ac98c8a477d3e21340b429b8bd3ae900fda5c65055cee3c2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\build_round3_addendum.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_round3_addendum--92312037.py",
+    "bytes": 15242,
+    "sha256": "5fee16483ace15e75596c34b442cf1c69dc0425247954a394e1a296c052e2dac"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\polish_round3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/polish_round3--6bfe5f3a.py",
+    "bytes": 5416,
+    "sha256": "54e594b70ac9ccb7928d43eb593b6e73e7b8e512c4a88fcb72eae3c33bee69c8"
+  }
+]

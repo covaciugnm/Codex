@@ -1,0 +1,172 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\build.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build--4279fbf8.mjs",
+    "bytes": 41492,
+    "sha256": "8c3eced0ebc92d1af2d92b83f85077150dc3e0d0471d3044840c246852dc8449"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\check_delivery.py",
+    "status": "copiat",
+    "saved_path": "fisiere/check_delivery--7ec15c5c.py",
+    "bytes": 1647,
+    "sha256": "56efac5ecaad632d35cd23bf694514a8e9e6d40e043471b3ba1444ec748d6684"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\deliver.py",
+    "status": "copiat",
+    "saved_path": "fisiere/deliver--21b4ae88.py",
+    "bytes": 11754,
+    "sha256": "91e04c0a2c2dac0326e431e713df10aea4f695c610c01e819ffa39610c10933e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\maxim_Achizitii.png",
+    "status": "copiat",
+    "saved_path": "fisiere/maxim_Achizitii--b982082d.png",
+    "bytes": 211750,
+    "sha256": "ba03fccfeeb3e06084f48e955b2836ce9e9d9619d2face689e47a2a14b3da94e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\maxim_Activitati.png",
+    "status": "copiat",
+    "saved_path": "fisiere/maxim_Activitati--2890fb8d.png",
+    "bytes": 73965,
+    "sha256": "29635e05193d8c59a24eb20fdf158465617325f1e56479889170a186a0f09c8c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\maxim_Buget.png",
+    "status": "copiat",
+    "saved_path": "fisiere/maxim_Buget--e0da5ebd.png",
+    "bytes": 184804,
+    "sha256": "f12a9cb1b19a602d05b26ad4d893944ac982242c79206dd75c696863a9ffc9e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\maxim_Parametri.png",
+    "status": "copiat",
+    "saved_path": "fisiere/maxim_Parametri--05bd6376.png",
+    "bytes": 179883,
+    "sha256": "13b423f1cd125399f345d6123cb37e4b55ea8ecd5464ab5dbb3f3e2dc304f77d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\maxim_Personal.png",
+    "status": "copiat",
+    "saved_path": "fisiere/maxim_Personal--46d3318d.png",
+    "bytes": 165639,
+    "sha256": "f5f5a4796d769b9a91c914ab16ce44605d818d9b38b8fd15d79596f4cd108404"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\maxim_Salarizare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/maxim_Salarizare--2035d703.png",
+    "bytes": 166902,
+    "sha256": "61fd94382f61f578d0e3b088dbca0393b0a5e35cbde33df69578907523dd46bd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\maxim_Sinteza.png",
+    "status": "copiat",
+    "saved_path": "fisiere/maxim_Sinteza--0a41433d.png",
+    "bytes": 154709,
+    "sha256": "43015f02643b37b6d0ab3cfb2d0a9c14e1432d725f0bb832f2c8bf5334cc4eff"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\maxim_Verificari.png",
+    "status": "copiat",
+    "saved_path": "fisiere/maxim_Verificari--c0afce54.png",
+    "bytes": 174060,
+    "sha256": "f66080bd460f9b0e5510e3eda73ae95cef5275eddef9f136b17cc61a456772f5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\minim_Achizitii.png",
+    "status": "copiat",
+    "saved_path": "fisiere/minim_Achizitii--143c817e.png",
+    "bytes": 211750,
+    "sha256": "ba03fccfeeb3e06084f48e955b2836ce9e9d9619d2face689e47a2a14b3da94e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\minim_Activitati.png",
+    "status": "copiat",
+    "saved_path": "fisiere/minim_Activitati--e7a12178.png",
+    "bytes": 73951,
+    "sha256": "38fcd4b284ffb2e3c08c8261739456967a3cce9c485917bdbe0a33543a3b6cf5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\minim_Buget.png",
+    "status": "copiat",
+    "saved_path": "fisiere/minim_Buget--cbb4cd56.png",
+    "bytes": 185737,
+    "sha256": "6a94e06a4e1789fcc12a7a53d3e51b6785138b2994e7c1144defeffd72d8f46f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\minim_Parametri.png",
+    "status": "copiat",
+    "saved_path": "fisiere/minim_Parametri--c56342fe.png",
+    "bytes": 179512,
+    "sha256": "18b33a2f38194b69cf56cf7ad8987cf2e74e5831adfa547f92791f707672680a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\minim_Personal.png",
+    "status": "copiat",
+    "saved_path": "fisiere/minim_Personal--7e1b3b81.png",
+    "bytes": 165880,
+    "sha256": "672a2c78ea779131a89dd142f3c556ced63f6401f250a5e85fe381fa83c2fda0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\minim_Salarizare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/minim_Salarizare--74fb6282.png",
+    "bytes": 166902,
+    "sha256": "61fd94382f61f578d0e3b088dbca0393b0a5e35cbde33df69578907523dd46bd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\minim_Sinteza.png",
+    "status": "copiat",
+    "saved_path": "fisiere/minim_Sinteza--03b87a8b.png",
+    "bytes": 152806,
+    "sha256": "17ee73b9a9ea2ad6d9615fe45d7f1f1cb55d0c9bd72abd0e747e71b643b40c71"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115aa-4be4-7970-b575-6c5fe6d83c4f\\bugete\\output\\minim_Verificari.png",
+    "status": "copiat",
+    "saved_path": "fisiere/minim_Verificari--c78020ec.png",
+    "bytes": 175293,
+    "sha256": "024e7ffc4f8bb15d04c63103c1390bd83428eefbc560cb76fc029d1a33112a55"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - SCOLI ISJ CJRAE ONG PARTENER - PEO P7 7.e.3 Scoli pentru viitor/00 RAPORT CENTRAL - SCOLI PENTRU VIITOR.html",
+    "status": "copiat",
+    "saved_path": "fisiere/00 RAPORT CENTRAL - SCOLI PENTRU VIITOR--f465a169.html",
+    "bytes": 165732,
+    "sha256": "97507b66f8dcb67955ca8d34fed1b6bbc64c7f005a9498b517fc5b8a3ab54f0c"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - SCOLI ISJ CJRAE ONG PARTENER - PEO P7 7.e.3 Scoli pentru viitor/5.1 Buget maxim eligibil - 1000000 EUR/Buget_maxim_doua_scenarii_contributie.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Buget_maxim_doua_scenarii_contributie--e24a0d42.xlsx",
+    "bytes": 55054,
+    "sha256": "7ae0d080aa91fa9110a9849bd9209e2ee4e2320c326b36c45f89dceaa9b8e066"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - SCOLI ISJ CJRAE ONG PARTENER - PEO P7 7.e.3 Scoli pentru viitor/5.1 Buget minim eligibil - 700000 EUR/Buget_minim_doua_scenarii_contributie.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Buget_minim_doua_scenarii_contributie--85f84ab0.xlsx",
+    "bytes": 55040,
+    "sha256": "8acad5341b812b1b202927957d98a14b53f9287ac7f303672f9ebb0f70dde6ab"
+  },
+  {
+    "source_reference": "http://www.protectiasocialaalba.ro/wp-content/uploads/2024/05/Furnizori-servicii-sociale-jud.-Alba.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ro.scribd.com/document/469517300/Copy-of-Chestionar-MMJS-2019-BIHOR2-3-1-xls",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.totalfirme.ro/asociatia-romanian-soul-entity-29433614",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "mailto:romaniansoulentityong@gmail.com",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

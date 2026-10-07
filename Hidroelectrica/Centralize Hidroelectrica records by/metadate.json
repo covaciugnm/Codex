@@ -1,0 +1,23 @@
+{
+  "id": "01a115a6-7b36-7660-a191-4af704c009d2",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Hidroelectrica",
+  "created_at": 1791364594,
+  "updated_at": 1791367305,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Centralize Hidroelectrica records by",
+  "project_id": "0342b0dc-be68-43fb-b135-3d436d2d009d",
+  "project": "Hidroelectrica",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T14:10:54.540840+00:00",
+  "source_bytes": 16870356,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 254,
+  "message_count": 17,
+  "content_sha256": "597166356265f351fef24c975078291de8fbbbfdb38550c1a9aee0c2fc722506",
+  "files_copied": 8,
+  "references_not_copied": 25
+}

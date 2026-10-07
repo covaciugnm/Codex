@@ -1,0 +1,66 @@
+ANEXĂ — REGISTRUL PROBELOR ȘI SURSELOR
+
+P01 — Poliță veche și condiții: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf. PDF p. 1 durată; p. 2–7 componente și prime; p. 8 prelungire; PDF p. 12 clauza1000K; secțiunea ABS art.12–14. SHA256 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835; identic inventarului la verificare.
+
+P02 — Polița A&C: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf. p. 1 schimbare de titular 2026.05.28 și expirare; p. 7 prelungire. SHA256 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd; identic inventarului.
+
+P03 — Proprietate: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf, p. 1 încheiere 2026.03.10 și p. 2 marcă temporală; Grundbuchauszug_aktuell_A&C_EZ2235.pdf p. 1, extras 2026.03.11. Cache index SHA-256 45972ffe… și d9c2e1dc….
+
+P04 — Somație originală: 05. Asigurari/Asigurare cladire/B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf p. 1, 2026.06.05; cache 1af65af6…; prima1.591,81 plus20EUR. Copie scanată distinctă: 05. Asigurari/Versicherungsschutz-DONAU Wohnhausversicherung_A&C Wohnart Immobilien GmbH.pdf.
+
+P05 — Emailuri Donau: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.06.08 12-43 TRIMIS Eigentümerwechsel und Klärung des Versic 78fa484e.txt; ID 78fa484e-d365-434a-946c-817ebf24a2b0. Mesaj 2026.07.01 04-42 TRIMIS Re WG A&C Wohnart Immobilien GmbH 204400 2dd29262.txt; ID 2dd29262-8d57-41c2-81e5-80e3b909d32e; include textul primit de la Loschy 2026.06.10. Export API, nu probă MIME integrală.
+
+P06 — Email Capra 2026.03.19: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/CERHA HEMPEL/2026.03.19 08-12 PRIMIT WG 1120 Wien, Schallergasse 35 (gü) [COV 8d541207.txt; cache d4ce3d37…. Polița originală este anexată în arhiva aceleiași date; identitatea conținutului constatată prin index.
+
+P07 — Sold și termen: 08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/, mesajul Gruber 2026.09.30 ID 1fa19552-d1fd-459e-92b3-57ed5319d18c și Kostenaufstellung.pdf p. 1. Termen 2026.10.12. Cerere5.326,15, neacceptată.
+
+P08 — Răspuns DONAU și citat al cererii trimise 2026.10.01: 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 PRIMIT DONAU 2c273256.txt și .json/.eml; ID 2c273256-a0bf-408b-bb22-09718372e888. Răspuns 2026.10.06,  primit; anexa Memoformat.pdf pentru cererea tehnică 2026.07.14. Cererea ulterioară 2026.10.07 către DONAU rămâne draft netrimis și nu este temei pentru data unei notificări primite.
+
+P09 — Contract de cumpărare semnat: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Kaufvertrag_Schallergasse_35_signiert.pdf; cl. 1.8 p. 2, cl. 4.4–4.5 p. 4, cl. 7.1(i) și 7.2 p. 10, cl. 10.5 p. 12; SHA-256 237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365. Repartizarea contractuală între vânzător și cumpărător este distinctă de opozabilitatea față de DONAU.
+
+P10 — Mesajul utilizatorului 2026.05.27,  TRIMIS: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.05.27 14-53 TRIMIS Dringend Polizze Nr. 2044001194 X712.261 d9216be2.txt; ID d9216be2-1be9-493f-810e-8045d1e4cfd3. Numărul poliței, asigurătorul și restanța sunt cunoscute explicit; nu este o reziliere.
+
+P11 — Notificare portal 2026.07.07,  PRIMIT: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.07.07 09-14 PRIMIT Mahnung - Neues Dokument in Meine Donau 4b3dab07.txt; ID 4b3dab07-5c66-4488-8282-8badea1999e3. Documentul din portal nu este reprodus de notificare.
+
+[S01] VersVG §8 — durată și prelungire. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P8/NOR40138452
+[S02] VersVG §69 — transfer și solidaritate. https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12026489/NOR12026489.pdf
+[S03] VersVG §70 — dreptul cumpărătorului. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688
+[S04] VersVG §39 — somație, exonerare, denunțare și accesorii. https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39
+[S05] VersVG §39a — restanța minoră. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P39a/NOR40022166
+[S06] VersVG §41a — reducere prospectivă. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460
+[S07] VersVG §68 — lipsa/dispariția interesului. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P68/NOR12037686
+[S08] VersVG §40 — prima la încetare anticipată. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P40/NOR12037676
+[S09] ABGB §879 — controlul clauzelor. https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12018602/NOR12018602.html
+[S10] VersVG, text consolidat verificat 2026.10.07:§§3,5,36,96,158. https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979
+[S11] ABGB §864a — clauze surprinzătoare. https://www.ris.bka.gv.at/eli/jgs/1811/946/P864a/NOR12018587
+[S12] ABGB §1416 — imputare. https://www.ris.bka.gv.at/eli/jgs/1811/946/P1416/NOR12019162
+[S13] ABGB §1333 — costuri de recuperare. https://www.ris.bka.gv.at/eli/jgs/1811/946/P1333/NOR40070130
+[S14] VersVG §5c, forma 2022.08.01–2026.09.30,  aplicabilă analizei unui eventual contract nou din prima parte a anului2026. https://ris.bka.gv.at/eli/bgbl/1959/2/P5c/NOR40244230
+[S15] VersVG §5a — comunicare electronică, acord și portal. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P5a/NOR40204671
+[S16] VersVG §36 — plata și excepția privind efectele §38/§39. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P36/NOR40144619
+
+[J01] OGH 7 Ob 152/01f, 2001.07.11,  PDF p. 1–6, mai alesp.4–6 concluzia OGH. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010711_OGH0002_0070OB00152_01F0000_000/JJT_20010711_OGH0002_0070OB00152_01F0000_000.pdf
+[J02] OGH 7 Ob 154/22f, 2022.11.23,  PDF p. 3 clauza R10,p. 7–8 motivele decisive,pct13–14. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20221123_OGH0002_0070OB00154_22F0000_000/JJT_20221123_OGH0002_0070OB00154_22F0000_000.pdf
+[J03] OGH 7 Ob 211/12y, 2013.03.27,  text integral, partea„Rechtliche Beurteilung”, distincția B2B și ultimele paragrafe despre interpretarea completivă. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20130327_OGH0002_0070OB00211_12Y0000_000/JJT_20130327_OGH0002_0070OB00211_12Y0000_000.html
+[J04] OGH 7 Ob 20/89, 1989.06.15,  RS0080752/RS0080749 și decizia. https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True
+[J05] OGH 7 Ob 83/21p, 2022.01.26,  PDF p. 5–9,pct10–15. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20220126_OGH0002_0070OB00083_21P0000_000/JJT_20220126_OGH0002_0070OB00083_21P0000_000.pdf
+[J06] OGH 3 Ob 393/60, 1960.10.21,  PDF p. 2, numai principiul general privind prima și exonerarea. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19601021_OGH0002_0030OB00393_6000000_000/JJT_19601021_OGH0002_0030OB00393_6000000_000.pdf
+[J07] OGH 7 Ob 103/97s, 1997.04.16,  text privind plata înainte de sinistru și prima ulterioară. https://ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19970416_OGH0002_0070OB00103_97S0000_000&IncludeSelf=True
+[J08] OGH 7 Ob 179/03d, 2003.08.05,  PDF p. 8–9, principiul motivului grav; restul hotărârii pentru distincția speței. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20030805_OGH0002_0070OB00179_03D0000_000/JJT_20030805_OGH0002_0070OB00179_03D0000_000.pdf
+[J09] OGH 7 Ob 7/01g, 2001.09.26,  PDF p. 1–2 și 5, clauza X18 de ieșire anuală în polițe comerciale pe zece ani. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010926_OGH0002_0070OB00007_01G0000_000/JJT_20010926_OGH0002_0070OB00007_01G0000_000.pdf
+
+Limite probatorii: documentele și concluziile anterioare ale proiectului au fost folosite ca repere, nu ca autoritate de drept. Originalele pentru durată și clauze sunt corelate cu inventarul; verificarea vizuală și auditul final sunt păstrate separat. Niciun mesaj nu a fost trimis și nicio plată sau acceptare contractuală nu a fost efectuată prin redactarea acestui studiu.
+
+EXTRASE SCURTE PENTRU CONTROLUL CONCLUZIILOR
+
+[S01] §8 alin.3: „Ist der Versicherungsnehmer Verbraucher” — restricția expresă privind consumatorul.
+[S04] §39 alin.1: „mindestens zwei Wochen” — durata minimă a somației.
+[S04] §39 alin.4: „Die Nichtzahlung von Zinsen oder Kosten” — accesoriile nu declanșează singure consecințele.
+[S05] §39a: „höchstens aber mit 60 Euro” — plafonul absolut al restanței minore.
+[S06] §41a: „für die künftigen Versicherungsperioden” — prospectivitatea reducerii legale.
+[J02] pct14: „wegen eines vom Versicherer gesetzten wichtigen Grundes” — excepția relevantă care lipsește din clauză.
+[J03] final: „durch ergänzende Vertragsauslegung nach dem hypothetischen Parteiwillen” — rezultatul B2B nu este neapărat zero compensație.
+[J09] clauza X18: „jährliches Kündigungsrecht” — posibilitatea unei derogări contractuale în poliță cu durată de zece ani.
+
+Stare: registru redactor, audit independent separat; nu se afirmă că vreun avocat uman a validat ori semnat materialul.
+

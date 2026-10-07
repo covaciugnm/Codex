@@ -8,8 +8,9 @@
     "conversations": 2,
     "subagents": 0,
     "messages": 163,
-    "files_copied": 93,
-    "content_sha256": "5ee9f299d40c49bbfba5bfdaf3d0537c4e087ab30833af4e3fb642a07aac6eee"
+    "files_copied": 91,
+    "folder": "Indunova",
+    "content_sha256": "71c6507ba1150dbde2c406e93462088581943f6ceccff970caa8c9ba79c5fcfe"
   },
   "threads": [
     {
@@ -24,7 +25,7 @@
       "project": "Indunova",
       "assignment_method": "app_assignment",
       "parent_thread_id": null,
-      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "export_started_at_utc": "2026-10-07T14:10:54.540840+00:00",
       "source_bytes": 67120370,
       "invalid_json_lines": 0,
       "history_source": "items",
@@ -32,8 +33,8 @@
       "item_count": 717,
       "message_count": 159,
       "content_sha256": "ce9dcd4bc209420507c3fd5c41054baa9b891adb2d73a77d2dce23cc74bede05",
-      "files_copied": 93,
-      "references_not_copied": 35,
+      "files_copied": 91,
+      "references_not_copied": 37,
       "subagent": false,
       "folder": "Indunova/Verifică stadiul achizițiilor"
     },
@@ -49,7 +50,7 @@
       "project": "Indunova",
       "assignment_method": "app_assignment",
       "parent_thread_id": null,
-      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "export_started_at_utc": "2026-10-07T14:10:54.540840+00:00",
       "source_bytes": 386160,
       "invalid_json_lines": 0,
       "history_source": "items",

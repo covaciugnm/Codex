@@ -1,38 +1,43 @@
 [
   {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva/PROTOCOL-SALVARE.md",
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva/README.md",
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
+  },
+  {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\PROTOCOL-SALVARE.md",
-    "status": "copiat",
-    "saved_path": "fisiere/PROTOCOL-SALVARE--e1313ac8.md",
-    "bytes": 7507,
-    "sha256": "ba7ff7bd5611c774f7563b1d65e72b49cafd923862e8f7373435206994210a02"
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\README.md",
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
   },
   {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\Salveaza-Codex.ps1",
-    "status": "copiat",
-    "saved_path": "fisiere/Salveaza-Codex--2eec0fa6.ps1",
-    "bytes": 1344,
-    "sha256": "ea2ec341fd451faa08cf4aa52d02c79dfab0e157837a8d2f30b33604ab319590"
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\conexiune-github.json",
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
   },
   {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\export_codex.py",
-    "status": "copiat",
-    "saved_path": "fisiere/export_codex--87839e05.py",
-    "bytes": 22502,
-    "sha256": "37d8e8e035195a6e44341b4c28d90c15ca7e949d1560d28457a5ef68ae4d767d"
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\protejeaza_publicarea.py",
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
   },
   {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\sincronizeaza_github.py",
-    "status": "copiat",
-    "saved_path": "fisiere/sincronizeaza_github--90e83ef9.py",
-    "bytes": 7624,
-    "sha256": "df3999b28b76a3bb9d9d004751c86f57c0ef59b86cd3a6e19ad87c775fb369a3"
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
   },
   {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\verifica_arhiva.py",
-    "status": "copiat",
-    "saved_path": "fisiere/verifica_arhiva--eb81b41a.py",
-    "bytes": 1879,
-    "sha256": "e00b61682673ba1f76f2f85e9b0c82a92e182c8f7e3e6aa280b245f091c58c2f"
+    "status": "export_curent_exclus_pentru_a_evita_recursia"
   },
   {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\export_codex.py",
@@ -42,11 +47,19 @@
     "sha256": "37d8e8e035195a6e44341b4c28d90c15ca7e949d1560d28457a5ef68ae4d767d"
   },
   {
+    "source_reference": "https://github.com/covaciugnm/Codex",
+    "status": "referinta_externa_necopiata"
+  },
+  {
     "source_reference": "https://github.com/covaciugnm/Codex/settings/keys",
     "status": "referinta_externa_necopiata"
   },
   {
     "source_reference": "https://github.com/covaciugnm/Codex/settings/keys/new",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/login/device",
     "status": "referinta_externa_necopiata"
   }
 ]

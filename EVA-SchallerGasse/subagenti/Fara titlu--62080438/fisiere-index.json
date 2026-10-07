@@ -1,0 +1,27 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Analiza redactor.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Analiza redactor--a06986d7.txt",
+    "bytes": 48599,
+    "sha256": "218f8fbf854ff27be6d56e96dfc3e08708316d120ea41e5b8511cacebd224987"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Registru surse redactor.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Registru surse redactor--c79de458.json",
+    "bytes": 7857,
+    "sha256": "b98a78d639e5e327a5a2c5997b6cd127ea7fb7e38817304e5e8ea43d5982cf7e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Registru surse redactor.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Registru surse redactor--d004738b.txt",
+    "bytes": 9294,
+    "sha256": "6304ab0f7ddd42625fa9a302c9eeb319d3eb6da8813c3a6082d8f4d0d2f53712"
+  }
+]

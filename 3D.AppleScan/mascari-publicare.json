@@ -2,6 +2,18 @@
   "local_originals_preserved": true,
   "masked_files": [
     {
+      "path": "Arhivează conversațiile Codex/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 3
+      }
+    },
+    {
+      "path": "Arhivează conversațiile Codex/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 3
+      }
+    },
+    {
       "path": "Planifică aplicația iPhone 3D Scan/istoric.json",
       "masked_values": {
         "signed_url_credential": 1

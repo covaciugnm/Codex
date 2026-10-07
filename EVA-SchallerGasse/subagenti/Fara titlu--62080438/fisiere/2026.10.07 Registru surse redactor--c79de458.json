@@ -1,0 +1,182 @@
+{
+  "data_lizibila": "2026.10.07",
+  "created_for": "DONAU 2044001194, Schallergasse 35",
+  "status": "draft redactor; audit independent separat",
+  "sources": [
+    {
+      "id": "S01",
+      "descriere": "[S01] VersVG §8 — durată și prelungire.",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P8/NOR40138452",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S02",
+      "descriere": "[S02] VersVG §69 — transfer și solidaritate.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12026489/NOR12026489.pdf",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S03",
+      "descriere": "[S03] VersVG §70 — dreptul cumpărătorului.",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S04",
+      "descriere": "[S04] VersVG §39 — somație, exonerare, denunțare și accesorii.",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S05",
+      "descriere": "[S05] VersVG §39a — restanța minoră.",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P39a/NOR40022166",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S06",
+      "descriere": "[S06] VersVG §41a — reducere prospectivă.",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S07",
+      "descriere": "[S07] VersVG §68 — lipsa/dispariția interesului.",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P68/NOR12037686",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S08",
+      "descriere": "[S08] VersVG §40 — prima la încetare anticipată.",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P40/NOR12037676",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S09",
+      "descriere": "[S09] ABGB §879 — controlul clauzelor.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12018602/NOR12018602.html",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S10",
+      "descriere": "[S10] VersVG, text consolidat verificat 2026.10.07:§§3,5,36,96,158.",
+      "url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S11",
+      "descriere": "[S11] ABGB §864a — clauze surprinzătoare.",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P864a/NOR12018587",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S12",
+      "descriere": "[S12] ABGB §1416 — imputare.",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1416/NOR12019162",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S13",
+      "descriere": "[S13] ABGB §1333 — costuri de recuperare.",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1333/NOR40070130",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S14",
+      "descriere": "[S14] VersVG §5c, forma 2022.08.01–2026.09.30,  aplicabilă analizei unui eventual contract nou din prima parte a anului2026.",
+      "url": "https://ris.bka.gv.at/eli/bgbl/1959/2/P5c/NOR40244230",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S15",
+      "descriere": "[S15] VersVG §5a — comunicare electronică, acord și portal.",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P5a/NOR40204671",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "S16",
+      "descriere": "[S16] VersVG §36 — plata și excepția privind efectele §38/§39.",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P36/NOR40144619",
+      "consultat": "2026.10.07",
+      "tip": "legislatie primara RIS"
+    },
+    {
+      "id": "J01",
+      "descriere": "[J01] OGH 7 Ob 152/01f, 2001.07.11,  PDF p. 1–6, mai alesp.4–6 concluzia OGH.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010711_OGH0002_0070OB00152_01F0000_000/JJT_20010711_OGH0002_0070OB00152_01F0000_000.pdf",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    },
+    {
+      "id": "J02",
+      "descriere": "[J02] OGH 7 Ob 154/22f, 2022.11.23,  PDF p. 3 clauza R10,p. 7–8 motivele decisive,pct13–14.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20221123_OGH0002_0070OB00154_22F0000_000/JJT_20221123_OGH0002_0070OB00154_22F0000_000.pdf",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    },
+    {
+      "id": "J03",
+      "descriere": "[J03] OGH 7 Ob 211/12y, 2013.03.27,  text integral, partea„Rechtliche Beurteilung”, distincția B2B și ultimele paragrafe despre interpretarea completivă.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20130327_OGH0002_0070OB00211_12Y0000_000/JJT_20130327_OGH0002_0070OB00211_12Y0000_000.html",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    },
+    {
+      "id": "J04",
+      "descriere": "[J04] OGH 7 Ob 20/89, 1989.06.15,  RS0080752/RS0080749 și decizia.",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    },
+    {
+      "id": "J05",
+      "descriere": "[J05] OGH 7 Ob 83/21p, 2022.01.26,  PDF p. 5–9,pct10–15.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20220126_OGH0002_0070OB00083_21P0000_000/JJT_20220126_OGH0002_0070OB00083_21P0000_000.pdf",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    },
+    {
+      "id": "J06",
+      "descriere": "[J06] OGH 3 Ob 393/60, 1960.10.21,  PDF p. 2, numai principiul general privind prima și exonerarea.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19601021_OGH0002_0030OB00393_6000000_000/JJT_19601021_OGH0002_0030OB00393_6000000_000.pdf",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    },
+    {
+      "id": "J07",
+      "descriere": "[J07] OGH 7 Ob 103/97s, 1997.04.16,  text privind plata înainte de sinistru și prima ulterioară.",
+      "url": "https://ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19970416_OGH0002_0070OB00103_97S0000_000&IncludeSelf=True",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    },
+    {
+      "id": "J08",
+      "descriere": "[J08] OGH 7 Ob 179/03d, 2003.08.05,  PDF p. 8–9, principiul motivului grav; restul hotărârii pentru distincția speței.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20030805_OGH0002_0070OB00179_03D0000_000/JJT_20030805_OGH0002_0070OB00179_03D0000_000.pdf",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    },
+    {
+      "id": "J09",
+      "descriere": "[J09] OGH 7 Ob 7/01g, 2001.09.26,  PDF p. 1–2 și 5, clauza X18 de ieșire anuală în polițe comerciale pe zece ani.",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010926_OGH0002_0070OB00007_01G0000_000/JJT_20010926_OGH0002_0070OB00007_01G0000_000.pdf",
+      "consultat": "2026.10.07",
+      "tip": "jurisprudenta primara OGH/RIS"
+    }
+  ]
+}

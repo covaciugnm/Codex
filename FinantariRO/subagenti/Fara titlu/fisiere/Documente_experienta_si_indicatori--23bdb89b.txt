@@ -1,0 +1,43 @@
+DOCUMENTE NECESARE PENTRU FIECARE PROIECT ANTERIOR — 07.10.2026
+
+Scopul verificării diferă:
+A. GSCS 5.1.3, pagina 29: eligibilitatea ONG, minimum un proiect relevant în ultimii trei ani.
+B. Anexa 3, criteriul 3.6, pagina 10: durata experienței în domeniul activităților pe care fiecare entitate le va realiza.
+C. Anexa 3, criteriul 3.7, pagina 10: realizarea indicatorilor în operațiuni anterioare relevante.
+Un proiect poate susține mai multe verificări, dar fiecare se documentează separat.
+
+DOSARUL COMUN, REPETAT PENTRU FIECARE PROIECT
+1. Denumirea oficială, codul proiectului, programul/finanțatorul, numărul și data contractului.
+2. Contractul de finanțare și anexele aprobate: cererea/propunerea, activități, buget, grup țintă, indicatori.
+3. Toate actele adiționale/deciziile care modifică perioada, activitățile, bugetul sau țintele. Se prezintă ținta inițială și ținta finală aprobată; nu numai cea mai favorabilă.
+4. Data începerii efective, data finalizării și perioadele de suspendare/prelungire. Calendarul trebuie să permită verificarea ferestrei de trei ani și a duratei experienței.
+5. Calitatea exactă a ASOCIAȚIEI ROMANIAN SOUL ENTITY sau a Municipiului Sebeș: beneficiar/lider/partener. Dacă a fost partener, acordul și alocarea activităților/indicatorilor. Activitatea altui membru nu se atribuie automat entității evaluate.
+6. Raportul final transmis finanțatorului și documentul de acceptare/validare/închidere. Dacă proiectul este încă în curs, se precizează acest fapt; raportul intermediar nu devine raport final.
+7. Tabel complet cu fiecare indicator contractual: cod/denumire, unitate, țintă inițială, țintă finală aprobată, valoare realizată validată, documentul și pagina care o confirmă, rata de realizare.
+8. Orice reducere financiară, corecție, neîndeplinire, constatare sau litigiu care afectează indicatorii ori rezultatele. Se explică situația și soluționarea ei; informația nefavorabilă nu se omite.
+9. Livrabile relevante: programe, module, materiale educative, instrumente, metodologii, aplicații, rapoarte de activitate și recepții. Linkurile publice sunt suplimentare contractului și recepției, nu înlocuitoare.
+10. Dovezi privind beneficiarii și utilizarea efectivă: rapoarte agregate, documente de predare/participare, rezultate de evaluare și dovezi de diseminare. Datele copiilor se transmit pentru analiza de proiectare în formă anonimizată/pseudonimizată, pe cât posibil; originalele se păstrează legal.
+11. Fişa de relevanță pentru noul proiect: ce activitate din proiectul anterior corespunde rolului propus în A1/A2/A3, ce a realizat efectiv entitatea și ce competență instituțională a rămas.
+12. Date de contact ale finanțatorului/emitentului documentului pentru eventuale verificări autorizate. Nu trimitem solicitări terților fără instrucțiune explicită.
+
+ECO WARRIORS / ECO WARRIORS, COD/CONTRACT 650H DE CONFIRMAT DIN ORIGINAL
+Utilizatorul a confirmat perioada și rezultatele la nivel declarativ, aplicația/modulele/materialele pentru copii și existența contractului și raportului final/acceptării. Documentele există, urmează să fie puse la dispoziție. Nu presupunem date calendaristice exacte din această confirmare.
+Prioritate: contract AFM și anexe, acte adiționale, raport final acceptat, documentul cu numărul/data acceptării, livrabilele educaționale și documentele de predare/recepție. Pentru aplicația «Paza Planetei» sunt suficiente pentru analiza inițială descrierea, capturi, manualul, recepția și dovezile de utilizare; nu este necesară instalarea unui APK necunoscut. Se documentează grupul de vârstă, conținutul pedagogic și caracterul inovator, nu doar componenta de mediu sau inventarul echipamentelor.
+Sursa publică de orientare: https://ecowarriors.asociatia-rose.ro/ . Pagina proprie susține identificarea proiectului; dovada juridică este contractul și execuția validată.
+
+«EDUCAȚIE PENTRU MEDIU», DACĂ ESTE UN PROIECT DISTINCT
+Mai întâi se stabilește dacă este un alt contract/proiect sau doar o denumire/activitate din EcoWarriors. Dacă nu este distinct, nu se dublează proiectul sau experiența. Se folosesc documentele contractuale din arhiva ONG. Subdomeniul care a afișat conținut străin proiectului nu este utilizat ca probă de rezultat sau de identitate.
+
+POCU 128613, AMR 58203 ȘI ORICE ALTE PROIECTE ALE ONG
+Se solicită pentru fiecare dosarul comun de mai sus. Codul singur nu confirmă entitatea, domeniul, perioada sau finalizarea. Pentru parteneriate, se evidențiază partea de indicatori/activități pentru care ONG a răspuns efectiv. Proiectele mai vechi pot fi relevante pentru criteriile de experiență/indicatori, dar nu sunt prezentate automat drept proiectul din ultimii trei ani cerut de GSCS 5.1.3.
+
+PROIECTELE MUNICIPIULUI SEBEȘ ȘI ALE ALTOR PARTENERI, DACĂ EXISTĂ
+Pentru fiecare entitate se solicită separat proiectele relevante pentru rolul propriu propus și dosarul comun. Performanța ONG nu substituie performanța liderului în formularea criteriilor 3.6/3.7. Pentru unități de învățământ/servicii sprijinite se clarifică dacă sunt parteneri juridici sau operatori/grup țintă instituțional; aceasta schimbă întinderea dovezilor solicitate.
+
+CALCUL ȘI REGULI DE EVALUARE
+Rata pentru fiecare indicator = valoarea realizată VALIDATĂ / ținta contractuală finală APROBATĂ × 100.
+Ținta zero, schimbarea unității sau a definiției și indicatorii eliminați prin acte adiționale necesită explicație separată; nu se împart la zero și nu se convertesc arbitrar. O valoare autoreportată nevalidată se marchează astfel. Se prezintă distinct orice depășire a țintei, fără a masca indicatorii nerealizați.
+Grila 3.7 prevede: cel mult 70% → 0 puncte; 70,01–80% inclusiv → 1; 80,01–90% inclusiv → 2; formularea literală «mai mare de 90,01%» → 3. Exact 90,01% și situațiile dintre limitele redactate nu trebuie rezolvate printr-o promisiune nefundamentată de punctaj; dacă sunt material relevante, se cere clarificarea oficială. Pentru performanțe clar peste prag problema nu apare.
+Grila nu definește în acest paragraf o medie între indicatori, proiecte sau parteneri. Nu inventăm media simplă/ponderată și nu selectăm numai indicatorul cel mai favorabil. Se prezintă tabelul complet și se cere interpretarea AM dacă rezultatul depinde de agregare.
+La 3.6 alternativele sunt disjunctive, maximum 1 punct: lider cu minimum 12 luni relevante SAU lider și fiecare partener cu minimum 6 luni relevante. Perioadele suprapuse nu se adună ca luni calendaristice distincte pentru a umfla durata.
+Fereastra de trei ani este expresă în eligibilitatea ONG din GSCS 5.1.3; nu este introdusă automat, fără text, în criteriul 3.7. Un proiect relevant educațional recent și o operațiune relevantă cu indicatori validați pot fi documentate distinct.

@@ -1,0 +1,80 @@
+from pathlib import Path
+from html import escape
+import json
+root=Path.cwd()
+out=root/'0.1 Sinteza manager';out.mkdir(exist_ok=True)
+txt='''SINTEZĂ MANAGER – PROIECTARE PRELIMINARĂ / 07.10.2026
+Municipiul Sebeș: solicitant și lider confirmat. ASOCIAȚIA ROMANIAN SOUL ENTITY, CUI 29433614: partener ONG.
+Fondurile sunt disponibile conform utilizatorului. Valorile istorice din bilanțuri nu limitează scenariile; rămân obligatorii condițiile formale de capacitate, CAF, eligibilitate și portofoliu.
+
+ECHIPA
+Manager: coordonatorul principal, integrare și bugete Excel.
+Specialist scriere: concept, activități, clarificări și matricea grilei.
+Economist: indicatori MF/ANAF 2016–2025 și capacitate financiară.
+Jurist: eligibilitate, legislație, contribuții și salarizare.
+Specialist educație: servicii, grupe, personal, curriculum și programare.
+Auditor separat: recalculare independentă a celor patru XLSX, surse și corelări.
+Evaluator separat: verificarea grilelor preliminară/calitative și punctelor sensibile.
+Acestea sunt verificări interne ale agenților, nu opinii profesionale semnate și nu decizii ale autorității de management.
+
+BUGETE DE LUCRU – COST ELIGIBIL, LEI
+Pilot / 65 copii: 1.058.641,80 lei (201.323,94 EUR).
+Lider 951.968,80; ONG 106.673,00. Contribuție UAT 19.039,38. ONG 0%: contribuție totală 19.039,38; ONG 2%: contribuție ONG 2.133,46 și total 21.172,84.
+Extins / 1.650 copii: 26.272.446,00 lei (4.996.281,38 EUR).
+Lider 24.403.606,00; ONG 1.868.840,00. Contribuție UAT 488.072,12. ONG 0%: contribuție totală 488.072,12; ONG 2%: contribuție ONG 37.376,80 și total 525.448,92.
+Curs 5,2584. Pragul legal minim este 201.000 EUR / 1.056.938,40 lei. Plafonul legal maxim este 5.000.000 EUR / 26.292.000 lei, cu limita suplimentară de 3.117,21 EUR/copil. Bugetele sunt aproape de praguri, nu exact egale cu ele: marje 1.703,40 peste minim și 19.554,00 sub plafonul maxim. Nu există cheltuieli introduse doar pentru egalizarea plafonului.
+
+CONTRIBUȚIE ȘI PUNCTAJ
+Minimul ONG este 0%, iar al liderului UAT 2% din bugetul propriu eligibil. Contribuția voluntară ONG 2% NU aduce punctaj suplimentar. Nu există în grilă o contribuție majorată care să asigure punctaj maxim; 2% este comparație voluntară, nu maxim legal.
+Grila permite 100 puncte, cu minime pe categorii 21/21/21/7. Matricea conține 46 elemente. Reevaluarea independentă Runda 3 reține intervale interne de conținut de 36–67 puncte pentru pilot și 36–53 pentru extins; nu sunt prognoze AM. Sunt tratate separat 8 puncte condiționate de țintele validate și 4 puncte istorice de documentat. Completările Runda 3 au fost confruntate independent cu criteriile afectate. Nota internă de pregătire a dosarului rămâne 4,0/10; aceasta nu este punctajul grantului și nu reprezintă neeligibilitatea definitivă a entităților. Dosarul nu este încă validat pentru depunere. 100/100 și auditul 10/10 nu sunt obținute.
+Ținte de proiectare: 35/850 copii romi, respectiv 58/1.452 rezultate 5SR09; 20/500 părinți și 8/120 persoane formate. Acestea nu sunt beneficiari identificați. Recrutarea și intervenția vor respecta nediscriminarea și desegregarea.
+
+ACTIVITĂȚI ȘI PERSONAL
+Sunt incluse A1.1–A1.5, A2.1–A2.4 și A3.1–A3.6, inclusiv activitățile opționale de formare și studiu de impact. Matricea detaliată se află în 4.1.
+Servicii standard: 7 antepreșcolari și 34 preșcolari / 270 și 1.260 în extins. Complementare: 24 /120 copii, 1/5 servicii, câte două grupe de 12, pe baza ipotezelor de autorizare.
+Personalul este normat pe ore, cu cumuluri numai pentru atribuții compatibile și calificări corespunzătoare. Personalul serviciilor standard este inclus în barem și trebuie verificat în organigramele operatorilor. Minimizarea personalului nu permite reducerea normelor legale de supraveghere și funcționare.
+Costurile reale sunt estimări, nu oferte obținute. Două oferte comparabile, încadrarea TVA, grilele publice și calificările se verifică înaintea bugetului de depunere. Salarizarea netă este un control orientativ, nu calcul individual de stat de plată.
+Liderul realizează subcontractarea permisă; partenerul ONG implementează activitățile atribuite, fără subcontractarea acestora. Managementul nu se externalizează. Materialele atelierelor ONG sunt bunuri, nu subcontractarea activității de educație parentală.
+Durata propusă este 24 luni. Data începerii se fixează după contractare, cu finalizare cel târziu 31.12.2029. Funcționarea anuală a serviciilor și minimum 3 ani de sustenabilitate necesită bugete proprii și angajamente explicite. Se acoperă continuu și decalajul până la plata finală dacă obligația contractuală de 3 ani se calculează de la acea plată; se verifică contractul semnat.
+
+CAPACITATE FINANCIARĂ ONG
+Metoda alternativă utilizată în controalele Excel: AFN ONG maximum 40% din AFN total, pentru un membru privat cu vechime peste un an și cu respectarea limitei de proiecte PEO și a celorlalte condiții din GSCG. Portofoliul și CAF se verifică. Nu declarăm eligibilitatea financiară definitiv confirmată.
+Dosarul 10.1 ROSE conține surse MF/ANAF și indicatori publici pentru 2016–2025; acestea nu înlocuiesc situațiile financiare semnate și recipisele de depunere.
+
+DOCUMENTARE
+Ghidul specific, anexele și ghidul general consolidat sunt în 1. DOCUMENTE OFICIALE și 1.1. Legislația și registrele sunt în 2.1; documentele educaționale și registrele în 3.1.
+Descărcarea și citirea nu sunt același lucru. Ghidurile și grilele care determină bugetul au fost analizate; rapoartele voluminoase au fost consultate pe secțiunile relevante. Registrele specialiștilor identifică documentele recuperate și restanțele. În Runda 3 au fost recuperate cele 5 acte UE și cele 3 comunicări strategice restante: registrul distinct din 2.1/Recuperari Runda3 are copii pentru toate cele 35 de surse inventariate. Acest număr nu acoperă automat toate trimiterile, anexele și modificările. Formele inițiale sunt diferențiate de consolidări. Nu declarăm arhiva exhaustiv completă și nici citirea integrală a fiecărui raport descărcat.
+
+ÎNTREBĂRI PRIORITARE PENTRU UTILIZATOR
+1. EcoWarriors și existența contractului/raportului final sunt confirmate de utilizator. Se colectează documentele și datele exacte potrivit listei8.1; nu se reia întrebarea privind existența lor.
+2. Câți copii eligibili pot fi identificați în Sebeș, separat pe vârste, înscriși/neînscriși, vulnerabilitate și CES? Se analizează doar Sebeș sau și alte UAT-uri? Bugetul extins depinde de capacitatea de a documenta 1.650 copii.
+3. Care sunt unitățile, operatorii autorizați și spațiile pentru serviciile standard și cele 1/5 locații noi? Există capacitate legală, necesitate față de locurile existente și acord pentru funcționare după proiect?
+4. Câte proiecte PEO are deja contractate ONG și ce finanțări acoperă în prezent copiii, personalul, clădirile și echipamentele vizate? Includeți PNRR și alte proiecte ale Sebeșului.
+5. Ce experiență și ce procente documentate de realizare a indicatorilor au liderul și ONG în proiectele anterioare? Acestea susțin separat eligibilitatea și criteriile 3.6–3.7.
+6. Ce activități poate implementa direct ONG cu personal calificat: recrutare, parentală, mediere, logopedie, sprijin lingvistic? Ce calificări și disponibilități există?
+7. Cine operează și finanțează serviciile în lunile neacoperite de grant și în cei minimum 3 ani după finalizare? Fondurile disponibile trebuie transformate în angajamente și bugete anuale cuantificate.
+8. Care este calendarul realist, inclusiv selecția partenerului privat, aprobările locale, acordurile operatorilor și autorizarea spațiilor?
+Lista extinsă a întrebărilor se găsește în concept și rapoartele de audit/evaluare. Nu se solicită reconfirmarea liderului sau a existenței fondurilor.
+
+PASUL URMĂTOR
+Răspunsurile și documentele determină dimensiunea justificată, rolurile, indicatorii, calendarul și bugetele finale. Runda2 a redus ținta EECO18 extins la18, condiționat de9unitățiPJ și sprijin efectiv în doi ani școlari. Procedurile și calendarul de lucru sunt în7.5; auditul iterativ în7.1; matricea juridică în7.2; SWOT în7.4; reevaluarea punctajului în7.6; subsetul devizului de continuitate în7.7. Completările tehnice Runda 3 (fișe de post, strategii, achiziții ecologice și șablon OPEX) sunt în 7.8. Manualul v5, instrucțiunile și modelul contractual sunt în 1.2; grilele locale Sebeș în 2.2; recuperările suplimentare UE/COM în 2.1/Recuperari Runda3. Acestea prevalează asupra fotografiilor istorice ale primei runde. Versiunile actuale sunt scenarii de proiectare verificabile, nu dosar gata de depunere.
+'''
+(out/'Sinteza_manager_si_intrebari.txt').write_text(txt,encoding='utf-8')
+links=[]
+for size,folder in [('MINIM','5.1 Buget minim eligibil'),('MAXIM','5.2 Buget maxim')]:
+ for suffix,label in [('ONG_0pct_recomandat','ONG 0% recomandat'),('ONG_2pct_voluntar','ONG 2% voluntar')]:
+  links.append(f'<li><a href="../{folder}/Buget_{size}_{suffix}.xlsx">{size}: {label}</a></li>')
+for target,label in [('8.1 Documente necesare din proiectele anterioare/Lista_documente_pe_proiect.html','Lista documentelor din fiecare proiect anterior'),('7.1 Audit iterativ/Runda3_Addendum.html','Audit independent — Runda 3'),('7.6 Reevaluare punctaj/Runda3.html','Evaluarea punctajului — Runda 3'),('7.4 SWOT si plan de optimizare/SWOT_si_plan_de_optimizare.html','SWOT și optimizare')]:
+ links.append(f'<li><a href="../{target}">{label}</a></li>')
+html='<!doctype html><html lang="ro"><meta charset="utf-8"><title>Sinteză și clarificări</title><style>body{font:16px/1.55 Segoe UI,Arial;max-width:1050px;margin:40px auto;color:#183247;background:#f7fafc}article{background:white;padding:38px;border:1px solid #dae4ea}pre{white-space:pre-wrap;font:inherit}a{color:#005f99}li{margin:8px}</style><article><h1>Educație timpurie · Sebeș / ROSE</h1><p>Scenarii de lucru și întrebări pentru definitivare</p><ul>'+''.join(links)+'</ul><pre>'+escape(txt)+'</pre></article></html>'
+(out/'Sinteza_manager_si_intrebari.html').write_text(html,encoding='utf-8')
+(root/'1.1 Documente programatice suplimentare'/'Surse_GSCG_si_metodologie.txt').write_text('''Descărcări oficiale 07.10.2026
+GSCG consolidat, Corrigendum 4, publicat în lista OIR Vest la11.03.2026:
+https://oirvest.ro/ghiduri-peo/
+https://mfe.gov.ro/wp-content/uploads/2026/03/a6d051aa4c909ac6bdd802d6a9f94890.7z
+Arhiva și documentele extrase sunt păstrate în acest folder.
+Metodologie evaluare:
+https://oirvest.ro/wp-content/uploads/Metodologia-de-verificare-evaluare-si-selectie-a-proiectelor-in-cadrul-PEO-2021-2027.pdf
+''',encoding='utf-8')
+print('Sinteza manager si registru GSCG salvate.')
+

@@ -1,0 +1,58 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\2.1 Legislatie si eligibilitate\\Recuperari Runda3\\Nota_lectura_si_validare_Runda3.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Nota_lectura_si_validare_Runda3--96061c8e.txt",
+    "bytes": 5881,
+    "sha256": "6996ee9d4813638f8eb8340b8490564390ad690932a0e564b1b1d599c6a41a5b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\7.2 Audit juridic aprofundat\\Documente_experienta_si_indicatori.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Documente_experienta_si_indicatori--23bdb89b.txt",
+    "bytes": 6991,
+    "sha256": "0a2dadeae62278362a333b2bd44f43e9704212633cafff56da3cc0cb819e7a5d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\7.2 Audit juridic aprofundat\\Nota_juridica_iteratia_2.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Nota_juridica_iteratia_2--9f97fc31.txt",
+    "bytes": 11014,
+    "sha256": "8ed5c949fe1b09eec8281e88596c49ab166284d2fbdeafa2d03db7ef1b0d60c3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\7.2 Audit juridic aprofundat\\build_matrix.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_matrix--f46a9564.py",
+    "bytes": 30468,
+    "sha256": "508ac1797c96c782caa4e59a0afcee5a0be0bc9872878b0689192f03a356ee83"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\finalize_round3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize_round3--7a8e2157.py",
+    "bytes": 6875,
+    "sha256": "53947383b74c13cc6a2715e6aa263beff8a9a8b6074373e5a6a8d1dd2a6ee122"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\recover_eu_alternatives.py",
+    "status": "copiat",
+    "saved_path": "fisiere/recover_eu_alternatives--a1202196.py",
+    "bytes": 2073,
+    "sha256": "5a9d5905dec6071c925d5b305b0bde053cb25fffe2bea698c25c5e37c1f39543"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\recover_eu_round3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/recover_eu_round3--0944d283.py",
+    "bytes": 2646,
+    "sha256": "f15f215f6f67b7a9f141ff864062eac8ce89845fac02cdbeb9216cfd7cc6471b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\recover_op.py",
+    "status": "copiat",
+    "saved_path": "fisiere/recover_op--efc205d3.py",
+    "bytes": 1001,
+    "sha256": "dfc2d1f62f780cd845ae66860799e3737e35c572715f286d1c561a855fd2c77c"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\10.1 ROSE\\Experienta educationala\\Nota_verificare_experienta.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Nota_verificare_experienta--8a9c3ecd.txt",
+    "bytes": 3484,
+    "sha256": "49097dc9b7ce0561634fe132ad77f22ab6bbaa787a3b271d6968c7d439fda7c7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\2.2 Grile salariale locale\\Sebes_martie2026_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Sebes_martie2026_p1--5f0eec7c.png",
+    "bytes": 604590,
+    "sha256": "0fc2a7edabe1a82b62644865f0d8b15a2083c1f895cf8d358d376658314fd481"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\2.2 Grile salariale locale\\Sebes_martie2026_p2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Sebes_martie2026_p2--c727c2ed.png",
+    "bytes": 1154264,
+    "sha256": "17eded09732e4326cff527bffc3dfc2299d5303b31f75806fdfa7c55e78e829f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\8.2 Clarificari AM OI de pregatit\\Intrebari_tehnice_neexpediate.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Intrebari_tehnice_neexpediate--e6129fa6.txt",
+    "bytes": 5282,
+    "sha256": "5ec7ae0d6ced2b1802df6c96fa70ba552a8242ef8c4f78220e4bd36ac5b6cceb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\build_budgets.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_budgets--0efc241f.mjs",
+    "bytes": 20108,
+    "sha256": "fa1372f0d8dd4b510613b2a79a0d54d719181eced637d51d311ec9c8f8868939"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\create_index.py",
+    "status": "copiat",
+    "saved_path": "fisiere/create_index--6de15130.py",
+    "bytes": 11016,
+    "sha256": "5d492b829170fccec38412978b7ef833094651a28af59fe7d84fc66dcee8dd44"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\create_project_checklist.py",
+    "status": "copiat",
+    "saved_path": "fisiere/create_project_checklist--37106199.py",
+    "bytes": 12997,
+    "sha256": "016ead4f042310afdf2b17212962d218585751a0e29dafbe92fb26bb96831a6b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\create_swot.py",
+    "status": "copiat",
+    "saved_path": "fisiere/create_swot--ca9542ca.py",
+    "bytes": 11952,
+    "sha256": "d226765a529156662b5f20e097b88bfb3d71268a43cd204693674a841d456be4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.1 Buget minim eligibil\\preview_Buget.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Buget--0aedb47c.png",
+    "bytes": 123429,
+    "sha256": "fba03446bebc64baf7771dc230a162bd338962a9c2bd56ba77d5575d1efeee12"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.1 Buget minim eligibil\\preview_Indicatori.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Indicatori--a8c617bb.png",
+    "bytes": 70897,
+    "sha256": "388b18cd8420df85acc553541323a0fc6d4baee7093bb89883f4a6d95a3ca8e8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.1 Buget minim eligibil\\preview_Parametri.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Parametri--ab18b5b0.png",
+    "bytes": 72666,
+    "sha256": "3a362855d8e7c632a7d35c178b72f3623a833c38026a18111a3ed15d9dd8a9d5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.1 Buget minim eligibil\\preview_Personal.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Personal--19261499.png",
+    "bytes": 149086,
+    "sha256": "3b3e72501aa9d82e7becb6d8f1e54ef5a312ebfdb921b938ef7d22890d5e02bc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.1 Buget minim eligibil\\preview_Sinteza.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Sinteza--84f7a7f3.png",
+    "bytes": 116559,
+    "sha256": "70f24e3973dad364f5529c429ce0233ef4df8ac2e9c0e04d3e1d2935d46e8f79"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.1 Buget minim eligibil\\preview_Verificari.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Verificari--40cb6a41.png",
+    "bytes": 138083,
+    "sha256": "7309314008fc64f792d4ebf0f0eb9f6ce83fd74a2275496db1a68f874a98dcfa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.2 Buget maxim\\preview_Buget.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Buget--1a8155d8.png",
+    "bytes": 125079,
+    "sha256": "5e8c192b092cec484400124a9421015715f1d1d4e00df79f625ae4afd054804d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.2 Buget maxim\\preview_Personal.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Personal--08d7e2f2.png",
+    "bytes": 153648,
+    "sha256": "9fe1f3e00c82e5374c8be94c180abce6a41ef85e1f6e5af7668d89576ab2ec29"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.2 Buget maxim\\preview_Sinteza.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Sinteza--aaa75790.png",
+    "bytes": 119279,
+    "sha256": "e41e6f0710f8e2185af8cf6025f9190a141ade492819a69c0513b9d38db8dc30"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\livrabile\\5.2 Buget maxim\\preview_Verificari.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Verificari--3334b178.png",
+    "bytes": 138668,
+    "sha256": "a97046732b3d7c704e1a0e5af8c312f0299426a5393b83a8d15d065c768a0537"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a115a1-81b1-7ce3-ba21-45dd985f8c26\\prepare_budget.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_budget--25a3fb1a.py",
+    "bytes": 6105,
+    "sha256": "4c30c5178e18a8689908328faab72d52aabfcea191ec6657849dae713309d6fa"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026/0.1 Sinteza manager/Sinteza_manager_si_intrebari.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Sinteza_manager_si_intrebari--35157344.html",
+    "bytes": 10166,
+    "sha256": "70f65409eb5c0d38dacc7ffffa7669e63e45ac7b0dd6af701db63abf3613dad2"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026/8.1 Documente necesare din proiectele anterioare/Lista_documente_pe_proiect.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Lista_documente_pe_proiect--1f8fa081.html",
+    "bytes": 30370,
+    "sha256": "c20bb1bef8299a6880eb8e6d872bbf771892a31cb8d46a96b74ff86391e65933"
+  },
+  {
+    "source_reference": "http://www.protectiasocialaalba.ro/wp-content/uploads/2024/05/Furnizori-servicii-sociale-jud.-Alba.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ro.scribd.com/document/469517300/Copy-of-Chestionar-MMJS-2019-BIHOR2-3-1-xls",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.totalfirme.ro/asociatia-romanian-soul-entity-29433614",
+    "status": "referinta_externa_necopiata"
+  }
+]

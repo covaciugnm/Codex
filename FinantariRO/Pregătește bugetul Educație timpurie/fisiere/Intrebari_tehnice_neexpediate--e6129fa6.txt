@@ -1,0 +1,34 @@
+CLARIFICĂRI TEHNICE PENTRU AM/OI – DRAFT NEEXPEDIAT
+Municipiul Sebeș / ROMANIAN SOUL ENTITY | 07.10.2026
+Nu a fost transmis niciun mesaj extern. Întrebările se adaptează la documentele concrete; nu sunt substitute pentru verificarea ghidului și nu solicită derogări tacite.
+
+1. BAREME ȘI FINANȚAREA PUBLICĂ EXISTENTĂ – A27
+Referință: GSCS A2.1–A2.3, §5.3 costuri unitare și obligația evitării dublei finanțări.
+Speța de completat: unitate/operator [denumire,PJ], copii [număr/vârste], finanțare standard/locală existentă [act,perioadă,costuri], prestația suplimentară propusă [descriere], entitatea care angajează personalul și efectuează cheltuielile [entitate].
+Întrebare: pentru acest mecanism concret, cum trebuie delimitat sprijinul PEO prin baremul ED01/ED02 de finanțarea publică deja alocată acelorași servicii și ce evidențe sunt acceptate pentru a demonstra lipsa dublei finanțări? Dacă liderulUAT și operatorul educațional sunt entități distincte, care sunt documentele necesare pentru atribuirea implementării și raportarea baremului în arhitectura propusă?
+Anexe de pregătit: acord operator, buget pe surse, fișă copil-lună-serviciu, finanțări existente, schema plătitor/angajator/operator. Nu se transmit date nominale de copii în solicitarea de interpretare.
+
+2. EECO18 ȘI REORGANIZAREA UNITĂȚILOR – A30
+Referință: definiția EECO18 din GSCS și HCL235/2026 privind rețeauaSebeș.
+Speța de completat: unitatePJ [denumire/codSIIIR], structuri arondate [lista], actul reorganizării [data], sprijin efectiv în fiecare an școlar [activitate și perioadă].
+Întrebare numai pentru cazul neacoperit explicit: la reorganizarea/absorbția unei unități pe durata intervenției, cum se păstrează unicitatea raportării unității în indicatorulEECO18 și cum se tratează sprijinul acordat structurii arondate în cei doi ani școlari?
+Regula internă până la răspuns: nu se confundă spațiul, grupa sau structura cu unitatea eligibilă și nu se dublează același sprijin prin reorganizare. Ținta18 este provizorie, condiționată de9PJ participante și sprijin eligibil în ambii ani.
+
+3. CRITERIUL3.7 – INDICATORI ISTORICI ȘI DISCONTINUITĂȚI – A37
+Referință: Anexa3, criteriul3.7.
+Speța se completează DUPĂ primirea dosarelor: proiect, membru, indicator, ținta inițială, ținta finală aprobată, realizatul acceptat, procentul fără rotunjire favorabilă și documentul finanțatorului.
+Întrebare: dacă o operațiune relevantă are mai mulți indicatori cu rate diferite ori membrii parteneriatului au istorice diferite, ce regulă de evaluare se aplică pentru treapta unică de punctaj3.7? Care este tratamentul valorilor din intervalele neacoperite literal între treptele grilei, inclusiv90,00–90,01%?
+Nu presupunem o medie aritmetică/ponderată, alegerea numai a indicatorului favorabil ori rotunjirea la prag. Nu trimitem o speță ipotetică redundantă dacă dosarele reale nu ridică această problemă.
+
+4. STRUCTURA INTERSECTORIALĂ ȘI TRIMITEREA LA A1.3 – A38
+Referință: Anexa3, criteriul1.3 privind analiza de nevoi/structura intersectorială, raportat la GSCS A1.1–A1.3.
+Întrebare: vă rugăm să precizați forma și momentul dovezii așteptate pentru structura intersectorială menționată în grilă, având în vedere că în GSCS A1.3 privește înființarea/extinderea serviciilor. Poate fi demonstrată prin decizie/protocol educație–social–sănătate, atribuții și participare documentată la analiza de nevoi, corelate cu A1.1/A1.2 și A3.6?
+Până la clarificare se redactează protocolul și rolurile relevante, fără reîncadrarea artificială a costurilor ori pretinderea că structura a fost deja constituită.
+
+5. POST DIRECT DE ÎNGRIJIRE/SUPRAVEGHERE – DOAR DACĂ FIȘA POSTULUI RĂMÂNE AMBIGUĂ
+Referință: GSCS p37 prevede expres personal direct de implementare pentru îngrijire, sprijin și personal administrativ încadrat în servicii nou înființate/extinse, inclusiv complementare; această regulă specifică se distinge de administrația generală a proiectului din GSCG.
+Speța necesită: COR/stat de funcții, fișă post, calificare, program, atribuții directe asupra copiilor și eventuale sarcini de curățenie/administrare.
+Întrebarea se trimite numai dacă atribuțiile sunt hibride și documentele nu separă serviciul operațional nou/extins de administrația generală a proiectului: ce separare a atribuțiilor și costurilor este permisă pentru postul descris? Pentru personalul încadrat efectiv în serviciul nou/extins se aplică regula specifică GSCS p37; nu este necesară o derogare doar fiindcă postul se numește auxiliar/administrativ.
+Încadrarea directă presupune dovezi ale angajării în serviciul nou/extins, fișei postului, normării și evitării dublei finanțări. Numai administrația GENERALĂ a proiectului se tratează potrivit regulii indirectelor; nu se mută automat personalul operațional al serviciului în indirecte după denumirea postului.
+
+Responsabil pregătire: manager+jurist+responsabil financiar, cu documentele operatorului/UAT. Orice transmitere externă necesită instrucțiunea expresă a utilizatorului.

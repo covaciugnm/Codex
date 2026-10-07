@@ -20,8 +20,8 @@
     },
     "fb3ecc5b-d79f-4ebd-8375-45b8acdeb7c5": {
       "name": "Indunova",
-      "content_sha256": "5ee9f299d40c49bbfba5bfdaf3d0537c4e087ab30833af4e3fb642a07aac6eee",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "71c6507ba1150dbde2c406e93462088581943f6ceccff970caa8c9ba79c5fcfe",
+      "snapshot_utc": "2026-10-07T14:10:54.540840+00:00",
       "folder": "Indunova"
     },
     "13771f36-ff54-4018-99b0-f69f8dfdd2f8": {
@@ -38,8 +38,8 @@
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "6bdb1b0393be9b65ba4064008c24b6f87fe2d8b8a8141a9c289434b58b9f5b18",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "fe2fb2929fba14034ca7494f3ffa3c93258d886a65d3e234edfbd46df670b190",
+      "snapshot_utc": "2026-10-07T14:10:54.540840+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
@@ -56,8 +56,8 @@
     },
     "7310b49a-fe03-4b49-b6de-1877255e0742": {
       "name": "FinantariRO",
-      "content_sha256": "f8d74c520eb48a2e2dd93b49a2071b365919b584fca893e1964b9b209b198cf7",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "ee693d11d48a9dde33209ba4be2b724739569b30e52e6c0388e7a7e9c486447c",
+      "snapshot_utc": "2026-10-07T14:10:54.540840+00:00",
       "folder": "FinantariRO"
     },
     "ec58c433-8025-4835-8910-bab2f99b913f": {
@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "18fd40cf1388ea4bfb6c7cebed2c4489553d2b7207cb8af1841eb8a25e7b94e1",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "e5634ac3da5b80d258c9f512fee00b9ce282a519d569a9381d4cf3c20173e80a",
+      "snapshot_utc": "2026-10-07T14:10:54.540840+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -107,7 +107,13 @@
       "content_sha256": "a3b81a44ec733b5320658e03dd7fb6abdd92f6874b51c9a9de9f3f06e822d351",
       "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
       "folder": "_Fara proiect"
+    },
+    "0342b0dc-be68-43fb-b135-3d436d2d009d": {
+      "name": "Hidroelectrica",
+      "content_sha256": "acbf4513dc0e570c07d86789de9eba70d1ee0dca389944a17983dd33cafdcc6a",
+      "snapshot_utc": "2026-10-07T14:10:54.540840+00:00",
+      "folder": "Hidroelectrica"
     }
   },
-  "updated_at_utc": "2026-10-07T08:52:25.384787+00:00"
+  "updated_at_utc": "2026-10-07T14:20:21.970816+00:00"
 }

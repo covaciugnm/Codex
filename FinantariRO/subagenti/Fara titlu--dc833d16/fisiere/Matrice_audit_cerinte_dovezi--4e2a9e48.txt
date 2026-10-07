@@ -1,0 +1,405 @@
+MATRICE DE PROIECTARE IDEALĂ – 67 CERINȚE
+07.10.2026
+Perimetru: proiectare de la proiect spre selectarea beneficiarului și școlilor. Ipoteze aprobate: fonduri suficienteROSE, fără altePEOaprobate, experiență suficientă cu proiecte demonstrative de selectat ulterior. Lipsa unei semnături sau probe intenționat viitoare nu blochează designul. Nu se afirmă că documentele viitoare au fost verificate. Riscul privește situația în care cerința nu se confirmă la selectare/depunere.
+
+J01 — Lider într-o categorie eligibilă
+Sursă: GSCS5.1.2 p27
+Dovadă/ipoteză: Sinteza: lider nenominalizat
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Nominalizați școală acreditată/ISJ/CJRAE eligibil și probați încadrarea.
+
+J02 — ONG partener cu proiect relevant implementat în ultimii3ani
+Sursă: GSCS5.1.3 p27
+Dovadă/ipoteză: Utilizatorul confirmă pentru proiectare experiență suficientă; proiectele demonstrative vor fi selectate ulterior.
+Status proiectare: IPOTEZĂ_ACCEPTATĂ_PROIECTARE; Risc: CRITIC
+Acțiune: Contract, perioadă, rapoarte și rezultate instituționale; verificare domeniu alternativ eligibil.
+
+J03 — Personalitate juridică și obiect statutar relevant
+Sursă: GSCG sec2 tabel2
+Dovadă/ipoteză: CUI29433614; statut absent
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Acte înființare, statut actualizat, extras registru; obiect activități asumate.
+
+J04 — Fără insolvență, lichidare ori suspendare relevantă
+Sursă: GSCG sec2 tabel3; GSCS7.6 p50
+Dovadă/ipoteză: Declarații și extrase neprimite
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Documente juridice actuale; verificare inclusiv suspendare/întrerupere ultimii2ani.
+
+J05 — Fără condamnări, grave greșeli profesionale ori declarații false
+Sursă: GSCG sec2 tabel3
+Dovadă/ipoteză: Declarația unică necompletată
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Declarații și documente confirmare potrivit etapelor; verificare reprezentanți/conducere.
+
+J06 — Datorii ANAF în pragul admis
+Sursă: GSCS7.6 p50; GSCG tabel3
+Dovadă/ipoteză: ANAF indicatori bilanț; certificat fiscal absent
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Certificat actual: obligații nete cel mult1/12 obligații ultimele12luni.
+
+J07 — Datorii locale în pragul admis
+Sursă: GSCS7.6 pp50–51; GSCG tabel3
+Dovadă/ipoteză: Certificat fiscal local absent
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Certificat cu anexă: scadente cel mult1/6 obligații ultimul semestru; puncte de lucru după caz.
+
+J08 — Maximum5 proiecte/apel, dacă fără derogare
+Sursă: GSCG sec2 paragraful anterior tabelului2
+Dovadă/ipoteză: Lista portofoliului neprimita
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Inventar toate participările ca lider/partener; verificați derogările GSCS și riscul respingerii tuturor.
+
+P01 — Acord unic al partenerilor finanțați
+Sursă: GSCS5.1.4 p29; GSCG anexa1
+Dovadă/ipoteză: Model oficial arhivat; acord semnat absent
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Bugete, roluri, contribuții și semnături coerente în acord unic.
+
+P02 — Selecția ONG privat de către lider public
+Sursă: GSCS5.1.4 pp29–30; GSCG anexa2
+Dovadă/ipoteză: Model procedură arhivat; selecție neexecutată
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Dosar selecție transparentă conform procedurii; criterii relevante și probe.
+
+P03 — Notă valoare adăugată a parteneriatului
+Sursă: GSCS5.1.4 p29;7.4 p49
+Dovadă/ipoteză: Rapoarte de proiectare; nota finală absentă
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Descrieți valoare adăugată și resurse, fără selectare ONG numai pentru catering.
+
+P04 — ONG execută activitatea relevantă proprie
+Sursă: GSCS5.1.4 p29; GSCG tabel2
+Dovadă/ipoteză: ONG păstrează consiliereA2/facilitareA4 și coordonare/financiar; catering și transport trecute la lider.
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Validați execuția relevantă și personalul propriu. Mutarea suportului este alegere prudentă de proiectare, nu obligație universală de ghid; experiența rămâne criteriu de selecție.
+
+P05 — Lider are buget strict peste fiecare partener
+Sursă: GSCS5.1.4 p29
+Dovadă/ipoteză: Buget F31>F32 în ambele modele
+Status proiectare: CONFORM_MODEL; Risc: MAJOR
+Acțiune: Recontrol la fiecare redistribuire; exceptarea numai publică nu se aplică aici.
+
+P06 — Școli asociate fără finanțare; acorduri acoperă recrutarea
+Sursă: GSCS5.1.4 p28; anexa7
+Dovadă/ipoteză: 4/6 școli ipotetice; acorduri absente
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Acord fiecare școală sursă dacă elevii nu vin integral din membrii finanțați.
+
+P07 — Fiecare membru își asigură contribuția proprie
+Sursă: GSCS5.1.4 p29; GSCG2.2
+Dovadă/ipoteză: Sinteza coloane contribuție separat
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Hotărâri/angajamente și resurse proprii ale fiecărui membru; nu transferați obligația altui partener.
+
+E01 — Elevi înmatriculați eligibil; domiciliu legal România
+Sursă: GSCS3.7 p18
+Dovadă/ipoteză: 480/720 elevi ipotetici
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Liste și documente la intrare; cicluri școlare eligibile; domiciliu.
+
+E02 — Profesori angajați eligibil și fără dublă formare finanțată
+Sursă: GSCS3.7 p18;5.2.2 A3 pp35–36
+Dovadă/ipoteză: 32/48 profesori ipotetici
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: MAJOR
+Acțiune: Dovadă raport muncă, formări anterioare, declarație complementaritate anexată metodologiei.
+
+E03 — Minimum400 elevi unici, fără dublă numărare
+Sursă: GSCS3.8.1 p19
+Dovadă/ipoteză: Indicatori480/720; subgrup STEAM inclus
+Status proiectare: CONFORM_MODEL; Risc: CRITIC
+Acțiune: Registru unic real; control overlap pe A1.1/A1.2/A2–A4.
+
+E04 — Rezultat5SR09 minimum80%
+Sursă: GSCS3.8.2 pp19–20
+Dovadă/ipoteză: Activitati:384/576
+Status proiectare: CONFORM_MODEL; Risc: MAJOR
+Acțiune: Plan monitorizare și probe rămânere în educație/finalizare program potrivit definiției.
+
+E05 — EECR03 minimum80% din EECO05; certificare competentă
+Sursă: GSCS3.8.2 p20
+Dovadă/ipoteză: 26/39 profesori rezultate țintă
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Program conform normelor și certificat/adeverință cu recunoaștere rezultate învățării.
+
+E06 — Analiză proprie nevoi și segmentare alfabetizare/STEAM
+Sursă: Anexa3 criteriul1.3
+Dovadă/ipoteză: Raport educație este scenariu
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: MAJOR
+Acțiune: Date școli, diagnostic, eșantion/metodă, nevoi și resurse; validați toate țintele.
+
+E07 — Metodologie selecție GT pentru punctaj
+Sursă: GSCS3.7 p18; Anexa3 criteriul1.4
+Dovadă/ipoteză: Necesitate identificată; metodologie finală absentă
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Atașați metodologie detaliată: criterii, comisie, rezerve, sprijin și contestații.
+
+E08 — A1 obligatoriu cel puțin o subactivitate și A2 obligatoriu
+Sursă: GSCS5.2.2 pp30–34
+Dovadă/ipoteză: A1.1,A1.2,A2 incluse
+Status proiectare: CONFORM_MODEL; Risc: CRITIC
+Acțiune: Operaționalizați calendar și livrabile cu școlile; nu doar linii bugetare.
+
+E09 — A3 curricular/formare distinct și complementar
+Sursă: GSCS5.2.2 pp34–36
+Dovadă/ipoteză: 2 modele CDEOȘ;32/48 formați
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Calendar avizare/implementare, programe și delimitare PNRR/PEO noncompetitiv.
+
+E10 — A4 colaborări comunitare autentice
+Sursă: GSCS5.2.2 p36
+Dovadă/ipoteză: 6h/grup;2/3 parteneriate propuse
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Acorduri și fișe de învățare aplicată; acces, minori, orar.
+
+E11 — A5 baseline, intermediar, final și efecteA3/A4
+Sursă: GSCS5.2.2 p36
+Dovadă/ipoteză: 200/280 ore-serviciu;T0/T1/T2
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Protocol, standarde aplicabile, metodologie și livrabile fără duplicare teste profesor.
+
+E12 — Premii/subvenții în limite și după rezultate reale
+Sursă: GSCS5.2.2 pp32–33
+Dovadă/ipoteză: 3/4 competiții;5 distincții;plafoane
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Calendar eligibil, regulament, jurizare, probe; pentru5 premiați minimum17 participanți când limita30% se aplică.
+
+B01 — Total eligibil între700000 și1000000EUR la5,2584
+Sursă: GSCS5.4 p46
+Dovadă/ipoteză: 3.680.880/5.258.400lei
+Status proiectare: CONFORM_MODEL; Risc: CRITIC
+Acțiune: Verificare interval după fiecare ofertă/cantitate; sub minim sau peste maxim se respinge.
+
+B02 — Buget în lei, total include cofinanțarea
+Sursă: GSCS5.4 p46
+Dovadă/ipoteză: Sinteza total/AFN/contribuții distincte
+Status proiectare: CONFORM_MODEL; Risc: MAJOR
+Acțiune: Păstrați aceeași convenție în MySMIS și acord.
+
+B03 — Contribuții corecte tip entitate și regiune
+Sursă: GSCS5.5 p46; GSCG2.2 tabele contribuțiiP7
+Dovadă/ipoteză: ONG0%;lider2% ipoteză
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Documentați regimul finanțării liderului; ajustați la categoria exactă inclusiv15% dacă aplicabil.
+
+B04 — Capacitate financiară AFN ONG
+Sursă: GSCG2.1
+Dovadă/ipoteză: Fonduri suficiente asumate de utilizator; bază publică venituri2.013.707lei; bugetONGredus178.638,93/243.406,13lei.
+Status proiectare: IPOTEZĂ_ACCEPTATĂ_PROIECTARE; Risc: CRITIC
+Acțiune: Bilanțuri integrale/recipise; alternativă40% numai dacă condițiile îndeplinite; nu confundați totalul proiectului.
+
+B05 — Reguli cumulative de capacitate pentru proiecte multiple
+Sursă: GSCG5.3
+Dovadă/ipoteză: Utilizatorul asumă lipsa altor proiectePEOaprobate; portofoliul/participările de confirmat la selectare.
+Status proiectare: IPOTEZĂ_ACCEPTATĂ_PROIECTARE; Risc: CRITIC
+Acțiune: Metoda și aporturi per proiect;1/4 venituri pentru contribuții/metoda venituri; regula2 proiecte pentru metoda procentuală.
+
+B06 — A1+A2 minimum50% total eligibil
+Sursă: GSCS5.2.3 pp36–37
+Dovadă/ipoteză: 77,02%/77,80%
+Status proiectare: CONFORM_MODEL; Risc: CRITIC
+Acțiune: Recalculați după reclasificări și oferte reale.
+
+B07 — Indirecte fixe15% personal direct, separat per membru
+Sursă: GSCS5.3.2 p43;5.3.5 pp45–46
+Dovadă/ipoteză: Indirecte separat rotunjite114.190,76/159.801,42
+Status proiectare: CONFORM_MODEL; Risc: MAJOR
+Acțiune: Includeți baza corectă după identificarea personalului extern; fără dublare costuri indirecte.
+
+B08 — Personal extern clasificat corect
+Sursă: GSCS5.3.4 p45; GSCG sec3 cheltuieli personal
+Dovadă/ipoteză: BugetP13:P25 separă personal extern inclus înH; indirecte per membru adaptate;test1000lei->150lei în constructor.
+Status proiectare: CONFORM_MODEL_CU_INPUTURI_VIITOARE; Risc: MAJOR
+Acțiune: Completați numai componenta identificabilă eligibilă dinofertă; Pnu se adaugă încăo dată la directe; controlați0<=P<=H.
+
+B09 — FEDR maximum15% directe
+Sursă: GSCS5.3.2 p43
+Dovadă/ipoteză: 10,95%/11,01% în clasificare provizorie
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Descompuneți kituri/licențe/active; limita după natura reală.
+
+B10 — Verde minimum4% directe pentru punctaj
+Sursă: Anexa3 criteriul1.6; GSCS7.3 p49
+Dovadă/ipoteză: 13,29%/13,37% alocare tematică declarată
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Justificare contribuție și cotă per cost; nu atribuire arbitrară50%.
+
+B11 — Necesitate, cantitate și preț unitar fundamentate
+Sursă: GSCS7.3 pp48–49;7.4 p49; GSCG sec3 analiza pieței
+Dovadă/ipoteză: Mpreț ofertă,Nsursă,Palocare personal extern;0oferte;plafoane de proiectare declarate.
+Status proiectare: DESCHIS_FUNDAMENTARE_PIAȚĂ; Risc: MAJOR
+Acțiune: Folosiți fișele de specificații/oferte; fundamentați economic fiecare preț și necesitate ulterior. Anvelopa nu reprezintă prețde piață validat.
+
+B12 — TVA eligibilă fără recuperare dublă
+Sursă: GSCS5.3.3 p44;7.3 p48
+Dovadă/ipoteză: Plafoane includTVA fără separare
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: StatutTVA și declarație, bază și cotă reală fiecare linie; excludeți TVA recuperabilă.
+
+B13 — Fără echipamente second-hand și cheltuieli neeligibile
+Sursă: GSCS5.3.3 p44
+Dovadă/ipoteză: Bunuri noi presupuse
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Specificații/contracte, încadrare pe lista neeligibilă; surse proprii pentru neeligibile necesare.
+
+B14 — Catering/transport pe prezență/nevoi fără dublă finanțare
+Sursă: GSCS5.2.2 A2 p34; GSCG sec6 dubla finanțare
+Dovadă/ipoteză: 60 întâlniri,50% elevi transport ipoteze
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: MAJOR
+Acțiune: Calendar, trasee, justificare masă, verificare Masa Sănătoasă/alte proiecte, evidențe reale.
+
+B15 — Echipamentul alocat unei singure subactivități
+Sursă: GSCS7.3 p49
+Dovadă/ipoteză: Linii kituri/dispozitiveA1
+Status proiectare: CONFORM_MODEL; Risc: MAJOR
+Acțiune: Mențineți cost integral într-o subactivitate chiar dacă folosire multiplă.
+
+B16 — Flux de numerar și surse neeligibile
+Sursă: GSCS5.5 p46; cap12; analiză economică proprie
+Dovadă/ipoteză: Fonduri suficiente asumate; cash-flow real va operaționaliza ipoteza, test3luni nu este criteriu legal.
+Status proiectare: IPOTEZĂ_ACCEPTATĂ_PROIECTARE; Risc: MAJOR
+Acțiune: Balanță2026, solduri disponibile, plăți/rambursări lunare, contribuții și rezervă fundamentată.
+
+H01 — Management obligatoriu intern;4 funcții pentru2membri
+Sursă: GSCS5.3.2 p38; GSCG sec3 personal
+Dovadă/ipoteză: Manager/financiar lider;coordonator/financiarONG
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Contracte legale interne; nu externalizați managementul; atribuții și experiență.
+
+H02 — Ore, salarizare și personal public conforme
+Sursă: GSCS7.3 p49; GSCG tabel15 și regulile personalului
+Dovadă/ipoteză: Ore și brut/oră ipoteze;net maxim64,35
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Calcul pe regim juridic, grile în vigoare, taxe; fișe și CV; plafon nu este tarif justificat.
+
+H03 — Capacitate reală și fără suprapuneri
+Sursă: Anexa3 criteriile3.3–3.4; GSCG reguli personal
+Dovadă/ipoteză: 15/19 persoane;7342/10293ore
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Orare pe lună/școală/persoană, alte contracte, repaus, deplasare; norme medii nu validează vârfuri.
+
+H04 — Competențe consiliere și siguranță minori
+Sursă: GSCS5.2.2 A2; cap10; verificare legislație specifică de completat
+Dovadă/ipoteză: Un consilier propus;atestat absent
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: MAJOR
+Acțiune: Definiți serviciul; calificări/drept practică după caz, integritate, proceduri minori și incidente.
+
+L01 — Duratămax30luni și finalizare31.12.2029
+Sursă: GSCS5.6 p47
+Dovadă/ipoteză: 24/30luni;calendar relativ
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Data start reală, Gantt școlar, marjă achiziții și închidere înainte de termen.
+
+L02 — Protecție date participanți și minori
+Sursă: GSCS3.7 p18;cap10 pp56–57
+Dovadă/ipoteză: Note generale în rapoarte
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Flux date, informări/consimțăminte cerute de ghid, temeiuri pe operațiuni, acces/retenție; fără consimțământ generic universal.
+
+L03 — Carta, egalitate, dizabilități și accesibilitate
+Sursă: GSCS3.16 pp21–23;7.4 p49;anexele5/6
+Dovadă/ipoteză: Modele declarații arhivate;resurse incluzive ipotetice
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Declarații semnate și măsuri concrete financiar cuantificate, adaptări la nevoi.
+
+L04 — Conflict interese și incompatibilități
+Sursă: GSCS cap9 pp55–56; GSCG tabel3
+Dovadă/ipoteză: Declarații neprimite
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Verificare selecție/achiziții/angajări; legături și măsuri; art96 Legea161 unde aplicabil.
+
+L05 — Achiziții potrivit naturii entității
+Sursă: GSCS5.1.4 p29;7.3; GSCG reguli achiziții
+Dovadă/ipoteză: Plan achiziții final absent
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Identificați regimul public/privat aplicabil și procedura, pragurile și conflictele în versiunea în vigoare.
+
+L06 — Dubla finanțare și complementaritate
+Sursă: GSCS5.2.2 A3 pp35–36;7.6 p51; GSCG sec6
+Dovadă/ipoteză: Rapoarte avertizează;inventar proiecte absent
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Inventar PNRR/POCU/PEO/PIDS, elevi/formări/livrabile/dotări; declarații și control continuu.
+
+D01 — Toate documentele de depunere aplicabile
+Sursă: GSCS7.4 p49;7.5 pp49–50
+Dovadă/ipoteză: Anexe oficiale arhivate;nu dosar completat
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Acord/notă/selecție/analiză piață/anexe5,6,7/CV+probe/experiență/avizITI dacă aplicabil/declarație unică.
+
+D02 — Documente contractare și conturi
+Sursă: GSCS7.6 pp50–51
+Dovadă/ipoteză: Bilanțuri publice parțiale;rest documente absente
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Checklist pe tip entitate: acte,registru,fiscal,mandate,RU,declarații,fișe financiare și probe eligibilitate.
+
+D03 — Depunere MySMIS și limba română
+Sursă: GSCS4.3.3 p26;7.1–7.2 pp47–48
+Dovadă/ipoteză: Fără cerere MySMIS
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: CRITIC
+Acțiune: Completare integrală,semnătură autorizată,traducere legalizată documente străine după ghid.
+
+D04 — Termen depunere
+Sursă: GSCS4.3.2 p26
+Dovadă/ipoteză: Termen din ghid27.11.2026 ora16:00
+Status proiectare: DE_VERIFICAT_LA_DEPUNERE; Risc: CRITIC
+Acțiune: Monitorizați amendamente; încărcare și transmitere înainte termen, fără transmitere automată în această sarcină.
+
+D05 — Domeniu intervenție149=100% buget
+Sursă: GSCS7.1 p48
+Dovadă/ipoteză: NecompletatMySMIS
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: MAJOR
+Acțiune: Completați149 și100% conform ghidului.
+
+D06 — Arhivă norme/documente și versiuni complete
+Sursă: GSCS cap2,5.3.1; GSCG1.3
+Dovadă/ipoteză: Raportdocumentarist:100documentePDF/DOCX/HTML,3758paginiPDFextrase; recuperări românești, UEparțial.
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Lista explicită a lipsurilorUE și a referințelor secunde rămâne deschisă; datare, proveniență, consolidări. Extragere automată nu egal lectură integrală.
+
+D07 — Grile salarizare publică actuală
+Sursă: GSCS5.3.4 p45; GSCG reguli personal
+Dovadă/ipoteză: COMPLETARI_DOCUMENTARIST: Legea153,HG234,HG1009/2025 și grilă actualizată recuperate; copiePDF2023marcatăistoric.
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Aplicați ramura salarială corectă instituției și norma actuală la angajare/plată. Maxim40% din grilaactualizată nu se aplică automat ONG sau fiecărui angajat.
+
+S01 — Plan monitorizare și indicatori de etapă
+Sursă: GSCS cap6 p47;8.9.3 pp54–55;cap11 p57
+Dovadă/ipoteză: T0/T1/T2 propuse;plan final absent
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: MAJOR
+Acțiune: Calendar indicatori, probe, responsabili, praguri abateri și remedii.
+
+S02 — Sustenabilitate instituțională și financiară
+Sursă: Anexa3 criteriile4.1–4.2
+Dovadă/ipoteză: ResurseCDEOȘ propuse;angajamente neprimite
+Status proiectare: CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE; Risc: MAJOR
+Acțiune: Hotărâri școli,folosință gratuită dotări,mentenanță,avizare,diseminare și buget continuare.
+
+S03 — Punctaj și praguri eliminatorii distincte
+Sursă: GSCS8.4–8.6; Anexa3
+Dovadă/ipoteză: Matrice evaluator;plafonAlba99 nu scor
+Status proiectare: PROIECTAT_CU_PROBE_VIITOARE; Risc: CRITIC
+Acțiune: Evaluați cerere/probe fiecare rând și prag21/21/21/7,total70;nu scor din ținte.
+
+S04 — ITI pentru punct suplimentar numai real și avizat
+Sursă: Anexa3 criteriul1.8; GSCS7.4 p49
+Dovadă/ipoteză: Proiect ideal:100teoretic dacăITI DeltaDunării real+avizat;99dacănonITI. Geografia nu este probată ca fapt.
+Status proiectare: SCENARII_DISTINCTE; Risc: MAJOR
+Acțiune: Selectați parteneri/școli și teritoriu realmente conforme. Nu transferați punctul dintr-o simulare în scorobținut.
+
+T01 — Formule recalculate și contribuții rotunjite
+Sursă: Regulă calcul monetar a modelului; GSCS5.4
+Dovadă/ipoteză: verification_minim/maxim;errors0
+Status proiectare: CONFORM_MODEL; Risc: MINOR
+Acțiune: Repetați după schimbări;control total/entități/activități/ore;rotunjire la bani.
+
+T02 — Parametri editați propagați în resurse
+Sursă: Control tehnic independent al constructorului
+Dovadă/ipoteză: Constructor runda2 leagă elevi/grupe/luni de cantități/ore; test+120elevi; controlmin/max separat.
+Status proiectare: CONFORM_MODEL; Risc: MAJOR
+Acțiune: Retestați după modificări și aliniați consilierea12h/grup+0,2h/elev,plus20%pregătire; orarelevor confirma numerele.
+
+T03 — Oferte înlocuiesc alocarea fără umplere economii
+Sursă: Control tehnic independent; GSCS7.3
+Dovadă/ipoteză: M preț,N sursă,O alocare;test10lei raportat
+Status proiectare: CONFORM_MODEL; Risc: MAJOR
+Acțiune: Adăugați validare cantitate/preț/sursă și control intervaleligibil;nu alimentați artificial alte costuri.

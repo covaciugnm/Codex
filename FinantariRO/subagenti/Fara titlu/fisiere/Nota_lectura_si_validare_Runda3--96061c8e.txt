@@ -1,0 +1,34 @@
+RECUPERARE DOCUMENTARĂ — RUNDA 3 / 07.10.2026
+
+Rezultat: toate cele opt documente vizate în această rundă au fost recuperate din surse oficiale, cu fișiere reale și text extractibil. Cele cinci acte UE restante din registrul legislativ de 35 de surse au acum copii locale. Formula 35/35 descrie numai lista închisă de 35 de surse inventariate anterior; nu înseamnă că orice act, anexă, modificare ori instrucțiune menționată în toate documentele proiectului a fost recuperată sau analizată integral.
+
+REGISTRE CARE PREVALEAZĂ ÎN ACEASTĂ RUNDĂ
+- Registru_validat_Runda3.json și .html: opt documente, surse, SHA256, pagini, versiuni și pasaje consultate.
+- Registru_legislatie_actualizat_35_surse.json: actualizare a celor 35 de poziții. Este salvat distinct pentru a evita suprascrierea concurentă a registrului din folderul-părinte. Managerul îl poate utiliza la actualizarea indexului general.
+- Registrele de încercări păstrează și eșecurile inițiale. Statusul NERECUPERAT dintr-o încercare istorică nu anulează recuperarea ulterioară validată.
+
+FIȘIERE ȘI VERSIUNI
+1. Regulament2021_1057.pdf — 39 pagini RO, act inițial publicat la30.06.2021, copie ADRBI. Nu este forma consolidată20.09.2025 indicată de EUR-Lex. Au fost consultate art.4(1)(f),6,8,17, PDF pp17,19–21,23.
+2. Regulament2024_2509.pdf — 239 pagini RO, act inițial26.09.2024, Publications Office. Au fost consultate art.33 pp52–53,61 p71,63 pp72–73. O rectificare din11.08.2026 apare în sursa EUR-Lex FR; nu certificăm că acea rectificare afectează și textul RO. Verificarea consolidărilor rămâne separată.
+3. Regulament2023_1676.pdf — 28 pagini RO, act inițial cu anexă, Publications Office. Consultate art.1–3 și anexa pct1.1–1.4, pp2–4. Nu este certificat drept cea mai recentă consolidare.
+4. Recomandare2022_C476_01.pdf — 11 pagini RO, recomandarea8.12.2022 privind îngrijirea pe termen lung, JO15.12.2022, Publications Office. Consultate punctele6–10 și anexa principiilor de calitate, pp6–11. Este exact tema citată în GSCS; nu o substituim cu o recomandare pentru educația timpurie.
+5. Carta_tratate_2016_1.pdf — volumul oficial RO de408pagini, inclusiv Carta la pp393–405. Coperta este Carta_tratate_2016_2.pdf,2pagini. Arhiva descărcată de la Publications Office, Carta_tratate_2016_RO_original.zip, conține două fișiere PDF/X; copiile PDF păstrează octeții fișierelor extrase. Textul extras din ediția de tipar poate duplica planșe; PDF-ul original prevalează. Au fost consultate articolele relevante1,7–8,14,20–26,31,51–54. NU au fost citite integral tratatele din cele408pagini.
+6. Agenda_competente_COM2020_274.pdf — COM(2020)274final,26pagini EN, copie oficială din arhiva Parlamentului Austriei. Consultate introducerea și acțiunile6/8, pp2–4,14,17. Documentele de lucru SWD citate nu sunt presupuse incluse.
+7. Plan_educatie_digitala_COM2020_624_RO.pdf — COM(2020)624final,23pagini RO, Publications Office. Consultate prioritățile4.1/4.2, acțiunile4–6 și pasajele despre siguranță/etică/drepturile copiilor, pp12,15,18. Există separat și publicația editorială EN de20pagini a Comisiei, Plan_educatie_digitala_COM2020_624.pdf. Pentru identificarea COM prevalează fișierul RO.
+8. Pact_verde_COM2019_640.pdf — COM(2019)640final,28pagini RO, transmis de Consiliu prin15051/19. Consultată secțiunea2.2.4 privind educația/formarea și pasajele de mediu relevante. Anexa de calendar și alte documente conexe nu sunt declarate recuperate separat.
+
+IMPLICAȚII PENTRU PROIECT — SINTEZĂ DE LUCRU
+FSE+ art.4(1)(f),6,8 susține accesul egal, incluziunea, accesibilitatea și respectarea Cartei. Procedura de selecție a copiilor trebuie să demonstreze aceste principii, nu doar să le declare. Art.17 cere indicatori și date verificabile; prelucrarea rămâne corelată cu GDPR și ghidul apelului.
+
+Regulamentul financiar art.33 cere corelarea resurselor cu rezultate și justificarea economică. Art.61 impune prevenirea și tratarea conflictelor de interese inclusiv în pregătire, audit și control; sunt necesare declarații și măsuri efective. Art.63 privește gestiunea partajată. Normele specifice granturilor în gestiune directă nu înlocuiesc automat GSCS/GSCG/contractul PEO.
+
+Regulamentul2023/1676 reglementează opțiuni de cost simplificat și condiții de rambursare către state, cu reguli privind participarea și costurile incluse. Nu modificăm unilateral valorile ED01/ED02 din ghid pe baza unei valori găsite în anexă și nu finanțăm de două ori aceleași componente. Regulile apelului și pista de audit trebuie aplicate împreună.
+
+Carta impune interesul superior al copilului, protecția datelor, nediscriminarea și accesibilitatea, în domeniul său de aplicare. Acestea cer proceduri, informații accesibile, documentarea adaptărilor și controlul practicilor, nu doar o declarație anexată.
+
+Cele trei comunicări strategice pot fundamenta resurse pedagogice, competențe digitale ale personalului, conținut accesibil și teme de mediu adecvate vârstei. Sunt documente de politică; nu acordă singure eligibilitate unui cost și nu creează punctaj suplimentar în afara grilei.
+
+Recomandarea îngrijirii pe termen lung oferă principii de calitate și condiții pentru personal, dar nu transformă activitățile serviciului pentru vârstnici al ONG în activități eligibile în apelul de educație timpurie.
+
+LIMITE
+Validarea din această rundă verifică identitatea documentelor, existența conținutului, numărul de pagini și pasajele indicate. Nu este aviz juridic final și nu declară lectura integrală a tuturor documentelor ori închiderea tuturor modificărilor legislative. Nu au fost modificate bugetele. Pista documentară îmbunătățită nu înlocuiește probele instituționale încă necesare.

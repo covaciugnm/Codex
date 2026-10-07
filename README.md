@@ -22,3 +22,4 @@ Salvarea automată rulează la 6 ore. Versiunile precedente rămân în istoricu
 - [iDempiere](iDempiere/README.md)
 - [EVA-Mail](EVA-Mail/README.md)
 - [_Fara proiect](_Fara%20proiect/README.md)
+- [Hidroelectrica](Hidroelectrica/README.md)

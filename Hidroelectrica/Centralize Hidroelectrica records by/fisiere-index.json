@@ -1,0 +1,158 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Hidroelectrica/START_HIDROELECTRICA.html",
+    "status": "copiat",
+    "saved_path": "fisiere/START_HIDROELECTRICA--f742fdc0.html",
+    "bytes": 15684,
+    "sha256": "56f8308f282c7194efbffe05d31af83bc78f08edd1ff4f612ff68e66872a8b3d"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Hidroelectrica/outputs/01a115a6-7b36-7660-a191-4af704c009d2/Situatie_Hidroelectrica_2026-10-07.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Situatie_Hidroelectrica_2026-10-07--01663e0b.xlsx",
+    "bytes": 38231,
+    "sha256": "8e6f3370460664ebba115f6b12c7a9ec0b092a2b8b3a56ea63aa1f70d453dfb0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\99. Evidenta verificarii\\Date de lucru\\add_production.py",
+    "status": "copiat",
+    "saved_path": "fisiere/add_production--a343473f.py",
+    "bytes": 3930,
+    "sha256": "c48ca5eb13c477e82c67c1d4a02522e5a717b1b3ce2359277d94d3aaa6a56c26"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\99. Evidenta verificarii\\Date de lucru\\build_workbook.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_workbook--7293f320.mjs",
+    "bytes": 16309,
+    "sha256": "49f8a4b948d5040ff55c0637a1bd439914162f6d292a06ebf6745643bb39f343"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\99. Evidenta verificarii\\Date de lucru\\preview_Productie.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_Productie--c5b71b14.png",
+    "bytes": 160726,
+    "sha256": "3934856d0afa4d33f0ea1b40bb7f92eb19352a6848b5bdd689187554498ce8ff"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\99. Evidenta verificarii\\Date de lucru\\pros_FX-26107829179_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pros_FX-26107829179_2--c1f17d2e.png",
+    "bytes": 318082,
+    "sha256": "7edc990a1a4a4cf3bd8d073990fec3d2b06540861516b73e04baf016f7e4438d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\99. Evidenta verificarii\\Date de lucru\\pros_FX-26107829180_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pros_FX-26107829180_3--2379c6c2.png",
+    "bytes": 77627,
+    "sha256": "8fa4fb14817eba4667e8a1e73480292a2812d5d9dfc24264cf18305d5e5d079f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\99. Evidenta verificarii\\Date de lucru\\pros_FX-26112083088_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pros_FX-26112083088_2--3b73d943.png",
+    "bytes": 208207,
+    "sha256": "830d6f3b3dc2657af360822db0a7b9aefd7df15b707d9d9828898c81a8148e6f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\all_downloads.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\attachment_inventory.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\build_workbook.mjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\contract_page1.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\download_all.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\downloads.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\eva_source.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\finalize_workbook.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\finish_organization.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\full_emails.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\inspect_pdfs.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\organize.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\prepare_report.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\preview_Atasamente.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\preview_Contracte.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\preview_Emailuri.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\preview_Facturi.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\preview_Situatie.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\read_contracts.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\test_download.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\test_download.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\write_situations.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\xenopol.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Hidroelectrica\\tmp\\xenopol2.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "plugin://dev-6aa3eadee6ec8191a9bc3b9608c0f1bc@created-by-me-remote",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

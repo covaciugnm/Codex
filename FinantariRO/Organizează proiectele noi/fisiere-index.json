@@ -1,9 +1,84 @@
 [
   {
-    "source_reference": "file:///C:/Users/User/.codex/visualizations/2026/10/07/01a11562-6693-7612-b468-3a4527223501/organizare/referinta-render/page-1.png",
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\Educatie timpurie\\page-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-1--adc68fcf.png",
+    "bytes": 149883,
+    "sha256": "8735945d70faa494d7596ec6e6fc224d42278c1c1658f1fbea65fcbaf7b65ebd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\Educatie timpurie\\page-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-2--ab6ef513.png",
+    "bytes": 151997,
+    "sha256": "ddebdf6117c65a26c14f4e190a935b424832ae7f58b40d7b771d46e4d55cad26"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\Educatie timpurie\\page-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-3--dfe23218.png",
+    "bytes": 169041,
+    "sha256": "0be413e3f588fdb23860558c0c7b77248195d4d324fd9852ddaf8fc2f7cc7a4c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\Scoli pentru viitor\\page-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-1--d7ed80e4.png",
+    "bytes": 152059,
+    "sha256": "cb0070eac8e77acab1144b33cfe2875879166e2aae2cf5433d04d7acc5a9d782"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\Scoli pentru viitor\\page-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-2--b5aeb6f5.png",
+    "bytes": 153490,
+    "sha256": "53f8379e0c342a8ab8755fc1ab10d1e61ca60f403856ed4c28ab9ae040c4d29e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\Scoli pentru viitor\\page-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-3--e479d5e1.png",
+    "bytes": 153526,
+    "sha256": "ea7c1fb7d013862bd0ef578bdaaf2f091bf17c009d8ac7182e027b92c5850b23"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\e-Mobility RO\\page-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-1--418906f9.png",
+    "bytes": 149562,
+    "sha256": "9ed4a40aca0fbfab9724cc6f202dbe066c272fe2e2a4280899de850e19f158ab"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\e-Mobility RO\\page-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-2--e1566053.png",
+    "bytes": 136112,
+    "sha256": "23202b612aba61b7e755a5ac11b55e6adb7d038f34eced2bc76522b15fe8c570"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\fise\\e-Mobility RO\\page-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-3--d20ba700.png",
+    "bytes": 161530,
+    "sha256": "1da177704e87ef30ba4598db0e5ba74c3659923d79472b9a649af773aa5f0b8c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a11562-6693-7612-b468-3a4527223501\\organizare\\referinta-render\\page-1.png",
     "status": "copiat",
     "saved_path": "fisiere/page-1--2b471f7b.png",
     "bytes": 149917,
     "sha256": "a9d502041b0471872c904eafac9d2faae4d8209fe64cb96a3293987d319747c9"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - SCOLI ISJ CJRAE ONG PARTENER - PEO P7 7.e.3 Scoli pentru viitor",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.11.27 - UAT CJ ISJ ONG PARTENER - PEO P5 5.f.2 Educatie timpurie - Relansare 2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Proiecte 2026",
+    "status": "fisier_inexistent_sau_director"
   }
 ]

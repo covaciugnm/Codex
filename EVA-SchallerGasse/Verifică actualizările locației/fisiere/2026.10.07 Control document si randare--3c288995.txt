@@ -1,0 +1,9 @@
+2026.10.07 | Control final document
+
+Conținut aprobat de auditorul independent pe versiunea TXT SHA-256 218f8fbf854ff27be6d56e96dfc3e08708316d120ea41e5b8511cacebd224987, 6.215 cuvinte incluzând registrul probelor și surselor.
+Word conține toate paragrafele substanțiale ale versiunii auditate. Prima pagină include sinteza pentru decizie; documentul nu este atribuit ori semnat de un avocat. Sursele RIS sunt hyperlinkuri, iar URL-urile integrale se păstrează în registrele TXT/JSON.
+11 pagini în PDF exportat din documentul Word. Toate cele 11 PNG ale ultimei versiuni au fost inspectate individual: fără text tăiat, suprapuneri, caractere lipsă sau tabele defecte. Titluri negre, fără linie decorativă; tabele de opțiuni și jurisprudență cu borduri vizibile.
+Runtime de autorare: Python și python-docx din dependențele Codex. Marcatorul DOCX și marcatorul PDF au fost rulate cu succes o singură dată, fiecare înaintea primei autorări în formatul respectiv.
+Rendererul împachetat render_docx.py a fost încercat și a eșuat la rezolvarea executabilului LibreOffice soffice.exe, absent din PATH. Eroarea a fost diagnosticată înaintea alternativei. Randare alternativă: Microsoft Word 16 în fundal, document deschis read-only și macros dezactivate, export PDF; rasterizare cu Poppler împachetat. Nu s-a instalat niciun program.
+Control material: originale pentru durată, clauza1000K, somație, prime, contractul de vânzare și cartea funciară; hashuri confruntate cu inventarul. Detaliile cercetării și limitele surselor sunt în raportul de audit.
+Nicio comunicare trimisă, semnare sau plată. Drafturile existente rămân netrimise. Jurnalele TXT sunt actualizate cu păstrarea versiunilor anterioare; registrele centrale de mesaje nu sunt prezentate drept o nouă sincronizare.

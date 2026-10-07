@@ -1,0 +1,23 @@
+{
+  "id": "01a115ac-97b7-7c30-bab4-a78704f08d66",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026",
+  "created_at": 1791364994,
+  "updated_at": 1791365355,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a115aa-4be4-7970-b575-6c5fe6d83c4f\",\"depth\":1,\"agent_path\":\"/root/jurist\",\"agent_nickname\":\"James\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "7310b49a-fe03-4b49-b6de-1877255e0742",
+  "project": "FinantariRO",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a115aa-4be4-7970-b575-6c5fe6d83c4f",
+  "export_started_at_utc": "2026-10-07T14:10:54.540840+00:00",
+  "source_bytes": 1374051,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 31,
+  "message_count": 1,
+  "content_sha256": "f7bd2836f7a50e2b997fe94339545edc20f73cfc0ba6e366c48dfac379daea13",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

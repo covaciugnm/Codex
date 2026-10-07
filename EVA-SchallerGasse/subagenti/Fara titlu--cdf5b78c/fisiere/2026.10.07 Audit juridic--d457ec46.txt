@@ -1,0 +1,122 @@
+2026.10.07 — AUDIT JURIDIC INDEPENDENT
+DONAU, polita 2044001194; Schallergasse 35, 1120 Wien
+Rol: cercetare critica si control al documentarii; analiza documentara asistata de AI, nu opinie semnata de avocat.
+Stare: AUDIT FINAL DE CONTINUT INCHEIAT; versiunea revizuita este aprobata ca studiu juridic documentar pentru decizie, cu limitarile de mai jos. Lecturile intermediare sunt pastrate ca istoric in acest raport.
+
+1. VERIFICAREA PROBELOR
+S-au consultat folder map/README.md si inventar.json. SHA-256 si dimensiunile celor doua polite relevante coincid cu indexul; textele salvate au fost reutilizate. Clauza 1000K si somatia au fost verificate vizual in redarile originalelor PDF.
+Polita 2026.02.03: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf, hash 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835. Expirare 2036.01.01; modificare/inceput indicat 2026.01.01; motiv Ersatzvertrag; titularul vechi este GmbH & Co KG.
+Polita 2026.06.03: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf, hash fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd. Schimbare titular ab 2026.05.28, aceeasi expirare 2036.01.01; nu proba automata a unui nou acord A&C de zece ani.
+Somatia: 05. Asigurari/Asigurare cladire/B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf, hash 1af65af6d23d9c25cc9c0cccad8676df46ecb38e2e33f865e8cfe403a833dd67. Original datat 2026.06.05, A&C/Parkring, prima 1.591,81 EUR si costuri 20 EUR; acorda urmatoarele doua saptamani si avertizeaza asupra lipsei prestatiei si posibilitatii rezilierii. NU reziliaza automat. Semnaturi/facsimile vizibile ppa. Fuhs si i.A. Mag. Riegler. Email Loschy 2026.06.10 transmite acest document, ID 16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f. Data accesului initial trebuie probata; termenul din email 2026.06.18 este doar opt zile dupa email, nu poate singur substitui cele doua saptamani legale.
+Email 2026.06.08 f9f87af8: cere clarificari si solutie fara intrerupere; nu declara rezilierea.
+Email 2026.07.01 30da3512: cere reducerea, eventual examinarea unei incetari prin acord; rezerva §70. Rezervarea nu exercita dreptul.
+Email 2026.10.01 citat integral in raspuns 2c273256: declara rezilierea la primul termen permis; aceasta este distincta de cererea de acord.
+Declaratia DONAU din 2026.10.06 privind lipsa acoperirii este un punct de vedere al asiguratorului, nu constatare judiciara.
+
+2. DURATA DE ZECE ANI — CONTRAARGUMENT MAJOR
+OGH 7 Ob 152/01f, 2001.07.11 (SZ 74/130), priveste chiar o GmbH administratoare de ansambluri rezidentiale cu 36 de asigurari grupate de imobile pe zece ani. OGH a respins pretentia de incetare inaintea expirarii. Termenele au fost solicitate si negociate profesional de firma; reinnoirea automata nu transforma perioada fixa intr-o relatie initiala pe durata nedeterminata. §8(3) nu confera firmelor dreptul legal al consumatorului dupa trei ani. §8(2) nu poate fi aplicat analog pentru a evita termenul fix. Nu trebuie prezentate argumentele instantelor inferioare, infirmate de OGH, drept concluzia hotararii.
+Aplicare: exista jurisprudenta apropiata, care sustine posibilitatea unei durate de zece ani; nu exista regula generala ca orice asigurare comerciala e denuntabila anual. In dosarul nostru lipsesc cererea initiala, mandatul si acordul privind Ersatzvertrag si cadrul 2900010498. Aceste lipsuri justifica verificarea temeiului termenului 2036; nu dovedesc nulitatea acestuia. Absenta semnaturii A&C nu inlatura de una singura succesiunea legala §69.
+OGH 7 Ob 127/18d, 2018.08.29, este citat de RIS in RS0025122 si RS0115852: o asigurare de incendiu pe zece ani intra in cadrul obisnuit al mandatului de administrare imobiliara. Textul integral al acestei hotarari nu a putut fi accesat de auditor prin web (503); principiul a fost verificat in fisele oficiale RIS. Nu sustinem ca mandatul Hofhans a existat sau avea un anumit continut numai din acest principiu.
+
+3. CLAUZA 1000K — ATAC PLAUZIBIL, NU IESIRE AUTOMATA
+Clauza verificata cere 80% din prima anuala actuala inainte de implinirea a doi ani; apoi 70% la doi ani, 60% la trei ani, scadere de zece puncte pe an. Singura exceptie expresa este rezilierea de asigurator dupa sinistru. Nu este identica cu o clauza progresiva ce inmulteste procentul cu toate primele cumulate.
+OGH 7 Ob 154/22f, 2022.11.23, pct.14, invalideaza o clauza R10 foarte apropiata pentru ca impune plata inclusiv cand asiguratul reziliaza dintr-un motiv important imputabil asiguratorului. Hotararea priveste actiune colectiva de consumatori, nu litigiu individual GmbH. Analogia substantiva prin §879(3) este serioasa, dar trebuie argumentata si nu este rezultat deja judecat pentru 1000K.
+OGH 7 Ob 211/12y, 2013.03.27, confirma controlul §879(3) in B2B, dar lasa deschisa generalizarea stricta a degresivitatii si solutioneaza concret raportul cu disparitia riscului §68. In final dispune rejudecarea: golul lasat de clauza nevalabila poate fi completat, cel putin intre firme, prin interpretarea contractului conform vointei ipotetice a partilor. Nulitatea clauzei NU garanteaza zero rambursare.
+Concluzie de audit: contestarea costului de iesire poate imbunatati negocierea; nu confera prin ea insasi un drept de reziliere si nu stinge primele ordinare.
+
+4. REZILIERE SPECIALA LA ACHIZITIE
+OGH 7 Ob 20/89, 1989.06.15, RS0080752: cunoasterea existentei asigurarii si a numelui asiguratorului este suficienta; nu trebuie sa fie cunoscute toate conditiile. Principiul este compatibil cu textul actual §70. Data achizitiei juridice nu se confunda cu pretul, contractul de vanzare sau momentul economic 2026.04.01; la imobile, registrul si notificarea inscrierii conteaza.
+Pe probele accesibile, cererile din iunie/iulie nu exercita §70, iar cea din octombrie este probabil tardiva. Concluzia definitiva cere inscrierea/decizia Grundbuch, dovada comunicarii si orice notificare de incetare facuta de avocat sau mandatar in termen. Credinta ca fostul proprietar ar fi trebuit sa rezilieze nu echivaleaza cu dovada ca a facut-o.
+
+5. NEPLATA — TREI PROBLEME DISTINCTE
+Existenta contractului, obligatia de prima si obligatia de despagubire nu se suprapun. §39 permite exonerarea pentru un sinistru ulterior expirarii unui termen calificat, cu culpa asiguratului; nu stinge automat contractul sau prima. DONAU trebuie sa sustina valabilitatea somației, receptia si calculul termenului. OGH 7 Ob 83/21p, 2022.01.26, pct.10–11, reafirma aceste conditii si caracterul receptiv al somatiei. Afirmatia ca nu exista nicio somatie ar fi falsa: originalul 2026.06.05 este in dosar.
+Dobanzile si costurile neachitate nu pot produce singure exonerarea (§39(4)); §39a protejeaza restanta redusa in limita cumulativa de 10% din prima anuala si maximum 60 EUR, nu 10% indiferent de plafon.
+Plata primei exigibile poate restabili protectia viitoare daca raportul e activ; nu acopera retroactiv sinistrele din intervalul exonerarii. Daca exista o reziliere efectiva a DONAU, nu simpla amenintare, termenul de remediere de o luna si celelalte conditii §39(3) trebuie verificate. Nu recomandam neplata ca mecanism de iesire: DONAU are o facultate de reziliere, nu obligatia de a rezilia.
+
+6. ALTE CAI SI LIMITARI
+OGH 7 Ob 179/03d, 2003.08.05, admite in principiu incetarea extraordinara a asigurarii pentru motive grave, inclusiv refuz culpabil nejustificat al protectiei ori gestionare grav defectuoasa a unui sinistru. Intr-un asemenea caz trebuie probata conduita si intolerabilitatea continuarii; o suspendare legala pentru neplata nu este acest motiv. OGH 7 Ob 192/12d, 2012.12.19, arata ca simple dezavantaje economice ori evolutii previzibile nu ajung.
+§68 privind disparitia interesului asigurat poate fi relevant pentru anumite componente, inclusiv pierdere de chirii, dar vacanta imobilului nu face sa dispara cladirea sau toate riscurile sale. Excluderea dorita a unei componente e diferita de disparitia juridica a interesului.
+§41a priveste o prima mai mare legata de imprejurari concrete de agravare care dispar, pentru perioade viitoare; nu garanteaza reducerea retroactiva din 2026.07.01 cand perioada e anuala. Lucrarile/vacanta pot totodata creste anumite riscuri si cer notificare.
+§96 (incendiu), §158 (raspundere), alte clauze pentru sinistru/majorare pot da drepturi speciale doar daca exista evenimentul declansator si termenul este respectat. Nu se fabrica sinistru sau vanzare pentru a obtine iesirea.
+Pentru 2027.01.01 si 2027.01.08, simpla trecere a trei luni nu creeaza dreptul de iesire. 2027.01.08 nu e aniversarea contractuala. Datele raman realizabile prin acord, o clauza specifica favorabila sau un drept legal special dovedit.
+
+7. IESIRE ANUALA CONVENTIONALA SI REGRES
+OGH 7 Ob 7/01g, 2001.09.26: o societate/cooperativa imobiliara mbH avea 11 cladiri asigurate pe zece ani, dar clauza X18 ii acorda expres iesire anuala cu trei luni inaintea scadentei principale; clauza costului Dauerrabatt era separata. Hotararea demonstreaza relevanta acordurilor speciale, nu existenta clauzei X18 in DONAU. Cadrul 2900010498, anexele brokerului Seipt si cererea initiala trebuie citite inaintea unei concluzii definitive ca prima iesire e numai 2036. Regula din aceasta hotarare despre clauza costului trebuie citita impreuna cu jurisprudenta ulterioara, nu folosita drept validare actuala a 1000K.
+Contractul de vanzare Kaufvertrag_Schallergasse_35_signiert.pdf, hash identic index 237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365: cl.1.8 nepreluare a altor contracte si indemnizare inclusiv costuri de incetare; 4.4 distribuieste costurile dupa cauza/stichtag; 4.5 pastreaza asigurarile pana la stichtag; 7.1(i) garanteaza plata primelor pana la stichtag; 10.5 avertizeaza cumparatorul asupra dreptului temporar de incetare si recunoaste vanzatorului posibilitatea de a rezilia pana la intabulare. 10.5 nu impune textual vanzatorului o obligatie neconditionata de reziliere. 1.8 nu inlatura succesiunea §69 fata de DONAU, dar fundamenteaza o analiza serioasa a repartizarii interne si a unui regres. Nu se promite regres pentru toate Q2–Q4 fara coroborarea clauzelor si a conduitei partilor.
+
+8. CONTROLUL DRAFTULUI REDACTORULUI — PRIMA LECTURA
+Draftul 2026.10.07 Analiza redactor.txt, aproximativ 5.388 cuvinte, a fost citit integral, inclusiv separat pasajul despre plata. Teza principala si limitele jurisprudentei comerciale sunt corect construite; nu promite iesire neconditionata, anulare a datoriilor ori semnatura de avocat.
+Corectari cerute redactorului inaintea aprobarii finale:
+A. §36 alin.2: includerea exceptiei speciale pentru efectele §38(2)/§39(2) daca plata e initiata pana la scadenta si intra ulterior; nu extinderea la actualele restante. OGH 7 Ob 103/97s, 1997.04.16, verificat independent integral in RIS, priveste un ordin acceptat de banca si acoperit in cont INAINTE de sinistru, dar debit si credit dupa sinistru, sub normele istorice aplicabile in 1994. Nu trebuie transformat in promisiunea ca orice ordin din 2026 restabileste imediat protectia.
+B. §5c: calea retragerii initiale, aplicabila si firmelor in afara exceptiilor legale, merita analizata; nu trebuie confundata cu iesirea consumatorului §8(3). In polita veche exista instructiuni complete de retragere pe p.9. Simpla schimbare administrativa a titularului in iunie nu e nou contract si nu creeaza automat un termen nou de 14 zile. O cale ramasa deschisa ar cere dovezi despre un contract nou real si lipsa comunicarii conforme.
+C. §5a: pentru comunicarea electronica se verifica acordul expres, continutul disponibil si logurile. Notificarea de portal din 2026.07.07, ID4b3dab07, nu este ea insasi continutul somației. Nu se presupune nici necomunicarea, nici comunicarea efectiva pe baza unui titlu.
+D. §70: adaugarea probei directe de cunoastere 2026.05.27, IDd9216be2, astfel incat ipoteza artificiala a primei cunoasteri abia in iunie sa nu fie sustinuta.
+E. Contract vanzare: p.10 pentru 7.1(i) si 7.2; includerea indemnizarii prin 7.2; 10.5 facultate de reziliere pentru vanzator, nu obligatie neconditionata.
+F. Jurisprudenta 7 Ob 7/01g: explicitarea iesirii anuale conventionale si a necesitatii cadrului intreg.
+G. Suma 5.093,79 EUR: rezultat orientativ de 80% din totalul anual BRUT 6.367,24 EUR; baza exacta, taxele, sectoarele si aplicabilitatea raman de stabilit. 7 zile la 365 zile/an = 122,11 EUR; nu oferta ori factura 2027. Cifrele pe componente (apa 3.127,72, pierdere chirii 41,72, spatii 24,68) corespund politei si includ taxele.
+H. Preaviz: 2026.10.07 pana la 2027.01.01 nu ofera trei luni. 2027.01.08 satisface intervalul calendaristic, dar nu e scadenta principala; daca apare un drept anual contractual, notificarea 2026.10.01 necesita controlul datei/orei de primire si al termenului exact; nu se garanteaza din oficiu ca e in termen fata de expirare la 00:00.
+Verdictul acestei prime lecturi: APROBARE CONDITIONATA DE CORECTIONS, nu aprobare finala. Concluziile de drept existente sunt sustenabile; completarea cailor verificate si nuantele platii sunt necesare pentru caracterul aplicat cerut de beneficiar.
+
+9. VERDICT INTERMEDIAR
+Poziția utilizatorului este justificata ca solicitare de control juridic al blocarii si costului, dar nu ca prezumtie absoluta de nulitate a duratei de zece ani. Analiza trebuie sa distinga: (A) validitatea duratei si probele acordului; (B) dreptul special de iesire; (C) cuantumul primei/costului; (D) protectia prezenta; (E) pretentii fata de vanzator/mandatar. Cea mai concreta strategie, pe probele actuale, este verificarea acordului-cadru si a notificarii timpurii, contestarea separata a costului 1000K, depunerea probelor pentru ajustarea riscului si negocierea unei incetari datate cu decont si continuitate de acoperire.
+
+10. VERDICT FINAL ASUPRA VERSIUNII REVIZUITE
+Versiune auditata: 2026.10.07 Analiza redactor.txt, 48.599 octeti; SHA-256 218f8fbf854ff27be6d56e96dfc3e08708316d120ea41e5b8511cacebd224987. Auditorul a citit integral textul si a recitit separat pasajele finale modificate despre somație, portal, plata, retragere, preaviz, cunoastere si clauzele vanzarii. Aceasta identificare priveste continutul TXT, nu certifica randarea ulterioara Word/PDF.
+
+Verdict: APROBAT PENTRU LIVRARE CA STUDIU DOCUMENTAR, nu opinie profesionala semnata de avocat. Niciun must-fix critic de continut nu ramane nerezolvat in versiunea identificata.
+
+Corectari efectiv incorporate dupa audit:
+— Formula despre zece ani arata valabilitatea posibila intre profesionisti si limita importantei negocierii individuale, fara a valida automat conditiile DONAU.
+— Jurisprudenta X18/7 Ob 7/01g este inclusa pentru posibilitatea unei iesiri anuale conventionale prin cadrul complet.
+— Mesajul 2026.05.27 dovedeste cunoasterea directa, distinct de primirea noii polite in iunie.
+— Originalul somației 2026.06.05 este recunoscut; posibila problema 2026.06.18 nu devine promisiune de acoperire neintrrupta.
+— Comunicarea electronica si portalul 2026.07.07 au analiza separata §5a, cu continut, acord si loguri necesare.
+— §36 actual include exceptia pentru ordine la scadenta, iar cazul 7 Ob 103/97s este descris precis si delimitat ca istoric.
+— Retragerea §5c este verificata inclusiv pentru firme, cu informarea din polita veche si fara termen nou automat la transfer.
+— Clauzele 7.1(i) si 7.2 sunt localizate la p.10; 10.5 este facultate de reziliere a vanzatorului, nu obligatie expresa.
+— Costul 80% este aratat numai ca scenariu 5.093,79 EUR pe baza BRUTA, cu taxe/baza/sectoare de justificat.
+— 7 Ob 211/12y nu este citata ca garantie de cost zero: sunt expuse completarea contractului si rejudecarea.
+— Preavizul 2026.10.07–2027.01.01 si notificarea 2026.10.01 nu sunt prezentate ca suficiente cu certitudine; 2027.01.08 nu devine termen anual prin simpla trecere a trei luni.
+
+Concluzii confirmate de audit:
+1. Nu este demonstrata pe dosarul actual o iesire unilaterala totala la 2027.01.01 ori 2027.01.08; termenul fix comercial de zece ani nu e interzis de principiu.
+2. DONAU nu poate trata expirarea 2036 ca excludere a drepturilor speciale, a clauzelor individuale favorabile si a remediilor pentru motiv grav.
+3. 1000K ofera un argument serios de contestare, cu analogie controlata din 154/22f, dar nu drept de iesire de sine statator sau garantia ca orice rambursare e zero.
+4. Contractul poate continua cu prime datorate in pofida exonerarii legale pentru anumite sinistre; neplata nu e mecanism sigur de reziliere.
+5. Regresul din contractul de vanzare merita urmarit pe pozitii/perioade; nu elimina automat obligatia externa fata de DONAU.
+6. Restabilirea protectiei necesita verificarea raportului activ, sumelor si efectelor platii; nu exista in material ordin de plata tratat drept incasare sau acoperire retroactiva.
+
+Concluzii care raman conditionate de probe externe, nu de redactare defectuoasa:
+— Valabilitatea si continutul exact al acordului privind expirarea 2036, derogari din cadrul2900010498 si mandatul brokerului.
+— Orice notificare efectiva de incetare facuta anterior, dovada primirii si termenul dreptului§70.
+— Comunicarea initiala a somației, acordul electronic/logurile si eventuala incetare DONAU.
+— Baza neta/bruta si fiscalitatea1000K, avantajul justificat, creditele si alte plati dupa documentele analizate.
+— Disparitia interesului pe componente, reducerea riscului si raspunderea personala a mandatarilor/vanzatoarei.
+
+Limita controlului independent: J01–J05, J07–J09 au fost verificate independent in surse RIS de tip decizie/fise oficiale; J06 (1960) a putut fi controlata independent prin prima pagina/extrase si fisele oficiale, nu integral prin p.2, serverul refuzand unele accesari. Redactorul a consultat p.2 si a delimitat clar prima initiala si dreptul istoric. Principiul general este controlat separat prin textul actual al legii; nu depinde de transpunerea mecanica a hotararii1960. 7 Ob127/18d a fost cercetata independent numai prin fisele oficiale RIS si nu este prezentata in opinia finala ca text integral verificat. Nicio jurisprudenta de consumatori nu este prezentata drept hotarare deja aplicata obligatoriu firmei A&C.
+
+SURSE PRIMARE VERIFICATE INDEPENDENT LA 2026.10.07
+Lege VersVG, fisa actuala indica explicit 2026.10.07, inclusiv §39,39a,40,41a,41b,68,68a,69,70:
+https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979
+OGH 7 Ob 152/01f, 2001.07.11, text integral si fise RS0115852, RS0115853:
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True
+OGH 7 Ob 211/12y, 2013.03.27, text integral:
+https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20130327_OGH0002_0070OB00211_12Y0000_000/JJT_20130327_OGH0002_0070OB00211_12Y0000_000.html
+OGH 7 Ob 154/22f, 2022.11.23, text integral:
+https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20221123_OGH0002_0070OB00154_22F0000_000/JJT_20221123_OGH0002_0070OB00154_22F0000_000.html
+OGH 7 Ob 20/89, 1989.06.15:
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True
+OGH 7 Ob 179/03d, 2003.08.05:
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20030805_OGH0002_0070OB00179_03D0000_000&IncludeSelf=True
+OGH 7 Ob 192/12d, 2012.12.19:
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20121219_OGH0002_0070OB00192_12D0000_000&IncludeSelf=True
+OGH 7 Ob 83/21p, 2022.01.26:
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20220126_OGH0002_0070OB00083_21P0000_000&IncludeSelf=True&ShowPrintPreview=True
+OGH 7 Ob 127/18d: principes dans fiches RIS RS0025122 et RS0115852; text integral inaccesibil auditorului, nu pretins citit:
+https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_19561212_OGH0002_0030OB00594_5600000_001/JJR_19561212_OGH0002_0030OB00594_5600000_001.pdf
+OGH 7 Ob 7/01g, 2001.09.26, citit in RIS:
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010926_OGH0002_0070OB00007_01G0000_000&IncludeSelf=True
+OGH 7 Ob 103/97s, 1997.04.16, text integral independent citit, fapte1994 si drept istoric:
+https://ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19970416_OGH0002_0070OB00103_97S0000_000&IncludeSelf=True&ShowPrintPreview=True
+ABGB §1416, imputare, verificat independent:
+https://www.ris.bka.gv.at/eli/jgs/1811/946/P1416/NOR12019162

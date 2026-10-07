@@ -1,0 +1,82 @@
+{
+  "data_lizibila": "2026.10.07",
+  "status_local": "DRAFT NETRIMIS; neutilizat în sarcina curentă. Utilizatorul a cerut analiză și audit de doi agenți, nu solicitare către avocat.",
+  "email": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"3b3a2213-bc82-47ea-a023-4692db3da65c\",\n  \"kind\": \"new\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n  \"account_email\": \"office@ac-wohnart.at\",\n  \"to\": [\n    \"Bogdan.Capra@cerhahempel.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]\",\n  \"body\": \"Bună ziua, domnule Capra,\\n\\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\\n\\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\\n\\nSituația urgentă\\n\\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\\n\\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\\n\\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\\n\\nVă rog să răspundeți punctual:\\n\\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\\n\\nLivrabilul solicitat\\n\\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\\n\\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\\n\\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\\n\\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\\n\\n\\nCu stimă,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [\n    {\n      \"id\": \"ad453388-c79d-4b5a-830b-6a9ab0509c4e\",\n      \"filename\": \"814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf\",\n      \"size\": 262935,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"db061230-6d4f-48e9-a5ec-8368ceaabb62\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"d51ef13e-af18-41fa-a657-a6afd7524855\",\n      \"filename\": \"B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf\",\n      \"size\": 127487,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"2f806b69-dc6d-4b72-a7fb-476c01edff1c\",\n      \"filename\": \"Kostenaufstellung.pdf\",\n      \"size\": 264012,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"31d4256e-5a0a-4459-b0de-24652186ce2a\",\n      \"filename\": \"Schreiben vom 17.09.2026.pdf\",\n      \"size\": 1369745,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"951d3284-2a63-4de1-9158-d2be11f06308\",\n      \"filename\": \"Memoformat.pdf\",\n      \"size\": 151397,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"3f75eec7-f5f7-43e8-bc5c-94562aa09f2e\",\n      \"filename\": \"2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt\",\n      \"size\": 4948,\n      \"mime_type\": \"text/plain\"\n    },\n    {\n      \"id\": \"eddb06cb-dec5-4627-abf6-95b00f9385c3\",\n      \"filename\": \"2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt\",\n      \"size\": 6775,\n      \"mime_type\": \"text/plain\"\n    }\n  ],\n  \"reply_to_email_id\": null,\n  \"created_at\": \"2026-10-07T08:44:16.323512Z\",\n  \"updated_at\": \"2026-10-07T08:44:16.323512Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "3b3a2213-bc82-47ea-a023-4692db3da65c",
+      "kind": "new",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+      "account_email": "office@ac-wohnart.at",
+      "to": [
+        "Bogdan.Capra@cerhahempel.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]",
+      "body": "Bună ziua, domnule Capra,\n\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\n\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\n\nSituația urgentă\n\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\n\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\n\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\n\nVă rog să răspundeți punctual:\n\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\n\nLivrabilul solicitat\n\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\n\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\n\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\n\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\n\n\nCu stimă,\n\nCosmin Adrian Covaciu",
+      "attachments": [
+        {
+          "id": "ad453388-c79d-4b5a-830b-6a9ab0509c4e",
+          "filename": "814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf",
+          "size": 262935,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "db061230-6d4f-48e9-a5ec-8368ceaabb62",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "d51ef13e-af18-41fa-a657-a6afd7524855",
+          "filename": "B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf",
+          "size": 127487,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "2f806b69-dc6d-4b72-a7fb-476c01edff1c",
+          "filename": "Kostenaufstellung.pdf",
+          "size": 264012,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "31d4256e-5a0a-4459-b0de-24652186ce2a",
+          "filename": "Schreiben vom 17.09.2026.pdf",
+          "size": 1369745,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "951d3284-2a63-4de1-9158-d2be11f06308",
+          "filename": "Memoformat.pdf",
+          "size": 151397,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "3f75eec7-f5f7-43e8-bc5c-94562aa09f2e",
+          "filename": "2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt",
+          "size": 4948,
+          "mime_type": "text/plain"
+        },
+        {
+          "id": "eddb06cb-dec5-4627-abf6-95b00f9385c3",
+          "filename": "2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt",
+          "size": 6775,
+          "mime_type": "text/plain"
+        }
+      ],
+      "reply_to_email_id": null,
+      "created_at": "2026-10-07T08:44:16.323512Z",
+      "updated_at": "2026-10-07T08:44:16.323512Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "isError": false
+  }
+}

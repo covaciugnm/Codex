@@ -1,3 +1,11 @@
+# 2026.10.07 — Opinie juridică DONAU redactată și auditată
+
+Punctul curent juridic: ../08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/. Începe cu 2026.10.07 Opinie juridica Donau Schallergasse 35.docx sau PDF și 2026.10.07 Audit juridic.txt. Document detaliat cu sinteză, surse RIS și nouă hotărâri OGH; două roluri AI separate, fără atribuire unui avocat. Opinia înlocuiește analiza preliminară ca reper juridic actual. Durata comercială de zece ani este posibilă; căile de ieșire sunt condiționate de acord, cadrul complet, exercitarea în termen sau cauze speciale. Controlul 1000K, proba somației și regresul contractual sunt distincte. Drafturile DONAU și Capra sunt NETRIMISE; Capra neutilizat la cererea utilizatorului. Termenul Commerz 2026.10.12 nu este suspendat. Jurnalele TXT actualizate, istoricul păstrat.
+
+# 2026.10.07 — DONAU: punct juridic si draft reziliere 2027
+
+Dosar curent: ../08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/. Incepe cu 2026.10.07 Punct de vedere juridic Donau.txt si 2026.10.07 Jurnal actualizare.txt. Draft EVA aa653a96-7eee-4133-a41d-5892ea79788d, NETRIMIS, catre Loschy/DONAU, CC Maritczak/Gruber, fara Capra. Incetare propusa 2027.01.01, alternativ 2027.01.08 confirmat de utilizator; subsidiar primul termen admis. Solicita doua deconturi, suma/data pentru restabilirea acoperirii, dovezi §39 si renuntare la prima suplimentara 1000K. Preavizul de 3 luni nu garanteaza incetarea politei care indica 2036.01.01. Primele nu dispar automat din lipsa acoperirii. Jurnalele TXT/JSON actualizate, istoricul pastrat. Nu este mesaj trimis, acord acceptat sau plata efectuata. Termenul Commerz 2026.10.12 ramane distinct.
+
 # 2026.10.07 — DONAU: refuz reziliere si declaratie lipsa acoperire
 
 Puncte curente: ../2026.10.07 Status proiect.txt; ../2026.10.07 Log progres proiect.txt; ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.07 Registru comunicatii.json si 2026.10.07 Registru atasamente.json. Dovezi: ../08. Corespondenta/2026.10.07 Verificare zilnica/.

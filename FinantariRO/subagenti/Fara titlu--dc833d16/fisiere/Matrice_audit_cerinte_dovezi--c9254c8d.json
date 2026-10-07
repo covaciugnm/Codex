@@ -1,0 +1,682 @@
+{
+  "data": "2026-10-07",
+  "statut": "MATRICE PROIECTARE IDEALĂ – IPOTEZE ACCEPTATE; CONFIRMARE FAPTICĂ ULTERIOARĂ",
+  "ipoteze_utilizator": [
+    "ROSE dispune de fonduri suficiente pentru participare",
+    "ROSE nu are alte proiectePEOaprobate",
+    "ROSE are experiență suficientă; proiectele demonstrative vor fi selectate ulterior"
+  ],
+  "nota": "Statutul factual este păstrat numai pentru transparență, nu ca blocaj de proiectare. Cerințele precise servesc selectării beneficiarului/partenerilor din proiectul ideal. Necunoscutele rămân listă deschisă. GSCSfinalOMIPE1517/2026;GSCGCorr4;surseîn arhivă.",
+  "rows": [
+    {
+      "id": "J01",
+      "cerinta": "Lider într-o categorie eligibilă",
+      "sursa_exacta": "GSCS5.1.2 p27",
+      "dovada_existenta": "Sinteza: lider nenominalizat",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Nominalizați școală acreditată/ISJ/CJRAE eligibil și probați încadrarea.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "J02",
+      "cerinta": "ONG partener cu proiect relevant implementat în ultimii3ani",
+      "sursa_exacta": "GSCS5.1.3 p27",
+      "dovada_existenta": "Utilizatorul confirmă pentru proiectare experiență suficientă; proiectele demonstrative vor fi selectate ulterior.",
+      "status": "IPOTEZĂ_ACCEPTATĂ_PROIECTARE",
+      "risc": "CRITIC",
+      "remediere": "Contract, perioadă, rapoarte și rezultate instituționale; verificare domeniu alternativ eligibil.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "J03",
+      "cerinta": "Personalitate juridică și obiect statutar relevant",
+      "sursa_exacta": "GSCG sec2 tabel2",
+      "dovada_existenta": "CUI29433614; statut absent",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Acte înființare, statut actualizat, extras registru; obiect activități asumate.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "J04",
+      "cerinta": "Fără insolvență, lichidare ori suspendare relevantă",
+      "sursa_exacta": "GSCG sec2 tabel3; GSCS7.6 p50",
+      "dovada_existenta": "Declarații și extrase neprimite",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Documente juridice actuale; verificare inclusiv suspendare/întrerupere ultimii2ani.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "J05",
+      "cerinta": "Fără condamnări, grave greșeli profesionale ori declarații false",
+      "sursa_exacta": "GSCG sec2 tabel3",
+      "dovada_existenta": "Declarația unică necompletată",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Declarații și documente confirmare potrivit etapelor; verificare reprezentanți/conducere.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "J06",
+      "cerinta": "Datorii ANAF în pragul admis",
+      "sursa_exacta": "GSCS7.6 p50; GSCG tabel3",
+      "dovada_existenta": "ANAF indicatori bilanț; certificat fiscal absent",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Certificat actual: obligații nete cel mult1/12 obligații ultimele12luni.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "J07",
+      "cerinta": "Datorii locale în pragul admis",
+      "sursa_exacta": "GSCS7.6 pp50–51; GSCG tabel3",
+      "dovada_existenta": "Certificat fiscal local absent",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Certificat cu anexă: scadente cel mult1/6 obligații ultimul semestru; puncte de lucru după caz.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "J08",
+      "cerinta": "Maximum5 proiecte/apel, dacă fără derogare",
+      "sursa_exacta": "GSCG sec2 paragraful anterior tabelului2",
+      "dovada_existenta": "Lista portofoliului neprimita",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Inventar toate participările ca lider/partener; verificați derogările GSCS și riscul respingerii tuturor.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "P01",
+      "cerinta": "Acord unic al partenerilor finanțați",
+      "sursa_exacta": "GSCS5.1.4 p29; GSCG anexa1",
+      "dovada_existenta": "Model oficial arhivat; acord semnat absent",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Bugete, roluri, contribuții și semnături coerente în acord unic.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "P02",
+      "cerinta": "Selecția ONG privat de către lider public",
+      "sursa_exacta": "GSCS5.1.4 pp29–30; GSCG anexa2",
+      "dovada_existenta": "Model procedură arhivat; selecție neexecutată",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Dosar selecție transparentă conform procedurii; criterii relevante și probe.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "P03",
+      "cerinta": "Notă valoare adăugată a parteneriatului",
+      "sursa_exacta": "GSCS5.1.4 p29;7.4 p49",
+      "dovada_existenta": "Rapoarte de proiectare; nota finală absentă",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Descrieți valoare adăugată și resurse, fără selectare ONG numai pentru catering.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "P04",
+      "cerinta": "ONG execută activitatea relevantă proprie",
+      "sursa_exacta": "GSCS5.1.4 p29; GSCG tabel2",
+      "dovada_existenta": "ONG păstrează consiliereA2/facilitareA4 și coordonare/financiar; catering și transport trecute la lider.",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Validați execuția relevantă și personalul propriu. Mutarea suportului este alegere prudentă de proiectare, nu obligație universală de ghid; experiența rămâne criteriu de selecție.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "P05",
+      "cerinta": "Lider are buget strict peste fiecare partener",
+      "sursa_exacta": "GSCS5.1.4 p29",
+      "dovada_existenta": "Buget F31>F32 în ambele modele",
+      "status": "CONFORM_MODEL",
+      "risc": "MAJOR",
+      "remediere": "Recontrol la fiecare redistribuire; exceptarea numai publică nu se aplică aici.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "P06",
+      "cerinta": "Școli asociate fără finanțare; acorduri acoperă recrutarea",
+      "sursa_exacta": "GSCS5.1.4 p28; anexa7",
+      "dovada_existenta": "4/6 școli ipotetice; acorduri absente",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Acord fiecare școală sursă dacă elevii nu vin integral din membrii finanțați.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "P07",
+      "cerinta": "Fiecare membru își asigură contribuția proprie",
+      "sursa_exacta": "GSCS5.1.4 p29; GSCG2.2",
+      "dovada_existenta": "Sinteza coloane contribuție separat",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Hotărâri/angajamente și resurse proprii ale fiecărui membru; nu transferați obligația altui partener.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "E01",
+      "cerinta": "Elevi înmatriculați eligibil; domiciliu legal România",
+      "sursa_exacta": "GSCS3.7 p18",
+      "dovada_existenta": "480/720 elevi ipotetici",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Liste și documente la intrare; cicluri școlare eligibile; domiciliu.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "E02",
+      "cerinta": "Profesori angajați eligibil și fără dublă formare finanțată",
+      "sursa_exacta": "GSCS3.7 p18;5.2.2 A3 pp35–36",
+      "dovada_existenta": "32/48 profesori ipotetici",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "MAJOR",
+      "remediere": "Dovadă raport muncă, formări anterioare, declarație complementaritate anexată metodologiei.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "E03",
+      "cerinta": "Minimum400 elevi unici, fără dublă numărare",
+      "sursa_exacta": "GSCS3.8.1 p19",
+      "dovada_existenta": "Indicatori480/720; subgrup STEAM inclus",
+      "status": "CONFORM_MODEL",
+      "risc": "CRITIC",
+      "remediere": "Registru unic real; control overlap pe A1.1/A1.2/A2–A4.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "E04",
+      "cerinta": "Rezultat5SR09 minimum80%",
+      "sursa_exacta": "GSCS3.8.2 pp19–20",
+      "dovada_existenta": "Activitati:384/576",
+      "status": "CONFORM_MODEL",
+      "risc": "MAJOR",
+      "remediere": "Plan monitorizare și probe rămânere în educație/finalizare program potrivit definiției.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "E05",
+      "cerinta": "EECR03 minimum80% din EECO05; certificare competentă",
+      "sursa_exacta": "GSCS3.8.2 p20",
+      "dovada_existenta": "26/39 profesori rezultate țintă",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Program conform normelor și certificat/adeverință cu recunoaștere rezultate învățării.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "E06",
+      "cerinta": "Analiză proprie nevoi și segmentare alfabetizare/STEAM",
+      "sursa_exacta": "Anexa3 criteriul1.3",
+      "dovada_existenta": "Raport educație este scenariu",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "MAJOR",
+      "remediere": "Date școli, diagnostic, eșantion/metodă, nevoi și resurse; validați toate țintele.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "E07",
+      "cerinta": "Metodologie selecție GT pentru punctaj",
+      "sursa_exacta": "GSCS3.7 p18; Anexa3 criteriul1.4",
+      "dovada_existenta": "Necesitate identificată; metodologie finală absentă",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Atașați metodologie detaliată: criterii, comisie, rezerve, sprijin și contestații.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "E08",
+      "cerinta": "A1 obligatoriu cel puțin o subactivitate și A2 obligatoriu",
+      "sursa_exacta": "GSCS5.2.2 pp30–34",
+      "dovada_existenta": "A1.1,A1.2,A2 incluse",
+      "status": "CONFORM_MODEL",
+      "risc": "CRITIC",
+      "remediere": "Operaționalizați calendar și livrabile cu școlile; nu doar linii bugetare.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "E09",
+      "cerinta": "A3 curricular/formare distinct și complementar",
+      "sursa_exacta": "GSCS5.2.2 pp34–36",
+      "dovada_existenta": "2 modele CDEOȘ;32/48 formați",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Calendar avizare/implementare, programe și delimitare PNRR/PEO noncompetitiv.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "E10",
+      "cerinta": "A4 colaborări comunitare autentice",
+      "sursa_exacta": "GSCS5.2.2 p36",
+      "dovada_existenta": "6h/grup;2/3 parteneriate propuse",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Acorduri și fișe de învățare aplicată; acces, minori, orar.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "E11",
+      "cerinta": "A5 baseline, intermediar, final și efecteA3/A4",
+      "sursa_exacta": "GSCS5.2.2 p36",
+      "dovada_existenta": "200/280 ore-serviciu;T0/T1/T2",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Protocol, standarde aplicabile, metodologie și livrabile fără duplicare teste profesor.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "E12",
+      "cerinta": "Premii/subvenții în limite și după rezultate reale",
+      "sursa_exacta": "GSCS5.2.2 pp32–33",
+      "dovada_existenta": "3/4 competiții;5 distincții;plafoane",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Calendar eligibil, regulament, jurizare, probe; pentru5 premiați minimum17 participanți când limita30% se aplică.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "B01",
+      "cerinta": "Total eligibil între700000 și1000000EUR la5,2584",
+      "sursa_exacta": "GSCS5.4 p46",
+      "dovada_existenta": "3.680.880/5.258.400lei",
+      "status": "CONFORM_MODEL",
+      "risc": "CRITIC",
+      "remediere": "Verificare interval după fiecare ofertă/cantitate; sub minim sau peste maxim se respinge.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "B02",
+      "cerinta": "Buget în lei, total include cofinanțarea",
+      "sursa_exacta": "GSCS5.4 p46",
+      "dovada_existenta": "Sinteza total/AFN/contribuții distincte",
+      "status": "CONFORM_MODEL",
+      "risc": "MAJOR",
+      "remediere": "Păstrați aceeași convenție în MySMIS și acord.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "B03",
+      "cerinta": "Contribuții corecte tip entitate și regiune",
+      "sursa_exacta": "GSCS5.5 p46; GSCG2.2 tabele contribuțiiP7",
+      "dovada_existenta": "ONG0%;lider2% ipoteză",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Documentați regimul finanțării liderului; ajustați la categoria exactă inclusiv15% dacă aplicabil.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "B04",
+      "cerinta": "Capacitate financiară AFN ONG",
+      "sursa_exacta": "GSCG2.1",
+      "dovada_existenta": "Fonduri suficiente asumate de utilizator; bază publică venituri2.013.707lei; bugetONGredus178.638,93/243.406,13lei.",
+      "status": "IPOTEZĂ_ACCEPTATĂ_PROIECTARE",
+      "risc": "CRITIC",
+      "remediere": "Bilanțuri integrale/recipise; alternativă40% numai dacă condițiile îndeplinite; nu confundați totalul proiectului.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "B05",
+      "cerinta": "Reguli cumulative de capacitate pentru proiecte multiple",
+      "sursa_exacta": "GSCG5.3",
+      "dovada_existenta": "Utilizatorul asumă lipsa altor proiectePEOaprobate; portofoliul/participările de confirmat la selectare.",
+      "status": "IPOTEZĂ_ACCEPTATĂ_PROIECTARE",
+      "risc": "CRITIC",
+      "remediere": "Metoda și aporturi per proiect;1/4 venituri pentru contribuții/metoda venituri; regula2 proiecte pentru metoda procentuală.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "B06",
+      "cerinta": "A1+A2 minimum50% total eligibil",
+      "sursa_exacta": "GSCS5.2.3 pp36–37",
+      "dovada_existenta": "77,02%/77,80%",
+      "status": "CONFORM_MODEL",
+      "risc": "CRITIC",
+      "remediere": "Recalculați după reclasificări și oferte reale.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "B07",
+      "cerinta": "Indirecte fixe15% personal direct, separat per membru",
+      "sursa_exacta": "GSCS5.3.2 p43;5.3.5 pp45–46",
+      "dovada_existenta": "Indirecte separat rotunjite114.190,76/159.801,42",
+      "status": "CONFORM_MODEL",
+      "risc": "MAJOR",
+      "remediere": "Includeți baza corectă după identificarea personalului extern; fără dublare costuri indirecte.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "B08",
+      "cerinta": "Personal extern clasificat corect",
+      "sursa_exacta": "GSCS5.3.4 p45; GSCG sec3 cheltuieli personal",
+      "dovada_existenta": "BugetP13:P25 separă personal extern inclus înH; indirecte per membru adaptate;test1000lei->150lei în constructor.",
+      "status": "CONFORM_MODEL_CU_INPUTURI_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Completați numai componenta identificabilă eligibilă dinofertă; Pnu se adaugă încăo dată la directe; controlați0<=P<=H.",
+      "status_factual": "DE_COMPLETAT"
+    },
+    {
+      "id": "B09",
+      "cerinta": "FEDR maximum15% directe",
+      "sursa_exacta": "GSCS5.3.2 p43",
+      "dovada_existenta": "10,95%/11,01% în clasificare provizorie",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Descompuneți kituri/licențe/active; limita după natura reală.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "B10",
+      "cerinta": "Verde minimum4% directe pentru punctaj",
+      "sursa_exacta": "Anexa3 criteriul1.6; GSCS7.3 p49",
+      "dovada_existenta": "13,29%/13,37% alocare tematică declarată",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Justificare contribuție și cotă per cost; nu atribuire arbitrară50%.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "B11",
+      "cerinta": "Necesitate, cantitate și preț unitar fundamentate",
+      "sursa_exacta": "GSCS7.3 pp48–49;7.4 p49; GSCG sec3 analiza pieței",
+      "dovada_existenta": "Mpreț ofertă,Nsursă,Palocare personal extern;0oferte;plafoane de proiectare declarate.",
+      "status": "DESCHIS_FUNDAMENTARE_PIAȚĂ",
+      "risc": "MAJOR",
+      "remediere": "Folosiți fișele de specificații/oferte; fundamentați economic fiecare preț și necesitate ulterior. Anvelopa nu reprezintă prețde piață validat.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "B12",
+      "cerinta": "TVA eligibilă fără recuperare dublă",
+      "sursa_exacta": "GSCS5.3.3 p44;7.3 p48",
+      "dovada_existenta": "Plafoane includTVA fără separare",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "StatutTVA și declarație, bază și cotă reală fiecare linie; excludeți TVA recuperabilă.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "B13",
+      "cerinta": "Fără echipamente second-hand și cheltuieli neeligibile",
+      "sursa_exacta": "GSCS5.3.3 p44",
+      "dovada_existenta": "Bunuri noi presupuse",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Specificații/contracte, încadrare pe lista neeligibilă; surse proprii pentru neeligibile necesare.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "B14",
+      "cerinta": "Catering/transport pe prezență/nevoi fără dublă finanțare",
+      "sursa_exacta": "GSCS5.2.2 A2 p34; GSCG sec6 dubla finanțare",
+      "dovada_existenta": "60 întâlniri,50% elevi transport ipoteze",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "MAJOR",
+      "remediere": "Calendar, trasee, justificare masă, verificare Masa Sănătoasă/alte proiecte, evidențe reale.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "B15",
+      "cerinta": "Echipamentul alocat unei singure subactivități",
+      "sursa_exacta": "GSCS7.3 p49",
+      "dovada_existenta": "Linii kituri/dispozitiveA1",
+      "status": "CONFORM_MODEL",
+      "risc": "MAJOR",
+      "remediere": "Mențineți cost integral într-o subactivitate chiar dacă folosire multiplă.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "B16",
+      "cerinta": "Flux de numerar și surse neeligibile",
+      "sursa_exacta": "GSCS5.5 p46; cap12; analiză economică proprie",
+      "dovada_existenta": "Fonduri suficiente asumate; cash-flow real va operaționaliza ipoteza, test3luni nu este criteriu legal.",
+      "status": "IPOTEZĂ_ACCEPTATĂ_PROIECTARE",
+      "risc": "MAJOR",
+      "remediere": "Balanță2026, solduri disponibile, plăți/rambursări lunare, contribuții și rezervă fundamentată.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "H01",
+      "cerinta": "Management obligatoriu intern;4 funcții pentru2membri",
+      "sursa_exacta": "GSCS5.3.2 p38; GSCG sec3 personal",
+      "dovada_existenta": "Manager/financiar lider;coordonator/financiarONG",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Contracte legale interne; nu externalizați managementul; atribuții și experiență.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "H02",
+      "cerinta": "Ore, salarizare și personal public conforme",
+      "sursa_exacta": "GSCS7.3 p49; GSCG tabel15 și regulile personalului",
+      "dovada_existenta": "Ore și brut/oră ipoteze;net maxim64,35",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Calcul pe regim juridic, grile în vigoare, taxe; fișe și CV; plafon nu este tarif justificat.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "H03",
+      "cerinta": "Capacitate reală și fără suprapuneri",
+      "sursa_exacta": "Anexa3 criteriile3.3–3.4; GSCG reguli personal",
+      "dovada_existenta": "15/19 persoane;7342/10293ore",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Orare pe lună/școală/persoană, alte contracte, repaus, deplasare; norme medii nu validează vârfuri.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "H04",
+      "cerinta": "Competențe consiliere și siguranță minori",
+      "sursa_exacta": "GSCS5.2.2 A2; cap10; verificare legislație specifică de completat",
+      "dovada_existenta": "Un consilier propus;atestat absent",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "MAJOR",
+      "remediere": "Definiți serviciul; calificări/drept practică după caz, integritate, proceduri minori și incidente.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "L01",
+      "cerinta": "Duratămax30luni și finalizare31.12.2029",
+      "sursa_exacta": "GSCS5.6 p47",
+      "dovada_existenta": "24/30luni;calendar relativ",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Data start reală, Gantt școlar, marjă achiziții și închidere înainte de termen.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "L02",
+      "cerinta": "Protecție date participanți și minori",
+      "sursa_exacta": "GSCS3.7 p18;cap10 pp56–57",
+      "dovada_existenta": "Note generale în rapoarte",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Flux date, informări/consimțăminte cerute de ghid, temeiuri pe operațiuni, acces/retenție; fără consimțământ generic universal.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "L03",
+      "cerinta": "Carta, egalitate, dizabilități și accesibilitate",
+      "sursa_exacta": "GSCS3.16 pp21–23;7.4 p49;anexele5/6",
+      "dovada_existenta": "Modele declarații arhivate;resurse incluzive ipotetice",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Declarații semnate și măsuri concrete financiar cuantificate, adaptări la nevoi.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "L04",
+      "cerinta": "Conflict interese și incompatibilități",
+      "sursa_exacta": "GSCS cap9 pp55–56; GSCG tabel3",
+      "dovada_existenta": "Declarații neprimite",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Verificare selecție/achiziții/angajări; legături și măsuri; art96 Legea161 unde aplicabil.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "L05",
+      "cerinta": "Achiziții potrivit naturii entității",
+      "sursa_exacta": "GSCS5.1.4 p29;7.3; GSCG reguli achiziții",
+      "dovada_existenta": "Plan achiziții final absent",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Identificați regimul public/privat aplicabil și procedura, pragurile și conflictele în versiunea în vigoare.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "L06",
+      "cerinta": "Dubla finanțare și complementaritate",
+      "sursa_exacta": "GSCS5.2.2 A3 pp35–36;7.6 p51; GSCG sec6",
+      "dovada_existenta": "Rapoarte avertizează;inventar proiecte absent",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Inventar PNRR/POCU/PEO/PIDS, elevi/formări/livrabile/dotări; declarații și control continuu.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "D01",
+      "cerinta": "Toate documentele de depunere aplicabile",
+      "sursa_exacta": "GSCS7.4 p49;7.5 pp49–50",
+      "dovada_existenta": "Anexe oficiale arhivate;nu dosar completat",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Acord/notă/selecție/analiză piață/anexe5,6,7/CV+probe/experiență/avizITI dacă aplicabil/declarație unică.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "D02",
+      "cerinta": "Documente contractare și conturi",
+      "sursa_exacta": "GSCS7.6 pp50–51",
+      "dovada_existenta": "Bilanțuri publice parțiale;rest documente absente",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Checklist pe tip entitate: acte,registru,fiscal,mandate,RU,declarații,fișe financiare și probe eligibilitate.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "D03",
+      "cerinta": "Depunere MySMIS și limba română",
+      "sursa_exacta": "GSCS4.3.3 p26;7.1–7.2 pp47–48",
+      "dovada_existenta": "Fără cerere MySMIS",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "CRITIC",
+      "remediere": "Completare integrală,semnătură autorizată,traducere legalizată documente străine după ghid.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "D04",
+      "cerinta": "Termen depunere",
+      "sursa_exacta": "GSCS4.3.2 p26",
+      "dovada_existenta": "Termen din ghid27.11.2026 ora16:00",
+      "status": "DE_VERIFICAT_LA_DEPUNERE",
+      "risc": "CRITIC",
+      "remediere": "Monitorizați amendamente; încărcare și transmitere înainte termen, fără transmitere automată în această sarcină.",
+      "status_factual": "DE_VERIFICAT_LA_DEPUNERE"
+    },
+    {
+      "id": "D05",
+      "cerinta": "Domeniu intervenție149=100% buget",
+      "sursa_exacta": "GSCS7.1 p48",
+      "dovada_existenta": "NecompletatMySMIS",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "MAJOR",
+      "remediere": "Completați149 și100% conform ghidului.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "D06",
+      "cerinta": "Arhivă norme/documente și versiuni complete",
+      "sursa_exacta": "GSCS cap2,5.3.1; GSCG1.3",
+      "dovada_existenta": "Raportdocumentarist:100documentePDF/DOCX/HTML,3758paginiPDFextrase; recuperări românești, UEparțial.",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Lista explicită a lipsurilorUE și a referințelor secunde rămâne deschisă; datare, proveniență, consolidări. Extragere automată nu egal lectură integrală.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "D07",
+      "cerinta": "Grile salarizare publică actuală",
+      "sursa_exacta": "GSCS5.3.4 p45; GSCG reguli personal",
+      "dovada_existenta": "COMPLETARI_DOCUMENTARIST: Legea153,HG234,HG1009/2025 și grilă actualizată recuperate; copiePDF2023marcatăistoric.",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Aplicați ramura salarială corectă instituției și norma actuală la angajare/plată. Maxim40% din grilaactualizată nu se aplică automat ONG sau fiecărui angajat.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "S01",
+      "cerinta": "Plan monitorizare și indicatori de etapă",
+      "sursa_exacta": "GSCS cap6 p47;8.9.3 pp54–55;cap11 p57",
+      "dovada_existenta": "T0/T1/T2 propuse;plan final absent",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "MAJOR",
+      "remediere": "Calendar indicatori, probe, responsabili, praguri abateri și remedii.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "S02",
+      "cerinta": "Sustenabilitate instituțională și financiară",
+      "sursa_exacta": "Anexa3 criteriile4.1–4.2",
+      "dovada_existenta": "ResurseCDEOȘ propuse;angajamente neprimite",
+      "status": "CERINȚĂ_DE_CONFIRMARE_LA_SELECTARE",
+      "risc": "MAJOR",
+      "remediere": "Hotărâri școli,folosință gratuită dotări,mentenanță,avizare,diseminare și buget continuare.",
+      "status_factual": "NEPROBAT"
+    },
+    {
+      "id": "S03",
+      "cerinta": "Punctaj și praguri eliminatorii distincte",
+      "sursa_exacta": "GSCS8.4–8.6; Anexa3",
+      "dovada_existenta": "Matrice evaluator;plafonAlba99 nu scor",
+      "status": "PROIECTAT_CU_PROBE_VIITOARE",
+      "risc": "CRITIC",
+      "remediere": "Evaluați cerere/probe fiecare rând și prag21/21/21/7,total70;nu scor din ținte.",
+      "status_factual": "PARTIAL"
+    },
+    {
+      "id": "S04",
+      "cerinta": "ITI pentru punct suplimentar numai real și avizat",
+      "sursa_exacta": "Anexa3 criteriul1.8; GSCS7.4 p49",
+      "dovada_existenta": "Proiect ideal:100teoretic dacăITI DeltaDunării real+avizat;99dacănonITI. Geografia nu este probată ca fapt.",
+      "status": "SCENARII_DISTINCTE",
+      "risc": "MAJOR",
+      "remediere": "Selectați parteneri/școli și teritoriu realmente conforme. Nu transferați punctul dintr-o simulare în scorobținut.",
+      "status_factual": "NEAPLICABIL_IPOTEZA"
+    },
+    {
+      "id": "T01",
+      "cerinta": "Formule recalculate și contribuții rotunjite",
+      "sursa_exacta": "Regulă calcul monetar a modelului; GSCS5.4",
+      "dovada_existenta": "verification_minim/maxim;errors0",
+      "status": "CONFORM_MODEL",
+      "risc": "MINOR",
+      "remediere": "Repetați după schimbări;control total/entități/activități/ore;rotunjire la bani.",
+      "status_factual": "CONFORM_MODEL"
+    },
+    {
+      "id": "T02",
+      "cerinta": "Parametri editați propagați în resurse",
+      "sursa_exacta": "Control tehnic independent al constructorului",
+      "dovada_existenta": "Constructor runda2 leagă elevi/grupe/luni de cantități/ore; test+120elevi; controlmin/max separat.",
+      "status": "CONFORM_MODEL",
+      "risc": "MAJOR",
+      "remediere": "Retestați după modificări și aliniați consilierea12h/grup+0,2h/elev,plus20%pregătire; orarelevor confirma numerele.",
+      "status_factual": "DE_REAUDITAT"
+    },
+    {
+      "id": "T03",
+      "cerinta": "Oferte înlocuiesc alocarea fără umplere economii",
+      "sursa_exacta": "Control tehnic independent; GSCS7.3",
+      "dovada_existenta": "M preț,N sursă,O alocare;test10lei raportat",
+      "status": "CONFORM_MODEL",
+      "risc": "MAJOR",
+      "remediere": "Adăugați validare cantitate/preț/sursă și control intervaleligibil;nu alimentați artificial alte costuri.",
+      "status_factual": "CONFORM_MODEL"
+    }
+  ]
+}

@@ -16498,3 +16498,4474 @@ DONAU a răspuns: refuză rezilierea și declară explicit că, din cauza restan
 **Următorul pas urgent:** clarificarea cu Capra a refuzului și a restabilirii acoperirii. Termenul invocat de DONAU necesită verificare contractuală.
 
 TOMS și ofertanții de lift nu au răspunsuri noi. Arhiva și jurnalele sunt actualizate. Office este sincronizată până la **08:00 România**; cosmin@ig.ro doar până la 2026.08.12.
+
+## Asistent
+
+Verific polița și legea austriacă, apoi redactez punctul de vedere juridic și cererea către DONAU pentru încetarea la 2027.01.01, calculul scris al sumelor și clarificarea efectului plății asupra acoperirii.
+
+## Asistent
+
+Prin „08.01.2026” ai vrut să spui 2027.01.08, ca dată alternativă pentru reziliere? Data 2026.01.08 este deja în trecut.
+- Da, 2027.01.08
+- Nu, mă refer la 2026.01.08
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-4df908d7-e0ad-4750-a31e-f2c9ed669ebc",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'folder map\\\\README.md' -Encoding UTF8 -TotalCount 22; & 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 'folder map\\\\cauta.py' 'Donau' --limit 18\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "76907",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'folder map\\README.md' -Encoding UTF8 -TotalCount 22; & 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 'folder map\\cauta.py' 'Donau' --limit 18"
+    }
+  ],
+  "aggregatedOutput": "# 2026.10.07 — DONAU: refuz reziliere si declaratie lipsa acoperire\r\n\r\nPuncte curente: ../2026.10.07 Status proiect.txt; ../2026.10.07 Log progres proiect.txt; ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.07 Registru comunicatii.json si 2026.10.07 Registru atasamente.json. Dovezi: ../08. Corespondenta/2026.10.07 Verificare zilnica/.\r\n\r\nDONAU raspunde la 2026.10.06, refuza incetarea si declara lipsa acoperirii pentru prime restante. Invoca rezilierea 2036.01.01 cu 3 luni preaviz, afirmatie de verificat contractual/juridic. Cere documentele Pfeiffer 2026.07.14 pentru reducere. CC Maritczak/Gruber, fara Capra. Urgenta: clarificarea acoperirii si a refuzului cu Capra; termen Commerz 2026.10.12 distinct. Nu se considera contractul incetat, refuzul legal validat sau soldul acceptat. TOMS si ofertantii nu au raspunsuri noi. Office sincronizat 2026.10.07 08:00:19 Romania; cosmin@ig.ro pana la 2026.08.12. Jurnalele TXT/JSON sunt actuale; Excel/DOCX anterioare sunt istoricul.\r\n\r\n# 2026.10.06 — Verificare zilnica; punct curent\r\n\r\nStatus si jurnal: ../2026.10.06 Status proiect.txt; ../2026.10.06 Log progres proiect.txt. Registre: ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.06 Registru comunicatii.json si 2026.10.06 Registru atasamente.json. Dovezi: ../08. Corespondenta/2026.10.06 Verificare zilnica/. KONE oferta primita 36.010 EUR net, probleme de cap de put si titular in service; Schmitt negociere confirmata TRIMISA. TOMS fara raspuns nou. Jurnalele TXT/JSON sunt actuale; Excel/DOCX 2026.10.05 reflecta etapa anterioara. Istoricul este pastrat. Office sincronizat 2026.10.06 08:00:21 Romania; cosmin@ig.ro la 2026.08.12.\r\n\r\n# 2026.10.05 — Draft negociere Schmitt + Sohn\r\n\r\nDraft NETRIMIS in Eva-Mail, office@ac-wohnart.at, ID 32438757-29eb-4df3-801a-0df38e06339a. Sursa: ../08. Corespondenta/2026.10.05 Draft negociere Schmitt + Sohn/. Jurnal proiect: ../2026.10.05 Jurnal proiect - completare negociere Schmitt + Sohn.txt; status si jurnal partener TXT actualizate. Registrul Excel si copia DOCX a jurnalului partenerului reflecta verificarea anterioara; aceasta completare TXT consemneaza draftul. Oferta nu este acceptata.\r\n\r\n# Harta arhivei Schallergasse 35\r\n\r\n## 2026.10.05 — Status curent si verificare zilnica\r\n\r\nPuncte curente: ../2026.10.05 Status proiect.txt; ../2026.10.05 Log progres proiect.xlsx; ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.05 Registru comunicatii.json si 2026.10.05 Registru atasamente.json. Dovezi si originale: ../08. Corespondenta/2026.10.05 Actualizare comunicari/.\r\n\r\nSCHAUERLEUTE propune 2026.10.09 09:30 Viena, de confirmat; BAU-WERTE transmite oferta Bauwerksbuch; Schmitt + Sohn oferta lift; CERHA transmite scrisoare Sturm. TOMS v4.1 este TRIMIS la 2026.10.02, neacceptat/nesemnat. Paragrafele vechi privind DRAFT sunt istoricul. Jurnalele curente ale partenerilor au prefix 2026.10.05. Oferte: ../04. Firme + Executie/2026.10.05 Ultimele raspunsuri ofertanti.xlsx.\r\n\r\n[\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.10.01 Actualizare comunicari/2026.10.01 Istoric inainte de verificare 13-10-00/08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.10.01 Log discutii - Donau Versicherung.docx\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.10.01 Log discutii - Donau Versicherung.docx\\n\",\r\n    \"fragment\": \"2026.10.01 | [DONAU] - CERERE REZILIERE\\n\\nStatus scurt: 2026.10.01: cerere de incetare a politei 2044001194 pregatita in Eva-Mail, DRAFT NETRIMIS. Solicita incetare imediata prin acord; independent, notificare de incetare la prima data legal/contractual permisa. Catre [DONAU] si Loschy; CC Capra, Maritczak si Commerz/Gruber. Confirmare ceruta … \",\r\n    \"sha256\": \"9417adb37a0957f3e8b223fbbfe4072a5b140a48c67e070b6a12b32d0d1720f7\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.10.07 Log discutii - Donau Versicherung.txt\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.10.07 Log discutii - Donau Versicherung.txt\\n\",\r\n    \"fragment\": \"2026.10.07 | Actualizare din raspuns [DONAU]\\n\\nStatus scurt: 2026.10.06: [DONAU]/Cornelia Loschy refuza incetarea prin acord si notificarea de reziliere; invoca termen regulat 2036.01.01, cu preaviz 3 luni. Declara explicit ca in prezent NU exista acoperire de asigurare din cauza restantelor la prime. Nu este … \",\r\n    \"sha256\": \"9252ce9c13e0548c501ce60ba1cf5dad3ffa9bc2e7e52a28290cbe1394efeeee\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.10.01 Log discutii - Donau Versicherung.docx\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.10.01 Log discutii - Donau Versicherung.docx\\n\",\r\n    \"fragment\": \" … Meine [DONAU] Verification Code\\nDe la: noreply-meinedonau@donauversicherung.at\\nCatre: office@ac-wohnart.at\\nText disponibil: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/[Donau] Versicherung/2026.07.09 14-49 PRIMIT Meine [DONAU] Verification Code 265f891a.txt\\nID: 265f891a-d413-4f22-bd86-030653552d9a\\n\\n2026.07.07 09 … \",\r\n    \"sha256\": \"c2a24dbae021397ac7466870e651a234504ab66b48ed6f4a1f7e865ee908a7b7\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.10.01 Actualizare comunicari/2026.10.01 Istoric inainte de verificare 13-10-00/08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.10.01 Log discutii - Donau Versicherung.txt\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.10.01 Log discutii - Donau Versicherung.txt\\n\",\r\n    \"fragment\": \"2026.10.01 | [DONAU] - CERERE REZILIERE\\n\\n\\n\\nStatus scurt: 2026.10.01: cerere de incetare a politei 2044001194 pregatita in Eva-Mail, DRAFT NETRIMIS. Solicita incetare imediata prin acord; independent, notificare de incetare la prima data legal/contractual permisa. Catre [DONAU] si Loschy; CC Capra, Maritczak si Commerz/Gruber. Confirmare ceruta … \",\r\n    \"sha256\": \"c8f62ded36871a9e4ab5fbd31fb496fd9263dfda8a61adade1918857963e8e94\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.10.01 Log discutii - Donau Versicherung.txt\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.10.01 Log discutii - Donau Versicherung.txt\\n\",\r\n    \"fragment\": \" … Meine [DONAU] Verification Code\\n\\nDe la: noreply-meinedonau@donauversicherung.at\\n\\nCatre: office@ac-wohnart.at\\n\\nText disponibil: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/[Donau] Versicherung/2026.07.09 14-49 PRIMIT Meine [DONAU] Verification Code 265f891a.txt\\n\\nID: 265f891a-d413-4f22-bd86-030653552d9a\\n\\n\\n\\n2026.07.07 09 … \",\r\n    \"sha256\": \"95a592991b59bf2d9df00f3a3e5afc0971e55df55e667f53ce46a6350ea31a2e\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/2026.09.30 Istoric inainte de raspuns/08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.09.30 Log discutii - Donau Versicherung.docx\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.09.30 Log discutii - Donau Versicherung.docx\\n\",\r\n    \"fragment\": \"2026.09.30 Log discutii - [Donau] Versicherung\\nStatus pe scurt\\n2026.09.30 | 2026.07.20: retrimite raspunsul din 2026.07.10; asiguratorul afirma lipsa acoperirii din cauza restantelor si anunta solutionarea separata a ajustarii politei 2044001194. 2026.07.14: posibila excludere a riscurilor apa/chirie, conditionata de autorizatie, descrierea … \",\r\n    \"sha256\": \"30a2acc7adfc1d84dd30dc97d244c4945936678d938255fe7f3f5f6791a2200b\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/2026.09.30 Istoric inainte de raspuns/08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.09.30 Log discutii - Donau Versicherung.txt\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.09.30 Log discutii - Donau Versicherung.txt\\n\",\r\n    \"fragment\": \" … Meine [DONAU] Verification Code\\n\\nDe la: noreply-meinedonau@donauversicherung.at\\n\\nCatre: office@ac-wohnart.at\\n\\nText disponibil: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/[Donau] Versicherung/2026.07.09 14-49 PRIMIT Meine [DONAU] Verification Code 265f891a.txt\\n\\nID: 265f891a-d413-4f22-bd86-030653552d9a\\n\\n\\n\\n2026.07.07 09 … \",\r\n    \"sha256\": \"84cab138b13519047c642a9a1e56fd5cd74feef15bd7823aa55fa87f4f2f8f66\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.09.30 Log discutii - Donau Versicherung.docx\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.09.30 Log discutii - Donau Versicherung.docx\\n\",\r\n    \"fragment\": \" … Corespondenta/2026.09.30 Raspuns Commerz - analiza [Donau] 2616052/2026.09.30 Analiza juridica [Donau].txt\\n\\n\\n2026.09.30 Log discutii - [Donau] Versicherung\\nStatus pe scurt\\n2026.09.30 | 2026.07.20: retrimite raspunsul din 2026.07.10; asiguratorul afirma lipsa acoperirii din cauza restantelor si anunta solutionarea separata a … \",\r\n    \"sha256\": \"5cd146c5d298c22637f069d4a78c20694f8e1caba465382fd2eadefdd36f5cb8\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.09.30 Log discutii - Donau Versicherung.txt\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.09.30 Log discutii - Donau Versicherung.txt\\n\",\r\n    \"fragment\": \" … Meine [DONAU] Verification Code\\n\\nDe la: noreply-meinedonau@donauversicherung.at\\n\\nCatre: office@ac-wohnart.at\\n\\nText disponibil: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/[Donau] Versicherung/2026.07.09 14-49 PRIMIT Meine [DONAU] Verification Code 265f891a.txt\\n\\nID: 265f891a-d413-4f22-bd86-030653552d9a\\n\\n\\n\\n2026.07.07 09 … \",\r\n    \"sha256\": \"d7dcf49236493811b2fc7f562d40287f97b5d93d0520134106a7501ceda3666f\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Revenire Donau - Maritczak 2616052/2026.09.30 Istoric inainte de revenire/08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.09.30 Log discutii - Donau Versicherung.docx\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.09.30 Log discutii - Donau Versicherung.docx\\n\",\r\n    \"fragment\": \"2026.09.30 Log discutii - [Donau] Versicherung\\nStatus pe scurt\\n2026.09.30 | 2026.07.20: retrimite raspunsul din 2026.07.10; asiguratorul afirma lipsa acoperirii din cauza restantelor si anunta solutionarea separata a ajustarii politei 2044001194. 2026.07.14: posibila excludere a riscurilor apa/chirie, conditionata de autorizatie, descrierea … \",\r\n    \"sha256\": \"595b7cbb3950b885513849dd5e34e9317ad21cebd8979ef1dfd79e838cac85e3\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Revenire Donau - Maritczak 2616052/2026.09.30 Istoric inainte de revenire/08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.09.30 Log discutii - Donau Versicherung.txt\",\r\n    \"descriere\": \"Asigurare sau condiții de acoperire — 2026.09.30 Log discutii - Donau Versicherung.txt\\n\",\r\n    \"fragment\": \" … Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/[Donau] Versicherung/2026.07.20 10-19 PRIMIT WG Prämienzahlung Partnernummer 29233543 1bc16469.txt\\n\\nID: 1bc16469-dcb3-4cf3-819a-9a75f081bbc1\\n\\n\\n\\n2026.07.14 04:54 UTC | PRIMIT\\n\\nSubiect: WG: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728\\n\\nDe la: M … \",\r\n    \"sha256\": \"674197ba4c7a183076ce8a18bead2456cb809cf0d91b90d31a73d6b659d508b7\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.05.28 16-42 PRIMIT Ihre Nachricht A&C Wohnart Immobilien Gm 1b869379.txt\",\r\n    \"descriere\": \"Document de proiect — 2026.05.28 16-42 PRIMIT Ihre Nachricht A&C Wohnart Immobilien Gm 1b869379.txt\\n\",\r\n    \"fragment\": \"2026.05.28 16:42 UTC | PRIMIT | [Donau] Versicherung\\n\\nData export: 2026.09.30\\n\\nDe la: [Donau] Kundenservice <[donau]@donauversicherung.at>\\n\\nCatre: office@ac-wohnart.at\\n\\nCC: —\\n\\nSubiect: Ihre Nachricht: A&C Wohnart Immobilien GmbH / 2024-4/ ID:12786372\\n\\nCasuta: office@ac-wohnart.at\\n\\nID Eva-Mail: 1b869379-ffb8-4d9e … \",\r\n    \"sha256\": \"6f4833d62c0c9ff0646f73459fbf181bdd6779632e72bdde2114ee640005fcde\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.05.28 16-42 PRIMIT Ihre Nachricht A&C Wohnart Immobilien Gm 1b869379.json\",\r\n    \"descriere\": \"Document de proiect — 2026.05.28 16-42 PRIMIT Ihre Nachricht A&C Wohnart Immobilien Gm 1b869379.json\\n\",\r\n    \"fragment\": \" … A&C Wohnart Immobilien GmbH / 2024-4/ ID:12786372\\\",\\n\\n  \\\"from_name\\\": \\\"[Donau] Kundenservice\\\",\\n\\n  \\\"from_address\\\": \\\"[donau]@donauversicherung.at\\\",\\n\\n  \\\"to\\\": [\\n\\n    \\\"office@ac-wohnart.at\\\"\\n\\n  ],\\n\\n  \\\"cc\\\": [],\\n\\n  \\\"received_at\\\": \\\"2026-05-28T16:42:18Z\\\",\\n\\n  \\\"truncated\\\": false,\\n\\n  \\\"labels\\\": [\\n\\n    \\\"3: Fyi\\\"\\n\\n  ],\\n\\n  \\\"category\\\": \\\"fyi\\\",\\n\\n  \\\"folder\\\": \\\"[Donau] Kundenservice\\\",\\n\\n  \\\"thread_id\\\": \\\"<212922279.52345.1779986489894@SVMEXVIGAPLP02.corpnet.at>\\\",\\n\\n  \\\"is … \",\r\n    \"sha256\": \"a6b79aa4caff566b3c3a966aae53ea6d09d766bf4544a3fc9e08774f01565632\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.14 Somatie Commerz-Inkasso (Donau)/2026.09.14 Analiza juridica - Somatie Commerz-Inkasso 2616052 (Donau 2044001194).docx\",\r\n    \"descriere\": \"Document de proiect — 2026.09.14 Analiza juridica - Somatie Commerz-Inkasso 2616052 (Donau 2044001194).docx\\n\",\r\n    \"fragment\": \" … transmite polița actuală; întreabă dacă se continuă cu [Donau].\\n20.05.2026 — Mahnung [Donau] către VECHIUL asigurat (c/o Hofhans): primă restantă EUR 1.591,81 + spese EUR 10,00.\\n27.05.2026 — Email Cosmin Covaciu «Dringend» către [Donau] + CERHA HEMPEL + Hofhans: clarificare situație asigurare.\\n28.05./03.06.2026 … \",\r\n    \"sha256\": \"4e220434d1fec838719c97245f8c777f141385df753ba5e27e991d32a210d415\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.06.01 12-50 PRIMIT Re A&C Wohnart Immobilien GmbH 2024-4 ID 4782ca5f.txt\",\r\n    \"descriere\": \"Document de proiect — 2026.06.01 12-50 PRIMIT Re A&C Wohnart Immobilien GmbH 2024-4 ID 4782ca5f.txt\\n\",\r\n    \"fragment\": \"2026.06.01 12:50 UTC | PRIMIT | [Donau] Versicherung\\n\\nData export: 2026.09.30\\n\\nDe la: [Donau] Kundenservice <[donau]@donauversicherung.at>\\n\\nCatre: office@ac-wohnart.at\\n\\nCC: —\\n\\nSubiect: Re: A&C Wohnart Immobilien GmbH / 2024-4/ ID:12.786.372\\n\\nCasuta: office@ac-wohnart.at\\n\\nID Eva-Mail: 4782ca5f-33ab … \",\r\n    \"sha256\": \"299bf67c06ee6af376e1bb78204e221091a6f59e17be16133fcd67817614bf25\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.05.28 10-15 PRIMIT Re Dringend Polizze Nr. 2044001194 X712. e683de9b.txt\",\r\n    \"descriere\": \"Document de proiect — 2026.05.28 10-15 PRIMIT Re Dringend Polizze Nr. 2044001194 X712. e683de9b.txt\\n\",\r\n    \"fragment\": \"2026.05.28 10:15 UTC | PRIMIT | [Donau] Versicherung\\n\\nData export: 2026.09.30\\n\\nDe la: [Donau] Kundenservice <[donau]@donauversicherung.at>\\n\\nCatre: cosmin@ig.ro\\n\\nCC: —\\n\\nSubiect: Re: Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35 / 2024-4/ ID:12.780.689\\n\\nCasuta: cosmin@ig.ro\\n\\nID … \",\r\n    \"sha256\": \"666b94ad6644bb770298c45acf4026aab655862b02c71138b53f803f6ceb679d\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.06.15 10-13 PRIMIT Meine DONAU Verification Code 18ec94b4.txt\",\r\n    \"descriere\": \"Document de proiect — 2026.06.15 10-13 PRIMIT Meine DONAU Verification Code 18ec94b4.txt\\n\",\r\n    \"fragment\": \"2026.06.15 10:13 UTC | PRIMIT | [Donau] Versicherung\\n\\nData export: 2026.09.30\\n\\nDe la: [DONAU] Versicherung AG <noreply-meinedonau@donauversicherung.at>\\n\\nCatre: office@ac-wohnart.at\\n\\nCC: —\\n\\nSubiect: Meine [DONAU] Verification Code\\n\\nCasuta: office@ac-wohnart.at\\n\\nID Eva-Mail: 18ec94b4-e635-4d5a-952c-62a15567434a\\n\\nStare sursa: export … \",\r\n    \"sha256\": \"55223181d723eb11d509d70e8a9b64dd996f5905ea2f425cdeff816f1cc640e6\"\r\n  },\r\n  {\r\n    \"cale\": \"08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.07.09 14-49 PRIMIT Meine DONAU Verification Code 265f891a.txt\",\r\n    \"descriere\": \"Document de proiect — 2026.07.09 14-49 PRIMIT Meine DONAU Verification Code 265f891a.txt\\n\",\r\n    \"fragment\": \"2026.07.09 14:49 UTC | PRIMIT | [Donau] Versicherung\\n\\nData export: 2026.09.30\\n\\nDe la: [DONAU] Versicherung AG <noreply-meinedonau@donauversicherung.at>\\n\\nCatre: office@ac-wohnart.at\\n\\nCC: —\\n\\nSubiect: Meine [DONAU] Verification Code\\n\\nCasuta: office@ac-wohnart.at\\n\\nID Eva-Mail: 265f891a-d413-4f22-bd86-030653552d9a\\n\\nStare sursa: export … \",\r\n    \"sha256\": \"5af1e4674c8986e6017fa122278fb01bc728db28c49e63a5d42bf0bc8a99a35f\"\r\n  }\r\n]\r\n",
+  "exitCode": 0,
+  "durationMs": 261
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-078100dd-4635-487c-b5d2-1471d5b9258d",
+  "query": "site.ris.bka.gv.at VersVG § 8 Absatz 3 Verbraucher drei Jahre Kündigung ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at VersVG § 8 Absatz 3 Verbraucher drei Jahre Kündigung",
+      "site.ris.bka.gv.at VersVG § 39 Folgeprämie zwei Wochen Zahlung Versicherungsschutz",
+      "site.ris.bka.gv.at VersVG § 70 Erwerber Kündigung Veräußerung Monat"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn2search0",
+      "snippet": "VersVG ... (1)Absatz eins,Der Versicherer ist berechtigt, dem Erwerber das Versicherungsverhältnis unter Einhaltung einer Frist von einem Monat zu kündigen.Das Kündigungsrecht erlischt, wenn der Versi",
+      "title": "RIS - Versicherungsvertragsgesetz § 70 - Bundesrecht konsolidiert, tagesaktuelle Fassung",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&Gesetzesnummer=10001979&Paragraf=70&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn2search12",
+      "snippet": "In Ansehung der Rechtsfolgen nach §§ 38 Abs. 2 und 39 Abs. 2 gilt die ... Versicherungsnehmer auf dessen Kosten schriftlich eine Zahlungsfrist von mindestens",
+      "title": "Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/geltendefassung/bundesnormen/10001979/versvg%2C%20fassung%20vom%2010.08.2021.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn2search1",
+      "snippet": "VersVG ... (3)Absatz 3,Ist der Versicherungsnehmer Verbraucher (§ 1 Abs. ... Eine allfällige Verpflichtung des Versicherungsnehmers zum Ersatz von Vorteilen, besonders Prämiennachlässen, die ihm wegen",
+      "title": "RIS - Versicherungsvertragsgesetz § 8 - Bundesrecht konsolidiert, Fassung vom 26.09.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&FassungVom=2026-09-26&Gesetzesnummer=10001979&Paragraf=8&ShowPrintPreview=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn2search13",
+      "snippet": "§ 70 ... VersVG ... einer Frist von einem Monat zu kündigen. ... innerhalb eines Monates von dem Zeitpunkt an ausübt, in welchem er von",
+      "title": "Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037688/NOR12037688.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn2search2",
+      "snippet": "VersVG ... (1)Absatz eins,Wird eine Folgeprämie nicht rechtzeitig gezahlt, so kann der Versicherer dem Versicherungsnehmer auf dessen Kosten schriftlich eine Zahlungsfrist von mindestens zwei Wochen",
+      "title": "RIS - Versicherungsvertragsgesetz § 39 - Bundesrecht konsolidiert, Fassung vom 07.05.2018",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2018-05-07&Gesetzesnummer=10001979&Paragraf=39&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn2search14",
+      "snippet": "Folgeprämie wurde vom Kläger erst nach dem Unfall gezahlt. ... Versicherungsschutz zu verlieren. ... Nichtzahlung des ausständigen Betrags innerhalb von zweiWochen ab Zustellung dieser Mahnung",
+      "title": "7 Ob 57/79\nIM NAMEN DER REPUBLIK",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_19791206_OGH0002_0070OB00057_7900000_000/JJT_19791206_OGH0002_0070OB00057_7900000_000.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn2search15",
+      "snippet": "versicherung übermittelt. ... dass eine Zahlung der Folgeprämie nicht eingelangt sei.Auf § 39 VersVG auf der Erlagscheinrückseite werde ver­ ... Hinweis, dass es Versicherungsschutz nur",
+      "title": "REPUBLIK ÖSTERREICH",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20250328_OLG0009_00300R00190_24V0000_000/JJT_20250328_OLG0009_00300R00190_24V0000_000.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn2search16",
+      "snippet": "zum Schutz des Versicherers eine gesetzliche Zugangsfik­ ... erfolgten, die auch im Versicherungsantrag des Klägers ... rechtzeitiger Zahlung einer Folgeprämie ist an drei Vor­ ...",
+      "title": "REPUBLIK ÖSTERREICH",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_20250328_OLG0009_00300R00190_24V0000_000/JJT_20250328_OLG0009_00300R00190_24V0000_000.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn2search3",
+      "snippet": "(2)Absatz 2,Die Kündigung ist nur innerhalb eines Monates seit der Anerkennung der Entschädigungspflicht oder der Verweigerung der Entschädigung oder seit Eintritt der Rechtskraft des im",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 06.10.2026",
+      "url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bmwet.gv.at",
+      "ref_id": "turn2search4",
+      "snippet": "Grundsätzlich können sowohl das Versicherungsunternehmen als auch die Übernehmerin bzw. (beziehungsweise) der Übernehmer das Versicherungsverhältnis unter Einhaltung einer Frist von einem Monat kündig",
+      "title": "Grundsatz",
+      "url": "https://www.bmwet.gv.at/Themen/Tourismus/Betriebsuebergabe/Planung/Grundsatz.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "360.lexisnexis.at",
+      "ref_id": "turn2search5",
+      "snippet": "11. 1970 gemäß § 39 Abs 1 VersVG mit Bestimmung einer zweiwöchigen Zahlungsfrist gemahnt wurde, so kam die feststehende Stundungsvereinbarung vom 24. ... Eine derartige",
+      "title": "OGH 7Ob210/72",
+      "url": "https://360.lexisnexis.at/d/entscheidungen-ris/ogh_7ob21072/u_zivil_OGH_1972_JJT_19721025_OGH0002_0_6ee269dfdd"
+    },
+    {
+      "type": "text_result",
+      "domain": "gesetzefinden.at",
+      "ref_id": "turn2search6",
+      "snippet": "Diese enthielt die Information, dass eine Zahlung der Folgeprämie nicht eingelangt sei. ... 5. 2003 ein eingeschriebenes Mahnschreiben gesendet, in dem der Beklagten unter wörtlicher",
+      "title": "§ 39 — VersVG | GesetzeFinden.at",
+      "url": "https://gesetzefinden.at/bundesrecht/bundesgesetze/versvg/para-39"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ovm.at",
+      "ref_id": "turn2search7",
+      "snippet": "Hier finden Sie ausgewählte Artikel aus den MaklerIntern-Ausgaben der letzten Jahre. ... § 8 Abs 2 VersVG sieht für Verträge, die auf unbestimmte Zeit geschlossen",
+      "title": "Österreichischer Versicherungsmaklerring: MaklerIntern - Archiv",
+      "url": "https://www.ovm.at/service/maklerintern-archiv/article/sind-10-jahrige-laufzeiten-fur-versicherungsvertrage-uberhaupt-zulassig"
+    },
+    {
+      "type": "text_result",
+      "domain": "360.lexisnexis.at",
+      "ref_id": "turn2search8",
+      "snippet": "Falls der Erwerber der versicherten Sache trotz Kenntnis vom bestehenden Versicherungsverhältnis und des Versicherers nicht binnen Monatsfrist kundige, so trete er an die Stelle des",
+      "title": "OGH 7Ob30/69",
+      "url": "https://360.lexisnexis.at/d/u_zivil_OGH_1969_JJT_19690319_OGH0002_0_79868a3060?origin=lk"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.versicherungswiki.at",
+      "ref_id": "turn2search9",
+      "snippet": "Nach der Erstprämie erfolgt die regelmäßige Zahlung der Folgeprämie. ... Gerät der Versicherungsnehmer in Folgeprämienverzug, der im §39 VersVG geregelt ist, erhält er eine Mahnung.",
+      "title": "FOLGEPRÄMIE – VersicherungsWiki",
+      "url": "https://www.versicherungswiki.at/folgepraemie/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.versicherungswiki.at",
+      "ref_id": "turn2search10",
+      "snippet": "Gemäß § 39 VersVG erhält der Versicherungsnehmer bei Folgeprämienzahlungsverzug eine qualifizierte Mahnung.Damit eine Mahnung als „qualifiziert“ gilt, müssen die Zahlungsfrist von mindestens 2 Wochen ",
+      "title": "QUALIFIZIERTE MAHNUNG – VersicherungsWiki",
+      "url": "https://www.versicherungswiki.at/qualifizierte-mahnung/"
+    },
+    {
+      "type": "text_result",
+      "domain": "360.lexisnexis.at",
+      "ref_id": "turn2search11",
+      "snippet": "Müssen doch - wie der Senat auch zuletzt festgehalten hat - schon nach dem Zweck des § 70 VersVG insbesondere diejenigen Personen zur Kündigung berechtigt",
+      "title": "OGH 7Ob108/08w",
+      "url": "https://360.lexisnexis.at/d/entscheidungen-ris/ogh_7ob10808w/u_zivil_OGH_2008_JJT_20080827_OGH0002_0_6d8960528d"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn2search17",
+      "snippet": "Der Versicherungsschutz, also die Leistungspflicht des VR im Versicherungsfall, beginnt grundsätzlich erst mit der Zahlung der Erstprämie („Einlösungsklausel“, § 37 Abs. ... Zahlt der VN",
+      "title": "Allgemeines Versicherungsrecht (Deutschland)",
+      "url": "https://de.wikipedia.org/wiki/Allgemeines_Versicherungsrecht_%28Deutschland%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn2search18",
+      "snippet": "Im Versicherungsvertragsgesetz (VVG) wird die Versicherungsprämie schlicht als „Prämie“ bezeichnet. ... Der Versicherungsschutz wird mithin versagt, wenn die Prämie rückständig ist. ... Bei periodisch",
+      "title": "Versicherungsprämie",
+      "url": "https://de.wikipedia.org/wiki/Versicherungspr%C3%A4mie"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn2search19",
+      "snippet": "Als Nichteinlösung bezeichnet man im Versicherungswesen die Rechtsfolge n aus dem Verzug des Versicherungsnehmer s bei Zahlung einer Erstprämie.Wegen der Nichtzahlung wird der Versicherungsschein nich",
+      "title": "Nichteinlösung",
+      "url": "https://de.wikipedia.org/wiki/Nichteinl%C3%B6sung"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn2search20",
+      "snippet": "In: Theo Langheid, Manfred Wandt (Hrsg.): Münchener Kommentar Versicherungsvertragsgesetz: VVG, Band 2 (Kommentierung der §§ 100-191 VVG). ... Beck, München 2011, ISBN 978-3-406-58202-8, S. ...",
+      "title": "Selbsttötungsklausel",
+      "url": "https://de.wikipedia.org/wiki/Selbstt%C3%B6tungsklausel"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-2eafed51-040f-4643-b227-5bc21cd76b7e",
+  "query": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=8",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=8"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn3view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn3view1",
+      "snippet": "Total lines: 108",
+      "title": "RIS - Versicherungsvertragsgesetz § 39 - Bundesrecht konsolidiert, tagesaktuelle Fassung",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn3view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn3view3",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn3view4",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn3view5",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f6f9e0ed-da48-47c2-a52b-c1a63a0c14a2",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '08. Corespondenta\\\\2026.09.30 Raspuns Commerz - analiza Donau 2616052\\\\2026.09.30 Analiza juridica Donau.txt' -Encoding UTF8; & 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 -c \\\"from pathlib import Path; import json; r=Path.cwd(); idx=json.loads((r/'folder map/inventar.json').read_text(encoding='utf-8')); print([(x['cale'],x['text_cache']) for x in idx if ('Polizzenkopie' in x['cale'] or '2044001194' in x['cale'] or 'Mahnung' in x['cale']) and x['extensie']=='.pdf'][:45])\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "48432",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '08. Corespondenta\\2026.09.30 Raspuns Commerz - analiza Donau 2616052\\2026.09.30 Analiza juridica Donau.txt' -Encoding UTF8; & 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 -c \"from pathlib import Path; import json; r=Path.cwd(); idx=json.loads((r/'folder map/inventar.json').read_text(encoding='utf-8')); print([(x['cale'],x['text_cache']) for x in idx if ('Polizzenkopie' in x['cale'] or '2044001194' in x['cale'] or 'Mahnung' in x['cale']) and x['extensie']=='.pdf'][:45])\""
+    }
+  ],
+  "aggregatedOutput": "2026.09.30 | DONAU / COMMERZ INKASSO | Dosar 2616052, polita 2044001194\r\n\r\nCONCLUZIE\r\n\r\nPe documentele disponibile, pretentia privind primele are o baza juridica serioasa. Nu este justificata respingerea integrala doar pentru ca A&C nu a semnat o polita noua sau pentru ca Donau invoca lipsa acoperirii din cauza neplatii. Suma exacta exigibila, costurile, comunicarea somatiilor si efectul eventualei reduceri trebuie verificate separat. Aceasta este o evaluare documentara; strategia de plata/contestare trebuie confirmata cu avocatul austriac care poate verifica mandatul, dosarul complet si eventualele acte judiciare.\r\n\r\n1. CE ESTE NOU SI CE ESTE DOVEDIT\r\n\r\nRevenirea pregatita anterior a fost ulterior TRIMISA la 2026.09.30, 11:50 UTC / 14:50 Romania, catre office@maritczak.at, CC bogdan.capra@cerhahempel.com. ID EVA 41c4c52a-2139-409e-9907-138cb81163ee. Fisierul anterior DRAFT ramane istoric, nu status curent.\r\n\r\nStefanie Gruber, Commerz Inkasso, a raspuns la 2026.09.30, 12:51 UTC / 15:51 Romania, ID EVA 1fa19552-d1fd-459e-92b3-57ed5319d18c. Mesajul primit are ca destinatar office@ac-wohnart.at si nu afiseaza CC; nu rezulta ca raspunsul a fost trimis si domnului Capra.\r\n\r\nEi afirma ca au incercat de doua ori comunicarea la 2026.09.17 si ca au expediat apoi scrisoarea prin posta. Textul disponibil contine doua notificari de eroare 550: serverul mail.ac-wohnart.at a respins extensia atasamentului Mail_nochmal_an_VN_02.EML. Aceste fragmente sustin existenta unei probleme tehnice; fara antetele complete nu certifica independent data fiecarei tentative. PDF-ul scrisorii este datat 2026.09.17. Nu este anexata o dovada de primire postala identificabila. Absenta raspunsului din casuta nu inseamna, prin urmare, absenta unei incercari de raspuns.\r\n\r\nTermenul nou comunicat pentru 5.326,15 EUR este 2026.10.12. Scrisoarea anterioara indica 2026.09.28. Formularea actuala acorda/propune explicit amanarea pana la 2026.10.12; este prudent sa fie confirmata in raspuns. Nu echivaleaza cu 14 zile dupa primirea tuturor actelor, nici cu renuntarea expresa la dobanda, costuri sau consecintele anterioare. Nu este confirmare de acoperire si nu este titlu executoriu.\r\n\r\n2. RECONCILIEREA SUMEI\r\n\r\nPrime 2026.04.01–2026.07.01:                         1.591,81 EUR\r\nPrime 2026.07.01–2026.10.01:                         1.591,81 EUR\r\nPrima urmatoare, octombrie 2026–ianuarie 2027:        1.591,81 EUR\r\nSubtotal prime:                                      4.775,43 EUR\r\nCosturi creditor:                                       30,00 EUR\r\nCosturi Inkasso cu TVA:                                501,58 EUR\r\nDobanda indicata:                                       19,14 EUR\r\nTotal cerut:                                         5.326,15 EUR\r\n\r\n5.326,15 - 3.734,34 = 1.591,81 EUR. Majorarea reprezinta matematic o prima trimestriala; nu rezulta o penalizare noua de 1.591,81 EUR. Q4 este acum solicitat expres in email, nu doar estimat. Trebuie totusi obtinuta prescriptia/factura pentru intervalul exact 2026.10.01–2027.01.01 si scadenta acesteia. Expresia din email nu indica patru luni intregi.\r\n\r\nAnexa Kostenaufstellung din 2026.09.17 numeste Hauptforderung suma de 3.213,62 EUR: aceasta include deja cele doua prime de 3.183,62 EUR si 30 EUR cost creditor. Nu trebuie adaugati cei 30 EUR inca o data peste 3.213,62 EUR.\r\n\r\nDetaliul Inkasso, verificat vizual in PDF: prima somatie 103,55 EUR net; posta 3,95; administrare ABG 257,08; evidenta 41,40; investigare adresa 12,00; telefon 0,00. Total net 417,98 + TVA 83,60 = 501,58. Cu dobanda 19,14: 520,72 EUR. Impreuna cu costul creditorului 30 EUR, accesoriile sunt 550,72 EUR. Dobanda de 19,14 este cea pastrata in cererea lor; nu certifica oprirea acumularii ulterioare.\r\n\r\nPolita locala din 2026.06.03 confirma prima anuala de 6.367,24 EUR si plata trimestriala de 1.591,81 EUR. Originalul are hash identic cu indexul; paginile relevante au fost deschise si verificate. Reconcilierea bancara anterioara nu identifica debitul; prezenta analiza nu este o noua verificare integrala a conturilor bancare.\r\n\r\n3. EVALUAREA JURIDICA\r\n\r\nTransferul politei. Potrivit §69 VersVG, cumparatorul bunului asigurat intra in drepturile si obligatiile contractului in perioada proprietatii sale; nu este necesara, ca regula, o semnatura noua. De aceea, argumentul «nu am semnat cu Donau» nu inlatura singur primele. Donau invoca transferul proprietatii la 2026.03.10; aceasta data este afirmatia lor, nereverificata aici in cartea funciara. Primele detaliate in corespondenta sunt de dupa 2026.04.01. O repartizare intre vanzator si cumparator in contractul de vanzare trebuie analizata separat de drepturile asiguratorului. [S1]\r\n\r\nRezilierea la cumparare. §70 alin.2 VersVG permite rezilierea intr-o luna de la dobandire; daca asigurarea nu era cunoscuta, termenul curge de la cunoastere. Explicatia Donau, bazata exclusiv pe data dobandirii, este incompleta. Totusi, mesajul Capra din 2026.09.17 afirma transmiterea politei la 2026.03.19, iar mesajul propriu din 2026.06.08 arata cunoasterea existentei politei. Trebuie cautata o reziliere efectiva si tempestiva, inclusiv prin vanzator/administrator. Cererea de ajustare si rezervarea unor drepturi nu dovedesc singure rezilierea. Nu rezulta din materialul analizat ca polita ar fi incetat valabil. [S2]\r\n\r\nLipsa acoperirii si primele. §39 VersVG permite, in conditiile legii, refuzul despagubirii pentru un eveniment intervenit dupa expirarea unei somatii calificate, daca prima ramane neachitata culpabil. Aceasta nu inseamna automat incetarea contractului sau disparitia obligatiei de plata a primelor. Principiul este confirmat de OGH. Dar Donau trebuie sa poata sustine conditiile concrete: somatie corecta, comunicare, cel putin doua saptamani si avertizarea consecintelor. Documentul local din 2026.06.05 contine avertizarea; data primirii si eventuala reziliere raman de verificat. [S3, S4]\r\n\r\nNeplata doar a dobanzilor/costurilor nu declanseaza consecintele §39 alin.1–3, conform alin.4. Acesta este un argument util pentru separarea clarificarii primelor de disputa accesoriilor. Totusi, o plata partiala nu trebuie presupusa automat imputata integral asupra primelor: trebuie confirmate alocarea si efectul asupra acoperirii, tinand cont de regulile de imputatie. Plata nu repară automat retroactiv toate perioadele fara acoperire. [S3, S8]\r\n\r\nReducerea politei. Pfeiffer a oferit la 2026.07.14 posibilitatea excluderii Leitungswasser si Mieten-BU, cerand autorizatia de construire, descrierea lucrarilor si confirmarea instalatorului privind inchiderea/securizarea instalatiei de apa. Nu este o acceptare neconditionata sau retroactiva. Nu am identificat transmiterea ulterioara a acestor documente in cautarile EVA. Limita: cosmin@ig.ro este sincronizat numai pana la 2026.08.12. §41a VersVG poate fundamenta reducerea pentru perioade viitoare cand dispar circumstantele de risc care au justificat prima mai mare; nu autorizeaza automat reducerea la suma aleasa unilateral. Plata trimestriala nu inseamna neaparat perioada de asigurare trimestriala. [S2]\r\n\r\nImpact indicativ: apa costa in polita 3.127,72 EUR/an, iar pierderea chiriei 41,72 EUR/an. Eliminarea integrala a ambelor, cu toate celelalte componente neschimbate, ar reduce matematic 3.169,44 EUR/an, adica 792,36 EUR/trimestru. Este o simulare pe tariful existent, nu oferta acceptata sau credit deja datorat. Data de efect, inclusiv eventuala retroactivitate la 2026.07.01, necesita confirmare sau o baza juridica probata.\r\n\r\nCosturi si dobanda. §1333 alin.2 ABGB cere prejudiciu imputabil, masuri necesare si adecvate si proportionalitate. Un tabel de tarife nu dovedeste singur toate aceste conditii. Regulamentul Inkasso fixeaza plafoane, iar sumele fixe sunt indexabile conform §4; nu se compara mecanic cei 103,55 EUR cu vechiul plafon de 50,87 EUR fara indexare. ABG 257,08 EUR reprezinta aproximativ 8% din 3.213,62 EUR, compatibil ca ordin de marime cu plafonul procentual. Se pot cere justificarea bazei, activitatilor, costurilor de evidenta/adresa si celor 30 EUR. Nu exista deocamdata baza sa declaram automat toti cei 550,72 EUR ilegali. [S5, S6]\r\n\r\nPentru dobanda de 8% trebuie cerute temeiul contractual/legal, capitalul, inceputul si sfarsitul calculului. A&C este societate comerciala; nu se presupune automat dobanda de consumator sau aplicarea tuturor protectiilor KSchG. §456 UGB prevede pentru intarzierea comerciala un regim distinct, dependent si de raspunderea pentru intarziere. [S7]\r\n\r\n4. CE RAMANE INCOMPLET\r\n\r\nPachetul nou contine raspunsul de principiu, corespondenta Donau din iulie si detaliul costurilor. Nu identifica, de unul singur, predarea intregului contract-cadru 2900010498, tuturor conditiilor/clauzelor, extrasului complet al contului politei, tuturor somatiilor cu dovezi de primire si prescriptiei Q4. Copia politei exista deja local, deci nu trebuie sustinut ca nu avem absolut niciun document contractual. Nu exista confirmare scrisa noua a acoperirii efective sau a unei reduceri deja operate.\r\n\r\nCorpul mesajului EVA este limitat la 20.000 caractere. Partile noi relevante si anexele originale au fost citite; doua EML, doua PDF si imaginea de semnatura sunt salvate integral. Duplicatele de anexe din export sunt evidentiate prin nume/ID; nu reprezinta costuri sau documente suplimentare. EML-ul din iulie contine si propria anexa PDF, pastrata in interiorul originalului.\r\n\r\n5. PASUL RECOMANDAT\r\n\r\nInainte de 2026.10.12, avocatul Capra ar trebui sa confirme strategia de regularizare: verificarea principalului si a perioadelor, confirmarea scrisa a sumei care reactiveaza acoperirea si a datei efective, plus verificarea/negocierea separata a accesoriilor. O eventuala plata sub rezerva trebuie formulata si alocata clar; nu se considera ca o simpla mentiune elimina orice efect juridic. Cererea de acte nu suspenda singura obligatia de plata.\r\n\r\nIn paralel: completarea celor trei documente solicitate de Pfeiffer si obtinerea unei oferte/decizii de reducere, inclusiv raspuns explicit privind data de efect. Comunicarea viitoare sa contina PDF-uri sau text, evitand atasamente EML blocate. Cerut expres daca suma de 5.326,15 EUR ramane fixa pana la 2026.10.12 si daca sunt suspendate alte demersuri.\r\n\r\nNu este recomandabil sa se mentina un refuz global bazat numai pe lipsa semnaturii sau pe lipsa acoperirii. Nu se recomanda nici acceptarea neconditionata a intregii sume fara verificarea restantelor, alocarii si acoperirii. Prioritatea practica este eliminarea incertitudinii privind asigurarea cladirii. Nu am trimis un nou raspuns si nu am efectuat vreo plata in cadrul acestei analize.\r\n\r\nSURSE JURIDICE VERIFICATE ONLINE LA 2026.09.30\r\n\r\n[S1] RIS, §69 VersVG: https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489\r\n[S2] RIS, VersVG, forma curenta, §§41a si 70: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979\r\n[S3] RIS, §39 VersVG: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39\r\n[S4] OGH 3 Ob 722/54, principiul continuarii obligatiei de prima in caz de Leistungsfreiheit: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf\r\n[S5] RIS, §1333 ABGB: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622&Paragraf=1333\r\n[S6] RIS, plafoane Inkasso, §§3–4: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10007798\r\n[S7] RIS, §456 UGB: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001702&Paragraf=456\r\n[S8] RIS, §1416 ABGB: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1416/NOR12019162\r\n\r\nSURSE DOCUMENTARE\r\n\r\nEmail primit 1fa19552-d1fd-459e-92b3-57ed5319d18c; email trimis 41c4c52a-2139-409e-9907-138cb81163ee; Pfeiffer d10bdd3f-8439-45f0-a061-e222c9290266; cererea initiala b487e95f-8a9f-4865-9836-ae95481ce360; Capra b8bab41b-0cd5-40a8-8467-ca9c98c344d4. Anexele originale si SHA-256 sunt in 2026.09.30 Registru anexe.json.\r\nPolita: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf, SHA-256 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd.\r\n[('05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf', 'folder map/texte/fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd.txt'), ('05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA108A0CC3_Polizzenkopie.pdf', 'folder map/texte/eb3dd22b2612be6169131f1bba2ab6592270000b00c455c941f65e3681706546.txt'), ('05. Asigurari/Asigurare cladire/Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte.pdf', 'folder map/texte/a61243c1c6387710f30d7206b7ed2927e72d9e112170090dcd2bde0df874a38c.txt'), ('05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.txt'), ('05. Asigurari/Asigurare cladire/Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf', 'folder map/texte/b6a13e05452ed2aa30e8b8f4b4579ae3b7629a434088895d3b1c72543a9b5180.txt'), ('08. Corespondenta/2026.09.14 Somatie Commerz-Inkasso (Donau)/Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.03.19 2fbc3676 Traducere Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/b6a13e05452ed2aa30e8b8f4b4579ae3b7629a434088895d3b1c72543a9b5180.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.03.19 91961843 Traducere Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/b6a13e05452ed2aa30e8b8f4b4579ae3b7629a434088895d3b1c72543a9b5180.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.03.19 db061230 Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.03.19 f611c305 Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.09.17 85a8fc1a Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.09.17 98062ee8 Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Donau Versicherung/2026.06.10 0b24da6e 814BC40FC7831FE197E21FDA108A0CC3_Polizzenkopie.pdf', 'folder map/texte/eb3dd22b2612be6169131f1bba2ab6592270000b00c455c941f65e3681706546.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Donau Versicherung/2026.06.10 ad453388 814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf', 'folder map/texte/fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Donau Versicherung/2026.07.20 f9db5b7e Polizze Nr. 2044001194 – Ersuchen um prämienreduzier.pdf', 'folder map/texte/a61243c1c6387710f30d7206b7ed2927e72d9e112170090dcd2bde0df874a38c.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Hofhans/2026.03.19 1e7fbf03 Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Hofhans/2026.03.19 6f5522ea Schalle_1080_DON_SHU_2044001194_2939905718.pdf', 'folder map/texte/96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.txt'), ('08. Corespondenta/Autoritati Wien/MA 06 - Rechnungs- und Abgabenwesen (BA 9)/03. Atasamente/2026.08.12 MA 6 - Mahnung Wasser-Abwassergebuehren 7,59 EUR (Eingang 18.08.2026).pdf', 'folder map/texte/ca7f2490e5cd73b048fc45a1e5d67933453bff53d8cec4c75ab0aa45d73f71a5.txt'), ('10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/Documente justificative/2026.08.12 MA6 - apa cont vechi Mahnung 070000622528.pdf', 'folder map/texte/ca7f2490e5cd73b048fc45a1e5d67933453bff53d8cec4c75ab0aa45d73f71a5.txt'), ('10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/Documente justificative/2026.09.09 Donau - Commerz-Inkass 2616052 - polita 2044001194.pdf', 'folder map/texte/2c1c0e9e8f85447b0b699941f23e19d3cc070e56f43af42bb2589528f2b33025.txt'), ('10. Banci + Extrase de cont/Facturi neachitate/01 - 2026-09-09 DONAU prin Commerz-Inkasso Az 2616052 Polizze 2044001194 - 3.734,34 EUR (DEPASIT 21.09) - IBAN AT11 3500 0000 0310 7703 Ref 2616052.pdf', 'folder map/texte/2c1c0e9e8f85447b0b699941f23e19d3cc070e56f43af42bb2589528f2b33025.txt'), ('10. Banci + Extrase de cont/Facturi neachitate/02 - 2026-06-05 DONAU Polizze 2044001194 Praemie Quartal 1.591,81 EUR (Q4 faellig 01.10.2026) - IBAN AT67 2011 1403 1004 1414 Ref 002044001194.pdf', 'folder map/texte/1af65af6d23d9c25cc9c0cccad8676df46ecb38e2e33f865e8cfe403a833dd67.txt'), ('10. Banci + Extrase de cont/Facturi neachitate/12b - 2026-07-13 STURM Energie Zahlungserinnerungen (Mahnungen) Gas 29701-29721 - IBAN AT88 3200 0001 1211 7792.pdf', 'folder map/texte/5ae47a556781cb72039fda6f81b771f2cb589b01382c8fe6fcb0f4a9e8e5eef5.txt'), ('10. Banci + Extrase de cont/Facturi neachitate/13a - 2026-08-04 WIEN ENERGIE Mahnung Gas 5147075005 - 109,02 EUR (Frist 18.08).pdf', 'folder map/texte/1c55c69498dee7f376b305e09b0f8c6aa00190ec18211e7e7c932224503d8324.txt'), ('10. Banci + Extrase de cont/Facturi neachitate/15a - 2026-08-12 STADT WIEN MA 6 Mahnung Wasser-Abwasser 7,59 EUR - Ref 070000622528.pdf', 'folder map/texte/ca7f2490e5cd73b048fc45a1e5d67933453bff53d8cec4c75ab0aa45d73f71a5.txt')]\r\n",
+  "exitCode": 0,
+  "durationMs": 282
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6239fadd-f16a-4e44-a8fc-6605f82a6d8f",
+  "query": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4view0",
+      "snippet": "Total lines: 2601",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4view1",
+      "snippet": "Total lines: 106",
+      "title": "RIS - Versicherungsvertragsgesetz § 70 - Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4view2",
+      "snippet": "Total lines: 113",
+      "title": "RIS - Versicherungsvertragsgesetz § 69 - Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4view3",
+      "snippet": "Total lines: 147",
+      "title": "Microsoft Word - jjt_19541117_ogh0002_0030ob00722_5400000_000.rtf",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e652a990-921b-45eb-904f-8d4d272f36ff",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 -c \\\"from pathlib import Path; import fitz,hashlib,json; r=Path.cwd(); idx={x['cale']:x for x in json.loads((r/'folder map/inventar.json').read_text(encoding='utf-8'))}; p=r/'05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf'; print('polita hash',hashlib.sha256(p.read_bytes()).hexdigest()==idx[p.relative_to(r).as_posix()]['sha256']); d=fitz.open(p); print('pagini',len(d)); print([(i+1,pg.get_text()) for i,pg in enumerate(d) if any(t in pg.get_text().lower() for t in ['2036','kündigung','laufzeit','versicherungsperiode','dauer'])]); print((r/'folder map/texte/1af65af6d23d9c25cc9c0cccad8676df46ecb38e2e33f865e8cfe403a833dd67.txt').read_text(encoding='utf-8')[:5000])\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "41964",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 -c \"from pathlib import Path; import fitz,hashlib,json; r=Path.cwd(); idx={x['cale']:x for x in json.loads((r/'folder map/inventar.json').read_text(encoding='utf-8'))}; p=r/'05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf'; print('polita hash',hashlib.sha256(p.read_bytes()).hexdigest()==idx[p.relative_to(r).as_posix()]['sha256']); d=fitz.open(p); print('pagini',len(d)); print([(i+1,pg.get_text()) for i,pg in enumerate(d) if any(t in pg.get_text().lower() for t in ['2036','kündigung','laufzeit','versicherungsperiode','dauer'])]); print((r/'folder map/texte/1af65af6d23d9c25cc9c0cccad8676df46ecb38e2e33f865e8cfe403a833dd67.txt').read_text(encoding='utf-8')[:5000])\""
+    }
+  ],
+  "aggregatedOutput": "polita hash True\r\npagini 9\r\n[(1, ' \\n \\n \\n \\nWohnhausversicherung \\n \\nLandesdirektion Wien, Schottenring 15, 1010 Wien, Telefon: +43 50330 72149 \\nServiceline: +43 50 330 330, donau@donauversicherung.at, donauversicherung.at \\nCreditor-ID: AT34ZZZ00000003107, IBAN: AT67 2011 1403 1004 1414, BIC: GIBAATWWXXX \\n \\nDONAU Versicherung AG Vienna Insurance Group \\nSitz in 1010 Wien, Schottenring 15, FN 32002m, Handelsgericht Wien \\n \\nSeite 1 von 9 \\n11400074984720 \\n \\nRahmenvertragsnummer: 2900010498 \\n \\n \\nGuten Tag! \\nMit Ausstellung dieser Polizze bestätigen wir die aktuellen Änderungen zu diesem Versicherungsvertrag. \\nDONAU Wohnhausversicherung \\n \\nAusstellungsgrund \\n \\nÄnderung Partner/ Adresse (Änderung Versicherungsnehmer (Eigentümerwechsel)) \\n \\nVertragsdauer \\n \\nÄnderung ab: 28.05.2026 0:00 Uhr, Ablauf: 01.01.2036 0:00 Uhr, Hauptfälligkeit: 01.01. \\n \\nVersicherungsnehmerIn \\n \\nA&C Wohnart Immobilien GmbH \\nParkring 2, 1010 Wien \\n \\nVersicherungsort \\n \\nSchallergasse 35, 1120 Wien \\n \\n \\nSachversicherung \\nohne Wertanpassung \\nVersicherte Objekte (Beträge in EUR) \\n \\nGEBÄUDE: \\nWohngebäude \\n \\n03.06.2026 \\n \\nPolizze Nr. 2044001194 / bisherige Polizze Nr. X712261 \\n \\n \\nA&C Wohnart Immobilien GmbH \\nParkring 2 \\n1010 Wien \\nRetouren an Postfach 330, 1375 Wien \\n \\n \\n'), (6, ' \\n \\n \\n \\nWohnhausversicherung \\nPolizze Nr. 2044001194 \\nSeite 6 von 9 \\n03.06.2026 \\n11400074984720 \\nNacheinem ersatzpflichtigen Leitungswasserschaden im Sinne der Bedingungen ist die Einholung der \\nGenehmigung des Versicherers für die künstliche Austrocknung nicht erforderlich, wenn die \\nvoraussichtlichen Kosten für die künstliche Austrocknung EUR 1.500.- nicht übersteigen und der VN die \\nkünstliche Austrocknung zur Schadenminderung für geboten hält. Der VN hält sich hierbei an die \\nPartnerpreise der Versicherungsgesellschaft gebunden. Die Beauftragung und der Eintritt des Schaden \\nmuss dem Versicherer gemeldet werden. Die Katastrophendeckung Wasser gilt mit einer VS von EUR 80 \\n000,-- vereinbart. \\n \\nGesamtprämie (Beträge in EUR) \\n \\nGesamtjahresprämie für den Vertrag \\n \\n6.367,24 \\n \\ninkl. Versicherungssteuer \\n11,00 % \\n628,00 \\n \\ninkl. Feuerschutzsteuer \\n4,00 % \\n28,88 \\n \\nPrämienabrechnung (Beträge in EUR) \\n \\nOffene Prämie vor Vertragsänderung \\n \\n3.193,62 \\nSomit zu bezahlen* \\n \\n3.193,62 \\n* Bei dieser Position handelt es sich um den aktuellen Kontostand der Polizze. \\n \\nZahlungsweise \\n \\nWie vereinbart, erfolgt die Prämienverrechnung mit Zahlschein. \\n \\nPrämie zur nächsten Fälligkeit (Beträge in EUR) \\n \\nFolgeprämie zahlbar vierteljährlich  \\n \\n1.591,81 \\n \\ninkl. Versicherungssteuer \\n157,00 \\n \\ninkl. Feuerschutzsteuer \\n7,22 \\n \\nVertragsgrundlagen \\n \\n1000K – \\nLaufzeitvorteil \\n1002K – \\nEinschluss von Schäden durch Terrorakte \\n1224K – \\nNebenkosten Feuerversicherung \\n1238K – \\nNebenkosten Sturmversicherung \\n1242K – \\nKatastrophendeckung Erdbeben \\n1246K – \\nOptische Schäden Gebäude \\n1249K – \\nNebenkosten Leitungswasserversicherung \\n1255K – \\nErweiterung des Rohrersatzes \\n1256K – \\nMitversicherung von Verstopfungsschäden der Ableitungsrohre außerhalb des Gebäudes am \\nGrundstück \\n1325K – \\nMitversicherung von Ableitungsrohre außerhalb des Grundstücks \\n1345K – \\nBesondere Bedingungen für die Total-BU-Versicherung \\n1347K – \\nBesondere Bedingungen für die Mietverlust-BU-Versicherung \\n1438K – \\nZusatzbedingungen für die Feuerversicherung von Wohngebäuden (ZB F WG 2018) \\n1439K – \\nDeckungserweiterungen zur Feuer-Gebäudeversicherung \\n1440K – \\nMehrkosten \\n'), (7, ' \\n \\n \\n \\nWohnhausversicherung \\nPolizze Nr. 2044001194 \\nSeite 7 von 9 \\n03.06.2026 \\n11400074984720 \\n1441K – \\nVorsorge für Gebäude - Wohnhausversicherung \\n1442K – \\nIndirekte Blitzschlagschäden \\n1443K – \\nBeschädigungen an Gebäudebestandteilen im Zuge eines Einbruchdiebstahls \\n1444K – \\nKaminschleifen \\n1445K – \\nSchäden durch Ruß und Rauch sowie Verpuffung \\n1449K – \\nMehrkosten für Ersatzräumlichkeiten \\n1450K – \\nZusatzbedingungen für die Sturmversicherung von Wohngebäuden (ZB St WG 2018) \\n1451K – \\nDeckungserweiterungen zur Sturm-Gebäudeversicherung \\n1453K – \\nZusatzbedingungen für die Leitungswasserversicherung von Wohngebäuden (ZB W WG \\n2018) \\n1455K – \\nLeitungswasser-Gebäudeversicherung - Variante D \\n1458K – \\nMitversicherung von Gasleitungsschäden \\n1459K – \\nFliesenklausel \\n1460K – \\nMuffenversatz - Lösen von Rohrverbindungen \\n3031K – \\nKatastrophendeckung Wasser \\n3074K – \\nHaftpflicht - Haus und Grundbesitz Umweltschäden \\n3138K – \\nBesondere Bedingungen für die Feuer-Gebäudeversicherung - Grunddeckung \\n3139K – \\nBesondere Bedingungen für die Sturm-Gebäudeversicherung - Grunddeckung \\n3140K – \\nBesondere Bedingungen für die Leitungswasser-Gebäudeversicherung - Grunddeckung \\n3142K – \\nKlauselpaket zur Wohnhausversicherung \\n3173K – \\nHaftpflicht – All In Haus und Grundbesitz \\n3188K – \\nHaftpflicht - Haus und Grundbesitz Erhöhte Baukostensumme \\n1000A – \\nAllgemeine Bedingungen für die Sachversicherung (ABS) (Fassung 2018) \\n1001A – \\nAllgemeine Bedingungen für die Feuerversicherung (AFB) (Fassung 2018) \\n1002A – \\nAllgemeine Bedingungen für die Sturmversicherung (AStB) (Fassung 2018) \\n1003A – \\nAllgemeine Bedingungen für die Leitungswasserversicherung (AWB) (Fassung 2018) \\n1010A – \\nAllgemeine und Ergänzende Allgemeine Bedingungen für die Haftpflichtversicherung (AHBV \\n2005 und EHVB 2005 in der Version 2012) (Fassung 2018) \\n1013A – \\nAllgemeine Bedingungen für die Feuer-Betriebsunterbrechungs-Versicherung (AFBUB) \\nDie Versicherungsbedingungen sowie die gesetzlichen Bestimmungen stehen auf unserer Website \\ndonauversicherung.at als Download zur Verfügung oder werden Ihnen auf Wunsch kostenfrei zugesandt. \\n \\nBITTE BEACHTEN! \\nPersonenbezogene Bezeichnungen in diesem Dokument beziehen sich auf alle Geschlechter in gleicher \\nWeise. \\nVertragsdauer \\nBeträgt die vereinbarte Vertragsdauer mindestens ein Jahr, verlängert sich der Vertrag jedes Mal um ein \\nweiteres Jahr, wenn er nicht spätestens drei Monate vor Ablauf der Vertragsdauer von einem der \\nVertragspartner gekündigt worden ist. \\n \\nIst der Versicherungsnehmer Verbraucher, so wird der Vertrag für ihn nur dann verbindlich um ein weiteres \\nJahr verlängert, wenn ihm frühestens sechs und spätestens vier Monate vor jedem Ablauf der \\nVertragsdauer ein besonderer Hinweis des Versicherers zugeht. In diesem Hinweis wird der Verbraucher \\n'), (8, ' \\n \\n \\n \\nWohnhausversicherung \\nPolizze Nr. 2044001194 \\nSeite 8 von 9 \\n03.06.2026 \\n11400074984720 \\nauf das Kündigungsrecht, die dreimonatige Kündigungsfrist, den notwendigen Zugang der Kündigung beim \\nVersicherer vor Beginn dieser Frist, die für die Kündigung erforderliche Form sowie auf die \\nVertragsverlängerung um ein weiteres Jahr bei unterbliebener, verspäteter oder fehlerhafter Kündigung \\naufmerksam gemacht. \\n \\nBeträgt die Vertragsdauer weniger als ein Jahr, erlischt der Vertrag ohne Kündigung. \\nRechte und Pflichten \\nDie gegenseitigen Rechte und Pflichten werden durch die gesetzlichen Bestimmungen, den Antrag, die auf \\ndieser Polizze vermerkten Versicherungsbedingungen, etwaigen besonderen Vereinbarungen und \\netwaigen Leistungsübersichten geregelt. \\nAufforderung zur Zahlung der ersten oder einmaligen Prämie \\nBitte zahlen Sie die erste oder einmalige Prämie sofort nach Erhalt dieser Polizze. Erfolgt die Zahlung nicht \\ninnerhalb von 14 Tagen nach Erhalt, ist der Versicherer von der Verpflichtung zur Leistung frei, es sei denn, \\ndass der Versicherungsnehmer an der rechtzeitigen Zahlung der Prämie ohne sein Verschulden verhindert \\nwar oder mit nicht mehr als zehn v. H. der Jahresprämie, höchstens aber mit EUR 60,–, in Verzug ist. Nach \\nAblauf der genannten Frist ist der Versicherer berechtigt, vom Vertrag zurückzutreten, solange die Zahlung \\nnicht erfolgt ist. Es gilt als Rücktritt, wenn der Anspruch auf die Prämie nicht innerhalb dreier Monate vom \\nFälligkeitstag an gerichtlich geltend gemacht wird. \\nAllgemeine Obliegenheiten \\nAls Obliegenheiten, deren Verletzung die Leistungsfreiheit des Versicherers gemäß den Voraussetzungen \\nund Begrenzungen des § 6 VersVG bewirkt, werden bestimmt: \\n(1) Schadensminderung: \\nDer Versicherungsnehmer hat nach Möglichkeit und Zumutbarkeit alles zu tun, um den entstandenen \\nSchaden gering zu halten und weiteren Schaden zu vermeiden sowie dabei die Weisungen des \\nVersicherers zu befolgen. \\n(2) Schadensmeldung: \\nDer Versicherungsnehmer hat den entstandenen Schaden dem Versicherer unverzüglich nach \\nKenntniserlangung zu melden. \\n(3) Schadensermittlung: \\n3.1. Der Versicherungsnehmer hat dem Versicherer jede Untersuchung über die Ursache und Höhe \\ndes Schadens sowie über den Umfang der Entschädigungsleistung zu gestatten und jede hierzu \\ndienliche Auskunft zu erteilen. \\n3.2. Sofern der Schaden durch einen Dritten verursacht ist, hat der Versicherungsnehmer an der \\nErmittlung dieser Person mit zu wirken und den Verursacher sowie eventuelle Zeugen dem Versicherer \\nbekanntzugeben. \\n(4) Neben diesen allgemeinen Obliegenheiten sind besondere in den jeweiligen \\nVersicherungsbedingungen geregelt. \\nGebühren \\nNebengebühren für Mehraufwendungen, die vom Versicherungsnehmer bei uns veranlasst werden (z. B. \\nMahngebühren bei Prämienzahlungsverzug), werden dem Versicherungsnehmer verrechnet. (§ 41 b \\nVersicherungsvertragsgesetz) \\nAbschriften \\nDer Versicherungsnehmer kann jederzeit auf seine Kosten Abschriften aller Erklärungen verlangen, die von \\nihm oder für ihn dem Versicherer gegenüber mit Bezug auf den Vertrag abgegeben worden sind. \\nAnwendbares Recht und zuständige Aufsichtsbehörde \\nFür den Versicherungsvertrag gilt österreichisches Recht. \\n')]\r\n\r\n--- PAGINA 1 ---\r\n                                                                                Für Sie daRetouren an Postfach 330, 1375 Wien\r\n                                                                                                 Serviceline\r\nA&C Wohnart Immobilien GmbH                                                                               Telefon: +43 (0)50 330 330\r\nParkring 2                                                                   donau@donauversicherung.at\r\n1010 Wien\r\n\r\n\r\n\r\n\r\n\r\nPolizze Nr. 2044001194 / bisherige Polizze Nr. X712.261-2                                05.06.2026\r\noffene Prämie: EUR 1.591,81 Mahnspesen: EUR 20,00\r\n\r\n\r\nACHTUNG: Ihr Versicherungsschutz ist in Gefahr!\r\n\r\n\r\nGuten Tag!\r\n\r\nDie Prämie zu dem oben angeführten Versicherungsvertrag ist leider noch nicht bei uns eingegangen.\r\nZahlen Sie die offene Prämie bitte innerhalb der nächsten zwei Wochen ein (§ 39 Versicherungs-\r\nvertragsgesetz).\r\n\r\nTritt nach Ablauf dieser Frist ein Versicherungsfall ein und sind Sie auch dann noch mit der Zahlung der\r\noffenen Prämie schuldhaft in Verzug, sind wir von der Verpflichtung zur Leistung frei.\r\n\r\nWir weisen Sie außerdem darauf hin, dass der Versicherer das Versicherungsverhältnis mit sofortiger\r\nWirkung kündigen kann, wenn die/der VersicherungsnehmerIn auch nach Ablauf der angesetzten Frist mit\r\nder Zahlung in Verzug ist.\r\n\r\nDie Kündigung wird wirkungslos, wenn die Prämienzahlung innerhalb eines Monats nach der Kündigung\r\nnachgeholt wird und bis dahin noch kein Versicherungsfall eingetreten ist.\r\n\r\nBitte zahlen Sie die offene Prämie mit dem beiliegenden Zahlschein ein.\r\n\r\nWenn Sie die Prämie in der Zwischenzeit bezahlt haben, betrachten Sie dieses Schreiben bitte als\r\ngegenstandslos.\r\n\r\nHaben Sie Fragen?\r\nDie MitarbeiterInnen unserer Serviceline sind gerne jederzeit telefonisch unter 050 330 330 oder via E-Mail\r\nunter donau@donauversicherung.at für Sie da. Außerdem können Sie uns per Live Chat oder Video Chat\r\nauf unserer Website donauversicherung.at erreichen.\r\n\r\nFreundliche Grüße\r\nDONAU Versicherung AG\r\nVienna Insurance Group\r\n\r\n\r\n\r\n\r\nppa. Fuhs                                                  i.A. Mag. Riegler\r\n\r\nBeilage: Zahlschein\r\n\r\n\r\n\r\n\r\n\r\nGeneraldirektion, Schottenring 15, 1010 Wien\r\nServiceline: +43 50 330 330, donau@donauversicherung.at, donauversicherung.at\r\nCreditor-ID: AT34ZZZ00000003107, IBAN: AT67 2011 1403 1004 1414, BIC: GIBAATWWXXX\r\n\r\nDONAU Versicherung AG Vienna Insurance Group\r\nSitz in 1010 Wien, Schottenring 15, FN 32002m, Handelsgericht Wien\r\n",
+  "exitCode": 0,
+  "durationMs": 523
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-a52bbeb4-62f2-4ed2-a8ca-304b87ef889e",
+  "query": "'§ 8'",
+  "action": {
+    "type": "findInPage",
+    "url": null,
+    "pattern": "§ 8"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn5view0",
+      "snippet": "Total lines: 2601",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn5view1",
+      "snippet": "Total lines: 2601",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn5view2",
+      "snippet": "Total lines: 2601",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn5view3",
+      "snippet": "Total lines: 2601",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn5view4",
+      "snippet": "Total lines: 147",
+      "title": "Microsoft Word - jjt_19541117_ogh0002_0030ob00722_5400000_000.rtf",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f641dc7b-c364-484e-86d5-5ca5b41c0e81",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 -c \\\"from pathlib import Path; import fitz; r=Path.cwd(); p=r/'05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf'; d=fitz.open(p); print('polita veche',len(d)); print(d[0].get_text()); print([(i+1,pg.get_text()[:2500]) for i,pg in enumerate(d) if 'Kündigung' in pg.get_text()][:4]); r2=r/'05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA108A0CC3_Polizzenkopie.pdf'; f=fitz.open(r2); print('polita2 first',f[0].get_text())\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "96531",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 -c \"from pathlib import Path; import fitz; r=Path.cwd(); p=r/'05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf'; d=fitz.open(p); print('polita veche',len(d)); print(d[0].get_text()); print([(i+1,pg.get_text()[:2500]) for i,pg in enumerate(d) if 'Kündigung' in pg.get_text()][:4]); r2=r/'05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA108A0CC3_Polizzenkopie.pdf'; f=fitz.open(r2); print('polita2 first',f[0].get_text())\""
+    }
+  ],
+  "aggregatedOutput": "polita veche 89\r\n \r\n \r\n \r\n \r\nWohnhausversicherung \r\n \r\nLandesdirektion Wien, Schottenring 15, 1010 Wien, Telefon: +43 50330 72149 \r\nServiceline: +43 50 330 330, donau@donauversicherung.at, donauversicherung.at \r\nCreditor-ID: AT34ZZZ00000003107, IBAN: AT67 2011 1403 1004 1414, BIC: GIBAATWWXXX \r\n \r\nDONAU Versicherung AG Vienna Insurance Group \r\nSitz in 1010 Wien, Schottenring 15, FN 32002m, Handelsgericht Wien \r\n \r\nSeite 1 von 11 \r\n11400070586369 \r\n \r\nRahmenvertragsnummer: 2900010498 \r\n \r\n \r\nSehr geehrte Damen und Herren! \r\nMit Ausstellung dieser Polizze bestätigen wir die aktuellen Änderungen zu diesem Versicherungsvertrag. \r\nDONAU Wohnhausversicherung \r\n \r\nAusstellungsgrund \r\n \r\nErsatzvertrag \r\n \r\nVertragsdauer \r\n \r\nÄnderung ab: 01.01.2026 0:00 Uhr, Ablauf: 01.01.2036 0:00 Uhr, Hauptfälligkeit: 01.01. \r\n \r\nVersicherungsnehmerIn \r\n \r\nSchallergasse 35 Immobilienbesitz GmbH & Co KG \r\nc/o v.d. Hofhans Immobilienmanagement GmbH, Albertgasse 32/9, 1080 Wien \r\n \r\nVersicherungsort \r\n \r\nSchallergasse 35, 1120 Wien \r\n \r\n \r\nSachversicherung \r\nohne Wertanpassung \r\nVersicherte Objekte (Beträge in EUR) \r\n \r\nGEBÄUDE: \r\nWohngebäude \r\nVermittelt durch \r\nSeipt & Partner Versicherungsmakler GmbH \r\noffice@seipt.at \r\n \r\n03.02.2026 \r\n \r\nPolizze Nr. 2044001194 / bisherige Polizze Nr. X712261 \r\n \r\n \r\nSchallergasse 35 Immobilienbesitz GmbH & \r\nCo KG \r\nv.d. Hofhans Immobilienmanagement GmbH \r\nAlbertgasse 32/9 \r\n1080 Wien \r\nRetouren an Postfach 330, 1375 Wien \r\n \r\n \r\n\r\n[(8, ' \\n \\n \\n \\nWohnhausversicherung \\nPolizze Nr. 2044001194 \\nSeite 8 von 11 \\n03.02.2026 \\n11400070586369 \\nBITTE BEACHTEN! \\nPersonenbezogene Bezeichnungen in diesem Dokument beziehen sich auf alle Geschlechter in gleicher \\nWeise. \\nVertragsdauer \\nBeträgt die vereinbarte Vertragsdauer mindestens ein Jahr, verlängert sich der Vertrag jedes Mal um ein \\nweiteres Jahr, wenn er nicht spätestens drei Monate vor Ablauf der Vertragsdauer von einem der \\nVertragspartner gekündigt worden ist. \\n \\nIst der Versicherungsnehmer Verbraucher, so wird der Vertrag für ihn nur dann verbindlich um ein weiteres \\nJahr verlängert, wenn ihm frühestens sechs und spätestens vier Monate vor jedem Ablauf der \\nVertragsdauer ein besonderer Hinweis des Versicherers zugeht. In diesem Hinweis wird der Verbraucher \\nauf das Kündigungsrecht, die dreimonatige Kündigungsfrist, den notwendigen Zugang der Kündigung beim \\nVersicherer vor Beginn dieser Frist, die für die Kündigung erforderliche Form sowie auf die \\nVertragsverlängerung um ein weiteres Jahr bei unterbliebener, verspäteter oder fehlerhafter Kündigung \\naufmerksam gemacht. \\n \\nBeträgt die Vertragsdauer weniger als ein Jahr, erlischt der Vertrag ohne Kündigung. \\nRechte und Pflichten \\nDie gegenseitigen Rechte und Pflichten werden durch die gesetzlichen Bestimmungen, den Antrag, die auf \\ndieser Polizze vermerkten Versicherungsbedingungen, etwaigen besonderen Vereinbarungen und \\netwaigen Leistungsübersichten geregelt. \\nAufforderung zur Zahlung der ersten oder einmaligen Prämie \\nBitte zahlen Sie die erste oder einmalige Prämie sofort nach Erhalt dieser Polizze. Erfolgt die Zahlung nicht \\ninnerhalb von 14 Tagen nach Erhalt, ist der Versicherer von der Verpflichtung zur Leistung frei, es sei denn, \\ndass der Versicherungsnehmer an der rechtzeitigen Zahlung der Prämie ohne sein Verschulden verhindert \\nwar oder mit nicht mehr als zehn v. H. der Jahresprämie, höchstens aber mit EUR 60,–, in Verzug ist. Nach \\nAblauf der genannten Frist ist der Versicherer berechtigt, vom Vertrag zurückzutreten, solange die Zahlung \\nnicht erfolgt ist. Es gilt als Rücktritt, wenn der Anspruch auf die Prämie nicht innerhalb dreier Monate vom \\nFälligkeitstag an gerichtlich geltend gemacht wird. \\nAllgemeine Obliegenheiten \\nAls Obliegenheiten, deren Verletzung die Leistungsfreiheit des Versicherers gemäß den Voraussetzungen \\nund Begrenzungen des § 6 VersVG bewirkt, werden bestimmt: \\n(1) Schadensminderung: \\nDer Versicherungsnehmer hat nach Möglichkeit und Zumutbarkeit alles zu tun, um'), (13, '03.02.2026 \\n \\n \\n \\n \\nKlauseln zur Polizze Nr. 2044001194 \\nSeite 2 von 22 \\nDiese Entschädigungshöchstgrenze unterliegt keiner Wertanpassung. Sie stellt die maximale Entschädigung je Versicherungsort und \\nVersicherungsnehmer dar, und zwar auch dann, wenn mehrere Versicherungsverträge, die über den Österreichischen \\nVersicherungspool versichert sind, für das vom Schaden betroffene Risiko bestehen. \\n \\nKürzung der Entschädigung \\nDas Risiko von Schäden durch Terrorakte wird vom Versicherer in den Österreichischen Versicherungspool zur Deckung von \\nTerrorrisiken eingebracht, der für versicherte Schäden durch Terrorakte pro Schadensereignis und pro Kalenderjahr eine \\nEntschädigungsgrenze von EUR 200.000.000,– zzgl. allfälliger Staatshaftung vorsieht. \\nÜbersteigen die versicherten Schäden durch Terrorakte bei den in den Pool eingebrachten Risiken pro Kalenderjahr insgesamt die im \\nPool vorgesehene Entschädigungsgrenze, so werden die auf die einzelnen Anspruchsberechtigten entfallenden Entschädigungen \\nverhältnismäßig derart gekürzt, dass sie zusammen die Entschädigungsgrenze des Österreichischen Versicherungspools zur \\nDeckung von Terrorrisiken pro Kalenderjahr nicht übersteigen. \\n \\nFälligkeit der Entschädigung \\nDie Entschädigung ist fällig, sobald feststeht, dass keine Kürzung erfolgt oder in welchem Ausmaß eine Kürzung erfolgen muss. \\n3. GELTUNGSDAUER \\nDiese „Besondere Bedingung“ kann unabhängig von den sonstigen Bestimmungen des Vertrags für sich allein vom Versicherer unter \\nEinhaltung einer Kündigungsfrist von einem Monat gekündigt werden. \\nDarüber hinaus endet die Geltungsdauer der „Besonderen Bedingung“ jedenfalls dann, wenn der Österreichische Versicherungspool \\nzur Deckung von Terrorrisiken seine Tätigkeit einstellt. Die Einstellung der Tätigkeit wird im Amtsblatt der Wiener Zeitung \\nveröffentlicht. \\n4. SCHLUSSBESTIMMUNG \\nDiese „Besondere Bedingung“ lässt alle anderen Bestimmungen des Versicherungsvertrages unberührt. Dies gilt insbesondere auch \\nfür die Ausschlüsse. \\n1224K – NEBENKOSTEN FEUERVERSICHERUNG \\nNebenkosten \\nIm Sinne des Artikels 3, Punkt 2.2 AFB sind Feuerlöschkosten, Bewegungs- und Schutzkosten, Abbruch- und Aufräumkosten und \\nEntsorgungskosten insgesamt mit der in der Polizze dokumentierten Summe mitversichert, und diese gilt zusätzlich zu der \\nGesamtversicherungssumme. \\n \\nWeiters sind im Rahmen dieser Summe auch mitversichert: \\n \\nIsolierkosten, das sind die Kosten für Aufräumung, Abbruch und Isolierung von versicherten Sachen, die als Folge e'), (15, '03.02.2026 \\n \\n \\n \\n \\nKlauseln zur Polizze Nr. 2044001194 \\nSeite 4 von 22 \\n \\nFür die Feststellung ist im Einzelfall die Auskunft der Geosphere Austria oder der an deren Stelle getretenen Anstalt \\nausschlaggebend. \\nAls ein Schadensereignis gelten alle Schäden, die in einem Zeitraum von 72 Stunden eintreten. \\nSchäden, die – wenn auch unter oben angeführten Voraussetzungen – ohne ursächlichen oder örtlichen Zusammenhang eintreten, \\ngelten jeweils als ein gesondertes Schadensereignis. \\n \\nDie Entschädigungsleistung ist gesamt mit der in der Polizze genannten Summe auf „Erstes Risiko“ pro Schadensereignis begrenzt \\nund darüber hinaus mit einer Summe von EUR 30.000.000,– pro Gesamtschadensereignis für sämtliche entstandenen und vom \\nVersicherer zu ersetzenden Schäden limitiert. Übersteigen diese Schäden bei einem Ereignis den Betrag von EUR 30.000.000,– \\nwerden die auf die einzelnen Anspruchsberechtigten (nur betroffene Kunden des Bestandsversicherers) entfallenden \\nEntschädigungen aliquot gekürzt, dass sie zusammen nicht mehr als EUR 30.000.000,– betragen. \\nUnter aliquot ist das Verhältnis aus der Summe aller Leistungsansprüche aus einem versicherten Ereignis im Verhältnis zur \\nmaximalen Entschädigungsleistung in Höhe von EUR 30.000.000,– zu verstehen. (Beträgt beispielsweise der zu entschädigende \\nGesamtschaden EUR 60.000.000,–, so kommt es pro versicherten Anspruch zu einer Kürzung um 50 %). \\n \\nDie in der Polizze genannte Summe ist die Obergrenze für versicherte Schäden und inkludiert auch sämtliche eventuell anfallende \\nKosten (wie Aufräumungs- und Abbruchkosten, De- und Remontagekosten, Bewegungs- und Schutzkosten, Entsorgungskosten, \\nKosten für Behörden, Feuerwehren, Hotelkosten u. dgl.). \\n \\nGegenständliche Zusatzdeckung kann von beiden Vertragspartnern zum Schluss einer jeden Versicherungsperiode unter Einhaltung \\neiner einmonatigen Kündigungsfrist schriftlich gekündigt werden. Die Kündigung dieser Zusatzdeckung berechtigt nicht zur Kündigung \\ndes Sturmversicherungs-Vertrages. \\n \\nSollte in dieser Polizze die EC-Deckung für Erdbeben vereinbart sein, ist für die beantragte Gefahr Erdbeben ein Selbstbehalt von \\nEUR 5.000,– je Schadensfall vereinbart. \\n1246K – OPTISCHE SCHÄDEN GEBÄUDE \\nFolgende Deckungserweiterung ist mitversichert, und zwar mit der in der Polizze dokumentierten Versicherungssumme auf \\n„Erstes Risiko“: \\n \\nIn Erweiterung von Art. 1, Pkt. 1.2 AStB sind nachweislich entstandene optische Schäden durch die direkte Einwirkung von Eiskörnern \\nam versic'), (25, '03.02.2026 \\n \\n \\n \\n \\nKlauseln zur Polizze Nr. 2044001194 \\nSeite 14 von 22 \\n \\nGegenständliche Zusatzdeckung kann von beiden Vertragspartnern zum Schluss einer jeden Versicherungsperiode unter Einhaltung \\neiner einmonatigen Kündigungsfrist schriftlich gekündigt werden. \\nDie Kündigung dieser Zusatzdeckung berechtigt nicht zur Kündigung des Sturmversicherungs-Vertrages. \\n \\nSollte in dieser Polizze die EC-Deckung für Hochwasser und Überschwemmung vereinbart sein, ist für die beantragten Gefahren \\nHochwasser und Überschwemmung ein Selbstbehalt von EUR 5.000,– je Schadensfall vereinbart. \\n \\nb) Mitversichert sind Schäden durch Regen, Schnee und Schmelzwasser im Inneren der versicherten Gebäude, an den versicherten \\nSachen. \\n \\nIn Erweiterung der vertraglich vereinbarten Sturmdeckung sind derartige Schäden mitversichert, allerdings nur, sofern das Wasser \\nplötzlich und unmittelbar oberflächig in das Innere der versicherten Gebäude eindringt und Schäden an den versicherten Sachen \\nverursacht. \\nVoraussetzung für den Versicherungsschutz ist, dass das Gebäude vollständig geschlossen ist. \\n \\nNicht versichert sind: \\n– Schäden an der Hausfassade, an Außenmauern und dem Außenverputz samt Isolation, \\n– Schäden an Außentüren und -fenstern, \\n– Schäden an der tragenden Dachkonstruktion und dem Dachbelag samt Isolation, \\n– Schäden durch Grundfeuchtigkeit und Langzeitwirkungen, \\n– Schäden durch Auftauen und Reparaturen von Dachrinnen und Außenablaufrohren, sowie \\n– Kosten für Wegräumen von Schnee und Eis sowie Schäden infolge Eindringens von Wasser durch offene Dachluken und durch \\nÖffnungen am Dach bei Neubauten sowie bei Umbau- oder anderen Arbeiten. \\n \\nDie Entschädigungsleistung für die in den Punkten a) und b) beschriebenen Risken ist gesamt mit der in der Polizze genannten \\nSumme auf \"Erstes Risiko\" pro Schadensereignis begrenzt und darüber hinaus mit einer Summe von EUR 30.000.000,– pro \\nGesamtschadensereignis für sämtliche entstandenen und vom Versicherer zu ersetzende Schäden limitiert. Übersteigen diese \\nSchäden bei einem Ereignis den Betrag von EUR 30.000.000,– werden die auf die einzelnen Anspruchsberechtigten (nur betroffene \\nKunden des Bestandsversicherers) entfallenden Entschädigungen aliquot gekürzt, dass sie zusammen nicht mehr als \\nEUR 30.000.000,– betragen. \\nUnter aliquot ist das Verhältnis aus der Summe aller Leistungsansprüche aus einem versicherten Ereignis im Verhältnis zur \\nmaximalen Entschädigungsleistung in Höhe von EUR 30.000.000,– zu verstehen. (Beträgt ')]\r\npolita2 first  \r\n \r\nLandesdirektion Wien, Schottenring 15, 1010 Wien, Telefon: +43 50330 72149 \r\nServiceline: +43 50 330 330, donau@donauversicherung.at, donauversicherung.at \r\nCreditor-ID: AT34ZZZ00000003107, IBAN: AT67 2011 1403 1004 1414, BIC: GIBAATWWXXX \r\n \r\nDONAU Versicherung AG Vienna Insurance Group \r\nSitz in 1010 Wien, Schottenring 15, FN 32002m, Handelsgericht Wien \r\n \r\n \r\n \r\n \r\nA&C Wohnart Immobilien GmbH \r\nParkring 2 \r\n1010 Wien \r\nPolizzennummer: 2044001194 \r\nGuten Tag! \r\n \r\nUntenstehend finden Sie den Zahlschein für die Prämie Ihrer Polizze. Zahlen Sie diese bitte bis zum \r\nvertraglich vereinbarten Fälligkeitstermin ein. Damit ist Ihr Versicherungsschutz sichergestellt. \r\n \r\nSie können Ihre Prämie auch ganz bequem mittels SEPA-Lastschrift über Ihr Bankkonto bezahlen. Damit \r\nsparen Sie Zeit, schonen die Umwelt und behalten den Überblick über Ihre Zahlungen. Sie finden das \r\nnotwendige Formular auf unserer Homepage im Bereich „Service“. Wir schicken es Ihnen auch gerne zu. \r\nRufen Sie uns dazu einfach unter der unten genannten Telefonnummer an oder melden sich bei Ihrer \r\nBetreuerin/Ihrem Betreuer. Wir helfen Ihnen immer gerne weiter. \r\n \r\nMit freundlichen Grüßen \r\n \r\nIhre DONAU Versicherung \r\n03.06.2026 \r\nWohnhausversicherung, Polizze: 2044001194 \r\nBei Telebanking/Überweisung: bitte im Feld ZAHLUNGSREFERENZ \r\nfolgende Zahl eingeben: 002044001194 \r\nDONAU Versicherung AG  \r\nAT672011140310041414 \r\n \r\n GIBAATWW \r\n \r\n\r\n002044001194 \r\nDONAU Versicherung AG Vienna Insurance Group  \r\n\r\n \r\n\r\n \r\n\r\n\r\nA&C Wohnart Immobilien GmbH, Parkring 2, 1010 Wien \r\n< \r\n \r\n+ \r\n+ \r\n+ \r\n+ \r\nWohnhausversicherung \r\nPolizze: 2044001194 \r\nSchallergasse 35, 1120 Wien \r\n \r\n \r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 524
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-6bd62236-7af8-4f4f-b492-deb8bc647320",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_list_mailboxes",
+  "status": "completed",
+  "arguments": {},
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_list_mailboxes"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"mailboxes\": [\n    {\n      \"id\": \"79db1e1a-c6e9-44b7-89ad-c9cd76899528\",\n      \"email\": \"factura3@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-05-28T15:05:35.568110Z\"\n    },\n    {\n      \"id\": \"137dbd8c-3cd2-48ff-8e86-db5c0290663d\",\n      \"email\": \"admin@nova-robotics.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-29T17:38:56.048744Z\"\n    },\n    {\n      \"id\": \"94f39814-f872-470a-a4b6-b3601c96e414\",\n      \"email\": \"factura1@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"cc655410-6d31-4ff6-a01f-2bd267bbe840\",\n      \"email\": \"cosmin.covaciu@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-07T08:00:09.350540Z\"\n    },\n    {\n      \"id\": \"a784aaf0-c0e1-422a-8b01-303f74660c56\",\n      \"email\": \"covaciu.gnm@eva-org.com\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-05T20:30:06.421684Z\"\n    },\n    {\n      \"id\": \"4387d9c0-409c-48ca-8afc-ee4fff7d41ed\",\n      \"email\": \"factura2@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-06-21T23:30:06.079888Z\"\n    },\n    {\n      \"id\": \"30b3ba70-9bd8-46a2-993c-18ea0e621036\",\n      \"email\": \"vaidae104@gmail.com\",\n      \"provider\": \"gmail\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-24T05:06:38.771523Z\"\n    },\n    {\n      \"id\": \"07ce0e1a-529f-40aa-90e1-3b99b52d89d1\",\n      \"email\": \"factura@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-06-25T10:00:12.428091Z\"\n    },\n    {\n      \"id\": \"16488f9f-3815-4e45-8947-39d52637fb6f\",\n      \"email\": \"production@cesiro.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-16T20:30:20.790286Z\"\n    },\n    {\n      \"id\": \"d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5\",\n      \"email\": \"cosmin.covaciu@cesiro.com\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-07T08:30:19.853125Z\"\n    },\n    {\n      \"id\": \"3af45560-d448-4125-97cd-f12519882779\",\n      \"email\": \"office@alba-vision.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-24T20:30:09.731986Z\"\n    },\n    {\n      \"id\": \"54f7feea-ba99-47bb-99f1-c441f9eeafea\",\n      \"email\": \"link_covaciu@yahoo.com\",\n      \"provider\": \"yahoo\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-08-02T20:30:05.901517Z\"\n    },\n    {\n      \"id\": \"4fa7391b-56f5-4e3f-9985-1838429347b8\",\n      \"email\": \"mariuscodewnk@yahoo.com\",\n      \"provider\": \"yahoo\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-07T08:30:21.309970Z\"\n    },\n    {\n      \"id\": \"5cbbba25-f4d8-4b0b-b726-f33324e355d4\",\n      \"email\": \"cosmin.covaciu@cesiro.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-07T08:31:11.487283Z\"\n    },\n    {\n      \"id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n      \"email\": \"office@ac-wohnart.at\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-07T08:31:12.121742Z\"\n    },\n    {\n      \"id\": \"61d34ecc-27ac-48b0-98c6-0dbf637edf9a\",\n      \"email\": \"cosmin@ig.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-08-12T10:09:58.959984Z\"\n    },\n    {\n      \"id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n      \"email\": \"covaciu.gnm@gmail.com\",\n      \"provider\": \"gmail\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-04T17:28:13.748658Z\"\n    },\n    {\n      \"id\": \"shared:cesiro.horeca@gmail.com\",\n      \"email\": \"cesiro.horeca@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"team\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:dancorproiectsrl@gmail.com\",\n      \"email\": \"dancorproiectsrl@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:3dspacearideit@gmail.com\",\n      \"email\": \"3dspacearideit@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:3dspacearide@gmail.com\",\n      \"email\": \"3dspacearide@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "mailboxes": [
+        {
+          "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+          "email": "factura3@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-05-28T15:05:35.568110Z"
+        },
+        {
+          "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+          "email": "admin@nova-robotics.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-29T17:38:56.048744Z"
+        },
+        {
+          "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+          "email": "factura1@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+          "email": "cosmin.covaciu@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-07T08:00:09.350540Z"
+        },
+        {
+          "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+          "email": "covaciu.gnm@eva-org.com",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-05T20:30:06.421684Z"
+        },
+        {
+          "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+          "email": "factura2@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-06-21T23:30:06.079888Z"
+        },
+        {
+          "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+          "email": "vaidae104@gmail.com",
+          "provider": "gmail",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-24T05:06:38.771523Z"
+        },
+        {
+          "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+          "email": "factura@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-06-25T10:00:12.428091Z"
+        },
+        {
+          "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+          "email": "production@cesiro.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-16T20:30:20.790286Z"
+        },
+        {
+          "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+          "email": "cosmin.covaciu@cesiro.com",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-07T08:30:19.853125Z"
+        },
+        {
+          "id": "3af45560-d448-4125-97cd-f12519882779",
+          "email": "office@alba-vision.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-24T20:30:09.731986Z"
+        },
+        {
+          "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+          "email": "link_covaciu@yahoo.com",
+          "provider": "yahoo",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-08-02T20:30:05.901517Z"
+        },
+        {
+          "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+          "email": "mariuscodewnk@yahoo.com",
+          "provider": "yahoo",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-07T08:30:21.309970Z"
+        },
+        {
+          "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+          "email": "cosmin.covaciu@cesiro.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-07T08:31:11.487283Z"
+        },
+        {
+          "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+          "email": "office@ac-wohnart.at",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-07T08:31:12.121742Z"
+        },
+        {
+          "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+          "email": "cosmin@ig.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-08-12T10:09:58.959984Z"
+        },
+        {
+          "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+          "email": "covaciu.gnm@gmail.com",
+          "provider": "gmail",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-10-04T17:28:13.748658Z"
+        },
+        {
+          "id": "shared:cesiro.horeca@gmail.com",
+          "email": "cesiro.horeca@gmail.com",
+          "provider": "",
+          "permission": "team",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:dancorproiectsrl@gmail.com",
+          "email": "dancorproiectsrl@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:3dspacearideit@gmail.com",
+          "email": "3dspacearideit@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:3dspacearide@gmail.com",
+          "email": "3dspacearide@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 2949
+}
+````
+
+## Asistent
+
+Trei luni de preaviz nu garantează aici rezilierea: polița indică expirarea la 2036.01.01. O notificare nouă din 2026.10.07 nu lasă trei luni până la 2027.01.01; data alternativă 2027.01.08 nu creează singură un drept de încetare.
+
+Legea permite, în anumite condiții de neplată, suspendarea obligației de despăgubire fără dispariția automată a primelor datorate. Cer DONAU dovada condițiilor aplicate și confirmarea scrisă a sumei și datei de la care plata ar restabili acoperirea.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-70b56c1e-73f1-465d-81e0-332ee5ddc25e",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn6view0",
+      "snippet": "Total lines: 2601",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn6view1",
+      "snippet": "Total lines: 2601",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn6view2",
+      "snippet": "Total lines: 2601",
+      "title": "RIS - Versicherungsvertragsgesetz - Bundesrecht konsolidiert, Fassung vom 07.10.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn6view3",
+      "snippet": "Total lines: 106",
+      "title": "RIS - Versicherungsvertragsgesetz § 70 - Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn6view4",
+      "snippet": "Total lines: 113",
+      "title": "RIS - Versicherungsvertragsgesetz § 69 - Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn6view5",
+      "snippet": "Total lines: 147",
+      "title": "Microsoft Word - jjt_19541117_ogh0002_0030ob00722_5400000_000.rtf",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-58e07c52-2857-4398-8031-0210d04c686c",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 -c \\\"from pathlib import Path; import fitz,json; r=Path.cwd(); p=r/'05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf'; d=fitz.open(p); print(d[0].get_text()[:2200]); print([(i+1,pg.get_text()) for i,pg in enumerate(d) if '1000K – LAUFZEITVORTEIL' in pg.get_text() or '1000K - LAUFZEITVORTEIL' in pg.get_text()][:1])\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "70537",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 -c \"from pathlib import Path; import fitz,json; r=Path.cwd(); p=r/'05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf'; d=fitz.open(p); print(d[0].get_text()[:2200]); print([(i+1,pg.get_text()) for i,pg in enumerate(d) if '1000K – LAUFZEITVORTEIL' in pg.get_text() or '1000K - LAUFZEITVORTEIL' in pg.get_text()][:1])\""
+    }
+  ],
+  "aggregatedOutput": " \r\n \r\n \r\n \r\nWohnhausversicherung \r\n \r\nLandesdirektion Wien, Schottenring 15, 1010 Wien, Telefon: +43 50330 72149 \r\nServiceline: +43 50 330 330, donau@donauversicherung.at, donauversicherung.at \r\nCreditor-ID: AT34ZZZ00000003107, IBAN: AT67 2011 1403 1004 1414, BIC: GIBAATWWXXX \r\n \r\nDONAU Versicherung AG Vienna Insurance Group \r\nSitz in 1010 Wien, Schottenring 15, FN 32002m, Handelsgericht Wien \r\n \r\nSeite 1 von 11 \r\n11400070586369 \r\n \r\nRahmenvertragsnummer: 2900010498 \r\n \r\n \r\nSehr geehrte Damen und Herren! \r\nMit Ausstellung dieser Polizze bestätigen wir die aktuellen Änderungen zu diesem Versicherungsvertrag. \r\nDONAU Wohnhausversicherung \r\n \r\nAusstellungsgrund \r\n \r\nErsatzvertrag \r\n \r\nVertragsdauer \r\n \r\nÄnderung ab: 01.01.2026 0:00 Uhr, Ablauf: 01.01.2036 0:00 Uhr, Hauptfälligkeit: 01.01. \r\n \r\nVersicherungsnehmerIn \r\n \r\nSchallergasse 35 Immobilienbesitz GmbH & Co KG \r\nc/o v.d. Hofhans Immobilienmanagement GmbH, Albertgasse 32/9, 1080 Wien \r\n \r\nVersicherungsort \r\n \r\nSchallergasse 35, 1120 Wien \r\n \r\n \r\nSachversicherung \r\nohne Wertanpassung \r\nVersicherte Objekte (Beträge in EUR) \r\n \r\nGEBÄUDE: \r\nWohngebäude \r\nVermittelt durch \r\nSeipt & Partner Versicherungsmakler GmbH \r\noffice@seipt.at \r\n \r\n03.02.2026 \r\n \r\nPolizze Nr. 2044001194 / bisherige Polizze Nr. X712261 \r\n \r\n \r\nSchallergasse 35 Immobilienbesitz GmbH & \r\nCo KG \r\nv.d. Hofhans Immobilienmanagement GmbH \r\nAlbertgasse 32/9 \r\n1080 Wien \r\nRetouren an Postfach 330, 1375 Wien \r\n \r\n \r\n\r\n[(12, '03.02.2026 \\n \\n \\n \\n \\nKlauseln zur Polizze Nr. 2044001194 \\nSeite 1 von 22 \\nPersonenbezogene Bezeichnungen in diesem Dokument beziehen sich auf alle Geschlechter in gleicher Weise. \\n1000K – LAUFZEITVORTEIL \\nAufgrund der vereinbarten Vertragsdauer entstehen kalkulatorische Kostenvorteile, die in der vereinbarten Prämie bereits \\nberücksichtigt sind. \\n \\nBei vorzeitiger Auflösung des Vertrages entfällt die Grundlage für diese Prämienberechnung. Der Versicherungsnehmer ist daher zur \\nZahlung einer Nachtragsprämie verpflichtet, die sich wie folgt berechnet: \\nVor Vollendung von zwei Jahren ab Vertragsbeginn beträgt die Nachtragsprämie 80 % einer Jahresprämie. Mit der Vollendung eines \\njeden weiteren Jahres verringert sich dieser Prozentsatz jeweils um 10 Prozentpunkte, sodass die Nachtragsprämie nach Vollendung \\ndes zweiten Jahres 70 % und nach Vollendung des dritten Jahres 60 % einer Jahresprämie beträgt usw. Als Berechnungsgrundlage \\nwird immer die zum Auflösungszeitpunkt nach Maßgabe des Vertrags aktuelle Jahresprämie herangezogen. \\nEine Nachtragsprämie ist nicht zu bezahlen, wenn der Versicherer den Vertrag nach Eintritt eines Versicherungsfalles kündigt. \\n1002K – EINSCHLUSS VON SCHÄDEN DURCH TERRORAKTE \\n1. EINSCHLUSS VON SCHÄDEN DURCH TERRORAKTE \\nIn Abänderung der vereinbarten „Allgemeinen und Besonderen Bedingungen“ sind zusätzlich versichert – sofern sie überhaupt \\nGegenstand des Versicherungsvertrages sind – ohne Rücksicht auf andere mitwirkende Ursachen oder Ereignisse, die zur gleichen \\nZeit oder in einer vom Schaden abweichenden Reihenfolge stattfinden, jegliche Art von Schäden, Verlusten, Kosten oder \\nAufwendungen, die direkt oder indirekt verursacht werden von, sich ergeben aus oder im Zusammenhang stehen mit jeglicher Art von \\nTerrorakten. \\nVom Versicherungsschutz erfasst sind – sofern sie überhaupt Gegenstand des Versicherungsvertrages sind – auch jegliche Art von \\nSchäden, Verlusten, Kosten oder Aufwendungen, die direkt oder indirekt verursacht werden von, sich ergeben aus oder im \\nZusammenhang stehen mit Handlungen, die zur Eindämmung, Vorbeugung oder Unterdrückung von Terrorakten ergriffen werden \\noder sich in irgendeiner Weise darauf beziehen. \\nTerrorakte sind jegliche Handlungen von Personen oder Personengruppen zur Erreichung politischer, ethnischer, religiöser, \\nideologischer oder ähnlicher Ziele, die geeignet sind, Angst oder Schrecken in der Bevölkerung oder Teilen der Bevölkerung zu \\nverbreiten und dadurch auf eine Regierung oder staatliche Einrichtung Einfluss zu nehmen. \\nIst der Versicherungsnehmer Unternehmer im Sinne des Konsumentenschutzgesetzes, so hat er nachzuweisen, dass ein Schaden \\nweder unmittelbar noch mittelbar im Zusammenhang mit einem Terrorakt steht. \\n \\nAusgeschlossene Schäden \\nIm Rahmen dieser „Besonderen Bedingung“ besteht, unabhängig vom Gegenstand des Versicherungsvertrages, jedenfalls keine \\nDeckung für \\na) Betriebsunterbrechungsschäden jeglicher Art, die sich aus dem Einschluss von Rückwirkungsschäden für Abnehmer- und \\nZuliefererrisiken oder aus Zugangsbeschränkungen ergeben; \\nb) Schäden, Verluste, Kosten oder Aufwendungen, die direkt oder indirekt durch einen Ausfall von Versorgungsleistungen (z. B. \\nStrom, Gas, Wasser, Telekommunikation) verursacht werden; \\nc) Schäden, Verluste, Kosten oder Aufwendungen, die direkt oder indirekt durch biologische oder chemische Kontamination \\nverursacht werden; \\nUnter Kontamination ist die Verseuchung, Vergiftung, Verhinderung und/oder Einschränkung der Nutzung von Sachen aufgrund der \\nAuswirkungen chemischer und/oder biologischer Substanzen zu verstehen. \\nd) Schäden im Rahmen einer Transport- oder Kunstgegenständeversicherung. \\n2. UMFANG DES EINSCHLUSSES VON SCHÄDEN DURCH TERRORAKTE \\nSchäden durch Terrorakte sind nach Maßgabe der nachfolgenden Bestimmungen eingeschlossen. \\nDas Risiko von Schäden durch Terrorakte wird vom Versicherer in den Österreichischen Versicherungspool zur Deckung von \\nTerrorrisiken eingebracht, dessen Mitglieder ausschließlich entsprechend ihrem Anteil haften. \\n \\nÖrtlicher Geltungsbereich \\nDer Versicherungsschutz erstreckt sich auf die in Österreich gelegenen versicherten Risiken. \\n \\nEntschädigungshöchstgrenze \\nSchäden durch Terrorakte sind pro Kalenderjahr bis zur Höhe der Gesamtversicherungssumme (gilt für Sach- und \\nBetriebsunterbrechungsversicherung zusammen sowie sämtliche Nebenkosten wie z. B. Abbruch- und Aufräumungskosten, \\nBewegungs- und Schutzkosten, Deponiekosten und Mehrkosten bei Anfall von gefährlichem Abfall), ist diese jedoch höher als  \\nEUR 5.000.000,–, dann nur bis zu diesem Betrag, versichert. \\n')]\r\n",
+  "exitCode": 0,
+  "durationMs": 614
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-ea301f0d-1063-4f2a-a2db-16581ea98ac9",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_emails",
+  "status": "completed",
+  "arguments": {
+    "sender": "donauversicherung.at",
+    "date_from": "2026-10-06",
+    "limit": 20
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_emails"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"2c273256-a0bf-408b-bb22-09718372e888\",\n      \"account_email\": \"office@ac-wohnart.at\",\n      \"subject\": \"AW: Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052\",\n      \"from_name\": \"Loschy Cornelia\",\n      \"from_address\": \"c.loschy@donauversicherung.at\",\n      \"to\": [\n        \"office@ac-wohnart.at\"\n      ],\n      \"received_at\": \"2026-10-06T13:25:34Z\",\n      \"snippet\": \"Sehr geehrter Herr Covaciu,\\r\\n\\r\\nwir beziehen uns auf Ihr Schreiben vom 01.10.2026 und nehmen dazu wie\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"1: To respond\",\n        \"99: Important\"\n      ],\n      \"folder\": \"Loschy Cornelia\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"Memoformat.pdf\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 20,\n  \"offset\": 0\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "2c273256-a0bf-408b-bb22-09718372e888",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052",
+          "from_name": "Loschy Cornelia",
+          "from_address": "c.loschy@donauversicherung.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-10-06T13:25:34Z",
+          "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nwir beziehen uns auf Ihr Schreiben vom 01.10.2026 und nehmen dazu wie",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Loschy Cornelia",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Memoformat.pdf"
+          ]
+        }
+      ],
+      "total": 1,
+      "limit": 20,
+      "offset": 0
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 625
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-788931fa-553b-43e9-be7f-f47b754eb3a8",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 -c \\\"from pathlib import Path; import fitz; r=Path.cwd(); p=r/'08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027';p.mkdir(parents=True,exist_ok=True); tasks=[('05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf',[0,6], 'polita curenta'),('05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf',[0,11], 'polita istorica')]; [(d[i].get_pixmap(matrix=fitz.Matrix(1.1,1.1)).save(p/('2026.10.07 '+name+' p'+str(i+1)+'.png'))) for filename,pages,name in tasks for d in [fitz.open(r/filename)] for i in pages]; print('Pagini originale salvate pentru verificare vizuala')\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "21779",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 -c \"from pathlib import Path; import fitz; r=Path.cwd(); p=r/'08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027';p.mkdir(parents=True,exist_ok=True); tasks=[('05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf',[0,6], 'polita curenta'),('05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf',[0,11], 'polita istorica')]; [(d[i].get_pixmap(matrix=fitz.Matrix(1.1,1.1)).save(p/('2026.10.07 '+name+' p'+str(i+1)+'.png'))) for filename,pages,name in tasks for d in [fitz.open(r/filename)] for i in pages]; print('Pagini originale salvate pentru verificare vizuala')\""
+    }
+  ],
+  "aggregatedOutput": "Pagini originale salvate pentru verificare vizuala\r\n",
+  "exitCode": 0,
+  "durationMs": 359
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-12c9e901-3ff6-4c73-aad3-f8e1f7e3aba2",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita curenta p1.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-702378c8-249b-4c78-aa82-e2510a6ba712",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita curenta p7.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-1bb424cb-7eb8-4537-bcef-db752aad36c1",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita istorica p1.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-839dcbd2-077c-4a46-a8c0-37e615e466fd",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita istorica p12.png"
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-d781dd06-d625-44c7-bba8-8c47a2055aec",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_create_draft",
+  "status": "completed",
+  "arguments": {
+    "account_email": "office@ac-wohnart.at",
+    "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "reply_to_email_id": "2c273256-a0bf-408b-bb22-09718372e888",
+    "to": [
+      "c.loschy@donauversicherung.at",
+      "donau@donauversicherung.at"
+    ],
+    "cc": [
+      "office@maritczak.at",
+      "s.gruber@commerz-inkasso.at"
+    ],
+    "include_original_attachments": false,
+    "subject": "Polizze 2044001194 / AZ 2616052 – Beendigung 2027.01.01, hilfsweise 2027.01.08; Abrechnung und Wiederherstellung der Deckung",
+    "body": "Sehr geehrte Frau Loschy,\nsehr geehrte Damen und Herren,\n\nwir nehmen Bezug auf Ihre Nachricht vom 2026.10.06 zur Polizze 2044001194, Rahmenvertrag 2900010498, und zum Inkasso-Aktenzeichen 2616052.\n\nBeendigung zum Jahreswechsel\n\nWir ersuchen erneut um eine einvernehmliche Beendigung des gesamten Versicherungsvertrags mit Wirkung zum 2027.01.01, 00:00 Uhr. Falls Sie diesem Termin nicht zustimmen, ersuchen wir hilfsweise um eine einvernehmliche Beendigung zum 2027.01.08, 00:00 Uhr.\n\nUnabhängig von diesem Ersuchen halten wir unsere Kündigungserklärung vom 2026.10.01 aufrecht und kündigen vorsorglich nochmals zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin. Bitte bestätigen Sie schriftlich den konkreten Beendigungszeitpunkt und die von Ihnen verlangte Form.\n\nWir behaupten nicht, dass eine dreimonatige Frist allein einen beliebigen Beendigungstermin eröffnet. Bitte prüfen Sie jedoch ausdrücklich beide vorgeschlagenen Termine und legen Sie bei Ablehnung die maßgeblichen Vertragsbestimmungen und die rechtliche Begründung offen.\n\nNachweis der Bindung bis 2036\n\nDie uns vorliegende Änderungspolizze nennt den Ablauf 2036.01.01. Auch die Polizze vom 2026.02.03 für die frühere Eigentümerin nennt dieses Datum. Bitte übermitteln Sie den zugrunde liegenden Antrag, die Annahmeerklärung, die Laufzeitvereinbarung, den vollständigen Rahmenvertrag und die einschlägigen Bedingungen.\n\nBitte erläutern Sie, worauf die Bindung der A&C Wohnart Immobilien GmbH bis 2036 beruht, ob ein früheres vertragliches Kündigungsrecht besteht und wie unsere früheren Erklärungen sowie das Erwerberkündigungsrecht nach §§ 69 und 70 VersVG geprüft wurden. Bitte nennen Sie dabei die von Ihnen zugrunde gelegten Erwerbs- und Kenntnisdaten.\n\nAbrechnung bis zur gewünschten Beendigung\n\nBitte übermitteln Sie eine vollständige schriftliche Kontenaufstellung zum heutigen Stand sowie zwei getrennte Berechnungen für die Beendigung zum 2027.01.01 und zum 2027.01.08.\n\nDie Aufstellung soll jeweils enthalten:\n- sämtliche Prämien nach Versicherungszweig, Zeitraum, Fälligkeit und Versicherungssteuer;\n- die bereits verlangte Prämie für 2026.10.01–2027.01.01, ohne Doppelzählung;\n- jede verbuchte Zahlung, Gutschrift und allfällige Prämienreduktion;\n- Zinsen mit Kapital, Zinssatz und Berechnungszeitraum;\n- Mahn-, Inkasso- und sonstige Kosten mit Einzelbegründung;\n- den Endsaldo und eine taggenaue Berechnung einer etwaigen Restprämie, soweit § 40 VersVG bei tatsächlicher Beendigung anzuwenden ist.\n\nDie bisher kommunizierten EUR 5.326,15 sind damit nicht als unstreitiger Saldo anerkannt. Bitte weisen Sie etwaige zusätzliche Forderungen aus vorzeitiger Beendigung, insbesondere nach Klausel 1000K „Laufzeitvorteil“, getrennt aus und begründen Sie deren Rechtsgrundlage, Berechnungsbasis und Anwendbarkeit.\n\nFür die gewünschte einvernehmliche Lösung ersuchen wir ausdrücklich um Verzicht auf eine Nachtragsprämie, Dauerrabatt-Rückforderung oder sonstige Beendigungsgebühr. Ein allfälliger Verzicht soll Bestandteil der schriftlichen Beendigungsvereinbarung sein.\n\nFehlender Versicherungsschutz und Wirkung einer Zahlung\n\nIhre Aussage, dass derzeit kein Versicherungsschutz besteht, während weiterhin Prämien verlangt werden, bedarf einer konkreten Erklärung. Bitte unterscheiden Sie zwischen dem Fortbestand des Vertrags, einer Leistungsfreiheit wegen Prämienverzugs und einer tatsächlich bereits erklärten Vertragsbeendigung.\n\nBitte teilen Sie schriftlich mit:\n- seit welchem genauen Zeitpunkt und für welche Versicherungszweige Sie Leistungsfreiheit geltend machen;\n- welche qualifizierte Mahnung nach § 39 Abs. 1 VersVG Sie heranziehen, einschließlich Frist, Belehrung und Zugangsnachweis;\n- ob eine Kündigung durch DONAU erklärt wurde, und gegebenenfalls wann sie wirksam geworden sein soll;\n- welchen exakt bezifferten Prämienbetrag wir zahlen müssten, damit Versicherungsschutz wieder besteht;\n- an welchen Empfänger und mit welcher Referenz dieser Betrag zu zahlen und wie er verbindlich auf die Prämien zu verbuchen ist;\n- ab welchem genauen Datum und welcher Uhrzeit nach Zahlungseingang welche Deckung wieder besteht, einschließlich etwaiger zusätzlicher Voraussetzungen;\n- ob vergangene Zeiträume weiterhin ungedeckt bleiben und aus welchem konkreten Grund für diese Zeiträume Prämien verlangt werden.\n\n§ 39 Abs. 4 VersVG sieht vor, dass die Nichtzahlung von Zinsen oder Kosten die Rechtsfolgen der Absätze 1 bis 3 nicht auslöst. Bitte erläutern Sie daher gesondert, ob die Begleichung der tatsächlich rückständigen Prämien bei weiterhin streitigen Nebenforderungen die Deckung wiederherstellt, und bestätigen Sie die dafür erforderliche Zahlungszuordnung.\n\nWir setzen weder eine rückwirkende Deckung noch eine automatische Beendigung durch Zahlung voraus. Gerade diese Folgen wollen wir vor einer Zahlungsentscheidung verbindlich klären.\n\nPrämienanpassung und zeitnahe Antwort\n\nDie Anfrage zur Prämienanpassung bleibt aufrecht. Bitte bestätigen Sie, ob weiterhin ausschließlich die von Herrn Pfeiffer am 2026.07.14 genannten Unterlagen fehlen, und erläutern Sie die mögliche Reduktion sowie deren frühestmöglichen Beginn unter Berücksichtigung von § 41a VersVG. Diese Unterlagen werden mit dieser Nachricht nicht als bereits vorgelegt bezeichnet.\n\nWegen des ungeklärten Versicherungsschutzes und des mitgeteilten Inkasso-Termins 2026.10.12 bitten wir um Ihre schriftliche Antwort bis 2026.10.09, 12:00 Uhr Wiener Zeit, zumindest vorab zum Deckungsstatus und zum Betrag für eine Wiederherstellung der Deckung.\n\nBitte teilen Sie zugleich mit, ob Sie bis zur nachvollziehbaren Klärung weitere Inkasso-Maßnahmen und zusätzliche Kosten aussetzen. Eine solche Aussetzung wird von uns nicht als bereits zugesagt angesehen.\n\nDiese Erklärung enthält weder ein Anerkenntnis der Höhe oder Berechtigung sämtlicher Forderungen noch einen Verzicht auf Einwendungen. Bitte übermitteln Sie die Antwort und Unterlagen als Text beziehungsweise PDF an office@ac-wohnart.at und die angeführten CC-Empfänger.\n\nMit freundlichen Grüßen"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_create_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"aa653a96-7eee-4133-a41d-5892ea79788d\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n  \"account_email\": \"office@ac-wohnart.at\",\n  \"to\": [\n    \"c.loschy@donauversicherung.at\",\n    \"donau@donauversicherung.at\"\n  ],\n  \"cc\": [\n    \"office@maritczak.at\",\n    \"s.gruber@commerz-inkasso.at\"\n  ],\n  \"bcc\": [],\n  \"subject\": \"Polizze 2044001194 / AZ 2616052 – Beendigung 2027.01.01, hilfsweise 2027.01.08; Abrechnung und Wiederherstellung der Deckung\",\n  \"body\": \"Sehr geehrte Frau Loschy,\\n\\nsehr geehrte Damen und Herren,\\n\\nwir nehmen Bezug auf Ihre Nachricht vom 2026.10.06 zur Polizze 2044001194, Rahmenvertrag 2900010498, und zum Inkasso-Aktenzeichen 2616052.\\n\\nBeendigung zum Jahreswechsel\\n\\nWir ersuchen erneut um eine einvernehmliche Beendigung des gesamten Versicherungsvertrags mit Wirkung zum 2027.01.01, 00:00 Uhr. Falls Sie diesem Termin nicht zustimmen, ersuchen wir hilfsweise um eine einvernehmliche Beendigung zum 2027.01.08, 00:00 Uhr.\\n\\nUnabhängig von diesem Ersuchen halten wir unsere Kündigungserklärung vom 2026.10.01 aufrecht und kündigen vorsorglich nochmals zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin. Bitte bestätigen Sie schriftlich den konkreten Beendigungszeitpunkt und die von Ihnen verlangte Form.\\n\\nWir behaupten nicht, dass eine dreimonatige Frist allein einen beliebigen Beendigungstermin eröffnet. Bitte prüfen Sie jedoch ausdrücklich beide vorgeschlagenen Termine und legen Sie bei Ablehnung die maßgeblichen Vertragsbestimmungen und die rechtliche Begründung offen.\\n\\nNachweis der Bindung bis 2036\\n\\nDie uns vorliegende Änderungspolizze nennt den Ablauf 2036.01.01. Auch die Polizze vom 2026.02.03 für die frühere Eigentümerin nennt dieses Datum. Bitte übermitteln Sie den zugrunde liegenden Antrag, die Annahmeerklärung, die Laufzeitvereinbarung, den vollständigen Rahmenvertrag und die einschlägigen Bedingungen.\\n\\nBitte erläutern Sie, worauf die Bindung der A&C Wohnart Immobilien GmbH bis 2036 beruht, ob ein früheres vertragliches Kündigungsrecht besteht und wie unsere früheren Erklärungen sowie das Erwerberkündigungsrecht nach §§ 69 und 70 VersVG geprüft wurden. Bitte nennen Sie dabei die von Ihnen zugrunde gelegten Erwerbs- und Kenntnisdaten.\\n\\nAbrechnung bis zur gewünschten Beendigung\\n\\nBitte übermitteln Sie eine vollständige schriftliche Kontenaufstellung zum heutigen Stand sowie zwei getrennte Berechnungen für die Beendigung zum 2027.01.01 und zum 2027.01.08.\\n\\nDie Aufstellung soll jeweils enthalten:\\n- sämtliche Prämien nach Versicherungszweig, Zeitraum, Fälligkeit und Versicherungssteuer;\\n- die bereits verlangte Prämie für 2026.10.01–2027.01.01, ohne Doppelzählung;\\n- jede verbuchte Zahlung, Gutschrift und allfällige Prämienreduktion;\\n- Zinsen mit Kapital, Zinssatz und Berechnungszeitraum;\\n- Mahn-, Inkasso- und sonstige Kosten mit Einzelbegründung;\\n- den Endsaldo und eine taggenaue Berechnung einer etwaigen Restprämie, soweit § 40 VersVG bei tatsächlicher Beendigung anzuwenden ist.\\n\\nDie bisher kommunizierten EUR 5.326,15 sind damit nicht als unstreitiger Saldo anerkannt. Bitte weisen Sie etwaige zusätzliche Forderungen aus vorzeitiger Beendigung, insbesondere nach Klausel 1000K „Laufzeitvorteil“, getrennt aus und begründen Sie deren Rechtsgrundlage, Berechnungsbasis und Anwendbarkeit.\\n\\nFür die gewünschte einvernehmliche Lösung ersuchen wir ausdrücklich um Verzicht auf eine Nachtragsprämie, Dauerrabatt-Rückforderung oder sonstige Beendigungsgebühr. Ein allfälliger Verzicht soll Bestandteil der schriftlichen Beendigungsvereinbarung sein.\\n\\nFehlender Versicherungsschutz und Wirkung einer Zahlung\\n\\nIhre Aussage, dass derzeit kein Versicherungsschutz besteht, während weiterhin Prämien verlangt werden, bedarf einer konkreten Erklärung. Bitte unterscheiden Sie zwischen dem Fortbestand des Vertrags, einer Leistungsfreiheit wegen Prämienverzugs und einer tatsächlich bereits erklärten Vertragsbeendigung.\\n\\nBitte teilen Sie schriftlich mit:\\n- seit welchem genauen Zeitpunkt und für welche Versicherungszweige Sie Leistungsfreiheit geltend machen;\\n- welche qualifizierte Mahnung nach § 39 Abs. 1 VersVG Sie heranziehen, einschließlich Frist, Belehrung und Zugangsnachweis;\\n- ob eine Kündigung durch DONAU erklärt wurde, und gegebenenfalls wann sie wirksam geworden sein soll;\\n- welchen exakt bezifferten Prämienbetrag wir zahlen müssten, damit Versicherungsschutz wieder besteht;\\n- an welchen Empfänger und mit welcher Referenz dieser Betrag zu zahlen und wie er verbindlich auf die Prämien zu verbuchen ist;\\n- ab welchem genauen Datum und welcher Uhrzeit nach Zahlungseingang welche Deckung wieder besteht, einschließlich etwaiger zusätzlicher Voraussetzungen;\\n- ob vergangene Zeiträume weiterhin ungedeckt bleiben und aus welchem konkreten Grund für diese Zeiträume Prämien verlangt werden.\\n\\n§ 39 Abs. 4 VersVG sieht vor, dass die Nichtzahlung von Zinsen oder Kosten die Rechtsfolgen der Absätze 1 bis 3 nicht auslöst. Bitte erläutern Sie daher gesondert, ob die Begleichung der tatsächlich rückständigen Prämien bei weiterhin streitigen Nebenforderungen die Deckung wiederherstellt, und bestätigen Sie die dafür erforderliche Zahlungszuordnung.\\n\\nWir setzen weder eine rückwirkende Deckung noch eine automatische Beendigung durch Zahlung voraus. Gerade diese Folgen wollen wir vor einer Zahlungsentscheidung verbindlich klären.\\n\\nPrämienanpassung und zeitnahe Antwort\\n\\nDie Anfrage zur Prämienanpassung bleibt aufrecht. Bitte bestätigen Sie, ob weiterhin ausschließlich die von Herrn Pfeiffer am 2026.07.14 genannten Unterlagen fehlen, und erläutern Sie die mögliche Reduktion sowie deren frühestmöglichen Beginn unter Berücksichtigung von § 41a VersVG. Diese Unterlagen werden mit dieser Nachricht nicht als bereits vorgelegt bezeichnet.\\n\\nWegen des ungeklärten Versicherungsschutzes und des mitgeteilten Inkasso-Termins 2026.10.12 bitten wir um Ihre schriftliche Antwort bis 2026.10.09, 12:00 Uhr Wiener Zeit, zumindest vorab zum Deckungsstatus und zum Betrag für eine Wiederherstellung der Deckung.\\n\\nBitte teilen Sie zugleich mit, ob Sie bis zur nachvollziehbaren Klärung weitere Inkasso-Maßnahmen und zusätzliche Kosten aussetzen. Eine solche Aussetzung wird von uns nicht als bereits zugesagt angesehen.\\n\\nDiese Erklärung enthält weder ein Anerkenntnis der Höhe oder Berechtigung sämtlicher Forderungen noch einen Verzicht auf Einwendungen. Bitte übermitteln Sie die Antwort und Unterlagen als Text beziehungsweise PDF an office@ac-wohnart.at und die angeführten CC-Empfänger.\\n\\nMit freundlichen Grüßen\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"2c273256-a0bf-408b-bb22-09718372e888\",\n  \"created_at\": \"2026-10-07T08:38:07.673032Z\",\n  \"updated_at\": \"2026-10-07T08:38:07.673032Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "aa653a96-7eee-4133-a41d-5892ea79788d",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+      "account_email": "office@ac-wohnart.at",
+      "to": [
+        "c.loschy@donauversicherung.at",
+        "donau@donauversicherung.at"
+      ],
+      "cc": [
+        "office@maritczak.at",
+        "s.gruber@commerz-inkasso.at"
+      ],
+      "bcc": [],
+      "subject": "Polizze 2044001194 / AZ 2616052 – Beendigung 2027.01.01, hilfsweise 2027.01.08; Abrechnung und Wiederherstellung der Deckung",
+      "body": "Sehr geehrte Frau Loschy,\n\nsehr geehrte Damen und Herren,\n\nwir nehmen Bezug auf Ihre Nachricht vom 2026.10.06 zur Polizze 2044001194, Rahmenvertrag 2900010498, und zum Inkasso-Aktenzeichen 2616052.\n\nBeendigung zum Jahreswechsel\n\nWir ersuchen erneut um eine einvernehmliche Beendigung des gesamten Versicherungsvertrags mit Wirkung zum 2027.01.01, 00:00 Uhr. Falls Sie diesem Termin nicht zustimmen, ersuchen wir hilfsweise um eine einvernehmliche Beendigung zum 2027.01.08, 00:00 Uhr.\n\nUnabhängig von diesem Ersuchen halten wir unsere Kündigungserklärung vom 2026.10.01 aufrecht und kündigen vorsorglich nochmals zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin. Bitte bestätigen Sie schriftlich den konkreten Beendigungszeitpunkt und die von Ihnen verlangte Form.\n\nWir behaupten nicht, dass eine dreimonatige Frist allein einen beliebigen Beendigungstermin eröffnet. Bitte prüfen Sie jedoch ausdrücklich beide vorgeschlagenen Termine und legen Sie bei Ablehnung die maßgeblichen Vertragsbestimmungen und die rechtliche Begründung offen.\n\nNachweis der Bindung bis 2036\n\nDie uns vorliegende Änderungspolizze nennt den Ablauf 2036.01.01. Auch die Polizze vom 2026.02.03 für die frühere Eigentümerin nennt dieses Datum. Bitte übermitteln Sie den zugrunde liegenden Antrag, die Annahmeerklärung, die Laufzeitvereinbarung, den vollständigen Rahmenvertrag und die einschlägigen Bedingungen.\n\nBitte erläutern Sie, worauf die Bindung der A&C Wohnart Immobilien GmbH bis 2036 beruht, ob ein früheres vertragliches Kündigungsrecht besteht und wie unsere früheren Erklärungen sowie das Erwerberkündigungsrecht nach §§ 69 und 70 VersVG geprüft wurden. Bitte nennen Sie dabei die von Ihnen zugrunde gelegten Erwerbs- und Kenntnisdaten.\n\nAbrechnung bis zur gewünschten Beendigung\n\nBitte übermitteln Sie eine vollständige schriftliche Kontenaufstellung zum heutigen Stand sowie zwei getrennte Berechnungen für die Beendigung zum 2027.01.01 und zum 2027.01.08.\n\nDie Aufstellung soll jeweils enthalten:\n- sämtliche Prämien nach Versicherungszweig, Zeitraum, Fälligkeit und Versicherungssteuer;\n- die bereits verlangte Prämie für 2026.10.01–2027.01.01, ohne Doppelzählung;\n- jede verbuchte Zahlung, Gutschrift und allfällige Prämienreduktion;\n- Zinsen mit Kapital, Zinssatz und Berechnungszeitraum;\n- Mahn-, Inkasso- und sonstige Kosten mit Einzelbegründung;\n- den Endsaldo und eine taggenaue Berechnung einer etwaigen Restprämie, soweit § 40 VersVG bei tatsächlicher Beendigung anzuwenden ist.\n\nDie bisher kommunizierten EUR 5.326,15 sind damit nicht als unstreitiger Saldo anerkannt. Bitte weisen Sie etwaige zusätzliche Forderungen aus vorzeitiger Beendigung, insbesondere nach Klausel 1000K „Laufzeitvorteil“, getrennt aus und begründen Sie deren Rechtsgrundlage, Berechnungsbasis und Anwendbarkeit.\n\nFür die gewünschte einvernehmliche Lösung ersuchen wir ausdrücklich um Verzicht auf eine Nachtragsprämie, Dauerrabatt-Rückforderung oder sonstige Beendigungsgebühr. Ein allfälliger Verzicht soll Bestandteil der schriftlichen Beendigungsvereinbarung sein.\n\nFehlender Versicherungsschutz und Wirkung einer Zahlung\n\nIhre Aussage, dass derzeit kein Versicherungsschutz besteht, während weiterhin Prämien verlangt werden, bedarf einer konkreten Erklärung. Bitte unterscheiden Sie zwischen dem Fortbestand des Vertrags, einer Leistungsfreiheit wegen Prämienverzugs und einer tatsächlich bereits erklärten Vertragsbeendigung.\n\nBitte teilen Sie schriftlich mit:\n- seit welchem genauen Zeitpunkt und für welche Versicherungszweige Sie Leistungsfreiheit geltend machen;\n- welche qualifizierte Mahnung nach § 39 Abs. 1 VersVG Sie heranziehen, einschließlich Frist, Belehrung und Zugangsnachweis;\n- ob eine Kündigung durch DONAU erklärt wurde, und gegebenenfalls wann sie wirksam geworden sein soll;\n- welchen exakt bezifferten Prämienbetrag wir zahlen müssten, damit Versicherungsschutz wieder besteht;\n- an welchen Empfänger und mit welcher Referenz dieser Betrag zu zahlen und wie er verbindlich auf die Prämien zu verbuchen ist;\n- ab welchem genauen Datum und welcher Uhrzeit nach Zahlungseingang welche Deckung wieder besteht, einschließlich etwaiger zusätzlicher Voraussetzungen;\n- ob vergangene Zeiträume weiterhin ungedeckt bleiben und aus welchem konkreten Grund für diese Zeiträume Prämien verlangt werden.\n\n§ 39 Abs. 4 VersVG sieht vor, dass die Nichtzahlung von Zinsen oder Kosten die Rechtsfolgen der Absätze 1 bis 3 nicht auslöst. Bitte erläutern Sie daher gesondert, ob die Begleichung der tatsächlich rückständigen Prämien bei weiterhin streitigen Nebenforderungen die Deckung wiederherstellt, und bestätigen Sie die dafür erforderliche Zahlungszuordnung.\n\nWir setzen weder eine rückwirkende Deckung noch eine automatische Beendigung durch Zahlung voraus. Gerade diese Folgen wollen wir vor einer Zahlungsentscheidung verbindlich klären.\n\nPrämienanpassung und zeitnahe Antwort\n\nDie Anfrage zur Prämienanpassung bleibt aufrecht. Bitte bestätigen Sie, ob weiterhin ausschließlich die von Herrn Pfeiffer am 2026.07.14 genannten Unterlagen fehlen, und erläutern Sie die mögliche Reduktion sowie deren frühestmöglichen Beginn unter Berücksichtigung von § 41a VersVG. Diese Unterlagen werden mit dieser Nachricht nicht als bereits vorgelegt bezeichnet.\n\nWegen des ungeklärten Versicherungsschutzes und des mitgeteilten Inkasso-Termins 2026.10.12 bitten wir um Ihre schriftliche Antwort bis 2026.10.09, 12:00 Uhr Wiener Zeit, zumindest vorab zum Deckungsstatus und zum Betrag für eine Wiederherstellung der Deckung.\n\nBitte teilen Sie zugleich mit, ob Sie bis zur nachvollziehbaren Klärung weitere Inkasso-Maßnahmen und zusätzliche Kosten aussetzen. Eine solche Aussetzung wird von uns nicht als bereits zugesagt angesehen.\n\nDiese Erklärung enthält weder ein Anerkenntnis der Höhe oder Berechtigung sämtlicher Forderungen noch einen Verzicht auf Einwendungen. Bitte übermitteln Sie die Antwort und Unterlagen als Text beziehungsweise PDF an office@ac-wohnart.at und die angeführten CC-Empfänger.\n\nMit freundlichen Grüßen\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "2c273256-a0bf-408b-bb22-09718372e888",
+      "created_at": "2026-10-07T08:38:07.673032Z",
+      "updated_at": "2026-10-07T08:38:07.673032Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 984
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-712d17ed-5eb1-4fb3-aa60-ffcc8c68321f",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_draft",
+  "status": "completed",
+  "arguments": {
+    "draft_id": "aa653a96-7eee-4133-a41d-5892ea79788d"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"aa653a96-7eee-4133-a41d-5892ea79788d\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n  \"account_email\": \"office@ac-wohnart.at\",\n  \"to\": [\n    \"c.loschy@donauversicherung.at\",\n    \"donau@donauversicherung.at\"\n  ],\n  \"cc\": [\n    \"office@maritczak.at\",\n    \"s.gruber@commerz-inkasso.at\"\n  ],\n  \"bcc\": [],\n  \"subject\": \"Polizze 2044001194 / AZ 2616052 – Beendigung 2027.01.01, hilfsweise 2027.01.08; Abrechnung und Wiederherstellung der Deckung\",\n  \"body\": \"Sehr geehrte Frau Loschy,\\n\\nsehr geehrte Damen und Herren,\\n\\nwir nehmen Bezug auf Ihre Nachricht vom 2026.10.06 zur Polizze 2044001194, Rahmenvertrag 2900010498, und zum Inkasso-Aktenzeichen 2616052.\\n\\nBeendigung zum Jahreswechsel\\n\\nWir ersuchen erneut um eine einvernehmliche Beendigung des gesamten Versicherungsvertrags mit Wirkung zum 2027.01.01, 00:00 Uhr. Falls Sie diesem Termin nicht zustimmen, ersuchen wir hilfsweise um eine einvernehmliche Beendigung zum 2027.01.08, 00:00 Uhr.\\n\\nUnabhängig von diesem Ersuchen halten wir unsere Kündigungserklärung vom 2026.10.01 aufrecht und kündigen vorsorglich nochmals zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin. Bitte bestätigen Sie schriftlich den konkreten Beendigungszeitpunkt und die von Ihnen verlangte Form.\\n\\nWir behaupten nicht, dass eine dreimonatige Frist allein einen beliebigen Beendigungstermin eröffnet. Bitte prüfen Sie jedoch ausdrücklich beide vorgeschlagenen Termine und legen Sie bei Ablehnung die maßgeblichen Vertragsbestimmungen und die rechtliche Begründung offen.\\n\\nNachweis der Bindung bis 2036\\n\\nDie uns vorliegende Änderungspolizze nennt den Ablauf 2036.01.01. Auch die Polizze vom 2026.02.03 für die frühere Eigentümerin nennt dieses Datum. Bitte übermitteln Sie den zugrunde liegenden Antrag, die Annahmeerklärung, die Laufzeitvereinbarung, den vollständigen Rahmenvertrag und die einschlägigen Bedingungen.\\n\\nBitte erläutern Sie, worauf die Bindung der A&C Wohnart Immobilien GmbH bis 2036 beruht, ob ein früheres vertragliches Kündigungsrecht besteht und wie unsere früheren Erklärungen sowie das Erwerberkündigungsrecht nach §§ 69 und 70 VersVG geprüft wurden. Bitte nennen Sie dabei die von Ihnen zugrunde gelegten Erwerbs- und Kenntnisdaten.\\n\\nAbrechnung bis zur gewünschten Beendigung\\n\\nBitte übermitteln Sie eine vollständige schriftliche Kontenaufstellung zum heutigen Stand sowie zwei getrennte Berechnungen für die Beendigung zum 2027.01.01 und zum 2027.01.08.\\n\\nDie Aufstellung soll jeweils enthalten:\\n- sämtliche Prämien nach Versicherungszweig, Zeitraum, Fälligkeit und Versicherungssteuer;\\n- die bereits verlangte Prämie für 2026.10.01–2027.01.01, ohne Doppelzählung;\\n- jede verbuchte Zahlung, Gutschrift und allfällige Prämienreduktion;\\n- Zinsen mit Kapital, Zinssatz und Berechnungszeitraum;\\n- Mahn-, Inkasso- und sonstige Kosten mit Einzelbegründung;\\n- den Endsaldo und eine taggenaue Berechnung einer etwaigen Restprämie, soweit § 40 VersVG bei tatsächlicher Beendigung anzuwenden ist.\\n\\nDie bisher kommunizierten EUR 5.326,15 sind damit nicht als unstreitiger Saldo anerkannt. Bitte weisen Sie etwaige zusätzliche Forderungen aus vorzeitiger Beendigung, insbesondere nach Klausel 1000K „Laufzeitvorteil“, getrennt aus und begründen Sie deren Rechtsgrundlage, Berechnungsbasis und Anwendbarkeit.\\n\\nFür die gewünschte einvernehmliche Lösung ersuchen wir ausdrücklich um Verzicht auf eine Nachtragsprämie, Dauerrabatt-Rückforderung oder sonstige Beendigungsgebühr. Ein allfälliger Verzicht soll Bestandteil der schriftlichen Beendigungsvereinbarung sein.\\n\\nFehlender Versicherungsschutz und Wirkung einer Zahlung\\n\\nIhre Aussage, dass derzeit kein Versicherungsschutz besteht, während weiterhin Prämien verlangt werden, bedarf einer konkreten Erklärung. Bitte unterscheiden Sie zwischen dem Fortbestand des Vertrags, einer Leistungsfreiheit wegen Prämienverzugs und einer tatsächlich bereits erklärten Vertragsbeendigung.\\n\\nBitte teilen Sie schriftlich mit:\\n- seit welchem genauen Zeitpunkt und für welche Versicherungszweige Sie Leistungsfreiheit geltend machen;\\n- welche qualifizierte Mahnung nach § 39 Abs. 1 VersVG Sie heranziehen, einschließlich Frist, Belehrung und Zugangsnachweis;\\n- ob eine Kündigung durch DONAU erklärt wurde, und gegebenenfalls wann sie wirksam geworden sein soll;\\n- welchen exakt bezifferten Prämienbetrag wir zahlen müssten, damit Versicherungsschutz wieder besteht;\\n- an welchen Empfänger und mit welcher Referenz dieser Betrag zu zahlen und wie er verbindlich auf die Prämien zu verbuchen ist;\\n- ab welchem genauen Datum und welcher Uhrzeit nach Zahlungseingang welche Deckung wieder besteht, einschließlich etwaiger zusätzlicher Voraussetzungen;\\n- ob vergangene Zeiträume weiterhin ungedeckt bleiben und aus welchem konkreten Grund für diese Zeiträume Prämien verlangt werden.\\n\\n§ 39 Abs. 4 VersVG sieht vor, dass die Nichtzahlung von Zinsen oder Kosten die Rechtsfolgen der Absätze 1 bis 3 nicht auslöst. Bitte erläutern Sie daher gesondert, ob die Begleichung der tatsächlich rückständigen Prämien bei weiterhin streitigen Nebenforderungen die Deckung wiederherstellt, und bestätigen Sie die dafür erforderliche Zahlungszuordnung.\\n\\nWir setzen weder eine rückwirkende Deckung noch eine automatische Beendigung durch Zahlung voraus. Gerade diese Folgen wollen wir vor einer Zahlungsentscheidung verbindlich klären.\\n\\nPrämienanpassung und zeitnahe Antwort\\n\\nDie Anfrage zur Prämienanpassung bleibt aufrecht. Bitte bestätigen Sie, ob weiterhin ausschließlich die von Herrn Pfeiffer am 2026.07.14 genannten Unterlagen fehlen, und erläutern Sie die mögliche Reduktion sowie deren frühestmöglichen Beginn unter Berücksichtigung von § 41a VersVG. Diese Unterlagen werden mit dieser Nachricht nicht als bereits vorgelegt bezeichnet.\\n\\nWegen des ungeklärten Versicherungsschutzes und des mitgeteilten Inkasso-Termins 2026.10.12 bitten wir um Ihre schriftliche Antwort bis 2026.10.09, 12:00 Uhr Wiener Zeit, zumindest vorab zum Deckungsstatus und zum Betrag für eine Wiederherstellung der Deckung.\\n\\nBitte teilen Sie zugleich mit, ob Sie bis zur nachvollziehbaren Klärung weitere Inkasso-Maßnahmen und zusätzliche Kosten aussetzen. Eine solche Aussetzung wird von uns nicht als bereits zugesagt angesehen.\\n\\nDiese Erklärung enthält weder ein Anerkenntnis der Höhe oder Berechtigung sämtlicher Forderungen noch einen Verzicht auf Einwendungen. Bitte übermitteln Sie die Antwort und Unterlagen als Text beziehungsweise PDF an office@ac-wohnart.at und die angeführten CC-Empfänger.\\n\\nMit freundlichen Grüßen\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"2c273256-a0bf-408b-bb22-09718372e888\",\n  \"created_at\": \"2026-10-07T08:38:07.673032Z\",\n  \"updated_at\": \"2026-10-07T08:38:07.673032Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "aa653a96-7eee-4133-a41d-5892ea79788d",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+      "account_email": "office@ac-wohnart.at",
+      "to": [
+        "c.loschy@donauversicherung.at",
+        "donau@donauversicherung.at"
+      ],
+      "cc": [
+        "office@maritczak.at",
+        "s.gruber@commerz-inkasso.at"
+      ],
+      "bcc": [],
+      "subject": "Polizze 2044001194 / AZ 2616052 – Beendigung 2027.01.01, hilfsweise 2027.01.08; Abrechnung und Wiederherstellung der Deckung",
+      "body": "Sehr geehrte Frau Loschy,\n\nsehr geehrte Damen und Herren,\n\nwir nehmen Bezug auf Ihre Nachricht vom 2026.10.06 zur Polizze 2044001194, Rahmenvertrag 2900010498, und zum Inkasso-Aktenzeichen 2616052.\n\nBeendigung zum Jahreswechsel\n\nWir ersuchen erneut um eine einvernehmliche Beendigung des gesamten Versicherungsvertrags mit Wirkung zum 2027.01.01, 00:00 Uhr. Falls Sie diesem Termin nicht zustimmen, ersuchen wir hilfsweise um eine einvernehmliche Beendigung zum 2027.01.08, 00:00 Uhr.\n\nUnabhängig von diesem Ersuchen halten wir unsere Kündigungserklärung vom 2026.10.01 aufrecht und kündigen vorsorglich nochmals zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin. Bitte bestätigen Sie schriftlich den konkreten Beendigungszeitpunkt und die von Ihnen verlangte Form.\n\nWir behaupten nicht, dass eine dreimonatige Frist allein einen beliebigen Beendigungstermin eröffnet. Bitte prüfen Sie jedoch ausdrücklich beide vorgeschlagenen Termine und legen Sie bei Ablehnung die maßgeblichen Vertragsbestimmungen und die rechtliche Begründung offen.\n\nNachweis der Bindung bis 2036\n\nDie uns vorliegende Änderungspolizze nennt den Ablauf 2036.01.01. Auch die Polizze vom 2026.02.03 für die frühere Eigentümerin nennt dieses Datum. Bitte übermitteln Sie den zugrunde liegenden Antrag, die Annahmeerklärung, die Laufzeitvereinbarung, den vollständigen Rahmenvertrag und die einschlägigen Bedingungen.\n\nBitte erläutern Sie, worauf die Bindung der A&C Wohnart Immobilien GmbH bis 2036 beruht, ob ein früheres vertragliches Kündigungsrecht besteht und wie unsere früheren Erklärungen sowie das Erwerberkündigungsrecht nach §§ 69 und 70 VersVG geprüft wurden. Bitte nennen Sie dabei die von Ihnen zugrunde gelegten Erwerbs- und Kenntnisdaten.\n\nAbrechnung bis zur gewünschten Beendigung\n\nBitte übermitteln Sie eine vollständige schriftliche Kontenaufstellung zum heutigen Stand sowie zwei getrennte Berechnungen für die Beendigung zum 2027.01.01 und zum 2027.01.08.\n\nDie Aufstellung soll jeweils enthalten:\n- sämtliche Prämien nach Versicherungszweig, Zeitraum, Fälligkeit und Versicherungssteuer;\n- die bereits verlangte Prämie für 2026.10.01–2027.01.01, ohne Doppelzählung;\n- jede verbuchte Zahlung, Gutschrift und allfällige Prämienreduktion;\n- Zinsen mit Kapital, Zinssatz und Berechnungszeitraum;\n- Mahn-, Inkasso- und sonstige Kosten mit Einzelbegründung;\n- den Endsaldo und eine taggenaue Berechnung einer etwaigen Restprämie, soweit § 40 VersVG bei tatsächlicher Beendigung anzuwenden ist.\n\nDie bisher kommunizierten EUR 5.326,15 sind damit nicht als unstreitiger Saldo anerkannt. Bitte weisen Sie etwaige zusätzliche Forderungen aus vorzeitiger Beendigung, insbesondere nach Klausel 1000K „Laufzeitvorteil“, getrennt aus und begründen Sie deren Rechtsgrundlage, Berechnungsbasis und Anwendbarkeit.\n\nFür die gewünschte einvernehmliche Lösung ersuchen wir ausdrücklich um Verzicht auf eine Nachtragsprämie, Dauerrabatt-Rückforderung oder sonstige Beendigungsgebühr. Ein allfälliger Verzicht soll Bestandteil der schriftlichen Beendigungsvereinbarung sein.\n\nFehlender Versicherungsschutz und Wirkung einer Zahlung\n\nIhre Aussage, dass derzeit kein Versicherungsschutz besteht, während weiterhin Prämien verlangt werden, bedarf einer konkreten Erklärung. Bitte unterscheiden Sie zwischen dem Fortbestand des Vertrags, einer Leistungsfreiheit wegen Prämienverzugs und einer tatsächlich bereits erklärten Vertragsbeendigung.\n\nBitte teilen Sie schriftlich mit:\n- seit welchem genauen Zeitpunkt und für welche Versicherungszweige Sie Leistungsfreiheit geltend machen;\n- welche qualifizierte Mahnung nach § 39 Abs. 1 VersVG Sie heranziehen, einschließlich Frist, Belehrung und Zugangsnachweis;\n- ob eine Kündigung durch DONAU erklärt wurde, und gegebenenfalls wann sie wirksam geworden sein soll;\n- welchen exakt bezifferten Prämienbetrag wir zahlen müssten, damit Versicherungsschutz wieder besteht;\n- an welchen Empfänger und mit welcher Referenz dieser Betrag zu zahlen und wie er verbindlich auf die Prämien zu verbuchen ist;\n- ab welchem genauen Datum und welcher Uhrzeit nach Zahlungseingang welche Deckung wieder besteht, einschließlich etwaiger zusätzlicher Voraussetzungen;\n- ob vergangene Zeiträume weiterhin ungedeckt bleiben und aus welchem konkreten Grund für diese Zeiträume Prämien verlangt werden.\n\n§ 39 Abs. 4 VersVG sieht vor, dass die Nichtzahlung von Zinsen oder Kosten die Rechtsfolgen der Absätze 1 bis 3 nicht auslöst. Bitte erläutern Sie daher gesondert, ob die Begleichung der tatsächlich rückständigen Prämien bei weiterhin streitigen Nebenforderungen die Deckung wiederherstellt, und bestätigen Sie die dafür erforderliche Zahlungszuordnung.\n\nWir setzen weder eine rückwirkende Deckung noch eine automatische Beendigung durch Zahlung voraus. Gerade diese Folgen wollen wir vor einer Zahlungsentscheidung verbindlich klären.\n\nPrämienanpassung und zeitnahe Antwort\n\nDie Anfrage zur Prämienanpassung bleibt aufrecht. Bitte bestätigen Sie, ob weiterhin ausschließlich die von Herrn Pfeiffer am 2026.07.14 genannten Unterlagen fehlen, und erläutern Sie die mögliche Reduktion sowie deren frühestmöglichen Beginn unter Berücksichtigung von § 41a VersVG. Diese Unterlagen werden mit dieser Nachricht nicht als bereits vorgelegt bezeichnet.\n\nWegen des ungeklärten Versicherungsschutzes und des mitgeteilten Inkasso-Termins 2026.10.12 bitten wir um Ihre schriftliche Antwort bis 2026.10.09, 12:00 Uhr Wiener Zeit, zumindest vorab zum Deckungsstatus und zum Betrag für eine Wiederherstellung der Deckung.\n\nBitte teilen Sie zugleich mit, ob Sie bis zur nachvollziehbaren Klärung weitere Inkasso-Maßnahmen und zusätzliche Kosten aussetzen. Eine solche Aussetzung wird von uns nicht als bereits zugesagt angesehen.\n\nDiese Erklärung enthält weder ein Anerkenntnis der Höhe oder Berechtigung sämtlicher Forderungen noch einen Verzicht auf Einwendungen. Bitte übermitteln Sie die Antwort und Unterlagen als Text beziehungsweise PDF an office@ac-wohnart.at und die angeführten CC-Empfänger.\n\nMit freundlichen Grüßen\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "2c273256-a0bf-408b-bb22-09718372e888",
+      "created_at": "2026-10-07T08:38:07.673032Z",
+      "updated_at": "2026-10-07T08:38:07.673032Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 585
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-b5cd0216-22ab-46e6-8774-08dc021e059e",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 DRAFT Eva-Mail.json",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "{\n  \"id\": \"aa653a96-7eee-4133-a41d-5892ea79788d\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n  \"account_email\": \"office@ac-wohnart.at\",\n  \"to\": [\n    \"c.loschy@donauversicherung.at\",\n    \"donau@donauversicherung.at\"\n  ],\n  \"cc\": [\n    \"office@maritczak.at\",\n    \"s.gruber@commerz-inkasso.at\"\n  ],\n  \"bcc\": [],\n  \"subject\": \"Polizze 2044001194 / AZ 2616052 – Beendigung 2027.01.01, hilfsweise 2027.01.08; Abrechnung und Wiederherstellung der Deckung\",\n  \"body\": \"Sehr geehrte Frau Loschy,\\n\\nsehr geehrte Damen und Herren,\\n\\nwir nehmen Bezug auf Ihre Nachricht vom 2026.10.06 zur Polizze 2044001194, Rahmenvertrag 2900010498, und zum Inkasso-Aktenzeichen 2616052.\\n\\nBeendigung zum Jahreswechsel\\n\\nWir ersuchen erneut um eine einvernehmliche Beendigung des gesamten Versicherungsvertrags mit Wirkung zum 2027.01.01, 00:00 Uhr. Falls Sie diesem Termin nicht zustimmen, ersuchen wir hilfsweise um eine einvernehmliche Beendigung zum 2027.01.08, 00:00 Uhr.\\n\\nUnabhängig von diesem Ersuchen halten wir unsere Kündigungserklärung vom 2026.10.01 aufrecht und kündigen vorsorglich nochmals zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin. Bitte bestätigen Sie schriftlich den konkreten Beendigungszeitpunkt und die von Ihnen verlangte Form.\\n\\nWir behaupten nicht, dass eine dreimonatige Frist allein einen beliebigen Beendigungstermin eröffnet. Bitte prüfen Sie jedoch ausdrücklich beide vorgeschlagenen Termine und legen Sie bei Ablehnung die maßgeblichen Vertragsbestimmungen und die rechtliche Begründung offen.\\n\\nNachweis der Bindung bis 2036\\n\\nDie uns vorliegende Änderungspolizze nennt den Ablauf 2036.01.01. Auch die Polizze vom 2026.02.03 für die frühere Eigentümerin nennt dieses Datum. Bitte übermitteln Sie den zugrunde liegenden Antrag, die Annahmeerklärung, die Laufzeitvereinbarung, den vollständigen Rahmenvertrag und die einschlägigen Bedingungen.\\n\\nBitte erläutern Sie, worauf die Bindung der A&C Wohnart Immobilien GmbH bis 2036 beruht, ob ein früheres vertragliches Kündigungsrecht besteht und wie unsere früheren Erklärungen sowie das Erwerberkündigungsrecht nach §§ 69 und 70 VersVG geprüft wurden. Bitte nennen Sie dabei die von Ihnen zugrunde gelegten Erwerbs- und Kenntnisdaten.\\n\\nAbrechnung bis zur gewünschten Beendigung\\n\\nBitte übermitteln Sie eine vollständige schriftliche Kontenaufstellung zum heutigen Stand sowie zwei getrennte Berechnungen für die Beendigung zum 2027.01.01 und zum 2027.01.08.\\n\\nDie Aufstellung soll jeweils enthalten:\\n- sämtliche Prämien nach Versicherungszweig, Zeitraum, Fälligkeit und Versicherungssteuer;\\n- die bereits verlangte Prämie für 2026.10.01–2027.01.01, ohne Doppelzählung;\\n- jede verbuchte Zahlung, Gutschrift und allfällige Prämienreduktion;\\n- Zinsen mit Kapital, Zinssatz und Berechnungszeitraum;\\n- Mahn-, Inkasso- und sonstige Kosten mit Einzelbegründung;\\n- den Endsaldo und eine taggenaue Berechnung einer etwaigen Restprämie, soweit § 40 VersVG bei tatsächlicher Beendigung anzuwenden ist.\\n\\nDie bisher kommunizierten EUR 5.326,15 sind damit nicht als unstreitiger Saldo anerkannt. Bitte weisen Sie etwaige zusätzliche Forderungen aus vorzeitiger Beendigung, insbesondere nach Klausel 1000K „Laufzeitvorteil“, getrennt aus und begründen Sie deren Rechtsgrundlage, Berechnungsbasis und Anwendbarkeit.\\n\\nFür die gewünschte einvernehmliche Lösung ersuchen wir ausdrücklich um Verzicht auf eine Nachtragsprämie, Dauerrabatt-Rückforderung oder sonstige Beendigungsgebühr. Ein allfälliger Verzicht soll Bestandteil der schriftlichen Beendigungsvereinbarung sein.\\n\\nFehlender Versicherungsschutz und Wirkung einer Zahlung\\n\\nIhre Aussage, dass derzeit kein Versicherungsschutz besteht, während weiterhin Prämien verlangt werden, bedarf einer konkreten Erklärung. Bitte unterscheiden Sie zwischen dem Fortbestand des Vertrags, einer Leistungsfreiheit wegen Prämienverzugs und einer tatsächlich bereits erklärten Vertragsbeendigung.\\n\\nBitte teilen Sie schriftlich mit:\\n- seit welchem genauen Zeitpunkt und für welche Versicherungszweige Sie Leistungsfreiheit geltend machen;\\n- welche qualifizierte Mahnung nach § 39 Abs. 1 VersVG Sie heranziehen, einschließlich Frist, Belehrung und Zugangsnachweis;\\n- ob eine Kündigung durch DONAU erklärt wurde, und gegebenenfalls wann sie wirksam geworden sein soll;\\n- welchen exakt bezifferten Prämienbetrag wir zahlen müssten, damit Versicherungsschutz wieder besteht;\\n- an welchen Empfänger und mit welcher Referenz dieser Betrag zu zahlen und wie er verbindlich auf die Prämien zu verbuchen ist;\\n- ab welchem genauen Datum und welcher Uhrzeit nach Zahlungseingang welche Deckung wieder besteht, einschließlich etwaiger zusätzlicher Voraussetzungen;\\n- ob vergangene Zeiträume weiterhin ungedeckt bleiben und aus welchem konkreten Grund für diese Zeiträume Prämien verlangt werden.\\n\\n§ 39 Abs. 4 VersVG sieht vor, dass die Nichtzahlung von Zinsen oder Kosten die Rechtsfolgen der Absätze 1 bis 3 nicht auslöst. Bitte erläutern Sie daher gesondert, ob die Begleichung der tatsächlich rückständigen Prämien bei weiterhin streitigen Nebenforderungen die Deckung wiederherstellt, und bestätigen Sie die dafür erforderliche Zahlungszuordnung.\\n\\nWir setzen weder eine rückwirkende Deckung noch eine automatische Beendigung durch Zahlung voraus. Gerade diese Folgen wollen wir vor einer Zahlungsentscheidung verbindlich klären.\\n\\nPrämienanpassung und zeitnahe Antwort\\n\\nDie Anfrage zur Prämienanpassung bleibt aufrecht. Bitte bestätigen Sie, ob weiterhin ausschließlich die von Herrn Pfeiffer am 2026.07.14 genannten Unterlagen fehlen, und erläutern Sie die mögliche Reduktion sowie deren frühestmöglichen Beginn unter Berücksichtigung von § 41a VersVG. Diese Unterlagen werden mit dieser Nachricht nicht als bereits vorgelegt bezeichnet.\\n\\nWegen des ungeklärten Versicherungsschutzes und des mitgeteilten Inkasso-Termins 2026.10.12 bitten wir um Ihre schriftliche Antwort bis 2026.10.09, 12:00 Uhr Wiener Zeit, zumindest vorab zum Deckungsstatus und zum Betrag für eine Wiederherstellung der Deckung.\\n\\nBitte teilen Sie zugleich mit, ob Sie bis zur nachvollziehbaren Klärung weitere Inkasso-Maßnahmen und zusätzliche Kosten aussetzen. Eine solche Aussetzung wird von uns nicht als bereits zugesagt angesehen.\\n\\nDiese Erklärung enthält weder ein Anerkenntnis der Höhe oder Berechtigung sämtlicher Forderungen noch einen Verzicht auf Einwendungen. Bitte übermitteln Sie die Antwort und Unterlagen als Text beziehungsweise PDF an office@ac-wohnart.at und die angeführten CC-Empfänger.\\n\\nMit freundlichen Grüßen\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"2c273256-a0bf-408b-bb22-09718372e888\",\n  \"created_at\": \"2026-10-07T08:38:07.673032Z\",\n  \"updated_at\": \"2026-10-07T08:38:07.673032Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## Asistent
+
+Am pregătit în Eva-Mail cererea pentru 2027.01.01, alternativ 2027.01.08, cu solicitarea calculelor separate și a condițiilor exacte pentru restabilirea acoperirii.
+
+Am găsit și clauza „Laufzeitvorteil”, care prevede o primă suplimentară la încetarea anticipată. Cer justificarea oricărei asemenea sume și renunțarea expresă la ea în acordul de încetare. Ciorna este netrimisă; trimiterea se face din Eva-Mail.
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-eabc316f-669c-4f7a-a75a-083ee01706ad",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 Punct de vedere juridic Donau.txt",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "2026.10.07 | PUNCT DE VEDERE JURIDIC DOCUMENTAR\nDONAU – polita 2044001194 / cadrul 2900010498 / Commerz 2616052\nBeneficiar: A&C Wohnart Immobilien GmbH; Schallergasse 35, 1120 Wien\n\nCONCLUZIA PENTRU DECIZIE\n\nSolicitarea corecta este incetarea prin acord la 2027.01.01, alternativ 2027.01.08, plus notificare subsidiara la prima data legal/contractual permisa. Nici implinirea a trei luni, nici plata restantelor nu produc singure incetarea. Cele doua date sunt propuneri, nu date de incetare confirmate.\n\nLipsa actuala a obligatiei asiguratorului de a despagubi nu stinge automat contractul si primele. Argumentul „nu am acoperire, deci nu datorez nimic” este insuficient. In schimb, trebuie verificate conditiile concrete ale §39 VersVG, alocarea platilor, decontul si temeiul duratei pana in 2036. Nu se considera ca toate sumele cerute sunt acceptate sau ca refuzul DONAU este juridic validat.\n\n1. DOCUMENTELE CARE SCHIMBA EVALUAREA\n\nPolita din 2026.06.03, p.1, indica modificare pentru schimbarea proprietarului de la 2026.05.28, expirare 2036.01.01, ora 00:00, si scadenta principala anuala 01.01. Pagina 7 leaga preavizul de trei luni de expirarea duratei contractuale, nu de orice zi aleasa de asigurat.\n\nPolita vechiului proprietar din 2026.02.03, p.1, are deja inceputul modificarii 2026.01.01 si aceeasi expirare 2036.01.01; este intitulata Ersatzvertrag. Prin urmare, nu este demonstrat ca termenul pana in 2036 a fost adaugat abia la transferul catre A&C. Trebuie solicitate cererea, acceptarea, mandatul si conditiile complete care au fundamentat durata initiala.\n\nRaspunsul Cornelia Loschy primit la 2026.10.06 refuza incetarea, invoca 2036.01.01 si declara lipsa actuala a acoperirii din cauza primelor restante. Acest raspuns nu furnizeaza data exacta a inceperii lipsei acoperirii sau o confirmare a reactivarii la plata.\n\nOriginalele relevante au fost deschise, comparate cu indexul si verificate vizual: polita curenta p.1 si 7; polita istorica p.1 si 12. Nu este necesara recitirea intregii arhive.\n\n2. ESTE SUFICIENT UN PREAVIZ DE TREI LUNI?\n\nNu, singur nu este suficient. §8 alin.2 VersVG reglementeaza contractele pe durata nedeterminata si incetarea la sfarsitul perioadei de asigurare. El nu transforma automat un contract cu durata determinata pana in 2036 intr-un contract reziliabil oricand dupa trei luni.\n\n§8 alin.3 permite anumite incetari pentru consumatori dupa trei ani, cu preaviz de o luna. Nu poate fi invocat automat pentru aceasta operatiune comerciala a unei GmbH. Chiar daca s-ar demonstra statutul de consumator, nu ar rezulta o incetare dupa numai primul an. Sunt distincte durata contractului, perioada de asigurare si ratele trimestriale.\n\nO notificare noua din 2026.10.07 lasa mai putin de trei luni pana la 2027.01.01. Pana la 2027.01.08 exista calendaristic mai mult de trei luni daca notificarea ajunge suficient de devreme, dar acea zi nu devine automat termen contractual admis. Notificarea ramasa draft nu produce un preaviz comunicat. Data primirii notificarii din 2026.10.01 si efectele ei trebuie evaluate separat.\n\nConsecinta: cererea propune acordul pentru ambele date si pastreaza notificarea din 2026.10.01, cu notificare subsidiara la primul termen permis. Nu recunoaste ca 2036 este incontestabil si nici nu afirma ca incetarea in ianuarie 2027 este deja un drept demonstrat. [S1]\n\n3. TRANSFERUL PROPRIETATII SI EVENTUALE DREPTURI ANTERIOARE\n\n§69 VersVG prevede preluarea drepturilor si obligatiilor de catre cumparator. Lipsa unei semnaturi noi A&C nu elimina singura obligatia de prima. [S2]\n\n§70 alin.2 ofera cumparatorului un drept special de incetare, in principiu exercitabil intr-o luna de la dobandire sau de la cunoasterea asigurarii daca aceasta nu era cunoscuta. Arhiva arata comunicari privind polita in primavara/vara 2026; o noua cerere din octombrie nu poate fi prezentata ca demonstrat tempestiva. Trebuie verificate momentul dobandirii/cunoasterii si orice notificare efectiva anterioara, inclusiv prin vanzator sau administrator. Rezervarea drepturilor nu echivaleaza singura cu exercitarea lor. [S3]\n\n4. DE CE POT FI CERUTE PRIME FARA ACOPERIRE ACTUALA?\n\n§39 VersVG permite, pentru o prima ulterioara neachitata, o somatie scrisa calificata cu minimum doua saptamani si avertizarea consecintelor. Refuzul despagubirii depinde de conditiile legale concrete, inclusiv comunicarea somatiei si situatia neplatii la eveniment; nu rezulta exclusiv din existenta unei datorii.\n\nExista local somatia din 2026.06.05 cu avertizare. Nu poate fi sustinut ca nu exista nicio somatie. Trebuie cerute exemplarul invocat, dovada primirii, data expirarii termenului si justificarea aplicarii. Sunt distincte contractul in vigoare, lipsa obligatiei de despagubire si incetarea efectiva. [S4]\n\nOGH, 3 Ob 722/54, explica faptul ca durata contractului si durata raspunderii asiguratorului nu coincid necesar: obligatia de prima poate continua cand obligatia de despagubire este suspendata. Hotararea nu valideaza automat somatiile din acest dosar; ea subliniaza si necesitatea verificarii comunicarii si continutului. [S5]\n\nPrin urmare, nu este prudent sa se refuze integral suma numai ca „serviciu neefectuat”. Cererea obliga DONAU sa precizeze perioadele, ramurile, temeiul si efectul concret al platii, fara acceptarea generala a soldului.\n\n5. DACA PLATIM, CE SE INTAMPLA CU ASIGURAREA?\n\nDaca raportul contractual exista in continuare si neplata primelor este singurul impediment, plata restantelor poate inlatura impedimentul pentru evenimente viitoare. Trebuie confirmate suma exacta, destinatarul, imputarea pe prime si data/ora acoperirii. Nu se presupune acoperire retroactiva pentru evenimente din intervalul anterior.\n\nDaca asiguratorul a si reziliat potrivit §39 alin.3, exista un regim distinct de inlaturare a efectelor rezilierii prin plata in termenul legal de o luna, sub conditiile textului. Nu se poate promite reactivarea prin orice plata, indiferent cat de tarziu este facuta.\n\n§39 alin.4 precizeaza ca neplata numai a dobanzilor/costurilor nu declanseaza consecintele alin.1–3. Plata trebuie insa alocata clar; o suma virata generic nu se presupune automat imputata exclusiv primelor. Se cere confirmare scrisa inaintea deciziei de plata. Nu s-a efectuat o plata. [S4]\n\n6. TOATE SUMELE PANA LA DATELE PROPUSE\n\nSoldul istoric comunicat la 2026.09.30 este 5.326,15 EUR:\n- prime Q2, Q3 si Q4: 4.775,43 EUR = 3 x 1.591,81 EUR;\n- costuri creditor: 30,00 EUR;\n- costuri Inkasso: 501,58 EUR;\n- dobanda indicata atunci: 19,14 EUR.\nQ4 pana la 2027.01.01 este deja cuprins. Acesta nu este un sold actual certificat si nu dovedeste oprirea dobanzilor.\n\nSe cer situatia la zi si doua deconturi distincte pentru 2027.01.01 si 2027.01.08, cu fiecare perioada, scadenta, impozit, plata, credit, dobanda, cost si reducere. Pentru al doilea scenariu nu se inventeaza suma pentru zilele suplimentare: DONAU trebuie sa arate formula si baza.\n\n§40 VersVG prevede, ca regula, prima aferenta duratei scurse la incetare anticipata efectiva, cu exceptiile si posibilitatea unei penalitati contractuale prevazute de text. Nu se opresc unilateral primele la data doar solicitata. [S1]\n\n7. RISC SEPARAT: KLAUSEL 1000K — LAUFZEITVORTEIL\n\nPolita istorica p.12 contine o clauza de prima suplimentara la incetarea anticipata: inainte de doi ani, 80% din prima anuala, apoi procente descrescatoare. Polita curenta include 1000K intre clauzele contractuale.\n\nNu s-a stabilit ca o asemenea suma este valabil datorata de A&C. Trebuie verificate incorporarea clauzei, inceputul contractual relevant, ipoteza concreta de incetare, baza de calcul si validitatea. Nu o adaugam automat la 5.326,15 EUR si nu acceptam anticipat o astfel de datorie.\n\nEmailul cere explicarea separata a oricarei asemenea sume si renuntarea expresa la ea ca parte a acordului de incetare. Nu presupune ca renuntarea este deja acordata.\n\n8. REDUCEREA POLITEI SI PASII URMATORI\n\n§41a VersVG poate fundamenta o reducere adecvata pentru perioade viitoare cand dispar imprejurarile de risc relevante. Nu confirma automat o reducere retroactiva la 2026.07.01. Raspunsul Pfeiffer din 2026.07.14 cere autorizatia, descrierea lucrarilor si confirmarea instalatorului; acestea nu sunt anexate sau declarate ca deja furnizate prin noua cerere. [S1]\n\nCiorna germana solicita:\n- acord de incetare la 2027.01.01, alternativ 2027.01.08;\n- temeiul duratei pana in 2036 si primul termen de incetare permis;\n- ambele deconturi, fara dublarea Q4;\n- dovada somatiei si suma/datele exacte pentru restabilirea acoperirii;\n- delimitarea primelor de accesorii si renuntarea la costul de incetare;\n- raspuns pana la 2026.10.09, 12:00 Viena / 13:00 Romania.\nTermenul este cerut, nu acceptat. Termenul Commerz 2026.10.12 nu este suspendat prin aceasta cerere.\n\nStatus: DRAFT NETRIMIS in Eva-Mail, ID aa653a96-7eee-4133-a41d-5892ea79788d. Catre Loschy si DONAU; CC Maritczak si Gruber; Capra nu este in CC. Nu s-a trimis emailul, nu s-a semnat acord si nu s-a efectuat plata. Instrumentul Eva-Mail salveaza draftul; trimiterea se face din Eva-Mail.\n\nAceasta este o evaluare documentara pentru formularea cererii. Validitatea obligatiilor si strategia de regularizare trebuie verificate de Capra pe dosarul complet, in special privind acoperirea, dreptul de incetare si clauza 1000K.\n\nSURSE JURIDICE OFICIALE — CONSULTATE LA 2026.10.07\n\n[S1] RIS, VersVG, forma curenta, §§8, 9, 40, 41a:\nhttps://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979\n[S2] RIS, §69 VersVG:\nhttps://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489\n[S3] RIS, §70 VersVG:\nhttps://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688\n[S4] RIS, §39 VersVG:\nhttps://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39\n[S5] OGH 3 Ob 722/54, hotarare din 1954.11.17:\nhttps://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf\n\nSURSE DOCUMENTARE\n\n05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf — p.1, 6, 7.\n05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf — p.1, 12.\n10. Banci + Extrase de cont/Facturi neachitate/02 - 2026-06-05 DONAU Polizze 2044001194 Praemie Quartal 1.591,81 EUR (Q4 faellig 01.10.2026) - IBAN AT67 2011 1403 1004 1414 Ref 002044001194.pdf — somatia din 2026.06.05; numele local nu stabileste singur perioada datoriei.\n08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/2026.09.30 Analiza juridica Donau.txt — reconcilierea istorica a sumei si sursele ei.\n08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 PRIMIT DONAU 2c273256.txt — raspunsul curent al asiguratorului.\nConfirmare utilizator in acest chat: data alternativa dorita este 2027.01.08, nu 2026.01.08.\n\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-022e0e19-a84b-4f0b-98e9-e45632e889f6",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.07 arhiveaza punct juridic Donau.py",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "from pathlib import Path\nfrom datetime import datetime\nfrom zoneinfo import ZoneInfo\nfrom email.message import EmailMessage\nfrom email.policy import SMTP\nfrom email.utils import format_datetime\nimport json,hashlib,shutil,fitz\nR=Path(__file__).resolve().parent.parent;D='2026.10.07'\nP=R/'08. Corespondenta'/f'{D} Cerere reziliere Donau 2027';B=R/'08. Corespondenta/2026.09.30 Arhiva Eva-Mail'\nd=json.loads((P/f'{D} DRAFT Eva-Mail.json').read_text(encoding='utf-8'))\nassert d['status']=='pending' and d['id']=='aa653a96-7eee-4133-a41d-5892ea79788d'\ndef rel(p):return p.relative_to(R).as_posix()\ndef txt(p,t):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(t,encoding='utf-8-sig')\ndef js(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2),encoding='utf-8')\ndef backup(p):\n if p.exists():\n  dest=P/f'{D} Istoric inainte de cerere'/p.relative_to(R);dest.parent.mkdir(parents=True,exist_ok=True)\n  if not dest.exists():shutil.copy2(p,dest)\nindex={x['cale']:x for x in json.loads((R/'folder map/inventar.json').read_text(encoding='utf-8'))}\naudit=[]\nfiles=['05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf','05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf','10. Banci + Extrase de cont/Facturi neachitate/02 - 2026-06-05 DONAU Polizze 2044001194 Praemie Quartal 1.591,81 EUR (Q4 faellig 01.10.2026) - IBAN AT67 2011 1403 1004 1414 Ref 002044001194.pdf']\nfor f in files:\n p=R/f;h=hashlib.sha256(p.read_bytes()).hexdigest();x=index[f];assert h==x['sha256']\n audit.append({'cale':f,'sha256':h,'hash_identic_index':True,'metadate_identice':p.stat().st_size==x['octeti'] and p.stat().st_mtime_ns==x.get('modificat_ns')})\nwith fitz.open(R/files[2]) as pdf:\n assert 'zwei Wochen' in pdf[0].get_text() and '39' in pdf[0].get_text()\nm=EmailMessage(policy=SMTP)\nfor k,v in [('From',d['account_email']),('To',', '.join(d['to'])),('Cc',', '.join(d['cc'])),('Subject',d['subject']),('X-Unsent','1'),('X-Eva-Draft-ID',d['id']),('X-Archive-Export','Draft from EVA; reconstructed EML')]:m[k]=v\nm['Date']=format_datetime(datetime.fromisoformat(d['created_at'].replace('Z','+00:00')));m.set_content(d['body'])\n(P/f'{D} DRAFT Cerere reziliere Donau.eml').write_bytes(m.as_bytes())\ncreated=datetime.fromisoformat(d['created_at'].replace('Z','+00:00')).astimezone(ZoneInfo('Europe/Bucharest'))\nheader=f\"{D} | DRAFT NETRIMIS\\nCreat: {created.strftime('%Y.%m.%d %H:%M:%S')} Romania\\nData tehnica: {d['created_at']}\\nExpeditor: {d['account_email']}\\nDestinatari: {', '.join(d['to'])}\\nCC: {', '.join(d['cc'])}\\nSubiect: {d['subject']}\\nID Eva-Mail: {d['id']}\\nAtasamente: niciunul\\nSursa: draft verificat in Eva-Mail; nu exista dovada trimiterii.\\n\\n\"\ntxt(P/f'{D} DRAFT Cerere reziliere Donau.txt',header+d['body'])\nstatus='2026.10.07: punct de vedere juridic documentar finalizat si draft german NETRIMIS in Eva-Mail. Cere incetare prin acord la 2027.01.01, alternativ 2027.01.08; subsidiar primul termen legal/contractual admis, pastrand notificarea din 2026.10.01. Cere deconturi separate, justificarea duratei 2036, renuntarea la prima suplimentara 1000K, dovada somatiei si suma/data exacta pentru restabilirea acoperirii. Raspuns cerut pana la 2026.10.09, 12:00 Viena /13:00 Romania. Nicio incetare, plata, acoperire sau suspendare Inkasso confirmata.'\nnxt='Trimiterea ciornei din Eva-Mail, verificarea dovezii si a raspunsului; control cu Capra al dreptului de incetare, clauzei 1000K si conditiilor acoperirii/platii. Termenul Commerz 2026.10.12 ramane distinct. Nu se presupune ca trei luni permit singure incetarea contractului cu expirare 2036.'\nlast='Ultimul raspuns primit: 2026.10.06, Cornelia Loschy, ID 2c273256-a0bf-408b-bb22-09718372e888; refuza rezilierea si declara lipsa acoperirii pentru prime restante.'\nsource=rel(P/f'{D} DRAFT Cerere reziliere Donau.txt')\nnote=f\"{D} | CERERE REZILIERE LA 2027.01.01 /2027.01.08 SI PUNCT JURIDIC\\n\\nStatus scurt: {status}\\n{last}\\nUrmatorul pas: {nxt}\\nSursa: {source}\\nPunct juridic: {rel(P/f'{D} Punct de vedere juridic Donau.txt')}\\nID draft Eva-Mail: {d['id']}\\nCatre: {', '.join(d['to'])}\\nCC: {', '.join(d['cc'])}; Capra nu este in CC.\\n\\n\"\nfor p in [R/f'{D} Status proiect.txt',R/f'{D} Log progres proiect.txt']:\n backup(p);old=p.read_text(encoding='utf-8-sig');txt(p,note+'ISTORIC\\n\\n'+old)\nfor name in ['Donau Versicherung','Maritczak - Commerz Inkasso','CERHA HEMPEL']:\n p=B/'Parteneri'/f'{D} Log discutii - {name}.txt';backup(p);old=p.read_text(encoding='utf-8-sig')\n if name=='CERHA HEMPEL':prefix='Informare documentara locala; nu s-a trimis mesaj nou catre Capra.\\n\\n'\n else:prefix=''\n txt(p,prefix+note+'ISTORIC\\n\\n'+old)\nregp=B/f'{D} Registru comunicatii.json';backup(regp);reg=json.loads(regp.read_text(encoding='utf-8'))\nfor st in reg['statusuri']:\n if st['partener'] in ['Donau Versicherung','Maritczak - Commerz Inkasso']:\n  st['status']=status+' '+last;st['urmatorul_pas']=nxt;st['sursa_status']=[d['id'],source,'2c273256-a0bf-408b-bb22-09718372e888',rel(P/f'{D} Punct de vedere juridic Donau.txt')]\nreg.setdefault('drafturi',[]).append({'data':D,'id':d['id'],'statut':'DRAFT NETRIMIS','cale':source,'expeditor':d['account_email'],'destinatari':d['to'],'cc':d['cc'],'subiect':d['subject'],'note':'Data alternativa 2027.01.08 confirmata de utilizator; acest draft nu este email trimis.'})\nreg.setdefault('actualizari_punctuale',[]).append({'data':D,'subiect':'Punct juridic si cerere reziliere Donau 2027','status':status,'sursa':source,'nota':'Un draft nou; acoperirea si numarul emailurilor primite/trimise nu se modifica.'})\njs(regp,reg)\ntxt(P/f'{D} Jurnal actualizare.txt',note+'Trimiterea se face din Eva-Mail; instrumentul a salvat o ciorna si nu are functie de trimitere.\\nConfirmare utilizator: alternativa corecta este 2027.01.08.\\n')\njs(P/f'{D} Audit surse si status.json',{'data':D,'polite_verificate':audit,'verificare_vizuala':['polita curenta p.1/7','polita istorica p.1/12, clauza 1000K'],'id_draft':d['id'],'statut':'NETRIMIS','creat_tehnic':d['created_at'],'surse_oficiale':['https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979','https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39','https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489','https://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688','https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf'],'data_consultarii':'2026.10.07','limita':'Punct juridic documentar; contract-cadru complet, comunicarea somatiilor si eventuale notificari istorice de verificat; nu confirma soldul sau restabilirea acoperirii.'})\nread=R/'folder map/README.md';backup(read);t=read.read_text(encoding='utf-8')\nhead=f\"# {D} — DONAU: punct juridic si draft reziliere 2027\\n\\nDosar curent: ../08. Corespondenta/{D} Cerere reziliere Donau 2027/. Incepe cu {D} Punct de vedere juridic Donau.txt si {D} Jurnal actualizare.txt. Draft EVA {d['id']}, NETRIMIS, catre Loschy/DONAU, CC Maritczak/Gruber, fara Capra. Incetare propusa 2027.01.01, alternativ 2027.01.08 confirmat de utilizator; subsidiar primul termen admis. Solicita doua deconturi, suma/data pentru restabilirea acoperirii, dovezi §39 si renuntare la prima suplimentara 1000K. Preavizul de 3 luni nu garanteaza incetarea politei care indica 2036.01.01. Primele nu dispar automat din lipsa acoperirii. Jurnalele TXT/JSON actualizate, istoricul pastrat. Nu este mesaj trimis, acord acceptat sau plata efectuata. Termenul Commerz 2026.10.12 ramane distinct.\\n\\n\"\nread.write_text(head+t,encoding='utf-8')\nassert reg['acoperire']['mesaje_salvate']==795 and 'X-Unsent: 1' in (P/f'{D} DRAFT Cerere reziliere Donau.eml').read_text(encoding='utf-8')\nprint('Punct juridic, draft TXT/JSON/EML, jurnale si surse salvate; 795 mesaje; draft NETRIMIS.')\n\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-b5461937-6f99-470d-b352-e5abe3cb3da3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 'folder map\\\\2026.10.07 arhiveaza punct juridic Donau.py'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "93373",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 'folder map\\2026.10.07 arhiveaza punct juridic Donau.py'"
+    }
+  ],
+  "aggregatedOutput": "Punct juridic, draft TXT/JSON/EML, jurnale si surse salvate; 795 mesaje; draft NETRIMIS.\r\n",
+  "exitCode": 0,
+  "durationMs": 557
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-8930ca6c-f6ad-4682-977e-c7c71cba9318",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 'folder map\\\\actualizeaza_index.py'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "9892",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 'folder map\\actualizeaza_index.py'"
+    }
+  ],
+  "aggregatedOutput": "100/5183 inventariate\r\n200/5183 inventariate\r\n300/5183 inventariate\r\n400/5183 inventariate\r\n500/5183 inventariate\r\n600/5183 inventariate\r\n700/5183 inventariate\r\n800/5183 inventariate\r\n900/5183 inventariate\r\n1000/5183 inventariate\r\n1100/5183 inventariate\r\n1200/5183 inventariate\r\n1300/5183 inventariate\r\n1400/5183 inventariate\r\n1500/5183 inventariate\r\n1600/5183 inventariate\r\n1700/5183 inventariate\r\n1800/5183 inventariate\r\n1900/5183 inventariate\r\n2000/5183 inventariate\r\n2100/5183 inventariate\r\n2200/5183 inventariate\r\n2300/5183 inventariate\r\n2400/5183 inventariate\r\n2500/5183 inventariate\r\n2600/5183 inventariate\r\n2700/5183 inventariate\r\n2800/5183 inventariate\r\n2900/5183 inventariate\r\n3000/5183 inventariate\r\n3100/5183 inventariate\r\n3200/5183 inventariate\r\n3300/5183 inventariate\r\n3400/5183 inventariate\r\n3500/5183 inventariate\r\n3600/5183 inventariate\r\n3700/5183 inventariate\r\n3800/5183 inventariate\r\n3900/5183 inventariate\r\n4000/5183 inventariate\r\n4100/5183 inventariate\r\n4200/5183 inventariate\r\n4300/5183 inventariate\r\n4400/5183 inventariate\r\n4500/5183 inventariate\r\n4600/5183 inventariate\r\n4700/5183 inventariate\r\n4800/5183 inventariate\r\n4900/5183 inventariate\r\n5000/5183 inventariate\r\n5100/5183 inventariate\r\n{\r\n  \"generat\": \"2026-10-07T11:40:10+03:00\",\r\n  \"radacina\": \"D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\",\r\n  \"fisiere\": 5183,\r\n  \"foldere\": 647,\r\n  \"continuturi_unice\": 3660,\r\n  \"copii_identice\": 1523,\r\n  \"stari\": {\r\n    \"text citit\": 2300,\r\n    \"text și tabele extrase\": 298,\r\n    \"text extras\": 1335,\r\n    \"celule și formule extrase; imaginile nu sunt interpretate\": 143,\r\n    \"text extras; verificare vizuală necesară\": 319,\r\n    \"metadate imagine; interpretare vizuală necesară\": 535,\r\n    \"conținut arhivă listat; documentele interne nu sunt citite\": 45,\r\n    \"inventariat; interpretare CAD necesară\": 79,\r\n    \"celule XLS extrase\": 15,\r\n    \"text DOC extras; macrocomenzi dezactivate\": 11,\r\n    \"inventariat; extragere indisponibilă\": 76,\r\n    \"inventariat; vizionare necesară\": 23,\r\n    \"eroare extragere\": 3,\r\n    \"temporar\": 1\r\n  },\r\n  \"erori\": [\r\n    {\r\n      \"cale\": \"08. Corespondenta/_Recuperate EvaMail 2026-09-17/_ALTE PROIECTE (nu Schallergasse)/GLAZURA CES.xlsx\",\r\n      \"eroare\": \"XLRDError: Can't find workbook in OLE2 compound document\"\r\n    },\r\n    {\r\n      \"cale\": \"10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/Documente justificative/2026.04.15 Finanzamt K 07-09-2026 (din registrul anterio.pdf\",\r\n      \"eroare\": \"ValueError: document closed or encrypted\"\r\n    },\r\n    {\r\n      \"cale\": \"10. Banci + Extrase de cont/Facturi neachitate/14 - 2026-06-22 FINANZAMT Steuerkonto StNr 09 446-6620 - KoeSt 07-09-2026 93,00 EUR (DEPASIT 17.08) - IBAN AT36 0100 0000 0550 4082 (PDF parolat).pdf\",\r\n      \"eroare\": \"ValueError: document closed or encrypted\"\r\n    }\r\n  ]\r\n}\r\n",
+  "exitCode": 0,
+  "durationMs": 29158
+}
+````
+
+## Asistent
+
+Am creat [punctul de vedere juridic](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 Punct de vedere juridic Donau.txt>) și cererea în germană, salvată în **Eva-Mail ca draft netrimis**.
+
+Cererea solicită:
+
+- încetarea la **2027.01.01**, alternativ **2027.01.08**;
+- calculul scris al tuturor sumelor pentru fiecare dată, separat: prime, dobânzi, costuri și credite;
+- suma exactă și data/ora de la care plata ar restabili acoperirea;
+- justificarea suspendării acoperirii și renunțarea la suma suplimentară pentru încetarea anticipată.
+
+**Juridic:** trei luni nu garantează rezilierea unei polițe cu expirare în 2036. Datele din ianuarie sunt propuse pentru încetare prin acord. [VersVG §8](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979)
+
+**Primele pot rămâne datorate chiar fără acoperire actuală**, dacă suspendarea pentru neplată este legală. Plata nu garantează acoperire retroactivă; am cerut dovezile și efectele exacte în scris. [VersVG §39](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39)
+
+Am cerut răspuns până la **2026.10.09, ora 12:00 Viena**. Trimiterea trebuie făcută din Eva-Mail; instrumentul disponibil salvează doar ciorne.
+
+## Asistent
+
+O opinie juridică asumată de un avocat trebuie emisă de acesta; materialul anterior este analiza mea documentară. Pregătesc solicitarea către Bogdan Capra, cu documentele și întrebările concrete, pentru ca el să formuleze concluzia juridică și recomandarea.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-a0d644b2-7a02-437a-8e36-3deb9533a9d7",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'folder map\\\\README.md' -Encoding UTF8 -TotalCount 18; & 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 -c \\\"from pathlib import Path; import json,hashlib; r=Path.cwd(); idx=json.loads((r/'folder map/inventar.json').read_text(encoding='utf-8')); terms=['2026.10.07 Punct de vedere juridic Donau.txt','2026.10.07 DRAFT Eva-Mail.json','2026.10.05 PRIMIT CERHA HEMPEL ee452cda.json']; print([(e['cale'],e['text_cache']) for e in idx if any(t in e['cale'] for t in terms)]); p=r/'08. Corespondenta/2026.10.05 Actualizare comunicari/2026.10.05 PRIMIT CERHA HEMPEL ee452cda.json'; d=json.loads(p.read_text(encoding='utf-8')); print('contact avocat',d['from_name'],d['from_address']); print('anexa',d['attachments'][0]['name'] if d['attachments'] else 'n/a')\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "78785",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'folder map\\README.md' -Encoding UTF8 -TotalCount 18; & 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 -c \"from pathlib import Path; import json,hashlib; r=Path.cwd(); idx=json.loads((r/'folder map/inventar.json').read_text(encoding='utf-8')); terms=['2026.10.07 Punct de vedere juridic Donau.txt','2026.10.07 DRAFT Eva-Mail.json','2026.10.05 PRIMIT CERHA HEMPEL ee452cda.json']; print([(e['cale'],e['text_cache']) for e in idx if any(t in e['cale'] for t in terms)]); p=r/'08. Corespondenta/2026.10.05 Actualizare comunicari/2026.10.05 PRIMIT CERHA HEMPEL ee452cda.json'; d=json.loads(p.read_text(encoding='utf-8')); print('contact avocat',d['from_name'],d['from_address']); print('anexa',d['attachments'][0]['name'] if d['attachments'] else 'n/a')\""
+    }
+  ],
+  "aggregatedOutput": "# 2026.10.07 — DONAU: punct juridic si draft reziliere 2027\r\n\r\nDosar curent: ../08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/. Incepe cu 2026.10.07 Punct de vedere juridic Donau.txt si 2026.10.07 Jurnal actualizare.txt. Draft EVA aa653a96-7eee-4133-a41d-5892ea79788d, NETRIMIS, catre Loschy/DONAU, CC Maritczak/Gruber, fara Capra. Incetare propusa 2027.01.01, alternativ 2027.01.08 confirmat de utilizator; subsidiar primul termen admis. Solicita doua deconturi, suma/data pentru restabilirea acoperirii, dovezi §39 si renuntare la prima suplimentara 1000K. Preavizul de 3 luni nu garanteaza incetarea politei care indica 2036.01.01. Primele nu dispar automat din lipsa acoperirii. Jurnalele TXT/JSON actualizate, istoricul pastrat. Nu este mesaj trimis, acord acceptat sau plata efectuata. Termenul Commerz 2026.10.12 ramane distinct.\r\n\r\n# 2026.10.07 — DONAU: refuz reziliere si declaratie lipsa acoperire\r\n\r\nPuncte curente: ../2026.10.07 Status proiect.txt; ../2026.10.07 Log progres proiect.txt; ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.07 Registru comunicatii.json si 2026.10.07 Registru atasamente.json. Dovezi: ../08. Corespondenta/2026.10.07 Verificare zilnica/.\r\n\r\nDONAU raspunde la 2026.10.06, refuza incetarea si declara lipsa acoperirii pentru prime restante. Invoca rezilierea 2036.01.01 cu 3 luni preaviz, afirmatie de verificat contractual/juridic. Cere documentele Pfeiffer 2026.07.14 pentru reducere. CC Maritczak/Gruber, fara Capra. Urgenta: clarificarea acoperirii si a refuzului cu Capra; termen Commerz 2026.10.12 distinct. Nu se considera contractul incetat, refuzul legal validat sau soldul acceptat. TOMS si ofertantii nu au raspunsuri noi. Office sincronizat 2026.10.07 08:00:19 Romania; cosmin@ig.ro pana la 2026.08.12. Jurnalele TXT/JSON sunt actuale; Excel/DOCX anterioare sunt istoricul.\r\n\r\n# 2026.10.06 — Verificare zilnica; punct curent\r\n\r\nStatus si jurnal: ../2026.10.06 Status proiect.txt; ../2026.10.06 Log progres proiect.txt. Registre: ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.06 Registru comunicatii.json si 2026.10.06 Registru atasamente.json. Dovezi: ../08. Corespondenta/2026.10.06 Verificare zilnica/. KONE oferta primita 36.010 EUR net, probleme de cap de put si titular in service; Schmitt negociere confirmata TRIMISA. TOMS fara raspuns nou. Jurnalele TXT/JSON sunt actuale; Excel/DOCX 2026.10.05 reflecta etapa anterioara. Istoricul este pastrat. Office sincronizat 2026.10.06 08:00:21 Romania; cosmin@ig.ro la 2026.08.12.\r\n\r\n# 2026.10.05 — Draft negociere Schmitt + Sohn\r\n\r\nDraft NETRIMIS in Eva-Mail, office@ac-wohnart.at, ID 32438757-29eb-4df3-801a-0df38e06339a. Sursa: ../08. Corespondenta/2026.10.05 Draft negociere Schmitt + Sohn/. Jurnal proiect: ../2026.10.05 Jurnal proiect - completare negociere Schmitt + Sohn.txt; status si jurnal partener TXT actualizate. Registrul Excel si copia DOCX a jurnalului partenerului reflecta verificarea anterioara; aceasta completare TXT consemneaza draftul. Oferta nu este acceptata.\r\n\r\n[('08. Corespondenta/2026.10.05 Actualizare comunicari/2026.10.05 PRIMIT CERHA HEMPEL ee452cda.json', 'folder map/texte/43f8184d54d8bea1fb2939e67b3f0e7e226477976bb833168d1426431815cc93.txt'), ('08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 DRAFT Eva-Mail.json', 'folder map/texte/0f63ce86bb7110c0ca82a698083b4f9754dd34d35ebd4ffd064b126714536f63.txt'), ('08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 Punct de vedere juridic Donau.txt', 'folder map/texte/b7f497372c203984c3fa2153dff38e598ccf304d9a8f7ddb09da6220045e15fb.txt')]\r\ncontact avocat Capra Bogdan Bogdan.Capra@cerhahempel.com\r\nanexa image003.jpg\r\n",
+  "exitCode": 0,
+  "durationMs": 327
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-d5092fb2-0a8e-4089-84b1-82b34f54a58c",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 -c \\\"from pathlib import Path; import json; r=Path.cwd(); b=r/'08. Corespondenta/2026.09.30 Arhiva Eva-Mail'; a=json.loads((b/'2026.10.07 Registru atasamente.json').read_text(encoding='utf-8')); names=['814BC40FC7831FE197E21FDA1089ECC3','Schalle_1080_DON_SHU_2044001194','Kostenaufstellung','Schreiben vom 17.09.2026']; print([{k:e.get(k) for k in ['id','name','email_id','date','cale','size']} for e in a if any(n in e.get('name','') for n in names)][:22]); p=r/'08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 DRAFT Eva-Mail.json'; print('draft',json.loads(p.read_text(encoding='utf-8'))['id'])\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "28994",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 -c \"from pathlib import Path; import json; r=Path.cwd(); b=r/'08. Corespondenta/2026.09.30 Arhiva Eva-Mail'; a=json.loads((b/'2026.10.07 Registru atasamente.json').read_text(encoding='utf-8')); names=['814BC40FC7831FE197E21FDA1089ECC3','Schalle_1080_DON_SHU_2044001194','Kostenaufstellung','Schreiben vom 17.09.2026']; print([{k:e.get(k) for k in ['id','name','email_id','date','cale','size']} for e in a if any(n in e.get('name','') for n in names)][:22]); p=r/'08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 DRAFT Eva-Mail.json'; print('draft',json.loads(p.read_text(encoding='utf-8'))['id'])\""
+    }
+  ],
+  "aggregatedOutput": "[{'id': '2f806b69-dc6d-4b72-a7fb-476c01edff1c', 'name': 'Kostenaufstellung.pdf', 'email_id': '1fa19552-d1fd-459e-92b3-57ed5319d18c', 'date': '2026-09-30T12:51:10Z', 'cale': '08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/2026.09.30 Kostenaufstellung.pdf', 'size': 264012}, {'id': '31d4256e-5a0a-4459-b0de-24652186ce2a', 'name': 'Schreiben vom 17.09.2026.pdf', 'email_id': '1fa19552-d1fd-459e-92b3-57ed5319d18c', 'date': '2026-09-30T12:51:10Z', 'cale': '08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/2026.09.30 Schreiben vom 17.09.2026.pdf', 'size': 1369745}, {'id': '0dc20f91-66fb-4fdf-a7e2-5869f435d380', 'name': 'Kostenaufstellung.pdf', 'email_id': '1fa19552-d1fd-459e-92b3-57ed5319d18c', 'date': '2026-09-30T12:51:10Z', 'cale': '08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/2026.09.30 Kostenaufstellung.pdf', 'size': 264012}]\r\ndraft aa653a96-7eee-4133-a41d-5892ea79788d\r\n",
+  "exitCode": 0,
+  "durationMs": 178
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-34e128a7-ad0b-436e-bd76-e1c31588eb68",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_documents",
+  "status": "completed",
+  "arguments": {
+    "q": "Mahnung 2044001194",
+    "limit": 10
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_documents"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [],\n  \"total\": 0\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [],
+      "total": 0
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 5880
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-ec9f3576-d2fb-4ccc-8ecb-eaa0067646ae",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_documents",
+  "status": "completed",
+  "arguments": {
+    "q": "814BC40FC7831FE197E21FDA1089ECC3",
+    "limit": 15
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_documents"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"ad453388-c79d-4b5a-830b-6a9ab0509c4e\",\n      \"filename\": \"814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf\",\n      \"size\": 262935,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-10T08:49:20.634724Z\",\n      \"email_id\": \"16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f\",\n      \"email_subject\": \"WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728\",\n      \"email_sender\": \"C.Loschy@donauversicherung.at\",\n      \"email_date\": \"2026-06-10T05:09:18Z\"\n    }\n  ],\n  \"total\": 1\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "ad453388-c79d-4b5a-830b-6a9ab0509c4e",
+          "filename": "814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf",
+          "size": 262935,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-06-10T08:49:20.634724Z",
+          "email_id": "16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f",
+          "email_subject": "WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "email_sender": "C.Loschy@donauversicherung.at",
+          "email_date": "2026-06-10T05:09:18Z"
+        }
+      ],
+      "total": 1
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 4720
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-77559e4c-c716-43ca-8d09-10292bf935ed",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_documents",
+  "status": "completed",
+  "arguments": {
+    "q": "Schalle_1080_DON_SHU_2044001194",
+    "limit": 15
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_documents"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"8c9208be-b6f7-4905-aa90-7e59d287ab73\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T15:24:59.785842Z\",\n      \"email_id\": \"b8519285-45cc-488d-8ccd-756a89c491ec\",\n      \"email_subject\": \"AW: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Office@hofhans.at\",\n      \"email_date\": \"2026-03-19T07:21:32Z\"\n    },\n    {\n      \"id\": \"601b81f7-9119-4ada-a0b5-35d2be9549c7\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T15:21:03.698973Z\",\n      \"email_id\": \"d5559068-83de-42b8-b7dc-13f3fc63bf8b\",\n      \"email_subject\": \"AW: WG: 1120 Wien, Schallergasse 35 (gü)\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-09-17T10:35:25Z\"\n    },\n    {\n      \"id\": \"9beb3630-44ab-4c3d-aaa7-ad97372854bc\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T15:17:31.517355Z\",\n      \"email_id\": \"276acd1a-8709-473c-94ab-1d75e513a7f4\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-03-19T10:12:20Z\"\n    },\n    {\n      \"id\": \"a32ae0ea-34a6-4de7-96a4-454733d13bcd\",\n      \"filename\": \"Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf\",\n      \"size\": 660260,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T15:17:31.517355Z\",\n      \"email_id\": \"276acd1a-8709-473c-94ab-1d75e513a7f4\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-03-19T10:12:20Z\"\n    },\n    {\n      \"id\": \"85a8fc1a-4d16-4d2a-9b82-20086d7385ac\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-09-17T10:38:14.504635Z\",\n      \"email_id\": \"4439ac87-e765-4875-b5b9-e1ade8d695fe\",\n      \"email_subject\": \"AW: WG: 1120 Wien, Schallergasse 35 (gü)\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-09-17T10:35:25Z\"\n    },\n    {\n      \"id\": \"98062ee8-a5ad-4619-a051-eebf0370e9c4\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-09-17T10:37:09.759074Z\",\n      \"email_id\": \"b8bab41b-0cd5-40a8-8467-ca9c98c344d4\",\n      \"email_subject\": \"AW: WG: 1120 Wien, Schallergasse 35 (gü)\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-09-17T10:37:09Z\"\n    },\n    {\n      \"id\": \"2fbc3676-1ce8-415f-bb85-73f3b141bf7e\",\n      \"filename\": \"Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf\",\n      \"size\": 660260,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T11:00:37.263338Z\",\n      \"email_id\": \"28a645e5-0363-4829-81a7-5934df740703\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-03-19T08:13:21Z\"\n    },\n    {\n      \"id\": \"6f5522ea-6c31-41d4-ad1c-f960fa71e6b9\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T11:00:37.263338Z\",\n      \"email_id\": \"d895eb53-e181-4e07-89d6-54b5d642ee0e\",\n      \"email_subject\": \"AW: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Office@hofhans.at\",\n      \"email_date\": \"2026-03-19T05:22:02Z\"\n    },\n    {\n      \"id\": \"db061230-6d4f-48e9-a5ec-8368ceaabb62\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-29T11:00:37.263338Z\",\n      \"email_id\": \"28a645e5-0363-4829-81a7-5934df740703\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-03-19T08:13:21Z\"\n    },\n    {\n      \"id\": \"1e7fbf03-0d56-4e50-aab3-06705fd39644\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-04-01T06:46:27.368229Z\",\n      \"email_id\": \"a6a9f8a4-4ca6-4f7e-8095-b9b425f5ab74\",\n      \"email_subject\": \"AW: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Office@hofhans.at\",\n      \"email_date\": \"2026-03-19T07:21:32Z\"\n    },\n    {\n      \"id\": \"91961843-b300-42cf-8890-2f99310c2486\",\n      \"filename\": \"Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf\",\n      \"size\": 660260,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-04-01T06:46:13.636115Z\",\n      \"email_id\": \"8d541207-20b1-475d-aa39-7f71f475bc95\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-03-19T10:12:20Z\"\n    },\n    {\n      \"id\": \"f611c305-999f-424d-b83a-6412e3c59305\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-04-01T06:46:13.635279Z\",\n      \"email_id\": \"8d541207-20b1-475d-aa39-7f71f475bc95\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]\",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-03-19T10:12:20Z\"\n    }\n  ],\n  \"total\": 12\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "8c9208be-b6f7-4905-aa90-7e59d287ab73",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T15:24:59.785842Z",
+          "email_id": "b8519285-45cc-488d-8ccd-756a89c491ec",
+          "email_subject": "AW: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Office@hofhans.at",
+          "email_date": "2026-03-19T07:21:32Z"
+        },
+        {
+          "id": "601b81f7-9119-4ada-a0b5-35d2be9549c7",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T15:21:03.698973Z",
+          "email_id": "d5559068-83de-42b8-b7dc-13f3fc63bf8b",
+          "email_subject": "AW: WG: 1120 Wien, Schallergasse 35 (gü)",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-09-17T10:35:25Z"
+        },
+        {
+          "id": "9beb3630-44ab-4c3d-aaa7-ad97372854bc",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T15:17:31.517355Z",
+          "email_id": "276acd1a-8709-473c-94ab-1d75e513a7f4",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-03-19T10:12:20Z"
+        },
+        {
+          "id": "a32ae0ea-34a6-4de7-96a4-454733d13bcd",
+          "filename": "Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf",
+          "size": 660260,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T15:17:31.517355Z",
+          "email_id": "276acd1a-8709-473c-94ab-1d75e513a7f4",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-03-19T10:12:20Z"
+        },
+        {
+          "id": "85a8fc1a-4d16-4d2a-9b82-20086d7385ac",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-09-17T10:38:14.504635Z",
+          "email_id": "4439ac87-e765-4875-b5b9-e1ade8d695fe",
+          "email_subject": "AW: WG: 1120 Wien, Schallergasse 35 (gü)",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-09-17T10:35:25Z"
+        },
+        {
+          "id": "98062ee8-a5ad-4619-a051-eebf0370e9c4",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-09-17T10:37:09.759074Z",
+          "email_id": "b8bab41b-0cd5-40a8-8467-ca9c98c344d4",
+          "email_subject": "AW: WG: 1120 Wien, Schallergasse 35 (gü)",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-09-17T10:37:09Z"
+        },
+        {
+          "id": "2fbc3676-1ce8-415f-bb85-73f3b141bf7e",
+          "filename": "Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf",
+          "size": 660260,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-06-29T11:00:37.263338Z",
+          "email_id": "28a645e5-0363-4829-81a7-5934df740703",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-03-19T08:13:21Z"
+        },
+        {
+          "id": "6f5522ea-6c31-41d4-ad1c-f960fa71e6b9",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-06-29T11:00:37.263338Z",
+          "email_id": "d895eb53-e181-4e07-89d6-54b5d642ee0e",
+          "email_subject": "AW: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Office@hofhans.at",
+          "email_date": "2026-03-19T05:22:02Z"
+        },
+        {
+          "id": "db061230-6d4f-48e9-a5ec-8368ceaabb62",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-06-29T11:00:37.263338Z",
+          "email_id": "28a645e5-0363-4829-81a7-5934df740703",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-03-19T08:13:21Z"
+        },
+        {
+          "id": "1e7fbf03-0d56-4e50-aab3-06705fd39644",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-04-01T06:46:27.368229Z",
+          "email_id": "a6a9f8a4-4ca6-4f7e-8095-b9b425f5ab74",
+          "email_subject": "AW: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Office@hofhans.at",
+          "email_date": "2026-03-19T07:21:32Z"
+        },
+        {
+          "id": "91961843-b300-42cf-8890-2f99310c2486",
+          "filename": "Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf",
+          "size": 660260,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-04-01T06:46:13.636115Z",
+          "email_id": "8d541207-20b1-475d-aa39-7f71f475bc95",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-03-19T10:12:20Z"
+        },
+        {
+          "id": "f611c305-999f-424d-b83a-6412e3c59305",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-04-01T06:46:13.635279Z",
+          "email_id": "8d541207-20b1-475d-aa39-7f71f475bc95",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-03-19T10:12:20Z"
+        }
+      ],
+      "total": 12
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 4762
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-ec488084-257f-4dbe-9361-b214257eb685",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_documents",
+  "status": "completed",
+  "arguments": {
+    "q": "ACHTUNG: Ihr Versicherungsschutz ist in Gefahr",
+    "limit": 15
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_documents"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"914ff420-68fd-4f62-a8db-5a88574935bd\",\n      \"filename\": \"20260526163520179.pdf\",\n      \"size\": 386468,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-10-02T15:36:29.327032Z\",\n      \"email_id\": \"2bea321f-a397-4c17-b8f6-cf7f9d181177\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) \",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-05-27T07:59:22Z\"\n    },\n    {\n      \"id\": \"d51ef13e-af18-41fa-a657-a6afd7524855\",\n      \"filename\": \"B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf\",\n      \"size\": 127487,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-10T08:49:20.634724Z\",\n      \"email_id\": \"16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f\",\n      \"email_subject\": \"WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728\",\n      \"email_sender\": \"C.Loschy@donauversicherung.at\",\n      \"email_date\": \"2026-06-10T05:09:18Z\"\n    },\n    {\n      \"id\": \"9e1485f3-33b3-49e2-bdcf-4ec79471807c\",\n      \"filename\": \"20260526163520179.pdf\",\n      \"size\": 386468,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-02T18:36:37.057341Z\",\n      \"email_id\": \"53d616cb-8514-4b63-b71b-cceb5433230b\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) \",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-05-27T07:59:22Z\"\n    },\n    {\n      \"id\": \"66a770d7-1aa4-4397-8c6d-4fc13bbb59af\",\n      \"filename\": \"20260526163520179.pdf\",\n      \"size\": 386468,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-06-02T18:36:35.539857Z\",\n      \"email_id\": \"cb505d08-3562-4ad6-a659-ed10ce34b02d\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) \",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-05-27T05:00:12Z\"\n    },\n    {\n      \"id\": \"5b42cafb-edb0-4691-9c76-d4d2b1485d1e\",\n      \"filename\": \"20260526163520179.pdf\",\n      \"size\": 386468,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-05-27T08:00:13.558752Z\",\n      \"email_id\": \"cb505d08-3562-4ad6-a659-ed10ce34b02d\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) \",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-05-27T05:00:12Z\"\n    },\n    {\n      \"id\": \"7b127f0d-95be-4157-93c5-8473e6e938e3\",\n      \"filename\": \"20260526163520179.pdf\",\n      \"size\": 386468,\n      \"mime_type\": \"application/pdf\",\n      \"source\": \"email_attachment\",\n      \"has_text\": true,\n      \"created_at\": \"2026-05-27T08:00:02.580732Z\",\n      \"email_id\": \"53d616cb-8514-4b63-b71b-cceb5433230b\",\n      \"email_subject\": \"WG: 1120 Wien, Schallergasse 35 (gü) \",\n      \"email_sender\": \"Bogdan.Capra@cerhahempel.com\",\n      \"email_date\": \"2026-05-27T07:59:22Z\"\n    }\n  ],\n  \"total\": 6\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "914ff420-68fd-4f62-a8db-5a88574935bd",
+          "filename": "20260526163520179.pdf",
+          "size": 386468,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-10-02T15:36:29.327032Z",
+          "email_id": "2bea321f-a397-4c17-b8f6-cf7f9d181177",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-05-27T07:59:22Z"
+        },
+        {
+          "id": "d51ef13e-af18-41fa-a657-a6afd7524855",
+          "filename": "B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf",
+          "size": 127487,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-06-10T08:49:20.634724Z",
+          "email_id": "16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f",
+          "email_subject": "WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "email_sender": "C.Loschy@donauversicherung.at",
+          "email_date": "2026-06-10T05:09:18Z"
+        },
+        {
+          "id": "9e1485f3-33b3-49e2-bdcf-4ec79471807c",
+          "filename": "20260526163520179.pdf",
+          "size": 386468,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-06-02T18:36:37.057341Z",
+          "email_id": "53d616cb-8514-4b63-b71b-cceb5433230b",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-05-27T07:59:22Z"
+        },
+        {
+          "id": "66a770d7-1aa4-4397-8c6d-4fc13bbb59af",
+          "filename": "20260526163520179.pdf",
+          "size": 386468,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-06-02T18:36:35.539857Z",
+          "email_id": "cb505d08-3562-4ad6-a659-ed10ce34b02d",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-05-27T05:00:12Z"
+        },
+        {
+          "id": "5b42cafb-edb0-4691-9c76-d4d2b1485d1e",
+          "filename": "20260526163520179.pdf",
+          "size": 386468,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-05-27T08:00:13.558752Z",
+          "email_id": "cb505d08-3562-4ad6-a659-ed10ce34b02d",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-05-27T05:00:12Z"
+        },
+        {
+          "id": "7b127f0d-95be-4157-93c5-8473e6e938e3",
+          "filename": "20260526163520179.pdf",
+          "size": 386468,
+          "mime_type": "application/pdf",
+          "source": "email_attachment",
+          "has_text": true,
+          "created_at": "2026-05-27T08:00:02.580732Z",
+          "email_id": "53d616cb-8514-4b63-b71b-cceb5433230b",
+          "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+          "email_sender": "Bogdan.Capra@cerhahempel.com",
+          "email_date": "2026-05-27T07:59:22Z"
+        }
+      ],
+      "total": 6
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 4885
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-bcb59d5d-ec76-4ce2-978d-916cf2825cc8",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_draft",
+  "status": "completed",
+  "arguments": {
+    "draft_id": "aa653a96-7eee-4133-a41d-5892ea79788d"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"aa653a96-7eee-4133-a41d-5892ea79788d\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n  \"account_email\": \"office@ac-wohnart.at\",\n  \"to\": [\n    \"c.loschy@donauversicherung.at\",\n    \"donau@donauversicherung.at\"\n  ],\n  \"cc\": [\n    \"office@maritczak.at\",\n    \"s.gruber@commerz-inkasso.at\"\n  ],\n  \"bcc\": [],\n  \"subject\": \"Polizze 2044001194 / AZ 2616052 – Beendigung 2027.01.01, hilfsweise 2027.01.08; Abrechnung und Wiederherstellung der Deckung\",\n  \"body\": \"Sehr geehrte Frau Loschy,\\n\\nsehr geehrte Damen und Herren,\\n\\nwir nehmen Bezug auf Ihre Nachricht vom 2026.10.06 zur Polizze 2044001194, Rahmenvertrag 2900010498, und zum Inkasso-Aktenzeichen 2616052.\\n\\nBeendigung zum Jahreswechsel\\n\\nWir ersuchen erneut um eine einvernehmliche Beendigung des gesamten Versicherungsvertrags mit Wirkung zum 2027.01.01, 00:00 Uhr. Falls Sie diesem Termin nicht zustimmen, ersuchen wir hilfsweise um eine einvernehmliche Beendigung zum 2027.01.08, 00:00 Uhr.\\n\\nUnabhängig von diesem Ersuchen halten wir unsere Kündigungserklärung vom 2026.10.01 aufrecht und kündigen vorsorglich nochmals zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin. Bitte bestätigen Sie schriftlich den konkreten Beendigungszeitpunkt und die von Ihnen verlangte Form.\\n\\nWir behaupten nicht, dass eine dreimonatige Frist allein einen beliebigen Beendigungstermin eröffnet. Bitte prüfen Sie jedoch ausdrücklich beide vorgeschlagenen Termine und legen Sie bei Ablehnung die maßgeblichen Vertragsbestimmungen und die rechtliche Begründung offen.\\n\\nNachweis der Bindung bis 2036\\n\\nDie uns vorliegende Änderungspolizze nennt den Ablauf 2036.01.01. Auch die Polizze vom 2026.02.03 für die frühere Eigentümerin nennt dieses Datum. Bitte übermitteln Sie den zugrunde liegenden Antrag, die Annahmeerklärung, die Laufzeitvereinbarung, den vollständigen Rahmenvertrag und die einschlägigen Bedingungen.\\n\\nBitte erläutern Sie, worauf die Bindung der A&C Wohnart Immobilien GmbH bis 2036 beruht, ob ein früheres vertragliches Kündigungsrecht besteht und wie unsere früheren Erklärungen sowie das Erwerberkündigungsrecht nach §§ 69 und 70 VersVG geprüft wurden. Bitte nennen Sie dabei die von Ihnen zugrunde gelegten Erwerbs- und Kenntnisdaten.\\n\\nAbrechnung bis zur gewünschten Beendigung\\n\\nBitte übermitteln Sie eine vollständige schriftliche Kontenaufstellung zum heutigen Stand sowie zwei getrennte Berechnungen für die Beendigung zum 2027.01.01 und zum 2027.01.08.\\n\\nDie Aufstellung soll jeweils enthalten:\\n- sämtliche Prämien nach Versicherungszweig, Zeitraum, Fälligkeit und Versicherungssteuer;\\n- die bereits verlangte Prämie für 2026.10.01–2027.01.01, ohne Doppelzählung;\\n- jede verbuchte Zahlung, Gutschrift und allfällige Prämienreduktion;\\n- Zinsen mit Kapital, Zinssatz und Berechnungszeitraum;\\n- Mahn-, Inkasso- und sonstige Kosten mit Einzelbegründung;\\n- den Endsaldo und eine taggenaue Berechnung einer etwaigen Restprämie, soweit § 40 VersVG bei tatsächlicher Beendigung anzuwenden ist.\\n\\nDie bisher kommunizierten EUR 5.326,15 sind damit nicht als unstreitiger Saldo anerkannt. Bitte weisen Sie etwaige zusätzliche Forderungen aus vorzeitiger Beendigung, insbesondere nach Klausel 1000K „Laufzeitvorteil“, getrennt aus und begründen Sie deren Rechtsgrundlage, Berechnungsbasis und Anwendbarkeit.\\n\\nFür die gewünschte einvernehmliche Lösung ersuchen wir ausdrücklich um Verzicht auf eine Nachtragsprämie, Dauerrabatt-Rückforderung oder sonstige Beendigungsgebühr. Ein allfälliger Verzicht soll Bestandteil der schriftlichen Beendigungsvereinbarung sein.\\n\\nFehlender Versicherungsschutz und Wirkung einer Zahlung\\n\\nIhre Aussage, dass derzeit kein Versicherungsschutz besteht, während weiterhin Prämien verlangt werden, bedarf einer konkreten Erklärung. Bitte unterscheiden Sie zwischen dem Fortbestand des Vertrags, einer Leistungsfreiheit wegen Prämienverzugs und einer tatsächlich bereits erklärten Vertragsbeendigung.\\n\\nBitte teilen Sie schriftlich mit:\\n- seit welchem genauen Zeitpunkt und für welche Versicherungszweige Sie Leistungsfreiheit geltend machen;\\n- welche qualifizierte Mahnung nach § 39 Abs. 1 VersVG Sie heranziehen, einschließlich Frist, Belehrung und Zugangsnachweis;\\n- ob eine Kündigung durch DONAU erklärt wurde, und gegebenenfalls wann sie wirksam geworden sein soll;\\n- welchen exakt bezifferten Prämienbetrag wir zahlen müssten, damit Versicherungsschutz wieder besteht;\\n- an welchen Empfänger und mit welcher Referenz dieser Betrag zu zahlen und wie er verbindlich auf die Prämien zu verbuchen ist;\\n- ab welchem genauen Datum und welcher Uhrzeit nach Zahlungseingang welche Deckung wieder besteht, einschließlich etwaiger zusätzlicher Voraussetzungen;\\n- ob vergangene Zeiträume weiterhin ungedeckt bleiben und aus welchem konkreten Grund für diese Zeiträume Prämien verlangt werden.\\n\\n§ 39 Abs. 4 VersVG sieht vor, dass die Nichtzahlung von Zinsen oder Kosten die Rechtsfolgen der Absätze 1 bis 3 nicht auslöst. Bitte erläutern Sie daher gesondert, ob die Begleichung der tatsächlich rückständigen Prämien bei weiterhin streitigen Nebenforderungen die Deckung wiederherstellt, und bestätigen Sie die dafür erforderliche Zahlungszuordnung.\\n\\nWir setzen weder eine rückwirkende Deckung noch eine automatische Beendigung durch Zahlung voraus. Gerade diese Folgen wollen wir vor einer Zahlungsentscheidung verbindlich klären.\\n\\nPrämienanpassung und zeitnahe Antwort\\n\\nDie Anfrage zur Prämienanpassung bleibt aufrecht. Bitte bestätigen Sie, ob weiterhin ausschließlich die von Herrn Pfeiffer am 2026.07.14 genannten Unterlagen fehlen, und erläutern Sie die mögliche Reduktion sowie deren frühestmöglichen Beginn unter Berücksichtigung von § 41a VersVG. Diese Unterlagen werden mit dieser Nachricht nicht als bereits vorgelegt bezeichnet.\\n\\nWegen des ungeklärten Versicherungsschutzes und des mitgeteilten Inkasso-Termins 2026.10.12 bitten wir um Ihre schriftliche Antwort bis 2026.10.09, 12:00 Uhr Wiener Zeit, zumindest vorab zum Deckungsstatus und zum Betrag für eine Wiederherstellung der Deckung.\\n\\nBitte teilen Sie zugleich mit, ob Sie bis zur nachvollziehbaren Klärung weitere Inkasso-Maßnahmen und zusätzliche Kosten aussetzen. Eine solche Aussetzung wird von uns nicht als bereits zugesagt angesehen.\\n\\nDiese Erklärung enthält weder ein Anerkenntnis der Höhe oder Berechtigung sämtlicher Forderungen noch einen Verzicht auf Einwendungen. Bitte übermitteln Sie die Antwort und Unterlagen als Text beziehungsweise PDF an office@ac-wohnart.at und die angeführten CC-Empfänger.\\n\\nMit freundlichen Grüßen\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"2c273256-a0bf-408b-bb22-09718372e888\",\n  \"created_at\": \"2026-10-07T08:38:07.673032Z\",\n  \"updated_at\": \"2026-10-07T08:38:07.673032Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "aa653a96-7eee-4133-a41d-5892ea79788d",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+      "account_email": "office@ac-wohnart.at",
+      "to": [
+        "c.loschy@donauversicherung.at",
+        "donau@donauversicherung.at"
+      ],
+      "cc": [
+        "office@maritczak.at",
+        "s.gruber@commerz-inkasso.at"
+      ],
+      "bcc": [],
+      "subject": "Polizze 2044001194 / AZ 2616052 – Beendigung 2027.01.01, hilfsweise 2027.01.08; Abrechnung und Wiederherstellung der Deckung",
+      "body": "Sehr geehrte Frau Loschy,\n\nsehr geehrte Damen und Herren,\n\nwir nehmen Bezug auf Ihre Nachricht vom 2026.10.06 zur Polizze 2044001194, Rahmenvertrag 2900010498, und zum Inkasso-Aktenzeichen 2616052.\n\nBeendigung zum Jahreswechsel\n\nWir ersuchen erneut um eine einvernehmliche Beendigung des gesamten Versicherungsvertrags mit Wirkung zum 2027.01.01, 00:00 Uhr. Falls Sie diesem Termin nicht zustimmen, ersuchen wir hilfsweise um eine einvernehmliche Beendigung zum 2027.01.08, 00:00 Uhr.\n\nUnabhängig von diesem Ersuchen halten wir unsere Kündigungserklärung vom 2026.10.01 aufrecht und kündigen vorsorglich nochmals zum nächstmöglichen gesetzlich oder vertraglich zulässigen Termin. Bitte bestätigen Sie schriftlich den konkreten Beendigungszeitpunkt und die von Ihnen verlangte Form.\n\nWir behaupten nicht, dass eine dreimonatige Frist allein einen beliebigen Beendigungstermin eröffnet. Bitte prüfen Sie jedoch ausdrücklich beide vorgeschlagenen Termine und legen Sie bei Ablehnung die maßgeblichen Vertragsbestimmungen und die rechtliche Begründung offen.\n\nNachweis der Bindung bis 2036\n\nDie uns vorliegende Änderungspolizze nennt den Ablauf 2036.01.01. Auch die Polizze vom 2026.02.03 für die frühere Eigentümerin nennt dieses Datum. Bitte übermitteln Sie den zugrunde liegenden Antrag, die Annahmeerklärung, die Laufzeitvereinbarung, den vollständigen Rahmenvertrag und die einschlägigen Bedingungen.\n\nBitte erläutern Sie, worauf die Bindung der A&C Wohnart Immobilien GmbH bis 2036 beruht, ob ein früheres vertragliches Kündigungsrecht besteht und wie unsere früheren Erklärungen sowie das Erwerberkündigungsrecht nach §§ 69 und 70 VersVG geprüft wurden. Bitte nennen Sie dabei die von Ihnen zugrunde gelegten Erwerbs- und Kenntnisdaten.\n\nAbrechnung bis zur gewünschten Beendigung\n\nBitte übermitteln Sie eine vollständige schriftliche Kontenaufstellung zum heutigen Stand sowie zwei getrennte Berechnungen für die Beendigung zum 2027.01.01 und zum 2027.01.08.\n\nDie Aufstellung soll jeweils enthalten:\n- sämtliche Prämien nach Versicherungszweig, Zeitraum, Fälligkeit und Versicherungssteuer;\n- die bereits verlangte Prämie für 2026.10.01–2027.01.01, ohne Doppelzählung;\n- jede verbuchte Zahlung, Gutschrift und allfällige Prämienreduktion;\n- Zinsen mit Kapital, Zinssatz und Berechnungszeitraum;\n- Mahn-, Inkasso- und sonstige Kosten mit Einzelbegründung;\n- den Endsaldo und eine taggenaue Berechnung einer etwaigen Restprämie, soweit § 40 VersVG bei tatsächlicher Beendigung anzuwenden ist.\n\nDie bisher kommunizierten EUR 5.326,15 sind damit nicht als unstreitiger Saldo anerkannt. Bitte weisen Sie etwaige zusätzliche Forderungen aus vorzeitiger Beendigung, insbesondere nach Klausel 1000K „Laufzeitvorteil“, getrennt aus und begründen Sie deren Rechtsgrundlage, Berechnungsbasis und Anwendbarkeit.\n\nFür die gewünschte einvernehmliche Lösung ersuchen wir ausdrücklich um Verzicht auf eine Nachtragsprämie, Dauerrabatt-Rückforderung oder sonstige Beendigungsgebühr. Ein allfälliger Verzicht soll Bestandteil der schriftlichen Beendigungsvereinbarung sein.\n\nFehlender Versicherungsschutz und Wirkung einer Zahlung\n\nIhre Aussage, dass derzeit kein Versicherungsschutz besteht, während weiterhin Prämien verlangt werden, bedarf einer konkreten Erklärung. Bitte unterscheiden Sie zwischen dem Fortbestand des Vertrags, einer Leistungsfreiheit wegen Prämienverzugs und einer tatsächlich bereits erklärten Vertragsbeendigung.\n\nBitte teilen Sie schriftlich mit:\n- seit welchem genauen Zeitpunkt und für welche Versicherungszweige Sie Leistungsfreiheit geltend machen;\n- welche qualifizierte Mahnung nach § 39 Abs. 1 VersVG Sie heranziehen, einschließlich Frist, Belehrung und Zugangsnachweis;\n- ob eine Kündigung durch DONAU erklärt wurde, und gegebenenfalls wann sie wirksam geworden sein soll;\n- welchen exakt bezifferten Prämienbetrag wir zahlen müssten, damit Versicherungsschutz wieder besteht;\n- an welchen Empfänger und mit welcher Referenz dieser Betrag zu zahlen und wie er verbindlich auf die Prämien zu verbuchen ist;\n- ab welchem genauen Datum und welcher Uhrzeit nach Zahlungseingang welche Deckung wieder besteht, einschließlich etwaiger zusätzlicher Voraussetzungen;\n- ob vergangene Zeiträume weiterhin ungedeckt bleiben und aus welchem konkreten Grund für diese Zeiträume Prämien verlangt werden.\n\n§ 39 Abs. 4 VersVG sieht vor, dass die Nichtzahlung von Zinsen oder Kosten die Rechtsfolgen der Absätze 1 bis 3 nicht auslöst. Bitte erläutern Sie daher gesondert, ob die Begleichung der tatsächlich rückständigen Prämien bei weiterhin streitigen Nebenforderungen die Deckung wiederherstellt, und bestätigen Sie die dafür erforderliche Zahlungszuordnung.\n\nWir setzen weder eine rückwirkende Deckung noch eine automatische Beendigung durch Zahlung voraus. Gerade diese Folgen wollen wir vor einer Zahlungsentscheidung verbindlich klären.\n\nPrämienanpassung und zeitnahe Antwort\n\nDie Anfrage zur Prämienanpassung bleibt aufrecht. Bitte bestätigen Sie, ob weiterhin ausschließlich die von Herrn Pfeiffer am 2026.07.14 genannten Unterlagen fehlen, und erläutern Sie die mögliche Reduktion sowie deren frühestmöglichen Beginn unter Berücksichtigung von § 41a VersVG. Diese Unterlagen werden mit dieser Nachricht nicht als bereits vorgelegt bezeichnet.\n\nWegen des ungeklärten Versicherungsschutzes und des mitgeteilten Inkasso-Termins 2026.10.12 bitten wir um Ihre schriftliche Antwort bis 2026.10.09, 12:00 Uhr Wiener Zeit, zumindest vorab zum Deckungsstatus und zum Betrag für eine Wiederherstellung der Deckung.\n\nBitte teilen Sie zugleich mit, ob Sie bis zur nachvollziehbaren Klärung weitere Inkasso-Maßnahmen und zusätzliche Kosten aussetzen. Eine solche Aussetzung wird von uns nicht als bereits zugesagt angesehen.\n\nDiese Erklärung enthält weder ein Anerkenntnis der Höhe oder Berechtigung sämtlicher Forderungen noch einen Verzicht auf Einwendungen. Bitte übermitteln Sie die Antwort und Unterlagen als Text beziehungsweise PDF an office@ac-wohnart.at und die angeführten CC-Empfänger.\n\nMit freundlichen Grüßen\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "2c273256-a0bf-408b-bb22-09718372e888",
+      "created_at": "2026-10-07T08:38:07.673032Z",
+      "updated_at": "2026-10-07T08:38:07.673032Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 541
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-8fb77ffa-7faf-4be5-9701-645c8769ac03",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_attach_chat_file",
+  "status": "completed",
+  "arguments": {
+    "file": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Verificare zilnica\\2026.10.07 PRIMIT DONAU 2c273256.txt",
+    "filename": "2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_attach_chat_file"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"3f75eec7-f5f7-43e8-bc5c-94562aa09f2e\",\n  \"filename\": \"2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt\",\n  \"size\": 4948,\n  \"mime_type\": \"text/plain\",\n  \"format\": \"txt\",\n  \"draft_id\": null,\n  \"note\": \"Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "3f75eec7-f5f7-43e8-bc5c-94562aa09f2e",
+      "filename": "2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt",
+      "size": 4948,
+      "mime_type": "text/plain",
+      "format": "txt",
+      "draft_id": null,
+      "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 1654
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-5423ddd2-7871-45a7-9bad-69b19c57c1c8",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_attach_chat_file",
+  "status": "completed",
+  "arguments": {
+    "file": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 DRAFT Cerere reziliere Donau.txt",
+    "filename": "2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_attach_chat_file"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"eddb06cb-dec5-4627-abf6-95b00f9385c3\",\n  \"filename\": \"2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt\",\n  \"size\": 6775,\n  \"mime_type\": \"text/plain\",\n  \"format\": \"txt\",\n  \"draft_id\": null,\n  \"note\": \"Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "eddb06cb-dec5-4627-abf6-95b00f9385c3",
+      "filename": "2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt",
+      "size": 6775,
+      "mime_type": "text/plain",
+      "format": "txt",
+      "draft_id": null,
+      "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 1508
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-808d335c-d0a1-4b79-a91a-97eb757e9360",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_attachment",
+  "status": "completed",
+  "arguments": {
+    "attachment_id": "d51ef13e-af18-41fa-a657-a6afd7524855",
+    "max_chars": 4000
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_attachment"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"d51ef13e-af18-41fa-a657-a6afd7524855\",\n  \"email_id\": \"16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f\",\n  \"name\": \"B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf\",\n  \"content_type\": \"application/pdf\",\n  \"size\": 127487,\n  \"page_count\": null,\n  \"total_chars\": 2146,\n  \"offset\": 0,\n  \"text\": \" \\n Generaldirektion , Schottenring 15, 1010 Wien  \\nServiceline: +43 50 330 330, donau@donauversicherung.at, donauversicherung.at  \\nCreditor -ID: AT34ZZZ00000003107, IBAN:  AT67 2011 1403 1004 1414, BIC: GIBAATWWXXX  \\n \\nDONAU Versicherung AG Vienna Insurance Group  \\nSitz in 1010 Wien, Schottenring 15, FN 32002m, Handelsgericht Wien  \\n \\n 05.06.2026   \\n \\nPolizze Nr. 2044001194 / bisherige Polizze Nr. X712.261 -2 \\noffene Prämie: EUR 1.591,81  Mahnspesen: EUR 20,00  \\nACHTUNG: Ihr Versicherungsschutz ist in Gefahr!  \\nGuten Tag!  \\n \\nDie Prämie zu dem oben angeführten Versicherungsvertrag ist leider noch nicht bei uns eingegangen.  \\nZahlen Sie die offene Prämie bitte innerhalb der nächsten zwei Wochen  ein (§ 39 Versicherungs -\\nvertragsgesetz).  \\nTritt nach Ablauf dieser Frist ein Versicherungsfall ein und sind Sie auch dann noch mit der Zahlung der \\noffenen Prämie schuldhaft in Verzug, sind wir von der Verpflichtung zur Leistung frei.  \\nWir weisen Sie außerdem darauf hin, dass der Versicherer das Versicherungsverhältnis mit sofortiger \\nWirkung kündigen kann, wenn die/der VersicherungsnehmerIn auch nach Ablauf der angesetzten Frist mit \\nder Zahlung in Verzug ist.  \\nDie Kündigung wird wirkungslos, wenn die Prämienzahlung innerhalb eines Monats nach der Kündigung \\nnachgeholt wird und bis dahin noch kein Versicherungsfall eingetreten ist.  \\nBitte zahlen Sie die offene Prämie mit dem beiliegenden Zahlschein ein . \\nWenn Sie die Prämie in der Zwischenzeit bezahlt haben, betrachten Sie dieses Schreiben bitte als \\ngegenstandslos.  \\nHaben Sie Fragen?  \\nDie MitarbeiterInnen unserer Serviceline sind gerne jederzeit telefonisch unter 050 330 330 oder via E -Mail \\nunter donau@donauversicherung.at  für Sie da. Außerdem können Sie uns per Live Chat oder Video Chat \\nauf unserer Website donauversicherung.at erreichen.  \\nFreundliche Grüße  \\nDONAU Versicherung AG  \\nVienna Insurance Group  \\n \\n  \\nppa. Fuhs  i.A. Mag. Riegler  \\nBeilage:  Zahlschein  Für Sie da  \\nServiceline  \\nTelefon: +43 (0)50 330  330 \\ndonau@donauversicherung.at   \\n \\nRetouren an Postfach 33 0, 1375 Wien  \\nA&C Wohnart Immobilien GmbH  \\nParkring 2  \\n1010 Wien  \\n \\n \\n \\n \\n \\n\",\n  \"truncated\": false\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "d51ef13e-af18-41fa-a657-a6afd7524855",
+      "email_id": "16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f",
+      "name": "B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf",
+      "content_type": "application/pdf",
+      "size": 127487,
+      "page_count": null,
+      "total_chars": 2146,
+      "offset": 0,
+      "text": " \n Generaldirektion , Schottenring 15, 1010 Wien  \nServiceline: +43 50 330 330, donau@donauversicherung.at, donauversicherung.at  \nCreditor -ID: AT34ZZZ00000003107, IBAN:  AT67 2011 1403 1004 1414, BIC: GIBAATWWXXX  \n \nDONAU Versicherung AG Vienna Insurance Group  \nSitz in 1010 Wien, Schottenring 15, FN 32002m, Handelsgericht Wien  \n \n 05.06.2026   \n \nPolizze Nr. 2044001194 / bisherige Polizze Nr. X712.261 -2 \noffene Prämie: EUR 1.591,81  Mahnspesen: EUR 20,00  \nACHTUNG: Ihr Versicherungsschutz ist in Gefahr!  \nGuten Tag!  \n \nDie Prämie zu dem oben angeführten Versicherungsvertrag ist leider noch nicht bei uns eingegangen.  \nZahlen Sie die offene Prämie bitte innerhalb der nächsten zwei Wochen  ein (§ 39 Versicherungs -\nvertragsgesetz).  \nTritt nach Ablauf dieser Frist ein Versicherungsfall ein und sind Sie auch dann noch mit der Zahlung der \noffenen Prämie schuldhaft in Verzug, sind wir von der Verpflichtung zur Leistung frei.  \nWir weisen Sie außerdem darauf hin, dass der Versicherer das Versicherungsverhältnis mit sofortiger \nWirkung kündigen kann, wenn die/der VersicherungsnehmerIn auch nach Ablauf der angesetzten Frist mit \nder Zahlung in Verzug ist.  \nDie Kündigung wird wirkungslos, wenn die Prämienzahlung innerhalb eines Monats nach der Kündigung \nnachgeholt wird und bis dahin noch kein Versicherungsfall eingetreten ist.  \nBitte zahlen Sie die offene Prämie mit dem beiliegenden Zahlschein ein . \nWenn Sie die Prämie in der Zwischenzeit bezahlt haben, betrachten Sie dieses Schreiben bitte als \ngegenstandslos.  \nHaben Sie Fragen?  \nDie MitarbeiterInnen unserer Serviceline sind gerne jederzeit telefonisch unter 050 330 330 oder via E -Mail \nunter donau@donauversicherung.at  für Sie da. Außerdem können Sie uns per Live Chat oder Video Chat \nauf unserer Website donauversicherung.at erreichen.  \nFreundliche Grüße  \nDONAU Versicherung AG  \nVienna Insurance Group  \n \n  \nppa. Fuhs  i.A. Mag. Riegler  \nBeilage:  Zahlschein  Für Sie da  \nServiceline  \nTelefon: +43 (0)50 330  330 \ndonau@donauversicherung.at   \n \nRetouren an Postfach 33 0, 1375 Wien  \nA&C Wohnart Immobilien GmbH  \nParkring 2  \n1010 Wien  \n \n \n \n \n \n",
+      "truncated": false
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 469
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-f7e02fca-5ecf-4dfe-9129-fff098a5c14f",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_create_draft",
+  "status": "completed",
+  "arguments": {
+    "account_email": "office@ac-wohnart.at",
+    "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "to": [
+      "Bogdan.Capra@cerhahempel.com"
+    ],
+    "cc": [],
+    "subject": "2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]",
+    "body": "Bună ziua, domnule Capra,\n\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\n\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\n\nSituația urgentă\n\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\n\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\n\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\n\nVă rog să răspundeți punctual:\n\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\n\nLivrabilul solicitat\n\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\n\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\n\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\n\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\n\nCu stimă,",
+    "attachment_ids": [
+      "ad453388-c79d-4b5a-830b-6a9ab0509c4e",
+      "db061230-6d4f-48e9-a5ec-8368ceaabb62",
+      "d51ef13e-af18-41fa-a657-a6afd7524855",
+      "2f806b69-dc6d-4b72-a7fb-476c01edff1c",
+      "31d4256e-5a0a-4459-b0de-24652186ce2a",
+      "951d3284-2a63-4de1-9158-d2be11f06308",
+      "3f75eec7-f5f7-43e8-bc5c-94562aa09f2e",
+      "eddb06cb-dec5-4627-abf6-95b00f9385c3"
+    ]
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_create_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"3b3a2213-bc82-47ea-a023-4692db3da65c\",\n  \"kind\": \"new\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n  \"account_email\": \"office@ac-wohnart.at\",\n  \"to\": [\n    \"Bogdan.Capra@cerhahempel.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]\",\n  \"body\": \"Bună ziua, domnule Capra,\\n\\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\\n\\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\\n\\nSituația urgentă\\n\\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\\n\\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\\n\\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\\n\\nVă rog să răspundeți punctual:\\n\\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\\n\\nLivrabilul solicitat\\n\\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\\n\\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\\n\\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\\n\\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\\n\\n\\nCu stimă,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [\n    {\n      \"id\": \"ad453388-c79d-4b5a-830b-6a9ab0509c4e\",\n      \"filename\": \"814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf\",\n      \"size\": 262935,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"db061230-6d4f-48e9-a5ec-8368ceaabb62\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"d51ef13e-af18-41fa-a657-a6afd7524855\",\n      \"filename\": \"B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf\",\n      \"size\": 127487,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"2f806b69-dc6d-4b72-a7fb-476c01edff1c\",\n      \"filename\": \"Kostenaufstellung.pdf\",\n      \"size\": 264012,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"31d4256e-5a0a-4459-b0de-24652186ce2a\",\n      \"filename\": \"Schreiben vom 17.09.2026.pdf\",\n      \"size\": 1369745,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"951d3284-2a63-4de1-9158-d2be11f06308\",\n      \"filename\": \"Memoformat.pdf\",\n      \"size\": 151397,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"3f75eec7-f5f7-43e8-bc5c-94562aa09f2e\",\n      \"filename\": \"2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt\",\n      \"size\": 4948,\n      \"mime_type\": \"text/plain\"\n    },\n    {\n      \"id\": \"eddb06cb-dec5-4627-abf6-95b00f9385c3\",\n      \"filename\": \"2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt\",\n      \"size\": 6775,\n      \"mime_type\": \"text/plain\"\n    }\n  ],\n  \"reply_to_email_id\": null,\n  \"created_at\": \"2026-10-07T08:44:16.323512Z\",\n  \"updated_at\": \"2026-10-07T08:44:16.323512Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "3b3a2213-bc82-47ea-a023-4692db3da65c",
+      "kind": "new",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+      "account_email": "office@ac-wohnart.at",
+      "to": [
+        "Bogdan.Capra@cerhahempel.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]",
+      "body": "Bună ziua, domnule Capra,\n\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\n\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\n\nSituația urgentă\n\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\n\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\n\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\n\nVă rog să răspundeți punctual:\n\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\n\nLivrabilul solicitat\n\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\n\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\n\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\n\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\n\n\nCu stimă,\n\nCosmin Adrian Covaciu",
+      "attachments": [
+        {
+          "id": "ad453388-c79d-4b5a-830b-6a9ab0509c4e",
+          "filename": "814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf",
+          "size": 262935,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "db061230-6d4f-48e9-a5ec-8368ceaabb62",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "d51ef13e-af18-41fa-a657-a6afd7524855",
+          "filename": "B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf",
+          "size": 127487,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "2f806b69-dc6d-4b72-a7fb-476c01edff1c",
+          "filename": "Kostenaufstellung.pdf",
+          "size": 264012,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "31d4256e-5a0a-4459-b0de-24652186ce2a",
+          "filename": "Schreiben vom 17.09.2026.pdf",
+          "size": 1369745,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "951d3284-2a63-4de1-9158-d2be11f06308",
+          "filename": "Memoformat.pdf",
+          "size": 151397,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "3f75eec7-f5f7-43e8-bc5c-94562aa09f2e",
+          "filename": "2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt",
+          "size": 4948,
+          "mime_type": "text/plain"
+        },
+        {
+          "id": "eddb06cb-dec5-4627-abf6-95b00f9385c3",
+          "filename": "2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt",
+          "size": 6775,
+          "mime_type": "text/plain"
+        }
+      ],
+      "reply_to_email_id": null,
+      "created_at": "2026-10-07T08:44:16.323512Z",
+      "updated_at": "2026-10-07T08:44:16.323512Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 4079
+}
+````
+
+## Asistent
+
+Pun doi agenți pe dosar: unul redactează analiza juridică aplicată, cu jurisprudență austriacă, iar celălalt verifică independent temeiurile, probele și concluziile. Materialul va compara opțiunile de încetare, drepturile și obligațiile, efectul plății asupra acoperirii și riscul costurilor suplimentare.
+
+Solicitarea către Capra rămâne netrimisă. Voi livra analiza în Word și PDF; folosesc skillurile Documents și PDF pentru redactare și verificarea documentului.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-1d95c98f-f13e-45cf-bdb9-6f02969166d3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\SKILL.md' -Encoding UTF8; Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\pdf\\\\26.915.20218\\\\skills\\\\pdf\\\\SKILL.md' -Encoding UTF8\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "40227",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\SKILL.md' -Encoding UTF8; Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.915.20218\\skills\\pdf\\SKILL.md' -Encoding UTF8"
+    }
+  ],
+  "aggregatedOutput": "---\r\nname: documents\r\ndescription: Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to generate page PNGs (and optional PDF) for visual QA, then iterate until layout is flawless before delivering the final document.\r\n---\r\n\r\n# DOCX Skill (Read • Create • Edit • Redline • Comment)\r\n\r\n## Titles + Intro to doc\r\n\r\n**Title clarity is an absolute requirement.** State the specific subject and purpose so the reader understands what the document is for before reading the body. Use plain descriptive language with no slogans and no punctuation. Apply this to document titles, subtitles, and section titles, using only words, numbers, and spaces. Use Word’s `Title` paragraph style for document titles. Keep it black with no underlining, paragraph borders, or decorative lines beneath it. Remove any direct formatting or separately added lines that conflict.\r\n\r\n**The opening content is essential to the reader's understanding of the whole document.** Establish what the document covers, why it matters to this reader, and the main conclusion, decision, or task. Give enough context and scope to make the sections that follow easy to understand and show what the reader should learn or do.\r\n\r\n## Writing quality\r\n\r\n- Write for the intended reader. Identify the author, recipient, and what the reader needs to understand or do. Follow user instructions first, choose the requested document format, and preserve the style of an existing document or supplied reference.\r\n- Write directly in the author's voice, using “I” or “we” when appropriate. Present the update, recommendation, or request to the recipient. Match the author's tone and relationship to that audience; do not invent experience, authority, commitments, or facts from style examples.\r\n- Lead with the conclusion, decision, or request. Use concrete subjects, strong verbs, and natural sentences. State what changed, why it matters, and what evidence or constraint supports the claim. Keep necessary qualifications and distinguish facts, interpretation, recommendations, and uncertainty.\r\n- Remove stock formulas, slogans, inflated significance, vague abstractions, unsupported authorities, canned empathy, and ornamental transitions. Avoid conspicuous rhetorical triads, forced contrasts, repetitive cadence, and punctuation used only for emphasis. Judge these patterns in context; an isolated phrase, accurate technical term, or useful contrast is not automatically a defect.\r\n- Review both the writing and the rendered document. Check that claims are supported, the author's voice is consistent, and every page is readable and free of layout defects. Do not mention this editorial framework in the delivered document unless asked.\r\n\r\nBefore formatting, read the title and section headings as an outline. Write connected paragraphs that explain relationships, and replace compressed labels or unnecessary compounds with natural wording. Preserve the source's meaning, including uncertainty, conditions, time periods, and comparisons. Use punctuation and passive voice in body text when they improve precision.\r\n\r\nFor the review steps, examples, and more context, read [writing_quality.md](writing_quality.md#editorial-review-for-documents).\r\n\r\n\r\nUse this skill when you need to create or modify `.docx`, Word, or Google Docs-targeted document artifacts **in this container environment** and verify them visually.\r\n\r\n## Tools + Contract Requirements\r\n\r\n- Use Codex workspace dependencies for docx artifact work: resolve them through the workspace dependency loader or runtime skill, then treat the returned Node/Python runtimes and package directory as authoritative. Do not use system `node`, system `python`, global npm packages, or repo-local installs.\r\n- For document creation and deterministic OOXML edits, it is still acceptable to use the bundled Python/OOXML helper scripts in this skill package when the JS surface is incomplete.\r\n- Run any builder or helper file from a writable workspace or temp directory, not from the managed dependency directory itself.\r\n\r\n\r\nImmediately before the first create/edit authoring command, run `mark_artifact_operation_started.mjs` successfully exactly once using the command below. Do not run it for read-only work. For edits, replace `create` with `edit`; adjust the expected count and output format to match the requested outputs.\r\n\r\n```bash\r\nnode container_tools/mark_artifact_operation_started.mjs --operation-kind create --expected-output-count 1 --output-format docx\r\n```\r\n\r\n## Clarification questions\r\n\r\nWhen making a new documents, or majorly rewriting one, read [clarification questions](references/clarification-questions.md) before continuing on.\r\n\r\n## Artifact Template Selection\r\n\r\nWhen creating new documents without a template, reference, or visual direction, or when the user asks to browse or upload templates, read [template selection](references/template-elicitation.md) before choosing a design or starting creation.\r\n\r\n## Google Docs-targeted output\r\n\r\nFor a net-new Google Docs request, create and visually verify a local `.docx` with this skill first. The native Google Docs deliverable must then be produced by the Google Drive plugin's document import action, `mcp__codex_apps__google_drive_import_document`, with `upload_mode: \"native_google_docs\"`.\r\n\r\nBefore rendering or importing any Google Docs-targeted DOCX, run the deterministic title sanitizer:\r\n\r\n```bash\r\npython scripts/google_docs_title_sanitize.py input.docx --out sanitized.docx\r\npython scripts/google_docs_title_sanitize.py sanitized.docx --check\r\n```\r\n\r\nUse the sanitized DOCX for render QA and native Google Docs import. This is not a style preference or prose reminder: the sanitizer removes Word `Title` paragraph-style border residue, direct title-paragraph borders, and leading title-block paragraph borders from the OOXML so Word's built-in blue title rule cannot survive into the imported Google Doc.\r\n\r\nDo not use Computer Use, Browser Use, blank-Google-Doc creation plus Google Docs write APIs, or another direct-to-Docs construction path for net-new Google Docs unless the user explicitly asks for that alternate workflow. If they do, mention first that output quality is expected to be best when a local `.docx` is imported through the Google Drive plugin.\r\n\r\nIf the Google Drive plugin is unavailable, use the plugin-install/user-elicitation flow to ask the user to install `google-drive@openai-curated`. If the plugin is available but `_import_document` is missing, ask the user to reinstall or refresh the Google Drive plugin before continuing with the native Google Docs deliverable.\r\n\r\n## Template Following\r\n\r\nWhen an attached or retained DOCX is meant to control a new document, read\r\n`template-distill.md` and then `template-create.md`. Keep the reference file and\r\nthe task-local `$TMP_DIR/artifact.md` together throughout authoring. In this\r\nmode, the retained reference is the design authority: do not apply a generic\r\ndesign preset, page baseline, or header pattern unless the user explicitly asks\r\nto depart from the template. The render gate and Google Docs import contract\r\nstill apply. For a Google Docs-targeted result, record any change made by the\r\nrequired title sanitizer as an intentional fidelity deviation.\r\n\r\n## Non-negotiable: render → inspect PNGs → iterate\r\n\r\n**You do not “know” a DOCX is satisfactory until you’ve rendered it and visually inspected page images.**\r\nDOCX text extraction (or reading XML) will miss layout defects: clipping, overlap, missing glyphs, broken tables, spacing drift, and header/footer issues.\r\n\r\n**Shipping gate:** before delivering any DOCX, you must:\r\n- Run `render_docx.py` to produce `page-<N>.png` images (optionally also a PDF with `--emit_pdf`)\r\n- Open the PNGs (100% zoom) and confirm every page is clean\r\n- If anything looks off, fix the DOCX and **re-render** (repeat until flawless)\r\n\r\nIf rendering fails, diagnose the packaged renderer using its logs before retrying.\r\n\r\n**Deliverable discipline:** Rendered artifacts (PNGs and optional PDFs) are for internal QA only. Unless the user explicitly asks for intermediates, **return only the requested final deliverable** (e.g., when the task asks for a DOCX, deliver the DOCX — not page images or PDFs).\r\n\r\n\r\n\r\n\r\n## Design standards for document generation\r\n\r\nFor generating new documents or major rewrite/repackages, follow the design standards below unless the user explicitly requests otherwise. The user's instructions always take precedence; otherwise, adhere to these standards.\r\n\r\nWhen creating the document design, do not compromise on the content and make factual/technical errors. Do not produce something that looks polished but not actually what the user requested.\r\n\r\nIt is very important that the document is professional and aesthetically pleasing. As such, you should follow this general workflow to make your final delivered document:\r\n\r\n1. Before you make the DOCX, please first think about the high-level design of the DOCX:\r\n   - Before creating the document, decide what kind of document it is (for example, a memo, report, SOP, workflow, form, proposal, or manual) and design accordingly. In general, you shall create documents which are professional, visually polished, and aesthetically pleasing. However, you should also calibrate the level of styling to the document's purpose: for formal, serious, or highly utilitarian documents, visual appeal should come mainly from strong typography, spacing, hierarchy, and overall polish rather than expressive styling. The goal is for the document's visual character to feel appropriate to its real-world use case, with readability and usability always taking priority.\r\n   - You should make documents that feel visually natural. If a human looks at your document, they should find the design natural and smooth. This is very important; please think carefully about how to achieve this.\r\n   - Think about how you would like the first page to be organized. How about subsequent pages? What about the placement of the title? What does the heading ladder look like? Should there be a clear hierarchy? etc\r\n   - Would you like to include visual components, such as tables, checklists, images, etc? If yes, then plan out the design for each component.\r\n   - Think about the general spacing and layout. What will be the default body spacing? What page budget is allocated between packaging and substance? How will page breaks behave around tables and figures, since we must make sure to avoid large blank gaps, keep captions and their visuals together when possible, and keep content from becoming too wide by maintaining generous side margins so the page feels balanced and natural.\r\n   - Think about font, type scale, consistent accent treatment, etc. Try to avoid forcing large chunks of small text into narrow areas. When space is tight, adjust font size, line breaks, alignment, or layout instead of cramming in more text.\r\n2. Once you have a working DOCX, continue iterating until the entire document is polished and correct. After every change or edit, render the DOCX and review it carefully to evaluate the result. The plan from (1) should guide you, but it is only a flexible draft; you should update your decisions as needed throughout the revision process. Important: each time you render and reflect, you should check for both:\r\n   1. Design aesthetics: the document should be aesthetically pleasing and easy to skim. Ask yourself: if a human were to look at my document, would they find it aesthetically nice? It should feel natural, smooth, and visually cohesive.\r\n   2. Formatting issues that need to be fixed: e.g. text overlap, overflow, cramped spacing between adjacent elements, awkward spacing in tables/charts, awkward page breaks, etc. This is super important. Do not stop revising until all formatting issues are fixed.\r\n\r\nWhile making and revising the DOCX, please adhere to and check against these quality reminders, to ensure the deliverable is visually high quality:\r\n\r\n- Document density: Try to avoid having verbose dense walls of text, unless it's necessary. Avoid long runs of consecutive plain paragraphs or too many words before visual anchors. For some tasks this may be necessary (i.e. verbose legal documents); in those cases ignore this suggestion.\r\n- Font: Use professional, easy-to-read font choices with appropriate size that is not too small. Usage of bold, underlines, and italics should be professional.\r\n- Color: Set all document titles, subtitles, headings, subheadings, and page headers to black (`#000000`). Apply black to their styles and remove theme colors or direct formatting that would override it. For table header rows, use the fill and text colors specified in the table guidance below.\r\n- Visuals: Consider using tables, diagrams, and other visual components when they improve comprehension, navigation, or usability.\r\n- Tables:\r\n  - Use tables intentionally and only for these purposes:\r\n    - Comparing multiple items across the same set of attributes.\r\n    - Presenting numeric data, metrics, specifications, pricing, dates, or other values readers need to scan across.\r\n    - Showing a compact matrix, such as options × criteria, roles × responsibilities, or risks × mitigations.\r\n    - Presenting repeated records with a consistent schema.\r\n  - Keep long explanations, research findings, and proposed policy language in prose under descriptive headings. Use a compact matrix to summarize fields readers need to compare. Review consecutive table pages and replace tables that merely arrange narrative paragraphs into cells. Keep long tables only when readers need the full set of comparable records together.\r\n  - Suggestions:\r\n    - Set deliberate table/cell widths and heights instead of defaulting to full page width.\r\n    - Choose column widths intentionally rather than giving every column equal width by default. Very short fields (for example: item number, checkbox, score, result, year, date, or status) should usually be kept compact, while wider columns should be reserved for longer content.\r\n    - Avoid overly wide tables, and leave generous side margins so the layout feels natural.\r\n    - Keep all text vertically centered and make deliberate horizontal alignment choices.\r\n    - Ensure cell height avoids a crowded look. Leave clear vertical spacing between a table and its caption or following text.\r\n  - Hard constraints:\r\n    - Borders: Explicitly set outer and internal cell borders to light gray (`#D9D9D9`) so every table has visible borders.\r\n    - Header colors: Choose light gray, dark gray, dark blue, or light blue header fills to suit the document; do not default every table to light gray. Keep related tables consistent. Use white header text on dark fills and black text on light fills.\r\n    - Row shading: With a dark gray or dark blue header, alternate body-row backgrounds between white and a pale gray or pale blue tint. Keep the light gray borders visible.\r\n    - To prevent clipping/overflow:\r\n      - Never use fixed row heights that can truncate text; allow rows to expand with wrapped content.\r\n      - Ensure cell padding and line spacing are sufficient so descenders/ascenders don't get clipped.\r\n      - If content is tight, prefer (in order): wrap text -> adjust column widths -> reduce font slightly -> abbreviate headers/use two-line headers.\r\n    - Padding / breathing room: Ensure text doesn't sit against cell borders or look \"pinned\" to the upper-left. Favor generous internal padding on all sides, and keep it consistent across the table.\r\n    - Vertical alignment: In general, you should center your text vertically. Make sure that the content uses the available cell space naturally rather than clustering at the top.\r\n    - Horizontal alignment: Do not default all body cells to top-left alignment. Choose horizontal alignment intentionally by column type: centered alignment often works best for short values, status fields, dates, numbers, and check indicators; left alignment is usually better for narrative or multi-line text.\r\n    - Line height inside cells: Use line spacing that avoids a cramped feel and prevents ascenders/descenders from looking clipped. If a cell feels tight, adjust wrapping/width/padding before shrinking type.\r\n    - Width + wrapping sanity check: Avoid default equal-width columns when the content in each column clearly has different sizes. Avoid lines that run so close to the right edge that the cell feels overfull. If this happens, prefer wrapping or column-width adjustments before reducing font size.\r\n    - Spacing around tables: Keep clear separation between tables and surrounding text (especially the paragraph immediately above/below) so the layout doesn't feel stuck together. Captions and tables should stay visually paired, with deliberate spacing.\r\n    - Quick visual QA pass: Look for text that appears \"boundary-hugging\", specifically content pressed against the top or left edge of a cell or sitting too close beneath a table. Also watch for overly narrow descriptive columns and short-value columns whose contents feel awkwardly pinned. Correct these issues through padding, alignment, wrapping, or small column-width adjustments.\r\n- Forms / questionnaires: Design these as a usable form, not a spreadsheet.\r\n  - Prioritize clear response options, obvious and well-sized check targets, readable scale labels, generous row height, clear section hierarchy, light visual structure. Please size fields and columns based on the content they hold rather than by equal-width table cells.\r\n  - Use spacing, alignment, and subtle header/section styling to organize the page. Avoid dense full-grid borders, cramped layouts, and ambiguous numeric-only response areas.\r\n- Coherence vs. fragmentation: In general, try to keep things to be one coherent representation rather than fragmented, if possible.\r\n  - For example, don't split one logical dataset across multiple independent tables unless there's a clear, labeled reason.\r\n  - For example, if a table must span across pages, continue to the next page with a repeated header and consistent column order\r\n- Callouts: Do not use callout boxes, shaded note cards, accent-bar blocks, or boxed summaries and decision panels. Present this content as ordinary paragraphs, optionally with a bold lead-in. This applies whether the callout is built with a table, text box, shape, or paragraph shading/borders.\r\n- Spacing: Please check rigorously for spacing issues. Please always use a natural amount of spacing between adjacent components. Use clear, generous vertical spacing between sections and paragraphs, and leave a bit of extra space between subheadings and the content that follows when it improves readability. Use indentation and alignment intentionally so the document's hierarchy is immediately clear. At the same time, avoid large \"layout gaps\" caused by a table or chart not fitting at the bottom of a page and getting pushed to the next one. If this happens, please try these suggestions:\r\n  - moving the preceding paragraph(s) with it to the next page to keep the narrative cohesive\r\n  - scaling the visual modestly or simplify labels without hurting readability, formatting, or aesthetics of the visual\r\n  - Splitting the table/figure cleanly across multiple pages, but use repeated headers to make the page continuation clear.\r\n- Text boxes: For text boxes, please follow the same breathing-room rules as the tables: make sure to use generous internal padding, intentional alignment, and sufficient line spacing so text never feels cramped, clipped, or pinned to the edges. Keep spacing around the text box clear so it remains visually distinct from surrounding content, and if the content feels tight, prefer adjusting box size, padding, or text wrapping before reducing font size.\r\n- Layout/archetype: Remember to choose the right document archetype/template (proposal, SOP, workflow, form, handbook, etc.). Use a coherent style system. Once a style system is chosen, apply it consistently across headings, spacing, table treatments, and accent usage. If appropriate to the document type, include a cover page or front-matter elements such as title, subtitle, metadata, or branding.\r\n\r\n### Note on page sizing\r\n\r\nWhen creating a new DOCX, **always** default to the Letter size 8.5 x 11 inches, in Portrait orientation, unless the user specifies otherwise.\r\n\r\n### Note on font sizing\r\n\r\nUse a readable size appropriate to the text's role and typeface; ~11-12 pt is a good default for sustained prose. Use text 10 pt and below only if ideal for secondary roles or constrained tables/forms, and only when it remains comfortable at normal print or fit-width viewing. Do not shrink type merely to meet a page-count or compactness target. Follow explicit user typography instructions, but never at the expense of practical readability.\r\n\r\n### Editing tasks (DOCX edits) — apply instead of major rewrite behavior\r\n\r\nWhen the user asks to edit an existing document, preserve the original and make minimal, local changes:\r\n\r\n- Prefer inline edits (small replacements) over rewriting whole paragraphs.\r\n- Use clear inline annotations/comments at the point of change (margin comments or comment markers). Don’t move all feedback to the end.\r\n- Keep the original structure unless there’s a strong reason; if a restructure is needed, do it surgically and explain via comments.\r\n- Don’t “cross out everything and rewrite”; avoid heavy, blanket deletions. The goal is trackable improvements, not a fresh draft unless explicitly requested.\r\n\r\n## Equations: native Word math vs rendered fallback\r\n\r\nWhen the requested document or source contains mathematical equations, choose the equation\r\nrepresentation deliberately. Never leave raw LaTeX in the document or approximate structured\r\nnotation with plain text.\r\n\r\n1. **Prefer native Word equations (OMML, such as `<m:oMath>` or `<m:oMathPara>`)** when the user\r\n   asks for native or editable equations, when an existing DOCX already uses native equations, or\r\n   when equations need to remain searchable, accessible, copyable, inline with prose, or easy to\r\n   revise. Use native equations only through a tested OMML authoring path, and verify that Word and\r\n   the final LibreOffice render preserve the notation correctly.\r\n2. **Use the rendered MathJax fallback below** when native/editable math is not required and either\r\n   no reliable OMML authoring path is available or a complex display equation needs predictable\r\n   visual fidelity across renderers. This path produces an image, not a native Word equation. It is\r\n   best for stable display equations where portability matters more than editability.\r\n\r\nDo not silently rasterize an equation when the user explicitly requires native or editable Word\r\nmath. If no tested OMML path is available, explain that limitation rather than mislabeling an image\r\nas native. When editing an existing DOCX, preserve its equation representation unless the request or\r\nrender QA gives a clear reason to change it.\r\n\r\n### Rendered fallback: MathJax to high-resolution PNG\r\n\r\nThe standard artifact container includes Node.js, `mathjax-full`, `sharp`, and `python-docx`. Use\r\nMathJax to render LaTeX to SVG, then rasterize it to a high-resolution transparent PNG for reliable\r\ninsertion with `python-docx` and reliable LibreOffice rendering:\r\n\r\n```javascript\r\n\"use strict\";\r\n\r\nconst sharp = require(\"sharp\");\r\n\r\nlet _mathjax;\r\nlet _adaptor;\r\nlet _doc;\r\n\r\nfunction ensureMathJax() {\r\n  if (_mathjax && _adaptor && _doc) return;\r\n  const { mathjax } = require(\"mathjax-full/js/mathjax.js\");\r\n  const { TeX } = require(\"mathjax-full/js/input/tex.js\");\r\n  const { SVG } = require(\"mathjax-full/js/output/svg.js\");\r\n  const { liteAdaptor } = require(\"mathjax-full/js/adaptors/liteAdaptor.js\");\r\n  const { RegisterHTMLHandler } = require(\"mathjax-full/js/handlers/html.js\");\r\n  const { AllPackages } = require(\"mathjax-full/js/input/tex/AllPackages.js\");\r\n\r\n  _adaptor = liteAdaptor();\r\n  RegisterHTMLHandler(_adaptor);\r\n  const tex = new TeX({ packages: AllPackages });\r\n  const out = new SVG({ fontCache: \"local\" });\r\n  _doc = mathjax.document(\"\", { InputJax: tex, OutputJax: out });\r\n  _mathjax = mathjax;\r\n}\r\n\r\nfunction latexToSvgDataUri(latex, display = true) {\r\n  ensureMathJax();\r\n  const html = _adaptor.outerHTML(_doc.convert(latex, { display }));\r\n  const a = html.indexOf(\"<svg\");\r\n  const b = html.indexOf(\"</svg>\");\r\n  let svg = a !== -1 && b !== -1 ? html.slice(a, b + 6) : html;\r\n  svg = svg.replace(/<\\?xml[^>]*>/g, \"\");\r\n  if (!/xmlns=\"http:\\/\\/www\\.w3\\.org\\/2000\\/svg\"/.test(svg)) {\r\n    svg = svg.replace(/<svg /, '<svg xmlns=\"http://www.w3.org/2000/svg\" ');\r\n  }\r\n  svg = svg.replace(/(width|height)=\"([0-9.]+)(ex|em)\"/g, (_m, attr, num) => {\r\n    const px = Math.round(parseFloat(num) * 8.5);\r\n    return `${attr}=\"${px}px\"`;\r\n  });\r\n  svg = svg.replace(/currentColor/g, \"#000000\");\r\n  return \"data:image/svg+xml;base64,\" + Buffer.from(svg).toString(\"base64\");\r\n}\r\n\r\nasync function latexToPng(latex, outputPath, display = true) {\r\n  const dataUri = latexToSvgDataUri(latex, display);\r\n  const svg = Buffer.from(dataUri.split(\",\", 2)[1], \"base64\");\r\n  await sharp(svg, { density: 300 }).png().toFile(outputPath);\r\n}\r\n\r\nlatexToPng(\r\n  String.raw`\\int_{-\\infty}^{\\infty} e^{-x^2}\\,dx = \\sqrt{\\pi}`,\r\n  \"/mnt/data/equation.png\",\r\n).catch((error) => {\r\n  console.error(error);\r\n  process.exit(1);\r\n});\r\n```\r\n\r\nInsert the PNG at an intentional physical size without stretching it:\r\n\r\n```python\r\nfrom docx import Document\r\nfrom docx.enum.text import WD_ALIGN_PARAGRAPH\r\nfrom docx.shared import Inches\r\n\r\ndoc = Document()\r\nparagraph = doc.add_paragraph()\r\nparagraph.alignment = WD_ALIGN_PARAGRAPH.CENTER\r\nparagraph.add_run().add_picture(\"/mnt/data/equation.png\", width=Inches(2.6))\r\ndoc.save(\"/mnt/data/output/equations.docx\")\r\n```\r\n\r\nUse `String.raw` for LaTeX strings so JavaScript preserves backslashes. Choose `display=true` for\r\nstandalone equations and `display=false` for compact inline-style expressions. After using either\r\nnative OMML or the rendered fallback, run the normal `render_docx.py` workflow and inspect every\r\nequation in the rendered page PNGs for missing glyphs, clipping, blur, poor sizing, or bad page\r\nbreaks.\r\n\r\n## Quick start (common one-liners)\r\n\r\n```bash\r\n# 1) Render any DOCX to PNGs (visual QA)\r\npython render_docx.py input.docx --output_dir out\r\n\r\n# 2) Remove reviewer comments (finalization)\r\npython scripts/comments_strip.py input.docx --out no_comments.docx\r\n\r\n# 3) Accept tracked changes (finalization)\r\npython scripts/accept_tracked_changes.py input.docx --mode accept --out accepted.docx\r\n\r\n# 4) Accessibility audit (+ optional safe fixes)\r\npython scripts/a11y_audit.py input.docx\r\npython scripts/a11y_audit.py input.docx --out_json a11y_report.json\r\npython scripts/a11y_audit.py input.docx --fix_image_alt from_filename --out a11y_fixed.docx\r\n\r\n# 5) Redact sensitive text (layout-preserving by default)\r\npython scripts/redact_docx.py input.docx redacted.docx --emails --phones\r\n```\r\n\r\n## Package layout\r\n\r\nThis skill is organized for progressive discovery: start here, then jump into task- or OOXML-specific docs.\r\n\r\nDOCS SKILL PACKAGE\r\n\r\nRoot:\r\n- SKILL.md: short overview + routing\r\n- manifest.txt: machine-readable list of files to download (one relative path per line)\r\n- render_docx.py: canonical DOCX→PNG renderer (container-safe LO profile + writable HOME + verbose logs)\r\n\r\nTasks:\r\n- tasks/read_review.md\r\n- tasks/create_edit.md\r\n- tasks/verify_render.md\r\n- tasks/accessibility_a11y.md\r\n- tasks/comments_manage.md\r\n- tasks/protection_restrict_editing.md\r\n- tasks/privacy_scrub_metadata.md\r\n- tasks/multi_doc_merge.md\r\n- tasks/style_lint_normalize.md\r\n- tasks/forms_content_controls.md\r\n- tasks/captions_crossrefs.md\r\n- tasks/redaction_anonymization.md\r\n- tasks/clean_tracked_changes.md\r\n- tasks/compare_diff.md\r\n- tasks/templates_style_packs.md\r\n- tasks/watermarks_background.md\r\n- tasks/footnotes_endnotes.md\r\n- tasks/fixtures_edge_cases.md\r\n- tasks/navigation_internal_links.md\r\n\r\nOOXML:\r\n- ooxml/tracked_changes.md\r\n- ooxml/comments.md\r\n- ooxml/hyperlinks_and_fields.md\r\n- ooxml/rels_and_content_types.md\r\n\r\nTroubleshooting:\r\n- troubleshooting/libreoffice_headless.md\r\n- troubleshooting/run_splitting.md\r\n\r\nScripts:\r\n\r\n**Core building blocks (importable helpers):**\r\n- `scripts/docx_ooxml_patch.py` — low-level OOXML patch helper (tracked changes, comments, hyperlinks, relationships). Other scripts reuse this.\r\n- `scripts/fields_materialize.py` — materialize `SEQ`/`REF` field *display text* for deterministic headless rendering/QA.\r\n\r\n**High-leverage utilities (also importable, but commonly invoked as CLIs):**\r\n- `render_docx.py` — canonical DOCX → PNG renderer (optional PDF via `--emit_pdf`; do not deliver intermediates unless asked).\r\n- `scripts/render_and_diff.py` — render + per-page image diff between two DOCXs.\r\n- `scripts/content_controls.py` — list / wrap / fill Word content controls (SDTs) for forms/templates.\r\n- `scripts/captions_and_crossrefs.py` — insert Caption paragraphs for tables/figures + optional bookmarks around caption numbers.\r\n- `scripts/insert_ref_fields.py` — replace `[[REF:bookmark]]` markers with real `REF` fields (cross-references).\r\n- `scripts/internal_nav.py` — add internal navigation links (static TOC + Top/Bottom + figN/tblN jump links).\r\n- `scripts/style_lint.py` — report common formatting/style inconsistencies.\r\n- `scripts/style_normalize.py` — conservative cleanup (clear run-level overrides; optional paragraph overrides).\r\n- `scripts/redact_docx.py` — layout-preserving redaction/anonymization.\r\n- `scripts/privacy_scrub.py` — remove personal metadata + `rsid*` attributes.\r\n- `scripts/set_protection.py` — restrict editing (read-only / comments / forms).\r\n- `scripts/comments_extract.py` — extract comments to JSON (text, author/date, resolved flag, anchored snippets).\r\n- `scripts/comments_strip.py` — remove all comments (final-delivery mode).\r\n\r\n**Audits / conversions / niche helpers:**\r\n- `scripts/fields_report.py`, `scripts/heading_audit.py`, `scripts/section_audit.py`, `scripts/images_audit.py`, `scripts/footnotes_report.py`, `scripts/watermark_audit_remove.py`\r\n- `scripts/xlsx_to_docx_table.py`, `scripts/docx_table_to_csv.py`\r\n- `scripts/insert_toc.py`, `scripts/insert_note.py`, `scripts/apply_template_styles.py`, `scripts/accept_tracked_changes.py`, `scripts/make_fixtures.py`\r\n\r\n**v7 additions (stress-test helpers):**\r\n- `scripts/watermark_add.py` — add a detectable VML watermark object into an existing header.\r\n- `scripts/comments_add.py` — add multiple comments (by paragraph substring match) and wire up comments.xml plumbing if needed.\r\n- `scripts/comments_apply_patch.py` — append/replace comment text and mark/clear resolved state (`w:done=1`).\r\n- `scripts/add_tracked_replacements.py` — generate tracked-change replacements (`<w:del>` + `<w:ins>`) in-place.\r\n- `scripts/a11y_audit.py` — audit a11y issues; can also apply simple fixes via `--fix_table_headers` / `--fix_image_alt`.\r\n- `scripts/flatten_ref_fields.py` — replace REF/PAGEREF field blocks with their cached visible text for deterministic rendering.\r\n\r\n> `scripts/xlsx_to_docx_table.py` also marks header rows as repeating headers (`w:tblHeader`) to improve a11y and multi-page tables.\r\n\r\nExamples:\r\n- examples/end_to_end_smoke_test.md\r\n\r\n> Note: `manifest.txt` is **machine-readable** and is used by download tooling. It must contain only relative file paths (one per line).\r\n\r\n\r\n## Coverage map (scripts ↔ task guides)\r\n\r\nThis is a quick index so you can jump from a helper script to the right task guide.\r\n\r\n### Layout & style\r\n- `style_lint.py`, `style_normalize.py` → `tasks/style_lint_normalize.md`\r\n- `apply_template_styles.py` → `tasks/templates_style_packs.md`\r\n- `section_audit.py` → `tasks/sections_layout.md`\r\n- `heading_audit.py` → `tasks/headings_numbering.md`\r\n\r\n### Figures / images\r\n- `images_audit.py`, `a11y_audit.py` → `tasks/images_figures.md`, `tasks/accessibility_a11y.md`\r\n- `captions_and_crossrefs.py` → `tasks/captions_crossrefs.md`\r\n\r\n### Tables / spreadsheets\r\n- `xlsx_to_docx_table.py` → `tasks/tables_spreadsheets.md`\r\n- `docx_table_to_csv.py` → `tasks/tables_spreadsheets.md`\r\n\r\n### Fields & references\r\n- `fields_report.py`, `fields_materialize.py` → `tasks/fields_update.md`\r\n- `insert_ref_fields.py`, `flatten_ref_fields.py` → `tasks/fields_update.md`, `tasks/captions_crossrefs.md`\r\n- `insert_toc.py` → `tasks/toc_workflow.md`\r\n\r\n### Review lifecycle (comments / tracked changes)\r\n- `add_tracked_replacements.py`, `accept_tracked_changes.py` → `tasks/clean_tracked_changes.md`\r\n- `comments_add.py`, `comments_extract.py`, `comments_apply_patch.py`, `comments_strip.py` → `tasks/comments_manage.md`\r\n\r\n### Privacy / publishing\r\n- `privacy_scrub.py` → `tasks/privacy_scrub_metadata.md`\r\n- `redact_docx.py` → `tasks/redaction_anonymization.md`\r\n- `watermark_add.py`, `watermark_audit_remove.py` → `tasks/watermarks_background.md`\r\n\r\n### Navigation & multi-doc assembly\r\n- `internal_nav.py` → `tasks/navigation_internal_links.md`\r\n- `merge_docx_append.py` → `tasks/multi_doc_merge.md`\r\n\r\n### Forms & protection\r\n- `content_controls.py` → `tasks/forms_content_controls.md`\r\n- `set_protection.py` → `tasks/protection_restrict_editing.md`\r\n\r\n### QA / regression\r\n- `render_and_diff.py`, `render_docx.py` → `tasks/compare_diff.md`, `tasks/verify_render.md`\r\n- `make_fixtures.py` → `tasks/fixtures_edge_cases.md`\r\n- `docx_ooxml_patch.py` → used across guides for targeted patches\r\n\r\n## Skill folder contents\r\n- `tasks/` — task playbooks (what to do step-by-step)\r\n- `ooxml/` — advanced OOXML patches (tracked changes, comments, hyperlinks, fields)\r\n- `scripts/` — reusable helper scripts\r\n- `examples/` — small runnable examples\r\n- `template-distill.md` — distill a retained DOCX into a task-local `artifact.md`\r\n- `template-create.md` — create from the retained DOCX and its `artifact.md`\r\n\r\n## Default workflow (80/20)\r\n\r\n**Rule of thumb:** every meaningful edit batch must end with a render + PNG review. No exceptions.\r\n\"80/20\" here means: follow the simplest workflow that covers *most* DOCX tasks reliably.\r\n\r\n**Golden path (don’t mix-and-match unless debugging):**\r\n1. **Author/edit with `python-docx`** (paragraphs, runs, styles, tables, headers/footers).\r\n2. **Render → inspect PNGs immediately** (DOCX → PNGs). Treat this as your feedback loop.\r\n3. **Fix and repeat** until the PNGs are visually perfect.\r\n4. **Only if needed**: use OOXML patching for tracked changes, comments, hyperlinks, or fields.\r\n5. **Re-render and inspect again** after *any* OOXML patch or layout-sensitive change.\r\n6. **Deliver only after the latest PNG review passes** (all pages, 100% zoom).\r\n\r\n## Visual review (recommended)\r\n\r\nUse the packaged renderer (dedicated LibreOffice profile + writable HOME):\r\n\r\n```bash\r\npython render_docx.py /mnt/data/input.docx --output_dir /mnt/data/out\r\n# If debugging LibreOffice:\r\npython render_docx.py /mnt/data/input.docx --output_dir /mnt/data/out --verbose\r\n# Optional: also write <input_stem>.pdf to --output_dir (for debugging/archival):\r\npython render_docx.py /mnt/data/input.docx --output_dir /mnt/data/out --emit_pdf\r\n```\r\n\r\nThen inspect the generated `page-<N>.png` files.\r\n\r\n**Success criteria (render + visual QA):**\r\n- PNGs exist for each page\r\n- Page count matches expectations\r\n- **Inspect every page at 100% zoom** (no “spot check” for final delivery)\r\n- No clipping/overlap, no broken tables, no missing glyphs, no header/footer misplacement\r\n\r\n**Note:** LibreOffice sometimes prints scary-looking stderr (e.g., `error : Unknown IO error`) even when output is correct. Treat the render as successful if the PNGs exist and look right (and if you used `--emit_pdf`, the PDF exists and is non-empty).\r\n\r\nIf you need to use LibreOffice, use the absolute path to bundled LibreOffice resolved through `load_workspace_dependencies`, never use the user's installed desktop LibreOffice even if the bundled version fails. Include this instruction and the bundled path in every subagent handoff.\r\n\r\n### What rendering does and doesn’t validate\r\n\r\n- **Great for:** layout correctness, fonts, spacing, tables, headers/footers, and whether **tracked changes** visually appear.\r\n- **Not reliable for:** **comments** (often not rendered in headless PDF export). For comments, also do **structural checks** (comments.xml + anchors + rels + content-types).\r\n\r\n## Default behaviors for you to follow (unless the user specifies otherwise)\r\n- Do not place a horizontal rule directly below a document title or subtitle. Use whitespace and typography to create separation instead.\r\n- Avoid horizontal lines under other headers.\r\n- Avoid headers/footers unless necessary/important to the document.\r\n- The final doc should not contain mentions of how you interpreted the prompt / decisions you made / information you could not find (e.g. phrases like 'This report uses only the supplied findings' or 'Synthetic source material' or 'Internal working draft'); instead, these should be flagged to the user via preamble messages and in your final answer.\r\n\r\n## Quality reminders\r\n- Don’t ship visible defects (clipped/overlapping text, broken tables, unreadable glyphs).\r\n- Don’t leak tool citation tokens into the DOCX (convert them to normal human citations).\r\n- Prefer ASCII punctuation (avoid exotic Unicode hyphens/dashes that render inconsistently).\r\n\r\n## Where to go next\r\n- If the task is **reading/reviewing**: `tasks/read_review.md`\r\n- If the task is **creating/editing**: `tasks/create_edit.md`\r\n- If you need an **accessibility audit** (alt text, headings, tables, links): `tasks/accessibility_a11y.md`\r\n- If you need to **extract or remove comments**: `tasks/comments_manage.md`\r\n- If you need to **restrict editing / make read-only**: `tasks/protection_restrict_editing.md`\r\n- If you need to **scrub personal metadata** (author/rsid/custom props): `tasks/privacy_scrub_metadata.md`\r\n- If you need to **merge/append DOCXs**: `tasks/multi_doc_merge.md`\r\n- If you need **format consistency / style cleanup**: `tasks/style_lint_normalize.md`\r\n- If you need **forms / content controls (SDTs)**: `tasks/forms_content_controls.md`\r\n- If you need **captions + cross-references**: `tasks/captions_crossrefs.md`\r\n- If you need **redaction/anonymization**: `tasks/redaction_anonymization.md`\r\n- If the task is **verification/raster review**: `tasks/verify_render.md`\r\n- If your render looks wrong but content is right (stale fields): `tasks/fields_update.md`\r\n- If you need a **Table of Contents**: `tasks/toc_workflow.md`\r\n- If you need **internal navigation links** (static TOC + Back-to-TOC + Top/Bottom): `tasks/navigation_internal_links.md`\r\n- If headings/numbering/TOC levels are messy: `tasks/headings_numbering.md`\r\n- If you have mixed portrait/landscape or margin weirdness: `tasks/sections_layout.md`\r\n- If images shift or overlap across renderers: `tasks/images_figures.md`\r\n- If you need spreadsheet ↔ table round-tripping: `tasks/tables_spreadsheets.md`\r\n- If you need **tracked changes (redlines)**: `ooxml/tracked_changes.md`\r\n- If you need **comments**: `ooxml/comments.md`\r\n- If you need **hyperlinks/fields/page numbers/headers**: `ooxml/hyperlinks_and_fields.md`\r\n- If LibreOffice headless is failing: `troubleshooting/libreoffice_headless.md`\r\n- If you need a **clean copy** with tracked changes accepted: `tasks/clean_tracked_changes.md`\r\n- If you need to **diff two DOCXs** (render + per-page diff): `tasks/compare_diff.md`\r\n- If you need **templates / style packs (DOTX)**: `tasks/templates_style_packs.md`\r\n- If you need **watermark audit/removal**: `tasks/watermarks_background.md`\r\n- If you need **true footnotes/endnotes**: `tasks/footnotes_endnotes.md`\r\n- If you want reproducible fixtures for edge cases: `tasks/fixtures_edge_cases.md`\r\n\r\n## Final response\r\n\r\n- Final user-facing responses should focus on the requested document result and may include useful next steps. Do not link QA intermediates unless the user explicitly asks for them.\r\n\r\n### Final response citations\r\n\r\nPlace :codex-file-citation{...} inline in prose without wrapping it in backticks or a code block, not in a trailing list. Use `purpose=\"source\"` for Q&A/no-op and `purpose=\"output\"` for create/edit.\r\n\r\n- [HARD REQUIREMENT] Create/edit: cite each final DOCX exactly once with a plain output citation. Summarize representative changes; do not cite every section/page or add a separate filename, path, or Markdown link. Example: `Created :codex-file-citation{path=\"/abs/path/launch-plan.docx\" purpose=\"output\"}, highlighting the rollout and owners.`\r\n- Q&A: do not edit/re-export. Inspect complete relevant pages and preserve material headings, question/table labels, footnotes, sources, and sample sizes; cite each needed page once.\r\n\r\nFor page-specific evidence, use a page number verified against the latest render/inspection:\r\n\r\n:codex-file-citation{path=\"/abs/path/file.docx\" purpose=\"source\" artifact_kind=\"document\" page_number=\"4\"}\r\n\r\nDocument locators support only `page_number`; otherwise use a plain citation. Do not guess or add object, label, paragraph, table, or cell IDs. Do not cite intermediates unless asked.\r\n\r\n### Final response suggested followups\r\n\r\n- After successfully creating, editing, or analyzing an artifact, finish your final response with 3 useful next actions tailored to the artifact and the user's goal. Completing the requested work is not a reason to skip these actions: they help the user continue from the result. Do not perform the actions unless the user chooses one.\r\n- Each action must be a distinct, concrete request the user could send next. Do not repeat completed work or invent filler. Omit the list if the user declines suggestions, the requested work fails, or no genuinely useful next action remains.\r\n- Present each action as an unescaped Markdown list item using this exact syntax: `- :codex-followup[Short action]{prompt=\"Complete request for that action\"}`.\r\n---\r\nname: \"pdf\"\r\ndescription: \"Read, create, inspect, render, and verify PDF files where visual layout matters, including fillable AcroForms. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pypdf for generation and extraction.\"\r\n---\r\n\r\n# PDF Skill\r\n\r\n## When To Use\r\n\r\n- Read or review PDF content where layout and visuals matter.\r\n- Create PDFs programmatically with reliable formatting.\r\n- Fill and validate interactive PDF forms.\r\n- Validate final rendering before delivery.\r\n\r\n## Tools + Contract Requirements\r\n\r\nImmediately before the first create/edit authoring command, run `mark_artifact_operation_started.mjs` successfully exactly once using the command below. Do not run it for read-only work. For edits, replace `create` with `edit`; adjust the expected count and output format to match the requested outputs.\r\n\r\n```bash\r\nnode container_tools/mark_artifact_operation_started.mjs --operation-kind create --expected-output-count 1 --output-format pdf\r\n```\r\n\r\n## Workflow\r\n\r\n1. Prefer visual review: render PDF pages to PNGs and inspect them.\r\n   - Use `pdftoppm` from the bundled runtime or system Poppler when available.\r\n   - If unavailable, install Poppler or ask the user to review the output locally.\r\n2. Use `reportlab` to generate PDFs when creating new documents.\r\n3. Use `pdfplumber` or `pypdf` for text extraction and quick checks; do not rely on text extraction for layout fidelity.\r\n4. After each meaningful update, re-render pages and verify alignment, spacing, and legibility.\r\n\r\n## Fill And Validate AcroForms\r\n\r\nVisual review alone is not a correctness check for a fillable PDF. A page `/Widget` annotation can render a value from its appearance stream while the canonical `/AcroForm/Fields` tree is missing or contains a stale value.\r\n\r\n1. Keep the result interactive by default; set `flatten=True` only when the user explicitly requests a completed, static form. Preserve the source PDF, and do not flatten a signed PDF without an explicit workflow decision.\r\n2. Inspect both representations before filling: enumerate fields from `reader.get_fields()` and `/Widget` annotations from every page's `/Annots`, following `/Parent` and `/Kids`. If a widget and a canonical field have the same name but are distinct objects with no `/Parent` relationship, do not call `reattach_fields()` blindly: it can create a second top-level field with the same name. Report the ambiguity or produce a static result.\r\n3. Recover genuinely orphaned widgets, fill all pages, and write the result with `pypdf`:\r\n\r\n```python\r\nfrom pypdf import PdfReader, PdfWriter\r\nfrom pypdf.generic import NameObject\r\n\r\nreader = PdfReader(input_pdf)\r\nwriter = PdfWriter()\r\nwriter.clone_document_from_reader(reader)\r\n\r\n# Restores widgets that are missing from /AcroForm/Fields.\r\nwriter.reattach_fields()\r\nfields = writer.get_fields() or {}\r\nmissing = set(expected_values) - set(fields)\r\nif missing:\r\n    raise ValueError(f\"Form fields not found after repair: {sorted(missing)}\")\r\n\r\nvalues_to_write = dict(expected_values)\r\nif flatten:\r\n    # Paint every existing value before removing every widget.\r\n    values_to_write = {\r\n        name: field.get(\"/V\", \"/Off\" if field.get(\"/FT\") == \"/Btn\" else \"\")\r\n        for name, field in fields.items()\r\n    }\r\n    values_to_write.update(expected_values)\r\n\r\nwriter.update_page_form_field_values(\r\n    None, values_to_write, auto_regenerate=False, flatten=flatten\r\n)\r\n\r\nif flatten:\r\n    # pypdf's flatten=True paints appearances but does not remove widgets.\r\n    writer.remove_annotations(subtypes=\"/Widget\")\r\n    writer.root_object.pop(NameObject(\"/AcroForm\"), None)\r\n\r\nwith open(output_pdf, \"wb\") as stream:\r\n    writer.write(stream)\r\n```\r\n\r\n4. Reopen the written PDF before delivery. For an interactive result, require every expected field to be present in `get_fields()` with the expected `/V`, enumerate page widgets again, and confirm their effective `/V` (the widget value or inherited `/Parent` value) agrees. Confirm each updated widget has a non-empty `/AP` `/N` appearance and render the final pages to catch stale or clipped appearances. Do not rely on `/NeedAppearances` or a successful PNG render as proof that logical field data was updated.\r\n5. For a flattened result, require zero `/Widget` annotations and no remaining `/AcroForm` field tree after reopening, then render the final pages. Keep an editable copy when the user may need to revise the form.\r\n\r\n## Temp And Output Conventions\r\n\r\n- Use `tmp/pdfs/` for intermediate files; delete them when done.\r\n- Write final artifacts under `output/pdf/` when working in this repo.\r\n- Keep filenames stable and descriptive.\r\n\r\n## Dependencies\r\n\r\nPrefer the Codex bundled workspace/runtime dependencies when available. The primary runtime is expected to include:\r\n\r\n- Python packages: `reportlab`, `pdfplumber`, `pypdf`\r\n- Rendering tools: `pdftoppm` and `pdfinfo` from Poppler\r\n\r\nIf a dependency is missing, install only what is needed.\r\n\r\nPython packages:\r\n\r\n```bash\r\nuv pip install reportlab pdfplumber pypdf\r\n```\r\n\r\nIf `uv` is unavailable:\r\n\r\n```bash\r\npython3 -m pip install reportlab pdfplumber pypdf\r\n```\r\n\r\nSystem tools for rendering:\r\n\r\n```bash\r\n# macOS (Homebrew)\r\nbrew install poppler\r\n\r\n# Ubuntu/Debian\r\nsudo apt-get install -y poppler-utils\r\n```\r\n\r\nIf installation is not possible in this environment, tell the user which dependency is missing and how to install it locally.\r\n\r\n## Environment\r\n\r\nNo required environment variables.\r\n\r\n## Rendering Command\r\n\r\n```bash\r\npdftoppm -png \"$INPUT_PDF\" \"$OUTPUT_PREFIX\"\r\n```\r\n\r\n## Quality Expectations\r\n\r\n- Maintain polished visual design: consistent typography, spacing, margins, and section hierarchy.\r\n- Avoid rendering issues: clipped text, overlapping elements, broken tables, black squares, or unreadable glyphs.\r\n- Charts, tables, and images must be sharp, aligned, and clearly labeled.\r\n- Use ASCII hyphens only. Avoid U+2011 and other Unicode dashes.\r\n- Citations and references must be human-readable; never leave tool tokens or placeholder strings.\r\n\r\n## Final Checks\r\n\r\n- Do not deliver until the latest PNG inspection shows zero visual or formatting defects.\r\n- Confirm headers, footers, page numbering, and section transitions look polished.\r\n- Keep intermediate files organized or remove them after final approval.\r\n\r\n## Final response\r\n\r\n### Final response citations\r\n\r\nPlace `:codex-file-citation{...}` inline in prose, not in a trailing list. Use `purpose=\"source\"` for Q&amp;A/no-op and `purpose=\"output\"` for create/edit.\r\n\r\n- [HARD REQUIREMENT] Create/edit: cite each final PDF exactly once with a plain output citation. Summarize representative changes; do not cite every page or add a separate filename, path, or Markdown link. Example: `Created :codex-file-citation{path=\"/abs/path/report.pdf\" purpose=\"output\"}, with the completed analysis and appendix.`\r\n- Q&amp;A/no-op: do not edit or re-export. Inspect the complete relevant pages, preserve material headings, table/figure labels, footnotes, sources, and sample sizes, and cite each source PDF once with a plain source citation.\r\n\r\nPDF citations currently support only plain file citations. Do not add `artifact_kind`, `page_number`, or other locators. Never cite rendered PNGs, scratch files, builders, or QA intermediates unless asked.\r\n\r\n### Final response suggested followups\r\n\r\n- After successfully creating, editing, or analyzing an artifact, finish your final response with 3 useful next actions tailored to the artifact and the user's goal. Completing the requested work is not a reason to skip these actions: they help the user continue from the result. Do not perform the actions unless the user chooses one.\r\n- Each action must be a distinct, concrete request the user could send next. Do not repeat completed work or invent filler. Omit the list if the user declines suggestions, the requested work fails, or no genuinely useful next action remains.\r\n- Present each action as an unescaped Markdown list item using this exact syntax: `- :codex-followup[Short action]{prompt=\"Complete request for that action\"}`.\r\n",
+  "exitCode": 0,
+  "durationMs": 180
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_MET7gbNg0Z0p5PJHwWLO4a45",
+  "kind": "started",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_VV9CkUU6bekKcyjgAx1AQYgo",
+  "kind": "started",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-e5b79263-f194-4754-80b1-028f998b30aa",
+  "server": "codex_app",
+  "tool": "load_workspace_dependencies",
+  "status": "completed",
+  "arguments": {},
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Workspace dependencies are available for this local desktop thread.\n\n### Workspace Dependencies\nUse these bundled paths for sheets, slides, documents, PDFs, images, or browser automation:\n- Bundle version: `26.915.20218`\n- Git executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.exe`\n- Node.js executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe`\n- Node.js packages: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules`\n- pnpm executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.cmd`\n- Python executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe`\n- Python packages: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python`\n- Override binaries: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override`\n- Fallback binaries: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback`"
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 285
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-1bc638a0-e1a4-4fd1-a74d-27f9ec3d8490",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\references\\\\clarification-questions.md' -Encoding UTF8; Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\references\\\\template-elicitation.md' -Encoding UTF8; Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\tasks\\\\create_edit.md' -Encoding UTF8\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "25768",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\references\\clarification-questions.md' -Encoding UTF8; Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\references\\template-elicitation.md' -Encoding UTF8; Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\tasks\\create_edit.md' -Encoding UTF8"
+    }
+  ],
+  "aggregatedOutput": "# Clarification questions\r\n\r\nCheck user attachments and references first and reuse answers already given. Review every category below. Ask exactly one question for each unanswered category. A reasonable default or an inferred preference does not count as an answer.\r\n\r\nWithin each category, ask about the missing detail that matters most. Do not combine categories into one question or limit the round to only the highest-priority categories.\r\n\r\n## What to ask\r\n\r\n| Detail | Ask for |\r\n| --- | --- |\r\n| Purpose | What should the reader understand, decide, or do after reading? |\r\n| Audience | Who is the document for, such as executives deciding on a proposal or teammates learning a process? |\r\n| Length | How many pages should the document be, including any appendices? |\r\n| Tone | How should it sound, such as conversational, formal, or persuasive? |\r\n| Target coverage | Which questions or topics must the document address? |\r\n| Emphasis | Which argument, recommendation, or finding deserves the most space? |\r\n| Data sources | When evidence is needed, which sources should support the claims, such as supplied research, internal reports, or external references to cite? |\r\n| Additional coverage | What else must appear, such as a specific example, objection, risk, or recommendation? |\r\n\r\n## How to ask\r\n\r\nUse `request_user_input_async` to ask questions. Submit all questions together in one `request_user_input_async` call.\r\n\r\nFor structured questions, give the two best options for the task. For each option, include a short rationale/elaboration for the choice in the option's text. Add `Use your judgment` as the third option. Make either the 1st or 2nd option recommended\r\n\r\nFor open-ended question, include examples in the question text to help the user answer, such as \"Is there anything else this should cover, such as a specific example or concern?\" If the tool is unavailable, ask in a message.\r\n\r\nIf the user doesn't provide a template, you may find a template while the user answers. Otherwise, wait at least 90 seconds for a reply. If none arrives, make a reasonable assumption or use a placeholder and disclose it. Never invent data or citations to fill a missing source. Do not stop the turn.\r\n# Artifact Template Selection\r\n\r\nOpen the template selection picker for creating new documents when the user has not provided a template, reference, or visual direction. Also open the picker when the user asks to browse or upload templates. Do not open it if the user declines templates, requests a connected-source design search, or if `list_artifact_templates` is unavailable this turn. Subject matter, audience, tone, company names, and source files do not by themselves specify a template or visual direction.\r\n\r\nCall `list_artifact_templates({artifactKind, request})` with `artifactKind: \"document\"`, or `\"google-docs\"` for Google Docs requests. Include compatible Office and Google templates without changing the requested output format.\r\n\r\nRank templates by relevance, breaking ties in favor of personal or shared templates. Include a mix of styles. Pass their `skillName` values unchanged to `choose_artifact_template({artifactKind, request, templates})` and call it once. Set `includeAllTemplates: true` only when the user requests the full catalog. The picker displays at most ten templates.\r\n\r\nFollow the selected template or uploaded reference. Save an uploaded reference only when `saveForFutureUse` is true. Use Template Creator with the returned `displayName`. Continue without a template if the picker is declined, cancelled, unavailable, or fails. Do not replace the picker with `request_user_input` or a chat list. Browsing templates does not authorize artifact creation.\r\n# Task: Create / edit a DOCX\r\n\r\n## Default tool: python-docx\r\nUse `python-docx` for:\r\n- paragraphs/runs\r\n- built-in styles (Title / Heading 1 / Heading 2)\r\n- tables (structure + cell text + basic formatting)\r\n- simple headers/footers and margins\r\n\r\n## Practical python-docx gotchas\r\n\r\n### 1) Header/footer tables require a width\r\nWhen adding tables to headers/footers, `add_table` requires an explicit width:\r\n\r\n```python\r\nfrom docx.shared import Inches\r\nfrom docx.enum.text import WD_ALIGN_PARAGRAPH\r\n\r\nsection = doc.sections[0]\r\nfooter = section.footer\r\ntable = footer.add_table(rows=1, cols=3, width=Inches(6.5))\r\n# Align text inside each cell\r\ntable.rows[0].cells[0].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.LEFT\r\n```\r\n\r\n### 2) Fonts can require setting both `run.font.name` and `w:rFonts`\r\nSome renderers/Word builds don’t respect only `run.font.name`:\r\n\r\n```python\r\nfrom docx.oxml.ns import qn\r\n\r\nrun.font.name = \"Gill Sans\"\r\nrun._element.rPr.rFonts.set(qn(\"w:ascii\"), \"Gill Sans\")\r\nrun._element.rPr.rFonts.set(qn(\"w:hAnsi\"), \"Gill Sans\")\r\n```\r\n\r\n### 3) “Clear header paragraph” isn’t always one call\r\nIf you need to replace an existing header paragraph, remove runs (or replace the paragraph XML). Avoid assuming a `clear()` method exists.\r\n\r\n### 4) Tracked changes and comments are not first-class\r\nIf the user requests *real* tracked changes or *real* Word comments, plan for OOXML patching (see `ooxml/`).\r\n\r\n## After every meaningful batch of edits: render and review\r\nUse the loop from `tasks/verify_render.md` (DOCX → PNG) to avoid shipping layout defects. (Internally the renderer uses a PDF step; `--emit_pdf` can persist it if needed.)\r\n\r\n## Output hygiene\r\nKeep `/mnt/data` clean: deliverables only unless the user asks for intermediate render artifacts.\r\n",
+  "exitCode": 0,
+  "durationMs": 149
+}
+````
+
+## Asistent
+
+Cât de amplu vrei documentul, inclusiv analiza jurisprudenței?
+- Analiză detaliată, aproximativ 10–15 pagini, cu sinteză pentru decizie
+- Variantă concentrată, aproximativ 5–7 pagini
+- Folosește-ți judecata
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-a344acee-db97-4385-b2c6-454f6f6e4b68",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"rg --files 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218' | rg 'mark_artifact|render_docx.py|writing_quality|artifact_tools|container_tools'; Get-ChildItem -LiteralPath 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native' -Directory | Select-Object Name; & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -c \\\"import docx,fitz; print('python-docx, PyMuPDF disponibile')\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "89654",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg --files 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218' | rg 'mark_artifact|render_docx.py|writing_quality|artifact_tools|container_tools'; Get-ChildItem -LiteralPath 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native' -Directory | Select-Object Name; & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -c \"import docx,fitz; print('python-docx, PyMuPDF disponibile')\""
+    }
+  ],
+  "aggregatedOutput": "C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\writing_quality.md\nC:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\render_docx.py\nC:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\container_tools\\mark_artifact_operation_started.mjs\n\r\nTraceback (most recent call last):\r\n  File \"<string>\", line 1, in <module>\r\nModuleNotFoundError: No module named 'fitz'\r\nName\r\n----\r\ngit\r\njxrlib\r\nlibheif\r\npoppler\r\npowershell\r\n\r\n",
+  "exitCode": 1,
+  "durationMs": 408
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-7269d2e3-9237-4a5d-b0f8-17e45de75408",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\render_docx.py' -Encoding UTF8 -TotalCount 140; Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\container_tools\\\\mark_artifact_operation_started.mjs' -Encoding UTF8 -TotalCount 100; Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\writing_quality.md' -Encoding UTF8 -TotalCount 125; & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -c \\\"import docx,reportlab,pdfplumber,pypdf,PIL; print('authoring dependencies OK')\\\"; Get-ChildItem -LiteralPath 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\bin\\\\fallback' -File | Select-Object Name\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "79562",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\render_docx.py' -Encoding UTF8 -TotalCount 140; Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\container_tools\\mark_artifact_operation_started.mjs' -Encoding UTF8 -TotalCount 100; Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\writing_quality.md' -Encoding UTF8 -TotalCount 125; & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -c \"import docx,reportlab,pdfplumber,pypdf,PIL; print('authoring dependencies OK')\"; Get-ChildItem -LiteralPath 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback' -File | Select-Object Name"
+    }
+  ],
+  "aggregatedOutput": "import argparse\r\nimport glob\r\nimport os\r\nimport re\r\nimport shutil\r\nimport subprocess\r\nimport sys\r\nimport tempfile\r\nimport xml.etree.ElementTree as ET\r\nfrom os import makedirs, replace\r\nfrom os.path import abspath, basename, exists, expanduser, join, splitext\r\nfrom pathlib import Path\r\nfrom typing import Sequence, cast\r\nfrom zipfile import ZipFile, ZipInfo\r\n\r\nfrom pdf2image import convert_from_path, pdfinfo_from_path\r\n\r\nTWIPS_PER_INCH: int = 1440\r\n\r\n\r\ndef _default_macos_tmpdir_for_soffice() -> None:\r\n    \"\"\"Use a stable macOS temp base for LibreOffice work.\r\n\r\n    Codex desktop can launch Python with a per-app TMPDIR that causes headless\r\n    LibreOffice to abort. Normalize the renderer process to /private/tmp so\r\n    callers do not need to pass `env TMPDIR=/private/tmp ...`.\r\n    \"\"\"\r\n\r\n    if sys.platform != \"darwin\":\r\n        return\r\n    if not os.path.isdir(\"/private/tmp\"):\r\n        return\r\n\r\n    tmpdir = os.environ.get(\"TMPDIR\", \"\")\r\n    tmpdir_norm = os.path.realpath(tmpdir.rstrip(os.sep) or tmpdir)\r\n    if tmpdir_norm == \"/private/tmp\":\r\n        return\r\n\r\n    os.environ[\"TMPDIR\"] = \"/private/tmp\"\r\n    os.environ[\"TEMP\"] = \"/private/tmp\"\r\n    os.environ[\"TMP\"] = \"/private/tmp\"\r\n    tempfile.tempdir = \"/private/tmp\"\r\n\r\n\r\ndef _resolve_soffice() -> str:\r\n    \"\"\"Prefer the selected runtime's LibreOffice without silent system fallback.\"\"\"\r\n    runtime_bins: list[str] = []\r\n\r\n    python_root = os.path.dirname(os.path.dirname(sys.executable))\r\n    if os.path.basename(python_root) == \"python\":\r\n        dependencies_root = os.path.dirname(python_root)\r\n        if os.path.basename(dependencies_root) == \"dependencies\":\r\n            runtime_bins.append(os.path.join(dependencies_root, \"bin\", \"override\"))\r\n\r\n    current = os.path.dirname(os.path.realpath(__file__))\r\n    while current and current != os.path.dirname(current):\r\n        if os.path.basename(current) == \"codex-primary-runtime\":\r\n            runtime_bins.append(os.path.join(current, \"dependencies\", \"bin\", \"override\"))\r\n            break\r\n        current = os.path.dirname(current)\r\n\r\n    # LibreOffice is currently bundled only on macOS/Linux. Windows uses its\r\n    # installed native executable, not the runtime's other-tool wrappers.\r\n    if runtime_bins and sys.platform != \"win32\":\r\n        runtime_bin = runtime_bins[0]\r\n        soffice = shutil.which(\"soffice\", path=runtime_bin)\r\n        if soffice is None:\r\n            raise FileNotFoundError(f\"Missing bundled LibreOffice in {runtime_bin}\")\r\n        current_path = os.environ.get(\"PATH\", \"\")\r\n        path_entries = current_path.split(os.pathsep) if current_path else []\r\n        remaining_path_entries = [entry for entry in path_entries if entry and entry != runtime_bin]\r\n        # Keep Poppler and other renderer subprocesses in the same runtime.\r\n        os.environ[\"PATH\"] = os.pathsep.join([runtime_bin, *remaining_path_entries])\r\n        return os.path.abspath(soffice)\r\n\r\n    executable_name = \"soffice.exe\" if sys.platform == \"win32\" else \"soffice\"\r\n    soffice = shutil.which(executable_name)\r\n    if soffice is None:\r\n        raise FileNotFoundError(f\"LibreOffice {executable_name} was not found on PATH\")\r\n    return os.path.abspath(soffice)\r\n\r\n\r\ndef _read_ooxml_member(zf: ZipFile, member_name: str) -> bytes:\r\n    \"\"\"Read an OOXML zip member, tolerating Windows-style backslash member names.\"\"\"\r\n\r\n    try:\r\n        return zf.read(member_name)\r\n    except KeyError:\r\n        backslash_name = member_name.replace(\"/\", \"\\\\\")\r\n        if backslash_name != member_name:\r\n            return zf.read(backslash_name)\r\n        raise\r\n\r\n\r\ndef _zipinfo_with_filename(info: ZipInfo, filename: str) -> ZipInfo:\r\n    \"\"\"Clone the entry metadata we care about while changing the member name.\"\"\"\r\n\r\n    out = ZipInfo(filename=filename, date_time=info.date_time)\r\n    out.comment = info.comment\r\n    out.extra = info.extra\r\n    out.internal_attr = info.internal_attr\r\n    out.external_attr = info.external_attr\r\n    out.create_system = info.create_system\r\n    out.compress_type = info.compress_type\r\n    return out\r\n\r\n\r\ndef make_renderable_docx_copy(\r\n    input_path: str, *, verbose: bool = False\r\n) -> tuple[str, tempfile.TemporaryDirectory[str] | None]:\r\n    \"\"\"Return a DOCX path that common OOXML readers can open.\r\n\r\n    Some generators incorrectly write zip entries such as ``word\\\\document.xml`` and\r\n    ``_rels\\\\.rels``. Word may still open those files, but python zip readers and\r\n    headless conversion tools expect canonical OOXML member names with ``/``.\r\n    When detected, rewrite a temporary copy with normalized separators.\r\n    \"\"\"\r\n\r\n    if not input_path.lower().endswith((\".docx\", \".docm\", \".dotx\", \".dotm\")):\r\n        return input_path, None\r\n\r\n    try:\r\n        with ZipFile(input_path, \"r\") as zf:\r\n            infos = zf.infolist()\r\n            normalized_names = [info.filename.replace(\"\\\\\", \"/\") for info in infos]\r\n            should_repair = any(\r\n                info.filename != normalized_name\r\n                for info, normalized_name in zip(infos, normalized_names)\r\n            )\r\n            if not should_repair or \"word/document.xml\" not in normalized_names:\r\n                return input_path, None\r\n\r\n            temp_dir: tempfile.TemporaryDirectory[str] = tempfile.TemporaryDirectory(\r\n                prefix=\"render_docx_ooxml_\"\r\n            )\r\n            repaired_path = join(temp_dir.name, basename(input_path))\r\n            seen: set[str] = set()\r\n            with ZipFile(repaired_path, \"w\") as zout:\r\n                for info, normalized_name in zip(infos, normalized_names):\r\n                    if normalized_name in seen:\r\n#!/usr/bin/env node\r\n\r\nconst args = process.argv.slice(2);\r\nconst expectedOutputCount = Number(args[3]);\r\nconst validOutputFormats = new Set([\"docx\"]);\r\nconst valid =\r\n  args.length === 6 &&\r\n  args[0] === \"--operation-kind\" &&\r\n  new Set([\"create\", \"edit\"]).has(args[1]) &&\r\n  args[2] === \"--expected-output-count\" &&\r\n  Number.isSafeInteger(expectedOutputCount) &&\r\n  expectedOutputCount >= 1 &&\r\n  expectedOutputCount <= 100 &&\r\n  args[4] === \"--output-format\" &&\r\n  validOutputFormats.has(args[5].toLowerCase());\r\n\r\nif (!valid) {\r\n  console.error(\r\n    \"usage: mark_artifact_operation_started.mjs --operation-kind <create|edit> --expected-output-count <1-100> --output-format <supported format>\",\r\n  );\r\n  process.exitCode = 2;\r\n}\r\n# Writing quality\r\n\r\n## Contents\r\n\r\n- [Editorial review for documents](#editorial-review-for-documents)\r\n- [Professional writing failure modes](#professional-writing-failure-modes-supplied-text)\r\n- [Documents for human readers and author voice](#documents-for-human-readers-and-author-voice-image-transcription)\r\n\r\n## Editorial review for documents\r\n\r\nReview the writing before final formatting, and repeat the relevant checks after substantial revisions. Use the examples below to identify the problem and rewrite the actual document. Apply a suggested rewrite only when the source and section support its meaning. Do not borrow dates, roles, results, or other facts from an example.\r\n\r\n### Read headings as an outline\r\n\r\nRead the document title and section headings together without the body text. They should identify the subject, scope, and organization of the document. Check that each heading describes what its section actually contains. Reconsider a vague heading's framing before polishing individual words, and keep a good existing heading when it already does the job.\r\n\r\n| Wording to improve | Clearer wording when supported by the section |\r\n| --- | --- |\r\n| Performance that frames the choice | 2025 and 2026 Performance Metrics |\r\n| From oversight to trusted execution | AI Policy Approval Process |\r\n| Reported outcomes with limits | Pilot Results and Study Limitations |\r\n\r\nUse a plain subject label for background, definitions, or process descriptions. Use a factual finding as a heading only when the section establishes that finding. Follow the title and heading rules in `SKILL.md`, including the requirement for no punctuation.\r\n\r\n### Use paragraphs to explain relationships\r\n\r\nGive each paragraph a clear point and explain how its facts or actions relate. The document should make sense without a presenter supplying missing connections. Use complete sentences and vary their length naturally. When a sentence bundles actions, explain their sequence or dependency when the source supports it.\r\n\r\nFor example, the fragments \"Policy approval required. Legal approves the policy. Publication follows approval.\" become \"Legal must approve the policy before publication.\" The rewrite preserves the actor and approval condition while making their relationship clear.\r\n\r\nUse lists for distinct items readers need to identify, follow, or compare. Keep a useful list of three items when all three matter. Avoid adding filler to complete a trio or repeatedly using the same three-part rhythm. Do not invent an owner, sequence, or causal link to make vague source material sound more concrete.\r\n\r\n### Unpack compressed labels and unnecessary compounds\r\n\r\nReplace dense modifiers and abstract labels with natural phrases that state the intended meaning. Rewrite the phrase rather than simply deleting its hyphens.\r\n\r\n| Compressed wording | Clearer wording |\r\n| --- | --- |\r\n| Approval-ready evidence pack | Evidence required for approval |\r\n| Decision-enabling insights | Findings relevant to the decision |\r\n\r\nUse the first rewrite for a section listing approval requirements. If the original phrase describes a completed packet, preserve that status with \"Evidence ready for approval.\" A clearer label must still express the intended meaning.\r\n\r\nPreserve official names, defined terms, and established technical vocabulary when precision requires them. Explain an unfamiliar term on first use when the audience needs it, then use it consistently. Keep ordinary grammatical hyphens when they clarify meaning.\r\n\r\n### Preserve the claim when simplifying\r\n\r\nCheck the rewrite against the source. Keep numbers attached to their units, comparison baseline, and time period. Preserve conditions and uncertainty, including the distinction between \"may,\" \"should,\" and \"must.\" Keep recommendations separate from findings and associations separate from causal claims.\r\n\r\n| Source wording | Edit to avoid | Safer wording or action |\r\n| --- | --- | --- |\r\n| Costs may fall if volume increases | Higher volume lowers costs | Costs may fall with higher volume |\r\n| Transit use recovered to 79 percent of its previous level | Transit use increased by 79 percent | Transit use reached 79 percent of its previous level |\r\n| A structurally lower level of commuting | A permanent drop in commuting | Retain the structural claim or explain the underlying change using the source; do not infer permanence |\r\n\r\nWhen the original is ambiguous, consult the source or retain the uncertainty. Do not silently choose a stronger interpretation, add a result, or remove a qualification to make the prose sound decisive.\r\n\r\n### Use punctuation and voice in context\r\n\r\nPrefer active voice when the actor is known and relevant. Use passive voice when the action or result deserves emphasis or the source does not identify the actor. Do not invent an actor solely to eliminate a passive construction.\r\n\r\nUse punctuation in body text to make relationships and qualifications clear. Revise repeated punctuation used to manufacture emphasis or rhythm. Apply these checks in context rather than banning every instance of a construction. The separate rule against punctuation in document titles and headings still applies.\r\n\r\n## Professional writing failure modes (supplied text)\r\n\r\nProfessional Writing Failure Modes \r\n\r\nWe have classified common AI-slop style failure modes into a few key buckets. Please treat all of these as contextual signals, not forbidden tokens. Penalize a pattern when it is conspicuous, repeated, unearned, or harmful to the requested writing; do not reject an otherwise strong response because of ONE isolated phrase or punctuation mark.\r\nFlag when: The underlying claim is understandable, but it is packaged as a stock formula, slogan, staged cadence, canned emotional phrase, or strained metaphor, instead of clear analysis. This includes repeated colons, semicolons, or em dashes used to manufacture rhythm or emphasis rather than clarify meaning.\r\nExamples of bad writing:\r\n- Inflated contrast: \"This isn't just a calendar - it's a gateway to a more intentional life.\" or “Data access is not a background detail. It’s the heart of the user experience.”\r\n- Overuse of odd words that don’t make sense: “Proceed only when five readiness gates are green” to refer to criteria for a diligence deck\r\n- Overusing parallelism/semicolons: “The old request drew a boundary around hotspots; the new request removes that map layer” or “Early restrictions were zone-based; the late-December version removes the map as the control surface”. This is bad bc also very unclear what the control surface means in this case.\r\n- Unnecessary usage of em-dashes: “Purpose: isolate what changed – and what deliberately stayed in place – under Osaka Prefecture’s Red Stage emergency response.” Don’t use repeated punchy contrast or interruption built from em dashes if plain sentences would read better.\r\n- Stock formula: \"The tool not only saves time, but also transforms how teams collaborate\" or \"faster, smarter, and more intuitive.\"\r\n- Slogan-like transition or fragment: \"From paper-bound practicals to a shared digital workspace\" or \"One team. One vision. Limitless possibilities.\" or “Win the close. Keep the evidence.” or “Pipeline is flat. Spend isn't.” or “EBITDA is not cash. Bridge it” or “\"this is not just another X. The better framing is Y\" or “It’s not X it’s Y”.\r\n- Overusing colons: “Universities: reinforce guidance. Students: reduce social activity. Everyone: keep the year end quieter.”\r\n- Staged cadence or punctuation: \"Different sectors, same behavioral logic: reduce optional contact where consequences are highest.\"\r\n- Canned empathy: \"I completely understand how frustrating and overwhelming this situation must feel.\"\r\n- Synthetic balance without a real tradeoff: \"While remote work offers flexibility, it also presents unique challenges.\"\r\n- Mannered parallelism or punctuation: “The problem is clear: priorities are shifting; timelines are slipping; confidence is fading — and the moment for action is now.”\r\n- Inflated significance: turning mundane facts into claims about legacy, identity, broader trends, pivotal moments, or an \"evolving landscape.\"\r\n- Promotional or travel-guide tone: unrequested salesy praise, destination-copy atmosphere, or reflexive adjectives such as \"vibrant,\" \"rich,\" \"renowned,\" \"groundbreaking,\" or \"nestled.\"\r\n- Vague authorities and synthetic consensus: unsupported appeals such as \"experts argue,\" \"observers note,\" \"scholars say,\" or \"several sources suggest.\"\r\n- Canned endings: generic \"challenges,\" \"legacy,\" or \"future outlook\" conclusions that do not arise naturally from the content.\r\n- Repeated rhetorical triads: habitual sets of three adjectives, abstract nouns, clauses, or examples that make the prose feel manufactured.\r\n- Overlong parallel enumerations: a common GPT tic is to pile up rhythmic catalogues of who/what/where clauses, examples, or abstract nouns to simulate exhaustiveness or momentum after the point is clear. Penalize conspicuous accumulations unless the task genuinely needs the list.\r\n- Repeated negative parallelism: \"not X, but Y,\" \"not only X, but also Y,\" \"not just X, but Y,\" or \"no X, no Y, just Z.\"\r\n- Dense clusters of AI-associated vocabulary: for example \"delve,\" \"pivotal,\" \"robust,\" \"tapestry,\" \"underscore,\" \"showcase,\" \"foster,\" \"intricate,\" \"landscape,\" \"testament,\" and \"vibrant.\"\r\n- Mechanical bold-label bullet lists: repeated bullets of the form \"**Label:** explanation\" when that structure is not useful or requested.\r\nDo not flag: A construction that states concrete distinctions, gives a clear warning, or quotes an identified source. Example: \"The bug is in the parser, not the tokenizer\"\r\nDo not flag parallel structure or punctuation that clearly separates a real list, contrast, or logical relationship. Example: “The red light means stop, and the green light means go.”\r\nFlag when: The reader cannot tell what changed, why the benefit follows, what evidence supports the claim, or what reason drove the decision. The specific rationale cannot be recovered because evidence, causality, actors, or observable meaning are missing.\r\nExamples of bad writing:\r\n- Empty abstraction: \"This unlocks value, fosters alignment, and drives meaningful impact.\" or “Labor costs push it; few have it; so it grows faster.” or “Breadth plus intelligence, not the original module, is where growth now comes from”\r\n- Unclear meaning: “\"Everyday computer work gets the same agentic loop\" <-- what does this mean, what is this agentic loop?\r\n- Tacked-on benefit: \"The interface centralizes key information, ensuring a seamless user experience.\"\r\n- Inflated significance or unnamed authority: \"This represents a profound shift\" or \"Research consistently shows that this approach improves outcomes.\" without sources to exclude it \r\n- Informal language: \"Data Center is doing the heavy lifting\" is incoherent vs \"Most revenue growth comes from data centers\", or \"The next guide resets the bar higher\" should probably be \"Q2 projected revenue is $91B\"\r\n- Process instead of reason: \"After several rounds of cross-functional review, we aligned on the next phase.\"\r\n- Sometimes models can oversimplify statements, turning something like “Where to draw the line on speed investments” into “Where to draw the line” which completely loses the meaning, or turning “When faster shipping drives growth rather than simply increasing costs” into “When faster shipping drives growth” which is oversimplifying things.\r\nDo not flag: Claims supported by a concrete result, source, constraint, or approval requirement. Examples: \"The change removes one approval step,\" \"The 12 June accessibility audit found 14 missing labels,\" and \"Legal and Security must approve the exception before release.\"\r\nRevision move: Name the observable change, source, deciding constraint, or actual tradeoff.\r\nFlag when: The sentence can be shorter and clearer without losing necessary meaning or a real qualification. The rationale is clear but the wording is unnecessarily long, indirect, compressed, bureaucratic, jargon-heavy, or hedged.\r\nExamples of bad writing:\r\n- Corporate or bureaucratic phrasing: \"Stakeholders should be informed of the operational implications associated with this transition.\"\r\n- Overcomplicated sentence structure: \r\n  - “The clean end state is therefore not “CCA replaces every product.” It is: shared primitives provide durable identity and lifecycle; CCA provides portable agent execution; each surface becomes an orientation onto that shared graph.” —> should be rewritten simply to, “\"CCA provides a portable agent execution capability that every surface can reuse, alongside shared identity and lifecycle primitives.”\r\n  - “The most important improvement over the earlier proposals was not the third mode. It was the unified sidebar...they would no longer behave like separate apps with separate navigation.” → should be rewritten simply to, “\"The unified sidebar meant that modes would determine how new threads start, but with shared navigation.”\r\n- Compressed abstraction: \"The practical event ceiling remains anchored to both a headcount cap and a percentage cap.\"\r\n- Indirect comparison: \"The update reads as a broader continuation of requests rather than a list of named restricted zones.\"\r\n- Overly hedging: \"It may potentially be worth considering whether the team could possibly delay the launch.\"\r\n- Unnecessary verbosity: \"At this point in time, it would be advisable for the team to begin the process of reviewing the draft.\"\r\n- Unexplained jargon: “The workflow operationalizes a cross-functional enablement layer for downstream value realization”. Similarly, instead of slop like \"Restrained color vs. visual noise: a simple navy-and-gray palette feels calm and credible.\", one should say something like \"We moved to a more simple color palette (navy and gray, no loud colors)\".\r\n- “Prioritize promise-date clarity and reliability before network acceleration: customers rank on-time delivery above sheer speed.” → this should be rephrased to “Prioritize dependable two-to-three day delivery and accurate promise dates.\r\nDo not flag: Accurate technical terms, legal conditions, or explained uncertainty. Examples: \"The API returns 429 when the client exceeds the rate limit,\" \"The estimate is preliminary because two regions have not reported,\" and \"The vendor may terminate only after giving 30 days' written notice.\"\r\nRevision move: Use concrete subjects and verbs. Keep the shortest accurate wording and only the uncertainty markers that correspond to real unknowns.\r\nFlag when: Setup, repetition, or formatting delays the point or makes the document harder to scan.\r\nExamples of bad writing:\r\n- Generic scene-setting: \"In today's fast-paced digital landscape, effective communication is more important than ever.\"\r\n- Restating the request: \"When it comes to improving employee onboarding, there are several strategies to consider.\"\r\n- Meta-announcement: \"Below is a polished and comprehensive rewrite tailored to your needs.\"\r\n- Redundant conclusion: \"In conclusion, adopting these strategies can help organizations achieve their goals.\"\r\n- Excessive structure: A two-sentence answer split across six headings and twelve bullets.\r\nDo not flag: Framing that narrows scope, corrects the request, explains an omission, or helps readers navigate reference material. Examples: \"This memo covers the two launch decisions due Friday\" and \"Each API endpoint uses Request, Response, and Errors headings for lookup.\"\r\nauthoring dependencies OK\r\n\r\nName\r\n----\r\npnpm.cmd\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 652
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_HhSFDDsDsLjG6LreiTR22LRO",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_IvfgksCSbB4aVfq8Pm89RtG5",
+  "kind": "interacted",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-2859ef33-7d21-49b7-acc2-0ea70f7e0d6b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Command soffice.exe,WINWORD.EXE -ErrorAction SilentlyContinue | Select-Object Name,Source; & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -c \\\"import importlib.util; print('win32com',bool(importlib.util.find_spec('win32com'))); import pdf2image; print('pdf2image OK')\\\"; Get-ChildItem -LiteralPath 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\poppler' -Recurse -Filter 'pdftoppm.exe' | Select-Object FullName; \"'$taskWord=$null; try { $taskWord=New-Object -ComObject Word.Application; $taskWord.Visible=$false; $taskWord.DisplayAlerts=0; Write-Output ('\"'Word '+\"'$taskWord.Version) } finally { if($taskWord){$taskWord.Quit()} }'",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "57920",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Command soffice.exe,WINWORD.EXE -ErrorAction SilentlyContinue | Select-Object Name,Source; & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -c \"import importlib.util; print('win32com',bool(importlib.util.find_spec('win32com'))); import pdf2image; print('pdf2image OK')\"; Get-ChildItem -LiteralPath 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler' -Recurse -Filter 'pdftoppm.exe' | Select-Object FullName; $taskWord=$null; try { $taskWord=New-Object -ComObject Word.Application; $taskWord.Visible=$false; $taskWord.DisplayAlerts=0; Write-Output ('Word '+$taskWord.Version) } finally { if($taskWord){$taskWord.Quit()} }"
+    }
+  ],
+  "aggregatedOutput": "win32com False\r\npdf2image OK\r\n\r\nFullName\r\n--------\r\nC:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe\r\nNew-Object: \r\nLine |\r\n   2 |  … $null; try { $taskWord=New-Object -ComObject Word.Application; $taskW …\r\n     |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Retrieving the COM class factory for component with CLSID {000209FF-0000-0000-C000-000000000046} failed due to the following error: 80070520 A specified logon session does not exist. It may already have been terminated. (0x80070520).\r\n\r\n",
+  "exitCode": 1,
+  "durationMs": 1407
+}
+````
+
+## Asistent
+
+Prima verificare a jurisprudenței a găsit o hotărâre OGH care privește expres o GmbH și admite controlul clauzelor de recuperare a reducerilor de primă și între profesioniști. Agenții verifică dacă raționamentul se aplică exact clauzei noastre 1000K și dacă oferă o cale de ieșire ori înlătură doar un cost suplimentar.
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_pcxytNXqtIlasd36wH1Xo4HB",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_l0KfuWF6d05605QLv87TbyLk",
+  "kind": "interacted",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-caf80b99-c5ec-43f6-810a-f3c1f439535c",
+  "query": "site.ris.bka.gv.at \"7 Ob 152/01f\" Versicherungsverträge GmbH ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at \"7 Ob 152/01f\" Versicherungsverträge GmbH",
+      "site.ris.bka.gv.at \"7 Ob 211/12y\" hypothetisch",
+      "site.ris.bka.gv.at \"7 Ob 154/22f\" Laufzeitvorteil"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn24search12",
+      "snippet": "7 Ob 154/22f ... „R10 – Laufzeitvorteil ... Kostenvorteile, welche in der vereinbarten Prämie bereits",
+      "title": "7 Ob 154/22f",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20221123_OGH0002_0070OB00154_22F0000_000/JJT_20221123_OGH0002_0070OB00154_22F0000_000.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn24search13",
+      "snippet": "7Ob152/01f; 1Ob17/12z ... ein Unternehmer-Versicherungsvertrag, getragen vom Bestreben beider Partner nach einer entsprechenden ... TE OGH 2001-07-11 7 Ob 152/01f ... www.ris.bka.gv.at",
+      "title": "11.07.2001",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_20010711_OGH0002_0070OB00152_01F0000_002/JJR_20010711_OGH0002_0070OB00152_01F0000_002.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn24search0",
+      "snippet": "## Rechtssatz für 7Ob152/01f 1Ob17/12z ... ### Im RIS seit ... Daher keine analoge Anwendung des § 8 Abs 2 Satz 3 VersVG auf Unternehmerverträge",
+      "title": "RIS - Rechtssätze und Entscheidungstext 7Ob152/01f - Justiz",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn24search14",
+      "snippet": "1Ob2362/96a; 7Ob152/01f ... TE OGH 2001/07/11 7 Ob 152/01fVgl aber; Beisatz: Die hier gegenständlichen Versicherungsverträge - Unternehmer-Versicherungsverträge, ... www.ris.bka.gv.at",
+      "title": "25.10.1996",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_19961025_OGH0002_0010OB02362_96A0000_003/JJR_19961025_OGH0002_0010OB02362_96A0000_003.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn24search15",
+      "snippet": "TE OGH 2022-11-23 7 Ob 154/22fBeisatz: Hier: Auch bei einer als \"Laufzeitvorteil\" mit \"Nachschussprämie\" bezeichneten Klausel ist die ... www.ris.bka.gv.at",
+      "title": "23.11.2022",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJR_20100421_OGH0002_0070OB00266_09G0000_001/JJR_20100421_OGH0002_0070OB00266_09G0000_001.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn24search16",
+      "snippet": "7 Ob 211/12y ... RIS-Justiz RS0120056; 7 Ob 223/10k), um eine - wie ... Der Kostenvorbehalt gründet sich auf § 52 Abs 1",
+      "title": "7 Ob 211/12y",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20130327_OGH0002_0070OB00211_12Y0000_000/JJT_20130327_OGH0002_0070OB00211_12Y0000_000.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "360.lexisnexis.at",
+      "ref_id": "turn24search1",
+      "snippet": "2001, 7 Ob 152/01f (OLG Innsbruck 16. ... Nach den schriftlichen Vorgaben der Kl, die sich in allen Versicherungsfragen professioneller Makler als Berater bediente, sollte",
+      "title": "Keine vorzeitige Kündigung bei befristeten Versicherungsverträgen mit Verlängerungsklausel im Unternehmerbereich",
+      "url": "https://360.lexisnexis.at/d/z_jbl_2002_2_Jbl_2002_ausg2_3_Rechtsp_3_7f62a03d5d?origin=lk"
+    },
+    {
+      "type": "text_result",
+      "domain": "ucrisportal.univie.ac.at",
+      "ref_id": "turn24search2",
+      "snippet": "# Glosse zu 7 Ob 154/22f, ... * RIS",
+      "title": "Glosse zu 7 Ob 154/22f, - University of Vienna",
+      "url": "https://ucrisportal.univie.ac.at/en/publications/glosse-zu-7-ob-15422f/"
+    },
+    {
+      "type": "text_result",
+      "domain": "pointnerfinanz.at",
+      "ref_id": "turn24search3",
+      "snippet": "Je nach Bedingungswerk endet der Schutz mit der Wohnsitzverlegung ins Ausland – oder er läuft nur befristet über die Außenversicherung weiter. ... Haushaltsversicherungen werden in",
+      "title": "Haushaltsversicherung Österreich: Kosten pro Monat & Rechner",
+      "url": "https://pointnerfinanz.at/haushaltsversicherung/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.asscompact.at",
+      "ref_id": "turn24search4",
+      "snippet": "Der OGH hat in der Entscheidung 7 Ob 211/12y einen ähnlichen Fall geprüft.Das lässt den Schluss zu, dass eine Nachverrechnung in Höhe von 90% einer",
+      "title": "AssCompact - Wie hoch darf eine Dauerrabatt-Rückforderung ausfallen?",
+      "url": "https://www.asscompact.at/nachrichten/betriebsversicherung-unverh%C3%A4ltnism%C3%A4%C3%9Fige-r%C3%BCckforderung-bei-interessewegfall"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn24search5",
+      "snippet": "Bei der Haftpflichtversicherung ist der Versicherungsfall allein dadurch gegeben, dass ein Dritter vom Versicherungsnehmer Schadenersatz fordert, ohne dass es darauf ankommt, ob diese Forderung berech",
+      "title": "RIS - Rechtssätze für 7Ob63/15p - Justiz",
+      "url": "https://ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20150430_OGH0002_0070OB00063_15P0000_000&IncludeSelf=False"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn24search6",
+      "snippet": "Die Versicherung erstreckt sich nicht auf Schadenersatzverpflichtungen wegen Schäden an Sachen, die der Versicherungsnehmer oder die für ihn handelnden Personen entliehen, gemietet, geleast, gepachtet",
+      "title": "RIS - Rechtssätze und Entscheidungstext 7Ob233/03w - Justiz",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20031203_OGH0002_0070OB00233_03W0000_000&IncludeSelf=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "ucrisportal.univie.ac.at",
+      "ref_id": "turn24search7",
+      "snippet": "* ### Glosse zu 7 Ob 154/22f,",
+      "title": "Institut für Zivilrecht - Publikationen - Universität Wien",
+      "url": "https://ucrisportal.univie.ac.at/de/organisations/institut-f%C3%BCr-zivilrecht/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fothercontribution%2Fother"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-69f1a7d9-c993-4809-9ba4-02b50c9114f4",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"rg --files 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\pdf\\\\26.915.20218' | rg 'mark_artifact_operation_started|render|container_tools'; Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\SKILL.md' -Encoding UTF8 | Select-Object -Skip 230 -First 90\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "81834",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg --files 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.915.20218' | rg 'mark_artifact_operation_started|render|container_tools'; Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\SKILL.md' -Encoding UTF8 | Select-Object -Skip 230 -First 90"
+    }
+  ],
+  "aggregatedOutput": "C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.915.20218\\skills\\pdf\\container_tools\\mark_artifact_operation_started.mjs\n\r\nfunction latexToSvgDataUri(latex, display = true) {\r\n  ensureMathJax();\r\n  const html = _adaptor.outerHTML(_doc.convert(latex, { display }));\r\n  const a = html.indexOf(\"<svg\");\r\n  const b = html.indexOf(\"</svg>\");\r\n  let svg = a !== -1 && b !== -1 ? html.slice(a, b + 6) : html;\r\n  svg = svg.replace(/<\\?xml[^>]*>/g, \"\");\r\n  if (!/xmlns=\"http:\\/\\/www\\.w3\\.org\\/2000\\/svg\"/.test(svg)) {\r\n    svg = svg.replace(/<svg /, '<svg xmlns=\"http://www.w3.org/2000/svg\" ');\r\n  }\r\n  svg = svg.replace(/(width|height)=\"([0-9.]+)(ex|em)\"/g, (_m, attr, num) => {\r\n    const px = Math.round(parseFloat(num) * 8.5);\r\n    return `${attr}=\"${px}px\"`;\r\n  });\r\n  svg = svg.replace(/currentColor/g, \"#000000\");\r\n  return \"data:image/svg+xml;base64,\" + Buffer.from(svg).toString(\"base64\");\r\n}\r\n\r\nasync function latexToPng(latex, outputPath, display = true) {\r\n  const dataUri = latexToSvgDataUri(latex, display);\r\n  const svg = Buffer.from(dataUri.split(\",\", 2)[1], \"base64\");\r\n  await sharp(svg, { density: 300 }).png().toFile(outputPath);\r\n}\r\n\r\nlatexToPng(\r\n  String.raw`\\int_{-\\infty}^{\\infty} e^{-x^2}\\,dx = \\sqrt{\\pi}`,\r\n  \"/mnt/data/equation.png\",\r\n).catch((error) => {\r\n  console.error(error);\r\n  process.exit(1);\r\n});\r\n```\r\n\r\nInsert the PNG at an intentional physical size without stretching it:\r\n\r\n```python\r\nfrom docx import Document\r\nfrom docx.enum.text import WD_ALIGN_PARAGRAPH\r\nfrom docx.shared import Inches\r\n\r\ndoc = Document()\r\nparagraph = doc.add_paragraph()\r\nparagraph.alignment = WD_ALIGN_PARAGRAPH.CENTER\r\nparagraph.add_run().add_picture(\"/mnt/data/equation.png\", width=Inches(2.6))\r\ndoc.save(\"/mnt/data/output/equations.docx\")\r\n```\r\n\r\nUse `String.raw` for LaTeX strings so JavaScript preserves backslashes. Choose `display=true` for\r\nstandalone equations and `display=false` for compact inline-style expressions. After using either\r\nnative OMML or the rendered fallback, run the normal `render_docx.py` workflow and inspect every\r\nequation in the rendered page PNGs for missing glyphs, clipping, blur, poor sizing, or bad page\r\nbreaks.\r\n\r\n## Quick start (common one-liners)\r\n\r\n```bash\r\n# 1) Render any DOCX to PNGs (visual QA)\r\npython render_docx.py input.docx --output_dir out\r\n\r\n# 2) Remove reviewer comments (finalization)\r\npython scripts/comments_strip.py input.docx --out no_comments.docx\r\n\r\n# 3) Accept tracked changes (finalization)\r\npython scripts/accept_tracked_changes.py input.docx --mode accept --out accepted.docx\r\n\r\n# 4) Accessibility audit (+ optional safe fixes)\r\npython scripts/a11y_audit.py input.docx\r\npython scripts/a11y_audit.py input.docx --out_json a11y_report.json\r\npython scripts/a11y_audit.py input.docx --fix_image_alt from_filename --out a11y_fixed.docx\r\n\r\n# 5) Redact sensitive text (layout-preserving by default)\r\npython scripts/redact_docx.py input.docx redacted.docx --emails --phones\r\n```\r\n\r\n## Package layout\r\n\r\nThis skill is organized for progressive discovery: start here, then jump into task- or OOXML-specific docs.\r\n\r\nDOCS SKILL PACKAGE\r\n\r\nRoot:\r\n- SKILL.md: short overview + routing\r\n- manifest.txt: machine-readable list of files to download (one relative path per line)\r\n- render_docx.py: canonical DOCX→PNG renderer (container-safe LO profile + writable HOME + verbose logs)\r\n\r\nTasks:\r\n- tasks/read_review.md\r\n- tasks/create_edit.md\r\n- tasks/verify_render.md\r\n",
+  "exitCode": 0,
+  "durationMs": 166
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f9312edb-c6c1-46d0-9de6-c65c04ba73a7",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$taskWord=$null; try { $taskWord=New-Object -ComObject Word.Application; $taskWord.Visible=$false; $taskWord.DisplayAlerts=0; Write-Output ('\"'Word '+\"'$taskWord.Version) } finally { if($taskWord){$taskWord.Quit()} }'",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "35369",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$taskWord=$null; try { $taskWord=New-Object -ComObject Word.Application; $taskWord.Visible=$false; $taskWord.DisplayAlerts=0; Write-Output ('Word '+$taskWord.Version) } finally { if($taskWord){$taskWord.Quit()} }"
+    }
+  ],
+  "aggregatedOutput": "Word 16.0\r\n",
+  "exitCode": 0,
+  "durationMs": 2485
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-81b259b9-1605-4c5f-a803-ba7cd5393941",
+  "query": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn36view0",
+      "snippet": "Total lines: 488",
+      "title": "RIS - Rechtssätze und Entscheidungstext 7Ob152/01f - Justiz",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_VmEKOzbN4aIwBhNK4xeRWXIm",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-fb446fa6-124a-42b9-a587-f454568f43fe",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\poppler\\\\Library\\\\bin\\\\pdftoppm.exe' -f 1 -singlefile -scale-to 1600 -png '05. Asigurari\\\\Asigurare cladire\\\\B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf' '08. Corespondenta\\\\2026.10.07 Cerere reziliere Donau 2027\\\\2026.10.07 somatie originala p1'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "88846",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe' -f 1 -singlefile -scale-to 1600 -png '05. Asigurari\\Asigurare cladire\\B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf' '08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 somatie originala p1'"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 324
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-9cf6535c-59b9-4fcd-8aa9-d84b03ce6388",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 somatie originala p1.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_A0xxl17NneFST45VgAp21nnO",
+  "kind": "interacted",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## Asistent
+
+Analiza contractului de vânzare a găsit o posibilă cale suplimentară: clauze prin care vânzătorul și-a asumat anumite obligații de despăgubire pentru contractele nepreluate și costurile încetării lor. Documentul va separa ce poate cere DONAU de ce ar putea fi recuperat de la vânzător.
+
+Există însă și jurisprudență OGH care admite asigurări comerciale pe zece ani. Concluzia trebuie sprijinită pe clauzele și probele noastre, nu pe ideea că orice asemenea durată este interzisă.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-97b1e3a8-c1f6-40dc-88cf-59d44a697363",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -c \\\"from pathlib import Path; import json; r=Path.cwd(); idx=json.loads((r/'folder map/inventar.json').read_text(encoding='utf-8')); print([(e['cale'],e['text_cache']) for e in idx if ('Kaufvertrag_Schallergasse_35_signiert' in e['cale'] or ('Grundbuch' in e['cale'] and e['extensie']=='.pdf' and 'Atasamente' not in e['cale']))][:35])\\\"\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "86975",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -c \"from pathlib import Path; import json; r=Path.cwd(); idx=json.loads((r/'folder map/inventar.json').read_text(encoding='utf-8')); print([(e['cale'],e['text_cache']) for e in idx if ('Kaufvertrag_Schallergasse_35_signiert' in e['cale'] or ('Grundbuch' in e['cale'] and e['extensie']=='.pdf' and 'Atasamente' not in e['cale']))][:35])\""
+    }
+  ],
+  "aggregatedOutput": "[('00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF', 'folder map/texte/d9c2e1dc1257397d706ff033d6b042ddb91d69c7ea8e02ea133d7b5a607f7738.txt'), ('00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchauszug_aktuell_A&C_EZ2235.pdf', 'folder map/texte/d9c2e1dc1257397d706ff033d6b042ddb91d69c7ea8e02ea133d7b5a607f7738.txt'), ('00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchauszug_original_2025-11-05_TZ1812-2024.pdf', 'folder map/texte/4aacf647b509fbc7718080fcc723396487fff8a9bc6d0d1b2eae2378580c349b.txt'), ('00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf', 'folder map/texte/45972ffe85c0c368c5c3bc867ca07ddc876edf66e78620e87953753b983f0deb.txt'), ('00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Kaufvertrag_Schallergasse_35_signiert.pdf', 'folder map/texte/237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365.txt'), ('00.Proiect/09. Vertraege/neid.co.at/2026.08.11/03_Grundbuch_EZ2235/Grundbuchauszug_aktuell_EZ2235_KG01305.pdf', 'folder map/texte/d9c2e1dc1257397d706ff033d6b042ddb91d69c7ea8e02ea133d7b5a607f7738.txt'), ('00.Proiect/09. Vertraege/neid.co.at/2026.08.11/03_Grundbuch_EZ2235/Grundbuchauszug_original_2025-11-05_TZ1812-2024.pdf', 'folder map/texte/4aacf647b509fbc7718080fcc723396487fff8a9bc6d0d1b2eae2378580c349b.txt'), ('00.Proiect/09. Vertraege/neid.co.at/2026.08.11/03_Grundbuch_EZ2235/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf', 'folder map/texte/45972ffe85c0c368c5c3bc867ca07ddc876edf66e78620e87953753b983f0deb.txt'), ('00.Proiect/09. Vertraege/zt-pech.at/2026.08.10/03_Grundbuch_EZ2235/Grundbuchauszug_aktuell_EZ2235_KG01305.pdf', 'folder map/texte/d9c2e1dc1257397d706ff033d6b042ddb91d69c7ea8e02ea133d7b5a607f7738.txt'), ('00.Proiect/09. Vertraege/zt-pech.at/2026.08.10/03_Grundbuch_EZ2235/Grundbuchauszug_original_2025-11-05_TZ1812-2024.pdf', 'folder map/texte/4aacf647b509fbc7718080fcc723396487fff8a9bc6d0d1b2eae2378580c349b.txt'), ('00.Proiect/09. Vertraege/zt-pech.at/2026.08.10/03_Grundbuch_EZ2235/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf', 'folder map/texte/45972ffe85c0c368c5c3bc867ca07ddc876edf66e78620e87953753b983f0deb.txt'), ('01. Proprietate + Acte/Cadastru/A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF', 'folder map/texte/d9c2e1dc1257397d706ff033d6b042ddb91d69c7ea8e02ea133d7b5a607f7738.txt'), ('01. Proprietate + Acte/Cadastru/Grundbuchauszug_ KG 01305_ EZ 2235.PDF', 'folder map/texte/d9c2e1dc1257397d706ff033d6b042ddb91d69c7ea8e02ea133d7b5a607f7738.txt'), ('01. Proprietate + Acte/Contract Vanzare Cumparare/Kaufvertrag_Schallergasse_35_signiert.pdf', 'folder map/texte/237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.02.23 2eae73af Kaufvertrag_Schallergasse_35_signiert.PDF', 'folder map/texte/237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.02.23 489120b7 Kaufvertrag_Schallergasse_35_signiert.pdf', 'folder map/texte/237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.02.23 bb8a4631 Kaufvertrag_Schallergasse_35_signiert.PDF', 'folder map/texte/237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365.txt'), ('08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/CERHA HEMPEL/2026.02.23 f7b06c7f Kaufvertrag_Schallergasse_35_signiert.pdf', 'folder map/texte/237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365.txt')]\r\n",
+  "exitCode": 0,
+  "durationMs": 233
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-4e3c19d9-4996-4cec-a9a9-008298bf2eed",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'folder map/README.md' -TotalCount 90; Get-ChildItem -LiteralPath '08. Corespondenta/2026.10.07 Analiza juridica Donau auditata' | Select-Object Name,Length\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "53877",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'folder map/README.md' -TotalCount 90; Get-ChildItem -LiteralPath '08. Corespondenta/2026.10.07 Analiza juridica Donau auditata' | Select-Object Name,Length"
+    }
+  ],
+  "aggregatedOutput": "# 2026.10.07 — DONAU: punct juridic si draft reziliere 2027\r\n\r\nDosar curent: ../08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/. Incepe cu 2026.10.07 Punct de vedere juridic Donau.txt si 2026.10.07 Jurnal actualizare.txt. Draft EVA aa653a96-7eee-4133-a41d-5892ea79788d, NETRIMIS, catre Loschy/DONAU, CC Maritczak/Gruber, fara Capra. Incetare propusa 2027.01.01, alternativ 2027.01.08 confirmat de utilizator; subsidiar primul termen admis. Solicita doua deconturi, suma/data pentru restabilirea acoperirii, dovezi §39 si renuntare la prima suplimentara 1000K. Preavizul de 3 luni nu garanteaza incetarea politei care indica 2036.01.01. Primele nu dispar automat din lipsa acoperirii. Jurnalele TXT/JSON actualizate, istoricul pastrat. Nu este mesaj trimis, acord acceptat sau plata efectuata. Termenul Commerz 2026.10.12 ramane distinct.\r\n\r\n# 2026.10.07 — DONAU: refuz reziliere si declaratie lipsa acoperire\r\n\r\nPuncte curente: ../2026.10.07 Status proiect.txt; ../2026.10.07 Log progres proiect.txt; ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.07 Registru comunicatii.json si 2026.10.07 Registru atasamente.json. Dovezi: ../08. Corespondenta/2026.10.07 Verificare zilnica/.\r\n\r\nDONAU raspunde la 2026.10.06, refuza incetarea si declara lipsa acoperirii pentru prime restante. Invoca rezilierea 2036.01.01 cu 3 luni preaviz, afirmatie de verificat contractual/juridic. Cere documentele Pfeiffer 2026.07.14 pentru reducere. CC Maritczak/Gruber, fara Capra. Urgenta: clarificarea acoperirii si a refuzului cu Capra; termen Commerz 2026.10.12 distinct. Nu se considera contractul incetat, refuzul legal validat sau soldul acceptat. TOMS si ofertantii nu au raspunsuri noi. Office sincronizat 2026.10.07 08:00:19 Romania; cosmin@ig.ro pana la 2026.08.12. Jurnalele TXT/JSON sunt actuale; Excel/DOCX anterioare sunt istoricul.\r\n\r\n# 2026.10.06 — Verificare zilnica; punct curent\r\n\r\nStatus si jurnal: ../2026.10.06 Status proiect.txt; ../2026.10.06 Log progres proiect.txt. Registre: ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.06 Registru comunicatii.json si 2026.10.06 Registru atasamente.json. Dovezi: ../08. Corespondenta/2026.10.06 Verificare zilnica/. KONE oferta primita 36.010 EUR net, probleme de cap de put si titular in service; Schmitt negociere confirmata TRIMISA. TOMS fara raspuns nou. Jurnalele TXT/JSON sunt actuale; Excel/DOCX 2026.10.05 reflecta etapa anterioara. Istoricul este pastrat. Office sincronizat 2026.10.06 08:00:21 Romania; cosmin@ig.ro la 2026.08.12.\r\n\r\n# 2026.10.05 — Draft negociere Schmitt + Sohn\r\n\r\nDraft NETRIMIS in Eva-Mail, office@ac-wohnart.at, ID 32438757-29eb-4df3-801a-0df38e06339a. Sursa: ../08. Corespondenta/2026.10.05 Draft negociere Schmitt + Sohn/. Jurnal proiect: ../2026.10.05 Jurnal proiect - completare negociere Schmitt + Sohn.txt; status si jurnal partener TXT actualizate. Registrul Excel si copia DOCX a jurnalului partenerului reflecta verificarea anterioara; aceasta completare TXT consemneaza draftul. Oferta nu este acceptata.\r\n\r\n# Harta arhivei Schallergasse 35\r\n\r\n## 2026.10.05 — Status curent si verificare zilnica\r\n\r\nPuncte curente: ../2026.10.05 Status proiect.txt; ../2026.10.05 Log progres proiect.xlsx; ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.05 Registru comunicatii.json si 2026.10.05 Registru atasamente.json. Dovezi si originale: ../08. Corespondenta/2026.10.05 Actualizare comunicari/.\r\n\r\nSCHAUERLEUTE propune 2026.10.09 09:30 Viena, de confirmat; BAU-WERTE transmite oferta Bauwerksbuch; Schmitt + Sohn oferta lift; CERHA transmite scrisoare Sturm. TOMS v4.1 este TRIMIS la 2026.10.02, neacceptat/nesemnat. Paragrafele vechi privind DRAFT sunt istoricul. Jurnalele curente ale partenerilor au prefix 2026.10.05. Oferte: ../04. Firme + Executie/2026.10.05 Ultimele raspunsuri ofertanti.xlsx.\r\n\r\nLa cererea expresa a utilizatorului, verificare zilnica ACTIVE la 08:00 Europe/Bucharest in acest chat, ID verificare-zilnic-schallergasse-35. Sincronizare office 2026.10.05 11:31:09 Romania; cosmin@ig.ro ramane la 2026.08.12. Nu sunt identificate comunicari relevante noi din 2026.10.03–05. Exportul ramane API text, nu MIME integral.\r\n\r\n\r\n## 2026.10.02 - TOMS v4.1: data de azi si email explicit\r\n\r\nDosar curent: ../04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026.10.02 Contract v4.1 - data actualizata/. Contract Word/PDF datat 2026.10.02; acelasi draft EVA c2a16371-4d77-4167-93b5-e7170b5d6ef9 actualizat cu punctele explicite si cerere de semnare pentru demarare. DRAFT NETRIMIS. Incepe cu 2026.10.02 Jurnal TOMS - contract v4.1.txt. Fristbeginn ramane data efectiva a semnaturilor. Pret si excluderi conform v4. Versiunile anterioare sunt istoric; foloseste v4.1. Jurnalele si registrul central sunt actualizate.\r\n\r\n\r\n## 2026.10.02 - TOMS v4 conform eliminarilor solicitate\r\n\r\nDosar curent: ../04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026.10.02 Contract v4 - conform TOMS/. Word/PDF v4, surse si email EML cu cinci atasamente reale, DRAFT NETRIMIS. ID EVA c2a16371-4d77-4167-93b5-e7170b5d6ef9. Incepe cu 2026.10.02 Jurnal TOMS - contract v4.txt.\r\n\r\n2026.10.02: v4 pregatit conform eliminarilor TOMS; DRAFT NETRIMIS, 37.900 EUR net. Serviciile cu supliment si detalierea sunt necontractate; cererea de oferta suplimentara si factura straina eliminate. Data propusa 2026.10.05; D1 trei saptamani dupa semnare, D2-D5 de convenit. V4 nu este acceptat sau semnat. Revizuire si trimitere draft EVA c2a16371-4d77-4167-93b5-e7170b5d6ef9; apoi semnaturi, data efectiva, calendar D2-D5, vizita, confirmare portal/planlista si documente asigurare/echipa. Asigurarea separata a prestatiilor excluse inainte de executie.\r\n\r\nJurnalele proiectului si partenerului din 2026.10.02 sunt actualizate. Versiunile de dinaintea v4 sunt pastrate in dosarul Istoric jurnale inainte v4. Nicio comunicare externa trimisa si nicio semnare.\r\n\r\n\r\n## 2026.10.02 ? TOMS: obiectii la v3, verificare unica executata\r\n\r\nPuncte curente: ../2026.10.02 Status proiect.txt; ../2026.10.02 Log progres proiect.xlsx. Raport si dovezi: ../08. Corespondenta/2026.10.02 Verificare TOMS/. Jurnal partener: ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.10.02 Log discutii - TOMS.txt. Registrele centrale au versiuni 2026.10.02.\r\n\r\n2026.10.01: TOMS formuleaza obiectii la v3; data contractului cel mai devreme 2026.10.05, fara confirmarea semnarii. Refuza ofertarea detalierii suplimentare si contesta includerea unor servicii in pretul fix. Contractul si accesul portal sunt TRIMISE la 2026.09.30. V3, calendarul, accesul efectiv si vizita raman neconfirmate. Clarificarea obiectiilor si a referintelor de pagina, negocierea scopului/pretului si a calendarului de la data efectiva; alt prestator pentru detaliere; confirmarea planlistei/accesului, documentelor asigurare/echipa si vizitei tinta 2026.10.08. Nicio modificare comerciala efectuata.\r\n\r\nSursa: 838c8bcd-4e2d-4e90-bc25-25355ea6da60. Office sincronizat 2026.10.02 10:00:35 Romania; numai TOMS reverificat. Referintele de pagina din raspuns nu corespund univoc PDF-ului; vezi raportul pentru corelarile probabile. Contractele comerciale si versiunile istorice sunt pastrate. Reminder unic executat; nicio noua monitorizare.\r\n\r\n\r\n## 2026.10.01 — Verificare comunicari noi; status curent\r\n\r\nPuncte curente: ../2026.10.01 Status proiect.txt, ../2026.10.01 Log progres proiect.xlsx, ../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/2026.10.01 Registru comunicatii.json si 2026.10.01 Registru atasamente.json in acelasi folder. Dovezi: ../08. Corespondenta/2026.10.01 Actualizare comunicari/.\r\n\r\nSase mesaje suplimentare si sapte originale salvate. Paknehad a raspuns la 2026.09.30, cere documente si informatii, fara pret. Cererea DONAU este TRIMISA la 2026.10.01; CC efectiv Maritczak si Gruber, fara Capra. Propunerea TOMS si accesul portal sunt TRIMISE la 2026.09.30; acceptarea contractului nu este confirmata. Cererea MA6 este TRIMISA, cu confirmare automata de primire, fara solutionare. Paragrafele vechi de mai jos despre drafturi reprezinta istoricul. Nu este identificat raspuns extern nou din 2026.10.01 in mesajele disponibile. Office sincronizat 2026.10.01 13:01:51 Romania; cosmin@ig.ro ramane la 2026.08.12. Jurnalele curente ale partenerilor au prefix 2026.10.01. Oferte: ../04. Firme + Executie/2026.10.01 Ultimele raspunsuri ofertanti.xlsx.\r\n\r\n\r\n## 2026.10.01 — Cerere reziliere DONAU\r\n\r\nPunctul curent de intrare: `../2026.10.01 Status proiect.txt` si `../2026.10.01 Log progres proiect.xlsx`. Jurnalele Donau, Maritczak/Commerz si CERHA HEMPEL au versiuni `2026.10.01` in acelasi folder Parteneri. Editiile `2026.09.30` sunt pastrate ca istoric.\r\n\r\n2026.10.01: cerere de incetare a politei 2044001194 pregatita in Eva-Mail, DRAFT NETRIMIS. Solicita incetare imediata prin acord; independent, notificare de incetare la prima data legal/contractual permisa. Catre DONAU si Loschy; CC Capra, Maritczak si Commerz/Gruber. Confirmare ceruta pana la 2026.10.07; incetarea nu este confirmata. ID EVA `141ce321-f1e8-4fdb-ae64-d26afeac4122`. Dosar: `../08. Corespondenta/2026.10.01 Donau - cerere reziliere/`. Trimiterea ciornei din Eva-Mail; apoi verificarea dovezii de trimitere si a confirmarii DONAU privind data incetarii, acoperirea si decontul final. Termenul Commerz 2026.10.12 ramane distinct; cererea nu il suspenda. Suma solicitata anterior: 5.326,15 EUR, include Q4; nu constituie sold acceptat. Acoperirea generala a arhivei ramane cea din registrul central; aceasta actiune adauga un draft, fara o noua preluare generala.\r\n\r\n\r\n## 2026.09.30 — Reconcilierea curenta si arhiva Eva-Mail\r\n\r\nPentru situatia financiara, incepe cu `../10. Banci + Extrase de cont/2026.09.30 Reconciliere completa facturi si plati.xlsx`. Contine 62 miscari bancare, 49 pozitii documentare, data si numarul facturii, data platii, referinta bancara, numarul bancar cand exista si legaturi catre originale. Raportul Word/PDF si controlul numeric sunt in `../10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/`. Lista curenta de lucru este `../08. Corespondenta/2026.09.30 De platit - Schallergasse 35 - verificat.xlsx`. Excelurile anterioare sunt istoric.\r\n\r\n**Concluzii:** Attensam deszapezire achitat 640,06 + 13,06 Skonto, sold zero; deratizare 156,53 debitata personal, alocare de confirmat. MA6 Q2 achitat o singura data; avizul cumulativ Q3 lasa 93,23 dupa plata Q2. Plati personale pentru obligatii asociate firmei: 1.538,12 EUR. Documente fara debit identificat: 2.877,45 EUR (CERHA 2.640,22, ARTUS 144, MA6 Q3 93,23). Sumele contestate, estimarile si ordinul de apa in asteptare sunt separate. Extrasele generale se opresc la 2026.09.28; nu exista acoperire bancara completa pentru 2026.09.29–30. Documentul fiscal criptat, atribuirea facturilor vechiului proprietar si anumite solduri necesita confirmare. Nu considera reconcilierea o confirmare a soldului tuturor creditorilor.\r\n\r\n**Omisiune suplimentara identificata in PDF-urile integrale:** noua facturi STURM de curent din 2026.07.15, transmise de Capra la 2026.07.21, total unic 1.817,73 EUR fara debit identificat. Perioadele incep in 2023–2025, deci repartizarea intre proprietari ramane de clarificat. Factura 41415 include deja cei 99,67 EUR din 40809; factura 41422 aplica deja un credit de 122,41 EUR. Nu se dubleaza aceste componente. Vezi F041–F049; gazul de 883,98 EUR si creditul distinct 846,92 EUR sunt alte pozitii.\r\n\r\nArhiva centrala: `../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/`, cu text disponibil, metadate, expeditor, destinatari, CC, subiect, data si ID Eva. Au fost preluate toate cele 777 mesaje din lista cautata si o dovada suplimentara, in total 778. Au fost salvate 732/732 anexe documentare si 44 imagini suplimentare (776 originale verificate prin SHA-256); 1.417 imagini mici probabile semnaturi au numai metadate. Pentru starea descarcarilor citeste campul `acoperire` din `2026.09.30 Registru comunicatii.json`; imaginile mici probabile semnaturi pot avea numai metadate. 67 corpuri sunt trunchiate de API; unele emailuri contin numai avertismentul de securitate. Exportul nu este o copie MIME integrala si nu dovedeste descarcarea linkurilor expirate.\r\n\r\nStatus scurt: `../2026.09.30 Status proiect.txt`. Registru general: `../2026.09.30 Log progres proiect.xlsx`. Jurnale pe partener: `../08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/`. Pentru ofertanti foloseste noul `../04. Firme + Executie/2026.09.30 Ultimele raspunsuri ofertanti.xlsx`, bazat pe emailuri, care actualizeaza prima situatie locala. TOMS confirma valabilitatea pana la 2026.12.31; Themis a trimis la 2026.09.29 oferta de 4.400 EUR net; STOLEX refuza. BAU-WERTE nu a confirmat expres reinnoirea ofertei.\r\n\r\nDosarul curent BAU-WERTE foloseste prefixul cu puncte: `../04. Firme + Executie/02. Protectia Muncii (BauKG-Koordinator)/BAU-WERTE Lechner/2026.09.30 Propunere contract BauKG/`. Versiunea cu cratime de mai jos ramane istoric. Nu se retrimit ciornele ca mesaje deja trimise.\r\n\r\n## Donau / Maritczak — verificare 2026.09.30\r\n\r\n**Actualizare ulterioara: raspuns primit la 2026.09.30, 15:51 Romania.** Dosarul curent este `../08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/`; citeste `2026.09.30 Analiza juridica Donau.txt` si jurnalul. Revenirea este acum confirmata TRIMISA, ID `41c4c52a-2139-409e-9907-138cb81163ee`, cu Capra in CC. Raspunsul Stefanie Gruber, ID `1fa19552-d1fd-459e-92b3-57ed5319d18c`, nu are CC. Suma ceruta: 5.326,15 EUR = 4.775,43 prime + 550,72 accesorii; include deja prima Q4 de 1.591,81 EUR. Termen comunicat: 2026.10.12. Nu confirma acoperirea, reducerea politei ori inghetarea accesoriilor. Doua EML si doua PDF originale, plus imaginea de semnatura, sunt salvate. Acoperirea centrala dupa aceasta completare: 780 mesaje, 739/739 ID-uri anexe documentare salvate si 47 ID-uri imagini salvate (786 ID-uri originale; unele au continut duplicat); 68 corpuri trunchiate de API. Valorile din paragraful de audit general de mai sus descriu etapa anterioara. Registrele financiare au foaia `Donau raspuns 2026.09.30` pentru a evita dublarea Q4. Paragraful urmator este istoricul verificarii anterioare raspunsului.\r\n\r\nDosar: `../08. Corespondenta/2026.09.30 Revenire Donau - Maritczak 2616052/`. Începe cu `2026.09.30 Jurnal verificare si revenire.txt`. Cererea din 2026.09.15 este confirmată TRIMISĂ în EVA. Nu a fost identificat un răspuns la justificarea creanței; mesajul Capra din 2026.09.17 despre copia poliței este distinct. Revenirea în germană către office@maritczak.at, CC bogdan.capra@cerhahempel.com, este DRAFT, NETRIMIS, ID EVA `a1f30393-4ef4-4034-8f17-db7480acf134`. Termenul 2026.10.07 este propus în draft; amânarea plății și suspendarea demersurilor nu sunt confirmate. Verificarea acoperă mesajele accesibile în EVA: office sincronizat în 2026.09.30, 11:30 UTC; cosmin@ig.ro rămâne la 2026.08.12. Dovezile căutărilor, exporturile, PDF-ul original verificat și versiunile istorice ale jurnalelor sunt în dosar. La momentul acestei verificari Donau preluarea generala era in curs; acoperirea actuala se consulta in registrul central mentionat mai sus.\r\n\r\nAcest folder este punctul de intrare pentru întrebările viitoare despre clădire. Conține inventarul integral al fișierelor din folderul clădirii, textele extrase, rezultatele OCR și un registru de căutare. Nu este necesară recitirea întregii arhive la fiecare întrebare.\r\n\r\n## Fișiere de pornire\r\n\r\n\r\nName                         Length\r\n----                         ------\r\n2026.10.07 Audit juridic.txt  10991\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 204
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-429676f1-a143-4490-a1d8-4396ca25f8b7",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\SKILL.md' -TotalCount 220\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "35813",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\SKILL.md' -TotalCount 220"
+    }
+  ],
+  "aggregatedOutput": "---\r\nname: documents\r\ndescription: Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to generate page PNGs (and optional PDF) for visual QA, then iterate until layout is flawless before delivering the final document.\r\n---\r\n\r\n# DOCX Skill (Read • Create • Edit • Redline • Comment)\r\n\r\n## Titles + Intro to doc\r\n\r\n**Title clarity is an absolute requirement.** State the specific subject and purpose so the reader understands what the document is for before reading the body. Use plain descriptive language with no slogans and no punctuation. Apply this to document titles, subtitles, and section titles, using only words, numbers, and spaces. Use Word’s `Title` paragraph style for document titles. Keep it black with no underlining, paragraph borders, or decorative lines beneath it. Remove any direct formatting or separately added lines that conflict.\r\n\r\n**The opening content is essential to the reader's understanding of the whole document.** Establish what the document covers, why it matters to this reader, and the main conclusion, decision, or task. Give enough context and scope to make the sections that follow easy to understand and show what the reader should learn or do.\r\n\r\n## Writing quality\r\n\r\n- Write for the intended reader. Identify the author, recipient, and what the reader needs to understand or do. Follow user instructions first, choose the requested document format, and preserve the style of an existing document or supplied reference.\r\n- Write directly in the author's voice, using “I” or “we” when appropriate. Present the update, recommendation, or request to the recipient. Match the author's tone and relationship to that audience; do not invent experience, authority, commitments, or facts from style examples.\r\n- Lead with the conclusion, decision, or request. Use concrete subjects, strong verbs, and natural sentences. State what changed, why it matters, and what evidence or constraint supports the claim. Keep necessary qualifications and distinguish facts, interpretation, recommendations, and uncertainty.\r\n- Remove stock formulas, slogans, inflated significance, vague abstractions, unsupported authorities, canned empathy, and ornamental transitions. Avoid conspicuous rhetorical triads, forced contrasts, repetitive cadence, and punctuation used only for emphasis. Judge these patterns in context; an isolated phrase, accurate technical term, or useful contrast is not automatically a defect.\r\n- Review both the writing and the rendered document. Check that claims are supported, the author's voice is consistent, and every page is readable and free of layout defects. Do not mention this editorial framework in the delivered document unless asked.\r\n\r\nBefore formatting, read the title and section headings as an outline. Write connected paragraphs that explain relationships, and replace compressed labels or unnecessary compounds with natural wording. Preserve the source's meaning, including uncertainty, conditions, time periods, and comparisons. Use punctuation and passive voice in body text when they improve precision.\r\n\r\nFor the review steps, examples, and more context, read [writing_quality.md](writing_quality.md#editorial-review-for-documents).\r\n\r\n\r\nUse this skill when you need to create or modify `.docx`, Word, or Google Docs-targeted document artifacts **in this container environment** and verify them visually.\r\n\r\n## Tools + Contract Requirements\r\n\r\n- Use Codex workspace dependencies for docx artifact work: resolve them through the workspace dependency loader or runtime skill, then treat the returned Node/Python runtimes and package directory as authoritative. Do not use system `node`, system `python`, global npm packages, or repo-local installs.\r\n- For document creation and deterministic OOXML edits, it is still acceptable to use the bundled Python/OOXML helper scripts in this skill package when the JS surface is incomplete.\r\n- Run any builder or helper file from a writable workspace or temp directory, not from the managed dependency directory itself.\r\n\r\n\r\nImmediately before the first create/edit authoring command, run `mark_artifact_operation_started.mjs` successfully exactly once using the command below. Do not run it for read-only work. For edits, replace `create` with `edit`; adjust the expected count and output format to match the requested outputs.\r\n\r\n```bash\r\nnode container_tools/mark_artifact_operation_started.mjs --operation-kind create --expected-output-count 1 --output-format docx\r\n```\r\n\r\n## Clarification questions\r\n\r\nWhen making a new documents, or majorly rewriting one, read [clarification questions](references/clarification-questions.md) before continuing on.\r\n\r\n## Artifact Template Selection\r\n\r\nWhen creating new documents without a template, reference, or visual direction, or when the user asks to browse or upload templates, read [template selection](references/template-elicitation.md) before choosing a design or starting creation.\r\n\r\n## Google Docs-targeted output\r\n\r\nFor a net-new Google Docs request, create and visually verify a local `.docx` with this skill first. The native Google Docs deliverable must then be produced by the Google Drive plugin's document import action, `mcp__codex_apps__google_drive_import_document`, with `upload_mode: \"native_google_docs\"`.\r\n\r\nBefore rendering or importing any Google Docs-targeted DOCX, run the deterministic title sanitizer:\r\n\r\n```bash\r\npython scripts/google_docs_title_sanitize.py input.docx --out sanitized.docx\r\npython scripts/google_docs_title_sanitize.py sanitized.docx --check\r\n```\r\n\r\nUse the sanitized DOCX for render QA and native Google Docs import. This is not a style preference or prose reminder: the sanitizer removes Word `Title` paragraph-style border residue, direct title-paragraph borders, and leading title-block paragraph borders from the OOXML so Word's built-in blue title rule cannot survive into the imported Google Doc.\r\n\r\nDo not use Computer Use, Browser Use, blank-Google-Doc creation plus Google Docs write APIs, or another direct-to-Docs construction path for net-new Google Docs unless the user explicitly asks for that alternate workflow. If they do, mention first that output quality is expected to be best when a local `.docx` is imported through the Google Drive plugin.\r\n\r\nIf the Google Drive plugin is unavailable, use the plugin-install/user-elicitation flow to ask the user to install `google-drive@openai-curated`. If the plugin is available but `_import_document` is missing, ask the user to reinstall or refresh the Google Drive plugin before continuing with the native Google Docs deliverable.\r\n\r\n## Template Following\r\n\r\nWhen an attached or retained DOCX is meant to control a new document, read\r\n`template-distill.md` and then `template-create.md`. Keep the reference file and\r\nthe task-local `$TMP_DIR/artifact.md` together throughout authoring. In this\r\nmode, the retained reference is the design authority: do not apply a generic\r\ndesign preset, page baseline, or header pattern unless the user explicitly asks\r\nto depart from the template. The render gate and Google Docs import contract\r\nstill apply. For a Google Docs-targeted result, record any change made by the\r\nrequired title sanitizer as an intentional fidelity deviation.\r\n\r\n## Non-negotiable: render → inspect PNGs → iterate\r\n\r\n**You do not “know” a DOCX is satisfactory until you’ve rendered it and visually inspected page images.**\r\nDOCX text extraction (or reading XML) will miss layout defects: clipping, overlap, missing glyphs, broken tables, spacing drift, and header/footer issues.\r\n\r\n**Shipping gate:** before delivering any DOCX, you must:\r\n- Run `render_docx.py` to produce `page-<N>.png` images (optionally also a PDF with `--emit_pdf`)\r\n- Open the PNGs (100% zoom) and confirm every page is clean\r\n- If anything looks off, fix the DOCX and **re-render** (repeat until flawless)\r\n\r\nIf rendering fails, diagnose the packaged renderer using its logs before retrying.\r\n\r\n**Deliverable discipline:** Rendered artifacts (PNGs and optional PDFs) are for internal QA only. Unless the user explicitly asks for intermediates, **return only the requested final deliverable** (e.g., when the task asks for a DOCX, deliver the DOCX — not page images or PDFs).\r\n\r\n\r\n\r\n\r\n## Design standards for document generation\r\n\r\nFor generating new documents or major rewrite/repackages, follow the design standards below unless the user explicitly requests otherwise. The user's instructions always take precedence; otherwise, adhere to these standards.\r\n\r\nWhen creating the document design, do not compromise on the content and make factual/technical errors. Do not produce something that looks polished but not actually what the user requested.\r\n\r\nIt is very important that the document is professional and aesthetically pleasing. As such, you should follow this general workflow to make your final delivered document:\r\n\r\n1. Before you make the DOCX, please first think about the high-level design of the DOCX:\r\n   - Before creating the document, decide what kind of document it is (for example, a memo, report, SOP, workflow, form, proposal, or manual) and design accordingly. In general, you shall create documents which are professional, visually polished, and aesthetically pleasing. However, you should also calibrate the level of styling to the document's purpose: for formal, serious, or highly utilitarian documents, visual appeal should come mainly from strong typography, spacing, hierarchy, and overall polish rather than expressive styling. The goal is for the document's visual character to feel appropriate to its real-world use case, with readability and usability always taking priority.\r\n   - You should make documents that feel visually natural. If a human looks at your document, they should find the design natural and smooth. This is very important; please think carefully about how to achieve this.\r\n   - Think about how you would like the first page to be organized. How about subsequent pages? What about the placement of the title? What does the heading ladder look like? Should there be a clear hierarchy? etc\r\n   - Would you like to include visual components, such as tables, checklists, images, etc? If yes, then plan out the design for each component.\r\n   - Think about the general spacing and layout. What will be the default body spacing? What page budget is allocated between packaging and substance? How will page breaks behave around tables and figures, since we must make sure to avoid large blank gaps, keep captions and their visuals together when possible, and keep content from becoming too wide by maintaining generous side margins so the page feels balanced and natural.\r\n   - Think about font, type scale, consistent accent treatment, etc. Try to avoid forcing large chunks of small text into narrow areas. When space is tight, adjust font size, line breaks, alignment, or layout instead of cramming in more text.\r\n2. Once you have a working DOCX, continue iterating until the entire document is polished and correct. After every change or edit, render the DOCX and review it carefully to evaluate the result. The plan from (1) should guide you, but it is only a flexible draft; you should update your decisions as needed throughout the revision process. Important: each time you render and reflect, you should check for both:\r\n   1. Design aesthetics: the document should be aesthetically pleasing and easy to skim. Ask yourself: if a human were to look at my document, would they find it aesthetically nice? It should feel natural, smooth, and visually cohesive.\r\n   2. Formatting issues that need to be fixed: e.g. text overlap, overflow, cramped spacing between adjacent elements, awkward spacing in tables/charts, awkward page breaks, etc. This is super important. Do not stop revising until all formatting issues are fixed.\r\n\r\nWhile making and revising the DOCX, please adhere to and check against these quality reminders, to ensure the deliverable is visually high quality:\r\n\r\n- Document density: Try to avoid having verbose dense walls of text, unless it's necessary. Avoid long runs of consecutive plain paragraphs or too many words before visual anchors. For some tasks this may be necessary (i.e. verbose legal documents); in those cases ignore this suggestion.\r\n- Font: Use professional, easy-to-read font choices with appropriate size that is not too small. Usage of bold, underlines, and italics should be professional.\r\n- Color: Set all document titles, subtitles, headings, subheadings, and page headers to black (`#000000`). Apply black to their styles and remove theme colors or direct formatting that would override it. For table header rows, use the fill and text colors specified in the table guidance below.\r\n- Visuals: Consider using tables, diagrams, and other visual components when they improve comprehension, navigation, or usability.\r\n- Tables:\r\n  - Use tables intentionally and only for these purposes:\r\n    - Comparing multiple items across the same set of attributes.\r\n    - Presenting numeric data, metrics, specifications, pricing, dates, or other values readers need to scan across.\r\n    - Showing a compact matrix, such as options × criteria, roles × responsibilities, or risks × mitigations.\r\n    - Presenting repeated records with a consistent schema.\r\n  - Keep long explanations, research findings, and proposed policy language in prose under descriptive headings. Use a compact matrix to summarize fields readers need to compare. Review consecutive table pages and replace tables that merely arrange narrative paragraphs into cells. Keep long tables only when readers need the full set of comparable records together.\r\n  - Suggestions:\r\n    - Set deliberate table/cell widths and heights instead of defaulting to full page width.\r\n    - Choose column widths intentionally rather than giving every column equal width by default. Very short fields (for example: item number, checkbox, score, result, year, date, or status) should usually be kept compact, while wider columns should be reserved for longer content.\r\n    - Avoid overly wide tables, and leave generous side margins so the layout feels natural.\r\n    - Keep all text vertically centered and make deliberate horizontal alignment choices.\r\n    - Ensure cell height avoids a crowded look. Leave clear vertical spacing between a table and its caption or following text.\r\n  - Hard constraints:\r\n    - Borders: Explicitly set outer and internal cell borders to light gray (`#D9D9D9`) so every table has visible borders.\r\n    - Header colors: Choose light gray, dark gray, dark blue, or light blue header fills to suit the document; do not default every table to light gray. Keep related tables consistent. Use white header text on dark fills and black text on light fills.\r\n    - Row shading: With a dark gray or dark blue header, alternate body-row backgrounds between white and a pale gray or pale blue tint. Keep the light gray borders visible.\r\n    - To prevent clipping/overflow:\r\n      - Never use fixed row heights that can truncate text; allow rows to expand with wrapped content.\r\n      - Ensure cell padding and line spacing are sufficient so descenders/ascenders don't get clipped.\r\n      - If content is tight, prefer (in order): wrap text -> adjust column widths -> reduce font slightly -> abbreviate headers/use two-line headers.\r\n    - Padding / breathing room: Ensure text doesn't sit against cell borders or look \"pinned\" to the upper-left. Favor generous internal padding on all sides, and keep it consistent across the table.\r\n    - Vertical alignment: In general, you should center your text vertically. Make sure that the content uses the available cell space naturally rather than clustering at the top.\r\n    - Horizontal alignment: Do not default all body cells to top-left alignment. Choose horizontal alignment intentionally by column type: centered alignment often works best for short values, status fields, dates, numbers, and check indicators; left alignment is usually better for narrative or multi-line text.\r\n    - Line height inside cells: Use line spacing that avoids a cramped feel and prevents ascenders/descenders from looking clipped. If a cell feels tight, adjust wrapping/width/padding before shrinking type.\r\n    - Width + wrapping sanity check: Avoid default equal-width columns when the content in each column clearly has different sizes. Avoid lines that run so close to the right edge that the cell feels overfull. If this happens, prefer wrapping or column-width adjustments before reducing font size.\r\n    - Spacing around tables: Keep clear separation between tables and surrounding text (especially the paragraph immediately above/below) so the layout doesn't feel stuck together. Captions and tables should stay visually paired, with deliberate spacing.\r\n    - Quick visual QA pass: Look for text that appears \"boundary-hugging\", specifically content pressed against the top or left edge of a cell or sitting too close beneath a table. Also watch for overly narrow descriptive columns and short-value columns whose contents feel awkwardly pinned. Correct these issues through padding, alignment, wrapping, or small column-width adjustments.\r\n- Forms / questionnaires: Design these as a usable form, not a spreadsheet.\r\n  - Prioritize clear response options, obvious and well-sized check targets, readable scale labels, generous row height, clear section hierarchy, light visual structure. Please size fields and columns based on the content they hold rather than by equal-width table cells.\r\n  - Use spacing, alignment, and subtle header/section styling to organize the page. Avoid dense full-grid borders, cramped layouts, and ambiguous numeric-only response areas.\r\n- Coherence vs. fragmentation: In general, try to keep things to be one coherent representation rather than fragmented, if possible.\r\n  - For example, don't split one logical dataset across multiple independent tables unless there's a clear, labeled reason.\r\n  - For example, if a table must span across pages, continue to the next page with a repeated header and consistent column order\r\n- Callouts: Do not use callout boxes, shaded note cards, accent-bar blocks, or boxed summaries and decision panels. Present this content as ordinary paragraphs, optionally with a bold lead-in. This applies whether the callout is built with a table, text box, shape, or paragraph shading/borders.\r\n- Spacing: Please check rigorously for spacing issues. Please always use a natural amount of spacing between adjacent components. Use clear, generous vertical spacing between sections and paragraphs, and leave a bit of extra space between subheadings and the content that follows when it improves readability. Use indentation and alignment intentionally so the document's hierarchy is immediately clear. At the same time, avoid large \"layout gaps\" caused by a table or chart not fitting at the bottom of a page and getting pushed to the next one. If this happens, please try these suggestions:\r\n  - moving the preceding paragraph(s) with it to the next page to keep the narrative cohesive\r\n  - scaling the visual modestly or simplify labels without hurting readability, formatting, or aesthetics of the visual\r\n  - Splitting the table/figure cleanly across multiple pages, but use repeated headers to make the page continuation clear.\r\n- Text boxes: For text boxes, please follow the same breathing-room rules as the tables: make sure to use generous internal padding, intentional alignment, and sufficient line spacing so text never feels cramped, clipped, or pinned to the edges. Keep spacing around the text box clear so it remains visually distinct from surrounding content, and if the content feels tight, prefer adjusting box size, padding, or text wrapping before reducing font size.\r\n- Layout/archetype: Remember to choose the right document archetype/template (proposal, SOP, workflow, form, handbook, etc.). Use a coherent style system. Once a style system is chosen, apply it consistently across headings, spacing, table treatments, and accent usage. If appropriate to the document type, include a cover page or front-matter elements such as title, subtitle, metadata, or branding.\r\n\r\n### Note on page sizing\r\n\r\nWhen creating a new DOCX, **always** default to the Letter size 8.5 x 11 inches, in Portrait orientation, unless the user specifies otherwise.\r\n\r\n### Note on font sizing\r\n\r\nUse a readable size appropriate to the text's role and typeface; ~11-12 pt is a good default for sustained prose. Use text 10 pt and below only if ideal for secondary roles or constrained tables/forms, and only when it remains comfortable at normal print or fit-width viewing. Do not shrink type merely to meet a page-count or compactness target. Follow explicit user typography instructions, but never at the expense of practical readability.\r\n\r\n### Editing tasks (DOCX edits) — apply instead of major rewrite behavior\r\n\r\nWhen the user asks to edit an existing document, preserve the original and make minimal, local changes:\r\n\r\n- Prefer inline edits (small replacements) over rewriting whole paragraphs.\r\n- Use clear inline annotations/comments at the point of change (margin comments or comment markers). Don’t move all feedback to the end.\r\n- Keep the original structure unless there’s a strong reason; if a restructure is needed, do it surgically and explain via comments.\r\n- Don’t “cross out everything and rewrite”; avoid heavy, blanket deletions. The goal is trackable improvements, not a fresh draft unless explicitly requested.\r\n\r\n## Equations: native Word math vs rendered fallback\r\n\r\nWhen the requested document or source contains mathematical equations, choose the equation\r\nrepresentation deliberately. Never leave raw LaTeX in the document or approximate structured\r\nnotation with plain text.\r\n\r\n1. **Prefer native Word equations (OMML, such as `<m:oMath>` or `<m:oMathPara>`)** when the user\r\n   asks for native or editable equations, when an existing DOCX already uses native equations, or\r\n   when equations need to remain searchable, accessible, copyable, inline with prose, or easy to\r\n   revise. Use native equations only through a tested OMML authoring path, and verify that Word and\r\n   the final LibreOffice render preserve the notation correctly.\r\n2. **Use the rendered MathJax fallback below** when native/editable math is not required and either\r\n   no reliable OMML authoring path is available or a complex display equation needs predictable\r\n   visual fidelity across renderers. This path produces an image, not a native Word equation. It is\r\n   best for stable display equations where portability matters more than editability.\r\n\r\nDo not silently rasterize an equation when the user explicitly requires native or editable Word\r\nmath. If no tested OMML path is available, explain that limitation rather than mislabeling an image\r\nas native. When editing an existing DOCX, preserve its equation representation unless the request or\r\nrender QA gives a clear reason to change it.\r\n\r\n### Rendered fallback: MathJax to high-resolution PNG\r\n\r\nThe standard artifact container includes Node.js, `mathjax-full`, `sharp`, and `python-docx`. Use\r\nMathJax to render LaTeX to SVG, then rasterize it to a high-resolution transparent PNG for reliable\r\ninsertion with `python-docx` and reliable LibreOffice rendering:\r\n\r\n```javascript\r\n\"use strict\";\r\n\r\nconst sharp = require(\"sharp\");\r\n\r\nlet _mathjax;\r\nlet _adaptor;\r\nlet _doc;\r\n\r\nfunction ensureMathJax() {\r\n  if (_mathjax && _adaptor && _doc) return;\r\n  const { mathjax } = require(\"mathjax-full/js/mathjax.js\");\r\n  const { TeX } = require(\"mathjax-full/js/input/tex.js\");\r\n  const { SVG } = require(\"mathjax-full/js/output/svg.js\");\r\n  const { liteAdaptor } = require(\"mathjax-full/js/adaptors/liteAdaptor.js\");\r\n",
+  "exitCode": 0,
+  "durationMs": 173
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-fafdad3d-7cd8-4246-9bc0-035de2023179",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\pdf\\\\26.915.20218\\\\skills\\\\pdf\\\\SKILL.md' -TotalCount 180\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "66036",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.915.20218\\skills\\pdf\\SKILL.md' -TotalCount 180"
+    }
+  ],
+  "aggregatedOutput": "---\r\nname: \"pdf\"\r\ndescription: \"Read, create, inspect, render, and verify PDF files where visual layout matters, including fillable AcroForms. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pypdf for generation and extraction.\"\r\n---\r\n\r\n# PDF Skill\r\n\r\n## When To Use\r\n\r\n- Read or review PDF content where layout and visuals matter.\r\n- Create PDFs programmatically with reliable formatting.\r\n- Fill and validate interactive PDF forms.\r\n- Validate final rendering before delivery.\r\n\r\n## Tools + Contract Requirements\r\n\r\nImmediately before the first create/edit authoring command, run `mark_artifact_operation_started.mjs` successfully exactly once using the command below. Do not run it for read-only work. For edits, replace `create` with `edit`; adjust the expected count and output format to match the requested outputs.\r\n\r\n```bash\r\nnode container_tools/mark_artifact_operation_started.mjs --operation-kind create --expected-output-count 1 --output-format pdf\r\n```\r\n\r\n## Workflow\r\n\r\n1. Prefer visual review: render PDF pages to PNGs and inspect them.\r\n   - Use `pdftoppm` from the bundled runtime or system Poppler when available.\r\n   - If unavailable, install Poppler or ask the user to review the output locally.\r\n2. Use `reportlab` to generate PDFs when creating new documents.\r\n3. Use `pdfplumber` or `pypdf` for text extraction and quick checks; do not rely on text extraction for layout fidelity.\r\n4. After each meaningful update, re-render pages and verify alignment, spacing, and legibility.\r\n\r\n## Fill And Validate AcroForms\r\n\r\nVisual review alone is not a correctness check for a fillable PDF. A page `/Widget` annotation can render a value from its appearance stream while the canonical `/AcroForm/Fields` tree is missing or contains a stale value.\r\n\r\n1. Keep the result interactive by default; set `flatten=True` only when the user explicitly requests a completed, static form. Preserve the source PDF, and do not flatten a signed PDF without an explicit workflow decision.\r\n2. Inspect both representations before filling: enumerate fields from `reader.get_fields()` and `/Widget` annotations from every page's `/Annots`, following `/Parent` and `/Kids`. If a widget and a canonical field have the same name but are distinct objects with no `/Parent` relationship, do not call `reattach_fields()` blindly: it can create a second top-level field with the same name. Report the ambiguity or produce a static result.\r\n3. Recover genuinely orphaned widgets, fill all pages, and write the result with `pypdf`:\r\n\r\n```python\r\nfrom pypdf import PdfReader, PdfWriter\r\nfrom pypdf.generic import NameObject\r\n\r\nreader = PdfReader(input_pdf)\r\nwriter = PdfWriter()\r\nwriter.clone_document_from_reader(reader)\r\n\r\n# Restores widgets that are missing from /AcroForm/Fields.\r\nwriter.reattach_fields()\r\nfields = writer.get_fields() or {}\r\nmissing = set(expected_values) - set(fields)\r\nif missing:\r\n    raise ValueError(f\"Form fields not found after repair: {sorted(missing)}\")\r\n\r\nvalues_to_write = dict(expected_values)\r\nif flatten:\r\n    # Paint every existing value before removing every widget.\r\n    values_to_write = {\r\n        name: field.get(\"/V\", \"/Off\" if field.get(\"/FT\") == \"/Btn\" else \"\")\r\n        for name, field in fields.items()\r\n    }\r\n    values_to_write.update(expected_values)\r\n\r\nwriter.update_page_form_field_values(\r\n    None, values_to_write, auto_regenerate=False, flatten=flatten\r\n)\r\n\r\nif flatten:\r\n    # pypdf's flatten=True paints appearances but does not remove widgets.\r\n    writer.remove_annotations(subtypes=\"/Widget\")\r\n    writer.root_object.pop(NameObject(\"/AcroForm\"), None)\r\n\r\nwith open(output_pdf, \"wb\") as stream:\r\n    writer.write(stream)\r\n```\r\n\r\n4. Reopen the written PDF before delivery. For an interactive result, require every expected field to be present in `get_fields()` with the expected `/V`, enumerate page widgets again, and confirm their effective `/V` (the widget value or inherited `/Parent` value) agrees. Confirm each updated widget has a non-empty `/AP` `/N` appearance and render the final pages to catch stale or clipped appearances. Do not rely on `/NeedAppearances` or a successful PNG render as proof that logical field data was updated.\r\n5. For a flattened result, require zero `/Widget` annotations and no remaining `/AcroForm` field tree after reopening, then render the final pages. Keep an editable copy when the user may need to revise the form.\r\n\r\n## Temp And Output Conventions\r\n\r\n- Use `tmp/pdfs/` for intermediate files; delete them when done.\r\n- Write final artifacts under `output/pdf/` when working in this repo.\r\n- Keep filenames stable and descriptive.\r\n\r\n## Dependencies\r\n\r\nPrefer the Codex bundled workspace/runtime dependencies when available. The primary runtime is expected to include:\r\n\r\n- Python packages: `reportlab`, `pdfplumber`, `pypdf`\r\n- Rendering tools: `pdftoppm` and `pdfinfo` from Poppler\r\n\r\nIf a dependency is missing, install only what is needed.\r\n\r\nPython packages:\r\n\r\n```bash\r\nuv pip install reportlab pdfplumber pypdf\r\n```\r\n\r\nIf `uv` is unavailable:\r\n\r\n```bash\r\npython3 -m pip install reportlab pdfplumber pypdf\r\n```\r\n\r\nSystem tools for rendering:\r\n\r\n```bash\r\n# macOS (Homebrew)\r\nbrew install poppler\r\n\r\n# Ubuntu/Debian\r\nsudo apt-get install -y poppler-utils\r\n```\r\n\r\nIf installation is not possible in this environment, tell the user which dependency is missing and how to install it locally.\r\n\r\n## Environment\r\n\r\nNo required environment variables.\r\n\r\n## Rendering Command\r\n\r\n```bash\r\npdftoppm -png \"$INPUT_PDF\" \"$OUTPUT_PREFIX\"\r\n```\r\n\r\n## Quality Expectations\r\n\r\n- Maintain polished visual design: consistent typography, spacing, margins, and section hierarchy.\r\n- Avoid rendering issues: clipped text, overlapping elements, broken tables, black squares, or unreadable glyphs.\r\n- Charts, tables, and images must be sharp, aligned, and clearly labeled.\r\n- Use ASCII hyphens only. Avoid U+2011 and other Unicode dashes.\r\n- Citations and references must be human-readable; never leave tool tokens or placeholder strings.\r\n\r\n## Final Checks\r\n\r\n- Do not deliver until the latest PNG inspection shows zero visual or formatting defects.\r\n- Confirm headers, footers, page numbering, and section transitions look polished.\r\n- Keep intermediate files organized or remove them after final approval.\r\n\r\n## Final response\r\n\r\n### Final response citations\r\n\r\nPlace `:codex-file-citation{...}` inline in prose, not in a trailing list. Use `purpose=\"source\"` for Q&amp;A/no-op and `purpose=\"output\"` for create/edit.\r\n\r\n- [HARD REQUIREMENT] Create/edit: cite each final PDF exactly once with a plain output citation. Summarize representative changes; do not cite every page or add a separate filename, path, or Markdown link. Example: `Created :codex-file-citation{path=\"/abs/path/report.pdf\" purpose=\"output\"}, with the completed analysis and appendix.`\r\n- Q&amp;A/no-op: do not edit or re-export. Inspect the complete relevant pages, preserve material headings, table/figure labels, footnotes, sources, and sample sizes, and cite each source PDF once with a plain source citation.\r\n\r\nPDF citations currently support only plain file citations. Do not add `artifact_kind`, `page_number`, or other locators. Never cite rendered PNGs, scratch files, builders, or QA intermediates unless asked.\r\n\r\n### Final response suggested followups\r\n\r\n- After successfully creating, editing, or analyzing an artifact, finish your final response with 3 useful next actions tailored to the artifact and the user's goal. Completing the requested work is not a reason to skip these actions: they help the user continue from the result. Do not perform the actions unless the user chooses one.\r\n- Each action must be a distinct, concrete request the user could send next. Do not repeat completed work or invent filler. Omit the list if the user declines suggestions, the requested work fails, or no genuinely useful next action remains.\r\n- Present each action as an unescaped Markdown list item using this exact syntax: `- :codex-followup[Short action]{prompt=\"Complete request for that action\"}`.\r\n",
+  "exitCode": 0,
+  "durationMs": 149
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-254f7552-10d8-4b72-92cf-6a261460e256",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$taskPoppler='\"'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\poppler\\\\Library\\\\bin\\\\pdftoppm.exe'; \"'$taskQa='\"'08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Verificare originale'; New-Item -ItemType Directory -Path \"'$taskQa -Force | Out-Null; foreach ($taskPage in @(2,4,9,12)) { & $taskPoppler -f $taskPage -l $taskPage -r 110 -singlefile -png '\"'00.Proiect\\\\01. Behoerden + Eigentum\\\\02. Grundbuch + Kaufvertrag\\\\Kaufvertrag_Schallergasse_35_signiert.pdf' (Join-Path \"'$taskQa ('\"'2026.10.07 Contract vanzare p'+\"'$taskPage)) }; & $taskPoppler -f 1 -l 1 -r 110 -singlefile -png '\"'00.Proiect\\\\01. Behoerden + Eigentum\\\\02. Grundbuch + Kaufvertrag\\\\Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf' (Join-Path \"'$taskQa '\"'2026.10.07 Inscriere p1'); & \"'$taskPoppler -f 1 -l 1 -r 110 -singlefile -png '\"'00.Proiect\\\\01. Behoerden + Eigentum\\\\02. Grundbuch + Kaufvertrag\\\\Grundbuchauszug_aktuell_A&C_EZ2235.pdf' (Join-Path \"'$taskQa '\"'2026.10.07 Extras p1')\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "8692",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$taskPoppler='C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe'; $taskQa='08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale'; New-Item -ItemType Directory -Path $taskQa -Force | Out-Null; foreach ($taskPage in @(2,4,9,12)) { & $taskPoppler -f $taskPage -l $taskPage -r 110 -singlefile -png '00.Proiect\\01. Behoerden + Eigentum\\02. Grundbuch + Kaufvertrag\\Kaufvertrag_Schallergasse_35_signiert.pdf' (Join-Path $taskQa ('2026.10.07 Contract vanzare p'+$taskPage)) }; & $taskPoppler -f 1 -l 1 -r 110 -singlefile -png '00.Proiect\\01. Behoerden + Eigentum\\02. Grundbuch + Kaufvertrag\\Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf' (Join-Path $taskQa '2026.10.07 Inscriere p1'); & $taskPoppler -f 1 -l 1 -r 110 -singlefile -png '00.Proiect\\01. Behoerden + Eigentum\\02. Grundbuch + Kaufvertrag\\Grundbuchauszug_aktuell_A&C_EZ2235.pdf' (Join-Path $taskQa '2026.10.07 Extras p1')"
+    }
+  ],
+  "aggregatedOutput": "Syntax Warning: Font dictionary is not a dictionary\r\nSyntax Error: No display font for 'Symbol'\r\n",
+  "exitCode": 0,
+  "durationMs": 1315
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-9ddb5195-a523-40c5-8c1d-17d18cdb0b00",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p2.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-580ba262-22f4-416d-b907-e14e44085a2d",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p4.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-a91dc679-c37b-4416-bfd7-5d1e91466142",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p9.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-8c5a1f30-6146-4db4-937e-93f52ecd6e34",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p12.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-c9339e02-be22-4010-8374-7ff3b020b66a",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Inscriere p1.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-1d55d442-4974-4935-bbaf-079053a749c3",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Extras p1.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_GOR5rLFPfq81ltxKsyqpqgK7",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-979aaf7d-caa7-4f5e-b36f-7b2213713bca",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\poppler\\\\Library\\\\bin\\\\pdftoppm.exe' -f 10 -l 10 -r 110 -singlefile -png '00.Proiect\\\\01. Behoerden + Eigentum\\\\02. Grundbuch + Kaufvertrag\\\\Kaufvertrag_Schallergasse_35_signiert.pdf' '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Verificare originale\\\\2026.10.07 Contract vanzare p10'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "93247",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe' -f 10 -l 10 -r 110 -singlefile -png '00.Proiect\\01. Behoerden + Eigentum\\02. Grundbuch + Kaufvertrag\\Kaufvertrag_Schallergasse_35_signiert.pdf' '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p10'"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 280
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-696528c1-8b55-452f-9e1b-66a9e0b890ae",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p10.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_WR5YxejvmbjSdnTtMiVib23M",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_PdpxKoZ5kEG3MeDBh8PTrlpJ",
+  "kind": "interacted",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## Asistent
+
+Auditul a identificat și o hotărâre privind polițe comerciale pe zece ani care aveau, separat, un drept anual de încetare. De aceea, convenția-cadru DONAU este o probă importantă: data expirării din poliță nu arată singură toate posibilitățile de reziliere.
+
+Am verificat și originalele contractului de cumpărare. Clauzele privind despăgubirea de către vânzător există, dar trebuie analizate în raport cu perioada și cauza fiecărei sume solicitate.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1c14699b-f341-4b4b-a362-d12c64a5e0d0",
+  "query": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010926_OGH0002_0070OB00007_01G0000_000&IncludeSelf=True",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010926_OGH0002_0070OB00007_01G0000_000&IncludeSelf=True"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn46view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn46view1",
+      "snippet": "Total lines: 488",
+      "title": "RIS - Rechtssätze und Entscheidungstext 7Ob152/01f - Justiz",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-a7691a1c-5114-474c-8105-19789efc9225",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Audit juridic.txt' -TotalCount 90; Get-Content -LiteralPath '2026.10.07 Status proiect.txt' -TotalCount 22; Get-Content -LiteralPath '2026.10.07 Log progres proiect.txt' -Tail 22\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "13804",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Audit juridic.txt' -TotalCount 90; Get-Content -LiteralPath '2026.10.07 Status proiect.txt' -TotalCount 22; Get-Content -LiteralPath '2026.10.07 Log progres proiect.txt' -Tail 22"
+    }
+  ],
+  "aggregatedOutput": "2026.10.07 — AUDIT JURIDIC INDEPENDENT\r\nDONAU, polita 2044001194; Schallergasse 35, 1120 Wien\r\nRol: cercetare critica si control al documentarii; analiza documentara asistata de AI, nu opinie semnata de avocat.\r\nStare: constatari independente inaintea auditului final al redactarii.\r\n\r\n1. VERIFICAREA PROBELOR\r\nS-au consultat folder map/README.md si inventar.json. SHA-256 si dimensiunile celor doua polite relevante coincid cu indexul; textele salvate au fost reutilizate. Clauza 1000K si somatia au fost verificate vizual in redarile originalelor PDF.\r\nPolita 2026.02.03: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf, hash 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835. Expirare 2036.01.01; modificare/inceput indicat 2026.01.01; motiv Ersatzvertrag; titularul vechi este GmbH & Co KG.\r\nPolita 2026.06.03: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf, hash fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd. Schimbare titular ab 2026.05.28, aceeasi expirare 2036.01.01; nu proba automata a unui nou acord A&C de zece ani.\r\nSomatia: 05. Asigurari/Asigurare cladire/B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf, hash 1af65af6d23d9c25cc9c0cccad8676df46ecb38e2e33f865e8cfe403a833dd67. Original datat 2026.06.05, A&C/Parkring, prima 1.591,81 EUR si costuri 20 EUR; acorda urmatoarele doua saptamani si avertizeaza asupra lipsei prestatiei si posibilitatii rezilierii. NU reziliaza automat. Semnaturi/facsimile vizibile ppa. Fuhs si i.A. Mag. Riegler. Email Loschy 2026.06.10 transmite acest document, ID 16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f. Data accesului initial trebuie probata; termenul din email 2026.06.18 este doar opt zile dupa email, nu poate singur substitui cele doua saptamani legale.\r\nEmail 2026.06.08 f9f87af8: cere clarificari si solutie fara intrerupere; nu declara rezilierea.\r\nEmail 2026.07.01 30da3512: cere reducerea, eventual examinarea unei incetari prin acord; rezerva §70. Rezervarea nu exercita dreptul.\r\nEmail 2026.10.01 citat integral in raspuns 2c273256: declara rezilierea la primul termen permis; aceasta este distincta de cererea de acord.\r\nDeclaratia DONAU din 2026.10.06 privind lipsa acoperirii este un punct de vedere al asiguratorului, nu constatare judiciara.\r\n\r\n2. DURATA DE ZECE ANI — CONTRAARGUMENT MAJOR\r\nOGH 7 Ob 152/01f, 2001.07.11 (SZ 74/130), priveste chiar o GmbH administratoare de ansambluri rezidentiale cu 36 de asigurari grupate de imobile pe zece ani. OGH a respins pretentia de incetare inaintea expirarii. Termenele au fost solicitate si negociate profesional de firma; reinnoirea automata nu transforma perioada fixa intr-o relatie initiala pe durata nedeterminata. §8(3) nu confera firmelor dreptul legal al consumatorului dupa trei ani. §8(2) nu poate fi aplicat analog pentru a evita termenul fix. Nu trebuie prezentate argumentele instantelor inferioare, infirmate de OGH, drept concluzia hotararii.\r\nAplicare: exista jurisprudenta apropiata, care sustine posibilitatea unei durate de zece ani; nu exista regula generala ca orice asigurare comerciala e denuntabila anual. In dosarul nostru lipsesc cererea initiala, mandatul si acordul privind Ersatzvertrag si cadrul 2900010498. Aceste lipsuri justifica verificarea temeiului termenului 2036; nu dovedesc nulitatea acestuia. Absenta semnaturii A&C nu inlatura de una singura succesiunea legala §69.\r\nOGH 7 Ob 127/18d, 2018.08.29, este citat de RIS in RS0025122 si RS0115852: o asigurare de incendiu pe zece ani intra in cadrul obisnuit al mandatului de administrare imobiliara. Textul integral al acestei hotarari nu a putut fi accesat de auditor prin web (503); principiul a fost verificat in fisele oficiale RIS. Nu sustinem ca mandatul Hofhans a existat sau avea un anumit continut numai din acest principiu.\r\n\r\n3. CLAUZA 1000K — ATAC PLAUZIBIL, NU IESIRE AUTOMATA\r\nClauza verificata cere 80% din prima anuala actuala inainte de implinirea a doi ani; apoi 70% la doi ani, 60% la trei ani, scadere de zece puncte pe an. Singura exceptie expresa este rezilierea de asigurator dupa sinistru. Nu este identica cu o clauza progresiva ce inmulteste procentul cu toate primele cumulate.\r\nOGH 7 Ob 154/22f, 2022.11.23, pct.14, invalideaza o clauza R10 foarte apropiata pentru ca impune plata inclusiv cand asiguratul reziliaza dintr-un motiv important imputabil asiguratorului. Hotararea priveste actiune colectiva de consumatori, nu litigiu individual GmbH. Analogia substantiva prin §879(3) este serioasa, dar trebuie argumentata si nu este rezultat deja judecat pentru 1000K.\r\nOGH 7 Ob 211/12y, 2013.03.27, confirma controlul §879(3) in B2B, dar lasa deschisa generalizarea stricta a degresivitatii si solutioneaza concret raportul cu disparitia riscului §68. In final dispune rejudecarea: golul lasat de clauza nevalabila poate fi completat, cel putin intre firme, prin interpretarea contractului conform vointei ipotetice a partilor. Nulitatea clauzei NU garanteaza zero rambursare.\r\nConcluzie de audit: contestarea costului de iesire poate imbunatati negocierea; nu confera prin ea insasi un drept de reziliere si nu stinge primele ordinare.\r\n\r\n4. REZILIERE SPECIALA LA ACHIZITIE\r\nOGH 7 Ob 20/89, 1989.06.15, RS0080752: cunoasterea existentei asigurarii si a numelui asiguratorului este suficienta; nu trebuie sa fie cunoscute toate conditiile. Principiul este compatibil cu textul actual §70. Data achizitiei juridice nu se confunda cu pretul, contractul de vanzare sau momentul economic 2026.04.01; la imobile, registrul si notificarea inscrierii conteaza.\r\nPe probele accesibile, cererile din iunie/iulie nu exercita §70, iar cea din octombrie este probabil tardiva. Concluzia definitiva cere inscrierea/decizia Grundbuch, dovada comunicarii si orice notificare de incetare facuta de avocat sau mandatar in termen. Credinta ca fostul proprietar ar fi trebuit sa rezilieze nu echivaleaza cu dovada ca a facut-o.\r\n\r\n5. NEPLATA — TREI PROBLEME DISTINCTE\r\nExistenta contractului, obligatia de prima si obligatia de despagubire nu se suprapun. §39 permite exonerarea pentru un sinistru ulterior expirarii unui termen calificat, cu culpa asiguratului; nu stinge automat contractul sau prima. DONAU trebuie sa sustina valabilitatea somației, receptia si calculul termenului. OGH 7 Ob 83/21p, 2022.01.26, pct.10–11, reafirma aceste conditii si caracterul receptiv al somatiei. Afirmatia ca nu exista nicio somatie ar fi falsa: originalul 2026.06.05 este in dosar.\r\nDobanzile si costurile neachitate nu pot produce singure exonerarea (§39(4)); §39a protejeaza restanta redusa in limita cumulativa de 10% din prima anuala si maximum 60 EUR, nu 10% indiferent de plafon.\r\nPlata primei exigibile poate restabili protectia viitoare daca raportul e activ; nu acopera retroactiv sinistrele din intervalul exonerarii. Daca exista o reziliere efectiva a DONAU, nu simpla amenintare, termenul de remediere de o luna si celelalte conditii §39(3) trebuie verificate. Nu recomandam neplata ca mecanism de iesire: DONAU are o facultate de reziliere, nu obligatia de a rezilia.\r\n\r\n6. ALTE CAI SI LIMITARI\r\nOGH 7 Ob 179/03d, 2003.08.05, admite in principiu incetarea extraordinara a asigurarii pentru motive grave, inclusiv refuz culpabil nejustificat al protectiei ori gestionare grav defectuoasa a unui sinistru. Intr-un asemenea caz trebuie probata conduita si intolerabilitatea continuarii; o suspendare legala pentru neplata nu este acest motiv. OGH 7 Ob 192/12d, 2012.12.19, arata ca simple dezavantaje economice ori evolutii previzibile nu ajung.\r\n§68 privind disparitia interesului asigurat poate fi relevant pentru anumite componente, inclusiv pierdere de chirii, dar vacanta imobilului nu face sa dispara cladirea sau toate riscurile sale. Excluderea dorita a unei componente e diferita de disparitia juridica a interesului.\r\n§41a priveste o prima mai mare legata de imprejurari concrete de agravare care dispar, pentru perioade viitoare; nu garanteaza reducerea retroactiva din 2026.07.01 cand perioada e anuala. Lucrarile/vacanta pot totodata creste anumite riscuri si cer notificare.\r\n§96 (incendiu), §158 (raspundere), alte clauze pentru sinistru/majorare pot da drepturi speciale doar daca exista evenimentul declansator si termenul este respectat. Nu se fabrica sinistru sau vanzare pentru a obtine iesirea.\r\nPentru 2027.01.01 si 2027.01.08, simpla trecere a trei luni nu creeaza dreptul de iesire. 2027.01.08 nu e aniversarea contractuala. Datele raman realizabile prin acord, o clauza specifica favorabila sau un drept legal special dovedit.\r\n\r\n7. IESIRE ANUALA CONVENTIONALA SI REGRES\r\nOGH 7 Ob 7/01g, 2001.09.26: o societate/cooperativa imobiliara mbH avea 11 cladiri asigurate pe zece ani, dar clauza X18 ii acorda expres iesire anuala cu trei luni inaintea scadentei principale; clauza costului Dauerrabatt era separata. Hotararea demonstreaza relevanta acordurilor speciale, nu existenta clauzei X18 in DONAU. Cadrul 2900010498, anexele brokerului Seipt si cererea initiala trebuie citite inaintea unei concluzii definitive ca prima iesire e numai 2036. Regula din aceasta hotarare despre clauza costului trebuie citita impreuna cu jurisprudenta ulterioara, nu folosita drept validare actuala a 1000K.\r\nContractul de vanzare Kaufvertrag_Schallergasse_35_signiert.pdf, hash identic index 237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365: cl.1.8 nepreluare a altor contracte si indemnizare inclusiv costuri de incetare; 4.4 distribuieste costurile dupa cauza/stichtag; 4.5 pastreaza asigurarile pana la stichtag; 7.1(i) garanteaza plata primelor pana la stichtag; 10.5 avertizeaza cumparatorul asupra dreptului temporar de incetare si recunoaste vanzatorului posibilitatea de a rezilia pana la intabulare. 10.5 nu impune textual vanzatorului o obligatie neconditionata de reziliere. 1.8 nu inlatura succesiunea §69 fata de DONAU, dar fundamenteaza o analiza serioasa a repartizarii interne si a unui regres. Nu se promite regres pentru toate Q2–Q4 fara coroborarea clauzelor si a conduitei partilor.\r\n\r\n8. VERDICT INTERMEDIAR\r\nPoziția utilizatorului este justificata ca solicitare de control juridic al blocarii si costului, dar nu ca prezumtie absoluta de nulitate a duratei de zece ani. Analiza trebuie sa distinga: (A) validitatea duratei si probele acordului; (B) dreptul special de iesire; (C) cuantumul primei/costului; (D) protectia prezenta; (E) pretentii fata de vanzator/mandatar. Cea mai concreta strategie, pe probele actuale, este verificarea acordului-cadru si a notificarii timpurii, contestarea separata a costului 1000K, depunerea probelor pentru ajustarea riscului si negocierea unei incetari datate cu decont si continuitate de acoperire.\r\n\r\nSURSE PRIMARE VERIFICATE INDEPENDENT LA 2026.10.07\r\nLege VersVG, fisa actuala indica explicit 2026.10.07, inclusiv §39,39a,40,41a,41b,68,68a,69,70:\r\nhttps://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979\r\nOGH 7 Ob 152/01f, 2001.07.11, text integral si fise RS0115852, RS0115853:\r\nhttps://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True\r\nOGH 7 Ob 211/12y, 2013.03.27, text integral:\r\nhttps://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20130327_OGH0002_0070OB00211_12Y0000_000/JJT_20130327_OGH0002_0070OB00211_12Y0000_000.html\r\nOGH 7 Ob 154/22f, 2022.11.23, text integral:\r\nhttps://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20221123_OGH0002_0070OB00154_22F0000_000/JJT_20221123_OGH0002_0070OB00154_22F0000_000.html\r\nOGH 7 Ob 20/89, 1989.06.15:\r\nhttps://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True\r\nOGH 7 Ob 179/03d, 2003.08.05:\r\nhttps://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20030805_OGH0002_0070OB00179_03D0000_000&IncludeSelf=True\r\nOGH 7 Ob 192/12d, 2012.12.19:\r\nhttps://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20121219_OGH0002_0070OB00192_12D0000_000&IncludeSelf=True\r\nOGH 7 Ob 83/21p, 2022.01.26:\r\nhttps://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20220126_OGH0002_0070OB00083_21P0000_000&IncludeSelf=True&ShowPrintPreview=True\r\nOGH 7 Ob 127/18d: principes dans fiches RIS RS0025122 et RS0115852; text integral inaccesibil auditorului, nu pretins citit:\r\nhttps://www.ris.bka.gv.at/Dokumente/Justiz/JJR_19561212_OGH0002_0030OB00594_5600000_001/JJR_19561212_OGH0002_0030OB00594_5600000_001.pdf\r\nOGH 7 Ob 7/01g, 2001.09.26, citit in RIS:\r\nhttps://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010926_OGH0002_0070OB00007_01G0000_000&IncludeSelf=True\r\n2026.10.07 | CERERE REZILIERE LA 2027.01.01 /2027.01.08 SI PUNCT JURIDIC\r\n\r\nStatus scurt: 2026.10.07: punct de vedere juridic documentar finalizat si draft german NETRIMIS in Eva-Mail. Cere incetare prin acord la 2027.01.01, alternativ 2027.01.08; subsidiar primul termen legal/contractual admis, pastrand notificarea din 2026.10.01. Cere deconturi separate, justificarea duratei 2036, renuntarea la prima suplimentara 1000K, dovada somatiei si suma/data exacta pentru restabilirea acoperirii. Raspuns cerut pana la 2026.10.09, 12:00 Viena /13:00 Romania. Nicio incetare, plata, acoperire sau suspendare Inkasso confirmata.\r\nUltimul raspuns primit: 2026.10.06, Cornelia Loschy, ID 2c273256-a0bf-408b-bb22-09718372e888; refuza rezilierea si declara lipsa acoperirii pentru prime restante.\r\nUrmatorul pas: Trimiterea ciornei din Eva-Mail, verificarea dovezii si a raspunsului; control cu Capra al dreptului de incetare, clauzei 1000K si conditiilor acoperirii/platii. Termenul Commerz 2026.10.12 ramane distinct. Nu se presupune ca trei luni permit singure incetarea contractului cu expirare 2036.\r\nSursa: 08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 DRAFT Cerere reziliere Donau.txt\r\nPunct juridic: 08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 Punct de vedere juridic Donau.txt\r\nID draft Eva-Mail: aa653a96-7eee-4133-a41d-5892ea79788d\r\nCatre: c.loschy@donauversicherung.at, donau@donauversicherung.at\r\nCC: office@maritczak.at, s.gruber@commerz-inkasso.at; Capra nu este in CC.\r\n\r\nISTORIC\r\n\r\n2026.10.07 08:00 | VERIFICARE ZILNICA — DONAU\r\n\r\nStatus scurt: 2026.10.06: DONAU/Cornelia Loschy refuza incetarea prin acord si notificarea de reziliere; invoca termen regulat 2036.01.01, cu preaviz 3 luni. Declara explicit ca in prezent NU exista acoperire de asigurare din cauza restantelor la prime. Nu este confirmata data inceperii lipsei de acoperire sau reintrarea in acoperire. Reducerea politei ramane in analiza dupa documente: autorizatie, descriere lucrari, confirmare instalator privind instalatia de apa oprita/securizata. CC: Maritczak si Gruber; Capra nu este in CC. Sunt afirmatiile asiguratorului, nu concluzie juridica verificata. Nu exista decont nou sau inghetare confirmata a accesoriilor.\r\nUltimul raspuns: 2026.10.06, 16:25:34 Romania, Cornelia Loschy.\r\nUrmatorul pas: Clarificare urgenta cu Capra si DONAU a temeiului refuzului, contractului invocat si modului/datei restabilirii acoperirii. Verificarea si completarea documentelor cerute; fisa de cont si alocare plati. Termenul Commerz 2026.10.12 ramane distinct. Nicio comunicare externa efectuata in aceasta verificare.\r\nSursa: 2c273256-a0bf-408b-bb22-09718372e888; 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 PRIMIT DONAU 2c273256.txt; 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 ORIGINAL 951d3284 Memoformat.pdf\r\n\r\nAnexa de 9 pagini retransmite corespondenta istorica; pagina 1 este Pfeiffer, 2026.07.14, nu oferta noua sau reducere acceptata. Solicitarea documentelor a fost verificata in original.\r\n\r\n\r\nStatus scurt: 2026.10.07: punct de vedere juridic documentar finalizat si draft german NETRIMIS in Eva-Mail. Cere incetare prin acord la 2027.01.01, alternativ 2027.01.08; subsidiar primul termen legal/contractual admis, pastrand notificarea din 2026.10.01. Cere deconturi separate, justificarea duratei 2036, renuntarea la prima suplimentara 1000K, dovada somatiei si suma/data exacta pentru restabilirea acoperirii. Raspuns cerut pana la 2026.10.09, 12:00 Viena /13:00 Romania. Nicio incetare, plata, acoperire sau suspendare Inkasso confirmata.\r\nUltimul raspuns primit: 2026.10.06, Cornelia Loschy, ID 2c273256-a0bf-408b-bb22-09718372e888; refuza rezilierea si declara lipsa acoperirii pentru prime restante.\r\nUrmatorul pas: Trimiterea ciornei din Eva-Mail, verificarea dovezii si a raspunsului; control cu Capra al dreptului de incetare, clauzei 1000K si conditiilor acoperirii/platii. Termenul Commerz 2026.10.12 ramane distinct. Nu se presupune ca trei luni permit singure incetarea contractului cu expirare 2036.\r\nSursa: 08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 DRAFT Cerere reziliere Donau.txt\r\nPunct juridic: 08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 Punct de vedere juridic Donau.txt\r\nID draft Eva-Mail: aa653a96-7eee-4133-a41d-5892ea79788d\r\nCatre: c.loschy@donauversicherung.at, donau@donauversicherung.at\r\nCC: office@maritczak.at, s.gruber@commerz-inkasso.at; Capra nu este in CC.\r\n\r\nISTORIC\r\n\r\n2026.10.07 08:00 | VERIFICARE ZILNICA — DONAU\r\n\r\nStatus scurt: 2026.10.06: DONAU/Cornelia Loschy refuza incetarea prin acord si notificarea de reziliere; invoca termen regulat 2036.01.01, cu preaviz 3 luni. Declara explicit ca in prezent NU exista acoperire de asigurare din cauza restantelor la prime. Nu este confirmata data inceperii lipsei de acoperire sau reintrarea in acoperire. Reducerea politei ramane in analiza dupa documente: autorizatie, descriere lucrari, confirmare instalator privind instalatia de apa oprita/securizata. CC: Maritczak si Gruber; Capra nu este in CC. Sunt afirmatiile asiguratorului, nu concluzie juridica verificata. Nu exista decont nou sau inghetare confirmata a accesoriilor.\r\nUltimul raspuns: 2026.10.06, 16:25:34 Romania, Cornelia Loschy.\r\nUrmatorul pas: Clarificare urgenta cu Capra si DONAU a temeiului refuzului, contractului invocat si modului/datei restabilirii acoperirii. Verificarea si completarea documentelor cerute; fisa de cont si alocare plati. Termenul Commerz 2026.10.12 ramane distinct. Nicio comunicare externa efectuata in aceasta verificare.\r\nSursa: 2c273256-a0bf-408b-bb22-09718372e888; 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 PRIMIT DONAU 2c273256.txt; 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 ORIGINAL 951d3284 Memoformat.pdf\r\n\r\nAnexa de 9 pagini retransmite corespondenta istorica; pagina 1 este Pfeiffer, 2026.07.14, nu oferta noua sau reducere acceptata. Solicitarea documentelor a fost verificata in original.\r\n\r\nAcoperire: 16 cautari complete, perioada 2026.10.05–07; 3 mesaje office, dintre care 2 deja arhivate si un raspuns nou. Office sincronizat 2026.10.07 08:00:19 Romania; cosmin@ig.ro ramane la 2026.08.12. TOMS, ofertantii de lift si ceilalti parteneri cautati nu au raspunsuri noi. Nu s-au trimis mesaje, semnat contracte sau efectuat plati. TXT/JSON sunt actuale; Excel/DOCX anterioare reprezinta etapele precedente.\r\n",
+  "exitCode": 0,
+  "durationMs": 135
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-b798dc7b-97e7-456d-aa3a-8c675fe6c7e7",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\references\\\\clarification-questions.md' -TotalCount 150; Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\references\\\\template-elicitation.md' -TotalCount 100\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "33631",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\references\\clarification-questions.md' -TotalCount 150; Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\references\\template-elicitation.md' -TotalCount 100"
+    }
+  ],
+  "aggregatedOutput": "# Clarification questions\r\n\r\nCheck user attachments and references first and reuse answers already given. Review every category below. Ask exactly one question for each unanswered category. A reasonable default or an inferred preference does not count as an answer.\r\n\r\nWithin each category, ask about the missing detail that matters most. Do not combine categories into one question or limit the round to only the highest-priority categories.\r\n\r\n## What to ask\r\n\r\n| Detail | Ask for |\r\n| --- | --- |\r\n| Purpose | What should the reader understand, decide, or do after reading? |\r\n| Audience | Who is the document for, such as executives deciding on a proposal or teammates learning a process? |\r\n| Length | How many pages should the document be, including any appendices? |\r\n| Tone | How should it sound, such as conversational, formal, or persuasive? |\r\n| Target coverage | Which questions or topics must the document address? |\r\n| Emphasis | Which argument, recommendation, or finding deserves the most space? |\r\n| Data sources | When evidence is needed, which sources should support the claims, such as supplied research, internal reports, or external references to cite? |\r\n| Additional coverage | What else must appear, such as a specific example, objection, risk, or recommendation? |\r\n\r\n## How to ask\r\n\r\nUse `request_user_input_async` to ask questions. Submit all questions together in one `request_user_input_async` call.\r\n\r\nFor structured questions, give the two best options for the task. For each option, include a short rationale/elaboration for the choice in the option's text. Add `Use your judgment` as the third option. Make either the 1st or 2nd option recommended\r\n\r\nFor open-ended question, include examples in the question text to help the user answer, such as \"Is there anything else this should cover, such as a specific example or concern?\" If the tool is unavailable, ask in a message.\r\n\r\nIf the user doesn't provide a template, you may find a template while the user answers. Otherwise, wait at least 90 seconds for a reply. If none arrives, make a reasonable assumption or use a placeholder and disclose it. Never invent data or citations to fill a missing source. Do not stop the turn.\r\n# Artifact Template Selection\r\n\r\nOpen the template selection picker for creating new documents when the user has not provided a template, reference, or visual direction. Also open the picker when the user asks to browse or upload templates. Do not open it if the user declines templates, requests a connected-source design search, or if `list_artifact_templates` is unavailable this turn. Subject matter, audience, tone, company names, and source files do not by themselves specify a template or visual direction.\r\n\r\nCall `list_artifact_templates({artifactKind, request})` with `artifactKind: \"document\"`, or `\"google-docs\"` for Google Docs requests. Include compatible Office and Google templates without changing the requested output format.\r\n\r\nRank templates by relevance, breaking ties in favor of personal or shared templates. Include a mix of styles. Pass their `skillName` values unchanged to `choose_artifact_template({artifactKind, request, templates})` and call it once. Set `includeAllTemplates: true` only when the user requests the full catalog. The picker displays at most ten templates.\r\n\r\nFollow the selected template or uploaded reference. Save an uploaded reference only when `saveForFutureUse` is true. Use Template Creator with the returned `displayName`. Continue without a template if the picker is declined, cancelled, unavailable, or fails. Do not replace the picker with `request_user_input` or a chat list. Browsing templates does not authorize artifact creation.\r\n",
+  "exitCode": 0,
+  "durationMs": 121
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_zi1ccwMWWypUqkAeflTG5RLD",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-bfca216e-e898-4178-8f22-015f3856601a",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.07 genereaza_opinie.py",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "from pathlib import Path\nimport re, json\nfrom docx import Document\nfrom docx.shared import Inches, Pt, RGBColor\nfrom docx.enum.text import WD_ALIGN_PARAGRAPH\nfrom docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT\nfrom docx.oxml import OxmlElement\nfrom docx.oxml.ns import qn\n\nROOT=Path(__file__).resolve().parent.parent\nOUT=ROOT/'08. Corespondenta'/'2026.10.07 Analiza juridica Donau auditata'\nSRC=OUT/'2026.10.07 Analiza redactor.txt'\nDEST=OUT/'2026.10.07 Opinie juridica Donau Schallergasse 35.docx'\ndoc=Document()\nsec=doc.sections[0]\nsec.page_width=Inches(8.5); sec.page_height=Inches(11)\nsec.top_margin=Inches(.73); sec.bottom_margin=Inches(.73)\nsec.left_margin=Inches(.8); sec.right_margin=Inches(.8)\nsec.header_distance=Inches(.3); sec.footer_distance=Inches(.3)\nfor style_name in ['Normal','Title','Subtitle','Heading 1','Heading 2','Heading 3']:\n    st=doc.styles[style_name]; st.font.name='Times New Roman'; st.font.color.rgb=RGBColor(0,0,0)\n    st.font.size=Pt(11)\n    st.paragraph_format.space_after=Pt(5)\n    st.paragraph_format.line_spacing=1.08\ndoc.styles['Title'].font.size=Pt(22)\ndoc.styles['Heading 1'].font.size=Pt(14); doc.styles['Heading 1'].font.bold=True\ndoc.styles['Heading 1'].paragraph_format.space_before=Pt(12)\ndoc.styles['Heading 2'].font.size=Pt(12); doc.styles['Heading 2'].font.bold=True\ndoc.styles['Heading 2'].paragraph_format.space_before=Pt(8)\nfor sn in ['Heading 1','Heading 2','Heading 3']:\n    doc.styles[sn].paragraph_format.keep_with_next=True\ndoc.styles['Normal'].paragraph_format.widow_control=True\nheader=sec.header.paragraphs[0]\nheader.text='A&C Wohnart Immobilien GmbH   |   DONAU 2044001194'\nheader.runs[0].font.size=Pt(9)\nfoot=sec.footer.paragraphs[0]; foot.alignment=WD_ALIGN_PARAGRAPH.RIGHT\nfoot.add_run('2026.10.07  |  ')\nfield=OxmlElement('w:fldSimple'); field.set(qn('w:instr'),'PAGE'); foot._p.append(field)\nfor r in foot.runs:r.font.size=Pt(9)\n\ndef add_text(p, text):\n    # Preserve citations, and support light Markdown emphasis without exposing syntax.\n    for chunk in re.split(r'(\\*\\*.*?\\*\\*)',text):\n        if chunk.startswith('**') and chunk.endswith('**'):p.add_run(chunk[2:-2]).bold=True\n        else:p.add_run(chunk)\n\ndef table(lines):\n    rows=[[v.strip() for v in line.strip().strip('|').split('|')] for line in lines]\n    rows=[r for r in rows if not all(re.match(r'^:?-+:?$',v.replace(' ','')) for v in r)]\n    if not rows:return\n    columns=max(map(len,rows)); t=doc.add_table(rows=0,cols=columns)\n    t.autofit=False\n    widths={2:[2.0,4.9],3:[1.45,2.4,3.05],4:[1.4,1.9,1.8,1.8]}.get(columns,[6.9/columns]*columns)\n    for c,w in zip(t.columns,widths):c.width=Inches(w)\n    props=t._tbl.tblPr\n    borders=OxmlElement('w:tblBorders')\n    for edge in ['top','left','bottom','right','insideH','insideV']:\n        el=OxmlElement('w:'+edge); el.set(qn('w:val'),'single');el.set(qn('w:sz'),'4');el.set(qn('w:color'),'D9D9D9');borders.append(el)\n    props.append(borders)\n    margins=OxmlElement('w:tblCellMar')\n    for edge in ['top','left','bottom','right']:\n        el=OxmlElement('w:'+edge);el.set(qn('w:w'),'95');el.set(qn('w:type'),'dxa');margins.append(el)\n    props.append(margins)\n    for i,row in enumerate(rows):\n        cells=t.add_row().cells\n        for j,(c,txt) in enumerate(zip(cells,row)):\n            c.width=Inches(widths[j]);c.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER\n            p=c.paragraphs[0];p.paragraph_format.space_after=Pt(3);p.paragraph_format.space_before=Pt(2);p.paragraph_format.line_spacing=1.02\n            add_text(p,txt)\n            for run in p.runs:run.font.size=Pt(9.5);run.bold=(i==0)\n            if i==0:\n                fill=OxmlElement('w:shd');fill.set(qn('w:fill'),'E9EDF2');c._tc.get_or_add_tcPr().append(fill)\n        if i==0:\n            repeat=OxmlElement('w:tblHeader');t.rows[i]._tr.get_or_add_trPr().append(repeat)\n        no_split=OxmlElement('w:cantSplit');t.rows[i]._tr.get_or_add_trPr().append(no_split)\n    doc.add_paragraph().paragraph_format.space_after=Pt(2)\n\nlines=SRC.read_text(encoding='utf-8-sig').splitlines()\ndoc.add_paragraph('Opinie juridică privind asigurarea clădirii Schallergasse 35',style='Title')\ndoc.add_paragraph('Rezilierea poliței DONAU și drepturile A&C Wohnart Immobilien GmbH',style='Subtitle')\ndoc.add_paragraph('2026.10.07   |   Polița 2044001194   |   Analiză pentru decizie')\ndoc.add_paragraph('Redactare și audit realizate de doi agenți AI separați, pe documentele dosarului și surse juridice austriece primare. Documentul nu este semnat și nu este atribuit unui avocat. Concluziile condiționate de probe lipsă sunt indicate în text.')\ni=0\nwhile i<len(lines):\n    line=lines[i].strip();i+=1\n    if not line:continue\n    if line.startswith('|'):\n        block=[line]\n        while i<len(lines) and lines[i].strip().startswith('|'):block.append(lines[i].strip());i+=1\n        table(block);continue\n    # Skip writer title metadata if duplicated by document front matter.\n    if i<8 and (line.startswith('2026.10.07') or line.upper().startswith(('OPINIE JURIDIC','PUNCT DE VEDERE JURIDIC'))):continue\n    if line.startswith('### ') or re.match(r'^\\d+\\.\\d+\\s',line):\n        txt=line.lstrip('# ').replace('—',' ').replace(':','').rstrip('.')\n        p=doc.add_paragraph(txt,style='Heading 2')\n    elif line.startswith('## ') or re.match(r'^\\d+[.)]\\s+[^.]{4,120}$',line) or line in ['SINTEZĂ PENTRU DECIZIE','SURSE','SURSE PRIMARE','CONCLUZIE']:\n        txt=line.lstrip('# ').replace('—',' ').replace(':','').rstrip('.')\n        p=doc.add_paragraph(txt,style='Heading 1')\n    else:\n        p=doc.add_paragraph();add_text(p,line)\n    if line.startswith('https://'):\n        for r in p.runs:r.font.size=Pt(8.5)\n        p.paragraph_format.space_after=Pt(3)\n\ndoc.core_properties.title='Opinie juridică privind asigurarea DONAU pentru Schallergasse 35'\ndoc.core_properties.subject='Reziliere, prime restante, acoperire, clauza 1000K și regres contractual'\ndoc.core_properties.author='Analiză documentară asistată de AI'\ndoc.save(DEST)\nprint(json.dumps({'docx':str(DEST),'words':len(SRC.read_text(encoding='utf-8-sig').split()),'paragraphs':len(doc.paragraphs)},ensure_ascii=False))\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-fcc8b036-5704-43a1-8547-77e3230af743",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_draft",
+  "status": "completed",
+  "arguments": {
+    "draft_id": "3b3a2213-bc82-47ea-a023-4692db3da65c"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"3b3a2213-bc82-47ea-a023-4692db3da65c\",\n  \"kind\": \"new\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n  \"account_email\": \"office@ac-wohnart.at\",\n  \"to\": [\n    \"Bogdan.Capra@cerhahempel.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]\",\n  \"body\": \"Bună ziua, domnule Capra,\\n\\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\\n\\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\\n\\nSituația urgentă\\n\\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\\n\\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\\n\\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\\n\\nVă rog să răspundeți punctual:\\n\\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\\n\\nLivrabilul solicitat\\n\\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\\n\\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\\n\\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\\n\\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\\n\\n\\nCu stimă,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [\n    {\n      \"id\": \"ad453388-c79d-4b5a-830b-6a9ab0509c4e\",\n      \"filename\": \"814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf\",\n      \"size\": 262935,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"db061230-6d4f-48e9-a5ec-8368ceaabb62\",\n      \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n      \"size\": 1211739,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"d51ef13e-af18-41fa-a657-a6afd7524855\",\n      \"filename\": \"B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf\",\n      \"size\": 127487,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"2f806b69-dc6d-4b72-a7fb-476c01edff1c\",\n      \"filename\": \"Kostenaufstellung.pdf\",\n      \"size\": 264012,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"31d4256e-5a0a-4459-b0de-24652186ce2a\",\n      \"filename\": \"Schreiben vom 17.09.2026.pdf\",\n      \"size\": 1369745,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"951d3284-2a63-4de1-9158-d2be11f06308\",\n      \"filename\": \"Memoformat.pdf\",\n      \"size\": 151397,\n      \"mime_type\": \"application/pdf\"\n    },\n    {\n      \"id\": \"3f75eec7-f5f7-43e8-bc5c-94562aa09f2e\",\n      \"filename\": \"2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt\",\n      \"size\": 4948,\n      \"mime_type\": \"text/plain\"\n    },\n    {\n      \"id\": \"eddb06cb-dec5-4627-abf6-95b00f9385c3\",\n      \"filename\": \"2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt\",\n      \"size\": 6775,\n      \"mime_type\": \"text/plain\"\n    }\n  ],\n  \"reply_to_email_id\": null,\n  \"created_at\": \"2026-10-07T08:44:16.323512Z\",\n  \"updated_at\": \"2026-10-07T08:44:16.323512Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "3b3a2213-bc82-47ea-a023-4692db3da65c",
+      "kind": "new",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+      "account_email": "office@ac-wohnart.at",
+      "to": [
+        "Bogdan.Capra@cerhahempel.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]",
+      "body": "Bună ziua, domnule Capra,\n\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\n\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\n\nSituația urgentă\n\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\n\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\n\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\n\nVă rog să răspundeți punctual:\n\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\n\nLivrabilul solicitat\n\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\n\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\n\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\n\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\n\n\nCu stimă,\n\nCosmin Adrian Covaciu",
+      "attachments": [
+        {
+          "id": "ad453388-c79d-4b5a-830b-6a9ab0509c4e",
+          "filename": "814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf",
+          "size": 262935,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "db061230-6d4f-48e9-a5ec-8368ceaabb62",
+          "filename": "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+          "size": 1211739,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "d51ef13e-af18-41fa-a657-a6afd7524855",
+          "filename": "B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf",
+          "size": 127487,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "2f806b69-dc6d-4b72-a7fb-476c01edff1c",
+          "filename": "Kostenaufstellung.pdf",
+          "size": 264012,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "31d4256e-5a0a-4459-b0de-24652186ce2a",
+          "filename": "Schreiben vom 17.09.2026.pdf",
+          "size": 1369745,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "951d3284-2a63-4de1-9158-d2be11f06308",
+          "filename": "Memoformat.pdf",
+          "size": 151397,
+          "mime_type": "application/pdf"
+        },
+        {
+          "id": "3f75eec7-f5f7-43e8-bc5c-94562aa09f2e",
+          "filename": "2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt",
+          "size": 4948,
+          "mime_type": "text/plain"
+        },
+        {
+          "id": "eddb06cb-dec5-4627-abf6-95b00f9385c3",
+          "filename": "2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt",
+          "size": 6775,
+          "mime_type": "text/plain"
+        }
+      ],
+      "reply_to_email_id": null,
+      "created_at": "2026-10-07T08:44:16.323512Z",
+      "updated_at": "2026-10-07T08:44:16.323512Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 649
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-4473cecd-22da-4572-b1e8-4cb2033c1c68",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Istoric draft neutilizat Capra.json",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "{\n  \"data_lizibila\": \"2026.10.07\",\n  \"status_local\": \"DRAFT NETRIMIS; neutilizat în sarcina curentă. Utilizatorul a cerut analiză și audit de doi agenți, nu solicitare către avocat.\",\n  \"email\": {\n    \"content\": [\n      {\n        \"type\": \"text\",\n        \"text\": \"{\\n  \\\"id\\\": \\\"3b3a2213-bc82-47ea-a023-4692db3da65c\\\",\\n  \\\"kind\\\": \\\"new\\\",\\n  \\\"source\\\": \\\"chatgpt\\\",\\n  \\\"status\\\": \\\"pending\\\",\\n  \\\"account_id\\\": \\\"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\\\",\\n  \\\"account_email\\\": \\\"office@ac-wohnart.at\\\",\\n  \\\"to\\\": [\\n    \\\"Bogdan.Capra@cerhahempel.com\\\"\\n  ],\\n  \\\"cc\\\": [],\\n  \\\"bcc\\\": [],\\n  \\\"subject\\\": \\\"2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]\\\",\\n  \\\"body\\\": \\\"Bună ziua, domnule Capra,\\\\n\\\\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\\\\n\\\\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\\\\n\\\\nSituația urgentă\\\\n\\\\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\\\\n\\\\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\\\\n\\\\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\\\\n\\\\nVă rog să răspundeți punctual:\\\\n\\\\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\\\\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\\\\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\\\\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\\\\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\\\\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\\\\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\\\\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\\\\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\\\\n\\\\nLivrabilul solicitat\\\\n\\\\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\\\\n\\\\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\\\\n\\\\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\\\\n\\\\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\\\\n\\\\n\\\\nCu stimă,\\\\n\\\\nCosmin Adrian Covaciu\\\",\\n  \\\"attachments\\\": [\\n    {\\n      \\\"id\\\": \\\"ad453388-c79d-4b5a-830b-6a9ab0509c4e\\\",\\n      \\\"filename\\\": \\\"814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf\\\",\\n      \\\"size\\\": 262935,\\n      \\\"mime_type\\\": \\\"application/pdf\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"db061230-6d4f-48e9-a5ec-8368ceaabb62\\\",\\n      \\\"filename\\\": \\\"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\\\",\\n      \\\"size\\\": 1211739,\\n      \\\"mime_type\\\": \\\"application/pdf\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"d51ef13e-af18-41fa-a657-a6afd7524855\\\",\\n      \\\"filename\\\": \\\"B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf\\\",\\n      \\\"size\\\": 127487,\\n      \\\"mime_type\\\": \\\"application/pdf\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"2f806b69-dc6d-4b72-a7fb-476c01edff1c\\\",\\n      \\\"filename\\\": \\\"Kostenaufstellung.pdf\\\",\\n      \\\"size\\\": 264012,\\n      \\\"mime_type\\\": \\\"application/pdf\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"31d4256e-5a0a-4459-b0de-24652186ce2a\\\",\\n      \\\"filename\\\": \\\"Schreiben vom 17.09.2026.pdf\\\",\\n      \\\"size\\\": 1369745,\\n      \\\"mime_type\\\": \\\"application/pdf\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"951d3284-2a63-4de1-9158-d2be11f06308\\\",\\n      \\\"filename\\\": \\\"Memoformat.pdf\\\",\\n      \\\"size\\\": 151397,\\n      \\\"mime_type\\\": \\\"application/pdf\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"3f75eec7-f5f7-43e8-bc5c-94562aa09f2e\\\",\\n      \\\"filename\\\": \\\"2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt\\\",\\n      \\\"size\\\": 4948,\\n      \\\"mime_type\\\": \\\"text/plain\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"eddb06cb-dec5-4627-abf6-95b00f9385c3\\\",\\n      \\\"filename\\\": \\\"2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt\\\",\\n      \\\"size\\\": 6775,\\n      \\\"mime_type\\\": \\\"text/plain\\\"\\n    }\\n  ],\\n  \\\"reply_to_email_id\\\": null,\\n  \\\"created_at\\\": \\\"2026-10-07T08:44:16.323512Z\\\",\\n  \\\"updated_at\\\": \\\"2026-10-07T08:44:16.323512Z\\\",\\n  \\\"note\\\": \\\"Salvată în EVA → Drafts; trimiterea se face din EVA.\\\"\\n}\"\n      }\n    ],\n    \"structuredContent\": {\n      \"id\": \"3b3a2213-bc82-47ea-a023-4692db3da65c\",\n      \"kind\": \"new\",\n      \"source\": \"chatgpt\",\n      \"status\": \"pending\",\n      \"account_id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n      \"account_email\": \"office@ac-wohnart.at\",\n      \"to\": [\n        \"Bogdan.Capra@cerhahempel.com\"\n      ],\n      \"cc\": [],\n      \"bcc\": [],\n      \"subject\": \"2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]\",\n      \"body\": \"Bună ziua, domnule Capra,\\n\\nVă rog să ne transmiteți o opinie juridică scrisă, asumată de dumneavoastră sau de avocatul responsabil din CERHA HEMPEL, privind polița DONAU 2044001194 / contractul-cadru 2900010498 pentru Schallergasse 35 și dosarul Commerz 2616052.\\n\\nDorim o analiză aplicată documentelor și legii austriece, cu autor, dată, temeiuri legale, concluzii și recomandări concrete. Vă rog să identificați și documentele suplimentare fără de care anumite concluzii nu pot fi definitive.\\n\\nSituația urgentă\\n\\nLa 2026.10.06, DONAU a refuzat încetarea prin acord și a indicat rezilierea regulată la 2036.01.01, cu preaviz de trei luni. A declarat expres că în prezent nu există acoperire, din cauza primelor restante.\\n\\nLa 2026.09.30, Commerz a solicitat 5.326,15 EUR, inclusiv prima până la 2027.01.01, cu termen 2026.10.12. Acest sold nu este confirmat ca actual sau acceptat de noi.\\n\\nObiectivul nostru este încetarea la 2027.01.01, alternativ 2027.01.08, clarificarea tuturor sumelor și rezolvarea imediată a incertitudinii privind asigurarea. Am pregătit o variantă de cerere către DONAU, încă netrimisă, pe care o anexez pentru verificarea dumneavoastră.\\n\\nVă rog să răspundeți punctual:\\n\\n- Dacă și în ce temei suntem ținuți de durata până la 2036, având în vedere contractul vechiului proprietar și transferul poliței. Ce acte, mandate și clauze trebuie verificate?\\n- Dacă există un drept de încetare la 2027.01.01 sau 2027.01.08, ori dacă trebuie negociat un acord. Care este primul termen permis și ce efect au notificările anterioare, inclusiv cea trimisă la 2026.10.01?\\n- Dacă dreptul cumpărătorului prevăzut de §70 VersVG a fost exercitat sau putea fi exercitat în termen, ținând cont de data dobândirii și a cunoașterii poliței.\\n- Dacă lipsa actuală a acoperirii este legal justificată: somația calificată, dovada comunicării, termenul, avertizarea și aplicarea §39 VersVG. Vă rog să verificați distinct dacă DONAU a și reziliat contractul.\\n- În ce măsură rămân datorate prime pentru perioade fără acoperire și ce sume pot fi contestate justificat. Nu dorim o concluzie bazată numai pe afirmația că „serviciul nu a fost prestat”.\\n- Ce sumă trebuie plătită, către cine și cu ce alocare pentru a restabili acoperirea; de la ce dată și în ce condiții. Cum se separă disputa asupra dobânzilor și costurilor de obligația de primă și de §39 alin.4?\\n- Dacă clauza 1000K „Laufzeitvorteil”, inclusiv eventuala primă suplimentară la încetare anticipată, este aplicabilă și valabilă în cazul nostru și cum poate fi exclusă sau negociată.\\n- Cum se aplică §40 VersVG la decontul final și §41a la reducerea solicitată; ce calcule și documente trebuie să cerem pentru ambele date propuse.\\n- Ce strategie recomandați înainte de 2026.10.12, inclusiv consecințele unei eventuale plăți sub rezervă și modul de evitare a unei continuări neclare a contractului.\\n\\nLivrabilul solicitat\\n\\nVă rog ca opinia să conțină o sinteză pentru decizie, analiza juridică pe fiecare problemă, evaluarea riscurilor, documentele lipsă și pașii recomandați. Vă rugăm să includeți și textul în germană al notificării sau al răspunsului pe care îl recomandați către DONAU.\\n\\nVă transmit anexat polița veche, polița modificată, somația privind primele, calculul Commerz, scrisoarea din 2026.09.17, anexa DONAU din 2026.10.06, exportul text al răspunsului curent și varianta de cerere încă netrimisă. Exportul text este cel disponibil prin Eva-Mail și nu reprezintă fișierul MIME original.\\n\\nDin cauza acoperirii declarate inexistente, vă rog să ne comunicați cât mai rapid o recomandare preliminară privind regularizarea. Opinia scrisă și răspunsul recomandat ne-ar fi utile până la 2026.10.09, înaintea termenului Commerz.\\n\\nDacă această analiză presupune un onorariu distinct față de mandatul existent, vă rog să confirmați în prealabil estimarea și termenul de livrare. Nu acceptăm prin acest mesaj un onorariu suplimentar neprecizat.\\n\\n\\nCu stimă,\\n\\nCosmin Adrian Covaciu\",\n      \"attachments\": [\n        {\n          \"id\": \"ad453388-c79d-4b5a-830b-6a9ab0509c4e\",\n          \"filename\": \"814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf\",\n          \"size\": 262935,\n          \"mime_type\": \"application/pdf\"\n        },\n        {\n          \"id\": \"db061230-6d4f-48e9-a5ec-8368ceaabb62\",\n          \"filename\": \"Schalle_1080_DON_SHU_2044001194_2939905718.pdf\",\n          \"size\": 1211739,\n          \"mime_type\": \"application/pdf\"\n        },\n        {\n          \"id\": \"d51ef13e-af18-41fa-a657-a6afd7524855\",\n          \"filename\": \"B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf\",\n          \"size\": 127487,\n          \"mime_type\": \"application/pdf\"\n        },\n        {\n          \"id\": \"2f806b69-dc6d-4b72-a7fb-476c01edff1c\",\n          \"filename\": \"Kostenaufstellung.pdf\",\n          \"size\": 264012,\n          \"mime_type\": \"application/pdf\"\n        },\n        {\n          \"id\": \"31d4256e-5a0a-4459-b0de-24652186ce2a\",\n          \"filename\": \"Schreiben vom 17.09.2026.pdf\",\n          \"size\": 1369745,\n          \"mime_type\": \"application/pdf\"\n        },\n        {\n          \"id\": \"951d3284-2a63-4de1-9158-d2be11f06308\",\n          \"filename\": \"Memoformat.pdf\",\n          \"size\": 151397,\n          \"mime_type\": \"application/pdf\"\n        },\n        {\n          \"id\": \"3f75eec7-f5f7-43e8-bc5c-94562aa09f2e\",\n          \"filename\": \"2026.10.07 Raspuns DONAU primit 2026.10.06 - export text.txt\",\n          \"size\": 4948,\n          \"mime_type\": \"text/plain\"\n        },\n        {\n          \"id\": \"eddb06cb-dec5-4627-abf6-95b00f9385c3\",\n          \"filename\": \"2026.10.07 Cerere DONAU - varianta de verificat - NETRIMIS.txt\",\n          \"size\": 6775,\n          \"mime_type\": \"text/plain\"\n        }\n      ],\n      \"reply_to_email_id\": null,\n      \"created_at\": \"2026-10-07T08:44:16.323512Z\",\n      \"updated_at\": \"2026-10-07T08:44:16.323512Z\",\n      \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n    },\n    \"isError\": false\n  }\n}\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_Rh0U58oA8w3HZJ6F0IEEfGGQ",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-cd2cbb57-cc31-48d5-b4c6-a92f1aea32a8",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-ChildItem -LiteralPath '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata' | Select-Object Name,Length; Get-Content -LiteralPath 'folder map\\\\actualizeaza_index.py' -TotalCount 55\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "86432",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-ChildItem -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata' | Select-Object Name,Length; Get-Content -LiteralPath 'folder map\\actualizeaza_index.py' -TotalCount 55"
+    }
+  ],
+  "aggregatedOutput": "\r\nName                                           Length\r\n----                                           ------\r\n2026.10.07 Verificare originale                \r\n2026.10.07 Analiza redactor.txt                42859\r\n2026.10.07 Audit juridic.txt                   12650\r\n2026.10.07 Istoric draft neutilizat Capra.json 13555\r\n\"\"\"Index local incremental. Nu modifica documentele sursa. Python 3.12.\"\"\"\r\nfrom pathlib import Path\r\nimport hashlib, json, csv, re, zipfile, tarfile, subprocess, datetime, collections, html\r\nimport fitz\r\nfrom docx import Document\r\nfrom openpyxl import load_workbook, Workbook\r\nfrom openpyxl.styles import Font, PatternFill, Alignment\r\nfrom PIL import Image\r\nimport sqlite3, sys\r\n\r\nBASE=Path(__file__).resolve().parent\r\nsys.path.insert(0,str(BASE/'runtime'))\r\nROOT=BASE.parent\r\nCACHE=BASE/'texte'\r\nCACHE.mkdir(exist_ok=True)\r\nSTAMP=datetime.datetime.now().astimezone().isoformat(timespec='seconds')\r\nOLD={}\r\nif (BASE/'inventar.json').exists():\r\n    OLD={r['cale']:r for r in json.loads((BASE/'inventar.json').read_text(encoding='utf-8'))}\r\nSEVEN=Path('C:/Program Files/7-Zip/7z.exe')\r\nTEXT={'.txt','.md','.csv','.html','.css','.py','.ics','.vcf','.kml','.ini','.json','.ps1'}\r\n\r\ndef sha(p):\r\n    h=hashlib.sha256()\r\n    with p.open('rb') as f:\r\n        for b in iter(lambda:f.read(4*1024*1024),b''):h.update(b)\r\n    return h.hexdigest()\r\n\r\ndef decode(b):\r\n    for enc in ('utf-8-sig','utf-16','cp1252','latin1'):\r\n        try:return b.decode(enc)\r\n        except (UnicodeError,LookupError):pass\r\n\r\ndef extract(p):\r\n    e=p.suffix.lower(); info={}; text=''; status=''\r\n    with p.open('rb') as f:magic=f.read(8)\r\n    if e=='.tar' and magic.startswith(b'Rar!'):e='.rar';info['format_detectat']='RAR cu extensie TAR'\r\n    if e=='.xlsx' and magic.startswith(bytes.fromhex('d0cf11e0')):e='.xls';info['format_detectat']='Office OLE cu extensie XLSX'\r\n    if (not e or (e=='.doc' and magic.startswith(b'PK'))) and zipfile.is_zipfile(p):\r\n        with zipfile.ZipFile(p) as z:\r\n            names=z.namelist()\r\n        if 'word/document.xml' in names:e='.docx';info['format_detectat']='DOCX cu extensie absentă sau DOC'\r\n        else:e='.zip';info['format_detectat']='ZIP fără extensie'\r\n    if p.name.startswith('~$'):return 'Fișier temporar Office; nu reprezintă documentul original.','temporar',info\r\n    if e=='.pdf':\r\n        with fitz.open(p) as doc:\r\n            info['pagini']=len(doc); pages=[]; low=[]\r\n            for i,page in enumerate(doc):\r\n                t=page.get_text(sort=True)\r\n                widgets=list(page.widgets() or [])\r\n                if widgets:t+='\\nCÂMPURI FORMULAR:\\n'+'\\n'.join(f'{w.field_name}: {w.field_value}' for w in widgets)\r\n                if len(t.strip())<40:low.append(i+1)\r\n                pages.append(f'\\n--- PAGINA {i+1} ---\\n{t}')\r\n            info['pagini_fara_text_suficient']=low\r\n            text='\\n'.join(pages)\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 154
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-138d8020-4fbd-4dd5-8d03-2546852af60b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Analiza redactor.txt'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "24322",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Analiza redactor.txt'",
+      "name": "2026.10.07 Analiza redactor.txt",
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Analiza redactor.txt"
+    }
+  ],
+  "aggregatedOutput": "2026.10.07 — OPINIE JURIDICĂ DOCUMENTATĂ\r\nDONAU, polița 2044001194 — Schallergasse 35, 1120 Wien\r\nDurata contractului, încetarea anticipată, primele restante și acoperirea\r\nBeneficiar: A&C Wohnart Immobilien GmbH\r\n\r\nStudiu juridic pregătit cu analiză și audit independente prin doi agenți AI. Nu reprezintă o opinie semnată de un avocat austriac. Este conceput pentru decizia beneficiarului și verificarea de către avocat, cu argumente, contraponderi și dovezi identificabile. Dreptul analizat este cel austriac; sursele primare au fost consultate la 2026.10.07. Situația de fapt se oprește la documentele indicate în registrul de probe.\r\n\r\n1. SINTEZĂ PENTRU DECIZIE\r\n\r\nConcluzia centrală este că avem argumente juridice reale pentru contestarea unor poziții DONAU și pentru obținerea unei ieșiri negociate, dar documentele disponibile nu demonstrează un drept necondiționat de a închide întreaga poliță la 2027.01.01. Asigurătorul nu poate exclude drepturile legale de încetare specială; în același timp, dreptul austriac permite în principiu unei firme o asigurare pe zece ani. Reglementarea strictă a domeniului nu transformă toate contractele comerciale în contracte reziliabile anual. Există jurisprudență chiar despre o societate care administra clădiri și avea asigurări combinate pe zece ani: OGH 7 Ob 152/01f este, asupra acestei întrebări, favorabilă asigurătorului. [S01, J01]\r\n\r\nPoziția DONAU este însă incompletă dacă formula „numai la 2036.01.01” este prezentată ca excludere a oricărei ieșiri. Trebuie cercetate separat: existența acordului valabil pentru durata 2026–2036, contractul-cadru, dreptul cumpărătorului după vânzare, eventuale cazuri speciale privind componentele poliței și încetarea pentru un motiv grav imputabil asigurătorului. Nu este suficient că A&C nu a semnat personal polița: transferul asigurării bunului se poate produce prin lege. [P01–P03, S02, S03, J01, J08]\r\n\r\nCea mai puternică vulnerabilitate identificată în costul ieșirii este clauza 1000K, care prevede o primă suplimentară de 80% din prima anuală înainte de împlinirea a doi ani. Textul seamănă substanțial cu clauza analizată de OGH 7 Ob 154/22f: exceptează numai rezilierea făcută de asigurător după un sinistru, fără a excepta cauza gravă imputabilă asigurătorului. Există un argument serios în baza §879 alin.3 ABGB. Totuși, hotărârea din 2022 privește protecția consumatorilor; aplicarea concretă în acest litigiu comercial trebuie argumentată. Contestarea suplimentului nu creează singură un drept de încetare anuală și nu garantează că orice compensație va fi zero. [P01, J02, J03, S09]\r\n\r\nAfirmația „nu există acoperire, deci nu trebuie plătit nimic” nu este susținută juridic. Neplata unei prime ulterioare poate lăsa contractul activ, dar poate exonera asigurătorul pentru sinistrele produse în condițiile §39 VersVG. Somația calificată există în arhivă, datată 2026.06.05. Trebuie verificată comunicarea ei efectivă, durata de minimum două săptămâni și existența vreunei încetări ulterioare. Reexpedierea electronică din 2026.06.10 și termenul 2026.06.18 ridică o problemă concretă, dar nu dovedesc singure invaliditatea. [P04, P05, S04, J05]\r\n\r\nO cale suplimentară importantă este contractul de cumpărare: clauza 1.8 privind nepreluarea altor contracte și despăgubirea cumpărătoarei, coroborată cu garanțiile și regulile de repartizare a costurilor. Acestea pot fundamenta o pretenție împotriva vânzătoarei chiar dacă DONAU poate urmări A&C. Nu rezultă automat că vânzătoarea datorează toate primele ulterioare: relația dintre clauzele 1.8, 4.4, 4.5, 7.1(i) și 10.5 trebuie aplicată perioadelor concrete. [P09]\r\n\r\nRecomandarea este o strategie în două direcții: protejarea imediată a clădirii prin clarificarea sau restabilirea efectivă a acoperirii, concomitent cu contestarea documentată a suplimentului, verificarea duratei și negocierea încetării la 2027.01.01. Data 2027.01.08 poate fi convenită, dar nu reprezintă un termen legal de ieșire doar pentru că între notificare și acea dată sunt trei luni. Termenul de plată comunicat de Commerz, 2026.10.12, nu este suspendat de prezenta analiză. [P07, P08]\r\n\r\n2. FAPTE, PROBE ȘI ÎNTREBĂRI ÎNCĂ DESCHISE\r\n\r\nPolița emisă la 2026.02.03 pentru Schallergasse 35 Immobilienbesitz GmbH & Co KG se numește „Ersatzvertrag”. Indică modificări de la 2026.01.01, expirare la 2036.01.01, ora 00:00, și scadență principală anuală 01.01. Polița A&C din 2026.06.03 indică modificarea titularului ca urmare a schimbării proprietarului de la 2026.05.28 și păstrează expirarea 2036.01.01. Preavizul de trei luni apare în condiția privind prelungirea la expirarea duratei. [P01 p.1, p.8; P02 p.1, p.7]\r\n\r\nPrima anuală pentru întregul pachet este 6.367,24 EUR, cu taxe incluse; rata trimestrială este 1.591,81 EUR. Pachetul cuprinde incendiu, furtună, apă din conducte, pierdere de chirie prin întreruperea activității, costuri suplimentare și răspundere civilă de proprietar. „Pachet” nu stabilește singur dacă fiecare componentă are independență juridică și drepturi proprii de încetare. [P01 p.2–7]\r\n\r\nDobândirea proprietății nu trebuie datată automat 2026.05.28. Încheierea instanței de carte funciară este din 2026.03.10; extrasul din 2026.03.11 arată deja A&C proprietară a cotei 1/1. Emailul Capra din 2026.03.19 conține polița și corespondența anterioară. Așadar, există dovezi serioase că proprietatea și cunoașterea asigurării preced data administrativă de schimbare a titularului. Data exactă a operațiunii de înscriere și momentul juridic al cunoașterii trebuie corelate cu dosarul de carte funciară și mandatul avocatului. [P03, P06]\r\n\r\nÎn 2026.06.08, A&C notifică schimbarea proprietarului și cere statutul poliței, delimitarea datoriilor și o soluție fără întreruperea acoperirii. În 2026.07.01, cere reducerea la acoperire de bază și, subsidiar, examinarea încetării prin acord; își rezervă drepturile §70. Rezervarea drepturilor și cererea de verificare nu reprezintă în sine exercitarea certă a unei denunțări unilaterale. În 2026.10.01 există o declarație trimisă, cu încetare precautorie la prima dată admisă. [P05–P08]\r\n\r\nÎn 2026.10.06, DONAU refuză acordul de încetare, invocă termenul 2036.01.01, reamintește documentele necesare pentru ajustare și declară lipsa actuală a acoperirii pentru restanțe. Răspunsul demonstrează poziția asigurătorului; nu demonstrează automat validitatea juridică a tuturor afirmațiilor. [P08]\r\n\r\nNu avem încă în probatoriul analizat: cererea și acceptarea care au stabilit durata până în 2036, întregul contract-cadru 2900010498, istoricul complet de sold și încasări, dovada poștală de primire a somației, o eventuală notificare de încetare emisă de DONAU, mandatul detaliat al intermediarului și toate demersurile de încetare anterioare vânzării. Lipsa acestor documente limitează concluzia asupra contractului; nu echivalează cu inexistența lor.\r\n\r\n3. DURATA DE ZECE ANI ȘI PREAVIZUL: CE PERMITE DREPTUL AUSTRIAC\r\n\r\nTrebuie diferențiate trei instituții. §8 alin.1 limitează fiecare prelungire tacită la cel mult un an. §8 alin.2 reglementează contractele pe durată nedeterminată, cu preaviz egal între una și trei luni și renunțare convențională la reziliere de maximum doi ani. §8 alin.3 conferă consumatorului ieșirea la sfârșitul celui de-al treilea an sau al unui an următor, cu preaviz de o lună. Ultima protecție nu este, prin textul legii, un drept general al tuturor societăților. [S01]\r\n\r\nA&C este o GmbH care deține și pregătește renovarea unui imobil. Pe probele prezente, calificarea predominantă este cea de profesionist. Nu trebuie dedusă mecanic exclusiv din forma juridică: contează activitatea și legătura tranzacției cu ea. Dar nu avem fapte care să justifice aplicarea protecției specifice unui consumator acestei asigurări. Nici mărimea redusă a firmei, nici lipsa expertizei interne în asigurări nu transformă de la sine societatea în consumator. [P02, P09; J01]\r\n\r\nJurisprudența directă este OGH 7 Ob 152/01f, 2001.07.11. O societate administratoare a 36 de imobile avea asigurări combinate pe zece ani, cu prelungire anuală; voia ieșirea pentru că piața oferea condiții mai bune. OGH a respins aplicarea analogică a §8 alin.2 și alin.3 și a respins cererea de a considera contractele încetate. Diferența importantă este că acolo societatea ceruse expres durata de zece ani, după consultarea brokerilor. În cazul nostru această inițiativă și negociere nu sunt încă demonstrate. Hotărârea exclude însă argumentul că o asemenea durată este automat interzisă pentru firme. [J01]\r\n\r\nInferența aplicată este următoarea: dacă durata determinată 2026–2036 a fost convenită valabil și transmisă A&C prin lege, DONAU are un argument puternic împotriva unei rezilieri ordinare în 2027. Dar eticheta „Ersatzvertrag” și pagina poliței nu sunt un substitut perfect pentru dovada acordului. Trebuie reconstruit dacă în 2026 s-a încheiat un contract nou, s-a negociat o nouă perioadă, s-a făcut numai o modificare de primă sau s-a reemis administrativ un contract vechi. Această distincție poate schimba data expirării și calculul avantajului de durată. [P01; S10]\r\n\r\n§5 VersVG tratează diferențele dintre poliță și cererea/înțelegerea inițială: aprobarea prin lipsa obiecției presupune avertizare specială și identificarea diferențelor. Aceasta justifică verificarea unei eventuale prelungiri introduse doar în poliță; nu demonstrează că orice poliță nesemnată este nulă. §3 permite solicitarea copiilor declarațiilor referitoare la contract. [S10]\r\n\r\nNici §864a ABGB nu face automat surprinzătoare durata vizibilă pe prima pagină. Argumentul devine mai relevant dacă perioada a fost reîncepută fără negociere sau clauza accesorie costisitoare a fost ascunsă. §879 alin.3 se aplică clauzelor accesorii standard profund dezavantajoase; nu trebuie prezentat fără analiză ca un plafon general de durată pentru orice contract comercial. [S09, S11]\r\n\r\n4. DREPTUL SPECIAL AL CUMPĂRĂTORULUI ȘI IMPACTUL CUMPĂRĂRII\r\n\r\n§69 alin.1 VersVG transferă cumpărătorului drepturile și obligațiile din asigurarea bunului în timpul proprietății sale; alin.2 prevede răspundere solidară pentru prima perioadei de asigurare în curs la transfer. Faptul că A&C nu a acordat mandat SEPA nu împiedică acest transfer legal. Relația de administrare cu Hofhans și mandatul bancar sunt distincte de existența poliței. [S02; P05]\r\n\r\n§70 alin.2 permite cumpărătorului să denunțe cu efect imediat sau la finalul perioadei curente; dreptul se exercită într-o lună de la dobândire sau, dacă nu cunoștea asigurarea, într-o lună de la cunoaștere. Dacă încetarea este valabil făcută pe această bază, alin.3 pune prima în sarcina vânzătorului și exclude răspunderea cumpărătorului pentru ea. De aceea această cale merită verificată prioritar, inclusiv demersurile făcute prin avocat. [S03]\r\n\r\nOGH 7 Ob 20/89, 1989.06.15, precizează că este suficientă cunoașterea existenței asigurării și a numelui asigurătorului; nu sunt necesare toate condițiile poliței. Cumpărătorul care invocă o cunoaștere mai târzie trebuie să o dovedească. Așteptarea noii polițe din iunie nu prelungește automat termenul atunci când documentele din martie arată deja DONAU și contractul. Cunoașterea reprezentantului poate conta în funcție de mandat și atribuții. [J04; P03, P06]\r\n\r\nAplicat arhivei, ruta unei noi rezilieri în octombrie bazate numai pe §70 este slabă. Există deja proprietate în martie și comunicarea poliței în aceeași lună. Data administrativă 2026.05.28 nu justifică ignorarea acestor probe. Chiar presupunând că termenul ar începe în iunie, cererea din iulie nu formulează clar exercitarea unilaterala a dreptului, ci cerere de acord și rezervare. Această concluzie este probatorie, nu o constatare judiciară definitivă. [P02–P06; J04]\r\n\r\nExistă totuși două verificări cu impact: dacă vânzătoarea sau cumpărătoarea, printr-un mandatar, a trimis efectiv o încetare în termen; și dacă asigurătorul a acceptat ori a creat o situație incompatibilă cu invocarea tardivității. Declarația fostei administrații că asigurarea „ar fi trebuit reziliată” nu dovedește expedierea și primirea. Pentru §70 sunt necesare textul, autorul, data și dovada accesului la DONAU.\r\n\r\nÎn asigurarea combinată trebuie identificat care componente urmează legal bunul. Răspunderea civilă, pierderea de chirie și acoperirile accesorii nu trebuie tratate fără analiză ca o poliță simplă de incendiu. OGH 7 Ob 152/01f privește tocmai un pachet în care părțile voiau legătura componentelor; de aceea contractul-cadru și condițiile speciale sunt decisive pentru eventuală încetare parțială. [P01; J01]\r\n\r\n5. CLAUZA 1000K: ARGUMENTUL CEL MAI IMPORTANT PRIVIND COSTUL IEȘIRII\r\n\r\nClauza folosește costuri calculate ca avantaj al duratei și obligă la o primă suplimentară în caz de încetare anticipată. Înainte de doi ani: 80% din prima anuală; după doi ani: 70%; după trei ani: 60%, apoi scădere cu zece puncte. Baza este prima anuală curentă la încetare. Singura excepție expresă privește încetarea de către asigurător după un sinistru. Pentru prima actuală, 80% ar fi aproximativ 5.093,79 EUR, dacă întregul pachet constituie baza și dacă aceasta este aplicabilă. Este un scenariu de risc, nu un debit acceptat. [P01 p.12]\r\n\r\nOGH 7 Ob 154/22f, 2022.11.23, a examinat „R10 – Laufzeitvorteil”, calculată tot prin prima anuală curentă și cu aceeași excepție limitată. OGH a considerat clauza profund dezavantajoasă pentru că nu exclude încetarea pentru un motiv grav creat de asigurător. Diferențe: hotărârea are context colectiv de consumatori, 90% înainte de un an și referire la prelungire, iar 1000K pornește de la 80% înainte de doi ani. Analogia structurală este puternică asupra excepțiilor; identitatea juridică integrală nu este demonstrată. [J02]\r\n\r\nOGH 7 Ob 211/12y, 2013.03.27, într-un litigiu cu o GmbH, confirmă controlul §879 alin.3 și în raporturi comerciale și corelează clauza de recuperare cu dispariția riscului și normele imperative. Dar nu impune prin acea soluție stricta degresivitate a oricărei clauze B2B; lasă problema respectivă deschisă. Hotărârea admite și completarea golului contractual prin interpretare după voința ipotetică a părților. Așadar, nulitatea clauzei nu a condus direct la respingerea oricărui cuantum, ci la rejudecare. [J03]\r\n\r\nPoziția recomandată este contestarea fundamentului, întinderii și proporționalității suplimentului, invocând aceste două hotărâri, cerând dovada avantajului efectiv și fără recunoașterea sumei de 5.093,79 EUR. Mai există întrebarea dacă avantajul a fost recalculat legitim în 2026 sau dacă este un contract vechi reemis. Suplimentul este de asemenea vulnerabil dacă, prin aplicarea sa, sunt golite de conținut drepturi imperative de încetare. Concluzia rămâne „argument serios de contestare”, nu „automat zero”.\r\n\r\nTrebuie exclusă și o eroare inversă: o clauză despre prețul încetării nu conferă automat asiguratului dreptul de a cumpăra ieșirea la orice dată. Ea poate reglementa consecințele unei încetări deja admise pe un alt temei. Soluția comercială sigură este un acord care stabilește simultan data, decontul și renunțarea la supliment, nu simpla trimitere unilaterală a unui ordin de plată pentru 80%.\r\n\r\n6. LIPSA ACTUALĂ A ACOPERIRII: TESTUL LEGAL ȘI SOMAȚIA EXISTENTĂ\r\n\r\n§39 VersVG condiționează exonerarea pentru o primă ulterioară de somație scrisă, termen de cel puțin două săptămâni și avertizarea consecințelor. Pentru un sinistru după termen trebuie să persiste restanța culpabilă. Dobânzile și costurile singure nu declanșează aceste efecte. Textul permite DONAU să denunțe după termen, dar nu impune încetarea contractului; dacă o denunțare este legată de termen, trebuie avertizare expresă asupra acestui efect. [S04]\r\n\r\nSomația din 2026.06.05 indică 1.591,81 EUR primă și 20 EUR cheltuieli, două săptămâni și avertizare asupra indemnizațiilor și posibilității de denunțare. Nu este doar o factură; are elementele unei somații calificate. Textul spune că asigurătorul „poate” înceta, nu că polița încetează automat la expirarea termenului. De aceea nu putem deduce din document că asigurarea este deja încetată. [P04 p.1]\r\n\r\nOGH 7 Ob 83/21p, 2022.01.26, verifică strict comunicarea somației, dar admite că aceasta poate fi opozabilă la adresa indicată, chiar dacă persoana nu o citește efectiv. Asigurătorul trebuie să susțină și dovedească accesul. În acea cauză comportamentul asiguratului privind adresa și mandatul de debitare a contat împotriva lui. Hotărârea nu ne autorizează să echivalăm lipsa lecturii cu lipsa comunicării. [J05]\r\n\r\nProblema noastră precisă este termenul 2026.06.18 din emailul Loschy 2026.06.10. Dacă prima comunicare valabilă a somației a avut loc abia prin acel email, intervalul până la 2026.06.18 este inferior celor două săptămâni. Dar dacă somația a fost primită poștal mai devreme, analiza se schimbă. De asemenea, trebuie interpretat efectul termenului mobil de două săptămâni din anexă în raport cu termenul mai scurt din email. Este un argument probatoriu concret, care justifică dovada expedierii și primirii; nu este deocamdată suficient pentru a declara că acoperirea a rămas neîntreruptă. [P04, P05]\r\n\r\nCererea beneficiarului de a plăti abia după recalculare nu reprezintă acordul DONAU de suspendare a scadenței. Pe documentele prezente, neplata a fost aleasă pentru a evita acceptarea prețului; această conduită poate fi considerată culpabilă dacă datoria era exigibilă. Un litigiu asupra cuantumului poate conta, dar nu înlătură automat culpa pentru toate primele. [P05; S04]\r\n\r\nÎn cazul unei polițe combinate, trebuie examinat dacă somația privește în mod determinabil întregul pachet și care componente sunt afectate de prima neplătită. Nu este permisă concluzia simplă că o componentă este sigur acoperită doar pentru că prima nu este împărțită în email. DONAU trebuie să explice mecanismul pe componente, inclusiv eventualele alte cauze de lipsă a acoperirii asociate renovării.\r\n\r\n7. PRIME FĂRĂ INDEMNIZAȚIE, PLATA ȘI RESTABILIREA ACOPERIRII\r\n\r\nÎntrebarea economică a beneficiarului este legitimă: de ce se solicită bani pentru un interval fără protecție? Răspunsul juridic este că trebuie separate existența contractului, datoria de primă și obligația de indemnizare a unui sinistru. Dacă §39 operează legal, contractul poate continua, primele pot rămâne exigibile, iar asigurătorul poate fi exonerat pentru anumite sinistre produse în restanță. Aceasta este o consecință legală a neplății, nu dovada automată a unui serviciu niciodată contractat.\r\n\r\nOGH 3 Ob 393/60, 1960.10.21, exprimă principiul că datoria de primă poate exista chiar în perioadă de exonerare. Hotărârea este veche și privește o primă inițială; trebuie utilizată pentru distincția generală, nu pentru detaliile actualului §39. OGH 7 Ob 103/97s, 1997.04.16, este mai apropiată privind prima ulterioară: plata datoriei înaintea sinistrului poate reactiva protecția, chiar după expirarea somației. Regimul dobânzilor și cheltuielilor din speța veche nu trebuie transferat peste actualul §39 alin.4. [J06, J07]\r\n\r\nDacă DONAU nu a încetat contractul, stingerea efectivă a primelor restante poate înlătura această cauză de exonerare pentru evenimente viitoare. Este esențială suma datorată și imputarea încasării. Plata după un sinistru nu cumpără retrospectiv indemnizarea lui. Dacă DONAU a încetat deja, plata în luna prevăzută de §39 alin.3 poate înlătura efectele încetării în condițiile legii; după aceea nu trebuie presupusă reactivarea fără nou acord. [S04; J07]\r\n\r\nLa o GmbH trebuie avut în vedere și momentul intrării banilor la creditor. Inițierea unui ordin de plată nu trebuie tratată ca încasare sau confirmare de protecție. Pentru siguranță se cer suma exactă, canalul de plată autorizat, imputarea, data și ora de la care se înlătură exonerarea și confirmarea că renovarea și starea reală a clădirii sunt acceptate. [S10 §36; P08]\r\n\r\n§39a protejează o restanță minoră de cel mult 10% din prima anuală, dar maximum 60 EUR. Restanța de mii de euro din dosar depășește acest prag. Nu recomandăm păstrarea deliberată a unui sold de 60 EUR ca strategie de protecție, întrucât imputarea și alte cauze de excludere trebuie verificate. [S05]\r\n\r\nPlata primelor sub rezervă și disputarea separată a costurilor este practic posibilă, însă trebuie evitată o imputare care lasă principal restant. §1416 ABGB poate prioritiza dobânda și capitalul în condițiile lui când imputarea debitorului este contestată. Nu este sigur că mențiunea „doar prime” va rezolva unilateral orice dispută. Se solicită și se păstrează acordul explicit privind imputarea, inclusiv dacă încasarea se face prin Commerz. [S12]\r\n\r\nDacă se dovedește că DONAU a refuzat nelegal acoperirea, pot fi analizate remedii pentru încălcarea contractului; o primă rămâne însă datorată pentru perioade în care protecția trebuia juridic oferită, chiar dacă asigurătorul o contesta. Dacă un sinistru a existat, dreptul la indemnizație trebuie evaluat distinct. În probatoriul prezent nu am identificat un sinistru invocat care să permită o concluzie de indemnizare.\r\n\r\n8. ÎNCETAREA PENTRU MOTIV GRAV, PE COMPONENTE ȘI REDUCEREA PRIMEI\r\n\r\nOGH 7 Ob 179/03d, 2003.08.05, recunoaște posibilitatea încetării unui contract de asigurare, ca raport continuu, pentru motiv grav. Sunt exemple refuzul culpabil nejustificat al protecției sau instrumentarea grav defectuoasă ori persistent întârziată a unui sinistru. Testul este dacă menținerea până la termen devine intolerabilă, după evaluarea ambelor interese. În acea cauză, OGH nu a admis pur și simplu încetarea invocată; distincția dintre regula generală și rezultatul speței trebuie păstrată. [J08]\r\n\r\nAplicat aici, această cale este condiționată. Dacă DONAU produce o somație valabilă și prime exigibile neplătite, folosirea §39 nu constituie încălcare gravă a asigurătorului. Dacă, dimpotrivă, respinge fără temei acoperirea după stingerea corectă a restanțelor sau ignoră sistematic un drept legal demonstrat, argumentul poate deveni mai puternic. De regulă este utilă cererea concretă de remediere și o oportunitate rezonabilă de corectare, când natura încălcării permite. Refuzul de a accepta o ieșire amiabilă, singur, nu justifică rezilierea extraordinară. [P08; J08]\r\n\r\nExistă drepturi speciale după sinistru în anumite ramuri și art.12 ABS, în condițiile lui. Nu este demonstrat un eveniment care le declanșează aici. Ele nu trebuie simulate printr-o reclamație abstractă. Pentru combinația incendiu/apă/furtună/răspundere trebuie citite eventualele reguli speciale și legătura dintre componente. Încetarea unei componente nu produce automat încetarea tuturor. [P01 ABS art.12; S10 §§96,158]\r\n\r\n§41a VersVG permite reducerea adecvată a primei pentru perioade viitoare dacă dispar ori își pierd importanța circumstanțe care justificau o primă mai mare. Nu conferă o libertate generală de eliminare unilaterală a acoperirilor nedorite. Lipsa chiriașilor și apa oprită pot justifica examinarea riscului, dar o clădire goală și în renovare poate avea riscuri diferite sau crescute de incendiu, furtună, răspundere și șantier. Descrierea tehnică, confirmarea instalatorului și calendarul lucrărilor trebuie date corect. [S06; P05, P08]\r\n\r\nNoțiunea „perioade viitoare” este importantă: ratele trimestriale nu demonstrează că perioada contractuală este trimestrială. Dacă aceasta este anuală cu scadență principală 01.01, efectul legal prospectiv poate privi 2027; ajustarea din 2026.07.01 ar necesita un temei distinct ori acord. Nu se justifică recalcularea retroactivă numai prin alegerea unei date în email. [P01; S06]\r\n\r\n§68 VersVG merită analizat distinct pentru componentele legate de venituri din chirii. Dacă interesul asigurat nu există de la început, există o regulă specială privind prima; dacă dispare ulterior, contează momentul în care DONAU cunoaște dispariția. Nu putem confunda zero chirii la un moment dat cu dispariția definitivă a unui interes viitor asigurat; unele acoperiri pot privi pierderea unei capacități de închiriere. Este necesar textul exact al acoperirii „Mietverlust”, istoricul ocupării și planul de utilizare. [S07; P01, P05]\r\n\r\nAceastă analiză are un efect economic realist: componenta apă reprezintă 3.127,72 EUR/an în poliță, în timp ce pierderea de chirie este 41,72 EUR/an, iar costurile de spații înlocuitoare 24,68 EUR/an. Cea mai mare economie potențială este la apă, dar aici dispariția integrală a interesului este mai greu de demonstrat decât simpla reducere a riscului sau acordul de scoatere a componentei. Clădirea și conductele continuă să existe. [P01 p.3–5]\r\n\r\n9. EXPUNEREA FINANCIARĂ, DECONTUL ȘI REGRESUL\r\n\r\nCommerz a comunicat 5.326,15 EUR: 4.775,43 EUR pentru trei rate de câte 1.591,81 EUR, plus 30 EUR, 501,58 EUR costuri și 19,14 EUR dobândă. Documentele sunt o pretenție a creditorului, nu un sold acceptat și nu o confirmare a acoperirii. Prima Q4 este deja inclusă; nu trebuie adăugată a doua oară. [P07]\r\n\r\nPentru încetare convenită la 2027.01.01, decontul trebuie să includă obligațiile valide până atunci, plățile și creditele, eventualele ajustări, costurile justificabile și soluția privind 1000K. Pentru 2027.01.08 la ora 00:00, față de 2027.01.01 la ora 00:00 sunt șapte zile suplimentare. La prima anuală actuală și o convenție de calcul pe 365 zile, costul orientativ este 122,11 EUR. Nu este factura aferentă anului 2027 și nu include eventuale alte modificări. [P01; S08]\r\n\r\n§40 VersVG limitează prima în cazul unei încetări valabile anticipate la durata scursă, sub rezerva regulilor speciale; nu creează chiar el dreptul de încetare. Separă de primă o eventuală compensație contractuală admisibilă. Nu rezultă că toate primele până în 2036 sunt exigibile acum și nici că toate primele după data propusă de noi dispar fără o încetare valabilă. [S08]\r\n\r\nCosturile de recuperare se examinează separat. §1333 alin.2 ABGB cere costuri necesare, adecvate și proporționale și un prejudiciu imputabil debitorului. Tabelul Commerz nu este prin sine suficient pentru orice cuantum; sunt utile activitatea efectivă, baza tarifului, tratamentul TVA, scadențele și calculul dobânzii. Nici contestarea globală nu demonstrează automat că toate costurile sunt ilegale. [P07; S13]\r\n\r\nContractul semnat de cumpărare oferă o direcție importantă de recuperare împotriva vânzătoarei. Clauza 1.8 prevede nepreluarea altor raporturi contractuale și indemnizarea pentru pretenții ale terților din acestea, inclusiv la încetare anticipată. Clauza 4.4 atribuie vânzătoarei costurile care își au cauza înainte de data de decontare; 4.5 menține asigurarea până atunci; 7.1(i) garantează primele exigibile până atunci achitate; 10.5 avertizează asupra încetării limitate temporal și primei suplimentare. [P09 p.2,4,9,12]\r\n\r\nConcluzie aplicată: pentru datorii anterioare datei relevante și încălcarea garanțiilor, baza regresului este semnificativă. Pentru prime viitoare dintr-un contract nepreluat, 1.8 oferă un argument serios, dar DONAU și vânzătoarea pot invoca transferul legal, regula 4.4 și conduita ulterioară a cumpărătoarei. Pretenția trebuie construită pe perioade și cauzalitate, fără a promite că vânzătoarea va suporta tot soldul. Contractul de vânzare nu modifică automat obligațiile externe față de DONAU.\r\n\r\nTrebuie conservate și probele despre obligațiile concrete ale brokerului, fostului administrator și avocatului în momentul transferului. Dacă exista o obligație profesională de a executa încetarea și a fost omisă, pot apărea pretenții de despăgubire. Aceasta cere mandat, încălcare, prejudiciu și cauzalitate; mențiunea unei omisiuni în email nu este suficientă pentru a atribui răspundere profesională.\r\n\r\n10. JURISPRUDENȚĂ: CE SUSȚINE ȘI CE NU SUSȚINE\r\n\r\n| Hotărâre OGH | Data | Regula utilă | Aplicare și limită |\r\n| 7 Ob 152/01f [J01] | 2001.07.11 | Contractele comerciale pe zece ani nu primesc prin analogie ieșirea §8 alin.2/3 | Speță directă de clădiri; durata fusese cerută expres de societate, fapt nedemonstrat aici |\r\n| 7 Ob 154/22f [J02] | 2022.11.23 | Clauza de avantaj de durată trebuie evaluată și pentru cauze grave imputabile asigurătorului | Structură apropiată de 1000K; context de consumatori și procente parțial diferite |\r\n| 7 Ob 211/12y [J03] | 2013.03.27 | Controlul clauzelor și normelor privind dispariția interesului se aplică și unei GmbH | Nu garantează zero compensație; posibilă interpretare completivă și rejudecare |\r\n| 7 Ob 20/89 [J04] | 1989.06.15 | Pentru §70 contează existența asigurării și numele asigurătorului | Slăbește argumentul că numai noua poliță din iunie a pornit termenul |\r\n| 7 Ob 83/21p [J05] | 2022.01.26 | Somația trebuie comunicată; asigurătorul dovedește accesul | Nu se cere lectura efectivă; adresa și conduita destinatarului contează |\r\n| 3 Ob 393/60 [J06] | 1960.10.21 | Exonerarea de indemnizație poate coexista cu datoria de primă | Veche, primă inițială; nu substituie testul actualului §39 |\r\n| 7 Ob 103/97s [J07] | 1997.04.16 | Plata primei ulterioare înainte de sinistru poate reactiva protecția | Regim istoric pentru accesorii; actualul §39 alin.4 rămâne distinct |\r\n| 7 Ob 179/03d [J08] | 2003.08.05 | Încetare pentru motiv grav când continuarea este intolerabilă | Regula nu înseamnă că simplul refuz amiabil sau o sancțiune legală pentru neplată permite ieșirea |\r\n\r\nNu a fost identificată în cercetarea efectuată o hotărâre care să tranșeze exact polița DONAU 2044001194 ori exact toate faptele A&C. Aceasta nu înseamnă inexistența altor hotărâri. Spețele de mai sus au fost selectate pentru legături concrete cu durata comercială, costul ieșirii, transferul și neplata; sunt păstrate și hotărârile nefavorabile tezei beneficiarului.\r\n\r\n11. OPȚIUNI PRACTICE ȘI STRATEGIA RECOMANDATĂ\r\n\r\n| Opțiune | Fundament | Forța actuală | Ce este necesar |\r\n| Încetare prin acord la 2027.01.01 | Libertate contractuală și tranzacție asupra soldului | Practic cea mai controlabilă; acordul este acum refuzat | Negociere cu argumentele 1000K, decont și renunțări scrise |\r\n| Contestarea duratei până în 2036 | Lipsa acordului ori diferență neaprobată între cerere și poliță | Deschisă probatoriu | Cererea inițială, acceptarea, istoricul și contractul-cadru |\r\n| Valorificarea unei încetări §70 deja făcute | Dreptul cumpărătorului | Slabă pentru o notificare nouă în octombrie | Demers în termen și dovada comunicării, cronologie completă |\r\n| Încetare pentru motiv grav | Refuz culpabil nelegal ori încălcare intolerabilă | Condiționată, încă nedovedită | Test §39, conduită și probe ale încălcării, reacție la timp |\r\n| Reducerea ori eliminarea componentelor | §41a, eventual §68 și acord contractual | Credibilă pentru ajustare; efectele variază | Dovezi tehnice, textul riscurilor și perioada de asigurare |\r\n| Plata necesară protecției, sub rezervă | Înlăturarea restanței de primă | Măsură urgentă de limitare a riscului | Sumă și imputare acceptate, încasare, confirmare de efect |\r\n| Regres împotriva vânzătoarei | Clauzele vânzării și garanțiile | Semnificativ pentru unele poziții; cuantum nefixat | Separarea perioadelor, obligațiilor și prejudiciilor |\r\n\r\nOrdinea recomandată este operațională. Mai întâi se fixează situația actuală: contract activ sau încetat, prima care provoacă exonerarea, dovada somației și condițiile concrete de restabilire. În paralel se obține protecție potrivită pentru clădire goală și renovare. O asigurare nouă poate fi necesară pentru risc, dar nu trebuie confundată cu stingerea poliței vechi sau cu dispariția datoriei sale; se evită conflictele de dublă asigurare.\r\n\r\nApoi se confruntă DONAU cu vulnerabilitatea 1000K și cu lipsurile privind acordul de zece ani. Propunerea comercială urmărește încetare la 2027.01.01, decont final, eliminarea suplimentului și clarificarea costurilor. Subsidiar, se negociază 2027.01.08 ori un alt termen acceptat expres. O tranzacție trebuie să arate ce pretenții stinge și dacă păstrează regresul contra vânzătoarei.\r\n\r\nDacă documentele confirmă un drept deja exercitat ori un motiv grav real, demersul unilateral sau judiciar poate deveni justificat. Acțiunea poate privi constatarea încetării și/sau contestarea unei datorii, în funcție de interesul și situația procedurală concretă. Contestarea extrajudiciară nu suspendă de la sine executarea unui titlu și nici scadențele. Dacă se primește un document judiciar, termenul din acel act trebuie tratat separat și imediat.\r\n\r\nBeneficiarul are dreptul să conteste sumele și clauzele, să solicite dovezile contractuale și de somație și să conserve regresul. Are și obligația să achite primele exigibile care îi sunt opozabile, să descrie corect schimbările riscului și să respecte termenele și formele de încetare. Exercitarea drepturilor nu cere acceptarea globală a soldului Commerz.\r\n\r\n12. CONCLUZIE JURIDICĂ GRADATĂ\r\n\r\nSOLID: existența datei 2036.01.01 nu exclude toate cazurile speciale de încetare; nici neplata nu închide automat contractul. DONAU trebuie să susțină condițiile §39 și, dacă pretinde încetare, să identifice declarația și data. Numai dobânzile și costurile neachitate nu justifică efectele §39. Avem probă efectivă de somație, însă comunicarea și corelarea termenelor trebuie verificate.\r\n\r\nPROBABIL: dacă durata a fost convenită valabil între profesioniști, o simplă notificare cu trei luni nu asigură ieșirea în ianuarie 2027. Termenul §70 este probabil depășit pentru o notificare nouă în octombrie, pe baza documentelor din martie; trebuie verificată o exercitare anterioară. Lipsa mandatului SEPA ori nesemnarea de către A&C nu desființează singure transferul legal.\r\n\r\nARGUMENT PUTERNIC, DAR LITIGIOS: 1000K prezintă o vulnerabilitate serioasă prin raportare la OGH 7 Ob 154/22f și controlul clauzelor B2B. Diferențele de context și posibilitatea completării contractului împiedică promisiunea unui rezultat de zero cost. Valabilitatea duratei noi și regresul contra vânzătoarei trebuie cercetate, nu abandonate.\r\n\r\nCONDIȚIONAT: ieșirea extraordinară cere o încălcare gravă a DONAU; refuzul unui acord și aplicarea legală a neplății nu sunt suficiente. Reducerea pe componente poate fi mai accesibilă decât ieșirea totală, dar nu garantează credit retroactiv din iulie.\r\n\r\nOpinia aplicată este să nu construim strategia pe teza generală „asigurările nu pot fi pe zece ani” sau „fără acoperire nu se plătește nimic”. Tezele mai bune sunt verificarea acordului de durată, controlul 1000K, proba strictă a somației, ajustarea riscului și conservarea despăgubirii contractuale contra vânzătoarei. Aceste direcții pot schimba semnificativ rezultatul economic, chiar dacă o ieșire unilaterală la data dorită rămâne nedemonstrată.\r\n\r\nANEXĂ — REGISTRUL PROBELOR ȘI SURSELOR\r\n\r\nP01 — Poliță veche și condiții: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf. PDF p.1 durată; p.2–7 componente și prime; p.8 prelungire; PDF p.12 clauza1000K; secțiunea ABS art.12–14. SHA256 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835; identic inventarului la verificare.\r\n\r\nP02 — Polița A&C: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf. p.1 schimbare de titular 2026.05.28 și expirare; p.7 prelungire. SHA256 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd; identic inventarului.\r\n\r\nP03 — Proprietate: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf, p.1 încheiere2026.03.10 și p.2 marcă temporală; Grundbuchauszug_aktuell_A&C_EZ2235.pdf p.1, extras2026.03.11. Cache index SHA25645972ffe… și d9c2e1dc….\r\n\r\nP04 — Somație originală: 05. Asigurari/Asigurare cladire/B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf p.1, 2026.06.05; cache1af65af6…; prima1.591,81 plus20EUR. Copie scanată distinctă: 05. Asigurari/Versicherungsschutz-DONAU Wohnhausversicherung_A&C Wohnart Immobilien GmbH.pdf.\r\n\r\nP05 — Emailuri Donau: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.06.08 12-43 TRIMIS Eigentümerwechsel und Klärung des Versic 78fa484e.txt; ID78fa484e-d365-434a-946c-817ebf24a2b0. Mesaj2026.07.01 04-42 TRIMIS Re WG A&C Wohnart Immobilien GmbH 204400 2dd29262.txt; ID2dd29262-8d57-41c2-81e5-80e3b909d32e; include textul primit de laLoschy2026.06.10. Export API, nu probă MIMEintegrală.\r\n\r\nP06 — Email Capra2026.03.19: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/CERHA HEMPEL/2026.03.19 08-12 PRIMIT WG 1120 Wien, Schallergasse 35 (gü) [COV 8d541207.txt; cache d4ce3d37…. Polița originală este anexată în arhiva aceleiași date; identitatea conținutului constatată prin index.\r\n\r\nP07 — Sold și termen: 08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/, mesajul Gruber2026.09.30 ID1fa19552-d1fd-459e-92b3-57ed5319d18c și Kostenaufstellung.pdf p.1. Termen2026.10.12. Cerere5.326,15, neacceptată.\r\n\r\nP08 — Răspuns DONAU și citat al cererii trimise2026.10.01: 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 PRIMIT DONAU 2c273256.txt și .json/.eml; ID2c273256-a0bf-408b-bb22-09718372e888. Răspuns2026.10.06, primit; anexa Memoformat.pdf pentru cererea tehnică2026.07.14. Cererea ulterioară2026.10.07 cătreDONAU rămâne draft netrimis și nu este temei pentru data unei notificări primite.\r\n\r\nP09 — Contract de cumpărare semnat: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Kaufvertrag_Schallergasse_35_signiert.pdf; cl1.8 p.2, cl4.4–4.5 p.4, cl7.1(i) p.9, cl10.5 p.12; SHA256237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365. Repartizarea contractuală între vânzător și cumpărător este distinctă de opozabilitatea față deDONAU.\r\n\r\n[S01] VersVG§8 — durată și prelungire. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P8/NOR40138452\r\n[S02] VersVG§69 — transfer și solidaritate. https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12026489/NOR12026489.pdf\r\n[S03] VersVG§70 — dreptul cumpărătorului. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688\r\n[S04] VersVG§39 — somație, exonerare, denunțare și accesorii. https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39\r\n[S05] VersVG§39a — restanța minoră. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P39a/NOR40022166\r\n[S06] VersVG§41a — reducere prospectivă. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460\r\n[S07] VersVG§68 — lipsa/dispariția interesului. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P68/NOR12037686\r\n[S08] VersVG§40 — prima la încetare anticipată. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P40/NOR12037676\r\n[S09] ABGB§879 — controlul clauzelor. https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12018602/NOR12018602.html\r\n[S10] VersVG, text consolidat verificat2026.10.07:§§3,5,36,96,158. https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979\r\n[S11] ABGB§864a — clauze surprinzătoare. https://www.ris.bka.gv.at/eli/jgs/1811/946/P864a/NOR12018587\r\n[S12] ABGB§1416 — imputare. https://www.ris.bka.gv.at/eli/jgs/1811/946/P1416/NOR12019162\r\n[S13] ABGB§1333 — costuri de recuperare. https://www.ris.bka.gv.at/eli/jgs/1811/946/P1333/NOR40070130\r\n\r\n[J01] OGH7Ob152/01f,2001.07.11, PDFp.1–6, mai alesp.4–6 concluziaOGH. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010711_OGH0002_0070OB00152_01F0000_000/JJT_20010711_OGH0002_0070OB00152_01F0000_000.pdf\r\n[J02] OGH7Ob154/22f,2022.11.23, PDFp.3 clauzaR10,p.7–8 motivele decisive,pct13–14. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20221123_OGH0002_0070OB00154_22F0000_000/JJT_20221123_OGH0002_0070OB00154_22F0000_000.pdf\r\n[J03] OGH7Ob211/12y,2013.03.27, text integral, partea„RechtlicheBeurteilung”, distincțiaB2B și ultimele paragrafe despre interpretarea completivă. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20130327_OGH0002_0070OB00211_12Y0000_000/JJT_20130327_OGH0002_0070OB00211_12Y0000_000.html\r\n[J04] OGH7Ob20/89,1989.06.15, RS0080752/RS0080749 și decizia. https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True\r\n[J05] OGH7Ob83/21p,2022.01.26, PDFp.5–9,pct10–15. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20220126_OGH0002_0070OB00083_21P0000_000/JJT_20220126_OGH0002_0070OB00083_21P0000_000.pdf\r\n[J06] OGH3Ob393/60,1960.10.21, PDFp.2, numai principiul general privind prima și exonerarea. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19601021_OGH0002_0030OB00393_6000000_000/JJT_19601021_OGH0002_0030OB00393_6000000_000.pdf\r\n[J07] OGH7Ob103/97s,1997.04.16, text privind plata înainte de sinistru și prima ulterioară. https://ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19970416_OGH0002_0070OB00103_97S0000_000&IncludeSelf=True\r\n[J08] OGH7Ob179/03d,2003.08.05, PDFp.8–9principiul motivului grav; restulhotărârii pentru distincția speței. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20030805_OGH0002_0070OB00179_03D0000_000/JJT_20030805_OGH0002_0070OB00179_03D0000_000.pdf\r\n\r\nLimite probatorii: documentele și concluziile anterioare ale proiectului au fost folosite ca repere, nu ca autoritate de drept. Originalele pentru durată și clauze sunt corelate cu inventarul; verificarea vizuală și auditul final sunt păstrate separat. Niciun mesaj nu a fost trimis și nicio plată sau acceptare contractuală nu a fost efectuată prin redactarea acestui studiu.\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 162
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_f1145d331ba84a55bdf1c4d88eb06e8c",
+  "kind": "interacted",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-1d418956-8cba-40e9-82b5-11677c55dcf6",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.07 genereaza_opinie.py",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -41,2 +41,15 @@\n def add_text(p, text):\n+    urls=re.findall(r'https?://\\S+',text)\n+    if urls:\n+        for url in urls:\n+            before,_,text=text.partition(url)\n+            add_text(p,before)\n+            from docx.opc.constants import RELATIONSHIP_TYPE as RT\n+            rel=p.part.relate_to(url,RT.HYPERLINK,is_external=True)\n+            link=OxmlElement('w:hyperlink');link.set(qn('r:id'),rel)\n+            run=OxmlElement('w:r');rpr=OxmlElement('w:rPr')\n+            color=OxmlElement('w:color');color.set(qn('w:val'),'17365D');rpr.append(color)\n+            run.append(rpr);t=OxmlElement('w:t');t.text='RIS sursă oficială';run.append(t);link.append(run);p._p.append(link)\n+        if text:add_text(p,text)\n+        return\n     # Preserve citations, and support light Markdown emphasis without exposing syntax.\n@@ -78,2 +91,4 @@\n lines=SRC.read_text(encoding='utf-8-sig').splitlines()\n+start=next((i for i,line in enumerate(lines) if line.startswith('1. ')),0)\n+lines=lines[start:]\n doc.add_paragraph('Opinie juridică privind asigurarea clădirii Schallergasse 35',style='Title')\n@@ -83,2 +98,3 @@\n i=0\n+appendix=False\n while i<len(lines):\n@@ -92,7 +108,11 @@\n     if i<8 and (line.startswith('2026.10.07') or line.upper().startswith(('OPINIE JURIDIC','PUNCT DE VEDERE JURIDIC'))):continue\n+    if line.startswith('ANEXĂ'):\n+        appendix=True\n+        p=doc.add_paragraph('Anexă cu registrul probelor și surselor',style='Heading 1')\n+        continue\n     if line.startswith('### ') or re.match(r'^\\d+\\.\\d+\\s',line):\n-        txt=line.lstrip('# ').replace('—',' ').replace(':','').rstrip('.')\n+        txt=re.sub(r'[^\\w\\s]',' ',line.lstrip('# '));txt=re.sub(r'\\s+',' ',txt).strip()\n         p=doc.add_paragraph(txt,style='Heading 2')\n     elif line.startswith('## ') or re.match(r'^\\d+[.)]\\s+[^.]{4,120}$',line) or line in ['SINTEZĂ PENTRU DECIZIE','SURSE','SURSE PRIMARE','CONCLUZIE']:\n-        txt=line.lstrip('# ').replace('—',' ').replace(':','').rstrip('.')\n+        txt=re.sub(r'[^\\w\\s]',' ',line.lstrip('# '));txt=re.sub(r'\\s+',' ',txt).strip()\n         p=doc.add_paragraph(txt,style='Heading 1')\n@@ -100,2 +120,5 @@\n         p=doc.add_paragraph();add_text(p,line)\n+        if appendix:\n+            for r in p.runs:r.font.size=Pt(9.5)\n+            p.paragraph_format.space_after=Pt(5)\n     if line.startswith('https://'):\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## Asistent
+
+Redactarea detaliată este gata, iar al doilea agent verifică acum concluziile și citările. Documentul separă dreptul de reziliere, datoria de primă, acoperirea actuală și eventualele sume recuperabile de la vânzător.
+
+Un punct esențial pentru decizie: plata poate restabili protecția pentru viitor dacă polița este încă activă; nu acoperă automat sinistrele din perioada de neplată. Analiza explică ce trebuie verificat pentru a stabili efectul plății în cazul nostru.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-b7ad907e-ac64-4f85-a580-e149a21e9934",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe' 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\container_tools\\\\mark_artifact_operation_started.mjs' --operation-kind create --expected-output-count 1 --output-format docx\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "84018",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe' 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\container_tools\\mark_artifact_operation_started.mjs' --operation-kind create --expected-output-count 1 --output-format docx"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 1053
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-db209698-4058-4dd1-a513-fdb3e579f3e6",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -X utf8 'folder map\\\\2026.10.07 genereaza_opinie.py'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "4109",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -X utf8 'folder map\\2026.10.07 genereaza_opinie.py'"
+    }
+  ],
+  "aggregatedOutput": "{\"docx\": \"D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Opinie juridica Donau Schallergasse 35.docx\", \"words\": 5387, \"paragraphs\": 116}\r\n",
+  "exitCode": 0,
+  "durationMs": 495
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-0297d8ff-d791-4384-a4ad-73e14ef55659",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\documents\\\\26.915.20218\\\\skills\\\\documents\\\\render_docx.py' '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Opinie juridica Donau Schallergasse 35.docx' --output_dir '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 QA document' --emit_pdf\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "60046",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\render_docx.py' '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Opinie juridica Donau Schallergasse 35.docx' --output_dir '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document' --emit_pdf"
+    }
+  ],
+  "aggregatedOutput": "Traceback (most recent call last):\r\n  File \"C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\render_docx.py\", line 546, in <module>\r\n    main()\r\n  File \"C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\render_docx.py\", line 538, in main\r\n    rasterize(render_input_path, out_dir, dpi, verbose=args.verbose, emit_pdf=args.emit_pdf)\r\n  File \"C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\render_docx.py\", line 418, in rasterize\r\n    pdf_path, debug = convert_to_pdf(\r\n                      ^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\render_docx.py\", line 270, in convert_to_pdf\r\n    soffice = _resolve_soffice()\r\n              ^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.915.20218\\skills\\documents\\render_docx.py\", line 79, in _resolve_soffice\r\n    raise FileNotFoundError(f\"LibreOffice {executable_name} was not found on PATH\")\r\nFileNotFoundError: LibreOffice soffice.exe was not found on PATH\r\n",
+  "exitCode": 1,
+  "durationMs": 239
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-681da812-65ce-4387-abde-d1d359d06e7c",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe' 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\pdf\\\\26.915.20218\\\\skills\\\\pdf\\\\container_tools\\\\mark_artifact_operation_started.mjs' --operation-kind create --expected-output-count 1 --output-format pdf\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "59233",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe' 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.915.20218\\skills\\pdf\\container_tools\\mark_artifact_operation_started.mjs' --operation-kind create --expected-output-count 1 --output-format pdf"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 124
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-1acc0440-ebf0-44f2-9083-c9d7faca8d43",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$taskBase=(Get-Location).Path; $taskDocx=Join-Path $taskBase '\"'08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Opinie juridica Donau Schallergasse 35.docx'; \"'$taskPdf=[IO.Path]::ChangeExtension($taskDocx,'\"'.pdf'); \"'$taskWord=$null; $taskDoc=$null; try { $taskWord=New-Object -ComObject Word.Application; $taskWord.Visible=$false; $taskWord.DisplayAlerts=0; $taskWord.AutomationSecurity=3; $taskDoc=$taskWord.Documents.Open($taskDocx,$false,$true); $taskDoc.ExportAsFixedFormat($taskPdf,17); Write-Output ('\"'Pagini '+\"'$taskDoc.ComputeStatistics(2)); } finally { if($taskDoc){$taskDoc.Close(0)};if($taskWord){$taskWord.Quit()} }'",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "36198",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$taskBase=(Get-Location).Path; $taskDocx=Join-Path $taskBase '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Opinie juridica Donau Schallergasse 35.docx'; $taskPdf=[IO.Path]::ChangeExtension($taskDocx,'.pdf'); $taskWord=$null; $taskDoc=$null; try { $taskWord=New-Object -ComObject Word.Application; $taskWord.Visible=$false; $taskWord.DisplayAlerts=0; $taskWord.AutomationSecurity=3; $taskDoc=$taskWord.Documents.Open($taskDocx,$false,$true); $taskDoc.ExportAsFixedFormat($taskPdf,17); Write-Output ('Pagini '+$taskDoc.ComputeStatistics(2)); } finally { if($taskDoc){$taskDoc.Close(0)};if($taskWord){$taskWord.Quit()} }"
+    }
+  ],
+  "aggregatedOutput": "Pagini 10\r\n",
+  "exitCode": 0,
+  "durationMs": 6618
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6184c6a6-b845-4b1a-b5b4-fc6c63f7da0d",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\poppler\\\\Library\\\\bin\\\\pdftoppm.exe' -r 105 -png '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Opinie juridica Donau Schallergasse 35.pdf' '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 QA document\\\\page'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "50104",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe' -r 105 -png '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Opinie juridica Donau Schallergasse 35.pdf' '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page'"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 2081
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_6d504bd885df4f3c99eef5c0c4a03ee0",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-6516fbc6-d6ce-4008-956b-6669e08b74b9",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-01.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-09dc18f2-f74c-4799-a2c2-aad090028bd3",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-02.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-8a94bf82-4ad8-477f-98d3-5130ad04e76b",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-03.png"
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-e5dc2e4b-51c1-449a-a525-d73fe41fb644",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.07 genereaza_opinie.py",
+      "kind": {
+        "type": "update",
+        "move_path": null
+      },
+      "diff": "@@ -24,2 +24,9 @@\n     st.paragraph_format.line_spacing=1.08\n+    fonts=st.element.get_or_add_rPr().find(qn('w:rFonts'))\n+    if fonts is not None:\n+        for attr in list(fonts.attrib):\n+            if attr.endswith('Theme'):del fonts.attrib[attr]\n+    for unwanted in ['w:spacing','w:kern']:\n+        for el in list(st.element.get_or_add_rPr().findall(qn(unwanted))):st.element.get_or_add_rPr().remove(el)\n+for el in list(doc.styles.element.iter(qn('w:pBdr'))):el.getparent().remove(el)\n doc.styles['Title'].font.size=Pt(22)\n@@ -130,2 +137,3 @@\n doc.core_properties.author='Analiză documentară asistată de AI'\n+for el in list(doc.element.iter(qn('w:pBdr'))):el.getparent().remove(el)\n doc.save(DEST)\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-1199d9f6-4726-4c99-9633-995ba0f41563",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-04.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-2d438d6a-1379-4edb-ac0e-6b5e038b072b",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-05.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-89dc09fc-90bc-4179-8325-855aa1f64311",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-06.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-89a75cd0-e5da-4406-aeea-2a8f03c457ac",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-07.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-97c1676f-7c64-46e0-aebf-a3509460a667",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-08.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-d6b50b94-1322-43ac-8131-0ec6268b02ad",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-09.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-b82013fc-bdf5-4284-8ff3-bc8b567852db",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-10.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_7da16317296b49599cb4fa4a9f7e378b",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-23f1f5d5-8e10-4e89-9a69-76277ce6154b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -c 'import zipfile;from lxml import etree; p=\\\"08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.docx\\\";z=zipfile.ZipFile(p);ns={\\\"w\\\":\\\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\\\"};s=etree.fromstring(z.read(\\\"word/styles.xml\\\"));print(etree.tostring(s.xpath(\\\"//w:style[@w:styleId=\\\\\\\"Title\\\\\\\"]\\\",namespaces=ns)[0],pretty_print=True).decode());print(z.read(\\\"word/header1.xml\\\").decode())'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "51684",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -c 'import zipfile;from lxml import etree; p=\"08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.docx\";z=zipfile.ZipFile(p);ns={\"w\":\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"};s=etree.fromstring(z.read(\"word/styles.xml\"));print(etree.tostring(s.xpath(\"//w:style[@w:styleId=\\\"Title\\\"]\",namespaces=ns)[0],pretty_print=True).decode());print(z.read(\"word/header1.xml\").decode())'"
+    }
+  ],
+  "aggregatedOutput": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" w:type=\"paragraph\" w:styleId=\"Title\">\r\n  <w:name w:val=\"Title\"/>\r\n  <w:basedOn w:val=\"Normal\"/>\r\n  <w:next w:val=\"Normal\"/>\r\n  <w:link w:val=\"TitleChar\"/>\r\n  <w:uiPriority w:val=\"10\"/>\r\n  <w:qFormat/>\r\n  <w:rsid w:val=\"00FC693F\"/>\r\n  <w:pPr>\r\n    <w:pBdr>\r\n      <w:bottom w:val=\"single\" w:sz=\"8\" w:space=\"4\" w:color=\"4F81BD\" w:themeColor=\"accent1\"/>\r\n    </w:pBdr>\r\n    <w:spacing w:after=\"100\" w:line=\"259\" w:lineRule=\"auto\"/>\r\n    <w:contextualSpacing/>\r\n  </w:pPr>\r\n  <w:rPr>\r\n    <w:rFonts w:asciiTheme=\"majorHAnsi\" w:eastAsiaTheme=\"majorEastAsia\" w:hAnsiTheme=\"majorHAnsi\" w:cstheme=\"majorBidi\" w:ascii=\"Times New Roman\" w:hAnsi=\"Times New Roman\"/>\r\n    <w:color w:val=\"000000\"/>\r\n    <w:spacing w:val=\"5\"/>\r\n    <w:kern w:val=\"28\"/>\r\n    <w:sz w:val=\"44\"/>\r\n    <w:szCs w:val=\"52\"/>\r\n  </w:rPr>\r\n</w:style>\r\n\r\n<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\r\n<w:hdr xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:mo=\"http://schemas.microsoft.com/office/mac/office/2008/main\" xmlns:mv=\"urn:schemas-microsoft-com:mac:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" mc:Ignorable=\"w14 wp14\"><w:p><w:pPr><w:pStyle w:val=\"Header\"/></w:pPr><w:r><w:rPr><w:sz w:val=\"18\"/></w:rPr><w:t>A&amp;C Wohnart Immobilien GmbH   |   DONAU 2044001194</w:t></w:r></w:p></w:hdr>\r\n",
+  "exitCode": 0,
+  "durationMs": 295
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-4e8530db-6b79-41af-afd1-7f9720fe9ebc",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '08. Corespondenta\\\\2026.09.30 Arhiva Eva-Mail\\\\Parteneri\\\\2026.10.07 Log discutii - Donau Versicherung.txt' -TotalCount 22; Get-Content -LiteralPath '08. Corespondenta\\\\2026.09.30 Arhiva Eva-Mail\\\\Parteneri\\\\2026.10.07 Log discutii - CERHA HEMPEL.txt' -TotalCount 12\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "16012",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Parteneri\\2026.10.07 Log discutii - Donau Versicherung.txt' -TotalCount 22; Get-Content -LiteralPath '08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Parteneri\\2026.10.07 Log discutii - CERHA HEMPEL.txt' -TotalCount 12"
+    }
+  ],
+  "aggregatedOutput": "2026.10.07 | CERERE REZILIERE LA 2027.01.01 /2027.01.08 SI PUNCT JURIDIC\r\n\r\nStatus scurt: 2026.10.07: punct de vedere juridic documentar finalizat si draft german NETRIMIS in Eva-Mail. Cere incetare prin acord la 2027.01.01, alternativ 2027.01.08; subsidiar primul termen legal/contractual admis, pastrand notificarea din 2026.10.01. Cere deconturi separate, justificarea duratei 2036, renuntarea la prima suplimentara 1000K, dovada somatiei si suma/data exacta pentru restabilirea acoperirii. Raspuns cerut pana la 2026.10.09, 12:00 Viena /13:00 Romania. Nicio incetare, plata, acoperire sau suspendare Inkasso confirmata.\r\nUltimul raspuns primit: 2026.10.06, Cornelia Loschy, ID 2c273256-a0bf-408b-bb22-09718372e888; refuza rezilierea si declara lipsa acoperirii pentru prime restante.\r\nUrmatorul pas: Trimiterea ciornei din Eva-Mail, verificarea dovezii si a raspunsului; control cu Capra al dreptului de incetare, clauzei 1000K si conditiilor acoperirii/platii. Termenul Commerz 2026.10.12 ramane distinct. Nu se presupune ca trei luni permit singure incetarea contractului cu expirare 2036.\r\nSursa: 08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 DRAFT Cerere reziliere Donau.txt\r\nPunct juridic: 08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 Punct de vedere juridic Donau.txt\r\nID draft Eva-Mail: aa653a96-7eee-4133-a41d-5892ea79788d\r\nCatre: c.loschy@donauversicherung.at, donau@donauversicherung.at\r\nCC: office@maritczak.at, s.gruber@commerz-inkasso.at; Capra nu este in CC.\r\n\r\nISTORIC\r\n\r\n2026.10.07 | Actualizare din raspuns DONAU\r\nStatus scurt: 2026.10.06: DONAU/Cornelia Loschy refuza incetarea prin acord si notificarea de reziliere; invoca termen regulat 2036.01.01, cu preaviz 3 luni. Declara explicit ca in prezent NU exista acoperire de asigurare din cauza restantelor la prime. Nu este confirmata data inceperii lipsei de acoperire sau reintrarea in acoperire. Reducerea politei ramane in analiza dupa documente: autorizatie, descriere lucrari, confirmare instalator privind instalatia de apa oprita/securizata. CC: Maritczak si Gruber; Capra nu este in CC. Sunt afirmatiile asiguratorului, nu concluzie juridica verificata. Nu exista decont nou sau inghetare confirmata a accesoriilor.\r\nUltimul raspuns direct partener: 2026.10.06 | AW: Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052\r\nUrmatorul pas: Clarificare urgenta cu Capra si DONAU a temeiului refuzului, contractului invocat si modului/datei restabilirii acoperirii. Verificarea si completarea documentelor cerute; fisa de cont si alocare plati. Termenul Commerz 2026.10.12 ramane distinct. Nicio comunicare externa efectuata in aceasta verificare.\r\nSurse: 2c273256-a0bf-408b-bb22-09718372e888; 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 PRIMIT DONAU 2c273256.txt; 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 ORIGINAL 951d3284 Memoformat.pdf\r\n\r\nISTORIC\r\n\r\n2026.10.01 | Verificare comunicari Eva-Mail\r\nInformare documentara locala; nu s-a trimis mesaj nou catre Capra.\r\n\r\n2026.10.07 | CERERE REZILIERE LA 2027.01.01 /2027.01.08 SI PUNCT JURIDIC\r\n\r\nStatus scurt: 2026.10.07: punct de vedere juridic documentar finalizat si draft german NETRIMIS in Eva-Mail. Cere incetare prin acord la 2027.01.01, alternativ 2027.01.08; subsidiar primul termen legal/contractual admis, pastrand notificarea din 2026.10.01. Cere deconturi separate, justificarea duratei 2036, renuntarea la prima suplimentara 1000K, dovada somatiei si suma/data exacta pentru restabilirea acoperirii. Raspuns cerut pana la 2026.10.09, 12:00 Viena /13:00 Romania. Nicio incetare, plata, acoperire sau suspendare Inkasso confirmata.\r\nUltimul raspuns primit: 2026.10.06, Cornelia Loschy, ID 2c273256-a0bf-408b-bb22-09718372e888; refuza rezilierea si declara lipsa acoperirii pentru prime restante.\r\nUrmatorul pas: Trimiterea ciornei din Eva-Mail, verificarea dovezii si a raspunsului; control cu Capra al dreptului de incetare, clauzei 1000K si conditiilor acoperirii/platii. Termenul Commerz 2026.10.12 ramane distinct. Nu se presupune ca trei luni permit singure incetarea contractului cu expirare 2036.\r\nSursa: 08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 DRAFT Cerere reziliere Donau.txt\r\nPunct juridic: 08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 Punct de vedere juridic Donau.txt\r\nID draft Eva-Mail: aa653a96-7eee-4133-a41d-5892ea79788d\r\nCatre: c.loschy@donauversicherung.at, donau@donauversicherung.at\r\nCC: office@maritczak.at, s.gruber@commerz-inkasso.at; Capra nu este in CC.\r\n",
+  "exitCode": 0,
+  "durationMs": 120
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-69bd8533-c9be-40cb-bf66-1ed21d3ba90b",
+  "query": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=5c",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=5c"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn62view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn62view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-0815bd5e-613c-4551-a3ab-d92f1efd1c16",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$taskP='\"'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\poppler\\\\Library\\\\bin\\\\pdftoppm.exe'; foreach(\"'$taskPage in @(3,6)){& $taskP -f $taskPage -l $taskPage -r 110 -singlefile -png '\"'05. Asigurari\\\\Asigurare cladire\\\\814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf' ('08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Verificare originale\\\\2026.10.07 Polita curenta p'+\"'$taskPage)}'",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "30276",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$taskP='C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe'; foreach($taskPage in @(3,6)){& $taskP -f $taskPage -l $taskPage -r 110 -singlefile -png '05. Asigurari\\Asigurare cladire\\814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf' ('08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Polita curenta p'+$taskPage)}"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 464
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-bc140d66-ae60-4710-8bae-3eea72840b0a",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Polita curenta p3.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-9f50744a-b9c0-4258-8d27-8ac8a41370b2",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Polita curenta p6.png"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-148c667f-6cde-45b4-a892-0287472f2d65",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\poppler\\\\Library\\\\bin\\\\pdftoppm.exe' -f 5 -l 5 -r 110 -singlefile -png '05. Asigurari\\\\Asigurare cladire\\\\814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf' '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Verificare originale\\\\2026.10.07 Polita curenta p5'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "53865",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe' -f 5 -l 5 -r 110 -singlefile -png '05. Asigurari\\Asigurare cladire\\814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf' '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Polita curenta p5'"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 231
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-0d1c8dbd-53fb-4dcd-b166-2387914a4ee0",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Polita curenta p5.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_de90dd7f80fd477488fd668e34f66f4a",
+  "kind": "interacted",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_bd70f71325f64ae6803f0d93c7ee86b3",
+  "kind": "interacted",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-56f99586-5d1f-4522-bdb5-f5769ca0bad3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Item -LiteralPath '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Analiza redactor.txt' | Select-Object Length,LastWriteTime; Get-ChildItem -LiteralPath '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata' -File | Select-Object Name,Length\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "77329",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Item -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Analiza redactor.txt' | Select-Object Length,LastWriteTime; Get-ChildItem -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata' -File | Select-Object Name,Length"
+    }
+  ],
+  "aggregatedOutput": "\r\nLength LastWriteTime\r\n------ -------------\r\n 45104 10/7/2026 11:54:00 AM\r\n 45104 \r\n 12650 \r\n 13555 \r\n 55853 \r\n412349 \r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 123
+}
+````
+
+## Asistent
+
+Auditul a cerut completări privind dreptul de retragere la încheierea asigurării, dovada comunicărilor electronice și momentul în care plata produce efecte. Le includem înainte de finalizare, fiindcă pot influența atât rezilierea, cât și verificarea afirmației DONAU că nu există acoperire.
+
+Sinteza va indica separat concluziile susținute de probe, argumentele care pot fi invocate și documentele lipsă care pot schimba rezultatul.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-0c35dc6a-173b-4bcb-8bbf-74047b6b8eda",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Select-String -LiteralPath '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Analiza redactor.txt' -Pattern '5c|5a|2026.05.27|7 Ob 7/01g|36|7.2|net|brut' | Select-Object LineNumber,Line\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "40373",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Select-String -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Analiza redactor.txt' -Pattern '5c|5a|2026.05.27|7 Ob 7/01g|36|7.2|net|brut' | Select-Object LineNumber,Line"
+    }
+  ],
+  "aggregatedOutput": "\r\nLineNumber Line\r\n---------- ----\r\n        12 Poziția DONAU este însă incompletă dacă formula „numai la 2036.01.01” este prezentată ca excludere a oricăr…\r\n        24 Polița emisă la 2026.02.03 pentru Schallergasse 35 Immobilienbesitz GmbH & Co KG se numește „Ersatzvertrag”…\r\n        26 Prima anuală pentru întregul pachet este 6.367,24 EUR, cu taxe incluse; rata trimestrială este 1.591,81 EUR…\r\n        30 În 2026.05.27, utilizatorul scrie direct către DONAU, Capra și Hofhans, invocând numărul poliței, avertizar…\r\n        32 În 2026.10.06, DONAU refuză acordul de încetare, invocă termenul 2036.01.01, reamintește documentele necesa…\r\n        34 Nu avem încă în probatoriul analizat: cererea și acceptarea care au stabilit durata până în 2036, întregul …\r\n        42 Jurisprudența directă este OGH 7 Ob 152/01f, 2001.07.11. O societate administratoare a 36 de imobile avea a…\r\n        44 Inferența aplicată este următoarea: dacă durata determinată 2026–2036 a fost convenită valabil și transmisă…\r\n        48 Există și o contrapondere contractuală utilă: OGH 7 Ob 7/01g, 2001.09.26, privea o cooperativă de locuințe …\r\n        52 Retragerea după încheierea unui contract nou trebuie verificată separat: §5c VersVG, în forma aplicabilă co…\r\n        62 Aplicat arhivei, ruta unei noi rezilieri în octombrie bazate numai pe §70 este slabă. Există deja proprieta…\r\n        70 Clauza folosește costuri calculate ca avantaj al duratei și obligă la o primă suplimentară în caz de înceta…\r\n        92 Arhiva conține și notificarea din 2026.07.07 „Mahnung – Neues Dokument in Meine Donau”. Aceasta dovedește a…\r\n       100 OGH 3 Ob 393/60, 1960.10.21, exprimă principiul că datoria de primă poate exista chiar în perioadă de exone…\r\n       104 §36 alin.2 actual cere, în principiu, încasarea la scadență pentru plata unei firme, dar face o excepție pr…\r\n       132 Pentru încetare convenită la 2027.01.01, decontul trebuie să includă obligațiile valide până atunci, plățil…\r\n       134 §40 VersVG limitează prima în cazul unei încetări valabile anticipate la durata scursă, sub rezerva regulil…\r\n       138 Contractul semnat de cumpărare oferă o direcție importantă de recuperare împotriva vânzătoarei. Clauza 1.8 …\r\n       152 | 7 Ob 7/01g [J09] | 2001.09.26 | Durata de zece ani poate coexista cu ieșire anuală acordată contractual |…\r\n       153 | 7 Ob 103/97s [J07] | 1997.04.16 | Ordinul bancar pentru restanță înaintea sinistrului a contat, deși debi…\r\n       162 | Contestarea duratei până în 2036 | Lipsa acordului ori diferență neaprobată între cerere și poliță | Desc…\r\n       179 SOLID: existența datei 2036.01.01 nu exclude toate cazurile speciale de încetare; nici neplata nu închide a…\r\n       191 P01 — Poliță veche și condiții: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.…\r\n       193 P02 — Polița A&C: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf. p.1 s…\r\n       197 P04 — Somație originală: 05. Asigurari/Asigurare cladire/B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe0…\r\n       199 P05 — Emailuri Donau: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.06.08 1…\r\n       205 P08 — Răspuns DONAU și citat al cererii trimise2026.10.01: 08. Corespondenta/2026.10.07 Verificare zilnica/…\r\n       207 P09 — Contract de cumpărare semnat: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Kaufver…\r\n       209 P10 — Mesajul utilizatorului2026.05.27, TRIMIS: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau…\r\n       211 P11 — Notificare portal2026.07.07, PRIMIT: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Vers…\r\n       222 [S10] VersVG, text consolidat verificat2026.10.07:§§3,5,36,96,158. https://ris.bka.gv.at/GeltendeFassung.wx…\r\n       226 [S14] VersVG§5c, forma2022.08.01–2026.09.30, aplicabilă analizei unui eventual contract nou din prima parte…\r\n       227 [S15] VersVG§5a — comunicare electronică, acord și portal. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P5a/NO…\r\n       228 [S16] VersVG§36 — plata și excepția privind efectele§38/§39. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P36/…\r\n       233 [J04] OGH7Ob20/89,1989.06.15, RS0080752/RS0080749 și decizia. https://www.ris.bka.gv.at/JustizEntscheidung.…\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 130
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e5bd20ee-6ecf-4d0a-bbe6-8d99dac546df",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$taskLines=Get-Content -LiteralPath '\"'08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Analiza redactor.txt'; \"'$taskLines[46..54]; $taskLines[88..108]'",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "67038",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$taskLines=Get-Content -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Analiza redactor.txt'; $taskLines[46..54]; $taskLines[88..108]"
+    }
+  ],
+  "aggregatedOutput": "\r\nExistă și o contrapondere contractuală utilă: OGH 7 Ob 7/01g, 2001.09.26, privea o cooperativă de locuințe cu 11 clădiri și polițe pe zece ani, dar cu clauza X18 care acorda expres încetare anuală cu trei luni înaintea scadenței principale. Costul ieșirii era reglementat separat. Exemplul arată de ce termenul „2036” de pe prima pagină nu epuizează verificarea: contractul-cadru 2900010498 sau o convenție negociată prin broker ar putea conține o derogare. Nu avem dovada că X18 ori un echivalent există aici; hotărârea veche nu este folosită pentru a valida costul 1000K în raport cu evoluția jurisprudenței. [J09]\r\n\r\nNici §864a ABGB nu face automat surprinzătoare durata vizibilă pe prima pagină. Argumentul devine mai relevant dacă perioada a fost reîncepută fără negociere sau clauza accesorie costisitoare a fost ascunsă. §879 alin.3 se aplică clauzelor accesorii standard profund dezavantajoase; nu trebuie prezentat fără analiză ca un plafon general de durată pentru orice contract comercial. [S09, S11]\r\n\r\nRetragerea după încheierea unui contract nou trebuie verificată separat: §5c VersVG, în forma aplicabilă contractelor din prima parte a anului 2026, acordă în principiu 14 zile și asiguraților profesioniști, cu excepția „Großrisiken”, care nu se confundă cu orice poliță a unei firme. Începerea termenului și limita sa depind de informare și documente; o informare grav defectuoasă poate fi echivalată cu lipsa ei. Polița din februarie are însă instrucțiuni de retragere pe p.9. Schimbarea titularului în iunie nu este prin ea însăși un nou contract și nu deschide automat un termen nou. Calea ar deveni relevantă dacă se dovedește un contract realmente nou și necomunicarea ori defectul grav al informării; în prezent nu este o ieșire demonstrată. [P01 p.9; S14]\r\n\r\n4. DREPTUL SPECIAL AL CUMPĂRĂTORULUI ȘI IMPACTUL CUMPĂRĂRII\r\n\r\n\r\nCererea beneficiarului de a plăti abia după recalculare nu reprezintă acordul DONAU de suspendare a scadenței. Pe documentele prezente, neplata a fost aleasă pentru a evita acceptarea prețului; această conduită poate fi considerată culpabilă dacă datoria era exigibilă. Un litigiu asupra cuantumului poate conta, dar nu înlătură automat culpa pentru toate primele. [P05; S04]\r\n\r\nArhiva conține și notificarea din 2026.07.07 „Mahnung – Neues Dokument in Meine Donau”. Aceasta dovedește anunțarea unui document în portal, nu conținutul integral și comunicarea juridic eficientă a acelei somații. §5a cere acord explicit separat pentru comunicarea electronică și reglementează accesul la documente și prezumția de comunicare când condițiile sunt îndeplinite. Sunt necesare acordul, documentul exact din portal, logurile punerii la dispoziție și notificării. Absența lor din dosarul consultat nu face automat somația nulă: comunicarea concretă trebuie apreciată, inclusiv după regulile generale de acces la declarații. [P11; S15]\r\n\r\nÎn cazul unei polițe combinate, trebuie examinat dacă somația privește în mod determinabil întregul pachet și care componente sunt afectate de prima neplătită. Nu este permisă concluzia simplă că o componentă este sigur acoperită doar pentru că prima nu este împărțită în email. DONAU trebuie să explice mecanismul pe componente, inclusiv eventualele alte cauze de lipsă a acoperirii asociate renovării.\r\n\r\n7. PRIME FĂRĂ INDEMNIZAȚIE, PLATA ȘI RESTABILIREA ACOPERIRII\r\n\r\nÎntrebarea economică a beneficiarului este legitimă: de ce se solicită bani pentru un interval fără protecție? Răspunsul juridic este că trebuie separate existența contractului, datoria de primă și obligația de indemnizare a unui sinistru. Dacă §39 operează legal, contractul poate continua, primele pot rămâne exigibile, iar asigurătorul poate fi exonerat pentru anumite sinistre produse în restanță. Aceasta este o consecință legală a neplății, nu dovada automată a unui serviciu niciodată contractat.\r\n\r\nOGH 3 Ob 393/60, 1960.10.21, exprimă principiul că datoria de primă poate exista chiar în perioadă de exonerare. Hotărârea este veche și privește o primă inițială; trebuie utilizată pentru distincția generală, nu pentru detaliile actualului §39. OGH 7 Ob 103/97s, 1997.04.16, este mai apropiată privind prima ulterioară: asiguratul a transmis băncii ordinul pentru restanță înaintea furtului, debitarea și creditarea fiind ulterioare. OGH a considerat relevantă transmiterea înaintea sinistrului, cu bani suficienți în cont, nu doar creditarea la asigurător; a lăsat examinarea altor încălcări pentru rejudecare. Este jurisprudență istorică, care trebuie delimitată de §36 actual și de regimul actual al accesoriilor. [J06, J07]\r\n\r\nDacă DONAU nu a încetat contractul, stingerea efectivă a primelor restante poate înlătura această cauză de exonerare pentru evenimente viitoare. Este esențială suma datorată și imputarea încasării. Plata după un sinistru nu cumpără retrospectiv indemnizarea lui. Dacă DONAU a încetat deja, plata în luna prevăzută de §39 alin.3 poate înlătura efectele încetării în condițiile legii; după aceea nu trebuie presupusă reactivarea fără nou acord. [S04; J07]\r\n\r\n§36 alin.2 actual cere, în principiu, încasarea la scadență pentru plata unei firme, dar face o excepție privind consecințele §38 alin.2 și §39 alin.2: ordinul inițiat până la scadență și intrat ulterior la asigurător respectă termenul pentru aceste efecte. Excepția nu trebuie extinsă automat la restanțele noastre deja tardive, iar soluția veche din 1997 nu se transferă mecanic asupra unui contract supus textului nou. Pentru plata de acum, inițierea nu este încasare confirmată; cerem suma, imputarea și data/ora efectului și păstrăm dovada bancară. O confirmare DONAU nu creează un drept pe care legea îl exclude, dar previne o dispută practică asupra reactivării și acceptării riscului renovării. [S16; J07; P08]\r\n\r\n§39a protejează o restanță minoră de cel mult 10% din prima anuală, dar maximum 60 EUR. Restanța de mii de euro din dosar depășește acest prag. Nu recomandăm păstrarea deliberată a unui sold de 60 EUR ca strategie de protecție, întrucât imputarea și alte cauze de excludere trebuie verificate. [S05]\r\n\r\nPlata primelor sub rezervă și disputarea separată a costurilor este practic posibilă, însă trebuie evitată o imputare care lasă principal restant. §1416 ABGB poate prioritiza dobânda și capitalul în condițiile lui când imputarea debitorului este contestată. Nu este sigur că mențiunea „doar prime” va rezolva unilateral orice dispută. Se solicită și se păstrează acordul explicit privind imputarea, inclusiv dacă încasarea se face prin Commerz. [S12]\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 95
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-0efbef6b-dc82-4040-9aba-ea119a2faead",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -c 'from pypdf import PdfReader; from pathlib import Path;p=Path(\\\"00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf\\\");r=PdfReader(p);print(len(r.pages));print(r.pages[-1].extract_text()[:900])'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "12202",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -c 'from pypdf import PdfReader; from pathlib import Path;p=Path(\"00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf\");r=PdfReader(p);print(len(r.pages));print(r.pages[-1].extract_text()[:900])'"
+    }
+  ],
+  "aggregatedOutput": "2\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 298
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-b4e87ba5-6a1a-41fb-af9d-21392f2d0fec",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.07 actualizeaza_jurnal_opinie.py",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "from pathlib import Path\nimport shutil,json,hashlib\nROOT=Path(__file__).resolve().parent.parent\nOUT=ROOT/'08. Corespondenta'/'2026.10.07 Analiza juridica Donau auditata'\nHIST=OUT/'2026.10.07 Istoric jurnale inaintea opiniei auditate'\nHIST.mkdir(exist_ok=True)\nblock='''2026.10.07 | ANALIZĂ JURIDICĂ DETALIATĂ REDACTATĂ ȘI AUDITATĂ\n\nStatus scurt: opinia documentată privind DONAU 2044001194 este finalizată în Word și PDF, cu sinteză pentru decizie, legislație austriacă, nouă hotărâri OGH și audit separat. Durata comercială de zece ani este posibilă; încetarea în 2027 nu este demonstrată doar prin trei luni de preaviz. Priorități: acordul-cadru 2900010498, dovada acordului de durată, controlul clauzei 1000K, somația și acoperirea, ajustarea riscului și regresul față de vânzătoare. Analiză de doi agenți AI, fără semnătură sau atribuire unui avocat.\nUltimul răspuns DONAU: 2026.10.06, Loschy, primit, ID 2c273256-a0bf-408b-bb22-09718372e888. Nu s-a primit ori trimis o nouă comunicare în această redactare.\nUrmătorul pas: examinarea sintezei și alegerea strategiei; clarificarea acoperirii și obținerea probelor lipsă înaintea unei poziții definitive. Termenul Commerz 2026.10.12 rămâne distinct; analiza nu îl suspendă și nu recunoaște soldul.\nSursa: 08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.docx și .pdf; 2026.10.07 Analiza redactor.txt; 2026.10.07 Audit juridic.txt.\nDraftul DONAU aa653a96-7eee-4133-a41d-5892ea79788d rămâne NETRIMIS. Solicitarea Capra 3b3a2213-bc82-47ea-a023-4692db3da65c rămâne DRAFT NETRIMIS, neutilizată după schimbarea sarcinii la analiză și audit; export în dosarul opiniei. Nicio semnare, plată sau acord de încetare/acoperire confirmat.\n\nISTORIC\n\n'''\npaths=[ROOT/'2026.10.07 Status proiect.txt',ROOT/'2026.10.07 Log progres proiect.txt']\npartners=ROOT/'08. Corespondenta'/'2026.09.30 Arhiva Eva-Mail'/'Parteneri'\npaths += [partners/'2026.10.07 Log discutii - Donau Versicherung.txt',partners/'2026.10.07 Log discutii - Maritczak - Commerz Inkasso.txt']\nfor path in paths:\n    if path.exists():\n        dest=HIST/path.name\n        if not dest.exists():shutil.copy2(path,dest)\n        old=path.read_text(encoding='utf-8-sig')\n        if not old.startswith('2026.10.07 | ANALIZĂ JURIDICĂ DETALIATĂ'):\n            path.write_text(block+old,encoding='utf-8')\ncapra=partners/'2026.10.07 Log discutii - CERHA HEMPEL.txt'\nif capra.exists():\n    dest=HIST/capra.name\n    if not dest.exists():shutil.copy2(capra,dest)\n    note='2026.10.07 | Analiză DONAU și audit realizate local de doi agenți AI, fără comunicare nouă către CERHA HEMPEL. Draftul solicitării de opinie 3b3a2213-bc82-47ea-a023-4692db3da65c este NETRIMIS și neutilizat în sarcina curentă. Următorul pas este alegerea strategiei pe analiza finală; nu se prezumă opinie sau acceptare din partea avocatului. Sursa: 08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/. Ultimul răspuns extern rămâne cel consemnat în istoric.\\n\\nISTORIC\\n\\n'\n    old=capra.read_text(encoding='utf-8-sig')\n    if not old.startswith('2026.10.07 | Analiză DONAU și audit'):capra.write_text(note+old,encoding='utf-8')\nreadme=ROOT/'folder map'/'README.md'\nold=readme.read_text(encoding='utf-8-sig')\nif not (HIST/'2026.10.07 README anterior.txt').exists():shutil.copy2(readme,HIST/'2026.10.07 README anterior.txt')\nintro='''# 2026.10.07 — Opinie juridică DONAU redactată și auditată\n\nPunctul curent juridic: ../08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/. Începe cu 2026.10.07 Opinie juridica Donau Schallergasse 35.docx sau PDF și 2026.10.07 Audit juridic.txt. Document detaliat cu sinteză, surse RIS și nouă hotărâri OGH; două roluri AI separate, fără atribuire unui avocat. Opinia înlocuiește analiza preliminară ca reper juridic actual. Durata comercială de zece ani este posibilă; căile de ieșire sunt condiționate de acord, cadrul complet, exercitarea în termen sau cauze speciale. Controlul 1000K, proba somației și regresul contractual sunt distincte. Drafturile DONAU și Capra sunt NETRIMISE; Capra neutilizat la cererea utilizatorului. Termenul Commerz 2026.10.12 nu este suspendat. Jurnalele TXT actualizate, istoricul păstrat.\n\n'''\nif not old.startswith('# 2026.10.07 — Opinie juridică DONAU'):readme.write_text(intro+old,encoding='utf-8')\n(OUT/'2026.10.07 Jurnal actualizare opinie.txt').write_text(block.replace('\\nISTORIC\\n\\n','\\n'),encoding='utf-8')\nfiles=[]\nfor path in OUT.iterdir():\n    if path.is_file():files.append({'nume':path.name,'dimensiune':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})\n(OUT/'2026.10.07 Registru documente opinie.json').write_text(json.dumps({'data_lizibila':'2026.10.07','tip':'Analiză locală și audit; nicio comunicare trimisă','documente':files},ensure_ascii=False,indent=2),encoding='utf-8')\nprint('Jurnale, README și registru documente actualizate; istoricul păstrat.')\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f2930e63-cf18-420b-840e-2d95c2312ac6",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -c 'from pypdf import PdfReader;r=PdfReader(\\\"08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.pdf\\\"); print([(i+1,\\\"DONAU 2044001194\\\" in p.extract_text()) for i,p in enumerate(r.pages)])'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "91150",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -c 'from pypdf import PdfReader;r=PdfReader(\"08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.pdf\"); print([(i+1,\"DONAU 2044001194\" in p.extract_text()) for i,p in enumerate(r.pages)])'"
+    }
+  ],
+  "aggregatedOutput": "[(1, True), (2, True), (3, True), (4, True), (5, True), (6, True), (7, True), (8, True), (9, True), (10, True)]\r\n",
+  "exitCode": 0,
+  "durationMs": 526
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6a6ed3eb-47e1-442c-ba31-989f629f8e85",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$taskLines=Get-Content -LiteralPath '\"'08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Analiza redactor.txt'; \"'$taskLines[46..56]; $taskLines[128..149]; $taskLines[191..223]'",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "12563",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$taskLines=Get-Content -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Analiza redactor.txt'; $taskLines[46..56]; $taskLines[128..149]; $taskLines[191..223]"
+    }
+  ],
+  "aggregatedOutput": "\r\nExistă și o contrapondere contractuală utilă: OGH 7 Ob 7/01g, 2001.09.26,  privea o cooperativă de locuințe cu 11 clădiri și polițe pe zece ani, dar cu clauza X18 care acorda expres încetare anuală cu trei luni înaintea scadenței principale. Costul ieșirii era reglementat separat. Exemplul arată de ce termenul „2036” de pe prima pagină nu epuizează verificarea: contractul-cadru 2900010498 sau o convenție negociată prin broker ar putea conține o derogare. Nu avem dovada că X18 ori un echivalent există aici; hotărârea veche nu este folosită pentru a valida costul 1000K în raport cu evoluția jurisprudenței. [J09]\r\n\r\nDacă se identifică drept anual contractual, trebuie verificat și preavizul: din 2026.10.07 până la 2027.01.01 nu sunt trei luni. Pentru mesajul trimis în 2026.10.01,  contează clauza exactă, primirea și calculul față de ora00:00; nu îl declarăm sigur în termen. Data 2027.01.08 oferă interval calendaristic mai lung, dar nu coincide cu scadența anuală01.01 și cere acord dacă dreptul permite numai sfârșitul perioadei.\r\n\r\nNici §864a ABGB nu face automat surprinzătoare durata vizibilă pe prima pagină. Argumentul devine mai relevant dacă perioada a fost reîncepută fără negociere sau clauza accesorie costisitoare a fost ascunsă. §879 alin.3 se aplică clauzelor accesorii standard profund dezavantajoase; nu trebuie prezentat fără analiză ca un plafon general de durată pentru orice contract comercial. [S09, S11]\r\n\r\nRetragerea după încheierea unui contract nou trebuie verificată separat: §5c VersVG, în forma aplicabilă contractelor din prima parte a anului 2026, acordă în principiu 14 zile și asiguraților profesioniști, cu excepția „Großrisiken”, care nu se confundă cu orice poliță a unei firme. Începerea termenului și limita sa depind de informare și documente; o informare grav defectuoasă poate fi echivalată cu lipsa ei. Polița din februarie are însă instrucțiuni de retragere pe p. 9. Schimbarea titularului în iunie nu este prin ea însăși un nou contract și nu deschide automat un termen nou. Calea ar deveni relevantă dacă se dovedește un contract realmente nou și necomunicarea ori defectul grav al informării; în prezent nu este o ieșire demonstrată. [P01 p. 9; S14]\r\n\r\n4. DREPTUL SPECIAL AL CUMPĂRĂTORULUI ȘI IMPACTUL CUMPĂRĂRII\r\n\r\n\r\n9. EXPUNEREA FINANCIARĂ, DECONTUL ȘI REGRESUL\r\n\r\nCommerz a comunicat 5.326,15 EUR: 4.775,43 EUR pentru trei rate de câte 1.591,81 EUR, plus 30 EUR, 501,58 EUR costuri și 19,14 EUR dobândă. Documentele sunt o pretenție a creditorului, nu un sold acceptat și nu o confirmare a acoperirii. Prima Q4 este deja inclusă; nu trebuie adăugată a doua oară. [P07]\r\n\r\nPentru încetare convenită la 2027.01.01,  decontul trebuie să includă obligațiile valide până atunci, plățile și creditele, eventualele ajustări, costurile justificabile și soluția privind 1000K. Pentru 2027.01.08 la ora 00:00, față de 2027.01.01 la ora 00:00 sunt șapte zile suplimentare. La prima anuală actuală și o convenție de calcul pe 365 zile, costul orientativ este 122,11 EUR. Nu este factura aferentă anului 2027 și nu include eventuale alte modificări. [P01; S08]\r\n\r\n§40 VersVG limitează prima în cazul unei încetări valabile anticipate la durata scursă, sub rezerva regulilor speciale; nu creează chiar el dreptul de încetare. Separă de primă o eventuală compensație contractuală admisibilă. Nu rezultă că toate primele până în 2036 sunt exigibile acum și nici că toate primele după data propusă de noi dispar fără o încetare valabilă. [S08]\r\n\r\nCosturile de recuperare se examinează separat. §1333 alin.2 ABGB cere costuri necesare, adecvate și proporționale și un prejudiciu imputabil debitorului. Tabelul Commerz nu este prin sine suficient pentru orice cuantum; sunt utile activitatea efectivă, baza tarifului, tratamentul TVA, scadențele și calculul dobânzii. Nici contestarea globală nu demonstrează automat că toate costurile sunt ilegale. [P07; S13]\r\n\r\nContractul semnat de cumpărare oferă o direcție importantă de recuperare împotriva vânzătoarei. Clauza 1.8 prevede nepreluarea altor raporturi contractuale și indemnizarea pentru pretenții ale terților din acestea, inclusiv la încetare anticipată. Clauza 4.4 atribuie vânzătoarei costurile care își au cauza înainte de data de decontare; 4.5 menține asigurarea până atunci; 7.1(i) garantează primele exigibile până atunci achitate, iar 7.2 prevede indemnizarea pentru garanții inexacte și pretenții cu origine anterior/până la predare. Clauza 10.5 avertizează asupra încetării limitate temporal și primei suplimentare și permite vânzătoarei să înceteze înaintea înscrierii cumpărătoarei, cu efect cel mai devreme la data de decontare; această ultimă formulare conferă o facultate, nu o obligație explicită de a rezilia. [P09 p. 2,4,10,12]\r\n\r\nConcluzie aplicată: pentru datorii anterioare datei relevante și încălcarea garanțiilor, baza regresului este semnificativă. Pentru prime viitoare dintr-un contract nepreluat, 1.8 oferă un argument serios, dar DONAU și vânzătoarea pot invoca transferul legal, regula 4.4 și conduita ulterioară a cumpărătoarei. Pretenția trebuie construită pe perioade și cauzalitate, fără a promite că vânzătoarea va suporta tot soldul. Contractul de vânzare nu modifică automat obligațiile externe față de DONAU.\r\n\r\nTrebuie conservate și probele despre obligațiile concrete ale brokerului, fostului administrator și avocatului în momentul transferului. Dacă exista o obligație profesională de a executa încetarea și a fost omisă, pot apărea pretenții de despăgubire. Aceasta cere mandat, încălcare, prejudiciu și cauzalitate; mențiunea unei omisiuni în email nu este suficientă pentru a atribui răspundere profesională.\r\n\r\n10. JURISPRUDENȚĂ: CE SUSȚINE ȘI CE NU SUSȚINE\r\n\r\n| Hotărâre OGH | Data | Regula utilă | Aplicare și limită |\r\n| 7 Ob 152/01f [J01] | 2001.07.11 | Contractele comerciale pe zece ani nu primesc prin analogie ieșirea §8 alin.2/3 | Speță directă de clădiri; durata fusese cerută expres de societate, fapt nedemonstrat aici |\r\n| 7 Ob 154/22f [J02] | 2022.11.23 | Clauza de avantaj de durată trebuie evaluată și pentru cauze grave imputabile asigurătorului | Structură apropiată de 1000K; context de consumatori și procente parțial diferite |\r\n\r\nP01 — Poliță veche și condiții: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf. PDF p. 1 durată; p. 2–7 componente și prime; p. 8 prelungire; PDF p. 12 clauza1000K; secțiunea ABS art.12–14. SHA256 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835; identic inventarului la verificare.\r\n\r\nP02 — Polița A&C: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf. p. 1 schimbare de titular 2026.05.28 și expirare; p. 7 prelungire. SHA256 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd; identic inventarului.\r\n\r\nP03 — Proprietate: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf, p. 1 încheiere 2026.03.10 și p. 2 marcă temporală; Grundbuchauszug_aktuell_A&C_EZ2235.pdf p. 1, extras 2026.03.11. Cache index SHA-256 45972ffe… și d9c2e1dc….\r\n\r\nP04 — Somație originală: 05. Asigurari/Asigurare cladire/B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf p. 1, 2026.06.05; cache 1af65af6…; prima1.591,81 plus20EUR. Copie scanată distinctă: 05. Asigurari/Versicherungsschutz-DONAU Wohnhausversicherung_A&C Wohnart Immobilien GmbH.pdf.\r\n\r\nP05 — Emailuri Donau: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.06.08 12-43 TRIMIS Eigentümerwechsel und Klärung des Versic 78fa484e.txt; ID 78fa484e-d365-434a-946c-817ebf24a2b0. Mesaj 2026.07.01 04-42 TRIMIS Re WG A&C Wohnart Immobilien GmbH 204400 2dd29262.txt; ID 2dd29262-8d57-41c2-81e5-80e3b909d32e; include textul primit de la Loschy 2026.06.10. Export API, nu probă MIME integrală.\r\n\r\nP06 — Email Capra 2026.03.19: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/CERHA HEMPEL/2026.03.19 08-12 PRIMIT WG 1120 Wien, Schallergasse 35 (gü) [COV 8d541207.txt; cache d4ce3d37…. Polița originală este anexată în arhiva aceleiași date; identitatea conținutului constatată prin index.\r\n\r\nP07 — Sold și termen: 08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/, mesajul Gruber 2026.09.30 ID 1fa19552-d1fd-459e-92b3-57ed5319d18c și Kostenaufstellung.pdf p. 1. Termen 2026.10.12. Cerere5.326,15, neacceptată.\r\n\r\nP08 — Răspuns DONAU și citat al cererii trimise 2026.10.01: 08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 PRIMIT DONAU 2c273256.txt și .json/.eml; ID 2c273256-a0bf-408b-bb22-09718372e888. Răspuns 2026.10.06,  primit; anexa Memoformat.pdf pentru cererea tehnică 2026.07.14. Cererea ulterioară 2026.10.07 către DONAU rămâne draft netrimis și nu este temei pentru data unei notificări primite.\r\n\r\nP09 — Contract de cumpărare semnat: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Kaufvertrag_Schallergasse_35_signiert.pdf; cl. 1.8 p. 2, cl. 4.4–4.5 p. 4, cl. 7.1(i) și 7.2 p. 10, cl. 10.5 p. 12; SHA-256 237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365. Repartizarea contractuală între vânzător și cumpărător este distinctă de opozabilitatea față de DONAU.\r\n\r\nP10 — Mesajul utilizatorului 2026.05.27,  TRIMIS: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.05.27 14-53 TRIMIS Dringend Polizze Nr. 2044001194 X712.261 d9216be2.txt; ID d9216be2-1be9-493f-810e-8045d1e4cfd3. Numărul poliței, asigurătorul și restanța sunt cunoscute explicit; nu este o reziliere.\r\n\r\nP11 — Notificare portal 2026.07.07,  PRIMIT: 08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Donau Versicherung/2026.07.07 09-14 PRIMIT Mahnung - Neues Dokument in Meine Donau 4b3dab07.txt; ID 4b3dab07-5c66-4488-8282-8badea1999e3. Documentul din portal nu este reprodus de notificare.\r\n\r\n[S01] VersVG §8 — durată și prelungire. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P8/NOR40138452\r\n[S02] VersVG §69 — transfer și solidaritate. https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12026489/NOR12026489.pdf\r\n[S03] VersVG §70 — dreptul cumpărătorului. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688\r\n[S04] VersVG §39 — somație, exonerare, denunțare și accesorii. https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39\r\n[S05] VersVG §39a — restanța minoră. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P39a/NOR40022166\r\n[S06] VersVG §41a — reducere prospectivă. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460\r\n[S07] VersVG §68 — lipsa/dispariția interesului. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P68/NOR12037686\r\n[S08] VersVG §40 — prima la încetare anticipată. https://www.ris.bka.gv.at/eli/bgbl/1959/2/P40/NOR12037676\r\n[S09] ABGB §879 — controlul clauzelor. https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12018602/NOR12018602.html\r\n[S10] VersVG, text consolidat verificat 2026.10.07:§§3,5,36,96,158. https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979\r\n",
+  "exitCode": 0,
+  "durationMs": 136
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-cad8b00d-7be3-4faf-a813-941eb912ed55",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"rg --files '08. Corespondenta\\\\2026.09.30 Arhiva Eva-Mail\\\\Emailuri\\\\Donau Versicherung' | rg 'd9216be2|4b3dab07|78fa484e|2dd29262'; rg --files '08. Corespondenta\\\\2026.09.30 Arhiva Eva-Mail\\\\Emailuri\\\\CERHA HEMPEL' | rg '8d541207'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "39541",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg --files '08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung' | rg 'd9216be2|4b3dab07|78fa484e|2dd29262'; rg --files '08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\CERHA HEMPEL' | rg '8d541207'"
+    }
+  ],
+  "aggregatedOutput": "08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung\\2026.07.07 09-14 PRIMIT Mahnung - Neues Dokument in Meine Donau 4b3dab07.txt\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung\\2026.07.07 09-14 PRIMIT Mahnung - Neues Dokument in Meine Donau 4b3dab07.json\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung\\2026.07.01 04-42 TRIMIS Re WG A&C Wohnart Immobilien GmbH 204400 2dd29262.txt\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung\\2026.07.01 04-42 TRIMIS Re WG A&C Wohnart Immobilien GmbH 204400 2dd29262.json\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung\\2026.06.08 12-43 TRIMIS Eigentümerwechsel und Klärung des Versic 78fa484e.txt\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung\\2026.06.08 12-43 TRIMIS Eigentümerwechsel und Klärung des Versic 78fa484e.json\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung\\2026.05.27 14-53 TRIMIS Dringend Polizze Nr. 2044001194 X712.261 d9216be2.txt\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\Donau Versicherung\\2026.05.27 14-53 TRIMIS Dringend Polizze Nr. 2044001194 X712.261 d9216be2.json\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\CERHA HEMPEL\\2026.03.19 08-12 PRIMIT WG 1120 Wien, Schallergasse 35 (gü) [COV 8d541207.txt\n08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Emailuri\\CERHA HEMPEL\\2026.03.19 08-12 PRIMIT WG 1120 Wien, Schallergasse 35 (gü) [COV 8d541207.json\n",
+  "exitCode": 0,
+  "durationMs": 120
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_6bbc2fb8365f4f6787c27a3f99d264c0",
+  "kind": "interacted",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-01baa035-f203-419c-b199-310fa6212636",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -X utf8 'folder map\\\\2026.10.07 genereaza_opinie.py'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "78365",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -X utf8 'folder map\\2026.10.07 genereaza_opinie.py'"
+    }
+  ],
+  "aggregatedOutput": "{\"docx\": \"D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Opinie juridica Donau Schallergasse 35.docx\", \"words\": 6215, \"paragraphs\": 126}\r\n",
+  "exitCode": 0,
+  "durationMs": 323
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f8f62535-a1d6-40e8-bcfa-e60faec0d012",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$taskBase=(Get-Location).Path; $taskDocx=Join-Path $taskBase '\"'08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Opinie juridica Donau Schallergasse 35.docx'; \"'$taskPdf=[IO.Path]::ChangeExtension($taskDocx,'\"'.pdf'); \"'$taskWord=$null; $taskDoc=$null; try { $taskWord=New-Object -ComObject Word.Application; $taskWord.Visible=$false; $taskWord.DisplayAlerts=0; $taskWord.AutomationSecurity=3; $taskDoc=$taskWord.Documents.Open($taskDocx,$false,$true); $taskDoc.ExportAsFixedFormat($taskPdf,17); Write-Output ('\"'Pagini '+\"'$taskDoc.ComputeStatistics(2)); } finally { if($taskDoc){$taskDoc.Close(0)};if($taskWord){$taskWord.Quit()} }'",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "69093",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$taskBase=(Get-Location).Path; $taskDocx=Join-Path $taskBase '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Opinie juridica Donau Schallergasse 35.docx'; $taskPdf=[IO.Path]::ChangeExtension($taskDocx,'.pdf'); $taskWord=$null; $taskDoc=$null; try { $taskWord=New-Object -ComObject Word.Application; $taskWord.Visible=$false; $taskWord.DisplayAlerts=0; $taskWord.AutomationSecurity=3; $taskDoc=$taskWord.Documents.Open($taskDocx,$false,$true); $taskDoc.ExportAsFixedFormat($taskPdf,17); Write-Output ('Pagini '+$taskDoc.ComputeStatistics(2)); } finally { if($taskDoc){$taskDoc.Close(0)};if($taskWord){$taskWord.Quit()} }"
+    }
+  ],
+  "aggregatedOutput": "Pagini 11\r\n",
+  "exitCode": 0,
+  "durationMs": 6337
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-81c4b091-de7b-4a47-aa62-b9af9ac66887",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\poppler\\\\Library\\\\bin\\\\pdftoppm.exe' -r 105 -png '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 Opinie juridica Donau Schallergasse 35.pdf' '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata\\\\2026.10.07 QA document\\\\page'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "76833",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe' -r 105 -png '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Opinie juridica Donau Schallergasse 35.pdf' '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page'"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 2268
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-17250b6e-cd74-4d28-a31d-4891ab9d697e",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-01.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-172ceafa-6c75-41a9-b8fc-3d849b8e8cf8",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-02.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-cbc361db-7d52-48ec-8fb0-875833207021",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-03.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-c94b845a-f9c8-4fde-a916-9e69f7120898",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-04.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-db57df0d-6554-4ab7-a4d9-3a933412059a",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-05.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-4a486a91-7593-4bad-b4d2-25f950b30e89",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-06.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-1572f451-8e2a-43ae-8c90-6b4d034fd13e",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-07.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-dda76f3e-247e-4262-b7a4-150ebf0bdf73",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-08.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-481146d5-2e7e-492c-b48b-e7ec7914b434",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-09.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-65173835-8837-4f6f-a793-58d999358f46",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-10.png"
+}
+````
+
+## imageView
+
+````json
+{
+  "type": "imageView",
+  "id": "exec-a849cbc5-85b2-4023-97a0-5c49846dc978",
+  "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-11.png"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "subagent-completed-01a11588-bd09-7583-9c51-e2c3c5d5a8da",
+  "kind": "completed",
+  "agentThreadId": "01a11588-bcbd-72c0-b042-1c4262080438",
+  "agentPath": "/root/redactor_juridic"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "subagent-completed-01a11589-0486-7982-963f-48badb207232",
+  "kind": "completed",
+  "agentThreadId": "01a11589-044f-7c10-8ff4-8a1ccdf5b78c",
+  "agentPath": "/root/auditor_juridic"
+}
+````
+
+## Asistent
+
+Auditul final este încheiat, fără probleme critice restante. Documentul are 11 pagini și include sinteza pentru decizie, analiza clauzelor, opțiunile practice și sursele oficiale.
+
+Concluzia este că există argumente serioase de contestare, însă probele actuale nu demonstrează încă rezilierea unilaterală în ianuarie 2027 sau eliminarea integrală a suplimentului 1000K. Am verificat toate paginile versiunii Word/PDF; salvez acum concluziile și auditul în arhiva proiectului.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-7cf57d41-d2cd-44ff-bcbc-cebb4b1d627d",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -c 'from pathlib import Path;from docx import Document;import hashlib,re;p=Path(\\\"08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Analiza redactor.txt\\\");print(\\\"SHA\\\",hashlib.sha256(p.read_bytes()).hexdigest());print(\\\"Words\\\",len(p.read_text(encoding=\\\"utf-8-sig\\\").split()));d=Document(str(p.parent/\\\"2026.10.07 Opinie juridica Donau Schallergasse 35.docx\\\"));txt=\\\"\\\\n\\\".join(x.text for x in d.paragraphs);lines=p.read_text(encoding=\\\"utf-8-sig\\\").splitlines();miss=[x[:110] for x in lines if len(x)>100 and not x.startswith((\\\"|\\\",\\\"2026.10.07\\\",\\\"Studiu juridic\\\")) and \\\"http\\\" not in x and x not in txt];print(\\\"Missing substantive paragraphs\\\",miss)'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "62256",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -c 'from pathlib import Path;from docx import Document;import hashlib,re;p=Path(\"08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Analiza redactor.txt\");print(\"SHA\",hashlib.sha256(p.read_bytes()).hexdigest());print(\"Words\",len(p.read_text(encoding=\"utf-8-sig\").split()));d=Document(str(p.parent/\"2026.10.07 Opinie juridica Donau Schallergasse 35.docx\"));txt=\"\\n\".join(x.text for x in d.paragraphs);lines=p.read_text(encoding=\"utf-8-sig\").splitlines();miss=[x[:110] for x in lines if len(x)>100 and not x.startswith((\"|\",\"2026.10.07\",\"Studiu juridic\")) and \"http\" not in x and x not in txt];print(\"Missing substantive paragraphs\",miss)'"
+    }
+  ],
+  "aggregatedOutput": "SHA 218f8fbf854ff27be6d56e96dfc3e08708316d120ea41e5b8511cacebd224987\r\nWords 6215\r\nMissing substantive paragraphs []\r\n",
+  "exitCode": 0,
+  "durationMs": 239
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-695ad146-880f-4991-97b6-dabc4b57a2c0",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -X utf8 'folder map\\\\2026.10.07 actualizeaza_jurnal_opinie.py'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "54209",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -X utf8 'folder map\\2026.10.07 actualizeaza_jurnal_opinie.py'"
+    }
+  ],
+  "aggregatedOutput": "Jurnale, README și registru documente actualizate; istoricul păstrat.\r\n",
+  "exitCode": 0,
+  "durationMs": 128
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-ba4aceee-7e28-4539-93e6-749c53f52bdb",
+  "changes": [
+    {
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Control document si randare.txt",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "2026.10.07 | Control final document\n\nConținut aprobat de auditorul independent pe versiunea TXT SHA-256 218f8fbf854ff27be6d56e96dfc3e08708316d120ea41e5b8511cacebd224987, 6.215 cuvinte incluzând registrul probelor și surselor.\nWord conține toate paragrafele substanțiale ale versiunii auditate. Prima pagină include sinteza pentru decizie; documentul nu este atribuit ori semnat de un avocat. Sursele RIS sunt hyperlinkuri, iar URL-urile integrale se păstrează în registrele TXT/JSON.\n11 pagini în PDF exportat din documentul Word. Toate cele 11 PNG ale ultimei versiuni au fost inspectate individual: fără text tăiat, suprapuneri, caractere lipsă sau tabele defecte. Titluri negre, fără linie decorativă; tabele de opțiuni și jurisprudență cu borduri vizibile.\nRuntime de autorare: Python și python-docx din dependențele Codex. Marcatorul DOCX și marcatorul PDF au fost rulate cu succes o singură dată, fiecare înaintea primei autorări în formatul respectiv.\nRendererul împachetat render_docx.py a fost încercat și a eșuat la rezolvarea executabilului LibreOffice soffice.exe, absent din PATH. Eroarea a fost diagnosticată înaintea alternativei. Randare alternativă: Microsoft Word 16 în fundal, document deschis read-only și macros dezactivate, export PDF; rasterizare cu Poppler împachetat. Nu s-a instalat niciun program.\nControl material: originale pentru durată, clauza1000K, somație, prime, contractul de vânzare și cartea funciară; hashuri confruntate cu inventarul. Detaliile cercetării și limitele surselor sunt în raportul de audit.\nNicio comunicare trimisă, semnare sau plată. Drafturile existente rămân netrimise. Jurnalele TXT sunt actualizate cu păstrarea versiunilor anterioare; registrele centrale de mesaje nu sunt prezentate drept o nouă sincronizare.\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-d9239b4d-1b52-410f-81b1-f34fe6516729",
+  "server": "codex_app",
+  "tool": "open_in_codex",
+  "status": "completed",
+  "arguments": {
+    "target": {
+      "type": "file",
+      "path": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Opinie juridica Donau Schallergasse 35.pdf"
+    }
+  },
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\":\"queued\",\"threadId\":\"01a0f6eb-c105-7760-973e-241d6f6be8c1\"}"
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 12
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-7a6c0b90-3d88-48e3-91fe-952e03dea0f7",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -X utf8 'folder map\\\\actualizeaza_index.py'\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "13849",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe' -X utf8 'folder map\\actualizeaza_index.py'"
+    }
+  ],
+  "aggregatedOutput": "100/5221 inventariate\r\n200/5221 inventariate\r\n300/5221 inventariate\r\n400/5221 inventariate\r\n500/5221 inventariate\r\n600/5221 inventariate\r\n700/5221 inventariate\r\n800/5221 inventariate\r\n900/5221 inventariate\r\n1000/5221 inventariate\r\n1100/5221 inventariate\r\n1200/5221 inventariate\r\n1300/5221 inventariate\r\n1400/5221 inventariate\r\n1500/5221 inventariate\r\n1600/5221 inventariate\r\n1700/5221 inventariate\r\n1800/5221 inventariate\r\n1900/5221 inventariate\r\n2000/5221 inventariate\r\n2100/5221 inventariate\r\n2200/5221 inventariate\r\n2300/5221 inventariate\r\n2400/5221 inventariate\r\n2500/5221 inventariate\r\n2600/5221 inventariate\r\n2700/5221 inventariate\r\n2800/5221 inventariate\r\n2900/5221 inventariate\r\n3000/5221 inventariate\r\n3100/5221 inventariate\r\n3200/5221 inventariate\r\n3300/5221 inventariate\r\n3400/5221 inventariate\r\n3500/5221 inventariate\r\n3600/5221 inventariate\r\n3700/5221 inventariate\r\n3800/5221 inventariate\r\n3900/5221 inventariate\r\n4000/5221 inventariate\r\n4100/5221 inventariate\r\n4200/5221 inventariate\r\n4300/5221 inventariate\r\n4400/5221 inventariate\r\n4500/5221 inventariate\r\n4600/5221 inventariate\r\n4700/5221 inventariate\r\n4800/5221 inventariate\r\n4900/5221 inventariate\r\n5000/5221 inventariate\r\n5100/5221 inventariate\r\n5200/5221 inventariate\r\n{\r\n  \"generat\": \"2026-10-07T11:59:16+03:00\",\r\n  \"radacina\": \"D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\",\r\n  \"fisiere\": 5221,\r\n  \"foldere\": 651,\r\n  \"continuturi_unice\": 3698,\r\n  \"copii_identice\": 1523,\r\n  \"stari\": {\r\n    \"text citit\": 2314,\r\n    \"text și tabele extrase\": 299,\r\n    \"text extras\": 1336,\r\n    \"celule și formule extrase; imaginile nu sunt interpretate\": 143,\r\n    \"text extras; verificare vizuală necesară\": 319,\r\n    \"metadate imagine; interpretare vizuală necesară\": 557,\r\n    \"conținut arhivă listat; documentele interne nu sunt citite\": 45,\r\n    \"inventariat; interpretare CAD necesară\": 79,\r\n    \"celule XLS extrase\": 15,\r\n    \"text DOC extras; macrocomenzi dezactivate\": 11,\r\n    \"inventariat; extragere indisponibilă\": 76,\r\n    \"inventariat; vizionare necesară\": 23,\r\n    \"eroare extragere\": 3,\r\n    \"temporar\": 1\r\n  },\r\n  \"erori\": [\r\n    {\r\n      \"cale\": \"08. Corespondenta/_Recuperate EvaMail 2026-09-17/_ALTE PROIECTE (nu Schallergasse)/GLAZURA CES.xlsx\",\r\n      \"eroare\": \"XLRDError: Can't find workbook in OLE2 compound document\"\r\n    },\r\n    {\r\n      \"cale\": \"10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/Documente justificative/2026.04.15 Finanzamt K 07-09-2026 (din registrul anterio.pdf\",\r\n      \"eroare\": \"ValueError: document closed or encrypted\"\r\n    },\r\n    {\r\n      \"cale\": \"10. Banci + Extrase de cont/Facturi neachitate/14 - 2026-06-22 FINANZAMT Steuerkonto StNr 09 446-6620 - KoeSt 07-09-2026 93,00 EUR (DEPASIT 17.08) - IBAN AT36 0100 0000 0550 4082 (PDF parolat).pdf\",\r\n      \"eroare\": \"ValueError: document closed or encrypted\"\r\n    }\r\n  ]\r\n}\r\n",
+  "exitCode": 0,
+  "durationMs": 30017
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-1287643d-5529-4fe8-8d81-3828a66601df",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-ChildItem -LiteralPath '08. Corespondenta\\\\2026.10.07 Analiza juridica Donau auditata' -File | Select-Object Name,Length\"",
+  "cwd": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "processId": "63567",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-ChildItem -LiteralPath '08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata' -File | Select-Object Name,Length"
+    }
+  ],
+  "aggregatedOutput": "\r\nName                                                   Length\r\n----                                                   ------\r\n2026.10.07 Analiza redactor.txt                         48599\r\n2026.10.07 Audit juridic.txt                            20487\r\n2026.10.07 Control document si randare.txt               1823\r\n2026.10.07 Istoric draft neutilizat Capra.json          13555\r\n2026.10.07 Jurnal actualizare opinie.txt                 1547\r\n2026.10.07 Opinie juridica Donau Schallergasse 35.docx  57809\r\n2026.10.07 Opinie juridica Donau Schallergasse 35.pdf  246586\r\n2026.10.07 Registru documente opinie.json                1622\r\n2026.10.07 Registru surse redactor.json                  7857\r\n2026.10.07 Registru surse redactor.txt                   9294\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 157
+}
+````
+
+## Asistent
+
+Am finalizat **analiza de 11 pagini**, redactată de un agent și verificată independent de al doilea, cu sinteză pentru decizie, drepturi, obligații, opțiuni și nouă hotărâri OGH.
+
+Documentul este disponibil în Word :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.docx" purpose="output"} și PDF :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.pdf" purpose="output"}.
+
+Concluziile principale:
+
+- **Zece ani pot fi valabili între profesioniști.** Există chiar jurisprudență apropiată despre asigurarea clădirilor. Trei luni de preaviz nu garantează singure încetarea în 2027. [OGH 7 Ob 152/01f](https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True)
+- **Există argumente serioase de contestare:** clauza 1000K, dovada duratei convenite, eventualul drept anual din contractul-cadru și comunicarea somației.
+- **Contractul de cumpărare oferă o posibilă recuperare de la vânzătoare**, analizată separat pentru fiecare categorie de cost.
+- Lipsa acoperirii pentru neplată **nu stinge automat primele**; documentul explică efectele plății și condițiile restabilirii protecției.
+
+Este o analiză documentară realizată de agenți, fără semnătură de avocat. Nu am trimis mesaje. Termenul Commerz **2026.10.12** nu este suspendat.
+
+- :codex-followup[Calcul regres]{prompt="Calculează pe documentele existente ce sume am putea recupera de la vânzătoare și justifică fiecare poziție."}
+- :codex-followup[Dosar probator]{prompt="Pregătește un dosar al probelor pentru contestarea DONAU, separând documentele existente de cele lipsă."}
+- :codex-followup[Scenarii financiare]{prompt="Compară financiar continuarea, reducerea acoperirilor și încetarea negociată a poliței DONAU, cu ipotezele explicite."}

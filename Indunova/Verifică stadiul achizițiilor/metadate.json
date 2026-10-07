@@ -10,7 +10,7 @@
   "project": "Indunova",
   "assignment_method": "app_assignment",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "export_started_at_utc": "2026-10-07T14:10:54.540840+00:00",
   "source_bytes": 67120370,
   "invalid_json_lines": 0,
   "history_source": "items",
@@ -18,6 +18,6 @@
   "item_count": 717,
   "message_count": 159,
   "content_sha256": "ce9dcd4bc209420507c3fd5c41054baa9b891adb2d73a77d2dce23cc74bede05",
-  "files_copied": 93,
-  "references_not_copied": 35
+  "files_copied": 91,
+  "references_not_copied": 37
 }

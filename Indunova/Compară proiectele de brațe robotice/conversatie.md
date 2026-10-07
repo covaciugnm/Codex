@@ -2,7 +2,7 @@
 
 ID: `01a11201-d72a-7610-9332-5ab4240808d3`  
 Proiect: Indunova  
-Export UTC: 2026-10-07T08:10:14.831141+00:00
+Export UTC: 2026-10-07T14:10:54.540840+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 

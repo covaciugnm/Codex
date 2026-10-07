@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-07T08:10:14.831141+00:00
+Export UTC: 2026-10-07T14:10:54.540840+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -142,3 +142,139 @@ DONAU a răspuns: refuză rezilierea și declară explicit că, din cauza restan
 **Următorul pas urgent:** clarificarea cu Capra a refuzului și a restabilirii acoperirii. Termenul invocat de DONAU necesită verificare contractuală.
 
 TOMS și ofertanții de lift nu au răspunsuri noi. Arhiva și jurnalele sunt actualizate. Office este sincronizată până la **08:00 România**; cosmin@ig.ro doar până la 2026.08.12.
+
+## Utilizator
+
+cere sa se rezilieze contractul incepand de la 01.01.2027 - este suficient ca si trei luni sau din 08.01.2026 - sa ne calculeze toate sumele datorate aferente pana la acea data in scris - si daca nu suntem asigurati daca platim sumele ce se intampla cu asigurarea cum adica sa platim o suma pentru un serviciu neefectuat ? - ce prevede legea austriaca - creaza un punct de vedere legal - cere rezilierea 
+
+
+## Asistent
+
+Verific polița și legea austriacă, apoi redactez punctul de vedere juridic și cererea către DONAU pentru încetarea la 2027.01.01, calculul scris al sumelor și clarificarea efectului plății asupra acoperirii.
+
+## Asistent
+
+Prin „08.01.2026” ai vrut să spui 2027.01.08, ca dată alternativă pentru reziliere? Data 2026.01.08 este deja în trecut.
+- Da, 2027.01.08
+- Nu, mă refer la 2026.01.08
+
+## Utilizator
+
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_leLbp53tHfPcx7w1nGiw045c\",0]","question":"Prin „08.01.2026” ai vrut să spui 2027.01.08, ca dată alternativă pentru reziliere? Data 2026.01.08 este deja în trecut.","answer":"Da, 2027.01.08"}]
+</send_user_message_question_reply>
+
+## Asistent
+
+Trei luni de preaviz nu garantează aici rezilierea: polița indică expirarea la 2036.01.01. O notificare nouă din 2026.10.07 nu lasă trei luni până la 2027.01.01; data alternativă 2027.01.08 nu creează singură un drept de încetare.
+
+Legea permite, în anumite condiții de neplată, suspendarea obligației de despăgubire fără dispariția automată a primelor datorate. Cer DONAU dovada condițiilor aplicate și confirmarea scrisă a sumei și datei de la care plata ar restabili acoperirea.
+
+## Asistent
+
+Am pregătit în Eva-Mail cererea pentru 2027.01.01, alternativ 2027.01.08, cu solicitarea calculelor separate și a condițiilor exacte pentru restabilirea acoperirii.
+
+Am găsit și clauza „Laufzeitvorteil”, care prevede o primă suplimentară la încetarea anticipată. Cer justificarea oricărei asemenea sume și renunțarea expresă la ea în acordul de încetare. Ciorna este netrimisă; trimiterea se face din Eva-Mail.
+
+## Asistent
+
+Am creat [punctul de vedere juridic](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.07 Cerere reziliere Donau 2027/2026.10.07 Punct de vedere juridic Donau.txt>) și cererea în germană, salvată în **Eva-Mail ca draft netrimis**.
+
+Cererea solicită:
+
+- încetarea la **2027.01.01**, alternativ **2027.01.08**;
+- calculul scris al tuturor sumelor pentru fiecare dată, separat: prime, dobânzi, costuri și credite;
+- suma exactă și data/ora de la care plata ar restabili acoperirea;
+- justificarea suspendării acoperirii și renunțarea la suma suplimentară pentru încetarea anticipată.
+
+**Juridic:** trei luni nu garantează rezilierea unei polițe cu expirare în 2036. Datele din ianuarie sunt propuse pentru încetare prin acord. [VersVG §8](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979)
+
+**Primele pot rămâne datorate chiar fără acoperire actuală**, dacă suspendarea pentru neplată este legală. Plata nu garantează acoperire retroactivă; am cerut dovezile și efectele exacte în scris. [VersVG §39](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39)
+
+Am cerut răspuns până la **2026.10.09, ora 12:00 Viena**. Trimiterea trebuie făcută din Eva-Mail; instrumentul disponibil salvează doar ciorne.
+
+## Utilizator
+
+vreau un material facut de un avocat un punct de vedere profesionist
+
+
+## Asistent
+
+O opinie juridică asumată de un avocat trebuie emisă de acesta; materialul anterior este analiza mea documentară. Pregătesc solicitarea către Bogdan Capra, cu documentele și întrebările concrete, pentru ca el să formuleze concluzia juridică și recomandarea.
+
+## Utilizator
+
+nu solicitare pune doi agenti unul sa scrie si unul sa auditeze acest subioect juridic aplicat si vreau un punct documentat si o concluzie de ce optiuini am si ce drepturi si obligatii - nu cred ca legea le p[ermite sa fie contract fara reziliere mai ales la asigurari care este o zona foarte clar reglementata. La fel cum nu cred ca nu exista clar juristprudenta legata sau similara cu cazul nostru
+
+
+## Asistent
+
+Pun doi agenți pe dosar: unul redactează analiza juridică aplicată, cu jurisprudență austriacă, iar celălalt verifică independent temeiurile, probele și concluziile. Materialul va compara opțiunile de încetare, drepturile și obligațiile, efectul plății asupra acoperirii și riscul costurilor suplimentare.
+
+Solicitarea către Capra rămâne netrimisă. Voi livra analiza în Word și PDF; folosesc skillurile Documents și PDF pentru redactare și verificarea documentului.
+
+## Asistent
+
+Cât de amplu vrei documentul, inclusiv analiza jurisprudenței?
+- Analiză detaliată, aproximativ 10–15 pagini, cu sinteză pentru decizie
+- Variantă concentrată, aproximativ 5–7 pagini
+- Folosește-ți judecata
+
+## Utilizator
+
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_Vec30NkKdvqdncTHr7hT0Hmv\",0]","question":"Cât de amplu vrei documentul, inclusiv analiza jurisprudenței?","answer":"Analiză detaliată, aproximativ 10–15 pagini, cu sinteză pentru decizie"}]
+</send_user_message_question_reply>
+
+## Asistent
+
+Prima verificare a jurisprudenței a găsit o hotărâre OGH care privește expres o GmbH și admite controlul clauzelor de recuperare a reducerilor de primă și între profesioniști. Agenții verifică dacă raționamentul se aplică exact clauzei noastre 1000K și dacă oferă o cale de ieșire ori înlătură doar un cost suplimentar.
+
+## Asistent
+
+Analiza contractului de vânzare a găsit o posibilă cale suplimentară: clauze prin care vânzătorul și-a asumat anumite obligații de despăgubire pentru contractele nepreluate și costurile încetării lor. Documentul va separa ce poate cere DONAU de ce ar putea fi recuperat de la vânzător.
+
+Există însă și jurisprudență OGH care admite asigurări comerciale pe zece ani. Concluzia trebuie sprijinită pe clauzele și probele noastre, nu pe ideea că orice asemenea durată este interzisă.
+
+## Asistent
+
+Auditul a identificat și o hotărâre privind polițe comerciale pe zece ani care aveau, separat, un drept anual de încetare. De aceea, convenția-cadru DONAU este o probă importantă: data expirării din poliță nu arată singură toate posibilitățile de reziliere.
+
+Am verificat și originalele contractului de cumpărare. Clauzele privind despăgubirea de către vânzător există, dar trebuie analizate în raport cu perioada și cauza fiecărei sume solicitate.
+
+## Asistent
+
+Redactarea detaliată este gata, iar al doilea agent verifică acum concluziile și citările. Documentul separă dreptul de reziliere, datoria de primă, acoperirea actuală și eventualele sume recuperabile de la vânzător.
+
+Un punct esențial pentru decizie: plata poate restabili protecția pentru viitor dacă polița este încă activă; nu acoperă automat sinistrele din perioada de neplată. Analiza explică ce trebuie verificat pentru a stabili efectul plății în cazul nostru.
+
+## Asistent
+
+Auditul a cerut completări privind dreptul de retragere la încheierea asigurării, dovada comunicărilor electronice și momentul în care plata produce efecte. Le includem înainte de finalizare, fiindcă pot influența atât rezilierea, cât și verificarea afirmației DONAU că nu există acoperire.
+
+Sinteza va indica separat concluziile susținute de probe, argumentele care pot fi invocate și documentele lipsă care pot schimba rezultatul.
+
+## Asistent
+
+Auditul final este încheiat, fără probleme critice restante. Documentul are 11 pagini și include sinteza pentru decizie, analiza clauzelor, opțiunile practice și sursele oficiale.
+
+Concluzia este că există argumente serioase de contestare, însă probele actuale nu demonstrează încă rezilierea unilaterală în ianuarie 2027 sau eliminarea integrală a suplimentului 1000K. Am verificat toate paginile versiunii Word/PDF; salvez acum concluziile și auditul în arhiva proiectului.
+
+## Asistent
+
+Am finalizat **analiza de 11 pagini**, redactată de un agent și verificată independent de al doilea, cu sinteză pentru decizie, drepturi, obligații, opțiuni și nouă hotărâri OGH.
+
+Documentul este disponibil în Word :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.docx" purpose="output"} și PDF :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.pdf" purpose="output"}.
+
+Concluziile principale:
+
+- **Zece ani pot fi valabili între profesioniști.** Există chiar jurisprudență apropiată despre asigurarea clădirilor. Trei luni de preaviz nu garantează singure încetarea în 2027. [OGH 7 Ob 152/01f](https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True)
+- **Există argumente serioase de contestare:** clauza 1000K, dovada duratei convenite, eventualul drept anual din contractul-cadru și comunicarea somației.
+- **Contractul de cumpărare oferă o posibilă recuperare de la vânzătoare**, analizată separat pentru fiecare categorie de cost.
+- Lipsa acoperirii pentru neplată **nu stinge automat primele**; documentul explică efectele plății și condițiile restabilirii protecției.
+
+Este o analiză documentară realizată de agenți, fără semnătură de avocat. Nu am trimis mesaje. Termenul Commerz **2026.10.12** nu este suspendat.
+
+- :codex-followup[Calcul regres]{prompt="Calculează pe documentele existente ce sume am putea recupera de la vânzătoare și justifică fiecare poziție."}
+- :codex-followup[Dosar probator]{prompt="Pregătește un dosar al probelor pentru contestarea DONAU, separând documentele existente de cele lipsă."}
+- :codex-followup[Scenarii financiare]{prompt="Compară financiar continuarea, reducerea acoperirilor și încetarea negociată a poliței DONAU, cu ipotezele explicite."}

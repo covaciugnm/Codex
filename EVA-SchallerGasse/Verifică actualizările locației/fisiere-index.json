@@ -4,6 +4,20 @@
     "status": "fisier_inexistent_sau_director"
   },
   {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Opinie juridica Donau Schallergasse 35--b9fc2e3d.docx",
+    "bytes": 57809,
+    "sha256": "1de9d125599e76263d28091cc8bd082c8a1b7a80667ca548c88d1a1ea4f75ef0"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/2026.10.07 Opinie juridica Donau Schallergasse 35.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Opinie juridica Donau Schallergasse 35--27c4f815.pdf",
+    "bytes": 246586,
+    "sha256": "8cd312692a1a5e224e160fa3d492cdface5251d80ab4e1a3d89d41cdbffd4907"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.01 Actualizare comunicari\\2026.10.01 Descarcari originale.json",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.01 Descarcari originale--dcd24893.json",
@@ -123,6 +137,216 @@
     "sha256": "19e4b213937b25c51aaecfdb28a62fcb8021b33f0e50d405bb89f1fc74e18a0f"
   },
   {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Control document si randare.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Control document si randare--3c288995.txt",
+    "bytes": 1823,
+    "sha256": "81d7eba6fbcb7ed0ec5422b36640007236420733ce0f252f329b0cc3105cc057"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Istoric draft neutilizat Capra.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Istoric draft neutilizat Capra--77e7a448.json",
+    "bytes": 13555,
+    "sha256": "ab7b4a3dfac2b08fab298028105d0cea47e11c79821bd0d851b921a40f3609da"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-01--c2e1ea4a.png",
+    "bytes": 307361,
+    "sha256": "9aff553be1538def28cff8f82a6e07892956cc91a762e89243a98d3b1d074891"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-02--7621c76e.png",
+    "bytes": 327192,
+    "sha256": "0b63828e945cca14be78759565f6a043c39a448662d3630f164c4a588efe83d1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-03--770c12c5.png",
+    "bytes": 331668,
+    "sha256": "f211c02037a2027ab6cfde0918c7ebf4b2030304782b7a9fb31824aa473d080c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-04--d4356c29.png",
+    "bytes": 340184,
+    "sha256": "e13f539c50a82742e67300e28ff54b9e8397613202436fb55424df42390bbdde"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-05--c2bce762.png",
+    "bytes": 330628,
+    "sha256": "a3875f48976d878947f9dc42ab668260bf671a04000a2b76716abbd91b301064"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-06--fb7814ac.png",
+    "bytes": 323490,
+    "sha256": "280d6a31bff02f4f2bf4ede0150396d5a1721d76ad0b296b30cf277193f520d1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-07--88715107.png",
+    "bytes": 320770,
+    "sha256": "d60369660b5cadf0534edc6df36c556c89dd8cd7fc12e5e6aa6a744645c0c908"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-08--26fc85a3.png",
+    "bytes": 226606,
+    "sha256": "caff8642fc76e1e0b954cd5d4e0c4c3698e28de168c928a7ecb50ed0a3f0aaba"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-09--7a54c8fe.png",
+    "bytes": 251446,
+    "sha256": "cde64cff1b838b6ec560a0b4304e4d4e49629e04bc368b90f958f265eef66edc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-10--7027707d.png",
+    "bytes": 339554,
+    "sha256": "b09bba4e0871314bdbe817071c667cc4757f55afe798f166b0c77922a4393631"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 QA document\\page-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-11--0b79b6d1.png",
+    "bytes": 273899,
+    "sha256": "6176f0592fe09b67580fda17f9fd3f3ee899ff68f7784ebaffbd383132bee4d1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Contract vanzare p10--2bf1c436.png",
+    "bytes": 263979,
+    "sha256": "2b1db92ffd30b8e992a4d2a0dd2a1a274d75cf6c48ac27da998a14b79707d149"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Contract vanzare p12--e796e57f.png",
+    "bytes": 236711,
+    "sha256": "10a89307de47924360ed184a7145a76731f70c9cbf08bf6e86d2342f21a21ae3"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Contract vanzare p2--5066cf81.png",
+    "bytes": 245353,
+    "sha256": "9b248cfe1822eeecf3fdd5fa2ca71b9f45c74ddc0b6f8adde03cac2feb98273b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Contract vanzare p4--79d88531.png",
+    "bytes": 279524,
+    "sha256": "e3fa57db269f8465854f7787352aca48dcf5f87b06ef08704a37036dc56aaaa9"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Contract vanzare p9.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Contract vanzare p9--4f55a44a.png",
+    "bytes": 264627,
+    "sha256": "8bfd1aa1ac941dda367c847f47f7a0d713d180c2c7f7360f79a7f5c98f76e08e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Extras p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Extras p1--0c661593.png",
+    "bytes": 95822,
+    "sha256": "992de92d5b0ac35a26f7f1e7bd8e65e4fb63cfa6ca1f1946cd683cda2e86eb59"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Inscriere p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Inscriere p1--3cb4ad57.png",
+    "bytes": 188325,
+    "sha256": "b5aaf28615e66881c8ccb688d0deea44bb033cfe2fa8ac9b9754364893870443"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Polita curenta p3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Polita curenta p3--0ca18df8.png",
+    "bytes": 215799,
+    "sha256": "ab07717e9281e3238b4f8ba0772222e3b82f0fc625346225616e28a6654e370e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Polita curenta p5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Polita curenta p5--40cc9c9c.png",
+    "bytes": 202042,
+    "sha256": "f5c6e82b523c899b7945847c6da6bfe39dadb513952caae5bb0279aa374502b6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Verificare originale\\2026.10.07 Polita curenta p6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Polita curenta p6--fa07b2d9.png",
+    "bytes": 249430,
+    "sha256": "7ff9767e7f9467d7aa69f1e05221f48d3dcbaaf375f302f8e255e8b3773c1165"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 DRAFT Eva-Mail.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 DRAFT Eva-Mail--1ffa45c7.json",
+    "bytes": 7021,
+    "sha256": "0f63ce86bb7110c0ca82a698083b4f9754dd34d35ebd4ffd064b126714536f63"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 Punct de vedere juridic Donau.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 Punct de vedere juridic Donau--4e8991a3.txt",
+    "bytes": 10827,
+    "sha256": "b7f497372c203984c3fa2153dff38e598ccf304d9a8f7ddb09da6220045e15fb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita curenta p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 polita curenta p1--dc020e8c.png",
+    "bytes": 94467,
+    "sha256": "a73cf17d5448dc68169d0e202d82896b3a7bec50ec4f7abd3be88c20bcd1df00"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita curenta p7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 polita curenta p7--1f86769b.png",
+    "bytes": 140886,
+    "sha256": "d55cddcf58f4119b4b0cccfe5cfa063a4fecd91fd12cb4917e310d8ddcd878cb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita istorica p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 polita istorica p1--aaa9a98b.png",
+    "bytes": 103364,
+    "sha256": "1c409050f017c2a3be0d9b3c21404da84d2fc96e3d8c99fd50c997c829c42588"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 polita istorica p12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 polita istorica p12--680a85a7.png",
+    "bytes": 130660,
+    "sha256": "abfc9c4554040c32ecf15cd13a02f3cf640a58137cc237d284bb903561e7436a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Cerere reziliere Donau 2027\\2026.10.07 somatie originala p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 somatie originala p1--63b93d4b.png",
+    "bytes": 268592,
+    "sha256": "88e72f094b50bb588dd194a8586753f5908393cb598fa8eaad649c01c3ed2d73"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Verificare zilnica\\2026.10.07 Verificare Memoformat p1.png",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.07 Verificare Memoformat p1--6f94a893.png",
@@ -170,5 +394,38 @@
     "saved_path": "fisiere/2026.10.05 descarca comunicari--6f6556ad.ps1",
     "bytes": 815,
     "sha256": "570a9d280fecff3bca428f916d8d1dede99117f5e0eadd45c9b0e0c033d5b4e4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.07 actualizeaza_jurnal_opinie.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 actualizeaza_jurnal_opinie--a39f82eb.py",
+    "bytes": 5036,
+    "sha256": "0fe4b18b1bd11588815badb98a20ec2e4968d28ec18d4d640583dcb28fa3e488"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.07 arhiveaza punct juridic Donau.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 arhiveaza punct juridic Donau--69ed3761.py",
+    "bytes": 7899,
+    "sha256": "98d3748f45cbed2fa128340d3be3151c14f4a94a1a9a040b881afb809fa65f48"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.07 genereaza_opinie.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.07 genereaza_opinie--7d938add.py",
+    "bytes": 7757,
+    "sha256": "ca1f947ca786415a0db3bb9e1eade6b06a42b361d84a39701a1720813c0fd20a"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20010711_OGH0002_0070OB00152_01F0000_000&IncludeSelf=True",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39",
+    "status": "referinta_externa_necopiata"
   }
 ]

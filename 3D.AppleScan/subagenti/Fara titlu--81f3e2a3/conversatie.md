@@ -2,7 +2,7 @@
 
 ID: `01a0fcbe-e1b2-7950-8c53-9f3481f3e2a3`  
 Proiect: 3D.AppleScan  
-Export UTC: 2026-10-07T08:10:14.831141+00:00
+Export UTC: 2026-10-07T14:10:54.540840+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 

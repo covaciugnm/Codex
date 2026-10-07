@@ -1,0 +1,23 @@
+{
+  "id": "01a115aa-4be4-7970-b575-6c5fe6d83c4f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026",
+  "created_at": 1791364844,
+  "updated_at": 1791367018,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Pregătește bugete pentru Școli",
+  "project_id": "7310b49a-fe03-4b49-b6de-1877255e0742",
+  "project": "FinantariRO",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T14:10:54.540840+00:00",
+  "source_bytes": 10589023,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 169,
+  "message_count": 22,
+  "content_sha256": "feacf56d103f67999d48fcdd945252f159f4fd3bdf54b204d2cd3e9d62fcb876",
+  "files_copied": 22,
+  "references_not_copied": 4
+}
