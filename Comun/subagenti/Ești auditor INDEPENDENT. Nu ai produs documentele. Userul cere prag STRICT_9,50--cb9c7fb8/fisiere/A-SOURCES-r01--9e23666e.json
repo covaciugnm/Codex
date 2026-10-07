@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "audit_id": "RES-001-A-SOURCES-r01",
+  "deliverable_id": "RES-001",
+  "reviewer_agent_id": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+  "reviewer_role": "A-SOURCES",
+  "files": [
+    {
+      "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+      "sha256": "275b3b8fece33825294f27bd11cfe0c1010bba15fc082b5c8af6f16802e61f6a"
+    },
+    {
+      "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+      "sha256": "65aa05866f898b36f0059f2a58dd385a9e361ceb7cca93a32c9448f882ffc98f"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "surse",
+      "weight": 25,
+      "score": 962,
+      "evidence": [
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L21-L91",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L28-L125",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r1",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r2",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r3",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r4",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r5",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r6",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r7",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r8",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#web-r9",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#integritate"
+      ]
+    },
+    {
+      "id": "succes",
+      "weight": 20,
+      "score": 970,
+      "evidence": [
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L13-L19",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L93-L99",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L14-L24",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L94-L120",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#verificare-succes"
+      ]
+    },
+    {
+      "id": "originalitate",
+      "weight": 25,
+      "score": 965,
+      "evidence": [
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L12-L24",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L34-L125",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L127-L139",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L101-L145",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L166-L196",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#mecanisme"
+      ]
+    },
+    {
+      "id": "relevanta",
+      "weight": 15,
+      "score": 820,
+      "evidence": [
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L8-L10",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L131-L139",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L9-L11",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L99-L105",
+        "00_CONDUCERE/TRASABILITATE.md:L4-L7",
+        "06_REGISTRU/MANDATE_INITIALE.md:L9-L15",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#mandat-verificat",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#f-res-sources-001"
+      ]
+    },
+    {
+      "id": "utilizare",
+      "weight": 15,
+      "score": 910,
+      "evidence": [
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L131-L155",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L107-L164",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L166-L192",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#f-res-sources-001"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-RES-SOURCES-001",
+      "severity": "major",
+      "status": "open",
+      "location": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L10-L10",
+      "description": "Banca declară lumea comună drept cerință și cere confirmarea relațiilor dintre seriile Dracula Book; pasul de selecție L136 reia premisa aceleiași lumi. Mandatul clarificat privește universalitatea experiențelor și diversitatea prezentării, fără autorizarea unui univers ficțional comun între NOIR/AURORA/MYTHICA. Amânarea confirmării către agentul de canon nu retrage premisa și poate impune legături ori constrângeri inexistente. Sunt afectate relevanta și utilizare.",
+      "remediation": "Producătorul va reformula într-o versiune nouă L10 și L136 pentru a exprima universalitatea experiențelor și diferențierea prezentării, cu verificarea canonului separat pentru fiecare serie/WorkID; relațiile între serii vor exista numai dacă sunt demonstrate de canon ori autorizate explicit. Test de închidere: lectura integrală a ambelor documente și verificarea tuturor referințelor la lume/serii confirmă zero obligații de univers comun sau legături inventate; selecția funcționează pentru serii independente și păstrează 18 mecanisme, minimum două opere și ținta de minimum 50.000 de cuvinte. Se depune noul bundle cu hashuri și se reauditează; r01 rămâne nemodificat, constatarea rămâne open până la retest."
+    }
+  ],
+  "verdict": "RETURN",
+  "limitations": [
+    "Audit integral al celor două documente RES-001 din G00; nu reprezintă lectură integrală a operelor-reper sau a manuscriselor Dracula Book, aprobare a canonului, certificare a originalității unui roman ori trecere G01/G02+.",
+    "Afirmațiile comerciale sunt verificate ca declarații ale editurilor, autoarei sau prezentatorului; nu au fost auditate vânzările, profitul ori spectatorii și nu se dovedește cauzalitatea dintre mecanisme și succes.",
+    "URL-ul BAFTA plain-text citat în bancă a răspuns 403 la accesul HTTP direct; conținutul relevant a fost verificat în comunicatul PDF oficial din 12.04.2018 și baza oficială Games 2018. Erorile de extragere pentru Kate Morton și Paramount au fost depășite prin citirea directă HTTP 200.",
+    "Nu sunt păstrate copii integrale ale paginilor web; raportul MD consemnează URL-uri, secțiuni, rezultate și data consultării. Disponibilitatea și conținutul viitor al paginilor nu sunt garantate; data accesării declarată de producător nu poate fi autentificată retroactiv.",
+    "SHA-256 confirmă identitatea octeților verificați, fără timestamp extern sau autenticitate certificată. Registrul curent agents.json include auditorii, spre deosebire de copia anterioară auditului; această diferență este explicită în MD.",
+    "Acesta este exclusiv auditul A-SOURCES, independent de producător. Al doilea audit, metaauditul, înscrierea rapoartelor în registru și arhivarea rundei inclusiv RETURN rămân operații distincte ale coordonării; nu au fost efectuate sau certificate aici deoarece mandatul permite scrierea numai a celor două rapoarte."
+  ],
+  "reviewed_at": "2026-09-24T04:06:11+03:00"
+}

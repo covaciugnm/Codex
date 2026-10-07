@@ -1,0 +1,23 @@
+{
+  "id": "01a10e00-d32c-7ce3-983d-c6e0b5f4c637",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791204018,
+  "updated_at": 1791206207,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Fișă proiect Ghidul-solicitantului",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 306691,
+  "invalid_json_lines": 0,
+  "history_source": "legacy_events",
+  "rollout_exists": true,
+  "item_count": 97,
+  "message_count": 97,
+  "content_sha256": "5932c93f11a0cc157a9d723eeb49db2589fa50f62f783754b100d64a4aaef3c6",
+  "files_copied": 8,
+  "references_not_copied": 13
+}

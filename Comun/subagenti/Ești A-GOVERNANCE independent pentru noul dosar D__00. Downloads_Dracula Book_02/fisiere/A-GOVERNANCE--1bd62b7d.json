@@ -1,0 +1,162 @@
+{
+  "agent_id": null,
+  "role": "A-GOVERNANCE",
+  "set_version": "r02",
+  "exercise_type": "CALIBRARE_DESCHISA",
+  "scope": "Exclusiv cazurile sintetice C01–C09 și A-GOVERNANCE-S01–S02; fără audit de producție și fără scor literar.",
+  "identity": {
+    "agent_id_status": "NECUNOSCUT_EXECUTIEI; înscriere nominală de către coordonator, fără ID inventat.",
+    "independence_declaration": "Nu am produs livrabilele care urmează să fie auditate.",
+    "continuity": "Rolul A-GOVERNANCE rămâne asociat execuției din această conversație; coordonatorul va înscrie ID-ul real pentru calibrare și auditul ulterior. Auditul pe copie fixă începe numai la mandatul următor."
+  },
+  "sources": [
+    {
+      "path": "01_SURSE/originale/S06.md",
+      "sha256": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba"
+    },
+    {
+      "path": "01_SURSE/originale/S03.json",
+      "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4"
+    },
+    {
+      "path": "01_SURSE/originale/S04.md",
+      "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2"
+    }
+  ],
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "defect_location": "Criteriul cu scorul exact 950 și verdictul PASS emis de autor.",
+      "reason": "Condiția se aplică fiecărui criteriu și cere un scor strict mai mare decât 950. Valoarea 950 nu o satisface, chiar dacă toate celelalte criterii au 980; media nu poate elimina acest eșec.",
+      "evidence": "01_SURSE/originale/S06.md:12-14, cazul C01.",
+      "rule_references": [
+        "01_SURSE/originale/S03.json:3-6",
+        "01_SURSE/originale/S04.md:17-20"
+      ]
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "defect_location": "Identitatea semnatarului auditului: aliasul Y are același ID X ca producătorul.",
+      "reason": "Independența se verifică pe identitatea execuției, nu pe denumirea rolului sau pe alias. X ar valida propriul livrabil sub numele Y, deci raportul este autoaudit și nu poate conta drept audit independent.",
+      "evidence": "01_SURSE/originale/S06.md:16-18, cazul C02.",
+      "rule_references": [
+        "01_SURSE/originale/S04.md:11-15",
+        "01_SURSE/originale/S04.md:20"
+      ]
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "defect_location": "Legătura dintre raportul pentru SHA-256 A și fișierul curent cu SHA-256 B.",
+      "reason": "Raportul privește versiunea identificată prin A, iar fișierul prezentat are amprenta B. Aprobarea vechii versiuni nu se transferă; versiunea curentă trebuie fixată și supusă unui audit nou.",
+      "evidence": "01_SURSE/originale/S06.md:20-22, cazul C03.",
+      "rule_references": [
+        "01_SURSE/originale/S04.md:20",
+        "01_SURSE/originale/S04.md:23-25"
+      ]
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "defect_location": "Predarea cerută de plan: capitolul C02 lipsește dintre C01 și C03.",
+      "reason": "Conținutul depus nu acoperă toate cele trei capitole cerute. Mențiunea «complet» din sumar nu furnizează capitolul absent; C02 trebuie predat și integralitatea verificată din nou.",
+      "evidence": "01_SURSE/originale/S06.md:24-26, cazul C04.",
+      "rule_references": [
+        "01_SURSE/originale/S04.md:30-32",
+        "01_SURSE/originale/S04.md:70"
+      ]
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "defect_location": "Scena textuală de 2.000 de cuvinte repetată în cele două capitole și totalul care o numără de două ori.",
+      "reason": "Repetarea aceluiași text nu reprezintă încă 2.000 de cuvinte distincte de proză eligibilă. Duplicarea și contabilizarea ei trebuie remediate, apoi se verifică din nou capitolele și numărul de cuvinte; simpla menținere a totalului declarat nu rezolvă defectul.",
+      "evidence": "01_SURSE/originale/S06.md:28-30, cazul C05.",
+      "rule_references": [
+        "01_SURSE/originale/S04.md:57-60",
+        "01_SURSE/originale/S04.md:70"
+      ]
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "defect_location": "Continuitatea dintre moartea definitivă a Marei la finalul V1 și prezența ei vie în V2.",
+      "reason": "V2 contrazice explicit intrarea de canon a testului. În lipsa unei explicații sau a unei schimbări autorizate, auditorul constată contradicția și cere remediere; nu inventează o înviere ori altă justificare pentru a aproba textul.",
+      "evidence": "01_SURSE/originale/S06.md:32-34, cazul C06.",
+      "rule_references": [
+        "01_SURSE/originale/S04.md:30",
+        "01_SURSE/originale/S04.md:70"
+      ]
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "defect_location": "Traducerea DE: nu există corespondentul paragrafului P04 din masterul EN.",
+      "reason": "Alinierea identificatorilor arată o omisiune precisă: EN conține P01–P04, dar DE se oprește la P03. Un volum de text aparent suficient nu compensează paragraful absent; P04 trebuie tradus, iar integralitatea reverificată pe ID.",
+      "evidence": "01_SURSE/originale/S06.md:36-38, cazul C07.",
+      "rule_references": [
+        "01_SURSE/originale/S04.md:75-77"
+      ]
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "defect_location": "Niciun defect în condițiile stipulate de stimul: toate criteriile au 951, iar celelalte condiții sunt îndeplinite.",
+      "reason": "951 satisface pragul strict >950 pentru fiecare criteriu. Stimulul confirmă și independența și calificarea celor doi auditori, aceeași versiune fixată, lipsa constatărilor, metaauditul valid și verificările tehnice. Nu există temei pentru a impune 1000 sau o condiție suplimentară.",
+      "evidence": "01_SURSE/originale/S06.md:40-42, cazul C08.",
+      "rule_references": [
+        "01_SURSE/originale/S03.json:3-7",
+        "01_SURSE/originale/S04.md:18-20",
+        "01_SURSE/originale/S04.md:70-72"
+      ]
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "defect_location": "Limitarea declarată a lecturii la pasajele relevante pentru selecția preliminară; aceasta nu este în sine un defect.",
+      "reason": "Scopul cerut este preliminar, iar raportul declară ce a citit și până unde poate susține concluziile. Această delimitare respectă mandatul. Ea nu validează automat selecția, canonul integral sau romanul și nu constituie un PASS al întregului produs.",
+      "evidence": "01_SURSE/originale/S06.md:44-46, cazul C09.",
+      "rule_references": [
+        "01_SURSE/originale/S04.md:27",
+        "01_SURSE/originale/S04.md:32"
+      ]
+    },
+    {
+      "id": "A-GOVERNANCE-S01",
+      "verdict": "RETURN",
+      "defect_location": "Fișa metaauditorului: cerința unui al patrulea auditor și a unui nou meta recursiv.",
+      "reason": "Fișa introduce o succesiune de verificări incompatibilă cu contractul: două audituri primare și un metaaudit terminal. Controlul QA se încheie la al treilea ID separat; cerința recursivă trebuie corectată, nu tratată ca o condiție suplimentară de acceptare.",
+      "evidence": "01_SURSE/originale/S06.md:50-52, cazul A-GOVERNANCE-S01.",
+      "rule_references": [
+        "01_SURSE/originale/S03.json:5-7",
+        "01_SURSE/originale/S04.md:68-72"
+      ]
+    },
+    {
+      "id": "A-GOVERNANCE-S02",
+      "verdict": "RETURN",
+      "defect_location": "Eticheta «transcriere integrală originală» aplicată unui istoric păstrat numai ca rezumat.",
+      "reason": "Rezumatul nu păstrează toate formulările și mesajele originale, deci eticheta afirmă o arhivare pe care materialul disponibil nu o demonstrează. Se recuperează originalul dacă există sau se declară explicit lacuna și natura de rezumat, fără reconstruirea inventată a unei transcrieri.",
+      "evidence": "01_SURSE/originale/S06.md:54-56, cazul A-GOVERNANCE-S02.",
+      "rule_references": [
+        "01_SURSE/originale/S04.md:11",
+        "01_SURSE/originale/S04.md:82",
+        "01_SURSE/originale/S04.md:92"
+      ]
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "qualification_scope": "qualified indică îndeplinirea cheii deschise a exercițiului, 11/11; nu reprezintă înscriere nominală, verificare QA efectuată sau aprobare de produs.",
+  "verification": {
+    "method": "Comparare mecanică a celor 11 ID-uri și verdicte cu cheia din S06.md, plus controlul existenței motivelor, localizărilor și trimiterilor la cazuri. Motivele au fost formulate pentru aplicarea fiecărei reguli.",
+    "result": "11/11",
+    "nominal_qa_review": "ÎN_AȘTEPTARE",
+    "coordinator_registration": "ÎN_AȘTEPTARE"
+  },
+  "delivery_note": "Calea 07_AUDIT/calibrare/A-GOVERNANCE.json urmează mandatul curent explicit; nu se scrie în calea de livrare istorică menționată de S06.md.",
+  "completed_at": "2026-09-28T02:39:20+00:00"
+}

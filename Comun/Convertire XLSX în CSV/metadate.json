@@ -1,0 +1,23 @@
+{
+  "id": "01a10e00-d344-79a0-adca-e284ed7b5fc5",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791202914,
+  "updated_at": 1791231591,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Convertire XLSX în CSV",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 831623,
+  "invalid_json_lines": 0,
+  "history_source": "legacy_events",
+  "rollout_exists": true,
+  "item_count": 414,
+  "message_count": 414,
+  "content_sha256": "4db5623f9f92a1025f928fb171301027504665e8ec36d041c0416cde1b09aebe",
+  "files_copied": 37,
+  "references_not_copied": 36
+}

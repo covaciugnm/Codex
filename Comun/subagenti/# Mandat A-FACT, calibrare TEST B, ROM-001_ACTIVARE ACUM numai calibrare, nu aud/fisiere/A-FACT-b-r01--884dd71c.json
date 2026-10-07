@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d1df-4217-7a01-92af-667005fddae6",
+  "role": "A-FACT",
+  "set_version": "rom001-b-r01",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Criteriul cu 950 nu îndeplinește pragul strict >950. Celelalte scoruri de 980 și media nu îl compensează; verdictul PASS este nejustificat.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:13 — C01, criteriul cu scor exact 950; regula și cheia la linia 14."
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Producătorul și semnatarul auditului au același ID X. Aliasul Y nu creează independență; autoauditul trebuie înlocuit cu evaluarea unei alte identități reale.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:17 — C02, aliasul Y păstrează ID-ul producătorului X; cheia la linia 18."
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Raportul acoperă amprenta A, iar fișierul curent are amprenta B. Auditul vechii versiuni nu validează fișierul modificat; este necesar un audit nou pe versiunea curentă fixată.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:21 — C03, SHA-256 A în raport versus B pentru fișierul curent; cheia la linia 22."
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Din predarea cerută C01–C03 lipsește capitolul C02. Declarația de completitudine din sumar nu înlocuiește textul absent; predarea trebuie completată și integralitatea reverificată.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:25 — C04, planul C01–C03 și predarea doar C01/C03; cheia la linia 26."
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Aceeași scenă de 2.000 de cuvinte este duplicată în două capitole și numărată de două ori. Sunt necesare remedierea duplicării și renumărarea prozei eligibile, urmate de retest.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:29 — C05, scena textuală repetată și dubla numărare; cheia la linia 30."
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Mara vie în V2 contrazice moartea definitivă stabilită la sfârșitul V1. Stimulul nu oferă explicație sau schimbare autorizată; nu pot inventa o rezolvare pentru a valida contradicția.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:33 — C06, moartea definitivă din V1 versus apariția vie în V2; cheia la linia 34."
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Paragraful P04 din masterul EN nu există în traducerea DE. Traducerea este incompletă; omisiunea se remediază și alinierea tuturor identificatorilor P01–P04 se reverifică, fără a deduce integralitatea din volum.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:37 — C07, EN/P01–P04 versus DE/P01–P03, cu P04 absent; cheia la linia 38."
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "Toate criteriile au 951, deci depășesc strict 950. Stimulul confirmă doi auditori independenți și calificați pe versiunea fixată, zero constatări, meta valid și toate condițiile tehnice verificate; nu există temei pentru a cere 1000 sau criterii suplimentare.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:41 — C08, condițiile de acceptare stipulate cumulativ; cheia la linia 42."
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Livrabilul cerut este o selecție preliminară, iar raportul declară exact pasajele citite și limitele concluziilor. Limitarea respectă scopul declarat; ea nu acordă automat PASS produsului și nu validează canonul integral sau romanul.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:45 — C09, scopul preliminar și delimitarea explicită a lecturii; cheia la linia 46."
+    },
+    {
+      "id": "A-FACT-S01",
+      "verdict": "RETURN",
+      "reason": "Sursa fictivă S1 stipulează deschiderea podului în 1900, în contradicție cu anul 1890 afirmat de narațiune pentru același pod. Pretinsa verificare exactă în S1 este neîntemeiată; se cer corectarea afirmației sau documentarea justificată și reverificarea raportului, fără surse ori avize inventate. Obiectul fictiv nu necesită cercetare web.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md:11 — A-FACT-S01, S1/1900 versus narațiune/1890 și afirmația verificării exacte; cheia la linia 12."
+    },
+    {
+      "id": "A-FACT-S02",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Credința greșită aparține personajului: bariera, informația corectă și consecința o infirmă în scenă. Narațiunea nu o asumă ca fapt, deci raportul confundă perspectiva personajului cu afirmația factuală a autorului. Celelalte verificări rămân necesare; cazul nu acordă PASS întregului produs.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md:14 — A-FACT-S02, credința personajului infirmată la barieră și nevalidată de narațiune; cheia la linia 15."
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T08:25:07+03:00"
+}

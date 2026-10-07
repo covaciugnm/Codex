@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-24 09:07:42 UTC",
+  "agent_id": "01a0d0d7-e865-7b71-9707-be8786099512",
+  "submission": {
+    "submission_id": "01a0d2a4-d821-7810-9c8a-416ab57fc4e6"
+  },
+  "result": {
+    "status": {
+      "01a0d0d7-e865-7b71-9707-be8786099512": {
+        "completed": "Am predat [raportul de retest](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/MASURI/ROM-001-G01-HANDOFF-MANAGER-retest-r01.md>) — 810 cuvinte.\n\nHM-P01, HM-P02 și clarificarea HM-T15 sunt tratate în documentele managerului. Sunt exact trei paragrafe modificate; restul textelor este identic. Toate cele 11 intrări au rămas neschimbate până la verificarea finală.\n\nControl de producție, fără închidere formală sau acceptarea G01. Nu am recitit H integral ori produsele editorului.\n\nSHA-256: `cb30e7e1af4aed75a7f897b6e569afbdb9d2732ffc1e920b7d462dde73b0644e`\n\nScrierile sunt oprite."
+      }
+    },
+    "timed_out": false
+  },
+  "close": {
+    "previous_status": {
+      "completed": "Am predat [raportul de retest](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/MASURI/ROM-001-G01-HANDOFF-MANAGER-retest-r01.md>) — 810 cuvinte.\n\nHM-P01, HM-P02 și clarificarea HM-T15 sunt tratate în documentele managerului. Sunt exact trei paragrafe modificate; restul textelor este identic. Toate cele 11 intrări au rămas neschimbate până la verificarea finală.\n\nControl de producție, fără închidere formală sau acceptarea G01. Nu am recitit H integral ori produsele editorului.\n\nSHA-256: `cb30e7e1af4aed75a7f897b6e569afbdb9d2732ffc1e920b7d462dde73b0644e`\n\nScrierile sunt oprite."
+    }
+  }
+}

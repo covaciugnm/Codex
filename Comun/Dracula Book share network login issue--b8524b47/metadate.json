@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9cf7-7071-8192-41acb8524b47",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788439417,
+  "updated_at": 1788441196,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Dracula Book share network login issue",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 65241,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 33,
+  "message_count": 33,
+  "content_sha256": "94a63b72a3c9d3808b36505b259baf02e1635cb8ea7e8c31748086f60a4dc679",
+  "files_copied": 0,
+  "references_not_copied": 3
+}

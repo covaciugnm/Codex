@@ -1,0 +1,85 @@
+[
+  {
+    "source_reference": "C:\\Users\\User",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\dcb2d3d9-ff03-4a1e-9d63-f002998ee856\\scratchpad\\furnizori-utilaje-nuci.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\dcb2d3d9-ff03-4a1e-9d63-f002998ee856\\scratchpad\\txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\Oferta comerciala - CESIRO PRODUCTION - Linie procesare nuci 400 kg - h (1).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Oferta comerciala - CESIRO PRODUCTION - Linie procesare--4b54714f.pdf",
+    "bytes": 1092628,
+    "sha256": "143b316d4198fcd2db11244d6897f835b7ac882555361bf4714b2429113bbc3c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\My Drive (covaciu.gnm@gmail.com)\\00. Proiecte",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\My Drive (covaciu.gnm@gmail.com)\\00. Proiecte\\AFIR FotoVoltaic 1\\1. Proiect 1\\9. Fabrica Nuci",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\My Drive (covaciu.gnm@gmail.com)\\00. Proiecte\\AFIR FotoVoltaic 1\\6. Fise Tehnice\\WallNuts June\\2025-2-13-核桃-1.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\WeChat Files\\wxid_4h8mc2p3vmh212\\FileStorage\\File",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\WeChat Files\\wxid_4h8mc2p3vmh212\\FileStorage\\File\\2024-12\\Automatic Walnut Kernel Production Line.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Automatic Walnut Kernel Production Line--a0c5480e.pdf",
+    "bytes": 2298945,
+    "sha256": "0543d770851372aa96eb59150366affa8e83a15f332b48427f6d5606cdc5c3d7"
+  },
+  {
+    "source_reference": "E:\\2019\\4. Proiecte in implementare\\POSDRU\\5.2 Strategic - 48027\\Implementare\\OIR Cereri si raspunsuri\\CLARIFICARI 1 NOI 2012\\Oferte alune.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Oferte alune--d71b7c0f.docx",
+    "bytes": 13287,
+    "sha256": "49ce829bb9b2cc19f1cdb7d96a3ce157497c4980ccae25f553bacb6e2c5ad264"
+  },
+  {
+    "source_reference": "I:\\2. Proiecte in lucru\\Cristi Macarie\\Muntean Paul\\...",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "I:\\2. Proiecte in lucru\\Cristi Macarie\\Muntean Paul\\Ghidul solicitantului si anexe\\Proiect nuci.doc",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect nuci--9899b4f4.doc",
+    "bytes": 377344,
+    "sha256": "de35b3b93034dd28030868ff3b98c3821ad0301a42a881d25b6d3fbadec641bc"
+  },
+  {
+    "source_reference": "I:\\Diverse\\112\\Muntean Paul\\...",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "I:\\Diverse\\112\\Muntean Paul\\Ghidul solicitantului si anexe\\Proiect nuci.doc",
+    "status": "copiat",
+    "saved_path": "fisiere/Proiect nuci--ed01553c.doc",
+    "bytes": 377344,
+    "sha256": "de35b3b93034dd28030868ff3b98c3821ad0301a42a881d25b6d3fbadec641bc"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://www.licitatiipublice.ro/licitatiipublice/?usrc=nem&cca=#cha#",
+    "status": "referinta_externa_necopiata"
+  }
+]

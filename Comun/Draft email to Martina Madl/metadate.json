@@ -1,0 +1,23 @@
+{
+  "id": "01a0cd29-4007-70d3-a092-44f5057491c9",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790071619,
+  "updated_at": 1790071644,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Draft email to Martina Madl",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 44754,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 9,
+  "message_count": 9,
+  "content_sha256": "02a34340c97178bffecb231556e8f72d73473bb96a5f78c46ccdc9eb43846620",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

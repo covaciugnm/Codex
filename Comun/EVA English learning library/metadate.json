@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9d3c-71c3-a94d-f7c11df7ced8",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1783932591,
+  "updated_at": 1785900375,
+  "archived": 0,
+  "source": "vscode",
+  "title": "EVA English learning library",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 2635632,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 1572,
+  "message_count": 1572,
+  "content_sha256": "eab98bb4cb515be07f1b396951b32e757e12e444a5638dda64730a2976c4ec4f",
+  "files_copied": 20,
+  "references_not_copied": 95
+}

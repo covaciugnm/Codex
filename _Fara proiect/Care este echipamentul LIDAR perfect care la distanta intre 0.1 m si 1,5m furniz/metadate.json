@@ -1,0 +1,23 @@
+{
+  "id": "019f27e6-097e-7c03-997a-5e4f4b586338",
+  "cwd": "\\\\?\\C:\\Windows\\System32",
+  "created_at": 1783080814,
+  "updated_at": 1783095218,
+  "archived": 0,
+  "source": "cli",
+  "title": "Care este echipamentul LIDAR perfect care la distanta intre 0.1 m si 1,5m furnizeaza un nor de puncte - fara a folosi software de generare - ci pur si simplu reia scanarea de artatea ori pe secunda incat sa aiba toate punctele si cu acuratete sub 0,5m?",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "unassigned",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 186509,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 49,
+  "message_count": 7,
+  "content_sha256": "e28093d425ece2bd56fea6c3ab33afe15e5478ddd3d23321ae8829750ac36b70",
+  "files_copied": 0,
+  "references_not_copied": 8
+}

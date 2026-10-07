@@ -1,0 +1,113 @@
+{
+  "projects": {
+    "5c179290-3222-4036-8042-710f2e84db88": {
+      "name": "Comun",
+      "content_sha256": "190136c4e039e4d242fbfce07cb105641626be49fac388004eef1e1720e96d0b",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "Comun"
+    },
+    "59b8aaaa-7677-449b-b80b-e79b02b3b9ab": {
+      "name": "dracula-design",
+      "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "dracula-design"
+    },
+    "95875198-03f4-4b10-8e79-934b195cc0e8": {
+      "name": "IndustryDeveloperPrinter",
+      "content_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "IndustryDeveloperPrinter"
+    },
+    "fb3ecc5b-d79f-4ebd-8375-45b8acdeb7c5": {
+      "name": "Indunova",
+      "content_sha256": "5ee9f299d40c49bbfba5bfdaf3d0537c4e087ab30833af4e3fb642a07aac6eee",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "Indunova"
+    },
+    "13771f36-ff54-4018-99b0-f69f8dfdd2f8": {
+      "name": "WildMotion",
+      "content_sha256": "bc9acb9a8148ecd532d86071811777fb7aa287331ffc8e276b9f670280d5bf71",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "WildMotion"
+    },
+    "a62819fc-eecd-41a3-acfa-724e26db8d88": {
+      "name": "AFIR-FotoVoltaic Production",
+      "content_sha256": "c6f089efd9db0d7c73114b669764e5703ca307ae38b51ff06f1b4b6469ed7b0e",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "AFIR-FotoVoltaic Production"
+    },
+    "88071415-6de0-43ab-a220-10f6d6515e0e": {
+      "name": "EVA-SchallerGasse",
+      "content_sha256": "6bdb1b0393be9b65ba4064008c24b6f87fe2d8b8a8141a9c289434b58b9f5b18",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "EVA-SchallerGasse"
+    },
+    "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
+      "name": "Bloc Centru",
+      "content_sha256": "fd408dd4076c36f46fcae2225fed159a35e19f93dedbfde651607b104d2069b8",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "Bloc Centru"
+    },
+    "b56f4502-5596-48b3-ab73-9624c7b0cd4a": {
+      "name": "eDrive",
+      "content_sha256": "0bda73f9f5bec03f817cf03cc01e649595998e4d1d2a85ee6bac707893ef440b",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "eDrive"
+    },
+    "7310b49a-fe03-4b49-b6de-1877255e0742": {
+      "name": "FinantariRO",
+      "content_sha256": "f8d74c520eb48a2e2dd93b49a2071b365919b584fca893e1964b9b209b198cf7",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "FinantariRO"
+    },
+    "ec58c433-8025-4835-8910-bab2f99b913f": {
+      "name": "FinantariEU",
+      "content_sha256": "0ee187bda27ed4ec7e278b43a41c467137beb2e3bfb44afd468452666b6029b3",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "FinantariEU"
+    },
+    "bad0be1d-5fae-412b-aa11-fef421eb951f": {
+      "name": "EVA-Learn",
+      "content_sha256": "277f2c4cab224232cfedf9ac004ec56ce52534ab13394d337f67e20c92ec64de",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "EVA-Learn"
+    },
+    "e56b444a-bcfc-4be0-8aef-18f33b0e3b74": {
+      "name": "Persoane&Firme",
+      "content_sha256": "0de774b691b0dfa0154a940c5c5f88b4c7152570a3f2948427e13570013a13dd",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "Persoane&Firme"
+    },
+    "5ecee0ff-6b67-4fba-b6fb-a38674476433": {
+      "name": "Print.eva-org,com",
+      "content_sha256": "4d1448443c0a728ca05c25beec658c7eb4446b9b0db21266eb7044305e81ea84",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "Print.eva-org,com"
+    },
+    "e7854c92-2b47-41b6-811e-be76b04f4f39": {
+      "name": "3D.AppleScan",
+      "content_sha256": "18fd40cf1388ea4bfb6c7cebed2c4489553d2b7207cb8af1841eb8a25e7b94e1",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "3D.AppleScan"
+    },
+    "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
+      "name": "iDempiere",
+      "content_sha256": "bcce4e3cfb35d436b656c9b891b9f44810d464d3973271f409f237898fe41927",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "iDempiere"
+    },
+    "a85004ee-5acd-4f38-b445-2289450e8065": {
+      "name": "EVA-Mail",
+      "content_sha256": "1d36635405a13d5ecfe4a2906d9013dd3fb5dbcdfd48c0d6016069bf3a787141",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "EVA-Mail"
+    },
+    "_Fara proiect": {
+      "name": "_Fara proiect",
+      "content_sha256": "a3b81a44ec733b5320658e03dd7fb6abdd92f6874b51c9a9de9f3f06e822d351",
+      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "folder": "_Fara proiect"
+    }
+  },
+  "updated_at_utc": "2026-10-07T08:52:25.384787+00:00"
+}

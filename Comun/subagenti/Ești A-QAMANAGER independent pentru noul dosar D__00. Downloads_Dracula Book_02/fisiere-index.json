@@ -1,0 +1,30 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/META_r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META_r01--f848dfb3.json",
+    "bytes": 772,
+    "sha256": "b350233c10b77a320fd0520377a056b60561e3f4f909e32ce0e81cdc1f59b256"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/META_r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/META_r01--bae72e0c.md",
+    "bytes": 11833,
+    "sha256": "4b1dacffeaec48f4ae359fd1dee65507145afd41051a78d2e5dae1e3617fd5ad"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/calibrare/A-QAMANAGER.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER--c5aa4456.json",
+    "bytes": 6651,
+    "sha256": "2748c80c5c13dbcd0da7a9d4d5395467142425cb11378631ea11679a967c1afb"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/calibrare/VERIFICARE_QA.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_QA--42b8d649.md",
+    "bytes": 14721,
+    "sha256": "47458b8f8aac8bf99d09fae276d2678d0b4a50a0f8521593224eedfdf6a113c1"
+  }
+]

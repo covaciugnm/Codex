@@ -1,0 +1,72 @@
+[
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/EVA_Buget_FINAL.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA_Buget_FINAL--89cb18a9.xlsx",
+    "bytes": 13813,
+    "sha256": "9dec008b9814395873dcb1da876709e0b70c5e90581bebe6d99a8073a0c19e8a"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/EVA_Buget_consolidat.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/Linie productie robotica.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/4. Dosar depunere (de completat",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/mysmis/3.1 Activitati Proiect.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/3.1 Activitati Proiect--0cf5f5f0.docx",
+    "bytes": 17453,
+    "sha256": "96d495b2a28a3e033529e8bc40cce04cd16dcc43e8e2f95fe97ca56900b69e12"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DANCOR PROIECT SRL - CUI 12445967",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\extract_project_content.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://eur-lex.europa.eu/eli/reg/2014/651",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/58613",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/vek280.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/jetson-thor/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.nvidia.com/en-us/data-center/h100/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.smart.org.ro/wp-content/uploads/Ghid-Actiunea-2.1-PoCIDIF.pdf",
+    "status": "referinta_externa_necopiata"
+  }
+]

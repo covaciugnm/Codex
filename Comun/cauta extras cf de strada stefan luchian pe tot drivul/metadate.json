@@ -1,0 +1,23 @@
+{
+  "id": "01a0873b-2f57-7622-8c29-12003c7d4c4b",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788943266,
+  "updated_at": 1788959802,
+  "archived": 0,
+  "source": "vscode",
+  "title": "cauta extras cf de strada stefan luchian pe tot drivul",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 196677,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 96,
+  "message_count": 96,
+  "content_sha256": "b0fcb01f2ec1e56e1ca1957e65099804bf55ebae13d3b1b0a50de19466c0683d",
+  "files_copied": 7,
+  "references_not_copied": 11
+}

@@ -1,0 +1,4 @@
+ACTIVARE EXPLICITĂ ACUM — începe și finalizează reauditul r03 conform mandatului deja primit. Contractele r03 sunt înghețate și toate cele trei arhive r03-before-audit au fost deja create înainte de trimiterea mandatului. Formularea temporală din mandat a fost condițională, dar condiția este acum îndeplinită. Nu mai aștepta altă reluare.
+ROOT=D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000
+Contracte: SYS-001 2a87f9d159a99fb048a4262f5b4ae34b8fe129668d5e67690e790ace6e99d09c; SEL-001 85ec85d5f34b57a49f0d0430e50caf030a094af11eba902c98692da3c565fd28; RES-001 15462dd9ab698261300adb09be2caa7049a76710bcee27194e719c0de8ca10e8.
+Recuperarea efectivă înainte de audit este și ea finalizată, în 06_REGISTRU/REZULTATE/RECUPERARE_REAL_BEFORE_r03.json (dacă o citezi, declar-o ca supliment propriu; nu este în contractul înghețat). Rapoarte concise, verificări reale, fără verdict anticipat. Fișierele de produs/probele contractuale rămân nemodificate.

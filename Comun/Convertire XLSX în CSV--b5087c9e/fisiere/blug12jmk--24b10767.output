@@ -1,0 +1,7 @@
+EXIT 0
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+-rwxrwxr-x 1 user user 72456 Oct  6 10:37 build/bin/llama-server
+
+[exited with code 0]

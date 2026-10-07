@@ -1,0 +1,124 @@
+[
+  {
+    "source_reference": "$img.Width * 0.55",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\LibreOffice\\program\\soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\LibreOffice\\program\\soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\bddec2ab-3280-419e-8ebe-a484e84def6c\\tool-results\\bhi1sphjw.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/bhi1sphjw--f8a8707b.txt",
+    "bytes": 72463,
+    "sha256": "2e9f293d96227502bd6ec86d38183088e47927ecfb6c934fe64e2d04e47b27e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\bddec2ab-3280-419e-8ebe-a484e84def6c\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\bddec2ab-3280-419e-8ebe-a484e84def6c\\scratchpad\\check.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\bddec2ab-3280-419e-8ebe-a484e84def6c\\scratchpad\\gen_docs.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\bddec2ab-3280-419e-8ebe-a484e84def6c\\scratchpad\\pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\563b6e1d-3e82-4c49-a166-6c6476a1b01f\\6bafde40-a559-4750-9e08-274e5fb0537d\\skills\\docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\563b6e1d-3e82-4c49-a166-6c6476a1b01f\\6bafde40-a559-4750-9e08-274e5fb0537d\\skills\\docx\\scripts\\office\\soffice.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\bddec2ab-3280-419e-8ebe-a484e84def6c\\\\scratchpad\\\\gen_docs.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\bddec2ab-3280-419e-8ebe-a484e84def6c\\\\scratchpad\\\\pdf\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Caiet Alarma+Camere",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Documente Vanzare",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Documente Vanzare\\*.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Poze Serii Camere",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Documente Vanzare\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Documente Vanzare\\\\01_Factura_fiscala_INDUNOVA.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Factura_fiscala_INDUNOVA--181aeda0.docx",
+    "bytes": 11208,
+    "sha256": "812dfcda5c9372e67e16c856a600be17e90303869458c6296e36f7901d4a3504"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Documente Vanzare\\\\02_Aviz_insotire_marfa_INDUNOVA.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Aviz_insotire_marfa_INDUNOVA--f7cc42e8.docx",
+    "bytes": 10991,
+    "sha256": "feac949dc1b78b292697e4bdaafcf85662bd32fa46c5322c7873ccb0193bdbb1"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Documente Vanzare\\\\03_Certificat_calitate_conformitate_INDUNOVA.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/03_Certificat_calitate_conformitate_INDUNOVA--4be1af67.docx",
+    "bytes": 11005,
+    "sha256": "1c7830bdcb75583a0b74f30a4eae96dfa3da6dbc82bca4b7495b3d8e93d55a45"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Documente Vanzare\\\\04_Certificat_garantie_INDUNOVA.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/04_Certificat_garantie_INDUNOVA--ea3ed85b.docx",
+    "bytes": 9839,
+    "sha256": "676e5bc9ce6d1b55e5b8ac416ec07f12406c894d1f0b494e6fe1891362551324"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Documente Vanzare\\\\05_Proces_verbal_receptie_INDUNOVA.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/05_Proces_verbal_receptie_INDUNOVA--ac1fc39e.docx",
+    "bytes": 11206,
+    "sha256": "426d2d03ce94970252e92efa006f24967f7b2af35022ccd69faa916d7f939cd4"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

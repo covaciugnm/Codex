@@ -1,0 +1,74 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026-09-21 Anlage 5 - Fragenkatalog 18.09.2026 ausgefuellt (Scan).pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallergasse 35 (Entwurf AG v2).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallerga--40364ead.docx",
+    "bytes": 61829,
+    "sha256": "ce11e43d01bbab831f3225b51e6752c1d45aba8f2b35938b40dc023bbf390e14"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallergasse 35 (Entwurf AG v2).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallerga--3bdbd3c7.pdf",
+    "bytes": 563728,
+    "sha256": "c6ff9c4f3459646c5212bfd64f3b09fc65e8289e33c1badd6022b5b35e5fff5f"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallergasse 35 (Entwurf AG).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallerga--0c560294.docx",
+    "bytes": 53407,
+    "sha256": "9ffe5218dfdd348a60d2ec774303d125e588206392bb61da5fb7fc0a4e8d4c77"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-09-18 Besprechungsunterlage TOMS Ziviltechniker - Schallergasse 35 (DE).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-18 Besprechungsunterlage TOMS Ziviltechniker - --0390d865.pdf",
+    "bytes": 686344,
+    "sha256": "df9b68ad796da744c49fde48369d786e9de675f1e9827960dc1ce2528be9c58e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-09-21 Anlage 4 - Fragenkatalog 18.09.2026 ausgefuellt (Scan).pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallergasse 35 (Entwurf AG v2).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallerga--40364ead.docx",
+    "bytes": 61829,
+    "sha256": "ce11e43d01bbab831f3225b51e6752c1d45aba8f2b35938b40dc023bbf390e14"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallergasse 35 (Entwurf AG v2).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallerga--3bdbd3c7.pdf",
+    "bytes": 563728,
+    "sha256": "c6ff9c4f3459646c5212bfd64f3b09fc65e8289e33c1badd6022b5b35e5fff5f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallergasse 35 (Entwurf AG).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-21 Werkvertrag TOMS Ziviltechniker - Schallerga--0c560294.docx",
+    "bytes": 53407,
+    "sha256": "9ffe5218dfdd348a60d2ec774303d125e588206392bb61da5fb7fc0a4e8d4c77"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox\\2026.09.15 Discutii TOMS.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.15 Discutii TOMS--6c1a29bd.pdf",
+    "bytes": 94858056,
+    "sha256": "579c4841cb0b6d31efed41260515c10cb64fad82248345b51d76002f8496d4aa"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

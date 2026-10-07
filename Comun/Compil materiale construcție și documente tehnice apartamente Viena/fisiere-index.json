@@ -1,0 +1,380 @@
+[
+  {
+    "source_reference": "C:\\Program Files (x86)\\LibreOffice\\program\\soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\LibreOffice\\program\\soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pymupdf\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--aeae093c.py",
+    "bytes": 827604,
+    "sha256": "70cf202b4079a1e49205c4d88900d71235b9700d61a89c9382a6d3dc172b9888"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pymupdf\\mupdf.py",
+    "status": "copiat",
+    "saved_path": "fisiere/mupdf--b8369fc0.py",
+    "bytes": 2298923,
+    "sha256": "b95aa209d134d8524a25ca5d017869313f9750fd398abbfa3560a7d50ffbecf4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\Geotechnische_Zusammenfassung_Baugrund_DE_Schallergasse35.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\anschreiben_v2.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\geo_check.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\geotechnik_doc.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\toms_check.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\toms_v2.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\toms_v3.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\toms_v4.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\toms_v5.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\vorkonzept_p1.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\wien200.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\pdf2png.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\peek_ang840.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\563b6e1d-3e82-4c49-a166-6c6476a1b01f\\6bafde40-a559-4750-9e08-274e5fb0537d\\skills\\docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\563b6e1d-3e82-4c49-a166-6c6476a1b01f\\6bafde40-a559-4750-9e08-274e5fb0537d\\skills\\docx\\scripts\\office\\soffice.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\2026_08_17_Anbot_Statik_Detail.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\260829_Preisindikation-Schallergasse-35_A&C Wohnart Immobilien.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\AGB_Baumeister DI Paknehad_v01.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\ANG 839_Schallergasse 35, 1120 Wien_PI.PDF",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\Portfolio DL_Baumeister-Bausachverstandigenburo-DI-Paknehad.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\00b05399-0272-4746-8054-d798b02b5d84\\\\tool-results\\\\bn2wklhwr.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\00b05399-0272-4746-8054-d798b02b5d84\\\\scratchpad\\\\anschreiben_toms.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\00b05399-0272-4746-8054-d798b02b5d84\\\\scratchpad\\\\geotechnik_doc.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\pdf2png.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/01. Verificator (Pruefingenieur)/Cereri oferta (Angebotsanfragen)/02_Toms Ziviltechniker GmbH/Anschreiben_Toms_Gesamtangebot_Statik_2026-09-02.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anschreiben_Toms_Gesamtangebot_Statik_2026-09-02--574b11b2.docx",
+    "bytes": 13117,
+    "sha256": "63452c0f0220b8f9a566d1285384eeb4d96b66479e7b10f541dfd6ec043932ec"
+  },
+  {
+    "source_reference": "D:\\...\\Anschreiben_Toms_Gesamtangeb...",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00.",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\01. Behoerden + Eigentum\\03. Formulare + Musterbriefe MA37\\Musterbrief_Bekanntgabe_Bauführer_MA37.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Musterbrief_Bekanntgabe_Bauführer_MA37--c57ff018.docx",
+    "bytes": 9420,
+    "sha256": "251a444d65d54113348d2ae9043db0de94d229a464100d8782748f386a1f8f9d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\03. Einreichplanung - Planwechsel\\03. Statik",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\03. Einreichplanung - Planwechsel\\03. Statik\\Geotechnik_Auszug_Studiu_Geo_Extras 1.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Geotechnik_Auszug_Studiu_Geo_Extras 1--11a3f32e.docx",
+    "bytes": 18419,
+    "sha256": "28efcd519dcbc7deb0673f52e14f0315283d1e5569f0524885c803e59881e9fc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\03. Einreichplanung - Planwechsel\\03. Statik\\Geotechnische_Zusammenfassung_Baugrund_DE_Schallergasse35.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Geotechnische_Zusammenfassung_Baugrund_DE_Schallergasse--ab100c4c.docx",
+    "bytes": 15206,
+    "sha256": "9af8bd11c434987b9ce48de5611fd36ed715ed837ca5602f43cb65a86336a009"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\03. Einreichplanung - Planwechsel\\03. Statik\\Studiu Geo",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\03. Einreichplanung - Planwechsel\\03. Statik\\Studiu Geo\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\bmberger.at\\2026.08.17",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\bmberger.at\\2026.08.17\\2026_08_17_Anbot_Statik_Detail.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026_08_17_Anbot_Statik_Detail--7d11a7c3.pdf",
+    "bytes": 174755,
+    "sha256": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11\\00_Anschreiben\\Anschreiben_A&C_Wohnart_2026-08-10.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11\\00_Anschreiben\\Anschreiben_A&C_Wohnart_2026-08-11.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anschreiben_A&C_Wohnart_2026-08-11--1111f8f0.docx",
+    "bytes": 12733,
+    "sha256": "3be878bcfc43210ea34dbaf3cd7c3e92649f277108e7081d2d40da300cc62191"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11\\00_Anschreiben\\Email-Text_Anschreiben_2026-08-11.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Email-Text_Anschreiben_2026-08-11--1ca1246c.txt",
+    "bytes": 966,
+    "sha256": "ce43c333b4eb010145c6e862abf8d53b04505150399b720912d6db6a766d1dee"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11\\01_Baubewilligung_MA37\\Baubescheid_MA37-1539234-2021-1_2023-04-21.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Baubescheid_MA37-1539234-2021-1_2023-04-21--c5e609d4.pdf",
+    "bytes": 2984197,
+    "sha256": "9e5e1c9dcac6116d0b00d9d1ac9e240dbd8d312e10a2b426b3ffd1205ceb1058"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11\\04_Einreichstatik_2021-2022",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11\\04_Einreichstatik_2021-2022\\wien200.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11\\04_Einreichstatik_2021\\STATIK_VorKonzept_2021-12-07.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.11\\04_Einreichstatik_2021\\Statische_Vorbemessung_2021_inkl_Mauerwerksgutachten.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\2026.08.26",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\neid.co.at\\_Duplikate_entfernt_2026.08.11",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\03. Proiectare\\Arhitectura Madalina",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\Cereri oferta (Angebotsanfragen)\\02_Toms Ziviltechniker GmbH",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\Cereri oferta (Angebotsanfragen)\\02_Toms Ziviltechniker GmbH\\Angebot 2026.08.26",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\Cereri oferta (Angebotsanfragen)\\02_Toms Ziviltechniker GmbH\\Angebot 2026.09.07 (ANG 855 TWP)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\Cereri oferta (Angebotsanfragen)\\02_Toms Ziviltechniker GmbH\\Anschreiben_Toms_Gesamtangebot_Statik_2026-09-02.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anschreiben_Toms_Gesamtangebot_Statik_2026-09-02--574b11b2.docx",
+    "bytes": 13117,
+    "sha256": "63452c0f0220b8f9a566d1285384eeb4d96b66479e7b10f541dfd6ec043932ec"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\Cereri oferta (Angebotsanfragen)\\02_Toms Ziviltechniker GmbH\\Email-Text_WeTransfer_Link_2026-09-02.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Email-Text_WeTransfer_Link_2026-09-02--212a6593.txt",
+    "bytes": 1830,
+    "sha256": "6d78aed58dc1fb50aa382eca999ad5e2e78242a18e3661475fd0285208a035f1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\Cereri oferta (Angebotsanfragen)\\04_DI Remzi Avunduk",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\Cereri oferta (Angebotsanfragen)\\Pruefingenieur_Kandidaten_Vergleich.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Pruefingenieur_Kandidaten_Vergleich--14c42c79.xlsx",
+    "bytes": 7787,
+    "sha256": "9d18ae59c05866b471cd917748b18035fa0f28b33017d012855befe224a07741"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\Cereri oferta (Angebotsanfragen)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\Cereri oferta (Angebotsanfragen)\\02_DI Paknehad & Partner GmbH\\Preisindikation 2026.08.29",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\Cereri oferta (Angebotsanfragen)\\06_Toms Ziviltechniker GmbH\\Angebot 2026.08.26",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\Cereri oferta (Angebotsanfragen)\\BauKG_Kandidaten_Vergleich.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/BauKG_Kandidaten_Vergleich--8ba1f7b2.xlsx",
+    "bytes": 7687,
+    "sha256": "42c363523fcba441ad793c83065c3e1de32cf4bf8572b4312ffc312e02b74fc6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\03. Executant (Bauleitung + Ausfuehrung)\\Model_Contract_Bauvertrag_Ausfuehrung_DE.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Model_Contract_Bauvertrag_Ausfuehrung_DE--361e12fb.docx",
+    "bytes": 39169,
+    "sha256": "f4551536657d2b954d58cf47b797d5198dd73710c8738805b9b000adfd9e4484"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\Centralizator_cantitati.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox\\ANG 840_Schallergasse 35, 1120 Wien_BauKG.PDF",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox\\ANG 855_Schallergasse 35, 1120 Wien_TWP.PDF",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\00.Proiect\\\\03. Einreichplanung - Planwechsel\\\\03. Statik\\\\Geotechnische_Zusammenfassung_Baugrund_DE_Schallergasse35.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Geotechnische_Zusammenfassung_Baugrund_DE_Schallergasse--ab100c4c.docx",
+    "bytes": 15206,
+    "sha256": "9af8bd11c434987b9ce48de5611fd36ed715ed837ca5602f43cb65a86336a009"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\00.Proiect\\\\09. Vertraege\\\\neid.co.at\\\\2026.08.11\\\\00_Anschreiben\\\\Anschreiben_A&C_Wohnart_2026-08-11.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anschreiben_A&C_Wohnart_2026-08-11--1111f8f0.docx",
+    "bytes": 12733,
+    "sha256": "3be878bcfc43210ea34dbaf3cd7c3e92649f277108e7081d2d40da300cc62191"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\01. Verificator (Pruefingenieur)\\\\Cereri oferta (Angebotsanfragen)\\\\02_Toms Ziviltechniker GmbH\\\\Anschreiben_Toms_Gesamtangebot_Statik_2026-09-02.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anschreiben_Toms_Gesamtangebot_Statik_2026-09-02--574b11b2.docx",
+    "bytes": 13117,
+    "sha256": "63452c0f0220b8f9a566d1285384eeb4d96b66479e7b10f541dfd6ec043932ec"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Inbox\\\\ANG 840_Schallergasse 35, 1120 Wien_BauKG.PDF",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\\\\\00. Downloads\\\\\\\\Apartamente Viena\\\\\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\\\\\04. Firme + Executie\\\\\\\\01. Verificator (Pruefingenieur)\\\\\\\\Cereri oferta (Angebotsanfragen)\\\\\\\\02_Toms Ziviltechniker GmbH\\\\\\\\Anschreiben_Toms_Gesamtangebot_Statik_2026-09-02.docx, \\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://www.neid.co.at",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.paknehad-bau.at",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.toms.at",
+    "status": "referinta_externa_necopiata"
+  }
+]

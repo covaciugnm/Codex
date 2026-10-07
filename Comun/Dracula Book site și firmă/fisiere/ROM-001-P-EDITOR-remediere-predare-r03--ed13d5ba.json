@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-24 09:03:40 UTC",
+  "agent_id": "01a0d1c4-17bb-7e03-93a3-e542824bc776",
+  "submission": {
+    "submission_id": "01a0d28f-aab3-7d40-bc8e-047a17408970"
+  },
+  "result": {
+    "status": {
+      "01a0d1c4-17bb-7e03-93a3-e542824bc776": {
+        "completed": "Remedierea r03 este finalizată: Marcel rămâne afiliat arhivelor; Marc Fontaine este consemnat decedat în 1998, cu legătura cu Antoine neconfirmată. Cele 22 de decizii sunt păstrate textual.\n\nFișiere finale și SHA-256:\n\n- [BRIEF_ROMAN_r03.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md>)  \n  `c62bb54f08be93ea19084cb3350a0d109efbca5af5ae2493dd4ce14fb9b14e5a`\n- [DECIZII_CANON_r03.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md>)  \n  `a7abc0c057541708349896d0e9a5263d4b19dfde7529b60ec5b7eb971c8fa9d1`\n- [CANON_OPERATIONAL_r03.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md>)  \n  `f01333cfc2be0ca4d7673c58e1679826c4fbf13f6bb904ee47dd89a45af348c3`\n- [RAPORT_REMEDIERE_r01.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-001/00_BRIEF/RAPORT_REMEDIERE_r01.md>)  \n  `c570e5cfb0a3a0f29f4ed9fc095aa41481ec175e65b5f601552c7da86869f2f4`\n\nT1–T8 sunt documentate în limitele mandatului: 14 fișiere, 112 linii găsite/200 ocurențe analizate; sursele și părinții r02 neschimbați. Documentele noi ale managerului nu au fost testate.\n\nScrierile sunt oprite. G01 rămâne neacceptat; findingurile necesită retestare independentă. Fără G02 sau proză."
+      }
+    },
+    "timed_out": false
+  },
+  "close": {
+    "previous_status": {
+      "completed": "Remedierea r03 este finalizată: Marcel rămâne afiliat arhivelor; Marc Fontaine este consemnat decedat în 1998, cu legătura cu Antoine neconfirmată. Cele 22 de decizii sunt păstrate textual.\n\nFișiere finale și SHA-256:\n\n- [BRIEF_ROMAN_r03.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md>)  \n  `c62bb54f08be93ea19084cb3350a0d109efbca5af5ae2493dd4ce14fb9b14e5a`\n- [DECIZII_CANON_r03.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md>)  \n  `a7abc0c057541708349896d0e9a5263d4b19dfde7529b60ec5b7eb971c8fa9d1`\n- [CANON_OPERATIONAL_r03.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md>)  \n  `f01333cfc2be0ca4d7673c58e1679826c4fbf13f6bb904ee47dd89a45af348c3`\n- [RAPORT_REMEDIERE_r01.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-001/00_BRIEF/RAPORT_REMEDIERE_r01.md>)  \n  `c570e5cfb0a3a0f29f4ed9fc095aa41481ec175e65b5f601552c7da86869f2f4`\n\nT1–T8 sunt documentate în limitele mandatului: 14 fișiere, 112 linii găsite/200 ocurențe analizate; sursele și părinții r02 neschimbați. Documentele noi ale managerului nu au fost testate.\n\nScrierile sunt oprite. G01 rămâne neacceptat; findingurile necesită retestare independentă. Fără G02 sau proză."
+    }
+  }
+}

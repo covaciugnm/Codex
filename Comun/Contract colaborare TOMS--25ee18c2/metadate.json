@@ -1,0 +1,23 @@
+{
+  "id": "01a0c5d3-2faa-7c72-a032-ea1625ee18c2",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789999588,
+  "updated_at": 1790005717,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Contract colaborare TOMS",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 303205,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 127,
+  "message_count": 127,
+  "content_sha256": "0996b3ab7da7a42c571042544ec6c151a222a7f363e2b0bb6180d2fcf3f9fe3b",
+  "files_copied": 6,
+  "references_not_copied": 4
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a0f65a-983f-7e01-82d3-4c2e54284c19",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026 - SCRIEM\\2026.01.11 eDrive",
+  "created_at": 1790839527,
+  "updated_at": 1790849438,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Structurează dosarele proiectului e-",
+  "project_id": "b56f4502-5596-48b3-ab73-9624c7b0cd4a",
+  "project": "eDrive",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 6855794,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 106,
+  "message_count": 29,
+  "content_sha256": "51803f44cbb67c648c94836c6de03e10a7198856e2fc2ce7995592d554b972f7",
+  "files_copied": 8,
+  "references_not_copied": 4
+}

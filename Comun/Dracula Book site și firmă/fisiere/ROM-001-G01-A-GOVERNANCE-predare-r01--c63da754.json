@@ -1,0 +1,12 @@
+{
+  "agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "role": "A-GOVERNANCE",
+  "submission": {
+    "submission_id": "01a0d24a-be15-72c0-8638-21fa12ef98d6"
+  },
+  "closure": {
+    "previous_status": {
+      "completed": "Auditul ROM-001-G01 r01 este finalizat: **PASS individual**, zero constatări G01 deschchise.\n\n| Criteriu | Scor /1000 |\n|---|---:|\n| acoperire | 975 |\n| canon | 967 |\n| contradictii | 966 |\n| mandat | 975 |\n| trasabilitate | 973 |\n\nVerificate: toate cele 11 artefacte, 137 hashuri contractuale, 17 copii față de originale, 629 intrări BEFORE și 22 controale calendaristice proprii. Schema, ancorele și concordanța MD/JSON au trecut controlul final.\n\nLimite: am recitit direct 415 paragrafe H, inclusiv epilogul integral; verificarea celor 3.984 de paragrafe afișate este mecanică, nu o nouă lectură semantică integrală. Fără control vizual DOCX, rawlogs, recuperare rece proprie sau certificare juridică/comercială. Eroarea istorică „nine” rămâne explicată prin erratum; exportul păstrează efectiv 17 surse. H nu este declarat reparat.\n\nFișiere:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.md>)\n- [Audit JSON](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.json>)\n- [Controale proprii](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE-CONTROLES.json>)\n\nScrierile sunt oprite. PASS-ul individual nu înlocuiește celălalt audit, metaQA sau acceptarea cumulativă G01 și nu autorizează G02+."
+    }
+  }
+}

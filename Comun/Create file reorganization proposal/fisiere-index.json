@@ -1,0 +1,470 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/56c8fb1f-5a15-4f03-b249-389a987d0280/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/56c8fb1f-5a15-4f03-b249-389a987d0280/scratchpad/extract_caen.sh",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/56c8fb1f-5a15-4f03-b249-389a987d0280/scratchpad/extract_caen_detaliat.sh",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/56c8fb1f-5a15-4f03-b249-389a987d0280/scratchpad/extract_caen_v2.sh",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/56c8fb1f-5a15-4f03-b249-389a987d0280/tasks/bfh0o48td.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\A1_creare_schelet.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\A2_fuziune_1.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\A3_clasificare.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\A3b_reguli_suplimentare.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\B1_search_drive.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\B1b_ipec_cesirosa.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\B2_analizor.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\B2b_analizor_SA.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\C1_cleanup_bug.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\C1_copiere_docuri_firme.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\C1c_copiere_SA.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\D1_mapare_CF.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\56c8fb1f-5a15-4f03-b249-389a987d0280\\scratchpad\\D2_copiere_CF.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\memory",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/0. FIRME ISTORICE SI SECUNDARE (grup)/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. DE VERIFICAT/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. DUBLURI/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. RAPORT ARHIVA/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00_1. RAPORT ARHIVA/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/CESIRO PRODUCTION SRL - CUI 45050734",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/CESIRO PRODUCTION SRL - CUI 45050734/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/CESIRO PRODUCTION SRL - CUI 45050734/$sub/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/CESIRO PRODUCTION SRL - CUI 45050734_1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/CESIRO SA - CUI TBD/$sub/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/CESIRO SA - CUI TBD/13. Diverse/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/DANCOR PROIECT SRL - CUI 12445967",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/DANCOR PROIECT SRL - CUI 12445967/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/DANCOR PROIECT SRL - CUI 12445967_1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/IPEC SA - CUI TBD/$sub/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/MARIUS CODE WNK SRL - CUI 37707133",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/MARIUS CODE WNK SRL - CUI 37707133/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/NEETS PHOTOSHOOTING SRL - CUI 47362309",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/NEETS PHOTOSHOOTING SRL - CUI 47362309/02. Certificat constatator/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/NEETS PHOTOSHOOTING SRL - CUI 47362309/03. Act constitutiv/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/_LOG_A1_creare_schelet.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/_LOG_A3_clasificare.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/_LOG_B1_search.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/_LOG_B1b_ipec_cesirosa.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/_RAPORT_B1_gasit_pe_drive.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/_RAPORT_B1b_ipec_cesirosa.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/_RAPORT_C1b_dubluri_in_sursa.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/_RAPORT_CAEN_licitatie_video.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/COVACIU COSMIN-ADRIAN - 1721019120687/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/ACTE FIRMA/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/00. RAPORT/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/00. RAPORT/_DE_VERIFICAT",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/00. RAPORT/_RAPORT_B1_CF_gasit.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/_RAPORT_B1_CF_gasit--cb0fa674.csv",
+    "bytes": 87420,
+    "sha256": "0eaca9f21c785e74bcaeab9788f7f513061cc1e1172d03661a85f84aaf252597"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/01. FIRME/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/01. FIRME/$f",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/02. PERSOANE/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/02. PERSOANE/COVACIU COSMIN-ADRIAN - 1721019120687",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/01. Acte Proprietate/DANCOR PROIECT SRL - CUI 12445967",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/Dep. Contabilitate/Arhiva Contabilitate CESIRO SA + Market + Altele/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/IPEC - Cesiro",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\([^\\]+)\\.*",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\00. RAPORT ARHIVA\\STATUS_{CUI}.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_LEGENDA.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_LOG_A1_creare_schelet.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_RAPORT_B1_gasit_pe_drive.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_RAPORT_B2_analizat.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_RAPORT_B2b_analizat_SA.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_RAPORT_C1_copiere_finalizata.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_RAPORT_C1b_dubluri_in_sursa.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\{firma}\\02. Certificat constatator\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\ACTE FIRMA\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\00. RAPORT\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\00. RAPORT\\_RAPORT_B1_CF_gasit.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/_RAPORT_B1_CF_gasit--cb0fa674.csv",
+    "bytes": 87420,
+    "sha256": "0eaca9f21c785e74bcaeab9788f7f513061cc1e1172d03661a85f84aaf252597"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\00. RAPORT\\_RAPORT_D1_propunere_atribuire.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/_RAPORT_D1_propunere_atribuire--f4e5146d.csv",
+    "bytes": 117924,
+    "sha256": "73446fc3cd5276eb73da8c607f951c17c0c0dbf40cd0aa61ae423878ce6f5112"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\01. FIRME",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\2019\\FIRME\\SC 1999 DANCOR PROIECT\\Punct de lucru\\MODIFICARI 2020\\05.2020\\Act constitutiv actualizat DANCOR PROIECT 2020.doc",
+    "status": "copiat",
+    "saved_path": "fisiere/Act constitutiv actualizat DANCOR PROIECT 2020--67548b40.doc",
+    "bytes": 133632,
+    "sha256": "ad044aed8fd3f1b440cf84aec8a586d7121059eb98ed2f99b0840d1a264e54d6"
+  },
+  {
+    "source_reference": "Z:\\Alex Petrutiu",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\Dep. Contabilitate",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\Dep. IT",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\IPEC - Cesiro\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Firme\\\\00. RAPORT ARHIVA",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\Dep. Contabilitate",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\\\\\([^\\\\\\\\]+)\\\\\\\\.*",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\scan",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\scanari",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "afir-cesiro-rambursare1.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "cesiro-images-catalog.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "ocr-doc-tooling.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "pocidif-2-1-eva-dancor.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "red-fotovoltaic-fm.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "zoom-ssm-recordings.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

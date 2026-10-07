@@ -1,0 +1,1 @@
+Corecție de coordonare pentru evidență, fără schimbarea mandatului: în RES r02-v02 metaauditul a returnat închiderea prematură a F-RES-SOURCES-001 (META-RES-001-r02-F01). GOV-RES-01 procedural fusese închis; nu confunda ID-urile. Noul audit decide pe probele r03 și pe testele originale T01–T04. Nicio notă impusă.

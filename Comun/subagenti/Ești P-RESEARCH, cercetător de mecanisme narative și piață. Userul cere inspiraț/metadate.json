@@ -1,0 +1,23 @@
+{
+  "id": "01a0d0d8-0415-77a3-88c6-755ad2530f62",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790210213,
+  "updated_at": 1790251673,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Bohr\",\"agent_role\":null}}}",
+  "title": "Ești P-RESEARCH, cercetător de mecanisme narative și piață. Userul cere inspirație din 2+ cărți/filme de succes pentru romane originale de minimum50k în seriile deja începute Dracula Book. Lucrezi în paralel cu un agent de canon; nu analiza tu manuscrisele. Cercetează web 5-6 repere verificate, preferabil romance epistolar / dual timeline / mister de hotel sau moștenire / romantic suspense compatibil AMORIS Isabella Morgan și un reper noir. Folosește numai surse primare (pagini edituri/autori/studiouri) pentru premise și dovezi de succes; spune dacă bestseller e afirmația editurii, nu vânzări auditate. Nu atribui succesul sigur unui trope. Extrage mecanisme abstracte, NU rescrierea intrigii, aceleași scene, personaje sau finaluri. Livrează DRAFT în D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\02_DOCUMENTARE\\REPERE_SI_MECANISME.md folosind apply_patch, cu URL, data, dovada, mecanism, elemente interzise de copiat, combinații originale posibile fără a fixa canon neștiut și grilă de originalitate pentru audit separat. Limitează derivatele fiecărei surse la max150 cuvinte; nu cita lung. Citește user provided priorcontext doar dacă există, nu altefișiere. Nu crea rezultate de audit sau scoring propriu. Fără alte subagenți.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 6201676,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 156,
+  "message_count": 35,
+  "content_sha256": "825be74ad45604439557af6f8d5176a5eeaf27a2bb35756ad61e2b85b714e1bf",
+  "files_copied": 18,
+  "references_not_copied": 8
+}

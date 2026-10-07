@@ -1,0 +1,23 @@
+{
+  "id": "01a0c445-827f-7c82-bbb4-3177601844eb",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789999284,
+  "updated_at": 1790070616,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică ciornele office@at-wohnart",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 2328202,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 41,
+  "message_count": 8,
+  "content_sha256": "9052c77af7f7bcf26bb340cc6b98441a84d722863eee7bdc89607403e37cf7fc",
+  "files_copied": 0,
+  "references_not_copied": 5
+}

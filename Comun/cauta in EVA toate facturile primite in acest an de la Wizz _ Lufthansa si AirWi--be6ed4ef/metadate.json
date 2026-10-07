@@ -1,0 +1,23 @@
+{
+  "id": "01a0ae56-1882-7070-ad0e-3c6dbe6ed4ef",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789565774,
+  "updated_at": 1789565957,
+  "archived": 0,
+  "source": "vscode",
+  "title": "cauta in EVA toate facturile primite in acest an de la Wizz / Lufthansa si AirWings",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 226505,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 92,
+  "message_count": 92,
+  "content_sha256": "b8e30bbfac6004fcbd133039c08d3664a81652cb9f2043151ed7afb28a94b8d3",
+  "files_copied": 0,
+  "references_not_copied": 5
+}

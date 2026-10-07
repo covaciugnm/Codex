@@ -1,0 +1,777 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/AUDIT-DRACULA-DESIGN.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT-DRACULA-DESIGN--541f955e.md",
+    "bytes": 9975,
+    "sha256": "e1a109e871aaad0e237df60f507e680b96e840cae13dde5b54496fe1be435bcf"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/AUDIT-DRACULA-FOOD.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT-DRACULA-FOOD--7660b874.md",
+    "bytes": 8293,
+    "sha256": "012004a6dd641016974813e44c4c012f3cfcc0194e0bf3e62d084412bbd63a89"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-00252ec2-7f6d-4c98-b5a2-206648bf7500.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-00252ec2-7f6d-4c98-b5a2-206648bf7500--a23aed58.png",
+    "bytes": 2260075,
+    "sha256": "1cbefff1a2c1d6d1ec93950253ae30dbef79824ff95908706582237c0ff1c617"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-02a07c56-abb8-41bd-94b7-8070a56228de.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-02a07c56-abb8-41bd-94b7-8070a56228de--00976cce.png",
+    "bytes": 2305568,
+    "sha256": "b09e77969be73c05cf118d56ea81892afa8b4579d473c28005009f30fcf857ac"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-4916001b-46d0-43bf-8a50-f4fd92841115.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-4916001b-46d0-43bf-8a50-f4fd92841115--322522e6.png",
+    "bytes": 2240246,
+    "sha256": "a56fbcac3d2da66362523a92c5877cd8f058e3e2c7a307b1ef1e441b67dd44be"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-4a2a0c12-7873-45da-85e2-035c7446c32a.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-4a2a0c12-7873-45da-85e2-035c7446c32a--7fbb59be.png",
+    "bytes": 2243644,
+    "sha256": "23e05f4913c81326522edca9603553a2fce0834823fd16b9695e1b399e33987e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-6f301170-d727-4d46-af18-e4f5bb0d2947.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-6f301170-d727-4d46-af18-e4f5bb0d2947--534eed09.png",
+    "bytes": 2261502,
+    "sha256": "1ca2eaeea2c470aedee6058a5ede725df6ddc7ccab3ebc832635e895a104ad09"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-71cf1149-8cc3-4370-b788-baa64cee8c16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-71cf1149-8cc3-4370-b788-baa64cee8c16--43920b81.png",
+    "bytes": 2153872,
+    "sha256": "b09310aec61bd291c24ab78ef81d0805cceae31068721cd54f2ad6d38b28e1c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-88cf70bb-e3d8-4875-aec9-ab36e67dc940.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-88cf70bb-e3d8-4875-aec9-ab36e67dc940--a6ff520e.png",
+    "bytes": 2195399,
+    "sha256": "6f566cae4c69020f7b57283616e5125a0e15fb301d8358d0ba27fc2f3be91bd2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-92938c32-b057-4cad-81e7-96d6d4f6ce0b.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-92938c32-b057-4cad-81e7-96d6d4f6ce0b--57ed2d16.png",
+    "bytes": 2262137,
+    "sha256": "74c3f9ec7884fc5f5d7a8ae94a028ed4aad292ada294480348d9bdf2d4be187e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-9b31c99d-07c1-4a95-a003-74b688ee2e34.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-9b31c99d-07c1-4a95-a003-74b688ee2e34--2c670ef6.png",
+    "bytes": 2297458,
+    "sha256": "c41cad9dce59ce34900cfa1627597babc3f021223876729461437f3263940b5f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-a891f91c-6023-4b06-923f-4f7d0a39a953.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-a891f91c-6023-4b06-923f-4f7d0a39a953--2ee499f4.png",
+    "bytes": 2213044,
+    "sha256": "70a773e4bb62b9efaf5d85ebda803aa0d33f83296c99a452391be2cbd6b268e6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-b19bd77f-a62c-4268-a8ed-a0251ebb70e0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-b19bd77f-a62c-4268-a8ed-a0251ebb70e0--92ef97b5.png",
+    "bytes": 2215677,
+    "sha256": "6fbd6906bde946d4910c6dfcd98f06cb2aca44234a7d2f2b5ec2597c612a0240"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-bc51e06c-e752-4d5a-a945-26691f4ce238.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-bc51e06c-e752-4d5a-a945-26691f4ce238--d4cf070a.png",
+    "bytes": 2188439,
+    "sha256": "72230ead45d66251f1aff302e533ae0976651f6a71a51c906bda62997fc471ac"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-c41e9a3d-321e-46a6-be28-229f350c1279.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-c41e9a3d-321e-46a6-be28-229f350c1279--09f693f9.png",
+    "bytes": 2234839,
+    "sha256": "b22cdcf3fa741789e8922dcdc5836372df6208a6c149f60e38fdbf76c846f3f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-ca00e5d2-5a14-43b9-8dee-18e0da842f8e.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-ca00e5d2-5a14-43b9-8dee-18e0da842f8e--53ca7e0a.png",
+    "bytes": 2262562,
+    "sha256": "df080acb913de342e3ed5e27ce51610eb2bf0f69e09d22319e99ee9a9c79068f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-cb73f430-57e8-4669-aebd-d87feb887d37.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-cb73f430-57e8-4669-aebd-d87feb887d37--40e2e165.png",
+    "bytes": 2064337,
+    "sha256": "f9017bf85620239512b1512ab86caf7f2cbe02cd5099e1ec19add767e755054c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-ded46588-f2b1-49a6-866b-762fc0ed92cd.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-ded46588-f2b1-49a6-866b-762fc0ed92cd--4b5146a3.png",
+    "bytes": 2196411,
+    "sha256": "c43b5ce69bb2993f49130bfaf39ac31ce5e0abe55c9c92bdd9456cae029fa802"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-e7910c63-b521-4990-9bc3-ec2272ca879a.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-e7910c63-b521-4990-9bc3-ec2272ca879a--b51f0324.png",
+    "bytes": 2201640,
+    "sha256": "07dc9853165902e9c44c2ce667ce6a62e2939474b3bc2977c7ef3eb3da837a4e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-f98c5a2b-a634-48ab-bc35-5540f4ee3eb4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-f98c5a2b-a634-48ab-bc35-5540f4ee3eb4--e2066257.png",
+    "bytes": 2246937,
+    "sha256": "4eafd5bc6e12b7ec273da05896f3e5898505e164f3e98f7f8da04a26a662db01"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\.env.example",
+    "status": "copiat",
+    "saved_path": "fisiere/env--be71bb38.example",
+    "bytes": 598,
+    "sha256": "b1d16b475693b6140757483a81d9756bf7217ac57e8e4326ff36d447c916db40"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\.gitignore",
+    "status": "copiat",
+    "saved_path": "fisiere/gitignore--55313b4e",
+    "bytes": 97,
+    "sha256": "903d94d4046cec6d1a0eea1c4a625eb4154c248d109164a2540cdee8c7cea818"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\Porneste-site.cmd",
+    "status": "copiat",
+    "saved_path": "fisiere/Porneste-site--ea6d123a.cmd",
+    "bytes": 312,
+    "sha256": "f4f70615ae3dd75e0fcf5763dad05fc36023e7276fce2ef2f443e2733f3227db"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--241e34ec.md",
+    "bytes": 4550,
+    "sha256": "e29a20f23cbfd065b4db7ecd952286c3f21f8132736e9f1d2314f32aefa9ac59"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\api\\storefront.py",
+    "status": "copiat",
+    "saved_path": "fisiere/storefront--66ce9d63.py",
+    "bytes": 151141,
+    "sha256": "a582999862a76d7bcb7fd3011d5321c948e59c993d88239829735ebad9f5da73"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\dracula.py",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula--14fdb952.py",
+    "bytes": 16133,
+    "sha256": "01c990b3c0a325e4bc4f39e77ae10cb0333944e66ba763e0c66e7dbaa38698be"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\dracula_locales.py",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula_locales--ffadd8ae.py",
+    "bytes": 1197,
+    "sha256": "33b2e810e5ba3b69a1e5054ee6ddd59d9be3a4110c834e7bad215729e8ef6cad"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\apply_product_enrichment.py",
+    "status": "copiat",
+    "saved_path": "fisiere/apply_product_enrichment--1d89bb54.py",
+    "bytes": 11483,
+    "sha256": "bb4bc31ef76bcf7f706ae3b6cf5a9b533ab59f7569b77ab438d16de9bdcfa44c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\provision_demo_accounts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/provision_demo_accounts--785820e0.py",
+    "bytes": 2004,
+    "sha256": "773351f22c5e0c4c2ebd015c33b21c8f9da458b67752435be048a474f7d5ffc2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\public\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--95b0fe1f.html",
+    "bytes": 682,
+    "sha256": "a73a7904485d8842dc70d0b8b32d59ecfddf5a57e652a5b2697b2d1f562962fd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\public\\shop.css",
+    "status": "copiat",
+    "saved_path": "fisiere/shop--a5c03282.css",
+    "bytes": 11552,
+    "sha256": "f0b52ce251418cdf6c35842614c8e6ac42e374a1ad96ec5e3258a9cbb1a516c3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\public\\shop.js",
+    "status": "copiat",
+    "saved_path": "fisiere/shop--4a18c015.js",
+    "bytes": 31796,
+    "sha256": "c7db9982a118365bfb854f02580f95a93d9a27c868de4fb6a6e3dd6749b86f75"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\seed_dracula.py",
+    "status": "copiat",
+    "saved_path": "fisiere/seed_dracula--d990f90c.py",
+    "bytes": 6677,
+    "sha256": "49cf211a6539f5d4f38f7b6a762018dd59dfc982351849718f8702f1ae8e8914"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_admin.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_admin--ab694daf.py",
+    "bytes": 2873,
+    "sha256": "8efe4b2014175956781b62afd0e47e6eaecef8259e33a9fa9ed2770e5ca4da8b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_checkout_total_validation.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_checkout_total_validation--675a2ab2.py",
+    "bytes": 1216,
+    "sha256": "118adaa8f51dec2faaad9c423e91d913d09462904b17ea673ebd09c65cd856de"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_draft_product_resolution.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_draft_product_resolution--47a7b1df.py",
+    "bytes": 1116,
+    "sha256": "8c96a16cc3519335e06ca9204d6219319c1d069a164d042bfe5bda8b50a0b35c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_integration.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_integration--6c57d10f.py",
+    "bytes": 4365,
+    "sha256": "c3e74c8d538752db13a409add18c2d3b639a006a8bb385e9d63777b5a8f47d04"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_media_cleanup.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_media_cleanup--acb2c677.py",
+    "bytes": 1692,
+    "sha256": "4d6e2c5f5ba4a1907cd37b6a9a313a66c35c3b9b5371b278dd7109639de85c57"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\database\\migrations\\versions\\0053_dracula_shop.py",
+    "status": "copiat",
+    "saved_path": "fisiere/0053_dracula_shop--ac045c32.py",
+    "bytes": 2404,
+    "sha256": "3e7b4ffac7ed1174546c4d0c16115ecd45346b9b5f32044563b2c987065b563d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\dist\\app.js",
+    "status": "copiat",
+    "saved_path": "fisiere/app--9c282825.js",
+    "bytes": 2946,
+    "sha256": "50ef21167d5292a6b80b832fd13c9ced676062e40591508c066bad3272ab65dc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\dist\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--5d56bcd4.html",
+    "bytes": 7935,
+    "sha256": "ed58b891559fb3e863ec910df98735f718aeea270ed152c50ef22053112b2366"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\dist\\styles.css",
+    "status": "copiat",
+    "saved_path": "fisiere/styles--ed86ae12.css",
+    "bytes": 9276,
+    "sha256": "f5e6111745787541b45c72e2a6944d6f9df40f00b9805d9365c7fa086aac8df0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\docker-compose.cloudflare.yml",
+    "status": "copiat",
+    "saved_path": "fisiere/docker-compose.cloudflare--9ae837d8.yml",
+    "bytes": 593,
+    "sha256": "513c7b6599820796fc78284421bc948e7aa7aa983b71ece7aabaa783b9544371"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\docker-compose.yml",
+    "status": "copiat",
+    "saved_path": "fisiere/docker-compose--46753013.yml",
+    "bytes": 3545,
+    "sha256": "9c21a7ad60e69fd73172a98e42cf81d59f9545d1a27066bade1be29a29d6443e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\app\\navigation.ts",
+    "status": "copiat",
+    "saved_path": "fisiere/navigation--14e3793c.ts",
+    "bytes": 1622,
+    "sha256": "da37ad38f7ddf92ddb43ecf838fd929b2094ba4914b2ba5344056584cde50373"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\app\\router.tsx",
+    "status": "copiat",
+    "saved_path": "fisiere/router--b7a95c4d.tsx",
+    "bytes": 3868,
+    "sha256": "d01d701ae1398adac4d885ca2b2741dcb5faeb12cfe0ea7a3f13eb18f8a326ea"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\features\\dashboard\\DashboardPage.tsx",
+    "status": "copiat",
+    "saved_path": "fisiere/DashboardPage--f66285cb.tsx",
+    "bytes": 9781,
+    "sha256": "324276736eb2443748ef48785229dba474781a769fa2ca2a8e59d52210fd12f2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\features\\inquiries\\InquiriesPage.tsx",
+    "status": "copiat",
+    "saved_path": "fisiere/InquiriesPage--22e22dcb.tsx",
+    "bytes": 1535,
+    "sha256": "8dfacfee48e806c8b61b23b665d5cfb6943d0a8bb9184e5e3c22bf15a3bb7d00"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\features\\onboarding\\steps\\LocalesStep.tsx",
+    "status": "copiat",
+    "saved_path": "fisiere/LocalesStep--a803af8d.tsx",
+    "bytes": 6221,
+    "sha256": "a9636e9e41931dfc912aefb7a96eb96a70243cdba4d7b79da60b10f06b1b4e88"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\features\\products\\ProductEditor.tsx",
+    "status": "copiat",
+    "saved_path": "fisiere/ProductEditor--829535bf.tsx",
+    "bytes": 17193,
+    "sha256": "df4fdf6700b4c556d3ab72f144bb01226e7636e936a4df514ff25af0987cb1e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\features\\products\\productSchema.ts",
+    "status": "copiat",
+    "saved_path": "fisiere/productSchema--fb1056a8.ts",
+    "bytes": 1927,
+    "sha256": "9784abafef56459eb062071a89fee9d339f06abcced65406e23d490347e0de81"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\features\\settings\\ThemeOffersPanel.tsx",
+    "status": "copiat",
+    "saved_path": "fisiere/ThemeOffersPanel--9ea8a863.tsx",
+    "bytes": 32245,
+    "sha256": "51b60b49144aca2dafaf519241abebb0322b2c3784396eca8a3c6ef504e20409"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\i18n\\index.ts",
+    "status": "copiat",
+    "saved_path": "fisiere/index--12d2dd12.ts",
+    "bytes": 1751,
+    "sha256": "eb24621fc22f642562fb9b1ea3c1e86d4b6d7cfdd8fc160ebf26e9560f035322"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\lib\\publicBrand.ts",
+    "status": "copiat",
+    "saved_path": "fisiere/publicBrand--e598dc4c.ts",
+    "bytes": 4337,
+    "sha256": "5c48ac9d2bfe57d02935fb9ca52e4f536bd5343faeb4120a8bb28573483d6e17"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\main.tsx",
+    "status": "copiat",
+    "saved_path": "fisiere/main--a8ed1f97.tsx",
+    "bytes": 1084,
+    "sha256": "38d384a185372fa319a28f65fe9e22f860331d85ed314b986510ac3d18545bf2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\frontend\\src\\shell\\apps.registry.tsx",
+    "status": "copiat",
+    "saved_path": "fisiere/apps.registry--12d8bc9e.tsx",
+    "bytes": 6977,
+    "sha256": "09b2db85920efb7cb6f635743e73499eaeaf9cedf108ea0d60a1768caf8ee508"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\CLOUDFLARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CLOUDFLARE--9804f454.md",
+    "bytes": 2093,
+    "sha256": "835396b5d18b66bd0a65b83ab3873bbae13c0b327a329bfc5eeda8001adf643c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\backup.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/backup--883b67b9.sh",
+    "bytes": 257,
+    "sha256": "f58a9d46817d3bbdcc1500025661569ab0438ee6f7a1aac771d94d46de864906"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare--fba0c49a.py",
+    "bytes": 1762,
+    "sha256": "d875d21c886202b0c33cbc2a810d85a95fdd7aad81034613900821bac1d800fb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\start-cloudflare.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/start-cloudflare--3d6f34ec.sh",
+    "bytes": 284,
+    "sha256": "bf78dc3740ef6e126f80153cad782e717462de355cef980560b453f11599dea6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\start.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/start--fac14f87.sh",
+    "bytes": 239,
+    "sha256": "df75a0cd700975587cc4678416daa136e44f2949a31f5d01c50dbc0dc6936af5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\preview-admin.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-admin--5d994df0.png",
+    "bytes": 81083,
+    "sha256": "297b09c2f0113dff63166506b5e9f28395bd4bd7fc02f059ee164336842a8f2e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\preview-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-desktop--e26d8d73.png",
+    "bytes": 2895219,
+    "sha256": "6a3299039ff721ac8b128633cb3fd7fec8d5234d97665c15a046c16b03252a04"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\server.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/server--676f6c23.cjs",
+    "bytes": 1139,
+    "sha256": "17057ebf1e151c7e9dcbe5c79f90e29d7e885f333af49d632c495dc6c06bdd56"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\backend\\apply_walnut_content.py",
+    "status": "copiat",
+    "saved_path": "fisiere/apply_walnut_content--4e00ce5b.py",
+    "bytes": 1153,
+    "sha256": "2ab59f4f97d2aa74a9474c831127f383000418ad59f60ce19d66535ffaf3e902"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\assets\\produse\\dracula-food-nuci-dracula-farm.png",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-food-nuci-dracula-farm--1fb6df6c.png",
+    "bytes": 2459105,
+    "sha256": "6e36d39d7406c2751e70f26bdc9ed0135c126ba2d3a2d2301f1bcf7d43cb5fb6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\build_overrides.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_overrides--ff074251.py",
+    "bytes": 13302,
+    "sha256": "eddfbca2793c8bee1fb647b538d8b6b0b8e352efc3d20f9598d2c9a563252a9c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\catalog.json",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog--6dd47d85.json",
+    "bytes": 3617,
+    "sha256": "0472c86914854b0b1dc3c04f2e1b66bbe3f11e3250ae780ab18494162379f6bf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\food.css",
+    "status": "copiat",
+    "saved_path": "fisiere/food--b651b303.css",
+    "bytes": 1113,
+    "sha256": "7bfe35c929c8cb4cb8f5067118e9dc898f39bf05c4d778fd67b3a5b9f978e0a2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\generated-image-manifest.json",
+    "status": "copiat",
+    "saved_path": "fisiere/generated-image-manifest--b1653db3.json",
+    "bytes": 9593,
+    "sha256": "1f9cb63b5fc976f9a50fccc60f97e0d0619e79aad3b216081e0bab5bc0708ea2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\preview-categorii-mobil.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-categorii-mobil--343b7d4c.png",
+    "bytes": 305455,
+    "sha256": "96ea0501e0eb4bef7473ecd31d9c6a669e5e5608519b9525f4e6ae1aac4621c8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\preview-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-desktop--3349953b.png",
+    "bytes": 1951610,
+    "sha256": "d47b07c9d2c36e9c99db403db680c6ea50038f8383feb5d583b5ac9aa845618c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\preview-produse-mobil.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-produse-mobil--d1365931.png",
+    "bytes": 302696,
+    "sha256": "4426323ebc6019e1439d70b0519ca47faeedce7a60c1b4ca5bb28f46f92c424b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\preview-produse.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-produse--11660f2f.png",
+    "bytes": 786979,
+    "sha256": "22e22ae7ccfd2ed5170d23e7dddd4def57e475ef161295dbb7096ebd3f5547ab"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\adapt-admin.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/adapt-admin--72c58c35.cjs",
+    "bytes": 4498,
+    "sha256": "34c14bb143c280372bd030168a4d7f73898f613a1238a1c1caef3b493fae683f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\add-design-categories.py",
+    "status": "copiat",
+    "saved_path": "fisiere/add-design-categories--f939a7ea.py",
+    "bytes": 3702,
+    "sha256": "e04d261433ae1d9ef96a578547757ef87c651f76bdc434ff07b8017eb4c55ae9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\add-food-categories.py",
+    "status": "copiat",
+    "saved_path": "fisiere/add-food-categories--2b3558e5.py",
+    "bytes": 1717,
+    "sha256": "b2f056ef18250b31d36bc02d7217d6c987bfd2ed26b5c783ed153ecc6f57f113"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\add-hazelnuts.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/add-hazelnuts--34fa320b.cjs",
+    "bytes": 4470,
+    "sha256": "ae8ccfc1cd743257608fec11178f1c67e174a5e610a782cff86d9d9349308032"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\build-content.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build-content--03c78de3.cjs",
+    "bytes": 40541,
+    "sha256": "00c96ce0fc4f6fb8e2ac6c2433e4f36dfbb166b3e3d66d03bc369235f1f474a9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\check-both-categories.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/check-both-categories--992574c4.cjs",
+    "bytes": 1665,
+    "sha256": "292a8895ff0d74dc57f9f83c235850b6baa452679a6af39dd7e589d357dd2473"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\check-food-categories.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/check-food-categories--6b3d4c2d.cjs",
+    "bytes": 901,
+    "sha256": "8888bb342e26c23e5aa13cb1f1ae4fca15a5d9ac624d598b170f351c0a15f532"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\check-site.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/check-site--c8cbba9f.cjs",
+    "bytes": 602,
+    "sha256": "3cf8a7d4176f6e073fa0ad1abc076ccc50f819866de80430ca4c2c290bdf5e08"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\contact-sheet.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-sheet--f6aaf7ce.jpg",
+    "bytes": 378611,
+    "sha256": "70e45a0b93a76693de989cb99ec940eecf35a3fa96f43a558edbc55e1c71013c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\final-check.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/final-check--41e17d29.cjs",
+    "bytes": 2052,
+    "sha256": "df1964bba8ff4177af79b187f84b091f50e4fe9fd82e3f8d100c8b45bf7d1cd6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\finalize-design.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-design--82d3d06b.cjs",
+    "bytes": 1592,
+    "sha256": "954d0324522712a24edb465dc4abcf86d28776c011093283541ad10e216e5c1c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\food-product-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/food-product-2--6252ba95.png",
+    "bytes": 2337009,
+    "sha256": "0da62021daed4ac46c40efdb2859ec761104b97b22e69fcbdf22923e395bd522"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\food-share.png",
+    "status": "copiat",
+    "saved_path": "fisiere/food-share--35c1ed87.png",
+    "bytes": 315970,
+    "sha256": "cc8a6bce22800f1f9f1d0e679faf7ebdb44ec0831fb09ff7657c335360ab52af"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\generated-raisin-assets.json",
+    "status": "copiat",
+    "saved_path": "fisiere/generated-raisin-assets--2eecee6b.json",
+    "bytes": 953,
+    "sha256": "b45729c807cb117ada41fdf9c764844fdcd0727452595967eb6bf7759aa1b563"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\import-food-image.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/import-food-image--96728710.cjs",
+    "bytes": 1005,
+    "sha256": "35f12bd2431fa4d8115a994ff3cb0ec6edefd131970613a099e6f2b6eece5d53"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\import-shared-product.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/import-shared-product--87dccf2b.cjs",
+    "bytes": 951,
+    "sha256": "ec52a3127368b4722d73758ccd92ff4425aec4c67b6c236b0c108309727baab5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\inspect-food-share.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect-food-share--80cb04ad.cjs",
+    "bytes": 1025,
+    "sha256": "848f06b6d9642b2a7ab233ec101afc11424ae662aaff8b4c48ae361370ba0f5b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\inspect-preview.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect-preview--faf8e6e7.cjs",
+    "bytes": 628,
+    "sha256": "55753e3a5e7272efece29eb7c706af1fa6c4bd52a468663dee7c92b1b69182a4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\organize-images.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/organize-images--5b86fb51.ps1",
+    "bytes": 2843,
+    "sha256": "a26aae705b3b497308865d7bbef77d0d81e614a3884a035bb6a360e84e9bfae0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\patch-payments.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/patch-payments--f9c30da6.cjs",
+    "bytes": 1405,
+    "sha256": "1fd116970175514830e072838b621289cd892d982238728feac75c101a0f8f85"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\patch-public.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/patch-public--c5c0936b.cjs",
+    "bytes": 2018,
+    "sha256": "a13319883c554101d8df2d2472cea7b11603b21d679dd0074143f3c3c65655a3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\patch-stage-integration.py",
+    "status": "copiat",
+    "saved_path": "fisiere/patch-stage-integration--aafc738e.py",
+    "bytes": 10224,
+    "sha256": "05e77476c853d03d0996934ae25fc050a677fc6fce72c7bd8c9969d47674c8c2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\redesign.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign--b0e31a88.cjs",
+    "bytes": 19885,
+    "sha256": "1153e8091c6de5b5779e06da6a32f7240d453ebcdbfdcf232978103618a14171"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\source-images\\WhatsApp Image 2026-09-25 at 16.38.35 (9).jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-25 at 16.38.35 (9)--4aac8e1a.jpeg",
+    "bytes": 146637,
+    "sha256": "aa0833fb3dee033514aa5acee4b902344260148dd3f2e59b056fe8eee26eb57c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\source-images\\WhatsApp Image 2026-09-25 at 16.38.35.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-25 at 16.38.35--9d183d9e.jpeg",
+    "bytes": 66099,
+    "sha256": "fd9009fa3a5adcca512cc1ed53add68a134fc5d2fd0151c8b136d505381c9c9b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\test-admin-ui.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-admin-ui--da83f51f.cjs",
+    "bytes": 1140,
+    "sha256": "d132d9721aa86d6b86c9ddc4e5544e4bb16f86ac4cb2438b44c442efd913d256"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\test-food-products.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-food-products--56ec9235.cjs",
+    "bytes": 2446,
+    "sha256": "8e68b1b65322d95de5965fd85649fb16f59c741f0b42f6bee3583464c9297bff"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\test-shop.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-shop--84b2d48c.cjs",
+    "bytes": 3176,
+    "sha256": "f3f3d8df07fdd0c3a5eb576bf4aef13a0f16eacb65a9a00a82769b2d8a7cc448"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\update-food-catalog.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/update-food-catalog--5874e594.cjs",
+    "bytes": 2576,
+    "sha256": "09684279bc6281c3631b8195fa7c037b337857be24d07f6b7e650f1f4329894b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\update-food-readme.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/update-food-readme--4a33d794.cjs",
+    "bytes": 1307,
+    "sha256": "683f2f6486d41ca182605fa820504d410c480fbe0241ab44bb298e87f5207141"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\verify-accounts.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/verify-accounts--146f9ae7.cjs",
+    "bytes": 2173,
+    "sha256": "a15e3bc9b6cf690ef16e9177e7fa0c67be492fb39ee79babe9cf89493b5c4bc5"
+  },
+  {
+    "source_reference": "S:\\dracula-design",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\dracula-food",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "http://127.0.0.1:4173/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "http://127.0.0.1:4181/admin/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "http://127.0.0.1:4181/ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "http://127.0.0.1:4183/admin/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "http://127.0.0.1:4183/ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "http://127.0.0.1:4183/ro/collection",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://chatgpt.com/s/m_6ab691ad087c81919ea2c882178b576d",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://chatgpt.com/s/m_6ab6921286f48191b2489c962fbe7245",
+    "status": "referinta_externa_necopiata"
+  }
+]

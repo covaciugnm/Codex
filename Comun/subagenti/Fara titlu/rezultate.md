@@ -1,0 +1,2378 @@
+# Rezultate — Fara titlu
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6e2b0b7c-4c40-4949-801b-230d63545fa4",
+  "query": "site.ris.bka.gv.at Bauordnung Wien § 127 Prüfingenieur ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at Bauordnung Wien § 127 Prüfingenieur",
+      "site.ris.bka.gv.at Bauordnung Wien § 128a Bauwerksbuch",
+      "site.wien.gv.at Baubeginn Baubewilligung vier Jahre § 74 Wien"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn0search0",
+      "snippet": "(2)Absatz 2,Bis zur Erstattung der Fertigstellungsanzeige für Neu-, Zu- und Umbauten (§ 60 Abs. 1 lit. a) von Gebäuden mit mehr als zwei Hauptgeschoßen, ausgenommen",
+      "title": "RIS - Bauordnung für Wien § 128a - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40013140"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn0search12",
+      "snippet": "Bauordnung für Wien ... Gesetz ... § 128a ... § 129 Abs. 5, nach Maßgabe der folgenden Absätze verpflichtet, ein Bauwerksbuch zu erstellen und die",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40010092/LWI40010092.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn0search1",
+      "snippet": "* Der Baubeginn muss innerhalb der Gültigkeitsdauer der Baubewilligung (Bauanzeige) gesetzt werden. ... * Die Bauführung muss in der Regel binnen 4 Jahren ab Baubeginn",
+      "title": "Bauen von Gebäuden und baulichen Anlagen - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/bauvorhaben-fristen-baupolizei"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn0search2",
+      "snippet": "Die Art und der Umfang des geplanten Bauvorhabens bestimmt die Form der Bewilligung, die Dokumente, die Sie für den Antrag benötigen und die entstehenden Kosten.",
+      "title": "Allgemeine Baubewilligung von Bauten oder baulichen Anlagen - Antrag - Stadt Wien",
+      "url": "https://www.wien.gv.at/amtswege/allgemeine-baubewilligung-bauten-bauliche-anlagen"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn0search13",
+      "snippet": "Wien ... Bauordnung entsprechendem Zustand erhalten werden. ... Wenn für das Bauwerk ein Bauwerksbuch angelegt ist (§ 128a), hat die Dokumentation ... Erfüllungsfrist den der",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40017756/LWI40017756.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn0search14",
+      "snippet": "dem Bauwerber und dem Prüfingenieur (§ 127 Abs. 3) bekanntzugeben. ... Bauordnung, Bau, Stadtentwicklung, Stadtplanung, Baugesetz, BO, Bauen, Arbeit, Bauklasse, Haus, ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40010054/LWI40010054.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.verwaltungsgericht.wien.gv.at",
+      "ref_id": "turn0search3",
+      "snippet": "Baurecht: Zur Frage, ob das Bauwerk in seinem konkreten Ausbauzustand als „vollendet“ im Sinne des § 74 Abs.1 BO für Wien anzusehen ist, sodass nach",
+      "title": "VGW - 112: Recht der Technik 2026",
+      "url": "https://www.verwaltungsgericht.wien.gv.at/Content.Node/rechtsprechung/112__Recht_der_Technik_2026.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn0search15",
+      "snippet": "Bauführer, die selbständig tätigen Bauausführenden und der Prüfingenieur (§ 127 ... Bauausführung von den Bauplänen, die nach der Bauordnung für Wien ausgeführt",
+      "title": "V E R W A L T U N G S G E R I C H T",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Lvwg/LVWGT_WI_20220603_VGW_011_055_11755_2021_00/LVWGT_WI_20220603_VGW_011_055_11755_2021_00.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn0search16",
+      "snippet": "Wien ... 9. eine Bestätigung, dass ein Bauwerksbuch gemäß § 128a angelegt wurde. ... anzuschließen, dass der Bau entsprechend der Baubewilligung und den Bauvorschriften ausgeführt",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40010056/LWI40010056.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn0search4",
+      "snippet": "§ 61 BO (Bauordnung für Wien) Bewilligung von Anlagen | Bewilligungspflichtige Bauführungen gemäß § 61 BO (Bauordnung für Wien), wie zum Beispiel Klimageräte und Wärmepumpen",
+      "title": "Arten von Baubewilligungsverfahren - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/bauverfahren-verschiedene"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn0search17",
+      "snippet": "Das vorliegende Dokument soll die wichtigsten grundlegenden Fragen zum Thema Bauwerksbuch und der (teilweisen) Reservierungspflicht gemäß §§ 128a bzw. 128c Wiener Bauordnung (BO) beantworten. ...",
+      "title": "FAQ Bauwerksbuch und Registrierung des Bauwerksbuchs",
+      "url": "https://www.wien.gv.at/wohnen/baupolizei/pdf/faq-bauwerksbuch.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn0search5",
+      "snippet": "## Bauordnung, Wiener Bautechnikverordnung (WBTV), OIB (Österreichisches Institut für Bautechnik)-Richtlinien allgemein ... * Erläuterungen zum Bauwerksbuch: 1 MB (Megabyte) PDF (Portable Document For",
+      "title": "Baurechtliche Vorgaben - Arbeitsberechtigung, Statik, Barrierefreiheit - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/baurechtliche-anforderungen-baupolizei"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn0search6",
+      "snippet": "Das kostenlose Online-Webinar vermittelt die wesentlichen Anforderungen an das Bauwerksbuch Wien gemäß § 128a der Bauordnung für Wien verständlich und praxisnah.",
+      "title": "Bauwerksbuch Wien: Kostenloses Online-Webinar - Stadt Wien",
+      "url": "https://www.wien.gv.at/veranstaltungen/bauwerksbuch-wien-kostenloses-online-webinar"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn0search7",
+      "snippet": "Bereits seit der Novelle der Wiener Bauordnung 2014 ist die Registrierung des Bauwerksbuchs für Neubauten verpflichtend und die Bestätigung über die Erstellung des Bauwerksbuches muss",
+      "title": "Gebäudepickerl sichert leistbares Wohnen - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/altbau-bauwerksbuch"
+    },
+    {
+      "type": "text_result",
+      "domain": "ssb.wien",
+      "ref_id": "turn0search8",
+      "snippet": "nach §128a Wiener Bauordnung ... Es muss in der Bauwerksbuchdatenbank der Stadt Wien registriert werden und ist regelmäßig aktuell zu halten.",
+      "title": "Bauwerksbuch §128a Wiener Bauordnung – SSB Wien",
+      "url": "https://ssb.wien/leistungen/bauwerksbuch/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn0search9",
+      "snippet": "* Prüfingenieur*innen sind Ziviltechniker*innen oder gerichtlich beeidete Sachverständige für das einschlägige Fachgebiet. ... * Bestätigung zur Fertigstellungsanzeige nach § 128 BO (Bauordnung für Wi",
+      "title": "MA 37 - Prüfingenieur - Ziviltechniker/Sachverständiger, Formulare - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/pruefingenieur-formulare"
+    },
+    {
+      "type": "text_result",
+      "domain": "gesetzefinden.at",
+      "ref_id": "turn0search10",
+      "snippet": "Wenn sich im Zuge der Bauausführung ergibt, daß bei Einhaltung des Bauplanes, der nach diesem Gesetz ausgeführt werden darf, oder der Auflagen der Baubewilligung eine",
+      "title": "Bauordnung für Wien BO für Wien | GesetzeFinden.at",
+      "url": "https://gesetzefinden.at/landesrecht/landesgesetze/bo-fur-wien"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.gc-bauwerksbuch.at",
+      "ref_id": "turn0search11",
+      "snippet": "Hier finden Sie sachliche Erläuterungen rund um §128a Wiener Bauordnung – verfasst von Ziviltechnikern, gestützt auf die offiziellen Erläuterungen der Stadt Wien und der Kammer",
+      "title": "Was ist ein Bauwerksbuch? §128a Wiener Bauordnung erklärt | GC Bauwerksbuch",
+      "url": "https://www.gc-bauwerksbuch.at/wissen.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn0search18",
+      "snippet": "Tiroler Raumordnungsgesetz | TROG | 2022 | 43/2022 | Wiederverlautbarung des Tiroler Raumordnungsgesetzes 2016 ... Wien | Bauordnung für Wien | BO für Wien |",
+      "title": "Baugesetze und Bauordnungen (Österreich)",
+      "url": "https://de.wikipedia.org/wiki/Baugesetze_und_Bauordnungen_%28%C3%96sterreich%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn0search19",
+      "snippet": "Sitz: Wien ... Url: www.ris.bka.gv.atDas Rechtsinformationssystem des Bundes (RIS; vormals Rechtsinformationssystem der Republik Österreich) ist eine im Rahmen des e-Government s der Allgemeinheit une",
+      "title": "Rechtsinformationssystem des Bundes",
+      "url": "https://de.wikipedia.org/wiki/Rechtsinformationssystem_des_Bundes"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn0search20",
+      "snippet": "* Gesamte Rechtsvorschrift für Bauordnung für Wien, Fassung vom 18.Februar 2021, offizielle Webseite (https://www.ris.bka.gv.at/GeltendeFassung.wxe?",
+      "title": "Fachbeirat für Stadtplanung und Stadtgestaltung (Wien)",
+      "url": "https://de.wikipedia.org/wiki/Fachbeirat_f%C3%BCr_Stadtplanung_und_Stadtgestaltung_%28Wien%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn0search21",
+      "snippet": "Die Bauordnung für Wien ist ein umfangreiches Wien er Landesgesetz mit etwa 150 Paragraph en, das die Materien Stadtplanung, Flächenwidmung und das gesamte Bauwesen (Bautechnik,",
+      "title": "Bauordnung für Wien",
+      "url": "https://de.wikipedia.org/wiki/Bauordnung_f%C3%BCr_Wien"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-bc52cee0-42e6-40cb-823a-0525ee403e35",
+  "query": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000006&Paragraf=127&FassungVom=2026-09-08",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000006&Paragraf=127&FassungVom=2026-09-08"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn1view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn1view3",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-99bbad18-604c-4306-818f-c90a095ed190",
+  "query": "site.ris.bka.gv.at \"Bauordnung für Wien § 127\" \"heute\" \"Dienst\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 127\" \"heute\" \"Dienst\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 128\" \"heute\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 74\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 73\" \"Änderungen\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn2search0",
+      "snippet": "* ## Bauordnung für Wien § 128 ... 1. § 128 heute",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40010056"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn2search1",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 73, Fassung vom 30.01.2026 ... (1)Absatz eins,Beabsichtigte Abweichungen von Bauplänen, die nach diesem Gesetz ausgeführt werden dürfen,",
+      "title": "RIS - Bauordnung für Wien § 73 - Landesrecht konsolidiert Wien, Fassung vom 30.01.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-30&Gesetzesnummer=20000006&Paragraf=73&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn2search2",
+      "snippet": "Verfahrensart bzw. (beziehungsweise) Gegenstand | Verwaltungsabgabe in Euro | Bundesstempelgebühr in Euro | Bundesstempelgebühr in Euro für Eingaben unter Verwendung der ID Austria ... (Absatz)",
+      "title": "Bauverfahren - Abgaben und Gebühren im Überblick - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/bauprojekte-abgaben-gebuehren"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn2search3",
+      "snippet": "In § 73 Abs. 1 entfällt der zweite Satz. ... Erfolgt die Einreichung betreffend die Abweichungen gemäß § 70a, dürfen die Änderungen, unbeschadet späterer Entscheidungen",
+      "title": "LGBl 24/2008 - Bauordnung für Wien, Wiener Kleingartengesetz 1996, Wiener Bauprodukte- und Akkreditierungsgesetz und Wiener Feuerpolizei-, Luftreinhalte- und Klimaanlagengesetz; Änderung (Techniknovelle 2007) [CELEX-Nr.: 32002L0091]",
+      "url": "https://www.wien.gv.at/recht/landesrecht-wien/landesgesetzblatt/jahrgang/2008/html/lg2008024.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.verwaltungsgericht.wien.gv.at",
+      "ref_id": "turn2search4",
+      "snippet": "Wiener Bauordnung: Zur Frage, ob für eine Einfriedung des Grundstücks eine Baubewilligung erforderlich ist und zur Angemessenheit der Frist zur Erfüllung eines Beseitigungsauftrages. ... Baurecht:",
+      "title": "VGW - 112: Recht der Technik 2026",
+      "url": "https://www.verwaltungsgericht.wien.gv.at/Content.Node/rechtsprechung/112__Recht_der_Technik_2026.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "360.lexisnexis.at",
+      "ref_id": "turn2search5",
+      "snippet": "Abweichungen von einer Baubewilligung im Sinne der Bestimmungen der Bauordnung für Wien (§§ 73 u.a.) zu beurteilen seien, wobei diesbezüglich das entscheidende Kriterium der §",
+      "title": "LVwG Niederösterreich LVwG-AV-880/001-2022",
+      "url": "https://360.lexisnexis.at/d/entscheidungen-ris/lvwg_niederosterreich_lvwg_av_880001_2022/u_verwaltung_LVwG_Niedero_sterreich_202_54467c4eba"
+    },
+    {
+      "type": "text_result",
+      "domain": "gesetzefinden.at",
+      "ref_id": "turn2search6",
+      "snippet": "Durchsuchen Info RIS ... Dezember 1927, L.G.Bl. für Wien Nr. 1 ex 1928, die, soweit dieses Gesetz nichts anderes bestimmt, zugleich ihre Wirksamkeit verlieren, hat",
+      "title": "Bauordnung für Wien BO für Wien | GesetzeFinden.at",
+      "url": "https://gesetzefinden.at/landesrecht/landesgesetze/bo-fur-wien"
+    },
+    {
+      "type": "text_result",
+      "domain": "gesetzefinden.at",
+      "ref_id": "turn2search7",
+      "snippet": "| Bewilligung für eine Nachtarbeit nach dem Gesetz zum Schutz gegen Baulärm | 46,00 | Euro ... | Prüfung einer Fertigstellungsanzeige nach der Bauordnung für",
+      "title": "Anl. 1 — Verwaltungsabgaben und Kommissionsgebühren | GesetzeFinden.at",
+      "url": "https://gesetzefinden.at/landesrecht/verordnungen/lwi20000127/anl-1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bmluk.gv.at",
+      "ref_id": "turn2search8",
+      "snippet": "(Nummer) 39/1996, idgF. (in der gültigen Fassung), (RIS (Rechtsinformationssystem des Bundes)) ... * Wiener Stadtentwicklungs-, Stadtplanungs- und Baugesetzbuch (Bauordnung für Wien – BO (Bauordnung) ",
+      "title": "Ressortrecht detailliert - Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft",
+      "url": "https://www.bmluk.gv.at/ministerium/rechtliches/ressortrecht-detailliert.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn2search9",
+      "snippet": "* Eine Dokumentation der Maßnahmen oder Änderungen gemäß Bauordnung § 118a. ... Im Zusammenhang mit der Registrierung des Bauwerksbuchs gelten in Bezug auf datenschutzrechtliche Informationen",
+      "title": "Bauwerksbuch - Registrierung - Stadt Wien",
+      "url": "https://www.wien.gv.at/amtswege/bauwerksbuch-registrierung"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.scribd.com",
+      "ref_id": "turn2search10",
+      "snippet": "Bei unwesentlichen Abänderungen der Flächenwidmungspläne und Bebauungspläne kann die ... Ziviltechnikerkammer für Wien, Niederösterreich und Burgenland und der Wiener ... (8) Für das Verfahren zur",
+      "title": "Wiener Bauordnung - Fassung vom 19.08.2026 | PDF",
+      "url": "https://de.scribd.com/document/1077012913/Wiener-Bauordnung-Fassung-vom-19-08-2026"
+    },
+    {
+      "type": "text_result",
+      "domain": "fhburgenland.contentdm.oclc.org",
+      "ref_id": "turn2search12",
+      "snippet": "Wiener Stadtentwicklungs-, Stadtplanungs- und Baugesetzbuch (Bauordnung für Wien – BO fürWien): §§ 74 ff.",
+      "title": "Masterarbeit",
+      "url": "https://fhburgenland.contentdm.oclc.org/digital/api/collection/p15425dc/id/139267/download"
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn2search11",
+      "snippet": "Gesetz, mit dem die Bauordnung für Wien, das Wiener Kleingartengesetz 1996 und das Wiener Garagengesetz 2008 geändert werden (Bauordnungsnovelle 2023)",
+      "title": "Direktiiv - 2012/18 - LT - EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/ET/NIM/?uri=CELEX%3A32012L0018"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d4380340-d73f-4796-b61d-454d20b7d0fb",
+  "query": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40010056",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40010056"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn3view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn3view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn3view2",
+      "snippet": "Total lines: 228",
+      "title": "MA 37 - Prüfingenieur - Ziviltechniker/Sachverständiger, Formulare - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/pruefingenieur-formulare"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-0ba68ae6-6e65-4857-9710-1cdd7f85a812",
+  "query": "site.ris.bka.gv.at/ \"§ 127\" \"Bauordnung\" \"Der Bauwerber\" \"2026\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at/ \"§ 127\" \"Bauordnung\" \"Der Bauwerber\" \"2026\"",
+      "site.ris.bka.gv.at/ \"§ 74\" \"Bauordnung für Wien\" \"vier Jahren\"",
+      "site.ris.bka.gv.at/ \"§ 128a\" \"15.07.2026\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4search0",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 74, Fassung vom 10.05.2022 ... (1)Absatz eins,Baubewilligungen gemäß § 70 werden unwirksam, wenn nicht binnen vier Jahren,",
+      "title": "RIS - Bauordnung für Wien § 74 - Landesrecht konsolidiert Wien, Fassung vom 10.05.2022",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2022-05-10&Gesetzesnummer=20000006&Paragraf=74&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4search12",
+      "snippet": "Bauordnung für Wien ... § 74 ... Unterlagen gerechnet, mit der Bauführung begonnen oder der Bau nicht innerhalb von vier Jahren nach ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40014404/LWI40014404.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4search13",
+      "snippet": "§ 74. ... 10 Bauordnung für Wien – BO für Wien lautet wie folgt: ... vier Jahren, vom Tage der vollständigen Vorlage der Baupläne und",
+      "title": "V E R W A L T U N G S G E R I C H T",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Lvwg/LVWGT_WI_20260112_VGW_112_107_4301_2025_00/LVWGT_WI_20260112_VGW_112_107_4301_2025_00.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4search14",
+      "snippet": "Bauordnung für Wien ... § 74 ... gerechnet, mit der Bauführung begonnen oder der Bau nicht innerhalb von vier Jahren nach Baubeginn ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40000155/LWI40000155.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4search15",
+      "snippet": "Bauordnung für Wien ... § 74 ... gerechnet, mit der Bauführung begonnen oder der Bau nicht innerhalb von vier Jahren nach Baubeginn ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40013121/LWI40013121.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn4search16",
+      "snippet": "Entscheidung von dem ihr eingeräumten Ermessen nicht dem Gesetz entsprechend Gebrauch gemacht habe. § 74 Bauordnung für Wien (BO) regelt die Gültigkeitsdauer der Baubewilligung. ...",
+      "title": "28.06.2005",
+      "url": "https://ris.bka.gv.at/Dokumente/Vwgh/JWT_2005050075_20050628X00/JWT_2005050075_20050628X00.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn4search17",
+      "snippet": "…/4, …/5 und …/12 ist gemäß § 13 Abs. 2 lit b der Bauordnung für Wien ist mit ... Gemäß § 74. ... innerhalb von",
+      "title": "V E R W A L T U N G S G E R I C H T",
+      "url": "https://ris.bka.gv.at/Dokumente/Lvwg/LVWGT_WI_20180814_VGW_111_072_16031_2017_00/LVWGT_WI_20180814_VGW_111_072_16031_2017_00.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4search1",
+      "snippet": "Zur Verfassung der nach diesem Gesetz erforderlichen Unterlagen ist der Bauwerber mit Zustimmung des Eigentümers der zu bebauenden Liegenschaft überdies berechtigt, in die bei der",
+      "title": "RIS - Bauordnung für Wien - Landesrecht konsolidiert Wien, Fassung vom 07.09.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006"
+    },
+    {
+      "type": "text_result",
+      "domain": "indiankanoon.org",
+      "ref_id": "turn4search2",
+      "snippet": "It is further submitted that in view of subsequent amendment carried in the GST Act by way of insertion of Section 128A, the interest and",
+      "title": "M/S. Magnum Estates Private Limited vs Additional Commissioner on 15 July, 2026",
+      "url": "https://indiankanoon.org/doc/41172915/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.lexaris.de",
+      "ref_id": "turn4search3",
+      "snippet": "(5) Der Kläger hat innerhalb einer Frist von sechs Wochen die zur Begründung seiner Klage dienenden Tatsachen und Beweismittel anzugeben. § 87b Abs. 3 und",
+      "title": "Luftverkehrsgesetz (LuftVG) (LuftVG) - 15.07.2026 - Auf einer Seite | Lexaris - Digital Laws",
+      "url": "https://www.lexaris.de/book/version/documentflat/head/11442390"
+    },
+    {
+      "type": "text_result",
+      "domain": "meisterdok.de",
+      "ref_id": "turn4search4",
+      "snippet": "* Bauwerksbuch Wien nach § 128a — Überblick über alle Pflichten ... Nr. 25/2026 (in Kraft seit 15.07.2026), § 128c idF LGBl.",
+      "title": "Bauwerksbuch Frist 2027: Gebäude vor 1919",
+      "url": "https://meisterdok.de/bauwerksbuch-wien/frist-2027"
+    },
+    {
+      "type": "text_result",
+      "domain": "360.lexisnexis.at",
+      "ref_id": "turn4search5",
+      "snippet": "Jänner 2018, VGW‑111/V/072/8076/2017‑32, betreffend Baueinstellung (belangte Behörde vor dem Verwaltungsgericht: Magistrat der Stadt Wien; weitere Partei: Wiener Landesregierung), zu Recht erkannt: ..",
+      "title": "VwGH Ra 2019/05/0069",
+      "url": "https://360.lexisnexis.at/d/entscheidungen-ris/vwgh_ra_2019050069/u_verwaltung_VwGH_2020_JWT_2019050069_2_f21ab6fda2"
+    },
+    {
+      "type": "text_result",
+      "domain": "meisterdok.de",
+      "ref_id": "turn4search6",
+      "snippet": "4 Z 7 in der seit 15.07.2026 geltenden Fassung) ... A | guter Zustand | 10 Jahre",
+      "title": "Bauwerksbuch Wien § 128a: Pflicht, Fristen, Ablauf",
+      "url": "https://meisterdok.de/bauwerksbuch-wien"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.1a.lv",
+      "ref_id": "turn4search7",
+      "snippet": "K Senukai LATGALES, Latgales iela 418a | | 27.08.2026. | 1 gab. ... K Senukai TUKUMS, Kurzemes iela 46 | | 15.07.2026. | 3 gab.",
+      "title": "Mugursoma Tiger Family TGNQ-128A, zila krās., 19 cm x 35 cm x 31 cm - 1a.lv",
+      "url": "https://www.1a.lv/p/mugursoma-tiger-family-tgnq-128a-zila-kras-19-cm-x-35-cm-x-31-cm/zlf9"
+    },
+    {
+      "type": "text_result",
+      "domain": "hansagartenhaus.at",
+      "ref_id": "turn4search8",
+      "snippet": "Diese Frist liegt je nach Bundesland meist zwischen zwei und vier Jahren.Beispielsweise gilt in Wien eine Frist von zwei Jahren (§74 Wiener Bauordnung).Auch in Niederösterreich",
+      "title": "Bauen ohne Baugenehmigung in Österreich: Was erlaubt ist - Hansa Gartenhaus",
+      "url": "https://hansagartenhaus.at/bauen-ohne-baugenehmigung-in-oesterreich-was-ist-wirklich-erlaubt/"
+    },
+    {
+      "type": "text_result",
+      "domain": "gesetzefinden.at",
+      "ref_id": "turn4search9",
+      "snippet": "November 1997, mit dem Bauvorschriften für das Burgenland erlassen werden (Burgenländisches Baugesetz 1997 - Bgld. ... Juli 2026 ... RV 111 AB 127 ) LGBl.",
+      "title": "Burgenländisches Baugesetz 1997 Bgld. BauG | GesetzeFinden.at",
+      "url": "https://gesetzefinden.at/landesrecht/landesgesetze/bgld-baug"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.verlagoesterreich.at",
+      "ref_id": "turn4search10",
+      "snippet": "Die Frage der Bewilligungsfähigkeit eines Bauwerks ist mangels bindender Entscheidung der Verwaltungsbehörde eine vom Gericht zu beurteilende Vorfrage, weshalb der Bauwerber dartuen muss, warum ein",
+      "title": "Heft 3, Mai 2026, Band 29 | 99.105005/bbl20263",
+      "url": "https://www.verlagoesterreich.at/heft-3-mai-2026-band-29/99.105005-bbl20263"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn4view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn4view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn4view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-de9fe459-83e5-4eb1-b1ba-d2fa89fe3010",
+  "query": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn6view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-18d55447-6006-4eac-9738-0bb1dc3677f5",
+  "query": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006",
+  "action": {
+    "type": "openPage",
+    "url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn7view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn7view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-95e74360-6583-449f-8dd7-fa45c1d0cfa3",
+  "query": "site.ris.bka.gv.at \"Bauordnung für Wien § 127\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 127\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 128\" \"15.07.2026\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 124\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 128a\" \"25/2026\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search0",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 127, Fassung vom 29.01.2026 ... ## Bauordnung für Wien § 127 ... Gesetz",
+      "title": "RIS - Bauordnung für Wien § 127 - Landesrecht konsolidiert Wien, Fassung vom 29.01.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-29&Gesetzesnummer=20000006&Paragraf=127&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search1",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 124, Fassung vom 07.02.2026 ... ## Bauordnung für Wien § 124",
+      "title": "RIS - Bauordnung für Wien § 124 - Landesrecht konsolidiert Wien, Fassung vom 07.02.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-02-07&Gesetzesnummer=20000006&Paragraf=124&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search2",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 127, Fassung vom 22.04.2025 ... ## Bauordnung für Wien § 127 ... Absatz 2 Bauwerber und Bauführer",
+      "title": "RIS - Bauordnung für Wien § 127 - Landesrecht konsolidiert Wien, Fassung vom 22.04.2025",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2025-04-22&Gesetzesnummer=20000006&Paragraf=127&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search3",
+      "snippet": "* ## Bauordnung für Wien § 128 ... 2. § 128 gültig ab 15.07.2026 zuletzt geändert durch LGBl.",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40010056"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search4",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 128a, Fassung vom 10.10.2023 ... 25/2026 ... (1)Absatz eins,Der Eigentümer eines Gebäudes ist, unbeschadet seiner Überprüfungspflicht gemäß",
+      "title": "RIS - Bauordnung für Wien § 128a - Landesrecht konsolidiert Wien, Fassung vom 10.10.2023",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2023-10-10&Gesetzesnummer=20000006&Paragraf=128a&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search5",
+      "snippet": "(2)Absatz 2,Der Bauführer hat den Zeitpunkt des Beginns der Bauführung mindestens drei Tage vorher, bei Bauführungen auf Grund von Bauanzeigen (§ 62) spätestens am Tag",
+      "title": "RIS - Bauordnung für Wien § 124 - Landesrecht konsolidiert Wien, Fassung vom 16.01.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-16&Gesetzesnummer=20000006&Paragraf=124&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search12",
+      "snippet": "Bauordnung für Wien §124; ... (B.-Straße 109), mit einem von der Baubehörde für abbruchsreif erklärten Altbau, liegen nebeneinander. ... www.ris.bka.gv.at",
+      "title": "24.06.1964",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19640624_OGH0002_0060OB00067_6400000_000/JJT_19640624_OGH0002_0060OB00067_6400000_000.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search6",
+      "snippet": "Bauordnung, Bau, Stadtentwicklung, Stadtplanung, Baugesetz, BO, Bauen, Arbeit, Bauklasse, Haus, Wohnhaus, Pflegeheim, Krankenhaus, Krankenanstalt, Pensionistenwohnhaus, Garage, Tiefgarage, Wohnheim, W",
+      "title": "RIS - Bauordnung für Wien § 127 - Landesrecht konsolidiert Wien, Fassung vom 19.11.2023",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2023-11-19&Gesetzesnummer=20000006&Paragraf=127&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search7",
+      "snippet": "(9)Absatz 9,Ist der Tatbestand für eine Baueinstellung nach Abs. 8 offenkundig nur für einen Teil eines Bauwerkes verwirklicht und ist aus diesem Grunde die Fortführung",
+      "title": "RIS - Bauordnung für Wien § 127 - Landesrecht konsolidiert Wien, Fassung vom 09.10.2021",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2021-10-09&Gesetzesnummer=20000006&Paragraf=127&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search8",
+      "snippet": "(5)Absatz 5,Für selbständig benützbare Teile eines Bauwerkes kann eine Fertigstellungsanzeige erstattet werden. ... (6)Absatz 6,Die nach anderen Bestimmungen dieses Gesetzes bestehende Verpflichtung, ",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien, Fassung vom 14.02.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-02-14&Gesetzesnummer=20000006&Paragraf=128&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn9search9",
+      "snippet": "eine Bestätigung über die Registrierung des Bauwerksbuches gemäß § 128a;eine Bestätigung über die Registrierung des Bauwerksbuches gemäß Paragraph 128 a,; ... eine Bestätigung über die",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien, Fassung vom 14.01.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-14&Gesetzesnummer=20000006&Paragraf=128&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn9search10",
+      "snippet": "§ 127 Abs. 1 und 2 lauten:„(1) Den Vertretern der Behörde ist jederzeit der Zutritt zur Baustelle zu gestatten. ... (2) Bauwerber und Bauführer sind",
+      "title": "LGBl 46/1998 - Bauordnung für Wien; Änderung",
+      "url": "https://www.wien.gv.at/recht/landesrecht-wien/landesgesetzblatt/jahrgang/1998/html/lg1998046.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn9search11",
+      "snippet": "* ist von dem*der Bauwerber*in der Baubehörde (falls die Baupläne noch nicht unterfertigt sind) vor Baubeginn schriftlich bekannt zu geben und ... * Baubeginns- beziehungsweise",
+      "title": "Bauführer - Richtlinien, Aufgaben, Formulare der Baupolizei - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/baufuehrer-voraussetzungen-formulare"
+    },
+    {
+      "type": "text_result",
+      "domain": "repositum.tuwien.at",
+      "ref_id": "turn9search13",
+      "snippet": "Als Bindeglied zwischen der Behörde und dem Bauführer sowie den ausführenden Gewerken nimmt der Prüfingenieur eine zentrale Rolle in der Durchführung eines Projektes ein.35 Während",
+      "title": "Planungsleistungen von Architekten und Ingenieuren",
+      "url": "https://repositum.tuwien.at/bitstream/20.500.12708/16801/1/Abdelmalek%20Magdalena%20-%202020%20-%20Planungsleistungen%20von%20Architekten%20und%20Ingenieuren.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-0d2dda2c-4d59-4691-9aac-a542b165a725",
+  "query": "site.ris.bka.gv.at \"§ 128\" \"25/2026\" \"Bestätigung\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at \"§ 128\" \"25/2026\" \"Bestätigung\"",
+      "site.ris.bka.gv.at \"§ 128a\" \"25/2026\" \"Text\"",
+      "site.wien.gv.at \"2026\" \"25\" \"128a\"",
+      "site.ris.bka.gv.at \"Bauordnung\" \"§ 128\" \"12.02.2026\" \"Ziviltechnikers\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn11search12",
+      "snippet": "Bauordnung für Wien ... § 128 ... 12.02.2026 ... Vorschriften gefertigte Bestätigung eines Ziviltechnikers, der vom Bauwerber und vom ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40017755/LWI40017755.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn11search0",
+      "snippet": "eine im Rahmen seiner Befugnis ausgestellte und nach den für die Berufsausübung maßgeblichen Vorschriften gefertigte Bestätigung eines Ziviltechnikers, der vom Bauwerber und vom Bauführer verschieden",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien, Fassung vom 14.02.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-02-14&Gesetzesnummer=20000006&Paragraf=128&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn11search13",
+      "snippet": "Ausnahmen entspricht Abs. 6, weshalb insoweit auf die obigen Ausführungen verwiesen wird. ... Richtlinie (EU) 2024/1275 verpflichtenden Anordnungen (insbesondere jene nach Art. ... 2 Z",
+      "title": "1 von 21\nEntwurf\nJahrgang 2026\nAusgegeben am xx. x",
+      "url": "https://www.wien.gv.at/recht/landesrecht-wien/begutachtung/pdf/2026005-20260518.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.parlament.gv.at",
+      "ref_id": "turn11search1",
+      "snippet": "XX/2026, gilt Folgendes: § 128a samt Überschriften sowie die Überschriften vor § 129 treten mit 1.",
+      "title": "953/A XXVIII. GP - Initiativantrag - Gesetzestext (Arbeitsdokument ParlDion)",
+      "url": "https://www.parlament.gv.at/dokument/XXVIII/A/953/fnameorig_1764597.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.parlamento-larioja.org",
+      "ref_id": "turn11search14",
+      "snippet": "Ley de Presupuestos del año 2026 ... <td>25</td> ... <td>A FAMILIAS E INSTITUCIONES SIN FINES DE LUCRO</td>",
+      "title": "XI-Legis\\2025\\SERIE-A\\128a",
+      "url": "https://www.parlamento-larioja.org/recursos-de-informacion/publicaciones-oficiales/boletin-oficial/bopr-11-128a/at_download/file"
+    },
+    {
+      "type": "text_result",
+      "domain": "linda.lindeverlag.at",
+      "ref_id": "turn11search2",
+      "snippet": "BO für Wien - Bauordnung für Wien ... Gebäudehöhe und Gebäudeumrisse; Bemessung ... gültig ab 12.02.2026gültig ab 12.02.2026 gültig von 14.12.2023 bis 11.02.2026 gültig von",
+      "title": "§ 128. Fertigstellungsanzeige - Linde Datenbank",
+      "url": "https://linda.lindeverlag.at/Dokument/77470_128/"
+    },
+    {
+      "type": "text_result",
+      "domain": "note.com",
+      "ref_id": "turn11search3",
+      "snippet": "# 第7回fuzzカップ観戦記ベスト128A卓 ... 2026年7月16日 17:39 ... 1回戦は20歳代でプロ歴1年に満たない堀と、年齢2倍、プロ歴25倍の歴戦の木原浩一のマッチレースとなる。",
+      "title": "第7回fuzzカップ観戦記ベスト128A卓｜日本プロ麻雀協会",
+      "url": "https://note.com/clubnpm2001/n/n3f22dbae9836"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rives.it",
+      "ref_id": "turn11search15",
+      "snippet": "FIBRIS-R Confezioni in vendita | Scheda Tecnica n°128a - Revisione 2 del 03/03/2026 Bianco W = 25 Kg.",
+      "title": "FIBRIS-R\nScheda Tecnica n°128a - Revisione 2 del 0",
+      "url": "https://www.rives.it/wp-content/uploads/2026/03/SchedeTecniche_FibrisR_2026_IT.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.oeffnungszeitenpost.at",
+      "ref_id": "turn11search4",
+      "snippet": "Adresse der Post | Kirchplatzl 128a ... Jun 2026 ... 25.",
+      "title": "Abholstation Leutasch - Abholstation 6106 Leutasch (6105) Kirchplatzl 128a - Standort und Öffnungszeiten",
+      "url": "https://www.oeffnungszeitenpost.at/Abholstation%20Leutasch%20-%20Abholstation%206106%20Leutasch/6105/Leutasch/ChP9wEjwDoN8mhPJ"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cimri.com",
+      "ref_id": "turn11search5",
+      "snippet": "5 satıcı arasındaki en ucuz HP 128A Kırmızı Toner fiyatı, 06.08.2026 tarihinde 4.694,23 TL. ... 25/06/2026 | 4.589,67 TL | +2,01 TL",
+      "title": "HP 128A Kırmızı Toner Fiyatları | Cimri",
+      "url": "https://www.cimri.com/tonerler/en-ucuz-hp-128a-kirmizi-toner-fiyatlari%2C1007458124"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ciceksepeti.com",
+      "ref_id": "turn11search6",
+      "snippet": "Image: Sinek Robot Kumandalı Şarjlı 128A-38 ... 25-04-2026 18:22:48",
+      "title": "Sinek Robot Kumandalı Şarjlı 128A-38",
+      "url": "https://www.ciceksepeti.com/sinek-robot-kumandali-sarjli-128a-38-kcm67141597"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.propertyvalue.com.au",
+      "ref_id": "turn11search7",
+      "snippet": "# 25/128A Garden Street Maroubra NSW 2035 ... Date of estimated value: 04 May 2026",
+      "title": "25/128A Garden Street Maroubra NSW 2035 Sold Prices and Statistics",
+      "url": "https://www.propertyvalue.com.au/property/25/128a-garden-street-maroubra-nsw-2035/47422778"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mcmud128a.org",
+      "ref_id": "turn11search8",
+      "snippet": "A description of this process can be found at: www.tceq.texas.gov/waterdistricts. ... 2026-02-25 – Regular: Agenda | Supplemental Agenda (English, Español) | Minutes",
+      "title": "Meetings – Montgomery County Municipal Utility District No. 128A",
+      "url": "https://www.mcmud128a.org/meetings/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barbarabeers.com",
+      "ref_id": "turn11search9",
+      "snippet": "Image: 10910 128A St. - Photo 1 ... Last Updated Jul 25, 2026, 12:00 a.m.",
+      "title": "For Sale: 10910 128A Street, Surrey",
+      "url": "https://barbarabeers.com/property-for-sale/british-columbia/surrey/2026/07/10910-128a-st"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ncbi.nlm.nih.gov",
+      "ref_id": "turn11search10",
+      "snippet": "## NM_000251.3(MSH2):c.128A>G (p.Tyr43Cys) AND MSH2-related disorder ... Last Updated: Apr 25, 2026",
+      "title": "NM_000251.3(MSH2):c.128A>G (p.Tyr43Cys) AND MSH2-related disorder - ClinVar - NCBI",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV004537289.2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "befr.rs-online.com",
+      "ref_id": "turn11search11",
+      "snippet": "# TRACOPOWER Switching Power Supply, TPP 150-128A-J 28V, 5360 mA, 150 W, Input 85V ac to 264V ... * Expédition à partir du 10 août",
+      "title": "TRACOPOWER Switching Power Supply, TPP 150-128A-J 28V, 5360 mA, 150 W, Input 85V ac to 264V | RS",
+      "url": "https://befr.rs-online.com/web/p/switching-power-supplies/1770209"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6ad62b71-8e8d-49ef-b221-454b05f98d9e",
+  "query": "\"Bauordnung für Wien\" \"128a\" \"2030\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Bauordnung für Wien\" \"128a\" \"2030\"",
+      "\"Bauordnung für Wien\" \"128a\" \"15.07.2026\" \"Ziviltechniker\"",
+      "\"Bauordnung für Wien\" \"128\" \"15.07.2026\" \"13\"",
+      "site.ris.bka.gv.at/eli/lgbl/WI/2026/25"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn13search0",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 128, Fassung vom 12.02.2026 ... 2. § 128 gültig ab 15.07.2026 zuletzt geändert durch LGBl.",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien, Fassung vom 12.02.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-02-12&Gesetzesnummer=20000006&Paragraf=128&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn13search1",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 128a, Fassung vom 01.01.2026 ... 2. § 128a gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... eine",
+      "title": "RIS - Bauordnung für Wien § 128a - Landesrecht konsolidiert Wien, Fassung vom 01.01.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-01&Gesetzesnummer=20000006&Paragraf=128a&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bauwerksbuch-service.at",
+      "ref_id": "turn13search2",
+      "snippet": "Bauwerksbuch erstellen bis 31.12.2030 für alle Gebäude, die zwischen 01.01.1919 und 01.01.1945 errichtet wurden ... Quelle: Bauordnung für Wien, § 128a Abs.",
+      "title": "Bauwerksbuch-Plattform · Erinnerungen, Mängel-Management, PDF-Export",
+      "url": "https://www.bauwerksbuch-service.at/app.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn13search3",
+      "snippet": "Das kostenlose Online-Webinar vermittelt die wesentlichen Anforderungen an das Bauwerksbuch Wien gemäß § 128a der Bauordnung für Wien verständlich und praxisnah. ... Dezember 2030",
+      "title": "Bauwerksbuch Wien: Kostenloses Online-Webinar - Stadt Wien",
+      "url": "https://www.wien.gv.at/veranstaltungen/bauwerksbuch-wien-kostenloses-online-webinar"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn13search4",
+      "snippet": "1 | [Input] | § 140 | 15.07.2026 | | Bauordnung für Wien | | ... 6 | [Input] | § 140 | 14.10.2020 |",
+      "title": "RIS - Landesrecht konsolidiert Wien - Trefferliste",
+      "url": "https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=Landesnormen&BisAnlage=&BisArtikel=&BisAusserkrafttretedatum=&BisInkrafttretedatum=&BisParagraf=&Bundesland=Wien&BundeslandDefault=Wien&FassungVom=&Gesetzesnummer=&ImRisSeit=Undefined&ImRisSeitBisDatum=&ImRisSeitVonDatum=&Index=&Kundmachungsnummer=11%2F1930&Kundmachungsorgan=&NormabschnittnummerKombination=Und&Position=0&ResultPageSize=100&Sort=3%7CDesc&Suchworte=&Titel=Bauordnung&Typ=&Unterzeichnungsdatum=&VonAnlage=&VonArtikel=&VonAusserkrafttretedatum=&VonInkrafttretedatum=&VonParagraf="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn13search5",
+      "snippet": "* Oesterreich.gv.at ... * Inhaltsverzeichnis zum LGBl ... * © 2026 Bundeskanzleramt der Republik Österreich",
+      "title": "RIS - Landesgesetzblatt authentisch - Suche",
+      "url": "https://www.ris.bka.gv.at/LgblAuth/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn13search12",
+      "snippet": "Das LGBl-Inhaltsverzeichnis für das ... Quartal 2026 wird im April 2026",
+      "title": "Das LGBl-Inhaltsverzeichnis für das",
+      "url": "https://www.ris.bka.gv.at/RisInfo/Inhaltsverzeichnis2026LgblWi.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn13search6",
+      "snippet": "### September 2026 ... Jänner 2025 werden ausgewählte Entscheidungen des Parlamentarischen Datenschutzkomitees in die RIS-Anwendung \"Datenschutz-Aufsichtsbehörden\" veröffentlicht. ... * Oesterreich.gv",
+      "title": "RIS Informationsangebote",
+      "url": "https://ris.bka.gv.at/"
+    },
+    {
+      "type": "text_result",
+      "domain": "repositum.tuwien.at",
+      "ref_id": "turn13search13",
+      "snippet": "Dezember 2030 vorliegen. ... Bauwerksbuchverpflichtung ergibt sich aus dem § 128a der Wiener BO. ... Landesrecht konsolidiert: Bauordnung für Wien § 128a.",
+      "title": "MSc Programm",
+      "url": "https://repositum.tuwien.at/bitstream/20.500.12708/208793/1/Posch%20Bernhard%20-%202024%20-%20Verfall%20statt%20Erhalt%20-%20Auswirkungen%20der...pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "pressemeldung.com",
+      "ref_id": "turn13search7",
+      "snippet": "# Bauwerksbuch Wien: Online-Check zeigt Fristen 2027 und 2030 Neu ... Für zahlreiche ältere Gebäude in Wien schreibt § 128a der Bauordnung für Wien ein",
+      "title": "Bauwerksbuch Wien: Online-Check zeigt Fristen 2027 und 2030 | Pressemeldung.com",
+      "url": "https://pressemeldung.com/pressemeldung/2026/08/bauwerksbuch-wien-online-check-zeigt-fristen-2027-2030"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn13search14",
+      "snippet": "(25) Die Änderung des Inhaltsverzeichnisses, § 5 Abs. ... 2 Z 2 bis 6 in der Fassung des LGBl. für Wien Nr. 65/2025 treten mit",
+      "title": "Landesrecht",
+      "url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40017910/LWI40017910.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn13search8",
+      "snippet": "Dezember 1927, L.G.Bl. für Wien Nr. 1 ex 1928, die, soweit dieses Gesetz nichts anderes bestimmt, zugleich ihre Wirksamkeit verlieren, hat die nachfolgende Bauordnung zu",
+      "title": "RIS - Bauordnung für Wien - Landesrecht konsolidiert Wien, Fassung vom 07.09.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn13search9",
+      "snippet": "Nr 25/2020, LGBl. ... 44/2026 Landesgesetzblatt Nr. 53 aus 2014, (CELEX Nr. berichtigt), Landesgesetzblatt Nr. 47 aus 2015,, Landesgesetzblatt Nr. 28 aus 2017,, Landesgesetzblatt Nr.",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LBG40029417/LBG40029417.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "bauwerksbuch-erstellen.wien",
+      "ref_id": "turn13search10",
+      "snippet": "# Bauwerksbuch: Fristen 2027 und 2030 ... A | Guter Zustand | alle 10 Jahre ... Maßgeblich sind die Bauordnung für Wien und die Vorgaben",
+      "title": "Bauwerksbuch Frist 2027 und 2030 – § 128a Wien",
+      "url": "https://bauwerksbuch-erstellen.wien/bauwerksbuch-fristen"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn13search15",
+      "snippet": "LGBl. - Kundgemacht am 11. ... Juni 2026 auszustellen.“ ... www.ris.bka.gv.at",
+      "title": "Amtssigniert. SID2025041124644",
+      "url": "https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_TI_20250411_27/LGBLA_TI_20250411_27.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn13search11",
+      "snippet": "7 | [Input] | LGBl. ... 88/2026 | 25.08.2026 | Salzburg | Verordnung betreffend Kernöffnungszeiten für die Filialapotheke „Hochkönig-Apotheke, Maria Alm“ der öffentlichen Apotheke Aesculus",
+      "title": "RIS - Landesgesetzblatt authentisch - Trefferliste",
+      "url": "https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=LgblAuth"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn13search16",
+      "snippet": "25/2026 - Ausgegeben am 13. ... Mit Inkrafttreten dieser Verordnung tritt die Sondergebührenverordnung 2025, LGBl. ... www.ris.bka.gv.at",
+      "title": "1 von 11\nJahrgang 2026\nAusgegeben am 13. März 2026",
+      "url": "https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_ST_20260313_25/LGBLA_ST_20260313_25.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn13search17",
+      "snippet": "LGBl. ... 6/2026 - Ausgegeben am 26. ... www.ris.bka.gv.at",
+      "title": "1 von 2\nJahrgang 2026\nAusgegeben am 26. Jänner 202",
+      "url": "https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_ST_20260126_6/LGBLA_ST_20260126_6.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-f58b32ed-de53-40b6-9fc6-04cf0c50bcba",
+  "query": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-01&Gesetzesnummer=20000006&Paragraf=128a&ShowPrintPreview=True&Uebergangsrecht=",
+  "action": {
+    "type": "openPage",
+    "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-01&Gesetzesnummer=20000006&Paragraf=128a&ShowPrintPreview=True&Uebergangsrecht="
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn15view0",
+      "snippet": "Total lines: 165",
+      "title": "\n\tRIS - Bauordnung für Wien § 128a - Landesrecht konsolidiert Wien, Fassung vom 01.01.2026\n",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-01&Gesetzesnummer=20000006&Paragraf=128a&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn15view1",
+      "snippet": "Total lines: 165",
+      "title": "\n\tRIS - Bauordnung für Wien § 127 - Landesrecht konsolidiert Wien, Fassung vom 29.01.2026\n",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-29&Gesetzesnummer=20000006&Paragraf=127&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn15view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-a60082b5-7c7d-47aa-a6e7-03e2c84f2643",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn17view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn17view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn17view2",
+      "snippet": "Total lines: 5",
+      "title": "403.20 - Unauthorized: Access is denied for ChatGpt-User Bot.",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-29&Gesetzesnummer=20000006&Paragraf=128&Uebergangsrecht="
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-55b046b7-1dac-490c-a71b-0bd13fa70fba",
+  "query": "\"Wien\" \"LGBl.\" \"25/2026\" \"Bauordnung\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Wien\" \"LGBl.\" \"25/2026\" \"Bauordnung\"",
+      "\"Bauordnung für Wien\" \"15. Juli 2026\"",
+      "\"Bauordnung\" \"§ 128a Abs. 4 Z 7\" \"2026\"",
+      "site.wien.gv.at \"Bauwerksbuch\" \"Erstprüfung\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn18search12",
+      "snippet": "Aus den Überprüfungen im Zusammenhang mit dem Bauwerksbuch alleine ergibt sich keine Nachrüstverpflichtung gemäß aktuellem Stand der Technik beispielsweise der Geländerausgestaltung oder der Barrieref",
+      "title": "Erläuterungen zum Bauwerksbuch gemäß Bauordnung für Wien",
+      "url": "https://www.wien.gv.at/pdf/ma37/erlaeuterungen-bauwerksbuch.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn18search0",
+      "snippet": "Im Zuge der Registrierung sind nur die Bestätigung über die Erstellung des Bauwerksbuches und die Bestätigung der Erstprüfung zu übermitteln, nicht aber das Bauwerksbuch selbst.",
+      "title": "Gebäudepickerl sichert leistbares Wohnen - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/altbau-bauwerksbuch"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn18search1",
+      "snippet": "Gesetz, mit dem die Bauordnung für Wien, das Wiener Heizungs- und Klimaanlagengesetz 2015 und das Wiener Garagengesetz 2008 geändert werden (Wiener EU-Gebäuderichtlinie-Umsetzungsgesetz 2026 – W-EGUG",
+      "title": "RIS - LGBLA_WI_20260714_25 - Landesgesetzblatt authentisch für Wien",
+      "url": "https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=LgblAuth&Bundesland=Wien&BundeslandDefault=Wien&FassungVom=&Lgblnummer=25%2F2026&SkipToDocumentPage=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn18search2",
+      "snippet": "Das kostenlose Online-Webinar vermittelt die wesentlichen Anforderungen an das Bauwerksbuch Wien gemäß § 128a der Bauordnung für Wien verständlich und praxisnah. ... * Ablauf von",
+      "title": "Bauwerksbuch Wien: Kostenloses Online-Webinar - Stadt Wien",
+      "url": "https://www.wien.gv.at/veranstaltungen/bauwerksbuch-wien-kostenloses-online-webinar"
+    },
+    {
+      "type": "text_result",
+      "domain": "bauwerks-buch.wien",
+      "ref_id": "turn18search13",
+      "snippet": "MUSS ZWINGEND EINE ERSTPRÜFUNG VORGENOMMEN WERDEN? ... WICHTIG: Es ist keinesfalls das Bauwerksbuch selbst im Zuge der Registrierung hochzuladen! ... sofern es sich um keinen",
+      "title": "Stand 07.2024",
+      "url": "https://bauwerks-buch.wien/files/faq-bauwerksbuch.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "bauwerks-buch.wien",
+      "ref_id": "turn18search14",
+      "snippet": "Die Durchführung der Erstprüfung umfasst rein aus dem Titel der Bauwerksbu- ... als Zwischenkontrollen) gemäß den Bestimmungen über das Bauwerksbuch angesehen",
+      "title": "Erläuterungen zum",
+      "url": "https://bauwerks-buch.wien/files/erlaeuterungen-bauwerksbuch.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn18search3",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 0, Fassung vom 11.01.2026 ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P0/LWI40000225",
+      "title": "RIS - Bauordnung für Wien § 0 - Landesrecht konsolidiert Wien, Fassung vom 11.01.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-11&Gesetzesnummer=20000006&Paragraf=0&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn18search4",
+      "snippet": "Gesetz, mit dem die Bauordnung für Wien, das Wiener Heizungs- und Klimaanlagengesetz 2015 und das Wiener Garagengesetz 2008 geändert werden (Wiener EU-Gebäuderichtlinie-Umsetzungsgesetz 2026 - W-EGUG",
+      "title": "EUR-Lex - 72024L1275AUT_202606393 - EN - EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1782534586215&uri=CELEX%3A72024L1275AUT_202606393"
+    },
+    {
+      "type": "text_result",
+      "domain": "bauwerks-buch.wien",
+      "ref_id": "turn18search5",
+      "snippet": "# Bauwerksbuch Wien ... * Protokoll der Erstprüfung samt Fotodokumentation",
+      "title": "Bauwerksbuch Wien",
+      "url": "https://bauwerks-buch.wien/"
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn18search6",
+      "snippet": "Gesetz, mit dem die Bauordnung für Wien, das Wiener Heizungs- und Klimaanlagengesetz 2015 und das Wiener Garagengesetz 2008 geändert werden (Wiener EU-Gebäuderichtlinie-Umsetzungsgesetz 2026 - W-EGUG",
+      "title": "EUR-Lex - 72024L1275AUT_202606393 - FI - EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=NIM%3A202606393"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn18search7",
+      "snippet": "LGBl. ... 25/2026 Landesgesetzblatt Nr. 11 aus 1930, zuletzt geändert durch Landesgesetzblatt Nr. 25 aus 2026, ... Die Mindestanforderungen an die Gesamtenergieeffizienz von Gebäuden oder",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40018193/LWI40018193.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn18search8",
+      "snippet": "Gesetz, mit dem die Bauordnung für Wien, das Wiener Heizungs- und Klimaanlagengesetz 2015 und das Wiener Garagengesetz 2008 geändert werden (Wiener EU-Gebäuderichtlinie-Umsetzungsgesetz 2026 - W-EGUG",
+      "title": "Directive [tr] - 2024/1275 - PL - EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/tr/NIM/?uri=oj%3AL_202401275"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bauwerksbuchwien.wien",
+      "ref_id": "turn18search9",
+      "snippet": "# Bauwerksbuch Wien §128a – Erstprüfung, Kosten & Registrierung",
+      "title": "Bauwerksbuch Wien gemäß §128a Wiener Bauordnung",
+      "url": "https://www.bauwerksbuchwien.wien/"
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn18search10",
+      "snippet": "Gesetz, mit dem die Bauordnung für Wien, das Wiener Heizungs- und Klimaanlagengesetz 2015 und das Wiener Garagengesetz 2008 geändert werden (Wiener EU-Gebäuderichtlinie-Umsetzungsgesetz 2026 - W-EGUG",
+      "title": "EUR-Lex - 72024L1275AUT_202606393 - LT - EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/LT/TXT/?uri=NIM%3A202606393"
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn18search11",
+      "snippet": "Gesetz, mit dem die Bauordnung für Wien, das Wiener Heizungs- und Klimaanlagengesetz 2015 und das Wiener Garagengesetz 2008 geändert werden (Wiener EU-Gebäuderichtlinie-Umsetzungsgesetz 2026 - W-EGUG",
+      "title": "EUR-Lex - 72024L1275AUT_202606393 - RO - EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=NIM%3A202606393"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-3e546723-286a-43da-bb80-b9f507a99450",
+  "query": "https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20260714_25/LGBLA_WI_20260714_25.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20260714_25/LGBLA_WI_20260714_25.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn21view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn21view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn21view2",
+      "snippet": "Total lines: 259",
+      "title": "Baurechtliche Vorgaben - Arbeitsberechtigung, Statik, Barrierefreiheit - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/baurechtliche-anforderungen-baupolizei"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_6c46VDxhf3eBfhoje7xXyBBb",
+  "kind": "interacted",
+  "agentThreadId": "01a08174-9d0a-7942-a083-3539d44ac1af",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6d1a0b75-4cc0-4737-8612-4557256dc2b1",
+  "query": "https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=LgblAuth&Bundesland=Wien&BundeslandDefault=Wien&FassungVom=&Lgblnummer=25%2F2026&SkipToDocumentPage=True",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=LgblAuth&Bundesland=Wien&BundeslandDefault=Wien&FassungVom=&Lgblnummer=25%2F2026&SkipToDocumentPage=True"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn23view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn23view1",
+      "snippet": "Total lines: 97",
+      "title": "Merkblatt Dachgeschoßausbauten",
+      "url": "https://www.wien.gv.at/pdf/ma37/merkblatt-bautechnische-hinweise.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ost.zt.at",
+      "ref_id": "turn23view2",
+      "snippet": "Total lines: 442",
+      "url": "https://ost.zt.at/fileadmin/user_upload/redakteure_wnb/D_Service/D_1_1_Baurecht/Richtlinien/Erlaeuterung_Inhalt_statisch._Berechn._gem._BO_Wien_i.d.F._01.10.2016.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn23view3",
+      "snippet": "Total lines: 82",
+      "title": "FAQ Bauwerksbuch und Registrierung des Bauwerksbuchs",
+      "url": "https://www.wien.gv.at/pdf/ma37/faq-bauwerksbuch.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn23view4",
+      "snippet": "Total lines: 625",
+      "title": "Erläuterungen zum Bauwerksbuch gemäß Bauordnung für Wien",
+      "url": "https://www.wien.gv.at/pdf/ma37/erlaeuterungen-bauwerksbuch.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-2af2840e-93a5-4b02-8551-a026d45c1089",
+  "query": "\"Bauordnung für Wien\" \"128a\" \"LWI400182\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Bauordnung für Wien\" \"128a\" \"LWI400182\"",
+      "\"LGBLA_WI_20260714_25\" \"128\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "ost.zt.at",
+      "ref_id": "turn24view0",
+      "snippet": "Total lines: 442",
+      "url": "https://ost.zt.at/fileadmin/user_upload/redakteure_wnb/D_Service/D_1_1_Baurecht/Richtlinien/Erlaeuterung_Inhalt_statisch._Berechn._gem._BO_Wien_i.d.F._01.10.2016.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn24view1",
+      "snippet": "Total lines: 82",
+      "title": "FAQ Bauwerksbuch und Registrierung des Bauwerksbuchs",
+      "url": "https://www.wien.gv.at/pdf/ma37/faq-bauwerksbuch.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn24view2",
+      "snippet": "Total lines: 236",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/1zpUHNV2zafMQjWdyxtuqZdfVbzk0HYyXaEzsBU3rUPIFIpEKqbPMinGwLBepqIr7ml_MafCfQiNL45RF0fPPeM2cr_RyYAcbtwyoCCeWw4",
+      "title": "Bauführer - Richtlinien, Aufgaben, Formulare der Baupolizei - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/baufuehrer-voraussetzungen-formulare"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-716c1656-3f32-490c-a030-0dd7c5348eb3",
+  "query": "https://www.wien.gv.at/recht/landesrecht-wien/landesgesetzblatt/jahrgang/2026/html/lg2026025.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.wien.gv.at/recht/landesrecht-wien/landesgesetzblatt/jahrgang/2026/html/lg2026025.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn25view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn25view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn25view2",
+      "snippet": "Total lines: 118",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40017755/LWI40017755.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn25view3",
+      "snippet": "Total lines: 236",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/6njFJdwqSKyzIzke-NOBXF1Z1QxHV352iTHw2uSc_kyjonbLZ4DARTDUSg4s3j99s28ePY7bjpMmVlxXz83YFYRxoAFjOKPR2Pon_bs9h8c",
+      "title": "Bauführer - Richtlinien, Aufgaben, Formulare der Baupolizei - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/baufuehrer-voraussetzungen-formulare"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-736577f1-e24e-4338-8ef6-316faf42327b",
+  "query": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-09-08&Gesetzesnummer=20000006&Paragraf=128a&ShowPrintPreview=True&Uebergangsrecht=",
+  "action": {
+    "type": "openPage",
+    "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-09-08&Gesetzesnummer=20000006&Paragraf=128a&ShowPrintPreview=True&Uebergangsrecht="
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn26view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn26view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn26view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn26view3",
+      "snippet": "Total lines: 236",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/RTDlM8NWFwX6pHJHxtvwRHK48ol7nJ8avj_OgitaIEl5shzLMs4WPQkNQNTo_DRSGJhxkS-s9dJz6BAHcDUwqWYqWMITuqltfG2Dz431ptw",
+      "title": "Bauführer - Richtlinien, Aufgaben, Formulare der Baupolizei - Stadt Wien",
+      "url": "https://www.wien.gv.at/wohnen/baufuehrer-voraussetzungen-formulare"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-a1de9464-62fb-4220-8a16-06618767b1f7",
+  "query": "site:ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006 \"§ 128a\" \"§ 118a\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site:ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006 \"§ 128a\" \"§ 118a\"",
+      "site:ris.bka.gv.at \"§ 128\" \"Ersatzflächen gemäß § 118a\"",
+      "site:ris.bka.gv.at \"§ 128a\" \"LWI40018\"",
+      "site:wien.gv.at \"Fertigstellungsanzeige\" \"Ziviltechniker\" \"2026\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search0",
+      "snippet": "Nach Vorlage einer solchen Bestätigung darf mit dem Abbruch begonnen werden. ... (6)Absatz 6,Die Fertigstellung von Hauskanälen, Senkgruben und Hauskläranlagen ist, sofern nicht § 128",
+      "title": "RIS - Bauordnung für Wien - Landesrecht konsolidiert Wien, Fassung vom 07.09.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn28search1",
+      "snippet": "* Gesamte Rechtsvorschrift heute / Fassung vom 20.02.2026 ... * § 118a am 20.02.2026 ... 2. § 118 gültig ab 14.12.2023 zuletzt geändert durch LGBl.",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 20.02.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-02-20&Gesetzesnummer=20000006&Paragraf=118&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn28search2",
+      "snippet": "* Gesamte Rechtsvorschrift heute / Fassung vom 01.03.2026 ... * § 118a am 01.03.2026 ... 2. § 118 gültig ab 15.07.2026 zuletzt geändert durch LGBl.",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 01.03.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-03-01&Gesetzesnummer=20000006&Paragraf=118&ShowPrintPreview=True&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn28search3",
+      "snippet": "* § 118a am 15.01.2026 ... 3. (3e)Absatz 3 e,Nach Ablauf von 3 Jahren ab der Erstattung der Fertigstellungsanzeige für einen Neubau gemäß Abs. 3b",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 15.01.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-15&Gesetzesnummer=20000006&Paragraf=118&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search4",
+      "snippet": "* Gesamte Rechtsvorschrift heute / Fassung vom 01.10.2025 ... * § 118a am 01.10.2025 ... 2. § 118 gültig ab 15.07.2026 zuletzt geändert durch LGBl.",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 01.10.2025",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2025-10-01&Gesetzesnummer=20000006&Paragraf=118&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search5",
+      "snippet": "* Gesamte Rechtsvorschrift heute / Fassung vom 07.01.2026 ... * § 118a am 07.01.2026 ... Gesetz ... ### Abkürzung",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 07.01.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-07&Gesetzesnummer=20000006&Paragraf=118&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search6",
+      "snippet": "* Gesamte Rechtsvorschrift heute / Fassung vom 06.02.2025 ... * § 118a am 06.02.2025 ... Gesetz",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 06.02.2025",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2025-02-06&Gesetzesnummer=20000006&Paragraf=118&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn28search7",
+      "snippet": "die Durchführung eines hydraulischen Abgleichs durch ein befugtes Unternehmen bei jeder Neuinstallation und bei Änderungen und Instandsetzungen des Heizungssystems, ... Wenn für das Bauwerk ein",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 28.02.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-02-28&Gesetzesnummer=20000006&Paragraf=118&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search8",
+      "snippet": "* Gesamte Rechtsvorschrift heute / Fassung vom 01.02.2025 ... * § 118a am 01.02.2025 ... 2. § 118 gültig ab 14.12.2023 zuletzt geändert durch LGBl.",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 01.02.2025",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2025-02-01&Gesetzesnummer=20000006&Paragraf=118&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn28search9",
+      "snippet": "### Gesetzesnummer20000006 ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P118/LWI40016461",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 12.06.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-06-12&Gesetzesnummer=20000006&Paragraf=118&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn28search10",
+      "snippet": "Bauordnung, Bau, Stadtentwicklung, Stadtplanung, Baugesetz, BO, Bauen, Arbeit, Bauklasse, Haus, Wohnhaus, Pflegeheim, Krankenhaus, Krankenanstalt, Pensionistenwohnhaus, Garage, Tiefgarage, Wohnheim, W",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien, Fassung vom 19.04.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-04-19&Gesetzesnummer=20000006&Paragraf=118&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search11",
+      "snippet": "### Gesetzesnummer20000006 ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P118c/LWI40018201",
+      "title": "RIS - Bauordnung für Wien § 118c - Landesrecht konsolidiert Wien, tagesaktuelle Fassung",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&Gesetzesnummer=20000006&Paragraf=118c&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search12",
+      "snippet": "Bei Zuständigkeit und Leistungsverpflichtung einer anderen Ärztekammer gelten die Überwei- ... hörige schriftlich bestätigt, dass er nicht in einem anderen Vertragsstaat des Abkommens über den",
+      "title": "1 von  36 \nBUNDESGESETZBLATT \nFÜR DIE REPUBLIK ÖST",
+      "url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2004_I_179/BGBLA_2004_I_179.pdfsig"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn28search13",
+      "snippet": "Verordnung zu regeln, in der auch festzulegen ist, dass für vor dem Inkrafttreten des Bundesgesetzes ... I Nr. 122/2006 erlittene Schäden Leistungen aus dem Solidarfonds",
+      "title": "Bundesrecht konsolidiert",
+      "url": "https://ris.bka.gv.at/geltendefassung/bundesnormen/10011138/%C3%83%E2%80%9Erzteg%201998%2C%20fassung%20vom%2020.07.2020.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search14",
+      "snippet": "Verordnung zu regeln, in der auch festzulegen ist, dass für vor dem Inkrafttreten des Bundesgesetzes ... I Nr. 122/2006 erlittene Schäden Leistungen aus dem Solidarfonds",
+      "title": "1 von 12 \nBUNDESGESETZBLATT \nFÜR DIE REPUBLIK ÖSTE",
+      "url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2009_I_144/BGBLA_2009_I_144.pdfsig"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search15",
+      "snippet": "3 Z 4, 5 und 6, § 118a Abs. 4 und 5, § 118c Abs. 1 samt ... § 126, die Überschrift zu § 127,",
+      "title": "Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/geltendefassung/bundesnormen/10011138/%C3%83%E2%80%9Erzteg%201998%2C%20fassung%20vom%2013.07.2021.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn28search16",
+      "snippet": "5 Z 2 und 3, der Entfall des § 128a Abs. ... 2 Z 3 bis 5, § 118a in der Fassung des Bundesgesetzes BGBl.",
+      "title": "Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/geltendefassung/bundesnormen/10011138/%C3%83%E2%80%9Erzteg%201998%2C%20fassung%20vom%2022.06.2021.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn28search17",
+      "snippet": "§§ 118a bis 120 aufgehoben durch LGBl.Nr. ... § 123 Anwendung von Bestimmungen des Gemeindeangestelltengesetzes 2005 ... § 128a aufgehoben durch LGBl.Nr. ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LVB40003930/LVB40003930.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-721c1ab8-6331-46db-baf6-0cf83de611f2",
+  "query": "site:ris.bka.gv.at \"LGBLA_WI_20260714_25\"",
+  "action": {
+    "type": "search",
+    "query": "site:ris.bka.gv.at \"LGBLA_WI_20260714_25\"",
+    "queries": null
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn31search0",
+      "snippet": "LGBLA_WI_20260714_25",
+      "title": "RIS - LGBLA_WI_20260714_25 - Landesgesetzblatt authentisch für Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/2026/25/20260714"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn31search1",
+      "snippet": "LGBLA_WI_20260714_25",
+      "title": "RIS - LGBLA_WI_20260714_25 - Landesgesetzblatt authentisch für Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/2026/25/20260714?Abfrage=LgblAuth&BisDatum=14.07.2026&Bundesland=Wien&BundeslandDefault=Wien&ImRisSeit=Undefined&ImRisSeitBisDatum=14.07.2026&ImRisSeitVonDatum=01.01.2014&Lgblnummer=&Position=1&ResultFunctionToken=122d2cf7-42db-48fe-81f4-9e25d3df0c78&ResultPageSize=100&SkipToDocumentPage=True&SucheNachGesetzen=False&SucheNachKundmachungen=False&SucheNachSonstiges=False&SucheNachVerordnungen=False&Suchworte=&Titel=bauordnung&VonDatum=01.01.2014"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn31search2",
+      "snippet": "LGBLA_WI_20260714_25",
+      "title": "RIS - LGBLA_WI_20260714_25 - Landesgesetzblatt authentisch für Wien",
+      "url": "https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=LgblAuth&Bundesland=Wien&BundeslandDefault=Wien&FassungVom=&Lgblnummer=25%2F2026&SkipToDocumentPage=True"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-57d2f699-015c-462e-b481-e91eb6b3b458",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn33view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-52d90f3d-5913-433a-8a72-e16d8085eb9a",
+  "query": "site.ris.bka.gv.at \"Wiener Bautechnikverordnung 2023\" \"§ 5\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at \"Wiener Bautechnikverordnung 2023\" \"§ 5\"",
+      "site.oib.or.at \"OIB-Richtlinie 1\" \"2019\" \"unabhängige\"",
+      "site.wien.gv.at \"Bautechnikverordnung\" \"2023\" \"anhängige\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn36search0",
+      "snippet": "# Landesrecht konsolidiert Wien: Wiener Bautechnikverordnung 2023 Anl. 1, tagesaktuelle Fassung ... ## Wiener Bautechnikverordnung 2023 Anl. ... https://ris.bka.gv.at/eli/lgbl/WI/2024/14/ANL1/LWI40018",
+      "title": "RIS - Wiener Bautechnikverordnung 2023 Anl. 1 - Landesrecht konsolidiert Wien, tagesaktuelle Fassung",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=1&Artikel=&Gesetzesnummer=20000702&Paragraf=&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.oib.or.at",
+      "ref_id": "turn36search12",
+      "snippet": "gabe der OIB-Richtlinie 1. ... OIB-Richtlinie 1 – Erläuterungen Ausgabe April 2019",
+      "title": "RICHTLINIEN DES ÖSTERREICHISCHEN",
+      "url": "https://www.oib.or.at/sites/default/files/erlaeuternde_bemerkungen_richtlinie_1_12.04.19.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.oib.or.at",
+      "ref_id": "turn36search13",
+      "snippet": "Die zitierten Normen und sonstigen technischen Regelwerke gelten in der im Dokument „OIB- ... OIB-Richtlinie 1 Ausgabe April 2019",
+      "title": "RICHTLINIEN DES ÖSTERREICHISCHEN",
+      "url": "https://www.oib.or.at/sites/default/files/richtlinie_1_12.04.19_0.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn36search14",
+      "snippet": "Wiener Bautechnikverordnung 2023 – WBTV 2023 [CELEX-Nrn.: ... Auf Grund der §§ 118 Abs. 5 und 122 der Bauordnung für Wien, LGBl. für Wien Nr.",
+      "title": "1 von 1 \nLANDESGESETZBLATT \nFÜR WIEN \nJahrgang 202",
+      "url": "https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20240222_14/LGBLA_WI_20240222_14.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn36search1",
+      "snippet": "5 | 23.02.2024 | Wien: Wiener Bautechnikverordnung 2023 |",
+      "title": "RIS - Gesamtabfrage - Trefferliste",
+      "url": "https://ris.bka.gv.at/Ergebnis.wxe?Abfrage=Gesamtabfrage&ImRisSeit=&ImRisSeitBisDatum=&ImRisSeitVonDatum=&Position=43601&ResultPageSize=100&SearchInAsylGH=&SearchInAvn=&SearchInAvsv=&SearchInBegut=&SearchInBgblAlt=&SearchInBgblAuth=&SearchInBgblPdf=&SearchInBks=&SearchInBundesnormen=&SearchInBvb=&SearchInBvwg=&SearchInDok=&SearchInDsk=&SearchInEat=&SearchInErlaesse=&SearchInGbk=&SearchInGemeinderecht=&SearchInGemeinderechtAuth=&SearchInJustiz=&SearchInKmGer=&SearchInLandesnormen=&SearchInLgbl=&SearchInLgblAuth=&SearchInLgblNO=&SearchInLvwg=&SearchInMrp=&SearchInNormenliste=&SearchInPruefGewO=&SearchInPvak=&SearchInRegV=&SearchInSpg=&SearchInUbas=&SearchInUmse=&SearchInUpts=&SearchInUvs=&SearchInVbl=&SearchInVerg=&SearchInVfgh=&SearchInVwgh=&Sort=3%7CNone&Suchworte="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn36search15",
+      "snippet": "Wiener Bautechnikverordnung 2023 ... (Anm.: Anlage 5 ist als PDF dokumentiert.) ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40016795/LWI40016795.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn36search16",
+      "snippet": "Wiener Bautechnikverordnung 2023 ... Schallschutz (OIB-RL 5) ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40016802/LWI40016802.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn36search17",
+      "snippet": "Wiener Bautechnikverordnung 2023 ... Ausgenommen sind die Punkte 2.1.5 und 2.1.6 der Anlage 11 und Punkt 5 der Anlage 12. ... www.ris.bka.gv.at",
+      "title": "Landesrecht",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40016785/LWI40016785.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "gesetzefinden.at",
+      "ref_id": "turn36search2",
+      "snippet": "Durchsuchen Info RIS ... (1) Die Anlage 10 dieser Verordnung dient der Umsetzung der Richtlinie 2013/59/Euratom des Rates vom 5. ... Verordnung der Wiener Landesregierung,",
+      "title": "Wiener Bautechnikverordnung 2023 (WBTV 2023) | GesetzeFinden.at",
+      "url": "https://gesetzefinden.at/landesrecht/verordnungen/wbtv-2023"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wko.at",
+      "ref_id": "turn36search3",
+      "snippet": "Die Bautechnikverordnungsnovelle 2020 dient der formalen Umsetzung der neuen Richtlinien des Österreichischen Instituts für Bautechnik (OIB-Richtlinien - Ausgabe April 2019) zwecks weiterer Harmonisie",
+      "title": "Änderung der Oö. Bautechnikverordnung - WKO",
+      "url": "https://www.wko.at/ooe/umwelt/aenderung-bautechnikverordnung"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wien.gv.at",
+      "ref_id": "turn36search4",
+      "snippet": "(735266-2026-GWS; MA 50) Für das vom Amt der Wiener Landesregierung laut Beilage beantragte Bauvorhaben wird nach dem Wiener Wohnbauförderungs- und Wohnhaussanierungsgesetz - WWFSG 1989 ein",
+      "url": "https://www.wien.gv.at/mdb/lrg/2026/lrg-2026-06-09.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "wien.arching.at",
+      "ref_id": "turn36search5",
+      "snippet": "# zt: SONDERNEWSLETTER 23.02.: Wiener Bautechnikverordnung 2023 tritt heute in Kraft! ... RIS - LGBLA_WI_20240222_14 - Landesgesetzblatt authentisch für Wien ).Es gibt wieder Ausnahmen von",
+      "title": "Newsletter Kammer der Architekten und Ingenieurkonsulenten für Wien, Niederösterreich und Burgenland",
+      "url": "https://wien.arching.at/newsletter-w-noe-bgl/archiv-2024/zt-sondernewsletter-2302-wiener-bautechnikverordnung-2023-tritt-heute-in-kraft"
+    },
+    {
+      "type": "text_result",
+      "domain": "linda.lindeverlag.at",
+      "ref_id": "turn36search6",
+      "snippet": "# Verordnung der Wiener Landesregierung, mit der bautechnische Anforderungen festgelegt werden (Wiener Bautechnikverordnung 2023 – WBTV 2023) , LGBl. ... 4/2020 | § 1, §",
+      "title": "WBTV 2020 - Wiener Bautechnikverordnung 2020 – WBTV 2020 - Linde Datenbank",
+      "url": "https://linda.lindeverlag.at/Dokument/77486/"
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn36search7",
+      "snippet": "Verordnung der Wiener Landesregierung, mit der bautechnische Anforderungen festgelegt werden (Wiener Bautechnikverordnung 2023 – WBTV 2023Verordnung der Wiener Landesregierung, mit der bautechnische A",
+      "title": "Directive [tr] - 2023/2413 - DA - EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/tr/NIM/?uri=CELEX%3A32023L2413"
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn36search8",
+      "snippet": "Verordnung der Wiener Landesregierung, mit der bautechnische Anforderungen festgelegt werden (Wiener Bautechnikverordnung 2023 – WBTV 2023) ... Mai 2025, mit der die Burgenländische Bauverordnung 2008",
+      "title": "Irányelv - 2018/844 - IT - EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/HU/NIM/?uri=CELEX%3A32018L0844"
+    },
+    {
+      "type": "text_result",
+      "domain": "bund.zt.at",
+      "ref_id": "turn36search9",
+      "snippet": "Ebenfalls seien organisatorische Vorgaben und Mehrheitsregelungen für eine ZT-Gesellschaft im Berufsgesetz grundsätzlich geeignete Mittel zur Gewährleistung der Objektivität und Unabhängigkeit des Ber",
+      "title": "zt:telegramm – Bundeskammer der Ziviltechniker:innen | Arch+Ing",
+      "url": "https://bund.zt.at/aktuell/kammermedien/zttelegramm"
+    },
+    {
+      "type": "text_result",
+      "domain": "meinnormenradar.austrian-standards.at",
+      "ref_id": "turn36search10",
+      "snippet": "14/2024 Verordnung der Wiener Landesregierung, mit der bautechnische Anforderungen festgelegt werden (Wiener Bautechnikverordnung 2023 – WBTV 2023) ... 35/2015 Verordnung der Wiener Landesregierung, m",
+      "title": "Details | meinNormenRadar | Austrian Standards",
+      "url": "https://meinnormenradar.austrian-standards.at/radar/RadarDetails.action%3Bjsessionid%3D6001335E03B11E8094BE1470E89D60B8?id=671679"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn36search11",
+      "snippet": "## Rechtssatz für Ra 2023/06/0039 ... VwGVG 2014 §28 ... Eine andere Betrachtungsweise wäre dann geboten, wenn etwa der Gesetzgeber (hier: Verordnungsgeber) in einer Übergangsbestimmung",
+      "title": "RIS - Rechtssätze und Entscheidungstext für Ra 2023/06/0039 - Verwaltungsgerichtshof (VwGH)",
+      "url": "https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Vwgh&Dokumentnummer=JWR_2023060039_20240307L01"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_DslByOghPTXFl3zdLiDWELxm",
+  "kind": "interacted",
+  "agentThreadId": "01a08174-9d0a-7942-a083-3539d44ac1af",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-2bd52c63-979f-4850-8dcd-a1f47bd8d427",
+  "query": "site.ris.bka.gv.at \"Bauordnung für Wien § 128a\" \"07.09.2026\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 128a\" \"07.09.2026\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 128\" \"08.09.2026\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 128\" \"15.07.2026\" \"LWI40018\"",
+      "site.ris.bka.gv.at \"LGBLA_WI_20260714_25\" \"Hauptdokument\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn38search0",
+      "snippet": "Hauptdokument ... LGBLA_WI_20260714_25 ... https://www.ris.bka.gv.at/eli/lgbl/WI/2026/25/20260714",
+      "title": "RIS - LGBLA_WI_20260714_25 - Landesgesetzblatt authentisch für Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/2026/25/20260714"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn38search1",
+      "snippet": "Hauptdokument ... LGBLA_WI_20260714_25 ... https://www.ris.bka.gv.at/eli/lgbl/WI/2026/25/20260714",
+      "title": "RIS - LGBLA_WI_20260714_25 - Landesgesetzblatt authentisch für Wien",
+      "url": "https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=LgblAuth&Bundesland=Wien&BundeslandDefault=Wien&FassungVom=&Lgblnummer=25%2F2026&SkipToDocumentPage=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn38search2",
+      "snippet": "Hauptdokument ... LGBLA_WI_20260714_25 ... https://www.ris.bka.gv.at/eli/lgbl/WI/2026/25/20260714",
+      "title": "RIS - LGBLA_WI_20260714_25 - Landesgesetzblatt authentisch für Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/2026/25/20260714?Abfrage=LgblAuth&BisDatum=14.07.2026&Bundesland=Wien&BundeslandDefault=Wien&ImRisSeit=Undefined&ImRisSeitBisDatum=14.07.2026&ImRisSeitVonDatum=01.01.2014&Lgblnummer=&Position=1&ResultFunctionToken=122d2cf7-42db-48fe-81f4-9e25d3df0c78&ResultPageSize=100&SkipToDocumentPage=True&SucheNachGesetzen=False&SucheNachKundmachungen=False&SucheNachSonstiges=False&SucheNachVerordnungen=False&Suchworte=&Titel=bauordnung&VonDatum=01.01.2014"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn38search3",
+      "snippet": "* ## Bauordnung für Wien § 128a ... * § 128 am 07.09.2026 ... die Ergebnisse der durchgeführten Überprüfungen mit Ausnahme jener Überprüfungen, die für",
+      "title": "RIS - Bauordnung für Wien § 128a - Landesrecht konsolidiert Wien",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn38search4",
+      "snippet": "* ## Bauordnung für Wien § 128b ... * § 128a am 07.09.2026 ... Gesetz",
+      "title": "RIS - Bauordnung für Wien § 128b - Landesrecht konsolidiert Wien",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128b/LWI40016471"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn38search5",
+      "snippet": "# Landesrecht konsolidiert Wien: Gesamte Rechtsvorschrift für Bauordnung für Wien, Fassung vom 07.09.2026 ... 4. (3a)Absatz 3 a,In sachlich begründeten Ausnahmefällen kann die Behörde über",
+      "title": "RIS - Bauordnung für Wien - Landesrecht konsolidiert Wien, Fassung vom 07.09.2026",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn38search6",
+      "snippet": "* ## Bauordnung für Wien § 128c ... * § 128b am 07.09.2026 ... (1)Absatz eins,Der Magistrat hat bis 1.7.2024 ein Datenregister einzurichten und zu",
+      "title": "RIS - Bauordnung für Wien § 128c - Landesrecht konsolidiert Wien",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128c/LWI40016484"
+    },
+    {
+      "type": "text_result",
+      "domain": "wiener-mietenrechner.at",
+      "ref_id": "turn38search7",
+      "snippet": "## Mietenrechner für Altbauwohnungen in ÖsterreichVersion: 1.0.0.55 Datum: 08.09.2026 ... (RIS-Justiz RS0117881) ... Wohnrechtsänderungsgesetz (3.",
+      "title": "Wiener-Mietenrechner",
+      "url": "https://wiener-mietenrechner.at/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.rss-verzeichnis.de",
+      "ref_id": "turn38search8",
+      "snippet": "06.09.2026 16:03Das kostenlose Online-Webinar vermittelt die wesentlichen Anforderungen an das Bauwerksbuch Wien gemäß 128a der Bauordnung für Wien verständlich und praxisnah.",
+      "title": "Eventpicker: Veranstaltungen im Umkreis finden | RSS Verzeichnis",
+      "url": "https://www.rss-verzeichnis.de/freizeit-unterhaltung-und-bekleidung/veranstaltungen/118330-eventpicker-veranstaltungen-im-umkreis-finden"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-176daaff-769d-4914-a8d8-a5c8701724cd",
+  "query": "site.ris.bka.gv.at \"Bauordnung für Wien § 128\" \"07.09.2026\"",
+  "action": {
+    "type": "search",
+    "query": "site.ris.bka.gv.at \"Bauordnung für Wien § 128\" \"07.09.2026\"",
+    "queries": null
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "best-dev.balloon-events.com",
+      "ref_id": "turn40search0",
+      "snippet": "Sa., 22.08.2026, 15:00, So., 23.08.2026, 15:00, Mo., 24.08.2026, 15:00, Di., 25.08.2026, 15:00, Mi., 26.08.2026, 15:00, Do., 27.08.2026, 15:00, Fr., 28.08.2026, 15:00, Sa., 29.08.2026, 15:00, So.,",
+      "title": "Vorträge, Workshops & Wissen in Österreich | Balloon Events",
+      "url": "https://best-dev.balloon-events.com/categories/knowledge"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn40view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1ddafd1e-54fb-43f9-9dc2-c9bf66f6ce3a",
+  "query": "site:ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/ \"15.07.2026\"",
+  "action": {
+    "type": "search",
+    "query": "site:ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/ \"15.07.2026\"",
+    "queries": null
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search0",
+      "snippet": "2. § 128 gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40010056",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40010056"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search1",
+      "snippet": "2. § 128 gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40010090",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40010090"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search2",
+      "snippet": "2. § 128a gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217",
+      "title": "RIS - Wien: Bauordnung für Wien § 128a - Landesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217?Abfrage=Gesamtabfrage&ImRisSeit=&ImRisSeitBisDatum=&ImRisSeitVonDatum=&Position=5801&ResultFunctionToken=6f9ff2ea-39af-4352-ae27-baf199cfe217&ResultPageSize=100&SearchInAsylGH=&SearchInAvn=&SearchInAvsv=&SearchInBegut=&SearchInBgblAlt=&SearchInBgblAuth=&SearchInBgblPdf=&SearchInBks=&SearchInBundesnormen=&SearchInBvb=&SearchInBvwg=&SearchInDok=&SearchInDsk=&SearchInEat=&SearchInErlaesse=&SearchInGbk=&SearchInGemeinderecht=&SearchInGemeinderechtAuth=&SearchInJustiz=&SearchInKmGer=&SearchInLandesnormen=&SearchInLgbl=&SearchInLgblAuth=&SearchInLgblNO=&SearchInLvwg=&SearchInMrp=&SearchInNormenliste=&SearchInPruefGewO=&SearchInPvak=&SearchInRegV=&SearchInSpg=&SearchInUbas=&SearchInUmse=&SearchInUpts=&SearchInUvs=&SearchInVbl=&SearchInVerg=&SearchInVfgh=&SearchInVwgh=&Suchworte="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search3",
+      "snippet": "2. § 118 gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P118/LWI40018209",
+      "title": "RIS - Bauordnung für Wien § 118 - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P118/LWI40018209"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search4",
+      "snippet": "15.07.2026 ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P140/LWI40018220",
+      "title": "RIS - Bauordnung für Wien § 140 - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P140/LWI40018220"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search5",
+      "snippet": "2. § 128a gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40013140",
+      "title": "RIS - Bauordnung für Wien § 128a - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40013140"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search6",
+      "snippet": "15.07.2026 ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P119/LWI40018212",
+      "title": "RIS - Bauordnung für Wien § 119 - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P119/LWI40018212"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search7",
+      "snippet": "2. § 128a gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40010092",
+      "title": "RIS - Bauordnung für Wien § 128a - Landesrecht konsolidiert Wien",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40010092?Abfrage=Landesnormen&BisAnlage=&BisArtikel=&BisAusserkrafttretedatum=&BisInkrafttretedatum=&BisParagraf=&Bundesland=Wien&BundeslandDefault=Wien&FassungVom=05.01.2016&Gesetzesnummer=&ImRisSeit=Undefined&ImRisSeitBisDatum=&ImRisSeitVonDatum=&Index=&Kundmachungsnummer=&Kundmachungsorgan=&NormabschnittnummerKombination=Und&Position=1801&ResultFunctionToken=d5e4bb7f-6769-4fe6-8765-f044537906c2&ResultPageSize=50&Sort=2%7CNone&Suchworte=&Titel=&Typ=&Unterzeichnungsdatum=&VonAnlage=&VonArtikel=&VonAusserkrafttretedatum=&VonInkrafttretedatum=&VonParagraf="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search8",
+      "snippet": "2. § 130 gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P130/LWI40018218",
+      "title": "RIS - Bauordnung für Wien § 130 - Landesrecht konsolidiert Wien, tagesaktuelle Fassung",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&Gesetzesnummer=20000006&Paragraf=130&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search9",
+      "snippet": "2. § 120 gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P120/LWI40018214",
+      "title": "RIS - Bauordnung für Wien § 120 - Landesrecht konsolidiert Wien, tagesaktuelle Fassung",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&Gesetzesnummer=20000006&Paragraf=120&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search10",
+      "snippet": "2. § 118j gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P118j/LWI40018208",
+      "title": "RIS - Bauordnung für Wien § 118j - Landesrecht konsolidiert Wien, tagesaktuelle Fassung",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&Gesetzesnummer=20000006&Paragraf=118j&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn42search11",
+      "snippet": "2. § 82a gültig ab 15.07.2026 zuletzt geändert durch LGBl. ... https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P82a/LWI40018200",
+      "title": "RIS - Bauordnung für Wien § 82a - Landesrecht konsolidiert Wien, tagesaktuelle Fassung",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&Gesetzesnummer=20000006&Paragraf=82a&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn42search12",
+      "snippet": "16.07.2021 bis zum 15.07.2026 erteilt.",
+      "title": "Postadresse:",
+      "url": "https://ris.bka.gv.at/Dokumente/Bvwg/BVWGT_20221212_I415_2009415_3_00/BVWGT_20221212_I415_2009415_3_00.pdf"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn42view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-17dab70b-33e8-4264-af6a-40ee64bc0cbc",
+  "query": "\"LWI40018217\" \"Absatz 2\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"LWI40018217\" \"Absatz 2\"",
+      "\"Bauordnung für Wien\" \"Fertigstellungsanzeige\" \"LWI40018216\"",
+      "\"Bauordnung für Wien\" \"§ 128\" \"LWI40018215\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn43search0",
+      "snippet": "Bauordnung für Wien ... (5)Absatz 5,Für selbständig benützbare Teile eines Bauwerkes kann eine Fertigstellungsanzeige erstattet werden. ... LWI40018216",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40018216/LWI40018216.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn43search1",
+      "snippet": "25/2026 Landesgesetzblatt Nr. 11 aus 1930, zuletzt geändert durch Landesgesetzblatt Nr. 25 aus 2026, ... (2)Absatz 2,Bis zur Erstattung der Fertigstellungsanzeige für Neu-, Zu- und",
+      "title": "RIS Dokument",
+      "url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40018217/LWI40018217.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn43search2",
+      "snippet": "2 Z 1 verzichtet, so ist der Fertigstellungsanzeige eine Erklärung des Bauführers anzuschließen, dass der Bau entsprechend der Baubewilligung und den Bauvorschriften ausgeführt worden ist.Wird",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien, Fassung vom 29.07.2026",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-07-29&Gesetzesnummer=20000006&Paragraf=128&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn43search3",
+      "snippet": "# Landesrecht konsolidiert Wien: Bauordnung für Wien § 128, Fassung vom 20.08.2026 ... Bauordnung, Bau, Stadtentwicklung, Stadtplanung, Baugesetz, BO, Bauen, Arbeit, Bauklasse, Haus, Wohnhaus, Pflegeh",
+      "title": "RIS - Bauordnung für Wien § 128 - Landesrecht konsolidiert Wien, Fassung vom 20.08.2026",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-08-20&Gesetzesnummer=20000006&Paragraf=128&Uebergangsrecht="
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_61GKCV5Pn9YnXGVhXCCHgY8o",
+  "kind": "interacted",
+  "agentThreadId": "01a08174-9d0a-7942-a083-3539d44ac1af",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-5b00d93d-2bc8-4121-8e7f-5f5faed71afb",
+  "query": "site.ris.bka.gv.at \"Bauordnung für Wien § 125\" \"Dienst\" \"meld\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 125\" \"Dienst\" \"meld\"",
+      "site.ris.bka.gv.at \"Bauordnung für Wien § 124\" \"LWI40016466\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "dewiki.de",
+      "ref_id": "turn44search0",
+      "snippet": "Er hat bereits in Wien den Adelsbrief, der die Familie in den Freiherrnstand erhebt mit verschiedenen Geldzuwendungen teuer erkauft und will nun seine, in Rößlers",
+      "title": "DeWiki > Frankfurt am Main in der Literatur",
+      "url": "https://dewiki.de/Lexikon/Frankfurt_am_Main_in_der_Literatur"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Concluzia juridică pentru material:** oferta de „Ausführungsstatik”, verificările din șantier ale unui **Prüfingenieur conform BO Wien**, confirmarea finală **§128**, verificarea calculelor structurale conform **OIB/DSL** și **Bauwerksbuch** sunt prestații care trebuie delimitate explicit. O formulare comercială generală nu demonstrează că toate sunt incluse.
+
+Am verificat surse primare RIS, MA37, OIB și documentul Camerei Ziviltechniker elaborat împreună cu MA37. Textele actuale §§128 și 128a sunt cele intrate în vigoare la **15.07.2026**; nu trebuie citate versiunile vechi ca legislație actuală.
+
+**1. Autorizația din 21.04.2023 și începutul dorit la 01.10.2026**
+
+Conform **§74 alin.(1)**, pentru autorizația obișnuită **§70**, termenul de începere este de patru ani de la **rămânerea definitivă – Rechtskraft**. Pentru depunerile §§70a/70b și notificările §62, reperul este depunerea completă a documentației. Finalizarea trebuie realizată, în principiu, în patru ani de la început. §74 alin.(2) permite, în situații justificate, prelungirea termenului de finalizare, cerută înainte de expirare; nu trebuie transformată această regulă într-o promisiune de prelungire a termenului de începere. [RIS – §74](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2022-05-10&Gesetzesnummer=20000006&Paragraf=74&Uebergangsrecht=).
+
+Aplicat proiectului: **01.10.2026 pare compatibil cu un Bescheid §70 din 21.04.2023**, dar această apreciere nu este confirmarea valabilității. Trebuie văzute procedura, data Rechtskraft, eventualele căi de atac, lucrări începute anterior și condițiile Bescheid-ului. Nu fixa în raport termenul „21.04.2027” ca dată juridic verificată.
+
+Întrebări pentru întâlnire:
+
+- Care este articolul procedural al autorizației și data dovedită a Rechtskraft?
+- Cine verifică dosarul MA37 și confirmă în scris valabilitatea înainte de mobilizare?
+- Există vreo Baubeginnsanzeige anterioară și există dovada începerii efective?
+- Ce lucrări structurale pot începe legal și tehnic la 01.10.2026, cu documentația care va fi disponibilă atunci?
+- Cine urmărește calendarul legal și cine răspunde contractual pentru depunerile asumate?
+
+**2. Planurile 2026 față de planurile autorizate 2023**
+
+**§73** diferențiază abaterile ce necesită procedură de modificare de abaterile limitate care pot fi declarate cel târziu la final. Nu orice modificare poate fi lăsată pentru Fertigstellungsanzeige. Pentru abaterile încadrabile în alin.(3), planul execuției trebuie să evidențieze colorat schimbările și gri situația autorizată. Modificarea **nu prelungește valabilitatea autorizației inițiale**. Procedura depinde inclusiv de tipul inițial §§70/70a/70b și eventuala Schutzzone. [RIS – §73](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-30&Gesetzesnummer=20000006&Paragraf=73&Uebergangsrecht=).
+
+De cerut: un **tabel comparativ 2023–2026**, semnat de coordonatorul proiectării, cu fiecare schimbare de zid portant, gol, scară, lift, planșeu, acoperiș, terasă, balcon, fundație, sarcină și utilizare; pentru fiecare: efect structural, documentație necesară, încadrare juridică propusă, responsabil, termen și cost.
+
+Întrebări:
+
+- „Ce planuri, cu număr, autor, dată și revizie, constituie baza prețului Toms?”
+- „Cine stabilește și documentează dacă este necesar Planwechsel/Änderungsbewilligung?”
+- „Cine desenează, semnează, depune și susține modificarea la MA37?”
+- „Câte revizii sunt incluse și ce modificări generează suplimente?”
+- „Cum se asigură că arhitectura, structura, instalațiile și protecția la incendiu folosesc aceeași revizie?”
+
+**3. Proiectul de structură pentru execuție – Ausführungsstatik**
+
+Obligația legală din **§127 alin.(2)** privește existența în șantier a planurilor permise legal, documentației structurale necesare stadiului lucrărilor și probelor verificărilor. Verificarea autorității nu constituie prezumția că documentația este completă și corectă. Lipsurile relevante pot împiedica continuarea lucrărilor conform alin.(8). [RIS – §127, versiune în vigoare din 14.12.2023](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=&Artikel=&FassungVom=2026-01-29&Gesetzesnummer=20000006&Paragraf=127&ShowPrintPreview=True&Uebergangsrecht=).
+
+Ghidul profesional publicat de Cameră împreună cu MA37 distinge calculul pentru autorizare de nivelul detaliat de execuție. Pentru clădiri existente tratează explicit succesiunea lucrărilor și intervențiile de înlocuire/compensare cu sprijiniri. Desenele de atelier și unele calcule de îmbinări pot fi prestații separate în modelul contractual prezentat. Ghidul este din **2016**, încă indicat de pagina actuală MA37; folosește-l ca reper pentru completitudinea prestației, **nu ca inventar al tuturor normelor actuale**. [Cameră/MA37 – conținutul calculelor structurale](https://ost.zt.at/fileadmin/user_upload/redakteure_wnb/D_Service/D_1_1_Baurecht/Richtlinien/Erlaeuterung_Inhalt_statisch._Berechn._gem._BO_Wien_i.d.F._01.10.2016.pdf).
+
+De cerut în ofertă, separat:
+
+- verificarea documentației preexistente și preluarea responsabilității pentru ipotezele utilizate;
+- investigațiile necesare înaintea calculului și responsabilul pentru executarea lor;
+- calcule globale și locale, fundații și traseul complet al încărcărilor;
+- planuri de poziționare, cofraj, armare, structură metalică/lemn și detalii;
+- calculul îmbinărilor, ancorajelor și reazemelor;
+- sprijiniri și stabilitatea temporară la demolări și intervenții;
+- delimitarea față de proiectele tehnologice/desenele de atelier ale constructorului;
+- modificări și detalii apărute după desfaceri;
+- documentația structurală finală conform execuției;
+- verificarea cerințelor de foc, deformații și vibrații la interfețele cu ceilalți specialiști.
+
+**4. Particularități oficiale pentru supraetajare/amenajarea mansardei**
+
+Fișa MA37 din **iulie 2025** cere verificarea înaintea intervențiilor a cornișelor, planșeelor existente și elementelor ce preiau încărcările până la fundații. Rezultatele trebuie consemnate și folosite pentru Detailstatik; consolidările necesare se execută, în principiu, înaintea încărcării suplimentare/subzidirii. Sunt prevăzute protecția la precipitații după desfacerea acoperișului și interdicția utilizării zidăriei coșurilor din fostul pod ca reazem structural. [MA37 – Merkblatt Dachgeschoßausbauten](https://www.wien.gv.at/pdf/ma37/merkblatt-bautechnische-hinweise.pdf).
+
+Întrebări concrete: Cine verifică grinzile și capetele lor încastrate, cornișele, tiranții, zidurile subsolului și fundațiile? Cine prescrie deschiderile de control? Ce se întâmplă cu prețul și calendarul dacă starea reală diferă de planuri? Cine semnează acceptarea fiecărei ipoteze înainte de lucrările ireversibile?
+
+**5. Prüfingenieur BO Wien – numire, independență și prestație**
+
+**§127 alin.(3)** prevede, în principiu, numirea unui Ziviltechniker sau expert judiciar pentru domeniul relevant, pentru categoriile de lucrări prevăzute în text. Verificările urmăresc progresul structurii, Rohbaubeschau și execuția conformă autorizației/regulilor. Conform alin.(3a), numirea și dovada luării la cunoștință trebuie comunicate autorității înainte de începere. El trebuie să fie distinct de **Bauwerber și Bauführer**, fără raport de muncă sau raport organic cu aceștia. [MA37 – Prüfingenieur](https://www.wien.gv.at/wohnen/pruefingenieur-formulare).
+
+**Nu există în această regulă o interdicție generală expresă ca proiectantul structurii să fie și Prüfingenieur BO.** Trebuie analizate persoanele și raporturile concrete; nu scrie în material „este obligatoriu un alt proiectant”. Recomandarea contractuală legitimă este să ceri transparență asupra cumulului și un mecanism documentat de control.
+
+Întrebări:
+
+- Cine este persoana numită și cine o înlocuiește?
+- Prețul include funcția legală completă sau numai vizite pentru structură?
+- Include toate constatările §127(3), Rohbaubeschau, rapoarte, urmărirea remedierilor și verificări repetate?
+- Care sunt fazele ce nu pot fi acoperite înaintea verificării?
+- Cine anunță verificatorul și cu ce preaviz?
+- Cum se tratează suplimentar turnările ratate, revenirea după neconformități și prelungirea șantierului?
+- Există dependențe personale, de muncă sau de conducere față de beneficiar ori Bauführer?
+
+**6. Verificarea calculelor OIB/DSL2/DSL3 este o chestiune distinctă**
+
+Ghidul Cameră/MA37 distinge controlul de plauzibilitate DSL2 de verificarea independentă completă DSL3. Această verificare de proiectare nu se confundă cu vizitele Prüfingenieur BO. OIB-RL1 2019 tratează separat supravegherea de către terți independenți pentru structuri cu consecințe mari; nu rezultă că fiecare clădire rezidențială necesită automat aceeași procedură externă. [OIB-RL1 2019](https://www.oib.or.at/sites/default/files/richtlinie_1_12.04.19_0.pdf), [explicațiile OIB 2019](https://www.oib.or.at/sites/default/files/erlaeuternde_bemerkungen_richtlinie_1_12.04.19.pdf).
+
+Întrebarea corectă: „Ce clasă de consecințe/fiabilitate atribuiți proiectului, în baza cărei ediții normative, ce verificare a calculelor rezultă, cine o efectuează și unde este prețul?” Dacă este necesar un control independent, precizați persoana/organizația independentă **pentru acel control**, distinct de discuția privind cumulul funcției BO.
+
+**7. Finalizarea – §128**
+
+Textul actual **§128 alin.(2) pct.1** cere, în cadrul competenței profesionale, confirmarea unui Ziviltechniker independent de Bauwerber/Bauführer privind execuția conformă și documentația relevantă. Confirmarea are un obiect mai larg decât rezistența structurii. Alin.(2) mai prevede documentele modificărilor, dovezile verificărilor §127, certificatele tehnice aplicabile și înregistrările Bauwerksbuch/Gebäudebeschreibung. Conform alin.(4), utilizarea nu este permisă înaintea depunerii complete; o depunere incompletă este tratată ca nedepusă. Există excepții limitate pentru anumite lucrări, de verificat în Bescheid. [RIS – §128 actual](https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40018216/LWI40018216.html).
+
+Întrebarea decisivă: „Toms își asumă confirmarea completă §128(2)1 sau numai documentele structurale destinate celui care semnează confirmarea completă?” Cere matricea dosarului final cu document, emitent, colector, verificator, semnatar, termen și preț.
+
+**8. Bauwerksbuch – §128a**
+
+Textul actual cere pentru Neu-/Zu-/Umbauten relevante crearea Bauwerksbuch până la notificarea finală. Autorul trebuie să aibă competență corespunzătoare și să fie independent de **Bauwerber, Bauführer și proprietar**, fără raport de muncă/organic. Pentru imobile existente, termenele generale sunt **31.12.2027** pentru cele anterioare lui 01.01.1919 și **31.12.2030** pentru intervalul 1919–1945, cu excepțiile legale. Anul exact al clădirii trebuie probat. Registrul se gestionează electronic. [RIS – §128a actual](https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40018217/LWI40018217.html).
+
+MA37 precizează că la Zu-/Umbauten și clădiri existente este necesară și prima verificare; înregistrarea se face cu confirmările, nu prin încărcarea întregului Bauwerksbuch. [MA37 – FAQ](https://www.wien.gv.at/pdf/ma37/faq-bauwerksbuch.pdf).
+
+De cerut: preț pentru întregul imobil, consultarea arhivei, prima verificare, documentarea defectelor, planul de remediere, intervale viitoare, înregistrare și predare electronică. **Bauwerksbuch nu înlocuiește evaluarea structurii necesară supraetajării.**
+
+**9. Bauführer și legea aplicabilă**
+
+Bauführer trebuie să aibă drept profesional pentru activitatea respectivă, se comunică înainte de începere și răspunde pentru execuție și respectarea planurilor/regulilor. Pentru societăți trebuie numită și persoana fizică relevantă – baurechtlicher Geschäftsführer. MA37 indică notificarea începerii de către Bauführer cu minimum trei zile înainte. [MA37 – Bauführer](https://www.wien.gv.at/wohnen/baufuehrer-voraussetzungen-formulare).
+
+Nu presupune că Toms devine Bauführer sau preia supravegherea completă a costurilor, cantităților, termenelor și tuturor meseriilor prin contractarea structurii ori Prüfingenieur.
+
+În plus, **WBTV2023 a intrat în vigoare la 23.02.2024**, cu păstrarea regimului anterior pentru procedurile deja pendinte; au existat și modificări în 2026. Prin urmare, nu poate fi stabilită exclusiv din anul șantierului ediția tehnică aplicabilă proiectului autorizat în 2023 și modificărilor din 2026. Cere o notă scrisă a proiectantului/coordonatorului, cu confirmare MA37 unde încadrarea este incertă. [WBTV2023 – §5](https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20240222_14/LGBLA_WI_20240222_14.pdf), [RIS – actualizări 2026](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Anlage=1&Artikel=&Gesetzesnummer=20000702&Paragraf=&Uebergangsrecht=).
+
+**Rezultatul de obținut după întâlnire:** ofertă revizuită cu obiect precis, persoanele autorizate nominalizate, lista livrabilelor, responsabilitățile la interfețe, lista excluderilor, tarife suplimentare, calendar și confirmarea documentelor obligatorii înaintea fiecărei etape. Aceste precizări sunt recomandări de contractare; legea nu stabilește automat că toate intră în onorariul deja oferit.

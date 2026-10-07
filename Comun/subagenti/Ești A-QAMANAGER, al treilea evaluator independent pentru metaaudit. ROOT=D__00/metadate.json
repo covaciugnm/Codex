@@ -1,0 +1,23 @@
+{
+  "id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790212014,
+  "updated_at": 1790250575,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Ramanujan\",\"agent_role\":null}}}",
+  "title": "Ești A-QAMANAGER, al treilea evaluator independent pentru metaaudit. ROOT=D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000. În acest moment auditorii primari lucrează; nu emiteîncă aprobări de livrabil. Pregătește-te citind00_CONDUCERE/MANUAL_ATELIER.md,RUBRICI.md,PROTOCOL_ARHIVARE.md,policy.json,06_REGISTRU/agents.json,deliverables.json și04_INSTRUMENTE/README.md. Nu modifica acestefișiere. Verificăpe6cazuri sintetice explicitmarcateTEST capacitateaderecunoaștere a rapoartelorinvalide: scoreexact950; acelașiIDautor/auditor;hashdeversiuneveche; constataredeschisăcuPASS;citaredelocalizareinexistentă; selecțiepreliminarăprezentatăca lecturăintegrală. Pentru fiecare descriesemnalele și verdictul carearfiobligatoriu; acestea NU sunt audituri ale romanelor. Scrie05_AUDIT/CALIBRARE_A-QAMANAGER-r01.md cu ceaiinspectat și limitările, apoi returnează READY și așteaptăunmandatnou pentru rapoartele reale. Metaauditulrealva cerealtIDdecâtproducători/auditoriiși toate6checksindependence,coverage,evidence,scoring,closure,version. Nuinventanote sau audite primare. Nucreaalțiagenți. Scriere numai în05_AUDIT/fișierulcalibrare.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 30386878,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 445,
+  "message_count": 71,
+  "content_sha256": "e50163985f7a6be2bacc3c4482811c424d4ffc130196d4e95ca349f61d1757f2",
+  "files_copied": 79,
+  "references_not_copied": 0
+}

@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-24T10:15:06.1936080+03:00",
+  "index_sha256": "61436723547d4c80c959ff42b2f323500d9ff2b78c25435e142f931ba3f036b9",
+  "receipt_match": true,
+  "sidecar": "61436723547d4c80c959ff42b2f323500d9ff2b78c25435e142f931ba3f036b9",
+  "count": 485,
+  "all_match": true,
+  "mismatches": [],
+  "scope": "Every index entry checked for resolved path confinement, actual SHA256 and byte size; interim checkpoint, no cold restore or G01 editorial approval claimed",
+  "orchestration_note": "Initial command completed successfully in session 84490; caller prematurely interpreted running session as failure. First verification output exceeded display budget; checks repeated with compact result."
+}

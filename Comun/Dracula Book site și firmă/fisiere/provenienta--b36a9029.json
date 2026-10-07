@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-09-24T11:22:10.9472801+03:00",
+  "snapshot": "08_ARHIVA/ROM-001-G01/r01-after-audit",
+  "index_sha256": "08d454312b19fc83debe2a159b5277a274ac0e796af63d2d1d1f39900a3871ce",
+  "receipt_match": true,
+  "sidecar_match": true,
+  "entries_checked": 751,
+  "all_entries_match": true,
+  "mismatches": [],
+  "copies": [
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-after/index.json",
+      "sha256": "08d454312b19fc83debe2a159b5277a274ac0e796af63d2d1d1f39900a3871ce",
+      "same_as_source": true
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-after/index.sha256",
+      "sha256": "8882130677bff64869224f4ea482c66f74ccfb99e17697f45e1b50eb83963076",
+      "same_as_source": true
+    }
+  ],
+  "limits": "Every indexed entry checked for path confinement, SHA256 and byte size; exact flat index proofs. Not a cold restore or editorial approval."
+}

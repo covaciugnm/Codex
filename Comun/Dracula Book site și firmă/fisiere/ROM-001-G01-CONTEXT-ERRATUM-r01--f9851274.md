@@ -1,0 +1,5 @@
+# Precizare de stare pentru fotografia CONTEXT_REMEDIERE_r03
+P-MANAGER 01a07b90-9d07-7e72-8eb7-8439e985b9ba;24.09.2026, Europe/Bucharest.
+Copia STATUS_la_remediere.md (SHA2562133495fe27454cf6000c7a905699a07371f8a32f54776b59a2b4c1b27d10f54) păstrează în titlu formula rămasă din actualizarea anterioară: „recuperare AFTER în curs”. La momentul copierii, recuperarea era deja terminată; chiar paragraful detaliat al aceleiași copii consemnează746fișiere conforme, RETURN/exit2, verificarea managerului și închiderea arhivistică.
+Titlul rezumat nu trebuie interpretat ca o a doua stare a operației. Dovezile de autoritate pentru ordinea activării sunt rapoartele RESTORE-AFTER-r01, controlul RESTORE-AFTER-MANAGER-r01, INCHIDERE-RETURN-r01 și activarea editorului cu submission01a0d28f-aab3-7d40-bc8e-047a17408970, după aceste verificări.
+Păstrăm copia byte-identică și proveniența ei; nu le rescriem retroactiv. Prezenta precizare este ulterioară copiei și se adaugă ca dovadă distinctă la depunerea r02. Nu schimbă produsul, verdictul RETURN, constatările deschise sau rezultatul recuperării. STATUS live are titlul actualizat separat.

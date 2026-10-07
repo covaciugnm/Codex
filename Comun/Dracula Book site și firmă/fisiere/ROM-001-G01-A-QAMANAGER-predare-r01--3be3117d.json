@@ -1,0 +1,12 @@
+{
+  "agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "role": "A-QAMANAGER",
+  "submission": {
+    "submission_id": "01a0d266-b727-74d1-840d-e364b1c479bb"
+  },
+  "closure": {
+    "previous_status": {
+      "completed": "Metaaudit ROM-001-G01 r01: **RETURN**.\n\nA-CANON returnează justificat produsul. PASS-ul A-GOVERNANCE nu este susținut pentru afilierea lui Marcel la hotel: constatarea QA **META-ROM-001-G01-r01-F01** rămâne open și cere raport nou, motivat și retestat. Constatarea de produs rămâne deschisă.\n\nFișiere finale:\n\n- [META.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/META.md>)\n- [META.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/META.json>)\n- [META-CONTROLES.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/META-CONTROLES.json>)\n\nSchema, ancorele și hashurile au fost reverificate după ultima editare. Lectură integrală a celor 11 artefacte; lectura directă H a fost limitată la 367 paragrafe, nu integrală.\n\n**Scrierile sunt oprite.** Arhivarea revine managerului; G02 nu este autorizat."
+    }
+  }
+}

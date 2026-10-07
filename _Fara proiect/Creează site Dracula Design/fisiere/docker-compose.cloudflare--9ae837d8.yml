@@ -1,0 +1,20 @@
+services:
+  backend:
+    environment:
+      PUBLIC_BASE_URL: https://dracula-design.com
+      COOKIE_SECURE: "true"
+  migrate:
+    environment:
+      PUBLIC_BASE_URL: https://dracula-design.com
+      COOKIE_SECURE: "true"
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${CF_TUNNEL_TOKEN:?Set the dedicated Dracula Design tunnel token in .env}
+    depends_on:
+      admin: {condition: service_started}
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]

@@ -1,0 +1,23 @@
+{
+  "id": "01a0819a-91f6-7e01-82e0-3160eca498fe",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788880785,
+  "updated_at": 1788881053,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Caută certificate Suntech",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 960533,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 33,
+  "message_count": 4,
+  "content_sha256": "aba98fa31f49d8ae6abb099cabbc572ba30da0bdf1d902cd4dcf1f2955c6c517",
+  "files_copied": 0,
+  "references_not_copied": 1
+}

@@ -1,0 +1,88 @@
+{
+  "type": "REAL_PREFIX_BYTE_CHECK",
+  "capture": "history-r02-primary-final",
+  "results": [
+    {
+      "role": "P-MANAGER",
+      "expected_bytes": 15626010,
+      "read_bytes": 15626010,
+      "source_size_observed": 15641937,
+      "declared_sha256": "9f7aaa926f10744dd27d0b7102450f23e7e27db65a270751070342864df8c3d7",
+      "observed_sha256": "9f7aaa926f10744dd27d0b7102450f23e7e27db65a270751070342864df8c3d7",
+      "passed": true
+    },
+    {
+      "role": "P-CANON",
+      "expected_bytes": 5307281,
+      "read_bytes": 5307281,
+      "source_size_observed": 5307281,
+      "declared_sha256": "da4c6564911cd27f22620b981ea27f72bca8627bcf0271a868e466b047c0346d",
+      "observed_sha256": "da4c6564911cd27f22620b981ea27f72bca8627bcf0271a868e466b047c0346d",
+      "passed": true
+    },
+    {
+      "role": "P-RESEARCH",
+      "expected_bytes": 4704040,
+      "read_bytes": 4704040,
+      "source_size_observed": 4728192,
+      "declared_sha256": "9230a5b5ba1f2eae1894057ebdd8f8a4b63d87e7dcf93c655fe41fd17ded4a14",
+      "observed_sha256": "9230a5b5ba1f2eae1894057ebdd8f8a4b63d87e7dcf93c655fe41fd17ded4a14",
+      "passed": true
+    },
+    {
+      "role": "P-SYSTEMS",
+      "expected_bytes": 3967498,
+      "read_bytes": 3967498,
+      "source_size_observed": 4067275,
+      "declared_sha256": "b44e1bdb96de1bcdcc59ec0f7413643059dcdd90ac7f9d0ced7bd37d6703f914",
+      "observed_sha256": "b44e1bdb96de1bcdcc59ec0f7413643059dcdd90ac7f9d0ced7bd37d6703f914",
+      "passed": true
+    },
+    {
+      "role": "A-GOVERNANCE",
+      "expected_bytes": 6981922,
+      "read_bytes": 6981922,
+      "source_size_observed": 6981922,
+      "declared_sha256": "f3c21622f3343cba26bf8718a8ab2e619fce8e7e290c428abcfa94c14b035247",
+      "observed_sha256": "f3c21622f3343cba26bf8718a8ab2e619fce8e7e290c428abcfa94c14b035247",
+      "passed": true
+    },
+    {
+      "role": "A-SYSTEMS",
+      "expected_bytes": 7003555,
+      "read_bytes": 7003555,
+      "source_size_observed": 7003555,
+      "declared_sha256": "86f067ba63809aa371b8263e315081d1985050a43434e4a20b8fe41d8d14f597",
+      "observed_sha256": "86f067ba63809aa371b8263e315081d1985050a43434e4a20b8fe41d8d14f597",
+      "passed": true
+    },
+    {
+      "role": "A-CANON",
+      "expected_bytes": 6234155,
+      "read_bytes": 6234155,
+      "source_size_observed": 6234155,
+      "declared_sha256": "52c6cc5e489afe3c6a83938c14ccc9ca5b47534f626c0ac03e183f9b75164030",
+      "observed_sha256": "52c6cc5e489afe3c6a83938c14ccc9ca5b47534f626c0ac03e183f9b75164030",
+      "passed": true
+    },
+    {
+      "role": "A-SOURCES",
+      "expected_bytes": 6783313,
+      "read_bytes": 6783313,
+      "source_size_observed": 6783313,
+      "declared_sha256": "27d489d88d4c62a6e23b8bdc27c4b472e2d894c48ef801f3d32094243abfccf6",
+      "observed_sha256": "27d489d88d4c62a6e23b8bdc27c4b472e2d894c48ef801f3d32094243abfccf6",
+      "passed": true
+    },
+    {
+      "role": "A-QAMANAGER",
+      "expected_bytes": 6256157,
+      "read_bytes": 6256157,
+      "source_size_observed": 6594531,
+      "declared_sha256": "6fec802b87d73b2db0b91f602896b7d7feef1f67a5932e2d33ff63b44f1b72f8",
+      "observed_sha256": "6fec802b87d73b2db0b91f602896b7d7feef1f67a5932e2d33ff63b44f1b72f8",
+      "passed": true
+    }
+  ],
+  "limits": "Comparație de bytes/hash, nu lectură ori autentificare a conținutului ascuns; nicio modificare a surselor."
+}

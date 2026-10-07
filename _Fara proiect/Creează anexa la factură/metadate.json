@@ -1,0 +1,23 @@
+{
+  "id": "01a0f248-88c3-72b0-be18-3884e5493fc9",
+  "cwd": "\\\\?\\C:\\Users\\User\\Documents\\Codex\\2026-09-30\\in",
+  "created_at": 1790771235,
+  "updated_at": 1790771531,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Creează anexa la factură",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "explicitly_projectless",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 606961,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 30,
+  "message_count": 9,
+  "content_sha256": "5d3499c1af33276f0388a22e04a07275c9adb7cb0ef5fdda649b9127d46d7529",
+  "files_copied": 7,
+  "references_not_copied": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a10adb-4cc5-7b41-ab2d-ee6880cf01c1",
+  "cwd": "\\\\?\\UNC\\192.168.100.151\\site-uri\\3dscan.eva-org.com",
+  "created_at": 1791183506,
+  "updated_at": 1791183657,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară iPhone Pro Max 15–18",
+  "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+  "project": "3D.AppleScan",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 354429,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 10,
+  "message_count": 4,
+  "content_sha256": "e5f069a7a86b4be04187675b88bb4fd222b46ba21c51f89043a3db6ec7e4c5cf",
+  "files_copied": 0,
+  "references_not_copied": 7
+}

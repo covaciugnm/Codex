@@ -1,0 +1,23 @@
+{
+  "id": "01a0a69c-8de1-7a90-b48b-5fb718283121",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789482559,
+  "updated_at": 1789482913,
+  "archived": 0,
+  "source": "vscode",
+  "title": "SchalerGasse Oferte Statica-Rezistenta.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 192522,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 43,
+  "message_count": 43,
+  "content_sha256": "cf174ea82a10227c169486e13e31ba7de4c6e2ddc07162ba4ed21a5fcf7a785b",
+  "files_copied": 0,
+  "references_not_copied": 7
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a10ade-37d0-7f91-95c0-23125e63e891",
+  "cwd": "\\\\?\\UNC\\192.168.100.151\\site-uri\\3dscan.eva-org.com",
+  "created_at": 1791183698,
+  "updated_at": 1791320763,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică distribuirea video ROS 2",
+  "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+  "project": "3D.AppleScan",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 6968334,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 200,
+  "message_count": 45,
+  "content_sha256": "7eb12c4f0d6f0edc397b2bed3e51c5a52cfb9241c08f61a95d8597ce4f4e3d29",
+  "files_copied": 6,
+  "references_not_copied": 162
+}

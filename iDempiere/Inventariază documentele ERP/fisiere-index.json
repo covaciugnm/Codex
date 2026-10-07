@@ -1,0 +1,848 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iDempiere/Catalog_documente_ERP_RO_2026-10-06/00_Index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/00_Index--7bbf6d21.html",
+    "bytes": 8373,
+    "sha256": "cff827e34c302f3899781c08c1c93cbc5ab0776964486b844db39ab2c4b3ac02"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iDempiere/Catalog_documente_ERP_RO_2026-10-06/01_Catalog/Catalog_documente_ERP.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP--1e364ab6.docx",
+    "bytes": 278231,
+    "sha256": "685047307d2aa69fd8f2b9584d61e139be405f58bf3588eadea005a7e087cef8"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iDempiere/Catalog_documente_ERP_RO_2026-10-06/01_Catalog/Catalog_documente_ERP.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP--8fc7fdce.pdf",
+    "bytes": 3347385,
+    "sha256": "95ad1739fab009222f335630ec02200016f1c49623c65d9fc9115e5e70752112"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iDempiere/Catalog_documente_ERP_RO_2026-10-06/Catalog_documente_ERP_RO_2026-10-06.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_RO_2026-10-06--2442c10a.zip",
+    "bytes": 17938496,
+    "sha256": "7ae023c6faf91f75fd9cc92ff2c599b8c6d8eb06f9238b7302b138b071f3f0d9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_final\\Catalog_extins\\p0003.png",
+    "status": "copiat",
+    "saved_path": "fisiere/p0003--a04d544c.png",
+    "bytes": 52946,
+    "sha256": "039d302add01707d329943daba52ed1daf6ef0e6f0e3c85f375e955596f8c50b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_final\\Volum_04_contact_01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Volum_04_contact_01--2bdd2615.jpg",
+    "bytes": 649920,
+    "sha256": "5d67b6a99a25539c36b12c5c8aef977f0fc3d9e4df7a1de9f44c9f3858039be3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_final\\Volum_09\\p0160.png",
+    "status": "copiat",
+    "saved_path": "fisiere/p0160--5a0b8ea7.png",
+    "bytes": 89947,
+    "sha256": "03a96576d648c3404ce249808f4411f440598896895c7a848dbb5a874d296a37"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_final\\Volum_09_contact_01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Volum_09_contact_01--efb4f100.jpg",
+    "bytes": 651701,
+    "sha256": "a4604b3681ad03697afb1e2f7c54e246772bf12dbd2bb1f48d2d131c44ddce3b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_pdf\\Volum_04_10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Volum_04_10--09b428ac.png",
+    "bytes": 240601,
+    "sha256": "6041c3bb4eea2ff87fd9441c85ab577551dc15990fdbd7b2f5be6f3cc6648ec1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_pdf\\Volum_04_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Volum_04_3--7d47ce15.png",
+    "bytes": 130806,
+    "sha256": "1a2d8ffddda4e64657d83d5103cd843d81f45751eae1614ee48e53efded8f88f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_pdf\\Volum_09_4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Volum_09_4--f0a2afb9.png",
+    "bytes": 198513,
+    "sha256": "32467205eb916c2a3def49a1b020a45278235747ec440af624a72276fe69cad5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_pdf\\Volum_19_8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Volum_19_8--f01df1a6.png",
+    "bytes": 236243,
+    "sha256": "e1c15b7540c1a48198051c99b54d9d8166e55a302d1b4c693df0eeee02caa127"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_web\\01_acasa.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01_acasa--f7069c36.png",
+    "bytes": 96382,
+    "sha256": "7f8bf61729b74a0731e6957f45d535074ca415f56e8cd658d2f99a6dda67b2f7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_web\\03_capitol.png",
+    "status": "copiat",
+    "saved_path": "fisiere/03_capitol--5b0fc657.png",
+    "bytes": 98650,
+    "sha256": "b1a88120bc35eefcd83e736d5fe1a380b7b5067d01f03b98d1cbc40ed2125327"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_web\\05_campuri.png",
+    "status": "copiat",
+    "saved_path": "fisiere/05_campuri--5361b09c.png",
+    "bytes": 118018,
+    "sha256": "8e3110ffddf62d961b473d1d3f6f522afd3b3e787b0f69b91fa2913085493445"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_web\\06_mobil.png",
+    "status": "copiat",
+    "saved_path": "fisiere/06_mobil--759e0714.png",
+    "bytes": 36303,
+    "sha256": "d725333c5a8f4e2910c2928f45a3af612119ba237b29ba975f3eab77e0b3b6d6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_web\\07_versiuni.png",
+    "status": "copiat",
+    "saved_path": "fisiere/07_versiuni--85c9f62d.png",
+    "bytes": 84665,
+    "sha256": "e034cbd7fb24dfece904879d8731ddae77d12dc618ded232f6bf2d4f5aaa1e60"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_web\\08_catalog_pdf.png",
+    "status": "copiat",
+    "saved_path": "fisiere/08_catalog_pdf--15823cf6.png",
+    "bytes": 298779,
+    "sha256": "fd42d07dad79022202dde326ccb620dfc4031fe933be3fb7b3f09d22c9e524a6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_biblioteca_v2\\qa_web\\09_pdf_cititor.png",
+    "status": "copiat",
+    "saved_path": "fisiere/09_pdf_cititor--03a5a993.png",
+    "bytes": 298711,
+    "sha256": "a36d93fd7cd86d2d88e29fe7683354aedb3facf176e948d0609a2f4208e8e9cd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa\\Catalog_documente_ERP_001.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_001--f9f6fe8d.png",
+    "bytes": 188426,
+    "sha256": "91342e4b921517963899c68c97073234d8b061d4b7d9e7e80265be746703c9b7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa\\Catalog_documente_ERP_003.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_003--c369198a.png",
+    "bytes": 210187,
+    "sha256": "1c8fe60f200e9d867d86f576b75a0f090cc8edbebf6a22c3b061fab0de57cfc2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa\\Catalog_documente_ERP_009.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_009--91b99d97.png",
+    "bytes": 192880,
+    "sha256": "db8ab665bae5e038bc02327960c5c67b69d48a88eea12d1989c19342b5aada2d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa\\Modele_04_002.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_04_002--43f1978a.png",
+    "bytes": 133445,
+    "sha256": "9684dab696178408f418867d53bec53b131c9cbdc11ba9e2ddcb40eeb011b8a7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa\\Modele_05_002.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_05_002--6ea146dd.png",
+    "bytes": 107015,
+    "sha256": "2a8d90332256e5bbac5f0ecee34735cd303493c49da505773b4047a2a75f2c88"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa\\Modele_09_002.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_09_002--fe5c5c0a.png",
+    "bytes": 101816,
+    "sha256": "310315d5db188e69a69e720a3b106ae186c7402c43c5b6922d4188958d33fe31"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa\\Modele_19_002.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_19_002--bb057860.png",
+    "bytes": 109352,
+    "sha256": "5b4e07afc7d09608d2c03e22d4aa350d5d80a78cf5089bc3843772b7f9c46a67"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa\\Modele_19_004.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_19_004--5a2a636e.png",
+    "bytes": 109009,
+    "sha256": "9512e723ae06abb18536dbb187651282108c7045e1cb0723b3971ff0f8fa479d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-1--78542223.jpg",
+    "bytes": 266226,
+    "sha256": "ca989e09b8030eceecd988b49ab14424b48ddc08e712ecc7dedf6d8766682e5c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-10.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-10--a10ad7d0.jpg",
+    "bytes": 254973,
+    "sha256": "cefef0c7766645eed2bd09e645538028af1228a3f2d4b96555cba490eb7bf5ec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-11.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-11--a81ce4f3.jpg",
+    "bytes": 274567,
+    "sha256": "82ee7bf82423477dfaf47f0734078d4394e65b940e8502f49b80f4d534aa36d6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-12.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-12--cc2480d3.jpg",
+    "bytes": 284657,
+    "sha256": "d0e9889ef6e9f05b9b77fe9e9f734024d85be744a221686cd9712fe8f88023da"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-13.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-13--af8c71be.jpg",
+    "bytes": 259355,
+    "sha256": "6230732a6932a261a41588c1f9714a57d503dd7152b445437da91dd4093e96d2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-14.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-14--b6968fdb.jpg",
+    "bytes": 282100,
+    "sha256": "8aa0f3304c99059bda43392a6bf108befba96705aaf5cf3b91a883c7784f9d8f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-15.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-15--4abeb938.jpg",
+    "bytes": 265176,
+    "sha256": "bd5d0e59acb3cdf6ccf3b25ab37b10a0941378020640bc3a9f6f9401c6063e4f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-16.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-16--eb8c18d1.jpg",
+    "bytes": 294777,
+    "sha256": "a070aa5e34e16b858d20c2b672efe307b4c65bb1e02e45fc7a1777c7ec84e1e0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-17.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-17--2a34831e.jpg",
+    "bytes": 269701,
+    "sha256": "ada47c3ba5e1990b7a7c53f75891c057b0be197b3e483716f137f2cab38203b2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-18.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-18--947685fc.jpg",
+    "bytes": 278187,
+    "sha256": "78cf52eb918f6a1ae75700937bb00e12a83fba1f79061f24c80dc61ef29f74a7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-19.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-19--caeca396.jpg",
+    "bytes": 278893,
+    "sha256": "6a731142ed7b34dbe06c1cac9221c977b039b2cac2bb1bb41a3fa56204ec68e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-2--f050f7d0.jpg",
+    "bytes": 263424,
+    "sha256": "80e161c8a4bf0d31a5ec4ddbda05fe2de5fa43d24810c8b6eac3c496a1ab77f8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-3.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-3--d65ea5d1.jpg",
+    "bytes": 279398,
+    "sha256": "9bc87ee66082b37084232ffead8a709620125326f8a9c65e6d3a0bc8a50cc92a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-4.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-4--7e00cf0b.jpg",
+    "bytes": 279952,
+    "sha256": "3d9e49ba6620c169bd6f4020c3b6e48dfbb827c6a08f5b61b1b7706517de1343"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-5.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-5--2f02e136.jpg",
+    "bytes": 283915,
+    "sha256": "db649476df3a1557e6eb076f557ce961a0ad5a380ab4864226ea95aec27ed62b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-6.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-6--5ba30f03.jpg",
+    "bytes": 283075,
+    "sha256": "4e54d89ca1e1c65a6abf527f826a74bc447ef5da34514c1f8221723eb72f487b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-7.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-7--f458def0.jpg",
+    "bytes": 271473,
+    "sha256": "e9fc4fcccf2949aa5673fb580d1d16bd23a997ac28797ff3aa0107d9243fd06d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-8.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-8--b979dd60.jpg",
+    "bytes": 280714,
+    "sha256": "2738c215b992771c19f42f91b36733c2b16427bdbd4ae35432739c2e9552d04f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Catalog_documente_ERP_sheet-9.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_documente_ERP_sheet-9--9e066215.jpg",
+    "bytes": 268986,
+    "sha256": "b8633204b438e139d0f4d715618e243afaf3618b990a2bb4aa7a0e19d58ec3c6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_01_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_01_sheet-1--c83414a0.jpg",
+    "bytes": 176650,
+    "sha256": "124e379798a10b023e03083f1ea244f7bb5dd41d107d51d3ebd52b69147a7744"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_01_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_01_sheet-2--85d304a1.jpg",
+    "bytes": 64488,
+    "sha256": "96faa17727a435ef38b5acbb0c793a810b04ed3adaa08542900dd2a0a44143ea"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_02_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_02_sheet-1--a78fd580.jpg",
+    "bytes": 174001,
+    "sha256": "288fb3a24fbe1506f3bc68556520d96e03c647038f76637d1dd9bc3a9b2a3346"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_02_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_02_sheet-2--9ad19213.jpg",
+    "bytes": 75995,
+    "sha256": "b9de9a545f78a5726963a005a47f031617179061308fe8cae5301c24c478fa5b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_03_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_03_sheet-1--b677fd26.jpg",
+    "bytes": 183868,
+    "sha256": "1099269b9b18c300b4ca05ef76f302337654d7a71d71f415efea2a5eeb41ffd1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_03_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_03_sheet-2--a1be8aa8.jpg",
+    "bytes": 75932,
+    "sha256": "b1a50acdafa43817475594faf4d6b51430bded136b7d18644bd1a107d6dec480"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_04_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_04_sheet-1--d62351bd.jpg",
+    "bytes": 215228,
+    "sha256": "e04e8fb1846a93bdaf773eaa927d2a649127c1c752038bb425810f3a8f5a4c80"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_04_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_04_sheet-2--3b7d4d48.jpg",
+    "bytes": 203852,
+    "sha256": "82f88365296ec5757ecae3773d9e5352ca8dcd00e97b6a7e87879ba249ec0d69"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_05_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_05_sheet-1--44241e4c.jpg",
+    "bytes": 195756,
+    "sha256": "424041fe742795cd2a78c7c3932e8ceedcfa5f35a3a584b5f6d100246c096c13"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_05_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_05_sheet-2--5f54da6a.jpg",
+    "bytes": 94412,
+    "sha256": "b049d52167da4d6b52ab140fa4a7b286e08d09682c5ce341655ef7327af0a21b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_06_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_06_sheet-1--5a100448.jpg",
+    "bytes": 174542,
+    "sha256": "90d92851e9038cf1329f80c5ad06f78f39fae434255b3ea2ee2cff8428fd06cd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_06_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_06_sheet-2--d157210a.jpg",
+    "bytes": 95128,
+    "sha256": "511c4eb2c02f10f063a3a88048789c8cf023563960bde000f8bfde4ed43513d5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_07_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_07_sheet-1--099bde1d.jpg",
+    "bytes": 170033,
+    "sha256": "9bac5b24139b643d4434d18fdcfcc6305a11e80b8808805bc6fab30653cb15db"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_07_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_07_sheet-2--b1b9445c.jpg",
+    "bytes": 152982,
+    "sha256": "bbd4c4ce085d23f2a1c74261f5780cdf09960486024921c0ffe11f4d1416253b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_08_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_08_sheet-1--944c4998.jpg",
+    "bytes": 181314,
+    "sha256": "aa43bb62c63ab1a6fd20dbc644957eba7b1ee625331eddd55907be9d28a23370"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_08_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_08_sheet-2--73f86b89.jpg",
+    "bytes": 140819,
+    "sha256": "65f503b2c0d63f08b95b44662458549ff8c1c471f159454c03c43745bd32cc80"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_09_page-8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_09_page-8--be22732e.png",
+    "bytes": 50903,
+    "sha256": "9dc2c43a4ad13ef62b86d82be21a6f2efc5d5a8337a4de1c7f5150d033c03f66"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_09_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_09_sheet-1--18fc8d5e.jpg",
+    "bytes": 193423,
+    "sha256": "a6086abca5702095e7dfa666270fcfeaeca23e834eb12ed4ad154a062524ed50"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_09_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_09_sheet-2--4925432f.jpg",
+    "bytes": 110352,
+    "sha256": "cf90a1e2f3aff2055960b0982c112e0ee16ad71765dd3b14d0c0aab6d962a1c9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_10_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_10_sheet-1--19b5f0a7.jpg",
+    "bytes": 169861,
+    "sha256": "e460ea6fb438237ca2271dd3febe591a49a11527b95ef117bf22fa3f3cc4beb8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_10_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_10_sheet-2--ec07ba14.jpg",
+    "bytes": 63048,
+    "sha256": "e2817bc1dc220c3a17fa03567d8d428cf1a79855ba405a77e4a9f77379dfc19a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_11_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_11_sheet-1--79ada552.jpg",
+    "bytes": 170369,
+    "sha256": "da2d494ed3ab9384eb87e87d7602a693284f71b41272a1ff3b446ab4b8171e78"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_11_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_11_sheet-2--ad217476.jpg",
+    "bytes": 61902,
+    "sha256": "eea0a9e6eb677aeea803e7c8f21f05bb31df0c1e15c90c83c9b742d5a24fcc0a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_12_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_12_sheet-1--d18a18f6.jpg",
+    "bytes": 172983,
+    "sha256": "d19b58bc49b15d7f7dc884cacec181babf7bfa7c5e20daf6f7fc1b329fd27100"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_12_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_12_sheet-2--cc6dbab4.jpg",
+    "bytes": 59633,
+    "sha256": "8ae7be9d9c2aa1bcc59bc4697300a9b53d3ce44bacb71c75c3d26cf02c7a0b26"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_13_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_13_sheet-1--2c0fbe00.jpg",
+    "bytes": 152776,
+    "sha256": "80d175b9279d0dbc368c6158f9aaa8311332c04da3a4f6b4b942b17ddc06cb59"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_14_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_14_sheet-1--1cd844c8.jpg",
+    "bytes": 172897,
+    "sha256": "a7a6983382dcec64d061d2d6f1df1d5e7ca40ecc0532ba717f7bb3c75f4fc23c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_14_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_14_sheet-2--6479d197.jpg",
+    "bytes": 86854,
+    "sha256": "977f1a9b67567545fdf7bb6a7518a2d075a9d442976c964b9cfdee07cdce9d22"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_15_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_15_sheet-1--eacbeb53.jpg",
+    "bytes": 151451,
+    "sha256": "881f047366b54f2d4ceb739ef58bba30fab40e820bbb77ee19901134627425f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_16_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_16_sheet-1--c71ffa0b.jpg",
+    "bytes": 174416,
+    "sha256": "59fddb8d1fbbc1951fbf7c0eff4908980751fe514b2e7b435773d2f0749b4dfd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_16_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_16_sheet-2--94d0465e.jpg",
+    "bytes": 51252,
+    "sha256": "0ab578fa509ddb7dc94fca8cb1de3355c56cfb7656f5c7bb76f78c8af243a09b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_17_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_17_sheet-1--9b11a9a2.jpg",
+    "bytes": 187014,
+    "sha256": "d4e652c7c79f1809f77b5cfd4d8a59da0c3e5e63c5912612c523cabe2adf12ca"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_17_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_17_sheet-2--c234a8fc.jpg",
+    "bytes": 171493,
+    "sha256": "3b81defa1e658da6849d512b88d87a50d9f89684738a9e561fd28dfa0ac48123"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_17_sheet-3.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_17_sheet-3--3a51d028.jpg",
+    "bytes": 51085,
+    "sha256": "7dc60b4708ad5ac45fbd040a5e054f8a5344bbc34d6fa555fbdcce351efbe6cb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_18_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_18_sheet-1--8c53b319.jpg",
+    "bytes": 163665,
+    "sha256": "527a9e4060a366c2e0eeb0533049a02d609466d7d8f6f2e85bc20ca0a97217f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_18_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_18_sheet-2--186b07d5.jpg",
+    "bytes": 70394,
+    "sha256": "a29816e127d1ab2d12268355f24589cc6ea95b87f2500c420f304c86e4ce2b09"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_19_page-5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_19_page-5--5e796c37.png",
+    "bytes": 70356,
+    "sha256": "bfaf6ca88062feca187599ea46ad1f9ffd4e0681d5b8f83eb8491a6689d64e09"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_19_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_19_sheet-1--531a4e7e.jpg",
+    "bytes": 204546,
+    "sha256": "30c9836d14de01189367641862730ba6931d5a6067ee5c2346d5d12bbadacd84"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_19_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_19_sheet-2--297719c3.jpg",
+    "bytes": 196424,
+    "sha256": "d8fdf1d7769b536895a0e983b2a7bd8933147db61287715f98eeb5cc5bb12554"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_19_sheet-3.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_19_sheet-3--69012c19.jpg",
+    "bytes": 156417,
+    "sha256": "1a12cdf010d842f349fcf0a3afecbab1b9ec502653f98bd79194a4c1366b01f1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_20_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_20_sheet-1--90be9c25.jpg",
+    "bytes": 169917,
+    "sha256": "0d2fc81dddbf3cd85d4920a274bbb6c008edce84cd17a5dfb1c53b1b5b92928b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_20_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_20_sheet-2--458b81b3.jpg",
+    "bytes": 36914,
+    "sha256": "4f8d048171233c519a7e30fde8b155e13d9523e8fc865e94e4a0269f7c45f43e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_21_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_21_sheet-1--4d41d8d4.jpg",
+    "bytes": 163357,
+    "sha256": "8cee5df40fccb037b58004308a25935e783077effccc56b5baa748311e9b92c4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_22_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_22_sheet-1--a766f6bb.jpg",
+    "bytes": 179115,
+    "sha256": "2a1f4ae73b5d3d8d22c25d65c3fbac1a730121e4d4a6aa3e2c258b3b3d6e3d76"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_22_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_22_sheet-2--053cbb66.jpg",
+    "bytes": 61409,
+    "sha256": "4d36f964829b4fb111dde91f179db6f509328d969c4859914fdb3a43dba9433f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_23_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_23_sheet-1--c050a0b4.jpg",
+    "bytes": 172429,
+    "sha256": "ca12e58c9530ff6cf131da364394cf60bef29f05444b41b70013adcf972d4ca7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_23_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_23_sheet-2--d23a1629.jpg",
+    "bytes": 37243,
+    "sha256": "85663aa1b1a94709f028afec7971f531bfd2cb1ac8f43a88c07a7a12a0479a75"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_24_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_24_sheet-1--9e7d5a6a.jpg",
+    "bytes": 169174,
+    "sha256": "497a2aa4cbe7d0daa968df315ed30876cd7ed19464ef4a56182e35c38f36f775"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_24_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_24_sheet-2--f4c9d922.jpg",
+    "bytes": 40778,
+    "sha256": "84daa34daf5dfc46d726cb9bc8e9473ce347df2d52024e09abf21683cf9b2ca0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_25_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_25_sheet-1--a49cdb3d.jpg",
+    "bytes": 174496,
+    "sha256": "3424cd575890064ed0b4a0d34d689fbcacdd75192296ba5c6ff18b70ee670bc0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_25_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_25_sheet-2--cb8fecff.jpg",
+    "bytes": 36743,
+    "sha256": "1cf1af610e821391d13100954a2c52669a3e8320335c7761e2a59c006fa073ec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_26_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_26_sheet-1--418cc285.jpg",
+    "bytes": 160113,
+    "sha256": "4fd3fbeaf4335cc5ea068d41135ac7ea6a108616100bc75dc5d36763c6cd9ecb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_27_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_27_sheet-1--24cffd23.jpg",
+    "bytes": 164506,
+    "sha256": "f4f88cdae45292e45b382f431feefae692727eb458a883bdb3399da55278c76c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_28_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_28_sheet-1--92a1fc01.jpg",
+    "bytes": 149886,
+    "sha256": "812233df6e60e4e5ad85a46ed3dd9fde3c9d636a9b1b3c2deddc62ee96726710"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_29_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_29_sheet-1--984f4fbb.jpg",
+    "bytes": 161783,
+    "sha256": "d6fae06ea2252814f3f3483ae12c16e42317fee9c58effebd2a11b2f1687b166"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_30_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_30_sheet-1--e8e7c316.jpg",
+    "bytes": 151218,
+    "sha256": "f3dd5fdd9a5bd12eeba5b43ea3acf63e70cb9ddf402a02f00c3efc31083ec6a5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_31_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_31_sheet-1--cd9ae9eb.jpg",
+    "bytes": 177742,
+    "sha256": "55c69ef8cf7291d3a2ca4a2aa85933c32965ee41d3cf30c7a5b9e047782b78f9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_32_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_32_sheet-1--84c23f73.jpg",
+    "bytes": 149201,
+    "sha256": "ce4c1cd8c3c3f506045d24085761652686bc7bed75d248e9ab833d9861204672"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_33_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_33_sheet-1--43e4ce9f.jpg",
+    "bytes": 156704,
+    "sha256": "1011c790a0bd225814378e92306ff68b1d61a4befcbacb975a4a4861567d267a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_34_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_34_sheet-1--8d8b5066.jpg",
+    "bytes": 154827,
+    "sha256": "0a74d4919da37dd3329951e93d323662ac6a6412d608a3eab8d59bffdfecaf52"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_35_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_35_sheet-1--cc7a680d.jpg",
+    "bytes": 172250,
+    "sha256": "570dbdcb4a56fce54cb08b2ec3c261118875764a4d3362d6ea4ab17e23581a65"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_36_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_36_sheet-1--be83c904.jpg",
+    "bytes": 152872,
+    "sha256": "6454508c196c507f66ca48c78c0db7a0e49941ccf86dd31fc29fdfb0d6984838"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_37_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_37_sheet-1--ac26c207.jpg",
+    "bytes": 168115,
+    "sha256": "ee9ecf2e2f02d19b01fe4c6022fc19530d929d397c5983a520751d692458ea99"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_37_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_37_sheet-2--f376ebc1.jpg",
+    "bytes": 48488,
+    "sha256": "7704109970dac65c6cba8e2f488f8e098e83ecdd20fb8a2f8132d48305fee4d5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_38_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_38_sheet-1--cdd1212f.jpg",
+    "bytes": 157822,
+    "sha256": "f622739080e86aeb5b67fed38f856aa4882b0601a83f8a3d384a382e3d81f5b5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_39_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_39_sheet-1--101e89e5.jpg",
+    "bytes": 163311,
+    "sha256": "d602cd263fd20c4371bdf2f66ab692afae76b1177b75137e4ff8346e1e8512b3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_40_sheet-1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_40_sheet-1--b2a4638c.jpg",
+    "bytes": 170288,
+    "sha256": "f19f6bbe59cb107d95fc873ec1bbb6bc762e7879f0b0f93cfa817be8ea59409b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\06\\01a11168-d247-7a22-aa3f-c91b5b3494c1\\_lucru_catalog\\qa_all\\Modele_40_sheet-2.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Modele_40_sheet-2--cad52867.jpg",
+    "bytes": 37803,
+    "sha256": "c32a3224dbc597f9421f23fce2ad39e676a4d483ad67b208206f22680b2a091d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Biblioteca_modele_documentate_ERP_RO_2026-10-06.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Biblioteca_modele_documentate_ERP_RO_2026-10-06--dabb61bd.zip",
+    "bytes": 367389077,
+    "sha256": "ee37f2b11b77be92cd973920fb2960e275b549b2cefd6a2e95bbf37543df2b61"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Biblioteca_modele_documentate_ERP_RO_2026-10-06/01_Catalog/Catalog_extins.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_extins--95a80395.docx",
+    "bytes": 203287,
+    "sha256": "1bc8f888f095589169e5cd01cb3ceeef252bdefe7894647b3c8500646c45d909"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Biblioteca_modele_documentate_ERP_RO_2026-10-06/01_Catalog/Catalog_extins.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_extins--9db7202c.pdf",
+    "bytes": 1980550,
+    "sha256": "ce1889aebc9f1cd2e5fb98a7fe3ac0bfb9d8eb96195f117e9bfe68c0b149ec95"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Biblioteca_modele_documentate_ERP_RO_2026-10-06/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--f83734d7.html",
+    "bytes": 35512,
+    "sha256": "98e5faae041768f98a06e8926d0e304bd8538959caa3d7ab45c08094fb1f7366"
+  },
+  {
+    "source_reference": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys#setup",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/commit/bffc1359315c8e2d0297e9b15c2720e5381e741b",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/settings/keys/new",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie/Biblioteca_documente_ERP_RO",
+    "status": "referinta_externa_necopiata"
+  }
+]

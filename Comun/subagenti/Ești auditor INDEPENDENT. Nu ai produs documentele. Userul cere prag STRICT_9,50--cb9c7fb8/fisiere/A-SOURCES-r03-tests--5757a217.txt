@@ -1,0 +1,230 @@
+RES-001 / A-SOURCES / r03 — observații și teste proprii
+Auditor: 01a0d0ee-a56e-7140-b26d-e212cb9c7fb8. Data: 2026-09-24, Europe/Bucharest (+03:00).
+Acesta este un jurnal de rezultate efectiv executate și observații de lectură, nu un export de raționament intern sau un jurnal al producătorului.
+ROOT: D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000
+A = 02_DOCUMENTARE/APLICATII_WORKID_REALE.md; B = 02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md; R = 02_DOCUMENTARE/REPERE_SI_MECANISME.md.
+S = 02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js; C = 02_DOCUMENTARE/INTRARI_REFERINTA/CAT.md; K = 02_DOCUMENTARE/CANON_EXISTENT.md.
+
+[H01 — hashuri exacte]
+Calcul propriu SHA-256 la 2026-09-24T06:42:05.7790778+03:00: 85/85 egalități (contract RES, 3 produse, 79 probe, 2 contracte-dependență).
+Fiecare linie următoare este path | SHA-256 așteptat = calculat. Nu este o listă suplimentară de evidence_files.
+06_REGISTRU/CONTRACTE/RES-001-r03.json | 15462dd9ab698261300adb09be2caa7049a76710bcee27194e719c0de8ca10e8
+02_DOCUMENTARE/APLICATII_WORKID_REALE.md | d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1
+02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md | 355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490
+02_DOCUMENTARE/REPERE_SI_MECANISME.md | 6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01
+00_CONDUCERE/DECIZIE_EDITORIALA_001_SURSE.md | af8fa2d80f09318653a6f7450ed48851ceaedb51da6e7560bd2e96488bd2d523
+00_CONDUCERE/MANUAL_ATELIER.md | 2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2
+00_CONDUCERE/RUBRICI.md | 10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd
+00_CONDUCERE/policy.json | f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4
+02_DOCUMENTARE/CANON_EXISTENT.md | e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0
+02_DOCUMENTARE/INTRARI_REFERINTA/CAT.md | 43dc2f09fd1ab09cda944283364cc03ed1942085f17d89f3a5a5c9d9e17025fb
+02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt | 1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31
+02_DOCUMENTARE/INTRARI_REFERINTA/N.docx | c77846fdc094d5800735ab8bdc7a1a3f62248a313f5cf2ae6e757e8baef22039
+02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js | b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636
+02_DOCUMENTARE/INTRARI_REFERINTA/SUPLIMENT_r02.json | 674c647af05517635b04d2a384df21902d30956b5c4245e32d66726eccd65114
+02_DOCUMENTARE/INTRARI_REFERINTA/Z.zip | 22736278789db9e58e551013675e759ff68dff3a709d488e05e1b49cad98140c
+02_DOCUMENTARE/INTRARI_REFERINTA/index_origine.json | cc71a0c05c80ce0f8e7006baf29901c6ae17cd082bb2233fbfc90135c23c1b9f
+02_DOCUMENTARE/r03_staging/APLICATII_WORKID_REALE.md | 75a7b1f229c9995a32f153a897bfa0a33b166fc85b4f7fecc1c5c8f1ddab2d17
+02_DOCUMENTARE/r03_staging/REZULTAT_APLICATII_r03.md | 5858a5f6b3f12f8449db273c818c3d182beb398c7979b7bb2fc9b299e2a5810c
+05_AUDIT/CALIBRARE_A-QAMANAGER-r01.md | 070f9bbe7d971de2b57c6685f74488f4929bc04f21fd451c70fd6348bd0f7da1
+05_AUDIT/CALIBRARE_VERIFICARE-r02.md | 1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc
+05_AUDIT/RES-001/A-GOVERNANCE-r01.json | d2f27f8d63b751cfecbdf82dd9189b0504e8c8e48a6c1460002387c561f9f789
+05_AUDIT/RES-001/A-GOVERNANCE-r01.md | 241b7cb229c3eed2f26ca70cb16abe6d35756eb994ce6797700b1d77029cbddb
+05_AUDIT/RES-001/A-GOVERNANCE-r02.json | c6626f878fef2808375c37dc1691880c935c163df9a0dcc2a869fd6c719f0b4d
+05_AUDIT/RES-001/A-GOVERNANCE-r02.md | d640b3d6de4f956f1617a52b577c0451b64a000a0c1758e211cae16ab81c7ca3
+05_AUDIT/RES-001/A-QAMANAGER-r01.json | b94b83624df0ed045705b85fd3749bb9ba95997dfa9e6480e8e1b8130762edae
+05_AUDIT/RES-001/A-QAMANAGER-r01.md | ba9648e7bebc9fc30f89bd91763932fdcddb869e6a8205aeaf818bc98bf00e25
+05_AUDIT/RES-001/A-QAMANAGER-r02-tests.txt | baa027d0926bdfef9dbcf62cf1efabed2424788ad4b0f5716936d43ecd53aa2a
+05_AUDIT/RES-001/A-QAMANAGER-r02-v02.json | cd86e93b412fe70dbf4330f4759ae9f4083b89f1f175f948330532fe93673671
+05_AUDIT/RES-001/A-QAMANAGER-r02-v02.md | 1240abe7b4fdb4c73d342dacab1a811f7f758942962cca70620376f5552a7d90
+05_AUDIT/RES-001/A-QAMANAGER-r02.json | 6e9aacec99011645e61c48daa068f4b0743efd334ed3ce7d070d731043f5643e
+05_AUDIT/RES-001/A-QAMANAGER-r02.md | 43ca373b4c2f17daac439314b6f70efd76101e58cd7865dfa6cf834cc05a0a38
+05_AUDIT/RES-001/A-SOURCES-r01.json | 19484dc52b0aff45b3c5884eaa3c4a3b23cb7337ba0ebba119d798d3275288d3
+05_AUDIT/RES-001/A-SOURCES-r01.md | 31b9f074816f03459a663f34ab5740a47d10c2b4a4821c25e74a21c358ee1b8f
+05_AUDIT/RES-001/A-SOURCES-r02-tests.txt | 9b855faaca1b7db9a35d018a9d55e205cf1c7cc6643dfd792d76ffde458adf54
+05_AUDIT/RES-001/A-SOURCES-r02.json | cb8247f4984dfae73e3232a48f06dafe6cefc032c1dd5885034589945156f6eb
+05_AUDIT/RES-001/A-SOURCES-r02.md | d3f5200d2bd747e47c97facec4d532ef2f24721b8eb0a3148a4f5c6bba493e51
+06_REGISTRU/CALIBRARE/A-CANON-r02.json | c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659
+06_REGISTRU/CALIBRARE/A-GOVERNANCE-r02.json | 6f55451c9e3017afdd07beb53451caadc7f10bef396e77ff06b5b7a8db346227
+06_REGISTRU/CALIBRARE/A-QAMANAGER-r02.json | e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669
+06_REGISTRU/CALIBRARE/A-SOURCES-r02.json | f0e37622956255a8abb9981d73c888f5083703447eef57a9e62f22f122111abe
+06_REGISTRU/CALIBRARE/A-SYSTEMS-r02.json | 313ad647e90dc3f34ce81928ed9bfcd44d60cacdf52290887de0fd10ef3227e7
+06_REGISTRU/CALIBRARE/SET_TEST_r02.md | 968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba
+06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_PRIMARI_r02.json | 2a7ca3cc051b2ba4580d7fafcf9b77b9ae7e53795f34c4e8868d77a9a97bfb73
+06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_QA_r02.json | 48d021151cc3a5fc0907540b166b7752f88932b74e9bdc809dd90da5f356b84d
+06_REGISTRU/CONTEXT_R02/EXECUTII_at_freeze.md | c8eb49c713e13c841d6b0966212ddf23baf4ae807e207cc9b70c6eab9e599409
+06_REGISTRU/CONTEXT_R02/JURNAL_at_freeze.md | e28072b2ca74c4c61527bd488652adc890f488d2c6da11668bd0cb43364a201f
+06_REGISTRU/CONTEXT_R02/README.md | f762ee641602f4b358b13eb1afe46834421f40a14b9235198d9750341a58014b
+06_REGISTRU/CONTEXT_R02/STATUS_at_freeze.md | d77b04652dba304443cec3ca0526925359699b4447e550e3f7a842c871aca707
+06_REGISTRU/CONTEXT_R02/agents_at_freeze.json | 7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446
+06_REGISTRU/CONTEXT_R03/EXECUTII_at_freeze.md | 6d7f91e69ab7f3ee32047710f420e7bff31ceecf740e3558e242b2b78f18060d
+06_REGISTRU/CONTEXT_R03/JURNAL_at_freeze.md | 175261e1f695a5a45f38f4172b32d432b36f7f99a7db33ea7ab2479bb4b4bb8e
+06_REGISTRU/CONTEXT_R03/STATUS_at_freeze.md | 6959ce6552d187dc27369805c9b9e4ec06f5e5b52e2a32e720e82ebcb875ef29
+06_REGISTRU/CONTEXT_R03/agents_at_freeze.json | 7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446
+06_REGISTRU/CONTRACTE/RES-001-r02.json | 3b5ae9ea6120c2c8e6ee8fff5e7ceac32f992a1b4fbd8c1cd89273ec0328c0df
+06_REGISTRU/INTRARI_META_R02/README.md | e6b10576d3aa4dae82bddae77069e60b33e77a9a25adaf385276c8f7585425f0
+06_REGISTRU/INTRARI_META_R02/RES-001_r01-after-audit_index.json | 272fddac266fcdb77b90087c11f6e673ba12b9dc8992b34945e1fb340626f351
+06_REGISTRU/INTRARI_META_R02/RES-001_r01-after-audit_index.sha256 | 0e856f7eb4169d613295e3dc554950523ae5f669ce2764d6917a909c20734ca4
+06_REGISTRU/INTRARI_META_R02/RES-001_r02-before-audit_index.json | 588c124e472f5a14c7c1815ceefbcb8b20181b0cc14023225943ccb7f6138e4f
+06_REGISTRU/INTRARI_META_R02/RES-001_r02-before-audit_index.sha256 | b86630e50dd24cfe503881c77d4af29e1c193502a632dd3bac29232de2db21a6
+06_REGISTRU/INTRARI_META_R02/provenienta.json | 4852f5e49490606fa15c7ded40041a798236015b93b42df644e3e265cf6cd71e
+06_REGISTRU/ISTORIC/A-QAMANAGER-predare-r02-v02.json | 2e26c5cdfbd109b5960948721bc096ebecb06e56d04fe966d7391107d3f2b5f3
+06_REGISTRU/ISTORIC/INSTRUCTIUNI_BENEFICIAR.md | a9833e0c0204f1dbd4aa40e0562717d3bff9f0ccb03d80913bdbf7f0884c353f
+06_REGISTRU/ISTORIC/P-RESEARCH-predare-r03.json | 6720e48bf88e781b2b3226bc0538ea7319199b9f180d15cf96abae52abc0fab0
+06_REGISTRU/MASURI/A-GOVERNANCE-corectare-plan-r03.md | f9fcbc8c6e969a9e7b32cb94af6402dfd76be239bd7575f1f5dd9bea9de3c68d
+06_REGISTRU/MASURI/INTEGRARE_r03.md | 95276aecc472acd9e6a07ef4bdb4415fbc935e875b8dbdd093ec280c120bbad8
+06_REGISTRU/MASURI/OBS-MANAGER-002-rezultate-r02-v02.md | 0e2aff60d35ff6cf3c3f068bdeede3c792e9f0990879ecd7939318bf5f7f22cc
+06_REGISTRU/MASURI/OBS-MANAGER-002.json | 294879fe18d31e82c8702bc8330a57652de02d7dcec13fe55cd84156ba5240fb
+06_REGISTRU/MASURI/RES-001-completare-test-plan-r02.md | bfe4fed1f57e2511c7257434d855b4f1770657e97ae88702b9b5d11f93f65800
+06_REGISTRU/MASURI/RES-001-plan-r01.md | 9fc4922b7e8f58017f0d85f5843d23c6c8251639279be61bc521b4e877153146
+06_REGISTRU/MASURI/RES-001-rezultate-r02.md | 8f48ead0e6679e0e93d1909d787caa48c1833999b2f822bd7ea91cd46888566f
+06_REGISTRU/PROMPTURI/A-CANON-reaudit-r03.md | 021d5469b702f2bc394f6dd132fff0c1d64a99ef2251c3ca286b6e6d6e87faba
+06_REGISTRU/PROMPTURI/A-GOVERNANCE-reaudit-r03.md | b81d11ed06361bd62b2f7498aa8dc45be1e97e93b94d0c18a98411da91fee672
+06_REGISTRU/PROMPTURI/A-SOURCES-reaudit-r03.md | db2046b718b3f8b87e95b1f98e0c5dbaee9a55ccaa42847855c3fb28e834a4a1
+06_REGISTRU/PROMPTURI/A-SYSTEMS-reaudit-r03.md | 97507c8dd969771972a60a038321c449fd904b48285decd8da25dd01a4f28b27
+06_REGISTRU/PROMPTURI/P-RESEARCH-remediere-r03.md | 02fdee079611ed0d646880cf64107a286d57c3b3d32c4dda1f58f0ce17b0bd04
+06_REGISTRU/REZULTATE/RECUPERARE_REAL_AFTER_r02-v02.json | c71b79dc46c01a2bf4d423730ce9bc86fe184241d9285cea0d5fe06612aef039
+06_REGISTRU/REZULTATE/RES-001-r02-after-audit-v02-archive.json | ee7f9d01aaf112d71e44ee3b707adae0148a7c738b92c5db99b69eeeeb3d01c6
+06_REGISTRU/REZULTATE/RES-001-r02-after-audit-v02.json | abf3b8b624f2aaa8c4e53c2cb3a73d430640aea1677501366d17a02782d907f5
+06_REGISTRU/REZULTATE/RES-001-r02-primary-complete-archive.json | fc14c296811747ff1009b950a384029c562c3401468cee62d4ac4641021406f1
+06_REGISTRU/REZULTATE/RES-001-r02-primary-complete.json | 73d60d8d2f7744850af70692a0ce4df78955dec04d0b998db7b2666e7a0da7a7
+06_REGISTRU/roadmap.json | 1f3162459556d67f2b474ba19e5239e06c6305d3fe1cb3e8037c8f901ec69e8f
+06_REGISTRU/roles.json | ef31d39f3e02984c83d4e9380d5ecfa70ff9435e9334e9084b7dc3701761db6f
+06_REGISTRU/rubrics.json | 90140106093ee9a5f23e824853a8565db8bec45c7c0028436af088bc1329446f
+06_REGISTRU/CONTRACTE/SYS-001-r03.json | 2a87f9d159a99fb048a4262f5b4ae34b8fe129668d5e67690e790ace6e99d09c
+06_REGISTRU/CONTRACTE/SEL-001-r03.json | 85ec85d5f34b57a49f0d0430e50caf030a094af11eba902c98692da3c565fd28
+
+[H02 — versiune, independență, arhive]
+2026-09-24T06:48:54.521675+03:00: Gatekeeper.load + verify_contract('RES-001') + verify_unchanged efectuate read-only.
+Proiecțiile contractuale RES/SEL/SYS r03 și toate intrările lor: conforme; 360 fișiere distincte citite/hashuite de validator, nicio schimbare în cursul verificării.
+UUID efectiv al sesiunii verificat; rol activ A-SOURCES, absent din producători. Dovezi stabile: 06_REGISTRU/CONTEXT_R03/agents_at_freeze.json:L4-L19,L47-L50; EXECUTII_at_freeze.md:L7-L17. Registrele live au fost controlate pentru autorizare, nu declarate dovezi cu hash.
+Calificarea existentă: 05_AUDIT/CALIBRARE_VERIFICARE-r02.md:L70-L90, nominal 11/11. Nu am refăcut exercițiul, nici atribuit calificare r01.
+Arhiva RES r03-before-audit: creată 2026-09-24T03:38:58.078665+00:00; SHA-256 index 156ee1ed3d41f402d205425c9da7de9e102480798e7766a4e38b1e79ad97390d, egal cu sidecar-ul.
+365/365 intrări: căi rezolvate în directorul arhivei, fișiere existente, dimensiuni și SHA-256 exacte; 82/82 intrări RES coincid cu contractul.
+Cele patru copii plate RES din 06_REGISTRU/INTRARI_META_R02 au fost comparate byte-cu-byte cu originalele și cu provenienta.json; toate identice.
+2026-09-24T06:53:11+03:00: toate cele 186 de intrări r01-after-audit comparate cu indexul plat contractual: dimensiuni/hashuri conforme. R01 RETURN, produsele, constatările și planul sunt păstrate; nu au fost rescrise.
+Acestea sunt observații proprii asupra arhivelor, consemnate în prezentul supliment. Nicio cale 08_ARHIVA nu va fi declarată ca probă/supliment în JSON.
+Nu am efectuat restaurare la rece și nu revendic testul de recuperare al coordonatorului. Nu am citit RECUPERARE_REAL_BEFORE_r03.json.
+Acest control nu reprezintă verdict editorial asupra SYS/SEL ori un metaaudit.
+
+[D01 — delta]
+2026-09-24T06:49:43.662543+03:00: comparație în memorie a A cu copia sa din staging: numai L3 (statut/integrare) și L108 (predare după conservare r02) diferă.
+B și R sunt byte-identice cu cele două referințe ale contractului RES r02; noul produs este A. Dependențe: SYS r02 în trecut; SYS r03 și SEL r03 acum.
+2026-09-24T06:51:37.240077+03:00: comparație directă cu produsele r01, verificate contra indexului plat:
+- BM-005, coloana 6: „Transmitere permisă de canon.” -> canonul seriei/WorkID-ului vizat.
+- BM-010, coloana 6: „Pericol proporțional cu tonul seriei.” -> compatibil cu tonul și rama seriei/WorkID-ului vizat.
+- Celelalte 124/126 celule BM sunt identice; cele șase blocuri de sursă din R și toate cele nouă linii C/S/P sunt identice.
+- Mulțimi URL externe neschimbate r01/r03: B 15, R 7.
+Produsele r01 nu au fost recitite integral în r03; comparația de mai sus și conservarea lor sunt verificări noi, nu note istorice transformate în reevaluare.
+
+[T01 — propagări, lectură integrală repetată]
+Am recitit integral A:L1-L108, B:L1-L190, R:L1-L204, inclusiv propoziții fără termeni-cheie. Căutarea contextuală lume/univers/serii/canon/ramă/WorkID/50.000/bestseller/garanții a completat lectura, nu a înlocuit-o.
+O01 B:L12 — fondul uman comun nu este univers ficțional obligatoriu.
+O02 B:L12 — legătura cere probă/decizie; lipsa ei permite selecția.
+O03 B:L14 — POV/ordine/voce/ritm comparabile fără conexiune între lumi.
+O04 B:L4 — nu declară compatibilitate aprobată.
+O05 B:L30-L149 — condiții locale, inclusiv BM-005:L70 și BM-010:L97; nu cer un canon interserii.
+O06 B:L157 — identificați separat seria/WorkID/rama; lipsurile rămân declarate.
+O07 B:L158-L161 — două opere distincte, construcție proprie și prag EN separat.
+O08 B:L160 — diferența de prezentare nu autorizează schimbarea canonului.
+O09 B:L163 — trei perechi de ID-uri, nu un proiect sau o lume comună.
+O10 B:L167-L182 — fișa separă rama, transformarea, canonul și relațiile opționale.
+O11 B:L184 — examinare ulterioară per WorkID, fără validare colectivă.
+O12 B:L188-L190 — extinderea mediilor rămâne deschisă, istoricul nu închide defectul.
+O13 R:L5,L13-L15,L103 — direcții exploratorii, nu fapte canonice AMORIS/NOIR.
+O14 R:L107-L111 — combinarea nu dovedește originalitate; continuitate numai locală.
+O15 R:L113-L151 — C1-C4 cer potrivire locală, nu aceleași personaje, locuri sau calendar.
+O16 R:L153-L170 — dezvoltare EN distinctă și continuări condiționate de proiect.
+O17 R:L174-L198 — 15 axe fără scoruri și comparație admisă între lumi independente.
+O18 R:L200-L204 — audit ulterior cu probe, fără aprobare implicită.
+Noua propagare A:L10-L16,L32,L48,L64,L80,L106-L108: ID-uri reale, fără relații interserii invocate, fără „closed” acordat de producător.
+Rezultat T01: îndeplinit; nu am identificat o obligație reziduală de lume comună.
+
+[T02b — surse locale și aplicare efectivă pe patru proiecte]
+S:L13-L103, întregul segment BOOKS, și S:L105-L145 au fost citite; restul codului SITE_APP nu a fost executat sau auditat. C:L1-L100 citit integral.
+În segmentul BOOKS, fiecare ID apare o singură dată; valorile shelf/saga au fost confruntate mecanic și semantic cu A:
+marienburg | noir | noirvol | S:L20-L24,L105,L140; C:L14,L71,L99
+sunrise | aurora | cycle | S:L52-L56,L107,L131,L137,L141; C:L24,L74
+crown | mythica | crowns | S:L98-L102,L108,L133,L144; C:L48,L87
+hotelul | amoris | isabella | S:L41-L45,L106,L143; C:L42,L86
+2026-09-24T06:51:37+03:00: proveniența celor cinci copii S/C/Z/N/HBT verificată prin SHA-256 și bytes contra index_origine.json și SUPLIMENT_r02.json; 5/5 conforme. Cele nouă referințe E01-E09 din A au hash corect și apar în propriul contract RES.
+HBT.txt citit integral, 189 linii: L1-L3 identifică revision log v1.1, nu master; L111-L120 propune Lisabona, fără a o certifica drept continuare; promisiunile vechi de scor/publicare nu sunt adoptate.
+Z.zip citit în memorie, fără extragere pe disc: membrul series-bible/01-core-premise.md, toate cele 166 de linii; SHA-256 32bf3e4e6c5094259461968fa2cbf1d3236517f789b03021cb089da2831b4e61.
+Membrul Z:L40-L47 oferă mize politice/personale, L76-L89 ton și perspective; L49-L50 planul de zece volume nu reconciliază masterul. Afirmațiile prospective de succes de la L131-L162 nu sunt probe comerciale și nu au fost preluate ca atare în A.
+N.docx: word/document.xml, //w:body//w:p, concatenarea .//w:t, paragrafe nevide. Număr indexat 3792; lectură efectivă numai P1-P5. P1/P2 identifică titlul și saga; P3 conține „Author: Cesiro Horeca”, diferit de Armin Vale din S:L99/C:L48.
+K citit selectiv: L1-L7,L75-L91,L103-L107,L171-L187,L217-L277. Referințele la mastere sunt atribuite raportului K, nu unor lecturi integrale noi ale mele.
+
+marienburg — A:L18-L32
+BM-011/R6 (Chinatown, acțiune) + BM-008/R4 (The Maid, prezentare). Am urmărit trecerea problemă restrânsă -> obstacol de autoritate -> consecință și observație -> ipoteze -> verificare, în rama istorică din S:L22-L24.
+Alegerea comunicării/amânării unei constatări, responsabilitatea și limitele accesului sunt explicit exploratorii; nu sunt convertite în investigator/vinovat/instituție inventate.
+Selecția nu cere importul anchetei contemporane ori al protagonistei-sursă. Excluderi A:L30: Gittes/Mulwray/Cross/final, Molly/Regency Grand/profil distinctiv.
+Autorul personal NOIR rămâne neidentificat: eticheta „Dracula Noir · Vol. II” din S:L21 nu este autor. A:L32 cere intrările G01, nu presupune relații externe; min50k EN păstrat. Rezultat: aplicabil exploratoriu.
+
+sunrise — A:L34-L48
+BM-009/R5 (The Obsession, acțiune) + BM-016/R8 (Edith Finch, prezentare). Am confruntat angajament -> cooperare cu ritmul/vocea segmentelor și informația nouă, în rama prietenie/primă iubire din S:L54-L56.
+A:L42 nu fixează cine promite sau incidentul; A:L44 limitează cunoașterea și cere diferență informațională, nu repetare ornamentală.
+A:L46 exclude Naomi/Xander/casa/fotografia/traseul violent și episoadele/morțile/comenzile Finch; nu transformă colecția în romantic suspense sau joc.
+15–25 din S:L131 este public de catalog, nu vârsta personajelor. A:L48 lasă canonul necunoscut, fără legături interserii; min50k EN. Rezultat: aplicabil exploratoriu.
+
+crown — A:L50-L64
+BM-014/R7 (Hamilton, acțiune) + BM-018/R9 (Maus, prezentare). Am verificat alegere de conducere -> obiecție cu cost -> consecință, apoi contrast afirmație prezentă/alegere anterioară, față de mizele din membrul Z:L40-L47.
+Nu se inventează consilii, legi, conducători sau revenirea unui antagonist; vocile sunt diferențiate prin poziție, nu prin imitarea versurilor ori a planșelor.
+A:L62 exclude Cabinet Battles/versuri/melodii și Art/Vladek/mărturii/iconografie; A:L60 refuză echivalarea fantasy/Holocaust.
+Atribuirile Armin Vale/Cesiro Horeca și contradicțiile bible/master rămân deschise pentru G01, conform A:L52,L64 și K:L233-L244. Nu sunt declarate remediate. Fără lume comună; min50k EN. Rezultat: aplicabil exploratoriu.
+
+hotelul — A:L66-L80
+BM-002/R1 (Guernsey, acțiune) + BM-003/R2 (Last Letter, prezentare). Am urmărit relatări parțiale -> încredere/verificare/transmitere și informație scrisă -> context ulterior, față de rama Isabella/Paris/scrisoare din S:L43-L45.
+A:L74 păstrează necunoscuți expeditorul/conținutul; A:L76 diferențiază accesul vocilor și ritmul, fără a fixa anii sau o cronologie interserii.
+A:L78 exclude clubul/distribuția/Lamb și amnezia/accidentul/arhiva/scrisoarea B/configurația temporală-sursă.
+H-C9 Boucher/Dubois și celelalte conflicte din K:L175-L187 nu sunt închise; nici saga Alex, nici The Magenta Letters nu primesc conexiune/WorkID prin deducție. A:L80 păstrează min50k EN. Rezultat: aplicabil exploratoriu.
+
+Rezultat T02b: 4/4 aplicații reale, fiecare două opere distincte și roluri de acțiune/prezentare; nu doar etichete în exemple sintetice. S-a verificat identificarea/cadrul minim, nu s-a aprobat canonul G01.
+GOV-RES-01: testul procedural original pe cel puțin două colecții independente este îndeplinit și pe cele patru cazuri reale; închiderea sa r02 nu este confundată cu lipsa T02b pentru F-RES-SOURCES-001.
+
+[T03 — regresie individuală și limite]
+2026-09-24T06:49:43.662543+03:00: BM-001–BM-018 unice, nouă opere, șapte celule negoale pe fiecare rând; fiecare câmp a fost și recitit semantic.
+BM-001 B:L44 — decizie înaintea răspunsului / mesaje datate; întârziere justificată, fără Lamb.
+BM-002 B:L45 — încredere modificată de relatări / voci cu informație distinctă; fără club/distribuție.
+BM-003 B:L57 — informație veche schimbă opțiunea / context după document; fără amnezie/accident.
+BM-004 B:L58 — dorința afectează proba / observație separat de presupunere; fără jurnalista/arhiva-sursă.
+BM-005 B:L70 — moștenire cere decizie / responsabilitate graduală; canon local, fără grădină/basme.
+BM-006 B:L71 — generații verifică diferit / acces diferențiat; fără genealogie/vapor.
+BM-007 B:L83 — acces prin muncă / focalizare profesională; meserie documentată, fără Molly/Regency.
+BM-008 B:L84 — ipoteze sociale divergente / observația prima; fără profilul distinctiv copiat.
+BM-009 B:L96 — angajament permite cooperarea / gest reluat ca probă; fără Naomi/Xander/scenografie.
+BM-010 B:L97 — perturbare schimbă planul / alternanță rutină-pericol; ton local, fără tatăl criminal.
+BM-011 B:L109 — problemă locală expune dependență / dezvăluire graduală; fără Gittes/cazul distinctiv.
+BM-012 B:L110 — adevăr fără autoritate / decalaj până la consecință; fără finalul Chinatown.
+BM-013 B:L122 — motivul schimbă sensul / alt POV; fără nuntă/triunghi Schuyler.
+BM-014 B:L123 — propunere/contrapropunere / voci și ritm; fără Cabinet Battles/versuri/melodii.
+BM-015 B:L135 — explorare permite informație / ordinea spațiilor; alegeri/costuri proprii, fără casa Finch.
+BM-016 B:L136 — experiență modifică lectura / ritm și voce episodice; fără morți/episoade/comenzi.
+BM-017 B:L148 — relația condiționează mărturia / poveste și actul povestirii; fără Art/Vladek/dialoguri reale.
+BM-018 B:L149 — trecutul schimbă lectura prezentului / juxtapunere; fără iconografie sau echivalare istorică.
+C1 R:L113-L121=R1+R4; C2:L123-L131=R2+R3; C3:L133-L141=R4+R5; C4:L143-L151=R3+R6. 4/4 perechi distincte.
+B:L163: BM-007+BM-013=R4+R7; BM-005+BM-016=R3+R8; BM-011+BM-017=R6+R9. 3/3 distincte.
+2026-09-24T06:52:49.731659+03:00: numărare auxiliară pe corp, fără titlu, link redus la etichetă, token delimitat de spații conținând cel puțin un caracter de cuvânt; separatoarele Markdown nu sunt cuvinte.
+B R1–R9: 106, 114, 113, 109, 110, 112, 119, 112, 119; R R1–R6: 84, 90, 96, 94, 90, 86. Toate corpurile <150; nu este numărătoare de proză EN sau un verdict juridic asupra întregului pachet.
+Grila R:L184-L198: 15 axe, ambele coloane de audit necompletate. Buget R:L161-L166: 8000+14000+16000+14000+8000=60000; intervalele C1-C4 rămân peste 50k.
+B:L161 exclude documentare/anexe și traduceri din min50k EN. B:L10,L188 admite orice mediu narativ relevant, fără succes garantat.
+A nu reproduce scene sau text expresiv al operelor; se limitează la selecții, operații și excluderi. Nu s-a făcut test de similitudine pentru o intrigă inexistentă.
+
+[W01 — statutul surselor externe]
+Zero accesări web noi în r03. B/R neschimbate; am recitit descrierile, atribuirile și indicatorii și le-am confruntat cu observațiile istorice fixate din 05_AUDIT/RES-001/A-SOURCES-r02.md:L23-L36.
+R1 Shaffer/Barrows, PRH: #1 NYT/adaptare/corespondență; fără cifră de vânzări. R2 Moyes: etichetă Best Seller a titlului distinctă de rangul autoarei; RNA 2011 atribuit Hodder.
+R3 Morton: bestseller relatat de autoare, nu contabilitate. R4 The Maid: peste două milioane ale titlului, afirmație PRH neauditată. R5 Roberts: Best Seller fără rang numeric al titlului.
+R6 Polanski/Towne: Oscar de scenariu, nu profit. R7 Miranda: 11 Tony, nu 16 victorii; peste 28 milioane spectatori relatate de prezentator, nu venituri.
+R8 Giant Sparrow: BAFTA Best Game, nu Narrative. URL-ul BAFTA plain-text a fost 403 în r02; PDF-ul oficial alternativ citit atunci este identificat în raportul r02. Nu pretind acces actual.
+R9 Spiegelman: Pulitzer 1992 Special Citations and Awards, nu Fiction; relația mărturie/povestire este atribuită descrierilor/ghidului editurii.
+B:L20-L26 separă C/S/P și abstracția editorială de descrierea literală a operei. Nu există o nouă afirmație externă instabilă adoptată de A care să necesite o cercetare nouă.
+R01 rămâne documentare istorică; r02 conține accesările proprii anterioare, nu accesări noi ale producătorului în revizie.
+
+[T04 — închidere și întindere]
+Condițiile originale: 05_AUDIT/RES-001/A-SOURCES-r01.md:L216-L221 și 06_REGISTRU/MASURI/RES-001-plan-r01.md:L114-L121.
+T01 integral + T02b real 4/4 + T03 regresie + H01/H02/D01 pentru T04: îndeplinite pe r03. F-RES-SOURCES-001 poate fi closed în noul audit, fără modificarea r01/r02.
+05_AUDIT/RES-001/A-QAMANAGER-r02-v02.md:L53-L74,L103-L112: citit integral, 128 linii. Respinge închiderea prematură a F-RES-SOURCES-001 de către A-GOVERNANCE; acceptă distincția față de GOV-RES-01 procedural.
+META-RES-001-r02-F01 aparține metaauditului/raportului A-GOVERNANCE; nu îl închid și nu rescriu cazul istoric. Noua verificare QA rămâne necesară.
+Planurile r03 și rezultatul producătorului au fost citite ca declarații/mandat, nu ca teste proprii. Verificările proprii de mai sus fundamentează verdictul individual.
+Nu am recitit webul, operele-reper integral, masterele narative integral, manualul complet ori toate rapoartele istorice. Nu am evaluat SYS/SEL editorial. Hash verificat nu înseamnă lectură integrală.
+Nu am creat scenarii, canon, alți agenți, fișiere extrase, teste adverse sau modificări în datele beneficiarului.
+Note tehnice: o încercare auxiliară a avut eroare de sintaxă înainte de execuție; relansarea corectată este cea de la 06:51:37. Numărătoarea inițială includea separatoare Markdown; nu a fost folosită ca probă, metoda lexicală explicită de la 06:52:49 a fost executată cu succes. Niciuna nu este defect al produsului.

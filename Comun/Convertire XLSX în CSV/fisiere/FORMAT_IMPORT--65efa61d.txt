@@ -1,0 +1,22 @@
+SCHEMA PORTABILĂ EVA LEARN v1
+entries: id, source_lang, target_lang, word, text, kind, pos, ipa, romanization, examples_json, tags_json, extra_json, source_id, source_record, source_uri, target_uri.
+word = termen în limba sursă; text = traducere/definiție în target_lang.
+kind: translation / definition / entry_without_definition; ultima categorie nu este explicație pentru lecții.
+examples_json, tags_json, extra_json: șiruri JSON, parsează fără execuție.
+JOIN entries.source_id = sources.id pentru proveniență și licență.
+ID-urile sunt locale DB. Păstrează fișierul DB în cheile globale.
+Unicode NFC; păstrează formele originale. Nu adăugăm transliterări/traduceri automate.
+direction_kind inverted_columns_not_editorial = inversarea unei liste, nu dicționar editorial separat.
+Atribuire Wiktionary: păstrează proiectele și pagina cuvântului din ediția engleză.
+Cititorul implicit exclude Drepturi_neconfirmate; allowUnconfirmedRights permite aceste date numai după verificarea drepturilor.
+Node.js 24+:
+node EvaLexicon.cjs lookup ro en apă
+API JS: const {EvaLexicon}=require('./EvaLexicon.cjs'); const db=new EvaLexicon(rădăcină); db.lookup('ro','en','apă'); db.close();
+TTS Windows:
+node EvaSpeech.cjs tts ro "Bună ziua" voce.wav
+STT Windows, WAV 16-bit PCM recomandat:
+node EvaSpeech.cjs stt ro voce.wav rezultat
+Cod generic pentru dialect: --allow-generic.
+Piper după verificarea MODEL_CARD: --piper --allow-voice-license-review.
+MMS nu este activat de cititor. Documentație: https://github.com/facebookresearch/fairseq/tree/main/examples/mms ; https://huggingface.co/facebook/mms-1b-all ; https://huggingface.co/docs/transformers/model_doc/vits
+Schema este independentă de schema concretă EVA Learn; codul aplicației nu este modificat.

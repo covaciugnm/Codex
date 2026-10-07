@@ -1,0 +1,34 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\06-architect.png",
+    "status": "copiat",
+    "saved_path": "fisiere/06-architect--84059c58.png",
+    "bytes": 2153179,
+    "sha256": "b6b75559e32be88e63ca7d5d1abdd364b842f743b64b955ac26e6a4344d1ff14"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\07-mario-walls.png",
+    "status": "copiat",
+    "saved_path": "fisiere/07-mario-walls--e8f3f0d4.png",
+    "bytes": 2101010,
+    "sha256": "4bca6e4cf1d0b73d53450a2284aa8dd51d73b8135abc87147eb4d217748f63e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\08-design-couple.png",
+    "status": "copiat",
+    "saved_path": "fisiere/08-design-couple--8c32e7f1.png",
+    "bytes": 2329679,
+    "sha256": "f4a25c252c90db3773dffcc434d134645f408956169b9c178846619374c5651f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\09-repair-foreman.png",
+    "status": "copiat",
+    "saved_path": "fisiere/09-repair-foreman--186d61e0.png",
+    "bytes": 2338230,
+    "sha256": "d5d1b783779ca770dd4b3669546c0a675edd0091350bcee12cc009aa00aaaa23"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/realitykit/realitykit-object-capture",
+    "status": "referinta_externa_necopiata"
+  }
+]

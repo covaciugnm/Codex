@@ -1,0 +1,10 @@
+{
+  "agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "role": "A-QAMANAGER",
+  "close_result": {
+    "previous_status": {
+      "completed": "A-GENRE, A-ORIGINALITY, A-STRUCTURE și A-EN: CALIFICAT, fiecare 11/11. Total 44/44; fără măsuri corective.\n\nRapoarte finale verificate:\n\n- [VERIFICARE_r01.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.md>)\n- [VERIFICARE_r01.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.json>)\n\nContextul este fixat pe fotografia registrului și proveniență; autorizările actuale sunt confirmate. Lotul B nu a fost evaluat. Nicio acceptare G01/G02 sau calificare retroactivă.\n\nScrierile sunt oprite. Arhivarea revine managerului."
+    }
+  },
+  "recorded_at": "2026-09-24 05:33:27 UTC"
+}

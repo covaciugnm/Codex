@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-24T11:16:19.1043072+03:00",
+  "file": "06_REGISTRU/MASURI/ROM-001-G01-F01-plan-producator-r01.md",
+  "sha256": "e0b79aab67ff715fbc68dbdabd3119c973280bdf042a774dcdae1fe6376b3a5c",
+  "handoff_hash_matched": true,
+  "read_completely": true,
+  "printed_input_hashes_checked": 9,
+  "all_match": true,
+  "limits": "Manager checked all nine printed source rows in the plan, not independently repeated all sixteen producer checks. Preparation only; no r03 exists and F01 remains open."
+}

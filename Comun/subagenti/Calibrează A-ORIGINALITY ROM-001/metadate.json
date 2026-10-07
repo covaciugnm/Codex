@@ -1,0 +1,23 @@
+{
+  "id": "01a0d1d0-690e-7871-b245-6817b004172f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790226491,
+  "updated_at": 1790226673,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Halley\",\"agent_role\":null}}}",
+  "title": "Calibrează A-ORIGINALITY ROM-001",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 402214,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 16,
+  "message_count": 4,
+  "content_sha256": "473890c5ad07c222c77ba41d44bef68114ecdbfc70043d734239f1a885902d9a",
+  "files_copied": 2,
+  "references_not_copied": 0
+}

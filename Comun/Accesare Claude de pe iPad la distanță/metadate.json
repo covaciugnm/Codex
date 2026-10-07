@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9d9d-7471-a428-330c4cf7058f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1783396776,
+  "updated_at": 1783396882,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Accesare Claude de pe iPad la distanță",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 33705,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 6,
+  "message_count": 6,
+  "content_sha256": "d5e21e0b31000d5b02f67e6c9b9b8d9a02627d6b15137bd13cdf587eea8b882f",
+  "files_copied": 0,
+  "references_not_copied": 1
+}

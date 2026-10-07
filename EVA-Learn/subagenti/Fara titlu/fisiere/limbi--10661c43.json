@@ -1,0 +1,288 @@
+[
+  {
+    "code": "ro",
+    "name": "Romana",
+    "codes": [
+      "ro"
+    ],
+    "folder": "01_Romana"
+  },
+  {
+    "code": "en",
+    "name": "Engleza",
+    "codes": [
+      "en"
+    ],
+    "folder": "02_Engleza"
+  },
+  {
+    "code": "de",
+    "name": "Germana",
+    "codes": [
+      "de"
+    ],
+    "folder": "03_Germana"
+  },
+  {
+    "code": "fr",
+    "name": "Franceza",
+    "codes": [
+      "fr"
+    ],
+    "folder": "04_Franceza"
+  },
+  {
+    "code": "es",
+    "name": "Spaniola",
+    "codes": [
+      "es"
+    ],
+    "folder": "05_Spaniola"
+  },
+  {
+    "code": "bn",
+    "name": "Bengali",
+    "codes": [
+      "bn"
+    ],
+    "folder": "06_Bengali"
+  },
+  {
+    "code": "ur",
+    "name": "Urdu",
+    "codes": [
+      "ur"
+    ],
+    "folder": "07_Urdu"
+  },
+  {
+    "code": "yue",
+    "name": "Cantoneza",
+    "codes": [
+      "yue"
+    ],
+    "folder": "08_Cantoneza"
+  },
+  {
+    "code": "ha",
+    "name": "Hausa",
+    "codes": [
+      "ha"
+    ],
+    "folder": "09_Hausa"
+  },
+  {
+    "code": "mr",
+    "name": "Marathi",
+    "codes": [
+      "mr"
+    ],
+    "folder": "10_Marathi"
+  },
+  {
+    "code": "te",
+    "name": "Telugu",
+    "codes": [
+      "te"
+    ],
+    "folder": "11_Telugu"
+  },
+  {
+    "code": "wuu",
+    "name": "Wu_Shanghai",
+    "codes": [
+      "wuu"
+    ],
+    "folder": "12_Wu_Shanghai"
+  },
+  {
+    "code": "ta",
+    "name": "Tamil",
+    "codes": [
+      "ta"
+    ],
+    "folder": "13_Tamil"
+  },
+  {
+    "code": "fa",
+    "name": "Persana",
+    "codes": [
+      "fa"
+    ],
+    "folder": "14_Persana"
+  },
+  {
+    "code": "arab_dialect",
+    "name": "Araba_dialectala",
+    "codes": [
+      "arz",
+      "ary"
+    ],
+    "folder": "15_Araba_dialectala"
+  },
+  {
+    "code": "vi",
+    "name": "Vietnameza",
+    "codes": [
+      "vi"
+    ],
+    "folder": "16_Vietnameza"
+  },
+  {
+    "code": "kn",
+    "name": "Kannada",
+    "codes": [
+      "kn"
+    ],
+    "folder": "17_Kannada"
+  },
+  {
+    "code": "gu",
+    "name": "Gujarati",
+    "codes": [
+      "gu"
+    ],
+    "folder": "18_Gujarati"
+  },
+  {
+    "code": "am",
+    "name": "Amharica",
+    "codes": [
+      "am"
+    ],
+    "folder": "19_Amharica"
+  },
+  {
+    "code": "my",
+    "name": "Birmana",
+    "codes": [
+      "my"
+    ],
+    "folder": "20_Birmana"
+  },
+  {
+    "code": "berber",
+    "name": "Berbera_Tamazight",
+    "codes": [
+      "tzm",
+      "rif",
+      "shi",
+      "kab"
+    ],
+    "folder": "21_Berbera_Tamazight"
+  },
+  {
+    "code": "ml",
+    "name": "Malayalam",
+    "codes": [
+      "ml"
+    ],
+    "folder": "22_Malayalam"
+  },
+  {
+    "code": "or",
+    "name": "Odia",
+    "codes": [
+      "or"
+    ],
+    "folder": "23_Odia"
+  },
+  {
+    "code": "apd",
+    "name": "Araba_sudaneza",
+    "codes": [
+      "apd"
+    ],
+    "folder": "24_Araba_sudaneza"
+  },
+  {
+    "code": "pnb",
+    "name": "Punjabi_Shahmukhi",
+    "codes": [
+      "pnb"
+    ],
+    "folder": "25_Punjabi_Shahmukhi"
+  },
+  {
+    "code": "uz",
+    "name": "Uzbeka",
+    "codes": [
+      "uz"
+    ],
+    "folder": "26_Uzbeka"
+  },
+  {
+    "code": "ig",
+    "name": "Igbo",
+    "codes": [
+      "ig"
+    ],
+    "folder": "27_Igbo"
+  },
+  {
+    "code": "yo",
+    "name": "Yoruba",
+    "codes": [
+      "yo"
+    ],
+    "folder": "28_Yoruba"
+  },
+  {
+    "code": "th",
+    "name": "Thailandeza",
+    "codes": [
+      "th"
+    ],
+    "folder": "29_Thailandeza"
+  },
+  {
+    "code": "ne",
+    "name": "Nepaleza",
+    "codes": [
+      "ne"
+    ],
+    "folder": "30_Nepaleza"
+  },
+  {
+    "code": "nan",
+    "name": "Taiwaneza_Hokkien",
+    "codes": [
+      "nan"
+    ],
+    "folder": "31_Taiwaneza_Hokkien"
+  },
+  {
+    "code": "kk",
+    "name": "Kazaha",
+    "codes": [
+      "kk"
+    ],
+    "folder": "32_Kazaha"
+  },
+  {
+    "code": "si",
+    "name": "Sinhaleza",
+    "codes": [
+      "si"
+    ],
+    "folder": "33_Sinhaleza"
+  },
+  {
+    "code": "km",
+    "name": "Khmera",
+    "codes": [
+      "km"
+    ],
+    "folder": "34_Khmera"
+  },
+  {
+    "code": "az",
+    "name": "Azera",
+    "codes": [
+      "az",
+      "azb",
+      "azj"
+    ],
+    "folder": "35_Azera"
+  }
+]

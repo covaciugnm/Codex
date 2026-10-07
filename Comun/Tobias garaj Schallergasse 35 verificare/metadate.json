@@ -1,0 +1,23 @@
+{
+  "id": "01a0cd29-4074-7fc0-9870-51a30463fbb2",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790075574,
+  "updated_at": 1790084212,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Tobias garaj Schallergasse 35 verificare",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 502807,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 192,
+  "message_count": 192,
+  "content_sha256": "19e2f24dca4967408d797188f71c387bbb993450dad231dc75d053a0a2ee5027",
+  "files_copied": 6,
+  "references_not_copied": 22
+}

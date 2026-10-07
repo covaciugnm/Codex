@@ -1,0 +1,9 @@
+{
+  "capture": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\ISTORIC\\EXPORT_OBSERVABIL\\ROM001-G01-accepted-r02",
+  "sources": 17,
+  "records": 4109,
+  "messages": 626,
+  "index_sha256": "f3d1fa357827294288923bd6aa92b843170e088490eef47c5e1464eab42e0daa",
+  "source_logs_modified": false,
+  "scope_note": "Numărul efectiv este sources; literalul nine din index este metadată hardcodată greșită, păstrată. Nu include propriile recipise sau evenimente viitoare."
+}

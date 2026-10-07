@@ -1,0 +1,23 @@
+{
+  "id": "019f5ace-74f0-7b00-8451-33c7baee9e74",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF",
+  "created_at": 1783934907,
+  "updated_at": 1783951951,
+  "archived": 0,
+  "source": "cli",
+  "title": "analizeaza toate fisierele din folderul \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\\" si acolo avem inceput de scris cerere de finantare in folderul \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\" - analizeaza proiectul in starea actuala evalueaza ce exista si ce mai trebuie si ce exista care sunt problemele rezultate in urma evaluarii",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1802000,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 49,
+  "message_count": 40,
+  "content_sha256": "3bd8c8ae9a0e9c42e39b46a0e7458ae9fdd285a3f25b127b219ca755a38f73cb",
+  "files_copied": 2,
+  "references_not_copied": 14
+}

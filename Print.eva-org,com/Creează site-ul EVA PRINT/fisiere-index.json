@@ -1,0 +1,270 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\.htaccess",
+    "status": "copiat",
+    "saved_path": "fisiere/htaccess--560c8a95",
+    "bytes": 36,
+    "sha256": "6cb71b0cea790d8fbce27f8b31b5390cf8e902de4bf6b5a524ba700264e2eee6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\00_README\\CITESTE_MA_RO.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/CITESTE_MA_RO--81542cbd.txt",
+    "bytes": 2443,
+    "sha256": "0ad2799491f811690ac32ee1ba79eb393c5452510578b7332306e6ac8c433514"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\00_README\\START_HERE_EN.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/START_HERE_EN--6e42f022.txt",
+    "bytes": 5744,
+    "sha256": "fe58cf7069512fbfa04a31820c0dbd7b7c35b56093f7d6596a9155bb13ebf2ed"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\01_PROMPT\\EVA_PRINT_MASTER_PROMPT_EN.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA_PRINT_MASTER_PROMPT_EN--5f25af27.txt",
+    "bytes": 143979,
+    "sha256": "963f1c8cf19db927eb8aa862833fcbc8548075e8a3f249cc0671714ea37e23d0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\04_REFERENCE_PHOTOS\\fiberlogy-abs-abs-en\\reference-1.webp",
+    "status": "copiat",
+    "saved_path": "fisiere/reference-1--432dcc11.webp",
+    "bytes": 104008,
+    "sha256": "fd628f3cd52e2413b55e96df91f93b61cb87a5d3079b8ea6b76230978425e22f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\05_TECHNICAL_DRAWINGS\\abs-fiberlogy.png",
+    "status": "copiat",
+    "saved_path": "fisiere/abs-fiberlogy--60e876a0.png",
+    "bytes": 125596,
+    "sha256": "1f3d4e71b3622c2159cfe652fa5b409dbba6ab0068b4a40d62f9d18050b8e20b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\07_DATABASE\\002_dynamic_fields.sql",
+    "status": "copiat",
+    "saved_path": "fisiere/002_dynamic_fields--38c02ddf.sql",
+    "bytes": 17829,
+    "sha256": "8dc1953729d72ea5ed0c0efe02468fa2e6622107edab729f7bbedf65ff709d7f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\07_DATABASE\\DYNAMIC_ARCHITECTURE_EN.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/DYNAMIC_ARCHITECTURE_EN--56c32ea8.txt",
+    "bytes": 5726,
+    "sha256": "b5e6fdfb1a59294327e3bc1073f0672e88193f50183408d666c45112cb823001"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\07_DATABASE\\IMPORT_AND_DEPLOY_EN.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/IMPORT_AND_DEPLOY_EN--62d44cd4.txt",
+    "bytes": 3280,
+    "sha256": "d75e114757ba8ba49e65ade7b2c485da120e6ad46f8e6d50822e98e222fd7531"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\07_DATABASE\\schema.sql",
+    "status": "copiat",
+    "saved_path": "fisiere/schema--f08b3b12.sql",
+    "bytes": 15261,
+    "sha256": "615c3fda8b74fb33cd789462f36022aaeb66a5ac8ceb475fe3f0eeab2ede2dc1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\11_PREVIEW\\catalog-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog-preview--e5ea0288.png",
+    "bytes": 137412,
+    "sha256": "2748ba189eed57d14d72dadb7d03b0bf00014ff30518ba21d6380e77d961481a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\11_PREVIEW\\drawing-pdf-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/drawing-pdf-preview--8468d406.png",
+    "bytes": 24565,
+    "sha256": "8da5ad9bddcb0963a368a003c6d36dab8cc805723ab6618d76e64068b23134fe"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\11_PREVIEW\\overview-pdf-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/overview-pdf-preview--a4900c5e.png",
+    "bytes": 21383,
+    "sha256": "37ede93594115c9f8197ebdf4a128f85a0b6ed27253ebd5123e48fd443e0e663"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02\\web.config",
+    "status": "copiat",
+    "saved_path": "fisiere/web--27d25432.config",
+    "bytes": 253,
+    "sha256": "4a2a49bb6cd3b7fa7a850b7730b7ba059d9df0f7c9052e40534ec3ab551886e0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\add-composites.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/add-composites--a26553c7.mjs",
+    "bytes": 7061,
+    "sha256": "00c4c18d9562d279f1724b4439e5333af583ab18a21a8d4bdea56e74452aae5e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\assemble-package.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/assemble-package--7a4c8f0d.mjs",
+    "bytes": 32012,
+    "sha256": "fa5014e42fa6742a539eb950e842330140682db303ad8274cebc056104f91003"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\build-catalog.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build-catalog--93561bb7.mjs",
+    "bytes": 36822,
+    "sha256": "8abc34f28ee172c3c8ab09c2fbc7c2fd220de2841d54b6429bc4dd2a77fa5aff"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\build-industries.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build-industries--ebcde6c8.mjs",
+    "bytes": 14416,
+    "sha256": "f464d7a77f75e2b0b835e13c5aef33750f48166760af37d4bb712804ef39a9b2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\check-pdfs-and-clean.py",
+    "status": "copiat",
+    "saved_path": "fisiere/check-pdfs-and-clean--75aec7b7.py",
+    "bytes": 1839,
+    "sha256": "fffd2cb6a66ef796d080a304174ec3c179958f6a56d9477b594ebdb334388c1e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\complete-research.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/complete-research--3bfe74b9.mjs",
+    "bytes": 3471,
+    "sha256": "7c3edfdc0d50404d1a4efedd0b2597ce7d3fb90d7824dace75de53b6aff94464"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\copy-to-workspace.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/copy-to-workspace--a6b532f7.ps1",
+    "bytes": 2530,
+    "sha256": "96e8767e73b39f8ca46093a70ddd324c37ff4b8338fab076c5ab9f862ae9a843"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\enrich.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/enrich--661f0f45.mjs",
+    "bytes": 7960,
+    "sha256": "c5a34d2d098a99cd0811b2a0fc7253edbf22fffa51ad0d7eefaf0627dddf1f58"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\finalize-validation.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-validation--be88d322.py",
+    "bytes": 1865,
+    "sha256": "0eaf64f92da472b8e21bb85a559d62cf267b497cd15b46160a5e0b5124df2683"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\finish-photos.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finish-photos--0264f62a.mjs",
+    "bytes": 2479,
+    "sha256": "89f20656c2bb9b5e5722e3609cdd1ec473715e0cb36bb5ca2826104ceaa16973"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\pdf-tools.py",
+    "status": "copiat",
+    "saved_path": "fisiere/pdf-tools--997394ca.py",
+    "bytes": 1286,
+    "sha256": "c323db740ca501e4cf7eb66c251af2f92fdc8b760b8f9a5d01b6743e588ccc5d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\render-deliverables.py",
+    "status": "copiat",
+    "saved_path": "fisiere/render-deliverables--abbf9985.py",
+    "bytes": 4973,
+    "sha256": "53e40326882674d9f26bdb86638feb3cbdad9652e66006086b7f72acead62a9c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\research-final.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/research-final--307de97b.mjs",
+    "bytes": 3715,
+    "sha256": "aab30709947aedc42ea4f069cfa58b470e7e4ea9546e2fb21449b91a2333dd8e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\research-more.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/research-more--94f40e8f.mjs",
+    "bytes": 5208,
+    "sha256": "ec697464c4d082c809de9c8be1b4aa45edc38b6e2ba49e4ec39320de110b0c73"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\research.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/research--be0a59f5.mjs",
+    "bytes": 4244,
+    "sha256": "7b7784d0b4bb06df3bbcc1224fec39ff45bf3f72225831d0318b511a9b12ef56"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\supplement.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/supplement--1b641590.mjs",
+    "bytes": 5038,
+    "sha256": "c166e47b9caeb0c3c91571576884940e81a9b0cdaed11e4b8ac6aa47a69684bf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\test-schema.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-schema--78626085.mjs",
+    "bytes": 340,
+    "sha256": "28c82b81273f97201c7d461ee8ee352aedb3416a54bea2efe39e1a519ae8d768"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\validate-assets.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/validate-assets--b483e861.mjs",
+    "bytes": 2885,
+    "sha256": "4a77ce797c5f68c3774f31ae55871c607e0bad8017e53c76a0619681c1660db2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fbd7-f9a0-7df1-839f-a3792ebc6e66\\validate-database.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/validate-database--fb111dbe.mjs",
+    "bytes": 10527,
+    "sha256": "4bf879697fca4d678ec6b997283cb883f12ccc3fa325d1b69f99a97bbfbd4e84"
+  },
+  {
+    "source_reference": "S:/print.eva-org.com/EVA_PRINT_WEBSITE_BRIEF_2026-10-02/01_PROMPT/EVA_PRINT_MASTER_PROMPT_EN.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA_PRINT_MASTER_PROMPT_EN--fc3a008f.pdf",
+    "bytes": 192864,
+    "sha256": "c5a4aeff1c50043736d8b8cbd09669e906ac226a62066583d375fbb0ab322c2c"
+  },
+  {
+    "source_reference": "S:/print.eva-org.com/EVA_PRINT_WEBSITE_BRIEF_2026-10-02/07_DATABASE/DYNAMIC_ARCHITECTURE_EN.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/DYNAMIC_ARCHITECTURE_EN--20ba3546.txt",
+    "bytes": 5726,
+    "sha256": "b5e6fdfb1a59294327e3bc1073f0672e88193f50183408d666c45112cb823001"
+  },
+  {
+    "source_reference": "S:/print.eva-org.com/EVA_PRINT_WEBSITE_BRIEF_2026-10-02/11_PREVIEW/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--8507ca69.html",
+    "bytes": 291164,
+    "sha256": "784d5806178c4edc7f7acea840623f683de167a952f5dadfdcb38b4a70e7436a"
+  },
+  {
+    "source_reference": "S:\\print.eva-org.com\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://ratrig.com/products/rat-rig-v-core-4-1?srsltid=AU7gw4UH3GdyUXWZQzASZy2wxnqwBMP3UK3XHtnvzhNbdJt7Aei7OBLe",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.modix3d.com/ro/big-meter/?srsltid=AU7gw4UosNKvqjSuT63XlHW1zKPZuUCiG665AZORI3c4ahU6qCudVejb",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.prusa3d.com/product/original-prusa-xl-5-toolhead-3d-printer/",
+    "status": "referinta_externa_necopiata"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/ac-wohnart-firma-website.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ac-wohnart-firma-website--bc060891.md",
+    "bytes": 2802,
+    "sha256": "30100538ac490ddcb3b2729b12d78d6a3b5cd53c58680012a1d2c2598752a0d0"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/dracula-book-editura.md",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-book-editura--f1839506.md",
+    "bytes": 12029,
+    "sha256": "c8ec5e181774b2ed304851505d5ee3a4d45132816e46fa49c50b4eb58a8c744c"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/site-uri-share-eva-contab.md",
+    "status": "copiat",
+    "saved_path": "fisiere/site-uri-share-eva-contab--2d0a2b67.md",
+    "bytes": 3255,
+    "sha256": "0dc17bb9ee844be0a24156bbdddf3981a6276bf1ffa58c66b1f380eea5e21f87"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/fix_links.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/fix_verify.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/gen_compose.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/gen_legal.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/p1.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/patch_admin_images.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/patch_locale_images.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/patch_profile_backend.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/patch_reader.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/patch_reader2.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/seed_covers.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/seed_legal.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/update_site.py",
+    "status": "copiat",
+    "saved_path": "fisiere/update_site--2b46f66a.py",
+    "bytes": 11094,
+    "sha256": "765048ac84db3aaf517144417774c617d33de89993cf4e58b31c2e9892c7d248"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/scratchpad/audit/wire_profile.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b4170eb-844a-4217-9171-70b06f55b94f/tasks/bv3q3gm0n.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/ee6110e4-f0c1-4cec-83e9-b8fec35025e2/scratchpad/askpass.sh",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_connection.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_connection--eb2ecf48.py",
+    "bytes": 24414,
+    "sha256": "63ee35eb40354d2099d422947a24aead934ca12ffdb05841113da2091054caae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_frame.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_frame--54e4bc27.py",
+    "bytes": 31051,
+    "sha256": "1d1c7c5908748efe7b1a9464a004ac64c78eb6d0e6a629968df7b9a957a129f3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_page.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_page--341fa8c0.py",
+    "bytes": 54808,
+    "sha256": "cb3f5b83c9c31c006abd0d2e3a46a239803f9724c8471e6889a21fa133ac824b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_sync_base--79a362a2.py",
+    "bytes": 4608,
+    "sha256": "90a23c3bcd581164a8ea954ae7fed1b450a2402eb88b0267500ae87a6ceb83e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\sync_api\\_generated.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_generated--72b808fa.py",
+    "bytes": 939552,
+    "sha256": "b4f57ba58967ea75e06eee17d9c8ff67b930f22f7fe2469d63afa71d8ac641ea"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\4b4170eb-844a-4217-9171-70b06f55b94f\\scratchpad\\audit\\gen_compose.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\4b4170eb-844a-4217-9171-70b06f55b94f\\scratchpad\\audit\\linkaudit.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\06. Utilitati\\UTILITATI APA - Wiener Wasser\\Mitteilung Steuernummer, UID_A&C Wohnart.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Mitteilung Steuernummer, UID_A&C Wohnart--4eddeda7.pdf",
+    "bytes": 129965,
+    "sha256": "64d4796a7352488c8c9aba8286486f30183d85b40df5fc4ee094148c0843ca00"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Website\\schallergasse35\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\A&C Wohnart Immobilien GmbH\\Acte Firma\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\\\dracula-book\\\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\\\dracula-book\\\\DOCUMENTATIE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/DOCUMENTATIE--d0c67318.md",
+    "bytes": 3035,
+    "sha256": "e8d88a62ccc426a32453cd64320054df08ed611b33770302efc4638947d66f83"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\DOCUMENTATIE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/DOCUMENTATIE--d0c67318.md",
+    "bytes": 3035,
+    "sha256": "e8d88a62ccc426a32453cd64320054df08ed611b33770302efc4638947d66f83"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\_backup-20260923-1840",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\_backup-dracula-book-20260924",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\schallergasse35\\_backup-links-20260929",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\d identity.user_tokens\\nselect purpose, used_at, expires_at > now() valid, created_at from identity.user_tokens order by created_at desc limit 4;\\n",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "ac-wohnart-firma-website.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "dracula-book-editura.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "https://www.ac-wohnart.at/datenschutz",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ac-wohnart.at/impressum",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ac-wohnart.at/imprint",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ac-wohnart.at/privacy",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ac-wohnart.at/projekte",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.at-wohnart.at",
+    "status": "referinta_externa_necopiata"
+  }
+]

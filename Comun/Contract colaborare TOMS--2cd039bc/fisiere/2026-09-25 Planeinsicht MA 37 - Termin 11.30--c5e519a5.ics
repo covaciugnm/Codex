@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//A&C Wohnart//Schallergasse 35//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Vienna
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:planeinsicht-ma37-20260925@ac-wohnart.at
+DTSTAMP:20260922T100000Z
+DTSTART;TZID=Europe/Vienna:20260925T113000
+DTEND;TZID=Europe/Vienna:20260925T123000
+SUMMARY:Programare verificare planuri Viena - Planeinsicht MA 37
+LOCATION:MA 37 Baupolizei\, Planarchiv Gebietsgruppe West\, Spetterbruecke 4\, 2. Stock\, Zi. 201\, 1160 Wien
+DESCRIPTION:Planeinsicht einer Baueinlage - Wohnhaus Schallergasse 35\, 1120 Wien (EZ 2235\, KG 01305 Meidling).
+
+Bestaetigung: Reservierungsbestaetigung Planeinsicht Gebietsgruppe West vom 18.09.2026 (no-reply@wien.gv.at an office@ac-wohnart.at).
+
+Zustaendige Behoerde: Magistrat der Stadt Wien\, MA 37 - Baupolizei\, Planarchiv der Gebietsgruppe West (Bezirke 12-19).
+Servicetelefon: +43 1 4000-37720
+E-Mail: ggw.planeinsicht@ma37.wien.gv.at
+
+Mitnehmen: Firmenbuchauszug A&C Wohnart Immobilien GmbH (FN 668224h)\, Grundbuchauszug EZ 2235 KG 01305\, Lichtbildausweis\, Bescheid GZ MA37/1539234-2021-1\, Speichermedium fuer Kopien.
+
+Anschliessend: 14:00 Uhr Objekttermin mit DI Ferdinand Toms\, Schallergasse 35.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Planeinsicht MA 37 in 2 Stunden
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Morgen: Planeinsicht MA 37, 11:30
+END:VALARM
+END:VEVENT
+END:VCALENDAR

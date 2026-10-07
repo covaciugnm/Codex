@@ -1,0 +1,1072 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\04 Eva-Mail BAU-WERTE 2026-09-25.json",
+    "status": "copiat",
+    "saved_path": "fisiere/04 Eva-Mail BAU-WERTE 2026-09-25--baef2ff7.json",
+    "bytes": 3018,
+    "sha256": "56d76d87c95dad9fae128347f545fe5c52aeabd02af35e248695c21a6a478747"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\AUDIT.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT--92eece7d.md",
+    "bytes": 12441,
+    "sha256": "e911c07077d964129b795bc3959e5cca8c4fbb6a1cbbaee8e9f58a44e39afda1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\EMAIL_DE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/EMAIL_DE--ec28859d.md",
+    "bytes": 4016,
+    "sha256": "07d09a9dfd8bd0525313354f8dfd9aeb84a3639b0997edb1cf29120e166ea4a7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\finalizeaza_dosar.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalizeaza_dosar--ef986513.py",
+    "bytes": 7694,
+    "sha256": "186f06d2412ec5ec57e75a007915387690a14ed270ccebc92f6f60e46806a0ff"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\genereaza_documente.py",
+    "status": "copiat",
+    "saved_path": "fisiere/genereaza_documente--f3cb90f5.py",
+    "bytes": 15393,
+    "sha256": "d62b094eece31c3d11e1aa2249e7538190cc82f8a7082b2d82a101eafa072a8c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\incheie_livrare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/incheie_livrare--875449ab.py",
+    "bytes": 992,
+    "sha256": "e7cfec7269a439487efa5e9f846991758d130fb8f5427ca5f1a5985898e0c0f2"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\layout\\contact_01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_01--3b8eb52d.png",
+    "bytes": 580286,
+    "sha256": "9de2cb2515bd291a553688f0304c92cdc0ac415ea2530a9c101b1ce0f4d7a441"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\layout\\contact_07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_07--fd6ee5ea.png",
+    "bytes": 597363,
+    "sha256": "35ed0753e62491325db5d9dbc926aa80e64633fdde3ef2ecd8feeac1bea6053c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\layout\\contact_13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_13--1fc93d96.png",
+    "bytes": 353788,
+    "sha256": "3d3850e692f9fe94f3db5d7deea147e7c9b54ba19d0445979f5783e2eea8f94f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\layout\\contact_19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_19--c6595e9d.png",
+    "bytes": 32835,
+    "sha256": "270ad69f08de0b6cd13861ee62cc578cd672fde0950e9bd184ab288c2ca81dcc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\BAU-WERTE Lechner\\2026-09-30 Propunere contract BauKG\\_lucru\\verifica_artefacte.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verifica_artefacte--75193486.py",
+    "bytes": 3014,
+    "sha256": "7cbf653725c58b80a5b6ed765d77a8f6150d60e879f42f369fbf287f04df6dbf"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\2026.09.30 WhatsApp cautare - context secundar.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 WhatsApp cautare - context secundar--7a0a58a0.json",
+    "bytes": 40410,
+    "sha256": "b88b76d9d2ece26913d1539c1c4fd8b462f1456a951ec069e897492ce25fa055"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Atasamente\\Wiener Wasser - MA31\\2026.09.30 7dce663e 14854.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 7dce663e 14854--c562543f.jpg",
+    "bytes": 561708,
+    "sha256": "f26263f59ceef259f0fe6cf479ba5ab58e9ef1255dfc73ed8729cb3c74f1f13f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Atasamente\\Wiener Wasser - MA31\\2026.09.30 b24e5d4f 79524.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 b24e5d4f 79524--73e87f24.jpg",
+    "bytes": 541553,
+    "sha256": "c2b162c691304947f95e61c9af3a1cc3b6e94884593a1e20b998a9240223f849"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Dovada Finanzamt.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Dovada Finanzamt--cc0e6123.json",
+    "bytes": 2792,
+    "sha256": "84c97f739bc3829c7968ca6e34205c735d53bd6d97c07948fcec97ba4ff704fc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri Finanzamt prioritare.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri Finanzamt prioritare--81025811.json",
+    "bytes": 1708,
+    "sha256": "8f92b69a63de1c8f76e4d31de36d1ac41fa27b7614fe3223304025ec76990565"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri autoritati suplimentar.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri autoritati suplimentar--cb9ed566.json",
+    "bytes": 3071,
+    "sha256": "404624d7eda215d651f68bf39c3a8f70b12dad05af4fee613a90de16241073e0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri financiare prioritare.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri financiare prioritare--3113d072.json",
+    "bytes": 25039,
+    "sha256": "1167e4185b24eeaa316afdcfd06498b8a0472625aad39d42386fc1722fe8068a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 001.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 001--1a07b30f.json",
+    "bytes": 386751,
+    "sha256": "6aba390b8c1920d837c0c23f3828aa53c8f303fc8191328bd3707b79f3f5099e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 002.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 002--ea03e435.json",
+    "bytes": 113976,
+    "sha256": "73ecb3fa6a601296edb5a7f20dea2df8a361a7450a4e1192984b1d9d8f1749c7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 003.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 003--87ffb5ad.json",
+    "bytes": 137187,
+    "sha256": "0e83e53b8bf013b0aca4ecc238f31938a6ca538dc50939b82e41fa2d97f1f768"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 004.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 004--1f4013f5.json",
+    "bytes": 235888,
+    "sha256": "aaa941b4de1d42168162cc51fc8d7b275ea7f82cb4b0b2dc411f2e77d5b1b680"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 005.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 005--1562b78f.json",
+    "bytes": 192048,
+    "sha256": "a59cbe3181dfb059bd0e17d35cf0701b4be36532c1bf0bca4e9fb25cb61f5d83"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 006.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 006--b501a77e.json",
+    "bytes": 205820,
+    "sha256": "0f5ff6b8b7e8ba6336d80972f27e4faf9c6cfbf762031ed090ada59dad7253f1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 007.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 007--ac232559.json",
+    "bytes": 441382,
+    "sha256": "f6b1e155b6b2c8ab6c8ebd6d900061aff6e51e2d85329b8caba7153bca7d3f4d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 008.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 008--69c3288b.json",
+    "bytes": 223335,
+    "sha256": "737b9984ffb271573770ba20cecef1f20674261f4ed4c3f511ddd949ccd7d6dd"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 009.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 009--6533e3ac.json",
+    "bytes": 224370,
+    "sha256": "cfe6850ce3509392c6d0409704ed711bf18d965719e9989878f399ea4e0082d6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 010.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 010--6447861a.json",
+    "bytes": 217904,
+    "sha256": "72cb76e5cfcdc2fa24235f53ebbc0aa3bd2e366ae2c3201a7497fe5fc1d93df2"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 011.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 011--9c746c7a.json",
+    "bytes": 63708,
+    "sha256": "c02d5c148cf7fafe1f937933448de752e44141026c829dd703d686027e8a7cef"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 012.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 012--699a8ce4.json",
+    "bytes": 343167,
+    "sha256": "cdc4bedfb2c952ae1811124ab7c6f3612d15b44ea0b2c994834767e0dca22f8e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 013.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 013--b823f11c.json",
+    "bytes": 232490,
+    "sha256": "fe021f16b443ce96539b802245edc40d335a17291d6e88557541e3e183329612"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 014.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 014--20af0a44.json",
+    "bytes": 217166,
+    "sha256": "767498d8033feffdc82d06cd97b79211389c555f56b6bccb9dbc4b3837424ccd"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 015.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 015--8761883d.json",
+    "bytes": 407814,
+    "sha256": "7b66bb2098317c1d7e946cac65724d03288bc550fc006496bf57faab9d62e41d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 016.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 016--815ffd13.json",
+    "bytes": 75284,
+    "sha256": "197c06829e6f418c95c22965d80ca80cd4ea35d2d25ca1331ba405a8fa8b4d16"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 017.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 017--64f5bcae.json",
+    "bytes": 181406,
+    "sha256": "ea3b40b8cee70f54ff8e36b744811ce05e25be289728a6067083699c1c2785f6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 018.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 018--7b896539.json",
+    "bytes": 470537,
+    "sha256": "079d7a58bbf8cdcee764f71022632c5be7db488d72e9282b983b024bdf3efce2"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 019.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 019--43236f64.json",
+    "bytes": 562538,
+    "sha256": "2d9dc5ee66862476cae5ae22bea2dff5eea6660119a4867f86aeba5a61868f77"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 020.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 020--c826ff73.json",
+    "bytes": 398518,
+    "sha256": "ab43e9d03a50b3930ebc0425885bfe45fae4514363f9223b7a2b2a82ba1e3910"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 021.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 021--a9a9a6d2.json",
+    "bytes": 242061,
+    "sha256": "d453bf4278b0be6aff83e279e90a293267beccd37be85788944e6a0ff8040ec4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 022.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 022--73f480dc.json",
+    "bytes": 369265,
+    "sha256": "b08c8cd429fd1f972b6ff220240778783841940762193922a174e9043bf4b9b6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 023.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 023--ead8ed85.json",
+    "bytes": 237100,
+    "sha256": "232d1cf4ed7c5fa82aa870dc315991ad65b5ced52a3581edf6c08ddd947c5e27"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 024.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 024--3b7e5a2a.json",
+    "bytes": 508489,
+    "sha256": "4c1678d16e38ca277405d4667a9b02151d557884aef2b899d4397a75f8d53727"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 025.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 025--8ce15a27.json",
+    "bytes": 305919,
+    "sha256": "e35daa1d3c83cd57f7e04ace8ac0f16827b4d186df21a8564e97b8006fc54ab0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 026.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 026--73caf2ca.json",
+    "bytes": 381817,
+    "sha256": "f0cf6629fd51b49e23dd9e5938abc5dfa86539e37d5ef230647416fb0cbb663c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 027.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 027--78e134c2.json",
+    "bytes": 483837,
+    "sha256": "ab11e97bdd36bf209341b27287ec7f7eb65488a6b9409e2dfa73a87c3c194ce5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 028.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 028--19cad81f.json",
+    "bytes": 219351,
+    "sha256": "164c80204d0767cbfa4b313a8aca955b2a9490713dd8cadd7b33bf8c090bd4a7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 029.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 029--e23f83c4.json",
+    "bytes": 201754,
+    "sha256": "64cc6e4fda799f83da072f2b8c757e07f3abf760eb916b88cb311e503d26aaa0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri lot 030.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri lot 030--bdfc823e.json",
+    "bytes": 104328,
+    "sha256": "953ce7419d3985bf38944fe2d11ea41272f1661ff1f2ff23773a6aab2df76466"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 001.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 001--ea76d977.json",
+    "bytes": 146907,
+    "sha256": "a0d788b26ca07fda1ecb724faecbde60891650587d48c226d65a8c4b0e061204"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 002.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 002--c8017ecd.json",
+    "bytes": 127060,
+    "sha256": "d44cb8594cd47b81ce4b4e06ca46394b2af1dcc999c0848de594673ca05239a6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 003.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 003--7103f358.json",
+    "bytes": 147138,
+    "sha256": "b78150ee2c4d598da645474f05ef291050cfb2a936c4aa8d0cdd96693073363a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 004.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 004--9589819b.json",
+    "bytes": 91916,
+    "sha256": "7cc6dee820296b015245859965c8e595d324b5700d7d71db79ef5f21a67d9861"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 005.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 005--6d86607e.json",
+    "bytes": 45350,
+    "sha256": "67fa168d5fb96e1dd29273285f5cb4656033817c3923011cfc0b009f20d86e2d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 006.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 006--aa1ebfba.json",
+    "bytes": 107447,
+    "sha256": "1b1f16e094297c38816a48ecd6d56a029def15a5d9ee0a28f0fc6a88464e12a9"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 007.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 007--f9e56d56.json",
+    "bytes": 170140,
+    "sha256": "ed54445e5f21b90a87c52ee9cf8a109b123c34073c48ab4d048fbbf4d0192a22"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 008.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 008--0f4fe97c.json",
+    "bytes": 98183,
+    "sha256": "71391746d9d2a6a8d027ef610c6605a38b6e085509dc3b28c159960b2b11ad61"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 009.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 009--5028d003.json",
+    "bytes": 67856,
+    "sha256": "63ba48bd438568ffe91106be1d7c3622cd881885c4e54598f7784181aa8f9d02"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 010.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 010--fb61c801.json",
+    "bytes": 92037,
+    "sha256": "9ba8c80dd73aa1634b012652eaf2f921bc94e0528783541c30b990e797a57c06"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 011.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 011--20098534.json",
+    "bytes": 122880,
+    "sha256": "d1ba7e77d04c2a66e1292430432a8c6a236b95b112c0f2c429682199bccc9cea"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 012.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 012--b058fd37.json",
+    "bytes": 118984,
+    "sha256": "cf9b8986d944d172e637717ae0c3eacaf7164da3c16257f240a3714fcc8f38c8"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 013.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 013--a626e7f2.json",
+    "bytes": 41701,
+    "sha256": "be580029642ed97d0ce6540fe352feb4a8cbec18c3ef18c481f146b4ecc26e37"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 014.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 014--ad310ecc.json",
+    "bytes": 101377,
+    "sha256": "590691f180cefe6e1028ab5df899bfe00b25e09d8932eee4cbf0314dbecb786b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 Arhiva Eva-Mail\\Surse\\2026.09.30 Emailuri suplimentare 015.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Emailuri suplimentare 015--58ef322c.json",
+    "bytes": 87117,
+    "sha256": "633833fffc3ed26006c91ae1ac7917f195a9f05f70e2d4f41a403dc156f48d3a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.09.30 MA6 - Corectare aviz Q3\\2026.09.30 DRAFT NETRIMIS - MA6.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 DRAFT NETRIMIS - MA6--8d340e56.json",
+    "bytes": 2568,
+    "sha256": "5942f25839c938d951b4be09e4015ea42307272ed8f52635ca6c0173d43484c0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\BAU-WERTE\\2026.09.30 Eva-Mail - export integral.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Eva-Mail - export integral--9aacdadd.json",
+    "bytes": 120990,
+    "sha256": "771e60ca5193a66bea25edbff500485ffcee16643d6c34531266f3a028506044"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 MA6 Q3 verificare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 MA6 Q3 verificare--530ab583.png",
+    "bytes": 401529,
+    "sha256": "fd96f30c63eb0a4ca2aa49c547bd4d3c8ba76724d5630db20f3c4d1974cde0d0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 Raport pagina 1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Raport pagina 1--7e48ab69.png",
+    "bytes": 153794,
+    "sha256": "aa52b6fce3633bdd4a5ad0947c28091ee6ee2152321b0344a5dbc13bc7020ea0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 Raport pagina 2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Raport pagina 2--9ebf06e3.png",
+    "bytes": 83495,
+    "sha256": "c9b2fa3cba7a11d1dfb69aabedddd05bee1eb6b910973e08a7a628943057f6de"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 STURM 41410 verificare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 STURM 41410 verificare--bde05308.png",
+    "bytes": 450198,
+    "sha256": "bb02f22177dc9eb63cedf8fbe7cb29b3d302fd1f767e42ddc89e8c0ce43f8f9f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 STURM 41422 verificare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 STURM 41422 verificare--d0c16924.png",
+    "bytes": 335312,
+    "sha256": "959b4b23cdf17d37bc03cdc84b5f731bec902242c620bddf2f5d5e25e603003e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 Verificare AT13 pagina 1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Verificare AT13 pagina 1--1ab4d70a.png",
+    "bytes": 170989,
+    "sha256": "0597ba6434feb11e869e6dac5090b0a8096e5dc26a6dac5a6d2961e8c979f037"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 Verificare AT13 pagina 2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Verificare AT13 pagina 2--689c6b26.png",
+    "bytes": 127254,
+    "sha256": "bb977c6887c1ad8d2b92de133e4753f20ccf1132e2d644745f1ca5a5788dc6a4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 Verificare AT22 pagina 1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Verificare AT22 pagina 1--6f3e9886.png",
+    "bytes": 149583,
+    "sha256": "f8ffd182313a81febc620c4047beaee771b77ba3ceffc4401747c17401019be0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 Verificare AT22 pagina 2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Verificare AT22 pagina 2--1f36e581.png",
+    "bytes": 185946,
+    "sha256": "faf4bf9101cbb518ecff29a1f9ead4a5d0cbe1a2a20ba04f4e940e59b09e1972"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.09.30 Audit facturi si plati\\2026.09.30 Verificare AT22 pagina 3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Verificare AT22 pagina 3--d54e963d.png",
+    "bytes": 26781,
+    "sha256": "3c825ac5af91f2432231a85339010393a831e20a8b9040a6ceb61b5f0eb37857"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\AGENTS.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AGENTS--2889fd35.md",
+    "bytes": 3082,
+    "sha256": "1778b1b4a9fc8e77984b740b9491ced9689f0096f4569ac5a6895a54e21b0425"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 Attensam 14983.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Attensam 14983--89db4f25.png",
+    "bytes": 558310,
+    "sha256": "78f5413117f2b02eae741fd932449b806d20d031d9f6765d30d004822253281d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 Attensam plata.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Attensam plata--984b743e.png",
+    "bytes": 46057,
+    "sha256": "ba571bb3b67789ac536d2ade17f4731488f07aa6df5b6ab69326c27780da4588"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 Candidati suplimentari proiect.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Candidati suplimentari proiect--89e3474d.json",
+    "bytes": 57201,
+    "sha256": "81aab1c1ca4c1c1a9e2156b2d75b1c3bbaba4cc8666702797b28ea51460ff2be"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 Cautari financiare.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Cautari financiare--d7a320cc.json",
+    "bytes": 274557,
+    "sha256": "eaedad3b90d08eb2e8e039b54edd2e9c5f40bcf4ad6e6757cf8a4e5a64dd0ed1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 EVA octeti temporari.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 EVA octeti temporari--5b4fdf5a.json",
+    "bytes": 2205150,
+    "sha256": "647ba79cc74bfac41892231ead9721cece6c2c950169b13bad926152bc3db1db"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 Erori preluare URL.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Erori preluare URL--f22e3fbc.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 Mesaje proiecte EVA.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Mesaje proiecte EVA--99069272.json",
+    "bytes": 698434,
+    "sha256": "17031215956bd3f51ac6e8d2fc1d8e40113d4a7cf02e5404ca5b5ab2ff54ea87"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 Themis oferta.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Themis oferta--7f00338e.png",
+    "bytes": 71525,
+    "sha256": "42afdc12ffa22e9257b6671c5c4b4b355fa1700ad7b1405b6a9e91cabb64f899"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 001.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 001--f8034bb2.json",
+    "bytes": 11750,
+    "sha256": "7f0cc532c0c306c20a2937bda8215db8f7ba0c08d3303e1cee079eea036f9470"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 002.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 002--29826db5.json",
+    "bytes": 11875,
+    "sha256": "d26016932d69d469192be7fbf4bb65df5114692284637d153c0cb117d88d8f6e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 003.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 003--50c7ddf1.json",
+    "bytes": 11877,
+    "sha256": "9f91c8765cc77d7a3fa054a09d025d7b94d8bb45640b360861ed940ed0a8ae95"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 004.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 004--442636eb.json",
+    "bytes": 11456,
+    "sha256": "d90347a09053450aa9b04d040ac85d98ebea038cbc390bb6d422511d2758c1ce"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 005.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 005--e5d5488e.json",
+    "bytes": 11890,
+    "sha256": "37d7db149ba14819fcd441d9c264457c65e2387f14c4aabafd1ba289c795937a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 006.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 006--4a4b5f39.json",
+    "bytes": 19500,
+    "sha256": "b29602b6a629399faea63bfcd09dfebe81b3eed3efc04fca13ab8c6790ec1a16"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 007.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 007--40effbac.json",
+    "bytes": 19831,
+    "sha256": "ca4371529d9dfbd2b686ac8a03b03e4fd101447777fb489c2b23b7e3ceccd899"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 008.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 008--38962fc0.json",
+    "bytes": 19696,
+    "sha256": "a82a5fb6c067da5e245aec276229ab9be2218ad1619bd921b206e06d9f529488"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 009.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 009--fb46a6c9.json",
+    "bytes": 19779,
+    "sha256": "81e8f7cf6406afc8031c5bda70704340020b3795729461d8d249ab63f3a48d16"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 010.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 010--984be497.json",
+    "bytes": 19706,
+    "sha256": "c902cb73a0565ab42a50ccb69949571bac5694cfb1c922658466c73301b73070"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 011.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 011--41a06e6d.json",
+    "bytes": 19797,
+    "sha256": "1408d9122d0e1a72cff0103cab03a473ad86f6cdf041e67a415acaf216772eb8"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 012.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 012--4669f6a0.json",
+    "bytes": 19880,
+    "sha256": "30d890387d778ac163d7d66515c0b234e6442686131b7d8ad45a3ddd0c351169"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 013.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 013--6e5ceef6.json",
+    "bytes": 19719,
+    "sha256": "d345c378a6a2db502f46cd6ff5613a6ed16c4786a7e31efdbf3c0c9da067f285"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 014.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 014--da0fc1f5.json",
+    "bytes": 19845,
+    "sha256": "94a13c16c1a0fb6156d9a797764031ca8e8373b5f78d74d56820356d74f64903"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 015.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 015--4d68cd46.json",
+    "bytes": 20037,
+    "sha256": "9e7aa2ca5f45cd661e5de7b3f1a6be618d149116b3bc041bd557a6906f74bbd8"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 016.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 016--a8213063.json",
+    "bytes": 19870,
+    "sha256": "aff63218c01c97cca259fec49fe684c9806f9bbb844e3435bbc18da11ac25831"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 017.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 017--de14ce3d.json",
+    "bytes": 19942,
+    "sha256": "4e2252e8ccb0f465f23d404d93205910b49ed16f6344e6a2dd6a60aa4f0ac151"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 018.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 018--6ef11c7f.json",
+    "bytes": 19854,
+    "sha256": "2887a4b9541a220cd5c6c39010478135090c203dce0b2974be99798cfc6f20bb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 019.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 019--aec0910b.json",
+    "bytes": 19739,
+    "sha256": "de288a5e205ec6829cd2207412562b65a1232d91ffdd7027052d30f322099829"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 020.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 020--af842efe.json",
+    "bytes": 19813,
+    "sha256": "e80c7707019afd4a6624735747a53b7ba61b582114f34fc6f55972f4ffe72155"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 021.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 021--e9f180ff.json",
+    "bytes": 19892,
+    "sha256": "9f38142f458617781418ac59fc705e11121cd6051faf716a9674596a2b23f98a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 022.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 022--c2c49e29.json",
+    "bytes": 19709,
+    "sha256": "83545d2a2d566f5308e18312477ff1d77298378ed614b12adb6784b02e6fa6c0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 023.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 023--b0dcbc12.json",
+    "bytes": 19727,
+    "sha256": "ac3bfd9d7813605105ce83c965401c3870c2befc5fcfb5d9bff7d48345e1875a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 024.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 024--36e3c323.json",
+    "bytes": 19016,
+    "sha256": "850888858e1182180fafbed2d0aa1609028d96b7214ea230902331b48a226d10"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 025.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 025--ce2c5afa.json",
+    "bytes": 19126,
+    "sha256": "d77ceca8ed5ccb5213cb2d451233ecac19f9fece61c4790709ed530b4f435043"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 026.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 026--e64499f6.json",
+    "bytes": 19174,
+    "sha256": "2abd00410707203bb0e1d8ae0fc32406f020b43efecf52ea71f8b5de29d516cf"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 URL lot 027.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 URL lot 027--4e7fdcce.json",
+    "bytes": 5801,
+    "sha256": "141e1dd0e787dd65d751aa121d021b434ef124011f70f56466ac0ab6cfcdbb1d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 Wasser suma.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 Wasser suma--73002a8c.png",
+    "bytes": 242507,
+    "sha256": "52032c59e0a58362b8099d7b78bf9144ade0eb449b0c489dd08e85b83902ddd5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 actualizeaza jurnale.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 actualizeaza jurnale--61f85f0d.py",
+    "bytes": 18407,
+    "sha256": "bd2f3db0e635d37473d3b4a23ff54070c9e4e3241174b22f00fd4f104e288671"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 arhiveaza ciorna MA6.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 arhiveaza ciorna MA6--9342f0e8.py",
+    "bytes": 3605,
+    "sha256": "be1e2d9763f1278c8ac96062f5916b84786b249f34f8ac2eb01d936901dafebe"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 citeste finante.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 citeste finante--31980e94.py",
+    "bytes": 1352,
+    "sha256": "7bffece25b01d22b5773f912c5b6f574ba99ec45024a637c38b5c5407b4f768f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 completeaza firme.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 completeaza firme--5804ea18.py",
+    "bytes": 2348,
+    "sha256": "b1753b1c547350a88a6950fd54877fdd01ba45beb622c9f4a4d1e770ca8148a3"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 completeaza servicii.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 completeaza servicii--63b65b45.py",
+    "bytes": 3798,
+    "sha256": "7a9def5cf4b253c890e6714f0723b93d6c17acecefb77fd6c25d0378806b34c5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 completeaza statusuri.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 completeaza statusuri--fa10f2f5.py",
+    "bytes": 5619,
+    "sha256": "cd2931b76f45c1f9077466a01fb114793989d4c825f2fdd38f74013d66e7117a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 construieste audit financiar.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 construieste audit financiar--7fac06d0.py",
+    "bytes": 40543,
+    "sha256": "f195328841cd0450a2b9d757e347e1b1990f29e2e3ac21bd0847e6f38238a00a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 descarca arhiva.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 descarca arhiva--8488fa60.py",
+    "bytes": 2920,
+    "sha256": "839b1bc2f3e80c16e8fe6f927c8f70d5d292b0077ef146aaa9a5db8f23c8de7d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 descarca atasamente.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 descarca atasamente--6e6997df.py",
+    "bytes": 1524,
+    "sha256": "4358b1039a757aa3ba25d1460ca00acde7655481f7af145142d9430ff876e36f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 descarcari EVA temporare.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 descarcari EVA temporare--2dc71aa7.json",
+    "bytes": 29799,
+    "sha256": "2790c9c9a935757894ed0ab45ab66366ab420a0269b17bfd1d0a13c28796211f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 descarcari prioritare.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 descarcari prioritare--b0192b67.json",
+    "bytes": 3192,
+    "sha256": "8a5cf22b98a685e9bc2f59d402455223f0bb47945daa4afa011110aff41884fc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 emailuri finante.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 emailuri finante--ded1fd04.py",
+    "bytes": 1369,
+    "sha256": "b284d79e0ee90f0539d8e122011a28f1bb9201d06e29acb56c2d1047998efcec"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 extrage tranzactii.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 extrage tranzactii--95bb1294.py",
+    "bytes": 2540,
+    "sha256": "87d140fc8017b744f2cdd61df8bc26cf4eee376ffb151a894c1aeb257c25c10e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 finalizeaza status financiar.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 finalizeaza status financiar--fa3cbbe8.py",
+    "bytes": 8004,
+    "sha256": "00cd27d8300d3dad3fed71f8211e29eb0df78b20d272a18d0d85ad00d3dc5ce1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 lista descarcari.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 lista descarcari--5614d3e1.py",
+    "bytes": 2043,
+    "sha256": "fd5ad23fcf30bddcc844e78dcaf0cffcfcbeda11ac3ec90d6531e2eaecd54db0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 lista mesaje candidate.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 lista mesaje candidate--5c9b6b41.json",
+    "bytes": 724453,
+    "sha256": "68ad8ec770ca58516d8df8c716228109b3aa575d81702c21313ad720caca2cf4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 pregateste pachet datat.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 pregateste pachet datat--be111859.py",
+    "bytes": 3666,
+    "sha256": "3fff970f0ab519c5fa158787d0133fc3df15220259611b369b1f066e8bc7b50d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 reuneste cautari.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 reuneste cautari--ed526d3c.py",
+    "bytes": 1628,
+    "sha256": "57f417d15b7dbc87cda0d2f685128799e51273925830abba6a6c366c144f9c65"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 revizuire mesaje.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 revizuire mesaje--b53aead2.py",
+    "bytes": 1207,
+    "sha256": "d1dea34de9db55583a8c2b4ada0790b5028ab91e2298989c5dd4ed01679dfa6e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 salveaza octeti EVA.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 salveaza octeti EVA--54c701cc.py",
+    "bytes": 1373,
+    "sha256": "968d75c53de1fe1012c2a09e7a230fa745247cd3ccc4740bbd90ca76c93a5273"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 statusuri verificate.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 statusuri verificate--2faf5720.json",
+    "bytes": 24210,
+    "sha256": "e2f2c61bf5064fc919a782b961c05c0fe7804494c2c4ad12aa7493096b987054"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 surse financiare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 surse financiare--278e50a0.py",
+    "bytes": 956,
+    "sha256": "8f4754156bc58f726d00622d5c8abe5bcfe46963f6e1c66647bddc1e5b161678"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 verifica download.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 verifica download--60161531.py",
+    "bytes": 466,
+    "sha256": "a4479775945fac144d2f5f3341f43193fa7ec19dfffa3508d42b28c56ddc379e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.09.30 verifica livrabile.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.30 verifica livrabile--04d63c09.py",
+    "bytes": 2341,
+    "sha256": "cd7c16c3284808c1433954e8a6978bfb4d9b348c82b2d103d39de58866e1173a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--6f49fa50.md",
+    "bytes": 21771,
+    "sha256": "b8778b1f3977edb71db5eeaada99e14f803b03c51952780f3787268762cd0bdc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\TOMS_28sept_p2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/TOMS_28sept_p2--2f7d2b5b.png",
+    "bytes": 187010,
+    "sha256": "c3518c0be9be35e0a151fe2a181e721380354bd4b70662af60c6a904f38e94f5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\TOMS_28sept_p3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/TOMS_28sept_p3--701d7009.png",
+    "bytes": 164130,
+    "sha256": "77863bd133750bc961f4a9f9aefcce03695e4078d9ed380fadf1543ad890dcd7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\TOMS_28sept_p4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/TOMS_28sept_p4--165b8498.png",
+    "bytes": 155984,
+    "sha256": "088e14c4c4be33f997342ef2f0942fe158d1c67e72199f0512000fc791310ca1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\TOMS_28sept_p5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/TOMS_28sept_p5--5b367725.png",
+    "bytes": 36345,
+    "sha256": "a740b17bc3c0abc900b972c19ada6da20d97c3b8e5b9f424366a5007c7c27a2c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\actualizeaza_index.py",
+    "status": "copiat",
+    "saved_path": "fisiere/actualizeaza_index--9c1713be.py",
+    "bytes": 18010,
+    "sha256": "bf2c3361bba256a41879efca687775f36a5281c3b4fdcc2f854860c4ee678dfb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\cauta.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cauta--473fe8c6.py",
+    "bytes": 812,
+    "sha256": "f33254d08f67fa1e72198f84dfd0c05d3b6b0eadd9f344e1ce5f1bbbd44b6c45"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\completeaza_ocr.py",
+    "status": "copiat",
+    "saved_path": "fisiere/completeaza_ocr--83f7feb0.py",
+    "bytes": 2419,
+    "sha256": "a4073bc0a7b587cc48082e815b562fd74b238f4b2d6c4a65a9d0dda3e88de331"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\creeaza_situatie.py",
+    "status": "copiat",
+    "saved_path": "fisiere/creeaza_situatie--d51c13fb.py",
+    "bytes": 24744,
+    "sha256": "9c0abdecb29706f4afea071f78ca142705454e814bc80d59f71bf559597d8da2"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\ocr_windows.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/ocr_windows--7a8601c9.ps1",
+    "bytes": 2276,
+    "sha256": "ed6eb35e4fa901591b6e081c0b6f1c0fa9caac72b26a5344b94898c4835fe080"
+  },
+  {
+    "source_reference": "images/0.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/1.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/2.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/3.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/4.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/5.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/6.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/7.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/8.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/9.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "plugin://dev-6aa3eadee6ec8191a9bc3b9608c0f1bc@created-by-me-remote",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "01a0b122-85a6-7fb1-9f8e-19d1ce8f6855",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789639069,
+  "updated_at": 1789639819,
+  "archived": 0,
+  "source": "vscode",
+  "title": "am primit un email",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 81910,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 12,
+  "message_count": 12,
+  "content_sha256": "da67a4573dee313b3dc694c6fdcd4a14d5fa7b38af4b940d56e3957fa58996dc",
+  "files_copied": 0,
+  "references_not_copied": 3
+}

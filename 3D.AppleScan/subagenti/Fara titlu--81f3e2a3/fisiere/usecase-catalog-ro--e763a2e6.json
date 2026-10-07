@@ -1,0 +1,786 @@
+{
+  "version": 1,
+  "locale": "ro",
+  "researchedAt": "2026-10-02",
+  "appStatus": "in_development",
+  "searchVolumes": null,
+  "items": [
+    {
+      "id": "scan-object",
+      "category": "objects_print",
+      "title": "Obiecte cu dimensiuni",
+      "description": "Transformă un obiect de pe birou într-un model 3D cu cote de referință.",
+      "input": "obiect fizic și reper măsurat",
+      "output": "model 3D la scară verificată",
+      "audience": "arhitecți, designeri de produs",
+      "keywords": [
+        "scanare obiecte iPhone",
+        "scanner 3D cu dimensiuni",
+        "model 3D la scară"
+      ],
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "module": "/objects",
+      "readiness": "planned",
+      "caveat": "Verifică scara cu un reper; precizia EVA nu este încă validată.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "print-replica",
+      "category": "objects_print",
+      "title": "Replici pentru imprimare 3D",
+      "description": "Pregătește o copie fizică a unei sculpturi sau a unui obiect decorativ.",
+      "input": "obiect mat, fotografii suprapuse",
+      "output": "mesh curățat pentru slicer",
+      "audience": "makeri, artiști",
+      "keywords": [
+        "scanare pentru imprimare 3D",
+        "iPhone scan to STL",
+        "replică 3D obiect"
+      ],
+      "sourceIds": [
+        "S08"
+      ],
+      "module": "/objects",
+      "readiness": "conditional",
+      "caveat": "Necesită mesh închis, grosimi și suporturi verificate în slicer.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "reverse-reference",
+      "category": "objects_print",
+      "title": "Referință pentru reproiectare CAD",
+      "description": "Folosește forma capturată ca reper pentru un model CAD editabil.",
+      "input": "obiect și cote de control",
+      "output": "referință mesh pentru modelare CAD",
+      "audience": "proiectanți, ateliere",
+      "keywords": [
+        "scanare piesă pentru CAD",
+        "reverse engineering iPhone",
+        "mesh în model CAD"
+      ],
+      "sourceIds": [
+        "S09"
+      ],
+      "module": "/objects",
+      "readiness": "conditional",
+      "caveat": "Mesh-ul nu devine automat un model parametric; cote critice măsurate separat.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "custom-holder",
+      "category": "objects_print",
+      "title": "Suporturi adaptate obiectelor",
+      "description": "Proiectează un suport pornind de la forma și gabaritul obiectului.",
+      "input": "obiect, zona de contact și cote",
+      "output": "referință pentru suport personalizat",
+      "audience": "makeri, designeri",
+      "keywords": [
+        "suport personalizat 3D",
+        "scanare obiect pentru suport",
+        "proiectare după scanare"
+      ],
+      "sourceIds": [
+        "S09",
+        "S08"
+      ],
+      "module": "/objects",
+      "readiness": "conditional",
+      "caveat": "Necesită modelare și probă de potrivire; fără piese critice de siguranță.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "product-view",
+      "category": "objects_print",
+      "title": "Produse prezentate în 3D",
+      "description": "Arată un produs din mai multe unghiuri într-un catalog digital.",
+      "input": "produs și fotografii complete",
+      "output": "model texturat pentru vizualizator web",
+      "audience": "artizani, comercianți",
+      "keywords": [
+        "model produs 3D",
+        "scanare produse magazin online",
+        "fotogrammetrie produs"
+      ],
+      "sourceIds": [
+        "S02"
+      ],
+      "module": "/objects",
+      "readiness": "planned",
+      "caveat": "Texturile lucioase sau transparente pot necesita altă metodă de captură.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "design-archive",
+      "category": "objects_print",
+      "title": "Arhiva prototipurilor",
+      "description": "Păstrează versiunile fizice ale unui prototip ca modele digitale comparabile.",
+      "input": "prototip etichetat și reper",
+      "output": "model cu versiune și cote de referință",
+      "audience": "studiouri de design",
+      "keywords": [
+        "arhivă prototipuri 3D",
+        "scanare machete",
+        "digitalizare obiecte design"
+      ],
+      "sourceIds": [
+        "S02",
+        "S09"
+      ],
+      "module": "/objects",
+      "readiness": "planned",
+      "caveat": "Comparația geometrică validată cere aliniere și protocol separat.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "wall-size",
+      "category": "measure_diy",
+      "title": "Lățimea și înălțimea pereților",
+      "description": "Verifică orientativ dimensiunile unui perete direct pe ecran.",
+      "input": "perete vizibil și puncte alese",
+      "output": "cote AR; imagine doar la salvare explicită",
+      "audience": "meseriași, proprietari",
+      "keywords": [
+        "măsoară pereți cu telefonul",
+        "ruletă AR iPhone",
+        "aplicație dimensiuni perete"
+      ],
+      "sourceIds": [
+        "S03"
+      ],
+      "module": "/measure",
+      "readiness": "planned",
+      "caveat": "Verifică măsurile finale cu ruletă sau laser înainte de comandă.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "furniture-fit",
+      "category": "measure_diy",
+      "title": "Încape mobila aici?",
+      "description": "Compară gabaritul mobilierului cu spațiul disponibil.",
+      "input": "spațiu disponibil și dimensiunile mobilei",
+      "output": "comparație orientativă de gabarit",
+      "audience": "cumpărători, amenajatori",
+      "keywords": [
+        "măsurare spațiu mobilă",
+        "încape canapeaua",
+        "dimensiuni mobilă iPhone"
+      ],
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "module": "/measure",
+      "readiness": "planned",
+      "caveat": "Lasă marjă pentru montaj și acces; confirmă fizic.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "doorway-fit",
+      "category": "measure_diy",
+      "title": "Trece obiectul prin ușă?",
+      "description": "Compară obiectul cu golurile și traseul de acces.",
+      "input": "uși, holuri și gabaritul obiectului",
+      "output": "cote și puncte de verificat pe traseu",
+      "audience": "echipe de mutare, proprietari",
+      "keywords": [
+        "măsurare ușă telefon",
+        "mobilă prin ușă",
+        "dimensiuni pentru mutare"
+      ],
+      "sourceIds": [
+        "S03"
+      ],
+      "module": "/measure",
+      "readiness": "conditional",
+      "caveat": "Rotirea și traseul complet cer verificări; nu promite o simulare automată.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "paint-area",
+      "category": "measure_diy",
+      "title": "Suprafață orientativă pentru vopsit",
+      "description": "Pornește de la dimensiuni pentru o estimare a suprafeței pereților.",
+      "input": "lățimi, înălțimi și goluri",
+      "output": "arie estimată și ipoteze de calcul",
+      "audience": "zugravi, amatori DIY",
+      "keywords": [
+        "calcul suprafață pereți",
+        "câtă vopsea necesară",
+        "măsurare cameră vopsit"
+      ],
+      "sourceIds": [
+        "S03",
+        "S06"
+      ],
+      "module": "/measure",
+      "readiness": "conditional",
+      "caveat": "Consumurile depind de produs, suport și numărul de straturi.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "floor-area",
+      "category": "measure_diy",
+      "title": "Pardoseli și placări",
+      "description": "Estimează suprafața pentru parchet sau gresie înaintea unei oferte.",
+      "input": "conturul zonei și obstacole",
+      "output": "arie orientativă cu deduceri explicite",
+      "audience": "montatori, proprietari",
+      "keywords": [
+        "calcul suprafață parchet",
+        "măsurare gresie telefon",
+        "arie cameră iPhone"
+      ],
+      "sourceIds": [
+        "S06"
+      ],
+      "module": "/measure",
+      "readiness": "conditional",
+      "caveat": "Pierderile de tăiere și geometria dificilă se verifică separat.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "hanging-layout",
+      "category": "measure_diy",
+      "title": "Poziții pentru tablouri și rafturi",
+      "description": "Compară înălțimi și spații libere pentru o compoziție pe perete.",
+      "input": "perete, cote și elemente alese",
+      "output": "ghid vizual orientativ de poziționare",
+      "audience": "decoratori, proprietari",
+      "keywords": [
+        "poziționare rafturi",
+        "măsurare tablou perete",
+        "amenajare perete AR"
+      ],
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "module": "/measure",
+      "readiness": "conditional",
+      "caveat": "Scanarea nu detectează cabluri, țevi sau rezistența suportului.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "room-redesign",
+      "category": "interior_design",
+      "title": "Reamenajarea unei camere",
+      "description": "Pornește proiectul de design de la forma încăperii existente.",
+      "input": "scanarea camerei și cote verificate",
+      "output": "model de referință pentru amenajare",
+      "audience": "designeri, cupluri care renovează",
+      "keywords": [
+        "aplicație amenajare cameră",
+        "scanare cameră design interior",
+        "releveu interior iPhone"
+      ],
+      "sourceIds": [
+        "S01",
+        "S04"
+      ],
+      "module": "/spaces",
+      "readiness": "planned",
+      "caveat": "Modelul de cameră poate simplifica obiectele și suprafețele.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "furniture-library",
+      "category": "interior_design",
+      "title": "Bibliotecă de mobilier existent",
+      "description": "Digitalizează piesele pe care clientul vrea să le păstreze.",
+      "input": "fotografii ale mobilierului și gabarit",
+      "output": "bibliotecă de modele pentru proiect",
+      "audience": "designeri, ateliere de mobilier",
+      "keywords": [
+        "scanare mobilier 3D",
+        "bibliotecă mobilier personal",
+        "mobilier existent în proiect"
+      ],
+      "sourceIds": [
+        "S04"
+      ],
+      "module": "/objects",
+      "readiness": "planned",
+      "caveat": "Verifică textura și scara înainte de integrarea în scenă.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "layout-options",
+      "category": "interior_design",
+      "title": "Variante de amplasare",
+      "description": "Pregătește variante de poziționare a mobilierului în modelul camerei.",
+      "input": "camera și mobilierul digital",
+      "output": "scenarii vizuale în editor compatibil",
+      "audience": "designeri, proprietari",
+      "keywords": [
+        "variante amenajare living",
+        "plan mobilier cameră",
+        "simulare amplasare mobilă"
+      ],
+      "sourceIds": [
+        "S04"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "Editorul de amenajări este o integrare propusă, nu o funcție EVA demonstrată.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "kitchen-brief",
+      "category": "interior_design",
+      "title": "Brief pentru bucătărie",
+      "description": "Transmite proiectantului geometria vizibilă și pozițiile de referință.",
+      "input": "pereți, goluri și instalații vizibile",
+      "output": "model și note pentru ofertare",
+      "audience": "proiectanți bucătării, clienți",
+      "keywords": [
+        "măsurare bucătărie iPhone",
+        "releveu bucătărie",
+        "plan bucătărie la comandă"
+      ],
+      "sourceIds": [
+        "S01",
+        "S04"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "Mobilierul la comandă cere măsurători finale profesioniste.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "design-review",
+      "category": "interior_design",
+      "title": "Discuții cu designerul la distanță",
+      "description": "Discută ideile de amenajare pe o referință spațială comună.",
+      "input": "modelul camerei și observații",
+      "output": "vizualizare partajată sau export",
+      "audience": "designeri, clienți la distanță",
+      "keywords": [
+        "consultanță design online",
+        "model cameră pentru designer",
+        "partajare releveu 3D"
+      ],
+      "sourceIds": [
+        "S04"
+      ],
+      "module": "/spaces",
+      "readiness": "planned",
+      "caveat": "Partajarea și permisiunile trebuie implementate și testate.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "fitout-brief",
+      "category": "interior_design",
+      "title": "Amenajarea unui spațiu comercial",
+      "description": "Pregătește un punct de plecare pentru rafturi, recepție sau mobilier.",
+      "input": "scanarea spațiului și cerințe de utilizare",
+      "output": "referință pentru proiectul de amenajare",
+      "audience": "comercianți, designeri comerciali",
+      "keywords": [
+        "amenajare magazin 3D",
+        "scanare spațiu comercial",
+        "plan showroom"
+      ],
+      "sourceIds": [
+        "S01",
+        "S07"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "Circulațiile și cerințele de acces se verifică în proiectul de specialitate.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "repair-list",
+      "category": "repair_construction",
+      "title": "Ce avem de reparat?",
+      "description": "Leagă fotografii și observații de locul exact din cameră.",
+      "input": "spațiu scanat și defecte vizibile notate",
+      "output": "listă de intervenții localizate",
+      "audience": "maiștri, proprietari",
+      "keywords": [
+        "aplicație listă reparații",
+        "documentare renovare",
+        "fotografii defecte pe plan"
+      ],
+      "sourceIds": [
+        "S05"
+      ],
+      "module": "/spaces",
+      "readiness": "planned",
+      "caveat": "Documentarea vizuală nu diagnostichează cauze sau rezistența structurii.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "before-after",
+      "category": "repair_construction",
+      "title": "Înainte și după renovare",
+      "description": "Arhivează etapele lucrării din puncte de vedere comparabile.",
+      "input": "scanări și fotografii datate",
+      "output": "istoric vizual al etapelor",
+      "audience": "constructori, beneficiari",
+      "keywords": [
+        "înainte după renovare",
+        "documentare progres șantier",
+        "scanare etape lucrări"
+      ],
+      "sourceIds": [
+        "S05",
+        "S07"
+      ],
+      "module": "/spaces",
+      "readiness": "planned",
+      "caveat": "Datarea și alinierea nu constituie singure expertiză sau probă certificată.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "repair-quote",
+      "category": "repair_construction",
+      "title": "Ofertă pentru reparații",
+      "description": "Oferă meseriașului context vizual și cote orientative pentru discuția inițială.",
+      "input": "model, note și zone de lucru",
+      "output": "pachet de referință pentru ofertare",
+      "audience": "meseriași, clienți",
+      "keywords": [
+        "ofertă renovare cameră",
+        "măsurători pentru deviz",
+        "releveu reparații"
+      ],
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "Oferta finală depinde de constatare, materiale și cantități verificate.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "visible-services",
+      "category": "repair_construction",
+      "title": "Instalații înainte de închidere",
+      "description": "Păstrează poziția vizibilă a traseelor înainte să fie acoperite.",
+      "input": "pereți deschiși, trasee vizibile și cote",
+      "output": "arhivă de referință a instalațiilor",
+      "audience": "instalatori, beneficiari",
+      "keywords": [
+        "documentare instalații",
+        "fotografii țevi înainte tencuială",
+        "arhivă trasee cabluri"
+      ],
+      "sourceIds": [
+        "S04",
+        "S05"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "Ulterior nu detectează prin perete; lucrările cer verificări de specialitate.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "handover-notes",
+      "category": "repair_construction",
+      "title": "Observații la predarea lucrării",
+      "description": "Grupează pe camere lucrările de remediat și fotografiile aferente.",
+      "input": "camere și observații introduse manual",
+      "output": "listă de verificare pentru discuția de predare",
+      "audience": "beneficiari, maiștri",
+      "keywords": [
+        "listă remedieri renovare",
+        "verificare predare apartament",
+        "observații lucrări pe plan"
+      ],
+      "sourceIds": [
+        "S05"
+      ],
+      "module": "/spaces",
+      "readiness": "planned",
+      "caveat": "Acceptarea tehnică și verificările reglementate rămân procese separate.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "renovation-cad",
+      "category": "repair_construction",
+      "title": "Referință pentru planșe CAD",
+      "description": "Transferă geometria existentă către fluxul de desenare al proiectantului.",
+      "input": "captură validată și cote de control",
+      "output": "export și referință pentru CAD",
+      "audience": "arhitecți, ingineri",
+      "keywords": [
+        "scanare cameră CAD",
+        "releveu DXF iPhone",
+        "scanare cameră DWG"
+      ],
+      "sourceIds": [
+        "S01",
+        "S09",
+        "S12",
+        "S13"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "DWG cere integrare și licențiere; mesh-ul nu este plan tehnic aprobat.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "apartment-plan",
+      "category": "spaces_property",
+      "title": "Planul apartamentului",
+      "description": "Reunește camerele într-o reprezentare a locuinței.",
+      "input": "scanări de camere și legături verificate",
+      "output": "plan/model al apartamentului",
+      "audience": "proprietari, arhitecți",
+      "keywords": [
+        "scanare apartament iPhone",
+        "plan apartament telefon",
+        "releveu apartament 3D"
+      ],
+      "sourceIds": [
+        "S01"
+      ],
+      "module": "/spaces",
+      "readiness": "planned",
+      "caveat": "Îmbinarea și erorile acumulate trebuie validate.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "house-levels",
+      "category": "spaces_property",
+      "title": "Casa organizată pe niveluri",
+      "description": "Organizează camerele și etajele într-un proiect coerent.",
+      "input": "camere scanate și niveluri etichetate",
+      "output": "proiect cu structură pe etaje",
+      "audience": "arhitecți, proprietari de case",
+      "keywords": [
+        "scanare casă 3D",
+        "plan casă iPhone",
+        "releveu pe etaje"
+      ],
+      "sourceIds": [
+        "S01",
+        "S07"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "Alinierea între etaje cere control; nu oferă automat coordonate topografice.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "property-presentation",
+      "category": "spaces_property",
+      "title": "Prezentarea unei proprietăți",
+      "description": "Explică organizarea spațiului prin modele și imagini de orientare.",
+      "input": "captură interioară și date aprobate",
+      "output": "material vizual pentru prezentare",
+      "audience": "agenți imobiliari, proprietari",
+      "keywords": [
+        "model 3D apartament",
+        "prezentare imobiliară 3D",
+        "scanare interior proprietate"
+      ],
+      "sourceIds": [
+        "S07"
+      ],
+      "module": "/spaces",
+      "readiness": "planned",
+      "caveat": "Planul orientativ nu înlocuiește documentația cadastrală.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "rental-record",
+      "category": "spaces_property",
+      "title": "Starea locuinței la predare",
+      "description": "Păstrează o referință vizuală convenită de părți.",
+      "input": "fotografii, model și observații datate",
+      "output": "arhivă de predare a spațiului",
+      "audience": "proprietari, chiriași",
+      "keywords": [
+        "inventar locuință închiriată",
+        "stare apartament predare",
+        "documentare proprietate"
+      ],
+      "sourceIds": [
+        "S05",
+        "S07"
+      ],
+      "module": "/spaces",
+      "readiness": "planned",
+      "caveat": "Utilitate documentară; nu promite valoare probatorie sau evaluare automată.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "maintenance-map",
+      "category": "spaces_property",
+      "title": "Harta vizuală pentru mentenanță",
+      "description": "Localizează echipamentele vizibile și notele de întreținere în spațiu.",
+      "input": "model și etichete adăugate manual",
+      "output": "referință pentru echipa de mentenanță",
+      "audience": "administratori, tehnicieni",
+      "keywords": [
+        "mentenanță clădire 3D",
+        "inventar echipamente pe plan",
+        "model spațiu tehnic"
+      ],
+      "sourceIds": [
+        "S07"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "Integrarea cu inventarul și datele live este opțională și neimplementată.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "venue-planning",
+      "category": "spaces_property",
+      "title": "Planificarea unui eveniment",
+      "description": "Folosește forma sălii ca reper pentru o schiță de amplasare.",
+      "input": "sală scanată, mobilier și cote",
+      "output": "referință pentru scenarii de amenajare",
+      "audience": "organizatori, administratori de săli",
+      "keywords": [
+        "plan sală eveniment",
+        "scanare sală 3D",
+        "amplasare mese pe plan"
+      ],
+      "sourceIds": [
+        "S01",
+        "S07"
+      ],
+      "module": "/spaces",
+      "readiness": "conditional",
+      "caveat": "Capacitatea legală și evacuarea se stabilesc prin evaluări de specialitate.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "portrait-keepsake",
+      "category": "people_creative",
+      "title": "Portret 3D de păstrat",
+      "description": "Capturează o persoană care participă voluntar pentru un suvenir digital.",
+      "input": "persoană nemișcată, lumină uniformă",
+      "output": "mesh de portret pentru editare",
+      "audience": "familii, creatori",
+      "keywords": [
+        "portret 3D iPhone",
+        "scanare persoană 3D",
+        "amintire 3D"
+      ],
+      "sourceIds": [
+        "S10"
+      ],
+      "module": "/people",
+      "readiness": "conditional",
+      "caveat": "Consimțământ și captură ghidată; părul și mișcarea pot produce artefacte.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "miniature-person",
+      "category": "people_creative",
+      "title": "Miniatură personalizată",
+      "description": "Pregătește o scanare a persoanei pentru o figurină.",
+      "input": "captură voluntară și model curățat",
+      "output": "mesh pregătit în software de tipărire",
+      "audience": "ateliere de cadouri, artiști",
+      "keywords": [
+        "figurină 3D personalizată",
+        "scanare persoană imprimare 3D",
+        "miniatură după fotografie 3D"
+      ],
+      "sourceIds": [
+        "S10",
+        "S08"
+      ],
+      "module": "/people",
+      "readiness": "conditional",
+      "caveat": "Sunt necesare reparare, grosimi, suporturi și verificare înainte de imprimare.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "avatar-reference",
+      "category": "people_creative",
+      "title": "Referință pentru un avatar",
+      "description": "Folosește captura ca punct de plecare pentru un personaj digital.",
+      "input": "persoană în postură stabilă și captură completă",
+      "output": "mesh pentru retopologie și rigging extern",
+      "audience": "artiști 3D, studiouri",
+      "keywords": [
+        "avatar din scanare 3D",
+        "scanare corp pentru animație",
+        "personaj 3D personalizat"
+      ],
+      "sourceIds": [
+        "S10"
+      ],
+      "module": "/people",
+      "readiness": "conditional",
+      "caveat": "Nu livrează automat avatar animat; fără utilizare biometrică sau medicală validată.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "creative-props",
+      "category": "people_creative",
+      "title": "Recuzită pentru jocuri și film",
+      "description": "Transformă obiecte reale în referințe pentru scene digitale.",
+      "input": "recuzită și fotografii suprapuse",
+      "output": "mesh texturat pentru optimizare",
+      "audience": "creatori de jocuri, artiști VFX",
+      "keywords": [
+        "scanare recuzită 3D",
+        "obiect real în joc",
+        "fotogrammetrie pentru VFX"
+      ],
+      "sourceIds": [
+        "S02"
+      ],
+      "module": "/objects",
+      "readiness": "conditional",
+      "caveat": "Necesită optimizare, drept de utilizare și adaptare la motorul grafic.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "heritage-object",
+      "category": "people_creative",
+      "title": "Obiecte de patrimoniu și colecții",
+      "description": "Documentează vizual forma unui obiect fără a-l modifica.",
+      "input": "obiect autorizat și fotografii non-invazive",
+      "output": "model de referință și metadate",
+      "audience": "muzee, colecționari, educatori",
+      "keywords": [
+        "digitalizare patrimoniu 3D",
+        "scanare obiect muzeu",
+        "arhivă colecție 3D"
+      ],
+      "sourceIds": [
+        "S02",
+        "S17"
+      ],
+      "module": "/objects",
+      "readiness": "conditional",
+      "caveat": "Respectă restricțiile colecției; nu înlocuiește conservarea sau metrologia.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    },
+    {
+      "id": "education-model",
+      "category": "people_creative",
+      "title": "Modele pentru învățare",
+      "description": "Construiește lecții în care elevii explorează obiecte din mai multe unghiuri.",
+      "input": "obiecte permise și captură ghidată",
+      "output": "model 3D pentru explicații și comparații",
+      "audience": "profesori, studenți",
+      "keywords": [
+        "modele 3D educație",
+        "scanare 3D școală",
+        "fotogrammetrie proiect elevi"
+      ],
+      "sourceIds": [
+        "S02",
+        "S08"
+      ],
+      "module": "/objects",
+      "readiness": "planned",
+      "caveat": "Modelele sunt instrumente didactice; detaliile și scara se verifică.",
+      "basis": "Proposed EVA workflow inferred from documented industry capabilities; not an implemented EVA feature."
+    }
+  ]
+}

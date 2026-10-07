@@ -1,0 +1,42 @@
+[
+    {
+        "id":  "ROB-A01",
+        "severity":  "P1",
+        "status":  "closed",
+        "artifact":  "01_capitole/07_Transport_si_harta_distribuita.md §7.2; 04_contracte/ros_topics.json envelope",
+        "issue":  "Secventele sunt independente per stream, dar cheia de deduplicare declarata este doar sesiune-secventa. Doua fluxuri valide cu sequence=1 ar putea coliziona.",
+        "required_fix":  "Definiti cheia exacta (device_id,session_id,stream_id,sequence), propagati in contract si adaugati test cu acelasi sequence pe RGB/depth si duplicat real in acelasi flux.",
+        "closed_by_audit":  "AUDIT_ROBOTICA_R2.md",
+        "closure_scope":  "documentary_specification_only; hardware and implementation tests unexecuted"
+    },
+    {
+        "id":  "ROB-A02",
+        "severity":  "P1",
+        "status":  "closed",
+        "artifact":  "04_contracte/ros_topics.json admission.age_formula; 01_capitole/07_Transport_si_harta_distribuita.md §7.3",
+        "issue":  "Formula admite doar limita superioara age+u\u003c=limit si accepta astfel timestampuri mult in viitor, contrazicand intentia prozei de respingere a ceasului invalid.",
+        "required_fix":  "Definiti domeniul ceasului, validitatea modelului, u finit nenegativ sub prag, limita inferioara age\u003e=-u ori politica mai conservatoare; testati viitorul dincolo de incertitudine, timestampul stale, NaN/overflow si model expirat.",
+        "closed_by_audit":  "AUDIT_ROBOTICA_R2.md",
+        "closure_scope":  "documentary_specification_only; hardware and implementation tests unexecuted"
+    },
+    {
+        "id":  "ROB-A03",
+        "severity":  "P2",
+        "status":  "closed",
+        "artifact":  "04_contracte/ros_topics.json topics[/eva/objects/state].states; 01_capitole/07_Transport_si_harta_distribuita.md §7.7; interfața cu 04_Perceptie_6D_si_catalog.md §4.6",
+        "issue":  "Capitolul perceptiei defineste ambiguous si archived, contractul ROS omite ambiguous si foloseste retired, fara mapare. Regula spune ambiguitate explicita, dar lipseste campul/valoarea de transport.",
+        "required_fix":  "Stabiliti vocabular canonic sau mapare explicita lossless; includeti ambiguity_status separat ori stare si corespondenta archived/retired; actualizati payloadul si testati round-trip.",
+        "closed_by_audit":  "AUDIT_ROBOTICA_R2.md",
+        "closure_scope":  "documentary_specification_only; hardware and implementation tests unexecuted"
+    },
+    {
+        "id":  "ROB-A04",
+        "severity":  "P2",
+        "status":  "closed",
+        "artifact":  "01_capitole/07_Transport_si_harta_distribuita.md §7.6; 04_contracte/ros_topics.json MapDelta and map_replication.revision_rule",
+        "issue":  "Identitatea duplicatelor/conflictelor nu defineste exact hashul complet. geometry_hash poate ramane identic cand transformarea fragmentului difera la aceeasi revizie, iar cheia fragmentului singura nu include revizia.",
+        "required_fix":  "Definiti cheia operatiei cu epoch/chunk/revizie si hash canonic pentru intreg continutul semantic (operation, base/new revision, transform, frame/calibration,geometry reference/hash,transaction). Clarificati null geometry la DELETE si test conflict doar transform.",
+        "closed_by_audit":  "AUDIT_ROBOTICA_R2.md",
+        "closure_scope":  "documentary_specification_only; hardware and implementation tests unexecuted"
+    }
+]

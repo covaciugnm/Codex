@@ -1,0 +1,23 @@
+{
+  "id": "01a0e853-28c5-71c0-8b27-56ec5dd6456d",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790582030,
+  "updated_at": 1790595464,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Echipamente Ucraina brochure organization",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 820322,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 299,
+  "message_count": 299,
+  "content_sha256": "7a48e27738eb57bc143a1b7ba4ee560214f0435f28f45ddc534eaf3d2475d2bb",
+  "files_copied": 19,
+  "references_not_copied": 17
+}

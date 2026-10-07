@@ -1,0 +1,23 @@
+{
+  "id": "01a0b122-8573-7653-979b-0451f89c4409",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789678224,
+  "updated_at": 1789678224,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Materiale și deviz Schallergasse 35",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1452083,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 696,
+  "message_count": 696,
+  "content_sha256": "7a112ed814fb97a253e884f65d1aec8f603862cd0b3e11e75aceca4286bdbdb3",
+  "files_copied": 22,
+  "references_not_copied": 143
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a0f253-b1e1-7371-8497-9a649c6cf614",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+  "created_at": 1790771966,
+  "updated_at": 1790772407,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a0f245-3049-7672-a580-84ab05dfa3ae\",\"depth\":1,\"agent_path\":\"/root/audit_pachet_procedura\",\"agent_nickname\":\"Cicero\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "a62819fc-eecd-41a3-acfa-724e26db8d88",
+  "project": "AFIR-FotoVoltaic Production",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a0f245-3049-7672-a580-84ab05dfa3ae",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1009034,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 20,
+  "message_count": 1,
+  "content_sha256": "bcf6985b3b0b2ebe3acc2d70c9bba0dfc0987af9ea43feacf8f79db543e8b236",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

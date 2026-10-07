@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9d94-7e21-bafc-acc1960062fc",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1783511357,
+  "updated_at": 1784640993,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Organize funding project monitoring requirements",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1062217,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 606,
+  "message_count": 606,
+  "content_sha256": "5d11e3bdba88f395f536b19b68dcfa88f94a698e45624c2173e548315c83f6e2",
+  "files_copied": 11,
+  "references_not_copied": 52
+}

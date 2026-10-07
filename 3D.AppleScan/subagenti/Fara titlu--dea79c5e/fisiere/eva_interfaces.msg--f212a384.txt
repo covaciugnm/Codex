@@ -1,0 +1,68 @@
+# Proposed ROS 2 interfaces, not a compiled package.
+# Split each FILE section into eva_interfaces/msg/<name>.msg.
+# Header.stamp is validated ROS-domain capture time; monotonic ns is retained separately.
+
+=== FILE WireIdentity.msg ===
+string device_id
+string session_id
+string stream_id
+uint64 sequence
+uint64 map_epoch
+uint64 clock_epoch
+string calibration_id
+int64 capture_robot_steady_ns
+string clock_model_id
+uint64 uncertainty_ns
+
+=== FILE ObjectObservation.msg ===
+std_msgs/Header header
+eva_interfaces/WireIdentity identity
+string observation_id
+string object_id
+string model_version
+# observed | predicted | occluded | lost | retired
+string state
+# none | pose | identity | both
+string ambiguity_status
+geometry_msgs/Pose pose
+bool covariance_known
+# ROS additive position and infinitesimal fixed-axis parent rotation.
+# Unknown covariance must be ignored; zero values are not evidence of certainty.
+float64[36] covariance
+string covariance_convention
+string covariance_frame_id
+float32 confidence
+
+=== FILE PerceptionStatus.msg ===
+std_msgs/Header header
+eva_interfaces/WireIdentity identity
+string producer_state
+bool tracking_ok
+bool calibration_valid
+bool clock_valid
+bool tf_valid
+string thermal_state
+uint64 last_observation_age_ns
+uint64 rejected_frames
+string rejection_reason
+
+=== FILE MapChunkEvent.msg ===
+std_msgs/Header header
+eva_interfaces/WireIdentity identity
+string chunk_id
+uint64 base_revision
+uint64 new_revision
+# upsert | delete; event notification, not the full data store
+string operation
+geometry_msgs/Pose chunk_pose
+string semantic_hash
+bool geometry_present
+string geometry_sha256
+uint64 geometry_byte_length
+
+# Existing standard interfaces:
+# sensor_msgs/Image: 32FC1, step=width*4, is_bigendian=false, units metres.
+# sensor_msgs/CameraInfo: K matches the transmitted depth resolution.
+# sensor_msgs/PointCloud2: x/y/z FLOAT32 metres in header.frame_id.
+# geometry_msgs transforms: SI and REP103, no duplicated TF authority.
+# std_msgs/Bool perception_valid is advisory software state, not a safety controller.

@@ -1,0 +1,72 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/1728fcd4-b4c7-4fb3-8023-13ff6939542c/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\1728fcd4-b4c7-4fb3-8023-13ff6939542c\\scratchpad\\Schadensbericht_Garagentor_Schallergasse35_2026-09-18.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\06. Garagentor (Fa. Tobias)\\2026.09.18 Schadensereignis\\Schadens- und Ereignisbericht Garagentor - Schallergasse 35 - 2026-09-18.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Schadens- und Ereignisbericht Garagentor - Schallergass--ddc4e2b7.pdf",
+    "bytes": 4432293,
+    "sha256": "da8e5eb56890abb20ce4c704effe4370f303cef0a5ef5c67efc108649d253dd2"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\07. Poze + Video",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox\\20260818125542.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox\\IMG_1920.MOV",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox\\Liste de cantitati",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\06. Garagentor (Fa. Tobias)\\\\2026.09.18 Schadensereignis\\\\Schadens- und Ereignisbericht Garagentor - Schallergasse 35 - 2026-09-18.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Schadens- und Ereignisbericht Garagentor - Schallergass--ddc4e2b7.pdf",
+    "bytes": 4432293,
+    "sha256": "da8e5eb56890abb20ce4c704effe4370f303cef0a5ef5c67efc108649d253dd2"
+  },
+  {
+    "source_reference": "eva-contab-localizare-ro.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "garagentor-tobias-schallergasse.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "imobil-stefan-luchian-3b.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

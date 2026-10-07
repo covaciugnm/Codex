@@ -1,0 +1,41 @@
+{
+  "project": {
+    "id": "a85004ee-5acd-4f38-b445-2289450e8065",
+    "name": "EVA-Mail",
+    "roots": [
+      "Z:\\00.Roboti\\EVA.Pro\\eMail"
+    ],
+    "conversations": 1,
+    "subagents": 0,
+    "messages": 7,
+    "files_copied": 0,
+    "content_sha256": "1d36635405a13d5ecfe4a2906d9013dd3fb5dbcdfd48c0d6016069bf3a787141"
+  },
+  "threads": [
+    {
+      "id": "01a1117a-f620-74d1-9aae-99981e79cbd3",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\eMail",
+      "created_at": 1791294633,
+      "updated_at": 1791294881,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Caută numărul în emailuri",
+      "project_id": "a85004ee-5acd-4f38-b445-2289450e8065",
+      "project": "EVA-Mail",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "source_bytes": 694189,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 28,
+      "message_count": 7,
+      "content_sha256": "ec43cdec20a90e567c6c573f21a6629e0cffc5853bfdfd1b10e69c9fbcfb3c1b",
+      "files_copied": 0,
+      "references_not_copied": 5,
+      "subagent": false,
+      "folder": "EVA-Mail/Caută numărul în emailuri"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a0d4e2-dda4-7630-a293-17b070fb1f02",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790278032,
+  "updated_at": 1790278032,
+  "archived": 0,
+  "source": "vscode",
+  "title": "EVA producători echipamente nuci",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 786181,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 306,
+  "message_count": 306,
+  "content_sha256": "f12a6a17de49f112115610423a6a2b91b0340abef4eb99446ff5d5c82f1e67e6",
+  "files_copied": 5,
+  "references_not_copied": 12
+}

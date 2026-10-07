@@ -1,0 +1,23 @@
+{
+  "id": "01a0c5d3-2fdb-7b10-a452-5bc9e4567487",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790025347,
+  "updated_at": 1790025347,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Raport activitate Schallergasse 35",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 114694,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 57,
+  "message_count": 57,
+  "content_sha256": "e02abf02d13b70029c4ea28ab1953f0a3e69d1e5b48d6b422b5367001fa9cb48",
+  "files_copied": 2,
+  "references_not_copied": 14
+}

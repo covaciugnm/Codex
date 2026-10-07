@@ -1,0 +1,7 @@
+{
+  "command": "Python312 -B -X utf8 04_INSTRUMENTE/gatekeeper.py --root . --deliverable ROM-001-G01 --json; PowerShell explicit exit $LASTEXITCODE",
+  "exit_code": 2,
+  "result": "06_REGISTRU/REZULTATE/ROM-001-G01-PARTIAL-GOV-r01.json",
+  "expected_missing": "A-CANON report and meta; no remaining hash/schema/contract/evidence error",
+  "orchestration_note": "Initial identical validator invocation produced valid RETURN JSON but PowerShell wrapper reported exit1 because native exit was not explicitly propagated. Coordinator guard rejected wrapper code; rerun read-only with explicit propagation gave exit2. No report, score, product or contract was changed to pass."
+}

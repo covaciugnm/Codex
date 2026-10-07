@@ -1,0 +1,23 @@
+{
+  "id": "01a0c5d3-2f48-7c20-a67a-32e56f5b15d9",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790010013,
+  "updated_at": 1790011448,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Conectare director site-uri comun",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 127129,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 45,
+  "message_count": 45,
+  "content_sha256": "57f7cf7402d0148ee1a45cb7dc6b3a55cf03a4db9f36f0ba6393a7cb670ce499",
+  "files_copied": 3,
+  "references_not_copied": 10
+}

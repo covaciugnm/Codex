@@ -1,0 +1,1266 @@
+{
+  "export_date": "2026.10.01",
+  "mailboxes": {
+    "mailboxes": [
+      {
+        "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+        "email": "factura3@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-05-28T15:05:35.568110Z"
+      },
+      {
+        "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+        "email": "admin@nova-robotics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-29T17:38:56.048744Z"
+      },
+      {
+        "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+        "email": "factura1@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "email": "covaciu.gnm@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-01T06:51:59.157633Z"
+      },
+      {
+        "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+        "email": "factura2@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-21T23:30:06.079888Z"
+      },
+      {
+        "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+        "email": "vaidae104@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-24T05:06:38.771523Z"
+      },
+      {
+        "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+        "email": "factura@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-25T10:00:12.428091Z"
+      },
+      {
+        "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+        "email": "production@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-16T20:30:20.790286Z"
+      },
+      {
+        "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+        "email": "cosmin.covaciu@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-01T10:00:58.712509Z"
+      },
+      {
+        "id": "3af45560-d448-4125-97cd-f12519882779",
+        "email": "office@alba-vision.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-24T20:30:09.731986Z"
+      },
+      {
+        "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+        "email": "cosmin.covaciu@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-01T09:30:09.503694Z"
+      },
+      {
+        "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+        "email": "mariuscodewnk@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-01T10:00:59.503165Z"
+      },
+      {
+        "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+        "email": "link_covaciu@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-08-02T20:30:05.901517Z"
+      },
+      {
+        "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+        "email": "cosmin.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-01T10:01:50.551772Z"
+      },
+      {
+        "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-01T10:01:51.153535Z"
+      },
+      {
+        "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+        "email": "cosmin@ig.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-08-12T10:09:58.959984Z"
+      },
+      {
+        "id": "shared:cesiro.horeca@gmail.com",
+        "email": "cesiro.horeca@gmail.com",
+        "provider": "",
+        "permission": "team",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:dancorproiectsrl@gmail.com",
+        "email": "dancorproiectsrl@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearideit@gmail.com",
+        "email": "3dspacearideit@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearide@gmail.com",
+        "email": "3dspacearide@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      }
+    ]
+  },
+  "searches": [
+    {
+      "items": [
+        {
+          "id": "23eaa675-18ad-45b1-b535-25f7583087b1",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "donau@donauversicherung.at",
+            "c.loschy@donauversicherung.at"
+          ],
+          "received_at": "2026-10-01T07:20:13.419503Z",
+          "snippet": "Sehr geehrte Damen und Herren,\nwir, die A&C Wohnart Immobilien GmbH, möchten die Wohnhausversicherun",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "8827e952-0877-4a73-879a-2ce077005838",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: Angebotsanfrage Bauwerksbuch gemäß § 128a BO für Wien – Wohnhaus Schallergasse 35, 1120 Wien",
+          "from_name": "Baumeister & Bausachverständigenbüro DI Paknehad",
+          "from_address": "office@paknehad-bau.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T15:57:33Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nvielen Dank für Ihre Anfrage.\r\n\r\nGerne unterbreiten wir Ihnen ein ",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Baumeister & Bausachverständigenbüro DI Paknehad",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "2a887cf4.png"
+          ]
+        },
+        {
+          "id": "1fa19552-d1fd-459e-92b3-57ed5319d18c",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "Commerz - Stefanie Gruber",
+          "from_address": "s.gruber@commerz-inkasso.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T12:51:10Z",
+          "snippet": "Sehr geehrter Herr Covaciu!\r\n\r\nWir haben Ihnen bereits am 17.09.2026 2x E-Mails mit der Stellungnahm",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Commerz - Stefanie Gruber",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Mail_nochmal_an_VN_02.EML",
+            "image002.jpg",
+            "Mail_an_VN_-_Kündigung_aufgrund_Eigentümer01.EML",
+            "Kostenaufstellung.pdf",
+            "Schreiben vom 17.09.2026.pdf"
+          ]
+        },
+        {
+          "id": "a8b64f35-b608-4df7-82d9-2affe4108631",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: 2026.09.30 | Schallergasse 35 – Abgabenkonto 058899708 – Berücksichtigung der Zahlung Q2 und aktualisierte Buchungsmitteilung Q3",
+          "from_name": "MA 6 BA 9 - Kanzlei",
+          "from_address": "kanzlei-b09@ma06.wien.gv.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T12:38:19Z",
+          "snippet": "Sehr geehrte Kundin, sehr geehrter Kunde,\r\n\r\nIhre E-Mail ist soeben in der Magistratsabteilung 6 ein",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "MA 6 BA 9 - Kanzlei",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "a1382e07-b5eb-4f5b-a7fe-247121dc287e",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "2026.09.30 | Schallergasse 35 – Abgabenkonto 058899708 – Berücksichtigung der Zahlung Q2 und aktualisierte Buchungsmitteilung Q3",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "kanzlei-b09@ma06.wien.gv.at"
+          ],
+          "received_at": "2026-09-30T12:38:11.217496Z",
+          "snippet": "Sehr geehrte Damen und Herren,\nwir bitten Sie, die Zahlung für das zweite Quartal 2026 auf dem Abgab",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "kanzlei-b09@ma06.wien.gv.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": true,
+          "attachment_names": [
+            "20260720185303213.pdf"
+          ]
+        },
+        {
+          "id": "560aebe2-82a9-4fd1-8ff7-87eb90d0f2b4",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Werkvertrag vom 01.10.2026 - Entwurf v3 und Zusatzangebot Detailplanung | Schallergasse 35",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "dagmar.zottl@toms.at"
+          ],
+          "received_at": "2026-09-30T11:52:26.948451Z",
+          "snippet": "Sehr geehrte Frau Zottl, sehr geehrter Herr Dipl.-Ing. Toms,\nvielen Dank für die unterzeichneten Fra",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "dagmar.zottl@toms.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": true,
+          "attachment_names": [
+            "2026-10-01 Werkvertrag TOMS - Entwurf AG v3.docx",
+            "2026-10-01 Werkvertrag TOMS - Entwurf AG v3.pdf",
+            "2026-09-28 Fragekatalog 2.pdf",
+            "ANG 891_Schallergasse 35, 1120 Wien_Bauwerksbuch.PDF",
+            "2026-09-22 Anlage 5 - Fragenkatalog 18.09.2026 (digitale%0D%0A Reinschrift)_korr+signed.pdf"
+          ]
+        },
+        {
+          "id": "ac59f889-f611-460b-8bf6-6261e313aca6",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Zugang zum privaten Projektportal ac-wohnart.at | Schallergasse 35",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@toms.at"
+          ],
+          "received_at": "2026-09-30T11:52:10.784343Z",
+          "snippet": "Sehr geehrte Frau Zottl, sehr geehrter Herr Dipl.-Ing. Toms,\nfür die Bearbeitung unseres Bauvorhaben",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "office@toms.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "41c4c52a-2139-409e-9907-138cb81163ee",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@maritczak.at"
+          ],
+          "received_at": "2026-09-30T11:50:35.653299Z",
+          "snippet": "Sehr geehrter Herr Dr. Maritczak,\nwir kommen auf unsere E-Mail vom 2026.09.15 zum Aktenzeichen 26160",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "office@maritczak.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "ea4ca325-f80e-4451-a193-e064f7206c0f",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "WG: retournierter Gebührenbescheid 120031905",
+          "from_name": "Jurkic Manda",
+          "from_address": "manda.jurkic@wien.gv.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T09:45:20Z",
+          "snippet": "MA31 – 1355238-2026-6\r\n120031905\r\n12., Schallergasse 35\r\n\r\n\r\nSehr geehrter Herr Covaciu,\r\n\r\nvielen D",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Jurkic Manda",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image001.png"
+          ]
+        },
+        {
+          "id": "f90dbd00-cca6-4bcd-b6ec-a9caeee78a4d",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: retournierter Gebührenbescheid",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "manda.jurkic@wien.gv.at",
+            "kanzlei-gwz@ma31.wien.gv.at"
+          ],
+          "received_at": "2026-09-30T09:04:52.788974Z",
+          "snippet": "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihre Nachricht.\nIch habe diese erhalten und werde pr",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "manda.jurkic@wien.gv.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "1c6fe6ec-d827-48b0-97b4-2a735c430559",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "retournierter Gebührenbescheid",
+          "from_name": "Jurkic Manda",
+          "from_address": "manda.jurkic@wien.gv.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T06:43:51Z",
+          "snippet": "MA31 - 1355238-2026-3\r\n120031905\r\n12., Schallergasse 35\r\n\r\n\r\nGuten Tag, Cosmin-Adrian Covaciu,\r\n\r\nwi",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Jurkic Manda",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image001.png",
+            "6_20260929_0033_009_Post.PDF.pdf"
+          ]
+        }
+      ],
+      "total": 11,
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "items": [
+        {
+          "id": "23eaa675-18ad-45b1-b535-25f7583087b1",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "donau@donauversicherung.at",
+            "c.loschy@donauversicherung.at"
+          ],
+          "received_at": "2026-10-01T07:20:13.419503Z",
+          "snippet": "Sehr geehrte Damen und Herren,\nwir, die A&C Wohnart Immobilien GmbH, möchten die Wohnhausversicherun",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "8827e952-0877-4a73-879a-2ce077005838",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: Angebotsanfrage Bauwerksbuch gemäß § 128a BO für Wien – Wohnhaus Schallergasse 35, 1120 Wien",
+          "from_name": "Baumeister & Bausachverständigenbüro DI Paknehad",
+          "from_address": "office@paknehad-bau.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T15:57:33Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nvielen Dank für Ihre Anfrage.\r\n\r\nGerne unterbreiten wir Ihnen ein ",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Baumeister & Bausachverständigenbüro DI Paknehad",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "2a887cf4.png"
+          ]
+        },
+        {
+          "id": "1fa19552-d1fd-459e-92b3-57ed5319d18c",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "Commerz - Stefanie Gruber",
+          "from_address": "s.gruber@commerz-inkasso.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T12:51:10Z",
+          "snippet": "Sehr geehrter Herr Covaciu!\r\n\r\nWir haben Ihnen bereits am 17.09.2026 2x E-Mails mit der Stellungnahm",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Commerz - Stefanie Gruber",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Mail_nochmal_an_VN_02.EML",
+            "image002.jpg",
+            "Mail_an_VN_-_Kündigung_aufgrund_Eigentümer01.EML",
+            "Kostenaufstellung.pdf",
+            "Schreiben vom 17.09.2026.pdf"
+          ]
+        },
+        {
+          "id": "a8b64f35-b608-4df7-82d9-2affe4108631",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: 2026.09.30 | Schallergasse 35 – Abgabenkonto 058899708 – Berücksichtigung der Zahlung Q2 und aktualisierte Buchungsmitteilung Q3",
+          "from_name": "MA 6 BA 9 - Kanzlei",
+          "from_address": "kanzlei-b09@ma06.wien.gv.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T12:38:19Z",
+          "snippet": "Sehr geehrte Kundin, sehr geehrter Kunde,\r\n\r\nIhre E-Mail ist soeben in der Magistratsabteilung 6 ein",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "MA 6 BA 9 - Kanzlei",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "a1382e07-b5eb-4f5b-a7fe-247121dc287e",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "2026.09.30 | Schallergasse 35 – Abgabenkonto 058899708 – Berücksichtigung der Zahlung Q2 und aktualisierte Buchungsmitteilung Q3",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "kanzlei-b09@ma06.wien.gv.at"
+          ],
+          "received_at": "2026-09-30T12:38:11.217496Z",
+          "snippet": "Sehr geehrte Damen und Herren,\nwir bitten Sie, die Zahlung für das zweite Quartal 2026 auf dem Abgab",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "kanzlei-b09@ma06.wien.gv.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": true,
+          "attachment_names": [
+            "20260720185303213.pdf"
+          ]
+        },
+        {
+          "id": "560aebe2-82a9-4fd1-8ff7-87eb90d0f2b4",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Werkvertrag vom 01.10.2026 - Entwurf v3 und Zusatzangebot Detailplanung | Schallergasse 35",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "dagmar.zottl@toms.at"
+          ],
+          "received_at": "2026-09-30T11:52:26.948451Z",
+          "snippet": "Sehr geehrte Frau Zottl, sehr geehrter Herr Dipl.-Ing. Toms,\nvielen Dank für die unterzeichneten Fra",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "dagmar.zottl@toms.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": true,
+          "attachment_names": [
+            "2026-10-01 Werkvertrag TOMS - Entwurf AG v3.docx",
+            "2026-10-01 Werkvertrag TOMS - Entwurf AG v3.pdf",
+            "2026-09-28 Fragekatalog 2.pdf",
+            "ANG 891_Schallergasse 35, 1120 Wien_Bauwerksbuch.PDF",
+            "2026-09-22 Anlage 5 - Fragenkatalog 18.09.2026 (digitale%0D%0A Reinschrift)_korr+signed.pdf"
+          ]
+        },
+        {
+          "id": "ac59f889-f611-460b-8bf6-6261e313aca6",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Zugang zum privaten Projektportal ac-wohnart.at | Schallergasse 35",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@toms.at"
+          ],
+          "received_at": "2026-09-30T11:52:10.784343Z",
+          "snippet": "Sehr geehrte Frau Zottl, sehr geehrter Herr Dipl.-Ing. Toms,\nfür die Bearbeitung unseres Bauvorhaben",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "office@toms.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "41c4c52a-2139-409e-9907-138cb81163ee",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@maritczak.at"
+          ],
+          "received_at": "2026-09-30T11:50:35.653299Z",
+          "snippet": "Sehr geehrter Herr Dr. Maritczak,\nwir kommen auf unsere E-Mail vom 2026.09.15 zum Aktenzeichen 26160",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "office@maritczak.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "ea4ca325-f80e-4451-a193-e064f7206c0f",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "WG: retournierter Gebührenbescheid 120031905",
+          "from_name": "Jurkic Manda",
+          "from_address": "manda.jurkic@wien.gv.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T09:45:20Z",
+          "snippet": "MA31 – 1355238-2026-6\r\n120031905\r\n12., Schallergasse 35\r\n\r\n\r\nSehr geehrter Herr Covaciu,\r\n\r\nvielen D",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Jurkic Manda",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image001.png"
+          ]
+        },
+        {
+          "id": "6313cd52-2977-4473-8e8f-a70cfcde00a2",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Dovada plata Wiener Wasser Manda Jurkic",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "covaciu.gnm@gmail.com",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T09:09:23Z",
+          "snippet": "\r\n",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Cosmin Covaciu",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "14854.jpg"
+          ]
+        },
+        {
+          "id": "b66c8b20-1007-409c-a459-640b9ac86306",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Dovada plata Manda Jurkic Wiener Wasser",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "covaciu.gnm@gmail.com",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T09:08:34Z",
+          "snippet": "\r\n",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Cosmin Covaciu",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "79524.jpg"
+          ]
+        },
+        {
+          "id": "f90dbd00-cca6-4bcd-b6ec-a9caeee78a4d",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: retournierter Gebührenbescheid",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "manda.jurkic@wien.gv.at",
+            "kanzlei-gwz@ma31.wien.gv.at"
+          ],
+          "received_at": "2026-09-30T09:04:52.788974Z",
+          "snippet": "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihre Nachricht.\nIch habe diese erhalten und werde pr",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "manda.jurkic@wien.gv.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "1c6fe6ec-d827-48b0-97b4-2a735c430559",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "retournierter Gebührenbescheid",
+          "from_name": "Jurkic Manda",
+          "from_address": "manda.jurkic@wien.gv.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T06:43:51Z",
+          "snippet": "MA31 - 1355238-2026-3\r\n120031905\r\n12., Schallergasse 35\r\n\r\n\r\nGuten Tag, Cosmin-Adrian Covaciu,\r\n\r\nwi",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Jurkic Manda",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image001.png",
+            "6_20260929_0033_009_Post.PDF.pdf"
+          ]
+        }
+      ],
+      "total": 13,
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "items": [
+        {
+          "id": "23eaa675-18ad-45b1-b535-25f7583087b1",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "donau@donauversicherung.at",
+            "c.loschy@donauversicherung.at"
+          ],
+          "received_at": "2026-10-01T07:20:13.419503Z",
+          "snippet": "Sehr geehrte Damen und Herren,\nwir, die A&C Wohnart Immobilien GmbH, möchten die Wohnhausversicherun",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "8827e952-0877-4a73-879a-2ce077005838",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: Angebotsanfrage Bauwerksbuch gemäß § 128a BO für Wien – Wohnhaus Schallergasse 35, 1120 Wien",
+          "from_name": "Baumeister & Bausachverständigenbüro DI Paknehad",
+          "from_address": "office@paknehad-bau.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T15:57:33Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nvielen Dank für Ihre Anfrage.\r\n\r\nGerne unterbreiten wir Ihnen ein ",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Baumeister & Bausachverständigenbüro DI Paknehad",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "2a887cf4.png"
+          ]
+        },
+        {
+          "id": "1fa19552-d1fd-459e-92b3-57ed5319d18c",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "Commerz - Stefanie Gruber",
+          "from_address": "s.gruber@commerz-inkasso.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T12:51:10Z",
+          "snippet": "Sehr geehrter Herr Covaciu!\r\n\r\nWir haben Ihnen bereits am 17.09.2026 2x E-Mails mit der Stellungnahm",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Commerz - Stefanie Gruber",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Mail_nochmal_an_VN_02.EML",
+            "image002.jpg",
+            "Mail_an_VN_-_Kündigung_aufgrund_Eigentümer01.EML",
+            "Kostenaufstellung.pdf",
+            "Schreiben vom 17.09.2026.pdf"
+          ]
+        },
+        {
+          "id": "a1382e07-b5eb-4f5b-a7fe-247121dc287e",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "2026.09.30 | Schallergasse 35 – Abgabenkonto 058899708 – Berücksichtigung der Zahlung Q2 und aktualisierte Buchungsmitteilung Q3",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "kanzlei-b09@ma06.wien.gv.at"
+          ],
+          "received_at": "2026-09-30T12:38:11.217496Z",
+          "snippet": "Sehr geehrte Damen und Herren,\nwir bitten Sie, die Zahlung für das zweite Quartal 2026 auf dem Abgab",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "kanzlei-b09@ma06.wien.gv.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": true,
+          "attachment_names": [
+            "20260720185303213.pdf"
+          ]
+        },
+        {
+          "id": "560aebe2-82a9-4fd1-8ff7-87eb90d0f2b4",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Werkvertrag vom 01.10.2026 - Entwurf v3 und Zusatzangebot Detailplanung | Schallergasse 35",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "dagmar.zottl@toms.at"
+          ],
+          "received_at": "2026-09-30T11:52:26.948451Z",
+          "snippet": "Sehr geehrte Frau Zottl, sehr geehrter Herr Dipl.-Ing. Toms,\nvielen Dank für die unterzeichneten Fra",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "dagmar.zottl@toms.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": true,
+          "attachment_names": [
+            "2026-10-01 Werkvertrag TOMS - Entwurf AG v3.docx",
+            "2026-10-01 Werkvertrag TOMS - Entwurf AG v3.pdf",
+            "2026-09-28 Fragekatalog 2.pdf",
+            "ANG 891_Schallergasse 35, 1120 Wien_Bauwerksbuch.PDF",
+            "2026-09-22 Anlage 5 - Fragenkatalog 18.09.2026 (digitale%0D%0A Reinschrift)_korr+signed.pdf"
+          ]
+        },
+        {
+          "id": "ac59f889-f611-460b-8bf6-6261e313aca6",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Zugang zum privaten Projektportal ac-wohnart.at | Schallergasse 35",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@toms.at"
+          ],
+          "received_at": "2026-09-30T11:52:10.784343Z",
+          "snippet": "Sehr geehrte Frau Zottl, sehr geehrter Herr Dipl.-Ing. Toms,\nfür die Bearbeitung unseres Bauvorhaben",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "office@toms.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "41c4c52a-2139-409e-9907-138cb81163ee",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@maritczak.at"
+          ],
+          "received_at": "2026-09-30T11:50:35.653299Z",
+          "snippet": "Sehr geehrter Herr Dr. Maritczak,\nwir kommen auf unsere E-Mail vom 2026.09.15 zum Aktenzeichen 26160",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "office@maritczak.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "ea4ca325-f80e-4451-a193-e064f7206c0f",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "WG: retournierter Gebührenbescheid 120031905",
+          "from_name": "Jurkic Manda",
+          "from_address": "manda.jurkic@wien.gv.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T09:45:20Z",
+          "snippet": "MA31 – 1355238-2026-6\r\n120031905\r\n12., Schallergasse 35\r\n\r\n\r\nSehr geehrter Herr Covaciu,\r\n\r\nvielen D",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Jurkic Manda",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image001.png"
+          ]
+        },
+        {
+          "id": "f90dbd00-cca6-4bcd-b6ec-a9caeee78a4d",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: retournierter Gebührenbescheid",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "manda.jurkic@wien.gv.at",
+            "kanzlei-gwz@ma31.wien.gv.at"
+          ],
+          "received_at": "2026-09-30T09:04:52.788974Z",
+          "snippet": "Sehr geehrte Damen und Herren,\n\nvielen Dank für Ihre Nachricht.\nIch habe diese erhalten und werde pr",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "manda.jurkic@wien.gv.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        }
+      ],
+      "total": 9,
+      "limit": 50,
+      "offset": 0
+    }
+  ],
+  "emails": [
+    {
+      "id": "23eaa675-18ad-45b1-b535-25f7583087b1",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "donau@donauversicherung.at",
+        "c.loschy@donauversicherung.at"
+      ],
+      "cc": [
+        "office@maritczak.at",
+        "s.gruber@commerz-inkasso.at"
+      ],
+      "received_at": "2026-10-01T07:20:13.419503Z",
+      "text": "Sehr geehrte Damen und Herren,\nwir, die A&C Wohnart Immobilien GmbH, möchten die Wohnhausversicherung für die Liegenschaft Schallergasse 35, 1120 Wien, Polizze Nr. 2044001194, beenden.\nWir ersuchen um eine sofortige einvernehmliche Auflösung des Versicherungsvertrags mit Zugang dieser Nachricht, hilfsweise zum frühestmöglichen einvernehmlich vereinbaren Termin.\nUnabhängig von Ihrer Zustimmung zu einer einvernehmlichen Auflösung kündigen wir hiermit den Versicherungsvertrag vorsorglich zum nächstmöglichen gesetzlich bzw. vertraglich zulässigen Termin. Diese Kündigung soll auch dann wirksam bleiben, wenn Sie einer vorzeitigen einvernehmlichen Auflösung nicht zustimmen.\nBitte bestätigen Sie uns bis zum 2026.10.07 schriftlich:\nden Eingang dieser Erklärung und den konkreten Beendigungszeitpunkt;\nfalls eine sofortige Auflösung abgelehnt wird, den frühestmöglichen Kündigungstermin samt Kündigungsfrist und den dafür maßgeblichen Vertragsbestimmungen, einschließlich der einschlägigen Regelungen des Rahmenvertrags Nr. 2900010498;\nden derzeitigen Deckungsstatus und den Zeitpunkt, zu dem ein allenfalls bestehender Versicherungsschutz endet;\ndie nachvollziehbare Abrechnung bis zum Beendigungszeitpunkt, getrennt nach Prämien, Zinsen und Kosten sowie allfälligen Gutschriften.\nUnsere bisherigen Anfragen zur Prämienanpassung und zur Begründung der geltend gemachten Forderungen bleiben aufrecht. Mit dieser Erklärung ist weder ein Anerkenntnis der im Inkassoverfahren AZ 2616052 geltend gemachten Forderung noch ein Verzicht auf Einwendungen verbunden.\nBitte übermitteln Sie Ihre Antwort an office@ac-wohnart.at und setzen Sie die in Kopie angeführten Empfänger ebenfalls in Kopie. Unterlagen bitten wir als PDF zu senden, da EML-Anhänge bei der bisherigen Zustellung zu Problemen geführt haben.\nMit freundlichen Grüßen\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "SENT",
+        "3: Fyi"
+      ],
+      "category": "fyi",
+      "folder": "donau@donauversicherung.at",
+      "thread_id": "<ee723e01-3202-4649-b704-5ab6ae4d30fc@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "8827e952-0877-4a73-879a-2ce077005838",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Re: Angebotsanfrage Bauwerksbuch gemäß § 128a BO für Wien – Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "Baumeister & Bausachverständigenbüro DI Paknehad",
+      "from_address": "office@paknehad-bau.at",
+      "to": [
+        "office@ac-wohnart.at"
+      ],
+      "cc": [],
+      "received_at": "2026-09-30T15:57:33Z",
+      "text": "Sehr geehrte Damen und Herren,\r\n\r\nvielen Dank für Ihre Anfrage.\r\n\r\nGerne unterbreiten wir Ihnen ein Angebot. Bitte übermitteln Sie uns \r\nvorab die verfügbaren Pläne, Statiken, Bescheide und Befunde per \r\nDownload-Link, damit wir den Leistungsumfang und den Aufwand beurteilen \r\nkönnen.\r\n\r\nNebem dem Bauwerksbuch wünschen Sie auch eine Beweissicherung des \r\nBauwerks vor Beginn der Dachgeschossausbauarbeiten. Wann ist der \r\nBaubeginn vorgesehen?\r\n\r\nDürfen wir außerdem nachfragen, ob Sie die Leistungen nach dem BauKG \r\nbereits vergeben haben? Falls der Zuschlag an einen anderen Anbieter \r\nerteilt wurde, wären wir Ihnen dankbar, wenn Sie uns mitteilen könnten, \r\nzu welchem Preis der Zuschlag erteilt wurde.\r\n\r\nVielen Dank im Voraus.\r\n\r\nMit freundlichen Grüßen\r\n---\r\n\r\nDipl.-Ing. Edris M. Paknehad\r\n\r\nStaatlich geprüfter Baumeister\r\nDEKRA zertifizierter Sachverständiger\r\nGeschäftsführer\r\nMob. +43 670 / 40 92 529\r\nep@paknehad-bau.at\r\nBaumeister DI Paknehad & Partner GmbH\r\nErdbergstrasse 10 / 62, A-1030 Wien\r\noffice@paknehad-bau.at\r\nwww.paknehad-bau.at [1]\r\n\r\nHandelsgericht Wien // FN 639709z\r\nUID-Nr.: ATU 81582725\r\n\r\nAm 2026-09-29 11:59, schrieb office@ac-wohnart.at:\r\n\r\n> Sehr geehrte Damen und Herren,\r\n> \r\n> vielen Dank für Ihre bisherige Rückmeldung zu unserem Bauvorhaben.\r\n> Heute wenden wir uns mit einer weiteren Anfrage an Sie: Wir ersuchen\r\n> um ein Angebot für die Erstellung des Bauwerksbuches gemäß § 128a\r\n> BO für Wien.\r\n> \r\n> Objekt und Bauvorhaben:\r\n> \r\n> * Wohnhaus Schallergasse 35, 1120 Wien, EZ 2235, KG 01305 Meidling\r\n> * Gründerzeithaus, Baujahr 1905; Keller + Erdgeschoss + 3\r\n> Obergeschosse + zweigeschossiger Dachgeschossausbau (neu), rund 803\r\n> m² Wohnnutzfläche\r\n> * Baubewilligung: rechtskräftiger Bescheid der MA 37 vom 21.04.2023,\r\n> GZ MA37/1539234-2021-1\r\n> * Umfang: statische Ertüchtigung, Dachgeschossausbau in\r\n> Holz-/Stahlbauweise, Aufzugszubau, hofseitige Balkone, Umbau der\r\n> Bestandsgeschosse\r\n> * Eigentümerin: A&C Wohnart Immobilien GmbH, FN 668224h\r\n> \r\n> Details entnehmen Sie bitte dem beigefügten Projektblatt.\r\n> \r\n> Wir bitten um ein Pauschalangebot, das insbesondere folgende\r\n> Leistungen umfasst:\r\n> \r\n> * Gebäudedaten, Eigentümerin, Bewilligungen und Beschreibung des\r\n> Bauwerks (Tragwerk, Bauteile, Baujahr, wesentliche Änderungen durch\r\n> den Um- und Zubau 2026/27)\r\n> * Erstprüfung und Befund des Bauzustands durch die befugte Person\r\n> mit Datum\r\n> * Feststellung von Mängeln und Baugebrechen samt Behebungsfristen\r\n> und Nachweis der Behebung\r\n> * Festlegung der Prüfintervalle und des Termins der nächsten\r\n> Überprüfung\r\n> * Name, Befugnis und Unabhängigkeitserklärung der prüfenden Person\r\n> * elektronische Übermittlung bzw. Registrierung bei der Behörde\r\n> innerhalb der gesetzlichen Frist\r\n> * Foto- und Rissdokumentation des Bestands vor und nach dem Umbau\r\n> * Verzeichnis der Pläne, Statiken, Befunde und Bescheide mit\r\n> Ablageort\r\n> * Instandhaltungs- und Wartungsplan (Dach, Balkone, Fassade,\r\n> Feuchtigkeit)\r\n> * Hinweise auf die Prüfpflichten der Anlagen (Aufzug, Rauchfänge,\r\n> Elektro) mit Intervallen\r\n> * Übergabe an die Hausverwaltung in digitaler Form (PDF) zur\r\n> Fortführung\r\n> \r\n> Zusätzlich ersuchen wir um:\r\n> \r\n> * den geplanten Zeitpunkt der Erstellung (unser Vorschlag: bis zur\r\n> Fertigstellungsanzeige)\r\n> * eine gesonderte Preisangabe für die wiederkehrenden\r\n> Überprüfungen nach Fertigstellung (je Überprüfung bzw. als\r\n> Jahrespauschale)\r\n> * Ihren Stundensatz für allfällige Zusatzleistungen\r\n> * einen Nachweis der Befugnis und der Berufshaftpflichtversicherung\r\n> * die Gültigkeitsdauer des Angebots\r\n> \r\n> Für die Erstellung stellen wir Ihnen sämtliche Unterlagen (Einreich-\r\n> und Ausführungspläne, Statik, Bescheide, Befunde) per Download-Link\r\n> zur Verfügung.\r\n> \r\n> Über eine Rückmeldung bis 12.10.2026 würden wir uns sehr freuen.\r\n> Für Rückfragen erreichen Sie mich jederzeit unter +43 665 670 550 45\r\n> oder office@ac-wohnart.at.\r\n> \r\n> Mit freundlichen Grüßen\r\n> \r\n> Cosmin Adrian Covaciu\r\n\r\n\r\nLinks:\r\n------\r\n[1] http://www.paknehad-bau.at",
+      "truncated": false,
+      "labels": [
+        "1: To respond",
+        "99: Important"
+      ],
+      "category": "fyi",
+      "folder": "Baumeister & Bausachverständigenbüro DI Paknehad",
+      "thread_id": "<fd110c72e49de0a59200ab567206e566@paknehad-bau.at>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [
+        {
+          "id": "4495c705-344d-4218-8883-34d1bac83288",
+          "name": "2a887cf4.png",
+          "size": 41279,
+          "content_type": "image/png",
+          "has_text": false,
+          "text_chars": 0,
+          "page_count": null,
+          "text": null
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "a8b64f35-b608-4df7-82d9-2affe4108631",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "AW: 2026.09.30 | Schallergasse 35 – Abgabenkonto 058899708 – Berücksichtigung der Zahlung Q2 und aktualisierte Buchungsmitteilung Q3",
+      "from_name": "MA 6 BA 9 - Kanzlei",
+      "from_address": "kanzlei-b09@ma06.wien.gv.at",
+      "to": [
+        "office@ac-wohnart.at"
+      ],
+      "cc": [],
+      "received_at": "2026-09-30T12:38:19Z",
+      "text": "Sehr geehrte Kundin, sehr geehrter Kunde,\n\r\n \n\r\nIhre E-Mail ist soeben in der Magistratsabteilung 6 eingelangt. Aufgrund des sehr hohen Aufkommens an Anfragen, kann es\r\nbei der Bearbeitung zu Verzögerungen kommen.\n\r\n \n\r\nUnsere Mitarbeiterinnen und Mitarbeiter werden sich so rasch wie möglich um Ihr Anliegen kümmern.\n\r\nBei Rückfragen kontaktieren wir Sie unter den von Ihnen angegebenen Daten.\n\r\n \n\r\nVielen Dank für Ihr Verständnis.\n\r\n \n\r\nFreundliche Grüße\n\r\nMagistratsabteilung 6 – Buchhaltungsabteilung 9",
+      "truncated": false,
+      "labels": [
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "MA 6 BA 9 - Kanzlei",
+      "thread_id": "<cad68df514be4372820fe6faf046be45@swppxchmag08.host.magwien.gv.at>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "a1382e07-b5eb-4f5b-a7fe-247121dc287e",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "2026.09.30 | Schallergasse 35 – Abgabenkonto 058899708 – Berücksichtigung der Zahlung Q2 und aktualisierte Buchungsmitteilung Q3",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "kanzlei-b09@ma06.wien.gv.at"
+      ],
+      "cc": [],
+      "received_at": "2026-09-30T12:38:11.217496Z",
+      "text": "Sehr geehrte Damen und Herren,\nwir bitten Sie, die Zahlung für das zweite Quartal 2026 auf dem Abgabenkonto 058899708 zu berücksichtigen und uns eine entsprechend aktualisierte Buchungsmitteilung für das dritte Quartal 2026 für die Liegenschaft Schallergasse 35, 1120 Wien, zu übermitteln.\nDie beigefügte Buchungsmitteilung Nr. 480960377428 vom 2026.07.10 weist insgesamt EUR 186,46 aus: EUR 93,23 für Grundsteuer und Müllabfuhrabgabe 07–09/2026 sowie EUR 93,23 an bereits bestehenden offenen Forderungen.\nDie Forderung für 04–06/2026 wurde inzwischen mit folgenden Zahlungsdaten beglichen:\nBetrag: EUR 93,23\nBuchungs- und Valutadatum: 2026.07.27\nZahlungsreferenz: 889970805056\nZugehörige Buchungsmitteilung: Nr. 480960255591 vom 2026.04.10\nZahlung vom Privatkonto von Cosmin-Adrian Covaciu für die Liegenschaft Schallergasse 35\nBitte prüfen Sie den Zahlungseingang und die Zuordnung zum zweiten Quartal und bestätigen Sie uns dessen Ausgleich schriftlich. Nach unserer Abstimmung verbleiben aus der genannten Buchungsmitteilung EUR 93,23 für das dritte Quartal.\nBitte senden Sie uns eine aktualisierte Buchungsmitteilung beziehungsweise Saldenbestätigung, in der die Zahlung berücksichtigt und der tatsächlich noch offene Betrag ausgewiesen ist. Bitte bestätigen Sie zugleich die für den Restbetrag zu verwendende Zahlungsreferenz; im bisherigen Q3-Dokument lautet diese 889970805086. Sollten Sie einen abweichenden Saldo führen, bitten wir um eine nachvollziehbare Aufstellung der Buchungen.\nBitte übermitteln Sie die aktualisierten Unterlagen an office@ac-wohnart.at.\nVielen Dank für Ihre Prüfung und Berichtigung.\nMit freundlichen Grüßen\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "SENT",
+        "3: Fyi"
+      ],
+      "category": "fyi",
+      "folder": "kanzlei-b09@ma06.wien.gv.at",
+      "thread_id": "<118d59e3-02fe-40b3-85e3-ff1a7a1fc11e@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [
+        {
+          "id": "2c7a3828-dfa1-4745-be77-095382a31b38",
+          "name": "20260720185303213.pdf",
+          "size": 196350,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "560aebe2-82a9-4fd1-8ff7-87eb90d0f2b4",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Werkvertrag vom 01.10.2026 - Entwurf v3 und Zusatzangebot Detailplanung | Schallergasse 35",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "dagmar.zottl@toms.at"
+      ],
+      "cc": [
+        "ferdinand.toms@toms.at",
+        "simona.hotea@toms.at",
+        "office@toms.at"
+      ],
+      "received_at": "2026-09-30T11:52:26.948451Z",
+      "text": "Sehr geehrte Frau Zottl, sehr geehrter Herr Dipl.-Ing. Toms,\nvielen Dank für die unterzeichneten Fragebeantwortungen und die bereits übermittelten Unterlagen. Anbei erhalten Sie unseren überarbeiteten Werkvertragsentwurf v3 mit Vertragsdatum 01.10.2026 als PDF und Word-Datei zur Durchsicht und Unterzeichnung.\nDie Pauschalen für Tragwerksplanung, statische Betreuung und Prüfingenieur bleiben mit insgesamt 34.500,00 EUR netto unverändert. Das Bauwerksbuch nehmen wir zum angebotenen Preis von 3.400,00 EUR netto auf; der Gesamtbetrag beträgt damit 37.900,00 EUR netto zuzüglich Umsatzsteuer. Vielen Dank auch für Ihre schriftliche Verlängerung der Angebote bis 31.12.2026.\nDer Terminplan geht von einer beiderseitigen Unterzeichnung am 01.10.2026 aus: D1 am 09.10., D2 am 16.10., die vollständige prüffähige statische Berechnung am 22.10., D3 einschließlich Plänen am 23.10. sowie D4/D5 einschließlich Plänen und Gesamtübergabe am 28.10.2026. Die Abrechnung erfolgt nach vollständiger Lieferung und Freigabe des jeweiligen Pakets. Bitte sehen Sie den beigefügten Termin- und Zahlungsplan durch.\nFür die im Vertrag gesondert abgegrenzten Leistungen würden wir Sie um ein zusätzliches, positionsweise bepreistes Angebot samt Bearbeitungsdauer bitten:\nzeichnerische Knoten- und Anschlussdetails für Stahl- und Holzbau, insbesondere im Maßstab 1:10 bzw. 1:20;\nergänzende allgemeine Spezifikation der Verbindungsmittel, soweit sie nicht zum vereinbarten Grundumfang gehört;\nBauteillisten auf den Plänen mit Position, Werkstoff, Profil bzw. Querschnitt, Länge und Stückzahl;\nDetailausarbeitung der Anschlüsse von Aussteifungen und Windverbänden;\nergänzende Korrosions- und Holzschutzvorgaben sowie die gesondert abgegrenzten Klassenangaben;\noptional Werkstatt- bzw. Abbundplanung und Werkstattlisten, sofern Ihr Büro diese Leistungen anbieten kann.\nGerne können Sie zusätzlich einen Paketpreis nennen. Über eine gesonderte Beauftragung entscheiden wir nach Vorliegen Ihres Angebots.\nDie über ac-wohnart.at bereitgestellte Planung der Architektin ist aus unserer Sicht zu rund 99 % abgeschlossen. Sie sieht eine Reduktion von Wänden und der Wohnungsanzahl vor; eine Erweiterung des strukturellen Baukonzepts ist dabei nicht beabsichtigt. Weitere Anpassungen sollen sich aus Ihren Berechnungen und der gemeinsamen Abstimmung oder aus behördlichen Anforderungen ergeben. Die einmalige Planwechselbearbeitung in diesem Rahmen und Ihre statische Zuarbeit sind im Entwurf geregelt. Bitte bestätigen Sie den maßgeblichen Planstand anhand der gemeinsamen Planliste.\nDas Bauwerksbuch soll baubegleitend vorbereitet und zur Endbeschau bzw. Abnahme fertiggestellt werden. Der Entwurf sieht die endgültige Übergabe einschließlich Registrierung zehn Werktage vor der Fertigstellungsanzeige vor, mit rechtzeitiger Einarbeitung der Endbefunde und Wahrung der gesetzlichen Fristen.\nDie Generali-Bestätigung vom 03.03.2026 und die darin beschriebene Deckung akzeptieren wir. Für unsere Vertragsmappe wären wir Ihnen dankbar, wenn Sie vor Unterzeichnung die Versicherungsbestätigung samt zugehörigen Deckungs-/Polizzenunterlagen nochmals beilegen bzw. den unveränderten Bestand bestätigen könnten. Ebenso würden wir uns über die noch offenen Angaben zu Projektteam, Stellvertretung, persönlichem Befugnisnachweis und Referenzen freuen; die bereits übermittelten Unterlagen sind im Entwurf vermerkt.\nFür die Objektbegehung bitten wir um zwei neue Terminvorschläge, möglichst bis 08.10.2026. Frau Anastasia Covaciu kann den Termin vor Ort begleiten, bevorzugt um 08:00 Uhr oder nach 16:00 Uhr.\nDie Zugangsdaten zum privaten Projektportal erhalten Sie in einer gesonderten Nachricht. Wir freuen uns auf Ihre Rückmeldung und die unterzeichnete Vertragsfassung.\nMit freundlichen Grüßen\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "SENT",
+        "3: Fyi"
+      ],
+      "category": "fyi",
+      "folder": "dagmar.zottl@toms.at",
+      "thread_id": "<f599dee7-ed52-4ee7-a2b9-01fefa6719fc@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [
+        {
+          "id": "3d1729fc-88c2-48dc-84d1-ecf745340596",
+          "name": "2026-10-01 Werkvertrag TOMS - Entwurf AG v3.docx",
+          "size": 55458,
+          "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "has_text": true,
+          "text_chars": 55921,
+          "page_count": null,
+          "text": "WERKVERTRAG\n\nTragwerksplanung / Ausführungsstatik, statische Betreuung, Prüfingenieur-Leistungen und Bauwerksbuch\n\nBauvorhaben Wohnhaus Schallergasse 35, 1120 Wien (Meidling)\nDachgeschossausbau, statische Ertüchtigung des Bestandes, Aufzugszubau\n\nVertragsstand | Vertragsdatum 01.10.2026 – Entwurf der Auftraggeberin, Version 3\n\nGrundlagen | ANG 855 / ANG 839 / ANG 891; Besprechung 18.09.2026; unterzeichnete Fragebeantwortungen 23.09. und 28.09.2026; E-Mail TOMS 23.09.2026; Projektportal ac-wohnart.at.\n\nZweck | Festlegung von Umfang, Abgrenzung, Terminen, Festpreisen, Zahlung nach Lieferung sowie Versicherungsnachweis.\n\nVertragsparteien\n\nAuftraggeberin (AG) | A&C Wohnart Immobilien GmbH; FN 668224h, Handelsgericht Wien; Geschäftsanschrift ab 15.09.2026: Schallergasse 35, 1120 Wien; vertreten durch den Geschäftsführer Cosmin Adrian Covaciu; office@ac-wohnart.at, +43 665 67055045\n\nAuftragnehmer (AN) | Toms Ziviltechniker GmbH; FN 214744a, Landesgericht Krems an der Donau, UID ATU53776301; Dachsberggasse 8, 3500 Krems an der Donau; Wiener Büro: Margaretenstraße 93, 1050 Wien, +43 1 310 07 07; fachlich verantwortlich und unterfertigend: Dipl.-Ing. Ferdinand Toms,; Ingenieurkonsulent für Bauingenieurwesen\n\nKlarstellung: Vertragspartner ist ausschließlich die Toms Ziviltechniker GmbH (FN 214744a). Die Toms Consult ZT GmbH (FN 584425z) ist nicht Vertragspartnerin dieses Vertrages.\n\n§ 1  Vertragsgegenstand, Vertragsgrundlagen und Rangordnung\n\n(1) Der AN erbringt für das Bauvorhaben Wohnhaus Schallergasse 35, 1120 Wien (Gründerzeithaus, Baujahr 1905, Keller, Erdgeschoss, drei Obergeschosse, zweigeschossiger Dachgeschossausbau und Aufzugszubau) die Leistungen gemäß §§ 2 bis 7 und den Anlagen dieses Vertrages.\n\n(2) Rechtsgrundlage des Bauvorhabens ist der rechtskräftige Baubescheid der MA 37 vom 21.04.2023, GZ MA37/1539234-2021-1, samt genehmigten Einreichplänen P2041 (Planstand 20.04.2023).\n\n(3) Planungsgrundlage sind die genehmigten Einreichpläne P2041 (20.04.2023) sowie die von der AG bei Vertragsunterzeichnung im privaten Projektportal https://www.ac-wohnart.at/portal bereitgestellten Architektur-, Bestands- und Fachplanungen, insbesondere der Architekturstand 08.09.2026 und die dort hinterlegten Dachgeschosspläne. Dieser Stand wird durch eine gemeinsame Planliste mit Dateinamen, Index und Datum festgehalten und als Anlage 7 dokumentiert. Er ersetzt als Bearbeitungsgrundlage den früheren Architekturstand 12.08.2026; die bewilligten Unterlagen bleiben für den Bewilligungsabgleich maßgeblich.\n\n(4) Vertragsbestandteile sind in dieser Rangordnung:\n\n1. dieser Werkvertrag vom 01.10.2026 samt Anlagen 1 bis 4, 6 und 7;\n\n2. die unterzeichnete, korrigierte Reinschrift vom 23.09.2026 (Anlage 5) sowie der unterzeichnete Fragenkatalog 2 vom 28.09.2026 (Anlage 5b), soweit sie den hier beauftragten Leistungsumfang betreffen; bei Widersprüchen zwischen diesen beiden Unterlagen geht die spätere Erklärung vor; der Original-Scan vom 18.09.2026 (Anlage 5a) dient ergänzend der Dokumentation;\n\n3. die schriftliche Bestätigung der Angebotsgültigkeit durch TOMS vom 23.09.2026;\n\n4. die Angebote ANG 855 vom 03.09.2026, ANG 839 vom 20.08.2026 und ANG 891 vom 23.09.2026;\n\n5. die Allgemeinen Geschäftsbedingungen des AN (www.toms.at).\n\n(5) Bei Widersprüchen gelten die ausdrücklichen Regelungen dieses Werkvertrages und seiner Anlagen 1 bis 4 vorrangig. Die früheren Fragebögen und Angebote erweitern den hier vereinbarten Auftrag nicht um andere Leistungsbereiche. Die vorliegende Fassung ist ein Vertragsangebot der AG; sie wird erst durch beiderseitige Unterzeichnung verbindlich.\n\n(6) Die Allgemeinen Geschäftsbedingungen des AN gelten nur insoweit, als sie diesem Vertrag nicht widersprechen. Abweichende, entgegenstehende oder ergänzende Geschäftsbedingungen werden nicht Vertragsinhalt.\n\n§ 2  Leistungsumfang Tragwerksplanung / Ausführungsstatik (ANG 855, Pos. 1.2.1)\n\n(1) Der AN erstellt die vollständige Ausführungsstatik sowie sämtliche Schalungs- und Bewehrungspläne und die Führungsplanung Stahl- und Holzbau für alle tragenden Bauteile des Bauvorhabens. Ausdrücklich umfasst sind:\n\nStahlbeton-Fundamentplatte d = 30 cm samt Gründung und Anschluss an die Bestandsfundamente;\n\nAufzugszubau über alle Geschosse: Schachtwände, Aufzugsgrube, Gründung, Lastansatz laut Aufzugshersteller;\n\nstatische Ertüchtigung der Bestandsdecken (Tram-/Dippelbaumdecken), Auflager und Deckenränder;\n\nBestandswände, Pfeiler, Stürze und Auswechslungen sowie neue Wanddurchbrüche im Bestand;\n\nzweigeschossiger Dachgeschossausbau nach der Planungsgrundlage gemäß § 1 Abs. 3: Tragkonstruktion Holz/Stahl samt Führungsplanung, Dachstuhl, Gaupen, Attika und Terrassen;\n\nAussteifung, Deckenscheiben, Windverbände und Lastweiterleitung bis in die Fundierung einschließlich des Nachweises des Bestandes in diesem Lastpfad;\n\nhofseitige Balkone einschließlich Verankerung im Bestandsmauerwerk;\n\nStiegen (Bestand und neu), Stiegenhauswände, Podeste und Anschlüsse Neu/Alt innerhalb des in § 3 und Anlage 2 festgelegten Detaillierungsgrades;\n\nFeuermauern, Nachbaranschlüsse sowie Kamine und Rauchfänge im Einflussbereich der Tragstruktur;\n\nabschnittsweise Unterfangungen der Bestandsfundamente einschließlich Berechnung und zeichnerischer Darstellung des Unterfangungsprinzips (Abschnittslängen, Reihenfolge, Geometrie, Bewehrung);\n\nPositions- und Lastpläne je Geschoss;\n\nBewehrungs- und Biegelisten zu allen Bewehrungsplänen;\n\nPrüfung und Freigabe der Werkstattpläne der ausführenden Firmen (Stahlbau, Holzbau/Dachstuhl) sowie Prüfung der Fertigteil-, Anker- und Dübelnachweise der Lieferanten;\n\nPrüfung und statische Freigabe der von der Baufirma vorgelegten Verbau- und Pölzungsunterlagen sowie der von Dritten (Haustechnik, Aufzugshersteller, Baufirma) beigestellten Lastangaben und Nachweise;\n\nFestlegung der Beschau-Punkte, an denen die Baufirma vor dem Weiterbau die Freigabe des Statikers benötigt;\n\nEmpfehlung zu Umfang und Zeitpunkt der Beweissicherung der Nachbargebäude (Ausführung durch einen Sachverständigen bauseits);\n\nmindestens zwei Korrekturzyklen je Plan ohne Mehrkosten;\n\nBeantwortung technischer Bieterfragen während der Angebotsphase der Baufirmen;\n\nlaufende digitale Planlieferung (PDF und DWG) sowie Bereitstellung der Modell- bzw. Exportdaten im IFC-Format.\n\n(2) Der AN übernimmt die Statische Vorbemessung samt Fundierungskonzept und Mauerwerksgutachten (Ausfertigung Jänner 2022), einschließlich Lastannahmen, statischem System, Mauerwerkskennwerten und Fundierungskonzept, als Grundlage. Er prüft und schreibt sie in eigener Verantwortung zu einer neuen, unterfertigten Ausführungsstatik auf den Planstand gemäß § 1 Abs. 3 fort. Diese Fortschreibung ist im Pauschalpreis enthalten.\n\n(3) Der AN erstellt die Ausführungsstatik auf Basis der für den Baubescheid vom 21.04.2023 maßgeblichen technischen Vorschriften unter Beachtung der Übergangsbestimmungen der WBTV 2023, sodass die bestehende Baubewilligung bestmöglich genutzt werden kann. Die Bemessung erfolgt nach den Eurocodes (ÖNORM EN 1990 ff.) mit den österreichischen nationalen Anhängen; die angewendete Fassung wird im Dokument „Bemessungsgrundlagen\" dokumentiert.\n\n§ 3  Detaillierungsgrad, Vollständigkeit und Werkstoffe\n\n(1) Die vom AN geschuldeten Unterlagen müssen für den vereinbarten Leistungsumfang prüffähig, nachvollziehbar und aufeinander abgestimmt sein. Dabei gilt:\n\nDie ausführenden Firmen erhalten die statische Bemessung und Führungsplanung als Grundlage für ihre Werkstatt- und Abbundplanung; die Abgrenzung der gesonderten Detailplanung richtet sich nach § 6 Abs. 1 und Anlage 2.\n\nVor Ausführung eines Bauteils müssen auch die dafür erforderlichen, gesondert beauftragten Detail- und Werkstattpläne vorliegen und im vereinbarten Umfang vom AN freigegeben sein.\n\nDie Prüfung und Freigabe der von Dritten erstellten Werkstattpläne und Nachweise bleibt Bestandteil der Leistung des AN.\n\n(2) Der je Werkstoff geschuldete Mindestinhalt ist in Anlage 2 („Detaillierungsgrad je Werkstoff\") festgelegt. Anlage 2 ist Maßstab für die Vollständigkeit der Lieferung und für die Freigabe der Dossiers nach § 10.\n\n(3) Die Anschluss-, Auflager- und Verankerungskräfte je Knoten (Normal-, Quer- und Zugkräfte sowie Momente) sind vom AN sowohl in der statischen Berechnung als auch unmittelbar auf den zugehörigen Führungs-, Positions- bzw. Lastplänen eindeutig und positionsbezogen einzutragen. Ein bloßer Verweis auf die statische Berechnung genügt nicht. Gesonderte Bauteillisten im Plan sind hiervon nicht umfasst.\n\n(4) Im Pauschalhonorar von EUR 25.000,00 netto sind ohne zusätzliches Entgelt enthalten: die Bemessung sämtlicher Knoten und Anschlüsse im Stahl- und Holzbau; die Bemessung und Spezifikation der Dübel und Anker in Mauerwerk bzw. Beton mit Typ, Größe, Anzahl sowie Rand- und Achsabständen; die Festlegung der erforderlichen Blechdicken sowie der Art und Dicke der Schweißnähte. Die Ergebnisse sind in der prüffähigen statischen Berechnung eindeutig den jeweiligen Positionen zuzuordnen. Die darüber hinausgehende zeichnerische Detailausarbeitung und die allgemeine Verbindungsmittelspezifikation sind nach § 6 Abs. 1 abgegrenzt; die hier ausdrücklich eingeschlossenen Dübel-, Anker-, Blech- und Schweißnahtangaben bleiben enthalten.\n\n(5) Fehlende oder fehlerhafte Angaben innerhalb des vereinbarten Leistungsumfangs ergänzt oder berichtigt der AN binnen fünf Werktagen ohne gesondertes Honorar. Die nach § 6 ausdrücklich ausgeschlossenen Zusatzleistungen werden dadurch nicht in das Pauschalhonorar einbezogen; ihre Erbringung bedarf einer gesonderten schriftlichen Beauftragung.\n\n(6) Die Vollständigkeit wird bauteilbezogen beurteilt: Ein Dossier gilt erst als geliefert, wenn alle Bauteile des betreffenden Pakets in dem in Anlage 2 beschriebenen Umfang enthalten sind.\n\n§ 4  Statische Betreuung während der Bauphase (ANG 855, Pos. 1.2.2)\n\n(1) Die statische Betreuung deckt die gesamte Bauzeit von rund 12 Monaten ab und umfasst:\n\nTeilnahme an der Startbesprechung mit Baufirma, Bauführer und Architektin;\n\nsechs Fixtermine in den kritischen Phasen: Fundamentplatte, Aufzugsschacht, Deckenertüchtigung einschließlich Kernbohrungen, Dachstuhl, Balkone, Rohbauabschluss;\n\nweitere Baubesprechungen und Baustellentermine nach Bedarf und nach Anforderung der AG;\n\nAktenvermerk bzw. Protokoll zu jedem Termin, Übermittlung binnen drei Werktagen;\n\nunbegrenzte telefonische und schriftliche Rückfragen mit Beantwortung binnen zwei Werktagen;\n\nBeurteilung von Alternativvorschlägen der Baufirma (Materialien, Details) im Pauschalpreis;\n\nFahrt- und Nebenkosten im Pauschalpreis.\n\n(2) Verlängert sich die Bauzeit auf bis zu 15 Monate, entstehen keine Mehrkosten, sofern sich die Anzahl der Termine dadurch nicht wesentlich erhöht (Teilbestätigung des AN vom 18.09.2026). Als „wesentlich\" gilt eine Erhöhung um mehr als drei Termine gegenüber Abs. 1.\n\n(3) Zusatztermine über den Umfang nach Abs. 1 und 2 hinaus werden mit einem Fixpreis von EUR 300,00 netto je Termin einschließlich Fahrt verrechnet. Eine Abrechnung nach offenen Stunden ist ausgeschlossen.\n\n§ 5  Prüfingenieur-Leistungen gemäß §§ 127, 128 BO für Wien (ANG 839)\n\n(1) Der AN erbringt die Prüfingenieur-Leistungen gemäß §§ 127 und 128 BO für Wien (exklusive Bauwerksbuch) mit 15 Begehungen. Die Verfügbarkeit in kritischen Phasen ist innerhalb von 24 Stunden gegeben. Enthalten sind insbesondere:\n\nUntergrundbeschau vor Herstellung der Fundamentplatte;\n\nBewehrungsabnahmen (Fundamentplatte, Aufzugsschacht, Deckenertüchtigung) vor jeder Betonage;\n\neine Rohbaubeschau sowie die Balkonabnahme (Teilbestätigung des AN: Rohbaubeschau einmalig statt je Geschoss);\n\nAusbaubeschau und Endbeschau vor der Fertigstellungsanzeige;\n\nschriftliche Abnahmebefunde zu jeder Beschau sowie Meldung von Abweichungen an die MA 37;\n\ninterne Prüfung der statischen Berechnung nach dem Vier-Augen-Prinzip (ÖNORM EN 1990 Anhang B) samt Festlegung und Dokumentation der Zuverlässigkeits- und Schadensfolgeklasse;\n\nPlausibilitätsprüfung der Statischen Vorbemessung 2022 und des Fundierungskonzepts;\n\nPrüfung der Konstruktionspläne vor Freigabe zur Ausführung (Plan-Statik-Abgleich);\n\nPrüfung und Freigabe der Werkstattpläne;\n\nPrüfung der Materialnachweise (Beton samt Lieferscheinen und Würfelprüfungen, Bewehrungsstahl, Baustahl, Holz);\n\nAbnahmebefunde je Bauteil und Bestätigung nach § 128 BO für Wien;\n\nKoordination und Übergabe der Unterlagen, falls die MA 37 eine externe Prüfstatik verlangt;\n\nVorbereitung der Bestellung und Bekanntgabe des Prüfingenieurs an die MA 37;\n\nkeine weiteren Prüfkosten für die AG über die Pauschalen nach § 11 hinaus.\n\n(2) Die Wahrnehmung von Tragwerksplanung und Prüfingenieur-Funktion durch den AN (Personalunion) ist nach § 127 Abs. 3a BO für Wien zulässig. Der AN bestätigt schriftlich die Zulässigkeit sowie seine Unabhängigkeit von Bauwerber und Bauführer. Eine interne personelle Trennung zwischen Verfasser der Statik und prüfender Person ist einvernehmlich nicht vereinbart; die Prüfung erfolgt nach dem Vier-Augen-Prinzip gemäß Abs. 1.\n\n(3) Der AN erbringt die vollständige ZT-Bestätigung zur Fertigstellungsanzeige nach § 128 Abs. 2 Z 1 BO für Wien, insbesondere:\n\nBestätigung der bewilligungsgemäßen Ausführung des Tragwerks;\n\nBestätigung der Übereinstimmung mit den Bauvorschriften (Standsicherheit, Brandschutz tragender Bauteile hinsichtlich der Ausführung);\n\nZusammenstellung aller Abnahmebefunde und Materialnachweise (Beton, Stahl, Holz);\n\nAbstimmung des Anzeigepakets mit dem Bauführer und der Architektin;\n\nÜbernahme der Kommunikation mit der MA 37 zu tragwerksbezogenen Rückfragen;\n\nTeilnahme an der behördlichen Endbeschau, falls angesetzt;\n\nHinweisliste, welche weiteren Befunde (Elektro, Gas, Aufzug, Rauchfang, Bauphysik) bauseits beizubringen sind.\n\n(4) Der Pauschalpreis von ANG 839 beträgt unverändert EUR 8.000,00 netto. Die bis 31.12.2026 verlängerte Angebotsgültigkeit wurde durch TOMS mit E-Mail vom 23.09.2026 bestätigt.\n\n§ 6  Abgrenzung, Mitwirkung der AG und Grundlagenbestätigung\n\n(1) Nicht im Pauschalhonorar enthalten sind folgende Leistungen. Die unter lit. a beschriebenen Zusatzleistungen können gegen gesondertes Entgelt erbracht werden; der AN legt hierfür auf Anfrage ein positionsweise bepreistes Angebot vor. Eine Ausführung oder Vergütung setzt die vorherige schriftliche Beauftragung durch die AG voraus:\n\na) Zusätzliche Detailplanung Stahl-/Holzbau: zeichnerische Knoten- und Anschlussdetails (Prinzip- und Ausführungsdetails, insbesondere 1:10/1:20); allgemeine Spezifikation von Verbindungsmitteln nach Art, Größe, Anzahl und Anordnung, soweit nicht ausdrücklich von § 3 Abs. 4 erfasst; Bauteillisten auf den Plänen mit Werkstoffgüten, Querschnitten/Profilen, Längen, Stückzahlen und Positionsnummern; Detailausarbeitung der Anschlüsse von Aussteifungen und Windverbänden; besondere Vorgaben zu Korrosions- und Holzschutz sowie Nutzungs- und Festigkeitsklassen nach Abschnitt A Z 11 des Fragenkatalogs 2. Die statisch notwendigen Bemessungsannahmen und Materialkennwerte der Berechnung bleiben Teil der Grundleistung. Werkstatt- und Abbundpläne sowie gesonderte Werkstattstücklisten werden durch die ausführenden Firmen oder nach gesonderter Beauftragung erstellt; Prüfung und Freigabe durch den AN sind enthalten.\n\ndie Mengenermittlung des Tragwerks für die Ausschreibung (Beton, Stahl, Holz);\n\nErdbebennachweis des Bestandes nach ÖNORM B 1998-3 und Bestandsbewertung nach ÖNORM B 4008-1: bereits vorhanden bzw. über die Einreichunterlagen abgedeckt;\n\ndie brandschutztechnische Bemessung der tragenden Bauteile (R-Klassen laut Bescheid/OIB-RL 2);\n\ndie Erstellung der Lastangaben Dritter für Haustechnik, Aufzug und Baufirma; der AN erteilt jedoch die statische Freigabe dieser Unterlagen (handschriftlicher Vermerk „Freigabe Statik JA\" vom 18.09.2026);\n\ndas Baugrubensicherungskonzept sowie Berechnung und Pläne der Baugrubensicherung bzw. des Verbaus (der AN prüft und gibt frei);\n\ntemporäre Abstützungen von Decken, Wänden und Straßenfassade in den Bauzuständen (der AN prüft und gibt frei);\n\nder Abbruch- und Bauphasenplan sowie das Paket „Baustelleneinrichtung, Abbruch- und Sicherungsmaßnahmen\";\n\ndie laufende Prüfung der Bauzustände auf der Baustelle vor Freigabe des jeweils nächsten Abschnitts über die Beschauen nach § 5 hinaus;\n\nBestandspläne des Tragwerks „wie ausgeführt\" (as built) nach Bauende: Architektin;\n\nSchnittstellenliste, Teilnahme an Vergabegesprächen und Beurteilung der Baufirmen-Angebote;\n\nörtliche Bauaufsicht (ÖBA) und Bauführung nach § 65 BO für Wien;\n\ndie Beweissicherung der Nachbargebäude (Ausführung durch Sachverständigen bauseits);\n\nPapierausfertigungen der Statik und der Pläne; die Übergabe erfolgt digital (§ 9).\n\n(2) Die Ausschlüsse nach Abs. 1 sind abschließend. Die ausdrücklich eingeschlossenen Leistungen nach § 3 Abs. 3 und 4 werden durch die allgemeine Abgrenzung nicht eingeschränkt. Für die übrigen ausgeschlossenen Fachleistungen sorgt die AG durch geeignete Dritte. Vor Ausführung eines Bauteils stimmen AG, AN und ausführende Firma die Vollständigkeit der notwendigen Unterlagen ab.\n\n(3) Grundlagenbestätigung des AN vom 18.09.2026 (Frage 12 des Fragenkatalogs): Der AN bestätigt, dass\n\ndie Baugrunddaten (Bohrprofile MA 29 – C670/3, D618/2, D618/3 – und die geotechnische Zusammenfassung vom 11.08.2026) für die Bemessung der Fundamentplatte ausreichen;\n\ndas Mauerwerksgutachten 2021 für die Bemessung der Bestandswände und der Ertüchtigungen ausreicht;\n\ndas Fundierungskonzept Stahlbeton-Platte d = 30 cm bestätigt wird;\n\ndie Grundwasserbeobachtung (4,25 m im Nachbarprofil) keine besonderen Maßnahmen für Fundamentplatte und Aufzugsgrube erfordert;\n\ndie Bestandsaufnahme der Tragstruktur im Zuge der Objektbegehung sowie die Sichtkontrolle der Deckenkonstruktionen bei den ohnehin vorgesehenen Abbrucharbeiten im Pauschalpreis enthalten sind;\n\nzeigen sich beim Abbruch abweichende Verhältnisse, die Anpassung der Statik im Pauschalpreis erfolgt, allfällige Sondierungen vom AN festgelegt und von der Baufirma ausgeführt werden;\n\nder AG keine Kosten für Untersuchungsprogramme, Labor oder Gutachten Dritter entstehen.\n\n(4) Untersuchungsprogramme, Laborleistungen oder Gutachten Dritter löst der AN nur nach vorheriger schriftlicher Freigabe der AG aus.\n\n(5) Die AG stellt die vorhandenen Bestands-, Baugrund-, Bewilligungs- und Planarchivunterlagen über das Projektportal bereit. Der AN bestätigt den erfolgreichen Zugriff und benennt bis 06.10.2026 konkret fehlende oder unleserliche Unterlagen. Entsprechend seiner Mitteilung vom 24.09.2026 sind vollständige historische Planblätter von der Ersteinreichung bis zum aktuellen Stand erforderlich; Planköpfe allein genügen nicht. Die gemeinsame Bestands- und Planliste gemäß Anlage 7 dokumentiert Empfang und Bearbeitungsgrundlage.\n\n(6) Die Funktion des Bauführers nach § 65 BO für Wien wird von der ausführenden Baufirma (Baumeister) wahrgenommen. Der AN bestätigt die Vereinbarkeit dieser Konstellation mit seiner Prüfingenieur-Rolle und bestätigt, dass die Prüfingenieur-Beschauen und die statische Betreuung die Kontrolle des Tragwerks auch ohne ÖBA vollständig abdecken. Auf Wunsch der AG empfiehlt der AN ein unabhängiges ÖBA-Büro und stimmt sich mit diesem ab.\n\n§ 7  Bauwerksbuch gemäß § 128a BO für Wien\n\n(1) Mit diesem Vertrag wird auch die Erstellung des Bauwerksbuchs für das gesamte Gebäude einschließlich Bestand sowie Zu- und Umbau auf Grundlage von ANG 891 zum unveränderten Pauschalpreis von EUR 3.400,00 netto beauftragt. Enthalten sind die in Anlage 1 genannten Inhalte, die erforderliche Erstprüfung, die gesetzlich erforderlichen Bestätigungen und die Registrierung bei der MA 37 einschließlich Übermittlung des Registrierungsnachweises an die AG.\n\n(2) Der AN erstellt das Bauwerksbuch baubegleitend. Die AG teilt den vorgesehenen Abschluss- und Anzeigetermin mindestens sechs Wochen vorher mit; der AN benennt fehlende Unterlagen binnen fünf Werktagen. Eine prüffähige Vorfassung ist 20 Werktage, die endgültige digitale Fassung samt erforderlichen Bestätig"
+        },
+        {
+          "id": "91b2e1fd-1434-4604-adba-bd53fcac8705",
+          "name": "2026-10-01 Werkvertrag TOMS - Entwurf AG v3.pdf",
+          "size": 75292,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 58523,
+          "page_count": null,
+          "text": "WERKVERTRAG\nTragwerksplanung  /  Ausführungsstatik,  statische  Betreuung,  Prüfingenieur-Leistungen  und\nBauwerksbuch\nBauvorhaben Wohnhaus Schallergasse 35, 1120 Wien (Meidling)\nDachgeschossausbau, statische Ertüchtigung des Bestandes, Aufzugszubau\nVertragsstand | Vertragsdatum 01.10.2026 – Entwurf der Auftraggeberin, Version 3\nGrundlagen  |  ANG  855  /  ANG  839  /  ANG  891;  Besprechung  18.09.2026;  unterzeichnete\nFragebeantwortungen  23.09.  und  28.09.2026;  E-Mail  TOMS  23.09.2026;  Projektportal\nac-wohnart.at.\nZweck | Festlegung von Umfang, Abgrenzung, Terminen, Festpreisen, Zahlung nach Lieferung\nsowie Versicherungsnachweis.\nVertragsparteien\nAuftraggeberin  (AG)  |  A&C  Wohnart  Immobilien  GmbH;  FN  668224h,  Handelsgericht  Wien;\nGeschäftsanschrift  ab  15.09.2026:  Schallergasse  35,  1120  Wien;  vertreten  durch  den\nGeschäftsführer Cosmin Adrian Covaciu; office@ac-wohnart.at, +43 665 67055045\nAuftragnehmer  (AN)  |  Toms  Ziviltechniker  GmbH;  FN  214744a,  Landesgericht  Krems  an  der\nDonau,  UID  ATU53776301;  Dachsberggasse  8,  3500  Krems  an  der  Donau;  Wiener  Büro:\nMargaretenstraße 93, 1050 Wien, +43 1 310 07 07; fachlich verantwortlich und unterfertigend:\nDipl.-Ing. Ferdinand Toms,; Ingenieurkonsulent für Bauingenieurwesen\nKlarstellung: Vertragspartner ist ausschließlich die Toms Ziviltechniker GmbH (FN 214744a). Die\nToms Consult ZT GmbH (FN 584425z) ist nicht Vertragspartnerin dieses Vertrages.\n§ 1  Vertragsgegenstand, Vertragsgrundlagen und Rangordnung\n(1)  Der  AN  erbringt  für  das  Bauvorhaben  Wohnhaus  Schallergasse  35,  1120  Wien\n(Gründerzeithaus,  Baujahr  1905,  Keller,  Erdgeschoss,  drei  Obergeschosse,  zweigeschossiger\nDachgeschossausbau  und  Aufzugszubau)  die  Leistungen  gemäß  §§  2  bis  7  und  den  Anlagen\ndieses Vertrages.\n(2)  Rechtsgrundlage  des  Bauvorhabens  ist  der  rechtskräftige  Baubescheid  der  MA  37  vom\n21.04.2023,  GZ  MA37/1539234-2021-1,  samt  genehmigten  Einreichplänen  P2041  (Planstand\n20.04.2023).\n(3) Planungsgrundlage sind die genehmigten Einreichpläne P2041 (20.04.2023) sowie die von\nder AG bei Vertragsunterzeichnung im privaten Projektportal https://www.ac-wohnart.at/portal\nbereitgestellten Architektur-, Bestands- und Fachplanungen, insbesondere der Architekturstand\n08.09.2026  und  die  dort  hinterlegten  Dachgeschosspläne.  Dieser  Stand  wird  durch  eine\ngemeinsame  Planliste  mit  Dateinamen,  Index  und  Datum  festgehalten  und  als  Anlage  7\ndokumentiert. Er ersetzt als Bearbeitungsgrundlage den früheren Architekturstand 12.08.2026;\ndie bewilligten Unterlagen bleiben für den Bewilligungsabgleich maßgeblich.\n(4) Vertragsbestandteile sind in dieser Rangordnung:\n1. dieser Werkvertrag vom 01.10.2026 samt Anlagen 1 bis 4, 6 und 7;\n2.  die  unterzeichnete,  korrigierte  Reinschrift  vom  23.09.2026  (Anlage  5)  sowie  der\nunterzeichnete Fragenkatalog 2 vom 28.09.2026 (Anlage 5b), soweit sie den hier beauftragten\nLeistungsumfang  betreffen;  bei  Widersprüchen  zwischen  diesen  beiden  Unterlagen  geht  die\nspätere  Erklärung  vor;  der  Original-Scan  vom  18.09.2026  (Anlage  5a)  dient  ergänzend  der\nDokumentation;\n3. die schriftliche Bestätigung der Angebotsgültigkeit durch TOMS vom 23.09.2026;\n4.  die  Angebote  ANG  855  vom  03.09.2026,  ANG  839  vom  20.08.2026  und  ANG  891  vom\n23.09.2026;\n5. die Allgemeinen Geschäftsbedingungen des AN (www.toms.at).\n(5) Bei Widersprüchen gelten die ausdrücklichen Regelungen dieses Werkvertrages und seiner\nAnlagen  1  bis  4  vorrangig.  Die  früheren  Fragebögen  und  Angebote  erweitern  den  hier\nvereinbarten  Auftrag  nicht  um  andere  Leistungsbereiche.  Die  vorliegende  Fassung  ist  ein\nVertragsangebot der AG; sie wird erst durch beiderseitige Unterzeichnung verbindlich.\n(6) Die Allgemeinen Geschäftsbedingungen des AN gelten nur insoweit, als sie diesem Vertrag\nnicht widersprechen. Abweichende, entgegenstehende oder ergänzende Geschäftsbedingungen\nwerden nicht Vertragsinhalt.\n§  2   Leistungsumfang  Tragwerksplanung  /  Ausführungsstatik  (ANG\n855, Pos. 1.2.1)\n(1)  Der  AN  erstellt  die  vollständige  Ausführungsstatik  sowie  sämtliche  Schalungs-  und\nBewehrungspläne und die Führungsplanung Stahl- und Holzbau für alle tragenden Bauteile des\nBauvorhabens. Ausdrücklich umfasst sind:\nStahlbeton-Fundamentplatte  d  =  30  cm  samt  Gründung  und  Anschluss  an  die\nBestandsfundamente;\nAufzugszubau  über  alle  Geschosse:  Schachtwände,  Aufzugsgrube,  Gründung,  Lastansatz  laut\nAufzugshersteller;\nstatische  Ertüchtigung  der  Bestandsdecken  (Tram-/Dippelbaumdecken),  Auflager  und\nDeckenränder;\nBestandswände, Pfeiler, Stürze und Auswechslungen sowie neue Wanddurchbrüche im Bestand;\nzweigeschossiger  Dachgeschossausbau  nach  der  Planungsgrundlage  gemäß  §  1  Abs.  3:\nTragkonstruktion Holz/Stahl samt Führungsplanung, Dachstuhl, Gaupen, Attika und Terrassen;\nAussteifung,  Deckenscheiben,  Windverbände  und  Lastweiterleitung  bis  in  die  Fundierung\neinschließlich des Nachweises des Bestandes in diesem Lastpfad;\nhofseitige Balkone einschließlich Verankerung im Bestandsmauerwerk;\nStiegen (Bestand und neu), Stiegenhauswände, Podeste und Anschlüsse Neu/Alt innerhalb des\nin § 3 und Anlage 2 festgelegten Detaillierungsgrades;\nFeuermauern,  Nachbaranschlüsse  sowie  Kamine  und  Rauchfänge  im  Einflussbereich  der\nTragstruktur;\nabschnittsweise  Unterfangungen  der  Bestandsfundamente  einschließlich  Berechnung  und\nzeichnerischer  Darstellung  des  Unterfangungsprinzips  (Abschnittslängen,  Reihenfolge,\nGeometrie, Bewehrung);\nPositions- und Lastpläne je Geschoss;\nBewehrungs- und Biegelisten zu allen Bewehrungsplänen;\nPrüfung  und  Freigabe  der  Werkstattpläne  der  ausführenden  Firmen  (Stahlbau,\nHolzbau/Dachstuhl) sowie Prüfung der Fertigteil-, Anker- und Dübelnachweise der Lieferanten;\nPrüfung  und  statische  Freigabe  der  von  der  Baufirma  vorgelegten  Verbau-  und\nPölzungsunterlagen  sowie  der  von  Dritten  (Haustechnik,  Aufzugshersteller,  Baufirma)\nbeigestellten Lastangaben und Nachweise;\nFestlegung der Beschau-Punkte, an denen die Baufirma vor dem Weiterbau die Freigabe des\nStatikers benötigt;\nEmpfehlung zu Umfang und Zeitpunkt der Beweissicherung der Nachbargebäude (Ausführung\ndurch einen Sachverständigen bauseits);\nmindestens zwei Korrekturzyklen je Plan ohne Mehrkosten;\nBeantwortung technischer Bieterfragen während der Angebotsphase der Baufirmen;\nlaufende  digitale  Planlieferung  (PDF  und  DWG)  sowie  Bereitstellung  der  Modell-  bzw.\nExportdaten im IFC-Format.\n(2)  Der  AN  übernimmt  die  Statische  Vorbemessung  samt  Fundierungskonzept  und\nMauerwerksgutachten  (Ausfertigung  Jänner  2022),  einschließlich  Lastannahmen,  statischem\nSystem, Mauerwerkskennwerten und Fundierungskonzept, als Grundlage. Er prüft und schreibt\nsie  in  eigener  Verantwortung  zu  einer  neuen,  unterfertigten  Ausführungsstatik  auf  den\nPlanstand gemäß § 1 Abs. 3 fort. Diese Fortschreibung ist im Pauschalpreis enthalten.\n(3)  Der  AN  erstellt  die  Ausführungsstatik  auf  Basis  der  für  den  Baubescheid  vom  21.04.2023\nmaßgeblichen  technischen  Vorschriften  unter  Beachtung  der  Übergangsbestimmungen  der\nWBTV  2023,  sodass  die  bestehende  Baubewilligung  bestmöglich  genutzt  werden  kann.  Die\nBemessung  erfolgt  nach  den  Eurocodes  (ÖNORM  EN  1990  ff.)  mit  den  österreichischen\nnationalen Anhängen; die angewendete Fassung wird im Dokument „Bemessungsgrundlagen\"\ndokumentiert.\n§ 3  Detaillierungsgrad, Vollständigkeit und Werkstoffe\n(1)  Die  vom  AN  geschuldeten  Unterlagen  müssen  für  den  vereinbarten  Leistungsumfang\nprüffähig, nachvollziehbar und aufeinander abgestimmt sein. Dabei gilt:\nDie  ausführenden  Firmen  erhalten  die  statische  Bemessung  und  Führungsplanung  als\nGrundlage  für  ihre  Werkstatt-  und  Abbundplanung;  die  Abgrenzung  der  gesonderten\nDetailplanung richtet sich nach § 6 Abs. 1 und Anlage 2.\nVor  Ausführung  eines  Bauteils  müssen  auch  die  dafür  erforderlichen,  gesondert  beauftragten\nDetail- und Werkstattpläne vorliegen und im vereinbarten Umfang vom AN freigegeben sein.\nDie  Prüfung  und  Freigabe  der  von  Dritten  erstellten  Werkstattpläne  und  Nachweise  bleibt\nBestandteil der Leistung des AN.\n(2)  Der  je  Werkstoff  geschuldete  Mindestinhalt  ist  in  Anlage  2  („Detaillierungsgrad  je\nWerkstoff\")  festgelegt.  Anlage  2  ist  Maßstab  für  die  Vollständigkeit  der  Lieferung  und  für  die\nFreigabe der Dossiers nach § 10.\n(3) Die Anschluss-, Auflager- und Verankerungskräfte je Knoten (Normal-, Quer- und Zugkräfte\nsowie  Momente)  sind  vom  AN  sowohl  in  der  statischen  Berechnung  als  auch  unmittelbar  auf\nden  zugehörigen  Führungs-,  Positions-  bzw.  Lastplänen  eindeutig  und  positionsbezogen\neinzutragen.  Ein  bloßer  Verweis  auf  die  statische  Berechnung  genügt  nicht.  Gesonderte\nBauteillisten im Plan sind hiervon nicht umfasst.\n(4) Im Pauschalhonorar von EUR 25.000,00 netto sind ohne zusätzliches Entgelt enthalten: die\nBemessung  sämtlicher  Knoten  und  Anschlüsse  im  Stahl-  und  Holzbau;  die  Bemessung  und\nSpezifikation der Dübel und Anker in Mauerwerk bzw. Beton mit Typ, Größe, Anzahl sowie Rand-\nund Achsabständen; die Festlegung der erforderlichen Blechdicken sowie der Art und Dicke der\nSchweißnähte.  Die  Ergebnisse  sind  in  der  prüffähigen  statischen  Berechnung  eindeutig  den\njeweiligen Positionen zuzuordnen. Die darüber hinausgehende zeichnerische Detailausarbeitung\nund  die  allgemeine  Verbindungsmittelspezifikation  sind  nach  §  6  Abs.  1  abgegrenzt;  die  hier\nausdrücklich  eingeschlossenen  Dübel-,  Anker-,  Blech-  und  Schweißnahtangaben  bleiben\nenthalten.\n(5) Fehlende oder fehlerhafte Angaben innerhalb des vereinbarten Leistungsumfangs ergänzt\noder  berichtigt  der  AN  binnen  fünf  Werktagen  ohne  gesondertes  Honorar.  Die  nach  §  6\nausdrücklich ausgeschlossenen Zusatzleistungen werden dadurch nicht in das Pauschalhonorar\neinbezogen; ihre Erbringung bedarf einer gesonderten schriftlichen Beauftragung.\n(6) Die Vollständigkeit wird bauteilbezogen beurteilt: Ein Dossier gilt erst als geliefert, wenn alle\nBauteile des betreffenden Pakets in dem in Anlage 2 beschriebenen Umfang enthalten sind.\n§ 4  Statische Betreuung während der Bauphase (ANG 855, Pos. 1.2.2)\n(1) Die statische Betreuung deckt die gesamte Bauzeit von rund 12 Monaten ab und umfasst:\nTeilnahme an der Startbesprechung mit Baufirma, Bauführer und Architektin;\nsechs  Fixtermine  in  den  kritischen  Phasen:  Fundamentplatte,  Aufzugsschacht,\nDeckenertüchtigung einschließlich Kernbohrungen, Dachstuhl, Balkone, Rohbauabschluss;\nweitere Baubesprechungen und Baustellentermine nach Bedarf und nach Anforderung der AG;\nAktenvermerk bzw. Protokoll zu jedem Termin, Übermittlung binnen drei Werktagen;\nunbegrenzte  telefonische  und  schriftliche  Rückfragen  mit  Beantwortung  binnen  zwei\nWerktagen;\nBeurteilung von Alternativvorschlägen der Baufirma (Materialien, Details) im Pauschalpreis;\nFahrt- und Nebenkosten im Pauschalpreis.\n(2) Verlängert sich die Bauzeit auf bis zu 15 Monate, entstehen keine Mehrkosten, sofern sich\ndie  Anzahl  der  Termine  dadurch  nicht  wesentlich  erhöht  (Teilbestätigung  des  AN  vom\n18.09.2026). Als „wesentlich\" gilt eine Erhöhung um mehr als drei Termine gegenüber Abs. 1.\n(3) Zusatztermine über den Umfang nach Abs. 1 und 2 hinaus werden mit einem Fixpreis von\nEUR  300,00  netto  je  Termin  einschließlich  Fahrt  verrechnet.  Eine  Abrechnung  nach  offenen\nStunden ist ausgeschlossen.\n§ 5  Prüfingenieur-Leistungen gemäß §§ 127, 128 BO für Wien (ANG\n839)\n(1) Der AN erbringt die Prüfingenieur-Leistungen gemäß §§ 127 und 128 BO für Wien (exklusive\nBauwerksbuch) mit 15 Begehungen. Die Verfügbarkeit in kritischen Phasen ist innerhalb von 24\nStunden gegeben. Enthalten sind insbesondere:\nUntergrundbeschau vor Herstellung der Fundamentplatte;\nBewehrungsabnahmen  (Fundamentplatte,  Aufzugsschacht,  Deckenertüchtigung)  vor  jeder\nBetonage;\neine  Rohbaubeschau  sowie  die  Balkonabnahme  (Teilbestätigung  des  AN:  Rohbaubeschau\neinmalig statt je Geschoss);\nAusbaubeschau und Endbeschau vor der Fertigstellungsanzeige;\nschriftliche  Abnahmebefunde  zu  jeder  Beschau  sowie  Meldung  von  Abweichungen  an  die  MA\n37;\ninterne  Prüfung  der  statischen  Berechnung  nach  dem  Vier-Augen-Prinzip  (ÖNORM  EN  1990\nAnhang B) samt Festlegung und Dokumentation der Zuverlässigkeits- und Schadensfolgeklasse;\nPlausibilitätsprüfung der Statischen Vorbemessung 2022 und des Fundierungskonzepts;\nPrüfung der Konstruktionspläne vor Freigabe zur Ausführung (Plan-Statik-Abgleich);\nPrüfung und Freigabe der Werkstattpläne;\nPrüfung  der  Materialnachweise  (Beton  samt  Lieferscheinen  und  Würfelprüfungen,\nBewehrungsstahl, Baustahl, Holz);\nAbnahmebefunde je Bauteil und Bestätigung nach § 128 BO für Wien;\nKoordination und Übergabe der Unterlagen, falls die MA 37 eine externe Prüfstatik verlangt;\nVorbereitung der Bestellung und Bekanntgabe des Prüfingenieurs an die MA 37;\nkeine weiteren Prüfkosten für die AG über die Pauschalen nach § 11 hinaus.\n(2)  Die  Wahrnehmung  von  Tragwerksplanung  und  Prüfingenieur-Funktion  durch  den  AN\n(Personalunion)  ist  nach  §  127  Abs.  3a  BO  für  Wien  zulässig.  Der  AN  bestätigt  schriftlich  die\nZulässigkeit sowie seine Unabhängigkeit von Bauwerber und Bauführer. Eine interne personelle\nTrennung  zwischen  Verfasser  der  Statik  und  prüfender  Person  ist  einvernehmlich  nicht\nvereinbart; die Prüfung erfolgt nach dem Vier-Augen-Prinzip gemäß Abs. 1.\n(3) Der AN erbringt die vollständige ZT-Bestätigung zur Fertigstellungsanzeige nach § 128 Abs.\n2 Z 1 BO für Wien, insbesondere:\nBestätigung der bewilligungsgemäßen Ausführung des Tragwerks;\nBestätigung  der  Übereinstimmung  mit  den  Bauvorschriften  (Standsicherheit,  Brandschutz\ntragender Bauteile hinsichtlich der Ausführung);\nZusammenstellung aller Abnahmebefunde und Materialnachweise (Beton, Stahl, Holz);\nAbstimmung des Anzeigepakets mit dem Bauführer und der Architektin;\nÜbernahme der Kommunikation mit der MA 37 zu tragwerksbezogenen Rückfragen;\nTeilnahme an der behördlichen Endbeschau, falls angesetzt;\nHinweisliste,  welche  weiteren  Befunde  (Elektro,  Gas,  Aufzug,  Rauchfang,  Bauphysik)  bauseits\nbeizubringen sind.\n(4) Der Pauschalpreis von ANG 839 beträgt unverändert EUR 8.000,00 netto. Die bis 31.12.2026\nverlängerte Angebotsgültigkeit wurde durch TOMS mit E-Mail vom 23.09.2026 bestätigt.\n§ 6  Abgrenzung, Mitwirkung der AG und Grundlagenbestätigung\n(1) Nicht im Pauschalhonorar enthalten sind folgende Leistungen. Die unter lit. a beschriebenen\nZusatzleistungen können gegen gesondertes Entgelt erbracht werden; der AN legt hierfür auf\nAnfrage ein positionsweise bepreistes Angebot vor. Eine Ausführung oder Vergütung setzt die\nvorherige schriftliche Beauftragung durch die AG voraus:\na)  Zusätzliche  Detailplanung  Stahl-/Holzbau:  zeichnerische  Knoten-  und  Anschlussdetails\n(Prinzip-  und  Ausführungsdetails,  insbesondere  1:10/1:20);  allgemeine  Spezifikation  von\nVerbindungsmitteln nach Art, Größe, Anzahl und Anordnung, soweit nicht ausdrücklich von § 3\nAbs. 4 erfasst; Bauteillisten auf den Plänen mit Werkstoffgüten, Querschnitten/Profilen, Längen,\nStückzahlen und Positionsnummern; Detailausarbeitung der Anschlüsse von Aussteifungen und\nWindverbänden;  besondere  Vorgaben  zu  Korrosions-  und  Holzschutz  sowie  Nutzungs-  und\nFestigkeitsklassen  nach  Abschnitt  A  Z  11  des  Fragenkatalogs  2.  Die  statisch  notwendigen\nBemessungsannahmen und Materialkennwerte der Berechnung bleiben Teil der Grundleistung.\nWerkstatt-  und  Abbundpläne  sowie  gesonderte  Werkstattstücklisten  werden  durch  die\nausführenden Firmen oder nach gesonderter Beauftragung erstellt; Prüfung und Freigabe durch\nden AN sind enthalten.\ndie Mengenermittlung des Tragwerks für die Ausschreibung (Beton, Stahl, Holz);\nErdbebennachweis des Bestandes nach ÖNORM B 1998-3 und Bestandsbewertung nach ÖNORM\nB 4008-1: bereits vorhanden bzw. über die Einreichunterlagen abgedeckt;\ndie brandschutztechnische Bemessung der tragenden Bauteile (R-Klassen laut Bescheid/OIB-RL\n2);\ndie  Erstellung  der  Lastangaben  Dritter  für  Haustechnik,  Aufzug  und  Baufirma;  der  AN  erteilt\njedoch die statische Freigabe dieser Unterlagen (handschriftlicher Vermerk „Freigabe Statik JA\"\nvom 18.09.2026);\ndas  Baugrubensicherungskonzept  sowie  Berechnung  und  Pläne  der  Baugrubensicherung  bzw.\ndes Verbaus (der AN prüft und gibt frei);\ntemporäre Abstützungen von Decken, Wänden und Straßenfassade in den Bauzuständen (der\nAN prüft und gibt frei);\nder  Abbruch-  und  Bauphasenplan  sowie  das  Paket  „Baustelleneinrichtung,  Abbruch-  und\nSicherungsmaßnahmen\";\ndie  laufende  Prüfung  der  Bauzustände  auf  der  Baustelle  vor  Freigabe  des  jeweils  nächsten\nAbschnitts über die Beschauen nach § 5 hinaus;\nBestandspläne des Tragwerks „wie ausgeführt\" (as built) nach Bauende: Architektin;\nSchnittstellenliste, Teilnahme an Vergabegesprächen und Beurteilung der Baufirmen-Angebote;\nörtliche Bauaufsicht (ÖBA) und Bauführung nach § 65 BO für Wien;\ndie Beweissicherung der Nachbargebäude (Ausführung durch Sachverständigen bauseits);\nPapierausfertigungen der Statik und der Pläne; die Übergabe erfolgt digital (§ 9).\n(2)  Die  Ausschlüsse  nach  Abs.  1  sind  abschließend.  Die  ausdrücklich  eingeschlossenen\nLeistungen  nach  §  3  Abs.  3  und  4  werden  durch  die  allgemeine  Abgrenzung  nicht\neingeschränkt. Für die übrigen ausgeschlossenen Fachleistungen sorgt die AG durch geeignete\nDritte.  Vor  Ausführung  eines  Bauteils  stimmen  AG,  AN  und  ausführende  Firma  die\nVollständigkeit der notwendigen Unterlagen ab.\n(3)  Grundlagenbestätigung  des  AN  vom  18.09.2026  (Frage  12  des  Fragenkatalogs):  Der  AN\nbestätigt, dass\ndie  Baugrunddaten  (Bohrprofile  MA  29  –  C670/3,  D618/2,  D618/3  –  und  die  geotechnische\nZusammenfassung vom 11.08.2026) für die Bemessung der Fundamentplatte ausreichen;\ndas Mauerwerksgutachten 2021 für die Bemessung der Bestandswände und der Ertüchtigungen\nausreicht;\ndas Fundierungskonzept Stahlbeton-Platte d = 30 cm bestätigt wird;\ndie  Grundwasserbeobachtung  (4,25  m  im  Nachbarprofil)  keine  besonderen  Maßnahmen  für\nFundamentplatte und Aufzugsgrube erfordert;\ndie Bestandsaufnahme der Tragstruktur im Zuge der Objektbegehung sowie die Sichtkontrolle\nder  Deckenkonstruktionen  bei  den  ohnehin  vorgesehenen  Abbrucharbeiten  im  Pauschalpreis\nenthalten sind;\nzeigen sich beim Abbruch abweichende Verhältnisse, die Anpassung der Statik im Pauschalpreis\nerfolgt, allfällige Sondierungen vom AN festgelegt und von der Baufirma ausgeführt werden;\nder AG keine Kosten für Untersuchungsprogramme, Labor oder Gutachten Dritter entstehen.\n(4)  Untersuchungsprogramme,  Laborleistungen  oder  Gutachten  Dritter  löst  der  AN  nur  nach\nvorheriger schriftlicher Freigabe der AG aus.\n(5) Die AG stellt die vorhandenen Bestands-, Baugrund-, Bewilligungs- und Planarchivunterlagen\nüber  das  Projektportal  bereit.  Der  AN  bestätigt  den  erfolgreichen  Zugriff  und  benennt  bis\n06.10.2026 konkret fehlende oder unleserliche Unterlagen. Entsprechend seiner Mitteilung vom\n24.09.2026 sind vollständige historische Planblätter von der Ersteinreichung bis zum aktuellen\nStand  erforderlich;  Planköpfe  allein  genügen  nicht.  Die  gemeinsame  Bestands-  und  Planliste\ngemäß Anlage 7 dokumentiert Empfang und Bearbeitungsgrundlage.\n(6) Die Funktion des Bauführers nach § 65 BO für Wien wird von der ausführenden Baufirma\n(Baumeister)  wahrgenommen.  Der  AN  bestätigt  die  Vereinbarkeit  dieser  Konstellation  mit\nseiner  Prüfingenieur-Rolle  und  bestätigt,  dass  die  Prüfingenieur-Beschauen  und  die  statische\nBetreuung die Kontrolle des Tragwerks auch ohne ÖBA vollständig abdecken. Auf Wunsch der\nAG empfiehlt der AN ein unabhängiges ÖBA-Büro und stimmt sich mit diesem ab.\n§ 7  Bauwerksbuch gemäß § 128a BO für Wien\n(1) Mit diesem V"
+        },
+        {
+          "id": "be2ac69f-8b45-4cc5-80c3-9616da667b28",
+          "name": "2026-09-28 Fragekatalog 2.pdf",
+          "size": 292488,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 10380,
+          "page_count": null,
+          "text": "Fragenkatalog 2 – Klärungen zur Reinschrift vom 23.09.2026 – Schallergasse 35, 1120 Wien A&C Wohnart · ausfüllbar · Stand 23.09.2026\nSeite 1Fragenkatalog 2 – Klärungen\nzur unterzeichneten Reinschrift vom 23.09.2026\nWohnhaus Schallergasse 35, 1120 Wien – Dachgeschossausbau, statische Ertüchtigung, Aufzugszubau\nAuftragnehmer Toms Ziviltechniker GmbH, FN 214744a – Dipl.-Ing. Ferdinand Toms;\nSekretariat Dagmar Zottl, Simona Hotea\nBauherrin A&C Wohnart Immobilien GmbH (FN 668224h), Schallergasse 35, 1120 Wien –\nCosmin Adrian Covaciu, Geschäftsführer, office@ac-wohnart.at, +43 665 670 550 45\nGrundlage Ihre unterzeichnete Reinschrift des Fragenkatalogs vom 23.09.2026 samt den vier\nhandschriftlichen Anmerkungen, Angebote ANG 855 / ANG 839 / ANG 840 / ANG 891\nZweck Klärung von vier Punkten, die sich aus Ihren Anmerkungen ergeben, sowie Abstimmung\nder Datenformate und der Konditionen für das Bauwerksbuch. Kein neuer Leistungsumfang.\nAusfüllen Alle Kästchen und Felder sind PDF-Formularfelder: in Adobe Acrobat Reader, Foxit,\nMicrosoft Edge oder Chrome direkt ankreuzen, eintippen und speichern.\nRücksendung an office@ac-wohnart.at – Abschnitt D (Planeinsicht MA 37) bitte bis Do., 24.09.2026,\nda der Termin im Planarchiv für Fr., 25.09.2026, 11:30 Uhr fixiert ist.\nIhre vier Anmerkungen in der Reinschrift – darauf beziehen sich die Fragen:\nFrage 1: \"für Stahl- und Holzbau AUSSCHLIESSLICH Führungsplanung!\"    Abschnitt A\nFrage 2, Pos. 4: \"am Plan\"    zur Kenntnis genommen, siehe Abschnitt C\nFrage 4: Streichung \"samt Konstruktionsplänen\"    Abschnitt B\nFrage 12: \"Planeinsicht MA37 erforderlich – erfolgt durch AG\"    Abschnitt D\nFragenkatalog 2 – Klärungen zur Reinschrift vom 23.09.2026 – Schallergasse 35, 1120 Wien A&C Wohnart · ausfüllbar · Stand 23.09.2026\nSeite 2A. Führungsplanung Stahl- und Holzbau – Leistungstiefe\nWir verstehen Ihre Anmerkung „für Stahl- und Holzbau ausschließlich Führungsplanung“ so, dass davon ausschließlich die\nWerkstatt- bzw. Abbundplanung der ausführenden Betriebe ausgenommen ist – also die rein fertigungsbezogene Darstellung\nder einzelnen Bauteile (Bohrbilder, Blechzuschnitte, Zuschnitte und Ausklinkungen, CNC-Daten, Werkstattstücklisten). Diese\nLeistungen erbringen ohnehin der Stahlbauer bzw. der Zimmerer, und Sie prüfen und geben sie frei (Frage 2, Pos. 5 und 6 –\nvon Ihnen bestätigt).\nDie tragwerksrelevanten Festlegungen bleiben damit Bestandteil Ihrer Leistung. Dürfen wir Sie bitten, die folgenden\nPositionen anzukreuzen?\ninkl. Aufpreis nein Bitte ankreuzen:\n1. Bemessung sämtlicher Knoten und Anschlüsse im Stahlbau\n2. Bemessung sämtlicher Knoten und Anschlüsse im Holzbau (Dachstuhl, Dachgeschosstragwerk,\nGaupen)\n3. Zeichnerische Darstellung der Knoten- und Anschlussdetails (Prinzipdetails, Maßstab 1:10 bzw.\n1:20)\n4. Art, Größe, Anzahl und Anordnung der Verbindungsmittel (Schrauben, Stabdübel, Nägel, Winkel,\nZuganker)\n5. Dübel und Anker in Mauerwerk bzw. Beton: Typ, Größe, Anzahl, Rand- und Achsabstände\n6. Stahlbau: Blechdicken sowie Art und Dicke der Schweißnähte\n7. Anschluss- und Auflagerkräfte je Knoten (Normal-, Quer-, Zugkräfte und Momente) sind in den\nPlänen angegeben – auch dann, wenn die Verbindungsmittel vom ausführenden Betrieb bemessen\nwerden\n8. Werkstoffgüten, Querschnitte, Längen und Positionsnummern je Bauteil (Bauteilliste im Plan)\n9. Auflagerdetails auf dem Bestandsmauerwerk: Lastverteilungsplatten, Mörtelbett, erforderliche\nAuflagerlängen\n10. Anschlüsse der Aussteifung und der Windverbände\n11. Vorgaben zu Korrosionsschutz (Stahl) bzw. Holzschutz, Nutzungs- und Festigkeitsklassen\n12. Werkstatt- bzw. Abbundplanung der ausführenden Betriebe (hier erwarten wir „nein“ – Leistung\nder Firmen)\nAntwort / Anmerkungen:\nB. Konstruktionspläne – Termine\nWir verstehen Ihre Streichung so, dass sich die Frist von drei Wochen auf die vollständige prüffähige Ausführungsstatik bezieht.\nFür den Bauablauf sind jedoch die Konstruktionspläne maßgeblich, da die ausführende Firma danach baut. Nachstehend unser\nVorschlag, chronologisch geordnet. Bitte bestätigen Sie je Unterlage oder tragen Sie Ihren eigenen Termin ein.\nTermin Paket Unterlage best. Ihr Termin (abweichend)\n09.10.2026 D1Dokument „Bemessungsgrundlagen“ (Annahmen, Normen, Lasten,\nZuverlässigkeits- und Schadensfolgeklasse)\n16.10.2026 D2Statische Berechnung Fundamentplatte, Aufzugsgrube und\nSchachtwände\n16.10.2026 D2Schalpläne Fundamentplatte, Aufzugsgrube und Schachtwände\n23.10.2026 D2Bewehrungspläne und Biegelisten Fundamentplatte, Aufzugsgrube\nund Schachtwände\n23.10.2026 D3Statische Berechnung Ertüchtigung Bestandsdecken und -wände,\nDurchbrüche, Auswechslungen\n23.10.2026 D3Positions- und Lastpläne je Geschoss\n28.10.2026 D4Statische Berechnung Dachgeschoss Holz/Stahl, Aussteifung und\nLastweiterleitungin Statik enthalten\n3 Wochen nach unterschriebenen Werkvertrag\nwird danach einvernehmlich festgelegt\nFragenkatalog 2 – Klärungen zur Reinschrift vom 23.09.2026 – Schallergasse 35, 1120 Wien A&C Wohnart · ausfüllbar · Stand 23.09.2026\nSeite 330.10.2026 D3Konstruktionspläne Ertüchtigung Bestand: Schal- und\nBewehrungspläne, Stürze, Auswechslungen\n04.11.2026 D4Führungsplanung Stahlbau samt Knoten- und Anschlussdetails\n04.11.2026 D4Führungsplanung Holzbau/Dachstuhl samt Knoten- und\nAnschlussdetails\n11.11.2026 D5Statische Berechnung und Konstruktionspläne Balkone, Stiegen,\nRestdetails\n11.11.2026 –Vollständige Planliste mit Index, Datum und Änderungsvermerk\nDie Termine der statischen Berechnungen entsprechen der von Ihnen unterzeichneten Reinschrift; neu sind lediglich die Termine der\nzugehörigen Konstruktionspläne.\nAntwort / Anmerkungen:\nC. Übergabeformate und Datenformate\nFür Ihre Zusage, die Führungsplanung auch im DWG-Format zu übergeben, bedanken wir uns ausdrücklich – das erleichtert\nden ausführenden Betrieben die Werkstattplanung und vermeidet Übertragungsfehler. Bitte kreuzen Sie an, welche Formate Sie\nliefern können:\nliefern Aufpreis nein Bitte ankreuzen:\n1. Unterfertigtes, behördentaugliches und prüffähiges PDF (Vertragsfassung)\n2. DWG (AutoCAD 2018 oder älter), Zeichnungen im Modellbereich im Maßstab 1:1\n3. DXF\n4. Getrennte Layer nach Bauteilen bzw. Gewerken; Positionsnummern und Bauteilangaben als\nText (nicht als Grafik)\n5. Lieferung der DWG bei jeder Planrevision (nicht nur einmalig zum Abschluss)\n6. IFC-Export des Tragwerksmodells (IFC 2x3 oder IFC 4)\n7. Statisches Berechnungsmodell als Datei (z. B. RFEM/RSTAB, SOFiSTiK) – auf Anfrage\n8. Bewehrungs- und Biegelisten zusätzlich als Excel oder CSV\n9. Holzbau: Schnittstellendaten für den Abbund (BTL/BVX), sofern im Modell vorhanden\n10. Stahlbau: NC- bzw. DSTV-Daten, sofern im Modell vorhanden\n11. Planliste mit Index, Datum und Änderungsvermerk je Lieferung\n12. Bereitstellung über Download-Link oder Projektplattform\nVon Ihnen eingesetzte Software und Versionen:\nWeitere Formate, die Sie anbieten können:\nD. Planeinsicht MA 37 am 25.09.2026 – welche Unterlagen benötigen Sie?\nIhre Anmerkung zu Frage 12 nehmen wir auf: Die Planeinsicht ist bereits fixiert – Freitag, 25.09.2026, 11:30 Uhr, Planarchiv der\nGebietsgruppe West, Spetterbrücke 4, 1160 Wien. Damit wir alles Erforderliche in einem einzigen Termin kopieren können,\nbitten wir um Ihre Auswahl:\nja wenn mögl. nein Bitte ankreuzen:\n1. Einreichpläne des Bestandes (Baujahr 1905)\n2. Einreichpläne späterer Um- und Zubauten\n3. Ältere statische Berechnungen aus dem Bauakt\n4. Auswechslungs- und Durchbruchspläne früherer Verfahren\n5. Frühere Bescheide samt AuflagenMaßstab 1:50\nFragenkatalog 2 – Klärungen zur Reinschrift vom 23.09.2026 – Schallergasse 35, 1120 Wien A&C Wohnart · ausfüllbar · Stand 23.09.2026\nSeite 46. Unterlagen zu früheren Dachgeschoss- bzw. Ausbauverfahren im Haus\n7. Rauchfang- und Kaminbefunde\n8. Unterlagen zu Nachbargebäuden bzw. Feuermauern, soweit im Akt vorhanden\nWorauf sollen wir bei der Einsicht besonders achten?\nz. B. bestimmte Geschosse, Deckenkonstruktionen, Feuermauern, frühere Auswechslungen, Auflagen aus alten Bescheiden\nSonstige Unterlagen, die wir kopieren sollen:\nE. Bauwerksbuch – Angebot ANG 891 (3.400 EUR netto)\nWir möchten das Bauwerksbuch nach § 128a BO für Wien gerne an Ihr Haus vergeben – Sie sind als Prüfingenieur die\nnaheliegende Stelle dafür und verfügen ohnehin über sämtliche Daten des Bauvorhabens.\nDer angebotene Pauschalpreis von 3.400 EUR netto liegt allerdings über unserer Erwartung, insbesondere weil die\nBestandsaufnahme, die Befunde und die Materialnachweise im Rahmen Ihrer Prüfingenieur-Leistungen ohnehin anfallen und im\nBauwerksbuch nur zusammenzuführen sind. Dürfen wir Sie höflich um einen Preisnachlass ersuchen?\nIm Pauschalpreis enthaltene Inhalte (gemäß Frage 9 des Fragenkatalogs)\ninkl. Aufpreis nein Bitte ankreuzen:\n1. Gebäudebezeichnung, Adresse, EZ 2235 KG 01305, Eigentümerin, Bewilligungen (GZ\nMA37/1539234-2021-1)\n2. Beschreibung des Bauwerks: Tragwerk, Bauteile, Baujahr, wesentliche Änderungen (Zu-/Umbau\n2026/27)\n3. Erstprüfung und Befund des Bauzustands durch die befugte Person mit Datum\n4. Feststellung von Mängeln und Baugebrechen samt Behebungsfristen und Nachweis der\nBehebung\n5. Prüfintervalle und Termin der nächsten Überprüfung\n6. Name, Befugnis und Unabhängigkeitserklärung der prüfenden Person\n7. Elektronische Übermittlung bzw. Registrierung bei der MA 37 innerhalb der gesetzlichen Frist\n8. Foto- und Rissdokumentation des Bestands vor und nach dem Umbau\n9. Verzeichnis der Pläne, Statiken, Befunde und Bescheide mit Ablageort\n10. Instandhaltungs- und Wartungsplan (Dach, Balkone, Fassade, Feuchtigkeit)\n11. Hinweise auf Prüfpflichten der Anlagen (Aufzug, Rauchfänge, Elektro) mit Intervallen\n12. Übergabe an die Hausverwaltung in digitaler Form (PDF) zur Fortführung\nZeitpunkt der Erstellung (Vorschlag: bis zur Fertigstellungsanzeige):\nIhr Vorschlag zum Honorar und Anmerkungen:\nAbschluss\nSämtliche übrigen Positionen der von Ihnen unterzeichneten Reinschrift bleiben unverändert und werden durch diesen Katalog\nnicht berührt. Dieser Katalog dient ausschließlich der Klärung der vier von Ihnen angemerkten Punkte sowie der Abstimmung\nvon Datenformaten und Bauwerksbuch-Konditionen.\nFragenkatalog 2 – Klärungen zur Reinschrift vom 23.09.2026 – Schallergasse 35, 1120 Wien A&C Wohnart · ausfüllbar · Stand 23.09.2026\nSeite 5Ort, Datum: Name des Unterzeichners:\nUnterschrift / Firmenstempel Toms Ziviltechniker GmbH Rücksendung an: office@ac-wohnart.at\nKrems, 28.09.2026 DI Ferdinand Toms\n"
+        },
+        {
+          "id": "6abbedde-1360-49fe-b2f3-ec06772678f5",
+          "name": "ANG 891_Schallergasse 35, 1120 Wien_Bauwerksbuch.PDF",
+          "size": 80038,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 1137,
+          "page_count": null,
+          "text": ".\nA&C Wohnart Immobilien GmbH\nSchallergasse 35\n891Kundennummer:\nSachbearbeiter:2301011\nIhre UID-Nr.:\nSeite 1 von1Gültig bis: 31.12.2026 1120Wien23.09.2026\n / 1.00Datum:\nSchallergasse 35, 1120 Wien - Bauwerksbuch Angebot:FTO / DZO\nUnser Zeichen:\nAnfrage vom 22.09.2026, Cosmin Adrian Covaciu\n.\nGrundlagen:\nBezeichnung MengeEinh Preis Netto Pos.\nGEBÄUDEDOKUMENTATION\nErstellung eines Bauwerksbuches gemäß Anforderung WBO 1,00Pau\n.\n3 400,00 3 400,00 14.1 EUR\nSumme 3 400,00\nGEBÄUDEDOKUMENTATION\n.\nEUR\nAnmerkungen:\nDas Honorarangebot gilt für die angebotenen Leistungspositionen als pauschal vereinbart. Sollte sich der entstandene Aufwand um mehr als\n10% erhöhen, so ist ein neues Honorar nach den tatsächlichen Stundenaufwendungen zu ermitteln und gesondert zu vereinbaren.\nZahlungskondition:\nZahlbar innerhalb von 30 Tagen netto ohne Abzug\n.\nWir freuen uns auf Ihren Auftrag!\nAbstand\nToms Ziviltechniker GmbH\n3500 Dachsberggasse 8, Krems an der Donau+43 (2732) 72797 |\nwww.toms.atoffice@toms.at |UID: ATU53776301\nAGB: www.toms.atHandelsgericht: Landesgericht Krems an der DonauMargaretenstraße 93, 1050 Wien | +43 (1) 310 07 07FN 214744a\n"
+        },
+        {
+          "id": "a6b1c079-3e7e-423b-a778-8cf4ac5bb657",
+          "name": "2026-09-22 Anlage 5 - Fragenkatalog 18.09.2026 (digitale%0D%0A Reinschrift)_korr+signed.pdf",
+          "size": 1111450,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 69784,
+          "page_count": null,
+          "text": "Seite 1 von 25\nFragenkatalog zur Angebotsbesprechung\nToms Ziviltechniker GmbH – Tragwerksplanung, Prüfingenieur, BauKG\nWohnhaus Schallergasse 35, 1120 Wien – Dachgeschossausbau, statische Ertüchtigung,\nAufzugszubau\nTermin\nFreitag, 18.09.2026, 08:30 Uhr – Toms Ziviltechniker GmbH, Margaretenstraße 93, 1050 Wien\nGesprächspartner\nDipl.-Ing. Ferdinand Toms; Sekretariat Simona Hotea\nBauherrin\nA&C Wohnart Immobilien GmbH (FN 668224h), Schallergasse 35, 1120 Wien – Cosmin Covaciu,\nGeschäftsführer\nGesprächsziel\nBestätigung, dass die Angebote ANG 855 und ANG 839 den vollständigen Leistungsumfang für das\nBauvorhaben abdecken – im Rahmen der bestehenden Baubewilligung, ohne zusätzliche\nUntersuchungen und ohne Nachträge – und Fixierung der Termine bis zum Baubeginn.\nAufbau\n22 Fragen in 7 Abschnitten. Jede Frage ist als Bestätigung formuliert („Wir gehen davon aus, dass\n…“) und enthält: eine Checkliste der erwarteten Positionen (inkl. / Aufpreis / nein), Erläuterung DE,\nExplicație RO (Ziel und Taktik), rechtliche Einordnung (verpflichtend? Befugnis? Rechtsgrundlage)\nsowie Antwortfelder.\nAusfüllen\nAlle Kästchen und Felder sind PDF-Formularfelder: in Adobe Acrobat Reader, Foxit, Microsoft Edge\noder Chrome direkt ankreuzen, eintippen und mit „Speichern“ sichern. Auf Papier: handschriftlich\nauf den Linien.\nGesprächsführung\nJede Frage wird als Selbstverständlichkeit vorgetragen; Toms soll bestätigen und muss aktiv\nbenennen, was nicht enthalten ist. Höflich, verbindlich, ohne Zweifel an den eigenen Unterlagen zu\näußern. Vorgeschlagene Zahlen (Termine, Fristen, Deckungssummen) sind Verhandlungsanker –\nbewusst ambitioniert.\nRechtshinweis\nDie rechtlichen Angaben (BO für Wien, WBTV 2023, OIB-Richtlinien, ZTG 2019, BauKG, ABGB,\nUrhG) dienen der Vorbereitung und sind keine Rechtsberatung; Paragraphen und Fristen im RIS\n(ris.bka.gv.at) bzw. mit dem Rechtsanwalt verifizieren.\nStand\n17.09.2026, Version 2 – Grundlage: Korrespondenz 10.08.–17.09.2026, Angebote ANG\n839/840/855, Vorbereitungsmaterial 08.09.2026\nAUSGEFÜLLTE FASSUNG – ERGEBNIS DER BESPRECHUNG VOM 18.09.2026\nDigitale Reinschrift der im Termin am 18.09.2026 gemeinsam durchgegangenen und vom Auftragnehmer\nangekreuzten bzw. handschriftlich ergänzten Fassung. Inhaltlich unverändert übertragen von der A&C Wohnart\nImmobilien GmbH, Stand 22.09.2026. Diese Fassung ist Anlage 5 zum Werkvertrag Tragwerksplanung /\nPrüfingenieur und wird vom Auftragnehmer gezeichnet retourniert.\nFragenkatalog TOMS Ziviltechniker – Schallergasse 35 – Termin 18.09.2026, 08:30 Uhr\nA&C Wohnart · ausfüllbar · Version 2\nSeite 2 von 25\nInhaltsverzeichnis\nA. Leistungsumfang Tragwerksplanung – Angebot ANG 855 (26.500 EUR netto)\n3\n Frage 1: Leistungsumfang der Ausführungsstatik (Pos. 1.2.1)\n3\n Frage 2: Konstruktionspläne, Stücklisten, Werkstattplanprüfung\n4\n Frage 3: Fortschreibung der Statischen Vorbemessung 2022\n4\n Frage 4: Bearbeitungs- und Liefertermine je Paket\n5\n Frage 5: Statische Betreuung während der Bauphase (Pos. 1.2.2)\n6\n Frage 6: Bauzustände, Baugrubensicherung, Unterfangungen\n7\nB. Prüfingenieur – Angebot ANG 839 (8.000 EUR netto), Fertigstellung, Bauwerksbuch\n9\n Frage 7: Prüfingenieur-Angebot ANG 839 im Gesamtpaket\n9\n Frage 8: Bestätigung zur Fertigstellungsanzeige (§ 128 BO Wien)\n10\n Frage 9: Bauwerksbuch nach § 128a BO Wien – Inhalte und Übergabe\n10\n Frage 10: Prüfungen der Statik und der Ausführung – alle im Paket\n11\nC. Planungsgrundlagen, Bestand, Baugrund, Bescheid und Normen\n13\n Frage 11: Planungsgrundlage und Rahmen der bestehenden Baubewilligung\n13\n Frage 12: Ausreichende Bestands- und Baugrundunterlagen\n14\n Frage 13: Anzuwendende Vorschriften und Nutzung der Bewilligung 2023\n15\nD. Befugnis, Team, Versicherung, Referenzen\n16\n Frage 14: Verantwortliche Personen, Befugnis, Team\n16\n Frage 15: Berufshaftpflichtversicherung und Haftung\n16\n Frage 16: Einschlägige Referenzen des eingesetzten Teams\n17\nE. Vertrag, Übergabe, Honorar, Terminplan\n19\n Frage 17: Übergabeformate, Ausfertigungen, Nutzungsrechte\n19\n Frage 18: Vertragsgrundlage, Pauschalpreise, Zahlungsplan\n19\n Frage 19: Roadmap bis zum Baubeginn\n20\nF. BauKG – Angebot ANG 840 (11.040 EUR netto), Bauführer und ÖBA\n22\n Frage 20: BauKG-Angebot ANG 840 – Konditionen für eine spätere Beauftragung\n22\n Frage 21: Bauführer und örtliche Bauaufsicht – Schnittstellen\n22\nG. Sonstiges\n24\n Frage 22: Rechnung 77260142 (Wurmbstraße 48) – Richtigstellung\n24\nAbschluss der Besprechung – Ergebnisprotokoll\n25\nLegende Checklisten: inkl. = im Pauschalpreis enthalten (bestätigt) · Aufpreis = gesondert angeboten, Betrag im Antwortfeld notieren ·\nnein = nicht durch Toms (bauseits / Dritter) · Sonstiges / offen = Ergänzung oder schriftliche Nachreichung.\n\nFragenkatalog TOMS Ziviltechniker – Schallergasse 35 – Termin 18.09.2026, 08:30 Uhr\nA&C Wohnart · ausfüllbar · Version 2\nSeite 3 von 25\nA. Leistungsumfang Tragwerksplanung – Angebot ANG 855 (26.500\nEUR netto)\nFrage 1 – Leistungsumfang der Ausführungsstatik (Pos. 1.2.1)\nWir gehen davon aus, dass die Ausführungsstatik gemäß Pos. 1.2.1 Ihres Angebots ANG 855 – wie\nin unserer Anfrage vom 02.09.2026 beschrieben – sämtliche tragenden Bauteile des Bauvorhabens\numfasst. Dürfen wir Sie um kurze Bestätigung der folgenden Positionen bitten?\ninkl.\nAufpreis\nnein\nWir gehen davon aus, dass folgende Positionen enthalten sind – bitte ankreuzen:\n1. Stahlbeton-Fundamentplatte d = 30 cm samt Gründung und Anschluss an die Bestandsfundamente\n2. Aufzugszubau über alle Geschosse: Schachtwände, Aufzugsgrube, Gründung, Lastansatz laut\nAufzugshersteller\n3. Statische Ertüchtigung der Bestandsdecken (Tram-/Dippelbaumdecken), Auflager und Deckenränder\n4. Bestandswände, Pfeiler, Stürze und Auswechslungen; neue Wanddurchbrüche im Bestand\n5. Zweigeschossiger Dachgeschossausbau (TOP 20–23): Tragkonstruktion Holz/Stahl, Dachstuhl,\nGaupen, Attika, Terrassen\n6. Aussteifung, Deckenscheiben, Windverbände, Lastweiterleitung bis in die Fundierung (Nachweis des\nBestands)\n7. Hofseitige Balkone einschließlich Verankerung im Bestandsmauerwerk\n8. Stiegen (Bestand und neu), Stiegenhauswände, Podeste; Anschlussdetails Neu/Alt\n9. Feuermauern, Nachbaranschlüsse, Kamine/Rauchfänge im Einflussbereich der Tragstruktur\n10. Erdbebennachweis des Bestands (ÖNORM B 1998-3) und Bestandsbewertung (ÖNORM B 4008-1)\n11. Brandschutztechnische Bemessung der tragenden Bauteile (R-Klassen laut Bescheid/OIB-RL 2)\n12. Lastangaben an Haustechnik, Aufzug und Baufirma (Lastpläne)\nSonstiges / offen:\nErläuterung (DE)\nANG 855 nennt nur „Ausführungsstatik, sämtl. Schalungs- und Bewehrungspläne, Führungsplanung\nStahl- und Holzbau“ – ohne ein einziges Bauteil zu benennen. Ziel: eine namentliche Bestätigung\njeder Position im ergänzten Angebot, damit nichts später als Mehrleistung (10-%-Klausel) gilt. Die\nListe wird als Bestätigung vorgelegt, nicht als Frage; Toms muss aktiv ausnehmen, was nicht\nenthalten ist. Vergleichswert: Dr. Pech führt Durchbrüche (6.000 EUR) und Baugrubensicherung\n(5.000 EUR) als eigene Positionen.\nExplicație (RO)\nOferta nu enumeră elementele acoperite. Scopul: să obțineți confirmarea nominală a fiecărei poziții\ndin listă, ca parte a prețului de 25.000 €. Prezentați lista ca o confirmare („presupunem că…“), nu ca\no întrebare deschisă – Toms trebuie să spună explicit ce NU e inclus, ceea ce e mai greu de făcut\nfață în față. Bifați „inkl.“ pentru fiecare poziție confirmată; unde spune „contra cost“, notați suma.\nReper: Dr. Pech cere separat 6.000 € pentru goluri și 5.000 € pentru sprijiniri.\nGesetzlich\nverpflichtend in\nÖsterreich?\nJa. § 127 Abs. 2 BO für Wien: statische Berechnungen und Konstruktionspläne müssen dem\nBaufortschritt entsprechend am Bau vorliegen; Standsicherheit für jedes tragende Bauteil nach\nOIB-Richtlinie 1 / WBTV 2023 und Eurocodes.\nBesondere Befugnis\ndes Partners\nerforderlich?\nJa. Tragwerksplanung ist Ziviltechnikern für Bauingenieurwesen (ZTG 2019) bzw. Baumeistern (§\n99 GewO 1994) vorbehalten; Unterfertigung durch die befugte Person (§ 63 BO Wien). Toms\nZiviltechniker GmbH: ZT-Gesellschaft, FN 214744a.\nAntwort / Notizen zu Frage 1  (Răspuns / notițe):\n1.\n2.\n3.\n4.\n5.\nvollständig bestätigt\nteilweise (siehe Liste)\nNachreichung schriftlich bis ______\noffen / Verhandlung\nVerantwortlich:\nTermin / Kosten:\n\nFragenkatalog TOMS Ziviltechniker – Schallergasse 35 – Termin 18.09.2026, 08:30 Uhr\nA&C Wohnart · ausfüllbar · Version 2\nSeite 4 von 25\nFrage 2 – Konstruktionspläne, Stücklisten, Werkstattplanprüfung\nWir verstehen Pos. 1.2.1 so, dass die Schalungs- und Bewehrungspläne sowie"
+        }
+      ],
+      "note": "Attachment text truncated; call eva_get_attachment(attachment_id, offset) for the rest."
+    },
+    {
+      "id": "ac59f889-f611-460b-8bf6-6261e313aca6",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Zugang zum privaten Projektportal ac-wohnart.at | Schallergasse 35",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "office@toms.at"
+      ],
+      "cc": [
+        "dagmar.zottl@toms.at",
+        "ferdinand.toms@toms.at",
+        "simona.hotea@toms.at"
+      ],
+      "received_at": "2026-09-30T11:52:10.784343Z",
+      "text": "Sehr geehrte Frau Zottl, sehr geehrter Herr Dipl.-Ing. Toms,\nfür die Bearbeitung unseres Bauvorhabens Schallergasse 35 stellen wir Ihnen die Projektunterlagen im privaten Bereich unserer Website zur Verfügung.\nAdresse: https://www.ac-wohnart.at/portal\nBenutzername / E-Mail: office@toms.at\nPasswort: Schallergasse35.Toms\nFür Ihren Auftrag sind insbesondere folgende Bereiche vorgesehen:\nP2 – Baubewilligung und genehmigte Einreichplanung;\nP3 – historische Unterlagen aus dem Planarchiv MA 37;\nP4 – Baugrund und bisherige Tragwerksunterlagen;\nP5 und P8 – aktuelle Architektur- und Dachgeschossplanung;\nP6, P7, P9 und P10 – Haustechnik und Aufzug;\nP11 – Bestandsunterlagen;\nP13 – Tragwerksplanung und Prüfingenieur;\nP17 – Fertigstellung und Bauwerksbuch.\nDie von uns bereitgestellte Planung ist aus unserer Sicht zu rund 99 % abgeschlossen. Bitte legen Sie diesen Stand Ihrer Bearbeitung zugrunde und stimmen Sie erforderliche Anpassungen aus der statischen Berechnung mit uns und der Architektin ab. Den maßgeblichen Stand halten wir gemeinsam in einer Planliste mit Dateinamen, Index und Datum fest.\nWir bitten um kurze Bestätigung, dass die Anmeldung und der Zugriff auf die Unterlagen funktionieren. Bitte teilen Sie uns auch mit, falls vollständige historische Planblätter fehlen oder einzelne Aufnahmen nicht ausreichend lesbar sind. Ihre Bitte, die gesamten Planblätter und nicht nur Planköpfe bereitzustellen, haben wir aufgenommen.\nVielen Dank für Ihre Unterstützung.\nMit freundlichen Grüßen\nCosmin Adrian Covaciu\n\nPS – Wir nutzen diesen Präsentationsraum zum ersten Mal und bitten um Ihr Verständnis, falls es zu Problemen mit der Bedienung kommt.\nBitte lassen Sie uns wissen, wenn Sie auf Probleme stoßen.",
+      "truncated": false,
+      "labels": [
+        "SENT",
+        "3: Fyi"
+      ],
+      "category": "fyi",
+      "folder": "office@toms.at",
+      "thread_id": "<ddb4a488-ab86-41c8-a636-bda201b4021d@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    }
+  ]
+}

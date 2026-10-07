@@ -1,0 +1,1479 @@
+{
+  "schema_version": 1,
+  "researched_at": "2026-09-25",
+  "scope": "Five existing Dracula Design product concepts. Editorial and visual material separated from verified technical specifications.",
+  "sources": [
+    {
+      "id": "fjallraven-kanken",
+      "title": "Fjällräven — Kånken: A history",
+      "url": "https://experience.fjallraven.com/us/en-us/blog/kanken-invention-history",
+      "accessed_at": "2026-09-25",
+      "type": "primary"
+    },
+    {
+      "id": "vam-bags",
+      "title": "Victoria and Albert Museum — Bags: Inside Out",
+      "url": "https://www.vam.ac.uk/exhibitions/bags",
+      "accessed_at": "2026-09-25",
+      "type": "primary"
+    },
+    {
+      "id": "williamsburg-pocketbook",
+      "title": "Colonial Williamsburg — Pocketbook, 1794, object 2024-344",
+      "url": "https://emuseum.colonialwilliamsburg.org/objects/113465/pocketbook",
+      "accessed_at": "2026-09-25",
+      "type": "primary"
+    },
+    {
+      "id": "llbean-tote",
+      "title": "L.L.Bean — How the 1944 Ice Carrier Became America’s Go-To Tote",
+      "url": "https://www.llbean.com/llb/shop/518259?page=newsroom-tbd-08",
+      "accessed_at": "2026-09-25",
+      "type": "primary"
+    },
+    {
+      "id": "hermes-scarf",
+      "title": "Hermès — Par un beau soir de carrés…",
+      "url": "https://www.hermes.com/be/en/content/323861-thesilkyway-stories/",
+      "accessed_at": "2026-09-25",
+      "type": "primary"
+    }
+  ],
+  "products": [
+    {
+      "id": "rucsac-business",
+      "content": {
+        "ro": {
+          "intro": "O arhitectură verticală în negru, conturată de cusături roșii și o monogramă tonală discretă. Rucsacul Business propune o prezență ordonată pentru ziua dintre birou și oraș. Imaginea de prezentare arată un mâner superior, bretele și o deschidere amplă cu fermoar; configurația finală se confirmă prin fișa producătorului.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Aspect observabil în imagine",
+              "value": "Corp negru cu aspect granulat, contur dreptunghiular cu colțuri rotunjite, cusături roșii, monogramă închisă la culoare; observații din vizual.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material și compoziție",
+              "value": "În așteptarea fișei producătorului. Fotografia nu confirmă pielea naturală, specia, proveniența sau compoziția materialului.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensiuni",
+              "value": "În așteptarea măsurătorilor produsului finit, în centimetri.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Greutate netă",
+              "value": "În așteptarea cântăririi produsului fără ambalaj.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Căptușeală",
+              "value": "Materialul, culoarea și structura căptușelii trebuie confirmate de producător.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Închidere",
+              "value": "Fermoare vizibile în imagine. Tipul, numărul cursorelor și rezistența la apă nu sunt confirmate.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacitate și compatibilitate",
+              "value": "Volumul, sarcina maximă, dimensiunea compartimentelor și compatibilitatea cu laptopuri sunt în așteptare; dispozitivele din fotografie nu dovedesc o diagonală compatibilă.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Accesorii și finisaje",
+              "value": "Compoziția, furnizorul și tratamentul componentelor nu sunt confirmate.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Îngrijire",
+              "value": "Protocolul specific de curățare este în așteptarea confirmării materialului și a etichetei de întreținere.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origine și fabricație",
+              "value": "Țara de fabricație și originea materialelor sunt în așteptarea documentelor furnizorului. Mențiunile din vizual nu constituie o verificare.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Conținutul livrării",
+              "value": "Produsul listat; ambalajul și eventualele accesorii incluse trebuie confirmate. Obiectele de decor din fotografie nu sunt incluse implicit.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Până la confirmarea materialului, păstrează piesa într-un loc uscat, ferit de soare și căldură directă. Nu aplica solvenți, alcool, creme pentru piele sau tratamente de impermeabilizare fără acordul producătorului. Evită supraîncărcarea și contactul cu obiecte ascuțite. Curățarea și eventualele reparații se stabilesc după eticheta finală de întreținere.",
+          "history": {
+            "text": "Un reper documentat al rucsacului cotidian este Kånken: Fjällräven relatează că modelul a fost produs pentru anul școlar 1978, în colaborare cu asociația suedeză de cercetași. Este un exemplu de design pornit de la nevoile zilnice, nu originea tuturor rucsacurilor și nici istoria produsului Dracula.",
+            "source_ids": [
+              "fjallraven-kanken"
+            ]
+          },
+          "brand_story": "Poveste editorială Dracula: dimineața începe între ziduri întunecate și o lumină subțire de roșu. Linia cusăturii devine traseul unei zile cu destinații precise. Rucsacul este imaginat ca o mică arhitectură personală: calm la exterior, aproape de lucrurile care contează.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Arhitectură urbană",
+              "pieces": "Palton antracit, helancă neagră, pantaloni drepți, ghete negre.",
+              "occasion": "Întâlnire creativă și galerie de artă.",
+              "instructions": "Păstrează ținuta monocromă și lasă cusăturile roșii să fie singurul accent. Reglează bretelele după instrucțiunile produsului final."
+            },
+            {
+              "title": "Weekend la castel",
+              "pieces": "Jachetă neagră simplă, tricot crem, pantaloni cărbune, pantofi confortabili.",
+              "occasion": "Plimbare urbană și escapadă de weekend.",
+              "instructions": "Alege straturi curate și puține accesorii. Verifică separat capacitatea și limita de încărcare înainte de a pregăti bagajul."
+            }
+          ]
+        },
+        "en": {
+          "intro": "A vertical black silhouette outlined by red stitching and a discreet tonal monogram. The Business Backpack brings visual order to the journey between office and city. The presentation image shows a top handle, shoulder straps and a broad zip opening; the final configuration requires the manufacturer’s specification.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Visible appearance in the image",
+              "value": "Black body with a grained appearance, rounded rectangular outline, red stitching and dark monogram; observations from the visual.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material and composition",
+              "value": "Awaiting the manufacturer’s specification. The photograph does not verify genuine leather, species, provenance or material composition.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensions",
+              "value": "Final-product measurements in centimetres are pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Net weight",
+              "value": "Product weight without packaging is pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Lining",
+              "value": "Lining material, colour and construction require manufacturer confirmation.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Closure",
+              "value": "Zips are visible in the image. Type, number of sliders and water resistance are unconfirmed.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacity and compatibility",
+              "value": "Volume, maximum load, compartment dimensions and laptop fit are pending; devices pictured do not establish a compatible screen size.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Hardware and finishes",
+              "value": "Component composition, supplier and surface treatment are unconfirmed.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Care",
+              "value": "The specific cleaning procedure awaits confirmation of the material and care label.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origin and manufacture",
+              "value": "Country of manufacture and material origin await supplier documentation. Claims shown in the visual have not been independently verified.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "What is included",
+              "value": "The listed product; packaging and any included accessories require confirmation. Styling props in the photograph are not automatically included.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Until the material is confirmed, keep the piece in a dry place away from direct sunlight and heat. Do not apply solvents, alcohol, leather conditioners or waterproofing products without manufacturer approval. Avoid overfilling and contact with sharp objects. Cleaning and repairs must follow the final care label.",
+          "history": {
+            "text": "One documented milestone in the everyday backpack is Kånken: Fjällräven records its production for the 1978 school year with the Swedish Guide and Scout Association. It illustrates design shaped by daily needs, rather than the origin of all backpacks or the history of the Dracula product.",
+            "source_ids": [
+              "fjallraven-kanken"
+            ]
+          },
+          "brand_story": "Dracula editorial story: morning begins between dark walls and a fine line of red light. The stitching becomes the route of a day with clear destinations. The backpack is imagined as personal architecture: composed on the outside, close to what matters.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Urban architecture",
+              "pieces": "Charcoal coat, black roll-neck, straight trousers and black boots.",
+              "occasion": "Creative meeting and gallery visit.",
+              "instructions": "Keep the outfit monochrome and let the red stitching supply the only colour accent. Adjust the straps according to the final product instructions."
+            },
+            {
+              "title": "Castle weekend",
+              "pieces": "Plain black jacket, cream knitwear, charcoal trousers and comfortable shoes.",
+              "occasion": "City walk and weekend escape.",
+              "instructions": "Choose clean layers and few accessories. Check capacity and load limits separately before packing."
+            }
+          ]
+        },
+        "de": {
+          "intro": "Eine aufrechte schwarze Silhouette, umrissen von roten Nähten und einem dezenten, tonalen Monogramm. Der Business-Rucksack setzt einen klaren Akzent zwischen Büro und Stadt. Das Präsentationsbild zeigt Tragegriff, Schultergurte und eine weit verlaufende Reißverschlussöffnung; die endgültige Ausführung muss der Hersteller bestätigen.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Sichtbare Gestaltung im Bild",
+              "value": "Schwarzer Korpus mit genarbter Optik, rechteckiger Form mit abgerundeten Ecken, roten Nähten und dunklem Monogramm; Beobachtungen am Bild.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material und Zusammensetzung",
+              "value": "Herstellerangaben stehen aus. Das Foto bestätigt weder echtes Leder noch Tierart, Herkunft oder Materialzusammensetzung.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Maße",
+              "value": "Maße des fertigen Produkts in Zentimetern stehen aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Nettogewicht",
+              "value": "Gewicht des Produkts ohne Verpackung steht aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Futter",
+              "value": "Material, Farbe und Aufbau des Futters müssen vom Hersteller bestätigt werden.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Verschluss",
+              "value": "Reißverschlüsse sind im Bild sichtbar. Ausführung, Anzahl der Schieber und Wasserbeständigkeit sind unbestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Volumen und Kompatibilität",
+              "value": "Volumen, Höchstbelastung, Fachmaße und Laptop-Kompatibilität stehen aus; abgebildete Geräte belegen keine passende Bildschirmdiagonale.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Beschläge und Oberflächen",
+              "value": "Material, Lieferant und Oberflächenbehandlung der Beschläge sind unbestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Pflege",
+              "value": "Die genaue Reinigung richtet sich nach noch zu bestätigendem Material und Pflegeetikett.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Herkunft und Herstellung",
+              "value": "Herstellungsland und Materialherkunft erfordern Lieferantenunterlagen. Aussagen im Bild sind nicht unabhängig bestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Lieferumfang",
+              "value": "Der aufgeführte Artikel; Verpackung und enthaltenes Zubehör müssen bestätigt werden. Dekorationsobjekte im Foto gehören nicht automatisch zum Lieferumfang.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Bis zur Bestätigung des Materials trocken sowie vor direkter Sonne und Wärme geschützt aufbewahren. Ohne Freigabe des Herstellers keine Lösungsmittel, Alkohol, Lederpflege oder Imprägniermittel auftragen. Überfüllung und Kontakt mit scharfen Gegenständen vermeiden. Reinigung und Reparaturen richten sich nach dem endgültigen Pflegeetikett.",
+          "history": {
+            "text": "Ein dokumentierter Meilenstein des Alltagsrucksacks ist Kånken: Laut Fjällräven entstand er zum Schuljahr 1978 gemeinsam mit dem schwedischen Pfadfinderverband. Er veranschaulicht alltagsbezogenes Design, ist aber weder der Ursprung sämtlicher Rucksäcke noch Teil der Geschichte des Dracula-Produkts.",
+            "source_ids": [
+              "fjallraven-kanken"
+            ]
+          },
+          "brand_story": "Redaktionelle Dracula-Geschichte: Der Morgen beginnt zwischen dunklen Mauern und einem schmalen roten Lichtstreifen. Die Naht wird zum Weg eines Tages mit klaren Zielen. Der Rucksack erscheint als persönliche Architektur: außen ruhig, den wichtigen Dingen nah.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Urbane Architektur",
+              "pieces": "Anthrazitfarbener Mantel, schwarzer Rollkragenpullover, gerade Hose und schwarze Stiefel.",
+              "occasion": "Kreativtermin und Galeriebesuch.",
+              "instructions": "Das Outfit monochrom halten und die roten Nähte als einzigen Farbakzent einsetzen. Die Gurte nach der endgültigen Produktanleitung einstellen."
+            },
+            {
+              "title": "Wochenende am Schloss",
+              "pieces": "Schlichte schwarze Jacke, cremefarbener Strick, anthrazitfarbene Hose und bequeme Schuhe.",
+              "occasion": "Stadtspaziergang und Wochenendausflug.",
+              "instructions": "Klare Lagen und wenige Accessoires wählen. Volumen und Belastungsgrenze vor dem Packen gesondert prüfen."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "servieta-business",
+      "content": {
+        "ro": {
+          "intro": "O siluetă orizontală, precisă, în care negrul și roșul se întâlnesc la marginea fiecărui detaliu. Servieta Business pune accentul pe proporție și pe gestul de a purta un obiect bine definit. Vizualul arată două mânere, o baretă și un buzunar frontal; specificațiile funcționale rămân de confirmat.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Aspect observabil în imagine",
+              "value": "Format dreptunghiular negru, textură cu aspect granulat, mânere duble, baretă neagră și cusături roșii; descriere a imaginii.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material și compoziție",
+              "value": "În așteptarea fișei producătorului. Fotografia nu confirmă pielea naturală, specia, proveniența sau compoziția materialului.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensiuni",
+              "value": "În așteptarea măsurătorilor produsului finit, în centimetri.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Greutate netă",
+              "value": "În așteptarea cântăririi produsului fără ambalaj.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Căptușeală",
+              "value": "Materialul, culoarea și structura căptușelii trebuie confirmate de producător.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Închidere",
+              "value": "Vizualul arată un fermoar superior și o închidere cu fermoar la buzunarul frontal. Configurația și componentele finale sunt în așteptare.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacitate și compatibilitate",
+              "value": "Compatibilitatea A4, diagonala laptopului, protecția compartimentului și sarcina admisă trebuie măsurate și confirmate. Nu sunt deduse din obiectele de decor.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Accesorii și finisaje",
+              "value": "Compoziția, furnizorul și tratamentul componentelor nu sunt confirmate.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Îngrijire",
+              "value": "Protocolul specific de curățare este în așteptarea confirmării materialului și a etichetei de întreținere.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origine și fabricație",
+              "value": "Țara de fabricație și originea materialelor sunt în așteptarea documentelor furnizorului. Mențiunile din vizual nu constituie o verificare.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Conținutul livrării",
+              "value": "Produsul listat; ambalajul și eventualele accesorii incluse trebuie confirmate. Obiectele de decor din fotografie nu sunt incluse implicit.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Până la confirmarea materialului, păstrează piesa într-un loc uscat, ferit de soare și căldură directă. Nu aplica solvenți, alcool, creme pentru piele sau tratamente de impermeabilizare fără acordul producătorului. Evită supraîncărcarea și contactul cu obiecte ascuțite. Curățarea și eventualele reparații se stabilesc după eticheta finală de întreținere.",
+          "history": {
+            "text": "Expoziția V&A Bags: Inside Out a inclus o cutie pentru documente a lui Winston Churchill, realizată de John Peck & Son în jurul anului 1921. Obiectul oferă un reper concret pentru relația dintre transportul documentelor și imaginea publică. Această referință culturală nu reprezintă proveniența servietei Dracula.",
+            "source_ids": [
+              "vam-bags"
+            ]
+          },
+          "brand_story": "Poveste editorială Dracula: o masă de piatră, o scrisoare și câteva decizii importante. Roșul urmărește geometria neagră ca o semnătură finală. Servieta devine, în universul vizual al colecției, ritualul dintre pregătire și prezență.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Consiliu de seară",
+              "pieces": "Costum antracit, cămașă albă, pantofi negri, ceas discret.",
+              "occasion": "Prezentare, conferință sau întâlnire formală.",
+              "instructions": "Poartă servieta de mânere pentru o linie clară. Repetă roșul cel mult într-un detaliu mic, precum o batistă de buzunar."
+            },
+            {
+              "title": "Atelier și oraș",
+              "pieces": "Sacou negru nestructurat, tricou crem, pantaloni gri și loafers.",
+              "occasion": "Întâlnire de design și cină după birou.",
+              "instructions": "Lasă textura vizuală a servietei să contrasteze cu suprafețe mate. Bareta se folosește numai în configurația confirmată a produsului."
+            }
+          ]
+        },
+        "en": {
+          "intro": "A precise horizontal silhouette where black meets red at the edge of each detail. The Business Briefcase centres on proportion and the gesture of carrying a clearly defined object. The visual shows twin handles, a shoulder strap and a front pocket; functional specifications remain to be confirmed.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Visible appearance in the image",
+              "value": "Black rectangular shape, grained visual texture, twin handles, black strap and red stitching; image description.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material and composition",
+              "value": "Awaiting the manufacturer’s specification. The photograph does not verify genuine leather, species, provenance or material composition.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensions",
+              "value": "Final-product measurements in centimetres are pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Net weight",
+              "value": "Product weight without packaging is pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Lining",
+              "value": "Lining material, colour and construction require manufacturer confirmation.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Closure",
+              "value": "The visual shows a top zip and a zipped front pocket. Final configuration and components are pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacity and compatibility",
+              "value": "A4 fit, laptop size, compartment protection and load rating require measurement and confirmation. They are not inferred from styling props.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Hardware and finishes",
+              "value": "Component composition, supplier and surface treatment are unconfirmed.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Care",
+              "value": "The specific cleaning procedure awaits confirmation of the material and care label.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origin and manufacture",
+              "value": "Country of manufacture and material origin await supplier documentation. Claims shown in the visual have not been independently verified.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "What is included",
+              "value": "The listed product; packaging and any included accessories require confirmation. Styling props in the photograph are not automatically included.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Until the material is confirmed, keep the piece in a dry place away from direct sunlight and heat. Do not apply solvents, alcohol, leather conditioners or waterproofing products without manufacturer approval. Avoid overfilling and contact with sharp objects. Cleaning and repairs must follow the final care label.",
+          "history": {
+            "text": "The V&A exhibition Bags: Inside Out included Winston Churchill’s despatch box, made by John Peck & Son around 1921. It offers a concrete reference for the relationship between carrying documents and public image. This cultural reference does not describe the provenance of the Dracula briefcase.",
+            "source_ids": [
+              "vam-bags"
+            ]
+          },
+          "brand_story": "Dracula editorial story: a stone table, a letter and a few important decisions. Red follows the black geometry like a final signature. In the collection’s visual world, the briefcase becomes the ritual between preparation and presence.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Evening boardroom",
+              "pieces": "Charcoal suit, white shirt, black shoes and a discreet watch.",
+              "occasion": "Presentation, conference or formal meeting.",
+              "instructions": "Carry the briefcase by its handles for a clean line. Repeat red in no more than one small detail, such as a pocket square."
+            },
+            {
+              "title": "Studio and city",
+              "pieces": "Unstructured black blazer, cream T-shirt, grey trousers and loafers.",
+              "occasion": "Design meeting and after-work dinner.",
+              "instructions": "Let the briefcase’s visible texture contrast with matte surfaces. Use the shoulder strap only in the confirmed product configuration."
+            }
+          ]
+        },
+        "de": {
+          "intro": "Eine präzise horizontale Silhouette, bei der Schwarz und Rot an den Konturen zusammentreffen. Die Business-Aktentasche betont Proportion und den bewussten Griff zu einem klar gestalteten Objekt. Das Bild zeigt zwei Griffe, einen Schulterriemen und eine Fronttasche; funktionale Angaben stehen noch aus.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Sichtbare Gestaltung im Bild",
+              "value": "Schwarze rechteckige Form, genarbte Optik, zwei Griffe, schwarzer Riemen und rote Nähte; Bildbeschreibung.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material und Zusammensetzung",
+              "value": "Herstellerangaben stehen aus. Das Foto bestätigt weder echtes Leder noch Tierart, Herkunft oder Materialzusammensetzung.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Maße",
+              "value": "Maße des fertigen Produkts in Zentimetern stehen aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Nettogewicht",
+              "value": "Gewicht des Produkts ohne Verpackung steht aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Futter",
+              "value": "Material, Farbe und Aufbau des Futters müssen vom Hersteller bestätigt werden.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Verschluss",
+              "value": "Das Bild zeigt einen oberen Reißverschluss und eine Fronttasche mit Reißverschluss. Endgültige Ausführung und Komponenten stehen aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Volumen und Kompatibilität",
+              "value": "Eignung für A4, Laptop-Größe, Fachpolsterung und Traglast müssen gemessen und bestätigt werden. Sie werden nicht aus Dekorationsobjekten abgeleitet.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Beschläge und Oberflächen",
+              "value": "Material, Lieferant und Oberflächenbehandlung der Beschläge sind unbestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Pflege",
+              "value": "Die genaue Reinigung richtet sich nach noch zu bestätigendem Material und Pflegeetikett.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Herkunft und Herstellung",
+              "value": "Herstellungsland und Materialherkunft erfordern Lieferantenunterlagen. Aussagen im Bild sind nicht unabhängig bestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Lieferumfang",
+              "value": "Der aufgeführte Artikel; Verpackung und enthaltenes Zubehör müssen bestätigt werden. Dekorationsobjekte im Foto gehören nicht automatisch zum Lieferumfang.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Bis zur Bestätigung des Materials trocken sowie vor direkter Sonne und Wärme geschützt aufbewahren. Ohne Freigabe des Herstellers keine Lösungsmittel, Alkohol, Lederpflege oder Imprägniermittel auftragen. Überfüllung und Kontakt mit scharfen Gegenständen vermeiden. Reinigung und Reparaturen richten sich nach dem endgültigen Pflegeetikett.",
+          "history": {
+            "text": "Die V&A-Ausstellung Bags: Inside Out zeigte Winston Churchills Dokumentenkasten von John Peck & Son, datiert um 1921. Er ist ein konkretes Beispiel für die Verbindung zwischen Dokumententransport und öffentlichem Auftreten. Dieser kulturgeschichtliche Bezug beschreibt nicht die Herkunft der Dracula-Aktentasche.",
+            "source_ids": [
+              "vam-bags"
+            ]
+          },
+          "brand_story": "Redaktionelle Dracula-Geschichte: ein Steintisch, ein Brief und einige wichtige Entscheidungen. Rot folgt der schwarzen Geometrie wie eine abschließende Unterschrift. In der Bildwelt der Kollektion wird die Aktentasche zum Ritual zwischen Vorbereitung und Auftritt.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Sitzung am Abend",
+              "pieces": "Anthrazitfarbener Anzug, weißes Hemd, schwarze Schuhe und dezente Uhr.",
+              "occasion": "Präsentation, Konferenz oder formeller Termin.",
+              "instructions": "Die Aktentasche für eine klare Linie an den Griffen tragen. Rot höchstens in einem kleinen Detail wie einem Einstecktuch wiederholen."
+            },
+            {
+              "title": "Atelier und Stadt",
+              "pieces": "Unstrukturierter schwarzer Blazer, cremefarbenes T-Shirt, graue Hose und Loafer.",
+              "occasion": "Designtermin und Abendessen nach der Arbeit.",
+              "instructions": "Die sichtbare Taschenstruktur mit matten Flächen kombinieren. Den Schulterriemen nur entsprechend der bestätigten Produktausführung verwenden."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "portofel-signature",
+      "content": {
+        "ro": {
+          "intro": "Un dreptunghi negru, o linie roșie continuă și o monogramă aproape tăcută. Portofelul Signature concentrează limbajul colecției într-un obiect personal. Imaginea arată formatul pliabil și compartimente pentru carduri; numărul și dimensiunile lor vor fi confirmate prin fișa tehnică.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Aspect observabil în imagine",
+              "value": "Format pliabil în două, suprafață neagră cu aspect granulat, cusături roșii perimetrale și monogramă tonală; observate în imagine.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material și compoziție",
+              "value": "În așteptarea fișei producătorului. Fotografia nu confirmă pielea naturală, specia, proveniența sau compoziția materialului.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensiuni",
+              "value": "În așteptarea măsurătorilor produsului finit, în centimetri.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Greutate netă",
+              "value": "În așteptarea cântăririi produsului fără ambalaj.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Căptușeală",
+              "value": "Materialul, culoarea și structura căptușelii trebuie confirmate de producător.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Închidere",
+              "value": "Formatul se pliază în imagine; un mecanism suplimentar de închidere nu este confirmat.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacitate și compatibilitate",
+              "value": "Numărul final de sloturi, tipul bancnotelor compatibile și dimensiunile utile sunt în așteptare. Nu este confirmată protecție RFID.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Accesorii și finisaje",
+              "value": "Compoziția, furnizorul și tratamentul componentelor nu sunt confirmate.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Îngrijire",
+              "value": "Protocolul specific de curățare este în așteptarea confirmării materialului și a etichetei de întreținere.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origine și fabricație",
+              "value": "Țara de fabricație și originea materialelor sunt în așteptarea documentelor furnizorului. Mențiunile din vizual nu constituie o verificare.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Conținutul livrării",
+              "value": "Produsul listat; ambalajul și eventualele accesorii incluse trebuie confirmate. Obiectele de decor din fotografie nu sunt incluse implicit.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Până la confirmarea materialului, păstrează piesa într-un loc uscat, ferit de soare și căldură directă. Nu aplica solvenți, alcool, creme pentru piele sau tratamente de impermeabilizare fără acordul producătorului. Evită supraîncărcarea și contactul cu obiecte ascuțite. Curățarea și eventualele reparații se stabilesc după eticheta finală de întreținere.",
+          "history": {
+            "text": "Colonial Williamsburg păstrează un portofel brodat datat 1794. Fișa muzeului arată că astfel de obiecte păstrau bani, hârtii și mici accesorii și puteau fi personalizate cu inițiale. Este o mărturie despre caracterul personal al portofelului, nu o filiație a modelului Signature.",
+            "source_ids": [
+              "williamsburg-pocketbook"
+            ]
+          },
+          "brand_story": "Poveste editorială Dracula: unele lucruri nu au nevoie să fie expuse. O monogramă descoperită de aproape, un contur roșu care apare pentru o clipă, apoi dispare în buzunar. Signature vorbește despre alegerea atentă a obiectelor pe care le atingi în fiecare zi.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Semnătură de business",
+              "pieces": "Servietă neagră, costum gri închis, cămașă albă.",
+              "occasion": "Zi de birou și întâlniri.",
+              "instructions": "Asociază portofelul cu o singură piesă din aceeași paletă. Păstrează strictul necesar pentru a evita deformarea prin supraîncărcare."
+            },
+            {
+              "title": "Nocturn minimalist",
+              "pieces": "Sacou negru, tricot fin, pantaloni drepți și pantofi simpli.",
+              "occasion": "Cină sau spectacol.",
+              "instructions": "Lasă portofelul să fie accentul discret al gestului, fără alte accesorii roșii dominante. Verifică dimensiunea buzunarului înainte de purtare."
+            }
+          ]
+        },
+        "en": {
+          "intro": "A black rectangle, a continuous red line and an almost silent monogram. The Signature Wallet concentrates the collection’s language into a personal object. The image shows a folding format and card slots; their number and dimensions await the technical specification.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Visible appearance in the image",
+              "value": "Bifold appearance, black grained-looking surface, red perimeter stitching and tonal monogram; observed in the image.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material and composition",
+              "value": "Awaiting the manufacturer’s specification. The photograph does not verify genuine leather, species, provenance or material composition.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensions",
+              "value": "Final-product measurements in centimetres are pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Net weight",
+              "value": "Product weight without packaging is pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Lining",
+              "value": "Lining material, colour and construction require manufacturer confirmation.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Closure",
+              "value": "The pictured format folds; an additional fastening mechanism is not confirmed.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacity and compatibility",
+              "value": "Final slot count, banknote compatibility and usable dimensions are pending. RFID protection is not confirmed.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Hardware and finishes",
+              "value": "Component composition, supplier and surface treatment are unconfirmed.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Care",
+              "value": "The specific cleaning procedure awaits confirmation of the material and care label.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origin and manufacture",
+              "value": "Country of manufacture and material origin await supplier documentation. Claims shown in the visual have not been independently verified.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "What is included",
+              "value": "The listed product; packaging and any included accessories require confirmation. Styling props in the photograph are not automatically included.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Until the material is confirmed, keep the piece in a dry place away from direct sunlight and heat. Do not apply solvents, alcohol, leather conditioners or waterproofing products without manufacturer approval. Avoid overfilling and contact with sharp objects. Cleaning and repairs must follow the final care label.",
+          "history": {
+            "text": "Colonial Williamsburg holds an embroidered pocketbook dated 1794. Its record explains that such objects held money, papers and small accessories and could carry personal initials. It documents the wallet’s personal character, rather than a lineage for the Signature model.",
+            "source_ids": [
+              "williamsburg-pocketbook"
+            ]
+          },
+          "brand_story": "Dracula editorial story: some things do not need to be displayed. A monogram discovered close up, a red outline visible for a moment before returning to a pocket. Signature speaks of choosing carefully the objects you touch every day.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Business signature",
+              "pieces": "Black briefcase, dark grey suit and white shirt.",
+              "occasion": "Office day and meetings.",
+              "instructions": "Pair the wallet with one piece in the same palette. Carry only essentials to avoid distortion from overfilling."
+            },
+            {
+              "title": "Minimalist nocturne",
+              "pieces": "Black blazer, fine knitwear, straight trousers and simple shoes.",
+              "occasion": "Dinner or a performance.",
+              "instructions": "Let the wallet provide a discreet accent without other dominant red accessories. Check pocket dimensions before carrying."
+            }
+          ]
+        },
+        "de": {
+          "intro": "Ein schwarzes Rechteck, eine durchgehende rote Linie und ein beinahe stilles Monogramm. Das Signature-Portemonnaie verdichtet die Gestaltung der Kollektion zu einem persönlichen Objekt. Das Bild zeigt ein Faltformat und Kartenfächer; Anzahl und Maße werden erst durch das technische Datenblatt bestätigt.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Sichtbare Gestaltung im Bild",
+              "value": "Zweifach gefaltete Form, schwarz genarbte Optik, umlaufende rote Nähte und tonales Monogramm; im Bild beobachtet.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material und Zusammensetzung",
+              "value": "Herstellerangaben stehen aus. Das Foto bestätigt weder echtes Leder noch Tierart, Herkunft oder Materialzusammensetzung.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Maße",
+              "value": "Maße des fertigen Produkts in Zentimetern stehen aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Nettogewicht",
+              "value": "Gewicht des Produkts ohne Verpackung steht aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Futter",
+              "value": "Material, Farbe und Aufbau des Futters müssen vom Hersteller bestätigt werden.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Verschluss",
+              "value": "Das gezeigte Format wird gefaltet; ein zusätzlicher Verschluss ist nicht bestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Volumen und Kompatibilität",
+              "value": "Endgültige Fachanzahl, Banknoten-Kompatibilität und nutzbare Maße stehen aus. RFID-Schutz ist nicht bestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Beschläge und Oberflächen",
+              "value": "Material, Lieferant und Oberflächenbehandlung der Beschläge sind unbestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Pflege",
+              "value": "Die genaue Reinigung richtet sich nach noch zu bestätigendem Material und Pflegeetikett.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Herkunft und Herstellung",
+              "value": "Herstellungsland und Materialherkunft erfordern Lieferantenunterlagen. Aussagen im Bild sind nicht unabhängig bestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Lieferumfang",
+              "value": "Der aufgeführte Artikel; Verpackung und enthaltenes Zubehör müssen bestätigt werden. Dekorationsobjekte im Foto gehören nicht automatisch zum Lieferumfang.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Bis zur Bestätigung des Materials trocken sowie vor direkter Sonne und Wärme geschützt aufbewahren. Ohne Freigabe des Herstellers keine Lösungsmittel, Alkohol, Lederpflege oder Imprägniermittel auftragen. Überfüllung und Kontakt mit scharfen Gegenständen vermeiden. Reinigung und Reparaturen richten sich nach dem endgültigen Pflegeetikett.",
+          "history": {
+            "text": "Colonial Williamsburg bewahrt eine bestickte Brieftasche von 1794. Laut Museumsbeschreibung dienten solche Stücke Geld, Papieren und kleinen Accessoires und trugen oft persönliche Initialen. Das belegt den persönlichen Charakter dieser Objektgattung, nicht eine Abstammung des Signature-Modells.",
+            "source_ids": [
+              "williamsburg-pocketbook"
+            ]
+          },
+          "brand_story": "Redaktionelle Dracula-Geschichte: Manche Dinge müssen nicht ausgestellt werden. Ein Monogramm, das erst aus der Nähe auffällt, ein roter Umriss, der kurz erscheint und wieder in der Tasche verschwindet. Signature erzählt von bewusst ausgewählten Alltagsobjekten.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Business-Signatur",
+              "pieces": "Schwarze Aktentasche, dunkelgrauer Anzug und weißes Hemd.",
+              "occasion": "Bürotag und Besprechungen.",
+              "instructions": "Das Portemonnaie mit einem Stück derselben Farbwelt kombinieren. Nur das Nötigste mitnehmen, um Verformung durch Überfüllung zu vermeiden."
+            },
+            {
+              "title": "Minimalistisches Nocturne",
+              "pieces": "Schwarzer Blazer, feiner Strick, gerade Hose und schlichte Schuhe.",
+              "occasion": "Abendessen oder Theaterbesuch.",
+              "instructions": "Das Portemonnaie als dezenten Akzent ohne weitere dominante rote Accessoires einsetzen. Vor dem Tragen die Taschenmaße prüfen."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "geanta-tote",
+      "content": {
+        "ro": {
+          "intro": "Negrul formează centrul compoziției, iar roșul desenează mânerele și lateralele. Geanta Tote aduce un contrast amplu, cu o siluetă structurată și monogramă discretă în imagine. Fotografia prezintă un univers de accesorii coordonate; pagina se referă exclusiv la geanta Tote, nu la întregul set.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Aspect observabil în imagine",
+              "value": "Geantă mare din centrul imaginii: corp negru, laterale și mânere roșii, element suspendat cu monogramă. Celelalte obiecte sunt elemente de prezentare.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material și compoziție",
+              "value": "În așteptarea fișei producătorului. Fotografia nu confirmă pielea naturală, specia, proveniența sau compoziția materialului.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensiuni",
+              "value": "În așteptarea măsurătorilor produsului finit, în centimetri.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Greutate netă",
+              "value": "În așteptarea cântăririi produsului fără ambalaj.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Căptușeală",
+              "value": "Materialul, culoarea și structura căptușelii trebuie confirmate de producător.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Închidere",
+              "value": "Tipul închiderii principale nu poate fi stabilit sigur din fotografia disponibilă; în așteptarea confirmării.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacitate și compatibilitate",
+              "value": "Dimensiunile interioare, volumul, lungimea mânerelor, sarcina admisă și compatibilitatea cu documente sau dispozitive sunt în așteptare.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Accesorii și finisaje",
+              "value": "Compoziția, furnizorul și tratamentul componentelor nu sunt confirmate.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Îngrijire",
+              "value": "Protocolul specific de curățare este în așteptarea confirmării materialului și a etichetei de întreținere.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origine și fabricație",
+              "value": "Țara de fabricație și originea materialelor sunt în așteptarea documentelor furnizorului. Mențiunile din vizual nu constituie o verificare.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Conținutul livrării",
+              "value": "Produsul listat; ambalajul și eventualele accesorii incluse trebuie confirmate. Obiectele de decor din fotografie nu sunt incluse implicit.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Până la confirmarea materialului, păstrează piesa într-un loc uscat, ferit de soare și căldură directă. Nu aplica solvenți, alcool, creme pentru piele sau tratamente de impermeabilizare fără acordul producătorului. Evită supraîncărcarea și contactul cu obiecte ascuțite. Curățarea și eventualele reparații se stabilesc după eticheta finală de întreținere.",
+          "history": {
+            "text": "Un episod documentat din istoria tote-ului: L.L.Bean a lansat în 1944 o geantă pentru transportul gheții, revenită în 1965 sub numele Boat and Tote. Acest traseu de la utilitate la accesoriu cotidian oferă context cultural; nu indică originea sau construcția genții Dracula.",
+            "source_ids": [
+              "llbean-tote"
+            ]
+          },
+          "brand_story": "Poveste editorială Dracula: o intrare în hol, un palton negru, un buchet de trandafiri roșii. Tote transformă contrastul în prezență. Silueta este imaginată pentru cineva care intră într-o încăpere cu o direcție proprie și lasă detaliile să vorbească încet.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Vernisaj în roșu și negru",
+              "pieces": "Rochie midi neagră, pantofi negri, cercei mici aurii.",
+              "occasion": "Vernisaj sau recepție.",
+              "instructions": "Păstrează geanta ca principal accent cromatic. Limitează metalul auriu la un detaliu mic pentru echilibru."
+            },
+            {
+              "title": "Oraș, după ploaie",
+              "pieces": "Trenci bej, cămașă albă, pantaloni negri și loafers.",
+              "occasion": "Întâlnire de zi și plimbare urbană.",
+              "instructions": "Folosește bejul ca fundal calm pentru roșu. Titlul ținutei descrie atmosfera; nu presupune că geanta este impermeabilă. Protejeaz-o de umezeală."
+            }
+          ]
+        },
+        "en": {
+          "intro": "Black anchors the composition while red defines the handles and sides. The Signature Tote makes a broad contrast, with a structured silhouette and discreet monogram in the image. The photograph presents a coordinated accessories world; this listing is for the tote alone, not the entire set.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Visible appearance in the image",
+              "value": "Large central bag in the image: black body, red sides and handles, hanging monogram detail. Other objects are presentation elements.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material and composition",
+              "value": "Awaiting the manufacturer’s specification. The photograph does not verify genuine leather, species, provenance or material composition.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensions",
+              "value": "Final-product measurements in centimetres are pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Net weight",
+              "value": "Product weight without packaging is pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Lining",
+              "value": "Lining material, colour and construction require manufacturer confirmation.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Closure",
+              "value": "The main closure cannot be established reliably from the available photograph; confirmation is pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacity and compatibility",
+              "value": "Interior dimensions, volume, handle drop, load limit and document or device compatibility are pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Hardware and finishes",
+              "value": "Component composition, supplier and surface treatment are unconfirmed.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Care",
+              "value": "The specific cleaning procedure awaits confirmation of the material and care label.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origin and manufacture",
+              "value": "Country of manufacture and material origin await supplier documentation. Claims shown in the visual have not been independently verified.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "What is included",
+              "value": "The listed product; packaging and any included accessories require confirmation. Styling props in the photograph are not automatically included.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Until the material is confirmed, keep the piece in a dry place away from direct sunlight and heat. Do not apply solvents, alcohol, leather conditioners or waterproofing products without manufacturer approval. Avoid overfilling and contact with sharp objects. Cleaning and repairs must follow the final care label.",
+          "history": {
+            "text": "A documented chapter in tote history: L.L.Bean introduced an ice-carrying bag in 1944, returning in 1965 as the Boat and Tote. That journey from utility to everyday accessory offers cultural context; it does not establish the origin or construction of the Dracula bag.",
+            "source_ids": [
+              "llbean-tote"
+            ]
+          },
+          "brand_story": "Dracula editorial story: a hall entrance, a black coat and a bouquet of red roses. The Tote turns contrast into presence. Its silhouette is imagined for someone who enters a room with their own direction and lets the details speak softly.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Red-and-black vernissage",
+              "pieces": "Black midi dress, black shoes and small gold-coloured earrings.",
+              "occasion": "Gallery opening or reception.",
+              "instructions": "Keep the bag as the main colour accent. Limit gold-coloured metal to one small detail for balance."
+            },
+            {
+              "title": "City after rain",
+              "pieces": "Beige trench, white shirt, black trousers and loafers.",
+              "occasion": "Daytime meeting and city walk.",
+              "instructions": "Use beige as a quiet backdrop for red. The look’s title describes a mood, not waterproof performance. Protect the bag from moisture."
+            }
+          ]
+        },
+        "de": {
+          "intro": "Schwarz bildet das Zentrum, Rot zeichnet Griffe und Seiten nach. Die Signature-Tote setzt einen ausdrucksstarken Kontrast mit strukturierter Silhouette und dezentem Monogramm im Bild. Das Foto zeigt eine abgestimmte Accessoire-Welt; dieses Angebot bezieht sich ausschließlich auf die Tote, nicht auf das gesamte Set.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Sichtbare Gestaltung im Bild",
+              "value": "Große Tasche in der Bildmitte: schwarzer Korpus, rote Seiten und Griffe sowie Anhänger mit Monogramm. Die übrigen Gegenstände dienen der Präsentation.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material und Zusammensetzung",
+              "value": "Herstellerangaben stehen aus. Das Foto bestätigt weder echtes Leder noch Tierart, Herkunft oder Materialzusammensetzung.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Maße",
+              "value": "Maße des fertigen Produkts in Zentimetern stehen aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Nettogewicht",
+              "value": "Gewicht des Produkts ohne Verpackung steht aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Futter",
+              "value": "Material, Farbe und Aufbau des Futters müssen vom Hersteller bestätigt werden.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Verschluss",
+              "value": "Der Hauptverschluss lässt sich aus dem verfügbaren Foto nicht zuverlässig bestimmen; Bestätigung steht aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Volumen und Kompatibilität",
+              "value": "Innenmaße, Volumen, Griffhöhe, Traglast sowie Eignung für Dokumente oder Geräte stehen aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Beschläge und Oberflächen",
+              "value": "Material, Lieferant und Oberflächenbehandlung der Beschläge sind unbestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Pflege",
+              "value": "Die genaue Reinigung richtet sich nach noch zu bestätigendem Material und Pflegeetikett.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Herkunft und Herstellung",
+              "value": "Herstellungsland und Materialherkunft erfordern Lieferantenunterlagen. Aussagen im Bild sind nicht unabhängig bestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Lieferumfang",
+              "value": "Der aufgeführte Artikel; Verpackung und enthaltenes Zubehör müssen bestätigt werden. Dekorationsobjekte im Foto gehören nicht automatisch zum Lieferumfang.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Bis zur Bestätigung des Materials trocken sowie vor direkter Sonne und Wärme geschützt aufbewahren. Ohne Freigabe des Herstellers keine Lösungsmittel, Alkohol, Lederpflege oder Imprägniermittel auftragen. Überfüllung und Kontakt mit scharfen Gegenständen vermeiden. Reinigung und Reparaturen richten sich nach dem endgültigen Pflegeetikett.",
+          "history": {
+            "text": "Ein dokumentiertes Kapitel der Tote-Geschichte: L.L.Bean führte 1944 eine Tasche zum Transport von Eis ein, die 1965 als Boat and Tote zurückkehrte. Dieser Weg vom Nutzgegenstand zum Alltagsaccessoire bietet kulturellen Kontext, belegt aber weder Herkunft noch Konstruktion der Dracula-Tasche.",
+            "source_ids": [
+              "llbean-tote"
+            ]
+          },
+          "brand_story": "Redaktionelle Dracula-Geschichte: ein Eingang in die Halle, ein schwarzer Mantel, ein Strauß roter Rosen. Die Tote verwandelt Kontrast in Präsenz. Ihre Silhouette steht für jemanden, der mit eigener Richtung einen Raum betritt und Details leise sprechen lässt.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Vernissage in Rot und Schwarz",
+              "pieces": "Schwarzes Midikleid, schwarze Schuhe und kleine goldfarbene Ohrringe.",
+              "occasion": "Vernissage oder Empfang.",
+              "instructions": "Die Tasche als Hauptfarbakzent einsetzen. Goldfarbenes Metall für ein ausgewogenes Bild auf ein kleines Detail beschränken."
+            },
+            {
+              "title": "Stadt nach dem Regen",
+              "pieces": "Beiger Trenchcoat, weißes Hemd, schwarze Hose und Loafer.",
+              "occasion": "Tagestermin und Stadtspaziergang.",
+              "instructions": "Beige als ruhigen Hintergrund für Rot nutzen. Der Titel beschreibt eine Stimmung, keine Wasserdichtigkeit. Die Tasche vor Feuchtigkeit schützen."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "esarfa-signature",
+      "content": {
+        "ro": {
+          "intro": "Benzi roșii și negre, reflexii satinate și o monogramă așezată la margine. Eșarfa Signature aduce mișcare într-o garderobă cu linii precise. Vizualul sugerează un drapaj fluid; compoziția fibrelor, dimensiunea și tehnica de finisare nu pot fi stabilite doar din fotografie.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Aspect observabil în imagine",
+              "value": "Suprafață cu aspect lucios, contrast roșu-negru, monogramă și margine conturată; observații vizuale, fără confirmarea fibrei.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material și compoziție",
+              "value": "Compoziția fibrelor și procentele sunt în așteptarea etichetei. Aspectul satinat nu confirmă mătasea naturală.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensiuni",
+              "value": "În așteptarea măsurătorilor produsului finit, în centimetri.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Greutate netă",
+              "value": "În așteptarea cântăririi produsului fără ambalaj.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Căptușeală",
+              "value": "Nu este identificabilă o căptușeală distinctă în vizual; construcția și numărul straturilor se confirmă de producător.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Închidere",
+              "value": "Nu este vizibil un sistem mecanic de închidere. Modalitățile de înnodare depind de dimensiunile și materialul final.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacitate și compatibilitate",
+              "value": "Nu se aplică o capacitate de transport. Lungimea, lățimea și utilizările prin înnodare sunt în așteptarea măsurătorilor.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Accesorii și finisaje",
+              "value": "Nu sunt vizibile componente metalice. Tivul, cusătura marginii și procedeul de imprimare sunt în așteptare.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Îngrijire",
+              "value": "Protocolul specific de curățare este în așteptarea confirmării materialului și a etichetei de întreținere.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origine și fabricație",
+              "value": "Țara de fabricație și originea materialelor sunt în așteptarea documentelor furnizorului. Mențiunile din vizual nu constituie o verificare.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Conținutul livrării",
+              "value": "Produsul listat; ambalajul și eventualele accesorii incluse trebuie confirmate. Obiectele de decor din fotografie nu sunt incluse implicit.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Păstrează eșarfa ferită de soare, umezeală și suprafețe care pot agăța fibra. Nu aplica parfum direct pe material. Până la confirmarea compoziției și a etichetei, nu presupune că sunt permise spălarea, curățarea chimică sau călcarea. Depozitează lejer, fără noduri strânse; protocolul final va fi cel furnizat de producător.",
+          "history": {
+            "text": "În istoria eșarfei imprimate, Hermès datează din 1937 începutul propriilor carrés și le descrie ca suporturi pentru culoare, imagine și poveste. Este un reper al accesoriului ca suprafață narativă; nu afirmă că Hermès a inventat eșarfa și nu sugerează o legătură cu Dracula.",
+            "source_ids": [
+              "hermes-scarf"
+            ]
+          },
+          "brand_story": "Poveste editorială Dracula: catifeaua nopții întâlnește o lumină roșie. O singură mișcare schimbă proporția culorilor, ca o cortină trasă încet într-un salon. Signature este imaginată ca un gest, nu ca un ornament fix: aceeași paletă, o altă expresie de fiecare dată.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Nocturn la operă",
+              "pieces": "Rochie neagră simplă, cercei discreți și pantofi uni.",
+              "occasion": "Operă, concert sau cină festivă.",
+              "instructions": "Așază eșarfa lejer la gât, lăsând monograma vizibilă într-un singur punct. Evită nodurile strânse; adaptează drapajul la dimensiunea finală."
+            },
+            {
+              "title": "Linie roșie, ziua",
+              "pieces": "Cămașă albă, sacou antracit, pantaloni negri și geantă simplă.",
+              "occasion": "Birou, brunch sau întâlnire în oraș.",
+              "instructions": "Pliază lejer pe lungime și lasă capetele să cadă sub rever, dacă măsurile permit. Păstrează celelalte imprimeuri la minimum."
+            }
+          ]
+        },
+        "en": {
+          "intro": "Red and black bands, a satin-like sheen and a monogram near the edge. The Signature Scarf introduces movement into a wardrobe of precise lines. The visual suggests a fluid drape; fibre composition, size and finishing technique cannot be established from the photograph alone.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Visible appearance in the image",
+              "value": "Glossy-looking surface, red-black contrast, monogram and defined edge; visual observations without fibre verification.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material and composition",
+              "value": "Fibre composition and percentages await the label. A satin-like appearance does not verify natural silk.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Dimensions",
+              "value": "Final-product measurements in centimetres are pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Net weight",
+              "value": "Product weight without packaging is pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Lining",
+              "value": "No separate lining is identifiable in the visual; construction and layer count require manufacturer confirmation.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Closure",
+              "value": "No mechanical fastening is visible. Knotting options depend on final dimensions and material.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Capacity and compatibility",
+              "value": "Carrying capacity is not applicable. Length, width and knotting options await measurement.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Hardware and finishes",
+              "value": "No metal components are visible. Hem construction, edge stitching and printing method are pending.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Care",
+              "value": "The specific cleaning procedure awaits confirmation of the material and care label.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Origin and manufacture",
+              "value": "Country of manufacture and material origin await supplier documentation. Claims shown in the visual have not been independently verified.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "What is included",
+              "value": "The listed product; packaging and any included accessories require confirmation. Styling props in the photograph are not automatically included.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Keep the scarf away from sunlight, moisture and surfaces that could snag the fibres. Do not spray perfume directly onto it. Until composition and care labelling are confirmed, do not assume washing, dry cleaning or ironing are permitted. Store loosely without tight knots; follow the manufacturer’s final care procedure.",
+          "history": {
+            "text": "In the history of printed scarves, Hermès dates its own carrés to 1937 and presents them as spaces for colour, imagery and narrative. This is a reference for the accessory as a storytelling surface; it neither credits Hermès with inventing scarves nor implies a connection with Dracula.",
+            "source_ids": [
+              "hermes-scarf"
+            ]
+          },
+          "brand_story": "Dracula editorial story: the velvet of night meets a red light. One movement changes the balance of colours, like a curtain slowly drawn in a salon. Signature is imagined as a gesture rather than a fixed ornament: the same palette, a different expression each time.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Opera nocturne",
+              "pieces": "Simple black dress, discreet earrings and plain shoes.",
+              "occasion": "Opera, concert or celebratory dinner.",
+              "instructions": "Drape the scarf loosely at the neck, showing the monogram at one point. Avoid tight knots and adapt the drape to the final size."
+            },
+            {
+              "title": "A red line by day",
+              "pieces": "White shirt, charcoal blazer, black trousers and a simple bag.",
+              "occasion": "Office, brunch or a city meeting.",
+              "instructions": "Fold loosely lengthways and let the ends fall beneath the lapel if dimensions allow. Keep other patterns to a minimum."
+            }
+          ]
+        },
+        "de": {
+          "intro": "Rote und schwarze Flächen, satinartiger Glanz und ein Monogramm am Rand. Der Signature-Schal bringt Bewegung in eine Garderobe klarer Linien. Das Bild vermittelt einen fließenden Fall; Faserzusammensetzung, Maße und Verarbeitung lassen sich daraus allein nicht bestimmen.",
+          "technical": [
+            {
+              "key": "appearance",
+              "label": "Sichtbare Gestaltung im Bild",
+              "value": "Glänzende Optik, Rot-Schwarz-Kontrast, Monogramm und betonte Kante; visuelle Beobachtungen ohne Faserbestätigung.",
+              "status": "visual_reference"
+            },
+            {
+              "key": "material",
+              "label": "Material und Zusammensetzung",
+              "value": "Faserzusammensetzung und Anteile stehen bis zum Etikett aus. Satinartige Optik bestätigt keine Naturseide.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "dimensions",
+              "label": "Maße",
+              "value": "Maße des fertigen Produkts in Zentimetern stehen aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "weight",
+              "label": "Nettogewicht",
+              "value": "Gewicht des Produkts ohne Verpackung steht aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "lining",
+              "label": "Futter",
+              "value": "Im Bild ist kein separates Futter erkennbar; Aufbau und Lagenzahl muss der Hersteller bestätigen.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "closure",
+              "label": "Verschluss",
+              "value": "Kein mechanischer Verschluss ist sichtbar. Knotentechniken hängen von den endgültigen Maßen und dem Material ab.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "capacity",
+              "label": "Volumen und Kompatibilität",
+              "value": "Ein Transportvolumen ist nicht anwendbar. Länge, Breite und mögliche Knotentechniken erfordern die endgültigen Maße.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "hardware",
+              "label": "Beschläge und Oberflächen",
+              "value": "Keine Metallteile sichtbar. Saumverarbeitung, Randnaht und Druckverfahren stehen aus.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "care",
+              "label": "Pflege",
+              "value": "Die genaue Reinigung richtet sich nach noch zu bestätigendem Material und Pflegeetikett.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "origin",
+              "label": "Herkunft und Herstellung",
+              "value": "Herstellungsland und Materialherkunft erfordern Lieferantenunterlagen. Aussagen im Bild sind nicht unabhängig bestätigt.",
+              "status": "pending_confirmation"
+            },
+            {
+              "key": "included",
+              "label": "Lieferumfang",
+              "value": "Der aufgeführte Artikel; Verpackung und enthaltenes Zubehör müssen bestätigt werden. Dekorationsobjekte im Foto gehören nicht automatisch zum Lieferumfang.",
+              "status": "pending_confirmation"
+            }
+          ],
+          "care": "Das Tuch vor Sonne, Feuchtigkeit und Oberflächen schützen, die Fäden ziehen könnten. Kein Parfüm direkt aufs Material sprühen. Bis Zusammensetzung und Pflegeetikett bestätigt sind, weder Waschen noch chemische Reinigung oder Bügeln voraussetzen. Locker ohne enge Knoten lagern; maßgeblich sind die endgültigen Herstellerhinweise.",
+          "history": {
+            "text": "In der Geschichte bedruckter Tücher datiert Hermès seine eigenen Carrés auf 1937 und beschreibt sie als Flächen für Farbe, Bilder und Geschichten. Das ist ein Bezug zum Accessoire als Erzählfläche, keine Behauptung, Hermès habe Schals erfunden, und keine Verbindung zu Dracula.",
+            "source_ids": [
+              "hermes-scarf"
+            ]
+          },
+          "brand_story": "Redaktionelle Dracula-Geschichte: Der Samt der Nacht trifft auf rotes Licht. Eine Bewegung verändert das Verhältnis der Farben wie ein langsam zurückgezogener Vorhang im Salon. Signature erscheint als Geste statt als starres Ornament: dieselbe Farbwelt, jedes Mal ein anderer Ausdruck.",
+          "brand_story_type": "editorial",
+          "styling": [
+            {
+              "title": "Nocturne in der Oper",
+              "pieces": "Schlichtes schwarzes Kleid, dezente Ohrringe und einfarbige Schuhe.",
+              "occasion": "Oper, Konzert oder festliches Abendessen.",
+              "instructions": "Das Tuch locker am Hals drapieren und das Monogramm an einer Stelle zeigen. Enge Knoten vermeiden und den Fall an die endgültige Größe anpassen."
+            },
+            {
+              "title": "Eine rote Linie am Tag",
+              "pieces": "Weißes Hemd, anthrazitfarbener Blazer, schwarze Hose und schlichte Tasche.",
+              "occasion": "Büro, Brunch oder Treffen in der Stadt.",
+              "instructions": "Locker längs falten und die Enden unter das Revers fallen lassen, sofern die Maße passen. Weitere Muster sparsam einsetzen."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

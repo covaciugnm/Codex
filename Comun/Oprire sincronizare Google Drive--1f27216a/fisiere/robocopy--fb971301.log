@@ -1,0 +1,29 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : luni, 5 octombrie 2026 10:26:33
+   Source : \\192.168.100.169\Comun\00. Proiecte\
+     Dest : C:\Users\User\My Drive (covaciu.gnm@gmail.com)\00. Proiecte\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:T /COPY:DAT /NP /XO /XN /XC /MT:16 /R:2 /W:5 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :      5571      5571         0         0         0         0
+   Files :     36032     36032         0         0         0         0
+   Bytes :  53.226 g  53.226 g         0         0         0         0
+   Times :  13:14:27   0:46:03                       0:00:00   0:03:02
+
+
+   Speed :           20.679.702 Bytes/sec.
+   Speed :             1183,302 MegaBytes/min.
+   Ended : luni, 5 octombrie 2026 11:15:39
+

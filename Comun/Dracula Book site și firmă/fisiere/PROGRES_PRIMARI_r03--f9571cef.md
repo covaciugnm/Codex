@@ -1,0 +1,1 @@
+Coordonare de progres, fără modificarea scopului sau a criteriilor: la următoarea actualizare spune concis ce verificări ai terminat și ce mai rămâne. Continuă apoi auditul până la rapoartele finale; nu încheia doar cu confirmarea acestei solicitări. Nu adăuga cercetare, funcționalități sau verificări fără legătură cu mandatul. Nu există scor sau verdict cerut de coordonator.

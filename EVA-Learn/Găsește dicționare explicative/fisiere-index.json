@@ -1,0 +1,449 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/Learn/Dictionare_RO_EN_DE_FR_ES_2026-10-01.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Dictionare_RO_EN_DE_FR_ES_2026-10-01--edbb9c13.xlsx",
+    "bytes": 50171,
+    "sha256": "253e28b293ffef3efb3bd77338dc6fd95db6529e23b669e96b221bc21e70f893"
+  },
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/EVA.Pro/Learn/Dictionare_RO_EN_DE_FR_ES_EXTINS_GRATUIT_2026-10-01.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Dictionare_RO_EN_DE_FR_ES_EXTINS_GRATUIT_2026-10-01--c76ee47c.xlsx",
+    "bytes": 240353,
+    "sha256": "41be6b4832fb59c8a0d6b3160669005e844dcf50d787c690393c5fddf538538e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\build_dictionary_excel.js",
+    "status": "copiat",
+    "saved_path": "fisiere/build_dictionary_excel--382c58f5.js",
+    "bytes": 14630,
+    "sha256": "de2575a5d5008c36e3a4d27ee6e5406f17e106746b6563c6c9f44e2eda511e4e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\convert_eva.py",
+    "status": "copiat",
+    "saved_path": "fisiere/convert_eva--0a61e740.py",
+    "bytes": 23526,
+    "sha256": "38f6d282aa61a6ee03322d874f0f1f0fae3fbdf103e364f9ed52b86a3ca43c60"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\convert_eva_v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/convert_eva_v2--72f2dcd3.py",
+    "bytes": 24953,
+    "sha256": "183c1fc2d5ed9b59b52d9f51f469c1d937f6d965017804b436080e1904205c71"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\convert_eva_v3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/convert_eva_v3--c9b4baac.py",
+    "bytes": 24966,
+    "sha256": "deb4e18365db7a726bdc17ffa168a8482177fa0f1f9243d3e27ab074bc24e3e3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\dictionary_data.json",
+    "status": "copiat",
+    "saved_path": "fisiere/dictionary_data--700212e6.json",
+    "bytes": 93768,
+    "sha256": "e4583b252750560d0753e933e8951b1f86c171dbf4cea965e04789e05eb26257"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\download_eva.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/download_eva--6bfd40e8.cjs",
+    "bytes": 3445,
+    "sha256": "aec142d90e207cdc85ad3d05adae6420d13e6960f749be37e0e80d5fc3cda37d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\download_eva_v2.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/download_eva_v2--40bbed5f.cjs",
+    "bytes": 4951,
+    "sha256": "f86e2ac5088b779ce729917f0dd56e2fbb99063b26bf610223a2e4216bbd3eb0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\inspect_catalogue.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect_catalogue--3199051c.cjs",
+    "bytes": 1387,
+    "sha256": "ed485da619bbdafbc04114acaa6657f02a99749558266483f65535419ed42584"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\plan_eva_downloads.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/plan_eva_downloads--ea3fe2c5.cjs",
+    "bytes": 4030,
+    "sha256": "b6257e25270f9f4eebf6eda3d44fd0065e0e1271c3b28b7fc21412566012f980"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\plan_eva_models.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/plan_eva_models--d937825e.cjs",
+    "bytes": 9584,
+    "sha256": "4a9844f322e9c6976a8805cc1be6b69f28bbb73cd42209ec0089d453492e8829"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f663-7e23-7e02-8580-21cbf2de2964\\prepare_runtime.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_runtime--6cbe051c.cjs",
+    "bytes": 1063,
+    "sha256": "c25c008d2a175657206034624796ae12ef5b3d9e738745494c0189375a30f961"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_dictionary_extended.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_dictionary_extended--d78904b7.cjs",
+    "bytes": 16057,
+    "sha256": "ddb1182b8a9d57afa47f2f35ef515f8879c7611d09649b7e1b2a732cbec70ab8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\dictionary_data_extended.json",
+    "status": "copiat",
+    "saved_path": "fisiere/dictionary_data_extended--8c59cac9.json",
+    "bytes": 429964,
+    "sha256": "bbbe08353d377c878a1cb16d3cf06e43001245b83578fa5e4b89ba56bbe2af94"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\prepare_dictionary_extended.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_dictionary_extended--936ec341.cjs",
+    "bytes": 6513,
+    "sha256": "e91f29798c93bb50a3dda783bd0c3f7bd89b5eaf2294339fa226e75444d07300"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_LEARN_DB_35",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_LEARN_DB_35/INDEX_IMPORT_EVA_LEARN.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX_IMPORT_EVA_LEARN--922d5f0d.xlsx",
+    "bytes": 1078921,
+    "sha256": "ecafef68341105665a17fdf0d05a97c9448ed879cf0e31c682aff276f28606b7"
+  },
+  {
+    "source_reference": "https://commons.wikimedia.org/wiki/File:Deutsches_W%C3%B6rterbuch_(IA_deutscheswrterb00gtgoog",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://commons.wikimedia.org/wiki/File:Diccionario_de_la_lengua_castellana_(IA_diccionariodel00acaduoft",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dexonline.ro/unelte",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-de-en.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-de-es.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-de-fr.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-en-de.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-en-es.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-en-fr.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-es-de.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-es-en.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-es-fr.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-fr-de.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-fr-en.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://download.wikdict.com/dictionaries/stardict/wikdict-fr-es.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dspace.bcu-iasi.ro/handle/123456789/49948?show=full",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dspace.bcu-iasi.ro/handle/123456789/74721?show=full",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://fr.wikisource.org/wiki/Fichier:Littr%C3%A9_-_Dictionnaire,_1873,_T1,_A-B.djvu",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://freedict.org/documentation/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://freedict.org/downloads/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/apertium/apertium-es-ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/k2-fsa/OmniVoice/issues/258",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dewiktionary/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dewiktionary/Deutsch/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dewiktionary/Englisch/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dewiktionary/Franz%C3%B6sisch/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dewiktionary/Spanisch/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/English/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/French/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/German/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Romanian/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Spanish/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/rawdata.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/eswiktionary/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/eswiktionary/Espa%C3%B1ol/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/eswiktionary/Franc%C3%A9s/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/eswiktionary/Ingl%C3%A9s/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/frwiktionary/Allemand/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/frwiktionary/Anglais/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/frwiktionary/Espagnol/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/frwiktionary/Fran%C3%A7ais/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/frwiktionary/Roumain/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://play.google.com/store/apps/details?id=alldictdict.alldict.frro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://play.google.com/store/apps/details?id=cc.dict.dictcc",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://play.google.com/store/apps/details?id=com.dex",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://play.google.com/store/apps/details?id=com.eflasoft.fraromfree",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.dexonline.ro/wiki/Protocol_de_exportare_a_datelor_v5",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.dict.cc/?s=about:wordlist",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.gutenberg.org/ebooks/29765",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/download/de",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/download/en",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/download/es",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/download/fr",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/download/ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/de/en",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/de/es",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/de/fr",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/de/ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/en/de",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/en/es",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/en/fr",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/en/ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/es/de",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/es/en",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/es/fr",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/es/ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/fr/de",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/fr/en",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/fr/es",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/fr/ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/ro/de",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/ro/en",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/ro/es",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/get/ro/fr",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/legal-mentions",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/list",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reader-dict.com/reviews",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wikdict.com/page/about",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www1.dict.cc/translation_file_request.php?l=e",
+    "status": "referinta_externa_necopiata"
+  }
+]

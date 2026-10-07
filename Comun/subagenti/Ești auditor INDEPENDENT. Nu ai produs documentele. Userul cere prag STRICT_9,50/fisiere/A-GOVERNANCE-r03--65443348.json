@@ -1,0 +1,263 @@
+{
+  "schema_version": 2,
+  "audit_id": "RES-001-A-GOVERNANCE-r03",
+  "deliverable_id": "RES-001",
+  "version_id": "r03",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/RES-001-r03.json",
+    "sha256": "15462dd9ab698261300adb09be2caa7049a76710bcee27194e719c0de8ca10e8"
+  },
+  "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "reviewer_role": "A-GOVERNANCE",
+  "files": [
+    {
+      "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+      "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1"
+    },
+    {
+      "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+      "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490"
+    },
+    {
+      "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+      "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01"
+    }
+  ],
+  "supplemental_evidence_files": [
+    {
+      "path": "05_AUDIT/RES-001/A-GOVERNANCE-r03.md",
+      "sha256": "0300d0ea15e9698736f4ad943579923a6419d8d49436af1a4f48019fb58c6fd8"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md",
+      "sha256": "16e8c8b00e6bc2d943d1bd97753d755035b7c49d7519e50a8ee0591beab0fcac"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "surse",
+      "weight": 25,
+      "score": 967,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L10-L16"
+        },
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L88-L102"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+          "sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+          "anchor": ":L20-L24"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+          "sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+          "anchor": ":L41-L56"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+          "sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+          "anchor": ":L98-L108"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/index_origine.json",
+          "sha256": "cc71a0c05c80ce0f8e7006baf29901c6ae17cd082bb2233fbfc90135c23c1b9f",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r03.md",
+          "sha256": "0300d0ea15e9698736f4ad943579923a6419d8d49436af1a4f48019fb58c6fd8",
+          "anchor": "#integritate"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md",
+          "sha256": "16e8c8b00e6bc2d943d1bd97753d755035b7c49d7519e50a8ee0591beab0fcac",
+          "anchor": "#workid"
+        }
+      ]
+    },
+    {
+      "id": "succes",
+      "weight": 20,
+      "score": 966,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L18-L28"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L34-L149"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L17-L19"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L97-L103"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r03.md",
+          "sha256": "0300d0ea15e9698736f4ad943579923a6419d8d49436af1a4f48019fb58c6fd8",
+          "anchor": "#lecturi"
+        }
+      ]
+    },
+    {
+      "id": "originalitate",
+      "weight": 25,
+      "score": 970,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L34-L149"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L153-L163"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L174-L200"
+        },
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L24-L80"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md",
+          "sha256": "16e8c8b00e6bc2d943d1bd97753d755035b7c49d7519e50a8ee0591beab0fcac",
+          "anchor": "#workid"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md",
+          "sha256": "16e8c8b00e6bc2d943d1bd97753d755035b7c49d7519e50a8ee0591beab0fcac",
+          "anchor": "#t01-t04"
+        }
+      ]
+    },
+    {
+      "id": "relevanta",
+      "weight": 15,
+      "score": 974,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L10-L16"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L13-L15"
+        },
+        {
+          "path": "00_CONDUCERE/DECIZIE_EDITORIALA_001_SURSE.md",
+          "sha256": "af8fa2d80f09318653a6f7450ed48851ceaedb51da6e7560bd2e96488bd2d523",
+          "anchor": ":L5-L10"
+        },
+        {
+          "path": "06_REGISTRU/ISTORIC/INSTRUCTIUNI_BENEFICIAR.md",
+          "sha256": "a9833e0c0204f1dbd4aa40e0562717d3bff9f0ccb03d80913bdbf7f0884c353f",
+          "anchor": ":L11-L12"
+        },
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L18-L80"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md",
+          "sha256": "16e8c8b00e6bc2d943d1bd97753d755035b7c49d7519e50a8ee0591beab0fcac",
+          "anchor": "#t01-t04"
+        }
+      ]
+    },
+    {
+      "id": "utilizare",
+      "weight": 15,
+      "score": 972,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L157-L184"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L153-L204"
+        },
+        {
+          "path": "06_REGISTRU/MASURI/RES-001-plan-r01.md",
+          "sha256": "9fc4922b7e8f58017f0d85f5843d23c6c8251639279be61bc521b4e877153146",
+          "anchor": ":L114-L121"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r01.md",
+          "sha256": "31b9f074816f03459a663f34ab5740a47d10c2b4a4821c25e74a21c358ee1b8f",
+          "anchor": ":L216-L221"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md",
+          "sha256": "16e8c8b00e6bc2d943d1bd97753d755035b7c49d7519e50a8ee0591beab0fcac",
+          "anchor": "#t01-t04"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md",
+          "sha256": "16e8c8b00e6bc2d943d1bd97753d755035b7c49d7519e50a8ee0591beab0fcac",
+          "anchor": "#workid"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r03.md",
+          "sha256": "0300d0ea15e9698736f4ad943579923a6419d8d49436af1a4f48019fb58c6fd8",
+          "anchor": "#retest"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "GOV-RES-01",
+      "severity": "major",
+      "status": "closed",
+      "location": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L12-L14;L157-L184",
+      "description": "Principiul, selecția și fișa permit colecții independente; comunitatea experiențelor umane nu impune relații canonice comune. Am recitit B/R integral și aplicat procedura pe patru WorkID-uri reale.",
+      "remediation": "Testul original pe colecții fără continuitate comună este satisfăcut cu minimum două opere distincte per caz, fără relații inventate. 05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md#t01-t04 și #workid; 05_AUDIT/RES-001/A-GOVERNANCE-r03.md#retest. Închidere a defectului procedural în r03, nu a canonului integral."
+    },
+    {
+      "id": "F-RES-SOURCES-001",
+      "severity": "major",
+      "status": "closed",
+      "location": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md:L18-L102",
+      "description": "T01–T04 au fost verificate în noua depunere, inclusiv T02b efectiv pe marienburg, sunrise, crown și hotelul, cu identificare directă, două opere distincte, acțiune/prezentare, excluderi și limite. Lipsa din r02 nu este declarată retroactiv remediată.",
+      "remediation": "Retest propriu detaliat în 05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md#t01-t04 și #workid: toate O01–O18, cele patru aplicații reale, regresia 18 mecanisme/9 opere/7 coloane/min50k și verificarea contractului/istoricului. Remedierea nu se bazează numai pe fișele producătorului sau TEST-A/B; A-SOURCES/QA și poarta r03 rămân verificări separate. Nu închid META-RES-001-r02-F01."
+    }
+  ],
+  "verdict": "PASS",
+  "limitations": [
+    "Audit de proces/documentare preliminară RES r03/G00; nu certifică G01/G02 integral, intrigi, romane, originalitate literară efectivă, traduceri ori publicare. PASS individual necesită auditul A-SOURCES, QA și validarea dependențelor SYS/SEL r03.",
+    "Banca L1-L190, raportul L1-L204 și aplicațiile L1-L108 au fost citite integral. T01–T04 și O01–O18 sunt documentate în suplimentul corectiv propriu; T02b a fost aplicat efectiv pe patru ID-uri existente, nu pe cazuri sintetice.",
+    "Sursele efectiv citite pentru aplicații: SITE_APP/CAT țintit, HBT integral, N.docx P1–P5, Z.zip!/series-bible/01-core-premise.md L1–L166 și secțiunile CANON_EXISTENT pertinente. Extragerile binare sunt în memorie, nu lectură integrală a manuscriselor.",
+    "Nu am reaccesat webul sau verificat independent vânzări/premii/drepturi/conținutul integral al operelor-sursă; nu pretind actualitate comercială nouă. Scorurile surse/succes privesc trasabilitatea și atribuirea documentară în mandatul A-GOVERNANCE.",
+    "Închiderea F-RES-SOURCES-001 în propriul audit r02 a fost eronată: TEST-A/B nu satisfăceau T02b. R02 și metaraportul RETURN, inclusiv v02, rămân neschimbate. META-RES-001-r02-F01 rămâne major/open la QA până la verificarea măsurii; nu îmi acord closed.",
+    "Aplicațiile nu rezolvă autorul personal NOIR, atribuirea Armin Vale/Cesiro Horeca, Boucher/Dubois, cronologiile ori conflictul master/bible. Rama minimă verificată permite explorarea G00, nu canon integral sau scene aprobate.",
+    "Hashurile și arhivele/copii plate au fost verificate read-only; nu am făcut o nouă restaurare fizică sau arhivarea acestui raport. Nu am modificat intrări, registre, staging, site ori rapoarte vechi; fără .env/rawlogs și fără agenți noi."
+  ],
+  "reviewed_at": "2026-09-24T04:02:45+00:00"
+}
+

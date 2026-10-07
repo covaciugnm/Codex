@@ -1,0 +1,23 @@
+{
+  "id": "01a11201-d72a-7610-9332-5ab4240808d3",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.09.11. Puscau Bogdan Sebastian SES",
+  "created_at": 1791303472,
+  "updated_at": 1791303628,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară proiectele de brațe robotice",
+  "project_id": "fb3ecc5b-d79f-4ebd-8375-45b8acdeb7c5",
+  "project": "Indunova",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 386160,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 11,
+  "message_count": 4,
+  "content_sha256": "8b3f90808f0d481235bd76d5b7e8d210f390a940566fa15e2ab463db1b5dba7b",
+  "files_copied": 0,
+  "references_not_copied": 15
+}

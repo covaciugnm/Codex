@@ -1,0 +1,111 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\build_excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_excel--79a99ae5.py",
+    "bytes": 38523,
+    "sha256": "67a2ebbab48dea1fb7f9022ed87ab41b7e6437fb530953ce4ce1572b298ce674"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\catalogue.py",
+    "status": "copiat",
+    "saved_path": "fisiere/catalogue--c125a75a.py",
+    "bytes": 32928,
+    "sha256": "b567dc3e1f191f54bfaa5bfa7652e7acdc6e52a9587213fac00d1a55ae4f479a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\downloads.py",
+    "status": "copiat",
+    "saved_path": "fisiere/downloads--3736c9d8.py",
+    "bytes": 14127,
+    "sha256": "e455815beef71898e032c164b8dc4e2633aea23b3bf679149ed665c4823e5458"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\extras.py",
+    "status": "copiat",
+    "saved_path": "fisiere/extras--63d8e829.py",
+    "bytes": 5528,
+    "sha256": "a733e234916feb431017119a6256feb66d83ffa12dec3f60269a39301c9d51eb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\fix_last_documents.py",
+    "status": "copiat",
+    "saved_path": "fisiere/fix_last_documents--0d8efc7b.py",
+    "bytes": 2472,
+    "sha256": "f62701750b4f091898ccc6c02f800ad010aff33c4c0ac84f362874f3d40cf043"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\last_documents.py",
+    "status": "copiat",
+    "saved_path": "fisiere/last_documents--52d08500.py",
+    "bytes": 4221,
+    "sha256": "720bde41f60c71edb71a1a1e3cd572338cc72c809ec998859ce2c968e1aed2bf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\portal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/portal--a8ac5386.py",
+    "bytes": 1336,
+    "sha256": "3e41b0c211c8f1d5732952d8110f41e277c21da874e2b4c04053be087e7e5d0f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\research.py",
+    "status": "copiat",
+    "saved_path": "fisiere/research--acc8c7fb.py",
+    "bytes": 2620,
+    "sha256": "7d69e3ec76cfc1b6a4cb46605dc8d208066a149b92dd42ac2d5d6213f9f5fecc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\retry_downloads.py",
+    "status": "copiat",
+    "saved_path": "fisiere/retry_downloads--d714afe2.py",
+    "bytes": 1689,
+    "sha256": "6ffb3b304c6524214b4089191e1539cf495209010ca2491629b5a70d1e3efd5d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\sources.json",
+    "status": "copiat",
+    "saved_path": "fisiere/sources--9e88860d.json",
+    "bytes": 5760,
+    "sha256": "ea8c4c45a1a4b7726e48f487060cd52aad5f51dce485fedaf6376ec8fab198c9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\sources2.json",
+    "status": "copiat",
+    "saved_path": "fisiere/sources2--f664a2f3.json",
+    "bytes": 3409,
+    "sha256": "a7ad018e4382e072f232368f4982423bed37cf3df99863c9524be8f7cac9bcec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\sources3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/sources3--e1ac09be.json",
+    "bytes": 2042,
+    "sha256": "984181491f65ca98c3b1c64d8de3cb0234a12c37f8651321dbc664986e29126a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\sources4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/sources4--7bb9344e.json",
+    "bytes": 680,
+    "sha256": "ee23c914a919936ec4916f120f1cd53dc8d1a5c4145129915e0e4337479d6975"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f\\sources5.json",
+    "status": "copiat",
+    "saved_path": "fisiere/sources5--248e79da.json",
+    "bytes": 975,
+    "sha256": "aae6341ee602eb79a1d9022ffa1fecad9deed7d5feface6a57a3b07d2384cf54"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/Finantari directe RO - 2026.10.01",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/Finantari directe RO - 2026.10.01/Registru_finantari_directe_RO_2026-10-01.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_finantari_directe_RO_2026-10-01--88dfa467.xlsx",
+    "bytes": 1352483,
+    "sha256": "a3576e5cfb9fe304b4d397b9838c1b0b325aceb785cfb87094cf1b57fc8cc166"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "01a10b76-63c7-79a3-93a0-4708a9986efa",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn",
+  "created_at": 1791193670,
+  "updated_at": 1791209088,
+  "archived": 0,
+  "source": "vscode",
+  "title": "am pus in folder fisierul cu toate mesajele din aplicatia l…",
+  "project_id": "bad0be1d-5fae-412b-aa11-fef421eb951f",
+  "project": "EVA-Learn",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 6654449,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 346,
+  "message_count": 76,
+  "content_sha256": "abf751f72833ec76714d993397b64b16a3c27250c7e31f4893a11aa4ab27f7cd",
+  "files_copied": 8,
+  "references_not_copied": 11
+}

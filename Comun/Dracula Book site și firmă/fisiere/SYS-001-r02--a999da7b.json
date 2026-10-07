@@ -1,0 +1,806 @@
+{
+  "criteria": [
+    {
+      "id": "mandat",
+      "weight": 25
+    },
+    {
+      "id": "independenta",
+      "weight": 20
+    },
+    {
+      "id": "control",
+      "weight": 25
+    },
+    {
+      "id": "arhivare",
+      "weight": 20
+    },
+    {
+      "id": "utilizare",
+      "weight": 10
+    }
+  ],
+  "deliverable_id": "SYS-001",
+  "dependencies": [],
+  "evidence_files": [
+    {
+      "path": "05_AUDIT/CALIBRARE_A-QAMANAGER-r01.md",
+      "sha256": "070f9bbe7d971de2b57c6685f74488f4929bc04f21fd451c70fd6348bd0f7da1"
+    },
+    {
+      "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+      "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc"
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-GOVERNANCE-r01.json",
+      "sha256": "0efa30eaad0437930d555b5e5455a49053d5d2ac0129c7bad556fddd33bd6ec2"
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-GOVERNANCE-r01.md",
+      "sha256": "61293dbd9d505ba200c7994c621b71ed001edd02b7b98e5f320ee8083867d467"
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-QAMANAGER-r01.json",
+      "sha256": "7192f8a85bc54bc9ab2bb708bf3ffd2128665eb7d450ebf635aafc4acee08311"
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-QAMANAGER-r01.md",
+      "sha256": "07b2a0b811e056ff867fa2c77a7cb056056bc50336872e1b0397b5c9145628c3"
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-SYSTEMS-r01.json",
+      "sha256": "a825a5db3032848664851c345440a795f8870545617af85f8e3ed915efa97d4a"
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-SYSTEMS-r01.md",
+      "sha256": "a1a8657f7c9c6236d23c334a724ed2c5a562a59392a0119937b6a47edbfff95f"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-CANON-r02.json",
+      "sha256": "c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-GOVERNANCE-r02.json",
+      "sha256": "6f55451c9e3017afdd07beb53451caadc7f10bef396e77ff06b5b7a8db346227"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-QAMANAGER-r02.json",
+      "sha256": "e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-SOURCES-r02.json",
+      "sha256": "f0e37622956255a8abb9981d73c888f5083703447eef57a9e62f22f122111abe"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-SYSTEMS-r02.json",
+      "sha256": "313ad647e90dc3f34ce81928ed9bfcd44d60cacdf52290887de0fd10ef3227e7"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_PRIMARI_r02.json",
+      "sha256": "2a7ca3cc051b2ba4580d7fafcf9b77b9ae7e53795f34c4e8868d77a9a97bfb73"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_QA_r02.json",
+      "sha256": "48d021151cc3a5fc0907540b166b7752f88932b74e9bdc809dd90da5f356b84d"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/EXECUTII_at_freeze.md",
+      "sha256": "c8eb49c713e13c841d6b0966212ddf23baf4ae807e207cc9b70c6eab9e599409"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/JURNAL_at_freeze.md",
+      "sha256": "e28072b2ca74c4c61527bd488652adc890f488d2c6da11668bd0cb43364a201f"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/README.md",
+      "sha256": "f762ee641602f4b358b13eb1afe46834421f40a14b9235198d9750341a58014b"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/STATUS_at_freeze.md",
+      "sha256": "d77b04652dba304443cec3ca0526925359699b4447e550e3f7a842c871aca707"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/agents_at_freeze.json",
+      "sha256": "7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/A-CANON-calibrare-predare.json",
+      "sha256": "7d6ea8b16c9949142c03c2b715278d7a03fbf9124df12ffc9fc49d9a22949aaa"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/A-GOVERNANCE-calibrare-predare.json",
+      "sha256": "f990d91729545e39c2c32e738cf7ca32993389749a1789fed84dd1ed8eda966f"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/A-QAMANAGER-predare-inainte-integrare-r02.json",
+      "sha256": "377113ea045db62d0090ff4f3c8c7d1b60a53b60cccf667c7e4fa11c4a138b65"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/A-SOURCES-calibrare-predare.json",
+      "sha256": "72be9ba405a902d1acab0f1c2e6d7fbaa6912ce6f4de5d138ec0082498d5504b"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/A-SYSTEMS-calibrare-predare.json",
+      "sha256": "5b6144d746f8dbb2a84199b76bfcfff19de84c0957d23e92b3682f40cabad84e"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-CANON.jsonl",
+      "sha256": "6b44f7d0dcf197cc0847ebb0355d5d61601526130f55b8c7bda5feddef1c3afb"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-CANON.md",
+      "sha256": "ef21bc8e2ce612e49fdcf05d9dfe92add965520ce7716c82c2671236ac3ce468"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-GOVERNANCE.jsonl",
+      "sha256": "6c090f6a424655ba9eb98b847bfa4e7f699f8813a9cbd1e6b6353a57f5bcf35c"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-GOVERNANCE.md",
+      "sha256": "4cc77867e6a66cd1e331f4c9c2294ec034f99eadaea586d45b60fbae11299ad9"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-QAMANAGER.jsonl",
+      "sha256": "069e73371b5431fb403258c1cee96f1d16e1a2a19ce64e0e30256f39c4de4948"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-QAMANAGER.md",
+      "sha256": "244ee45250758a330fe900339794495e986f3834c44d2098ebd775ea66d8e9e2"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-SOURCES.jsonl",
+      "sha256": "2d7e546df6345729dfdbd690a7d75dd199e53a26fbf3d76c7fc1ac50e22cd8f3"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-SOURCES.md",
+      "sha256": "d605dcc31f1ef7e7a2c3df2fd647c867cd0563039c52fbb8d83aecf60c148ad5"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-SYSTEMS.jsonl",
+      "sha256": "12e342e618434529186d66881fc26fbf216572068fb54e81c7d163e5ecef7ede"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/A-SYSTEMS.md",
+      "sha256": "050335b32cced2715dd6b996c8419cff33828486a2dbf03f07d0a4d0a6f6ea79"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/P-CANON.jsonl",
+      "sha256": "b28200f535d60bffbd7ca2bd121bdadf90a5d8630428227d2f829238cd142cee"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/P-CANON.md",
+      "sha256": "462a38fb3e3f100f51caa670bb060e500ecfe3947186f93cc5256e8242cfcf88"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/P-MANAGER.jsonl",
+      "sha256": "bc08457a3340e5141352dd04723b1490d4907b65c195d0edfa69eabd398d934e"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/P-MANAGER.md",
+      "sha256": "cc823f49533e03be151c623c5e416135b24c7cab608029979b0e355dfedd4ba1"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/P-RESEARCH.jsonl",
+      "sha256": "d8b74c80d4b7e5a0791952634802a99126eaf87ca53857c27cfe0469ee47273c"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/P-RESEARCH.md",
+      "sha256": "d77d5c70c4702d1e56a684ce1a558811f496f17f324bf6ec8f8a8d1458330782"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/P-SYSTEMS.jsonl",
+      "sha256": "6cc057522a33ae2e4b98f6cd7452800316ed939592a3b945cb32839a3be4623f"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/P-SYSTEMS.md",
+      "sha256": "c502b700fbb0d7b04816a8657622f6f361722520fc5b6f1c6f11c87283ec859e"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/index.json",
+      "sha256": "b62d0ad5429d76ec8c5b521a5e152415ee0706dbc8631cbd982ac3b85f45d1a6"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-01/index.sha256",
+      "sha256": "8187794d34ea20a6c2ddea300740137f0d58a5f58051f0b96dcf1313abf11510"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-CANON.jsonl",
+      "sha256": "6b44f7d0dcf197cc0847ebb0355d5d61601526130f55b8c7bda5feddef1c3afb"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-CANON.md",
+      "sha256": "ef21bc8e2ce612e49fdcf05d9dfe92add965520ce7716c82c2671236ac3ce468"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-GOVERNANCE.jsonl",
+      "sha256": "6c090f6a424655ba9eb98b847bfa4e7f699f8813a9cbd1e6b6353a57f5bcf35c"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-GOVERNANCE.md",
+      "sha256": "4cc77867e6a66cd1e331f4c9c2294ec034f99eadaea586d45b60fbae11299ad9"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-QAMANAGER.jsonl",
+      "sha256": "bdbced0a436b91e29113dfda2d229f6e57a10bdaf5b2451f185675a3df112305"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-QAMANAGER.md",
+      "sha256": "a21fd221fe567bb181d6f8e0cd25996c89f666b6fbf76d6a5223d63f3451f4bf"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-SOURCES.jsonl",
+      "sha256": "2d7e546df6345729dfdbd690a7d75dd199e53a26fbf3d76c7fc1ac50e22cd8f3"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-SOURCES.md",
+      "sha256": "d605dcc31f1ef7e7a2c3df2fd647c867cd0563039c52fbb8d83aecf60c148ad5"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-SYSTEMS.jsonl",
+      "sha256": "12e342e618434529186d66881fc26fbf216572068fb54e81c7d163e5ecef7ede"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/A-SYSTEMS.md",
+      "sha256": "050335b32cced2715dd6b996c8419cff33828486a2dbf03f07d0a4d0a6f6ea79"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/P-CANON.jsonl",
+      "sha256": "641751fdd94f8cce6f5a76b8d144681b54970c1bb17f564b2c250a36d1a83fa5"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/P-CANON.md",
+      "sha256": "37d54a87ecbe71f6c26d6aba7698cc12b0c04067a5a8d2e6afe7b731133e7151"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/P-MANAGER.jsonl",
+      "sha256": "b9c8d6b774e83b54ff6a4f4c94c531a005a4cbc985566042e7c331b1c4ca0fa2"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/P-MANAGER.md",
+      "sha256": "f9648ee83964fa206e06e178cca0b9121e853a12df69e462556d221ae1ea8193"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/P-RESEARCH.jsonl",
+      "sha256": "8208306c0a42f4ff84389dd81eee5753bbb8848b8ecfa5c9966a051bd748ad8f"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/P-RESEARCH.md",
+      "sha256": "7fc4324e32f7ff6e112d59d8cc0765c127f7c1537f8a0b87a0d649decc167c64"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/P-SYSTEMS.jsonl",
+      "sha256": "0468e497e5016a09ff378fcf8f4579220158dace0f03ce3281e0af7f7692746b"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/P-SYSTEMS.md",
+      "sha256": "757d364c36512ca3ec8799247845c81236db437afa9edfd79bb6df50a21c1f52"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/index.json",
+      "sha256": "3dab0adf9bec85bcb69cb9ff9702ee7627e5497efd5162bf660778ac1afb5b2f"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/history-r02-02/index.sha256",
+      "sha256": "6a4c246c21309c16e763a04b76bc1f3486352374e303e0870cfe42f932053d6f"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/INSTRUCTIUNI_BENEFICIAR.md",
+      "sha256": "a9833e0c0204f1dbd4aa40e0562717d3bff9f0ccb03d80913bdbf7f0884c353f"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/P-CANON-mesaje-observabile-r01.md",
+      "sha256": "1281ec67375b6d39499e150f2f556a8ce4ed44ce09fcd0be15f5e31f631e498e"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/P-CANON-predare-inainte-integrare-r02.json",
+      "sha256": "09f57331528928fb1d458b11523611696187307bc76c8d4c376c47eecf574104"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/P-CANON-rezultat-recuperare.json",
+      "sha256": "a03b1752d26b7512fd18aacd8dd997a7754aea3b3424c16b623fdc1de7ab3626"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/P-RESEARCH-mesaje-observabile-r01.md",
+      "sha256": "be19f519afa99a5c56cdf40f9cbb30bb64102f30fda702c2e39165f73d9227a1"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/P-RESEARCH-predare-inainte-integrare-r02.json",
+      "sha256": "b509fb797bd44c742011b2325a3e3137a12b5fa05e2856fa00a5c57789702ac6"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/P-SYSTEMS-mesaje-observabile-r01.md",
+      "sha256": "ac799f5978a6fa81c9d0f8623a0d5f5b2ec6ee7ab80ea82dd3a49ea42f1bd0ac"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/P-SYSTEMS-predare-finala-r02.json",
+      "sha256": "5b9c719e734134b60eccbf692bd30f84d704b5b64e4a7876138d2257b5b2b780"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/P-SYSTEMS-rezultat-recuperare.json",
+      "sha256": "a03b1752d26b7512fd18aacd8dd997a7754aea3b3424c16b623fdc1de7ab3626"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/RECONCILIERE_ISTORIC_r02.md",
+      "sha256": "acc6960276d6ab0b38d433c046ddf95951597a75d6e203b9d5a42f5c67eaa955"
+    },
+    {
+      "path": "06_REGISTRU/MANDATE_INITIALE.md",
+      "sha256": "cecf135050d677ed3615d48f5d774cd10c5558b7d194a971187238327c49c7df"
+    },
+    {
+      "path": "06_REGISTRU/MASURI/OBS-MANAGER-001.md",
+      "sha256": "8e3b85f6b3c9a68b79acebb2fe31bb2cd542914288a19ff6e6dd6f6e267833a5"
+    },
+    {
+      "path": "06_REGISTRU/MASURI/SYS-001-gouvernanta-plan-r01.md",
+      "sha256": "913c9624b8b338cd69d3817a51ae5f9ff6884a98e81b327823e11ec31feadb87"
+    },
+    {
+      "path": "06_REGISTRU/MASURI/SYS-001-gouvernanta-rezultate-r02.md",
+      "sha256": "a4a71bd51048b2eea8ab69a3c462b1fe6262a9ac01b1922add55079b343162d8"
+    },
+    {
+      "path": "06_REGISTRU/MASURI/SYS-001-integrare-tehnica-r02.md",
+      "sha256": "276995eea4eb65644e34518851e62e2c5e1373d199dfc031078a709b80f7812a"
+    },
+    {
+      "path": "06_REGISTRU/MASURI/SYS-001-plan-r01.md",
+      "sha256": "9d901ab0af3642444b11037326ef30ffb532221e72d11b4a94001ba7b22f2556"
+    },
+    {
+      "path": "06_REGISTRU/MASURI/SYS-001-tehnic-rezultate-r02.md",
+      "sha256": "f0b6ad2ef82c6944a416261511416530eb8d227ba1fa84d8ad52ff927e15c61b"
+    },
+    {
+      "path": "06_REGISTRU/PREDARI_AGENTI_SUMAR_r02.json",
+      "sha256": "a318a86a56556fe611c0e827e1b2b9d201acd5545f9290b5ba320e39714f5bfc"
+    },
+    {
+      "path": "06_REGISTRU/PREDARI_AGENTI_r01.json",
+      "sha256": "28579ca04f4adaec5059d51ae8e444849165202389235450a1c206f90c3ef7c1"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-CANON-calibrare-r02.md",
+      "sha256": "d9f794a73cae3acaa7024d5ee5b627a91669625bca8a8acaa885e850efd3ec5e"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-CANON-r01.md",
+      "sha256": "b2a464f6c458e05b7e137c02f7a79f353572d4dd777ec7a8914c8380d5d16a65"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-GOVERNANCE-calibrare-r02.md",
+      "sha256": "cfbe7bc8ef58b233be1a5491b67a8e2662634f0cd6c60474a313100c8cc330ac"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-GOVERNANCE-r01.md",
+      "sha256": "8cbfcaea5d5144a35193e2afe282df8e86301b83bc3c4e82d39cce14e4f47fcc"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-QAMANAGER-handoff-r01.md",
+      "sha256": "95c9f2e72a8fd0d57c96debea0089c7a42f393e364e919e32e1333eb27bb48e2"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-QAMANAGER-meta-r01.md",
+      "sha256": "bdd9d400bd8b98218369b9e55549a9ef6a8384e33993a6239ddfe277556c5583"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-QAMANAGER-pregatire-r01.md",
+      "sha256": "f26745f49d810ed9d00619a901d014f122399e47dd0d38eac43ce3a948506cf8"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-QAMANAGER-verificare-calibrare-r02.md",
+      "sha256": "54d95b4c5c402467df3a29af3a6ddd54e7871409fad2164c830aa8387bc4e550"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-SOURCES-calibrare-r02.md",
+      "sha256": "6070352de52bc346406facd24ac5d1341b23d0682afd4a64eb2ca375597f260e"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-SOURCES-r01.md",
+      "sha256": "f47caf4fb8c3d9f703e064f93ccb267ca42a6b595575a8bad5d11a7efa769942"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-SYSTEMS-calibrare-r02.md",
+      "sha256": "751048c9a795c9340d1f89fb79067e9b4b0d9d49ae7e1aa5ac1833d44b9bb0d2"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/A-SYSTEMS-r01.md",
+      "sha256": "76a8eae2d2dcc37f66ba488f48e9792b50ed12226b9ec09e9359ed73eab76e1d"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-CANON-initial-r01.md",
+      "sha256": "fa72afeec6e47239f8121fb778ad987de53480186fe41ba63265d9c812c54e49"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-CANON-plan-r01.md",
+      "sha256": "3ba9ffea37f4bc3205ad5d45a42a78462cf963f072a034b0d0102a8970be4316"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-CANON-recuperare-istoric.md",
+      "sha256": "d2aa47eee9508fcd82aead2cc361c252bfd0bd7a09eb2bbcfe82588a48ac8aff"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-CANON-remediere-staging-r02.md",
+      "sha256": "f6ce2e567a5ce05dc10c6606c5ffd7471eee3f81402869c179da5a867e9098be"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-RESEARCH-initial-r01.md",
+      "sha256": "b4590c797bea1e8f2f17b9591e4bbbb3d9bb2ac502f36da25c71e8ed537cb8ba"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-RESEARCH-plan-remediere-r01.md",
+      "sha256": "61ae9b95e61953ed6575b9178b9157edaa69845c8ad1373c314723501e53f5eb"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-RESEARCH-recuperare-istoric.md",
+      "sha256": "cf3a806193b392eff7ec7ef77df39aad896284ec149f9f7615a1a2c336a4d3a8"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-RESEARCH-remediere-staging-r02.md",
+      "sha256": "efe20825e96352cd2573766aa4db11cee7da6bed937384517380e073d537160c"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-SYSTEMS-initial-r01.md",
+      "sha256": "0a69e7a0b085b2086ec7ab985253a97e23958e58091d5d00080de4b97c2db637"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-SYSTEMS-plan-r01.md",
+      "sha256": "4b14d4533e6fd5df1b31ab5e4295ed8db60e6ef492ab57d162ebfd5dfc182df9"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-SYSTEMS-probe-auditor-r02.md",
+      "sha256": "278a278264e252a61aaeb8d789e617544030b7ee94c287a7e3bf79320b577040"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-SYSTEMS-recuperare-istoric.md",
+      "sha256": "e10fdab19c28db9b5e17db1cbe49568348ecc980d6b8772455a81a0667d92d15"
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/P-SYSTEMS-remediere-staging-r02.md",
+      "sha256": "81996482d940056d391262dfe9105cac263c8f2d80831cf4f1c9a34183ae1689"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/INTEGRARE_HASH_TEHNIC_r02.json",
+      "sha256": "57ecffdff62d3f6583f06e10b354f2588b96fb2552aa4bccaf069ae5ec47bd4a"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/RES-001-r01-after-audit-archive-receipt.json",
+      "sha256": "9d0f9dd119aa596e809fd7401a1a64a17d2ee6a031234789f5ca266a55c40f90"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/SEL-001-r01-after-audit-archive-receipt.json",
+      "sha256": "e4d1d688f9797fa6e68b7140d5a32dfbe80987d37c30514faf412d1edfc3b520"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/SYS-001-r01-after-audit-archive-receipt.json",
+      "sha256": "6866316afe2c873cea95fd0dedf0a9b57df7b45c0bcb5ec97a1e3eb51da3f01c"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/TESTE_EXPORT_OBSERVABIL_r02.txt",
+      "sha256": "1fdd1a003154816adaf86fd62e483c7959626a6e303ba97d5841d76309f67329"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/TESTE_EXPORT_OBSERVABIL_r02b.txt",
+      "sha256": "10d7c8b283555dbe7fc3a89c75f017ac035bb7bd915d7107e54a73daaf23fda1"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/VIZUAL_R02/README.md",
+      "sha256": "d548931152d2aeb161ecbac2ec88f7eeae7faab4f961231b51d041090f83bc58"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/VIZUAL_R02/control.json",
+      "sha256": "4b113af1367e26c4e49ff0f9b954019656001fe73fdae5e897647ba391a29555"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/VIZUAL_R02/pagina-1.png",
+      "sha256": "32d0f8911d6e84c6b7174db0e442572ce6d14a44b9d03c901732ad3c3ac6e0eb"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/VIZUAL_R02/pagina-6.png",
+      "sha256": "4a224e6b271b0f4f3252038e361022a527fc02a6d599a0d7e69b737b9f7c6cb4"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/VIZUAL_R02/pagina-7.png",
+      "sha256": "9d06593fd270ccdf4a7c1ed3d7c76a88badf024ab6916c23a6d7bdba476e875f"
+    },
+    {
+      "path": "06_REGISTRU/TESTE_CONFIGURARE_r01.txt",
+      "sha256": "b797cda8b735862fcec7a70a4fc48934b3e156be51fc0d677730c0ded1edb1ed"
+    },
+    {
+      "path": "06_REGISTRU/TESTE_CONFIGURARE_r02.txt",
+      "sha256": "9588698ea1091abde56ae0c5388fea5d49d81b315031ebcfecb9e22e3b61c330"
+    }
+  ],
+  "files": [
+    {
+      "path": "00_CONDUCERE/DECIZIE_EDITORIALA_001_SURSE.md",
+      "sha256": "af8fa2d80f09318653a6f7450ed48851ceaedb51da6e7560bd2e96488bd2d523"
+    },
+    {
+      "path": "00_CONDUCERE/MANUAL_ATELIER.md",
+      "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2"
+    },
+    {
+      "path": "00_CONDUCERE/PROTOCOL_ARHIVARE.md",
+      "sha256": "3fcbc80e57a807e80794bfaecdfb90471677f548827bb32d1be66f1f04fae0b4"
+    },
+    {
+      "path": "00_CONDUCERE/ROADMAP.md",
+      "sha256": "fb92994d11fdbfe878d9021c59e44120f23475029a2f600b2bc662b3f420d958"
+    },
+    {
+      "path": "00_CONDUCERE/RUBRICI.md",
+      "sha256": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd"
+    },
+    {
+      "path": "00_CONDUCERE/TRASABILITATE.md",
+      "sha256": "cbe044550533fa0277ecc2bdc2fb3b0912542a639322b9e04aaf6dff0adb08bf"
+    },
+    {
+      "path": "00_CONDUCERE/policy.json",
+      "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4"
+    },
+    {
+      "path": "01_ECHIPA/00_ECHIPA_SI_RESPONSABILITATI.md",
+      "sha256": "605264a3e42a1f012fba877fa38739232fb69b04f5417de443415dadf5fea7e5"
+    },
+    {
+      "path": "01_ECHIPA/A-CANON.md",
+      "sha256": "03f188f4e824af6ab6433f7b4ee94ca7f6703af7c5c2171f97deded3d7038aea"
+    },
+    {
+      "path": "01_ECHIPA/A-CHARACTER.md",
+      "sha256": "7cc64af6bf82afaa72f353c91bfc15566267e4ac66b2046058f86031cb458c22"
+    },
+    {
+      "path": "01_ECHIPA/A-DE.md",
+      "sha256": "2197fb2d212bac118b986ef1a589ab560215a910776089ebe7b3a8944e434851"
+    },
+    {
+      "path": "01_ECHIPA/A-EN.md",
+      "sha256": "581b71ebc2aa2cccfd90957c671451258b7b647720963423010e2d12c00a7bce"
+    },
+    {
+      "path": "01_ECHIPA/A-FACT.md",
+      "sha256": "8f8312fae8ee0a1f4510a6f8ea1afc971f554892b9938f54a9463f1570ba9fae"
+    },
+    {
+      "path": "01_ECHIPA/A-GENRE.md",
+      "sha256": "72d0c6152ab6d8a7a90423708afda135da0258e47adabf097f79e83fe2b0d46b"
+    },
+    {
+      "path": "01_ECHIPA/A-GOVERNANCE.md",
+      "sha256": "b4a3e75e94b1bcdb1de1b4a18f69239a45d6a2432a80eba02b8a72fbb01393ec"
+    },
+    {
+      "path": "01_ECHIPA/A-ORIGINALITY.md",
+      "sha256": "a25f432bf8afc1c6e88e2f0d2c82717c0a6879482be423310105fff2bb51ed6a"
+    },
+    {
+      "path": "01_ECHIPA/A-PRODUCTION.md",
+      "sha256": "6dd41897bed1396b325113dea2dbc03b2750660da6e22abd645d36106f7e1151"
+    },
+    {
+      "path": "01_ECHIPA/A-QAMANAGER.md",
+      "sha256": "503dae663f9c9c5bd84863fb05bd93941654ee14e4e13f1ed83077f127105a87"
+    },
+    {
+      "path": "01_ECHIPA/A-RO.md",
+      "sha256": "66ca4c30e05256695343e91fed515eb345e199a06e1ac5140ae9eb8b64ce6d87"
+    },
+    {
+      "path": "01_ECHIPA/A-SOURCES.md",
+      "sha256": "305958c2bd09af1704c25ea01943580e5b18baa651537f65b5caa93cf5a6afec"
+    },
+    {
+      "path": "01_ECHIPA/A-STRUCTURE.md",
+      "sha256": "2624182c60fdb71beec860552b10090bbc867910fc025248e9e5f22afef268b9"
+    },
+    {
+      "path": "01_ECHIPA/A-SYSTEMS.md",
+      "sha256": "19ba9228a9a84cc55979a9f6714b5bd22a1b5ddc6667fafe02fd67c9ac2bfba1"
+    },
+    {
+      "path": "01_ECHIPA/A-TRANSLATION.md",
+      "sha256": "0a576290e92eddf62ebff8378a3744da07bd4091c022102d93a5120ce7dc1946"
+    },
+    {
+      "path": "01_ECHIPA/P-ARCHITECT.md",
+      "sha256": "7bf0c1577677f5f28034813e6db08dfa79f8007552bdd8b1604866857e938fff"
+    },
+    {
+      "path": "01_ECHIPA/P-CANON.md",
+      "sha256": "ce0932a58bb37190da2e92f579ec6a15ec50453c9e8d63e9622dc9110e8bec6e"
+    },
+    {
+      "path": "01_ECHIPA/P-CHARACTER.md",
+      "sha256": "f097652b8cd79d1a3df8a0f7ab8931d0e1303851e32d329ca7c5526955ce6ae6"
+    },
+    {
+      "path": "01_ECHIPA/P-DRAFTER.md",
+      "sha256": "965a96fc931ee11027a37a2a4ed4b52772c8c0870ed5abc1df430e947405c300"
+    },
+    {
+      "path": "01_ECHIPA/P-EDITOR.md",
+      "sha256": "9e6e3687a795fbd96e9b1aad76bd7c6462b247cdfcdc53792557948aa041e4ed"
+    },
+    {
+      "path": "01_ECHIPA/P-FACT.md",
+      "sha256": "28eea923035249a025ca68db521e0d9d64bfebca04313c3a07f1fbe1a1ef54ed"
+    },
+    {
+      "path": "01_ECHIPA/P-MANAGER.md",
+      "sha256": "1a5a8be12806952a774ff48d09d76330c3ed783598f1117aa78b09e686498c6d"
+    },
+    {
+      "path": "01_ECHIPA/P-PRODUCTION.md",
+      "sha256": "8f3532a5a997be4234a54cf60915fefb57eb53ce62b69aa8352ea92c1dcf9cb1"
+    },
+    {
+      "path": "01_ECHIPA/P-PROOF-DE.md",
+      "sha256": "fe74572cb600ffd0cf695121d185bc3aee0f83c511ec197ceb1eb58d3563c8c2"
+    },
+    {
+      "path": "01_ECHIPA/P-PROOF-RO.md",
+      "sha256": "0b26e2506c4df4ae061ec1c66405125477e950683a2e5a4df3fcc96e32872875"
+    },
+    {
+      "path": "01_ECHIPA/P-PROOF.md",
+      "sha256": "8093a47b47cc5253fb1188684ba833621b2bb1e2aba3dacaa4572c8509031a81"
+    },
+    {
+      "path": "01_ECHIPA/P-RELEASE.md",
+      "sha256": "7437fb8a28db1074e63058584c6425520712cb1a6471727fcb7f4bebc31fd95a"
+    },
+    {
+      "path": "01_ECHIPA/P-RESEARCH.md",
+      "sha256": "7e0b6f5772fcbe0c7cea3c13e166acb7873df71bb0228c149283a20b36128246"
+    },
+    {
+      "path": "01_ECHIPA/P-STRUCTURAL.md",
+      "sha256": "55f04e751f6725011e8553a2998599f12925900591877be41ecb855debc13b50"
+    },
+    {
+      "path": "01_ECHIPA/P-STYLE.md",
+      "sha256": "fd2556a74d184d9d3c683ce8b40caf06b118b825633637c3ebbe3ca6f7ec81de"
+    },
+    {
+      "path": "01_ECHIPA/P-SYSTEMS.md",
+      "sha256": "5e81b4a35e76c7c5ed77a2634c929fd52f2772e7306c531a20e7c8ab2e0b988c"
+    },
+    {
+      "path": "01_ECHIPA/P-TRANSLATOR-DE.md",
+      "sha256": "65841881e65b89c5388a7fdbbdf7113a6dce95f67d32dc27889c128daa211b22"
+    },
+    {
+      "path": "01_ECHIPA/P-TRANSLATOR-RO.md",
+      "sha256": "f6aaf9094a9cd8a954ef15faf216d66c3328fa1f099c00cc83607f686bbe9c4e"
+    },
+    {
+      "path": "03_MODELE/01_FISA_LIVRABIL.md",
+      "sha256": "a92c438496c42f26d200b81655d50ad937d2cc4ce8592f70f4cc4c651aaaa21b"
+    },
+    {
+      "path": "03_MODELE/02_RAPORT_AUDIT.md",
+      "sha256": "b98d990463f5ad4832845304ebb871af2db4665ffd9062a46f8ca85a303e875f"
+    },
+    {
+      "path": "03_MODELE/03_PLAN_MASURI.csv",
+      "sha256": "ed6cfc0087a7537c2449569118b69c742227c15636e234f6e685af182fe7ca54"
+    },
+    {
+      "path": "03_MODELE/04_RETEST_SI_INCHIDERE.md",
+      "sha256": "967d923291a7eef4451caf4e93b6303097d281d51f7f9174eaac04cd62bd4880"
+    },
+    {
+      "path": "03_MODELE/05_PROMPT_PRODUCATOR.md",
+      "sha256": "844b740d05b5b5690f90e8c9dde31831faff593dcd9fc12771bac1fdee6db2c7"
+    },
+    {
+      "path": "03_MODELE/06_PROMPT_AUDITOR.md",
+      "sha256": "89f120dd9beec429946f78fa8b9211aa7647d27e4037878ed58f9c9a4b278576"
+    },
+    {
+      "path": "03_MODELE/07_META_AUDIT.md",
+      "sha256": "97ccceddcc286ed4a54942757b582f427d2a59bfc86aaac5c44b808c0100490a"
+    },
+    {
+      "path": "03_MODELE/08_BRIEF_SI_SCENA.md",
+      "sha256": "0d91a5e967da8e26c90a5369504a1f48633bb3ee1fe2ea0ddcaadb14f75a020c"
+    },
+    {
+      "path": "03_MODELE/09_RAPORT_PROGRES.md",
+      "sha256": "4a6711a162e57e79517ae7bd88f6502a03337c4d03f9a0cf73a42c3e446aa6a2"
+    },
+    {
+      "path": "03_MODELE/10_APROBARE_ELIBERARE.md",
+      "sha256": "97f218dec985a82a30735385639a9c9c6147d716f214134a00a6804591abeb5d"
+    },
+    {
+      "path": "04_INSTRUMENTE/README.md",
+      "sha256": "42da860214ca0a7abfc41cf9790a9265e6dfaa814104d4b57241c0a9bf533500"
+    },
+    {
+      "path": "04_INSTRUMENTE/archive_round.py",
+      "sha256": "560e74c6ad7b9c6825da2f5a9f238a2ab4dcc1d5de9125a4ecf0451d0e6c6a56"
+    },
+    {
+      "path": "04_INSTRUMENTE/export_documente.py",
+      "sha256": "53e231f65ec3d6b1f76d5d7cb168b61c96752e880214d69514f8782d5fa86210"
+    },
+    {
+      "path": "04_INSTRUMENTE/gatekeeper.py",
+      "sha256": "ad90fd517856e7d7b55d965598b4f776ea5d1098baa6f5a71518b51b0c63363b"
+    },
+    {
+      "path": "04_INSTRUMENTE/test_archive_round.py",
+      "sha256": "386a9f9d9aba6c440a90967f71ec2491d66165958a8461a7d0b96c1c207dca10"
+    },
+    {
+      "path": "04_INSTRUMENTE/test_gatekeeper.py",
+      "sha256": "393c6188eb87c4c087f908d3fa01ca6cf2fb4b483dc621f14ada868666c7cc26"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md",
+      "sha256": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba"
+    },
+    {
+      "path": "06_REGISTRU/README_EXPORT.md",
+      "sha256": "8cc6b67b13548c2d4586dd2e27afeb81b2b6eea9074afdce48d3bea59bc3b742"
+    },
+    {
+      "path": "06_REGISTRU/export_istoric_observabil.py",
+      "sha256": "80357767d2c52231050b1c7e23a59ef496c3dd141a377cbb93716f6a696b5302"
+    },
+    {
+      "path": "06_REGISTRU/inspect_export_pdf_r02.py",
+      "sha256": "6b69615ae05d2af98431e7279702f94b7811b85709ae734712e2c687ff286487"
+    },
+    {
+      "path": "06_REGISTRU/roadmap.json",
+      "sha256": "1f3162459556d67f2b474ba19e5239e06c6305d3fe1cb3e8037c8f901ec69e8f"
+    },
+    {
+      "path": "06_REGISTRU/roles.json",
+      "sha256": "ef31d39f3e02984c83d4e9380d5ecfa70ff9435e9334e9084b7dc3701761db6f"
+    },
+    {
+      "path": "06_REGISTRU/rubrics.json",
+      "sha256": "90140106093ee9a5f23e824853a8565db8bec45c7c0028436af088bc1329446f"
+    },
+    {
+      "path": "06_REGISTRU/surse_export_istoric.json",
+      "sha256": "0617d64fb643d23c099c52f2975c0edf7c1ed13a80625fcbf230ddb8285c8f4d"
+    },
+    {
+      "path": "06_REGISTRU/test_export_istoric.py",
+      "sha256": "5355ace8e46feccfeff7a7a60ff556d33473fbc3f50e70d526e02599532bdbe2"
+    },
+    {
+      "path": "Manual_operational_atelier_Dracula_Book.docx",
+      "sha256": "b08dc0a9df5eab487d2e9cf4bdbe47af48dc747382fbba0b5b80a8d827df74f9"
+    },
+    {
+      "path": "Manual_operational_atelier_Dracula_Book.pdf",
+      "sha256": "f3722acd1ec6b3f713b329a6a70cb21a2dc3e735176f5419baee76990de23bed"
+    }
+  ],
+  "policy": {
+    "path": "00_CONDUCERE/policy.json",
+    "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4"
+  },
+  "producer_agent_ids": [
+    "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+    "01a0d0d9-1f95-7211-8093-c26e28e6ebee"
+  ],
+  "required_audit_roles": [
+    "A-GOVERNANCE",
+    "A-SYSTEMS"
+  ],
+  "requirements": {},
+  "schema_version": 2,
+  "stage": "G00",
+  "version_id": "r02"
+}

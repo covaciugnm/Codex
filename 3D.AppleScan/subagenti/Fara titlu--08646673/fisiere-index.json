@@ -1,0 +1,90 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-166afb92-4ea5-4d69-ab75-9d5dc1a8ce45.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-166afb92-4ea5-4d69-ab75-9d5dc1a8ce45--5a642ba6.png",
+    "bytes": 2101010,
+    "sha256": "4bca6e4cf1d0b73d53450a2284aa8dd51d73b8135abc87147eb4d217748f63e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-57ea327d-db3f-49c2-ad9f-bf907cdef1e0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-57ea327d-db3f-49c2-ad9f-bf907cdef1e0--b2f3b900.png",
+    "bytes": 2375408,
+    "sha256": "72508e4b3f5c01a40a759c60f0558e968ce96810be0ff503d3a148bfd9081945"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-7e4fb35c-f45b-4cce-b52d-90b420f529d3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-7e4fb35c-f45b-4cce-b52d-90b420f529d3--b56cac51.png",
+    "bytes": 2254412,
+    "sha256": "bbabca62c97eb10322b1fcf6c9df989db146059549c98be2e446cfcfca48a954"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-88252179-bc90-4270-8162-d16ac4984e47.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-88252179-bc90-4270-8162-d16ac4984e47--d9d8c48f.png",
+    "bytes": 2153179,
+    "sha256": "b6b75559e32be88e63ca7d5d1abdd364b842f743b64b955ac26e6a4344d1ff14"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-9e57aabf-6c9c-46db-9a0c-cd4b966ba657.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-9e57aabf-6c9c-46db-9a0c-cd4b966ba657--3dee14bc.png",
+    "bytes": 2338230,
+    "sha256": "d5d1b783779ca770dd4b3669546c0a675edd0091350bcee12cc009aa00aaaa23"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-b1ca4234-34c3-4a9e-bba2-7d9216e0dd1b.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-b1ca4234-34c3-4a9e-bba2-7d9216e0dd1b--2231b0d6.png",
+    "bytes": 2329679,
+    "sha256": "f4a25c252c90db3773dffcc434d134645f408956169b9c178846619374c5651f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-d4cabdb8-7c96-48d9-a473-4077af6efc34.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-d4cabdb8-7c96-48d9-a473-4077af6efc34--a5881516.png",
+    "bytes": 2181081,
+    "sha256": "6e3245bda82faef50a322252aff0ef14a069aaf40378fc8ed1338d7e934e20f3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-fc38723d-754a-4a4c-9339-fbd2bf2b31d8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-fc38723d-754a-4a4c-9339-fbd2bf2b31d8--25202e56.png",
+    "bytes": 2229381,
+    "sha256": "ce06fc0f733efbc773fc62f2557433f671410c1791bba7c225041ac4938f3c92"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-fd3ab5bd-d84e-4d44-aa47-5ef8a37fdf55.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-fd3ab5bd-d84e-4d44-aa47-5ef8a37fdf55--e2747524.png",
+    "bytes": 2131575,
+    "sha256": "1823aae4f996b172015f8faf3e019525912274e02a59be3cb087ea35a411d57b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\campaign-assets.json",
+    "status": "copiat",
+    "saved_path": "fisiere/campaign-assets--716fb425.json",
+    "bytes": 9998,
+    "sha256": "3303e7a720dd791ff65faa0de95a657cd41b3bd5464c4562dd99cb736918574a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\usecase-assets.json",
+    "status": "copiat",
+    "saved_path": "fisiere/usecase-assets--1569f98d.json",
+    "bytes": 11406,
+    "sha256": "4b2c910c0329c3a4ba076a2ea82e9039c3940998bb27412e7f63ba538253f945"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\03-objects.png",
+    "status": "copiat",
+    "saved_path": "fisiere/03-objects--53181bc9.png",
+    "bytes": 2181081,
+    "sha256": "6e3245bda82faef50a322252aff0ef14a069aaf40378fc8ed1338d7e934e20f3"
+  }
+]

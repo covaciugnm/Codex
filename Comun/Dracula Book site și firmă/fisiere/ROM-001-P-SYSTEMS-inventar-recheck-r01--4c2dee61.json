@@ -1,0 +1,8 @@
+{
+  "type": "INVENTORY_HANDOFF_RECHECK",
+  "checked_at": "2026-09-24T10:03:22.6255199+03:00",
+  "count": 143,
+  "all_match": true,
+  "differences": [],
+  "scope": "143 paths from P-SYSTEMS at handoff, not yet final G01 scope"
+}

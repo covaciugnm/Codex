@@ -1,0 +1,23 @@
+{
+  "id": "01a08184-2fbc-7182-8da1-94209096dc68",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788879318,
+  "updated_at": 1788880113,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a08174-9d0a-7942-a083-3539d44ac1af\",\"depth\":1,\"agent_path\":\"/root/legal_vienna\",\"agent_nickname\":\"Bohr\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a08174-9d0a-7942-a083-3539d44ac1af",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 970898,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 31,
+  "message_count": 1,
+  "content_sha256": "138ac0571d25a16e44404ca54ba4543027cac3c76c30f2921f3bf17f2ec31010",
+  "files_copied": 0,
+  "references_not_copied": 14
+}

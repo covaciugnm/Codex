@@ -1,0 +1,45 @@
+47ba6a0bbdba95f7bc3748ef069694208c639b0e2900eeb6bb3240f1b3f64f62  arhiva-001.zip
+5f3d9842e12fd6a6b45f3914a9c9be18d307fb2ad003e6d33e46c4ccf8b7cd1d  Creează site-ul EVA PRINT/conversatie.md
+8dc1953729d72ea5ed0c0efe02468fa2e6622107edab729f7bbedf65ff709d7f  Creează site-ul EVA PRINT/fisiere/002_dynamic_fields--38c02ddf.sql
+1f3d4e71b3622c2159cfe652fa5b409dbba6ab0068b4a40d62f9d18050b8e20b  Creează site-ul EVA PRINT/fisiere/abs-fiberlogy--60e876a0.png
+00c4c18d9562d279f1724b4439e5333af583ab18a21a8d4bdea56e74452aae5e  Creează site-ul EVA PRINT/fisiere/add-composites--a26553c7.mjs
+fa5014e42fa6742a539eb950e842330140682db303ad8274cebc056104f91003  Creează site-ul EVA PRINT/fisiere/assemble-package--7a4c8f0d.mjs
+8abc34f28ee172c3c8ab09c2fbc7c2fd220de2841d54b6429bc4dd2a77fa5aff  Creează site-ul EVA PRINT/fisiere/build-catalog--93561bb7.mjs
+f464d7a77f75e2b0b835e13c5aef33750f48166760af37d4bb712804ef39a9b2  Creează site-ul EVA PRINT/fisiere/build-industries--ebcde6c8.mjs
+2748ba189eed57d14d72dadb7d03b0bf00014ff30518ba21d6380e77d961481a  Creează site-ul EVA PRINT/fisiere/catalog-preview--e5ea0288.png
+fffd2cb6a66ef796d080a304174ec3c179958f6a56d9477b594ebdb334388c1e  Creează site-ul EVA PRINT/fisiere/check-pdfs-and-clean--75aec7b7.py
+0ad2799491f811690ac32ee1ba79eb393c5452510578b7332306e6ac8c433514  Creează site-ul EVA PRINT/fisiere/CITESTE_MA_RO--81542cbd.txt
+7c3edfdc0d50404d1a4efedd0b2597ce7d3fb90d7824dace75de53b6aff94464  Creează site-ul EVA PRINT/fisiere/complete-research--3bfe74b9.mjs
+96e8767e73b39f8ca46093a70ddd324c37ff4b8338fab076c5ab9f862ae9a843  Creează site-ul EVA PRINT/fisiere/copy-to-workspace--a6b532f7.ps1
+8da5ad9bddcb0963a368a003c6d36dab8cc805723ab6618d76e64068b23134fe  Creează site-ul EVA PRINT/fisiere/drawing-pdf-preview--8468d406.png
+b5e6fdfb1a59294327e3bc1073f0672e88193f50183408d666c45112cb823001  Creează site-ul EVA PRINT/fisiere/DYNAMIC_ARCHITECTURE_EN--20ba3546.txt
+b5e6fdfb1a59294327e3bc1073f0672e88193f50183408d666c45112cb823001  Creează site-ul EVA PRINT/fisiere/DYNAMIC_ARCHITECTURE_EN--56c32ea8.txt
+c5a34d2d098a99cd0811b2a0fc7253edbf22fffa51ad0d7eefaf0627dddf1f58  Creează site-ul EVA PRINT/fisiere/enrich--661f0f45.mjs
+963f1c8cf19db927eb8aa862833fcbc8548075e8a3f249cc0671714ea37e23d0  Creează site-ul EVA PRINT/fisiere/EVA_PRINT_MASTER_PROMPT_EN--5f25af27.txt
+c5a4aeff1c50043736d8b8cbd09669e906ac226a62066583d375fbb0ab322c2c  Creează site-ul EVA PRINT/fisiere/EVA_PRINT_MASTER_PROMPT_EN--fc3a008f.pdf
+0eaf64f92da472b8e21bb85a559d62cf267b497cd15b46160a5e0b5124df2683  Creează site-ul EVA PRINT/fisiere/finalize-validation--be88d322.py
+89f20656c2bb9b5e5722e3609cdd1ec473715e0cb36bb5ca2826104ceaa16973  Creează site-ul EVA PRINT/fisiere/finish-photos--0264f62a.mjs
+6cb71b0cea790d8fbce27f8b31b5390cf8e902de4bf6b5a524ba700264e2eee6  Creează site-ul EVA PRINT/fisiere/htaccess--560c8a95
+d75e114757ba8ba49e65ade7b2c485da120e6ad46f8e6d50822e98e222fd7531  Creează site-ul EVA PRINT/fisiere/IMPORT_AND_DEPLOY_EN--62d44cd4.txt
+784d5806178c4edc7f7acea840623f683de167a952f5dadfdcb38b4a70e7436a  Creează site-ul EVA PRINT/fisiere/index--8507ca69.html
+37ede93594115c9f8197ebdf4a128f85a0b6ed27253ebd5123e48fd443e0e663  Creează site-ul EVA PRINT/fisiere/overview-pdf-preview--a4900c5e.png
+c323db740ca501e4cf7eb66c251af2f92fdc8b760b8f9a5d01b6743e588ccc5d  Creează site-ul EVA PRINT/fisiere/pdf-tools--997394ca.py
+fd628f3cd52e2413b55e96df91f93b61cb87a5d3079b8ea6b76230978425e22f  Creează site-ul EVA PRINT/fisiere/reference-1--432dcc11.webp
+53e40326882674d9f26bdb86638feb3cbdad9652e66006086b7f72acead62a9c  Creează site-ul EVA PRINT/fisiere/render-deliverables--abbf9985.py
+7b7784d0b4bb06df3bbcc1224fec39ff45bf3f72225831d0318b511a9b12ef56  Creează site-ul EVA PRINT/fisiere/research--be0a59f5.mjs
+aab30709947aedc42ea4f069cfa58b470e7e4ea9546e2fb21449b91a2333dd8e  Creează site-ul EVA PRINT/fisiere/research-final--307de97b.mjs
+ec697464c4d082c809de9c8be1b4aa45edc38b6e2ba49e4ec39320de110b0c73  Creează site-ul EVA PRINT/fisiere/research-more--94f40e8f.mjs
+615c3fda8b74fb33cd789462f36022aaeb66a5ac8ceb475fe3f0eeab2ede2dc1  Creează site-ul EVA PRINT/fisiere/schema--f08b3b12.sql
+fe58cf7069512fbfa04a31820c0dbd7b7c35b56093f7d6596a9155bb13ebf2ed  Creează site-ul EVA PRINT/fisiere/START_HERE_EN--6e42f022.txt
+c166e47b9caeb0c3c91571576884940e81a9b0cdaed11e4b8ac6aa47a69684bf  Creează site-ul EVA PRINT/fisiere/supplement--1b641590.mjs
+28c82b81273f97201c7d461ee8ee352aedb3416a54bea2efe39e1a519ae8d768  Creează site-ul EVA PRINT/fisiere/test-schema--78626085.mjs
+4a77ce797c5f68c3774f31ae55871c607e0bad8017e53c76a0619681c1660db2  Creează site-ul EVA PRINT/fisiere/validate-assets--b483e861.mjs
+4bf879697fca4d678ec6b997283cb883f12ccc3fa325d1b69f99a97bbfbd4e84  Creează site-ul EVA PRINT/fisiere/validate-database--fb111dbe.mjs
+4a2a49bb6cd3b7fa7a850b7730b7ba059d9df0f7c9052e40534ec3ab551886e0  Creează site-ul EVA PRINT/fisiere/web--27d25432.config
+3b9c1a20393430764e806f5da7e988e8b11774a95cb7bfcaf5f015c0784c5023  Creează site-ul EVA PRINT/fisiere-index.json
+1f06118fb9609f6b334d57cd3bfb704fd1b0bdc047d6dc867509697feaeaf8c2  Creează site-ul EVA PRINT/istoric.json
+25cc7fb782ba753a39f3d27636f144ce625f7974623258bbaedd223d9a72a552  Creează site-ul EVA PRINT/metadate.json
+dfd6c8df66da6148d30e838d268481b77ee5da819ae4cc57ee9dc86b99680b71  Creează site-ul EVA PRINT/rezultate.md
+93c221921edebe1a576e99d100671d7a3ccab50c48a7ec15f62918eb21020269  index.json
+43b9c77d95ddc21984700f604044b132dc66b1ba0e2c7104e2f3e99fb8a984d3  mascari-publicare.json
+baafc495759dbfe6effb0c252d5bff2870605e6c8fdf1908e746215b62f931e7  README.md

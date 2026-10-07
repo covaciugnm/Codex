@@ -1,0 +1,10 @@
+{
+  "agent_id": "01a0d1df-4217-7a01-92af-667005fddae6",
+  "role": "A-FACT",
+  "message": "Am salvat exclusiv [A-FACT-b-r01.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/CALIBRARE/ROM-001/A-FACT-b-r01.json>): exact 11 răspunsuri, cu justificări și localizări verificate, folosind ID-ul propriu.\n\nCalificarea rămâne în așteptarea verificării nominale QA; `qualified=true` nu o confirmă independent. Etapele romanului rămân condiționate de porți.",
+  "close_result": {
+    "previous_status": {
+      "completed": "Am salvat exclusiv [A-FACT-b-r01.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/CALIBRARE/ROM-001/A-FACT-b-r01.json>): exact 11 răspunsuri, cu justificări și localizări verificate, folosind ID-ul propriu.\n\nCalificarea rămâne în așteptarea verificării nominale QA; `qualified=true` nu o confirmă independent. Etapele romanului rămân condiționate de porți."
+    }
+  }
+}

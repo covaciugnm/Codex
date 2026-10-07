@@ -1,0 +1,16 @@
+{
+  "type": "MANAGER_INTEGRATION_OBSERVATION",
+  "id": "OBS-MANAGER-002",
+  "status": "open",
+  "round": "r02",
+  "actual_archive_result": {
+    "archived": false,
+    "deliverable_id": "SYS-001",
+    "round_id": "r02-after-audit",
+    "errors": [
+      "PATH: a snapshot cannot ingest the archive tree: 08_ARHIVA/SYS-001/r01-after-audit/index.json"
+    ]
+  },
+  "cause": "Metaraportul declară indexuri sub 08_ARHIVA ca suplimente, incompatibile cu interdicția documentată a arhivatorului de a ingera arhive vechi.",
+  "measure": "Păstrează metaraporturile finale originale; înlocuiește referințele în revizii meta noi r02-v02 cu copii plate, byte-identice, în INTRARI_META_R02. Nu modifica verdictul semantic, notele, sursele sau rapoartele primare. Revalidare și arhivare nouă; conservă și tentativa respinsă."
+}

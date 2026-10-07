@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-09-24 08:34:49 UTC",
+  "agent_id": "01a0d0d9-1f95-7211-8093-c26e28e6ebee",
+  "submission_id": {
+    "submission_id": "01a0d282-0500-7f20-abee-531df54ed006"
+  },
+  "result": {
+    "status": {
+      "01a0d0d9-1f95-7211-8093-c26e28e6ebee": {
+        "completed": "Recuperarea AFTER este încheiată: 751/751 intrări verificate, 746 fișiere recuperate. Validatorul restaurat: **RETURN, exit 2**, identic semantic rezultatului înghețat. Snapshotul și copia sunt neschimbate, fără cache nou.\n\nPredare:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r01.md>) — SHA256 `ebe3483d0b94efb8e3c63a15539ef246ec0a62d1e79601c170de8b3483648acf`\n- [Raport JSON integral](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r01.json>) — SHA256 `d0104554fe9fd8280409d9c41822bcc26690962837f3d1f8c6cf5a1493ed65a8`\n- [Copia recuperată, păstrată](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/09_RECUPERARI/ROM-001-G01-r01-after-20260924T082739Z-f607d274>).\n\nRefuzul reproduce negativele CANON/META documentate, nu absența metaauditului. Nicio eroare de integritate rămasă; nicio acceptare G01 sau închidere de finding.\n\n**Scrierile sunt oprite.**"
+      }
+    },
+    "timed_out": false
+  },
+  "close": {
+    "previous_status": {
+      "completed": "Recuperarea AFTER este încheiată: 751/751 intrări verificate, 746 fișiere recuperate. Validatorul restaurat: **RETURN, exit 2**, identic semantic rezultatului înghețat. Snapshotul și copia sunt neschimbate, fără cache nou.\n\nPredare:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r01.md>) — SHA256 `ebe3483d0b94efb8e3c63a15539ef246ec0a62d1e79601c170de8b3483648acf`\n- [Raport JSON integral](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r01.json>) — SHA256 `d0104554fe9fd8280409d9c41822bcc26690962837f3d1f8c6cf5a1493ed65a8`\n- [Copia recuperată, păstrată](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/09_RECUPERARI/ROM-001-G01-r01-after-20260924T082739Z-f607d274>).\n\nRefuzul reproduce negativele CANON/META documentate, nu absența metaauditului. Nicio eroare de integritate rămasă; nicio acceptare G01 sau închidere de finding.\n\n**Scrierile sunt oprite.**"
+    }
+  }
+}

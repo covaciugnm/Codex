@@ -1,0 +1,5 @@
+{
+  "previous_status": {
+    "completed": "RES-001 r03: **PASS individual A-SOURCES, exclusiv G00**.\n\nScoruri /1000: surse **968**, succes **970**, originalitate **966**, relevanță **974**, utilizare **970**.\n\nF-RES-SOURCES-001 este închis în r03 după T01–T04; GOV-RES-01 este reconfirmat separat. MD/JSON, cele 41 de referințe și hashurile finale au fost verificate. Rămân necesare celălalt audit și metaauditul; canonul G01 nu este certificat.\n\nFișiere finale:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-SOURCES-r03.md>)\n- [Audit JSON](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-SOURCES-r03.json>)\n- [Jurnal de verificări](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-SOURCES-r03-tests.txt>)"
+  }
+}

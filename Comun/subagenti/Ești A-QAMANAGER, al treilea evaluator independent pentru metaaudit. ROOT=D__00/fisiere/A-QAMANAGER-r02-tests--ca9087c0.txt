@@ -1,0 +1,137 @@
+A-QAMANAGER — jurnal propriu de verificare r02
+
+Rezultatele de mai jos sunt observații executate, nu aprobări editoriale. Controalele sintetice sunt marcate TEST și sunt separate de analiza rapoartelor reale. Declarațiile privind testele primare rămân atribuite auditorilor lor.
+
+{
+  "kind": "VERIFICARI PROPRII DE METAAUDIT r02; nu calibrare si nu audit de roman",
+  "reviewer_agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "deliverable_id": "RES-001",
+  "structural_read_at": "2026-09-24T05:52:45+03:00",
+  "contract": {
+    "id": "RES-001",
+    "files": 2,
+    "evidence_files": 31,
+    "contract": {
+      "path": "06_REGISTRU/CONTRACTE/RES-001-r02.json",
+      "sha256": "3b5ae9ea6120c2c8e6ee8fff5e7ceac32f992a1b4fbd8c1cd89273ec0328c0df"
+    },
+    "dependencies": [
+      {
+        "contract": {
+          "path": "06_REGISTRU/CONTRACTE/SYS-001-r02.json",
+          "sha256": "904ec22c95a60d7295bd85642c33c49d1e1d340abf95e25538481fe82c83d637"
+        },
+        "deliverable_id": "SYS-001",
+        "version_id": "r02"
+      }
+    ],
+    "producers": [
+      "01a0d0d8-0415-77a3-88c6-755ad2530f62",
+      "01a07b90-9d07-7e72-8eb7-8439e985b9ba"
+    ],
+    "registered_audits": [
+      "05_AUDIT/RES-001/A-GOVERNANCE-r02.json",
+      "05_AUDIT/RES-001/A-SOURCES-r02.json"
+    ]
+  },
+  "reports": [
+    {
+      "path": "05_AUDIT/RES-001/A-GOVERNANCE-r02.json",
+      "sha256": "c6626f878fef2808375c37dc1691880c935c163df9a0dcc2a869fd6c719f0b4d",
+      "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "role": "A-GOVERNANCE",
+      "criteria_evidence_count": 19,
+      "all_schema_hash_localization_checks": true,
+      "average": "3871/4",
+      "average_decimal": 967.75,
+      "verdict": "PASS",
+      "open_findings": [],
+      "supplements": [
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r02.md",
+          "sha256": "d640b3d6de4f956f1617a52b577c0451b64a000a0c1758e211cae16ab81c7ca3"
+        }
+      ]
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-SOURCES-r02.json",
+      "sha256": "cb8247f4984dfae73e3232a48f06dafe6cefc032c1dd5885034589945156f6eb",
+      "reviewer_agent_id": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+      "role": "A-SOURCES",
+      "criteria_evidence_count": 34,
+      "all_schema_hash_localization_checks": true,
+      "average": "1923/2",
+      "average_decimal": 961.5,
+      "verdict": "RETURN",
+      "open_findings": [
+        "F-RES-SOURCES-001"
+      ],
+      "supplements": [
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r02.md",
+          "sha256": "d3f5200d2bd747e47c97facec4d532ef2f24721b8eb0a3148a4f5c6bba493e51"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r02-tests.txt",
+          "sha256": "9b855faaca1b7db9a35d018a9d55e205cf1c7cc6643dfd792d76ffde458adf54"
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "id": "RES-001",
+      "round": "r02-before-audit",
+      "entries": 209,
+      "index_sha256": "588c124e472f5a14c7c1815ceefbcb8b20181b0cc14023225943ccb7f6138e4f",
+      "all_copies_and_inventory_correct": true
+    },
+    {
+      "id": "RES-001",
+      "round": "r01-after-audit",
+      "entries": 186,
+      "index_sha256": "272fddac266fcdb77b90087c11f6e673ba12b9dc8992b34945e1fb340626f351",
+      "all_copies_and_inventory_correct": true
+    }
+  ],
+  "structural_errors": [],
+  "read_only_method": "Parser strict v2 si verificatorul real importat cu -B; comparatie integrala contract/proiectie/roluri/criterii/ponderi/bundle; SHA-256 al tuturor intrarilor si suplimentelor; verificarea existentei fiecarei linii/ancore; comparatie MD-JSON; medii rationale exacte; toate intrarile indexurilor citite cu hash, marime, inventar si sidecar; rapoarte r01 comparate cu copiile after-audit.",
+  "stability": {
+    "first_read": "2026-09-24T05:45:47+03:00",
+    "repeat_read": "2026-09-24T05:52:45+03:00",
+    "global_inputs": 255,
+    "changes": 0
+  },
+  "limitations": "Control structural integral, semantic pe probe decisive, nu duplicarea integrala a specialistului. Registrele live au fost citite operational, nu sunt probe fixate prin hash in meta. Nicio scriere in intrari, arhive, staging sau alte fisiere; nicio poarta agregata rulata ca aprobare.",
+  "decisive_own_reads": {
+    "closure_condition": "A-SOURCES-r01.md:L216-L221; RES-001-plan-r01.md:L117-L121",
+    "governance_admission": "A-GOVERNANCE-r02.md:L18; TEST-A/B:L36-L39; closed:L41",
+    "producer_T02b_not_executed": "RES-001-rezultate-r02.md:L78",
+    "live_form_empty": "BANCA_MECANISME_EXTINSA.md:L165-L184; REPERE_SI_MECANISME.md:L172-L204",
+    "comparison": {
+      "BM_unique": 18,
+      "columns_each": 7,
+      "changed_cells": [
+        {
+          "id": "BM-005",
+          "column": 6
+        },
+        {
+          "id": "BM-010",
+          "column": 6
+        }
+      ],
+      "R1_R6_unchanged": true,
+      "combinations": [
+        "R1+R4",
+        "R2+R3",
+        "R4+R5",
+        "R3+R6"
+      ],
+      "all_different_works": true
+    },
+    "scope": "T02b nu a fost executat de QA si nu este declarat trecut. Faptul ca planul istoric ramane PLANIFICAT nu anuleaza retestele reale r02; absenta T02b este confirmata separat de ambele rapoarte si de lipsa intrarilor declarate.",
+    "web_sample": "Cinci repere: The Maid/PRH, Chinatown/Academy, Hamilton/Tony, Edith Finch/BAFTA PDF, Maus/Pulitzer. Observatii si URL-uri directe in MD propriu #web; fara capturi brute de pagini ori certificare comerciala."
+  }
+}
+

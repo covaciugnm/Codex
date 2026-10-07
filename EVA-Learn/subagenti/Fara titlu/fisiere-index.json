@@ -1,0 +1,45 @@
+[
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA_LEARN_DB_35\\00_Administrare\\limbi.json",
+    "status": "copiat",
+    "saved_path": "fisiere/limbi--10661c43.json",
+    "bytes": 4050,
+    "sha256": "efa77cc5cc3db9d4d44d669046f7b6c29b93ab656122e25e11336e146b3a531c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA_Learn_Import_35\\CITESTE_MA.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/CITESTE_MA--fa891488.txt",
+    "bytes": 5734,
+    "sha256": "e6790aa5881937d142a2f193a40e16a3561aea97295c7ece43bd0ad4c797d75d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA_Learn_Import_35\\PERECHI_DISPONIBILE.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/PERECHI_DISPONIBILE--ce5511e7.csv",
+    "bytes": 39710,
+    "sha256": "d68429a60fdeeff09e63d8e41c2eb4d6deac2b1f348e0205637d962f771b41e3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA_Learn_Import_35\\limbi.json",
+    "status": "copiat",
+    "saved_path": "fisiere/limbi--1492887a.json",
+    "bytes": 4239,
+    "sha256": "0a5d9b37f6c642ea77fd09a5bc79d59227d80b90abc65b22804d215ed67cdf85"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\checkpoint_oprire_RO_FR_ES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/checkpoint_oprire_RO_FR_ES--6d7dc808.json",
+    "bytes": 116753,
+    "sha256": "5140a7bc2bf737e1870352e5eda32ddc710e86213ba5e7d18443d8830da560b1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\de\\texte_fixe_v001.jsonl",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\ro\\texte_fixe_v002.audit",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "01a0f724-37aa-71a1-b1c2-de2ff5823974",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026 EU",
+  "created_at": 1790852741,
+  "updated_at": 1790929653,
+  "archived": 0,
+  "source": "vscode",
+  "title": "pentru toate liniile identificate salveaza - daca nu ai sal…",
+  "project_id": "ec58c433-8025-4835-8910-bab2f99b913f",
+  "project": "FinantariEU",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 329788,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 11,
+  "message_count": 3,
+  "content_sha256": "d68ec4e839b51c1ae37b1f2880e774f2b49ab7eb3d4842130666c41dfbdfa80f",
+  "files_copied": 0,
+  "references_not_copied": 8
+}

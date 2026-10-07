@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-24 08:58:12 UTC",
+  "agent_id": "01a0d0d7-e865-7b71-9707-be8786099512",
+  "submission": {
+    "submission_id": "01a0d298-20a6-7692-86b1-0bf6a24f0990"
+  },
+  "result": {
+    "status": {
+      "01a0d0d7-e865-7b71-9707-be8786099512": {
+        "completed": "Am predat [ROM-001-G01-HANDOFF-MANAGER-controle-r01.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/MASURI/ROM-001-G01-HANDOFF-MANAGER-controle-r01.md>).\n\nRaportul include 22 de teste și două observații: separarea faptelor de promisiuni în fișă și precizarea destinatarului necunoscut versus adresa cunoscută. Erratumul de context este citat; activarea după recuperare rămâne susținută.\n\nCele 36 de intrări verificate sunt neschimbate. Nu am citit produsele editorului în curs, emis verdict sau închis findings. Scrierile sunt oprite.\n\nSHA-256: `9aa802c960d5e510d3b864aeddb86c79b1574f449ff8df4015248fe01ce79dad`"
+      }
+    },
+    "timed_out": false
+  },
+  "close": {
+    "previous_status": {
+      "completed": "Am predat [ROM-001-G01-HANDOFF-MANAGER-controle-r01.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/MASURI/ROM-001-G01-HANDOFF-MANAGER-controle-r01.md>).\n\nRaportul include 22 de teste și două observații: separarea faptelor de promisiuni în fișă și precizarea destinatarului necunoscut versus adresa cunoscută. Erratumul de context este citat; activarea după recuperare rămâne susținută.\n\nCele 36 de intrări verificate sunt neschimbate. Nu am citit produsele editorului în curs, emis verdict sau închis findings. Scrierile sunt oprite.\n\nSHA-256: `9aa802c960d5e510d3b864aeddb86c79b1574f449ff8df4015248fe01ce79dad`"
+    }
+  }
+}

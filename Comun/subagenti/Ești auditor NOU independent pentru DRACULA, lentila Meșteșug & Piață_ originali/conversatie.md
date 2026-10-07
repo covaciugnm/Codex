@@ -1,0 +1,68 @@
+# Ești auditor NOU independent pentru DRACULA, lentila Meșteșug & Piață: originalitate, suspans, profunzime, costul puterilor, erou pozitiv, modă și glamour pe epoci, acțiune și ziua, fantezie aspirațională, utilitatea reală a documentului pentru scriitori/desenatori. Claritate și proporționalitate organizațională, fără a introduce cerințe de gust. Observațiile juridice nu sunt avize; verifică surse dacă faci afirmații juridice.. Nu ai contribuit la documente. Începe cu G0-CANON-v4 R3; audit Studio R5 va urma după predare separată. Nu inventa note de trecere; grila neschimbată: min9.50 fiecare, major plafon9.20, critic8.50, minorecumulate. Decizieaprobatăcontrazisă=critic. Nu penaliza gusturi sau viitoareproduseG1absenteG0.
+ROOT: D:\00. Downloads\Dracula Book\DRACULA-COMICS-CODEX-G0-20260924.
+FIȘIER FIX DE CITIT INTEGRAL: ROOT/00_STUDIO/audit/G0-CANON-v4/R2_corecturi/00_CANON_predat.md, v4.3 SHA256 b51981121c39953258b32989d85a4239120f85aa8746229736ca605c25f57357. Este identic cu canonul curent, pe care nu îl modifici.
+REFERINȚE FIXE: D:\00. Downloads\Dracula Book\DRACULA-COMICS-CODEX-G0-20260924\00_STUDIO\audit\RELUARE_CODEX_20260924_120350\PACHET_AUDIT_01/01_CANON/01_DECIZII_PRODUCATOR.md (15decizii), 00_STUDIO/audit/00_CONTRASEMNARI_PRODUCATOR.md; organizarea/briefurile din același PACHET_AUDIT_01 sunt referința R4, aflată separat în revizieR5. Nu transfera defecteleei în scorulcanonului. Citește rolurile/KPI relevante. Nu citi originalul din cealaltă sesiune.
+RAPOARTE anterioare ROOT/00_STUDIO/audit/G0-CANON-v4/R2_audit_canon.md, R2_audit_craft.md, R2_audit_kpi.md; plan R2_plan_masuri.md și R2_corecturi/rezultat.json,diferente.patch. Au găsit unicul defect de20caractere în2pasaje. Verifică corectura independent și reevaluează canonul actual integral în lentila ta; nu transfera note și nu certifica totul doar din patch. Surse primare web pentru fapte istorice/juridice incerte; limitele explicitate. G0 nu e aviz juridic/publicare comercială externă.
+Raportul autorului precedent REV_IZOLAT_20260924/RAPORT_REVIZIE.md păstrează limitele (HTTP503nuînseamnăfaptinvalid). Acces la referință confidențială ROOT/04_LUME/05_MISTERUL_OMULUI_FARA_UMBRA.md autorizat pentru compatibilitate, fără publicarea identității. Criteriile și obiectivele creative din registru obligatorii; prioritateusercontraaprobăriinventate.
+SCRIE NUMAI ROOT/00_STUDIO/audit/G0-CANON-v4/R3_audit_craft.md, română UTF8: nota2zecimale/PASSsauFAIL, fișiere/hash, metodă reală, surse, puncteforte, defecte exactlocalizate+remedii, închidereM2.1–M2.4 și limite. Poți citi arhivele, nu edita producția/scripturile. Nu declara verificări neexecutate. Fii riguros dar proporțional. Nu lansaagenți. Returnează concisnotăblocanțicăiraport. Python explicit C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe.
+După raportul canonului, așteaptă instrucțiunea pentru StudioR5, fără a audita încă fișierele lui în mișcare.
+
+ID: `01a0d2d8-4b3c-7b71-8a87-e0077d0d49d3`  
+Proiect: Comun  
+Export UTC: 2026-10-07T08:10:14.831141+00:00
+
+Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
+
+## Asistent
+
+Calendarul variantei B respectă acum ordinea cerută: publicare pe 19 februarie, GT pe 22 februarie, tipar pe 23 februarie. Regulile pentru trenuri și monumente sunt, de asemenea, explicite; mai verific propagarea în briefuri și separarea stării curente de istoricul păstrat.
+
+
+## Asistent
+
+Verificarea proprie confirmă 32/32 fișiere conforme cu manifestul și 28/28 copii înainte/după conforme cu pachetele fixe. Istoricul anexei S este păstrat identic, octet cu octet. Am găsit o abatere minoră nouă în rezumatul S: ținta K7 este redată ca două runde, deși fișa cere cel mult trei.
+
+
+## Utilizator
+
+Canon R3 a fost arhivat cu cele trei avize 9,80/9,70/9,90. Continuă Studio R5 independent. Pentru coordonare, trimite când poți un scurt progres (lectură terminată/defecte confirmate/raport în redactare), fără a întrerupe auditul. Nu cere produse G1 la G0.
+
+## Asistent
+
+Lectura integrală a organizării și jurnalului este terminată; verificarea manifestelor și a istoricului S este încheiată. Am confirmat un defect minor în S K7: ținta este redată ca două runde în loc de trei. Închei confruntarea briefurilor înainte de redactare. Cele trei avize Canon R3 sunt reperul de coordonare actual; nu penalizez pachetul Studio pentru starea datată anterior arhivării lor și nu cer produse G1 la G0.
+
+
+## Asistent
+
+Confruntarea briefurilor este încheiată: 228 KPI și 131 sarcini coincid cu fișele. Corecturile privind trenul, hotelurile, monumentele, calendarul și splash-ul sunt confirmate. Mai rămâne o trimitere minoră la vechiul declanșator RS33 din 25 septembrie. Raportul este în redactare; nu am identificat blocanți critici sau majori.
+
+
+## Asistent
+
+**Studio R5: 9,85/10 — PASS craft.** Fără blocanți critici sau majori; două minore: ținta K7 din anexa S și trimiterea reziduală la declanșatorul RS33.
+
+[Raport R5](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-STUDIO-v4/R5_audit_craft.md>)
+
+Pachetul fix și raportul Canon R3 au rămas nemodificate.
+
+## Utilizator
+
+Am citit raportul salvat: toate diacriticele sunt corupte în ASCII '?' (ex. titlu «Me?te?ug & Pia??»). Acesta este defect al SCRIERII raportului, nu al livrabilului evaluat. Te rog păstrează copia coruptă în R5_audit_craft_export_initial_corupt.txt și resalvează raportul integral corect UTF-8 cu aceleași constatări și notă. Folosește apply_patch sau înainte de Python pipeline PowerShell: $OutputEncoding = [System.Text.UTF8Encoding]::new($false). Verifică textul recitit după scriere, numărul suspect de ? și diacriticele. Nu modifica producția, canonul R3 sau fondul verdictului. Anunță când raportul valid este predat.
+
+## Asistent
+
+Voi păstra exportul corupt în fișierul indicat și voi resalva raportul cu diacritice corecte, fără schimbarea constatărilor sau a notei. Apoi voi verifica textul recitit, caracterele „?” și codarea UTF-8.
+
+
+## Asistent
+
+Exportul corupt este păstrat identic. Raportul restaurat se recitește corect în UTF-8, iar cele 667 de caractere „?” au fost eliminate. Verificarea integrală a textului a mai identificat o ambiguitate de restaurare („îi”/„și”), pe care o corectez înaintea predării.
+
+
+## Asistent
+
+[Raportul valid UTF-8 este predat](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-STUDIO-v4/R5_audit_craft.md>).
+
+Recitit integral: diacritice corecte, **0 „?”**, 0 caractere de înlocuire. Copia coruptă este păstrată în `R5_audit_craft_export_initial_corupt.txt`.
+
+Constatările și **9,85 — PASS** rămân neschimbate. Pachetul și raportul Canon R3 sunt intacte.

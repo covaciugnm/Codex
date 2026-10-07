@@ -1,0 +1,23 @@
+{
+  "id": "01a0d1df-4d33-7841-9275-e3fd290768c0",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790227467,
+  "updated_at": 1790227614,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Meitner\",\"agent_role\":null}}}",
+  "title": "Execută calibrarea A-RO",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 387894,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 16,
+  "message_count": 4,
+  "content_sha256": "fbc48823c3822341d43a82f3c5c522bde9114c146a99a34f602c898bf90e8656",
+  "files_copied": 2,
+  "references_not_copied": 0
+}

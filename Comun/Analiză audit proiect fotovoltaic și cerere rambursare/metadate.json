@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9d22-7363-be1a-921c58d992aa",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1783397098,
+  "updated_at": 1783497775,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Analiză audit proiect fotovoltaic și cerere rambursare",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 249360,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 105,
+  "message_count": 105,
+  "content_sha256": "55764c61443434acb1d60c01e1bc0e0d12622f39fa16f558e07d82773f6416d4",
+  "files_copied": 1,
+  "references_not_copied": 23
+}

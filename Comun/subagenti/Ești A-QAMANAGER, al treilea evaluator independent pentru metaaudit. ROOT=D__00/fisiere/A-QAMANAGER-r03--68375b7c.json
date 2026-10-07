@@ -1,0 +1,227 @@
+{
+  "schema_version": 2,
+  "deliverable_id": "SEL-001",
+  "version_id": "r03",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/SEL-001-r03.json",
+    "sha256": "85ec85d5f34b57a49f0d0430e50caf030a094af11eba902c98692da3c565fd28"
+  },
+  "reviewer_agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "reviewer_role": "A-QAMANAGER",
+  "audit_files": [
+    {
+      "path": "05_AUDIT/SEL-001/A-CANON-r03.json",
+      "sha256": "100c3f057f41c3b4e30f57dc1bc69cad602c7808205889b1260adf1af6387787"
+    },
+    {
+      "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.json",
+      "sha256": "b59bf43f9c53852c1e9847c8d68d0b8d2549f4ebbbcc7bf970f15bc65e10abad"
+    }
+  ],
+  "supplemental_evidence_files": [
+    {
+      "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03.md",
+      "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0"
+    },
+    {
+      "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03-tests.txt",
+      "sha256": "e1d445144ceaa694d3d230ef0d2cc7dc48cf861e1f18c04b45c8db79011a46e5"
+    },
+    {
+      "path": "05_AUDIT/SEL-001/A-CANON-r03.md",
+      "sha256": "cc82730b74d9534462472a36477d10d7c04b1af5d10eeb1b14bdb7feed012189"
+    },
+    {
+      "path": "05_AUDIT/SEL-001/A-CANON-r03-tests.txt",
+      "sha256": "b7c2a54071679257abff38913ff216ee20560651d00ced8ecd285a88e580e83e"
+    },
+    {
+      "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+      "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/SEL-001-r03-before-audit-archive.json",
+      "sha256": "261bc99428886f6256b428536d652df7cffc0866d324714339d05353d85513ce"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/SEL-001-r03-primary-complete-archive.json",
+      "sha256": "c7475718be2f8c139aac52e72b961124f2f5a2144b8470dcf3af680964fcfd85"
+    }
+  ],
+  "checks": [
+    {
+      "id": "independence",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03.md",
+          "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0",
+          "anchor": "#independence"
+        },
+        {
+          "path": "06_REGISTRU/CONTEXT_R03/agents_at_freeze.json",
+          "sha256": "7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+          "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc",
+          "anchor": ":L23-L41"
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03.md",
+          "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0",
+          "anchor": "#coverage"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-CANON-r03.json",
+          "sha256": "100c3f057f41c3b4e30f57dc1bc69cad602c7808205889b1260adf1af6387787",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.json",
+          "sha256": "b59bf43f9c53852c1e9847c8d68d0b8d2549f4ebbbcc7bf970f15bc65e10abad",
+          "anchor": ""
+        },
+        {
+          "path": "06_REGISTRU/MASURI/INTEGRARE_r03.md",
+          "sha256": "95276aecc472acd9e6a07ef4bdb4415fbc935e875b8dbdd093ec280c120bbad8",
+          "anchor": ""
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03.md",
+          "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0",
+          "anchor": "#evidence"
+        },
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L128-L142"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-CANON-r03-tests.txt",
+          "sha256": "b7c2a54071679257abff38913ff216ee20560651d00ced8ecd285a88e580e83e",
+          "anchor": ":L59-L89"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#lecturi"
+        }
+      ]
+    },
+    {
+      "id": "scoring",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03.md",
+          "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0",
+          "anchor": "#scoring"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-CANON-r03.json",
+          "sha256": "100c3f057f41c3b4e30f57dc1bc69cad602c7808205889b1260adf1af6387787",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.json",
+          "sha256": "b59bf43f9c53852c1e9847c8d68d0b8d2549f4ebbbcc7bf970f15bc65e10abad",
+          "anchor": ""
+        },
+        {
+          "path": "00_CONDUCERE/policy.json",
+          "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4",
+          "anchor": ""
+        }
+      ]
+    },
+    {
+      "id": "closure",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03.md",
+          "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0",
+          "anchor": "#closure"
+        },
+        {
+          "path": "06_REGISTRU/MASURI/SEL-001-plan-r01.md",
+          "sha256": "a5f0b9c0ecb1605b562ec3000e3b74eed0a19b7bb1efdd5f3d51837463d5b7c0",
+          "anchor": ":L55-L58"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-CANON-r03.md",
+          "sha256": "cc82730b74d9534462472a36477d10d7c04b1af5d10eeb1b14bdb7feed012189",
+          "anchor": "#retest-f01"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#retest"
+        },
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L268-L277"
+        }
+      ]
+    },
+    {
+      "id": "version",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03.md",
+          "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0",
+          "anchor": "#version"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-QAMANAGER-r03-tests.txt",
+          "sha256": "e1d445144ceaa694d3d230ef0d2cc7dc48cf861e1f18c04b45c8db79011a46e5",
+          "anchor": ""
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/SEL-001-r03-before-audit-archive.json",
+          "sha256": "261bc99428886f6256b428536d652df7cffc0866d324714339d05353d85513ce",
+          "anchor": ""
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/SEL-001-r03-primary-complete-archive.json",
+          "sha256": "c7475718be2f8c139aac52e72b961124f2f5a2144b8470dcf3af680964fcfd85",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-QAMANAGER-r02-v02.json",
+          "sha256": "3a3116325a629747b4a4109deac35b91c7bfe83a403e255061f3c8f812756ed5",
+          "anchor": ""
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/RECUPERARE_REAL_AFTER_r02-v02.json",
+          "sha256": "c71b79dc46c01a2bf4d423730ce9bc86fe184241d9285cea0d5fe06612aef039",
+          "anchor": ""
+        }
+      ]
+    }
+  ],
+  "findings": [],
+  "verdict": "PASS",
+  "reviewed_at": "2026-09-24T07:26:01+03:00"
+}

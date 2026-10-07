@@ -1,0 +1,5 @@
+const fs=require('fs'),p=require('path'),crypto=require('crypto');
+const visual='C:/Users/User/.codex/visualizations/2026/10/01/01a0f663-7e23-7e02-8580-21cbf2de2964';
+const runtime=p.join(visual,'eva_runtime');fs.mkdirSync(runtime,{recursive:true});
+async function download(url,file){const r=await fetch(url,{signal:AbortSignal.timeout(120000)});if(!r.ok)throw Error(r.status+' '+url);const b=Buffer.from(await r.arrayBuffer());fs.writeFileSync(file,b);console.log(p.basename(file),b.length);return b;}
+(async()=>{await download('https://www.python.org/ftp/python/3.13.7/python-3.13.7-embed-amd64.zip',p.join(runtime,'python.zip'));await Promise.all(['XlsxWriter','openpyxl','et_xmlfile','pypdf'].map(async name=>{const r=await fetch('https://pypi.org/pypi/'+name+'/json');const d=await r.json();const f=d.urls.find(x=>x.filename.endsWith('none-any.whl'));if(!f)throw Error('No wheel '+name);const b=await download(f.url,p.join(runtime,f.filename));if(crypto.createHash('sha256').update(b).digest('hex')!==f.digests.sha256)throw Error('Checksum '+name);}));})();

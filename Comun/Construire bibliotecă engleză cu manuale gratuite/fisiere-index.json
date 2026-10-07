@@ -1,0 +1,576 @@
+[
+  {
+    "source_reference": "ARHITECTURA.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/subagents/workflows/wf_c5939785-fc7/journal.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/journal--4b83a107.jsonl",
+    "bytes": 13375,
+    "sha256": "959acc49833ec83dd1acb538c416dad507ed1e7e986fe3c2816900ea725c9ea4"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/subagents/workflows/wf_effbcda8-3bd/journal.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/journal--a63facb3.jsonl",
+    "bytes": 1540,
+    "sha256": "c14f4ee2a7b5041ce3579ea957e06da1fa52e2a6888b2f5b0e4898970f2720ae"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/scratchpad/build_anki.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/scratchpad/curriculum_parts",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/scratchpad/dict_parts",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/scratchpad/dl_light.log",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/scratchpad/dl_romanuals.log",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/scratchpad/inspect.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/scratchpad/parse_manifest.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/148c894b-d77f-4278-b13d-5d911df76be0/tasks/btajgpy7e.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Docker\\Docker\\resources\\bin",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Docker\\Docker\\resources\\bin;$env:PATH",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\subagents\\workflows\\wf_557a5cc9-b6c\\journal.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/journal--f6285bea.jsonl",
+    "bytes": 24754,
+    "sha256": "89ab16e6c763ca681a3945345068d7eef020a5560ff6d0473a9a0cf7a95ca733"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-a1-authoring-wf_d3e679db-131.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-a1-authoring-wf_d3e679db-131--35ad391a.js",
+    "bytes": 11635,
+    "sha256": "909de5b29d3bee5ccd6ac0862a3a8bf201c729703d2859d1edc3d312a6afb170"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-a1-pipeline-consolidare-wf_a0e038cd-ef6.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-a1-pipeline-consolidare-wf_a0e038cd-ef6--e9616438.js",
+    "bytes": 7875,
+    "sha256": "d58241852f12e1ba6ab103a25bc2e7155451034ef7a84fb14458be0f3f15a5e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-content-extraction-wf_096a4f45-9bc.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-content-extraction-wf_096a4f45-9bc--fba39231.js",
+    "bytes": 10367,
+    "sha256": "31fd5ec7b5c7a0d395c64a830f62ab6c5a300ace733f8c6b363f76f103a33e26"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-curriculum-architecture-wf_fb25064a-65d.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-curriculum-architecture-wf_fb25064a-65d--b32890ac.js",
+    "bytes": 6809,
+    "sha256": "ba94486002054cf3dbe5d996b05ff5233f3ced2ffd772543b39a7ecf2759f419"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-intro-bilingv-wf_0d29422a-fe9.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-intro-bilingv-wf_0d29422a-fe9--cdcb93c8.js",
+    "bytes": 2611,
+    "sha256": "b7b62355afd4789f960756b1a55206bec08bc8bd9be4da757a36b5ad5833544a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\eva-app-plan.md",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-app-plan--95e6c084.md",
+    "bytes": 12093,
+    "sha256": "c6abc823d818a349a1647ad0f7aeb58496c6e51a6e4d5327e5d4080f33d55318"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--02--EVA---Learn-English-with-EVA-11--Prototip-EVA--App-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-a2-fill-wf_19e1d02a-182.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--02--EVA---Learn-English-with-EVA-11--Prototip-EVA--App-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-app-audit-wf_90f6f16a-3b8.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--02--EVA---Learn-English-with-EVA-11--Prototip-EVA--App-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-arch-a2-c2-wf_effbcda8-3bd.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--02--EVA---Learn-English-with-EVA-11--Prototip-EVA--App-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-auth-review-wf_58ef2127-2fd.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--02--EVA---Learn-English-with-EVA-11--Prototip-EVA--App-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-b2-fill-wf_580b4074-5c3.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--02--EVA---Learn-English-with-EVA-11--Prototip-EVA--App-\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-c2-fill-wf_126b118b-c72.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--02--EVA---Learn-English-with-EVA\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-app-plan-research-wf_557a5cc9-b6c.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--02--EVA---Learn-English-with-EVA\\148c894b-d77f-4278-b13d-5d911df76be0\\workflows\\scripts\\eva-english-discovery-wf_2cb3f619-f25.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Docker\\run",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Docker\\run\\dockerInference",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Docker\\run_bak_",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Docker\\run_broken_bak",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links\\gh.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\a1_cuprins.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\arch_part1.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\arch_part4.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\build-content-wf.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\gen-content-A2.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\gen-content-B1.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\gen-content-B2.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\gen-content-C1.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\gen-content-C2.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\gen-dictionary.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\gen-dictionary2.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\gen-units-a12-a17.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\scratchpad\\research_reports.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\tasks\\w3catzbdi.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\tasks\\w9j7qwevx.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\tasks\\wdphs0pul.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\tasks\\wgp1borll.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\tasks\\wjgeadgzj.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\tasks\\wmpilijf8.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\148c894b-d77f-4278-b13d-5d911df76be0\\tasks\\wysixed3y.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\docker-secrets-engine",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\\\\\Users\\\\\\\\User\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\--192-168-100-169-Comun-\\\\\\\\148c894b-d77f-4278-b13d-5d911df76be0\\\\\\\\scratchpad\\\\dict_parts",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/02. EVA - Learn English with EVA/09. Aplicatia EVA (Plan si Mockup)/PLAN - Aplicatia EVA.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PLAN - Aplicatia EVA--f40c5689.md",
+    "bytes": 18280,
+    "sha256": "fc53ccde6a2be705ecfce9de14321367bfee353b77d167af0349827fddee5e75"
+  },
+  {
+    "source_reference": "Z:/02. EVA - Learn English with EVA/10. Curriculum EVA (A1-C2)/ARHITECTURA CURRICULARA - EVA.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ARHITECTURA CURRICULARA - EVA--eb14b132.md",
+    "bytes": 104970,
+    "sha256": "db6a1ba3a9c1bc646aa42c330d4df67184491a40510fc7fb3f7cfef00eb1dd49"
+  },
+  {
+    "source_reference": "Z:/02. EVA - Learn English with EVA/10. Curriculum EVA (A1-C2)/Nivel A1 - Componenta scrisa/Nivel A1 - Componenta scrisa (toate unitatile).md",
+    "status": "copiat",
+    "saved_path": "fisiere/Nivel A1 - Componenta scrisa (toate unitatile)--c74f7060.md",
+    "bytes": 151168,
+    "sha256": "66aa7a9e8f2f56ed9abad08239879d94e978b59837701528bc452c260c4fb6aa"
+  },
+  {
+    "source_reference": "Z:/02. EVA - Learn English with EVA/10. Curriculum EVA (A1-C2)/Nivel A1 - Pipeline si Consolidare (Straturile 2-3)/Nivel A1 - Straturile 2-3 (toate unitatile + teste).md",
+    "status": "copiat",
+    "saved_path": "fisiere/Nivel A1 - Straturile 2-3 (toate unitatile + teste)--3eea99d6.md",
+    "bytes": 223585,
+    "sha256": "e1931f6c9f78502ae05739adb252f65d599bd1e9cdcc7f9de16857326558555a"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\09. Aplicatia EVA (Plan si Mockup)\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\10. Curriculum EVA (A1-C2)\\ARHITECTURA CURRICULARA - EVA.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ARHITECTURA CURRICULARA - EVA--eb14b132.md",
+    "bytes": 104970,
+    "sha256": "db6a1ba3a9c1bc646aa42c330d4df67184491a40510fc7fb3f7cfef00eb1dd49"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\10. Curriculum EVA (A1-C2)\\Nivel A1 - Componenta scrisa",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\10. Curriculum EVA (A1-C2)\\Nivel A1 - Pipeline si Consolidare (Straturile 2-3)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\11. Prototip EVA (App)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\11. Prototip EVA (App)\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\11. Prototip EVA (App)\\content",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\11. Prototip EVA (App)\\content\\units",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\11. Prototip EVA (App)\\public\\js\\app.js",
+    "status": "copiat",
+    "saved_path": "fisiere/app--a6d4bc96.js",
+    "bytes": 67506,
+    "sha256": "c81d6bc12fd8d4b7360300f21f0b9067f4d569da7d6d4b0c3b0353840e275d55"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\11. Prototip EVA (App)\\public\\js\\voice.js",
+    "status": "copiat",
+    "saved_path": "fisiere/voice--e839bbc0.js",
+    "bytes": 8642,
+    "sha256": "62b2d2513892d1a13436fe8edfb5007000ca10699797e72ce8f965624419a3da"
+  },
+  {
+    "source_reference": "Z:\\02. EVA - Learn English with EVA\\11. Prototip EVA (App)\\server.js",
+    "status": "copiat",
+    "saved_path": "fisiere/server--705aace3.js",
+    "bytes": 41820,
+    "sha256": "47052c6732b1aa0caaee17876fe58fa7a90d8621a3e0288d011c297e0e50192f"
+  },
+  {
+    "source_reference": "Z:\\02...\\10. Curriculum EVA (A1-C2)\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02...\\10. Curriculum EVA (A1-C2)\\ARHITECTURA CURRICULARA - EVA.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02...\\10. Curriculum EVA (A1-C2)\\Nivel A1 - Componenta scrisa\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\02...\\11. Prototip EVA (App)\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\02. EVA - Learn English with EVA\\\\11. Prototip EVA (App)\\\\android-app\\\\EVA.apk",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA--dbf5ae61.apk",
+    "bytes": 937444,
+    "sha256": "d9129e213e5256e8b7b94af69a0ec20e22222e0aec3a7c802c73d0aeb40ce7d8"
+  },
+  {
+    "source_reference": "Z:\\\\02. EVA - Learn English with EVA\\\\11. Prototip EVA (App)\\\\public\\\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--7ca0bd04.html",
+    "bytes": 5384,
+    "sha256": "737fdf3ffb7997a9407d9a9bc24448725ef5f11f20f418093c272a649c6ae1b9"
+  },
+  {
+    "source_reference": "Z:\\\\02. EVA - Learn English with EVA\\\\11. Prototip EVA (App)\\\\server.js",
+    "status": "copiat",
+    "saved_path": "fisiere/server--705aace3.js",
+    "bytes": 41820,
+    "sha256": "47052c6732b1aa0caaee17876fe58fa7a90d8621a3e0288d011c297e0e50192f"
+  },
+  {
+    "source_reference": "Z:\\\\tmp\\\\a2fill.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\tmp\\a2fill.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\02. EVA - Learn English with EVA\\11. Prototip EVA (App)\\EVA.bat",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA--2fcdc073.bat",
+    "bytes": 1633,
+    "sha256": "2258ffdd0428947e82e2d41b7a3818adfa2798fcbe9853777ae21f7dafa4e46d"
+  },
+  {
+    "source_reference": "\\\\\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\dict_parts",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\dict_parts2",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\n\\\\nLISTA (\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\n\\\\nScrie DOAR un array JSON valid (aceeasi ordine) cu unealta Write, la calea EXACTA:\\\\n\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "afir-cesiro-rambursare1.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "cesiro-images-catalog.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "firme-organizare.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://aitools.inc/tools/praktika-ai",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://alternatives.co/software/elsa-speak/pricing/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://azure.microsoft.com/en-us/pricing/details/speech/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://beginnersinai.org/duolingo-max-explained/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://claude.ai/code/artifact/11e7b565-b49c-4752-904a-b9eb4090e277",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developers.openai.com/api/docs/pricing",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://duolingo.fandom.com/wiki/English_for_Romanian",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://elevenlabs.io/blog/we-cut-our-pricing-for-conversational-ai",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://futureagi.com/llm-cost-calculator/vertex-ai/gemini-live-2-5-flash-preview-native-audio-09-2025/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nodejs.org",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://one.dash.cloudflare.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://techlaugh.com/gliglish/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://tekpon.com/software/speak/pricing/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://texttolab.com/blog/azure-text-to-speech-pricing",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://texttolab.com/blog/openai-tts-pricing",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.babbel.com/press/en-us/releases/babbel-speak",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.britishcouncil.ro/engleza/niveluri/c2",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.capterra.com/p/246292/ELSA-Speech-Recognition-API/alternatives/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.cloudzero.com/blog/claude-api-pricing/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.eesel.ai/blog/gpt-realtime-mini-pricing",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.futurepedia.io/tool/loora",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.intelligent-learning.ro/ce-inseamna-nivelurile-lingvistice-a1-a2-b1-b2-c1-si-c2/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.memrise.com/blog/gpt-language-learning-membot-duolingo",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.saasgenius.com/reviews/talkpal/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "ocr-doc-tooling.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "pocidif-2-1-eva-dancor.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "red-fotovoltaic-fm.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "zoom-ssm-recordings.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

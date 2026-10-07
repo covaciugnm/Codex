@@ -1,0 +1,216 @@
+[
+  {
+    "source_reference": "00.%20Proiecte%202025/2024.08.30%20Parc%20Fotovoltaic%20-%20Depuse%20-%20Clarificari/12.%20P2%20RED%20-%202,61/10.%20Clarificari/Clarificare%2010.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Clarificare 10--eb3bdcc9.pdf",
+    "bytes": 3258241,
+    "sha256": "b70a5b696b376d5ed23f21a23c1716350c41b01fa45514fdfd5d9a12581f2742"
+  },
+  {
+    "source_reference": "00.%20Proiecte%202025/2024.08.30%20Parc%20Fotovoltaic%20-%20Depuse%20-%20Clarificari/12.%20P2%20RED%20-%202,61/10.%20Clarificari/Clarificare%20Plan%20de%20Informare%20si%20Publicitate.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Clarificare Plan de Informare si Publicitate--4bdb5865.pdf",
+    "bytes": 152478,
+    "sha256": "67bc1c5067ab2b7fcf2144160e40f62b2b4ddbee1bfac391141bd29d08a824a2"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/3a121380-ad02-47d8-85db-cd9c0a0b2516/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/3a121380-ad02-47d8-85db-cd9c0a0b2516/scratchpad/gen_endeletters.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\document.py",
+    "status": "copiat",
+    "saved_path": "fisiere/document--8b4a0a53.py",
+    "bytes": 11194,
+    "sha256": "b54354a7f068191e37dc9b4256480f0222665b60d22951f365402b0a7b46d9ce"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\opc\\package.py",
+    "status": "copiat",
+    "saved_path": "fisiere/package--20cb3bc7.py",
+    "bytes": 8727,
+    "sha256": "450c3f96ea860da100ca5853a7ea2530267d3bdcefbfa49ef79221ed4a52b155"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\opc\\phys_pkg.py",
+    "status": "copiat",
+    "saved_path": "fisiere/phys_pkg--a984ad02.py",
+    "bytes": 4005,
+    "sha256": "f9e3590c16cb4a11e8dd6d628257f50b037f9e42bcaa79935a9e80060efb7230"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\opc\\pkgwriter.py",
+    "status": "copiat",
+    "saved_path": "fisiere/pkgwriter--84b7f3c9.py",
+    "bytes": 4524,
+    "sha256": "b210deb81b56d816c53931eb5f1f11f7b3d615a1ff7c4dfb25805f6f0e90591b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\parts\\document.py",
+    "status": "copiat",
+    "saved_path": "fisiere/document--560aa76c.py",
+    "bytes": 6417,
+    "sha256": "0ea6a46e07b9fdd89e1923897c603e3a93cca0b3b63ac4db73deec738dc38a14"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\styles\\styleable.py",
+    "status": "copiat",
+    "saved_path": "fisiere/styleable--2b76ed89.py",
+    "bytes": 4499,
+    "sha256": "625ffea0f96312e17383db57292482baf5912f82f41c2e5b1cc1495617b1e8e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\utils\\indexed_list.py",
+    "status": "copiat",
+    "saved_path": "fisiere/indexed_list--958ef846.py",
+    "bytes": 1257,
+    "sha256": "841b103fd82e9d38adee229d306c3fb4cdf2e6e2295c38d4c7b8ecc1b405e837"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\pdfbase\\pdfdoc.py",
+    "status": "copiat",
+    "saved_path": "fisiere/pdfdoc--390a7399.py",
+    "bytes": 91182,
+    "sha256": "22019a5fae551f3b430b666e568e5ba0d199376b59474675f96a659de8cd0a86"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\pdfgen\\canvas.py",
+    "status": "copiat",
+    "saved_path": "fisiere/canvas--11f51dce.py",
+    "bytes": 83283,
+    "sha256": "8e4256dbca70956dd511dc6f2f31e7b6908bcb607c6e5633d285c232563b6262"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--78f46652.py",
+    "bytes": 90666,
+    "sha256": "80cf964f4288847c4c73d1f379115b55c21d047f2316ca3a995155e8d6a86169"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\3a121380-ad02-47d8-85db-cd9c0a0b2516\\scratchpad\\gen_excel.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\3a121380-ad02-47d8-85db-cd9c0a0b2516\\scratchpad\\gen_montaj.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\3a121380-ad02-47d8-85db-cd9c0a0b2516\\\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\3a121380-ad02-47d8-85db-cd9c0a0b2516\\\\scratchpad\\\\C4 - Releveu hala (desen).pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\3a121380-ad02-47d8-85db-cd9c0a0b2516\\\\scratchpad\\\\C6 - Releveu hala (desen).pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\12. P2 RED - 2,61\\20.3 Implementare Structura",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\12. P2 RED - 2,61\\20.3 Implementare Structura\\9. Novotegra\\C4 - Fibrociment ondulat (prezoane)\\C4 DIMENSIUNI.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\12. P2 RED - 2,61\\20.3 Implementare Structura\\9. Novotegra\\C6 - Beton ECP + membrana bituminoasa\\C6 - DIMENSIUNI.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\12. P2 RED - 2,61\\20.3 Implementare Structura\\Estimare structura montaj - comparativ producatori.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Estimare structura montaj - comparativ producatori--df51a35f.xlsx",
+    "bytes": 28989,
+    "sha256": "f7b5855aa17e81ca969201214dd5ee0897c25614d8634a32841bb06c7b9ffec4"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\12. P2 RED - 2,61\\20.3 Implementare Structura\\Producatori structura.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Producatori structura--5d413992.docx",
+    "bytes": 21389,
+    "sha256": "f23fa48e1ad65e8cc535f2c4dc9f4f7ff5cea947e59d6203077c0db668cf6b8e"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\12. P2 RED - 2,61\\50. Poze Albesti - House All",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.3 Implementare Structura\\\\9. Novotegra\\\\Cerere de oferta - novotegra (BayWa r.e.).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Cerere de oferta - novotegra (BayWa r.e.)--335e0404.docx",
+    "bytes": 38072,
+    "sha256": "3e7e3526fb3926089367afb0f3580b90631b554ff7e72ddc314ed2fc7ade7f08"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.3 Implementare Structura\\\\Cerere de oferta - structura (generic).docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.3 Implementare Structura\\\\Estimare structura montaj - comparativ producatori.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Estimare structura montaj - comparativ producatori--df51a35f.xlsx",
+    "bytes": 28989,
+    "sha256": "f7b5855aa17e81ca969201214dd5ee0897c25614d8634a32841bb06c7b9ffec4"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.3 Implementare Structura\\\\Top 10 producatori structura + contacte.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Top 10 producatori structura + contacte--3a8bdbb3.txt",
+    "bytes": 1701,
+    "sha256": "281023f7e4546e00eca07d91a1a671cdb9a64adba492bbf56c023a1ad6c618ae"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.4 Arhitectura hale\\\\C4 - Dachaufmass Halle C4 (DE).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/C4 - Dachaufmass Halle C4 (DE)--1680d46f.pdf",
+    "bytes": 110023,
+    "sha256": "a0909e31f5afcad9e27d859038028090d6e4f4652d9b04eecddbbbe92f9912cc"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.4 Arhitectura hale\\\\C4 - Plan montaj panouri (RO-EN-DE).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/C4 - Plan montaj panouri (RO-EN-DE)--0c5ae471.pdf",
+    "bytes": 130625,
+    "sha256": "c8404fb08e3c7def677a6e50f726d7a8f0b664d592a17d3f3f358e5c94b41fb5"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.4 Arhitectura hale\\\\C6 - Dachaufmass Halle C6 (DE).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/C6 - Dachaufmass Halle C6 (DE)--5934e7b3.pdf",
+    "bytes": 110114,
+    "sha256": "8b368a8217a54d12024098a7f216628d79acc610f35dbabc2d632d56e31cdb4a"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.4 Arhitectura hale\\\\C6 - Plan montaj panouri (RO-EN-DE).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/C6 - Plan montaj panouri (RO-EN-DE)--539326fc.pdf",
+    "bytes": 134069,
+    "sha256": "81ee59749658ccffe297a265765d51c9fafa3b9d1f9362a8909fa15535b4c2f4"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\12. P2 RED - 2,61\\20.3 Implementare Structura",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2024.08.30 Parc Fotovoltaic - Depuse - Clarificari\\\\12. P2 RED - 2,61\\\\20.3 Implementare Structura\\\\Cerere de oferta - structura (generic).docx",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "https://www.energie.gov.ro",
+    "status": "referinta_externa_necopiata"
+  }
+]

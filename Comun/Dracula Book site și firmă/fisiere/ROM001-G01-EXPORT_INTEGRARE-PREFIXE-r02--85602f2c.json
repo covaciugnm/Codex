@@ -1,0 +1,162 @@
+{
+  "type": "REAL_EXACT_PREFIX_HASH_CHECK",
+  "checked_at": "2026-09-24T10:05:27.6206550+03:00",
+  "sources": [
+    {
+      "role": "P-MANAGER",
+      "agent_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+      "source_prefix_bytes": 32856744,
+      "actual_sha256": "b902fe6f18a6327d49301e8e6f7282072c8a64a274427e451a43bc06caca97e7",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "P-CANON",
+      "agent_id": "01a0d0d7-e865-7b71-9707-be8786099512",
+      "source_prefix_bytes": 11255737,
+      "actual_sha256": "aa66f3fa01d4eb341bbe473e9568ac7b787c7ed56f49182307ae876bfccaee74",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-GOVERNANCE",
+      "agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "source_prefix_bytes": 11119992,
+      "actual_sha256": "39de1bae0e64a71286eef2785bf7a1cda53fbb67ad6ddad73c141db379c37894",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-CANON",
+      "agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+      "source_prefix_bytes": 9649609,
+      "actual_sha256": "ec2bc38cb202fb0571a2c00ef346ddbe2a6111c6f6d41e4598e98892e9e95560",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-QAMANAGER",
+      "agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+      "source_prefix_bytes": 17736232,
+      "actual_sha256": "f532a8a4e12d80d907d04a67d691055fc6775f612e00b6a75e0deef2cf83a47a",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "P-EDITOR",
+      "agent_id": "01a0d1c4-17bb-7e03-93a3-e542824bc776",
+      "source_prefix_bytes": 4345905,
+      "actual_sha256": "220a51046cbf67edac56585f227bf3cb9b0c7891e60d3f3295f72011d744d3b9",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-GENRE",
+      "agent_id": "01a0d1d0-67b7-7ea2-9e31-562bc344aaa7",
+      "source_prefix_bytes": 427611,
+      "actual_sha256": "87e75af5e038ab56dd951fcfcebfeefb955ddcfb2663a36f87384acfbbe29aee",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-ORIGINALITY",
+      "agent_id": "01a0d1d0-690e-7871-b245-6817b004172f",
+      "source_prefix_bytes": 402214,
+      "actual_sha256": "13a51dfeb5d3d815761aa68290b3d8346ec7a193924dd9684a256e5298ec97c8",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-STRUCTURE",
+      "agent_id": "01a0d1d0-6cb7-7681-8010-b13b8b640dad",
+      "source_prefix_bytes": 380336,
+      "actual_sha256": "a7cfa6b46c691256e2d218a17bdd5de80cb82a3eb050058a033fde5ded5a3ca9",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-EN",
+      "agent_id": "01a0d1d0-6f17-7c52-a5f8-a3c3178c2cb8",
+      "source_prefix_bytes": 404351,
+      "actual_sha256": "ccd92d4c6e40349e2354a268fdb357e965df0d08cd46b3fbbf4e9fc3c7c0c4dd",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-CHARACTER",
+      "agent_id": "01a0d1df-4125-7c52-9c87-042d9cbaaedf",
+      "source_prefix_bytes": 433527,
+      "actual_sha256": "2e97e8b7d76f37aa562ce79946d2880ea91c6cc680dd973f42307f8ffdf33619",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-FACT",
+      "agent_id": "01a0d1df-4217-7a01-92af-667005fddae6",
+      "source_prefix_bytes": 392833,
+      "actual_sha256": "d1c09f9ca44466a1c81d852a9b6ff1f9ecbb929e0ba8d52ee3e88eed07d40af1",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-RO",
+      "agent_id": "01a0d1df-4d33-7841-9275-e3fd290768c0",
+      "source_prefix_bytes": 387894,
+      "actual_sha256": "c8ee6ffd02eb45544f375a1cc5f3b662aeca544794f171140b14c48b4ee1087d",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-DE",
+      "agent_id": "01a0d1df-5136-7653-8989-034c9c8daaf7",
+      "source_prefix_bytes": 378600,
+      "actual_sha256": "9bbd783865d4f25d8367b93412f8c6a8c2aa27b05d1aefea7fb94dcdb1bc531a",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-TRANSLATION",
+      "agent_id": "01a0d1e2-5845-7401-ba0d-8d4ec267681c",
+      "source_prefix_bytes": 408503,
+      "actual_sha256": "15c474706ab8587ab05243aef81585076cc594f269368853b77c45fc41eb6d1b",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "A-PRODUCTION",
+      "agent_id": "01a0d1e2-59ed-7e23-8a75-cdd3413f413f",
+      "source_prefix_bytes": 337254,
+      "actual_sha256": "b1045c2c7698b1a9679f52bfe9af33445dda55e7a879cabe824dfba2e46d7025",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    },
+    {
+      "role": "P-SYSTEMS",
+      "agent_id": "01a0d0d9-1f95-7211-8093-c26e28e6ebee",
+      "source_prefix_bytes": 5454335,
+      "actual_sha256": "3c7d04b897d0596463bc006fca9c246d56749fb03c96247142248f4cc1c3f39b",
+      "hash_match": true,
+      "within_source": true,
+      "ends_at_existing_lf": true
+    }
+  ],
+  "count": 17,
+  "all_match": true,
+  "limits": "Reads only exact declared prefixes into hash memory; raw content neither displayed nor copied. Confirms bytes and LF boundaries, not a certified timestamp or semantic completeness."
+}

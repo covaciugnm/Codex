@@ -1,0 +1,194 @@
+A-QAMANAGER / RES-001 / r03 — jurnal propriu
+Evaluator: 01a0d0f3-8249-7d91-95f4-ef806130bebe
+Data: 2026-09-24, Europe/Bucharest +03:00.
+Control structural nou: Gatekeeper.load(), verify_contract() recursiv, audit() separat pentru fiecare raport cu seturi reviewer/role distincte, verify_unchanged(). Nu s-a schimbat manifestul și nu s-a folosit un meta fictiv pentru a aproba produsul.
+Pentru fiecare evidence: SHA-256 și namespace propriu; pentru :L verificată limita fizică, pentru # existența ancorei explicite/titlului. Susținerea semantică decisivă este consemnată în MD, nu dedusă din existența ancorei.
+Baseline global: 374 fișiere fixate, fără a declara hashul registrelor live. JSON strict fără duplicate și schema v2; bundle/criterii/ponderi/timestamp/ID/rol conform gatekeeper. Control MD-JSON suplimentar și aritmetică Fraction, fără scor meta.
+În auxiliarul MD-JSON prima selecție căuta criteriul și în coloanele narative și a prins două rânduri pentru „control”; s-a oprit. Selectarea exactă a primei coloane a fost corectată și toate cele 30 rânduri au fost reverificate. Eroare de harness QA, nu defect al raportului, fără scrieri în surse.
+Arhive: citire read-only, verificare rezolvare în folderul exact, SHA index=sidecar, fiecare fișier indexat SHA/lungime și inventar fără intrări în plus; byte-comparație intrări r03, primari și suplimente în primary-complete. Fără creare arhivă sau restaurare fizică QA.
+Copii plate: bytes original=copie și SHA declarat în provenienta.json; metaraport r02 versus v02 are aceleași câmpuri semantice. Probele v02 comparate cu bytes r02 conservați, nu cu live r03 modificat. Nu se ingerează archive-tree; căile de sursă ale observațiilor nu sunt supplemental_evidence_files.
+Jurnalele primare sunt probe atribuite emitentului. Testele lor nu sunt prezentate ca rerulate de QA. Niciun TEST nu este scor editorial.
+
+
+Retest QA T01: citire integrală A108/B190/R204 și verificarea O01-O18. T02: cele patru identificări BOOKS unice, surse SITE_APP/CAT targetate, HBT L1-L3/L111-L120, N P1-P5, Z.zip premise L40-L50/L76-L89 (SHA membru 32bf3e4e6c5094259461968fa2cbf1d3236517f789b03021cb089da2831b4e61), SEL secțiuni nume/handoff/MYTHICA. T03: comparare 18x7 celule cu r01, două modificări locale, 124 neschimbate; fiecare pereche aplicată are două opere. T04: contract/dependențe/historic și audituri actuale. Citite finding original, plan T01-T04, precizarea G00 și corectarea GOV integral. META-RES-001-r02-F01: măsură îndeplinită, closed la retest QA r03 numai pentru eroarea auditului; r02/v02 RETURN rămân istorice. G01 nu este aprobat.
+
+REZULTATE OBSERVATE (nu declarații de suplimente):
+{
+  "at": "2026-09-24T04:18:12.615327+00:00",
+  "package": "RES-001",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/RES-001-r03.json",
+    "sha256": "15462dd9ab698261300adb09be2caa7049a76710bcee27194e719c0de8ca10e8"
+  },
+  "inputs": 82,
+  "primary_reports": [
+    {
+      "path": "05_AUDIT/RES-001/A-GOVERNANCE-r03.json",
+      "sha256": "e7b8221f7584e574da5bc139275b401d4a7f5002c1e5457d3d39b1612cb8a4ad",
+      "reviewer": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "references": 32,
+      "supplements": [
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r03.md",
+          "sha256": "0300d0ea15e9698736f4ad943579923a6419d8d49436af1a4f48019fb58c6fd8"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-corectare-r03.md",
+          "sha256": "16e8c8b00e6bc2d943d1bd97753d755035b7c49d7519e50a8ee0591beab0fcac"
+        }
+      ],
+      "scores": [
+        967,
+        966,
+        970,
+        974,
+        972
+      ]
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-SOURCES-r03.json",
+      "sha256": "900cdd70b19d21b089020ccaa57e8919240a9825ee023c15359cf1a0bd5b3c4f",
+      "reviewer": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+      "references": 41,
+      "supplements": [
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03.md",
+          "sha256": "5ba586645e6f920383c3456836e36313398a2cdfbeaf9380200e06fa163f41cb"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+          "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99"
+        }
+      ],
+      "scores": [
+        968,
+        970,
+        966,
+        974,
+        970
+      ]
+    }
+  ],
+  "structural_errors": [],
+  "primary_evidence_references": 73,
+  "all_six_reports_total_references": 198,
+  "unique_baseline_inputs_global": 374,
+  "archives": [
+    {
+      "id": "RES-001",
+      "round": "r01-after-audit",
+      "entries": 186,
+      "index_sha256": "272fddac266fcdb77b90087c11f6e673ba12b9dc8992b34945e1fb340626f351",
+      "receipt": "not separately checked",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "RES-001",
+      "round": "r02-before-audit",
+      "entries": 209,
+      "index_sha256": "588c124e472f5a14c7c1815ceefbcb8b20181b0cc14023225943ccb7f6138e4f",
+      "receipt": "not separately checked",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "RES-001",
+      "round": "r02-after-audit-v02",
+      "entries": 361,
+      "index_sha256": "e883403d7c51d88f2ed88d0799eaad5c5e3c0d76fa90d7afe79a069a7a99795c",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "RES-001",
+      "round": "r03-before-audit",
+      "entries": 365,
+      "index_sha256": "156ee1ed3d41f402d205425c9da7de9e102480798e7766a4e38b1e79ad97390d",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "RES-001",
+      "round": "r03-primary-complete",
+      "entries": 481,
+      "index_sha256": "1a09a1facd8a54b324f9c94e8235cecfdea5d18517933bf033d6cd957f9c8e92",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    }
+  ],
+  "flat_copies": [
+    "06_REGISTRU/INTRARI_META_R02/RES-001_r01-after-audit_index.json",
+    "06_REGISTRU/INTRARI_META_R02/RES-001_r01-after-audit_index.sha256",
+    "06_REGISTRU/INTRARI_META_R02/RES-001_r02-before-audit_index.json",
+    "06_REGISTRU/INTRARI_META_R02/RES-001_r02-before-audit_index.sha256"
+  ],
+  "delta": {
+    "id": "RES-001",
+    "changed": [
+      "02_DOCUMENTARE/APLICATII_WORKID_REALE.md"
+    ],
+    "unchanged": 2
+  },
+  "weighted_primary_scores": [
+    {
+      "audit_id": "RES-001-A-GOVERNANCE-r03",
+      "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "reviewer_role": "A-GOVERNANCE",
+      "score": 969.35
+    },
+    {
+      "audit_id": "RES-001-A-SOURCES-r03-01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+      "reviewer_agent_id": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+      "reviewer_role": "A-SOURCES",
+      "score": 969.1
+    }
+  ],
+  "RES": {
+    "BM_rows": 18,
+    "columns": 7,
+    "r01_cell_changes": [
+      {
+        "row": 5,
+        "col": 6,
+        "old": "Transmitere permisă de canon.",
+        "new": "Transmitere permisă de canonul seriei/WorkID-ului vizat."
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "old": "Pericol proporțional cu tonul seriei.",
+        "new": "Pericol compatibil cu tonul și rama seriei/WorkID-ului vizat."
+      }
+    ],
+    "workids": {
+      "marienburg": [
+        "noir",
+        "noirvol"
+      ],
+      "sunrise": [
+        "aurora",
+        "cycle"
+      ],
+      "crown": [
+        "mythica",
+        "crowns"
+      ],
+      "hotelul": [
+        "amoris",
+        "isabella"
+      ]
+    },
+    "E_refs_exact": [
+      "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+      "02_DOCUMENTARE/INTRARI_REFERINTA/CAT.md",
+      "02_DOCUMENTARE/INTRARI_REFERINTA/index_origine.json",
+      "02_DOCUMENTARE/INTRARI_REFERINTA/SUPLIMENT_r02.json",
+      "02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt",
+      "02_DOCUMENTARE/INTRARI_REFERINTA/Z.zip",
+      "02_DOCUMENTARE/INTRARI_REFERINTA/N.docx",
+      "02_DOCUMENTARE/CANON_EXISTENT.md",
+      "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md"
+    ]
+  }
+}
+
+Limite: fișierele hashuit-citite pentru integritate nu sunt toate lecturi editoriale integrale. Fără web nou/rawlogs, fără calibrare refăcută ori retroactivă, fără audit literar nou. Nu este recuperarea finală r03. MD și acest jurnal se fixează înaintea JSON meta; control final read-only după ultimul edit.

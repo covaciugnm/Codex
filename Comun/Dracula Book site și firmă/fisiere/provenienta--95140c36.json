@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-24T11:58:12.4587923+03:00",
+  "purpose": "Preserve exact manager drafts inspected by P-CANON before HM-P01/HM-P02 production correction; not a formal submission",
+  "copies": [
+    {
+      "source": "07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r02.md",
+      "copy": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREDEPUNERE_r02/FISA_LIVRABIL_G01_r02.md",
+      "sha256": "d904b796016405c01bda89e08348309b18b4526b4aff57a4ef20f1433450de6d",
+      "size_bytes": 6190,
+      "byte_identical": true
+    },
+    {
+      "source": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+      "copy": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREDEPUNERE_r02/TRASABILITATE_DEPUNERE_r02.md",
+      "sha256": "8be176331540a3aeac22782ccdbca2c8257210b94c72d7b99fefcabd15b6ca22",
+      "size_bytes": 8734,
+      "byte_identical": true
+    }
+  ]
+}

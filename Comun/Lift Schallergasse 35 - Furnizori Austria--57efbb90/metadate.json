@@ -1,0 +1,23 @@
+{
+  "id": "01a0cd29-4042-7dc0-bd63-ba7957efbb90",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789989987,
+  "updated_at": 1790005756,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Lift Schallergasse 35 - Furnizori Austria",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1057068,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 275,
+  "message_count": 275,
+  "content_sha256": "77e6483c1029412daf5f329d5c11a9111fe40699819578f4c80a43007659933e",
+  "files_copied": 11,
+  "references_not_copied": 27
+}

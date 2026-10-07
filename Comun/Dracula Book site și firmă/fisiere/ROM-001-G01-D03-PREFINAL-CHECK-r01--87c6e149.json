@@ -1,0 +1,189 @@
+{
+  "checked_at": "2026-09-24T11:52:33.5630374+03:00",
+  "status": "PREFINAL_READ_ONLY",
+  "old_path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r02.md",
+  "old_sha256": "6ee676184ae2d21bbdffb57459158e18fae35ffb0ec3f2a7d7de4533d0b2b4a4",
+  "new_path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md",
+  "new_sha256": "a7abc0c057541708349896d0e9a5263d4b19dfde7529b60ec5b7eb971c8fa9d1",
+  "method": "Each complete H-C1-C16/H-N1-N6 section until next level-2 heading; CRLF normalized to LF, outer whitespace trimmed; case-sensitive equality. Entire git no-index diff also read; exit1 means differences, not command failure. Git made no writes.",
+  "rows": [
+    {
+      "id": "H-C1",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1434,
+      "new_chars": 1434
+    },
+    {
+      "id": "H-C2",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 2871,
+      "new_chars": 2871
+    },
+    {
+      "id": "H-C3",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1444,
+      "new_chars": 1444
+    },
+    {
+      "id": "H-C4",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 983,
+      "new_chars": 983
+    },
+    {
+      "id": "H-C5",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1210,
+      "new_chars": 1210
+    },
+    {
+      "id": "H-C6",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 2011,
+      "new_chars": 2011
+    },
+    {
+      "id": "H-C7",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 862,
+      "new_chars": 862
+    },
+    {
+      "id": "H-C8",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 810,
+      "new_chars": 810
+    },
+    {
+      "id": "H-C9",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 852,
+      "new_chars": 852
+    },
+    {
+      "id": "H-C10",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1597,
+      "new_chars": 1597
+    },
+    {
+      "id": "H-C11",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 962,
+      "new_chars": 962
+    },
+    {
+      "id": "H-C12",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 2082,
+      "new_chars": 2082
+    },
+    {
+      "id": "H-C13",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1453,
+      "new_chars": 1453
+    },
+    {
+      "id": "H-C14",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 597,
+      "new_chars": 597
+    },
+    {
+      "id": "H-C15",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 800,
+      "new_chars": 800
+    },
+    {
+      "id": "H-C16",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1193,
+      "new_chars": 1193
+    },
+    {
+      "id": "H-N1",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1721,
+      "new_chars": 1721
+    },
+    {
+      "id": "H-N2",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 651,
+      "new_chars": 651
+    },
+    {
+      "id": "H-N3",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 4106,
+      "new_chars": 4106
+    },
+    {
+      "id": "H-N4",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 3207,
+      "new_chars": 3207
+    },
+    {
+      "id": "H-N5",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1035,
+      "new_chars": 1035
+    },
+    {
+      "id": "H-N6",
+      "old_present": true,
+      "new_present": true,
+      "equal_normalized_text": true,
+      "old_chars": 1353,
+      "new_chars": 1353
+    }
+  ],
+  "all22_equal": true,
+  "limitations": "Prefinal file only. Final reception must confirm same hash or recheck changed bytes. Not independent audit or finding closure."
+}

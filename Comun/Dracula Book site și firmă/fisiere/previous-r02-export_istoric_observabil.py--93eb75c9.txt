@@ -1,0 +1,101 @@
+"""Export only observable records from nine explicitly scoped task logs.
+Never copy raw logs, reasoning, system/developer content or internal metadata.
+Derived audit artifact; no modifications to source logs or prior captures.
+"""
+from pathlib import Path
+from datetime import datetime,timezone
+from collections import Counter
+import argparse,hashlib,json,re
+ROOT=Path(__file__).resolve().parent.parent
+START="2026-09-24T00:35:17.566Z"
+def digest(data):return hashlib.sha256(data).hexdigest()
+def config_path(relative):
+    candidate=(ROOT/relative).resolve()
+    if not candidate.is_relative_to(ROOT.resolve()):raise ValueError("Config outside workshop")
+    return candidate
+def clean_value(v):
+    if isinstance(v,dict):
+        return {k:clean_value(x) for k,x in v.items() if k not in
+          {"internal_chat_message_metadata_passthrough","encrypted_content","reasoning","analysis","system_prompt","developer_instructions"}}
+    if isinstance(v,list):return [clean_value(x) for x in v]
+    return v
+def redact(v):
+    encoded=json.dumps(clean_value(v),ensure_ascii=False)
+    count=0
+    for pat in [r"\bsk-[A-Za-z0-9_-]{20,}",r"(?i)\bBearer\s+[A-Za-z0-9._~+/-]{20,}"]:
+        encoded,n=re.subn(pat,"[SECRET_REDACTED]",encoded);count+=n
+    return json.loads(encoded),count
+def select(payload):
+    kind=payload.get("type")
+    if kind=="message":
+        role=payload.get("role")
+        phase=payload.get("phase")
+        channel=payload.get("channel")
+        if role not in {"user","assistant"}:return None
+        if role=="assistant" and phase not in {"commentary","final_answer"} and channel not in {"commentary","final"}:return None
+        content=[]
+        for c in payload.get("content",[]):
+            if c.get("type") in {"input_text","output_text","text"}:
+                content.append({"type":c["type"],"text":c.get("text","")})
+            else:
+                content.append({"type":c.get("type"),"note":"Media omitted here; original task artifacts remain separate."})
+        return {"type":"message","role":role,"phase":phase,"channel":channel,"content":content}
+    if kind in {"function_call","custom_tool_call"}:
+        return {k:payload[k] for k in ("type","call_id","name","arguments","input","status") if k in payload}
+    if kind in {"function_call_output","custom_tool_call_output"}:
+        return {k:payload[k] for k in ("type","call_id","output") if k in payload}
+    return None
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--round",required=True)
+    parser.add_argument("--sources",default="06_REGISTRU/surse_export_istoric.json")
+    args=parser.parse_args()
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]{1,60}",args.round):raise SystemExit("Unsafe round")
+    dest=ROOT/"06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL"/args.round
+    if dest.exists():raise SystemExit("Existing capture; no overwrite")
+    config=json.loads(config_path(args.sources).read_text(encoding="utf-8"))
+    prepared=[];entries=[]
+    for source in config:
+        path=Path(source["path"])
+        if not path.name.endswith(source["agent_id"]+".jsonl"):raise SystemExit("Identity/path mismatch")
+        raw=path.read_bytes()
+        if not raw.endswith(b"\n"):raw=raw.rsplit(b"\n",1)[0]+b"\n"
+        selected=[];omitted=Counter();messages=[];redactions=0
+        for line_no,line in enumerate(raw.splitlines(),1):
+            if not line.strip():continue
+            item=json.loads(line)
+            if str(item.get("timestamp",""))<START:continue
+            if item.get("type")!="response_item":
+                omitted[item.get("type","unknown")]+=1;continue
+            p=item.get("payload",{})
+            record=select(p)
+            if record is None:
+                omitted["response_item:"+str(p.get("type"))+":"+str(p.get("role",""))]+=1;continue
+            record,n=redact(record);redactions+=n
+            rec={"timestamp":item.get("timestamp"),"source_line":line_no,**record}
+            selected.append(rec)
+            if record["type"]=="message":
+                text="\n".join(c.get("text","") for c in record["content"] if "text" in c)
+                messages.append(f"## {item.get('timestamp')} — {record['role']} — ligne {line_no}\n\n{text}\n")
+        encoded=("\n".join(json.dumps(s,ensure_ascii=False) for s in selected)+"\n").encode("utf-8")
+        readable=("# Observable messages / "+source["role"]+"\n\nRecovered from explicitly scoped task log. Original event timestamps; recovery is later. Excludes reasoning, platform instructions and raw hidden metadata.\n\n"+"\n".join(messages)).encode("utf-8")
+        for ext,data in [("jsonl",encoded),("md",readable)]:
+            name=source["role"]+"."+ext
+            prepared.append((name,data))
+        entries.append({**source,"source_prefix_bytes":len(raw),"source_prefix_sha256":digest(raw),
+          "captured_records":len(selected),"messages":len(messages),"redactions":redactions,
+          "first_event":selected[0]["timestamp"] if selected else None,"last_event":selected[-1]["timestamp"] if selected else None,
+          "omitted_categories":dict(omitted),
+          "output":{"path":source["role"]+".jsonl","sha256":digest(encoded),"bytes":len(encoded)},
+          "readable_messages":{"path":source["role"]+".md","sha256":digest(readable),"bytes":len(readable)}})
+    index={"created_at":datetime.now(timezone.utc).isoformat(),"start_inclusive":START,"scope":"Only these nine task logs, this editorial workshop; not prior strategy turns.",
+       "limits":["Recovery from locally available log, not an external certified timestamp.","Captured prefix per source; later events require a new capture.","Raw logs, reasoning/encrypted content, system/developer messages and platform internal metadata are never copied.","Assistant messages without explicit public phase/channel are conservatively omitted and counted; inspect coverage before claiming completeness.","Primary tool output can already be truncated by the original tool; export does not recreate missing output.","Secrets matching known token patterns are redacted and counted; this is not a universal secret detector.","Readable MD contains message text only; JSONL also contains observable tool calls/results.","No source log or previous capture is changed."],
+       "sources":entries}
+    dest.mkdir(parents=True,exist_ok=False)
+    for name,data in prepared:
+        with (dest/name).open("xb") as f:f.write(data)
+    data=(json.dumps(index,ensure_ascii=False,indent=2)+"\n").encode("utf-8")
+    with (dest/"index.json").open("xb") as f:f.write(data)
+    with (dest/"index.sha256").open("x",encoding="ascii") as f:f.write(digest(data)+"\n")
+    print(json.dumps({"capture":str(dest),"sources":len(entries),"records":sum(e["captured_records"] for e in entries),"messages":sum(e["messages"] for e in entries),"index_sha256":digest(data),"source_logs_modified":False}))
+if __name__=="__main__":main()

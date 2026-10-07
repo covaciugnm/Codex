@@ -1,0 +1,95 @@
+[
+  {
+    "source_reference": "01. Acte Proprietate",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5a99206c-f945-4511-a5d3-22f4e427459f\\scratchpad\\ocr_luchian.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\5a99206c-f945-4511-a5d3-22f4e427459f\\\\tool-results\\\\bc5udaw7z.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/bc5udaw7z--f1d1d9a7.txt",
+    "bytes": 154016,
+    "sha256": "18f5a0b99a2e02c2bdb5e9d864522e85935e40757132d9a79e6d93cfd53f046f"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\5a99206c-f945-4511-a5d3-22f4e427459f\\\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\01. FIRME",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\02. PERSOANE",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\02. PERSOANE\\COVACIU MARIA-ELENA - 2700806011126",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\02. PERSOANE\\VAIDA ELENA - 2490313011121",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\2019\\SCANARI",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\2019\\SCANARI\\CF - Vaida Elena.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/CF - Vaida Elena--ae803b00.pdf",
+    "bytes": 805341,
+    "sha256": "44cac0e7ae3b1f554189d1785ef18582407c465f31c53636579d42099367941b"
+  },
+  {
+    "source_reference": "Z:\\2019\\SCANARI\\Extras CF Vaida Elena.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Extras CF Vaida Elena--d4bcc0ba.pdf",
+    "bytes": 1626100,
+    "sha256": "c8c6a7104d2a156c791cbbcd55dee723faef96d2245d7482bd047a61b94f0df4"
+  },
+  {
+    "source_reference": "Z:\\2019\\SCANARI\\cVC Baba Covaciu - Imobil St Luchian.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/cVC Baba Covaciu - Imobil St Luchian--1dabdda4.pdf",
+    "bytes": 2392841,
+    "sha256": "53f3310d5f60cf5b1eeaee9ff16a68c3e081ceea441c616fb8fe6b656e0ddf49"
+  },
+  {
+    "source_reference": "Z:\\\\2019\\\\SCANARI\\\\CF - Vaida Elena.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/CF - Vaida Elena--ae803b00.pdf",
+    "bytes": 805341,
+    "sha256": "44cac0e7ae3b1f554189d1785ef18582407c465f31c53636579d42099367941b"
+  },
+  {
+    "source_reference": "Z:\\\\2019\\\\SCANARI\\\\Extras CF Vaida Elena.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Extras CF Vaida Elena--d4bcc0ba.pdf",
+    "bytes": 1626100,
+    "sha256": "c8c6a7104d2a156c791cbbcd55dee723faef96d2245d7482bd047a61b94f0df4"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

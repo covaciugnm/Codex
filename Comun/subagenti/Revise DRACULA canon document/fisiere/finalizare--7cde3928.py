@@ -1,0 +1,23 @@
+from pathlib import Path
+import re,hashlib,json,difflib
+R=Path(r'D:\00. Downloads\Dracula Book\DRACULA-COMICS-CODEX-G0-20260924'); D=R/'00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924'; P=R/'01_CANON/00_CANON_NUCLEU.md'
+b=P.read_bytes(); s=b.decode('utf-8'); (D/'iteratia_1.md').write_bytes(b)
+def para(prefix,new):
+ global s
+ lines=s.splitlines(True); found=[i for i,l in enumerate(lines) if l.startswith(prefix)]; assert len(found)==1,(prefix,found)
+ lines[found[0]]=new+'\n'; s=''.join(lines)
+para('> Un rând pentru fiecare propunere', '> Fiecare propunere are decizie: acceptat, modificat, respins, amânat, delegat; „blocat” indică Producătorul. V4-nn: §16.1; A-n/B-n/C-n/J-n/AR-n/S-n/P-n: registrul v3 (§16.2). ID-urile jurnalului se păstrează: B-An/B-Bn/B-Cn/C-Pn/REG-1/AUD-n/SR-n/DP-n/OBS-n. M<n>, S<n>, PR<n>: mecanisme, semințe, moduri din `02_RESEARCH/`; A-Rn ≠ AR-n. Surse: registrul Producătorului; jurnalul §5; rapoartele A/B/C; auditurile G0-CANON R2 („AU-C/M/K”) și G0-CANON-v4 R1 („v4R1 AC/AM/AK”). Dovezi și aviz v4.2: `00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/RAPORT_REVIZIE.md`; avizele anterioare: `00_STUDIO/rapoarte/S_showrunner.md`. Alinierea echipelor: G1.')
+para('**Prezentarea (*pitch*).**','**Prezentarea (*pitch*).** Istoria îl crede mort din 1476; tradiția mormântului de la Snagov îi deschide legenda (§3). Vlad Drăculea a trăit cinci secole sub alte nume: balurile Vienei, trenurile Belle Époque, New Yorkul anilor ’20, Monte-Carlo și Riviera. Imperiul conților de Făgăraș l-a construit prin cultură, disciplină, prietenii și investiții; Fundația Sânziana finanțează spitale, cercetare și burse. Revenit în Transilvania, frumos, liber și burlac, are simțuri supradezvoltate și un Cod jurat cu sânge. Ziua și noaptea, expertul în artă rezolvă cazurile imposibile alături de comisarul-șef Ioana Mureșan, la Brigada Cazuri Speciale, unitate fictivă a Poliției Române. Demonstrează și predă justiției. Fratele îi cere socoteală la fiecare jumătate de secol; un ucigaș care îi cunoaște identitățile lasă la locul crimelor siluete din trecutul lui.')
+para('**Deciziile blocate ale Producătorului:', '**Deciziile blocate: 15.** Rezumatul nu înlocuiește `01_CANON/01_DECIZII_PRODUCATOR.md` (24.09.2026; conversația Producător–Showrunner). Procedura v4, `00_STUDIO/audit/00_PROCEDURA_PIPELINE_v4.js` (SHA-256 `2c13db6a…3ead`), reia deciziile 1–14; decizia 15 figurează în registru. Titlul și numele de lucru eliminate nu se reproduc.')
+para('> Fiecare popas are:', '> Fiecare popas fixează orașul, anii, identitățile, obiectivul, clișeul și povestea; stilul: §5.2. „Capitale” include centre culturale și financiare; „Hollywood” include cinematografia britanică. **Testul anilor:** obiectivul, vehiculul sau evenimentul trebuie să existe la data scenei, nu doar până la finalul popasului; obiectivul trebuie să mai existe atunci. Bastilia dispare din 1789, vechea Catedrală Sfântul Pavel în 1666. **Interdicții:** Podul Suspinelor (1600–1603) la #2; Opera de Stat vieneză (1869) la #12; Walk of Fame (1958–1960) la #17; Academia din Sankt Petersburg (1724–1725) înainte de #9. Ficțiunea respectă golurile documentare și Codul în vigoare la scenă (§7). Înainte de octombrie 1604: ziua la adăpost; apoi, acțiune și în soare (R4). Detaliile se aliniază la G1 în `04_LUME/06_TRASEUL_CAPITALELOR.md`.')
+para('  - **Protocolul Mureșan', '  - **Protocolul Mureșan (după Ep. 10):** Ioana păstrează taina. Privirea asupra altor oameni cere acordul lor și al Ioanei, exceptând art. 7; asupra Ioanei rămâne interzisă (R3). Criptele oferă numai analiză legală, autorizată (R9). În locuințe private intră cu invitație sau mandat. Detaliile: B și D1.')
+s=s.replace('**Regula de verificare:**','**Regula de verificare:**')
+# Excepțiile nu se pierd în rezumate.
+s=s.replace('din 1611, un Hanzer îl însoțește în fiecare popas (§8);','din 1611, un Hanzer îl însoțește, cu excepția frontului 1915–1916 (§8);')
+s=s.replace('un Hanzer îl însoțește pe Vlad în fiecare popas, reaprinde','un Hanzer îl însoțește pe Vlad, cu excepția de mai jos, reaprinde')
+s=s.replace('în 2026 nu apare în acte (Austria a abolit titlurile nobiliare în 1919, România nu le recunoaște)','în 2026 nu apare în actele sale (rangul familiei este ficțiune; formalitățile: H1)')
+assert P.read_bytes()==b, 'SCRIERE CONCURENTA'
+P.write_text(s,encoding='utf-8',newline='\n')
+base=(D/'inainte/00_CANON_NUCLEU.md').read_text(encoding='utf-8-sig')
+(D/'diff_propriu.patch').write_text(''.join(difflib.unified_diff(base.splitlines(True),s.splitlines(True),fromfile='baza_izolata_eef72462',tofile='canon_v4.2')),encoding='utf-8')
+print('Cuvinte:',len(s.split()),'SHA256:',hashlib.sha256(P.read_bytes()).hexdigest())

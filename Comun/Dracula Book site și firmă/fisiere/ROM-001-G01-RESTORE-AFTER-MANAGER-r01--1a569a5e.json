@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-09-24T11:35:29.5842833+03:00",
+  "checker_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "scope": "Full MD read and structured result inspected; all recovered sources rehashed against fixed flat index. Not an editorial audit or validator rerun.",
+  "recovered_root": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\09_RECUPERARI\\ROM-001-G01-r01-after-20260924T082739Z-f607d274",
+  "files_checked": 746,
+  "actual_files": 746,
+  "all_match": true,
+  "mismatches": [],
+  "validator_exit_code": 2,
+  "validator_passed": false,
+  "validator_errors": [
+    "05_AUDIT/ROM-001-G01/r01/A-CANON.json: FINDING: unresolved medium finding ROM-001-G01-A-CANON-F01 in 05_AUDIT/ROM-001-G01/r01/A-CANON.json",
+    "ROLES: missing passing audits for ['A-CANON']",
+    "META: check evidence must explicitly pass"
+  ],
+  "report_hashes": [
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r01.md",
+      "sha256": "ebe3483d0b94efb8e3c63a15539ef246ec0a62d1e79601c170de8b3483648acf"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r01.json",
+      "sha256": "d0104554fe9fd8280409d9c41822bcc26690962837f3d1f8c6cf5a1493ed65a8"
+    }
+  ],
+  "limitations": "RETURN round conserved. No finding closed. Cold execution by P-SYSTEMS; manager rehash only."
+}

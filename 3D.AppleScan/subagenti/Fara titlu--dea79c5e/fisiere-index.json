@@ -1,0 +1,37 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\02_proiect_tehnic\\03_robot_transport_si_harta.md",
+    "status": "copiat",
+    "saved_path": "fisiere/03_robot_transport_si_harta--a7df8416.md",
+    "bytes": 19827,
+    "sha256": "e9d0d1ec40235bb659a670870893bd588eccf957d0b9ff32b017d7086ade1690"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\02_proiect_tehnic\\04_integrare_operare_si_bugete.md",
+    "status": "copiat",
+    "saved_path": "fisiere/04_integrare_operare_si_bugete--fb61b3aa.md",
+    "bytes": 17102,
+    "sha256": "60f4a569f3f231a1fe75c874c488c988e5d3ef99c64737e8243d3c4b1ba9b350"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\03_contracte\\eva_interfaces.msg.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/eva_interfaces.msg--f212a384.txt",
+    "bytes": 2051,
+    "sha256": "3ea1a86668453bc933fdf60659fd0c7714deb9bfaa447d91ff6aa1b9434cd108"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\04_validare\\robot_contract_checks.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/robot_contract_checks--aeb2c7c7.cjs",
+    "bytes": 11789,
+    "sha256": "95bcfeee727903d8a7ac5fb97906086c8c09496ed5a20ed5852e2bb81540e8f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\06_audit\\review_metrologie_R1.md",
+    "status": "copiat",
+    "saved_path": "fisiere/review_metrologie_R1--f57e5758.md",
+    "bytes": 4644,
+    "sha256": "4b3a2881212a14d802f5a83215825a152dafd76a6452b0d6fe1d363e66edc35e"
+  }
+]

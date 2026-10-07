@@ -1,0 +1,16 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/R2_audit_canon.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R2_audit_canon--4f85ea33.md",
+    "bytes": 10530,
+    "sha256": "75b11f96f65523b0841d3cf14e8f344a5d72e11c97d85c975be8378009f454ac"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-STUDIO-v4/R4_audit_canon.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R4_audit_canon--92ce969d.md",
+    "bytes": 11809,
+    "sha256": "6613628da8a166f3d3eea05e0db48519a8f1be3520eddd5b03796a1bf5705b80"
+  }
+]

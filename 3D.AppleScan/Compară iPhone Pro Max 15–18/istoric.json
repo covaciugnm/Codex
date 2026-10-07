@@ -1,0 +1,1090 @@
+{
+  "metadata": {
+    "id": "01a10adb-4cc5-7b41-ab2d-ee6880cf01c1",
+    "cwd": "\\\\?\\UNC\\192.168.100.151\\site-uri\\3dscan.eva-org.com",
+    "created_at": 1791183506,
+    "updated_at": 1791183657,
+    "archived": 0,
+    "source": "vscode",
+    "title": "Compară iPhone Pro Max 15–18",
+    "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+    "project": "3D.AppleScan",
+    "assignment_method": "app_assignment",
+    "parent_thread_id": null,
+    "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+    "source_bytes": 354429,
+    "invalid_json_lines": 0,
+    "history_source": "items",
+    "rollout_exists": true,
+    "item_count": 10,
+    "message_count": 4,
+    "content_sha256": "e5f069a7a86b4be04187675b88bb4fd222b46ba21c51f89043a3db6ec7e4c5cf"
+  },
+  "items": [
+    {
+      "ordinal": 12,
+      "timestamp": "2026-10-05T06:59:21.253Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "userMessage",
+        "id": "01a10adc-221d-7dc3-bd17-35aef6dfeb9f",
+        "clientId": "c04be01e-0814-46cc-8851-56a1632eec86",
+        "content": [
+          {
+            "type": "text",
+            "text": "Genereaza o tabela comparativa intre iphone 15/16/17/18 pro max la capacitate de procesare si camere si alte caracteristici tehnice de performanata care difera sau sunt identice \n",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1791183561253
+    },
+    {
+      "ordinal": 13,
+      "timestamp": "2026-10-05T06:59:25.443Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_059c8f93ca353f57016ac34b31431887d2a3f50c61f1093bd8",
+        "text": "Voi verifica specificațiile oficiale Apple și voi compara procesoarele, camerele și celelalte caracteristici relevante pentru performanță. Voi preciza separat dacă informațiile despre iPhone 18 Pro Max sunt confirmate.\n",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791183564430
+    },
+    {
+      "ordinal": 17,
+      "timestamp": "2026-10-05T06:59:28.405Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-b5ef0d10-65f5-449b-91e5-a47625a9b42f",
+        "query": "site.apple.com iPhone 18 Pro Max technical specifications ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "site.apple.com iPhone 18 Pro Max technical specifications",
+            "site.apple.com iPhone 17 Pro Max technical specifications",
+            "site.apple.com iPhone 16 Pro Max technical specifications",
+            "site.apple.com iPhone 15 Pro Max technical specifications"
+          ]
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "www.tomsguide.com",
+            "ref_id": "turn0news12",
+            "snippet": "In our iPhone 16 Pro Max review, we highlighted standout additions like Camera Control, an expansive 6.9-inch Super Retina XDR display, and Apple Intelligence right",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/y2ftDCfeZzatu-dOVHhMT1DZIpPljvYXducxuRJ4t-x_2lrM78PPJUAWkJGtxGdygelQQi0c9JCZj3gONE4muU83gvuHA7ySo2D1nl-mbYRlVmtFlv49urZmtn5JO5NL",
+            "title": "I tested the iPhone 18 Pro Max vs. iPhone 16 Pro Max side-by-side: Should you upgrade?",
+            "url": "https://www.tomsguide.com/phones/iphones/i-tested-the-iphone-18-pro-max-vs-iphone-16-pro-max-side-by-side-should-you-upgrade"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn0search0",
+            "snippet": "For a complete list of Apple apps available on iPhone, see apple.com/apps. ... See the iPhone 18 Pro and iPhone 18 Pro Max Product Environmental",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple",
+            "url": "https://www.apple.com/iphone-18-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn0search1",
+            "snippet": "# iPhone 18 Pro Max - Tech Specs ... * All of the materials used in Apple products, accessories, and packaging are covered by the",
+            "title": "iPhone 18 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-euro/148591"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn0search2",
+            "snippet": "Image: iPhone 18 Pro Max ... ### Apple Intelligence y Siri AI",
+            "title": "iPhone 18 Pro Max - Especificaciones técnicas - Soporte técnico de Apple",
+            "url": "https://support.apple.com/es-la/148591"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn0search3",
+            "snippet": "The iPhone 18 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. ... Weblink",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE)",
+            "url": "https://www.apple.com/ie/iphone-18-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn0search4",
+            "snippet": "# iPhone 15 Pro Max - Tech Specs ... For details on 5G and LTE support, contact your provider and see apple.com/uk/iphone/cellular.",
+            "title": "iPhone 15 Pro Max - Tech Specs - Apple Support (IE)",
+            "url": "https://support.apple.com/en-ie/111828"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn0search5",
+            "snippet": "# iPhone 18 Pro Max",
+            "title": "iPhone 18 Pro Max Manuales y descargas - Soporte técnico de Apple",
+            "url": "https://support.apple.com/es-la/docs/iphone/301317"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn0search6",
+            "snippet": "# iPhone 18 Pro Max - 技术规格",
+            "title": "iPhone 18 Pro Max - 技术规格 - 官方 Apple 支持 (中国)",
+            "url": "https://support.apple.com/zh-cn/148591"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn0search7",
+            "snippet": "* Apple second-generation Ultra Wideband chip^{14} ... iPhone 18 Pro Max",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (NZ)",
+            "url": "https://www.apple.com/nz/iphone-18-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn0search8",
+            "snippet": "# iPhone 18 Pro Max - Caractéristiques techniques",
+            "title": "iPhone 18 Pro Max - Caractéristiques techniques - Assistance Apple",
+            "url": "https://support.apple.com/fr-afri/148591"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn0search9",
+            "snippet": "iPhone 17 Pro Max",
+            "title": "iPhone 17 Pro and 17 Pro Max - Technical Specifications - Apple (NZ)",
+            "url": "https://www.apple.com/nz/iphone-17-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn0search10",
+            "snippet": "# iPhone 15 Pro Max - 技术规格",
+            "title": "iPhone 15 Pro Max - 技术规格 - 官方 Apple 支持 (中国)",
+            "url": "https://support.apple.com/zh-cn/111828"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.phonearena.com",
+            "ref_id": "turn0search11",
+            "snippet": "# Apple iPhone 18 Pro Max ... Image: Apple iPhone 18 Pro Max Image",
+            "title": "Apple iPhone 18 Pro Max Full Specifications - PhoneArena",
+            "url": "https://www.phonearena.com/phones/apple-iphone-18-pro-max_id12880"
+          },
+          {
+            "type": "text_result",
+            "domain": "developer.apple.com",
+            "ref_id": "turn0search13",
+            "snippet": "PROPERTY OF APPLE INC. ... iPhone 17 Pro Max | 2",
+            "title": "iPhone 17 Pro Max",
+            "url": "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-17-pro-max.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "cdsassets.apple.com",
+            "ref_id": "turn0search14",
+            "snippet": "For information about Apple’s recycling program, recycling collection points, restricted substances and other environmental initiatives, visit apple.com/environment.",
+            "title": "*Use Restriction: This device is restricted to indoor use.",
+            "url": "https://cdsassets.apple.com/live/6GJYWVAV/information/locale/en-gb/iphone-16-pro-max-info.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "images.apple.com",
+            "ref_id": "turn0search15",
+            "snippet": "data and site-level feedback to make sure ... For more information, see apple.com/supplychain. ... iPhone 17 Pro and iPhone 17 Pro Max | Product Environmental",
+            "title": "iPhone 17 Pro and iPhone 17 Pro Max",
+            "url": "https://images.apple.com/au/environment/pdf/products/iphone/iPhone_17_Pro_and_iPhone_17_Pro_Max_PER_Sept2025.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.cuit.columbia.edu",
+            "ref_id": "turn0search16",
+            "snippet": "iPhone 17 Pro Max Specifications ... <tr><td></td><td>SIM</td><td>Nano-SIM + eSIM + eSIM (max 2 at a time; International)<br>eSIM + eSIM (8 or more, max 2 at",
+            "title": "iPhone 17 Pro Max Specifications",
+            "url": "https://www.cuit.columbia.edu/sites/default/files/content/iPhone%20Exchange%20App/iph17proMax.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn0search17",
+            "snippet": "We design our products to be energy efficient, long-lasting, and safe. iPhone 16 Pro and iPhone 16 Pro Max uses software and power-efficient components that",
+            "title": "iPhone 16 Pro and iPhone 16 Pro Max Product Environmental Report",
+            "url": "https://www.apple.com/hr/environment/pdf/products/iphone/iPhone_16_Pro_and_iPhone_16_Pro_Max_PER_June2025.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "icity.ge",
+            "ref_id": "turn0search18",
+            "snippet": "iPhone 15 Pro Max არის ფლაგმანური Apple-ის მოდელებიდან, განკუთვნილი მაღალი ხარისხის ფოტოგრაფიის, ვიდეოგადაღებისა და პროფესიონალური პროდუქტიულობისთვის.",
+            "title": "iPhone 15 Pro Max-ის უსაფრთხოება და ტექნიკური ანალიზი",
+            "url": "https://icity.ge/manual/iPhone-15-Pro-Max.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.techradar.com",
+            "ref_id": "turn0news19",
+            "snippet": "Apple iPhone 17 Pro Max review: Specs",
+            "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/WKamPTvFbyCkVDx8LRUuJh-1280-80.jpg",
+            "title": "The Apple iPhone 17 Pro Max is the best iPhone I've ever tested and I love it - even in Cosmic Orange",
+            "url": "https://www.techradar.com/phones/iphone/apple-iphone-17-pro-max-review"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.techradar.com",
+            "ref_id": "turn0news20",
+            "snippet": "The iPhone 16 Pro Max was already (and still is) an exceptional handset if you can pick one up at a discount from third-party retailers,",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/9ORcGiPtw4FIyGrYYLNsdq5xZQiCr03NmpJD4QS-aBJBQqKAp_xXYmaFoo7XnxxsK2nMKKozNlbXfDhdfbTSUgOoB0mRu8pF5Tblr02uMd9UtZbqPSPLZLwCq0hCZsfG",
+            "title": "The best iPhone: we've tried and tested all the Apple smartphones",
+            "url": "https://www.techradar.com/news/best-iphone"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tomsguide.com",
+            "ref_id": "turn0news21",
+            "snippet": "While the foldable i Phone Duo may be taking a lot of the spotlight, iPhone 18 Pro and iPhone 18 Pro Max deliver plenty of",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/admusvDSbSw84ADffv9BE6odceEVeeRXPACEL82r5M6XxNI1cJU_rJY4L--T0nfSCIklyuQgyAeR5uf04NBYZqyoCBfPfcO8CgLbCE-bINbukGOx5or2esBgcPJu-1DD",
+            "title": "iPhone 18 Pro and iPhone 18 Pro Max are official - price, release date, variable aperture camera and more",
+            "url": "https://www.tomsguide.com/phones/iphones/iphone-18-pro-and-iphone-18-pro-max-are-official-heres-what-you-need-to-know"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tomsguide.com",
+            "ref_id": "turn0news22",
+            "snippet": "[Image 0: Apple iPhone 18 Pro and Pro Max shown in hand][Image 1: Editor's Choice]",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/XuUX8j3nfFAXzNUTeMCjGXws_MeAsvmIsw_yjBfelSCt6EOtgWNie7d8QzuQFs4Z6_gFjhUg_ZL2v0UIgVNWs1R-vUHbgkhe5ZgXe1oZCxQn1LPj5gNHyeZ7G74NkYT4",
+            "title": "Best iPhones in 2026: Which iPhone should you buy?",
+            "url": "https://www.tomsguide.com/us/best-apple-iphone%2Creview-6348.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tomsguide.com",
+            "ref_id": "turn0news23",
+            "snippet": "iPhone 18 Pro Max's biggest upgrade may have just been confirmed, and it's a photography game changer ... Before we go any further, Apple hasn't",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/-EwyaP2YE9YZPtMgeKZqPJ13qxtQCsj_MnsTgAXIdzqDs389gze4phYvKzlpDrxGe6uWRusFuT6SYiaB1CzPvKz4jxaeDM0jAQ7WE7pFNBrF4YK30IcDQbUSnbg9tJZ3",
+            "title": "iPhone 18 Pro Max's biggest upgrade may have just been confirmed, and it's a photography game changer",
+            "url": "https://www.tomsguide.com/phones/iphones/iphone-18-pro-maxs-biggest-upgrade-may-have-just-been-confirmed-and-its-a-photography-game-changer"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tomsguide.com",
+            "ref_id": "turn0news24",
+            "snippet": "A bundle of iPhone 18 Pro and iPhone 18 Pro Max specs have been leaked, courtesy of analyst Jeff Pu (via 9to5Mac).Based on data from",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/ZuqCIgsOZqLWWd-wo-y77xKB0WglZUx2WWP9PoS7ljCiMSjXIeUM6oYUUs4I5MbbkJFE7MwffX6vHF1HDLXpyPIc1VpluYwb-G_toXP4G9Kx8PgSP_2k7utKG8o9fFJk",
+            "title": "iPhone 18 Pro specs just tipped in new report - here's all the upgrades inside and out for the new iPhone",
+            "url": "https://www.tomsguide.com/phones/iphones/iphone-18-pro-tipped-for-major-upgrades-inside-and-out-heres-whats-rumored-for-the-next-gen-iphones-cameras-performance-and-more"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit25",
+            "snippet": "An Official Tear down of the iPhone 18 Pro Max",
+            "title": "Apple iPhone 18 Pro Max Teardown: A20 Pro, X80 and Apple N1",
+            "url": "https://www.reddit.com/r/iphone/comments/1wmkg09/apple_iphone_18_pro_max_teardown_a20_pro_x80_and/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit26",
+            "snippet": "For the iPhones, the 18 Pro Max is actually slightly less efficient (\\~3%) than both the iPhone 17 Pro Max and 16 Pro Max, but",
+            "title": "GSMArena | Apple iPhone 18 Pro Max Review",
+            "url": "https://www.reddit.com/r/hardware/comments/1woq3y5/gsmarena_apple_iphone_18_pro_max_review/"
+          },
+          {
+            "type": "text_result",
+            "domain": "en.wikipedia.org",
+            "ref_id": "turn0search27",
+            "snippet": "Apple Announces iPhone 17 Pro and Pro Max With New Design, Larger Battery, and More. ... - iPhone 17 Pro - Technical Specifications.",
+            "title": "IPhone 17 Pro",
+            "url": "https://en.wikipedia.org/wiki/IPhone_17_Pro"
+          },
+          {
+            "type": "text_result",
+            "domain": "en.wikipedia.org",
+            "ref_id": "turn0search28",
+            "snippet": "- iPhone 15 Pro and 15 Pro Max - Technical Specifications - Apple.",
+            "title": "IPhone 15 Pro",
+            "url": "https://en.wikipedia.org/wiki/IPhone_15_Pro"
+          },
+          {
+            "type": "text_result",
+            "domain": "en.wikipedia.org",
+            "ref_id": "turn0search29",
+            "snippet": "- iPhone 16 Pro and 16 Pro Max - Technical Specifications - Apple.",
+            "title": "IPhone 16 Pro",
+            "url": "https://en.wikipedia.org/wiki/IPhone_16_Pro"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit30",
+            "snippet": "\\#iPhone18ProMax #AppleEvent",
+            "title": "iPhone 18 Pro Max — Complete Summary",
+            "url": "https://www.reddit.com/r/tech_flames/comments/1wbu0ua/iphone_18_pro_max_complete_summary/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit31",
+            "snippet": "iPhone 18 Pro & Pro Max: Everything You Need to Know",
+            "title": "iPhone 18 Pro & Pro Max: Everything You Need to Know with PRICING",
+            "url": "https://www.reddit.com/r/tech_flames/comments/1wbt8ug/iphone_18_pro_pro_max_everything_you_need_to_know/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit32",
+            "snippet": "iPhone 18 Pro Max: ... Apple seems to be better than Samsung.",
+            "title": "Iphone 18 Pro and Pro Max mAh Revealed",
+            "url": "https://www.reddit.com/r/iphone/comments/1un6jg7/iphone_18_pro_and_pro_max_mah_revealed/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit33",
+            "snippet": "I got the smaller iPhone 18 Pro with the Apple C2 modem. ... I can't for the life of me understand Apple's logic in slapping",
+            "title": "My iPhone 18 Pro Max Review",
+            "url": "https://www.reddit.com/r/iphone18pro/comments/1wpecc3/my_iphone_18_pro_max_review/"
+          },
+          {
+            "type": "text_result",
+            "domain": "es.wikipedia.org",
+            "ref_id": "turn0search34",
+            "snippet": "Los modelos iPhone 16 Pro y iPhone 16 Pro Max están equipados con el chip Apple A18 Pro, fabricado con un proceso de 3 nanómetros",
+            "title": "IPhone 16 Pro",
+            "url": "https://es.wikipedia.org/wiki/IPhone_16_Pro"
+          }
+        ]
+      },
+      "created_at_ms": 1791183566720
+    },
+    {
+      "ordinal": 22,
+      "timestamp": "2026-10-05T06:59:34.520Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-284d5fae-476e-441f-90ad-b5371714b8b0",
+        "query": "https://support.apple.com/en-ie/111828",
+        "action": {
+          "type": "openPage",
+          "url": "https://support.apple.com/en-ie/111828"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn1view0",
+            "snippet": "Total lines: 823",
+            "title": "iPhone 15 Pro Max - Tech Specs - Apple Support (IE)",
+            "url": "https://support.apple.com/en-ie/111828"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn1view1",
+            "snippet": "Total lines: 855",
+            "title": "iPhone 16 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-us/121032"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn1view2",
+            "snippet": "Total lines: 604",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/pDwhWMMqQib5ENkcEGoB8iGxSLplagjA0xdUb_GzI2aiJsc3GbBu3n1XojgSNZgonFmkp7n-NhFJ2bTZtS9DxY3_g8ZqHwjRmAdR0gLt-Jhr4do54MYUorVueXayZhEIYc7TJUl6swlWnAEaS1ZeCA",
+            "title": "iPhone - Apple (NZ)",
+            "url": "https://www.apple.com/nz/iphone-17-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn1view3",
+            "snippet": "Total lines: 712",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE)",
+            "url": "https://www.apple.com/ie/iphone-18-pro/specs/"
+          }
+        ]
+      },
+      "created_at_ms": 1791183572899
+    },
+    {
+      "ordinal": 29,
+      "timestamp": "2026-10-05T06:59:41.468Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-8a5acebd-43d8-4dd0-8409-5b3cf4551b97",
+        "query": "site.support.apple.com \"iPhone 17 Pro Max - Tech Specs\" ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "site.support.apple.com \"iPhone 17 Pro Max - Tech Specs\"",
+            "site.apple.com/newsroom \"A20 Pro\" \"performance\"",
+            "site.apple.com/newsroom \"A19 Pro\" \"40 percent\""
+          ]
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn2search0",
+            "snippet": "# iPhone 17 Pro Max - Tech Specs ... **To identify your iPhone model number, see support.apple.com/108044. ... Testing conducted by Apple in July 2025",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-la/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn2search1",
+            "snippet": "Both models feature a smaller and even more useful Dynamic Island, as well as A20 Pro and a next-generation vapor chamber that together deliver the",
+            "title": "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max - Apple",
+            "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn2search2",
+            "snippet": "# iPhone 17 Pro Max - Tech Specs ... Testing conducted by Apple in July 2025 using preproduction iPhone 17 Pro and iPhone 17 Pro",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn2search3",
+            "snippet": "For details on 5G and LTE support, contact your carrier and see apple.com/au/iphone/cellular. ... As part of our efforts to reach carbon neutrality by 2030,",
+            "title": "iPhone 17 Pro Max - Tech Specs – Apple Support (AU)",
+            "url": "https://support.apple.com/en-au/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn2search4",
+            "snippet": "* Customers who purchase iPhone 17 Pro and iPhone 17 Pro Max may receive three free months of Apple Arcade, Apple Fitness+, Apple Music, Apple",
+            "title": "Apple unveils iPhone 17 Pro and iPhone 17 Pro Max - Apple",
+            "url": "https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn2search5",
+            "snippet": "When paired with the Apple-designed vapor chamber, A19 Pro enables iPhone 17 Pro and iPhone 17 Pro Max to deliver up to 40 percent better",
+            "title": "Apple unveils iPhone 17 Pro, the most powerful and advanced Pro lineup - Apple (QA)",
+            "url": "https://www.apple.com/qa/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn2search6",
+            "snippet": "When paired with the Apple-designed vapor chamber, A19 Pro enables iPhone 17 Pro and iPhone 17 Pro Max to deliver up to 40 percent better",
+            "title": "Apple unveils iPhone 17 Pro and iPhone 17 Pro Max - Apple (HK)",
+            "url": "https://www.apple.com/hk/en/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max-the-most-powerful-and-advanced-pro-models-ever/"
+          },
+          {
+            "type": "text_result",
+            "domain": "device.report",
+            "ref_id": "turn2search12",
+            "snippet": "iPhone 17 Pro Max - Tech Specs",
+            "title": "iPhone 17 Pro Max - Tech Specs – Apple Support (UK)",
+            "url": "https://device.report/m/725b97ae2a235e519ce472477913f60fa2ed0f837c685117e8d39a10986636a9.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.macrumors.com",
+            "ref_id": "turn2search7",
+            "snippet": "Based on these early results – which are unconfirmed – the A20 Pro chip across the Pro models appears to deliver around 21% to 23%",
+            "title": "iPhone 18 Pro and Pro Max Benchmarks Reveal Speed of A20 Pro Chip",
+            "url": "https://www.macrumors.com/2026/09/10/iphone-18-pro-max-benchmarks-reveal-a20-pro-speed/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.macobserver.com",
+            "ref_id": "turn2search8",
+            "snippet": "# A20 Pro Gaming: Every Performance Claim Apple Published, and Why None Is a Benchmark",
+            "title": "A20 Pro Gaming: Every Performance Claim Apple Published, and Why None Is a Benchmark",
+            "url": "https://www.macobserver.com/tips/round-ups/a20-pro-gaming-performance-claims-apple-published/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.rev.com",
+            "ref_id": "turn2search9",
+            "snippet": "This is the widest memory interface we've ever shipped in an iPhone, and an important enabler for all of the performance gains on A20 Pro.",
+            "title": "Apple Event September 9th, 2026 Duo | Rev",
+            "url": "https://www.rev.com/transcripts/apple-event-september-9th-2026"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.macrumors.com",
+            "ref_id": "turn2search10",
+            "snippet": "Apple has published a new ad for the iPhone 17 Pro on its YouTube channel, highlighting the device's vapor chamber cooling and A19 Pro chip.",
+            "title": "New Apple Ad Highlights iPhone 17 Pro's Vapor Chamber Cooling",
+            "url": "https://www.macrumors.com/2025/11/24/apple-ad-iphone-17-pro-vapor-cooling/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.macrumors.com",
+            "ref_id": "turn2search11",
+            "snippet": "Apple introduced A19 and A19 Pro chips for the iPhone 17 lineup, with a total of three chip variants. ... With the new chip and",
+            "title": "A19 vs. A19 Pro: iPhone 17 Chip Differences",
+            "url": "https://www.macrumors.com/2025/09/09/iphone-17-a19-chip/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tdsynnex.com",
+            "ref_id": "turn2search13",
+            "snippet": "<tr><td>Enhancements to Pro video capabilities build upon incredible features like Dolby Vision HDR, ACES, and 4K120 that have made Apple Pro models the clear leader",
+            "title": "iPhone—Lineup and customer scenarios (Sept 25—T046535A, T046593A)",
+            "url": "https://www.tdsynnex.com/na/us/apple/wp-content/uploads/sites/49/2026/02/iPhone%E2%80%94Lineup.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "eshop.hkcsl.com",
+            "ref_id": "turn2search14",
+            "snippet": "<tr><td>牌子 / Brand</td><td>APPLE</td></tr> ... LIGHTNING FAST.—A19 Pro is the most powerful iPhone chip yet, delivering up to 40 percent better sustained performance.<br>• BEST BATTERY LIFE",
+            "title": "Microsoft Word - PIS iPhone 17 Pro Max 256GB APP3",
+            "url": "https://eshop.hkcsl.com/on/demandware.static/-/Library-Sites-HKTSharedLibrary/default/dw682e19fa/pdf/APPLE/PIS%20iPhone%2017%20Pro%20Max%20256GB%20APP3.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit15",
+            "snippet": "* New WMCM packaging and a \\~3× larger vapor chamber massively improve heat transfer and sustained performance.* A20 Pro reaches up to 4.93 GHz, while",
+            "title": "iPhone 18 Pro / A20 Pro deep dive: possibly Apple’s biggest performance and efficiency jump in five years",
+            "url": "https://www.reddit.com/r/iphone/comments/1wi44sl/iphone_18_pro_a20_pro_deep_dive_possibly_apples/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tomsguide.com",
+            "ref_id": "turn2news16",
+            "snippet": "Graphics performance is often where Apple chips lag behind the Snapdragon flagship, but this year the A20 Pro has pushed well beyond what Samsung's flagship",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/7YXJG_h3QwrAmCRzn7KDyOCN2bsemxyIt9pZ43PnHeBhOEvdUbDYctHHU_h1al8PmVqGmKJ8NtgjfpBEwyvkdwR_m8u4G04AK7lp0gcPp9Cu9gW8jMZfvrdsDkcQhKSk",
+            "title": "iPhone 18 Pro and Pro Max benchmarks: These are the fastest phones we've ever tested",
+            "url": "https://www.tomsguide.com/phones/iphones/iphone-18-pro-benchmarks-apple-just-built-the-most-powerful-phones-weve-ever-seen"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tomsguide.com",
+            "ref_id": "turn2news17",
+            "snippet": "\"When paired with the Apple-designed vapor chamber, A19 Pro enables iPhone 17 Pro and iPhone 17 Pro Max to deliver up to 40 percent better",
+            "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/MqNwzsQubLR8GYzNAkYANZ-1280-80.jpg",
+            "title": "iPhone 17 Pro's leaked A19 Pro benchmarks reveal incredible performance - here's the results so far",
+            "url": "https://www.tomsguide.com/phones/iphones/iphone-17-pros-leaked-a19-pro-benchmarks-reveal-incredible-performance-heres-the-results-so-far"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.techradar.com",
+            "ref_id": "turn2news18",
+            "snippet": "Apple iPhone 18 Pro and 18 Pro Max review: Performance ... It might be no surprise, but the A20 Pro chip inside the iPhone 18",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/HRswh7oRBZvJ8vNSwpt_tKFatavvouixxe_2ncTkpn9WFk_p-EwaeXTMYOIwJI_SynH45GB-WXoVvXN_TRCmTDl56RtwsKKmT10lYqWUOqrXTFfXe4opSf0rg1f07d8S",
+            "title": "I spent a week with the iPhone 18 Pro and 18 Pro Max - and they're better in all the right places",
+            "url": "https://www.techradar.com/phones/iphone/iphone-18-pro-and-iphone-18-pro-max-review"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.androidcentral.com",
+            "ref_id": "turn2news19",
+            "snippet": "\"When paired with the Apple-designed vapor chamber, A19 Pro enables iPhone 17 Pro and iPhone 17 Pro Max to deliver up to 40 percent better",
+            "thumbnail_url": "https://cdn.mos.cms.futurecdn.net/NJjvmUQ8veCSKQtFSzFhuD-1280-80.jpg",
+            "title": "Apple's A19 Pro throws down the gauntlet for Qualcomm and MediaTek",
+            "url": "https://www.androidcentral.com/phones/apple-iphone/apples-a19-pro-throws-down-the-gauntlet-for-qualcomm-and-mediatek"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tomshardware.com",
+            "ref_id": "turn2news20",
+            "snippet": "Architectural enhancements and significantly higher clock speeds enable Apple's A20 Pro application processor (AP), used in the company's latest iPhones, to deliver not only a",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/nSEIjfmjf7P_PXKdsyuoipJOn5QKn2iD5Rcvemi8Jbl7-u5lvFTk0XdDaMQbT9kcrCzFfRw1MIY_Bs270PZbVAqnjUfFi0c9t_adJiHu-v7vq7sWMvvA3oGNLXPWC_8Y",
+            "title": "Apple's A20 Pro shatters Geekbench 7 single-core record - 2nm chip beats desktop Intel Core i9 and AMD Ryzen 9 by up to 32%",
+            "url": "https://www.tomshardware.com/pc-components/cpus/apples-a20-pro-shatters-geekbench-7-single-core-record-2nm-chip-beats-desktop-intel-core-i9-and-amd-ryzen-9-by-up-to-32-percent"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit21",
+            "snippet": "Hell the A20 Pro is faster than most desktop CPUs in single thread performance. ... If Apple's A18 Pro chip wasn't hard limited by the",
+            "title": "A20 Pro and on-device AI: It’s showtime",
+            "url": "https://www.reddit.com/r/apple/comments/1wrmgn3/a20_pro_and_ondevice_ai_its_showtime/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit22",
+            "snippet": "My launch iPhone 17 Pro Max is still at 100% battery capacity despite it being fast charged/discharged daily on Apple’s 40-60watt charger ... Sure memory",
+            "title": "The A20 Pro Delivers One of the Biggest iPhone Performance Jumps in Years",
+            "url": "https://www.reddit.com/r/iphone/comments/1wjo4to/the_a20_pro_delivers_one_of_the_biggest_iphone/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit23",
+            "snippet": "\\>In this video, we break down the mind-blowing performance of Apple’s new 2nm A20 Pro chip, dive into our real-world battery endurance numbers, compare them",
+            "title": "iPhone 18 Pro Performance & Battery Tested: The A20 Pro Is Ridiculous! - Tom’s Guide",
+            "url": "https://www.reddit.com/r/apple/comments/1wik5vi/iphone_18_pro_performance_battery_tested_the_a20/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit24",
+            "snippet": "A20 pro has 2 of their Super cores, not their performance cores, that apple claims are desktop class cores.",
+            "title": "A20 Pro Geekbench 7 result",
+            "url": "https://www.reddit.com/r/hardware/comments/1wcydn6/a20_pro_geekbench_7_result/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit25",
+            "snippet": "So sustained performance is obviously much higher overall, but the larger gap between peak and sustained performance may suggest that Apple has allowed the A20",
+            "title": "A20 Pro stress test stability problem on 18 Pro Max",
+            "url": "https://www.reddit.com/r/iphone18pro/comments/1wjl2pd/a20_pro_stress_test_stability_problem_on_18_pro/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit26",
+            "snippet": "> Apple compared sustained performance directly against previous generations, citing 40% more sustained performance from the ‌iPhone 18 Pro‌'s A20 Pro compared to the A19",
+            "title": "Apple Unveils A20 Pro as First 2nm Smartphone Chip",
+            "url": "https://www.reddit.com/r/hardware/comments/1wbtrlo/apple_unveils_a20_pro_as_first_2nm_smartphone_chip/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit27",
+            "snippet": "Cant be most powerful since they cant beat apple single core ... multicore performance doesn't matter that much for normal use, single core performance matters",
+            "title": "Is Oppo about to drop the most powerful chip ever in a phone?",
+            "url": "https://www.reddit.com/r/TechPop/comments/1wjjlso/is_oppo_about_to_drop_the_most_powerful_chip_ever/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit28",
+            "snippet": "Very impressed with all aspects from performance to efficiency.How you finding the A20 Pro? ... right, it's not revolutionary but it's future-proof for several generations.",
+            "title": "Who is here for the 2nm chip?",
+            "url": "https://www.reddit.com/r/iphone18pro/comments/1wrmjsg/who_is_here_for_the_2nm_chip/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit29",
+            "snippet": "The CPU numbers didn't seem right to me because A20 Pro is about 20% faster than A19 Pro.",
+            "title": "M6 Pro Chip Result on Geekbench is Likely Fake",
+            "url": "https://www.reddit.com/r/apple/comments/1wksyce/m6_pro_chip_result_on_geekbench_is_likely_fake/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit30",
+            "snippet": "just hours ago i saw a thread with several people analyzing and claiming that “up to 20%” improvement could not possibly be close to true,",
+            "title": "Apple A20 Pro Geekbench 6",
+            "url": "https://www.reddit.com/r/hardware/comments/1wcagnh/apple_a20_pro_geekbench_6/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn2reddit31",
+            "snippet": "The new SoC delivers the highest generation-over-generation performance improvement for Apple's smartphone processors in years and is currently the highest-performing mobile AP.Furthermore, the A20 Pr",
+            "title": "Apple's A20 Pro shatters Geekbench 7 single-core record — 2nm chip beats desktop Intel Core i9 and AMD Ryzen 9 by up to 32%",
+            "url": "https://www.reddit.com/r/LinusTechTips/comments/1wh0cm8/apples_a20_pro_shatters_geekbench_7_singlecore/"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn2view0",
+            "snippet": "Total lines: 855",
+            "title": "iPhone 16 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-us/121032"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn2view1",
+            "snippet": "Total lines: 712",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE)",
+            "url": "https://www.apple.com/ie/iphone-18-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn2view2",
+            "snippet": "Total lines: 712",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE)",
+            "url": "https://www.apple.com/ie/iphone-18-pro/specs/"
+          }
+        ]
+      },
+      "created_at_ms": 1791183579672
+    },
+    {
+      "ordinal": 36,
+      "timestamp": "2026-10-05T06:59:58.712Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-04036005-9c27-462b-bf19-079324c8a6d3",
+        "query": "https://support.apple.com/en-nz/125091",
+        "action": {
+          "type": "openPage",
+          "url": "https://support.apple.com/en-nz/125091"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn3view0",
+            "snippet": "Total lines: 807",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn3view1",
+            "snippet": "Total lines: 855",
+            "title": "iPhone 16 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-us/121032"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn3view2",
+            "snippet": "Total lines: 712",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE)",
+            "url": "https://www.apple.com/ie/iphone-18-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn3view3",
+            "snippet": "Total lines: 355",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/fkQkHg58nY0Yz_B3zDjaXHE7i8YKqhAqf2OQSmQIjkTEWY6bQqxqm6Gy5FUvZ59xNOKkb5t54xI9ivaNadDokxZhyj7tBjE8OV2kzM3auzxhsmRM89nVO8kG5Q0Epu5OwsuTPvB8-htJ9JLlKUyBe8tY7ZOJ5MqGbOy-p6U6HOs9scbfQY9vHfKWI6ue7eGJdrV6Cahm1RI7OQw0j0bbYE7QLGspVfmnQRi5ZdLAP0k",
+            "title": "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max - Apple",
+            "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn3view4",
+            "snippet": "Total lines: 309",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/TZayzjKPh0kzHAcqTsho4axNJE1EJkUyuzLP-0Fjx0kW_Lg57jWbxfmjiwKVpXpozIe9w68je9oAdzAcsnek_v-mh6sZdPP698Bp-oe6yrvks4vpCudrWeXQjpX0m483sYab6biT5yewiFU7HQbVoMIY0F3vc9WBbQ4hYURlI-9NXJygDF6ZKUYtBuva8a7kaJN4ziOHNu-gQELdN6HTLaa6W0ilesonsvdC-1TCOha4_Pmi_FwS2rpv8tBIRqnp",
+            "title": "Apple unveils iPhone 17 Pro and iPhone 17 Pro Max - Apple",
+            "url": "https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/"
+          }
+        ]
+      },
+      "created_at_ms": 1791183597071
+    },
+    {
+      "ordinal": 41,
+      "timestamp": "2026-10-05T07:00:03.754Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_059c8f93ca353f57016ac34b5720a087d2873fa8b91cf99ee7",
+        "text": "Diferențele importante apar la răcire, teleobiectiv și filmare, nu doar la procesor. Voi distinge și zoomul optic nativ de zoomul obținut prin decuparea senzorului, deoarece valorile „5×” și „8×” nu descriu exact același lucru.\n",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791183602276
+    },
+    {
+      "ordinal": 45,
+      "timestamp": "2026-10-05T07:00:08.215Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-de30d0bf-24a2-4e77-a716-29b3fa956906",
+        "query": "site.apple.com/newsroom/2024/09 \"A18 Pro\" \"15 percent\"",
+        "action": {
+          "type": "search",
+          "query": "site.apple.com/newsroom/2024/09 \"A18 Pro\" \"15 percent\"",
+          "queries": null
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4search0",
+            "snippet": "Powered by A18 Pro, the upgraded camera system introduces a new 48MP Fusion camera with a faster, more efficient quad-pixel sensor and Apple Camera Interface,",
+            "title": "Apple debuts iPhone 16 Pro and iPhone 16 Pro Max - Apple (LI)",
+            "url": "https://www.apple.com/li/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4search1",
+            "snippet": "Powered by A18 Pro, the upgraded camera system introduces a new 48MP Fusion camera with a faster, more efficient quad-pixel sensor and Apple Camera Interface,",
+            "title": "Apple debuts iPhone 16 Pro and iPhone 16 Pro Max - Apple (IE)",
+            "url": "https://www.apple.com/ie/newsroom/2024/09/apple-debuts-iphone-16-pro-iphone-16-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4search2",
+            "snippet": "^{4} The iPhone 16 Pro lineup also meets Apple’s high standards for energy efficiency, and is free of mercury and PVC. ... “Powered by the",
+            "title": "Apple debuts iPhone 16 Pro and iPhone 16 Pro Max - Apple (CI)",
+            "url": "https://www.apple.com/ci/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.macrumors.com",
+            "ref_id": "turn4search3",
+            "snippet": "According to Apple, the ‌iPhone 16‌ Pro maximizes thermal capacity with a machined chassis that uses 100 percent recycled aluminum. ... Apple says that Apple",
+            "title": "A18 vs. A18 Pro: What's the Difference?",
+            "url": "https://www.macrumors.com/2024/09/10/a18-vs-a18-pro/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4search4",
+            "snippet": "PRESS RELEASE 09 September 2024 ... Powered by the A18 Pro chip and built for Apple Intelligence, iPhone 16 Pro and iPhone 16 Pro Max",
+            "title": "Apple debuts iPhone 16 Pro and iPhone 16 Pro Max - Apple (KE)",
+            "url": "https://www.apple.com/ke/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4search5",
+            "snippet": "CUPERTINO, CALIFORNIA Apple today introduced iPhone 16 Pro and iPhone 16 Pro Max, featuring Apple Intelligence, larger display sizes, new creative capabilities with innovative pro",
+            "title": "Apple debuts iPhone 16 Pro and iPhone 16 Pro Max - Apple (SG)",
+            "url": "https://www.apple.com/sg/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "arstechnica.com",
+            "ref_id": "turn4search6",
+            "snippet": "The Apple A18 (no Pro, no Bionic, just A18) will power the new iPhone 16 and 16 Plus—the iPhone 15 used an A16 Bionic, and",
+            "title": "Apple updates both of its new iPhones with A18 and A18 Pro chips - Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2024/09/apples-a18-chip-designed-for-apple-intelligence-from-the-ground-up/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.engadget.com",
+            "ref_id": "turn4search7",
+            "snippet": "Combined with increased memory bandwidth, Apple Intelligence features run faster on the A18 Pro than on the A17 Pro, Triple A games will perform even",
+            "title": "Apple event live updates on iPhone 16 launch, iOS 18, Apple Watch 10, AirPods 4, Apple Intelligence and more",
+            "url": "https://www.engadget.com/apple-event-live-updates-on-iphone-16-launch-ios-18-apple-watch-10-airpods-4-apple-intelligence-and-more-100014783.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4search8",
+            "snippet": "Powered by A18 Pro, the upgraded camera system introduces a new 48MP Fusion camera with a faster, more efficient quad-pixel sensor and Apple Camera Interface,",
+            "title": "Apple debuts iPhone 16 Pro and iPhone 16 Pro Max - Apple (AE)",
+            "url": "https://www.apple.com/ae/newsroom/2024/09/apple-debuts-iphone-16-pro-iphone-16-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4search9",
+            "snippet": "PRESS RELEASE 09 September 2024 ... CUPERTINO, CALIFORNIA Apple today introduced iPhone 16 Pro and iPhone 16 Pro Max, featuring larger display sizes, an all-new",
+            "title": "Apple debuts iPhone 16 Pro and iPhone 16 Pro Max - Apple (LU)",
+            "url": "https://www.apple.com/lu/newsroom/2024/09/apple-debuts-iphone-16-pro-iphone-16-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "images.apple.com",
+            "ref_id": "turn4search10",
+            "snippet": "The new A18 Pro chip is designed with industry-leading compute power to propel Apple Intelligence, ushering in a new era of pro performance. ... A",
+            "title": "Apple debuts iPhone 16 Pro and iPhone 16 Pro Max - Apple (UK)",
+            "url": "https://images.apple.com/uk/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.macrumors.com",
+            "ref_id": "turn4search11",
+            "snippet": "Apple says that Apple Intelligence features run 15 percent faster on the A18 Pro than the A17 Pro. ... With the launch of the new",
+            "url": "https://www.macrumors.com/489/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.chinadailyhk.com",
+            "ref_id": "turn4search12",
+            "snippet": "Apple Inc launched the iPhone 16 Pro and iPhone 16 Pro Max on Monday, featuring the A18 Pro chip built for Apple Intelligence, larger display",
+            "title": "20240911_CNDY_omPrintsite_BSECT_HKG-BRO_BUS_001_013_omSpread-013-013_C_omVersion_omTime",
+            "url": "https://www.chinadailyhk.com/upload/main/pdf/2024/09/11/56c15f1294ab8c2c19dcf59afc06ab92.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn4reddit13",
+            "snippet": "As for the new iPhones, The M4 iPad Pro is built on the same architecture as A18’s, and we saw there that people claimed the",
+            "title": "Is anyone else who typically upgrades yearly going to skip the 16 Pro?",
+            "url": "https://www.reddit.com/r/iPhone15Pro/comments/1fcz10n"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn4view0",
+            "snippet": "Total lines: 807",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn4view1",
+            "snippet": "Total lines: 807",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn4view2",
+            "snippet": "Total lines: 807",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn4view3",
+            "snippet": "Total lines: 807",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn4view4",
+            "snippet": "Total lines: 855",
+            "title": "iPhone 16 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-us/121032"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn4view5",
+            "snippet": "Total lines: 855",
+            "title": "iPhone 16 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-us/121032"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4view6",
+            "snippet": "Total lines: 712",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE)",
+            "url": "https://www.apple.com/ie/iphone-18-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn4view7",
+            "snippet": "Total lines: 355",
+            "thumbnail_url": "https://images.openai.com/static-rsc-1/SjrQB3rAZpDX6p81cina0WB2jc_h3qdGTMqUCVKnhoaDPAGNP3pRM8KCuq2pX9a8cdkBzwcSXVH4HEHBx3qEaXOlpVy9xYgdpzM84ZIf7ZrozOUwcR1YB2Ad4clRFqR30K67OIeKXnW0sk9GOdm8yp9FaeB8jOlh5xtlvpiyvO95VunG4u0glOZ21c7sIX47j1qunPsHbkigmyS7g87uysgwFMvPgjLQygmht71_ub8",
+            "title": "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max - Apple",
+            "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
+          }
+        ]
+      },
+      "created_at_ms": 1791183606187
+    },
+    {
+      "ordinal": 52,
+      "timestamp": "2026-10-05T07:00:18.149Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-148b5e1c-d959-45fa-aa58-ac94dbb4fbf7",
+        "query": "'Weight:'",
+        "action": {
+          "type": "findInPage",
+          "url": null,
+          "pattern": "Weight:"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn5view0",
+            "snippet": "Total lines: 807",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn5view1",
+            "snippet": "Total lines: 807",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn5view2",
+            "snippet": "Total lines: 855",
+            "title": "iPhone 16 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-us/121032"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn5view3",
+            "snippet": "Total lines: 855",
+            "title": "iPhone 16 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-us/121032"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn5view4",
+            "snippet": "Total lines: 712",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE)",
+            "url": "https://www.apple.com/ie/iphone-18-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.apple.com",
+            "ref_id": "turn5view5",
+            "snippet": "Total lines: 712",
+            "title": "iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE)",
+            "url": "https://www.apple.com/ie/iphone-18-pro/specs/"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn5view6",
+            "snippet": "Total lines: 855",
+            "title": "iPhone 16 Pro Max - Tech Specs - Apple Support",
+            "url": "https://support.apple.com/en-us/121032"
+          },
+          {
+            "type": "text_result",
+            "domain": "support.apple.com",
+            "ref_id": "turn5view7",
+            "snippet": "Total lines: 807",
+            "title": "iPhone 17 Pro Max - Tech Specs - Apple Support (NZ)",
+            "url": "https://support.apple.com/en-nz/125091"
+          }
+        ]
+      },
+      "created_at_ms": 1791183616529
+    },
+    {
+      "ordinal": 55,
+      "timestamp": "2026-10-05T07:00:57.394Z",
+      "turn_id": "01a10adc-1e85-7553-949b-59242530057f",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_059c8f93ca353f57016ac34b6951f887d2b8a24ac416799431",
+        "text": "Mai jos ai comparația între **iPhone 15, 16, 17 și 18 Pro Max**, pe baza specificațiilor Apple verificate la **5 octombrie 2026**. Pentru lizibilitate, am împărțit tabelul în procesare, camere și alte caracteristici.\n\n**Procesare și performanță**\n\n| Caracteristică | 15 Pro Max | 16 Pro Max | 17 Pro Max | 18 Pro Max |\n|---|---|---|---|---|\n| Procesor | A17 Pro | A18 Pro | A19 Pro | **A20 Pro** |\n| CPU — procesare generală | 6 nuclee: 2 performante + 4 eficiente | 6: 2 performante + 4 eficiente | 6: 2 performante + 4 eficiente | 6: **2 „super cores”** + 4 eficiente |\n| GPU — grafică | 6 nuclee | 6 nuclee | 6 nuclee, cu acceleratoare AI | **7 nuclee**, cu acceleratoare AI |\n| Neural Engine — procesare AI | 16 nuclee | 16 nuclee | 16 nuclee | **Două unități de 16 nuclee** |\n| Răcire cu cameră de vapori | Nu | Nu | **Da** | **Da, reproiectată** |\n| Stocare disponibilă | 256 / 512 GB / 1 TB | 256 / 512 GB / 1 TB | 256 / 512 GB / 1 / 2 TB | 256 / 512 GB / 1 / 2 TB |\n\nDatele tehnice provin din fișele Apple pentru [15 Pro Max](https://support.apple.com/en-ie/111828), [16 Pro Max](https://support.apple.com/en-us/121032), [17 Pro Max](https://support.apple.com/en-nz/125091) și [18 Pro Max](https://www.apple.com/ie/iphone-18-pro/specs/).\n\nPentru diferența efectivă de viteză, Apple declară:\n\n| Trecere între generații | Creștere declarată de Apple | Relevanță practică |\n|---|---|---|\n| **15 → 16 Pro Max** | CPU cu până la **15%** mai rapid; GPU cu până la **20%** | Mai multă putere pentru procesare și jocuri |\n| **16 → 17 Pro Max** | Performanță susținută cu până la **40%** mai mare | Avantaj la sarcini lungi: jocuri, editare video, AI local |\n| **17 → 18 Pro Max** | GPU cu până la **40%** mai rapid; performanță susținută cu până la **40%** mai mare; lățime de bandă a memoriei **+50%** | Mai multă capacitate pentru grafică și sarcini intensive |\n\n**Procentele nu măsoară toate același lucru și nu trebuie adunate.** Sunt afirmațiile producătorului, nu rezultatele unui test comun cu toate cele patru telefoane. Surse: prezentările Apple pentru [A18 Pro](https://www.apple.com/li/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/), [A19 Pro](https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/) și [A20 Pro](https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/).\n\n**Camere foto și video**\n\n| Caracteristică | 15 Pro Max | 16 Pro Max | 17 Pro Max | 18 Pro Max |\n|---|---|---|---|---|\n| Cameră principală | 48 MP, f/1,78 | 48 MP, f/1,78 | 48 MP, f/1,78 | **48 MP, diafragmă variabilă:** f/1,48; f/1,8; f/2,8; f/4 |\n| Ultrawide | **12 MP**, f/2,2 | **48 MP**, f/2,2 | 48 MP, f/2,2 | 48 MP, f/2,2 |\n| Teleobiectiv dedicat | 12 MP, **5×**, f/2,8 | 12 MP, **5×**, f/2,8 | **48 MP, 4×**, f/2,8 | **48 MP, 4×**, f/2,8 |\n| Zoom suplimentar din senzorul tele | — | — | **8× la 12 MP**, „calitate optică” | **8× la 12 MP**, „calitate optică” |\n| Zoom digital foto maxim | 25× | 25× | 40× | 40× |\n| Cameră frontală | 12 MP, autofocus | 12 MP, autofocus | **18 MP, Center Stage** | **18 MP, Center Stage** |\n| Macro | Da, ultrawide 12 MP | **48 MP** | 48 MP | 48 MP |\n| Filmare Dolby Vision maximă | 4K **60 fps** | 4K **120 fps*** | 4K **120 fps*** | 4K **120 fps*** |\n| Mod Cinematic maxim | 4K 30 fps | 4K 30 fps | 4K 30 fps | **4K 60 fps** |\n| LiDAR | Da | Da | Da | Da |\n\n\\* Filmarea 4K la 120 fps se referă la camera principală, nu la toate camerele. Specificații: [15](https://support.apple.com/en-ie/111828), [16](https://support.apple.com/en-us/121032), [17](https://support.apple.com/en-nz/125091), [18](https://www.apple.com/ie/iphone-18-pro/specs/).\n\n**La zoom există o distincție importantă:** modelele 15/16 au un teleobiectiv nativ de 5×. Modelele 17/18 au unul de 4×, iar modul 8× utilizează zona centrală a senzorului de 48 MP pentru o imagine de 12 MP. Așadar, „8× de calitate optică” nu înseamnă un obiectiv optic nativ de 8×. [Detalii Apple](https://support.apple.com/en-nz/125091)\n\nDe asemenea, **48 MP nu înseamnă camere identice**: senzorul, obiectivul și procesarea contează. La 18 Pro Max, diafragma variabilă adaugă control fizic asupra luminii și profunzimii de câmp. La 17 apar și funcții video profesionale precum ProRes RAW, Apple Log 2 și genlock. [Camera iPhone 18 Pro](https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/), [video iPhone 17 Pro](https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/)\n\n**Ecran, autonomie și conectivitate**\n\n| Caracteristică | 15 Pro Max | 16 Pro Max | 17 Pro Max | 18 Pro Max |\n|---|---|---|---|---|\n| Ecran OLED | **6,7″** | **6,9″** | 6,9″ | 6,9″ |\n| Rezoluție | 2796 × 1290 | 2868 × 1320 | 2868 × 1320 | 2868 × 1320 |\n| ProMotion / Always-On | Până la 120 Hz / Da | Identic | Identic | Identic |\n| Luminozitate maximă în exterior | 2.000 niți | 2.000 niți | **3.000 niți** | 3.000 niți |\n| Redare video, până la** | **29 ore** | **33 ore** | **37 ore** | **43 ore** |\n| Încărcare prin cablu până la 50%*** | ≈30 min | ≈30 min | **≈20 min** | **≈15 min** |\n| MagSafe maxim | **15 W** | **25 W** | 25 W | 25 W |\n| Wi-Fi | **6E** | **7** | 7 | 7 |\n| Bluetooth | 5.3 | 5.3 | **6** | 6 |\n| USB-C: transfer maxim | **10 Gb/s** | Identic | Identic | Identic |\n| Material structural | Titan | Titan | Aluminiu unibody | Aluminiu unibody |\n\nValorile provin din fișele Apple: [15 Pro Max](https://support.apple.com/en-ie/111828), [16 Pro Max](https://support.apple.com/en-us/121032), [17 Pro Max](https://support.apple.com/en-nz/125091), [18 Pro Max](https://www.apple.com/ie/iphone-18-pro/specs/).\n\n\\** Autonomia reprezintă testele Apple, nu ore de utilizare mixtă. Pentru 17/18 am folosit variantele cu SIM fizic; variantele exclusiv eSIM ajung la **39, respectiv 45 de ore**. [Diferențe la 17](https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/), [diferențe la 18](https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/)\n\n\\*** Necesită adaptoare compatibile: minimum 20 W pentru 15/16, 40 W pentru 17 și 60 W cu AVS pentru 18. Puterea adaptorului nu reprezintă consumul constant al telefonului.\n\nCa interpretare a specificațiilor: **16 aduce mai ales ultrawide de 48 MP și video 4K120; 17 aduce răcire mai bună, teleobiectiv de 48 MP și cameră frontală nouă; 18 aduce diafragmă variabilă, procesare mai puternică și autonomie mai mare.** Același număr de nuclee sau de megapixeli nu înseamnă aceeași performanță.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791183620488
+    }
+  ]
+}

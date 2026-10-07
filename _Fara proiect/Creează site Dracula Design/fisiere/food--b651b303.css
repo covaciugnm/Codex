@@ -1,0 +1,16 @@
+/* The common layout remains the same; supplied Food logo leads the opening. */
+.hero-photo { background: radial-gradient(ellipse at center, #1a140c 0, #080808 70%); }
+.hero-photo img { object-fit: contain; padding: clamp(1rem, 4vw, 4rem); }
+.signature-image img, .universe-photo img { object-fit: contain; }
+.signature-image, .universe-photo { background: #080808; }
+.initial-mark span { color: #b89a64; }
+.product-image, .product-wide .product-image { aspect-ratio: 3 / 2; }
+.product-grid:has(> .product:only-child) { display: block; max-width: 900px; margin-inline: auto; }
+.product-grid > .product:only-child { width: 100%; }
+.product-grid > .product:only-child .product-image { aspect-ratio: 3 / 2; }
+.product-grid:has(> .product:nth-child(2):last-child) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.product-grid:has(> .product:nth-child(2):last-child) > .product { grid-column: span 1; width: 100%; }
+@media (max-width: 650px) {
+  .product-grid:has(> .product:nth-child(2):last-child) { grid-template-columns: minmax(0, 1fr); }
+  .product-grid > .product .product-image { aspect-ratio: 3 / 2; }
+}

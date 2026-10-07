@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-09-24 08:29:45 UTC",
+  "agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "submission_id": {
+    "submission_id": "01a0d27c-a363-7f62-9c88-610e5641c260"
+  },
+  "result": {
+    "status": {
+      "01a0d0ee-9f2d-77d0-8603-7aa9969772af": {
+        "completed": "Planul este finalizat: [META-ROM-001-G01-r01-F01-plan-A-GOVERNANCE-r01.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/MASURI/META-ROM-001-G01-r01-F01-plan-A-GOVERNANCE-r01.md>).\n\nVerificat direct: 41 paragrafe H, F/O și toate cele 10 linii cu Marcel — 11 ocurențe textuale. Omisiunea este confirmată. Cele 21 de intrări verificate sunt nemodificate; hashurile consemnate concordă.\n\nT01–T04 separă controalele actuale de auditul viitor neexecutat. Fără scor nou; constatările CANON și QA rămân deschise.\n\nSHA-256 plan: `1ef04e71796197ccc21a525da5f9cca64f035f84bb289d06fae2a7c0bb7612c0`\n\nAm scris numai planul. Scrierile sunt oprite."
+      }
+    },
+    "timed_out": false
+  },
+  "close": {
+    "previous_status": {
+      "completed": "Planul este finalizat: [META-ROM-001-G01-r01-F01-plan-A-GOVERNANCE-r01.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/MASURI/META-ROM-001-G01-r01-F01-plan-A-GOVERNANCE-r01.md>).\n\nVerificat direct: 41 paragrafe H, F/O și toate cele 10 linii cu Marcel — 11 ocurențe textuale. Omisiunea este confirmată. Cele 21 de intrări verificate sunt nemodificate; hashurile consemnate concordă.\n\nT01–T04 separă controalele actuale de auditul viitor neexecutat. Fără scor nou; constatările CANON și QA rămân deschise.\n\nSHA-256 plan: `1ef04e71796197ccc21a525da5f9cca64f035f84bb289d06fae2a7c0bb7612c0`\n\nAm scris numai planul. Scrierile sunt oprite."
+    }
+  }
+}

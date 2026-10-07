@@ -1,0 +1,824 @@
+{
+  "metadata": {
+    "id": "019f5ace-74f0-7b00-8451-33c7baee9e74",
+    "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF",
+    "created_at": 1783934907,
+    "updated_at": 1783951951,
+    "archived": 0,
+    "source": "cli",
+    "title": "analizeaza toate fisierele din folderul \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\\" si acolo avem inceput de scris cerere de finantare in folderul \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\" - analizeaza proiectul in starea actuala evalueaza ce exista si ce mai trebuie si ce exista care sunt problemele rezultate in urma evaluarii",
+    "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+    "project": "Comun",
+    "assignment_method": "workspace_path",
+    "parent_thread_id": null,
+    "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+    "source_bytes": 1802000,
+    "invalid_json_lines": 0,
+    "history_source": "items",
+    "rollout_exists": true,
+    "item_count": 49,
+    "message_count": 40,
+    "content_sha256": "3bd8c8ae9a0e9c42e39b46a0e7458ae9fdd285a3f25b127b219ca755a38f73cb"
+  },
+  "items": [
+    {
+      "ordinal": 9,
+      "timestamp": "2026-07-13T10:12:13.768Z",
+      "turn_id": "019f5af6-86b7-7822-9eeb-5ed596ee30e9",
+      "item": {
+        "type": "userMessage",
+        "id": "item-1",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "analizeaza toate fisierele din folderul \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\\" si acolo avem inceput de scris cerere de finantare in folderul \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\" - analizeaza proiectul in starea actuala evalueaza ce exista si ce mai trebuie si ce exista care sunt problemele rezultate in urma evaluarii",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783937533768
+    },
+    {
+      "ordinal": 11,
+      "timestamp": "2026-07-13T10:12:30.538Z",
+      "turn_id": "019f5af6-86b7-7822-9eeb-5ed596ee30e9",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-2",
+        "text": "Voi inventaria integral dosarul, apoi voi citi documentele de program și materialele deja redactate pentru Dancorproiect. La final vă livrez o evaluare structurată: ce există, ce lipsește, neconcordanțe/riscuri și prioritățile de remediere. Încep cu structura, volumele și eventualele instrucțiuni locale din proiect.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783937550538
+    },
+    {
+      "ordinal": 39,
+      "timestamp": "2026-07-13T10:14:41.405Z",
+      "turn_id": "019f5af6-86b7-7822-9eeb-5ed596ee30e9",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-3",
+        "text": "Inventarul arată un dosar deja consistent: documentația oficială, analize tehnice, audit/eligibilitate, bugete, acte de firmă, acte de locație, anexe și 13 secțiuni MySMIS redactate separat. Următorul pas este controlul de conținut și de coerență transversală — în special între ghid, grila de evaluare, planul de afaceri, buget, proiecțiile financiare și câmpurile MySMIS.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783937681405
+    },
+    {
+      "ordinal": 48,
+      "timestamp": "2026-07-13T10:15:07.104Z",
+      "turn_id": "019f5af6-86b7-7822-9eeb-5ed596ee30e9",
+      "item": {
+        "type": "fileChange",
+        "id": "exec-92b3a85d-1f2b-4caf-875d-a12c6dcca9a1",
+        "changes": [
+          {
+            "path": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\extract_project_content.ps1",
+            "kind": {
+              "type": "add"
+            },
+            "diff": "param(\n    [string]$Root = 'Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF',\n    [string]$Output = 'Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\_analysis_extract.txt'\n)\n\nAdd-Type -AssemblyName System.IO.Compression.FileSystem\n\nfunction Get-OpenXmlText([string]$Path) {\n    $zip = [System.IO.Compression.ZipFile]::OpenRead($Path)\n    try {\n        $strings = @()\n        $shared = $zip.Entries | Where-Object FullName -eq 'xl/sharedStrings.xml'\n        if ($shared) {\n            $reader = [IO.StreamReader]::new($shared.Open())\n            try { [xml]$xml = $reader.ReadToEnd() } finally { $reader.Dispose() }\n            $strings = @($xml.sst.si | ForEach-Object { ($_.InnerText -replace '\\s+', ' ').Trim() })\n        }\n\n        $entries = $zip.Entries | Where-Object {\n            $_.FullName -eq 'word/document.xml' -or\n            $_.FullName -like 'word/header*.xml' -or\n            $_.FullName -like 'word/footer*.xml' -or\n            $_.FullName -like 'xl/worksheets/sheet*.xml' -or\n            $_.FullName -eq 'xl/workbook.xml'\n        } | Sort-Object FullName\n\n        foreach ($entry in $entries) {\n            \"--- XML: $($entry.FullName) ---\"\n            $reader = [IO.StreamReader]::new($entry.Open())\n            try { [xml]$xml = $reader.ReadToEnd() } finally { $reader.Dispose() }\n            if ($entry.FullName -like 'word/*') {\n                $nodes = $xml.SelectNodes('//*[local-name()=\"p\"]')\n                foreach ($node in $nodes) {\n                    $text = (($node.SelectNodes('.//*[local-name()=\"t\"]') | ForEach-Object InnerText) -join '')\n                    if ($text.Trim()) { $text.Trim() }\n                }\n            } elseif ($entry.FullName -like 'xl/worksheets/*') {\n                $rows = $xml.SelectNodes('//*[local-name()=\"row\"]')\n                foreach ($row in $rows) {\n                    $cells = foreach ($cell in $row.SelectNodes('./*[local-name()=\"c\"]')) {\n                        $ref = $cell.r\n                        $formula = $cell.SelectSingleNode('./*[local-name()=\"f\"]')\n                        $valueNode = $cell.SelectSingleNode('./*[local-name()=\"v\"]')\n                        $inline = $cell.SelectSingleNode('.//*[local-name()=\"is\"]')\n                        $value = if ($inline) { $inline.InnerText } elseif ($valueNode) { $valueNode.InnerText } else { '' }\n                        if ($cell.t -eq 's' -and $value -match '^\\d+$' -and [int]$value -lt $strings.Count) { $value = $strings[[int]$value] }\n                        if ($formula) { \"$ref=$value [FORMULA: $($formula.InnerText)]\" } else { \"$ref=$value\" }\n                    }\n                    if ($cells) { \"ROW $($row.r): \" + ($cells -join ' | ') }\n                }\n            } else {\n                ($xml.InnerText -replace '\\s+', ' ').Trim()\n            }\n        }\n    } finally { $zip.Dispose() }\n}\n\n$files = Get-ChildItem -LiteralPath $Root -Recurse -File -Force | Where-Object {\n    $_.Extension -in '.docx', '.xlsx' -and $_.Name -notlike '~$*'\n} | Sort-Object FullName\n\n& {\n    foreach ($file in $files) {\n        \"`n===== FILE: $($file.FullName.Substring($Root.Length + 1)) =====\"\n        try { Get-OpenXmlText $file.FullName } catch { \"[EXTRACTION ERROR] $($_.Exception.Message)\" }\n    }\n} | Set-Content -LiteralPath $Output -Encoding UTF8\n\nGet-Item -LiteralPath $Output | Select-Object FullName, Length, LastWriteTime\n"
+          }
+        ],
+        "status": "completed"
+      },
+      "created_at_ms": 1783937707104
+    },
+    {
+      "ordinal": 122,
+      "timestamp": "2026-07-13T10:18:09.729Z",
+      "turn_id": "019f5af6-86b7-7822-9eeb-5ed596ee30e9",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-4",
+        "text": "Am confirmat un aspect important: dosarul conține două stări financiare diferite (modelul inițial de 4,210 mil. € și varianta revizuită de 4,301 mil. €), iar unele documente încă trimit la versiunea veche. De asemenea, din cele 13 fișiere MySMIS, doar „3.1 Activități” are conținut redactat; restul sunt în principal câmpuri goale și limite de caractere. Acum verific PDF-urile oficiale și probele societății/locației/CV-urilor.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783937889729
+    },
+    {
+      "ordinal": 177,
+      "timestamp": "2026-07-13T10:20:19.663Z",
+      "turn_id": "019f5af6-86b7-7822-9eeb-5ed596ee30e9",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-5",
+        "text": "Conversia PDF este încă în curs; documentele Word/Excel sunt deja indexate. Până acum, starea reală este mai puțin avansată decât sugerează formularea „proiectat ≈94/100”: acel scor este doar potențial, condiționat de probe care încă lipsesc. Dacă s-ar depune în forma actuală, chiar evaluarea internă îl marchează „RESPINS”.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783938019663
+    },
+    {
+      "ordinal": 280,
+      "timestamp": "2026-07-13T10:30:35.154Z",
+      "turn_id": "019f5af6-86b7-7822-9eeb-5ed596ee30e9",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-6",
+        "text": "Verificarea formulelor a scos la iveală o problemă mai gravă decât cele consemnate în rapoartele interne: fișierul „REVIZUIT” nu este utilizabil (grant 3,097 mil. €, depășire salarială și formule `#DIV/0!`). Nici „EVA_Buget_consolidat.xlsx” nu este curat: totalurile de bază sunt corecte manual, dar formulele pentru ponderea activității de bază și personalului propriu indică 0% / `#DIV/0!`. Voi sintetiza acum verdictul și ordinea de remediere.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783938635154
+    },
+    {
+      "ordinal": 297,
+      "timestamp": "2026-07-13T10:32:13.240Z",
+      "turn_id": "019f5af6-86b7-7822-9eeb-5ed596ee30e9",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-7",
+        "text": "Am analizat inventarul complet: 88 de fișiere utile — 53 DOCX, 18 XLSX, 14 PDF, 2 DOC și o arhivă ZIP — inclusiv ghidul oficial, anexele, actele firmei, documentele locației, CV-urile, materialele tehnice, bugetele și secțiunile MySMIS.\n\nVerdict general: proiectul are o bază conceptuală bună, dar dosarul de finanțare nu este încă depunabil. În forma actuală, riscul realist este respingerea, nu doar depunctarea. Chiar evaluarea internă din dosar spune explicit „DACĂ S-AR DEPUNE AZI: RESPINS”.\n\n## Ce există și este valoros\n\n- Concept tehnic EVA bine conturat: robot humanoid utilitar, AI locală, viziune stereo, FPGA, Jetson, LiDAR, actuatori și pachete sectoriale.\n- Memoriu tehnic relativ avansat, cu structură orientată spre grilă.\n- Studiu de piață și analiză de competitori, inclusiv versiuni PDF.\n- Rezumat executiv și documente tehnice privind camerele, procesarea și laboratorul.\n- Roadmap TRL4–TRL6 și roadmap post-proiect TRL6–TRL9.\n- Analize interne de eligibilitate, audit bugetar și simulare de punctaj.\n- Listă detaliată de utilaje pentru producție, HPC și laborator.\n- Hala de implementare este în proprietatea DANCOR-PROIECT SRL, 672 mp, Str. Emil Racoviță nr. 9, Alba Iulia, fără sarcini în extrasul analizat.\n- Devize de amenajare a halei.\n- Trei CV-uri existente.\n- Structură de activități pe 24 luni.\n- Template-uri pentru LOI, protocol pilot și cereri de ofertă.\n\nAcestea reprezintă o fundație tehnică bună, dar nu un dosar de finanțare finalizat.\n\n## Situația reală a cererii\n\nDin cele 13 fișiere MySMIS, doar [3.1 Activități Proiect](<Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/mysmis/3.1 Activitati Proiect.docx>) conține text substanțial.\n\nCelelalte 12 fișiere conțin aproape exclusiv denumirile câmpurilor și limitele de caractere:\n\n- Capacitate solicitant;\n- Localizare;\n- Obiective;\n- Justificare/context;\n- Durabilitate;\n- Riscuri;\n- Grup-țintă;\n- Principii orizontale;\n- Metodologie;\n- Maturitate;\n- Descrierea investiției;\n- Rezultate așteptate.\n\nPrin urmare, cererea MySMIS este, în esență, aproximativ 10–15% redactată.\n\n[Cererea de finanțare – schelet](<Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/4. Dosar depunere (de completat)/02 - Cerere de finantare (schelet Anexa 1).docx>) și [Planul de afaceri – schelet](<Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/4. Dosar depunere (de completat)/03 - Plan de afaceri (schelet Anexa 4).docx>) sunt doar schițe scurte, nu documente completate conform modelelor oficiale.\n\n## Probleme critice de eligibilitate\n\n### 1. Codul CAEN al proiectului nu este decis\n\nDocumentele oscilează între:\n\n- 6210 – software la comandă;\n- 2611/2612 – producție componente/subansamble electronice.\n\nCererea trebuie construită pe un cod CAEN eligibil unic și coerent cu investiția. Formularea actuală „6210 + pentru hardware 2611/2612” nu este suficientă.\n\nPentru grantul de până la 3 milioane euro, caracterul de produs hardware și producția realizată de beneficiar trebuie susținute fără ambiguități. Lipsesc:\n\n- certificatul constatator actualizat CAEN Rev.3;\n- dovada autorizării codului ales la locația de implementare;\n- decizia fermă asupra codului 2611, 2612 sau 2630;\n- corelarea codului cu fluxul efectiv de producție.\n\nAceasta este o condiție de tip „go/no-go”.\n\n### 2. Statutul de firmă TIC este vulnerabil\n\nAnalizele interne menționează ca activitate principală codul 7022 – consultanță în afaceri și management. Trebuie demonstrat că DANCOR este efectiv întreprindere din domeniul TIC, nu doar că are un cod TIC secundar în obiectul de activitate.\n\n### 3. Datele societății nu sunt complet reconciliate\n\nDocumentele interne menționează:\n\n- administrator: Horvath Cosmina Victoria;\n- asociați: Covaciu Cosmin Adrian și Benga Emil Gabriel.\n\nTextul extras din actul constitutiv 2026 indică însă Covaciu Cosmin Adrian ca asociat unic. Trebuie verificată și uniformizată situația actuală ONRC: asociați, administrator, reprezentant legal și puteri de semnătură.\n\n### 4. Nu există încă dovada capacității financiare\n\nBugetul presupune:\n\n- cofinanțare eligibilă de aproximativ 1,301 milioane euro;\n- finanțare prin credit pe 10 ani;\n- necesar important de lichiditate în implementare.\n\nNu există în dosar:\n\n- scrisoare de confort;\n- ofertă sau aprobare de credit;\n- contract de credit;\n- extras de cont;\n- hotărâre AGA privind proiectul și cofinanțarea.\n\nCapitalul social foarte redus și dimensiunea actuală a firmei fac acest risc major.\n\n### 5. Nu este efectuată verificarea completă a eligibilității financiare\n\nLipsesc sau nu sunt completate:\n\n- calculul „întreprindere în dificultate” – Anexa 15;\n- situațiile financiare pe ultimii doi ani organizate în dosar;\n- declarația IMM completată;\n- analiza întreprinderilor legate/partenere;\n- inventarul ajutoarelor de minimis;\n- confirmarea finanțărilor anterioare excluse;\n- certificatele fiscale și cazierele necesare contractării.\n\n## Probleme serioase în buget\n\nExistă trei versiuni financiare incompatibile.\n\n| Fișier | Cost eligibil | Grant | Cofinanțare | Verdict |\n|---|---:|---:|---:|---|\n| ORIGINAL | 4.210.715 € | 3.000.000 € | 1.210.715 € | versiune veche, fragilă |\n| REVIZUIT | 4.422.118 € | 3.097.010 € | 1.325.109 € | neconform și cu formule defecte |\n| Consolidat | 4.300.850 € | 2.999.995 € | 1.300.855 € | cea mai apropiată de varianta de lucru, dar încă defectă |\n\n### Fișierul „REVIZUIT” este neutilizabil\n\nLa recalcularea în Excel rezultă:\n\n- grant 3.097.010 €, peste plafonul de 3 milioane;\n- salarii de 51,1 €/oră, peste plafonul de 50 €/oră;\n- formule `#DIV/0!`;\n- pondere activitate de bază 0%;\n- pondere personal propriu 0%;\n- flux cumulat negativ în primii doi ani de durabilitate;\n- dashboard cu rezultate contradictorii.\n\n### Fișierul consolidat are totaluri bune, dar formule greșite\n\n[EVA_Buget_consolidat.xlsx](<Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/EVA_Buget_consolidat.xlsx>) pare varianta care ar trebui păstrată, însă:\n\n- ponderea activității de bază apare 0%;\n- ponderea personalului propriu apare `#DIV/0!`;\n- formulele de sumarizare trimit la coloane greșite;\n- grantul este 2.999.995 €, nu exact 3.000.000 €;\n- proiecțiile comerciale diferă de restul documentelor;\n- creditul de 1,301 milioane euro este tratat ca și cum ar fi deja disponibil.\n\nValorile corecte calculate manual par a fi aproximativ:\n\n- activitate de bază: 90%;\n- personal propriu în activitatea de bază: 22%;\n- minimis: 300.000 €.\n\nDar un evaluator va primi fișierul, nu calculul manual.\n\n### Anexa 16 internă are, de asemenea, formule greșite\n\nFormula pentru activitatea de bază include A0 și omite activitatea de introducere în piață A5. Formula personalului propriu folosește rândul A0, rezultând practic 0%. Așadar, Anexa 16 nu trebuie depusă în forma actuală.\n\n### Proiecțiile financiare nu sunt unitare\n\nApar cel puțin două serii de venituri în perioada de durabilitate:\n\n- 0,9 / 1,45 / 2,10 milioane euro;\n- 1,2 / 1,8 / 2,6 milioane euro.\n\nÎn consecință, apar și valori diferite pentru:\n\n- RI: 18,4%, 18,8%, 21,7%;\n- PI_D: aproximativ 0,68–0,79;\n- fluxul de numerar.\n\nTrebuie stabilit un singur scenariu financiar, realist și fundamentat prin preț × cantitate × clienți × contracte.\n\n## Costurile halei nu sunt integrate în capacitatea financiară\n\nDevizul detaliat arată:\n\n- total lucrări: 781.666 €;\n- surse proprii și „zonă gri”: 561.666 €;\n- fotovoltaice/baterii – alt program: 150.000 €;\n- mezanin opțional: 70.000 €.\n\nAceste costuri nu sunt integrate coerent în necesarul total de lichiditate și în proiecțiile financiare. Ghidul cere ca sustenabilitatea să ia în calcul toate costurile eligibile și neeligibile, nu numai cofinanțarea bugetului PoCIDIF.\n\nMai trebuie clarificate:\n\n- TVA;\n- renovările neeligibile;\n- fundațiile utilajelor;\n- branșamentul de circa 400 kVA;\n- ventilația și exhaustarea ATEX;\n- autorizarea PSI și de mediu;\n- costurile reale de funcționare ale HPC, cuptoarelor și secției metalice.\n\n## Riscul de supradimensionare tehnică\n\nLinia de producție de 2,5 milioane euro include numeroase utilaje grele: CNC, strung, danturare, EDM, WAAM, binder jetting, cuptoare, metrologie etc.\n\nEvaluatorul poate considera că proiectul este:\n\n- preponderent o investiție în utilaje;\n- supradimensionat pentru realizarea unui prototip TRL6;\n- insuficient justificat față de volumul de producție prognozat;\n- dificil de instalat și autorizat într-o hală de 672 mp;\n- insuficient corelat cu capacitatea actuală a microîntreprinderii.\n\nEste necesar un flux de producție clar:\n\n`BOM robot → piese fabricate intern → utilaj folosit → timp/utilizare → capacitate anuală → cost unitar → volum de vânzări`\n\nÎn lipsa acestei demonstrații, o parte importantă a utilajelor poate fi redusă sau declarată neeligibilă.\n\n## Dovezi tehnice și comerciale lipsă\n\nMemoriul tehnic este bine formulat, dar multe afirmații sunt încă declarative. Lipsesc:\n\n- schema arhitecturii hardware/software;\n- BOM complet;\n- desene și specificații;\n- fotografii/video/procese-verbale ale TRL4;\n- rapoarte de test;\n- dovada unui prototip parțial;\n- plan de testare și validare;\n- plan de certificare CE/EMC/siguranță;\n- analiza riscurilor funcționale ale robotului;\n- strategia reală de proprietate intelectuală;\n- delimitarea cercetare industrială/dezvoltare experimentală.\n\nLipsesc integral:\n\n- minimum trei LOI reale;\n- protocolul pilot;\n- clienții nominali;\n- două oferte pentru fiecare cheltuială eligibilă;\n- centralizatorul Anexa 7;\n- fundamentarea prețului robotului și a abonamentelor.\n\nTemplate-urile existente nu constituie dovezi.\n\n## Echipa nu este încă demonstrată\n\nSunt trei CV-uri, dar bugetul presupune cinci specialiști tehnici, plus manager și responsabil financiar.\n\n- CV-ul lui Bogdan Pintea arată experiență puternică în produs, AI, edge și business development.\n- CV-urile Cristina Potra și Mihai Jalobeanu sunt în format slab indexabil; trebuie verificate manual/OCR și mapate punctual pe cerințele grilei.\n- Nu există o matrice „persoană → rol → experiență → proiecte → studii → criteriu ETF”.\n- Nu sunt identificate nominal toate cele cinci persoane bugetate.\n- Nu este demonstrat care dintre ele sunt sau vor deveni personal propriu.\n- Lipsesc actele de numire și declarațiile de conflict pentru echipa completă.\n\n## Anexele administrative\n\nÎn folderul „Anexe mysmis” există doar câteva modele, în mare parte necompletate. Lipsesc din dosarul Dancor sau nu sunt finalizate:\n\n- Planul de monitorizare;\n- Declarația IMM;\n- Declarația TVA;\n- declarația privind cumulul ajutoarelor;\n- Anexa 15 – firmă în dificultate;\n- hotărârea AGA;\n- situațiile financiare organizate pentru depunere;\n- bugetul oficial Anexa 6 final;\n- centralizatorul Anexa 7;\n- organigrama și actele echipei.\n\nExistă și o problemă de control al versiunilor: numerotarea declarației de cumul și a acordului de parteneriat diferă între ghid, denumirile fișierelor și checklistul intern. Înainte de completare trebuie stabilit setul oficial final de anexe și eliminate dublurile.\n\n## Evaluare de maturitate\n\nEstimarea mea:\n\n- concept și poziționare: 70%;\n- documentație tehnică narativă: 55–60%;\n- documente comerciale/probe de piață: 10%;\n- buget funcțional și reconciliat: 40%;\n- cerere MySMIS: 10–15%;\n- plan de afaceri conform anexei: 15–20%;\n- anexe administrative: 20–25%;\n- eligibilitate demonstrată: sub 40%;\n- pregătire globală pentru depunere: aproximativ 30–35%.\n\nScorul intern „≈94/100” este un scor potențial, nu scorul stării actuale. În prezent nu poate fi susținut documentar.\n\n## Ordinea recomandată de remediere\n\n1. Decizie „go/no-go” pe CAEN, caracterul hardware și capacitatea reală de cofinanțare.\n2. Certificat ONRC Rev.3 și autorizarea codului unic la hala din Emil Racoviță nr. 9.\n3. Verificarea completă IMM, firme legate, minimis, firmă în dificultate și finanțări anterioare.\n4. Alegerea unei singure versiuni de buget și repararea tuturor formulelor.\n5. Introducerea renovării, TVA și costurilor neeligibile în necesarul financiar total.\n6. Reducerea/justificarea tehnologică a liniei de producție prin BOM și flux de fabricație.\n7. Obținerea ofertelor reale pentru fiecare poziție eligibilă.\n8. Confirmarea nominală a echipei și verificarea CV-urilor.\n9. Obținerea LOI-urilor și a protocolului pilot.\n10. Finalizarea probelor TRL și a documentației de testare/certificare.\n11. Scrierea integrală a Planului de afaceri și a câmpurilor MySMIS.\n12. Reconcilierea finală: aceleași sume, rezultate, activități, indicatori și termene în toate documentele.\n\nConcluzia esențială: merită continuat numai dacă DANCOR poate demonstra rapid codul CAEN hardware, producția proprie și finanțarea reală a unui efort total care poate depăși 1,8 milioane euro din surse proprii/credit, după includerea amenajării și a costurilor neeligibile. Altfel, proiectul trebuie redimensionat semnificativ.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783938733240
+    },
+    {
+      "ordinal": 308,
+      "timestamp": "2026-07-13T10:33:53.305Z",
+      "turn_id": "019f5b0a-5b61-7ab3-ab70-9719aad25d72",
+      "item": {
+        "type": "userMessage",
+        "id": "item-8",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "codul secundar CAEN ai verificat ?",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783938833305
+    },
+    {
+      "ordinal": 311,
+      "timestamp": "2026-07-13T10:34:18.576Z",
+      "turn_id": "019f5b0a-5b61-7ab3-ab70-9719aad25d72",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-9",
+        "text": "L-am verificat doar la nivelul informațiilor existente în dosar, nu l-am putut confirma documentar definitiv.\n\nAnaliza internă afirmă că, pe baza unui certificat constatator din 06.06.2025, DANCOR avea ca activități secundare:\n\n- 6201 → corespondent CAEN Rev.3: 6210;\n- 6202/6203 → 6220;\n- 6209 → 6290;\n- 6311 → 6310.\n\nTot analiza spune că 6201 era autorizat „la terți”. Problema este că certificatul constatator respectiv nu se găsește efectiv în folder, iar actul constitutiv scanat nu dovedește autorizarea activității la locația proiectului. Existența codului în obiectul de activitate nu este același lucru cu autorizarea lui.\n\nÎn plus, pentru componenta hardware, documentele indică faptul că 2611, 2612 și 2630 nu sunt confirmate; este menționat doar 2790, care nu apare în lista CAEN eligibilă a apelului.\n\nConcluzie: codurile secundare TIC sunt plauzibile, dar neverificate oficial în forma actuală a dosarului. Este necesar un certificat constatator ONRC actualizat, CAEN Rev.3, care să confirme:\n\n- lista activităților secundare;\n- codul unic ales pentru proiect;\n- autorizarea codului la hala din Str. Emil Racoviță nr. 9;\n- existența/autorizarea 2611, 2612 sau 2630 dacă proiectul rămâne pe varianta hardware de 3 milioane euro.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783938858576
+    },
+    {
+      "ordinal": 319,
+      "timestamp": "2026-07-13T10:37:45.885Z",
+      "turn_id": "019f5b0d-e7f2-79e3-a6bd-a9e1c0736bc8",
+      "item": {
+        "type": "userMessage",
+        "id": "item-10",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "acceseaza folderul \"Z:\\00. Firme\\DANCOR PROIECT SRL - CUI 12445967\"",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783939065885
+    },
+    {
+      "ordinal": 321,
+      "timestamp": "2026-07-13T10:37:49.143Z",
+      "turn_id": "019f5b0d-e7f2-79e3-a6bd-a9e1c0736bc8",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-11",
+        "text": "Accesez dosarul firmei și verific în primul rând certificatul constatator, actele ONRC și codurile CAEN secundare/autorizate. Nu voi modifica nimic.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783939069143
+    },
+    {
+      "ordinal": 327,
+      "timestamp": "2026-07-13T10:37:55.336Z",
+      "turn_id": "019f5b0d-e7f2-79e3-a6bd-a9e1c0736bc8",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-12",
+        "text": "Am găsit documentele decisive, inclusiv certificatul constatator din 06.06.2025, unul din 11.03.2026 și dosarul ONRC din 15.06.2026. Le citesc acum comparativ, ca să disting între codurile înscrise în obiectul de activitate și cele efectiv autorizate la sediu/terți.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783939075336
+    },
+    {
+      "ordinal": 343,
+      "timestamp": "2026-07-13T10:38:34.253Z",
+      "turn_id": "019f5b0d-e7f2-79e3-a6bd-a9e1c0736bc8",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-13",
+        "text": "Am accesat folderul și am verificat documentele ONRC. Corectez concluzia anterioară:\n\n- DANCOR are codul secundar 6201 – realizare software la comandă, corespondent CAEN Rev.3: 6210.\n- Codul 6201 este și autorizat, dar numai pentru activități desfășurate „la terți”.\n- Mai apar în obiectul secundar 6209 și activități corespunzătoare 6202/6203/6311, însă nu rezultă că toate sunt autorizate.\n- Codul 2790 este secundar și autorizat la un „fond de comerț”, dar nu este eligibil pentru acest apel.\n- Codurile hardware eligibile 2611, 2612 și 2630 nu apar în certificatul verificat.\n- Activitatea principală rămâne 7022 – consultanță pentru afaceri și management.\n\nProblema decisivă: hala din Str. Emil Racoviță nr. 9 a fost cumpărată în aprilie 2026, după certificatele analizate, și nu apare ca sediu secundar/punct de lucru cu activitate autorizată. Certificatul indică doar punctul de lucru din Sighișoara.\n\nPrin urmare:\n\n- pentru varianta software, 6210 există în fond, dar trebuie convertit/confirmat în CAEN Rev.3 și autorizat la noua locație;\n- pentru varianta hardware de 3 milioane euro, trebuie adăugat și autorizat 2611, 2612 sau 2630 la hala din Alba Iulia;\n- trebuie înregistrată hala ca punct de lucru/sediu secundar înaintea obținerii unui certificat constatator nou.\n\nCertificatul recomandat pentru proiect trebuie emis după aceste operațiuni și să arate explicit:\n\n1. CAEN Rev.3;\n2. punct de lucru Str. Emil Racoviță nr. 9;\n3. codul eligibil ales pentru proiect;\n4. activitatea autorizată la acel punct de lucru.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783939114253
+    },
+    {
+      "ordinal": 351,
+      "timestamp": "2026-07-13T11:02:40.957Z",
+      "turn_id": "019f5b24-b7e8-70f0-b1c5-d30f260063fa",
+      "item": {
+        "type": "userMessage",
+        "id": "item-14",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "urmatoarea problema de rezolvat ?",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783940560957
+    },
+    {
+      "ordinal": 353,
+      "timestamp": "2026-07-13T11:02:56.215Z",
+      "turn_id": "019f5b24-b7e8-70f0-b1c5-d30f260063fa",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-15",
+        "text": "Următoarea problemă critică este dovada capacității de cofinanțare și a lichidității.\n\nProiectul presupune aproximativ:\n\n- 1.300.855 € cofinanțare eligibilă;\n- circa 561.666 € pentru amenajarea halei și lucrări „zonă gri”;\n- TVA și alte cheltuieli neeligibile;\n- finanțarea temporară a cheltuielilor până la rambursarea grantului.\n\nBugetul presupune un credit pe 10 ani, dar în dosar nu există încă o aprobare bancară pentru această sumă.\n\nTrebuie rezolvate imediat:\n\n1. Stabilirea necesarului total de finanțare, inclusiv TVA, renovare și decalajul de rambursare.\n2. Solicitarea la bancă a unei scrisori de confort/eligibilitate sau a unei oferte ferme de credit.\n3. Pregătirea situațiilor financiare 2024–2025, balanței recente și extraselor de cont.\n4. Verificarea gradului de îndatorare și a garanțiilor disponibile, inclusiv hala.\n5. Hotărârea AGA privind proiectul, valoarea totală și asumarea cofinanțării.\n6. Introducerea creditului, dobânzii și ratelor reale în fluxul de numerar.\n\nPragul de decizie este simplu: dacă banca nu confirmă o capacitate apropiată de necesarul total, proiectul trebuie redimensionat înainte de continuarea scrierii. După aceasta, următoarea problemă va fi repararea și unificarea bugetului.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783940576215
+    },
+    {
+      "ordinal": 361,
+      "timestamp": "2026-07-13T11:15:01.046Z",
+      "turn_id": "019f5b30-02fb-7d71-8fcc-aa5e98275c82",
+      "item": {
+        "type": "userMessage",
+        "id": "item-16",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "Solicitarea la bancă a unei scrisori de confort/eligibilitate sau a unei oferte ferme de\n     credit. avemnevoie la depunere ?   \n\n renovare și decalajul de rambursare - dorim sa accesam amxim posibil pentru 2 ani si sa punem investitia in maxim posibil ca si timp",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783941301046
+    },
+    {
+      "ordinal": 363,
+      "timestamp": "2026-07-13T11:15:11.804Z",
+      "turn_id": "019f5b30-02fb-7d71-8fcc-aa5e98275c82",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-17",
+        "text": "Verific exact în ghid diferența dintre documentele cerute la depunere și cele cerute la contractare, apoi clarific și cum poate fi întins legal proiectul pe 24 de luni fără ca renovarea să afecteze eligibilitatea ajutorului regional.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783941311804
+    },
+    {
+      "ordinal": 373,
+      "timestamp": "2026-07-13T11:15:49.782Z",
+      "turn_id": "019f5b30-02fb-7d71-8fcc-aa5e98275c82",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-18",
+        "text": "Nu, scrisoarea de confort sau oferta fermă de credit nu este obligatorie la depunerea cererii.\n\nConform ghidului:\n\n- la depunere este obligatorie Hotărârea AGA/Decizia asociatului unic, cu valoarea totală, cofinanțarea, cheltuielile neeligibile și sumele necesare până la rambursare;\n- dovada efectivă a cofinanțării — extras de cont, linie sau contract de credit — se prezintă la contractare;\n- termenul indicat este de 15 zile lucrătoare de la scrisoarea de demarare a contractării.\n\nTotuși, recomand inițierea discuției cu banca acum, deoarece 15 zile la contractare pot fi insuficiente pentru aprobarea unui credit de aproximativ 1,3 milioane euro.\n\n## Cum maximizăm finanțarea\n\nȚinta poate fi:\n\n- grant: maximum 3.000.000 €;\n- investiție eligibilă: aproximativ 4.300.850 €;\n- cofinanțare eligibilă: aproximativ 1.300.855 €;\n- implementare: 24 luni, durata maximă standard.\n\nPentru grantul de 3 milioane euro trebuie menținută încadrarea ca produs hardware inovativ, cu producție realizată de DANCOR și cu suma peste 1,5 milioane justificată prin linia de producție.\n\nValoarea totală eligibilă poate fi chiar mai mare de 4,3 milioane euro, dar grantul rămâne plafonat la 3 milioane. Diferența suplimentară va fi suportată de firmă.\n\n## Renovarea halei\n\nRenovarea generală nu poate fi introdusă în grant doar pentru a maximiza investiția. Sunt, în principiu, neeligibile:\n\n- tencuieli și finisaje generale;\n- geamuri și uși;\n- încălzirea generală;\n- birouri, vestiare și grupuri sanitare;\n- mezanin;\n- reparații generale ale halei.\n\nPot fi analizate pentru includere doar costurile direct și inseparabil legate de instalarea/punerea în funcțiune a utilajelor, de exemplu:\n\n- fundații speciale pentru utilaje;\n- instalarea și configurarea echipamentelor;\n- alimentări electrice dedicate;\n- exhaustare ATEX specifică utilajului;\n- racorduri tehnologice;\n- punerea în funcțiune.\n\nIdeal, aceste costuri trebuie să apară în ofertele furnizorilor ca parte a echipamentului/instalării. Eligibilitatea lor trebuie confirmată înainte de definitivarea bugetului.\n\n## Calendar recomandat pentru 24 luni\n\n- L1–L3: proiect tehnic, autorizații, documentații și lansarea achizițiilor;\n- L2–L8: renovarea halei din surse proprii;\n- L3–L10: proceduri și contractare echipamente;\n- L7–L15: livrare și instalare linie de producție/HPC;\n- L1–L18: cercetare industrială și dezvoltarea modulelor EVA;\n- L10–L20: integrare, fabricație componente și prototip;\n- L16–L22: testare, certificare preliminară și pilot;\n- L18–L24: introducere în piață;\n- L22–L24: audit tehnic și ultima cerere de rambursare.\n\nNu recomand amânarea tuturor achizițiilor spre final: cele 24 luni includ și realizarea cheltuielilor, livrarea, punerea în funcțiune și depunerea cererilor de rambursare.\n\nDe asemenea, pentru ajutorul de stat, nu trebuie făcute cheltuieli sau angajamente ferme aferente investiției eligibile înainte de depunerea cererii. Pentru lucrările legate direct de investiția regională, varianta prudentă este începerea după depunere și, ideal, după clarificarea eligibilității/contractare.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783941349782
+    },
+    {
+      "ordinal": 381,
+      "timestamp": "2026-07-13T11:16:55.021Z",
+      "turn_id": "019f5b31-c005-7aa1-a9be-b83ffadf1e70",
+      "item": {
+        "type": "userMessage",
+        "id": "item-19",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "accesam maxim de finantare cu minim de cofinantare",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783941415021
+    },
+    {
+      "ordinal": 385,
+      "timestamp": "2026-07-13T11:17:23.242Z",
+      "turn_id": "019f5b31-c005-7aa1-a9be-b83ffadf1e70",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-20",
+        "text": "Atunci strategia financiară trebuie schimbată: eliminăm cofinanțarea voluntară introdusă doar pentru punctaj și solicităm intensitatea maximă permisă pentru fiecare cheltuială.\n\nÎn bugetul actual există o linie de 250.000 € pentru cercetare contractuală, finanțată integral din surse proprii. Aceasta a fost introdusă pentru cele 5 puncte aferente cofinanțării suplimentare. Dacă obiectivul este cofinanțarea minimă, linia trebuie eliminată sau finanțată la intensitatea maximă permisă.\n\nVarianta imediată, pe structura actuală:\n\n- cost eligibil: aproximativ 4.050.850 €;\n- grant solicitat: 3.000.000 €;\n- cofinanțare eligibilă minimă: aproximativ 1.050.850 €;\n- renovare, TVA și cheltuieli neeligibile: separat.\n\nPrincipiile noului buget:\n\n- ajutor regional: 70% grant / 30% contribuție;\n- cercetare industrială: 80% grant dacă acceptăm condiția de diseminare/licențiere;\n- dezvoltare experimentală: 60% grant dacă sunt îndeplinite condițiile majorării;\n- minimis: 100%, maximum 300.000 €;\n- nicio cheltuială eligibilă finanțată voluntar 100% din surse proprii;\n- grant total exact 3.000.000 €;\n- activitatea de bază minimum 80%;\n- personalul tehnic propriu minimum 20% din grantul activității de bază.\n\nExistă însă un compromis: dacă solicităm strict cofinanțarea minimă, probabil pierdem cele 5 puncte de la criteriul 4.2. Scorul proiectat ar coborî aproximativ de la 94 la 89 de puncte, deci sub pragul de excelență de 92, dar peste pragul minim de 70.\n\nRecomandarea mea este să reconstruim bugetul pe obiectivul declarat:\n\n> grant maxim 3.000.000 €, contribuție eligibilă minimă, fără cheltuieli eligibile autofinanțate voluntar.\n\nȚinta realistă imediată este o cofinanțare eligibilă de aproximativ 1,05 milioane euro. O reducere suplimentară ar necesita mutarea unei părți mai mari din buget din ajutor regional de 70% în cercetare industrială de 80%, dar numai dacă încadrarea tehnică poate fi apărată solid și linia de producție rămâne suficientă pentru justificarea plafonului hardware.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783941443242
+    },
+    {
+      "ordinal": 393,
+      "timestamp": "2026-07-13T11:32:44.428Z",
+      "turn_id": "019f5b40-3b13-7cb3-b6a6-f774d3811c75",
+      "item": {
+        "type": "userMessage",
+        "id": "item-21",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "accesam maxim de finantare cu minim de cofinantare. verifica listele de echipamente / laboratoare si salarii si altecheltuieli daca sunt 100% incadrate corect pentru punctaj maxim",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783942364428
+    },
+    {
+      "ordinal": 396,
+      "timestamp": "2026-07-13T11:33:01.484Z",
+      "turn_id": "019f5b40-3b13-7cb3-b6a6-f774d3811c75",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-22",
+        "text": "Voi verifica fiecare categorie pe trei axe: eligibilitatea legală, intensitatea corectă de ajutor și efectul asupra punctajului. Mă concentrez pe varianta cu grant de 3 milioane €, cofinanțare minimă și fără linii introduse artificial pentru punctaj. Verific separat linia de producție, HPC/laboratorul, salariile, minimis și formulele de control.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783942381484
+    },
+    {
+      "ordinal": 412,
+      "timestamp": "2026-07-13T11:33:46.289Z",
+      "turn_id": "019f5b40-3b13-7cb3-b6a6-f774d3811c75",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-23",
+        "text": "La verificarea preliminară, clasificarea generală a utilajelor și a HPC-ului este permisă de ghid, dar „100% corect” nu este încă adevărat: am identificat deja probleme la salarii, la justificarea unor utilaje și la formule. Verific și dacă specificațiile hardware folosite în fișe sunt actuale și ofertabile, deoarece fără aceasta nu putem susține rezonabilitatea prețurilor.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783942426289
+    },
+    {
+      "ordinal": 415,
+      "timestamp": "2026-07-13T11:33:51.097Z",
+      "turn_id": "019f5b40-3b13-7cb3-b6a6-f774d3811c75",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-23298bae-82ab-4e1e-92bf-1a4244bb3256",
+        "query": "site:nvidia.com Jetson AGX Thor Developer Kit official specifications availability price ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "site:nvidia.com Jetson AGX Thor Developer Kit official specifications availability price",
+            "site:nvidia.com H100 Tensor Core GPU official specifications L40S official",
+            "site:amd.com VEK280 evaluation kit official specifications price",
+            "site:nvidia.com DGX B200 official specifications"
+          ]
+        },
+        "results": null
+      },
+      "created_at_ms": 1783942431097
+    },
+    {
+      "ordinal": 423,
+      "timestamp": "2026-07-13T11:35:42.310Z",
+      "turn_id": "019f5b40-3b13-7cb3-b6a6-f774d3811c75",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-25",
+        "text": "Verdictul este clar: bugetul nu este încă încadrat 100% corect și nu este pregătit pentru punctaj maxim. În plus, „cofinanțare minimă” și „punctaj maxim” sunt obiective incompatibile: criteriul 4.2 acordă 5 puncte numai dacă aportul propriu depășește minimul obligatoriu cu peste 5%.\n\n## Varianta cu finanțare maximă și cofinanțare minimă\n\nPe structura actuală, varianta optimă este eliminarea cheltuielii de 250.000 euro pentru „cercetare contractuală”, prevăzută integral din surse proprii doar pentru majorarea cofinanțării.\n\n| Componentă | Eligibil | Grant | Cofinanțare |\n|---|---:|---:|---:|\n| Linie de producție | 2.500.000 € | 1.750.000 € | 750.000 € |\n| HPC și infrastructură AI | 506.850 € | 354.795 € | 152.055 € |\n| Personal cercetare | 744.000 € | 595.200 € | 148.800 € |\n| Ajutor de minimis | 300.000 € | 300.000 € | 0 € |\n| **Total** | **4.050.850 €** | **2.999.995 €** | **1.050.855 €** |\n\nCofinanțarea eligibilă minimă rezultată este deci aproximativ **1,051 milioane euro**, la care se adaugă:\n\n- TVA, dacă nu este eligibilă;\n- renovările și lucrările neeligibile;\n- cheltuielile până la rambursarea cererilor de plată;\n- eventualele depășiri de preț.\n\nDiferența de 5 euro până la plafonul de 3 milioane se corectează la definitivarea ofertelor.\n\nConsecința de punctaj:\n\n- maximum teoretic: aproximativ **95/100**, deoarece se pierd cele 5 puncte pentru cofinanțare suplimentară;\n- raportat la evaluarea internă actuală, estimarea realistă este în jur de **89/100**, dacă restul neconformităților sunt rezolvate;\n- pragul de excelență de 92 poate deveni dificil de atins cu cofinanțare strict minimă.\n\n## 1. Linia de producție – încadrare parțial corectă\n\nFișierul analizat: [Linie productie robotica.xlsx](<Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/Linie productie robotica.xlsx>).\n\nÎncadrarea ca ajutor regional, la intensitatea de 70%, este în principiu posibilă pentru echipamentele care intră efectiv în fluxul de producție al robotului EVA.\n\nSunt relativ bine încadrate:\n\n- CNC 5 axe;\n- strung multifuncțional;\n- mașină de danturat;\n- debitare;\n- scule și presetter;\n- echipamente additive strict necesare pieselor robotului;\n- echipamente de control dimensional și calitate.\n\nProblemele identificate:\n\n- Sunt prevăzute simultan WAAM/DED și Binder Jet, plus trei tipuri de cuptoare. Pentru volume de 3, 7–10 și 15–20 roboți, configurația poate fi considerată supradimensionată.\n- Wire EDM, două rectificări, CMM, scanner și rugozimetru trebuie legate de repere concrete din BOM-ul robotului.\n- „Sisteme auxiliare – 20.000 euro” este prea vag. Trebuie împărțit în echipamente distincte, cu cantități și oferte.\n- Lipsesc calculul de capacitate, orele de funcționare, gradul de utilizare și analiza make-or-buy.\n- Lipsesc layoutul halei și fluxurile pentru materii prime, pulberi metalice, tratament termic, prelucrări și control.\n- Nu este demonstrat că hala de 672 m² permite instalarea sigură a tuturor echipamentelor, inclusiv zona ATEX, cuptoarele și laboratorul.\n- Ventilația, puterea electrică, PSI, ATEX și amenajările necesare nu sunt integral bugetate sau delimitate între eligibil și neeligibil.\n\nRecomandare: păstrați numai utilajele susținute printr-un tabel „reper robot – operație – utilaj – timp/ciclu – capacitate anuală”. Restul trebuie etapizat, externalizat sau foarte bine argumentat.\n\n## 2. HPC și laboratorul AI – eligibil, dar cu probleme tehnice și de preț\n\nGhidul permite infrastructură HPC, GPU, AI, edge și stocare în categoria introducerii în producție. Totuși, trebuie demonstrat că sistemul este utilizat pentru industrializarea și exploatarea produsului, nu exclusiv pentru activități de cercetare.\n\nProbleme:\n\n- Configurația cu 4 noduri H100, 4 noduri L40S și 2 noduri RTX 6000 Ada poate părea redundantă fără un calcul de workload.\n- Fișa H100 conține o eroare: aproximativ 989 TFLOPS reprezintă performanța TF32 indicată de NVIDIA, nu FP16 în forma înscrisă în proiect. Fișa trebuie corectată. [Specificațiile oficiale NVIDIA H100](https://www.nvidia.com/en-us/data-center/h100/)\n- În 2026 există deja generația NVIDIA Blackwell/DGX B200. H100 nu devine neeligibil, dar trebuie justificat prin cost, disponibilitate, compatibilitate și TCO. [NVIDIA DGX B200](https://www.nvidia.com/en-us/data-center/dgx-b200/)\n- AMD VEK280 este prezentat oficial ca evaluation kit, nefiind destinat producției de serie. Prețul oficial este de 6.995 USD/bucată, în timp ce bugetul prevede 18.000 euro/bucată. Diferența trebuie explicată prin accesorii, licențe și integrare sau redusă. [AMD VEK280](https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/vek280.html)\n- Jetson AGX Thor Developer Kit are un preț oficial indicativ de aproximativ 3.499 USD, iar proiectul prevede 10.000 euro/bucată. Trebuie separat kitul de dezvoltare de modulele destinate roboților și de serviciile de integrare. [NVIDIA Jetson Thor](https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/jetson-thor/)\n- Nu există dimensionare: parametri model, volum dataset, ore de antrenare, grad de utilizare GPU, stocare anuală și comparație cu varianta cloud.\n- Licențele de 7.850 euro trebuie detaliate pe produs, perioadă, număr de utilizatori și tratament contabil.\n\nPentru punctaj maxim, adăugați o anexă de dimensionare HPC și o comparație CAPEX versus cloud pentru 24–36 luni.\n\n## 3. Laboratorul separat nu este inclus integral în bugetul consolidat\n\nFișierul cu dotări pentru secții și laborator conține aproximativ 570.000 euro, dar această sumă nu are spațiu distinct în bugetul consolidat.\n\nExistă și suprapuneri:\n\n- CMM și scanner 3D apar și în linia de producție;\n- rugozimetrul apare în mai multe liste;\n- licențele CAD/CAE/EDA se pot suprapune cu licențele HPC;\n- echipamentele de testare trebuie delimitate între laborator de cercetare și control de producție.\n\nTrebuie creată o singură listă master, cu un cod unic pentru fiecare echipament. În forma actuală există risc de dublă bugetare.\n\n## 4. Salariile nu sunt 100% conforme\n\nPlafoanele din Anexa 9 sunt:\n\n- categoria 1: maximum 50 euro/oră;\n- categoria 2: maximum 35 euro/oră;\n- categoria 3: maximum 25 euro/oră;\n- categoria 4: maximum 15 euro/oră.\n\nEvaluarea actuală:\n\n| Funcție | Tarif calculat | Verdict |\n|---|---:|---|\n| Coordonator tehnic | ~49,4 €/oră | Acceptabil numai cu doctorat/experiență specifică de categoria 1 |\n| Expert AI/ML | ~43,6 €/oră | Neconform dacă nu îndeplinește categoria 1 |\n| Expert embedded | ~43,6 €/oră | Neconform dacă nu îndeplinește categoria 1 |\n| Expert robotică/sector | ~29,1 €/oră | Posibil categoria 2, dar experiența „peste 3 ani” nu susține automat tariful |\n| QA/securitate | ~14,5 €/oră | Poate intra la categoria 4 |\n\nBogdan Pintea ar putea susține categoria 1, având doctorat și experiență relevantă, dacă este nominalizat efectiv ca expert/coordonator și are relația contractuală eligibilă. Pentru ceilalți experți nu este demonstrată categoria salarială.\n\nImportant: experiența necesară pentru punctajul echipei nu este identică cu experiența necesară pentru plafonul salarial.\n\nDacă experții AI și embedded rămân în categoria 2, remunerația lor trebuie redusă la maximum aproximativ 35 euro/oră. Aceasta poate reduce cheltuiala salarială eligibilă și grantul cu circa 56.000–60.000 euro. Diferența trebuie acoperită prin:\n\n- alte ore reale de cercetare ale unor specialiști eligibili;\n- un expert suplimentar necesar și justificat;\n- sau echipamente suplimentare, caz în care crește cofinanțarea.\n\nBugetul salarial trebuie reconstruit în lei, pornind de la:\n\n- salariul brut și contribuțiile eligibile;\n- numărul efectiv de ore productive;\n- procentul de alocare în proiect;\n- fișa postului;\n- categoria din Anexa 9;\n- activitățile și livrabilele fiecărei persoane.\n\n## 5. Minimis – plafon utilizat integral, dar repartizarea este vulnerabilă\n\nCei 300.000 euro sunt utilizați integral:\n\n- marketing: 120.000 euro;\n- informare și publicitate: 30.000 euro;\n- audit/securitate/GDPR: 60.000 euro;\n- management: 90.000 euro.\n\nProbleme:\n\n- website-ul de produs de 22.000 euro și website-ul proiectului de 8.000 euro pot fi considerate suprapunere;\n- 30.000 euro pentru publicitate obligatorie este ridicat;\n- 60.000 euro pentru audit/securitate/GDPR trebuie împărțit în servicii și livrabile distincte;\n- lipsesc sau nu au buget clar: accesibilitate, certificări, autorizări, proprietate intelectuală și pregătirea documentațiilor;\n- plafonul de minimis este ocupat integral, deci nu mai există rezervă;\n- trebuie verificat plafonul de minimis la nivel de întreprindere unică.\n\nAș redistribui o parte din publicitate și audit către:\n\n- certificarea produsului;\n- testare cybersecurity/penetration testing;\n- accesibilitate;\n- autorizări și conformitate;\n- protecția proprietății intelectuale.\n\nAceastă redistribuire nu schimbă cofinanțarea, dar îmbunătățește coerența și punctajul.\n\n## Concluzie\n\nNu recomand depunerea pe listele actuale. Cele patru corecții obligatorii sunt:\n\n1. Eliminarea cercetării contractuale de 250.000 euro dacă prioritatea este cofinanțarea minimă.\n2. Refacerea salariilor pe categorii Anexa 9 și nominalizarea experților.\n3. Unificarea liniei de producție, HPC și laboratorului într-o listă fără suprapuneri.\n4. Obținerea a minimum două oferte comparabile pentru fiecare cheltuială, inclusiv servicii, și completarea centralizatorului din Anexa 7.\n\nPână nu există ofertele și justificările tehnice, nu se poate acorda calificativul „100% corect”; în special, punctajul aferent fundamentării bugetului rămâne nesecurizat.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783942542310
+    },
+    {
+      "ordinal": 431,
+      "timestamp": "2026-07-13T12:39:21.893Z",
+      "turn_id": "019f5b7d-3bcd-71f2-b969-4d592bb1e822",
+      "item": {
+        "type": "userMessage",
+        "id": "item-26",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "am facut modificari  - reverifica proiectul si da-mi o noua lista de propuneri si sarcini",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783946361893
+    },
+    {
+      "ordinal": 432,
+      "timestamp": "2026-07-13T12:39:25.476Z",
+      "turn_id": "019f5b7d-3bcd-71f2-b969-4d592bb1e822",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-27",
+        "text": "Reiau evaluarea pe versiunea modificată și o compar cu concluziile anterioare. Voi verifica întâi ce fișiere s-au schimbat, apoi bugetul, echipamentele/laboratoarele, salariile, cofinanțarea și documentele suport, iar la final îți dau o listă prioritizată de sarcini.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783946365476
+    },
+    {
+      "ordinal": 442,
+      "timestamp": "2026-07-13T12:39:36.398Z",
+      "turn_id": "019f5b7d-3bcd-71f2-b969-4d592bb1e822",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-28",
+        "text": "Am identificat modificările principale din 13 iulie: un buget nou „EVA_Buget_FINAL”, Anexa 16 și completări în secțiunile MySMIS privind capacitatea, localizarea, investiția, documentațiile și rezultatele. Acum verific dacă valorile și textele sunt corelate între ele, nu doar dacă fișierele au fost completate.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783946376398
+    },
+    {
+      "ordinal": 476,
+      "timestamp": "2026-07-13T12:40:39.860Z",
+      "turn_id": "019f5b7d-3bcd-71f2-b969-4d592bb1e822",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-29",
+        "text": "Prima corecție majoră este confirmată: cofinanțarea eligibilă a fost redusă la 942.857 euro, dar noul fișier are necorelări interne între lista de echipamente, buget și Anexa 16. Mai important, documentul „Activități proiect” a rămas pe vechiul scenariu de 4,300 milioane euro și contrazice bugetul final. Verific acum și temeiul exact pentru finanțarea integrală a echipamentelor CDI la 80%, deoarece aici este riscul financiar cel mai mare.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783946439860
+    },
+    {
+      "ordinal": 518,
+      "timestamp": "2026-07-13T12:43:24.154Z",
+      "turn_id": "019f5b7d-3bcd-71f2-b969-4d592bb1e822",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-30",
+        "text": "Am reverificat fișierele modificate la 13.07.2026. Proiectul este mai bine structurat, dar bugetul de 942.857 euro cofinanțare nu este încă defensabil în forma actuală. Riscul principal este trecerea întregului HPC și laboratorului la ajutor CDI 80%, deși pentru echipamentele CDI este eligibilă, de regulă, numai amortizarea aferentă utilizării în proiect.\n\n## Ce s-a îmbunătățit\n\n- A fost eliminată cercetarea contractuală de 250.000 euro finanțată integral din surse proprii.\n- Grantul este fixat la 3.000.000 euro.\n- A fost creată o listă unificată de echipamente.\n- Au fost eliminate unele suprapuneri de metrologie.\n- Patru experți tehnici sunt nominalizați.\n- A fost actualizată [Anexa 16](<Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/4. Dosar depunere (de completat)/04 - Anexa 16 corelare + buget defalcat.xlsx>).\n- Au fost completate parțial cinci secțiuni MySMIS.\n- Cofinanțarea eligibilă teoretică a scăzut de la aproximativ 1,301 milioane euro la 942.857 euro.\n\n## Probleme critice noi sau rămase\n\n### 1. Cofinanțarea de 942.857 euro este construită pe o încadrare riscantă\n\nÎn [EVA_Buget_FINAL.xlsx](<Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/EVA_Buget_FINAL.xlsx>) sunt încadrate la CDI 80%:\n\n- clusterul HPC;\n- kiturile Jetson și FPGA;\n- laboratorul electronic;\n- stațiile CAD/CAE/EDA;\n- instrumentele de testare.\n\nConform documentelor oficiale, dacă echipamentele CDI nu sunt utilizate în proiect pe întreaga durată de viață, este eligibilă numai amortizarea corespunzătoare duratei proiectului. Prin urmare, nu se poate lua automat 80% din prețul integral de achiziție.\n\nPropunerea mea este:\n\n- HPC utilizat ulterior pentru producție/exploatarea produsului: ajutor regional 70%, preț integral;\n- laborator strict CDI: ajutor CDI, dar numai amortizarea eligibilă;\n- echipamente de control al producției: ajutor regional 70%;\n- kituri de dezvoltare Jetson/VEK280: CDI/amortizare sau cheltuială neeligibilă, după utilizare.\n\nVarianta prudentă, cu tot hardware-ul achiziționat integral pe ajutor regional, conduce din nou la o cofinanțare eligibilă de aproximativ **1,051 milioane euro**. Diferența față de scenariul actual este aproximativ 108.000 euro, dar această variantă este mult mai sigură.\n\n### 2. Lista de echipamente nu se închide cu bugetul\n\n| Element | Lista echipamente | Buget |\n|---|---:|---:|\n| Producție eligibilă | 2.130.000 € | 2.142.857 € |\n| HPC + laborator eligibil | 766.850 € | 756.000 € |\n| Faza 2 | 580.000 € | 577.993 € |\n\nDiferențele sunt generate și prin valori introduse manual în formule. Nu există o corespondență exactă „echipament–valoare–tip ajutor–ofertă–activitate”.\n\n### 3. Salariile nu sunt încă validate\n\nSituația corectă este:\n\n- Dr. Mihai Jalobeanu: categoria 1 este plauzibilă, cu documente justificative.\n- Adrian Potra: experiența de peste 20 ani nu îi acordă automat categoria 1 dacă este doar expert. Pentru 43,6 euro/oră trebuie doctorat + peste 10 ani sau o încadrare reală ca director de proiect cu peste 15 ani.\n- Cristina Potra: aceeași problemă.\n- Bogdan Pintea: experiența de peste 15 ani nu este suficientă automat pentru categoria 1 dacă rolul este „expert business/sectorial”.\n- QA/Security: apare categoria 2 cu doar peste 2 ani experiență. Tariful de 14,5 euro/oră se încadrează mai sigur în categoria 4.\n- Responsabilul financiar nu este nominalizat.\n\nMai există necorelări de durată:\n\n- salariile tehnice sunt bugetate 24 luni;\n- Anexa 16 indică A1 în lunile L1–L20;\n- documentul vechi de activități indică L1–L18;\n- managementul este bugetat 18 luni, dar activitatea apare L1–L24.\n\n### 4. Documentul „Activități proiect” a rămas pe bugetul vechi\n\n[3.1 Activități Proiect](<Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/mysmis/3.1 Activitati Proiect.docx>) conține în continuare:\n\n- cercetare contractuală de 250.000 euro;\n- producție de 2.500.000 euro;\n- HPC regional de 506.850 euro;\n- cost eligibil total 4.300.850 euro;\n- cofinanțare 1.300.855 euro;\n- vechiul calendar al activităților.\n\nAfirmația din document că sumele coincid cu bugetul și Anexa 16 este, momentan, falsă.\n\n### 5. Dashboardul are indicatori calculați diferit față de Anexa 16\n\nBugetul final arată:\n\n- activitate de bază: 90%;\n- personal propriu/bază: 22%.\n\nAnexa 16 arată:\n\n- activitate de bază: 94%;\n- personal propriu/bază: 21,1%.\n\nAnexa 16 include corect promovarea/go-to-market în activitatea de bază. Dashboardul trebuie corectat la 94% și 21,1%.\n\n### 6. Capacitatea financiară prezentată este incompletă\n\nCreditul de 942.857 euro acoperă numai cofinanțarea eligibilă din scenariul actual. Nu acoperă:\n\n- Faza 2: aproximativ 580.000 euro;\n- renovarea halei: până la 781.666 euro;\n- TVA;\n- decalajul până la rambursare;\n- eventualele cheltuieli respinse;\n- capitalul de lucru;\n- dobânzile și comisioanele din implementare.\n\nNecesarul total potențial poate depăși **2,3 milioane euro plus TVA și decalajul de rambursare**. Modelul financiar actual nu reflectă acest necesar.\n\n### 7. Codul CAEN și locația nu sunt rezolvate\n\nNoile texte declară:\n\n> „6210 + 2611/2612”\n\nDar în documentele societății analizate anterior:\n\n- 2611 și 2612 nu apar;\n- hala Emil Racoviță nr. 9 nu apare încă drept punct de lucru autorizat;\n- 6210 trebuie autorizat la locația proiectului;\n- trebuie ales codul CAEN efectiv corespunzător fabricării robotului, fără a menționa în cerere coduri pe care societatea nu le are.\n\nFără certificat constatator actualizat, aceasta rămâne problemă de eligibilitate.\n\n### 8. Secțiunile MySMIS sunt în mare parte goale\n\nAu fost completate parțial secțiunile 1, 2, 11, 12 și 13. Au rămas practic necompletate:\n\n- obiectivele;\n- justificarea și relevanța;\n- durabilitatea;\n- riscurile;\n- grupul-țintă;\n- principiile orizontale;\n- metodologia;\n- maturitatea proiectului;\n- analiza cererii și analiza opțiunilor.\n\nPlanul de afaceri și cererea de finanțare sunt încă doar schelete.\n\n## Lista nouă de sarcini\n\n### Prioritatea 0 – înainte de continuarea redactării\n\n1. **Decizie definitivă privind încadrarea echipamentelor**\n\n   Regional integral versus CDI prin amortizare, pentru fiecare poziție.\n\n2. **Refacerea bugetului master**\n\n   O singură listă cu cod unic, denumire, cantitate, ofertă, cost în lei/euro, tip ajutor, intensitate, grant, cofinanțare, activitate și lună de achiziție.\n\n3. **Închiderea diferențelor numerice**\n\n   Corectarea valorilor 2.130.000/2.142.857, 766.850/756.000 și 580.000/577.993.\n\n4. **Recalcularea cofinanțării reale**\n\n   Recomand scenariul prudent de aproximativ 1,051 milioane euro cofinanțare eligibilă, până când amortizarea CDI este demonstrată.\n\n5. **Rezolvarea CAEN și a punctului de lucru**\n\n   Act constitutiv, autorizare cod eligibil la Emil Racoviță nr. 9 și certificat constatator nou.\n\n### Prioritatea 1 – eligibilitate și punctaj eliminatoriu\n\n6. **Validarea fiecărui expert pe Anexa 9**\n\n   Diplome, doctorat/master, experiență, rol, tarif și relație de muncă.\n\n7. **Nominalizarea QA/Security și a responsabilului financiar**\n\n   CV, diplome și declarații de conflict de interese.\n\n8. **Plan concret de diseminare**\n\n   Este necesar pentru justificarea intensității CDI de 80%: conferințe, publicații, registre open-access/open-source sau angajament de licențiere admis de ghid.\n\n9. **Raportul expertului extern de inovare**\n\n   Pentru noutate, comparație internațională și delimitarea cercetării industriale de dezvoltarea experimentală.\n\n10. **Dovezi de maturitate**\n\n   Prototip existent, fotografii, video, rapoarte de testare și demonstrarea nivelului de pornire.\n\n11. **Scrisori de interes și protocol pilot**\n\n   Minimum trei LOI din sectoare diferite și cel puțin un protocol de pilotare.\n\n### Prioritatea 2 – tehnic și buget\n\n12. **BOM complet al robotului EVA**\n\n   Fiecare reper produs intern trebuie legat de utilajul solicitat.\n\n13. **Calcul de capacitate**\n\n   Ore/utilaj, ciclu de fabricație, număr de roboți/an, grad de utilizare și make-or-buy.\n\n14. **Layout pentru hala de 672 m²**\n\n   Utilaje, fluxuri, laborator, HPC, depozitare, zonă ATEX, cuptoare, căi de acces și evacuare.\n\n15. **Bilanț de utilități**\n\n   Putere electrică, răcire HPC, aer comprimat, ventilație, gaze, exhaustare și PSI.\n\n16. **Minimum două oferte pentru fiecare cheltuială eligibilă**\n\n   Nu numai pentru „echipamentele majore”; inclusiv servicii, audit, marketing, licențe și publicitate.\n\n17. **Corectarea fișelor HPC**\n\n   Specificația H100, prețurile Jetson/VEK280, configurația GPU și calculul de workload.\n\n### Prioritatea 3 – documentația finală\n\n18. **Înlocuirea tuturor valorilor vechi**\n\n   Eliminarea din toate documentele a scenariului 4.300.850 euro/1.300.855 euro.\n\n19. **Completarea Cererii și Planului de afaceri**\n\n   Acestea sunt încă schelete și nu pot susține punctajul.\n\n20. **Refacerea proiecțiilor financiare**\n\n   Cu renovare, Faza 2, TVA, credit, dobândă, decalaj de rambursare, capital de lucru și scenarii de vânzări.\n\n21. **Actualizarea checklistului**\n\n   Checklistul încă menționează cofinanțarea de 1,3 milioane euro și marchează unele probleme drept rezolvate deși nu sunt.\n\n22. **Principii orizontale și accesibilitate**\n\n   Bugetul este zero, iar secțiunea MySMIS este goală. Sunt necesare măsuri verificabile, responsabil, calendar și cost.\n\n23. **Control de versiune**\n\n   Un singur dosar „VERSIUNE CURENTĂ”, iar variantele vechi numai în arhivă. În prezent, documentele active se contrazic.\n\nConcluzia mea: versiunea este o îmbunătățire reală, dar nu aș valida încă „grant 3 milioane/cofinanțare 942.857 euro”. Prima sarcină trebuie să fie refacerea încadrării HPC/laboratorului și închiderea bugetului master; altfel toate textele MySMIS vor trebui rescrise din nou.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783946604154
+    },
+    {
+      "ordinal": 526,
+      "timestamp": "2026-07-13T13:48:58.012Z",
+      "turn_id": "019f5bbc-f4c4-7830-927a-e1ba26777404",
+      "item": {
+        "type": "userMessage",
+        "id": "item-31",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "este adevarat : \n\n[16:46, 7/13/2026] Cosmin Covaciu Office: În cazul în care aceste instrumente și echipamente nu sunt folosite pe întreaga lor durată de viață în proiect, sunt considerate eligibile doar cheltuielile de amortizare corespunzătoare duratei proiectului, calculate pe baza principiilor contabile general acceptate.\n[16:47, 7/13/2026] Cosmin Covaciu Office: ideea e ca \n\nDurata maximă de implementare a proiectului (inclusiv realizarea cheltuielilor și depunerea cererilor de rambursare) este de cel mult 24 de luni\n[16:47, 7/13/2026] Andrea Szoke Cesiro Szoke Cesiro Standardizare: E prea putin?\n[16:48, 7/13/2026] Cosmin Covaciu Office: Conform Ministerului Finanțelor din România, roboții umanoizi nu au o poziție distinctă în Catalogul privind clasificarea și duratele normale de funcționare a mijloacelor fixe (aprobat prin HG 2139/2004).În funcție de utilitatea lor, ei trebuie încadrați la echipamente tehnologice sau aparatură similară:Echipamente și instalații de automatizare (Grupa 2.1): Aceasta este cea mai probabilă încadrare pentru roboții industriali sau umanoizi folosiți în procese de producție și servicii. Durata normală de funcționare este cuprinsă între 3 și 5 ani.Echipamente de birotică, calculatoare și periferice (Grupa 3.1.4): Dacă sunt folosiți ca stații de lucru avansate sau echipamente IT complexe, durata de amortizare este între 2 și 4 ani.\n[16:48, 7/13/2026] Cosmin Covaciu Office: Conform Ministerului Finanțelor (prin Catalogul privind clasificarea și duratele normale de funcționare a mijloacelor fixe), strungurile CNC cu 5 axe au o durată de amortizare cuprinsă între 8 și 12 ani (durata normală de funcționare).Iată detaliile esențiale pentru încadrarea contabilă și fiscală:Codul de clasificare: Utilajul se încadrează la Subgrupa 2.1.8. \"Mașini-unelte pentru prelucrarea metalelor\" sau 2.1.5. \"Mașini, utilaje și instalații pentru prelucrarea mecanică\".\n[16:49, 7/13/2026] Cosmin Covaciu Office: practic daca vrei sa iei echipamente de prelucrare nu poti deduce decat ce folosesti pe perioada celor 24 luni\n[16:49, 7/13/2026] Cosmin Covaciu Office: asta face ca contributia ta sa fie enorma",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783950538012
+    },
+    {
+      "ordinal": 528,
+      "timestamp": "2026-07-13T13:49:04.667Z",
+      "turn_id": "019f5bbc-f4c4-7830-927a-e1ba26777404",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-32",
+        "text": "Verific exact separarea dintre ajutorul regional și ajutorul CDI, fiindcă mesajul amestecă două regimuri diferite. Regula amortizării există, dar nu se aplică automat utilajelor CNC și liniei de producție încadrate pe ajutor regional. Verific și duratele/codurile din HG 2139/2004 înainte să confirm cifrele.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783950544667
+    },
+    {
+      "ordinal": 531,
+      "timestamp": "2026-07-13T13:49:08.107Z",
+      "turn_id": "019f5bbc-f4c4-7830-927a-e1ba26777404",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-da168be7-f87c-441c-8041-a30e4b33e526",
+        "query": "site:legislatie.just.ro HG 2139/2004 catalog masini unelte prelucrarea metalelor durata 8 12 ani ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "site:legislatie.just.ro HG 2139/2004 catalog masini unelte prelucrarea metalelor durata 8 12 ani",
+            "site:eur-lex.europa.eu Regulation 651/2014 Article 25 instruments equipment depreciation regional investment aid eligible costs full assets Article 14",
+            "site:monitoruloficial.ro HG 2139 2004 catalog durata functionare calculatoare periferice 2 4 ani"
+          ]
+        },
+        "results": null
+      },
+      "created_at_ms": 1783950548107
+    },
+    {
+      "ordinal": 536,
+      "timestamp": "2026-07-13T13:49:13.132Z",
+      "turn_id": "019f5bbc-f4c4-7830-927a-e1ba26777404",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-22b56cf5-52f4-4bdc-8323-71dae7d85f72",
+        "query": "'Where such instruments and equipment are not used for their full life for the project'",
+        "action": {
+          "type": "findInPage",
+          "url": null,
+          "pattern": "Where such instruments and equipment are not used for their full life for the project"
+        },
+        "results": null
+      },
+      "created_at_ms": 1783950553132
+    },
+    {
+      "ordinal": 541,
+      "timestamp": "2026-07-13T13:49:22.960Z",
+      "turn_id": "019f5bbc-f4c4-7830-927a-e1ba26777404",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-c0171e5e-e3cf-4689-87b6-7223b5f36bba",
+        "query": "",
+        "action": {
+          "type": "other"
+        },
+        "results": null
+      },
+      "created_at_ms": 1783950562960
+    },
+    {
+      "ordinal": 546,
+      "timestamp": "2026-07-13T13:49:55.098Z",
+      "turn_id": "019f5bbc-f4c4-7830-927a-e1ba26777404",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-33",
+        "text": "Este parțial adevărat, dar concluzia finală este greșită deoarece amestecă ajutorul CDI cu ajutorul regional.\n\n## Regula corectă\n\n### 1. Echipamente încadrate pe ajutor CDI – 80%\n\nDa, pentru instrumentele și echipamentele încadrate la cercetare industrială/dezvoltare experimentală:\n\n> dacă nu sunt utilizate pe întreaga lor durată de viață în proiect, este eligibilă numai amortizarea aferentă perioadei efective de utilizare în proiect.\n\nAceasta rezultă atât din Ghid, cât și din art. 25 alin. (3) lit. b din Regulamentul 651/2014. [Regulamentul UE 651/2014, art. 25](https://eur-lex.europa.eu/eli/reg/2014/651)\n\nImportant: perioada eligibilă nu este automat 24 luni. Dacă echipamentul este livrat și pus în funcțiune în luna 5, poate fi amortizat în proiect numai pentru lunile 5–24.\n\n### 2. Utilajele încadrate pe ajutor regional – 70%\n\nPentru CNC, strung, danturare, EDM, rectificare, WAAM, cuptoare și echipamentele liniei de producție, dacă sunt încadrate corect ca investiție inițială pentru introducerea în producție:\n\n- costul eligibil este prețul integral de achiziție;\n- grantul este 70%;\n- cofinanțarea este 30%;\n- nu se limitează eligibilitatea la amortizarea din cele 24 luni.\n\nAjutorul regional permite costurile investiției în active corporale și necorporale, cu obligația menținerii investiției minimum trei ani în cazul IMM-urilor. [Regulamentul UE 651/2014, art. 14](https://eur-lex.europa.eu/eli/reg/2014/651)\n\nPrin urmare, afirmația:\n\n> „Dacă vrei echipamente de prelucrare nu poți deduce decât ce folosești în cele 24 luni”\n\neste falsă pentru utilajele încadrate pe ajutor regional.\n\n## Exemplu CNC de 250.000 euro\n\n### Încadrare corectă – ajutor regional 70%\n\n- cost eligibil: 250.000 euro;\n- grant: 175.000 euro;\n- cofinanțare: 75.000 euro.\n\n### Încadrare CDI 80%, durată de viață 8 ani\n\nDacă ar fi instrument CDI și ar fi utilizat exact 24 luni:\n\n- amortizare eligibilă: 250.000 × 2/8 = 62.500 euro;\n- grant: 62.500 × 80% = 50.000 euro;\n- diferența de achiziție suportată de firmă: 200.000 euro.\n\nDe aceea utilajele liniei de fabricație trebuie păstrate pe ajutor regional, nu mutate la CDI pentru a obține aparent 80%.\n\n## Duratele de amortizare\n\nAfirmația privind calculatoarele este corectă:\n\n- cod 2.2.9 – calculatoare și periferice: **2–4 ani**.\n\nPentru mașini și utilaje pentru prelucrarea metalului există mai multe poziții, frecvent cu durate de:\n\n- 2.1.5.2: **8–12 ani**;\n- alte categorii 2.1.5: 5–9, 6–10, 9–15 ani, în funcție de utilaj.\n\n[Catalogul oficial din HG 2139/2004](https://legislatie.just.ro/Public/DetaliiDocumentAfis/58613)\n\nDar afirmația că roboții umanoizi se încadrează automat la „automatizări, 3–5 ani” nu este confirmată de Catalog:\n\n- roboții umanoizi nu au poziție distinctă;\n- încadrarea trebuie făcută după funcția reală;\n- „instalații pentru comandă și reglare automată” – cod 2.2.8 – are în Catalog **8–12 ani**, nu 3–5;\n- calculatoare și periferice au 2–4 ani;\n- echipamentele tehnologice pot avea alte durate.\n\nÎncadrarea robotului trebuie stabilită printr-o notă contabilă/tehnică, nu aleasă exclusiv pentru minimizarea amortizării.\n\n## Ce înseamnă pentru EVA\n\n| Echipamente | Încadrare recomandată |\n|---|---|\n| CNC, strung, danturare, EDM, rectificări | Regional 70%, cost integral |\n| WAAM, cuptoare, ATEX, postprocesare | Regional 70%, cost integral |\n| CMM/scanner utilizate în controlul producției | Regional 70%, cost integral |\n| HPC folosit ulterior în producție/exploatare | Preferabil regional 70%, cost integral |\n| HPC dedicat exclusiv cercetării | CDI 80%, numai amortizarea eligibilă |\n| Osciloscoape, VNA, cameră climatică, laborator CDI | CDI 80%, de regulă amortizare |\n| Jetson/VEK280 developer kits | CDI/amortizare, dacă sunt instrumente de dezvoltare |\n| Materialele și componentele consumate în prototip | Pot fi cheltuieli CDI directe, nu neapărat active amortizabile |\n\nConcluzia corectă: contribuția nu devine enormă pentru linia de prelucrare, deoarece aceasta poate fi finanțată regional la cost integral. Problema de amortizare afectează în primul rând cei 756.000 euro mutați în noul buget la „echipamente CDI 80%”. Acolo trebuie refăcută încadrarea echipament cu echipament.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783950595098
+    },
+    {
+      "ordinal": 554,
+      "timestamp": "2026-07-13T13:53:16.323Z",
+      "turn_id": "019f5bc0-e5ec-7902-9260-64639cdf189a",
+      "item": {
+        "type": "userMessage",
+        "id": "item-34",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "avem o limita de cheltuieli CDI obligatorii ?",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783950796323
+    },
+    {
+      "ordinal": 556,
+      "timestamp": "2026-07-13T13:53:31.114Z",
+      "turn_id": "019f5bc0-e5ec-7902-9260-64639cdf189a",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-35",
+        "text": "Verific exact dacă ghidul impune un procent minim pentru ajutorul CDI ca tip de ajutor sau doar pentru activitatea de bază și personalul tehnic propriu. Sunt trei noțiuni diferite și nu trebuie confundate în buget.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783950811114
+    },
+    {
+      "ordinal": 559,
+      "timestamp": "2026-07-13T13:53:35.888Z",
+      "turn_id": "019f5bc0-e5ec-7902-9260-64639cdf189a",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-0f53895e-5772-4bed-83e2-a5c2e78bfa05",
+        "query": "PoCIDIF Acțiunea 2.1 ghid solicitant 20% personal propriu activitatea de bază CDI minimum 80% ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "PoCIDIF Acțiunea 2.1 ghid solicitant 20% personal propriu activitatea de bază CDI minimum 80%",
+            "site:mysmis2021.gov.ro PoCIDIF 2.1 ghid activitatea de bază personal propriu 20%",
+            "site:mcid.gov.ro PoCIDIF Acțiunea 2.1 ghid solicitant cercetare dezvoltare 20%"
+          ]
+        },
+        "results": null
+      },
+      "created_at_ms": 1783950815888
+    },
+    {
+      "ordinal": 563,
+      "timestamp": "2026-07-13T13:53:57.268Z",
+      "turn_id": "019f5bc0-e5ec-7902-9260-64639cdf189a",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-36",
+        "text": "Nu există o limită minimă distinctă pentru „total cheltuieli CDI” sau pentru „echipamente CDI”. Există însă două praguri obligatorii care generează indirect cheltuieli CDI.\n\n## Pragurile obligatorii\n\n1. **Activitatea de bază:** minimum 80% din grantul total.\n\nLa grant de 3.000.000 euro:\n\n- grant activitate de bază minimum: **2.400.000 euro**.\n\nÎn activitatea de bază intră CDI, introducerea în producție și introducerea în piață.\n\n2. **Activitățile tehnice realizate cu personal propriu:** minimum 20% din grantul activității de bază.\n\nÎn bugetul EVA actual:\n\n- grant activitate de bază: **2.820.000 euro**;\n- minimum personal tehnic propriu: 20% × 2.820.000 = **564.000 euro grant**;\n- personal tehnic prevăzut: **595.200 euro grant**;\n- pondere: **21,1%**.\n\nDeci suntem peste minimum, dar marja este numai:\n\n- 31.200 euro grant;\n- echivalent cu aproximativ 39.000 euro cheltuială salarială la intensitate de 80%.\n\nRegula de 80%/20% este prevăzută în [Ghidul final PoCIDIF 2.1](https://www.smart.org.ro/wp-content/uploads/Ghid-Actiunea-2.1-PoCIDIF.pdf).\n\n## Ce nu este obligatoriu\n\nNu este obligatoriu să avem:\n\n- 756.000 euro echipamente CDI;\n- HPC încadrat la CDI;\n- laborator încadrat integral la CDI;\n- un anumit procent minim de echipamente CDI;\n- cercetare contractuală.\n\nPutem avea, de exemplu:\n\n- personalul tehnic propriu pe CDI;\n- toate echipamentele cumpărate integral pe ajutor regional, dacă sunt destinate investiției inițiale și introducerii în producție;\n- fără echipamente CDI sau numai cu amortizarea instrumentelor strict experimentale.\n\n## Structura prudentă pentru EVA\n\nAș recomanda:\n\n- linie producție: regional 70%;\n- HPC utilizat pentru produs/producție: regional 70%;\n- controlul calității producției: regional 70%;\n- laborator strict experimental: CDI 80%, numai amortizarea;\n- personal tehnic propriu: CDI 80%, minimum 564.000 euro grant;\n- promovare/go-to-market: minimis, activitate de bază;\n- management, publicitate și audit: activități conexe/minimis.\n\nAș păstra personalul tehnic la minimum **595.200 euro grant**, deoarece o reducere salarială de peste 31.200 euro grant ar coborî proiectul sub pragul de 20%.\n\nConcluzia: nu avem obligația să menținem cei 756.000 euro de echipamente CDI. Putem să le mutăm justificat pe ajutor regional și să păstrăm componenta CDI în principal prin personalul tehnic propriu.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783950837268
+    },
+    {
+      "ordinal": 571,
+      "timestamp": "2026-07-13T13:58:40.461Z",
+      "turn_id": "019f5bc5-d823-7943-a2e8-c0d0e52b7556",
+      "item": {
+        "type": "userMessage",
+        "id": "item-37",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "scrie un prompt - plan de mutare de pe CDI si pastrare doar a parti de servere si laptopuri pe CDI care pot avea 24 luni perioada de amortizare - si mutare totul pe ajutor regional",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783951120461
+    },
+    {
+      "ordinal": 573,
+      "timestamp": "2026-07-13T13:59:14.326Z",
+      "turn_id": "019f5bc5-d823-7943-a2e8-c0d0e52b7556",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-38",
+        "text": "Poți utiliza următorul prompt:\n\n```text\nAnalizează și restructurează integral bugetul proiectului „EVA – Empathic Virtual Assistant”, depus de DANCOR PROIECT SRL în cadrul PoCIDIF – Acțiunea 2.1.\n\nOBIECTIV PRINCIPAL\n\nRealizează un plan de mutare a echipamentelor din categoria „Ajutor CDI – cercetare industrială, intensitate 80%” în categoria „Ajutor regional pentru investiții – intensitate 70%”, astfel încât:\n\n1. să obținem grantul maxim de 3.000.000 euro;\n2. să minimizăm cofinanțarea proprie;\n3. să evităm riscul ca prețul integral al echipamentelor CDI să fie declarat neeligibil, fiind acceptată numai amortizarea aferentă utilizării în proiect;\n4. să păstrăm la CDI numai serverele, stațiile de calcul și laptopurile pentru care poate fi justificată legal și contabil o durată de amortizare de 24 luni;\n5. toate celelalte echipamente să fie analizate pentru încadrare pe ajutor regional la valoarea integrală de achiziție.\n\nCONTEXT ȘI REGULI\n\n- Durata proiectului este de maximum 24 luni.\n- Pentru echipamentele încadrate pe ajutor CDI, dacă nu sunt utilizate pe întreaga durată de viață în proiect, este eligibilă numai amortizarea corespunzătoare perioadei efective de utilizare în proiect.\n- Calculatoarele și echipamentele periferice pot avea, conform HG 2139/2004, cod 2.2.9, o durată normală de funcționare de 2–4 ani.\n- Utilizarea duratei de 2 ani trebuie justificată prin politica contabilă, nota de încadrare a mijlocului fix, data punerii în funcțiune și utilizarea efectivă în proiect.\n- Nu considera automat toate componentele HPC ca având durata de 2 ani. Serverele GPU, laptopurile, stocarea, rețeaua, UPS-ul, rackurile, răcirea și licențele trebuie analizate separat.\n- Pentru un echipament pus în funcțiune după luna 1 nu presupune automat eligibilitatea amortizării integrale în cele 24 luni.\n- Echipamentele încadrate pe ajutor regional trebuie să reprezinte active noi, parte a unei investiții inițiale și să fie necesare introducerii în producție a robotului EVA.\n- Ajutorul regional este de 70%, iar ajutorul CDI pentru cercetare industrială este de maximum 80%, numai dacă sunt îndeplinite condițiile suplimentare pentru această intensitate.\n- Grantul activității de bază trebuie să reprezinte minimum 80% din grantul total.\n- Grantul pentru activitățile tehnice realizate de personalul propriu trebuie să reprezinte minimum 20% din grantul activității de bază.\n- Valoarea personalului tehnic prevăzută în prezent este 744.000 euro, cu grant de 595.200 euro.\n- Ajutorul de minimis este 300.000 euro.\n- Grantul total urmărit este exact 3.000.000 euro.\n- Cofinanțarea trebuie minimizată, dar fără încadrări artificiale sau neconforme.\n\nBUGETUL ACTUAL\n\n- Echipamente producție, ajutor regional 70%:\n  cost eligibil 2.142.857 euro;\n  grant 1.500.000 euro;\n  cofinanțare 642.857 euro.\n\n- Echipamente CDI – HPC și laborator:\n  cost eligibil 756.000 euro;\n  grant calculat la 80%: 604.800 euro;\n  cofinanțare 151.200 euro.\n\n- Personal tehnic propriu CDI:\n  cost eligibil 744.000 euro;\n  grant 595.200 euro;\n  cofinanțare 148.800 euro.\n\n- Minimis:\n  cost eligibil și grant 300.000 euro.\n\n- Total actual:\n  cost eligibil 3.942.857 euro;\n  grant 3.000.000 euro;\n  cofinanțare 942.857 euro.\n\nECHIPAMENTE CARE TREBUIE ANALIZATE\n\nA. Cluster HPC:\n\n1. nod GPU cu 4 × NVIDIA H100;\n2. nod GPU cu 4 × NVIDIA L40S;\n3. nod cu 2 × RTX 6000 Ada;\n4. nod head/management;\n5. stocare NVMe de aproximativ 100 TB;\n6. rețea InfiniBand/200GbE;\n7. kituri NVIDIA Jetson AGX Thor;\n8. plăci FPGA AMD Versal VEK280;\n9. rack, PDU, UPS și răcire;\n10. licențe AI/MLOps și simulare;\n11. eventuale laptopuri și stații mobile necesare echipei tehnice.\n\nB. Laborator:\n\n1. osciloscoape, analizoare logice și generatoare;\n2. analizor de spectru și VNA;\n3. surse programabile, sarcini electronice și multimetre;\n4. stații de lipire/rework, reflow și microscop;\n5. prototipare PCB;\n6. cameră climatică și sistem de testare la vibrații;\n7. mașină de încercări materiale și durimetru;\n8. stații de proiectare și licențe CAD/CAM/CAE/EDA.\n\nC. Producție:\n\n1. CNC 5 axe;\n2. strung CNC turn-mill;\n3. mașină de danturat;\n4. Wire EDM;\n5. rectificări;\n6. ferăstrău;\n7. scule și presetter;\n8. WAAM/DED;\n9. Binder Jet;\n10. cuptoare;\n11. stație ATEX;\n12. postprocesare;\n13. CMM;\n14. scanner 3D și rugozimetru;\n15. sisteme auxiliare.\n\nSCENARIUL SOLICITAT\n\n1. Păstrează la ajutor CDI numai:\n\n- serverele și nodurile de calcul care pot fi încadrate justificat la codul 2.2.9;\n- laptopurile și stațiile de calcul care pot avea justificat o durată contabilă de 24 luni;\n- numai amortizarea efectiv eligibilă pentru perioada dintre punerea în funcțiune și finalizarea proiectului;\n- licențele strict CDI, tratate separat în funcție de natura lor contabilă și durata abonamentului.\n\n2. Analizează mutarea pe ajutor regional a:\n\n- infrastructurii HPC utilizate după proiect pentru antrenarea, actualizarea, validarea și operarea comercială a robotului EVA;\n- stocării și infrastructurii de rețea;\n- rackurilor, UPS-urilor și răcirii;\n- echipamentelor laboratorului care vor fi folosite permanent pentru testarea, validarea și controlul calității produselor fabricate;\n- tuturor utilajelor de producție și metrologie;\n- stațiilor CAD/CAM/CAE folosite în fluxul permanent de proiectare și fabricație.\n\n3. Pentru Jetson AGX Thor și AMD VEK280 stabilește separat dacă sunt:\n\n- instrumente CDI supuse amortizării;\n- componente ale prototipului;\n- active regionale utilizate în procesul permanent de producție;\n- sau cheltuieli care trebuie scoase din proiect.\n\n4. Nu încadra automat la ajutor regional echipamentele folosite exclusiv pentru cercetare. Pentru fiecare poziție prezintă justificarea funcțională și riscul de neeligibilitate.\n\nREZULTATE SOLICITATE\n\nLivrează următoarele:\n\n1. Un tabel „situație actuală versus situație propusă”, cu:\n\n- echipament;\n- valoare;\n- încadrare actuală;\n- încadrare propusă;\n- cod de amortizare;\n- durată de amortizare;\n- lună estimată de punere în funcțiune;\n- număr de luni utilizate în proiect;\n- valoare eligibilă;\n- intensitatea ajutorului;\n- grant;\n- cofinanțare;\n- justificare;\n- risc de neeligibilitate.\n\n2. Un buget consolidat recalculat, cu:\n\n- total ajutor regional;\n- total CDI – personal;\n- total CDI – amortizare echipamente;\n- total minimis;\n- grant total;\n- cofinanțare totală;\n- cheltuieli neeligibile;\n- TVA;\n- necesar de cash până la rambursare.\n\n3. Minimum trei scenarii:\n\n- Scenariul A – prudent: majoritatea hardware-ului pe ajutor regional;\n- Scenariul B – echilibrat: serverele pe CDI prin amortizare, restul regional;\n- Scenariul C – cofinanțare minimă: maximum posibil pe CDI, dar numai în limite legale și contabile.\n\n4. Recomandă scenariul cu:\n\n- cel mai mic risc de corecție financiară;\n- grant exact 3.000.000 euro;\n- cofinanțare minimă realistă;\n- respectarea pragului de minimum 20% pentru personalul tehnic propriu.\n\n5. Calculează dacă este realistă amortizarea integrală în 24 luni pentru fiecare server sau laptop. Nu accepta simpla alegere a duratei minime de 2 ani dacă echipamentul este pus în funcțiune după începerea proiectului.\n\n6. Prezintă documentele justificative necesare:\n\n- decizie privind politica contabilă;\n- notă contabilă de încadrare;\n- proces-verbal de punere în funcțiune;\n- registrul mijloacelor fixe;\n- plan de utilizare în proiect;\n- fișă tehnică;\n- două oferte;\n- justificarea încadrării pe ajutor regional;\n- justificarea caracterului de investiție inițială;\n- justificarea utilizării productive după finalizarea proiectului.\n\n7. Identifică toate modificările care trebuie propagate în:\n\n- EVA_Buget_FINAL.xlsx;\n- lista unificată de echipamente;\n- Anexa 6 – buget defalcat;\n- Anexa 7 – centralizator oferte;\n- Anexa 16 – corelare buget-activități;\n- activitățile proiectului;\n- Cererea de finanțare;\n- Planul de afaceri;\n- proiecțiile financiare;\n- descrierea investiției;\n- capacitatea financiară și tehnică.\n\nCONDIȚIE FINALĂ\n\nNu optimiza bugetul exclusiv matematic. Orice mutare între CDI și ajutor regional trebuie să fie susținută de funcția reală a echipamentului, tratamentul contabil, perioada de utilizare și activitatea din proiect.\n\nDacă grantul de 3.000.000 euro nu poate fi obținut cu cofinanțarea de 942.857 euro în condiții sigure, determină cofinanțarea minimă realistă și explică diferența.\n```",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783951154326
+    },
+    {
+      "ordinal": 581,
+      "timestamp": "2026-07-13T14:10:18.787Z",
+      "turn_id": "019f5bd0-7fea-7de2-8576-5aef1bd795c4",
+      "item": {
+        "type": "userMessage",
+        "id": "item-39",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "care este cofinantarea la minimis ? cat poate fi minimis ? ce cheltuieli sunt eligibile pe minims?",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783951818787
+    },
+    {
+      "ordinal": 583,
+      "timestamp": "2026-07-13T14:10:25.753Z",
+      "turn_id": "019f5bd0-7fea-7de2-8576-5aef1bd795c4",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-40",
+        "text": "Verific în ghidul final plafoanele cumulative, deoarece minimisul are atât plafonul european de 300.000 euro la nivel de întreprindere unică, cât și limite interne ale apelului pentru anumite categorii. Apoi separ cheltuielile eligibile de cele care doar par „servicii generale”.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783951825753
+    },
+    {
+      "ordinal": 586,
+      "timestamp": "2026-07-13T14:10:27.737Z",
+      "turn_id": "019f5bd0-7fea-7de2-8576-5aef1bd795c4",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-7e4b35e3-3d2c-4fe2-bbc7-24ecdbbd6599",
+        "query": "",
+        "action": {
+          "type": "other"
+        },
+        "results": null
+      },
+      "created_at_ms": 1783951827737
+    },
+    {
+      "ordinal": 591,
+      "timestamp": "2026-07-13T14:10:31.655Z",
+      "turn_id": "019f5bd0-7fea-7de2-8576-5aef1bd795c4",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-0126e6c4-6e8f-4efe-8d5a-6b67af9d9d07",
+        "query": "",
+        "action": {
+          "type": "other"
+        },
+        "results": null
+      },
+      "created_at_ms": 1783951831655
+    },
+    {
+      "ordinal": 616,
+      "timestamp": "2026-07-13T14:12:00.582Z",
+      "turn_id": "019f5bd0-7fea-7de2-8576-5aef1bd795c4",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-d207d9a1-e442-453c-b0bb-8104ea0bf404",
+        "query": "'3.4. Rata de cofinanțare'",
+        "action": {
+          "type": "findInPage",
+          "url": null,
+          "pattern": "3.4. Rata de cofinanțare"
+        },
+        "results": null
+      },
+      "created_at_ms": 1783951920582
+    },
+    {
+      "ordinal": 621,
+      "timestamp": "2026-07-13T14:12:31.758Z",
+      "turn_id": "019f5bd0-7fea-7de2-8576-5aef1bd795c4",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-41",
+        "text": "## Cofinanțarea pentru minimis\n\nIntensitatea ajutorului de minimis este **100%**. Pentru o cheltuială eligibilă de minimis:\n\n- cost eligibil: 100.000 euro;\n- grant: 100.000 euro;\n- cofinanțare eligibilă: **0 euro**.\n\nTotuși, firma trebuie să poată suporta temporar plata până la rambursare și orice TVA deductibilă, depășire de preț sau cheltuială declarată neeligibilă. [Ghidul final, secțiunea 3.4](https://www.smart.org.ro/wp-content/uploads/Ghid-Actiunea-2.1-PoCIDIF.pdf)\n\n## Cât poate fi ajutorul de minimis\n\nMaximum:\n\n> **300.000 euro pentru întreprinderea unică, într-o perioadă continuă de trei ani.**\n\nCalculul se face la nivel de „întreprindere unică”, deci trebuie incluse și firmele legate/controlate, nu numai DANCOR PROIECT SRL.\n\nFormula este:\n\n**Minimis disponibil = 300.000 euro − ajutoarele de minimis primite de întreprinderea unică în ultimii trei ani.**\n\nDacă verificarea confirmă că DANCOR și firmele legate au primit zero minimis, proiectul poate utiliza integral **300.000 euro**. [Ghidul final, secțiunea 5.3.2](https://www.smart.org.ro/wp-content/uploads/Ghid-Actiunea-2.1-PoCIDIF.pdf)\n\nMai există o limită specială:\n\n- consultanța de la categoria B.2;\n- plus managementul intern de la categoria B.5;\n\nnu pot depăși împreună 10% din valoarea maximă eligibilă aferentă proiectului și trebuie să rămână în plafonul total de 300.000 euro.\n\n## Cheltuieli eligibile pe minimis\n\n### 1. Informare, promovare și introducere în piață\n\n- panouri, plăci, afișe și alte elemente obligatorii de vizibilitate;\n- pagina proiectului;\n- promovarea și comercializarea robotului EVA;\n- realizarea website-ului comercial;\n- platforme de marketing;\n- listări marketplace;\n- instrumente analytics;\n- campanii digitale;\n- colaborare și networking;\n- participare la conferințe și evenimente;\n- publicarea și diseminarea rezultatelor;\n- registre open-access;\n- programe gratuite sau open-source.\n\nPromovarea/comercializarea și diseminarea rezultatelor sunt considerate activitate de bază.\n\n### 2. Consultanță, avize și certificări\n\n- elaborarea Cererii de finanțare;\n- elaborarea Planului de afaceri;\n- raportul expertului extern;\n- consultanță pentru implementare și management;\n- documentații pentru achiziții;\n- asistență juridică aferentă achizițiilor;\n- acorduri, avize și autorizații;\n- certificarea produsului;\n- obținerea, validarea și protejarea brevetelor;\n- protecția altor active necorporale.\n\nConsultanța pentru documentația de depunere și raportul expertului extern pot reprezenta excepția permisă anterior depunerii, cu respectarea exactă a condițiilor ghidului.\n\n### 3. Instruire și formare\n\n- instruirea utilizatorilor cărora le este destinat robotul;\n- instruirea personalului beneficiarului care va asigura mentenanța;\n- formare profesională specifică produsului dezvoltat.\n\nNu intră automat cursurile generale fără legătură directă cu EVA.\n\n### 4. Audit tehnic și securitate\n\n- auditul tehnic final;\n- verificarea corespondenței rezultatului cu Cererea de finanțare;\n- verificarea gradului de inovare;\n- audit cybersecurity;\n- penetration testing;\n- protecția informațiilor;\n- verificarea GDPR și a datelor personale.\n\nAuditorul trebuie să aibă certificare profesională avansată recunoscută, precum CISA, CISM, CISSP, CCSP, CIPP/E, ISO 27001 Lead Auditor sau OSCP.\n\n### 5. Management intern\n\n- salariile managerului de proiect;\n- salariile responsabilului financiar/achiziții;\n- deplasările personalului de management;\n- transportul bunurilor justificat de proiect;\n- echipamente TIC numai pentru echipa de management.\n\nNu se pot deconta simultan aceleași activități prin management externalizat și management intern.\n\n### 6. Accesibilitate\n\n- display-uri și cititoare Braille;\n- adaptarea interfețelor web;\n- interfață accesibilă pentru robot;\n- conținut multimedia accesibil;\n- aplicații mobile accesibile;\n- alte tehnologii asistive justificate.\n\n### 7. Cheltuieli indirecte – maximum 7%\n\n- contabilitate;\n- recrutare;\n- curățenie;\n- telefon și internet;\n- apă, energie, gaze și salubritate;\n- servicii poștale și curierat;\n- chirie;\n- alte costuri indirecte necesare proiectului.\n\nAcestea intră tot în plafonul de minimis de 300.000 euro și nu pot dubla cheltuieli directe deja bugetate.\n\n## Ce nu putem muta pe minimis\n\nÎn mod obișnuit, nu se pot muta pe minimis:\n\n- CNC, strunguri și utilaje de producție;\n- HPC și serverele tehnice;\n- echipamentele laboratorului CDI;\n- laptopurile experților tehnici;\n- renovarea generală a halei;\n- materiile prime pentru producție;\n- salariile cercetătorilor și experților tehnici;\n- dobânzile creditului;\n- TVA deductibilă.\n\nExcepțiile pentru echipamente sunt limitate la echipamente TIC destinate managementului și echipamente de accesibilitate.\n\n## Situația EVA\n\nBugetul actual utilizează exact plafonul:\n\n| Categorie | Valoare |\n|---|---:|\n| Promovare/go-to-market | 120.000 € |\n| Informare și publicitate | 30.000 € |\n| Management intern | 90.000 € |\n| Audit/securitate/GDPR | 60.000 € |\n| **Total minimis** | **300.000 €** |\n| **Grant** | **300.000 €** |\n| **Cofinanțare** | **0 €** |\n\nStructura este permisă ca tipuri de cheltuieli, dar aș redistribui o parte din cei 30.000 euro de publicitate și 60.000 euro de audit către:\n\n- certificarea robotului;\n- accesibilitate;\n- avize și autorizări;\n- protecția proprietății intelectuale;\n- testarea formală de securitate.\n\nAstfel păstrăm grantul de 300.000 euro și cofinanțarea zero, dar construim un buget mai ușor de justificat și mai util proiectului.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1783951951758
+    }
+  ]
+}

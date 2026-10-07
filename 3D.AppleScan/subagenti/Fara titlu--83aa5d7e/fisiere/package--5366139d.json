@@ -1,0 +1,17 @@
+{
+  "name": "eva-3d-scan-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "bootstrap": "node scripts/bootstrap.mjs",
+    "migrate": "node scripts/migrate.mjs",
+    "import:content": "node scripts/import-content.mjs",
+    "set:content": "node scripts/set-content.mjs",
+    "set:variable": "node scripts/set-variable.mjs",
+    "test": "node --test tests/backend*.mjs"
+  },
+  "dependencies": { "pg": "^8.16.3" }
+}

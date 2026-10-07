@@ -1,0 +1,301 @@
+703607ae499d55f234861a8ee8c72521aba9df027ceebcbed8f366d769f0419b  Actualizează ofertele de reparații/conversatie.md
+56d76d87c95dad9fae128347f545fe5c52aeabd02af35e248695c21a6a478747  Actualizează ofertele de reparații/fisiere/04 Eva-Mail BAU-WERTE 2026-09-25--baef2ff7.json
+f26263f59ceef259f0fe6cf479ba5ab58e9ef1255dfc73ed8729cb3c74f1f13f  Actualizează ofertele de reparații/fisiere/2026.09.30 7dce663e 14854--c562543f.jpg
+bd2f3db0e635d37473d3b4a23ff54070c9e4e3241174b22f00fd4f104e288671  Actualizează ofertele de reparații/fisiere/2026.09.30 actualizeaza jurnale--61f85f0d.py
+be1e2d9763f1278c8ac96062f5916b84786b249f34f8ac2eb01d936901dafebe  Actualizează ofertele de reparații/fisiere/2026.09.30 arhiveaza ciorna MA6--9342f0e8.py
+78f5413117f2b02eae741fd932449b806d20d031d9f6765d30d004822253281d  Actualizează ofertele de reparații/fisiere/2026.09.30 Attensam 14983--89db4f25.png
+ba571bb3b67789ac536d2ade17f4731488f07aa6df5b6ab69326c27780da4588  Actualizează ofertele de reparații/fisiere/2026.09.30 Attensam plata--984b743e.png
+c2b162c691304947f95e61c9af3a1cc3b6e94884593a1e20b998a9240223f849  Actualizează ofertele de reparații/fisiere/2026.09.30 b24e5d4f 79524--73e87f24.jpg
+81aab1c1ca4c1c1a9e2156b2d75b1c3bbaba4cc8666702797b28ea51460ff2be  Actualizează ofertele de reparații/fisiere/2026.09.30 Candidati suplimentari proiect--89e3474d.json
+eaedad3b90d08eb2e8e039b54edd2e9c5f40bcf4ad6e6757cf8a4e5a64dd0ed1  Actualizează ofertele de reparații/fisiere/2026.09.30 Cautari financiare--d7a320cc.json
+7bffece25b01d22b5773f912c5b6f574ba99ec45024a637c38b5c5407b4f768f  Actualizează ofertele de reparații/fisiere/2026.09.30 citeste finante--31980e94.py
+b1753b1c547350a88a6950fd54877fdd01ba45beb622c9f4a4d1e770ca8148a3  Actualizează ofertele de reparații/fisiere/2026.09.30 completeaza firme--5804ea18.py
+7a9def5cf4b253c890e6714f0723b93d6c17acecefb77fd6c25d0378806b34c5  Actualizează ofertele de reparații/fisiere/2026.09.30 completeaza servicii--63b65b45.py
+cd2931b76f45c1f9077466a01fb114793989d4c825f2fdd38f74013d66e7117a  Actualizează ofertele de reparații/fisiere/2026.09.30 completeaza statusuri--fa10f2f5.py
+f195328841cd0450a2b9d757e347e1b1990f29e2e3ac21bd0847e6f38238a00a  Actualizează ofertele de reparații/fisiere/2026.09.30 construieste audit financiar--7fac06d0.py
+839b1bc2f3e80c16e8fe6f927c8f70d5d292b0077ef146aaa9a5db8f23c8de7d  Actualizează ofertele de reparații/fisiere/2026.09.30 descarca arhiva--8488fa60.py
+4358b1039a757aa3ba25d1460ca00acde7655481f7af145142d9430ff876e36f  Actualizează ofertele de reparații/fisiere/2026.09.30 descarca atasamente--6e6997df.py
+2790c9c9a935757894ed0ab45ab66366ab420a0269b17bfd1d0a13c28796211f  Actualizează ofertele de reparații/fisiere/2026.09.30 descarcari EVA temporare--2dc71aa7.json
+8a5cf22b98a685e9bc2f59d402455223f0bb47945daa4afa011110aff41884fc  Actualizează ofertele de reparații/fisiere/2026.09.30 descarcari prioritare--b0192b67.json
+84c97f739bc3829c7968ca6e34205c735d53bd6d97c07948fcec97ba4ff704fc  Actualizează ofertele de reparații/fisiere/2026.09.30 Dovada Finanzamt--cc0e6123.json
+5942f25839c938d951b4be09e4015ea42307272ed8f52635ca6c0173d43484c0  Actualizează ofertele de reparații/fisiere/2026.09.30 DRAFT NETRIMIS - MA6--8d340e56.json
+404624d7eda215d651f68bf39c3a8f70b12dad05af4fee613a90de16241073e0  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri autoritati suplimentar--cb9ed566.json
+1167e4185b24eeaa316afdcfd06498b8a0472625aad39d42386fc1722fe8068a  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri financiare prioritare--3113d072.json
+b284d79e0ee90f0539d8e122011a28f1bb9201d06e29acb56c2d1047998efcec  Actualizează ofertele de reparații/fisiere/2026.09.30 emailuri finante--ded1fd04.py
+8f92b69a63de1c8f76e4d31de36d1ac41fa27b7614fe3223304025ec76990565  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri Finanzamt prioritare--81025811.json
+5bbafa857de655d08e3f2382e9f5d31a895456acd90825880a17b934aa83316c  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 001--1a07b30f.json
+73ecb3fa6a601296edb5a7f20dea2df8a361a7450a4e1192984b1d9d8f1749c7  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 002--ea03e435.json
+0e83e53b8bf013b0aca4ecc238f31938a6ca538dc50939b82e41fa2d97f1f768  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 003--87ffb5ad.json
+aaa941b4de1d42168162cc51fc8d7b275ea7f82cb4b0b2dc411f2e77d5b1b680  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 004--1f4013f5.json
+a59cbe3181dfb059bd0e17d35cf0701b4be36532c1bf0bca4e9fb25cb61f5d83  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 005--1562b78f.json
+0f5ff6b8b7e8ba6336d80972f27e4faf9c6cfbf762031ed090ada59dad7253f1  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 006--b501a77e.json
+f6b1e155b6b2c8ab6c8ebd6d900061aff6e51e2d85329b8caba7153bca7d3f4d  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 007--ac232559.json
+737b9984ffb271573770ba20cecef1f20674261f4ed4c3f511ddd949ccd7d6dd  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 008--69c3288b.json
+cfe6850ce3509392c6d0409704ed711bf18d965719e9989878f399ea4e0082d6  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 009--6533e3ac.json
+72cb76e5cfcdc2fa24235f53ebbc0aa3bd2e366ae2c3201a7497fe5fc1d93df2  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 010--6447861a.json
+c02d5c148cf7fafe1f937933448de752e44141026c829dd703d686027e8a7cef  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 011--9c746c7a.json
+cdc4bedfb2c952ae1811124ab7c6f3612d15b44ea0b2c994834767e0dca22f8e  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 012--699a8ce4.json
+fe021f16b443ce96539b802245edc40d335a17291d6e88557541e3e183329612  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 013--b823f11c.json
+767498d8033feffdc82d06cd97b79211389c555f56b6bccb9dbc4b3837424ccd  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 014--20af0a44.json
+7b66bb2098317c1d7e946cac65724d03288bc550fc006496bf57faab9d62e41d  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 015--8761883d.json
+197c06829e6f418c95c22965d80ca80cd4ea35d2d25ca1331ba405a8fa8b4d16  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 016--815ffd13.json
+ea3b40b8cee70f54ff8e36b744811ce05e25be289728a6067083699c1c2785f6  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 017--64f5bcae.json
+9787104f1657c2c08df1fe9385d0fc1c06a8d04e13342f7d07dbfa7502de7af3  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 018--7b896539.json
+2d9dc5ee66862476cae5ae22bea2dff5eea6660119a4867f86aeba5a61868f77  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 019--43236f64.json
+ab43e9d03a50b3930ebc0425885bfe45fae4514363f9223b7a2b2a82ba1e3910  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 020--c826ff73.json
+d453bf4278b0be6aff83e279e90a293267beccd37be85788944e6a0ff8040ec4  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 021--a9a9a6d2.json
+b08c8cd429fd1f972b6ff220240778783841940762193922a174e9043bf4b9b6  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 022--73f480dc.json
+232d1cf4ed7c5fa82aa870dc315991ad65b5ced52a3581edf6c08ddd947c5e27  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 023--ead8ed85.json
+4c1678d16e38ca277405d4667a9b02151d557884aef2b899d4397a75f8d53727  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 024--3b7e5a2a.json
+e35daa1d3c83cd57f7e04ace8ac0f16827b4d186df21a8564e97b8006fc54ab0  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 025--8ce15a27.json
+f0cf6629fd51b49e23dd9e5938abc5dfa86539e37d5ef230647416fb0cbb663c  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 026--73caf2ca.json
+ab11e97bdd36bf209341b27287ec7f7eb65488a6b9409e2dfa73a87c3c194ce5  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 027--78e134c2.json
+164c80204d0767cbfa4b313a8aca955b2a9490713dd8cadd7b33bf8c090bd4a7  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 028--19cad81f.json
+02ebacd5687b55cf74eba07b3f9102b233562c2b73c5d99d7089a3fc850e91a1  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 029--e23f83c4.json
+953ce7419d3985bf38944fe2d11ea41272f1661ff1f2ff23773a6aab2df76466  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri lot 030--bdfc823e.json
+a0d788b26ca07fda1ecb724faecbde60891650587d48c226d65a8c4b0e061204  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 001--ea76d977.json
+d44cb8594cd47b81ce4b4e06ca46394b2af1dcc999c0848de594673ca05239a6  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 002--c8017ecd.json
+b78150ee2c4d598da645474f05ef291050cfb2a936c4aa8d0cdd96693073363a  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 003--7103f358.json
+7cc6dee820296b015245859965c8e595d324b5700d7d71db79ef5f21a67d9861  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 004--9589819b.json
+67fa168d5fb96e1dd29273285f5cb4656033817c3923011cfc0b009f20d86e2d  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 005--6d86607e.json
+1b1f16e094297c38816a48ecd6d56a029def15a5d9ee0a28f0fc6a88464e12a9  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 006--aa1ebfba.json
+77b9509a4a8b8688a0aefb47db4d619bc37ff0035dea9db61f3f2d9f8e1132fa  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 007--f9e56d56.json
+71391746d9d2a6a8d027ef610c6605a38b6e085509dc3b28c159960b2b11ad61  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 008--0f4fe97c.json
+63ba48bd438568ffe91106be1d7c3622cd881885c4e54598f7784181aa8f9d02  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 009--5028d003.json
+9ba8c80dd73aa1634b012652eaf2f921bc94e0528783541c30b990e797a57c06  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 010--fb61c801.json
+d1ba7e77d04c2a66e1292430432a8c6a236b95b112c0f2c429682199bccc9cea  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 011--20098534.json
+cf9b8986d944d172e637717ae0c3eacaf7164da3c16257f240a3714fcc8f38c8  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 012--b058fd37.json
+be580029642ed97d0ce6540fe352feb4a8cbec18c3ef18c481f146b4ecc26e37  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 013--a626e7f2.json
+590691f180cefe6e1028ab5df899bfe00b25e09d8932eee4cbf0314dbecb786b  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 014--ad310ecc.json
+633833fffc3ed26006c91ae1ac7917f195a9f05f70e2d4f41a403dc156f48d3a  Actualizează ofertele de reparații/fisiere/2026.09.30 Emailuri suplimentare 015--58ef322c.json
+37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570  Actualizează ofertele de reparații/fisiere/2026.09.30 Erori preluare URL--f22e3fbc.json
+647ba79cc74bfac41892231ead9721cece6c2c950169b13bad926152bc3db1db  Actualizează ofertele de reparații/fisiere/2026.09.30 EVA octeti temporari--5b4fdf5a.json
+771e60ca5193a66bea25edbff500485ffcee16643d6c34531266f3a028506044  Actualizează ofertele de reparații/fisiere/2026.09.30 Eva-Mail - export integral--9aacdadd.json
+87d140fc8017b744f2cdd61df8bc26cf4eee376ffb151a894c1aeb257c25c10e  Actualizează ofertele de reparații/fisiere/2026.09.30 extrage tranzactii--95bb1294.py
+00cd27d8300d3dad3fed71f8211e29eb0df78b20d272a18d0d85ad00d3dc5ce1  Actualizează ofertele de reparații/fisiere/2026.09.30 finalizeaza status financiar--fa3cbbe8.py
+fd5ad23fcf30bddcc844e78dcaf0cffcfcbeda11ac3ec90d6531e2eaecd54db0  Actualizează ofertele de reparații/fisiere/2026.09.30 lista descarcari--5614d3e1.py
+68ad8ec770ca58516d8df8c716228109b3aa575d81702c21313ad720caca2cf4  Actualizează ofertele de reparații/fisiere/2026.09.30 lista mesaje candidate--5c9b6b41.json
+fd96f30c63eb0a4ca2aa49c547bd4d3c8ba76724d5630db20f3c4d1974cde0d0  Actualizează ofertele de reparații/fisiere/2026.09.30 MA6 Q3 verificare--530ab583.png
+17031215956bd3f51ac6e8d2fc1d8e40113d4a7cf02e5404ca5b5ab2ff54ea87  Actualizează ofertele de reparații/fisiere/2026.09.30 Mesaje proiecte EVA--99069272.json
+3fff970f0ab519c5fa158787d0133fc3df15220259611b369b1f066e8bc7b50d  Actualizează ofertele de reparații/fisiere/2026.09.30 pregateste pachet datat--be111859.py
+aa52b6fce3633bdd4a5ad0947c28091ee6ee2152321b0344a5dbc13bc7020ea0  Actualizează ofertele de reparații/fisiere/2026.09.30 Raport pagina 1--7e48ab69.png
+c9b2fa3cba7a11d1dfb69aabedddd05bee1eb6b910973e08a7a628943057f6de  Actualizează ofertele de reparații/fisiere/2026.09.30 Raport pagina 2--9ebf06e3.png
+57f417d15b7dbc87cda0d2f685128799e51273925830abba6a6c366c144f9c65  Actualizează ofertele de reparații/fisiere/2026.09.30 reuneste cautari--ed526d3c.py
+d1dea34de9db55583a8c2b4ada0790b5028ab91e2298989c5dd4ed01679dfa6e  Actualizează ofertele de reparații/fisiere/2026.09.30 revizuire mesaje--b53aead2.py
+968d75c53de1fe1012c2a09e7a230fa745247cd3ccc4740bbd90ca76c93a5273  Actualizează ofertele de reparații/fisiere/2026.09.30 salveaza octeti EVA--54c701cc.py
+e2f2c61bf5064fc919a782b961c05c0fe7804494c2c4ad12aa7493096b987054  Actualizează ofertele de reparații/fisiere/2026.09.30 statusuri verificate--2faf5720.json
+bb02f22177dc9eb63cedf8fbe7cb29b3d302fd1f767e42ddc89e8c0ce43f8f9f  Actualizează ofertele de reparații/fisiere/2026.09.30 STURM 41410 verificare--bde05308.png
+959b4b23cdf17d37bc03cdc84b5f731bec902242c620bddf2f5d5e25e603003e  Actualizează ofertele de reparații/fisiere/2026.09.30 STURM 41422 verificare--d0c16924.png
+8f4754156bc58f726d00622d5c8abe5bcfe46963f6e1c66647bddc1e5b161678  Actualizează ofertele de reparații/fisiere/2026.09.30 surse financiare--278e50a0.py
+42afdc12ffa22e9257b6671c5c4b4b355fa1700ad7b1405b6a9e91cabb64f899  Actualizează ofertele de reparații/fisiere/2026.09.30 Themis oferta--7f00338e.png
+7f0cc532c0c306c20a2937bda8215db8f7ba0c08d3303e1cee079eea036f9470  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 001--f8034bb2.json
+d26016932d69d469192be7fbf4bb65df5114692284637d153c0cb117d88d8f6e  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 002--29826db5.json
+9f91c8765cc77d7a3fa054a09d025d7b94d8bb45640b360861ed940ed0a8ae95  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 003--50c7ddf1.json
+d90347a09053450aa9b04d040ac85d98ebea038cbc390bb6d422511d2758c1ce  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 004--442636eb.json
+37d7db149ba14819fcd441d9c264457c65e2387f14c4aabafd1ba289c795937a  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 005--e5d5488e.json
+b29602b6a629399faea63bfcd09dfebe81b3eed3efc04fca13ab8c6790ec1a16  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 006--4a4b5f39.json
+ca4371529d9dfbd2b686ac8a03b03e4fd101447777fb489c2b23b7e3ceccd899  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 007--40effbac.json
+a82a5fb6c067da5e245aec276229ab9be2218ad1619bd921b206e06d9f529488  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 008--38962fc0.json
+81e8f7cf6406afc8031c5bda70704340020b3795729461d8d249ab63f3a48d16  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 009--fb46a6c9.json
+c902cb73a0565ab42a50ccb69949571bac5694cfb1c922658466c73301b73070  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 010--984be497.json
+1408d9122d0e1a72cff0103cab03a473ad86f6cdf041e67a415acaf216772eb8  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 011--41a06e6d.json
+30d890387d778ac163d7d66515c0b234e6442686131b7d8ad45a3ddd0c351169  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 012--4669f6a0.json
+d345c378a6a2db502f46cd6ff5613a6ed16c4786a7e31efdbf3c0c9da067f285  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 013--6e5ceef6.json
+94a13c16c1a0fb6156d9a797764031ca8e8373b5f78d74d56820356d74f64903  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 014--da0fc1f5.json
+9e7aa2ca5f45cd661e5de7b3f1a6be618d149116b3bc041bd557a6906f74bbd8  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 015--4d68cd46.json
+aff63218c01c97cca259fec49fe684c9806f9bbb844e3435bbc18da11ac25831  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 016--a8213063.json
+4e2252e8ccb0f465f23d404d93205910b49ed16f6344e6a2dd6a60aa4f0ac151  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 017--de14ce3d.json
+2887a4b9541a220cd5c6c39010478135090c203dce0b2974be99798cfc6f20bb  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 018--6ef11c7f.json
+de288a5e205ec6829cd2207412562b65a1232d91ffdd7027052d30f322099829  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 019--aec0910b.json
+e80c7707019afd4a6624735747a53b7ba61b582114f34fc6f55972f4ffe72155  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 020--af842efe.json
+9f38142f458617781418ac59fc705e11121cd6051faf716a9674596a2b23f98a  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 021--e9f180ff.json
+83545d2a2d566f5308e18312477ff1d77298378ed614b12adb6784b02e6fa6c0  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 022--c2c49e29.json
+ac3bfd9d7813605105ce83c965401c3870c2befc5fcfb5d9bff7d48345e1875a  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 023--b0dcbc12.json
+850888858e1182180fafbed2d0aa1609028d96b7214ea230902331b48a226d10  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 024--36e3c323.json
+d77ceca8ed5ccb5213cb2d451233ecac19f9fece61c4790709ed530b4f435043  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 025--ce2c5afa.json
+2abd00410707203bb0e1d8ae0fc32406f020b43efecf52ea71f8b5de29d516cf  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 026--e64499f6.json
+141e1dd0e787dd65d751aa121d021b434ef124011f70f56466ac0ab6cfcdbb1d  Actualizează ofertele de reparații/fisiere/2026.09.30 URL lot 027--4e7fdcce.json
+a4479775945fac144d2f5f3341f43193fa7ec19dfffa3508d42b28c56ddc379e  Actualizează ofertele de reparații/fisiere/2026.09.30 verifica download--60161531.py
+cd7c16c3284808c1433954e8a6978bfb4d9b348c82b2d103d39de58866e1173a  Actualizează ofertele de reparații/fisiere/2026.09.30 verifica livrabile--04d63c09.py
+0597ba6434feb11e869e6dac5090b0a8096e5dc26a6dac5a6d2961e8c979f037  Actualizează ofertele de reparații/fisiere/2026.09.30 Verificare AT13 pagina 1--1ab4d70a.png
+bb977c6887c1ad8d2b92de133e4753f20ccf1132e2d644745f1ca5a5788dc6a4  Actualizează ofertele de reparații/fisiere/2026.09.30 Verificare AT13 pagina 2--689c6b26.png
+f8ffd182313a81febc620c4047beaee771b77ba3ceffc4401747c17401019be0  Actualizează ofertele de reparații/fisiere/2026.09.30 Verificare AT22 pagina 1--6f3e9886.png
+faf4bf9101cbb518ecff29a1f9ead4a5d0cbe1a2a20ba04f4e940e59b09e1972  Actualizează ofertele de reparații/fisiere/2026.09.30 Verificare AT22 pagina 2--1f36e581.png
+3c825ac5af91f2432231a85339010393a831e20a8b9040a6ceb61b5f0eb37857  Actualizează ofertele de reparații/fisiere/2026.09.30 Verificare AT22 pagina 3--d54e963d.png
+52032c59e0a58362b8099d7b78bf9144ade0eb449b0c489dd08e85b83902ddd5  Actualizează ofertele de reparații/fisiere/2026.09.30 Wasser suma--73002a8c.png
+b88b76d9d2ece26913d1539c1c4fd8b462f1456a951ec069e897492ce25fa055  Actualizează ofertele de reparații/fisiere/2026.09.30 WhatsApp cautare - context secundar--7a0a58a0.json
+bf2c3361bba256a41879efca687775f36a5281c3b4fdcc2f854860c4ee678dfb  Actualizează ofertele de reparații/fisiere/actualizeaza_index--9c1713be.py
+1778b1b4a9fc8e77984b740b9491ced9689f0096f4569ac5a6895a54e21b0425  Actualizează ofertele de reparații/fisiere/AGENTS--2889fd35.md
+e911c07077d964129b795bc3959e5cca8c4fbb6a1cbbaee8e9f58a44e39afda1  Actualizează ofertele de reparații/fisiere/AUDIT--92eece7d.md
+f33254d08f67fa1e72198f84dfd0c05d3b6b0eadd9f344e1ce5f1bbbd44b6c45  Actualizează ofertele de reparații/fisiere/cauta--473fe8c6.py
+a4073bc0a7b587cc48082e815b562fd74b238f4b2d6c4a65a9d0dda3e88de331  Actualizează ofertele de reparații/fisiere/completeaza_ocr--83f7feb0.py
+9de2cb2515bd291a553688f0304c92cdc0ac415ea2530a9c101b1ce0f4d7a441  Actualizează ofertele de reparații/fisiere/contact_01--3b8eb52d.png
+35ed0753e62491325db5d9dbc926aa80e64633fdde3ef2ecd8feeac1bea6053c  Actualizează ofertele de reparații/fisiere/contact_07--fd6ee5ea.png
+3d3850e692f9fe94f3db5d7deea147e7c9b54ba19d0445979f5783e2eea8f94f  Actualizează ofertele de reparații/fisiere/contact_13--1fc93d96.png
+270ad69f08de0b6cd13861ee62cc578cd672fde0950e9bd184ab288c2ca81dcc  Actualizează ofertele de reparații/fisiere/contact_19--c6595e9d.png
+9c0abdecb29706f4afea071f78ca142705454e814bc80d59f71bf559597d8da2  Actualizează ofertele de reparații/fisiere/creeaza_situatie--d51c13fb.py
+07d09a9dfd8bd0525313354f8dfd9aeb84a3639b0997edb1cf29120e166ea4a7  Actualizează ofertele de reparații/fisiere/EMAIL_DE--ec28859d.md
+186f06d2412ec5ec57e75a007915387690a14ed270ccebc92f6f60e46806a0ff  Actualizează ofertele de reparații/fisiere/finalizeaza_dosar--ef986513.py
+d62b094eece31c3d11e1aa2249e7538190cc82f8a7082b2d82a101eafa072a8c  Actualizează ofertele de reparații/fisiere/genereaza_documente--f3cb90f5.py
+e7cfec7269a439487efa5e9f846991758d130fb8f5427ca5f1a5985898e0c0f2  Actualizează ofertele de reparații/fisiere/incheie_livrare--875449ab.py
+ed6eb35e4fa901591b6e081c0b6f1c0fa9caac72b26a5344b94898c4835fe080  Actualizează ofertele de reparații/fisiere/ocr_windows--7a8601c9.ps1
+b8778b1f3977edb71db5eeaada99e14f803b03c51952780f3787268762cd0bdc  Actualizează ofertele de reparații/fisiere/README--6f49fa50.md
+c3518c0be9be35e0a151fe2a181e721380354bd4b70662af60c6a904f38e94f5  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p2--2f7d2b5b.png
+77863bd133750bc961f4a9f9aefcce03695e4078d9ed380fadf1543ad890dcd7  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p3--701d7009.png
+088e14c4c4be33f997342ef2f0942fe158d1c67e72199f0512000fc791310ca1  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p4--165b8498.png
+a740b17bc3c0abc900b972c19ada6da20d97c3b8e5b9f424366a5007c7c27a2c  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p5--5b367725.png
+7cbf653725c58b80a5b6ed765d77a8f6150d60e879f42f369fbf287f04df6dbf  Actualizează ofertele de reparații/fisiere/verifica_artefacte--75193486.py
+19218debc2d3022fd32a7c47bf5af9cd48022968ed6233bd4e4ad733e7eaeced  Actualizează ofertele de reparații/fisiere-index.json
+c4be31d7171b11dc723a585d3c21d07e0288bcaf1f680ac19c5f3ddb9848ff76  Actualizează ofertele de reparații/istoric.json
+19cef7f396c6ec4f9903bde50106fe0a484396fd1200295f50ba3099da82d204  Actualizează ofertele de reparații/metadate.json
+5a24f65cc788d8fbebf6f9d214c21b63fd8a7b525182b5a6d1fd9a27e7ce7a14  Actualizează ofertele de reparații/rezultate.md
+f9ee0308494b611d082f16951bd3022516eda038c618dacd2f3466dd87a4f60c  arhiva-001.zip
+3ecb937db194055e24137699fb46542ccb9819893582bf6671ccc9dfc1efcc63  arhiva-002.zip
+58cbf7e1dd6aceb5738f2b4d50e5989288daa22021e5ff95a8a194e00f588e7e  arhiva-003.zip
+028f45d72745c87137b47a1417f5c5ef95992acfa416eff92ac570bccc6d5f00  Compară ofertele de lift/conversatie.md
+bcf8f17430360f72502f691e31ec0044e0386f53788f9b6a4f92d1f4f2afc94f  Compară ofertele de lift/fisiere/2026-09-24 Otis Angebot 32KB1294-01 - Gen3 Core - 38.68--6279c80c.pdf
+52efe2c4219c99559244bd02ee642b18a740e698bb04688d1354e89866cd418a  Compară ofertele de lift/fisiere/2026.10.05 63b2ea93 ANG0232318_Angebot_Service--48797de4.pdf
+55d2bace03d619893ec9a8c1fcb75c4ae757b1d69a085565916685cc73860c87  Compară ofertele de lift/fisiere/2026.10.05 arhiveaza draft Schmitt--7425d90e.py
+552938f8078187321d5ddc1fb9c708a10b3791b3e00c4179387984537e99d6fd  Compară ofertele de lift/fisiere/2026.10.05 Draft Eva-Mail Schmitt + Sohn--1224d551.json
+a9b7ee6cf2ddcdfe1109ae7657f4707a92a7b345a14e62e40f911132136689b8  Compară ofertele de lift/fisiere/2026.10.05 fc142f06 ANG0232318_Angebot--853ac4b5.pdf
+4fefc9165a91a7ed2291933aa5b7eb0f3a6449b5cd83d04fd5f6c82aeeb5ff7e  Compară ofertele de lift/fisiere/2026.10.05 otis certificat garantie--b6e0e572.png
+970f59cf8a7f4d79f6d390dc0fbb362d9e741123c7d843f94f1f9d211f9ba5eb  Compară ofertele de lift/fisiere/2026.10.05 otis pagina 12--930f5915.png
+8a661cf8e31c9ef8c42cf989fc58e0bbbedec09bf5ff2d5ef8cb60941c5474e6  Compară ofertele de lift/fisiere/2026.10.05 otis pagina 14--73bb022c.png
+b60130e34f48f4e14dacaa89c4b4743c46a4f5b800807d3aa7b28a9a2d0513fe  Compară ofertele de lift/fisiere/2026.10.05 otis pagina 4--6a143cca.png
+d59f965d9235bdeaf8d70d14075da9b9edd850d8dd730071b33a3899f24f5272  Compară ofertele de lift/fisiere/2026.10.05 otis pagina 6--0be9f0d8.png
+009fb63add6dafac86a1777fa84c611a125944bf2f5802e26df9dfed3909a832  Compară ofertele de lift/fisiere/2026.10.05 otis pagina 8--905c7bfa.png
+e40291c5831b027be52e0a23b639e2ae7d767c1b3d372227dcb0baba9237a9a7  Compară ofertele de lift/fisiere/2026.10.05 service pagina 1--b63308f1.png
+5a98b293a24239c940225addc4ae9173be52d086afc375dfe88fb938bc3a44d9  Compară ofertele de lift/fisiere/2026.10.05 sohn certificari brosura--415389db.png
+545fdf32766006558c0369402266ded956af3e202b15b7e0ff7033ed0a4be13c  Compară ofertele de lift/fisiere/2026.10.05 sohn pagina 11--7b40f791.png
+cb34e69719389a944e68dab1b2d3ebea11e625d62c3d60f1e21e0c45ecc271e0  Compară ofertele de lift/fisiere/2026.10.05 sohn pagina 4--93b29a73.png
+e50d694e15b06fd9ee3ae8cb4f9d12e4a0272527091ece230e9343f53e1f68a4  Compară ofertele de lift/fisiere/2026.10.05 sohn pagina 7--70e278bb.png
+9585b7a2f3386a68c2d778f3abbf65a3061849ead3a44630c1ce150bd16996f2  Compară ofertele de lift/fisiere/2026.10.05 Sohn plan cabina oglinda--872417b2.png
+c2de024474dc82b91870eac6626f888acb39ef83cb407f3fbe1a9aa48ba3496a  Compară ofertele de lift/fisiere-index.json
+2bfcdb6b7658e688c8270e8bfea527dc936d5436a3ab786e8c1abbdd1d47792a  Compară ofertele de lift/istoric.json
+b307046a306a81915ea3b0a7e7135a6e281b5f957db59623fbe1a0c23e5f5801  Compară ofertele de lift/metadate.json
+6305b07e7ffc26cf657bcf8308cfec46f51c1bdd12aa0131f33297fc22730c8f  Compară ofertele de lift/rezultate.md
+6e76805242b5f50d7938dacd1a29e0aaff2208d3181eeabf0da82042d652cdef  index.json
+4cd56ad42fca37ffc156789a6d7a94c4cfc176ef0d7c3a1f6397d3220c5f1904  mascari-publicare.json
+bb82463f431651c1cf98cd7e489a556935358eb229305f832dd9ce0eb1719341  README.md
+7cc3db831db672c3ad907491605e2a22f7d54617ab5c669e5c91027b668adbcf  subagenti/Fara titlu/conversatie.md
+422884f026db6212da7b583b4377035488d7536ea0609c509c35466317e52a31  subagenti/Fara titlu/fisiere/CONTRACT_DE--439dde70.md
+eb6abbc950b47e2a8198d85ad9012943c27b3dff68ae898066b51633155b437f  subagenti/Fara titlu/fisiere/SURSE_JURIDICE--bc0f9f38.md
+f960711ce285aaa74af52578beb4ffecc16024165793548a3736abed8b784971  subagenti/Fara titlu/fisiere-index.json
+68799b4555ba5996236a76e697d57da38d0e7b53230ddeb345e815757bf11931  subagenti/Fara titlu/istoric.json
+4068674c0a89239e8c7a6a1f6511fdb38b1a346867fc4b2f5668f3758ed6a2ad  subagenti/Fara titlu/metadate.json
+9db59c0b50f4adfa35dee68798ca8c1953399689feb63b3af009ec070f825bc3  subagenti/Fara titlu/rezultate.md
+297e55981b1925ae727046a293aa2b80d350cf8b593ea1b4f5b039ac7f86c042  subagenti/Fara titlu--48d97fc8/conversatie.md
+3394a0cc478ae453931708242bddf514daa59ad50d41b8766dd49df667fe8682  subagenti/Fara titlu--48d97fc8/fisiere/ANEXA_PRESTATII_DE--0ad96a65.md
+b9ad06f6217ee2fdeb439ff358cd423b8c9b4f3e371e7fe00dd7b82a238cc97b  subagenti/Fara titlu--48d97fc8/fisiere/BAUWERTE_p2--ec9c9e86.png
+a0a91c516fad35bb2ce60df9cec34e041118d241c82400af2d271f5795f05783  subagenti/Fara titlu--48d97fc8/fisiere/MATRICE_BAUKG--068312dc.md
+9fbc095c248eed8b9ac84798720b737f40348bf17b790b99aff4801cb8de081b  subagenti/Fara titlu--48d97fc8/fisiere/TOMS23_p22--36d66bae.png
+0c8289249c4681ffe19db7d05592bc886b47118da3a198004de34ef3f7abceb3  subagenti/Fara titlu--48d97fc8/fisiere/TOMS23_p23--2c09465e.png
+23b229f12612b3bbeaf60fadadfd78a65ffb33d15a5ec5979de0e3808a7720ce  subagenti/Fara titlu--48d97fc8/fisiere/TOMS23_p25--a63ce77d.png
+7c1041d73a3b5b723850ddfd562b538791645abd52492103f55b04fadd78efc2  subagenti/Fara titlu--48d97fc8/fisiere-index.json
+c60911c0010121140a661db64c06dbb7735319b31095f0baa6e126d79f1e62b9  subagenti/Fara titlu--48d97fc8/istoric.json
+3376c4e6ac2f1db2931222487020768cdf3d29eea69d6d435449e7076657558d  subagenti/Fara titlu--48d97fc8/metadate.json
+0280b88aced19c10fe7a329985d5028d4e2f94dd2e3a84a25bc03b2ea7f0d229  subagenti/Fara titlu--48d97fc8/rezultate.md
+7de5cb5bfcf1638c8106b7c60924ec27786a76108b61c464142ea0bf840c7cad  subagenti/Fara titlu--a3c455a1/conversatie.md
+e911c07077d964129b795bc3959e5cca8c4fbb6a1cbbaee8e9f58a44e39afda1  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT--92eece7d.md
+26d23e2a1fade4316bb874bb4f5015b169cb3daa445ba4e87bc0c6fcb0515fc5  subagenti/Fara titlu--a3c455a1/fisiere/audit_artefacte--732cf345.py
+e6286512432a067a5d00069296020edc61c23c39d9da4a0d029db1d48a732218  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT_contact_01--efba54b0.png
+315c86047e3d020a1e51e17127184addf62d4c6120ce0c4b6e65de26e190f7e6  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT_contact_07--58493019.png
+a8a77ca8633af7ed02f42bee8c5d114676ef044e39f40e5bef81954f7f322ed4  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT_contact_13--44778574.png
+019fa10b27eaee0a6aaa332c8545016e7ace856e6ab1d0f257c8d4450d0b4220  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT_contact_19--fb1185cd.png
+5922004e7ea4e6cf4f5e11fdb250e12a7ff78c227930c6af660786dd7c04c1c2  subagenti/Fara titlu--a3c455a1/fisiere/BAUWERTE_p1--fa2cb058.png
+b9ad06f6217ee2fdeb439ff358cd423b8c9b4f3e371e7fe00dd7b82a238cc97b  subagenti/Fara titlu--a3c455a1/fisiere/BAUWERTE_p2--ec9c9e86.png
+94c77ffc052576668ab5f83d9d4e5d55be11a3018019d56a31eca76f65e4de72  subagenti/Fara titlu--a3c455a1/fisiere/BAUWERTE_p3--6ae441e8.png
+9fbc095c248eed8b9ac84798720b737f40348bf17b790b99aff4801cb8de081b  subagenti/Fara titlu--a3c455a1/fisiere/TOMS23_p22--36d66bae.png
+0c8289249c4681ffe19db7d05592bc886b47118da3a198004de34ef3f7abceb3  subagenti/Fara titlu--a3c455a1/fisiere/TOMS23_p23--2c09465e.png
+76242e83212d1172e201344b8071cfd79c8182f174386941eac8b367bab4b0e6  subagenti/Fara titlu--a3c455a1/fisiere-index.json
+305c0046a00dda4777a7cf7cc2eb1d8c8f0875168ac06504c9fa3c3000fd0a99  subagenti/Fara titlu--a3c455a1/istoric.json
+5a38a18019aa112dc6c24893d0aa240f94588903c6b97387296e73ef33d7f17c  subagenti/Fara titlu--a3c455a1/metadate.json
+ff667cfe5839014ac209c17180ccc938f392105639afebca8af09e743bf7e3e1  subagenti/Fara titlu--a3c455a1/rezultate.md
+6554fc909cf1988d94221a834d98d64bdf7120768a595ebe1f0c051b0d3b55d8  Verifică actualizările locației/conversatie.md
+4c8baa2b9867452beba3ae5fcb42d2ca91ba3fa39259197b531b6b676f4dedef  Verifică actualizările locației/fisiere/2026.10.01 actualizeaza comunicari--8c448f57.py
+4650fcd8221dd27ae78915c748618b5fc1adc8114de6f0c994cee5bac5853c36  Verifică actualizările locației/fisiere/2026.10.01 descarca comunicari--ca7b5510.ps1
+203fe897ea58ff12b052b91eb7974625dfd07ce01c6f3e296e818b84607bb0da  Verifică actualizările locației/fisiere/2026.10.01 Descarcari originale--dcd24893.json
+02075e500fd933165a3589f0c3b4b3e95a051915a0c8f9f9d1cc48f98e78fb16  Verifică actualizările locației/fisiere/2026.10.01 Dovezi Eva-Mail--f7d5f14f.json
+a306460b771450b08ae5a787f3eeb30a0f7138986cb0723cfdf4a66b5749262f  Verifică actualizările locației/fisiere/2026.10.01 finalizeaza verificare comunicari--b5d807e8.py
+43bebddfad7da22b65a175fd68ddedd9ac69de6fee44478a03c549e4dd6d165d  Verifică actualizările locației/fisiere/2026.10.03 Automatizare zilnica--99513bff.json
+295287cd3d44fa84bb3942565e1256b48bae95dd409a6842e8c5ff8c0f3cf79c  Verifică actualizările locației/fisiere/2026.10.03 descarca comunicari--67734141.ps1
+8e056f2d659a9bef255afa0a7aae53e7a2838218e3f561bf3a6909435c839a76  Verifică actualizările locației/fisiere/2026.10.03 Descarcari originale--945df69e.json
+fff4314db47fd996e2dcbf8474aa53c297d943eceedf91067cd7fe66662f6039  Verifică actualizările locației/fisiere/2026.10.03 Dovezi Eva-Mail--2f2c32cf.json
+1d97c265ff2e1d623404217237ea8f2cee7222683d9f4edefe9660c02a0df171  Verifică actualizările locației/fisiere/2026.10.05 actualizeaza comunicari--4826d4bb.py
+570a9d280fecff3bca428f916d8d1dede99117f5e0eadd45c9b0e0c033d5b4e4  Verifică actualizările locației/fisiere/2026.10.05 descarca comunicari--6f6556ad.ps1
+51fb996b9a5cceda97b40ac6f564f5152184fb8b86a78cda5893023ed92f5d21  Verifică actualizările locației/fisiere/2026.10.05 Descarcari originale--03bfd31c.json
+76073720749bd7e124d5641b2a91b3148ecf496636dcf3c8bf556dd1631f7410  Verifică actualizările locației/fisiere/2026.10.05 Dovezi Eva-Mail--cedb5770.json
+3e91b567f982c0af672c6a25776f8c2b84519e27bb4d2faa25c4f08c2f6aa41f  Verifică actualizările locației/fisiere/2026.10.05 Statusuri verificate--6f9ec99d.json
+03b22e0773b432dabb93d21b770b174a5ec42cb1339e5873f76832708469662b  Verifică actualizările locației/fisiere/2026.10.05 Verificare 3798c8db p3--c9176a91.png
+b8e12a1bd76ac7f76ce65ad5f12ecfcd491b6614833c5d6b4162c336967c90fd  Verifică actualizările locației/fisiere/2026.10.05 Verificare 75af73b7 p1--ced9592e.png
+5e514fbb7dba8ad23926d8e80775a4ecf90591726a612d2e9ee3a797cfa6fa17  Verifică actualizările locației/fisiere/2026.10.05 Verificare 75af73b7 p3--2261bf6d.png
+ce490fdc031a8ce60d5ee4ba8b5a8eea5ae10f150a5bc8f2fd700f84f2cc0cd4  Verifică actualizările locației/fisiere/2026.10.05 Verificare fc142f06 p11--3c1ed3da.png
+e7f5d7722792dd9468927e00fb1f05e865d6da08b6d3aa33633d05b67190cc6e  Verifică actualizările locației/fisiere/2026.10.06 Verificare 29fb81b0 p2--f363f02c.png
+d7d0c1d8ad830a2ae7d439544b8194d7494aaff69ab37f4915eca18ae251a704  Verifică actualizările locației/fisiere/2026.10.06 Verificare 2c373207 p2--1f2af512.png
+0f9a68d76bb6c177a246928dfb463f156ef32af6128f4fc72b6953626cf1428a  Verifică actualizările locației/fisiere/2026.10.06 Verificare e4a3b610 p13--195aa44b.png
+9723ba49a1a5df57ee4c159b565fa574ac6bed012eb8d81b486398d0648c6f62  Verifică actualizările locației/fisiere/2026.10.06 Verificare e4a3b610 p14--6c09bae2.png
+19e4b213937b25c51aaecfdb28a62fcb8021b33f0e50d405bb89f1fc74e18a0f  Verifică actualizările locației/fisiere/2026.10.06 Verificare e4a3b610 p2--c8333d2d.png
+b1a88e5685b52ff08603a62d1bef48c1a57e02d7ac2187faaceb42ee40bf04ac  Verifică actualizările locației/fisiere/2026.10.07 Verificare Memoformat p1--6f94a893.png
+561637b4522089cabc83138269f662a52a0616ea05476435f499185e3e2c3926  Verifică actualizările locației/fisiere-index.json
+d4607461158a1a61517f6df706778e0d4d49f648725d26dbf2e87f248df0ccd9  Verifică actualizările locației/istoric.json
+f7159fc649f42fae1e5be16bd43d57f43587bf6a26de5a4f218380c0f9d22355  Verifică actualizările locației/metadate.json
+2ec5a309de1f9cdb788388100b63f1ecd76a7447fb2c1e3fac7bf17e56188544  Verifică actualizările locației/rezultate.md
+58389379f30379627370b24725d38da647a7e0d968f0039895e227a8cb241098  Verifică răspunsul DonauAsig/conversatie.md
+b19977770860f9d1d74602b8493bd5077f224738e20e8dbbc97ef5e0df106efc  Verifică răspunsul DonauAsig/fisiere/2026.09.30 actualizare Donau revenire--62e898fd.py
+bd2f3db0e635d37473d3b4a23ff54070c9e4e3241174b22f00fd4f104e288671  Verifică răspunsul DonauAsig/fisiere/2026.09.30 actualizeaza jurnale--61f85f0d.py
+16d6bbbbaad835ffb959973e4a40d5f1d0b0c2ea1cd19a5aad4c6dbdc633747a  Verifică răspunsul DonauAsig/fisiere/2026.09.30 actualizeaza raspuns Donau--0336bcb1.py
+a08c3d97e4e4b9987c1c47eca77d30b8647d44a52c540d4e4d7974dcb92796cb  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Analiza juridica Donau--ec544e18.txt
+859edfc7df032124c0f131adb2e1010a157cff1a7f804ccd5b24cb32c58d2408  Verifică răspunsul DonauAsig/fisiere/2026.09.30 descarca raspuns Donau--91644d4f.py
+c2311e5f51399e28fa852ab96f0c19f65b182abb88a494df8c8288b40577d238  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau bytes 0dc20f91-66fb-4fdf-a7e2-5869f435--e31683a3.json
+ac8bb4ad0b3ed431374da376d71bc1494e0d18bc59ec898006aac2b19fe29890  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau bytes 19e8c543-e5ed-4606-91b3-d56b6398--60273d47.json
+c1edd4d4476e109ee9e7c127cb45193ac49e3f3e6cefe221c02c0ac43ef1fb3c  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau bytes 31d4256e-5a0a-4459-b0de-24652186--6d5ba2b7.json
+7684b42fecd86a4d0b12e27191a0d10c3bac167be16431654032719c9f7e2bd8  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau bytes 8bd928c6-3b54-486f-8983-bd0c5e7e--f2060a69.json
+06534f7d9b9aa5aa69d7949879311cd917ab92971e2196ed900ac9def75f2425  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau bytes e1472874-4e30-4982-a72d-8d394103--f0e6829d.json
+7300bbc9f7168fa11a2c87902a9717faf1de059c91101b9f4a80119e4df4405c  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau ciorna verificata--f151ffbc.json
+c8e3334ac7ad18d202409f13884fa1d45af9ec4eeab10e5de8c37ef303683e07  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau polita p4--31f05c6a.png
+7d25e6e35dd461f6b45bf6b005a294169af67b00bcf9cae1598abc5575ac151f  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau polita p6--9228853a.png
+08e85c2256466ba66b4c8687fd52e8b6a0a10aaa221d0ed30beb8b0158d48ab3  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau raspuns surse--976f316a.json
+60981606c9faed98b69a5bb92ca3439ba6689639850184b61a0288892efacf59  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau somatie verificare--58516d51.png
+b6f407c8c33ec8946b9ec9a37be60be7ef030cd3339835b3a1ab1c8897f035ef  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Donau verificare surse--0768bf5a.json
+444643cf45030de8bebccd660bca248e89263d8e8b8946f90381477124e3d28a  Verifică răspunsul DonauAsig/fisiere/2026.09.30 verifica originale raspuns Donau--8fe515a7.py
+f4a8fbcb96afd3b7a326d2806c33e5d7cd66a5a218e4675599c7e7620fedca87  Verifică răspunsul DonauAsig/fisiere/2026.09.30 verificare 0dc20f91--fa5b6b0b.png
+bbbfca6d5c82a80ff8965ed4e705e06788acd809f8f922c3044b898539ccbe8a  Verifică răspunsul DonauAsig/fisiere/2026.09.30 verificare 31d4256e--bbd2f0f0.png
+3ab8275c34b5c6a3e76e66a973cbea2ffa1daa5bab7c795ca2310b34eed6ef7d  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Verificare corespondenta si limite--d95cd1ad.json
+365c88e151a484dd7e3e60f3a4a9d49803c7ff5c3ec4f0b727496b81249177aa  Verifică răspunsul DonauAsig/fisiere/2026.10.01 arhiveaza reziliere Donau--1527ce48.py
+ac940938f0a797b0e4c2e617540180d80606a7905193d0c1552e889bddad32f2  Verifică răspunsul DonauAsig/fisiere/2026.10.01 DRAFT Reziliere Donau--96e60585.json
+b8778b1f3977edb71db5eeaada99e14f803b03c51952780f3787268762cd0bdc  Verifică răspunsul DonauAsig/fisiere/README--6f49fa50.md
+7047ddc04b9985bd7bccb9c0871c10e010c47a808ccc6b9e632b89716dba2786  Verifică răspunsul DonauAsig/fisiere-index.json
+b20cc682bc866f195839d7eee8d25a09115e36dae9d5db976142682b24e03b94  Verifică răspunsul DonauAsig/istoric.json
+15b7f1de6bff4228c672b2daaec3ab06a43e80a186607cb9b64794fefdb51d28  Verifică răspunsul DonauAsig/metadate.json
+effa45b2d2e9845a37923454839846d11a8b27d4dfd549e95a2f2414e2148833  Verifică răspunsul DonauAsig/rezultate.md
+9c6cc56bdccc538ac4dcf386578094eedc096bf0400ce87c24dfd78bccd57643  Verifică situația actuală TOMS/conversatie.md
+ac9324854643a24cbe9d9d37625d25ddc65f7446f9ce44add7e1515b25fbc657  Verifică situația actuală TOMS/fisiere/02 Email contract - DE - ciorna--90fb493e.txt
+e2ce439007908697a5b12fc9b239bce2c13f7a412b97df47dba3cad0543b90ca  Verifică situația actuală TOMS/fisiere/03 Email acces portal - DE - ciorna--0d2e05a6.txt
+28068872a98c62c78b042259fdea1cdecdfaacd9a80b56a2502c13537a621bd7  Verifică situația actuală TOMS/fisiere/04 Dovezi EVA si surse--a3482d81.json
+bf56c8e9833fe58d638bd811c3b53f589f06d22f4d9b7dd8671e82f5214f2b1d  Verifică situația actuală TOMS/fisiere/05 Jurnal TOMS - situatie si actiuni--3e5f2e0b.txt
+567c954a1f5720f93eb12aa04a5a164122d16fbd4ab55a3ce897f027de3db383  Verifică situația actuală TOMS/fisiere/06 Confirmari ciorne EVA si reminder--ac104024.json
+c0024dbf59302e088566b8f1cd6803c6556e7c9b56ceca5bd816dc1d3986c025  Verifică situația actuală TOMS/fisiere/build_contract--4ce249a0.py
+9490154778308d3ab700a583f0c5af492ee35516053939bce2a8be998b023413  Verifică situația actuală TOMS/fisiere/check_final--bcc42418.py
+21aaef646ce5bc051d80085069c28b11827c1bb6d14f14cbd22d5fde45b1faf1  Verifică situația actuală TOMS/fisiere/eva-contract.docx--1c181aaf.b64
+5ef2949581fd6a54d30d75fce1db3e554d79773910241fc7c0890e3ac19ed8a3  Verifică situația actuală TOMS/fisiere/eva-contract.pdf--7e3c881c.b64
+55827f92d91f869b48e77b349f82fc5a2f8cc25f5b46ed9314679edf98b39870  Verifică situația actuală TOMS/fisiere/eva-preview-0--c5d766de.png
+2074b422ea8a73fc07d097606a7a1bd08ac417c4766139e2e85a92420eb26f34  Verifică situația actuală TOMS/fisiere/eva-preview-2--5a701da7.png
+e23f62f8a7a97521ec66cf1a6e7e2087be41b6c967e70d35d53430b4edbd6777  Verifică situația actuală TOMS/fisiere/eva-preview-21--1df30691.png
+913b5efab893a6a9f842f9a400a5560256d536a74d642611221a708abece475f  Verifică situația actuală TOMS/fisiere/final-eva.docx--c0691950.b64
+3e573402cfa9a0278c73a47dce8bee461f6d9745a1d301a00eb71c77533c4147  Verifică situația actuală TOMS/fisiere/final-eva.pdf--2839a412.b64
+46f71d12b04153a719e08b861f8c7a1ab65327bf72517f7905e0476e31fdc2ff  Verifică situația actuală TOMS/fisiere/final-signature--e03dc750.png
+20e1dbe7bb8ffdb16a5e6d0a9f0e18cccbda71b44a58d4adf4b18ca01a34c8a3  Verifică situația actuală TOMS/fisiere/question-2--1bafead7.png
+3715725fe4bd925e32b84dae579b654329ff2cd2686a1d175b713913893384b2  Verifică situația actuală TOMS/fisiere/question-3--fec35ab7.png
+9a4c7c96c08783046c73afa937008ec0f81b934940cc4861917018bee162a1ca  Verifică situația actuală TOMS/fisiere/question-4--16ef21ca.png
+b8778b1f3977edb71db5eeaada99e14f803b03c51952780f3787268762cd0bdc  Verifică situația actuală TOMS/fisiere/README--6f49fa50.md
+ad59f8be1a629d48716edf8f2d633dfab766c6f8a104ac37578c3c107ce738fc  Verifică situația actuală TOMS/fisiere/signed2-2--17ab75f6.png
+d8ef3f67ea26f613a16e625e2ae7707422da00229bf9dcd994f4912ea821b678  Verifică situația actuală TOMS/fisiere/signed2-3--0d0593b0.png
+2164f1c75419962eef5bd53e7383dcd7409acb9ce171a4897f68068629a553e4  Verifică situația actuală TOMS/fisiere/signed2-4--3b659103.png
+321c431ee3213fffd911ca1b5140646b3fd31afc52cf3e8db5e382a4e1792ad7  Verifică situația actuală TOMS/fisiere/signed2-5--c9142218.png
+6c0710a7c94efb9832849f3be08c10926775185b06189a34b0c020d815229b98  Verifică situația actuală TOMS/fisiere/v4-page-1--ff9e6a1e.png
+b15c24288fd7c6862e48f8cad2b6a6a773e39696c574810de9390eb885bfc01f  Verifică situația actuală TOMS/fisiere/v4-page-14--0e87e7c3.png
+7f258d41b8ecfeecd738f1a915e98192f848125941144a0b4dcbdd33600f6e9d  Verifică situația actuală TOMS/fisiere/v4-page-4--b763e248.png
+99717a80bfac34bfa28840edb0ac8d766cf88305d192abf4b7ef16e95770489f  Verifică situația actuală TOMS/fisiere-index.json
+39ee299410fba17226156148e8729fce4fad85b11ece6915e342e14752f77971  Verifică situația actuală TOMS/istoric.json
+ee5865a0d40549d0bd00ebd3eb3499e8e73e3ddf37a7c33b3df46f8cb6703215  Verifică situația actuală TOMS/metadate.json
+926aff6ef147a426ebc77cdbbdcdc430d61c99f19b0d32468091a626fe9d0226  Verifică situația actuală TOMS/rezultate.md

@@ -1,0 +1,23 @@
+{
+  "id": "01a10b84-4d8d-7992-87cd-0cbd30eafc1d",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1791194582,
+  "updated_at": 1791198505,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară ofertele de lift",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 6811111,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 120,
+  "message_count": 46,
+  "content_sha256": "c3a87af37dde9313a8a3e35c643fadc532a98330eb96b7b579a158e47f424d49",
+  "files_copied": 17,
+  "references_not_copied": 22
+}

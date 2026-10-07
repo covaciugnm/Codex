@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9d3e-72a1-bde3-3d84472948a5",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1779873599,
+  "updated_at": 1784114040,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Create file reorganization proposal",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 644803,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 337,
+  "message_count": 337,
+  "content_sha256": "6b8928f94067d5f32ed6c5e36f6762ab61c32bf523023c4c7ff790d8804d7175",
+  "files_copied": 4,
+  "references_not_copied": 110
+}

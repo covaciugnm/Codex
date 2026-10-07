@@ -1,0 +1,18 @@
+EVA PRINT SRL — pachet pentru realizarea site-ului
+
+Promptul complet în engleză: 01_PROMPT/EVA_PRINT_MASTER_PROMPT_EN.txt
+Versiunea PDF: 01_PROMPT/EVA_PRINT_MASTER_PROMPT_EN.pdf
+Catalogul vizual local: 11_PREVIEW/index.html
+Arhitectura dinamică: 07_DATABASE/DYNAMIC_ARCHITECTURE_EN.txt
+
+Soluția definită în prompt este Go + pagini generate pe server + PostgreSQL. Limbile, textele, traducerile, pozițiile, meniurile, formularele și conținutul fișierelor sunt date în baza de date. Codul păstrează logica și componentele de afișare, fără texte de prezentare hardcodate. Modificările sursei pornesc actualizarea traducerilor și păstrează versiunile anterioare.
+
+Pachetul conține descrieri în engleză, aplicații propuse pe materiale și industrii, referințe externe documentate, fotografii descărcate, documente oficiale și ilustrații tehnice originale. Fiecare material are un rezumat PDF propriu și o ilustrație PNG/SVG/PDF/DXF. DXF este format de schimb CAD; nu este un fișier DWG autentic.
+
+Pentru 17 variante nu a fost găsit un PDF TDS oficial exact. Lista lor este în 12_VALIDATION/unavailable-manufacturer-tds.json. Rezumatul propriu nu înlocuiește și nu este prezentat ca fișă a producătorului. Pentru două variante nu a fost recuperată o fotografie exactă de la furnizor; ilustrațiile tehnice sunt disponibile.
+
+Fotografiile producătorilor sunt copii de cercetare, cu linkuri și proveniență. Publicarea comercială necesită drepturi stabilite. Proiectele altor firme sunt exemple externe, nu portofoliul EVA PRINT. Materialele foarte solicitante, precum PEEK și PEI, necesită verificarea configurației complete a imprimantei; toate duzele nu garantează singure compatibilitatea.
+
+EN/DE/FR/ES/RO/HU/BG sunt definite în baza de date. Textele principale sunt în engleză; traducerile de interfață sunt un punct de pornire, iar traducerea integrală a catalogului rămâne parte din implementare și verificare. „SP” este codificat standard ca „es”. „EU Pass” rămâne neidentificat și dezactivat până la confirmarea furnizorului.
+
+Acesta este promptul și pachetul de documentare/import pentru site, nu un site publicat. Schema și seed-ul au fost executate într-o bază PostgreSQL izolată pentru verificarea traducerilor, pozițiilor și accesului la documente. Nu a fost conectată o bază de producție și nu au fost încărcate acolo toate fișierele binare.

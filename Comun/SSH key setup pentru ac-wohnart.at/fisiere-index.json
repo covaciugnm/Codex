@@ -1,0 +1,175 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/65587b36-c896-4769-a6ef-95ec5f5f385e/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/ee6110e4-f0c1-4cec-83e9-b8fec35025e2/scratchpad/fonts",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/ee6110e4-f0c1-4cec-83e9-b8fec35025e2/scratchpad/fonts/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Windows/Fonts/segoeui.ttf",
+    "status": "copiat",
+    "saved_path": "fisiere/segoeui--0481fd46.ttf",
+    "bytes": 960076,
+    "sha256": "704eada12961a27fd271f7d3b09e2066520e758390c1776744eff430fee30f6e"
+  },
+  {
+    "source_reference": "C:/Windows/Fonts/segoeuib.ttf",
+    "status": "copiat",
+    "saved_path": "fisiere/segoeuib--590006d4.ttf",
+    "bytes": 947364,
+    "sha256": "b169e636719880976a97e94e3b1cb3dbe5f4a38eabc037bf9f2a9165154c3ad2"
+  },
+  {
+    "source_reference": "C:/Windows/Fonts/segoeuil.ttf",
+    "status": "copiat",
+    "saved_path": "fisiere/segoeuil--091ef6ea.ttf",
+    "bytes": 910408,
+    "sha256": "0dbddf9e20b2dc0facd568c877aa1155b3597c09a7ca41d00ca580af25d1cc51"
+  },
+  {
+    "source_reference": "C:/Windows/Fonts/seguisb.ttf",
+    "status": "copiat",
+    "saved_path": "fisiere/seguisb--7023dac5.ttf",
+    "bytes": 974760,
+    "sha256": "6c3fd894b19950b10c34bf64069ef821eaf2f58f959146306fee5b367472e501"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_connection.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_connection--eb2ecf48.py",
+    "bytes": 24414,
+    "sha256": "63ee35eb40354d2099d422947a24aead934ca12ffdb05841113da2091054caae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_frame.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_frame--54e4bc27.py",
+    "bytes": 31051,
+    "sha256": "1d1c7c5908748efe7b1a9464a004ac64c78eb6d0e6a629968df7b9a957a129f3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_page.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_page--341fa8c0.py",
+    "bytes": 54808,
+    "sha256": "cb3f5b83c9c31c006abd0d2e3a46a239803f9724c8471e6889a21fa133ac824b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_sync_base--79a362a2.py",
+    "bytes": 4608,
+    "sha256": "90a23c3bcd581164a8ea954ae7fed1b450a2402eb88b0267500ae87a6ceb83e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\sync_api\\_generated.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_generated--72b808fa.py",
+    "bytes": 939552,
+    "sha256": "b4f57ba58967ea75e06eee17d9c8ff67b930f22f7fe2469d63afa71d8ac641ea"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\65587b36-c896-4769-a6ef-95ec5f5f385e\\\\scratchpad\\\\crops\\\\sheet.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\00. PROMPTURI COPERTE MULTILINGVE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00. PROMPTURI COPERTE MULTILINGVE--890d28dd.md",
+    "bytes": 6282,
+    "sha256": "e141db7b3ce5c1679c520eb364a7ea28a5e783821d5a9af0638f6eeb46058802"
+  },
+  {
+    "source_reference": "S:/dracula-design/dracula",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/dracula-design/dracula/*.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/dracula-design/dracula/3c9a04a8-cf00-48c1-9e7a-dca4a1073a1d.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/3c9a04a8-cf00-48c1-9e7a-dca4a1073a1d--2420d623.jpg",
+    "bytes": 326050,
+    "sha256": "fdc143091f4681a9a9ad1c4b1b798f9e43777092e45e2a89c1bae5d6d3c2292b"
+  },
+  {
+    "source_reference": "S:/dracula-design/dracula/corectate",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/dracula-design/dracula/corectate/_CORESPONDENTA.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/_CORESPONDENTA--85027591.csv",
+    "bytes": 2134,
+    "sha256": "f183b76faa5a7f4626cb8cfe1cb359c2b1f7e356c2729b3d0f82b72cafb3de33"
+  },
+  {
+    "source_reference": "S:/dracula-design/dracula/corectate/dd-{i:02d}-{n}.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\_scripts\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\reader\\data\\books\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\dracula-design\\_jurnal\\JURNAL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/JURNAL--f707907c.md",
+    "bytes": 591356,
+    "sha256": "c90a5b32bb81c18e2aee7899a600accc2a16d84576587e7e2453299924b8a266"
+  },
+  {
+    "source_reference": "S:\\dracula-design\\dracula\\corectate\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\dracula-design\\dracula\\corectate\\_CORESPONDENTA.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/_CORESPONDENTA--85027591.csv",
+    "bytes": 2134,
+    "sha256": "f183b76faa5a7f4626cb8cfe1cb359c2b1f7e356c2729b3d0f82b72cafb3de33"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DRACULA BOOK SRL - CUI TBD",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\dt\\",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\pset format unaligned",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\pset tuples_only on",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "01a07b95-89f9-7fb0-be6c-39c94e3f9acb",
+  "cwd": "\\\\?\\C:\\Users\\User\\Documents\\Codex\\2026-09-07\\pr",
+  "created_at": 1788779792,
+  "updated_at": 1788780717,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Pregătește documentele contractuale",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "explicitly_projectless",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 7643739,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 31,
+  "message_count": 19,
+  "content_sha256": "3227dfa70397f4e1a3ac0870f80cdb153e683ee7b9e0fdb04f47cf29742ed520",
+  "files_copied": 40,
+  "references_not_copied": 2
+}

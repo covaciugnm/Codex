@@ -1,0 +1,23 @@
+{
+  "id": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790211696,
+  "updated_at": 1790222455,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Confucius\",\"agent_role\":null}}}",
+  "title": "Ești auditor INDEPENDENT. Nu ai produs documentele. Userul cere prag STRICT>9,50/10 PE FIECARE criteriu, doi auditori și metaaudit, arhivare inclusivRETURN. Nu ai obligația sădai951; scorulreflectăprobe. ROOT=D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000. Intrările sunt înghețate în06_REGISTRU/deliverables.json și08_ARHIVA/*/r01-before-audit. Citește00_CONDUCERE/RUBRICI.md,policy.json și04_INSTRUMENTE/README.md pentru schemaaudit. Nu modifica livrabile/registre. Scrii NUMAI05_AUDIT/<ID>/<ROLE>-r01.json și.md. JSONschemaexact{schema_version:1,audit_id,deliverable_id,reviewer_agent_id=IDultăuUUIDreal,reviewer_role,files:exactmanifestfiles,criteria:[{id,weight,score:int0..1000,evidence:[ROOT-relative-path:Lx-Ly sau #ancoră; numai referințe, nu proză]}],findings:[{id,severity,status:'open'|'closed',location,description,remediation}],verdict:'PASS'|'RETURN',limitations:[...],reviewed_at:ISO8601cuUTC/fus}. Fiecareconstatare cu remediere/test explicit înMD. Scor950 NUtrece. Nicio problemădeschisăcompensatăcu medie. Dovezi lacitareconcrete; nu aprobacanonintegral/stadiiG01+prin anexeG00. Fișierele existente și site-ul strictread-only; nicio.env. Dacănu poțiverifica/atingeobiectivul emiteRETURNcu motiv, nu inventaprobe. Nucreaalțisubagenți. PăstreazăJSON șiMDconsistente. Includeverificarea exactăhashurilor. Returnează verdicturile și fișierele.\nROL: A-SOURCES\nLivrabile: RES-001\nAudit surse/originalitate al RES-001 (2documente). Citeșteleintegral; verificăwebsurseleprimareși atribuirile:6repereinițiale+Hamilton,EdithFinch,Maus. Banca trebuieoricemediumsucces, acțiune+modprezentare,18mecanismeconcrete,0promisiunibestseller, originalitatea nepresupusă. Verificădiferențacomerical/awards,link/datecredibile, mecanismeabstractenupreluăristil/scenerecognoscibile. ÎnscrieprobedewebînraportMD; JSONevidence trimitefilierelocaleșisecțiuni. Fărăscorajustatpentrua trece.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 9961588,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 146,
+  "message_count": 31,
+  "content_sha256": "d554bcff7e6a920c7b009d35c93bc033f918195b9fdb68db6932c132354bf408",
+  "files_copied": 18,
+  "references_not_copied": 0
+}

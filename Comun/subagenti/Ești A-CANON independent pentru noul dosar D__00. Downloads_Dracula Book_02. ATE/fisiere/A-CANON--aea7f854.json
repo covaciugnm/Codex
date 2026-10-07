@@ -1,0 +1,108 @@
+{
+  "agent_id": null,
+  "role": "A-CANON",
+  "set_version": "r02",
+  "calibration_type": "DESCHISA",
+  "scope": "Exclusiv calibrare pe exemplele sintetice S06. Nu constituie audit de producție, aprobare de livrabil sau scor literar.",
+  "identity_note": "ID-ul real al execuției nu este cunoscut; agent_id rămâne null pentru înscriere de către coordonator. Rolul A-CANON și identitatea acestei execuții se păstrează pentru mandatul următor pe copie fixă; nu se introduce un alias sau un ID inventat.",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "defect_location": "Criteriul cu scor exact 950 și verdictul PASS atribuit de autor.",
+      "reason": "950 este egal cu limita exclusivă și nu îndeplinește cerința >950. Valorile 980 ale celorlalte criterii nu înlătură eșecul acestui criteriu; verdictul PASS trebuie întors.",
+      "rule_reference": "01_SURSE/originale/S03.json: threshold_exclusive, require_all_criteria_above_threshold; 01_SURSE/originale/S04.md, secțiunea 3.",
+      "evidence": "01_SURSE/originale/S06.md:12 — ### C01 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "defect_location": "Semnătura de audit sub aliasul Y, asociată aceluiași ID X care a produs livrabilul.",
+      "reason": "Separarea se verifică prin identitatea execuției, nu prin numele afișat. Producătorul X rămâne autorul auditului și sub aliasul Y, deci nu există independența cerută.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunile 2 și 3.",
+      "evidence": "01_SURSE/originale/S06.md:16 — ### C02 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "defect_location": "Nepotrivirea dintre SHA-256 A citat de raport și SHA-256 B al fișierului curent.",
+      "reason": "Raportul se referă la altă versiune decât cea prezentată acum. Concluzia despre fișierul cu amprenta A nu poate fi transferată celui cu amprenta B; versiunea curentă trebuie fixată și auditată din nou.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunile 3 și 4.",
+      "evidence": "01_SURSE/originale/S06.md:20 — ### C03 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "defect_location": "Predarea cerută C01–C03: lipsește C02, deși sumarul declară completitudinea.",
+      "reason": "Cerința cuprinde trei componente, iar textul predat acoperă numai C01 și C03. Afirmația din sumar nu furnizează componenta absentă; C02 trebuie predat și integralitatea reverificată.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunile 5 și 11.",
+      "evidence": "01_SURSE/originale/S06.md:24 — ### C04 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "defect_location": "Scena textuală identică de 2.000 de cuvinte din cele două capitole și includerea ambelor apariții în numărătoare.",
+      "reason": "Aceeași scenă este contabilizată de două ori, deși repetarea ei nu produce încă 2.000 de cuvinte de proză distinctă admisibilă. Duplicarea trebuie remediată, iar conținutul și numărătoarea retestate.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunile 9 și 10.",
+      "evidence": "01_SURSE/originale/S06.md:28 — ### C05 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "defect_location": "Finalul V1, unde Mara moare definitiv, în raport cu apariția ei vie în V2.",
+      "reason": "V2 contrazice starea definitivă stabilită de intrarea de canon. Stimulul nu oferă explicație sau schimbare autorizată; nu pot inventa o înviere ori o altă rezolvare pentru a accepta contradicția.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunea 5 și secțiunea 11.",
+      "evidence": "01_SURSE/originale/S06.md:32 — ### C06 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "defect_location": "Paragraful P04 din masterul EN, fără corespondent în traducerea DE.",
+      "reason": "Lista de identificatori EN conține P04, iar cea DE se oprește la P03. Lipsa unui paragraf dovedește traducerea incompletă indiferent de lungimea totală; P04 trebuie tradus și acoperirea verificată din nou.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunea 12.",
+      "evidence": "01_SURSE/originale/S06.md:36 — ### C07 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "defect_location": "Niciun defect indicat în cazul sintetic; fiecare criteriu are 951, iar toate condițiile sunt date ca verificate.",
+      "reason": "951 satisface strict >950 pentru fiecare criteriu. Stimulul confirmă doi auditori independenți și calificați pe aceeași versiune fixată, zero constatări, meta valid și condiții tehnice îndeplinite; nu există temei pentru a solicita 1000 sau o condiție suplimentară.",
+      "rule_reference": "01_SURSE/originale/S03.json: threshold_exclusive, min_independent_auditors, require_all_criteria_above_threshold, require_meta_audit; 01_SURSE/originale/S04.md, secțiunile 3 și 11.",
+      "evidence": "01_SURSE/originale/S06.md:40 — ### C08 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "defect_location": "Delimitarea explicită a pasajelor citite în raportul de selecție preliminară; aceasta nu constituie singură un defect.",
+      "reason": "Livrabilul solicitat are scop preliminar, iar raportul își descrie corect acoperirea fără a pretinde verificarea întregului canon sau aprobarea romanului. Această limitare este compatibilă cu mandatul; verdictul nu acordă automat PASS întregului produs.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunea 4, paragraful despre anexele de pregătire G00, și secțiunea 5.",
+      "evidence": "01_SURSE/originale/S06.md:44 — ### C09 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "A-CANON-S01",
+      "verdict": "RETURN",
+      "defect_location": "Paragraful 3: Alexandre Boucher; paragraful 5: Alexandre Dubois pentru același mire; raportul omite al doilea nume.",
+      "reason": "Cele două nume atribuite aceleiași persoane creează un conflict de identitate relevant pentru canon. Citarea exclusivă a primului nume ascunde contradicția; trebuie consemnate ambele ocurențe și cerută clarificarea pe dovezi, fără a alege arbitrar un nume drept corect.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunile 5, 10 și 11.",
+      "evidence": "01_SURSE/originale/S06.md:70 — ### A-CANON-S01 (set TEST r02, stimul și răspuns așteptat)."
+    },
+    {
+      "id": "A-CANON-S02",
+      "verdict": "RETURN",
+      "defect_location": "Afirmația «roman publicat validat» susținută numai prin titlul din catalog și fișierul asociat care conține un plan.",
+      "reason": "Titlul din catalog arată existența unei listări, iar fișierul dovedește doar existența planului. Aceste probe nu demonstrează proză completă, validarea romanului sau publicarea lui; raportul atribuie produsului un stadiu pe care probele nu îl susțin.",
+      "rule_reference": "01_SURSE/originale/S04.md, secțiunile 1, 9, 13 și 15.",
+      "evidence": "01_SURSE/originale/S06.md:74 — ### A-CANON-S02 (set TEST r02, stimul și răspuns așteptat)."
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "qualification_note": "11/11 răspunsuri corespund cheii deschise r02 la verificarea locală. Verificarea nominală de către A-QAMANAGER și înscrierea ID-ului real de către coordonator rămân de efectuat; acest fișier nu certifică un audit productiv.",
+  "completed_at": "2026-09-28T02:39:07+00:00",
+  "source_sha256": {
+    "S06.md": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba",
+    "S03.json": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4",
+    "S04.md": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2"
+  }
+}

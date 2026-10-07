@@ -1,0 +1,405 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/Eva-Learn",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/Eva-Learn/documentatie",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/Eva-Learn/documentatie/EVA-traducere-RO-TOT-2026-10-05.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-05--d02b7015.xlsx",
+    "bytes": 13711356,
+    "sha256": "2a71f4da9c0e30d0428312e2897f882819936c8d2ac80152cc78754921b686a2"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/Eva-Learn/documentatie/EVA-traduceri-TOATE-LIMBILE-EN-RO-DE-FR-ES-2026-10-05.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traduceri-TOATE-LIMBILE-EN-RO-DE-FR-ES-2026-10-05--84f80aa0.xlsx",
+    "bytes": 25957461,
+    "sha256": "6091d17b2c6cdbbfa9a6159db7454a01c2fc3e4cef58295c136a58acc65577ac"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/patch1.py",
+    "status": "copiat",
+    "saved_path": "fisiere/patch1--f513e016.py",
+    "bytes": 10279,
+    "sha256": "8accb01ecbd26aab0f823b9155557f95ba48ae0a441f9cc6cbba73b6cd1d35a7"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/patch3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/patch3--3015b1bb.py",
+    "bytes": 3614,
+    "sha256": "a682583bbfaa1fb8e31b52cdcafd488ca89996c77dca727f86062b6b9f24dfb6"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/tg_template.jinja",
+    "status": "copiat",
+    "saved_path": "fisiere/tg_template--be321ba4.jinja",
+    "bytes": 17302,
+    "sha256": "5fe67942c81c51bafa6e78b623d128f9323c15dee9694135f9c4bc62d2353f45"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/bf3qwf2q8.output",
+    "status": "copiat",
+    "saved_path": "fisiere/bf3qwf2q8--6c9f9fed.output",
+    "bytes": 170,
+    "sha256": "b1c6c2ba7048ce2387a120e3f548a0119f50a95a3b98c09ba6af5e6b240001c3"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/bi6f0yjk5.output",
+    "status": "copiat",
+    "saved_path": "fisiere/bi6f0yjk5--b67bf401.output",
+    "bytes": 702,
+    "sha256": "f9d39830ab47cbf0e84657f33d3a92f8da9ef3296f40e861eb13a8143adbd1ec"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/blug12jmk.output",
+    "status": "copiat",
+    "saved_path": "fisiere/blug12jmk--24b10767.output",
+    "bytes": 259,
+    "sha256": "276bac1d67582114df33e92677050cda715835a12cb4531caa4c0d274c27aa3a"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/by632dei8.output",
+    "status": "copiat",
+    "saved_path": "fisiere/by632dei8--ca828fcb.output",
+    "bytes": 24,
+    "sha256": "e7b5ecba26ad16f5e5237a2b5d051f72dc4d5898d72051a2d6e117a25d00c471"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--90dd88c1.py",
+    "bytes": 14379,
+    "sha256": "feb17670e443e5db2723f217727dcc5d5e155c40e4e6935b16061c88542f24e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\decoder.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decoder--1f97611a.py",
+    "bytes": 12882,
+    "sha256": "9f4cc83197bf1b13fee3ce71a044a4b4987a7eeecd8768206abd31a78e0a3d16"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA-traducere-RO-TOT-2026-10-03.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-03--0d461874.xlsx",
+    "bytes": 13707123,
+    "sha256": "22d7b54bd36b38cc49357b696e0884585c0aa53353702288289873b990ddbe72"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA-traduceri-TOATE-LIMBILE-EN-RO-DE-FR-ES-2026-10-05.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traduceri-TOATE-LIMBILE-EN-RO-DE-FR-ES-2026-10-05--3192e71e.xlsx",
+    "bytes": 25957461,
+    "sha256": "6091d17b2c6cdbbfa9a6159db7454a01c2fc3e4cef58295c136a58acc65577ac"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_Learn_Import_35",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_Learn_Import_35/05_Romana_ro",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_Learn_Import_35/05_Romana_ro/DB",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_Learn_Import_35/_Integrare/FORMAT_IMPORT.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/FORMAT_IMPORT--65efa61d.txt",
+    "bytes": 1788,
+    "sha256": "61b71530b5e1c6ff758a9f6d61f259f176249cc7e040a504ac92085b4d57bac5"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/TTS-LIMBI-NOI-F5.md",
+    "status": "copiat",
+    "saved_path": "fisiere/TTS-LIMBI-NOI-F5--5e334820.md",
+    "bytes": 4428,
+    "sha256": "0b0ff34c51e8df18ed798b69fef948f385149c37df3d32ce534f3b60e39824f0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/log_etapa1.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/log_etapa1--f2034ff8.txt",
+    "bytes": 386,
+    "sha256": "557b8480e5cdb3811854fefdcbd8e16090b4b044339e7f12115f39b19bd10b73"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/log_etapa1_erori.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/log_etapa1_erori--9338662a.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/log_test2.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/log_test2--7f81cd11.txt",
+    "bytes": 370,
+    "sha256": "936ea8cfd040d799eb677326781ed9fb8814beed5d44b4f6979d3fc4eee2f2b9"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/log_test_de.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/log_test_de--342927d0.txt",
+    "bytes": 103,
+    "sha256": "d044f99b75a5239e14fab582f1a28623b2bfb5cd73bdab6f4058a2b55716fcbd"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/log_test_de.txt\\",
+    "status": "copiat",
+    "saved_path": "fisiere/log_test_de--342927d0.txt",
+    "bytes": 103,
+    "sha256": "d044f99b75a5239e14fab582f1a28623b2bfb5cd73bdab6f4058a2b55716fcbd"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/log_test_tg.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/log_test_tg--69572ea2.txt",
+    "bytes": 524,
+    "sha256": "5fc687cc4eef048c7654c5a62ac617f98ac240520fe65d50621c2d8400703eee"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/proba_rezultat.json",
+    "status": "copiat",
+    "saved_path": "fisiere/proba_rezultat--7fca7306.json",
+    "bytes": 32768,
+    "sha256": "c3afbfdb3029d6bb884f74d7f9b42f6ef7fed0cfca1e1bbe05e1434134852c5f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/server_ollama_paralel.sh",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Traducator/traducator.py",
+    "status": "copiat",
+    "saved_path": "fisiere/traducator--072da47d.py",
+    "bytes": 26925,
+    "sha256": "356ee2a85a99aec0dbec1fc683d60b2fe4e958dd3065579af4ad64282bf037d3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA-traducere-RO-TOT-2026-10-03-partea1.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-03-partea1--fdaffdfd.xlsx",
+    "bytes": 6257386,
+    "sha256": "e95b39971f4cc7d8fa49ee85cbd9e3c8d98647fdbf04ea8265b74e608ddf9dcb"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA-traducere-RO-TOT-2026-10-03-partea2.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-03-partea2--896888f4.xlsx",
+    "bytes": 7455760,
+    "sha256": "cc0bd38ffdbea4ad76af8ffcd5656538547f93cf6603dec5c197496093bd5704"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA-traducere-RO-TOT-2026-10-03.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-03--8c18dd17.csv",
+    "bytes": 46533065,
+    "sha256": "1192e9488edf097a76928948acf8206108983f217a041509f14eb2199fb742a4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA-traducere-RO-TOT-2026-10-03.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-03--0d461874.xlsx",
+    "bytes": 13707123,
+    "sha256": "22d7b54bd36b38cc49357b696e0884585c0aa53353702288289873b990ddbe72"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA-traducere-RO-TOT-2026-10-05.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-05--855c71e6.xlsx",
+    "bytes": 13711356,
+    "sha256": "2a71f4da9c0e30d0428312e2897f882819936c8d2ac80152cc78754921b686a2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA_Learn_Import_35",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\UNELTE-TRADUCERE-SPECIALIZATE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/UNELTE-TRADUCERE-SPECIALIZATE--afa09dc8.md",
+    "bytes": 2299,
+    "sha256": "7cb0d0d2470104099c6b51a128eb4c066935d4672670a059cda922cefb856335"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\glosar.py",
+    "status": "copiat",
+    "saved_path": "fisiere/glosar--f2537abc.py",
+    "bytes": 5838,
+    "sha256": "bdce1b8aaf37b2f30c12c26916ddaa292f6e2af0298d9f3f3e6c8c0c219346b6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\iesire\\test_translategemma_2026-10-06.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/test_translategemma_2026-10-06--112ec34c.xlsx",
+    "bytes": 17635,
+    "sha256": "dbdbc9c50e13cee1938e4d1f6a4943e36b5dbfbfa8708125a62ce640d1115bc1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\log_etapa1.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/log_etapa1--f2034ff8.txt",
+    "bytes": 386,
+    "sha256": "557b8480e5cdb3811854fefdcbd8e16090b4b044339e7f12115f39b19bd10b73"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\proba_qwen.py",
+    "status": "copiat",
+    "saved_path": "fisiere/proba_qwen--3330de19.py",
+    "bytes": 5512,
+    "sha256": "ce1ca08e646ae83d02fee674875ace33b4ba27f9eeeefa1cc782aa49ceb3fced"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\proba_rezultat.json",
+    "status": "copiat",
+    "saved_path": "fisiere/proba_rezultat--7fca7306.json",
+    "bytes": 32768,
+    "sha256": "c3afbfdb3029d6bb884f74d7f9b42f6ef7fed0cfca1e1bbe05e1434134852c5f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\test_translategemma.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_translategemma--336c2007.py",
+    "bytes": 4555,
+    "sha256": "2cab23d3bc65f12d87219dca35ad39a23465d6b0aaa55f4269f3f07d1712db4f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traducator\\traducator.py",
+    "status": "copiat",
+    "saved_path": "fisiere/traducator--072da47d.py",
+    "bytes": 26925,
+    "sha256": "356ee2a85a99aec0dbec1fc683d60b2fe4e958dd3065579af4ad64282bf037d3"
+  },
+  {
+    "source_reference": "\\\\u0400-\\\\u04FF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0600-\\\\u06FF\\\\u0750-\\\\u077F\\\\uFB50-\\\\uFDFF\\\\uFE70-\\\\uFEFF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0900-\\\\u097F",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0980-\\\\u09FF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0A80-\\\\u0AFF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0B00-\\\\u0B7F",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0B80-\\\\u0BFF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0C00-\\\\u0C7F",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0C80-\\\\u0CFF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0D00-\\\\u0D7F",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0D80-\\\\u0DFF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u0E00-\\\\u0E7F",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u1000-\\\\u109F",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u1200-\\\\u139F",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u1780-\\\\u17FF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u2D30-\\\\u2D7F",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\u3400-\\\\u9FFF\\\\uF900-\\\\uFAFF",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "eva-learn-traducator-qwen.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "github-repos-site-uri.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn/blob/main/documentatie/STADIU-TRADUCERI-OPRIT-2026-10-05-v001.txt",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn/tree/main/documentatie/arhiva/oprire-2026-10-05-v001",
+    "status": "referinta_externa_necopiata"
+  }
+]

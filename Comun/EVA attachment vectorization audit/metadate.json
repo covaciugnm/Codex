@@ -1,0 +1,23 @@
+{
+  "id": "01a0c5d3-2f56-7b63-80b3-41ef01efe942",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789989427,
+  "updated_at": 1790005951,
+  "archived": 0,
+  "source": "vscode",
+  "title": "EVA attachment vectorization audit",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 713376,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 231,
+  "message_count": 231,
+  "content_sha256": "356516c00ea0257c21743c399e965b4954c81f8d92191a4e67ae5217e2b674a8",
+  "files_copied": 2,
+  "references_not_copied": 37
+}

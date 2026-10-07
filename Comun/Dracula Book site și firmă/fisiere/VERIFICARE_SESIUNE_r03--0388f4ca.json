@@ -1,0 +1,13 @@
+{
+  "index_sha256": "e2886e382137cb91334d8411cef76ee5d2c942647c3dc407fbee3f48d338da5a",
+  "sidecar_matches": true,
+  "verified_entries": 779,
+  "planned_files": 775,
+  "archived_source_files": 775,
+  "missing_planned_files": [],
+  "scope": "All indexed bytes and lengths, safe resolved paths, and all planned files checked. The warm gate check follows; three physical restorations are separately documented in RECUPERARE_REAL_AFTER_r03.json.",
+  "archived_gate_passed": true,
+  "gate_result": "06_REGISTRU/REZULTATE/RES-001-r03-session-handoff-gate.json",
+  "physical_recovery_result": "06_REGISTRU/REZULTATE/RECUPERARE_REAL_AFTER_r03.json",
+  "post_capture_note": "This receipt and verification were produced after the envelope and remain alongside it, not retroactively inside it."
+}

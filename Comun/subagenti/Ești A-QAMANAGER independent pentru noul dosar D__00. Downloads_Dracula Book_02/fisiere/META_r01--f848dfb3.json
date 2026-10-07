@@ -1,0 +1,21 @@
+{
+  "agent_id": "01a0e5dd-dce7-76a2-843a-01bf3cbe9c0a",
+  "role": "A-QAMANAGER",
+  "manifest_sha256": "da1ff40adac149be3843a7879ad1ab2c94eda4c0498a38ecf74befca92b58ca1",
+  "verdict": "PASS",
+  "controls": {
+    "identity": true,
+    "calibration": true,
+    "coverage": true,
+    "evidence": true,
+    "arithmetic": true,
+    "version_scope": true
+  },
+  "findings": [],
+  "reports_hashes": {
+    "A-CANON_r01.md": "2198888cbc3f18da9dbc93298cab37113caf25a6e322848bfd116f8de99e8c28",
+    "A-CANON_r01.json": "f9e077928f7ab63b939d1bfc8bfacd362e129a583fbff9d16fc2c1722c3647dd",
+    "A-GOVERNANCE_r01.md": "5df7d98f73b2dd8a5fcffde714dc24824040fcfbce98b2424fefbaa749e257ab",
+    "A-GOVERNANCE_r01.json": "aa08455d07dc3d5c1582071521eaf8b8d3e39c1f3f413cc84cd5375607e04dca"
+  }
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "stafide-thompson-seedless",
+    "filename": "dracula-food-stafide-thompson-seedless.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-92938c32-b057-4cad-81e7-96d6d4f6ce0b.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "74c3f9ec7884fc5f5d7a8ae94a028ed4aad292ada294480348d9bdf2d4be187e",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-thompson-seedless.png"
+  },
+  {
+    "id": "stafide-sultaniye",
+    "filename": "dracula-food-stafide-sultaniye.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-9b31c99d-07c1-4a95-a003-74b688ee2e34.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "c41cad9dce59ce34900cfa1627597babc3f021223876729461437f3263940b5f",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-sultaniye.png"
+  },
+  {
+    "id": "stafide-golden",
+    "filename": "dracula-food-stafide-golden.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-bc51e06c-e752-4d5a-a945-26691f4ce238.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "72230ead45d66251f1aff302e533ae0976651f6a71a51c906bda62997fc471ac",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-golden.png"
+  },
+  {
+    "id": "stafide-verzi",
+    "filename": "dracula-food-stafide-verzi.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-c41e9a3d-321e-46a6-be28-229f350c1279.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "b22cdcf3fa741789e8922dcdc5836372df6208a6c149f60e38fdbf76c846f3f4",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-verzi.png"
+  },
+  {
+    "id": "stafide-corint",
+    "filename": "dracula-food-stafide-corint.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-4916001b-46d0-43bf-8a50-f4fd92841115.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "a56fbcac3d2da66362523a92c5877cd8f058e3e2c7a307b1ef1e441b67dd44be",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-corint.png"
+  },
+  {
+    "id": "stafide-muscat-alexandria",
+    "filename": "dracula-food-stafide-muscat-alexandria.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-cb73f430-57e8-4669-aebd-d87feb887d37.png",
+    "correction_prompt": "Edit this Muscat de Alexandria packaging photograph precisely. Keep the entire black Dracula Food box, DF silver/red logo, printed product name, lighting, perspective, castle, raisins and overall layout unchanged. Remove both honey jars and honey dippers, including the honey graphic printed on the front of the box, and replace those areas with a small bunch of ripe pale Muscat grapes and additional plain amber raisins. This is a plain raisin variety, not a honey-flavoured product. No honey, syrup, spices or other ingredients anywhere. Remove the small left-side TASTE NATURE'S LEGACY text to match the uncluttered other products. Photorealistic horizontal 3:2.",
+    "prompt_extra": null,
+    "sha256": "f9017bf85620239512b1512ab86caf7f2cbe02cd5099e1ec19add767e755054c",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-muscat-alexandria.png"
+  },
+  {
+    "id": "stafide-flame-seedless",
+    "filename": "dracula-food-stafide-flame-seedless.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-02a07c56-abb8-41bd-94b7-8070a56228de.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "b09e77969be73c05cf118d56ea81892afa8b4579d473c28005009f30fcf857ac",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-flame-seedless.png"
+  },
+  {
+    "id": "stafide-black-monukka",
+    "filename": "dracula-food-stafide-black-monukka.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-ca00e5d2-5a14-43b9-8dee-18e0da842f8e.png",
+    "correction_prompt": null,
+    "prompt_extra": "These are plain raisin varieties: show raisins and optional grapes only, NO other flavour ingredients, NO honey, flowers, nuts, chocolate, alcohol or spices. The color accent is lighting, not extra ingredients.",
+    "sha256": "df080acb913de342e3ed5e27ce51610eb2bf0f69e09d22319e99ee9a9c79068f",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-black-monukka.png"
+  },
+  {
+    "id": "stafide-rose-red",
+    "filename": "dracula-food-stafide-rose-red.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-4a2a0c12-7873-45da-85e2-035c7446c32a.png",
+    "correction_prompt": null,
+    "prompt_extra": "These are plain raisin varieties: show raisins and optional grapes only, NO other flavour ingredients, NO honey, flowers, nuts, chocolate, alcohol or spices. The color accent is lighting, not extra ingredients.",
+    "sha256": "23e05f4913c81326522edca9603553a2fce0834823fd16b9695e1b399e33987e",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-rose-red.png"
+  },
+  {
+    "id": "stafide-manukka",
+    "filename": "dracula-food-stafide-manukka.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-f98c5a2b-a634-48ab-bc35-5540f4ee3eb4.png",
+    "correction_prompt": null,
+    "prompt_extra": "These are plain raisin varieties: show raisins and optional grapes only, NO other flavour ingredients, NO honey, flowers, nuts, chocolate, alcohol or spices. The color accent is lighting, not extra ingredients.",
+    "sha256": "4eafd5bc6e12b7ec273da05896f3e5898505e164f3e98f7f8da04a26a662db01",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-manukka.png"
+  },
+  {
+    "id": "stafide-rom",
+    "filename": "dracula-food-stafide-rom.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-00252ec2-7f6d-4c98-b5a2-206648bf7500.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "1cbefff1a2c1d6d1ec93950253ae30dbef79824ff95908706582237c0ff1c617",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-rom.png"
+  },
+  {
+    "id": "stafide-suc-fructe",
+    "filename": "dracula-food-stafide-suc-fructe.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-71cf1149-8cc3-4370-b788-baa64cee8c16.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "b09310aec61bd291c24ab78ef81d0805cceae31068721cd54f2ad6d38b28e1c5",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-suc-fructe.png"
+  },
+  {
+    "id": "stafide-paan",
+    "filename": "dracula-food-stafide-paan.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-e7910c63-b521-4990-9bc3-ec2272ca879a.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "07dc9853165902e9c44c2ce667ce6a62e2939474b3bc2977c7ef3eb3da837a4e",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-paan.png"
+  },
+  {
+    "id": "stafide-anardana",
+    "filename": "dracula-food-stafide-anardana.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-b19bd77f-a62c-4268-a8ed-a0251ebb70e0.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "6fbd6906bde946d4910c6dfcd98f06cb2aca44234a7d2f2b5ec2597c612a0240",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-anardana.png"
+  },
+  {
+    "id": "stafide-ciocolata-scortisoara",
+    "filename": "dracula-food-stafide-ciocolata-scortisoara.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-a891f91c-6023-4b06-923f-4f7d0a39a953.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "70a773e4bb62b9efaf5d85ebda803aa0d33f83296c99a452391be2cbd6b268e6",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-ciocolata-scortisoara.png"
+  },
+  {
+    "id": "stafide-vin",
+    "filename": "dracula-food-stafide-vin.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-88cf70bb-e3d8-4875-aec9-ab36e67dc940.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "6f566cae4c69020f7b57283616e5125a0e15fb301d8358d0ba27fc2f3be91bd2",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-vin.png"
+  },
+  {
+    "id": "stafide-glazurate",
+    "filename": "dracula-food-stafide-glazurate.png",
+    "source": "C:\\Users\\User\\.codex\\generated_images\\01a0d8e1-9587-7123-885c-41e11638574e\\exec-6f301170-d727-4d46-af18-e4f5bb0d2947.png",
+    "correction_prompt": null,
+    "prompt_extra": null,
+    "sha256": "1ca2eaeea2c470aedee6058a5ede725df6ddc7ccab3ebc832635e895a104ad09",
+    "tool": "built-in image_gen",
+    "asset": "/assets/produse/dracula-food-stafide-glazurate.png"
+  }
+]

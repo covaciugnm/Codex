@@ -1,0 +1,23 @@
+{
+  "id": "01a0f664-e16f-76c3-8f07-86a588dd0eef",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn",
+  "created_at": 1790840201,
+  "updated_at": 1790934544,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește dicționare multilingve",
+  "project_id": "bad0be1d-5fae-412b-aa11-fef421eb951f",
+  "project": "EVA-Learn",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 8822170,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 314,
+  "message_count": 53,
+  "content_sha256": "7df4b7cdad613fef3b2fc6cdaba863a09bb39333fdea72d5f66a59063dac94eb",
+  "files_copied": 10,
+  "references_not_copied": 81
+}

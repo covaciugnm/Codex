@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9e3c-7c30-a7f7-993b79b63a32",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1785926116,
+  "updated_at": 1786460652,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Generare documentație complexă materiale și tehnologie aplicare Viena",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1448261,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 696,
+  "message_count": 696,
+  "content_sha256": "08578b90c4cf1c48980517508483bc19947aae4b1cb0ede07ab4e6bd84133da7",
+  "files_copied": 22,
+  "references_not_copied": 143
+}

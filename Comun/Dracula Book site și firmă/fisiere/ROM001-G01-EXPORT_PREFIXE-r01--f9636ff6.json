@@ -1,0 +1,97 @@
+{
+    "verified_at":  "2026-09-24T08:15:40.5256817+03:00",
+    "method":  "Read-only FileStream with sharing; exact original prefixes only, no raw logs copied or displayed",
+    "sources":  [
+                    {
+                        "role":  "P-MANAGER",
+                        "agent_id":  "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+                        "prefix_bytes":  29128768,
+                        "observed_sha256":  "3af0f18a00acded9e55d7a2e95e7cfec9f193d1eb540ab2e2d57b4fa7ce0c54a",
+                        "declared_sha256":  "3af0f18a00acded9e55d7a2e95e7cfec9f193d1eb540ab2e2d57b4fa7ce0c54a",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "P-CANON",
+                        "agent_id":  "01a0d0d7-e865-7b71-9707-be8786099512",
+                        "prefix_bytes":  8819556,
+                        "observed_sha256":  "5867a306629646e1a8aca25d26768b86baf748b85bc3ee40750362043d210493",
+                        "declared_sha256":  "5867a306629646e1a8aca25d26768b86baf748b85bc3ee40750362043d210493",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "A-GOVERNANCE",
+                        "agent_id":  "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+                        "prefix_bytes":  11119992,
+                        "observed_sha256":  "39de1bae0e64a71286eef2785bf7a1cda53fbb67ad6ddad73c141db379c37894",
+                        "declared_sha256":  "39de1bae0e64a71286eef2785bf7a1cda53fbb67ad6ddad73c141db379c37894",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "A-CANON",
+                        "agent_id":  "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+                        "prefix_bytes":  9649609,
+                        "observed_sha256":  "ec2bc38cb202fb0571a2c00ef346ddbe2a6111c6f6d41e4598e98892e9e95560",
+                        "declared_sha256":  "ec2bc38cb202fb0571a2c00ef346ddbe2a6111c6f6d41e4598e98892e9e95560",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "A-QAMANAGER",
+                        "agent_id":  "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+                        "prefix_bytes":  15228200,
+                        "observed_sha256":  "c7323c08227370a3947faec9e8892dafe031c44a6c90769fac7fdd3adfd7db06",
+                        "declared_sha256":  "c7323c08227370a3947faec9e8892dafe031c44a6c90769fac7fdd3adfd7db06",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "P-EDITOR",
+                        "agent_id":  "01a0d1c4-17bb-7e03-93a3-e542824bc776",
+                        "prefix_bytes":  1818951,
+                        "observed_sha256":  "77a55e240d5a16b05e85f2366649e4cbc141ea1cb0278aba1a9949bd64259be1",
+                        "declared_sha256":  "77a55e240d5a16b05e85f2366649e4cbc141ea1cb0278aba1a9949bd64259be1",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "A-GENRE",
+                        "agent_id":  "01a0d1d0-67b7-7ea2-9e31-562bc344aaa7",
+                        "prefix_bytes":  427611,
+                        "observed_sha256":  "87e75af5e038ab56dd951fcfcebfeefb955ddcfb2663a36f87384acfbbe29aee",
+                        "declared_sha256":  "87e75af5e038ab56dd951fcfcebfeefb955ddcfb2663a36f87384acfbbe29aee",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "A-ORIGINALITY",
+                        "agent_id":  "01a0d1d0-690e-7871-b245-6817b004172f",
+                        "prefix_bytes":  402214,
+                        "observed_sha256":  "13a51dfeb5d3d815761aa68290b3d8346ec7a193924dd9684a256e5298ec97c8",
+                        "declared_sha256":  "13a51dfeb5d3d815761aa68290b3d8346ec7a193924dd9684a256e5298ec97c8",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "A-STRUCTURE",
+                        "agent_id":  "01a0d1d0-6cb7-7681-8010-b13b8b640dad",
+                        "prefix_bytes":  380336,
+                        "observed_sha256":  "a7cfa6b46c691256e2d218a17bdd5de80cb82a3eb050058a033fde5ded5a3ca9",
+                        "declared_sha256":  "a7cfa6b46c691256e2d218a17bdd5de80cb82a3eb050058a033fde5ded5a3ca9",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    },
+                    {
+                        "role":  "A-EN",
+                        "agent_id":  "01a0d1d0-6f17-7c52-a5f8-a3c3178c2cb8",
+                        "prefix_bytes":  404351,
+                        "observed_sha256":  "ccd92d4c6e40349e2354a268fdb357e965df0d08cd46b3fbbf4e9fc3c7c0c4dd",
+                        "declared_sha256":  "ccd92d4c6e40349e2354a268fdb357e965df0d08cd46b3fbbf4e9fc3c7c0c4dd",
+                        "match":  true,
+                        "complete_line_boundary":  true
+                    }
+                ],
+    "all_match":  true
+}

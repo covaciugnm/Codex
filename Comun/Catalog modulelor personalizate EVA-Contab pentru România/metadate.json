@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9da1-7f10-abac-1126c51123f5",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1785418065,
+  "updated_at": 1785773294,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Catalog modulelor personalizate EVA-Contab pentru România",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 986868,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 373,
+  "message_count": 373,
+  "content_sha256": "2940cd953172515c059be1ed3dc6919da78a810034730bfd48bc44072d2de912",
+  "files_copied": 17,
+  "references_not_copied": 54
+}

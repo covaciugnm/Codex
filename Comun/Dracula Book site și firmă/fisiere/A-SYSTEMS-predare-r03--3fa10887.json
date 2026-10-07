@@ -1,0 +1,5 @@
+{
+  "previous_status": {
+    "completed": "SYS-001/r03: **PASS A-SYSTEMS**, zero constatări deschise. F05/F06 închise prin retest; istoricul r01/r02 rămâne nemodificat.\n\nScoruri /1000: mandat **972**, independență **974**, control **973**, arhivare **968**, utilizare **969**.\n\n298 teste trecute. Verificarea finală confirmă 279 hashuri contractuale, 35 ancore și concordanța MD/JSON. Verdictul nu înlocuiește al doilea audit și metaauditul.\n\nFișiere finale:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r03.md>)\n- [Raport JSON](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r03.json>)\n- [Jurnal de teste](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r03-tests.txt>)\n\nScrierile sunt oprite."
+  }
+}

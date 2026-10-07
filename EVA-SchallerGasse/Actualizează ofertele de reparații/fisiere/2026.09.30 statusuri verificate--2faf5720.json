@@ -1,0 +1,363 @@
+{
+  "BAU-WERTE": {
+    "status": "2026.09.25: întâlnire confirmată și recomandare SCHAUERLEUTE. 2026.09.30: contract propus de 8.250 EUR net, 12+3 luni, auditat; email pregătit, netrimis. Oferta inițială a expirat la 2026.09.10; condițiile noi nu sunt acceptate.",
+    "urmatorul_pas": "Transmiterea propunerii și obținerea acceptării exprese; completarea numirii, calificărilor, asigurării și datei reale de început.",
+    "surse": [
+      "f3943f2d-516e-4330-8b53-3fd9421d07e1",
+      "Dosar contract 2026.09.30"
+    ]
+  },
+  "Wiener Wasser - MA31": {
+    "status": "2026.09.30: factura 310910909051 din 2026.09.07, 15,18 EUR, scadenta 2026.10.15, cont NOU 123482077 / WA120031905/06. Ordin anuntat in capturile 2026.09.30, debit neconfirmat. Somatia veche 7,59 EUR este pe cont 123003016 / contract /05; avizul vechi 15,18 si somatia nu se cumuleaza.",
+    "urmatorul_pas": "Confirmarea debitului de 15,18 EUR si transferului/inchiderii contului vechi. Urmarirea schimbarii titularului si soldurilor fara dublare.",
+    "surse": [
+      "ea4ca325-f80e-4451-a193-e064f7206c0f",
+      "f90dbd00-cca6-4bcd-b6ec-a9caeee78a4d",
+      "1c6fe6ec-d827-48b0-97b4-2a735c430559",
+      "10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/2026.09.30 Registru verificat.json"
+    ]
+  },
+  "MA48 - Salubritate": {
+    "status": "2026.07.14: MA48 respinge dezabonarea numai pentru neocupare temporară. Răspunsul descrie minimul de recipient și ridicări și posibilitatea unei excepții când imobilul este nelocuibil din cauza lucrărilor. Nu este identificată o aprobare de exceptare.",
+    "urmatorul_pas": "Clarificarea unei cereri documentate de exceptare dacă lucrările fac efectiv clădirea nelocuibilă; verificarea taxelor și recipientelor existente.",
+    "surse": [
+      "642c975a-47de-49d2-ad8d-a4a49bbbfae0"
+    ]
+  },
+  "Attensam": {
+    "status": "2026.09.30: factura 34642 deszapezire, 653,12 EUR, stinsa prin plata firmei 640,06 EUR din 2026.09.28 si Skonto 13,06 EUR. Factura 34648 deratizare, 156,53 EUR, debit personal din 2026.09.09; furnizorul ceruse dovada la 2026.09.16. Versiunile vechi 6253/25777 nu se aduna. Identificata si factura 14983/1001371 din 2026.07.20, 156,53 EUR, perioada ambigua Juli–Juni 2026.",
+    "urmatorul_pas": "Confirmarea alocarii 34648 si inchiderii versiunilor vechi; clarificarea perioadei/stornarii 14983. Nu se repeta platile deja debitate.",
+    "surse": [
+      "5f81c9d0-86f0-442d-852e-32175e9cdf50",
+      "68e6121b-8a6d-4a78-a703-95d3012f64ab",
+      "c28b269c-0d08-47be-96cc-d4a5c1e0ad96",
+      "390ca184-c598-408e-b40f-45a9b928c7fb",
+      "a1e505fd-1be0-439b-9c4c-081764a0107a",
+      "10. Banci + Extrase de cont/Facturi achitate/03 - 2026-09-28 ATTENSAM Rechnung 34642 - BEZAHLT 640,06 EUR (mit Skonto) - A&C AT22 - Buchung 1471264511.pdf",
+      "Confirmare utilizator in conversatie 2026.09.30 - deszapezire achitata",
+      "10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/2026.09.30 Registru verificat.json"
+    ]
+  },
+  "Wien Energie": {
+    "status": "2026.08.14: cere împuternicire și formularul nou de schimbare titular. Ticket CAS-456643-Y7C2V7 închis automat la 2026.09.04 pentru lipsă de răspuns. Mesajul de bun venit din 2026.09.14 indică o relație comercială, dar nu confirmă singur rezolvarea fiecărui contor sau a soldului. Reconciliere 2026.09.30: factura 5147075005, 109,02 EUR, fara debit identificat; perioada vechiului proprietar si repartizarea sunt de clarificat.",
+    "urmatorul_pas": "Verificarea confirmării concrete de contract/titular pentru gaz 35/16, contor 8136462, accesului la portal și eventualelor sume rămase; corelare cu corespondența Hofhans și CERHA HEMPEL.",
+    "surse": [
+      "b66c64b2-5ea0-46c3-97bb-60e79d365a9d",
+      "f5aa9eb9-d52c-4644-b529-d0097b0987a3",
+      "dc0b9f72-2d65-42d4-9d2a-310cb7b0b592",
+      "10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/2026.09.30 Registru verificat.json"
+    ]
+  },
+  "Sturm Energie": {
+    "status": "2026.09.30: gaz Top15, factura 29700, 115,36 EUR, achitat personal 2026.08.06. Alte opt facturi gaz insumeaza 883,98 EUR, fara debit identificat; perioada originala 2025.06.11–2026.04.08, vechiul UID. Noua facturi de curent din 2026.07.15, transmise de Capra la 2026.07.21: suma unica 1.817,73 EUR fara debit, perioade din 2023–2026. 41415 include 40809; 41422 aplica deja credit 122,41 EUR. Credit curent 29707 de 846,92 EUR, rambursare anuntata spre vechiul cont AT21...0800; nu apare incasare in AT22/AT13.",
+    "urmatorul_pas": "Confirmarea repartizarii intre proprietari, corectarea datelor si identificarea beneficiarului creditului. Fara compensare automata gaz–curent.",
+    "surse": [
+      "f7bf25c4-2751-4693-ac76-b2d2f90e3a5c",
+      "4fa309a0-d98c-40f2-b45c-91599714bb49",
+      "10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/2026.09.30 Registru verificat.json"
+    ]
+  },
+  "Peter Honig": {
+    "status": "2026.09.28: notificare de deficiențe 246/2026 privind podul. Beneficiarul declară curățarea comandată pentru 2026.10.19 și cere amânarea sesizării autorității. Acceptarea amânării și executarea nu sunt confirmate.",
+    "urmatorul_pas": "Confirmarea cu prestatorul a lucrării din 2026.10.19, obținerea răspunsului Hönig și trimiterea dovezii/fotografiilor după remediere.",
+    "surse": [
+      "63c4e9ac-d2af-4035-8365-2b85469fc4e5",
+      "734ccd83-aa32-4a56-ba96-b35e12bc843e"
+    ]
+  },
+  "WOHR": {
+    "status": "2026.09.24: mentenanța parkliftului mutată provizoriu în octombrie, în așteptarea propunerii beneficiarului. Prima mentenanță: 285 EUR net conform mesajului din 2026.09.15; preț acceptat de beneficiar.",
+    "urmatorul_pas": "Propunerea și confirmarea datei din octombrie; eliberarea platformelor și obținerea procesului-verbal, apoi eventuală ofertă de reparații.",
+    "surse": [
+      "a11ee1be-249a-4643-9e54-721c2a8beec5",
+      "4d7d1d6d-c6b5-4de0-9c0f-54789f246d29",
+      "ee722e0a-42d1-49fb-9870-13abd74d7d77"
+    ]
+  },
+  "Adolf Tobias": {
+    "status": "2026.09.14: confirmă intervenția la poarta garajului pentru 2026.09.25, aproximativ 07:00, și cere adresa exactă de facturare. Confirmarea programării nu dovedește executarea.",
+    "urmatorul_pas": "Verificarea efectuării intervenției, a procesului-verbal și facturii; confirmarea datelor de facturare.",
+    "surse": [
+      "27ef7562-3de7-40e1-8872-07ccd8228287",
+      "fc070e0a-c3f9-415b-b75f-9d23bb6543b8"
+    ]
+  },
+  "STOLEX": {
+    "status": "2026.09.29: refuză participarea din lipsă de capacitate.",
+    "urmatorul_pas": "Închidere ca refuz în runda curentă.",
+    "surse": [
+      "5e09faad-addf-4831-9376-1a167f0c63e6"
+    ]
+  },
+  "Themis": {
+    "status": "2026.09.29: oferta BB-2609-1-1: Bauwerksbuch 2.900 EUR net + documentare fisuri inainte/dupa lucrari 1.500 EUR net = 4.400 EUR net / 5.280 EUR brut. Valabilitate 3 luni, plata 14 zile; estimare 3–5 saptamani fara consultarea arhivei autoritatii. Clientul furnizeaza arhiva completa; dosar PDF/XLSX, fotografii si inregistrare. Actualizari in regie, verificari anuale ofertate separat.",
+    "urmatorul_pas": "Compararea ofertei anexate cu TOMS și clarificarea arhivei complete, documentării fisurilor și costurilor recurente.",
+    "surse": [
+      "515938cd-f8e3-4ecf-b07a-4852146f94e3"
+    ]
+  },
+  "Otis": {
+    "status": "2026.09.25: confirmă că taxele de conectare sunt anuale și reduce tarifele nete: mentenanță completă 2.286/2.934 EUR în/după garanție; bază 1.458 EUR; control 186 EUR; apel urgență 1.220 EUR; mobil 512 EUR. Un contract/o factură, poziții distincte.",
+    "urmatorul_pas": "Compararea costului anual total pentru varianta aleasă și confirmarea compatibilității tehnice. Oferta instalației: 38.680 EUR net; fără acceptare identificată.",
+    "surse": [
+      "1bcc4adb-e49a-4ce2-9177-0328511c45e9",
+      "e4945333-a604-4106-9fce-4b18bf0434bd"
+    ]
+  },
+  "Schmitt + Sohn": {
+    "status": "2026.09.29: cere planurile actuale de autorizare și execuție pentru oferta de lift.",
+    "urmatorul_pas": "Pregătirea setului actual de planuri și transmiterea la cerere; ofertă încă neidentificată.",
+    "surse": [
+      "d27d0cf4-76b7-460a-b5ef-d65a96d9be86"
+    ]
+  },
+  "Novotny": {
+    "status": "2026.09.24: solicită vizită înainte de prețuri și documentație pe cantități/lucrări. Precizează că refuză dacă licitația este exclusiv funcțională; cere noi date de vizită.",
+    "urmatorul_pas": "Confirmarea tipului de caiet de sarcini și stabilirea vizitei; nu există preț ofertat în răspuns.",
+    "surse": [
+      "46781b9d-1f0a-4199-bee6-c747219bc240"
+    ]
+  },
+  "LEBE Bau": {
+    "status": "2026.09.24: transmite prețuri orientative pentru 10 poziții; nu reprezintă ofertă globală. Întâlnire programată pentru 2026.09.25, 10:00; rezultatul nu este încă probat în mesajele analizate.",
+    "urmatorul_pas": "Consemnarea rezultatului vizitei și cererea unei oferte complete pe planuri și cantități.",
+    "surse": [
+      "bbd55e61-2f56-4fa5-bc30-332ca003afcb",
+      "37506720-c1d3-4ec9-ae60-b6041d93c71d"
+    ]
+  },
+  "SCHAUERLEUTE": {
+    "status": "2026.09.29: cerere GU trimisă în urma recomandării BAU-WERTE. Niciun răspuns identificat până la ultimul export disponibil.",
+    "urmatorul_pas": "Urmărirea răspunsului, interesului și propunerii de vizită.",
+    "surse": [
+      "e4992e22-17d9-4687-9e7c-539f499b954a"
+    ]
+  },
+  "TOMS": {
+    "status": "2026.09.23: confirma expres prin email valabilitatea ANG 839, 840 si 855 pana la 2026.12.31; refuza reducerea BauKG solicitata. 2026.09.28: chestionar suplimentar semnat primit. Statica + Prüfingenieur 34.500 EUR net; Bauwerksbuch ANG 891 separat 3.400 EUR net. Contractul local v3 datat 2026.10.01 este propunere de 37.900 EUR net, nesemnata; ciornele EVA nu sunt mesaje trimise.",
+    "urmatorul_pas": "Continuarea negocierii pe baza dosarului local Contract v3 si a jurnalului TOMS; consolidarea limitelor, suplimentelor, livrabilelor si termenelor. Confirmarea valabilitatii din emailul ofertantului prevaleaza ca informatie ulterioara fata de datele mai vechi din chestionar.",
+    "surse": [
+      "424871d3-119b-4550-81cb-db46f02a3cd5",
+      "829cdad8-bf82-494e-91fc-93680a431858",
+      "Dosar TOMS 2026-10-01 Contract v3 - propunere / 05 Jurnal TOMS - situatie si actiuni.txt"
+    ]
+  },
+  "CERHA HEMPEL": {
+    "status": "2026.09.30: HN 25/31404, 6.147,70 EUR, achitata 2026.02.16; HN 26/30186, 24.116 EUR, achitata 2026.03.31 (numar cu un 1 suplimentar in extras). HN 26/30363, 2.640,22 EUR, fara debit identificat; scadenta 2026.05.05, 14 zile acordate de Capra. Taxa registru 493 EUR este deja inclusa in prima factura. Capra descrie somatia Stadt Wien drept 8 EUR; PDF-ul arata 7,59 EUR, fara a doua taxa identificata.",
+    "urmatorul_pas": "Confirmarea soldului 26/30363 dupa 2026.09.28; obtinerea decontului final Treuhand pentru 75.900 EUR taxe si 1.650.000 EUR pret. Predarea dosarului fostei administratii ramane de urmarit.",
+    "surse": [
+      "b8bab41b-0cd5-40a8-8467-ca9c98c344d4",
+      "6b370ac8-7c5d-4c28-84bd-2ea6c7cb53e9",
+      "10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/2026.09.30 Registru verificat.json"
+    ]
+  },
+  "OBENAUF": {
+    "status": "2026.09.22: confirma vizita pentru 2026.09.25, 13:00. Nu este identificat un rezultat documentat al vizitei sau o oferta financiara noua. Exista lista de preturi orientative din 2026.09.16; adaosul de 20% este indicat pentru subcontractari. Aceasta nu reprezinta oferta globala ferma.",
+    "urmatorul_pas": "Consemnarea rezultatului vizitei si solicitarea ofertei pe documentatia actuala.",
+    "surse": [
+      "e7175b7c-ac69-4583-90a0-74b8ddf3351a"
+    ]
+  },
+  "Weigl": {
+    "status": "2026.09.23: isi exprima interesul pentru liftul de scara si cere planurile pentru ofertare. 2026.09.23: beneficiarul a trimis planul parterului P2041 si un detaliu marit, cu cerinte tehnice; solicita oferta pana la 2026.10.20.",
+    "urmatorul_pas": "Urmarirea ofertei pana la termenul cerut 2026.10.20; confirmarea primirii planurilor si completarea sectiunilor/cotelor daca sunt cerute.",
+    "surse": [
+      "13122eea-915e-4bdb-970b-d9ae341f3ee3",
+      "4ec85789-b4b3-4339-9be3-5a4ffeed0670"
+    ]
+  },
+  "KONE": {
+    "status": "2026.09.22: confirmare automata de primire, dosar Kc-47284285; nu reprezinta oferta.",
+    "urmatorul_pas": "Urmarirea raspunsului tehnic si comercial.",
+    "surse": [
+      "ed54c454-51c3-498f-93ce-3bfc3d907cd1"
+    ]
+  },
+  "TK Elevator": {
+    "status": "2026.09.22: raspuns automat la cererea pentru lift; nu este identificata o oferta.",
+    "urmatorul_pas": "Urmarirea unui raspuns comercial concret.",
+    "surse": [
+      "dc471b47-1f9b-4bd7-ae4f-44c5b6225bde"
+    ]
+  },
+  "Heissenberger": {
+    "status": "2026.09.22: refuz de ofertare; lipsa de capacitate.",
+    "urmatorul_pas": "Inchidere ca refuz pentru runda curenta.",
+    "surse": [
+      "4b5fdbb7-cebe-4e16-be2d-8da165926303"
+    ]
+  },
+  "HAZET": {
+    "status": "2026.09.16: refuz de ofertare; lipsa de capacitate.",
+    "urmatorul_pas": "Inchidere ca refuz pentru runda curenta.",
+    "surse": [
+      "81e66e27-460a-4264-a92c-f234b4db3171"
+    ]
+  },
+  "KALCON": {
+    "status": "2026.09.16: refuz de ofertare; nu executa servicii GU de acest volum pe baza unei descrieri functionale.",
+    "urmatorul_pas": "Inchidere ca refuz pentru runda curenta.",
+    "surse": [
+      "a371215c-6a0b-49a3-a12a-e75626b077ce"
+    ]
+  },
+  "Sanibau": {
+    "status": "2026.09.16: refuz de ofertare; lipsa de capacitate.",
+    "urmatorul_pas": "Inchidere ca refuz pentru runda curenta.",
+    "surse": [
+      "67cde463-7fb4-454c-9b7b-20429031627f"
+    ]
+  },
+  "Neid": {
+    "status": "2026.08.26: refuz de ofertare; lipsa de capacitate.",
+    "urmatorul_pas": "Inchidere ca refuz pentru runda curenta.",
+    "surse": [
+      "161f9dfc-2094-4747-8725-f38d6ceef693"
+    ]
+  },
+  "Avunduk": {
+    "status": "2026.09.10: refuz de ofertare; lipsa de capacitate.",
+    "urmatorul_pas": "Inchidere ca refuz pentru runda curenta.",
+    "surse": [
+      "1fe377a0-1757-454c-8144-b5a189daa95f"
+    ]
+  },
+  "Frigo": {
+    "status": "2026.09.10: transmite oferta actualizata pentru administrarea imobilului si material informativ. Nu este identificata acceptarea.",
+    "urmatorul_pas": "Pastrarea ofertei pentru comparatie si verificarea domeniului de administrare inaintea unei decizii.",
+    "surse": [
+      "f5bac94e-2898-45e0-9921-c5a3343dae64"
+    ]
+  },
+  "MA6 - Taxe": {
+    "status": "2026.09.30: obligatia Q2 93,23 EUR este achitata personal la 2026.07.27, referinta 889970805056; cele doua randuri vechi descriu aceeasi obligatie. Aviz Q3 recuperat, 480960377428 din 2026.07.10: 186,46 EUR cumulativ, din care 93,23 pentru Q2 deja achitat; componenta Q3 93,23 EUR fara debit identificat. Cererea privind salubritatea se urmareste separat cu MA48. 2026.09.30: ciorna germana pregatita in Eva-Mail pentru corectarea avizului Q3, tinand cont de plata Q2; NETRIMISA. ID 58677bca-4b7f-426c-9abd-720bda87fd81.",
+    "urmatorul_pas": "Trimiterea ciornei din Eva-Mail, apoi obtinerea confirmarii alocarii Q2 si a avizului/soldului Q3 actualizat. Rest calculat 93,23 EUR, de confirmat de MA6.",
+    "surse": [
+      "5e1e7264-3dc9-4c21-ba6b-40b3ab546394",
+      "10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/2026.09.30 Registru verificat.json",
+      "08. Corespondenta/2026.09.30 MA6 - Corectare aviz Q3/2026.09.30 DRAFT NETRIMIS - MA6.txt"
+    ]
+  },
+  "Raiffeisen": {
+    "status": "2026.09.23: confirma locul intalnirii din 2026.09.25 si disponibilitatea pana putin dupa ora 09:00. Nu este confirmare de finantare.",
+    "urmatorul_pas": "Consemnarea rezultatului discutiei si documentelor cerute de banca.",
+    "surse": [
+      "45cdcebc-838f-4023-92bf-e3201eb3ed1c"
+    ]
+  },
+  "Markus Berger": {
+    "status": "2026.08.17: transmite oferta pentru serviciile cerute si se declara disponibil sa o reformuleze pe pozitiile beneficiarului.",
+    "urmatorul_pas": "Compararea domeniului si excluderilor cu oferta TOMS; nicio acceptare dedusa din simpla transmitere.",
+    "surse": [
+      "ce6905cb-0c93-4e6b-8cde-7e300dfc874c"
+    ]
+  },
+  "Pech": {
+    "status": "2026.09.17: transmite oferta 2026-470/AN01 pentru calcule statice. 2026.09.29: cerere separata Bauwerksbuch trimisa, cu raspuns solicitat pana la 2026.10.12; raspuns nou neidentificat.",
+    "urmatorul_pas": "Consultarea ofertei originale si compararea serviciilor, termenelor si suplimentelor. Urmarirea cererii Bauwerksbuch la 2026.10.12.",
+    "surse": [
+      "63cd2bcb-2160-4027-b6c8-25bb42d9ae50",
+      "7dd1b621-7f4c-4438-997c-787b92f3f002"
+    ]
+  },
+  "Paknehad": {
+    "status": "2026.08.29: transmite indicatia de pret PPK218-26 pentru coordonarea santierului. 2026.09.29: cerere separata Bauwerksbuch trimisa, cu raspuns solicitat pana la 2026.10.12; raspuns nou neidentificat.",
+    "urmatorul_pas": "Compararea domeniului si vizitelor incluse cu propunerea BAU-WERTE. Urmarirea cererii Bauwerksbuch la 2026.10.12.",
+    "surse": [
+      "6704fb8b-9c95-4bbc-a844-e2714c9c3dc3",
+      "5e0b3425-12fe-4135-b022-cae619c3bca5"
+    ]
+  },
+  "Donau Versicherung": {
+    "status": "2026.10.01: cerere de incetare a politei 2044001194 pregatita in Eva-Mail, DRAFT NETRIMIS. Solicita incetare imediata prin acord; independent, notificare de incetare la prima data legal/contractual permisa. Catre DONAU si Loschy; CC Capra, Maritczak si Commerz/Gruber. Confirmare ceruta pana la 2026.10.07; incetarea nu este confirmata.",
+    "urmatorul_pas": "Trimiterea ciornei din Eva-Mail; apoi verificarea dovezii de trimitere si a confirmarii DONAU privind data incetarii, acoperirea si decontul final. Termenul Commerz 2026.10.12 ramane distinct; cererea nu il suspenda. Suma solicitata anterior: 5.326,15 EUR, include Q4; nu constituie sold acceptat.",
+    "surse": [
+      "141ce321-f1e8-4fdb-ae64-d26afeac4122",
+      "08. Corespondenta/2026.10.01 Donau - cerere reziliere/2026.10.01 DRAFT Reziliere Donau.txt"
+    ]
+  },
+  "Maritczak - Commerz Inkasso": {
+    "status": "2026.10.01: cerere de incetare a politei 2044001194 pregatita in Eva-Mail, DRAFT NETRIMIS. Solicita incetare imediata prin acord; independent, notificare de incetare la prima data legal/contractual permisa. Catre DONAU si Loschy; CC Capra, Maritczak si Commerz/Gruber. Confirmare ceruta pana la 2026.10.07; incetarea nu este confirmata.",
+    "urmatorul_pas": "Trimiterea ciornei din Eva-Mail; apoi verificarea dovezii de trimitere si a confirmarii DONAU privind data incetarii, acoperirea si decontul final. Termenul Commerz 2026.10.12 ramane distinct; cererea nu il suspenda. Suma solicitata anterior: 5.326,15 EUR, include Q4; nu constituie sold acceptat.",
+    "surse": [
+      "141ce321-f1e8-4fdb-ae64-d26afeac4122",
+      "08. Corespondenta/2026.10.01 Donau - cerere reziliere/2026.10.01 DRAFT Reziliere Donau.txt"
+    ]
+  },
+  "KSV1870": {
+    "status": "2026.07.05: confirma luarea in evidenta a contestatiei integrale pentru dosarul 20260504299, oprirea urmaririi extrajudiciare si nepublicarea cazului in informatiile KSV; asteapta pozitia creditorului. Nu este confirmare de anulare a creantei.",
+    "urmatorul_pas": "Pastrarea contestatiei si urmarirea raspunsului creditorului; dosar distinct de somatia Donau/Commerz-Inkasso.",
+    "surse": [
+      "82948df8-e296-41c4-b04e-b70ed9f4006e"
+    ]
+  },
+  "MA29 - Geologie": {
+    "status": "2026.07.09: factura SHOP2026000439 pentru trei profile, 21,60 EUR, confirma plata electronica. Niciun debit identificat in cele doua extrase austriece; contul efectiv ramane necunoscut.",
+    "urmatorul_pas": "Pastrarea profilelor si identificarea contului platii pentru contabilizare, fara a plati din nou.",
+    "surse": [
+      "56293993-e651-4183-8a80-03682cd16329",
+      "542c3e30-b7bb-4c96-afff-10dc33f371b7",
+      "10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/2026.09.30 Registru verificat.json"
+    ]
+  },
+  "MA37": {
+    "status": "2026.09.25: primita Zahlungsanweisung 000235125033, GZ 1303993-2026-3, pentru consultarea planurilor: 39 EUR, scadenta 2026.10.30. Cererea larga din 2026.09.22 privind actualizarea proprietarului, autorizatia si obligatiile instalatiilor ramane distincta; factura nu este raspuns pe fond la toate intrebarile. Reconciliere bancara 2026.09.30: taxa de 39 EUR este ACHITATA la 2026.09.28 din contul firmei AT22, referinta 000235125033.",
+    "urmatorul_pas": "Urmarirea raspunsului pe fond la cererea privind dosarele, autorizatia si instalatiile. Taxa de 39 EUR nu se plateste din nou.",
+    "surse": [
+      "ad4b69d0-b596-42c5-aead-5e5d7cfddcbc",
+      "3525181c-511e-48a8-9bca-f1ff4f806160",
+      "05fba18c-d593-40d6-a310-4d076253fab6"
+    ]
+  },
+  "Sedlak": {
+    "status": "2026.09.21: Michael Hollinger cere documentatia de licitatie pentru a evalua serviciile solicitate; fara pret ofertat.",
+    "urmatorul_pas": "Pregatirea/transmiterea documentatiei actuale si urmarirea raspunsului; nu este identificata o transmitere ulterioara in istoricul analizat.",
+    "surse": [
+      "db83c626-bfe9-413a-9556-3b9ca3eaf0a7"
+    ]
+  },
+  "KPPK": {
+    "status": "2026.08.11: refuz de ofertare pentru verificator, din lipsa de capacitate.",
+    "urmatorul_pas": "Inchidere ca refuz in runda curenta.",
+    "surse": [
+      "b16e0900-8cb6-4b28-9c77-87cdddd56558"
+    ]
+  },
+  "LVR": {
+    "status": "2026.06.01: solicita actualizare dupa discutia prin SMS si dupa oferta anterioara, pentru a-si planifica resursele.",
+    "urmatorul_pas": "Consemnarea deciziei privind continuarea colaborarii; oferta veche necesita reconfirmare.",
+    "surse": [
+      "5a0a4649-9e01-40ea-88e9-3f171fd7ca02"
+    ]
+  },
+  "Mattes Projektmanagement": {
+    "status": "2026.04.20: transmite documentatia vizitei din 2026.04.14 prin link valabil trei zile. La 2026.04.17 a trimis oferta de proiectare, licitatie si ÖBA.",
+    "urmatorul_pas": "Verificarea setului local al documentatiei si a eventualelor lipsuri; linkul temporar din aprilie nu este considerat descarcat prin simpla arhivare a emailului.",
+    "surse": [
+      "35815f69-fd80-4e3c-b7d2-f90738a67702",
+      "b340c190-0ced-4288-b4b1-63195d1b2a9a"
+    ]
+  },
+  "SMT Immobilien": {
+    "status": "2026.05.07: revine asupra ofertei de administrare trimise la 2026.03.03 si solicita feedback.",
+    "urmatorul_pas": "Pastrarea pentru comparatie; nicio acceptare identificata.",
+    "surse": [
+      "edca7f98-ada7-4af7-8bb1-3d3e33f2dda2"
+    ]
+  },
+  "Hofhans": {
+    "status": "2026.06.24: cere ca decontul final de apa si eventualul credit sa fie trimise fostei administratii, urmand decontarea cu noua administratie. Corespondenta juridica din septembrie include solicitarea beneficiarului de predare completa a dosarului.",
+    "urmatorul_pas": "Obtinerea situatiei de inchidere si a eventualelor credite transferate, precum si inventarul contractelor, facturilor si acceselor.",
+    "surse": [
+      "539732dc-4010-42ad-a011-71f395b6f052",
+      "bbadf4d3-585d-4821-b316-4a958a293af3"
+    ]
+  },
+  "ARTUS": {
+    "status": "2026.09.30: 1261556 = 360 EUR factura + 18,08 accesorii, achitat 378,08 EUR la 2026.06.05; 1263320 = 240 EUR achitat personal 2026.08.05; 1264971 = 144 EUR fara debit identificat. Impozit 186 EUR achitat 2026.06.11, valuta 2026.06.10, beneficiar AT62. PDF fiscal local criptat; 93 EUR Q3 si IBAN AT36 din Excelul vechi necesita reconfirmare. Decizia anuala este pentru 2026, 375 EUR.",
+    "urmatorul_pas": "Fisa de cont ARTUS si extras FinanzOnline actual; verificarea documentului criptat, soldului si IBAN-ului. Nu se dubleaza impozitul anual cu avansurile.",
+    "surse": [
+      "10. Banci + Extrase de cont/2026.09.30 Audit facturi si plati/2026.09.30 Registru verificat.json"
+    ]
+  }
+}

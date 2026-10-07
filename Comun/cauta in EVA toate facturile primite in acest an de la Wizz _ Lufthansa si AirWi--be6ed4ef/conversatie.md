@@ -1,0 +1,567 @@
+# cauta in EVA toate facturile primite in acest an de la Wizz / Lufthansa si AirWings
+
+ID: `01a0ae56-1882-7070-ad0e-3c6dbe6ed4ef`  
+Proiect: Comun  
+Export UTC: 2026-10-07T08:10:14.831141+00:00
+
+Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
+
+## Utilizator
+
+cauta in EVA toate facturile primite in acest an de la Wizz / Lufthansa si AirWings
+
+## Asistent
+
+Caut în EVA facturile din 2026 de la Wizz Air, Lufthansa și AirWings, atât în modulul de facturi cât și în emailuri.
+
+## Asistent
+
+[external_agent_tool_call: ToolSearch]
+input: {"query":"select:mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_list_invoices,mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails,mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_invoice,mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_documents","max_results":4}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_list_invoices]
+input: {"vendor":"Wizz","date_from":"2026-01-01","limit":200}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_list_invoices]
+input: {"vendor":"Lufthansa","date_from":"2026-01-01","limit":200}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_list_invoices]
+input: {"vendor":"AirWings","date_from":"2026-01-01","limit":200}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_list_invoices]
+input: {"vendor":"Air Wings","date_from":"2026-01-01","limit":200}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Wizz","date_from":"2026-01-01","is_sent":false,"limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Lufthansa","date_from":"2026-01-01","is_sent":false,"limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"AirWings","date_from":"2026-01-01","is_sent":false,"limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Air Wings","date_from":"2026-01-01","is_sent":false,"limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"40ddfcfc-4dbf-4672-9702-bc0a0b208793","account_email":"cosmin.covaciu@ipec.ro","subject":"Cheia unei călătorii mai satisfăcătoare 🔑","from_name":"Booking.com","from_address":"email.campaign@sg.booking.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-08-31T06:26:02Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["6: Travel"],"folder":"Booking.com","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]}],"total":1,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"10d1b8e6-ca4d-4524-9df3-ea5e6de16cbb","account_email":"cosmin.covaciu@ipec.ro","subject":"✈️ Planificați. Plecați. Până la 15% reducere. ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-09-15T23:33:00Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"023099c7-7025-42f4-bd34-18ac3842984a","account_email":"covaciu.gnm@gmail.com","subject":"Dați clic pentru 30 € reducere la închirieri auto 🚗","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-09-14T05:35:39Z","snippet":"Oferte de sfârșit de vară la închirieri auto ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌","category":"fyi","labels":["CATEGORY_PROMOTIONS","UNREAD","INBOX","8: Marketing","Label_43739"],"folder":"Wizz Air","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"187b1dd4-720b-46b7-87b1-b5a12d3b56ac","account_email":"cosmin.covaciu@cesiro.com","subject":"🛡️ Be prepared for anything with Disruption Assistance ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["COSMIN.COVACIU@CESIRO.COM"],"received_at":"2026-09-13T08:39:14Z","snippet":"https://post.eu.spmailtechnol.com/f/a/V3mJKWy-5hJ-6_vbY8-P3A~~/AAAh8BA~/ZMsOaddjM5sZc1YIPMTPYju8Uk4R","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"2f650507-d4cc-4fd7-babe-cd81f4224bda","account_email":"cosmin.covaciu@ipec.ro","subject":"🛡️ Pregătiți-vă pentru orice cu ajutorul Asistenței în caz de perturbări ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-09-13T05:20:38Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["6: Travel"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"90c447bd-b32d-4a91-9bb7-af37f0bf072e","account_email":"cosmin.covaciu@ipec.ro","subject":"✈️ Semnul dvs. să rezervați.","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-09-10T23:31:37Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["6: Travel"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"6e146042-4597-4295-8ff4-54a8c2454091","account_email":"cosmin.covaciu@ipec.ro","subject":"🌍 Mai multe de explorat, până la 15% reducere ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-09-07T23:23:16Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"07bb1747-fed9-4fc6-94a3-f31a51c5ed81","account_email":"cosmin.covaciu@cesiro.com","subject":"🛡️ Be prepared for anything with Disruption Assistance ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["COSMIN.COVACIU@CESIRO.COM"],"received_at":"2026-09-06T08:36:35Z","snippet":"https://post.eu.spmailtechnol.com/f/a/YMSw_gdpXtkOxaFbb8qboQ~~/AAAh8BA~/WkvxxlscXCXbCPqI7XdeGRmKyAd8","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":fals...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Wizz","date_from":"2026-01-01","is_sent":false,"limit":50,"offset":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"sender":"wizzair.com","query":"invoice","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"7322deb9-1065-4484-9b96-213412b731f5","account_email":"cosmin.covaciu@ipec.ro","subject":"Se încheie astăzi ⌛ până la 22% reducere la TOATE zborurile ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-05-19T22:56:43Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"956fff65-b6ef-4aa8-b7aa-7c3f6ac69b50","account_email":"cosmin.covaciu@ipec.ro","subject":"Nu ratați ⏰ până la 22% reducere la TOATE zborurile ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-05-19T14:36:17Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"2dfa050d-c630-49c2-9025-821b4f1a6be3","account_email":"cosmin.covaciu@ipec.ro","subject":"🎂 Ofertă aniversară la TOATE zborurile: până la 22% reducere ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-05-19T04:40:54Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"700c1148-3fd9-4f0f-bd38-c55980679c85","account_email":"cosmin.covaciu@ipec.ro","subject":"Ultimele ore 🚨 1.000.000 de locuri sub 119 lei ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-05-18T15:56:28Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"3e5cbc14-e9e7-421f-8d74-123609c051fc","account_email":"cosmin.covaciu@ipec.ro","subject":"Se încheie astăzi ⌛ 1.000.000 de locuri sub 119 lei ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-05-17T23:54:24Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"70476d8b-b6f8-4f06-aae6-72d0af7775ee","account_email":"cosmin.covaciu@ipec.ro","subject":"Hei! 👋 1.000.000 de locuri sub 119 lei ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-05-15T15:18:38Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"7e4d942a-632b-4b3f-8f0a-d320eb03246e","account_email":"cosmin.covaciu@ipec.ro","subject":"🎉 1.000.000 de locuri sub 119 lei ","from_name":"Wizz Air","from_address":"offers@travel.wizznews.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-05-15T01:27:01Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["8: Marketing"],"folder":"Wizz Air","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"a314a0d8-3798-466c-9652-3b52c6863d9b","account_email":"covaciu.gnm@gmail.com","...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"sender":"wizzair.com","query":"factura","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"sender":"lufthansa","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"4650631a-f974-4552-998f-0f22e9ed68ed","account_email":"covaciu.gnm@gmail.com","subject":"Wizz Air electronic invoice  DWAM-54267417  /  BSKSRH","from_name":"noreply@wizzair.com","from_address":"noreply@wizzair.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-07-29T16:16:17Z","snippet":"✈ Wizz Air Wizzair facebook icon twitter icon instagram icon youtube icon linkedIn icon flights hotel car rentals manage my booking Dear Customer, Thank you for choosing Wizz Air. In the attachment,","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_38792"],"folder":"noreply@wizzair.com","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["DWAM-54267417.pdf"]},{"id":"83192300-94ee-4f46-8a47-1efcdb84402f","account_email":"covaciu.gnm@gmail.com","subject":"Wizz Air electronic invoice  DWAM-43171570  /  TWDFRT","from_name":"noreply@wizzair.com","from_address":"noreply@wizzair.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-01-14T19:10:09Z","snippet":"✈ Wizz Air Wizzair facebook icon twitter icon instagram icon youtube icon linkedIn icon flights hotel car rentals manage my booking Dear Customer, Thank you for choosing Wizz Air. In the attachment,","category":null,"labels":["IMPORTANT","CATEGORY_UPDATES","INBOX","Label_32230","6: Travel"],"folder":"noreply@wizzair.com","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["DWAM-43171570.pdf"]}],"total":2,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"sender":"wings","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Airwings","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"a9bf3fd6-7d7e-4b1e-b7aa-960f0f10bf76","account_email":"covaciu.gnm@gmail.com","subject":"Animawings 13LNPS: Time to Check-In","from_name":"NoReply","from_address":"noreply@mailinganimawings.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-08-10T09:35:28Z","snippet":"Check-in-ul online este acum deschis! Sistemul nostru de rezervări a generat acest e-mail în mod automat. Vă rugăm să nu răspundeți la acest mesaj! Dragă Cosmin Covaciu, Check-in-ul online pentru","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","4: Notification","Label_43639"],"folder":"NoReply","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"5a4b6337-9df3-4665-834a-8ec47e940f86","account_email":"covaciu.gnm@gmail.com","subject":"Animawings Bilet Electronic 13LNPS","from_name":"NoReply","from_address":"noreply@mailinganimawings.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-07-29T08:55:41Z","snippet":"Animawings confirmarea rezervării Sistemul nostru de rezervări a generat acest e-mail în mod automat. Vă rugăm să nu răspundeți la acest mesaj! Dragă Cosmin Covaciu, Avem plăcerea de a vă confirma că","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","4: Notification","Label_43639"],"folder":"NoReply","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]}],"total":2,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Wizz","category":"10: Invoices","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Lufthansa","category":"10: Invoices","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_documents]
+input: {"q":"DWAM","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_documents]
+input: {"q":"Wizz Air","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_documents]
+input: {"q":"Lufthansa","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_documents]
+input: {"q":"AirWings","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_documents]
+input: {"q":"Air Wings","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"725c0677-a971-427f-af8d-09642bfcf3ca","filename":"DWAM-54267417.pdf","size":55074,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-08-07T06:24:45.286662Z","email_id":"4650631a-f974-4552-998f-0f22e9ed68ed","email_subject":"Wizz Air electronic invoice  DWAM-54267417  /  BSKSRH","email_sender":"noreply@wizzair.com","email_date":"2026-07-29T16:16:17Z"},{"id":"40ca28cb-3603-433e-a530-2c6c4553165b","filename":"Factura - eInvoice_DWAM-15344101.pdf","size":54921,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-06-08T11:57:34.855579Z","email_id":"7079ae0d-bec2-4d50-a635-24883aa32260","email_subject":"Mi-ar fi de mare ajutor ...","email_sender":"cosmin.covaciu@ipec.ro","email_date":"2024-06-04T14:42:05Z"},{"id":"e8d1511e-f934-4a2a-8773-ece92e1b93f9","filename":"DWAM-10134057.pdf","size":54765,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T08:07:24.797009Z","email_id":"7c98bde8-6ae5-48c4-8501-192e6e3bf368","email_subject":"Wizz Air electronic invoice  DWAM-10134057  /  JFLBGP","email_sender":"noreply@wizzair.com","email_date":"2024-01-17T14:39:09Z"},{"id":"58b51103-116b-4476-b462-9c527d463279","filename":"DWAM-10694019.pdf","size":55210,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T08:06:49.339063Z","email_id":"dbddaa24-8b14-44f1-8de1-0c072a40c379","email_subject":"Wizz Air electronic invoice  DWAM-10694019  /  NMNYSK","email_sender":"noreply@wizzair.com","email_date":"2024-01-28T19:04:13Z"},{"id":"ab3f5bf2-8ea7-434f-acf5-798aadb686a6","filename":"DWAM-10686206.pdf","size":54796,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T08:06:48.746955Z","email_id":"d496b89d-5fc7-429f-b360-9ab9c5e4d206","email_subject":"Wizz Air electronic invoice  DWAM-10686206  /  JFLBGP","email_sender":"noreply@wizzair.com","email_date":"2024-01-28T19:31:09Z"},{"id":"6de1856c-8bab-4a77-8b80-fc539c220916","filename":"DWAM-10825760.pdf","size":55143,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T08:06:33.042374Z","email_id":"b27abaa9-0df9-430a-bd7e-4be8f7510ac7","email_subject":"Wizz Air electronic invoice  DWAM-10825760  /  NMNYSK","email_sender":"noreply@wizzair.com","email_date":"2024-02-01T10:51:14Z"},{"id":"a79a066d-5b2f-4611-8f52-f5c182afc534","filename":"DWAM-15344101.pdf","size":54921,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T08:00:42.800506Z","email_id":"4e7a17da-06e0-44d5-83ac-78086cc5adab","email_subject":"Wizz Air electronic invoice  DWAM-15344101  /  OD6HGL","email_sender":"noreply@wizzair.com","email_date":"2024-05-20T14:23:07Z"},{"id":"f1ad92a9-188e-4584-a6dd-e948fc293b5c","filename":"DWAM-15344101.pdf","size":54921,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T08:00:40.119814Z","email_id":"6f9086ca-a573-4bf3-a5d8-bf6ffd259e0e","email_subject":"Fwd: Wizz Air electronic invoice  DWAM-15344101  /  OD6HGL","email_sender":"covaciu.gnm@gmail.com","email_date":"2024-05-21T03:38:43Z"},{"id":"9234765f-bf18-489a-b825-3d53957e0e2f","filename":"DWAM-15344101.pdf","size":54921,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T08:00:35.521102Z","email_id":"cea0e612-5c65-40f6-ad10-9ba0471a9ccc","email_subject":"Fwd: Wizz Air electronic invoice  DWAM-15344101  /  OD6HGL","email_sender":"covaciu.gnm@gmail.com","email_date":"2024-05-21T03:41:57Z"},{"id":"3884cc8d-3c95-4be7-9c3d-4bafee3cadbc","filename":"DWAM-17541738.pdf","size":54805,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T07:57:21.222198Z","email_id":"36a7c3d0-9f46-406c-aef7-8e4af188e1aa","email_subject":"Wizz Air electronic invoice  DWAM-17541738  /  GFFTQF","email_sender":"noreply@wizzair...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"725c0677-a971-427f-af8d-09642bfcf3ca","filename":"DWAM-54267417.pdf","size":55074,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-08-07T06:24:45.286662Z","email_id":"4650631a-f974-4552-998f-0f22e9ed68ed","email_subject":"Wizz Air electronic invoice  DWAM-54267417  /  BSKSRH","email_sender":"noreply@wizzair.com","email_date":"2026-07-29T16:16:17Z"},{"id":"797994c7-d4dd-47d4-b93e-e07193364828","filename":"Ianuarie - Decembrie 2018.pdf","size":372441,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-07-16T12:24:43.716312Z","email_id":"e548e900-38ba-44fb-a45a-885ef67b8cfc","email_subject":"Ianuarie - Decembrie 2018","email_sender":"covaciu.gnm@gmail.com","email_date":"2026-07-16T12:24:23Z"},{"id":"fcedee13-d8d3-469f-9154-ad463337f274","filename":"Ianuarie - Decembrie 2025.pdf","size":427946,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-07-16T12:19:00.847153Z","email_id":"fb43f1b0-8b48-4bb2-ba67-d86b99a61b4d","email_subject":"Ianuarie - Decembrie 2025","email_sender":"covaciu.gnm@gmail.com","email_date":"2026-07-16T12:16:53Z"},{"id":"92751b3a-0832-4c24-b038-5e49fc22d53d","filename":"Ianuarie - Decembrie 2024.pdf","size":518692,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-07-16T12:19:00.847153Z","email_id":"e8c3a86e-917b-4476-bbcb-4d62fd1648f3","email_subject":"Ianuarie - Decembrie 2024","email_sender":"covaciu.gnm@gmail.com","email_date":"2026-07-16T12:17:28Z"},{"id":"c7dec643-af98-46db-9d8f-f47d1d2dfc1c","filename":"Ianuarie - Decembrie 2018.pdf","size":537619,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-07-14T11:15:34.424402Z","email_id":"5ff34399-5bdd-4deb-b74e-0b1b64c43dac","email_subject":"Ianuarie - Decembrie 2018","email_sender":"covaciu.gnm@gmail.com","email_date":"2026-07-14T11:14:24Z"},{"id":"94cddc1e-7587-49f5-8d26-7ac276a70fc4","filename":"Ianuarie - Decembrie 2018.pdf","size":537619,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-07-14T11:14:20.821604Z","email_id":"7e873be8-1e7a-46b0-9440-e18ff7f20dd5","email_subject":"Ianuarie - Decembrie 2018","email_sender":"covaciu.gnm@gmail.com","email_date":"2026-07-14T11:13:32Z"},{"id":"568f593e-aca1-43ac-bd3a-9036c6669d72","filename":"Ianuarie - Decembrie 2022.pdf","size":664204,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-07-14T11:13:30.142671Z","email_id":"b3d1630d-2fb0-43bd-967e-867ad16b458d","email_subject":"Ianuarie - Decembrie 2022","email_sender":"covaciu.gnm@gmail.com","email_date":"2026-07-14T10:56:23Z"},{"id":"426507f6-7123-47fb-a0f6-bd8eb55350e3","filename":"Ianuarie - Decembrie 2020.pdf","size":600113,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-07-14T11:13:30.142671Z","email_id":"30bbc98e-be31-4eb6-adfb-307337c3bda0","email_subject":"Ianuarie - Decembrie 2020","email_sender":"covaciu.gnm@gmail.com","email_date":"2026-07-14T10:59:31Z"},{"id":"d9d78bc0-09e0-40d6-95a4-72c383bdbe30","filename":"Ianuarie - Decembrie 2023.pdf","size":606273,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-07-14T11:13:30.142671Z","email_id":"e99bc869-14a1-45a7-a97d-3040fa296f24","email_subject":"Ianuarie - Decembrie 2023","email_sender":"covaciu.gnm@gmail.com","email_date":"2026-07-14T10:55:11Z"},{"id":"40ca28cb-3603-433e-a530-2c6c4553165b","filename":"Factura - eInvoice_DWAM-15344101.pdf","size":54921,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-06-08T11:57:34.855579Z","email_id":"7079ae0d-bec2-4d50-a635-24883aa32260","email_subject":"Mi-ar fi de mare ajutor ...","email_sender":"cosmin.covaciu@ipec.ro","email_date":"2024-06-04T14:42:05Z"},{"id":"bc178743-76b2-410b-bb18-850869686776","filename":"BoardingCard_24189...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"379fd95a-9c64-4717-8fe1-b86534076a70","filename":"20190220_COVACIU_KSLJQO.pdf","size":75081,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T06:32:46.097254Z","email_id":"93d752db-0aa0-4235-af4f-3023bc9d0562","email_subject":"Fwd: Booking details | Departure: 02 May 2019 | SBZ-GVA","email_sender":"link_covaciu@yahoo.com","email_date":"2019-04-27T16:12:59Z"}],"total":1}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: ToolSearch]
+input: {"query":"select:mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_email,mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_attachment,mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_download_link","max_results":3}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Animawings","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_documents]
+input: {"q":"Animawings","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_list_invoices]
+input: {"vendor":"Anima","date_from":"2026-01-01","limit":200}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"a9bf3fd6-7d7e-4b1e-b7aa-960f0f10bf76","account_email":"covaciu.gnm@gmail.com","subject":"Animawings 13LNPS: Time to Check-In","from_name":"NoReply","from_address":"noreply@mailinganimawings.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-08-10T09:35:28Z","snippet":"Check-in-ul online este acum deschis! Sistemul nostru de rezervări a generat acest e-mail în mod automat. Vă rugăm să nu răspundeți la acest mesaj! Dragă Cosmin Covaciu, Check-in-ul online pentru","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","4: Notification","Label_43639"],"folder":"NoReply","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"5a4b6337-9df3-4665-834a-8ec47e940f86","account_email":"covaciu.gnm@gmail.com","subject":"Animawings Bilet Electronic 13LNPS","from_name":"NoReply","from_address":"noreply@mailinganimawings.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-07-29T08:55:41Z","snippet":"Animawings confirmarea rezervării Sistemul nostru de rezervări a generat acest e-mail în mod automat. Vă rugăm să nu răspundeți la acest mesaj! Dragă Cosmin Covaciu, Avem plăcerea de a vă confirma că","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","4: Notification","Label_43639"],"folder":"NoReply","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"fe55c181-9077-408b-b0f6-2eba6d25997d","account_email":"covaciu.gnm@gmail.com","subject":"ANIMAWINGS.COM comanda #cra38610226 || Tranzacția 27436980","from_name":"PlatiOnline.ro Customer Support","from_address":"support@plationline.eu","to":["covaciu.gnm@gmail.com"],"received_at":"2026-07-29T08:55:22Z","snippet":"Plata dvs. a fost aprobată Stimate client COSMIN COVACIU, Ați efectuat plata în valoare de 1035.45 EUR la ANIMAWINGS.COM [ANIMA WINGS AVIATION SA]. Această tranzacție va apărea pe extrasul de card cu","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","3: Fyi","Label_43637"],"folder":"PlatiOnline.ro Customer Support","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]}],"total":3,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Lufthansa","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Austrian Airlines","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Eurowings","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"b5315d28-5be0-4056-8775-e7e9bf94bd93","filename":"ANIMA-WINGS-AVIATION-SA-AWCC-174519.pdf","size":102260,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-08-07T10:35:34.111876Z","email_id":"23d79db7-111a-4ad8-b5b3-3906fc9578fb","email_subject":"Factura ANIMA WINGS AVIATION SA - AWCC-174519 - via Plati.Online","email_sender":"support@plationline.eu","email_date":"2026-08-07T10:35:21Z"},{"id":"ad7d374e-3e92-4ff6-bb7b-6ddd57219f3d","filename":"Bilete Rhodos.pdf","size":493507,"mime_type":"application/pdf","source":"email_attachment","has_text":true,"created_at":"2026-04-01T08:21:33.303841Z","email_id":"4b87586c-bda0-4302-a5de-1061f67a548c","email_subject":"Fwd: 11SZFZ Emitere bilet / Ticket Confirmation","email_sender":"covaciu.gnm@gmail.com","email_date":"2023-06-07T17:24:02Z"}],"total":2}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"40ddfcfc-4dbf-4672-9702-bc0a0b208793","account_email":"cosmin.covaciu@ipec.ro","subject":"Cheia unei călătorii mai satisfăcătoare 🔑","from_name":"Booking.com","from_address":"email.campaign@sg.booking.com","to":["cosmin.covaciu@ipec.ro"],"received_at":"2026-08-31T06:26:02Z","snippet":"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame","category":"fyi","labels":["6: Travel"],"folder":"Booking.com","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]}],"total":1,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"spent at","sender":"wise.com","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"e34aed10-b243-4458-bee4-52f36ba7e370","account_email":"covaciu.gnm@gmail.com","subject":"Boarding pass for your flight | VIE to SBZ on September 11, 2026","from_name":"Austrian Airlines Flight Service","from_address":"service@boardingpass.austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-11T06:25:52Z","snippet":"Please do not reply to this email. Servus MR COVACIU, We have issued the boarding pass for your upcoming flight. We look forward to welcoming you on board. Your Austrian Team COVACIU, COSMIN MR Economy","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_39962"],"folder":"Austrian Airlines Flight Service","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["inline"]},{"id":"6af3738c-4a16-4762-ad29-092cb5b8a524","account_email":"covaciu.gnm@gmail.com","subject":"Passenger Receipt, Departure 11 Sep 26; 7D5S3F/ID=226004805436","from_name":"traveldetails@austrian.com","from_address":"traveldetails@austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-09T21:30:21Z","snippet":"Lieber Fluggast, anbei finden Sie Ihre/n Passenger Receipt/Rechnung. Laden Sie zum Öffnen des Dokuments den kostenlosen Acrobat Reader unter http://get.adobe.com/de/reader/ herunter. Vielen Dank für","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_43723"],"folder":"traveldetails@austrian.com","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["COSMIN COVACIU 257-4007743587.pdf"]},{"id":"d015488b-16f0-43b0-844c-3e414052053c","account_email":"covaciu.gnm@gmail.com","subject":"Passenger Receipt, Departure 11 Sep 26; 7D5S3F/ID=226004805437","from_name":"traveldetails@austrian.com","from_address":"traveldetails@austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-09T21:30:20Z","snippet":"Lieber Fluggast, anbei finden Sie Ihre/n Passenger Receipt/Rechnung. Laden Sie zum Öffnen des Dokuments den kostenlosen Acrobat Reader unter http://get.adobe.com/de/reader/ herunter. Vielen Dank für","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_43723"],"folder":"traveldetails@austrian.com","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["COSMIN COVACIU 257-2173314868.pdf"]},{"id":"f58a1f9a-29d5-4857-8f25-581de2304b4f","account_email":"covaciu.gnm@gmail.com","subject":"Thank you for booking with us | From Vienna to Sibiu on 11 September 2026","from_name":"Austrian Airlines Booking","from_address":"booking@information.austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-09T20:34:29Z","snippet":"Your trip to Sibiu: all booking details Please do not reply to this email. Booking code: 7D5S3F Booking Confirmation Thank you for booking with us Dear Mr Covaciu, Please find your booking details","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_39473"],"folder":"Austrian Airlines Booking","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["1_VIE-SBZ.ics"]},{"id":"9c54c1a3-f65a-445b-bddc-fc1957b5cbcd","account_email":"covaciu.gnm@gmail.com","subject":"260.97 EUR spent at Austrian Airlines","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-09-09T20:24:46Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","5: Finance","Label_37845"],"folder":"Wise","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"7bf83ce3-cb6d-4b44-99b2-0f93eb24e4e2","account_email":"covaciu.gnm@gmail.com","subject":"Check in for Sibiu now","from_name":"Austrian Airlines Flight Service","from_address":"fli...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"c2a326f6-f1b6-4c18-a007-0387625ff8b0","account_email":"covaciu.gnm@gmail.com","subject":"48.02 RON spent at Dedeman","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-09-15T14:50:41Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","3: Fyi","Label_37921"],"folder":"Wise","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"0774431f-f977-4b79-b17e-e577a3e31e9f","account_email":"covaciu.gnm@gmail.com","subject":"760.91 RON spent at Rompetrol","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-09-15T09:10:26Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","3: Fyi","Label_37921"],"folder":"Wise","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"c729ab3a-a5ee-4ffc-9533-399a210cd430","account_email":"covaciu.gnm@gmail.com","subject":"812.32 RON spent at OMV","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-09-12T14:19:36Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","3: Fyi","Label_37921"],"folder":"Wise","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"b7ca312f-a2b8-47cb-b008-0916169cefae","account_email":"covaciu.gnm@gmail.com","subject":"15 RON spent at Aeroportul Sibiu","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-09-11T22:24:30Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","3: Fyi","Label_37921"],"folder":"Wise","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"42ae2e85-2c79-4f78-935b-107523e21175","account_email":"covaciu.gnm@gmail.com","subject":"447.22 RON spent at Dedeman","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-09-10T10:04:54Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","3: Fyi","Label_37921"],"folder":"Wise","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"58cad501-a17a-4e47-b188-744244e84400","account_email":"covaciu.gnm@gmail.com","subject":"199.93 RON spent at LUKOIL","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-09-10T08:44:43Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","3: Fyi","Label_37921"],"folder":"Wise","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"9c54c1a3-f65a-...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_attachment]
+input: {"attachment_id":"4f912e16-0c0b-4443-bb6e-c340c0aae34b","max_chars":6000}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_attachment]
+input: {"attachment_id":"725c0677-a971-427f-af8d-09642bfcf3ca","max_chars":6000}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_attachment]
+input: {"attachment_id":"b5315d28-5be0-4056-8775-e7e9bf94bd93","max_chars":6000}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_email]
+input: {"email_id":"23d79db7-111a-4ad8-b5b3-3906fc9578fb"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_email]
+input: {"email_id":"6af3738c-4a16-4762-ad29-092cb5b8a524"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"725c0677-a971-427f-af8d-09642bfcf3ca","email_id":"4650631a-f974-4552-998f-0f22e9ed68ed","name":"DWAM-54267417.pdf","content_type":"application/pdf","size":55074,"page_count":null,"total_chars":770,"offset":0,"text":"PAGE1 / 1\nINVOICE NUMBER INVOICE DATE PNR\nDWAM-54267417 2026.07.29 BSKSRH\nDATE OF PERFORMANCE DUE DATE\n2026.07.29 2026.07.29\nSUPPLIER NAME CUSTOMER NAME\nWizz Air Malta Limited Cesiro Trading SRL\nADDRESS ADDRESS\nLuqa\nSkyparks Business Centre, Level 2,\nMalta International Airport\nLQA 4000Alba Iulia\nTheodor Pallady nr 5\n510104\nRO\nEU TAX NUMBER CUSTOMER TAX NUMBER\nMT29298624 RO37705493\nTAX NUMBER\nMT29298624\nQTYUNIT OF MEASUREUNIT PRICEVAT%TOTAL EXCL. VATTOTAL VATTOTAL INCL. VATCURRENCY\n1,00Pieces730,740.00 %730,740,00730,74EUR\nTYPE OF SERVICE\nFlight ticket (ATH-OTP)\nTOTAL 730,74 730,740,00730,74EUR\nVAT SUMMARY\nVAT% VAT AMOUNT CURRENCY\n0.00 %0,00EUR\nType of Supply: Exempt with credit supplies:\nVALUE ADDED TAX ACT 1998 - Part I of Fifth Schedule Item 4 (1) applies.\n","truncated":false}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"4f912e16-0c0b-4443-bb6e-c340c0aae34b","email_id":"83192300-94ee-4f46-8a47-1efcdb84402f","name":"DWAM-43171570.pdf","content_type":"application/pdf","size":54782,"page_count":null,"total_chars":845,"offset":0,"text":"PAGE1 / 1\nINVOICE NUMBER INVOICE DATE PNR\nDWAM-43171570 2026.01.14 TWDFRT\nDATE OF PERFORMANCE DUE DATE\n2026.01.14 2026.01.14\nSUPPLIER NAME CUSTOMER NAME\nWizz Air Malta Limited Cesiro Trading SRL\nADDRESS ADDRESS\nLuqa\nSkyparks Business Centre, Level 2,\nMalta International Airport\nLQA 4000Alba Iulia\nTheodor Pallady nr 5\n510104\nRO\nEU TAX NUMBER CUSTOMER TAX NUMBER\nMT29298624 RO37705493\nTAX NUMBER\nMT29298624\nQTYUNIT OF MEASUREUNIT PRICEVAT%TOTAL EXCL. VATTOTAL VATTOTAL INCL. VATCURRENCY\n1,00Pieces1665,600.00 %1665,600,001665,60RON\nTYPE OF SERVICE\nFlight ticket (CLJ-BCN / BCN-CLJ)\nTOTAL 1665,60 1665,600,001665,60RON\nVAT SUMMARY\nVAT%VAT BASEVAT AMOUNTGRAND TOTALCURRENCY\n0.00 %1 665,600,001 665,60RON\n0.00 %327,260,00327,26EUR\nType of Supply: Exempt with credit supplies:\nVALUE ADDED TAX ACT 1998 - Part I of Fifth Schedule Item 4 (1) applies.\n","truncated":false}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_email]
+input: {"email_id":"d015488b-16f0-43b0-844c-3e414052053c"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"b5315d28-5be0-4056-8775-e7e9bf94bd93","email_id":"23d79db7-111a-4ad8-b5b3-3906fc9578fb","name":"ANIMA-WINGS-AVIATION-SA-AWCC-174519.pdf","content_type":"application/pdf","size":102260,"page_count":null,"total_chars":2189,"offset":0,"text":"Furnizor / Supplier: ANIMA  WINGS AVIATION SA\nCUI / V AT No: RO41404510\nNr. Reg. Com / Trade Reg. No: J2024009018404\nSediu / Address: Romania, Bucuresti, SOS. BUCURESTI-\nPLOIESTI Nr . 172-176\nCont bancar / Bank account RON:\nRO12BTRLRONCRT0508073801\nCont bancar / Bank account EUR:\nRO59BTRLEURCRT0508073801\nBancă / Bank: BTRL\nCapital Social: 15.678.321,00 lei\nTelefon / Phone: +4021 210 16 87\nEmail: customerservice@animawings.com\nwww .AnimaW ings.com\nPct. lucru / Of fice: Sos. Bucuresti-Ploiesti, nr . 172-176, cladirea\nWillbrook Platinum Center , corp A1, et. 2, sector 1, Bucuresti,\nRomania\nClient / Customer: Cesiro T rading SRL\nCUI / V AT No: 37705493\nNr. Reg. Com / Trade Reg. No: J01/685/2017\nSediu / Address: RO, Alba, Alba Iulia, Strada Simion Barnutiu\n17\nTelefon / Phone: 40722239664\nEmail: covaciu.gnm@gmail.com\nCont IBAN:\nBanca:\nFactura fiscală / INVOICE\nAWCC  174519\nData  03/08/2026\nNr.crt/\nNoDenumire produs / serviciu\nProduct / ServiceU.M.\n/ UnitCantitate\n/ QtyPreț unitar\n/ Unit Price\n- EUR -Cota T .V.A.\n/ V.A.T. %Valoare\n/ Amount\n- EUR -T.V.A.\n/ V.A.T.\n- EUR -\n0 1 2 3 4 5 6(3*4) 7\n1 TOTAL TAX - FLIGHTS : CLJ-A TH 2026-08-\n13T03:35:00+03:00 [PNR : 13LNPS]BUC 1 89.0000 0.00% 89.0000 0.0000\n2 AIRF ARE - FLIGHTS : CLJ-A TH 2026-08-\n13T03:35:00+03:00 [PNR : 13LNPS]BUC 1 946.4500 0.00% 946.4500 0.0000\nObservații:\nCurs valutar: 1 EUR = 5.2473\nScadența facturii: 03/08/2026Ștampila și semnatură de primire\n(Factura circulă fără semnatură și\nstampilă conform art. 319(29) legea\n227/2015 privind Codul Fiscal)Total EUR: 1,035.4500 0.0000\nTotal de plată\nEUR:1,035.45 EUR\nDate privind expeditia\nRezervarea a fost achitată online prin tranzacția 27436980, comanda CRA38610226 , pe data 29/07/2026\nprin sistemul https://Plati.Online\nFactura s-a emis automat din Plati.Online, în baza rezervării plasate pe site-ul www .AnimaWings.com\nThe reservation was paid online through transaction 27436980, order CRA38610226 , on 29/07/2026 via the\nhttps://Plati.Online payment system.\nThis invoice was automatically generated by Plati.Online, following the reservation placed on the\nanimawings.com website.Total RON: 5,433.3168 0.0000\nTotal de plată\nRON:5,433.32 RON\nSemnătura de primire\n","truncated":false}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"23d79db7-111a-4ad8-b5b3-3906fc9578fb","account_email":"covaciu.gnm@gmail.com","subject":"Factura ANIMA WINGS AVIATION SA - AWCC-174519 - via Plati.Online","from_name":"support@plationline.eu","from_address":"support@plationline.eu","to":["covaciu.gnm@gmail.com"],"cc":["customerservice@animawings.com"],"received_at":"2026-08-07T10:35:21Z","text":"Factura AWCC-174519, emisă de ANIMA WINGS AVIATION SA Vă anunțăm că am emis factura AWCC-174519 în valoare de 1035.45 EUR. Factura este atașată acestui email, în format HTML. Detalii tranzacție: Plati.","truncated":false,"labels":["UNREAD","IMPORTANT","CATEGORY_UPDATES","INBOX","10: Invoices","Label_43643"],"category":"fyi","folder":"support@plationline.eu","thread_id":"19fdbcac9e87e96b","is_read":true,"is_sent":false,"attachments":[{"id":"8b19d5dc-4d3e-47d5-a4b5-313fc8091737","name":"ANIMA-WINGS-AVIATION-SA-AWCC-174519.html","size":7362,"content_type":"text/html","has_text":true,"text_chars":13,"page_count":null,"text":"NO_TEXT_FOUND"},{"id":"b5315d28-5be0-4056-8775-e7e9bf94bd93","name":"ANIMA-WINGS-AVIATION-SA-AWCC-174519.pdf","size":102260,"content_type":"application/pdf","has_text":true,"text_chars":2189,"page_count":null,"text":"Furnizor / Supplier: ANIMA  WINGS AVIATION SA\nCUI / V AT No: RO41404510\nNr. Reg. Com / Trade Reg. No: J2024009018404\nSediu / Address: Romania, Bucuresti, SOS. BUCURESTI-\nPLOIESTI Nr . 172-176\nCont bancar / Bank account RON:\nRO12BTRLRONCRT0508073801\nCont bancar / Bank account EUR:\nRO59BTRLEURCRT0508073801\nBancă / Bank: BTRL\nCapital Social: 15.678.321,00 lei\nTelefon / Phone: +4021 210 16 87\nEmail: customerservice@animawings.com\nwww .AnimaW ings.com\nPct. lucru / Of fice: Sos. Bucuresti-Ploiesti, nr . 172-176, cladirea\nWillbrook Platinum Center , corp A1, et. 2, sector 1, Bucuresti,\nRomania\nClient / Customer: Cesiro T rading SRL\nCUI / V AT No: 37705493\nNr. Reg. Com / Trade Reg. No: J01/685/2017\nSediu / Address: RO, Alba, Alba Iulia, Strada Simion Barnutiu\n17\nTelefon / Phone: 40722239664\nEmail: covaciu.gnm@gmail.com\nCont IBAN:\nBanca:\nFactura fiscală / INVOICE\nAWCC  174519\nData  03/08/2026\nNr.crt/\nNoDenumire produs / serviciu\nProduct / ServiceU.M.\n/ UnitCantitate\n/ QtyPreț unitar\n/ Unit Price\n- EUR -Cota T .V.A.\n/ V.A.T. %Valoare\n/ Amount\n- EUR -T.V.A.\n/ V.A.T.\n- EUR -\n0 1 2 3 4 5 6(3*4) 7\n1 TOTAL TAX - FLIGHTS : CLJ-A TH 2026-08-\n13T03:35:00+03:00 [PNR : 13LNPS]BUC 1 89.0000 0.00% 89.0000 0.0000\n2 AIRF ARE - FLIGHTS : CLJ-A TH 2026-08-\n13T03:35:00+03:00 [PNR : 13LNPS]BUC 1 946.4500 0.00% 946.4500 0.0000\nObservații:\nCurs valutar: 1 EUR = 5.2473\nScadența facturii: 03/08/2026Ștampila și semnatură de primire\n(Factura circulă fără semnatură și\nstampilă conform art. 319(29) legea\n227/2015 privind Codul Fiscal)Total EUR: 1,035.4500 0.0000\nTotal de plată\nEUR:1,035.45 EUR\nDate privind expeditia\nRezervarea a fost achitată online prin tranzacția 27436980, comanda CRA38610226 , pe data 29/07/2026\nprin sistemul https://Plati.Online\nFactura s-a emis automat din Plati.Online, în baza rezervării plasate pe site-ul www .AnimaWings.com\nThe reservation was paid online through transaction 27436980, order CRA38610226 , on 29/07/2026 via the\nhttps://Plati.Online payment system.\nThis invoice was automatically generated by Plati.Online, following the reservation placed on the\nanimawings.com website.Total RON: 5,433.3168 0.0000\nTotal de plată\nRON:5,433.32 RON\nSemnătura de primire\n"},{"id":"59832600-4c94-4d7e-a483-8821317110b4","name":"41521605538834349.png","size":68,"content_type":"image/png","has_text":true,"text_chars":13,"page_count":null,"text":"NO_TEXT_FOUND"},{"id":"48e6be81-8844-4455-9296-0b9b6b2e95b5","name":"logospocopy.jpg","size":10565,"content_type":"image/jpeg","has_text":true,"text_chars":13,"page_count":null,"text":"NO_TEXT_FOUND"},{"id":"aaf8a3ab-121f-4689-8033-3f93bea61bff","name":"facebook-circle-black.png","size":849,"content_type":"image/png","has_text":true,"text_chars":13,"page_count":null...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Passenger Receipt","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"d015488b-16f0-43b0-844c-3e414052053c","account_email":"covaciu.gnm@gmail.com","subject":"Passenger Receipt, Departure 11 Sep 26; 7D5S3F/ID=226004805437","from_name":"traveldetails@austrian.com","from_address":"traveldetails@austrian.com","to":["COVACIU.GNM@gmail.com"],"cc":[],"received_at":"2026-09-09T21:30:20Z","text":"\r\nLieber Fluggast,\r\n\r\nanbei finden Sie Ihre/n Passenger Receipt/Rechnung.\r\n\r\nLaden Sie zum Öffnen des Dokuments den kostenlosen Acrobat Reader unter http://get.adobe.com/de/reader/ herunter.\r\n\r\nVielen Dank für Ihre Buchung und eine angenehme Reise!\r\n\r\nFreundliche Grüße\r\nAustrian Airlines AG\r\n\r\nDieses E-Mail wurde von einem zentralen System versandt. Bitte antworten Sie nicht direkt, sondern wenden Sie sich an Ihren Austrian Airlines Ansprechpartner.\r\n\r\n\r\n\r\nDear Passenger,\r\n\r\nPlease find your passenger receipt attached.\r\n\r\n \r\nFor opening the attached document please download Acrobat Reader for free on http://get.adobe.com/uk/reader/\r\n\r\nWe thank you for booking Austrian and wish you a pleasant flight!\r\n\r\nKind regards,\r\nAustrian Airlines AG\r\n\r\nThis e-Mail has been sent by a central system. Please do not answer directly, but contact your Austrian Airlines contact person.\r\n\r\n","truncated":false,"labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_43723"],"category":"fyi","folder":"traveldetails@austrian.com","thread_id":"1a088143aa93b79a","is_read":false,"is_sent":false,"attachments":[{"id":"1a0b89a7-6a78-4c02-87f9-04d15de8c208","name":"COSMIN COVACIU 257-2173314868.pdf","size":61073,"content_type":"application/pdf","has_text":true,"text_chars":6150,"page_count":null,"text":"Please see next page for payment details / Zahlungsinformation siehe nächste Seite\nPassenger Receipt / Invoice / Rechnung 226004805437\nPlease print this receipt and retain it throughout your journey.\nBitte drucken Sie diesen Beleg aus und führen diesen bei Ihrer Reise mit.\nTravel dates for / Reisedaten für:\nName / Name: COVACIU / COSMIN MR\nBooking code / Buchungscode: 7D5S3F\nTicket number / Ticketnummer: 257-2173314868\nFlight Data / Flugdaten\nFlight Date from to Departure Arrival Class Bag\nFlug Datum von nach Abflug Ankunft Klasse Gepäck\nOS709 11 Sep 26 Vienna Intl\nTerminal 3Sibiu 22:50 01:05 Economy\nLight0 PC\noperated by: Austrian Airlines Not valid before 11 Sep 26 Not valid after 11 Sep 26\ndurchgeführt von: Austrian Airlines Nicht gültig vor 11 Sep 26 Nicht gültig nach 11 Sep 26\n.\nAustrian Airlines AG, Member of IATA, registered office: Vienna, Office Park 2, A-1300 Vienna-Airport, Commercial Court Vienna, register no. 111000k,\nDVR 0091740, VAT No. ATU15416707\n\nInvoice Information / Rechnungsübersicht:\nTicket Passenger/Fluggast Routing/Flugstrecke Amount/Betrag\n257-2173314868 COVACIU / COSMIN MR Vienna - Sibiu EUR 160.00\nTax / Gebühren EUR 64.97\nInvoice amount/\nRechnungssumme EUR 224.97\n§ 6 Abs 1 Z 3 lit d UStG, Austrian VAT law: Crossborder flights are VAT exempt\n§ 6 Abs 1 Z 3 lit d UStG: Grenzüberschreitender Beförderungsverkehr von Personen\nist umsatzsteuerbefreit\nPayment Details / Zahlungsinformation:\nIssued by / ausgestellt von: AUSTRIAN AIRLINES\nDate of issue / Ausstellungsdatum: 09 Sep 26\nPlace of Issue / Ausstellungsort: VIENNA\nIssuing agent / Ausstellendes Büro: 06492146\nEndorsement/Restriction / Bedingungen/Restriktionen: FARE RESTRICTION MAY APPLY\nPlease note: The Economy Light fare does not include free checked baggage. If you do not want to travel without luggage, please feel free to buy\nbaggage allowance for an extracharge.\nBitte beachten Sie: Der Economy Light Tarif beinhaltet kein Freigepäck. Möchten Sie dennoch nicht auf Ihr Gepäcksstück verzichten, so können Sie\ndieses gerne gegenGebührdazukaufen.\nClickherefor the terms and conditions of your rate.\nHierfinden Sie die Konditionen zu Ihrem Tarif.\nTickets are not transferable and expire on sale or transfer. In case of changes fees may be charged and other t...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"6af3738c-4a16-4762-ad29-092cb5b8a524","account_email":"covaciu.gnm@gmail.com","subject":"Passenger Receipt, Departure 11 Sep 26; 7D5S3F/ID=226004805436","from_name":"traveldetails@austrian.com","from_address":"traveldetails@austrian.com","to":["COVACIU.GNM@gmail.com"],"cc":[],"received_at":"2026-09-09T21:30:21Z","text":"\r\nLieber Fluggast,\r\n\r\nanbei finden Sie Ihre/n Passenger Receipt/Rechnung.\r\n\r\nLaden Sie zum Öffnen des Dokuments den kostenlosen Acrobat Reader unter http://get.adobe.com/de/reader/ herunter.\r\n\r\nVielen Dank für Ihre Buchung und eine angenehme Reise!\r\n\r\nFreundliche Grüße\r\nAustrian Airlines AG\r\n\r\nDieses E-Mail wurde von einem zentralen System versandt. Bitte antworten Sie nicht direkt, sondern wenden Sie sich an Ihren Austrian Airlines Ansprechpartner.\r\n\r\n\r\n\r\nDear Passenger,\r\n\r\nPlease find your passenger receipt attached.\r\n\r\n \r\nFor opening the attached document please download Acrobat Reader for free on http://get.adobe.com/uk/reader/\r\n\r\nWe thank you for booking Austrian and wish you a pleasant flight!\r\n\r\nKind regards,\r\nAustrian Airlines AG\r\n\r\nThis e-Mail has been sent by a central system. Please do not answer directly, but contact your Austrian Airlines contact person.\r\n\r\n","truncated":false,"labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_43723"],"category":"fyi","folder":"traveldetails@austrian.com","thread_id":"1a088143b6bb3970","is_read":false,"is_sent":false,"attachments":[{"id":"735a7c43-6699-4333-9fec-029c58b4a2e9","name":"COSMIN COVACIU 257-4007743587.pdf","size":57774,"content_type":"application/pdf","has_text":true,"text_chars":4878,"page_count":null,"text":"Passenger Receipt / Invoice / Rechnung 226004805436\nPlease print this receipt and retain it throughout your journey.\nBitte drucken Sie diesen Beleg aus und führen diesen bei Ihrer Reise mit.\nTravel dates for / Reisedaten für:\nName / Name: COVACIU / COSMIN MR\nBooking code / Buchungscode: 7D5S3F\nDocument / Dokument: 257-4007743587\nSeat Assignment / Sitzplatzreservierung\nFlight / Flug Date / Datum from / von to / nach Seat Category / Sitzkategorie\nOS709 11 Sep 26 Vienna Intl\nTerminal 3Sibiu\nTotal / Gesamt: EUR 36.00\nissued in connection with / ausgestellt zur Ticketnummer: 257-2173314868\n.\nPayment Details / Zahlungsinformation: credit card / Kreditkarte CCVIXXXXXXXXXX8036\nIssued by / ausgestellt von: AUSTRIAN AIRLINES\nDate of issue / Ausstellungsdatum: 09 Sep 26\nPlace of Issue / Ausstellungsort: VIENNA\nIssuing agent / Ausstellendes Büro: 06492146\nGladly we have noted your desired seat in your preferred seating category – subject to our general conditions of carriage. Please be aware that advanced seat\nreservations cannot be changed and refunded. For operational reasons Austrian may change your seating request within your preferred seating category.\nGerne haben wir Ihren Sitzplatz in der gewünschten Sitzkategorie, vorbehaltlich unserer Allgemeinen Beförderungsbedingungen, vorgemerkt. Bitte beachten\nSie, dass Sitzplatzreservierungen nicht geändert und refundiert werden können. Aus operationellen Gründen kann der gewünschte Sitzplatz von Austrian aber\ninnerhalb der gekauften Sitzkategorie angepasst werden.\nThe Passenger Receipts issued by Austrian Airlines are compliant with requirements stipulated by Austrian VAT law (Sec 11 (9) VAT act “Fahrausweise”)\nand thus constitute valid invoices in accordance with Sec 11 VAT act. The Passenger Receipt can be used to claim travel expenses and input VAT in\ncombination with the corresponding credit card slip or debit slip. It is not necessary to state the full name or address of the recipient on tickets\n(“Fahrausweise”) in accordance to Sec 11 (9) VAT act. The name stated on the ticket indicates the passenger entitled to travel and not the recipient. Please\nnote that VAT is only applicable on domestic flights. Tickets and passenger receipts issued for travel on international flights do not show any VAT, ...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"sender":"austrian.com","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_search_emails]
+input: {"query":"Wizz Air","sender":"wise.com","date_from":"2026-01-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"6af3738c-4a16-4762-ad29-092cb5b8a524","account_email":"covaciu.gnm@gmail.com","subject":"Passenger Receipt, Departure 11 Sep 26; 7D5S3F/ID=226004805436","from_name":"traveldetails@austrian.com","from_address":"traveldetails@austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-09T21:30:21Z","snippet":"Lieber Fluggast, anbei finden Sie Ihre/n Passenger Receipt/Rechnung. Laden Sie zum Öffnen des Dokuments den kostenlosen Acrobat Reader unter http://get.adobe.com/de/reader/ herunter. Vielen Dank für","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_43723"],"folder":"traveldetails@austrian.com","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["COSMIN COVACIU 257-4007743587.pdf"]},{"id":"d015488b-16f0-43b0-844c-3e414052053c","account_email":"covaciu.gnm@gmail.com","subject":"Passenger Receipt, Departure 11 Sep 26; 7D5S3F/ID=226004805437","from_name":"traveldetails@austrian.com","from_address":"traveldetails@austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-09T21:30:20Z","snippet":"Lieber Fluggast, anbei finden Sie Ihre/n Passenger Receipt/Rechnung. Laden Sie zum Öffnen des Dokuments den kostenlosen Acrobat Reader unter http://get.adobe.com/de/reader/ herunter. Vielen Dank für","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_43723"],"folder":"traveldetails@austrian.com","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["COSMIN COVACIU 257-2173314868.pdf"]}],"total":2,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"e34aed10-b243-4458-bee4-52f36ba7e370","account_email":"covaciu.gnm@gmail.com","subject":"Boarding pass for your flight | VIE to SBZ on September 11, 2026","from_name":"Austrian Airlines Flight Service","from_address":"service@boardingpass.austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-11T06:25:52Z","snippet":"Please do not reply to this email. Servus MR COVACIU, We have issued the boarding pass for your upcoming flight. We look forward to welcoming you on board. Your Austrian Team COVACIU, COSMIN MR Economy","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_39962"],"folder":"Austrian Airlines Flight Service","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["inline"]},{"id":"6af3738c-4a16-4762-ad29-092cb5b8a524","account_email":"covaciu.gnm@gmail.com","subject":"Passenger Receipt, Departure 11 Sep 26; 7D5S3F/ID=226004805436","from_name":"traveldetails@austrian.com","from_address":"traveldetails@austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-09T21:30:21Z","snippet":"Lieber Fluggast, anbei finden Sie Ihre/n Passenger Receipt/Rechnung. Laden Sie zum Öffnen des Dokuments den kostenlosen Acrobat Reader unter http://get.adobe.com/de/reader/ herunter. Vielen Dank für","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_43723"],"folder":"traveldetails@austrian.com","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["COSMIN COVACIU 257-4007743587.pdf"]},{"id":"d015488b-16f0-43b0-844c-3e414052053c","account_email":"covaciu.gnm@gmail.com","subject":"Passenger Receipt, Departure 11 Sep 26; 7D5S3F/ID=226004805437","from_name":"traveldetails@austrian.com","from_address":"traveldetails@austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-09T21:30:20Z","snippet":"Lieber Fluggast, anbei finden Sie Ihre/n Passenger Receipt/Rechnung. Laden Sie zum Öffnen des Dokuments den kostenlosen Acrobat Reader unter http://get.adobe.com/de/reader/ herunter. Vielen Dank für","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_43723"],"folder":"traveldetails@austrian.com","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["COSMIN COVACIU 257-2173314868.pdf"]},{"id":"f58a1f9a-29d5-4857-8f25-581de2304b4f","account_email":"covaciu.gnm@gmail.com","subject":"Thank you for booking with us | From Vienna to Sibiu on 11 September 2026","from_name":"Austrian Airlines Booking","from_address":"booking@information.austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-09-09T20:34:29Z","snippet":"Your trip to Sibiu: all booking details Please do not reply to this email. Booking code: 7D5S3F Booking Confirmation Thank you for booking with us Dear Mr Covaciu, Please find your booking details","category":"fyi","labels":["UNREAD","CATEGORY_UPDATES","INBOX","6: Travel","Label_39473"],"folder":"Austrian Airlines Booking","is_read":false,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["1_VIE-SBZ.ics"]},{"id":"7bf83ce3-cb6d-4b44-99b2-0f93eb24e4e2","account_email":"covaciu.gnm@gmail.com","subject":"Check in for Sibiu now","from_name":"Austrian Airlines Flight Service","from_address":"flight.service@information.austrian.com","to":["COVACIU.GNM@gmail.com"],"received_at":"2026-03-26T11:05:27Z","snippet":"Please do not reply to this email. Booking code: YSY7JR Check in and receive your boarding pass with one click Dear Mr. Covaciu, Check in now conveniently from anywhere and travel relaxed. We look","category":null,"labels":["CATEGORY_UPDATES","INBOX","6: Travel","Label_33087"],"folder":"Austrian Airlines Flight Service","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"437ece9b-ba24-45de-a7b3-eb4a8bb77576","account_email":"covaciu.gnm@gmail.com","subject":"Boarding pass for your flight | SBZ to VIE ...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"252166f7-1edf-4e5c-b619-07472007b211","account_email":"covaciu.gnm@gmail.com","subject":"76.50 RON spent at Wizz Air","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-01-14T15:19:23Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money This notification is for the business account of CESIRO TRADING SRL. Hello COSMIN, You spent 76.50 RON at Wizz Air.","category":null,"labels":["UNREAD","CATEGORY_UPDATES","INBOX","Label_31869","6: Travel"],"folder":"Wise","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]},{"id":"0d6de2ce-9e13-4776-9d8f-7951d04172ad","account_email":"covaciu.gnm@gmail.com","subject":"1,589.10 RON spent at Wizz Air","from_name":"Wise","from_address":"noreply@wise.com","to":["covaciu.gnm@gmail.com"],"received_at":"2026-01-14T14:44:33Z","snippet":"Communication code: CesiroTradingWise121 Wise. Your account for the world&#39;s money This notification is for the business account of CESIRO TRADING SRL. Hello COSMIN, You spent 1589.10 RON at Wizz","category":null,"labels":["UNREAD","CATEGORY_UPDATES","INBOX","Label_31869","6: Travel"],"folder":"Wise","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":false,"attachment_names":[]}],"total":2,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_download_link]
+input: {"document_id":"4f912e16-0c0b-4443-bb6e-c340c0aae34b","ttl_hours":168}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_download_link]
+input: {"document_id":"725c0677-a971-427f-af8d-09642bfcf3ca","ttl_hours":168}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_download_link]
+input: {"document_id":"b5315d28-5be0-4056-8775-e7e9bf94bd93","ttl_hours":168}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_download_link]
+input: {"document_id":"1a0b89a7-6a78-4c02-87f9-04d15de8c208","ttl_hours":168}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__3fa61b53-52e5-46ab-8775-2fd589deadc5__eva_get_download_link]
+input: {"document_id":"735a7c43-6699-4333-9fec-029c58b4a2e9","ttl_hours":168}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"url":"https://api.eva-org.com/api/v1/files/eyJkIjoiNGY5MTJlMTYtMGMwYi00NDQzLWJiNmUtYzM0MGMwYWFlMzRiIiwiZSI6MTc5MDE3MDc4NywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.iA4EpRzIP8mQpl0iaWz9uh_3T_mJvSK0D4Ni3HEPXxM","expires_at":"2026-09-23T13:39:47Z","filename":"DWAM-43171570.pdf","size":54782,"mime":"application/pdf","note":"Arată-i userului acest link ca adresă pe care o poate deschide direct."}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"url":"https://api.eva-org.com/api/v1/files/eyJkIjoiNzI1YzA2NzctYTk3MS00MjdmLWFmOGQtMDk2NDJiZmNmM2NhIiwiZSI6MTc5MDE3MDc4OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.cbcxrnr3mZYBNS91fHDZp-ZuDGGdS4Mmw55lmw3ZD8g","expires_at":"2026-09-23T13:39:48Z","filename":"DWAM-54267417.pdf","size":55074,"mime":"application/pdf","note":"Arată-i userului acest link ca adresă pe care o poate deschide direct."}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"url":"https://api.eva-org.com/api/v1/files/eyJkIjoiYjUzMTVkMjgtNWJlMC00MDU2LTg3NzUtZTdlOWJmOTRiZDkzIiwiZSI6MTc5MDE3MDc4OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.geunNPoW8lVzR2sFZ7WvMBFFcE1RL_qy4DASvmMIdo0","expires_at":"2026-09-23T13:39:48Z","filename":"ANIMA-WINGS-AVIATION-SA-AWCC-174519.pdf","size":102260,"mime":"application/pdf","note":"Arată-i userului acest link ca adresă pe care o poate deschide direct."}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"url":"https://api.eva-org.com/api/v1/files/eyJkIjoiMWEwYjg5YTctNmE3OC00YzAyLTg3ZjktMDRkMTVkZThjMjA4IiwiZSI6MTc5MDE3MDc4OSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.fwnrb2VAvSxB7PzdcM6_dWsNvD4kLjukx1bHluKcmgA","expires_at":"2026-09-23T13:39:49Z","filename":"COSMIN COVACIU 257-2173314868.pdf","size":61073,"mime":"application/pdf","note":"Arată-i userului acest link ca adresă pe care o poate deschide direct."}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"url":"https://api.eva-org.com/api/v1/files/eyJkIjoiNzM1YTdjNDMtNjY5OS00MzMzLTlmZWMtMDI5YzU4YjRhMmU5IiwiZSI6MTc5MDE3MDc4OSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.NfsBHkVgrGHoRjwOdBWYw_WUnpypQnBRMq2TrNHaBqo","expires_at":"2026-09-23T13:39:49Z","filename":"COSMIN COVACIU 257-4007743587.pdf","size":57774,"mime":"application/pdf","note":"Arată-i userului acest link ca adresă pe care o poate deschide direct."}
+[/external_agent_tool_result]
+
+## Asistent
+
+Am terminat căutarea. Am parcurs modulul de facturi EVA, toate căsuțele de email (gmail, ipec.ro, cesiro.com, yahoo) și atașamentele indexate, pentru anul 2026.
+
+**Rezultat pe scurt:** în 2026 EVA are 2 facturi Wizz Air, 1 factură Animawings (AirWings) și 0 facturi Lufthansa. În schimb există 2 chitanțe-factură de la Austrian Airlines, companie din grupul Lufthansa, pe care le-am inclus în caz că la ele te refereai. Toate sunt emise pe CESIRO TRADING SRL și au TVA 0% (transport internațional).
+
+| Furnizor | Nr. factură | Data | Rută / PNR | Sumă | Link (valabil până 23.09.2026) |
+|---|---|---|---|---|---|
+| Wizz Air Malta Ltd | DWAM-43171570 | 14.01.2026 | CLJ-BCN / BCN-CLJ, PNR TWDFRT | 1.665,60 RON (327,26 EUR) | [DWAM-43171570.pdf](https://api.eva-org.com/api/v1/files/eyJkIjoiNGY5MTJlMTYtMGMwYi00NDQzLWJiNmUtYzM0MGMwYWFlMzRiIiwiZSI6MTc5MDE3MDc4NywicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.iA4EpRzIP8mQpl0iaWz9uh_3T_mJvSK0D4Ni3HEPXxM) |
+| Wizz Air Malta Ltd | DWAM-54267417 | 29.07.2026 | ATH-OTP, PNR BSKSRH | 730,74 EUR | [DWAM-54267417.pdf](https://api.eva-org.com/api/v1/files/eyJkIjoiNzI1YzA2NzctYTk3MS00MjdmLWFmOGQtMDk2NDJiZmNmM2NhIiwiZSI6MTc5MDE3MDc4OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.cbcxrnr3mZYBNS91fHDZp-ZuDGGdS4Mmw55lmw3ZD8g) |
+| ANIMA WINGS AVIATION SA | AWCC 174519 | 03.08.2026 | CLJ-ATH 13.08.2026, PNR 13LNPS | 1.035,45 EUR (5.433,32 RON) | [AWCC-174519.pdf](https://api.eva-org.com/api/v1/files/eyJkIjoiYjUzMTVkMjgtNWJlMC00MDU2LTg3NzUtZTdlOWJmOTRiZDkzIiwiZSI6MTc5MDE3MDc4OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.geunNPoW8lVzR2sFZ7WvMBFFcE1RL_qy4DASvmMIdo0) |
+| Austrian Airlines AG (grup Lufthansa) | Passenger Receipt 226004805437 | 09.09.2026 | VIE-SBZ 11.09.2026, bilet 257-2173314868 | 224,97 EUR | [257-2173314868.pdf](https://api.eva-org.com/api/v1/files/eyJkIjoiMWEwYjg5YTctNmE3OC00YzAyLTg3ZjktMDRkMTVkZThjMjA4IiwiZSI6MTc5MDE3MDc4OSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.fwnrb2VAvSxB7PzdcM6_dWsNvD4kLjukx1bHluKcmgA) |
+| Austrian Airlines AG (grup Lufthansa) | Passenger Receipt 226004805436 | 09.09.2026 | rezervare loc OS709, PNR 7D5S3F | 36,00 EUR | [257-4007743587.pdf](https://api.eva-org.com/api/v1/files/eyJkIjoiNzM1YTdjNDMtNjY5OS00MzMzLTlmZWMtMDI5YzU4YjRhMmU5IiwiZSI6MTc5MDE3MDc4OSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.NfsBHkVgrGHoRjwOdBWYw_WUnpypQnBRMq2TrNHaBqo) |
+
+Observații:
+
+- **Wizz Air, ianuarie:** plata prin card Wise a fost 1.589,10 RON plus 76,50 RON separat. Factura DWAM-43171570 acoperă 1.665,60 RON, deci le cuprinde pe amândouă.
+- **Wizz Air, rezervări fără factură:** nu am găsit alte facturi DWAM din 2026. Dacă au existat zboruri Wizz plătite fără cerere de factură, ele nu apar în EVA.
+- **Austrian Airlines:** cele două documente sunt „Passenger Receipt / Invoice / Rechnung", care conform legii austriece a TVA constituie factură validă. Suma totală plătită cu cardul Wise a fost 260,97 EUR, exact suma celor două. Pentru zborul SBZ-VIE din 25.03.2026 (PNR YSY7JR) nu există nicio chitanță în EVA, doar boarding pass.
+- **Lufthansa propriu-zis:** nicio factură, niciun email de la lufthansa.com în 2026. Nici Eurowings.
+- **Modulul de facturi EVA:** niciuna dintre cele 5 nu este înregistrată acolo. Doar emailul Animawings are eticheta „10: Invoices". Cele Wizz și Austrian sunt etichetate „6: Travel", deci nu apar în rapoartele de facturi ale EVA.
+
+## Asistent
+
+<EXTERNAL SESSION IMPORTED>

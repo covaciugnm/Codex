@@ -1,0 +1,65 @@
+{
+  "local_originals_preserved": true,
+  "masked_files": [
+    {
+      "path": "Analizează emailul de la Peter Frigo/istoric.json",
+      "masked_values": {
+        "openai_key": 2
+      }
+    },
+    {
+      "path": "Analizează emailul de la Peter Frigo/rezultate.md",
+      "masked_values": {
+        "openai_key": 2
+      }
+    },
+    {
+      "path": "Descarcă înregistrare video de la Zoom/conversatie.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Descarcă înregistrare video de la Zoom/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Descarcă înregistrare video de la Zoom/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Revise DRACULA canon document/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Revise DRACULA canon document/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Zoom recording download method/conversatie.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Zoom recording download method/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Zoom recording download method/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    }
+  ]
+}

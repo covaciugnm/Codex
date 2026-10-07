@@ -1,0 +1,1658 @@
+{
+  "report_type": "NOMINAL_EDITORIAL_CALIBRATION_REVIEW",
+  "format_version": 1,
+  "report_id": "ROM-001-CALIBRARE-VERIFICARE-r01",
+  "revision": "r01",
+  "root": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000",
+  "reviewer": {
+    "agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+    "role": "A-QAMANAGER",
+    "qualification_basis": "Calificarea nominală r02 existentă, reutilizată conform mandatului; nu a fost recalibrată sau reaudiată aici.",
+    "independent_from_all_four_respondents_and_registered_producers": true
+  },
+  "reviewed_at": "2026-09-24T08:26:16+03:00",
+  "scope": {
+    "project_id": "ROM-001",
+    "response_set_version": "rom001-r01",
+    "task": "Control nominal al calibrării; nu audit G00, metaaudit G01 sau acceptare G02.",
+    "test_mode": "TEST sintetic, cu cheie deschisă; nu test orb.",
+    "product_contract": null,
+    "productive_score_issued": false,
+    "retroactive_qualification": false
+  },
+  "qualification_rule": {
+    "common_cases": 9,
+    "specialized_cases": 2,
+    "required_correct": 11,
+    "case_valid_when": [
+      "ID-ul cazului și verdictul corespund grilei rolului.",
+      "Motivul identifică semantic condiția decisivă fără fapte sau excepții inventate.",
+      "Proba indicată există și localizează efectiv stimulul/regula invocată."
+    ],
+    "role_verdict": "CALIFICAT numai cu identitate/rol/independență confirmate și toate 11 cazurile valide; altfel RETURN asupra exercițiului, nu asupra cheii.",
+    "self_declared_qualified_used_as_basis": false,
+    "product_threshold_unchanged": {
+      "score_scale": 1000,
+      "criterion_threshold_exclusive": 950,
+      "min_passing_integer": 951,
+      "mean_cannot_compensate": true
+    }
+  },
+  "evidence_convention": "Fiecare input_id se rezolvă univoc în inputs la path relativ la root și SHA-256 calculat pe bytes. :Lx-Ly indică linii fizice inclusive citite; /... este JSON Pointer. Nu sunt moștenite probe și nu există autoreferință la acest JSON.",
+  "inputs": [
+    {
+      "input_id": "I01",
+      "path": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md",
+      "sha256": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba",
+      "size_bytes": 6644
+    },
+    {
+      "input_id": "I02",
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_r01.md",
+      "sha256": "31ff8d6d1521a8e3a7edc594441cac3d95b45d9ec1a1349c20c1935bd84c9c38",
+      "size_bytes": 5041
+    },
+    {
+      "input_id": "I03",
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/agents_at_A_check.json",
+      "sha256": "85c2932b751598375a73e38a8732da602bfe6c894476c6d69497d019f6824806",
+      "size_bytes": 2042
+    },
+    {
+      "input_id": "I04",
+      "path": "00_CONDUCERE/MANUAL_ATELIER.md",
+      "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2",
+      "size_bytes": 13432
+    },
+    {
+      "input_id": "I05",
+      "path": "00_CONDUCERE/policy.json",
+      "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4",
+      "size_bytes": 190
+    },
+    {
+      "input_id": "I06",
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-GENRE-r01.json",
+      "sha256": "ab89793439aa8b704c555bb0acf921c247c00bf20143ef5f18603ad489fd6239",
+      "size_bytes": 4605
+    },
+    {
+      "input_id": "I07",
+      "path": "01_ECHIPA/A-GENRE.md",
+      "sha256": "72d0c6152ab6d8a7a90423708afda135da0258e47adabf097f79e83fe2b0d46b",
+      "size_bytes": 2164
+    },
+    {
+      "input_id": "I08",
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-GENRE-calibrare-r01.md",
+      "sha256": "28ab8ca95a0d6f7d28815e84bb07d1fcfa5bdbf9aeae836ded603f2ec5abcfc4",
+      "size_bytes": 1417
+    },
+    {
+      "input_id": "I09",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-GENRE-calibrare-predare-r01.json",
+      "sha256": "ce72ca8cde736ad24eb1a5863e9f0770410d1803fbe9d1653e77ec2bbae1def7",
+      "size_bytes": 663
+    },
+    {
+      "input_id": "I10",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-GENRE-calibrare-inchidere-r01.json",
+      "sha256": "c940e1a4e883f8d6e8a4f38fa89e2f8b8cf85e34a2833f1371f089053f6fb20d",
+      "size_bytes": 619
+    },
+    {
+      "input_id": "I11",
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-ORIGINALITY-r01.json",
+      "sha256": "500cdda1f6c1dd98bf590c96d146897c588bbd90d2c528461600a080017c966a",
+      "size_bytes": 5820
+    },
+    {
+      "input_id": "I12",
+      "path": "01_ECHIPA/A-ORIGINALITY.md",
+      "sha256": "a25f432bf8afc1c6e88e2f0d2c82717c0a6879482be423310105fff2bb51ed6a",
+      "size_bytes": 2155
+    },
+    {
+      "input_id": "I13",
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-ORIGINALITY-calibrare-r01.md",
+      "sha256": "7ca0f635df6e8611870ebf7399dcacda47565836ed1347dac299f4f956df59fb",
+      "size_bytes": 1441
+    },
+    {
+      "input_id": "I14",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-ORIGINALITY-calibrare-predare-r01.json",
+      "sha256": "e4998552499003413ad184ad5137e2358d79fc7077a7b6775a7f1e1aa0f30925",
+      "size_bytes": 732
+    },
+    {
+      "input_id": "I15",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-ORIGINALITY-calibrare-inchidere-r01.json",
+      "sha256": "e11ab70f84fc3a7f1600511d8f8051f5278376bf381e3fc18d2f33b85e68fb04",
+      "size_bytes": 682
+    },
+    {
+      "input_id": "I16",
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-STRUCTURE-r01.json",
+      "sha256": "c3c5cdd70c3914ded56487a2bb19829d194842e1e1ad5079c928010534ca7c2f",
+      "size_bytes": 5430
+    },
+    {
+      "input_id": "I17",
+      "path": "01_ECHIPA/A-STRUCTURE.md",
+      "sha256": "2624182c60fdb71beec860552b10090bbc867910fc025248e9e5f22afef268b9",
+      "size_bytes": 2144
+    },
+    {
+      "input_id": "I18",
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-STRUCTURE-calibrare-r01.md",
+      "sha256": "d6d900b7e2979ebc885841b2b36d56c7160f707673a95fe107571460641ca79c",
+      "size_bytes": 1433
+    },
+    {
+      "input_id": "I19",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-STRUCTURE-calibrare-predare-r01.json",
+      "sha256": "4f86c6023dafcba74cfc1a924ce69733813bae04263af08547d58a24687c46bb",
+      "size_bytes": 657
+    },
+    {
+      "input_id": "I20",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-STRUCTURE-calibrare-inchidere-r01.json",
+      "sha256": "6ecbab3e9a33ae198663e3e845564a4053f194397c8d3cd389460b9e770516c1",
+      "size_bytes": 609
+    },
+    {
+      "input_id": "I21",
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-EN-r01.json",
+      "sha256": "56ab181b64702650fe66889e0fbe8f69c1c9284daeac5d0e4af0d643be67a561",
+      "size_bytes": 5731
+    },
+    {
+      "input_id": "I22",
+      "path": "01_ECHIPA/A-EN.md",
+      "sha256": "581b71ebc2aa2cccfd90957c671451258b7b647720963423010e2d12c00a7bce",
+      "size_bytes": 2121
+    },
+    {
+      "input_id": "I23",
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-EN-calibrare-r01.md",
+      "sha256": "1b404ef083d4732dbc464edb75e5cf3334c5846ec4cd2a341f0bb08250a474ba",
+      "size_bytes": 1405
+    },
+    {
+      "input_id": "I24",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-EN-calibrare-predare-r01.json",
+      "sha256": "cda559410a46f86e89c80a5a196527f4aa27cfbbacbc7c95312b62617fb0ee2f",
+      "size_bytes": 638
+    },
+    {
+      "input_id": "I25",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-EN-calibrare-inchidere-r01.json",
+      "sha256": "d8254498959d32dd1db1417bec2654c02ecc129e94d92988652de8b0fb1766bb",
+      "size_bytes": 597
+    },
+    {
+      "input_id": "I26",
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/agents_at_A_check_provenance.json",
+      "sha256": "baf62c5779a50a5ac11c9102503778c2d9035058e24a89642c454363b2ebcc84",
+      "size_bytes": 345
+    }
+  ],
+  "method": [
+    "Citire integrală a ambelor seturi, celor patru fișe și răspunsuri (44 cazuri), manualului/politicii, registrului inițial, mandatelor și celor opt înregistrări de predare/închidere; ulterior, citire integrală a fotografiei stabile/provenienței și reverificare nominală în registrul live.",
+    "Comparare independentă cu cheia pe exact C01–C09 și cele două cazuri proprii rolului, apoi aprecierea semantică a fiecărui motiv și citirea localizărilor efective, inclusiv trimiterile suplimentare la manual/fișă.",
+    "Control de structură JSON, chei duplicate, tipuri, 11 ID-uri unice în fiecare răspuns, identități UUID distincte, roluri și statut de autorizare, date cu secunde/fus, concordanța predării și închiderii.",
+    "Recalculare a numărătorilor din rezultatele QA, comparate abia ulterior cu passed_count/total_count/qualified declarate.",
+    "SHA-256 pe 25 de intrări inițiale. Controlul final a detectat schimbarea registrului live; fotografia furnizată de manager corespunde hashului inițial, celelalte 24 de intrări rămân neschimbate. Inventarul final are 26 de intrări fixe: cele 24, fotografia și proveniența ei. Verificare finală read-only a MD/JSON și a tuturor probelor fixate."
+  ],
+  "identity_review": {
+    "registry_input_id": "I03",
+    "qa_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+    "excluded_producer_ids": [
+      "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+      "01a0d0d7-e865-7b71-9707-be8786099512",
+      "01a0d0d8-0415-77a3-88c6-755ad2530f62",
+      "01a0d0d9-1f95-7211-8093-c26e28e6ebee",
+      "01a0d1c4-17bb-7e03-93a3-e542824bc776"
+    ],
+    "distinct_respondent_count": 4,
+    "respondent_ids_disjoint_from_qa_and_producers": true,
+    "authorization_interpretation": "active:true în agents.json înseamnă autorizare; nu contrazice închiderea execuțiilor și nu dovedește că rulează activ.",
+    "closure_attribution_limit": "Fișierele de închidere conțin previous_status.completed, nu un câmp agent_id propriu. Atribuirea se sprijină pe numele nominal al fișierului și egalitatea exactă cu message din predarea care conține agent_id/role; nu pretind autentificare externă sau timestamp de închidere absent.",
+    "registry_provenance_input_id": "I26",
+    "live_registry_observation": {
+      "source_path": "06_REGISTRU/agents.json",
+      "checked_at": "2026-09-24T08:26:16+03:00",
+      "not_pinned_as_hash_evidence": true,
+      "initial_hash_mismatch_detected": true,
+      "snapshot_matches_initial_sha256": true,
+      "snapshot_provenance": {
+        "input_id": "I26",
+        "anchor": "/sha256"
+      },
+      "captured_at_declared_by_manager": "2026-09-24T08:25:30.3363657+03:00",
+      "original_context_entries_unchanged": 14,
+      "live_entry_count": 18,
+      "current_nominal_authorizations": [
+        {
+          "agent_id": "01a0d1d0-67b7-7ea2-9e31-562bc344aaa7",
+          "role": "A-GENRE",
+          "kind": "auditor",
+          "active": true,
+          "matches_snapshot": true
+        },
+        {
+          "agent_id": "01a0d1d0-690e-7871-b245-6817b004172f",
+          "role": "A-ORIGINALITY",
+          "kind": "auditor",
+          "active": true,
+          "matches_snapshot": true
+        },
+        {
+          "agent_id": "01a0d1d0-6cb7-7681-8010-b13b8b640dad",
+          "role": "A-STRUCTURE",
+          "kind": "auditor",
+          "active": true,
+          "matches_snapshot": true
+        },
+        {
+          "agent_id": "01a0d1d0-6f17-7c52-a5f8-a3c3178c2cb8",
+          "role": "A-EN",
+          "kind": "auditor",
+          "active": true,
+          "matches_snapshot": true
+        }
+      ],
+      "additional_entries_not_evaluated": 4,
+      "scope_limit": "Observație punctuală, nu audit al lotului B. Hash contextual stabil: I03; proveniență: I26. Nicio schimbare a celor 44 de rezultate."
+    }
+  },
+  "roles": [
+    {
+      "role": "A-GENRE",
+      "agent_id": "01a0d1d0-67b7-7ea2-9e31-562bc344aaa7",
+      "response_input_id": "I06",
+      "completed_at": "2026-09-24T08:09:45.3115206+03:00",
+      "identity_checks": {
+        "registered_role_and_auditor_kind": true,
+        "authorized_in_registry": true,
+        "id_distinct_from_other_respondents": true,
+        "id_distinct_from_qa_and_all_registered_producers": true,
+        "mandate_matches_role_and_response_path": true,
+        "handoff_matches_id_role_and_response_path": true,
+        "closure_completed_matches_handoff_message_exactly": true,
+        "current_live_registry_id_role_kind_authorization_unchanged": true
+      },
+      "identity_evidence": [
+        {
+          "input_id": "I03",
+          "anchor": "/agents"
+        },
+        {
+          "input_id": "I06",
+          "anchor": "/agent_id"
+        },
+        {
+          "input_id": "I06",
+          "anchor": "/role"
+        },
+        {
+          "input_id": "I09",
+          "anchor": "/agent_id"
+        },
+        {
+          "input_id": "I09",
+          "anchor": "/role"
+        },
+        {
+          "input_id": "I09",
+          "anchor": "/message"
+        },
+        {
+          "input_id": "I10",
+          "anchor": "/previous_status/completed"
+        }
+      ],
+      "role_file_input_id": "I07",
+      "mandate_input_id": "I08",
+      "specialized_scope": "Aplicarea brief-ului de gen și final; relevanța probelor de public. Domeniul fișei: G02, G03, G06, G09.",
+      "results": [
+        {
+          "case_id": "C01",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică exact criteriul neadmis: 950 > 950 este fals; notele 980 nu îl compensează.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L7-L11"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L12-L14"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "C02",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Leagă aliasul Y de ID-ul producătorului X; aliasul nu elimină autoauditul.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L13-L17"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L16-L18"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "C03",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Separă amprenta veche A de versiunea curentă B și cere audit nou, nu transferul aprobării.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L19-L23"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L20-L22"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "C04",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Localizează lipsa capitolului C02 din C01–C03; sumarul nu este textul absent.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L25-L29"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L24-L26"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "C05",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Recunoaște dublarea scenei de 2.000 de cuvinte și cere remediere, renumărare și retest, fără total inventat.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L31-L35"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L28-L30"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "C06",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Confruntă Mara vie în V2 cu moartea definitivă din V1; nu inventează o excepție de canon.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L37-L41"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L32-L34"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "C07",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică exact P04 fără corespondent DE și cere reverificare pe identificatori, nu pe volum.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L43-L47"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L36-L38"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "C08",
+          "expected_verdict": "PASS",
+          "observed_verdict": "PASS",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Aplică 951 > 950 împreună cu toate condițiile stipulate; nu cere artificial 1000.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L49-L53"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L40-L42"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "C09",
+          "expected_verdict": "NU_E_DEFECT_IN_SINE",
+          "observed_verdict": "NU_E_DEFECT_IN_SINE",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Acceptă doar delimitarea onestă a selecției preliminare; exclude explicit PASS automat și aprobarea romanului.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L55-L59"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L44-L46"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "A-GENRE-S01",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Leagă RETURN de finalul optimist cerut prin brief și încălcat fără aprobare, nu de o interdicție a tragediei.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L61-L65"
+          },
+          "set_evidence": {
+            "input_id": "I02",
+            "anchor": ":L4-L6"
+          },
+          "additional_evidence_checked": []
+        },
+        {
+          "case_id": "A-GENRE-S02",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Respinge extrapolarea cererii de romance din manuale/joc sportiv fără legătură demonstrată; nu confundă succesul cu relevanța.",
+          "response_evidence": {
+            "input_id": "I06",
+            "anchor": ":L67-L71"
+          },
+          "set_evidence": {
+            "input_id": "I02",
+            "anchor": ":L7-L9"
+          },
+          "additional_evidence_checked": []
+        }
+      ],
+      "calculation": {
+        "common_correct": 9,
+        "specialized_correct": 2,
+        "correct": 11,
+        "total": 11,
+        "expression": "9 + 2 = 11; 11/11; identitate și probe valide."
+      },
+      "self_reported_counts_checked_not_adopted": {
+        "passed_count": 11,
+        "total_count": 11,
+        "qualified": true
+      },
+      "verdict": "CALIFICAT",
+      "verdict_reason": "Toate cele 11 verdicturi, motive și localizări sunt valide; identitatea nominală, rolul și independența documentară concordă.",
+      "measures": []
+    },
+    {
+      "role": "A-ORIGINALITY",
+      "agent_id": "01a0d1d0-690e-7871-b245-6817b004172f",
+      "response_input_id": "I11",
+      "completed_at": "2026-09-24T08:09:01+03:00",
+      "identity_checks": {
+        "registered_role_and_auditor_kind": true,
+        "authorized_in_registry": true,
+        "id_distinct_from_other_respondents": true,
+        "id_distinct_from_qa_and_all_registered_producers": true,
+        "mandate_matches_role_and_response_path": true,
+        "handoff_matches_id_role_and_response_path": true,
+        "closure_completed_matches_handoff_message_exactly": true,
+        "current_live_registry_id_role_kind_authorization_unchanged": true
+      },
+      "identity_evidence": [
+        {
+          "input_id": "I03",
+          "anchor": "/agents"
+        },
+        {
+          "input_id": "I11",
+          "anchor": "/agent_id"
+        },
+        {
+          "input_id": "I11",
+          "anchor": "/role"
+        },
+        {
+          "input_id": "I14",
+          "anchor": "/agent_id"
+        },
+        {
+          "input_id": "I14",
+          "anchor": "/role"
+        },
+        {
+          "input_id": "I14",
+          "anchor": "/message"
+        },
+        {
+          "input_id": "I15",
+          "anchor": "/previous_status/completed"
+        }
+      ],
+      "role_file_input_id": "I12",
+      "mandate_input_id": "I13",
+      "specialized_scope": "Distincția mecanism general/configurație recognoscibilă; matricea de diferențiere. Domeniul fișei: G03, G10; fără certificat juridic.",
+      "results": [
+        {
+          "case_id": "C01",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Calculează corect minimul întreg 951; un criteriu 950 nu poate fi salvat de media celorlalte.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L7-L11"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L12-L14"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L18-L18"
+            }
+          ]
+        },
+        {
+          "case_id": "C02",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică același ID X sub alias Y și cere evaluator distinct; schimbarea numelui nu produce independență.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L13-L17"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L16-L18"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L20-L20"
+            }
+          ]
+        },
+        {
+          "case_id": "C03",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Constată A ≠ B și cere audit nou; respinge explicit simpla înlocuire a hashului.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L19-L23"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L20-L22"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L20-L20"
+            },
+            {
+              "input_id": "I04",
+              "anchor": ":L25-L25"
+            }
+          ]
+        },
+        {
+          "case_id": "C04",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Localizează C02 absent din predarea C01–C03 și nu echivalează declarația sumarului cu proza.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L25-L29"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L24-L26"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L70-L70"
+            }
+          ]
+        },
+        {
+          "case_id": "C05",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Recunoaște dubla contabilizare a celor 2.000 de cuvinte; nu păstrează duplicatul pentru atingerea pragului.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L31-L35"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L28-L30"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L58-L60"
+            }
+          ]
+        },
+        {
+          "case_id": "C06",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Confruntă explicit moartea definitivă din V1 cu V2, fără înviere sau autorizare inventată.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L37-L41"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L32-L34"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L30-L30"
+            },
+            {
+              "input_id": "I04",
+              "anchor": ":L70-L70"
+            }
+          ]
+        },
+        {
+          "case_id": "C07",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică P04 omis și verificarea necesară P01–P04, indiferent de lungimea traducerii.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L43-L47"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L36-L38"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L77-L77"
+            }
+          ]
+        },
+        {
+          "case_id": "C08",
+          "expected_verdict": "PASS",
+          "observed_verdict": "PASS",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Acceptă numai situația sintetică complet stipulată: 951 > 950, independență, versiune, zero constatări și controale îndeplinite.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L49-L53"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L40-L42"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L18-L20"
+            }
+          ]
+        },
+        {
+          "case_id": "C09",
+          "expected_verdict": "NU_E_DEFECT_IN_SINE",
+          "observed_verdict": "NU_E_DEFECT_IN_SINE",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Diferențiază acoperirea preliminară declarată de eșantionul ascuns; nu aprobă automat canonul ori romanul.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L55-L59"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L44-L46"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I12",
+              "anchor": ":L24-L24"
+            }
+          ]
+        },
+        {
+          "case_id": "A-ORIGINALITY-S01",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică configurația distinctivă a celor șapte întâmplări, relațiilor, indiciilor și finalului, păstrată sub nume noi; verdict editorial, nu juridic.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L61-L65"
+          },
+          "set_evidence": {
+            "input_id": "I02",
+            "anchor": ":L10-L12"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L41-L43"
+            },
+            {
+              "input_id": "I12",
+              "anchor": ":L21-L21"
+            }
+          ]
+        },
+        {
+          "case_id": "A-ORIGINALITY-S02",
+          "expected_verdict": "NU_E_DEFECT_IN_SINE",
+          "observed_verdict": "NU_E_DEFECT_IN_SINE",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Verifică cele zece axe stipulate ca diferite; motivul generic al scrisorii nu este singur defect, PASS automat sau garanție juridică.",
+          "response_evidence": {
+            "input_id": "I11",
+            "anchor": ":L67-L71"
+          },
+          "set_evidence": {
+            "input_id": "I02",
+            "anchor": ":L13-L15"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L37-L43"
+            },
+            {
+              "input_id": "I12",
+              "anchor": ":L9-L9"
+            },
+            {
+              "input_id": "I12",
+              "anchor": ":L21-L21"
+            }
+          ]
+        }
+      ],
+      "calculation": {
+        "common_correct": 9,
+        "specialized_correct": 2,
+        "correct": 11,
+        "total": 11,
+        "expression": "9 + 2 = 11; 11/11; identitate și probe valide."
+      },
+      "self_reported_counts_checked_not_adopted": {
+        "passed_count": 11,
+        "total_count": 11,
+        "qualified": true
+      },
+      "verdict": "CALIFICAT",
+      "verdict_reason": "Toate cele 11 verdicturi, motive și localizări sunt valide; identitatea nominală, rolul și independența documentară concordă.",
+      "measures": []
+    },
+    {
+      "role": "A-STRUCTURE",
+      "agent_id": "01a0d1d0-6cb7-7681-8010-b13b8b640dad",
+      "response_input_id": "I16",
+      "completed_at": "2026-09-24T08:09:54.8627055+03:00",
+      "identity_checks": {
+        "registered_role_and_auditor_kind": true,
+        "authorized_in_registry": true,
+        "id_distinct_from_other_respondents": true,
+        "id_distinct_from_qa_and_all_registered_producers": true,
+        "mandate_matches_role_and_response_path": true,
+        "handoff_matches_id_role_and_response_path": true,
+        "closure_completed_matches_handoff_message_exactly": true,
+        "current_live_registry_id_role_kind_authorization_unchanged": true
+      },
+      "identity_evidence": [
+        {
+          "input_id": "I03",
+          "anchor": "/agents"
+        },
+        {
+          "input_id": "I16",
+          "anchor": "/agent_id"
+        },
+        {
+          "input_id": "I16",
+          "anchor": "/role"
+        },
+        {
+          "input_id": "I19",
+          "anchor": "/agent_id"
+        },
+        {
+          "input_id": "I19",
+          "anchor": "/role"
+        },
+        {
+          "input_id": "I19",
+          "anchor": "/message"
+        },
+        {
+          "input_id": "I20",
+          "anchor": "/previous_status/completed"
+        }
+      ],
+      "role_file_input_id": "I17",
+      "mandate_input_id": "I18",
+      "specialized_scope": "Pregătirea și cauzalitatea climaxului; funcția structurală a scenei. Domeniul fișei: G05, G07, G08.",
+      "results": [
+        {
+          "case_id": "C01",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică pragul strict pe fiecare criteriu: 950 nu trece; media și 980 pe alte criterii sunt nerelevante pentru această lipsă.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L7-L11"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L12-L14"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L18-L18"
+            }
+          ]
+        },
+        {
+          "case_id": "C02",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Urmărește ID-ul X, nu aliasul Y; cere refacere de către o execuție distinctă.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L13-L17"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L16-L18"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L20-L20"
+            }
+          ]
+        },
+        {
+          "case_id": "C03",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Recunoaște amprentele A/B ca versiuni diferite și cere audit pe fișierul și dependențele fixate.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L19-L23"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L20-L22"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L20-L20"
+            },
+            {
+              "input_id": "I04",
+              "anchor": ":L25-L25"
+            }
+          ]
+        },
+        {
+          "case_id": "C04",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Localizează C02 absent; nu acceptă sumarul drept înlocuitor al capitolului.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L25-L29"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L24-L26"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I17",
+              "anchor": ":L24-L24"
+            }
+          ]
+        },
+        {
+          "case_id": "C05",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Distinge repetarea textuală a scenei de proza nouă și cere remedierea redundanței plus renumărare.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L31-L35"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L28-L30"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L58-L60"
+            }
+          ]
+        },
+        {
+          "case_id": "C06",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică ruptura V1/V2 a canonului Mara și refuză justificările absente din stimul.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L37-L41"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L32-L34"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L30-L30"
+            }
+          ]
+        },
+        {
+          "case_id": "C07",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică omisiunea DE la P04 și necesitatea restabilirii corespondenței, nu o comparație de lungime.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L43-L47"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L36-L38"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L77-L77"
+            }
+          ]
+        },
+        {
+          "case_id": "C08",
+          "expected_verdict": "PASS",
+          "observed_verdict": "PASS",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Aplică 951 > 950 numai în cazul cu toate celelalte condiții stipulate îndeplinite; nu inventează prag 1000.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L49-L53"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L40-L42"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L18-L20"
+            }
+          ]
+        },
+        {
+          "case_id": "C09",
+          "expected_verdict": "NU_E_DEFECT_IN_SINE",
+          "observed_verdict": "NU_E_DEFECT_IN_SINE",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Limita declarată corespunde selecției preliminare; răspunsul nu o extinde la acceptarea etapelor ulterioare.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L55-L59"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L44-L46"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L27-L27"
+            },
+            {
+              "input_id": "I17",
+              "anchor": ":L24-L24"
+            }
+          ]
+        },
+        {
+          "case_id": "A-STRUCTURE-S01",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Localizează lipsa pregătirii necunoscutului/cheii și ruptura dintre climax și alegerile protagonistului; o afirmație despre un indiciu absent nu remediază.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L61-L65"
+          },
+          "set_evidence": {
+            "input_id": "I02",
+            "anchor": ":L16-L18"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L46-L50"
+            },
+            {
+              "input_id": "I17",
+              "anchor": ":L9-L12"
+            }
+          ]
+        },
+        {
+          "case_id": "A-STRUCTURE-S02",
+          "expected_verdict": "NU_E_DEFECT_IN_SINE",
+          "observed_verdict": "NU_E_DEFECT_IN_SINE",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Urmărește dialog → schimbarea alianței/protecției → obligație → scena următoare; absența violenței nu anulează funcția cauzală.",
+          "response_evidence": {
+            "input_id": "I16",
+            "anchor": ":L67-L71"
+          },
+          "set_evidence": {
+            "input_id": "I02",
+            "anchor": ":L19-L21"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L48-L48"
+            },
+            {
+              "input_id": "I17",
+              "anchor": ":L6-L6"
+            }
+          ]
+        }
+      ],
+      "calculation": {
+        "common_correct": 9,
+        "specialized_correct": 2,
+        "correct": 11,
+        "total": 11,
+        "expression": "9 + 2 = 11; 11/11; identitate și probe valide."
+      },
+      "self_reported_counts_checked_not_adopted": {
+        "passed_count": 11,
+        "total_count": 11,
+        "qualified": true
+      },
+      "verdict": "CALIFICAT",
+      "verdict_reason": "Toate cele 11 verdicturi, motive și localizări sunt valide; identitatea nominală, rolul și independența documentară concordă.",
+      "measures": []
+    },
+    {
+      "role": "A-EN",
+      "agent_id": "01a0d1d0-6f17-7c52-a5f8-a3c3178c2cb8",
+      "response_input_id": "I21",
+      "completed_at": "2026-09-24T08:09:01.5282651+03:00",
+      "identity_checks": {
+        "registered_role_and_auditor_kind": true,
+        "authorized_in_registry": true,
+        "id_distinct_from_other_respondents": true,
+        "id_distinct_from_qa_and_all_registered_producers": true,
+        "mandate_matches_role_and_response_path": true,
+        "handoff_matches_id_role_and_response_path": true,
+        "closure_completed_matches_handoff_message_exactly": true,
+        "current_live_registry_id_role_kind_authorization_unchanged": true
+      },
+      "identity_evidence": [
+        {
+          "input_id": "I03",
+          "anchor": "/agents"
+        },
+        {
+          "input_id": "I21",
+          "anchor": "/agent_id"
+        },
+        {
+          "input_id": "I21",
+          "anchor": "/role"
+        },
+        {
+          "input_id": "I24",
+          "anchor": "/agent_id"
+        },
+        {
+          "input_id": "I24",
+          "anchor": "/role"
+        },
+        {
+          "input_id": "I24",
+          "anchor": "/message"
+        },
+        {
+          "input_id": "I25",
+          "anchor": "/previous_status/completed"
+        }
+      ],
+      "role_file_input_id": "I22",
+      "mandate_input_id": "I23",
+      "specialized_scope": "Acord, referent, perspectivă și dialog eliptic idiomatic. Domeniul fișei: G06, G07, G09, G11; fără certificare de nativ uman.",
+      "results": [
+        {
+          "case_id": "C01",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică neîndeplinirea strictă 950 > 950; celelalte note sau media nu justifică PASS.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L7-L11"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L12-L14"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L18-L18"
+            }
+          ]
+        },
+        {
+          "case_id": "C02",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Confruntă ID-ul autorului cu cel al semnatarului și identifică autoauditul sub alias.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L13-L17"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L16-L18"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L20-L20"
+            }
+          ]
+        },
+        {
+          "case_id": "C03",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Recunoaște versiunea veche A versus B curent și cere audit nou, fără transfer tacit al aprobării.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L19-L23"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L20-L22"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L20-L20"
+            },
+            {
+              "input_id": "I04",
+              "anchor": ":L25-L25"
+            }
+          ]
+        },
+        {
+          "case_id": "C04",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică lipsa concretă C02, deși sumarul pretinde predare completă.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L25-L29"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L24-L26"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L70-L70"
+            }
+          ]
+        },
+        {
+          "case_id": "C05",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Recunoaște scena identică de 2.000 de cuvinte numărată dublu; cere remediere și reverificare, fără total de roman inventat.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L31-L35"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L28-L30"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L58-L58"
+            },
+            {
+              "input_id": "I04",
+              "anchor": ":L60-L60"
+            }
+          ]
+        },
+        {
+          "case_id": "C06",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Identifică contradicția moarte definitivă V1/personaj viu V2 și nu inventează înviere ori schimbare autorizată.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L37-L41"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L32-L34"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L30-L30"
+            },
+            {
+              "input_id": "I04",
+              "anchor": ":L70-L70"
+            }
+          ]
+        },
+        {
+          "case_id": "C07",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Localizează P04 omis din DE și cere verificare pe identificatori, independent de volumul de cuvinte.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L43-L47"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L36-L38"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L75-L75"
+            },
+            {
+              "input_id": "I04",
+              "anchor": ":L77-L77"
+            }
+          ]
+        },
+        {
+          "case_id": "C08",
+          "expected_verdict": "PASS",
+          "observed_verdict": "PASS",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Aplică 951 > 950 cu întregul pachet de condiții stipulate; nu adaugă cerința 1000.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L49-L53"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L40-L42"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I04",
+              "anchor": ":L18-L18"
+            },
+            {
+              "input_id": "I04",
+              "anchor": ":L20-L20"
+            }
+          ]
+        },
+        {
+          "case_id": "C09",
+          "expected_verdict": "NU_E_DEFECT_IN_SINE",
+          "observed_verdict": "NU_E_DEFECT_IN_SINE",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Recunoaște acoperirea preliminară declarată fără a deduce acceptarea canonului integral sau a produsului.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L55-L59"
+          },
+          "set_evidence": {
+            "input_id": "I01",
+            "anchor": ":L44-L46"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I22",
+              "anchor": ":L24-L24"
+            }
+          ]
+        },
+        {
+          "case_id": "A-EN-S01",
+          "expected_verdict": "RETURN",
+          "observed_verdict": "RETURN",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Localizează ambele dezacorduri Anna/have și He/were, plus pronumele masculin fără antecedent în perspectiva dată; nu inventează dialect.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L61-L65"
+          },
+          "set_evidence": {
+            "input_id": "I02",
+            "anchor": ":L22-L24"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I22",
+              "anchor": ":L6-L6"
+            },
+            {
+              "input_id": "I22",
+              "anchor": ":L12-L12"
+            }
+          ]
+        },
+        {
+          "case_id": "A-EN-S02",
+          "expected_verdict": "NU_E_DEFECT_IN_SINE",
+          "observed_verdict": "NU_E_DEFECT_IN_SINE",
+          "key_matches": true,
+          "semantic_reason_valid": true,
+          "evidence_valid": true,
+          "result": "CORECT",
+          "qa_reason": "Recunoaște replica eliptică «Not tonight» ca idiomatică și autorizată de brief; lipsa verbului finit nu este singură defect sau PASS global.",
+          "response_evidence": {
+            "input_id": "I21",
+            "anchor": ":L67-L71"
+          },
+          "set_evidence": {
+            "input_id": "I02",
+            "anchor": ":L25-L27"
+          },
+          "additional_evidence_checked": [
+            {
+              "input_id": "I22",
+              "anchor": ":L6-L6"
+            },
+            {
+              "input_id": "I22",
+              "anchor": ":L12-L12"
+            }
+          ]
+        }
+      ],
+      "calculation": {
+        "common_correct": 9,
+        "specialized_correct": 2,
+        "correct": 11,
+        "total": 11,
+        "expression": "9 + 2 = 11; 11/11; identitate și probe valide."
+      },
+      "self_reported_counts_checked_not_adopted": {
+        "passed_count": 11,
+        "total_count": 11,
+        "qualified": true
+      },
+      "verdict": "CALIFICAT",
+      "verdict_reason": "Toate cele 11 verdicturi, motive și localizări sunt valide; identitatea nominală, rolul și independența documentară concordă.",
+      "measures": []
+    }
+  ],
+  "calculations": [
+    {
+      "case_id": "C01",
+      "expression": "950 > 950 = fals; 950/100 = 9,50.",
+      "conclusion": "RETURN în fiecare rol; media nu compensează un criteriu neadmis."
+    },
+    {
+      "case_id": "C05",
+      "expression": "2 × 2.000 = 4.000 cuvinte contabilizate pentru același bloc de 2.000; surplusul duplicat este 2.000.",
+      "conclusion": "RETURN; totalul eligibil al unui roman real nu este dat și nu a fost inventat."
+    },
+    {
+      "case_id": "C07",
+      "expression": "{P01,P02,P03,P04} − {P01,P02,P03} = {P04}; 1 paragraf omis.",
+      "conclusion": "RETURN; numărul de cuvinte nu repară integralitatea."
+    },
+    {
+      "case_id": "C08",
+      "expression": "951 > 950 = adevărat; 951/100 = 9,51.",
+      "conclusion": "PASS numai în stimulul care stipulează toate celelalte condiții îndeplinite."
+    },
+    {
+      "case_id": "A-ORIGINALITY-S02",
+      "expression": "10 axe: personaje, motivații, relații, obiective, loc, timp, cauzalitate, indicii, rezolvare, voce.",
+      "conclusion": "NU_E_DEFECT_IN_SINE pentru mecanismul general; nu PASS automat."
+    }
+  ],
+  "summary": {
+    "respondents": 4,
+    "cases_reviewed": 44,
+    "key_matches": 44,
+    "valid_semantic_reasons": 44,
+    "valid_evidence": 44,
+    "correct_results": 44,
+    "qualified_roles": 4,
+    "returned_roles": 0,
+    "synthetic_verdict_distribution": {
+      "RETURN": 33,
+      "PASS": 4,
+      "NU_E_DEFECT_IN_SINE": 7
+    },
+    "findings": [],
+    "measures": []
+  },
+  "limits": [
+    "Set deschis, cu cheia disponibilă: nu este test orb, estimare statistică a performanței sau demonstrație de competență literară exhaustivă.",
+    "Calificare nominală pentru exact cele patru ID-uri/roluri și grila verificată, aplicabilă prospectiv; nu califică retroactiv r01 și nu acceptă automat audituri productive viitoare.",
+    "NU_E_DEFECT_IN_SINE nu înseamnă PASS automat. PASS din C08 privește doar cazul TEST și condițiile stipulate, nu un produs real.",
+    "Nu au fost recitite manuscrise/surse web, repetate calibrări anterioare sau emise note productive, metaaudit G01, acceptare G02 ori certificat uman/juridic/de succes comercial.",
+    "Identitățile sunt confirmate documentar prin fotografia stabilă și proveniența ei, mandate și predări/închideri, plus reverificare nominală punctuală în registrul live; nu pretind autentificare externă a infrastructurii. Înregistrările de închidere nu furnizează separat identitate sau dată certificată.",
+    "Fișa/manualul și suplimentul au fost aplicate fără schimbarea politicii: fiecare criteriu productiv strict >950/1000 și zero constatări deschise; aceste condiții nu sunt evaluate aici pentru ROM-001.",
+    "Au fost scrise exclusiv cele două fișiere VERIFICARE_r01; intrările și registrele nu au fost modificate. Arhivarea probelor fixe revine managerului și nu a fost executată de QA."
+  ],
+  "archive_status": "NEEFECTUATA_DE_QA",
+  "readable_report": {
+    "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.md",
+    "sha256": "13f1d435a47ce6df97f487e67d0abcca39f81c64ccf28165f041a65dfed7d42e"
+  }
+}

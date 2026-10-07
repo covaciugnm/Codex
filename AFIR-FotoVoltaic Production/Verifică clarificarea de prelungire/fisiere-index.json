@@ -1,0 +1,30 @@
+[
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Audit Clarificare nr1 - 30.09.2026/ISTORIC_COMENZI_REZULTATE.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/ISTORIC_COMENZI_REZULTATE--94dbd163.jsonl",
+    "bytes": 1745861,
+    "sha256": "0c7aba5906afa0afbd9e65597d96c6ff0a3e172f63ac8493b9dc1f7ea9cd3125"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Audit Clarificare nr1 - 30.09.2026/JURNAL_OBIECTIVE_ACTIUNI_REZULTATE.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/JURNAL_OBIECTIVE_ACTIUNI_REZULTATE--95c36a5e.txt",
+    "bytes": 6383,
+    "sha256": "9a56f60b2e874f3d5a5a8345da384bc9378c78408ab9e4dc7ddc51ef44fa2ee9"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Audit Clarificare nr1 - 30.09.2026/Raport_audit_Clarificare_nr1.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_audit_Clarificare_nr1--dca04eb4.pdf",
+    "bytes": 102772,
+    "sha256": "40e508395ffa0ada6924943d375a263288e3b47638e7acd69939d32de8e4ad4b"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Audit Clarificare nr1 - 30.09.2026/Registru_constatari_audit.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_constatari_audit--300fc6a8.xlsx",
+    "bytes": 17699,
+    "sha256": "bd071fcba3baa92121f1827e9263306d72503691f10a8eb300d78c35e8093eca"
+  }
+]

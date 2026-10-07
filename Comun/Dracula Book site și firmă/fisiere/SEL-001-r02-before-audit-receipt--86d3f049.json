@@ -1,0 +1,7 @@
+{
+  "chunk_id": "58335c",
+  "wall_time_seconds": 3.5248158,
+  "exit_code": 0,
+  "original_token_count": 88,
+  "output": "{\"archived\": true, \"deliverable_id\": \"SEL-001\", \"round_id\": \"r02-before-audit\", \"snapshot_path\": \"D:\\\\00. Downloads\\\\Dracula Book\\\\02. ATELIER EDITORIAL - ROMANE 50000\\\\08_ARHIVA\\\\SEL-001\\\\r02-before-audit\", \"index_sha256\": \"1523afcea486883f6c5ed64751498fba92379ebbf649091b44e052315e6c8210\", \"files_archived\": 228, \"editorial_approval_issued\": false}\r\n"
+}

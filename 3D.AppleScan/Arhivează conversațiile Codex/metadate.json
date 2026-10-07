@@ -1,0 +1,23 @@
+{
+  "id": "01a1155d-f8a7-7ce1-8b61-7f365a73b769",
+  "cwd": "S:\\3dscan.eva-org.com",
+  "created_at": 1791359842,
+  "updated_at": 1791360609,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Arhivează conversațiile Codex",
+  "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+  "project": "3D.AppleScan",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1198462,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 74,
+  "message_count": 17,
+  "content_sha256": "faa447e671d47d4c432dfd6d04eaaa63ae8f1da1d823cb178d11c6d58a896932",
+  "files_copied": 6,
+  "references_not_copied": 2
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/content/customer-segments.json",
+    "status": "copiat",
+    "saved_path": "fisiere/customer-segments--43c2c17a.json",
+    "bytes": 20444,
+    "sha256": "6b286b9d798cbc0f7b624b389945e917ae510da24edd368ca75b7b4ff51bd458"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/content/redesign-v2-translations.json",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-v2-translations--9c3b627e.json",
+    "bytes": 33472,
+    "sha256": "78a08a2ca96ce6f7d307780eda59a75269095e180658d44ac0dc11b2cf0c359d"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/docs/CUSTOMER_FOCUS.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CUSTOMER_FOCUS--cf12113b.md",
+    "bytes": 6503,
+    "sha256": "a019efb86ea23218863b957044ec0875970304010454e7f8efe5f673921db0ba"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/docs/REDESIGN_V2_MARKETING.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REDESIGN_V2_MARKETING--2abc3aa7.md",
+    "bytes": 11076,
+    "sha256": "d0b833d0dd9320ea93d26f8f1a408476ca1789312ef7efd46dd71b98045b29f4"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/docs/redesign-v2-marketing.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-v2-marketing--126df81f.jsonl",
+    "bytes": 2562,
+    "sha256": "9fc5efb68693824fe25a749748017e7c80ce85a8fe9fad7e28f3353c493ae41f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\content\\customer-segments.json",
+    "status": "copiat",
+    "saved_path": "fisiere/customer-segments--43c2c17a.json",
+    "bytes": 20444,
+    "sha256": "6b286b9d798cbc0f7b624b389945e917ae510da24edd368ca75b7b4ff51bd458"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\content\\redesign-v2-translations.json",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-v2-translations--9c3b627e.json",
+    "bytes": 33472,
+    "sha256": "78a08a2ca96ce6f7d307780eda59a75269095e180658d44ac0dc11b2cf0c359d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\CUSTOMER_FOCUS.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CUSTOMER_FOCUS--cf12113b.md",
+    "bytes": 6503,
+    "sha256": "a019efb86ea23218863b957044ec0875970304010454e7f8efe5f673921db0ba"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\REDESIGN_V2_MARKETING.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REDESIGN_V2_MARKETING--2abc3aa7.md",
+    "bytes": 11076,
+    "sha256": "d0b833d0dd9320ea93d26f8f1a408476ca1789312ef7efd46dd71b98045b29f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\redesign-v2-marketing.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-v2-marketing--126df81f.jsonl",
+    "bytes": 2562,
+    "sha256": "9fc5efb68693824fe25a749748017e7c80ce85a8fe9fad7e28f3353c493ae41f"
+  },
+  {
+    "source_reference": "https://magicplan.app/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://poly.cam/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.twindo.com/",
+    "status": "referinta_externa_necopiata"
+  }
+]

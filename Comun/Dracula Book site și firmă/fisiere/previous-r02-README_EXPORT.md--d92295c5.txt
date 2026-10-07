@@ -1,0 +1,9 @@
+# Exportul istoricului observabil
+
+Acesta este un instrument auxiliar de recuperare, nu validatorul de calitate și nu un serviciu automat. Pentru atelierul curent, surse_export_istoric.json enumeră exact cele nouă execuții relevante. Exportă numai mesaje publice, mandate/apeluri și rezultate observabile; exclude raționamentul, conținutul criptat intern, instrucțiunile platformei și metadatele ascunse. Nu exportă toate conversațiile utilizatorului.
+
+Rulare: python -B 06_REGISTRU/export_istoric_observabil.py --round ID-NOU. Pentru alte execuții ale unui roman, pregătește un fișier NOU de surse în atelier, cu agent_id, role și path ale jurnalelor autorizate, apoi folosește --sources calea-relativa.json. Nu modifica fișierul de surse deja înghețat în SYS-001; un nou registru de sesiune și o nouă captură nu schimbă configurația acceptată anterior. Configurațiile din afara atelierului se refuză.
+
+Runda existentă nu se suprascrie. JSONL păstrează înregistrările observabile cu timestamp și linie sursă; MD conține doar mesajele pentru lectură. Indexul declară prefixul citit, intervalul și toate omisiunile; verifică acest index înainte de a afirma acoperirea. Data minimă este U01 din 24.09.2026, nu întreaga istorie a proiectului. Evenimentele ulterioare capturii necesită o captură nouă. Exportul nu reconstruiește rezultate deja trunchiate de instrument și nu este timestamp certificat ori detector universal de secrete. Dosarul rămâne intern, fără publicare pe site; sursele bibliografice se folosesc cu atribuire și fără republicarea operelor.
+
+Încrederea este locală: cine controlează jurnalele și indexurile le poate altera. Hashurile permit compararea bytes, nu certifică adevărul editorial. Originalele jurnalelor nu sunt modificate. Rapoartele, manuscrisele și probele sursă se păstrează separat prin arhivatorul de runde, nu sunt înlocuite de rezumatele conversațiilor.

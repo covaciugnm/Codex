@@ -1,0 +1,27 @@
+{
+  "id": "58677bca-4b7f-426c-9abd-720bda87fd81",
+  "kind": "new",
+  "source": "chatgpt",
+  "status": "pending",
+  "account_id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+  "account_email": "office@ac-wohnart.at",
+  "to": [
+    "kanzlei-b09@ma06.wien.gv.at"
+  ],
+  "cc": [],
+  "bcc": [],
+  "subject": "2026.09.30 | Schallergasse 35 – Abgabenkonto 058899708 – Berücksichtigung der Zahlung Q2 und aktualisierte Buchungsmitteilung Q3",
+  "body": "Sehr geehrte Damen und Herren,\n\nwir bitten Sie, die Zahlung für das zweite Quartal 2026 auf dem Abgabenkonto 058899708 zu berücksichtigen und uns eine entsprechend aktualisierte Buchungsmitteilung für das dritte Quartal 2026 für die Liegenschaft Schallergasse 35, 1120 Wien, zu übermitteln.\n\nDie beigefügte Buchungsmitteilung Nr. 480960377428 vom 2026.07.10 weist insgesamt EUR 186,46 aus: EUR 93,23 für Grundsteuer und Müllabfuhrabgabe 07–09/2026 sowie EUR 93,23 an bereits bestehenden offenen Forderungen.\n\nDie Forderung für 04–06/2026 wurde inzwischen mit folgenden Zahlungsdaten beglichen:\n- Betrag: EUR 93,23\n- Buchungs- und Valutadatum: 2026.07.27\n- Zahlungsreferenz: 889970805056\n- Zugehörige Buchungsmitteilung: Nr. 480960255591 vom 2026.04.10\n- Zahlung vom Privatkonto von Cosmin-Adrian Covaciu für die Liegenschaft Schallergasse 35\n\nBitte prüfen Sie den Zahlungseingang und die Zuordnung zum zweiten Quartal und bestätigen Sie uns dessen Ausgleich schriftlich. Nach unserer Abstimmung verbleiben aus der genannten Buchungsmitteilung EUR 93,23 für das dritte Quartal.\n\nBitte senden Sie uns eine aktualisierte Buchungsmitteilung beziehungsweise Saldenbestätigung, in der die Zahlung berücksichtigt und der tatsächlich noch offene Betrag ausgewiesen ist. Bitte bestätigen Sie zugleich die für den Restbetrag zu verwendende Zahlungsreferenz; im bisherigen Q3-Dokument lautet diese 889970805086. Sollten Sie einen abweichenden Saldo führen, bitten wir um eine nachvollziehbare Aufstellung der Buchungen.\n\nBitte übermitteln Sie die aktualisierten Unterlagen an office@ac-wohnart.at.\n\nVielen Dank für Ihre Prüfung und Berichtigung.\n\nMit freundlichen Grüßen\n\nCosmin Adrian Covaciu",
+  "attachments": [
+    {
+      "id": "e19fdb9c-d484-4017-90da-5b17a9b12eec",
+      "filename": "20260720185303213.pdf",
+      "size": 196350,
+      "mime_type": "application/pdf"
+    }
+  ],
+  "reply_to_email_id": null,
+  "created_at": "2026-09-30T12:33:42.220150Z",
+  "updated_at": "2026-09-30T12:33:42.220150Z",
+  "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+}

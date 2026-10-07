@@ -1,0 +1,385 @@
+{
+  "checked_at": "2026-09-24T10:16:24.6612993+03:00",
+  "input_count": 32,
+  "all_input_hashes_match": true,
+  "inputs": [
+    {
+      "id": "I01",
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-EDITOR-integrare-r02.md",
+      "sha256": "ce009a7686ee6a6e18c0198ad0e2afcf86c898fc844e7bff870b5de88fbc981b",
+      "declared_match": true
+    },
+    {
+      "id": "I02",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-P-CANON-G01-predare-r01.json",
+      "sha256": "d669d568d83142c8b76ec7ba12dfa60f743487c60d4a8e9406698f02e3f7c50c",
+      "declared_match": true
+    },
+    {
+      "id": "I03",
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+      "sha256": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab",
+      "declared_match": true
+    },
+    {
+      "id": "I04",
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+      "sha256": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c",
+      "declared_match": true
+    },
+    {
+      "id": "I05",
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+      "sha256": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0",
+      "declared_match": true
+    },
+    {
+      "id": "I06",
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+      "sha256": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc",
+      "declared_match": true
+    },
+    {
+      "id": "I07",
+      "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+      "sha256": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801",
+      "declared_match": true
+    },
+    {
+      "id": "I08",
+      "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+      "sha256": "8a08f2358479913c3c998d6110a7d00aabc4cbf0545d9c8bd32f94a1cbf02c39",
+      "declared_match": true
+    },
+    {
+      "id": "I09",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+      "sha256": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f",
+      "declared_match": true
+    },
+    {
+      "id": "I10",
+      "path": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json",
+      "sha256": "d6b886b4b7e99334551a9c1c8fdd9d494cb1a1e479b91d6eecea9cba4a4b924c",
+      "declared_match": true
+    },
+    {
+      "id": "I11",
+      "path": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_IDENTITATE_CONTINUT_r01.json",
+      "sha256": "2bd5415290d22674e8aca7042c1e0f91ec6627e379b342a24fb8cc6b134b6ca3",
+      "declared_match": true
+    },
+    {
+      "id": "I12",
+      "path": "07_ROMANE/ROM-001/01_CANON/COMPARAISON_AUXILIARE_r01.json",
+      "sha256": "27e4c31e90297319c6fe53ce950256ffe31e6497cd4da84b13cefe7baae62674",
+      "declared_match": true
+    },
+    {
+      "id": "I13",
+      "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta.json",
+      "sha256": "8b5bea4590818aa4305565233d24a1fe748316139234d82896c449b25c444cd4",
+      "declared_match": true
+    },
+    {
+      "id": "I14",
+      "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta_docx.json",
+      "sha256": "7e577cee64fac09d1308e3bc2049022e801a6db9be3141de133af2279ea1502b",
+      "declared_match": true
+    },
+    {
+      "id": "I15",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/APROBARE_BENEFICIAR_G01.md",
+      "sha256": "47563b28103b26a6269b6315fcc147f0b516d5bf7fc4ee35dddd8c361cc5edc1",
+      "declared_match": true
+    },
+    {
+      "id": "I16",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r01.md",
+      "sha256": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+      "declared_match": true
+    },
+    {
+      "id": "I17",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_PROPUSE_r01.md",
+      "sha256": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+      "declared_match": true
+    },
+    {
+      "id": "I18",
+      "path": "00_CONDUCERE/MANUAL_ATELIER.md",
+      "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2",
+      "declared_match": true
+    },
+    {
+      "id": "I19",
+      "path": "00_CONDUCERE/ROADMAP.md",
+      "sha256": "fb92994d11fdbfe878d9021c59e44120f23475029a2f600b2bc662b3f420d958",
+      "declared_match": true
+    },
+    {
+      "id": "I20",
+      "path": "00_CONDUCERE/RUBRICI.md",
+      "sha256": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd",
+      "declared_match": true
+    },
+    {
+      "id": "I21",
+      "path": "01_ECHIPA/P-EDITOR.md",
+      "sha256": "9e6e3687a795fbd96e9b1aad76bd7c6462b247cdfcdc53792557948aa041e4ed",
+      "declared_match": true
+    },
+    {
+      "id": "I22",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/agents.json",
+      "sha256": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+      "declared_match": true
+    },
+    {
+      "id": "I23",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/deliverables_G00.json",
+      "sha256": "a13755caa3905091f5854302ca22616b4cd8af1e07d88b9c62a78908031ffa3c",
+      "declared_match": true
+    },
+    {
+      "id": "I24",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/STATUS_la_integrare.md",
+      "sha256": "8a4871c41a4484fe4d8b2a18055e8ef199deaf4a04188c03936d577bac1b12b2",
+      "declared_match": true
+    },
+    {
+      "id": "I25",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/provenienta.json",
+      "sha256": "23e7787ea7ec36005968af2df81de09fbfe1c38494d9610a6d27874c73be936f",
+      "declared_match": true
+    },
+    {
+      "id": "I26",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/BRIEF_ROMAN_r01.md",
+      "sha256": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+      "declared_match": true
+    },
+    {
+      "id": "I27",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/DECIZII_PROPUSE_r01.md",
+      "sha256": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+      "declared_match": true
+    },
+    {
+      "id": "I28",
+      "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/provenienta.json",
+      "sha256": "73320eb9194d8fb456eb5266987d6699401077a666395f9ddbcfc156eb9cf55a",
+      "declared_match": true
+    },
+    {
+      "id": "I29",
+      "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+      "sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+      "declared_match": true
+    },
+    {
+      "id": "I30",
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-EDITOR-activare-r02.md",
+      "sha256": "7ff0dd65a1d4a5722f7fdc73ae046165a7e454e1f0cb581eb1998c37796cf367",
+      "declared_match": true
+    },
+    {
+      "id": "I31",
+      "path": "06_REGISTRU/ISTORIC/ROM-001-P-EDITOR-limita-executie-r01.json",
+      "sha256": "cc9fef676a2061d07c9bcb66ae295c59dbc92f2128020cb6974315999b9701e9",
+      "declared_match": true
+    },
+    {
+      "id": "I32",
+      "path": "07_ROMANE/ROM-001/01_CANON/CONSTRANGERI_CALENDAR_r01.md",
+      "sha256": "33436bcf08fce257ed4c1263372d79e4a3dfab956283d236e33f7892d2f3123a",
+      "declared_match": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r02.md",
+      "sha256": "fb26a4a6bdfa76da4d0a66cc8fac9b75677ee2f299e014cc3de666978c9e78c7",
+      "size_bytes": 20351
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r02.md",
+      "sha256": "6ee676184ae2d21bbdffb57459158e18fae35ffb0ec3f2a7d7de4533d0b2b4a4",
+      "size_bytes": 37588
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+      "sha256": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc",
+      "size_bytes": 26036
+    }
+  ],
+  "producer_id": "01a0d1c4-17bb-7e03-93a3-e542824bc776",
+  "receiver_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "reading": "BRIEF și CANON_OPERATIONAL r02 citite integral; DECIZII r02 citit integral în prefinal, apoi comparație linie cu linie și lectura celor 3 linii noi / 2 eliminate. Nu este audit independent.",
+  "calendar_controls": [
+    {
+      "id": "descoperire",
+      "observed": 2025,
+      "expected": 2025,
+      "matched": true
+    },
+    {
+      "id": "Margaux_ani_calendaristici_la_epilog",
+      "observed": 60,
+      "expected": 60,
+      "matched": true
+    },
+    {
+      "id": "reuniune_sambata",
+      "observed": 6,
+      "expected": 6,
+      "matched": true
+    },
+    {
+      "id": "prim_infarct_marti",
+      "observed": 2,
+      "expected": 2,
+      "matched": true
+    },
+    {
+      "id": "al_doilea_infarct_dupa_saptamana",
+      "observed": 7,
+      "expected": 7,
+      "matched": true
+    },
+    {
+      "id": "funeral_dupa_saptamana",
+      "observed": 7,
+      "expected": 7,
+      "matched": true
+    },
+    {
+      "id": "zile_reuniune_deces",
+      "observed": 717,
+      "expected": 717,
+      "matched": true
+    },
+    {
+      "id": "discutie_articol_3_saptamani",
+      "observed": 21,
+      "expected": 21,
+      "matched": true
+    },
+    {
+      "id": "intalnire_jurnalista_1_saptamana",
+      "observed": 7,
+      "expected": 7,
+      "matched": true
+    },
+    {
+      "id": "acord_2_saptamani",
+      "observed": 14,
+      "expected": 14,
+      "matched": true
+    },
+    {
+      "id": "publicare_articol_sambata",
+      "observed": 6,
+      "expected": 6,
+      "matched": true
+    },
+    {
+      "id": "August1974_sambata",
+      "observed": 6,
+      "expected": 6,
+      "matched": true
+    },
+    {
+      "id": "Valentine2026_sambata",
+      "observed": 6,
+      "expected": 6,
+      "matched": true
+    },
+    {
+      "id": "memorial_calendaristic_an_bisect",
+      "observed": 366,
+      "expected": 366,
+      "matched": true
+    },
+    {
+      "id": "asteptare_1345_1400",
+      "observed": 15,
+      "expected": 15,
+      "matched": true
+    },
+    {
+      "id": "varsta_Antoine_deces_aniversare_trecuta",
+      "observed": 80,
+      "expected": 80,
+      "matched": true
+    },
+    {
+      "id": "varsta_Catherine_epilog_aniversare_trecuta",
+      "observed": 76,
+      "expected": 76,
+      "matched": true
+    },
+    {
+      "id": "varsta_Besson_epilog_aniversare_trecuta",
+      "observed": 41,
+      "expected": 41,
+      "matched": true
+    },
+    {
+      "id": "varsta_Isabella_epilog_aniversare_trecuta",
+      "observed": 33,
+      "expected": 33,
+      "matched": true
+    },
+    {
+      "id": "ani_calendaristici_casnicie_Elise",
+      "observed": 38,
+      "expected": 38,
+      "matched": true
+    },
+    {
+      "id": "finding_to_death",
+      "observed": 783,
+      "expected": 783,
+      "matched": true
+    },
+    {
+      "id": "Tuesday_apology",
+      "observed": 2,
+      "expected": 2,
+      "matched": true
+    },
+    {
+      "id": "Friday_firing",
+      "observed": 5,
+      "expected": 5,
+      "matched": true
+    },
+    {
+      "id": "Saturday_Guillaume",
+      "observed": 6,
+      "expected": 6,
+      "matched": true
+    },
+    {
+      "id": "Tuesday_JeanPaul_death",
+      "observed": 2,
+      "expected": 2,
+      "matched": true
+    },
+    {
+      "id": "JeanPaul_funeral_after_week",
+      "observed": 7,
+      "expected": 7,
+      "matched": true
+    },
+    {
+      "id": "Catherine_two_weeks",
+      "observed": 14,
+      "expected": 14,
+      "matched": true
+    }
+  ],
+  "all_calendar_checks_matched": true,
+  "limits": "Controale aritmetice și de integrare ale producătorului/managerului. Date editoriale autorizate, nu verificare externă a faptelor ficționale. Vârste condiționate de aniversările adoptate, fără zile de naștere fabricate. Nicio acceptare G01."
+}

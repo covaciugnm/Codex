@@ -1,0 +1,107 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/VERIFICARE-EMAIL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE-EMAIL--71660f6c.md",
+    "bytes": 2101,
+    "sha256": "6f764c70bc901ca92ddefab5f12f74f7bec16c494a0393cffbafceaf9f0c81e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\VERIFICARE-EMAIL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE-EMAIL--71660f6c.md",
+    "bytes": 2101,
+    "sha256": "6f764c70bc901ca92ddefab5f12f74f7bec16c494a0393cffbafceaf9f0c81e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\mail\\notify.py",
+    "status": "copiat",
+    "saved_path": "fisiere/notify--aaecb5d0.py",
+    "bytes": 15204,
+    "sha256": "0b90bf30120a5ac8d27a9b96a9a8e68fd93c9e594e183e4342d2dc03621dbac0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\mail\\outbox.py",
+    "status": "copiat",
+    "saved_path": "fisiere/outbox--d5e92291.py",
+    "bytes": 7599,
+    "sha256": "cbfb79889a40bacc2dcc6d2b1cd1bc9400fff2408b27e2646630b023ba87c531"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\mail\\texts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/texts--963438c6.py",
+    "bytes": 38465,
+    "sha256": "5483d63d2c14da7b5e9156563b2769d4871f7448893076e480685f0d89254598"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\start-devmail.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/start-devmail--3b974ac1.sh",
+    "bytes": 603,
+    "sha256": "5674fd2ba93ba7a8dcfb75cb834b6abc870f3b91ccaca89b8caf55165523c919"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\backend\\app\\mail\\notify.py",
+    "status": "copiat",
+    "saved_path": "fisiere/notify--77c7ba27.py",
+    "bytes": 15202,
+    "sha256": "3585c95c774fdeb9042152365c33fd00b8bed1057f730a82f002f0dbaf23ee82"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\backend\\app\\mail\\outbox.py",
+    "status": "copiat",
+    "saved_path": "fisiere/outbox--cd1b16c1.py",
+    "bytes": 7599,
+    "sha256": "cbfb79889a40bacc2dcc6d2b1cd1bc9400fff2408b27e2646630b023ba87c531"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\backend\\app\\mail\\texts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/texts--1fdff6a4.py",
+    "bytes": 38465,
+    "sha256": "5483d63d2c14da7b5e9156563b2769d4871f7448893076e480685f0d89254598"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\ops\\start-devmail.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/start-devmail--4c4fb199.sh",
+    "bytes": 603,
+    "sha256": "5674fd2ba93ba7a8dcfb75cb834b6abc870f3b91ccaca89b8caf55165523c919"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\ops\\sync-from-design.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sync-from-design--33c68bcc.py",
+    "bytes": 8093,
+    "sha256": "8eb990d5b23d79c8f680cad7161c21fc1cc417449b76567905c14e8889811674"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\fix-email-media.py",
+    "status": "copiat",
+    "saved_path": "fisiere/fix-email-media--c4de2884.py",
+    "bytes": 2362,
+    "sha256": "eb145e18b4070ac1afe1d1b2558bbe8969e6fd8bf74c5433cacbb3e555d91375"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\implement-local-email.py",
+    "status": "copiat",
+    "saved_path": "fisiere/implement-local-email--44e78504.py",
+    "bytes": 9423,
+    "sha256": "b30e55965731dd6d1531f2043843c548d99174cc5fac609488f98927d4f5c95a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\prepare-smtp-overlay.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-smtp-overlay--af859bc8.py",
+    "bytes": 2359,
+    "sha256": "bd440970a96a898bd6e80cf499f55c681e36224038c626f9d71e05738fee0085"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\test-email-capture.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/test-email-capture--286c3e06.cjs",
+    "bytes": 4067,
+    "sha256": "887600e913213703dc98c9a3d5d91472db54eeb554b3ecfef760339cff5a983f"
+  }
+]

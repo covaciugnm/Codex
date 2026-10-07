@@ -1,0 +1,844 @@
+[
+  {
+    "source_reference": "/z/00.%20Proiecte%202026%20-%20SCRIEM/2026.09.30%20Acțiunea%202.1%20POCIDIF/EVA%20-%20Audit%20si%20propuneri%20buget%20PoCIDIF%202.1.docx",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "/z/00.%20Proiecte%202026%20-%20SCRIEM/2026.09.30%20Acțiunea%202.1%20POCIDIF/P1.%20Dancorproiect%20SRL/EVA/Dosar%20depunere%20(de%20completat",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "/z/00.%20Proiecte%202026%20-%20SCRIEM/2026.09.30%20Acțiunea%202.1%20POCIDIF/P1.%20Dancorproiect%20SRL/EVA/EVA%20-%20Raport%20audit%20buget%20PoCIDIF%202.1.docx",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "/z/00.%20Proiecte%202026%20-%20SCRIEM/2026.09.30%20Acțiunea%202.1%20POCIDIF/proiectie_financiara_PoCIDIF_2_1_3M_hardware_REVIZUIT.xlsx",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/1. Surse si analize tehnice EVA",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/2. Analize eligibilitate si audit",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/2. Analize eligibilitate si audit/EVA - Evaluare, punctaj si mapare MySMIS.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA - Evaluare, punctaj si mapare MySMIS--d1e7d290.xlsx",
+    "bytes": 11693,
+    "sha256": "33119c352d96f6f841644b86a37e520b6d03db59872f0e9da174e8c92581b748"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/2. Analize eligibilitate si audit/EVA_Restructurare_CDI_Regional.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA_Restructurare_CDI_Regional--5e878794.xlsx",
+    "bytes": 13624,
+    "sha256": "c7b5301606402ecb6ed073146bd211716dd71fcb235d747d1dabeb633f64b103"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/Cluster HPC - fise tehnice echipamente.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Cluster HPC - fise tehnice echipamente--9651ec69.xlsx",
+    "bytes": 21901,
+    "sha256": "3da1b725f09f991d9f0e9caeea86e11d0e9fbeb13db9a68a64c57936c0a68d18"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/Cluster HPC.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/EVA_Buget_FINAL.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA_Buget_FINAL--a6fe6762.xlsx",
+    "bytes": 13813,
+    "sha256": "9dec008b9814395873dcb1da876709e0b70c5e90581bebe6d99a8073a0c19e8a"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/EVA_Buget_consolidat.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/Informare si publicitate.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/Linie productie roboti - fise tehnice utilaje.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Linie productie roboti - fise tehnice utilaje--87d9fb1b.xlsx",
+    "bytes": 36799,
+    "sha256": "fb0c5e02e6f6553cbe532a9fccb1acd65ea47412c69d30b6e1925ecb7a92d0a5"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/Linie productie robotica.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/Promovare comercializare go-to-market.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/4. Dosar depunere (de completat",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/5. Locatie implementare (acte proprietate",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/6. LOI si Protocoale pilot",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/EVA/Dosar depunere (de completat",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/mysmis/3.1 Activitati Proiect.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/3.1 Activitati Proiect--13e5284d.docx",
+    "bytes": 17453,
+    "sha256": "96d495b2a28a3e033529e8bc40cce04cd16dcc43e8e2f95fe97ca56900b69e12"
+  },
+  {
+    "source_reference": "00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/proiectie_financiara_PoCIDIF_2_1_3M_hardware_REVIZUIT.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "3. Buget/EVA_Buget_FINAL.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "4. Dosar depunere (de completat",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "4. Dosar depunere/00 - CUPRINS dosar depunere - CUI 12445967.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "4. Dosar depunere/Plan de afaceri/00 - CUPRINS plan de afaceri (structura completa",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "4. Dosar depunere/Plan de afaceri/01 - Intrebari clarificare Partea I (A-B",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "6. LOI si Protocoale pilot/LOI - INDUNOVA ROBOTICS SRL (16.07.2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "6. LOI si Protocoale pilot/LOI - INFOGRUP SRL (16.07.2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e6269aa8-f545-4845-bd0a-4dbee2f6ecfb/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e6269aa8-f545-4845-bd0a-4dbee2f6ecfb/scratchpad/EVA_Buget_FINAL.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e6269aa8-f545-4845-bd0a-4dbee2f6ecfb/scratchpad/EVA_roadmap.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e6269aa8-f545-4845-bd0a-4dbee2f6ecfb/scratchpad/audit_buget_EVA.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e6269aa8-f545-4845-bd0a-4dbee2f6ecfb/scratchpad/audit_propuneri_buget_EVA.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e6269aa8-f545-4845-bd0a-4dbee2f6ecfb/scratchpad/node_modules/docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e6269aa8-f545-4845-bd0a-4dbee2f6ecfb/scratchpad/proiectie_financiara_PoCIDIF_2_1_3M_hardware_REVIZUIT.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/563b6e1d-3e82-4c49-a166-6c6476a1b01f/6bafde40-a559-4750-9e08-274e5fb0537d/skills/docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\LibreOffice\\program\\soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\LibreOffice\\program\\soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\pocidif-2-1-eva-dancor.md",
+    "status": "copiat",
+    "saved_path": "fisiere/pocidif-2-1-eva-dancor--fb4bda29.md",
+    "bytes": 25256,
+    "sha256": "e7e471aba44be67b68c5f5d8bb85d1f99a3a81fa67867ac5dd54c336294587aa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\blkcntnr.py",
+    "status": "copiat",
+    "saved_path": "fisiere/blkcntnr--ef3d4fc1.py",
+    "bytes": 3525,
+    "sha256": "ff17bb533dd1042cf84cf297a48cd1c6d1a0fb560f6f78001bd62fb12532a0b5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\document.py",
+    "status": "copiat",
+    "saved_path": "fisiere/document--8b4a0a53.py",
+    "bytes": 11194,
+    "sha256": "b54354a7f068191e37dc9b4256480f0222665b60d22951f365402b0a7b46d9ce"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\parts\\document.py",
+    "status": "copiat",
+    "saved_path": "fisiere/document--560aa76c.py",
+    "bytes": 6417,
+    "sha256": "0ea6a46e07b9fdd89e1923897c603e3a93cca0b3b63ac4db73deec738dc38a14"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\styles\\styles.py",
+    "status": "copiat",
+    "saved_path": "fisiere/styles--162d4bf1.py",
+    "bytes": 5608,
+    "sha256": "8eaebf1f3827dd7885f8da35d24c2abc31d3607a1b5f7f34f77f6c416aa4c062"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\docx\\text\\paragraph.py",
+    "status": "copiat",
+    "saved_path": "fisiere/paragraph--5c8f2762.py",
+    "bytes": 6828,
+    "sha256": "37717adbf25141961aba6ba86895ca0839d14b0d832223b0cf230f57625dec62"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\chart\\pie_chart.py",
+    "status": "copiat",
+    "saved_path": "fisiere/pie_chart--8f10e146.py",
+    "bytes": 4793,
+    "sha256": "50ebe48eb06935dfeb4feaef29ca4f79577d74af842dd3086878c0504afaa0df"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\chart\\plotarea.py",
+    "status": "copiat",
+    "saved_path": "fisiere/plotarea--faad1f7f.py",
+    "bytes": 5805,
+    "sha256": "7a6ef2a2b5c5cfd4a626bbaa391e0f9feda8123d12bb8ae7cf235ce5ed0867f5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\descriptors\\base.py",
+    "status": "copiat",
+    "saved_path": "fisiere/base--406bf238.py",
+    "bytes": 7135,
+    "sha256": "f82b8d7ecc0419ace03a85f71ae33606cdb39012264fdf764ef476475c6c9d73"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\descriptors\\nested.py",
+    "status": "copiat",
+    "saved_path": "fisiere/nested--843e28d3.py",
+    "bytes": 2603,
+    "sha256": "e4b4ac7f6baf4cab2b1841101752955cc2c7645a118262df2ff9735b49564232"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\descriptors\\sequence.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sequence--02451b52.py",
+    "bytes": 3490,
+    "sha256": "3aa177e0afe7502e3a5c3e41ffac73187784202cfff368641643455e90644921"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\descriptors\\serialisable.py",
+    "status": "copiat",
+    "saved_path": "fisiere/serialisable--2faeb4fa.py",
+    "bytes": 7361,
+    "sha256": "53fef03041904483a28a65142f801b74e89631cfda2f229e6919e3fd9edd54ef"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\packaging\\relationship.py",
+    "status": "copiat",
+    "saved_path": "fisiere/relationship--4796c1ab.py",
+    "bytes": 3974,
+    "sha256": "8cb86f16f0d56414536535e8911aebb0488b23d0a6165ba5846cc0fce60a3344"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\reader\\drawings.py",
+    "status": "copiat",
+    "saved_path": "fisiere/drawings--f7d5bc15.py",
+    "bytes": 2209,
+    "sha256": "8993e893c0dcfe664cc913e4fc47c35c342f65dc1f1f06d88efc5f2b6717b5a8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\reader\\excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/excel--e4b1ee2c.py",
+    "bytes": 12357,
+    "sha256": "9204ad42d3b58f4bd5e7a196697c68dc6036117ba8b86b6716b45532872af046"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\styles\\styleable.py",
+    "status": "copiat",
+    "saved_path": "fisiere/styleable--2b76ed89.py",
+    "bytes": 4499,
+    "sha256": "625ffea0f96312e17383db57292482baf5912f82f41c2e5b1cc1495617b1e8e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\styles\\stylesheet.py",
+    "status": "copiat",
+    "saved_path": "fisiere/stylesheet--90dc43e3.py",
+    "bytes": 8790,
+    "sha256": "ee4669cf26af2eb38971d66a6739775994f233ad02a963fc8bf390d09ff5c72d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\utils\\indexed_list.py",
+    "status": "copiat",
+    "saved_path": "fisiere/indexed_list--958ef846.py",
+    "bytes": 1257,
+    "sha256": "841b103fd82e9d38adee229d306c3fb4cdf2e6e2295c38d4c7b8ecc1b405e837"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\workbook\\workbook.py",
+    "status": "copiat",
+    "saved_path": "fisiere/workbook--9a225d42.py",
+    "bytes": 13232,
+    "sha256": "a1a12bbd21f5a94a615003ce6530878f6507c8a783aac8f60f270a083720a3b3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\worksheet\\worksheet.py",
+    "status": "copiat",
+    "saved_path": "fisiere/worksheet--0a5c54f3.py",
+    "bytes": 27572,
+    "sha256": "e09339aa3a09ba6b5ca9fb471648a6b45110af3ec4d830665e7915a3b477597f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\writer\\excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/excel--0797c11d.py",
+    "bytes": 9572,
+    "sha256": "ea2a179f78521c72149e45b6c02c8180f0380a770ee855cbe72192033b2aa7a6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--78f46652.py",
+    "bytes": 90666,
+    "sha256": "80cf964f4288847c4c73d1f379115b55c21d047f2316ca3a995155e8d6a86169"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\scratchpad\\build_agri_budget.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\scratchpad\\build_devize_obiecte.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\scratchpad\\gen_intrebari_parteaI_v2.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\scratchpad\\patch_market.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\scratchpad\\propagate.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\scratchpad\\reorg_capitole.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\\\scratchpad\\\\[eval]",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\\\scratchpad\\\\gen_agri_plan.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\e6269aa8-f545-4845-bd0a-4dbee2f6ecfb\\\\scratchpad\\\\gen_cuprins_plan.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "P1. SRM DESIGN SRL/00 - STRUCTURA DOSAR (sistem de capitole",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "P1. SRM DESIGN SRL/12. Buget si proiectii financiare/EVA-Agri_Buget_600k_salarii (robot cules capsuni-rosii",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "P1. SRM DESIGN SRL/12. Buget si proiectii financiare/EVA_Buget_500k_2versiuni (minimis max, cofin 20%",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "P1. SRM DESIGN SRL/13. Plan de afaceri/01 - Intrebari + verdict Partea I (A-B",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "P1. SRM DESIGN SRL/13. Plan de afaceri/EVA-Agri Plan de afaceri (robot cules capsuni-rosii indoor",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "P1. SRM DESIGN SRL/13. Plan de afaceri/SRM DESIGN - Istoric si infrastructura (Partea I B",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Ac\\u021biunea 2.1 POCIDIF/P1. SRM DESIGN SRL/12. Buget si proiectii financiare/EVA-Agri_Buget_600k_salarii (robot cules capsuni-rosii).xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Ac\\u021biunea 2.1 POCIDIF/P1. SRM DESIGN SRL/13. Plan de afaceri/EVA-Agri Plan de afaceri (robot cules capsuni-rosii indoor) - CUI 47344051.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/1. DOCUMENTE OFICIALE/Ghid Actiunea 2.1 PoCIDIF.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Ghid Actiunea 2.1 PoCIDIF--41463ba6.pdf",
+    "bytes": 1111572,
+    "sha256": "7c5e99691909f31d82859c724ee19ced8d581ed821fc460841362eefce0c07c9"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/3. Buget/EVA_Buget_FINAL.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA_Buget_FINAL--89cb18a9.xlsx",
+    "bytes": 13813,
+    "sha256": "9dec008b9814395873dcb1da876709e0b70c5e90581bebe6d99a8073a0c19e8a"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/4. Dosar depunere (de completat)/07a - Varianta A - Precizie maxima si integrare verticala.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/07a - Varianta A - Precizie maxima si integrare vertica--75e8b3a9.docx",
+    "bytes": 23258,
+    "sha256": "2debec400e7eede552911ed779fac04e25f5869823b1bf2fe18fd1e91644b972"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/4. Dosar depunere (de completat)/07b - Varianta B - Capacitate si multi-material.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/07b - Varianta B - Capacitate si multi-material--33314b40.docx",
+    "bytes": 22399,
+    "sha256": "960908f2e06b1c332acb646c06c80e01df9dcf91461a6c0f30628d558d243246"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/4. Dosar depunere/*",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/6. LOI si Protocoale pilot/LOI - INDUNOVA ROBOTICS SRL (16.07.2026).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/LOI - INDUNOVA ROBOTICS SRL (16.07.2026)--3990fb3a.docx",
+    "bytes": 11734,
+    "sha256": "5e774971ca9e7426c6ffc0985d8dede7754f73f43daa8b484c69bb501451e43b"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. Dancorproiect SRL/6. LOI si Protocoale pilot/LOI - INFOGRUP SRL (16.07.2026).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/LOI - INFOGRUP SRL (16.07.2026)--c4bb79c7.docx",
+    "bytes": 11755,
+    "sha256": "f7b2e91687ceb7cf4426b04d5fb93264dde49cc2d137eb6eb2468e5603dd1390"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. SRM DESIGN SRL/00 - STRUCTURA DOSAR (sistem de capitole) - CUI 47344051.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/00 - STRUCTURA DOSAR (sistem de capitole) - CUI 4734405--9fe0e2bd.docx",
+    "bytes": 13106,
+    "sha256": "1f49119e1ba708f0bd20c88bcdadfd9c899a74540878a6314616b23f5f259bdb"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. SRM DESIGN SRL/12. Buget si proiectii financiare/EVA-Agri_Buget_600k_salarii (robot cules capsuni-rosii).xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-Agri_Buget_600k_salarii (robot cules capsuni-rosii)--ad85481b.xlsx",
+    "bytes": 9247,
+    "sha256": "98c106a8646f6bc227ab035b9529d2357ccab8f4c1387e95a7b43c056a5c416f"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. SRM DESIGN SRL/12. Buget si proiectii financiare/EVA_Buget_500k_2versiuni (minimis max, cofin 20%).xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA_Buget_500k_2versiuni (minimis max, cofin 20%)--f213fb0a.xlsx",
+    "bytes": 10542,
+    "sha256": "81a3332a9d5ae9c3af360ab6bc2a50fd5699e316164e71b366b20daaab3443dc"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. SRM DESIGN SRL/13. Plan de afaceri/01 - Intrebari + verdict Partea I (A-B) - CUI 47344051.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - Intrebari + verdict Partea I (A-B) - CUI 47344051--952592a5.docx",
+    "bytes": 14226,
+    "sha256": "f010df84846b6b79be37e89a827d97e76a680b7095227a68be011426cc78f985"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. SRM DESIGN SRL/13. Plan de afaceri/EVA-Agri Plan de afaceri (robot cules capsuni-rosii indoor) - CUI 47344051.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-Agri Plan de afaceri (robot cules capsuni-rosii ind--02165603.docx",
+    "bytes": 18123,
+    "sha256": "fb00cb1857f1f548709b7f2a7942eed4d6523ac46d631a7d014c54187c781a50"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 - SCRIEM/2026.09.30 Acțiunea 2.1 POCIDIF/P1. SRM DESIGN SRL/13. Plan de afaceri/SRM DESIGN - Istoric si infrastructura (Partea I B) - CUI 47344051.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/SRM DESIGN - Istoric si infrastructura (Partea I B) - C--57e97464.docx",
+    "bytes": 12753,
+    "sha256": "90fc52124a019c2a00e8f7c15de21afbee118a25ceb180f3a7200175862a19a6"
+  },
+  {
+    "source_reference": "Z:\\...\\P1. Dancorproiect SRL\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme 1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme 1\\SRM DESIGN SRL - CUI 47344051\\02. Certificat constatator\\47344051 Certificat constatator 2025.03.05.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DANCOR PROIECT SRL - CUI 12445967",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DANCOR PROIECT SRL - CUI 12445967\\02. Certificat constatator\\*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DANCOR PROIECT SRL - CUI 12445967\\02. Certificat constatator\\12445967 Certificat constatator 2025.06.06.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/12445967 Certificat constatator 2025.06.06--eb557dd5.pdf",
+    "bytes": 800097,
+    "sha256": "a49d69e68da6041754fe31450bce6899cde42d7a2fa9febcb4f33c321ad32f65"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DANCOR PROIECT SRL - CUI 12445967\\12445967 Certificat constatator 2025.06.06.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\INDUNOVA ROBOTICS SRL - CUI 52786670\\01. Inregistrare ONRC\\*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\INDUNOVA ROBOTICS SRL - CUI 52786670\\02. Certificat constatator\\52786670 Certificat constatator 2026.01.22.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/52786670 Certificat constatator 2026.01.22--49fe534e.pdf",
+    "bytes": 509247,
+    "sha256": "0b5d3ec39242b8216782ddf0eec4de7be814e1d65d31793d1989928e2a194d5c"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\INDUNOVA ROBOTICS SRL - CUI 52786670\\03. Act constitutiv\\*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\INFOGRUP SRL - CUI 8266084\\02. Certificat constatator\\8266084 Certificat constatator 2026.04.07.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/8266084 Certificat constatator 2026.04.07--8d079f42.pdf",
+    "bytes": 833041,
+    "sha256": "90d79a351ac69552fbe2b8b23efa0b105c146c8dc28a60089f189e19d75bad9c"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE\\Anexa 14 - Metodologie verificare firma in dificultate.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anexa 14 - Metodologie verificare firma in dificultate--049c801a.docx",
+    "bytes": 31150,
+    "sha256": "b7f42933bcfd8f7a6942fc6e0839ff7d6e8821a711dde09966ff71f28734418c"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE\\Anexa 14 - Metodologie verificare firma in dificultate.docx.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE\\Anexa 15 - Calcul firma in dificultate.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anexa 15 - Calcul firma in dificultate--51165bfd.xlsx",
+    "bytes": 20056,
+    "sha256": "5ef697cdff2b796e88cb3d311a83ab2a4b40552ac7558e6f5a2dfe9d8da2a7be"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE\\Anexa 16 - Tabel corelare buget-activități.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anexa 16 - Tabel corelare buget-activități--190e25c3.xlsx",
+    "bytes": 16210,
+    "sha256": "c478e8bd8996cf7ffee7c40323a3d888523b9ee1906f48bd238cec90a29d6f88"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE\\Anexa 4 - Model Plan de afaceri.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anexa 4 - Model Plan de afaceri--c9e15c23.docx",
+    "bytes": 65611,
+    "sha256": "f97ddf9df71b8d1734d63453aec715265873e4af422dc23c64a500d5d51e1964"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE\\Ghid Actiunea 2.1 PoCIDIF.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Ghid Actiunea 2.1 PoCIDIF--41463ba6.pdf",
+    "bytes": 1111572,
+    "sha256": "7c5e99691909f31d82859c724ee19ced8d581ed821fc460841362eefce0c07c9"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere (de completat)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere (de completat)\\04 - Anexa 16 corelare + buget defalcat.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/04 - Anexa 16 corelare + buget defalcat--acfd79e8.xlsx",
+    "bytes": 7650,
+    "sha256": "503b31b7629020fcf6b370d1fe62e14df202a623df762db7497284cff2ed7c24"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere (de completat)\\10 - Fisa de proiect TRL6 - TRL9 (roadmap complet).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/10 - Fisa de proiect TRL6 - TRL9 (roadmap complet)--f685fd47.docx",
+    "bytes": 29337,
+    "sha256": "8929283dab2a7b8823c03b449815c0a9de5e59f2412747c9cadff7757d833afc"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere (de completat)\\11 - Dosar evidenta TRL1-TRL6 (dovada punctului de plecare).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/11 - Dosar evidenta TRL1-TRL6 (dovada punctului de plec--7415f3ee.docx",
+    "bytes": 25518,
+    "sha256": "d9943a6a2b2525d1f204bf8a7553640495dfcb9c33386193db1974ab60b2e2d4"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere\\Anexa 16 - Tabel corelare buget-activitati - CUI 12445967.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere\\Plan de afaceri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere\\Plan de afaceri\\00 - CUPRINS plan de afaceri (structura completa) - CUI 12445967.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\4. Dosar depunere\\Plan de afaceri\\01 - Intrebari clarificare Partea I (A-B) - de completat - CUI 47344051.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - Intrebari clarificare Partea I (A-B) - de completa--5b22af71.docx",
+    "bytes": 16480,
+    "sha256": "894f6c5c5023a374aa19171251201d5e465c2d9f745512c764c18928bdcaa304"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\6. LOI si Protocoale pilot\\LOI - IPEC SA (08.06.2026).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/LOI - IPEC SA (08.06.2026)--f0c5aee5.docx",
+    "bytes": 11429,
+    "sha256": "957a9b608d86ab8a35014d03c74b5916963e71e4f27ea7d90051fde2eaebbf91"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\CV-uri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\EVA",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\\mysmis",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. SRM DESIGN SRL",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. SRM DESIGN SRL\\01. Documente firma\\Situatii financiare (bilant + cont profit-pierdere)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. SRM DESIGN SRL\\04. Locatie de implementare\\contract_comodat_nr_1_01072026s.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/contract_comodat_nr_1_01072026s--cd54832b.pdf",
+    "bytes": 401948,
+    "sha256": "6e589c17511d8e5d382db628202b8d1cf4100f77d8734f4a6589adc6f12c32d8"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. SRM DESIGN SRL\\12. Buget si proiectii financiare\\EVA-Agri_Buget_600k_salarii (robot cules capsuni-rosii).xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-Agri_Buget_600k_salarii (robot cules capsuni-rosii)--ad85481b.xlsx",
+    "bytes": 9247,
+    "sha256": "98c106a8646f6bc227ab035b9529d2357ccab8f4c1387e95a7b43c056a5c416f"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. SRM DESIGN SRL\\13. Plan de afaceri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. SRM DESIGN SRL\\13. Plan de afaceri\\01 - Intrebari + verdict Partea I (A-B) - CUI 47344051.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - Intrebari + verdict Partea I (A-B) - CUI 47344051--952592a5.docx",
+    "bytes": 14226,
+    "sha256": "f010df84846b6b79be37e89a827d97e76a680b7095227a68be011426cc78f985"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\proiectie_financiara_PoCIDIF_2_1_3M_hardware.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/proiectie_financiara_PoCIDIF_2_1_3M_hardware--522a7ebc.xlsx",
+    "bytes": 39074,
+    "sha256": "35f7c1480c80c3b966ced6a2e8f60e4d91c863a04f6a138f6f5552c8810df8fe"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte...\\proiectie_financiara_PoCIDIF_2_1_3M_hardware.xlsx\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\DANCOR PROIECT SRL - CUI 12445967",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2026 - SCRIEM\\\\2026.09.30 Ac\\u021biunea 2.1 POCIDIF\\\\P1. Dancorproiect SRL\\\\3. Buget\\\\EVA_Buget_FINAL.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2026 - SCRIEM\\\\2026.09.30 Ac\\u021biunea 2.1 POCIDIF\\\\P1. Dancorproiect SRL\\\\4. Dosar depunere\\\\Plan de afaceri\\\\00 - CUPRINS plan de afaceri (structura completa) - CUI 12445967.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\04 - Anexa 16 corelare + buget defalcat.xlsx",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\DanCorProiect CF75174 AB.pdf",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\EVA_Buget_FINAL.xlsx",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "afir-cesiro-rambursare1.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "cesiro-images-catalog.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "https://dirt-to-dinner.com/farm-shortages-continue-as-job-numbers-drop/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://effat.org/wp-content/uploads/2024/12/Briefing-Note-ahead-of-EP-Plenary-Debate-on-Farmers-and-Farm-Workers-Conditions.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://italianberry.it/en/news/labor-shortage-berry-harvest-mexico-morocco-europe-agriculture-migrant-workers",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://mfe.gov.ro/pocidif/ghiduri-pocidif/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://mfe.gov.ro/tip_ghid_pocidif/actiunea-2-1/?display=table",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://oipsi.gov.ro/lansarea-pentru-a-doua-oara-in-consultare-publica-a-ghidului-solicitantului-aferent-actiunii-2-1-dezvoltarea-de-noi-servicii-aplicatii-produse-prin-inovare-si-adoptarea-de-tehnologii-avansate-ape/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://oportunitati-ue.gov.ro/pocidif-publica-schema-de-ajutor-de-stat-si-de-minimis-referitoare-la-dezvoltarea-de-noi-servicii-aplicatii-produse-prin-inovare-si-adoptarea-de-tehnologii-avansate-actiunea-2-1-pr/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://termene.ro/firma/6698299-IPEC-SA",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.emergenresearch.com/industry-report/agricultural-robots-market",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.futurefarming.com/tech-in-focus/field-robots/oishii-acquires-tortuga-agtech-to-scale-robotic-strawberry-harvesting/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.grandviewresearch.com/industry-analysis/europe-indoor-farming-market-report",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.intelmarketresearch.com/agricultural-harvesting-robot-market-4802",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ipec.ro/en/home-2/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.marketgrowthreports.com/market-reports/crop-harvesting-robots-market-101683",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.mordorintelligence.com/industry-reports/europe-indoor-farming-market",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.openpr.com/news/4233575/harvesting-robots-industry-attracts-major-investments-m",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.openpr.com/news/4516711/europe-indoor-farming-market-to-reach-usd-32-03-billion-by-2034",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.precisionfarmingdealer.com/articles/6223-harvesting-robot-market-to-surpass-48-billion-by-2032-driven-by-autonomous-tech-astute-analytica",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.zf.ro/companii/fabrica-de-portelan-ipec-din-alba-iulia-controlata-de-familia-20621520",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "zoom-ssm-recordings.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "source_reference": "C:/Users/User/Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\Oferta comerciala - CESIRO PRODUCTION - Linie procesare nuci 400 kg - h (1).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Oferta comerciala - CESIRO PRODUCTION - Linie procesare--4b54714f.pdf",
+    "bytes": 1092628,
+    "sha256": "143b316d4198fcd2db11244d6897f835b7ac882555361bf4714b2429113bbc3c"
+  },
+  {
+    "source_reference": "https://www.tehno-ms.ro",
+    "status": "referinta_externa_necopiata"
+  }
+]

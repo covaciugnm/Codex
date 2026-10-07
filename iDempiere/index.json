@@ -1,0 +1,66 @@
+{
+  "project": {
+    "id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+    "name": "iDempiere",
+    "roots": [
+      "Z:\\00.Roboti\\iDempiere"
+    ],
+    "conversations": 2,
+    "subagents": 0,
+    "messages": 61,
+    "files_copied": 118,
+    "content_sha256": "bcce4e3cfb35d436b656c9b891b9f44810d464d3973271f409f237898fe41927"
+  },
+  "threads": [
+    {
+      "id": "01a11168-ab9e-7910-8d91-0d0729122c5e",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+      "created_at": 1791293434,
+      "updated_at": 1791293816,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Verifică API-ul REGIS",
+      "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+      "project": "iDempiere",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "source_bytes": 251154,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 8,
+      "message_count": 5,
+      "content_sha256": "20103b783b79aad832b778149ec5a100c1a3959385a7b975aae090acdd13ab3f",
+      "files_copied": 0,
+      "references_not_copied": 6,
+      "subagent": false,
+      "folder": "iDempiere/Verifică API-ul REGIS"
+    },
+    {
+      "id": "01a11168-d247-7a22-aa3f-c91b5b3494c1",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+      "created_at": 1791293444,
+      "updated_at": 1791303494,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Inventariază documentele ERP",
+      "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+      "project": "iDempiere",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "source_bytes": 35816213,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 557,
+      "message_count": 56,
+      "content_sha256": "dcd3816d01e90326d540232718e1a5c90c454e3b3a0d960927bfff9f5f3d2b1e",
+      "files_copied": 118,
+      "references_not_copied": 5,
+      "subagent": false,
+      "folder": "iDempiere/Inventariază documentele ERP"
+    }
+  ]
+}

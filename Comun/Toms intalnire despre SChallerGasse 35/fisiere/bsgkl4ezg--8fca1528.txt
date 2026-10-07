@@ -1,0 +1,354 @@
+reportlab OK
+pypdf OK
+PyPDF2 MISSING
+fitz OK
+docx OK
+fpdf MISSING
+weasyprint MISSING
+pdfminer MISSING
+MATERIAL DE PREGĂTIRE PENTRU ÎNTÂLNIREA CU TOMS
+Schallergasse 35, 1120 Wien — proiectarea structurii, verificările și documentația pentru execuție și finalizare
+Beneficiar: A&C Wohnart Immobilien GmbH
+Reprezentant: Cosmin Covaciu
+Data documentării: 8 septembrie 2026
+Materialul privește proiectarea structurii de rezistență și prestațiile conexe. Serviciile BauKG sunt atribuite separat și nu fac obiectul negocierii analizate aici.
+1. Obiectivul întâlnirii
+Întâlnirea trebuie să conducă la o definiție contractuală completă a serviciilor TOMS pentru imobil: ce proiectează, ce verifică, ce urmărește în șantier, ce documente semnează și ce servicii trebuie asigurate de alți specialiști.
+Rezultatul urmărit este o ofertă clarificată, cu anexă de servicii, responsabilități, livrabile, prețuri și termene.
+Pentru fiecare punct discutat trebuie consemnate:
+serviciul și rezultatul concret care va fi predat;
+includerea în preț, prețul suplimentar sau prestatorul separat;
+persoana responsabilă și semnatarul;
+documentele necesare pentru începerea prestației;
+termenul de predare și eventualele condiții.
+O formulare precum „facem statica” sau „asigurăm verificarea” este insuficientă pentru a identifica întregul serviciu contractat.
+2. Situația actuală a proiectului
+Datele de mai jos provin din prezentarea transmisă TOMS la 2 septembrie 2026. Ele trebuie confruntate la întâlnire cu planurile, autorizația și situația constatată în imobil.
+Sursa: emailul transmis TOMS la 2 septembrie.
+Implicațiile pentru întâlnire
+a. Trebuie stabilită o singură versiune de referință a proiectului.
+Planurile autorizate în 2023 și revizia arhitecturală din august 2026 trebuie comparate. TOMS trebuie să confirme pe care le-a folosit pentru ofertare și ce diferențe afectează structura.
+b. Predimensionarea existentă trebuie evaluată și completată.
+Trebuie stabilit ce informații sunt reutilizabile, ce verificări se refac și cine își asumă proiectul final. Existența predimensionării nu confirmă că sunt disponibile toate calculele și detaliile necesare execuției.
+c. Placa de 30 cm este o premisă de verificat.
+Grosimea menționată în concept nu trebuie impusă ca soluție definitivă înaintea verificării fundațiilor, terenului și încărcărilor.
+d. Forajele vecine nu confirmă automat condițiile parcelei.
+Inclusiv observația apei la 4,25 m într-un foraj din vecinătate trebuie tratată ca informație contextuală. TOMS și specialistul geotehnic trebuie să stabilească datele necesare pentru amplasamentul efectiv.
+e. Data de 1 octombrie trebuie verificată pe categorii de lucrări.
+Este necesar un calendar care arată ce poate începe cu documentația disponibilă și ce trebuie să aștepte investigații, proiectare sau verificare.
+3. Ce a ofertat TOMS și ce rămâne neconfirmat
+Au fost identificate două oferte relevante:
+ANG 839 — Prüfingenieur, transmisă la 26.08.2026; în corespondența ta este indicată data ofertei 20.08.2026.
+ANG 855 — Tragwerksplanung, transmisă la 07.09.2026; în răspunsul tău este indicată data ofertei 03.09.2026.
+Surse: transmiterea ANG 839, transmiterea ANG 855.
+Sursa condițiilor citate de beneficiar: emailul tău din 7 septembrie.
+Observație de interpretare: „neconfirmat” nu înseamnă „exclus”. În lipsa textului PDF și a răspunsurilor TOMS, nu se poate atribui prestatorului o excludere care nu a fost demonstrată.
+4. Cele nouă clarificări deja trimise — ce răspuns trebuie obținut
+În mesajele recuperate nu apare un răspuns TOMS care să închidă aceste nouă puncte. Răspunsurile discutate telefonic trebuie introduse în procesul-verbal și confirmate.
+5. Clarificările tehnice suplimentare
+5.1. Documentația de referință și coordonarea proiectării
+De întrebat:
+Ați descărcat și analizat integral documentația transmisă la 2 septembrie?
+Ce planuri și revizii stau la baza ANG 855?
+Ce diferențe ați identificat între planurile autorizate și arhitectura actuală?
+Cine coordonează structura cu arhitectura, instalațiile, liftul și cerințele de incendiu?
+Ce date trebuie stabilite înainte de calcul: utilizări, goluri, echipamente, alcătuiri de planșeu și acoperiș?
+Cum se aprobă și comunică o revizie nouă către toate specialitățile?
+De obținut: registrul documentelor de referință și lista informațiilor lipsă, cu responsabil și termen.
+5.2. Investigarea clădirii existente
+De întrebat:
+Ce inspecții, relevee, sondaje și încercări sunt necesare?
+Evaluarea zidăriei din 2021–2022 este suficientă pentru configurația actuală?
+Trebuie verificate planșeele, capetele grinzilor, reazemele, cornișele, fisurile și fundațiile?
+Cine stabilește programul investigațiilor, cine le execută și cine interpretează rezultatele?
+Sunt incluse costurile laboratorului, deschiderilor și refacerilor?
+Ce se întâmplă cu proiectul și onorariul dacă realitatea diferă de documentele existente?
+Fișa MA37 pentru amenajările de mansardă cere verificarea elementelor existente care preiau încărcările, până la fundații, și utilizarea constatărilor în proiectarea detaliată. Aceasta justifică o etapă explicită de investigare înaintea intervențiilor relevante. MA37 — indicații pentru Dachgeschoßausbauten, iulie 2025.
+De obținut: program de investigații, buget și raport asumat privind datele utilizabile.
+5.3. Fundații, teren și apă
+De întrebat:
+Datele din vecinătate sunt suficiente sau solicitați investigații pe parcelă?
+Cine întocmește tema și raportul geotehnic necesar proiectării?
+Ce verificări sunt necesare pentru fundațiile existente și legătura cu elementele noi?
+Confirmați conceptul plăcii de 30 cm sau îl reevaluați?
+Sunt necesare subzidiri, alte consolidări ori modificări ale succesiunii lucrărilor?
+Cum sunt evaluate efectele asupra vecinilor, inclusiv tasările și deplasările?
+Ce date sunt necesare pentru cuva și fundația liftului?
+Dacă apare necesitatea evacuării apei, cine stabilește soluția și procedurile aplicabile?
+De obținut: poziție scrisă privind suficiența datelor geotehnice și responsabilitățile pentru fundații, săpături și apă.
+5.4. Structura completă și verificările ansamblului
+De întrebat:
+Proiectul acoperă traseul complet al încărcărilor, de la mansardă și balcoane până la teren?
+Sunt incluse stabilitatea globală și legăturile dintre planșee, ziduri și structura nouă?
+Ce verificare seismică este necesară pentru intervenția actuală?
+Ce ipoteze din predimensionarea veche rămân valabile?
+Sunt incluse golurile noi, buiandrugii, marginile planșeelor și modificările scărilor?
+Cine calculează îmbinările, ancorajele și reazemele în metal și lemn?
+Cum se verifică deformațiile și vibrațiile relevante utilizării?
+Cine integrează cerințele de rezistență la foc în calcul și detalii?
+De obținut: o bază de proiectare scrisă, cu ipoteze, criterii, clasificări și lista verificărilor asumate.
+5.5. Stabilitatea pe durata intervențiilor
+Acest subiect trebuie discutat chiar dacă serviciile de coordonare a securității sunt atribuite separat.
+De întrebat:
+Cine definește ordinea demolărilor, consolidărilor și încărcării structurii?
+Cine proiectează sprijinirile temporare ale fațadei, planșeelor și pereților?
+Cine verifică etapele în care structura funcționează diferit față de starea finală?
+Cine calculează și desenează subzidirile și sprijinirile excavațiilor?
+Ce documente trebuie să furnizeze constructorul înaintea execuției?
+Cine stabilește condițiile de montare și demontare a sprijinirilor?
+Ce lucrări nu pot continua înaintea unei verificări documentate?
+Este necesară constatarea inițială a stării clădirilor vecine și monitorizarea lor?
+MA37 are o fișă actualizată în martie 2026 privind conceptul de sprijinire a excavațiilor. Aceasta tratează separat datele geotehnice, calculul sistemului, documentele de șantier și eventualele aprobări suplimentare. Aplicabilitatea concretă la intervențiile din subsol trebuie stabilită pentru proiect. MA37 — Baugrubenumschließungskonzept.
+De obținut: matricea lucrărilor provizorii, cu proiectant, verificator, executant și documente necesare.
+5.6. Planurile pentru execuție și documentele furnizorilor
+De întrebat:
+Ce planșe se predau efectiv pentru fiecare categorie de structură?
+Sunt incluse toate detaliile necesare executării consolidărilor și legăturilor?
+Unde se termină proiectarea TOMS și unde începe proiectarea de atelier a constructorului?
+Cine calculează îmbinările care nu sunt detaliate de TOMS?
+Cine verifică planurile metalului, lemnului, prefabricatelor și ancorajelor?
+Câte cicluri de verificare/corectare sunt incluse?
+Sunt incluse cantitățile structurii și contribuția la caietele de sarcini?
+Cine răspunde întrebărilor constructorilor în perioada de ofertare?
+Modelul profesional LM.VM 2023 distinge proiectarea pentru execuție, documentele de atelier, asistența în execuție și controalele de șantier. Este un reper pentru definirea serviciilor; includerea lor în contractul TOMS trebuie convenită expres. LM.VM 2023 — Tragwerksplanung.
+De obținut: lista completă a livrabilelor și a documentelor ce revin executanților.
+5.7. Controlul în șantier și gestionarea neprevăzutului
+De întrebat:
+Ce verificări se fac înainte de turnare, închidere sau acoperire?
+Cine solicită vizita și cu ce preaviz?
+Cine documentează observațiile și confirmă remedierea?
+Ce verificări intră în asistența structuristului și care în mandatul Prüfingenieur?
+Dacă o vizită servește mai multor prestații, cum este facturată?
+Cine răspunde când la desfaceri apar elemente diferite de planuri?
+În ce termen răspunde TOMS unei solicitări care blochează șantierul?
+Cine poate modifica soluția și prin ce document este transmisă constructorului?
+De obținut: plan de verificări și procedură pentru constatări neprevăzute, cu contacte și termene.
+6. Clarificările juridice și administrative
+Aceste puncte reprezintă cerințe legale relevante și întrebări pentru încadrarea proiectului. Aplicarea lor concretă trebuie confruntată cu dosarul autorizației și rolurile asumate.
+6.1. Valabilitatea autorizației
+Pentru autorizația obișnuită conform §70, §74 stabilește, în principiu, începerea în patru ani de la rămânerea definitivă — Rechtskraft, respectiv finalizarea în patru ani de la început. Data Bescheid-ului nu este automat data Rechtskraft. RIS — §74 BO Wien.
+De întrebat: cine verifică procedura, data definitivării, eventualele notificări/lucrări anterioare și termenul aplicabil? Cine confirmă în scris că lucrările avute în vedere pot începe?
+Nu se va înscrie un termen juridic exact de expirare numai prin adăugarea a patru ani la 21.04.2023.
+6.2. Modificările față de proiectul autorizat
+§73 diferențiază modificările care necesită procedură de cele limitate ce pot fi comunicate la finalizare. Nu orice schimbare poate fi amânată până la Fertigstellungsanzeige. Modificarea nu prelungește valabilitatea autorizației inițiale. RIS — §73 BO Wien.
+De cerut: tabel comparativ 2023–2026, încadrare propusă pentru fiecare modificare și nominalizarea persoanei care pregătește, semnează și depune eventualul Planwechsel/Änderungsbewilligung.
+6.3. Normele tehnice aplicabile
+Proiectul autorizat în 2023 și modificările din 2026 pot ridica probleme de regim tranzitoriu. WBTV 2023 a intrat în vigoare în 2024 și conține dispoziții pentru procedurile deja pendinte. Ediția aplicabilă nu se stabilește exclusiv după anul începerii șantierului. WBTV 2023 — dispoziții finale și tranzitorii.
+De întrebat: ce ediții BO/WBTV/OIB și ce norme de calcul folosiți pentru existent, extindere și modificări? Cine documentează încadrarea și clarifică eventualele incertitudini cu MA37?
+6.4. Documentația structurală disponibilă în șantier
+§127 alin.2 impune existența documentației structurale și a dovezilor verificărilor corespunzătoare stadiului lucrărilor. O verificare a autorității nu înlocuiește răspunderea pentru completitudinea documentației. RIS — §127 BO Wien.
+De întrebat: ce pachet de calcule, planuri și verificări trebuie să existe înaintea fiecărei lucrări și cine îl declară pregătit pentru execuție?
+6.5. Prüfingenieur și independența
+Prüfingenieur trebuie numit și comunicat autorității înaintea începerii, în condițiile aplicabile. Regula de independență îl separă de Bauwerber și Bauführer, fără raport de muncă sau raport organic cu aceștia. Nu rezultă o interdicție generală automată a cumulului cu proiectarea structurii. MA37 — Prüfingenieur.
+De întrebat:
+Cine este persoana nominalizată?
+Ce prestații își asumă exact în temeiul §127?
+Cum este îndeplinită independența în configurația concretă a proiectului?
+Cine face verificările și cine semnează rapoartele?
+Există un înlocuitor autorizat și disponibil?
+6.6. Verificarea calculelor și vizitele Prüfingenieur
+Verificarea proiectării structurale conform cerințelor OIB/normelor aplicabile trebuie delimitată de controalele de șantier ale Prüfingenieur conform BO.
+De întrebat: ce clasă de consecințe/fiabilitate atribuiți proiectului, ce nivel de verificare a calculelor rezultă și cine îl efectuează? Este inclus în preț? Dacă se cere verificare independentă, cine o asigură?
+Nu trebuie presupus automat că denumirea ANG 839 acoperă și o verificare independentă completă a tuturor calculelor. Ghidul Camerei/MA37 explică această distincție; fiind din 2016, se utilizează împreună cu normele aplicabile proiectului. Cameră/MA37 — conținutul și verificarea calculelor.
+6.7. Confirmarea finală §128
+Confirmarea conform §128 alin.2 pct.1 are un obiect mai larg decât calculul structurii. Dosarul final include și alte documente și dovezi, în funcție de proiect. Textul actual este cel modificat în iulie 2026. RIS — §128 BO Wien.
+Întrebarea decisivă:
+„TOMS își asumă confirmarea completă conform §128 alin.2 pct.1 sau furnizează numai documentele structurale necesare persoanei care va semna confirmarea completă?”
+Trebuie stabilit cine colectează actele celorlalte specialități, cine verifică dosarul și cine îl depune.
+6.8. Bauwerksbuch
+Conform §128a, pentru intervențiile relevante de tip Neu-/Zu-/Umbau, Bauwerksbuch trebuie întocmit până la notificarea finalizării. Pentru clădirile existente construite înainte de 1919, termenul general este 31.12.2027, cu excepțiile prevăzute de lege. Autorul/verificatorul trebuie să îndeplinească cerințele profesionale și de independență față de beneficiar, Bauführer și proprietar. RIS — §128a, forma în vigoare din 15.07.2026.
+Pentru imobilul indicat ca fiind din 1905, excluderea din oferta TOMS privește prețul și mandatul TOMS, fără a elimina obligația legală aplicabilă.
+De cerut: ofertă pentru întregul imobil, cu verificarea inițială necesară, documentarea defectelor, planul de remediere, intervalele de verificare, înregistrarea și predarea electronică. Trebuie stabilită relația dintre termenul general și finalizarea lucrărilor.
+6.9. Bauführer și supravegherea completă a lucrărilor
+Bauführer este un rol distinct, cu drept profesional și responsabilități privind execuția. MA37 indică și obligațiile de comunicare înaintea începerii lucrărilor. MA37 — Bauführer.
+De întrebat: cine preia acest rol? Cine asigură ÖBA, dacă se contractează, pentru calitate, cantități, costuri, termene și coordonarea execuției?
+Contractarea structurii și a Prüfingenieur-ului nu trebuie interpretată automat ca preluare a acestor servicii.
+7. Diplome, autorizări, echipă și asigurare
+Prioritatea este verificarea dreptului actual de practică și a persoanei care își asumă documentele. Diploma și titlul profesional sunt componente ale calificării, dar nu demonstrează singure o autorizare activă.
+ZTG stabilește condiții privind studiile, practica și examenul; societatea profesională are propria autorizare. Solicitarea unui dosar de verificare din partea clientului este o măsură precontractuală, nu o obligație generală de a colecta diploma fiecărui angajat. ZTG §5, Camera — Ziviltechnikergesellschaft.
+Ce a fost verificat public despre TOMS
+EVI identifică Toms Ziviltechniker GmbH., FN 214744a. EVI
+Site-ul îl prezintă pe Ferdinand Toms ca Ingenieurkonsulent für Bauingenieurwesen.
+Simona Hotea apare la Office Management, astfel încât corespondența sa nu identifică automat persoana tehnică responsabilă. Echipa TOMS
+Statutul activ al autorizării individuale și al societății trebuie confirmat prin registrul Ziviltechniker sau printr-o confirmare actuală a Camerei; această verificare nu a fost închisă în documentarea de față.
+Asigurarea — întrebări concrete
+Se solicită o confirmare actuală care precizează:
+asiguratul și activitățile acoperite;
+limita pe eveniment, plafonul anual și franșiza;
+acoperirea intervențiilor pe existent și a prejudiciilor la vecinătăți;
+acoperirea tuturor rolurilor asumate în contract;
+excluderile relevante;
+condițiile pentru prejudicii constatate după terminarea mandatului.
+Ghidul Camerei nu prezintă asigurarea ca obligație legală universală pentru orice Ziviltechniker. Solicitarea ei pentru acest proiect este o condiție contractuală recomandată. Limita poliței și limitarea răspunderii din contract trebuie analizate separat. Ghidul Camerei pentru ZT, Camera — asigurare profesională.
+8. Experiența similară care trebuie demonstrată
+Se solicită 3–5 proiecte comparabile, preferabil imobile vieneze vechi cu mansardare/supraetajare, consolidarea existentului și intervenții la fundații sau planșee.
+Pentru fiecare referință:
+adresă și an;
+tipul și vechimea clădirii;
+intervențiile realizate;
+rolul exact al TOMS: proiectare, verificarea calculelor, verificări de șantier;
+persoanele din echipa propusă care au lucrat efectiv;
+dificultăți relevante și modul de rezolvare;
+un beneficiar/arhitect care poate confirma experiența, cu acordul său.
+Referințele publice identificate includ Postsparkasse Wien, unde TOMS indică rolul de verificator structural conform OIB, și spitalul din Villach, cu intervenții și supraetajare asupra unei structuri existente. Sunt relevante, dar rolurile și tipologia diferă de proiectul Schallergasse. Nu au fost confirmate public, în această documentare, trei mansardări vieneze direct comparabile. TOMS News 2019.
+Întrebarea principală: „Ce experiență comparabilă are echipa care va lucra efectiv la proiectul nostru?”
+9. Matricea responsabilităților de convenit
+Nu este suficient ca un serviciu să fie trecut „bauseits”. Trebuie identificat cine îl comandă, cine îl execută și până când trebuie disponibil.
+10. Prețul și clauzele contractuale
+În prezent, singura sumă identificată în textul corespondenței este 1.500 EUR pentru poziția de asistență structurală, citată de beneficiar. Nu poate fi tratată ca preț total și trebuie verificat dacă este netă sau include TVA.
+Se solicită un centralizator comercial cu:
+prețul proiectării și planurilor structurale;
+prețul asistenței și limitele acesteia;
+prețul Prüfingenieur și documentele finale incluse;
+prețul verificării calculelor, dacă este necesară separat;
+Bauwerksbuch și investigațiile, ca poziții distincte;
+cheltuielile auxiliare, deplasările, TVA și totalul;
+tarifele suplimentare pe categorie de personal/vizită;
+ipotezele care pot schimba prețul.
+Clauze de clarificat înaintea semnării
+Documentele contractuale: oferta, răspunsurile la clarificări, lista planurilor și procesul-verbal trebuie integrate într-o ordine de prioritate clară.
+Suplimentele: aprobare scrisă a costului și impactului în timp înaintea prestării.
+Reviziile: separarea modificărilor cerute de beneficiar de corectarea erorilor proprii și de completările necesare documentației convenite.
+Vizitele: număr/ore, pregătire, deplasare, raport și costuri de revenire.
+Durata șantierului: efectele depășirii celor 12 luni.
+Plățile: etape asociate unor pachete complete și verificabile.
+Termenele: condiții de pornire, dependențe și timp pentru verificare/corecturi.
+Răspunderea: citirea limitărilor și excluderilor din AGB împreună cu obiectul mandatului.
+Utilizarea documentelor: dreptul beneficiarului de a construi, întreține și continua proiectul cu documentația predată.
+Încetarea mandatului: predarea documentelor realizate, a stadiului lucrărilor și a problemelor deschise.
+Înlocuirile și subcontractarea: informare și responsabilitate clară față de beneficiar.
+11. Pașii de urmat și condițiile de trecere la execuție
+Pentru ținta de 01.10.2026, TOMS trebuie să propună explicit:
+ce pachete poate preda până atunci;
+ce informații trebuie să primească și până când;
+ce lucrări pot începe pe baza lor;
+ce lucrări se reprogramează dacă documentația sau investigațiile nu sunt încheiate.
+Calendarul trebuie să păstreze timp pentru verificare și corectare, nu doar pentru elaborarea inițială.
+12. Documentele care trebuie aduse sau obținute
+Pentru întâlnire:
+ANG 855 și ANG 839, integral, inclusiv AGB și anexele;
+emailurile din 2 și 7 septembrie;
+autorizația, condițiile și dovada definitivării;
+planurile autorizate și revizia actuală, separate și identificate;
+predimensionarea și evaluarea zidăriei;
+documentele geotehnice;
+fotografii și informații despre intervenții sau degradări;
+datele disponibile pentru lift și celelalte încărcări importante.
+De obținut de la TOMS:
+oferta clarificată;
+echipa și semnatarii nominalizați;
+dovezile autorizărilor și asigurării;
+referințe comparabile;
+lista investigațiilor și informațiilor lipsă;
+lista completă a calculelor și planurilor;
+matricea responsabilităților;
+calendarul și planul de verificări;
+lista documentelor pe care le va preda pentru finalizare.
+13. Agenda recomandată pentru întâlnire
+Pentru o discuție de aproximativ 90 de minute:
+Model de consemnare a fiecărei clarificări:
+Răspunsurile care influențează prețul, responsabilitatea sau termenul trebuie confirmate în scris și integrate în documentele contractuale.
+14. Formulări esențiale pentru discuția în germană
+Obiectul și limitele serviciului
+„Bitte bestätigen Sie für sämtliche erforderlichen Leistungen, ob diese in ANG 855 beziehungsweise ANG 839 enthalten sind, gesondert angeboten werden oder durch einen anderen Auftragnehmer zu erbringen sind.“
+Planurile de referință
+„Welche genehmigten Pläne und welche Revisionen vom 12.08.2026 liegen Ihrer Kalkulation zugrunde? Bitte nennen Sie Planverfasser, Plannummer, Datum und Index.“
+Investigațiile și predimensionarea
+„Welche Teile der vorhandenen Vorbemessung können Sie nach eigener Prüfung übernehmen? Welche Bestands- und Baugrunduntersuchungen benötigen Sie, bevor Sie die Ausführungsplanung verantworten können?“
+Lucrările provizorii
+„Wer plant und bemisst die Bauzustände, Unterfangungen, Abstützungen und Baugrubensicherungen? Wer prüft die Unterlagen und legt die Voraussetzungen für den nächsten Bauabschnitt fest?“
+Autorizarea și semnatarul
+„Wer trägt die fachliche Verantwortung und unterzeichnet die statischen Unterlagen? Bitte bestätigen Sie die aufrechte Befugnis der Gesellschaft und der verantwortlichen Person einschließlich Fachgebiet.“
+Experiența similară
+„Welche vergleichbaren Wiener Gründerzeithäuser mit Dachgeschossausbau und Bestandsverstärkung hat das für unser Projekt vorgesehene Team bereits bearbeitet, und welche Leistungen wurden dabei tatsächlich übernommen?“
+Verificările și finalizarea
+„Welche Leistungen übernehmen Sie als Tragwerksplaner, als Prüfingenieur nach der Bauordnung und gegebenenfalls bei der Prüfung der statischen Berechnungen? Umfasst Ihr Auftrag auch die vollständige Bestätigung nach §128 Abs.2 Z1 oder nur den statischen Fachbeitrag?“
+Calendarul și costul complet
+„Welche prüffähigen und ausführungsreifen Unterlagen können bis zum vorgesehenen Baubeginn vorliegen? Bitte nennen Sie sämtliche Voraussetzungen, offenen Leistungen und Zusatzkosten.“
+Întrebarea de închidere
+„Bitte halten Sie die besprochenen Punkte in einem ergänzten Angebot mit eindeutiger Leistungsabgrenzung, benannten Verantwortlichen, vollständiger Unterlagenliste, Honorar und Terminplan schriftlich fest.“
+Element | Situația comunicată TOMS
+Imobil | Clădire de locuințe de tip Gründerzeithaus, anul construirii indicat: 1905
+Regim de niveluri | Subsol + parter + 3 etaje + amenajare/extindere pe două niveluri de mansardă
+Suprafață comunicată | Aproximativ 803 m², dintre care circa 569 m² existent și 234 m² în mansardă
+Intervenții principale | Consolidarea structurii existente, mansardare, lift, balcoane către curte și modificări interioare
+Fațadă stradală | Se păstrează
+Autorizație indicată | MA37/1539234-2021-1, din 21.04.2023
+Planuri autorizate | P2041, planșe cu viză, stadiu indicat 20.04.2023
+Arhitectură actuală | Revizie 12.08.2026, inclusiv planurile EG, 1.–3. OG, DG1 și DG2
+Documentație structurală existentă | Preconcept și predimensionare din 2021, documentație emisă în ianuarie 2022, inclusiv concept de fundare și evaluarea zidăriei
+Limitarea predimensionării | În inventarul transmis este menționată expres precizarea „gilt nicht als Ausführungsstatik” — nu constituie proiect structural de execuție
+Concept de fundare | Placă de beton armat de 30 cm, menționată în conceptul existent
+Informații geotehnice | Foraje din vecinătate, din zona Siebertgasse/Herthergasse, și o sinteză din 11.08.2026
+Calendar comunicat | Începere dorită 01.10.2026, durată estimată aproximativ 12 luni
+Serviciu/condiție | Ce se poate afirma în acest moment | Clarificarea necesară
+Proiectarea structurii | Există oferta ANG 855, identificată ca Tragwerksplanung | Lista exactă a calculelor, planurilor și limitărilor
+Ausführungsstatik, poziția 1.2.1 | Poziția este citată în emailul tău din 7 septembrie | Confirmarea includerii tuturor elementelor proiectului
+Planuri de cofraj, armare, metal/lemn | Au fost solicitate în cererea ta | Inventarul planșelor și nivelul de detaliere efectiv ofertat
+Liste de armături/oțel | Ai cerut confirmarea includerii | Răspuns scris și delimitare față de listele de fabricație
+Asistență structurală, poziția 1.2.2 | În emailul tău apare suma de 1.500 EUR | Număr de vizite/ore, servicii, cheltuieli și regimul TVA
+Prüfingenieur | Există oferta ANG 839 | Obiectul complet, verificările, rapoartele și limitele
+Confirmarea finală §128 | Ai solicitat-o expres | Confirmare completă sau numai documentația structurală pentru alt semnatar
+Bauwerksbuch | În emailul tău este descris ca exclus din ANG 839 | Verificarea excluderii în PDF și ofertă separată completă
+Sprijinirea excavației | Întrebare deja trimisă | Cine calculează, proiectează și verifică sistemul concret
+Studii/investigații suplimentare | Nu există confirmare de includere în mesajele citite | Necesitate, furnizor, cost și calendar
+ÖBA — supraveghere locală a execuției | Nu rezultă că ar fi contractată prin ofertele identificate | Dacă este dorită, ofertare și atribuție distinctă
+Planuri de atelier/fabricație | Au fost excluse din solicitarea ta din 2 septembrie | Cine le întocmește și cine le verifică
+Valabilitate ANG 839 | Emailul tău indică 19.09.2026 | Prelungire/confirmare scrisă
+Valabilitate ANG 855 | Emailul tău indică 03.10.2026 | Confirmare în oferta originală
+Preț total al pachetului | Neconfirmat | Centralizator comercial complet, fără dublări
+Nr. | Întrebarea trimisă | Completarea necesară la întâlnire
+1 | Sunt incluse toate elementele portante? | Confirmare nominală pentru fundații, consolidarea existentului, lift, mansardă, balcoane, goluri și legăturile dintre acestea
+2 | Sunt incluse listele de armături și oțel? | Tipul listelor, formatele, reviziile și responsabilitatea pentru listele de fabricație
+3 | Se poate utiliza predimensionarea existentă? | Ce se preia, ce se verifică, ce se reface și ce investigații condiționează asumarea soluției
+4 | Care este termenul de proiectare? | Calendar pe pachete, inclusiv verificare, corecturi și documentele necesare înaintea fiecărei lucrări
+5 | Câte ședințe sunt incluse în 1.500 EUR? | Vizite versus ședințe, durată, deplasare, rapoarte, răspunsuri scrise și tarife după epuizare
+6 | Este inclus calculul sprijinirii excavației? | Separarea conceptului, calculului de execuție, planurilor, verificării și urmăririi sistemului
+7 | Se menține ANG 839 și se pot cumula rolurile? | Preț/valabilitate, persoanele numite, independența și organizarea verificării calculelor
+8 | Se poate oferta Bauwerksbuch? | Întregul imobil, prima verificare, evidența defectelor, înregistrare și predare electronică
+9 | Cum se predă documentația? | PDF semnat, DWG/alte formate convenite, revizii, exemplare și drepturi de utilizare
+Ce se solicită | Scopul verificării
+Societatea contractantă și extras Firmenbuch actual | Identitatea juridică și persoana care poate semna contractul
+Befugnis a societății Ziviltechniker | Dreptul profesional al societății și domeniul acoperit
+Numele responsabilului tehnic | Persoana care conduce și își asumă proiectul
+Confirmarea Befugnis active a semnatarului | Domeniul autorizării și statutul actual
+CV profesional și studii relevante | Competența tehnică pentru structuri și intervenții pe clădiri existente
+Echipa efectiv alocată | Cine calculează, desenează, verifică intern și participă în șantier
+Organizarea subcontractării | Ce se externalizează și cine răspunde pentru prestații
+Înlocuitorul responsabilului | Continuitate în concedii, indisponibilitate și faze critice
+Confirmarea asigurării profesionale | Acoperirea rolurilor și a riscurilor relevante proiectului
+Activitate | Responsabil de nominalizat
+Planuri arhitecturale și coordonarea generală | Arhitect/proiectant coordonator
+Investigarea structurii existente | Structurist, cu executanții investigațiilor
+Date geotehnice aplicabile parcelei | Specialist geotehnic și structurist
+Calcul structural pentru execuție | TOMS, dacă este confirmat contractual
+Detalii de structură și consolidare | TOMS și eventualii specialiști delimitați
+Lucrări provizorii și etape structurale | Proiectant nominalizat; verificare și interfață cu executantul
+Planuri de atelier și fabricație | Executanți/furnizori; verificator nominalizat
+Verificarea calculelor conform cerințelor aplicabile | Persoană/organizație și nivel de independență de stabilit
+Prüfingenieur conform BO | Persoană nominalizată și comunicată autorității
+Bauführer | Prestator și persoană competentă distinct identificați
+ÖBA, dacă se contractează | Prestator nominalizat, cu obiect separat
+Modificări ale autorizației | Autor/deponent/coordonator nominalizat
+Confirmarea completă §128 | Semnatar și coordonator al dosarului
+Bauwerksbuch | Autor/verificator și responsabil de înregistrare
+Dosarul final conform execuției | Coordonator, cu contribuții de la toți participanții
+Etapă | Acțiune | Rezultatul necesar
+1. Întâlnirea și vizita | Confirmarea obiectului, stării clădirii și documentelor | Proces-verbal cu întrebări, răspunsuri și puncte deschise
+2. Clarificarea ofertei | Includeri, excluderi, roluri, preț și valabilitate | Ofertă revizuită și anexă de servicii
+3. Verificarea bazei juridice | Autorizație, Rechtskraft, modificări și condiții | Listă de proceduri și responsabilități
+4. Investigații | Clădire, fundații, teren și date de la furnizori | Rapoarte acceptate de proiectant
+5. Confirmarea soluției | Evaluarea conceptului existent și a modificărilor | Bază de proiectare și decizii documentate
+6. Proiectarea pe pachete | Fundații/consolidare, lift, mansardă, balcoane | Calcule și planuri corespunzătoare fiecărei etape
+7. Verificări și pregătirea începerii | Corecturi, numiri, notificări, documente de șantier | Pachet complet pentru lucrările care urmează
+8. Execuție | Verificări înainte de acoperire și gestionarea reviziilor | Rapoarte, planuri actuale și remedieri închise
+9. Finalizare | Documente conforme execuției și confirmările aplicabile | Dosar complet pentru finalizare și Bauwerksbuch
+Durată orientativă | Subiect
+10 minute | Obiectivul investiției și documentele de referință
+20 minute | Vizita, existentul, fundațiile și investigațiile
+20 minute | Limitele proiectării, detaliile și lucrările provizorii
+15 minute | Prüfingenieur, verificarea calculelor, autorizația și finalizarea
+15 minute | Echipa, prețul, suplimentele și calendarul
+10 minute | Decizii, documente de transmis, responsabili și termene
+Punct | Răspuns TOMS | Statut | Responsabil | Termen | Cost
+… | … | Inclus / supliment / prestator separat / neclarificat | … | … | …

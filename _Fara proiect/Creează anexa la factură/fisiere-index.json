@@ -1,0 +1,55 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-30/in/outputs/Anexa 1 la factura nr. 1 din 29.09.2026.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anexa 1 la factura nr. 1 din 29.09.2026--9ae59d2b.docx",
+    "bytes": 41091,
+    "sha256": "f5fbdcb4933c6912ccd39b39bcc832a1416e7aff17086c86b515dd8b34193c83"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-30/in/outputs/Anexa 1 la factura nr. 1 din 29.09.2026.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Anexa 1 la factura nr. 1 din 29.09.2026--510077a1.pdf",
+    "bytes": 81918,
+    "sha256": "054486101aba8f42b46aa005413d6d145d297684ee02a28584622e36399415da"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-30\\in\\work\\annex-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/annex-1--092d8892.png",
+    "bytes": 98864,
+    "sha256": "b6a77c3780478b2fae3589162202a3545f864a3eef596f5abab08846fd0430e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-30\\in\\work\\annex-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/annex-2--55ce04dd.png",
+    "bytes": 104922,
+    "sha256": "6ed8efe144b9d3abb869d837379b8bff0f78521f682b06727f57c1c2df52baa0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-30\\in\\work\\create_annex.py",
+    "status": "copiat",
+    "saved_path": "fisiere/create_annex--f5ec011b.py",
+    "bytes": 9240,
+    "sha256": "17c0568e8aa90be597a48b5148ba96226560b5bc480a9ca45fde9327b34004e3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-30\\in\\work\\invoice-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/invoice-1--bc6bd1eb.png",
+    "bytes": 19135,
+    "sha256": "09933a213744ad3ca6a6c5c650ddce6bf5a9acd6d7430af1a3f1c712bdfafb63"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-30\\in\\work\\render_annex.py",
+    "status": "copiat",
+    "saved_path": "fisiere/render_annex--e2763e8a.py",
+    "bytes": 3712,
+    "sha256": "dfe6d1ea63de82f3cfd99f7ca0fd4ed833cb2eac21468cd5f76122c12f156602"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\f\\_52226710\\_1\\_29-09-2026\\_30092026\\_135427.pdf",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

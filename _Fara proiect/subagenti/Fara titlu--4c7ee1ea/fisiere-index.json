@@ -1,0 +1,30 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\PLAN-PRODUSE-STAFIDE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PLAN-PRODUSE-STAFIDE--1547de1d.md",
+    "bytes": 4371,
+    "sha256": "9a81ddc826fe5d6f376e2007b0b0df3f58266599d2658fdc5845444358b55c6d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\assets\\produse\\dracula-food-alune-de-padure-dracula-farm.png",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-food-alune-de-padure-dracula-farm--4e3d2c56.png",
+    "bytes": 2337009,
+    "sha256": "0da62021daed4ac46c40efdb2859ec761104b97b22e69fcbdf22923e395bd522"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\assets\\produse\\dracula-food-nuci-dracula-farm.png",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-food-nuci-dracula-farm--1fb6df6c.png",
+    "bytes": 2459105,
+    "sha256": "6e36d39d7406c2751e70f26bdc9ed0135c126ba2d3a2d2301f1bcf7d43cb5fb6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\raisin-drafts.json",
+    "status": "copiat",
+    "saved_path": "fisiere/raisin-drafts--05ef4b9e.json",
+    "bytes": 42617,
+    "sha256": "b9353e8e9e53f4793181cf1d0ce45470003a468f719c74f400f5b6e44feabba0"
+  }
+]

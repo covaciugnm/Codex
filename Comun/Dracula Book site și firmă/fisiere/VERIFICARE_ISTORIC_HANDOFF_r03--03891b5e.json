@@ -1,0 +1,61 @@
+{
+  "index_sha256": "2adb2c91e68b60939267290426928250e63dd56e49faee8cb1f80d253bb8b3bd",
+  "sidecar_matches": true,
+  "checks": [
+    {
+      "role": "P-MANAGER",
+      "prefix_bytes": 24767066,
+      "prefix_matches": true,
+      "derived_files_match": true
+    },
+    {
+      "role": "P-CANON",
+      "prefix_bytes": 5307281,
+      "prefix_matches": true,
+      "derived_files_match": true
+    },
+    {
+      "role": "P-RESEARCH",
+      "prefix_bytes": 4866093,
+      "prefix_matches": true,
+      "derived_files_match": true
+    },
+    {
+      "role": "P-SYSTEMS",
+      "prefix_bytes": 4350873,
+      "prefix_matches": true,
+      "derived_files_match": true
+    },
+    {
+      "role": "A-GOVERNANCE",
+      "prefix_bytes": 11119992,
+      "prefix_matches": true,
+      "derived_files_match": true
+    },
+    {
+      "role": "A-SYSTEMS",
+      "prefix_bytes": 11271685,
+      "prefix_matches": true,
+      "derived_files_match": true
+    },
+    {
+      "role": "A-CANON",
+      "prefix_bytes": 9649609,
+      "prefix_matches": true,
+      "derived_files_match": true
+    },
+    {
+      "role": "A-SOURCES",
+      "prefix_bytes": 9961588,
+      "prefix_matches": true,
+      "derived_files_match": true
+    },
+    {
+      "role": "A-QAMANAGER",
+      "prefix_bytes": 14884069,
+      "prefix_matches": true,
+      "derived_files_match": true
+    }
+  ],
+  "scope": "Actual byte-prefix and derived-file checks; read-only FileStream with read/write sharing; source contents never printed or copied; main source may continue appending after capture."
+}

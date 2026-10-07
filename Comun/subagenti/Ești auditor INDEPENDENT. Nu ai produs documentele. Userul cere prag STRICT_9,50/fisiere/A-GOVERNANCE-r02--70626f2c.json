@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "audit_id": "RES-001-A-GOVERNANCE-r02-01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "deliverable_id": "RES-001",
+  "version_id": "r02",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/RES-001-r02.json",
+    "sha256": "3b5ae9ea6120c2c8e6ee8fff5e7ceac32f992a1b4fbd8c1cd89273ec0328c0df"
+  },
+  "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "reviewer_role": "A-GOVERNANCE",
+  "files": [
+    {
+      "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+      "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490"
+    },
+    {
+      "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+      "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01"
+    }
+  ],
+  "supplemental_evidence_files": [
+    {
+      "path": "05_AUDIT/RES-001/A-GOVERNANCE-r02.md",
+      "sha256": "d640b3d6de4f956f1617a52b577c0451b64a000a0c1758e211cae16ab81c7ca3"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "surse",
+      "weight": 25,
+      "score": 962,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L18-L30"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L34-L149"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L17-L95"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r02.md",
+          "sha256": "d640b3d6de4f956f1617a52b577c0451b64a000a0c1758e211cae16ab81c7ca3",
+          "anchor": "#integritate"
+        }
+      ]
+    },
+    {
+      "id": "succes",
+      "weight": 20,
+      "score": 966,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L20-L26"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L17-L19"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L97-L103"
+        }
+      ]
+    },
+    {
+      "id": "originalitate",
+      "weight": 25,
+      "score": 968,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L151-L161"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L174-L200"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r02.md",
+          "sha256": "d640b3d6de4f956f1617a52b577c0451b64a000a0c1758e211cae16ab81c7ca3",
+          "anchor": "#utilizare"
+        }
+      ]
+    },
+    {
+      "id": "relevanta",
+      "weight": 15,
+      "score": 975,
+      "evidence": [
+        {
+          "path": "06_REGISTRU/ISTORIC/INSTRUCTIUNI_BENEFICIAR.md",
+          "sha256": "a9833e0c0204f1dbd4aa40e0562717d3bff9f0ccb03d80913bdbf7f0884c353f",
+          "anchor": ":L11-L12"
+        },
+        {
+          "path": "00_CONDUCERE/DECIZIE_EDITORIALA_001_SURSE.md",
+          "sha256": "af8fa2d80f09318653a6f7450ed48851ceaedb51da6e7560bd2e96488bd2d523",
+          "anchor": ":L8-L10"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L12-L14"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L13-L15"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r02.md",
+          "sha256": "d640b3d6de4f956f1617a52b577c0451b64a000a0c1758e211cae16ab81c7ca3",
+          "anchor": "#retest-r01"
+        }
+      ]
+    },
+    {
+      "id": "utilizare",
+      "weight": 15,
+      "score": 972,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L155-L184"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L153-L170"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L202-L204"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r02.md",
+          "sha256": "d640b3d6de4f956f1617a52b577c0451b64a000a0c1758e211cae16ab81c7ca3",
+          "anchor": "#utilizare"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "GOV-RES-01",
+      "severity": "major",
+      "status": "closed",
+      "location": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L10-L16;02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L155-L184;02_DOCUMENTARE/REPERE_SI_MECANISME.md:L11-L19",
+      "description": "Retest r02: fondul comun este explicit cel al experiențelor umane, nu un univers ficțional comun obligatoriu. Canonul și rama se verifică per serie/WorkID; legăturile neinvocate nu sunt cerute. Procedura, fișa, combinațiile și grila păstrează aceeași limită.",
+      "remediation": "Măsura verificată: reformularea ambelor documente și integrarea DE-001/U03. Test executat: lectura integrală, verificarea tuturor trimiterilor la lume/serii și parcurgerea a două cazuri sintetice cu lumi independente și minimum două opere distincte. Rezultat conform; cazurile rămân exploratorii fără canon aprobat."
+    },
+    {
+      "id": "F-RES-SOURCES-001",
+      "severity": "major",
+      "status": "closed",
+      "location": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L12-L14;02_DOCUMENTARE/REPERE_SI_MECANISME.md:L103-L111;02_DOCUMENTARE/REPERE_SI_MECANISME.md:L170-L204",
+      "description": "Retest independent al aceleiași probleme de scope semnalate de A-SOURCES: nu mai există cerința de univers comun; 18 mecanisme/nouă opere, patru combinații cu opere distincte și pragul EN sunt păstrate. Închiderea nu certifică sursele externe, succesul ori originalitatea unui roman.",
+      "remediation": "Test executat: lectura integrală a pachetului și controlul câmpurilor de selecție, al combinațiilor, al grilei și predării; zero obligații de conectare între colecții. Specialistul A-SOURCES verifică separat adevărul și actualitatea surselor."
+    }
+  ],
+  "verdict": "PASS",
+  "limitations": [
+    "Audit de guvernanță al documentării preliminare G00, nu validare G02 sau selecție de intrigă aprobată.",
+    "Am citit integral ambele produse; nu am reaccesat paginile web și nu am verificat integral operele-sursă. Atribuirea documentară și limitele sunt evaluate aici; adevărul extern este obiectul A-SOURCES.",
+    "Exemplele de aplicare sunt teste de procedură, nu WorkID-uri create, fapte de canon sau romane aprobate.",
+    "Nu certific originalitate juridică, succes comercial, potrivire de canon ori minimum 50.000 de cuvinte realizate.",
+    "Verdict individual; auditul A-SOURCES, metaauditul și dependența SYS-001 se validează separat la poartă."
+  ],
+  "reviewed_at": "2026-09-24T02:37:38+00:00"
+}

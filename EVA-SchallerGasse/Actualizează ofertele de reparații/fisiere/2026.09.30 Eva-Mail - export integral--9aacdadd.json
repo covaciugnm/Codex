@@ -1,0 +1,712 @@
+{
+  "data_export": "2026.09.30",
+  "sursa": "Eva-Mail",
+  "query": "bau-werte",
+  "total": 15,
+  "emailuri": [
+    {
+      "id": "e4992e22-17d9-4687-9e7c-539f499b954a",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Anfrage Generalunternehmer – Wohnhaus Schallergasse 35, 1120 Wien – Dachgeschossausbau, rechtskräftige Baubewilligung | Empfehlung Bmstr. DI Stefan Lechner (BAU-WERTE)",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "thomas.schauer@schauerleute.at"
+      ],
+      "cc": [],
+      "received_at": "2026-09-29T09:58:59.811443Z",
+      "text": "Sehr geehrter Herr Schauer,\nIhr Unternehmen wurde uns von Herrn Bmstr. Dipl.-Ing. Stefan Lechner (BAU-WERTE Baumanagement & Bauarbeitenkoordination e.U.), unserem Baustellenkoordinator nach BauKG, ausdrücklich empfohlen. Wir wenden uns daher gerne mit einer ersten, unverbindlichen Anfrage an Sie.\nAls Eigentümerin des Wohnhauses Schallergasse 35, 1120 Wien, setzt die A&C Wohnart Immobilien GmbH ein vollständig bewilligtes Bauvorhaben um. Dafür suchen wir einen Generalunternehmer mit Baumeisterberechtigung, der die Ausführung übernimmt und zugleich als Bauführer gemäß § 124 BO für Wien fungiert.\nDas Projekt im Überblick:\nGründerzeit-Wohnhaus, Baujahr 1905, EZ 2235, KG 01305 Meidling\nKeller + Erdgeschoss + 3 Obergeschosse + zweigeschossiger Dachgeschossausbau (neu), rund 803 m² Wohnnutzfläche\nRechtskräftiger Baubescheid der MA 37 vom 21.04.2023, GZ MA37/1539234-2021-1\nLeistungsumfang: Abbruch- und Umbauarbeiten im Bestand, statische Ertüchtigung inkl. Stahlbeton-Fundamentplatte, Dachgeschossausbau in Holz-/Stahlbauweise, Aufzugszubau, hofseitige Balkone, Haustechnik komplett sowie Innenausbau\nAusführungsplanung (Planstand 08.09.2026, inkl. CAD), Statik-Grundlagen, Installationsprojekt und Baugrundinformationen liegen vor\nTragwerksplanung, Prüfingenieur und BauKG-Koordination sind weitgehend verhandelt\nDetails finden Sie im beigefügten Projektblatt.\nWir würden uns über folgende drei Schritte freuen:\nSchritt 1: eine kurze, unverbindliche schriftliche Interessensbekundung\nSchritt 2: eine gemeinsame Objektbegehung vor Ort – bitte nennen Sie uns zwei Wunschtermine, wir stimmen den Termin gerne auch telefonisch ab\nSchritt 3: Ihre unverbindlichen Richtpreise für die 10 projekttypischen Leistungspositionen (Anlage A) samt kurzem Fragebogen (Anlage B, ca. 10 Minuten) – beides als ausfüllbares PDF beigefügt\nDie Richtpreise dienen ausschließlich dem fairen Vergleich der Preisniveaus und begründen keine Beauftragung. Nach der Begehung übermitteln wir Ihnen gerne den Download-Link mit den vollständigen Unterlagen, damit Sie Ihr Angebot auf vollständiger Grundlage legen können.\nWir würden uns sehr freuen, Ihr Haus für dieses Projekt zu gewinnen. Für Rückfragen stehe ich Ihnen jederzeit unter +43 665 670 550 45 oder office@ac-wohnart.at zur Verfügung.\nMit freundlichen Grüßen\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "SENT",
+        "3: Fyi"
+      ],
+      "category": "fyi",
+      "folder": "thomas.schauer@schauerleute.at",
+      "thread_id": "<2fb858cf-2044-489b-86bd-b83a5f158452@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [
+        {
+          "id": "28b48b1c-2142-41a5-a27c-df0d9a46d3c6",
+          "name": "PROFI_Anlage_A_B_Richtpreise_Fragebogen_2026-09-15.pdf",
+          "size": 142374,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 4591,
+          "page_count": null,
+          "text": "A&C WOHNART IMMOBILIEN GmbH\nAnlagen A + B · GU-Anfrage Wohnhaus Schallergasse 35, 1120 WienSchallergasse 35, 1120 Wien\nFN 668224h, HG Wien\noffice@ac-wohnart.at\n+43 665 670 550 45\nANLAGE A · RICHTPREISLISTE\nUnverbindliche Einheitspreise (Richtpreise, kein Angebot) · netto zzgl. USt · bitte direkt am PC ausfuellen\nFirma:\nAnsprechperson / Datum:\nPos.Leistungsposition EinheitIhr Richtpreis\nP01Abbruch nichttragender Zwischenwände (Ziegel, d bis 15 cm), inkl. Schuttabfuhr und\nEntsorgungEUR/m²\nP02Trockenbauwand, doppelt beplankt, 10 cm Mineralwolle-Dämmung, verspachtelt (System lt.\nDetail Z.1)EUR/m²\nP03Stahlbeton-Fundamentplatte C25/30, d = 30 cm, inkl. Schalung, Bewehrung (ca. 90 kg/m³), im\nBestandskellerEUR/m²\nP04Stahlträger HEB 120?180, S235, geliefert und montiert, inkl. Korrosionsschutz und\nVergussarbeitenEUR/kg\nP05Holzkonstruktion Dachgeschoss (KVH/BSH), geliefert und montiert, inkl. Verbindungsmittel EUR/m³\nP06Dachaufbau komplett lt. Detail DA01 (Schalung, Abdichtung, Wärmedämmung, Blech,\nSpenglerarbeiten)EUR/m²\nP07Schwimmender Zementestrich 6 cm inkl. Trittschalldämmung EUR/m²\nP08Elektroinstallation komplett je Wohnung 55?105 m² (lt. Plänen IE, inkl. Verteiler) EUR/Whg\nP09Badezimmer komplett: Sanitär-Rohinstallation + Objekte montiert (exkl. Fliesenlegerarbeiten) EUR/Stk\nP10Fassadengerüst hofseitig inkl. Auf-/Abbau und 3 Monate Standzeit EUR/m²\nRegiestundensätze (netto zzgl. USt):\nPolier Facharbeiter Helfer GU-Zuschlag auf Sub\nEUR/h EUR/h EUR/h %\nHinweis: Die Richtpreise dienen ausschließlich dem fairen Vergleich der Preisniveaus auf gleicher Basis und begründen keine Beauftragung. Detaillierte\nPläne, Leistungsverzeichnisse und Mengen werden interessierten Betrieben per Download-Link übermittelt.\nA&C Wohnart Immobilien GmbH · Schallergasse 35, 1120 Wien · FN 668224h, Handelsgericht Wien · office@ac-wohnart.at     Seite 1 / 3\nA&C WOHNART IMMOBILIEN GmbH\nAnlagen A + B · GU-Anfrage Wohnhaus Schallergasse 35, 1120 WienSchallergasse 35, 1120 Wien\nFN 668224h, HG Wien\noffice@ac-wohnart.at\n+43 665 670 550 45\nANLAGE B · FRAGEBOGEN\nBitte Zutreffendes anklicken · Aufwand ca. 10 Minuten · sämtliche Angaben werden vertraulich behandelt\nBETRIEBSDATEN\nB1  Mitarbeiter gesamt: davon gewerblich (Baustelle):\nB2  Jahresumsatz netto: 2023: 2024: 2025: EUR\nB3  GISA-Zahl (Baumeisterberechtigung): Gründungsjahr:\nAUSSTATTUNG / GERÄTE\neigenes Fassadengerüst, ca. m²Gerüst wird angemietet (fixer Partner)\nKran:eigener Autokran eigener Turmdrehkran Anmietung nach Bedarf\nIhre übliche Kranlösung bei DG-Ausbauten:\nBauaufzug eigen Bagger/Minibagger eigen LKW/Containerlogistik eigen\nSonstige relevante Geräte:\nFRAGEN ZUM AUFTRAG (1/2)\nF01  Grundsätzliches Interesse am GU-Gesamtauftrag:\nja, komplett als GU ja, nur Teilleistungen derzeit kein Interesse\nF02  Verfügbarkeit für Baubeginn Oktober 2026:\njaab Nov./Dez. 2026 erst ab 2027\nF03  Bauführung gemäß § 124 BO für Wien:\nuneingeschränkte Baumeisterberechtigung (GISA-Auszug liegt bei) eingeschränktnicht möglich\nF04  Vergleichbare Referenzen letzte 5 Jahre (Gründerzeit + DG-Ausbau):\nkeine1·23·5mehr als 5\n2 Referenzadressen:\nF05  Eigenleistung (E) oder Subunternehmer (S) je Gewerk · bitte E oder S eintragen:\nRohbau:Zimmerei:Dach/Spengler: Elektro:Sanitär/Hzg:Innenausbau:\nA&C Wohnart Immobilien GmbH · Schallergasse 35, 1120 Wien · FN 668224h, Handelsgericht Wien · office@ac-wohnart.at     Seite 2 / 3\nA&C WOHNART IMMOBILIEN GmbH\nAnlagen A + B · GU-Anfrage Wohnhaus Schallergasse 35, 1120 WienSchallergasse 35, 1120 Wien\nFN 668224h, HG Wien\noffice@ac-wohnart.at\n+43 665 670 550 45\nFRAGEN ZUM AUFTRAG (2/2)\nF06  Verwaltungsstrafen letzte 5 Jahre (Baupolizei, Arbeitsinspektorat, BUAK):\nkeine\nvereinzelt · kurze Erläuterung:\nF07  Betriebshaftpflicht · Deckungssumme:\nunter 1 Mio.1·3 Mio.3·5 Mio.über 5 Mio. EUR\nF08  Bauleitung/Polier vor Ort (deutschsprachig):\ntäglich fixmehrmals wöchentlich nach Bedarf\nF09  Bevorzugtes Abrechnungsmodell:\nPauschalpreisEinheitspreise nach Aufmass Regie mit Kostendeckel\nF10  Zahlungsplan:\nmonatliche Teilrechnungen nach Baufortschritt nach Meilensteinen\nF11  Gewährleistung:\ngesetzlich (3 Jahre)\nerweitert (Jahre):\nF12  Terminwunsch Objektbegehung Schallergasse 35:\ndiese Woche (nach Vereinbarung) nächste Woche\nIhre 2 Wunschtermine:\nVielen Dank für Ihre Zeit! Bitte speichern Sie das ausgefüllte PDF und senden Sie es an office@ac-wohnart.at.\nSämtliche Angaben werden vertraulich behandelt. Rückfragen: Cosmin Covaciu, Geschäftsführer, +43 665 670 550 45.\nA&C Wohnart Immobilien GmbH · Schallergasse 35, 1120 Wien · FN 668224h, Handelsgericht Wien · office@ac-wohnart.at     Seite 3 / 3\n"
+        },
+        {
+          "id": "4e50e3f8-7015-4b8d-95ea-dea1423a14ab",
+          "name": "PROFI_Projektblatt_Schallergasse35_2026-09-15.pdf",
+          "size": 146053,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 4787,
+          "page_count": null,
+          "text": " A&C WOHNART IMMOBILIEN GmbH  \nProjektblatt · Wohnhaus Schallergasse 35, 1120 Wien  Schallergasse 35, 1120 Wien  \nFN 668224h, HG Wien  \noffice@ac -wohnart.at  \n+43 665 670 550 45  \n \n \nA&C Wohnart Immobilien GmbH · Schallergasse 35, 1120 Wien · FN 668224h, Handelsgericht Wien · office@ac -wohnart.at · +43 665 670 550 45     Seite 1 \n/ 2 \nPROJEKTBLATT  \nUmbau, statische Ertüchtigung und Dachgeschossausbau  \nWohnhaus Schallergasse 35, 1120 Wien · Stand: 15.09.2026 · Basis: Ausführungsplanung, Planstand 08.09.2026  \n1. Objekt und Genehmigungsstand  \nMerkmal  Angabe  \nObjekt  Gründerzeit -Wohnhaus, Baujahr 1905; EZ 2235, KG 01305 Meidling  \nGeschosse  Keller + Erdgeschoss + 3 Obergeschosse + zweigeschossiger \nDachgeschossausbau (neu)  \nWohnnutzfläche  rd. 803 m² gesamt = rd. 569 m² Bestand + rd. 234 m² neu im Dachgeschoss  \nBaubewilligung  Rechtskräftiger Bescheid der MA 37 vom 21.04.2023, GZ MA37/1539234 -\n2021 -1 (§ 70 mit § 68/§ 69 BO für Wien)  \nPlanwechsel  NICHT beabsichtigt – Ausführung strikt im Rahmen der Bewilligung; ergänzt \nwerden nur Ausführungsstatik und Ausführungsunterlagen  \nBaubeginn / Bauzeit  geplant Oktober 2026 / zirka 12 Monate  \nStraßenfassade  bleibt erhalten  \n2. Nutzungskonzept je Geschoss (Planstand 08.09.2026)  \nGeschoss  Nutzung / Wohnungen  \nKeller (Souterrain)  Yogaraum/Studio (Umnutzung), Keller - und Technikräume; Stahlbeton -\nFundamentplatte neu  \nErdgeschoss  1 Wohnung mit rd. 128 m² Nutzfläche + Durchgang, Müllraum (8× 240 L, überdacht), \nFahrrad -Stellplätze, Hof  \n1.–3. OG  je 2 Wohnungen: rd. 101 m² und rd. 61 m² – hofseitige Balkone neu  \nDachgeschoss 1 + 2 (neu)  4 Wohnungen: TOP 20 (rd. 54 m² + Terrasse 7,6 m²), TOP 21 (rd. 58 m² + Terrasse \n12,4 m²), TOP 22 (rd. 44 m² + Balkon 4,6 m²), TOP 23 (rd. 79 m², 2 Ebenen, Terrasse \n+ Balkon)  \n3. Wesentliche Baumassnahmen (Leistungsumfang Generalunternehmer)  \n–  Abbruch - und Umbauarbeiten im Bestand: Neuaufteilung der Grundrisse EG und 1. –3. OG (Trockenbau, \nneue Bäder), Umnutzung Keller (Yogaraum)  \n–  Statische Ertüchtigung: Stahlbeton -Fundamentplatte d = 30 cm (gemäß Fundierungskonzept), Ertüchtigung \nder Bestandsdecken und -wände laut Ausführungsstatik  \n–  Zweigeschossiger Dachgeschossausbau in Holz -/Stahlbauweise (Stahlträger HEB), inkl. Terrassen, \nGaupen und Attiken – Details DA01 –DA03 liegen vor  \n–  Aufzugszubau über alle Geschosse (hofseitig, Kabine ca. 140×110 cm, Schacht ca. 186×160 cm), inkl. \nSchachtgründung  \n–  Hofseitige Balkone (Betonstein -Fertigteile mit Stahlkonstruktion HEB 120)  \n–  Haustechnik komplett: Elektro inkl. Schwachstrom (Pläne IE00 –IE21), Sanitär (IS01 –IS07), Heizung und \nLüftung (IT01 –IT07)  \n–  Dach -, Spengler - und Absturzsicherungsarbeiten (VSG H = 100 cm), Wartungssteg  \n–  Kompletter Innenausbau: Estriche, Böden, Malerei, Innentüren, Sanitärausstattung  \n4. Vorliegende Unterlagen (per Download -Link verfügbar, ZIP rd. 108 MB)  \n A&C WOHNART IMMOBILIEN GmbH  \nProjektblatt · Wohnhaus Schallergasse 35, 1120 Wien  Schallergasse 35, 1120 Wien  \nFN 668224h, HG Wien  \noffice@ac -wohnart.at  \n+43 665 670 550 45  \n \n \nA&C Wohnart Immobilien GmbH · Schallergasse 35, 1120 Wien · FN 668224h, Handelsgericht Wien · office@ac -wohnart.at · +43 665 670 550 45     Seite 2 \n/ 2 \n–  Rechtskräftiger Baubescheid + genehmigte Baubeschreibung  \n–  Genehmigte Einreichpläne P2041 mit amtlichem Sichtvermerk (PDF + Original -CAD AutoCAD 2018)  \n–  Grundbuch EZ 2235 samt Eigentumsnachweis A&C Wohnart  \n–  Statisches Vorkonzept 12/2021 + Statische Vorbemessung mit Fundierungskonzept und \nMauerwerksgutachten (01/2022)  \n–  Aktuelle Ausführungsplanung: kompletter Architektursatz A.01 –A.10 inkl. Dachgeschoss (Planstand \n08.09.2026, PDF + DWG), Schnitt A -A, Details, Fenster -/Türliste  \n–  Technisches Projekt der Installationen inkl. Leistungsverzeichnissen je Fachbereich (deutsche Fassungen)  \n–  Baugrund: Bohrprofile MA 29 (bis 10,20 m Tiefe) + geotechnische Zusammenfassung  \n5. Projektorganisation (Stand 15.09.2026)  \nFunktion  Status  \nBauherrin  A&C Wohnart Immobilien GmbH, Schallergasse 35, 1120 Wien – \nEigentümerin seit 2026 (TZ 466/2026)  \nArchitektur / Ausführungsplanung  unter Vertrag – Planstand 08.09.2026 liegt vor  \nTragwerksplanung / Ausführungsstatik  Angebote liegen vor – finale Auswahl  \nPrüfingenieur (§ 127/§ 128 BO)  Angebote liegen vor – finale Auswahl  \nBauKG -Koordination (§ 3 BauKG)  Beauftragung unmittelbar bevorstehend  \nGeneralunternehmer / Bauführer § 124  GEGENSTAND DIESER ANFRAGE  \nAnsprechpartner: Cosmin Covaciu, Geschäftsführer · office@ac -wohnart.at · +43 665 670 550 45. Flächenangaben zirka, laut \nAusführungsplanung; massgeblich sind die übermittelten Pläne. Produktnennungen (z. B. Aufzugstype) als Referenz der \nEinreichplanung, gl eichwertige Produkte möglich.  \n"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "f3943f2d-516e-4330-8b53-3fd9421d07e1",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "AW: Angebotsanfrage Baustellenkoordination (BauKG) – Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "from_address": "baumeister@bau-werte.biz",
+      "to": [
+        "office@ac-wohnart.at"
+      ],
+      "cc": [],
+      "received_at": "2026-09-25T11:04:21Z",
+      "text": "Sehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nvielen Dank für den heutigen sehr freundlichen Termin vor Ort.\r\n\r\n \r\n\r\nGerne sende ich Ihnen anbei, wie miteinander besprochen, den von mir empfohlenen Kontakt zu einer Baufirma:\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n\r\n\r\n\r\nThomas Schauer\r\n\r\n\r\nSCHAUERLEUTE GmbH | Sonnenbergweg 1 | 1130 Wien\r\n\r\nTel +43 1 934 69 36 | Mobil +43 676 842 312 312\r\n <mailto:thomas.schauer@schauerleute.at> thomas.schauer@schauerleute.at |  <http://www.schauerleute.at/> www.schauerleute.at\r\nSitz Wien | FN 496293v | Handelsgericht Wien | ATU 73677602 | DG 302146090\r\n\r\n \r\n\r\n \r\n\r\nIch freue mich auf eine weitere Zusammenarbeit. \r\n\r\n \r\n\r\nFreundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at> \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz\r\nCc: guenther@bau-werte.biz\r\nBetreff: AW: Angebotsanfrage Baustellenkoordination (BauKG) – Wohnhaus Schallergasse 35, 1120 Wien | Bitte um Verschiebung auf Freitag, 25.09.2026, 09:30 Uhr\r\n\r\n \r\n\r\nSehr geehrter Herr Dipl.-Ing. Lechner,\r\n\r\nvielen Dank für die Bestätigung unseres Termins und für die übermittelte Kalendereinladung.\r\n\r\nLeider wurde mein Flug auf den Morgen verlegt, sodass ich es um 08:00 Uhr nicht rechtzeitig zur Baustelle schaffen werde. Dürfte ich Sie daher bitten, unser Treffen auf\r\n\r\n*\tFreitag, 25.09.2026, 09:30 Uhr - Wohnhaus Schallergasse 35, 1120 Wien, Treffpunkt vor dem Haupteingang - zu verschieben?\r\n\r\nZur Information: Um 10:00 Uhr habe ich vor Ort einen Anschlusstermin – für unser Gespräch stehen uns somit rund 30 Minuten zur Verfügung. \r\nSollten wir mehr Zeit benötigen, können wir die offenen Punkte gerne im Anschluss an meine weiteren Termine am Nachmittag oder telefonisch vertiefen.\r\n\r\nIch bitte um eine kurze Bestätigung des neuen Termins und danke Ihnen für Ihre Flexibilität. Sie erreichen mich jederzeit unter +43 665 670 550 45.\r\n\r\nMit freundlichen Grüßen\r\n\r\nCosmin Adrian Covaciu\r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "1: To respond",
+        "99: Important"
+      ],
+      "category": "fyi",
+      "folder": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "thread_id": "<018701dd4cdd$96d1acf0$c47506d0$@bau-werte.biz>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [
+        {
+          "id": "889b0916-e2d6-463b-b6d6-65e0713fb687",
+          "name": "image001.jpg",
+          "size": 1340,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "1f51514a-2386-4670-b170-873e00282c57",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Angebotsanfrage Bauarbeitenkoordination: Cosmin Adrian Covaciu: Whs. 12., Schallergasse 35",
+      "from_name": "Stefan Lechner",
+      "from_address": "lechner_kalender@outlook.com",
+      "to": [
+        "office@ac-wohnart.at",
+        "guenther@bau-werte.biz"
+      ],
+      "cc": [],
+      "received_at": "2026-09-22T13:53:15Z",
+      "text": "BEGIN:VCALENDAR\r\nPRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN\r\nVERSION:2.0\r\nMETHOD:REQUEST\r\nX-MS-OLK-FORCEINSPECTOROPEN:TRUE\r\nBEGIN:VTIMEZONE\r\nTZID:W. Europe Standard Time\r\nBEGIN:STANDARD\r\nDTSTART:16011028T030000\r\nRRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:16010325T020000\r\nRRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nATTENDEE;CN=office@ac-wohnart.at;RSVP=TRUE:mailto:office@ac-wohnart.at\r\nATTENDEE;CN=\"Günther Bauer (Bau-Werte)\";RSVP=TRUE:mailto:guenther@bau-wert\r\n\te.biz\r\nCLASS:PUBLIC\r\nCREATED:20260922T135307Z\r\nDESCRIPTION: \\n\\n\r\nDTEND;TZID=\"W. Europe Standard Time\":20260925T100000\r\nDTSTAMP:20260922T135307Z\r\nDTSTART;TZID=\"W. Europe Standard Time\":20260925T093000\r\nLAST-MODIFIED:20260922T135307Z\r\nLOCATION:1120 Wien\\, Schallergasse 35\r\nORGANIZER;CN=lechner_kalender@outlook.com:mailto:lechner_kalender@outlook.c\r\n\tom\r\nPRIORITY:5\r\nSEQUENCE:1\r\nSUMMARY;LANGUAGE=de-at:Angebotsanfrage Bauarbeitenkoordination: Cosmin Adri\r\n\tan Covaciu: Whs. 12.\\, Schallergasse 35\r\nTRANSP:OPAQUE\r\nUID:040000008200E00074C5B7101A82E00800000000009E11CA4444DD01000000000000000\r\n\t010000000848120E24779E945A19ED6E74EA7B122\r\nX-ALT-DESC;FMTTYPE=text/html:<html xmlns:v=\"urn:schemas-microsoft-com:vml\" \r\n\txmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-mic\r\n\trosoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/\r\n\t12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\"><head><meta http-equiv=Co\r\n\tntent-Type content=\"text/html\\; charset=iso-8859-1\"><meta name=Generator c\r\n\tontent=\"Microsoft Word 15 (filtered medium)\"><style><!--\\n/* Font Definiti\r\n\tons */\\n@font-face\\n\t{font-family:\"Cambria Math\"\\;\\n\tpanose-1:2 4 5 3 5 4 \r\n\t6 3 2 4\\;}\\n@font-face\\n\t{font-family:Calibri\\;\\n\tpanose-1:2 15 5 2 2 2 4 \r\n\t3 2 4\\;}\\n@font-face\\n\t{font-family:Aptos\\;}\\n/* Style Definitions */\\np.M\r\n\tsoNormal\\, li.MsoNormal\\, div.MsoNormal\\n\t{margin:0cm\\;\\n\tfont-size:11.0pt\r\n\t\\;\\n\tfont-family:\"Calibri\"\\,sans-serif\\;\\n\tmso-ligatures:standardcontextua\r\n\tl\\;\\n\tmso-fareast-language:EN-US\\;}\\nspan.E-MailFormatvorlage18\\n\t{mso-sty\r\n\tle-type:personal-compose\\;}\\n.MsoChpDefault\\n\t{mso-style-type:export-only\\\r\n\t;\\n\tfont-size:10.0pt\\;\\n\tmso-ligatures:none\\;}\\n@page WordSection1\\n\t{size\r\n\t:612.0pt 792.0pt\\;\\n\tmargin:70.85pt 70.85pt 2.0cm 70.85pt\\;}\\ndiv.WordSect\r\n\tion1\\n\t{page:WordSection1\\;}\\n--></style><!--[if gte mso 9]><xml>\\n<o:shap\r\n\tedefaults v:ext=\"edit\" spidmax=\"1026\" />\\n</xml><![endif]--><!--[if gte ms\r\n\to 9]><xml>\\n<o:shapelayout v:ext=\"edit\">\\n<o:idmap v:ext=\"edit\" data=\"1\" /\r\n\t>\\n</o:shapelayout></xml><![endif]--></head><body lang=DE-AT link=blue vli\r\n\tnk=purple style='word-wrap:break-word'><div class=WordSection1><p class=Ms\r\n\toNormal><o:p>&nbsp\\;</o:p></p></div></body></html>\r\nX-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE\r\nX-MICROSOFT-CDO-IMPORTANCE:1\r\nX-MICROSOFT-CDO-INTENDEDSTATUS:BUSY\r\nX-MICROSOFT-DISALLOW-COUNTER:FALSE\r\nX-MS-OLK-APPTSEQTIME:20260917T112658Z\r\nX-MS-OLK-AUTOSTARTCHECK:FALSE\r\nX-MS-OLK-CONFTYPE:0\r\nX-MS-OLK-SENDER;CN=\"Bmstr. Dipl.-Ing. Stefan Lechner\":mailto:baumeister@bau\r\n\t-werte.biz\r\nBEGIN:VALARM\r\nTRIGGER:-PT15M\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "3: Fyi"
+      ],
+      "category": "fyi",
+      "folder": "Stefan Lechner",
+      "thread_id": "<019001dd4a99$b2a54450$17efccf0$@outlook.com>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "ddcfcfa2-fc0c-4ace-89de-368924f8e203",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Angebotsanfrage Bauarbeitenkoordination: Cosmin Adrian Covaciu: Whs. 12., Schallergasse 35",
+      "from_name": "Stefan Lechner",
+      "from_address": "lechner_kalender@outlook.com",
+      "to": [
+        "office@ac-wohnart.at",
+        "guenther@bau-werte.biz"
+      ],
+      "cc": [],
+      "received_at": "2026-09-17T11:27:04Z",
+      "text": "BEGIN:VCALENDAR\r\nPRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN\r\nVERSION:2.0\r\nMETHOD:REQUEST\r\nX-MS-OLK-FORCEINSPECTOROPEN:TRUE\r\nBEGIN:VTIMEZONE\r\nTZID:W. Europe Standard Time\r\nBEGIN:STANDARD\r\nDTSTART:16011028T030000\r\nRRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:16010325T020000\r\nRRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nATTENDEE;CN=office@ac-wohnart.at;RSVP=TRUE:mailto:office@ac-wohnart.at\r\nATTENDEE;CN=\"Günther Bauer (Bau-Werte)\";RSVP=TRUE:mailto:guenther@bau-wert\r\n\te.biz\r\nCLASS:PUBLIC\r\nCREATED:20260917T112658Z\r\nDESCRIPTION: \\n\\n\r\nDTEND;TZID=\"W. Europe Standard Time\":20260925T090000\r\nDTSTAMP:20260917T112658Z\r\nDTSTART;TZID=\"W. Europe Standard Time\":20260925T080000\r\nLAST-MODIFIED:20260917T112658Z\r\nLOCATION:1120 Wien\\, Schallergasse 35\r\nORGANIZER;CN=lechner_kalender@outlook.com:mailto:lechner_kalender@outlook.c\r\n\tom\r\nPRIORITY:5\r\nSEQUENCE:0\r\nSUMMARY;LANGUAGE=de-at:Angebotsanfrage Bauarbeitenkoordination: Cosmin Adri\r\n\tan Covaciu: Whs. 12.\\, Schallergasse 35\r\nTRANSP:OPAQUE\r\nUID:040000008200E00074C5B7101A82E00800000000009E11CA4444DD01000000000000000\r\n\t010000000848120E24779E945A19ED6E74EA7B122\r\nX-ALT-DESC;FMTTYPE=text/html:<html xmlns:v=\"urn:schemas-microsoft-com:vml\" \r\n\txmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-mic\r\n\trosoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/\r\n\t12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\"><head><meta http-equiv=Co\r\n\tntent-Type content=\"text/html\\; charset=iso-8859-1\"><meta name=Generator c\r\n\tontent=\"Microsoft Word 15 (filtered medium)\"><style><!--\\n/* Font Definiti\r\n\tons */\\n@font-face\\n\t{font-family:\"Cambria Math\"\\;\\n\tpanose-1:2 4 5 3 5 4 \r\n\t6 3 2 4\\;}\\n@font-face\\n\t{font-family:Calibri\\;\\n\tpanose-1:2 15 5 2 2 2 4 \r\n\t3 2 4\\;}\\n@font-face\\n\t{font-family:Aptos\\;}\\n/* Style Definitions */\\np.M\r\n\tsoNormal\\, li.MsoNormal\\, div.MsoNormal\\n\t{margin:0cm\\;\\n\tfont-size:11.0pt\r\n\t\\;\\n\tfont-family:\"Calibri\"\\,sans-serif\\;\\n\tmso-ligatures:standardcontextua\r\n\tl\\;\\n\tmso-fareast-language:EN-US\\;}\\nspan.E-MailFormatvorlage18\\n\t{mso-sty\r\n\tle-type:personal-compose\\;}\\n.MsoChpDefault\\n\t{mso-style-type:export-only\\\r\n\t;\\n\tfont-size:10.0pt\\;\\n\tmso-ligatures:none\\;}\\n@page WordSection1\\n\t{size\r\n\t:612.0pt 792.0pt\\;\\n\tmargin:70.85pt 70.85pt 2.0cm 70.85pt\\;}\\ndiv.WordSect\r\n\tion1\\n\t{page:WordSection1\\;}\\n--></style><!--[if gte mso 9]><xml>\\n<o:shap\r\n\tedefaults v:ext=\"edit\" spidmax=\"1026\" />\\n</xml><![endif]--><!--[if gte ms\r\n\to 9]><xml>\\n<o:shapelayout v:ext=\"edit\">\\n<o:idmap v:ext=\"edit\" data=\"1\" /\r\n\t>\\n</o:shapelayout></xml><![endif]--></head><body lang=DE-AT link=blue vli\r\n\tnk=purple style='word-wrap:break-word'><div class=WordSection1><p class=Ms\r\n\toNormal><o:p>&nbsp\\;</o:p></p></div></body></html>\r\nX-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE\r\nX-MICROSOFT-CDO-IMPORTANCE:1\r\nX-MICROSOFT-CDO-INTENDEDSTATUS:BUSY\r\nX-MICROSOFT-DISALLOW-COUNTER:FALSE\r\nX-MS-OLK-AUTOSTARTCHECK:FALSE\r\nX-MS-OLK-CONFTYPE:0\r\nX-MS-OLK-SENDER;CN=\"Bmstr. Dipl.-Ing. Stefan Lechner\":mailto:baumeister@bau\r\n\t-werte.biz\r\nBEGIN:VALARM\r\nTRIGGER:-PT15M\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "3: Fyi"
+      ],
+      "category": "fyi",
+      "folder": "Stefan Lechner",
+      "thread_id": "<025701dd4697$749c9dd0$5dd5d970$@outlook.com>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "d73ff27a-db7f-4ddf-b5c5-605b883dba3c",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Re: AW: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "baumeister@bau-werte.biz"
+      ],
+      "cc": [],
+      "received_at": "2026-09-17T11:03:26.390674Z",
+      "text": "Sehr geehrte Herr Stefan Lechner,\n\nvielen Dank für Ihre Nachricht.\nIch möchte eine kleine Korrektur bezüglich des Datums vornehmen: Der 25.09.2026 ist ein Freitag, kein Donnerstag.\nDaher können wir uns gerne am Fr., 25.09.2026 um 08:00 Uhr vor Ort treffen.\nBitte bestätigen Sie mir kurz, ob dieser Termin für Sie passt.\n\nMit freundlichen Grüßen\nCosmin Adrian Covaciu\n\n\r\n---------- Ca răspuns la ---------\n\r\n\r\nDe la: baumeister@bau-werte.biz <Bmstr. Dipl.-Ing. Stefan Lechner>\n\r\nData: September 14th, 2026 1:30 PM\n\r\n\n\r\n\r\nSehr geehrter Herr COVACIU,\n \nsehr gerne können wir uns am Do., 25.09.2026 um 08:00h vor Ort treffen.\n \nTermin bestätigt.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Re: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrte Damen und Herren,\n \nleider ist Ihre Nachricht in meinem Spam-Ordner gelandet, weshalb ich sie erst jetzt gesehen habe.\nWie bereits erwähnt, habe ich Sie bereits telefonisch kontaktiert und eine SMS gesendet.\nIch würde Sie bitten, sich am Freitag, den 25.09.2026, um 08:00 Uhr auf dem Gelände zu treffen, um dies zu besprechen.\nFalls dieser Termin morgens nicht passt, lassen Sie mich bitte wissen, welche Uhrzeit Ihnen besser geeignet ist.\n \nMit freundlichen Grüßen\nCosmin Adrian Covaciu\n \n---------- Ca răspuns la ---------\n\nDe la: baumeister@bau-werte.biz\nData: September 11th, 2026 12:05 PM\n\nSehr geehrter Herr COVACIU,\n \nhaben Sie diese u.a. E-Mail vom 08.09.2026 von mir erhalten?\n \nMeine aktualisierten Vorschläge für unser Treffen vor Ort wären:\n \nMo., 14.09.2026 vormittags (bis  09:30)\nDi., 15.09.2026 vormittags\nMo., 21.09.2026 vormittags\nDi., 22.09.2026 vormittags\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \n \nVon: Bmstr. Dipl.-Ing. Stefan Lechner <baumeister@bau-werte.biz>\nGesendet: Dienstag, 8. September 2026 09:53\nAn: 'office@ac-wohnart.at' <office@ac-wohnart.at>\nBetreff: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrter Herr COVACIU,\n \njetzt habe ich leider für Do., 10.09.2026 um 10:00h einen anderen zeitgleichen Termin reinbekommen.\n \nKönnen wir daher bitte unseren Termin verschieben,\nmeine Vorschläge wären:\n \nFr., 11.09.2026 vormittags\nMo., 14.09.2026 vormittags\nDi., 15.09.2026 vormittags\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \nVon: Bmstr. Dipl.-Ing. Stefan Lechner <baumeister@bau-werte.biz>\nGesendet: Montag, 7. September 2026 12:25\nAn: 'office@ac-wohnart.at' <office@ac-wohnart.at>\nBetreff: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrter Herr COVACIU,\n \nsehr gerne können wir uns am Do., 10.09.2026 um 10:00h vor Ort treffen.\n \nTermin bestätigt.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n\n \nBaumeister Dipl.-Ing. Stefan Sieghart Lechner\nBAU-WERTE – Baumanagement & Bauarbeitenkoordination e.U.\nUrban Construction Consulting\n \nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger\n(Fachgebiete: 09.40 für: Bauarbeiten, 09.83)\nZertifizierter Experte für Ausschreibung / Vergabe / Bauabrechnung\nZertifizierter Experte für Örtliche Bauaufsicht - ÖNORM Certified Person\nZertifizierter Planungs- und Baustellenkoordinator, TÜV\nBauwerksbuchersteller und ÖN B1300/1301 Objektsicherheitsprüfer\nRückbaukundige Person\nGeprüfter Arbeitsplatz-Experte, MBA\nÖGNI Consultant\n \n   \n \nGertrude-Fröhlich-Sandner Straße 2 / Spaces ICON Central Station, Tower 09, Floor 08\nA-1100 Wien\n( +43 1 205190 7084\n( +43 664 22 41 591\nbaumeister@bau-werte.biz\nbau-werte.biz\n \nFirmensitz: Wien, Firmenbuch: FN 520994v, Handelsgericht Wien, UID: ATU 61171626\n \n \n \n \n \nDatenschutz-Hinweis:\nDer Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Ihre personenbezogenen Daten werden ausschließlich auf Grundlage der geltenden Datenschutzgesetze (insbesondere DSGVO und DSG) verarbeitet.\nRechtsgrundlage ist je nach Art der Beziehung insbesondere Art. 6 Abs. 1 lit. a, b oder f DSGVO.\nWeitere Informationen zur Verarbeitung Ihrer Daten, Ihren Rechten (z. B. Widerruf, Auskunft, Berichtigung, Löschung) sowie unsere vollständige Datenschutzerklärung finden Sie auf unserer Webseite unter /datenschutz.\nBei Fragen oder zur Ausübung Ihrer Rechte erreichen Sie uns telefonisch unter +43 664 2241591 oder per E-Mail an baumeister@bau-werte.biz.\n \nHinweis BauKG:\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\n„Der AN nimmt ausdrücklich und zustimmend zur Kenntnis, dass die vorstehend genannten Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AN sind und verpflichtet sich der AN seine Dienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt Folge zu leisten.“\n \n📌 Datenschutz-Hinweis BauKG gemäß DSGVO\nIm Rahmen der Baustellenkoordination gemäß BauKG werden zur nachvollziehbaren Dokumentation sicherheitsrelevanter Abläufe und Maßnahmen Fotos von uns angefertigt. Diese Fotos dienen ausschließlich des internen Nachweises sowie der Berichtlegung gegenüber dem Auftraggeber (Stadt Wien – Wiener Wohnen). Personenaufnahmen erfolgen nur im unbedingt erforderlichen Ausmaß und unter Beachtung der Datenschutz-Grundverordnung (DSGVO).Die Datenverarbeitung erfolgt auf Basis eines berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO.\n \n \nTLP:AMBER\nDieses Mail wurde nach dem Traffic-Light-Protokoll (TLP) erstellt.\nWeitere Informationen finden Sie unter https://www.bau-werte.biz/tlp-datenklassifizierung/\n \n \n \nDer Inhalt dieser E-Mail ist ausschließlich für die bezeichnete Adressatin bzw. den bezeichneten Adressaten bestimmt. Wenn Sie nicht die vorgesehene Adressatin bzw. der vorgesehene Adressat dieser E-Mail oder die Vertretung sein sollten, so beachten Sie bitte, dass jede Form der Kenntnisnahme, Veröffentlichung, Vervielfältigung oder Weitergabe des Inhaltes dieser E-Mail unzulässig ist. Wir bitten Sie, sich in diesem Fall mit der Absenderin bzw. dem Absender der E-Mail in Verbindung zu setzen und die E-Mail unverzüglich zu löschen.\n \n \n \n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Re: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrte Damen und Herren,\n \nbitte entschuldigen Sie, dass ich mich nicht rechtzeitig gemeldet habe und wir das vorgeschlagene Treffen nicht wahrnehmen konnten.\nAus persönlichen Gründen war es mir leider nicht möglich, wie geplant ins Büro zu kommen.\n \nWir haben Ihr Angebot sorgfältig geprüft und bedanken uns herzlich für die unterbreiteten Optionen.\nWir freuen uns darauf, die Details im persönlichen Gespräch zu besprechen und gemeinsam die weiteren Schritte zu klären.\n \nGerne würden wir den Austausch daher auf einen neuen Termin verschieben.\nWäre es Ihnen möglich, am Donnerstag, den 10.09.2026, um 10:00 Uhr, in unserem Gebäude zusammen zu kommen?\n \nVielen Dank für Ihr Verständnis und Ihre Flexibilität.\nMit freundlichen Grüßen,\nCosmin Adrian Covaciu\n \n---------- Ca răspuns la ---------\n\nDe la: baumeister@bau-werte.biz <Bmstr. Dipl.-Ing. Stefan Lechner>\nData: August 12th, 2026 11:36 AM\n\nSehr geehrter Herr COVACIU,\n \nsehr gerne können wir uns am 04.09.2026 vor Ort treffen.\n \nVon meiner Seite gerne am Vormittag möglich.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrter Herr Dipl.-Ing. Lechner,\n \nvielen Dank für Ihr Angebot und die übersandten Unterlagen. Wir sind sehr an einer Zusammenarbeit mit Ihnen interessiert.\n \nDa ich mich in den nächsten Wochen im Urlaub befinde, bis zum 01.09.2026, würde ich gerne den Kontakt zu einem späteren Zeitpunkt fortsetzen. Wäre es für Sie möglich, sich am 04.09.2026 zu einem persönlichen Gespräch oder einer Objektbegehung zu treffen?\n \nIch werde Ihnen am 01 oder 02.09.2026 eine kurze Bestätigung per E-Mail senden. \n \nMit freundlichen Grüßen\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "baumeister@bau-werte.biz",
+      "thread_id": "<2532780e-230e-4291-a809-a8f94e6adbd4@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "959162a8-02a1-4b8a-9b98-e32af1354b0b",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "AW: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "from_address": "baumeister@bau-werte.biz",
+      "to": [
+        "office@ac-wohnart.at"
+      ],
+      "cc": [],
+      "received_at": "2026-09-14T10:30:52Z",
+      "text": "Sehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nsehr gerne können wir uns am Do., 25.09.2026 um 08:00h vor Ort treffen.\r\n\r\n \r\n\r\nTermin bestätigt.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at> \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz\r\nBetreff: Re: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrte Damen und Herren,\r\n\r\n \r\n\r\nleider ist Ihre Nachricht in meinem Spam-Ordner gelandet, weshalb ich sie erst jetzt gesehen habe. \r\nWie bereits erwähnt, habe ich Sie bereits telefonisch kontaktiert und eine SMS gesendet.\r\n\r\nIch würde Sie bitten, sich am Freitag, den 25.09.2026, um 08:00 Uhr auf dem Gelände zu treffen, um dies zu besprechen. \r\nFalls dieser Termin morgens nicht passt, lassen Sie mich bitte wissen, welche Uhrzeit Ihnen besser geeignet ist.\r\n\r\n \r\n\r\nMit freundlichen Grüßen\r\nCosmin Adrian Covaciu\r\n\r\n \r\n\r\n---------- Ca răspuns la ---------\r\n\r\nDe la: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> \r\n\r\nData: September 11th, 2026 12:05 PM\r\n\r\nSehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nhaben Sie diese u.a. E-Mail vom 08.09.2026 von mir erhalten?\r\n\r\n \r\n\r\nMeine aktualisierten Vorschläge für unser Treffen vor Ort wären:\r\n\r\n \r\n\r\nMo., 14.09.2026 vormittags (bis  09:30)\r\n\r\nDi., 15.09.2026 vormittags\r\n\r\nMo., 21.09.2026 vormittags\r\n\r\nDi., 22.09.2026 vormittags\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: Bmstr. Dipl.-Ing. Stefan Lechner <baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> > \r\nGesendet: Dienstag, 8. September 2026 09:53\r\nAn: 'office@ac-wohnart.at' <office@ac-wohnart.at <mailto:office@ac-wohnart.at> >\r\nBetreff: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\njetzt habe ich leider für Do., 10.09.2026 um 10:00h einen anderen zeitgleichen Termin reinbekommen.\r\n\r\n \r\n\r\nKönnen wir daher bitte unseren Termin verschieben,\r\n\r\nmeine Vorschläge wären:\r\n\r\n \r\n\r\nFr., 11.09.2026 vormittags\r\n\r\nMo., 14.09.2026 vormittags\r\n\r\nDi., 15.09.2026 vormittags\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\nVon: Bmstr. Dipl.-Ing. Stefan Lechner <baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> > \r\nGesendet: Montag, 7. September 2026 12:25\r\nAn: 'office@ac-wohnart.at' <office@ac-wohnart.at <mailto:office@ac-wohnart.at> >\r\nBetreff: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nsehr gerne können wir uns am Do., 10.09.2026 um 10:00h vor Ort treffen.\r\n\r\n \r\n\r\nTermin bestätigt.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\nBaumeister Dipl.-Ing. Stefan Sieghart Lechner\r\n\r\nBAU-WERTE – Baumanagement & Bauarbeitenkoordination e.U.\r\n\r\nUrban Construction Consulting \r\n\r\n \r\n\r\nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger \r\n\r\n(Fachgebiete: 09.40 für: Bauarbeiten, 09.83)\r\n\r\nZertifizierter Experte für Ausschreibung / Vergabe / Bauabrechnung\r\n\r\nZertifizierter Experte für Örtliche Bauaufsicht - ÖNORM Certified Person\r\n\r\nZertifizierter Planungs- und Baustellenkoordinator, TÜV\r\n\r\nBauwerksbuchersteller und ÖN B1300/1301 Objektsicherheitsprüfer\r\n\r\nRückbaukundige Person\r\n\r\nGeprüfter Arbeitsplatz-Experte, MBA\r\n\r\nÖGNI Consultant\r\n\r\n \r\n\r\n   \r\n\r\n \r\n\r\nGertrude-Fröhlich-Sandner Straße 2 / Spaces ICON Central Station, Tower 09, Floor 08\r\n\r\nA-1100 Wien\r\n\r\n* +43 1 205190 7084\r\n\r\n* +43 664 22 41 591\r\n\r\n <mailto:baumeister@bau-werte.biz> baumeister@bau-werte.biz\r\n\r\nbau-werte.biz\r\n\r\n \r\n\r\nFirmensitz: Wien, Firmenbuch: FN 520994v, Handelsgericht Wien, UID: ATU 61171626\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nDatenschutz-Hinweis:\r\nDer Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Ihre personenbezogenen Daten werden ausschließlich auf Grundlage der geltenden Datenschutzgesetze (insbesondere DSGVO und DSG) verarbeitet.\r\nRechtsgrundlage ist je nach Art der Beziehung insbesondere Art. 6 Abs. 1 lit. a, b oder f DSGVO.\r\nWeitere Informationen zur Verarbeitung Ihrer Daten, Ihren Rechten (z. B. Widerruf, Auskunft, Berichtigung, Löschung) sowie unsere vollständige Datenschutzerklärung finden Sie auf unserer Webseite unter /datenschutz. \r\nBei Fragen oder zur Ausübung Ihrer Rechte erreichen Sie uns telefonisch unter +43 664 2241591 oder per E-Mail an baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> .\r\n\r\n \r\n\r\nHinweis BauKG:\r\n\r\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\r\n\r\n„Der AN nimmt ausdrücklich und zustimmend zur Kenntnis, dass die vorstehend genannten Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AN sind und verpflichtet sich der AN seine Dienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt Folge zu leisten.“\r\n\r\n \r\n\r\n📌 Datenschutz-Hinweis BauKG gemäß DSGVO\r\n\r\nIm Rahmen der Baustellenkoordination gemäß BauKG werden zur nachvollziehbaren Dokumentation sicherheitsrelevanter Abläufe und Maßnahmen Fotos von uns angefertigt. Diese Fotos dienen ausschließlich des internen Nachweises sowie der Berichtlegung gegenüber dem Auftraggeber (Stadt Wien – Wiener Wohnen). Personenaufnahmen erfolgen nur im unbedingt erforderlichen Ausmaß und unter Beachtung der Datenschutz-Grundverordnung (DSGVO).Die Datenverarbeitung erfolgt auf Basis eines berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO.\r\n\r\n \r\n\r\n \r\n\r\nTLP:AMBER\r\n\r\nDieses Mail wurde nach dem Traffic-Light-Protokoll (TLP) erstellt.\r\nWeitere Informationen finden Sie unter  <https://www.bau-werte.biz/tlp-datenklassifizierung/> https://www.bau-werte.biz/tlp-datenklassifizierung/\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nDer Inhalt dieser E-Mail ist ausschließlich für die bezeichnete Adressatin bzw. den bezeichneten Adressaten bestimmt. Wenn Sie nicht die vorgesehene Adressatin bzw. der vorgesehene Adressat dieser E-Mail oder die Vertretung sein sollten, so beachten Sie bitte, dass jede Form der Kenntnisnahme, Veröffentlichung, Vervielfältigung oder Weitergabe des Inhaltes dieser E-Mail unzulässig ist. Wir bitten Sie, sich in diesem Fall mit der Absenderin bzw. dem Absender der E-Mail in Verbindung zu setzen und die E-Mail unverzüglich zu löschen.\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <mailto:office@ac-wohnart.at>  <office@ac-wohnart.at <mailto:office@ac-wohnart.at> > \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> \r\nBetreff: Re: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrte Damen und Herren,\r\n\r\n \r\n\r\nbitte entschuldigen Sie, dass ich mich nicht rechtzeitig gemeldet habe und wir das vorgeschlagene Treffen nicht wahrnehmen konnten.\r\nAus persönlichen Gründen war es mir leider nicht möglich, wie geplant ins Büro zu kommen.\r\n\r\n \r\n\r\nWir haben Ihr Angebot sorgfältig geprüft und bedanken uns herzlich für die unterbreiteten Optionen. \r\nWir freuen uns darauf, die Details im persönlichen Gespräch zu besprechen und gemeinsam die weiteren Schritte zu klären.\r\n\r\n \r\n\r\nGerne würden wir den Austausch daher auf einen neuen Termin verschieben. \r\nWäre es Ihnen möglich, am Donnerstag, den 10.09.2026, um 10:00 Uhr, in unserem Gebäude zusammen zu kommen?\r\n\r\n \r\n\r\nVielen Dank für Ihr Verständnis und Ihre Flexibilität.\r\n\r\nMit freundlichen Grüßen,\r\n\r\nCosmin Adrian Covaciu\r\n\r\n \r\n\r\n---------- Ca răspuns la ---------\r\n\r\nDe la: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz>  <Bmstr. Dipl.-Ing. Stefan Lechner>\r\n\r\nData: August 12th, 2026 11:36 AM\r\n\r\nSehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nsehr gerne können wir uns am 04.09.2026 vor Ort treffen.\r\n\r\n \r\n\r\nVon meiner Seite gerne am Vormittag möglich.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <mailto:office@ac-wohnart.at>  <office@ac-wohnart.at <mailto:office@ac-wohnart.at> > \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> \r\nBetreff: Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr Dipl.-Ing. Lechner,\r\n\r\n \r\n\r\nvielen Dank für Ihr Angebot und die übersandten Unterlagen. Wir sind sehr an einer Zusammenarbeit mit Ihnen interessiert.\r\n\r\n \r\n\r\nDa ich mich in den nächsten Wochen im Urlaub befinde, bis zum 01.09.2026, würde ich gerne den Kontakt zu einem späteren Zeitpunkt fortsetzen. Wäre es für Sie möglich, sich am 04.09.2026 zu einem persönlichen Gespräch oder einer Objektbegehung zu treffen?\r\n\r\n \r\n\r\nIch werde Ihnen am 01 oder 02.09.2026 eine kurze Bestätigung per E-Mail senden. \r\n\r\n \r\n\r\nMit freundlichen Grüßen\r\n\r\nCosmin Adrian Covaciu\r\n\r\n \r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "1: To respond",
+        "99: Important"
+      ],
+      "category": "fyi",
+      "folder": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "thread_id": "<!&!AAAAAAAAAAAYAAAAAAAAAFLKQVmKVGNKpSwfGKm1hHHCgAAAEAAAAAx+slksIIRGoIg3mrgfn3YBAAAAAA==@bau-werte.biz>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "f5cca024-26fe-416d-91dc-8c5052c322ed",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Re: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "baumeister@bau-werte.biz"
+      ],
+      "cc": [],
+      "received_at": "2026-09-14T07:53:31.967556Z",
+      "text": "Sehr geehrte Damen und Herren,\n\nleider ist Ihre Nachricht in meinem Spam-Ordner gelandet, weshalb ich sie erst jetzt gesehen habe.\nWie bereits erwähnt, habe ich Sie bereits telefonisch kontaktiert und eine SMS gesendet.\nIch würde Sie bitten, sich am Freitag, den 25.09.2026, um 08:00 Uhr auf dem Gelände zu treffen, um dies zu besprechen.\nFalls dieser Termin morgens nicht passt, lassen Sie mich bitte wissen, welche Uhrzeit Ihnen besser geeignet ist.\n\nMit freundlichen Grüßen\nCosmin Adrian Covaciu\n\n\r\n  ---------- Ca răspuns la ---------\n\r\n  \r\n    De la:  baumeister@bau-werte.biz\n\r\n    Data:  September 11th, 2026 12:05 PM\n\r\n\n\r\n  \r\n    v\\:* {behavior:url(#default#VML);}\r\no\\:* {behavior:url(#default#VML);}\r\nw\\:* {behavior:url(#default#VML);}\r\n.shape {behavior:url(#default#VML);}\r\n\r\n\r\n\r\n\r\n\r\nSehr geehrter Herr COVACIU,\n \nhaben Sie diese u.a. E-Mail vom 08.09.2026 von mir erhalten?\n \nMeine aktualisierten Vorschläge für unser Treffen vor Ort wären:\n \nMo., 14.09.2026 vormittags (bis  09:30)\nDi., 15.09.2026 vormittags\nMo., 21.09.2026 vormittags\nDi., 22.09.2026 vormittags\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \n \nVon: Bmstr. Dipl.-Ing. Stefan Lechner <baumeister@bau-werte.biz>\nGesendet: Dienstag, 8. September 2026 09:53\nAn: 'office@ac-wohnart.at' <office@ac-wohnart.at>\nBetreff: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrter Herr COVACIU,\n \njetzt habe ich leider für Do., 10.09.2026 um 10:00h einen anderen zeitgleichen Termin reinbekommen.\n \nKönnen wir daher bitte unseren Termin verschieben,\nmeine Vorschläge wären:\n \nFr., 11.09.2026 vormittags\nMo., 14.09.2026 vormittags\nDi., 15.09.2026 vormittags\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \nVon: Bmstr. Dipl.-Ing. Stefan Lechner <baumeister@bau-werte.biz>\nGesendet: Montag, 7. September 2026 12:25\nAn: 'office@ac-wohnart.at' <office@ac-wohnart.at>\nBetreff: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrter Herr COVACIU,\n \nsehr gerne können wir uns am Do., 10.09.2026 um 10:00h vor Ort treffen.\n \nTermin bestätigt.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n\n \n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\nBaumeister Dipl.-Ing. Stefan Sieghart Lechner\nBAU-WERTE – Baumanagement & Bauarbeitenkoordination e.U.\nUrban Construction Consulting\n \nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger\n(Fachgebiete: 09.40 für: Bauarbeiten, 09.83)\nZertifizierter Experte für Ausschreibung / Vergabe / Bauabrechnung\nZertifizierter Experte für Örtliche Bauaufsicht - ÖNORM Certified Person\nZertifizierter Planungs- und Baustellenkoordinator, TÜV\nBauwerksbuchersteller und ÖN B1300/1301 Objektsicherheitsprüfer\nRückbaukundige Person\nGeprüfter Arbeitsplatz-Experte, MBA\nÖGNI Consultant\n \n   \n \nGertrude-Fröhlich-Sandner Straße 2 / Spaces ICON Central Station, Tower 09, Floor 08\nA-1100 Wien\n( +43 1 205190 7084\n( +43 664 22 41 591\nbaumeister@bau-werte.biz\nbau-werte.biz\n \nFirmensitz: Wien, Firmenbuch: FN 520994v, Handelsgericht Wien, UID: ATU 61171626\n \n \n \n \n \nDatenschutz-Hinweis:\nDer Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Ihre personenbezogenen Daten werden ausschließlich auf Grundlage der geltenden Datenschutzgesetze (insbesondere DSGVO und DSG) verarbeitet.\nRechtsgrundlage ist je nach Art der Beziehung insbesondere Art. 6 Abs. 1 lit. a, b oder f DSGVO.\nWeitere Informationen zur Verarbeitung Ihrer Daten, Ihren Rechten (z. B. Widerruf, Auskunft, Berichtigung, Löschung) sowie unsere vollständige Datenschutzerklärung finden Sie auf unserer Webseite unter /datenschutz.\nBei Fragen oder zur Ausübung Ihrer Rechte erreichen Sie uns telefonisch unter +43 664 2241591 oder per E-Mail an baumeister@bau-werte.biz.\n \nHinweis BauKG:\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\n„Der AN nimmt ausdrücklich und zustimmend zur Kenntnis, dass die vorstehend genannten Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AN sind und verpflichtet sich der AN seine Dienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt Folge zu leisten.“\n \n📌 Datenschutz-Hinweis BauKG gemäß DSGVO\nIm Rahmen der Baustellenkoordination gemäß BauKG werden zur nachvollziehbaren Dokumentation sicherheitsrelevanter Abläufe und Maßnahmen Fotos von uns angefertigt. Diese Fotos dienen ausschließlich des internen Nachweises sowie der Berichtlegung gegenüber dem Auftraggeber (Stadt Wien – Wiener Wohnen). Personenaufnahmen erfolgen nur im unbedingt erforderlichen Ausmaß und unter Beachtung der Datenschutz-Grundverordnung (DSGVO).Die Datenverarbeitung erfolgt auf Basis eines berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO.\n \n \nTLP:AMBER\nDieses Mail wurde nach dem Traffic-Light-Protokoll (TLP) erstellt.\nWeitere Informationen finden Sie unter https://www.bau-werte.biz/tlp-datenklassifizierung/\n \n \n \nDer Inhalt dieser E-Mail ist ausschließlich für die bezeichnete Adressatin bzw. den bezeichneten Adressaten bestimmt. Wenn Sie nicht die vorgesehene Adressatin bzw. der vorgesehene Adressat dieser E-Mail oder die Vertretung sein sollten, so beachten Sie bitte, dass jede Form der Kenntnisnahme, Veröffentlichung, Vervielfältigung oder Weitergabe des Inhaltes dieser E-Mail unzulässig ist. Wir bitten Sie, sich in diesem Fall mit der Absenderin bzw. dem Absender der E-Mail in Verbindung zu setzen und die E-Mail unverzüglich zu löschen.\n \n \n \n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Re: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrte Damen und Herren,\n \nbitte entschuldigen Sie, dass ich mich nicht rechtzeitig gemeldet habe und wir das vorgeschlagene Treffen nicht wahrnehmen konnten.\nAus persönlichen Gründen war es mir leider nicht möglich, wie geplant ins Büro zu kommen.\n \nWir haben Ihr Angebot sorgfältig geprüft und bedanken uns herzlich für die unterbreiteten Optionen.\nWir freuen uns darauf, die Details im persönlichen Gespräch zu besprechen und gemeinsam die weiteren Schritte zu klären.\n \nGerne würden wir den Austausch daher auf einen neuen Termin verschieben.\nWäre es Ihnen möglich, am Donnerstag, den 10.09.2026, um 10:00 Uhr, in unserem Gebäude zusammen zu kommen?\n \nVielen Dank für Ihr Verständnis und Ihre Flexibilität.\nMit freundlichen Grüßen,\nCosmin Adrian Covaciu\n \n---------- Ca răspuns la ---------\n\nDe la: baumeister@bau-werte.biz <Bmstr. Dipl.-Ing. Stefan Lechner>\nData: August 12th, 2026 11:36 AM\n\nSehr geehrter Herr COVACIU,\n \nsehr gerne können wir uns am 04.09.2026 vor Ort treffen.\n \nVon meiner Seite gerne am Vormittag möglich.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrter Herr Dipl.-Ing. Lechner,\n \nvielen Dank für Ihr Angebot und die übersandten Unterlagen. Wir sind sehr an einer Zusammenarbeit mit Ihnen interessiert.\n \nDa ich mich in den nächsten Wochen im Urlaub befinde, bis zum 01.09.2026, würde ich gerne den Kontakt zu einem späteren Zeitpunkt fortsetzen. Wäre es für Sie möglich, sich am 04.09.2026 zu einem persönlichen Gespräch oder einer Objektbegehung zu treffen?\n \nIch werde Ihnen am 01 oder 02.09.2026 eine kurze Bestätigung per E-Mail senden. \n \nMit freundlichen Grüßen\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "SENT",
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "baumeister@bau-werte.biz",
+      "thread_id": "<3a11baa4-c49f-4e35-be62-2c13c8cb716c@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "from_address": "baumeister@bau-werte.biz",
+      "to": [
+        "office@ac-wohnart.at"
+      ],
+      "cc": [],
+      "received_at": "2026-09-11T09:05:34Z",
+      "text": "Sehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nhaben Sie diese u.a. E-Mail vom 08.09.2026 von mir erhalten?\r\n\r\n \r\n\r\nMeine aktualisierten Vorschläge für unser Treffen vor Ort wären:\r\n\r\n \r\n\r\nMo., 14.09.2026 vormittags (bis  09:30)\r\n\r\nDi., 15.09.2026 vormittags\r\n\r\nMo., 21.09.2026 vormittags\r\n\r\nDi., 22.09.2026 vormittags\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: Bmstr. Dipl.-Ing. Stefan Lechner <baumeister@bau-werte.biz> \r\nGesendet: Dienstag, 8. September 2026 09:53\r\nAn: 'office@ac-wohnart.at' <office@ac-wohnart.at>\r\nBetreff: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\njetzt habe ich leider für Do., 10.09.2026 um 10:00h einen anderen zeitgleichen Termin reinbekommen.\r\n\r\n \r\n\r\nKönnen wir daher bitte unseren Termin verschieben,\r\n\r\nmeine Vorschläge wären:\r\n\r\n \r\n\r\nFr., 11.09.2026 vormittags\r\n\r\nMo., 14.09.2026 vormittags\r\n\r\nDi., 15.09.2026 vormittags\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\nVon: Bmstr. Dipl.-Ing. Stefan Lechner <baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> > \r\nGesendet: Montag, 7. September 2026 12:25\r\nAn: 'office@ac-wohnart.at' <office@ac-wohnart.at <mailto:office@ac-wohnart.at> >\r\nBetreff: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nsehr gerne können wir uns am Do., 10.09.2026 um 10:00h vor Ort treffen.\r\n\r\n \r\n\r\nTermin bestätigt.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\nBaumeister Dipl.-Ing. Stefan Sieghart Lechner\r\n\r\nBAU-WERTE – Baumanagement & Bauarbeitenkoordination e.U.\r\n\r\nUrban Construction Consulting \r\n\r\n \r\n\r\nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger \r\n\r\n(Fachgebiete: 09.40 für: Bauarbeiten, 09.83)\r\n\r\nZertifizierter Experte für Ausschreibung / Vergabe / Bauabrechnung\r\n\r\nZertifizierter Experte für Örtliche Bauaufsicht - ÖNORM Certified Person\r\n\r\nZertifizierter Planungs- und Baustellenkoordinator, TÜV\r\n\r\nBauwerksbuchersteller und ÖN B1300/1301 Objektsicherheitsprüfer\r\n\r\nRückbaukundige Person\r\n\r\nGeprüfter Arbeitsplatz-Experte, MBA\r\n\r\nÖGNI Consultant\r\n\r\n \r\n\r\n   \r\n\r\n \r\n\r\nGertrude-Fröhlich-Sandner Straße 2 / Spaces ICON Central Station, Tower 09, Floor 08\r\n\r\nA-1100 Wien\r\n\r\n* +43 1 205190 7084\r\n\r\n* +43 664 22 41 591\r\n\r\n <mailto:baumeister@bau-werte.biz> baumeister@bau-werte.biz\r\n\r\nbau-werte.biz\r\n\r\n \r\n\r\nFirmensitz: Wien, Firmenbuch: FN 520994v, Handelsgericht Wien, UID: ATU 61171626\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nDatenschutz-Hinweis:\r\nDer Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Ihre personenbezogenen Daten werden ausschließlich auf Grundlage der geltenden Datenschutzgesetze (insbesondere DSGVO und DSG) verarbeitet.\r\nRechtsgrundlage ist je nach Art der Beziehung insbesondere Art. 6 Abs. 1 lit. a, b oder f DSGVO.\r\nWeitere Informationen zur Verarbeitung Ihrer Daten, Ihren Rechten (z. B. Widerruf, Auskunft, Berichtigung, Löschung) sowie unsere vollständige Datenschutzerklärung finden Sie auf unserer Webseite unter /datenschutz. \r\nBei Fragen oder zur Ausübung Ihrer Rechte erreichen Sie uns telefonisch unter +43 664 2241591 oder per E-Mail an baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> .\r\n\r\n \r\n\r\nHinweis BauKG:\r\n\r\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\r\n\r\n„Der AN nimmt ausdrücklich und zustimmend zur Kenntnis, dass die vorstehend genannten Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AN sind und verpflichtet sich der AN seine Dienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt Folge zu leisten.“\r\n\r\n \r\n\r\n📌 Datenschutz-Hinweis BauKG gemäß DSGVO\r\n\r\nIm Rahmen der Baustellenkoordination gemäß BauKG werden zur nachvollziehbaren Dokumentation sicherheitsrelevanter Abläufe und Maßnahmen Fotos von uns angefertigt. Diese Fotos dienen ausschließlich des internen Nachweises sowie der Berichtlegung gegenüber dem Auftraggeber (Stadt Wien – Wiener Wohnen). Personenaufnahmen erfolgen nur im unbedingt erforderlichen Ausmaß und unter Beachtung der Datenschutz-Grundverordnung (DSGVO).Die Datenverarbeitung erfolgt auf Basis eines berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO.\r\n\r\n \r\n\r\n \r\n\r\nTLP:AMBER\r\n\r\nDieses Mail wurde nach dem Traffic-Light-Protokoll (TLP) erstellt.\r\nWeitere Informationen finden Sie unter  <https://www.bau-werte.biz/tlp-datenklassifizierung/> https://www.bau-werte.biz/tlp-datenklassifizierung/\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nDer Inhalt dieser E-Mail ist ausschließlich für die bezeichnete Adressatin bzw. den bezeichneten Adressaten bestimmt. Wenn Sie nicht die vorgesehene Adressatin bzw. der vorgesehene Adressat dieser E-Mail oder die Vertretung sein sollten, so beachten Sie bitte, dass jede Form der Kenntnisnahme, Veröffentlichung, Vervielfältigung oder Weitergabe des Inhaltes dieser E-Mail unzulässig ist. Wir bitten Sie, sich in diesem Fall mit der Absenderin bzw. dem Absender der E-Mail in Verbindung zu setzen und die E-Mail unverzüglich zu löschen.\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <mailto:office@ac-wohnart.at>  <office@ac-wohnart.at <mailto:office@ac-wohnart.at> > \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> \r\nBetreff: Re: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrte Damen und Herren,\r\n\r\n \r\n\r\nbitte entschuldigen Sie, dass ich mich nicht rechtzeitig gemeldet habe und wir das vorgeschlagene Treffen nicht wahrnehmen konnten.\r\nAus persönlichen Gründen war es mir leider nicht möglich, wie geplant ins Büro zu kommen.\r\n\r\n \r\n\r\nWir haben Ihr Angebot sorgfältig geprüft und bedanken uns herzlich für die unterbreiteten Optionen. \r\nWir freuen uns darauf, die Details im persönlichen Gespräch zu besprechen und gemeinsam die weiteren Schritte zu klären.\r\n\r\n \r\n\r\nGerne würden wir den Austausch daher auf einen neuen Termin verschieben. \r\nWäre es Ihnen möglich, am Donnerstag, den 10.09.2026, um 10:00 Uhr, in unserem Gebäude zusammen zu kommen?\r\n\r\n \r\n\r\nVielen Dank für Ihr Verständnis und Ihre Flexibilität.\r\n\r\nMit freundlichen Grüßen,\r\n\r\nCosmin Adrian Covaciu\r\n\r\n \r\n\r\n---------- Ca răspuns la ---------\r\n\r\nDe la: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz>  <Bmstr. Dipl.-Ing. Stefan Lechner>\r\n\r\nData: August 12th, 2026 11:36 AM\r\n\r\nSehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nsehr gerne können wir uns am 04.09.2026 vor Ort treffen.\r\n\r\n \r\n\r\nVon meiner Seite gerne am Vormittag möglich.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <mailto:office@ac-wohnart.at>  <office@ac-wohnart.at <mailto:office@ac-wohnart.at> > \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> \r\nBetreff: Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr Dipl.-Ing. Lechner,\r\n\r\n \r\n\r\nvielen Dank für Ihr Angebot und die übersandten Unterlagen. Wir sind sehr an einer Zusammenarbeit mit Ihnen interessiert.\r\n\r\n \r\n\r\nDa ich mich in den nächsten Wochen im Urlaub befinde, bis zum 01.09.2026, würde ich gerne den Kontakt zu einem späteren Zeitpunkt fortsetzen. Wäre es für Sie möglich, sich am 04.09.2026 zu einem persönlichen Gespräch oder einer Objektbegehung zu treffen?\r\n\r\n \r\n\r\nIch werde Ihnen am 01 oder 02.09.2026 eine kurze Bestätigung per E-Mail senden. \r\n\r\n \r\n\r\nMit freundlichen Grüßen\r\n\r\nCosmin Adrian Covaciu\r\n\r\n \r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "1: To respond",
+        "99: Important"
+      ],
+      "category": "fyi",
+      "folder": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "thread_id": "<!&!AAAAAAAAAAAYAAAAAAAAAFLKQVmKVGNKpSwfGKm1hHHCgAAAEAAAAAdPvoQ8SOtJsmO4s8sG/uEBAAAAAA==@bau-werte.biz>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [
+        {
+          "id": "eaf35318-c3ba-424e-887b-c6ea8c222135",
+          "name": "image004.jpg",
+          "size": 235661,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 31,
+          "page_count": null,
+          "text": "8 AUMEISTER\nSTA ATLICH G EPRGFT"
+        },
+        {
+          "id": "013f9478-6c29-487c-88a7-05555bb7b583",
+          "name": "image002.jpg",
+          "size": 19261,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "1d38d573-e181-4a35-a887-769f51dc4fe5",
+          "name": "image001.jpg",
+          "size": 334845,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 20,
+          "page_count": null,
+          "text": "C 8 DIPL-ING. STEFAN"
+        },
+        {
+          "id": "2c8909f4-bcd5-4c18-a9c5-83f58d89b673",
+          "name": "image005.jpg",
+          "size": 130155,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "5460160d-e5ed-4c73-b03d-78d9290ab26b",
+          "name": "image003.jpg",
+          "size": 1751,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "79b6d7de-3700-4a04-b0d6-14ce2ecf4a2f",
+          "name": "image007.png",
+          "size": 6481,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "cdf90d21-4a9b-4bf5-8218-a1fa7c65bc23",
+          "name": "image008.jpg",
+          "size": 26127,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "38c8c4fb-5e42-450c-9850-870fa3712c03",
+          "name": "image009.png",
+          "size": 104393,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 48,
+          "page_count": null,
+          "text": "U D 1 GGNI AUSTRIAN SUSTAINABLE BUILDING COUNCIL"
+        },
+        {
+          "id": "a2fc9567-38e9-4f45-b806-c92b7fe77c41",
+          "name": "image006.png",
+          "size": 4364,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "57d9123c-a9f2-432f-bcc6-1c1eef8cf2d2",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Re: AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "baumeister@bau-werte.biz"
+      ],
+      "cc": [],
+      "received_at": "2026-09-11T09:00:35.112195Z",
+      "text": "Sehr geehrter Herr Lechner,\n\nich hoffe, es geht Ihnen gut.\n\nLeider haben wir unsere vereinbarte Verabredung verpasst, da Sie weder erschienen sind, noch auf meine Telefonate oder SMS-Nachrichten geantwortet haben.\n\nKönnten Sie mir bitte kurz mitteilen, ob und wie wir unsere Zusammenarbeit fortsetzen können? Ich stehe gerne für ein neues Gespräch zur Verfügung.\n\nMit freundlichen Grüßen\n\nBest regards,\nCosmin Adrian Covaciu\n\n\r\n---------- In reply to ---------\n\r\n\r\nFrom: baumeister@bau-werte.biz <Bmstr. Dipl.-Ing. Stefan Lechner>\n\r\nDate: September 7th, 2026 12:24 PM\n\r\n\n\r\n\r\nSehr geehrter Herr COVACIU,\n \nsehr gerne können wir uns am Do., 10.09.2026 um 10:00h vor Ort treffen.\n \nTermin bestätigt.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n\n \n\nBaumeister Dipl.-Ing. Stefan Sieghart Lechner\nBAU-WERTE – Baumanagement & Bauarbeitenkoordination e.U.\nUrban Construction Consulting\n \nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger\n(Fachgebiete: 09.40 für: Bauarbeiten, 09.83)\nZertifizierter Experte für Ausschreibung / Vergabe / Bauabrechnung\nZertifizierter Experte für Örtliche Bauaufsicht - ÖNORM Certified Person\nZertifizierter Planungs- und Baustellenkoordinator, TÜV\nBauwerksbuchersteller und ÖN B1300/1301 Objektsicherheitsprüfer\nRückbaukundige Person\nGeprüfter Arbeitsplatz-Experte, MBA\nÖGNI Consultant\n \n   \n \nGertrude-Fröhlich-Sandner Straße 2 / Spaces ICON Central Station, Tower 09, Floor 08\nA-1100 Wien\n( +43 1 205190 7084\n( +43 664 22 41 591\nbaumeister@bau-werte.biz\nbau-werte.biz\n \nFirmensitz: Wien, Firmenbuch: FN 520994v, Handelsgericht Wien, UID: ATU 61171626\n \n \n \n \n \nDatenschutz-Hinweis:\nDer Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Ihre personenbezogenen Daten werden ausschließlich auf Grundlage der geltenden Datenschutzgesetze (insbesondere DSGVO und DSG) verarbeitet.\nRechtsgrundlage ist je nach Art der Beziehung insbesondere Art. 6 Abs. 1 lit. a, b oder f DSGVO.\nWeitere Informationen zur Verarbeitung Ihrer Daten, Ihren Rechten (z. B. Widerruf, Auskunft, Berichtigung, Löschung) sowie unsere vollständige Datenschutzerklärung finden Sie auf unserer Webseite unter /datenschutz.\nBei Fragen oder zur Ausübung Ihrer Rechte erreichen Sie uns telefonisch unter +43 664 2241591 oder per E-Mail an baumeister@bau-werte.biz.\n \nHinweis BauKG:\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\n„Der AN nimmt ausdrücklich und zustimmend zur Kenntnis, dass die vorstehend genannten Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AN sind und verpflichtet sich der AN seine Dienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt Folge zu leisten.“\n \n📌 Datenschutz-Hinweis BauKG gemäß DSGVO\nIm Rahmen der Baustellenkoordination gemäß BauKG werden zur nachvollziehbaren Dokumentation sicherheitsrelevanter Abläufe und Maßnahmen Fotos von uns angefertigt. Diese Fotos dienen ausschließlich des internen Nachweises sowie der Berichtlegung gegenüber dem Auftraggeber (Stadt Wien – Wiener Wohnen). Personenaufnahmen erfolgen nur im unbedingt erforderlichen Ausmaß und unter Beachtung der Datenschutz-Grundverordnung (DSGVO).Die Datenverarbeitung erfolgt auf Basis eines berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO.\n \n \nTLP:AMBER\nDieses Mail wurde nach dem Traffic-Light-Protokoll (TLP) erstellt.\nWeitere Informationen finden Sie unter https://www.bau-werte.biz/tlp-datenklassifizierung/\n \n \n \nDer Inhalt dieser E-Mail ist ausschließlich für die bezeichnete Adressatin bzw. den bezeichneten Adressaten bestimmt. Wenn Sie nicht die vorgesehene Adressatin bzw. der vorgesehene Adressat dieser E-Mail oder die Vertretung sein sollten, so beachten Sie bitte, dass jede Form der Kenntnisnahme, Veröffentlichung, Vervielfältigung oder Weitergabe des Inhaltes dieser E-Mail unzulässig ist. Wir bitten Sie, sich in diesem Fall mit der Absenderin bzw. dem Absender der E-Mail in Verbindung zu setzen und die E-Mail unverzüglich zu löschen.\n \n \n \n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Re: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrte Damen und Herren,\n \nbitte entschuldigen Sie, dass ich mich nicht rechtzeitig gemeldet habe und wir das vorgeschlagene Treffen nicht wahrnehmen konnten.\nAus persönlichen Gründen war es mir leider nicht möglich, wie geplant ins Büro zu kommen.\n \nWir haben Ihr Angebot sorgfältig geprüft und bedanken uns herzlich für die unterbreiteten Optionen.\nWir freuen uns darauf, die Details im persönlichen Gespräch zu besprechen und gemeinsam die weiteren Schritte zu klären.\n \nGerne würden wir den Austausch daher auf einen neuen Termin verschieben.\nWäre es Ihnen möglich, am Donnerstag, den 10.09.2026, um 10:00 Uhr, in unserem Gebäude zusammen zu kommen?\n \nVielen Dank für Ihr Verständnis und Ihre Flexibilität.\nMit freundlichen Grüßen,\nCosmin Adrian Covaciu\n \n---------- Ca răspuns la ---------\n\nDe la: baumeister@bau-werte.biz <Bmstr. Dipl.-Ing. Stefan Lechner>\nData: August 12th, 2026 11:36 AM\n\nSehr geehrter Herr COVACIU,\n \nsehr gerne können wir uns am 04.09.2026 vor Ort treffen.\n \nVon meiner Seite gerne am Vormittag möglich.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrter Herr Dipl.-Ing. Lechner,\n \nvielen Dank für Ihr Angebot und die übersandten Unterlagen. Wir sind sehr an einer Zusammenarbeit mit Ihnen interessiert.\n \nDa ich mich in den nächsten Wochen im Urlaub befinde, bis zum 01.09.2026, würde ich gerne den Kontakt zu einem späteren Zeitpunkt fortsetzen. Wäre es für Sie möglich, sich am 04.09.2026 zu einem persönlichen Gespräch oder einer Objektbegehung zu treffen?\n \nIch werde Ihnen am 01 oder 02.09.2026 eine kurze Bestätigung per E-Mail senden. \n \nMit freundlichen Grüßen\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "baumeister@bau-werte.biz",
+      "thread_id": "<a19f8fdd-d8b6-4154-a694-35581ab8ebce@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "AW: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "from_address": "baumeister@bau-werte.biz",
+      "to": [
+        "office@ac-wohnart.at"
+      ],
+      "cc": [],
+      "received_at": "2026-09-07T10:24:54Z",
+      "text": "Sehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nsehr gerne können wir uns am Do., 10.09.2026 um 10:00h vor Ort treffen.\r\n\r\n \r\n\r\nTermin bestätigt.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\nBaumeister Dipl.-Ing. Stefan Sieghart Lechner\r\n\r\nBAU-WERTE – Baumanagement & Bauarbeitenkoordination e.U.\r\n\r\nUrban Construction Consulting \r\n\r\n \r\n\r\nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger \r\n\r\n(Fachgebiete: 09.40 für: Bauarbeiten, 09.83)\r\n\r\nZertifizierter Experte für Ausschreibung / Vergabe / Bauabrechnung\r\n\r\nZertifizierter Experte für Örtliche Bauaufsicht - ÖNORM Certified Person\r\n\r\nZertifizierter Planungs- und Baustellenkoordinator, TÜV\r\n\r\nBauwerksbuchersteller und ÖN B1300/1301 Objektsicherheitsprüfer\r\n\r\nRückbaukundige Person\r\n\r\nGeprüfter Arbeitsplatz-Experte, MBA\r\n\r\nÖGNI Consultant\r\n\r\n \r\n\r\n   \r\n\r\n \r\n\r\nGertrude-Fröhlich-Sandner Straße 2 / Spaces ICON Central Station, Tower 09, Floor 08\r\n\r\nA-1100 Wien\r\n\r\n* +43 1 205190 7084\r\n\r\n* +43 664 22 41 591\r\n\r\n <mailto:baumeister@bau-werte.biz> baumeister@bau-werte.biz\r\n\r\nbau-werte.biz\r\n\r\n \r\n\r\nFirmensitz: Wien, Firmenbuch: FN 520994v, Handelsgericht Wien, UID: ATU 61171626\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nDatenschutz-Hinweis:\r\nDer Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Ihre personenbezogenen Daten werden ausschließlich auf Grundlage der geltenden Datenschutzgesetze (insbesondere DSGVO und DSG) verarbeitet.\r\nRechtsgrundlage ist je nach Art der Beziehung insbesondere Art. 6 Abs. 1 lit. a, b oder f DSGVO.\r\nWeitere Informationen zur Verarbeitung Ihrer Daten, Ihren Rechten (z. B. Widerruf, Auskunft, Berichtigung, Löschung) sowie unsere vollständige Datenschutzerklärung finden Sie auf unserer Webseite unter /datenschutz. \r\nBei Fragen oder zur Ausübung Ihrer Rechte erreichen Sie uns telefonisch unter +43 664 2241591 oder per E-Mail an baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> .\r\n\r\n \r\n\r\nHinweis BauKG:\r\n\r\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\r\n\r\n„Der AN nimmt ausdrücklich und zustimmend zur Kenntnis, dass die vorstehend genannten Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AN sind und verpflichtet sich der AN seine Dienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt Folge zu leisten.“\r\n\r\n \r\n\r\n📌 Datenschutz-Hinweis BauKG gemäß DSGVO\r\n\r\nIm Rahmen der Baustellenkoordination gemäß BauKG werden zur nachvollziehbaren Dokumentation sicherheitsrelevanter Abläufe und Maßnahmen Fotos von uns angefertigt. Diese Fotos dienen ausschließlich des internen Nachweises sowie der Berichtlegung gegenüber dem Auftraggeber (Stadt Wien – Wiener Wohnen). Personenaufnahmen erfolgen nur im unbedingt erforderlichen Ausmaß und unter Beachtung der Datenschutz-Grundverordnung (DSGVO).Die Datenverarbeitung erfolgt auf Basis eines berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO.\r\n\r\n \r\n\r\n \r\n\r\nTLP:AMBER\r\n\r\nDieses Mail wurde nach dem Traffic-Light-Protokoll (TLP) erstellt.\r\nWeitere Informationen finden Sie unter  <https://www.bau-werte.biz/tlp-datenklassifizierung/> https://www.bau-werte.biz/tlp-datenklassifizierung/\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nDer Inhalt dieser E-Mail ist ausschließlich für die bezeichnete Adressatin bzw. den bezeichneten Adressaten bestimmt. Wenn Sie nicht die vorgesehene Adressatin bzw. der vorgesehene Adressat dieser E-Mail oder die Vertretung sein sollten, so beachten Sie bitte, dass jede Form der Kenntnisnahme, Veröffentlichung, Vervielfältigung oder Weitergabe des Inhaltes dieser E-Mail unzulässig ist. Wir bitten Sie, sich in diesem Fall mit der Absenderin bzw. dem Absender der E-Mail in Verbindung zu setzen und die E-Mail unverzüglich zu löschen.\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at> \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz\r\nBetreff: Re: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrte Damen und Herren,\r\n\r\n \r\n\r\nbitte entschuldigen Sie, dass ich mich nicht rechtzeitig gemeldet habe und wir das vorgeschlagene Treffen nicht wahrnehmen konnten.\r\nAus persönlichen Gründen war es mir leider nicht möglich, wie geplant ins Büro zu kommen.\r\n\r\n \r\n\r\nWir haben Ihr Angebot sorgfältig geprüft und bedanken uns herzlich für die unterbreiteten Optionen. \r\nWir freuen uns darauf, die Details im persönlichen Gespräch zu besprechen und gemeinsam die weiteren Schritte zu klären.\r\n\r\n \r\n\r\nGerne würden wir den Austausch daher auf einen neuen Termin verschieben. \r\nWäre es Ihnen möglich, am Donnerstag, den 10.09.2026, um 10:00 Uhr, in unserem Gebäude zusammen zu kommen?\r\n\r\n \r\n\r\nVielen Dank für Ihr Verständnis und Ihre Flexibilität.\r\n\r\nMit freundlichen Grüßen,\r\n\r\nCosmin Adrian Covaciu\r\n\r\n \r\n\r\n---------- Ca răspuns la ---------\r\n\r\nDe la: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz>  <Bmstr. Dipl.-Ing. Stefan Lechner>\r\n\r\nData: August 12th, 2026 11:36 AM\r\n\r\nSehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nsehr gerne können wir uns am 04.09.2026 vor Ort treffen.\r\n\r\n \r\n\r\nVon meiner Seite gerne am Vormittag möglich.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <mailto:office@ac-wohnart.at>  <office@ac-wohnart.at <mailto:office@ac-wohnart.at> > \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> \r\nBetreff: Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr Dipl.-Ing. Lechner,\r\n\r\n \r\n\r\nvielen Dank für Ihr Angebot und die übersandten Unterlagen. Wir sind sehr an einer Zusammenarbeit mit Ihnen interessiert.\r\n\r\n \r\n\r\nDa ich mich in den nächsten Wochen im Urlaub befinde, bis zum 01.09.2026, würde ich gerne den Kontakt zu einem späteren Zeitpunkt fortsetzen. Wäre es für Sie möglich, sich am 04.09.2026 zu einem persönlichen Gespräch oder einer Objektbegehung zu treffen?\r\n\r\n \r\n\r\nIch werde Ihnen am 01 oder 02.09.2026 eine kurze Bestätigung per E-Mail senden. \r\n\r\n \r\n\r\nMit freundlichen Grüßen\r\n\r\nCosmin Adrian Covaciu\r\n\r\n \r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "1: To respond",
+        "99: Important"
+      ],
+      "category": "fyi",
+      "folder": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "thread_id": "<!&!AAAAAAAAAAAYAAAAAAAAAFLKQVmKVGNKpSwfGKm1hHHCgAAAEAAAANGjC9L+tqtPkkndX2wl5b0BAAAAAA==@bau-werte.biz>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [
+        {
+          "id": "aa7e995d-4f30-4de7-a283-f098e2d6104b",
+          "name": "image006.png",
+          "size": 4364,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "910025d4-f6f5-4825-8eb7-ac4049a86d8a",
+          "name": "image007.png",
+          "size": 6481,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "03efeb22-e81f-4ccd-8f60-0c3752f98c8d",
+          "name": "image001.jpg",
+          "size": 334845,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 20,
+          "page_count": null,
+          "text": "C 8 DIPL-ING. STEFAN"
+        },
+        {
+          "id": "40f6f312-215c-4284-9ea1-7dec3211dfd3",
+          "name": "image003.jpg",
+          "size": 1748,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "59a80a12-ec1f-4255-88d6-eebfa12d59ed",
+          "name": "image005.jpg",
+          "size": 130155,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "97c8ac1c-8896-4c03-90a3-bfc5e11d5b99",
+          "name": "image004.jpg",
+          "size": 235661,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 31,
+          "page_count": null,
+          "text": "8 AUMEISTER\nSTA ATLICH G EPRGFT"
+        },
+        {
+          "id": "c9204e5c-50d3-4b40-a11a-44f71ab55933",
+          "name": "image002.jpg",
+          "size": 19261,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "64d87e5c-5447-4688-87d3-3bb85d88691d",
+          "name": "image009.png",
+          "size": 104393,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 48,
+          "page_count": null,
+          "text": "U D 1 GGNI AUSTRIAN SUSTAINABLE BUILDING COUNCIL"
+        },
+        {
+          "id": "71c6cc5e-38b4-4cc8-97c8-f4d7d5540e0b",
+          "name": "image008.jpg",
+          "size": 26127,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "ef7f274f-7015-4669-9f43-6f96b61886c4",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Re: AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "baumeister@bau-werte.biz"
+      ],
+      "cc": [],
+      "received_at": "2026-09-07T09:10:10.405015Z",
+      "text": "Sehr geehrte Damen und Herren,\n\nbitte entschuldigen Sie, dass ich mich nicht rechtzeitig gemeldet habe und wir das vorgeschlagene Treffen nicht wahrnehmen konnten.\nAus persönlichen Gründen war es mir leider nicht möglich, wie geplant ins Büro zu kommen.\n\nWir haben Ihr Angebot sorgfältig geprüft und bedanken uns herzlich für die unterbreiteten Optionen.\nWir freuen uns darauf, die Details im persönlichen Gespräch zu besprechen und gemeinsam die weiteren Schritte zu klären.\n\nGerne würden wir den Austausch daher auf einen neuen Termin verschieben.\nWäre es Ihnen möglich, am Donnerstag, den 10.09.2026, um 10:00 Uhr, in unserem Gebäude zusammen zu kommen?\n\nVielen Dank für Ihr Verständnis und Ihre Flexibilität.\nMit freundlichen Grüßen,\nCosmin Adrian Covaciu\n\n\r\n---------- Ca răspuns la ---------\n\r\n\r\nDe la: baumeister@bau-werte.biz <Bmstr. Dipl.-Ing. Stefan Lechner>\n\r\nData: August 12th, 2026 11:36 AM\n\r\n\n\r\n\r\nSehr geehrter Herr COVACIU,\n \nsehr gerne können wir uns am 04.09.2026 vor Ort treffen.\n \nVon meiner Seite gerne am Vormittag möglich.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n \n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nSehr geehrter Herr Dipl.-Ing. Lechner,\n \nvielen Dank für Ihr Angebot und die übersandten Unterlagen. Wir sind sehr an einer Zusammenarbeit mit Ihnen interessiert.\n \nDa ich mich in den nächsten Wochen im Urlaub befinde, bis zum 01.09.2026, würde ich gerne den Kontakt zu einem späteren Zeitpunkt fortsetzen. Wäre es für Sie möglich, sich am 04.09.2026 zu einem persönlichen Gespräch oder einer Objektbegehung zu treffen?\n \nIch werde Ihnen am 01 oder 02.09.2026 eine kurze Bestätigung per E-Mail senden. \n \nMit freundlichen Grüßen\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "baumeister@bau-werte.biz",
+      "thread_id": "<f818651f-1b04-4d9a-8af9-5b7804504f8c@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "6c6b4ce1-b9b6-442c-b409-9ba69c36bb63",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "from_address": "baumeister@bau-werte.biz",
+      "to": [
+        "office@ac-wohnart.at"
+      ],
+      "cc": [],
+      "received_at": "2026-08-12T08:36:08Z",
+      "text": "Sehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nsehr gerne können wir uns am 04.09.2026 vor Ort treffen.\r\n\r\n \r\n\r\nVon meiner Seite gerne am Vormittag möglich.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at> \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz\r\nBetreff: Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr Dipl.-Ing. Lechner,\r\n\r\n \r\n\r\nvielen Dank für Ihr Angebot und die übersandten Unterlagen. Wir sind sehr an einer Zusammenarbeit mit Ihnen interessiert.\r\n\r\n \r\n\r\nDa ich mich in den nächsten Wochen im Urlaub befinde, bis zum 01.09.2026, würde ich gerne den Kontakt zu einem späteren Zeitpunkt fortsetzen. Wäre es für Sie möglich, sich am 04.09.2026 zu einem persönlichen Gespräch oder einer Objektbegehung zu treffen?\r\n\r\n \r\n\r\nIch werde Ihnen am 01 oder 02.09.2026 eine kurze Bestätigung per E-Mail senden. \r\n\r\n \r\n\r\nMit freundlichen Grüßen\r\n\r\nCosmin Adrian Covaciu\r\n\r\n \r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "thread_id": "<006601dd2a35$9b756be0$d26043a0$@bau-werte.biz>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "0405dce5-9d05-4419-a290-7196b1db535b",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Re: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "baumeister@bau-werte.biz"
+      ],
+      "cc": [],
+      "received_at": "2026-08-11T11:43:20.063471Z",
+      "text": "Scrie ca ii multumim pentru raspuns \nsi ca suntem interesati - ca voi fi plecat in concediu pana in 01.09.2026 DAR ca as vrea sa ne cunoastem in 04.09.2026 daca poate. voi reveni cu un emil in data de 01/02.09 sa confirm\n\npoti sa adaugi si un meeting in calendar ?\n\n\r\n\r\n---------- In reply to ---------\n\r\n\r\nFrom: baumeister@bau-werte.biz <Bmstr. Dipl.-Ing. Stefan Lechner>\n\r\nDate: August 11th, 2026 12:37 PM\n\r\n\n\r\n\r\nSehr geehrter Herr COVACIU,\n \nvielen Dank für die Einladung zur Angebotslegung.\n \nGerne sende ich Ihnen anbei unser Pauschal-Angebot für die Leistungen gemäß BauKG (Planungs- und Baustellenkoordination) in o.a. Objekt.\n \nEs sind generell wöchentliche Begehungen während der Bauzeit einkalkuliert (Ausnahme: Weihnachtspause und dgl.).\n \nGerne anbei meine aktuell aktive TÜV-Zertifizierung:\n\n \nWeiters bin ich auch aktuell aktiv gerichtlich zertifiziert:\nhttps://justizonline.gv.at/jop/web/exl/W996554\n \n \nWir garantieren Ihnen höchste Qualität in unserer Leistung und freuen uns über Ihre geschätzte Beauftragung.\n \n \nVielen Dank & Freundliche Grüße\nStefan Lechner\n \n\n \n\nBaumeister Dipl.-Ing. Stefan Sieghart Lechner\nBAU-WERTE – Baumanagement & Bauarbeitenkoordination e.U.\nUrban Construction Consulting\n \nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger\n(Fachgebiete: 09.40 für: Bauarbeiten, 09.83)\nZertifizierter Experte für Ausschreibung / Vergabe / Bauabrechnung\nZertifizierter Experte für Örtliche Bauaufsicht - ÖNORM Certified Person\nZertifizierter Planungs- und Baustellenkoordinator, TÜV\nBauwerksbuchersteller und ÖN B1300/1301 Objektsicherheitsprüfer\nRückbaukundige Person (BRV)\nGeprüfter Arbeitsplatz-Experte, MBA\nÖGNI Consultant\n \n   \n \nGertrude-Fröhlich-Sandner Straße 2 / Spaces ICON Central Station, Tower 09, Floor 08\nA-1100 Wien\n( +43 1 205190 7084\n( +43 664 22 41 591\nbaumeister@bau-werte.biz\nbau-werte.biz\n \nFirmensitz: Wien, Firmenbuch: FN 520994v, Handelsgericht Wien, UID: ATU 61171626\n \n \n \n \n \nDatenschutz-Hinweis:\nDer Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Ihre personenbezogenen Daten werden ausschließlich auf Grundlage der geltenden Datenschutzgesetze (insbesondere DSGVO und DSG) verarbeitet.\nRechtsgrundlage ist je nach Art der Beziehung insbesondere Art. 6 Abs. 1 lit. a, b oder f DSGVO.\nWeitere Informationen zur Verarbeitung Ihrer Daten, Ihren Rechten (z. B. Widerruf, Auskunft, Berichtigung, Löschung) sowie unsere vollständige Datenschutzerklärung finden Sie auf unserer Webseite unter /datenschutz.\nBei Fragen oder zur Ausübung Ihrer Rechte erreichen Sie uns telefonisch unter +43 664 2241591 oder per E-Mail an baumeister@bau-werte.biz.\n \nHinweis BauKG:\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\n„Der AN nimmt ausdrücklich und zustimmend zur Kenntnis, dass die vorstehend genannten Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AN sind und verpflichtet sich der AN seine Dienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt Folge zu leisten.“\n \n📌 Datenschutz-Hinweis BauKG gemäß DSGVO\nIm Rahmen der Baustellenkoordination gemäß BauKG werden zur nachvollziehbaren Dokumentation sicherheitsrelevanter Abläufe und Maßnahmen Fotos von uns angefertigt. Diese Fotos dienen ausschließlich des internen Nachweises sowie der Berichtlegung gegenüber dem Auftraggeber (Stadt Wien – Wiener Wohnen). Personenaufnahmen erfolgen nur im unbedingt erforderlichen Ausmaß und unter Beachtung der Datenschutz-Grundverordnung (DSGVO).Die Datenverarbeitung erfolgt auf Basis eines berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO.\n \n \nTLP:AMBER\nDieses Mail wurde nach dem Traffic-Light-Protokoll (TLP) erstellt.\nWeitere Informationen finden Sie unter https://www.bau-werte.biz/tlp-datenklassifizierung/\n \n \n \nDer Inhalt dieser E-Mail ist ausschließlich für die bezeichnete Adressatin bzw. den bezeichneten Adressaten bestimmt. Wenn Sie nicht die vorgesehene Adressatin bzw. der vorgesehene Adressat dieser E-Mail oder die Vertretung sein sollten, so beachten Sie bitte, dass jede Form der Kenntnisnahme, Veröffentlichung, Vervielfältigung oder Weitergabe des Inhaltes dieser E-Mail unzulässig ist. Wir bitten Sie, sich in diesem Fall mit der Absenderin bzw. dem Absender der E-Mail in Verbindung zu setzen und die E-Mail unverzüglich zu löschen.\n \n \n \nVon: office@ac-wohnart.at <office@ac-wohnart.at>\nGesendet: Ohne\nAn: baumeister@bau-werte.biz\nBetreff: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\n \nAn: baumeister@bau-werte.biz\nBetreff: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n \nSehr geehrter Herr DI Lechner,\n \nals Eigentuemerin des Wohnhauses Schallergasse 35, 1120 Wien setzt die A&C Wohnart Immobilien GmbH das mit rechtskraeftigem Bescheid der MA 37 (GZ MA37/1539234-2021-1) bewilligte Bauvorhaben um: Dachgeschossausbau, statische Ertuechtigung und Aufzugszubau samt Innenumbau. Der Baubeginn ist fuer den 01.10.2026 geplant.\n \nEckdaten zum Objekt:\n- Wohnhaus (Gruenderzeithaus, Baujahr 1905), Bauklasse; Keller + Erdgeschoss + 3 Obergeschosse + 2-geschossiger Dachgeschossausbau\n- Gesamtwohnnutzflaeche rd. 803 m2 (Bestand rd. 569 m2 + rd. 234 m2 neu im Dachgeschoss)\n- Strassenfassade bleibt erhalten; Umbau/Neuaufteilung im Bestand, hofseitige Balkone, Aufzug ueber alle Geschosse\n \nWir kontaktieren Sie wegen Ihrer Zertifizierung als Planungs- und Baustellenkoordinator (TÜV) und Ihrer Bueronaehe zu Meidling.\n \nDa auf der Baustelle Arbeitnehmer mehrerer Arbeitgeber taetig sein werden, ist gemaess BauKG ein Planungs- und ein Baustellenkoordinator zu bestellen. Wir wuerden gerne mit Ihnen zusammenarbeiten und ersuchen um ein Angebot fuer die Koordinationsleistungen gem. BauKG (Planungskoordination, SiGe-Plan, Unterlage fuer spaetere Arbeiten, Vorankuendigung an das Arbeitsinspektorat, Baustellenkoordination mit regelmaessigen Begehungen).\n \nFuer ein korrektes Angebot bitten wir um folgende Angaben:\n  - Pauschalhonorar (netto zzgl. USt) fuer Planungs- UND Baustellenkoordination bzw. Aufgliederung/Stundensatz + Begehungspauschale;\n  - Begehungsintervall bzw. Anzahl inkludierter Begehungen;\n  - Fachkundenachweis gem. § 3 Abs. 3 BauKG;\n  - Bestaetigung, dass beide Funktionen (Planungs- und Baustellenkoordinator) abgedeckt sind;\n  - Gueltigkeitsdauer des Angebots (mind. 30 Tage).\n \nDie vollstaendigen Unterlagen legen wir Ihnen gerne im Rahmen eines persoenlichen Gespraechs bzw. einer gemeinsamen Objektbegehung vor. Ueber Ihr Angebot bis 29.08.2026 wuerden wir uns freuen.\n \nMit freundlichen Gruessen\n \nCosmin Covaciu\nGeschaeftsfuehrer\nA&C Wohnart Immobilien GmbH (FN 668224h, HG Wien)\nParkring 2, 1010 Wien\noffice@ac-wohnart.at | +43 665 67055045\n \nWien, 10.08.2026",
+      "truncated": false,
+      "labels": [
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "baumeister@bau-werte.biz",
+      "thread_id": "<fef62381-3844-4ba1-b14c-11edc515f8fa@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "from_address": "baumeister@bau-werte.biz",
+      "to": [
+        "office@ac-wohnart.at"
+      ],
+      "cc": [],
+      "received_at": "2026-08-11T09:37:45Z",
+      "text": "Sehr geehrter Herr COVACIU,\r\n\r\n \r\n\r\nvielen Dank für die Einladung zur Angebotslegung.\r\n\r\n \r\n\r\nGerne sende ich Ihnen anbei unser Pauschal-Angebot für die Leistungen gemäß BauKG (Planungs- und Baustellenkoordination) in o.a. Objekt.\r\n\r\n \r\n\r\nEs sind generell wöchentliche Begehungen während der Bauzeit einkalkuliert (Ausnahme: Weihnachtspause und dgl.). \r\n\r\n \r\n\r\nGerne anbei meine aktuell aktive TÜV-Zertifizierung:\r\n\r\n\r\n\r\n \r\n\r\nWeiters bin ich auch aktuell aktiv gerichtlich zertifiziert:\r\n\r\nhttps://justizonline.gv.at/jop/web/exl/W996554\r\n\r\n \r\n\r\n \r\n\r\nWir garantieren Ihnen höchste Qualität in unserer Leistung und freuen uns über Ihre geschätzte Beauftragung.\r\n\r\n \r\n\r\n \r\n\r\nVielen Dank & Freundliche Grüße\r\n\r\nStefan Lechner\r\n\r\n \r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\nBaumeister Dipl.-Ing. Stefan Sieghart Lechner\r\n\r\nBAU-WERTE – Baumanagement & Bauarbeitenkoordination e.U.\r\n\r\nUrban Construction Consulting \r\n\r\n \r\n\r\nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger \r\n\r\n(Fachgebiete: 09.40 für: Bauarbeiten, 09.83)\r\n\r\nZertifizierter Experte für Ausschreibung / Vergabe / Bauabrechnung\r\n\r\nZertifizierter Experte für Örtliche Bauaufsicht - ÖNORM Certified Person\r\n\r\nZertifizierter Planungs- und Baustellenkoordinator, TÜV\r\n\r\nBauwerksbuchersteller und ÖN B1300/1301 Objektsicherheitsprüfer\r\n\r\nRückbaukundige Person (BRV)\r\n\r\nGeprüfter Arbeitsplatz-Experte, MBA\r\n\r\nÖGNI Consultant\r\n\r\n \r\n\r\n   \r\n\r\n \r\n\r\nGertrude-Fröhlich-Sandner Straße 2 / Spaces ICON Central Station, Tower 09, Floor 08\r\n\r\nA-1100 Wien\r\n\r\n* +43 1 205190 7084\r\n\r\n* +43 664 22 41 591\r\n\r\n <mailto:baumeister@bau-werte.biz> baumeister@bau-werte.biz\r\n\r\nbau-werte.biz\r\n\r\n \r\n\r\nFirmensitz: Wien, Firmenbuch: FN 520994v, Handelsgericht Wien, UID: ATU 61171626\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nDatenschutz-Hinweis:\r\nDer Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Ihre personenbezogenen Daten werden ausschließlich auf Grundlage der geltenden Datenschutzgesetze (insbesondere DSGVO und DSG) verarbeitet.\r\nRechtsgrundlage ist je nach Art der Beziehung insbesondere Art. 6 Abs. 1 lit. a, b oder f DSGVO.\r\nWeitere Informationen zur Verarbeitung Ihrer Daten, Ihren Rechten (z. B. Widerruf, Auskunft, Berichtigung, Löschung) sowie unsere vollständige Datenschutzerklärung finden Sie auf unserer Webseite unter /datenschutz. \r\nBei Fragen oder zur Ausübung Ihrer Rechte erreichen Sie uns telefonisch unter +43 664 2241591 oder per E-Mail an baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> .\r\n\r\n \r\n\r\nHinweis BauKG:\r\n\r\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\r\n\r\n„Der AN nimmt ausdrücklich und zustimmend zur Kenntnis, dass die vorstehend genannten Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AN sind und verpflichtet sich der AN seine Dienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt Folge zu leisten.“\r\n\r\n \r\n\r\n📌 Datenschutz-Hinweis BauKG gemäß DSGVO\r\n\r\nIm Rahmen der Baustellenkoordination gemäß BauKG werden zur nachvollziehbaren Dokumentation sicherheitsrelevanter Abläufe und Maßnahmen Fotos von uns angefertigt. Diese Fotos dienen ausschließlich des internen Nachweises sowie der Berichtlegung gegenüber dem Auftraggeber (Stadt Wien – Wiener Wohnen). Personenaufnahmen erfolgen nur im unbedingt erforderlichen Ausmaß und unter Beachtung der Datenschutz-Grundverordnung (DSGVO).Die Datenverarbeitung erfolgt auf Basis eines berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO.\r\n\r\n \r\n\r\n \r\n\r\nTLP:AMBER\r\n\r\nDieses Mail wurde nach dem Traffic-Light-Protokoll (TLP) erstellt.\r\nWeitere Informationen finden Sie unter  <https://www.bau-werte.biz/tlp-datenklassifizierung/> https://www.bau-werte.biz/tlp-datenklassifizierung/\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nDer Inhalt dieser E-Mail ist ausschließlich für die bezeichnete Adressatin bzw. den bezeichneten Adressaten bestimmt. Wenn Sie nicht die vorgesehene Adressatin bzw. der vorgesehene Adressat dieser E-Mail oder die Vertretung sein sollten, so beachten Sie bitte, dass jede Form der Kenntnisnahme, Veröffentlichung, Vervielfältigung oder Weitergabe des Inhaltes dieser E-Mail unzulässig ist. Wir bitten Sie, sich in diesem Fall mit der Absenderin bzw. dem Absender der E-Mail in Verbindung zu setzen und die E-Mail unverzüglich zu löschen.\r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at> \r\nGesendet: Ohne\r\nAn: baumeister@bau-werte.biz\r\nBetreff: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nAn: baumeister@bau-werte.biz <mailto:baumeister@bau-werte.biz> \r\n\r\nBetreff: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n \r\n\r\nSehr geehrter Herr DI Lechner,\r\n\r\n \r\n\r\nals Eigentuemerin des Wohnhauses Schallergasse 35, 1120 Wien setzt die A&C Wohnart Immobilien GmbH das mit rechtskraeftigem Bescheid der MA 37 (GZ MA37/1539234-2021-1) bewilligte Bauvorhaben um: Dachgeschossausbau, statische Ertuechtigung und Aufzugszubau samt Innenumbau. Der Baubeginn ist fuer den 01.10.2026 geplant.\r\n\r\n \r\n\r\nEckdaten zum Objekt:\r\n\r\n- Wohnhaus (Gruenderzeithaus, Baujahr 1905), Bauklasse; Keller + Erdgeschoss + 3 Obergeschosse + 2-geschossiger Dachgeschossausbau\r\n\r\n- Gesamtwohnnutzflaeche rd. 803 m2 (Bestand rd. 569 m2 + rd. 234 m2 neu im Dachgeschoss)\r\n\r\n- Strassenfassade bleibt erhalten; Umbau/Neuaufteilung im Bestand, hofseitige Balkone, Aufzug ueber alle Geschosse\r\n\r\n \r\n\r\nWir kontaktieren Sie wegen Ihrer Zertifizierung als Planungs- und Baustellenkoordinator (TÜV) und Ihrer Bueronaehe zu Meidling.\r\n\r\n \r\n\r\nDa auf der Baustelle Arbeitnehmer mehrerer Arbeitgeber taetig sein werden, ist gemaess BauKG ein Planungs- und ein Baustellenkoordinator zu bestellen. Wir wuerden gerne mit Ihnen zusammenarbeiten und ersuchen um ein Angebot fuer die Koordinationsleistungen gem. BauKG (Planungskoordination, SiGe-Plan, Unterlage fuer spaetere Arbeiten, Vorankuendigung an das Arbeitsinspektorat, Baustellenkoordination mit regelmaessigen Begehungen).\r\n\r\n \r\n\r\nFuer ein korrektes Angebot bitten wir um folgende Angaben:\r\n\r\n  - Pauschalhonorar (netto zzgl. USt) fuer Planungs- UND Baustellenkoordination bzw. Aufgliederung/Stundensatz + Begehungspauschale;\r\n\r\n  - Begehungsintervall bzw. Anzahl inkludierter Begehungen;\r\n\r\n  - Fachkundenachweis gem. § 3 Abs. 3 BauKG;\r\n\r\n  - Bestaetigung, dass beide Funktionen (Planungs- und Baustellenkoordinator) abgedeckt sind;\r\n\r\n  - Gueltigkeitsdauer des Angebots (mind. 30 Tage).\r\n\r\n \r\n\r\nDie vollstaendigen Unterlagen legen wir Ihnen gerne im Rahmen eines persoenlichen Gespraechs bzw. einer gemeinsamen Objektbegehung vor. Ueber Ihr Angebot bis 29.08.2026 wuerden wir uns freuen.\r\n\r\n \r\n\r\nMit freundlichen Gruessen\r\n\r\n \r\n\r\nCosmin Covaciu\r\n\r\nGeschaeftsfuehrer\r\n\r\nA&C Wohnart Immobilien GmbH (FN 668224h, HG Wien)\r\n\r\nParkring 2, 1010 Wien\r\n\r\noffice@ac-wohnart.at <mailto:office@ac-wohnart.at>  | +43 665 67055045\r\n\r\n \r\n\r\nWien, 10.08.2026\r\n\r\n \r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "Bmstr. Dipl.-Ing. Stefan Lechner",
+      "thread_id": "<!&!AAAAAAAAAAAYAAAAAAAAAFLKQVmKVGNKpSwfGKm1hHHCgAAAEAAAAJV/ishMO/JEpm4DTzlbXuwBAAAAAA==@bau-werte.biz>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [
+        {
+          "id": "2b097d78-458b-4b27-8e12-6841ba28ca9b",
+          "name": "image004.jpg",
+          "size": 235661,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "30e0e531-b494-48d2-ac3b-57664b9239f9",
+          "name": "image001.jpg",
+          "size": 334845,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "19e8f6a9-5710-4600-ac0f-a05087f3c398",
+          "name": "ANKÖ Führungsbestätigung 2026.pdf",
+          "size": 214796,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 968,
+          "page_count": null,
+          "text": "UniCredit Bank Austria AG | IBAN: AT16 1200 0006 4416 6506 | SWIFT: BKAUATWW | Erste Bank | IBAN AT95 2011 1297 3680 5200 | SWIFT: GIBAATWWXXX\nUID: ATU51657407 | Gerichtsst and Wien | Der Auftragnehmerkataster ist ein registrierter Verein | ZVR-Zahl: 217122495 | DVR: 2110630FÜHRUNGSBESTÄTIGUNG\nANKÖ – Liste geeigneter  Unternehmen® (LgU)\nBAU-WERTE Baumanagement & \nBauarbeitenkoordination e.U.\nmit Standort\nGertrude-Fröhlich-Sandner-Straße 2 \n1100 Wien\nwird im\nKalenderjahr 2026\ngemäß den Bestimmungen des BVergG i.d.g.F.,  der ÖNORM A 2053:2019-02  und den \nRichtlinien 2014/24/EU  sowie 2014/25/EU  im Auftragnehmerkataster Österreich geführt. \nDie Eignungsnachweise  des Unternehmens  sind für den öffentlichen Auftraggeber unter \ndem\nFirmencode\n83003\nzur Eignungsprüfung  abrufbar.\nDie Aktualität  der für ein Vergabeverfahren erforderlichen Eignungsnachweise liegt im \nVerantwortungsbereich des Unternehmens.\nEmir Prcic, MBA\nGeschäftsführer\nWien, am 16.06.2026\n\n"
+        },
+        {
+          "id": "345e2b93-464c-44b7-ac95-6ee362adeb0c",
+          "name": "image003.jpg",
+          "size": 1751,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "5f2e196f-66a5-4fdd-a434-404baa102273",
+          "name": "image010.png",
+          "size": 8800,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "60419b69-064e-4221-a24c-2d2724c25288",
+          "name": "image006.png",
+          "size": 4364,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "0c05a708-6857-45c6-a425-f9e7578c648a",
+          "name": "image007.png",
+          "size": 6481,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "102b8aea-8ce5-404a-ba85-b819210e2d0d",
+          "name": "image005.jpg",
+          "size": 130155,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "6a194888-428e-401e-8341-e06b63fc04b1",
+          "name": "image009.png",
+          "size": 104393,
+          "content_type": "image/png",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "cf990101-96dd-4333-9049-ad1f199b66d0",
+          "name": "Honorarangebot 2026-08-11-AG26-0094.pdf",
+          "size": 276498,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 6558,
+          "page_count": null,
+          "text": "BAU-WERTESeite: 1\nTel. +43 (1) 205190 7084 Baumanagement & Bauarbeitenkoordination e.U. \nFax -- Gertrude-Fröhlich-Sandner-Straße 2/2/8\nE-Mail: baumeister@bau-werte.biz A 1100 Wien\nFirma\nAngebot Nr. 26-0094A&C Wohnart Immobilien GmbH\n11.08.2026 Schallergasse 35 Datum\n1120 Wien\n Lechner Stefan Sachbearbeiter\nSehr geehrte Damen und Herren,\nwir danken für Ihre Anfrage  vom 10.08.2026\nSehr gerne bieten wir Ihnen an wie folgt:  Leistung(en)  gemäß  Bauarbeitenkoordinationsgesetz  - BauKG\nProjekt Wohnhaus 1120 Wien, Schallergasse 35 - Dachgeschossausbau, statische Ertuechtigung und\nAufzugszubau samt Innenumbau (Bauherr: A&C Wohnart, 569 m2 Bestand + 234 m2 neu DG = rd. 803 m2 WNFl.)\nIm Umfang sind auf Basis der Honorarordnung für Baumeister (HOB 2000), dem Bauarbeitenkoordinationsgesetz\n(BauKG) i.d.g.F. & der Allgemeinen Geschäftsbedingungen von Baumeister Dipl.-Ing. Stefan Lechner\n(veröffentlicht unter: https://www.bau-werte.biz/agb/), der am 10.08.2026 erhaltenen Informationen sowie nach\nheutiger Preisbasis (Basissatz 2026, veränderliche Preise) folgende Leistungen enthalten:\n- Bauarbeitenkoordination: Sicherheitstechnischer Planungs- und Baustellenkoordinator gemäß BauKG\n(Abwicklungszeitraum: 12 Monate Bauzeit, beginnend mit Baustart: 01.10.2026, Generalunternehmer; regelmäßige\nBaustellen-Besuche im Überprüfungsintervall wöchentlich bis < 14 Kalender-Tage bzw. nach Bedarf, mit\nProtokollierung mit Foto-Dokumentation;\nKoordination & Begehung, OHNE Projektleitung gem.BauKG da nicht erforderlich)\nDas Angebot basiert auf folgenden Annahmen:\n- Die Projektbeteiligtenliste, die Evaluierungen der Auftragnehmer, die Bauzeitplanung und die genehmigte/baureife\nPlanung der Baumaßnahmen wird für die Bauarbeitenkoordination beigestellt und wird zum Bestandteil des\nSiGe-Plan.\n- Die jew. aktuellen Planunterlagen für die Objekte (nach denen gebaut werden darf) werden beigestellt\n- Sicherer Zutritt zu den Objekten und zur Baustelle muss reibungslos gewährleistet sein.\n- Baubesprechungs-Protokolle und Bautagesberichte werden dem AN digital übermittelt.\n- Nicht im Honorar enthalten: Teilnahme an jeder allgemeinen, wöchentlichen Baubesprechung; außergewöhnliche\nzusätzliche Begehungen aufgrund wiederholter Nichtbefolgung von Koordinatorenhinweisen;\nUnfalluntersuchungen, Behördenverhandlungen und ausführliche Sonderberichte; Nacht-, Sonn- und\nFeiertagseinsätze; Bauzeitverlängerungen über 12 Monate.Eventuelle Bauzeitüberschreitungen über 12 Monate hinaus werden aliquot pro angefangenen weiteren Bau-Monat verrechnet.\nHonorar-Stundensatz für Mehrleistungen außerhalb der Pauschale und auf Anordnung AG zur Abgrenzung (z. B. Teilnahme an\nSonderbesprechungen, SiGe-Plan-Updates aufgrund von Änderungen des Bau-Solls und dgl.).: 135,- EUR pro Stunde, netto, zzgl. USt.\nMit Hilfe eines interdisziplinären Ansatzes wird eine Risikokultur etabliert, die das Management zur Gestaltung\neiner Risikokultur sensibilisiert und einen Wertewandel unter Einbeziehung aller MitarbeiterInnen erzielt. Die\ngesamte Belegschaft wird für \"Sicheres Arbeiten\" sensibilisiert - IHR WEG ZU NULL ARBEITSUNFÄLLEN.\nHinweis:\nWeisungsrecht und Anordnungsbefugnis des Baustellenkoordinators:\n 0,00 Übertrag\nSeite: 2 Angebot Nr. 26-0094 vom 11.08.2026\n-% Pos. MwSt.% Menge EH Preis/EH Betrag Artikelnummer\nB e z e i c h n u n g\n 0,00 Übertrag\n„Der AG nimmt ausdrücklich und zustimmend zur Kenntnis, dass der beauftragte Koordinator in Fragen der Sicherheit und des\nGesundheitsschutzes auf der Baustelle weisungsbefugt auch gegenüber den Dienstnehmern des AG sind und verpflichtet sich der AG seine\nDienstnehmer anzuweisen, Aufträgen der Koordinatoren in Fragen der Sicherheit und des Gesundheitsschutzes auf der Baustelle unbedingt\nFolge zu leisten.\"\nFreundliche Grüße\nBaumeister Dipl.-Ing. Stefan Lechner\nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger\nTÜV-Zertifizierter Planungs- und Baustellenkoordinator-% Pos. MC Menge EH Preis/EH Betrag Artikelnummer\nB e z e i c h n u n g\n 1,00  750,00 1 PA 750,00 20 A.5.01\nPlanungskoordinator\ngemäß § 4 BauKG\nPlanungskoordination, SiGe-Plan, Unterlage fuer spaetere Arbeiten, Vorankuendigung an das\nArbeitsinspektorat\n 1,00  7 500,00 2 PA 7 500,00 20 A.5.02\nBaustellenkoordinator\ngemäß § 5 BauKG\nBaustellenkoordination mit regelmaessigen Begehungen\nDie Pauschale enthält bereits sämtliche Neben- und Fahrtkosten und kommt von Baubeginn bis zur Abnahme zum\nTragen.\nBaubeginn n.V. 01.10.2026, Bau-/Einsatzdauer: lt. tatsächlichen Aufwand, Bauzeiten > 12\nMonate werden aliquot zur Pauschale abgerechnet\n8 250,00 A n g e b o t s s u m m e €\n1 650,00 zuzüglich  20,00 % MwSt. aus € 8 250,00 €\n9 900,00 Angebotssumme inkl. Steuer(n) €\nGelieferte Ware bleibt bis zur vollständigen Bezahlung unser Eigentum.\nGerichtsstand: Handelsgericht Wien. Alle Rechte vorbehalten.\nZahlungsbedingung:\nZahlbar innerhalb  30 Tagen, ohne jeden Abzug.\nDieses Angebot ist gültig bis: 10.09.2026.\nWir hoffen Ihnen mit diesen Angaben gedient zu haben und  freuen uns, Ihre geschätzte\nAuftragserteilung zu erhalten.\nMit freundlichen Grüßen\nBAU-WERTE Baumanagement & Bauarbeitenkoordination e.U. \nBestellschein \nBesteller / Rechnungsanschrift:\nBitte vervollständigen Sie Ihre Daten!\nFirma\nA&C Wohnart Immobilien GmbH\nBAU-WERTE\nBaumanagement & Bauarbeitenkoordination e.U.\nSchallergasse 35\nGertrude-Fröhlich-Sandner-Straße 2/2/8 1120 Wien\n1100 Wien\nUID-Nr.:\nTelefon: \nE-Mail: \nAnsprechpartner / E-Mail:\nHiermit bestelle Ich/Wir die folgenden Artikel lt. Angebot Nr. 26-0094 vom 11.08.2026\n-% Pos. Menge EH Einzelpreis Gesamtpreis Artikel-Nr.\nArt der Arbeit(en) / Lieferung(en)\n1            1,00 PA          750,00 750,00A.5.01\nPlanungskoordinator\ngemäß § 4 BauKG\nPlanungskoordination, SiGe-Plan, Unterlage fuer spaetere Arbeiten, Vorankuendigung an das\nArbeitsinspektorat\n2            1,00 PA        7 500,00 7 500,00A.5.02\nBaustellenkoordinator\ngemäß § 5 BauKG\nBaustellenkoordination mit regelmaessigen Begehungen\nDie Pauschale enthält bereits sämtliche Neben- und Fahrtkosten und kommt von Baubeginn bis zur Abnahme zum\nTragen.\nBaubeginn n.V. 01.10.2026, Bau-/Einsatzdauer: lt. tatsächlichen Aufwand, Bauzeiten > 12\nMonate werden aliquot zur Pauschale abgerechnet\n8 250,00 Gesamtsumme Netto €\n1 650,00 +  20,00 % MWSt. €\nZahlungsbedingung: 9 900,00 Gesamtsumme inkl. MWSt. €\nZahlbar innerhalb  30 Tagen, ohne jeden Abzug.\nDie \"Allgemeinen Geschäftsbedingungen gelten als vereinbart. Änderungen oder Ergänzungen dieser Bestimmungen \nbedürfen der Schriftform und Zustimmung beider Teile.\nOrt, Datum Rechtsgültige Unterschrift (Firmenstempel)\n"
+        },
+        {
+          "id": "eda8c5b3-cf05-457f-8a3f-3c974cac4c49",
+          "name": "image002.jpg",
+          "size": 19261,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        },
+        {
+          "id": "f94b2bb4-1972-4582-9e66-1d03c41ee6e1",
+          "name": "image008.jpg",
+          "size": 26127,
+          "content_type": "image/jpeg",
+          "has_text": true,
+          "text_chars": 13,
+          "page_count": null,
+          "text": "NO_TEXT_FOUND"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "8a3f50c2-0e25-4be6-8939-bad635658168",
+      "account_email": "office@ac-wohnart.at",
+      "subject": "Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien",
+      "from_name": "office@ac-wohnart.at",
+      "from_address": "office@ac-wohnart.at",
+      "to": [
+        "baumeister@bau-werte.biz"
+      ],
+      "cc": [],
+      "received_at": "2026-08-10T09:21:40.857219Z",
+      "text": "An: baumeister@bau-werte.biz\nBetreff: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien\n\nSehr geehrter Herr DI Lechner,\n\nals Eigentuemerin des Wohnhauses Schallergasse 35, 1120 Wien setzt die A&C Wohnart Immobilien GmbH das mit rechtskraeftigem Bescheid der MA 37 (GZ MA37/1539234-2021-1) bewilligte Bauvorhaben um: Dachgeschossausbau, statische Ertuechtigung und Aufzugszubau samt Innenumbau. Der Baubeginn ist fuer den 01.10.2026 geplant.\n\nEckdaten zum Objekt:\n- Wohnhaus (Gruenderzeithaus, Baujahr 1905), Bauklasse; Keller + Erdgeschoss + 3 Obergeschosse + 2-geschossiger Dachgeschossausbau\n- Gesamtwohnnutzflaeche rd. 803 m2 (Bestand rd. 569 m2 + rd. 234 m2 neu im Dachgeschoss)\n- Strassenfassade bleibt erhalten; Umbau/Neuaufteilung im Bestand, hofseitige Balkone, Aufzug ueber alle Geschosse\n\nWir kontaktieren Sie wegen Ihrer Zertifizierung als Planungs- und Baustellenkoordinator (TÜV) und Ihrer Bueronaehe zu Meidling.\n\nDa auf der Baustelle Arbeitnehmer mehrerer Arbeitgeber taetig sein werden, ist gemaess BauKG ein Planungs- und ein Baustellenkoordinator zu bestellen. Wir wuerden gerne mit Ihnen zusammenarbeiten und ersuchen um ein Angebot fuer die Koordinationsleistungen gem. BauKG (Planungskoordination, SiGe-Plan, Unterlage fuer spaetere Arbeiten, Vorankuendigung an das Arbeitsinspektorat, Baustellenkoordination mit regelmaessigen Begehungen).\n\nFuer ein korrektes Angebot bitten wir um folgende Angaben:\n  - Pauschalhonorar (netto zzgl. USt) fuer Planungs- UND Baustellenkoordination bzw. Aufgliederung/Stundensatz + Begehungspauschale;\n  - Begehungsintervall bzw. Anzahl inkludierter Begehungen;\n  - Fachkundenachweis gem. § 3 Abs. 3 BauKG;\n  - Bestaetigung, dass beide Funktionen (Planungs- und Baustellenkoordinator) abgedeckt sind;\n  - Gueltigkeitsdauer des Angebots (mind. 30 Tage).\n\nDie vollstaendigen Unterlagen legen wir Ihnen gerne im Rahmen eines persoenlichen Gespraechs bzw. einer gemeinsamen Objektbegehung vor. Ueber Ihr Angebot bis 29.08.2026 wuerden wir uns freuen.\n\nMit freundlichen Gruessen\n\nCosmin Covaciu\nGeschaeftsfuehrer\nA&C Wohnart Immobilien GmbH (FN 668224h, HG Wien)\nParkring 2, 1010 Wien\noffice@ac-wohnart.at | +43 665 67055045\n\nWien, 10.08.2026",
+      "truncated": false,
+      "labels": [
+        "SENT",
+        "3: Fyi"
+      ],
+      "category": "fyi",
+      "folder": "baumeister@bau-werte.biz",
+      "thread_id": "<a0321d22-b278-4a62-ba35-53c02098f1c4@ac-wohnart.at>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    }
+  ]
+}

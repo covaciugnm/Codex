@@ -1,0 +1,23 @@
+[
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.10.01 Actualizare finantari Romania/Registru_finantari_Romania_2026-10-01.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_finantari_Romania_2026-10-01--ba3297ea.xlsx",
+    "bytes": 407526,
+    "sha256": "367f9cc47fdb8fc7ced0e01ff5ad0981f34694961f1fc78d45cb1d682de510ec"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.10.01 Actualizare finantari Romania/Sinteza_finantari_ONG_2026-10-01.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Sinteza_finantari_ONG_2026-10-01--34a63e4e.docx",
+    "bytes": 41808,
+    "sha256": "7965114a67c3868b95dea2a1dddfc8c128be463c76fb7fd0522631adde0664b8"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026/2026.10.01 Actualizare finantari Romania/Sinteza_finantari_Romania_2026-10-01.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Sinteza_finantari_Romania_2026-10-01--0f2585b1.docx",
+    "bytes": 52348,
+    "sha256": "34aefe0466d423284cae89d77ed5c878ac354fc200c2da69116d04dd176260c0"
+  }
+]

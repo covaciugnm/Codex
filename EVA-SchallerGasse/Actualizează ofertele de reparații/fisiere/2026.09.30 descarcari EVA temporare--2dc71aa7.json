@@ -1,0 +1,662 @@
+[
+  {
+    "attachment": {
+      "id": "28b48b1c-2142-41a5-a27c-df0d9a46d3c6",
+      "name": "PROFI_Anlage_A_B_Richtpreise_Fragebogen_2026-09-15.pdf",
+      "size": 142374,
+      "email_id": "e4992e22-17d9-4687-9e7c-539f499b954a",
+      "date": "2026-09-29T09:58:59.811443Z"
+    },
+    "result": {
+      "id": "28b48b1c-2142-41a5-a27c-df0d9a46d3c6",
+      "filename": "PROFI_Anlage_A_B_Richtpreise_Fragebogen_2026-09-15.pdf",
+      "mime_type": "application/pdf",
+      "size": 142374,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMjhiNDhiMWMtMjE0Mi00MWE1LWEyN2MtZGYwZDlhNDZkM2M2IiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.Wh-YCp9--0Ko89oGjaAjdNxikwtXqPklhgcBJbqHTWg",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "4e50e3f8-7015-4b8d-95ea-dea1423a14ab",
+      "name": "PROFI_Projektblatt_Schallergasse35_2026-09-15.pdf",
+      "size": 146053,
+      "email_id": "e4992e22-17d9-4687-9e7c-539f499b954a",
+      "date": "2026-09-29T09:58:59.811443Z"
+    },
+    "result": {
+      "id": "4e50e3f8-7015-4b8d-95ea-dea1423a14ab",
+      "filename": "PROFI_Projektblatt_Schallergasse35_2026-09-15.pdf",
+      "mime_type": "application/pdf",
+      "size": 146053,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNGU1MGUzZjgtNzAxNS00YjhkLTk1ZWEtZGVhMTQyM2ExNGFiIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.aVne3FdANwDoqC4yxUHwd04sGpITv1OuYe7yoeR2ZwE",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "889b0916-e2d6-463b-b6d6-65e0713fb687",
+      "name": "image001.jpg",
+      "size": 1340,
+      "email_id": "f3943f2d-516e-4330-8b53-3fd9421d07e1",
+      "date": "2026-09-25T11:04:21Z"
+    },
+    "result": {
+      "id": "889b0916-e2d6-463b-b6d6-65e0713fb687",
+      "filename": "image001.jpg",
+      "mime_type": "image/jpeg",
+      "size": 1340,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiODg5YjA5MTYtZTJkNi00NjNiLWI2ZDYtNjVlMDcxM2ZiNjg3IiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.6efg7HoICbb3VtXfPz5ozJud5MdpjoiwGD6aP9xRgwY",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "eaf35318-c3ba-424e-887b-c6ea8c222135",
+      "name": "image004.jpg",
+      "size": 235661,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "eaf35318-c3ba-424e-887b-c6ea8c222135",
+      "filename": "image004.jpg",
+      "mime_type": "image/jpeg",
+      "size": 235661,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiZWFmMzUzMTgtYzNiYS00MjRlLTg4N2ItYzZlYThjMjIyMTM1IiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.d_Q2B4FDttqKhXSAKnMaRViDQsSk6BaCvQ1qao3xWhA",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "013f9478-6c29-487c-88a7-05555bb7b583",
+      "name": "image002.jpg",
+      "size": 19261,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "013f9478-6c29-487c-88a7-05555bb7b583",
+      "filename": "image002.jpg",
+      "mime_type": "image/jpeg",
+      "size": 19261,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMDEzZjk0NzgtNmMyOS00ODdjLTg4YTctMDU1NTViYjdiNTgzIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.lKGLJPhlcMSoQp5V5iA1hjTjn-n-xSHQOLRCwLXhEv4",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "1d38d573-e181-4a35-a887-769f51dc4fe5",
+      "name": "image001.jpg",
+      "size": 334845,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "1d38d573-e181-4a35-a887-769f51dc4fe5",
+      "filename": "image001.jpg",
+      "mime_type": "image/jpeg",
+      "size": 334845,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMWQzOGQ1NzMtZTE4MS00YTM1LWE4ODctNzY5ZjUxZGM0ZmU1IiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.pm2jaOBZJL9BXq7OpFWSNY8mIl1BTkRdNvx2nPcJkAA",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "2c8909f4-bcd5-4c18-a9c5-83f58d89b673",
+      "name": "image005.jpg",
+      "size": 130155,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "2c8909f4-bcd5-4c18-a9c5-83f58d89b673",
+      "filename": "image005.jpg",
+      "mime_type": "image/jpeg",
+      "size": 130155,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMmM4OTA5ZjQtYmNkNS00YzE4LWE5YzUtODNmNThkODliNjczIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.qUUADLa2-_7al8QL51JPVqrB8vjq6K5YKVJ5faOXxZs",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "5460160d-e5ed-4c73-b03d-78d9290ab26b",
+      "name": "image003.jpg",
+      "size": 1751,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "5460160d-e5ed-4c73-b03d-78d9290ab26b",
+      "filename": "image003.jpg",
+      "mime_type": "image/jpeg",
+      "size": 1751,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNTQ2MDE2MGQtZTVlZC00YzczLWIwM2QtNzhkOTI5MGFiMjZiIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.8fJtRqjxDI_ytg9vOLf1-bTBG4wHzamjKr-RU2PAIjk",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "79b6d7de-3700-4a04-b0d6-14ce2ecf4a2f",
+      "name": "image007.png",
+      "size": 6481,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "79b6d7de-3700-4a04-b0d6-14ce2ecf4a2f",
+      "filename": "image007.png",
+      "mime_type": "image/png",
+      "size": 6481,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNzliNmQ3ZGUtMzcwMC00YTA0LWIwZDYtMTRjZTJlY2Y0YTJmIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.dltid-1upB3oxsq7gaXKtTdfN-xylTBaT_jMz5JAu0c",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "cdf90d21-4a9b-4bf5-8218-a1fa7c65bc23",
+      "name": "image008.jpg",
+      "size": 26127,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "cdf90d21-4a9b-4bf5-8218-a1fa7c65bc23",
+      "filename": "image008.jpg",
+      "mime_type": "image/jpeg",
+      "size": 26127,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiY2RmOTBkMjEtNGE5Yi00YmY1LTgyMTgtYTFmYTdjNjViYzIzIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.IsF26lsbtpqlRRy8tMRhj9KDRCYRxCeLhotkUbWYSRM",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "38c8c4fb-5e42-450c-9850-870fa3712c03",
+      "name": "image009.png",
+      "size": 104393,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "38c8c4fb-5e42-450c-9850-870fa3712c03",
+      "filename": "image009.png",
+      "mime_type": "image/png",
+      "size": 104393,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMzhjOGM0ZmItNWU0Mi00NTBjLTk4NTAtODcwZmEzNzEyYzAzIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.5YxplLpI1-4YHXw26T3UFZLSUu2LJXAhHbwcbD1NYvY",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "a2fc9567-38e9-4f45-b806-c92b7fe77c41",
+      "name": "image006.png",
+      "size": 4364,
+      "email_id": "3de34178-686d-4e4c-bb3d-cc4dc836067f",
+      "date": "2026-09-11T09:05:34Z"
+    },
+    "result": {
+      "id": "a2fc9567-38e9-4f45-b806-c92b7fe77c41",
+      "filename": "image006.png",
+      "mime_type": "image/png",
+      "size": 4364,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiYTJmYzk1NjctMzhlOS00ZjQ1LWI4MDYtYzkyYjdmZTc3YzQxIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.8OCfIHN__PYH2gCG9QVjaKW4m8AZ1yfa0WjF7cp6GlY",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "aa7e995d-4f30-4de7-a283-f098e2d6104b",
+      "name": "image006.png",
+      "size": 4364,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "aa7e995d-4f30-4de7-a283-f098e2d6104b",
+      "filename": "image006.png",
+      "mime_type": "image/png",
+      "size": 4364,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiYWE3ZTk5NWQtNGYzMC00ZGU3LWEyODMtZjA5OGUyZDYxMDRiIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.T1tRnJSiyIqcvbniYgMbL4yRQvNnuOWWKGyhoJnpXX4",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "910025d4-f6f5-4825-8eb7-ac4049a86d8a",
+      "name": "image007.png",
+      "size": 6481,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "910025d4-f6f5-4825-8eb7-ac4049a86d8a",
+      "filename": "image007.png",
+      "mime_type": "image/png",
+      "size": 6481,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiOTEwMDI1ZDQtZjZmNS00ODI1LThlYjctYWM0MDQ5YTg2ZDhhIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.OKnCje13NSe3BYBlt8xePr4Ghbi90FkxH3OMEs4-NHg",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "03efeb22-e81f-4ccd-8f60-0c3752f98c8d",
+      "name": "image001.jpg",
+      "size": 334845,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "03efeb22-e81f-4ccd-8f60-0c3752f98c8d",
+      "filename": "image001.jpg",
+      "mime_type": "image/jpeg",
+      "size": 334845,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMDNlZmViMjItZTgxZi00Y2NkLThmNjAtMGMzNzUyZjk4YzhkIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.tLzulfns1MUCe6znoRIjYIOb7DLTIgqJyy5qCYlpfPE",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "40f6f312-215c-4284-9ea1-7dec3211dfd3",
+      "name": "image003.jpg",
+      "size": 1748,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "40f6f312-215c-4284-9ea1-7dec3211dfd3",
+      "filename": "image003.jpg",
+      "mime_type": "image/jpeg",
+      "size": 1748,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNDBmNmYzMTItMjE1Yy00Mjg0LTllYTEtN2RlYzMyMTFkZmQzIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.7Q2K61GOTit1-aV4KPDyfUKvAQFNlKo9wNlszu0tR38",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "59a80a12-ec1f-4255-88d6-eebfa12d59ed",
+      "name": "image005.jpg",
+      "size": 130155,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "59a80a12-ec1f-4255-88d6-eebfa12d59ed",
+      "filename": "image005.jpg",
+      "mime_type": "image/jpeg",
+      "size": 130155,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNTlhODBhMTItZWMxZi00MjU1LTg4ZDYtZWViZmExMmQ1OWVkIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.iyv_VLOMdmgmRRh_V_kV-g4T3TEusg8Y4l-id9YPSW0",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "97c8ac1c-8896-4c03-90a3-bfc5e11d5b99",
+      "name": "image004.jpg",
+      "size": 235661,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "97c8ac1c-8896-4c03-90a3-bfc5e11d5b99",
+      "filename": "image004.jpg",
+      "mime_type": "image/jpeg",
+      "size": 235661,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiOTdjOGFjMWMtODg5Ni00YzAzLTkwYTMtYmZjNWUxMWQ1Yjk5IiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.zS2o_tqmTc4ha3tQ5cXS1es1rK78IHOoiX8DeKofr8k",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "c9204e5c-50d3-4b40-a11a-44f71ab55933",
+      "name": "image002.jpg",
+      "size": 19261,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "c9204e5c-50d3-4b40-a11a-44f71ab55933",
+      "filename": "image002.jpg",
+      "mime_type": "image/jpeg",
+      "size": 19261,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiYzkyMDRlNWMtNTBkMy00YjQwLWExMWEtNDRmNzFhYjU1OTMzIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.MaU-2lrWAKMGnu0M7ihWfMnYpi87M8cwL6KYQLgAxgU",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "64d87e5c-5447-4688-87d3-3bb85d88691d",
+      "name": "image009.png",
+      "size": 104393,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "64d87e5c-5447-4688-87d3-3bb85d88691d",
+      "filename": "image009.png",
+      "mime_type": "image/png",
+      "size": 104393,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNjRkODdlNWMtNTQ0Ny00Njg4LTg3ZDMtM2JiODVkODg2OTFkIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.DhKUbk-7sJf-O094QZ8QCBV9RNK8RzDWfphZXtEGx3I",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "71c6cc5e-38b4-4cc8-97c8-f4d7d5540e0b",
+      "name": "image008.jpg",
+      "size": 26127,
+      "email_id": "d7c8963a-6d6d-4904-9501-9c87c583d92e",
+      "date": "2026-09-07T10:24:54Z"
+    },
+    "result": {
+      "id": "71c6cc5e-38b4-4cc8-97c8-f4d7d5540e0b",
+      "filename": "image008.jpg",
+      "mime_type": "image/jpeg",
+      "size": 26127,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNzFjNmNjNWUtMzhiNC00Y2M4LTk3YzgtZjRkN2Q1NTQwZTBiIiwiZSI6MTc5MDc3MTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.DsxZUJqQZB3mWzPeYEkqky3HMs3n1ajRfx4AgAu2jj0",
+      "expires_at": "2026-09-30T12:24:51Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "2b097d78-458b-4b27-8e12-6841ba28ca9b",
+      "name": "image004.jpg",
+      "size": 235661,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "2b097d78-458b-4b27-8e12-6841ba28ca9b",
+      "filename": "image004.jpg",
+      "mime_type": "image/jpeg",
+      "size": 235661,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMmIwOTdkNzgtNDU4Yi00YjI3LThlMTItNjg0MWJhMjhjYTliIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.ImCK40fvbm7mEvwq6oUA64y4R1zB_wTk9Nfyt2J1ufU",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "30e0e531-b494-48d2-ac3b-57664b9239f9",
+      "name": "image001.jpg",
+      "size": 334845,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "30e0e531-b494-48d2-ac3b-57664b9239f9",
+      "filename": "image001.jpg",
+      "mime_type": "image/jpeg",
+      "size": 334845,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMzBlMGU1MzEtYjQ5NC00OGQyLWFjM2ItNTc2NjRiOTIzOWY5IiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.HuJik4_2QZnoMBDDECXCaoi17_vrXsa7oPkjt2tH3PY",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "19e8f6a9-5710-4600-ac0f-a05087f3c398",
+      "name": "ANKÖ Führungsbestätigung 2026.pdf",
+      "size": 214796,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "19e8f6a9-5710-4600-ac0f-a05087f3c398",
+      "filename": "ANKÖ Führungsbestätigung 2026.pdf",
+      "mime_type": "application/pdf",
+      "size": 214796,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMTllOGY2YTktNTcxMC00NjAwLWFjMGYtYTA1MDg3ZjNjMzk4IiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.2ON7KBXCf_6X-e77gF2Zn6LGxRSCzyAFWr4YjIhkaUE",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "345e2b93-464c-44b7-ac95-6ee362adeb0c",
+      "name": "image003.jpg",
+      "size": 1751,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "345e2b93-464c-44b7-ac95-6ee362adeb0c",
+      "filename": "image003.jpg",
+      "mime_type": "image/jpeg",
+      "size": 1751,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMzQ1ZTJiOTMtNDY0Yy00NGI3LWFjOTUtNmVlMzYyYWRlYjBjIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.9dfyhpD8wW85sqGRK9QswoRDmXWG6AlkeihukWpWYiE",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "5f2e196f-66a5-4fdd-a434-404baa102273",
+      "name": "image010.png",
+      "size": 8800,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "5f2e196f-66a5-4fdd-a434-404baa102273",
+      "filename": "image010.png",
+      "mime_type": "image/png",
+      "size": 8800,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNWYyZTE5NmYtNjZhNS00ZmRkLWE0MzQtNDA0YmFhMTAyMjczIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.Xy3ruqQPtsk9I2rCo76O3JNnSgeDtZSO3sgue4hORKg",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "60419b69-064e-4221-a24c-2d2724c25288",
+      "name": "image006.png",
+      "size": 4364,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "60419b69-064e-4221-a24c-2d2724c25288",
+      "filename": "image006.png",
+      "mime_type": "image/png",
+      "size": 4364,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNjA0MTliNjktMDY0ZS00MjIxLWEyNGMtMmQyNzI0YzI1Mjg4IiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.kNL8nRo6BfxVyb_U5fnsFvEPPY_QpV1dIumHN-198v8",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "0c05a708-6857-45c6-a425-f9e7578c648a",
+      "name": "image007.png",
+      "size": 6481,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "0c05a708-6857-45c6-a425-f9e7578c648a",
+      "filename": "image007.png",
+      "mime_type": "image/png",
+      "size": 6481,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMGMwNWE3MDgtNjg1Ny00NWM2LWE0MjUtZjllNzU3OGM2NDhhIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.ejlT3eTFk5mBx92ji2qfK3gBlLViOBAsd2-InwAQL0o",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "102b8aea-8ce5-404a-ba85-b819210e2d0d",
+      "name": "image005.jpg",
+      "size": 130155,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "102b8aea-8ce5-404a-ba85-b819210e2d0d",
+      "filename": "image005.jpg",
+      "mime_type": "image/jpeg",
+      "size": 130155,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMTAyYjhhZWEtOGNlNS00MDRhLWJhODUtYjgxOTIxMGUyZDBkIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.XmwjsWl04POxrTa-0BIsQsOYTytbeBF6IcpzU23mF5k",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "6a194888-428e-401e-8341-e06b63fc04b1",
+      "name": "image009.png",
+      "size": 104393,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "6a194888-428e-401e-8341-e06b63fc04b1",
+      "filename": "image009.png",
+      "mime_type": "image/png",
+      "size": 104393,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNmExOTQ4ODgtNDI4ZS00MDFlLTgzNDEtZTA2YjYzZmMwNGIxIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.eMKlckIHtLKtJvXmWTiFNH6utzcqroHD5Sba6GFoJHU",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "cf990101-96dd-4333-9049-ad1f199b66d0",
+      "name": "Honorarangebot 2026-08-11-AG26-0094.pdf",
+      "size": 276498,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "cf990101-96dd-4333-9049-ad1f199b66d0",
+      "filename": "Honorarangebot 2026-08-11-AG26-0094.pdf",
+      "mime_type": "application/pdf",
+      "size": 276498,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiY2Y5OTAxMDEtOTZkZC00MzMzLTkwNDktYWQxZjE5OWI2NmQwIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.WhKYGxaCVrHMJRp_PWzHvmxNJNM8WOduxc0ML6UkEbA",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "eda8c5b3-cf05-457f-8a3f-3c974cac4c49",
+      "name": "image002.jpg",
+      "size": 19261,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "eda8c5b3-cf05-457f-8a3f-3c974cac4c49",
+      "filename": "image002.jpg",
+      "mime_type": "image/jpeg",
+      "size": 19261,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiZWRhOGM1YjMtY2YwNS00NTdmLThhM2YtM2M5NzRjYWM0YzQ5IiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.BCq-2xMj5HDMEa3jmk7I2NA2da2ko8zzxzdB4zeNVAw",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  },
+  {
+    "attachment": {
+      "id": "f94b2bb4-1972-4582-9e66-1d03c41ee6e1",
+      "name": "image008.jpg",
+      "size": 26127,
+      "email_id": "b8b577cb-725e-4dc2-9e9e-b1216968aade",
+      "date": "2026-08-11T09:37:45Z"
+    },
+    "result": {
+      "id": "f94b2bb4-1972-4582-9e66-1d03c41ee6e1",
+      "filename": "image008.jpg",
+      "mime_type": "image/jpeg",
+      "size": 26127,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiZjk0YjJiYjQtMTk3Mi00NTgyLTllNjYtMWQwM2M0MWVlNmUxIiwiZSI6MTc5MDc3MTA5MiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.WNQAsZkVjuwEZGVkw6GofrnUJQUNPi-iYqwTcPSUqc0",
+      "expires_at": "2026-09-30T12:24:52Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "01a0f180-e0a6-7333-ae37-77a8aaa019ee",
+  "cwd": "\\\\?\\C:\\Users\\User\\Documents\\Codex\\2026-09-30\\da",
+  "created_at": 1790758150,
+  "updated_at": 1790758434,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește emailurile din Eva",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "explicitly_projectless",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 325132,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 19,
+  "message_count": 13,
+  "content_sha256": "fd6edb3a080dfa726d1a7d73f5883d30d31e0061486b3c1c11f9a5be7f8d6cae",
+  "files_copied": 2,
+  "references_not_copied": 2
+}

@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';import path from 'node:path';
+const root=path.resolve('EVA_PRINT_WEBSITE_BRIEF_2026-10-02');const m=JSON.parse(await fs.readFile(path.join(root,'09_SOURCES/download-manifest.json')));const p=JSON.parse(await fs.readFile(path.join(root,'09_SOURCES/pages.json')));
+const dec=s=>s.replace(/&amp;|&#038;/g,'&').replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(+n));const text=s=>dec(s.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ')).trim();
+async function get(u,rel,kind,source=u){try{const r=await fetch(u,{signal:AbortSignal.timeout(25000)});if(!r.ok)throw Error('HTTP '+r.status);const b=Buffer.from(await r.arrayBuffer());if(kind==='pdf'&&b.subarray(0,5).toString()!=='%PDF-')throw Error('Not PDF');await fs.mkdir(path.dirname(path.join(root,rel)),{recursive:true});await fs.writeFile(path.join(root,rel),b);m.push({url:u,final_url:r.url,path:rel,kind,status:'downloaded',bytes:b.length,source_page:source,publication_rights:kind==='image'?'reference_only_permission_required':'manufacturer_reference',checked_at:'2026-10-02'});return b.toString();}catch(e){m.push({url:u,path:rel,kind,status:'failed',error:e.message,source_page:source});return '';}}
+async function pool(a,fn,n=5){let i=0;await Promise.all(Array.from({length:n},async()=>{while(i<a.length)await fn(a[i++]);}));}
+const html=await fs.readFile(path.join(root,'09_SOURCES/private_html/fillamentum-data.html'),'utf8');
+const fu=[...new Set([...html.matchAll(/href=["']([^"']+)["']/gi)].map(m=>dec(m[1])).filter(x=>/fillamentum.com\/collections\//.test(x)))];
+const work=fu.map(u=>['fillamentum-'+u.split('/').filter(Boolean).at(-1),u]);
+for(const id of ['bronzefill','copperfill','steelfill','varioshore-tpu','lw-pla','pla-pha'])work.push(['colorfabb-'+id,'https://colorfabb.com/'+id]);
+work.push(['ipcon-ppa-cf','https://ipconpolymer.com/ppa-cf/']);
+await pool(work,async([id,u])=>{let h=await get(u,'09_SOURCES/private_html/'+id+'.html','html');if(!h)return;p.push({id,url:u,title:text(h.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]||id),text:text(h)});
+const img=[...new Set([...h.matchAll(/(?:href|src|data-src)=["']([^"']+\.(?:jpg|jpeg|png|webp)(?:\?[^"']*)?)["']/gi)].map(m=>new URL(dec(m[1]),u).href))].filter(x=>!/(logo|icon|flag|avatar|cookie|150x150)/i.test(x));
+await pool(img.slice(0,4),async u2=>get(u2,'04_REFERENCE_PHOTOS/'+id+'/'+decodeURIComponent(new URL(u2).pathname.split('/').at(-1)).replace(/[^a-zA-Z0-9_.-]/g,'_'),'image',u));
+const pdf=[...new Set([...h.matchAll(/href=["']([^"']+\.pdf(?:\?[^"']*)?)["']/gi)].map(m=>new URL(dec(m[1]),u).href))];
+await pool(pdf.filter(x=>!m.some(v=>v.url===x&&v.status==='downloaded')),async u2=>get(u2,'06_DATASHEETS/'+id+'/'+decodeURIComponent(new URL(u2).pathname.split('/').at(-1)).replace(/[^a-zA-Z0-9_.-]/g,'_'),'pdf',u));});
+await pool(['CopperFill','BronzeFill','SteelFill','LW-PLA','PLA-PHA','varioShore_TPU'],async id=>{let u='https://colorfabb.com/media/datasheets/tds/colorfabb/TDS_E_ColorFabb_'+id+'.pdf';await get(u,'06_DATASHEETS/colorfabb/TDS_'+id+'.pdf','pdf','https://colorfabb.com/print-support');});
+await get('https://ipconpolymer.com/wp-content/uploads/2026/03/IPCON-PPA-CF_TDS-Technical-Data-Sheet.pdf','06_DATASHEETS/ipcon-ppa-cf/IPCON-PPA-CF_TDS.pdf','pdf','https://ipconpolymer.com/');
+await fs.writeFile(path.join(root,'09_SOURCES/pages.json'),JSON.stringify(p,null,2));await fs.writeFile(path.join(root,'09_SOURCES/download-manifest.json'),JSON.stringify(m,null,2));console.log(JSON.stringify({sources:p.length,new:p.slice(107).map(x=>({id:x.id,title:x.title})),downloads:m.filter(x=>x.status==='downloaded').reduce((a,x)=>(a[x.kind]=(a[x.kind]||0)+1,a),{})},null,2));

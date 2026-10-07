@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-24 09:15:53 UTC",
+  "purpose": "Byte-identical flat copies of G01 r02 BEFORE index/sidecar, without recursive archive ingestion",
+  "source_snapshot": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\08_ARHIVA\\ROM-001-G01\\r02-before-audit",
+  "index_sha256": "9e56a988b419458fe942a894355c037771abd8cf49b38b0cc7b0f214e39e56e3",
+  "copies": [
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.json",
+      "sha256": "9e56a988b419458fe942a894355c037771abd8cf49b38b0cc7b0f214e39e56e3",
+      "same_as_source": true
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.sha256",
+      "sha256": "53b3eb9e58c7e1c01b7a35d847f272fd884395632953dacc7267de8b829b237b",
+      "same_as_source": true
+    }
+  ],
+  "verification": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-verification-r02.json",
+  "limits": "Index/entry checks and flat copying, not cold restoration or editorial acceptance."
+}

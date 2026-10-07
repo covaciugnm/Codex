@@ -1,0 +1,6 @@
+# Mandat calibrare A-GENRE, ROM-001
+ACTIVARE ACUM, numai exercițiu de calificare al rolului, nu audit productiv și nu producție G02+. Root D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000.
+Beneficiarul a cerut echipă de agenți specializați, auditați, și scrierea romanului complet conform atelierului. În paralel cu lectura G01 se pregătesc rolurile necesare etapelor următoare. Sarcina locală a coordonatorului rămâne integrarea G01; tu ai numai setul TEST.
+Citește integral 01_ECHIPA/A-GENRE.md, 00_CONDUCERE/MANUAL_ATELIER.md, 06_REGISTRU/CALIBRARE/SET_TEST_r02.md și 06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_r01.md.
+Răspunde la exact11cazuri: C01–C09 și A-GENRE-S01/S02, justificare proprie concisă și referință exactă. Salvează EXCLUSIV 06_REGISTRU/CALIBRARE/ROM-001/A-GENRE-r01.json prin apply_patch în schema din supliment. Folosește ID real al execuției, nu CODEX_SESSION_ID al managerului. Identitatea va fi înregistrată de manager după spawn. Nu scrie scoruri/audituri productive, nu citi manuscrisul, nu modifica altefișiere/site și nu crea subagenți. Cheia e deschisă, nu pretinde test orb sau certificare nativă umană. QA va verifica nominal; propria bifă qualified nu îi substituie controlul.
+Finalizează exercițiul acum, spune calea fișierului și limitele. Nu aștepta G01 pentru acest exercițiu, dar nu începe vreun audit de carte.

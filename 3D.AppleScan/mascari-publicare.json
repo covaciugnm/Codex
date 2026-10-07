@@ -1,0 +1,31 @@
+{
+  "local_originals_preserved": true,
+  "masked_files": [
+    {
+      "path": "Planifică aplicația iPhone 3D Scan/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Planifică aplicația iPhone 3D Scan/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--dea79c5e/istoric.json",
+      "masked_values": {
+        "aws_access_key": 1,
+        "signed_url_credential": 3
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--dea79c5e/rezultate.md",
+      "masked_values": {
+        "aws_access_key": 1,
+        "signed_url_credential": 3
+      }
+    }
+  ]
+}

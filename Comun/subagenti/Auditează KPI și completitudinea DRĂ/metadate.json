@@ -1,0 +1,23 @@
+{
+  "id": "01a0d2d8-4d5a-7bd0-a4e6-17ae00ad8d83",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790243786,
+  "updated_at": 1790245343,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a0d24f-a0c9-7482-b766-52c86c55aba7\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Meitner\",\"agent_role\":null}}}",
+  "title": "Auditează KPI și completitudinea DRĂ",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a0d24f-a0c9-7482-b766-52c86c55aba7",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1526377,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 9,
+  "message_count": 8,
+  "content_sha256": "5a374fefb5619db81b5a2c92fb684975d75fcb912f1b6b7efc3ef580b5beca90",
+  "files_copied": 1,
+  "references_not_copied": 0
+}

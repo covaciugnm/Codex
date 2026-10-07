@@ -1,0 +1,184 @@
+{
+  "recorded_at": "2026-10-02T14:05:44.201Z",
+  "phase": "customer_problem_redesign",
+  "status": "completed_public_site_verified",
+  "folders": {
+    "application": "../Aplicație",
+    "website": "."
+  },
+  "deployment": {
+    "host": "192.168.100.151",
+    "path": "/home/saga-server/site-uri/3dscan.eva-org.com/Site",
+    "bind": "127.0.0.1:4160",
+    "public_domain": "https://3dscan.eva-org.com",
+    "database": "postgresql",
+    "migrations": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "SITE-01",
+      "owner": "manager",
+      "result": "Original dossier moved to Aplicație; 59 tracked hashes unchanged",
+      "status": "done"
+    },
+    {
+      "id": "SITE-02",
+      "owner": "manager",
+      "result": "7 shared routes, responsive frontend, dynamic locale state",
+      "status": "done"
+    },
+    {
+      "id": "SITE-03",
+      "owner": "site_translations",
+      "result": "139 matching keys across 7 locales; 973 translated values",
+      "status": "done"
+    },
+    {
+      "id": "SITE-04",
+      "owner": "site_backend",
+      "result": "Docker, persistent PostgreSQL, read-only runtime, live messages and variables",
+      "status": "done"
+    },
+    {
+      "id": "SITE-05",
+      "owner": "site_assets/manager",
+      "result": "2 conceptual images with provenance, WebP optimization, EVA-inspired SVG identity",
+      "status": "done"
+    },
+    {
+      "id": "SITE-06",
+      "owner": "auditor_final",
+      "result": "5 findings fixed and reviewed",
+      "status": "done"
+    },
+    {
+      "id": "SITE-07",
+      "owner": "manager",
+      "result": "4 backend tests, 117 browser checks, 1 live-variable browser test passed",
+      "status": "done"
+    },
+    {
+      "id": "CLIENT-01",
+      "owner": "redesign_manager",
+      "result": "Brief, measurable acceptance criteria and final client → problem navigation specification",
+      "status": "done"
+    },
+    {
+      "id": "CLIENT-02",
+      "owner": "app_marketing",
+      "result": "Official competitor benchmarks; seven-language product copy and six customer segments",
+      "status": "done"
+    },
+    {
+      "id": "CLIENT-03",
+      "owner": "architect_v2",
+      "result": "Architect needs, spatial reference workflow and five acceptance criteria",
+      "status": "done"
+    },
+    {
+      "id": "CLIENT-04",
+      "owner": "designer_v2",
+      "result": "Interior designer needs, furniture/clearance diagram and five criteria",
+      "status": "done"
+    },
+    {
+      "id": "CLIENT-05",
+      "owner": "tradesperson_v2",
+      "result": "Tradesperson needs, temporary measurements/manual observations and five criteria",
+      "status": "done"
+    },
+    {
+      "id": "CLIENT-06",
+      "owner": "root",
+      "result": "Two stacked selectors, 36 problems, synchronized visual/result/module, six customer stories, three demos and FAQ",
+      "status": "done"
+    },
+    {
+      "id": "CLIENT-07",
+      "owner": "redesign_manager/root",
+      "result": "Four review findings fixed; 308 finder + 73 product + 145 browser + 42 campaign + 18 discovery checks passed; PostgreSQL/backend 8 passed; public SEO 5 passed",
+      "status": "done"
+    }
+  ],
+  "resume": "Read REDESIGN_CLIENTI_LIVRAT.md, CUSTOMER_FOCUS.md, AUDIT_REDESIGN_V2.md and RELUARE.md. Inspect current source and Docker state; other sessions also modify this repository.",
+  "next_optional_work": [
+    "User testing with real representatives of the customer groups",
+    "Physical iPhone Safari validation",
+    "Native language review",
+    "Native iPhone application implementation and accuracy validation"
+  ],
+  "iphone_application_implemented": false,
+  "redesign": {
+    "brand": "EVA-3dScan",
+    "campaign_images": 5,
+    "locales": 7,
+    "keys_per_locale": 190,
+    "tests": {
+      "backend": 4,
+      "browser": 117,
+      "redesign": 42,
+      "live_variable": 1
+    },
+    "audit": "accepted_scoped",
+    "report": "REDESIGN_LIVRAT.md",
+    "existing_auth_projects": "preserved"
+  },
+  "customer_redesign": {
+    "profiles": 6,
+    "personal_project_option": true,
+    "problems": 36,
+    "categories": 6,
+    "locales": 7,
+    "keys_per_locale": 454,
+    "selectors": [
+      "customer-profile",
+      "customer-problem"
+    ],
+    "reports": {
+      "customer-finder": {
+        "status": "passed",
+        "checks": 308,
+        "finished": "2026-10-02T14:03:01.769Z"
+      },
+      "product-v2": {
+        "status": "passed",
+        "checks": 73,
+        "finished": "2026-10-02T14:03:11.843Z"
+      },
+      "browser": {
+        "status": "passed",
+        "checks": 145,
+        "finished": "2026-10-02T14:03:29.830Z"
+      },
+      "redesign": {
+        "status": "passed",
+        "checks": 42,
+        "finished": "2026-10-02T14:03:50.455Z"
+      },
+      "discovery": {
+        "status": "passed",
+        "checks": 18,
+        "finished": "2026-10-02T14:03:56.073Z"
+      },
+      "public-seo": {
+        "status": "passed",
+        "checks": 5,
+        "finished": "2026-10-02T14:04:01.649Z"
+      }
+    },
+    "preserved": [
+      "approved logos and colors",
+      "existing portrait image",
+      "auth/project/native app translation APIs"
+    ],
+    "native_app_status": "in development; website examples synthetic",
+    "report": "REDESIGN_CLIENTI_LIVRAT.md"
+  }
+}

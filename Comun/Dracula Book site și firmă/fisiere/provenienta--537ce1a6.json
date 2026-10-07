@@ -1,0 +1,139 @@
+{
+  "reason": "Flat immutable reference copies for archival compatibility; originals unchanged; not new audits.",
+  "mapping": [
+    {
+      "from": "08_ARHIVA/RES-001/r01-after-audit/index.json",
+      "to": "06_REGISTRU/INTRARI_META_R02/RES-001_r01-after-audit_index.json",
+      "sha256": "272fddac266fcdb77b90087c11f6e673ba12b9dc8992b34945e1fb340626f351"
+    },
+    {
+      "from": "08_ARHIVA/RES-001/r01-after-audit/index.sha256",
+      "to": "06_REGISTRU/INTRARI_META_R02/RES-001_r01-after-audit_index.sha256",
+      "sha256": "0e856f7eb4169d613295e3dc554950523ae5f669ce2764d6917a909c20734ca4"
+    },
+    {
+      "from": "08_ARHIVA/RES-001/r02-before-audit/index.json",
+      "to": "06_REGISTRU/INTRARI_META_R02/RES-001_r02-before-audit_index.json",
+      "sha256": "588c124e472f5a14c7c1815ceefbcb8b20181b0cc14023225943ccb7f6138e4f"
+    },
+    {
+      "from": "08_ARHIVA/RES-001/r02-before-audit/index.sha256",
+      "to": "06_REGISTRU/INTRARI_META_R02/RES-001_r02-before-audit_index.sha256",
+      "sha256": "b86630e50dd24cfe503881c77d4af29e1c193502a632dd3bac29232de2db21a6"
+    },
+    {
+      "from": "08_ARHIVA/SEL-001/r01-after-audit/index.json",
+      "to": "06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.json",
+      "sha256": "140c741c34cb203211925d2c5ef76d0881c7bc343cc23798a6e9407e13b774ce"
+    },
+    {
+      "from": "08_ARHIVA/SEL-001/r01-after-audit/index.sha256",
+      "to": "06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.sha256",
+      "sha256": "dfab35f4cb43d8807ae8afa3834a7484bb4789604f2cc9ce010eb3d62bf8fb6b"
+    },
+    {
+      "from": "08_ARHIVA/SEL-001/r02-before-audit/index.json",
+      "to": "06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.json",
+      "sha256": "1523afcea486883f6c5ed64751498fba92379ebbf649091b44e052315e6c8210"
+    },
+    {
+      "from": "08_ARHIVA/SEL-001/r02-before-audit/index.sha256",
+      "to": "06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.sha256",
+      "sha256": "d203909c54f7e7364fa0ff7de754e87ba22d13c75ae438ee2b58db0bdb302dfb"
+    },
+    {
+      "from": "08_ARHIVA/SYS-001/r01-after-audit/index.json",
+      "to": "06_REGISTRU/INTRARI_META_R02/SYS-001_r01-after-audit_index.json",
+      "sha256": "d73d773429e3dce05c8fc9169672eb8e42c82829669cdb941dfe4b6aea3f496a"
+    },
+    {
+      "from": "08_ARHIVA/SYS-001/r01-after-audit/index.sha256",
+      "to": "06_REGISTRU/INTRARI_META_R02/SYS-001_r01-after-audit_index.sha256",
+      "sha256": "c7557fe9ece4e415449654cc96d8e0c850e088ef82f4d8a9979f09472f4ad4de"
+    },
+    {
+      "from": "08_ARHIVA/SYS-001/r02-before-audit/index.json",
+      "to": "06_REGISTRU/INTRARI_META_R02/SYS-001_r02-before-audit_index.json",
+      "sha256": "c2712ccd86e3431219a625bed43c807a46f4424c3adfafff4bfbe19df8158f9d"
+    },
+    {
+      "from": "08_ARHIVA/SYS-001/r02-before-audit/index.sha256",
+      "to": "06_REGISTRU/INTRARI_META_R02/SYS-001_r02-before-audit_index.sha256",
+      "sha256": "743a9abb95e24bcf0fa1557cdc984f35f4b431ebeba1e988c1a200c799f425cd"
+    }
+  ],
+  "verification": [
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/RES-001/r01-after-audit/index.json",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/RES-001_r01-after-audit_index.json",
+      "sha256": "272fddac266fcdb77b90087c11f6e673ba12b9dc8992b34945e1fb340626f351",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/RES-001/r01-after-audit/index.sha256",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/RES-001_r01-after-audit_index.sha256",
+      "sha256": "0e856f7eb4169d613295e3dc554950523ae5f669ce2764d6917a909c20734ca4",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/RES-001/r02-before-audit/index.json",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/RES-001_r02-before-audit_index.json",
+      "sha256": "588c124e472f5a14c7c1815ceefbcb8b20181b0cc14023225943ccb7f6138e4f",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/RES-001/r02-before-audit/index.sha256",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/RES-001_r02-before-audit_index.sha256",
+      "sha256": "b86630e50dd24cfe503881c77d4af29e1c193502a632dd3bac29232de2db21a6",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SEL-001/r01-after-audit/index.json",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.json",
+      "sha256": "140c741c34cb203211925d2c5ef76d0881c7bc343cc23798a6e9407e13b774ce",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SEL-001/r01-after-audit/index.sha256",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.sha256",
+      "sha256": "dfab35f4cb43d8807ae8afa3834a7484bb4789604f2cc9ce010eb3d62bf8fb6b",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SEL-001/r02-before-audit/index.json",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.json",
+      "sha256": "1523afcea486883f6c5ed64751498fba92379ebbf649091b44e052315e6c8210",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SEL-001/r02-before-audit/index.sha256",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.sha256",
+      "sha256": "d203909c54f7e7364fa0ff7de754e87ba22d13c75ae438ee2b58db0bdb302dfb",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SYS-001/r01-after-audit/index.json",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/SYS-001_r01-after-audit_index.json",
+      "sha256": "d73d773429e3dce05c8fc9169672eb8e42c82829669cdb941dfe4b6aea3f496a",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SYS-001/r01-after-audit/index.sha256",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/SYS-001_r01-after-audit_index.sha256",
+      "sha256": "c7557fe9ece4e415449654cc96d8e0c850e088ef82f4d8a9979f09472f4ad4de",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SYS-001/r02-before-audit/index.json",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/SYS-001_r02-before-audit_index.json",
+      "sha256": "c2712ccd86e3431219a625bed43c807a46f4424c3adfafff4bfbe19df8158f9d",
+      "bytes_identical": true
+    },
+    {
+      "source": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SYS-001/r02-before-audit/index.sha256",
+      "copy": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/INTRARI_META_R02/SYS-001_r02-before-audit_index.sha256",
+      "sha256": "743a9abb95e24bcf0fa1557cdc984f35f4b431ebeba1e988c1a200c799f425cd",
+      "bytes_identical": true
+    }
+  ]
+}

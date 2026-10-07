@@ -1,0 +1,23 @@
+{
+  "id": "01a0f65f-fbd7-7630-ae1d-50c4e5a77d5f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026 EU",
+  "created_at": 1790839880,
+  "updated_at": 1790845147,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Caută finanțări europene pentru RO",
+  "project_id": "ec58c433-8025-4835-8910-bab2f99b913f",
+  "project": "FinantariEU",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 3592658,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 121,
+  "message_count": 23,
+  "content_sha256": "22efad2c3ad28fcf6ba0187552ac19665b3617b5e5aa49d2ea90dc54ce082093",
+  "files_copied": 15,
+  "references_not_copied": 1
+}

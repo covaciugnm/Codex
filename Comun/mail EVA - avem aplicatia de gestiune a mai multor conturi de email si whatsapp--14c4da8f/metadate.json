@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9ce4-7991-8048-adc614c4da8f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788770193,
+  "updated_at": 1788770222,
+  "archived": 0,
+  "source": "vscode",
+  "title": "mail EVA - avem aplicatia de gestiune a mai multor conturi de email si whatsapp si doresc sa o conectex la Claude pot...",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 26120,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 3,
+  "message_count": 3,
+  "content_sha256": "e5a16dff5ea9b73bc8189ed95cf801b1abddd5c2235acfe18bf10bf1b53af1a9",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

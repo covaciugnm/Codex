@@ -1,0 +1,65 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/AUDIT-DRACULA-FOOD.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT-DRACULA-FOOD--7660b874.md",
+    "bytes": 8293,
+    "sha256": "012004a6dd641016974813e44c4c012f3cfcc0194e0bf3e62d084412bbd63a89"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\AUDIT-DRACULA-FOOD.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT-DRACULA-FOOD--7660b874.md",
+    "bytes": 8293,
+    "sha256": "012004a6dd641016974813e44c4c012f3cfcc0194e0bf3e62d084412bbd63a89"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\audit-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-mobile--b3d47044.png",
+    "bytes": 305455,
+    "sha256": "96ea0501e0eb4bef7473ecd31d9c6a669e5e5608519b9525f4e6ae1aac4621c8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-food-accessibility.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-food-accessibility--464a4944.cjs",
+    "bytes": 1736,
+    "sha256": "b21cdbe73dfa4390d36539919a1aa574eb916024c6d6b0ae501b60cdcd65f536"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-food-api.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-food-api--29f3c161.cjs",
+    "bytes": 3954,
+    "sha256": "51f77a3ad1e829146aade1b87adba4201591d3eb42200272cffe1844aa9e5d7c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-food-enrichment.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-food-enrichment--8658d39c.cjs",
+    "bytes": 5973,
+    "sha256": "b666f8bc89339e29d1899175ee3f5041eaf980b16e5f21fd28fa2bfc7dd5a221"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-food-regression.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-food-regression--44138a7b.cjs",
+    "bytes": 4052,
+    "sha256": "69372ba142570476847d5081de9fbf0875e54cf61be03a554f1b4fd2d9c92ace"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-food-usda.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-food-usda--f2aefda7.cjs",
+    "bytes": 1466,
+    "sha256": "77de82707feb03fc5d9efaab28fbfe573c2bea6897706bfc66ad90dfe0e28623"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-food.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-food--aa6debf0.cjs",
+    "bytes": 6373,
+    "sha256": "937e4dc5f2cd87cabcf4e1d017793675c63bef793d46acede8ea44c6d88e0123"
+  }
+]

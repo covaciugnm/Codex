@@ -1,0 +1,158 @@
+[
+  {
+    "source_reference": "C:/Program Files/LibreOffice/program/soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b8a8b3d-5541-418e-8c40-1ab3461ab05e/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/4b8a8b3d-5541-418e-8c40-1ab3461ab05e/scratchpad/verify_me",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/361ccaf4-827d-4316-ba15-7a658bd3c67f/3da5ff7c-afad-4234-85ad-a094f34bebac/skills/docx/scripts/office/validate.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Microsoft Office",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Microsoft Office",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\4b8a8b3d-5541-418e-8c40-1ab3461ab05e\\scratchpad\\diagrams.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\4b8a8b3d-5541-418e-8c40-1ab3461ab05e\\scratchpad\\verify_C\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\4b8a8b3d-5541-418e-8c40-1ab3461ab05e\\scratchpad\\verify_C\\page*.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\4b8a8b3d-5541-418e-8c40-1ab3461ab05e\\\\scratchpad\\\\diagrams.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\03 - Justificare Tehnica Comparativa - TITAN-12 Blackwell AI Rack System vs Server AI initial (Supermicro 4x H200) v3.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/03 - Justificare Tehnica Comparativa - TITAN-12 Blackwe--bfcc4f59.docx",
+    "bytes": 352020,
+    "sha256": "202df854831e9f21a1c7a5d5d99b12b7c071df170633cae0902cecd65e6c2965"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\03 - Justificare Tehnica Comparativa - TITAN-12 Blackwell AI Rack System vs Server AI initial (Supermicro 4x H200).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/03 - Justificare Tehnica Comparativa - TITAN-12 Blackwe--51e83de2.docx",
+    "bytes": 413180,
+    "sha256": "13776acce3a91f6520eee386eb545fff9d6f00701065c4fc20fff9ee65bf466c"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\Original - BILL OF MATERIALS 12xLenovo.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Original - BILL OF MATERIALS 12xLenovo--c2e1d075.docx",
+    "bytes": 18569,
+    "sha256": "541f34652f70d12760cb5ba5b02cbb1df85935ab8e07e663a87206ba5194ceda"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\Original OFERTĂ COMERCIALĂ ȘI CONFIGURAȚIE INTEGRALĂ LA NIVEL DE RACK (RACK-SCALE SYSTEM).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Original OFERTĂ COMERCIALĂ ȘI CONFIGURAȚIE INTEGRALĂ LA--13a994e4.docx",
+    "bytes": 20443,
+    "sha256": "c0987f41324084c80a47468e5d412241683d8ce7407716494540be4713f0ea3d"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\Server AI .jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/Server AI--fe36c8ca.jpeg",
+    "bytes": 74912,
+    "sha256": "6e171e8fae3dd36a4713e3bb5c3529f3ac1e3a06994bca74c3dd75877301ba5f"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackwell AI Rack System (preturi si linkuri RO-EU) v2.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackw--de1daca1.docx",
+    "bytes": 66458,
+    "sha256": "772160a71e77bf1fb969a9b84aaa1d0a48009116caf6c4789fc1125f500009e2"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackwell AI Rack System (preturi si linkuri RO-EU).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackw--0795d0dd.docx",
+    "bytes": 67399,
+    "sha256": "e621104c66b955ce484831693f19e6483633b83f2e17d0d8a1dbae2a54b0e10e"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\02 - Fisa Tehnica si Prezentare - TITAN-12 Blackwell AI Rack System.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/02 - Fisa Tehnica si Prezentare - TITAN-12 Blackwell AI--11730676.docx",
+    "bytes": 821754,
+    "sha256": "6b351735399cbaae0a70e136af54520b26cf3b4cec8d4cd8acf5976be9a288cc"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\03 - Justificare Tehnica Comparativa - TITAN-12 Blackwell AI Rack System vs Server AI initial (Supermicro 4x H200) v2.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/03 - Justificare Tehnica Comparativa - TITAN-12 Blackwe--44b157d6.docx",
+    "bytes": 352104,
+    "sha256": "3e98e7972af61be9cf9163d6df6a45bec315a5d462c0cd9da946101b3ea2ab3b"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\03 - Justificare Tehnica Comparativa - TITAN-12 Blackwell AI Rack System vs Server AI initial (Supermicro 4x H200) v3.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/03 - Justificare Tehnica Comparativa - TITAN-12 Blackwe--bfcc4f59.docx",
+    "bytes": 352020,
+    "sha256": "202df854831e9f21a1c7a5d5d99b12b7c071df170633cae0902cecd65e6c2965"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\03 - Justificare Tehnica Comparativa - TITAN-12 Blackwell AI Rack System vs Server AI initial (Supermicro 4x H200).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/03 - Justificare Tehnica Comparativa - TITAN-12 Blackwe--51e83de2.docx",
+    "bytes": 413180,
+    "sha256": "13776acce3a91f6520eee386eb545fff9d6f00701065c4fc20fff9ee65bf466c"
+  },
+  {
+    "source_reference": "\\\\)|^(USB-C|SRCOOL|măsurare|\\\\+ HVAC|max 7)",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\[eval]",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\n",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

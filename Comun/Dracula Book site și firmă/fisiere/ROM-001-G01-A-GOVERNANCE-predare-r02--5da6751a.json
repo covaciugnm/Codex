@@ -1,0 +1,7 @@
+{
+  "agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "role": "A-GOVERNANCE",
+  "previous_status": {
+    "completed": "PASS individual r02: acoperire **964**, canon **965**, contradicții **963**, mandat **974**, trasabilitate **972** /1000. Zero constatări materiale noi deschise.\n\nVerificarea finală: **264 hashuri și 39 referințe conforme**; BEFORE **848/848**. Lectură directă H: 973 paragrafe, nu întregul manuscris.\n\nFișiere finale:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.md>)  \n  SHA256: `8d2e056f446f0f3764c4d5f48d5586a49caa7f7693e655629065a6a7ad85cd35`\n- [Audit JSON](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.json>)  \n  SHA256: `e9663c922e1382b7960b4f328f58290e38c46a46d6fd42b178a193a6cb06f3a9`\n- [Controale proprii](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE-CONTROLES.json>)  \n  SHA256: `01aece8043ab3fd8460e995de35e97e260e433e8b01129ceedcf420b6819d28f`\n\nOmisiunea r01 este recunoscută și retestată. Nu am închis constatările CANON/QA și nu declar G01 acceptat cumulativ.\n\n**Scrierile sunt oprite.** Produsele și rapoartele istorice au rămas nemodificate."
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "author": "doctoral_apple_perception",
+  "scope": "Capitolele 03, 04, 05; rezumate si linkuri primare, fara reproducerea articolelor",
+  "sources": [
+    {
+      "id": "A01",
+      "title": "ObjectCaptureSession",
+      "url": "https://developer.apple.com/documentation/realitykit/objectcapturesession",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Captura ghidata si reconstructia fotogrammetrica sunt faze distincte.",
+      "verification": "text",
+      "limitations": "Nu demonstreaza suportul tuturor dispozitivelor."
+    },
+    {
+      "id": "A02",
+      "title": "ObjectCaptureSession.isSupported",
+      "url": "https://developer.apple.com/documentation/realitykit/objectcapturesession/issupported",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Verificarea obligatorie inainte de creare; false poate conduce la eroare runtime.",
+      "verification": "text",
+      "limitations": "De verificat si versiunea SDK/OS."
+    },
+    {
+      "id": "A03",
+      "title": "PhotogrammetrySession.isSupported",
+      "url": "https://developer.apple.com/documentation/realitykit/photogrammetrysession/issupported",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Reconstruirea locala are propria verificare hardware.",
+      "verification": "text",
+      "limitations": "Nu este benchmark de performanta."
+    },
+    {
+      "id": "A04",
+      "title": "RoomCaptureSession.isSupported",
+      "url": "https://developer.apple.com/documentation/RoomPlan/RoomCaptureSession/isSupported",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Suportul RoomPlan depinde de LiDAR conform descrierii API.",
+      "verification": "text",
+      "limitations": "Suportul API nu certifica precizie."
+    },
+    {
+      "id": "A05",
+      "title": "ARFrame.sceneDepth",
+      "url": "https://developer.apple.com/documentation/arkit/arframe/scenedepth",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Activare frameSemantics; verificare supportsFrameSemantics; date LiDAR.",
+      "verification": "text",
+      "limitations": "Nu este camera frontala TrueDepth."
+    },
+    {
+      "id": "A06",
+      "title": "ARDepthData.confidenceMap",
+      "url": "https://developer.apple.com/documentation/arkit/ardepthdata/confidencemap",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Niveluri de incredere per pixel si sensibilitate la material/lumina.",
+      "verification": "text",
+      "limitations": "Nivelurile nu sunt intervale metrice de incertitudine."
+    },
+    {
+      "id": "A07",
+      "title": "StructureBuilder.capturedStructure(from:)",
+      "url": "https://developer.apple.com/documentation/roomplan/structurebuilder/capturedstructure%28from%3A%29",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Camere cu spatiu comun; ARSession continuu sau ARWorldMap relocalizat.",
+      "verification": "text",
+      "limitations": "Relocalizarea trebuie verificata; nu dovedeste cote."
+    },
+    {
+      "id": "A08",
+      "title": "Scanning the rooms of a single structure",
+      "url": "https://developer.apple.com/documentation/roomplan/scanning-the-rooms-of-a-single-structure",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Combinarea mai multor camere; documentatia descrie si etaje.",
+      "verification": "text",
+      "limitations": "Proiectul EVA pastreaza etaje reale in P2 cu validare proprie."
+    },
+    {
+      "id": "A09",
+      "title": "ARMeshAnchor",
+      "url": "https://developer.apple.com/documentation/arkit/armeshanchor",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Actualizarea meshului nu este destinata reflectarii in timp real a miscarilor mediului.",
+      "verification": "text",
+      "limitations": "Nu se foloseste ca singur flux pentru obstacole dinamice."
+    },
+    {
+      "id": "A10",
+      "title": "Using a reference object with ARKit in iOS",
+      "url": "https://developer.apple.com/documentation/visionos/using-a-reference-object-with-arkit-in-ios",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Pagina consultata declara iOS27+, max10 referenceobjects si incompatibilitate cu arobject in aceeasi sesiune.",
+      "verification": "text",
+      "limitations": "Dependenta conditionata; verificare SDK/OS si disponibilitate finala necesara."
+    },
+    {
+      "id": "A11",
+      "title": "ARGeoTrackingConfiguration.trackingObjects",
+      "url": "https://developer.apple.com/documentation/arkit/argeotrackingconfiguration/trackingobjects",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Pagina asociata noii functii etichetata Beta; consum suplimentar si format nou.",
+      "verification": "text",
+      "limitations": "Nu se extrapoleaza toate capabilitatile Geo/visionOS la world tracking."
+    },
+    {
+      "id": "A12",
+      "title": "videoDeviceNotAvailableInBackground",
+      "url": "https://developer.apple.com/documentation/avfoundation/avcapturesession/interruptionreason/videodevicenotavailableinbackground",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Camera este intrerupta in fundal in scenariul normal descris.",
+      "verification": "text",
+      "limitations": "Exceptiile unor platforme/moduri nu sunt revendicate de proiect."
+    },
+    {
+      "id": "A13",
+      "title": "RoomCaptureSession.CaptureError",
+      "url": "https://developer.apple.com/documentation/roomplan/roomcapturesession/captureerror",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Erori termice, configuratie, dimensiune scena, tracking.",
+      "verification": "text",
+      "limitations": "Pragurile interne Apple nu sunt prezentate drept cunoscute."
+    },
+    {
+      "id": "A14",
+      "title": "VNGenerateForegroundInstanceMaskRequest",
+      "url": "https://developer.apple.com/documentation/vision/vngenerateforegroundinstancemaskrequest",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Produce masti de instante de prim-plan.",
+      "verification": "text",
+      "limitations": "Nu implica identitate sau pozitie 6D."
+    },
+    {
+      "id": "A15",
+      "title": "AprilTag official repository",
+      "url": "https://github.com/AprilRobotics/apriltag",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Estimarea pozitiei markerului cu dimensiuni si calibrare camera.",
+      "verification": "text",
+      "limitations": "Markerul utilizat in estimare nu poate fi singura referinta independenta."
+    },
+    {
+      "id": "A16",
+      "title": "OpenCV Perspective-n-Point",
+      "url": "https://docs.opencv.org/4.13.0/d5/d1f/calib3d_solvePnP.html",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Corespondente 3D-2D, conventia obiect-catre-camera, metode PnP si RANSAC.",
+      "verification": "text",
+      "limitations": "Rezultatul necesita validare; unele metode au ambiguitati."
+    },
+    {
+      "id": "A17",
+      "title": "Open3D ICP registration",
+      "url": "https://www.open3d.org/docs/release/tutorial/pipelines/icp_registration.html",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Rafinare ICP cu aliniere initiala, point-to-point si point-to-plane.",
+      "verification": "text",
+      "limitations": "Convergenta locala si reziduu mic nu garanteaza adevar geometric."
+    },
+    {
+      "id": "A18",
+      "title": "FoundationPose official repository",
+      "url": "https://github.com/NVlabs/FoundationPose",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Candidat pentru estimare si tracking 6D; implementare cu dependinte CUDA/GPU.",
+      "verification": "text",
+      "limitations": "Nu este SDK iOS; licentele activelor si performanta trebuie auditate."
+    },
+    {
+      "id": "A19",
+      "title": "Swift Concurrency",
+      "url": "https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Tasks, actors, izolare si anulare cooperativa.",
+      "verification": "text",
+      "limitations": "Nu ofera garantie hard realtime."
+    },
+    {
+      "id": "A20",
+      "title": "Swift TaskGroup",
+      "url": "https://docs.swift.org/latest/documentation/swift/taskgroup/",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Asteptarea finalizarii copiilor; cancelAll semnaleaza anularea, nu intrerupe automat.",
+      "verification": "text",
+      "limitations": "Nu descrie anularea fortata a operatiei GPU."
+    },
+    {
+      "id": "A21",
+      "title": "Improve Core ML integration with async prediction WWDC23",
+      "url": "https://developer.apple.com/videos/play/wwdc2023/10049/",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Inferenta asincrona concurenta; castigul depinde de model si hardware.",
+      "verification": "text",
+      "limitations": "Viteza demonstratiei Apple nu este transferata proiectului."
+    },
+    {
+      "id": "A22",
+      "title": "TN2445 Handling Frame Drops",
+      "url": "https://developer.apple.com/library/archive/technotes/tn2445/_index.html",
+      "accessed_at": "2026-10-02 17:13:25 UTC",
+      "claim": "Buffer retention, frame drops, latest-frame scheduling in AVCaptureVideoDataOutput.",
+      "verification": "text",
+      "limitations": "Document arhivat; principiul nu expune automat aceleasi optiuni in ARKit."
+    }
+  ]
+}

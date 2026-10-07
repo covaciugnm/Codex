@@ -1,0 +1,1027 @@
+# Rezultate — Găsește emailurile din Eva
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## Asistent
+
+La ce „Eva” te referi? Trimite linkul site-ului sau numele aplicației/documentului în care sunt adresele de email.
+
+## Asistent
+
+La ce „Eva” te referi? Trimite-mi linkul site-ului sau numele aplicației/documentului, ca să găsesc adresele de email.
+
+## Asistent
+
+Caut în Eva-Mail lista adreselor de email și un link către ea.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-8ea0236a-ef46-49c4-b981-d41516924172",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_contacts",
+  "status": "completed",
+  "arguments": {
+    "query": "",
+    "limit": 50
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6aa3eb0547bc8191b7ffad8b395315af",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_contacts"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"43118626-d9e3-4d54-9e6e-064c0119326c\",\n      \"name\": \"-\",\n      \"email\": \"albanews1@yahoo.com\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"ee31dbe4-550a-487a-880c-0e9597a6398c\",\n      \"name\": \"100\",\n      \"email\": null,\n      \"phone\": \"0743037351\",\n      \"company\": null\n    },\n    {\n      \"id\": \"833bf717-940b-4db7-b5e2-68a998160aab\",\n      \"name\": \"13\",\n      \"email\": null,\n      \"phone\": \"839555\",\n      \"company\": null\n    },\n    {\n      \"id\": \"0f6f3d88-5b55-44b6-a891-97561bcaf399\",\n      \"name\": \"2\",\n      \"email\": \"jelen@protech.ro\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"a830c236-cc85-472d-82ec-78b7f1d7f391\",\n      \"name\": \"2.15 adm\",\n      \"email\": null,\n      \"phone\": \"0745430260\",\n      \"company\": null\n    },\n    {\n      \"id\": \"42d2fd64-047a-43d1-9181-82b2fe4142fe\",\n      \"name\": \"2500 IDEI PENTRU CASA VISURILOR\",\n      \"email\": \"casavisurilor@yahoo.com\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"79436b76-e36f-4c3d-8850-dc6c7b41a78a\",\n      \"name\": \"285015Km281I9461\",\n      \"email\": \"285015km281i9461@extenddraftingsolutions.com\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"7d07d0eb-b76b-4028-974f-bddac3ba8ad0\",\n      \"name\": \"3D Home Printer China Imprimanta Casa\",\n      \"email\": null,\n      \"phone\": \"00 86 187 1114 6837\",\n      \"company\": null\n    },\n    {\n      \"id\": \"51d22296-c361-46c3-a86b-bc9a94eeacf2\",\n      \"name\": \"4550\",\n      \"email\": null,\n      \"phone\": \"1189\",\n      \"company\": null\n    },\n    {\n      \"id\": \"54f14018-3e3a-4408-959a-79d8a6b8e341\",\n      \"name\": \"55Z910Km55Fp7062\",\n      \"email\": \"55z910km55fp7062@albayan.org.au\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"d93c10ab-1b6f-44ff-b48b-9126b4ed5cab\",\n      \"name\": \"7408\",\n      \"email\": null,\n      \"phone\": \"1011\",\n      \"company\": null\n    },\n    {\n      \"id\": \"fa8b8a20-d137-497c-9e3e-c6304b398a95\",\n      \"name\": \"79er 450SL Cabrio\",\n      \"email\": null,\n      \"phone\": \"00 49 178 3328226\",\n      \"company\": null\n    },\n    {\n      \"id\": \"6de8c5be-76e5-4b83-8ce8-537f5ee37e9d\",\n      \"name\": \"7 Usi\",\n      \"email\": null,\n      \"phone\": \"0748 115 987\",\n      \"company\": null\n    },\n    {\n      \"id\": \"72fe1304-5e1c-4496-a806-5af2efe6c39d\",\n      \"name\": \"A Abido Carport Kassel Porsche Turbo S\",\n      \"email\": null,\n      \"phone\": \"+4915901697000\",\n      \"company\": null\n    },\n    {\n      \"id\": \"3d37d13b-3d74-448e-aac9-8e2bdcaa631d\",\n      \"name\": \"A Abido Carport Kassel Porsche Turbo S\",\n      \"email\": null,\n      \"phone\": \"+4915901697000\",\n      \"company\": null\n    },\n    {\n      \"id\": \"8e998e42-b9e3-4104-88b7-88144255b3b4\",\n      \"name\": \"Aaron Chung\",\n      \"email\": \"aaron@estar-evchargers.com\",\n      \"phone\": \"+8615345251057\",\n      \"company\": \"BDM – Europe\"\n    },\n    {\n      \"id\": \"746154a1-5c7e-49bd-a977-e2f8fb51c03e\",\n      \"name\": \"Aazzfj6Mf5S6U7Sy29Zbwluqglwzwmucm8=Aazzfj6Mf5S6U7S\",\n      \"email\": \"aazzfj6mf5s6u7sy29zbwluqglwzwmucm8=aazzfj6mf5s6u7s@nikamgroup.in\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"cd5d557a-37a8-4ef1-abf4-b66c4a5538f3\",\n      \"name\": \"Ababei\",\n      \"email\": null,\n      \"phone\": \"+40722202661\",\n      \"company\": null\n    },\n    {\n      \"id\": \"48a256ca-e411-436f-b3b0-79947415ff98\",\n      \"name\": \"Abalasei Fier\",\n      \"email\": \"abalaseifier@yahoo.com\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"631e86d5-b01e-4c48-b71c-7bc4c1b35ac0\",\n      \"name\": \"Abalasei Usi Fier Forjat\",\n      \"email\": null,\n      \"phone\": \"+40724086113\",\n      \"company\": null\n    },\n    {\n      \"id\": \"8a5e6036-6e85-40ce-8c13-d8937926c8dd\",\n      \"name\": \"Ab-B09\",\n      \"email\": \"ab-b09@ma06.wien.gv.at\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"b9912518-8259-410a-97e2-f6e39669bf94\",\n      \"name\": \" Abby\",\n      \"email\": \"adelaide@winqlresearch.com\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"b8a72f0c-66d8-4734-b785-71a52dec2641\",\n      \"name\": \"Abhidpc\",\n      \"email\": \"abhidpc@marashostel.gb.net\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"4fd0dca5-b7a5-4d88-996b-9d9a3b1c58ad\",\n      \"name\": \"Abhijeet Bhandare\",\n      \"email\": \"raut.anushri@theindustryinsight.com\",\n      \"phone\": null,\n      \"company\": \"Business Executive\"\n    },\n    {\n      \"id\": \"60442390-1926-49c1-8da3-ff423257d026\",\n      \"name\": \"Abrudan Simona Mariana\",\n      \"email\": null,\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"3a4b6664-e6b0-4f58-b159-97170046bbca\",\n      \"name\": \"Abrud Ok\",\n      \"email\": null,\n      \"phone\": \"0758816910\",\n      \"company\": null\n    },\n    {\n      \"id\": \"2fc21aca-2318-4ba9-92ec-bbc55e43b619\",\n      \"name\": \"Abrud Primar\",\n      \"email\": null,\n      \"phone\": \"0258780519\",\n      \"company\": null\n    },\n    {\n      \"id\": \"478fe50c-f2b0-46e9-8317-0c07b7601c36\",\n      \"name\": \"Acasa\",\n      \"email\": null,\n      \"phone\": \"(0258) 833 240\",\n      \"company\": null\n    },\n    {\n      \"id\": \"44f902a8-6244-440a-9abe-f6ac3f82cba1\",\n      \"name\": \"Accident Geaogiu\",\n      \"email\": null,\n      \"phone\": \"(0745) 360 617\",\n      \"company\": null\n    },\n    {\n      \"id\": \"36eef8c5-a72c-4d8a-9f27-b7a83eb1880a\",\n      \"name\": \"A&C Cosmin Covaciu\",\n      \"email\": \"office@ac-wohnart.at\",\n      \"phone\": \"+4366567055045\",\n      \"company\": \"Geschäftsführer\"\n    },\n    {\n      \"id\": \"fd697fbc-86b0-4fc4-9bf9-cbe58762b9f6\",\n      \"name\": \"Account-Update\",\n      \"email\": \"account-update@amazon.co.uk\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"145e31e9-2e52-47f3-bdb9-a8845c890c70\",\n      \"name\": \"Account-Update\",\n      \"email\": \"account-update@amazon.com\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"1b653624-a16b-49d3-adf7-6c558dbde5d1\",\n      \"name\": \"Account-Update\",\n      \"email\": \"account-update@amazon.de\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"94685e02-ddf1-4ba9-8b59-825f40a07020\",\n      \"name\": \"ACoR Damian Ghita\",\n      \"email\": null,\n      \"phone\": \"0722 457 299\",\n      \"company\": null\n    },\n    {\n      \"id\": \"d3b960e1-cd94-4eb4-b0a7-2f47b0de12fc\",\n      \"name\": \"Actor\",\n      \"email\": null,\n      \"phone\": \"0744369377\",\n      \"company\": null\n    },\n    {\n      \"id\": \"354c58e8-0c10-4da5-b4f6-c1c3914551ea\",\n      \"name\": \"Actualitati\",\n      \"email\": \"dorincorpade@yahoo.com\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"3dc203fc-a824-443c-a15d-f56c7da76e3b\",\n      \"name\": \"Actualizare Harti Carplay Sibiu\",\n      \"email\": null,\n      \"phone\": \"+40753391343\",\n      \"company\": null\n    },\n    {\n      \"id\": \"4f34a0b6-11cd-40fd-ab62-0fccfba9b2f0\",\n      \"name\": \"Actualizare Harti Porsche Andrei Car Play Bucuresti\",\n      \"email\": null,\n      \"phone\": \"+40770920754\",\n      \"company\": null\n    },\n    {\n      \"id\": \"de03dde7-5c26-441a-8bee-fdee5e714aac\",\n      \"name\": \"Actualizare Harti Porsche Cosmin Nechita Car Play Brasov\",\n      \"email\": null,\n      \"phone\": \"+40724975501\",\n      \"company\": null\n    },\n    {\n      \"id\": \"2c256a04-3edb-40eb-a48d-cefe1ad90903\",\n      \"name\": \"A&C Wohnart Immobilien GmbH\",\n      \"email\": \"samm@ma48.wien.gv.at\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"7f98791d-612f-4062-9109-a67d7980e7ab\",\n      \"name\": \"Ada Ene\",\n      \"email\": null,\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"703d52d8-3ad2-4f81-92dd-d321e77c2989\",\n      \"name\": \"Adam\",\n      \"email\": \"contest@doga.jp\",\n      \"phone\": null,\n      \"company\": \"Investment Broker\"\n    },\n    {\n      \"id\": \"1f26c110-e8c7-42c4-b33f-cc63151d95dd\",\n      \"name\": \"Adam\",\n      \"email\": \"news@fireballeu.com\",\n      \"phone\": null,\n      \"company\": null\n    },\n    {\n      \"id\": \"4830d26e-4d5e-4352-8c16-4de2f91eb0d4\",\n      \"name\": \"Adam Henryk Grzywaczewski\",\n      \"email\": \"adamggtc@nvidia.com\",\n      \"phone\": null,\n      \"company\": \"Director of AI and Physical AI Segment\"\n    },\n    {\n      \"id\": \"88a11fb3-9d47-4f12-acc1-44f4d81b1c86\",\n      \"name\": \"Adam Kaparos Kythnos\",\n      \"email\": null,\n      \"phone\": \"+30 694 4222332\",\n      \"company\": null\n    },\n    {\n      \"id\": \"cdc0f199-86d5-4dc6-bea2-232b7ee168e8\",\n      \"name\": \"Ada Nemety\",\n      \"email\": \"nemetyada@yahoo.com\",\n      \"phone\": \"+40735152003\",\n      \"company\": null\n    },\n    {\n      \"id\": \"d6fd42ef-c27c-4a74-b1c7-19f9813a29a4\",\n      \"name\": \"Ada Sandu Inspectorat\",\n      \"email\": null,\n      \"phone\": \"+40757136373\",\n      \"company\": null\n    },\n    {\n      \"id\": \"89a41eed-35e2-4bd9-a978-ede6dc7760c4\",\n      \"name\": \"ADELA\",\n      \"email\": null,\n      \"phone\": \"0744 386 067\",\n      \"company\": null\n    },\n    {\n      \"id\": \"7bbf2dbf-0acb-4464-8a14-de6fa74f9ad9\",\n      \"name\": \"Adela Apostol\",\n      \"email\": \"adela.apostol@reveal.ro\",\n      \"phone\": \"+40751048838\",\n      \"company\": \"Client Service Manager\"\n    },\n    {\n      \"id\": \"4899d6e6-8ef0-40ce-9cfc-ad8988e71761\",\n      \"name\": \"Adela Cipri\",\n      \"email\": null,\n      \"phone\": \"0747291760\",\n      \"company\": null\n    }\n  ],\n  \"total\": 50\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "43118626-d9e3-4d54-9e6e-064c0119326c",
+          "name": "-",
+          "email": "albanews1@yahoo.com",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "ee31dbe4-550a-487a-880c-0e9597a6398c",
+          "name": "100",
+          "email": null,
+          "phone": "0743037351",
+          "company": null
+        },
+        {
+          "id": "833bf717-940b-4db7-b5e2-68a998160aab",
+          "name": "13",
+          "email": null,
+          "phone": "839555",
+          "company": null
+        },
+        {
+          "id": "0f6f3d88-5b55-44b6-a891-97561bcaf399",
+          "name": "2",
+          "email": "jelen@protech.ro",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "a830c236-cc85-472d-82ec-78b7f1d7f391",
+          "name": "2.15 adm",
+          "email": null,
+          "phone": "0745430260",
+          "company": null
+        },
+        {
+          "id": "42d2fd64-047a-43d1-9181-82b2fe4142fe",
+          "name": "2500 IDEI PENTRU CASA VISURILOR",
+          "email": "casavisurilor@yahoo.com",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "79436b76-e36f-4c3d-8850-dc6c7b41a78a",
+          "name": "285015Km281I9461",
+          "email": "285015km281i9461@extenddraftingsolutions.com",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "7d07d0eb-b76b-4028-974f-bddac3ba8ad0",
+          "name": "3D Home Printer China Imprimanta Casa",
+          "email": null,
+          "phone": "00 86 187 1114 6837",
+          "company": null
+        },
+        {
+          "id": "51d22296-c361-46c3-a86b-bc9a94eeacf2",
+          "name": "4550",
+          "email": null,
+          "phone": "1189",
+          "company": null
+        },
+        {
+          "id": "54f14018-3e3a-4408-959a-79d8a6b8e341",
+          "name": "55Z910Km55Fp7062",
+          "email": "55z910km55fp7062@albayan.org.au",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "d93c10ab-1b6f-44ff-b48b-9126b4ed5cab",
+          "name": "7408",
+          "email": null,
+          "phone": "1011",
+          "company": null
+        },
+        {
+          "id": "fa8b8a20-d137-497c-9e3e-c6304b398a95",
+          "name": "79er 450SL Cabrio",
+          "email": null,
+          "phone": "00 49 178 3328226",
+          "company": null
+        },
+        {
+          "id": "6de8c5be-76e5-4b83-8ce8-537f5ee37e9d",
+          "name": "7 Usi",
+          "email": null,
+          "phone": "0748 115 987",
+          "company": null
+        },
+        {
+          "id": "72fe1304-5e1c-4496-a806-5af2efe6c39d",
+          "name": "A Abido Carport Kassel Porsche Turbo S",
+          "email": null,
+          "phone": "+4915901697000",
+          "company": null
+        },
+        {
+          "id": "3d37d13b-3d74-448e-aac9-8e2bdcaa631d",
+          "name": "A Abido Carport Kassel Porsche Turbo S",
+          "email": null,
+          "phone": "+4915901697000",
+          "company": null
+        },
+        {
+          "id": "8e998e42-b9e3-4104-88b7-88144255b3b4",
+          "name": "Aaron Chung",
+          "email": "aaron@estar-evchargers.com",
+          "phone": "+8615345251057",
+          "company": "BDM – Europe"
+        },
+        {
+          "id": "746154a1-5c7e-49bd-a977-e2f8fb51c03e",
+          "name": "Aazzfj6Mf5S6U7Sy29Zbwluqglwzwmucm8=Aazzfj6Mf5S6U7S",
+          "email": "aazzfj6mf5s6u7sy29zbwluqglwzwmucm8=aazzfj6mf5s6u7s@nikamgroup.in",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "cd5d557a-37a8-4ef1-abf4-b66c4a5538f3",
+          "name": "Ababei",
+          "email": null,
+          "phone": "+40722202661",
+          "company": null
+        },
+        {
+          "id": "48a256ca-e411-436f-b3b0-79947415ff98",
+          "name": "Abalasei Fier",
+          "email": "abalaseifier@yahoo.com",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "631e86d5-b01e-4c48-b71c-7bc4c1b35ac0",
+          "name": "Abalasei Usi Fier Forjat",
+          "email": null,
+          "phone": "+40724086113",
+          "company": null
+        },
+        {
+          "id": "8a5e6036-6e85-40ce-8c13-d8937926c8dd",
+          "name": "Ab-B09",
+          "email": "ab-b09@ma06.wien.gv.at",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "b9912518-8259-410a-97e2-f6e39669bf94",
+          "name": " Abby",
+          "email": "adelaide@winqlresearch.com",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "b8a72f0c-66d8-4734-b785-71a52dec2641",
+          "name": "Abhidpc",
+          "email": "abhidpc@marashostel.gb.net",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "4fd0dca5-b7a5-4d88-996b-9d9a3b1c58ad",
+          "name": "Abhijeet Bhandare",
+          "email": "raut.anushri@theindustryinsight.com",
+          "phone": null,
+          "company": "Business Executive"
+        },
+        {
+          "id": "60442390-1926-49c1-8da3-ff423257d026",
+          "name": "Abrudan Simona Mariana",
+          "email": null,
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "3a4b6664-e6b0-4f58-b159-97170046bbca",
+          "name": "Abrud Ok",
+          "email": null,
+          "phone": "0758816910",
+          "company": null
+        },
+        {
+          "id": "2fc21aca-2318-4ba9-92ec-bbc55e43b619",
+          "name": "Abrud Primar",
+          "email": null,
+          "phone": "0258780519",
+          "company": null
+        },
+        {
+          "id": "478fe50c-f2b0-46e9-8317-0c07b7601c36",
+          "name": "Acasa",
+          "email": null,
+          "phone": "(0258) 833 240",
+          "company": null
+        },
+        {
+          "id": "44f902a8-6244-440a-9abe-f6ac3f82cba1",
+          "name": "Accident Geaogiu",
+          "email": null,
+          "phone": "(0745) 360 617",
+          "company": null
+        },
+        {
+          "id": "36eef8c5-a72c-4d8a-9f27-b7a83eb1880a",
+          "name": "A&C Cosmin Covaciu",
+          "email": "office@ac-wohnart.at",
+          "phone": "+4366567055045",
+          "company": "Geschäftsführer"
+        },
+        {
+          "id": "fd697fbc-86b0-4fc4-9bf9-cbe58762b9f6",
+          "name": "Account-Update",
+          "email": "account-update@amazon.co.uk",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "145e31e9-2e52-47f3-bdb9-a8845c890c70",
+          "name": "Account-Update",
+          "email": "account-update@amazon.com",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "1b653624-a16b-49d3-adf7-6c558dbde5d1",
+          "name": "Account-Update",
+          "email": "account-update@amazon.de",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "94685e02-ddf1-4ba9-8b59-825f40a07020",
+          "name": "ACoR Damian Ghita",
+          "email": null,
+          "phone": "0722 457 299",
+          "company": null
+        },
+        {
+          "id": "d3b960e1-cd94-4eb4-b0a7-2f47b0de12fc",
+          "name": "Actor",
+          "email": null,
+          "phone": "0744369377",
+          "company": null
+        },
+        {
+          "id": "354c58e8-0c10-4da5-b4f6-c1c3914551ea",
+          "name": "Actualitati",
+          "email": "dorincorpade@yahoo.com",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "3dc203fc-a824-443c-a15d-f56c7da76e3b",
+          "name": "Actualizare Harti Carplay Sibiu",
+          "email": null,
+          "phone": "+40753391343",
+          "company": null
+        },
+        {
+          "id": "4f34a0b6-11cd-40fd-ab62-0fccfba9b2f0",
+          "name": "Actualizare Harti Porsche Andrei Car Play Bucuresti",
+          "email": null,
+          "phone": "+40770920754",
+          "company": null
+        },
+        {
+          "id": "de03dde7-5c26-441a-8bee-fdee5e714aac",
+          "name": "Actualizare Harti Porsche Cosmin Nechita Car Play Brasov",
+          "email": null,
+          "phone": "+40724975501",
+          "company": null
+        },
+        {
+          "id": "2c256a04-3edb-40eb-a48d-cefe1ad90903",
+          "name": "A&C Wohnart Immobilien GmbH",
+          "email": "samm@ma48.wien.gv.at",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "7f98791d-612f-4062-9109-a67d7980e7ab",
+          "name": "Ada Ene",
+          "email": null,
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "703d52d8-3ad2-4f81-92dd-d321e77c2989",
+          "name": "Adam",
+          "email": "contest@doga.jp",
+          "phone": null,
+          "company": "Investment Broker"
+        },
+        {
+          "id": "1f26c110-e8c7-42c4-b33f-cc63151d95dd",
+          "name": "Adam",
+          "email": "news@fireballeu.com",
+          "phone": null,
+          "company": null
+        },
+        {
+          "id": "4830d26e-4d5e-4352-8c16-4de2f91eb0d4",
+          "name": "Adam Henryk Grzywaczewski",
+          "email": "adamggtc@nvidia.com",
+          "phone": null,
+          "company": "Director of AI and Physical AI Segment"
+        },
+        {
+          "id": "88a11fb3-9d47-4f12-acc1-44f4d81b1c86",
+          "name": "Adam Kaparos Kythnos",
+          "email": null,
+          "phone": "+30 694 4222332",
+          "company": null
+        },
+        {
+          "id": "cdc0f199-86d5-4dc6-bea2-232b7ee168e8",
+          "name": "Ada Nemety",
+          "email": "nemetyada@yahoo.com",
+          "phone": "+40735152003",
+          "company": null
+        },
+        {
+          "id": "d6fd42ef-c27c-4a74-b1c7-19f9813a29a4",
+          "name": "Ada Sandu Inspectorat",
+          "email": null,
+          "phone": "+40757136373",
+          "company": null
+        },
+        {
+          "id": "89a41eed-35e2-4bd9-a978-ede6dc7760c4",
+          "name": "ADELA",
+          "email": null,
+          "phone": "0744 386 067",
+          "company": null
+        },
+        {
+          "id": "7bbf2dbf-0acb-4464-8a14-de6fa74f9ad9",
+          "name": "Adela Apostol",
+          "email": "adela.apostol@reveal.ro",
+          "phone": "+40751048838",
+          "company": "Client Service Manager"
+        },
+        {
+          "id": "4899d6e6-8ef0-40ce-9cfc-ad8988e71761",
+          "name": "Adela Cipri",
+          "email": null,
+          "phone": "0747291760",
+          "company": null
+        }
+      ],
+      "total": 50
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 2169
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-e4ca7869-2876-410c-9738-007155846fdb",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_list_mailboxes",
+  "status": "completed",
+  "arguments": {},
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6aa3eb0547bc8191b7ffad8b395315af",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_list_mailboxes"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"mailboxes\": [\n    {\n      \"id\": \"79db1e1a-c6e9-44b7-89ad-c9cd76899528\",\n      \"email\": \"factura3@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-05-28T15:05:35.568110Z\"\n    },\n    {\n      \"id\": \"137dbd8c-3cd2-48ff-8e86-db5c0290663d\",\n      \"email\": \"admin@nova-robotics.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-29T17:38:56.048744Z\"\n    },\n    {\n      \"id\": \"94f39814-f872-470a-a4b6-b3601c96e414\",\n      \"email\": \"factura1@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n      \"email\": \"covaciu.gnm@gmail.com\",\n      \"provider\": \"gmail\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-30T08:52:36.700042Z\"\n    },\n    {\n      \"id\": \"4387d9c0-409c-48ca-8afc-ee4fff7d41ed\",\n      \"email\": \"factura2@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-06-21T23:30:06.079888Z\"\n    },\n    {\n      \"id\": \"30b3ba70-9bd8-46a2-993c-18ea0e621036\",\n      \"email\": \"vaidae104@gmail.com\",\n      \"provider\": \"gmail\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-24T05:06:38.771523Z\"\n    },\n    {\n      \"id\": \"07ce0e1a-529f-40aa-90e1-3b99b52d89d1\",\n      \"email\": \"factura@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-06-25T10:00:12.428091Z\"\n    },\n    {\n      \"id\": \"16488f9f-3815-4e45-8947-39d52637fb6f\",\n      \"email\": \"production@cesiro.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-16T20:30:20.790286Z\"\n    },\n    {\n      \"id\": \"d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5\",\n      \"email\": \"cosmin.covaciu@cesiro.com\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-30T08:30:27.188553Z\"\n    },\n    {\n      \"id\": \"3af45560-d448-4125-97cd-f12519882779\",\n      \"email\": \"office@alba-vision.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-24T20:30:09.731986Z\"\n    },\n    {\n      \"id\": \"4fa7391b-56f5-4e3f-9985-1838429347b8\",\n      \"email\": \"mariuscodewnk@yahoo.com\",\n      \"provider\": \"yahoo\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-30T08:30:28.127070Z\"\n    },\n    {\n      \"id\": \"cc655410-6d31-4ff6-a01f-2bd267bbe840\",\n      \"email\": \"cosmin.covaciu@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-30T08:30:49.524576Z\"\n    },\n    {\n      \"id\": \"54f7feea-ba99-47bb-99f1-c441f9eeafea\",\n      \"email\": \"link_covaciu@yahoo.com\",\n      \"provider\": \"yahoo\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-08-02T20:30:05.901517Z\"\n    },\n    {\n      \"id\": \"5cbbba25-f4d8-4b0b-b726-f33324e355d4\",\n      \"email\": \"cosmin.covaciu@cesiro.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-30T08:40:20.176323Z\"\n    },\n    {\n      \"id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n      \"email\": \"office@ac-wohnart.at\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-30T08:40:23.569102Z\"\n    },\n    {\n      \"id\": \"61d34ecc-27ac-48b0-98c6-0dbf637edf9a\",\n      \"email\": \"cosmin@ig.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-08-12T10:09:58.959984Z\"\n    },\n    {\n      \"id\": \"shared:cesiro.horeca@gmail.com\",\n      \"email\": \"cesiro.horeca@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"team\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:dancorproiectsrl@gmail.com\",\n      \"email\": \"dancorproiectsrl@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:3dspacearideit@gmail.com\",\n      \"email\": \"3dspacearideit@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:3dspacearide@gmail.com\",\n      \"email\": \"3dspacearide@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "mailboxes": [
+        {
+          "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+          "email": "factura3@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-05-28T15:05:35.568110Z"
+        },
+        {
+          "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+          "email": "admin@nova-robotics.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-29T17:38:56.048744Z"
+        },
+        {
+          "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+          "email": "factura1@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+          "email": "covaciu.gnm@gmail.com",
+          "provider": "gmail",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-30T08:52:36.700042Z"
+        },
+        {
+          "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+          "email": "factura2@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-06-21T23:30:06.079888Z"
+        },
+        {
+          "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+          "email": "vaidae104@gmail.com",
+          "provider": "gmail",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-24T05:06:38.771523Z"
+        },
+        {
+          "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+          "email": "factura@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-06-25T10:00:12.428091Z"
+        },
+        {
+          "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+          "email": "production@cesiro.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-16T20:30:20.790286Z"
+        },
+        {
+          "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+          "email": "cosmin.covaciu@cesiro.com",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-30T08:30:27.188553Z"
+        },
+        {
+          "id": "3af45560-d448-4125-97cd-f12519882779",
+          "email": "office@alba-vision.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-24T20:30:09.731986Z"
+        },
+        {
+          "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+          "email": "mariuscodewnk@yahoo.com",
+          "provider": "yahoo",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-30T08:30:28.127070Z"
+        },
+        {
+          "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+          "email": "cosmin.covaciu@ipec.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-30T08:30:49.524576Z"
+        },
+        {
+          "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+          "email": "link_covaciu@yahoo.com",
+          "provider": "yahoo",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-08-02T20:30:05.901517Z"
+        },
+        {
+          "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+          "email": "cosmin.covaciu@cesiro.ro",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-30T08:40:20.176323Z"
+        },
+        {
+          "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+          "email": "office@ac-wohnart.at",
+          "provider": "imap",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-09-30T08:40:23.569102Z"
+        },
+        {
+          "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+          "email": "cosmin@ig.ro",
+          "provider": "exchange",
+          "permission": "owner",
+          "searchable": true,
+          "is_active": true,
+          "last_sync": "2026-08-12T10:09:58.959984Z"
+        },
+        {
+          "id": "shared:cesiro.horeca@gmail.com",
+          "email": "cesiro.horeca@gmail.com",
+          "provider": "",
+          "permission": "team",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:dancorproiectsrl@gmail.com",
+          "email": "dancorproiectsrl@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:3dspacearideit@gmail.com",
+          "email": "3dspacearideit@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        },
+        {
+          "id": "shared:3dspacearide@gmail.com",
+          "email": "3dspacearide@gmail.com",
+          "provider": "",
+          "permission": "shared",
+          "searchable": false,
+          "is_active": true,
+          "last_sync": null
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 2392
+}
+````
+
+## Asistent
+
+Vrei un link cu adresele tuturor contactelor din Eva-Mail sau cu adresele celor 20 de conturi de email conectate?
+- Toate contactele
+- Cele 20 de conturi conectate
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-874f7d1c-1f99-49df-b1fc-bf4fa565e87e",
+  "server": "codex_apps",
+  "tool": "eva_mail.search",
+  "status": "completed",
+  "arguments": {
+    "query": "contacte"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6aa3eb0547bc8191b7ffad8b395315af",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "search"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"results\": [\n    {\n      \"id\": \"email:406df854-d3b7-4dde-b5e9-a88d520478c7\",\n      \"title\": \"Cerere ofertă – linie procesare nuci 500 kg/h cu 3 spărgătoare – CESIRO PRODUCTION\",\n      \"text\": \"Bună ziua,\\nVă mulțumim pentru ofertele nr. 82 din 16.04.2026 (linia de 200 kg/h și cea de „400 kg/h”\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=406df854-d3b7-4dde-b5e9-a88d520478c7\",\n      \"metadata\": {\n        \"attachments\": [\n          {\n            \"id\": \"711787fa-f10e-4d9c-9591-9eb1b0fca2f8\",\n            \"name\": \"Fisa electrica propusa - Poz 5 - Calibrator nuci 8 fractii 500 kg-h.pdf\"\n          },\n          {\n            \"id\": \"2a53a261-cc78-4ce3-9125-e4e88d3b19d0\",\n            \"name\": \"Fisa electrica propusa - Poz 3 - Elevator Noria incarcare-descarcare 4 t-h.pdf\"\n          },\n          {\n            \"id\": \"9a0c79a3-4187-4cdb-ba8b-786659eb1066\",\n            \"name\": \"Propunere automatizare RevPi - linie nuci 500 kg-h - CESIRO PRODUCTION - 2026.09.29.xlsx\"\n          },\n          {\n            \"id\": \"a85c21b9-b83c-4ae8-9939-f54029914a6b\",\n            \"name\": \"Fisa electrica propusa - Poz 9 - Sortator optic cu banda M600.pdf\"\n          },\n          {\n            \"id\": \"ae6ae28d-500e-42e0-941d-c2e94ff45414\",\n            \"name\": \"Fisa electrica propusa - Poz 8b - Transportor elevator linie sortator optic.pdf\"\n          },\n          {\n            \"id\": \"510ca500-f762-4752-9ade-de910e62c4c5\",\n            \"name\": \"Fisa electrica propusa - Poz 1 - Masina industriala de spalat nuci 1 t-h.pdf\"\n          },\n          {\n            \"id\": \"f53a967d-f5e6-4a75-8180-8dcb2eacf1fb\",\n            \"name\": \"Fisa electrica propusa - Poz 2 - Banda de alimentare masina de spalat 4 t-h.pdf\"\n          },\n          {\n            \"id\": \"f47799fb-9fe0-4f21-a0d8-6cb72e9c0ed6\",\n            \"name\": \"Fisa electrica propusa - Poz 7 - Spargator 200 kg-h cu coloana de aspiratie _al 3-lea_.pdf\"\n          },\n          {\n            \"id\": \"0599b096-1e85-4ed8-9407-adf1c27c0e4c\",\n            \"name\": \"CESIRO PRODUCTION - Cerere oferta linie procesare nuci 500 kg-h - 3 spargatoare - 2026.09.28.xlsx\"\n          },\n          {\n            \"id\": \"84fb006b-fe6c-486b-b29a-4fdb84145e33\",\n            \"name\": \"Fisa electrica propusa - Poz 10 - Masa de inspectie cu banda pe doua niveluri.pdf\"\n          },\n          {\n            \"id\": \"5171df45-a82e-4afd-9556-3195bc92d208\",\n            \"name\": \"Fisa electrica propusa - Poz 8a - Transportor elevator calibrator linie de spargere.pdf\"\n          },\n          {\n            \"id\": \"356a5d77-2642-482f-8e39-8acafae8905e\",\n            \"name\": \"Fisa electrica propusa - Poz 6 - Linie automatizata de procesare nuci 400 kg-h.pdf\"\n          },\n          {\n            \"id\": \"088bc401-9893-4b23-8e98-6905d3eb35cf\",\n            \"name\": \"Fisa electrica propusa - Poz 4b - Uscator nuci in coaja 4 t-24 h nr. 2.pdf\"\n          },\n          {\n            \"id\": \"c64b8ab6-feb9-4675-a18e-2382e2c7cb88\",\n            \"name\": \"Fisa electrica propusa - Poz 4a - Uscator nuci in coaja 4 t-24 h nr. 1.pdf\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"email:188d254b-12c6-424e-8858-cdf32bb0d2d7\",\n      \"title\": \"Nu uita de reducerea ta!\",\n      \"text\": \"Comanda acum si ai 10% discount! Buna! Discountul tau expira in curand! Foloseste codul: RED10 Ventilator exhaustare R2E180-CG82-05 / 260413 pentru Viessmann Vitoligno 100 - 25-40kW Ventilator\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=188d254b-12c6-424e-8858-cdf32bb0d2d7\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    },\n    {\n      \"id\": \"email:3bb143a6-3f32-4093-ae20-6aca70230b5e\",\n      \"title\": \"O companie bună se recunoaște după oameni\",\n      \"text\": \"        ✉ E-mail extern — Mesaj primit din exteriorul IPEC. Verificați expeditorul înainte de a acce\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=3bb143a6-3f32-4093-ae20-6aca70230b5e\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    },\n    {\n      \"id\": \"email:c54fc869-b31c-4d43-b8e2-b1557cb7fff0\",\n      \"title\": \"Ai de la noi 10% discount la finalizarea comenzii!\",\n      \"text\": \"Bucura-te acum de 10% discount! Buna, Nu stim pentru cat iti mai putem salva produsele! Dar stim ca... ai 10% reducere daca vei comanda acum! foloseste codul de reducere: &quot; RED10 &quot; Ventilator\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=c54fc869-b31c-4d43-b8e2-b1557cb7fff0\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    },\n    {\n      \"id\": \"email:95cd5c0e-c983-47f2-8442-548e2fd81ae1\",\n      \"title\": \"Hei, ai uitat ceva in cos!\",\n      \"text\": \"Am observat ca nu ai apucat sa finalizezi comanda din cosul de cumparaturi. Le-am salvat noi pentru tine!͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=95cd5c0e-c983-47f2-8442-548e2fd81ae1\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    },\n    {\n      \"id\": \"email:42f5f675-7e57-4d57-b075-9789b176b0ae\",\n      \"title\": \"🛒 Luni, dar cu până la 40% EXTRA\",\n      \"text\": \"Covaciu, un motiv bun să-ți umpli wishlist-ul ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=42f5f675-7e57-4d57-b075-9789b176b0ae\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    },\n    {\n      \"id\": \"email:b035aaf0-03d6-4358-bb16-5908249144d8\",\n      \"title\": \"Lista asta e pentru cei care rezervă în ultimul moment\",\n      \"text\": \"Rezervă târziu și evită stresul cu ghidul nostru pentru călătorii last minute ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=b035aaf0-03d6-4358-bb16-5908249144d8\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    },\n    {\n      \"id\": \"email:139dd436-3c93-436e-bf85-80cc29736152\",\n      \"title\": \"Cum instalezi corect gazonul artificial decorativ?\",\n      \"text\": \"Află cum pregătești stratul suport și ce materiale sunt necesare pentru montaj. Bună, Un gazon artificial decorativ poate transforma complet aspectul unei curți sau al unei zone exterioare, însă\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=139dd436-3c93-436e-bf85-80cc29736152\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    },\n    {\n      \"id\": \"email:b3b91448-d2aa-4d54-9557-fc8bdbad66d8\",\n      \"title\": \"Setează starea de spirit pentru ziua ta\",\n      \"text\": \"Playlisturi pentru orice stare de spirit, oricând. Playlisturi pentru orice stare de spirit Ziua ta are o coloană sonoră Te relaxezi sau te energizezi? Există un playlist pentru asta. Explorează și\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=b3b91448-d2aa-4d54-9557-fc8bdbad66d8\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    },\n    {\n      \"id\": \"email:06bd1835-3bdb-45d1-8b4d-4dc8f16a0a8b\",\n      \"title\": \"Covaciu, ofertele de până la 50% EXTRA expiră curând ⏳\",\n      \"text\": \"Intră și comandă cât încă sunt active! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\",\n      \"url\": \"https://mail.eva-org.com/inbox?email_id=06bd1835-3bdb-45d1-8b4d-4dc8f16a0a8b\",\n      \"metadata\": {\n        \"attachments\": []\n      }\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "id": "email:406df854-d3b7-4dde-b5e9-a88d520478c7",
+          "title": "Cerere ofertă – linie procesare nuci 500 kg/h cu 3 spărgătoare – CESIRO PRODUCTION",
+          "text": "Bună ziua,\nVă mulțumim pentru ofertele nr. 82 din 16.04.2026 (linia de 200 kg/h și cea de „400 kg/h”",
+          "url": "https://mail.eva-org.com/inbox?email_id=406df854-d3b7-4dde-b5e9-a88d520478c7",
+          "metadata": {
+            "attachments": [
+              {
+                "id": "711787fa-f10e-4d9c-9591-9eb1b0fca2f8",
+                "name": "Fisa electrica propusa - Poz 5 - Calibrator nuci 8 fractii 500 kg-h.pdf"
+              },
+              {
+                "id": "2a53a261-cc78-4ce3-9125-e4e88d3b19d0",
+                "name": "Fisa electrica propusa - Poz 3 - Elevator Noria incarcare-descarcare 4 t-h.pdf"
+              },
+              {
+                "id": "9a0c79a3-4187-4cdb-ba8b-786659eb1066",
+                "name": "Propunere automatizare RevPi - linie nuci 500 kg-h - CESIRO PRODUCTION - 2026.09.29.xlsx"
+              },
+              {
+                "id": "a85c21b9-b83c-4ae8-9939-f54029914a6b",
+                "name": "Fisa electrica propusa - Poz 9 - Sortator optic cu banda M600.pdf"
+              },
+              {
+                "id": "ae6ae28d-500e-42e0-941d-c2e94ff45414",
+                "name": "Fisa electrica propusa - Poz 8b - Transportor elevator linie sortator optic.pdf"
+              },
+              {
+                "id": "510ca500-f762-4752-9ade-de910e62c4c5",
+                "name": "Fisa electrica propusa - Poz 1 - Masina industriala de spalat nuci 1 t-h.pdf"
+              },
+              {
+                "id": "f53a967d-f5e6-4a75-8180-8dcb2eacf1fb",
+                "name": "Fisa electrica propusa - Poz 2 - Banda de alimentare masina de spalat 4 t-h.pdf"
+              },
+              {
+                "id": "f47799fb-9fe0-4f21-a0d8-6cb72e9c0ed6",
+                "name": "Fisa electrica propusa - Poz 7 - Spargator 200 kg-h cu coloana de aspiratie _al 3-lea_.pdf"
+              },
+              {
+                "id": "0599b096-1e85-4ed8-9407-adf1c27c0e4c",
+                "name": "CESIRO PRODUCTION - Cerere oferta linie procesare nuci 500 kg-h - 3 spargatoare - 2026.09.28.xlsx"
+              },
+              {
+                "id": "84fb006b-fe6c-486b-b29a-4fdb84145e33",
+                "name": "Fisa electrica propusa - Poz 10 - Masa de inspectie cu banda pe doua niveluri.pdf"
+              },
+              {
+                "id": "5171df45-a82e-4afd-9556-3195bc92d208",
+                "name": "Fisa electrica propusa - Poz 8a - Transportor elevator calibrator linie de spargere.pdf"
+              },
+              {
+                "id": "356a5d77-2642-482f-8e39-8acafae8905e",
+                "name": "Fisa electrica propusa - Poz 6 - Linie automatizata de procesare nuci 400 kg-h.pdf"
+              },
+              {
+                "id": "088bc401-9893-4b23-8e98-6905d3eb35cf",
+                "name": "Fisa electrica propusa - Poz 4b - Uscator nuci in coaja 4 t-24 h nr. 2.pdf"
+              },
+              {
+                "id": "c64b8ab6-feb9-4675-a18e-2382e2c7cb88",
+                "name": "Fisa electrica propusa - Poz 4a - Uscator nuci in coaja 4 t-24 h nr. 1.pdf"
+              }
+            ]
+          }
+        },
+        {
+          "id": "email:188d254b-12c6-424e-8858-cdf32bb0d2d7",
+          "title": "Nu uita de reducerea ta!",
+          "text": "Comanda acum si ai 10% discount! Buna! Discountul tau expira in curand! Foloseste codul: RED10 Ventilator exhaustare R2E180-CG82-05 / 260413 pentru Viessmann Vitoligno 100 - 25-40kW Ventilator",
+          "url": "https://mail.eva-org.com/inbox?email_id=188d254b-12c6-424e-8858-cdf32bb0d2d7",
+          "metadata": {
+            "attachments": []
+          }
+        },
+        {
+          "id": "email:3bb143a6-3f32-4093-ae20-6aca70230b5e",
+          "title": "O companie bună se recunoaște după oameni",
+          "text": "        ✉ E-mail extern — Mesaj primit din exteriorul IPEC. Verificați expeditorul înainte de a acce",
+          "url": "https://mail.eva-org.com/inbox?email_id=3bb143a6-3f32-4093-ae20-6aca70230b5e",
+          "metadata": {
+            "attachments": []
+          }
+        },
+        {
+          "id": "email:c54fc869-b31c-4d43-b8e2-b1557cb7fff0",
+          "title": "Ai de la noi 10% discount la finalizarea comenzii!",
+          "text": "Bucura-te acum de 10% discount! Buna, Nu stim pentru cat iti mai putem salva produsele! Dar stim ca... ai 10% reducere daca vei comanda acum! foloseste codul de reducere: &quot; RED10 &quot; Ventilator",
+          "url": "https://mail.eva-org.com/inbox?email_id=c54fc869-b31c-4d43-b8e2-b1557cb7fff0",
+          "metadata": {
+            "attachments": []
+          }
+        },
+        {
+          "id": "email:95cd5c0e-c983-47f2-8442-548e2fd81ae1",
+          "title": "Hei, ai uitat ceva in cos!",
+          "text": "Am observat ca nu ai apucat sa finalizezi comanda din cosul de cumparaturi. Le-am salvat noi pentru tine!͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌",
+          "url": "https://mail.eva-org.com/inbox?email_id=95cd5c0e-c983-47f2-8442-548e2fd81ae1",
+          "metadata": {
+            "attachments": []
+          }
+        },
+        {
+          "id": "email:42f5f675-7e57-4d57-b075-9789b176b0ae",
+          "title": "🛒 Luni, dar cu până la 40% EXTRA",
+          "text": "Covaciu, un motiv bun să-ți umpli wishlist-ul ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+          "url": "https://mail.eva-org.com/inbox?email_id=42f5f675-7e57-4d57-b075-9789b176b0ae",
+          "metadata": {
+            "attachments": []
+          }
+        },
+        {
+          "id": "email:b035aaf0-03d6-4358-bb16-5908249144d8",
+          "title": "Lista asta e pentru cei care rezervă în ultimul moment",
+          "text": "Rezervă târziu și evită stresul cu ghidul nostru pentru călătorii last minute ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌ ﻿ ͏ ‌",
+          "url": "https://mail.eva-org.com/inbox?email_id=b035aaf0-03d6-4358-bb16-5908249144d8",
+          "metadata": {
+            "attachments": []
+          }
+        },
+        {
+          "id": "email:139dd436-3c93-436e-bf85-80cc29736152",
+          "title": "Cum instalezi corect gazonul artificial decorativ?",
+          "text": "Află cum pregătești stratul suport și ce materiale sunt necesare pentru montaj. Bună, Un gazon artificial decorativ poate transforma complet aspectul unei curți sau al unei zone exterioare, însă",
+          "url": "https://mail.eva-org.com/inbox?email_id=139dd436-3c93-436e-bf85-80cc29736152",
+          "metadata": {
+            "attachments": []
+          }
+        },
+        {
+          "id": "email:b3b91448-d2aa-4d54-9557-fc8bdbad66d8",
+          "title": "Setează starea de spirit pentru ziua ta",
+          "text": "Playlisturi pentru orice stare de spirit, oricând. Playlisturi pentru orice stare de spirit Ziua ta are o coloană sonoră Te relaxezi sau te energizezi? Există un playlist pentru asta. Explorează și",
+          "url": "https://mail.eva-org.com/inbox?email_id=b3b91448-d2aa-4d54-9557-fc8bdbad66d8",
+          "metadata": {
+            "attachments": []
+          }
+        },
+        {
+          "id": "email:06bd1835-3bdb-45d1-8b4d-4dc8f16a0a8b",
+          "title": "Covaciu, ofertele de până la 50% EXTRA expiră curând ⏳",
+          "text": "Intră și comandă cât încă sunt active! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+          "url": "https://mail.eva-org.com/inbox?email_id=06bd1835-3bdb-45d1-8b4d-4dc8f16a0a8b",
+          "metadata": {
+            "attachments": []
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 2432
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-673bc42d-40e7-4a83-af8d-96e4b98b82df",
+  "query": "https://mail.eva-org.com",
+  "action": {
+    "type": "openPage",
+    "url": "https://mail.eva-org.com"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn0view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Am găsit **20 de conturi de email** în Eva-Mail. Vrei linkul cu adresele acestor conturi sau cu **toate adresele din contacte**?
+
+## Asistent
+
+Verific adresa **cristian.covaciu@ipec.ro** în Eva-Mail.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-9ae55eea-36eb-4a2e-acf4-7e3e8ce44168",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_contacts",
+  "status": "completed",
+  "arguments": {
+    "query": "cristian.covaciu@ipec.ro",
+    "limit": 50
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6aa3eb0547bc8191b7ffad8b395315af",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_contacts"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"78fc41c5-22cc-4d81-8afa-dae48461ea91\",\n      \"name\": \"Cristian Covaciu\",\n      \"email\": \"cristian.covaciu@ipec.ro\",\n      \"phone\": \"+40 (722) 239 546\",\n      \"company\": null\n    }\n  ],\n  \"total\": 1\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "78fc41c5-22cc-4d81-8afa-dae48461ea91",
+          "name": "Cristian Covaciu",
+          "email": "cristian.covaciu@ipec.ro",
+          "phone": "+40 (722) 239 546",
+          "company": null
+        }
+      ],
+      "total": 1
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 509
+}
+````
+
+## Asistent
+
+Am găsit contactul **Cristian Covaciu**: [cristian.covaciu@ipec.ro](mailto:cristian.covaciu@ipec.ro).
+
+Vrei lista tuturor adreselor de email din corespondența cu el?
+
+## Asistent
+
+Pregătesc un fișier cu adresele celor 20 de conturi conectate și îți dau linkul.
+
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-f6498d7b-a6ab-4d2e-9ea4-080b9bb888f7",
+  "changes": [
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-09-30\\da\\outputs\\conturi-email-eva.txt",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "3dspacearide@gmail.com\n3dspacearideit@gmail.com\nadmin@nova-robotics.ro\ncesiro.horeca@gmail.com\ncosmin.covaciu@cesiro.com\ncosmin.covaciu@cesiro.ro\ncosmin.covaciu@ipec.ro\ncosmin@ig.ro\ncovaciu.gnm@gmail.com\ndancorproiectsrl@gmail.com\nfactura1@ipec.ro\nfactura2@ipec.ro\nfactura3@ipec.ro\nfactura@ipec.ro\nlink_covaciu@yahoo.com\nmariuscodewnk@yahoo.com\noffice@ac-wohnart.at\noffice@alba-vision.ro\nproduction@cesiro.ro\nvaidae104@gmail.com\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## Asistent
+
+[Descarcă lista celor 20 de adrese de email din Eva-Mail](C:/Users/User/Documents/Codex/2026-09-30/da/outputs/conturi-email-eva.txt) — 16 conturi proprii și 4 partajate/de echipă.
+
+**cristian.covaciu@ipec.ro** apare în contacte, dar nu între conturile conectate.

@@ -1,0 +1,23 @@
+{
+  "id": "01a0b122-8586-73a1-aa3b-d43b1b43ed83",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789635885,
+  "updated_at": 1789655803,
+  "archived": 0,
+  "source": "vscode",
+  "title": "trebuie sa fac in folderul : \"Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\\"",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 676309,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 269,
+  "message_count": 269,
+  "content_sha256": "9f3296bc8773a05a52766483c339834a6ce1ef406fe27287cba0520c1047364a",
+  "files_copied": 12,
+  "references_not_copied": 18
+}

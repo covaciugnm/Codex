@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "audit_id": "AUD-RES-001-A-GOVERNANCE-r01",
+  "deliverable_id": "RES-001",
+  "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "reviewer_role": "A-GOVERNANCE",
+  "files": [
+    {
+      "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+      "sha256": "275b3b8fece33825294f27bd11cfe0c1010bba15fc082b5c8af6f16802e61f6a"
+    },
+    {
+      "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+      "sha256": "65aa05866f898b36f0059f2a58dd385a9e361ceb7cca93a32c9448f882ffc98f"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "surse",
+      "weight": 25,
+      "score": 960,
+      "evidence": [
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L13-L91",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L14-L24",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L28-L125"
+      ]
+    },
+    {
+      "id": "succes",
+      "weight": 20,
+      "score": 970,
+      "evidence": [
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L13-L19",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L93-L99",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L14-L22"
+      ]
+    },
+    {
+      "id": "originalitate",
+      "weight": 25,
+      "score": 970,
+      "evidence": [
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L101-L145",
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L166-L196",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L127-L139"
+      ]
+    },
+    {
+      "id": "relevanta",
+      "weight": 15,
+      "score": 880,
+      "evidence": [
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L8-L10",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L131-L139",
+        "00_CONDUCERE/MANUAL_ATELIER.md:L35-L41"
+      ]
+    },
+    {
+      "id": "utilizare",
+      "weight": 15,
+      "score": 920,
+      "evidence": [
+        "02_DOCUMENTARE/REPERE_SI_MECANISME.md:L147-L196",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L131-L155"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "GOV-RES-01",
+      "severity": "major",
+      "status": "open",
+      "location": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L8-L10",
+      "description": "Afirmația «Lumea comună este cerința de lucru» este urmată de relațiile dintre seriile Dracula Book și reluată în selecție ca «volume ale aceleiași lumi» (L136). Astfel, experiențele umane comune și diferențierea prin prezentare pot deveni o cerință de univers ficțional comun între colecții. Manualul L35-L41 și clarificarea utilizatorului nu stabilesc această cerință. Trimiterea spre confirmare la canon nu elimină premisa obligatorie deja enunțată.",
+      "remediation": "Reformulați în versiunea următoare principiul ca experiențe și mecanisme umane comune, cu prezentare distinctă, și condiționați orice univers ficțional comun de surse de canon și mandat explicit. Aliniați L10, L136 și câmpurile de selecție. Test de închidere: banca poate fi aplicată la două colecții fără continuitate ficțională comună, folosind minimum două opere-sursă, fără a cere inventarea unor relații între universuri."
+    }
+  ],
+  "verdict": "RETURN",
+  "limitations": [
+    "Audit individual A-GOVERNANCE de proces și documentare; nu este verdictul agregat al porții și nu înlocuiește auditorul specialist sau A-QAMANAGER.",
+    "Nu am produs ori modificat livrabilele, registrele, arhivele sau site-ul; nu am citit fișiere .env și nu am creat subagenți.",
+    "SHA-256 probează identitatea octeților la momentele verificate, nu autenticitatea autorului, adevărul surselor sau protecție WORM.",
+    "Manifestele depuse au audits: [] și nu declară meta_audit. Validatorul executat în citire a returnat RETURN pentru fiecare pachet; SEL/RES au și dependența SYS-001 neacceptată. Aceasta este starea unei depuneri în audit, nu dovada unei aprobări fictive.",
+    "Nu se aprobă prin acest raport canonul integral, o intrigă, un roman, G01–G17, transferul sau publicarea.",
+    "Am citit integral ambele documente RES-001 și le-am verificat amprentele față de manifest și snapshot. Auditul privește declarațiile, atribuirea, limitele și utilizarea; nu am accesat din nou URL-urile sau citit integral operele-sursă, verificările de fond revenind A-SOURCES.",
+    "Nu certific cifre comerciale, premii, drepturi sau originalitatea unei intrigi concrete. Nota pentru originalitate evaluează regulile de abstractizare și comparație, nu un roman inexistent.",
+    "Clarificarea utilizatorului despre experiențele umane comune a fost tratată drept interpretare a mandatului, nu drept permisiune de modificare a produsului. Formularea problematică a rămas intactă."
+  ],
+  "reviewed_at": "2026-09-24T01:08:40+00:00"
+}
+

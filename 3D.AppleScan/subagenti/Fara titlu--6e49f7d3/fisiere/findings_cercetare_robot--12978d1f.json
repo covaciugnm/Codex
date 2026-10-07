@@ -1,0 +1,86 @@
+{
+  "round": "R1",
+  "scope": "Research01/02 and robot03/04/contracts only",
+  "verdict": "changes_required",
+  "findings": [
+    {
+      "id": "CR-01",
+      "severity": "P1",
+      "title": "Bootstrap ceas circular",
+      "status": "remediated_verified_R1",
+      "evidence": [
+        "03_contracte/transport.schema.json:729",
+        "04_validare/robot_contract_checks.cjs:61"
+      ],
+      "problem": "Contractul inițial cerea clock_model_id și timestamp convertit pentru hello/probe înainte de existența unui model.",
+      "required": "Excepție strictă pentru control bootstrap, sentinele explicite, interdicție pentru observații fără model.",
+      "verification": "Schema modificată și 24/24 probe relansate independent; hello null acceptat, observație null respinsă."
+    },
+    {
+      "id": "CR-02",
+      "severity": "P1",
+      "title": "Depth fără identificarea cadrului optic",
+      "status": "remediated_verified_R1",
+      "evidence": [
+        "03_contracte/transport.schema.json:653",
+        "02_proiect_tehnic/03_robot_transport_si_harta.md:27"
+      ],
+      "problem": "camera_pose nu identifica separat camera frame și transformarea parent-child.",
+      "required": "camera_frame_id obligatoriu, T_parent_camera explicit, Image/CameraInfo în optic.",
+      "verification": "Câmp obligatoriu adăugat; probă numerică independent relansată în suita24."
+    },
+    {
+      "id": "CR-03",
+      "severity": "P1",
+      "title": "Țintă P95 inconsistentă cu V1",
+      "status": "remediated_verified_R1",
+      "evidence": [
+        "02_proiect_tehnic/04_integrare_operare_si_bugete.md:58"
+      ],
+      "problem": "Bugetul propus150ms înlocuia ținta canonicăP95≤100ms fără decizie.",
+      "required": "P95≤100ms separat de cutoff individual150ms.",
+      "verification": "Textul58 și profilul au ținta100 și cutoff150 distincte; nu există claim de măsurare."
+    },
+    {
+      "id": "CR-04",
+      "severity": "P1",
+      "title": "Modelul afin negociat nu are mesaj de publicare",
+      "status": "open_author_notified",
+      "evidence": [
+        "03_contracte/transport.schema.json:575",
+        "03_contracte/transport.schema.json:608",
+        "02_proiect_tehnic/03_robot_transport_si_harta.md:33"
+      ],
+      "problem": "Telefonul trebuie să convertească timpul prin a,b/model_id/validitate, dar control nu definește transportul coeficienților și acceptarea modelului.",
+      "required": "Definirea publicării, domeniilor/unităților, epocii, intervalului valid și confirmării modelului; fixture și respingeri pentru model absent/expirat. Tokenul se transmite prin HTTP Authorization protejatTLS, nu în handshakeTLS.",
+      "verification": "În așteptarea patchului autorului."
+    },
+    {
+      "id": "CR-05",
+      "severity": "P2",
+      "title": "Mesh delta acceptă payload RGB",
+      "status": "open_reproduced",
+      "evidence": [
+        "03_contracte/transport.schema.json:140",
+        "04_validare/robot_contract_checks.cjs:29",
+        "06_audit/robot_independent_R1_results.json"
+      ],
+      "problem": "Înlocuirea geometry.encoding cu rgb_hevc_annex_b și recalcularea semantic_hash sunt acceptate de schema și validator, deși RGB nu e activ v1.",
+      "required": "Restrângerea geometry la eva_mesh_le_v1 în upsert și snapshot, teste negative pentru depth/RGB.",
+      "verification": "Probă independentă acceptedWrongEncoding=true. Nu demonstrează vulnerabilitate de runtime; demonstrează contract contradictoriu."
+    },
+    {
+      "id": "CR-06",
+      "severity": "P2",
+      "title": "Timestamp pentru predicted insuficient precizat",
+      "status": "open_author_notified",
+      "evidence": [
+        "02_proiect_tehnic/04_integrare_operare_si_bugete.md:64",
+        "03_contracte/eva_interfaces.msg.txt"
+      ],
+      "problem": "Pose extrapolată și ultima observație pot avea momente diferite; contractul are un singur capture_time_ns.",
+      "required": "Fie v1 predicted păstrează ultima pose nemodificată și timestampul ei, fie două momente explicite cu gate pe ultima observație și transformare la timpul pose.",
+      "verification": "În așteptarea deciziei explicite a autorului."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "source_reference": "(?:/nws/[^\"\\']*|/rec/[^\"\\']*validate[^\"\\']*|/nws/recording/[^\"\\']*pass[^\"\\']*",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "/[a-zA-Z0-9_/.-]*(?:validate|passwd|pwd|check",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/chrome-cookies",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_connection.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_connection--eb2ecf48.py",
+    "bytes": 24414,
+    "sha256": "63ee35eb40354d2099d422947a24aead934ca12ffdb05841113da2091054caae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_element_handle.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_element_handle--27822299.py",
+    "bytes": 14568,
+    "sha256": "05d57f4e98a780a7081ebae8a5076fa99507adf46e0df2cb3284531431947e6d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_sync_base--79a362a2.py",
+    "bytes": 4608,
+    "sha256": "90a23c3bcd581164a8ea954ae7fed1b450a2402eb88b0267500ae87a6ceb83e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\playwright\\sync_api\\_generated.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_generated--72b808fa.py",
+    "bytes": 939552,
+    "sha256": "b4f57ba58967ea75e06eee17d9c8ff67b930f22f7fe2469d63afa71d8ac641ea"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\yt_dlp\\YoutubeDL.py",
+    "status": "copiat",
+    "saved_path": "fisiere/YoutubeDL--f7a55820.py",
+    "bytes": 219204,
+    "sha256": "41e83b95fce4a59f09746d0804d80ccfa8489c62c81d2cdfa20ce0e835611a17"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\yt_dlp\\cookies.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cookies--985bfad6.py",
+    "bytes": 59010,
+    "sha256": "baf3b9af355b436d4da1c03d88a93349d88833e6d452b255dd4db93d953b2d21"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\yt_dlp\\utils\\_utils.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_utils--3571ce13.py",
+    "bytes": 192114,
+    "sha256": "9200be7e89f04b51243fe20643bc0fac16186a91ff6b588456e95bc2670f7eb8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py",
+    "status": "copiat",
+    "saved_path": "fisiere/request--69129a70.py",
+    "bytes": 106326,
+    "sha256": "b732a8436aa661928334f032fb27f557167c9d1dc17e0f42df101b10ac6d5b2c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\zdownload.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\zdownload7.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\Curs Inspector SSM iulie 2026.mp4",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\_bigtest.bin",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\OneDrive",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/Dep. Resurse Umane/Curs PSI",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\Dep. Resurse Umane\\Curs PSI",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\Dep. Resurse Umane\\Curs PSI\\Curs Cadru Tehnic PSI iulie 2026_2.mp4",
+    "status": "copiat",
+    "saved_path": "fisiere/Curs Cadru Tehnic PSI iulie 2026_2--f0ae0af8.mp4",
+    "bytes": 305183093,
+    "sha256": "2dad1a27739a9408e076818536b752e24a837e5689ae640c3d4c4f6a929d6d90"
+  },
+  {
+    "source_reference": "Z:\\Dep. Resurse Umane\\Curs SSM",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\Dep. Resurse Umane\\\\Curs PSI",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "cesiro-images-catalog.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

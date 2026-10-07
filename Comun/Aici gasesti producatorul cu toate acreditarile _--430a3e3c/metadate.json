@@ -1,0 +1,23 @@
+{
+  "id": "01a0873b-2ff2-7331-bbb7-1ce9430a3e3c",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788882727,
+  "updated_at": 1788886569,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Aici gasesti producatorul cu toate acreditarile :",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 238074,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 165,
+  "message_count": 165,
+  "content_sha256": "d0f7ff1a5157764c0f101f1390ed533f22bffbc02de4c67e65a58f48e783bf8e",
+  "files_copied": 7,
+  "references_not_copied": 12
+}

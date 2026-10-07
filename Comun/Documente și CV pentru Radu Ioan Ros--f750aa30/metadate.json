@@ -1,0 +1,23 @@
+{
+  "id": "01a11327-2b06-7d51-b576-a18ef750aa30",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791298187,
+  "updated_at": 1791306583,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Documente și CV pentru Radu Ioan Ros",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 252065,
+  "invalid_json_lines": 0,
+  "history_source": "legacy_events",
+  "rollout_exists": true,
+  "item_count": 79,
+  "message_count": 79,
+  "content_sha256": "a8a78e8869a6fe74d2468454f53b0e579eb7ff4cd2636c941c60c2673c509326",
+  "files_copied": 3,
+  "references_not_copied": 10
+}

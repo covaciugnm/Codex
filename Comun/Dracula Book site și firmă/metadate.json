@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788779470,
+  "updated_at": 1790252819,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Dracula Book site și firmă",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 51726277,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 2143,
+  "message_count": 352,
+  "content_sha256": "82dc36760e5e51ba64ae9aeddef5d7d115916c74b8614f9c1d0de7ad2bdba274",
+  "files_copied": 551,
+  "references_not_copied": 40
+}

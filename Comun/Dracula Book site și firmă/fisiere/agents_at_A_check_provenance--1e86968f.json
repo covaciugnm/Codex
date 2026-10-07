@@ -1,0 +1,7 @@
+{
+    "captured_at":  "2026-09-24T08:25:30.3363657+03:00",
+    "source":  "06_REGISTRU/agents.json",
+    "copy":  "06_REGISTRU/CALIBRARE/ROM-001/agents_at_A_check.json",
+    "sha256":  "85c2932b751598375a73e38a8732da602bfe6c894476c6d69497d019f6824806",
+    "reason":  "Before additive registration of batch B; preserve context for QA batch A"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a0d1e2-59ed-7e23-8a75-cdd3413f413f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790227667,
+  "updated_at": 1790227838,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Wegener\",\"agent_role\":null}}}",
+  "title": "# Mandat A-PRODUCTION — calibrare TEST B ROM-001\nACTIVARE ACUM numai exercițiu11cazuri, fără audit productiv/traduceri/proză. Root:D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000.\nBeneficiarul a mandatat oechipă deagențispecializați și unroman completEN+RO+DE cu porțile stricte; pregătirea acestui rol se face independent în paralel cuG01. MainintegreazăG01, tunudublezi.\nCitește integral01_ECHIPA/A-PRODUCTION.md,00_CONDUCERE/MANUAL_ATELIER.md,06_REGISTRU/CALIBRARE/SET_TEST_r02.md,06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md.\nRăspunde laC01–C09 șiA-PRODUCTION-S01/S02;11răspunsuri motivate și localizări reale. Scrie exclusiv06_REGISTRU/CALIBRARE/ROM-001/A-PRODUCTION-b-r01.json prinapply_patch, schemasetuluiB,ID realpropriu nuCODEX_SESSION_IDmanager;managerulîlînregistreazădupăspawn.\nNu citi/edita manuscrise, site, registre ori altefișiere; nucreatesubagenți și nuaudita unprodusneînghețat. qualified=truepropriu nu calificareQA;cheie deschisănu testorbsaucertificareumană. Finalizeazăacumexercițiul,raporteazăfișierulșilimitele; G02+nuîncepeprinaceastăcalibrare.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 337254,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 14,
+  "message_count": 4,
+  "content_sha256": "90c01c413d52e524229726efd3252c19623033e2600563b4528153ad588aaa94",
+  "files_copied": 2,
+  "references_not_copied": 0
+}

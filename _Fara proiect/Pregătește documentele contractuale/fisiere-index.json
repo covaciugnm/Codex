@@ -1,0 +1,290 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-07/pr/outputs/00_Informatii_necesare.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/00_Informatii_necesare--ce84bbdd.docx",
+    "bytes": 3774,
+    "sha256": "507dd95dcf17d7f156ad02b89def0a4b7602c997f7f5f794e822eabc8f1f2485"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-07/pr/outputs/00_Informatii_necesare.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00_Informatii_necesare--ef2ad215.md",
+    "bytes": 5443,
+    "sha256": "ca8bf45c23ea7085cf1e137308f2c093aacf00185b16fa8420da8f9d4e8e168f"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-07/pr/outputs/Dosar_livrare_camere_PROIECT.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Dosar_livrare_camere_PROIECT--32a57f52.zip",
+    "bytes": 29003,
+    "sha256": "b65fe396be545033c519743818cb24c02747c9c08f68efb14dfd85445ac60149"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-07\\pr\\work\\build_documents.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/build_documents--2fa93347.ps1",
+    "bytes": 12910,
+    "sha256": "ac354d6527ad37e68208cca9422226d9a37c592e4e36360540410c7781e5acc0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-07\\pr\\work\\revise_contract.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/revise_contract--08d64fe6.ps1",
+    "bytes": 19887,
+    "sha256": "6608e5ff61c52b745fa8595de25c860dabdbfb7d1b2698fa1eaa232dfaa70549"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract\\_de\\_furnizare\\_nr9\\_INDUNOVA\\_revizuit\\_se (2).pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--671d64d8.jpg",
+    "bytes": 837257,
+    "sha256": "7861cb5eb75034793381a567e19f63b19fdd43bca3f7c7b79677e961297d0b98"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_02.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--c44eba8a.jpg",
+    "bytes": 786889,
+    "sha256": "55dfd02c65264dc18ff2672bb8e04210dec47c26defe33f7418d0f4155e0f508"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_03.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--c58ec135.jpg",
+    "bytes": 841169,
+    "sha256": "2a3c2b0f1c925fd400ea04644be54b24f937b784c9ada43ce142c6e73907ff31"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_04.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--57f778e1.jpg",
+    "bytes": 719143,
+    "sha256": "c46ea5e14349f7d5043084b6d203838ca536887a9ea5a754e7d98911990c879c"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_05.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--043bf183.jpg",
+    "bytes": 918777,
+    "sha256": "a1cd328ded4211c1f17c71bb0bb0c3c81789a1a76294c3bee60d5052a44770f5"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_06.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--848f9c3f.jpg",
+    "bytes": 550928,
+    "sha256": "75c89d6f960872218e53ce5ffc24ef6e33e4a06dc53a50a16795789751b8c299"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_07.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--2a2a275f.jpg",
+    "bytes": 567881,
+    "sha256": "9a1738cb182f031d37273cba569c40869cbd74cd3785975b4167760fcc223901"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_08.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--f9350b70.jpg",
+    "bytes": 801335,
+    "sha256": "aa7b9d8c2d12831bb4120d55d320a7b9a3bafa848a576fdbfbd482e50d5f28b9"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_09.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--0a837ef3.jpg",
+    "bytes": 798513,
+    "sha256": "20bf5fbefc78c9ab4bad9f37808bb9533c66f4b5aec14fa684ba793654018cbb"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_10.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--5f92c2cb.jpg",
+    "bytes": 701962,
+    "sha256": "8f5479e5ba811a664aa58c875bd411be726dbb0c58120bf1e8b476f1f3c325d6"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Contract Alarma-Camere\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_11.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--3c0b6cc9.jpg",
+    "bytes": 579462,
+    "sha256": "120ad9da7966db24a3873db55c37b358580f4d13b1eda5262eaa2b670740fba0"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Poze Serii Camere\\WhatsApp Image 2026-09-07 at 12.52.17 1.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 1--b3730ad3.jpeg",
+    "bytes": 939443,
+    "sha256": "82f26256840acbddddd87661f4bf890a2994e85f9557aeee984b1e28bb6adfa7"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Poze Serii Camere\\WhatsApp Image 2026-09-07 at 12.52.17 2.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 2--b629a31a.jpeg",
+    "bytes": 1053610,
+    "sha256": "7941c8631ab1da0a6a45a1b28eeb27462ba9bc303b7e524c2e42445742619ab7"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Poze Serii Camere\\WhatsApp Image 2026-09-07 at 12.52.17 3.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 3--7bf8f2e8.jpeg",
+    "bytes": 740050,
+    "sha256": "15b680a45daba33c70c0beb495fbb4fc2263ba23c4176fb9d70b9584735b7643"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Poze Serii Camere\\WhatsApp Image 2026-09-07 at 12.52.17 4.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 4--17c5a2cc.jpeg",
+    "bytes": 697386,
+    "sha256": "dda04af91b9fb5396e3f43cb51d227414676f751504e137799ac9b6557975042"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Poze Serii Camere\\WhatsApp Image 2026-09-07 at 12.52.17 5.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 5--8c4ac0c1.jpeg",
+    "bytes": 749125,
+    "sha256": "f0939f609eba3d915281c3ed08f4b9e14f3bbcff79247395a587087cd72a6dd2"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Poze Serii Camere\\WhatsApp Image 2026-09-07 at 12.52.17.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17--00177d25.jpeg",
+    "bytes": 954604,
+    "sha256": "6a26b4d88b1b0fa368d07a13d4e71378079e7937e57ae59b1a331ed4c75a5bfc"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_01.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--671d64d8.jpg",
+    "bytes": 837257,
+    "sha256": "7861cb5eb75034793381a567e19f63b19fdd43bca3f7c7b79677e961297d0b98"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_02.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--c44eba8a.jpg",
+    "bytes": 786889,
+    "sha256": "55dfd02c65264dc18ff2672bb8e04210dec47c26defe33f7418d0f4155e0f508"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_03.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--c58ec135.jpg",
+    "bytes": 841169,
+    "sha256": "2a3c2b0f1c925fd400ea04644be54b24f937b784c9ada43ce142c6e73907ff31"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_04.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--57f778e1.jpg",
+    "bytes": 719143,
+    "sha256": "c46ea5e14349f7d5043084b6d203838ca536887a9ea5a754e7d98911990c879c"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_05.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--043bf183.jpg",
+    "bytes": 918777,
+    "sha256": "a1cd328ded4211c1f17c71bb0bb0c3c81789a1a76294c3bee60d5052a44770f5"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_06.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--848f9c3f.jpg",
+    "bytes": 550928,
+    "sha256": "75c89d6f960872218e53ce5ffc24ef6e33e4a06dc53a50a16795789751b8c299"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_07.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--2a2a275f.jpg",
+    "bytes": 567881,
+    "sha256": "9a1738cb182f031d37273cba569c40869cbd74cd3785975b4167760fcc223901"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_08.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--f9350b70.jpg",
+    "bytes": 801335,
+    "sha256": "aa7b9d8c2d12831bb4120d55d320a7b9a3bafa848a576fdbfbd482e50d5f28b9"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_09.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--0a837ef3.jpg",
+    "bytes": 798513,
+    "sha256": "20bf5fbefc78c9ab4bad9f37808bb9533c66f4b5aec14fa684ba793654018cbb"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_10.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--5f92c2cb.jpg",
+    "bytes": 701962,
+    "sha256": "8f5479e5ba811a664aa58c875bd411be726dbb0c58120bf1e8b476f1f3c325d6"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Contract Alarma-Camere\\\\Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page_11.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/Contract_de_furnizare_nr9_INDUNOVA_revizuit_se (2)_Page--3c0b6cc9.jpg",
+    "bytes": 579462,
+    "sha256": "120ad9da7966db24a3873db55c37b358580f4d13b1eda5262eaa2b670740fba0"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Poze Serii Camere\\\\WhatsApp Image 2026-09-07 at 12.52.17 1.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 1--b3730ad3.jpeg",
+    "bytes": 939443,
+    "sha256": "82f26256840acbddddd87661f4bf890a2994e85f9557aeee984b1e28bb6adfa7"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Poze Serii Camere\\\\WhatsApp Image 2026-09-07 at 12.52.17 2.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 2--b629a31a.jpeg",
+    "bytes": 1053610,
+    "sha256": "7941c8631ab1da0a6a45a1b28eeb27462ba9bc303b7e524c2e42445742619ab7"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Poze Serii Camere\\\\WhatsApp Image 2026-09-07 at 12.52.17 3.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 3--7bf8f2e8.jpeg",
+    "bytes": 740050,
+    "sha256": "15b680a45daba33c70c0beb495fbb4fc2263ba23c4176fb9d70b9584735b7643"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Poze Serii Camere\\\\WhatsApp Image 2026-09-07 at 12.52.17 4.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 4--17c5a2cc.jpeg",
+    "bytes": 697386,
+    "sha256": "dda04af91b9fb5396e3f43cb51d227414676f751504e137799ac9b6557975042"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Poze Serii Camere\\\\WhatsApp Image 2026-09-07 at 12.52.17 5.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17 5--8c4ac0c1.jpeg",
+    "bytes": 749125,
+    "sha256": "f0939f609eba3d915281c3ed08f4b9e14f3bbcff79247395a587087cd72a6dd2"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Poze Serii Camere\\\\WhatsApp Image 2026-09-07 at 12.52.17.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/WhatsApp Image 2026-09-07 at 12.52.17--00177d25.jpeg",
+    "bytes": 954604,
+    "sha256": "6a26b4d88b1b0fa368d07a13d4e71378079e7937e57ae59b1a331ed4c75a5bfc"
+  },
+  {
+    "source_reference": "outputs/Dosar_livrare_camere_PROIECT.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Dosar_livrare_camere_PROIECT--9b06a6f1.zip",
+    "bytes": 29003,
+    "sha256": "b65fe396be545033c519743818cb24c02747c9c08f68efb14dfd85445ac60149"
+  }
+]

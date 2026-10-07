@@ -1,0 +1,78 @@
+{
+  "agent_id": "01a0d0ee-a18e-78a1-a069-9e87df0efc87",
+  "role": "A-SYSTEMS",
+  "set_version": "r02",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Defectul este scorul 950 al criteriului indicat. Cerința este strict >950 pe fiecare criteriu; scorurile 980 ale celorlalte criterii și verdictul PASS al autorului nu compensează neîndeplinirea pragului.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L12-L14"
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Defectul este folosirea aceluiași ID X pentru producție și audit. Aliasul Y nu creează un auditor independent; evaluarea este autoaudit și trebuie înlocuită cu evaluarea unui executant distinct de producător.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L16-L18"
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Defectul este nepotrivirea dintre SHA-256 A din raport și SHA-256 B al fișierului curent. Auditul nu acoperă versiunea curentă; aceasta necesită audit nou, fără schimbarea retroactivă a hashului din raportul vechi pentru a simula acoperirea.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L20-L22"
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Lipsește capitolul C02 cerut de planul C01–C03. Prezența capitolelor C01 și C03 și afirmația de completitudine din sumar nu înlocuiesc textul absent; integralitatea trebuie restabilită și reverificată.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L24-L26"
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Defectul este aceeași scenă textuală de 2.000 de cuvinte inclusă și numărată de două ori. Duplicarea nu dovedește volum suplimentar de proză validă; sunt necesare remedierea duplicării și retestarea textului și a numărării.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L28-L30"
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Defectul este contradicția dintre moartea definitivă a Marei la finalul V1 și prezentarea ei vie în V2. Stimulul nu oferă explicație sau schimbare autorizată; nu inventez o înviere ori altă rezolvare pentru a elimina contradicția.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L32-L34"
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Lipsește paragraful P04 din traducerea DE, deși există în masterul EN. Integralitatea se verifică prin corespondența ID-urilor P01–P04; existența P01–P03 sau un volum total aparent suficient nu compensează omisiunea.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L36-L38"
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "În scenariul sintetic sunt date toate condițiile de acceptare: doi auditori independenți și calificați, versiunea fixată, fiecare criteriu 951, zero constatări, metaaudit valid și condiții tehnice verificate. 951 este strict peste 950; nu adaug cerința de 1000 ori alte condiții inexistente.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L40-L42"
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Nu este localizat un defect în delimitarea sinceră a pasajelor citite: livrabilul cerut este selecția preliminară, iar raportul rămâne în acel scop. Limitarea nu justifică singură un RETURN, dar nici nu aprobă automat produsul, canonul integral sau romanul.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L44-L46"
+    },
+    {
+      "id": "A-SYSTEMS-S01",
+      "verdict": "RETURN",
+      "reason": "Defectul este păstrarea auditurilor părintelui după înlocuirea intrării EN-v1 cu EN-v2. Aprobarea separată a EN-v2 nu verifică relația părintelui cu noua versiune; sunt necesare fixarea noii dependențe și reevaluarea părintelui pe acea intrare.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L60-L62"
+    },
+    {
+      "id": "A-SYSTEMS-S02",
+      "verdict": "RETURN",
+      "reason": "Defectul este schimbarea sursei locale citate în timp ce raportul rămâne identic. Neschimbarea produsului nu conservă validitatea dovezii; versiunea sursei trebuie fixată și verificată, iar susținerea afirmațiilor trebuie reevaluată pentru noua sursă.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L64-L66"
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T01:27:23.5627179Z"
+}
+

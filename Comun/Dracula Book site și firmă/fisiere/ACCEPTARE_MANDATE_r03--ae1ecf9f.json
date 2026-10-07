@@ -1,0 +1,17 @@
+{
+  "status": {
+    "01a0d0ee-9f2d-77d0-8603-7aa9969772af": {
+      "completed": "Am preluat mandatul r03. Nu încep reauditul și nu scriu fișiere până la reluarea explicită după înghețarea contractelor și arhivelor `r03-before-audit`.\n\nLa reluare voi verifica cele trei pachete și voi emite inclusiv nota proprie de corectare RES, cu T01–T04 și verificarea efectivă a celor patru WorkID-uri. Închiderea `META-RES-001-r02-F01` rămâne la QA. Voi respecta regula OBS-MANAGER-002 și voi verifica metaraportul corectat cu sufixul `v02`."
+    },
+    "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8": {
+      "completed": "Mandatul r03 pentru RES-001 este preluat. Nu încep auditul și nu modific fișiere până la reluarea explicită după înghețarea contractelor și arhivelor.\n\nLa reluare voi verifica cele patru WorkID-uri, testele integrale de închidere și metaauditul r02 corectat **v02**, inclusiv respingerea închiderii GOV-RES-01. Calificarea existentă r02 rămâne valabilă, fără atribuire retroactivă r01."
+    },
+    "01a0d0ee-a18e-78a1-a069-9e87df0efc87": {
+      "completed": "Am preluat mandatul A-SYSTEMS pentru SYS-001 r03. Nu încep reauditul și nu fac scrieri; aștept reluarea de către coordonator după înghețarea contractului și arhivei r03-before-audit.\n\nLa reluare: retest integral F05/F06, 233 + 65 teste fără dublarea celor 17, verificarea OBS-MANAGER-002 și a metaraportului r02-v02, cu scoruri independente și probe arhivabile."
+    },
+    "01a0d0ee-a42b-7182-af79-92a1d6a9dafb": {
+      "completed": "Am primit mandatul r03, exclusiv SEL-001 / A-CANON. Nu încep verificările și nu scriu fișiere până la reluarea de către main după înghețarea contractului și arhivarea r03-before-audit.\n\nVoi verifica inclusiv OBS-MANAGER-002, copiile plate de referință și sufixul v02 al metaraportului r02. Păstrez rapoartele istorice nemodificate; reevaluarea nu va alege numele canonic și nu va închide G01."
+    }
+  },
+  "timed_out": false
+}

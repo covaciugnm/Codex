@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d1df-5136-7653-8989-034c9c8daaf7",
+  "role": "A-DE",
+  "set_version": "rom001-b-r01",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Criteriul cu 950 nu trece pragul strict >950. Celelalte note de 980 și media nu îl compensează; verdictul PASS este nejustificat.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:13 — C01, criteriul cu scor exact 950; regula și cheia la linia 14."
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Producătorul și semnatarul auditului au același ID X. Aliasul Y nu creează independență; autoauditul trebuie înlocuit cu evaluarea unui auditor distinct, calificat.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:17 — C02, identitatea X comună producției și auditului sub alias Y; cheia la linia 18."
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Hashul A din raport diferă de hashul B al fișierului curent. Auditul nu acoperă versiunea prezentă; este necesar un audit nou pe fișierul și amprenta curente.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:21 — C03, SHA-256 A în raport versus SHA-256 B pentru fișier; cheia la linia 22."
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Capitolul C02 cerut de plan lipsește dintre C01 și C03 depuse. Afirmația de completitudine din sumar nu înlocuiește textul absent; completarea și reverificarea sunt necesare.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:25 — C04, lista cerută C01-C03 comparată cu predarea C01 și C03; cheia la linia 26."
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Aceeași scenă de 2.000 de cuvinte apare în două capitole și este numărată de două ori. Duplicarea nu justifică volum suplimentar; sunt necesare remedierea, renumărarea prozei eligibile și retestarea.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:29 — C05, scena textuală comună celor două capitole și dubla numărare; cheia la linia 30."
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Mara vie în V2 contrazice moartea definitivă stabilită la sfârșitul V1. Lipsesc explicația și schimbarea autorizată; contradicția trebuie remediată fără inventarea unei rezolvări absente.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:33 — C06, moartea definitivă din V1 versus apariția vie din V2; cheia la linia 34."
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Paragraful EN/P04 nu are corespondent în DE, care se oprește la P03. Traducerea este incompletă; omisiunea trebuie remediată și alinierea verificată pe identificatori, nu prin volumul de cuvinte.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:37 — C07, EN/P01-P04 comparat cu DE/P01-P03, absența DE/P04; cheia la linia 38."
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "Fiecare criteriu are 951, deci depășește strict 950. Stimulul confirmă doi auditori independenți și calificați pe versiunea fixată, zero constatări, meta valid și toate condițiile tehnice; nu se adaugă un prag de 1000 sau criterii inexistente.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:41 — C08, scorurile 951 și toate condițiile de acceptare stipulate; cheia la linia 42."
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Delimitarea pasajelor citite respectă scopul declarat de selecție preliminară, fără pretenție de canon integral sau aprobare de roman. Limita sinceră nu constituie singură un defect și nu acordă automat PASS întregului produs.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:45 — C09, scopul preliminar și acoperirea explicit delimitată; cheia la linia 46."
+    },
+    {
+      "id": "A-DE-S01",
+      "verdict": "RETURN",
+      "reason": "EN exprimă o comunicare încă neefectuată prin «hadn't ... yet», iar DE afirmă efectuarea ei deja prin «schon gesagt». Sunt inversate negația și stadiul acțiunii fără autorizare; fluența gramaticală nu compensează pierderea sensului. Se cere corectarea și reverificarea fidelității.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md:23 — A-DE-S01, EN «I hadn't told her yet.» versus DE «Ich hatte es ihr schon gesagt.»; cheia la linia 24."
+    },
+    {
+      "id": "A-DE-S02",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Păstrarea consecventă a numelui Camille Duret respectă ghidul DE, iar idiomul din jur este stipulat corect. Cererea de schimbare în Kamilla Dürer inventează o obligație și contrazice ghidul; celelalte criterii lingvistice și integralitatea rămân de auditat separat.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md:26 — A-DE-S02, numele Camille Duret cerut de ghid și germanizarea Kamilla Dürer impusă de raport; cheia la linia 27."
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T08:25:04+03:00"
+}

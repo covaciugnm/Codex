@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-09-24T12:15:53.6015114+03:00",
+  "snapshot": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\08_ARHIVA\\ROM-001-G01\\r02-before-audit",
+  "index_sha256": "9e56a988b419458fe942a894355c037771abd8cf49b38b0cc7b0f214e39e56e3",
+  "receipt_match": true,
+  "sidecar_match": true,
+  "entries_checked": 848,
+  "all_entries_match": true,
+  "mismatches": [],
+  "copies": [
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.json",
+      "sha256": "9e56a988b419458fe942a894355c037771abd8cf49b38b0cc7b0f214e39e56e3",
+      "same_as_source": true
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.sha256",
+      "sha256": "53b3eb9e58c7e1c01b7a35d847f272fd884395632953dacc7267de8b829b237b",
+      "same_as_source": true
+    }
+  ],
+  "limits": "Every indexed entry checked for path confinement, SHA256 and byte size; exact flat index proofs. Not a cold restore or editorial approval."
+}

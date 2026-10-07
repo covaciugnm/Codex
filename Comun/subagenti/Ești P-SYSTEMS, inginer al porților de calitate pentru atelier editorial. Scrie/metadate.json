@@ -1,0 +1,23 @@
+{
+  "id": "01a0d0d9-1f95-7211-8093-c26e28e6ebee",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790210285,
+  "updated_at": 1790251203,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Galileo\",\"agent_role\":null}}}",
+  "title": "Ești P-SYSTEMS, inginer al porților de calitate pentru atelier editorial. Scrie DOAR în D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\04_INSTRUMENTE (apply_patch) un validator Python stdlib gatekeeper.py, teste unittest și README. Main creează docs/policy/registries în paralel. Nu crea scoruri sau rapoarte de audit literar. Contract date fix: CLI python gatekeeper.py --root ROOT --deliverable ID [--json]. ROOT/06_REGISTRU/deliverables.json {deliverables:[{id,stage,status,files:[{path,sha256}],producer_agent_ids:[UUID],required_audit_roles:[role1,role2],dependencies:[ID],requirements:{min_prose_words:50000 optional,prose_paths:[relpath] optional},criteria:[{id,weight}],audits:[relative JSON report paths]}]}. ROOT/06_REGISTRU/agents.json {agents:[{agent_id,role,kind:'producer'|'auditor',active:true}]}. ROOT/00_CONDUCERE/policy.json {schema_version:1,threshold_exclusive:950,score_scale:1000,min_independent_auditors:2,require_all_criteria_above_threshold:true}. Audit format {schema_version:1,audit_id,deliverable_id,reviewer_agent_id,reviewer_role,files:[{path,sha256}],criteria:[{id,score:0..1000 int,weight,evidence:[string nonempty]}],findings:[{id,severity,status,location,description,remediation}],verdict:'PASS'|'RETURN',limitations:[...],reviewed_at:ISO8601}. Need strict pass only EVERY criterion >950 (9.50/10 exclusive), every required role separate distinct registered auditor runtime UUID not any producer; exact criteria IDs/weights and sums100; evidence nonempty and real paths anchors may check strings notproofoftruth; exact current artifactfile hashes entirebundle; reject missingfile, hashchanged, unknownextra/duplicate auditcriterion orfile, missingaudits, duplicate IDs, badschema, openfinding severity any, malformednumbers bool treated invalid, traversal/symlink escape including auditpaths and absoluteoutside. All dependencies recursively pass currenthashchecks, detectcycles; do not accept status alone. Final prose count from exact prose_paths that MUST be inmanifest and text UTF8 .md/.txt; exclude metadata/headings? Document straightforward exclude Markdown headings/HTMLcomments and whitespace only; caller stores narrative only incldialogue; reject chapterplans/synopsis forhumanreview. Each prosepath includedcountonce; threshold>=50000. status RELEASED? engine doesn't publish; output {deliverable_id,passed,errors,weighted_scores,word_count,checked_files,dependencies} exit0pass/2reject. Never fake audits or modify states, no network or copying to S. Implement at least18 focused automated tests incl950rejected951pass selfaudit duplicateauditor outdatedhash dependency invalidation malformedscore missingcriterion openfinding boguspassstatus missingfile 49999reject 50000pass pathtraversal cycle. Tests operate ONLY TemporaryDirectory. README says tests use synthetic fixtures NOT real editorial approvals. Don't recursivelyinspect anyother dirs. Return paths and actualtestresults. No subagents. Main producer ID current main01a07b90-9d07-7e72-8eb7-8439e985b9ba; your ID will be recorded separately.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 13751215,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 257,
+  "message_count": 62,
+  "content_sha256": "7cd251692dd01683243787eff70595e4f2a6c1312b956f345cf352e50d5a762f",
+  "files_copied": 50,
+  "references_not_copied": 4
+}

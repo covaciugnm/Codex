@@ -1,0 +1,23 @@
+{
+  "id": "01a0a69c-8e26-77d0-a258-59a727d676b3",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789460823,
+  "updated_at": 1789461136,
+  "archived": 0,
+  "source": "vscode",
+  "title": "avem emailul :",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 58874,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 16,
+  "message_count": 16,
+  "content_sha256": "adeb180b92755fcf29c1967d7027c83b6ff1fb4fb46f3cf3408ccf7c8784073b",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

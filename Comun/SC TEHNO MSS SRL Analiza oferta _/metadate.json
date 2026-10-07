@@ -1,0 +1,23 @@
+{
+  "id": "01a0a69c-8e15-7721-93da-6c97dac9d687",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789469736,
+  "updated_at": 1789469843,
+  "archived": 0,
+  "source": "vscode",
+  "title": "SC TEHNO MSS SRL Analiza oferta :",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 55596,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 7,
+  "message_count": 7,
+  "content_sha256": "c57bd74d29c157a324894ec53a51739449ee7983a7127c31ebb0c57a37198055",
+  "files_copied": 1,
+  "references_not_copied": 2
+}

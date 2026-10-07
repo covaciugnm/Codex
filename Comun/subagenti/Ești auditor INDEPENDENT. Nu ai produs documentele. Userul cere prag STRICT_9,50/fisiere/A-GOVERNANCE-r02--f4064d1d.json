@@ -1,0 +1,78 @@
+{
+  "agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "role": "A-GOVERNANCE",
+  "set_version": "r02",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Defectul este criteriul cu scor 950: condiția este scor >950 pentru fiecare criteriu. Valorile 980 ale celorlalte criterii pot ridica media, dar nu fac adevărată această condiție pentru criteriul de 950. Declarația PASS a autorului nu repară eșecul; ar trebui remediat obiectul acelui criteriu și verificată noua versiune.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L13-L13"
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Identitatea care semnează auditul este tot X, adică identitatea producătorului. Y este doar un alias și nu furnizează un auditor independent. Compar producătorul cu ID-ul semnatarului, nu cu numele afișat; livrabilul are nevoie de auditul unei alte execuții reale, separate de producție.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L17-L17"
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Raportul se referă la octeții identificați de A, iar fișierul prezentat acum este identificat de B. Nu există în stimul un audit al versiunii B, deci raportul pentru A nu poate aproba fișierul curent. Păstrez raportul și versiunea auditată în istoric; pentru B trebuie verificare și audit nou, nu simpla înlocuire a hashului din raportul vechi.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L21-L21"
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Compar inventarul cerut, C01, C02 și C03, cu inventarul predat, C01 și C03: elementul absent este C02. Afirmația de completitudine din sumar este infirmată de predare și nu ține locul conținutului lipsă. Închiderea cere furnizarea lui C02 și verificarea completitudinii și coerenței întregii predări.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L25-L25"
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Aceeași scenă de 2.000 de cuvinte este folosită în două capitole și creditată de două ori. A doua apariție nu demonstrează încă 2.000 de cuvinte de dezvoltare narativă distinctă; există atât duplicare de conținut, cât și o numărătoare nejustificată. Nu cunosc din stimul lungimea eligibilă a întregului roman. Cer remedierea duplicării, renumărarea prozei eligibile și retestarea capitolelor afectate.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L29-L29"
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Intrarea de canon a exercițiului stabilește moartea definitivă a Marei la finalul V1; produsul V2 o prezintă vie fără explicație și fără schimbare autorizată. Cele două stări sunt incompatibile în condițiile date. Nu inventez o înviere, un vis sau o altă Mara ca să închid conflictul; autorul trebuie să corecteze V2 ori să urmeze procedura unei schimbări autorizate, apoi să prezinte versiunea pentru reaudit.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L33-L33"
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Alinierea pe identificatori arată EN={P01,P02,P03,P04}, DE={P01,P02,P03}; lipsește corespondentul DE al lui P04. O eventuală lungime mare a celorlalte paragrafe nu acoperă omisiunea. Pentru închidere trebuie tradus conținutul lui P04 și reverificate alinierea integrală, sensul și versiunea EN folosită.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L37-L37"
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "În stimul, fiecare criteriu are 951, deci depășește efectiv limita exclusivă 950. Sunt furnizate și celelalte condiții: doi auditori independenți și calificați, aceeași versiune fixată, zero constatări, metaaudit valid și verificări tehnice îndeplinite. Accept cazul sintetic pe aceste premise; nu introduc un prag de 1000 sau o condiție suplimentară. Acest PASS al exercițiului nu aprobă vreun produs real.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L41-L41"
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Obiectul cerut este o selecție preliminară, iar raportul își declară pasajele citite și nu pretinde nici lectură integrală, nici aprobare de roman. Absența unei asemenea pretenții este compatibilă cu obiectul cerut și nu dovedește un defect de completitudine al acestui livrabil preliminar. Verdictul privește numai limitarea descrisă; celelalte criterii trebuie verificate separat, fără PASS automat pentru produs și fără închiderea canonului integral.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L45-L45"
+    },
+    {
+      "id": "A-GOVERNANCE-S01",
+      "verdict": "RETURN",
+      "reason": "Contractul fixează două audituri primare și un metaaudit terminal, în timp ce fișa rolului adaugă un al patrulea auditor și continuă recursia. Această cerință suplimentară schimbă numărul de verificatori și elimină închiderea prevăzută a procedurii; operatorul nu poate respecta simultan cele două instrucțiuni. Fișa trebuie aliniată cu metaauditul terminal, apoi fluxul trebuie parcurs pentru a confirma că se închide după cele două rapoarte primare și metaraport.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L51-L51"
+    },
+    {
+      "id": "A-GOVERNANCE-S02",
+      "verdict": "RETURN",
+      "reason": "Materialul păstrat este numai un rezumat, dar eticheta pretinde o transcriere integrală originală. Eticheta afirmă o întindere și o proveniență pe care materialul descris nu le are; un rezumat nu permite recuperarea formulărilor și a întregii succesiuni originale. Cer recuperarea originalului dacă este disponibil sau etichetarea corectă a rezumatului și declararea explicită a lacunei. Nu reconstruiesc textul lipsă pentru a-l prezenta ca original; retestul compară eticheta și inventarul arhivat cu proveniența demonstrabilă.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L55-L55"
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T04:22:25.3894860+03:00"
+}
+

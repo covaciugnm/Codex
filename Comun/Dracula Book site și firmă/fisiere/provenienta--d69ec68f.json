@@ -1,0 +1,20 @@
+[
+  {
+    "source": "06_REGISTRU/agents.json",
+    "copy": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/agents.json",
+    "sha256": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+    "copied_at": "2026-09-24T08:35:32.8945083+03:00"
+  },
+  {
+    "source": "06_REGISTRU/deliverables.json",
+    "copy": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/deliverables_G00.json",
+    "sha256": "a13755caa3905091f5854302ca22616b4cd8af1e07d88b9c62a78908031ffa3c",
+    "copied_at": "2026-09-24T08:35:32.9065549+03:00"
+  },
+  {
+    "source": "00_CONDUCERE/STATUS.md",
+    "copy": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/STATUS_la_integrare.md",
+    "sha256": "8a4871c41a4484fe4d8b2a18055e8ef199deaf4a04188c03936d577bac1b12b2",
+    "copied_at": "2026-09-24T08:35:32.9169253+03:00"
+  }
+]

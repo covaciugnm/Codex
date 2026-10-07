@@ -1,0 +1,555 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/CALIBRARE_A-QAMANAGER-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CALIBRARE_A-QAMANAGER-r01--ab63d0db.md",
+    "bytes": 15556,
+    "sha256": "070f9bbe7d971de2b57c6685f74488f4929bc04f21fd451c70fd6348bd0f7da1"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CALIBRARE_VERIFICARE-r02--4de3948a.md",
+    "bytes": 19699,
+    "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/PREGATIRE_META_r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PREGATIRE_META_r02--488a78ae.md",
+    "bytes": 4908,
+    "sha256": "5966222711999317d061831336770b2a2370282d3bffa9c074c06d19ce8f73e7"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-QAMANAGER-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--61847955.md",
+    "bytes": 11694,
+    "sha256": "ba9648e7bebc9fc30f89bd91763932fdcddb869e6a8205aeaf818bc98bf00e25"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-QAMANAGER-r02-v02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--043dd3de.json",
+    "bytes": 12159,
+    "sha256": "cd86e93b412fe70dbf4330f4759ae9f4083b89f1f175f948330532fe93673671"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-QAMANAGER-r02-v02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--d399ae07.md",
+    "bytes": 18970,
+    "sha256": "1240abe7b4fdb4c73d342dacab1a811f7f758942962cca70620376f5552a7d90"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-QAMANAGER-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--81027ce4.json",
+    "bytes": 10949,
+    "sha256": "6e9aacec99011645e61c48daa068f4b0743efd334ed3ce7d070d731043f5643e"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-QAMANAGER-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--0338f2dc.md",
+    "bytes": 12543,
+    "sha256": "43ca373b4c2f17daac439314b6f70efd76101e58cd7865dfa6cf834cc05a0a38"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-QAMANAGER-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--fdf76203.json",
+    "bytes": 8769,
+    "sha256": "d155b3a0c4bb868bd48e1a0f5e203f76eb82a5dfb784a043edd8d9eb465e78b5"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-QAMANAGER-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--496545cb.md",
+    "bytes": 11994,
+    "sha256": "bdd678ed7027d7e9ff11f417d409490350286b5e092dfb4ccf0f3ad10f75b3dd"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_B_r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_B_r01--176e5094.json",
+    "bytes": 88536,
+    "sha256": "c3d85b46d3a2fde0d030e391b9b01d852732b1a13a4a4d06a731038d24bb032c"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_B_r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_B_r01--01d0bf9d.md",
+    "bytes": 31981,
+    "sha256": "e1a7d8ed210693a045479539779781994b1d7658d603bf05132f2d37e5a727df"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_r01--ac71ea78.json",
+    "bytes": 57413,
+    "sha256": "f9d9b6c1526824e0fb3cb49b70d7122ddc6bafdaf0afc7b783802a7de4aa1441"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_r01--d59ea31e.md",
+    "bytes": 25430,
+    "sha256": "13f1d435a47ce6df97f487e67d0abcca39f81c64ccf28165f041a65dfed7d42e"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/META-CONTROLES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META-CONTROLES--f25e796b.json",
+    "bytes": 98393,
+    "sha256": "915a966c3fbf1c0cd71fe85b75ba929dca77af3e1e90e6c0de0dd8f78ba95d80"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/META.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META--f24fd5c3.json",
+    "bytes": 14597,
+    "sha256": "8bcd69cee81e6af395eb5e737e7aab98b46568a4890b63fa3245125de385df4b"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/META.md",
+    "status": "copiat",
+    "saved_path": "fisiere/META--4e2e8c2e.md",
+    "bytes": 16891,
+    "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/META-CONTROLES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META-CONTROLES--73b163c0.json",
+    "bytes": 171156,
+    "sha256": "d611b03fdf9313f76e10b82fbea0152df547ddcc30890d3d2906a7ee6fa68245"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/META.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META--8061630f.json",
+    "bytes": 17030,
+    "sha256": "d6244a70b681aae4147926ab95a1d8573de478a61736ace283403f516c3ee6bb"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/META.md",
+    "status": "copiat",
+    "saved_path": "fisiere/META--707bdd8e.md",
+    "bytes": 17407,
+    "sha256": "66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-QAMANAGER-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--8100ebf5.md",
+    "bytes": 9519,
+    "sha256": "d3e6c0c8dc16b2906f631814f3e5b93d616088fc50cbc443a281fe3e7b2d4226"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-QAMANAGER-r02-v02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--fdb461fa.json",
+    "bytes": 10161,
+    "sha256": "3a3116325a629747b4a4109deac35b91c7bfe83a403e255061f3c8f812756ed5"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-QAMANAGER-r02-v02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--a9fee9ca.md",
+    "bytes": 15119,
+    "sha256": "ed3b7fbc09ffd384376f850c3fca56cf8fc6149e707ee2c12968332660f5a97c"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-QAMANAGER-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--dfc44e47.json",
+    "bytes": 8956,
+    "sha256": "3146963d6dfc47ef576a18e092b4c7f0f38c1a26528b127181e47afa5e96de80"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-QAMANAGER-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--0728a42a.md",
+    "bytes": 8854,
+    "sha256": "d1ddca8c05960e326f6096be744def439dfc12fa7e0287e5b4751008c677944e"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-QAMANAGER-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--68375b7c.json",
+    "bytes": 7734,
+    "sha256": "0bc38a9440021a9d743f4b41d72889ebfb8c96388ac44a78a85698261768c381"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-QAMANAGER-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--456abb17.md",
+    "bytes": 8243,
+    "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-QAMANAGER-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--f6d1d51d.md",
+    "bytes": 11783,
+    "sha256": "07b2a0b811e056ff867fa2c77a7cb056056bc50336872e1b0397b5c9145628c3"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-QAMANAGER-r02-v02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--fc16bc0e.json",
+    "bytes": 10415,
+    "sha256": "938d10005ef804104708d8afae283cb1400a9b73413a1c0f00ffbe93696b8ea5"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-QAMANAGER-r02-v02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--670606a4.md",
+    "bytes": 15345,
+    "sha256": "596067369ce4bb0a3c591734e072e8d292d4877303cfbece2610b38a33b47b61"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-QAMANAGER-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--17063d9a.json",
+    "bytes": 9209,
+    "sha256": "d886cb75115f8f8be0e28a0ca0ca83021c85dc7dcb2b1f2655da7e9720281209"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-QAMANAGER-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--3dbe910d.md",
+    "bytes": 9079,
+    "sha256": "6621294148263d250cca7804928d7ae2272f7924b747773637618b0829dd0611"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-QAMANAGER-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--c65aad50.json",
+    "bytes": 8192,
+    "sha256": "ec58d8883758672cdeafec6e0f99fde2cd87b2c28024d353d9e636679d68a20c"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-QAMANAGER-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--1d9f2ad1.md",
+    "bytes": 9825,
+    "sha256": "a4f2c52b7bc63b61d75e20330aaa13afc311a5596d4ed024a97fcbb29668fca5"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/CALIBRARE/A-QAMANAGER-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--43a7793c.json",
+    "bytes": 4506,
+    "sha256": "e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\CALIBRARE_A-QAMANAGER-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CALIBRARE_A-QAMANAGER-r01--ab63d0db.md",
+    "bytes": 15556,
+    "sha256": "070f9bbe7d971de2b57c6685f74488f4929bc04f21fd451c70fd6348bd0f7da1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\CALIBRARE_VERIFICARE-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CALIBRARE_VERIFICARE-r02--4de3948a.md",
+    "bytes": 19699,
+    "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\PREGATIRE_META_r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PREGATIRE_META_r02--488a78ae.md",
+    "bytes": 4908,
+    "sha256": "5966222711999317d061831336770b2a2370282d3bffa9c074c06d19ce8f73e7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--fec50587.json",
+    "bytes": 2073,
+    "sha256": "b94b83624df0ed045705b85fd3749bb9ba95997dfa9e6480e8e1b8130762edae"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--61847955.md",
+    "bytes": 11694,
+    "sha256": "ba9648e7bebc9fc30f89bd91763932fdcddb869e6a8205aeaf818bc98bf00e25"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r02-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-tests--ca9087c0.txt",
+    "bytes": 5435,
+    "sha256": "baa027d0926bdfef9dbcf62cf1efabed2424788ad4b0f5716936d43ecd53aa2a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r02-v02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--043dd3de.json",
+    "bytes": 12159,
+    "sha256": "cd86e93b412fe70dbf4330f4759ae9f4083b89f1f175f948330532fe93673671"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r02-v02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--d399ae07.md",
+    "bytes": 18970,
+    "sha256": "1240abe7b4fdb4c73d342dacab1a811f7f758942962cca70620376f5552a7d90"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--81027ce4.json",
+    "bytes": 10949,
+    "sha256": "6e9aacec99011645e61c48daa068f4b0743efd334ed3ce7d070d731043f5643e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--0338f2dc.md",
+    "bytes": 12543,
+    "sha256": "43ca373b4c2f17daac439314b6f70efd76101e58cd7865dfa6cf834cc05a0a38"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r03-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03-tests--10a40ae2.txt",
+    "bytes": 8278,
+    "sha256": "ab286f44b1492922afe25fccd1e5a9bbda9a332043034ef425b58f0580e4a48a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--fdf76203.json",
+    "bytes": 8769,
+    "sha256": "d155b3a0c4bb868bd48e1a0f5e203f76eb82a5dfb784a043edd8d9eb465e78b5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\RES-001\\A-QAMANAGER-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--496545cb.md",
+    "bytes": 11994,
+    "sha256": "bdd678ed7027d7e9ff11f417d409490350286b5e092dfb4ccf0f3ad10f75b3dd"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-CALIBRARE\\VERIFICARE_B_r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_B_r01--176e5094.json",
+    "bytes": 88536,
+    "sha256": "c3d85b46d3a2fde0d030e391b9b01d852732b1a13a4a4d06a731038d24bb032c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-CALIBRARE\\VERIFICARE_B_r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_B_r01--01d0bf9d.md",
+    "bytes": 31981,
+    "sha256": "e1a7d8ed210693a045479539779781994b1d7658d603bf05132f2d37e5a727df"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-CALIBRARE\\VERIFICARE_r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_r01--ac71ea78.json",
+    "bytes": 57413,
+    "sha256": "f9d9b6c1526824e0fb3cb49b70d7122ddc6bafdaf0afc7b783802a7de4aa1441"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-CALIBRARE\\VERIFICARE_r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE_r01--d59ea31e.md",
+    "bytes": 25430,
+    "sha256": "13f1d435a47ce6df97f487e67d0abcca39f81c64ccf28165f041a65dfed7d42e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r01\\META-CONTROLES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META-CONTROLES--f25e796b.json",
+    "bytes": 98393,
+    "sha256": "915a966c3fbf1c0cd71fe85b75ba929dca77af3e1e90e6c0de0dd8f78ba95d80"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r01\\META.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META--f24fd5c3.json",
+    "bytes": 14597,
+    "sha256": "8bcd69cee81e6af395eb5e737e7aab98b46568a4890b63fa3245125de385df4b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r01\\META.md",
+    "status": "copiat",
+    "saved_path": "fisiere/META--4e2e8c2e.md",
+    "bytes": 16891,
+    "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r02\\META-CONTROLES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META-CONTROLES--73b163c0.json",
+    "bytes": 171156,
+    "sha256": "d611b03fdf9313f76e10b82fbea0152df547ddcc30890d3d2906a7ee6fa68245"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r02\\META.json",
+    "status": "copiat",
+    "saved_path": "fisiere/META--8061630f.json",
+    "bytes": 17030,
+    "sha256": "d6244a70b681aae4147926ab95a1d8573de478a61736ace283403f516c3ee6bb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r02\\META.md",
+    "status": "copiat",
+    "saved_path": "fisiere/META--707bdd8e.md",
+    "bytes": 17407,
+    "sha256": "66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--2afeb770.json",
+    "bytes": 1976,
+    "sha256": "9bf6987b922da6617dd6b91e1f5361abe523781d6a92e7e9e6bf57e3d4eeec37"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--8100ebf5.md",
+    "bytes": 9519,
+    "sha256": "d3e6c0c8dc16b2906f631814f3e5b93d616088fc50cbc443a281fe3e7b2d4226"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r02-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-tests--d36c869d.txt",
+    "bytes": 4973,
+    "sha256": "7bdfcce6098694e066924616701557700546e28476cd3ee60c78425b1f298d67"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r02-v02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--fdb461fa.json",
+    "bytes": 10161,
+    "sha256": "3a3116325a629747b4a4109deac35b91c7bfe83a403e255061f3c8f812756ed5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r02-v02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--a9fee9ca.md",
+    "bytes": 15119,
+    "sha256": "ed3b7fbc09ffd384376f850c3fca56cf8fc6149e707ee2c12968332660f5a97c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--dfc44e47.json",
+    "bytes": 8956,
+    "sha256": "3146963d6dfc47ef576a18e092b4c7f0f38c1a26528b127181e47afa5e96de80"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--0728a42a.md",
+    "bytes": 8854,
+    "sha256": "d1ddca8c05960e326f6096be744def439dfc12fa7e0287e5b4751008c677944e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r03-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03-tests--65d44a40.txt",
+    "bytes": 6405,
+    "sha256": "e1d445144ceaa694d3d230ef0d2cc7dc48cf861e1f18c04b45c8db79011a46e5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--68375b7c.json",
+    "bytes": 7734,
+    "sha256": "0bc38a9440021a9d743f4b41d72889ebfb8c96388ac44a78a85698261768c381"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-QAMANAGER-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--456abb17.md",
+    "bytes": 8243,
+    "sha256": "6c9b6cc0f2da7ea4763b08d873ae5cb7da66b3206970be760536b40af6dab8b0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--5238b0e7.json",
+    "bytes": 2066,
+    "sha256": "7192f8a85bc54bc9ab2bb708bf3ffd2128665eb7d450ebf635aafc4acee08311"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r01--f6d1d51d.md",
+    "bytes": 11783,
+    "sha256": "07b2a0b811e056ff867fa2c77a7cb056056bc50336872e1b0397b5c9145628c3"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r02-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-tests--0a4dcf52.txt",
+    "bytes": 6198,
+    "sha256": "0f0c65eb562e8d2372d9fb4ae031a97c101deee0aa7fd87ec68f53d5c9255e74"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r02-v02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--fc16bc0e.json",
+    "bytes": 10415,
+    "sha256": "938d10005ef804104708d8afae283cb1400a9b73413a1c0f00ffbe93696b8ea5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r02-v02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02-v02--670606a4.md",
+    "bytes": 15345,
+    "sha256": "596067369ce4bb0a3c591734e072e8d292d4877303cfbece2610b38a33b47b61"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--17063d9a.json",
+    "bytes": 9209,
+    "sha256": "d886cb75115f8f8be0e28a0ca0ca83021c85dc7dcb2b1f2655da7e9720281209"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--3dbe910d.md",
+    "bytes": 9079,
+    "sha256": "6621294148263d250cca7804928d7ae2272f7924b747773637618b0829dd0611"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r03-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03-tests--85f73341.txt",
+    "bytes": 10691,
+    "sha256": "115a31486a0ec8c770e6a8ad41e7f6c22d5e7993d302f98429728b247d999cd3"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--c65aad50.json",
+    "bytes": 8192,
+    "sha256": "ec58d8883758672cdeafec6e0f99fde2cd87b2c28024d353d9e636679d68a20c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-QAMANAGER-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r03--1d9f2ad1.md",
+    "bytes": 9825,
+    "sha256": "a4f2c52b7bc63b61d75e20330aaa13afc311a5596d4ed024a97fcbb29668fca5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\CALIBRARE\\A-QAMANAGER-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-QAMANAGER-r02--43a7793c.json",
+    "bytes": 4506,
+    "sha256": "e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669"
+  }
+]

@@ -1,0 +1,51 @@
+An: herzina@zt-pech.at; office@zt-pech.at
+Betreff: Übermittlung Unterlagen Ausführungsstatik – Schallergasse 35, 1120 Wien
+
+Sehr geehrter Herr DI Herzina,
+
+wie besprochen übermitteln wir Ihnen die für Ihre Kostenkalkulation erforderlichen Unterlagen (Einreichpläne, Einreichstatik) samt Baubewilligung und Grundbuch. Sämtliche Dateien sind in der ZIP „Schallergasse35_Statik-Unterlagen_2026-08-10.zip“ (Unterordner 01–05) enthalten.
+
+BEILAGENVERZEICHNIS:
+
+01_Baubewilligung_MA37 – Baubewilligung
+   - Baubescheid_MA37-1539234-2021-1_2023-04-21.pdf  →  Rechtskräftiger Baubescheid der MA 37 vom 21.04.2023 (§ 70 BO Wien, mit § 68/§ 69)
+   - Baubeschreibung_P2041_2022.pdf  →  Genehmigte Baubeschreibung (EINFACH3 Architekten, 2022)
+
+02_Einreichplaene_P2041_genehmigt – Einreichpläne (Original)
+   - P2041_Einreichplaene_Genehmigung_Geschosse_A3.pdf  →  Genehmigte Einreichpläne P2041 (Geschosse, mit amtlichem Sichtvermerk), A3 – PDF
+   - P2041_Einreichplaene_CAD_C-01_2023-04-20.dwg  →  Einreichpläne P2041 im Original-CAD (AutoCAD 2018), Blatt C-01, Planstand 20.04.2023
+   - P2041_Einreichplaene_CAD_C-02_2023-04-20.dwg  →  Einreichpläne P2041 im Original-CAD (AutoCAD 2018), Blatt C-02, Planstand 20.04.2023
+   - P2041_Einreichplan_Original_M1-100_2021.pdf  →  Original-Einreichplan-PDF (Planstand 2021, Massstab 1:100)
+
+03_Grundbuch_EZ2235 – Grundbuch (alt und neu)
+   - Grundbuchauszug_original_2025-11-05_TZ1812-2024.pdf  →  Original-Grundbuchauszug vom 05.11.2025 (Letzte TZ 1812/2024) – Stand VOR Eigentumserwerb A&C – alter Auszug
+   - Grundbuchauszug_aktuell_EZ2235_KG01305.pdf  →  Aktueller Grundbuchauszug EZ 2235, KG 01305 Meidling (Eigentümer A&C Wohnart, TZ 466/2026) – neuer Auszug
+   - Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf  →  Grundbuchbeschluss TZ 466/2026: Eigentumsübertragung an A&C Wohnart
+
+04_Einreichstatik_2021 – Einreichstatik
+   - STATIK_VorKonzept_2021-12-07.pdf  →  Statisches Vorkonzept vom 07.12.2021 (Dr. PECH ZT GmbH / Bmstr. DI(FH) M. Berger GmbH)
+   - Statische_Vorbemessung_2021_inkl_Mauerwerksgutachten.pdf  →  Statische Vorbemessung 2021 inkl. Mauerwerksgutachten (komprimierte Fassung)
+
+05_Verbesserungsvorschlag_2026 – Architektur (DE, ohne Schriftfeld)
+   - Verbesserungsvorschlag 2026 - Grundriss Kellergeschoss - Bestand.pdf  →  Grundriss Kellergeschoss – Bestand
+   - Verbesserungsvorschlag 2026 - Grundriss Erdgeschoss - Bestand.pdf  →  Grundriss Erdgeschoss – Bestand
+   - Verbesserungsvorschlag 2026 - Grundriss 1.-3. Obergeschoss - Bestand.pdf  →  Grundriss 1.–3. Obergeschoss – Bestand
+   - Verbesserungsvorschlag 2026 - Grundriss Kellergeschoss - Yoga.pdf  →  Grundriss Kellergeschoss – Umbau (Yoga)
+   - Verbesserungsvorschlag 2026 - Grundriss Erdgeschoss.pdf  →  Grundriss Erdgeschoss – Umbau
+   - Verbesserungsvorschlag 2026 - Grundriss 1.-3. Obergeschoss.pdf  →  Grundriss 1.–3. Obergeschoss – Umbau
+   - Verbesserungsvorschlag 2026 - Schnitt A-A.pdf  →  Schnitt A-A (Höhenkoten, Tragstruktur)
+   - Verbesserungsvorschlag 2026 - Detail Traufe.pdf  →  Detail Traufe (Dachaufbau DA01)
+   - Verbesserungsvorschlag 2026 - Detail Gaupe.pdf  →  Detail Gaupe (DA03)
+   - Verbesserungsvorschlag 2026 - Detail Gaupe-Attika.pdf  →  Detail Gaupe-Attika (DA02/DA03)
+   - Verbesserungsvorschlag 2026 - Grundriss Kellergeschoss.dwg / .dxf  →  CAD Kellergeschoss (DWG + DXF, ACAD2018)
+   - Verbesserungsvorschlag 2026 - Grundriss Erdgeschoss.dwg / .dxf  →  CAD Erdgeschoss (DWG + DXF)
+   - Verbesserungsvorschlag 2026 - Grundriss 1.-3. Obergeschoss.dwg / .dxf  →  CAD 1.–3. Obergeschoss (DWG + DXF)
+
+Hinweis: Die Architekturpläne (Grundrisse, Schnitt, Details) sind als „Verbesserungsvorschlag 2026“ beigelegt (übersetzt, ohne Schriftfeld); genehmigte Einreichpläne P2041 und Baubescheid gesondert. CAD als DWG + DXF (ACAD2018).
+
+Für Rückfragen und eine Objektbegehung stehen wir gerne zur Verfügung. Über Ihr Angebot mit Pauschalpreisen je Position freuen wir uns.
+
+Mit freundlichen Grüßen
+Cosmin Covaciu, Geschäftsführer
+A&C Wohnart Immobilien GmbH (FN 668224h), Parkring 2, 1010 Wien
+office@ac-wohnart.at | +43 665 67055045

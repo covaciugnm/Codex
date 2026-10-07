@@ -1,0 +1,20 @@
+This is a website implementation brief and researched import package. It is not a deployed customer portal.
+
+Apply the migrations to an empty PostgreSQL 16+ test database in this order:
+1. schema.sql
+2. 002_dynamic_fields.sql
+3. seed.sql
+
+Use a migration owner to create schema objects, then a separate non-owner runtime role without SUPERUSER/BYPASSRLS. Grant only required table/column privileges. RLS covers projects, parts, documents, events, quotations and binary content, but it does not replace application authorization for state changes. Never give customers a direct DB connection or permit browser input to set app.user_id/app.staff.
+
+The seed imports English materials, industries, application records, original drawings, document/image metadata, UI draft translations, DB-defined page positions, menus and order fields. It has no customer records, credentials or invented EVA PRINT portfolio work. Catalog research stays draft pending editorial/engineering review. Some common UI English fields are published. Draft translations in the six other languages must be reviewed before public use.
+
+Binary import procedure for the Go worker
+Read asset-import-manifest.json. Resolve each path beneath the selected research package directory; reject traversal and unexpected links. Compute SHA-256 while streaming, and compare to the manifest. Begin a transaction with a restricted importer role, look up the matching assets.relative_path and insert one file_blobs row with asset_id, size, hash and complete=false. For original published illustrations use licensed_public; all external reference copies use private. Determine MIME from the real file type. Insert file_blob_chunks in sequence starting at zero with <=8 MiB per bytea value using parameterized queries. Verify total length and continuity, set complete=true, and commit. On interruption roll back or use a separately designed resumable protocol; never publish a partial file. A production importer must not run as a customer role.
+
+Duplicate complete blobs with the same asset/hash can be skipped. An updated asset creates a new content revision or replaces its blob through an audited transaction. The metadata object_key field is a logical internal identifier in this all-DB design, not a public object-storage URL. Images optimized for public pages receive separate asset_derivatives records and blobs. Permit public access only if rights and publication status also allow it.
+
+Configure Google with actual credentials and exact callback URLs. EU Pass is unresolved and remains disabled. Add the company's address, telephone and legal details after they are supplied. Confirm the exact fleet generations, enclosure/chamber options, nozzle/bed limits, profiles, inventory and approved public media. Review contact/privacy/quotation terms. Do not expose this research directory as public website static content.
+
+Validation scope
+The package's validation report records migration/seed execution and meaningful translation, layout, locale, binary and cross-customer isolation checks using embedded PostgreSQL through PGlite. It is not a benchmark or a deployed PostgreSQL service. Repeat integration, performance, backup and identity-provider tests against the actual production-like PostgreSQL/Go installation.

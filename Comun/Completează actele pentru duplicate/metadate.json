@@ -1,0 +1,23 @@
+{
+  "id": "01a09f4c-6f68-7ce0-868b-91106755287c",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789378981,
+  "updated_at": 1789385899,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Completează actele pentru duplicate",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 5891090,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 84,
+  "message_count": 30,
+  "content_sha256": "25389a8ab7e7dd7fdf2434a8515226e34a13528435b72606c0dc5e5f1cf34f2e",
+  "files_copied": 18,
+  "references_not_copied": 3
+}

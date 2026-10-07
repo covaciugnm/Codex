@@ -1,0 +1,23 @@
+{
+  "id": "01a10e00-d37d-7aa3-a5b9-e9dc1f27216a",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791101220,
+  "updated_at": 1791189750,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Oprire sincronizare Google Drive",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 238834,
+  "invalid_json_lines": 0,
+  "history_source": "legacy_events",
+  "rollout_exists": true,
+  "item_count": 110,
+  "message_count": 110,
+  "content_sha256": "283ce36b1847531e650d89c6b8ce6dd3edcb0792e98a9bbe7013ca530dbcbfb3",
+  "files_copied": 10,
+  "references_not_copied": 48
+}

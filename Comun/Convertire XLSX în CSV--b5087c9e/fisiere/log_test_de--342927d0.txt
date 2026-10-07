@@ -1,0 +1,2 @@
+[de] de tradus: 80 segmente, paralel=1
+[de] 40/80 seg | ok 40 | 3.7 tok/s | 424 seg/h | ramas ~0.1 h

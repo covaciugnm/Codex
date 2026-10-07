@@ -1,0 +1,77 @@
+CIORNĂ EVA (id 837ece78-65df-4dec-8531-5523c906491a) – de trimis din EVA → Drafts
+De la: covaciu.gnm@gmail.com
+Către: [DE COMPLETAT] – Austrian Airlines nu are în emailurile primite o adresă de răspuns (doar noreply / service@boardingpass.austrian.com).
+   Variante: formularul de contact / feedback de pe austrian.com (Help & Contact → Kontakt / Feedback → „Rechnung / Invoice”) – se lipește textul de mai jos.
+Subiect: Invoice request for company CESIRO TRADING S.R.L. – ticket 257-2173485823 and seat reservation (36 EUR) – booking 8R34HD – OS710 SBZ–VIE, 25 Sep 2026
+
+Date verificate în EVA (24.09.2026):
+- Austrian boarding pass (14:54 RO): COVACIU, COSMIN MR, OS 710 SBZ→VIE 25SEP26 06:00→06:15, Terminal 1 (Sibiu), loc 12C, Group 3, boarding 05:25, gate closes 05:45, bag drop până la 05:20, 1 personal item + 1 carry-on 8 kg, PNR 8R34HD, bilet 2572173485823, tarif ECO LIGHT, Sec. no. 94.
+- Wise (14:52 RO): „You spent 36 EUR at Austrian Airlines” – card business CESIRO TRADING S.R.L., 191,38 RON.
+- Airpaz receipt: bilet 1.345,78 lei + processing fee 131,88 lei – discount 0,26 lei = 1.477,40 RON.
+------------------------------------------------------------------------------------------------
+
+Dear Austrian Airlines Customer Service Team,
+
+I am writing to request invoices, issued to my company, for my flight OS710 from Sibiu to Vienna on 25 September 2026. For clarity, the full background and all booking details are set out below.
+
+1. Background
+
+I am travelling to Vienna on business. On 25 September 2026 I have meetings with a bank, construction companies and the Vienna building authority (MA 37) concerning our real estate project at Schallergasse 35, 1120 Vienna.
+
+- On 22 September 2026 I booked flight A2690 with AnimaWings from Cluj-Napoca (CLJ) to Vienna (VIE), departing 25 September 2026 at 06:50 (booking 13TQQ8, ticket 3932402437990, price 184.99 EUR).
+- On 24 September 2026, at around 13:36 Romanian time, less than 17 hours before departure, AnimaWings informed me that this flight had been cancelled. No alternative flight was offered. The ticket was refunded, and I am claiming compensation from AnimaWings separately under Regulation (EC) No 261/2004.
+- To keep my appointments in Vienna, on the same day I urgently purchased a replacement ticket on your flight OS710 through the online travel agency Airpaz.
+- On the same day I paid 36 EUR directly to Austrian Airlines by card for a seat reservation (seat 12C), and I checked in online.
+- Airpaz has informed me that it cannot issue a tax invoice in line with Romanian tax regulations, only a receipt. For this reason I am turning to you as the operating and ticketing carrier.
+
+2. Booking details – Airpaz (travel agency)
+
+- Airpaz Code / Order number: 1037703518
+- Order confirmed and ticket issued: 24 September 2026
+- Airpaz receipt date: 24 September 2026, 12:52:37
+- Ticket fare (Austrian Airlines, SBZ-VIE, 8R34HD, 25 Sep 2026, 06:00): RON 1,345.78
+- Airpaz processing fee: RON 131.88
+- Discount: RON -0.26
+- Total paid to Airpaz: RON 1,477.40, by credit/debit card
+- Contact on the booking: Cosmin Covaciu, covaciu.gnm@gmail.com, +40 722 239 664
+
+3. Ticket and flight details – Austrian Airlines
+
+- Passenger: COVACIU, COSMIN MR
+- Airline booking code (PNR): 8R34HD
+- Ticket number: 257-2173485823
+- Flight: OS 710, direct, operated by Austrian Airlines
+- Route: Sibiu International Airport (SBZ), Terminal 1 – Vienna International Airport (VIE), Terminal 3
+- Date and time: 25 September 2026, departure 06:00 (local time Sibiu), arrival 06:15 (local time Vienna)
+- Fare: Economy Light (ECO LIGHT)
+- Baggage: 1 personal item + 1 carry-on bag (8 kg)
+- Online check-in completed; boarding pass issued on 24 September 2026: seat 12C, Boarding Group 3, boarding 05:25, gate closes 05:45, sequence no. 94
+
+4. Seat reservation paid directly to Austrian Airlines
+
+- Seat: 12C on OS710, 25 September 2026
+- Amount: 36.00 EUR
+- Payment: card payment on 24 September 2026, at around 14:52 Romanian time, with the business card of CESIRO TRADING S.R.L. (debited RON 191.38)
+
+5. Request
+
+Please issue, in the name of the company below:
+- an invoice or passenger receipt ("Passenger Receipt / Rechnung") for ticket 257-2173485823, booking 8R34HD; and
+- an invoice for the seat reservation of 36.00 EUR (EMD / ancillary service) paid on 24 September 2026.
+
+Billing details:
+- Company name: CESIRO TRADING S.R.L.
+- VAT number (CUI): RO37705493
+- Fiscal code: 37705493
+- Trade Register number: J01/685/2017
+- Registered office: Str. Theodor Pallady, nr. 5, 510330 Alba Iulia, județul Alba, Romania
+- Phone: +40 722 239 664
+- E-mail: covaciu.gnm@gmail.com
+
+Please send the documents as PDF to covaciu.gnm@gmail.com and let me know your case or reference number for this request. If the invoice for the ticket can only be issued by the travel agency, please issue at least the invoice for the seat reservation, which was paid directly to Austrian Airlines, and confirm this in writing.
+
+Thank you in advance for your assistance.
+
+Kind regards,
+
+Cosmin Adrian Covaciu

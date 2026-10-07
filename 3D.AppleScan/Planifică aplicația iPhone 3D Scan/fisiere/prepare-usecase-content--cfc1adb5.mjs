@@ -1,0 +1,11 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..');
+const catalog=JSON.parse(await readFile(path.join(root,'docs/usecase-catalog-ro.json'),'utf8'));
+const sources=JSON.parse(await readFile(path.join(root,'docs/usecase-sources.json'),'utf8'));
+const categories=[...new Set(catalog.items.map(i=>i.category))];
+const used=new Set(catalog.items.flatMap(i=>i.sourceIds));
+const publicSources=sources.sources.filter(s=>used.has(s.id)).map(s=>({id:s.id,label:s.title,url:s.url}));
+const cases=catalog.items.map(({id,category,module,sourceIds})=>({id,category,module,sourceIds}));
+await writeFile(path.join(root,'public/usecases-data.js'),`export const useCases=${JSON.stringify(cases)};\nexport const useCaseCategories=${JSON.stringify(categories)};\nexport const useCaseSources=${JSON.stringify(publicSources)};\n`);
+console.log(JSON.stringify({usecases:cases.length,categories:categories.length,sources:publicSources.length}));

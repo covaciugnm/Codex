@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9d19-7b32-b81b-d453d5f38200",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788361705,
+  "updated_at": 1788362600,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Scan2026-08-20_175626 organizare",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 162002,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 92,
+  "message_count": 92,
+  "content_sha256": "49df1bbb80afd819d765b855ac1df0291e5c5fef2133192ca1b68f13c44f9854",
+  "files_copied": 2,
+  "references_not_copied": 11
+}

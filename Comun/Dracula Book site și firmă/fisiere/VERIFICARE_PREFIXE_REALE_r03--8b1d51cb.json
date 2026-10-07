@@ -1,0 +1,60 @@
+{
+  "type": "REAL_PREFIX_BYTE_CHECK",
+  "capture": "history-r03-preaudit",
+  "results": [
+    {
+      "role": "P-MANAGER",
+      "bytes": 19792792,
+      "sha256": "2b5a689c37baf992c4556a22a7188f292b8f661eeadecb72bca971c5ffb6cc8e",
+      "passed": true
+    },
+    {
+      "role": "P-CANON",
+      "bytes": 5307281,
+      "sha256": "da4c6564911cd27f22620b981ea27f72bca8627bcf0271a868e466b047c0346d",
+      "passed": true
+    },
+    {
+      "role": "P-RESEARCH",
+      "bytes": 4866093,
+      "sha256": "2b62766b910cfd9f0d8d5773abeb34389ca70daf3fe637a85a48d8e0d8724e9d",
+      "passed": true
+    },
+    {
+      "role": "P-SYSTEMS",
+      "bytes": 4350873,
+      "sha256": "588ae35c5788501e003cabaf69f412a521c148223f108608510ae4a3ea0092bb",
+      "passed": true
+    },
+    {
+      "role": "A-GOVERNANCE",
+      "bytes": 6981922,
+      "sha256": "f3c21622f3343cba26bf8718a8ab2e619fce8e7e290c428abcfa94c14b035247",
+      "passed": true
+    },
+    {
+      "role": "A-SYSTEMS",
+      "bytes": 7003555,
+      "sha256": "86f067ba63809aa371b8263e315081d1985050a43434e4a20b8fe41d8d14f597",
+      "passed": true
+    },
+    {
+      "role": "A-CANON",
+      "bytes": 6234155,
+      "sha256": "52c6cc5e489afe3c6a83938c14ccc9ca5b47534f626c0ac03e183f9b75164030",
+      "passed": true
+    },
+    {
+      "role": "A-SOURCES",
+      "bytes": 6783313,
+      "sha256": "27d489d88d4c62a6e23b8bdc27c4b472e2d894c48ef801f3d32094243abfccf6",
+      "passed": true
+    },
+    {
+      "role": "A-QAMANAGER",
+      "bytes": 10484381,
+      "sha256": "1008b361a150d7f44260602881f51b9adabf18d201f6e6c3e9d6f771286c2d5a",
+      "passed": true
+    }
+  ]
+}

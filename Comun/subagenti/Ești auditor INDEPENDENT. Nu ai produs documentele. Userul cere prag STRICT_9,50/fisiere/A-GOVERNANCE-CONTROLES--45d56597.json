@@ -1,0 +1,1386 @@
+{
+  "report_type": "A_GOVERNANCE_CONTROALE_EXECUTATE",
+  "deliverable_id": "ROM-001-G01",
+  "version_id": "r01",
+  "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "reviewer_role": "A-GOVERNANCE",
+  "compiled_at": "2026-09-24T07:35:48+00:00",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/ROM-001-G01-r01.json",
+    "sha256": "07110637be555cb455727593ebdf9ef88de1f27c12b5a389f53e79544bd6cebe"
+  },
+  "method": "Verificări proprii read-only, Python3.12 cu -B/stdlib și PowerShell. Produsul11MD citit integral. Rapoartele de producător nu sunt teste proprii. Extrasurile H au fost obținute în memorie din word/document.xml, body//p, concatenare w:t, strip, fără goluri. Nicio modificare a beneficiarului, niciun rawlog/.env, niciun alt audit G01 citit.",
+  "hash_control": {
+    "checked_at": "2026-09-24T07:35:48+00:00",
+    "artifacts": 11,
+    "evidence_files": 126,
+    "mismatches": [],
+    "brief_input_hashes_checked": 32,
+    "brief_input_mismatches": [],
+    "contract_projection_object_equal": true,
+    "contract_projection_bytes_equal": false,
+    "serialization_explanation": "Contractul fix pretty-printed și extracția compactă sunt egale ca obiect JSON; SHA contractual este cel al fișierului fix, nu al serializării compacte."
+  },
+  "source_checks": [
+    {
+      "id": "SITE_APP",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+      "observed_sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+      "source_sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "H",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+      "observed_sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+      "source_sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "HB",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/HB.docx",
+      "observed_sha256": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+      "source_sha256": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "HC",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/HC.txt",
+      "observed_sha256": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+      "source_sha256": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "AC",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/AC.docx",
+      "observed_sha256": "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+      "source_sha256": "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "HT",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/HT.txt",
+      "observed_sha256": "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+      "source_sha256": "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "HBT",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt",
+      "observed_sha256": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+      "source_sha256": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "HP",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/HP.docx",
+      "observed_sha256": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+      "source_sha256": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "OR",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/OR.txt",
+      "observed_sha256": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+      "source_sha256": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "WC",
+      "copy_path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/WC.txt",
+      "observed_sha256": "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937",
+      "source_sha256": "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "SCORES",
+      "copy_path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/SCORES.txt",
+      "observed_sha256": "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb",
+      "source_sha256": "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "TR_PROMPT",
+      "copy_path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/TR_PROMPT.md",
+      "observed_sha256": "f49ad4f5c1fb958555be09913ced61f6e0be27a0904be45a15bdd2d809486b9e",
+      "source_sha256": "f49ad4f5c1fb958555be09913ced61f6e0be27a0904be45a15bdd2d809486b9e",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "STRATEGIE",
+      "copy_path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/STRATEGIE_date_plan.json",
+      "observed_sha256": "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80",
+      "source_sha256": "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "HCX",
+      "copy_path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/HCX.docx",
+      "observed_sha256": "c58bc3597baf03c9d011480358f7a42bbd1b60de87cbee4557f83880cb9e9262",
+      "source_sha256": "c58bc3597baf03c9d011480358f7a42bbd1b60de87cbee4557f83880cb9e9262",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "ORX",
+      "copy_path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/ORX.docx",
+      "observed_sha256": "09f29cbaa82825941bd274308faae5fe030af3f1f5693343e2b394e948d4a4a9",
+      "source_sha256": "09f29cbaa82825941bd274308faae5fe030af3f1f5693343e2b394e948d4a4a9",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "WCX",
+      "copy_path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/WCX.docx",
+      "observed_sha256": "1b3ca8f4f0d93fb0d13e75a27039780bfcfbac89adbd08eb6a914462e92ad005",
+      "source_sha256": "1b3ca8f4f0d93fb0d13e75a27039780bfcfbac89adbd08eb6a914462e92ad005",
+      "byte_identical": true,
+      "matches_provenance": true
+    },
+    {
+      "id": "SCX",
+      "copy_path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/SCX.docx",
+      "observed_sha256": "2d30dc2f99644fc23260db8099f94c8afafb9955319fdde4387db24543ddc0a4",
+      "source_sha256": "2d30dc2f99644fc23260db8099f94c8afafb9955319fdde4387db24543ddc0a4",
+      "byte_identical": true,
+      "matches_provenance": true
+    }
+  ],
+  "reading_scope": {
+    "artifacts_read_in_full": [
+      "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r02.md",
+      "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r02.md",
+      "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+      "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+      "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r01.md",
+      "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+      "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+      "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+      "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+      "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+      "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md"
+    ],
+    "H_direct_paragraph_ranges": [
+      [
+        29,
+        42
+      ],
+      [
+        144,
+        150
+      ],
+      [
+        164,
+        176
+      ],
+      [
+        189,
+        189
+      ],
+      [
+        250,
+        256
+      ],
+      [
+        289,
+        292
+      ],
+      [
+        396,
+        403
+      ],
+      [
+        431,
+        431
+      ],
+      [
+        860,
+        860
+      ],
+      [
+        1191,
+        1191
+      ],
+      [
+        1220,
+        1236
+      ],
+      [
+        1372,
+        1378
+      ],
+      [
+        1651,
+        1669
+      ],
+      [
+        1678,
+        1678
+      ],
+      [
+        1688,
+        1688
+      ],
+      [
+        1715,
+        1720
+      ],
+      [
+        1778,
+        1799
+      ],
+      [
+        1827,
+        1829
+      ],
+      [
+        1948,
+        1948
+      ],
+      [
+        1979,
+        1979
+      ],
+      [
+        2289,
+        2289
+      ],
+      [
+        2340,
+        2349
+      ],
+      [
+        2370,
+        2370
+      ],
+      [
+        2381,
+        2381
+      ],
+      [
+        2513,
+        2519
+      ],
+      [
+        2542,
+        2542
+      ],
+      [
+        2576,
+        2576
+      ],
+      [
+        2618,
+        2625
+      ],
+      [
+        2895,
+        2925
+      ],
+      [
+        2946,
+        2947
+      ],
+      [
+        3028,
+        3031
+      ],
+      [
+        3175,
+        3175
+      ],
+      [
+        3245,
+        3248
+      ],
+      [
+        3339,
+        3339
+      ],
+      [
+        3344,
+        3357
+      ],
+      [
+        3375,
+        3379
+      ],
+      [
+        3438,
+        3447
+      ],
+      [
+        3542,
+        3553
+      ],
+      [
+        3662,
+        3662
+      ],
+      [
+        3677,
+        3680
+      ],
+      [
+        3729,
+        3733
+      ],
+      [
+        3763,
+        3764
+      ],
+      [
+        3798,
+        3799
+      ],
+      [
+        3833,
+        3984
+      ]
+    ],
+    "H_direct_distinct_paragraph_count": 415,
+    "H_full_semantic_reread_claimed": false,
+    "H_full_text_mechanical_comparison": true,
+    "other_primary_readings": {
+      "HB": "P1–15,60–75,90–103",
+      "AC": "P1–12,51–65",
+      "HP": "P1–8,80–95,110–116",
+      "HCX": "P1–12,90–95",
+      "ORX": "P1–16",
+      "WCX": "P1–16",
+      "SCX": "P1–16",
+      "HC": "L374–381,468–476,570–576,589–593,680–690",
+      "HBT": "L1–17,111–120",
+      "OR": "L1–35,116–142",
+      "WC": "L1–75; suma tuturor24rândurilor recalculată",
+      "SCORES": "L1–20,120–126,271–287,385–408",
+      "TR_PROMPT": "Integral L1–64; numai sursă istorică, neexecutată",
+      "SITE_APP": "L1–50; căutare integrală exactă de titlu/slug, fără rularea site-ului",
+      "STRATEGIE": "Obiectele DB-047 șiDB-048; scanare mecanică a întregului JSON pentru unicitatea DB-047/titlu",
+      "HT": "Comparare mecanică a întregii secvențe verbale cu H fără18tokenuri introductive; nu lectură semantică separată"
+    },
+    "truncation_recovery": "Afișarea auxiliară combinată a trunchiat mijlocul; HP110–116, HCX/ORX/WCX/SCX șiHC374–381 au fost reafișate integral. Secțiunea QA nominală proprie L48–68 a fost reafișată după trunchierea afișării combinate."
+  },
+  "reading_attestation_check": {
+    "checked_at": "2026-09-24T07:29:36+00:00",
+    "segments": [
+      {
+        "start": 1,
+        "end": 100,
+        "jsonl_line": 137,
+        "chunk_id": "377221",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 101,
+        "end": 200,
+        "jsonl_line": 141,
+        "chunk_id": "9b80a9",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 201,
+        "end": 300,
+        "jsonl_line": 143,
+        "chunk_id": "6a06b9",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 301,
+        "end": 400,
+        "jsonl_line": 145,
+        "chunk_id": "8f5af7",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 401,
+        "end": 500,
+        "jsonl_line": 147,
+        "chunk_id": "6dee33",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 501,
+        "end": 600,
+        "jsonl_line": 149,
+        "chunk_id": "9b3b37",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 601,
+        "end": 700,
+        "jsonl_line": 152,
+        "chunk_id": "ebf59f",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 701,
+        "end": 800,
+        "jsonl_line": 154,
+        "chunk_id": "9d32ce",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 801,
+        "end": 900,
+        "jsonl_line": 156,
+        "chunk_id": "babb80",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 901,
+        "end": 1000,
+        "jsonl_line": 158,
+        "chunk_id": "d5583c",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1001,
+        "end": 1100,
+        "jsonl_line": 160,
+        "chunk_id": "851ca1",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1101,
+        "end": 1200,
+        "jsonl_line": 162,
+        "chunk_id": "ec2f59",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1201,
+        "end": 1300,
+        "jsonl_line": 164,
+        "chunk_id": "090349",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1301,
+        "end": 1400,
+        "jsonl_line": 166,
+        "chunk_id": "16f64f",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1401,
+        "end": 1500,
+        "jsonl_line": 169,
+        "chunk_id": "2e1198",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1501,
+        "end": 1600,
+        "jsonl_line": 171,
+        "chunk_id": "957188",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1601,
+        "end": 1700,
+        "jsonl_line": 173,
+        "chunk_id": "0488ea",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1701,
+        "end": 1800,
+        "jsonl_line": 175,
+        "chunk_id": "d61ab8",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1801,
+        "end": 1900,
+        "jsonl_line": 177,
+        "chunk_id": "7fc944",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 1901,
+        "end": 2000,
+        "jsonl_line": 179,
+        "chunk_id": "35f632",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2001,
+        "end": 2100,
+        "jsonl_line": 181,
+        "chunk_id": "c58895",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2101,
+        "end": 2200,
+        "jsonl_line": 183,
+        "chunk_id": "2a2aad",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2201,
+        "end": 2300,
+        "jsonl_line": 185,
+        "chunk_id": "05faa0",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2301,
+        "end": 2400,
+        "jsonl_line": 190,
+        "chunk_id": "403e56",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2401,
+        "end": 2500,
+        "jsonl_line": 192,
+        "chunk_id": "376637",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2501,
+        "end": 2600,
+        "jsonl_line": 194,
+        "chunk_id": "3461e7",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2601,
+        "end": 2700,
+        "jsonl_line": 199,
+        "chunk_id": "9dff81",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2701,
+        "end": 2800,
+        "jsonl_line": 201,
+        "chunk_id": "40a3d8",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2801,
+        "end": 2900,
+        "jsonl_line": 203,
+        "chunk_id": "4a3784",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 2901,
+        "end": 3000,
+        "jsonl_line": 205,
+        "chunk_id": "80c3c8",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3001,
+        "end": 3100,
+        "jsonl_line": 207,
+        "chunk_id": "a03de9",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3101,
+        "end": 3200,
+        "jsonl_line": 210,
+        "chunk_id": "d00a1d",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3201,
+        "end": 3300,
+        "jsonl_line": 212,
+        "chunk_id": "94fa9d",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3301,
+        "end": 3400,
+        "jsonl_line": 214,
+        "chunk_id": "1e7aa0",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3401,
+        "end": 3500,
+        "jsonl_line": 216,
+        "chunk_id": "b6da90",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3501,
+        "end": 3600,
+        "jsonl_line": 218,
+        "chunk_id": "c8c468",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3601,
+        "end": 3700,
+        "jsonl_line": 220,
+        "chunk_id": "23992d",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3701,
+        "end": 3800,
+        "jsonl_line": 223,
+        "chunk_id": "017798",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3801,
+        "end": 3900,
+        "jsonl_line": 225,
+        "chunk_id": "892b76",
+        "paragraphs": 100,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      },
+      {
+        "start": 3901,
+        "end": 3984,
+        "jsonl_line": 227,
+        "chunk_id": "bda3d0",
+        "paragraphs": 84,
+        "exact_text": true,
+        "end_marker": true,
+        "continuous": true
+      }
+    ],
+    "total_paragraphs": 3984,
+    "journal_rows": 40,
+    "mismatches": []
+  },
+  "reading_attestation_limit": "Compararea tuturor textelor afișate cu H demonstrează suportul material al jurnalului și acoperirea afișărilor, nu atenția/înțelegerea sau exhaustivitatea detectării defectelor de către producător. Numerele source_line din export nu sunt linii ale H.",
+  "content_identity": {
+    "H_paragraphs": 3984,
+    "H_raw_tokens": 95079,
+    "HT_raw_tokens": 95061,
+    "H_after_first18_equals_HT": true,
+    "chapter_headings": 23,
+    "chapter_numbers": "1–10,12–24",
+    "epilogues": 1,
+    "aux_docx_txt_pairs_tested": 5,
+    "identical_word_sequences": 0,
+    "WC_rows": 24,
+    "WC_sum": 97398,
+    "WC_declared_total": 95061,
+    "WC_difference": 2337,
+    "V1_equals_Aurora": true,
+    "V1_and_Aurora_sha256": "cd158d30634e14505adfe6da00d04f2117851cade3be02615b1a2477bff3ecf2",
+    "V1_check_limit": "Control de identitate al celor două fișiere originale explicit numite AURORA_Book1_FINAL.docx, nu lectură integrală Aurora sau sursă de canon pentru ROM-001.",
+    "DB047_id_count": 1,
+    "Magenta_title_count_in_strategy": 1,
+    "Magenta_title_count_in_SITE_APP": 0,
+    "magenta_slug_count_in_SITE_APP": 0,
+    "Boucher_H_paragraphs": [
+      166,
+      364,
+      552,
+      860,
+      1366,
+      1370,
+      1536,
+      1556,
+      1897,
+      2007,
+      2062,
+      2280
+    ],
+    "Alexandre_Dubois_H_paragraphs": [
+      3548,
+      3550
+    ]
+  },
+  "calendar_controls": {
+    "checked_at": "2026-09-24T07:33:13+00:00",
+    "checks": [
+      {
+        "id": "CAL-01",
+        "operation": "1974+51 / 2028-1968",
+        "actual": [
+          2025,
+          60
+        ],
+        "expected": [
+          2025,
+          60
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-02",
+        "operation": "2025-10-28,2025-10-31,2025-11-01 weekdays Monday=0",
+        "actual": [
+          1,
+          4,
+          5
+        ],
+        "expected": [
+          1,
+          4,
+          5
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-03",
+        "operation": "2025-11-04,2025-11-11 weekdays; funeral delay",
+        "actual": [
+          1,
+          1,
+          7
+        ],
+        "expected": [
+          1,
+          1,
+          7
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-04",
+        "operation": "2025-12-06 to 2025-12-20 / Saturdays",
+        "actual": [
+          14,
+          5,
+          5
+        ],
+        "expected": [
+          14,
+          5,
+          5
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-05",
+        "operation": "2025-12-15..19 weekdays",
+        "actual": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-06",
+        "operation": "13:45-11:30;14:00-13:45 minutes",
+        "actual": [
+          135,
+          15
+        ],
+        "expected": [
+          135,
+          15
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-07",
+        "operation": "1974-08-03,2026-02-14 weekdays",
+        "actual": [
+          5,
+          5
+        ],
+        "expected": [
+          5,
+          5
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-08",
+        "operation": "meeting / agreement intervals",
+        "actual": [
+          21,
+          7,
+          14
+        ],
+        "expected": [
+          21,
+          7,
+          14
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-09",
+        "operation": "2026-02-28 Saturday and 28 days after consent",
+        "actual": [
+          5,
+          28
+        ],
+        "expected": [
+          5,
+          28
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-10",
+        "operation": "Feasibility witness only, contact March1 +7+1+14+2 days",
+        "actual": "2026-03-25",
+        "expected": "2026-03-25",
+        "pass": true
+      },
+      {
+        "id": "CAL-11",
+        "operation": "contract March2026 < draft October < delivery Nov < pub Feb2027 < wedding June < death Dec < memorial Dec2028",
+        "actual": true,
+        "expected": true,
+        "pass": true
+      },
+      {
+        "id": "CAL-12",
+        "operation": "delivery8months after contract within18; publication11months later",
+        "actual": [
+          true,
+          true
+        ],
+        "expected": [
+          true,
+          true
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-13",
+        "operation": "Nov30/Dec7/Dec14 2027 weekdays / elapsed",
+        "actual": [
+          1,
+          1,
+          1,
+          7
+        ],
+        "expected": [
+          1,
+          1,
+          1,
+          7
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-14",
+        "operation": "discovery to death; reunion to death; death to memorial",
+        "actual": [
+          783,
+          717,
+          366
+        ],
+        "expected": [
+          783,
+          717,
+          366
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-15",
+        "operation": "Antoine selected years [1974,2025,2027]-1947",
+        "actual": [
+          27,
+          78,
+          80
+        ],
+        "expected": [
+          27,
+          78,
+          80
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-16",
+        "operation": "Catherine selected years [1974,2025,2027,2028]-1952",
+        "actual": [
+          22,
+          73,
+          75,
+          76
+        ],
+        "expected": [
+          22,
+          73,
+          75,
+          76
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-17",
+        "operation": "Guillaume [1974,2025,2028]-1959",
+        "actual": [
+          15,
+          66,
+          69
+        ],
+        "expected": [
+          15,
+          66,
+          69
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-18",
+        "operation": "Besson [2010,2025,2028]-1987",
+        "actual": [
+          23,
+          38,
+          41
+        ],
+        "expected": [
+          23,
+          38,
+          41
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-19",
+        "operation": "Isabella 2025 and2028 / June2027 birthday interval",
+        "actual": [
+          30,
+          33,
+          [
+            31,
+            32
+          ]
+        ],
+        "expected": [
+          30,
+          33,
+          [
+            31,
+            32
+          ]
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-20",
+        "operation": "Elise selected calendar years marriage/widowhood",
+        "actual": [
+          38,
+          2,
+          4,
+          38
+        ],
+        "expected": [
+          38,
+          2,
+          4,
+          38
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-21",
+        "operation": "Marcel possible min/max after3years2months",
+        "actual": [
+          43,
+          53
+        ],
+        "expected": [
+          43,
+          53
+        ],
+        "pass": true
+      },
+      {
+        "id": "CAL-22",
+        "operation": "Cl?ment 1974/1980 to2010; Besson15years reading possible calendar years",
+        "actual": [
+          36,
+          30,
+          [
+            2002,
+            2003
+          ]
+        ],
+        "expected": [
+          36,
+          30,
+          [
+            2002,
+            2003
+          ]
+        ],
+        "pass": true
+      }
+    ]
+  },
+  "calendar_limit": "CAL-10 este un martor de fezabilitate în luna adoptată, nu o nouă dată canonică a contractului. Anii/vârstele se verifică sub convenția D a aniversării trecute; datele precise lipsă nu sunt inventate. Aceste22controale nu sunt cele27ale managerului și nici suita tehnică G00.",
+  "decision_review": [
+    {
+      "id": "H-C1",
+      "locations": "DECIZII L17-L25; CO L62-L80",
+      "result": "Un singur calendar 2025–2028; epilogul provizoriu 2027 și reuniunea 2024 sunt excluse, nu rescrise în H.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C2",
+      "locations": "DECIZII L27-L45; CO L45-L80",
+      "result": "Dispoziții pe luni, zile, orar și aniversări; cele 22 de controale proprii verifică valorile adoptate.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C3",
+      "locations": "DECIZII L47-L55; CO L113-L114",
+      "result": "Două proveniențe probate; O-CA înhumat, O-CJ la Alexandre; returul Catherine–Antoine este retrospectiv explicit P3662.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C4",
+      "locations": "DECIZII L57-L65; CO L115",
+      "result": "1974 / recuperare1980 / birou2025 / plicnou distincte; nu inventează plasarea pe birou.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C5",
+      "locations": "DECIZII L67-L75; CO L87-L88",
+      "result": "Tatăl Jean-Paul ales pe scena Papa/Mon fils și familie; variantele bunic/absent excluse fără rude noi.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C6",
+      "locations": "DECIZII L77-L87; CO L98-L107",
+      "result": "Anii și convenția aniversării sunt D; vârstele calculate sunt compatibile, fără zile de naștere inventate.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C7",
+      "locations": "DECIZII L89-L97; CO L25",
+      "result": "Margaux1968 și vol2 rămân; planurile Lisabona/Tokyo și pre-May sunt nepreluate, nu evenimente șterse.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C8",
+      "locations": "DECIZII L99-L107; CO L153",
+      "result": "Ocupant8/12, găsire12/adresă14 distincte; alternativa304/bunic nu trece în canon.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C9 / SEL-001-A-CANON-F01",
+      "locations": "DECIZII L109-L117; CO L86-L87",
+      "result": "12 Boucher și2 Alexandre Dubois identificate mecanic; autoprezentările justifică alegerea, nu votul. Căsătoria rămâne; findingul SEL nu este editat.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C10",
+      "locations": "DECIZII L119-L127; CO L27-L30",
+      "result": "O singură primă întâlnire și separare octombrie; alternativele iulie/august/septembrie explicit excluse.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C11",
+      "locations": "DECIZII L129-L137; CO L115-L120",
+      "result": "Originalul o foaie versus scrisoarea contemporană7pagini și scanuri distincte; nicio livrare dedusă din numărătoare.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C12",
+      "locations": "DECIZII L139-L149; CO L128-L136",
+      "result": "Articol cu acord etapizat și limite selectate; cartea are acord separat; scurgerea terțului nu este ascunsă prin near-leak.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C13",
+      "locations": "DECIZII L151-L159; CO L32-L36",
+      "result": "Élise și familia sunt păstrate;1985–2023 D, văduvie2/4ani la repere diferite; nu misiune militară nouă.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C14",
+      "locations": "DECIZII L161-L169; CO L48/L69-L70",
+      "result": "Prima declarație după funeral; darul din mai nu se confundă cu logodna; cuplul/nunta păstrate.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C15",
+      "locations": "DECIZII L171-L179; CO L53-L54",
+      "result": "Reuniune fizică înaintea celor3apeluri; relatarea telefonică concurentă nu creează o întâlnire nouă.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-C16",
+      "locations": "DECIZII L181-L189; CO L144-L153",
+      "result": "Locuri și cameră/ținută selectate ca D, fără geografie externă certificată sau mutări explicative inventate.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-N1",
+      "locations": "DECIZII L191-L201; CO L159-L162",
+      "result": "P3845 dovedește voluntariatul; tema postbelică aleasă distinct de medieval/XVIII, fără a doua teză; Marguerite nurse selectat.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-N2",
+      "locations": "DECIZII L203-L211; CO L165",
+      "result": "Numărare proprie23titluri+epilog; auxiliarul explică eliminarea11, nu cere completarea sursei.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-N3",
+      "locations": "DECIZII L213-L233; CO L46-L51/L115-L120/L133",
+      "result": "Toate13rânduri tratate: acces, contact, custodie, transport, adresă, livrare, redactare, răspuns, plecare și anacronii; lacunele nefolosite nu devin scene.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-N4",
+      "locations": "DECIZII L235-L246; CO L65-L69/L160/L164",
+      "result": "Proprietate versus custodie, angajator versus client; Marcus unificat explicit D; calendarul contractual verificat ca fezabil, nu contact comercial real.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-N5",
+      "locations": "DECIZII L248-L256; CO L134-L139",
+      "result": "Două referințe Margaux, nu identitate probată; plic nedeschis, alegere/consimțământ viitoare și sarcină timpurie păstrate.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    },
+    {
+      "id": "H-N6",
+      "locations": "DECIZII L258-L266; CO L122/L140",
+      "result": "Flori distincte, fără recuperare de la mormânt presupusă; eulogie/metafore nu devin genealogie, magie sau diagnostic.",
+      "status": "dispozitie_verificata_pentru_continuare_nu_corectare_H"
+    }
+  ],
+  "archive_before_check": {
+    "capture_label": "ROM-001-G01/r01-before-audit",
+    "index_sha256": "73befab70d1266a41f79a339ce00eadb00d32efd57c5afdf9eb9ea7817c99823",
+    "entries_verified": 629,
+    "path_confinement_checked": true,
+    "sha256_and_size_checked": true,
+    "mismatches": [],
+    "flat_index_byte_equal": true,
+    "flat_sidecar_byte_equal": true,
+    "sidecar_digest_matches": true,
+    "contract_artifacts_and_evidence_present": 137,
+    "receipt_files_count": 629,
+    "editorial_approval_issued": false,
+    "recovery_performed_by_this_auditor": false
+  },
+  "observable_history": {
+    "capture_label": "ROM001-G01-depunere-r01",
+    "index_sha256": "ba15c729b9a444cbf8fc39df143e5fc8cbe54b93a2f1e768d28b7b340c31df78",
+    "sources": 17,
+    "records_from_index": 2616,
+    "messages_from_index": 435,
+    "derived_files_verified": 34,
+    "derived_hash_and_size_mismatches": [],
+    "index_sidecar_matches": true,
+    "config_v04_sources": 17,
+    "scope_literal_nine_is_wrong": true,
+    "erratum_read": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_DEPUNERE-ERRATUM-r01.md",
+    "key_messages": [
+      {
+        "role": "P-MANAGER",
+        "jsonl_line": 796,
+        "topic": "cererea scrierii primului roman"
+      },
+      {
+        "role": "P-MANAGER",
+        "jsonl_line": 826,
+        "topic": "întrebarea și răspunsul explicit al delegării G01"
+      },
+      {
+        "role": "P-EDITOR",
+        "jsonl_line": 104,
+        "topic": "predarea r02 cu cele3SHA exacte"
+      },
+      {
+        "role": "P-SYSTEMS",
+        "jsonl_line": 184,
+        "topic": "inventar143 și9PENDING, fără arhivare pretinsă"
+      },
+      {
+        "role": "P-CANON",
+        "jsonl_line": 275,
+        "topic": "predarea foii20constrângeri, nu audit"
+      }
+    ],
+    "raw_prefix_check_performed": false,
+    "raw_prefix_limit": "Cele17prefixe sunt verificarea declarată a managerului; auditorul a verificat exporturile filtrate, nu a deschis jurnalele brute.",
+    "previous_editor_draft_pairs_byte_identical": 2
+  },
+  "independence": {
+    "producer_ids": [
+      "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+      "01a0d0d7-e865-7b71-9707-be8786099512",
+      "01a0d1c4-17bb-7e03-93a3-e542824bc776",
+      "01a0d0d9-1f95-7211-8093-c26e28e6ebee"
+    ],
+    "own_id_excluded_from_producers": true,
+    "stable_context_roles_checked": 7,
+    "live_authorization_checked_read_only": true,
+    "QA_nominal_own_calibration_confirmed": "11/11 r02; 05_AUDIT/CALIBRARE_VERIFICARE-r02.md L48–68",
+    "retroactive_r01_calibration_claimed": false,
+    "G01_other_primary_report_read": false
+  },
+  "dependencies_current_gate": {
+    "SYS_001": {
+      "passed": true,
+      "errors": []
+    },
+    "SEL_001": {
+      "passed": true,
+      "errors": []
+    },
+    "RES_001": {
+      "passed": true,
+      "errors": []
+    },
+    "scope": "validate pe cele3dependențe G00; nu validate G01 cumulativ și nu rerulare suitei233/17"
+  },
+  "limitations": [
+    "Citire integrală a produsului G01, nu a întregului H în acest audit; relectură directă punctuală și epilog integral plus control mecanic al40afișări.",
+    "Nu sunt revendicate lecturi semantice anterioare r02/r03 drept operații noi; nu s-au refăcut auditurile G00.",
+    "Nu control vizual DOCX, antete, comentarii, imagini ori track-changes; scopul100%este corpul textual definit.",
+    "Nu certificare juridică/comercială, originalitate externă, adevăr geografic/medical, vânzări sau identitățile criticilor istorici.",
+    "Hashurile și exporturile nu autentifică autorii/timpul, nu garantează WORM ori imposibilitatea modificării între citiri.",
+    "Arhiva a fost verificată read-only; nu s-a făcut recuperare rece proprie, arhivare nouă sau metaQA.",
+    "Un PASS individual nu acceptă cumulativ G01 și nu autorizează G02–G17, proză, traduceri sau publicare."
+  ]
+}

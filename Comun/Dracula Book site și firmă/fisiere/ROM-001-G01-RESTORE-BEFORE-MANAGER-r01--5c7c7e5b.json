@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-24T10:35:51.4889715+03:00",
+  "checker_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "scope": "Manager read the full MD report, inspected structured recovery/gate summary and independently rehashed every recovered sources file against the fixed flat snapshot index. Not a new independent editorial audit or a rerun of the validator.",
+  "recovered_root": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\09_RECUPERARI\\ROM-001-G01-r01-before-20260924T072727Z-334ca93c",
+  "files_checked": 625,
+  "actual_files": 625,
+  "all_match": true,
+  "mismatches": [],
+  "validator_exit_code": 2,
+  "validator_passed": false,
+  "validator_errors": [
+    "AUDITS: missing audit reports for ROM-001-G01",
+    "INDEPENDENCE: at least two distinct registered auditors required",
+    "ROLES: missing passing audits for ['A-CANON', 'A-GOVERNANCE']",
+    "META: ROM-001-G01 requires meta_audit"
+  ],
+  "reported_rows": 625,
+  "all_reported_rows_match": true,
+  "limitations": "Expected absence of G01 primary/meta reports at BEFORE. No product acceptance; AFTER remains separate."
+}

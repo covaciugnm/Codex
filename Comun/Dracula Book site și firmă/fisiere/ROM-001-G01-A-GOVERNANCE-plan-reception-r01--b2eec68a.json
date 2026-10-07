@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-24 08:30:55 UTC",
+  "checker_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "file": "06_REGISTRU/MASURI/META-ROM-001-G01-r01-F01-plan-A-GOVERNANCE-r01.md",
+  "sha256": "1ef04e71796197ccc21a525da5f9cca64f035f84bb289d06fae2a7c0bb7612c0",
+  "hash_matches_final": true,
+  "full_text_read": true,
+  "semantic_observations": [
+    "Acknowledges own unsupported r01 canon 967/PASS, no replacement score.",
+    "New direct H reading: 41 paragraphs, not a new complete manuscript reading.",
+    "Ten lines containing Marcel correspond to eleven textual occurrences; F:L92 contains two. Consistent count units, not a factual disagreement with P-CANON.",
+    "T01-T04 preserve primary and QA finding ownership; future audit remains unexecuted."
+  ],
+  "limitations": "Manager reception, not independent audit, score or closure. No full rehash of the plan's 21 input rows claimed here."
+}

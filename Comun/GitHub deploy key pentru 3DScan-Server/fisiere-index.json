@@ -1,0 +1,130 @@
+[
+  {
+    "source_reference": "3dscan-eva-org-server.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/subagents/workflows/wf_2c06e54e-03b",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/workflows/scripts/eva-admin-live-wf_121cb157-e8a.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-admin-live-wf_121cb157-e8a--9f5f59d1.js",
+    "bytes": 18564,
+    "sha256": "0e82b9686f59b6da1f04bcb5380c572171110fa93406a60315cb3ebe83f9351e"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/workflows/scripts/eva-scene-live-wf_4410ae04-3ba.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-scene-live-wf_4410ae04-3ba--3051d1e6.js",
+    "bytes": 25664,
+    "sha256": "431e032af29ddd90566a6b21a2f2aba0005b8509ef3c4231b09cf36e2b3294b9"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/workflows/scripts/eva-server-backlog-wf_2c06e54e-03b.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-server-backlog-wf_2c06e54e-03b--7d249543.js",
+    "bytes": 18722,
+    "sha256": "a5c28bc2bcd19ee0d50ca447e6d52ce9123ee4f8614aa3ec85f49d316b1410e6"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/MEMORY.md",
+    "status": "copiat",
+    "saved_path": "fisiere/MEMORY--51c05c25.md",
+    "bytes": 6811,
+    "sha256": "d71a1fb30f14c87cdda8603b6acfdad01cc18eed637cb58d264b6a467332bcc8"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/github-repos-site-uri.md",
+    "status": "copiat",
+    "saved_path": "fisiere/github-repos-site-uri--affa11e8.md",
+    "bytes": 1908,
+    "sha256": "52bd67fa61f8513d33af0ddbaa4dd620ac421172126e996af6c054fe41d8f35d"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/site-uri-share-eva-contab.md",
+    "status": "copiat",
+    "saved_path": "fisiere/site-uri-share-eva-contab--2d0a2b67.md",
+    "bytes": 3255,
+    "sha256": "0dc17bb9ee844be0a24156bbdddf3981a6276bf1ffa58c66b1f380eea5e21f87"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/scratchpad/3dscan",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\workflows\\scripts\\eva-admin-live-wf_121cb157-e8a.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-admin-live-wf_121cb157-e8a--9f5f59d1.js",
+    "bytes": 18564,
+    "sha256": "0e82b9686f59b6da1f04bcb5380c572171110fa93406a60315cb3ebe83f9351e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\workflows\\scripts\\eva-scene-live-wf_4410ae04-3ba.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-scene-live-wf_4410ae04-3ba--3051d1e6.js",
+    "bytes": 25664,
+    "sha256": "431e032af29ddd90566a6b21a2f2aba0005b8509ef3c4231b09cf36e2b3294b9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\workflows\\scripts\\eva-server-backlog-wf_2c06e54e-03b.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-server-backlog-wf_2c06e54e-03b--7d249543.js",
+    "bytes": 18722,
+    "sha256": "a5c28bc2bcd19ee0d50ca447e6d52ce9123ee4f8614aa3ec85f49d316b1410e6"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\\\workflows\\\\scripts\\\\eva-admin-live-wf_121cb157-e8a.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-admin-live-wf_121cb157-e8a--9f5f59d1.js",
+    "bytes": 18564,
+    "sha256": "0e82b9686f59b6da1f04bcb5380c572171110fa93406a60315cb3ebe83f9351e"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\\\workflows\\\\scripts\\\\eva-scene-live-wf_4410ae04-3ba.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-scene-live-wf_4410ae04-3ba--3051d1e6.js",
+    "bytes": 25664,
+    "sha256": "431e032af29ddd90566a6b21a2f2aba0005b8509ef3c4231b09cf36e2b3294b9"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\\\workflows\\\\scripts\\\\eva-server-backlog-wf_2c06e54e-03b.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-server-backlog-wf_2c06e54e-03b--7d249543.js",
+    "bytes": 18722,
+    "sha256": "a5c28bc2bcd19ee0d50ca447e6d52ce9123ee4f8614aa3ec85f49d316b1410e6"
+  },
+  {
+    "source_reference": "CONTRACTE_V2.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "EXECUTIE_TESTE_V2.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "PLAN_FINAL.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "RELUARE.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\)|^phase\\\\(",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\)|^return",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\nIstoric runde (date; verifica si ca remedierile declarate exista): ${JSON.stringify(history).slice(-5000)}",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,3 @@
+id;tip;stare_curenta;versiune_retest;responsabil_remediere;titular_inchidere;proba_inchidere;control_QA;observatii
+ROM-001-G01-A-CANON-F01;audit_produs;CLOSED;r02;P-EDITOR si P-MANAGER;A-CANON;05_AUDIT/ROM-001-G01/r02/A-CANON.json;05_AUDIT/ROM-001-G01/r02/META.md#inchidere;R01 RETURN si findingul open istoric raman nemodificate
+META-ROM-001-G01-r01-F01;audit_raport;CLOSED;r02;A-GOVERNANCE;A-QAMANAGER;05_AUDIT/ROM-001-G01/r02/META.md#inchidere;05_AUDIT/ROM-001-G01/r02/META.json;Retest T01-T04 pe noul raport, fara renotare sau audit recursiv

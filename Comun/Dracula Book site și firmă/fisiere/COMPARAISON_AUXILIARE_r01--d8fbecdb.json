@@ -1,0 +1,58 @@
+{
+  "format_comparison": [
+    {
+      "name": "Story_Bible_FINAL",
+      "docx_sha256": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+      "txt_sha256": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+      "paragraphs_docx": 160,
+      "lines_txt": 189,
+      "word_sequence_identical": false,
+      "docx_words": 1442,
+      "txt_words": 1443
+    },
+    {
+      "name": "ChangeLog_v2",
+      "docx_sha256": "c58bc3597baf03c9d011480358f7a42bbd1b60de87cbee4557f83880cb9e9262",
+      "txt_sha256": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+      "paragraphs_docx": 125,
+      "lines_txt": 690,
+      "word_sequence_identical": false,
+      "docx_words": 860,
+      "txt_words": 3929
+    },
+    {
+      "name": "Originality_Report",
+      "docx_sha256": "09f29cbaa82825941bd274308faae5fe030af3f1f5693343e2b394e948d4a4a9",
+      "txt_sha256": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+      "paragraphs_docx": 91,
+      "lines_txt": 142,
+      "word_sequence_identical": false,
+      "docx_words": 518,
+      "txt_words": 536
+    },
+    {
+      "name": "WordCountReport_v2",
+      "docx_sha256": "1b3ca8f4f0d93fb0d13e75a27039780bfcfbac89adbd08eb6a914462e92ad005",
+      "txt_sha256": "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937",
+      "paragraphs_docx": 82,
+      "lines_txt": 135,
+      "word_sequence_identical": false,
+      "docx_words": 807,
+      "txt_words": 852
+    },
+    {
+      "name": "Chapter_Scorecards_Bundle_v2",
+      "docx_sha256": "2d30dc2f99644fc23260db8099f94c8afafb9955319fdde4387db24543ddc0a4",
+      "txt_sha256": "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb",
+      "paragraphs_docx": 90,
+      "lines_txt": 408,
+      "word_sequence_identical": false,
+      "docx_words": 940,
+      "txt_words": 2231
+    }
+  ],
+  "declared_chapter_rows": 24,
+  "sum_declared_chapter_counts": 97398,
+  "claimed_total": 95061,
+  "difference": 2337
+}

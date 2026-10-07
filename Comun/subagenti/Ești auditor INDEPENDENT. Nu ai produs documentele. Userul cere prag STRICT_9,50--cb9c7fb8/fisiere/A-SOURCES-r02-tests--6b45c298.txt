@@ -1,0 +1,163 @@
+A-SOURCES / RES-001 / r02 — jurnal de verificări efectiv executate
+Reviewer: 01a0d0ee-a56e-7140-b26d-e212cb9c7fb8
+Audit: 02226da7-e236-4904-9aa6-d441708dcaf7
+ROOT: D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000
+Data: 2026-09-24, Europe/Bucharest (+03:00).
+B = 02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md (190 linii).
+R = 02_DOCUMENTARE/REPERE_SI_MECANISME.md (204 linii).
+Acest jurnal consemnează teste read-only și analiză proprie, nu execuții ale producătorului. Nu conține copii integrale de pagini sau opere. Nu certifică G01, canonul ori un roman. Validarea JSON-ului final se execută după înghețarea acestui jurnal și a MD-ului; nu este pretinsă aici ca deja realizată.
+
+[H01 — integritate contractuală]
+Recalculare SHA-256 pe octeții fișierelor la 2026-09-24T05:32:39.9268257+03:00.
+35 referințe unice: contract RES, 2 produse, 31 evidence_files, contract dependent SYS. Toate corespund exact. Policy este una dintre cele 31 de probe și a fost verificată și separat.
+Format: path | SHA-256 calculat = declarat
+06_REGISTRU/CONTRACTE/RES-001-r02.json | 3b5ae9ea6120c2c8e6ee8fff5e7ceac32f992a1b4fbd8c1cd89273ec0328c0df
+02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md | 355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490
+02_DOCUMENTARE/REPERE_SI_MECANISME.md | 6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01
+00_CONDUCERE/DECIZIE_EDITORIALA_001_SURSE.md | af8fa2d80f09318653a6f7450ed48851ceaedb51da6e7560bd2e96488bd2d523
+00_CONDUCERE/MANUAL_ATELIER.md | 2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2
+00_CONDUCERE/RUBRICI.md | 10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd
+00_CONDUCERE/policy.json | f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4
+05_AUDIT/CALIBRARE_A-QAMANAGER-r01.md | 070f9bbe7d971de2b57c6685f74488f4929bc04f21fd451c70fd6348bd0f7da1
+05_AUDIT/CALIBRARE_VERIFICARE-r02.md | 1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc
+05_AUDIT/RES-001/A-GOVERNANCE-r01.json | d2f27f8d63b751cfecbdf82dd9189b0504e8c8e48a6c1460002387c561f9f789
+05_AUDIT/RES-001/A-GOVERNANCE-r01.md | 241b7cb229c3eed2f26ca70cb16abe6d35756eb994ce6797700b1d77029cbddb
+05_AUDIT/RES-001/A-QAMANAGER-r01.json | b94b83624df0ed045705b85fd3749bb9ba95997dfa9e6480e8e1b8130762edae
+05_AUDIT/RES-001/A-QAMANAGER-r01.md | ba9648e7bebc9fc30f89bd91763932fdcddb869e6a8205aeaf818bc98bf00e25
+05_AUDIT/RES-001/A-SOURCES-r01.json | 19484dc52b0aff45b3c5884eaa3c4a3b23cb7337ba0ebba119d798d3275288d3
+05_AUDIT/RES-001/A-SOURCES-r01.md | 31b9f074816f03459a663f34ab5740a47d10c2b4a4821c25e74a21c358ee1b8f
+06_REGISTRU/CALIBRARE/A-CANON-r02.json | c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659
+06_REGISTRU/CALIBRARE/A-GOVERNANCE-r02.json | 6f55451c9e3017afdd07beb53451caadc7f10bef396e77ff06b5b7a8db346227
+06_REGISTRU/CALIBRARE/A-QAMANAGER-r02.json | e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669
+06_REGISTRU/CALIBRARE/A-SOURCES-r02.json | f0e37622956255a8abb9981d73c888f5083703447eef57a9e62f22f122111abe
+06_REGISTRU/CALIBRARE/A-SYSTEMS-r02.json | 313ad647e90dc3f34ce81928ed9bfcd44d60cacdf52290887de0fd10ef3227e7
+06_REGISTRU/CALIBRARE/SET_TEST_r02.md | 968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba
+06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_PRIMARI_r02.json | 2a7ca3cc051b2ba4580d7fafcf9b77b9ae7e53795f34c4e8868d77a9a97bfb73
+06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_QA_r02.json | 48d021151cc3a5fc0907540b166b7752f88932b74e9bdc809dd90da5f356b84d
+06_REGISTRU/CONTEXT_R02/EXECUTII_at_freeze.md | c8eb49c713e13c841d6b0966212ddf23baf4ae807e207cc9b70c6eab9e599409
+06_REGISTRU/CONTEXT_R02/JURNAL_at_freeze.md | e28072b2ca74c4c61527bd488652adc890f488d2c6da11668bd0cb43364a201f
+06_REGISTRU/CONTEXT_R02/README.md | f762ee641602f4b358b13eb1afe46834421f40a14b9235198d9750341a58014b
+06_REGISTRU/CONTEXT_R02/STATUS_at_freeze.md | d77b04652dba304443cec3ca0526925359699b4447e550e3f7a842c871aca707
+06_REGISTRU/CONTEXT_R02/agents_at_freeze.json | 7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446
+06_REGISTRU/ISTORIC/INSTRUCTIUNI_BENEFICIAR.md | a9833e0c0204f1dbd4aa40e0562717d3bff9f0ccb03d80913bdbf7f0884c353f
+06_REGISTRU/MASURI/RES-001-plan-r01.md | 9fc4922b7e8f58017f0d85f5843d23c6c8251639279be61bc521b4e877153146
+06_REGISTRU/MASURI/RES-001-rezultate-r02.md | 8f48ead0e6679e0e93d1909d787caa48c1833999b2f822bd7ea91cd46888566f
+06_REGISTRU/roadmap.json | 1f3162459556d67f2b474ba19e5239e06c6305d3fe1cb3e8037c8f901ec69e8f
+06_REGISTRU/roles.json | ef31d39f3e02984c83d4e9380d5ecfa70ff9435e9334e9084b7dc3701761db6f
+06_REGISTRU/rubrics.json | 90140106093ee9a5f23e824853a8565db8bec45c7c0028436af088bc1329446f
+06_REGISTRU/CONTRACTE/SYS-001-r02.json | 904ec22c95a60d7295bd85642c33c49d1e1d340abf95e25538481fe82c83d637
+
+[H02 — arhive]
+2026-09-24T05:25:51+03:00: r02-before-audit, toate cele 209 intrări din index: SHA-256 și size_bytes corespund; zero fișiere absente. Comparate separat cele 33 de copii sources ale intrărilor RES cu contractul: 33/33 identice.
+08_ARHIVA/RES-001/r02-before-audit/index.json: 588c124e472f5a14c7c1815ceefbcb8b20181b0cc14023225943ccb7f6138e4f = index.sha256.
+2026-09-24T05:30:04+03:00: r01-after-audit, toate cele 186 intrări verificate hash/size: zero diferențe.
+08_ARHIVA/RES-001/r01-after-audit/index.json: 272fddac266fcdb77b90087c11f6e673ba12b9dc8992b34945e1fb340626f351 = index.sha256.
+Arhiva r01-after-audit conține rapoartele A-SOURCES-r01 MD/JSON cu hashurile H01, inclusiv verdictul RETURN. Snapshoturile r01 ale celor două produse au fost citite pentru comparațiile de mai jos. Nu s-au creat/modificat arhive. Egalitatea hashurilor nu certifică autenticitatea sau protecția WORM.
+
+[H03 — contract, identitate, calificare]
+API-ul gatekeeper: extract_contract, load, verify_contract('RES-001'), inputs; fără scrieri, Python -B.
+verify_contract a verificat RES-001 și SYS-001, inclusiv intrările lor înghețate. Manifest RES: 33 intrări.
+Serializarea canonică extrasă are SHA 142398f415c5e3ba4d76a656b91bf4a204def4ddefe0b4c4913d08eac80b2fcf; nu este hashul octeților fișierului indentat depus. Egalitatea semantică/proiecția sunt verificate de API; hashul contractual exact rămâne 3b5ae9... din H01.
+Autorizarea live: auditor activ, rol A-SOURCES, UUID de mai sus absent din producători. UUID-ul sesiunii efective a fost verificat; nu sunt redate alte metadate.
+Probe stabile de independență: 06_REGISTRU/CONTEXT_R02/agents_at_freeze.json:L4-L19,L47-L55; EXECUTII_at_freeze.md:L7-L17.
+Calibrare r02: fișierul propriu și confirmarea nominală 05_AUDIT/CALIBRARE_VERIFICARE-r02.md:L70-L90; calificarea 11/11 privește r02. Nu este retroactivă pentru r01.
+Aceste verificări nu echivalează cu acceptarea editorială SYS/RES sau cu al doilea audit/metaaudit.
+
+[T01 — lectură și toate propagările]
+Citite integral B:L1-L190 și R:L1-L204; lectura a inclus și propozițiile fără termeni-cheie. Căutare contextuală suplimentară pentru lume/univers/serii/canon/ramă/WorkID/50k/garanții.
+Maparea O01–O18 a fost confruntată cu produsul integrat, nu acceptată doar din raportul de staging:
+O01 B:L12: fond uman, nu univers comun obligatoriu.
+O02 B:L12: relație numai cu probă ori decizie; absența relației este admisă.
+O03 B:L14: POV/ordine/voce/ritm/acces; comparația nu conectează lumi.
+O04 B:L4: nicio compatibilitate aprobată.
+O05 B:L30-L149: condiții locale pentru toate ID-urile; BM-005:L70 și BM-010:L97 explicit pe WorkID.
+O06 B:L157: seria/WorkID/rama identificate separat; intrările lipsă nu sunt inventate.
+O07 B:L158-L161: două opere, construcție independentă, min50k EN.
+O08 B:L160: prezentarea comparabilă între lumi independente.
+O09 B:L163: trei asocieri de ID-uri, nu proiecte comune.
+O10 B:L167-L182: fișa separă mandat, canon local, prezentare, transformare și conexiuni opționale.
+O11 B:L184: verificarea ulterioară este per proiect, fără validare colectivă.
+O12 B:L188-L190: extindere deschisă, canon separat, r01 păstrat istoric.
+O13 R:L5,L13-L15,L103: AMORIS/NOIR sunt direcții condiționate, nu fapte de canon.
+O14 R:L107-L111: minimum două opere și continuitate locală; fără rudenii/locuri inventate.
+O15 R:L113-L151: C1–C4 condiționează locul, cronologiile, rolul și pericolul de proiect; nu cer legături.
+O16 R:L153-L170: 50k EN, buget 60k, traduceri separate, continuări locale.
+O17 R:L174-L198: 15 axe necompletate, comparație între lumi independente.
+O18 R:L200-L204: localizări obligatorii la auditul viitor; nicio aprobare implicită.
+Rezultat: T01 confirmat. Nu mai este identificată obligația documentară contestată.
+
+[T02a — aplicare procedurală, NU pe WorkID-uri reale]
+Au fost parcurși cei cinci pași B:L157-L161 pe combinațiile EXISTENTE C1 și C4, fără adăugarea unui scenariu sau a unor date de canon.
+C1 / direcție exploratorie AMORIS, R:L113-L121:
+1. Mandatul/WorkID-ul/rama rămân intrări de obținut local; absența lor blochează aprobarea, nu cere date NOIR.
+2. Sursele sunt R1 și R4, două opere distincte; corespondența și accesul profesional sunt mecanisme, nu personaje preluate.
+3. R:L117-L119 leagă mesajele/cererile de decizii și consecințe; cauza, adversarul și finalul nu sunt certificate.
+4. Mesajele și informația profesională permit diferențierea prezentării în propriul proiect; comparația externă nu cere aceeași cronologie sau lume.
+5. 55–65k EN rămâne țintă, nu proză realizată.
+C4 / direcție exploratorie NOIR, R:L143-L151:
+1. Rolul investigatorului, rama și patrimoniul cer canon local; nu depind de C1/AMORIS.
+2. R3 și R6 sunt două opere distincte; transmiterea bunului și dependența instituțională nu implică genealogia/cazul filmului.
+3. Beneficiile/costurile și dreptul de a decide/contesta produc conflictul exploratoriu existent; nu am construit o rezolvare.
+4. Verificările succesive distribuie dezvăluirea; nu este necesară conectarea la C1.
+5. 60–70k EN rămâne țintă, nu proză realizată.
+Câmpul B:L180 / R:L180 permite 'nu se invocă'. Niciunul dintre pași nu impune schimbarea acestui răspuns.
+Rezultat: utilizabilitate procedurală pe colecții independente confirmată, fără certificare de compatibilitate.
+
+[T02b — retest real rămas neexecutat]
+05_AUDIT/RES-001/A-SOURCES-r01.md:L216-L221 cere toate cele patru puncte, inclusiv aplicare unui WorkID din fiecare serie.
+06_REGISTRU/MASURI/RES-001-plan-r01.md:L117,L121 precizează WorkID REAL pentru NOIR/AURORA/MYTHICA și AMORIS; toate testele sunt necesare închiderii.
+06_REGISTRU/MASURI/RES-001-rezultate-r02.md:L78,L137-L139 declară lipsa acestui test.
+Am verificat contractul RES: zero intrări INTRARI_REFERINTA în files/evidence_files; existența copiilor în altă parte/dependență nu le adaugă automat acestui namespace de probe.
+B:L167-L182 și R:L177-L180 nu identifică WorkID-uri reale și surse de canon completate. Nu am substituit nume fictive, texte necontractuale sau aprobarea G01.
+Rezultat: testul real NU a fost executat; F-RES-SOURCES-001 rămâne open pentru această condiție de închidere, deși textul contestat este remediat. GOV-RES-01 este closed doar pentru testul său procedural din r01:L48-L50.
+
+[T03 — structură, operații, surse și limite]
+2026-09-24T05:27:36+03:00: 18 ID-uri unice BM-001–BM-018, 7 celule fiecare, 0 celule goale; 9 opere distincte.
+Verificare semantică individuală (acțiune / prezentare; fără copiere distinctivă):
+BM-001 B:L44: decizie înainte de răspuns / mesaje datate; fără declanșatorul Lamb.
+BM-002 B:L45: mărturii modifică încrederea / informație distribuită; fără club/distribuție.
+BM-003 B:L57: informație veche schimbă opțiunea / context ulterior; fără amnezie/accident.
+BM-004 B:L58: dorința afectează interpretarea / observație versus presupunere; fără jurnalistă/arhiva sursei.
+BM-005 B:L70: bunul transmis cere decizie / responsabilitate graduală; canonul proiectului, nu grădina/basmele.
+BM-006 B:L71: verificare diferită între generații / acces discontinuu la dovezi; fără genealogie.
+BM-007 B:L83: munca permite observația / gesturi și lexic profesional; fără Molly/hotelul distinctiv.
+BM-008 B:L84: gest cu ipoteze incompatibile / observație înaintea explicației; fără profil copiat.
+BM-009 B:L96: angajament permite cooperare / gest reluat ca probă; fără relația/scenografia sursei.
+BM-010 B:L97: pericolul schimbă planul / alternarea rutinei cu perturbări; ton/rama locale, fără tatăl criminal.
+BM-011 B:L109: problema locală expune dependență / dezvăluire graduală; fără Gittes/cazul distinctiv.
+BM-012 B:L110: adevărul nu dă autoritate / decalaj descoperire–consecință; fără finalul filmului.
+BM-013 B:L122: motivul schimbă sensul / revenire din alt POV; fără nunta/triunghiul-sursă.
+BM-014 B:L123: propunere versus contrapropunere / ritmuri/voci contrastante; fără versuri/melodii.
+BM-015 B:L135: explorare deschide informație / ordine spațială; proza cere alegeri și costuri, fără casa/traseul Finch.
+BM-016 B:L136: altă experiență modifică înțelegerea / forme episodice; fără decese/comenzi preluate.
+BM-017 B:L148: relația condiționează mărturia / povestea și actul povestirii; fără mărturii/dialoguri însușite.
+BM-018 B:L149: trecutul schimbă lectura prezentului / juxtapunere; fără iconografie/echivalări istorice.
+Efectele asupra cititorului sunt ipoteze editoriale (B:L24), nu măsurători. Nici asocierea a două opere nu certifică originalitatea.
+
+2026-09-24T05:28:11+03:00: comparație r01/r02:
+- În rândurile BM s-au schimbat doar condițiile BM-005 și BM-010; celelalte 124 celule rămân identice (18*7-2).
+- Toate cele șase blocuri R1–R6 din R sunt identice textual după eliminarea spațiului exterior.
+- 15 URL-uri distincte în B și 7 în R, aceleași mulțimi ca r01.
+2026-09-24T05:30:04+03:00: toate cele 9 linii C/S/P identice cu r01; grila R:L184-L198 are 15 rânduri, toate necompletate; bugetul 8000+14000+16000+14000+8000=60000.
+C1 R1+R4; C2 R2+R3; C3 R4+R5; C4 R3+R6: 4/4 au două opere distincte.
+B:L163: BM-007+BM-013=R4+R7; BM-005+BM-016=R3+R8; BM-011+BM-017=R6+R9: 3/3 au două opere.
+Numărare auxiliară pe corpul fiecărei fișe, fără titlu, linkuri reduse la etichetă, antete de tabel incluse, tokeni separați de spații:
+B R1–R9: 109,118,116,112,114,115,124,117,125; R R1–R6: 86,92,96,96,92,86. Titlurile nu aduc niciuna peste 150. Acest control nu însumează textele din documente ca și când ar fi un citat unic.
+Toate cele patru ținte sunt >=50k EN. Nicio promisiune de bestseller sau de originalitate garantată identificată prin lectura integrală și verificarea contextuală.
+Rezultat: T03 confirmat la nivelul celor două documente preliminare; nu test de unicitate a unei intrigi inexistente.
+
+[W01 — verificări web noi, 2026-09-24, Europe/Bucharest]
+Au fost accesate/încercate toate cele 15 URL-uri distincte din B și 3 coroborări oficiale suplimentare: Academy 1975, Tony, comunicatul PDF BAFTA. Probele scurte atribuite și URL-urile sunt în secțiunea 'web' a MD-ului.
+14/15 URL-uri contractuale au conținut accesibil; BAFTA plain-text nu a putut fi citit (HTTP 403 la 05:26:30+03:00), nu este pretins verificat prin acea pagină.
+Kate Morton și Paramount: extragere web eșuată; lectură HTTP directă 200 la 05:26:28/05:26:29+03:00.
+The Maid: pagina a fost deschisă web; căutarea internă a extractorului a eșuat; HTTP direct 200 la 05:26:30+03:00 a verificat 'more than two million copies worldwide', #1 NYT și ediția 04.01.2022.
+BAFTA: comunicatul oficial PDF 12.04.2018, p.1, confirmă Best Game pentru Edith Finch și Narrative pentru Night in the Woods.
+Datele de acces r01 din produsele înghețate rămân istorice; nu au fost schimbate sau prezentate drept accesări de revizie ale producătorului.
+Nu au fost descărcate/salvate opere sau pagini integrale.
+
+[Încheiere]
+Scoruri editoriale independente: surse 962/25%; succes 970/20%; originalitate 965/25%; relevanta 965/15%; utilizare 940/15%.
+Media ponderată informativă: 961,50/1000. Verdict RETURN, deoarece utilizare <=950 și F-RES-SOURCES-001 rămâne open.
+Limita de calificare G00 nu este tratată în sine ca defect: grila goală și lipsa unui roman sunt legitime. Motivul RETURN este condiția explicită de retest neprobată, nu o pretenție de certificare G01.
+Nu au fost executate suita tehnică de 233 teste, alt audit primar, metaaudit, înregistrarea rapoartelor sau arhivarea r02-after-audit. Acestea nu sunt însușite din declarațiile altora.
+

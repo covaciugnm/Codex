@@ -1,0 +1,42 @@
+[
+    {
+        "id":  "GOV-A01",
+        "severity":  "P1",
+        "status":  "closed",
+        "artifact":  "tools/manage.cjs validate; 03_plan task/requirements and experiments contracts",
+        "issue":  "Validatorul accepta task accepted fara outputs/probe, roluri inexistente, experiment necunoscut; relatii req-test nereciproce si experiment cu autor=auditor.",
+        "required_fix":  "Valideaza enum stari, roluri reale, task.experiments, campuri requirement si reciprocitate req-experiment; pentru accepted cere rezultate existente si raport independent/evidence; teste negative izolate.",
+        "closed_by_audit":  "AUDIT_GUVERNANTA_R2.md",
+        "closure_scope":  "documentary and isolated tooling tests; hardware unexecuted"
+    },
+    {
+        "id":  "GOV-A02",
+        "severity":  "P1",
+        "status":  "closed",
+        "artifact":  "tools/manage.cjs validate audit branch; 07_audit/REGISTRU.json",
+        "issue":  "status accepted cu findings=[] trece fara rapoarte sau acoperirea required_domains.",
+        "required_fix":  "Cere acoperire explicita pentru toate domeniile aplicabile, referinte la rapoarte existente, autor/auditor distincti si verdict documentar valid; N/A justificat. Verifica constatarile deschise din registrele referite, nu doar lista globala goala.",
+        "closed_by_audit":  "AUDIT_GUVERNANTA_R2.md",
+        "closure_scope":  "documentary and isolated tooling tests; hardware unexecuted"
+    },
+    {
+        "id":  "GOV-A03",
+        "severity":  "P1",
+        "status":  "closed",
+        "artifact":  "tools/manage.cjs event and validate; 00_control/RELUARE.md checkpoint contract",
+        "issue":  "Comanda event actor fara task/type/result emite linie valida JSON; validate o accepta. Evenimentul nu poate specifica attempt/input hashes/verificari/next cerute la reluare.",
+        "required_fix":  "Respinge argumentele incomplete inainte de scriere; adauga cale structurata pentru checkpoint complet conform schemei, cu attempt/artefacte/hashuri/verificari/next. Valideaza noile evenimente versionate; delimiteaza jurnal legacy fara inventarea retrospectiva a dovezilor.",
+        "closed_by_audit":  "AUDIT_GUVERNANTA_R2.md",
+        "closure_scope":  "documentary and isolated tooling tests; hardware unexecuted"
+    },
+    {
+        "id":  "GOV-A04",
+        "severity":  "P2",
+        "status":  "closed",
+        "artifact":  "tools/manage.cjs manifest and verify",
+        "issue":  "manifest exclude *.tmp, verify le trateaza extra; secventa documentata manifest-\u003everify esueaza pe arbore neschimbat dupa intrerupere cu tmp ramas.",
+        "required_fix":  "Unifica politica: fie refuza crearea manifestului pana la rezolvarea explicita tmp, fie inregistreaza o excludere comuna aplicata identic. Nu sterge automat munca temporara.",
+        "closed_by_audit":  "AUDIT_GUVERNANTA_R2.md",
+        "closure_scope":  "documentary and isolated tooling tests; hardware unexecuted"
+    }
+]

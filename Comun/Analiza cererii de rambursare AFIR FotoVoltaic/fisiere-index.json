@@ -1,0 +1,308 @@
+[
+  {
+    "source_reference": "C:\\Program Files*\\LibreOffice\\program\\soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\0. VERIFICARE_SEVERA_PRE-AUDIT_si_Fisa_date_auditor.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\Nota_justificativa_stadiu_investitie_Transa1.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\Nota_justificativa_stadiu_investitie_Transa1.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\Nota_justificativa_stadiu_investitie_Transa1_v2.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\Nota_justificativa_stadiu_investitie_Transa1_v2.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\RAPORT_AUDIT_v2_CR1_CESIRO_10.08.2026.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\RAPORT_AUDIT_v2_CR1_CESIRO_10.08.2026.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\audit12",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\cf_semnat_xfa.xml",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\procedura_ocr.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\51b25591-4534-49fa-8087-36eadf9cd552\\scratchpad\\sch_p%d.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\563b6e1d-3e82-4c49-a166-6c6476a1b01f\\6bafde40-a559-4750-9e08-274e5fb0537d\\skills\\docx\\scripts\\office\\soffice.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\51b25591-4534-49fa-8087-36eadf9cd552\\\\scratchpad\\\\0. VERIFICARE_SEVERA_PRE-AUDIT_si_Fisa_date_auditor.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\51b25591-4534-49fa-8087-36eadf9cd552\\\\scratchpad\\\\Nota_justificativa_stadiu_investitie_Transa1.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\51b25591-4534-49fa-8087-36eadf9cd552\\\\scratchpad\\\\Nota_justificativa_stadiu_investitie_Transa1_v2.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\51b25591-4534-49fa-8087-36eadf9cd552\\\\scratchpad\\\\RAPORT_AUDIT_v2_CR1_CESIRO_10.08.2026.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\0*\\GHID*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\0.0 Documente Oficiale Ghid",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\0.0 Documente Oficiale Ghid\\Procedura Evaluare Selectare Contractare Cereri Finantare Schema De Energie.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Procedura Evaluare Selectare Contractare Cereri Finanta--5d5ee6c9.pdf",
+    "bytes": 6308999,
+    "sha256": "ea1d55970fadcfc7ee1277aed629cf9c620f50d29e436f1570b8ac5582f44340"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\11. Contract Finantare Semnat\\AnexaIV_FM semnat.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/AnexaIV_FM semnat--163edf49.pdf",
+    "bytes": 413742,
+    "sha256": "1db7350d4367e71a817cc735b3b1afff848be4b39414fbb82c2eb968b34fe4da"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri\\Tablou_General_TEG-PV_1MVA_10zone_MINIMAL_2026.07.31.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Tablou_General_TEG-PV_1MVA_10zone_MINIMAL_2026.07.31--92bafa70.xlsx",
+    "bytes": 37143,
+    "sha256": "45a3a4e4509ffa2bff56b5ccfcb5b669e000138638d9da4c0072bc32a9037e58"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri\\Tablou_TEG-PV_LISTA_MATERIALE_FINALA_2026.08.12.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Tablou_TEG-PV_LISTA_MATERIALE_FINALA_2026.08.12--71e572a6.xlsx",
+    "bytes": 16779,
+    "sha256": "83c5e784411e0c5c1d1cabd4e76e6c99b92e5c014a59454bfd5d3cabec598b16"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri\\Tablou_TEG-PV_Scheme_electrice_2026.08.12.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Tablou_TEG-PV_Scheme_electrice_2026.08.12--fc05b739.pdf",
+    "bytes": 41763,
+    "sha256": "0f6fd4d3dccccb7820690a3d705ee1c5e2bf387740affb28d8704be51cc2ec4b"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\16.3 Act aditional 2 Bis - Prelungire termen",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\20. ATR",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\20. ATR\\2026.08.11",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\20. ATR\\2026.08.11\\*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\20. ATR\\2026.08.12\\DATR011 ProsumatorPJ v0.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/DATR011 ProsumatorPJ v0--5777d643.pdf",
+    "bytes": 364606,
+    "sha256": "f888bb0583cc46573b7edc488ce6ab97e1016237b4ca28da9bea97baebec9b85"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\20. ATR\\2026.08.12\\DATR011 ProsumatorPJ.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/DATR011 ProsumatorPJ--82c7a6e3.pdf",
+    "bytes": 388076,
+    "sha256": "c77f235f685004f70c3e270b282f4394017a269f28534163c5e76699e52134c7"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\3.0. Deviz\\Deviz general.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Deviz general--7d1224f8.xlsx",
+    "bytes": 19315,
+    "sha256": "ec39665871b9b4ce192616d10f897445a89872a25e083eb2f88b5bbbd9a254f1"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\3.6. Oferte\\1. Suntree Solar Tech SRL\\Oferta Suntree Solar Tech SRL.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Oferta Suntree Solar Tech SRL--776f94ac.docx",
+    "bytes": 301133,
+    "sha256": "f762bf33683baa5e12be3283bd2fd95f9653086a8cc344fd0e7f3954b72bd347"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\12. Raportul de audit financiar",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\12. Raportul de audit financiar\\0. VERIFICARE_SEVERA_PRE-AUDIT_si_Fisa_date_auditor.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\2.2 Facturi si Extrase de cont- DE EDITAT\\Situatie de Lucrari Suntree_Production.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\22*\\Centralizator_2222*.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\22. PV Receptie Panouri 23_06_2026\\Centralizator_2222_panouri_montate_CD1 v1.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\4. Contracte, achiziții și documente suport pentru cheltuieli\\draft\\Act_aditional_prelungire_termen_Suntree.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Act_aditional_prelungire_termen_Suntree--212adf66.docx",
+    "bytes": 16250,
+    "sha256": "1daa90401aa18db9afc58cab6d630ce172533143f0359906309a360cda264304"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\5. Raportul de execuție si procese verbale si centralizator panouri si invertore\\AP_1_3_SE_Raport_executie_Transa1 v1.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\7. Situații de plată pentru lucrări_Situatie de lucrari\\Situatie_de_plata_transa_V2 v1.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\Nota_justificativa_stadiu_investitie_Transa1.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\Nota_justificativa_stadiu_investitie_Transa1_v2.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\Opis_documentatie_Cerere_rambursare_Transa1 v1.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\30.1 Cerere Rambursare 1\\RAPORT_AUDIT_v2_CR1_CESIRO_10.08.2026.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\4. Cerere de finantare\\CF_DO_ENERGIE_v1.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\5. De Depus\\DE DEPUS FINAL\\Cerere de finantare semnat.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Cerere de finantare semnat--0c3a9525.pdf",
+    "bytes": 1408358,
+    "sha256": "a8cb1885f095155966ea609c48a020fc62a40435f11522299eb0306554cbc086"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\Cerere finantare surse regenerabile de energie si stocarea energiei.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Cerere finantare surse regenerabile de energie si stoca--54d7f63c.pdf",
+    "bytes": 897328,
+    "sha256": "b0c4b8104897b93bfd2df46c62868354425e9790ea14e37379909ab9d2bebeca"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\15. Implementare Proiect Fotovoltaic\\\\30. Tablouri\\\\Tablou_TEG-PV_Documentatie_asamblare_2026.08.12.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Tablou_TEG-PV_Documentatie_asamblare_2026.08.12--2e743beb.docx",
+    "bytes": 14525,
+    "sha256": "cdad1a0b293b557b03b68b3b84934c3d539e47cf56a5ffc6342df4c58ea882c5"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\15. Implementare Proiect Fotovoltaic\\\\30. Tablouri\\\\Tablou_TEG-PV_Scheme_electrice_2026.08.12.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Tablou_TEG-PV_Scheme_electrice_2026.08.12--fc05b739.pdf",
+    "bytes": 41763,
+    "sha256": "0f6fd4d3dccccb7820690a3d705ee1c5e2bf387740affb28d8704be51cc2ec4b"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\16.3 Act aditional 2 Bis - Prelungire termen",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\datr_{tag}.txt",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\draft\\\\|\\\\Draft\\\\|\\\\9-10\\. Fotografii",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "https://docs.nrel.gov/docs/fy25osti/92536.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.afir.ro/comunicate/lansare-sesiune-de-primire-a-solicitarilor-de-finantare-aferente-schemei-de-energie/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.afir.ro/domenii-de-interventie/detalii-si-anexe-schema-energie/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.energy.gov/eere/solar/solar-photovoltaic-system-cost-benchmarks",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.greenlancer.com/post/investing-in-commercial-solar-panels-a-guide-on-costs-and-benefits",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ise.fraunhofer.de/en/publications/studies/photovoltaics-report.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.madr.ro/comunicare/9606-comunicat-de-presa-se-prelungeste-termenul-de-depunere-la-afir-a-solicitarilor-de-finantare-prin-schema-de-energie-regenerabila-pentru-autoconsum-in-sectorul-agro-alimentar.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.solardataatlas.com/en/data-solar-capex-europe",
+    "status": "referinta_externa_necopiata"
+  }
+]

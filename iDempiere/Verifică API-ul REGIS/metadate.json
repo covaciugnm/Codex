@@ -1,0 +1,23 @@
+{
+  "id": "01a11168-ab9e-7910-8d91-0d0729122c5e",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791293434,
+  "updated_at": 1791293816,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică API-ul REGIS",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 251154,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 8,
+  "message_count": 5,
+  "content_sha256": "20103b783b79aad832b778149ec5a100c1a3959385a7b975aae090acdd13ab3f",
+  "files_copied": 0,
+  "references_not_copied": 6
+}

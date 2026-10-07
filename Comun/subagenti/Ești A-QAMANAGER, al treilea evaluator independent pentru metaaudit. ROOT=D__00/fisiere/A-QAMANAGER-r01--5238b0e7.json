@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "deliverable_id": "SYS-001",
+  "reviewer_agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "reviewer_role": "A-QAMANAGER",
+  "audit_files": [
+    {
+      "path": "05_AUDIT/SYS-001/A-GOVERNANCE-r01.json",
+      "sha256": "0efa30eaad0437930d555b5e5455a49053d5d2ac0129c7bad556fddd33bd6ec2"
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-SYSTEMS-r01.json",
+      "sha256": "a825a5db3032848664851c345440a795f8870545617af85f8e3ed915efa97d4a"
+    }
+  ],
+  "checks": [
+    {
+      "id": "independence",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SYS-001/A-QAMANAGER-r01.md#independence",
+        "06_REGISTRU/agents.json:L1-L55"
+      ]
+    },
+    {
+      "id": "coverage",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SYS-001/A-QAMANAGER-r01.md#coverage",
+        "05_AUDIT/SYS-001/A-SYSTEMS-r01.md#hash-verification"
+      ]
+    },
+    {
+      "id": "evidence",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SYS-001/A-QAMANAGER-r01.md#evidence",
+        "00_CONDUCERE/TRASABILITATE.md:L1-L17",
+        "01_ECHIPA/A-QAMANAGER.md:L23-L24",
+        "05_AUDIT/SYS-001/A-SYSTEMS-r01.md#probe-results",
+        "08_ARHIVA/SYS-001/r01-before-audit/sources/06_REGISTRU/MANDATE_INITIALE.md:L15-L15"
+      ]
+    },
+    {
+      "id": "scoring",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SYS-001/A-QAMANAGER-r01.md#scoring",
+        "05_AUDIT/SYS-001/A-GOVERNANCE-r01.json:L1-L1",
+        "05_AUDIT/SYS-001/A-SYSTEMS-r01.json:L1-L1"
+      ]
+    },
+    {
+      "id": "closure",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SYS-001/A-QAMANAGER-r01.md#closure",
+        "05_AUDIT/SYS-001/A-GOVERNANCE-r01.md:L1-L12",
+        "05_AUDIT/SYS-001/A-SYSTEMS-r01.json:L1-L1"
+      ]
+    },
+    {
+      "id": "version",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SYS-001/A-QAMANAGER-r01.md#version",
+        "08_ARHIVA/SYS-001/r01-before-audit/index.json:L1-L1"
+      ]
+    }
+  ],
+  "findings": [],
+  "verdict": "PASS",
+  "reviewed_at": "2026-09-24T04:31:18+03:00"
+}
+

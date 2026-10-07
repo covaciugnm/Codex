@@ -1,0 +1,152 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\Z--00--Proiecte-2025-AFIR-FotoVoltaic-1\\5c6116bf-dba7-4339-a8df-72f24eeaaf6c\\workflows\\scripts\\proiectare-tablou-pv-1mva-wf_3553844d-7b8.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\workbook\\workbook.py",
+    "status": "copiat",
+    "saved_path": "fisiere/workbook--9a225d42.py",
+    "bytes": 13232,
+    "sha256": "a1a12bbd21f5a94a615003ce6530878f6507c8a783aac8f60f270a083720a3b3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\writer\\excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/excel--0797c11d.py",
+    "bytes": 9572,
+    "sha256": "ea2a179f78521c72149e45b6c02c8180f0380a770ee855cbe72192033b2aa7a6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--78f46652.py",
+    "bytes": 90666,
+    "sha256": "80cf964f4288847c4c73d1f379115b55c21d047f2316ca3a995155e8d6a86169"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5c6116bf-dba7-4339-a8df-72f24eeaaf6c\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5c6116bf-dba7-4339-a8df-72f24eeaaf6c\\scratchpad\\_full_corectat.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5c6116bf-dba7-4339-a8df-72f24eeaaf6c\\scratchpad\\add_compare.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5c6116bf-dba7-4339-a8df-72f24eeaaf6c\\scratchpad\\add_compare_v2.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5c6116bf-dba7-4339-a8df-72f24eeaaf6c\\scratchpad\\build_spartan.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\5c6116bf-dba7-4339-a8df-72f24eeaaf6c\\\\scratchpad\\\\build_xlsx.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri\\Tablou_General_TEG-PV_1MVA_10zone_2026.07.30.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri\\Tablou_General_TEG-PV_1MVA_10zone_MINIMAL_2026.07.31.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Tablou_General_TEG-PV_1MVA_10zone_MINIMAL_2026.07.31--92bafa70.xlsx",
+    "bytes": 37143,
+    "sha256": "45a3a4e4509ffa2bff56b5ccfcb5b669e000138638d9da4c0072bc32a9037e58"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri\\Tablou_General_TEG-PV_1MVA_10zone_MINIMAL_3variante_2026.07.31.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri\\Tablou_General_TEG-PV_1MVA_10zone_SPARTAN_v2_2026.07.31.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\15. Implementare Proiect Fotovoltaic\\30. Tablouri\\Tablou_General_TEG-PV_1MVA_10zone_V3_avizabil_2026.07.31.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\15. Implementare Proiect Fotovoltaic\\\\30. Tablouri\\\\Tablou_General_TEG-PV_1MVA_10zone_2026.07.30.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\15. Implementare Proiect Fotovoltaic\\\\30. Tablouri\\\\Tablou_General_TEG-PV_1MVA_10zone_2026.07.31.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\15. Implementare Proiect Fotovoltaic\\\\30. Tablouri\\\\Tablou_General_TEG-PV_1MVA_10zone_MINIMAL_2026.07.31.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Tablou_General_TEG-PV_1MVA_10zone_MINIMAL_2026.07.31--92bafa70.xlsx",
+    "bytes": 37143,
+    "sha256": "45a3a4e4509ffa2bff56b5ccfcb5b669e000138638d9da4c0072bc32a9037e58"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\15. Implementare Proiect Fotovoltaic\\\\30. Tablouri\\\\Tablou_General_TEG-PV_1MVA_10zone_MINIMAL_3variante_2026.07.31.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\15. Implementare Proiect Fotovoltaic\\\\30. Tablouri\\\\Tablou_General_TEG-PV_1MVA_10zone_SPARTAN_v2_2026.07.31.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\15. Implementare Proiect Fotovoltaic\\\\30. Tablouri\\\\Tablou_General_TEG-PV_1MVA_10zone_V3_avizabil_2026.07.31.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "afir-cesiro-rambursare1.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "cesiro-images-catalog.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "eva-contab-localizare-ro.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "eva-english-library.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "firme-organizare.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "ocr-doc-tooling.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "pocidif-2-1-eva-dancor.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "red-fotovoltaic-fm.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "zoom-ssm-recordings.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

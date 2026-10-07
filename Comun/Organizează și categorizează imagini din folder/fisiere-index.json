@@ -1,0 +1,477 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/**/*.jsonl",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/settings.json",
+    "status": "copiat",
+    "saved_path": "fisiere/settings--be5cd529.json",
+    "bytes": 1273,
+    "sha256": "cf8bf8dbe4d50c3ac42f2ae4bf03a3c8bc966b834b3edb88e6e2884c01d6d718"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/scratchpad/batches",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/scratchpad/firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/scratchpad/firme/all_ci.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/scratchpad/firme/all_ci2.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/scratchpad/firme/move_firme_log.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/scratchpad/firme/pers_search.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/scratchpad/firme/plan_firme.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/b1am8h36g.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/b3s27jj9x.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/b41siezfk.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/b4ihcj5yn.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/b4nrh66gq.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/b8iulsk7d.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/be1noiyko.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/biw0zxps9.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/bkr0uert6.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/bncy7dg5t.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/bqglsmco7.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/bswt2p82w.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/b0da4186-ec52-409f-b528-e33ecd1696d8/tasks/bz99b1rz0.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/Desktop",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\b0da4186-ec52-409f-b528-e33ecd1696d8\\scratchpad\\cesiro_enrich.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\b0da4186-ec52-409f-b528-e33ecd1696d8\\scratchpad\\cesiro_scrape.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\b0da4186-ec52-409f-b528-e33ecd1696d8\\scratchpad\\firme\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\My Drive (covaciu.gnm@gmail.com)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\found.000\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/IPEC Documente",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/IPEC Documente/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/\\$RECYCLE.BIN",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\...",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\IPEC Documente",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\IPEC Documente",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/#recycle",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/#snapshot",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/#recycle",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/#snapshot",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. RAPORT ARHIVA/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. RAPORT ARHIVA/raport.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/@Recycle",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/CESIRO TRADING SRL - CUI 37705493",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/INDUNOVA ROBOTICS",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/INDUNOVA ROBOTICS SRL - CUI 52786670",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/INDUNOVA ROBOTICS SRL - CUI 52786670/0. Arhiva",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/INDUNOVA ROBOTICS SRL - CUI 52786670/0. Arhiva/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/INDUNOVA ROBOTICS/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/IPEC COVACIU SRL - CUI 1756020",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/IPEC SA - CUI 6698299",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/Inamtriculare Firma Indunova Robotics.rar",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Firme/RED INTERNET SALES SRL - CUI 47342670",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Persoane",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/COVACIU ALINA-LOREDANA - 2670927011095",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/COVACIU CRISTIAN - 1670817120692",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Persoane/Marginean Ioan Adrian",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.%20Firme/00.%20CONSTATATOARE%20TERTI%20SI%20ISTORICE%20(referinta",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.%20Firme/00.%20INDEX%20FIRME.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.%20Persoane/00.%20ACTE%20GĂSITE%20ÎN%20PROIECTE.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.%20Persoane/00.%20INDEX%20PERSOANE.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/@Recycle",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/\\$RECYCLE.BIN",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/images",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/images/_RAPORT",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/images/_RAPORT/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/images/_RAPORT/\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/images/_RAPORT/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--c792b74e.html",
+    "bytes": 16634419,
+    "sha256": "8acb83b7c7268c24de78c53094ec1cec40980680aef7460619e24677a35f6d3a"
+  },
+  {
+    "source_reference": "Z:/images/images",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/images/images\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\...",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\00. CONSTATATOARE TERTI SI ISTORICE (referinta).xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\00. RAPORT ARHIVA\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\00. RAPORT ARHIVA\\index_documente.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\00. RAPORT ARHIVA\\raport.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\COVACIU MARIA-ELENA - 2700806011126\\CI nou fata*.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\Covaciu Cosmin Adrian\\CI nou*",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\Koncz Erika\\CIM*",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\Szoke Alexandru\\CI - *",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\Szoke Alexandru\\CI nou*",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Firme\\\\OPTIM MANAGEMENT ALBA SRL - CUI 26174361\\\\0. Arhiva\\\\26174361 Certificat constatator 2021.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\\\00. Firme_ORGANIZAT",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\images",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\images not found either",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\images\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\images\\<Category>\\<Subcategory>\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\images\\_RAPORT\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--c792b74e.html",
+    "bytes": 16634419,
+    "sha256": "8acb83b7c7268c24de78c53094ec1cec40980680aef7460619e24677a35f6d3a"
+  },
+  {
+    "source_reference": "Z:\\images\\_RAPORT\\raport_produse.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/raport_produse--6395f762.xlsx",
+    "bytes": 2878835,
+    "sha256": "eb3f605b0f69f45f9b6b91e15fb18ad5c8a6f75387f5106284083ad35a4e53ec"
+  },
+  {
+    "source_reference": "Z:\\images\\images",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\(CSR[0-9]{3,6}|cod[^<]{0,40}|sku[^<]{0,40}|SKU\\\\\\\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\(sku|mpn|productID|gtin[0-9]*\\\\)\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\)\\",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\...",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Proiecte\\...",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\.claude",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "elena|denisa",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

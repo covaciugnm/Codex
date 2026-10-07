@@ -1,0 +1,23 @@
+{
+  "id": "01a0d0d7-e865-7b71-9707-be8786099512",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790210207,
+  "updated_at": 1790240794,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Dirac\",\"agent_role\":null}}}",
+  "title": "Ești P-CANON, documentarist editorial. Sarcină strict delimitată și read-only asupra surselor: verifică seriile actuale din S:\\dracula-book\\public\\app.js (găsește fișierul dacă diferă), site-ul https://dracula-book.com și manuscrisele/planurile din D:\\00. Downloads\\Dracula Book. Nu citi .env și nu modifica sursele/site-ul. Livrează un raport în D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\02_DOCUMENTARE\\CANON_EXISTENT.md folosind apply_patch. Raportul trebuie să compare 3 opțiuni de continuare în seriile ÎNCEPUTE, să recomande una și să documenteze exact ce este canon cert vs contradicție vs propunere. Focalizare probabilă AMORIS Isabella Morgan / Rue des Âmes vol.2 The Magenta Letters, dacă teaserul o susține; alternativa Alex Damian și Ten Crowns. Citește integral finalul și teaserul masterului V2 Hotelul, plus story bible dacă există. Identifică personaje/nume/relații/loc/timp/final/promisiuni, cu căi și paragrafe exacte; nu inventa canon. Poți extrage DOCX cu Python lxml/zipfile și citi textul. Context: auditul anterior a identificat Hotelul V1 greșit (copie Aurora); V2 real EN. Northern Crown teaser The Eastern Sands vs plan Crown of Waters. Userul dorește romane min50k EN, apoi RO/DE, originalitate, auditori separați >9.50. Recomandarea e DRAFT, nu aprobată. Nu îți acorda scoruri. Nu scrie romanul sau planuri detaliate de scene. Returnează fișierele, constatări, surse și limite. Fără alte subagenți.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 16279778,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 261,
+  "message_count": 63,
+  "content_sha256": "c5e7951e0800e8321a240c09b87f95487819bef8c374684f6b0c7461de8db60c",
+  "files_copied": 26,
+  "references_not_copied": 0
+}

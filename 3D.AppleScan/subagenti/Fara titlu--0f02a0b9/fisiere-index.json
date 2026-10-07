@@ -1,0 +1,44 @@
+[
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/docs/AUDIT_REDESIGN_V2.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT_REDESIGN_V2--46ca9044.md",
+    "bytes": 12000,
+    "sha256": "7dbba753503d76dd69b311dc0fa45d08f62d11b4d35a7e8addd395cfd4b6ddea"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/docs/REDESIGN_V2_BRIEF.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REDESIGN_V2_BRIEF--a81909b3.md",
+    "bytes": 18445,
+    "sha256": "f9763e65a94d9d6aced48fa0a9182914e0c46bcf0bbd7edfd06172221f610437"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/docs/redesign-v2-manager.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-v2-manager--d351875f.jsonl",
+    "bytes": 4895,
+    "sha256": "0276afcb79668e7031d5704cf50b1e4cb6a8652a5473b8584c09a684cb68b297"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\AUDIT_REDESIGN_V2.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT_REDESIGN_V2--46ca9044.md",
+    "bytes": 12000,
+    "sha256": "7dbba753503d76dd69b311dc0fa45d08f62d11b4d35a7e8addd395cfd4b6ddea"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\REDESIGN_V2_BRIEF.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REDESIGN_V2_BRIEF--a81909b3.md",
+    "bytes": 18445,
+    "sha256": "f9763e65a94d9d6aced48fa0a9182914e0c46bcf0bbd7edfd06172221f610437"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\redesign-v2-manager.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-v2-manager--d351875f.jsonl",
+    "bytes": 4895,
+    "sha256": "0276afcb79668e7031d5704cf50b1e4cb6a8652a5473b8584c09a684cb68b297"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "source_reference": "C:/Users/User/.codex/plugins/cache/openai-bundled/computer-use/26.930.41038/skills/computer-use/SKILL.md",
+    "status": "configuratie_sau_credentiale_excluse"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10b76-63c7-79a3-93a0-4708a9986efa\\preview_de_stare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_de_stare--032d7b9a.png",
+    "bytes": 52775,
+    "sha256": "c87487cd149739994a6eed816fff48dd289d4abd1de20f202ea3c9fd3d1776db"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10b76-63c7-79a3-93a0-4708a9986efa\\preview_de_texte.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_de_texte--84ccfe2b.png",
+    "bytes": 49292,
+    "sha256": "4e1e20ac0a038c776cd5953a0782bb74b952fbc4a443d26c8e4394748f294e04"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10b76-63c7-79a3-93a0-4708a9986efa\\preview_en_stare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_en_stare--ef9e4392.png",
+    "bytes": 52655,
+    "sha256": "1e64a332b8a0ecfd9c07d1e66b70fce88a20f54e1607beca751bcc0f41cb3144"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10b76-63c7-79a3-93a0-4708a9986efa\\preview_en_texte.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_en_texte--6eb3a169.png",
+    "bytes": 39466,
+    "sha256": "2dc4b700ef3f7b2d35fc8d9417c018c079d73c25c4767a0f8ad586c13ed459bb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10b76-63c7-79a3-93a0-4708a9986efa\\preview_ro_stare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_ro_stare--7495f0eb.png",
+    "bytes": 52772,
+    "sha256": "bf797e108d967bbcaf58f4c18b05ec9a5c2058e07517ef846f5c93293745bb7d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10b76-63c7-79a3-93a0-4708a9986efa\\preview_ro_texte.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview_ro_texte--1f7dd217.png",
+    "bytes": 39999,
+    "sha256": "57b5b826905b334d042233e47ad198e18ed3bfd24dd09629cc7cfa194f585a2e"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_Learn_Import_35/PERECHI_DISPONIBILE.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/PERECHI_DISPONIBILE--ce5511e7.csv",
+    "bytes": 39710,
+    "sha256": "d68429a60fdeeff09e63d8e41c2eb4d6deac2b1f348e0205637d962f771b41e3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\EVA-traducere-RO-TOT-2026-10-03.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-03--0d461874.xlsx",
+    "bytes": 13707123,
+    "sha256": "22d7b54bd36b38cc49357b696e0884585c0aa53353702288289873b990ddbe72"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traduceri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\Arhiva + Audit",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn/blob/main/documentatie/EVA-traducere-EN-Texte-fixe_v006.xlsx",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn/blob/main/documentatie/EVA-traducere-RO-Texte-fixe_v005.xlsx",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn/blob/main/documentatie/EVA-traduceri-TOATE-LIMBILE-EN-RO-DE-FR-ES-2026-10-05.xlsx",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn/blob/main/documentatie/STADIU-TRADUCERI-OPRIT-2026-10-05-v001.txt",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn/tree/main/documentatie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Learn/tree/main/documentatie/arhiva/oprire-2026-10-05-v001",
+    "status": "referinta_externa_necopiata"
+  }
+]

@@ -1,0 +1,87 @@
+{
+    "verified_at":  "2026-09-24T07:58:10.5540329+03:00",
+    "scope":  "READ_ONLY comparaison original-copy-prior hash",
+    "files":  [
+                  {
+                      "id":  "SITE_APP",
+                      "original":  "S:\\dracula-book\\public\\app.js",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+                      "sha256":  "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+                      "frozen_sha256":  "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+                      "copy_sha256":  "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+                      "match":  true
+                  },
+                  {
+                      "id":  "H",
+                      "original":  "D:\\00. Downloads\\Dracula Book\\AMORIS SERIES\\Hotelul din Rue des Âmes\\Versiunea 2\\Hotelul_din_Rue_des_Ames_FINAL_v2.docx",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+                      "sha256":  "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+                      "frozen_sha256":  "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+                      "copy_sha256":  "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+                      "match":  true
+                  },
+                  {
+                      "id":  "HB",
+                      "original":  "D:\\00. Downloads\\Dracula Book\\AMORIS SERIES\\Hotelul din Rue des Âmes\\Versiunea 2\\Story_Bible_FINAL.docx",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/HB.docx",
+                      "sha256":  "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+                      "frozen_sha256":  "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+                      "copy_sha256":  "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+                      "match":  true
+                  },
+                  {
+                      "id":  "HC",
+                      "original":  "D:\\00. Downloads\\Dracula Book\\AMORIS SERIES\\Hotelul din Rue des Âmes\\Versiunea 2\\ChangeLog_v2.txt",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/HC.txt",
+                      "sha256":  "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+                      "frozen_sha256":  "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+                      "copy_sha256":  "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+                      "match":  true
+                  },
+                  {
+                      "id":  "AC",
+                      "original":  "D:\\00. Downloads\\Dracula Book\\AMORIS SERIES\\Dracula Amoris - concept Alex \u0026 Isabella.docx",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/AC.docx",
+                      "sha256":  "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+                      "frozen_sha256":  "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+                      "copy_sha256":  "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+                      "match":  true
+                  },
+                  {
+                      "id":  "HT",
+                      "original":  "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Versiunea 2/Hotelul_din_Rue_des_Ames_FINAL_v2.txt",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/HT.txt",
+                      "sha256":  "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+                      "frozen_sha256":  "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+                      "copy_sha256":  "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+                      "match":  true
+                  },
+                  {
+                      "id":  "HBT",
+                      "original":  "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Versiunea 2/Story_Bible_FINAL.txt",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt",
+                      "sha256":  "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+                      "frozen_sha256":  "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+                      "copy_sha256":  "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+                      "match":  true
+                  },
+                  {
+                      "id":  "HP",
+                      "original":  "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/PLAN Hotelul din Rue des Âmes by Gabrielle St.docx",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/HP.docx",
+                      "sha256":  "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+                      "frozen_sha256":  "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+                      "copy_sha256":  "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+                      "match":  true
+                  },
+                  {
+                      "id":  "OR",
+                      "original":  "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Versiunea 2/Originality_Report.txt",
+                      "copy":  "02_DOCUMENTARE/INTRARI_REFERINTA/OR.txt",
+                      "sha256":  "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+                      "frozen_sha256":  "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+                      "copy_sha256":  "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+                      "match":  true
+                  }
+              ]
+}

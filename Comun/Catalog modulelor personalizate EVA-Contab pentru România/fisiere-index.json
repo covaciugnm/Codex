@@ -1,0 +1,337 @@
+[
+  {
+    "source_reference": "C:/Program Files (x86)/LibreOffice/program/soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:/Program Files/LibreOffice/program/soffice.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:/Program Files/Microsoft Office/root/Office16/WINWORD.EXE",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:/Program Files/Pandoc/pandoc.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/550a9c7e-f112-4477-9ee3-e21144c5b9b7/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/563b6e1d-3e82-4c49-a166-6c6476a1b01f/6bafde40-a559-4750-9e08-274e5fb0537d/skills/docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\AnthropicClaude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\550a9c7e-f112-4477-9ee3-e21144c5b9b7\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\550a9c7e-f112-4477-9ee3-e21144c5b9b7\\scratchpad\\build_xlsx.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\550a9c7e-f112-4477-9ee3-e21144c5b9b7\\scratchpad\\catalog.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\550a9c7e-f112-4477-9ee3-e21144c5b9b7\\scratchpad\\comp.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\550a9c7e-f112-4477-9ee3-e21144c5b9b7\\scratchpad\\ghid.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\550a9c7e-f112-4477-9ee3-e21144c5b9b7\\scratchpad\\param.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\550a9c7e-f112-4477-9ee3-e21144c5b9b7\\scratchpad\\plan.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\Claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\563b6e1d-3e82-4c49-a166-6c6476a1b01f\\6bafde40-a559-4750-9e08-274e5fb0537d\\skills\\docx\\scripts\\office\\soffice.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Chrome",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Chrome\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Chrome\\Raport profesional privind evoluția, conformarea și îmbunătățirea cadrului fiscal din România.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\Downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Catalog module si surse open-source pentru localizarea RO - EVA-contab (iDempiere).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog module si surse open-source pentru localizarea --511a0c86.docx",
+    "bytes": 53370,
+    "sha256": "9fb94c06e6a3de310b15de0af4b285c3ced32ae88965db14d4b0589ecc5df718"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Catalog module si surse open-source pentru localizarea RO - EVA-contab (iDempiere).md",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog module si surse open-source pentru localizarea --34c02820.md",
+    "bytes": 34654,
+    "sha256": "084f3423f6d69fa230649b2123e5087abaf1cdd557827b89ca2bbcdc6950a0ec"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Plan de implementare EVA-contab ERP (nivel Dynamics 365 Business Central).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Plan de implementare EVA-contab ERP (nivel Dynamics 365--c5e25192.docx",
+    "bytes": 37923,
+    "sha256": "993a44015fa4cd23157eece7bc587447b525e8eedbf5c815bed402822145fc0b"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Plan de implementare EVA-contab ERP (nivel Dynamics 365 Business Central).md",
+    "status": "copiat",
+    "saved_path": "fisiere/Plan de implementare EVA-contab ERP (nivel Dynamics 365--a9eea8d9.md",
+    "bytes": 20818,
+    "sha256": "22b1fc10472e7c7b80e282dbf3733311485ab3c55646bfa108fbb60528a6063f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/00 MONOGRAFIE FISCALA EVA-CONTAB - Cuprins si mod de utilizare.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/00 MONOGRAFIE FISCALA EVA-CONTAB - Cuprins si mod de ut--b28ef3fa.docx",
+    "bytes": 22220,
+    "sha256": "55c8080ada061aa7c7498c5358e8de8d0f13c7162ab2ac0af01538916b1467db"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/COMPARATIE - Raport profesional vs. livrabile EVA + imbunatatiri aplicate.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/COMPARATIE - Raport profesional vs. livrabile EVA + imb--c539cceb.docx",
+    "bytes": 20932,
+    "sha256": "8958c7599377dd9b5c9a82d578437cdd98b7dbae41e3188d2b4657d5129f3cec"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/COMPARATIE - Raport profesional vs. livrabile EVA + imbunatatiri aplicate.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/EVA-contab - Parametri fiscali si declaratii versionate (2010-2026).xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-contab - Parametri fiscali si declaratii versionate--7a4d1379.xlsx",
+    "bytes": 49237,
+    "sha256": "4b923aa75535c5222417974a33811e656520647e3c6302b6cb9fa93b837e6e9d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/GHID - Model de date, calendar de inchidere si declaratii (2010-2026).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/GHID - Model de date, calendar de inchidere si declarat--b4409b37.docx",
+    "bytes": 27024,
+    "sha256": "96562df8f4db74da01dace040742cbc35e6be4d0d3855fc3cb23a872079c35d3"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/GHID - Model de date, calendar de inchidere si declaratii (2010-2026).md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/Legislatie/HG 1071-2021 (salariu minim 2022 = 2550 lei) - text integral.html",
+    "status": "copiat",
+    "saved_path": "fisiere/HG 1071-2021 (salariu minim 2022 = 2550 lei) - text int--3b8ede96.html",
+    "bytes": 4332,
+    "sha256": "a0fe80b6a1c3ff81dcb7ab393176e5aeee5993a1c627e442269d5072e16b1571"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/Parametri si modele de formulare conform legii - versiuni pe perioade de valabilitate (2010-2026).docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/Parametri si modele de formulare conform legii - versiuni pe perioade de valabilitate (2010-2026).md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Parametri si Modele de formulare conform Legi cu versiuni/Raport profesional privind evoluția, conformarea și îmbunătățirea cadrului fiscal din România.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Catalog module si surse open-source pentru localizarea RO - EVA-contab (iDempiere).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog module si surse open-source pentru localizarea --511a0c86.docx",
+    "bytes": 53370,
+    "sha256": "9fb94c06e6a3de310b15de0af4b285c3ced32ae88965db14d4b0589ecc5df718"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Module instalabile de HR si declaratii 1.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Module instalabile de HR si declaratii 1--74e686e4.docx",
+    "bytes": 21279,
+    "sha256": "4597912938ea021e87305e6f6da1e8fd48aaa08596a87762320002f92ea5b860"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Module instalabile de HR si declaratii.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Module instalabile de HR si declaratii--cea53b5c.docx",
+    "bytes": 24233,
+    "sha256": "e3098dfb718b4f9c79beb92d6df7bb86448f5e7b74d095df5ce20de379d026f6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Plan de implementare EVA-contab ERP (nivel Dynamics 365 Business Central).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Plan de implementare EVA-contab ERP (nivel Dynamics 365--c5e25192.docx",
+    "bytes": 37923,
+    "sha256": "993a44015fa4cd23157eece7bc587447b525e8eedbf5c815bed402822145fc0b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni\\COMPARATIE - Raport profesional vs. livrabile EVA + imbunatatiri aplicate.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/COMPARATIE - Raport profesional vs. livrabile EVA + imb--c539cceb.docx",
+    "bytes": 20932,
+    "sha256": "8958c7599377dd9b5c9a82d578437cdd98b7dbae41e3188d2b4657d5129f3cec"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni\\EVA-contab - Parametri fiscali si declaratii versionate (2010-2026).xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/EVA-contab - Parametri fiscali si declaratii versionate--7a4d1379.xlsx",
+    "bytes": 49237,
+    "sha256": "4b923aa75535c5222417974a33811e656520647e3c6302b6cb9fa93b837e6e9d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni\\Formulare (modele necompletate)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni\\GHID - Model de date, calendar de inchidere si declaratii (2010-2026).docx",
+    "status": "copiat",
+    "saved_path": "fisiere/GHID - Model de date, calendar de inchidere si declarat--b4409b37.docx",
+    "bytes": 27024,
+    "sha256": "96562df8f4db74da01dace040742cbc35e6be4d0d3855fc3cb23a872079c35d3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni\\Legislatie",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Parametri si Modele de formulare conform Legi cu versiuni\\Parametri si modele de formulare conform legii - versiuni pe perioade de valabilitate (2010-2026).docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00.Roboti\\\\EVA.Pro\\\\Eva-contab\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "afir-cesiro-rambursare1.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "cesiro-images-catalog.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "eva-english-library.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "firme-organizare.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "https://ispv.ro/calendar-fiscal",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/300022",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/253801",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/Informatii_R/SAF_T_Ghidul_D406_1712021.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/legislatie/L_141_2025.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/legislatie/OPANAF_299_2025.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.anaf.ro/anaf/internet/ANAF/asistenta_contribuabili/declararea_obligatiilor_fiscale/toate_formularele/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "ocr-doc-tooling.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "pocidif-2-1-eva-dancor.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "red-fotovoltaic-fm.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "zoom-ssm-recordings.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

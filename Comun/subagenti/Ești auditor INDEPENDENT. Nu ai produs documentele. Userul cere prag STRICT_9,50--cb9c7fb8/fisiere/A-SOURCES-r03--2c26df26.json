@@ -1,0 +1,308 @@
+{
+  "schema_version": 2,
+  "audit_id": "RES-001-A-SOURCES-r03-01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+  "deliverable_id": "RES-001",
+  "version_id": "r03",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/RES-001-r03.json",
+    "sha256": "15462dd9ab698261300adb09be2caa7049a76710bcee27194e719c0de8ca10e8"
+  },
+  "reviewer_agent_id": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+  "reviewer_role": "A-SOURCES",
+  "files": [
+    {
+      "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+      "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1"
+    },
+    {
+      "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+      "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490"
+    },
+    {
+      "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+      "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01"
+    }
+  ],
+  "supplemental_evidence_files": [
+    {
+      "path": "05_AUDIT/RES-001/A-SOURCES-r03.md",
+      "sha256": "5ba586645e6f920383c3456836e36313398a2cdfbeaf9380200e06fa163f41cb"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+      "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "surse",
+      "weight": 25,
+      "score": 968,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L18-L102"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L34-L149"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+          "sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+          "anchor": ":L13-L145"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/CAT.md",
+          "sha256": "43dc2f09fd1ab09cda944283364cc03ed1942085f17d89f3a5a5c9d9e17025fb",
+          "anchor": ":L1-L100"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/N.docx",
+          "sha256": "c77846fdc094d5800735ab8bdc7a1a3f62248a313f5cf2ae6e757e8baef22039",
+          "anchor": ""
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/Z.zip",
+          "sha256": "22736278789db9e58e551013675e759ff68dff3a709d488e05e1b49cad98140c",
+          "anchor": ""
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt",
+          "sha256": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+          "anchor": ":L1-L3"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+          "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99",
+          "anchor": ":L143-L182"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r02.md",
+          "sha256": "d3f5200d2bd747e47c97facec4d532ef2f24721b8eb0a3148a4f5c6bba493e51",
+          "anchor": "#web"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03.md",
+          "sha256": "5ba586645e6f920383c3456836e36313398a2cdfbeaf9380200e06fa163f41cb",
+          "anchor": "#aplicatii"
+        }
+      ]
+    },
+    {
+      "id": "succes",
+      "weight": 20,
+      "score": 970,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L18-L28"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L34-L149"
+        },
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L10-L16"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r02.md",
+          "sha256": "d3f5200d2bd747e47c97facec4d532ef2f24721b8eb0a3148a4f5c6bba493e51",
+          "anchor": ":L23-L36"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+          "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99",
+          "anchor": ":L212-L220"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03.md",
+          "sha256": "5ba586645e6f920383c3456836e36313398a2cdfbeaf9380200e06fa163f41cb",
+          "anchor": "#regresie"
+        }
+      ]
+    },
+    {
+      "id": "originalitate",
+      "weight": 25,
+      "score": 966,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L34-L161"
+        },
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L24-L80"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L174-L204"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+          "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99",
+          "anchor": ":L184-L210"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03.md",
+          "sha256": "5ba586645e6f920383c3456836e36313398a2cdfbeaf9380200e06fa163f41cb",
+          "anchor": "#scoruri"
+        }
+      ]
+    },
+    {
+      "id": "relevanta",
+      "weight": 15,
+      "score": 974,
+      "evidence": [
+        {
+          "path": "00_CONDUCERE/DECIZIE_EDITORIALA_001_SURSE.md",
+          "sha256": "af8fa2d80f09318653a6f7450ed48851ceaedb51da6e7560bd2e96488bd2d523",
+          "anchor": ":L1-L30"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L10-L16"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L155-L188"
+        },
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L10-L80"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L103-L170"
+        },
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L171-L187"
+        },
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L233-L244"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+          "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99",
+          "anchor": ":L120-L182"
+        }
+      ]
+    },
+    {
+      "id": "utilizare",
+      "weight": 15,
+      "score": 970,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/APLICATII_WORKID_REALE.md",
+          "sha256": "d69a622e98824ebfaafa83327d93856a9b45847c2b10a798ba23d522ea5eeda1",
+          "anchor": ":L18-L80"
+        },
+        {
+          "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+          "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490",
+          "anchor": ":L155-L184"
+        },
+        {
+          "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+          "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01",
+          "anchor": ":L113-L198"
+        },
+        {
+          "path": "06_REGISTRU/MASURI/RES-001-plan-r01.md",
+          "sha256": "9fc4922b7e8f58017f0d85f5843d23c6c8251639279be61bc521b4e877153146",
+          "anchor": ":L114-L121"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-GOVERNANCE-r01.md",
+          "sha256": "241b7cb229c3eed2f26ca70cb16abe6d35756eb994ce6797700b1d77029cbddb",
+          "anchor": ":L43-L52"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-QAMANAGER-r02-v02.md",
+          "sha256": "1240abe7b4fdb4c73d342dacab1a811f7f758942962cca70620376f5552a7d90",
+          "anchor": ":L103-L112"
+        },
+        {
+          "path": "06_REGISTRU/CONTEXT_R03/agents_at_freeze.json",
+          "sha256": "7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446",
+          "anchor": ":L47-L50"
+        },
+        {
+          "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+          "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc",
+          "anchor": ":L70-L90"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+          "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99",
+          "anchor": ":L8-L118"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+          "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99",
+          "anchor": ":L143-L182"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03-tests.txt",
+          "sha256": "60679835f37b8864c87843f4a048dedcc8252c5feac8dd0492ed8a92d705ee99",
+          "anchor": ":L222-L230"
+        },
+        {
+          "path": "05_AUDIT/RES-001/A-SOURCES-r03.md",
+          "sha256": "5ba586645e6f920383c3456836e36313398a2cdfbeaf9380200e06fa163f41cb",
+          "anchor": "#retest"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-RES-SOURCES-001",
+      "severity": "major",
+      "status": "closed",
+      "location": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L12-L14,L157-L188; 02_DOCUMENTARE/REPERE_SI_MECANISME.md:L103-L204; 02_DOCUMENTARE/APLICATII_WORKID_REALE.md:L18-L80; 05_AUDIT/RES-001/A-SOURCES-r03.md#retest",
+      "description": "Extinderea neautorizată a experiențelor comune la un univers ficțional comun și lipsa aplicației reale T02b sunt remediate/documentate în r03. Am recitit integral cele trei produse, verificat O01–O18 și parcurs procedura pe marienburg, sunrise, crown și hotelul în sursele locale contractuale. T01/T02b/T03/T04 sunt îndeplinite acum. R01 și r02 RETURN rămân neschimbate; contradicțiile manuscriselor nu sunt închise.",
+      "remediation": "Condiții originale retestate integral: T01 eliminarea tuturor propagărilor de univers comun; T02 aplicare pe WorkID-uri reale NOIR/AURORA/MYTHICA/AMORIS, identificare/cadru/limite de canon separate, două opere distincte și prezentare diferențiată fără legături inventate; T03 păstrarea celor 18 mecanisme, nouă opere, acțiune/prezentare/excluderi, min50k EN și zero garanții; T04 contract exact, delta și conservarea r01/RETURN. Probe și rezultate proprii în A-SOURCES-r03-tests.txt:T01/T02b/T03/T04 și MD#retest. Orice folosire G01 cere separat intrările și reconcilierea canonului."
+    },
+    {
+      "id": "GOV-RES-01",
+      "severity": "major",
+      "status": "closed",
+      "location": "05_AUDIT/RES-001/A-GOVERNANCE-r01.md:L43-L52; 02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L155-L184; 02_DOCUMENTARE/APLICATII_WORKID_REALE.md:L18-L80; 05_AUDIT/RES-001/A-SOURCES-r03.md#retest",
+      "description": "Închiderea procedurală r02 este reconfirmată prin aplicarea independentă r03 pe patru colecții reale. Acest ID nu este constatarea a cărei închidere prematură a fost returnată de metaauditul r02-v02; aceasta privea F-RES-SOURCES-001 în raportul A-GOVERNANCE.",
+      "remediation": "Remedierea și testul original: procedură utilizabilă pe minimum două colecții independente, cu minimum două opere-sursă distincte per selecție, acțiune/prezentare și excluderi, fără deducerea unei lumi sau relații comune. Retest r03: 4/4 WorkID-uri îndeplinesc condiția; probe în MD#aplicatii/#retest și jurnal:L143-L182. Nu se rescrie închiderea istorică și nu se închide prin acest audit META-RES-001-r02-F01, rezervat QA."
+    }
+  ],
+  "verdict": "PASS",
+  "limitations": [
+    "Verdict individual A-SOURCES numai pentru anexa preliminară G00 RES-001 r03; nu reprezintă acceptarea globală fără al doilea audit, metaaudit și dependențe acceptate.",
+    "Zero accesări web noi r03. Sursele externe neschimbate au fost confruntate cu verificările istorice atribuite din A-SOURCES-r02.md:L23-L36; documentarea r01 nu este prezentată ca accesare nouă la revizie.",
+    "Recitite integral A/B/R, CAT.md, HBT.txt și membrul Z.zip series-bible/01-core-premise.md; SITE_APP.js numai L1-L145, N.docx numai P1-P5, CANON_EXISTENT.md selectiv conform jurnalului. Hashurile tuturor intrărilor nu echivalează cu lectura lor integrală.",
+    "Nu au fost recitite integral operele-reper, masterele narative, manualul sau toate rapoartele istorice. Auditul nu dovedește originalitatea ori min50k realizat pentru o intrigă sau proză inexistentă.",
+    "Identificarea/cadrul minim nu certifică G01: autorul personal NOIR rămâne neidentificat, Armin Vale/Cesiro Horeca nereconciliat, H-C9 Boucher/Dubois și celelalte conflicte bible/master rămân de soluționat separat.",
+    "Metaraportul corectat r02-v02 a fost citit; META-RES-001-r02-F01 împotriva închiderii premature A-GOVERNANCE nu este închis de acest auditor. GOV-RES-01 procedural este distinct.",
+    "Au fost verificate read-only hashuri, dimensiuni și indexuri de arhivă; nu am executat restaurare la rece și nu revendic recuperarea coordonatorului. Observațiile de arhivă sunt consemnate în suplimentul propriu, fără căi 08_ARHIVA declarate ca evidence.",
+    "Calificarea nominală r02 11/11 a fost folosită ca dovadă existentă pentru aceeași identitate; nu a fost refăcută și nu a fost atribuită retroactiv r01. Nicio modificare a produselor, surselor, registrelor, site-ului, stagingului sau rapoartelor vechi."
+  ],
+  "reviewed_at": "2026-09-24T06:58:11+03:00"
+}

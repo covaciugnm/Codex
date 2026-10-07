@@ -1,0 +1,97 @@
+name: dracula-design
+x-env: &app-env
+  DATABASE_URL: postgresql+psycopg://eva_storefront:${EVA_STOREFRONT_DB_PASSWORD:?Run ops/prepare.py}@db:5432/dracula_design
+  ADMIN_DATABASE_URL: postgresql+psycopg://eva_admin_api:${EVA_ADMIN_DB_PASSWORD:?Run ops/prepare.py}@db:5432/dracula_design
+  SECRET_KEY: ${SECRET_KEY:?Run ops/prepare.py}
+  JWT_SECRET: ${JWT_SECRET:?Run ops/prepare.py}
+  SECRETS_KEY: ${SECRETS_KEY:?Run ops/prepare.py}
+  DEFAULT_TENANT: dracula-design
+  STORAGE_BACKEND: postgres
+  PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://127.0.0.1:4181}
+  ADMIN_SEED_EMAIL: ${ADMIN_SEED_EMAIL:-owner@dracula.local}
+  ADMIN_SEED_PASSWORD: ${ADMIN_SEED_PASSWORD:?Run ops/prepare.py}
+  RUN_SEED_ON_START: "false"
+  COOKIE_SECURE: ${COOKIE_SECURE:-false}
+  CSRF_ENFORCE: "true"
+  COMMERCE_MODE: ${COMMERCE_MODE:-demo}
+  COMMERCE_READY: ${COMMERCE_READY:-false}
+  MAIL_WORKER: ${MAIL_WORKER:-false}
+  NOTIFICATIONS_WORKER: "false"
+  WHATSAPP_ENABLED: "false"
+  SAMEDAY_ENABLED: "false"
+  SAMEDAY_WORKER: "false"
+  FANCOURIER_ENABLED: "false"
+  FANCOURIER_WORKER: "false"
+  EMAG_WORKER: "false"
+  BASELINKER_WORKER: "false"
+  BASELINKER_WRITE_ENABLED: "false"
+  BASELINKER_INVENTORY_WRITE_ENABLED: "false"
+  WAREHOUSE_WORKER: "false"
+  EMAIL_SMTP_CALLOUT: "false"
+  CHECKOUT_EMAIL_MX_CHECK: "false"
+  STRIPE_ENABLED: ${STRIPE_ENABLED:-false}
+  STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY:-}
+  STRIPE_PUBLISHABLE_KEY: ${STRIPE_PUBLISHABLE_KEY:-}
+  STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET:-}
+  SMTP_HOST: ${SMTP_HOST:-}
+  SMTP_PORT: ${SMTP_PORT:-587}
+  SMTP_SECURITY: ${SMTP_SECURITY:-starttls}
+  SMTP_USER: ${SMTP_USER:-}
+  SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+  SMTP_FROM: ${SMTP_FROM:-}
+  ORDER_NOTIFICATION_EMAIL: ${ORDER_NOTIFICATION_EMAIL:-}
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dracula_design
+      POSTGRES_USER: dracula_owner
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run ops/prepare.py}
+      EVA_STOREFRONT_DB_PASSWORD: ${EVA_STOREFRONT_DB_PASSWORD}
+      EVA_ADMIN_DB_PASSWORD: ${EVA_ADMIN_DB_PASSWORD}
+    volumes:
+      - dracula_pgdata:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U dracula_owner -d dracula_design"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  migrate:
+    build: ./backend
+    restart: "no"
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      <<: *app-env
+      SUPERUSER_DATABASE_URL: postgresql+psycopg://dracula_owner:${POSTGRES_PASSWORD}@db:5432/dracula_design
+    volumes:
+      - ./database:/app/database:ro
+      - ./data:/app/data
+    command: [sh, -c, "python -m database.migrations.apply && python seed_dracula.py"]
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    environment: *app-env
+    volumes:
+      - ./data:/app/data
+    healthcheck:
+      test: [CMD-SHELL, "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:4120/health')\""]
+      interval: 15s
+      timeout: 5s
+      retries: 6
+      start_period: 20s
+    command: [gunicorn, --workers=2, --threads=4, --timeout=120, --bind=0.0.0.0:4120, --access-logfile=-, "app.dracula:create_app()"]
+  admin:
+    build: ./frontend
+    restart: unless-stopped
+    depends_on:
+      backend: {condition: service_healthy}
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${SHOP_PORT:-4181}:80"
+volumes:
+  dracula_pgdata:
+    name: dracula_design_pgdata

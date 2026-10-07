@@ -1,0 +1,322 @@
+A-QAMANAGER / SYS-001 / r03 — jurnal propriu
+Evaluator: 01a0d0f3-8249-7d91-95f4-ef806130bebe
+Data: 2026-09-24, Europe/Bucharest +03:00.
+Control structural nou: Gatekeeper.load(), verify_contract() recursiv, audit() separat pentru fiecare raport cu seturi reviewer/role distincte, verify_unchanged(). Nu s-a schimbat manifestul și nu s-a folosit un meta fictiv pentru a aproba produsul.
+Pentru fiecare evidence: SHA-256 și namespace propriu; pentru :L verificată limita fizică, pentru # existența ancorei explicite/titlului. Susținerea semantică decisivă este consemnată în MD, nu dedusă din existența ancorei.
+Baseline global: 374 fișiere fixate, fără a declara hashul registrelor live. JSON strict fără duplicate și schema v2; bundle/criterii/ponderi/timestamp/ID/rol conform gatekeeper. Control MD-JSON suplimentar și aritmetică Fraction, fără scor meta.
+În auxiliarul MD-JSON prima selecție căuta criteriul și în coloanele narative și a prins două rânduri pentru „control”; s-a oprit. Selectarea exactă a primei coloane a fost corectată și toate cele 30 rânduri au fost reverificate. Eroare de harness QA, nu defect al raportului, fără scrieri în surse.
+Arhive: citire read-only, verificare rezolvare în folderul exact, SHA index=sidecar, fiecare fișier indexat SHA/lungime și inventar fără intrări în plus; byte-comparație intrări r03, primari și suplimente în primary-complete. Fără creare arhivă sau restaurare fizică QA.
+Copii plate: bytes original=copie și SHA declarat în provenienta.json; metaraport r02 versus v02 are aceleași câmpuri semantice. Probele v02 comparate cu bytes r02 conservați, nu cu live r03 modificat. Nu se ingerează archive-tree; căile de sursă ale observațiilor nu sunt supplemental_evidence_files.
+Jurnalele primare sunt probe atribuite emitentului. Testele lor nu sunt prezentate ca rerulate de QA. Niciun TEST nu este scor editorial.
+TEST QA F05: apel complete_prefix pe zece payloaduri în memorie, lungime<=raw și SHA(prefix)=SHA(raw[:lungime]); F06: safe_component/validate_output_names controale pozitive și negative, checked_root și destination(create=False) pe captura existentă. Nicio scriere de fixture, junction ori captură. Code review pe exportatorul live integral; filtrele comparate AST cu copia r02. DOCX/PDF: executate numai funcțiile pure clean/blocks din export_documente, nu exportatorul; citire Document/fitz, ordine DOCX, căutare unități și încadrare PDF. Fără regenerare sau inspecție vizuală QA.
+
+
+
+REZULTATE OBSERVATE (nu declarații de suplimente):
+{
+  "at": "2026-09-24T04:18:12.615327+00:00",
+  "package": "SYS-001",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/SYS-001-r03.json",
+    "sha256": "2a87f9d159a99fb048a4262f5b4ae34b8fe129668d5e67690e790ace6e99d09c"
+  },
+  "inputs": 279,
+  "primary_reports": [
+    {
+      "path": "05_AUDIT/SYS-001/A-GOVERNANCE-r03.json",
+      "sha256": "0a88336d983940a851c83f93fee7d2ee3e82008b7e008afb0e752d1ccc099102",
+      "reviewer": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "references": 29,
+      "supplements": [
+        {
+          "path": "05_AUDIT/SYS-001/A-GOVERNANCE-r03.md",
+          "sha256": "52806e74ad3dc7d1b05ac874660c7af61e700b0ddf064daa604e46699670fed1"
+        }
+      ],
+      "scores": [
+        972,
+        970,
+        970,
+        968,
+        970
+      ]
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-SYSTEMS-r03.json",
+      "sha256": "2f90a5d4dd468ae599158d4f4af4759ee17dc7fa9fec3826ae09fa1271467616",
+      "reviewer": "01a0d0ee-a18e-78a1-a069-9e87df0efc87",
+      "references": 35,
+      "supplements": [
+        {
+          "path": "05_AUDIT/SYS-001/A-SYSTEMS-r03.md",
+          "sha256": "e555d42759595bb69e82374ecaa79287fe9bed4304eb676c8e2d0e6108f3d00f"
+        },
+        {
+          "path": "05_AUDIT/SYS-001/A-SYSTEMS-r03-tests.txt",
+          "sha256": "616c275f97fe30ffee69da168ac188e2e0bbcebbe2348b2fbb38cb7349edabb2"
+        }
+      ],
+      "scores": [
+        972,
+        974,
+        973,
+        968,
+        969
+      ]
+    }
+  ],
+  "structural_errors": [],
+  "primary_evidence_references": 64,
+  "all_six_reports_total_references": 198,
+  "unique_baseline_inputs_global": 374,
+  "archives": [
+    {
+      "id": "SYS-001",
+      "round": "r01-after-audit",
+      "entries": 180,
+      "index_sha256": "d73d773429e3dce05c8fc9169672eb8e42c82829669cdb941dfe4b6aea3f496a",
+      "receipt": "not separately checked",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "SYS-001",
+      "round": "r02-before-audit",
+      "entries": 197,
+      "index_sha256": "c2712ccd86e3431219a625bed43c807a46f4424c3adfafff4bfbe19df8158f9d",
+      "receipt": "not separately checked",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "SYS-001",
+      "round": "r02-after-audit-v02",
+      "entries": 336,
+      "index_sha256": "7578190eef3672cf260fa5be1a1b9ff69c0b0c7202d440ce3d9ce9ad33c16873",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "SYS-001",
+      "round": "r03-before-audit",
+      "entries": 285,
+      "index_sha256": "5508a7918a9947649c6f3967c6b0c9b6d5c3a301adda5fd7ee5d546aad806eb8",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "SYS-001",
+      "round": "r03-primary-complete",
+      "entries": 395,
+      "index_sha256": "7275725bdf79c0d31de3deb40c3218f5cf3543ab623c653919cb3dbee781628c",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    }
+  ],
+  "flat_copies": [
+    "06_REGISTRU/INTRARI_META_R02/SYS-001_r01-after-audit_index.json",
+    "06_REGISTRU/INTRARI_META_R02/SYS-001_r01-after-audit_index.sha256",
+    "06_REGISTRU/INTRARI_META_R02/SYS-001_r02-before-audit_index.json",
+    "06_REGISTRU/INTRARI_META_R02/SYS-001_r02-before-audit_index.sha256"
+  ],
+  "delta": {
+    "id": "SYS-001",
+    "changed": [
+      "00_CONDUCERE/PROTOCOL_ARHIVARE.md",
+      "00_CONDUCERE/TRASABILITATE.md",
+      "03_MODELE/02_RAPORT_AUDIT.md",
+      "03_MODELE/06_PROMPT_AUDITOR.md",
+      "03_MODELE/07_META_AUDIT.md",
+      "04_INSTRUMENTE/README.md",
+      "04_INSTRUMENTE/export_documente.py",
+      "06_REGISTRU/README_EXPORT.md",
+      "06_REGISTRU/export_istoric_observabil.py",
+      "06_REGISTRU/test_export_istoric.py",
+      "Manual_operational_atelier_Dracula_Book.docx",
+      "Manual_operational_atelier_Dracula_Book.pdf"
+    ],
+    "unchanged": 56
+  },
+  "weighted_primary_scores": [
+    {
+      "audit_id": "SYS-001-A-GOVERNANCE-r03",
+      "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "reviewer_role": "A-GOVERNANCE",
+      "score": 970.1
+    },
+    {
+      "audit_id": "SYS-001-A-SYSTEMS-r03-01a0d0ee-a18e-78a1-a069-9e87df0efc87",
+      "reviewer_agent_id": "01a0d0ee-a18e-78a1-a069-9e87df0efc87",
+      "reviewer_role": "A-SYSTEMS",
+      "score": 971.55
+    }
+  ],
+  "TEST": [
+    {
+      "probe": "F05/empty",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/no-LF",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/partial-first",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/LF",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/CRLF",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/tail",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/utf8-tail",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/lone-CR",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/blank",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F05/two-tail",
+      "expected": true,
+      "observed": true
+    },
+    {
+      "probe": "F06/role/../escape",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/..\\escape",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/D:\\escape",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/A:ads",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/A/child",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/CON",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/index",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/A ",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/A.",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/role/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/names/['index.json', 'INDEX.JSON']",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/names/['A-TEST.md', 'a-test.md']",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/names/['CON.md']",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/existing-real-capture-read-only",
+      "expected_refusal": true
+    },
+    {
+      "probe": "F06/positive-valid-role-root-namespace",
+      "expected": true
+    }
+  ],
+  "primary_journal_review": {
+    "CORE_SUITE_233": {
+      "unit_records": 233,
+      "all_ok": true
+    },
+    "EXPORT_SUITE_65": {
+      "unit_records": 65,
+      "all_ok": true
+    },
+    "CORE_RESULTS": {
+      "observations": 57,
+      "parsed_all": true
+    },
+    "EXPORT_RESULTS": {
+      "observations": 57,
+      "parsed_all": true
+    },
+    "all_sections_read": [
+      "SCOPE",
+      "CORE_SUITE_233",
+      "EXPORT_SUITE_65",
+      "CORE_PROCEDURE",
+      "CORE_RESULTS",
+      "EXPORT_PROCEDURE",
+      "EXPORT_RESULTS",
+      "INTEGRITY_PROCEDURE",
+      "INTEGRITY_SUMMARY",
+      "INTEGRITY_279_HASHES",
+      "DELTA_PRODUCTS",
+      "DELTA_EVIDENCE",
+      "ARCHIVE_INTEGRITY",
+      "FLAT_SYS_COPIES",
+      "META_V02",
+      "OBSERVABLE_HISTORY",
+      "DELTA_PROVENANCE_PROCEDURE",
+      "DELTA_PROVENANCE_RESULTS",
+      "RECOVERY_PROCEDURE",
+      "RECOVERY_RESULTS",
+      "DOCUMENTS_PROCEDURE",
+      "DOCUMENTS_RESULTS",
+      "VISUAL_AND_READ_SCOPE",
+      "FINAL_INPUT_RECHECK"
+    ]
+  },
+  "filter_AST_unchanged": true,
+  "documents": {
+    "units": 1146,
+    "cover_units": 5,
+    "docx_exact": true,
+    "tables": 41,
+    "pdf_pages": 28,
+    "footers": 28,
+    "missing": [],
+    "out_of_bounds": [],
+    "no_regeneration": true
+  }
+}
+
+Limite: fișierele hashuit-citite pentru integritate nu sunt toate lecturi editoriale integrale. Fără web nou/rawlogs, fără calibrare refăcută ori retroactivă, fără audit literar nou. Nu este recuperarea finală r03. MD și acest jurnal se fixează înaintea JSON meta; control final read-only după ultimul edit.

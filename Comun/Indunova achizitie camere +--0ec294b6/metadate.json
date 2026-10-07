@@ -1,0 +1,23 @@
+{
+  "id": "01a0ae56-187d-7a50-bff2-e3730ec294b6",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789567533,
+  "updated_at": 1789570951,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Indunova achizitie camere +",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 199087,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 57,
+  "message_count": 57,
+  "content_sha256": "5cf32da41991c3a6f0e69712781e2a9d45b81dc4978a702e01251bd8e8d0831e",
+  "files_copied": 6,
+  "references_not_copied": 13
+}

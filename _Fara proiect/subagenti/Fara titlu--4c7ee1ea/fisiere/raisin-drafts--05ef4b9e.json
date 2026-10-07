@@ -1,0 +1,657 @@
+{
+  "schema_version": 1,
+  "status": "database_drafts_with_generated_images",
+  "brand": "Dracula Food",
+  "source": "Atașamentul Pasted text.txt: listele data1 și data2, citite ca text; codul nu a fost executat.",
+  "commercial_status": "17 draft products in PostgreSQL with generated presentation images. Commercial quantities, recipes, prices and stock require confirmation; preview does not permit purchase.",
+  "categories": [
+    {
+      "id": "stafide-naturale",
+      "name": {
+        "ro": "Stafide naturale și soiuri",
+        "en": "Raisin Varieties",
+        "de": "Rosinensorten"
+      },
+      "note": "Denumire de colecție preluată din lista utilizatorului; nu reprezintă o afirmație universală privind procesarea sau absența aditivilor."
+    },
+    {
+      "id": "stafide-aromatizate",
+      "name": {
+        "ro": "Stafide aromatizate și infuzate",
+        "en": "Flavoured and Infused Raisins",
+        "de": "Aromatisierte und verfeinerte Rosinen"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "stafide-thompson-seedless",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide Thompson Seedless",
+        "en": "Thompson Seedless Raisins",
+        "de": "Thompson-Seedless-Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă de stafide închise la culoare, cu un profil dulce și note de caramel sugerate de lista de referință.",
+        "en": "Proposed dark raisin selection, with a sweet profile and caramel notes suggested by the reference list.",
+        "de": "Geplante Auswahl dunkler Rosinen mit einem süßen Profil und Karamellnoten laut Referenzliste."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-thompson-seedless.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide maro închis, de mărime medie; accent caramel discret.",
+        "label_ro": "Stafide Thompson Seedless",
+        "proposed_filename": "dracula-food-stafide-thompson-seedless.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 1
+      }
+    },
+    {
+      "id": "stafide-sultaniye",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide Sultaniye",
+        "en": "Sultaniye Raisins",
+        "de": "Sultaniye-Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă Sultaniye, cu aspect chihlimbariu și profil fructat delicat descrise în lista de referință.",
+        "en": "Proposed Sultaniye selection with an amber appearance and delicate fruity profile described in the reference list.",
+        "de": "Geplante Sultaniye-Auswahl mit bernsteinfarbener Optik und feinem Fruchtprofil laut Referenzliste."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-sultaniye.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide chihlimbarii, cărnoase; accent ambră discret. Nu imprima origine turcească fără confirmare.",
+        "label_ro": "Stafide Sultaniye",
+        "proposed_filename": "dracula-food-stafide-sultaniye.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 2
+      }
+    },
+    {
+      "id": "stafide-golden",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide aurii Golden",
+        "en": "Golden Raisins",
+        "de": "Goldene Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă de stafide aurii, pentru un profil fructat cu o notă ușor acrișoară; procesarea și compoziția urmează să fie confirmate.",
+        "en": "Proposed golden raisin selection with a fruity, slightly tangy profile; processing and composition remain to be confirmed.",
+        "de": "Geplante Auswahl goldener Rosinen mit fruchtigem, leicht säuerlichem Profil; Verarbeitung und Zusammensetzung sind noch zu bestätigen."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-golden.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide galben-aurii; accent auriu discret. Fără mențiuni despre absența sulfiților sau aditivilor.",
+        "label_ro": "Stafide aurii Golden",
+        "proposed_filename": "dracula-food-stafide-golden.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 3
+      }
+    },
+    {
+      "id": "stafide-verzi",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide verzi",
+        "en": "Green Raisins",
+        "de": "Grüne Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă de stafide verzi alungite, inspirată de profilul floral și dulce-acrișor din lista de referință.",
+        "en": "Proposed selection of elongated green raisins, inspired by the floral, sweet-tart profile in the reference list.",
+        "de": "Geplante Auswahl länglicher grüner Rosinen, inspiriert vom blumigen, süß-säuerlichen Profil der Referenzliste."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-verzi.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide verde-jad alungite; accent verde foarte discret. Nu afișa o origine geografică.",
+        "label_ro": "Stafide verzi",
+        "proposed_filename": "dracula-food-stafide-verzi.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 4
+      }
+    },
+    {
+      "id": "stafide-corint",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide de Corint — Zante Currants",
+        "en": "Zante Currants — Corinth Raisins",
+        "de": "Korinthen — Zante Currants"
+      },
+      "description": {
+        "ro": "Selecție propusă de stafide mici și închise la culoare, cu profil concentrat dulce-acrișor descris în lista de referință.",
+        "en": "Proposed selection of small, dark raisins with the concentrated sweet-tart profile described in the reference list.",
+        "de": "Geplante Auswahl kleiner, dunkler Rosinen mit konzentriertem süß-säuerlichem Profil laut Referenzliste."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-corint.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide foarte mici negru-albăstrui; accent indigo discret. Denumirea este de tip produs, fără certificare de origine.",
+        "label_ro": "Stafide de Corint — Zante Currants",
+        "proposed_filename": "dracula-food-stafide-corint.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 5
+      }
+    },
+    {
+      "id": "stafide-muscat-alexandria",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide Muscat de Alexandria",
+        "en": "Muscat of Alexandria Raisins",
+        "de": "Muskat-von-Alexandria-Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă Muscat de Alexandria, cu boabe mari și direcție aromatică florală; prezența sâmburilor se verifică pentru produsul final.",
+        "en": "Proposed Muscat of Alexandria selection with large berries and a floral flavour direction; seed content must be checked for the final product.",
+        "de": "Geplante Muskat-von-Alexandria-Auswahl mit großen Beeren und blumiger Aromarichtung; der Kerngehalt ist für das endgültige Produkt zu prüfen."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-muscat-alexandria.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide mari maro-chihlimbar; accent miere discret. Fără sigle DOP sau referințe la Málaga.",
+        "label_ro": "Stafide Muscat de Alexandria",
+        "proposed_filename": "dracula-food-stafide-muscat-alexandria.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 6
+      }
+    },
+    {
+      "id": "stafide-flame-seedless",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide roșii Flame Seedless",
+        "en": "Flame Seedless Red Raisins",
+        "de": "Rote Flame-Seedless-Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă Flame Seedless, cu nuanțe brun-roșcate și profil de fructe închise descris în lista de referință.",
+        "en": "Proposed Flame Seedless selection with reddish-brown tones and the dark-fruit profile described in the reference list.",
+        "de": "Geplante Flame-Seedless-Auswahl mit rotbraunen Farbtönen und dunklem Fruchtprofil laut Referenzliste."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-flame-seedless.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide mari maro-roșiatice; accent rubiniu discret.",
+        "label_ro": "Stafide roșii Flame Seedless",
+        "proposed_filename": "dracula-food-stafide-flame-seedless.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 7
+      }
+    },
+    {
+      "id": "stafide-black-monukka",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide Black Monukka",
+        "en": "Black Monukka Raisins",
+        "de": "Black-Monukka-Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă Black Monukka, cu boabe mari și închise la culoare; lista sugerează note de prune și un profil vinos.",
+        "en": "Proposed Black Monukka selection with large, dark berries; the list suggests plum notes and a wine-like profile.",
+        "de": "Geplante Black-Monukka-Auswahl mit großen, dunklen Beeren; die Liste beschreibt Pflaumennoten und ein weinartiges Profil."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-black-monukka.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide mari negru-purpurii; accent prună discret. Notele aromatice nu implică adaos de vin sau ciocolată.",
+        "label_ro": "Stafide Black Monukka",
+        "proposed_filename": "dracula-food-stafide-black-monukka.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 8
+      }
+    },
+    {
+      "id": "stafide-rose-red",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide Rose Red",
+        "en": "Rose Red Raisins",
+        "de": "Rose-Red-Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă Rose Red, inspirată de nuanțele roșii și profilul floral din lista de referință; varietatea exactă se va confirma.",
+        "en": "Proposed Rose Red selection inspired by the red tones and floral profile in the reference list; the exact variety remains to be confirmed.",
+        "de": "Geplante Rose-Red-Auswahl, inspiriert von den roten Farbtönen und dem blumigen Profil der Referenzliste; die genaue Sorte ist noch zu bestätigen."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-rose-red.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide cu nuanțe roșu-rubiniu; accent roz închis discret. Fără petale sau adaos de trandafir prezentat drept ingredient.",
+        "label_ro": "Stafide Rose Red",
+        "proposed_filename": "dracula-food-stafide-rose-red.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 9
+      }
+    },
+    {
+      "id": "stafide-manukka",
+      "category": "stafide-naturale",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide Manukka",
+        "en": "Manukka Raisins",
+        "de": "Manukka-Rosinen"
+      },
+      "description": {
+        "ro": "Selecție propusă Manukka, cu stafide negre alungite și profil dulce-acrișor; soiul și originea comercială urmează să fie confirmate.",
+        "en": "Proposed Manukka selection with elongated black raisins and a sweet-tart profile; variety and commercial origin remain to be confirmed.",
+        "de": "Geplante Manukka-Auswahl mit länglichen schwarzen Rosinen und süß-säuerlichem Profil; Sorte und Handelsherkunft sind noch zu bestätigen."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-manukka.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide negre alungite, cu luciu fin; accent grafit. Nu imprima origine indiană fără confirmare.",
+        "label_ro": "Stafide Manukka",
+        "proposed_filename": "dracula-food-stafide-manukka.png"
+      },
+      "source_row": {
+        "table": "data1",
+        "row": 10
+      }
+    },
+    {
+      "id": "stafide-rom",
+      "category": "stafide-aromatizate",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide cu rom",
+        "en": "Rum Raisins",
+        "de": "Rumrosinen"
+      },
+      "description": {
+        "ro": "Concept de stafide cu direcție aromatică de rom, lemn și vanilie. Rețeta, metoda de aromatizare și conținutul de alcool nu sunt încă stabilite.",
+        "en": "Raisin concept with a rum, wood and vanilla flavour direction. Recipe, flavouring method and alcohol content are not yet established.",
+        "de": "Rosinenkonzept mit einer Aromarichtung von Rum, Holz und Vanille. Rezeptur, Aromatisierung und Alkoholgehalt stehen noch nicht fest."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-rom.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide brun-închis; accent ambră caldă. Fără mărci de băuturi sau declarații de tărie.",
+        "label_ro": "Stafide cu rom",
+        "proposed_filename": "dracula-food-stafide-rom.png"
+      },
+      "source_row": {
+        "table": "data2",
+        "row": 1
+      }
+    },
+    {
+      "id": "stafide-suc-fructe",
+      "category": "stafide-aromatizate",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide cu suc de fructe",
+        "en": "Fruit Juice Raisins",
+        "de": "Rosinen mit Fruchtsaft"
+      },
+      "description": {
+        "ro": "Concept de stafide cu profil fructat dulce-acrișor. Tipul de fruct, rețeta și proporția de suc se vor confirma înainte de lansare.",
+        "en": "Raisin concept with a fruity sweet-tart profile. Fruit type, recipe and juice proportion will be confirmed before launch.",
+        "de": "Rosinenkonzept mit fruchtigem süß-säuerlichem Profil. Fruchtart, Rezeptur und Saftanteil werden vor der Einführung bestätigt."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-suc-fructe.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide aurii și brun-roșcate; accent fructat rubiniu. Fără fruct secundar dominant până la alegerea rețetei.",
+        "label_ro": "Stafide cu suc de fructe",
+        "proposed_filename": "dracula-food-stafide-suc-fructe.png"
+      },
+      "source_row": {
+        "table": "data2",
+        "row": 2
+      }
+    },
+    {
+      "id": "stafide-paan",
+      "category": "stafide-aromatizate",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide Paan",
+        "en": "Paan Raisins",
+        "de": "Paan-Rosinen"
+      },
+      "description": {
+        "ro": "Concept inspirat de profilul floral și răcoritor Paan din lista de referință. Amestecul aromatic și ingredientele exacte nu sunt încă stabilite.",
+        "en": "Concept inspired by the floral, refreshing Paan profile in the reference list. The aromatic blend and exact ingredients are not yet established.",
+        "de": "Konzept, inspiriert vom blumigen, erfrischenden Paan-Profil der Referenzliste. Aromamischung und genaue Zutaten stehen noch nicht fest."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-paan.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide aurii sau verzi; accent verde profund. Nu afișa plante sau ingrediente ca fiind confirmate.",
+        "label_ro": "Stafide Paan",
+        "proposed_filename": "dracula-food-stafide-paan.png"
+      },
+      "source_row": {
+        "table": "data2",
+        "row": 3
+      }
+    },
+    {
+      "id": "stafide-anardana",
+      "category": "stafide-aromatizate",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide cu rodie — Anardana",
+        "en": "Pomegranate Raisins — Anardana",
+        "de": "Rosinen mit Granatapfel — Anardana"
+      },
+      "description": {
+        "ro": "Concept de stafide cu direcție aromatică de rodie și profil dulce-acrișor. Forma ingredientului și amestecul de condimente rămân de confirmat.",
+        "en": "Raisin concept with a pomegranate flavour direction and sweet-tart profile. Ingredient form and spice blend remain to be confirmed.",
+        "de": "Rosinenkonzept mit Granatapfel-Aromarichtung und süß-säuerlichem Profil. Zutatenform und Gewürzmischung sind noch zu bestätigen."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-anardana.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide cu accent roșu-granat discret; rodia poate apărea doar ca indiciu de concept, nu ca dovadă a rețetei finale.",
+        "label_ro": "Stafide cu rodie — Anardana",
+        "proposed_filename": "dracula-food-stafide-anardana.png"
+      },
+      "source_row": {
+        "table": "data2",
+        "row": 4
+      }
+    },
+    {
+      "id": "stafide-ciocolata-scortisoara",
+      "category": "stafide-aromatizate",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide cu ciocolată și scorțișoară",
+        "en": "Chocolate and Cinnamon Raisins",
+        "de": "Rosinen mit Schokolade und Zimt"
+      },
+      "description": {
+        "ro": "Concept de stafide cu profil de cacao și scorțișoară. Tipul de ciocolată sau cacao, învelișul și alergenii se stabilesc prin rețeta finală.",
+        "en": "Raisin concept with a cocoa and cinnamon profile. Chocolate or cocoa type, coating and allergens will be established by the final recipe.",
+        "de": "Rosinenkonzept mit Kakao-Zimt-Profil. Schokoladen- oder Kakaoart, Überzug und Allergene werden durch die endgültige Rezeptur festgelegt."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-ciocolata-scortisoara.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide brun-închis; accent cacao și cupru discret. Nu promite înveliș gros de ciocolată înainte de confirmarea produsului.",
+        "label_ro": "Stafide cu ciocolată și scorțișoară",
+        "proposed_filename": "dracula-food-stafide-ciocolata-scortisoara.png"
+      },
+      "source_row": {
+        "table": "data2",
+        "row": 5
+      }
+    },
+    {
+      "id": "stafide-vin",
+      "category": "stafide-aromatizate",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide macerate în vin",
+        "en": "Wine-Macerated Raisins",
+        "de": "In Wein eingelegte Rosinen"
+      },
+      "description": {
+        "ro": "Concept de stafide cu profil vinos și note de fructe confiate. Vinul utilizat, procesul și conținutul de alcool se vor confirma.",
+        "en": "Raisin concept with a wine-like profile and candied-fruit notes. Wine type, process and alcohol content remain to be confirmed.",
+        "de": "Rosinenkonzept mit weinartigem Profil und Noten kandierter Früchte. Weinart, Verfahren und Alkoholgehalt sind noch zu bestätigen."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-vin.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide închise la culoare; accent burgund. Fără denumiri protejate, etichete de vin sau afirmații despre tipul exact de vin.",
+        "label_ro": "Stafide macerate în vin",
+        "proposed_filename": "dracula-food-stafide-vin.png"
+      },
+      "source_row": {
+        "table": "data2",
+        "row": 6
+      }
+    },
+    {
+      "id": "stafide-glazurate",
+      "category": "stafide-aromatizate",
+      "status": "draft",
+      "name": {
+        "ro": "Stafide glazurate",
+        "en": "Glazed Raisins",
+        "de": "Glasierte Rosinen"
+      },
+      "description": {
+        "ro": "Concept de stafide cu finisaj glazurat și profil dulce. Compoziția glazurii și textura finală sunt încă în dezvoltare.",
+        "en": "Raisin concept with a glazed finish and sweet profile. Glaze composition and final texture are still in development.",
+        "de": "Rosinenkonzept mit glasiertem Finish und süßem Profil. Zusammensetzung der Glasur und endgültige Textur befinden sich noch in Entwicklung."
+      },
+      "price": null,
+      "weight": null,
+      "stock": null,
+      "ingredients": null,
+      "allergens": null,
+      "country_of_origin": null,
+      "image": "/assets/produse/dracula-food-stafide-glazurate.png",
+      "image_brief": {
+        "status": "generated_and_reviewed",
+        "references": [
+          "food/assets/produse/dracula-food-nuci-dracula-farm.png",
+          "food/assets/produse/dracula-food-alune-de-padure-dracula-farm.png"
+        ],
+        "shared_direction": "Păstrează forma verticală, proporțiile, textura neagră și chenarul discret al cutiei din referințele existente, monograma DF argintie cu element roșu și cuvintele DRACULA FOOD exacte, fără redesenarea siglei. Folosește aceeași vedere trei-sferturi, masa întunecată și castelul defocalizat în fundal. Fotografie orizontală 3:2, aceeași lumină și scară între produse. Schimbă numai sortimentul, imaginea stafidelor și accentul cromatic subtil; aurul rămâne discret, fără a recolora logo-ul. Pentru macheta draft elimină din referință gramajul, steagurile, țara de origine, mențiunile din propria fermă/din Dracula-Farm/100% natural/fără aditivi și insignele de calitate neconfirmate. Nu prelua nuci sau alune în compoziție. Textul final se verifică și se compune separat dacă imaginea generată nu îl redă exact.",
+        "product_direction": "Stafide cu luciu fin; accent șampanie discret. Fără straturi sau culori artificiale neconfirmate.",
+        "label_ro": "Stafide glazurate",
+        "proposed_filename": "dracula-food-stafide-glazurate.png"
+      },
+      "source_row": {
+        "table": "data2",
+        "row": 7
+      }
+    }
+  ]
+}

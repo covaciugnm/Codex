@@ -1,0 +1,2271 @@
+{
+  "checkpoint_type": "oprire_explicita_utilizator",
+  "saved_at": "2026-10-05T13:49:49.505135+00:00",
+  "agent": "inventar_limbi_RO_FR_ES_auditor_DE",
+  "instruction": "Nu se mai traduce, auditează sau corectează. Acest checkpoint inventariază starea existentă.",
+  "source_workbook_sha256": "6091d17b2c6cdbbfa9a6159db7454a01c2fc3e4cef58295c136a58acc65577ac",
+  "source_workbook": "documentatie/EVA-traduceri-TOATE-LIMBILE-EN-RO-DE-FR-ES-2026-10-05.xlsx",
+  "accepted_packages": {
+    "ro": [
+      {
+        "unit": "A1-U01",
+        "proposals": {
+          "name": "A1-U01_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U01_propuneri_v002.jsonl",
+          "sha256": "121aaf1092a0bd0733294364ee21cb22a7b5354876dec8435f075999be825386",
+          "bytes": 81433,
+          "unit": "A1-U01",
+          "records": 158,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U01_contexte_v003.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U01_contexte_v003.jsonl",
+          "sha256": "f880eda4657711e5e0d4ad2f13739780ad4f2f92ad029bafabe3f83b12e09056",
+          "bytes": 44912,
+          "unit": "A1-U01",
+          "records": 60,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U01_pachet_v002_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U01_pachet_v002_independent.audit",
+          "sha256": "2a79932c5bf7f431638c697c7b4e14a5cb0b0e1759dc35220c99e1d10fa80227",
+          "bytes": 3547,
+          "unit": "A1-U01",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 158,
+          "contexts": 60,
+          "proposal_hash": "121aaf1092a0bd0733294364ee21cb22a7b5354876dec8435f075999be825386",
+          "context_hash": "f880eda4657711e5e0d4ad2f13739780ad4f2f92ad029bafabe3f83b12e09056",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "Auditul celor158 glose native și al celor60 excepții contextuale concrete pentru curs EN. Glosele sunt material de referință; nu se folosesc ca înlocuire globală a stimulilor/cheilor EN. Excepțiile au prioritate pe aparițiile indicate.",
+          "limitations": [
+            "Nu certifică toate câmpurile lecției sau toate aparițiile deduplicate din aplicație.",
+            "Câmpurile hintRo/note neincluse în158 și nepuse explicit în corrected_context nu sunt localizate sau certificate de acest pachet. De exemplu nota istorică despre my ca subiect rămâne o problemă separată de sursă.",
+            "Nu certifică audio, importul sau afișarea live.",
+            "Nicio modificare nu a fost aplicată workbookului original."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U02",
+        "proposals": {
+          "name": "A1-U02_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U02_propuneri_v002.jsonl",
+          "sha256": "2bbe1941327189d577765544dcac2c1b91c264ff2b17b95f897fcc111a7c67b8",
+          "bytes": 95775,
+          "unit": "A1-U02",
+          "records": 192,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U02_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U02_contexte_v002.jsonl",
+          "sha256": "0bb849a92d18053341ddadbaa1284d2ee57c0b478678d0834b51b77f3436b359",
+          "bytes": 57637,
+          "unit": "A1-U02",
+          "records": 81,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U02_pachet_v002_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U02_pachet_v002_independent.audit",
+          "sha256": "8293605fab51b124ef0303ba1a1e1dc04c345452c44fc165145f279e555860af",
+          "bytes": 4843,
+          "unit": "A1-U02",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 192,
+          "contexts": 81,
+          "proposal_hash": "2bbe1941327189d577765544dcac2c1b91c264ff2b17b95f897fcc111a7c67b8",
+          "context_hash": "0bb849a92d18053341ddadbaa1284d2ee57c0b478678d0834b51b77f3436b359",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "192 glose native și 81 contexte explicite pentru cursul de engleză. Adaptările native ale exercițiilor fonetice sunt glose separate; contextele păstrează sunetele și răspunsurile englezești L/S. Nu se aplică glosele ca înlocuiri globale ale enunțurilor EN.",
+          "limitations": [
+            "Nu certifică toate aparițiile deduplicate sau toate câmpurile lecției.",
+            "Notele și explicațiile exclusiv RO neexportate, inclusiv indicația istorică despre /ŋ/, sunt în afara pachetului.",
+            "Nu certifică audio, importul sau afișarea live.",
+            "Workbookul sursă rămâne intact."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U03",
+        "proposals": {
+          "name": "A1-U03_propuneri_v001.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U03_propuneri_v001.jsonl",
+          "sha256": "b89e464e39d1c79715e6626a1ab50137153f28e889329da80e68fb69b00e9c62",
+          "bytes": 82092,
+          "unit": "A1-U03",
+          "records": 155,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U03_contexte_v001.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U03_contexte_v001.jsonl",
+          "sha256": "0b82260e219ad685f494b6345c828fb8f9a2d658fb9000f81e6a78127034aafb",
+          "bytes": 60495,
+          "unit": "A1-U03",
+          "records": 84,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U03_pachet_v001_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U03_pachet_v001_independent.audit",
+          "sha256": "465ed3b91a68b23374dd2da026b9919f7775dde381dda3efe8e3935d7b93ab86",
+          "bytes": 3109,
+          "unit": "A1-U03",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 155,
+          "contexts": 84,
+          "proposal_hash": "b89e464e39d1c79715e6626a1ab50137153f28e889329da80e68fb69b00e9c62",
+          "context_hash": "0b82260e219ad685f494b6345c828fb8f9a2d658fb9000f81e6a78127034aafb",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "155 glose românești și 84 contexte concrete pentru cursul de engleză. Articolele a/an/the și zero articol sunt obiecte de învățare englezești; exemplele EN de completare sunt păstrate cu explicații RO. Glosele nu sunt înlocuiri globale ale cheilor EN.",
+          "limitations": [
+            "Nu certifică toate câmpurile sau toate aparițiile deduplicate din lecție; explicațiile exclusiv RO neenumerate rămân în afara acestei acoperiri.",
+            "Modelele conversaționale și referințele vizuale sunt evaluate textual; nu certifică imagini, audio, importul sau afișarea live.",
+            "Pachetul conține o adaptare pedagogică explicită a test17 și o corecție explicită a replicii EN despre sunetul vocalic. Workbookul sursă nu este modificat."
+          ]
+        },
+        "hashes_match_existing_files": true
+      }
+    ],
+    "fr": [
+      {
+        "unit": "A1-U01",
+        "proposals": {
+          "name": "A1-U01_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U01_propuneri_v002.jsonl",
+          "sha256": "088b6ba1384aecffe5d5335219388d377b174b1f563e094117b77745faee50d2",
+          "bytes": 81415,
+          "unit": "A1-U01",
+          "records": 158,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U01_contexte_v003.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U01_contexte_v003.jsonl",
+          "sha256": "21738541c7e8e9f0f84c9da40ab2572fef86dbad0938e6e9b1dd32671825b27c",
+          "bytes": 44986,
+          "unit": "A1-U01",
+          "records": 60,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U01_pachet_v002_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U01_pachet_v002_independent.audit",
+          "sha256": "491f7e8b1383775082db2c1d15f4cd0e0e896975563046910692db5a4f16b9f9",
+          "bytes": 3894,
+          "unit": "A1-U01",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 158,
+          "contexts": 60,
+          "proposal_hash": "088b6ba1384aecffe5d5335219388d377b174b1f563e094117b77745faee50d2",
+          "context_hash": "21738541c7e8e9f0f84c9da40ab2572fef86dbad0938e6e9b1dd32671825b27c",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "Auditul celor158 glose native și al celor60 excepții contextuale concrete pentru curs EN. Glosele sunt material de referință; nu se folosesc ca înlocuire globală a stimulilor/cheilor EN. Excepțiile au prioritate pe aparițiile indicate.",
+          "limitations": [
+            "Nu certifică toate câmpurile lecției sau toate aparițiile deduplicate din aplicație.",
+            "Câmpurile hintRo/note neincluse în158 și nepuse explicit în corrected_context nu sunt localizate sau certificate de acest pachet. De exemplu nota istorică despre my ca subiect rămâne o problemă separată de sursă.",
+            "Nu certifică audio, importul sau afișarea live.",
+            "Nicio modificare nu a fost aplicată workbookului original."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U02",
+        "proposals": {
+          "name": "A1-U02_propuneri_v003.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U02_propuneri_v003.jsonl",
+          "sha256": "d68c45ce9b6c455dad1ac8afd692ed7ebe8d0f9064d4a1f4e80c9da1141863ee",
+          "bytes": 96798,
+          "unit": "A1-U02",
+          "records": 192,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U02_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U02_contexte_v002.jsonl",
+          "sha256": "3d8a3f82743cf2b9634787996c3ea3ade882273c4fafc9e390c48bf57711adf2",
+          "bytes": 57782,
+          "unit": "A1-U02",
+          "records": 81,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U02_pachet_v002_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U02_pachet_v002_independent.audit",
+          "sha256": "b1dedf5d2dbf94516b41f5be678826904e7ae7f432363d496788413d4a78e9c6",
+          "bytes": 5816,
+          "unit": "A1-U02",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 192,
+          "contexts": 81,
+          "proposal_hash": "d68c45ce9b6c455dad1ac8afd692ed7ebe8d0f9064d4a1f4e80c9da1141863ee",
+          "context_hash": "3d8a3f82743cf2b9634787996c3ea3ade882273c4fafc9e390c48bf57711adf2",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "192 glose native și 81 contexte explicite pentru cursul de engleză. Adaptările native ale exercițiilor fonetice sunt glose separate; contextele păstrează sunetele și răspunsurile englezești L/S. Nu se aplică glosele ca înlocuiri globale ale enunțurilor EN.",
+          "limitations": [
+            "Nu certifică toate aparițiile deduplicate sau toate câmpurile lecției.",
+            "Notele și explicațiile exclusiv RO neexportate, inclusiv indicația istorică despre /ŋ/, sunt în afara pachetului.",
+            "Nu certifică audio, importul sau afișarea live.",
+            "Workbookul sursă rămâne intact."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U03",
+        "proposals": {
+          "name": "A1-U03_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U03_propuneri_v002.jsonl",
+          "sha256": "3b65a498e967a4f4862ffdce996fc19229923bc5048d0e4bd61b8efa588586cb",
+          "bytes": 82159,
+          "unit": "A1-U03",
+          "records": 155,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U03_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U03_contexte_v002.jsonl",
+          "sha256": "6750c66b4369aa4b7920cd2d011e3379ce5f2337e58ae867e004a516ff43d174",
+          "bytes": 65354,
+          "unit": "A1-U03",
+          "records": 84,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U03_pachet_v002_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U03_pachet_v002_independent.audit",
+          "sha256": "a269139caf4ee26b15614a83a2e258478c8893e180313a9468014a22536c1762",
+          "bytes": 5780,
+          "unit": "A1-U03",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 155,
+          "contexts": 84,
+          "proposal_hash": "3b65a498e967a4f4862ffdce996fc19229923bc5048d0e4bd61b8efa588586cb",
+          "context_hash": "6750c66b4369aa4b7920cd2d011e3379ce5f2337e58ae867e004a516ff43d174",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "155 glose franceze și 84 contexte concrete pentru cursul de engleză. Articolele a/an/the și zero articol sunt obiecte de învățare englezești; exemplele EN de completare sunt păstrate cu explicații în limba nativă. Glosele nu sunt înlocuiri globale ale cheilor EN.",
+          "limitations": [
+            "Nu certifică toate câmpurile sau toate aparițiile deduplicate din lecție; explicațiile exclusiv RO neenumerate rămân în afara acestei acoperiri.",
+            "Modelele conversaționale și referințele vizuale sunt evaluate textual; nu certifică imagini, audio, importul sau afișarea live.",
+            "Pachetul conține o adaptare pedagogică explicită a test17 și o corecție explicită a replicii EN despre sunetul vocalic. Workbookul sursă nu este modificat."
+          ]
+        },
+        "hashes_match_existing_files": true
+      }
+    ],
+    "es": [
+      {
+        "unit": "A1-U01",
+        "proposals": {
+          "name": "A1-U01_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U01_propuneri_v002.jsonl",
+          "sha256": "06c9672e658b8f2ec9b972bc534ee5303e56325723d12b09d0761cba1e1826f1",
+          "bytes": 80258,
+          "unit": "A1-U01",
+          "records": 158,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U01_contexte_v003.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U01_contexte_v003.jsonl",
+          "sha256": "bf17fc654b55565bc82b3003869af36efbba4fadfdf5a1dd1a2d452fdd2b52ce",
+          "bytes": 44756,
+          "unit": "A1-U01",
+          "records": 60,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U01_pachet_v002_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U01_pachet_v002_independent.audit",
+          "sha256": "dfb2e4b272f9dc0f2c979d188f2f7f2d290b0443153d18f423033fdf21fd422b",
+          "bytes": 3545,
+          "unit": "A1-U01",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 158,
+          "contexts": 60,
+          "proposal_hash": "06c9672e658b8f2ec9b972bc534ee5303e56325723d12b09d0761cba1e1826f1",
+          "context_hash": "bf17fc654b55565bc82b3003869af36efbba4fadfdf5a1dd1a2d452fdd2b52ce",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "Auditul celor158 glose native și al celor60 excepții contextuale concrete pentru curs EN. Glosele sunt material de referință; nu se folosesc ca înlocuire globală a stimulilor/cheilor EN. Excepțiile au prioritate pe aparițiile indicate.",
+          "limitations": [
+            "Nu certifică toate câmpurile lecției sau toate aparițiile deduplicate din aplicație.",
+            "Câmpurile hintRo/note neincluse în158 și nepuse explicit în corrected_context nu sunt localizate sau certificate de acest pachet. De exemplu nota istorică despre my ca subiect rămâne o problemă separată de sursă.",
+            "Nu certifică audio, importul sau afișarea live.",
+            "Nicio modificare nu a fost aplicată workbookului original."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U02",
+        "proposals": {
+          "name": "A1-U02_propuneri_v003.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U02_propuneri_v003.jsonl",
+          "sha256": "e00aed60361123441e2202e250141a7a23de0727c3197c0756d09777ffc64bee",
+          "bytes": 95208,
+          "unit": "A1-U02",
+          "records": 192,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U02_contexte_v003.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U02_contexte_v003.jsonl",
+          "sha256": "cd31e7c8ccf4695427fc4dfea23d19c835085d789c0bd62867b34da0a2dd2628",
+          "bytes": 57490,
+          "unit": "A1-U02",
+          "records": 81,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U02_pachet_v003_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U02_pachet_v003_independent.audit",
+          "sha256": "9f5875af4a9c057801fd8604c3f31e9f71b307ef298c0831c7d4f9804117ee7c",
+          "bytes": 4207,
+          "unit": "A1-U02",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 192,
+          "contexts": 81,
+          "proposal_hash": "e00aed60361123441e2202e250141a7a23de0727c3197c0756d09777ffc64bee",
+          "context_hash": "cd31e7c8ccf4695427fc4dfea23d19c835085d789c0bd62867b34da0a2dd2628",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "192 glose native și 81 contexte explicite pentru cursul de engleză. Adaptările native ale exercițiilor fonetice sunt glose separate; contextele păstrează sunetele și răspunsurile englezești L/S. Nu se aplică glosele ca înlocuiri globale ale enunțurilor EN.",
+          "limitations": [
+            "Nu certifică toate aparițiile deduplicate sau toate câmpurile lecției.",
+            "Notele și explicațiile exclusiv RO neexportate, inclusiv indicația istorică despre /ŋ/, sunt în afara pachetului.",
+            "Nu certifică audio, importul sau afișarea live.",
+            "Workbookul sursă rămâne intact."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U03",
+        "proposals": {
+          "name": "A1-U03_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U03_propuneri_v002.jsonl",
+          "sha256": "0aed58e4afad51500fcf792caac00268b7e8e160d92071afc4facf0fe3b2c8d4",
+          "bytes": 80794,
+          "unit": "A1-U03",
+          "records": 155,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U03_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U03_contexte_v002.jsonl",
+          "sha256": "0f0177f44fcf589c79465f1e7f0a453ff9d2f8146c28325a3e1fcf87a2f94f51",
+          "bytes": 63937,
+          "unit": "A1-U03",
+          "records": 84,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U03_pachet_v002_independent.audit",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U03_pachet_v002_independent.audit",
+          "sha256": "3910e2d8be77e07b86368cfee51857da8fb9e242a5f9e2f5ad3e8ea81e8cbfad",
+          "bytes": 10655,
+          "unit": "A1-U03",
+          "score": 10,
+          "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+          "author": "auditor_independent_limba_romana_AI",
+          "rows": 155,
+          "contexts": 84,
+          "proposal_hash": "0aed58e4afad51500fcf792caac00268b7e8e160d92071afc4facf0fe3b2c8d4",
+          "context_hash": "0f0177f44fcf589c79465f1e7f0a453ff9d2f8146c28325a3e1fcf87a2f94f51",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": "155 glose spaniole și 84 contexte concrete pentru cursul de engleză. Articolele a/an/the și zero articol sunt obiecte de învățare englezești; exemplele EN de completare sunt păstrate cu explicații în limba nativă. Glosele nu sunt înlocuiri globale ale cheilor EN.",
+          "limitations": [
+            "Nu certifică toate câmpurile sau toate aparițiile deduplicate din lecție; explicațiile exclusiv RO neenumerate rămân în afara acestei acoperiri.",
+            "Modelele conversaționale și referințele vizuale sunt evaluate textual; nu certifică imagini, audio, importul sau afișarea live.",
+            "Pachetul conține o adaptare pedagogică explicită a test17 și o corecție explicită a replicii EN despre sunetul vocalic. Workbookul sursă nu este modificat."
+          ]
+        },
+        "hashes_match_existing_files": true
+      }
+    ],
+    "de": [
+      {
+        "unit": "A1-U01",
+        "proposals": {
+          "name": "A1-U01_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_propuneri_v002.jsonl",
+          "sha256": "d5c3adc4b7742c90b15ffbb20372926cfbd8218770a8122ba10da5faf6f01d3b",
+          "bytes": 181091,
+          "unit": "A1-U01",
+          "records": 158,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U01_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_contexte_v002.jsonl",
+          "sha256": "1027dcf407c063991c98735cf8b109fd95c6f5deed5e0d1f7965bebb6cc7acf6",
+          "bytes": 57598,
+          "unit": "A1-U01",
+          "records": 105,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U01_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_propuneri_v002.audit_independent",
+          "sha256": "d03dc88d313475a4ea729c0320dea1ad65fc343f86169bdac10bee72425d0d23",
+          "bytes": 1821,
+          "unit": "A1-U01",
+          "score": 10,
+          "verdict": "Acceptat pentru lotul și rolurile explicit auditate.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 158,
+          "contexts": 105,
+          "proposal_hash": "d5c3adc4b7742c90b15ffbb20372926cfbd8218770a8122ba10da5faf6f01d3b",
+          "context_hash": "1027dcf407c063991c98735cf8b109fd95c6f5deed5e0d1f7965bebb6cc7acf6",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Doar158rânduriU01 din noua bază și contextele aferente; nu întregul workbook.",
+            "Audio și integrarea live nu au fost verificate.",
+            "Nota se aplică pachetului propuneri+contexte, nu coloanei originale."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U02",
+        "proposals": {
+          "name": "A1-U02_propuneri_v004.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_propuneri_v004.jsonl",
+          "sha256": "a7dd3500ac80da5cb570fa6d39a2d6b10afe67202e8fb20c3e04e40f8e83e62c",
+          "bytes": 211164,
+          "unit": "A1-U02",
+          "records": 192,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U02_contexte_v004.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_contexte_v004.jsonl",
+          "sha256": "ef8dc64eb4dcfb8b7bae3be0b32edd330703c43fc9b257c1448d4c5bb8ee951b",
+          "bytes": 61887,
+          "unit": "A1-U02",
+          "records": 116,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U02_propuneri_v004.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_propuneri_v004.audit_independent",
+          "sha256": "8454c67c18eb667baafb35897078168d9b1f232a94d771be884ef3c406cfa62f",
+          "bytes": 2354,
+          "unit": "A1-U02",
+          "score": 10,
+          "verdict": "Acceptat pentru192glose și116contexte în versiunea004; înlocuiește acceptarea pedagogică anterioară a versiunii003.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 192,
+          "contexts": 116,
+          "proposal_hash": "a7dd3500ac80da5cb570fa6d39a2d6b10afe67202e8fb20c3e04e40f8e83e62c",
+          "context_hash": "ef8dc64eb4dcfb8b7bae3be0b32edd330703c43fc9b257c1448d4c5bb8ee951b",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Doar U02 din noua bază, fără audio/live.",
+            "Nota se aplică pachetului de propuneri și contexte, nu coloanei originale sau importului global."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U03",
+        "proposals": {
+          "name": "A1-U03_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U03_propuneri_v002.jsonl",
+          "sha256": "6f9721f10fa68478c93cdb59038484cf5c380f0ec838ac0165b14c5e662bd99d",
+          "bytes": 178546,
+          "unit": "A1-U03",
+          "records": 155,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U03_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U03_contexte_v002.jsonl",
+          "sha256": "7bfc41d8cd7852b275d8c4654c2f1e06d49742bd448fe9e48d4753526f1ab7fa",
+          "bytes": 64723,
+          "unit": "A1-U03",
+          "records": 127,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U03_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U03_propuneri_v002.audit_independent",
+          "sha256": "24805262c026578a3e4dd418f350ffd2edec9785e7b5c320c0e6c832972ef12f",
+          "bytes": 1880,
+          "unit": "A1-U03",
+          "score": 10,
+          "verdict": "Acceptat după verificarea exactă a tuturor remedierilor și a adaptării didactice.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 155,
+          "contexts": 127,
+          "proposal_hash": "6f9721f10fa68478c93cdb59038484cf5c380f0ec838ac0165b14c5e662bd99d",
+          "context_hash": "7bfc41d8cd7852b275d8c4654c2f1e06d49742bd448fe9e48d4753526f1ab7fa",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Numai U03 și127contexte, fără audio/live.",
+            "Nota se aplică pachetului corectat inclusiv adaptarea documentată, nu originalului și nu unui mapping global."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U04",
+        "proposals": {
+          "name": "A1-U04_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U04_propuneri_v002.jsonl",
+          "sha256": "acbd63c02a0156470f6ac5f31fc2062f76ca34d98eed8f735f9920ea71b5f80f",
+          "bytes": 213206,
+          "unit": "A1-U04",
+          "records": 181,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U04_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U04_contexte_v002.jsonl",
+          "sha256": "1440fdee26e251cd4039d15eb3b9f1b4a8aaa7a27e9e9f96790bedcd827ed2b4",
+          "bytes": 70162,
+          "unit": "A1-U04",
+          "records": 130,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U04_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U04_propuneri_v002.audit_independent",
+          "sha256": "dd65d4f6f596a02caf7d4dd04b96ad41e001018c57110475979a5b09d4b69bfd",
+          "bytes": 1857,
+          "unit": "A1-U04",
+          "score": 10,
+          "verdict": "Acceptat pentru cele181 glose și130contexte, cu separarea obligatorie a rolurilor.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 181,
+          "contexts": 130,
+          "proposal_hash": "acbd63c02a0156470f6ac5f31fc2062f76ca34d98eed8f735f9920ea71b5f80f",
+          "context_hash": "1440fdee26e251cd4039d15eb3b9f1b4a8aaa7a27e9e9f96790bedcd827ed2b4",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Numai U04, nu întregul workbook; fără audio sau integrare live.",
+            "Pachetul de contexte separă cele2roluri și nu permite import global."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U05",
+        "proposals": {
+          "name": "A1-U05_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U05_propuneri_v002.jsonl",
+          "sha256": "af94d385501c9787adbdaa31ffc83994a5f5bbe5705d5799ca3a52a19a0e5443",
+          "bytes": 206394,
+          "unit": "A1-U05",
+          "records": 182,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U05_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U05_contexte_v002.jsonl",
+          "sha256": "27849d0b6eaaa02b4e267855bd6dad433bc1c21f16e6feb663f1d54b243e188c",
+          "bytes": 57186,
+          "unit": "A1-U05",
+          "records": 107,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U05_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U05_propuneri_v002.audit_independent",
+          "sha256": "25b1aeae65cbe1da9b813c9fcf36048622de09735f393e9c6716552692dd5f4d",
+          "bytes": 1780,
+          "unit": "A1-U05",
+          "score": 10,
+          "verdict": "Acceptat pentru182glose și107contexte, cu păstrarea rolurilor și indiciilor necesare.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 182,
+          "contexts": 107,
+          "proposal_hash": "af94d385501c9787adbdaa31ffc83994a5f5bbe5705d5799ca3a52a19a0e5443",
+          "context_hash": "27849d0b6eaaa02b4e267855bd6dad433bc1c21f16e6feb663f1d54b243e188c",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Numai U05 și contextele enumerate; fără audio, import sau aplicație live.",
+            "Glosa nu se importă global peste stimulii de învățare EN."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U06",
+        "proposals": {
+          "name": "A1-U06_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U06_propuneri_v002.jsonl",
+          "sha256": "69538e68731e1726251ea8996dfd8f6903e4f0536fe3dc7f04d90a158758e0ac",
+          "bytes": 209484,
+          "unit": "A1-U06",
+          "records": 184,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U06_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U06_contexte_v002.jsonl",
+          "sha256": "9c67d6729787e1c3ba20fc48f701e362de2806ae86f54398ffda224fd000aa73",
+          "bytes": 59007,
+          "unit": "A1-U06",
+          "records": 110,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U06_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U06_propuneri_v002.audit_independent",
+          "sha256": "9c8d9107d2040b766042533fa9473f66070fdb45eb55f3d5c80a59d86daa5371",
+          "bytes": 1856,
+          "unit": "A1-U06",
+          "score": 10,
+          "verdict": "Acceptat pentru184glose și110contexte; rolurile și limitele de acoperire sunt obligatorii.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 184,
+          "contexts": 110,
+          "proposal_hash": "69538e68731e1726251ea8996dfd8f6903e4f0536fe3dc7f04d90a158758e0ac",
+          "context_hash": "9c67d6729787e1c3ba20fc48f701e362de2806ae86f54398ffda224fd000aa73",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Numai cele184glose și110contexte, fără certificarea tuturor câmpurilor RO-only sau a altor apariții deduplicate.",
+            "Fără verificare audio/live; contextele au prioritate față de glosa globală."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U07",
+        "proposals": {
+          "name": "A1-U07_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U07_propuneri_v002.jsonl",
+          "sha256": "0f6031ee8a18f427fd3845f3a934686263c85b056e3d7de567b4b2563cdb7bd2",
+          "bytes": 210581,
+          "unit": "A1-U07",
+          "records": 189,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U07_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U07_contexte_v002.jsonl",
+          "sha256": "fc080787f218fb41e7d88f6ba94d6a47e404e1fc88e6ca8bb13ec8ea9fe33a9c",
+          "bytes": 55527,
+          "unit": "A1-U07",
+          "records": 107,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U07_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U07_propuneri_v002.audit_independent",
+          "sha256": "86d6f524288c5d1687a9dc019331add7efba78077aab3810113532aba4f74b6e",
+          "bytes": 1893,
+          "unit": "A1-U07",
+          "score": 10,
+          "verdict": "Acceptat pentru189glose și107contexte; titlul rămâne distinct de întrebarea din carduri.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 189,
+          "contexts": 107,
+          "proposal_hash": "0f6031ee8a18f427fd3845f3a934686263c85b056e3d7de567b4b2563cdb7bd2",
+          "context_hash": "fc080787f218fb41e7d88f6ba94d6a47e404e1fc88e6ca8bb13ec8ea9fe33a9c",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Numai189glose și107contexte; fără audio/live și fără certificarea câmpurilor RO-only neincluse.",
+            "Aplicarea corectă presupune prioritatea contextelor; coloana nu este mapare globală sigură."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U08",
+        "proposals": {
+          "name": "A1-U08_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U08_propuneri_v002.jsonl",
+          "sha256": "a6f5f56f6a9510b9d3cb2d822db4a7b3f2653af833d69a79f50ea6b9a3e861be",
+          "bytes": 211635,
+          "unit": "A1-U08",
+          "records": 180,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U08_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U08_contexte_v002.jsonl",
+          "sha256": "f5227454f07dbfe8beb6f2cd09a32871ee3aa0bddce0009d3536403c2a8c869f",
+          "bytes": 55737,
+          "unit": "A1-U08",
+          "records": 104,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U08_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U08_propuneri_v002.audit_independent",
+          "sha256": "08bb0f29db220e39853a35d3f457cf5a81f00f4ea86048324ccb7b9f243f00a8",
+          "bytes": 2101,
+          "unit": "A1-U08",
+          "score": 10,
+          "verdict": "Acceptat pentru180glose și104contexte; distincția dintre trezire și ridicarea din pat este păstrată.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 180,
+          "contexts": 104,
+          "proposal_hash": "a6f5f56f6a9510b9d3cb2d822db4a7b3f2653af833d69a79f50ea6b9a3e861be",
+          "context_hash": "f5227454f07dbfe8beb6f2cd09a32871ee3aa0bddce0009d3536403c2a8c869f",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Numai180glose și104contexte, nu toate câmpurile lecției.",
+            "Fără audio/import/live; contextele se aplică pe pointer și rol, nu global."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U09",
+        "proposals": {
+          "name": "A1-U09_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U09_propuneri_v002.jsonl",
+          "sha256": "3af41fc34f47e672857afca0ac6910c793c02e827b1c8431fa9cc4a0d4b5e221",
+          "bytes": 199318,
+          "unit": "A1-U09",
+          "records": 173,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U09_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U09_contexte_v002.jsonl",
+          "sha256": "e7992782cdc3528ef0d92cb4457cf8e6ada9be64eadd7ceed06aaa2249a25cb5",
+          "bytes": 59425,
+          "unit": "A1-U09",
+          "records": 113,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U09_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U09_propuneri_v002.audit_independent",
+          "sha256": "89ee6fbd4b709e50864302b6483cb669e133719848ff863221ae6fa2752ef504",
+          "bytes": 1755,
+          "unit": "A1-U09",
+          "score": 10,
+          "verdict": "Acceptat pentru173glose și113contexte; limitele de acoperire se păstrează.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 173,
+          "contexts": 113,
+          "proposal_hash": "3af41fc34f47e672857afca0ac6910c793c02e827b1c8431fa9cc4a0d4b5e221",
+          "context_hash": "e7992782cdc3528ef0d92cb4457cf8e6ada9be64eadd7ceed06aaa2249a25cb5",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Numai173glose și113contexte; nu toate câmpurile RO-only sau toate aparițiile deduplicate.",
+            "Fără audio/live/import global."
+          ]
+        },
+        "hashes_match_existing_files": true
+      },
+      {
+        "unit": "A1-U10",
+        "proposals": {
+          "name": "A1-U10_propuneri_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U10_propuneri_v002.jsonl",
+          "sha256": "8fa8ee4f6c0ff83997a99df32f5b2c7b1695bbd77d86634845233d9ded0b0fc3",
+          "bytes": 215591,
+          "unit": "A1-U10",
+          "records": 187,
+          "ends_with_newline": true,
+          "kind": "proposals"
+        },
+        "contexts": {
+          "name": "A1-U10_contexte_v002.jsonl",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U10_contexte_v002.jsonl",
+          "sha256": "576f07234e48d6aec9aecd249570102eb2469823a97518a6947cb3c75650fa3c",
+          "bytes": 59363,
+          "unit": "A1-U10",
+          "records": 109,
+          "ends_with_newline": true,
+          "kind": "contexts"
+        },
+        "audit": {
+          "name": "A1-U10_propuneri_v002.audit_independent",
+          "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U10_propuneri_v002.audit_independent",
+          "sha256": "ff9e4b14859f431593c5cd06400156129f470699272b21b77f398361274f1d74",
+          "bytes": 1892,
+          "unit": "A1-U10",
+          "score": 10,
+          "verdict": "Acceptat pentru187glose și109contexte; distractorii greșiți rămân numai în contextul testului.",
+          "author": "auditor_RO_FR_ES_pentru_DE_AI",
+          "rows": 187,
+          "contexts": 109,
+          "proposal_hash": "8fa8ee4f6c0ff83997a99df32f5b2c7b1695bbd77d86634845233d9ded0b0fc3",
+          "context_hash": "576f07234e48d6aec9aecd249570102eb2469823a97518a6947cb3c75650fa3c",
+          "findings": 0,
+          "context_findings": 0,
+          "scope": null,
+          "limitations": [
+            "Numai187glose și109contexte, fără certificarea întregii lecții sau a câmpurilor RO-only neincluse.",
+            "Fără audio/live/import global."
+          ]
+        },
+        "hashes_match_existing_files": true
+      }
+    ]
+  },
+  "unaccepted_versions": {
+    "ro": [],
+    "fr": [],
+    "es": [],
+    "de": [
+      {
+        "name": "A1-U01_contexte_supliment_auditor_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_contexte_supliment_auditor_v001.jsonl",
+        "sha256": "bbab6be8667c15c326908c4863998b190d58c77853a4ccae9aeebbabcb107b22",
+        "bytes": 17949,
+        "unit": "A1-U01",
+        "records": 35,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U01_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_contexte_v001.jsonl",
+        "sha256": "d35e2bde7bc150b47487ce354ca3e2e4c58c018100cdbaa9929e252a5dbaba14",
+        "bytes": 40034,
+        "unit": "A1-U01",
+        "records": 70,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U01_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_propuneri_v001.jsonl",
+        "sha256": "5a05af4ca1cb9d5933e52067903ba40f338061163fb9709a4fc7ad9da2885780",
+        "bytes": 176479,
+        "unit": "A1-U01",
+        "records": 158,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U02_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_contexte_v001.jsonl",
+        "sha256": "e6ed5dfa8e89f8af06e5d9730ae0f969a2f75866b43ebcb78b80caa5420418ed",
+        "bytes": 38192,
+        "unit": "A1-U02",
+        "records": 74,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U02_contexte_v002.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_contexte_v002.jsonl",
+        "sha256": "af28a1cd50a3a96c8dd5127547c62d5d249a41a1fed7715391195d3239f82a84",
+        "bytes": 60766,
+        "unit": "A1-U02",
+        "records": 114,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U02_contexte_v003.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_contexte_v003.jsonl",
+        "sha256": "add1fd2fafe8624b442e5ccce5fc140e1cc866e4413adc43624c17374445621b",
+        "bytes": 61647,
+        "unit": "A1-U02",
+        "records": 116,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U02_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_propuneri_v001.jsonl",
+        "sha256": "ee06cbbd2aa2074a7732d62abaf07c85277ca087db6532f51dd2aeb290964e41",
+        "bytes": 205328,
+        "unit": "A1-U02",
+        "records": 192,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U02_propuneri_v002.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_propuneri_v002.jsonl",
+        "sha256": "64b608a0d841f0707ba87b86d0644caf14522d6288c44639250f42b48de3728a",
+        "bytes": 210875,
+        "unit": "A1-U02",
+        "records": 192,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U02_propuneri_v003.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_propuneri_v003.jsonl",
+        "sha256": "bbcb9b00d609942cadf9e092845f933f4f0f014c7c2569bb8e547ef23a511e5a",
+        "bytes": 211164,
+        "unit": "A1-U02",
+        "records": 192,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U03_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U03_contexte_v001.jsonl",
+        "sha256": "978acadbeab10e15271449bb10764bb74d97abdd67b993d4468ee6c98b8060ee",
+        "bytes": 63814,
+        "unit": "A1-U03",
+        "records": 127,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U03_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U03_propuneri_v001.jsonl",
+        "sha256": "caa3aadb5fa54f557c4309a8218919887d201cf0756a8d0e0f0481ff44b850c6",
+        "bytes": 173803,
+        "unit": "A1-U03",
+        "records": 155,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U04_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U04_contexte_v001.jsonl",
+        "sha256": "36f75565864556f22236d45d7a9caee2b7cb1165f1a30f1232b637bda0aeb176",
+        "bytes": 69901,
+        "unit": "A1-U04",
+        "records": 130,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U04_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U04_propuneri_v001.jsonl",
+        "sha256": "3b36a452d4a56393fe64bef4151c609bf4902a89245e90a5da693b1742969685",
+        "bytes": 207883,
+        "unit": "A1-U04",
+        "records": 181,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U05_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U05_contexte_v001.jsonl",
+        "sha256": "cc30cf9487c2093019bac249f48fbb4b7ef0c2003cc42608f39da79d92e27b53",
+        "bytes": 56899,
+        "unit": "A1-U05",
+        "records": 107,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U05_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U05_propuneri_v001.jsonl",
+        "sha256": "dc64ad0379fad166fa329c4856ccabc97acf8145cb8d5462e801beba0051f888",
+        "bytes": 200727,
+        "unit": "A1-U05",
+        "records": 182,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U06_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U06_contexte_v001.jsonl",
+        "sha256": "7cc9581f5b25afb94f32fcb5d8090be2511ff6fe5409077287fbab005702eb1f",
+        "bytes": 58636,
+        "unit": "A1-U06",
+        "records": 110,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U06_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U06_propuneri_v001.jsonl",
+        "sha256": "a60940d6bd961d65cf222804e2ee83b9bd930ac9acad46828eb64c3ee11563f3",
+        "bytes": 204166,
+        "unit": "A1-U06",
+        "records": 184,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U07_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U07_contexte_v001.jsonl",
+        "sha256": "9dfd3c3a10df2115baf5678c5d1d13f1e21a44c593ad1ccbc65fb3ed732d65c7",
+        "bytes": 55035,
+        "unit": "A1-U07",
+        "records": 107,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U07_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U07_propuneri_v001.jsonl",
+        "sha256": "4c931ad072e463e4689c1b847f9551f7363068da0cb42ed560ee559cb63ec3ab",
+        "bytes": 205180,
+        "unit": "A1-U07",
+        "records": 189,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U08_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U08_contexte_v001.jsonl",
+        "sha256": "ba22e93c3ed5ee87ec848ba191b5ef911f469fb5c6719824554f80610451dc9d",
+        "bytes": 55204,
+        "unit": "A1-U08",
+        "records": 104,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U08_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U08_propuneri_v001.jsonl",
+        "sha256": "71520c3676875ff89d9d6466f51aff38d601376bd728637ac28cabef20630cde",
+        "bytes": 206595,
+        "unit": "A1-U08",
+        "records": 180,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U09_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U09_contexte_v001.jsonl",
+        "sha256": "5f76fc8eb9697b1f1e8a2d9de0221a26e0522a865c048ab531d41de4f04831e5",
+        "bytes": 59090,
+        "unit": "A1-U09",
+        "records": 113,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U09_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U09_propuneri_v001.jsonl",
+        "sha256": "dd2c4baf423515b3fbf760b3ba6270ec24d4e327f59dcf7eb2fdf051a024e296",
+        "bytes": 194474,
+        "unit": "A1-U09",
+        "records": 173,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U10_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U10_contexte_v001.jsonl",
+        "sha256": "596b367b109dc87bb79ab1087e0e6223b4b8fd2afca364f29a610f0e146536b1",
+        "bytes": 59276,
+        "unit": "A1-U10",
+        "records": 109,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U10_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U10_propuneri_v001.jsonl",
+        "sha256": "77ee977273afaf2ad2124d548cb4370726070e24154daefeada69939618b848f",
+        "bytes": 209802,
+        "unit": "A1-U10",
+        "records": 187,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U11_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U11_contexte_v001.jsonl",
+        "sha256": "435baa68a2af8aa51ec809435c0858314eaf1a965e2163aaff87ebe9aea8b4cf",
+        "bytes": 56171,
+        "unit": "A1-U11",
+        "records": 104,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U11_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U11_propuneri_v001.jsonl",
+        "sha256": "004ef3934b073b4b39c840fdb00197b9a5e718169ccbeda43cd14d6171852f9c",
+        "bytes": 211746,
+        "unit": "A1-U11",
+        "records": 192,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U12_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U12_contexte_v001.jsonl",
+        "sha256": "6fba38b885ad775b87d6c88cc0059686216b36b1cb0393e8ae89025e3389a703",
+        "bytes": 59060,
+        "unit": "A1-U12",
+        "records": 113,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U12_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U12_propuneri_v001.jsonl",
+        "sha256": "8e0ee07f581d0ea0ec8b18d1eeb28ea131ddd978df59424c24d82207474dbcb5",
+        "bytes": 205030,
+        "unit": "A1-U12",
+        "records": 189,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U13_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U13_contexte_v001.jsonl",
+        "sha256": "15a123716a6f2bc129b0683fe89dfc020d3cda9b283addaa4a15299e3c7c7e51",
+        "bytes": 57392,
+        "unit": "A1-U13",
+        "records": 109,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U13_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U13_propuneri_v001.jsonl",
+        "sha256": "92f962311220a24a2616a79968d03981601a47f4c54693997282b129159b670f",
+        "bytes": 185034,
+        "unit": "A1-U13",
+        "records": 156,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U14_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U14_contexte_v001.jsonl",
+        "sha256": "a15f61982841e9b0178fb7941a1061287e39ac8739292aa9aab5704bfea1a529",
+        "bytes": 52377,
+        "unit": "A1-U14",
+        "records": 103,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U14_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U14_propuneri_v001.jsonl",
+        "sha256": "9201801cbc04eaeb7baa469395c9ef9e29d23671b2e9822c5771e37f64a76f93",
+        "bytes": 176601,
+        "unit": "A1-U14",
+        "records": 152,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      },
+      {
+        "name": "A1-U15_contexte_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U15_contexte_v001.jsonl",
+        "sha256": "c86c6e81f7017275473f6181f1a590803a625cc0ab2d7694f4b2411f78d4cdb7",
+        "bytes": 62216,
+        "unit": "A1-U15",
+        "records": 117,
+        "ends_with_newline": true,
+        "kind": "contexts"
+      },
+      {
+        "name": "A1-U15_propuneri_v001.jsonl",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U15_propuneri_v001.jsonl",
+        "sha256": "d35f75de5f032226c3e509c303c6843daac29e5d4efa67bdb4aaaed861d802d9",
+        "bytes": 192481,
+        "unit": "A1-U15",
+        "records": 163,
+        "ends_with_newline": true,
+        "kind": "proposals"
+      }
+    ]
+  },
+  "audits_inventory": {
+    "ro": [
+      {
+        "name": "A1-U01_pachet_v002_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U01_pachet_v002_independent.audit",
+        "sha256": "2a79932c5bf7f431638c697c7b4e14a5cb0b0e1759dc35220c99e1d10fa80227",
+        "bytes": 3547,
+        "unit": "A1-U01",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 158,
+        "contexts": 60,
+        "proposal_hash": "121aaf1092a0bd0733294364ee21cb22a7b5354876dec8435f075999be825386",
+        "context_hash": "f880eda4657711e5e0d4ad2f13739780ad4f2f92ad029bafabe3f83b12e09056",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "Auditul celor158 glose native și al celor60 excepții contextuale concrete pentru curs EN. Glosele sunt material de referință; nu se folosesc ca înlocuire globală a stimulilor/cheilor EN. Excepțiile au prioritate pe aparițiile indicate.",
+        "limitations": [
+          "Nu certifică toate câmpurile lecției sau toate aparițiile deduplicate din aplicație.",
+          "Câmpurile hintRo/note neincluse în158 și nepuse explicit în corrected_context nu sunt localizate sau certificate de acest pachet. De exemplu nota istorică despre my ca subiect rămâne o problemă separată de sursă.",
+          "Nu certifică audio, importul sau afișarea live.",
+          "Nicio modificare nu a fost aplicată workbookului original."
+        ]
+      },
+      {
+        "name": "A1-U02_pachet_v002_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U02_pachet_v002_independent.audit",
+        "sha256": "8293605fab51b124ef0303ba1a1e1dc04c345452c44fc165145f279e555860af",
+        "bytes": 4843,
+        "unit": "A1-U02",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 192,
+        "contexts": 81,
+        "proposal_hash": "2bbe1941327189d577765544dcac2c1b91c264ff2b17b95f897fcc111a7c67b8",
+        "context_hash": "0bb849a92d18053341ddadbaa1284d2ee57c0b478678d0834b51b77f3436b359",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "192 glose native și 81 contexte explicite pentru cursul de engleză. Adaptările native ale exercițiilor fonetice sunt glose separate; contextele păstrează sunetele și răspunsurile englezești L/S. Nu se aplică glosele ca înlocuiri globale ale enunțurilor EN.",
+        "limitations": [
+          "Nu certifică toate aparițiile deduplicate sau toate câmpurile lecției.",
+          "Notele și explicațiile exclusiv RO neexportate, inclusiv indicația istorică despre /ŋ/, sunt în afara pachetului.",
+          "Nu certifică audio, importul sau afișarea live.",
+          "Workbookul sursă rămâne intact."
+        ]
+      },
+      {
+        "name": "A1-U03_pachet_v001_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U03_pachet_v001_independent.audit",
+        "sha256": "465ed3b91a68b23374dd2da026b9919f7775dde381dda3efe8e3935d7b93ab86",
+        "bytes": 3109,
+        "unit": "A1-U03",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 155,
+        "contexts": 84,
+        "proposal_hash": "b89e464e39d1c79715e6626a1ab50137153f28e889329da80e68fb69b00e9c62",
+        "context_hash": "0b82260e219ad685f494b6345c828fb8f9a2d658fb9000f81e6a78127034aafb",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "155 glose românești și 84 contexte concrete pentru cursul de engleză. Articolele a/an/the și zero articol sunt obiecte de învățare englezești; exemplele EN de completare sunt păstrate cu explicații RO. Glosele nu sunt înlocuiri globale ale cheilor EN.",
+        "limitations": [
+          "Nu certifică toate câmpurile sau toate aparițiile deduplicate din lecție; explicațiile exclusiv RO neenumerate rămân în afara acestei acoperiri.",
+          "Modelele conversaționale și referințele vizuale sunt evaluate textual; nu certifică imagini, audio, importul sau afișarea live.",
+          "Pachetul conține o adaptare pedagogică explicită a test17 și o corecție explicită a replicii EN despre sunetul vocalic. Workbookul sursă nu este modificat."
+        ]
+      },
+      {
+        "name": "A1-U03_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\ro\\A1-U03_v001.audit",
+        "sha256": "99f744c6dae1100362c93edcbb5dc11efc0227c00e06913c14af333ba5377d3b",
+        "bytes": 885,
+        "unit": "A1-U03",
+        "score": 5.5,
+        "verdict": "in_lucru_contexte_necesare",
+        "author": "autor_RO_AI",
+        "rows": 155,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Pachetul nu este finalizat fără contextele complete și audit independent.",
+          "Fără audio sau aplicație live."
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "name": "A1-U01_pachet_v002_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U01_pachet_v002_independent.audit",
+        "sha256": "491f7e8b1383775082db2c1d15f4cd0e0e896975563046910692db5a4f16b9f9",
+        "bytes": 3894,
+        "unit": "A1-U01",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 158,
+        "contexts": 60,
+        "proposal_hash": "088b6ba1384aecffe5d5335219388d377b174b1f563e094117b77745faee50d2",
+        "context_hash": "21738541c7e8e9f0f84c9da40ab2572fef86dbad0938e6e9b1dd32671825b27c",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "Auditul celor158 glose native și al celor60 excepții contextuale concrete pentru curs EN. Glosele sunt material de referință; nu se folosesc ca înlocuire globală a stimulilor/cheilor EN. Excepțiile au prioritate pe aparițiile indicate.",
+        "limitations": [
+          "Nu certifică toate câmpurile lecției sau toate aparițiile deduplicate din aplicație.",
+          "Câmpurile hintRo/note neincluse în158 și nepuse explicit în corrected_context nu sunt localizate sau certificate de acest pachet. De exemplu nota istorică despre my ca subiect rămâne o problemă separată de sursă.",
+          "Nu certifică audio, importul sau afișarea live.",
+          "Nicio modificare nu a fost aplicată workbookului original."
+        ]
+      },
+      {
+        "name": "A1-U02_pachet_v002_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U02_pachet_v002_independent.audit",
+        "sha256": "b1dedf5d2dbf94516b41f5be678826904e7ae7f432363d496788413d4a78e9c6",
+        "bytes": 5816,
+        "unit": "A1-U02",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 192,
+        "contexts": 81,
+        "proposal_hash": "d68c45ce9b6c455dad1ac8afd692ed7ebe8d0f9064d4a1f4e80c9da1141863ee",
+        "context_hash": "3d8a3f82743cf2b9634787996c3ea3ade882273c4fafc9e390c48bf57711adf2",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "192 glose native și 81 contexte explicite pentru cursul de engleză. Adaptările native ale exercițiilor fonetice sunt glose separate; contextele păstrează sunetele și răspunsurile englezești L/S. Nu se aplică glosele ca înlocuiri globale ale enunțurilor EN.",
+        "limitations": [
+          "Nu certifică toate aparițiile deduplicate sau toate câmpurile lecției.",
+          "Notele și explicațiile exclusiv RO neexportate, inclusiv indicația istorică despre /ŋ/, sunt în afara pachetului.",
+          "Nu certifică audio, importul sau afișarea live.",
+          "Workbookul sursă rămâne intact."
+        ]
+      },
+      {
+        "name": "A1-U03_pachet_v002_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\fr\\A1-U03_pachet_v002_independent.audit",
+        "sha256": "a269139caf4ee26b15614a83a2e258478c8893e180313a9468014a22536c1762",
+        "bytes": 5780,
+        "unit": "A1-U03",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 155,
+        "contexts": 84,
+        "proposal_hash": "3b65a498e967a4f4862ffdce996fc19229923bc5048d0e4bd61b8efa588586cb",
+        "context_hash": "6750c66b4369aa4b7920cd2d011e3379ce5f2337e58ae867e004a516ff43d174",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "155 glose franceze și 84 contexte concrete pentru cursul de engleză. Articolele a/an/the și zero articol sunt obiecte de învățare englezești; exemplele EN de completare sunt păstrate cu explicații în limba nativă. Glosele nu sunt înlocuiri globale ale cheilor EN.",
+        "limitations": [
+          "Nu certifică toate câmpurile sau toate aparițiile deduplicate din lecție; explicațiile exclusiv RO neenumerate rămân în afara acestei acoperiri.",
+          "Modelele conversaționale și referințele vizuale sunt evaluate textual; nu certifică imagini, audio, importul sau afișarea live.",
+          "Pachetul conține o adaptare pedagogică explicită a test17 și o corecție explicită a replicii EN despre sunetul vocalic. Workbookul sursă nu este modificat."
+        ]
+      }
+    ],
+    "es": [
+      {
+        "name": "A1-U01_pachet_v002_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U01_pachet_v002_independent.audit",
+        "sha256": "dfb2e4b272f9dc0f2c979d188f2f7f2d290b0443153d18f423033fdf21fd422b",
+        "bytes": 3545,
+        "unit": "A1-U01",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 158,
+        "contexts": 60,
+        "proposal_hash": "06c9672e658b8f2ec9b972bc534ee5303e56325723d12b09d0761cba1e1826f1",
+        "context_hash": "bf17fc654b55565bc82b3003869af36efbba4fadfdf5a1dd1a2d452fdd2b52ce",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "Auditul celor158 glose native și al celor60 excepții contextuale concrete pentru curs EN. Glosele sunt material de referință; nu se folosesc ca înlocuire globală a stimulilor/cheilor EN. Excepțiile au prioritate pe aparițiile indicate.",
+        "limitations": [
+          "Nu certifică toate câmpurile lecției sau toate aparițiile deduplicate din aplicație.",
+          "Câmpurile hintRo/note neincluse în158 și nepuse explicit în corrected_context nu sunt localizate sau certificate de acest pachet. De exemplu nota istorică despre my ca subiect rămâne o problemă separată de sursă.",
+          "Nu certifică audio, importul sau afișarea live.",
+          "Nicio modificare nu a fost aplicată workbookului original."
+        ]
+      },
+      {
+        "name": "A1-U02_pachet_v003_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U02_pachet_v003_independent.audit",
+        "sha256": "9f5875af4a9c057801fd8604c3f31e9f71b307ef298c0831c7d4f9804117ee7c",
+        "bytes": 4207,
+        "unit": "A1-U02",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 192,
+        "contexts": 81,
+        "proposal_hash": "e00aed60361123441e2202e250141a7a23de0727c3197c0756d09777ffc64bee",
+        "context_hash": "cd31e7c8ccf4695427fc4dfea23d19c835085d789c0bd62867b34da0a2dd2628",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "192 glose native și 81 contexte explicite pentru cursul de engleză. Adaptările native ale exercițiilor fonetice sunt glose separate; contextele păstrează sunetele și răspunsurile englezești L/S. Nu se aplică glosele ca înlocuiri globale ale enunțurilor EN.",
+        "limitations": [
+          "Nu certifică toate aparițiile deduplicate sau toate câmpurile lecției.",
+          "Notele și explicațiile exclusiv RO neexportate, inclusiv indicația istorică despre /ŋ/, sunt în afara pachetului.",
+          "Nu certifică audio, importul sau afișarea live.",
+          "Workbookul sursă rămâne intact."
+        ]
+      },
+      {
+        "name": "A1-U03_pachet_v002_independent.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\es\\A1-U03_pachet_v002_independent.audit",
+        "sha256": "3910e2d8be77e07b86368cfee51857da8fb9e242a5f9e2f5ad3e8ea81e8cbfad",
+        "bytes": 10655,
+        "unit": "A1-U03",
+        "score": 10,
+        "verdict": "acceptat_10_in_scopul_explicit_al_pachetului",
+        "author": "auditor_independent_limba_romana_AI",
+        "rows": 155,
+        "contexts": 84,
+        "proposal_hash": "0aed58e4afad51500fcf792caac00268b7e8e160d92071afc4facf0fe3b2c8d4",
+        "context_hash": "0f0177f44fcf589c79465f1e7f0a453ff9d2f8146c28325a3e1fcf87a2f94f51",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": "155 glose spaniole și 84 contexte concrete pentru cursul de engleză. Articolele a/an/the și zero articol sunt obiecte de învățare englezești; exemplele EN de completare sunt păstrate cu explicații în limba nativă. Glosele nu sunt înlocuiri globale ale cheilor EN.",
+        "limitations": [
+          "Nu certifică toate câmpurile sau toate aparițiile deduplicate din lecție; explicațiile exclusiv RO neenumerate rămân în afara acestei acoperiri.",
+          "Modelele conversaționale și referințele vizuale sunt evaluate textual; nu certifică imagini, audio, importul sau afișarea live.",
+          "Pachetul conține o adaptare pedagogică explicită a test17 și o corecție explicită a replicii EN despre sunetul vocalic. Workbookul sursă nu este modificat."
+        ]
+      }
+    ],
+    "de": [
+      {
+        "name": "A1-U01_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_existent_v001.audit",
+        "sha256": "e408ab07d2547492100fe6dd5b11cbc12510ec6c2baf1bbf2dfd7f58b0cf68e3",
+        "bytes": 24617,
+        "unit": "A1-U01",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 158,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 28,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U01_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_propuneri_v001.audit_independent",
+        "sha256": "96c3fa2d311695be0c2b4e607a7d03b5d49810b196e3eb98d3f27697133b6948",
+        "bytes": 3212,
+        "unit": "A1-U01",
+        "score": 9.2,
+        "verdict": "Corecțiile lingvistice sunt în mare parte valide; necesită supliment contextual și rectificarea justificării titlului înainte de nota10.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 158,
+        "contexts": 70,
+        "proposal_hash": "5a05af4ca1cb9d5933e52067903ba40f338061163fb9709a4fc7ad9da2885780",
+        "context_hash": "d35e2bde7bc150b47487ce354ca3e2e4c58c018100cdbaa9929e252a5dbaba14",
+        "findings": 3,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Nu reprezintă activarea sau testarea aplicației și nu verifică audio.",
+          "După suplimentarea contextelor, importul global al coloanei G rămâne nepotrivit; instrucțiunile și exemplele trebuie aplicate pe rol."
+        ]
+      },
+      {
+        "name": "A1-U01_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U01_propuneri_v002.audit_independent",
+        "sha256": "d03dc88d313475a4ea729c0320dea1ad65fc343f86169bdac10bee72425d0d23",
+        "bytes": 1821,
+        "unit": "A1-U01",
+        "score": 10,
+        "verdict": "Acceptat pentru lotul și rolurile explicit auditate.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 158,
+        "contexts": 105,
+        "proposal_hash": "d5c3adc4b7742c90b15ffbb20372926cfbd8218770a8122ba10da5faf6f01d3b",
+        "context_hash": "1027dcf407c063991c98735cf8b109fd95c6f5deed5e0d1f7965bebb6cc7acf6",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Doar158rânduriU01 din noua bază și contextele aferente; nu întregul workbook.",
+          "Audio și integrarea live nu au fost verificate.",
+          "Nota se aplică pachetului propuneri+contexte, nu coloanei originale."
+        ]
+      },
+      {
+        "name": "A1-U02_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_existent_v001.audit",
+        "sha256": "8c8743cf044c45645d1c0540a7d9fd4b074e0e7fd48e6f4656718fdbe962d7b5",
+        "bytes": 27243,
+        "unit": "A1-U02",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 192,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 40,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U02_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_propuneri_v002.audit_independent",
+        "sha256": "b6728988e5236f6dce1bc75cb39df4cebeb9f403715ae36b10781b8ebd9ae2fc",
+        "bytes": 4482,
+        "unit": "A1-U02",
+        "score": 9.5,
+        "verdict": "Necesită2corecturi în corp și4corecturi/adăugări contextuale înainte de reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 192,
+        "contexts": 114,
+        "proposal_hash": "64b608a0d841f0707ba87b86d0644caf14522d6288c44639250f42b48de3728a",
+        "context_hash": "af28a1cd50a3a96c8dd5127547c62d5d249a41a1fed7715391195d3239f82a84",
+        "findings": 2,
+        "context_findings": 4,
+        "scope": null,
+        "limitations": [
+          "Numai U02 din noua bază. Pachetul nu este import global al coloanei G.",
+          "Audio și integrarea live nu au fost verificate."
+        ]
+      },
+      {
+        "name": "A1-U02_propuneri_v003.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_propuneri_v003.audit_independent",
+        "sha256": "5558b81a9d05a13246dfc379206e513525b9654a8119a2a5ad0ecda2fe72f438",
+        "bytes": 1616,
+        "unit": "A1-U02",
+        "score": 10,
+        "verdict": "Acceptat după remedierea exactă a constatărilor.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 192,
+        "contexts": 116,
+        "proposal_hash": "bbcb9b00d609942cadf9e092845f933f4f0f014c7c2569bb8e547ef23a511e5a",
+        "context_hash": "add1fd2fafe8624b442e5ccce5fc140e1cc866e4413adc43624c17374445621b",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Doar U02 din noua bază, fără audio/live.",
+          "Nota se aplică pachetului de propuneri și contexte, nu coloanei originale sau importului global."
+        ]
+      },
+      {
+        "name": "A1-U02_propuneri_v004.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U02_propuneri_v004.audit_independent",
+        "sha256": "8454c67c18eb667baafb35897078168d9b1f232a94d771be884ef3c406cfa62f",
+        "bytes": 2354,
+        "unit": "A1-U02",
+        "score": 10,
+        "verdict": "Acceptat pentru192glose și116contexte în versiunea004; înlocuiește acceptarea pedagogică anterioară a versiunii003.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 192,
+        "contexts": 116,
+        "proposal_hash": "a7dd3500ac80da5cb570fa6d39a2d6b10afe67202e8fb20c3e04e40f8e83e62c",
+        "context_hash": "ef8dc64eb4dcfb8b7bae3be0b32edd330703c43fc9b257c1448d4c5bb8ee951b",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Doar U02 din noua bază, fără audio/live.",
+          "Nota se aplică pachetului de propuneri și contexte, nu coloanei originale sau importului global."
+        ]
+      },
+      {
+        "name": "A1-U03_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U03_existent_v001.audit",
+        "sha256": "ea5aa7ca9c1f01a66db195cf48e10f8841974b5b0bf1da70bc80ff1b4754320f",
+        "bytes": 31449,
+        "unit": "A1-U03",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 155,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 44,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U03_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U03_propuneri_v001.audit_independent",
+        "sha256": "7675e286cde95cdae2f0210200b616afafbdcc614ab7590516b8587cd77ec2a5",
+        "bytes": 8869,
+        "unit": "A1-U03",
+        "score": 8.8,
+        "verdict": "Necesită4patchuri corp și8patchuri context, inclusiv remedierea explicită a erorii didactice a sursei; nu finalizați la10 înainte de reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 155,
+        "contexts": 127,
+        "proposal_hash": "caa3aadb5fa54f557c4309a8218919887d201cf0756a8d0e0f0481ff44b850c6",
+        "context_hash": "978acadbeab10e15271449bb10764bb74d97abdd67b993d4468ee6c98b8060ee",
+        "findings": 4,
+        "context_findings": 8,
+        "scope": null,
+        "limitations": [
+          "Până la aplicarea și verificarea adaptării explicite, testul17 rămâne nevalidat.",
+          "Nu audio/live; numai lotul U03 și contextele declarate."
+        ]
+      },
+      {
+        "name": "A1-U03_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U03_propuneri_v002.audit_independent",
+        "sha256": "24805262c026578a3e4dd418f350ffd2edec9785e7b5c320c0e6c832972ef12f",
+        "bytes": 1880,
+        "unit": "A1-U03",
+        "score": 10,
+        "verdict": "Acceptat după verificarea exactă a tuturor remedierilor și a adaptării didactice.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 155,
+        "contexts": 127,
+        "proposal_hash": "6f9721f10fa68478c93cdb59038484cf5c380f0ec838ac0165b14c5e662bd99d",
+        "context_hash": "7bfc41d8cd7852b275d8c4654c2f1e06d49742bd448fe9e48d4753526f1ab7fa",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Numai U03 și127contexte, fără audio/live.",
+          "Nota se aplică pachetului corectat inclusiv adaptarea documentată, nu originalului și nu unui mapping global."
+        ]
+      },
+      {
+        "name": "A1-U04_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U04_existent_v001.audit",
+        "sha256": "e556e076d9528e49936d491abf0c5fd5ebe361d439e5d3851304bbbee9272ad5",
+        "bytes": 30408,
+        "unit": "A1-U04",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 181,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 42,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U04_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U04_propuneri_v001.audit_independent",
+        "sha256": "a42a8a017e239849ea09c81eae8dc6b4a67c71f8990298f13990239de270e229",
+        "bytes": 5805,
+        "unit": "A1-U04",
+        "score": 9.8,
+        "verdict": "Necesită3ajustări în corp și2în context, apoi reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 181,
+        "contexts": 130,
+        "proposal_hash": "3b36a452d4a56393fe64bef4151c609bf4902a89245e90a5da693b1742969685",
+        "context_hash": "36f75565864556f22236d45d7a9caee2b7cb1165f1a30f1232b637bda0aeb176",
+        "findings": 3,
+        "context_findings": 2,
+        "scope": null,
+        "limitations": [
+          "Numai U04, nu întregul workbook; fără audio sau integrare live.",
+          "Pachetul de contexte separă cele2roluri și nu permite import global."
+        ]
+      },
+      {
+        "name": "A1-U04_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U04_propuneri_v002.audit_independent",
+        "sha256": "dd65d4f6f596a02caf7d4dd04b96ad41e001018c57110475979a5b09d4b69bfd",
+        "bytes": 1857,
+        "unit": "A1-U04",
+        "score": 10,
+        "verdict": "Acceptat pentru cele181 glose și130contexte, cu separarea obligatorie a rolurilor.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 181,
+        "contexts": 130,
+        "proposal_hash": "acbd63c02a0156470f6ac5f31fc2062f76ca34d98eed8f735f9920ea71b5f80f",
+        "context_hash": "1440fdee26e251cd4039d15eb3b9f1b4a8aaa7a27e9e9f96790bedcd827ed2b4",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Numai U04, nu întregul workbook; fără audio sau integrare live.",
+          "Pachetul de contexte separă cele2roluri și nu permite import global."
+        ]
+      },
+      {
+        "name": "A1-U05_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U05_existent_v001.audit",
+        "sha256": "df875993d25f0b118a8ec37026ba0122d658b9a8c459dd516753e04a76061852",
+        "bytes": 30845,
+        "unit": "A1-U05",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 182,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 51,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U05_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U05_propuneri_v001.audit_independent",
+        "sha256": "13904291917ae39fa9b79faabedaa2d5876ac337194ba857adefbcf6dc2a9b09",
+        "bytes": 5652,
+        "unit": "A1-U05",
+        "score": 9.6,
+        "verdict": "Necesită4corecturi în corp și2contextuale, apoi reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 182,
+        "contexts": 107,
+        "proposal_hash": "dc64ad0379fad166fa329c4856ccabc97acf8145cb8d5462e801beba0051f888",
+        "context_hash": "cc30cf9487c2093019bac249f48fbb4b7ef0c2003cc42608f39da79d92e27b53",
+        "findings": 4,
+        "context_findings": 2,
+        "scope": null,
+        "limitations": [
+          "Numai U05 și contextele enumerate; fără audio, import sau aplicație live.",
+          "Glosa nu se importă global peste stimulii de învățare EN."
+        ]
+      },
+      {
+        "name": "A1-U05_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U05_propuneri_v002.audit_independent",
+        "sha256": "25b1aeae65cbe1da9b813c9fcf36048622de09735f393e9c6716552692dd5f4d",
+        "bytes": 1780,
+        "unit": "A1-U05",
+        "score": 10,
+        "verdict": "Acceptat pentru182glose și107contexte, cu păstrarea rolurilor și indiciilor necesare.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 182,
+        "contexts": 107,
+        "proposal_hash": "af94d385501c9787adbdaa31ffc83994a5f5bbe5705d5799ca3a52a19a0e5443",
+        "context_hash": "27849d0b6eaaa02b4e267855bd6dad433bc1c21f16e6feb663f1d54b243e188c",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Numai U05 și contextele enumerate; fără audio, import sau aplicație live.",
+          "Glosa nu se importă global peste stimulii de învățare EN."
+        ]
+      },
+      {
+        "name": "A1-U06_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U06_existent_v001.audit",
+        "sha256": "d6d31adebe1ac24d4779c7f587d7f4dfcdd75617719ccacc133be262ce0a8354",
+        "bytes": 24769,
+        "unit": "A1-U06",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 184,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 34,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U06_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U06_propuneri_v001.audit_independent",
+        "sha256": "d37fca7b2378b229684d25f30086ccf59bb6fcf82dfd213abb79faff60d3f4ab",
+        "bytes": 4427,
+        "unit": "A1-U06",
+        "score": 9.8,
+        "verdict": "Necesită1corectură în corp și2contextuale, apoi reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 184,
+        "contexts": 110,
+        "proposal_hash": "a60940d6bd961d65cf222804e2ee83b9bd930ac9acad46828eb64c3ee11563f3",
+        "context_hash": "7cc9581f5b25afb94f32fcb5d8090be2511ff6fe5409077287fbab005702eb1f",
+        "findings": 1,
+        "context_findings": 2,
+        "scope": null,
+        "limitations": [
+          "Numai cele184glose și110contexte, fără certificarea tuturor câmpurilor RO-only sau a altor apariții deduplicate.",
+          "Fără verificare audio/live; contextele au prioritate față de glosa globală."
+        ]
+      },
+      {
+        "name": "A1-U06_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U06_propuneri_v002.audit_independent",
+        "sha256": "9c8d9107d2040b766042533fa9473f66070fdb45eb55f3d5c80a59d86daa5371",
+        "bytes": 1856,
+        "unit": "A1-U06",
+        "score": 10,
+        "verdict": "Acceptat pentru184glose și110contexte; rolurile și limitele de acoperire sunt obligatorii.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 184,
+        "contexts": 110,
+        "proposal_hash": "69538e68731e1726251ea8996dfd8f6903e4f0536fe3dc7f04d90a158758e0ac",
+        "context_hash": "9c67d6729787e1c3ba20fc48f701e362de2806ae86f54398ffda224fd000aa73",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Numai cele184glose și110contexte, fără certificarea tuturor câmpurilor RO-only sau a altor apariții deduplicate.",
+          "Fără verificare audio/live; contextele au prioritate față de glosa globală."
+        ]
+      },
+      {
+        "name": "A1-U07_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U07_existent_v001.audit",
+        "sha256": "cd8aa3cf8ec31fe7a421724ca122118fa4506bcb778c3e82954646bd32c52f9f",
+        "bytes": 26766,
+        "unit": "A1-U07",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 189,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 38,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U07_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U07_propuneri_v001.audit_independent",
+        "sha256": "f09141b5de1e7a08e9aae3c58fb8b46a2b843e9d4a32b9203ffca6cb2125d71c",
+        "bytes": 4995,
+        "unit": "A1-U07",
+        "score": 9.3,
+        "verdict": "Necesită1corectură în corp și4contextuale, apoi reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 189,
+        "contexts": 107,
+        "proposal_hash": "4c931ad072e463e4689c1b847f9551f7363068da0cb42ed560ee559cb63ec3ab",
+        "context_hash": "9dfd3c3a10df2115baf5678c5d1d13f1e21a44c593ad1ccbc65fb3ed732d65c7",
+        "findings": 1,
+        "context_findings": 4,
+        "scope": null,
+        "limitations": [
+          "Numai189glose și107contexte; fără audio/live și fără certificarea câmpurilor RO-only neincluse.",
+          "Aplicarea corectă presupune prioritatea contextelor; coloana nu este mapare globală sigură."
+        ]
+      },
+      {
+        "name": "A1-U07_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U07_propuneri_v002.audit_independent",
+        "sha256": "86d6f524288c5d1687a9dc019331add7efba78077aab3810113532aba4f74b6e",
+        "bytes": 1893,
+        "unit": "A1-U07",
+        "score": 10,
+        "verdict": "Acceptat pentru189glose și107contexte; titlul rămâne distinct de întrebarea din carduri.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 189,
+        "contexts": 107,
+        "proposal_hash": "0f6031ee8a18f427fd3845f3a934686263c85b056e3d7de567b4b2563cdb7bd2",
+        "context_hash": "fc080787f218fb41e7d88f6ba94d6a47e404e1fc88e6ca8bb13ec8ea9fe33a9c",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Numai189glose și107contexte; fără audio/live și fără certificarea câmpurilor RO-only neincluse.",
+          "Aplicarea corectă presupune prioritatea contextelor; coloana nu este mapare globală sigură."
+        ]
+      },
+      {
+        "name": "A1-U08_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U08_existent_v001.audit",
+        "sha256": "01d7918e70ec9ebea1e612e3ebb4a21363107278d0ace1637a4924e424536e4d",
+        "bytes": 27008,
+        "unit": "A1-U08",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 180,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 42,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U08_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U08_propuneri_v001.audit_independent",
+        "sha256": "0f67472ce12fb0f43f9e6986c795c0dc03f4702941327e6c99b876f0c1087c08",
+        "bytes": 4356,
+        "unit": "A1-U08",
+        "score": 9.6,
+        "verdict": "Necesită3remedieri contextuale în rolul RO→DE, apoi reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 180,
+        "contexts": 104,
+        "proposal_hash": "71520c3676875ff89d9d6466f51aff38d601376bd728637ac28cabef20630cde",
+        "context_hash": "ba22e93c3ed5ee87ec848ba191b5ef911f469fb5c6719824554f80610451dc9d",
+        "findings": 0,
+        "context_findings": 3,
+        "scope": null,
+        "limitations": [
+          "Numai180glose și104contexte, nu toate câmpurile lecției.",
+          "Fără audio/import/live; contextele se aplică pe pointer și rol, nu global."
+        ]
+      },
+      {
+        "name": "A1-U08_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U08_propuneri_v002.audit_independent",
+        "sha256": "08bb0f29db220e39853a35d3f457cf5a81f00f4ea86048324ccb7b9f243f00a8",
+        "bytes": 2101,
+        "unit": "A1-U08",
+        "score": 10,
+        "verdict": "Acceptat pentru180glose și104contexte; distincția dintre trezire și ridicarea din pat este păstrată.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 180,
+        "contexts": 104,
+        "proposal_hash": "a6f5f56f6a9510b9d3cb2d822db4a7b3f2653af833d69a79f50ea6b9a3e861be",
+        "context_hash": "f5227454f07dbfe8beb6f2cd09a32871ee3aa0bddce0009d3536403c2a8c869f",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Numai180glose și104contexte, nu toate câmpurile lecției.",
+          "Fără audio/import/live; contextele se aplică pe pointer și rol, nu global."
+        ]
+      },
+      {
+        "name": "A1-U09_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U09_existent_v001.audit",
+        "sha256": "458b8666f98961d40ae447f5856c67201f8317762d756ad65d1821d36a8c2df5",
+        "bytes": 27815,
+        "unit": "A1-U09",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 173,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 44,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U09_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U09_propuneri_v001.audit_independent",
+        "sha256": "034280dada43e6a77fb0c5c1647a371bcf462abbfe78951ef370b72544ec9598",
+        "bytes": 2956,
+        "unit": "A1-U09",
+        "score": 9.7,
+        "verdict": "Necesită2corecturi contextuale, apoi reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 173,
+        "contexts": 113,
+        "proposal_hash": "dd2c4baf423515b3fbf760b3ba6270ec24d4e327f59dcf7eb2fdf051a024e296",
+        "context_hash": "5f76fc8eb9697b1f1e8a2d9de0221a26e0522a865c048ab531d41de4f04831e5",
+        "findings": 0,
+        "context_findings": 2,
+        "scope": null,
+        "limitations": [
+          "Numai173glose și113contexte; nu toate câmpurile RO-only sau toate aparițiile deduplicate.",
+          "Fără audio/live/import global."
+        ]
+      },
+      {
+        "name": "A1-U09_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U09_propuneri_v002.audit_independent",
+        "sha256": "89ee6fbd4b709e50864302b6483cb669e133719848ff863221ae6fa2752ef504",
+        "bytes": 1755,
+        "unit": "A1-U09",
+        "score": 10,
+        "verdict": "Acceptat pentru173glose și113contexte; limitele de acoperire se păstrează.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 173,
+        "contexts": 113,
+        "proposal_hash": "3af41fc34f47e672857afca0ac6910c793c02e827b1c8431fa9cc4a0d4b5e221",
+        "context_hash": "e7992782cdc3528ef0d92cb4457cf8e6ada9be64eadd7ceed06aaa2249a25cb5",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Numai173glose și113contexte; nu toate câmpurile RO-only sau toate aparițiile deduplicate.",
+          "Fără audio/live/import global."
+        ]
+      },
+      {
+        "name": "A1-U10_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U10_existent_v001.audit",
+        "sha256": "7c5a409e7df482bad3762fa6677b5f9659f757d8fdfb2ed6536174f529434757",
+        "bytes": 24769,
+        "unit": "A1-U10",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 187,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 33,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U10_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U10_propuneri_v001.audit_independent",
+        "sha256": "cf0122d508eccb65be7b8685689761645950d1be8672b0341240c13affd2ebde",
+        "bytes": 3983,
+        "unit": "A1-U10",
+        "score": 9.6,
+        "verdict": "Necesită3glose și1stimul contextual corectate, apoi reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 187,
+        "contexts": 109,
+        "proposal_hash": "77ee977273afaf2ad2124d548cb4370726070e24154daefeada69939618b848f",
+        "context_hash": "596b367b109dc87bb79ab1087e0e6223b4b8fd2afca364f29a610f0e146536b1",
+        "findings": 3,
+        "context_findings": 1,
+        "scope": null,
+        "limitations": [
+          "Numai187glose și109contexte, fără certificarea întregii lecții sau a câmpurilor RO-only neincluse.",
+          "Fără audio/live/import global."
+        ]
+      },
+      {
+        "name": "A1-U10_propuneri_v002.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U10_propuneri_v002.audit_independent",
+        "sha256": "ff9e4b14859f431593c5cd06400156129f470699272b21b77f398361274f1d74",
+        "bytes": 1892,
+        "unit": "A1-U10",
+        "score": 10,
+        "verdict": "Acceptat pentru187glose și109contexte; distractorii greșiți rămân numai în contextul testului.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 187,
+        "contexts": 109,
+        "proposal_hash": "8fa8ee4f6c0ff83997a99df32f5b2c7b1695bbd77d86634845233d9ded0b0fc3",
+        "context_hash": "576f07234e48d6aec9aecd249570102eb2469823a97518a6947cb3c75650fa3c",
+        "findings": 0,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": [
+          "Numai187glose și109contexte, fără certificarea întregii lecții sau a câmpurilor RO-only neincluse.",
+          "Fără audio/live/import global."
+        ]
+      },
+      {
+        "name": "A1-U11_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U11_existent_v001.audit",
+        "sha256": "f34cd2bbe047786980ca2d7e328e2386bb9d584e653412623a6469c1ec848b7b",
+        "bytes": 28100,
+        "unit": "A1-U11",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 192,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 44,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U11_propuneri_v001.audit_independent",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U11_propuneri_v001.audit_independent",
+        "sha256": "ff8cab6f95031cee926d23dd0cb36908b273c0776b1d159fda501547fcaba742",
+        "bytes": 4084,
+        "unit": "A1-U11",
+        "score": 9.8,
+        "verdict": "Necesită1clarificare în corp și2contextuale, apoi reaudit.",
+        "author": "auditor_RO_FR_ES_pentru_DE_AI",
+        "rows": 192,
+        "contexts": 104,
+        "proposal_hash": "004ef3934b073b4b39c840fdb00197b9a5e718169ccbeda43cd14d6171852f9c",
+        "context_hash": "435baa68a2af8aa51ec809435c0858314eaf1a965e2163aaff87ebe9aea8b4cf",
+        "findings": 1,
+        "context_findings": 2,
+        "scope": null,
+        "limitations": [
+          "Numai192glose și104contexte; fără toate câmpurile RO-only.",
+          "Fără audio/live/import global."
+        ]
+      },
+      {
+        "name": "A1-U12_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U12_existent_v001.audit",
+        "sha256": "81fc114a0aa407fb08235de1abd4de0c3493c57d5e4df355df91d30ac09fed2c",
+        "bytes": 26910,
+        "unit": "A1-U12",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 189,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 39,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U13_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U13_existent_v001.audit",
+        "sha256": "88708153feb4dbe29fc46facc1a7005e31e98f19f6f075b28a48b64df0986582",
+        "bytes": 26045,
+        "unit": "A1-U13",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 156,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 38,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U14_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U14_existent_v001.audit",
+        "sha256": "8ea25131d1f637b7f9037a2d58b9467f5d918d8d2a921ef915a31ca6c9f76c68",
+        "bytes": 26411,
+        "unit": "A1-U14",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 152,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 39,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      },
+      {
+        "name": "A1-U15_existent_v001.audit",
+        "path": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U15_existent_v001.audit",
+        "sha256": "63f3cf89c5d8f54495278c283694f2ea390d11a2acc1b6d0f2ee54f36366cdc1",
+        "bytes": 31824,
+        "unit": "A1-U15",
+        "score": null,
+        "verdict": "Necesită corecturi și audit independent; importul global al coloanei G rămâne nevalidat.",
+        "author": "agent_DE_control_initial",
+        "rows": 163,
+        "contexts": null,
+        "proposal_hash": null,
+        "context_hash": null,
+        "findings": 49,
+        "context_findings": 0,
+        "scope": null,
+        "limitations": []
+      }
+    ]
+  },
+  "file_integrity": {
+    "check": "Validitate JSON/JSONL, SHA256 și terminarea liniei; nu audit lingvistic nou.",
+    "incomplete_or_invalid": [],
+    "checked_files": 151
+  },
+  "in_progress": [
+    {
+      "task": "DE A1-U11",
+      "state": "Audit v001 complet salvat la9,8; constatări trimise autorului. Nu a fost făcut reauditul unei versiuni corectate de către acest agent înaintea opririi.",
+      "audit": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\_Lucru\\audit_multilingv_existent\\de\\A1-U11_propuneri_v001.audit_independent"
+    },
+    {
+      "task": "RO/FR/ES A1-U04 și următoarele",
+      "state": "Nu au fost începute de acest agent pe noua bază; U01–U03 încheiate conform auditurilor existente."
+    },
+    {
+      "task": "DE A1-U12 și următoarele",
+      "state": "Autorul a anunțat pachete salvate; acest agent nu le-a citit/auditat. Inventarul de fișiere stabilește ce există acum."
+    }
+  ],
+  "open_issues": [
+    {
+      "scope": "DE U11",
+      "issue": "MCQ retargetat despre lapte trebuie să specifice o cantitate nedeterminată, nu o porție: eine Milch poate fi valid ca porție. Auditul include și clarificarea opțională sie=eine Frau în r1929/SRS19, descrisă explicit ca îmbunătățire, nu eroare de acord."
+    },
+    {
+      "scope": "DE U14, neauditat",
+      "issue": "Autorul a semnalat warm coat→dicken Mantel la r2399 și propune warmen Mantel. Observație primită, neverificată independent."
+    },
+    {
+      "scope": "ES U02",
+      "issue": "Omisiunea de punctuație descoperită transversal a fost remediată în v003 și reacceptată10; auditul istoric v002 și suplimentul de suspendare sunt arhivate, nu se utilizează v002 ca final curent.",
+      "status": "rezolvat_in_v003"
+    },
+    {
+      "scope": "Acoperire",
+      "issue": "Scorurile10 acoperă exclusiv glosele și contextele enumerate, nu întregul workbook, toate câmpurile RO-only, audio, import sau aplicația live. Glosele nu se aplică global peste stimulii EN."
+    },
+    {
+      "scope": "RO-only neexportat",
+      "issue": "Exemple de probleme istorice în afara pachetelor noi: nota my tratat ca subiect U01, indicația /ŋ/ final în English U02. Nu sunt certificate de exportul nou și cer reconciliere separată la reluare."
+    }
+  ],
+  "resume_steps": [
+    "Reluare numai după o instrucțiune explicită a utilizatorului.",
+    "Citește checkpointul și verifică hashurile fișierelor curente înainte de orice modificare.",
+    "Consolidează numai pachetele cu audit10 pe exact hashurile existente și cu contextele obligatorii; root coordonează GitHub.",
+    "Reia DE U11 de la auditul existent și jurnalul autorului, apoi audit independent al pachetelor DE ulterioare.",
+    "Continuă RO/FR/ES de la U04, separat pe limbă, cu audit independent; nu reface U01–U03 acceptate.",
+    "Păstrează audituri și versiuni istorice în Arhiva + Audit fără suprascriere; originalul workbook rămâne intact."
+  ],
+  "interruption_assessment": {
+    "running_command_at_interruption": "Niciun apel de execuție al acestui agent nu mai era în curs; ultima arhivare a revenit cu exit_code0, apoi a fost trimis mesajul de stare.",
+    "unfinished_file_check": "Vezi incomplete_or_invalid; citirea este un control structural, fără avansarea traducerii.",
+    "historical_archive_root": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn\\Traduceri\\Arhiva + Audit",
+    "publication": "Acest agent nu a publicat pe GitHub; root arhivează și publică starea."
+  }
+}

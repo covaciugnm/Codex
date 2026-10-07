@@ -1,0 +1,23 @@
+{
+  "id": "01a0fcd6-7009-7d70-bf4c-f1ab07c20b1c",
+  "cwd": "\\\\?\\UNC\\192.168.100.151\\site-uri\\3dscan.eva-org.com",
+  "created_at": 1790948307,
+  "updated_at": 1790949555,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\",\"depth\":1,\"agent_path\":\"/root/app_marketing\",\"agent_nickname\":\"Raman\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+  "project": "3D.AppleScan",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a0fc12-eed4-7763-89a8-9dbc3f2d96aa",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1055199,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 31,
+  "message_count": 4,
+  "content_sha256": "f1c0e3172a585fda70fce2c36543d0e000bca9e93a6f91dc5ebb012e9da00dcb",
+  "files_copied": 10,
+  "references_not_copied": 3
+}

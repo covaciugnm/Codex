@@ -1,0 +1,23 @@
+{
+  "id": "01a11562-6693-7612-b468-3a4527223501",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026",
+  "created_at": 1791360132,
+  "updated_at": 1791360613,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Organizează proiectele noi",
+  "project_id": "7310b49a-fe03-4b49-b6de-1877255e0742",
+  "project": "FinantariRO",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 2717756,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 52,
+  "message_count": 7,
+  "content_sha256": "7febc2dcb1ff320bf1e0f0c5d23038bba7576b7a46c6497dd62e818e5b213a4d",
+  "files_copied": 1,
+  "references_not_copied": 0
+}

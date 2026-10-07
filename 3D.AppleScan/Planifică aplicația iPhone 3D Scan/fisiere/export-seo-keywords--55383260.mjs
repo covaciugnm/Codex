@@ -1,0 +1,6 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..');const catalog=JSON.parse(await readFile(path.join(root,'docs/usecase-catalog-ro.json'),'utf8'));
+const rows=[['language','usecase_id','category','title','keyword','landing_url','search_volume','status']];
+for(const lang of ['en','de','fr','es','ro','hu','bg']){const messages=JSON.parse(await readFile(path.join(root,`content/locales/${lang}.json`),'utf8'));for(const item of catalog.items){const title=messages[`usecase.${item.id}.title`];const keywords=messages[`usecase.${item.id}.keywords`]?.split('|').map(s=>s.trim());if(!title||keywords?.length!==3)throw Error('Missing complete translated keywords: '+lang+':'+item.id);for(const keyword of keywords)rows.push([lang,item.id,item.category,title,keyword,`https://3dscan.eva-org.com/uses?lang=${lang}#usecase-${item.id}`,'','proposed editorial phrase; volume not measured']);}}
+const csv=rows.map(row=>row.map(value=>'"'+String(value).replaceAll('"','""')+'"').join(';')).join('\r\n');await writeFile(path.join(root,'docs/SEO_KEYWORDS.csv'),'\ufeff'+csv);console.log(JSON.stringify({phrases:rows.length-1,languages:7,searchVolumes:'not_measured'}));

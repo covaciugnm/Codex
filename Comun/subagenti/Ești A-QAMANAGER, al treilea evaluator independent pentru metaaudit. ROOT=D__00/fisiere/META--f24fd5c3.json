@@ -1,0 +1,354 @@
+{
+  "schema_version": 2,
+  "deliverable_id": "ROM-001-G01",
+  "version_id": "r01",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/ROM-001-G01-r01.json",
+    "sha256": "07110637be555cb455727593ebdf9ef88de1f27c12b5a389f53e79544bd6cebe"
+  },
+  "reviewer_agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "reviewer_role": "A-QAMANAGER",
+  "audit_files": [
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.json",
+      "sha256": "93e06adbb643919124a08ea064c27acc033d6dd9ed6d6297d23b4ebc24b76096"
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.json",
+      "sha256": "afb03e8af99a9a550031b6b420434dc6e51a7b9d95db2afd702a2e0055a4243b"
+    }
+  ],
+  "supplemental_evidence_files": [
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+      "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2"
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/META-CONTROLES.json",
+      "sha256": "915a966c3fbf1c0cd71fe85b75ba929dca77af3e1e90e6c0de0dd8f78ba95d80"
+    },
+    {
+      "path": "04_INSTRUMENTE/README.md",
+      "sha256": "dadfc37630e3f294b3a70aefa9cb70dc8646a35c49105094bb3fc36283138d31"
+    },
+    {
+      "path": "03_MODELE/07_META_AUDIT.md",
+      "sha256": "0981ac9a42a94f643a44312fb9665fce9a34004e9e1794fcd8465716dade3d3f"
+    },
+    {
+      "path": "04_INSTRUMENTE/gatekeeper.py",
+      "sha256": "ad90fd517856e7d7b55d965598b4f776ea5d1098baa6f5a71518b51b0c63363b"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_QA_r02.json",
+      "sha256": "48d021151cc3a5fc0907540b166b7752f88932b74e9bdc809dd90da5f356b84d"
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.md",
+      "sha256": "5c63b92bdf53218c8ced39023da93db04c511e77248c715b48514dd99fd33ff0"
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE-CONTROLES.json",
+      "sha256": "8e29e4ef227ae926fafc4d00885ba01139b0901ca036515a21a9632e870bf379"
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/index.json",
+      "sha256": "73befab70d1266a41f79a339ce00eadb00d32efd57c5afdf9eb9ea7817c99823"
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/index.sha256",
+      "sha256": "f0328731f32221d8a54e71c9ccb2c3caf02020b6fa8ed1e4345e575b36c31d00"
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/provenienta.json",
+      "sha256": "d04ac45055e27b9f86fd238582bf7ac967b272baec54f6e98f7a494308493aeb"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-receipt-r01.json",
+      "sha256": "3848a0b3dc9c17b950852a9c3fbe3a009d8f98edc7f8226a278f6cbaa4dc8f96"
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+      "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc"
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/A-CANON-CONTROLES.json",
+      "sha256": "c1c72c28f4163cb5f30c2ec4c8483882da707cba2f9d18be2d4655ab92fd80bb"
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-primary/index.json",
+      "sha256": "7154b0175edd04438641ee381ac6b8bc08d5bd750eb994b4c0a72fed94d6c1a3"
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-primary/index.sha256",
+      "sha256": "bb7e5c5831e8f5e1337de713c277f84e250495e69b0e6cbd0a107379164b54bf"
+    },
+    {
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-primary/provenienta.json",
+      "sha256": "2a748e0c34f20946cbab185e63cfa06828700c9b52458368ed93b6b87273ac3a"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-PRIMARY-ARCHIVE-receipt-r01.json",
+      "sha256": "e41934762ee0b3b1c4f13f3411dcbfb6e12689a5c1daa6e353ffc3feaf9313d7"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-BEFORE-r01.md",
+      "sha256": "6194a544bd4689fca12725f121da5b63a14a00bbca3515b57ae19c4df0df5427"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-BEFORE-r01.json",
+      "sha256": "33a00cbcc4267fc83911ef0913a240c1868c0de28ec5823626d5591f25c8923b"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-BEFORE-MANAGER-r01.json",
+      "sha256": "d9b30731f7df64127d62e64b0506af4a01f5b45d7b22481ea81c24c337527e3b"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-PRIMARY-COMPLETE-r01.json",
+      "sha256": "756069b4eb997c9d4be5d6a3b3c73ae37995ffd39605673be14db9a911f8df0a"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_PRIMARY-r01.json",
+      "sha256": "d3e0441cbca7e3c0c1be4cda3dae0c375383526282fb33f51eb536d2849d2e4e"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_PRIMARY-VERIFICARE-r01.json",
+      "sha256": "c6998fa0bb453c1bbe3a3ee09e1ba970ced09e329c6493bff3a964a3fe294ec1"
+    },
+    {
+      "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_PRIMARY-ERRATUM-r01.md",
+      "sha256": "d4395c7374085f5059f355fe6b72ff6a2c31115883ef9394cad67a5f403bbe68"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-primary-r01/index.json",
+      "sha256": "0cd436185e82c6772e9b315e59bf14a4c347e503739077001b982902cfe48f1a"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-primary-r01/index.sha256",
+      "sha256": "a09921bb3405ae8ed9baac6c6a4486496360167aef65885df3725261549043d6"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-primary-r01/A-GOVERNANCE.jsonl",
+      "sha256": "fde2a1bfc857983b5d59dffb8f254bb63c1f623039cbe3071caeece521e92be7"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-primary-r01/A-CANON.jsonl",
+      "sha256": "fd262fcef312d86ae4620bd27719e9159270a79fa61b23bd53702e41973e498c"
+    }
+  ],
+  "checks": [
+    {
+      "id": "independence",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+          "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2",
+          "anchor": "#independenta"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/agents.json",
+          "sha256": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+          "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc",
+          "anchor": ":L48-L68"
+        },
+        {
+          "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+          "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc",
+          "anchor": ":L92-L112"
+        },
+        {
+          "path": "06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_QA_r02.json",
+          "sha256": "48d021151cc3a5fc0907540b166b7752f88932b74e9bdc809dd90da5f356b84d",
+          "anchor": ""
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+          "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2",
+          "anchor": "#acoperire"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+          "sha256": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc",
+          "anchor": ":L45-L84"
+        },
+        {
+          "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-CANON.jsonl",
+          "sha256": "7167e755c47e27ab00057282b0bfa77815035637dc937d84a2565c37d800a5f2",
+          "anchor": ":L137-L227"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META-CONTROLES.json",
+          "sha256": "915a966c3fbf1c0cd71fe85b75ba929dca77af3e1e90e6c0de0dd8f78ba95d80",
+          "anchor": ""
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "passed": false,
+      "evidence": [
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+          "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2",
+          "anchor": "#marcel"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+          "sha256": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc",
+          "anchor": ":L92"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+          "sha256": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab",
+          "anchor": ":L88-L98"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.md",
+          "sha256": "5c63b92bdf53218c8ced39023da93db04c511e77248c715b48514dd99fd33ff0",
+          "anchor": ":L76-L80"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#constatare"
+        }
+      ]
+    },
+    {
+      "id": "scoring",
+      "passed": false,
+      "evidence": [
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+          "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2",
+          "anchor": "#notare"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.json",
+          "sha256": "93e06adbb643919124a08ea064c27acc033d6dd9ed6d6297d23b4ebc24b76096",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.json",
+          "sha256": "afb03e8af99a9a550031b6b420434dc6e51a7b9d95db2afd702a2e0055a4243b",
+          "anchor": ""
+        },
+        {
+          "path": "00_CONDUCERE/RUBRICI.md",
+          "sha256": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd",
+          "anchor": ""
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r01.md",
+          "sha256": "f99d6af0b361750c844e9a319fde46df26e52dc51c97c95e6491e8ecc5b1ba2a",
+          "anchor": ":L18-L26"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META-CONTROLES.json",
+          "sha256": "915a966c3fbf1c0cd71fe85b75ba929dca77af3e1e90e6c0de0dd8f78ba95d80",
+          "anchor": ""
+        }
+      ]
+    },
+    {
+      "id": "closure",
+      "passed": false,
+      "evidence": [
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+          "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2",
+          "anchor": "#inchidere"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.json",
+          "sha256": "93e06adbb643919124a08ea064c27acc033d6dd9ed6d6297d23b4ebc24b76096",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.json",
+          "sha256": "afb03e8af99a9a550031b6b420434dc6e51a7b9d95db2afd702a2e0055a4243b",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#constatare"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.md",
+          "sha256": "5c63b92bdf53218c8ced39023da93db04c511e77248c715b48514dd99fd33ff0",
+          "anchor": ":L76-L80"
+        }
+      ]
+    },
+    {
+      "id": "version",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+          "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2",
+          "anchor": "#versiune"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+          "sha256": "ba39b749222f49ff5fb61008e5af874309facb0270d91b287dba3ff6ac7dbcf2",
+          "anchor": "#istoric"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META-CONTROLES.json",
+          "sha256": "915a966c3fbf1c0cd71fe85b75ba929dca77af3e1e90e6c0de0dd8f78ba95d80",
+          "anchor": ""
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-primary/index.json",
+          "sha256": "7154b0175edd04438641ee381ac6b8bc08d5bd750eb994b4c0a72fed94d6c1a3",
+          "anchor": ""
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-primary/provenienta.json",
+          "sha256": "2a748e0c34f20946cbab185e63cfa06828700c9b52458368ed93b6b87273ac3a",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.json",
+          "sha256": "93e06adbb643919124a08ea064c27acc033d6dd9ed6d6297d23b4ebc24b76096",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.json",
+          "sha256": "afb03e8af99a9a550031b6b420434dc6e51a7b9d95db2afd702a2e0055a4243b",
+          "anchor": ""
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "META-ROM-001-G01-r01-F01",
+      "severity": "high",
+      "status": "open",
+      "location": "05_AUDIT/ROM-001-G01/r01/A-GOVERNANCE.json:criteria[canon],findings,verdict; A-GOVERNANCE.md:L78; CANON_OPERATIONAL_r02.md:L92",
+      "description": "Responsabil: A-GOVERNANCE, 01a0d0ee-9f2d-77d0-8603-7aa9969772af. Raportul pozitiv acordă canon=967 și PASS/findings[] deși O:L92 asociază Marcel hotelului, contrar F:L92 și H P128-P160/P1366/P1380-P1385/P1409. D:L79-L83 decide vârsta, nu afilierea. Referința largă O:L8-L170 și afirmația MD:L78 de absență a unui defect material nu susțin acceptarea acestei regresii. Defect de raport afectând evidence/scoring/closure, nu simplă divergență între specialiști.",
+      "remediation": "Păstrați raportul r01 și produsul evaluate nemodificate. A-GOVERNANCE va emite un raport nou pentru versiunea explicit depusă, documentând omisiunea și evaluând efectiv regresia; nicio schimbare administrativă de scor, hash ori verdict. T01: confruntați O/F/H la localizările de mai sus și toate cele 10 apariții Marcel în cele 11 artefacte r01; verificați separat orice remediere nouă. T02: motivați fiecare criteriu potrivit rubricii fixe; în starea r01, canon=967/PASS fără constatare nu sunt susținute, fără impunerea notei celuilalt auditor. T03: MD/JSON trebuie să concorde, să păstreze istoricul și să nu închidă ROM-001-G01-A-CANON-F01 în locul titularului; produsul rămâne RETURN până la remediere și retest în versiune nouă. T04: fixați contractul, toate intrările, suplimentele și raportul nou la SHA-256; QA retestează această măsură pe dovezile noi. Fără meta recursiv sau editarea rapoartelor istorice."
+    }
+  ],
+  "verdict": "RETURN",
+  "reviewed_at": "2026-09-24T11:12:09+03:00"
+}

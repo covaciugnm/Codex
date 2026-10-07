@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "access_date": "2026-10-02",
+  "sources": [
+    {"id":"MGR-S01","title":"NIST Metrological Traceability Frequently Asked Questions and Policy","url":"https://www.nist.gov/metrology/metrological-traceability","type":"primary_institutional_guidance","access_date":"2026-10-02","status":"read_full_page","summary":"Trasabilitatea este proprietatea rezultatului și cere un lanț documentat de calibrări și incertitudini; un instrument calibrat nu este suficient pentru orice utilizare."},
+    {"id":"MGR-S02","title":"NIST Technical Note 1297 Guidelines for Evaluating and Expressing the Uncertainty of NIST Measurement Results","url":"https://www.nist.gov/document/tn1297spdf","type":"public_technical_guide","access_date":"2026-10-02","status":"read_and_downloaded","summary":"Cadru pentru evaluarea și exprimarea incertitudinii; folosit ca reper metodologic, fără a transfera o precizie numerică la iPhone.","local_copy":"07_surse/fisiere_publice/NIST_TN1297.pdf","reuse_note":"Publicație tehnică NIST păstrată pentru documentare cu atribuire; nu implică recomandarea sau certificarea aplicației de către NIST."},
+    {"id":"MGR-S03","title":"Apple LiDAR Sensor for 3D Surveying Tests and Results in the Cultural Heritage Domain","url":"https://www.mdpi.com/2072-4292/14/17/4157","type":"research_article","access_date":"2026-10-02","status":"full_text_blocked_http_429","summary":"Identificat în căutare; lectura integrală rămâne de făcut. Nu susține pragurile numerice propuse în dosar."},
+    {"id":"MGR-S04","title":"Photogrammetric and LiDAR Scanning with iPhone 13 Pro Accuracy Precision and Field Application on Hazelnut Trees","url":"https://www.mdpi.com/1424-8220/25/18/5629","type":"research_article","access_date":"2026-10-02","status":"full_text_blocked_http_429","summary":"Identificat în căutare; lectura integrală rămâne de făcut. Nu este tratat drept validare a aplicației sau a tuturor claselor de obiecte."}
+  ]
+}

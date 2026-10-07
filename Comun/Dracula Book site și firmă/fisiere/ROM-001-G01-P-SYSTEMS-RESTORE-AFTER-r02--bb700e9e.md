@@ -1,0 +1,9 @@
+# Mandat pregătit — recuperare reală AFTER G01 r02
+Statut: NEACTIVAT. P-SYSTEMS 01a0d0d9-1f95-7211-8093-c26e28e6ebee. ROOT D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000.
+Începe numai la mesajul explicit care identifică snapshotul AFTER final, SHA256 al indexului și rezultatul porții înghețat. Nu anticipa PASS; o recuperare fidelă poate reproduce RETURN.
+Citește protocolul și README, configurația rundei și recipisa. Verifică index/sidecar/recipisă, fiecare cale, hash și dimensiune înaintea copierii. Folosește un director NOU unic în 09_RECUPERARI, verificând încadrarea absolută; nu șterge și nu suprascrie nimic. Nu modifica atelierul, sursele, rapoartele ori instrumentele.
+Copiază efectiv numai conținutul snapshot/sources, cu structura relativă intactă. Nu completa din fișierele live. Manifestele speciale și result.json rămân probe în snapshot, nu se confundă cu fișierele sources. Verifică fiecare copie și inventarul: lipsuri/extras/reparse/cache, dimensiuni/amprente și număr real.
+Rulează instrumentul RECUPERAT pe rădăcina recuperată, Python -B, UTF8, propagând explicit exitul. Compară obiectul întreg al rezultatului cu result.json înghețat, nu cu registrul live ulterior; raportează exact orice diferență. Nu numi rehashul originalului recuperare. Recontrolează integritatea snapshotului și a copiilor după execuție.
+Scrieri permise: noul director recuperat; 06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r02.md/.json. Folosește apply_patch pentru rapoarte; copiere nativă exactă după verificarea căilor. Nu edita sistemul aprobat și nu crea subagenți.
+Raport: data/fus, intrări/index, metoda, fișiere/bytes reale, lista rezultatelor sau diferențelor, rezultat/exit real și egalitatea semantică, limite și director recuperat. Fără certificare editorială, WORM ori backup extern. Predă fișiere/hashuri și confirmă scrieri oprite. Numai managerul consemnează apoi acceptarea cumulativă dacă toate condițiile sunt satisfăcute.
+

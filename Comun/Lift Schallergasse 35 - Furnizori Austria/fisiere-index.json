@@ -1,0 +1,187 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/2c3d4d0a-14d6-4401-beb4-ec8078b525d8/tool-results",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/2c3d4d0a-14d6-4401-beb4-ec8078b525d8/tool-results/bp72hdtfo.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/bp72hdtfo--2f872487.txt",
+    "bytes": 36590,
+    "sha256": "2d66eef132ee82cc76a657ee27db7d32b7e8590ee1242bcb5fb79ebaaf8ec22c"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/2c3d4d0a-14d6-4401-beb4-ec8078b525d8/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\2c3d4d0a-14d6-4401-beb4-ec8078b525d8\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1789998695191.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_draft--cf19d62b.txt",
+    "bytes": 72745,
+    "sha256": "59ce6c59df0b50f72dd4fc1dc5a516b8ea4ced0fe7b70d539d774948bd25d263"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\2c3d4d0a-14d6-4401-beb4-ec8078b525d8\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790005668927.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_draft--b84dca12.txt",
+    "bytes": 80902,
+    "sha256": "d7f8c34e57fc18d9d4cc374c23d1e9a07b6dde6ebc9911bc9abad99d33d99c52"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\2c3d4d0a-14d6-4401-beb4-ec8078b525d8\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790005696828.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_draft--a51df507.txt",
+    "bytes": 100580,
+    "sha256": "24389d0d5964e2f3fdaf9ddf88943c43453e2dfd0b38a2699b10141919f6b0c8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\2c3d4d0a-14d6-4401-beb4-ec8078b525d8\\tool-results\\webfetch-1789991306048-qestdf.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/webfetch-1789991306048-qestdf--a3764010.pdf",
+    "bytes": 5001018,
+    "sha256": "94d37f9e4e33f4794f0c9de63794f1f46c417ed3a2ca63b25a217d02e7d11182"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\2c3d4d0a-14d6-4401-beb4-ec8078b525d8\\\\tool-results\\\\bp72hdtfo.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/bp72hdtfo--2f872487.txt",
+    "bytes": 36590,
+    "sha256": "2d66eef132ee82cc76a657ee27db7d32b7e8590ee1242bcb5fb79ebaaf8ec22c"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/03. Executant (Bauleitung + Ausfuehrung)/Cereri oferta (Angebotsanfragen)/05_LEBE Bau GmbH/Email-Text_Anfrage_GU_2026-09-08_v2.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Email-Text_Anfrage_GU_2026-09-08_v2--719ee8c7.txt",
+    "bytes": 8123,
+    "sha256": "f2879132bc12fd2744a543c231299c9dd42c0a466d831328e77e4953ae4cd3f9"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/07. Lift (Aufzug)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\**\\Kaufvertrag_Schallergasse_35_signiert.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\01. Behoerden + Eigentum\\01. Baubescheid + genehmigte Plaene\\P2041_C_220404_GENEHMIGUNG+GESCHOSSE_A3.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/P2041_C_220404_GENEHMIGUNG+GESCHOSSE_A3--1d4e0e78.pdf",
+    "bytes": 5786212,
+    "sha256": "78ed5be0f9d7747751878d2fd31356d8eb670e50388888068ffb5a4742602d8f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\01. Behoerden + Eigentum\\01. Baubescheid + genehmigte Plaene\\Schallergasse_35_Baubescheid.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Schallergasse_35_Baubescheid--2f62883f.pdf",
+    "bytes": 2984197,
+    "sha256": "9e5e1c9dcac6116d0b00d9d1ac9e240dbd8d312e10a2b426b3ffd1205ceb1058"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\03. Einreichplanung - Planwechsel\\01. Architektur",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\07. Lift (Aufzug)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\07. Lift (Aufzug)\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\07. Lift (Aufzug)\\00. Cerere oferta (Angebotsanfrage)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\07. Lift (Aufzug)\\01. Firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\07. Lift (Aufzug)\\Raport Lift - Schallergasse 35 - 2026-09-21.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport Lift - Schallergasse 35 - 2026-09-21--16df49bf.docx",
+    "bytes": 52714,
+    "sha256": "6f79aad79ba29358f914479dfef3d44a99e83811ecd630239b637614f6bdcdfc"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\07. Lift (Aufzug)\\\\Raport Lift - Schallergasse 35 - 2026-09-21.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport Lift - Schallergasse 35 - 2026-09-21--16df49bf.docx",
+    "bytes": 52714,
+    "sha256": "6f79aad79ba29358f914479dfef3d44a99e83811ecd630239b637614f6bdcdfc"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://liftmanager.at/aufzug-kosten-oesterreich/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://skylinebau.com/aufzug-einbauen-wien/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.daibau.at/baukostenrechner/aufzuege",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.kone.at/bestandsgebaeude/aufzug-nachtraeglich-einbauen/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.otis.com/de/at/produkte/aufzugsserie-gen3-gen360",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.schindler.at/content/dam/website/at/docs/schindler-3000-aufzug-planungsdaten.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.schmitt-aufzuege.at/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.tkelevator.com/at-de/produkte/aufzuege/synergy-200/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.vestner.de/neuanlagen-aufzuegefahrtreppen/advance5/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.weigl.at/produkte/personenaufzuege/personenaufzuege-standard",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "mailto:office@ac-wohnart.at",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

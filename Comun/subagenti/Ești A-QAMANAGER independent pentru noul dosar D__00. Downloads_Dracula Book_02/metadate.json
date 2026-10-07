@@ -1,0 +1,23 @@
+{
+  "id": "01a0e5dd-dce7-76a2-843a-01bf3cbe9c0a",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790562917,
+  "updated_at": 1790565305,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a0d24f-a0c9-7482-b766-52c86c55aba7\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Dalton\",\"agent_role\":null}}}",
+  "title": "Ești A-QAMANAGER independent pentru noul dosar D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002; nu ai produs livrabilele. Prima sarcină este DOAR calibrarea înainte de audit: citește 01_SURSE/originale/S06.md (set TEST r02) și S03.json/S04.md pentru prag. Răspunde la C01–C09 și cele două cazuri specifice rolului A-QAMANAGER, cu verdict exact așteptat, motiv propriu și trimitere. Scrie numai 07_AUDIT/calibrare/A-QAMANAGER.json și opțional .md; include agent_id real dacă îl cunoști altfel lasă null pentru înscriere de coordonator fără a inventa. 11/11 obligatoriu, aceasta este calibrare deschisă, nu audit și nu scor literar. Păstrează identitatea pentru auditul care urmează pe copie fixă. Nu evalua producția înainte de mandatul următor. Python explicit C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe; PowerShell OutputEncoding UTF8, workdir C:/Users/User. Sandbox helper a eșuat la părinte, exec require_escalated justificat doar pentru acest dosar dacă necesar. Nu modifica sursele sau alte dosare. Final scurt.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a0d24f-a0c9-7482-b766-52c86c55aba7",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 818243,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 22,
+  "message_count": 21,
+  "content_sha256": "e8ed5a9481663fd63051ddcad68336154eabab4d99818a3083c4a77f43bc4e4e",
+  "files_copied": 4,
+  "references_not_copied": 0
+}

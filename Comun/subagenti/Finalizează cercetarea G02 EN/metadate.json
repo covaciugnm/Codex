@@ -1,0 +1,23 @@
+{
+  "id": "01a0d34d-6e26-7991-bead-af08605017a5",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790251462,
+  "updated_at": 1790251635,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Popper\",\"agent_role\":null}}}",
+  "title": "Finalizează cercetarea G02 EN",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1882274,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 21,
+  "message_count": 4,
+  "content_sha256": "bba1f5f141a9623f54f7ed8751c6fd6243b1de5744219ca61f60f1a6b80cd9b4",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

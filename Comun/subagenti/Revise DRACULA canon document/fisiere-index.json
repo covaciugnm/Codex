@@ -1,0 +1,73 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/MANIFEST.json",
+    "status": "copiat",
+    "saved_path": "fisiere/MANIFEST--1dd7a537.json",
+    "bytes": 5670,
+    "sha256": "4c8042eb8a8e61836f74447cf781b95b35191ba052c0e6f099115ac5eb0431a4"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/RAPORT_REVIZIE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RAPORT_REVIZIE--3ef9871a.md",
+    "bytes": 11265,
+    "sha256": "e92499901de28b072c5dd481ce0422b5a0b17305d54949308a3137d09fd54495"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/predat/00_CANON_NUCLEU.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00_CANON_NUCLEU--d2852dc1.md",
+    "bytes": 168639,
+    "sha256": "243630e9071df7c7ee15cbf9f079fdac69f1d292950daab42cf927f36aa9ab26"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS/00_STUDIO/audit/G0-CANON-v4/REV_20260924_120416/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\cautari_nume.json",
+    "status": "copiat",
+    "saved_path": "fisiere/cautari_nume--ffb95028.json",
+    "bytes": 10975,
+    "sha256": "ead49fcdb46e56a2786a99b9bbbcaf9f8436632946f40d7a45313787c599cd73"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\dovezi.py",
+    "status": "copiat",
+    "saved_path": "fisiere/dovezi--617c73ce.py",
+    "bytes": 22688,
+    "sha256": "6370a77b5119d9b0f92a4198d203fa6684afbcd808a0cbd02dadbcddc3dcce25"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\finalizare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalizare--7cde3928.py",
+    "bytes": 4881,
+    "sha256": "d059883de57364f2ef9d8be6599da157c9a8df7f8e0b7e5043963ac7d1ea4b2c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\revizie.py",
+    "status": "copiat",
+    "saved_path": "fisiere/revizie--ad2d6fcd.py",
+    "bytes": 13958,
+    "sha256": "95d0294f3de684acabfbcc421f9c63209a2174f1ced3e92a54d6c08d25672b6d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\verifica.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verifica--ddfb5418.py",
+    "bytes": 10586,
+    "sha256": "e81972764defce30e7d9775d028303f5d55d3f7daa1ea34150c120c5a050d56c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\verifica_url.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verifica_url--49fd5c48.py",
+    "bytes": 1314,
+    "sha256": "1af7231cc5f65d6ee562600239d383134dc60e4b12116cd75ed1fafad5d394d3"
+  },
+  {
+    "source_reference": "https://www.college-optometrists.org/the-british-optical-association-museum/history-fashion-sunglasses",
+    "status": "referinta_externa_necopiata"
+  }
+]

@@ -1,0 +1,1050 @@
+{
+ "de": [
+  {
+   "src": "ro",
+   "text": "Doriți un desert? Avem înghețată. 🍨",
+   "ctx": "Lecții A1 / flow.guided[6].evaRo",
+   "en": "Would you like a dessert? We have ice cream. 🍨",
+   "id": 0,
+   "tr": "Möchtest du eine Süßigkeit? Wir haben Eis. 🍨"
+  },
+  {
+   "src": "ro",
+   "text": "Fă la ___ la colț. (->)",
+   "ctx": "Lecții A1 / test.items[7].questionRo",
+   "en": "Turn ___ at the corner. (->)",
+   "id": 1,
+   "tr": "Mache eine ___ an der Ecke. (->)"
+  },
+  {
+   "src": "en",
+   "text": "I'm going to + loc/verb. by + transport. Don't forget your… Have a good trip!",
+   "ctx": "Lecții A1 / texts[6].hint / None",
+   "id": 2,
+   "tr": "I'm going to + Ort/Verb. by + Transportmittel. Vergiss nicht deine… Gute Reise!"
+  },
+  {
+   "src": "ro",
+   "text": "Trei — doi frați și o soră.",
+   "ctx": "Lecții A1 / comprehension[3].aRo",
+   "en": "Three — two brothers and one sister.",
+   "id": 3,
+   "tr": "Drei – zwei Brüder und eine Schwester."
+  },
+  {
+   "src": "ro",
+   "text": "Ce face Sara seara?",
+   "ctx": "Lecții A2 / listening.items[2].qRo",
+   "en": "What does Sara do in the evening?",
+   "id": 4,
+   "tr": "Was macht Sara abends?"
+  },
+  {
+   "src": "ro",
+   "text": "Trebuie să mă trezesc devreme în fiecare zi.",
+   "ctx": "Lecții A2 / pronunciation.drillSentences[1].ro",
+   "en": "I have to get up early every day.",
+   "id": 5,
+   "tr": "Ich muss jeden Tag früh aufstehen."
+  },
+  {
+   "src": "ro",
+   "text": "Bine! Pune-mi o întrebare: „Do you have ___ eggs?”",
+   "ctx": "Lecții A2 / flow.guided[3].evaRo",
+   "en": "Good! Ask me a question: 'Do you have ___ eggs?'",
+   "id": 6,
+   "tr": "Gut! Stelle mir eine Frage: „Do you have ___ eggs?”"
+  },
+  {
+   "src": "en",
+   "text": "running",
+   "ctx": "Lecții A2 / tests[7].answer / cloze",
+   "id": 7,
+   "gloss": {
+    "running": [
+     "laufend",
+     "Versuch",
+     "Rennen"
+    ]
+   },
+   "tr": "laufend"
+  },
+  {
+   "src": "ro",
+   "text": "O să fiu obosit mâine dacă mă culc târziu.",
+   "ctx": "Lecții B1 / flow.guided[4].modelRo",
+   "en": "I'll be tired tomorrow if I go to bed late.",
+   "id": 8,
+   "tr": "Ich werde morgen müde sein, wenn ich spät ins Bett gehe."
+  },
+  {
+   "src": "ro",
+   "text": "să alegi pronumele relativ potrivit: pentru persoane, pentru lucruri, de posesie, de loc sau de timp",
+   "ctx": "Lecții B1 / intro.goals[2].ro",
+   "en": "choose the right pronoun: who / which / whose / where / when",
+   "id": 9,
+   "tr": "das passende Relativpronomen zu wählen: für Personen, für Dinge, für Besitz, für Ort oder für Zeit"
+  },
+  {
+   "src": "ro",
+   "text": "already în poziție de mijloc",
+   "ctx": "Lecții B1 / srs[16].note",
+   "en": null,
+   "id": 10,
+   "tr": "already in mittlerer Position"
+  },
+  {
+   "src": "ro",
+   "text": "a reduce",
+   "ctx": "Lecții B1 / vocab[45].ro",
+   "en": "reduce",
+   "id": 11,
+   "gloss": {
+    "reduce": [
+     "reduzieren",
+     "verkleinern",
+     "vermindern"
+    ]
+   },
+   "tr": "reduzieren"
+  },
+  {
+   "src": "ro",
+   "text": "tuns / tunsoare",
+   "ctx": "Lecții B2 / vocab[46].ro",
+   "en": "haircut",
+   "id": 12,
+   "gloss": {
+    "haircut": [
+     "Haarschnitt",
+     "Frisur",
+     "Stutzen"
+    ]
+   },
+   "tr": "Haarschnitt / Frisur"
+  },
+  {
+   "src": "ro",
+   "text": "L-am început în 2021.",
+   "ctx": "Lecții B2 / flow.guided[3].modelRo",
+   "en": "I started it in 2021.",
+   "id": 13,
+   "tr": "Ich habe es 2021 begonnen."
+  },
+  {
+   "src": "ro",
+   "text": "Translate into English: Până să ajung eu, ei plecaseră deja.",
+   "ctx": "Lecții B2 / test.items[19].question",
+   "en": null,
+   "id": 14,
+   "tr": "Übersetze ins Englische: Până să ajung eu, ei plecaseră deja."
+  },
+  {
+   "src": "ro",
+   "text": "pană de curent",
+   "ctx": "Lecții B2 / vocab[41].ro",
+   "en": "power cut",
+   "id": 15,
+   "gloss": {
+    "power cut": [
+     "Stromausfall",
+     "Stromunterbrechung"
+    ]
+   },
+   "tr": "Stromausfall"
+  },
+  {
+   "src": "ro",
+   "text": "Exprimi preferințe cu „would rather / would sooner”, alegând corect infinitivul sau trecutul (cel puțin 4 din 5 corecte).",
+   "ctx": "Lecții C1 / intro.goals[2].ro",
+   "en": "State preferences with 'would rather / would sooner', choosing infinitive or past tense correctly (≥4 out of 5 correct).",
+   "id": 16,
+   "tr": "Präferenzen mit „would rather / would sooner“ ausdrücken und dabei korrekt zwischen Infinitiv und Präteritum wählen (mindestens 4 von 5 richtig)."
+  },
+  {
+   "src": "en",
+   "text": "Admittedly",
+   "ctx": "Lecții C1 / cloze[1].back / cloze",
+   "id": 17,
+   "gloss": {
+    "Admittedly": [
+     "zugegebenermaßen",
+     "freilich",
+     "eingestandenermaßen"
+    ]
+   },
+   "tr": "zugegebenermaßen"
+  },
+  {
+   "src": "ro",
+   "text": "încă nu s-a decis / rămâne de văzut",
+   "ctx": "Lecții C1 / vocab[43].ro",
+   "en": "the jury is still out",
+   "id": 18,
+   "tr": "ist noch nicht entschieden / bleibt abzuwarten"
+  },
+  {
+   "src": "ro",
+   "text": "-ure e neaccentuat: failure /ˈfeɪljə/, departure /dɪˈpɑːtʃə/.",
+   "ctx": "Lecții C1 / pronunciation.targets[4].tip",
+   "en": null,
+   "id": 19,
+   "tr": "-ure ist unbetont: failure /ˈfeɪljə/, departure /dɪˈpɑːtʃə/."
+  },
+  {
+   "src": "ro",
+   "text": "Formulează o replică rapidă concesiv-adversativă (EN) la afirmația: „Homework is pure busywork.” (folosește o concesie + un adversativ + o contra-teză)",
+   "ctx": "Lecții C2 / test.items[22].questionRo",
+   "en": "Compose a quick concessive-adversative retort in English to the statement: „Homework is pure busywork.” (use a concession + an adversative + a counter-thesis)",
+   "id": 20,
+   "tr": "Formuliere eine schnelle konzedierend-gegenstellende Replik (EN) auf die Aussage: „Homework is pure busywork.” (verwende eine Konzession + ein Adversativ + eine Gegenargumentation)"
+  },
+  {
+   "src": "ro",
+   "text": "anaforă — reluarea printr-un pronume a unui element menționat anterior",
+   "ctx": "Lecții C2 / srs[1].back",
+   "en": null,
+   "id": 21,
+   "tr": "Anapher – die Wiederholung eines zuvor genannten Elements durch ein Pronomen"
+  },
+  {
+   "src": "ro",
+   "text": "deducție rezonabilă",
+   "ctx": "Lecții C2 / srs[3].note",
+   "en": null,
+   "id": 22,
+   "tr": "vernünftige Schlussfolgerung"
+  },
+  {
+   "src": "ro",
+   "text": "„This sentence is false.” Enunțul care se referă la sine și nu poate fi nici adevărat, nici fals, ilustrează:",
+   "ctx": "Lecții C2 / test.items[4].questionRo",
+   "en": "„This sentence is false.” The statement that refers to itself and can be neither true nor false illustrates:",
+   "id": 23,
+   "tr": "„This sentence is false.” Der Satz, der auf sich selbst Bezug nimmt und weder wahr noch falsch sein kann, illustriert:"
+  },
+  {
+   "src": "en",
+   "text": "Reacting to every competitor announcement risks ___.",
+   "ctx": "Discuții / tests[3].question / mc",
+   "id": 24,
+   "tr": "Auf jede Ankündigung eines Wettbewerbers zu reagieren, birgt das Risiko von ___."
+  },
+  {
+   "src": "en",
+   "text": "Tomorrow I am going to cook fish.",
+   "ctx": "Discuții / tests[10].answer / translate-ro-en",
+   "id": 25,
+   "tr": "Morgen werde ich Fisch kochen."
+  },
+  {
+   "src": "en",
+   "text": "Life in the countryside is much ___ stressful than life in the city.",
+   "ctx": "Discuții / tests[6].question / gap",
+   "id": 26,
+   "tr": "Das Leben auf dem Land ist viel ___ stressiger als das Leben in der Stadt."
+  },
+  {
+   "src": "ro",
+   "text": "Ar trebui să submineze încrederea în rezultate anume, întărind în același timp încrederea în proces, fiindcă criza a fost descoperită chiar de știință. Comunicarea publică a eșuat pentru că rezultatele au fost prezentate ca certitudini, nu ca estimări provizorii. Lecția este că exagerarea, nu eroarea, este cea care distruge credibilitatea.",
+   "ctx": "Discuții / None",
+   "en": null,
+   "id": 27,
+   "tr": "Es sollte das Vertrauen in bestimmte Ergebnisse untergraben und gleichzeitig das Vertrauen in den Prozess stärken, da die Krise von der Wissenschaft selbst entdeckt wurde. Die öffentliche Kommunikation ist gescheitert, weil die Ergebnisse als Gewissheiten und nicht als vorläufige Schätzungen präsentiert wurden. Die Lektion ist, dass die Übertreibung, nicht der Fehler, die Glaubwürdigkeit zerstört."
+  },
+  {
+   "src": "ro",
+   "text": "O programare neatentă poate deteriora piesele mecanice.",
+   "ctx": "Meserii / None",
+   "en": null,
+   "id": 28,
+   "tr": "Eine unachtsame Programmierung kann die mechanischen Teile beschädigen."
+  },
+  {
+   "src": "ro",
+   "text": "Acest modul fotovoltaic are o fisură în sticlă.",
+   "ctx": "Meserii / None",
+   "en": null,
+   "id": 29,
+   "tr": "Dieses Photovoltaikmodul hat einen Riss im Glas."
+  },
+  {
+   "src": "ro",
+   "text": "pătrundere",
+   "ctx": "Meserii / None",
+   "en": null,
+   "id": 30,
+   "tr": "Durchdringung"
+  },
+  {
+   "src": "en",
+   "text": "împământare",
+   "ctx": "Meserii / tests[2].answer / en-ro",
+   "id": 31,
+   "tr": "Erdung"
+  },
+  {
+   "src": "ro",
+   "text": "a crea contrast",
+   "ctx": "Hobby / None",
+   "en": null,
+   "id": 32,
+   "tr": "einen Kontrast schaffen"
+  },
+  {
+   "src": "ro",
+   "text": "Codul vestimentar mă ajută să aleg ce să port.",
+   "ctx": "Hobby / None",
+   "en": null,
+   "id": 33,
+   "tr": "Der Dresscode hilft mir, zu entscheiden, was ich anziehe."
+  },
+  {
+   "src": "ro",
+   "text": "Numește patru legume de pe masă și spune care este cea mai mare.",
+   "ctx": "Hobby / None",
+   "en": null,
+   "id": 34,
+   "tr": "Nenne vier Gemüsesorten auf dem Tisch und sage, welche die größte ist."
+  },
+  {
+   "src": "ro",
+   "text": "Materialul pare neted.",
+   "ctx": "Hobby / None",
+   "en": null,
+   "id": 35,
+   "tr": "Das Material fühlt sich glatt an."
+  },
+  {
+   "src": "ro",
+   "text": "negru",
+   "ctx": "Kids / None",
+   "en": null,
+   "id": 36,
+   "gloss": {
+    "negru": [
+     "schwarz",
+     "Neger"
+    ]
+   },
+   "tr": "schwarz"
+  },
+  {
+   "src": "ro",
+   "text": "Trofeul este auriu.",
+   "ctx": "Kids / None",
+   "en": null,
+   "id": 37,
+   "tr": "Der Pokal ist golden."
+  },
+  {
+   "src": "ro",
+   "text": "Ascultă și apasă.",
+   "ctx": "Kids / None",
+   "en": null,
+   "id": 38,
+   "tr": "Höre zu und drücke."
+  },
+  {
+   "src": "ro",
+   "text": "Scriu cu pixul.",
+   "ctx": "Kids / None",
+   "en": null,
+   "id": 39,
+   "tr": "Ich schreibe mit dem Kugelschreiber."
+  },
+  {
+   "src": "ro",
+   "text": "deget",
+   "ctx": "Songs / None",
+   "en": null,
+   "id": 40,
+   "gloss": {
+    "deget": [
+     "Finger",
+     "Zehe",
+     "Daumen"
+    ]
+   },
+   "tr": "Finger"
+  },
+  {
+   "src": "ro",
+   "text": "Luni mă întorc la școală,",
+   "ctx": "Songs / None",
+   "en": null,
+   "id": 41,
+   "tr": "Montag gehe ich zurück zur Schule,"
+  },
+  {
+   "src": "ro",
+   "text": "Eu iau biletele, te rog să nu întârzii!",
+   "ctx": "Songs / None",
+   "en": null,
+   "id": 42,
+   "tr": "Ich kaufe die Tickets, bitte sei nicht zu spät!"
+  },
+  {
+   "src": "ro",
+   "text": "Suntem o familie, tu și eu,",
+   "ctx": "Songs / None",
+   "en": null,
+   "id": 43,
+   "tr": "Wir sind eine Familie, du und ich,"
+  },
+  {
+   "src": "en",
+   "text": "My brother is 15 (years old).",
+   "ctx": "Teste de nivel / tests[52].answer / short",
+   "id": 44,
+   "tr": "Mein Bruder ist 15 (Jahre alt)."
+  },
+  {
+   "src": "en",
+   "text": "thirteen",
+   "ctx": "Teste de nivel / tests[20].answer / short",
+   "id": 45,
+   "gloss": {
+    "thirteen": [
+     "dreizehn",
+     "Dreizehn"
+    ]
+   },
+   "tr": "dreizehn"
+  },
+  {
+   "src": "en",
+   "text": "„My grandfather __ a big garden.\"",
+   "ctx": "Teste de nivel / tests[51].question / cloze",
+   "id": 46,
+   "tr": "„My grandfather __ a big garden.\""
+  },
+  {
+   "src": "en",
+   "text": "am",
+   "ctx": "Teste de nivel / tests[4].answer / cloze",
+   "id": 47,
+   "gloss": {
+    "am": [
+     "vormittags",
+     "bin",
+     "vormittag"
+    ]
+   },
+   "tr": "bin"
+  },
+  {
+   "src": "ro",
+   "text": "Viitor, comparații și conversații mai complexe",
+   "ctx": "Titluri module / None",
+   "en": null,
+   "id": 48,
+   "tr": "Zukunft, Vergleiche und komplexere Gespräche"
+  },
+  {
+   "src": "ro",
+   "text": "Precizie și registru — nominalizarea",
+   "ctx": "Titluri module / None",
+   "en": null,
+   "id": 49,
+   "tr": "Präzision und Register – Nominalisierung"
+  },
+  {
+   "src": "ro",
+   "text": "Legarea ideilor — markeri de discurs și coeziune",
+   "ctx": "Titluri module / None",
+   "en": null,
+   "id": 50,
+   "tr": "Verknüpfung von Ideen – Diskursmarker und Kohärenz"
+  },
+  {
+   "src": "ro",
+   "text": "Sensuri fine — aspect și modalitate",
+   "ctx": "Titluri module / None",
+   "en": null,
+   "id": 51,
+   "tr": "Feinheiten der Bedeutung – Aspekt und Modalität"
+  },
+  {
+   "src": "ro",
+   "text": "Clădire destinată închinării în anumite religii.",
+   "ctx": "Dicționar / None",
+   "en": null,
+   "id": 52,
+   "tr": "Gebäude, das der Anbetung in bestimmten Religionen gewidmet ist."
+  },
+  {
+   "src": "ro",
+   "text": "Discursul ei despre dreptate a rezonat cu tot publicul.",
+   "ctx": "Dicționar / None",
+   "en": null,
+   "id": 53,
+   "tr": "Ihre Rede über Gerechtigkeit hat das gesamte Publikum berührt."
+  },
+  {
+   "src": "ro",
+   "text": "a găti (cooked)",
+   "ctx": "Dicționar / None",
+   "en": null,
+   "id": 54,
+   "tr": "kochen (cooked)"
+  },
+  {
+   "src": "ro",
+   "text": "echipă",
+   "ctx": "Dicționar / None",
+   "en": null,
+   "id": 55,
+   "gloss": {
+    "echipă": [
+     "Mannschaft"
+    ]
+   },
+   "tr": "Mannschaft"
+  },
+  {
+   "src": "ro",
+   "text": "Test auditiv",
+   "ctx": "Texte fixe / client: obiect-pe-limbi:match",
+   "en": "Listening test",
+   "id": 56,
+   "tr": "Hörtest"
+  },
+  {
+   "src": "ro",
+   "text": "pași vizuali.",
+   "ctx": "Texte fixe / client: LD, ui-en",
+   "en": "visual steps.",
+   "id": 57,
+   "tr": "visuelle Schritte."
+  },
+  {
+   "src": "ro",
+   "text": "Textul e prea lung (maxim ${TTS_MAX_CHARS} de caractere).",
+   "ctx": "Texte fixe / server: server-error",
+   "en": null,
+   "id": 58,
+   "tr": "Der Text ist zu lang (maximal ${TTS_MAX_CHARS} Zeichen)."
+  },
+  {
+   "src": "ro",
+   "text": "⚙️ Setări",
+   "ctx": "Texte fixe / client: i18n:uiSettings",
+   "en": "⚙️ Settings",
+   "id": 59,
+   "tr": "⚙️ Einstellungen"
+  }
+ ],
+ "bn": [
+  {
+   "src": "ro",
+   "text": "Doriți un desert? Avem înghețată. 🍨",
+   "ctx": "Lecții A1 / flow.guided[6].evaRo",
+   "en": "Would you like a dessert? We have ice cream. 🍨",
+   "id": 0,
+   "tr": "মিষ্টি খাবার চান? আমাদের কাছে আইসক্রিম আছে। 🍨"
+  },
+  {
+   "src": "ro",
+   "text": "Fă la ___ la colț. (->)",
+   "ctx": "Lecții A1 / test.items[7].questionRo",
+   "en": "Turn ___ at the corner. (->)",
+   "id": 1,
+   "tr": "কোণে ___ করো। (->)"
+  },
+  {
+   "src": "en",
+   "text": "I'm going to + loc/verb. by + transport. Don't forget your… Have a good trip!",
+   "ctx": "Lecții A1 / texts[6].hint / None",
+   "id": 2,
+   "tr": "I'm going to + loc/verb. by + transport. ভুলে যেও না... সুন্দর ভ্রমণ হোক!"
+  },
+  {
+   "src": "ro",
+   "text": "Trei — doi frați și o soră.",
+   "ctx": "Lecții A1 / comprehension[3].aRo",
+   "en": "Three — two brothers and one sister.",
+   "id": 3,
+   "tr": "তিনজন — দুই ভাই এবং এক বোন।"
+  },
+  {
+   "src": "ro",
+   "text": "Ce face Sara seara?",
+   "ctx": "Lecții A2 / listening.items[2].qRo",
+   "en": "What does Sara do in the evening?",
+   "id": 4,
+   "tr": "সারা রাতে কী করে?"
+  },
+  {
+   "src": "ro",
+   "text": "Trebuie să mă trezesc devreme în fiecare zi.",
+   "ctx": "Lecții A2 / pronunciation.drillSentences[1].ro",
+   "en": "I have to get up early every day.",
+   "id": 5,
+   "tr": "আমাকে প্রতিদিন সকালে উঠতে হয়।"
+  },
+  {
+   "src": "ro",
+   "text": "Bine! Pune-mi o întrebare: „Do you have ___ eggs?”",
+   "ctx": "Lecții A2 / flow.guided[3].evaRo",
+   "en": "Good! Ask me a question: 'Do you have ___ eggs?'",
+   "id": 6,
+   "tr": "চমৎকার! আমাকে একটি প্রশ্ন করো: “Do you have ___ eggs?”"
+  },
+  {
+   "src": "en",
+   "text": "running",
+   "ctx": "Lecții A2 / tests[7].answer / cloze",
+   "id": 7,
+   "gloss": {
+    "running": [
+     "চলন্ত",
+     "চলতি",
+     "ধাবমান"
+    ]
+   },
+   "tr": "চলন্ত"
+  },
+  {
+   "src": "ro",
+   "text": "O să fiu obosit mâine dacă mă culc târziu.",
+   "ctx": "Lecții B1 / flow.guided[4].modelRo",
+   "en": "I'll be tired tomorrow if I go to bed late.",
+   "id": 8,
+   "tr": "আগামীকাল আমি ক্লান্ত থাকব যদি দেরিতে ঘুমাই।"
+  },
+  {
+   "src": "ro",
+   "text": "să alegi pronumele relativ potrivit: pentru persoane, pentru lucruri, de posesie, de loc sau de timp",
+   "ctx": "Lecții B1 / intro.goals[2].ro",
+   "en": "choose the right pronoun: who / which / whose / where / when",
+   "id": 9,
+   "tr": "সঠিত আপোসমসবাচক সর্বনাম নির্বাচন করুন: ব্যক্তি, বস্তু, মালিকানা, স্থান বা সময়ের জন্য"
+  },
+  {
+   "src": "ro",
+   "text": "already în poziție de mijloc",
+   "ctx": "Lecții B1 / srs[16].note",
+   "en": null,
+   "id": 10,
+   "tr": "already মধ্যবর্তী অবস্থানে"
+  },
+  {
+   "src": "ro",
+   "text": "a reduce",
+   "ctx": "Lecții B1 / vocab[45].ro",
+   "en": "reduce",
+   "id": 11,
+   "gloss": {
+    "reduce": [
+     "হ্রাস করা",
+     "সংক্ষেপ করা",
+     "লাঘব করা"
+    ]
+   },
+   "tr": "হ্রাস করা"
+  },
+  {
+   "src": "ro",
+   "text": "tuns / tunsoare",
+   "ctx": "Lecții B2 / vocab[46].ro",
+   "en": "haircut",
+   "id": 12,
+   "gloss": {
+    "haircut": [
+     "চুল কাটা",
+     "̃কর্তন"
+    ]
+   },
+   "tr": "চুল কাটা / চুল কাটার যন্ত্র"
+  },
+  {
+   "src": "ro",
+   "text": "L-am început în 2021.",
+   "ctx": "Lecții B2 / flow.guided[3].modelRo",
+   "en": "I started it in 2021.",
+   "id": 13,
+   "tr": "আমি ২০২১ সালে শুরু করেছিলাম।"
+  },
+  {
+   "src": "ro",
+   "text": "Translate into English: Până să ajung eu, ei plecaseră deja.",
+   "ctx": "Lecții B2 / test.items[19].question",
+   "en": null,
+   "id": 14,
+   "tr": "ইংরেজিতে অনুবাদ করুন: Până să ajung eu, ei plecaseră deja."
+  },
+  {
+   "src": "ro",
+   "text": "pană de curent",
+   "ctx": "Lecții B2 / vocab[41].ro",
+   "en": "power cut",
+   "id": 15,
+   "tr": "বিদ্যুৎ বিভ্রাট"
+  },
+  {
+   "src": "ro",
+   "text": "Exprimi preferințe cu „would rather / would sooner”, alegând corect infinitivul sau trecutul (cel puțin 4 din 5 corecte).",
+   "ctx": "Lecții C1 / intro.goals[2].ro",
+   "en": "State preferences with 'would rather / would sooner', choosing infinitive or past tense correctly (≥4 out of 5 correct).",
+   "id": 16,
+   "tr": "“would rather / would sooner” ব্যবহার করে পছন্দ প্রকাশ করুন, সঠিকভাবে অনির্দিষ্ট ক্রিয়া বা অতীত কাল নির্বাচন করে (কমপক্ষে ৫টির মধ্যে ৪টি সঠিক)।"
+  },
+  {
+   "src": "en",
+   "text": "Admittedly",
+   "ctx": "Lecții C1 / cloze[1].back / cloze",
+   "id": 17,
+   "gloss": {
+    "Admittedly": [
+     "̃রূপে"
+    ]
+   },
+   "tr": "স্বীকার করি"
+  },
+  {
+   "src": "ro",
+   "text": "încă nu s-a decis / rămâne de văzut",
+   "ctx": "Lecții C1 / vocab[43].ro",
+   "en": "the jury is still out",
+   "id": 18,
+   "tr": "এখনও সিদ্ধান্ত হয়নি / দেখা যাবে"
+  },
+  {
+   "src": "ro",
+   "text": "-ure e neaccentuat: failure /ˈfeɪljə/, departure /dɪˈpɑːtʃə/.",
+   "ctx": "Lecții C1 / pronunciation.targets[4].tip",
+   "en": null,
+   "id": 19,
+   "tr": "-ure অস্বরিত: failure /ˈfeɪljə/, departure /dɪˈpɑːtʃə/."
+  },
+  {
+   "src": "ro",
+   "text": "Formulează o replică rapidă concesiv-adversativă (EN) la afirmația: „Homework is pure busywork.” (folosește o concesie + un adversativ + o contra-teză)",
+   "ctx": "Lecții C2 / test.items[22].questionRo",
+   "en": "Compose a quick concessive-adversative retort in English to the statement: „Homework is pure busywork.” (use a concession + an adversative + a counter-thesis)",
+   "id": 20,
+   "tr": "“Homework is pure busywork.” বাক্যটির জন্য একটি দ্রুত স্বীকারোক্ত-প্রতিদ্বন্দ্বী উত্তর (EN) তৈরি করুন (একটি স্বীকারোক্তি + একটি প্রতিদ্বন্দ্বী শব্দ + একটি পাল্টা যুক্তি ব্যবহার করুন)"
+  },
+  {
+   "src": "ro",
+   "text": "anaforă — reluarea printr-un pronume a unui element menționat anterior",
+   "ctx": "Lecții C2 / srs[1].back",
+   "en": null,
+   "id": 21,
+   "tr": "আনফোরা — পূর্বে উল্লেখিত উপাদানটি একটি সর্বনাম দ্বারা পুনরায় উল্লেখ করা"
+  },
+  {
+   "src": "ro",
+   "text": "deducție rezonabilă",
+   "ctx": "Lecții C2 / srs[3].note",
+   "en": null,
+   "id": 22,
+   "tr": "যুক্তিযুক্ত অনুমান"
+  },
+  {
+   "src": "ro",
+   "text": "„This sentence is false.” Enunțul care se referă la sine și nu poate fi nici adevărat, nici fals, ilustrează:",
+   "ctx": "Lecții C2 / test.items[4].questionRo",
+   "en": "„This sentence is false.” The statement that refers to itself and can be neither true nor false illustrates:",
+   "id": 23,
+   "tr": "“This sentence is false.” নিজের সম্পর্কে বক্তব্য রাখা এমন বাক্য যা সত্য বা মিথ্যা হতে পারে না, এটি প্রদর্শন করে:"
+  },
+  {
+   "src": "en",
+   "text": "Reacting to every competitor announcement risks ___.",
+   "ctx": "Discuții / tests[3].question / mc",
+   "id": 24,
+   "tr": "প্রতিটি প্রতিদ্বন্দ্বীর ঘোষণার প্রতি সাড়া দেওয়ার ঝুঁকি ___।"
+  },
+  {
+   "src": "en",
+   "text": "Tomorrow I am going to cook fish.",
+   "ctx": "Discuții / tests[10].answer / translate-ro-en",
+   "id": 25,
+   "tr": "আগামীকাল আমি মাছ রান্না করব।"
+  },
+  {
+   "src": "en",
+   "text": "Life in the countryside is much ___ stressful than life in the city.",
+   "ctx": "Discuții / tests[6].question / gap",
+   "id": 26,
+   "tr": "গ্রামের জীবন শহরের জীবনের চেয়ে অনেক ___ চাপযুক্ত।"
+  },
+  {
+   "src": "ro",
+   "text": "Ar trebui să submineze încrederea în rezultate anume, întărind în același timp încrederea în proces, fiindcă criza a fost descoperită chiar de știință. Comunicarea publică a eșuat pentru că rezultatele au fost prezentate ca certitudini, nu ca estimări provizorii. Lecția este că exagerarea, nu eroarea, este cea care distruge credibilitatea.",
+   "ctx": "Discuții / None",
+   "en": null,
+   "id": 27,
+   "tr": "এটি নির্দিষ্ট ফলাফলের প্রতি আস্থা কমিয়ে একই সাথে প্রক্রিয়ার প্রতি আস্থা বাড়ানো উচিত, কারণ বিজ্ঞানই এই সংকটটি আবিষ্কার করেছে। পাবলিক কমিউনিকেশন ব্যর্থ হয়েছে কারণ ফলাফলগুলো আনুমানিক হিসাব হিসেবে নয়, বরং নিশ্চিত তথ্য হিসেবে উপস্থাপন করা হয়েছিল। শিক্ষা হলো যে অতিরঞ্জিত বক্তব্য, ভুল নয়, যা বিশ্বাসযোগ্যতা ধ্বংস করে।"
+  },
+  {
+   "src": "ro",
+   "text": "O programare neatentă poate deteriora piesele mecanice.",
+   "ctx": "Meserii / None",
+   "en": null,
+   "id": 28,
+   "tr": "মনোযোগহীন প্রোগ্রামিং যন্ত্রাংশ নষ্ট করতে পারে।"
+  },
+  {
+   "src": "ro",
+   "text": "Acest modul fotovoltaic are o fisură în sticlă.",
+   "ctx": "Meserii / None",
+   "en": null,
+   "id": 29,
+   "tr": "এই ফটোভোল্টাইক মডিউলে কাচের ফাটল আছে।"
+  },
+  {
+   "src": "ro",
+   "text": "pătrundere",
+   "ctx": "Meserii / None",
+   "en": null,
+   "id": 30,
+   "tr": "প্রবেশ"
+  },
+  {
+   "src": "en",
+   "text": "împământare",
+   "ctx": "Meserii / tests[2].answer / en-ro",
+   "id": 31,
+   "tr": "আর্থিং"
+  },
+  {
+   "src": "ro",
+   "text": "a crea contrast",
+   "ctx": "Hobby / None",
+   "en": null,
+   "id": 32,
+   "tr": "বৈপরীত্য তৈরি করা"
+  },
+  {
+   "src": "ro",
+   "text": "Codul vestimentar mă ajută să aleg ce să port.",
+   "ctx": "Hobby / None",
+   "en": null,
+   "id": 33,
+   "tr": "পোশাকের নিয়ম আমাকে কী পরতে হবে তা বেছে নিতে সাহায্য করে।"
+  },
+  {
+   "src": "ro",
+   "text": "Numește patru legume de pe masă și spune care este cea mai mare.",
+   "ctx": "Hobby / None",
+   "en": null,
+   "id": 34,
+   "tr": "টেবিলের চারটি শাকসবজির নাম বলুন এবং বলুন কোনটি সবচেয়ে বড়।"
+  },
+  {
+   "src": "ro",
+   "text": "Materialul pare neted.",
+   "ctx": "Hobby / None",
+   "en": null,
+   "id": 35,
+   "tr": "উপাদানটি মসৃণ মনে হচ্ছে।"
+  },
+  {
+   "src": "ro",
+   "text": "negru",
+   "ctx": "Kids / None",
+   "en": null,
+   "id": 36,
+   "tr": "কালো"
+  },
+  {
+   "src": "ro",
+   "text": "Trofeul este auriu.",
+   "ctx": "Kids / None",
+   "en": null,
+   "id": 37,
+   "tr": "পুরস্কারটি সোনালি।"
+  },
+  {
+   "src": "ro",
+   "text": "Ascultă și apasă.",
+   "ctx": "Kids / None",
+   "en": null,
+   "id": 38,
+   "tr": "শুনুন এবং চাপুন।"
+  },
+  {
+   "src": "ro",
+   "text": "Scriu cu pixul.",
+   "ctx": "Kids / None",
+   "en": null,
+   "id": 39,
+   "tr": "আমি কলমে লিখি।"
+  },
+  {
+   "src": "ro",
+   "text": "deget",
+   "ctx": "Songs / None",
+   "en": null,
+   "id": 40,
+   "gloss": {
+    "deget": [
+     "bueRā āgula"
+    ]
+   },
+   "tr": "আঙুল"
+  },
+  {
+   "src": "ro",
+   "text": "Luni mă întorc la școală,",
+   "ctx": "Songs / None",
+   "en": null,
+   "id": 41,
+   "tr": "সোমবার আমি স্কুলে ফিরে যাব,"
+  },
+  {
+   "src": "ro",
+   "text": "Eu iau biletele, te rog să nu întârzii!",
+   "ctx": "Songs / None",
+   "en": null,
+   "id": 42,
+   "tr": "আমি টিকিট কিনব, দেরি করবেন না!"
+  },
+  {
+   "src": "ro",
+   "text": "Suntem o familie, tu și eu,",
+   "ctx": "Songs / None",
+   "en": null,
+   "id": 43,
+   "tr": "আমরা একটি পরিবার, তুমি এবং আমি,"
+  },
+  {
+   "src": "en",
+   "text": "My brother is 15 (years old).",
+   "ctx": "Teste de nivel / tests[52].answer / short",
+   "id": 44,
+   "tr": "আমার ভাই ১৫ বছরের।"
+  },
+  {
+   "src": "en",
+   "text": "thirteen",
+   "ctx": "Teste de nivel / tests[20].answer / short",
+   "id": 45,
+   "gloss": {
+    "thirteen": [
+     "তেরো",
+     "ত্রয়োদশ"
+    ]
+   },
+   "tr": "তেরো"
+  },
+  {
+   "src": "en",
+   "text": "„My grandfather __ a big garden.\"",
+   "ctx": "Teste de nivel / tests[51].question / cloze",
+   "id": 46,
+   "tr": "“My grandfather __ a big garden.”"
+  },
+  {
+   "src": "en",
+   "text": "am",
+   "ctx": "Teste de nivel / tests[4].answer / cloze",
+   "id": 47,
+   "gloss": {
+    "am": [
+     "আছি"
+    ]
+   },
+   "tr": "আছি"
+  },
+  {
+   "src": "ro",
+   "text": "Viitor, comparații și conversații mai complexe",
+   "ctx": "Titluri module / None",
+   "en": null,
+   "id": 48,
+   "tr": "ভবিষ্যৎ, তুলনা এবং জটিলতর আলোচনা"
+  },
+  {
+   "src": "ro",
+   "text": "Precizie și registru — nominalizarea",
+   "ctx": "Titluri module / None",
+   "en": null,
+   "id": 49,
+   "tr": "সঠিকতা এবং ভাষার ধরন — নামবাচক রূপ"
+  },
+  {
+   "src": "ro",
+   "text": "Legarea ideilor — markeri de discurs și coeziune",
+   "ctx": "Titluri module / None",
+   "en": null,
+   "id": 50,
+   "tr": "ধারণা সংযুক্ত করা — বক্তৃতা চিহ্ন এবং সংগতি"
+  },
+  {
+   "src": "ro",
+   "text": "Sensuri fine — aspect și modalitate",
+   "ctx": "Titluri module / None",
+   "en": null,
+   "id": 51,
+   "tr": "সূক্ষ্ম অর্থ — দৃষ্টিভঙ্গি এবং স্বেচ্ছা"
+  },
+  {
+   "src": "ro",
+   "text": "Clădire destinată închinării în anumite religii.",
+   "ctx": "Dicționar / None",
+   "en": null,
+   "id": 52,
+   "tr": "নির্দিষ্ট ধর্মগুলির জন্য পূজার উদ্দেশ্যে নির্মিত ভবন।"
+  },
+  {
+   "src": "ro",
+   "text": "Discursul ei despre dreptate a rezonat cu tot publicul.",
+   "ctx": "Dicționar / None",
+   "en": null,
+   "id": 53,
+   "tr": "তার ন্যায়বিচার সম্পর্কিত বক্তব্য দর্শকদের সবার মনে গভীর ছাপ ফেলেছে।"
+  },
+  {
+   "src": "ro",
+   "text": "a găti (cooked)",
+   "ctx": "Dicționar / None",
+   "en": null,
+   "id": 54,
+   "tr": "রান্না করা (cooked)"
+  },
+  {
+   "src": "ro",
+   "text": "echipă",
+   "ctx": "Dicționar / None",
+   "en": null,
+   "id": 55,
+   "tr": "দল"
+  },
+  {
+   "src": "ro",
+   "text": "Test auditiv",
+   "ctx": "Texte fixe / client: obiect-pe-limbi:match",
+   "en": "Listening test",
+   "id": 56,
+   "tr": "শ্রবণ পরীক্ষা"
+  },
+  {
+   "src": "ro",
+   "text": "pași vizuali.",
+   "ctx": "Texte fixe / client: LD, ui-en",
+   "en": "visual steps.",
+   "id": 57,
+   "tr": "দৃশ্যমান ধাপ।"
+  },
+  {
+   "src": "ro",
+   "text": "Textul e prea lung (maxim ${TTS_MAX_CHARS} de caractere).",
+   "ctx": "Texte fixe / server: server-error",
+   "en": null,
+   "id": 58,
+   "tr": "টেক্সটটি খুব দীর্ঘ (সর্বোচ্চ ${TTS_MAX_CHARS} অক্ষর)।"
+  },
+  {
+   "src": "ro",
+   "text": "⚙️ Setări",
+   "ctx": "Texte fixe / client: i18n:uiSettings",
+   "en": "⚙️ Settings",
+   "id": 59,
+   "tr": "⚙️ সেটিংস"
+  }
+ ]
+}

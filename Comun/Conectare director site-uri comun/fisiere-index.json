@@ -1,0 +1,63 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/MEMORY.md",
+    "status": "copiat",
+    "saved_path": "fisiere/MEMORY--51c05c25.md",
+    "bytes": 6811,
+    "sha256": "d71a1fb30f14c87cdda8603b6acfdad01cc18eed637cb58d264b6a467332bcc8"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/site-uri-share-eva-contab.md",
+    "status": "copiat",
+    "saved_path": "fisiere/site-uri-share-eva-contab--2d0a2b67.md",
+    "bytes": 3255,
+    "sha256": "0dc17bb9ee844be0a24156bbdddf3981a6276bf1ffa58c66b1f380eea5e21f87"
+  },
+  {
+    "source_reference": "S:\\_test-claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\_test-claude\\sub",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\_test-claude\\sub\\copie.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\_test-claude\\sub\\proba.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\_test-claude\\sub\\proba2.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\schallergasse35\\public\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--c65893c4.html",
+    "bytes": 7019,
+    "sha256": "ce92d4fb599bf45ced164e57b0ba6fbcbfb44646ab8f6861fa6e59f7eb3b7b13"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\dracula-book",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\schallergasse35",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://www.ac-wohnart.at",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "site-uri-share-eva-contab.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "scope": "Copii suplimentare curente pentru reevaluarea r02; nu certifică hashuri istorice r01 nedocumentate. ST_r01 este copia din arhiva r01-after-audit.",
+  "files": [
+    {
+      "source_id": "HT",
+      "source_path": "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Versiunea 2/Hotelul_din_Rue_des_Ames_FINAL_v2.txt",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/HT.txt",
+      "sha256": "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+      "bytes": 588325,
+      "captured_at": "2026-09-24T01:50:02.5252454Z"
+    },
+    {
+      "source_id": "HBT",
+      "source_path": "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Versiunea 2/Story_Bible_FINAL.txt",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt",
+      "sha256": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+      "bytes": 10068,
+      "captured_at": "2026-09-24T01:50:02.5383679Z"
+    },
+    {
+      "source_id": "HP",
+      "source_path": "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/PLAN Hotelul din Rue des Âmes by Gabrielle St.docx",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/HP.docx",
+      "sha256": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+      "bytes": 38757,
+      "captured_at": "2026-09-24T01:50:02.5494095Z"
+    },
+    {
+      "source_id": "Z0",
+      "source_path": "D:/00. Downloads/Dracula Book/MYTHICA SERIES/Saga Celor Zece Coroane/Cartea 1 The_Northern_Crown/saga-of-the-ten-crowns-complete.zip",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/Z0.zip",
+      "sha256": "180371ed4d5418eec4bd9313337f4390095bcdd13448e2ed6e302c04b56876af",
+      "bytes": 117308,
+      "captured_at": "2026-09-24T01:50:02.5619448Z"
+    },
+    {
+      "source_id": "OR",
+      "source_path": "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Versiunea 2/Originality_Report.txt",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/OR.txt",
+      "sha256": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+      "bytes": 4651,
+      "captured_at": "2026-09-24T01:50:02.5742338Z"
+    },
+    {
+      "source_id": "ST_r01",
+      "source_path": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/08_ARHIVA/SEL-001/r01-after-audit/sources/00_CONDUCERE/STATUS.md",
+      "copy_path": "02_DOCUMENTARE/INTRARI_REFERINTA/STATUS_r01.md",
+      "sha256": "87cc1a5225e72f1ee42b1f0766b0e1a529503dd166d3b9e9eeb37e4ce9375f12",
+      "bytes": 1707,
+      "captured_at": "2026-09-24T01:50:02.5782462Z"
+    }
+  ]
+}

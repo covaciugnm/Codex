@@ -1,0 +1,192 @@
+{
+  "schema_version": 2,
+  "audit_id": "SEL-001-A-GOVERNANCE-r03",
+  "deliverable_id": "SEL-001",
+  "version_id": "r03",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/SEL-001-r03.json",
+    "sha256": "85ec85d5f34b57a49f0d0430e50caf030a094af11eba902c98692da3c565fd28"
+  },
+  "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "reviewer_role": "A-GOVERNANCE",
+  "files": [
+    {
+      "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+      "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0"
+    }
+  ],
+  "supplemental_evidence_files": [
+    {
+      "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+      "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "surse",
+      "weight": 25,
+      "score": 965,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L23-L73"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/index_origine.json",
+          "sha256": "cc71a0c05c80ce0f8e7006baf29901c6ae17cd082bb2233fbfc90135c23c1b9f",
+          "anchor": ""
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/SUPLIMENT_r02.json",
+          "sha256": "674c647af05517635b04d2a384df21902d30956b5c4245e32d66726eccd65114",
+          "anchor": ""
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#lecturi"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#integritate"
+        }
+      ]
+    },
+    {
+      "id": "distinctii",
+      "weight": 25,
+      "score": 975,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L29-L37"
+        },
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L112-L142"
+        },
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L171-L187"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#retest"
+        }
+      ]
+    },
+    {
+      "id": "compatibilitate",
+      "weight": 20,
+      "score": 964,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L15-L21"
+        },
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L189-L244"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+          "sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+          "anchor": ":L98-L108"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#evaluare"
+        }
+      ]
+    },
+    {
+      "id": "recomandare",
+      "weight": 20,
+      "score": 968,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L248-L258"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#retest"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#evaluare"
+        }
+      ]
+    },
+    {
+      "id": "handoff",
+      "weight": 10,
+      "score": 976,
+      "evidence": [
+        {
+          "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+          "sha256": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+          "anchor": ":L260-L290"
+        },
+        {
+          "path": "00_CONDUCERE/RUBRICI.md",
+          "sha256": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd",
+          "anchor": ":L3-L7"
+        },
+        {
+          "path": "06_REGISTRU/CONTEXT_R03/STATUS_at_freeze.md",
+          "sha256": "6959ce6552d187dc27369805c9b9e4ec06f5e5b52e2a32e720e82ebcb875ef29",
+          "anchor": ":L20-L22"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d",
+          "anchor": "#limite"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "SEL-001-A-CANON-F01",
+      "severity": "major",
+      "status": "closed",
+      "location": "02_DOCUMENTARE/CANON_EXISTENT.md:L112-L142;L183;L268-L277",
+      "description": "Omisiunea documentară este remediată și retestată în r03: reextragerea H.docx confirmă Boucher la P166/P860, Dubois la P3548/P3550 și căsătoria separat la P3553. Raportul consemnează ambele nume și blocajul G01.",
+      "remediation": "Test original executat: reextragere 3984 paragrafe, lectură P166/P860/P3538–P3556, verificarea celor patru localizări, tabelului personajelor, predării G01 și hashurilor depunerii; 05_AUDIT/SEL-001/A-GOVERNANCE-r03.md#retest. Closed privește numai omisiunea din SEL; H-C9 rămâne nereconciliat în manuscris, fără alegerea unui nume și fără rescrierea r01."
+    }
+  ],
+  "verdict": "PASS",
+  "limitations": [
+    "Audit A-GOVERNANCE al selecției preliminare G00, nu canon integral G01 sau aprobare de roman. PASS este individual; SYS r03, A-CANON r03, metaauditul și poarta trebuie validate separat.",
+    "CANON_EXISTENT.md a fost recitit integral L1-L290. H.docx a fost reextras în memorie: 3984 paragrafe; lectura proprie r03 a acoperit P166, P860, P3538–P3556, P3981–P3984, nu întregul manuscris.",
+    "Nu am repetat toate lecturile/comparațiile r02 ale finalurilor B/SH/N/H, AC/HB, ChangeLog, anexelor și DOCX/TXT. Am verificat continuitatea hashurilor, noua depunere, raportul integral și testul F01; lecturile producătorului nu sunt atribuite mie.",
+    "Inspecțiile comune cu RES includ SITE_APP/CAT țintit, HBT integral, N P1–P5 și premisa din Z integral. Nu am reaccesat site-ul, edițiile publice, drepturile sau sursele istorice externe; datele HTTP sunt istorice.",
+    "Închiderea SEL-001-A-CANON-F01 privește omisiunea documentară; contradicția H-C9 Boucher/Dubois și celelalte probleme canonice rămân pentru G01. Nu inventez reconciliere.",
+    "Arhivele/indexurile și copiile plate au fost verificate read-only, nu restaurate fizic din nou; captura SEL r02 reproduce RETURN pentru SYS. Nu am modificat produse, surse, registre, contracte, staging, site sau rapoarte vechi; fără .env/rawlogs ori agenți noi."
+  ],
+  "reviewed_at": "2026-09-24T04:02:45+00:00"
+}
+

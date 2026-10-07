@@ -1,0 +1,5 @@
+{
+  "previous_status": {
+    "completed": "SEL-001 r02: **PASS individual A-CANON**, exclusiv pentru selecția preliminară G00.\n\nScoruri /1000: surse **970**, distincții **970**, compatibilitate **965**, recomandare **965**, handoff **975**.\n\nF01 este închis numai ca omisiune documentară. Contradicția Boucher/Dubois rămâne nerezolvată și blocantă pentru G01. R01 rămâne RETURN.\n\nHashurile celor 52 de intrări și 228 de copii arhivate, precum și concordanța MD/JSON, au fost reverificate fără diferențe.\n\nFișiere definitive:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r02.md>)\n- [Audit JSON](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r02.json>)\n- [Jurnal de teste](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r02-tests.txt>)\n\nEditările sunt oprite."
+  }
+}

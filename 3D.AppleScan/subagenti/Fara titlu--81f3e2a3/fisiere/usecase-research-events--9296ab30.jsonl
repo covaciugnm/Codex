@@ -1,0 +1,4 @@
+{"date":"2026-10-02","agent":"usecase_research","event":"task_received","scope":"Surse primare și catalog de utilizări EVA-3dScan.","timestampPrecision":"day"}
+{"date":"2026-10-02","agent":"usecase_research","event":"web_research_completed","sourceCount":18,"notes":"Apple, Polycam, magicplan, Matterport, Prusa, Autodesk, ODA, Niantic Spatial, Google. Linkuri păstrate, fără arhivare integrală.","timestampPrecision":"day"}
+{"date":"2026-10-02","agent":"usecase_research","event":"catalog_written","items":36,"categories":6,"keywordPhrases":108,"appStatus":"in_development","timestampPrecision":"day"}
+{"date":"2026-10-02","agent":"usecase_research","event":"editorial_review","checks":["Nicio afirmație de funcție EVA implementată","Nicio toleranță sau volum SEO inventat","Fiecare scenariu are input/output/audience/caveat/sourceIds","Condiții CAD, tipărire, persoane, reparații"],"timestampPrecision":"day"}

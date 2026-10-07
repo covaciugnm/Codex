@@ -1,0 +1,227 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\72154d4b-f9df-4eae-a550-02de69184e2f\\tool-results\\webfetch-1789991605340-papg10.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/webfetch-1789991605340-papg10--b8850ed1.pdf",
+    "bytes": 678889,
+    "sha256": "c8dfc41bebbaa209009c7c659d066df5a6808af1ae582feb67105f6fd067ec32"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\parser.py",
+    "status": "copiat",
+    "saved_path": "fisiere/parser--196c628c.py",
+    "bytes": 17510,
+    "sha256": "ed37c8ded84afef74dfd671f8a20911f58b379bef8f577739c05dbfa99115017"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\lib\\colors.py",
+    "status": "copiat",
+    "saved_path": "fisiere/colors--8745a696.py",
+    "bytes": 41176,
+    "sha256": "13976b0227bd0e053ad4aa0e567157eb25276b66564d03c6426fe150c2087e37"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\lib\\utils.py",
+    "status": "copiat",
+    "saved_path": "fisiere/utils--4ce9d3df.py",
+    "bytes": 45567,
+    "sha256": "569bbb93c77a2669fd52d62a8b5a3371042acce3a159f2c2ca5969b0cbcafe80"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\platypus\\paragraph.py",
+    "status": "copiat",
+    "saved_path": "fisiere/paragraph--caa46be2.py",
+    "bytes": 122871,
+    "sha256": "c9f4a40a05dba9878b52f9d25231eaa2e51fc4db4be95c742adaa77dc1e91ce8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\platypus\\paraparser.py",
+    "status": "copiat",
+    "saved_path": "fisiere/paraparser--088a3389.py",
+    "bytes": 213967,
+    "sha256": "60ec07084e217fb1d6dd5b20282a6751364108086df241afb486d2de8713923c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\72154d4b-f9df-4eae-a550-02de69184e2f\\scratchpad\\bom_v3.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\72154d4b-f9df-4eae-a550-02de69184e2f\\scratchpad\\fix_fabric.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\72154d4b-f9df-4eae-a550-02de69184e2f\\scratchpad\\gb10_report.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\72154d4b-f9df-4eae-a550-02de69184e2f\\\\scratchpad\\\\gb10_report.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackwell AI Rack System (preturi si linkuri RO-EU) v2.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackw--de1daca1.docx",
+    "bytes": 66458,
+    "sha256": "772160a71e77bf1fb969a9b84aaa1d0a48009116caf6c4789fc1125f500009e2"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackwell AI Rack System (preturi si linkuri RO-EU) v3.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackw--059315fb.docx",
+    "bytes": 62637,
+    "sha256": "4ea7cc55a70d3ca063d759f555aa5aff12118099c357959bc0df3c58fdb20f9c"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter\\Server AI\\2026.09.21 Raport comparativ NVIDIA GB10 128GB.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.21 Raport comparativ NVIDIA GB10 128GB--245408e7.pdf",
+    "bytes": 137847,
+    "sha256": "c0af8d6346e0c704f26ca0023cffd62d84b6998e7ba77364aa48dc5b67b386c7"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackwell AI Rack System (preturi si linkuri RO-EU) v3.0.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - Oferta Tehnico-Comerciala si BOM - TITAN-12 Blackw--059315fb.docx",
+    "bytes": 62637,
+    "sha256": "4ea7cc55a70d3ca063d759f555aa5aff12118099c357959bc0df3c58fdb20f9c"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\2023.05.01 IndustryDeveloperPrinter\\\\Server AI\\\\2026.09.21 Raport comparativ NVIDIA GB10 128GB.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.09.21 Raport comparativ NVIDIA GB10 128GB--245408e7.pdf",
+    "bytes": 137847,
+    "sha256": "c0af8d6346e0c704f26ca0023cffd62d84b6998e7ba77364aa48dc5b67b386c7"
+  },
+  {
+    "source_reference": "https://aicybr.com/blog/gb10-ai-workstations-dgx-spark-dell-asus-hp-lenovo",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://chronara.io/dev-news/gx10-connectx7-200gbe",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://eu.shi.com/product/44864211/NVIDIA-Spectrum-2-SN3700",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://forums.developer.nvidia.com/t/dgx-spark-200gbe-direct-qsfp-link-negotiates-200g-but-payload-is-12-gbps/373538",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://forums.developer.nvidia.com/t/enabling-gpu-direct-rdma-for-dgx-spark-clustering/352051",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://geizhals.de/acer-veriton-gn100-nvidia-gb10-128gb-ram-4tb-ssd-dt-r6leh-002-a3690554.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://geizhals.de/lenovo-thinkstation-pgx-dgx-spark-30kl0005gf-a3628652.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://geizhals.de/lenovo-thinkstation-pgx-dgx-spark-30kl000agf-a3932230.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://geizhals.de/lenovo-thinkstation-pgx-dgx-spark-30kl000bgf-a3820838.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://geizhals.eu/lenovo-thinkstation-pgx-dgx-spark-v217067.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://lenovopress.lenovo.com/lp2321-thinkstation-pgx",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://macmyths.com/here-are-all-nvidia-dgx-spark-versions-so-far/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://multimodalflow.net/en/blog/dgx-spark-dual-node-nccl-rdma/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://networking-docs.nvidia.com/sn3000hw/specifications",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://petronellatech.com/blog/dgx-spark-cluster-bandwidth-what-400g-really-means/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://psref.lenovo.com/Detail/ThinkStation_PGX?M=30KL0003GF",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkStation/ThinkStation_PGX/ThinkStation_PGX_Spec.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.alternate.de/Lenovo/ThinkStation-PGX-30KL000BGF-Mini-PC/html/product/100205553",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.asus.com/us/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.computerbase.de/news/pc-systeme/veriton-gn100-ai-acers-mini-ki-workstation-mit-nvidia-gb10-kostet-4-000-euro.94147/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.cursvalutarbnr.org/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.emag.ro/desktop-pc-lenovo-thinkstation-pgx-nvidia-gb10-20-c-20-t-128-gb-ram-4-tb-ssd-fara-unitate-optica-nvidia-gb10-240-w-nvidia-dgx-os-30kl0005ym/pd/D9XSSM2BM/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.emag.ro/desktop-pc-lenovo-thinkstation-pgx-nvidia-gb10-20-c-20-t-128-gb-ram-4-tb-ssd-fara-unitate-optica-nvidia-gb10-nvidia-dgx-no-se-30kl0005mw/pd/D0FTJY2BM/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.exxactcorp.com/NVIDIA-MSN3700-VS2F-E6942517",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.itpro.com/hardware/desktops/the-acer-veriton-gn100-is-a-monstrously-powerful-ai-pc-in-a-delightfully-miniature-package",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.senetic.ro/product/30KL0002GF",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.servethehome.com/asus-ascent-gx10-review-a-new-nvidia-gb10-solution/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.servethehome.com/the-nvidia-gb10-connectx-7-200gbe-networking-is-really-different/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.techradar.com/pro/acer-joins-nvidia-gb10-superchip-fan-club-with-usd3-999-veriton-ai-mini-workstation-pc-and-yes-you-can-link-two-to-get-even-more-power",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.tomshardware.com/desktops/msi-unveils-edgexpert-ms-c931-desktop-ai-supercomputer-powered-by-nvidia-dgx-spark",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.xda-developers.com/lenovo-thinkstation-pgx-review/",
+    "status": "referinta_externa_necopiata"
+  }
+]

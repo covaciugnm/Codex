@@ -1,0 +1,23 @@
+{
+  "id": "01a0f194-572c-7490-a456-49150d14916a",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1790759425,
+  "updated_at": 1791193099,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică situația actuală TOMS",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 12382372,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 249,
+  "message_count": 42,
+  "content_sha256": "b7a1ed8b2b87e4bddae4da395f77fa7782e9964e43721d58439f7bcf93c4637e",
+  "files_copied": 26,
+  "references_not_copied": 2
+}

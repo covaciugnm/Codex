@@ -1,0 +1,48 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--9fb74bbe.md",
+    "bytes": 5798,
+    "sha256": "ed3a98893717022788bb5f0c4572e984025fc39a19b650f3bb91cec9284e963e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\build_overrides.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_overrides--ff074251.py",
+    "bytes": 13302,
+    "sha256": "eddfbca2793c8bee1fb647b538d8b6b0b8e352efc3d20f9598d2c9a563252a9c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\catalog.json",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog--6dd47d85.json",
+    "bytes": 3617,
+    "sha256": "0472c86914854b0b1dc3c04f2e1b66bbe3f11e3250ae780ab18494162379f6bf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\food\\food.css",
+    "status": "copiat",
+    "saved_path": "fisiere/food--b651b303.css",
+    "bytes": 1113,
+    "sha256": "7bfe35c929c8cb4cb8f5067118e9dc898f39bf05c4d778fd67b3a5b9f978e0a2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\ops\\sync-from-design.py",
+    "status": "copiat",
+    "saved_path": "fisiere/sync-from-design--33c68bcc.py",
+    "bytes": 8093,
+    "sha256": "8eb990d5b23d79c8f680cad7161c21fc1cc417449b76567905c14e8889811674"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\food\\logo.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/logo--5122d9ec.jpeg",
+    "bytes": 99075,
+    "sha256": "830a8aefd33ca09ff1d4adb82a1aba9d2e3ad899ae3647a99f3b5666e07dbd18"
+  },
+  {
+    "source_reference": "S:\\dracula-food",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

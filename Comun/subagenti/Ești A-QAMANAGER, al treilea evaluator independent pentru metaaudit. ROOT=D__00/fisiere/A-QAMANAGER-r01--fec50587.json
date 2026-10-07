@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "deliverable_id": "RES-001",
+  "reviewer_agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "reviewer_role": "A-QAMANAGER",
+  "audit_files": [
+    {
+      "path": "05_AUDIT/RES-001/A-GOVERNANCE-r01.json",
+      "sha256": "d2f27f8d63b751cfecbdf82dd9189b0504e8c8e48a6c1460002387c561f9f789"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-SOURCES-r01.json",
+      "sha256": "19484dc52b0aff45b3c5884eaa3c4a3b23cb7337ba0ebba119d798d3275288d3"
+    }
+  ],
+  "checks": [
+    {
+      "id": "independence",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/RES-001/A-QAMANAGER-r01.md#independence",
+        "06_REGISTRU/agents.json:L1-L55"
+      ]
+    },
+    {
+      "id": "coverage",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/RES-001/A-QAMANAGER-r01.md#coverage",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#mecanisme"
+      ]
+    },
+    {
+      "id": "evidence",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/RES-001/A-QAMANAGER-r01.md#evidence",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L8-L10",
+        "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md:L131-L139",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#mandat-verificat",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#verificare-succes"
+      ]
+    },
+    {
+      "id": "scoring",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/RES-001/A-QAMANAGER-r01.md#scoring",
+        "05_AUDIT/RES-001/A-GOVERNANCE-r01.json:L1-L1",
+        "05_AUDIT/RES-001/A-SOURCES-r01.json:L1-L1"
+      ]
+    },
+    {
+      "id": "closure",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/RES-001/A-QAMANAGER-r01.md#closure",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#f-res-sources-001"
+      ]
+    },
+    {
+      "id": "version",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/RES-001/A-QAMANAGER-r01.md#version",
+        "05_AUDIT/RES-001/A-SOURCES-r01.md#integritate",
+        "08_ARHIVA/RES-001/r01-before-audit/index.json:L1-L1"
+      ]
+    }
+  ],
+  "findings": [],
+  "verdict": "PASS",
+  "reviewed_at": "2026-09-24T04:31:18+03:00"
+}
+

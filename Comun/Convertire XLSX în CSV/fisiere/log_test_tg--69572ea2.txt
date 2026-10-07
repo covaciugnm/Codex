@@ -1,0 +1,8 @@
+tzm: Qwen lot intreg esuat (JSONDecodeError), reiau cate 5
+tzm: Qwen lot 15 esuat: JSONDecodeError
+tzm: Qwen lot 20 esuat: JSONDecodeError
+tzm: TranslateGemma 19.4 tok/s total cu 4 cereri paralele (173s / 25 seg), Qwen 35B 2746s / 25 seg
+ary: TranslateGemma 10.1 tok/s total cu 4 cereri paralele (34s / 25 seg), Qwen 35B 34s / 25 seg
+bn: TranslateGemma 10.6 tok/s total cu 4 cereri paralele (29s / 25 seg), Qwen 35B 51s / 25 seg
+Z:\00.Roboti\EVA.Pro\Learn\Traducator\iesire\test_translategemma_2026-10-06.xlsx
+EXIT 0

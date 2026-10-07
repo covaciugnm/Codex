@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "deliverable_id": "SEL-001",
+  "reviewer_agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "reviewer_role": "A-QAMANAGER",
+  "audit_files": [
+    {
+      "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r01.json",
+      "sha256": "e9951e8f8f18ee78749e509be62e91e4373454de70dde533420cea9937855e7e"
+    },
+    {
+      "path": "05_AUDIT/SEL-001/A-CANON-r01.json",
+      "sha256": "66aa22455424a2f9f361531a472829a8f3aab543f731a0306f6565875c72c1cd"
+    }
+  ],
+  "checks": [
+    {
+      "id": "independence",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SEL-001/A-QAMANAGER-r01.md#independence",
+        "06_REGISTRU/agents.json:L1-L55"
+      ]
+    },
+    {
+      "id": "coverage",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SEL-001/A-QAMANAGER-r01.md#coverage",
+        "05_AUDIT/SEL-001/A-CANON-r01.md#acoperire"
+      ]
+    },
+    {
+      "id": "evidence",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SEL-001/A-QAMANAGER-r01.md#evidence",
+        "05_AUDIT/SEL-001/A-CANON-r01.md#proba-identitate",
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L108-L122",
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L151-L164"
+      ]
+    },
+    {
+      "id": "scoring",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SEL-001/A-QAMANAGER-r01.md#scoring",
+        "05_AUDIT/SEL-001/A-GOVERNANCE-r01.json:L1-L1",
+        "05_AUDIT/SEL-001/A-CANON-r01.json:L1-L1"
+      ]
+    },
+    {
+      "id": "closure",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SEL-001/A-QAMANAGER-r01.md#closure",
+        "05_AUDIT/SEL-001/A-CANON-r01.md#handoff"
+      ]
+    },
+    {
+      "id": "version",
+      "passed": true,
+      "evidence": [
+        "05_AUDIT/SEL-001/A-QAMANAGER-r01.md#version",
+        "05_AUDIT/SEL-001/A-CANON-r01.md#integritate",
+        "08_ARHIVA/INTRARI_CANON/20260924-r01/index.json:L1-L17"
+      ]
+    }
+  ],
+  "findings": [],
+  "verdict": "PASS",
+  "reviewed_at": "2026-09-24T04:31:18+03:00"
+}
+

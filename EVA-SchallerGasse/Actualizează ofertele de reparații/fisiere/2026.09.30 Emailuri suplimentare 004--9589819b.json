@@ -1,0 +1,581 @@
+[
+  {
+    "id": "fb6480c5-8180-4d0f-8d0d-efd42e50398f",
+    "account_email": "covaciu.gnm@gmail.com",
+    "subject": "Erstgespräch",
+    "from_name": "Gabriela Roezler",
+    "from_address": "g.roezler@artus.at",
+    "to": [
+      "covaciu.gnm@gmail.com"
+    ],
+    "cc": [],
+    "received_at": "2025-11-18T10:10:48Z",
+    "text": "Sehr geehrter Herr Covaciou, anbei sende ich Ihnen die Einladung für das Erstgespräch via Teams mit Frau Timofte .\r\n\r\nMit freundlichen Grüßen\r\nGabriela Roezler\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams Benötigen Sie Hilfe?<https://aka.ms/JoinTeamsMeeting?omkt=de-DE>\r\nJetzt an der Besprechung teilnehmen<https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODY3NDYwOTktY2I2OC00YWNkLWI5OTUtODg3NWJhYTQwMjUy%40thread.v2/0?context=%7b%22Tid%22%3a%22ed26ac71-8b92-40ce-b6e2-8b0d08a15934%22%2c%22Oid%22%3a%228c36627d-475e-4ed3-89ca-c725b7ae42bd%22%7d>\r\nBesprechungs-ID: 369 080 649 471 71\r\nPasscode: MA6wc6yz\r\n________________________________\r\nFür Organisatoren: Besprechungsoptionen<https://teams.microsoft.com/meetingOptions/?organizerId=8c36627d-475e-4ed3-89ca-c725b7ae42bd&tenantId=ed26ac71-8b92-40ce-b6e2-8b0d08a15934&threadId=19_meeting_ODY3NDYwOTktY2I2OC00YWNkLWI5OTUtODg3NWJhYTQwMjUy@thread.v2&messageId=0&language=de-DE>\r\n________________________________________________________________________________\r\n",
+    "truncated": false,
+    "labels": [
+      "Label_41877",
+      "Label_31902",
+      "CATEGORY_PERSONAL",
+      "INBOX",
+      "3: Fyi",
+      "Label_43153"
+    ],
+    "category": "fyi",
+    "folder": "Gabriela Roezler",
+    "thread_id": "19a96e0013ba913f",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "bc286895-5c91-4b07-a4a9-52d1893125c5",
+        "name": "invite.ics",
+        "size": 3974,
+        "content_type": "text/calendar",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "220cdeaa-9ed3-4b88-83c4-75880dfbd44b",
+        "name": "smime.p7s",
+        "size": 4445,
+        "content_type": "application/x-pkcs7-signature",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "137329ce-5da7-4a75-a0ca-0c374d602d97",
+    "account_email": "covaciu.gnm@gmail.com",
+    "subject": "Unverbindliche Erklärung bzw. unverbindliches Kaufanbot (“freibleibend”) für die Liegenschaft Schallergasse 35, 1120 Wien (Meidling)",
+    "from_name": "Cosmin Covaciu",
+    "from_address": "cosmin.covaciu@ipec.ro",
+    "to": [
+      "guenthner@aresco.at",
+      "anastasia.covaciu11@gmail.com",
+      "covaciu.gnm@gmail.com"
+    ],
+    "cc": [],
+    "received_at": "2025-11-18T13:59:14Z",
+    "text": "Betreff: Übermittlung eines unverbindlichen Kaufanbots – Schallergasse 35, 1120 Wien\n\r\n\n\r\n\n\r\nSehr geehrter Herr Günthner,\n\r\n\n\r\nanbei übermittle ich Ihnen, mit der höflichen Bitte um Weiterleitung an den Eigentümer, meine\n\r\n„Unverbindliche Erklärung bzw. unverbindliches Kaufanbot (“freibleibend”) für die Liegenschaft Schallergasse 35, 1120 Wien (Meidling)“.\n\r\n\n\r\n\n\r\nDas Anbot ist ausdrücklich freibleibend und vorbehaltlich einer zufriedenstellenden rechtlichen, technischen und steuerlichen Due-Diligence-Prüfung sowie des Abschlusses eines von einem österreichischen Notar bzw. Rechtsanwalt\r\nbeurkundeten Kaufvertrags.\n\r\nIch ersuche Sie freundlich, den Erhalt dieses E-Mails sowie der Beilage kurz zu bestätigen und mir mitzuteilen, wie der Eigentümer das unverbindliche Kaufanbot einschätzt. Für Rückfragen stehe ich Ihnen jederzeit gerne persönlich\r\noder gemeinsam mit der von mir beauftragten Rechtsanwaltskanzlei zur Verfügung.\n\r\n\n\r\n\n\r\nVielen Dank im Voraus für Ihre Unterstützung und die Weiterleitung an den Eigentümer.\n\r\nMit freundlichen Grüßen\n\r\nCosmin Adrian Covaciu",
+    "truncated": false,
+    "labels": [
+      "IMPORTANT",
+      "CATEGORY_PERSONAL",
+      "TRASH",
+      "TRASH"
+    ],
+    "category": "trash",
+    "folder": null,
+    "thread_id": "19a97b119744e42b",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "498534db-017d-4bd7-8b2c-3af298b53454",
+        "name": "Kaufanbot_Schallergasse35_Covaciu_Signed.pdf",
+        "size": 129235,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 14209,
+        "page_count": null,
+        "text": "Seite 1 von 6 \n An (Empfänger) :  Schallergasse 35 Immobilienbesitz GmbH & Co KG  \nFN 544408a (vormals Aßmayergasse 60 Immobilienbesitz GmbH & Co KG)  \nBrauquartier  11 / Top 01, 8055 Graz , vertreten durch die Geschäftsführung  \n \n \nVon (Anbieter):  Cosmin -Adrian Covaciu, geboren 19.10.1972, Klagbaumgasse 11/9, 1040 \nWien ,  Österreich ,  CNP 1721019120687,  mittels einer noch zu gründenden österr. GmbH  \n \n  \nOrt, Datum:  Wien, 18. November 2025  \nBetreff:  Unverbindliche  Erklärung bzw. unverbindliches Kaufanbot (“freibleibend”) für die \nLiegenschaft Schallergasse 35, 1120 Wien (Meidling)  \nSehr geehrte Damen und Herren,  \nim Namen und Auftrag des oben angeführten Anbieters erlauben wir uns, Ihnen hiermit ein unverbindliches Kaufangebot  für die unten beschriebene Liegenschaft zu unterbreiten. Dieses \nAngebot erfolgt ausdrücklich freibleibend und ist rechts unverbindlich  bezüglich  einer Kaufpflicht \nbzw. Pflicht einen Kaufvertrag mit dem Empfänger abzuschließen.  \nVor dem Hintergrund der nachstehend angeführten essentialia negotii  sowie Nebenbedingungen  \nsagt der Anbieter jedoch zu, mit dem Empfänger nach Treu und Glauben zu verkehrsüblichen \nBedingungen den Abschluss eines Kaufvertrags über die betreffende Liegenschaft –  ausgehend \nvon einem vom Anbieter vorgelegten   Kaufvertrag – zu verhandeln  und, sofern für den Anbieter \nzumutbar, den betreffenden Kaufvertrag abzuschließen.  \nKlarstellend wird festgehalten, dass (kumulativ) ein verkehrsübliches Gewährleistungsregime \nzugunsten des Anbieters, eine treuhänderische Abwicklung des Kaufvertrags durch CERHA HEMPEL Rechtsanwälte GmbH (FN 452529 i) sowie die nachgewiesene Rechtskraft der \noffengelegten Bescheide im Zusammenhang mit dem Kaufgegenstand für die Abschlussbereitschaft seitens des Anbieters jedenfalls vorausgesetzt werden.  \nWeiters wird klarstellend festgehalten, dass der Anbieter betreffend den Kaufpreis der \nLiegenschaft von keinem wesentlichen versteckten Mangel am Kaufgegenstand, welcher sohin \naus den übermittelten Unterlagen nicht offenkundig war, ausgeht. Sollte sich fol glich im Zuge der \nVertragsverhandlungen herausstellen, dass es derartige Mängel gibt (zB Denkmalschutz an der \nFassade), kommt ein Verhandeln nach Treu und Glauben auf Basis eines nicht reduzierten \nKaufpreises nicht in Betracht.  \nKaufgegenstand der Liegenschaft  \nDie zum Kauf angebotene Liegenschaft befindet sich in 1120 Wien, Schallergasse 35, und ist im \nGrundbuch der KG Meidling (01305) zu EZ 2235, Grundstücksnummer 1241, eingetragen. Auf dem Grundstück steht ein mehrgeschossiges Wohngebäude aus der späten Gründerzeit  in \ngeschlossener Bauweise, das erhebliches Sanierungs - und Ausbaupotenzial aufweist. \nInsbesondere liegt bereits eine rechtskräftige  behördliche Bewilligung für einen zweigeschossigen \nDachgeschoßausbau (Aufstockung) und den Anbau eines Aufzugs vor. Di e bestehenden \nPlanungsunterlagen (Baubeschreibung, Baubewilligungsbescheid MA 37 Wien vom 21.04.2023, \nSeite 2 von 6 \n Pläne, Statik) werden diesem Schreiben als Beilagen beigefügt, ebenso der Energieausweis der \nLiegenschaft und ein aktueller Grundbuchauszug.  \nKaufpreis  \nDer gebotene Kaufpreis  für die oben genannte Liegenschaft beträgt EUR 1.650.000, -- (in Worten: \nEine Million sechshundertfünfzigtausend Euro). Der Betrag ist in Euro zahlbar und versteht sich (vorbehaltlich abweichender Vereinbarung im Kaufvertrag)  ohne  Übernahme allfälliger \noffener Abgaben oder Verbindlichkeiten durch den Anbieter (insbesondere ohne Übernahme der \ngegenständlich eingetragenen Hypotheken) , welche im Zuge der Kaufvertragsverhandlungen vom \nEmpfänger  transparent offengelegt werden. Die im Zusammenhang mit dem Kauf anfallenden \nNebenkosten (insbesondere Grunderwerbsteuer, Grundbucheintragungsgebühr, \nVertragserrichtungskosten sowie Maklerprovision) werden –  soweit im Kaufvertrag nicht anders \ngeregelt – vom Käufer getragen.  \nZahlungsbedingungen und Treuhandabwicklung  \nEine Anzahlung oder ein Angeld wird nicht  gefordert. Die gesamte Kaufpreiszahlung soll über \nden von uns namhaft gemachten Treuhänder , die CERHA HEMPEL  Rechtsanwälte GmbH , \nParkring 2, 1010 Wien, erfolgen. Die Kaufpreiszahlung wird (vorbehaltlich abweichender \nVereinbarung im Kaufvertrag)  erst bei Vertragserfüllung  fällig, das heißt nach Abschluss des \nendgültigen Kaufvertrages, positiver Durchführung der Due- Diligence -Prüfung und Vorlage aller \nnotwendigen Unterlagen und Voraussetzungen. Die Auszahlungsfreigabe an den Verkäufer erfolgt \nerst nach erfolgreicher grundbücherlicher Eintragung (Einverleibung des Eigentumsrechts) der \nKäuferseite durch den Treuhänder. Die Zahlung des Kaufpreises erfolgt ausschließlich in EURO \nund über das Treuhandkonto des genannten Rechtsanwaltstreuhänders.  \nDue Diligence und Vertragsvorbehalt  \nDieses Kaufanbot erfolgt vorbehaltlich  einer vollständigen und für den  Anbieter bzw.  Käufer \nzufriedenstellenden Due-Diligence -Prüfung hinsichtlich der rechtlichen, steuerlichen und \nbautechnischen Verhältnisse der Liegenschaft. Der Käufer ist berechtigt, das Angebot jederzeit \nzurückzuziehen , falls die Ergebnisse der Due Diligence nicht in vollem Umfang seinen \nErwartungen entsprechen. Weiters steht das Anbot unter dem ausdrücklichen Vorbehalt des \nAbschlusses eines rechtswirksamen Kaufvertrages in österreichischer Form (schriftlich und \nnotariell zu beurkunden). Bis zur Unterfertigung eines solchen endgültigen Kaufvertrages \nbestehen keinerlei rechtliche Verbindlichkeiten oder Ansprüche, abgesehen von allfällig gesondert \nvereinbarten Bemühungspflichten oder  Vertraulichkeits - oder Exklusivitätsvereinbarungen.  \nLastenfreiheit der Liegenschaft  \nDie Liegenschaft ist vom Verkäufer lastenfrei  (d.h. frei von nicht vom Käufer zu übernehmenden \nBelastungen) zu übergeben. Sämtliche im Grundbuch eingetragenen Pfandrechte, Dienstbarkeiten, Reallasten oder sonstige Belastungen, die der Käufer nicht ausdrücklich \nübernehmen will, sind spätestens bis zur  Grundbuchseintragung des Eigentumsrechts des \nKäufers vom Verkäufer auf eigene Kosten zu löschen . Sofern der Verkäufer bestehende \nfinanzielle Belastungen (z.B. Hypotheken) aus dem Kaufpreis tilgen  möchte, ist di es im \nKaufvertrag klarzustellen. Die Lastenfreistellung hat jedenfalls zeitgerecht vor der Einverleibung des Käufer -Eigentums zu erfolgen. Sollte eine vollständige Lastenfreistellung nicht gewährleistet \nwerden, behält sich der Käufer das Recht vor, entweder eine entsprechende Kaufpreisminderung  \nzu verlangen oder vom Vertrag zurückzutreten . \nGewährleistung und Zusicherungen des Verkäufers  \nSeite 3 von 6 \n Der endgültige Kaufvertrag wird eine branchenübliche Gewährleistung  des Verkäufers vorsehen. \nInsbesondere haftet der Verkäufer im Rahmen der gesetzlichen Bestimmungen der §§ 922 ff \nABGB  dafür, dass keine verdeckten Mängel  am Kaufobjekt bestehen und dass alle zugesicherten \nEigenschaften und Angaben der Wahrheit entsprechen. Allfällige vom Verkäufer gewünschte \nHaftungsausschlüsse müssen ausdrücklich vereinbart werden und dürfen keine vorsätzlich \nverschwiegenen Mängel oder rechtswidrigen Umstände umfassen. Für  Rechtsmängel \n(insbesondere im Grundbuchstand) haftet der Verkäufer ebenfalls nach den gesetzlichen \nRegelungen.  \nBehördliche Genehmigungen und Bauzustand  \nEs wird vorausgesetzt, dass sämtliche für die geplante Sanierung und den Ausbau der \nLiegenschaft erforderlichen behördlichen Genehmigungen  gültig und wirksam sind \n(insbesondere die Baubewilligung für den Dachgeschoßausbau samt Aufstockung und den Lifteinbau). Der Verkäufer bestätigt, dass nach seinem Wissen alle diesbezüglichen Bescheide \nrechtskräftig und unbefristet nutzbar sind. Sollte sic h herausstellen, dass wichtige Bewilligungen \nfehlen, erloschen oder mit unverhältnismäßig belastenden Auflagen versehen sind, behält sich der Käufer eine Neuverhandlung des Kaufpreises  oder den Rücktritt vom Kaufvertrag vor. Der \nVerkäufer erklärt weiters, dass ihm keine verborgenen Baumängel  oder gesetzlichen \nWiederherstellungsaufträge (z.B. aufgrund Denkmalschutzes oder Baurechtsverletzungen) \nbekannt sind, die nicht offengelegt wurden.  \nUnterlagen für die Due -Diligence -Prüfung  \nDer Verkäufer wird ersucht, dem Käufer alle für die Due-Diligence  erforderlichen Unterlagen und \nInformationen zeitnah zur Verfügung zu stellen (siehe Checkliste in der Anlage dieses Schreibens). \nDazu zählen insbesondere Nachweise zum Grundbuchsstand, Baubewilligungen, Planunterlagen, \nNutzwertgutachten (falls Wohnungseigentum vorliegt), bestehende Mietverträge und \nMietzinslisten, Energieausweis sowie Unterlagen der Hausverwaltung (Protokolle, \nVorschreibungen etc.). Sollten sich im Zuge der Prüfung Rückfragen oder Unklarheiten ergeben, \nwird der Verkäufer um konstruktive Mitwirkung gebeten, um die Prüfung innerhalb eines \nangemessenen Zeitraums (vorgeschlagen: 4 Wochen  ab Übergabe aller Unterlagen) abschließen \nzu können. Während dieser Prüfphase ersucht der Käufer um Stillschweigen gegenüber Dritten.  \nVertraulichkeit und Exklusivität  \nDer Käufer sichert zu, sämtliche im Rahmen der Verkaufsverhandlungen und Due Diligence \nerhaltenen Informationen vertraulich zu behandeln und nicht an Dritte weiterzugeben. Im \nGegenzug wird vom Verkäufer eine Exklusivitätsfrist  von vier (4) Wochen  ab Annahme dieses \nAngebots erbeten. Der Verkäufer wird während dieser Frist keine weiteren Verkaufsverhandlungen \noder Angebotslegungen mit Dritten führen, um dem Käufer eine ungestörte Prüfung zu \nermöglichen. Diese Vereinbarung zur Exklusivität kann auf W unsch schr iftlich gesondert \nfestgehalten werden. Im Fall des Nichteinhaltens der Exklusivität behält sich der Käufer vor, das \nAngebot vorzeitig zu widerrufen.  \nKauf in eigenem oder verbundenem Namen  \nDer wirtschaftlich hinter der Käufergesellschaft stehende Investor, Herr Cosmin -Adrian Covaciu, \nbehält sich vor, den endgültigen Kaufvertrag entweder auf eigenen Namen (privat) oder zugunsten \neiner von ihm mehrheitlich gehaltenen Gesellschaft abzuschließen.  \nAnwendbares Recht und Vertragssprache  \nSeite 4 von 6 \n Für dieses  unverbindliche Kaufangebot und den abzuschließenden Kaufvertrag gilt \nösterreichisches Recht  unter Ausschluss seiner Kollisionsnormen.   \nAnnahmefrist und Wirksamwerden  \nDieses unverbindliche Angebot  kann vom Empfänger bis zum 25.11.2025 (einschließlich) \nangenommen werden. Die Annahme hat durch gegengezeichnete schriftliche Bestätigung  \n(Unterfertigung dieses Schreibens) zu erfolgen und muss bis spätestens 25.11.2025, 17:00 Uhr \nMEZ  beim Unterzeichner einlangen (per E -Mail an cosmin.covaciu@ipec.ro  ). Nach fruchtlosem \nVerstreichen dieser Annahmefrist verliert das Angebot automatisch seine Gültigkeit. Im Fall einer \nrechtzeitigen Annahme gilt das Datum der Gegenzeichnung als Vertragsabschlussdatum  des \nKaufanbots; der Käufer wird in diesem Fall unverzüglich die Ausarbeitung eines schriftlichen \nKaufvertrags -Entwurfs veranlassen. Eine etwaige Annahme nach Fristablauf bedarf zu ihrer \nWirksamkeit einer ausdrücklichen schriftlichen Bestätigung durch den Käufer.  \nÜbergabetermin  \nDie endgültige Vertragsunterzeichnung  (Kaufvertrag vor dem Notar) und die Objektübergabe  \nerfolgen nach Vereinbarung zwischen den Parteien. Als unverbindlichen Zieltermin für die \nÜbergabe (Closing) schlagen wir –  vorbehaltlich aller Genehmigungen und Vertragserrichtung –  \nden 14. Jänner 2026  oder den frühestmöglichen Termin danach vor. Der genaue \nÜbergabezeitpunkt wird im Kaufvertrag festgelegt werden. Ab Übergabe und Besitzübertragung  \ngehen Gefahren und Lasten der Liegenschaft auf den Käufer über.  \nWir danken für die wohlwollende Prüfung unseres Angebots. Bei Rückfragen stehen wir Ihnen \njederzeit gerne zur Verfügung.  \nMit freundlichen Grüßen,  \nCosmin -Adrian Covaciu  \n \nWien, 18. November 2025  \n_____________________  \nOrt, Datum  \n \n \n_______________________________  \nCosmin -Adrian Covaciu  \n \n[Erklärung des Empfängers folgt ] \n  \nSeite 5 von 6 \n [Erklärung des Empfängers ] \n \nWir, Schallergasse 35 Immobilienbesitz GmbH & Co KG , FN 544408a (vormals Aßmayergasse \n60 Immobilienbesitz GmbH & Co KG),  Brauquartier 11 / Top 01, 8055 Graz, sagen zu, als \nEigentümer der Liegenschaft mit dem Anbieter bzw. seiner Gesellschaft nach Treu und Glauben  \nzu verkehrsüblichen Bedingungen den Abschluss eines Kaufvertrags über die betreffende \nLiegenschaft – ausgehend von einem vom Anbieter vorgelegten Kaufvertrag und zu den \nangeführten essentialia negotii  sowie Nebenbedingungen – zu verhandeln und, sofern zumutbar, \nden betreffenden Kaufvertrag abzuschließen.  \n \n \n_____________________  \nOrt, Datum  \n \n \n_______________________________  \nSchallergasse 35 Immobilienbesitz GmbH & Co KG  \nVertreten durch die Geschäftsführung  \n \n \n \nBeilagen:  \n• Firmenbuchauszug der Schallergasse 35 Immobilienbesitz GmbH & Co KG (FN 544408a)  \n• Baubewilligungsbescheid MA 37 Wien (Schallergasse 35, 1120 Wien, vom 21.04.2023)  \n• Baubeschreibung und Pläne (Dachgeschoßausbau Schallergasse 35, Einreichplan)  \n• Bauphysikalische Nachweise & Statik (Schallergasse 35, inkl. Energieausweis)  \n• Kopie Lichtbildausweis Herr Covaciu (Pass)  \nCheckliste für den Verkäufer – bereitzustellende Unterlagen zur Prüfung:  \n• Aktueller Grundbuchauszug (Eigentumsblatt und Lastenblatt) der Liegenschaft  \n• Vollständiger Bauakt : alle relevanten Baubescheide, Baubewilligungen und Pläne  \n• Gültiger Energieausweis der Liegenschaft  \n• Jüngste Jahresabrechnung und Hausverwaltungs -Protokolle  (sofern zutreffend)  \n• Aufstellung sämtlicher Mietverträge  und Mietzinsliste (inkl. Angaben zu Kautionen, \nBefristungen etc.)  \nSeite 6 von 6 \n • Nutzwertgutachten  (falls Wohnungseigentum an der Liegenschaft begründet ist)  \n• Schriftliche Bestätigung , dass keine anhängigen behördlichen oder gerichtlichen \nVerfahren die Liegenschaft betreffen (z.B. Baurechtsverfahren, Streitigkeiten mit Mietern, \nDenkmalschutzauflagen, Rückstände bei Abgaben oder Gebühren)  \nHinweis: Dieses unverbindliche Kaufanbot stellt keine Rechtsberatung dar. Vor einer allfälligen Unterfertigung und dem endgültigen Vertragsabschluss wird empfohlen, den finalen Vertragstext \ndurch einen in Österreich befugten Notar oder Rechtsanwalt prüfen zu lassen.  \n \n"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "3f85de16-84b7-43d3-afb7-3c57f54d58fd",
+    "account_email": "covaciu.gnm@gmail.com",
+    "subject": "Kaufanbot",
+    "from_name": "ARESCO Immobilien | Sascha Günthner",
+    "from_address": "guenthner@aresco.at",
+    "to": [
+      "covaciu.gnm@gmail.com",
+      "anastasia.covaciu11@gmail.com"
+    ],
+    "cc": [],
+    "received_at": "2025-11-20T18:15:01Z",
+    "text": "Guten Abend!\n\r\n\r\n Bitte um ihre geschätzte Rückmeldung, ob oder wie weit die Prüfung bei MA 37 fortgeschritten ist? \n\r\n\n\r\n\r\nNach Rücksprache mit der Bank, sind Sie bereit, aber nur nach Vorlage eines verbindlichen Kaufanbot! \n\r\n\r\nBitte um ihre geschätzte Rückmeldung wie wir weiter vorgehen wollen? \n\r\n\r\n\n\r\n\n\r\n\r\nSchönen Abend und beste Grüße \n\r\n\r\n\n\r\n\n\r\n\r\n\n\r\n\n\r\n\r\n\n\r\n\n\r\n\n\r\n\r\n\r\nMit freundlichen Grüßen /\n\r\n\r\nWith kind regards\n\r\n\r\n\n\r\n\n\r\n\r\nSascha Günthner\n\r\n\r\nHead of Sales\n\r\n\r\n\n\r\n\n\r\n\r\nARESCO lmmobilien GmbH\n\r\n\r\nWickenburggasse 17/11\n\r\n\r\nA- 1080 Wien\n\r\n\r\nguenthner@aresco.at\n\r\n\r\nwww.aresco.at\n\r\n\r\nMobil: +43 676 328 84 11",
+    "truncated": false,
+    "labels": [
+      "Label_37866",
+      "Label_38911",
+      "Label_31902",
+      "CATEGORY_PERSONAL",
+      "INBOX",
+      "3: Fyi"
+    ],
+    "category": "fyi",
+    "folder": "ARESCO Immobilien | Sascha Günthner",
+    "thread_id": "19aa2e81763a9a1f",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "b2200902-91c7-4a87-af71-649ede39fd55",
+    "account_email": "cosmin.covaciu@ipec.ro",
+    "subject": "Raspuns Bank Austria | Kunden-Nr. 642.60.171 [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "cosmin.covaciu@ipec.ro"
+    ],
+    "cc": [],
+    "received_at": "2025-11-25T07:59:29Z",
+    "text": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\nBuna dimineata,\r\n\r\nDin pacate, Bank Austria nu are disponibilitate sa deschida contul firmei. Am atasat e-mailul tipului de la banca, cu care am discutat ieri si telefonic. In general bancile sunt foarte reticente cand vine vorba de straini si achizitii imobiliare, fiindca e riscul de spalarea banilor ridicat.\r\n\r\nDoriti sa contactez Raiffeisen sau sa iau contactul cei de la Erste?\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nSenior Associate | Attorney at Law\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nParkring 2, 1010 Vienna, Austria\r\nTel.: +43/1/514 35-427\r\nM.: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nInterested in updates from CERHA HEMPEL? Subscribe here<http://www.cerhahempel.com/subscribe-to-updates>.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC5DFA.760D69F0] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC5DFA.760D69F0] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL   Austria   Bulgaria   Czech Republic   Hungary   Romania   Slovak Republic   Slovenia\r\n\r\nThis email is confidential and subject to disclaimers. See our Disclaimer<http://www.cerhahempel.com/disclaimer> for details.\r\nAll services by CERHA HEMPEL are subject to our General Terms and Conditions (see GTC<https://www.cerhahempel.com/gtc>).\r\nLegal form: GmbH | Seat: Vienna | Reg. no. 452529i, Commercial Court of Vienna | Privacy<http://www.cerhahempel.com/privacy-notice>\r\n\r\nVon: Capra Bogdan\r\nGesendet: Mittwoch, 19. November 2025 19:44\r\nAn: 'internetbanking@unicreditgroup.at' <internetbanking@unicreditgroup.at>\r\nCc: 'Cosmin Covaciu' <cosmin.covaciu@ipec.ro>; 'Friederike.van-der-Laan@unicreditgroup.at' <Friederike.van-der-Laan@unicreditgroup.at>; 'info@unicreditgroup.at' <info@unicreditgroup.at>\r\nBetreff: Anfrage für die Eröffnung eines Geschäftskontos | Kunden-Nr. 642.60.171 [COVACIU/42222000]\r\nPriorität: Hoch\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nwir dürfen uns an Sie namens unseres Mandanten Herr Cosmin-Adrian Covaciu, geb. 19.10.1972, mit folgender Anfrage wenden. Herr Covaciu ist Kunde der Bank Austria mit der Kunden- bzw. Verfügernummer 642.60.171. Seine Beraterin dürfte Fr. Friederike van der Laan sein.\r\n\r\nHerr Covaciu beabsichtigt, zeitnah eine österreichische GmbH mit dem Sitz in Wien als Alleingesellschafter zu gründen. Geschäftsführer der Gesellschaft mit selbständiger Vertretungsbefugnis werden sowohl (i) er als auch (ii) seine Tochter Frau Anastasia-Elena-Ekaterina Covaciu, geb. 11.04.2001, sein.\r\n\r\nDie für den Erwerb einer Immobilie und künftigen Handel gegründete Gesellschaft würde gerne ein Geschäftskonto, ua. auch für die Eintragung im Firmenbuch, bei Bank Austria eröffnen. Es wird folglich auch eine entsprechende Bankbestätigung über die Volleinzahlung des Stammkapitals benötigt.\r\n\r\nDie Unterlagen über die Gesellschaftsgründung würden wir Ihnen nach Notarisierung entsprechen zukommen lassen.\r\n\r\nSofern Interesse an der Geschäftsbeziehung besteht, würde Herr Covaciu das KYC-Verfahren bei Ihnen in seiner Filiale oder in einer Filiale aus dem 1. Bezirk einen Termin am Donnerstag, 5. Dezember 2025, absolvieren. Wir ersuchen Sie folglich um allfällige verfügbare Zeitfenster zu diesem Termin.\r\n\r\nLassen Sie uns wissen, falls Sie Fragen haben. Gerne können Sie uns allfällige Formulare im Voraus übermitteln.\r\n\r\nMit besten Grüßen\r\nBogdan Capra\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC5DFA.760D69F0] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC5DFA.760D69F0] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Capra Bogdan",
+    "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAIINPhKHc9BFnfd8yxALZVY=",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "4dbd6717-f7a5-41f5-a1d7-31d8ec34d6f4",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "e03b49cf-eabc-430f-b9a5-ce8401a26336",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "f2eb928a-d8c4-49be-936f-35b91819a29e",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "eb290521-b239-4bcc-80a2-d68e6012614d",
+    "account_email": "cosmin.covaciu@ipec.ro",
+    "subject": "AW: Pasii urmatori infiintare GmbH [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "cosmin.covaciu@ipec.ro"
+    ],
+    "cc": [
+      "anastasia.covaciu@yahoo.com",
+      "anastasia.covaciu11@gmail.com"
+    ],
+    "received_at": "2025-11-26T11:01:03Z",
+    "text": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\nBuna ziua,\r\n\r\nAm contactat Erste si Raiffiesen in legatura cu deschiderea de cont si programare pentru 05.12.2025. Intre timp par sa se fi razgandit „prietenii” de la Bank Austria. Am atasat e-mailul cu documentele birocratice de KYC.\r\n\r\nAvand in vedere lipsa de profesionalism a celor de la Bank Austria, va recomand sa asteptam macar un feedback de la Erste si Raiffeisen. Cu Erste am avut experiente foarte bune.\r\n\r\nImi puteti confirma va rog daca este ok pentru vineri, 28.11.2025, ora 13:30 (ora Vienei), programarea digitala cu notarul.\r\n\r\nDaca doriti, o putem muta pe saptamana viitoare. Pana atunci primim si feedback-ul de la banca.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nSenior Associate | Attorney at Law\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nParkring 2, 1010 Vienna, Austria\r\nTel.: +43/1/514 35-427\r\nM.: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nInterested in updates from CERHA HEMPEL? Subscribe here<http://www.cerhahempel.com/subscribe-to-updates>.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC5EDC.4CCF43A0] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC5EDC.4CCF43A0] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL   Austria   Bulgaria   Czech Republic   Hungary   Romania   Slovak Republic   Slovenia\r\n\r\nThis email is confidential and subject to disclaimers. See our Disclaimer<http://www.cerhahempel.com/disclaimer> for details.\r\nAll services by CERHA HEMPEL are subject to our General Terms and Conditions (see GTC<https://www.cerhahempel.com/gtc>).\r\nLegal form: GmbH | Seat: Vienna | Reg. no. 452529i, Commercial Court of Vienna | Privacy<http://www.cerhahempel.com/privacy-notice>\r\n\r\nVon: Capra Bogdan\r\nGesendet: Dienstag, 18. November 2025 19:34\r\nAn: 'Cosmin Covaciu' <cosmin.covaciu@ipec.ro>\r\nCc: 'anastasia.covaciu@yahoo.com' <anastasia.covaciu@yahoo.com>; 'anastasia.covaciu11@gmail.com' <anastasia.covaciu11@gmail.com>\r\nBetreff: Pasii urmatori infiintare GmbH [COVACIU/42222000]\r\n\r\nBuna seara,\r\n\r\nAm atasat documentul cu statutul societatii acutalizat in conformitate cu datele de mai jos, in special legat de obiectul societatii (comerțul online cu veselă din ceramică si robotica/electronice/electrocasnice). Numele nou al firmei A&C Holding GmbH este disponibil pe Viena.\r\n\r\nAm pregatit si documentele auxiliare, care trebuie semnate. Voi reveni cu ele impreuna cu signing instructions dupa ce primesc de la notar o propunere pentru o programare digitala. Va redirectionez propunerea imediat ce primesc raspuns.\r\n\r\nDupa cum am discutat azi telefonic, notarizarea va fi online prin webcam. Va trebui sa dati click in portalul notarial pentru semnatura. Pasii de inregistrare ii veti primi pe email separat si va trebui sa va inregistrati cu 24 de ore inainte (adica joi, daca are notarul disponibilitate vineri pentru programare).\r\n\r\nCu notarul va trebui sa vorbiti germana la nivelul foarte basic, astfel incat sa-si dea seama ca sunteti constienti de natura juridica a actului notarial.\r\n\r\nAvand in vedere ca si Anastasia va fi director, este necesar ca si ea sa participe la acest meeting online si sa dea click/semneze un specimen de semnatura si aplicatia pentru registrul comertului (pe care le trimit separat atat dvs. cat si notarului). Dupa cum am mentionat mai jos, ar fi bine daca reusiti sa pregatiti copia unui pasaport sau permis de conducere al Anastasiei, fiindca notarul austriac nu poate sa deduca data nasterii de pe buletinul romanesc format vechi.\r\n\r\nIntre timp, va rog sa-mi comunicati e-mailul dnei de la Bank Austria (Friederike van der Laan) ca sa pun o intrebare legate de contul firmei. Eu va pot intermedia contact si la Erste la filiala mea, dar acolo va trebui sa veniti personal.\r\n\r\nSalutari,\r\nBodgan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC5EDC.4CCF43A0] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC5EDC.4CCF43A0] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\nVon: Cosmin Covaciu <cosmin.covaciu@ipec.ro<mailto:cosmin.covaciu@ipec.ro>>\r\nGesendet: Montag, 17. November 2025 10:50\r\nAn: Capra Bogdan <Bogdan.Capra@cerhahempel.com<mailto:Bogdan.Capra@cerhahempel.com>>\r\nCc: anastasia.covaciu@yahoo.com<mailto:anastasia.covaciu@yahoo.com>; anastasia.covaciu11@gmail.com<mailto:anastasia.covaciu11@gmail.com>\r\nBetreff: Re: Oferta colaborare [COVACIU/42222000]\r\n\r\n\r\n  1.  OK\r\n2. OK\r\n3. OK - Comerț cu toate tipurile de mărfuri (cu excepția armelor/articolelor pirotehnice, produselor farmaceutice, dispozitivelor medicale și medicamentelor), în special comerțul online cu [de exemplu veselă din ceramică]; - si Robotica/electronice/electrocasnice\r\n4. Drept de semnatura numarul 1 - independent fiecare - deci poate oricare sa semneze in numele companiei fara aa avea nevoie de al doilea\r\n5. Nu am inteles asta : \"Pentru infiintarea firmei, la modul realist, am putea organiza semnarea cu notarul pe joi/vineri (20/21 noiembrie). Pentru notarizarea digitala notarul va va trimite un link pentru inregsitrare. Cel tarziu inainte cu 24 de ore de programare trebuie sa va activati contul. Asta presupune ca accesand linkul veti avea contact in limba germana cu un angajat al serviciului notarity, caruia va trebui sa-i prezentati in webcam pasaportul. Dureaza cam 10-15 minute inregistrarea. Dupa ce este activat contul, va logati de pe el la programarea cu notarul, care va citi actul notarial (statutul firmei) si apoi va spune unde sa dati click ca sa semnati digital. In final, notarul ne va comunica noua documentele legalizate digital si noi vom face inregistrarea firmei.\"\r\n\r\nAnastasia nascuta la Alba Iulia. 2001.04.11 - luna aprilie ziua 11\r\n\r\nMODIFICARE - Denumirea Companiei                    A&C Holding GmbH\r\n\r\nSehr geehrter Herr Covaciu,\r\n\r\n\r\n\r\nwir haben die Rückmeldung von interner Stelle erhalten, dass Ihrer Bitte nach Freischaltung für Online-Kartenzahlungen bei Ihrem gewünschten Händler nachgekommen werden konnte.\r\n\r\n\r\n\r\nVersuchen Sie daher bitte erneut Ihre Transaktion durchzuführen.\r\n\r\n\r\n\r\nBei weiteren Fragen stehen wir Ihnen gerne telefonisch unter +43 (0) 50505-26100 zur Verfügung.\r\n\r\n\r\nFreundliche Grü�Ÿe\r\n\r\n\r\n\r\n----------------------------------------\r\n\r\nFriederike van der Laan\r\nOnlineBanking Team\r\n\r\n\r\nBank Austria �€“ Member of UniCredit\r\nRothschildplatz 1\r\n1020 Wien, �–sterreich\r\nTel.: +43 (0)5 05 05-26100\r\nhttps://www.bankaustria.at<http://www.bankaustria.at/>\r\nUniCredit Bank Austria AG | LinkedIn<https://at.linkedin.com/company/unicredit-bank-austria-ag>\r\n\r\n\r\n\r\n________________________________\r\nDe la: Capra Bogdan <Bogdan.Capra@cerhahempel.com<mailto:Bogdan.Capra@cerhahempel.com>>\r\nTrimis: duminică, 16 noiembrie 2025 18:47:08\r\nCătre: Cosmin Covaciu\r\nCc: anastasia.covaciu@yahoo.com<mailto:anastasia.covaciu@yahoo.com>; anastasia.covaciu11@gmail.com<mailto:anastasia.covaciu11@gmail.com>\r\nSubiect: AW: Oferta colaborare [COVACIU/42222000]\r\n\r\nATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\n\r\nBuna seara,\r\n\r\n\r\n\r\nMultumesc pentru update. Legat de intrebarile de mai jos, le pot raspunde in felul urmator:\r\n\r\n\r\n1.      La adresa  Klagbaumgasse 11/9, 1040 Vienna, nu avem in contractul de inchiriere permisiunea de a infinta firme.\r\n\r\n\r\n\r\nCH: Ok, punem adresa Parkring 2, 1010 Wien. Putem mentine adresa timp de 2 luni. Daca e necesar, cred ca pot sa obtin si o a treia luna fara costuri, dar nu promit.\r\n\r\n\r\n\r\nIn mod normal, clauza din contractul de inchirere se refera la activitatea fizica de firma in apartament, care ar putea deranja in mod obiectv locatarii. O adresa a unei companii tip holding s-ar folosi doar de cutia postala si nu ar incurca pe nimei, dar cel mai bine gazduim noi firma pentru inceput.\r\n\r\n\r\n2.      Klagbaumgasse 11/9, 1040 Vienna - nu am un act oficial in care sa ateste aceasta adresa. Eu mi-am declarat adresa la Politie odata cu Anastasia. Oricum as vrea sa discutam si acest aspect in sensul in care as dori sa obtinem cu Anastasia cetatenia Austriaca cat mai curand posibil. Tinand cont de activitatea de pe cealalta firma si de declaratia de sedere in Austria din Mai anul trecut as vrea sa va vedem ce oportunitati avem.\r\n\r\nCH: Nu trebuie prezentat niciun Meldezettel cu adresa dvs. pentru Registrul Comertului. Din moment ce are Anastasia adresa inregistrata pe adresa Klagbaumgasse 11/9 e in regula si pentru dvs. Oricum, registrul nu mai trimite de ani buni documente scrise catre administratori, doar in cazuri exceptionale. In mod normal, le primim noi ca avocati electronic pt dvs.\r\n\r\n\r\n\r\nLegat de cetatenie, trebuie sa luati in considerare faptul ca (i) e nevoie de 6 ani de resedinta in Austria si (ii) renuntarea la cetatenia romana. Eu personal nu am simtit in ultimii 12 ani niciun dezavantaj ca cetatean roman. Accesul la servicii sociale etc. este pentru cetatenii UE cu drept de sedere permanent aici (= adica care au locuit 5 ani fara sa ceara servicii sociale) la fel ca pentru orice austriac. Detaliile legate de criteriile pentru cetatenie le gasiti pe acest link<https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/1/Seite.260421>. Pagina e atat pe germana cat si pe engleza.\r\n\r\n\r\n\r\nActivitatea comerciala de pe o alta firma nu influenteaza inregistrarea unei firme noi sau obtinerea cetateniei. Tin insa sa precizez ca nici dvs. nici Anastasia nu ati avut o functie statutara la Tableware GmbH din Tamsweg (de ex. asociat sau administrator). Singura persoana inregistrata acolo este dl. Cosmin Covaciu.\r\n\r\n\r\n3.      Asset management; property leasing - putem avea si inca doua activitai secundare ? vanzari online de diverse produse si productia de software? exista costrui ? limitari ?\r\n\r\n\r\n\r\nCH: Da, se poate. Sistemul legislativ din Austria in domeniul acesta e in felul urmator:\r\n\r\n\r\n·         In statutul societatii (actul constitutiv – Gesellschaftsvertrag) se trec toate activitatile pe care societate doreste sa le intreprinda in viitor cu efectul ca administratorii nu au dreptul sa intreprinda alte activitati comerciale in afara obiectului trecut in statut. Totodata, acest aspect este unul pur intern intre societate si administrator(i).\r\n\r\n\r\n·         O societate nu este obligata sa desfasoare o activitate trecuta in statut. Este la laditudinea administratorului cand si daca porneste o activitate comerciala. Inregistrarea unei societati in Registrul Comertului nu inseamna automat ca acea societate si-a inceput activitatea comerciala.\r\n\r\n\r\n·         Daca se incepe de facto o activitate comerciala (de ex. vanzari online de produse si/sau software) este nevoie de o licenta de business (Gewerbeberechtigung). Aceasta se obtine depunand niste declaratii la autoritatea competenta (Gewerbebehörde) si trebuie numita o persoana responsabila pentru activitatea comerciala, un fel de director/reprezentant comercial care raspunde pentru incalcari contraventionale (gewerberechtlicher Geschäftsführer). In functie de activitatea comerciala, poate fi necesar ca acest director comercial sa prezinte diverse calficari (de ex. studii superioare). Pentru comertul cu bunuri/software nu este nevoie de nicio calificare speciala, este o licenta libera (freies Gewerbe).\r\n\r\n\r\n·         In momentul in care se obtine aceasta licenta de business, exista niste costuri anuale catre WKO (Wirtschaftskammer Österreich) in functie de sectorul in care se operezea. Fiecare tip de licenta este conectata obligatoriu prin lege cu apartenenta catre o grupa a WKO (de ex. grupa comerciantilor Sparte Handel). Costurile sunt niste tarife fixe de aprox. EUR 400 pe an plus o taxa suplimentara din profit (0,0 cva %), adica inca cateva sute de euro. Detalii va poate oferi Steuerberater-ul.\r\n\r\n\r\n·         Inchirierea de proprietati nu are nevoie de licenta la business. La fel si detinutul de participatii in alte companii.\r\n\r\n\r\n\r\nIn ceea ce priveste formularea obiectului de activitate al societatii in statut, acesta trebuie sa fie mai concret decat „comert cu produse online”. Propunerea mea ar fi urmatoarea formulare:\r\n\r\n\r\n\r\nComerț cu toate tipurile de mărfuri (cu excepția armelor/articolelor pirotehnice, produselor farmaceutice, dispozitivelor medicale și medicamentelor), în special comerțul online cu [de exemplu veselă din ceramică];\r\n\r\n\r\n\r\nPentru a va face o idee cum va arata statutul societatii, am atasat draftul documentului pentru infiintarea firmei. Statutul propus este bilingv, iar reglementarea obiectului de activitate o gasiti la punctul 2 pe pagina 3/12.\r\n\r\n\r\n4.      Administratori Cosmin-Adrian Covaciu si  Anastasia E.E. Covaciu\r\n\r\n\r\n\r\nCH: Sa-mi spuneti va rog, cum doriti dreptul de semnatura. Avand in vedere ca este o companie in familie, va recomand drept individual de semnatura/reprezentare a societatii. Alternativ se poate si reprezentare comuna, adica cu semnatura a ambilori administratori.\r\n\r\n\r\n\r\nPe Anastasia o rog sa verifice in contractul actual de munca sa nu aiba vreo clauza care sa o restrictioneze sa fie administrator in alta firma. In cazul acesta, ar fi bine sa se discute cu angajatorul si sa emita o exceptie, altfel s-ar incalca contractul de munca si pot exista consecinte in raport cu angajatorul.\r\n\r\n\r\n5.      Informatii suplimentare:\r\n\r\n\r\n\r\nDin cate am vorbit cu colegii, pentru deschiderea contului bancar al societatii este foarte probabil sa fiti nevoit sa veniti la Viena la banca. Acolo veti avea de completat cateva formulare si prezentati actul de identitate. Apoi dupa ce se deschide contul si faceti plata capitalului social, banca emite o confirmare necesara pentru inregistrarea la Registrul Comertului.\r\n\r\n\r\n\r\nDaca Anastasia va fi administrator, pentru notar o rog sa pregateasca un scan al pasaportului. Mereu se cer documente suplimentare in legatura cu data nasterii care nu este trecuta clar pe buletinul romanesc (formatul vechi).\r\n\r\n\r\n\r\nPentru infiintarea firmei, la modul realist, am putea organiza semnarea cu notarul pe joi/vineri (20/21 noiembrie). Pentru notarizarea digitala notarul va va trimite un link pentru inregsitrare. Cel tarziu inainte cu 24 de ore de programare trebuie sa va activati contul. Asta presupune ca accesand linkul veti avea contact in limba germana cu un angajat al serviciului notarity, caruia va trebui sa-i prezentati in webcam pasaportul. Dureaza cam 10-15 minute inregistrarea. Dupa ce este activat contul, va logati de pe el la programarea cu notarul, care va citi actul notarial (statutul firmei) si apoi va spune unde sa dati click ca sa semnati digital. In final, notarul ne va comunica noua documentele legalizate digital si noi vom face inregistrarea firmei.\r\n\r\n\r\n\r\nVa recomand inainte sa demaram pasii cu infiintarea firmei sa gasiti si un Steuerberater, care dupa inregistrare sa va ghideze pentru obtinerea numerelor fiscale (Steuernummer, UID Umsatzsteuernummer) si eventual sa va explice taxarea in legatura cu achizitia imobiliara.\r\n\r\n\r\n\r\n\r\n\r\nIn rest astept de la dvs. documentele pentru mandatare semnate, e-mailul contactului de la Bank Austria si e-mailul agentului imobiliar.\r\n\r\n\r\n\r\nDupa mandatare, noi putem incepe deja cu acel mini-due-diligence in legatura cu proprietatea. Dupa cum am precizat si mai jos, aici estimam costuri suplimentare de EUR 875,- net in prima faza.\r\n\r\n\r\n\r\nO duminica placuta,\r\n\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\n\r\nRechtsanwälte GmbH\r\n\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\n\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\n\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\n\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.  Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC5EDC.4CCF43A0] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC5EDC.4CCF43A0] <https://www.instagram.com/cerha_hempel/>\r\n\r\n\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\n\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\n\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\n\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\n\r\nVon: Cosmin Covaciu <cosmin.covaciu@ipec.ro<mailto:cosmin.covaciu@ipec.ro>>\r\nGesendet: Samstag, 15. November 2025 11:31\r\nAn: Capra Bogdan <Bogdan.Capra@cerhahempel.com<mailto:Bogdan.Capra@cerhahempel.com>>; anastasia.covaciu@yahoo.com<mailto:anastasia.covaciu@yahoo.com>; anastasia.covaciu11@gmail.com<mailto:anastasia.covaciu11@gmail.com>\r\nBetreff: Re: Oferta colaborare [COVACIU/42222000]\r\n\r\n\r\n\r\nCompany Data\r\n\r\n\r\nProposal by CH\r\n\r\n\r\nDesired Company Name\r\n\r\n\r\nAEEC Holding GmbH\r\n\r\n\r\nRegistered Seat & Business Address\r\n\r\n\r\nParkring 2, 1010 Vienna\r\n\r\n\r\n\r\nLa adresa  Klagbaumgasse 11/9, 1040 Vienna, nu avem in contractul de inchiriere permisiunea de a infinta firme.\r\n\r\n\r\nSole Shareholder\r\n\r\n\r\nCosmin-Adrian Covaciu\r\n\r\n\r\nAdress shareholder\r\n\r\n\r\nKlagbaumgasse 11/9, 1040 Vienna - nu am un act oficial in care sa ateste aceasta adresa. Eu mi-am declarat adresa la Politie odata cu Anastasia. Oricum as vrea sa discutam si acest aspect in sensul in care as dori sa obtinem cu Anastasia cetatenia Austriaca cat mai curand posibil. Tinand cont de activitatea de pe cealalta firma si de declaratia de sedere in Austria din Mai anul trecut as vrea sa va vedem ce oportunitati avem.\r\n\r\n\r\nScope & Objective of Business\r\n\r\n\r\nAsset management; property leasing - putem avea si inca doua activitai secundare ? vanzari online de diverse produse si productia de software? exista costrui ? limitari ?\r\n\r\n\r\nManaging Director(s)\r\n\r\n\r\nCosmin-Adrian Covaciu si  Anastasia E.E. Covaciu\r\n\r\n\r\n\r\nDesired Company Name                       AEEC Holding GmbH\r\n\r\n________________________________\r\n\r\nDe la: Cosmin Covaciu\r\nTrimis: vineri, 14 noiembrie 2025 11:39:33\r\nCătre: Bogdan Capra\r\nSubiect: Re: Oferta colaborare [COVACIU/42222000]\r\n\r\n\r\n\r\nBuna dimineata.\r\n\r\n\r\n\r\nAm sa le completez deseara sau miine dimineata si le voi semna.\r\n\r\n\r\n\r\nMultumesc.\r\n\r\n\r\n\r\nCosmin Covaciu\r\n\r\n0040741119266\r\n\r\n0040722239664\r\n\r\n\r\n\r\nOn 13 Nov 2025, at 13:52, Capra Bogdan <Bogdan.Capra@cerhahempel.com<mailto:Bogdan.Capra@cerhahempel.com>> wrote:\r\n\r\n﻿\r\n\r\nATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul,",
+    "truncated": true,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Capra Bogdan",
+    "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAPlW200ohaVMsASI4CSRdBs=",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "1a033393-a9b5-466b-923b-e2f4209e6db5",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "760e3a90-a220-4aac-8a84-8b67cebc396e",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "db0d33e7-676b-4d0a-a828-df5d66c0392a",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "fc6795f8-a711-467b-8420-4184fad06578",
+    "account_email": "cosmin.covaciu@ipec.ro",
+    "subject": "AW:  TB-1159662 - Anfrage für die Eröffnung eines GmbH-Geschäftskontos [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "regionale.wirtschaft@raiffeisenbank.at"
+    ],
+    "cc": [
+      "cosmin.covaciu@ipec.ro"
+    ],
+    "received_at": "2025-11-28T12:10:39Z",
+    "text": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\nSehr geehrte Frau Faustmann,\r\n\r\nvielen Dank für die Bestätigung und das Telefonat. Wir werden die Unterlagen nach Erhalt unverzüglich ausfüllen und Ihnen zukommen lassen. Die Gründungsunterlagen werden Sie, wie besprochen, Anfang der nächsten Woche von mir erhalten.\r\n\r\nMit besten Grüßen\r\nBogdan Capra\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC6079.0CE5FA60] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC6079.0CE5FA60] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\nVon: regionale.wirtschaft@raiffeisenbank.at <regionale.wirtschaft@raiffeisenbank.at>\r\nGesendet: Freitag, 28. November 2025 15:07\r\nAn: Capra Bogdan <Bogdan.Capra@cerhahempel.com>\r\nBetreff: TB-1159662 - Anfrage für die Eröffnung eines GmbH-Geschäftskontos [COVACIU/42222000]\r\n\r\nVertraulichkeitsstufe: vertraulich\r\n\r\nSehr geehrter Herr Mag. Capra,\r\n\r\ngerne bestätige ich den Termin am 5.12. um 10:00 Uhr im Raiffeisenhaus Wien, 1020 Wien, Friedrich-Wilhelm-Raiffeisen-Platz 1.\r\n\r\nIch darf noch einmal darauf hinweisen, dass der Termin nur unter Vorliegen aller erforderlichen Unterlagen (gem. unseres Onboarding Prozesses, wie besprochen) stattfinden kann.\r\n\r\n\r\nFreundliche Grüße\r\n\r\nRegine FAUSTMANN\r\nGeschäftskundenberaterin\r\n\r\nRaiffeisenlandesbank Niederösterreich-Wien AG, Kompetenzzentrum Regionale Wirtschaft\r\n1020 Wien, Friedrich-Wilhelm-Raiffeisen-Platz 1\r\nTelefon: +43 5 170060402\r\nE-Mail: regionale.wirtschaft@raiffeisenbank.at<mailto:regionale.wirtschaft@raiffeisenbank.at>\r\nHomepage: www.raiffeisenbank.at<https://www.raiffeisenbank.at/>\r\n\r\n[cid:image004.gif@01DC6079.0CE5FA60]\r\n\r\n\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Capra Bogdan",
+    "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAL2YJvLocB9Om+DE5CdNXms=",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "2760f1d5-b5d5-468d-bd2b-9bcb3b55dc92",
+    "account_email": "cosmin.covaciu@ipec.ro",
+    "subject": "Instructiuni pentru Programarea cu Notarul si Specimen de Semnatura [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "cosmin.covaciu@ipec.ro"
+    ],
+    "cc": [
+      "anastasia.covaciu@yahoo.com",
+      "anastasia.covaciu11@gmail.com"
+    ],
+    "received_at": "2025-12-02T09:26:42Z",
+    "text": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\nBuna ziua,\r\n\r\nPentru programarea cu notarul va trimit in avans specimenele de semnatura (documentele word) cu instructiunile legate de programarea digitala si upload:\r\n\r\nInstructiuni inregistrare:\r\n\r\n\r\n  *   Dvs. ati primit pe e-mail un link de inregistrare via notarity. Pentru inregistrare trebuie sa aveti un webcam functional si un act de identitate (de preferat pasaport) la indemana;\r\n  *   In cadrul inregistrarii, o persoana (angajat notarity) controleaza datele si va inregistreaza contul. Inregistrarea trebuie sa aiba loc inainte de programarea cu notarul;\r\n  *   Cu datele respective va veti loga in data miercuri, 03.12.2025, ora 14:30, pentru a participa la „Terminul” digital.\r\n\r\nInstructiuni de upload:\r\n\r\n\r\n  *   Notarul a primit de la mine documentele pentru infiintarea fimrei (statutul societatii, decizia pentru administratori si aplicatia pentru Registrul Comertului). Aceste documente vor fi semnate digital via click in felul urmator:\r\n\r\nNr.\r\n\r\nDokument\r\n\r\nForm\r\n\r\nUnterzeichner\r\n\r\n1.\r\n\r\nErrichtungserklärung der A&C Wohnart Immobilien GmbH\r\n\r\nNotariatsakt\r\n\r\nHerr Cosmin-Adrian Covaciu\r\n\r\n\r\n  1.\r\n\r\nGesellschafterbeschluss für die Bestellung der Geschäftsführer\r\n\r\nNotariell beglaubigt\r\n\r\n\r\n  1.  Herr Cosmin-Adrian Covaciu,\r\n  2.  Frau Anastasia-Elena-Ekaterina Covaciu\r\n\r\n\r\n  1.\r\n\r\nFirmenbuchantrag\r\n\r\nNotariell beglaubigt\r\n\r\n\r\n  1.  Herr Cosmin-Adrian Covaciu\r\n  2.  Frau Anastasia-Elena-Ekaterina Covaciu\r\n\r\n\r\n\r\n  *   Notarul va va ghida prin procedura.\r\n  *   Statutul societatii (Errichtungserklärung) va fi citit de catre notar, fiindca este un act notarial. Asta va dura ca. 10 minute.\r\n\r\n\r\n\r\n  *   Veti fi rugati sa uploadati in portal si specimenul de semnatura pentru Registrul Comertului. Si acest document va fi semnat digital. Acest PDF trebuie sa contina semnatura dvs. fizica.\r\n\r\nNr.\r\n\r\nDocument\r\n\r\nInstructiuni\r\n\r\n\r\n  1.\r\n\r\nMusterzeichnungserklärung Herr Covaciu\r\n\r\nVa rog sa tipariti documentul atasat, sa-l semnati si sa-l scanati ca PDF. Apoi acel PDF va fi uplodat in portalul notarial si semnat digital.\r\n\r\nCa exemplu am atasat un PDF „Specimen Semnatura Test”.\r\n\r\n\r\n  1.\r\n\r\nMusterzeichnungserklärung Frau Covaciu\r\n\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMit besten Grüßen\r\nBogdan Capra\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC62E1.B2504180] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC62E1.B2504180] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "3: Fyi"
+    ],
+    "category": null,
+    "folder": "Capra Bogdan",
+    "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAD5TZ8sMm0eCjGEQjBIiD8Y=",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "7c9b9477-4df1-4cee-838c-86138af5ed8b",
+        "name": "Musterzeichnung_Anastasia_Covaciu_A&C_Wohnart_Immobilien_GmbH.DOC",
+        "size": 35840,
+        "content_type": "application/msword",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "e2dc09a9-ca13-49de-880a-3c3c4da0a321",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "729aa0c5-79d5-4bdc-b02b-faa0d7d359e4",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "76362201-ce0e-4dc1-a5ed-1095ec2fb9dd",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "42b2f983-3c14-4652-bc2f-b30c2d3195cf",
+        "name": "Musterzeichnung_Cosmin-Adrian_Covaciu_A&C_Wohnart_Immobilien_GmbH.DOC",
+        "size": 35840,
+        "content_type": "application/msword",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "b8d20ab1-5586-48ad-ae0c-e4f8ba8d0d74",
+        "name": "Specimen Semnatura Test.pdf",
+        "size": 39707,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 522,
+        "page_count": null,
+        "text": "MUSTERZEICHNUNGSERKLÄRUNG\neinesGeschäftsführersder\nA&CHoldingGmbH\nIch,Cosmin-AdrianCovaciu,geb.19.10.1972,Klagbaumgasse11/9,1040Wien,werdeals\nGeschäftsführerderA&CHoldingGmbHmitderBefugnis,dieGesellschaftselbständigzu\nvertreten,dieFirmaderGesellschaftwiefolgtzeichnen:\n[AICITREBUIESASEMNATIMANUAL]\nA&CHoldingGmbH\nWien,am03.12.2025\nOrt,Datum\n[AICIVAVENISEMNATURADIGITALAINPDF]2\nCosmin-AdrianCovaciu,geb.19.10.1972\n1EinfacheUnterschriftvonCosmin-AdrianCovaciu.\n2NotariellbeglaubigteUnterschriftvonCosmin-AdrianCovaciu.\n1/1\n\n"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "4d284f3c-fdf5-4046-ad26-523526bc489a",
+    "account_email": "covaciu.gnm@gmail.com",
+    "subject": "WG: Instructiuni pentru Programarea cu Notarul si Specimen de Semnatura [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "covaciu.gnm@gmail.com"
+    ],
+    "cc": [],
+    "received_at": "2025-12-02T09:41:55Z",
+    "text": "Forwarded\r\n\r\nVon: Capra Bogdan\r\nGesendet: Dienstag, 2. Dezember 2025 12:26\r\nAn: 'Cosmin Covaciu' <cosmin.covaciu@ipec.ro>\r\nCc: 'anastasia.covaciu@yahoo.com' <anastasia.covaciu@yahoo.com>; 'anastasia.covaciu11@gmail.com' <anastasia.covaciu11@gmail.com>\r\nBetreff: Instructiuni pentru Programarea cu Notarul si Specimen de Semnatura [COVACIU/42222000]\r\nPriorität: Hoch\r\n\r\nBuna ziua,\r\n\r\nPentru programarea cu notarul va trimit in avans specimenele de semnatura (documentele word) cu instructiunile legate de programarea digitala si upload:\r\n\r\nInstructiuni inregistrare:\r\n\r\n\r\n  *   Dvs. ati primit pe e-mail un link de inregistrare via notarity. Pentru inregistrare trebuie sa aveti un webcam functional si un act de identitate (de preferat pasaport) la indemana;\r\n  *   In cadrul inregistrarii, o persoana (angajat notarity) controleaza datele si va inregistreaza contul. Inregistrarea trebuie sa aiba loc inainte de programarea cu notarul;\r\n  *   Cu datele respective va veti loga in data miercuri, 03.12.2025, ora 14:30, pentru a participa la \"Terminul\" digital.\r\n\r\nInstructiuni de upload:\r\n\r\n\r\n  *   Notarul a primit de la mine documentele pentru infiintarea fimrei (statutul societatii, decizia pentru administratori si aplicatia pentru Registrul Comertului). Aceste documente vor fi semnate digital via click in felul urmator:\r\n\r\nNr.\r\n\r\nDokument\r\n\r\nForm\r\n\r\nUnterzeichner\r\n\r\n1.\r\n\r\nErrichtungserklärung der A&C Wohnart Immobilien GmbH\r\n\r\nNotariatsakt\r\n\r\nHerr Cosmin-Adrian Covaciu\r\n\r\n\r\n  1.\r\n\r\nGesellschafterbeschluss für die Bestellung der Geschäftsführer\r\n\r\nNotariell beglaubigt\r\n\r\n\r\n  1.  Herr Cosmin-Adrian Covaciu,\r\n  2.  Frau Anastasia-Elena-Ekaterina Covaciu\r\n\r\n\r\n  1.\r\n\r\nFirmenbuchantrag\r\n\r\nNotariell beglaubigt\r\n\r\n\r\n  1.  Herr Cosmin-Adrian Covaciu\r\n  2.  Frau Anastasia-Elena-Ekaterina Covaciu\r\n\r\n\r\n\r\n  *   Notarul va va ghida prin procedura.\r\n  *   Statutul societatii (Errichtungserklärung) va fi citit de catre notar, fiindca este un act notarial. Asta va dura ca. 10 minute.\r\n\r\n\r\n\r\n  *   Veti fi rugati sa uploadati in portal si specimenul de semnatura pentru Registrul Comertului. Si acest document va fi semnat digital. Acest PDF trebuie sa contina semnatura dvs. fizica.\r\n\r\nNr.\r\n\r\nDocument\r\n\r\nInstructiuni\r\n\r\n\r\n  1.\r\n\r\nMusterzeichnungserklärung Herr Covaciu\r\n\r\nVa rog sa tipariti documentul atasat, sa-l semnati si sa-l scanati ca PDF. Apoi acel PDF va fi uplodat in portalul notarial si semnat digital.\r\n\r\nCa exemplu am atasat un PDF \"Specimen Semnatura Test\".\r\n\r\n\r\n  1.\r\n\r\nMusterzeichnungserklärung Frau Covaciu\r\n\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMit besten Grüßen\r\nBogdan Capra\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC62E1.B2504180] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC62E1.B2504180] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "IMPORTANT",
+      "CATEGORY_PERSONAL",
+      "INBOX",
+      "Label_32071",
+      "3: Fyi"
+    ],
+    "category": null,
+    "folder": "Capra Bogdan",
+    "thread_id": "19adedf07f9c3a62",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "f9da4e9d-ae03-4fe7-9cb3-16ab79ca2b86",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "88755acb-480a-4d3a-8f50-86b5e55e7c53",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "b4e3d8e5-341f-4e8b-9f52-8c5e38b4813c",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "da48b385-c9a8-4182-9452-91d8ac089c85",
+        "name": "Specimen Semnatura Test.pdf",
+        "size": 39707,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 522,
+        "page_count": null,
+        "text": "MUSTERZEICHNUNGSERKLÄRUNG\neinesGeschäftsführersder\nA&CHoldingGmbH\nIch,Cosmin-AdrianCovaciu,geb.19.10.1972,Klagbaumgasse11/9,1040Wien,werdeals\nGeschäftsführerderA&CHoldingGmbHmitderBefugnis,dieGesellschaftselbständigzu\nvertreten,dieFirmaderGesellschaftwiefolgtzeichnen:\n[AICITREBUIESASEMNATIMANUAL]\nA&CHoldingGmbH\nWien,am03.12.2025\nOrt,Datum\n[AICIVAVENISEMNATURADIGITALAINPDF]2\nCosmin-AdrianCovaciu,geb.19.10.1972\n1EinfacheUnterschriftvonCosmin-AdrianCovaciu.\n2NotariellbeglaubigteUnterschriftvonCosmin-AdrianCovaciu.\n1/1\n\n"
+      },
+      {
+        "id": "8c04ed23-2d90-4d56-9446-623382f95da3",
+        "name": "Musterzeichnung_Anastasia_Covaciu_A&C_Wohnart_Immobilien_GmbH.DOC",
+        "size": 35840,
+        "content_type": "application/msword",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "c597462c-3cad-4adc-a398-36d7454aaa8c",
+        "name": "Musterzeichnung_Cosmin-Adrian_Covaciu_A&C_Wohnart_Immobilien_GmbH.DOC",
+        "size": 35840,
+        "content_type": "application/msword",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "ade62615-b043-42c1-925c-5870671c4e57",
+    "account_email": "covaciu.gnm@gmail.com",
+    "subject": "WG: A & C Holding GmbH in Gründung [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "cosmin.covaciu@ipec.ro",
+      "covaciu.gnm@gmail.com"
+    ],
+    "cc": [
+      "anastasia.covaciu@yahoo.com",
+      "anastasia.covaciu11@gmail.com"
+    ],
+    "received_at": "2025-12-02T12:05:58Z",
+    "text": "Buna ziua,\r\n\r\nVa redirectionez documentul KYC comunicat de banca azi. Va rog sa va uitati peste el si sa-l completati in prima faza in format word si ulterior sa mi-l trimiteti pentru control. Numele companiei il voi actualiza eu. In document e trecut A&C Holding GmbH.\r\n\r\nAr fi bine daca ati putea completa documentul pana joi, astfel incat sa-l trimitem bancii inaintea programarii de vineri.\r\n\r\nConform informatiilor de mai jos, din partea Anastasiei am nevoie de:\r\n\r\n\r\n  1.  copie de pasaport;\r\n  2.  Meldezettel (dovada adresei);\r\n  3.  Nr. de telefon.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC639D.299C80D0] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC639D.299C80D0] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\nVon: SEIDL Katharina (RLBNOE) <katharina.seidl@raiffeisenbank.at>\r\nGesendet: Dienstag, 2. Dezember 2025 09:06\r\nAn: Capra Bogdan <Bogdan.Capra@cerhahempel.com>\r\nCc: bk-kmu-kundenservice (RLBNOE) <bk-kmu-kundenservice@raiffeisenbank.at>; FAUSTMANN Regine (RLBNOE) <regine.faustmann@raiffeisenbank.at>\r\nBetreff: WG: A & C Holding GmbH in Gründung\r\n\r\n\r\nVertraulichkeitsstufe: Vertraulich\r\n\r\nSehr geehrter Herr Mag. Capra,\r\n\r\nin Ergänzung zu dem u.a. Mail bitte ich auch um Einholung des beigefügten Fragebogens.\r\n\r\nVielen Dank!\r\n\r\n\r\nFreundliche Grüße / Kind regards,\r\n\r\nKatharina SEIDL\r\nKundenkompetenzcenter KOM (KKC)\r\n\r\nWIR MACHT'S MÖGLICH.\r\n\r\nRaiffeisenlandesbank NÖ-Wien AG\r\nFriedrich-Wilhelm-Raiffeisen-Platz 1, 1020 Wien\r\nt +43 5 1700-60461 | m +43 699 15775118 | katharina.seidl@raiffeisenbank.at <mailto:katharina.seidl@raiffeisenbank.at>  |  www.raiffeisenbank.at <https://www.raiffeisen.at/de/privatkunden.html>\r\n\r\nBitte denken Sie an die Umwelt, bevor Sie drucken. / Please consider the environment before printing.\r\nVon: SEIDL Katharina (RLBNOE) Im Auftrag von bk-kmu-kundenservice (RLBNOE)\r\nGesendet: Dienstag, 2. Dezember 2025 09:00\r\nAn: 'Bogdan.Capra@cerhahempel.com' <Bogdan.Capra@cerhahempel.com<mailto:Bogdan.Capra@cerhahempel.com>>\r\nCc: bk-kmu-kundenservice (RLBNOE) <bk-kmu-kundenservice@raiffeisenbank.at<mailto:bk-kmu-kundenservice@raiffeisenbank.at>>; FAUSTMANN Regine (RLBNOE) <regine.faustmann@raiffeisenbank.at<mailto:regine.faustmann@raiffeisenbank.at>>\r\nBetreff: A & C Holding GmbH in Gründung\r\n\r\nSehr geehrter Herr Mag. Capra,\r\n\r\nvor Übermittlung der Unterlagen für die Kundenanlage der A & C Holding GmbH in Gründung bitten wir um Beibringung der folgenden Dokumente:\r\n\r\n\r\n  *   Notariatsakt/Gesellschaftsvertrag der A & C Holding GmbH in Gründung\r\n  *   Aktuell gültiges Legitimationsdokument Herr Cosmin-Adrian Covaciu\r\n  *   Aktuell gültiges Legitimationsdokument, Wohnadresse, Mobilnummer von Frau Anastasia-Elena-Ekaterina Covaciu\r\n\r\nVielen Dank im Voraus!\r\n\r\n\r\n\r\nFreundliche Grüße / Kind regards,\r\n\r\nKatharina SEIDL\r\nKundenkompetenzcenter KOM (KKC)\r\n\r\nWIR MACHT'S MÖGLICH.\r\n\r\nRaiffeisenlandesbank NÖ-Wien AG\r\nFriedrich-Wilhelm-Raiffeisen-Platz 1, 1020 Wien\r\nt +43 5 1700-60461 | m +43 699 15775118 | katharina.seidl@raiffeisenbank.at <mailto:katharina.seidl@raiffeisenbank.at>  |  www.raiffeisenbank.at <https://www.raiffeisen.at/de/privatkunden.html>\r\n\r\nBitte denken Sie an die Umwelt, bevor Sie drucken. / Please consider the environment before printing.\r\n________________________________\r\n\r\nRAIFFEISENLANDESBANK NIEDERÖSTERREICH-WIEN AG - Firmensitz Wien - FN 203160s - Handelsgericht Wien\r\nDer Austausch von Nachrichten mit oben angeführtem Absender via E-Mail dient ausschließlich Informationszwecken. Rechtsgeschäftliche Erklärungen dürfen über dieses Medium nicht ausgetauscht werden.\r\nCorrespondence with above mentioned sender via e-mail is for informational purposes only. This medium may not be used for the exchange of legally-binding communications.\r\n\r\n________________________________\r\n",
+    "truncated": false,
+    "labels": [
+      "Label_31902",
+      "Label_38276",
+      "CATEGORY_PERSONAL",
+      "INBOX",
+      "3: Fyi",
+      "Label_37906"
+    ],
+    "category": "fyi",
+    "folder": "Capra Bogdan",
+    "thread_id": "19adf62eb7f8f621",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "762a54a5-1a1b-4ec9-a3f1-7626d4e06aa2",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "d6a42c90-d3bc-44b6-b7f3-c0238e3fc3ce",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "eedc48ab-1ae2-4e5b-85fe-a5106bd3446a",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "49a168bf-5025-4a98-a7e6-4a8228a850a4",
+        "name": "Kundinneninformation.docx",
+        "size": 50154,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "has_text": true,
+        "text_chars": 4488,
+        "page_count": null,
+        "text": "\n\nKundinnen- und Kundeninformationen\n\nHauptgeschäftstätigkeit und Branche\nBranche:\nBranche bitte anführen\n\nBeschreibung der Geschäftstätigkeit:\nGeschäftstätigkeit bitte anführen\n\n\nHintergründe der Geschäftsbeziehung zu Österreich\n Unternehmenssitz im Inland      Geschäftstätigkeit im Inland     Immobilienerwerb \n Vertrauen in den Standort Österreich     Geldanlage / Investitionen im Inland       Sonstige:\nZutreffendes bitte ankreuzen und Sonstige bitte anführen, Mehrfachauswahl möglich\n\nAktuelle und künftige monatliche Erträge\nZutreffendes bitte ankreuzen und Beträge netto in Euro pro Monat bitte anführen, Mehrfachauswahl möglich, Verträge für Lizenzen, Kooperationen oder Arbeitsgemeinschaften\n\nHerkunft des aktuellen und künftigen Vermögens\n Erträge aus Geschäftseinnahmen      Erträge aus Mieteinnahmen / Immobilienverkäufen        \n Erträge aus Beteiligungen (z.B. Gewinnausschüttungen)      Erträge aus Verträgen (z.B. Pacht oder Lizenzgebühr)      (Teil-) Verkäufe von Unternehmensanteilen      Erträge aus Kryptowährungen \n Crowdfunding      Spendenzahlungen      Sonstige:\nZutreffendes bitte ankreuzen und Sonstige bitte anführen, Mehrfachauswahl möglich\n\n\nGeplante Verwendung des aktuellen und künftigen Vermögens\n Geschäftsbetrieb      Immobilienkauf      Veranlagung in Finanzprodukte     \n Investition in Beteilgungen      Veranlagung in Kryptowährungen       Spendenzahlungen\nSponsoring (z.B. Sport)     Sonstige:\nZutreffendes bitte ankreuzen und Sonstige bitte anführen, Mehrfachauswahl möglich\n\nKünftige monatliche Kontobewegungen im Vergleich zu den bisherigen in den letzten sechs Monaten\nLaufende monatliche kontobezogene Eingänge aus dem Inland: EUR         \n Stabil (±30%) oder keine    Sinkend    Steigend\nLaufende monatliche kontobezogene Eingänge aus dem Ausland: EUR       \n Stabil (±30%) oder keine    Sinkend    Steigend\nZutreffendes bitte ankreuzen und wenn Kontobewegungen vorgesehen sind, Land oder Länder bitte unbedingt anführen\nKontobezogene monatliche Ausgänge in das Ausland: EUR                           \n Stabil (±30%) oder keine    Sinkend    Steigend\nZutreffendes bitte ankreuzen und wenn Kontobewegungen vorgesehen sind, Land oder Länder bitte unbedingt anführen\nKünftige monatliche Kontobewegungen im Vergleich zu den bisherigen in den letzten sechs Monaten\nBareinzahlungen monatlich: EUR                                       \n Stabil (±30%) oder keine    Sinkend    Steigend\nWenn laufende Bareinzahlungen, dann: \n Regelmäßig, monatlich    Selten, gelegentlich, anlassbezogen\nZutreffendes bitte ankreuzen\n\nBeiliegende Nachweise der Vermögenswerte\n Jahresabschluss (z.B. Bilanz)      Quartalsbericht, -zahlen      Wertpapierabrechnung / Nachweis Dividende      Liefer- / Produktionsverträge       Abrechnungsbelege (z.B. Kassenabrechnung)                          Nachweis zu Kryptotransaktionen      Nachweis Spenden / Crowdfunding      Pacht- oder Lizenzverträge\n Andere Verträge wie beispielsweise Immobilien- oder Unternehmensverkauf       Sonstige:\n\nZutreffendes bitte ankreuzen, Sonstige bitte anführen, Mehrfachauswahl möglich und Dokumente beilegen\n\nGeschäftsumfeld\nNiederlassungen im Ausland\n Nein      Ja:\nLand beziehungsweise Länder bitte anführen\nMuttergesellschaft im Ausland\n Nein      Ja:\nLand bitte anführen\nVerkaufsmärkte im Ausland\n Nein      Ja:\nLand beziehungsweise Länder bitte anführen\nHauptkundinnen, Hauptkunden oder Hauptauftraggebende im Ausland\nSollten Verkaufsmärkte im Ausland vorhanden sein, führen Sie bitte Hauptkundinnen, Hauptkunden oder Hauptauftraggebende an.\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nBitte zumindest eine oder einen anführen, Halbjahresumsatz in Euro sofern bekannt\n\nEinkaufsmärkte im Ausland\n Nein      Ja:\nLand beziehungsweise Länder bitte anführen\n\nHauptlieferantinnen, Hauptlieferanten oder Hauptbegünstigte im Ausland\nSollten Einkaufsmärkte im Ausland vorhanden sein, führen Sie bitte Hauptlieferantinnen, Hauptlieferanten oder Hauptbegünstigte an.\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nBitte zumindest eine oder einen anführen, Halbjahresumsatz in Euro sofern bekannt\n\n\nSonstige Bankverbindungen im In- und Ausland\nNamen der sonstigen Banken bitte unbedingt anführen\n\nStand der Informationen\nDatum\n\n"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "a3ee6c8e-5abf-4d5f-8363-4fb4520fbfb3",
+    "account_email": "cosmin.covaciu@ipec.ro",
+    "subject": "WG: A & C Holding GmbH in Gründung [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "cosmin.covaciu@ipec.ro",
+      "covaciu.gnm@gmail.com"
+    ],
+    "cc": [
+      "anastasia.covaciu@yahoo.com",
+      "anastasia.covaciu11@gmail.com"
+    ],
+    "received_at": "2025-12-02T12:06:48Z",
+    "text": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\nBuna ziua,\r\n\r\nVa redirectionez documentul KYC comunicat de banca azi. Va rog sa va uitati peste el si sa-l completati in prima faza in format word si ulterior sa mi-l trimiteti pentru control. Numele companiei il voi actualiza eu. In document e trecut A&C Holding GmbH.\r\n\r\nAr fi bine daca ati putea completa documentul pana joi, astfel incat sa-l trimitem bancii inaintea programarii de vineri.\r\n\r\nConform informatiilor de mai jos, din partea Anastasiei am nevoie de:\r\n\r\n\r\n  1.  copie de pasaport;\r\n  2.  Meldezettel (dovada adresei);\r\n  3.  Nr. de telefon.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DC639D.299C80D0] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DC639D.299C80D0] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\nVon: SEIDL Katharina (RLBNOE) <katharina.seidl@raiffeisenbank.at>\r\nGesendet: Dienstag, 2. Dezember 2025 09:06\r\nAn: Capra Bogdan <Bogdan.Capra@cerhahempel.com>\r\nCc: bk-kmu-kundenservice (RLBNOE) <bk-kmu-kundenservice@raiffeisenbank.at>; FAUSTMANN Regine (RLBNOE) <regine.faustmann@raiffeisenbank.at>\r\nBetreff: WG: A & C Holding GmbH in Gründung\r\n\r\n\r\nVertraulichkeitsstufe: Vertraulich\r\n\r\nSehr geehrter Herr Mag. Capra,\r\n\r\nin Ergänzung zu dem u.a. Mail bitte ich auch um Einholung des beigefügten Fragebogens.\r\n\r\nVielen Dank!\r\n\r\n\r\nFreundliche Grüße / Kind regards,\r\n\r\nKatharina SEIDL\r\nKundenkompetenzcenter KOM (KKC)\r\n\r\nWIR MACHT'S MÖGLICH.\r\n\r\nRaiffeisenlandesbank NÖ-Wien AG\r\nFriedrich-Wilhelm-Raiffeisen-Platz 1, 1020 Wien\r\nt +43 5 1700-60461 | m +43 699 15775118 | katharina.seidl@raiffeisenbank.at <mailto:katharina.seidl@raiffeisenbank.at>  |  www.raiffeisenbank.at <https://www.raiffeisen.at/de/privatkunden.html>\r\n\r\nBitte denken Sie an die Umwelt, bevor Sie drucken. / Please consider the environment before printing.\r\nVon: SEIDL Katharina (RLBNOE) Im Auftrag von bk-kmu-kundenservice (RLBNOE)\r\nGesendet: Dienstag, 2. Dezember 2025 09:00\r\nAn: 'Bogdan.Capra@cerhahempel.com' <Bogdan.Capra@cerhahempel.com<mailto:Bogdan.Capra@cerhahempel.com>>\r\nCc: bk-kmu-kundenservice (RLBNOE) <bk-kmu-kundenservice@raiffeisenbank.at<mailto:bk-kmu-kundenservice@raiffeisenbank.at>>; FAUSTMANN Regine (RLBNOE) <regine.faustmann@raiffeisenbank.at<mailto:regine.faustmann@raiffeisenbank.at>>\r\nBetreff: A & C Holding GmbH in Gründung\r\n\r\nSehr geehrter Herr Mag. Capra,\r\n\r\nvor Übermittlung der Unterlagen für die Kundenanlage der A & C Holding GmbH in Gründung bitten wir um Beibringung der folgenden Dokumente:\r\n\r\n\r\n  *   Notariatsakt/Gesellschaftsvertrag der A & C Holding GmbH in Gründung\r\n  *   Aktuell gültiges Legitimationsdokument Herr Cosmin-Adrian Covaciu\r\n  *   Aktuell gültiges Legitimationsdokument, Wohnadresse, Mobilnummer von Frau Anastasia-Elena-Ekaterina Covaciu\r\n\r\nVielen Dank im Voraus!\r\n\r\n\r\n\r\nFreundliche Grüße / Kind regards,\r\n\r\nKatharina SEIDL\r\nKundenkompetenzcenter KOM (KKC)\r\n\r\nWIR MACHT'S MÖGLICH.\r\n\r\nRaiffeisenlandesbank NÖ-Wien AG\r\nFriedrich-Wilhelm-Raiffeisen-Platz 1, 1020 Wien\r\nt +43 5 1700-60461 | m +43 699 15775118 | katharina.seidl@raiffeisenbank.at <mailto:katharina.seidl@raiffeisenbank.at>  |  www.raiffeisenbank.at <https://www.raiffeisen.at/de/privatkunden.html>\r\n\r\nBitte denken Sie an die Umwelt, bevor Sie drucken. / Please consider the environment before printing.\r\n________________________________\r\n\r\nRAIFFEISENLANDESBANK NIEDERÖSTERREICH-WIEN AG - Firmensitz Wien - FN 203160s - Handelsgericht Wien\r\nDer Austausch von Nachrichten mit oben angeführtem Absender via E-Mail dient ausschließlich Informationszwecken. Rechtsgeschäftliche Erklärungen dürfen über dieses Medium nicht ausgetauscht werden.\r\nCorrespondence with above mentioned sender via e-mail is for informational purposes only. This medium may not be used for the exchange of legally-binding communications.\r\n\r\n________________________________\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Capra Bogdan",
+    "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQADAAtpS+lkAhhjqfXHVdD10=",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "5bc2ba79-6b55-4f43-aef6-f0efae4f70a7",
+        "name": "Kundinneninformation.docx",
+        "size": 50154,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "has_text": true,
+        "text_chars": 4488,
+        "page_count": null,
+        "text": "\n\nKundinnen- und Kundeninformationen\n\nHauptgeschäftstätigkeit und Branche\nBranche:\nBranche bitte anführen\n\nBeschreibung der Geschäftstätigkeit:\nGeschäftstätigkeit bitte anführen\n\n\nHintergründe der Geschäftsbeziehung zu Österreich\n Unternehmenssitz im Inland      Geschäftstätigkeit im Inland     Immobilienerwerb \n Vertrauen in den Standort Österreich     Geldanlage / Investitionen im Inland       Sonstige:\nZutreffendes bitte ankreuzen und Sonstige bitte anführen, Mehrfachauswahl möglich\n\nAktuelle und künftige monatliche Erträge\nZutreffendes bitte ankreuzen und Beträge netto in Euro pro Monat bitte anführen, Mehrfachauswahl möglich, Verträge für Lizenzen, Kooperationen oder Arbeitsgemeinschaften\n\nHerkunft des aktuellen und künftigen Vermögens\n Erträge aus Geschäftseinnahmen      Erträge aus Mieteinnahmen / Immobilienverkäufen        \n Erträge aus Beteiligungen (z.B. Gewinnausschüttungen)      Erträge aus Verträgen (z.B. Pacht oder Lizenzgebühr)      (Teil-) Verkäufe von Unternehmensanteilen      Erträge aus Kryptowährungen \n Crowdfunding      Spendenzahlungen      Sonstige:\nZutreffendes bitte ankreuzen und Sonstige bitte anführen, Mehrfachauswahl möglich\n\n\nGeplante Verwendung des aktuellen und künftigen Vermögens\n Geschäftsbetrieb      Immobilienkauf      Veranlagung in Finanzprodukte     \n Investition in Beteilgungen      Veranlagung in Kryptowährungen       Spendenzahlungen\nSponsoring (z.B. Sport)     Sonstige:\nZutreffendes bitte ankreuzen und Sonstige bitte anführen, Mehrfachauswahl möglich\n\nKünftige monatliche Kontobewegungen im Vergleich zu den bisherigen in den letzten sechs Monaten\nLaufende monatliche kontobezogene Eingänge aus dem Inland: EUR         \n Stabil (±30%) oder keine    Sinkend    Steigend\nLaufende monatliche kontobezogene Eingänge aus dem Ausland: EUR       \n Stabil (±30%) oder keine    Sinkend    Steigend\nZutreffendes bitte ankreuzen und wenn Kontobewegungen vorgesehen sind, Land oder Länder bitte unbedingt anführen\nKontobezogene monatliche Ausgänge in das Ausland: EUR                           \n Stabil (±30%) oder keine    Sinkend    Steigend\nZutreffendes bitte ankreuzen und wenn Kontobewegungen vorgesehen sind, Land oder Länder bitte unbedingt anführen\nKünftige monatliche Kontobewegungen im Vergleich zu den bisherigen in den letzten sechs Monaten\nBareinzahlungen monatlich: EUR                                       \n Stabil (±30%) oder keine    Sinkend    Steigend\nWenn laufende Bareinzahlungen, dann: \n Regelmäßig, monatlich    Selten, gelegentlich, anlassbezogen\nZutreffendes bitte ankreuzen\n\nBeiliegende Nachweise der Vermögenswerte\n Jahresabschluss (z.B. Bilanz)      Quartalsbericht, -zahlen      Wertpapierabrechnung / Nachweis Dividende      Liefer- / Produktionsverträge       Abrechnungsbelege (z.B. Kassenabrechnung)                          Nachweis zu Kryptotransaktionen      Nachweis Spenden / Crowdfunding      Pacht- oder Lizenzverträge\n Andere Verträge wie beispielsweise Immobilien- oder Unternehmensverkauf       Sonstige:\n\nZutreffendes bitte ankreuzen, Sonstige bitte anführen, Mehrfachauswahl möglich und Dokumente beilegen\n\nGeschäftsumfeld\nNiederlassungen im Ausland\n Nein      Ja:\nLand beziehungsweise Länder bitte anführen\nMuttergesellschaft im Ausland\n Nein      Ja:\nLand bitte anführen\nVerkaufsmärkte im Ausland\n Nein      Ja:\nLand beziehungsweise Länder bitte anführen\nHauptkundinnen, Hauptkunden oder Hauptauftraggebende im Ausland\nSollten Verkaufsmärkte im Ausland vorhanden sein, führen Sie bitte Hauptkundinnen, Hauptkunden oder Hauptauftraggebende an.\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nBitte zumindest eine oder einen anführen, Halbjahresumsatz in Euro sofern bekannt\n\nEinkaufsmärkte im Ausland\n Nein      Ja:\nLand beziehungsweise Länder bitte anführen\n\nHauptlieferantinnen, Hauptlieferanten oder Hauptbegünstigte im Ausland\nSollten Einkaufsmärkte im Ausland vorhanden sein, führen Sie bitte Hauptlieferantinnen, Hauptlieferanten oder Hauptbegünstigte an.\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nName \tUnternehmenssitz \tTätigkeit \tHalbjahresumsatz in Euro\nBitte zumindest eine oder einen anführen, Halbjahresumsatz in Euro sofern bekannt\n\n\nSonstige Bankverbindungen im In- und Ausland\nNamen der sonstigen Banken bitte unbedingt anführen\n\nStand der Informationen\nDatum\n\n"
+      },
+      {
+        "id": "d1349a0f-83c3-4e9a-b3ee-67b166b4c5fb",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "291ce06f-3dab-467a-82db-aadc03df5499",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "93cc2254-513d-4f42-ab05-2f0572c4cf80",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  }
+]

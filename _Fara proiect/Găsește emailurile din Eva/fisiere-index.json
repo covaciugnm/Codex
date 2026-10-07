@@ -1,0 +1,24 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-30/da/outputs/conturi-email-eva.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/conturi-email-eva--289285d7.txt",
+    "bytes": 429,
+    "sha256": "c8a06d3e73d1fd78d0157d89e72d3b9a4ae46a4c0292d621b509a6e16065160e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-30\\da\\outputs\\conturi-email-eva.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/conturi-email-eva--289285d7.txt",
+    "bytes": 429,
+    "sha256": "c8a06d3e73d1fd78d0157d89e72d3b9a4ae46a4c0292d621b509a6e16065160e"
+  },
+  {
+    "source_reference": "mailto:cristian.covaciu@ipec.ro",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "plugin://dev-6aa3eadee6ec8191a9bc3b9608c0f1bc@created-by-me-remote",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,1095 @@
+# Rezultate — Revise DRACULA canon document
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## Asistent
+
+Voi verifica instrucțiunile și auditurile canonului, voi arhiva starea inițială și voi aplica corecțiile în limitele documentului și folderului de audit alocat. Voi raporta separat dovezile reviziei și orice punct care necesită verificarea auditorilor independenți.
+
+
+## Asistent
+
+Canonul de pe disc este deja v4.1, dar execuția planului R1 nu este documentată, iar ultimele note arhivate sunt 9,31 / 8,70 / 8,70. Voi trata textul existent ca revizie începută, păstrându-l într-un instantaneu nou; nu voi suprascrie arhivele R1 și nu voi modifica raportul comun al Showrunnerului.
+
+
+## Asistent
+
+Am localizat și câteva neconcordanțe rămase în v4.1: rezumatul R7 diferă de regula completă, retragerea identității Valentin depășește plafonul fără toate condițiile cerute, iar unele detalii istorice sunt prezentate prea categoric. Voi folosi Python din calea indicată pentru verificări și dovezi reproductibile. Registrul central rămâne în grija părintelui.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b94db35e-37ae-47e1-aa7e-ed79aaa0b163",
+  "query": "site.ris.bka.gv.at Staatsbürgerschaftsgesetz 28 Beibehaltung ...",
+  "action": {
+    "type": "search",
+    "queries": [
+      "site.ris.bka.gv.at Staatsbürgerschaftsgesetz 28 Beibehaltung",
+      "site.legislatie.just.ro Legea 8 1996 articol 39 opere cinematografice",
+      "site.museum sunglasses quartz China",
+      "site.leginfo.legislature.ca.gov 3344.1 seventy years death"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn0search0",
+      "snippet": "# Bundesrecht konsolidiert: Staatsbürgerschaftsgesetz 1985 § 28, Fassung vom 29.12.2025 ... (3)Absatz 3,Die Beibehaltung der Staatsbürgerschaft darf nur auf schriftlichen Antrag und unter der Bedingun",
+      "title": "RIS - Staatsbürgerschaftsgesetz 1985 § 28 - Bundesrecht konsolidiert, Fassung vom 29.12.2025",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2025-12-29&Gesetzesnummer=10005579&Paragraf=28&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "legislatie.just.ro",
+      "ref_id": "turn0search1",
+      "snippet": "III din Legea nr. 74/2018 pentru modificarea și completarea Legii nr. 8/1996 privind dreptul de autor și drepturile conexe, publicată în Monitorul Oficial al României,",
+      "title": "LEGE (A) 8 14/03/1996 - Portal Legislativ",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/259087"
+    },
+    {
+      "type": "text_result",
+      "domain": "legislatie.just.ro",
+      "ref_id": "turn0search2",
+      "snippet": "(5) Exportul de exemplar în format accesibil, efectuat de o entitate autorizată stabilită într-un stat membru către o țară terță, care este parte la Tratatul",
+      "title": "LEGE (A) 8 14/03/1996 - Portal Legislativ",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/221527"
+    },
+    {
+      "type": "text_result",
+      "domain": "legislatie.just.ro",
+      "ref_id": "turn0search3",
+      "snippet": "+ Articolul 20(1) Se consideră comunicare publică orice comunicare a unei opere, realizată direct sau prin orice mijloace tehnice, făcută întrun loc deschis publicului sau",
+      "title": "LEGE (A) 8 14/03/1996 - Portal Legislativ",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/252971"
+    },
+    {
+      "type": "text_result",
+      "domain": "legislatie.just.ro",
+      "ref_id": "turn0search4",
+      "snippet": "g) operele de artă grafică sau plastică, cum ar fi: operele de sculptură, pictură, gravură, litografie, arta monumentală, scenografie, tapiserie, ceramică, plastica sticlei şi a",
+      "title": "LEGE (A) 8 14/03/1996",
+      "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G3UTPUH1GU9FIO33VEHOPXMINLO"
+    },
+    {
+      "type": "text_result",
+      "domain": "legislatie.just.ro",
+      "ref_id": "turn0search5",
+      "snippet": "+ Articolul 39(1) Cesiunea dreptului de radiodifuzare a unei opere către un organism de radiodifuziune sau de televiziune dă dreptul acestuia să înregistreze opera pentru",
+      "title": "LEGE (R) 8 14/03/1996 - Portal Legislativ",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/201472?isFormaDeBaza=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn0search12",
+      "snippet": "Staatsbürgerschaftsgesetzes 1965 in der Stammfassung und in der Fassung der Staatsbürgerschaftsgesetz- ... Nachträgliche Bewilligung zur Beibehaltung der österreichischen Staatsbürgerschaft trotz ... ",
+      "title": "Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40245832/NOR40245832.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.leginfo.ca.gov",
+      "ref_id": "turn0search13",
+      "snippet": "An act to amend Section 3344.1 of the Civil Code, relating to deceased ... within 70 years of the personality’s death, except as specified.",
+      "title": "Senate Bill No. 771",
+      "url": "https://www.leginfo.ca.gov/pub/07-08/bill/sen/sb_0751-0800/sb_771_bill_20071010_chaptered.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "wipolex-res.wipo.int",
+      "ref_id": "turn0search14",
+      "snippet": "@Articolul a fost modificat prin art. ... Operele cinematografice si alte opere audiovizuale ... 329/2006. ... 66. - Sunt autori ai operei audiovizuale, in conditiile",
+      "title": "Lege nr. 8/1996 din 14/03/1996 (modificată până la Legea nr. 329/2006)",
+      "url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/ro/ro/ro025ro.pdf?Expires=1773534169&Key-Pair-Id=K1QGBX7Y6FHYJN&[CREDENTIAL_REDACTED]&last-modified=1578573327"
+    },
+    {
+      "type": "text_result",
+      "domain": "gesetzefinden.at",
+      "ref_id": "turn0search6",
+      "snippet": "Bundesrecht Bundesgesetze Staatsbürgerschaftsgesetz 1985 ABSCHNITT III VERLUST DER STAATSBÜRGERSCHAFT§ 28 ... Im Gesetz anzeigen RIS ... (1) Einem Staatsbürger ist für den Fall des Erwerbes",
+      "title": "§ 28 — StbG | GesetzeFinden.at",
+      "url": "https://gesetzefinden.at/bundesrecht/bundesgesetze/stbg/para-28"
+    },
+    {
+      "type": "text_result",
+      "domain": "law.justia.com",
+      "ref_id": "turn0search7",
+      "snippet": "(f) (1) A successor in interest to the rights of a deceased personality under this section or a licensee thereof shall not recover damages for",
+      "title": "California Civil Code § 3344.1 (2024) :: 2024 California Code :: U.S. Codes and Statutes :: U.S. Law :: Justia",
+      "url": "https://law.justia.com/codes/california/2024/code-civ/division-4/part-1/title-2/chapter-2/article-3/section-3344-1/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ea12ee7a-3a18-4ba5-9c51-69bd538ed105",
+  "query": "site.college-optometrists.org sunglasses history Chinese quartz Scarlett 1727 ...",
+  "action": {
+    "type": "search",
+    "queries": [
+      "site.college-optometrists.org sunglasses history Chinese quartz Scarlett 1727",
+      "site.copyright.gov duration copyright works 1923 1977 95 years"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.copyright.gov",
+      "ref_id": "turn1search0",
+      "snippet": "As a general rule, for works created after January 1, 1978, copyright protection lasts for the life of the author plus an additional 70 years.For",
+      "title": "How Long Does Copyright Protection Last? (FAQ) | U.S. Copyright Office",
+      "url": "https://www.copyright.gov/help/faq/faq-duration.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.copyright.gov",
+      "ref_id": "turn1search1",
+      "snippet": "(c) Anonymous Works, Pseudonymous Works, and Works Made for Hire.—In the case of an anonymous work, a pseudonymous work, or a work made for hire,",
+      "title": "Chapter 3 - Circular 92 | U.S. Copyright Office",
+      "url": "https://www.copyright.gov/title17/92chap3.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.copyright.gov",
+      "ref_id": "turn1search12",
+      "snippet": "*Example:* A work that was first copyrighted on April 10, 1923, and renewed between April 10, 1950, and April 10, 1951, would formerly have fallen",
+      "title": "Circular 15T Extension of Copyright Terms",
+      "url": "https://www.copyright.gov/circs/circ15t.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.copyright.gov",
+      "ref_id": "turn1search2",
+      "snippet": "Under the current law, works created on or after January 1, 1978, have a copyright term of life of the author plus seventy years after",
+      "title": "What is Copyright? | U.S. Copyright Office",
+      "url": "https://www.copyright.gov/what-is-copyright/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn1search3",
+      "snippet": "Sunglasses are an essential accessory today, but their history is far more recent than many people realise. ... * 1916: American Optical Company promoted sunglasses",
+      "title": "The history and fashion of sunglasses - College of Optometrists",
+      "url": "https://www.college-optometrists.org/the-british-optical-association-museum/history-fashion-sunglasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.copyright.gov",
+      "ref_id": "turn1search4",
+      "snippet": "Congress also altered the renewal provisions for works copyrighted between January 1, 1964, and December 31, 1977, making second-term renewal automatic and the correlating registration",
+      "title": "Timeline 1950 - 2000 | U.S. Copyright Office",
+      "url": "https://www.copyright.gov/timeline/timeline_1950-2000.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "copyright.gov",
+      "ref_id": "turn1search5",
+      "snippet": "Generally, for most works created after 1978, protection lasts for the life of the author plus 70 years.For anonymous works, pseudonymous works, or works made",
+      "title": "The Lifecycle of Copyright | U.S. Copyright Office",
+      "url": "https://copyright.gov/history/copyright-exhibit/lifecycle/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn1search6",
+      "snippet": "London optician Edward Scarlett is credited with developing the modern style of spectacles which were kept in place with arms, known as ‘temples’. ... If",
+      "title": "The history of spectacles - College of Optometrists",
+      "url": "https://www.college-optometrists.org/the-british-optical-association-museum/the-history-of-spectacles"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.copyright.gov",
+      "ref_id": "turn1search7",
+      "snippet": "Como regla general, para las obras creadas después del 1 de enero de 1978, la protección del derecho de autor dura la vida del autor",
+      "title": "¿Cuánto dura la protección del derecho de autor? | U.S. Copyright Office",
+      "url": "https://www.copyright.gov/espanol/faq/duracion.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.copyright.gov",
+      "ref_id": "turn1search13",
+      "snippet": "The first act extended the copyright to December 31, 1965; the second act extended it to December 31, 1967; the third act extended it to",
+      "title": "Circular 15A  Duration of Copyright",
+      "url": "https://www.copyright.gov/circs/circ15a.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn1search8",
+      "snippet": "This part of the collection comprises the archive of the former British Optical Association (1895-1980) the world’s first professional body for optometry, together with that",
+      "title": "Collections - College of Optometrists",
+      "url": "https://www.college-optometrists.org/the-british-optical-association-museum/collections"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn1search9",
+      "snippet": "Welcome to the British Optical Association Museum at The College of Optometrists, the museum of the eye care professions. ... Our collections are a nationally",
+      "title": "The British Optical Association Museum - College of Optometrists",
+      "url": "https://www.college-optometrists.org/the-british-optical-association-museum"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.nlm.nih.gov",
+      "ref_id": "turn1search10",
+      "snippet": "Copyright Office website at http://www.copyright.gov/, as are circulars that explain specific aspects of the law, including the following, which deal with duration of copyright: ...",
+      "title": "Patron Guide to Copyright and Historical Materials - U.S. Copyright Law Guidance",
+      "url": "https://www.nlm.nih.gov/hmd/copyright/patron-guide-law-guidance.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.loc.gov",
+      "ref_id": "turn1search14",
+      "snippet": "Copyright duration ... 1923–1977 ... Works created after 1978 ... 95 years from first publication or 120 years from creation, whichever shorter",
+      "title": "Copyright\n\nCopyright duration\n\nWorks registered or",
+      "url": "https://www.loc.gov/static/programs/teachers/professional-development/webinar/documents/LOC%20Online%20Open%20House_Aug4_Slides_Part2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "uscode.house.gov",
+      "ref_id": "turn1search11",
+      "snippet": "3: DURATION OF COPYRIGHT ... (c) Anonymous Works, Pseudonymous Works, and Works Made for Hire.—In the case of an anonymous work, a pseudonymous work, or",
+      "url": "https://uscode.house.gov/view.xhtml?edition=2023&req=granuleid%3AUSC-2023-title17-chapter3"
+    },
+    {
+      "type": "text_result",
+      "domain": "copyright.gov",
+      "ref_id": "turn1search15",
+      "snippet": "In general, for works created on or after January 1, 1978, the term of copyright is the life of the author plus seventy years after",
+      "title": "Circular 1 Copyright Basics",
+      "url": "https://copyright.gov/circs/circ01.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.govinfo.gov",
+      "ref_id": "turn1search16",
+      "snippet": "Duration and Renewal: The Transition from the 1909 Act to the 1976 Act ... <td>Unitary term of life plus 70 years (or, if anonymous or",
+      "title": "Copyright Law (2d edition), Federal Judicial Center",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-JU13-PURL-LPS72353/pdf/GOVPUB-JU13-PURL-LPS72353.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ecommons.cornell.edu",
+      "ref_id": "turn1search17",
+      "snippet": "3.2 i What is the duration of copyright? ... Copyrighted works published prior to 1978 are protected for 95 years ... status of works published",
+      "title": "Copyright and",
+      "url": "https://ecommons.cornell.edu/bitstreams/73163724-80d4-4542-a155-c7e8f274f2c1/download"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search18",
+      "snippet": "The Berne Convention stipulates that the duration of the term for copyright protection is the life of the author plus at least 50 years after",
+      "title": "List of copyright duration by country",
+      "url": "https://en.wikipedia.org/wiki/List_of_copyright_duration_by_country"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit19",
+      "snippet": "Since the original Star Wars movie was released before 1978, it will go by the 95 years after publication rule, so the movie will enter",
+      "title": "What is the longest copyright in the world?",
+      "url": "https://www.reddit.com/r/publicdomain/comments/1qjnt7m/what_is_the_longest_copyright_in_the_world/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search20",
+      "snippet": "Under section 304, the extension term for works copyrighted before 1978 that had not already entered the public domain was increased from 28 years to",
+      "title": "Copyright Act of 1976",
+      "url": "https://en.wikipedia.org/wiki/Copyright_Act_of_1976"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search21",
+      "snippet": "For works published or registered before 1978, the maximum copyright duration is 95 years from the date of publication, if copyright was renewed during the",
+      "title": "Copyright law of the United States",
+      "url": "https://en.wikipedia.org/wiki/Copyright_law_of_the_United_States"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search22",
+      "snippet": "- Circular 15A Duration of Copyright. ... Works published with notice of copyright or registered in unpublished form in the years 1964 through 1977 automatically",
+      "title": "Public domain in the United States",
+      "url": "https://en.wikipedia.org/wiki/Public_domain_in_the_United_States"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search23",
+      "snippet": "As a result of extensions, including the 1976 and 1998 extensions, a small number of renewed works, within a span of 40 years, entered the",
+      "title": "Copyright Term Extension Act",
+      "url": "https://en.wikipedia.org/wiki/Copyright_Term_Extension_Act"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search24",
+      "snippet": "In the United States a \"work for hire\" (published after 1978) receives copyright protection until 120 years after creation or 95 years after publication, whichever",
+      "title": "Work for hire",
+      "url": "https://en.wikipedia.org/wiki/Work_for_hire"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit25",
+      "snippet": "**These equations reflect the copyright duration for works created on or after January 1, 1978, which is either 70 years after the author's death for",
+      "title": "Here are a few equations that I worked out for when a work enters the public domain",
+      "url": "https://www.reddit.com/r/publicdomain/comments/1hf4d7v"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit26",
+      "snippet": "(The full provisions can be found here: https://www.copyright.gov/music-modernization/pre1972-soundrecordings/.) ... This changes for recordings published between 1947 and 1956 -- with the additional ",
+      "title": "Are all sound recordings published prior to 1923 in the public domain in the US?",
+      "url": "https://www.reddit.com/r/publicdomain/comments/173u26t"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit27",
+      "snippet": "For works first published between 1927 and 1977 (inclusive), the copyright term in the US is generally based on a set number of years (95",
+      "title": "Is it possible for an organization to maintain the copyright of works by a creator that died over 70 years ago (and therefore should be in the public domain in the US)?",
+      "url": "https://www.reddit.com/r/COPYRIGHT/comments/uuhwn1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit28",
+      "snippet": "If it was published before 1923 then I dont need to worry about it. ... I tried going to copyright.gov to see if I could",
+      "title": "Is it under copyright?",
+      "url": "https://www.reddit.com/r/copyrightlaw/comments/qfmwg4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit29",
+      "snippet": "I ask because, according to the Copyright Office, “all works published in the United States before January 1, 1931, are in the public domain” since",
+      "title": "Confirm Public Domain",
+      "url": "https://www.reddit.com/r/publicdomain/comments/1qtfshy/confirm_public_domain/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit30",
+      "snippet": "Thus my 1928 copyright would be in the public domain in 2023? ... > Works originally copyrighted after 1922 and renewed before 1978. ... They",
+      "title": "[QUESTION] a stage play has a copyright filing of Feb 1928 and renewed 1955, will it be in the public domain next year?",
+      "url": "https://www.reddit.com/r/COPYRIGHT/comments/ubvjwk"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit31",
+      "snippet": "That means that works copyrighted in 1929 or before are in the public domain, and the 1930 compositions will come in on January 1, 2026.",
+      "title": "Is there a public domain FAQ plus some basic questions.",
+      "url": "https://www.reddit.com/r/publicdomain/comments/1og3cq3"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit32",
+      "snippet": "For works published in 1923, the copyright duration is governed by the Copyright Term Extension Act of 1998. ... * If the registration was renewed,",
+      "title": "Fair game? Lyrics copyright 1924, renewed 1951",
+      "url": "https://www.reddit.com/r/COPYRIGHT/comments/1f8z43x"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit33",
+      "snippet": "Works published after 1923, but before 1978 are protected for 95 years from the date of publication. ... * They were first published outside of",
+      "title": "Posting old 78 rpm records to YouTube",
+      "url": "https://www.reddit.com/r/COPYRIGHT/comments/qu3yft"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit34",
+      "snippet": "But before this could happen, Congress hit a 20-year pause button and extended their copyright term to 95 years. ... > The 1998 Copyright Term",
+      "title": "January 1, 2023 is Public Domain Day: Works from 1927 are open to all!",
+      "url": "https://www.reddit.com/r/Piracy/comments/100wq3g"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit35",
+      "snippet": "For sound recordings created between 1923-1946 that term is 100 years, so recordings from 1923 will enter the public domain on January 1. ... Since",
+      "title": "Happy Public Domain Day 2024!",
+      "url": "https://www.reddit.com/r/publicdomain/comments/18w0duw"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "leginfo.legislature.ca.gov",
+      "ref_id": "turn1view2",
+      "snippet": "Total lines: 132",
+      "title": "California Code, CIV 3344.1.",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3344.1."
+    },
+    {
+      "type": "text_result",
+      "domain": "eur-lex.europa.eu",
+      "ref_id": "turn1view3",
+      "snippet": "Total lines: 3",
+      "title": "eur-lex.europa.eu",
+      "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX%3A32006L0116"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-59a412a1-bd6d-405b-963d-ef9a4faa1580",
+  "query": "https://www.college-optometrists.org/the-british-optical-association-museum/history-fashion-sunglasses",
+  "action": {
+    "type": "open_page",
+    "url": "https://www.college-optometrists.org/the-british-optical-association-museum/history-fashion-sunglasses"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 112",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/fBnuWWi8pzeQg1_yAtTejbXm-nzpKet-uUuJtk8YTxnFyKok8s40kmAg7LX1J_0hZ4_pjrFfSnjdpp_8T8XcQIMoRU9TTESqHT4wfHrrK8bV2qdQ2TZH34olMZ4oxa3DoZUEpu436ZALGGKJeLJWsr2Lrs-b7UC2V9vui5wyGfM1oZXn6KKauG6mvFFcr_HQv76IX9ghAVtb3VXzLJnU1g",
+      "title": "The history and fashion of sunglasses - College of Optometrists",
+      "url": "https://www.college-optometrists.org/the-british-optical-association-museum/history-fashion-sunglasses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn2view1",
+      "snippet": "Total lines: 78",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/3F28Hvxu0z2f8MRR8fkvqhp-3IJfPLHIR89T2B1ZtG-DBiY1OmWjEbwqIRoaxoOHDFgYZkfPG_1ZkZLgMzBbTnqOwW9gJ4zKvNsGlbRX6SWgkg7te5DoUX3OiQvwnwhog4W9cvMzP5ZaloLJd2XG0JRp_tvDUv8yZgT1SCvZFSe9Pd0d3kqFz6Mf9-njf-RmPIJ1HB5lygIWUJ2QPL4D1Q",
+      "title": "The history of spectacles - College of Optometrists",
+      "url": "https://www.college-optometrists.org/the-british-optical-association-museum/the-history-of-spectacles"
+    }
+  ]
+}
+````
+
+## Asistent
+
+v4.1 era deja pe disc înaintea intervenției mele; până acum nu am editat canonul. Am păstrat exact acea versiune în `REV_20260924_120416/inainte/00_CANON_NUCLEU.md`, SHA-256 `f553eb7df6df0ea4011c6b5f66386de39ae56fe04656594acad9a0037cabfcd8`. Verific amprenta înainte de scriere și voi separa corecțiile preexistente de contribuția mea. Dacă amprenta diferă, voi semnala scrierea concurentă.
+
+
+## Asistent
+
+Am detectat o scriere concurentă: canonul are acum SHA-256 `f9c6a3e23f8ebb6e26866d424b5222385c8c459c200d4148086627dd93c62434`, diferit de instantaneul meu, deși eu nu l-am editat. Arhivez și această stare și compar diferențele. Continui corecțiile într-o copie separată din folderul meu de audit, pentru a evita suprascrierea celuilalt autor; predarea va preciza versiunea stabilă de auditat.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-81224849-6e59-49c1-86e0-fbc496ccbbb6",
+  "query": "\"Ioana Vetriceanu\" (site:wikipedia.org OR site:portal.just.ro OR site:politiaromana.ro) ...",
+  "action": {
+    "type": "search",
+    "queries": [
+      "\"Ioana Vetriceanu\" (site:wikipedia.org OR site:portal.just.ro OR site:politiaromana.ro)",
+      "\"Ioana Sălceanu\" (site:wikipedia.org OR site:portal.just.ro OR site:politiaromana.ro)",
+      "\"Ioana Corbeanu\" (site:wikipedia.org OR site:portal.just.ro OR site:politiaromana.ro)",
+      "\"L’Express des Deux Empires\" train"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "fr.wikisource.org",
+      "ref_id": "turn3search0",
+      "snippet": "L’express était donc presque vide, — une vingtaine de personnes en tout, dont le grand-duc Nicolas-Nicolaïéwitch, frère de l’Empereur et ancien généralissime des armées russes",
+      "title": "Le Roman tragique de l’empereur Alexandre II/01 - Wikisource",
+      "url": "https://fr.wikisource.org/wiki/Le_Roman_tragique_de_l%E2%80%99empereur_Alexandre_II/01"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn3search10",
+      "snippet": "| , ORA 10:00 Fond TERMEN 06.02.2026 , ORA 10:00 16. | 6666/233/2025 (ora estimata:10:00 ) | • IPJ GALAŢI - BIROUL RUTIER Reclamant •",
+      "title": "Având în vedere hotărârea Adunării Generale a judecătorilor nr.",
+      "url": "https://portal.just.ro/233/SiteAssets/SitePages/informatii/%C5%9Fedin%C5%A3a%20completului%20CC25%20din%20data%20de%2010.10.2025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn3search11",
+      "snippet": "• CORBEANU IOANA",
+      "title": "ROMÂNIA \nJUDECĂTORIA TOPOLOVENI \nJUDECATORIE \n \nCO",
+      "url": "https://portal.just.ro/828/SiteAssets/SitePages/acasa_default/LISTA%20DE%20%C5%9EEDIN%C5%A2%C4%82%20DIN%20DATA%20DE%2023.10.2025%2C%20COMPLET%20C4%20CIVIL.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn3search12",
+      "snippet": "11. | 3673/216/2019 (ora estimata:11:00 ) | • BREZEANU ANA- MARIA Reclamant • Corbeanu (fosta Ghiţă) Maria Pârât • Ghiţă Elisabeta • Ioana Elena •",
+      "title": "ROMÂNIA \nJUDECĂTORIA CURTEA DE ARGEŞ \nCOMPLETUL DE",
+      "url": "https://portal.just.ro/216/SiteAssets/SitePages/acasa_default/LISTA%20%C5%9EEDIN%C5%A2%C4%82%2011.12.2025%20-%20COMPLETUL%207%20CIVIL.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn3search13",
+      "snippet": "| Număr dosar 20342/280/2025 (ora estimata:09:00 ) | Detalii despre părţi Petent • Corbeanu Alina Stefania • Anghel Iulian Marius Intimat • Corbeanu Vladut Constantin",
+      "title": "ROMÂNIA \nJUDECĂTORIA PITEŞTI \nSECŢIA CIVILĂ \n \nCOM",
+      "url": "https://portal.just.ro/280/SiteAssets/SitePages/acasa_default/SALA%203%20LISTA%20DE%20SEDINTA%2012.02.2026%20COMPLET%20C4-9.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn3search14",
+      "snippet": "1. | 3463/121/2024 (ora estimata:10:00 ) | C1A-3j Apelant - reclamant - recurent - contestator • CHIRILĂ IOANA Intimat - pârât - intimat • NECULACHE",
+      "title": "ROMÂNIA \nCURTEA DE APEL GALAŢI \nSECŢIA I CIVILĂ",
+      "url": "https://portal.just.ro/44/SiteAssets/SitePages/acasa_default/LISTA%20DOSARE%20CARE%20SE%20AM%C3%82N%C4%82%20LA%20TERMENUL%20DIN%2008.10.2025%20-%20COMPLET%20C1A3.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn3search15",
+      "snippet": "• CORBEANU IOANA ... • GHEORGHE LILIANA -",
+      "title": "ROMÂNIA \nTRIBUNALUL VÂLCEA \nI CIVILA \n \nCOMPLETUL",
+      "url": "https://portal.just.ro/90/SiteAssets/SitePages/acasa_default/FMAS10-30.01.2026.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "fr.scribd.com",
+      "ref_id": "turn3search1",
+      "snippet": "Pour la mise en application des horaires de l’été 1936 débutant le 15 mai, le « Simplon-Orient-Express » L 33 - L 34 fut à",
+      "title": "Grands Trains 1918 1939 1 | PDF | Train | Milan",
+      "url": "https://fr.scribd.com/document/1059617205/Grands-Trains-1918-1939-1"
+    },
+    {
+      "type": "text_result",
+      "domain": "cnum.cnam.fr",
+      "ref_id": "turn3search2",
+      "snippet": "* Mais pour que le service des postes soit plus prompt, on ne place guère de bureaux ambulants que dans les trains express. ... Puisquee",
+      "title": "FOLXAE35.2 - Exposition universelle. 1867. Paris - L'Exposition universelle de 1867 illustrée - Cnum",
+      "url": "https://cnum.cnam.fr/pgi/redir.php?ident=FOLXAE35.2&onglet=c"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.gutenberg.org",
+      "ref_id": "turn3search3",
+      "snippet": "Mais le train de Koutaïs trouve à Rion, à douze kilomètres de là, l’express de Batoum pour Tiflis; s’il se met en retard, il manque",
+      "title": "Les roses d'Ispahan: La Perse en automobile à travers la Russie et le Caucase, par Claude Anet | Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/70650/70650-h/70650-h.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "fr.scribd.com",
+      "ref_id": "turn3search4",
+      "snippet": "Le traité déjà mentionné et signé en avril 1911 indiquait que les trains de luxe « Lloyd-Express » et « Riviera-Express » partant respectivement de",
+      "title": "Grands Trains 1883 1914 2 | PDF | Train | Convoi (transport)",
+      "url": "https://fr.scribd.com/document/1077012972/Grands-Trains-1883-1914-2"
+    },
+    {
+      "type": "text_result",
+      "domain": "fr.wikisource.org",
+      "ref_id": "turn3search5",
+      "snippet": "Pendant la belle saison, pour le service des villes d’eaux ou des stations de montagnes et pendant toute l’année pour les autres services internationaux, des",
+      "title": "La Chronique de France, 1900/Appendice - Wikisource",
+      "url": "https://fr.wikisource.org/wiki/La_Chronique_de_France%2C_1900/Appendice"
+    },
+    {
+      "type": "text_result",
+      "domain": "fr.scribd.com",
+      "ref_id": "turn3search6",
+      "snippet": "Relayé par une habile campagne de presse, le succès de ce « train éclair » permettait donc d'envisager une circulation régulière entre les deux capitales",
+      "title": "Grands Trains 1883 1914 1 | PDF | Paris | Train",
+      "url": "https://fr.scribd.com/document/1059615949/Grands-Trains-1883-1914-1"
+    },
+    {
+      "type": "text_result",
+      "domain": "fr.scribd.com",
+      "ref_id": "turn3search7",
+      "snippet": "le « Calais-Méditerranée-Express » effectuait désormais un double rebroussement dans les deux gares parisiennes. ... « Riviera-Express » circulant en hiver depuis Berlin et Amsterdam",
+      "title": "Grands Trains CIWL de Légende 1 (1882-1914) | PDF | Paris | Train",
+      "url": "https://fr.scribd.com/document/1059658830/Grands-Trains-CIWL-de-Legende-1-1882-1914"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn3search8",
+      "snippet": "​Sălceanu D. ... Roca Oana Alina ... Viorica Benchea ​",
+      "title": "Judecătoria BACĂU - Informaţii de interes public",
+      "url": "https://portal.just.ro/180/SitePages/informatii.aspx"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Am oprit lucrul. **Nu am editat canonul, documentele studioului, `S_showrunner.md` sau registrul central.** Nu am revertit nimic și nu am lansat auditori.
+
+Am creat exclusiv dovezi în [REV_20260924_120416](<D:/00. Downloads/Dracula Book/DRACULA-COMICS/00_STUDIO/audit/G0-CANON-v4/REV_20260924_120416/>):
+
+- `inainte/00_CANON_NUCLEU.md` — instantaneul inițial exact, v4.1, SHA-256 `f553eb7df6df0ea4011c6b5f66386de39ae56fe04656594acad9a0037cabfcd8`.
+- `inainte/canon_concurrent_1210.md` — starea concurentă capturată, SHA-256 `f9c6a3e23f8ebb6e26866d424b5222385c8c459c200d4148086627dd93c62434`.
+- `references_avant.csv`, `archives_avant.csv` — dimensiuni, date UTC și amprente.
+- `diff_concurrent.patch` — diferențele produse de celălalt proces; **nu sunt modificările mele**.
+
+Constatări pentru copia izolată:
+
+- Corecțiile v4.1 erau preexistente; execuția planului R1 era goală.
+- Rezumatul R7 spune că apele „taie” puterile, dar regula completă descrie reducerea lor.
+- Valentin ajunge la 46 de ani declarați fără explicitarea completă a excepției de îmbătrânire teatrală.
+- OBS-8 din jurnal necesită reconcilierea regulii tranșelor în canon.
+- Afirmația „primii ochelari de soare de serie, 1929” necesită corectare: muzeul profesional documentează comercializarea anterioară. [Sursa](https://www.college-optometrists.org/the-british-optical-association-museum/history-fashion-sunglasses)
+
+**Revizia mea nu a fost aplicată. Nicio trecere de audit nu este revendicată.** Ultimele note citite în dosarul canonului: 9,31 / 8,70 / 8,70.
+
+## Asistent
+
+Continui exclusiv în copia izolată. Voi compara canonul copiat cu instantaneele anterioare, voi arhiva baza exactă și voi aplica măsurile rămase, cu raport separat și dovezi reproductibile. Originalul, registrul și fișierele autorului Studio rămân neatinse.
+
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-7b5645f0-95e6-4256-8c78-516da4065d4e",
+  "changes": {
+    "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\revizie.py": {
+      "type": "add",
+      "content": "from pathlib import Path\nimport hashlib, difflib, json, datetime, re\nROOT=Path(r'D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924')\nD=ROOT/'00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924'\nP=ROOT/'01_CANON/00_CANON_NUCLEU.md'\nbaseline=(D/'inainte/00_CANON_NUCLEU.md').read_bytes()\nassert hashlib.sha256(baseline).hexdigest()=='eef72462df479ad0d88231aae6b0a9ead3a74df4621c5ceb88cc88961bcabad7'\nassert P.read_bytes()==baseline, 'SCRIERE CONCURENTA: oprire fara suprascriere'\ns=baseline.decode('utf-8-sig'); changes=[]\ndef sub(a,b,n=None):\n global s\n count=s.count(a)\n assert count and (n is None or count==n), (a[:90],count,n)\n s=s.replace(a,b); changes.append({'vechi':a,'nou':b,'aparitii':count})\nsub('(v4.1, 24.09.2026)','(v4.2, 24.09.2026)',1)\nsub('> **Versiunea:** v4.1 · 24.09.2026 · revizia R1 a v4.0', '> **Versiunea:** v4.2 · 24.09.2026 · continuarea izolată a reviziei R1; baza v4.1 (`eef72462…abad7`) și dovezile: `00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/`. Nu are încă audit independent. Revizia R1 a v4.0',1)\nsub('R7: apele curgătoare mari îi taie zborul și transformarea.','R7: peste apele mari puterile scad la ~50%; scufundat, nu se transformă.',1)\nsub('trează ca în fiecare martie (§8)','trează în fereastra obișnuită din martie (§8)',1)\nold='Vârsta declarată la începutul unei identități = 45 − durata ei (cel puțin 21 de ani); identitățile de cel mult 12 ani pornesc de la cel mult 33. Vârsta declarată rămâne între 21 și 45; peste 45, numai cu îmbătrânire teatrală completă (tâmple albe, baston, retragere), niciodată peste 50.'\nnew='Pentru identitățile de peste 12 ani, vârsta inițială = 45 − durata (±1 an calendaristic), minimum 21; cele de cel mult 12 ani pornesc între 21 și 33. Plafonul obișnuit este 45; excepțiile declarate cer tâmple albe, baston și retragere, maximum 50. Durata include retragerea; la identitatea curentă se folosește termenul-limită.'\nsub(old,new,2)\nsub('Valentin Dragoni (2005–2018, Zürich și Viena)*; 2018–2020: Valentin se retrage, „bolnav”','Valentin Dragoni (2005–2020, Zürich și Viena)*; activ până în 2018, apoi retras, cu tâmple albe și baston',1)\nsub('31 → 44 (46 în 2020, retras)','31 → 46 (excepție teatrală; 44 la retragerea din 2018)',1)\nsub('Vlad Dragoni (2020–; în acte n. 1993, Viena)','Vlad Dragoni (2020–2038, termen-limită; în acte n. 1993, Viena)*',1)\nsub('27 → 33 în 2026 |','27 → 33 în 2026; maximum 45 în 2038 |',1)\nsub('revendică baronia adormită din 1679 ca „descendent din colonii”','revendică titlul nerevendicat din 1679 ca „descendent din colonii”; genealogie fictivă, fără a invoca procedura juridică de abeyance',1)\nsub('din 1604, cuarțul fumuriu șlefuit la Praga; din 1752, sticla colorată','din 1604, cuarț fumuriu comandat la Praga (invenție BD); din 1752, sticlă colorată aleasă de Casă',1)\nsub('din octombrie 1604, ochelari de cuarț fumuriu (precedentul chinezesc *Ai Tai*, secolul al XII-lea), șlefuiți în atelierul de pietre dure al lui Rudolf al II-lea, prinși cu șnur de mătase până la brațele laterale (înainte de 1727), plus pălăria cu boruri largi (vălul, pe drum); din 1752, sticla colorată (Ayscough); din 1929, ochelarii de soare de serie.','din octombrie 1604, ochelari de cuarț fumuriu comandați la Praga: invenție BD, nu produs documentat al unui atelier istoric. Se prind cu șnur; brațele laterale apar în ținutele lui după 1730. Din 1752 Casa alege sticla colorată; din 1929, modele comerciale. Acestea sunt datele garderobei, nu priorități de invenție. Pălăria și vălul completează protecția; §18 separă obiectele atestate de ficțiune.',1)\nsub('apoi primii ochelari de cuarț fumuriu, din atelierul lui Ottavio Miseroni (la Praga din 1588), prinși cu șnur de mătase','apoi ochelarii săi de cuarț fumuriu, comandați unui atelier fictiv din Praga, prinși cu șnur de mătase',1)\nsub('ochelarii de cuarț fumuriu cu brațe laterale (înainte de 1727)','ochelarii de cuarț fumuriu cu șnur; după 1730, cu brațe laterale',1)\nsub('ochelarii cu lentile verzi (Ayscough, 1752)','ochelarii cu lentile verzi (adoptate de Casă în 1752)',1)\nsub('din 1929, primii ochelari de soare de serie','din 1929, ochelari de soare comerciali',1)\nsub('niciunul: singurul popas fără lux','niciunul: războiul',1)\nsub('acceptat: contractul coloanei; cuarț (1604), sticlă colorată (1752), serie (1929)','modificat în v4.2: contract păstrat; anii garderobei nu sunt priorități istorice',1)\nsub(' (cuarțul fumuriu *Ai Tai*, secolul al XII-lea)',' (referință secundară; nu atestă comanda fictivă din 1604)',1)\nsub(' (Ayscough, 1752; Foster, 1929)',' (cronologia comercială se verifică la muzeul de optică, mai jos)',1)\nsub(' (brațele laterale, înainte de 1727)',' (brațele laterale: secolul XVIII)',1)\nsub('și nu intră nicăieri fără invitație sau mandat','și nu intră într-o locuință privată fără invitație sau mandat',1)\nsub('el nu folosește Privirea și nici Criptele în anchetele ei fără acordul ei (excepția: clipa primejdiei, art. 7)','Privirea asupra altor oameni cere acordul lor și al Ioanei, cu excepția art. 7; asupra Ioanei rămâne interzisă (R3). Criptele pot sprijini legal analiza, cu acordul ei; acordul nu permite acces ilegal la datele anchetei (R9)',1)\nsub('Criptele ating numai datele de identitate ale familiei (§4).','Intervențiile ilegale ale Criptelor se limitează la datele de identitate ale familiei (§4); analiza legală a datelor autorizate rămâne permisă.',1)\nsub('Criptele nu ating nicio altă bază de date (R9).','Criptele nu modifică și nu accesează ilegal alte baze de date (R9).',1)\nsub('Hanzerul ramurii din Viena**, emigrat după Anexarea din 1938, care îl urmează la Hollywood, la Londra și în exil și reaprinde inelul între 1947 și 1989.','însoțitorul din ramura vieneză**, refugiat în 1938, apoi succesorii lui: o succesiune de oameni, nu un singur slujitor presupus activ 51 de ani. Ei asigură reaprinderile din exil; numele și mandatele se aliniază la G1.',1)\nsub('Între 1938 și 1989 (războiul, apoi Cortina de Fier), când Hanzerii din Transilvania nu pot ieși din țară, rolul îl are','Între 1938 și 1989, în ficțiunea familiei, rolul îl preia',1)\nsub('din 1611, un Hanzer îl însoțește în fiecare popas (§8).','din 1611, un Hanzer îl însoțește, cu excepția frontului din 1915–1916 (§8).',1)\nsub('după aniversarea de 550 de ani (§12).','la aniversarea familială (§12). **Intervalul de stingere:** dacă termenul e ratat, puterile de zi scad treptat până la 27 ianuarie 2027; finalul nu îl tratează ca stingere instantanee.',1)\nsub('*(Notă pentru pedanți: aniversarea se ține după data din calendarul iulian al epocii, ca în tradiția familiei.)*','Familia păstrează convențional ziua și luna în calendarul civil actual; nu este conversia astronomică a datei iuliene (§3.1).',1)\nsub('în noaptea de 26 spre 27 decembrie 2026 se împlinesc 550 de ani de la transformare','în noaptea de 26 spre 27 decembrie 2026 familia celebrează 550 de ani de la transformare',1)\nsub('**Regula tranșelor (OBS-7):** povestirea Ep. 1 se publică integral la lansare; de la Ep. 2, povestirea apare în 4 tranșe săptămânale; tranșele 1–3 pot preceda BD-ul, fără vinovat, soluție, răsturnare sau cârlig final; tranșa 4 apare în ziua BD-ului sau după.','**Regula tranșelor (OBS-7, OBS-8):** Ep. 1 se publică integral la lansare; apoi, de regulă, 4 tranșe săptămânale. Ultima apare în ziua BD-ului sau după; cele anterioare nu divulgă vinovatul, soluția, răsturnarea ori finalul. Tranșele Ep. n+1 apărute înaintea BD-ului Ep. n nu divulgă nimic din Ep. n. După pivoturile 1, 5, 10 și 15, prima tranșă următoare apare cel mai devreme în prima zi lucrătoare după BD. Ep. 11 și 16 au 3 tranșe; aceleași restricții se aplică primelor două și ultimei. Ritmul final: Producătorul, 13.11.2026.',1)\nsub('sunt compatibile cu toate ipotezele.','cer alinierea documentului C la prezentul canon. Verificarea v4.2 nu confirmă compatibilitatea integrală a versiunii C încă aliniate la v3.0; aceasta nu autorizează abateri de la R3, cronologie sau pivoturi.',1)\nsub('reverificată de Showrunner pentru v4.1 (24.09.2026):','nota moștenită din v4.1 este corectată la 24.09.2026:',1)\nsub('Statusurile juridice sunt o verificare din 24.09.2026, de confirmat de H1; nu țin loc de aviz juridic.','Reguli editoriale interne. Datele juridice sunt orientative, cu surse în §18; aplicarea pe teritoriu și material cere avizul H1.',1)\nstart=s.index('2. **Statusul juridic al filmului din 1931**'); end=s.index('\\n3. **Galeria Hollywood**',start)\nsub(s[start:end],'2. **Filmul din 1931:** calculul SUA de 95 de ani indică 01.01.2027, sub rezerva verificării ediției și drepturilor subiacente (17 USC §§304–305). În UE, H1 aplică art. 2 alin. (2), art. 7 și art. 8 din Directiva 2006/116/CE, inclusiv tratatele relevante; nu există aici o autorizare generală din 2027. California Civil Code §3344.1 stabilește limita de 70 de ani după deces; calculul pentru Lugosi nu înlocuiește verificarea titularilor și a celorlalte jurisdicții. Regula 1 rămâne obligatorie.',1)\nsub('riscul: juridic scăzut (personaj pozitiv, unitate fictivă, altă vârstă și profesie), de căutare mediu.','evaluarea editorială preliminară: confuzie de căutare posibilă; nivelul riscului juridic îl stabilește H1.',1)\nsub('monumentele se desenează liber în interior.','reprezentarea monumentelor se verifică după teritoriul și utilizarea concretă, inclusiv în interiorul BD-ului.',1)\nsub('Producătorul (propunerea: Showrunnerul, raportul S; verificarea: B, apoi H1)','Producătorul (propunerea: raportul separat al reviziei v4.2; verificarea: B, apoi H1)',1)\nsub('Corespondența jurnal → registru: E.6 din `00_STUDIO/audit/G0-CANON-v4/R1_plan_masuri.md`.','Dovezile reviziei v4.2: `00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/RAPORT_REVIZIE.md`.',1)\nsub('| AR-16 | raportul Showrunnerului | acceptat: un singur raport, `S_showrunner.md` | păstrat |','| AR-16 | raportul Showrunnerului | acceptat: un singur raport, `S_showrunner.md` | v4.2: raport separat, conform instrucțiunii utilizatorului; integrarea aparține Studio |',1)\nrows='''| V4-83 | OBS-8, jurnal §5.5 | protecția pivoturilor în foileton | acceptat: 3 tranșe la Ep. 11 și 16; ultima după BD | §12 | Studio, D3–D6, F2 | G1 |\n| V4-84 | revizia izolată; M1.3–4, M1.37 | datele ochelarilor; vârstele; rezumatele R7/R9; Hanzerii | modificat: ficțiunea separată de istorie; excepții explicite | §2, §4–§9, §19 | B, C, E | G1 |\n| V4-85 | M1.24, M1.28, M1.37 | compatibilitate C, aniversare, stingerea inelului | modificat: alinierea C rămâne necesară; calendar civil; stingere progresivă | §6, §10, §12 | C, D1, Studio | G1–G2 |\n| V4-86 | M1.5–6, M1.17, M1.34–39; instrucțiunea utilizatorului | drepturi și dovezi | modificat: surse primare; raport separat; copie stabilă pentru audit | §14, §18; dosarul reviziei | H1, Studio, auditori | înaintea publicării |\n'''\nsub('\\n### 16.2 Deciziile anterioare','\\n'+rows+'\\n### 16.2 Deciziile anterioare',1)\nsub('\\n## 18. Surse de verificare','\\n| **v4.2** | 24.09.2026 | continuare izolată; V4-83…V4-86; fără revendicarea corecturilor v4.1 preexistente | raportul separat din REV_IZOLAT_20260924 | mandatul utilizatorului; audit independent încă necesar |\\n\\n## 18. Surse de verificare',1)\nsub('> Verificate la 24.09.2026. Pentru zona blocată 1431–1476, lucrările academice de mai jos sunt referința primară, iar paginile web, trimiterea secundară, ușor de verificat de echipe.','> Bibliografie de lucru, nu certificare integrală. Lucrările academice sunt studii secundare; sursele contemporane și obiectele digitizate sunt primare. Rezultatele accesării URL-urilor și limitele verificării se arhivează separat.',1)\nsources='''\n**Verificări punctuale v4.2 (24.09.2026):**\n- Optică: muzeul profesional documentează brațele în secolul XVIII și ochelari comercializați înainte de 1929; nu atestă invenția BD din 1604: https://www.college-optometrists.org/the-british-optical-association-museum/the-history-of-spectacles · https://www.college-optometrists.org/the-british-optical-association-museum/history-fashion-sunglasses\n- Drepturi, texte oficiale: https://www.copyright.gov/title17/92chap3.html · https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32006L0116 · https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=3344.1.&lawCode=CIV\n- Cetățenia din §2 este biografie fictivă: aprobarea austriacă prealabilă nu dovedește singură eligibilitatea română; H1 verifică dosarul și temeiurile: https://www.ris.bka.gv.at/eli/bgbl/1985/311/P28/NOR40205579\n'''\nsub('\\n## 19. Glosar','\\n'+sources+'\\n## 19. Glosar',1)\n# Fără rescrierea regulilor pentru a forța bugetul: scurtăm trimiteri bibliografice redundante.\nsub('**Lucrări academice de referință (§3, §3.1, §8, §10):**','**Studii (§3, §3.1, §8, §10):**',1)\nsub(' (Leiden: Brill, 2017)',' (2017)',1); sub(' (Iași: Center for Romanian Studies, 2000)',' (2000)',1)\nsub(' (Boston: Little, Brown, 1989)',' (1989)',1); sub(' (București: Editura Enciclopedică, 2001)',' (2001)',1)\nout=s.encode('utf-8')\nassert P.read_bytes()==baseline, 'SCRIERE CONCURENTA la commit'\nP.write_bytes(out)\n(D/'modificari_proprii.json').write_text(json.dumps(changes,ensure_ascii=False,indent=2),encoding='utf-8')\n(D/'diff_propriu.patch').write_text(''.join(difflib.unified_diff(baseline.decode('utf-8-sig').splitlines(True),s.splitlines(True),fromfile='baza_izolata_eef72462',tofile='canon_v4.2')),encoding='utf-8')\nprint(json.dumps({'modificari':len(changes),'cuvinte':len(s.split()),'sha256':hashlib.sha256(out).hexdigest()},ensure_ascii=False))\n"
+    }
+  },
+  "status": "completed",
+  "stdout": "Success. Updated the following files:\nA D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/revizie.py\n"
+}
+````
+
+## Asistent
+
+Baza izolată diferă de ambele capturi anterioare; am arhivat-o cu amprenta `eef72462…abad7`. Am aplicat corecțiile proprii în v4.2, inclusiv OBS-8, regulile identităților, rezumatele puterilor și delimitarea ficțiunii de istoria ochelarilor. Urmează verificările și reducerea punctuală a textului: versiunea intermediară depășește încă bugetul de 25.000 de cuvinte cu 366.
+
+
+## Asistent
+
+Corecțiile sunt salvate în canonul izolat v4.2: OBS-8, excepția de vârstă a lui Valentin, R7/R9 și Protocolul Mureșan, succesiunea Hanzerilor, calendarul aniversării și afirmațiile istorice/juridice prea categorice. Mai finalizez bugetul de cuvinte, testele și matricea de execuție. Ținta este înghețarea copiei pentru auditori în aproximativ 10 minute; avizele H1 și alinierea documentelor altor autori vor rămâne explicit deschise.
+
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-61db26cf-bc53-40fa-9972-b8c658be1b69",
+  "changes": {
+    "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\finalizare.py": {
+      "type": "add",
+      "content": "from pathlib import Path\nimport re,hashlib,json,difflib\nR=Path(r'D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924'); D=R/'00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924'; P=R/'01_CANON/00_CANON_NUCLEU.md'\nb=P.read_bytes(); s=b.decode('utf-8'); (D/'iteratia_1.md').write_bytes(b)\ndef para(prefix,new):\n global s\n lines=s.splitlines(True); found=[i for i,l in enumerate(lines) if l.startswith(prefix)]; assert len(found)==1,(prefix,found)\n lines[found[0]]=new+'\\n'; s=''.join(lines)\npara('> Un rând pentru fiecare propunere', '> Fiecare propunere are decizie: acceptat, modificat, respins, amânat, delegat; „blocat” indică Producătorul. V4-nn: §16.1; A-n/B-n/C-n/J-n/AR-n/S-n/P-n: registrul v3 (§16.2). ID-urile jurnalului se păstrează: B-An/B-Bn/B-Cn/C-Pn/REG-1/AUD-n/SR-n/DP-n/OBS-n. M<n>, S<n>, PR<n>: mecanisme, semințe, moduri din `02_RESEARCH/`; A-Rn ≠ AR-n. Surse: registrul Producătorului; jurnalul §5; rapoartele A/B/C; auditurile G0-CANON R2 („AU-C/M/K”) și G0-CANON-v4 R1 („v4R1 AC/AM/AK”). Dovezi și aviz v4.2: `00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/RAPORT_REVIZIE.md`; avizele anterioare: `00_STUDIO/rapoarte/S_showrunner.md`. Alinierea echipelor: G1.')\npara('**Prezentarea (*pitch*).**','**Prezentarea (*pitch*).** Istoria îl crede mort din 1476; tradiția mormântului de la Snagov îi deschide legenda (§3). Vlad Drăculea a trăit cinci secole sub alte nume: balurile Vienei, trenurile Belle Époque, New Yorkul anilor ’20, Monte-Carlo și Riviera. Imperiul conților de Făgăraș l-a construit prin cultură, disciplină, prietenii și investiții; Fundația Sânziana finanțează spitale, cercetare și burse. Revenit în Transilvania, frumos, liber și burlac, are simțuri supradezvoltate și un Cod jurat cu sânge. Ziua și noaptea, expertul în artă rezolvă cazurile imposibile alături de comisarul-șef Ioana Mureșan, la Brigada Cazuri Speciale, unitate fictivă a Poliției Române. Demonstrează și predă justiției. Fratele îi cere socoteală la fiecare jumătate de secol; un ucigaș care îi cunoaște identitățile lasă la locul crimelor siluete din trecutul lui.')\npara('**Deciziile blocate ale Producătorului:', '**Deciziile blocate: 15.** Rezumatul nu înlocuiește `01_CANON/01_DECIZII_PRODUCATOR.md` (24.09.2026; conversația Producător–Showrunner). Procedura v4, `00_STUDIO/audit/00_PROCEDURA_PIPELINE_v4.js` (SHA-256 `2c13db6a…3ead`), reia deciziile 1–14; decizia 15 figurează în registru. Titlul și numele de lucru eliminate nu se reproduc.')\npara('> Fiecare popas are:', '> Fiecare popas fixează orașul, anii, identitățile, obiectivul, clișeul și povestea; stilul: §5.2. „Capitale” include centre culturale și financiare; „Hollywood” include cinematografia britanică. **Testul anilor:** obiectivul, vehiculul sau evenimentul trebuie să existe la data scenei, nu doar până la finalul popasului; obiectivul trebuie să mai existe atunci. Bastilia dispare din 1789, vechea Catedrală Sfântul Pavel în 1666. **Interdicții:** Podul Suspinelor (1600–1603) la #2; Opera de Stat vieneză (1869) la #12; Walk of Fame (1958–1960) la #17; Academia din Sankt Petersburg (1724–1725) înainte de #9. Ficțiunea respectă golurile documentare și Codul în vigoare la scenă (§7). Înainte de octombrie 1604: ziua la adăpost; apoi, acțiune și în soare (R4). Detaliile se aliniază la G1 în `04_LUME/06_TRASEUL_CAPITALELOR.md`.')\npara('  - **Protocolul Mureșan', '  - **Protocolul Mureșan (după Ep. 10):** Ioana păstrează taina. Privirea asupra altor oameni cere acordul lor și al Ioanei, exceptând art. 7; asupra Ioanei rămâne interzisă (R3). Criptele oferă numai analiză legală, autorizată (R9). În locuințe private intră cu invitație sau mandat. Detaliile: B și D1.')\ns=s.replace('**Regula de verificare:**','**Regula de verificare:**')\n# Excepțiile nu se pierd în rezumate.\ns=s.replace('din 1611, un Hanzer îl însoțește în fiecare popas (§8);','din 1611, un Hanzer îl însoțește, cu excepția frontului 1915–1916 (§8);')\ns=s.replace('un Hanzer îl însoțește pe Vlad în fiecare popas, reaprinde','un Hanzer îl însoțește pe Vlad, cu excepția de mai jos, reaprinde')\ns=s.replace('în 2026 nu apare în acte (Austria a abolit titlurile nobiliare în 1919, România nu le recunoaște)','în 2026 nu apare în actele sale (rangul familiei este ficțiune; formalitățile: H1)')\nassert P.read_bytes()==b, 'SCRIERE CONCURENTA'\nP.write_text(s,encoding='utf-8',newline='\\n')\nbase=(D/'inainte/00_CANON_NUCLEU.md').read_text(encoding='utf-8-sig')\n(D/'diff_propriu.patch').write_text(''.join(difflib.unified_diff(base.splitlines(True),s.splitlines(True),fromfile='baza_izolata_eef72462',tofile='canon_v4.2')),encoding='utf-8')\nprint('Cuvinte:',len(s.split()),'SHA256:',hashlib.sha256(P.read_bytes()).hexdigest())\n"
+    }
+  },
+  "status": "completed",
+  "stdout": "Success. Updated the following files:\nA D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/finalizare.py\n"
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-13c5c933-c619-477e-9348-933ef7e062ce",
+  "changes": {
+    "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\verifica_url.py": {
+      "type": "add",
+      "content": "from pathlib import Path\nimport re,urllib.request,urllib.error,json,concurrent.futures,datetime\nR=Path(r'D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924'); D=Path(__file__).resolve().parent\ns=(R/'01_CANON/00_CANON_NUCLEU.md').read_text(encoding='utf-8')\nurls=sorted(set(re.findall(r'https?://[^\\s`<>]+',s)))\ndef get(u):\n attempts=[]\n for n in range(2):\n  try:\n   req=urllib.request.Request(u,headers={'User-Agent':'CanonReferenceCheck/1.0'})\n   with urllib.request.urlopen(req,timeout=8) as response:\n    status=response.status; dest=response.url; response.read(1024)\n  except urllib.error.HTTPError as e:status=e.code;dest=u\n  except Exception as e:status=type(e).__name__;dest=u\n  attempts.append(status)\n  if isinstance(status,int) and 200<=status<400:break\n return {'url':u,'status':status,'final_url':dest,'incercari':attempts}\nwith concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:data=list(pool.map(get,urls))\n(D/'stare_url.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')\n(D/'stare_url.txt').write_text('UTC '+datetime.datetime.now(datetime.timezone.utc).isoformat()+'\\n'+'\\n'.join(f\"{x['status']} {x['url']} incercari={x['incercari']}\" for x in data),encoding='utf-8')\nprint('URL:',len(data),'neconfirmate:',sum(x['status']!=200 for x in data))\n"
+    },
+    "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\verifica.py": {
+      "type": "add",
+      "content": "\"\"\"Verificări de autor, nu audit independent. Doar rădăcina izolată este permisă.\"\"\"\nfrom pathlib import Path\nimport re,json,hashlib,sys,unicodedata,collections,csv\nR=Path(r'D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924'); D=Path(__file__).resolve().parent\nP=Path(sys.argv[1]) if len(sys.argv)>1 else R/'01_CANON/00_CANON_NUCLEU.md'\nassert P.resolve().is_relative_to(R.resolve())\ns=P.read_text(encoding='utf-8-sig'); lines=s.splitlines(); results=[]\nstarts=list(re.finditer(r'^## (\\d+)\\. ',s,re.M)); sec={int(m[1]):s[m.start():starts[i+1].start() if i+1<len(starts) else len(s)] for i,m in enumerate(starts)}\ndef table(prefix):\n start=next(i for i,l in enumerate(lines) if l.startswith(prefix)); out=[]\n for l in lines[start+2:]:\n  if not l.startswith('|'):break\n  out.append([x.strip() for x in l.strip('|').split('|')])\n return out\ndef check(n,name,ok,detail='',limit=''):\n results.append(dict(code=f'VC{n}',test=name,result='OK' if ok else 'ECHEC',detail=detail,limita=limit))\ndef norm(t): return ''.join(c for c in unicodedata.normalize('NFD',t.casefold()) if unicodedata.category(c)!='Mn')\nbadpat=r'contele noptii|val[eé]ri|dra[ck]on|count of the night'\ncheck(1,'Titlu și nume eliminate',not re.search(badpat,norm(s)),limit='Contextul soției este verificat semantic, nu interzis ca șir: negarea și trecutul sunt corecte.')\ncore=''.join(v for k,v in sec.items() if k not in (16,17,18))\nold=['Dragomir','Vlase','a 17-a generație','Marna']\ncheck(2,'Forme vechi normative',not any(w in core for w in old))\ncheck(3,'Diacritice și ghilimele',not any(c in s for c in 'şţŞŢã') and s.count('„')==s.count('”'),[s.count('„'),s.count('”')])\nsubs=set(re.findall(r'^### (\\d+\\.\\d+) ',s,re.M)); refs=set(re.findall(r'§(\\d+(?:\\.\\d+)?)',s)); missing=refs-{str(k) for k in sec}-subs\ncheck(4,'Secțiuni și trimiteri',set(sec)==set(range(1,21)) and not missing,sorted(missing))\ncheck(5,'R1–R10; art. 1–8',len(re.findall(r'^\\d+\\. \\*\\*R\\d+',sec[6],re.M))==10 and len(table('| Art. | Textul |'))==8)\nbad=[]; group=[]\nfor i,l in enumerate(lines+['']):\n if l.lstrip().startswith('|'):group.append((i+1,l.strip().count('|')))\n elif group:\n  bad.extend([(n,c) for n,c in group if c!=group[0][1]]);group=[]\ncheck(6,'Coloane de tabel',not bad,bad)\nt5=table('| # | Ani | Oraș |'); t51=table('| # | Ani | Identitățile succesive'); t52=table('| # | Moda epocii')\ncheck(7,'Traseu 24/24/24',[len(t5),len(t51),len(t52)]==[24,24,24])\nident=[]\nfor row in t51:\n if row[0] in ('1','22'):continue\n intervals=re.findall(r'\\((?:decembrie )?(\\d{4})–(\\d{4})',row[2])\n ages=re.findall(r'(\\d+) → (\\d+)',row[3])\n for idx,(a,b) in enumerate(intervals):\n  x,y=map(int,ages[idx]); duration=int(b)-int(a)\n  # Prezentul: tabelul arată vârsta în 2026 și plafonul în 2038.\n  if row[0]=='24':y=45\n  exception=row[0]=='23' and idx==1\n  valid=duration<=25 and x>=21 and y-x==duration and (y<=45 or exception and y<=50)\n  valid=valid and (x<=33 if duration<=12 else abs(x-(45-duration))<=1)\n  ident.append(dict(popas=int(row[0]),inceput=int(a),sfarsit=int(b),durata=duration,varsta_initiala=x,varsta_finala=y,exceptie=exception,valid=valid))\ncheck(8,'Durata identităților și numărătoare',len(ident)==32 and all(i['durata']<=25 for i in ident),len(ident))\ncheck(9,'Testul anilor: capcane explicite',all(x in sec[5] for x in ['1600–1603','1869','1958–1960','1724–1725']),limit='Verifică interdicțiile; istoria fiecărui obiect rămâne lectură AU-C, nu deducție din simpla prezență a anului.')\ncal=re.search(r'Calendarul celor 11 întâlniri:\\*\\* (.*?)\\. Cele zece',s)[1]; years=list(map(int,re.findall(r'\\b(?:15|16|17|18|19|20)\\d{2}\\b',cal)))\ncheck(10,'Calendar armistițiu',years==list(range(1526,2027,50)),years)\nm=re.search(r'\\*\\*Într-o frază .*?\\*\\* \\((\\d+) de cuvinte\\): \\*(.*?)\\*',s)\ncheck(11,'Loglinie numărată',bool(m) and int(m[1])==len(m[2].split())<=45,[int(m[1]),len(m[2].split())] if m else [])\ncheck(12,'Data transformării',all(x in s for x in ['26 spre 27 decembrie 1476','4 spre 5 ianuarie 1477']))\ncheck(13,'Fără placeholdere',not re.search(r'\\b(TODO|TBD|FIXME|XXX)\\b|lorem',s,re.I))\ncheck(14,'Statut prezent',all(x in sec[8] for x in ['din 1794 nu e soția lui','Paris','1794']),limit='Nu transformă mențiunile istorice ale căsătoriei în fals pozitiv.')\ncheck(15,'Hanzer: generații', 'a 14-a generație' in sec[8] and '13 Hanzeri' in sec[8])\ncheck(16,'Pivoturi',all(f'Ep. {i}' in sec[12] for i in (1,5,10,15,20)))\ncheck(17,'Decizie 10', 'Un set-piece de zi' in sec[12] and 'aproximativ de 5 ori' in sec[6])\ncheck(18,'Cele 7 pietre','7 pietre ale zorilor' in sec[6] and 'al șaselea inel' in sec[6])\ncheck(19,'Cod stabil', [r[0] for r in table('| Art. | Textul |')]==[str(n) for n in range(1,9)])\ncheck(20,'R8 și minorii',all(x in sec[6] for x in ['statura','Ilinca (16','Sânziana (~28']))\ncheck(21,'Treziri și cost', all(x in sec[8] for x in ['1462','1794','1916','pierde Zilele Babei din anul următor']) and 'ca în fiecare martie' not in s)\nfashion=[(r[0],len(r[1].split(' · '))) for r in t52]\ncheck(22,'Costume: 3 segmente',all(n==3 for _,n in fashion) and all('ochelari' in r[1] or 'lentile' in r[1] for r in t52),fashion, 'Anii garderobei separați de prioritățile istorice; accentele se citesc în tabel.')\nrule=re.search(r'Pentru identitățile de peste 12 ani,.*?termenul-limită\\.',sec[4])[0]\ncheck(23,'Vârste și regulă identică',all(i['valid'] for i in ident) and rule in sec[19],[i for i in ident if not i['valid']])\nbadgap=[]\nfor a,b in zip(ident,ident[1:]):\n if a['popas']==b['popas'] and a['sfarsit']==b['inceput'] and a['popas']!=23:badgap.append(a['popas'])\ncheck(24,'Succesiuni același oraș',not badgap,badgap,'Popasul 23 schimbă orașul; absența de câteva luni este regula normativă pentru anii consecutivi.')\nbrandbad=[x for x in ['Orient Express','Super Chief','Train Bleu','Golden Eagle'] if x in sec[5]]\ncheck(25,'Vehicule fără mărci reale din lista auditului',not brandbad and 'documentele de lucru' in sec[14],brandbad,'Nu este cercetare exhaustivă de marcă; H1 rămâne deschis.')\nprod=(R/'01_CANON/01_DECIZII_PRODUCATOR.md').read_text(encoding='utf-8-sig')\ncheck(26,'Nume blocat și clauză','Ioana Mureșan' in prod and 'Ioana Mureșan' in sec[9] and 'numai prin decizia Producătorului' in sec[14])\npatterns=[r'val[eé]ri',r'dra[ck]on',r'taina Nopții',r'Lord Vlad',r'Lord Victor',r'Dracott Jr',r'Bond nu are trecut',r'citește lăcomia',r'reconstruiește averea',r'Opționale, până la 4']\ncheck(27,'Șiruri extinse',not any(re.search(p,s,re.I) for p in patterns),[p for p in patterns if re.search(p,s,re.I)])\ncheck(28,'Însoțitori și excepție',all('Hanzer' in r[-1] for r in t51 if int(r[0]) in range(3,22)) and '1915–1916' in sec[8])\ncheck(29,'Întâlniri Sânziana','Viena, 1815; Iași, 1916–1917; București, 1989' in sec[8] and 'fără să se întâlnească' in t51[15][-1] and 'nu se văd' in t51[16][-1])\nids=list(map(int,re.findall(r'^\\| V4-(\\d+) \\|',sec[16],re.M)))\ncheck(30,'Registru continuu; OBS-8',ids==list(range(1,87)) and 'OBS-8' in sec[16] and all(x in sec[16] for x in ['B-B8','B-B11','C-P15','B-B6']), {'randuri':len(ids)},'Acoperirea integrală jurnal→canon este în matrice; nu declară actualizarea jurnalului altui autor.')\ncheck(31,'15 decizii',len(re.findall(r'^\\| \\d+ \\|',s[:s.index('**Cuprins.')],re.M))==15 and '00_PROCEDURA_PIPELINE_v4.js' in s)\nhttp=D/'stare_url.json'\nif http.exists():\n data=json.loads(http.read_text(encoding='utf-8')); problematic=[x for x in data if x['status'] in (404,410) or isinstance(x['status'],int) and x['status']>=500]\n check(32,'Acces URL',not problematic,{'total':len(data),'erori_persistente':len(problematic),'alte_statusuri':dict(collections.Counter(str(x['status']) for x in data))},'403/429/timeout nu confirmă validitatea; listate separat. HTTP 200 nu dovedește afirmația.')\nelse: results.append(dict(code='VC32',test='Acces URL',result='NEEXECUTAT',detail='Rulați verifica_url.py',limita=''))\nquick=s[s.index('## Fișa rapidă'):s.index('## Ghidul de citire')]\ncheck(33,'Buget cuvinte',len(s.split())<=25000 and len(quick.split())<=400,{'total':len(s.split()),'fisa':len(quick.split())})\ncheck(34,'Aparat 28/32 și foileton', '0 sau 4 pagini' in sec[12] and 'Ep. 11 și 16 au 3 tranșe' in sec[12] and 'prima zi lucrătoare' in sec[12])\ntrains=[r[0] for r in t52 if re.search(r'tren|expresul',r[2]) and any(x in r[2] for x in ['lux','Golden Meridian','Nocturne','Couronne'])]\ncheck(35,'Trenuri glamour',len(trains)>=5 and '14' in trains and '24' in trains,trains)\nno_urls=re.sub(r'https?://\\S+','',s); no_code=re.sub(r'`[^`]*`','',no_urls)\ncheck(36,'Finisaj tipografic',\"'\" not in no_code and not re.search(r'\\b(roadster|CCTV)\\b',no_code),limit='Nu pretinde detectarea automată a tuturor anglicismelor; termenii de lucru au glosar.')\ncheck(37,'Trimiteri echipe','la orice divergență prevalează canonul' in s)\ncheck(38,'Comparabile; R3',all(x in sec[15] for x in ['Lucifer','Besson','2014–2015']) and 'Imunitatea e exclusă' in sec[6])\ncheck(39,'Istoria ochelarilor și existența obiectivelor','nu priorități de invenție' in sec[5] and 'obiectivul trebuie să mai existe atunci' in sec[5],limit='Nu substituie verificarea istorică integrală AU-C.')\ncheck(40,'Paleta zilei',len(re.findall(r'#[A-F0-9]{6}',sec[13].split('**Culorile de zi**')[1].split('**Codul vestimentar')[0]))>=2)\npayload={'fisier':str(P),'sha256':hashlib.sha256(P.read_bytes()).hexdigest(),'cuvinte_pe_sectiune':{str(k):len(v.split()) for k,v in sec.items()},'teste':results,'ERORI':[x['code'] for x in results if x['result']=='ECHEC'],'limita':'Autoverificare reproductibilă; fără note independente sau PASS de poartă.'}\n(D/'rezultat_verificari.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')\n(D/'identitati.json').write_text(json.dumps(ident,ensure_ascii=False,indent=2),encoding='utf-8')\n(D/'rezultat_verificari.txt').write_text('\\n'.join(f\"{x['code']} {x['result']} {x['test']}: {x['detail']} {x['limita']}\" for x in results),encoding='utf-8')\n# Martori de sensibilitate ai căutării, fără a scrie forme eliminate în canon.\nassert all(re.search(badpat,norm(x)) for x in ['CONTELE NOPȚII','Valerian','DRACON'])\nprint(json.dumps({'sha256':payload['sha256'],'ERORI':payload['ERORI'],'status':dict(collections.Counter(x['result'] for x in results))},ensure_ascii=False))\n"
+    }
+  },
+  "status": "completed",
+  "stdout": "Success. Updated the following files:\nA D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/verifica.py\nA D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/verifica_url.py\n"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-7dd704c9-d0c8-4f5c-a195-79b70554b4d3",
+  "query": "site.ris.bka.gv.at Staatsbürgerschaftsgesetz § 28 2019 Beibehaltung ...",
+  "action": {
+    "type": "search",
+    "queries": [
+      "site.ris.bka.gv.at Staatsbürgerschaftsgesetz § 28 2019 Beibehaltung",
+      "\"Ioana Brădetu\" (site:wikipedia.org OR site:portal.just.ro OR site:politiaromana.ro)",
+      "site.catalog.afi.com \"The Emperor Waltz\" 1948",
+      "site.catalog.afi.com \"Forever Amber\" 1947"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search0",
+      "snippet": "# The Emperor Waltz (1948) Image ... The studio-constructed Emperor Island, where \"Virgil\" woos \"Johanna,\" was made of earth, rock and trees and placed on",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Film/25528-THE-EMPEROR-WALTZ"
+    },
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search1",
+      "snippet": "# Forever Amber (1947) Image ... According to various contemporary news items, Forever Amber opened in New York City at the Roxy Theatre on 22",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Film/25169-FOREVER-AMBER"
+    },
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search2",
+      "snippet": "MUSIC ... 2 July 1948 ... In turn-of-the-century Vienna, an American crashes a ball at the emperor's palace in pursuit of a beautiful Austrian countess,",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Film/25528-THE-EMPEROR-WALTZ?cxt=filmography"
+    },
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search3",
+      "snippet": "1948 ... THE EMPEROR WALTZ",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Catalog/PersonDetails/50726"
+    },
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search4",
+      "snippet": "1948 ... THE EMPEROR WALTZ",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Catalog/PersonDetails/43881"
+    },
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search5",
+      "snippet": "1947 ... FOREVER AMBER ... Image Viewed by AFI",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Catalog/PersonDetails/129043"
+    },
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search6",
+      "snippet": "1947 ... FOREVER AMBER",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Catalog/PersonDetails/8870"
+    },
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search7",
+      "snippet": "1947 ... FOREVER AMBER",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Catalog/PersonDetails/97650"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4search8",
+      "snippet": "# Bundesrecht konsolidiert: Staatsbürgerschaftsgesetz 1985 § 28, Fassung vom 29.12.2025 ... 5. § 28 gültig von 01.01.1999 bis 22.03.2006 zuletzt geändert durch BGBl. ... (3)Absatz",
+      "title": "RIS - Staatsbürgerschaftsgesetz 1985 § 28 - Bundesrecht konsolidiert, Fassung vom 29.12.2025",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2025-12-29&Gesetzesnummer=10005579&Paragraf=28&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn4search12",
+      "snippet": "15.05.2019Prüfungsmaßstab für die Beibehaltung der Staatsbürgerschaft gemäß § 28 Abs. ... 10 § 28 Abs. 1 und 2 Staatsbürgerschaftsgesetz 1985 (StbG) in ... www.ris.bka.gv.at",
+      "title": "15.05.2019",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Vwgh/JWT_2018010076_20190515L00/JWT_2018010076_20190515L00.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn4search9",
+      "snippet": "GP, S 9), haben Minderjährige, allein aus dem Grund, dass es dem Kindeswohl entspricht, unmittelbar nach der Bestimmung des Paragraph 28, Absatz eins, Ziffer 2,",
+      "title": "RIS - Rechtssätze und Entscheidungstext für Ra 2018/01/0076 - Verwaltungsgerichtshof (VwGH)",
+      "url": "https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Vwgh&Dokumentnummer=JWR_2018010076_20190515L06&ShowPrintPreview=True"
+    },
+    {
+      "type": "text_result",
+      "domain": "catalog.afi.com",
+      "ref_id": "turn4search10",
+      "snippet": "\"Tritsch-Tratsch Polka,\" \"Furiosa Polka,\" \"The Acceleration Waltz,\" \"Wine, Women and Song,\" \"The Emperor Waltz,\" \"Tales from the Vienna Woods,\" \"Pizzikato Polka,\" \"Overture to Die fledermaus",
+      "title": "AFI|Catalog",
+      "url": "https://catalog.afi.com/Film/54521-THE-GREATWALTZ?cp=1&cxt=Filmography1&pos=9&sid=2459c846-15e1-4322-8b70-e87a04e4cf73&sr=0.09238717"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn4search13",
+      "snippet": "The Emperor Waltz () is a 1948 American musical film directed by Billy Wilder, and starring Bing Crosby and Joan Fontaine. ... Burke also contributed",
+      "title": "The Emperor Waltz",
+      "url": "https://en.wikipedia.org/wiki/The_Emperor_Waltz"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn4search14",
+      "snippet": "Forever Amber is a 1947 American romantic historical drama film starring Linda Darnell and Cornel Wilde. ... Obituary: Kathleen Winsor: Author of the racy bestseller",
+      "title": "Forever Amber (film)",
+      "url": "https://en.wikipedia.org/wiki/Forever_Amber_%28film%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "ris.bka.gv.at",
+      "ref_id": "turn4search11",
+      "snippet": "Der durch die Staatsbürgerschaftsgesetznovelle 1998 geschaffene Tatbestand des Paragraph 28, Absatz 2, StbG wiederum soll Staatsbürgern die Beibehaltung der österreichischen Staatsbürgerschaft trotz E",
+      "title": "RIS - Rechtssätze und Entscheidungstext für Ra 2020/01/0343 - Verwaltungsgerichtshof (VwGH)",
+      "url": "https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Vwgh&Dokumentnummer=JWR_2020010343_20201008L02"
+    },
+    {
+      "type": "text_result",
+      "domain": "afisilver.afi.com",
+      "ref_id": "turn4search15",
+      "snippet": "THE EMPEROR WALTZ ... US, 1948, ... #24 on AFI’s 100 YEARS . . . ... THE EMPEROR WALTZ",
+      "title": "AMERICAN FILM INSITUTE GUIDE",
+      "url": "https://afisilver.afi.com/films/preview/archive/AFIPreview_22.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn4search16",
+      "snippet": "* Forever Amber (film), 1947 film adaptation of the novel",
+      "title": "Forever Amber",
+      "url": "https://en.wikipedia.org/wiki/Forever_Amber"
+    },
+    {
+      "type": "text_result",
+      "domain": "upload.wikimedia.org",
+      "ref_id": "turn4search17",
+      "snippet": "Cumulative Copyright Catalog ... (David L. ... Inc., (-1948. ... plays the \"Emperor Waltz\" by Johann ... THE EMPEROR WALTZ. ... raphy, John Alton; film",
+      "title": "Motion Pictures 1940 to 1949",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Motion_Pictures_1940_to_1949_%28IA_Motionpict19401949librrich0010%29.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn4search18",
+      "snippet": "Lilley based on original Swiss airs and the music for \"Emperor Waltz\" was written by Johann Strauss the younger in 1888. ... The album reached",
+      "title": "The Emperor Waltz (album)",
+      "url": "https://en.wikipedia.org/wiki/The_Emperor_Waltz_%28album%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn4search19",
+      "snippet": "Forever Amber (1944) is a historical romance novel by Kathleen Winsor set in 17th-century England.It was made into a film in 1947 by 20th Century",
+      "title": "Forever Amber (novel)",
+      "url": "https://en.wikipedia.org/wiki/Forever_Amber_%28novel%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.worldradiohistory.com",
+      "ref_id": "turn4search20",
+      "snippet": "Chicago, May 19, 1948 ... MOVIE MUSIC ... The Emperor Waltz, with spe­ ... The Emperor Waltz is more",
+      "title": "VOL. 15—NO. 10",
+      "url": "https://www.worldradiohistory.com/Archive-All-Music/DownBeat/40s/48/Down-Beat-1948-05-19-15-10.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn4search21",
+      "snippet": "* The Emperor Waltz, 1948 American musical film directed by Billy Wilder and starring Bing Crosby and Joan Fontaine",
+      "title": "The Emperor Waltz (disambiguation)",
+      "url": "https://en.wikipedia.org/wiki/The_Emperor_Waltz_%28disambiguation%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.worldradiohistory.com",
+      "ref_id": "turn4search22",
+      "snippet": "August, 1948 ... selections from the Emperor Waltz, with ... title tune, Emperor Waltz. ... www.americanradiohistory.com",
+      "title": "UGUST \n1948 \n25 \nwww.americanradiohistory.com",
+      "url": "https://www.worldradiohistory.com/Archive-Station-Albums/WHB-Swing/Swing-1948-08.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "supress.sites-pro.stanford.edu",
+      "ref_id": "turn4search23",
+      "snippet": "<tr><td>1945</td><td><i>Forever Amber</i> (Winsor)</td><td><i>Brave Men</i> (Pyle)</td></tr> ... <tr><td>1947</td><td><i>The Miracle of the Bells</i> (Janney)</td><td><i>Peace of Mind</i> (Liebman)</t",
+      "title": "Chapter 1",
+      "url": "https://supress.sites-pro.stanford.edu/sites/supress/files/media/file/7596_Chapter_1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit24",
+      "snippet": "Nach § 27 StbG verliert man die österreichische Staatsbürgerschaft, wenn man eine fremde durch Antrag, Erklärung oder ausdrückliche Zustimmung erwirbt, außer man hat vorher eine",
+      "title": "Doppelte Staatsbürgerschaft durch Oma (§5 StAG), verliere ich die österreichische? Hat jemand Erfahrung?",
+      "url": "https://www.reddit.com/r/Austria/comments/1veqz2s/doppelte_staatsb%C3%BCrgerschaft_durch_oma_5_stag/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-99c3ebcc-b634-4cb5-a442-562cbbb8fedb",
+  "query": "\"Ioana Vetriceanu\" ...",
+  "action": {
+    "type": "search",
+    "queries": [
+      "\"Ioana Vetriceanu\"",
+      "\"Ioana Sălceanu\"",
+      "\"Ioana Brădetu\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn5search1",
+      "snippet": "1. | 3463/121/2024 (ora estimata:10:00 ) | C1A-3j Apelant - reclamant - recurent - contestator • CHIRILĂ IOANA Intimat - pârât - intimat • NECULACHE",
+      "title": "ROMÂNIA \nCURTEA DE APEL GALAŢI \nSECŢIA I CIVILĂ",
+      "url": "https://portal.just.ro/44/SiteAssets/SitePages/acasa_default/LISTA%20DOSARE%20CARE%20SE%20AM%C3%82N%C4%82%20LA%20TERMENUL%20DIN%2008.10.2025%20-%20COMPLET%20C1A3.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn5search2",
+      "snippet": "ROMÂNIA ... | Număr dosar | CAUZĂ CARE NU SE Detalii despre părţi | JUDECĂ Obiectul dosarului | Stadiu procesual --- | --- | ---",
+      "title": "ROMÂNIA \nCURTEA DE APEL GALAŢI \nSECŢIA I CIVILĂ",
+      "url": "https://portal.just.ro/44/SiteAssets/SitePages/acasa_default/LIST%C4%82%20CAUZ%C4%82%20CARE%20NU%20SE%20JUDEC%C4%82%20LA%2017.09.2025%20-%20C1A-3J.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn5search3",
+      "snippet": "| , ORA 10:00 Fond TERMEN 06.02.2026 , ORA 10:00 16. | 6666/233/2025 (ora estimata:10:00 ) | • IPJ GALAŢI - BIROUL RUTIER Reclamant •",
+      "title": "Având în vedere hotărârea Adunării Generale a judecătorilor nr.",
+      "url": "https://portal.just.ro/233/SiteAssets/SitePages/informatii/%C5%9Fedin%C5%A3a%20completului%20CC25%20din%20data%20de%2010.10.2025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn5search4",
+      "snippet": "| SANDU OANA ALEXANDRA SĂLCEANU DRAGOŞ | Admis Admis ... | SANDU OANA ALEXANDRA TOMA IOANA | Admis Admis",
+      "title": "CURTEA DE APEL GALAŢI",
+      "url": "https://portal.just.ro/44/Documents/download687b.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn5search5",
+      "snippet": "Școala Națională de GrefieriConcursul de admitere la SNG din 26 aprilie 2015Tabel cu rezultatele obținute de candidați la concursNotă: confeNota: conform art.28 alin.1 din Regulamentul",
+      "title": "Consiliul Superior al Magistraturii",
+      "url": "https://portal.just.ro/112/SiteAssets/SitePages/informatii/tabel%20rezultate%20SNG.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn5search0",
+      "snippet": "Plângerile pot fi formulate de către persoanele fizice ale căror date personale au fost prelucrate cu încălcarea dispozițiilor legale aplicabile în materia protecției datelor personale",
+      "title": "Judecătoria BACĂU - Informaţii de interes public",
+      "url": "https://portal.just.ro/180/SitePages/informatii.aspx"
+    },
+    {
+      "type": "text_result",
+      "domain": "portal.just.ro",
+      "ref_id": "turn5search6",
+      "snippet": "Școala Națională de GrefieriConcursul de admitere la SNG din 24 aprilie 2016Tabel cu rezultatele obținute de candidați la concursNota: conform art.28 alin.1 din Regulamentul privind",
+      "title": "Consiliul Superior al Magistraturii",
+      "url": "https://portal.just.ro/112/SiteAssets/SitePages/informatii/Concurs%20de%20admintere%20la%20SNG%20din%2024%20aprilie%202016%20-%20Tabel%20cu%20rezultatele%20ob%C5%A3inute%20de%20candida%C5%A3i%20la%20concurs.pdf"
+    }
+  ]
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-5bffe1f9-99ac-45e6-97ed-34ba8fe93177",
+  "changes": {
+    "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\cautari_nume.json": {
+      "type": "add",
+      "content": "{\n  \"data\": \"2026-09-24\",\n  \"interogari\": [\n    \"\\\"Ioana Vetriceanu\\\"\",\n    \"\\\"Ioana Sălceanu\\\"\",\n    \"\\\"Ioana Brădetu\\\"\"\n  ],\n  \"domenii\": [\n    \"wikipedia.org\",\n    \"portal.just.ro\",\n    \"politiaromana.ro\"\n  ],\n  \"rezultat\": \"ROMÂNIA \\nCURTEA DE APEL GALAŢI \\nSECŢIA I CIVILĂ (https://portal.just.ro/44/SiteAssets/SitePages/acasa_default/LISTA%20DOSARE%20CARE%20SE%20AM%C3%82N%C4%82%20LA%20TERMENUL%20DIN%2008.10.2025%20-%20COMPLET%20C1A3.pdf)\\nciteturn5search1 [wordlim: 200] Published: 7 months ago; 1. | 3463/121/2024 (ora estimata:10:00 ) | C1A-3j Apelant - reclamant - recurent - contestator • CHIRILĂ IOANA Intimat - pârât - intimat • NECULACHE STEREA - decedat - pe numele mostenirii • MIHAI GEORGETA-moştenitor al Neculache Maria • RADU MATILDA-moştenitor al Neculache Maria • NECULACHE ŞTEFAN-moştenitor al Neculache Maria • STATE ECATERINA-moştenitor al Neculache Maria • SĂLCEANU AURELIAN-moştenitor al Sălceanu Elena • OANĂ PETRACHE-moştenitor al Oană Neculina • DUMITRU SĂFTICA-moştenitor al Oană Neculina • DUMITRACHE MARANDA-moştenitor al Oană Neculina • ONOSĂ MARIA-moştenitor al Oană Neculina • IACOB(fostă Oană) ŞTEFANA-moştenitor al Oană Neculina • FLUTURU VIOREL DANIEL-moşt.al Fluturu Sofiţa, al Oană N. ... • CĂUŞ SOFIA-moştenitor al Serea Florica • IONAŞCU ILEANA-moştenitor al Serea Florica • MUNTEANU ELENA (FOSTĂ IONAŞCU) • IONAŞCU ALEXANDRINA • POALELUNGI (fostă IONAŞCU) VALERICA-moştenitor al Ionaşcu Ştefan • IONAŞCU NECULAI-moştenitor al Ionaşcu Ştefan • ILIE(fostăIONAŞCU) SOFIA-moştenitor al Ionaşcu Ştefan • NECULACHE STELUŢA-moştenitor al Neculache Sterea • NECULACHE GINA-moştenitor al Neculache Sterea • NECULACHE IORDACHE-moştenitor al Neculache Sterea • NECULACHE VALENTINA-moştenitor al Neculache Sterea • SĂLCEANU CĂTĂLINA-moştenitor al Sălceanu Elena • SĂLCEANU VICTOR-moştenitor al Sălceanu Elena • SĂLCEANU MARIUS-moştenitor al Sălceanu Elena • ANGHELUŢĂ AVRAM-moşt. al Angheluţă Constanţa • ANGHELUŢĂ ILEANA-moşt. al Angheluţă Constanţa • ANGHELUŢĂ VIOREL-moşt. al Angheluţă Constanţa • ANGHELUŢĂ PETRICĂ-moşt. al Angheluţă Constanţa • ANGHELUŢĂ NECULAI-moşt. al Angheluţă Constanţa • ANGHELUŢĂ COSTEL-moşt. al Angheluţă Constanţa | partaj judiciar | Apel\\nROMÂNIA \\nCURTEA DE APEL GALAŢI \\nSECŢIA I CIVILĂ \\n \\nCOMPLETUL DE JUDECATĂ COMPUS DIN: \\nPREŞEDINTE: Dicu Răzvan \\nJUDECĂTOR: Bichilie Dana Gabriela \\nJUDECĂTOR: Manea Anne-Marie Nicoleta \\n \\nLISTA CAUZELOR CARE SE AMÂNĂ LA DATA DE 08 OCTOMBRIE 2025 \\nC1A-3j  \\nNr. crt. | Număr dosar | C1A-3j Detalii despre părţi | Obiectul dosarului | Stadiu procesual\\n--- | --- | --- | --- | ---\\n |  | C1A-3j Calitate şi nume |  | \\n1. | 3463/121/2024 (ora estimata:10:00 ) | C1A-3j Apelant - reclamant - recurent - contestator • CHIRILĂ IOANA Intimat - pârât - intimat • NECULACHE STEREA - decedat - pe numele mostenirii • MIHAI GEORGETA-moştenitor al Neculache Maria • RADU MATILDA-moştenitor al Neculache Maria • NECULACHE ŞTEFAN-moştenitor al Neculache Maria • STATE ECATERINA-moştenitor al Neculache Maria • SĂLCEANU AURELIAN-moştenitor al Sălceanu Elena • OANĂ PETRACHE-moştenitor al Oană Neculina • DUMITRU SĂFTICA-moştenitor al Oană Neculina • DUMITRACHE MARANDA-moştenitor al Oană Neculina • ONOSĂ MARIA-moştenitor al Oană Neculina • IACOB(fostă Oană) ŞTEFANA-moştenitor al Oană Neculina • FLUTURU VIOREL DANIEL-moşt.al Fluturu Sofiţa, al Oană N. --------------------------------------------------------------------------------\\nROMÂNIA \\nCURTEA DE APEL GALAŢI \\nSECŢIA I CIVILĂ (https://portal.just.ro/44/SiteAssets/SitePages/acasa_default/LIST%C4%82%20CAUZ%C4%82%20CARE%20NU%20SE%20JUDEC%C4%82%20LA%2017.09.2025%20-%20C1A-3J.pdf)\\nciteturn5search2 [wordlim: 200] Published: last year; ROMÂNIA ... | Număr dosar | CAUZĂ CARE NU SE Detalii despre părţi | JUDECĂ Obiectul dosarului | Stadiu procesual --- | --- | --- | --- | --- | | CAUZĂ CARE NU SE Calitate şi nume | JUDECĂ None | 1. | 3463/121/2024 (ora estimata:09:00 ) | CAUZĂ CARE NU SE Apelant - reclamant - recurent - contestator • CHIRILĂ IOANA Intimat - pârât - intimat • NECULACHE STEREA - decedat - pe numele mostenirii • MIHAI GEORGETA- moştenitor al Neculache Maria • RADU MATILDA- moştenitor al Neculache Maria • NECULACHE ŞTEFAN- moştenitor al Neculache Maria • STATE ECATERINA- moştenitor al Neculache Maria • SĂLCEANU AURELIAN- moştenitor al Sălceanu Elena • OANĂ PETRACHE- moştenitor al Oană Neculina • DUMITRU SĂFTICA- moştenitor al Oană Neculina • DUMITRACHE MARANDA-moştenitor al Oană Neculina • ONOSĂ MARIA- moştenitor al Oană Neculina • IACOB(fostă Oană) ŞTEFANA-moştenitor al Oană Neculina • FLUTURU VIOREL DANIEL-moşt.al Fluturu Sofiţa, al Oană N.\\nROMÂNIA \\nCURTEA DE APEL GALAŢI \\nSECŢIA I CIVILĂ \\n \\nCOMPLETUL DE JUDECATĂ COMPUS DIN: \\nPREŞEDINTE: Bichilie Dana Gabriela \\nJUDECĂTOR: Dicu Răzvan \\nJUDECĂTOR: Manea Anne-Marie Nicoleta \\n \\nLISTA DIN DATA DE 17 SEPTEMBRIE 2025 \\nC1A-3j  \\nCAUZĂ CARE NU SE JUDECĂ \\nNr. crt. | Număr dosar | CAUZĂ CARE NU SE Detalii despre părţi | JUDECĂ Obiectul dosarului | Stadiu procesual --- | --- | --- | --- | --- | | CAUZĂ CARE NU SE Calitate şi nume | JUDECĂ None | 1. | 3463/121/2024 (ora estimata:09:00 ) | CAUZĂ CARE NU SE Apelant - reclamant - recurent - contestator • CHIRILĂ IOANA Intimat - pârât - intimat • NECULACHE STEREA - decedat - pe numele mostenirii • MIHAI GEORGETA- moştenitor al Neculache Maria • RADU MATILDA- moştenitor al Neculache Maria • NECULACHE ŞTEFAN- moştenitor al Neculache Maria • STATE ECATERINA- moştenitor al Neculache Maria • SĂLCEANU AURELIAN- moştenitor al Sălceanu Elena • OANĂ PETRACHE- moştenitor al Oană Neculina • DUMITRU SĂFTICA- moştenitor al Oană Neculina • DUMITRACHE MARANDA-moştenitor al Oană Neculina • ONOSĂ MARIA- moştenitor al Oană Neculina • IACOB(fostă Oană) ŞTEFANA-moştenitor al Oană Neculina • FLUTURU VIOREL DANIEL-moşt.al Fluturu Sofiţa, al Oană N. | JUDECĂ partaj judiciar | Apel--------------------------------------------------------------------------------\\nAvând în vedere hotărârea Adunării Generale a judecătorilor nr. (https://portal.just.ro/233/SiteAssets/SitePages/informatii/%C5%9Fedin%C5%A3a%20completului%20CC25%20din%20data%20de%2010.10.2025.pdf)\\nciteturn5search3 [wordlim: 200] Published: last year; | , ORA 10:00 Fond TERMEN 06.02.2026 , ORA 10:00 16. | 6666/233/2025 (ora estimata:10:00 ) | • IPJ GALAŢI - BIROUL RUTIER Reclamant • SĂLCEANU GEORGETA FLORICA • SĂLCEANU MARCEL DĂNUŢ Pârât • OLARU IOANA | grăniţuire | , ORA 10:00 Fond TERMEN 06.02.2026 , ORA 10:00 17. | 6691/233/2025 (ora estimata:10:00 ) | • IPJ GALAŢI - BIROUL RUTIER Petent • BÂTCĂ PRICOP Intimat • IPJ GALAŢI - SERVICIUL RUTIER | anulare proces verbal de contravenţie - seria PGLW nr.248442/08.04.2025 | , ORA 10:00 Fond TERMEN 06.02.2026 , ORA 10:00 18. | 6814/233/2025 (ora estimata:10:00 ) | • IPJ GALAŢI - BIROUL RUTIER Petent • BOJOAGĂ ISSAK DAVID SIMION | anulare proces verbal de contravenţie - seria PGLW nr.254902/06.04.2025 | , ORA 10:00 Fond TERMEN 06.02.2026\\n--------------------------------------------------------------------------------\\nCURTEA DE APEL GALAŢI (https://portal.just.ro/44/Documents/download687b.pdf)\\nciteturn5search4 [wordlim: 200] Published: 8 months ago; | SANDU OANA ALEXANDRA SĂLCEANU DRAGOŞ | Admis Admis ... | SANDU OANA ALEXANDRA TOMA IOANA | Admis Admis\\n--------------------------------------------------------------------------------\\nConsiliul Superior al Magistraturii (https://portal.just.ro/112/SiteAssets/SitePages/informatii/tabel%20rezultate%20SNG.PDF)\\nciteturn5search5 [wordlim: 200] Published: 6 months ago; Școala Națională de GrefieriConcursul de admitere la SNG din 26 aprilie 2015Tabel cu rezultatele obținute de candidați la concursNotă: confeNota: conform art.28 alin.1 din Regulamentul privind organizarea și desfășurarea concursului de admitere la Școala Națională ...   <tr><td>215</td><td>HALAICU Ioana</td><td>T SUCEAVA</td><td>6.98</td><td>8.25</td><td>9.35</td><td>8.19</td></tr> ...   <tr><td>221</td><td>SĂLCEANU Alexandru</td><td>T DOLJ</td><td>5.40</td><td>9.13</td><td>10.00</td><td>8.18</td></tr>\\n--------------------------------------------------------------------------------\\nJudecătoria BACĂU - Informaţii de interes public (https://portal.just.ro/180/SitePages/informatii.aspx)\\nciteturn5search0 [wordlim: 200] Crawled: 2 weeks ago;         Plângerile pot fi formulate de către persoanele fizice ale căror date personale au fost prelucrate cu încălcarea dispozițiilor legale aplicabile în materia protecției datelor personale (”persoane vizate”), în special în cazul în care reşedinţa obişnuită a petentului, locul său de muncă sau presupusa încălcare se află sau, după caz, are loc pe teritoriul României. ... P e portalul instanțelor de judecată se publică doar numele si prenumele justițiabililor, date ce, astfel cum reiese din  int​erpretarea Legii 677/2001, cu modificările și completările ulterioare (abordare confirmată și de adresa Autorității Naționale de Supraveghere a Prelucrării Datelor cu Caracter Personal nr. 0019542 din 24.07.2012), sunt strict necesare pentru realizarea scopului urmărit prin aplicația ECRIS, respectiv portalul instanțelor de judecată, în condițiile în care datele prezentate sunt adecvate, pertinente și neexcesive (postarea numai a numelui și prenumelui justițiabililor în cadrul soluției publicate), iar procesul este pe rol. ... ​Sălceanu D. ... Iulia-Ioana ​​2022 . ​\\n--------------------------------------------------------------------------------\\nConsiliul Superior al Magistraturii (https://portal.just.ro/112/SiteAssets/SitePages/informatii/Concurs%20de%20admintere%20la%20SNG%20din%2024%20aprilie%202016%20-%20Tabel%20cu%20rezultatele%20ob%C5%A3inute%20de%20candida%C5%A3i%20la%20concurs.pdf)\\nciteturn5search6 [wordlim: 200] Published: 6 months ago; Școala Națională de GrefieriConcursul de admitere la SNG din 24 aprilie 2016Tabel cu rezultatele obținute de candidați la concursNota: conform art.28 alin.1 din Regulamentul privind organizarea și desfășurarea concursului de admitere la Școala Națională ... <tr><td>196</td><td>TCACENCO Gina-Ioana</td><td>T Iaşi</td><td>8.50</td><td>8.58</td><td>8.08</td><td>8.39</td></tr> ... <tr><td>216</td><td>ANDREICA Ioana-Ramona</td><td>T Timiş</td><td>8.50</td><td>9.05</td><td>7.48</td><td>8.34</td></tr> ... <tr><td>231</td><td>SĂLCEANU Alexandru</td><td>T Dolj</td><td>8.15</td><td>7.80</td><td>8.98</td><td>8.31</td></tr>\\n\"\n}\n"
+    }
+  },
+  "status": "completed",
+  "stdout": "Success. Updated the following files:\nA D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/cautari_nume.json\n"
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-b7f6ca0c-93e2-45ae-acdd-5a2e12e87373",
+  "changes": {
+    "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\REV_IZOLAT_20260924\\dovezi.py": {
+      "type": "add",
+      "content": "from pathlib import Path\nimport re,json,hashlib,datetime,csv,difflib,collections\nR=Path(r'D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924');D=Path(__file__).resolve().parent;P=R/'01_CANON/00_CANON_NUCLEU.md';s=P.read_text(encoding='utf-8');lines=s.splitlines()\nsha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()\nnow=datetime.datetime.now(datetime.timezone.utc).isoformat()\ndef write(name,t): (D/name).write_text(t,encoding='utf-8',newline='\\n')\ndef loc(needle):\n hits=[str(i) for i,l in enumerate(lines,1) if needle in l]\n return 'r. '+', '.join(hits[:8]) if hits else 'NU GĂSIT'\nsections={m[1]:loc(m[0]) for m in re.finditer(r'^## (\\d+)\\. .+$',s,re.M)}\nevidence={\n1:('închis, bază nouă','inainte/00_CANON_NUCLEU.md; SHA256SUMS.txt'),\n2:('închis în canon; aliniere C necesară','§8; '+loc('Trezirile extraordinare canonice')),\n3:('corectat','§2, §5.2; VC22; surse optică în §18; anii garderobei nu sunt atestări'),\n4:('corectat','§4/§19; VC8/23/24; identitati.json (32 de identități)'),\n5:('implementat; H1 deschis','§5.2/§14; VC25; numele trenurilor sunt propuneri fictive, nu mărci declarate disponibile'),\n6:('implementat; decizia Producătorului și H1 deschise','§14; cautari_nume.json; propunerea din raport; numele blocat păstrat'),\n7:('preexistent, verificat','§5.2/§6; '+loc('R6 ·')),\n8:('preexistent, verificat','§6/§7/§19; '+loc('trei săptămâni')),\n9:('completat','§5.1/§8; VC28; ramura vieneză și succesorii; excepția 1915–1916'),\n10:('preexistent, verificat','§2/§6/§13; VC20'),\n11:('preexistent, verificat','§5.1/§8; VC29'),\n12:('preexistent, verificat','§5/§5.1/§5.2; V4-54; venituri japoneze donate, portofolii externe păstrate'),\n13:('completat','§6 R7 și fișa rapidă; Canalul Mânecii este excepție canonică, nu afirmație hidrologică'),\n14:('preexistent, verificat','§2/§7/§8/§15; neutralizare fără ucidere în prezent'),\n15:('preexistent, verificat','§8/§11: sicriu fără trup; Oradea: încă un mormânt gol'),\n16:('preexistent, verificat','§3/§5/§10/§14/§18: ediții Ayrer/Wagner distincte; Lübeck disputat'),\n17:('executat cu excepții de acces','stare_url.json/txt; toate URL-urile încercate; răspunsurile HTTP nu certifică faptele'),\n18:('preexistent, verificat','§5/§5.1; VC1/27; identitati.json; Virgilio Dal Drago și Victorin'),\n19:('precizat','§4/§5.1: primul/al doilea/al treilea baron; genealogie fictivă, fără echivalarea abeyance cu titlu nerevendicat'),\n20:('preexistent, verificat','§5/§5.1: cetățean elvețian în 1914; detaliul opțional al Cisternei neadoptat, V4-62'),\n21:('preexistent, verificat','§7 art. 4; §13; VC40'),\n22:('completat','clisee_24.md; §5: obiectivul există la data scenei; §14'),\n23:('preexistent, verificat','§15; R3; VC38; documentul C necesită aliniere fără divulgarea ipotezelor'),\n24:('corectat; aliniere C deschisă','§10: eliminată certificarea nejustificată a compatibilității integrale; pista inelului păstrată'),\n25:('preexistent, verificat','§5.2; VC35: cinci vehicule feroviare de lux'),\n26:('preexistent plus condensare','§1; VC11: 44 cuvinte; caz/poliție, zi, glamour, antagonist'),\n27:('preexistent, verificat','§10: covor respectat, origini multiple, Istanbul luminos'),\n28:('precizat','§12: cele trei date; aniversare civilă convențională; R4 păstrează luna de stingere'),\n29:('preexistent, verificat','§12: cinci elemente și ancore ale arcului interior'),\n30:('completat','§12; VC34; OBS-8/OBS-10; pagina 4 artă nouă, 28/32 pagini'),\n31:('preexistent, verificat','antet 15/15; VC31; V4-78'),\n32:('completat','§16: V4-83…V4-87; corespondenta_jurnal.md; jurnalul rămâne la Studio'),\n33:('livrat separat','avizul de aliniere din RAPORT_REVIZIE.md; VC37'),\n34:('livrat separat conform mandatului','RAPORT_REVIZIE.md; tabel 15 decizii și KPI K1–K13; S_showrunner.md neatins'),\n35:('închis','VC33; 24.971 cuvinte; fișa rapidă 279; ghid 11 echipe'),\n36:('verificări executate','VC3/36; glosar §19; limita verificării lexicale declarată'),\n37:('parțial: autoverificare, nu certificare independentă','scan_absolut.csv; cine_stie.md; corecții R7/R9, calendar, vârste; alinierea C și K1 global rămân la AU-C'),\n38:('executat, limite declarate','verifica.py; rezultat_verificari.json/txt; verificările semantice nu sunt simulate printr-un PASS automat'),\n39:('închis în scopul autorului','predat/; SHA256SUMS.txt; MANIFEST.json; raport separat; registrul central exclus')}\nplan=(R/'00_STUDIO/audit/G0-CANON-v4/R1_plan_masuri.md').read_text(encoding='utf-8-sig')\ntasks={int(m[1]):m[2] for m in re.finditer(r'^\\| \\*\\*M1\\.(\\d+)\\*\\* \\| (.*?) \\| Showrunner',plan,re.M)}\nmt=['# Execuția celor 39 de măsuri','', 'Stările sunt ale autorului; „preexistent” nu înseamnă implementat de această revizie. Coloana dovadă indică versiunea v4.2.','', '| Măsura | Stare | Dovadă |','|---|---|---|']\nfor n,(status,ev) in evidence.items(): mt.append(f'| M1.{n} | {status} | {ev} |')\nwrite('MASURI_39.md','\\n'.join(mt)+'\\n')\n# Defectele au corespondența din plan, fără reclasificări sau punctaje inventate.\nmapping={\n'AC-m1':[2,28],'AC-m2':[3],'AC-m3':[7],'AC-m4':[16],'AC-m5':[8],'AC-m6':[8],'AC-m7':[11],'AC-m8':[19],'AC-m9':[21],'AC-m10':[15],'AC-m11':[23],'AC-m12':[5],'AC-m13':[33],\n'AC-c1':[36],'AC-c2':[17],'AC-c3':[14],'AC-c4':[13],'AC-c5':[4],'AC-c6':[32],\n'AC-O1':[20],'AC-O2':[20],'AC-O3':[24],\n'AM-1':[5],'AM-2':[2],'AM-3':[6],'AM-4':[4],'AM-5':[23],'AM-6':[3],'AM-7':[9],'AM-8':[24],'AM-9':[25],'AM-10':[12],'AM-11':[28],'AM-12':[29],'AM-13':[30],'AM-14':[5],'AM-15':[21],'AM-16':[22],'AM-17':[13],'AM-18':[11],'AM-19':[26],'AM-20':[26],'AM-21':[35],'AM-22':[10],'AM-23':[14],'AM-24':[4],'AM-25':[27],\n'AK-1':[3],'AK-2':[32],'AK-3':[34],'AK-4':[12],'AK-5':[10],'AK-6':[2],'AK-7':[9],'AK-8':[30],'AK-9':[17],'AK-10':[18],'AK-11':[32],'AK-12':[11],'AK-13':[31,14,36],\n'AK-O1':[31],'AK-O2':[39],'AK-O3':[35],'AK-O4':[34]}\nout=['# Defect → măsură → dovadă','','57 defecte și 7 observații; nu este o nouă notare.','', '| ID | Măsuri | Rânduri V4 și dovezi |','|---|---|---|']\nfor id,nums in mapping.items():\n vr=[re.match(r'\\| (V4-\\d+)',l)[1] for l in lines if re.match(r'\\| V4-\\d+',l) and re.search(r'(?<![\\w-])'+re.escape(id)+r'(?!\\d)',l)]\n out.append(f\"| {id} | {', '.join('M1.'+str(n) for n in nums)} | {', '.join(vr) or 'Raport separat / măsură de verificare'}; {'; '.join(evidence[n][1] for n in nums)} |\")\nassert len(mapping)==64\nwrite('DEFECTE_64.md','\\n'.join(out)+'\\n')\nfilms=[('Dracula',1931,'vampirul și mormântul'),('Casino Royale',2006,'Veneția, identități și urmărire'),('Angels & Demons',2009,'arhive și conspirație romană'),('From Russia with Love',1963,'Istanbul și cisterna'),('The Illusionist',2006,'iluzionistul central-european; nu atestare a Golemului'),('The Three Musketeers',1973,'muschetarii'),('Forever Amber',1947,'Londra, ciuma și incendiul'),('The Lord of the Rings: The Two Towers',2002,'asediul; analogie de mecanism, nu istorie'),('Anastasia',1956,'curtea rusă și identitatea'),('The Scarlet Pimpernel',1934,'salvatorul mascat'),('The Mummy',1999,'egiptologul'),('The Emperor Waltz',1948,'balul imperial'),('Sherlock Holmes',2009,'detectivul londonez'),('Murder on the Orient Express',1974,'crima din tren; fără soluția filmului'),('1917',2019,'misiunea din tranșee'),('The Great Gatsby',2013,'jazz și bogăție'),('Sunset Boulevard',1950,'mitologia Hollywoodului'),('The Longest Day',1962,'Rezistența'),('To Catch a Thief',1955,'hoțul elegant pe Riviera'),('The Spy Who Came in from the Cold',1965,'spionul și Berlinul'),('Interview with the Vampire',1994,'vampirul în sudul american'),('The Bourne Identity',2002,'străinul fără identitate'),('The Thomas Crown Affair',1999,'financiarul misterios'),('Bram Stoker’s Dracula',1992,'castelul transilvănean')]\nwrite('clisee_24.md','# Repere cinematografice interne — 24/24\\n\\nSelecție editorială, nu surse pentru adevărul istoric al scenelor; nu se preiau personaje, soluții sau cadre. Anul filmului nu este anul popasului. Pentru #5 și #8 se compară mecanismul, nu geografia.\\n\\n| Popas | Film | An | Mecanism |\\n|---|---|---|---|\\n'+'\\n'.join(f'| {i} | {f} | {y} | {v} |' for i,(f,y,v) in enumerate(films,1))+'\\n\\nVerificări de catalog punctuale: [Forever Amber](https://catalog.afi.com/Film/25169-FOREVER-AMBER), [The Emperor Waltz](https://catalog.afi.com/Film/25528-THE-EMPEROR-WALTZ). Celelalte sunt repere de lucru pentru AU-M, nu o cercetare filmografică exhaustivă.\\n')\nwrite('cine_stie.md','''# Cine știe ce și când — relectură de autor\n\n| Personaj | Înainte de Ep. 10 | După Ep. 10 / limită |\n|---|---|---|\n| Ioana | identitatea civilă; indiciile nu sunt confirmare | află natura lui; poate dărui pentru R4; R3 nu admite excepție pentru ea |\n| Irina | bănuiește din Ep. 1, ADN imposibil și dâre | canonul nu fixează confirmarea; nu se presupune eligibilă pentru R4 |\n| Tudor | remarcă dâra înainte de Ep. 10 | nu are revelație fixată; nu devine donator informat prin presupunere |\n| Iosif | știe natura lui; reaprinde în 2019 | donator informat; boala propusă rămâne amânată |\n| Ilinca | cunoaște Casa și Criptele | nemuritoare; R4 cere sângele unui om |\n| Sânziana | cunoaște transformarea și propria judecată | separată din 1794; nu este soția prezentului |\n| Mihnea | știe din 1510 | exilat; inel confiscat; nu e donator uman |\n| Buna Dochia | cunoaște Sângele și legea Casei | accesul la oracol este limitat de somn și cost |\n\nVlad află judecata Sânzianei în Ep. 15–20, de la Radu; nu i se atribuie această cunoaștere în Ep. 1. Scenele și răspunsul la stingerea progresivă: D1.\n''')\n# Inventar literal: nu atribuim unui program capacitatea de a confirma adevărul semantic.\nwith (D/'scan_absolut.csv').open('w',encoding='utf-8-sig',newline='') as f:\n w=csv.writer(f);w.writerow(['rand','sectiune','termen','context','metoda']);section=0\n for i,l in enumerate(lines,1):\n  m=re.match(r'## (\\d+)\\.',l)\n  if m:section=int(m[1])\n  if section in list(range(1,16))+[19,20]:\n   for m in re.finditer(r'\\b(?:singur\\w*|numai|doar|niciodată|nicăieri|primul|toate)\\b|nu .{0,60}?niciun',l,re.I):w.writerow([i,section,m[0],l,'inventar automat; nu verdict semantic'])\n# Matricea jurnalului păstrează intrările istorice fără a pretinde modificarea lor.\nj=(R/'00_STUDIO/03_JURNAL_PROGRES.md').read_text(encoding='utf-8-sig');j5=j.split('## 5.',1)[1].split('## 6.',1)[0]\njrows=[]\nfor l in j5.splitlines():\n if not l.startswith('|'):continue\n first=l.split('|')[1].strip()\n if re.fullmatch(r'(?:B-[ABC]\\d+|C-P\\d+|A-\\d+|SR-\\d+|DP-\\d+|OBS-\\d+|AUD-\\d+|REG-1)',first):\n  refs=re.findall(r'V4-\\d+|§16 [A-Z]+-?\\d+',l)\n  direct=[re.match(r'\\| ([^|]+)',x)[1].strip() for x in lines if x.startswith('|') and first in x and 'V4-' in x]\n  jrows.append((first, ', '.join(direct or refs) or 'decizie istorică din jurnal; vezi §16.2 și matricea defectelor'))\nwrite('corespondenta_jurnal.md','# Corespondența jurnal → canon\\n\\nExtracție a rândurilor individuale din §5 al jurnalului citit la predare; nu transformă referințele istorice în decizii noi. OBS-8 → V4-83; OBS-10 → V4-87. Intrările compuse și intervalele necesită lectura auditorului; K5 global nu este declarat 100%.\\n\\n| ID | Trimitere |\\n|---|---|\\n'+'\\n'.join('| '+a+' | '+b+' |' for a,b in jrows)+'\\n')\npayload=json.loads((D/'rezultat_verificari.json').read_text(encoding='utf-8'));http=json.loads((D/'stare_url.json').read_text(encoding='utf-8'))\nreport=f'''# Raport separat de revizie — G0-CANON-v4, v4.2\n\nData UTC a generării: {now}. Autor: agentul de revizie Codex din această sarcină. Nu este raport de auditor și nu conține o notă. Niciun agent nou nu a fost lansat.\n\n## E.1 Livrabilul și starea auditului\n\nCanon: `{P}`. SHA-256: `{sha(P)}`. Versiune: v4.2. Copie stabilă: `predat/00_CANON_NUCLEU.md`; manifest: `MANIFEST.json`, `SHA256SUMS.txt`. Aceleași octeți trebuie folosiți de toți cei trei auditori. Orice corectură ulterioară cere alt instantaneu; nu se auditează un fișier aflat în scriere.\n\nUltimele rapoarte independente găsite în dosarul propriu sunt R1: AU-C 9,31, AU-M 8,70, AU-K 8,70, pe v4.0. Nu se transferă la v4.2. Poarta de 9,50 de la fiecare auditor nu este trecută și nu este revendicată.\n\n## E.2 Măsurile și atribuirea\n\n`MASURI_39.md`: 39/39 măsuri inventariate cu stări și dovezi. `DEFECTE_64.md`: 57 defecte + 7 observații. Baza izolată era deja v4.1; majoritatea corecturilor R1 existau înaintea acestei sarcini. Nu le revendic ca implementări proprii. `diff_propriu.patch` este dovada exhaustivă a contribuției mele; `modificari_proprii.json` descrie prima etapă, iar diff-ul final include și condensarea, OBS-10 și corecturile ulterioare.\n\n## E.3 Integritatea bazei\n\nBaza izolată, exactă: `inainte/00_CANON_NUCLEU.md`, SHA-256 `eef72462df479ad0d88231aae6b0a9ead3a74df4621c5ceb88cc88961bcabad7`. Diferă de prima captură din original (`f553eb7d…bfcd8`) și de captura concurentă (`f9c6a3e2…62434`). Copiile acestora se află în dosarul anterior copiat `REV_20260924_120416/inainte/`. Diferențele sunt arhivate separat; nu sunt atribuite acestei revizii. Originalul nu a fost scris. Nu s-a găsit AGENTS.md în proiect ori în directoarele părinte verificate; AGENTS.md din profilul Codex era gol.\n\n## E.4 Verificări reale\n\n`verifica.py` și `verifica_url.py` folosesc numai rădăcina izolată. Nu am rulat scriptul R0 cu rădăcina originală. Scriptul R0 moștenit avea verificări lexicale și un prag vechi de 40 de cuvinte; verificatorul nou păstrează obiectivele structurale și explică limitele, fără a simula audit semantic.\n\nRezultate: {dict(collections.Counter(x['result'] for x in payload['teste']))}. Erori raportate: {payload['ERORI']}. Textul are {len(s.split())} cuvinte. URL-uri: {len(http)}, distribuție {dict(collections.Counter(str(x['status']) for x in http))}. Accesul 202/302/403 sau o eroare de server nu certifică o sursă. Fișierele `stare_url*` păstrează încercările și excepțiile. Rezultatul structural se rerulează pe copia predată și se compară; HTTP este observație datată, nu rezultat reproductibil garantat.\n\n## E.5 Trasabilitate și decizii blocate\n\nMatricea defectelor: `DEFECTE_64.md`. Deciziile rămân 15; numele Ioana Mureșan rămâne blocat. Titlul DRACULA, eroul de zi, moda și glamourul Bond, burlăcia prezentului și despărțirea Paris 1794 sunt păstrate.\n\n| Decizie | Aplicare în canon | Locație |\n|---|---|---|\n'''\ndec_sections={1:2,2:3,3:8,4:5,5:2,6:19,7:17,8:1,9:13,10:6,11:5,12:20,13:8,14:20,15:8}\nfor n,k in dec_sections.items():report+=f'| {n} | §{k}; rezumatul deciziei din antet păstrat | {sections[str(k)]} |\\n'\nreport+='''\n## E.6 Relectură, cercetare și KPI\n\n32 de identități și vârste calculate: `identitati.json`. Repere cinematografice: `clisee_24.md`. Informația personajelor: `cine_stie.md`. Scanarea tuturor absolutelor: `scan_absolut.csv` (inventar, nu certificare semantică automată). Cuvinte pe secțiuni: `rezultat_verificari.json`.\n\nCorecții proprii: excepția Valentin la 46 de ani, termenul identității curente 2038, formula identică §4/§19; R7 în fișa rapidă; R9 și Protocolul Mureșan; excepția Hanzer 1915–1916 și succesorii ramurii vieneze; ochelarii din 1604 ca invenție BD, fără atestare falsă a atelierului; eliminarea priorității false din 1929; aniversarea civilă, păstrând conversia iuliană în §3.1; stingerea progresivă în R4; OBS-8 și OBS-10 acceptate. Nota confidențială nu mai certifică impropriu compatibilitatea tuturor ipotezelor C.\n\nSurse consultate punctual: [muzeul de optică — ochelari de soare](https://www.college-optometrists.org/the-british-optical-association-museum/history-fashion-sunglasses), [construcția ochelarilor](https://www.college-optometrists.org/the-british-optical-association-museum/the-history-of-spectacles), [17 USC, capitolul 3](https://www.copyright.gov/title17/92chap3.html), [Directiva 2006/116/CE](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32006L0116), [California §3344.1](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=3344.1.&lawCode=CIV), [hotărârea austriacă din 15.05.2019](https://www.ris.bka.gv.at/Dokumente/Vwgh/JWT_2018010076_20190515L00/JWT_2018010076_20190515L00.pdf). Sursele legale stabilesc reguli generale, nu un aviz pentru fiecare material DRACULA. Muzeul nu confirmă perechea fictivă de ochelari din 1604.\n\n**Propunerea M1.6 către Producător:** păstrarea numelui blocat până la decizia explicită. Dacă dorește redenumire, variante de lucru: Ioana Vetriceanu, Ioana Brădetu, Ioana Sălceanu. Interogări exacte cu domeniile Wikipedia, portal.just.ro și politiaromana.ro: `cautari_nume.json`. Rezultatele vizibile pentru Sălceanu sunt potriviri de termeni separați, nu dovada unei identități exacte; nu declarăm numele liber ori rar statistic. Corbeanu a fost abandonat la prefiltrare după o potrivire nominală în indexul portalului. B și H1 verifică variantele și grafiile fără diacritice înaintea deciziei din 02.10.2026. Pentru tren, căutarea „L’Express des Deux Empires” a produs rezultate lexicale nespecifice; nu dovedește disponibilitatea unei mărci. Numele trenurilor rămân provizorii până la H1.\n\n| KPI S (fișa curentă K1–K13) | Măsurare / limită |\n|---|---|\n| K1 | Cele 15 decizii păstrate; neconcordanțele interne de mai sus corectate. K1 global nu este declarat 0: documentele B/C/Studio trebuie sincronizate și AU-C măsoară. |\n| K2 | Brief-urile nu sunt livrabilul acestei revizii; Studio. |\n| K3 | Intrarea pentru jurnal este propusă în E.9; jurnalul nu a fost scris. |\n| K4 | Planul R1 existent; fără ședință nouă inventată. |\n| K5 | Corespondență în corespondenta_jurnal.md; OBS-8 și OBS-10 decise. Actualizarea jurnalului și termenul global de 48 h: Studio. |\n| K6 | Dovezile acestei revizii arhivate; trei rapoarte independente noi încă lipsesc. |\n| K7 | Media rundelor nu se calculează pe acest singur livrabil; registrul aparține părintelui. |\n| K8 | Mandatul utilizatorului și contrasemnarea generală existente; nu sunt transformate în aprobare editorială nouă. |\n| K9 | Căutare normalizată în canon, cu martori pozitivi, VC1/27: 0 urme interzise. Alte documente nu sunt certificate aici. |\n| K10 | Buletinele săptămânale: în afara scopului. |\n| K11 | Nicio procedură de audit v5 executată; doar verificări de autor. |\n| K12 | Mediana AU-M pe livrabile creative nu este încă măsurabilă aici. |\n| K13 | Măsurătorile de audiență: etapă ulterioară; nu se inventează date. |\n\n## E.7 Diferențe și aviz de aliniere\n\n`diff_propriu.patch` separă strict contribuția de baza izolată. Condensarea prezentării și a trimiterilor bibliografice redundante păstrează §1–§20 și registrul istoric integrat. Nu au fost modificate documente ale altor autori.\n\n| Destinatar / cale relativă rădăcinii izolate | Măsura concretă |\n|---|---|\n| Studio: 00_STUDIO/01_ECHIPA_SI_ROADMAP.md; 03_JURNAL_PROGRES.md; rapoarte/S_showrunner.md | Sincronizare numai după această predare; v4.2 și amprenta E.1; OBS-8 → V4-83, OBS-10 → V4-87; fără atribuire retroactivă. |\n| C: 04_LUME/02_REGULILE_NOPTII.md | Opt elemente R1: titlul eliminat; antetul vechi; numele galeriei; numele medicului; art. 1; veto după 1794 și sentința incompatibilă; puterile de zi; propunere de nume de fișier. În plus: R7/R9, cele 7 pietre, stingerea și Hanzerii. |\n| C: 04_LUME/01_CRONOLOGIE_SECOLE.md; 06_TRASEUL_CAPITALELOR.md | Virgilio Dal Drago, vârstele, Dochia și prețul trezirilor, rolurile Hanzer, mormântul Mihnea, ochelarii și data scenei. |\n| C: documentul confidențial | Aliniere la v4.2, R3 și pivoturi; nota de compatibilitate integrală este retrasă. Nicio ipoteză nu este divulgată aici. |\n| B: 03_PERSONAJE/02_FAMILIA_DRACULESTI.md | Reconcilierea Konrad/Georg/Andreas, succesorii vienezi, somnul Dochiei, statutul Sânzianei; verificarea numelor. |\n| E: 05_ART/ | Ochelarii (ficțiune/atestare), paleta de zi, un accent de culoare, pagina 4 cu artă nouă, trenurile fictive cu H1. |\n| A: 02_RESEARCH/; F1: 09_SITE/ | Loglinia de 44 de cuvinte, comparabilele, separarea informației interne de materialul public. |\n| D1 și D3–D6 | OBS-8/OBS-10, cele trei date fixe, luna de stingere, arcul interior, pista inelului; fără romantism Ioana în S1. |\n\n## E.8 Abateri explicite și restanțe\n\nInstrucțiunea utilizatorului prevalează asupra planului: nu se editează S_showrunner, jurnalul, registrul central sau alte documente; raportul de față înlocuiește execuția în acele fișiere. Planul R1 și auditurile vechi nu au fost rescrise. M1.1 este reluat pe baza exactă izolată, nu pe hash-ul istoric v4.0. Arhiva R0 rămâne intactă: nota ulterioară de reconstituire bit-cu-bit depășește afirmația mai veche că reconstituirea nu era posibilă; această revizie nu rescrie retrospectiv acele note.\n\nRămân: trei auditori independenți pe aceeași copie; verificarea semantică integrală a absolutelor și istoriei (M1.37); alinierea documentului C și a celorlalte documente la G1; avizele H1, decizia asupra numelui și confirmarea disponibilității mărcilor; accesul la sursele cu răspuns neconcludent. Aceste limite sunt vizibile și nu primesc închideri sau note fictive. Nu s-au inventat ședințe, date de piață ori rezultate de audit.\n\n## E.9 Predare către părinte\n\nIntrare propusă: „Canon v4.2 revizuit în copia izolată, pe baza eef72462…abad7. OBS-8 și OBS-10 acceptate; raport separat, copie stabilă și manifest în REV_IZOLAT_20260924. Urmează trei auditori independenți; poarta rămâne nepromovată.”\n\nPărintele deține registrul. Studio integrează raportul după sincronizare. Autorul canonului a scris numai 01_CANON/00_CANON_NUCLEU.md și propriul dosar REV_IZOLAT_20260924. Nu va modifica copia predată pe durata auditului.\n'''\nwrite('RAPORT_REVIZIE.md',report)\nbase=(D/'inainte/00_CANON_NUCLEU.md').read_text(encoding='utf-8-sig')\nwrite('diff_propriu.patch',''.join(difflib.unified_diff(base.splitlines(True),s.splitlines(True),fromfile='baza_izolata_eef72462',tofile='canon_v4.2')))\nprior=R/'00_STUDIO/audit/G0-CANON-v4/REV_20260924_120416/inainte'\nfor p in prior.glob('*.md'):\n old=p.read_text(encoding='utf-8-sig');write('diff_baza_vs_'+p.stem+'.patch',''.join(difflib.unified_diff(old.splitlines(True),base.splitlines(True),fromfile=p.name,tofile='baza_izolata')))\nprint('Dovezi: 39 măsuri, 64 constatări, 24 repere,',len(jrows),'rânduri jurnal individuale.')\n"
+    }
+  },
+  "status": "completed",
+  "stdout": "Success. Updated the following files:\nA D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/dovezi.py\n"
+}
+````
+
+## Asistent
+
+Îngheț canonul **v4.2** acum, fără alte editări de conținut. SHA-256: `243630e9071df7c7ee15cbf9f079fdac69f1d292950daab42cf927f36aa9ab26`.
+
+Cele 39 de verificări de conținut/structură au reușit; VC32 rămâne neîndeplinit din cauza accesului HTTP la surse. Raportul de execuție este scris. Finalizez doar copia stabilă și manifestul, pentru ca Studio și auditorii să folosească această amprentă.
+
+
+## Asistent
+
+**Canon v4.2 înghețat și pregătit pentru audit independent.** Nu mai modific conținutul.
+
+SHA-256: `243630e9071df7c7ee15cbf9f079fdac69f1d292950daab42cf927f36aa9ab26`
+
+- [Copia stabilă pentru auditori](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/predat/00_CANON_NUCLEU.md>)
+- [Raportul de execuție și restanțele](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/RAPORT_REVIZIE.md>)
+- [Manifestul verificat](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/REV_IZOLAT_20260924/MANIFEST.json>)
+
+**Verificări:** 39 OK; VC32 rămâne neîndeplinit — opt URL-uri cu acces neconfirmat, inclusiv un 503 persistent. Rezultatele sunt identice pe copia înghețată. Text: 24.971 cuvinte.
+
+Dovezile acoperă 39 măsuri și 64 constatări. Rămân verificarea semantică independentă, alinierea B/C/Studio și avizele H1. Originalul, registrul, raportul comun și auditurile precedente sunt neatinse. **Nicio revendicare de PASS.**
+
+## Asistent
+
+Confirm: canonul **v4.2 rămâne înghețat**, SHA-256 `243630e9071df7c7ee15cbf9f079fdac69f1d292950daab42cf927f36aa9ab26`.
+
+Nu mai modific copia predată. Răspunsul HTTP 503 indică acces neconfirmat, nu invaliditatea afirmației istorice. Verificarea revine auditorilor independenți; nu revendic PASS.

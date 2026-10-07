@@ -1,0 +1,68 @@
+{
+  "SCHAUERLEUTE": {
+    "status": "2026.10.02: Thomas Schauer raspunde si propune vizita la 2026.10.09, 09:30 Viena / 10:30 Romania. Cere confirmarea programarii si documentele proiectului inainte de vizita; preturile orientative vor fi transmise rapid dupa vizita. Este propunere de programare, nu intalnire efectuata sau confirmata de beneficiar.",
+    "urmatorul_pas": "Confirmarea vizitei si transmiterea documentelor cerute; urmarirea preturilor dupa vizita. Nicio comunicare trimisa in aceasta verificare.",
+    "surse": [
+      "2b16a755-ac7f-4b4c-bd6f-f004cd5e8cc9"
+    ],
+    "ultimul_primit": "2026.10.02",
+    "ultima_comunicare": "2026.10.02",
+    "subiect": "AW: Anfrage Generalunternehmer – Wohnhaus Schallergasse 35, 1120 Wien – Dachgeschossausbau, rechtskräftige Baubewilligung | Empfehlung Bmstr. DI Stefan Lechner (BAU-WERTE)"
+  },
+  "Schmitt + Sohn": {
+    "status": "2026.10.02: oferta lift ANG 0232318 primita: ISI 2040, 630 kg, 6 statii, 33.000 EUR net cu montaj. Oferta valabila pana la 2026.11.13; pret fix pana la 2027.10.02; livrare 16 saptamani de la clarificarea completa, plus montaj. Plata 40% comanda / 50% inceput montaj / 10% receptie (cel tarziu 8 saptamani dupa ME), facturi la 14 zile. Garantia 36 luni conditionata de contract intretinere cu ofertantul; altfel 12 luni. Servicii separate in anexa datata 2026.06.25: alarmare 600/an, SIM 180/an, AWM 240/an optional in anumite conditii, mentenanta 980/an net; mentenanta completa 1960/an dupa garantie. Sarcina 630 kg difera de 675 kg ceruti; nu este acceptare.",
+    "urmatorul_pas": "Verificarea compatibilitatii planurilor, sarcinii 630 fata de 675 kg, lucrarilor beneficiarului, avansurilor si garantiei; reconfirmarea anexei service datate anterior. Comparare cu celelalte oferte de lift.",
+    "surse": [
+      "fea3c0c1-7a62-411a-b1d9-adfc1774f9b9",
+      "fc142f06-b4fc-43f5-b0db-84250d8a41dc",
+      "63b2ea93-e461-4d13-9c7c-39752c766396"
+    ],
+    "ultimul_primit": "2026.10.02",
+    "ultima_comunicare": "2026.10.02",
+    "subiect": "ANGEBOT / BV Schallergasse 35, 1120 Wien / Aufzugsanlage"
+  },
+  "BAU-WERTE": {
+    "status": "2026.10.01: oferta ferma Bauwerksbuch 26-0128 primita: 1.750 EUR net / 2.100 EUR brut; valabila pana la 2026.12.31, plata 30 zile fara reducere. Elaborare in cursul finalizarii lucrarilor autorizate. Include dosarul digital, Bauwerksbuch si inregistrare; nu include verificarea conformitatii autorizate, actualizari curente, revizii periodice, verificarea ÖN B 1300 sau estimarea remedierilor. Consultanta la nevoie 125 EUR/h net. Oferta distincta de BauKG; nu reinnoieste si nu accepta propunerea BauKG de 8.250 EUR net /15 luni.",
+    "urmatorul_pas": "Compararea scopului cu TOMS si Themis; clarificarea documentarii fisurilor inainte/dupa lucrari si a serviciilor recurente. Continuarea separata a negocierii BauKG; nicio atribuire confirmata.",
+    "surse": [
+      "0745b8ba-8980-47cf-a205-d1412efd18b7",
+      "3798c8db-dfaa-4a52-8813-c31666afa3ae"
+    ],
+    "ultimul_primit": "2026.10.01",
+    "ultima_comunicare": "2026.10.01",
+    "subiect": "AW: Angebotsanfrage Bauwerksbuch gemäß § 128 a BO für Wien – Wohnhaus Schallergasse 35, 1120 Wien"
+  },
+  "TOMS": {
+    "status": "2026.10.01: TOMS cere data contractului cel mai devreme 2026.10.05, eliminarea detaliilor suplimentare si corectarea includerilor in pret. 2026.10.02: versiunea v4.1 si emailul punct cu punct sunt TRIMISE; contract datat 2026.10.02, pret 37.900 EUR net. D1 trei saptamani de la semnarea efectiva a ambelor parti; D2-D5 de convenit, vechile date fixe eliminate. Detalierea si dimensionarea unor conexiuni sunt excluse; cererea suplimentara retrasa. Nu este identificata acceptare sau contract semnat, confirmare portal ori vizita. Verificare suplimentara 2026.10.05: fara raspuns nou; office sincronizat 12:16 Romania.",
+    "urmatorul_pas": "Semnare si contrasemnare cu datele reale; acord pentru calendarul D 2-D 5, vizita, portal si documentele ramase. Asigurarea separata a prestatiilor excluse inainte de executie.",
+    "surse": [
+      "838c8bcd-4e2d-4e90-bc25-25355ea6da60",
+      "64c91100-89c3-4206-8e7e-988e575385b8"
+    ],
+    "ultimul_primit": "2026.10.01",
+    "ultima_comunicare": "2026.10.02",
+    "subiect": "AW: Werkvertrag vom 01.10.2026 - Entwurf v 3 und Zusatzangebot  Detailplanung | Schallergasse 35"
+  },
+  "CERHA HEMPEL": {
+    "status": "2026.10.01: Capra transmite corespondenta STURM din 2026.09.24. Sunt solicitate 27,12 EUR pentru Top 5 si 432,66 EUR pentru Top 17 (include 7 EUR cost somatie), termen 2026.10.07. Total cerut 459,78 EUR. Nu confirma debitul, soldul acceptat sau repartizarea intre proprietari. Cererea DONAU trimisa la 2026.10.01 nu il include pe Capra in CC.",
+    "urmatorul_pas": "Clarificarea cu Capra a soldurilor STURM, platilor si repartizarii; verificarea facturilor de baza pana la 2026.10.07. Urmarirea separata a DONAU si termenului Commerz 2026.10.12.",
+    "surse": [
+      "ee452cda-1d64-4ed9-a337-34949502a39e",
+      "75af73b7-122b-4884-874a-93ccb632dbdf"
+    ],
+    "ultimul_primit": "2026.10.01",
+    "ultima_comunicare": "2026.10.01",
+    "subiect": "WG: Eingelangt: Schreiben für A&C Wohnart"
+  },
+  "Sturm Energie": {
+    "status": "2026.10.01: scrisoare STURM din 2026.09.24 transmisa prin Capra: Top 5/client 42018142/instalatie 4000112571,27,12 EUR =149,53 factura 41422 minus 122,41 credit; Top 17/client 42017328/instalatie 4000114087,432,66 EUR =425,66 facturi 50457/49328/49327 +7 EUR somatie. Total cerut 459,78 EUR; termen 2026.10.07. Platile si repartizarea intre proprietari neconfirmate. Top 5 este legat de factura 41422 din reconcilierea anterioara; nu se aduna automat la totalul vechi 1.817,73 EUR. Creditul 846,92 EUR este distinct.",
+    "urmatorul_pas": "Verificarea debitelor actuale, alocarii Top 5 si documentelor facturilor Top 17; obtinerea fisei de cont si clarificarea proprietarului responsabil pana la 2026.10.07. Fara dublarea facturii 41422 sau compensare automata cu alte credite.",
+    "surse": [
+      "ee452cda-1d64-4ed9-a337-34949502a39e",
+      "75af73b7-122b-4884-874a-93ccb632dbdf"
+    ],
+    "ultimul_primit": "2026.08.26",
+    "ultima_comunicare": "2026.10.01",
+    "subiect": "Ultimul email direct ramane 2026.08.26; notificari 2026.09.24 transmise de Capra la 2026.10.01."
+  }
+}

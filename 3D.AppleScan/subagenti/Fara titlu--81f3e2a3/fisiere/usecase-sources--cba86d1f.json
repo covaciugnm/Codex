@@ -1,0 +1,185 @@
+{
+  "researchedAt": "2026-10-02",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Apple — RoomPlan",
+      "url": "https://developer.apple.com/augmented-reality/roomplan/",
+      "summary": "Planuri 3D pentru interioare folosind cameră și LiDAR; dimensiuni și elemente de mobilier.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S02",
+      "title": "Apple — Object Capture",
+      "url": "https://developer.apple.com/documentation/realitykit/realitykit-object-capture",
+      "summary": "Fotografii din unghiuri multiple pentru reconstruirea obiectelor; pagina documentației este randată cu JavaScript.",
+      "verification": "opened_and_search_excerpt",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S03",
+      "title": "Apple — Measure dimensions",
+      "url": "https://support.apple.com/en-euro/guide/iphone/iphd8ac2cfea/ios",
+      "summary": "Măsurarea pe telefon produce estimări; nu presupunem toleranțe industriale.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S04",
+      "title": "Polycam — Interior design",
+      "url": "https://poly.cam/solutions/interior-design",
+      "summary": "Biblioteci de mobilier, planificare în spațiul existent, prezentarea variantelor clienților.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S05",
+      "title": "magicplan — Documenting damages",
+      "url": "https://help.magicplan.app/restoration-documentation-annotating-your-floor-plan",
+      "summary": "Fotografii, note și adnotări asociate planului pentru coordonarea reparațiilor.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S06",
+      "title": "magicplan — Floor plan editor FAQ",
+      "url": "https://help.magicplan.app/magicplan-floor-plan-editor-faq",
+      "summary": "Suprafețe de pardoseală și placare, inclusiv zone cu forme particulare.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S07",
+      "title": "Matterport — Facilities management",
+      "url": "https://matterport.com/solutions/facilities-management",
+      "summary": "Reprezentări spațiale pentru inventar, comunicare, planificarea și gestionarea clădirilor.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S08",
+      "title": "Prusa — Photogrammetry 2",
+      "url": "https://blog.prusa3d.com/photogrammetry-2-3d-scanning-simpler-better-than-ever_29393/",
+      "summary": "Reconstrucția pentru tipărire poate necesita închiderea golurilor, curățare și verificarea scării.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S09",
+      "title": "Autodesk — Convert mesh to solid",
+      "url": "https://help.autodesk.com/view/fusion360/ENU/?guid=MESH-CONVERT-TO-SOLID",
+      "summary": "Mesh și solid CAD sunt reprezentări diferite; unele conversii cer reparații și extensii.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S10",
+      "title": "Polycam — Capture a person",
+      "url": "https://learn.poly.cam/hc/en-us/articles/28271869062420-How-to-Capture-a-Person",
+      "summary": "Persoana trebuie să stea nemișcată; mesh-ul poate fi prelucrat pentru animație sau tipărire.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S11",
+      "title": "Niantic Spatial — Capture (redirecționare Scaniverse)",
+      "url": "https://www.nianticspatial.com/products/capture",
+      "summary": "scaniverse.com/support redirecționează aici la consultare. Folosit pentru contextul capturii spațiale, nu pentru a confirma vechi formate Scaniverse.",
+      "verification": "redirect_opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S12",
+      "title": "ODA — Drawings SDK",
+      "url": "https://www.opendesign.com/products/drawings",
+      "summary": "SDK pentru citire/scriere DWG; trebuie ales și integrat un exportator compatibil.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S13",
+      "title": "ODA — Licensing and pricing",
+      "url": "https://www.opendesign.com/pricing",
+      "summary": "Licențierea și dreptul de distribuție trebuie verificate pentru integrarea comercială.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S14",
+      "title": "Google — JavaScript SEO",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "summary": "Linkuri accesibile, randare și metadate pentru site-uri JavaScript.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S15",
+      "title": "Google — Multilingual sites",
+      "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+      "summary": "URL-uri distincte pentru limbile indexate și hreflang; conținutul ascuns doar în preferințe poate rămâne nedescoperit.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S16",
+      "title": "Google — Spam policies",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "summary": "Evitarea aglomerării de cuvinte cheie, paginilor repetitive și funcționalităților înșelătoare.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    },
+    {
+      "id": "S17",
+      "title": "Polycam — Historic building restoration",
+      "url": "https://poly.cam/blog/3d-scanning-for-historic-building-restoration-preservation",
+      "summary": "Captură în sesiuni, controlul scării și documentarea zonelor lipsă. Ruta franceză a dat eroare; versiunea engleză a fost deschisă.",
+      "verification": "opened_english_after_french_error",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    }
+    ,{
+      "id": "S18",
+      "title": "Apple — Meet Object Capture for iOS",
+      "url": "https://developer.apple.com/videos/play/wwdc2023/10191/",
+      "summary": "Flux ghidat de captură și reconstrucție pe dispozitive iOS compatibile.",
+      "verification": "opened",
+      "visitedDate": "2026-10-02",
+      "sourceType": "primary",
+      "contentArchived": false
+    }
+  ]
+}

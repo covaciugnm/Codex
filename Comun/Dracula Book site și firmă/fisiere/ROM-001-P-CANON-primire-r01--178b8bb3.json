@@ -1,0 +1,26 @@
+{
+  "role": "P-MANAGER",
+  "agent_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "type": "PRODUCTION_HANDOFF_VERIFICATION_NOT_AUDIT",
+  "checked_at": "2026-09-24 05:41:48 UTC",
+  "inputs": [
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+      "sha256": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+      "sha256": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+      "sha256": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+      "sha256": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc"
+    }
+  ],
+  "reading": "Main a citit integral cele4documente înaintea predării finale; după corecțiile finale, a recitit pasajul Marcel, secțiuneaH-C4 și suplimentul final al jurnalului. Corecțiile au eliminat o atribuire neprobată a partenerului luiMarcel, explicitat intervalul ascuns/regăsire1980 și adăugat jurnalul controlului final. Nu pretinde o a doua lectură integrală aH.",
+  "limits": "Verificare de primire/integrare, nu audit independent sau acceptareG01. Raportul deP-CANON păstrează nuclee factuale și toatecontradicțiile; P-EDITOR decide separat."
+}

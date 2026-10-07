@@ -1,0 +1,18 @@
+{
+    "captured_at":  "2026-09-24T08:12:53.2513142+03:00",
+    "scope":  "Component delivery before full G01 integration; DRAFT, not audit or stage approval",
+    "copies":  [
+                   {
+                       "source":  "07_ROMANE\\ROM-001\\00_BRIEF\\BRIEF_ROMAN_r01.md",
+                       "copy":  "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/BRIEF_ROMAN_r01.md",
+                       "sha256":  "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+                       "bytes":  21867
+                   },
+                   {
+                       "source":  "07_ROMANE\\ROM-001\\00_BRIEF\\DECIZII_PROPUSE_r01.md",
+                       "copy":  "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/DECIZII_PROPUSE_r01.md",
+                       "sha256":  "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+                       "bytes":  32029
+                   }
+               ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\.dockerignore",
+    "status": "copiat",
+    "saved_path": "fisiere/dockerignore--ba6b4d41",
+    "bytes": 93,
+    "sha256": "6cb2334095d7d3d642983c6f51af59660734623dc608d4ded270cd25ed353098"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\.env.example",
+    "status": "copiat",
+    "saved_path": "fisiere/env--e660ee81.example",
+    "bytes": 331,
+    "sha256": "9daa2d64e4231f202911382408b766c52e45d9ad1af6347062767a8cc5fc4167"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\Dockerfile",
+    "status": "copiat",
+    "saved_path": "fisiere/Dockerfile--7d07ae08",
+    "bytes": 615,
+    "sha256": "271afc8a5070394ebc8a22f3110c8ba251e4305fbcb2f02fa65c718203027df4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--d357b836.md",
+    "bytes": 4350,
+    "sha256": "efc4e20802f6b87f74254f492e2ae355874df61a8f340ec11b44cdf75c328778"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\compose.yaml",
+    "status": "copiat",
+    "saved_path": "fisiere/compose--61cf7a1f.yaml",
+    "bytes": 3015,
+    "sha256": "bb652864ab0cef98c333f3e8b438444d4ecb928aa1ae69f80a3c14a4c455d4a2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\db\\001-content.sql",
+    "status": "copiat",
+    "saved_path": "fisiere/001-content--b85f418a.sql",
+    "bytes": 1838,
+    "sha256": "8d39bf568643c8bdc03a5af59232d3841e41cfe1b935147547f47ea3cf54eb40"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\db\\002-content-variables.sql",
+    "status": "copiat",
+    "saved_path": "fisiere/002-content-variables--ce2de675.sql",
+    "bytes": 1382,
+    "sha256": "204ea8c407e580a8d8fa79e159e8c1c0ad16cf1634c51e1438f9ec5efb11c452"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\db\\003-finite-variable-numbers.sql",
+    "status": "copiat",
+    "saved_path": "fisiere/003-finite-variable-numbers--c6b06acb.sql",
+    "bytes": 924,
+    "sha256": "f7fb307695e37b2ed34b288d06cdf9d414ff02ececca1612212d9204602674a1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\BACKEND.md",
+    "status": "copiat",
+    "saved_path": "fisiere/BACKEND--cc1b4c76.md",
+    "bytes": 8964,
+    "sha256": "35f678540284ce66c0d24949bda3b167383f1111596fd21a37d09417ff133182"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\SEO_TEHNIC.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SEO_TEHNIC--76d17978.md",
+    "bytes": 6784,
+    "sha256": "2945dc8b203411f8201733013b68ccad07a8442152269b2e6ec407e483ed045f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\package.json",
+    "status": "copiat",
+    "saved_path": "fisiere/package--5366139d.json",
+    "bytes": 520,
+    "sha256": "26794c3008d13db09ec11f3c2fdcd76defbf2ea5903624ee0b1c31d44c53694e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\bootstrap.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/bootstrap--3a255e68.mjs",
+    "bytes": 413,
+    "sha256": "8319002679206051e8ed60635b92f9d472feb5fe7be4bc9aa63192a71c66a4f9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\import-content.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/import-content--10266301.mjs",
+    "bytes": 505,
+    "sha256": "42a023f1ed127e7b5ee9e8254ed309c881e1f0836fc2791596e611e788d42e76"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\migrate.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/migrate--ff4de6fc.mjs",
+    "bytes": 93,
+    "sha256": "7fb5edd881b2de8b3a92a2df99e94975350281acd195fcb4560ced87d04d2af3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\provision-runtime.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/provision-runtime--e00d4483.mjs",
+    "bytes": 2612,
+    "sha256": "14ca31583335550c0313da89c3175b109153ec112b323408b0d090a1bb6d8b21"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\set-content.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/set-content--e4019bc6.mjs",
+    "bytes": 1016,
+    "sha256": "e426370e2a57fcf927f9b68cc0b33306c9d782effe327b3c188ca6d15cf098e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\set-variable.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/set-variable--8270d861.mjs",
+    "bytes": 1571,
+    "sha256": "4da7080a6540fe753bee9923c945a89202e03deae72b8cd416889624c8a0003d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\shared.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/shared--397821a4.mjs",
+    "bytes": 4336,
+    "sha256": "43606e48d909c6ce061e6ec1a16a06889b19a4ba022832c1a244b5a5856e9e1d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\server\\config.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/config--99019cc6.mjs",
+    "bytes": 841,
+    "sha256": "ee3be551e7fa2639bab8a7eb6b701be6adacd145d8614e58d2902f4515d43e2f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\server\\content.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/content--4def23dc.mjs",
+    "bytes": 3581,
+    "sha256": "4d156ca0a6286bee01fa225e62eabef10e56770270e6e296ba3aa212b005d356"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\server\\http.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/http--3d4cc2af.mjs",
+    "bytes": 16404,
+    "sha256": "25c720056df5c96508c68794f3d018b85e3c7e57d2267f3977e6119cdf2aa507"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\server\\index.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/index--2b36afa1.mjs",
+    "bytes": 1025,
+    "sha256": "f066c9d992c2c03dcdf9f917ff683b62ff6c23265bb294397a9eb4796c326476"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\server\\seo.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/seo--238c66a8.mjs",
+    "bytes": 10734,
+    "sha256": "27fd88c5a92f3480122e708ccb4938edd45567f04fc0a0949d4ad42eeb7c842f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\backend-http.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/backend-http--f24d2c07.mjs",
+    "bytes": 7868,
+    "sha256": "fdd46ef4e3ce3306aecbcf80efd9d5cbbb55d4a9077ab3c86607aec14617210e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\backend-postgres.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/backend-postgres--2c6d1b38.mjs",
+    "bytes": 8975,
+    "sha256": "9b6a35bcf2e03e31af748f2a121947a9bb4506b67d17e7315d9e838406dc40c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\backend-seo.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/backend-seo--9cf62972.mjs",
+    "bytes": 10008,
+    "sha256": "19f5efb3c6c983ebfe5d52d0690b9aff9b2c562cca39af75ed1c94e056817585"
+  },
+  {
+    "source_reference": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+    "status": "referinta_externa_necopiata"
+  }
+]

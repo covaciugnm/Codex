@@ -1,0 +1,23 @@
+{
+  "id": "01a0d936-2df9-7f73-aa35-ec33a0e69c74",
+  "cwd": "\\\\?\\C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre",
+  "created_at": 1790350601,
+  "updated_at": 1790350968,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a0d8e1-9587-7123-885c-41e11638574e\",\"depth\":1,\"agent_path\":\"/root/category_admin_review\",\"agent_nickname\":\"Boole\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "unassigned",
+  "parent_thread_id": "01a0d8e1-9587-7123-885c-41e11638574e",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1085782,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 40,
+  "message_count": 3,
+  "content_sha256": "8831b7344fdffa7688bd1ce2727ee26dcbda1e106b34b23c004b96733cc6ee19",
+  "files_copied": 7,
+  "references_not_copied": 0
+}

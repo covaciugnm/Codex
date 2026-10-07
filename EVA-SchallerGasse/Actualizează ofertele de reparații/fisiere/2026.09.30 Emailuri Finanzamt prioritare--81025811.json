@@ -1,0 +1,50 @@
+[
+  {
+    "id": "22b22ef3-a943-41af-87ff-9146d9ba6834",
+    "account_email": "cosmin.covaciu@ipec.ro",
+    "subject": "Mahnung FA K 04-06/2026",
+    "from_name": "Amela Spahovic",
+    "from_address": "a.spahovic@artus.at",
+    "to": [
+      "cosmin.covaciu@ipec.ro"
+    ],
+    "cc": [],
+    "received_at": "2026-06-22T10:25:12Z",
+    "text": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\n",
+    "truncated": false,
+    "labels": [
+      "3: Fyi"
+    ],
+    "category": "fyi",
+    "folder": "Amela Spahovic",
+    "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAOtqVz+Sc0r6om0HVYCt/sM=",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "35e44790-1e77-43a3-b03e-5ce64e979067",
+    "account_email": "cosmin.covaciu@ipec.ro",
+    "subject": "AW: Mahnung FA K 04-06/2026",
+    "from_name": "Amela Spahovic",
+    "from_address": "a.spahovic@artus.at",
+    "to": [
+      "cosmin.covaciu@ipec.ro"
+    ],
+    "cc": [],
+    "received_at": "2026-06-23T11:27:00Z",
+    "text": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": "fyi",
+    "folder": "Amela Spahovic",
+    "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAOtqVz+Sc0r6om0HVYCt/sM=",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [],
+    "note": ""
+  }
+]

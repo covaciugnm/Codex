@@ -1,0 +1,26 @@
+[
+  {
+    "source_reference": "https://api.dev.inspectiamuncii.org/swagger/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/reges-ro/integrare",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/reges-ro/integrare#2-principii-de-functionare-api",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/reges-ro/integrare#7-mediul-de-test",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://reges.dev.inspectiamuncii.org",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://reges.inspectiamuncii.ro/ajutor/ghid-utilizare-aplicatie-angajator/",
+    "status": "referinta_externa_necopiata"
+  }
+]

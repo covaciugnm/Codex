@@ -1,0 +1,727 @@
+[
+  {
+    "id": "5b1e5d7e-8821-4061-a87d-532b352a0bbf",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "SchallerGasse 35 Wien",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "office@mlinestudio.ro"
+    ],
+    "cc": [],
+    "received_at": "2026-04-23T07:48:43.065225Z",
+    "text": "Buna Mada,\n\nIti trimit fisierele si te sun\n\nCosmin covaciu",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "3: Fyi"
+    ],
+    "category": null,
+    "folder": "office@mlinestudio.ro",
+    "thread_id": "gen-11-INBOX.Sent",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [
+      {
+        "id": "20f03733-7c04-4b15-a352-e5623b5cecf5",
+        "name": "001 P2041_C_01 230420.dwg",
+        "size": 1439926,
+        "content_type": "application/octet-stream",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "3863d310-9257-4a41-a196-465d1c32835f",
+        "name": "Version 2.jpg",
+        "size": 1231463,
+        "content_type": "application/octet-stream",
+        "has_text": true,
+        "text_chars": 621,
+        "page_count": null,
+        "text": "ABSTURZSICHERUNG VSG H = 100 cm <. FBOK\n186 785\nBALKON 3065\nKuche\nAUFZUG 230 RETTUNGSWEG F#ST VERL SYSTEM\n70\n36\nABSTURZSICHERUNG H=l10o cm %. FBOK\n2\nABSTURZSICHERUNG H = 00 cm u.FBOK\nAUFZUG\nBALKONKONSTRUKTION: HEB120 AUF FRQ 80/4 5235 INKL. SEKUNDARKONSTR: u. AUFBAUJ It. Statik\nSchindler/3300 675 kgX? Pers- Kabine  4Ox12Ocm Schaeht 86x NOcm\nBAD\nBAD\nBAD\n8 1\nABSTURZSICHERUN H=Toocm uF\nEBBQEMX\nPH 76\nPH 76\n+7,po D 75cml 0 0 Gang 1265 122\n38 106\n48 1 4 4 tA\nKuche / Wohnzimmer\n110 197\nKuche\nMAUERWERKSERTUCHIIGUNG] ISTATIK\nZimmer\nZimmer\nZimmer\nZimmer\nPH90\nPH90\nPH90\nPH90\nPH 87\nPH 87\nPH87\nPH 87\n8\n8\n8 8\n0\n8\n8\n8 8\nL 8\n8 8\nBL"
+      },
+      {
+        "id": "4908f332-7973-4d03-afab-27068f50bcec",
+        "name": "002 P2041_C_02 230420.dwg",
+        "size": 4015808,
+        "content_type": "application/octet-stream",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "9d23b319-d892-4dc4-ae7f-e53da95c9b28",
+        "name": "Version 1.jpg",
+        "size": 1209891,
+        "content_type": "application/octet-stream",
+        "has_text": true,
+        "text_chars": 579,
+        "page_count": null,
+        "text": "ABSTURZSICHERUNG VSG H = 100 cm <. FBOK\n8 1\n186 85\nD\nZimmer\nBALKON 3065\nAUFZUG 230 RETTUNGSWEG F#ST VERL SYSTEM\n70\n36\nABSTURZSICHERUNG H=l10o cm %. FBOK\n2\nBSTURZSICHERUNG = 00 cm u.FBOK\n0\nAUFZUG\nALKONKONSTRUKTION: EB120 AUF FRQ 80/4 5235 INKL EKUNDARKONSTR. U. AUFBAU It. Statik\nKuche\nSchindler 3300 675 kgX? Pers- Kabine 40x12Ocm Schaeht 86x NOcm\nBAD\nBAD\n8 1\nABSTURZSICHERUN H=Toocm uF\nEBBQEMX\nPH 76\nPH 76\nPH 76\nPH82\n+7,po 75cml Gang 1265 1265\n38 106\n6\n1 4 4 tA\no\n110 197\n488 1\nBAD\nZimmer\nZimmer\nZimmer\nBAD\nPH90\nPH90\nPH90\nPH90\nPH 87\nPH 87\nPH87\nPH 87\n8\n8\n8 8\n0\n0\n8\n8 8\nL 8\n8 8\nBL"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c0545def-7d9d-41c9-95b3-c67bde8a307f",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-23T07:48:31.643625Z",
+    "text": "Sehr geehrte Frau Knöbl,\r\n\r\nvielen Dank für Ihre Nachricht und Ihr Feedback.\r\n\r\nIch habe das Problem mit dem Dokument \"Statische Vorbemessung (1)_compressed.pdf\" zur Kenntnis genommen. Ich werde Ihnen dieses Dokument noch einmal übermitteln, sobald ich es korrekt gepackt habe.\r\n\r\nIn Bezug auf die Besichtigung des Objekts: Dienstag, den 14. April 2026, zwischen 11:00 und 14:00 Uhr ist für mich in Ordnung. Bitte bestätigen Sie diesen Termin oder lassen Sie mich wissen, wenn eine andere Zeit besser geeignet wäre.\r\n\r\nIch freue mich auf Ihre Rückmeldung.\r\n\r\nBest regards,\r\nCosmin Adrian Covaciu",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "sandra@pm-mattes.at",
+    "thread_id": "gen-5-INBOX.Sent",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "80621cda-ef23-4e85-9c80-857242829ee3",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-23T07:48:10.371445Z",
+    "text": "Guten Tag, \r\n\r\nich entschuldige mich dafür, dass ich Ihnen die abgesagten Termine nicht im Voraus mitteilen konnte. \r\nIch hatte einen dringenden privaten Notfall und habe deshalb vergessen, Ihnen zu schreiben. \r\nIch bitte nochmals um Entschuldigung und hoffe, dass dies unsere Zusammenarbeit nicht beeinträchtigt. \r\nWenn es Ihnen recht ist, würde ich Sie nach 15:00 Uhr anrufen, um dies kurz zu besprechen. Vielen Dank im Voraus.\r\n\r\nMfG\r\nCosmin Covaciu",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "sandra@pm-mattes.at",
+    "thread_id": "gen-10-INBOX.Sent",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "8864c727-e1c6-4777-b2c0-71c1812dbd7a",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-23T07:47:53.244559Z",
+    "text": "https://we.tl/t-sWVaRDxiKfYPshVh",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "sandra@pm-mattes.at",
+    "thread_id": "gen-6-INBOX.Sent",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "53ff2738-842f-48a2-9a51-cebff444a44e",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-23T07:47:34.683172Z",
+    "text": "Danke.\r\n\n11.00 Morgen\r\n\nMfG",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "sandra@pm-mattes.at",
+    "thread_id": "gen-9-INBOX.Sent",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "cd658585-f208-4d14-b6a0-b36e5b360a41",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-23T07:47:23.873446Z",
+    "text": "Guten Abend, bitte kontaktieren Sie morgen meine Tochter Anastasia Covaciu unter +43 665 651 69396. Sie ist während der genannten Zeiten im Imperial Hotel anzutreffen. Bitte schreiben Sie ihr vorab eine Nachricht, damit Sie sich abstimmen können. Falls es zeitlich möglich ist, würde ich Sie bitten, morgen Vormittag vor oder, falls dies nicht möglich ist, nach der Besichtigung des Gebäudes einen Videoanruf mit mir zu führen, um Ihnen meine Vision noch einmal zu erläutern. Vielen Dank im Voraus und ich hoffe auf eine erfolgreiche Zusammenarbeit.",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "sandra@pm-mattes.at",
+    "thread_id": "gen-7-INBOX.Sent",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "2e792ec2-6a4f-40bc-a085-6a723350618c",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Fwd: Re: Schallergasse 35 - 2 Sandra Knöbl Dipl.- Ing. Sandra Knöbl T: 0650 21 07 707 E: sandra@pm-mattes.at",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "anastasia.covaciu11@gmail.com",
+      "anastasia.covaciu@yahoo.com"
+    ],
+    "cc": [],
+    "received_at": "2026-04-23T07:47:06.654412Z",
+    "text": "---------- Forwarded message ---------\r\nFrom: sandra@pm-mattes.at\r\nDate: April 8th, 2026 9:54 AM\r\nSubject: Re: Schallergasse 35 - 2\r\n\r\nSehr geehrter Herr Covciu,\r\n\r\nVielen Dank für die Übermittlung der Unterlagen.\r\nDas Dokument \"Statische Vorbemessung (1)_compressed.pdf\" konnte leider nicht geöffnet werden, hier wurde eine fehlerhafte Datei angezeigt.\r\nKönnten Sie mir bitte dieses Dokument nochmal übermitteln? \r\n\r\nUm ein Angebot zu erstellen, ist es für uns notwendig, die Bausubstanz des Objekts zu besichtigen. Wäre eine Besichtigung des Hauses nächste Woche möglich?\r\nWir erlauben uns folgende Tage für eine Besichtigung vorzuschlagen:\r\n\r\nMontag, 13.4.2026, zwischen 8.30- 12.30\r\n\r\nDienstag, 14.4.2026, zwischen 11.00- 14.00\r\n\r\nDonnerstag, 16.4.2026, 8.30- 13.00\r\n\r\n\r\n\r\nMit freundlichen Grüßen,\r\nSandra Knöbl\r\n\r\n\r\n\r\n\r\n\r\nDipl.- Ing. Sandra Knöbl\r\n\r\nT: 0650 21 07 707\r\nE: sandra@pm-mattes.at\r\n\r\nMATTES\r\nPROJEKTMANAGEMENT GmbH\r\nAusschreibungen I ÖBA I Planung I Projektmanagement I \r\n\r\nMariahilfer Straße 101/3/47-48\r\n1060 Wien\r\nwww.pm-mattes.at \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n> Am 02.04.2026 um 10:06 schrieb office@ac-wohnart.at:\r\n> \r\n> Sehr geehrte Frau Dipl.-Ing. Knöbl,\r\n> \r\n> wie besprochen übermittle ich Ihnen im Anhang die Unterlagen zum Objekt Schallergasse 35.\r\n> \r\n> Da die Dateien die maximale Größe für den E-Mail-Versand überschritten haben, habe ich die Unterlagen auf mehrere E-Mails aufgeteilt und sende Ihnen hiermit ein zusätzliches Dokument.\r\n> \r\n> Ich hatte Ihnen die Unterlagen bereits vor zwei Tagen übermittelt, jedoch wurde der Versand aufgrund der Überschreitung der maximal zulässigen Dateigröße vom Server blockiert, was ich erst jetzt festgestellt habe.\r\n> \r\n> Ich ersuche Sie höflich, mir ein Angebot für sämtliche von Ihnen angebotenen Leistungen (Planung, Ausschreibung, Bauleitung/ÖBA sowie Projektmanagement) zu erstellen.\r\n> \r\n> Für Rückfragen oder zur Vereinbarung eines Termins stehe ich jederzeit gerne zur Verfügung.\r\n> \r\n> Mit freundlichen Grüßen\r\n> Cosmin Covciu",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "3: Fyi"
+    ],
+    "category": null,
+    "folder": "anastasia.covaciu11@gmail.com",
+    "thread_id": "gen-8-INBOX.Sent",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "2bf4629c-728d-461f-be4a-2954fe2bf94e",
+    "account_email": "covaciu.gnm@gmail.com",
+    "subject": "Factura servicii | Honorarnote Nr. 26/30363 [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "covaciu.gnm@gmail.com"
+    ],
+    "cc": [
+      "cosmin.covaciu@ipec.ro"
+    ],
+    "received_at": "2026-04-21T12:30:29Z",
+    "text": "Buna ziua,\r\n\r\nVa trimit in atasament factura pentru serviciile prestate in perioada 16.03.2026 - 31.03.2026.\r\n\r\nIn anexa aveti si lista cu toate serviciile prestate (inclusiv traducerea in romana). Barauslagen din factura se refera la (i) costurile cu contul bancar pentru tranzactia imobiliara si (ii) o taxa minora pentru schimbarea adresei la Registrul Comertului.\r\n\r\nFactura este scadenta in 14 zile, adica in 05.05.2026.\r\n\r\nIn luna aprilie 2026 pot sa va confirm ca nu avem niciun serviciu facturat pana acum.\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DCD193.A1997A20] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DCD193.A1997A20] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\nVon: Capra Bogdan\r\nGesendet: Dienstag, 17. März 2026 17:31\r\nAn: 'Cosmin Covaciu' <cosmin.covaciu@ipec.ro>\r\nCc: 'Cosmin Covaciu' <covaciu.gnm@gmail.com>\r\nBetreff: Factura servicii | Honorarnote Nr. 25/31404 [COVACIU/42222000]\r\n\r\nBuna ziua,\r\n\r\nVa trimit in atasament factura pentru serviciile prestate in legatura cu tranzactia imobiliara pentru obiectul Schallergasse 35. In anexa aveti si lista cu toate serviciile prestate.\r\n\r\nDaca aveti deja un nr. de TVA, va rog sa ni-l comunicati. Altfel, puteti sa-l notati ulterior direct pe factura.\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DCD193.A1997A20] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DCD193.A1997A20] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\nVon: Capra Bogdan\r\nGesendet: Montag, 16. Februar 2026 09:55\r\nAn: 'Cosmin Covaciu' <cosmin.covaciu@ipec.ro<mailto:cosmin.covaciu@ipec.ro>>\r\nCc: 'Cosmin Covaciu' <covaciu.gnm@gmail.com<mailto:covaciu.gnm@gmail.com>>\r\nBetreff: Notificare - Factura servicii | Honorarnote Nr. 25/31404 [COVACIU/42222000]\r\nPriorität: Hoch\r\n\r\nBuna ziua,\r\n\r\nVa rog, dupa ce efectuati transferul capitalului pentru tranzactie pe contul firmei A&C Wohnart Immobilien GmbH sa achitati si factura noastra din 27.01.2026 (o gasiti din nou in atasament), scadenta de o saptamana. Altfel, departamentul nostru o va anula la sfarsitul saptamanii si o va emite pe numele dvs. in calitate de mandant, ceea ce ar fi dezavantajos pentru dvs. in vederea TVA-ului.\r\n\r\nMultumesc.\r\n\r\nVa tin la curent cu tranzactia.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DCD193.A1997A20] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DCD193.A1997A20] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\nVon: Capra Bogdan\r\nGesendet: Dienstag, 27. Januar 2026 13:52\r\nAn: Cosmin Covaciu <cosmin.covaciu@ipec.ro<mailto:cosmin.covaciu@ipec.ro>>\r\nBetreff: Factura servicii | Honorarnote Nr. 25/31404 [COVACIU/42222000]\r\n\r\nBuna ziua,\r\n\r\nVa trimit in atasament factura pentru serviciile prestate in legatura cu (i) infiintarea firmei, (ii) due diligence-ul legat de proprietate si (iii) serviciile suplimentare (in total pauschal 2 ore extra de consultanta).\r\n\r\nIn factura veti vedea si \"Barauslagen\". Acestea se refera la (i) costurile suportate de noi pentru extrasuri din registre (Firmenbuch, Grundbuch si Meldeamt) si (ii) taxa de inregistrare a firmei (EUR 493,-), achitata tot de noi.\r\n\r\nDin motive de transparenta, am atasat si e-mailul din 11.11.2025 cu oferta legata de infiintarea firmei, in care am mentionat aceasta taxa de inregistrare.\r\n\r\nAm emis factura pe A&C Wohnart Immobilien GmbH pentru ca dvs. sa puteti deduce TVA-ul. Daca aveti deja un nr. de TVA, va rog sa ni-l comunicati.\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DCD193.A1997A20] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DCD193.A1997A20] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "UNREAD",
+      "CATEGORY_PERSONAL",
+      "INBOX",
+      "10: Invoices",
+      "Label_34985"
+    ],
+    "category": null,
+    "folder": "Capra Bogdan",
+    "thread_id": "19db005dbfed850f",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "1bd9c97d-ea1a-4a32-a728-523f2164d5f2",
+        "name": "HN 26_30363 A&C Wohnart.pdf",
+        "size": 54738,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 1227,
+        "page_count": null,
+        "text": " \n \nCOVACIU/42222000 - 46/854 - 2696343v1 1 \nCERHA HEMPEL Rechtsanwälte GmbH, Parkring 2, A-1010  Wien, Tel:+43/1/514 35-0, Fax:+ 43/1/514 35-35 \noffice@cerhahempel.com, www.cerhahempel.com, FN 452 529i, HG Wien, ATU 70888934 \nCERHA HEMPEL   Austria   Bulgaria   Czech Republic   Hungary   Romania   Slovak Republic   Slovenia \n  UID: ATU 70888934 \n \nBankverbindung: \nErste Bank AG \nKonto Nr. 288-678-207/03, BLZ 20111 \nIBAN: AT63 2011 1288 6782 0703 \nSWIFT: GIBAATWW  \n  \nHonorarnote  Wien, am 21.04.2026 \nNr. 26/30363  \n \nA&C Wohnart Immobilien GmbH  \nSchallergasse 35 \n1120 Wien \nUID -Nr. ATU83086125  \n \nBetrifft: Rechtliche Beratungsleistungen  \n \nAbrechnungszeitraum: 16.0 3.2026 bis 31.03.2026  \n \nFür rechtliche Beratung und Vertretung im genannten  Zeitraum  \nerlauben wir uns das folgende Honorar zu verrechnen : \n \n \nAllgemeine Beratung (COVACIU/42222000)  \nHonorar EUR  1.960,00  \nBarauslagen USt-pflichtig (ERV-Gebühren, Kontoschli eßungsspe- \nsen Treuhandkonto) EUR  203,52  \nZwischensumme EUR  2.163,52  \n20 % Umsatzsteuer EUR  432,70  \nZwischensumme EUR  2.596,22  \nBarauslagen USt-frei (Eintragungsgebühren Firmenbuc hgericht) EUR  44,00  \nGesamtsumme EUR  2.640,22  \n \n \nAnlage: \nLeistungsbeschreibung \n \n \n \n"
+      },
+      {
+        "id": "50658973-e245-4bb3-8845-93f3714c494a",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "26ab8d69-fd04-4de0-af22-bddd9ec67e9c",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "63da3567-2bc8-4758-b70b-3c0affd4d29d",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "88aa9bcf-1181-4003-b039-692a498d17cb",
+        "name": "Traducere_LVZ A&C Wohnart (16.03.2026 bis 31.03.2026) ro.pdf",
+        "size": 69527,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 3718,
+        "page_count": null,
+        "text": "Lista de prestări\n© Avocat, Cerha Hempel\nImprimare din 21.04.2026 / 13:071/3\nNumăr dosar: COVACIU/42222000 21 aprilie 2026\nClient: A&C Wohnart Immobilien GmbH \nPărți adverse:\nCauza: Consultanță generală \nBaza de calcul-RAT:\nPerioada de decontare:până la 08.04.2026\nTipul de facturare: Tarif orar\nData Serviciu Denumire SB Tarif / Timp Câștig BAU BA0\n16.03.2026 TK Convorbire telefonică scurtă cu domnul Covaciu privind predarea cheilor la \nsediul nostru și estimarea costurilor/ofertele pentru pașii următori854 0:11 64,16\n16.03.2026 EML Convorbire telefonică cu domnul Kornhofer și e-mail către domnul Konrhofer cu \nprocesul-verbal de predare revizuit854 0:20 116,67\n16.03.2026 AV Mesaje WhatsApp privind predarea documentelor referitoare la clădiri 854 0:10 58,33\n16.03.2026 EMK E-mail adresat domnului Hofhans privind inventarierea documentelor pentru \nSchaller Gasse 35854 0:10 58,33\n16.03.2026 EMK E-mail de urmărire către domnul Kornhofer privind documentele 854 0:10 58,33\n16.03.2026 BU Comisioane de închidere a contului 189,02\n17.03.2026 AV Întâlnire cu domnul Kornhofer pentru predarea cheilor; păstrarea setului de chei, \nscanarea documentului, crearea unui link pentru documente854 0:45 262,50\n17.03.2026 EML E-mailuri către domnul Kornhofer și e-mail către domnul Covaciu cu procesul-\nverbal de predare854 0:20 116,67\n17.03.2026 EMK E-mail scurt către domnul Hofhans privind feedback-ul și racordarea la rețea 854 0:05 29,17\n18.03.2026 EMK E-mail către domnul Hofhans 854 0:05 29,17\n19.03.2026 AV Convorbire telefonică cu dna Madl de la Raiffeisenbank; e-mailuri cu traducerea \npoliței de asigurare și a ofertei de energie electrică854 0:10 58,33\n19.03.2026 EML E-mail către Wiener Netze 854 0:20 116,67\n19.03.2026 EMK E-mail către domnul Covaciu cu polița de asigurare, inclusiv traducerea \ndocumentului854 0:10 58,33\n20.03.2026 EML E-mail către domnii Hofhans și Kornhofer privind contractul de furnizare a energiei \nelectrice854 0:05 29,17\n25.03.2026 EML E-mail către domnul Covaciu cu raport în urma corespondenței cu domnul \nKornhofer și domnul Hofhans854 0:15 87,50\n25.03.2026 EML E-mail către Wiener Wasser și formular de solicitare a modificării înregistrării \npentru proprietarii de clădiri854 0:15 87,50\n25.03.2026 TEK Convorbire telefonică cu MA 31 Wiener Wasser 854 0:10 58,33\n25.03.2026 EML E-mail către domnul Kornhofer privind racordul la rețeaua de apă și contorul de \napă854 0:05 29,17\n26.03.2026 AV Data predării cheilor către domnul Covaciu 854 0:05 29,17\n27.03.2026 EMK E-mail către domnul Covaciu cu întrebare privind contorul de apă și schimbarea \nadresei, inclusiv verificarea formularului și solicitarea datelor referitoare la854 0:30 175,00\nLista de prestări\n© Avocat, Cerha Hempel\nImprimare din 21.04.2026 / 13:072/3\nData Serviciu Denumire SB Tarif / Durată Câștig BAU BA0\nNumărul contului de taxă la MA 31\n27.03.2026 AV Pregătirea cererii FB pentru modificarea adresei comerciale și coordonarea \nformularului FB (cod de verificare pentru depunere)854 1:15 437,50\n30.03.2026 2SF Cerere de înregistrare în registrul comerțului 14,50\n08.04.2026 GEB Încasare taxă pentru FN 668224h, 75 Fr 12955/26d 44,00\nTimp total:\n854 Mag. Bogdan Capra 5:36 la 350,005:36\n1.960,00\nSuma netă 1.960,00 203,52 44,00\nCheltuieli în numerar supuse TVA 203,52\nSubtotal 2.163,52\n20 % TVA 432,70\nSubtotal 2.596,22\nCheltuieli în numerar scutite de TVA 44,00\nTotal 2.640,22\nLista de prestări\n© Avocat, Cerha Hempel\nImprimare din 21.04.2026 / 13:073/3\nTOTAL\nTimp total:\n854 Mag. Bogdan Capra 5:36 la 350,005:36\n1.960,00\nSuma netă 1.960,00 203,52 44,00\nCheltuieli în numerar supuse TVA 203,52\nSubtotal 2.163,52\n20 % TVA 432,70\nSubtotal 2.596,22\nCheltuieli în numerar scutite de TVA 44,00\nSuma totală 2.640,22\n"
+      },
+      {
+        "id": "bccad00d-8531-48d8-bfa7-e50f69743a9e",
+        "name": "Leistungsbeschreibung - LVZ A&C Wohnart (16.03.2026 bis 31.03.2026).pdf",
+        "size": 60936,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 3829,
+        "page_count": null,
+        "text": " Leistungsverzeichnis 1/3 \n \n© Advokat, Cerha Hempel  Ausdruck vom 21.04.2026 / 13:07  \n Aktenbezeichnung: COVACIU/42222000 21. April 2026 Klient:    A&C Wohnart Immobilien GmbH Gegner:     Causa:    Allgemeine Beratung Bemessungsgrundlage-RAT:  Abrechnungszeitraum:  bis 08.04.2026 Abrechnungsart:  Stundensatz \n \nDatum Leistung Bezeichnung SB Tarif / Zeit Verdienst  BAU  BA0  \n16.03.2026 TK Telefonat kurz mit Herrn Covaciu betr effend Schlüsselübergabe bei uns in \nder Kanzlei und Konstenschätzung/Angebote für nächs te Schritte 854 0:11 64,16    \n16.03.2026 EML Telefongespräch mit Herrn Kornhofer und E-Mail an Herrn Konrhofer mit \nüberarbeitetem Übergabeprotokoll 854 0:20 116,67    \n16.03.2026 AV Whatsapp-Nachrichten betreffend Überg abe von gebäudebezogenen \nUnterlagen 854 0:10 58,33    \n16.03.2026 EMK E-Mail an Herrn Hofhans bezüglich In ventarisierung der Unterlagen für die \nSchallergasse 35 854 0:10 58,33    \n16.03.2026 EMK Folge-E-Mail an Herrn Kornhofer betr effend Unterlagen 854 0:10 58,33    \n16.03.2026 BU Kontoabschlussspesen    189,02   \n17.03.2026 AV Termin mit Herrn Kornhofer für die Sc hlüsselübergabe; Aufbewahrung \nSchlüsselbund, Scan des Dokuments, Erstellung Link für die Dokumente 854 0:45 262,50    \n17.03.2026 EML E-Mails an Herrn Kornhofer und E-Mai l an Herrn Covaciu mit dem \nÜbergabeprotokoll 854 0:20 116,67    \n17.03.2026 EMK E-Mail kurz an Herrn Hofhans bezügli ch Feedback und Netzanschluss 854 0:05 29,17    \n18.03.2026 EMK E-Mail an Herrn Hofhans 854 0:05 29, 17    \n19.03.2026 AV Telefonat mit Fr. Madl Raiffeisenbank ; E-Mails mit Weiterleitung von \nVersicherungspolizze übersetzt und Stromangebot 854 0:10 58,33    \n19.03.2026 EML E-Mail an Wiener Netze 854 0:20 116, 67    \n19.03.2026 EMK E-Mail an Herrn Covaciu mit Versiche rungspolizze inkl. Übersetzung des \nDokuments 854 0:10 58,33    \n20.03.2026 EML Email an Herrn Hofhans und Kornhofer  betreffend Stromvertrag 854 0:05 29,17    \n25.03.2026 EML E-Mail an Herrn Covaciu mit Bericht nach Korrespondenz mit Herrn \nKornhofer und Herrn Hofhans 854 0:15 87,50    \n25.03.2026 EML E-Mail an Wiener Wasser und Aushebun g Formular für Ummeldung \nGebäudeeigentümer 854 0:15 87,50    \n25.03.2026 TEK Telefonat mit MA 31 Wiener Wasser 85 4 0:10 58,33    \n25.03.2026 EML E-Mail an Herrn Kornhofer betreffend  Wasseranschluss und Wasserzähler 854 0:05 29,17    \n26.03.2026 AV Termin Übergabe der Schlüssel an Herr n Covaciu 854 0:05 29,17    \n27.03.2026 EMK E-Mail an Herrn Covaciu mit Frage be treffend Wasserzähler und \nUmmeldung inkl. Durchsicht des Formulars und Anfrag e Daten zu 854 0:30 175,00    \n Leistungsverzeichnis 2/3 \n \n© Advokat, Cerha Hempel  Ausdruck vom 21.04.2026 / 13:07  \n Datum Leistung Bezeichnung SB Tarif / Zeit Verdienst  BAU  BA0  \nGebührenkontonummer mit MA 31 \n27.03.2026 AV Vorbereitung FB-Antrag für Änderung G eschäftsanschrift und \nKoordinierung der FB-Maske (Prüfziffer für die Eint bringung) 854 1:15 437,50    \n30.03.2026 2SF Firmenbuchgesuch    14,50   \n08.04.2026 GEB Gebühreneinzug zu FN 668224h, 75 Fr 12955/26d     44,00  \n        \n  Summe Zeitaufwand:  5:36      854 Mag. Bogdan Capra 5:36 zu 350,00   1.960,00 \n   \n        \n  Summe netto   1.960,00  203,52  44,00  \n  Barauslagen USt-pflichtig   203,52    \n  Zwischensumme   2.163,52    \n  20 % Umsatzsteuer   432,70    \n  Zwischensumme   2.596,22    \n  Barauslagen USt-frei   44,00    \n  Summe   2.640,22    \n Leistungsverzeichnis 3/3 \n \n© Advokat, Cerha Hempel  Ausdruck vom 21.04.2026 / 13:07  \n TOTAL \n  Summe Zeitaufwand:  5:36    \n  854 Mag. Bogdan Capra 5:36 zu 350,00   1.960,00    \n        \n  Summe netto   1.960,00  203,52  44,00  \n  Barauslagen USt-pflichtig   203,52    \n  Zwischensumme   2.163,52    \n  20 % Umsatzsteuer   432,70    \n  Zwischensumme   2.596,22    \n  Barauslagen USt-frei   44,00    \n  Gesamtsumme   2.640,22    \n \n"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "ae6603d1-5fed-4efc-b5d2-6e44e91d2d2a",
+    "account_email": "cosmin.covaciu@ipec.ro",
+    "subject": "Factura servicii | Honorarnote Nr. 26/30363 [COVACIU/42222000]",
+    "from_name": "Capra Bogdan",
+    "from_address": "Bogdan.Capra@cerhahempel.com",
+    "to": [
+      "covaciu.gnm@gmail.com"
+    ],
+    "cc": [
+      "cosmin.covaciu@ipec.ro"
+    ],
+    "received_at": "2026-04-21T09:31:16Z",
+    "text": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașamente decât dacă recunoașteți expeditorul, în caz contrar, contactați departamentul IT!\r\nBuna ziua,\r\n\r\nVa trimit in atasament factura pentru serviciile prestate in perioada 16.03.2026 – 31.03.2026.\r\n\r\nIn anexa aveti si lista cu toate serviciile prestate (inclusiv traducerea in romana). Barauslagen din factura se refera la (i) costurile cu contul bancar pentru tranzactia imobiliara si (ii) o taxa minora pentru schimbarea adresei la Registrul Comertului.\r\n\r\nFactura este scadenta in 14 zile, adica in 05.05.2026.\r\n\r\nIn luna aprilie 2026 pot sa va confirm ca nu avem niciun serviciu facturat pana acum.\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DCD193.A1997A20] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DCD193.A1997A20] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\nVon: Capra Bogdan\r\nGesendet: Dienstag, 17. März 2026 17:31\r\nAn: 'Cosmin Covaciu' <cosmin.covaciu@ipec.ro>\r\nCc: 'Cosmin Covaciu' <covaciu.gnm@gmail.com>\r\nBetreff: Factura servicii | Honorarnote Nr. 25/31404 [COVACIU/42222000]\r\n\r\nBuna ziua,\r\n\r\nVa trimit in atasament factura pentru serviciile prestate in legatura cu tranzactia imobiliara pentru obiectul Schallergasse 35. In anexa aveti si lista cu toate serviciile prestate.\r\n\r\nDaca aveti deja un nr. de TVA, va rog sa ni-l comunicati. Altfel, puteti sa-l notati ulterior direct pe factura.\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DCD193.A1997A20] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DCD193.A1997A20] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\nVon: Capra Bogdan\r\nGesendet: Montag, 16. Februar 2026 09:55\r\nAn: 'Cosmin Covaciu' <cosmin.covaciu@ipec.ro<mailto:cosmin.covaciu@ipec.ro>>\r\nCc: 'Cosmin Covaciu' <covaciu.gnm@gmail.com<mailto:covaciu.gnm@gmail.com>>\r\nBetreff: Notificare - Factura servicii | Honorarnote Nr. 25/31404 [COVACIU/42222000]\r\nPriorität: Hoch\r\n\r\nBuna ziua,\r\n\r\nVa rog, dupa ce efectuati transferul capitalului pentru tranzactie pe contul firmei A&C Wohnart Immobilien GmbH sa achitati si factura noastra din 27.01.2026 (o gasiti din nou in atasament), scadenta de o saptamana. Altfel, departamentul nostru o va anula la sfarsitul saptamanii si o va emite pe numele dvs. in calitate de mandant, ceea ce ar fi dezavantajos pentru dvs. in vederea TVA-ului.\r\n\r\nMultumesc.\r\n\r\nVa tin la curent cu tranzactia.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DCD193.A1997A20] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DCD193.A1997A20] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\nVon: Capra Bogdan\r\nGesendet: Dienstag, 27. Januar 2026 13:52\r\nAn: Cosmin Covaciu <cosmin.covaciu@ipec.ro<mailto:cosmin.covaciu@ipec.ro>>\r\nBetreff: Factura servicii | Honorarnote Nr. 25/31404 [COVACIU/42222000]\r\n\r\nBuna ziua,\r\n\r\nVa trimit in atasament factura pentru serviciile prestate in legatura cu (i) infiintarea firmei, (ii) due diligence-ul legat de proprietate si (iii) serviciile suplimentare (in total pauschal 2 ore extra de consultanta).\r\n\r\nIn factura veti vedea si „Barauslagen”. Acestea se refera la (i) costurile suportate de noi pentru extrasuri din registre (Firmenbuch, Grundbuch si Meldeamt) si (ii) taxa de inregistrare a firmei (EUR 493,-), achitata tot de noi.\r\n\r\nDin motive de transparenta, am atasat si e-mailul din 11.11.2025 cu oferta legata de infiintarea firmei, in care am mentionat aceasta taxa de inregistrare.\r\n\r\nAm emis factura pe A&C Wohnart Immobilien GmbH pentru ca dvs. sa puteti deduce TVA-ul. Daca aveti deja un nr. de TVA, va rog sa ni-l comunicati.\r\n\r\nIn cazul in care aveti intrebari, va stau la dispozitie.\r\n\r\nSalutari,\r\nBogdan\r\n\r\nMag. Bogdan Capra\r\nRechtsanwalt\r\n\r\nCERHA HEMPEL\r\nRechtsanwälte GmbH\r\nA-1010 Wien, Parkring 2\r\nTel.: +43/1/514 35-427\r\nMobil: +43/664/156 50 85\r\n\r\nbogdan.capra@cerhahempel.com<mailto:bogdan.capra@cerhahempel.com>\r\nwww.cerhahempel.com<http://www.cerhahempel.com/>\r\n\r\nSind Sie an CERHA HEMPEL Legal Updates interessiert? Dann melden Sie sich hier<http://www.cerhahempel.com/de/subscribe-to-updates> an.\r\n\r\n[Ein Bild, das Text, Vektorgrafiken, ClipArt enthält.    Automatisch generierte Beschreibung]<https://www.linkedin.com/company/2413345> [cid:image002.jpg@01DCD193.A1997A20] <https://www.facebook.com/CERHAHEMPELWien>  [cid:image003.jpg@01DCD193.A1997A20] <https://www.instagram.com/cerha_hempel/>\r\n\r\nCERHA  HEMPEL  Österreich   Bulgarien   Rumänien   Slowakei   Slowenien   Tschechische Republik   Ungarn\r\n\r\nDieses Email ist vertraulich. Details sind unter www.cerhahempel.com/disclaimer<http://www.cerhahempel.com/disclaimer> ersichtlich.\r\nFür sämtliche Leistungen von CERHA HEMPEL gelten unsere Allgemeinen Geschäftsbedingungen (siehe AGB<https://www.cerhahempel.com/de/agb>).\r\nRechtsform: GmbH, Sitz: Wien, FN 452529i, Handelsgericht Wien, Datenschutzerklärung<http://www.cerhahempel.com/de/datenschutz>\r\n\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "10: Invoices"
+    ],
+    "category": null,
+    "folder": "Capra Bogdan",
+    "thread_id": "AAQkAGFhZTNjYmIxLTVmODMtNGI0MC04YTZkLTBlOWM0YTgxM2IxNwAQAIfwZDXVkwJIg9zADRuEEZ0=",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "8bbca570-e27e-4a14-a735-de80b0d2de9a",
+        "name": "Leistungsbeschreibung - LVZ A&C Wohnart (16.03.2026 bis 31.03.2026).pdf",
+        "size": 60936,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 3829,
+        "page_count": null,
+        "text": " Leistungsverzeichnis 1/3 \n \n© Advokat, Cerha Hempel  Ausdruck vom 21.04.2026 / 13:07  \n Aktenbezeichnung: COVACIU/42222000 21. April 2026 Klient:    A&C Wohnart Immobilien GmbH Gegner:     Causa:    Allgemeine Beratung Bemessungsgrundlage-RAT:  Abrechnungszeitraum:  bis 08.04.2026 Abrechnungsart:  Stundensatz \n \nDatum Leistung Bezeichnung SB Tarif / Zeit Verdienst  BAU  BA0  \n16.03.2026 TK Telefonat kurz mit Herrn Covaciu betr effend Schlüsselübergabe bei uns in \nder Kanzlei und Konstenschätzung/Angebote für nächs te Schritte 854 0:11 64,16    \n16.03.2026 EML Telefongespräch mit Herrn Kornhofer und E-Mail an Herrn Konrhofer mit \nüberarbeitetem Übergabeprotokoll 854 0:20 116,67    \n16.03.2026 AV Whatsapp-Nachrichten betreffend Überg abe von gebäudebezogenen \nUnterlagen 854 0:10 58,33    \n16.03.2026 EMK E-Mail an Herrn Hofhans bezüglich In ventarisierung der Unterlagen für die \nSchallergasse 35 854 0:10 58,33    \n16.03.2026 EMK Folge-E-Mail an Herrn Kornhofer betr effend Unterlagen 854 0:10 58,33    \n16.03.2026 BU Kontoabschlussspesen    189,02   \n17.03.2026 AV Termin mit Herrn Kornhofer für die Sc hlüsselübergabe; Aufbewahrung \nSchlüsselbund, Scan des Dokuments, Erstellung Link für die Dokumente 854 0:45 262,50    \n17.03.2026 EML E-Mails an Herrn Kornhofer und E-Mai l an Herrn Covaciu mit dem \nÜbergabeprotokoll 854 0:20 116,67    \n17.03.2026 EMK E-Mail kurz an Herrn Hofhans bezügli ch Feedback und Netzanschluss 854 0:05 29,17    \n18.03.2026 EMK E-Mail an Herrn Hofhans 854 0:05 29, 17    \n19.03.2026 AV Telefonat mit Fr. Madl Raiffeisenbank ; E-Mails mit Weiterleitung von \nVersicherungspolizze übersetzt und Stromangebot 854 0:10 58,33    \n19.03.2026 EML E-Mail an Wiener Netze 854 0:20 116, 67    \n19.03.2026 EMK E-Mail an Herrn Covaciu mit Versiche rungspolizze inkl. Übersetzung des \nDokuments 854 0:10 58,33    \n20.03.2026 EML Email an Herrn Hofhans und Kornhofer  betreffend Stromvertrag 854 0:05 29,17    \n25.03.2026 EML E-Mail an Herrn Covaciu mit Bericht nach Korrespondenz mit Herrn \nKornhofer und Herrn Hofhans 854 0:15 87,50    \n25.03.2026 EML E-Mail an Wiener Wasser und Aushebun g Formular für Ummeldung \nGebäudeeigentümer 854 0:15 87,50    \n25.03.2026 TEK Telefonat mit MA 31 Wiener Wasser 85 4 0:10 58,33    \n25.03.2026 EML E-Mail an Herrn Kornhofer betreffend  Wasseranschluss und Wasserzähler 854 0:05 29,17    \n26.03.2026 AV Termin Übergabe der Schlüssel an Herr n Covaciu 854 0:05 29,17    \n27.03.2026 EMK E-Mail an Herrn Covaciu mit Frage be treffend Wasserzähler und \nUmmeldung inkl. Durchsicht des Formulars und Anfrag e Daten zu 854 0:30 175,00    \n Leistungsverzeichnis 2/3 \n \n© Advokat, Cerha Hempel  Ausdruck vom 21.04.2026 / 13:07  \n Datum Leistung Bezeichnung SB Tarif / Zeit Verdienst  BAU  BA0  \nGebührenkontonummer mit MA 31 \n27.03.2026 AV Vorbereitung FB-Antrag für Änderung G eschäftsanschrift und \nKoordinierung der FB-Maske (Prüfziffer für die Eint bringung) 854 1:15 437,50    \n30.03.2026 2SF Firmenbuchgesuch    14,50   \n08.04.2026 GEB Gebühreneinzug zu FN 668224h, 75 Fr 12955/26d     44,00  \n        \n  Summe Zeitaufwand:  5:36      854 Mag. Bogdan Capra 5:36 zu 350,00   1.960,00 \n   \n        \n  Summe netto   1.960,00  203,52  44,00  \n  Barauslagen USt-pflichtig   203,52    \n  Zwischensumme   2.163,52    \n  20 % Umsatzsteuer   432,70    \n  Zwischensumme   2.596,22    \n  Barauslagen USt-frei   44,00    \n  Summe   2.640,22    \n Leistungsverzeichnis 3/3 \n \n© Advokat, Cerha Hempel  Ausdruck vom 21.04.2026 / 13:07  \n TOTAL \n  Summe Zeitaufwand:  5:36    \n  854 Mag. Bogdan Capra 5:36 zu 350,00   1.960,00    \n        \n  Summe netto   1.960,00  203,52  44,00  \n  Barauslagen USt-pflichtig   203,52    \n  Zwischensumme   2.163,52    \n  20 % Umsatzsteuer   432,70    \n  Zwischensumme   2.596,22    \n  Barauslagen USt-frei   44,00    \n  Gesamtsumme   2.640,22    \n \n"
+      },
+      {
+        "id": "a0de170c-2a22-48b8-bf3a-62c0012e15df",
+        "name": "HN 26_30363 A&C Wohnart.pdf",
+        "size": 54738,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 1227,
+        "page_count": null,
+        "text": " \n \nCOVACIU/42222000 - 46/854 - 2696343v1 1 \nCERHA HEMPEL Rechtsanwälte GmbH, Parkring 2, A-1010  Wien, Tel:+43/1/514 35-0, Fax:+ 43/1/514 35-35 \noffice@cerhahempel.com, www.cerhahempel.com, FN 452 529i, HG Wien, ATU 70888934 \nCERHA HEMPEL   Austria   Bulgaria   Czech Republic   Hungary   Romania   Slovak Republic   Slovenia \n  UID: ATU 70888934 \n \nBankverbindung: \nErste Bank AG \nKonto Nr. 288-678-207/03, BLZ 20111 \nIBAN: AT63 2011 1288 6782 0703 \nSWIFT: GIBAATWW  \n  \nHonorarnote  Wien, am 21.04.2026 \nNr. 26/30363  \n \nA&C Wohnart Immobilien GmbH  \nSchallergasse 35 \n1120 Wien \nUID -Nr. ATU83086125  \n \nBetrifft: Rechtliche Beratungsleistungen  \n \nAbrechnungszeitraum: 16.0 3.2026 bis 31.03.2026  \n \nFür rechtliche Beratung und Vertretung im genannten  Zeitraum  \nerlauben wir uns das folgende Honorar zu verrechnen : \n \n \nAllgemeine Beratung (COVACIU/42222000)  \nHonorar EUR  1.960,00  \nBarauslagen USt-pflichtig (ERV-Gebühren, Kontoschli eßungsspe- \nsen Treuhandkonto) EUR  203,52  \nZwischensumme EUR  2.163,52  \n20 % Umsatzsteuer EUR  432,70  \nZwischensumme EUR  2.596,22  \nBarauslagen USt-frei (Eintragungsgebühren Firmenbuc hgericht) EUR  44,00  \nGesamtsumme EUR  2.640,22  \n \n \nAnlage: \nLeistungsbeschreibung \n \n \n \n"
+      },
+      {
+        "id": "16fc15d2-2095-42af-b031-1161c0552b8e",
+        "name": "image002.jpg",
+        "size": 758,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "3a31d9ba-b057-4bb9-b4a4-2cb43bc53ed0",
+        "name": "image001.jpg",
+        "size": 763,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "b1fd4bec-bff4-4538-af83-a3eef7158dd3",
+        "name": "Traducere_LVZ A&C Wohnart (16.03.2026 bis 31.03.2026) ro.pdf",
+        "size": 69527,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 3718,
+        "page_count": null,
+        "text": "Lista de prestări\n© Avocat, Cerha Hempel\nImprimare din 21.04.2026 / 13:071/3\nNumăr dosar: COVACIU/42222000 21 aprilie 2026\nClient: A&C Wohnart Immobilien GmbH \nPărți adverse:\nCauza: Consultanță generală \nBaza de calcul-RAT:\nPerioada de decontare:până la 08.04.2026\nTipul de facturare: Tarif orar\nData Serviciu Denumire SB Tarif / Timp Câștig BAU BA0\n16.03.2026 TK Convorbire telefonică scurtă cu domnul Covaciu privind predarea cheilor la \nsediul nostru și estimarea costurilor/ofertele pentru pașii următori854 0:11 64,16\n16.03.2026 EML Convorbire telefonică cu domnul Kornhofer și e-mail către domnul Konrhofer cu \nprocesul-verbal de predare revizuit854 0:20 116,67\n16.03.2026 AV Mesaje WhatsApp privind predarea documentelor referitoare la clădiri 854 0:10 58,33\n16.03.2026 EMK E-mail adresat domnului Hofhans privind inventarierea documentelor pentru \nSchaller Gasse 35854 0:10 58,33\n16.03.2026 EMK E-mail de urmărire către domnul Kornhofer privind documentele 854 0:10 58,33\n16.03.2026 BU Comisioane de închidere a contului 189,02\n17.03.2026 AV Întâlnire cu domnul Kornhofer pentru predarea cheilor; păstrarea setului de chei, \nscanarea documentului, crearea unui link pentru documente854 0:45 262,50\n17.03.2026 EML E-mailuri către domnul Kornhofer și e-mail către domnul Covaciu cu procesul-\nverbal de predare854 0:20 116,67\n17.03.2026 EMK E-mail scurt către domnul Hofhans privind feedback-ul și racordarea la rețea 854 0:05 29,17\n18.03.2026 EMK E-mail către domnul Hofhans 854 0:05 29,17\n19.03.2026 AV Convorbire telefonică cu dna Madl de la Raiffeisenbank; e-mailuri cu traducerea \npoliței de asigurare și a ofertei de energie electrică854 0:10 58,33\n19.03.2026 EML E-mail către Wiener Netze 854 0:20 116,67\n19.03.2026 EMK E-mail către domnul Covaciu cu polița de asigurare, inclusiv traducerea \ndocumentului854 0:10 58,33\n20.03.2026 EML E-mail către domnii Hofhans și Kornhofer privind contractul de furnizare a energiei \nelectrice854 0:05 29,17\n25.03.2026 EML E-mail către domnul Covaciu cu raport în urma corespondenței cu domnul \nKornhofer și domnul Hofhans854 0:15 87,50\n25.03.2026 EML E-mail către Wiener Wasser și formular de solicitare a modificării înregistrării \npentru proprietarii de clădiri854 0:15 87,50\n25.03.2026 TEK Convorbire telefonică cu MA 31 Wiener Wasser 854 0:10 58,33\n25.03.2026 EML E-mail către domnul Kornhofer privind racordul la rețeaua de apă și contorul de \napă854 0:05 29,17\n26.03.2026 AV Data predării cheilor către domnul Covaciu 854 0:05 29,17\n27.03.2026 EMK E-mail către domnul Covaciu cu întrebare privind contorul de apă și schimbarea \nadresei, inclusiv verificarea formularului și solicitarea datelor referitoare la854 0:30 175,00\nLista de prestări\n© Avocat, Cerha Hempel\nImprimare din 21.04.2026 / 13:072/3\nData Serviciu Denumire SB Tarif / Durată Câștig BAU BA0\nNumărul contului de taxă la MA 31\n27.03.2026 AV Pregătirea cererii FB pentru modificarea adresei comerciale și coordonarea \nformularului FB (cod de verificare pentru depunere)854 1:15 437,50\n30.03.2026 2SF Cerere de înregistrare în registrul comerțului 14,50\n08.04.2026 GEB Încasare taxă pentru FN 668224h, 75 Fr 12955/26d 44,00\nTimp total:\n854 Mag. Bogdan Capra 5:36 la 350,005:36\n1.960,00\nSuma netă 1.960,00 203,52 44,00\nCheltuieli în numerar supuse TVA 203,52\nSubtotal 2.163,52\n20 % TVA 432,70\nSubtotal 2.596,22\nCheltuieli în numerar scutite de TVA 44,00\nTotal 2.640,22\nLista de prestări\n© Avocat, Cerha Hempel\nImprimare din 21.04.2026 / 13:073/3\nTOTAL\nTimp total:\n854 Mag. Bogdan Capra 5:36 la 350,005:36\n1.960,00\nSuma netă 1.960,00 203,52 44,00\nCheltuieli în numerar supuse TVA 203,52\nSubtotal 2.163,52\n20 % TVA 432,70\nSubtotal 2.596,22\nCheltuieli în numerar scutite de TVA 44,00\nSuma totală 2.640,22\n"
+      },
+      {
+        "id": "dcc96360-7cd1-4032-af42-1a7e6ed1bb67",
+        "name": "image003.jpg",
+        "size": 785,
+        "content_type": "image/jpeg",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "66bac50e-f683-4d36-bc8b-15b75db1adc6",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "SchallerGasse 35 Wien",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "office@mlinestudio.ro"
+    ],
+    "cc": [],
+    "received_at": "2026-04-20T09:00:06.401678Z",
+    "text": "Buna Mada,\n\nIti trimit fisierele si te sun\n\nCosmin covaciu",
+    "truncated": false,
+    "labels": [
+      "3: Fyi"
+    ],
+    "category": null,
+    "folder": "office@mlinestudio.ro",
+    "thread_id": "imap_10",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [
+      {
+        "id": "ced27dcf-9eaf-4807-9ce3-36492528495e",
+        "name": "002 P2041_C_02 230420.dwg",
+        "size": 4015808,
+        "content_type": "application/octet-stream",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "29e4a743-0755-4f9d-b6f4-cd6442318721",
+        "name": "Version 1.jpg",
+        "size": 1209891,
+        "content_type": "application/octet-stream",
+        "has_text": true,
+        "text_chars": 579,
+        "page_count": null,
+        "text": "ABSTURZSICHERUNG VSG H = 100 cm <. FBOK\n8 1\n186 85\nD\nZimmer\nBALKON 3065\nAUFZUG 230 RETTUNGSWEG F#ST VERL SYSTEM\n70\n36\nABSTURZSICHERUNG H=l10o cm %. FBOK\n2\nBSTURZSICHERUNG = 00 cm u.FBOK\n0\nAUFZUG\nALKONKONSTRUKTION: EB120 AUF FRQ 80/4 5235 INKL EKUNDARKONSTR. U. AUFBAU It. Statik\nKuche\nSchindler 3300 675 kgX? Pers- Kabine 40x12Ocm Schaeht 86x NOcm\nBAD\nBAD\n8 1\nABSTURZSICHERUN H=Toocm uF\nEBBQEMX\nPH 76\nPH 76\nPH 76\nPH82\n+7,po 75cml Gang 1265 1265\n38 106\n6\n1 4 4 tA\no\n110 197\n488 1\nBAD\nZimmer\nZimmer\nZimmer\nBAD\nPH90\nPH90\nPH90\nPH90\nPH 87\nPH 87\nPH87\nPH 87\n8\n8\n8 8\n0\n0\n8\n8 8\nL 8\n8 8\nBL"
+      },
+      {
+        "id": "f52bd1de-c6da-48fd-b9d3-dbffacdc03bf",
+        "name": "001 P2041_C_01 230420.dwg",
+        "size": 1439926,
+        "content_type": "application/octet-stream",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      },
+      {
+        "id": "f0cec0a9-d6e2-408d-ba1c-e07338b0d836",
+        "name": "Version 2.jpg",
+        "size": 1231463,
+        "content_type": "application/octet-stream",
+        "has_text": true,
+        "text_chars": 621,
+        "page_count": null,
+        "text": "ABSTURZSICHERUNG VSG H = 100 cm <. FBOK\n186 785\nBALKON 3065\nKuche\nAUFZUG 230 RETTUNGSWEG F#ST VERL SYSTEM\n70\n36\nABSTURZSICHERUNG H=l10o cm %. FBOK\n2\nABSTURZSICHERUNG H = 00 cm u.FBOK\nAUFZUG\nBALKONKONSTRUKTION: HEB120 AUF FRQ 80/4 5235 INKL. SEKUNDARKONSTR: u. AUFBAUJ It. Statik\nSchindler/3300 675 kgX? Pers- Kabine  4Ox12Ocm Schaeht 86x NOcm\nBAD\nBAD\nBAD\n8 1\nABSTURZSICHERUN H=Toocm uF\nEBBQEMX\nPH 76\nPH 76\n+7,po D 75cml 0 0 Gang 1265 122\n38 106\n48 1 4 4 tA\nKuche / Wohnzimmer\n110 197\nKuche\nMAUERWERKSERTUCHIIGUNG] ISTATIK\nZimmer\nZimmer\nZimmer\nZimmer\nPH90\nPH90\nPH90\nPH90\nPH 87\nPH 87\nPH87\nPH 87\n8\n8\n8 8\n0\n8\n8\n8 8\nL 8\n8 8\nBL"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "35815f69-fd80-4e3c-b7d2-f90738a67702",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "SCHG 35- Bestandsdoku 2026-04-14",
+    "from_name": "Sandra Knöbl",
+    "from_address": "sandra@pm-mattes.at",
+    "to": [
+      "office@ac-wohnart.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-20T07:59:39Z",
+    "text": "Sehr geehrter Herr Covaciu,\r\n\r\nWie besprochen, übermittle ich Ihnen die Dokumentation der Bestandsbegehung der Schallergasse 35, vom 14.4.2026.\r\nDer download link ist 3 Tage gültig.\r\n\r\n\r\n\r\nhttps://we.tl/t-mcZphtHs9rjeoKJk￼\r\n\r\n\r\nMit freundlichen Grüßen,\r\nSandra Knöbl\r\n\r\n\r\n\r\n\r\n\r\nDipl.- Ing. Sandra Knöbl\r\n\r\nT: 0650 21 07 707\r\nE: sandra@pm-mattes.at\r\n\r\nMATTES\r\nPROJEKTMANAGEMENT GmbH\r\nAusschreibungen I ÖBA I Planung I Projektmanagement I \r\n\r\nMariahilfer Straße 101/3/47-48\r\n1060 Wien\r\nwww.pm-mattes.at <http://www.pm-mattes.at/>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Sandra Knöbl",
+    "thread_id": "<1AACE197-A48A-41E0-BC9F-65B3700297D7@pm-mattes.at>",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "daf62129-147d-4f20-a803-b21012a95edc",
+        "name": "apple-touch-icon-180x180.png",
+        "size": 16208,
+        "content_type": "image/png",
+        "has_text": true,
+        "text_chars": 13,
+        "page_count": null,
+        "text": "NO_TEXT_FOUND"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "afdb8842-4245-4482-bdf3-6e1dc555c47d",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "SchallerGasse 35 Wien",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "office@mlinestudio.ro"
+    ],
+    "cc": [],
+    "received_at": "2026-04-20T05:47:06.965638Z",
+    "text": "Buna Mada,<br><br>Iti trimit fisierele si te sun<br><br>Cosmin covaciu&nbsp;",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "3: Fyi"
+    ],
+    "category": null,
+    "folder": "Sent",
+    "thread_id": "<6fddebbe-471e-406d-9065-6d609b2f95ea@ac-wohnart.at>",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "b340c190-0ced-4288-b4b1-63195d1b2a9a",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "SCHG35- Angebot",
+    "from_name": "Sandra Knöbl",
+    "from_address": "sandra@pm-mattes.at",
+    "to": [
+      "office@ac-wohnart.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-17T18:39:49Z",
+    "text": "Sehr geehrter Herr Covaciu,\r\n\r\nIm Anhang darf ich Ihnen unser Angebot zur Planung, Ausschreibung und ÖBA des Bauvorhabens Schallergasse 35 übermitteln.\r\nBei Rückfragen stehen wir gerne zur Verfügung, und können Fragen zum Angebot auch gerne in einem online meeting besprechen.\r\n\r\n\r\nWir hoffen, dass unser Angebot Ihren Vorstellungen entspricht, und sehen einer Zusammenarbeit mit Interesse entgegen.\r\n\r\nMit freundlichen Grüßen,\r\nSandra Knöbl\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nDipl.- Ing. Sandra Knöbl\r\n\r\nT: 0650 21 07 707\r\nE: sandra@pm-mattes.at\r\n\r\nMATTES\r\nPROJEKTMANAGEMENT GmbH\r\nAusschreibungen I ÖBA I Planung I Projektmanagement I \r\n\r\nMariahilfer Straße 101/3/47-48\r\n1060 Wien\r\nwww.pm-mattes.at <http://www.pm-mattes.at/>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n￼",
+    "truncated": false,
+    "labels": [
+      "3: Fyi"
+    ],
+    "category": null,
+    "folder": "Sandra Knöbl",
+    "thread_id": "<02AE2C0A-4C55-4EFF-91CF-AE3798018F27@pm-mattes.at>",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [
+      {
+        "id": "e7daac90-09ee-4071-837a-3e6c02478eb4",
+        "name": "Anbot_KEG_ÖBA_Planung_1120 Wien _17042026.pdf",
+        "size": 173722,
+        "content_type": "application/pdf",
+        "has_text": true,
+        "text_chars": 7996,
+        "page_count": null,
+        "text": "             MATTES PROJEKTMANAGEMENT GmbH 1060 WIEN, Mariahilfer Straße 101/3/48-49  Tel: 0699 190 56 252 / E-Mail: peter@pm-mattes.at UID-Nummer: ATU 63713707 / Firmenbuchnummer: 298978zAN ac- wohnart Hr. Cosmin Covaciu per mail  Wien, 17.04.2026 Anbotslegung für das BV 1120 Wien, Schallergasse 35 Sehr geehrter Herr Covaciu, Bezüglich Ihrer Einladung erlauben wir uns, für das Bauvorhaben  „A- 1120 Wien, Schallergasse 35\" folgendes Angebot zu übermitteln: Angebotsgrundlagen: Die per Mail (2.4. 2026) und via WeTransfer (9.4.2026) übermittelten Einreichunterlagen.  1. Vorleistungen – Phase I      Folgende Vorleistungen werden angeboten: •Farb- und Materialkonzept als Basis für die Ausschreibungen (BAB/ Bau- und Ausstattungsbeschreibung) •Entwurf der Regelgeschoßwohnungen (KG/EG/1.OG/2.OG/3.OG), M 1: 100 •Einholen von Angeboten für Prüfingenieur und Ausführungsstatik 2.  Planungsleistungen - Phase II •Einreichung / Planwechsel Regelgeschosse: oHerstellen der erforderlichen Einreichplanung, des erforderlichen Planwechsels für die Regelgeschosse, inkl. Behördenwege, exkl. Abgaben, Gebühren usw.  oMitwirkung bei der Erlangung von behördlichen Vorgaben oder Festlegungen vor dem baubehördlichen Genehmigungsverfahren entsprechend den jeweiligen landesgesetzlichen Bestimmungen (Bebauungsbestimmungen, Bebauungsgrundlagen u.dgl.)  oMitwirkung bei der Erlangung von zusätzlich erforderlichen Genehmigungen  •Polier- und Leitdetailplanung: oHerstellen der erforderlichen Polier- und Leitdetailplanung für die Regelgeschosse und das Dachgeschoss (Polierplanung M 1: 50, Leitdetails M 1:10/ M 1:20, nach Bedarf) •Fertigstellungsanzeige: oHerstellen der erforderlichen Pläne für die Fertigstellungsanzeige, inkl. Behördenwege exkl. Abgaben, Gebühren usw. für das gesamte Bauvorhaben                    \nMattes Projektmanagement GmbH3. Leistungsbeschreibung (konstruktiv) / Einzelgewerke inkl. Massenermittlung + Lifttechnik        – ohne Haustechnik Erstellen einer konstruktiven Leistungsbeschreibung für den Dachgeschoßausbau, Wohnungsausbau, Lifteinbau sowie die baulichen Änderungen am Bestand, für alle erforderlichen Gewerke ohne Haustechnik ➢Ermittlung der Mengen und Massen als Grundlage für die Aufstellung der Leistungsverzeichnisse, unter   Verwendung der Beiträge der an der Planung fachlich Beteiligten  ➢Aufstellung von ausschreibungsreifen Leistungsverzeichnissen mit Leistungsbeschreibungen, positionsweise nach Gewerken, unter Verwendung standardisierter Leistungsbeschreibungen lt. Ö-Norm A 2063 ➢Sichten und prüfen der zur Verfügung gestellten Unterlagen  ➢Zusammenführen der vorhandenen Unterlagen  ➢Versand der Ausschreibungsunterlagen  ➢Erstellung Preisspiegel  ➢Überprüfen der vorliegenden Angebote im Hinblick auf Vollständigkeit  ➢Vertragserrichtung und Begleitung des Bauherrn im Vergabeprozess 4. Leistungsbeschreibung (funktional) / HKLS- Elektroinstallationen  Erstellen einer funktionalen Leistungsbeschreibung für den Dachgeschoßausbau, Wohnungsausbau: ➢Funktionale Leistungsbeschreibung HKLS ➢Funktionale Leistungsbeschreibung Elektro- und nachrichtentechnische Einrichtungen ➢Sichten und prüfen der zur Verfügung gestellten Unterlagen  ➢Zusammenführen der vorhandenen Unterlagen  ➢Versand der Ausschreibungsunterlagen  ➢Erstellung Preisspiegel  ➢Überprüfen der vorliegenden Angebote im Hinblick auf Vollständigkeit  ➢Nicht enthalten: oerforderliche Berechnungen / es werden nur Eckdaten bekanntgegeben 5. Örtliche Bauaufsicht (ÖBA) + Koordination Haustechnik-Gewerke Die Leistungen der Örtlichen Bauaufsicht bestehen u.a. aus der Überwachung der vertragsmäßigen Herstellung des Werkes. Die Kontrolle der Leistung wird mittels Bau Software docu- tools dokumentiert, und der Bauherrschaft in Form von Montsberichten digital übermittelt. Weiters beinhaltet die Leistung der Örtlichen Bauaufsicht das Sicherstellen der Übereinstimmung der Ausführungsarbeiten mit den Ausführungsunterlagen und den sonstigen Festlegungen der Planung, der Einhaltung der allgemeinen gesetzlichen und besonderen behördlichen Vorschriften, der technischen Regeln sowie der Terminpläne. Insbesondere die Kontrolle der sach- und fachgerechten Ausführung von Einbauten, die im Zuge des Baufortschritts nicht mehr zugänglich sind, ist notwendig, um Schadensauffindungen ohne erhebliche Aufwendungen zu ermöglichen. Außerdem obliegt der ÖBA die Prüfung der Rechnungen der Ausführungsgewerke. \nMattes Projektmanagement GmbHErgänzende Leistungen: ➢Kostenkontrolle: oVergleiche der aktuellen mit früheren Kostenermittlungen samt Begründung der Abweichungen ➢Kostensteuerung: oAufzeigen und gezieltes Eingreifen in die Kostenentwicklung nach Rücksprache mit dem Auftraggeber ➢Rechnungsprüfung: oMitwirkung bei der Prüfung von Schlussrechnungen. oAbnahmen und Leistungsfeststellungen. oSchlussfeststellung ➢Terminpläne: Aktualisierung von Planungsterminplänen und des Ausführungsterminplanes zu den einzelnen Leistungsschritten der Planung. ➢Prüfen von Zusatzangeboten: Prüfung von und Stellungnahme zu allfälligen Nachtrags- oder Zusatzangeboten, sowie Beurteilung der Menge und Preiswürdigkeit, (z.B. durch Heranziehung vergleichbarer Positionen aus dem Hauptangebot) bzw. Veranlassung der Vorlage der zugehörigen Kalkulationsgrundlagen durch den Bieter, inkl. Erstellung eines Prüfberichtes. Vergütung der Leistung: Pos. 1.  Vorleistungen – Phase I oFarb- und Materialkonzept als Basis für die Ausschreibungen oEntwurf der Regelgeschoßwohnungen (KG/EG/1.OG/2.OG/3.OG) oEinholen Anbote für Prüfingenieur und Ausführungsstatik 1PA        Nettosumme        €     4.500,00 Pos. 2.  Planungsleistungen - Phase II oEinreichung / Planwechsel Regelgeschosse              1PA        Nettosumme                      €       9.500,00 oPolier- und Leitdetailplanung                                      1PA        Nettosumme                      €     21.500,00 oFertigstellungsanzeige                 1PA        Nettosumme                      €       3.500,00 Pos. 3.  Leistungsbeschreibung- konstruktiv Leistungsbeschreibung (konstruktiv) / Einzelgewerke inkl. Massenermittlung – ohne Haustechnik Laut übermittelten Plänen Kostenberechnungsgrundlage                              KEG- Ausschreibung Hochbau   1PA        Nettosumme            €      12.500,00  Pos. 4 . Funktionale  Leistungsbeschreibung Haustechnik Leistungsbeschreibung (konstruktiv) / Einzelgewerke  Laut übermittelten Plänen April 2026 als Kostenberechnungsgrundlage          KEG- Ausschreibung Haustechnik   1PA        Nettosumme            €        4.500,00                             \nMattes Projektmanagement GmbHPos.5. Örtliche Bauaufsicht + Koordination Haustechnik- Gewerke ÖBA -Hochbau + Lift + ergänzende Leistungen      Bauzeit 14 Monate a 7.000,00 €           Nettosumme                     €       98.000,00 Verlängerungsmonat netto 3.000,00 € ÖBA  Haustechnik+ ergänzende Leistungen Bauzeit 7 Monate a 2.500,00 €            Nettosumme                     €       17.500,00 Verlängerungsmonat netto 1.500,00 €                                      Nettosumme          €     171.500,00                                                                                                                  20 % Ust.            €       34.300,00        Bruttosumme  €      205.800,00 Allgemein: Die angeführten Preise beinhalten alle anfallenden Nebenkosten (Telefongespräche, Porto, Kopien), jedoch keine Behördenwege und basieren auf einer einmaligen Bearbeitung der Teilleistungen. Zahlungsziel ist noch zu vereinbaren Nicht im Angebot enthalten: •Prüfingenieur •Ausführungsstatik •Vermessungsleistungen •Bauphysikalische Berechnungen •Baukoordinator wird dem Baumeister überbunden Wir sehen einer Zusammenarbeit mit Interesse entgegen, und stehen für Rückfragen gerne zur Verfügung: Baumeister Ing. Peter Mattes unter 0699/190 56 252 oder unter peter@pm-mattes.at Dipl.- Ing. Sandra Knöbl unter 0650/ 21 07 707 oder unter sandra@pm-mattes.at Angebot gültig bis 30.6.2026 \nMit freundlichen Grüßen,  Bmst. Ing. Peter Mattes\n"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "ccbb4b72-9c71-4fda-80e0-3abf3db78298",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-17T10:23:10.904320Z",
+    "text": "Danke.\r\n\n11.00 Morgen\r\n\nMfG",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "sandra@pm-mattes.at",
+    "thread_id": "imap_8",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "0d215caf-8901-41d5-852c-784c3e24064f",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-17T10:23:08.834100Z",
+    "text": "Guten Tag, \r\n\r\nich entschuldige mich dafür, dass ich Ihnen die abgesagten Termine nicht im Voraus mitteilen konnte. \r\nIch hatte einen dringenden privaten Notfall und habe deshalb vergessen, Ihnen zu schreiben. \r\nIch bitte nochmals um Entschuldigung und hoffe, dass dies unsere Zusammenarbeit nicht beeinträchtigt. \r\nWenn es Ihnen recht ist, würde ich Sie nach 15:00 Uhr anrufen, um dies kurz zu besprechen. Vielen Dank im Voraus.\r\n\r\nMfG\r\nCosmin Covaciu",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "sandra@pm-mattes.at",
+    "thread_id": "imap_9",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "5ff9e2cc-cffd-416c-89c1-c7520c9f097e",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "Sandra Knöbl",
+    "from_address": "sandra@pm-mattes.at",
+    "to": [
+      "office@ac-wohnart.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-15T08:18:33Z",
+    "text": "Sehr geehrter Herr Covaciu,\r\n\r\nNachdem Sie dem vereinbarten Meeting nicht beigetreten sind, habe ich das Zoom Meeting verlassen.\r\nIch schlage vor, dass wir Ihnen unser Angebot schicken, und wir danach ein Meeting vereinbaren.\r\n\r\nMit freundlichen Grüßen,\r\nSandra Knöbl\r\n\r\n\r\n\r\nDipl.- Ing. Sandra Knöbl\r\n\r\nT: 0650 21 07 707\r\nE: sandra@pm-mattes.at\r\n\r\nMATTES\r\nPROJEKTMANAGEMENT GmbH\r\nAusschreibungen I ÖBA I Planung I Projektmanagement I \r\n\r\nMariahilfer Straße 101/3/47-48\r\n1060 Wien\r\nwww.pm-mattes.at <http://www.pm-mattes.at/>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n> Am 15.04.2026 um 11:01 schrieb Sandra Knöbl <sandra@pm-mattes.at>:\r\n> \r\n> Meine Antwort Mail ist leider nicht durchgegangen.\r\n> Ich bin im Zoom Raum, der Link von gestern ist gültig,\r\n> \r\n> Mit freundlichen Grüßen\r\n> Sandra Knöbl\r\n> \r\n> \r\n> \r\n> \r\n> \r\n> Dipl.- Ing. Sandra Knöbl\r\n> \r\n> T: 0650 21 07 707\r\n> E: sandra@pm-mattes.at\r\n> \r\n> MATTES\r\n> PROJEKTMANAGEMENT GmbH\r\n> Ausschreibungen I ÖBA I Planung I Projektmanagement I \r\n> \r\n> Mariahilfer Straße 101/3/47-48\r\n> 1060 Wien\r\n> www.pm-mattes.at <http://www.pm-mattes.at/>\r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n>> Am 14.04.2026 um 17:24 schrieb office@ac-wohnart.at:\r\n>> \r\n>> Danke. \r\n>> 11.00 Morgen \r\n>> MfG\r\n> \r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Sandra Knöbl",
+    "thread_id": "<C099A2E8-1324-41A3-A5D2-DDBC8C8E0966@pm-mattes.at>",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "de38f2cf-dacf-440b-aa71-a7e3a58c768a",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "Sandra Knöbl",
+    "from_address": "sandra@pm-mattes.at",
+    "to": [
+      "office@ac-wohnart.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-15T08:01:21Z",
+    "text": "Meine Antwort Mail ist leider nicht durchgegangen.\r\nIch bin im Zoom Raum, der Link von gestern ist gültig,\r\n\r\nMit freundlichen Grüßen\r\nSandra Knöbl\r\n\r\n\r\n\r\n\r\n\r\nDipl.- Ing. Sandra Knöbl\r\n\r\nT: 0650 21 07 707\r\nE: sandra@pm-mattes.at\r\n\r\nMATTES\r\nPROJEKTMANAGEMENT GmbH\r\nAusschreibungen I ÖBA I Planung I Projektmanagement I \r\n\r\nMariahilfer Straße 101/3/47-48\r\n1060 Wien\r\nwww.pm-mattes.at <http://www.pm-mattes.at/>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n> Am 14.04.2026 um 17:24 schrieb office@ac-wohnart.at:\r\n> \r\n> Danke. \r\n> 11.00 Morgen \r\n> MfG\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Sandra Knöbl",
+    "thread_id": "<3C5AFE5F-536F-4AC1-B70A-7EDBAA1F7BC4@pm-mattes.at>",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "dd0bf12b-4318-416d-aaaa-fb5b8b1af455",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-15T07:13:54.458338Z",
+    "text": "Guten Tag, \r\n\r\nich entschuldige mich dafür, dass ich Ihnen die abgesagten Termine nicht im Voraus mitteilen konnte. \r\nIch hatte einen dringenden privaten Notfall und habe deshalb vergessen, Ihnen zu schreiben. \r\nIch bitte nochmals um Entschuldigung und hoffe, dass dies unsere Zusammenarbeit nicht beeinträchtigt. \r\nWenn es Ihnen recht ist, würde ich Sie nach 15:00 Uhr anrufen, um dies kurz zu besprechen. Vielen Dank im Voraus.\r\n\r\nMfG\r\nCosmin Covaciu",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Sent",
+    "thread_id": "<25eda4ea-5669-4532-b92e-648cb4d27dbb@ac-wohnart.at>",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "c83af318-171b-4fd3-b09e-4f94293a5909",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "office@ac-wohnart.at",
+    "from_address": "office@ac-wohnart.at",
+    "to": [
+      "sandra@pm-mattes.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-14T12:24:51.702252Z",
+    "text": "Danke.\r\n11.00 Morgen\r\nMfG",
+    "truncated": false,
+    "labels": [
+      "SENT",
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Sent",
+    "thread_id": "<d3c5f6ba-61ce-4078-9aa6-8d1a0ec9a2a0@ac-wohnart.at>",
+    "is_read": true,
+    "is_sent": true,
+    "attachments": [],
+    "note": ""
+  },
+  {
+    "id": "8815a41c-c7c9-4ccc-81b3-b1b18c0ec0cd",
+    "account_email": "office@ac-wohnart.at",
+    "subject": "Re: Schallergasse 35 - 2",
+    "from_name": "Sandra Knöbl",
+    "from_address": "sandra@pm-mattes.at",
+    "to": [
+      "office@ac-wohnart.at"
+    ],
+    "cc": [],
+    "received_at": "2026-04-14T11:52:50Z",
+    "text": "Sehr geehrter Herr Covaciu,\r\n\r\nFalls Sie jetzt Zeit haben für eine kurze Zoom Besprechung,\r\nandernfalls morgen ab 11.00?\r\n\r\n\r\n\r\nThema: Schallergasse 35\r\nZeit: 14. Apr. 2026 03:00 PM Wien\r\nAn Zoom-Meeting teilnehmen\r\nhttps://us05web.zoom.us/j/82107655446?pwd=MLmcBLC8G5UKbPiW40aGNcN1jXx2Rc.1\r\n\r\nMeeting-ID: 821 0765 5446\r\nKenncode: 8BicrV\r\n\r\n\r\n\r\nMit freundlichen Grüßen,\r\nSandra Knöbl\r\n\r\n\r\n\r\n\r\n\r\n\r\nDipl.- Ing. Sandra Knöbl\r\n\r\nT: 0650 21 07 707\r\nE: sandra@pm-mattes.at\r\n\r\nMATTES\r\nPROJEKTMANAGEMENT GmbH\r\nAusschreibungen I ÖBA I Planung I Projektmanagement I \r\n\r\nMariahilfer Straße 101/3/47-48\r\n1060 Wien\r\nwww.pm-mattes.at <http://www.pm-mattes.at/>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n> Am 13.04.2026 um 20:23 schrieb office@ac-wohnart.at:\r\n> \r\n> Guten Abend, bitte kontaktieren Sie morgen meine Tochter Anastasia Covaciu unter +43 665 651 69396. Sie ist während der genannten Zeiten im Imperial Hotel anzutreffen. Bitte schreiben Sie ihr vorab eine Nachricht, damit Sie sich abstimmen können. Falls es zeitlich möglich ist, würde ich Sie bitten, morgen Vormittag vor oder, falls dies nicht möglich ist, nach der Besichtigung des Gebäudes einen Videoanruf mit mir zu führen, um Ihnen meine Vision noch einmal zu erläutern. Vielen Dank im Voraus und ich hoffe auf eine erfolgreiche Zusammenarbeit.\r\n\r\n",
+    "truncated": false,
+    "labels": [
+      "1: To respond"
+    ],
+    "category": null,
+    "folder": "Sandra Knöbl",
+    "thread_id": "<B57F6AD3-2D3F-4A8C-BF6C-9FD9078230A2@pm-mattes.at>",
+    "is_read": true,
+    "is_sent": false,
+    "attachments": [],
+    "note": ""
+  }
+]

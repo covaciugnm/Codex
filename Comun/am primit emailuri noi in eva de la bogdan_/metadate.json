@@ -1,0 +1,23 @@
+{
+  "id": "01a0a409-5f0e-7622-9fa7-84a30d7f3687",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789393126,
+  "updated_at": 1789396417,
+  "archived": 0,
+  "source": "vscode",
+  "title": "am primit emailuri noi in eva de la bogdan?",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 282985,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 100,
+  "message_count": 100,
+  "content_sha256": "0ff6308a48dcbe3c6be991b46cbed738bf861919f694a2c3552780fd8a631c5b",
+  "files_copied": 5,
+  "references_not_copied": 17
+}

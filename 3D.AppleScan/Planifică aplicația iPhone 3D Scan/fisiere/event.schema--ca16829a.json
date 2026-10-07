@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Eveniment de implementare EVA 3dScan",
+  "type": "object",
+  "required": ["event_id", "timestamp", "actor", "task", "event", "result", "artifacts", "next"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "actor": {"type": "string", "minLength": 1},
+    "task": {"type": "string", "minLength": 1},
+    "event": {"type": "string", "minLength": 1},
+    "result": {"type": "string"},
+    "artifacts": {"type": "array", "items": {"type": "string"}},
+    "next": {"type": "string", "minLength": 1},
+    "previous_line_sha256": {"type": ["string", "null"]},
+    "attempt": {"type": "integer", "minimum": 1},
+    "input_hashes": {"type": "object"}
+  },
+  "additionalProperties": true,
+  "$comment": "Contract propus pentru implementare. Jurnalele istorice ale autorilor au scheme echivalente declarate; validarea curenta manage parseaza JSONL si hashchain unde exista, nu valideaza integral acest JSON Schema."
+}

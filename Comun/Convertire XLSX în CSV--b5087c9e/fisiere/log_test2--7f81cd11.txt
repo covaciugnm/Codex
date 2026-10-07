@@ -1,0 +1,7 @@
+[de] qwen27b: de tradus 80 segmente
+[bn] qwen35b: de tradus 80 segmente
+[bn] qwen35b: 40/80 seg | ok 40 | 3.4 tok/s | 742 seg/h | ramas ~0.1 h
+[de] qwen27b: 40/80 seg | ok 40 | 1.5 tok/s | 603 seg/h | ramas ~0.1 h
+[bn] qwen35b: 80/80 seg | ok 79 | 4.4 tok/s | 1203 seg/h | ramas ~0.0 h
+[de] qwen27b: 80/80 seg | ok 80 | 2.3 tok/s | 871 seg/h | ramas ~0.0 h
+EXIT 0

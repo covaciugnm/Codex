@@ -1,0 +1,156 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\03_Apple_si_captura.md",
+    "status": "copiat",
+    "saved_path": "fisiere/03_Apple_si_captura--f64dd25c.md",
+    "bytes": 14905,
+    "sha256": "404ee0ca184bc8c5963ed984935165e6ddd50de5e3d1e1d85450db8ec8655378"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\04_Perceptie_6D_si_catalog.md",
+    "status": "copiat",
+    "saved_path": "fisiere/04_Perceptie_6D_si_catalog--80a1171c.md",
+    "bytes": 16634,
+    "sha256": "86fc9bee266dd50bb35da7e3c609d5a7ade0a0b4f0bdff8d19063c3183c0b76e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\05_Concurenta_si_performanta.md",
+    "status": "copiat",
+    "saved_path": "fisiere/05_Concurenta_si_performanta--7743cb10.md",
+    "bytes": 14948,
+    "sha256": "15ac688169da6091acc575f13f1a6b24cb05293bd3b371c661bf190409a93965"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\06_surse\\apple_sources.json",
+    "status": "copiat",
+    "saved_path": "fisiere/apple_sources--d495d84a.json",
+    "bytes": 9382,
+    "sha256": "a9522eb926069131d467a4b2cbf80aacfc9171270f2b9b97972e660047c1dcd8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\AUDIT_GUVERNANTA_R1.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT_GUVERNANTA_R1--1026c4ec.md",
+    "bytes": 8156,
+    "sha256": "459cac24b5a281896a85d6596e2dc78d6d8138a1012138769f424b627e37ef0a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\AUDIT_GUVERNANTA_R2.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT_GUVERNANTA_R2--52e710e9.md",
+    "bytes": 6100,
+    "sha256": "3840f13e9aa7559d86d8e21b471c932daecbfb36d3a0df576f48a699eaef9fc1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\AUDIT_LIVRARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT_LIVRARE--0249bdd0.md",
+    "bytes": 3737,
+    "sha256": "3a2814e3dbf9306f2d717b3097bdbe1fe98e334c8d2c090e53ae48571710cae2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\AUDIT_ROBOTICA_R1.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT_ROBOTICA_R1--e980d8ec.md",
+    "bytes": 8178,
+    "sha256": "7a2a7e906e1863accc7488b40119ece1888f7edbbfe0c6f214b5fdf7df091e5a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\AUDIT_ROBOTICA_R2.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT_ROBOTICA_R2--ac5c7889.md",
+    "bytes": 4266,
+    "sha256": "33db3a9515c531f211df075d3f8ed381542cd399a415ce3f0779e4a73ab6199c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\REMEDIERE_APPLE_R1.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REMEDIERE_APPLE_R1--f0943678.md",
+    "bytes": 2342,
+    "sha256": "86b2dea9f6c0b5b7f1aaad0414c8f1b5374e15289e10ee6eca6d6057690e8b4b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\fixtures\\governance_probe_r1.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/governance_probe_r1--f79652e0.cjs",
+    "bytes": 3416,
+    "sha256": "deb25ad1a779f9f55a92fc480407c02460ab2a279c83bbdace5e6d0e48e36334"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\fixtures\\governance_probe_r2.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/governance_probe_r2--cd421b32.cjs",
+    "bytes": 5370,
+    "sha256": "7d1438969b077460264ac02020feca577cea096e91044f2be8a9b4eb5d81334a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\fixtures\\governance_probe_r2_final.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/governance_probe_r2_final--9f43346a.cjs",
+    "bytes": 3651,
+    "sha256": "93241c4bf34267ff5b06b99345a1b02cd7934c0345f41a5aa9428b34ebf34907"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\governance_findings.json",
+    "status": "copiat",
+    "saved_path": "fisiere/governance_findings--5c5b9321.json",
+    "bytes": 3008,
+    "sha256": "f41e472a86c20c7ff14074c7be6731b0e734e89876f5a65d0d2b1a0d6b558f2a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\robotics_findings.json",
+    "status": "copiat",
+    "saved_path": "fisiere/robotics_findings--91cca175.json",
+    "bytes": 3438,
+    "sha256": "38af944c2d520326619dae53d296b349b0ebd414a5f33b0157ecbc2f3085bd2b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\02_proiect_tehnic\\01_iOS_si_pipeline.md",
+    "status": "copiat",
+    "saved_path": "fisiere/01_iOS_si_pipeline--017f27bc.md",
+    "bytes": 21924,
+    "sha256": "ce27767cd397377ea5342397f2c6f2826c457a53fcb3d0f78173d34ade087b64"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\02_proiect_tehnic\\02_date_UX_si_export.md",
+    "status": "copiat",
+    "saved_path": "fisiere/02_date_UX_si_export--8c34c7fc.md",
+    "bytes": 19030,
+    "sha256": "d3ed1ade4a8e093bce1fdfd736a623d72a91b6b142169b5fb928990b94c6afcc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\03_contracte\\ios_contract_checks.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ios_contract_checks--77fa902b.py",
+    "bytes": 8990,
+    "sha256": "2e1e4be84dc57cec13aacf9afdc7910813f41bb88cb5aebe4025a63961a5b5c1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\03_contracte\\ios_interfaces.swift",
+    "status": "copiat",
+    "saved_path": "fisiere/ios_interfaces--afffa6fc.swift",
+    "bytes": 9238,
+    "sha256": "c94efe50501c0d54bd74723cf00c43c500d3e1b853af193a726e19dd6edb63f1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\03_contracte\\local_schema.sql",
+    "status": "copiat",
+    "saved_path": "fisiere/local_schema--83b37033.sql",
+    "bytes": 5446,
+    "sha256": "144bfe983de420727df9b4b0278e4306fbf6984627c492cf7c1925a4af5a938e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\03_contracte\\project.schema.json",
+    "status": "copiat",
+    "saved_path": "fisiere/project.schema--28597f86.json",
+    "bytes": 8479,
+    "sha256": "712b501006e34801f03809f1bce5c26290ddb60aadbebdbf84154e7e56e61248"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\05_surse\\ios_design_sources.json",
+    "status": "copiat",
+    "saved_path": "fisiere/ios_design_sources--b9afc43c.json",
+    "bytes": 7269,
+    "sha256": "650ee4d4f96c759b510349f119b246a23ba46e2092815f9a3192269e1493da36"
+  }
+]

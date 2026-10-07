@@ -1,0 +1,23 @@
+{
+  "id": "01a0d24f-a0e0-7021-a0a0-8321844d85d9",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790234829,
+  "updated_at": 1790690557,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Audit și îmbunătățiri at-wohnart.at",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1742198,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 749,
+  "message_count": 749,
+  "content_sha256": "03495fbf00d0772310d4306c68b7142b264e2f9140946b7443075ff9b43a6035",
+  "files_copied": 13,
+  "references_not_copied": 36
+}

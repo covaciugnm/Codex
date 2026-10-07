@@ -1,0 +1,11 @@
+# P-CANON — control de producție al noilor documente de predare G01
+Root: D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000.
+ACTIVARE EXPLICITĂ ACUM, ID01a0d0d7-e865-7b71-9707-be8786099512. Începe și finalizează fără altă reluare. Ești producător canon, nu auditor independent al G01.
+În paralel cu remedierea P-EDITOR, verifică numai cele două documente noi ale managerului:
+07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r02.md
+07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md
+Citește-le integral; fixează hashurile inițiale/finale. Confruntă afirmațiile lor despre canon, mandate și limite cu cele patru documente factuale deja citite de tine, propriul control ROM-001-G01-F01-afiliere-control-r01.md, aprobarea beneficiarului, raportul A-CANON/META r01 și închiderea REZULTATE/ROM-001-G01-INCHIDERE-RETURN-r01.md. Reutilizează lecturile existente după verificarea versiunilor; nu declara recitiri noi neefectuate sau rulări de validator/restore.
+Scop: texte clare de predare, rol Marcel explicit arhive≠hotel, fără confundarea persoanelor/instituțiilor, fără inventarea soluției Margaux/biografiei/consimțământului; aceleași22decizii autorizate, nicio acceptare/predare viitoare prezentată drept realizată. Distinge componente r03 de depunere r02, fișa/trasabilitatea noi de istoricul r01. Planul nu acordă scor. Verifică fiecare afirmație materială relevantă celor două documente, cu acoperire și limite declarate, nu numai căutarea unui nume.
+Nu citi/edita componentele r03 în curs ale editorului; acestea vor fi verificate după predare. Nu modifica fișierele managerului, sursele, r02, rapoartele sau registrele. Nu crea subagenți, proză sau cercetare G02.
+Scrii prin apply_patch EXCLUSIV06_REGISTRU/MASURI/ROM-001-G01-HANDOFF-MANAGER-controle-r01.md: intrări/hashuri, teste și rezultate proprii, eventuale probleme/propuneri motivate, limite; fără scor/PASS independent sau închidere findings. Raport concis și suficient, fără reluarea inutilă a întregului95k.
+După finalizare: hash raport, predare exactă și scrieri oprite. Dacă fișierele de intrare se schimbă în timpul controlului, arată ambele hashuri și nu le declara identice. Managerul ține cele două documente neschimbate până la predarea ta, apoi orice edit final va avea control propriu/diferențe înregistrate.

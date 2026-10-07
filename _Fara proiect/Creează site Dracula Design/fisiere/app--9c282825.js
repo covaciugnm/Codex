@@ -1,0 +1,21 @@
+const products=[{"id":"rucsac","name":"Rucsac Business","category":"01 / BUSINESS COLLECTION","file":"rucsac-business","description":"O siluetă precisă, linii curate și accente roșii discrete. Un companion pentru ritmul zilelor de lucru.","detail":"Formă structurată · Detalii negre · Cusături contrastante"},{"id":"servieta","name":"Servietă Business","category":"02 / BUSINESS COLLECTION","file":"servieta-business","description":"Eleganță funcțională într-o formă clasică. Negrul profund și cusăturile roșii definesc o prezență sigură.","detail":"Mânere duble · Bareta de umăr · Organizare interioară"},{"id":"portofel","name":"Portofel Signature","category":"03 / EVERYDAY ESSENTIALS","file":"portofel","description":"Esențialul, păstrat aproape. Un obiect discret, definit de proporții, textură și semnătura Dracula Design.","detail":"Format pliabil · Compartimente pentru carduri · Monogramă discretă"},{"id":"geanta","name":"Geantă Tote","category":"04 / WOMEN’S COLLECTION","file":"geanta-tote","description":"Negru și roșu într-un echilibru expresiv. O siluetă structurată, cu mânere contrastante și o identitate inconfundabilă.","detail":"Siluetă structurată · Accente roșii · Semnătură metalică"},{"id":"esarfa","name":"Eșarfă Signature","category":"05 / WOMEN’S COLLECTION","file":"esarfa-signature","description":"Fluiditate, contrast și o notă de dramatism. Un accent roșu care schimbă întreaga ținută.","detail":"Compoziție roșu–negru · Monogramă · Drapaj fluid"}];
+document.getElementById('year').textContent=new Date().getFullYear();
+const dialog=document.getElementById('product-dialog');
+let lastTrigger=null;
+document.querySelectorAll('[data-product]').forEach(button=>button.addEventListener('click',()=>{
+ const product=products.find(item=>item.id===button.dataset.product);
+ if(!product)return;
+ lastTrigger=button;
+ const src='assets/produse/dracula-design-'+product.file+'.jpeg';
+ document.getElementById('dialog-image').src=src;
+ document.getElementById('dialog-image').alt=product.name+' — imagine originală completă';
+ document.getElementById('dialog-title').textContent=product.name;
+ document.getElementById('dialog-category').textContent=product.category;
+ document.getElementById('dialog-description').textContent=product.description;
+ document.getElementById('dialog-detail').textContent=product.detail;
+ document.getElementById('dialog-original').href=src;
+ dialog.showModal();document.body.classList.add('modal-open');
+}));
+dialog.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
+dialog.addEventListener('close',()=>{document.body.classList.remove('modal-open');lastTrigger?.focus();});

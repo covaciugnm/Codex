@@ -1,0 +1,393 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/tool-results/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790678014395.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_draft--42099128.txt",
+    "bytes": 60225,
+    "sha256": "cf1b837db5e48d05ccf5f8ebf0dece38dbfaf033d081c8ec1c546df233a0e065"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/donau-polita-somatie.md",
+    "status": "copiat",
+    "saved_path": "fisiere/donau-polita-somatie--8baf4ef2.md",
+    "bytes": 2380,
+    "sha256": "fcdf583b77c259e30d54856a0280317b86189ca0cdaf0c128d939d59a24d1ad4"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/lift-schallergasse-35.md",
+    "status": "copiat",
+    "saved_path": "fisiere/lift-schallergasse-35--3601d2e5.md",
+    "bytes": 3479,
+    "sha256": "d587aeaed30132347428a5138200af9071a665183e4b49b97b6e368646b95b84"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/site-uri-share-eva-contab.md",
+    "status": "copiat",
+    "saved_path": "fisiere/site-uri-share-eva-contab--2d0a2b67.md",
+    "bytes": 3255,
+    "sha256": "0dc17bb9ee844be0a24156bbdddf3981a6276bf1ffa58c66b1f380eea5e21f87"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/toms-ziviltechniker-schallergasse.md",
+    "status": "copiat",
+    "saved_path": "fisiere/toms-ziviltechniker-schallergasse--690ee437.md",
+    "bytes": 16052,
+    "sha256": "8d0a4d77d9fbc3961f61d3f1ef2c4562283b5cb086ec465c21dc4613e680ad22"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/scratchpad/anima_body.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/scratchpad/build_program.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/scratchpad/dxfout",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/scratchpad/fk2b_{i+1}.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/scratchpad/site",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/scratchpad/site/public",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/e54ac81b-bd69-4b41-b861-7be493447a8b/scratchpad/tmp2",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\e54ac81b-bd69-4b41-b861-7be493447a8b\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790678014395.txt is JSON with schema: {items: [{...}], total: number, limit: number, offset: number}; probe the structure with jq (type/length/keys), then extract and read the content in full with jq or python, then summarize and quote any key findings verbatim.",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pymupdf\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--aeae093c.py",
+    "bytes": 827604,
+    "sha256": "70cf202b4079a1e49205c4d88900d71235b9700d61a89c9382a6d3dc172b9888"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\pdfbase\\pdfdoc.py",
+    "status": "copiat",
+    "saved_path": "fisiere/pdfdoc--390a7399.py",
+    "bytes": 91182,
+    "sha256": "22019a5fae551f3b430b666e568e5ba0d199376b59474675f96a659de8cd0a86"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\pdfgen\\canvas.py",
+    "status": "copiat",
+    "saved_path": "fisiere/canvas--11f51dce.py",
+    "bytes": 83283,
+    "sha256": "8e4256dbca70956dd511dc6f2f31e7b6908bcb607c6e5633d285c232563b6262"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\reportlab\\platypus\\doctemplate.py",
+    "status": "copiat",
+    "saved_path": "fisiere/doctemplate--f43afbcb.py",
+    "bytes": 54975,
+    "sha256": "15d6585be6c6e26e8db33e8df1836063e643c7cbd53c5a20a7d1a2b10a05d717"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\00b05399-0272-4746-8054-d798b02b5d84\\scratchpad\\ODAFileConverter_27.1.msi",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e54ac81b-bd69-4b41-b861-7be493447a8b\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e54ac81b-bd69-4b41-b861-7be493447a8b\\scratchpad\\build_program.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e54ac81b-bd69-4b41-b861-7be493447a8b\\scratchpad\\build_run.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e54ac81b-bd69-4b41-b861-7be493447a8b\\scratchpad\\dosar_04_ma37.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\e54ac81b-bd69-4b41-b861-7be493447a8b\\scratchpad\\oda",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/02. Autorizatie + Planse oficiale/Arhiva Wien 2026.09.28 - Planse istorice (poze)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026-09-28 Fragekatalog 2 - unterzeichnet von TOMS.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-28 Fragekatalog 2 - unterzeichnet von TOMS--10b24481.pdf",
+    "bytes": 292488,
+    "sha256": "b9573fd9282bdd91081fa17dc616e5ad4c57f3df16464234e6b5dc1eca6d42e4"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026-09-25 Program Viena - Dosare intalniri/*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026-09-25 Program Viena - Dosare intalniri/00*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026-09-25 Program Viena - Dosare intalniri/01*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026-09-25 Program Viena - Dosare intalniri/03*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026-09-25 Program Viena - Dosare intalniri/04*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026-09-25 Program Viena - Dosare intalniri/06*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/Planse 2026.09.08 DE (indexiert)/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/Planse 2026.09.08 DE (indexiert)/002_DE-A.02 Grundriss Erdgeschoss.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/002_DE-A.02 Grundriss Erdgeschoss--0afc2b88.pdf",
+    "bytes": 315833,
+    "sha256": "2b7d06d4ab0dd8416a21b169985ae0311b1ee5cec21d680d6f62f096ba027167"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\02. Autorizatie + Planse oficiale\\Arhiva Wien 2026.09.28 - Planse istorice (poze)\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-09-28 Fragekatalog 2 - unterzeichnet von TOMS.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-28 Fragekatalog 2 - unterzeichnet von TOMS--10b24481.pdf",
+    "bytes": 292488,
+    "sha256": "b9573fd9282bdd91081fa17dc616e5ad4c57f3df16464234e6b5dc1eca6d42e4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026-09-25 Program Viena - Dosare intalniri\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026-09-25 Program Viena - Dosare intalniri\\Documente contabile zbor 25.09.2026 (CESIRO TRADING)\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026-09-25 Program Viena - Dosare intalniri\\Documente contabile zbor 25.09.2026 (CESIRO TRADING)\\2026-09-24 Airpaz Receipt 1037703518 - CESIRO TRADING SRL - OS710 SBZ-VIE - 1477.40 RON.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-24 Airpaz Receipt 1037703518 - CESIRO TRADING S--f8b003e4.pdf",
+    "bytes": 45352,
+    "sha256": "4cb9a807ea4d4e71ee5078ca8bccee59d3adbd7733c4661f68f1edd695195771"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026-09-25 Program Viena - Dosare intalniri\\Zbor anulat Animawings 13TQQ8\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026-09-25 Program Viena - Dosare intalniri\\Zbor anulat Animawings 13TQQ8\\03 - 2026-09-24 Cerere factura Airpaz 1037703518 pe CESIRO TRADING SRL.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/03 - 2026-09-24 Cerere factura Airpaz 1037703518 pe CES--03d245b3.txt",
+    "bytes": 1646,
+    "sha256": "02d47a7efae07419ff8dea89612da1d3749a55f1a716cda3aa00adbd91bdac31"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026-09-25 Program Viena - Dosare intalniri\\Zbor anulat Animawings 13TQQ8\\05 - 2026-09-24 Cerere factura Austrian Airlines - bilet 257-2173485823 + loc 36 EUR - CESIRO TRADING.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/05 - 2026-09-24 Cerere factura Austrian Airlines - bile--3c215309.txt",
+    "bytes": 5175,
+    "sha256": "d680eb59bc7d0996504cab5713b480b2dddbe335d505b1e2c2ef26865ef7867d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026-09-28 Servicii platite pentru cladire Schallergasse 35.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-28 Servicii platite pentru cladire Schallergass--36ab33d9.xlsx",
+    "bytes": 11401,
+    "sha256": "112c4216c1f8b7d756a5b2b8e2dc34f351ffc51032cceaef7af33683cf5ec019"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\Facturi neachitate\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\Facturi neachitate\\2026-09-03 Attensam Rechnung 34642 Winterservice 2026-27 - 653,12 EUR (640,06 Skonto bis 30.09).pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\2026-09-25 Program Viena - Dosare intalniri\\\\00 - Program zi + trasee + tabel intalniri - 25.09.2026.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/00 - Program zi + trasee + tabel intalniri - 25.09.2026--6a64a8eb.pdf",
+    "bytes": 87635,
+    "sha256": "b39a55b3c5bc7c145e409ed22d05d0f3456c785b86066fb1de4269cb1be3e950"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\2026-09-25 Program Viena - Dosare intalniri\\\\01 - 08-00 Raiffeisen RLB NOe-Wien - Mag. Madl.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/01 - 08-00 Raiffeisen RLB NOe-Wien - Mag. Madl--4d4f92d6.pdf",
+    "bytes": 102096,
+    "sha256": "99dd22bedb744a335107430067b32f5333abc27e533deb49f46b4527057cae53"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\2026-09-25 Program Viena - Dosare intalniri\\\\02 - 09-30 BAU-WERTE - DI Stefan Lechner (BauKG).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/02 - 09-30 BAU-WERTE - DI Stefan Lechner (BauKG)--2a974699.pdf",
+    "bytes": 68114,
+    "sha256": "e04709f09306edb76efab788d0e947d2d9fdfd8dd6d28a6b62664638d6a9e036"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\2026-09-25 Program Viena - Dosare intalniri\\\\03 - 10-00 LEBE Bau - Bmstr. DI Beranek (GU).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/03 - 10-00 LEBE Bau - Bmstr. DI Beranek (GU)--2a5291f5.pdf",
+    "bytes": 93181,
+    "sha256": "357ff9ec4ddb6fee367b77941d4bab55ac2e984dceb388542fb38434a3a03222"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\2026-09-25 Program Viena - Dosare intalniri\\\\04 - 11-30 MA 37 Planeinsicht - Spetterbruecke 4.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/04 - 11-30 MA 37 Planeinsicht - Spetterbruecke 4--ca50e90f.pdf",
+    "bytes": 95335,
+    "sha256": "2b52003da8e2ff12b233070ada3c25e37ae944d2b8b5191b31b23707b884c1d3"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\2026-09-25 Program Viena - Dosare intalniri\\\\05 - 13-00 OBENAUF - Bmstr. DI Stefan Lechner (GU).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/05 - 13-00 OBENAUF - Bmstr. DI Stefan Lechner (GU)--c96e567a.pdf",
+    "bytes": 89101,
+    "sha256": "089a8251d334f4b0ad90907d1fb11edb3210cf63ccaa8812b6212512e47b23f1"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\2026-09-25 Program Viena - Dosare intalniri\\\\06 - Comparativ GU (Generalunternehmer) - Stand 24.09.2026.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/06 - Comparativ GU (Generalunternehmer) - Stand 24.09.2--1f054fda.pdf",
+    "bytes": 80194,
+    "sha256": "9f2726c7ce70764355aec205bfc01a7dc648261ebdcf4e30512ec1d594888f07"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\10. Banci + Extrase de cont\\\\2026-09-28 Servicii platite pentru cladire Schallergasse 35.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-28 Servicii platite pentru cladire Schallergass--36ab33d9.xlsx",
+    "bytes": 11401,
+    "sha256": "112c4216c1f8b7d756a5b2b8e2dc34f351ffc51032cceaef7af33683cf5ec019"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\10. Banci + Extrase de cont\\\\Facturi neachitate\\\\2026-09-03 Attensam Rechnung 34642 Winterservice 2026-27 - 653,12 EUR (640,06 Skonto bis 30.09).pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\d page_files\\",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\dt\\",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "austrian-airlines-contact.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "backend/app.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://kotlo.at/ratgeber/planeinsicht-ma37-wien",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://stroeck-schwedenplatz-1010-wien.brunch-lunch-dinner.at/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://stroeck.at/filialen/stroeck-schwedenplatz-u-bahn/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wien.open-closed.at/aida-offnungszeiten-der-rotenturmstrasse-24",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ac-wohnart.at/pages",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.best-protect.at/leistungen/wiener-rattenverordnung",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.falter.at/lokal/6756/cafe-motto-am-fluss",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.jusline.at/gesetz/stvo/paragraf/93",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.purissima.at/amtliche-rattennachschau.php",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/Dokumente/Gemeinderecht/GEMRE_WI_90101_S410_000/GEMRE_WI_90101_S410_000.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.schauerleute.at",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/gesundheit/ratten-bekaempfung-pflichten",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakt/ma37-baupolizei-planarchiv-bewilligte-plaene",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "public/pages.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "site-uri-share-eva-contab.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

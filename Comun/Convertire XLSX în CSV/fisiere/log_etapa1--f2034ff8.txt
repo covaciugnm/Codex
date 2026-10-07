@@ -1,0 +1,6 @@
+[bn] qwen27b: de tradus 30355 segmente
+[ur] qwen35b: de tradus 30075 segmente
+[ur] qwen35b: 40/30075 seg | ok 40 | 7.2 tok/s | 1819 seg/h | ramas ~16.5 h
+[ur] qwen35b: 69/30075 seg | ok 69 | 8.5 tok/s | 1083 seg/h | ramas ~27.7 h
+[bn] qwen27b: 40/30355 seg | ok 37 | 2.7 tok/s | 377 seg/h | ramas ~80.4 h
+[ur] qwen35b: 93/30075 seg | ok 92 | 8.6 tok/s | 738 seg/h | ramas ~40.6 h

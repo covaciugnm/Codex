@@ -1,0 +1,10 @@
+{
+  "id": "01a0d0d9-1f95-7211-8093-c26e28e6ebee",
+  "resumed": {
+    "status": "pending_init"
+  },
+  "submission": {
+    "submission_id": "01a0d343-1444-7dd0-9e8d-4e801035e2f6"
+  },
+  "message": "ACTIVARE EXPLICITĂ ACUM — începe și finalizează recuperarea reală AFTER G01 r02, fără altă reluare. Citește și aplică integral D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/PROMPTURI/ROM-001-G01-P-SYSTEMS-RESTORE-AFTER-r02.md. Snapshot final D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\08_ARHIVA\\ROM-001-G01\\r02-after-audit; indexSHA256 23674baa5bd9bb264d751cf7638f286cea265ce66b72a8a7e5c674bc2bedea4b; 968intrări verificate integral de manager. Copii plate index/sidecar/proveniență:06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-after. Recipisă/verificare:REZULTATE/ROM-001-G01-AFTER-ARCHIVE-receipt-r02.json și -verification-r02.json. Rezultat înghețat result.json în snapshot și REZULTATE/ROM-001-G01-FINAL-GATE-r02.json înatelier: PASS/exit0 fărăerori, contract 1f08388e16baa2320585048ddcc7ae18b6b11732a29bb5938f19597695c62398. Nu simulaPASS: copiază efectiv doar snapshot/sources într-un directorunic09_RECUPERARI, valideazătoatecăile/copiile, rulează engineRECUPERAT și comparăobiectul întreg cu snapshot/result.json. Păstrează tot; nu edita original/infrastructură/site. Scrieri numai directorul recuperat nou și rapoarteleRESTORE-AFTER-r02.md/.json. Nu faceauditliterar/4thmeta. Predărezultatexacte/hashuri, directorul, numărfișiere/bytes și confirmăoprirea."
+}

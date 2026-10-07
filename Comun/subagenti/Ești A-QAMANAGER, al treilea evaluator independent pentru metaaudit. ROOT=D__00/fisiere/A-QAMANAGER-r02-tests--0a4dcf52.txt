@@ -1,0 +1,173 @@
+A-QAMANAGER — jurnal propriu de verificare r02
+
+Rezultatele de mai jos sunt observații executate, nu aprobări editoriale. Controalele sintetice sunt marcate TEST și sunt separate de analiza rapoartelor reale. Declarațiile privind testele primare rămân atribuite auditorilor lor.
+
+{
+  "kind": "VERIFICARI PROPRII DE METAAUDIT r02; nu calibrare si nu audit de roman",
+  "reviewer_agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "deliverable_id": "SYS-001",
+  "structural_read_at": "2026-09-24T05:52:45+03:00",
+  "contract": {
+    "id": "SYS-001",
+    "files": 68,
+    "evidence_files": 122,
+    "contract": {
+      "path": "06_REGISTRU/CONTRACTE/SYS-001-r02.json",
+      "sha256": "904ec22c95a60d7295bd85642c33c49d1e1d340abf95e25538481fe82c83d637"
+    },
+    "dependencies": [],
+    "producers": [
+      "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+      "01a0d0d9-1f95-7211-8093-c26e28e6ebee"
+    ],
+    "registered_audits": [
+      "05_AUDIT/SYS-001/A-GOVERNANCE-r02.json",
+      "05_AUDIT/SYS-001/A-SYSTEMS-r02.json"
+    ]
+  },
+  "reports": [
+    {
+      "path": "05_AUDIT/SYS-001/A-GOVERNANCE-r02.json",
+      "sha256": "eb73b17db1a9a0d103d61552ce70138b03abc74af5a151ba5df2d4abdc7f8e59",
+      "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "role": "A-GOVERNANCE",
+      "criteria_evidence_count": 23,
+      "all_schema_hash_localization_checks": true,
+      "average": "9657/10",
+      "average_decimal": 965.7,
+      "verdict": "PASS",
+      "open_findings": [],
+      "supplements": [
+        {
+          "path": "05_AUDIT/SYS-001/A-GOVERNANCE-r02.md",
+          "sha256": "6624250634959e3a86ccf5722d019f7d24a9a2d3fc2950e249174d8ad7628a8c"
+        }
+      ]
+    },
+    {
+      "path": "05_AUDIT/SYS-001/A-SYSTEMS-r02.json",
+      "sha256": "8fbbb12e49eae3c57d4304ef08f18a486c47680692cd60d2356a80c39bb120bd",
+      "reviewer_agent_id": "01a0d0ee-a18e-78a1-a069-9e87df0efc87",
+      "role": "A-SYSTEMS",
+      "criteria_evidence_count": 31,
+      "all_schema_hash_localization_checks": true,
+      "average": "1899/2",
+      "average_decimal": 949.5,
+      "verdict": "RETURN",
+      "open_findings": [
+        "SYS-A-SYSTEMS-r02-F05",
+        "SYS-A-SYSTEMS-r02-F06"
+      ],
+      "supplements": [
+        {
+          "path": "05_AUDIT/SYS-001/A-SYSTEMS-r02.md",
+          "sha256": "e26f641e1b0c8f100a538ca390436d85aa55188c9a69d6eeff77d76fc34fff60"
+        },
+        {
+          "path": "05_AUDIT/SYS-001/A-SYSTEMS-r02-tests.txt",
+          "sha256": "191f688cd66490d256c1c300bc2ca6b929bc50fce98cad9a9d3d6d5651d6d5d1"
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "id": "SYS-001",
+      "round": "r02-before-audit",
+      "entries": 197,
+      "index_sha256": "c2712ccd86e3431219a625bed43c807a46f4424c3adfafff4bfbe19df8158f9d",
+      "all_copies_and_inventory_correct": true
+    },
+    {
+      "id": "SYS-001",
+      "round": "r01-after-audit",
+      "entries": 180,
+      "index_sha256": "d73d773429e3dce05c8fc9169672eb8e42c82829669cdb941dfe4b6aea3f496a",
+      "all_copies_and_inventory_correct": true
+    }
+  ],
+  "structural_errors": [],
+  "read_only_method": "Parser strict v2 si verificatorul real importat cu -B; comparatie integrala contract/proiectie/roluri/criterii/ponderi/bundle; SHA-256 al tuturor intrarilor si suplimentelor; verificarea existentei fiecarei linii/ancore; comparatie MD-JSON; medii rationale exacte; toate intrarile indexurilor citite cu hash, marime, inventar si sidecar; rapoarte r01 comparate cu copiile after-audit.",
+  "stability": {
+    "first_read": "2026-09-24T05:45:47+03:00",
+    "repeat_read": "2026-09-24T05:52:45+03:00",
+    "global_inputs": 255,
+    "changes": 0
+  },
+  "limitations": "Control structural integral, semantic pe probe decisive, nu duplicarea integrala a specialistului. Registrele live au fost citite operational, nu sunt probe fixate prin hash in meta. Nicio scriere in intrari, arhive, staging sau alte fisiere; nicio poarta agregata rulata ca aprobare.",
+  "history": [
+    {
+      "capture": "history-r02-01",
+      "sources": 9,
+      "records": 850,
+      "messages": 171,
+      "all_output_hashes_and_regenerated_md_match": true,
+      "raw_source_prefixes_not_rechecked": true
+    },
+    {
+      "capture": "history-r02-02",
+      "sources": 9,
+      "records": 989,
+      "messages": 190,
+      "all_output_hashes_and_regenerated_md_match": true,
+      "raw_source_prefixes_not_rechecked": true
+    }
+  ],
+  "decisive_own_tests": {
+    "synthetic_label": "TEST; executie exclusiv in memorie, fara scrieri de fixture",
+    "source": "06_REGISTRU/export_istoric_observabil.py:L62-L63; ramura AST extrasa din codul contractual",
+    "prefix_cases": [
+      {
+        "case": "TEST-normal",
+        "input_bytes": 14,
+        "declared_bytes": 14,
+        "real_prefix": true
+      },
+      {
+        "case": "TEST-partial-tail",
+        "input_bytes": 27,
+        "declared_bytes": 14,
+        "real_prefix": true
+      },
+      {
+        "case": "TEST-no-LF",
+        "input_bytes": 13,
+        "declared_bytes": 14,
+        "real_prefix": false
+      },
+      {
+        "case": "TEST-empty",
+        "input_bytes": 0,
+        "declared_bytes": 1,
+        "real_prefix": false
+      }
+    ],
+    "path_analysis": [
+      {
+        "role": "../ESCAPED",
+        "inside_round": false,
+        "inside_root": true
+      },
+      {
+        "role": "../../../../../OUTSIDE_ROOT/ESCAPED",
+        "inside_round": false,
+        "inside_root": false
+      }
+    ],
+    "path_limit": "Calcul pe cai in memorie; nu este reluare end-to-end si nu s-a creat symlink. H07 end-to-end apartine jurnalului A-SYSTEMS.",
+    "traceability_named_methods": 14,
+    "traceability_methods_resolved": 14,
+    "primary_journal_json_parsed": {
+      "core": 57,
+      "history": 8,
+      "contract_rows_rehashed": 190
+    },
+    "primary_suite_inventory": {
+      "test_gatekeeper": 168,
+      "test_archive_round": 65,
+      "total": 233
+    },
+    "scope": "233+17 teste raportate de A-SYSTEMS, nu rulate din nou de QA; citite procedurile si rezultatele decisive. Exporturile existente au fost regenerate in memorie din JSONL si comparate cu MD; prefixele platformei brute nu au fost recitite de QA."
+  }
+}
+

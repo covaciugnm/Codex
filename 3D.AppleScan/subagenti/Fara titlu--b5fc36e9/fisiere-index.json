@@ -1,0 +1,30 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\00_management\\cad_events.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/cad_events--9beae387.jsonl",
+    "bytes": 4538,
+    "sha256": "69522b052291fd25a02b41b6640fd03cc9b79ea3a5bba00cb77d7a6089223179"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\04_cad_printare\\capitol_cad_metrologie_printare.md",
+    "status": "copiat",
+    "saved_path": "fisiere/capitol_cad_metrologie_printare--4dd78a38.md",
+    "bytes": 33848,
+    "sha256": "d915a4a22677174c2d604017785d23ea18859b814c8dee12a9b3a8198aa595da"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\04_cad_printare\\matrice_formate.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/matrice_formate--64a0beca.csv",
+    "bytes": 5348,
+    "sha256": "4ed77d8be2c52b13c1a2cc1fa073e08cc31acd49b21cc9de438a73ed96577448"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\07_surse\\cad_sources.json",
+    "status": "copiat",
+    "saved_path": "fisiere/cad_sources--6297f8ab.json",
+    "bytes": 15001,
+    "sha256": "2109b5010f06f1a2d086e6a52d21819c8d63ea407815cd2a93fe3001ab8b4a3f"
+  }
+]

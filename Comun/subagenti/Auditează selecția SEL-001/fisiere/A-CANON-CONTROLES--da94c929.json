@@ -1,0 +1,2700 @@
+{
+  "control_kind": "independent_A-CANON_G01_r01",
+  "audit_id": "8ca0f5da-96e7-49f6-8abb-534d0d965170",
+  "reviewer_agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+  "deliverable_id": "ROM-001-G01",
+  "version_id": "r01",
+  "scope": "Rezultate proprii efectiv executate înainte de fixarea MD/JSON. Nu este gate G01, metaaudit ori control al celuilalt raport. Verificarea finală a JSON-ului se execută separat după scriere, fără a rescrie acest supliment.",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/ROM-001-G01-r01.json",
+    "sha256": "07110637be555cb455727593ebdf9ef88de1f27c12b5a389f53e79544bd6cebe"
+  },
+  "independence": {
+    "producer_agent_ids": [
+      "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+      "01a0d0d7-e865-7b71-9707-be8786099512",
+      "01a0d1c4-17bb-7e03-93a3-e542824bc776",
+      "01a0d0d9-1f95-7211-8093-c26e28e6ebee"
+    ],
+    "reviewer_distinct": true,
+    "live_authorization_checked": true,
+    "stable_identity_source": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/agents.json",
+    "qualification": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md:L92-L112; nominal 11/11, nerepetată",
+    "other_G01_audit_read": false
+  },
+  "human_reading": {
+    "all_product_files": [
+      {
+        "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r02.md",
+        "bytes": 20351,
+        "lines": 163,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r02.md",
+        "bytes": 37588,
+        "lines": 272,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+        "bytes": 26036,
+        "lines": 170,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+        "bytes": 2867,
+        "lines": 14,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r01.md",
+        "bytes": 8819,
+        "lines": 42,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+        "bytes": 20327,
+        "lines": 132,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+        "bytes": 14118,
+        "lines": 85,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+        "bytes": 31554,
+        "lines": 266,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+        "bytes": 20907,
+        "lines": 131,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+        "bytes": 5522,
+        "lines": 31,
+        "read": "integral, toate liniile"
+      },
+      {
+        "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+        "bytes": 6793,
+        "lines": 28,
+        "read": "integral, toate liniile"
+      }
+    ],
+    "H": {
+      "method": "DOCX ZIP word/document.xml; //w:body//w:p; w:t concatenate; paragraphs nonempty numbered from 1. Human reading of targeted outputs, not complete H.",
+      "paragraph_count": 650,
+      "ranges": [
+        "P1-P5",
+        "P13",
+        "P25-P42",
+        "P63",
+        "P94",
+        "P117",
+        "P122",
+        "P124",
+        "P128-P129",
+        "P132",
+        "P137",
+        "P141",
+        "P144-P150",
+        "P153",
+        "P155-P157",
+        "P160",
+        "P166",
+        "P168",
+        "P176",
+        "P189",
+        "P214-P215",
+        "P242",
+        "P252",
+        "P256",
+        "P260",
+        "P290",
+        "P292",
+        "P364",
+        "P396-P401",
+        "P409",
+        "P425",
+        "P431",
+        "P481",
+        "P524",
+        "P536",
+        "P552",
+        "P554",
+        "P565",
+        "P577",
+        "P638",
+        "P647",
+        "P653-P660",
+        "P674",
+        "P678",
+        "P687",
+        "P704",
+        "P707",
+        "P709",
+        "P713",
+        "P742",
+        "P754",
+        "P757",
+        "P767",
+        "P783",
+        "P853",
+        "P860",
+        "P872",
+        "P888",
+        "P906",
+        "P910",
+        "P915",
+        "P924",
+        "P934",
+        "P938",
+        "P942-P943",
+        "P966",
+        "P973",
+        "P984",
+        "P990",
+        "P995",
+        "P1043-P1049",
+        "P1068",
+        "P1071",
+        "P1077",
+        "P1079",
+        "P1086",
+        "P1094",
+        "P1101",
+        "P1112",
+        "P1131",
+        "P1145",
+        "P1157",
+        "P1172",
+        "P1191",
+        "P1220-P1233",
+        "P1258",
+        "P1277",
+        "P1294",
+        "P1340",
+        "P1345",
+        "P1362",
+        "P1366-P1367",
+        "P1370",
+        "P1372-P1380",
+        "P1384-P1385",
+        "P1389",
+        "P1394-P1395",
+        "P1399",
+        "P1404",
+        "P1406-P1407",
+        "P1409-P1410",
+        "P1412",
+        "P1425",
+        "P1486",
+        "P1523",
+        "P1525",
+        "P1536-P1537",
+        "P1540",
+        "P1547",
+        "P1555-P1556",
+        "P1570",
+        "P1573",
+        "P1592",
+        "P1639",
+        "P1651-P1669",
+        "P1678",
+        "P1688",
+        "P1695",
+        "P1715",
+        "P1720",
+        "P1782",
+        "P1787",
+        "P1791-P1799",
+        "P1801",
+        "P1804",
+        "P1827-P1829",
+        "P1833",
+        "P1837",
+        "P1878",
+        "P1883",
+        "P1897",
+        "P1900",
+        "P1925",
+        "P1929",
+        "P1948",
+        "P1962",
+        "P1979-P1980",
+        "P2007",
+        "P2019",
+        "P2060",
+        "P2062",
+        "P2115",
+        "P2171",
+        "P2182",
+        "P2225",
+        "P2227",
+        "P2232",
+        "P2234-P2235",
+        "P2237",
+        "P2240",
+        "P2256",
+        "P2268",
+        "P2272",
+        "P2280",
+        "P2283",
+        "P2289",
+        "P2308",
+        "P2340",
+        "P2345",
+        "P2349",
+        "P2370",
+        "P2381",
+        "P2389",
+        "P2413",
+        "P2417",
+        "P2423-P2426",
+        "P2430",
+        "P2432-P2433",
+        "P2446",
+        "P2449",
+        "P2495-P2498",
+        "P2513",
+        "P2519",
+        "P2542",
+        "P2576",
+        "P2591-P2598",
+        "P2618",
+        "P2622-P2625",
+        "P2638",
+        "P2707",
+        "P2710",
+        "P2725",
+        "P2745",
+        "P2761",
+        "P2768",
+        "P2772",
+        "P2778",
+        "P2798",
+        "P2818",
+        "P2835",
+        "P2870-P2880",
+        "P2885",
+        "P2895-P2898",
+        "P2900",
+        "P2903",
+        "P2918-P2925",
+        "P2946-P2947",
+        "P2984",
+        "P2996",
+        "P3005",
+        "P3010",
+        "P3019",
+        "P3028",
+        "P3030",
+        "P3060",
+        "P3066",
+        "P3081",
+        "P3132",
+        "P3135",
+        "P3147",
+        "P3158",
+        "P3170",
+        "P3196-P3202",
+        "P3245-P3258",
+        "P3261-P3273",
+        "P3301",
+        "P3309",
+        "P3331",
+        "P3339",
+        "P3344-P3351",
+        "P3355",
+        "P3357",
+        "P3375-P3377",
+        "P3379",
+        "P3394-P3398",
+        "P3438-P3450",
+        "P3461",
+        "P3466",
+        "P3469",
+        "P3484",
+        "P3486",
+        "P3504-P3511",
+        "P3538-P3556",
+        "P3560-P3563",
+        "P3569",
+        "P3573",
+        "P3580-P3595",
+        "P3600-P3609",
+        "P3614",
+        "P3629",
+        "P3631",
+        "P3635",
+        "P3639",
+        "P3649",
+        "P3662",
+        "P3675-P3680",
+        "P3684",
+        "P3712-P3735",
+        "P3750",
+        "P3754",
+        "P3759-P3761",
+        "P3763-P3764",
+        "P3777",
+        "P3783",
+        "P3785",
+        "P3798",
+        "P3809",
+        "P3815-P3818",
+        "P3827",
+        "P3833-P3868",
+        "P3871-P3872",
+        "P3879-P3893",
+        "P3910",
+        "P3923-P3955",
+        "P3957",
+        "P3969-P3977",
+        "P3979-P3984"
+      ]
+    },
+    "auxiliaries": [
+      {
+        "id": "HB",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HB.docx",
+        "read": "P1-P160 integral"
+      },
+      {
+        "id": "HP",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HP.docx",
+        "read": "P1-P116 integral; P45-P91 reluate după trunchiere"
+      },
+      {
+        "id": "AC",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/AC.docx",
+        "read": "P1-P124 integral"
+      },
+      {
+        "id": "HBT",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt",
+        "read": "L1-L189 integral; L74-L130 reluate după trunchiere"
+      },
+      {
+        "id": "HC",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HC.txt",
+        "read": "L368-L382, L468-L476, L570-L576, L588-L596, L680-L688"
+      },
+      {
+        "id": "HCX",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/HCX.docx",
+        "read": "P1-P8, P90-P94"
+      },
+      {
+        "id": "OR",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/OR.txt",
+        "read": "L1-L24"
+      },
+      {
+        "id": "ORX",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/ORX.docx",
+        "read": "P1-P12"
+      },
+      {
+        "id": "WC",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/WC.txt",
+        "read": "L1-L100; rândurile de numărătoare recalculate mecanic"
+      },
+      {
+        "id": "SCORES",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/SCORES.txt",
+        "read": "L118-L130"
+      },
+      {
+        "id": "TR_PROMPT",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/TR_PROMPT.md",
+        "read": "L1-L25; document istoric, nu instrucțiune activă"
+      },
+      {
+        "id": "SITE_APP",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+        "read": "L39-L45; niciun acces la site-ul online"
+      },
+      {
+        "id": "STRATEGIE",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/STRATEGIE_date_plan.json",
+        "read": "Obiect DB-047; unicitate ID și titlu calculată pe books, câte o apariție"
+      },
+      {
+        "id": "HT/WCX/SCX",
+        "read": "HT comparat mecanic în întregime; WCX/SCX numai hash în această rundă, fără revendicarea unei lecturi semantice integrale"
+      }
+    ],
+    "historical_exports": "Index fix și P-CANON.jsonl: control mecanic de acoperire și text, plus P-CANON.md:L208-L232 citit. Fără rawlogs; fără a reproduce jurnalul integral.",
+    "historical_other_novels": "Nu au fost recitite; nu certificarea istoriei tuturor seriilor, nici comparație proprie nouă V1/Aurora."
+  },
+  "integrity": {
+    "checked_at": "2026-09-24T10:38:30.6030855+03:00",
+    "contract_sha256": "07110637be555cb455727593ebdf9ef88de1f27c12b5a389f53e79544bd6cebe",
+    "current_contract_projection_equals_fixed_semantically": true,
+    "extracted_serialization_sha256": "2b78d886bba31ef6e89b7f8df0adefc40c1596dae03714ab69e9bfa74eb190a5",
+    "note": "Digestul serializării extrase diferă; nu este digestul contractului fix. S-a comparat obiectul integral, nu s-a înlocuit referința contractuală.",
+    "product_count": 11,
+    "evidence_count": 126,
+    "checked_count": 137,
+    "failures": [],
+    "records": [
+      {
+        "current": "fb26a4a6bdfa76da4d0a66cc8fac9b75677ee2f299e014cc3de666978c9e78c7",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r02.md",
+        "snapshot": "fb26a4a6bdfa76da4d0a66cc8fac9b75677ee2f299e014cc3de666978c9e78c7",
+        "declared": "fb26a4a6bdfa76da4d0a66cc8fac9b75677ee2f299e014cc3de666978c9e78c7"
+      },
+      {
+        "current": "6ee676184ae2d21bbdffb57459158e18fae35ffb0ec3f2a7d7de4533d0b2b4a4",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r02.md",
+        "snapshot": "6ee676184ae2d21bbdffb57459158e18fae35ffb0ec3f2a7d7de4533d0b2b4a4",
+        "declared": "6ee676184ae2d21bbdffb57459158e18fae35ffb0ec3f2a7d7de4533d0b2b4a4"
+      },
+      {
+        "current": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+        "snapshot": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc",
+        "declared": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc"
+      },
+      {
+        "current": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+        "snapshot": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f",
+        "declared": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f"
+      },
+      {
+        "current": "04666f05d44e796d8ed6be5196930e0e164f76403e76d9c724239cfad1ea859f",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r01.md",
+        "snapshot": "04666f05d44e796d8ed6be5196930e0e164f76403e76d9c724239cfad1ea859f",
+        "declared": "04666f05d44e796d8ed6be5196930e0e164f76403e76d9c724239cfad1ea859f"
+      },
+      {
+        "current": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab",
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+        "snapshot": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab",
+        "declared": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab"
+      },
+      {
+        "current": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c",
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+        "snapshot": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c",
+        "declared": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c"
+      },
+      {
+        "current": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0",
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+        "snapshot": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0",
+        "declared": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0"
+      },
+      {
+        "current": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc",
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+        "snapshot": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc",
+        "declared": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc"
+      },
+      {
+        "current": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801",
+        "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+        "snapshot": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801",
+        "declared": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801"
+      },
+      {
+        "current": "8a08f2358479913c3c998d6110a7d00aabc4cbf0545d9c8bd32f94a1cbf02c39",
+        "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+        "snapshot": "8a08f2358479913c3c998d6110a7d00aabc4cbf0545d9c8bd32f94a1cbf02c39",
+        "declared": "8a08f2358479913c3c998d6110a7d00aabc4cbf0545d9c8bd32f94a1cbf02c39"
+      },
+      {
+        "current": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+        "snapshot": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+        "declared": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636"
+      },
+      {
+        "current": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+        "snapshot": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+        "declared": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3"
+      },
+      {
+        "current": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HB.docx",
+        "snapshot": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+        "declared": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9"
+      },
+      {
+        "current": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HC.txt",
+        "snapshot": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+        "declared": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3"
+      },
+      {
+        "current": "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/AC.docx",
+        "snapshot": "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+        "declared": "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b"
+      },
+      {
+        "current": "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HT.txt",
+        "snapshot": "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+        "declared": "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389"
+      },
+      {
+        "current": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt",
+        "snapshot": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+        "declared": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31"
+      },
+      {
+        "current": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HP.docx",
+        "snapshot": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+        "declared": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156"
+      },
+      {
+        "current": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/OR.txt",
+        "snapshot": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+        "declared": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226"
+      },
+      {
+        "current": "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/WC.txt",
+        "snapshot": "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937",
+        "declared": "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937"
+      },
+      {
+        "current": "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/SCORES.txt",
+        "snapshot": "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb",
+        "declared": "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb"
+      },
+      {
+        "current": "f49ad4f5c1fb958555be09913ced61f6e0be27a0904be45a15bdd2d809486b9e",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/TR_PROMPT.md",
+        "snapshot": "f49ad4f5c1fb958555be09913ced61f6e0be27a0904be45a15bdd2d809486b9e",
+        "declared": "f49ad4f5c1fb958555be09913ced61f6e0be27a0904be45a15bdd2d809486b9e"
+      },
+      {
+        "current": "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/STRATEGIE_date_plan.json",
+        "snapshot": "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80",
+        "declared": "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80"
+      },
+      {
+        "current": "c58bc3597baf03c9d011480358f7a42bbd1b60de87cbee4557f83880cb9e9262",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/HCX.docx",
+        "snapshot": "c58bc3597baf03c9d011480358f7a42bbd1b60de87cbee4557f83880cb9e9262",
+        "declared": "c58bc3597baf03c9d011480358f7a42bbd1b60de87cbee4557f83880cb9e9262"
+      },
+      {
+        "current": "09f29cbaa82825941bd274308faae5fe030af3f1f5693343e2b394e948d4a4a9",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/ORX.docx",
+        "snapshot": "09f29cbaa82825941bd274308faae5fe030af3f1f5693343e2b394e948d4a4a9",
+        "declared": "09f29cbaa82825941bd274308faae5fe030af3f1f5693343e2b394e948d4a4a9"
+      },
+      {
+        "current": "1b3ca8f4f0d93fb0d13e75a27039780bfcfbac89adbd08eb6a914462e92ad005",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/WCX.docx",
+        "snapshot": "1b3ca8f4f0d93fb0d13e75a27039780bfcfbac89adbd08eb6a914462e92ad005",
+        "declared": "1b3ca8f4f0d93fb0d13e75a27039780bfcfbac89adbd08eb6a914462e92ad005"
+      },
+      {
+        "current": "2d30dc2f99644fc23260db8099f94c8afafb9955319fdde4387db24543ddc0a4",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/SCX.docx",
+        "snapshot": "2d30dc2f99644fc23260db8099f94c8afafb9955319fdde4387db24543ddc0a4",
+        "declared": "2d30dc2f99644fc23260db8099f94c8afafb9955319fdde4387db24543ddc0a4"
+      },
+      {
+        "current": "0c5304782dd51d29a8a8a6215ec4a7f202fd3a66b818b151f72da74adb8a162f",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/MANDAT_SESIUNE_20260924.md",
+        "snapshot": "0c5304782dd51d29a8a8a6215ec4a7f202fd3a66b818b151f72da74adb8a162f",
+        "declared": "0c5304782dd51d29a8a8a6215ec4a7f202fd3a66b818b151f72da74adb8a162f"
+      },
+      {
+        "current": "47563b28103b26a6269b6315fcc147f0b516d5bf7fc4ee35dddd8c361cc5edc1",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/APROBARE_BENEFICIAR_G01.md",
+        "snapshot": "47563b28103b26a6269b6315fcc147f0b516d5bf7fc4ee35dddd8c361cc5edc1",
+        "declared": "47563b28103b26a6269b6315fcc147f0b516d5bf7fc4ee35dddd8c361cc5edc1"
+      },
+      {
+        "current": "f99d6af0b361750c844e9a319fde46df26e52dc51c97c95e6491e8ecc5b1ba2a",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r01.md",
+        "snapshot": "f99d6af0b361750c844e9a319fde46df26e52dc51c97c95e6491e8ecc5b1ba2a",
+        "declared": "f99d6af0b361750c844e9a319fde46df26e52dc51c97c95e6491e8ecc5b1ba2a"
+      },
+      {
+        "current": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/agents.json",
+        "snapshot": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+        "declared": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c"
+      },
+      {
+        "current": "a13755caa3905091f5854302ca22616b4cd8af1e07d88b9c62a78908031ffa3c",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/deliverables_G00.json",
+        "snapshot": "a13755caa3905091f5854302ca22616b4cd8af1e07d88b9c62a78908031ffa3c",
+        "declared": "a13755caa3905091f5854302ca22616b4cd8af1e07d88b9c62a78908031ffa3c"
+      },
+      {
+        "current": "8a4871c41a4484fe4d8b2a18055e8ef199deaf4a04188c03936d577bac1b12b2",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/STATUS_la_integrare.md",
+        "snapshot": "8a4871c41a4484fe4d8b2a18055e8ef199deaf4a04188c03936d577bac1b12b2",
+        "declared": "8a4871c41a4484fe4d8b2a18055e8ef199deaf4a04188c03936d577bac1b12b2"
+      },
+      {
+        "current": "23e7787ea7ec36005968af2df81de09fbfe1c38494d9610a6d27874c73be936f",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/provenienta.json",
+        "snapshot": "23e7787ea7ec36005968af2df81de09fbfe1c38494d9610a6d27874c73be936f",
+        "declared": "23e7787ea7ec36005968af2df81de09fbfe1c38494d9610a6d27874c73be936f"
+      },
+      {
+        "current": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r01.md",
+        "snapshot": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+        "declared": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57"
+      },
+      {
+        "current": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_PROPUSE_r01.md",
+        "snapshot": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+        "declared": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462"
+      },
+      {
+        "current": "73320eb9194d8fb456eb5266987d6699401077a666395f9ddbcfc156eb9cf55a",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/provenienta.json",
+        "snapshot": "73320eb9194d8fb456eb5266987d6699401077a666395f9ddbcfc156eb9cf55a",
+        "declared": "73320eb9194d8fb456eb5266987d6699401077a666395f9ddbcfc156eb9cf55a"
+      },
+      {
+        "current": "d6b886b4b7e99334551a9c1c8fdd9d494cb1a1e479b91d6eecea9cba4a4b924c",
+        "path": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json",
+        "snapshot": "d6b886b4b7e99334551a9c1c8fdd9d494cb1a1e479b91d6eecea9cba4a4b924c",
+        "declared": "d6b886b4b7e99334551a9c1c8fdd9d494cb1a1e479b91d6eecea9cba4a4b924c"
+      },
+      {
+        "current": "27e4c31e90297319c6fe53ce950256ffe31e6497cd4da84b13cefe7baae62674",
+        "path": "07_ROMANE/ROM-001/01_CANON/COMPARAISON_AUXILIARE_r01.json",
+        "snapshot": "27e4c31e90297319c6fe53ce950256ffe31e6497cd4da84b13cefe7baae62674",
+        "declared": "27e4c31e90297319c6fe53ce950256ffe31e6497cd4da84b13cefe7baae62674"
+      },
+      {
+        "current": "2bd5415290d22674e8aca7042c1e0f91ec6627e379b342a24fb8cc6b134b6ca3",
+        "path": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_IDENTITATE_CONTINUT_r01.json",
+        "snapshot": "2bd5415290d22674e8aca7042c1e0f91ec6627e379b342a24fb8cc6b134b6ca3",
+        "declared": "2bd5415290d22674e8aca7042c1e0f91ec6627e379b342a24fb8cc6b134b6ca3"
+      },
+      {
+        "current": "8b5bea4590818aa4305565233d24a1fe748316139234d82896c449b25c444cd4",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta.json",
+        "snapshot": "8b5bea4590818aa4305565233d24a1fe748316139234d82896c449b25c444cd4",
+        "declared": "8b5bea4590818aa4305565233d24a1fe748316139234d82896c449b25c444cd4"
+      },
+      {
+        "current": "7e577cee64fac09d1308e3bc2049022e801a6db9be3141de133af2279ea1502b",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta_docx.json",
+        "snapshot": "7e577cee64fac09d1308e3bc2049022e801a6db9be3141de133af2279ea1502b",
+        "declared": "7e577cee64fac09d1308e3bc2049022e801a6db9be3141de133af2279ea1502b"
+      },
+      {
+        "current": "f54403d652a924279a8f9ec1717423c62cda0fc96cea2fa0f6392ed9f6fffef9",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-G01-sources-recheck-r01.json",
+        "snapshot": "f54403d652a924279a8f9ec1717423c62cda0fc96cea2fa0f6392ed9f6fffef9",
+        "declared": "f54403d652a924279a8f9ec1717423c62cda0fc96cea2fa0f6392ed9f6fffef9"
+      },
+      {
+        "current": "dc601deb50fa629adf998dc5318ef23cc47d45501ce6908a723aa6c1787b2a41",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-P-CANON-primire-r01.json",
+        "snapshot": "dc601deb50fa629adf998dc5318ef23cc47d45501ce6908a723aa6c1787b2a41",
+        "declared": "dc601deb50fa629adf998dc5318ef23cc47d45501ce6908a723aa6c1787b2a41"
+      },
+      {
+        "current": "d669d568d83142c8b76ec7ba12dfa60f743487c60d4a8e9406698f02e3f7c50c",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-CANON-G01-predare-r01.json",
+        "snapshot": "d669d568d83142c8b76ec7ba12dfa60f743487c60d4a8e9406698f02e3f7c50c",
+        "declared": "d669d568d83142c8b76ec7ba12dfa60f743487c60d4a8e9406698f02e3f7c50c"
+      },
+      {
+        "current": "b43ff67e4f207293be73978fe7842c1448795f222b86034c612202f65407c490",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-EDITOR-G01-predare-r01.json",
+        "snapshot": "b43ff67e4f207293be73978fe7842c1448795f222b86034c612202f65407c490",
+        "declared": "b43ff67e4f207293be73978fe7842c1448795f222b86034c612202f65407c490"
+      },
+      {
+        "current": "3f0a0cea60d0be07e983d5b08b44e575c3af88abafa929f5baebc936fc73e47d",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-EDITOR-G01-inchidere-r01.json",
+        "snapshot": "3f0a0cea60d0be07e983d5b08b44e575c3af88abafa929f5baebc936fc73e47d",
+        "declared": "3f0a0cea60d0be07e983d5b08b44e575c3af88abafa929f5baebc936fc73e47d"
+      },
+      {
+        "current": "545415f2f17fbfa95ff875b8b77108785f62ee300f58b3fceb7ee27153df0644",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-CANON-r01.md",
+        "snapshot": "545415f2f17fbfa95ff875b8b77108785f62ee300f58b3fceb7ee27153df0644",
+        "declared": "545415f2f17fbfa95ff875b8b77108785f62ee300f58b3fceb7ee27153df0644"
+      },
+      {
+        "current": "e346489e849a95fbf8c303ae838c9a613614688b9eaf5f992120e816e9aa07fb",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-EDITOR-r01.md",
+        "snapshot": "e346489e849a95fbf8c303ae838c9a613614688b9eaf5f992120e816e9aa07fb",
+        "declared": "e346489e849a95fbf8c303ae838c9a613614688b9eaf5f992120e816e9aa07fb"
+      },
+      {
+        "current": "ce009a7686ee6a6e18c0198ad0e2afcf86c898fc844e7bff870b5de88fbc981b",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-EDITOR-integrare-r02.md",
+        "snapshot": "ce009a7686ee6a6e18c0198ad0e2afcf86c898fc844e7bff870b5de88fbc981b",
+        "declared": "ce009a7686ee6a6e18c0198ad0e2afcf86c898fc844e7bff870b5de88fbc981b"
+      },
+      {
+        "current": "7ff0dd65a1d4a5722f7fdc73ae046165a7e454e1f0cb581eb1998c37796cf367",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-EDITOR-activare-r02.md",
+        "snapshot": "7ff0dd65a1d4a5722f7fdc73ae046165a7e454e1f0cb581eb1998c37796cf367",
+        "declared": "7ff0dd65a1d4a5722f7fdc73ae046165a7e454e1f0cb581eb1998c37796cf367"
+      },
+      {
+        "current": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+        "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+        "snapshot": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0",
+        "declared": "e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0"
+      },
+      {
+        "current": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2",
+        "path": "00_CONDUCERE/MANUAL_ATELIER.md",
+        "snapshot": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2",
+        "declared": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2"
+      },
+      {
+        "current": "fb92994d11fdbfe878d9021c59e44120f23475029a2f600b2bc662b3f420d958",
+        "path": "00_CONDUCERE/ROADMAP.md",
+        "snapshot": "fb92994d11fdbfe878d9021c59e44120f23475029a2f600b2bc662b3f420d958",
+        "declared": "fb92994d11fdbfe878d9021c59e44120f23475029a2f600b2bc662b3f420d958"
+      },
+      {
+        "current": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd",
+        "path": "00_CONDUCERE/RUBRICI.md",
+        "snapshot": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd",
+        "declared": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd"
+      },
+      {
+        "current": "71ddb0139dcb8b1066bc66ac9ddfbe400f4363f88c4d687712b6616043be31c6",
+        "path": "00_CONDUCERE/PROTOCOL_ARHIVARE.md",
+        "snapshot": "71ddb0139dcb8b1066bc66ac9ddfbe400f4363f88c4d687712b6616043be31c6",
+        "declared": "71ddb0139dcb8b1066bc66ac9ddfbe400f4363f88c4d687712b6616043be31c6"
+      },
+      {
+        "current": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4",
+        "path": "00_CONDUCERE/policy.json",
+        "snapshot": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4",
+        "declared": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4"
+      },
+      {
+        "current": "ce0932a58bb37190da2e92f579ec6a15ec50453c9e8d63e9622dc9110e8bec6e",
+        "path": "01_ECHIPA/P-CANON.md",
+        "snapshot": "ce0932a58bb37190da2e92f579ec6a15ec50453c9e8d63e9622dc9110e8bec6e",
+        "declared": "ce0932a58bb37190da2e92f579ec6a15ec50453c9e8d63e9622dc9110e8bec6e"
+      },
+      {
+        "current": "9e6e3687a795fbd96e9b1aad76bd7c6462b247cdfcdc53792557948aa041e4ed",
+        "path": "01_ECHIPA/P-EDITOR.md",
+        "snapshot": "9e6e3687a795fbd96e9b1aad76bd7c6462b247cdfcdc53792557948aa041e4ed",
+        "declared": "9e6e3687a795fbd96e9b1aad76bd7c6462b247cdfcdc53792557948aa041e4ed"
+      },
+      {
+        "current": "03f188f4e824af6ab6433f7b4ee94ca7f6703af7c5c2171f97deded3d7038aea",
+        "path": "01_ECHIPA/A-CANON.md",
+        "snapshot": "03f188f4e824af6ab6433f7b4ee94ca7f6703af7c5c2171f97deded3d7038aea",
+        "declared": "03f188f4e824af6ab6433f7b4ee94ca7f6703af7c5c2171f97deded3d7038aea"
+      },
+      {
+        "current": "b4a3e75e94b1bcdb1de1b4a18f69239a45d6a2432a80eba02b8a72fbb01393ec",
+        "path": "01_ECHIPA/A-GOVERNANCE.md",
+        "snapshot": "b4a3e75e94b1bcdb1de1b4a18f69239a45d6a2432a80eba02b8a72fbb01393ec",
+        "declared": "b4a3e75e94b1bcdb1de1b4a18f69239a45d6a2432a80eba02b8a72fbb01393ec"
+      },
+      {
+        "current": "503dae663f9c9c5bd84863fb05bd93941654ee14e4e13f1ed83077f127105a87",
+        "path": "01_ECHIPA/A-QAMANAGER.md",
+        "snapshot": "503dae663f9c9c5bd84863fb05bd93941654ee14e4e13f1ed83077f127105a87",
+        "declared": "503dae663f9c9c5bd84863fb05bd93941654ee14e4e13f1ed83077f127105a87"
+      },
+      {
+        "current": "c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659",
+        "path": "06_REGISTRU/CALIBRARE/A-CANON-r02.json",
+        "snapshot": "c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659",
+        "declared": "c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659"
+      },
+      {
+        "current": "6f55451c9e3017afdd07beb53451caadc7f10bef396e77ff06b5b7a8db346227",
+        "path": "06_REGISTRU/CALIBRARE/A-GOVERNANCE-r02.json",
+        "snapshot": "6f55451c9e3017afdd07beb53451caadc7f10bef396e77ff06b5b7a8db346227",
+        "declared": "6f55451c9e3017afdd07beb53451caadc7f10bef396e77ff06b5b7a8db346227"
+      },
+      {
+        "current": "e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669",
+        "path": "06_REGISTRU/CALIBRARE/A-QAMANAGER-r02.json",
+        "snapshot": "e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669",
+        "declared": "e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669"
+      },
+      {
+        "current": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc",
+        "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+        "snapshot": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc",
+        "declared": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc"
+      },
+      {
+        "current": "1b8cb5f361bdade74cf1fa5fc9c8ae3eb738d651f472554c483777b02c4b5349",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-INTRARE-SYS-001-G01-r01.json",
+        "snapshot": "1b8cb5f361bdade74cf1fa5fc9c8ae3eb738d651f472554c483777b02c4b5349",
+        "declared": "1b8cb5f361bdade74cf1fa5fc9c8ae3eb738d651f472554c483777b02c4b5349"
+      },
+      {
+        "current": "0448e9c40dffa57a5150e4a54e50e6f4807d9392a1cd3e85b6e578ce3d22126f",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-INTRARE-SEL-001-G01-r01.json",
+        "snapshot": "0448e9c40dffa57a5150e4a54e50e6f4807d9392a1cd3e85b6e578ce3d22126f",
+        "declared": "0448e9c40dffa57a5150e4a54e50e6f4807d9392a1cd3e85b6e578ce3d22126f"
+      },
+      {
+        "current": "ef4710086d23ae1ee83ed51cafff00ba04f6ea0b10118c5a6ae7e90ae660fc13",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-INTRARE-RES-001-G01-r01.json",
+        "snapshot": "ef4710086d23ae1ee83ed51cafff00ba04f6ea0b10118c5a6ae7e90ae660fc13",
+        "declared": "ef4710086d23ae1ee83ed51cafff00ba04f6ea0b10118c5a6ae7e90ae660fc13"
+      },
+      {
+        "current": "749a4ed8e6bcc718e69070786cecff427d2607d72d4cef8acb7abbee628b4871",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/MANDAT_CONTINUARE_AGENTI_20260924.md",
+        "snapshot": "749a4ed8e6bcc718e69070786cecff427d2607d72d4cef8acb7abbee628b4871",
+        "declared": "749a4ed8e6bcc718e69070786cecff427d2607d72d4cef8acb7abbee628b4871"
+      },
+      {
+        "current": "cc9fef676a2061d07c9bcb66ae295c59dbc92f2128020cb6974315999b9701e9",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-EDITOR-limita-executie-r01.json",
+        "snapshot": "cc9fef676a2061d07c9bcb66ae295c59dbc92f2128020cb6974315999b9701e9",
+        "declared": "cc9fef676a2061d07c9bcb66ae295c59dbc92f2128020cb6974315999b9701e9"
+      },
+      {
+        "current": "85a254e53b063a30ee5d14be90f737245220552d4838ba73af3f9284045226a5",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-EDITOR-reluare-dupa-limita-r02.md",
+        "snapshot": "85a254e53b063a30ee5d14be90f737245220552d4838ba73af3f9284045226a5",
+        "declared": "85a254e53b063a30ee5d14be90f737245220552d4838ba73af3f9284045226a5"
+      },
+      {
+        "current": "11028331faf2825acae3c11ee2b71a3a2d7865c29a4ab57faadc71c60a902af4",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-SYSTEMS-arhivare-pregatire-r01.md",
+        "snapshot": "11028331faf2825acae3c11ee2b71a3a2d7865c29a4ab57faadc71c60a902af4",
+        "declared": "11028331faf2825acae3c11ee2b71a3a2d7865c29a4ab57faadc71c60a902af4"
+      },
+      {
+        "current": "6d7d00ed0bb180e8eadb1c9a9edb28bb0c41946272fbb4093c77a4333f48f551",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-CANON-calendar-constraints-r01.md",
+        "snapshot": "6d7d00ed0bb180e8eadb1c9a9edb28bb0c41946272fbb4093c77a4333f48f551",
+        "declared": "6d7d00ed0bb180e8eadb1c9a9edb28bb0c41946272fbb4093c77a4333f48f551"
+      },
+      {
+        "current": "33436bcf08fce257ed4c1263372d79e4a3dfab956283d236e33f7892d2f3123a",
+        "path": "07_ROMANE/ROM-001/01_CANON/CONSTRANGERI_CALENDAR_r01.md",
+        "snapshot": "33436bcf08fce257ed4c1263372d79e4a3dfab956283d236e33f7892d2f3123a",
+        "declared": "33436bcf08fce257ed4c1263372d79e4a3dfab956283d236e33f7892d2f3123a"
+      },
+      {
+        "current": "d59318173fc08f3d8e2deaad8ad55ceb89f5e8ceb61233be85802c6ef6d1be3e",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-CANON-calendar-constraints-predare-r01.json",
+        "snapshot": "d59318173fc08f3d8e2deaad8ad55ceb89f5e8ceb61233be85802c6ef6d1be3e",
+        "declared": "d59318173fc08f3d8e2deaad8ad55ceb89f5e8ceb61233be85802c6ef6d1be3e"
+      },
+      {
+        "current": "3f7cabe98b912cc323e8b5f7ef43588d761fdb00f7d90bcac9e9e59d49e185f2",
+        "path": "06_REGISTRU/ROM-001_PREGATIRE_ARHIVARE_r01.md",
+        "snapshot": "3f7cabe98b912cc323e8b5f7ef43588d761fdb00f7d90bcac9e9e59d49e185f2",
+        "declared": "3f7cabe98b912cc323e8b5f7ef43588d761fdb00f7d90bcac9e9e59d49e185f2"
+      },
+      {
+        "current": "b1ba630113fcb99957163267fcdf1732288c4f206585fe94d8bb5b668d879303",
+        "path": "06_REGISTRU/ROM-001_PREGATIRE_ARHIVARE_r01.json",
+        "snapshot": "b1ba630113fcb99957163267fcdf1732288c4f206585fe94d8bb5b668d879303",
+        "declared": "b1ba630113fcb99957163267fcdf1732288c4f206585fe94d8bb5b668d879303"
+      },
+      {
+        "current": "6503ec2166f9ae9815984ed277ef947bf7efe3cf106bbeddab958bf0f0905ef9",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-SYSTEMS-arhivare-pregatire-predare-r01.json",
+        "snapshot": "6503ec2166f9ae9815984ed277ef947bf7efe3cf106bbeddab958bf0f0905ef9",
+        "declared": "6503ec2166f9ae9815984ed277ef947bf7efe3cf106bbeddab958bf0f0905ef9"
+      },
+      {
+        "current": "56549df802fcc5e7dcc382ee0a41520d190d1fab7f6fd3714ef52ad73c0c2bab",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-P-SYSTEMS-inventar-recheck-r01.json",
+        "snapshot": "56549df802fcc5e7dcc382ee0a41520d190d1fab7f6fd3714ef52ad73c0c2bab",
+        "declared": "56549df802fcc5e7dcc382ee0a41520d190d1fab7f6fd3714ef52ad73c0c2bab"
+      },
+      {
+        "current": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/BRIEF_ROMAN_r01.md",
+        "snapshot": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+        "declared": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57"
+      },
+      {
+        "current": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/DECIZII_PROPUSE_r01.md",
+        "snapshot": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+        "declared": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462"
+      },
+      {
+        "current": "061f5c6c0222a10346fe4907c6477dce79b536c7bb8bbf82ba1f9985a31a411d",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-EDITOR-integrare-predare-r02.json",
+        "snapshot": "061f5c6c0222a10346fe4907c6477dce79b536c7bb8bbf82ba1f9985a31a411d",
+        "declared": "061f5c6c0222a10346fe4907c6477dce79b536c7bb8bbf82ba1f9985a31a411d"
+      },
+      {
+        "current": "3bccfc5b8b586a8bf62bd004444b28ab2e0e56687aa66642a08e5f59b8b84126",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-P-EDITOR-primire-r02.json",
+        "snapshot": "3bccfc5b8b586a8bf62bd004444b28ab2e0e56687aa66642a08e5f59b8b84126",
+        "declared": "3bccfc5b8b586a8bf62bd004444b28ab2e0e56687aa66642a08e5f59b8b84126"
+      },
+      {
+        "current": "06e4c774ad80897f3441a64110dadd2230e51d04ca3813e12eb1aeeb097e5434",
+        "path": "06_REGISTRU/REZULTATE/ROM001-checkpoint-support-receipt-r01.json",
+        "snapshot": "06e4c774ad80897f3441a64110dadd2230e51d04ca3813e12eb1aeeb097e5434",
+        "declared": "06e4c774ad80897f3441a64110dadd2230e51d04ca3813e12eb1aeeb097e5434"
+      },
+      {
+        "current": "0d01bf03c61ad7f3841f7c57446d42dfd136f8e6a8160d7aa1f93afcebba1f22",
+        "path": "06_REGISTRU/REZULTATE/ROM001-checkpoint-support-verification-r01.json",
+        "snapshot": "0d01bf03c61ad7f3841f7c57446d42dfd136f8e6a8160d7aa1f93afcebba1f22",
+        "declared": "0d01bf03c61ad7f3841f7c57446d42dfd136f8e6a8160d7aa1f93afcebba1f22"
+      },
+      {
+        "current": "7af04cd4929408d4ce8149a04408a8398d940067a36ee087be63f24cfcdc8e04",
+        "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_INTEGRARE-r02.json",
+        "snapshot": "7af04cd4929408d4ce8149a04408a8398d940067a36ee087be63f24cfcdc8e04",
+        "declared": "7af04cd4929408d4ce8149a04408a8398d940067a36ee087be63f24cfcdc8e04"
+      },
+      {
+        "current": "fd7dd8cdc4fb804a608832933d2b3e8636ea2b85491eea2e00fbdc71bb3c95fa",
+        "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_INTEGRARE-VERIFICARE-r02.json",
+        "snapshot": "fd7dd8cdc4fb804a608832933d2b3e8636ea2b85491eea2e00fbdc71bb3c95fa",
+        "declared": "fd7dd8cdc4fb804a608832933d2b3e8636ea2b85491eea2e00fbdc71bb3c95fa"
+      },
+      {
+        "current": "b71adf9b6a806828ce1c5ee77e2260ebf66492dd85673bdcf5c81dc55d9bd0f6",
+        "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_INTEGRARE-PREFIXE-r02.json",
+        "snapshot": "b71adf9b6a806828ce1c5ee77e2260ebf66492dd85673bdcf5c81dc55d9bd0f6",
+        "declared": "b71adf9b6a806828ce1c5ee77e2260ebf66492dd85673bdcf5c81dc55d9bd0f6"
+      },
+      {
+        "current": "ac525c1c98229f496d403d91da9f3b92399f0db1705acb472a253a86265ed350",
+        "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_INTEGRARE-ERRATUM-r02.md",
+        "snapshot": "ac525c1c98229f496d403d91da9f3b92399f0db1705acb472a253a86265ed350",
+        "declared": "ac525c1c98229f496d403d91da9f3b92399f0db1705acb472a253a86265ed350"
+      },
+      {
+        "current": "eca57ae111fbfc07f9aae9cbf7c5ec98cd62d2cd2d66b63a7ac043ad7c12cf29",
+        "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_DEPUNERE-r01.json",
+        "snapshot": "eca57ae111fbfc07f9aae9cbf7c5ec98cd62d2cd2d66b63a7ac043ad7c12cf29",
+        "declared": "eca57ae111fbfc07f9aae9cbf7c5ec98cd62d2cd2d66b63a7ac043ad7c12cf29"
+      },
+      {
+        "current": "51167ef19502a90217844caa04bba0662887ed781bcfbdafc5b24b016b40106c",
+        "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_DEPUNERE-VERIFICARE-r01.json",
+        "snapshot": "51167ef19502a90217844caa04bba0662887ed781bcfbdafc5b24b016b40106c",
+        "declared": "51167ef19502a90217844caa04bba0662887ed781bcfbdafc5b24b016b40106c"
+      },
+      {
+        "current": "701592fcf84d0a1337851f835b5a8029e9c23070177e3fcee6d0dd542cf73fb3",
+        "path": "06_REGISTRU/REZULTATE/ROM001-G01-EXPORT_DEPUNERE-ERRATUM-r01.md",
+        "snapshot": "701592fcf84d0a1337851f835b5a8029e9c23070177e3fcee6d0dd542cf73fb3",
+        "declared": "701592fcf84d0a1337851f835b5a8029e9c23070177e3fcee6d0dd542cf73fb3"
+      },
+      {
+        "current": "f36798a01c304e6fa2045bfa36ca1ce078665a590c81a00a05dd057a37788430",
+        "path": "06_REGISTRU/ROM-001_surse_export_G01_v04.json",
+        "snapshot": "f36798a01c304e6fa2045bfa36ca1ce078665a590c81a00a05dd057a37788430",
+        "declared": "f36798a01c304e6fa2045bfa36ca1ce078665a590c81a00a05dd057a37788430"
+      },
+      {
+        "current": "13f1d435a47ce6df97f487e67d0abcca39f81c64ccf28165f041a65dfed7d42e",
+        "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.md",
+        "snapshot": "13f1d435a47ce6df97f487e67d0abcca39f81c64ccf28165f041a65dfed7d42e",
+        "declared": "13f1d435a47ce6df97f487e67d0abcca39f81c64ccf28165f041a65dfed7d42e"
+      },
+      {
+        "current": "f9d9b6c1526824e0fb3cb49b70d7122ddc6bafdaf0afc7b783802a7de4aa1441",
+        "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.json",
+        "snapshot": "f9d9b6c1526824e0fb3cb49b70d7122ddc6bafdaf0afc7b783802a7de4aa1441",
+        "declared": "f9d9b6c1526824e0fb3cb49b70d7122ddc6bafdaf0afc7b783802a7de4aa1441"
+      },
+      {
+        "current": "e1a7d8ed210693a045479539779781994b1d7658d603bf05132f2d37e5a727df",
+        "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_B_r01.md",
+        "snapshot": "e1a7d8ed210693a045479539779781994b1d7658d603bf05132f2d37e5a727df",
+        "declared": "e1a7d8ed210693a045479539779781994b1d7658d603bf05132f2d37e5a727df"
+      },
+      {
+        "current": "c3d85b46d3a2fde0d030e391b9b01d852732b1a13a4a4d06a731038d24bb032c",
+        "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_B_r01.json",
+        "snapshot": "c3d85b46d3a2fde0d030e391b9b01d852732b1a13a4a4d06a731038d24bb032c",
+        "declared": "c3d85b46d3a2fde0d030e391b9b01d852732b1a13a4a4d06a731038d24bb032c"
+      },
+      {
+        "current": "90fc14dbd0e693c007d45a8f4e4e24de30a5d1a09e91832378daaae0952fd92c",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-CALIBRARE-A-verification-r01.json",
+        "snapshot": "90fc14dbd0e693c007d45a8f4e4e24de30a5d1a09e91832378daaae0952fd92c",
+        "declared": "90fc14dbd0e693c007d45a8f4e4e24de30a5d1a09e91832378daaae0952fd92c"
+      },
+      {
+        "current": "011836c56e094469e461af1b220e7503e0cd50512d06abef1d0f282275a84ea0",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-CALIBRARE-B-verification-r01.json",
+        "snapshot": "011836c56e094469e461af1b220e7503e0cd50512d06abef1d0f282275a84ea0",
+        "declared": "011836c56e094469e461af1b220e7503e0cd50512d06abef1d0f282275a84ea0"
+      },
+      {
+        "current": "013c63f28b038fc537b0d7dc58416f93a8723f8cbb3356692e215fbeb4fd50ad",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-MANAGER.jsonl",
+        "snapshot": "013c63f28b038fc537b0d7dc58416f93a8723f8cbb3356692e215fbeb4fd50ad",
+        "declared": "013c63f28b038fc537b0d7dc58416f93a8723f8cbb3356692e215fbeb4fd50ad"
+      },
+      {
+        "current": "7d1c8053f9d36e2625c31df57b1f8dc76a47dee3cea8dee0a3c90a64f23b9235",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-MANAGER.md",
+        "snapshot": "7d1c8053f9d36e2625c31df57b1f8dc76a47dee3cea8dee0a3c90a64f23b9235",
+        "declared": "7d1c8053f9d36e2625c31df57b1f8dc76a47dee3cea8dee0a3c90a64f23b9235"
+      },
+      {
+        "current": "7167e755c47e27ab00057282b0bfa77815035637dc937d84a2565c37d800a5f2",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-CANON.jsonl",
+        "snapshot": "7167e755c47e27ab00057282b0bfa77815035637dc937d84a2565c37d800a5f2",
+        "declared": "7167e755c47e27ab00057282b0bfa77815035637dc937d84a2565c37d800a5f2"
+      },
+      {
+        "current": "0dc81a963cc8e694c6511188eaee2f82a94cda77a717315e3ad232fbe7945538",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-CANON.md",
+        "snapshot": "0dc81a963cc8e694c6511188eaee2f82a94cda77a717315e3ad232fbe7945538",
+        "declared": "0dc81a963cc8e694c6511188eaee2f82a94cda77a717315e3ad232fbe7945538"
+      },
+      {
+        "current": "82ca775c6ed5f8942640d073e3b37f790dfe006f84e4626ff4424202fbbbf4b2",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-GOVERNANCE.jsonl",
+        "snapshot": "82ca775c6ed5f8942640d073e3b37f790dfe006f84e4626ff4424202fbbbf4b2",
+        "declared": "82ca775c6ed5f8942640d073e3b37f790dfe006f84e4626ff4424202fbbbf4b2"
+      },
+      {
+        "current": "f429e632e372c5a03b8ad0de1ae703deffc4bcd56e8cdebf95a359a9f4002263",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-GOVERNANCE.md",
+        "snapshot": "f429e632e372c5a03b8ad0de1ae703deffc4bcd56e8cdebf95a359a9f4002263",
+        "declared": "f429e632e372c5a03b8ad0de1ae703deffc4bcd56e8cdebf95a359a9f4002263"
+      },
+      {
+        "current": "00bc662850375fece74aefdf776d537ad9d90dcc6373eb883b1044ee7baf8a45",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-CANON.jsonl",
+        "snapshot": "00bc662850375fece74aefdf776d537ad9d90dcc6373eb883b1044ee7baf8a45",
+        "declared": "00bc662850375fece74aefdf776d537ad9d90dcc6373eb883b1044ee7baf8a45"
+      },
+      {
+        "current": "d97cbaa820dbb9a46ebbe401574016868fbe3be2f33f751c14a52ba1c2ba5cec",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-CANON.md",
+        "snapshot": "d97cbaa820dbb9a46ebbe401574016868fbe3be2f33f751c14a52ba1c2ba5cec",
+        "declared": "d97cbaa820dbb9a46ebbe401574016868fbe3be2f33f751c14a52ba1c2ba5cec"
+      },
+      {
+        "current": "bae171c57d4525c727e2f57eb8874d2cde64cfb2f52ad95d384710ffc6feb424",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-QAMANAGER.jsonl",
+        "snapshot": "bae171c57d4525c727e2f57eb8874d2cde64cfb2f52ad95d384710ffc6feb424",
+        "declared": "bae171c57d4525c727e2f57eb8874d2cde64cfb2f52ad95d384710ffc6feb424"
+      },
+      {
+        "current": "8623a95797b94db8ea03fba145ac0f2e7d8cc7344b24f92dcaa8128af99757df",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-QAMANAGER.md",
+        "snapshot": "8623a95797b94db8ea03fba145ac0f2e7d8cc7344b24f92dcaa8128af99757df",
+        "declared": "8623a95797b94db8ea03fba145ac0f2e7d8cc7344b24f92dcaa8128af99757df"
+      },
+      {
+        "current": "4524ed872d246dfaa67cd063c200c6a7f95379ef755f3cd818cfe6c06b6e54e3",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-EDITOR.jsonl",
+        "snapshot": "4524ed872d246dfaa67cd063c200c6a7f95379ef755f3cd818cfe6c06b6e54e3",
+        "declared": "4524ed872d246dfaa67cd063c200c6a7f95379ef755f3cd818cfe6c06b6e54e3"
+      },
+      {
+        "current": "3e66dbefafd6a31b326976d27f809c2e855f66230aa8b57b7b63c30081d41662",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-EDITOR.md",
+        "snapshot": "3e66dbefafd6a31b326976d27f809c2e855f66230aa8b57b7b63c30081d41662",
+        "declared": "3e66dbefafd6a31b326976d27f809c2e855f66230aa8b57b7b63c30081d41662"
+      },
+      {
+        "current": "acb5e881698f3e097c3f21e6b88aea2d013ba0907129ea660013287b7bbe246f",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-GENRE.jsonl",
+        "snapshot": "acb5e881698f3e097c3f21e6b88aea2d013ba0907129ea660013287b7bbe246f",
+        "declared": "acb5e881698f3e097c3f21e6b88aea2d013ba0907129ea660013287b7bbe246f"
+      },
+      {
+        "current": "9182cdbc82df58cc76283bf755d1a5b76935593192655ccbd6e26b84e15582ab",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-GENRE.md",
+        "snapshot": "9182cdbc82df58cc76283bf755d1a5b76935593192655ccbd6e26b84e15582ab",
+        "declared": "9182cdbc82df58cc76283bf755d1a5b76935593192655ccbd6e26b84e15582ab"
+      },
+      {
+        "current": "63ead6603bf2b977d6ac5e3a9d507ff13797eb10fbdcf61e5455b22b0d5a9b34",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-ORIGINALITY.jsonl",
+        "snapshot": "63ead6603bf2b977d6ac5e3a9d507ff13797eb10fbdcf61e5455b22b0d5a9b34",
+        "declared": "63ead6603bf2b977d6ac5e3a9d507ff13797eb10fbdcf61e5455b22b0d5a9b34"
+      },
+      {
+        "current": "a1f1620b10a379f3ba455d77faad9e85184bfa899fba119b09a4c06119faeb07",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-ORIGINALITY.md",
+        "snapshot": "a1f1620b10a379f3ba455d77faad9e85184bfa899fba119b09a4c06119faeb07",
+        "declared": "a1f1620b10a379f3ba455d77faad9e85184bfa899fba119b09a4c06119faeb07"
+      },
+      {
+        "current": "e6f181d22fc0de7c5dfe1df516e55601a264e7b60201297bccc7a03fdeba370d",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-STRUCTURE.jsonl",
+        "snapshot": "e6f181d22fc0de7c5dfe1df516e55601a264e7b60201297bccc7a03fdeba370d",
+        "declared": "e6f181d22fc0de7c5dfe1df516e55601a264e7b60201297bccc7a03fdeba370d"
+      },
+      {
+        "current": "9115908499d00ec33b852ca733028b69c185a81d51b9f19024ea662e411d2a7e",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-STRUCTURE.md",
+        "snapshot": "9115908499d00ec33b852ca733028b69c185a81d51b9f19024ea662e411d2a7e",
+        "declared": "9115908499d00ec33b852ca733028b69c185a81d51b9f19024ea662e411d2a7e"
+      },
+      {
+        "current": "8372b60b56c28f3c9fced8e0294743606666c03f039912afd4c21ddd1f06a8a5",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-EN.jsonl",
+        "snapshot": "8372b60b56c28f3c9fced8e0294743606666c03f039912afd4c21ddd1f06a8a5",
+        "declared": "8372b60b56c28f3c9fced8e0294743606666c03f039912afd4c21ddd1f06a8a5"
+      },
+      {
+        "current": "8481d60bf40613dcbd0cee08a1b1a2f12323b4c4baf0eab0387f8f3b2ae19000",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-EN.md",
+        "snapshot": "8481d60bf40613dcbd0cee08a1b1a2f12323b4c4baf0eab0387f8f3b2ae19000",
+        "declared": "8481d60bf40613dcbd0cee08a1b1a2f12323b4c4baf0eab0387f8f3b2ae19000"
+      },
+      {
+        "current": "3eed9282f51b287cbbc82c1076f027119034ca4f97462ebe9ed8f6fe60581684",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-CHARACTER.jsonl",
+        "snapshot": "3eed9282f51b287cbbc82c1076f027119034ca4f97462ebe9ed8f6fe60581684",
+        "declared": "3eed9282f51b287cbbc82c1076f027119034ca4f97462ebe9ed8f6fe60581684"
+      },
+      {
+        "current": "2d0e359ba2ceb85a1da66dd2a8a3bb11145bc5d2c7eabe5c402baa1600320ece",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-CHARACTER.md",
+        "snapshot": "2d0e359ba2ceb85a1da66dd2a8a3bb11145bc5d2c7eabe5c402baa1600320ece",
+        "declared": "2d0e359ba2ceb85a1da66dd2a8a3bb11145bc5d2c7eabe5c402baa1600320ece"
+      },
+      {
+        "current": "639b34f536b5273e0138e53a042adabacbe788338bb2da3cfcc96532f6045b57",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-FACT.jsonl",
+        "snapshot": "639b34f536b5273e0138e53a042adabacbe788338bb2da3cfcc96532f6045b57",
+        "declared": "639b34f536b5273e0138e53a042adabacbe788338bb2da3cfcc96532f6045b57"
+      },
+      {
+        "current": "9092a186841fd18ebc2cfef941ae2ce385fe1874ac61f83315123ae0c6286bda",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-FACT.md",
+        "snapshot": "9092a186841fd18ebc2cfef941ae2ce385fe1874ac61f83315123ae0c6286bda",
+        "declared": "9092a186841fd18ebc2cfef941ae2ce385fe1874ac61f83315123ae0c6286bda"
+      },
+      {
+        "current": "04db2374e5c1bf5505328b491bb7dd7879f3b84a0d66a049e85420e40b289d4a",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-RO.jsonl",
+        "snapshot": "04db2374e5c1bf5505328b491bb7dd7879f3b84a0d66a049e85420e40b289d4a",
+        "declared": "04db2374e5c1bf5505328b491bb7dd7879f3b84a0d66a049e85420e40b289d4a"
+      },
+      {
+        "current": "9011c94cf075051a9041b7861d15b604de89b3b0d4269e8236d49d37fdc7b76b",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-RO.md",
+        "snapshot": "9011c94cf075051a9041b7861d15b604de89b3b0d4269e8236d49d37fdc7b76b",
+        "declared": "9011c94cf075051a9041b7861d15b604de89b3b0d4269e8236d49d37fdc7b76b"
+      },
+      {
+        "current": "39a7215cc4cbbb3723b63e91e1b2f681c13823339fcead48606b8721074f12d5",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-DE.jsonl",
+        "snapshot": "39a7215cc4cbbb3723b63e91e1b2f681c13823339fcead48606b8721074f12d5",
+        "declared": "39a7215cc4cbbb3723b63e91e1b2f681c13823339fcead48606b8721074f12d5"
+      },
+      {
+        "current": "d71b9e354a2e63509ff5bb5120309a8820419dd2e18744b4588eaf79f8d9b1fd",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-DE.md",
+        "snapshot": "d71b9e354a2e63509ff5bb5120309a8820419dd2e18744b4588eaf79f8d9b1fd",
+        "declared": "d71b9e354a2e63509ff5bb5120309a8820419dd2e18744b4588eaf79f8d9b1fd"
+      },
+      {
+        "current": "7bb93918f310a8e437f9b56f25b973e4f6ca096742620beb4fc4d673b42af412",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-TRANSLATION.jsonl",
+        "snapshot": "7bb93918f310a8e437f9b56f25b973e4f6ca096742620beb4fc4d673b42af412",
+        "declared": "7bb93918f310a8e437f9b56f25b973e4f6ca096742620beb4fc4d673b42af412"
+      },
+      {
+        "current": "b6f44e13afbf67822501e6f8ae5dcbf56654db4071b06369791b3cea60e51ecb",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-TRANSLATION.md",
+        "snapshot": "b6f44e13afbf67822501e6f8ae5dcbf56654db4071b06369791b3cea60e51ecb",
+        "declared": "b6f44e13afbf67822501e6f8ae5dcbf56654db4071b06369791b3cea60e51ecb"
+      },
+      {
+        "current": "e6d60883648e020f542924e8577766579897eebb3e64254bd96f6b008f09ddbd",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-PRODUCTION.jsonl",
+        "snapshot": "e6d60883648e020f542924e8577766579897eebb3e64254bd96f6b008f09ddbd",
+        "declared": "e6d60883648e020f542924e8577766579897eebb3e64254bd96f6b008f09ddbd"
+      },
+      {
+        "current": "c923f624f7eb270727d19768a62c3ff559515a2a6a242f1d9116ccbabb1627e6",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/A-PRODUCTION.md",
+        "snapshot": "c923f624f7eb270727d19768a62c3ff559515a2a6a242f1d9116ccbabb1627e6",
+        "declared": "c923f624f7eb270727d19768a62c3ff559515a2a6a242f1d9116ccbabb1627e6"
+      },
+      {
+        "current": "8c8dc326b616ef88d03ca3bea74b090d2c7ba1c40fdd95ccc85e6587f3925273",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-SYSTEMS.jsonl",
+        "snapshot": "8c8dc326b616ef88d03ca3bea74b090d2c7ba1c40fdd95ccc85e6587f3925273",
+        "declared": "8c8dc326b616ef88d03ca3bea74b090d2c7ba1c40fdd95ccc85e6587f3925273"
+      },
+      {
+        "current": "b95dbc1350af5b50804add1787420c4429b76287674bb64d8b308162d3348b7d",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-SYSTEMS.md",
+        "snapshot": "b95dbc1350af5b50804add1787420c4429b76287674bb64d8b308162d3348b7d",
+        "declared": "b95dbc1350af5b50804add1787420c4429b76287674bb64d8b308162d3348b7d"
+      },
+      {
+        "current": "ba15c729b9a444cbf8fc39df143e5fc8cbe54b93a2f1e768d28b7b340c31df78",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/index.json",
+        "snapshot": "ba15c729b9a444cbf8fc39df143e5fc8cbe54b93a2f1e768d28b7b340c31df78",
+        "declared": "ba15c729b9a444cbf8fc39df143e5fc8cbe54b93a2f1e768d28b7b340c31df78"
+      },
+      {
+        "current": "ae2ff5471fd4046d0c2eb338b924d6c3bb2034cce202e84b6402f30eadbe19b6",
+        "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/index.sha256",
+        "snapshot": "ae2ff5471fd4046d0c2eb338b924d6c3bb2034cce202e84b6402f30eadbe19b6",
+        "declared": "ae2ff5471fd4046d0c2eb338b924d6c3bb2034cce202e84b6402f30eadbe19b6"
+      }
+    ],
+    "snapshot": {
+      "index_entries_checked": 629,
+      "checks": "toate căile indexate confinate capturii, size și SHA-256 recalculat pentru fiecare; cele 137 fișiere comparate și cu bytes actuali",
+      "index_sha256": "73befab70d1266a41f79a339ce00eadb00d32efd57c5afdf9eb9ea7817c99823",
+      "flat_index_and_sidecar_byte_identical": true,
+      "sidecar_digest_valid": true
+    },
+    "flat_reference_files": [
+      {
+        "sha256": "73befab70d1266a41f79a339ce00eadb00d32efd57c5afdf9eb9ea7817c99823",
+        "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/index.json"
+      },
+      {
+        "sha256": "f0328731f32221d8a54e71c9ccb2c3caf02020b6fa8ed1e4345e575b36c31d00",
+        "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/index.sha256"
+      },
+      {
+        "sha256": "d04ac45055e27b9f86fd238582bf7ac967b272baec54f6e98f7a494308493aeb",
+        "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/provenienta.json"
+      },
+      {
+        "sha256": "3848a0b3dc9c17b950852a9c3fbe3a009d8f98edc7f8226a278f6cbaa4dc8f96",
+        "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-receipt-r01.json"
+      }
+    ]
+  },
+  "original_copy_checks": {
+    "checked_at": "2026-09-24T10:35:26+03:00",
+    "entries": [
+      {
+        "id": "SITE_APP",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js",
+        "original_exists": true,
+        "original_sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+        "copy_sha256": "b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "H",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+        "original_exists": true,
+        "original_sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+        "copy_sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "HB",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/HB.docx",
+        "original_exists": true,
+        "original_sha256": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+        "copy_sha256": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "HC",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/HC.txt",
+        "original_exists": true,
+        "original_sha256": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+        "copy_sha256": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "AC",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/AC.docx",
+        "original_exists": true,
+        "original_sha256": "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+        "copy_sha256": "a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "HT",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/HT.txt",
+        "original_exists": true,
+        "original_sha256": "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+        "copy_sha256": "6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "HBT",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt",
+        "original_exists": true,
+        "original_sha256": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+        "copy_sha256": "1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "HP",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/HP.docx",
+        "original_exists": true,
+        "original_sha256": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+        "copy_sha256": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "OR",
+        "copy": "02_DOCUMENTARE/INTRARI_REFERINTA/OR.txt",
+        "original_exists": true,
+        "original_sha256": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+        "copy_sha256": "2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json"
+      },
+      {
+        "id": "WC",
+        "copy": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/WC.txt",
+        "original_exists": true,
+        "original_sha256": "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937",
+        "copy_sha256": "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta.json"
+      },
+      {
+        "id": "SCORES",
+        "copy": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/SCORES.txt",
+        "original_exists": true,
+        "original_sha256": "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb",
+        "copy_sha256": "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta.json"
+      },
+      {
+        "id": "TR_PROMPT",
+        "copy": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/TR_PROMPT.md",
+        "original_exists": true,
+        "original_sha256": "f49ad4f5c1fb958555be09913ced61f6e0be27a0904be45a15bdd2d809486b9e",
+        "copy_sha256": "f49ad4f5c1fb958555be09913ced61f6e0be27a0904be45a15bdd2d809486b9e",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta.json"
+      },
+      {
+        "id": "STRATEGIE",
+        "copy": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/STRATEGIE_date_plan.json",
+        "original_exists": true,
+        "original_sha256": "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80",
+        "copy_sha256": "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta.json"
+      },
+      {
+        "id": "HCX",
+        "copy": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/HCX.docx",
+        "original_exists": true,
+        "original_sha256": "c58bc3597baf03c9d011480358f7a42bbd1b60de87cbee4557f83880cb9e9262",
+        "copy_sha256": "c58bc3597baf03c9d011480358f7a42bbd1b60de87cbee4557f83880cb9e9262",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta_docx.json"
+      },
+      {
+        "id": "ORX",
+        "copy": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/ORX.docx",
+        "original_exists": true,
+        "original_sha256": "09f29cbaa82825941bd274308faae5fe030af3f1f5693343e2b394e948d4a4a9",
+        "copy_sha256": "09f29cbaa82825941bd274308faae5fe030af3f1f5693343e2b394e948d4a4a9",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta_docx.json"
+      },
+      {
+        "id": "WCX",
+        "copy": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/WCX.docx",
+        "original_exists": true,
+        "original_sha256": "1b3ca8f4f0d93fb0d13e75a27039780bfcfbac89adbd08eb6a914462e92ad005",
+        "copy_sha256": "1b3ca8f4f0d93fb0d13e75a27039780bfcfbac89adbd08eb6a914462e92ad005",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta_docx.json"
+      },
+      {
+        "id": "SCX",
+        "copy": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/SCX.docx",
+        "original_exists": true,
+        "original_sha256": "2d30dc2f99644fc23260db8099f94c8afafb9955319fdde4387db24543ddc0a4",
+        "copy_sha256": "2d30dc2f99644fc23260db8099f94c8afafb9955319fdde4387db24543ddc0a4",
+        "match": true,
+        "provenance": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta_docx.json"
+      }
+    ],
+    "result": "17/17 coincid. Acces read-only la exact originalele declarate, fără .env sau alte documente private."
+  },
+  "source_content_controls": {
+    "H": {
+      "paragraphs": 3984,
+      "raw_tokens": 95079,
+      "HT_tokens": 95061,
+      "H_after_18_tokens_equals_HT": true,
+      "chapters": [
+        {
+          "p": 6,
+          "label": "CHAPTER 1"
+        },
+        {
+          "p": 115,
+          "label": "CHAPTER 2"
+        },
+        {
+          "p": 211,
+          "label": "CHAPTER 3"
+        },
+        {
+          "p": 352,
+          "label": "CHAPTER 4"
+        },
+        {
+          "p": 479,
+          "label": "CHAPTER 5"
+        },
+        {
+          "p": 645,
+          "label": "CHAPTER 6"
+        },
+        {
+          "p": 821,
+          "label": "CHAPTER 7"
+        },
+        {
+          "p": 982,
+          "label": "CHAPTER 8"
+        },
+        {
+          "p": 1199,
+          "label": "CHAPTER 9"
+        },
+        {
+          "p": 1338,
+          "label": "CHAPTER 10"
+        },
+        {
+          "p": 1483,
+          "label": "CHAPTER 12"
+        },
+        {
+          "p": 1637,
+          "label": "CHAPTER 13"
+        },
+        {
+          "p": 1819,
+          "label": "CHAPTER 14"
+        },
+        {
+          "p": 1971,
+          "label": "CHAPTER 15"
+        },
+        {
+          "p": 2159,
+          "label": "CHAPTER 16"
+        },
+        {
+          "p": 2354,
+          "label": "CHAPTER 17"
+        },
+        {
+          "p": 2491,
+          "label": "CHAPTER 18"
+        },
+        {
+          "p": 2645,
+          "label": "CHAPTER 19"
+        },
+        {
+          "p": 2785,
+          "label": "CHAPTER 20"
+        },
+        {
+          "p": 3016,
+          "label": "CHAPTER 21"
+        },
+        {
+          "p": 3242,
+          "label": "CHAPTER 22"
+        },
+        {
+          "p": 3484,
+          "label": "CHAPTER 23"
+        },
+        {
+          "p": 3629,
+          "label": "CHAPTER 24"
+        },
+        {
+          "p": 3833,
+          "label": "EPILOGUE"
+        }
+      ],
+      "boucher_hits": [
+        166,
+        364,
+        552,
+        860,
+        1366,
+        1370,
+        1536,
+        1556,
+        1897,
+        2007,
+        2062,
+        2280
+      ],
+      "alexandre_dubois_hits": [
+        3548,
+        3550
+      ]
+    },
+    "WC": {
+      "rows": 24,
+      "sum": 97398,
+      "reported": 95061
+    },
+    "brief_source_refs": [
+      {
+        "id": "I01",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-EDITOR-integrare-r02.md",
+        "declared": "ce009a7686ee6a6e18c0198ad0e2afcf86c898fc844e7bff870b5de88fbc981b",
+        "actual": "ce009a7686ee6a6e18c0198ad0e2afcf86c898fc844e7bff870b5de88fbc981b"
+      },
+      {
+        "id": "I02",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-CANON-G01-predare-r01.json",
+        "declared": "d669d568d83142c8b76ec7ba12dfa60f743487c60d4a8e9406698f02e3f7c50c",
+        "actual": "d669d568d83142c8b76ec7ba12dfa60f743487c60d4a8e9406698f02e3f7c50c"
+      },
+      {
+        "id": "I03",
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+        "declared": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab",
+        "actual": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab"
+      },
+      {
+        "id": "I04",
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+        "declared": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c",
+        "actual": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c"
+      },
+      {
+        "id": "I05",
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+        "declared": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0",
+        "actual": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0"
+      },
+      {
+        "id": "I06",
+        "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+        "declared": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc",
+        "actual": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc"
+      },
+      {
+        "id": "I07",
+        "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+        "declared": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801",
+        "actual": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801"
+      },
+      {
+        "id": "I08",
+        "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+        "declared": "8a08f2358479913c3c998d6110a7d00aabc4cbf0545d9c8bd32f94a1cbf02c39",
+        "actual": "8a08f2358479913c3c998d6110a7d00aabc4cbf0545d9c8bd32f94a1cbf02c39"
+      },
+      {
+        "id": "I09",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+        "declared": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f",
+        "actual": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f"
+      },
+      {
+        "id": "I10",
+        "path": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_SURSE_G01_r01.json",
+        "declared": "d6b886b4b7e99334551a9c1c8fdd9d494cb1a1e479b91d6eecea9cba4a4b924c",
+        "actual": "d6b886b4b7e99334551a9c1c8fdd9d494cb1a1e479b91d6eecea9cba4a4b924c"
+      },
+      {
+        "id": "I11",
+        "path": "07_ROMANE/ROM-001/01_CANON/VERIFICARE_IDENTITATE_CONTINUT_r01.json",
+        "declared": "2bd5415290d22674e8aca7042c1e0f91ec6627e379b342a24fb8cc6b134b6ca3",
+        "actual": "2bd5415290d22674e8aca7042c1e0f91ec6627e379b342a24fb8cc6b134b6ca3"
+      },
+      {
+        "id": "I12",
+        "path": "07_ROMANE/ROM-001/01_CANON/COMPARAISON_AUXILIARE_r01.json",
+        "declared": "27e4c31e90297319c6fe53ce950256ffe31e6497cd4da84b13cefe7baae62674",
+        "actual": "27e4c31e90297319c6fe53ce950256ffe31e6497cd4da84b13cefe7baae62674"
+      },
+      {
+        "id": "I13",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta.json",
+        "declared": "8b5bea4590818aa4305565233d24a1fe748316139234d82896c449b25c444cd4",
+        "actual": "8b5bea4590818aa4305565233d24a1fe748316139234d82896c449b25c444cd4"
+      },
+      {
+        "id": "I14",
+        "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/provenienta_docx.json",
+        "declared": "7e577cee64fac09d1308e3bc2049022e801a6db9be3141de133af2279ea1502b",
+        "actual": "7e577cee64fac09d1308e3bc2049022e801a6db9be3141de133af2279ea1502b"
+      },
+      {
+        "id": "I15",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/APROBARE_BENEFICIAR_G01.md",
+        "declared": "47563b28103b26a6269b6315fcc147f0b516d5bf7fc4ee35dddd8c361cc5edc1",
+        "actual": "47563b28103b26a6269b6315fcc147f0b516d5bf7fc4ee35dddd8c361cc5edc1"
+      },
+      {
+        "id": "I16",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r01.md",
+        "declared": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+        "actual": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57"
+      },
+      {
+        "id": "I17",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_PROPUSE_r01.md",
+        "declared": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+        "actual": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462"
+      },
+      {
+        "id": "I18",
+        "path": "00_CONDUCERE/MANUAL_ATELIER.md",
+        "declared": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2",
+        "actual": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2"
+      },
+      {
+        "id": "I19",
+        "path": "00_CONDUCERE/ROADMAP.md",
+        "declared": "fb92994d11fdbfe878d9021c59e44120f23475029a2f600b2bc662b3f420d958",
+        "actual": "fb92994d11fdbfe878d9021c59e44120f23475029a2f600b2bc662b3f420d958"
+      },
+      {
+        "id": "I20",
+        "path": "00_CONDUCERE/RUBRICI.md",
+        "declared": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd",
+        "actual": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd"
+      },
+      {
+        "id": "I21",
+        "path": "01_ECHIPA/P-EDITOR.md",
+        "declared": "9e6e3687a795fbd96e9b1aad76bd7c6462b247cdfcdc53792557948aa041e4ed",
+        "actual": "9e6e3687a795fbd96e9b1aad76bd7c6462b247cdfcdc53792557948aa041e4ed"
+      },
+      {
+        "id": "I22",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/agents.json",
+        "declared": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+        "actual": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c"
+      },
+      {
+        "id": "I23",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/deliverables_G00.json",
+        "declared": "a13755caa3905091f5854302ca22616b4cd8af1e07d88b9c62a78908031ffa3c",
+        "actual": "a13755caa3905091f5854302ca22616b4cd8af1e07d88b9c62a78908031ffa3c"
+      },
+      {
+        "id": "I24",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/STATUS_la_integrare.md",
+        "declared": "8a4871c41a4484fe4d8b2a18055e8ef199deaf4a04188c03936d577bac1b12b2",
+        "actual": "8a4871c41a4484fe4d8b2a18055e8ef199deaf4a04188c03936d577bac1b12b2"
+      },
+      {
+        "id": "I25",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/provenienta.json",
+        "declared": "23e7787ea7ec36005968af2df81de09fbfe1c38494d9610a6d27874c73be936f",
+        "actual": "23e7787ea7ec36005968af2df81de09fbfe1c38494d9610a6d27874c73be936f"
+      },
+      {
+        "id": "I26",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/BRIEF_ROMAN_r01.md",
+        "declared": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57",
+        "actual": "2fb2a6ba5f29d25b9ba8bc92c7b5c72c821e5ab0c6eccbb0f18f941bf9706d57"
+      },
+      {
+        "id": "I27",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/DECIZII_PROPUSE_r01.md",
+        "declared": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462",
+        "actual": "a0ac18024c6670a6a59f1a3df0978588ccad1805ae8736e5d1dc285dadf7d462"
+      },
+      {
+        "id": "I28",
+        "path": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREINTEGRARE_r01/provenienta.json",
+        "declared": "73320eb9194d8fb456eb5266987d6699401077a666395f9ddbcfc156eb9cf55a",
+        "actual": "73320eb9194d8fb456eb5266987d6699401077a666395f9ddbcfc156eb9cf55a"
+      },
+      {
+        "id": "I29",
+        "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+        "declared": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+        "actual": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3"
+      },
+      {
+        "id": "I30",
+        "path": "06_REGISTRU/PROMPTURI/ROM-001-G01-P-EDITOR-activare-r02.md",
+        "declared": "7ff0dd65a1d4a5722f7fdc73ae046165a7e454e1f0cb581eb1998c37796cf367",
+        "actual": "7ff0dd65a1d4a5722f7fdc73ae046165a7e454e1f0cb581eb1998c37796cf367"
+      },
+      {
+        "id": "I31",
+        "path": "06_REGISTRU/ISTORIC/ROM-001-P-EDITOR-limita-executie-r01.json",
+        "declared": "cc9fef676a2061d07c9bcb66ae295c59dbc92f2128020cb6974315999b9701e9",
+        "actual": "cc9fef676a2061d07c9bcb66ae295c59dbc92f2128020cb6974315999b9701e9"
+      },
+      {
+        "id": "I32",
+        "path": "07_ROMANE/ROM-001/01_CANON/CONSTRANGERI_CALENDAR_r01.md",
+        "declared": "33436bcf08fce257ed4c1263372d79e4a3dfab956283d236e33f7892d2f3123a",
+        "actual": "33436bcf08fce257ed4c1263372d79e4a3dfab956283d236e33f7892d2f3123a"
+      }
+    ],
+    "portfolio": {
+      "id": "DB-047",
+      "id_match_count": 1,
+      "title": "The Magenta Letters",
+      "title_match_count": 1,
+      "volume": 2,
+      "source_language": "EN",
+      "portfolio_target": 60000,
+      "brief_orientative_target": 65000,
+      "mandated_minimum": 50000
+    }
+  },
+  "producer_reading_controls": {
+    "source": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-CANON.jsonl",
+    "sha256": "7167e755c47e27ab00057282b0bfa77815035637dc937d84a2565c37d800a5f2",
+    "pieces": [
+      {
+        "line": 137,
+        "chunk": "377221",
+        "start": 1,
+        "end": 100,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T04:56:46.710Z"
+      },
+      {
+        "line": 141,
+        "chunk": "9b80a9",
+        "start": 101,
+        "end": 200,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T04:57:17.999Z"
+      },
+      {
+        "line": 143,
+        "chunk": "6a06b9",
+        "start": 201,
+        "end": 300,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T04:58:32.782Z"
+      },
+      {
+        "line": 145,
+        "chunk": "8f5af7",
+        "start": 301,
+        "end": 400,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T04:58:51.668Z"
+      },
+      {
+        "line": 147,
+        "chunk": "6dee33",
+        "start": 401,
+        "end": 500,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T04:59:17.654Z"
+      },
+      {
+        "line": 149,
+        "chunk": "9b3b37",
+        "start": 501,
+        "end": 600,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T04:59:40.304Z"
+      },
+      {
+        "line": 152,
+        "chunk": "ebf59f",
+        "start": 601,
+        "end": 700,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:00:04.528Z"
+      },
+      {
+        "line": 154,
+        "chunk": "9d32ce",
+        "start": 701,
+        "end": 800,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:00:31.633Z"
+      },
+      {
+        "line": 156,
+        "chunk": "babb80",
+        "start": 801,
+        "end": 900,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:01:05.493Z"
+      },
+      {
+        "line": 158,
+        "chunk": "d5583c",
+        "start": 901,
+        "end": 1000,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:01:30.877Z"
+      },
+      {
+        "line": 160,
+        "chunk": "851ca1",
+        "start": 1001,
+        "end": 1100,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:01:59.266Z"
+      },
+      {
+        "line": 162,
+        "chunk": "ec2f59",
+        "start": 1101,
+        "end": 1200,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:02:27.061Z"
+      },
+      {
+        "line": 164,
+        "chunk": "090349",
+        "start": 1201,
+        "end": 1300,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:02:58.954Z"
+      },
+      {
+        "line": 166,
+        "chunk": "16f64f",
+        "start": 1301,
+        "end": 1400,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:03:32.883Z"
+      },
+      {
+        "line": 169,
+        "chunk": "2e1198",
+        "start": 1401,
+        "end": 1500,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:04:17.735Z"
+      },
+      {
+        "line": 171,
+        "chunk": "957188",
+        "start": 1501,
+        "end": 1600,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:04:44.669Z"
+      },
+      {
+        "line": 173,
+        "chunk": "0488ea",
+        "start": 1601,
+        "end": 1700,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:05:18.043Z"
+      },
+      {
+        "line": 175,
+        "chunk": "d61ab8",
+        "start": 1701,
+        "end": 1800,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:05:43.559Z"
+      },
+      {
+        "line": 177,
+        "chunk": "7fc944",
+        "start": 1801,
+        "end": 1900,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:06:13.041Z"
+      },
+      {
+        "line": 179,
+        "chunk": "35f632",
+        "start": 1901,
+        "end": 2000,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:06:54.160Z"
+      },
+      {
+        "line": 181,
+        "chunk": "c58895",
+        "start": 2001,
+        "end": 2100,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:07:34.307Z"
+      },
+      {
+        "line": 183,
+        "chunk": "2a2aad",
+        "start": 2101,
+        "end": 2200,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:08:03.720Z"
+      },
+      {
+        "line": 185,
+        "chunk": "05faa0",
+        "start": 2201,
+        "end": 2300,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:08:27.717Z"
+      },
+      {
+        "line": 190,
+        "chunk": "403e56",
+        "start": 2301,
+        "end": 2400,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:13:00.537Z"
+      },
+      {
+        "line": 192,
+        "chunk": "376637",
+        "start": 2401,
+        "end": 2500,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:13:20.742Z"
+      },
+      {
+        "line": 194,
+        "chunk": "3461e7",
+        "start": 2501,
+        "end": 2600,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:13:44.678Z"
+      },
+      {
+        "line": 199,
+        "chunk": "9dff81",
+        "start": 2601,
+        "end": 2700,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:14:55.866Z"
+      },
+      {
+        "line": 201,
+        "chunk": "40a3d8",
+        "start": 2701,
+        "end": 2800,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:15:13.601Z"
+      },
+      {
+        "line": 203,
+        "chunk": "4a3784",
+        "start": 2801,
+        "end": 2900,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:15:37.150Z"
+      },
+      {
+        "line": 205,
+        "chunk": "80c3c8",
+        "start": 2901,
+        "end": 3000,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:16:00.471Z"
+      },
+      {
+        "line": 207,
+        "chunk": "a03de9",
+        "start": 3001,
+        "end": 3100,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:16:21.744Z"
+      },
+      {
+        "line": 210,
+        "chunk": "d00a1d",
+        "start": 3101,
+        "end": 3200,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:16:44.631Z"
+      },
+      {
+        "line": 212,
+        "chunk": "94fa9d",
+        "start": 3201,
+        "end": 3300,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:17:14.813Z"
+      },
+      {
+        "line": 214,
+        "chunk": "1e7aa0",
+        "start": 3301,
+        "end": 3400,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:17:41.784Z"
+      },
+      {
+        "line": 216,
+        "chunk": "b6da90",
+        "start": 3401,
+        "end": 3500,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:18:03.257Z"
+      },
+      {
+        "line": 218,
+        "chunk": "c8c468",
+        "start": 3501,
+        "end": 3600,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:18:26.364Z"
+      },
+      {
+        "line": 220,
+        "chunk": "23992d",
+        "start": 3601,
+        "end": 3700,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:18:46.279Z"
+      },
+      {
+        "line": 223,
+        "chunk": "017798",
+        "start": 3701,
+        "end": 3800,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:19:13.587Z"
+      },
+      {
+        "line": 225,
+        "chunk": "892b76",
+        "start": 3801,
+        "end": 3900,
+        "paragraphs": 100,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:19:35.439Z"
+      },
+      {
+        "line": 227,
+        "chunk": "bda3d0",
+        "start": 3901,
+        "end": 3984,
+        "paragraphs": 84,
+        "ids_exact": true,
+        "text_mismatches": [],
+        "truncated": false,
+        "timestamp": "2026-09-24T05:20:03.180Z"
+      }
+    ],
+    "continuous": true,
+    "journal_chunks_all_found": true,
+    "all_match": true,
+    "method": "Parsează numai ieșirile observabile LECTURA H; verifică toate P și compară fiecare text cu H extras prin XML. Nu echivalează această comparație mecanică cu lectura umană integrală a auditorului; nu certifică atenția mentală."
+  },
+  "calendar": {
+    "checked_at": "2026-09-24T10:36:44+03:00",
+    "method": "Independent arithmetic plus semantic comparison of all CAL-01..20 constraints to the actual operational choices. No producer calculation output reused.",
+    "tests": [
+      {
+        "id": "CAL-01",
+        "actual": 2025,
+        "expected": 2025,
+        "ok": true,
+        "interpretation": "Ancora adoptata: 15.10.2025."
+      },
+      {
+        "id": "CAL-02",
+        "actual": {
+          "epilogue": 2028,
+          "since1968": 60,
+          "sincefinding": 3
+        },
+        "expected": {
+          "epilogue": 2028,
+          "since1968": 60,
+          "sincefinding": 3
+        },
+        "ok": true,
+        "interpretation": "57 ani / doi ani sunt excluse explicit, nu reparate in H."
+      },
+      {
+        "id": "CAL-03",
+        "actual": {
+          "finding": "10-15",
+          "wedding": "06-21",
+          "memorial": "12-07"
+        },
+        "expected": {
+          "finding": "10-15",
+          "wedding": "06-21",
+          "memorial": "12-07"
+        },
+        "ok": true,
+        "interpretation": "Referenti distincti, fara aniversare falsa in februarie/noiembrie."
+      },
+      {
+        "id": "CAL-04",
+        "actual": 535,
+        "expected": 535,
+        "ok": true,
+        "interpretation": "E este dupa memorial; minim 535 zile de la nunta, nu un an."
+      },
+      {
+        "id": "CAL-05",
+        "actual": true,
+        "expected": true,
+        "ok": true,
+        "interpretation": "Zilele nespecificate sunt martori de fezabilitate, NU date canonice suplimentare."
+      },
+      {
+        "id": "CAL-06",
+        "actual": true,
+        "expected": true,
+        "ok": true,
+        "interpretation": "Predare noiembrie 2026 anterioara oricarui termen de 18 luni dupa martie 2026."
+      },
+      {
+        "id": "CAL-07",
+        "actual": 614,
+        "expected": 614,
+        "ok": true,
+        "interpretation": "Circuitul nu comprima nunta in primul an."
+      },
+      {
+        "id": "CAL-08",
+        "actual": {
+          "found_to_death": 783,
+          "reunion_to_death": 717,
+          "infarcts": 7
+        },
+        "expected": {
+          "found_to_death": 783,
+          "reunion_to_death": 717,
+          "infarcts": 7
+        },
+        "ok": true,
+        "interpretation": "Un an impreuna si aproape un an de la gasire sunt excluse."
+      },
+      {
+        "id": "CAL-09",
+        "actual": 366,
+        "expected": 366,
+        "ok": true,
+        "interpretation": "One year later legat de deces; epilog dupa memorial, nu anul urmator memorialului."
+      },
+      {
+        "id": "CAL-10",
+        "actual": [
+          21,
+          7,
+          14,
+          "Saturday"
+        ],
+        "expected": [
+          21,
+          7,
+          14,
+          "Saturday"
+        ],
+        "ok": true,
+        "interpretation": "Publicare 28.02, nu atentie stinsa in ianuarie; interviuri in februarie."
+      },
+      {
+        "id": "CAL-11",
+        "actual": [
+          33,
+          67,
+          123
+        ],
+        "expected": [
+          33,
+          67,
+          123
+        ],
+        "ok": true,
+        "interpretation": "Primele doua variante si sase saptamani nu sunt pastrate; prima intalnire distincta de prima iesire romantica."
+      },
+      {
+        "id": "CAL-12",
+        "actual": [
+          "Saturday",
+          "Wednesday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "expected": [
+          "Saturday",
+          "Wednesday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "ok": true,
+        "interpretation": "2026: sambata, nu marti."
+      },
+      {
+        "id": "CAL-13",
+        "actual": {
+          "old_arrival_minutes": 720,
+          "gap_minutes": 105,
+          "selected_travel_minutes": 135,
+          "to_door": 15
+        },
+        "expected": {
+          "old_arrival_minutes": 720,
+          "gap_minutes": 105,
+          "selected_travel_minutes": 135,
+          "to_door": 15
+        },
+        "ok": true,
+        "interpretation": "10:30/90min/imediat abandonate explicit; 11:30,13:45,14:00 nu cer o oprire inventata."
+      },
+      {
+        "id": "CAL-14",
+        "actual": [
+          22,
+          73,
+          75,
+          76
+        ],
+        "expected": [
+          22,
+          73,
+          75,
+          76
+        ],
+        "ok": true,
+        "interpretation": "Catherine, aniversari trecute la ancore: ipoteza operationala declarata."
+      },
+      {
+        "id": "CAL-15",
+        "actual": [
+          18,
+          25,
+          27,
+          38,
+          78,
+          80
+        ],
+        "expected": [
+          18,
+          25,
+          27,
+          38,
+          78,
+          80
+        ],
+        "ok": true,
+        "interpretation": "Antoine; zile de nastere nefixate."
+      },
+      {
+        "id": "CAL-16",
+        "actual": [
+          23,
+          38,
+          41,
+          2002,
+          2003
+        ],
+        "expected": [
+          23,
+          38,
+          41,
+          2002,
+          2003
+        ],
+        "ok": true,
+        "interpretation": "Jurnal datat 1989 nu lectura in 1989; interval la 15 ani 2002/2003."
+      },
+      {
+        "id": "CAL-17",
+        "actual": [
+          2,
+          4
+        ],
+        "expected": [
+          2,
+          4
+        ],
+        "ok": true,
+        "interpretation": "Deces Elise 2023, nu doua durate fixe incompatibile dupa acelasi eveniment."
+      },
+      {
+        "id": "CAL-18",
+        "actual": [
+          38,
+          54,
+          51
+        ],
+        "expected": [
+          38,
+          54,
+          51
+        ],
+        "ok": true,
+        "interpretation": "Casnicie 38, 47+7>51 excluse; intoarcerea militara nu este pensionare."
+      },
+      {
+        "id": "CAL-19",
+        "actual": {
+          "positive_tests": 3,
+          "prior_birth_established": false,
+          "exact_due_date_established": false
+        },
+        "expected": {
+          "positive_tests": 3,
+          "prior_birth_established": false,
+          "exact_due_date_established": false
+        },
+        "ok": true,
+        "interpretation": "Control semantic H P3858-P3867: trei teste nu trei sarcini sau copil nascut."
+      },
+      {
+        "id": "CAL-20",
+        "actual": true,
+        "expected": true,
+        "ok": true,
+        "interpretation": "H P3932-P3938: ziua sosirii nu este dedusa; anul disponibil nu fixeaza salt exterior."
+      }
+    ],
+    "extra": [
+      {
+        "id": "K-WEEKDAYS",
+        "actual": [
+          "Tuesday",
+          "Friday",
+          "Saturday",
+          "Tuesday",
+          "Saturday",
+          "Saturday",
+          "Tuesday"
+        ],
+        "expected": [
+          "Tuesday",
+          "Friday",
+          "Saturday",
+          "Tuesday",
+          "Saturday",
+          "Saturday",
+          "Tuesday"
+        ],
+        "ok": true
+      },
+      {
+        "id": "K-PREPARATIONS",
+        "actual": 14,
+        "expected": 14,
+        "ok": true
+      },
+      {
+        "id": "K-BOOK-FEASIBILITY",
+        "actual": "2026-03-25",
+        "expected": "2026-03-25",
+        "ok": true
+      },
+      {
+        "id": "K-GUILLAUME",
+        "actual": [
+          15,
+          66,
+          69
+        ],
+        "expected": [
+          15,
+          66,
+          69
+        ],
+        "ok": true
+      }
+    ],
+    "age_feasibility": [
+      {
+        "character": "Antoine",
+        "birth_year": 1947,
+        "possible_birthdays": 288,
+        "exists": true,
+        "wedding_age_range": null
+      },
+      {
+        "character": "Catherine",
+        "birth_year": 1952,
+        "possible_birthdays": 166,
+        "exists": true,
+        "wedding_age_range": null
+      },
+      {
+        "character": "Guillaume",
+        "birth_year": 1959,
+        "possible_birthdays": 215,
+        "exists": true,
+        "wedding_age_range": null
+      },
+      {
+        "character": "Besson",
+        "birth_year": 1987,
+        "possible_birthdays": 288,
+        "exists": true,
+        "wedding_age_range": null
+      },
+      {
+        "character": "Isabella",
+        "birth_year": 1995,
+        "possible_birthdays": 288,
+        "exists": true,
+        "wedding_age_range": [
+          31,
+          32
+        ]
+      }
+    ]
+  },
+  "G00_gate_controls": [
+    {
+      "deliverable_id": "SYS-001",
+      "version_id": "r03",
+      "contract": {
+        "path": "06_REGISTRU/CONTRACTE/SYS-001-r03.json",
+        "sha256": "2a87f9d159a99fb048a4262f5b4ae34b8fe129668d5e67690e790ace6e99d09c"
+      },
+      "passed": true,
+      "errors": [],
+      "checked_files_count": 68,
+      "scope": "validate read-only; numai G00, fără re-audit editorial și fără transfer de scoruri."
+    },
+    {
+      "deliverable_id": "SEL-001",
+      "version_id": "r03",
+      "contract": {
+        "path": "06_REGISTRU/CONTRACTE/SEL-001-r03.json",
+        "sha256": "85ec85d5f34b57a49f0d0430e50caf030a094af11eba902c98692da3c565fd28"
+      },
+      "passed": true,
+      "errors": [],
+      "checked_files_count": 1,
+      "scope": "validate read-only; numai G00, fără re-audit editorial și fără transfer de scoruri."
+    },
+    {
+      "deliverable_id": "RES-001",
+      "version_id": "r03",
+      "contract": {
+        "path": "06_REGISTRU/CONTRACTE/RES-001-r03.json",
+        "sha256": "15462dd9ab698261300adb09be2caa7049a76710bcee27194e719c0de8ca10e8"
+      },
+      "passed": true,
+      "errors": [],
+      "checked_files_count": 3,
+      "scope": "validate read-only; numai G00, fără re-audit editorial și fără transfer de scoruri."
+    }
+  ],
+  "editorial_regression": {
+    "historical_ids_checked": [
+      "H-C1",
+      "H-C2",
+      "H-C3",
+      "H-C4",
+      "H-C5",
+      "H-C6",
+      "H-C7",
+      "H-C8",
+      "H-C9",
+      "H-C10",
+      "H-C11",
+      "H-C12",
+      "H-C13",
+      "H-C14",
+      "H-C15",
+      "H-C16",
+      "H-N1",
+      "H-N2",
+      "H-N3",
+      "H-N4",
+      "H-N5",
+      "H-N6"
+    ],
+    "factual_states_checked": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10"
+    ],
+    "SEL_001_A_CANON_F01": "Omisiunea documentară reverificată: ambele Dubois și căsătoria sunt prezente distinct; niciun raport istoric editat. H rămâne contradictoriu; G01 autorizează explicit alegerea D Boucher.",
+    "new_finding": {
+      "id": "ROM-001-G01-A-CANON-F01",
+      "severity": "medium",
+      "status": "open",
+      "location": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md:L92",
+      "description": "În rândul ordonat Laurent / Marcel / Odette / Rousseau, rolul corespunzător lui Marcel este «personal/interlocutor al hotelului». H P128-P160/P1366/P1380-P1385/P1409 îl identifică drept arhivar, iar CANON_FACTUAL.md:L92 păstrează corect acest fapt. Nu există o decizie editorială declarată de schimbare a instituției. Rezumatul operațional introduce o afiliere nesusținută și intră în conflict cu sursa pe care o invocă.",
+      "remediation": "Corectați în noua versiune depusă rolul lui Marcel Fontaine ca arhivar/intermediar al arhivelor, fără afiliere la personalul hotelului. Separați rândul pe persoane sau faceți corespondența nume–rol neechivocă; păstrați Laurent manager, Besson recepție/custodie, Odette martoră și Jean-Michel Rousseau custode distinct de Sophie. Retest: confruntare O §3 cu CANON_FACTUAL.md:L88-L98 și H P128-P160/P1366/P1380-P1385/P1409; căutarea tuturor aparițiilor Marcel în cele 11 artefacte și confirmarea că niciun rezumat/handoff nu îi atribuie hotelul, fără schimbarea H ori a registrului factual. Constatarea rămâne open până la o nouă depunere și retest independent."
+    }
+  },
+  "technical_retries": [
+    "Invocarea inițială a Python prin -c și o concatenare PowerShell de căi nu au finalizat controalele; reluate read-only prin stdin/căi separate.",
+    "Un control a întâlnit codarea stdout cp1252; apoi parserul de intervale/celule nu a selectat intrări. Reluare cu UTF-8 și parsare explicită: 40 segmente, 32 referințe. Rezultatele goale/intermediare nu sunt invocate ca validări.",
+    "Ieșirile de lectură HP/HBT trunchiate au fost reluate. Nu se certifică lectura porțiunilor invizibile pe baza primei comenzi."
+  ],
+  "limitations": [
+    "Auditul privește exclusiv ROM-001-G01 r01 și canonul operațional pentru continuare; nu certifică rectificarea H, romanul viitor, G02+ sau publicarea.",
+    "Am citit integral cele 11 artefacte și țintit 650 de paragrafe distincte H; lista exactă este în controlul propriu. Nu revendic lectura umană integrală nouă a H sau a tuturor auxiliarelor.",
+    "Am verificat mecanic toate cele 40 de porțiuni H expuse producătorului în exportul filtrat, inclusiv identitatea celor 3984 de paragrafe; aceasta probează acoperirea observabilă, nu atenția mentală ori componentele vizuale, comentariile și antetele DOCX.",
+    "Nu am consultat celălalt audit G01, jurnale brute, .env sau site-ul online. Dependențele G00 au fost verificate prin poartă, nu reevaluate editorial; notele istorice nu au fost transferate.",
+    "Drepturile pentru comercializare, autenticitatea istorică externă, practica juridică/medicală și originalitatea viitoarei proze nu sunt certificate aici. Necunoscutele Margaux și sarcina timpurie rămân delimitate.",
+    "Nu am realizat metaauditul, acceptarea cumulativă ori arhivarea post-audit; raportul RETURN trebuie păstrat și arhivat de coordonare."
+  ]
+}

@@ -1,0 +1,203 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/draft-contact-details.md",
+    "status": "copiat",
+    "saved_path": "fisiere/draft-contact-details--3ed66f3d.md",
+    "bytes": 866,
+    "sha256": "ee8f156a47072513de07f8ff8aec23b9f4a6b4672d03a5bfd9cee35220458a27"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/email-check-sent-too.md",
+    "status": "copiat",
+    "saved_path": "fisiere/email-check-sent-too--31c2114f.md",
+    "bytes": 1157,
+    "sha256": "9d5afddb992d1522f9b4f1a7a18f11b0b636ba30f29d81d03ae4ed4716e9ba5b"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/2ed3bbc9-af3e-48f4-929a-b761e43c4c0d/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--90dd88c1.py",
+    "bytes": 14379,
+    "sha256": "feb17670e443e5db2723f217727dcc5d5e155c40e4e6935b16061c88542f24e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\decoder.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decoder--1f97611a.py",
+    "bytes": 12882,
+    "sha256": "9f4cc83197bf1b13fee3ce71a044a4b4987a7eeecd8768206abd31a78e0a3d16"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\descriptors\\container.py",
+    "status": "copiat",
+    "saved_path": "fisiere/container--e388e4e0.py",
+    "bytes": 889,
+    "sha256": "21c3bdd4cd36851d2f5d9b561aeaf3d081f5562d8fa041023f53c46f3eb61494"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\descriptors\\serialisable.py",
+    "status": "copiat",
+    "saved_path": "fisiere/serialisable--2faeb4fa.py",
+    "bytes": 7361,
+    "sha256": "53fef03041904483a28a65142f801b74e89631cfda2f229e6919e3fd9edd54ef"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\packaging\\relationship.py",
+    "status": "copiat",
+    "saved_path": "fisiere/relationship--4796c1ab.py",
+    "bytes": 3974,
+    "sha256": "8cb86f16f0d56414536535e8911aebb0488b23d0a6165ba5846cc0fce60a3344"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\reader\\excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/excel--e4b1ee2c.py",
+    "bytes": 12357,
+    "sha256": "9204ad42d3b58f4bd5e7a196697c68dc6036117ba8b86b6716b45532872af046"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\workbook\\workbook.py",
+    "status": "copiat",
+    "saved_path": "fisiere/workbook--9a225d42.py",
+    "bytes": 13232,
+    "sha256": "a1a12bbd21f5a94a615003ce6530878f6507c8a783aac8f60f270a083720a3b3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\writer\\excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/excel--0797c11d.py",
+    "bytes": 9572,
+    "sha256": "ea2a179f78521c72149e45b6c02c8180f0380a770ee855cbe72192033b2aa7a6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--78f46652.py",
+    "bytes": 90666,
+    "sha256": "80cf964f4288847c4c73d1f379115b55c21d047f2316ca3a995155e8d6a86169"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\2ed3bbc9-af3e-48f4-929a-b761e43c4c0d\\scratchpad\\l400.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\2ed3bbc9-af3e-48f4-929a-b761e43c4c0d\\scratchpad\\pages.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\2ed3bbc9-af3e-48f4-929a-b761e43c4c0d\\scratchpad\\v2check.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/TechnoMS",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/TechnoMS/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/TechnoMS/Fise electrice propuse/*toate*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/TechnoMS/Fise electrice propuse/04*/*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/TechnoMS/Fise electrice propuse/08*/*.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/nuttechnology.com",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/nuttechnology.com/Nuttechnology - Lista echipamente, capacitati si brosuri - 2026.09.28.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Nuttechnology - Lista echipamente, capacitati si brosur--c504ed7d.xlsx",
+    "bytes": 41773,
+    "sha256": "3134485699cf37c7183b01f88e9ccb2e5fab3cdacdc35b1552d2d088c8fc5417"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\TechnoMS",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\TechnoMS\\Analiza tehnico-economica oferta TEHNO MSS 400 kg-h - v2 cu propuneri de completare - CESIRO PRODUCTION - 2026.09.28.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Analiza tehnico-economica oferta TEHNO MSS 400 kg-h - v--f660dd6d.docx",
+    "bytes": 50790,
+    "sha256": "4ea88c6540fd142dd09f1574d80bfecfcf12013613fad18585ec338f24ffa2da"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\TechnoMS\\Oferta comerciala - CESIRO PRODUCTION - Linie procesare nuci 400 kg - h.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Oferta comerciala - CESIRO PRODUCTION - Linie procesare--8e1864d9.pdf",
+    "bytes": 1092628,
+    "sha256": "143b316d4198fcd2db11244d6897f835b7ac882555361bf4714b2429113bbc3c"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\nuttechnology.com",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\nuttechnology.com\\Brosuri echipamente",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\nuttechnology.com\\Brosuri echipamente\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\nuttechnology.com\\Nuttechnology - Lista echipamente, capacitati si brosuri - 2026.09.28.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Nuttechnology - Lista echipamente, capacitati si brosur--c504ed7d.xlsx",
+    "bytes": 41773,
+    "sha256": "3134485699cf37c7183b01f88e9ccb2e5fab3cdacdc35b1552d2d088c8fc5417"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\50. Fabrica Nuci\\\\TechnoMS\\\\Analiza tehnico-economica oferta TEHNO MSS 400 kg-h - v2 cu propuneri de completare - CESIRO PRODUCTION - 2026.09.28.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Analiza tehnico-economica oferta TEHNO MSS 400 kg-h - v--f660dd6d.docx",
+    "bytes": 50790,
+    "sha256": "4ea88c6540fd142dd09f1574d80bfecfcf12013613fad18585ec338f24ffa2da"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\50. Fabrica Nuci\\\\TechnoMS\\\\Fise electrice propuse\\\\Fise electrice propuse - toate utilajele - CESIRO PRODUCTION - 2026.09.29.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Fise electrice propuse - toate utilajele - CESIRO PRODU--dd3cc0da.pdf",
+    "bytes": 186520,
+    "sha256": "9640d4c7f7d2e3fa4eb7ff464e1a95e1e77d66cce266e3e496f52506579152ae"
+  },
+  {
+    "source_reference": "Z:\\\\00. Proiecte 2025\\\\AFIR FotoVoltaic 1\\\\50. Fabrica Nuci\\\\nuttechnology.com\\\\Nuttechnology - Lista echipamente, capacitati si brosuri - 2026.09.28.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Nuttechnology - Lista echipamente, capacitati si brosur--c504ed7d.xlsx",
+    "bytes": 41773,
+    "sha256": "3134485699cf37c7183b01f88e9ccb2e5fab3cdacdc35b1552d2d088c8fc5417"
+  },
+  {
+    "source_reference": "\\\\\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  }
+]

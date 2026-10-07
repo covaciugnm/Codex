@@ -1,0 +1,23 @@
+{
+  "id": "01a07e90-9e7b-7f13-9bf5-1be534fcf547",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788786789,
+  "updated_at": 1788795824,
+  "archived": 0,
+  "source": "vscode",
+  "title": "in folderul Z:\\00. Proiecte 2025\\2023.05.01 IndustryDeveloperPrinter",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 198206,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 128,
+  "message_count": 128,
+  "content_sha256": "3c8e39429f922e5ef4ba7a53a72670d69fd57c4184747df9db77a7f896c722d2",
+  "files_copied": 6,
+  "references_not_copied": 20
+}

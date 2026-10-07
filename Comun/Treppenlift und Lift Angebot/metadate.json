@@ -1,0 +1,23 @@
+{
+  "id": "01a0d24f-b4be-7fc0-9a97-201fddb49f1f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790234834,
+  "updated_at": 1790278032,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Treppenlift und Lift Angebot",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 314771,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 123,
+  "message_count": 123,
+  "content_sha256": "91374bebb6fd99e64a7d0c8717463fd3b5284ac5d10111f7d92122d723c31908",
+  "files_copied": 1,
+  "references_not_copied": 8
+}

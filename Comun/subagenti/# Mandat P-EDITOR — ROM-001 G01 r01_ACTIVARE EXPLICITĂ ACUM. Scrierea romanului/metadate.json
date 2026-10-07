@@ -1,0 +1,23 @@
+{
+  "id": "01a0d1c4-17bb-7e03-93a3-e542824bc776",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790225684,
+  "updated_at": 1790240580,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Lagrange\",\"agent_role\":null}}}",
+  "title": "# Mandat P-EDITOR — ROM-001 G01 r01\nACTIVARE EXPLICITĂ ACUM. Scrierea romanului a fost cerută de beneficiar, cu respectarea strictă a workflow-ului local. Rolul tău P-EDITOR, producător separat de auditori. Root D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000.\nCitește integral 00_CONDUCERE/MANUAL_ATELIER.md, ROADMAP.md, fișa 01_ECHIPA/P-EDITOR.md, 02_DOCUMENTARE/CANON_EXISTENT.md și noul 07_ROMANE/ROM-001/00_BRIEF/MANDAT_SESIUNE_20260924.md.\nSarcină precisă în paralel: pregătește un BRIEF_ROMAN_r01.md și un registru DECIZII_PROPUSE_r01.md numai în 07_ROMANE/ROM-001/00_BRIEF/. Canonistul citește integral H; managerul acoperă auxiliarele și proveniența. Folosește datele preliminare existente, nu pretinde lectura întregului H. Nu dubla canonistul.\nDirecție preliminară The Magenta Letters, AMORIS/Isabella Morgan, vol2 după Hotelul, autoare catalogată Gabrielle St. Claire. Identificator local ROM-001; WorkID propus magenta-letters (unicitatea va fi verificată de manager). EN original minimum50k, țintă65k, apoiRO/DE. Nu scrie G02research/G03concepte sau G04bible înaintea porții G01. La G01 definește promisiunea de gen și limitele finalului, nu inventa deja o intrigă aprobată.\nToate propunerile de reconciliere H-C1–C9/H-N1–N2 trebuie documentate separat: probă, opțiuni, recomandare justificată, impact în noul volum, efect asupra vechiului volum (care NU se modifică). Utilizatorul a fost întrebat dacă aprobă direcția și deleagă reconcilierea sau dorește fiecare alegere separat; momentan nu există răspuns, deci nu completa aprobări. Poți lăsa opțiunile deschise explicit, nu cosmetiza blocajul G01.\nNu considera frecvența numelui arbitru; nu inventa rudenii/change-of-name pentru a ascunde o eroare de autor. Păstrează finalul cuplului existent și consimțământul pentru plic ca obligații de continuitate. Nu muta automat la Tokyo/Lisabona din planurile vechi. Nu confunda protagonista Isabella cu autoarea.\nFișierele prin apply_patch. ID ROM-001-G01, versiune r01, ID agent real, statut DRAFT, grila G01 acoperire25/canon30/contradictii20/mandat15/trasabilitate10, intrări/probe și dependențe explicite. Nu modifica surse,site,registre globale,contracte sau audituri. Nu da scoruri. Nu crea subagenți.\nFinalizează aceste documente ca propuneri, raportează fișierele/deciziile ce necesită autoritate și așteaptă integrarea; nu pretinde roman finalizat.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 9369926,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 149,
+  "message_count": 41,
+  "content_sha256": "4c20983a0e53b500cd24c08549f0e2a7e6c3e8fff711b1a280415fcc0defe150",
+  "files_copied": 20,
+  "references_not_copied": 0
+}

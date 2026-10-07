@@ -1,0 +1,571 @@
+{
+  "rubrics": {
+    "SYS-001": [
+      {
+        "id": "mandat",
+        "weight": 25,
+        "description": "Trasabilitatea integrală a cerințelor și limitele mandatului"
+      },
+      {
+        "id": "independenta",
+        "weight": 20,
+        "description": "Roluri, identități, audit dublu și metaaudit separate de producție"
+      },
+      {
+        "id": "control",
+        "weight": 25,
+        "description": "Prag strict, versiuni, dependențe, condiții și teste de respingere"
+      },
+      {
+        "id": "arhivare",
+        "weight": 20,
+        "description": "Versiuni, rapoarte, respingeri, măsuri și rezultate recuperabile"
+      },
+      {
+        "id": "utilizare",
+        "weight": 10,
+        "description": "Procedură completă, reutilizabilă și fără afirmații false de realizare"
+      }
+    ],
+    "SEL-001": [
+      {
+        "id": "surse",
+        "weight": 25,
+        "description": "Surse și localizări verificabile pentru selecția preliminară"
+      },
+      {
+        "id": "distinctii",
+        "weight": 25,
+        "description": "Canon cert, contradicție, ipoteză și limită de acoperire separate"
+      },
+      {
+        "id": "compatibilitate",
+        "weight": 20,
+        "description": "Compararea opțiunilor din seriile începute"
+      },
+      {
+        "id": "recomandare",
+        "weight": 20,
+        "description": "Recomandare justificată fără canon nou inventat"
+      },
+      {
+        "id": "handoff",
+        "weight": 10,
+        "description": "Condiții clare pentru G01; nicio aprobare implicită a romanului"
+      }
+    ],
+    "RES-001": [
+      {
+        "id": "surse",
+        "weight": 25,
+        "description": "Surse primare și afirmații localizabile"
+      },
+      {
+        "id": "succes",
+        "weight": 20,
+        "description": "Dovezi de succes atribuite corect și limite declarate"
+      },
+      {
+        "id": "originalitate",
+        "weight": 25,
+        "description": "Mecanisme abstracte; fără recomandarea copierii expresiei/intrigilor"
+      },
+      {
+        "id": "relevanta",
+        "weight": 15,
+        "description": "Potrivire cu solicitarea și limite de canon explicite"
+      },
+      {
+        "id": "utilizare",
+        "weight": 15,
+        "description": "Combinații exploratorii, min50k și grilă pentru audit ulterior"
+      }
+    ],
+    "G01": [
+      {
+        "id": "acoperire",
+        "weight": 25,
+        "description": "Lectură integrală relevantă și proveniență"
+      },
+      {
+        "id": "canon",
+        "weight": 30,
+        "description": "Fapte, relații, cronologie și promisiuni corecte"
+      },
+      {
+        "id": "contradictii",
+        "weight": 20,
+        "description": "Toate contradicțiile importante închise"
+      },
+      {
+        "id": "mandat",
+        "weight": 15,
+        "description": "Gen, WorkID, poziție în serie și final compatibile"
+      },
+      {
+        "id": "trasabilitate",
+        "weight": 10,
+        "description": "Surse și decizii localizate"
+      }
+    ],
+    "G02": [
+      {
+        "id": "surse",
+        "weight": 25,
+        "description": "Afirmații din surse primare verificate"
+      },
+      {
+        "id": "piata",
+        "weight": 20,
+        "description": "Dovezi de succes și limite, fără promisiuni"
+      },
+      {
+        "id": "mecanisme",
+        "weight": 25,
+        "description": "Mecanisme și expresie distincte"
+      },
+      {
+        "id": "public",
+        "weight": 20,
+        "description": "Public și așteptări de gen clarificate"
+      },
+      {
+        "id": "utilizare",
+        "weight": 10,
+        "description": "Decizii aplicabile premisei fără copie"
+      }
+    ],
+    "G03": [
+      {
+        "id": "originalitate",
+        "weight": 30,
+        "description": "Configurație cauzală și expresivă independentă"
+      },
+      {
+        "id": "premisa",
+        "weight": 25,
+        "description": "Protagonist, conflict, miză și diferențiator"
+      },
+      {
+        "id": "gen",
+        "weight": 20,
+        "description": "Promisiune de gen și final compatibile"
+      },
+      {
+        "id": "canon",
+        "weight": 15,
+        "description": "Continuitate și fapte respectate"
+      },
+      {
+        "id": "dezvoltare",
+        "weight": 10,
+        "description": "Motor narativ suficient pentru50k+"
+      }
+    ],
+    "G04": [
+      {
+        "id": "personaje",
+        "weight": 30,
+        "description": "Alegeri, motivații, nevoi și costuri"
+      },
+      {
+        "id": "relatii",
+        "weight": 20,
+        "description": "Arcuri și schimbări de relație cauzale"
+      },
+      {
+        "id": "canon",
+        "weight": 20,
+        "description": "Fapte și cronologie consecvente"
+      },
+      {
+        "id": "lume",
+        "weight": 15,
+        "description": "Reguli și fapte clare"
+      },
+      {
+        "id": "voce",
+        "weight": 15,
+        "description": "Perspectivă, registru și glosar utilizabile"
+      }
+    ],
+    "G05": [
+      {
+        "id": "cauzalitate",
+        "weight": 25,
+        "description": "Scene legate prin acțiuni și consecințe"
+      },
+      {
+        "id": "structura",
+        "weight": 25,
+        "description": "Escaladare, punct median, criză și climax"
+      },
+      {
+        "id": "indicii",
+        "weight": 20,
+        "description": "Plantări și răsplătiri complete"
+      },
+      {
+        "id": "personaje",
+        "weight": 15,
+        "description": "Arcuri integrate în acțiune"
+      },
+      {
+        "id": "lungime",
+        "weight": 15,
+        "description": "Buget60–70k fără scene de umplutură"
+      }
+    ],
+    "G06": [
+      {
+        "id": "limba",
+        "weight": 30,
+        "description": "Engleză naturală și precisă"
+      },
+      {
+        "id": "voce",
+        "weight": 25,
+        "description": "Perspectivă și voce sustenabile"
+      },
+      {
+        "id": "dialog",
+        "weight": 20,
+        "description": "Subtext și diferențiere"
+      },
+      {
+        "id": "gen",
+        "weight": 15,
+        "description": "Promisiune și atracție de lectură"
+      },
+      {
+        "id": "canon",
+        "weight": 10,
+        "description": "Coerență cu planul și seria"
+      }
+    ],
+    "G07": [
+      {
+        "id": "functie",
+        "weight": 25,
+        "description": "Capitolul schimbă necesar starea poveștii"
+      },
+      {
+        "id": "cauzalitate",
+        "weight": 20,
+        "description": "Continuitate, reacții și consecințe"
+      },
+      {
+        "id": "personaje",
+        "weight": 20,
+        "description": "Motivație și dialog credibile"
+      },
+      {
+        "id": "limba",
+        "weight": 25,
+        "description": "Proză naturală, fără clișeu/repetiție dominantă"
+      },
+      {
+        "id": "integralitate",
+        "weight": 10,
+        "description": "Text complet, fără meta-instrucțiuni sau sinopsis"
+      }
+    ],
+    "G07-LOT": [
+      {
+        "id": "ritm",
+        "weight": 25,
+        "description": "Tensiune și variație susținute"
+      },
+      {
+        "id": "arcuri",
+        "weight": 25,
+        "description": "Acumularea schimbării personajelor"
+      },
+      {
+        "id": "canon",
+        "weight": 20,
+        "description": "Cronologie și fapte consistente"
+      },
+      {
+        "id": "indicii",
+        "weight": 20,
+        "description": "Plantări și răsplătiri la timp"
+      },
+      {
+        "id": "repetitii",
+        "weight": 10,
+        "description": "Scene și explicații fără duplicare"
+      }
+    ],
+    "G08": [
+      {
+        "id": "structura",
+        "weight": 30,
+        "description": "Roman complet cu climax câștigat"
+      },
+      {
+        "id": "personaje",
+        "weight": 25,
+        "description": "Arcuri credibile și încheiate"
+      },
+      {
+        "id": "ritm",
+        "weight": 20,
+        "description": "Mijloc activ și scene necesare"
+      },
+      {
+        "id": "canon",
+        "weight": 15,
+        "description": "Toate firele centrale rezolvate fără contradicții"
+      },
+      {
+        "id": "revizie",
+        "weight": 10,
+        "description": "Rescrieri trasabile și eficiente"
+      }
+    ],
+    "G09": [
+      {
+        "id": "limba",
+        "weight": 30,
+        "description": "Corectitudine și naturalețe EN"
+      },
+      {
+        "id": "stil",
+        "weight": 25,
+        "description": "Voce, precizie, imagini și subtext"
+      },
+      {
+        "id": "dialog",
+        "weight": 20,
+        "description": "Replici credibile și individuale"
+      },
+      {
+        "id": "repetitii",
+        "weight": 15,
+        "description": "Nicio redundanță materială"
+      },
+      {
+        "id": "integralitate",
+        "weight": 10,
+        "description": "Minimum50k proză completă, fără note/umplutură"
+      }
+    ],
+    "G10": [
+      {
+        "id": "fapte",
+        "weight": 30,
+        "description": "Afirmații materiale documentate"
+      },
+      {
+        "id": "originalitate",
+        "weight": 30,
+        "description": "Expresie și configurație diferențiate"
+      },
+      {
+        "id": "reprezentare",
+        "weight": 15,
+        "description": "Context și reprezentări tratate responsabil"
+      },
+      {
+        "id": "drepturi",
+        "weight": 15,
+        "description": "Proveniență și utilizare documentate"
+      },
+      {
+        "id": "trasabilitate",
+        "weight": 10,
+        "description": "Corecții și limite auditate"
+      }
+    ],
+    "G11": [
+      {
+        "id": "corectura",
+        "weight": 25,
+        "description": "Ortografie și punctuație"
+      },
+      {
+        "id": "coerenta",
+        "weight": 25,
+        "description": "Consistență integrală și canon"
+      },
+      {
+        "id": "experienta",
+        "weight": 20,
+        "description": "Gen, voce și final satisfăcătoare"
+      },
+      {
+        "id": "integralitate",
+        "weight": 20,
+        "description": "Minimum50k, text complet și fără erori deschise"
+      },
+      {
+        "id": "inghetare",
+        "weight": 10,
+        "description": "Master și dependențe exacte"
+      }
+    ],
+    "G12": [
+      {
+        "id": "fidelitate",
+        "weight": 30,
+        "description": "Sens și intenție păstrate"
+      },
+      {
+        "id": "limba",
+        "weight": 25,
+        "description": "Română naturală și voce"
+      },
+      {
+        "id": "integralitate",
+        "weight": 25,
+        "description": "Zero omisiuni/adăugiri materiale"
+      },
+      {
+        "id": "coerenta",
+        "weight": 10,
+        "description": "Nume, cronologie și glosar"
+      },
+      {
+        "id": "aliniere",
+        "weight": 10,
+        "description": "Capitol/paragraf și versiune EN exactă"
+      }
+    ],
+    "G13": [
+      {
+        "id": "fidelitate",
+        "weight": 30,
+        "description": "Sens și intenție păstrate"
+      },
+      {
+        "id": "limba",
+        "weight": 25,
+        "description": "Germană idiomatică și registru"
+      },
+      {
+        "id": "integralitate",
+        "weight": 25,
+        "description": "Zero omisiuni/adăugiri materiale"
+      },
+      {
+        "id": "coerenta",
+        "weight": 10,
+        "description": "Nume, cronologie și glosar"
+      },
+      {
+        "id": "aliniere",
+        "weight": 10,
+        "description": "Capitol/paragraf și versiune EN exactă"
+      }
+    ],
+    "G14": [
+      {
+        "id": "limba",
+        "weight": 30,
+        "description": "RO corect și natural"
+      },
+      {
+        "id": "fidelitate",
+        "weight": 25,
+        "description": "Sens și voce păstrate"
+      },
+      {
+        "id": "integralitate",
+        "weight": 25,
+        "description": "Integralitatea ediției"
+      },
+      {
+        "id": "conventii",
+        "weight": 10,
+        "description": "Dialog, diacritice și glosar"
+      },
+      {
+        "id": "versiune",
+        "weight": 10,
+        "description": "Master exact și corecții închise"
+      }
+    ],
+    "G15": [
+      {
+        "id": "limba",
+        "weight": 30,
+        "description": "DE corect și idiomatic"
+      },
+      {
+        "id": "fidelitate",
+        "weight": 25,
+        "description": "Sens și voce păstrate"
+      },
+      {
+        "id": "integralitate",
+        "weight": 25,
+        "description": "Integralitatea ediției"
+      },
+      {
+        "id": "conventii",
+        "weight": 10,
+        "description": "Registru, dialog și punctuație"
+      },
+      {
+        "id": "versiune",
+        "weight": 10,
+        "description": "Master exact și corecții închise"
+      }
+    ],
+    "G16": [
+      {
+        "id": "integralitate",
+        "weight": 30,
+        "description": "EN/RO/DE complete, aprobate și deschizibile"
+      },
+      {
+        "id": "metadate",
+        "weight": 20,
+        "description": "Titlu, autor, serie, limbă și drepturi exacte"
+      },
+      {
+        "id": "formate",
+        "weight": 20,
+        "description": "Cuprins, navigare, paginare și coperte corecte"
+      },
+      {
+        "id": "trasabilitate",
+        "weight": 20,
+        "description": "Manifest, audituri și hash-uri curente"
+      },
+      {
+        "id": "eliberare",
+        "weight": 10,
+        "description": "Pachet local fără publicare prematură"
+      }
+    ],
+    "G17": [
+      {
+        "id": "aprobare",
+        "weight": 25,
+        "description": "Aprobarea explicită pentru pachet și destinație"
+      },
+      {
+        "id": "integritate",
+        "weight": 25,
+        "description": "Copie exactă și arhivă locală păstrată"
+      },
+      {
+        "id": "livrare",
+        "weight": 25,
+        "description": "Acces verificat conform canalului"
+      },
+      {
+        "id": "metadate",
+        "weight": 15,
+        "description": "Ediția corectă, fără confuzie de versiuni"
+      },
+      {
+        "id": "raportare",
+        "weight": 10,
+        "description": "Dovadă reală, plan de revenire și proces-verbal"
+      }
+    ]
+  }
+}

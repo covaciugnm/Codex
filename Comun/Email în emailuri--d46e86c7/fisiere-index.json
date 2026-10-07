@@ -1,0 +1,127 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790086225736.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_draft--e16221f4.txt",
+    "bytes": 199922,
+    "sha256": "a473241cb77da2492d252def5661cc4612fd9aee7df3223dfddf358ce23e1cab"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790086225736.txt is JSON with schema: {items: [{...}], total: number, limit: number, offset: number}; probe the structure with jq (type/length/keys), then extract and read the content in full with jq or python, then summarize and quote any key findings verbatim.",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790086806994.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_draft--5a8982d0.txt",
+    "bytes": 55886,
+    "sha256": "1b9877ab028a5036d36315209368132e676c1117a5e62be8ffffaa5966ebb38d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results\\mcp-090946e4-21b8-41b4-9ba6-b8b5e95b5405-eva_list_drafts-1790086806994.txt is JSON with schema: {items: [{...}], total: number, limit: number, offset: number}; probe the structure with jq (type/length/keys), then extract and read the content in full with jq or python, then summarize and quote any key findings verbatim.",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\MEMORY.md",
+    "status": "copiat",
+    "saved_path": "fisiere/MEMORY--51c05c25.md",
+    "bytes": 6811,
+    "sha256": "d71a1fb30f14c87cdda8603b6acfdad01cc18eed637cb58d264b6a467332bcc8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\kstar-baterie-theodor-palady.md",
+    "status": "copiat",
+    "saved_path": "fisiere/kstar-baterie-theodor-palady--b75f56d9.md",
+    "bytes": 3808,
+    "sha256": "7dea37269d03dabd5ee8edf339038d55a7934816cda37635b70b509ead6bfea6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\scratchpad\\sent_drafts.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\scratchpad\\x.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\53293ac8-4640-4b44-a520-16fe8c29d958\\tool-results",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - Backup ciorne EVA",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - Backup ciorne EVA\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - Backup ciorne EVA\\ciorne-eva-backup-2026.09.22.json",
+    "status": "copiat",
+    "saved_path": "fisiere/ciorne-eva-backup-2026.09.22--12aa8b4b.json",
+    "bytes": 60452,
+    "sha256": "915ab103b390a9701d2bc9b79de091627ca036628da2775d5c9f4285aecc5d87"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - Backup ciorne EVA\\ciorne-eva-backup-2026.09.22.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/ciorne-eva-backup-2026.09.22--ddea92bf.txt",
+    "bytes": 43091,
+    "sha256": "1bd9e58bea4d6ee9a6fb2116834241ed52ec719a3fa1828b80d8ab671a529f4d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - Backup ciorne EVA\\ids.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/ids--411d1063.txt",
+    "bytes": 1860,
+    "sha256": "a502a71f5fa08e25fecb964f65ded82acc997daa5080e9d35bd4d1549308ca53"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\1. Oferta",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\1. Oferta\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\10. Documentatie Tehnica",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\10. Documentatie Tehnica\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\2026.09.22 - Draft email Sebastian Babu KSTAR - confirmare comanda si clarificari.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\2026.09.22 - Draft email Sebastian Babu KSTAR - v2 clarificari tehnice si contractuale.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\99. Inbox",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\2026.09.22 - KStar Baterie Theodor Palady 5\\99. Inbox/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "kstar-baterie-theodor-palady.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

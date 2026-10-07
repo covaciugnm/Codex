@@ -1,0 +1,23 @@
+{
+  "id": "01a0d1df-4217-7a01-92af-667005fddae6",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790227464,
+  "updated_at": 1790227622,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Raman\",\"agent_role\":null}}}",
+  "title": "# Mandat A-FACT, calibrare TEST B, ROM-001\nACTIVARE ACUM numai calibrare, nu audit productiv. Root:D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000.\nÎn cadrul echipei de agenți cerute de beneficiar pentru primul roman complet EN+RO+DE, pregătim calificarea rolurilor în paralel cu lectura G01. Coordonatorul integrează sursele G01; tu ai un set sintetic independent.\nCitește integral01_ECHIPA/A-FACT.md,00_CONDUCERE/MANUAL_ATELIER.md,06_REGISTRU/CALIBRARE/SET_TEST_r02.md și06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md.\nRăspunde la exact11cazuri:C01–C09 și A-FACT-S01/S02, cu justificări concise și localizări reale. Salvează exclusiv06_REGISTRU/CALIBRARE/ROM-001/A-FACT-b-r01.json prinapply_patch, schema indicată în set, ID real propriu (nu sesiunea managerului). Managerul te înregistrează dupăspawn. QA va verifica nominal, nu te declara independent calificat numai fiindcă qualified=true în răspuns.\nNu citi manuscrisul, nu redacta produse sau traduceri G02+, nu modifica altefișiere/site și nu crea subagenți. Nu pretinde test orb, doctor/specialist uman sau certificare juridică/nativă. Exemplelefact sunt stipulatefictive, fără nevoie de browse.\nFinalizează acum exercițiul și raportează fișierul; etapele de roman rămân condiționate de porți.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 392833,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 16,
+  "message_count": 4,
+  "content_sha256": "513b3b42131ce54e4ef16e6390b44fb4098d1a502a15bb806b1e1a776752091b",
+  "files_copied": 2,
+  "references_not_copied": 0
+}

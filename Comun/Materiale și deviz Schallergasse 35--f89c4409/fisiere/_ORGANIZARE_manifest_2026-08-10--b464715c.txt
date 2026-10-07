@@ -1,0 +1,71 @@
+MANIFEST REORGANIZARE - Schallergasse 35 - 2026-08-10
+Reversibil: mutati elementele din 'CATEGORIE' inapoi in radacina.
+NOTA: 'Arhitectura Madalina' a fost mutata in '03. Proiectare' (copiere completa verificata; ramasita duplicata a fost stearsa).
+================================================================================
+
+[01. Proprietate + Acte]  (13 elemente)
+   - Avocati
+   - CI Nou Cosmin Covaciu 2025 semnat.pdf
+   - Cadastru
+   - Contract Vanzare Cumparare
+   - GBA 05.11.25.pdf
+   - Imputernicire Verificare autorizatii
+   - Kaufanbot_Schallergasse35_Covaciu_Signed.pdf
+   - Proprietari Firma Cladire.png
+   - Unverbindliches Kaufanbot.docx
+   - Unverbindliches Kaufanbot_CH_überarbeitet (1).docx
+   - Unverbindliches Kaufanbot_CH_überarbeitet (1).pdf
+   - Unverbindliches Kaufanbot_CH_überarbeitet.docx
+   - VERBINDLICHES KAUFANBOT.docx
+
+[02. Autorizatie + Planse oficiale]  (6 elemente)
+   - 12S35_EinrBPH_2022-03-22+2022-09-06_Abgabe.pdf
+   - ACAD
+   - Bestandspläne
+   - P2041_C_220329_Baubeschreibung.pdf
+   - P2041_C_220404_GENEHMIGUNG+GESCHOSSE_A3.pdf
+   - Schallergasse_35_Baubescheid.pdf
+
+[03. Proiectare]  (4 elemente)
+   - Arhitectura Madalina
+   - Arhitectura Statica
+   - Statik
+   - Suprafete SchallerGasse 35.xlsx
+
+[04. Firme + Executie]  (10 elemente)
+   - Achizitie
+   - Antreprenor LVR GmbH Antreprenor General
+   - Comparația Detaliată a Serviciilor Managment.docx
+   - Constructor Christian Gschirtz
+   - Constructor SIMONE SCHWARZ
+   - Constructor Sandra Knöbl
+   - Documente Predate
+   - Echipa_si_Conditii_Schallergasse_35.docx
+   - Roadmap_Schallergasse_35.docx
+   - Übergabeprotokoll
+
+[05. Asigurari]  (2 elemente)
+   - Asigurare cladire
+   - Gebäudeversicherung
+
+[06. Utilitati]  (5 elemente)
+   - UTILITATI APA - Wiener Wasser
+   - UTILITATI Curent - Sturm Energie
+   - UTILITATI Gunoi
+   - Utilitati
+   - Utilitati - Contoare 2026.04
+
+[07. Poze + Video]  (3 elemente)
+   - 1. Fotos
+   - Poze
+   - Video
+
+[08. Corespondenta]  (4 elemente)
+   - 20250825195435103.pdf
+   - Rfk10069MM202500328.pdf
+   - eml
+   - s.schwarz@lv-r.at
+
+[09. Arhiva ZIP-uri mari]  (2 elemente)
+   - wetransfer_1120-wien-schallergasse-35_2025-11-05_1040.zip
+   - wetransfer_unterlagen-schallergasse-35_2025-11-10_1127.zip

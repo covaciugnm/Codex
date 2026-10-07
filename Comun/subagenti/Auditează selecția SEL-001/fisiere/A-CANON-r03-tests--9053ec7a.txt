@@ -1,0 +1,195 @@
+SEL-001 — A-CANON r03 — jurnal propriu de controale
+Auditor real: 01a0d0ee-a42b-7182-af79-92a1d6a9dafb
+Audit ID: SEL-001-A-CANON-r03-01a0d0ee-a42b-7182-af79-92a1d6a9dafb
+ROOT: D:\00. Downloads\Dracula Book\02. ATELIER EDITORIAL - ROMANE 50000
+Domeniu: selecție preliminară G00. Nu este audit de roman sau al aplicațiilor RES.
+
+T01 — CONTRACT ȘI MANIFEST
+Control complet: 2026-09-24T06:42:49.5431519+03:00
+Contract SEL-001/r03 SHA256 observat: 85ec85d5f34b57a49f0d0430e50caf030a094af11eba902c98692da3c565fd28
+Contract SYS-001/r03 SHA256 observat: 2a87f9d159a99fb048a4262f5b4ae34b8fe129668d5e67690e790ace6e99d09c
+Digesturi concordante cu mandatul, contractul și manifestul.
+Proiecție structurală exactă: toate câmpurile contractuale și ordinea listelor concordă cu manifestul curent.
+Delta r02->r03: numai dependencies, evidence_files, version_id.
+Produsul, criteriile/ponderile 25/25/20/20/10, producătorii, rolurile, requirements și politica sunt identice.
+34 intrări de istoric/context adăugate; zero intrări vechi eliminate/modificate.
+86 intrări verificate: 1 produs +85 evidence_files. SHA256 actual=declarat=copie r03-before-audit, toate.
+52 intrări comune r02: digesturi identice cu declarațiile r02 și cu copiile r02-before-audit.
+Control direct suplimentar byte cu byte pentru toate cele 52: 2026-09-24T06:46:38.6911543+03:00; zero diferențe.
+Cele 17 copii canonice sunt incluse în acest control; hashul nu este lectură critică integrală.
+
+T02 — INTEGRITATE CAPTURI, OBSERVAȚII PROPRII
+SEL/r03-before-audit: 331 intrări; zero erori de cale/hash/lungime.
+Index SHA256=3ebb395377127b71d7224a098134651aa08ef365fe6d33416bff568380d90b63; conținut sidecar=3ebb395377127b71d7224a098134651aa08ef365fe6d33416bff568380d90b63; concordant.
+Capturile istorice SEL reverificate la 2026-09-24T06:46:38.6911543+03:00:
+r01-after-audit: 185 intrări; index SHA256=140c741c34cb203211925d2c5ef76d0881c7bc343cc23798a6e9407e13b774ce; sidecar concordant; zero diferențe de hash/lungime.
+r02-before-audit: 228 intrări; index SHA256=1523afcea486883f6c5ed64751498fba92379ebbf649091b44e052315e6c8210; sidecar concordant; zero diferențe de hash/lungime.
+r02-after-audit-v02: 380 intrări; index SHA256=9ca8e5618544c7ebd6ef9f38c8f727ccdfc3d1f44f7d92a674023fe34343c874; sidecar concordant; zero diferențe de hash/lungime.
+Căile indexate au fost rezolvate și verificate în directorul exact al capturii înainte de citire.
+Indexurile r01-after-audit/r02-before-audit au fost citite din copiile plate contractuale.
+Indexul r02-after-audit-v02 a fost confruntat cu recipisa contractuală SEL-001-r02-after-audit-v02-archive.json.
+Acestea sunt verificări ale capturilor existente, nu execuții noi ale arhivatorului sau recuperări la rece.
+Nicio cale 08_ARHIVA nu va fi declarată ca evidence/supplement în JSON; observațiile de față sunt proba proprie pentru capturile fără index plat contractual.
+
+T03 — OBS-MANAGER-002 ȘI METARAPORTUL r02-v02
+Patru copii plate SEL: origine/copie comparate direct, lungime implicit identică prin compararea tuturor octeților, SHA256 observat=declarat.
+06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.json | 140c741c34cb203211925d2c5ef76d0881c7bc343cc23798a6e9407e13b774ce | bytes_identical=true
+06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.sha256 | dfab35f4cb43d8807ae8afa3834a7484bb4789604f2cc9ce010eb3d62bf8fb6b | bytes_identical=true
+06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.json | 1523afcea486883f6c5ed64751498fba92379ebbf649091b44e052315e6c8210 | bytes_identical=true
+06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.sha256 | d203909c54f7e7364fa0ff7de754e87ba22d13c75ae438ee2b58db0bdb302dfb | bytes_identical=true
+Sunt verificate numai cele patru copii SEL, nu revendic verificarea celor 12 copii ale tuturor pachetelor.
+Metaraport corectat: 05_AUDIT/SEL-001/A-QAMANAGER-r02-v02.json.
+Hashurile celor 2 audit_files și 12 supplemental_evidence_files ale acestuia au fost recalculat verificate: zero diferențe.
+Nicio referință de ingestie 08_ARHIVA în suplimentele/probele metaraportului corectat.
+Versiunea, contractul, identitatea/rolul, cele șase checks/passed, findings și verdictul sunt identice cu prima variantă: TRUE.
+Prima variantă A-QAMANAGER-r02.json/.md este păstrată și fixată separat în contractul r03.
+Proveniența și predarea filtrată A-QAMANAGER-predare-r02-v02.json au fost inspectate; nu sunt execuții proprii.
+Rezultatul de poartă istoric SEL-001-r02-after-audit-v02.json: passed=false, DEPENDENCY: SYS-001 did not pass.
+Verificările de ambalare nu transformă acest RETURN în acceptare.
+
+T04 — LECTURĂ ÎNTREGULUI PRODUS ȘI REGRESIE
+CANON_EXISTENT.md citit integral în r03: L1-L105, L106-L190, L191-L290, fără interval omis.
+Comparație directă de bytes pentru produs r03 și copia r02-before-audit: egalitate.
+Comparație text integral: egalitate; 290 linii fizice în produs.
+Antetul editorial r02 este conservat, nu schimbat în r03; nota INTEGRARE_r03.md declară reutilizarea produsului.
+Concluzie L11-L21, personaje L112-L142, cuplu L150, contradicții L175-L187, alternative L189-L244, recomandare L248-L258, handoff L268-L277 și limite L279-L290 recitite.
+Rândurile H-C1..8/H-N1..2 sunt identice și față de produsul r01 arhivat.
+Rândul vechi Alexandre Boucher (r01) și rândul actual Alexandre — Boucher/Dubois au fost confruntate explicit.
+Produs r01 arhivat SHA256=0c64e4cc13bed895a0105a582afca2c85905f69cc90e3ce34774446f2e87ad72; coincide cu digestul istoric. RETURN/open în A-CANON-r01.json rămân păstrate.
+
+T05 — SEL-001-A-CANON-F01 / F01-T1
+Execuție nouă r03: ZIP read-only H.docx -> word/document.xml -> //w:body//w:p, namespace w standard WordprocessingML, concatenare .//w:t, excludere paragraf gol/whitespace.
+H.docx SHA256=a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3.
+3984 paragrafe nevide. Căutare literală a numelor complete în toate paragrafele:
+Alexandre Boucher: P166,P860, exact 2.
+Alexandre Dubois: P3548,P3550, exact 2.
+P166, fragment: My specialty is post-war France, particularly social history—how ordinary people lived. Alexandre Boucher.
+P860, fragment: My name is Alexandre Boucher. I'm a historian in Paris.
+P3548: "Do you, Isabella Morgan, take Alexandre Dubois as your spouse?"
+P3550: "And do you, Alexandre Dubois, take Isabella Morgan as your spouse?"
+P3553: "I now pronounce you married. You may kiss."
+Lectură integrală nouă a contextului P3538-P3556. Căsătoria nu alege numele.
+
+T06 — F01-T2/T3/T4, ACELEAȘI CRITERII ORIGINALE
+Planul original SEL-001-plan-r01.md citit integral, inclusiv T1-T4 la L55-L58; findingul original citit din A-CANON-r01.json.
+T2: ambele nume și localizările la raport L13/L17, L112-L142, L150, L183/L187, L250-L252, L270-L277; căsătorie separată, fără nume ales.
+T3: hashes istorice H/r01 păstrate, raportul r03 identic r02; comparație cu rândul r01 și registrul contradicțiilor; nicio promovare G01.
+T4 istoric: perechea r02 A-CANON/A-GOVERNANCE și meta r02-v02 există, au identități independente și contractul r02 comun; legăturile hash și arhivarea lor sunt verificate.
+Nu se revendică o nouă execuție a acelor audituri/metaaudit/porți. Poarta globală r02 rămâne RETURN pentru dependență.
+T4 r03: contract nou/producători/autorizație/propriul audit; al doilea audit și metaauditul r03 nu sunt declarate finalizate de A-CANON.
+Concluzie F01: închiderea OMISIUNII DOCUMENTARE este confirmată de retest. Contradicția H-C9 din manuscris NU este închisă.
+
+T07 — LECTURI ȘI RETESTE EDITORIALE NOI r03, LISTĂ EXACTĂ
+H: P166/P860; P3538-P3556; P3882-P3892; P3931-P3955; P3981-P3984; P256/P1651/P1655/P1656/P3763/P3871/P3839/P3840/P3841/P3860.
+HC.txt: L684-L685.
+B: P153-P155/P2637-P2639/P2659-P2663.
+SH: P92-P93/P215/P2120-P2121.
+N: P3540-P3545/P3759-P3763/P3785-P3792.
+Z.zip!/book-outlines/complete-series-outline.md: L56/L64/L83, membru citit în memorie.
+NP.md: L106-L110.
+H: plic încă sigilat, camera14/M., registru Margaux/1968, expeditor/destinatar neconfirmați, căutare/acord viitoare; teaser The Magenta Letters.
+B: Delos discutat, nu acceptat; SH: prima scufundare împreună și Swan had a flock.
+N: moarte Malachar/Shadow Crown, cinci regate unite, The Eastern Sands; Z/NP rămân incompatibile.
+Restul lecturilor/căutărilor r02 nu au fost repetate: vezi auditul istoric MD integral recitit și jurnalul istoric L51-L76.
+În particular NU s-au repetat lecturile HB/HP/AC, restul finalurilor H/B/SH/N, căutările negative SH/N, comparația tokenurilor H/HT, lectura premisei Z și inspecția SITE_APP/CAT/OR. Integritatea bytes a acestor surse a fost reverificată.
+
+T08 — INDEPENDENȚĂ, SFERĂ ȘI LIMITE
+CONTEXT_R03/agents_at_freeze.json: producători 01a0d0d7-e865-7b71-9707-be8786099512 și 01a07b90-9d07-7e72-8eb7-8439e985b9ba; auditor A-CANON distinct.
+Autorizare live citită separat: ID real, A-CANON, kind auditor, active=true. Nu se citează hashul registrului live drept probă.
+Calificare nominală existentă: CALIBRARE_VERIFICARE-r02.md:L92-L112, 11/11; fără refacere sau retroactivitate.
+Citite: README instrumental complet, rubrici SEL/G00/G01, policy, contracte SEL r02/r03, nota INTEGRARE_r03, context stabil, planul F01 și probele istorice relevante.
+Nu au fost citite .env/rawlogs, nu a fost accesat site-ul, nu au fost creați alți agenți.
+Nu au fost rulate suitele SYS, auditate aplicațiile RES, creată arhivă sau refăcută recuperarea la rece.
+Ieșirile lungi trunchiate în afișare au fost reluate pe intervale; payloadul mecanic inițial prea lung a fost recollectat compact înainte de a fi folosit ca rezultat.
+Suplimente proprii: numai A-CANON-r03.md și A-CANON-r03-tests.txt. JSON se scrie după fixarea ambelor hashuri.
+
+T09 — INVENTAR SHA256 EXACT, TOATE DECLARAT=ACTUAL=COPIE r03-before-audit
+02_DOCUMENTARE/CANON_EXISTENT.md | e5b6baada48e7d138ce841d6cc2283787984f22759c368322b269a3eb26ea4b0 | comun-r02-neschimbat
+00_CONDUCERE/DECIZIE_EDITORIALA_001_SURSE.md | af8fa2d80f09318653a6f7450ed48851ceaedb51da6e7560bd2e96488bd2d523 | comun-r02-neschimbat
+00_CONDUCERE/MANUAL_ATELIER.md | 2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2 | comun-r02-neschimbat
+00_CONDUCERE/RUBRICI.md | 10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd | comun-r02-neschimbat
+00_CONDUCERE/policy.json | f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/AC.docx | a3e6fce74b01ff793abafd52467db782a80869e50c9ce58c55ec165ccb35a24b | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/B.docx | 4ebf04663fb5ee0ac9c0aa0ef26bd2d8c8222d95db93d16cbb372b7f8e7bf44c | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/CAT.md | 43dc2f09fd1ab09cda944283364cc03ed1942085f17d89f3a5a5c9d9e17025fb | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/H.docx | a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/HB.docx | 9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/HBT.txt | 1a44c0f32fa866fe1e171a013204ec17930c5cff74535ca1429cf41d151f5b31 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/HC.txt | a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/HP.docx | 7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/HT.txt | 6db47b2a2336796f1fb3b807a7189bcafe608aadabd0f22f5c66b52cde81c389 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/N.docx | c77846fdc094d5800735ab8bdc7a1a3f62248a313f5cf2ae6e757e8baef22039 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/NP.md | d89eec4df48fd8238557266d59e2cfe4c77e7d032300d8edbc09549e27e95a32 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/OR.txt | 2b50cb9a9b7cf6f8d9cc6c28ecb46ad6a75141fd97d3c987a7a8b71b9dfc9226 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/README.md | 739f9f9a1747dda2372edf687e454177b5802cba7a941ff138124bd9ccbd2e10 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/SH.docx | 3f5fc3d81f584d23e7d029e90ebe2d40f7b25c5a24dfa78a81f0c2ff58e11b47 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/SITE_APP.js | b3e62c3b0b84487a9b77da18f36b01b8b97e16cb7e92bba04976d83a0c0d4636 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/STATUS_r01.md | 87cc1a5225e72f1ee42b1f0766b0e1a529503dd166d3b9e9eeb37e4ce9375f12 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/SUPLIMENT_r02.json | 674c647af05517635b04d2a384df21902d30956b5c4245e32d66726eccd65114 | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/Z.zip | 22736278789db9e58e551013675e759ff68dff3a709d488e05e1b49cad98140c | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/Z0.zip | 180371ed4d5418eec4bd9313337f4390095bcdd13448e2ed6e302c04b56876af | comun-r02-neschimbat
+02_DOCUMENTARE/INTRARI_REFERINTA/index_origine.json | cc71a0c05c80ce0f8e7006baf29901c6ae17cd082bb2233fbfc90135c23c1b9f | comun-r02-neschimbat
+05_AUDIT/CALIBRARE_A-QAMANAGER-r01.md | 070f9bbe7d971de2b57c6685f74488f4929bc04f21fd451c70fd6348bd0f7da1 | comun-r02-neschimbat
+05_AUDIT/CALIBRARE_VERIFICARE-r02.md | 1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc | comun-r02-neschimbat
+05_AUDIT/SEL-001/A-CANON-r01.json | 66aa22455424a2f9f361531a472829a8f3aab543f731a0306f6565875c72c1cd | comun-r02-neschimbat
+05_AUDIT/SEL-001/A-CANON-r01.md | c4e491128bebc2d71838a9fae20b2aa47db6e0171a15514ba42af24324579fd6 | comun-r02-neschimbat
+05_AUDIT/SEL-001/A-CANON-r02-tests.txt | 535939ae4fd61525f12a7c1fefbf3e7e8460f1c694680b209e47a3bb7c7b963d | adaugat-contract-r03
+05_AUDIT/SEL-001/A-CANON-r02.json | 52f6763bee87ed040416871ecee6bef38c835b6228f8c1fc2308c1d766ee3ad3 | adaugat-contract-r03
+05_AUDIT/SEL-001/A-CANON-r02.md | ae613e4231641c409c4ff07ca7308110034a25e5a621786976c597874d26822f | adaugat-contract-r03
+05_AUDIT/SEL-001/A-GOVERNANCE-r01.json | e9951e8f8f18ee78749e509be62e91e4373454de70dde533420cea9937855e7e | comun-r02-neschimbat
+05_AUDIT/SEL-001/A-GOVERNANCE-r01.md | 6e4dd9244e687954a2f063a5e5d5eec0d5e203d75954fd828d5c568653d1231a | comun-r02-neschimbat
+05_AUDIT/SEL-001/A-GOVERNANCE-r02.json | d3962aff2280b16f459766b2486a97510e1122c11e595492dba8811782eeaeb7 | adaugat-contract-r03
+05_AUDIT/SEL-001/A-GOVERNANCE-r02.md | a06bef739d0d72e140c5534c702f5a7037bbb4c281b41e27e4e94f02eaa78aec | adaugat-contract-r03
+05_AUDIT/SEL-001/A-QAMANAGER-r01.json | 9bf6987b922da6617dd6b91e1f5361abe523781d6a92e7e9e6bf57e3d4eeec37 | comun-r02-neschimbat
+05_AUDIT/SEL-001/A-QAMANAGER-r01.md | d3e6c0c8dc16b2906f631814f3e5b93d616088fc50cbc443a281fe3e7b2d4226 | comun-r02-neschimbat
+05_AUDIT/SEL-001/A-QAMANAGER-r02-tests.txt | 7bdfcce6098694e066924616701557700546e28476cd3ee60c78425b1f298d67 | adaugat-contract-r03
+05_AUDIT/SEL-001/A-QAMANAGER-r02-v02.json | 3a3116325a629747b4a4109deac35b91c7bfe83a403e255061f3c8f812756ed5 | adaugat-contract-r03
+05_AUDIT/SEL-001/A-QAMANAGER-r02-v02.md | ed3b7fbc09ffd384376f850c3fca56cf8fc6149e707ee2c12968332660f5a97c | adaugat-contract-r03
+05_AUDIT/SEL-001/A-QAMANAGER-r02.json | 3146963d6dfc47ef576a18e092b4c7f0f38c1a26528b127181e47afa5e96de80 | adaugat-contract-r03
+05_AUDIT/SEL-001/A-QAMANAGER-r02.md | d1ddca8c05960e326f6096be744def439dfc12fa7e0287e5b4751008c677944e | adaugat-contract-r03
+06_REGISTRU/CALIBRARE/A-CANON-r02.json | c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659 | comun-r02-neschimbat
+06_REGISTRU/CALIBRARE/A-GOVERNANCE-r02.json | 6f55451c9e3017afdd07beb53451caadc7f10bef396e77ff06b5b7a8db346227 | comun-r02-neschimbat
+06_REGISTRU/CALIBRARE/A-QAMANAGER-r02.json | e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669 | comun-r02-neschimbat
+06_REGISTRU/CALIBRARE/A-SOURCES-r02.json | f0e37622956255a8abb9981d73c888f5083703447eef57a9e62f22f122111abe | comun-r02-neschimbat
+06_REGISTRU/CALIBRARE/A-SYSTEMS-r02.json | 313ad647e90dc3f34ce81928ed9bfcd44d60cacdf52290887de0fd10ef3227e7 | comun-r02-neschimbat
+06_REGISTRU/CALIBRARE/SET_TEST_r02.md | 968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba | comun-r02-neschimbat
+06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_PRIMARI_r02.json | 2a7ca3cc051b2ba4580d7fafcf9b77b9ae7e53795f34c4e8868d77a9a97bfb73 | comun-r02-neschimbat
+06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_QA_r02.json | 48d021151cc3a5fc0907540b166b7752f88932b74e9bdc809dd90da5f356b84d | comun-r02-neschimbat
+06_REGISTRU/CONTEXT_R02/EXECUTII_at_freeze.md | c8eb49c713e13c841d6b0966212ddf23baf4ae807e207cc9b70c6eab9e599409 | comun-r02-neschimbat
+06_REGISTRU/CONTEXT_R02/JURNAL_at_freeze.md | e28072b2ca74c4c61527bd488652adc890f488d2c6da11668bd0cb43364a201f | comun-r02-neschimbat
+06_REGISTRU/CONTEXT_R02/README.md | f762ee641602f4b358b13eb1afe46834421f40a14b9235198d9750341a58014b | comun-r02-neschimbat
+06_REGISTRU/CONTEXT_R02/STATUS_at_freeze.md | d77b04652dba304443cec3ca0526925359699b4447e550e3f7a842c871aca707 | comun-r02-neschimbat
+06_REGISTRU/CONTEXT_R02/agents_at_freeze.json | 7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446 | comun-r02-neschimbat
+06_REGISTRU/CONTEXT_R03/EXECUTII_at_freeze.md | 6d7f91e69ab7f3ee32047710f420e7bff31ceecf740e3558e242b2b78f18060d | adaugat-contract-r03
+06_REGISTRU/CONTEXT_R03/JURNAL_at_freeze.md | 175261e1f695a5a45f38f4172b32d432b36f7f99a7db33ea7ab2479bb4b4bb8e | adaugat-contract-r03
+06_REGISTRU/CONTEXT_R03/STATUS_at_freeze.md | 6959ce6552d187dc27369805c9b9e4ec06f5e5b52e2a32e720e82ebcb875ef29 | adaugat-contract-r03
+06_REGISTRU/CONTEXT_R03/agents_at_freeze.json | 7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446 | adaugat-contract-r03
+06_REGISTRU/CONTRACTE/SEL-001-r02.json | c59ce3e1f024d6e4c03d0f58b6296f1e7f6bedf6411b252bf4ef2c80396162be | adaugat-contract-r03
+06_REGISTRU/INTRARI_META_R02/README.md | e6b10576d3aa4dae82bddae77069e60b33e77a9a25adaf385276c8f7585425f0 | adaugat-contract-r03
+06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.json | 140c741c34cb203211925d2c5ef76d0881c7bc343cc23798a6e9407e13b774ce | adaugat-contract-r03
+06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.sha256 | dfab35f4cb43d8807ae8afa3834a7484bb4789604f2cc9ce010eb3d62bf8fb6b | adaugat-contract-r03
+06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.json | 1523afcea486883f6c5ed64751498fba92379ebbf649091b44e052315e6c8210 | adaugat-contract-r03
+06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.sha256 | d203909c54f7e7364fa0ff7de754e87ba22d13c75ae438ee2b58db0bdb302dfb | adaugat-contract-r03
+06_REGISTRU/INTRARI_META_R02/provenienta.json | 4852f5e49490606fa15c7ded40041a798236015b93b42df644e3e265cf6cd71e | adaugat-contract-r03
+06_REGISTRU/ISTORIC/A-QAMANAGER-predare-r02-v02.json | 2e26c5cdfbd109b5960948721bc096ebecb06e56d04fe966d7391107d3f2b5f3 | adaugat-contract-r03
+06_REGISTRU/ISTORIC/INSTRUCTIUNI_BENEFICIAR.md | a9833e0c0204f1dbd4aa40e0562717d3bff9f0ccb03d80913bdbf7f0884c353f | comun-r02-neschimbat
+06_REGISTRU/MASURI/INTEGRARE_r03.md | 95276aecc472acd9e6a07ef4bdb4415fbc935e875b8dbdd093ec280c120bbad8 | adaugat-contract-r03
+06_REGISTRU/MASURI/OBS-MANAGER-002-rezultate-r02-v02.md | 0e2aff60d35ff6cf3c3f068bdeede3c792e9f0990879ecd7939318bf5f7f22cc | adaugat-contract-r03
+06_REGISTRU/MASURI/OBS-MANAGER-002.json | 294879fe18d31e82c8702bc8330a57652de02d7dcec13fe55cd84156ba5240fb | adaugat-contract-r03
+06_REGISTRU/MASURI/SEL-001-plan-r01.md | a5f0b9c0ecb1605b562ec3000e3b74eed0a19b7bb1efdd5f3d51837463d5b7c0 | comun-r02-neschimbat
+06_REGISTRU/MASURI/SEL-001-rezultate-r02.md | 02497d4960507d9b7de3ad2f7ba000f1de187c13a29835d9ae599f4b00b928c5 | comun-r02-neschimbat
+06_REGISTRU/PROMPTURI/A-CANON-reaudit-r03.md | 021d5469b702f2bc394f6dd132fff0c1d64a99ef2251c3ca286b6e6d6e87faba | adaugat-contract-r03
+06_REGISTRU/PROMPTURI/A-GOVERNANCE-reaudit-r03.md | b81d11ed06361bd62b2f7498aa8dc45be1e97e93b94d0c18a98411da91fee672 | adaugat-contract-r03
+06_REGISTRU/PROMPTURI/A-SOURCES-reaudit-r03.md | db2046b718b3f8b87e95b1f98e0c5dbaee9a55ccaa42847855c3fb28e834a4a1 | adaugat-contract-r03
+06_REGISTRU/PROMPTURI/A-SYSTEMS-reaudit-r03.md | 97507c8dd969771972a60a038321c449fd904b48285decd8da25dd01a4f28b27 | adaugat-contract-r03
+06_REGISTRU/REZULTATE/RECUPERARE_REAL_AFTER_r02-v02.json | c71b79dc46c01a2bf4d423730ce9bc86fe184241d9285cea0d5fe06612aef039 | adaugat-contract-r03
+06_REGISTRU/REZULTATE/SEL-001-r02-after-audit-v02-archive.json | 98437d825731fb7c496fa2b0a09628e9b02b82987cd51aacbe2e95e369c780d1 | adaugat-contract-r03
+06_REGISTRU/REZULTATE/SEL-001-r02-after-audit-v02.json | f7e6f354f1e38e3de5a554db94ca8cf20790c8f2b61df3e71464756d6eedfd1f | adaugat-contract-r03
+06_REGISTRU/REZULTATE/SEL-001-r02-primary-complete-archive.json | e6e0e33b0a2a46a2945af2d3ec8adedbb08f6b08da92957c47d0f6b86277e17d | adaugat-contract-r03
+06_REGISTRU/REZULTATE/SEL-001-r02-primary-complete.json | be52817a2ff7697567723877d2441983f683d4d47cf685f2ba16eef4f99625d6 | adaugat-contract-r03
+06_REGISTRU/roadmap.json | 1f3162459556d67f2b474ba19e5239e06c6305d3fe1cb3e8037c8f901ec69e8f | comun-r02-neschimbat
+06_REGISTRU/roles.json | ef31d39f3e02984c83d4e9380d5ecfa70ff9435e9334e9084b7dc3701761db6f | comun-r02-neschimbat
+06_REGISTRU/rubrics.json | 90140106093ee9a5f23e824853a8565db8bec45c7c0028436af088bc1329446f | comun-r02-neschimbat
+
+Sfârșit jurnal. Nu conține digestul propriu sau al JSON-ului viitor; acestea sunt fixate extern prin raport/index.
+

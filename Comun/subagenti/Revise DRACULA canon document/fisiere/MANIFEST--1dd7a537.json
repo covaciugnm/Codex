@@ -1,0 +1,178 @@
+{
+  "inghetat_UTC": "2026-09-24T09:24:36.345716+00:00",
+  "versiune": "v4.2",
+  "canon_sha256": "243630e9071df7c7ee15cbf9f079fdac69f1d292950daab42cf927f36aa9ab26",
+  "fisiere": [
+    {
+      "path": "archives_avant.csv",
+      "bytes": 5997,
+      "sha256": "6f8936adba1a5b8bd6b1f65e7730789176af36afbb9ece93d6561f62eec6e117"
+    },
+    {
+      "path": "cautari_nume.json",
+      "bytes": 10975,
+      "sha256": "ead49fcdb46e56a2786a99b9bbbcaf9f8436632946f40d7a45313787c599cd73"
+    },
+    {
+      "path": "cine_stie.md",
+      "bytes": 1146,
+      "sha256": "44a7fc833d2bc42f647a0c9925c3746776239cc96acecea24b585621481a72a9"
+    },
+    {
+      "path": "clisee_24.md",
+      "bytes": 2057,
+      "sha256": "691019db127e809b20bd307e22e1c824d0bbee1e8f00fb09af6a87b7992e0067"
+    },
+    {
+      "path": "corespondenta_jurnal.md",
+      "bytes": 2576,
+      "sha256": "79eafeec614dd6a61bf58f443302a2e32cfe90e6370bd864a165277a99b294a1"
+    },
+    {
+      "path": "DEFECTE_64.md",
+      "bytes": 6113,
+      "sha256": "4cabb7345bd66c46b1d87d90c31cfb5842ac8b9dd0da47a27f349e749c95fd75"
+    },
+    {
+      "path": "diff_baza_vs_00_CANON_NUCLEU.patch",
+      "bytes": 70938,
+      "sha256": "8120a2a6297f297c3aaba2a44b01c204f9b8baf6f60cd005cf9adfa3a78b88ca"
+    },
+    {
+      "path": "diff_baza_vs_canon_concurrent_1210.patch",
+      "bytes": 16449,
+      "sha256": "22862d8202ea9978959cea7616a9b632974ae4764ee3db3fc21164fd1bd3db4d"
+    },
+    {
+      "path": "diff_propriu.patch",
+      "bytes": 103255,
+      "sha256": "24f56f3d9ce2decc370c161776da5e6dc347942fc67876fada8fdc8a7072dd0b"
+    },
+    {
+      "path": "dovezi.py",
+      "bytes": 22688,
+      "sha256": "6370a77b5119d9b0f92a4198d203fa6684afbcd808a0cbd02dadbcddc3dcce25"
+    },
+    {
+      "path": "finalizare.py",
+      "bytes": 4881,
+      "sha256": "d059883de57364f2ef9d8be6599da157c9a8df7f8e0b7e5043963ac7d1ea4b2c"
+    },
+    {
+      "path": "identitati.json",
+      "bytes": 6033,
+      "sha256": "6c7d5aed709317687f6634e00431997ac78e85b798129210cc3396f08c1bc97a"
+    },
+    {
+      "path": "inainte/00_CANON_NUCLEU.md",
+      "bytes": 168198,
+      "sha256": "eef72462df479ad0d88231aae6b0a9ead3a74df4621c5ceb88cc88961bcabad7"
+    },
+    {
+      "path": "integritate_arhive.json",
+      "bytes": 100,
+      "sha256": "97b81291aeeb9c03340b716daa8def44d64c215cfc958d307831fed11a17e5e8"
+    },
+    {
+      "path": "iteratia_1.md",
+      "bytes": 171519,
+      "sha256": "43bf5265ef5a28097b176dfc93d707315ec2bd931028bc70f2b1fe92b86fe3bd"
+    },
+    {
+      "path": "iteratia_2.md",
+      "bytes": 169501,
+      "sha256": "efacdd372b6b798ca4224bf67ade90a2c3fba087fc555bdf0a9e53ff3fdc5938"
+    },
+    {
+      "path": "iteratia_3.md",
+      "bytes": 168280,
+      "sha256": "6c678c050a1f170e8d24deac3cdf019ed6b9019889440bee193275e1d0856041"
+    },
+    {
+      "path": "MASURI_39.md",
+      "bytes": 4129,
+      "sha256": "6cd1be4836a24efd67b3cb84d4fd8c15efc9177401d34dfae3f7d9f4ccf15ca8"
+    },
+    {
+      "path": "modificari_proprii.json",
+      "bytes": 15627,
+      "sha256": "3822364df8ce19209315cc1c0723ed15803f22711aae318f019c1c87c2531a7a"
+    },
+    {
+      "path": "predat/00_CANON_NUCLEU.md",
+      "bytes": 168639,
+      "sha256": "243630e9071df7c7ee15cbf9f079fdac69f1d292950daab42cf927f36aa9ab26"
+    },
+    {
+      "path": "RAPORT_REVIZIE.md",
+      "bytes": 11265,
+      "sha256": "e92499901de28b072c5dd481ce0422b5a0b17305d54949308a3137d09fd54495"
+    },
+    {
+      "path": "referinte_la_predare.json",
+      "bytes": 2426,
+      "sha256": "5dec7278e596069220a11fdf1927fc55a91da19497a5c9ad3ceb1ab4bccb25c2"
+    },
+    {
+      "path": "reproductibilitate.json",
+      "bytes": 242,
+      "sha256": "4a34c2549adf2841519a091ed5c66f28d9ffccc664bfa79e4a45575e3f08422a"
+    },
+    {
+      "path": "revizie.py",
+      "bytes": 13958,
+      "sha256": "95d0294f3de684acabfbcc421f9c63209a2174f1ced3e92a54d6c08d25672b6d"
+    },
+    {
+      "path": "rezultat_iteratia2.json",
+      "bytes": 9085,
+      "sha256": "d070fcf322889979207dfa96b95442e651749c7cddfb5616528aaa199be44288"
+    },
+    {
+      "path": "rezultat_verificari.json",
+      "bytes": 9135,
+      "sha256": "d68b36b1c7922b7c962b8004f708c185dfc880f61c4546fc91cba6e31b7eb117"
+    },
+    {
+      "path": "rezultat_verificari.txt",
+      "bytes": 2721,
+      "sha256": "fbd25fb6de12a398c3dd4b48642980e6ba2515369d6b873b65f48fe67b89fe13"
+    },
+    {
+      "path": "scan_absolut.csv",
+      "bytes": 58159,
+      "sha256": "03ef933ff26119085c14ff6fd69def6a871e46ca39ebefabfd7460e6e740e6c7"
+    },
+    {
+      "path": "stare_url.json",
+      "bytes": 38820,
+      "sha256": "a28901588de1722848516bbe66f8655888525ad23c69dd482e7e76f640e21b69"
+    },
+    {
+      "path": "stare_url.txt",
+      "bytes": 13739,
+      "sha256": "65d337da561ec33afa53f8d1027ab377742da470f107025365c4c135ddc68494"
+    },
+    {
+      "path": "stare_url_iteratia1.json",
+      "bytes": 38756,
+      "sha256": "41ed9da538c500c8a3eccde80641c3f15566897ab3bfb8fd87c010961f9bfe7c"
+    },
+    {
+      "path": "stare_url_iteratia2.json",
+      "bytes": 38866,
+      "sha256": "10ebbe9f6a80ac45f69bd3e00bd1d6e8c0497a905759ffd5cdd7e3a4eb03b403"
+    },
+    {
+      "path": "verifica.py",
+      "bytes": 10586,
+      "sha256": "e81972764defce30e7d9775d028303f5d55d3f7daa1ea34150c120c5a050d56c"
+    },
+    {
+      "path": "verifica_url.py",
+      "bytes": 1314,
+      "sha256": "1af7231cc5f65d6ee562600239d383134dc60e4b12116cd75ed1fafad5d394d3"
+    }
+  ],
+  "dovezi_finalizate_UTC": "2026-09-24T09:25:04.268153+00:00"
+}

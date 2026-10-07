@@ -1,0 +1,33 @@
+{
+  "local_originals_preserved": true,
+  "masked_files": [
+    {
+      "path": "Găsește dicționare explicative/istoric.json",
+      "masked_values": {
+        "aws_access_key": 1,
+        "signed_url_credential": 3
+      }
+    },
+    {
+      "path": "Găsește dicționare explicative/rezultate.md",
+      "masked_values": {
+        "aws_access_key": 1,
+        "signed_url_credential": 3
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--44026b6e/istoric.json",
+      "masked_values": {
+        "aws_access_key": 1,
+        "signed_url_credential": 4
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--44026b6e/rezultate.md",
+      "masked_values": {
+        "aws_access_key": 1,
+        "signed_url_credential": 4
+      }
+    }
+  ]
+}

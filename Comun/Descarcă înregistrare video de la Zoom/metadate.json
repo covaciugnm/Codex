@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9e1e-75f2-b63f-b3105146b27a",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1783349713,
+  "updated_at": 1786540347,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Descarcă înregistrare video de la Zoom",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 379265,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 218,
+  "message_count": 218,
+  "content_sha256": "cc3d5ae7c51ea373e63a9acd350cf92074add2171bf70c1ea13febd84141dd9b",
+  "files_copied": 9,
+  "references_not_copied": 16
+}

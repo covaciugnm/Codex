@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "019f5ab9-7169-7f81-a685-c3a7bcb0a950",
+    "cwd": "\\\\?\\C:\\Windows\\System32",
+    "created_at": 1783933530,
+    "updated_at": 1783933684,
+    "archived": 0,
+    "source": "cli",
+    "title": "analizeaza fisierele din folderul \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\", avem in \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE\" - documentele oficiale ale proiectului - si in \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\" - ce am scris pana acum la proiectul care vrem sa il depunem - analizeaza ca un auditor financiar / tehnic etc proiectul si scrie o evaluare si o lista de imbunatairi sau greseli evidente",
+    "project_id": null,
+    "project": "_Fara proiect",
+    "assignment_method": "unassigned",
+    "parent_thread_id": null,
+    "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+    "source_bytes": 44317,
+    "invalid_json_lines": 0,
+    "history_source": "items",
+    "rollout_exists": true,
+    "item_count": 2,
+    "message_count": 2,
+    "content_sha256": "8f7dbe903a889cdb4d810368274db11aecdd42571c99d53ee62f9f3e3111eef9"
+  },
+  "items": [
+    {
+      "ordinal": 6,
+      "timestamp": "2026-07-13T09:07:51.801Z",
+      "turn_id": "019f5abb-995a-7a40-9b82-38466681fbaf",
+      "item": {
+        "type": "userMessage",
+        "id": "item-1",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "analizeaza fisierele din folderul \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\", avem in \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\1. DOCUMENTE OFICIALE\" - documentele oficiale ale proiectului - si in \"Z:\\00. Proiecte 2026 - SCRIEM\\2026.09.30 Acțiunea 2.1 POCIDIF\\P1. Dancorproiect SRL\" - ce am scris pana acum la proiectul care vrem sa il depunem - analizeaza ca un auditor financiar / tehnic etc proiectul si scrie o evaluare si o lista de imbunatairi sau greseli evidente",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783933671801
+    },
+    {
+      "ordinal": 11,
+      "timestamp": "2026-07-13T09:08:03.597Z",
+      "turn_id": "019f5abb-c671-7cf1-b82a-51849b568272",
+      "item": {
+        "type": "userMessage",
+        "id": "item-2",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "login",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1783933683597
+    }
+  ]
+}

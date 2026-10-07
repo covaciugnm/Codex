@@ -1,0 +1,52 @@
+[
+  {
+    "role": "P-MANAGER",
+    "agent_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+    "path": "C:/Users/User/.codex/sessions/2026/09/07/rollout-2026-09-07T14-11-10-01a07b90-9d07-7e72-8eb7-8439e985b9ba.jsonl"
+  },
+  {
+    "role": "P-CANON",
+    "agent_id": "01a0d0d7-e865-7b71-9707-be8786099512",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T03-36-47-01a0d0d7-e865-7b71-9707-be8786099512.jsonl"
+  },
+  {
+    "role": "A-GOVERNANCE",
+    "agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T04-01-34-01a0d0ee-9f2d-77d0-8603-7aa9969772af.jsonl"
+  },
+  {
+    "role": "A-CANON",
+    "agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T04-01-35-01a0d0ee-a42b-7182-af79-92a1d6a9dafb.jsonl"
+  },
+  {
+    "role": "A-QAMANAGER",
+    "agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T04-06-54-01a0d0f3-8249-7d91-95f4-ef806130bebe.jsonl"
+  },
+  {
+    "role": "P-EDITOR",
+    "agent_id": "01a0d1c4-17bb-7e03-93a3-e542824bc776",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T07-54-44-01a0d1c4-17bb-7e03-93a3-e542824bc776.jsonl"
+  },
+  {
+    "role": "A-GENRE",
+    "agent_id": "01a0d1d0-67b7-7ea2-9e31-562bc344aaa7",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T08-08-11-01a0d1d0-67b7-7ea2-9e31-562bc344aaa7.jsonl"
+  },
+  {
+    "role": "A-ORIGINALITY",
+    "agent_id": "01a0d1d0-690e-7871-b245-6817b004172f",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T08-08-11-01a0d1d0-690e-7871-b245-6817b004172f.jsonl"
+  },
+  {
+    "role": "A-STRUCTURE",
+    "agent_id": "01a0d1d0-6cb7-7681-8010-b13b8b640dad",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T08-08-12-01a0d1d0-6cb7-7681-8010-b13b8b640dad.jsonl"
+  },
+  {
+    "role": "A-EN",
+    "agent_id": "01a0d1d0-6f17-7c52-a5f8-a3c3178c2cb8",
+    "path": "C:/Users/User/.codex/sessions/2026/09/24/rollout-2026-09-24T08-08-13-01a0d1d0-6f17-7c52-a5f8-a3c3178c2cb8.jsonl"
+  }
+]

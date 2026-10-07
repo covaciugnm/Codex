@@ -1,0 +1,59 @@
+[
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Extrase echipamente inchiriate - 03.10.2026/01_Lista_si_referinte_exacte.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Lista_si_referinte_exacte--5c4b37b8.docx",
+    "bytes": 41643,
+    "sha256": "4009da35c58c65390a0d1624a3250cc541e69850232e3d88ef6e88de1fdfac2d"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Extrase echipamente inchiriate - 03.10.2026/01_Lista_si_referinte_exacte.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Lista_si_referinte_exacte--7baf0224.pdf",
+    "bytes": 85853,
+    "sha256": "90e59d439b00a7c38f13b1ff25b2fc1e0be56dee5d8195673b7bc54737195c6f"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Extrase echipamente inchiriate - 03.10.2026/02_Pagini_originale_cu_toate_referintele.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Pagini_originale_cu_toate_referintele--beb0147d.pdf",
+    "bytes": 8434355,
+    "sha256": "79f3999df192e02360fc35d9d07ac7b424fe2cc5caae60e276dc1c941678aba9"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Extrase echipamente inchiriate - 03.10.2026/03_Text_integral_referinte.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/03_Text_integral_referinte--3d5bf004.txt",
+    "bytes": 253655,
+    "sha256": "0a2c48b2eccdb359ef8cdca14fc6779216997f864ed8ccdb1cfc7a1d4070a6ba"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Justificare activitate alimentara - 30.09.2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Justificare activitate alimentara - 30.09.2026/01_Nota_justificativa_AFIR.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Nota_justificativa_AFIR--7449e786.docx",
+    "bytes": 41587,
+    "sha256": "2bdded75a78369fbdc32eb6a712bde957a7e5d230ecfca2a3a091e7f6625a5fe"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Justificare activitate alimentara - 30.09.2026/02_Analiza_documentara_si_rezerve.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Analiza_documentara_si_rezerve--19c28748.pdf",
+    "bytes": 83301,
+    "sha256": "6a93fb706fa53e30fbda425d4f7fd2ad4f25aa4716104a62cb1ecd8980581b2d"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/Justificare activitate alimentara - 30.09.2026/03_Extrase_documente.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/03_Extrase_documente--d6dc4df7.pdf",
+    "bytes": 3507616,
+    "sha256": "21704e7e25a48d6db86c74f36473e2f7954281a42104351611dad32b0dc20a24"
+  },
+  {
+    "source_reference": "https://www.afir.ro/media/arslgjpk/tabel-centralizator-intrebari-raspunsuri-privind-ghidul-solicitantului-aferent-schemei-de-energie.pdf",
+    "status": "referinta_externa_necopiata"
+  }
+]

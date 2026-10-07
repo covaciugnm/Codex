@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+  "role": "A-SOURCES",
+  "set_version": "r02",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Defectul este scorul 950 al criteriului menționat în stimul: 950 este egal cu limita exclusivă, deci nu o depășește. Scorurile 980 ale celorlalte criterii nu modifică acest rezultat individual. Eticheta PASS a autorului nu înlocuiește verificarea. Criteriul trebuie remediat și reevaluat pe probe; simpla schimbare a verdictului ori rotunjirea mediei nu îl face acceptabil.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L12-L14"
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Defectul se află în identificarea semnatarului auditului: producătorul X și aliasul Y au același ID X. Schimbarea numelui afișat nu creează un auditor independent, astfel că raportul este autoaudit. Este necesară evaluarea de către alt ID eligibil, care nu a produs livrabilul; redenumirea autorului raportului nu remediază lipsa independenței.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L16-L18"
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Neconcordanța este între amprenta A declarată în raport și amprenta B a fișierului curent. În stimul A și B diferă, deci raportul nu acoperă octeții curenți. Verdictul anterior nu se poate transfera prin înlocuirea administrativă a hashului. Versiunea B trebuie fixată și auditată, păstrând raportul versiunii A. A și B sunt simboluri ale exercițiului; nu pretind că am calculat hashuri pentru fișiere reale nespecificate.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L20-L22"
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Compar lista cerută, C01/C02/C03, cu predarea C01/C03: diferența este C02, absent. Defectul este omisiunea acestei componente, însoțită de afirmația neacoperită că predarea este completă. Sumarul nu furnizează conținutul lipsă. C02 trebuie depus efectiv, apoi integralitatea se reverifică față de toate cele trei ID-uri ale planului.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L24-L26"
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Defectul este aceeași scenă de 2.000 de cuvinte introdusă în două capitole și contabilizată de două ori. Cele două apariții pot produce un total mecanic de 4.000 de cuvinte pentru acel segment, dar reprezintă numai 2.000 de cuvinte de conținut distinct. Stimulul nu justifică repetiția ca dezvoltare narativă. Sunt necesare remedierea duplicării și verificarea textului și numărătorii rezultate; nu deduc lungimea totală a romanului din acest fragment.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L28-L30"
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Contradicția se localizează între finalul V1, unde moartea Marei este definitivă în canonul fictiv dat, și reprezentarea ei vie în V2. Stimulul exclude o explicație sau o schimbare autorizată. Nu pot presupune un vis, o înviere ori un artificiu temporal pentru a închide defectul. V2 trebuie adus în acord cu intrarea de canon sau trebuie documentată o schimbare autorizată, urmată de verificarea continuității.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L32-L34"
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Alinierea pe ID-uri arată că masterul EN cere P01, P02, P03 și P04, iar traducerea DE furnizează numai primele trei. Defectul este absența corespondentului DE pentru P04. Un volum total apropiat de original nu ar demonstra traducerea acelui paragraf. Trebuie tradus P04 și reverificată corespondența și fidelitatea tuturor celor patru paragrafe.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L36-L38"
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "Nu există defect în condițiile descrise: cei doi auditori sunt independenți și calificați, verifică versiunea fixată, fiecare criteriu are 951, nu există constatări, metaauditul este valid și toate condițiile tehnice sunt îndeplinite. Aplic strict comparația 951 > 950, fără a introduce un prag de 1000 ori o condiție absentă din contract. Verdictul privește numai acest stimul sintetic; nu aprobă un produs real și nu califică retroactiv runda r01.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L40-L42"
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Limitarea examinată se află în raportul unei selecții preliminare și delimitează sincer pasajele citite. Stimulul nu cere certificarea canonului integral, iar raportul nu pretinde acest rezultat sau aprobarea romanului. Prin urmare, limitarea declarată nu este singură o neconformitate. Rămân de evaluat celelalte cerințe ale selecției; acest răspuns nu acordă PASS întregului livrabil și nu deschide automat etapele ulterioare.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L44-L46"
+    },
+    {
+      "id": "A-SOURCES-S01",
+      "verdict": "RETURN",
+      "reason": "Defectul este deducția băncii că toate seriile au un canon ficțional comun. Premisa utilizatorului despre lumea umană și importanța prezentării nu dovedește identitatea personajelor, cronologiilor sau regulilor lumilor ficționale. Banca extinde astfel mandatul. Formularea și pașii care o preiau trebuie corectați pentru canon verificat separat pe serie/WorkID; eventualele legături între serii au nevoie de dovezi ori autorizare explicită.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L80-L82"
+    },
+    {
+      "id": "A-SOURCES-S02",
+      "verdict": "RETURN",
+      "reason": "Afirmația de zece milioane de exemplare vândute este localizarea defectului: singura probă din stimul susține un premiu critic, fără cantitate de vânzări. Un premiu nu permite calcularea exemplarelor și nu confirmă cifra invocată. Raportul trebuie să păstreze premiul în categoria recunoașterii critice și să retragă cifra nedemonstrată sau să o susțină cu o sursă comercială adecvată, precis atribuită. Nu declar cifra falsă în realitate; declar că nu este probată de sursa oferită.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L84-L86"
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T04:24:15+03:00"
+}

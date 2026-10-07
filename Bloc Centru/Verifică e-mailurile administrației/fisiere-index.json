@@ -1,0 +1,50 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Bloc Centru/Facturi/Registru note de plata - 2026-09-30.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru note de plata - 2026-09-30--9a9c4308.csv",
+    "bytes": 9014,
+    "sha256": "52489fd1594bc4974eb550f509fe02d0ea3cef4d5ef85c1d8334d5475d58d0be"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Bloc Centru/Situatie administratie bloc - 2026-09-30.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Situatie administratie bloc - 2026-09-30--745461b7.txt",
+    "bytes": 16639,
+    "sha256": "3a3c28df2fa21abff3654a49d27de821a89edcba51377cb09d1f0442e6047f25"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Bloc Centru\\Facturi\\Registru note de plata - 2026-09-30.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru note de plata - 2026-09-30--9a9c4308.csv",
+    "bytes": 9014,
+    "sha256": "52489fd1594bc4974eb550f509fe02d0ea3cef4d5ef85c1d8334d5475d58d0be"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Bloc Centru\\Situatie administratie bloc - 2026-09-30.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Situatie administratie bloc - 2026-09-30--745461b7.txt",
+    "bytes": 16639,
+    "sha256": "3a3c28df2fa21abff3654a49d27de821a89edcba51377cb09d1f0442e6047f25"
+  },
+  {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiMDQzN2I0MmYtY2UyZi00ZTFhLTgyYzAtZmZjY2Q4NDcxM2FjIiwiZSI6MTc5MTM4Nzg0NiwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.qNj8WN9QvImt-yP-qDYk0sShYZOtCvTCwqFKcjMQFuA",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiMmM5ZDQ1ZjktMjA4Zi00NDBjLTkxYTQtYWEzZTk3ODVlMWZhIiwiZSI6MTc5MTM4Nzg0NSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.fEs6EAWvco_N2qpGMivsmNHKypLWl-qvYXUycHSgzls",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiNjFkOTlkNmMtZmRlMy00NGUxLWFmMzItODRkMTUwNzgxYjVmIiwiZSI6MTc5MTM4Nzg0NSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.3fKsPrHGa1m6bW-Y8H-LBLa4BEUtzjPulRbhfeb1brc",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiY2M0MmE5ZTgtZGU4OC00ZjQwLWI1YjItYzAwNjhhMGYxNzFiIiwiZSI6MTc5MTM4Nzg0NSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.SAarYe7Y_XRfJayhqE1EA9scmR06SeZ0p8qUHW805j0",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "plugin://dev-6aa3eadee6ec8191a9bc3b9608c0f1bc@created-by-me-remote",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

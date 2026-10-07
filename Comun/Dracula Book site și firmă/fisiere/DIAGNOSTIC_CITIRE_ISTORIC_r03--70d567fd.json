@@ -1,0 +1,58 @@
+{
+  "scope": "Read-only closing verification, not a defect or edit of the accepted exporter. The first verification used .NET ReadAllBytes and failed on the still-open manager log; its mixed error output also caused a JSON parsing error. No source or capture was changed. Read-only retest uses a FileStream with read/write sharing so the existing writer may continue.",
+  "diagnostic": [
+    {
+      "role": "P-MANAGER",
+      "read_ok": false,
+      "error": "Exception calling \"ReadAllBytes\" with \"1\" argument(s): \"The process cannot access the file 'C:\\Users\\User\\.codex\\sessions\\2026\\09\\07\\rollout-2026-09-07T14-11-10-01a07b90-9d07-7e72-8eb7-8439e985b9ba.jsonl' because it is being used by another process.\""
+    },
+    {
+      "role": "P-CANON",
+      "read_ok": true,
+      "length": 5307281,
+      "prefix": 5307281
+    },
+    {
+      "role": "P-RESEARCH",
+      "read_ok": true,
+      "length": 4866093,
+      "prefix": 4866093
+    },
+    {
+      "role": "P-SYSTEMS",
+      "read_ok": true,
+      "length": 4350873,
+      "prefix": 4350873
+    },
+    {
+      "role": "A-GOVERNANCE",
+      "read_ok": true,
+      "length": 11119992,
+      "prefix": 11119992
+    },
+    {
+      "role": "A-SYSTEMS",
+      "read_ok": true,
+      "length": 11271685,
+      "prefix": 11271685
+    },
+    {
+      "role": "A-CANON",
+      "read_ok": true,
+      "length": 9649609,
+      "prefix": 9649609
+    },
+    {
+      "role": "A-SOURCES",
+      "read_ok": true,
+      "length": 9961588,
+      "prefix": 9961588
+    },
+    {
+      "role": "A-QAMANAGER",
+      "read_ok": true,
+      "length": 14884069,
+      "prefix": 14884069
+    }
+  ]
+}

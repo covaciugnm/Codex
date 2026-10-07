@@ -1,0 +1,37 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\commerce_readiness.py",
+    "status": "copiat",
+    "saved_path": "fisiere/commerce_readiness--742cb8dd.py",
+    "bytes": 7164,
+    "sha256": "a0c649b4a821abee98075cabdc1bfc058858b980a6bd43e9d9f679ba8d1f7123"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_commerce_readiness.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_commerce_readiness--7e186bb3.py",
+    "bytes": 3563,
+    "sha256": "80eeaee437325081907728db8dc218baa4a30ca3595faeedeed9cfb0ba4b90ba"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\COMMERCE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/COMMERCE--0088fa71.md",
+    "bytes": 4352,
+    "sha256": "c01e1039b9ead05e1f999b00d690ffcf04adbc8c54d98519e4bba33e70608248"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\check-commerce-readiness.py",
+    "status": "copiat",
+    "saved_path": "fisiere/check-commerce-readiness--ae637b58.py",
+    "bytes": 1129,
+    "sha256": "b72abc0c5b27358b13b77cae25e8cf237f70bb7e17e4063864e433b817deebd7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\ops\\export-commerce-form.py",
+    "status": "copiat",
+    "saved_path": "fisiere/export-commerce-form--3e92c392.py",
+    "bytes": 2664,
+    "sha256": "3200dd7aea97812a959b96e86c019e95baaf3d7c7a86d970bc0046268361b880"
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "source_reference": ".\", \"anchor_type\": \"optional\", \"lineno\": null, \"pageno\": null, \"height\": null, \"offset\": null}, \"turn0search23\": {\"url\": \"https://docs.github.com/en/rest/licenses/licenses\", \"title\": \"REST API endpoints for licenses - GitHub Docs\", \"ref_type\": \"search\", \"content_type\": null, \"anchor\": \"Replace [year] with the current year and [fullname] with the name (or names",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": ".\", \"anchor_type\": \"optional\", \"lineno\": null, \"pageno\": null, \"height\": null, \"offset\": null}, \"turn0search27\": {\"url\": \"https://awesome.ecosyste.ms/projects/github.com%2Fnvlabs%2Ffoundationpose\", \"title\": \"https://github.com/nvlabs/foundationpose | Ecosyste.ms: Awesome\", \"ref_type\": \"search\", \"content_type\": null, \"anchor\": \"# https://github.com/nvlabs/foundationpose ...     The code and data are released under the NVIDIA Source Code License.\", \"anchor_type\": \"optional\", \"lineno\": null, \"pageno\": null, \"height\": null, \"offset\": null}, \"turn0search28\": {\"url\": \"https://vpn.luca-server.com/px/aHR0cHM6Ly9naXRodWIuY29tL2ZhY2Vib29rcmVzZWFyY2gvc2FtLTNkLW9iamVjdHM\", \"title\": \"GitHub - facebookresearch/sam-3d-objects: SAM 3D Objects · GitHub\", \"ref_type\": \"search\", \"content_type\": null, \"anchor\": \"The SAM 3D Objects model checkpoints and code are licensed under SAM License. ... If you use SAM 3D Objects in your research, please use the following BibTeX entry.\", \"anchor_type\": \"optional\", \"lineno\": null, \"pageno\": null, \"height\": null, \"offset\": null}, \"turn0search29\": {\"url\": \"https://huggingface.co/nvidia/foundationpose/blame/main/README.md\", \"title\": \"README.md · nvidia/foundationpose at main\", \"ref_type\": \"search\", \"content_type\": null, \"anchor\": \"    <img src=\"https://github.com/NVlabs/FoundationPose/blob/main/assets/intro.jpg? ... By downloading the model, you accept the terms and conditions of these [licenses](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": ".\", \"pub_date\": null, \"crawl_date\": null, \"pub_timestamp\": 1763510400.0, \"crawl_timestamp\": 1790769212.0, \"ref_id\": \"turn236210search22\"}, \"status\": \"finished_successfully\", \"end_turn\": null, \"weight\": 1.0, \"metadata\": {\"debug_sonic_thread_id\": \"thread_6ac52e3e5cd8832a948e6cc73ef5a034\", \"search_engine\": \"system2-web\", \"result_source\": \"labrador\", \"ref_id\": \"turn236210search22\", \"minimal_str\": \"README.md · facebook/sam-3d-objects at refs/pr/3 (https://huggingface.co/facebook/sam-3d-objects/blob/refs%2Fpr%2F3/README.md?code=true",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": ".\", \"pub_date\": null, \"crawl_date\": null, \"pub_timestamp\": null, \"crawl_timestamp\": 1789903318.0, \"ref_id\": \"turn236210search26\"}, \"status\": \"finished_successfully\", \"end_turn\": null, \"weight\": 1.0, \"metadata\": {\"debug_sonic_thread_id\": \"thread_6ac52e3e5cd8832a948e6cc73ef5a034\", \"search_engine\": \"system2-web\", \"result_source\": \"labrador\", \"ref_id\": \"turn236210search26\", \"minimal_str\": \"Full Code of facebookresearch/sam-3d-objects for AI - Complete Repository Source | GitExtract (https://gitextract.com/facebookresearch/sam-3d-objects",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "./lightglue/superpoint.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/05/01a10ade-37d0-7f91-95c0-23125e63e891/plan-2026-10-06/04-candidati-research.md",
+    "status": "copiat",
+    "saved_path": "fisiere/04-candidati-research--bef2b144.md",
+    "bytes": 6973,
+    "sha256": "5757f5864f5d99d9e5d226fa4a24b42ed33146d4f200e374495711865761fe0f"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/05/01a10ade-37d0-7f91-95c0-23125e63e891/plan-2026-10-06/vision-robotics.md",
+    "status": "copiat",
+    "saved_path": "fisiere/vision-robotics--7e355b72.md",
+    "bytes": 30065,
+    "sha256": "2eb2c471c876f29016bc420f0b79fb0a743f949b68802686a234b97074e8234c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10ade-37d0-7f91-95c0-23125e63e891\\plan-2026-10-06\\04-candidati-research.md",
+    "status": "copiat",
+    "saved_path": "fisiere/04-candidati-research--bef2b144.md",
+    "bytes": 6973,
+    "sha256": "5757f5864f5d99d9e5d226fa4a24b42ed33146d4f200e374495711865761fe0f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10ade-37d0-7f91-95c0-23125e63e891\\plan-2026-10-06\\vision-robotics.md",
+    "status": "copiat",
+    "saved_path": "fisiere/vision-robotics--7e355b72.md",
+    "bytes": 30065,
+    "sha256": "2eb2c471c876f29016bc420f0b79fb0a743f949b68802686a234b97074e8234c"
+  },
+  {
+    "source_reference": "LICENSE",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "coreml.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://arxiv.org/abs/2212.06870",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://arxiv.org/pdf/2312.08344.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/MIT-SPARK/Kimera-RPGO",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/MIT-SPARK/Kimera-VIO",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/NVlabs/curobo/tree/v0.7.8",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cvg/Hierarchical-Localization/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cvlab-epfl/disk",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/facebookresearch/sam-3d-body",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/facebookresearch/sam-3d-objects/blob/main/notebook/demo_3db_mesh_alignment.ipynb",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/facebookresearch/vggt/blob/main/LICENSE.txt",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/introlab/rtabmap_ros/tree/master/docker",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/introlab/rtabmap_ros/tree/ros2#rtabmap_ros",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/magicleap/SuperPointPretrainedNetwork/blob/master/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/megapose6d/megapose6d",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/nv-nguyen/cnos",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/roboflow/rf-detr",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/roboflow/rfdetr/blob/main/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/stereolabs/zed-ros2-wrapper/blob/b512dce6ad4565f4770273995b147122e735ca0f/zed_wrapper/config/common.yaml#L58-L60",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ultralytics/yolo-flutter-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ultralytics/yolo-ios-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://img.shields.io/pypi/l/rfdetr",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://megapose6d.github.io/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ml-site.cdn-apple.com/datasets/fastvlm/llava-fastvithd_1.5b_stage3_llm.int8.zip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nvidia-isaac.github.io/nvblox",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://rfdetr.roboflow.com/latest/learn/run/segmentation/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+    "status": "referinta_externa_necopiata"
+  }
+]

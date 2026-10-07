@@ -1,0 +1,23 @@
+{
+  "id": "01a0e853-2827-7f11-9e9f-369d26196d65",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790599742,
+  "updated_at": 1790604062,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Poze arhivă stat - camera trei",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 155700,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 59,
+  "message_count": 59,
+  "content_sha256": "472c1a24904eba3f71abcea28a7674d130d3b65ef927cbfe99999f208bee8794",
+  "files_copied": 4,
+  "references_not_copied": 18
+}

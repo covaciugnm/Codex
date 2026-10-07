@@ -1,0 +1,23 @@
+{
+  "id": "01a0f720-1201-7d10-8fa2-36bb7ca10058",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026 EU",
+  "created_at": 1790852469,
+  "updated_at": 1790931697,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Analizează finanțarea bateriilor",
+  "project_id": "ec58c433-8025-4835-8910-bab2f99b913f",
+  "project": "FinantariEU",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 2887031,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 79,
+  "message_count": 14,
+  "content_sha256": "4cf72ff22d7335b517f0db2ae31971cc3c8a6da45734d2700f52002e86053f8e",
+  "files_copied": 2,
+  "references_not_copied": 3
+}

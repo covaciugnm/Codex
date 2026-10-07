@@ -1,0 +1,23 @@
+{
+  "id": "01a0d0ee-a18e-78a1-a069-9e87df0efc87",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790211695,
+  "updated_at": 1790222769,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Mencius\",\"agent_role\":null}}}",
+  "title": "Ești auditor INDEPENDENT. Nu ai produs documentele. Userul cere prag STRICT>9,50/10 PE FIECARE criteriu, doi auditori și metaaudit, arhivare inclusivRETURN. Nu ai obligația sădai951; scorulreflectăprobe. ROOT=D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000. Intrările sunt înghețate în06_REGISTRU/deliverables.json și08_ARHIVA/*/r01-before-audit. Citește00_CONDUCERE/RUBRICI.md,policy.json și04_INSTRUMENTE/README.md pentru schemaaudit. Nu modifica livrabile/registre. Scrii NUMAI05_AUDIT/<ID>/<ROLE>-r01.json și.md. JSONschemaexact{schema_version:1,audit_id,deliverable_id,reviewer_agent_id=IDultăuUUIDreal,reviewer_role,files:exactmanifestfiles,criteria:[{id,weight,score:int0..1000,evidence:[ROOT-relative-path:Lx-Ly sau #ancoră; numai referințe, nu proză]}],findings:[{id,severity,status:'open'|'closed',location,description,remediation}],verdict:'PASS'|'RETURN',limitations:[...],reviewed_at:ISO8601cuUTC/fus}. Fiecareconstatare cu remediere/test explicit înMD. Scor950 NUtrece. Nicio problemădeschisăcompensatăcu medie. Dovezi lacitareconcrete; nu aprobacanonintegral/stadiiG01+prin anexeG00. Fișierele existente și site-ul strictread-only; nicio.env. Dacănu poțiverifica/atingeobiectivul emiteRETURNcu motiv, nu inventaprobe. Nucreaalțisubagenți. PăstreazăJSON șiMDconsistente. Includeverificarea exactăhashurilor. Returnează verdicturile și fișierele.\nROL: A-SYSTEMS\nLivrabile: SYS-001\nAudit tehnic adversarial SYS-001. Inspectează integral gatekeeper.py archive_round.py test*.py README policyși schema, verifică testsnegative și limitele. Rulează151teste plusprobeproprii înTemporaryDirectory, fărăschimbareafișierelor. Verificăwordmin49999/50000,950vs951,falsePASS,statusforge,autoaudit,hashstale,dep/invalidation,metaaudit,separareidentități/arhivaextras/refuzoverwrite,pathsymlink. Citeștemanualroadmap suficienteptconcordanțacontractuală. Găsește defecte reale și explică impactul. Nu implementezi fixul; RETURNcândoricecriteriu<=950.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 11271685,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 155,
+  "message_count": 29,
+  "content_sha256": "1a9f47f6da6fc2bdf5ada1c7a01458675158f7a6585b07b361d8a191fb1f6714",
+  "files_copied": 23,
+  "references_not_copied": 0
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/dracula-design-office/design/DESIGN-SOURCES.md",
+    "status": "copiat",
+    "saved_path": "fisiere/DESIGN-SOURCES--aba0f90a.md",
+    "bytes": 3193,
+    "sha256": "0bdfe187cecf75fbe017219a4433badfd7dab9a6ad31b6a18558dd6fd8e56393"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/dracula-design-office/design/product-enrichment.json",
+    "status": "copiat",
+    "saved_path": "fisiere/product-enrichment--2a83fe10.json",
+    "bytes": 83755,
+    "sha256": "256f810878f0a9e965157233a4ff923083d4e35aca8a02c3cd32db5a2259d466"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\public\\assets\\produse\\dracula-design-esarfa-signature.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-design-esarfa-signature--38ad0a08.jpeg",
+    "bytes": 189002,
+    "sha256": "7b320dc19f7a2b521f67a1a0c1f060d4bcd5720901f1759c8e230a217ab6a7e0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\public\\assets\\produse\\dracula-design-geanta-tote.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-design-geanta-tote--9f68a3c2.jpeg",
+    "bytes": 179172,
+    "sha256": "8cf0cc8effbac3f1efa1bef04878d600c8d72405c71562f1d2ac70951aff00b2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\public\\assets\\produse\\dracula-design-portofel.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-design-portofel--fb4af901.jpeg",
+    "bytes": 189700,
+    "sha256": "2aa00bda9d3f2463aee108b1d6b012edc710083d8888f80d611b16f588f7a86e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\public\\assets\\produse\\dracula-design-rucsac-business.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-design-rucsac-business--6409f21b.jpeg",
+    "bytes": 158022,
+    "sha256": "1ba2d61d23541406440051de25e7d85cf7077fe2d006578b2d1cc43251b2b41a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\public\\assets\\produse\\dracula-design-servieta-business.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-design-servieta-business--09f63a3c.jpeg",
+    "bytes": 180870,
+    "sha256": "8fee3d40d42d533624fd3f0c31aee85fb62e1c67492b3ed525acb606b2454d63"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\build-design-enrichment.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build-design-enrichment--000570fb.cjs",
+    "bytes": 38600,
+    "sha256": "57379ac8555907a15b1200cf619efacab70d625da63419effd021fa2de1b888e"
+  }
+]

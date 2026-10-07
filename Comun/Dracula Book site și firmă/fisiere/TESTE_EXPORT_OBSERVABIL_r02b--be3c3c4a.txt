@@ -1,0 +1,23 @@
+TEST: filtrare și selecție configurație, nu audit editorial.
+test_absolute_external_config_rejected (test_export_istoric.ObservableExportTests.test_absolute_external_config_rejected) ... ok
+test_analysis_message_excluded (test_export_istoric.ObservableExportTests.test_analysis_message_excluded) ... ok
+test_commentary_message_included (test_export_istoric.ObservableExportTests.test_commentary_message_included) ... ok
+test_config_inside_workshop (test_export_istoric.ObservableExportTests.test_config_inside_workshop) ... ok
+test_config_parent_escape_rejected (test_export_istoric.ObservableExportTests.test_config_parent_escape_rejected) ... ok
+test_developer_message_excluded (test_export_istoric.ObservableExportTests.test_developer_message_excluded) ... ok
+test_final_message_included (test_export_istoric.ObservableExportTests.test_final_message_included) ... ok
+test_internal_message_metadata_omitted (test_export_istoric.ObservableExportTests.test_internal_message_metadata_omitted) ... ok
+test_media_not_copied_as_hidden_payload (test_export_istoric.ObservableExportTests.test_media_not_copied_as_hidden_payload) ... ok
+test_nested_private_keys_removed (test_export_istoric.ObservableExportTests.test_nested_private_keys_removed) ... ok
+test_reasoning_event_excluded (test_export_istoric.ObservableExportTests.test_reasoning_event_excluded) ... ok
+test_secret_patterns_redacted (test_export_istoric.ObservableExportTests.test_secret_patterns_redacted) ... ok
+test_system_message_excluded (test_export_istoric.ObservableExportTests.test_system_message_excluded) ... ok
+test_tool_call_allowlist (test_export_istoric.ObservableExportTests.test_tool_call_allowlist) ... ok
+test_tool_result_allowlist (test_export_istoric.ObservableExportTests.test_tool_result_allowlist) ... ok
+test_unknown_assistant_phase_excluded (test_export_istoric.ObservableExportTests.test_unknown_assistant_phase_excluded) ... ok
+test_user_text_preserved (test_export_istoric.ObservableExportTests.test_user_text_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.002s
+
+OK

@@ -1,0 +1,23 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\00_management\\apple_events.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/apple_events--10b94066.jsonl",
+    "bytes": 4225,
+    "sha256": "8cc6ea961195247b7025f7e922cea0d46bbadde71a67e0e7f3b048b1266e4b1b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\03_arhitectura\\01_arhitectura_apple.md",
+    "status": "copiat",
+    "saved_path": "fisiere/01_arhitectura_apple--cbb19dc4.md",
+    "bytes": 39204,
+    "sha256": "af5ee0847883c1139dafd73ea06aaa3aaf97ecef748d501f113cfd19e88883dd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\07_surse\\apple_sources.json",
+    "status": "copiat",
+    "saved_path": "fisiere/apple_sources--2e1a9ad5.json",
+    "bytes": 15628,
+    "sha256": "4c1c1d53d2236c5b3dc78b9e71048a129416269ed32ce7c403dbce8ca2a23191"
+  }
+]

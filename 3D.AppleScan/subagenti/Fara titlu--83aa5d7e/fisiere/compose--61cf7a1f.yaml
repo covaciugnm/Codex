@@ -1,0 +1,108 @@
+name: eva-3d-scan-site
+x-site-image: &site-image
+  image: eva-3d-scan-site:local
+  build: .
+x-owner-environment: &owner-environment
+  NODE_ENV: production
+  PGHOST: db
+  PGPORT: 5432
+  PGDATABASE: eva_site
+  PGUSER: eva_site
+  PGPASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+services:
+  db:
+    image: postgres:17.11-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: eva_site
+      POSTGRES_USER: eva_site
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_INITDB_ARGS: --auth-host=scram-sha-256
+    volumes:
+      - site_database:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U eva_site -d eva_site"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks: [private]
+  migrate:
+    <<: *site-image
+    restart: "no"
+    user: node
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    environment:
+      <<: *owner-environment
+      PGAPP_PASSWORD: ${PGAPP_PASSWORD:?Set PGAPP_PASSWORD in .env}
+    command: ["sh", "-c", "node scripts/bootstrap.mjs && node scripts/provision-runtime.mjs"]
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [private]
+  content:
+    <<: *site-image
+    profiles: [tools]
+    restart: "no"
+    user: node
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    environment:
+      <<: *owner-environment
+    command: ["node", "scripts/import-content.mjs"]
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [private]
+  app:
+    <<: *site-image
+    restart: unless-stopped
+    init: true
+    user: node
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      PGHOST: db
+      PGPORT: 5432
+      PGDATABASE: eva_site
+      PGUSER: eva_site_runtime
+      PGPASSWORD: ${PGAPP_PASSWORD:?Set PGAPP_PASSWORD in .env}
+    command: ["node", "server/index.mjs"]
+    ports:
+      - "127.0.0.1:4160:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/readyz').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 8s
+      retries: 3
+      start_period: 30s
+    networks: [private]
+  # Tunel Cloudflare „3dscan-eva-org” (doar cu --profile tunnel): 3dscan.eva-org.com -> http://app:3000
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    profiles: [tunnel]
+    command: ["tunnel", "--no-autoupdate", "run", "--token", "${CF_TUNNEL_TOKEN:?Set CF_TUNNEL_TOKEN in .env}"]
+    depends_on:
+      app:
+        condition: service_healthy
+    networks: [private]
+networks:
+  private:
+volumes:
+  site_database:

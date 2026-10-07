@@ -1,0 +1,212 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-CANON-CONTROLES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-CONTROLES--da94c929.json",
+    "bytes": 105586,
+    "sha256": "c1c72c28f4163cb5f30c2ec4c8483882da707cba2f9d18be2d4655ab92fd80bb"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-CANON.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON--3b87bd31.json",
+    "bytes": 15437,
+    "sha256": "afb03e8af99a9a550031b6b420434dc6e51a7b9d95db2afd702a2e0055a4243b"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON--6430f67d.md",
+    "bytes": 15050,
+    "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-CANON-CONTROLES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-CONTROLES--22181105.json",
+    "bytes": 83894,
+    "sha256": "1221cc5c46e8e2a0fd238fd8003c1a5e7f4e481b9acdfce68738a7891bd14ff7"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-CANON.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON--103bd983.json",
+    "bytes": 16649,
+    "sha256": "867888f1d0a5331f8c83bd1fe0061d3d5c4abd42280dcd338e5b35f934c81ff0"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-CANON.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON--927d314e.md",
+    "bytes": 13235,
+    "sha256": "e8ec20666f6e40885201bb34893ee4f947283356241be1f0ff21fb801ea65934"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r01--6a80afeb.json",
+    "bytes": 5434,
+    "sha256": "66aa22455424a2f9f361531a472829a8f3aab543f731a0306f6565875c72c1cd"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r01--8c00a66d.md",
+    "bytes": 26582,
+    "sha256": "c4e491128bebc2d71838a9fae20b2aa47db6e0171a15514ba42af24324579fd6"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r02-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r02-tests--f4f8cdfa.txt",
+    "bytes": 13048,
+    "sha256": "535939ae4fd61525f12a7c1fefbf3e7e8460f1c694680b209e47a3bb7c7b963d"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r02--bd21c8f6.json",
+    "bytes": 12505,
+    "sha256": "52f6763bee87ed040416871ecee6bef38c835b6228f8c1fc2308c1d766ee3ad3"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r02--bb3eda2b.md",
+    "bytes": 9564,
+    "sha256": "ae613e4231641c409c4ff07ca7308110034a25e5a621786976c597874d26822f"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r03-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r03-tests--9053ec7a.txt",
+    "bytes": 21427,
+    "sha256": "b7c2a54071679257abff38913ff216ee20560651d00ced8ecd285a88e580e83e"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r03--0db69e82.json",
+    "bytes": 12528,
+    "sha256": "100c3f057f41c3b4e30f57dc1bc69cad602c7808205889b1260adf1af6387787"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-CANON-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r03--a503f113.md",
+    "bytes": 9471,
+    "sha256": "cc82730b74d9534462472a36477d10d7c04b1af5d10eeb1b14bdb7feed012189"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/CALIBRARE/A-CANON-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r02--4405a391.json",
+    "bytes": 5810,
+    "sha256": "c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r01\\A-CANON-CONTROLES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-CONTROLES--da94c929.json",
+    "bytes": 105586,
+    "sha256": "c1c72c28f4163cb5f30c2ec4c8483882da707cba2f9d18be2d4655ab92fd80bb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r01\\A-CANON.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON--3b87bd31.json",
+    "bytes": 15437,
+    "sha256": "afb03e8af99a9a550031b6b420434dc6e51a7b9d95db2afd702a2e0055a4243b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r01\\A-CANON.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON--6430f67d.md",
+    "bytes": 15050,
+    "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r02\\A-CANON-CONTROLES.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-CONTROLES--22181105.json",
+    "bytes": 83894,
+    "sha256": "1221cc5c46e8e2a0fd238fd8003c1a5e7f4e481b9acdfce68738a7891bd14ff7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r02\\A-CANON.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON--103bd983.json",
+    "bytes": 16649,
+    "sha256": "867888f1d0a5331f8c83bd1fe0061d3d5c4abd42280dcd338e5b35f934c81ff0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\ROM-001-G01\\r02\\A-CANON.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON--927d314e.md",
+    "bytes": 13235,
+    "sha256": "e8ec20666f6e40885201bb34893ee4f947283356241be1f0ff21fb801ea65934"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-CANON-r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r01--6a80afeb.json",
+    "bytes": 5434,
+    "sha256": "66aa22455424a2f9f361531a472829a8f3aab543f731a0306f6565875c72c1cd"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-CANON-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r01--8c00a66d.md",
+    "bytes": 26582,
+    "sha256": "c4e491128bebc2d71838a9fae20b2aa47db6e0171a15514ba42af24324579fd6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-CANON-r02-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r02-tests--f4f8cdfa.txt",
+    "bytes": 13048,
+    "sha256": "535939ae4fd61525f12a7c1fefbf3e7e8460f1c694680b209e47a3bb7c7b963d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-CANON-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r02--bd21c8f6.json",
+    "bytes": 12505,
+    "sha256": "52f6763bee87ed040416871ecee6bef38c835b6228f8c1fc2308c1d766ee3ad3"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-CANON-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r02--bb3eda2b.md",
+    "bytes": 9564,
+    "sha256": "ae613e4231641c409c4ff07ca7308110034a25e5a621786976c597874d26822f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-CANON-r03-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r03-tests--9053ec7a.txt",
+    "bytes": 21427,
+    "sha256": "b7c2a54071679257abff38913ff216ee20560651d00ced8ecd285a88e580e83e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-CANON-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r03--0db69e82.json",
+    "bytes": 12528,
+    "sha256": "100c3f057f41c3b4e30f57dc1bc69cad602c7808205889b1260adf1af6387787"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SEL-001\\A-CANON-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r03--a503f113.md",
+    "bytes": 9471,
+    "sha256": "cc82730b74d9534462472a36477d10d7c04b1af5d10eeb1b14bdb7feed012189"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\CALIBRARE\\A-CANON-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-CANON-r02--4405a391.json",
+    "bytes": 5810,
+    "sha256": "c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659"
+  }
+]

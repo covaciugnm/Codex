@@ -1,0 +1,10 @@
+import sqlite3,os
+d=os.path.expandvars(r'%LOCALAPPDATA%\Google\DriveFS\114170809176153935306\metadata_sqlite_db')
+c=sqlite3.connect(f'file:{d}?mode=ro',uri=True)
+q=lambda s:c.execute(s).fetchall()
+print(q("pragma table_info(stable_parents)"))
+print("owned live files:",q("select count(*),sum(file_size)/1e9 from items where is_owner=1 and trashed=0 and is_folder=0 and is_tombstone=0"))
+print("owned trashed:",q("select count(*),sum(file_size)/1e9 from items where is_owner=1 and trashed=1 and is_folder=0"))
+print("id local-:",q("select count(*),sum(file_size)/1e9 from items where id like 'local%' and is_folder=0"))
+print("not owned:",q("select count(*),sum(file_size)/1e9 from items where is_owner=0 and is_folder=0"))
+print(q("select id,local_title,file_size from items where is_owner=1 and is_folder=0 and trashed=0 order by file_size desc limit 5"))

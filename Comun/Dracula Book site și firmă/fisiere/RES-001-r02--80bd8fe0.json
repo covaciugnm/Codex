@@ -1,0 +1,187 @@
+{
+  "criteria": [
+    {
+      "id": "surse",
+      "weight": 25
+    },
+    {
+      "id": "succes",
+      "weight": 20
+    },
+    {
+      "id": "originalitate",
+      "weight": 25
+    },
+    {
+      "id": "relevanta",
+      "weight": 15
+    },
+    {
+      "id": "utilizare",
+      "weight": 15
+    }
+  ],
+  "deliverable_id": "RES-001",
+  "dependencies": [
+    {
+      "contract": {
+        "path": "06_REGISTRU/CONTRACTE/SYS-001-r02.json",
+        "sha256": "904ec22c95a60d7295bd85642c33c49d1e1d340abf95e25538481fe82c83d637"
+      },
+      "deliverable_id": "SYS-001",
+      "version_id": "r02"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "00_CONDUCERE/DECIZIE_EDITORIALA_001_SURSE.md",
+      "sha256": "af8fa2d80f09318653a6f7450ed48851ceaedb51da6e7560bd2e96488bd2d523"
+    },
+    {
+      "path": "00_CONDUCERE/MANUAL_ATELIER.md",
+      "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2"
+    },
+    {
+      "path": "00_CONDUCERE/RUBRICI.md",
+      "sha256": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd"
+    },
+    {
+      "path": "00_CONDUCERE/policy.json",
+      "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4"
+    },
+    {
+      "path": "05_AUDIT/CALIBRARE_A-QAMANAGER-r01.md",
+      "sha256": "070f9bbe7d971de2b57c6685f74488f4929bc04f21fd451c70fd6348bd0f7da1"
+    },
+    {
+      "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+      "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-GOVERNANCE-r01.json",
+      "sha256": "d2f27f8d63b751cfecbdf82dd9189b0504e8c8e48a6c1460002387c561f9f789"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-GOVERNANCE-r01.md",
+      "sha256": "241b7cb229c3eed2f26ca70cb16abe6d35756eb994ce6797700b1d77029cbddb"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-QAMANAGER-r01.json",
+      "sha256": "b94b83624df0ed045705b85fd3749bb9ba95997dfa9e6480e8e1b8130762edae"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-QAMANAGER-r01.md",
+      "sha256": "ba9648e7bebc9fc30f89bd91763932fdcddb869e6a8205aeaf818bc98bf00e25"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-SOURCES-r01.json",
+      "sha256": "19484dc52b0aff45b3c5884eaa3c4a3b23cb7337ba0ebba119d798d3275288d3"
+    },
+    {
+      "path": "05_AUDIT/RES-001/A-SOURCES-r01.md",
+      "sha256": "31b9f074816f03459a663f34ab5740a47d10c2b4a4821c25e74a21c358ee1b8f"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-CANON-r02.json",
+      "sha256": "c92927500462e7d5867f41bcc2a7a1286fb0e5570bf4b31dd5302541ef5b4659"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-GOVERNANCE-r02.json",
+      "sha256": "6f55451c9e3017afdd07beb53451caadc7f10bef396e77ff06b5b7a8db346227"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-QAMANAGER-r02.json",
+      "sha256": "e1c1741e40369101bfdde3de01e65d3a90469ed547acd0bc99479addfdf9f669"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-SOURCES-r02.json",
+      "sha256": "f0e37622956255a8abb9981d73c888f5083703447eef57a9e62f22f122111abe"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/A-SYSTEMS-r02.json",
+      "sha256": "313ad647e90dc3f34ce81928ed9bfcd44d60cacdf52290887de0fd10ef3227e7"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md",
+      "sha256": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_PRIMARI_r02.json",
+      "sha256": "2a7ca3cc051b2ba4580d7fafcf9b77b9ae7e53795f34c4e8868d77a9a97bfb73"
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/VERIFICARE_MECANICA_QA_r02.json",
+      "sha256": "48d021151cc3a5fc0907540b166b7752f88932b74e9bdc809dd90da5f356b84d"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/EXECUTII_at_freeze.md",
+      "sha256": "c8eb49c713e13c841d6b0966212ddf23baf4ae807e207cc9b70c6eab9e599409"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/JURNAL_at_freeze.md",
+      "sha256": "e28072b2ca74c4c61527bd488652adc890f488d2c6da11668bd0cb43364a201f"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/README.md",
+      "sha256": "f762ee641602f4b358b13eb1afe46834421f40a14b9235198d9750341a58014b"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/STATUS_at_freeze.md",
+      "sha256": "d77b04652dba304443cec3ca0526925359699b4447e550e3f7a842c871aca707"
+    },
+    {
+      "path": "06_REGISTRU/CONTEXT_R02/agents_at_freeze.json",
+      "sha256": "7bdc7aff5dbdddfe76dfc47722655e42c05a9e03391dd72b23deed5ff243d446"
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/INSTRUCTIUNI_BENEFICIAR.md",
+      "sha256": "a9833e0c0204f1dbd4aa40e0562717d3bff9f0ccb03d80913bdbf7f0884c353f"
+    },
+    {
+      "path": "06_REGISTRU/MASURI/RES-001-plan-r01.md",
+      "sha256": "9fc4922b7e8f58017f0d85f5843d23c6c8251639279be61bc521b4e877153146"
+    },
+    {
+      "path": "06_REGISTRU/MASURI/RES-001-rezultate-r02.md",
+      "sha256": "8f48ead0e6679e0e93d1909d787caa48c1833999b2f822bd7ea91cd46888566f"
+    },
+    {
+      "path": "06_REGISTRU/roadmap.json",
+      "sha256": "1f3162459556d67f2b474ba19e5239e06c6305d3fe1cb3e8037c8f901ec69e8f"
+    },
+    {
+      "path": "06_REGISTRU/roles.json",
+      "sha256": "ef31d39f3e02984c83d4e9380d5ecfa70ff9435e9334e9084b7dc3701761db6f"
+    },
+    {
+      "path": "06_REGISTRU/rubrics.json",
+      "sha256": "90140106093ee9a5f23e824853a8565db8bec45c7c0028436af088bc1329446f"
+    }
+  ],
+  "files": [
+    {
+      "path": "02_DOCUMENTARE/BANCA_MECANISME_EXTINSA.md",
+      "sha256": "355b298ad718562a37717b0deadf1413d0e1c00a77765f9d9c08e8e53d444490"
+    },
+    {
+      "path": "02_DOCUMENTARE/REPERE_SI_MECANISME.md",
+      "sha256": "6413b6d1b2a93bc17a049538521fa9893a79788477c6a741eaa9a0273d338a01"
+    }
+  ],
+  "policy": {
+    "path": "00_CONDUCERE/policy.json",
+    "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4"
+  },
+  "producer_agent_ids": [
+    "01a0d0d8-0415-77a3-88c6-755ad2530f62",
+    "01a07b90-9d07-7e72-8eb7-8439e985b9ba"
+  ],
+  "required_audit_roles": [
+    "A-GOVERNANCE",
+    "A-SOURCES"
+  ],
+  "requirements": {},
+  "schema_version": 2,
+  "stage": "G00",
+  "version_id": "r02"
+}

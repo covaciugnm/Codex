@@ -1,0 +1,42 @@
+# ROM-001-G01 — trasabilitate și limită de acceptare
+Versiune de depunere:r01 (în pregătire); autor P-MANAGER01a07b90-9d07-7e72-8eb7-8439e985b9ba;24.09.2026 Europe/Bucharest. Acest document nu acordă scor și nu este audit.
+
+## Cerința urmărită
+Primul roman complet din seriile existente, The Magenta Letters, aprobat explicit de beneficiar, cu reconciliere documentată și auditată. DB-047 este identitatea unică din portofoliul100titluri; ROM-001 este dosarul local de producție, nu un titlu suplimentar. Slugul propus magenta-letters nu dovedește publicarea. Autorul de catalog este Gabrielle St. Claire, nu protagonista Isabella Morgan.
+
+## Ce livrează această etapă
+G01 livrează baza factuală complet documentată și canonul operațional al continuării, nu romanul. P-CANON a citit H integral P1–P3984, în40segmente; P-MANAGER a citit auxiliarele potrivit matricei17surse și a verificat variantele/proveniența; P-EDITOR integrează deciziile în trei componente r02, fără a rescrie sursa veche. Manifestul/contractul fixează exact componentele depuse și amprentele efective.
+Etichetele DRAFT din rapoartele de producție înseamnă că producătorii nu și-au aprobat singuri munca. CANON_FACTUAL/CRONOLOGIE_OBSERVATA/CONTRADICTII păstrează variantele H. Canonul de scriere este CANON_OPERATIONAL_r02 împreună cu DECIZII_CANON_r02, numai dacă întregul G01 va trece. Adoptarea unei variante pentru continuare nu „repară” retroactiv textul precedent și nu certifică datele sale.
+
+## Cerință — dovadă — test de acceptare
+| Cerință / obiectiv | Livrabile sau dovezi | Test |
+|---|---|---|
+| Lectură completă antecedent relevant | JURNAL_LECTURA; H; matrice și jurnal auxiliar | 3984/3984corp textual,40intervale continue, sursă neschimbată; limite DOCX explicite |
+| Identitate/corelație cu seriile | BRIEF; SITE_APP; STRATEGIE; VERIFICARE_IDENTITATE_CONTINUT | DB-047unic, ROM-001doar dosar, vol2Margaux, autoare/protagonistă distincte |
+| Fapte separate de normalizări | CANON_FACTUAL; CRONOLOGIE_OBSERVATA; DECIZII; CANON_OPERATIONAL | Probe localizate, adoptări declarate, niciun eveniment nou prezentat drept observație |
+| Contradicții reconciliate | CONTRADICTII cu22ID-uri, decizii și tabele operaționale | Dispoziție pentru fiecare H-C1–C16/H-N1–N6 și SEL-001-A-CANON-F01, zero conflicte importante neadresate |
+| Autoritate și drepturi | MANDAT_SESIUNE; APROBARE_BENEFICIAR; REGISTRU_DREPTURI | Mandat real pentru lucru local; fără certificate/licențe inventate; comercializarea verificată separat |
+| EN≥50.000cuvinte și RO/DE integrale | BRIEF; manual/roadmap; țintă65k | Cerință pentru etapele de proză, nu satisfăcută de acest dosar nenarativ |
+| Auditori separați, prag strict | agents context, calificări nominale, rapoarte de produs viitoare | Fiecare criteriu al ambilor >950/1000; zero constatări deschise; meta6controale |
+| Tot procesul observabil păstrat | Mandate, predări, componente, exporturi și verificările lor, BEFORE/AFTER | Nu se șterg respingeri; nu se exportă reasoning ori secrete; limitele recuperării sunt declarate |
+| Fără site/originale modificate | Verificări de surse; mandat local | Nu se copiază în S:; G17cere aprobare separată asupra pachetului exact |
+
+## Regulile de interpretare a necunoscutelor
+Începutul volumului2 moștenește plicul închis, în custodia Isabellei, registrul camerei14 și pista Margaux/1968. Cine a scris, cui îi aparține, biografia ulterioară și legătura exactă dintre cele două Margaux sunt dezvoltări de G03–G05, nu certitudini „descoperite” de echipă în H. Un necunoscut de mister explicit delimitat nu este o contradicție. Reconcilierea trebuie însă să dispună de fiecare variantă materială deja afirmată, nu doar să o evite în noua proză.
+Consimțământul pentru contact, transmitere, desigilare și publicare rămâne separat în poveste. Sarcina este timpurie, bazată pe testele din H; nu inventăm un copil deja născut. Afirmațiile medicale, juridice, de vânzări ori laudele din ficțiune nu sunt dovezi externe.
+
+## Istoricul și schimbările de context
+Păstrăm componentele inițiale ale editorului r01 și copia lor byte-identică, apoi r02 separat. Cele4documente canonist au fost citite de manager; corecțiile finale de atribuire/interval și suplimentul jurnalului au fost reverificate, fără a pretinde o lectură integrală H suplimentară de manager. Mandatele și răspunsurile reale sunt în06_REGISTRU/PROMPTURI și ISTORIC.
+Managerul a citit ulterior direct și integral numai epilogul/teaserul H P3833–P3984, ieșire4565de, pentru verificarea promisiunii de continuitate; nu îl numără drept a doua lectură completă a volumului. Plicul este încă nedeschis, identificarea persoanelor rămâne ipoteză, iar alegerea contactului și permisiunii este promisiune viitoare. Elogiile și repetițiile abstracte din sursă nu substituie acțiunea sau auditul în romanul nou.
+STATUS și registrele live evoluează. Contextul editorial r02 este fotografia fixă00_BRIEF/CONTEXT_INTEGRARE_r02, cu proveniență. Un hash istoric al registrului din draftul r01 nu este folosit drept hash curent. active:true este autorizare de rol, nu execuție permanent pornită.
+Captura observabilă ROM001-G01-preparare-r01 conține10surse, nu9dinliteralulhardcodatalexportatorului. OBS-EXPORT-001 păstrează indexul original și consemnează exact această eroare de metadată; toate20ieșiri derivate și10prefixe au fost verificate. Configurația v03 adaugă6execuțiiB; orice captură v03 va fi declarată prin numărul efectiv16, nu prinliteralulnine. Exportul este recuperare de prefixe observabile până la momentul capturii, nu înregistrare certificată exhaustivă a platformei. Rapoartele de audit/control nu sunt înlocuite de mesajele „gata”.
+
+## Încheierea integrării pentru depunerea r01
+P-EDITOR a predat toate cele trei componente r02. Managerul a citit integral BRIEF și CANON_OPERATIONAL, iar DECIZII integral în prefinal și apoi toate modificările până la predare. Cele32amprente ale intrărilor din brief și cele3amprente finale coincid;27controale aritmetice au fost recalculate pe calendarul final și corespund. Rezultatul exact este în06_REGISTRU/REZULTATE/ROM-001-P-EDITOR-primire-r02.json. Nu este audit independent și nu acordă notă.
+P-CANON a predat suplimentul cu20constrângeri calendaristice; P-SYSTEMS a inventariat143fișiere, verificate integral la momentul inventarului. Inventarul este o fotografie datată, nu o cerință ca registrele operaționale să nu mai evolueze. Lista PENDING descria acel moment; predările ulterioare au documente separate. Predările și închiderile ambelor execuții sunt păstrate. LotulB de auditori a fost calificat66/66; toate cele15identități de auditor sunt acum calificate, fără a fi permanent pornite sau a fi emis audit de roman.
+Configurația v04 include17execuții relevante, cu P-SYSTEMS suplimentar. Captura ROM001-G01-integrare-r02 păstrează2571înregistrări/428mesaje observabile,34fișiere derivate; toate amprentele/mărimile și toate17prefixe reale au fost verificate. Erratum-ul păstrează literalul eronat nine din index fără a-l corecta retroactiv. Captura este intermediară; predarea finală a editorului și comunicările ulterioare sunt păstrate separat și în următoarea captură.
+Checkpointul SYS-001/ROM001-production-checkpoint-r01 a arhivat485intrări, toate verificate. Este copie intermediară de proces, nu BEFORE_AUDIT G01 și nu aprobare G01. Include o versiune prefinală DECIZII; contractul G01 fixează explicit forma finală r02. Recipisa și verificarea sunt înREZULTATE/ROM001-checkpoint-support-*.json. Eroarea de orchestrare de după lansare nu a anulat arhivarea; sesiunea a fost urmărită până la exit0, fără reexecutarea rundei.
+
+## Succesiune și următorul rezultat
+G00r03 este acceptat și dependențele sunt fixate prin cele3contracte, fără refacerea auditurilor sale. G01 rămâne ÎN_PREGĂTIRE până la înghețarea contractului, BEFORE_AUDIT, cele2rapoarte independente, meta, poartă cumulativă și AFTER_AUDIT recuperat. Abia apoi G02 cercetarea de public/mecanisme; arhitectură G03–G05; probă de voce G06; capitole G07 succesive, revizii și ENlockG11; traduceri și corecturi G12–G15; pachet local G16. Nu se mută pe site prin această cerere.
+Progres de proză la această depunere:0cuvinteENnoi,0capitoleaprobate,0traduceri. Nu se contabilizează H, planurile, auditul, probele de test sau paratextele ca roman nou. Nicio estimare de ritm credibilă înainte de primele două capitole aprobate. Nu există garanție de bestseller, certificare umană, backup extern aprobat ori înregistrare juridică efectuată a firmei.

@@ -1,0 +1,5 @@
+{
+  "previous_status": {
+    "completed": "SYS-001 r02: RETURN.\n\nScoruri /1000: mandat 970; independență 970; control 940; arhivare 920; utilizare 940.\n\nF01–F04 din r01 și OBS-MANAGER-001 sunt închise prin retest. Rămân două defecte noi: prefix/hash inexact și scriere în afara destinației în exportatorul de istoric.\n\n233 + 17 teste trecute; 57 verificări proprii și 8 cazuri de istoric executate. Cele 190 de hashuri contractuale, suplimentele și concordanța MD/JSON au fost reverificate. Produsele și r01 sunt nemodificate.\n\nFișiere:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r02.md>)\n- [Audit JSON](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r02.json>)\n- [Jurnal de teste](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r02-tests.txt>)"
+  }
+}

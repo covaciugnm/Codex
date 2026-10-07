@@ -1,0 +1,692 @@
+[
+  {
+    "source_reference": "#1-robotics--ros2",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#2-perception--catalog",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#3-voice--ai",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#4-sync--cloud",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "#5-app--ux",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "../../../EVA-3DScan/EVA-3DScan/Core/Robot/RobotBridge.swift",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "../../../EVA-3DScan/EVA-3DScan/Core/Robot/RobotTelemetry.swift",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "01-specialist-iphone-ios.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "03-modele-voce-llm.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "04-candidati-research.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10ade-37d0-7f91-95c0-23125e63e891\\plan-2026-10-06\\CONTRACTE_V2.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CONTRACTE_V2--3e75f8ba.md",
+    "bytes": 18691,
+    "sha256": "76fa287fed75d54e411b2d5a8e1b73a8abbb4f6f229b35c172a08ef261a72a7f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10ade-37d0-7f91-95c0-23125e63e891\\plan-2026-10-06\\EXECUTIE_TESTE_V2.md",
+    "status": "copiat",
+    "saved_path": "fisiere/EXECUTIE_TESTE_V2--ab6ea88e.md",
+    "bytes": 23302,
+    "sha256": "17e05619d50161865ab200e028d007fba030eb053149642a769628234b2f5d51"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10ade-37d0-7f91-95c0-23125e63e891\\plan-2026-10-06\\PLAN_V1.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PLAN_V1--41829a9b.md",
+    "bytes": 13637,
+    "sha256": "d44e425caec368e95d196e99a639dcb9bf166ef4b8e64116dc27ba5947e27901"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10ade-37d0-7f91-95c0-23125e63e891\\plan-2026-10-06\\PLAN_V2.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PLAN_V2--7fb7c76a.md",
+    "bytes": 16561,
+    "sha256": "db8a63f1e97569b1d44d690ff5ae958877ecfa52d0d27f443b271b3f7870d1ef"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10ade-37d0-7f91-95c0-23125e63e891\\plan-2026-10-06\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--6b6edeb3.md",
+    "bytes": 3449,
+    "sha256": "84ce168a113023a85de82bd46778e53c3c6b47448b92648e1ab69e5bfe567272"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\05\\01a10ade-37d0-7f91-95c0-23125e63e891\\plan-2026-10-06\\RELUARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RELUARE--8fc0540f.md",
+    "bytes": 2764,
+    "sha256": "7ec4b98ac1eb8c5b8b483c8cafb610d92df4987d29e05c1858d31bce434de790"
+  },
+  {
+    "source_reference": "CONTRACTE_V2.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "EXECUTIE_TESTE_V2.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "MANIFEST_SHA256.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "PLAN_FINAL.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "PLAN_V2.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "RELUARE.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "audit-v1.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "audit-v2.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "auditor-preaudit.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "http://build.ros2.org/view/Rpr/job/Rpr__rcutils__ubuntu_focal_amd64/lastCompletedBuild/testReport/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cdn.kernel.org/doc/html/latest/userspace-api/media/v4l/open.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/apple-intelligence/foundation-models-adapter/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/ARKit/managing-session-life-cycle-and-tracking-quality",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/CoreAI/integrating-on-device-ai-models-in-your-app-with-core-ai",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/FoundationModels",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/FoundationModels/generating-content-and-performing-tasks-with-foundation-models",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/NearbyInteraction",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/RoomPlan/RoomCaptureSession/isSupported",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/Speech/SpeechAnalyzer",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/Vision/detecting-hand-poses-with-vision",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/Vision/detecting-human-body-poses-in-images",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/ardepthdata",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/ardepthdata/confidencemap",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/arframe/scenedepth",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/arframe/smoothedscenedepth",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/argeotrackingconfiguration/trackingobjects",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/armeshanchor",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/armeshanchor?changes=_1_5&language=objc",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/arsession/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/arworldtrackingconfiguration/iscollaborationenabled",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/combining-user-face-tracking-and-world-tracking",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/creating-a-collaborative-session",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfaudio/avspeechsynthesisvoice/speechvoices(",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfoundation/avcapturedevice/discoverysession/supportedmulticamdevicesets",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession/hardwarecost",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession/systempressurecost",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession? ... When your systemPressureCost is greater than 1.0, the capture session cannot run sustainably.\", \"anchor_type\": \"optional\", \"lineno\": null, \"pageno\": null, \"height\": null, \"offset\": null}, \"turn0search22\": {\"url\": \"https://apple-docs.everest.mt/docs/roomplan/merging-multiple-scans-into-a-single-structure/\", \"title\": \"Merging multiple scans into a single structure — Apple Developer Docs\", \"ref_type\": \"search\", \"content_type\": null, \"anchor\": \"# Merging multiple scans into a single structureExport a 3D model that consists of multiple rooms captured in the same physical vicinity. ... This sample code project is associated with WWDC23 session 10192: Explore enhancements to RoomPlan. ...   * `CapturedRoomData`\", \"anchor_type\": \"optional\", \"lineno\": null, \"pageno\": null, \"height\": null, \"offset\": null}, \"turn0search23\": {\"url\": \"https://www.apple.com/ie/iphone-18-pro/specs/\", \"title\": \"iPhone 18 Pro and 18 Pro Max - Technical Specifications - Apple (IE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession? ... When your systemPressureCost is greater than 1.0, the capture session cannot run sustainably.\", \"pub_date\": null, \"crawl_date\": null, \"pub_timestamp\": null, \"crawl_timestamp\": 1788818140.0, \"ref_id\": \"turn989490search21\"}, \"status\": \"finished_successfully\", \"end_turn\": null, \"weight\": 1.0, \"metadata\": {\"debug_sonic_thread_id\": \"thread_6ac5265cce448322beb094e3f8bb02d9\", \"search_engine\": \"system2-web\", \"result_source\": \"labrador\", \"ref_id\": \"turn989490search21\", \"minimal_str\": \"AVCaptureSession.rs - source (https://docs.rs/objc2-av-foundation/latest/aarch64-apple-watchos/src/objc2_av_foundation/generated/AVCaptureSession.rs.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfoundation/avcapturesession/interruptionreason/videodevicenotavailableinbackground",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/foundationmodels/adding-server-side-intelligence-with-private-cloud-compute",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/foundationmodels/running-a-core-ai-model-in-a-foundation-models-session",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/foundationmodels/supporting-languages-and-locales-with-foundation-models",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/realitykit/objectcapturesession",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/realitykit/objectcapturesession/issupported",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/realitykit/photogrammetrysession/issupported",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/roomplan/roomcapturesession/captureerror",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/roomplan/scanning-the-rooms-of-a-single-structure",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/roomplan/structurebuilder/capturedstructure%28from%3A%29",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/speech/sfspeechrecognizer/supportsondevicerecognition",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/speech/speechtranscriber",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/vision/identifying-3d-human-body-poses-in-images",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/vision/vngenerateforegroundinstancemaskrequest",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/visionos/using-a-reference-object-with-arkit-in-ios",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/ios/whats-new/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/videos/play/wwdc2025/277/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/videos/play/wwdc2026/241/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/videos/play/wwdc2026/283/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/wwdc26/guides/ios/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.docker.com/engine/storage/volumes/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.docker.com/reference/cli/docker/container/run/#device",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nav2.org/jazzy/getting_started/navigation_concepts/environmental_representation/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/batcher.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/model_repository.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.opencv.org/4.13.0/d5/d1f/calib3d_solvePnP.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.vllm.ai/en/stable/cli/serve/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/AprilRobotics/apriltag",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/FluidInference/FluidAudio",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/NVlabs/FoundationPose",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/NVlabs/GraspGenX",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/NVlabs/curobo",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/OHF-Voice/piper1-gpl",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/apple/coreai-models",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/argmaxinc/argmax-oss-swift",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/AI/LLMClient.swift#L50",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/AI/SpeechService.swift#L104",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Capture/InventoryMatcher.swift#L146",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Capture/InventoryMatcher.swift#L215",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Capture/RoomInventorySession.swift#L159",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Model/InventoryModels.swift#L198",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Robot/RobotBridge.swift#L107",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Robot/RobotPerceptionEngine.swift",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Robot/RobotPerceptionEngine.swift#L254",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Robot/RobotPerceptionEngine.swift#L689",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Robot/RobotPerceptionEngine.swift#L698",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Robot/RobotPerceptionEngine.swift#L747",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Robot/RobotTelemetry.swift",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Robot/RobotTelemetry.swift#L156",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Sync/InventorySyncService.swift",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Core/Sync/InventorySyncService.swift#L122",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan/Features/Inventory/InventoryLiveView.swift#L373",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScanTests/EVA_3DScanTests.swift#L20",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/98abc15fbdc5b6ee8c746be637a8094db8e6be3b/Site/server/inventory.mjs",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/98abc15fbdc5b6ee8c746be637a8094db8e6be3b/Site/server/inventory.mjs#L74",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/main/Aplicație/Extindere-Robotica/Plan_implementare_2026-10-06/PLAN_FINAL.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/main/Aplicație/Extindere-Robotica/Plan_implementare_2026-10-06/audit-v2.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/tree/0e71d84abeb603db4daf81c5917bab58d36dd728",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/tree/0e71d84abeb603db4daf81c5917bab58d36dd728/EVA-3DScan",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/tree/98abc15fbdc5b6ee8c746be637a8094db8e6be3b",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/tree/98abc15fbdc5b6ee8c746be637a8094db8e6be3b/Site",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/tree/main/Aplicație/Extindere-Robotica/Plan_implementare_2026-10-06",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/EVA-3DScan-MAC",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/deepinsight/insightface",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/facebookresearch/sam3",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/facebookresearch/vggt-omega",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/huggingface/transformers/blob/main/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/idiap/coqui-ai-TTS",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/nvidia-isaac/foundation-pose-inference-library",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/opencv/opencv_zoo/tree/main/models/face_recognition_sface",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros2/ros2_documentation/blob/jazzy/source/Concepts/Basic/About-Topics.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros2/ros2_documentation/blob/jazzy/source/How-To-Guides/DDS-tuning.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros2/ros2_documentation/blob/jazzy/source/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros2/ros2_documentation/blob/rolling/source/Get-Started/Configuring-ROS2-Environment.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros2/ros2_documentation/blob/rolling/source/Releases/Release-Lyrical-Luth.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ultralytics/yolo26",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/vllm-project/vllm/blob/main/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/Qwen/Qwen3.5-9B",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/coqui/XTTS-v2/blob/main/LICENSE.txt",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/eduardem/xtts-v2-romanian-v2",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/fal/AuraFace-v1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/google/gemma-4-31B-it",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/rhasspy/piper-voices/blob/main/ro/ro_RO/mihai/medium/MODEL_CARD",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://moveit.picknik.ai/main/doc/examples/urdf_srdf/urdf_srdf_tutorial.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0103.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0105.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0120.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros/robot_state_publisher/rolling/README.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros2/common_interfaces/rolling/nav_msgs/msg/Odometry.msg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros2/common_interfaces/rolling/sensor_msgs/msg/PointCloud2.msg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros2/design/gh-pages/articles/130_ros_time.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Quality-of-Service-Settings.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/ros2/sros2/rolling/README.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://repo.test.ros2.org/en/galactic/Concepts/About-Quality-of-Service-Settings.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://reps.openrobotics.org/rep-0105/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.apple.com/en-ca/102381",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.apple.com/en-us/102381",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.apple.com/iphone-18-pro/specs/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.man7.org/linux/man-pages/man7/fifo.7.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.man7.org/linux/man-pages/man7/inode.7.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.open3d.org/docs/release/tutorial/pipelines/icp_registration.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.postgresql.org/support/versioning/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ros.org/reps/rep-0103.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ros.org/reps/rep-0105.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "repeating: 0, count: Int(NI_MAXHOST",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "repeating: 0, count: width * height",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "versiuni/PLAN_V1.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "vision-robotics.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

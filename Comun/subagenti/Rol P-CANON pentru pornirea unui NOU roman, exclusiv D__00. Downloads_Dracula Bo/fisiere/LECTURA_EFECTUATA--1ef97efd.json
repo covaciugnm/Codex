@@ -1,0 +1,2786 @@
+{
+  "document": "LECTURA_EFECTUATA",
+  "rol": "P-CANON",
+  "data": "2026-09-28",
+  "proiect": "ROM-002",
+  "work_id": "DB-004",
+  "titlu_de_lucru": "The Bellmaker of Brașov",
+  "tip": "sondaj preliminar de continuitate",
+  "lectura_integrala_romane": false,
+  "canon_integral_stabilit": false,
+  "G01_integral": "in_lucru",
+  "limita_scriere": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\07_ROMANE\\ROM-002",
+  "livrabile_exclusive": [
+    "02_CANON/HARTA_PRELIMINARA.md",
+    "02_CANON/LECTURA_EFECTUATA.json"
+  ],
+  "metoda": {
+    "runtime_python": "C:/Users/User/AppData/Local/Programs/Python/Python312/python.exe",
+    "workdir": "C:/Users/User",
+    "powershell_output_encoding": "UTF-8: $OutputEncoding = [System.Text.UTF8Encoding]::new($false), înaintea fiecărui pipe Python",
+    "text_encoding": "utf-8-sig la citire; UTF-8 fără BOM la scriere",
+    "referinte": "IDuri din extras, L = linie Markdown; P = paragraf DOCX; numerele nu reprezintă pagini",
+    "extractie_preexistenta": "DOCX word/document.xml descendant w:p, w:t; markdown line IDs; text extraction is not full reading",
+    "citire_contextuala": "Intervalele inclusive indicate au fost afișate și citite; segmentele omise nu sunt declarate citite.",
+    "scanare_automata": "Fișiere întregi procesate pentru hash, numărări și expresii regulate; numai rezultatele afișate ale căutărilor se adaugă la lectura declarată.",
+    "trunchiere_si_remediere": "Un lot combinat N01/N02/N03 a fost trunchiat în ieșirea agregată. Finalul N01 de la L05301, intervalele N02 și începutul/finalul N03 au fost reafișate în loturi delimitate; nu se revendică lectura pasajelor ascunse numai prin acea ieșire.",
+    "structura": "Căutare inițială de antete la început de unitate; căutare suplimentară N03 pentru antete lipite de metanote. Potrivirile false sunt păstrate în jurnal, fără a fi clasificate drept capitole.",
+    "calcul_acoperire": "Reuniunea intervalelor contextuale cu unitățile rezultate și citite din căutări. Cuvinte = split() al corpului unității, fără prefixul L/P; include metanote, antete și anexe.",
+    "deductii": "Calculul vârstei/anului de naștere și comparațiile sunt inferențe explicit separate de enunțurile sursei.",
+    "cercetare_web": false,
+    "istorie_reala_verificata": false,
+    "surse_comics_consultate": false,
+    "import_canon_comics": false
+  },
+  "limite_DOCX": {
+    "dovada": "01_SURSE/VERIFICATION_EXTRACTION.json",
+    "dovada_citita_integral": true,
+    "corp_extras": "word/document.xml: descendant w:p, w:t",
+    "componente_existente_dar_neanalizate": {
+      "N02": [
+        "word/footnotes.xml",
+        "word/endnotes.xml",
+        "word/media/image1.jpeg"
+      ],
+      "N03": [
+        "word/footnotes.xml",
+        "word/comments.xml"
+      ]
+    },
+    "citire_directa_componente_sau_inspectie_vizuala": false,
+    "limita": "Fără conținutul notelor, comentariilor ori imaginilor; fără verificarea copertei și paginării. Metanotele deja prezente în corp sunt vizibile și citate."
+  },
+  "documente_context_citite": [
+    {
+      "fisier": "00_COORDONARE/MANDAT.md",
+      "mod": "integral",
+      "sha256": "3a8f94d98540fe24dcdf8116812eb9a9b152fd9261ea500b4e2b216f7fe11050",
+      "interval_linii_fizice": {
+        "de_la": 1,
+        "pana_la": 9
+      },
+      "statut_trasabilitate": "Referință preexistentă păstrată; hashul nu a fost înlocuit.",
+      "precizare_lectura_initiala": "În sondaj a fost citită formularea RO Clopotarul din Brașov. Hashul preexistent a fost calculat la generarea jurnalului, după actualizarea fișierului, și coincide cu mandatul actual. El nu certifică starea exactă de la prima lectură și nu este prezentat drept hashul variantei inițiale. Lectura actuală și copia arhivată sunt consemnate separat mai jos."
+    },
+    {
+      "fisier": "01_SURSE/MANIFEST_SOURCES.json",
+      "mod": "integral",
+      "sha256": "0191e506f0bb972abdd6f523f67c81430ead647c2e46d00908161d06542898a5",
+      "interval_structural": "întregul document JSON"
+    },
+    {
+      "fisier": "01_SURSE/EXTRAIT_STRATEGIE.json",
+      "mod": "integral",
+      "sha256": "aeb21a9489e4ad9cf89f0d5bd64e72c9aab6a925fe8828aae6ef4261938abfd2",
+      "interval_structural": "întregul document JSON",
+      "randuri_disponibile_si_citite": [
+        {
+          "sheet": "Catalog_100",
+          "row": 1
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 2
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 3
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 4
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 5
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 38
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 39
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 48
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 72
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 73
+        },
+        {
+          "sheet": "Catalog_100",
+          "row": 101
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 1
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 2
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 3
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 4
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 5
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 6
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 7
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 8
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 9
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 10
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 11
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 12
+        },
+        {
+          "sheet": "Saga_12",
+          "row": 13
+        }
+      ],
+      "utilizare": "Pentru DB-001–DB-004: Catalog_100 rândurile 1–5; celelalte rânduri afișate aparțin aceluiași extras local și nu au furnizat canon."
+    },
+    {
+      "fisier": "01_SURSE/VERIFICATION_EXTRACTION.json",
+      "mod": "integral",
+      "sha256": "718fee79270be1f55bb30e8e70d90668075a39c0b65e23009503ae995394736f",
+      "interval_structural": "întregul document JSON"
+    },
+    {
+      "id": "S02",
+      "fisier": "01_SURSE/texte/S02.txt",
+      "mod": "integral",
+      "intervale": [
+        {
+          "de_la": "L00001",
+          "pana_la": "L00100",
+          "inclusiv": true
+        }
+      ],
+      "sha256": "9ac1d6d88deed35996b9a3d9e74a487b9e6dcfa84c6c9b30226215cb2ea032f8",
+      "utilizare": "Catalog local; comparațiile NOIR folosesc L00013–L00015 și L00070–L00072. Etichetele de completare din catalog nu sunt acceptări editoriale acordate de P-CANON."
+    },
+    {
+      "fisier": "00_COORDONARE/MANDAT.md",
+      "mod": "integral",
+      "versiune": "actuală, citită integral la sincronizarea finală",
+      "moment_lectura": "Sincronizarea finală cerută de beneficiar, după predarea preliminară",
+      "sha256": "3a8f94d98540fe24dcdf8116812eb9a9b152fd9261ea500b4e2b216f7fe11050",
+      "interval_linii_fizice": {
+        "de_la": 1,
+        "pana_la": 9
+      },
+      "metoda_numarare_linii": "bytes.decode(utf-8-sig).splitlines(), inclusiv liniile goale; citire a întregului fișier, fără normalizarea prealabilă a terminatoarelor",
+      "titlu_RO_propus": "Făuritorul de clopote din Brașov",
+      "linie_titlu_RO": 5,
+      "utilizare": "Sincronizarea referinței de titlu din PC-13 și trasabilitatea mandatului; fără modificarea constatărilor ori canonului."
+    },
+    {
+      "fisier": "08_ARHIVA/MANDAT_initial.md",
+      "mod": "integral",
+      "versiune": "inițială arhivată, citită integral la sincronizarea finală",
+      "moment_lectura": "Sincronizarea finală cerută de beneficiar, după predarea preliminară",
+      "sha256": "d0a05ac053a3fd34a2b9a90502d65b823d53411b7cb538897a68eb3fdb9e657b",
+      "interval_linii_fizice": {
+        "de_la": 1,
+        "pana_la": 9
+      },
+      "metoda_numarare_linii": "bytes.decode(utf-8-sig).splitlines(), inclusiv liniile goale; citire a întregului fișier, fără normalizarea prealabilă a terminatoarelor",
+      "titlu_RO_propus": "Clopotarul din Brașov",
+      "linie_titlu_RO": 5,
+      "utilizare": "Sincronizarea referinței de titlu din PC-13 și trasabilitatea mandatului; fără modificarea constatărilor ori canonului."
+    }
+  ],
+  "surse_romane": [
+    {
+      "id": "N01",
+      "fisier": "01_SURSE/texte/N01.txt",
+      "versiune_din_manifest": [
+        "Versiunea 6",
+        "UMBRA TRANDAFIRULUI NEGRU V6.md"
+      ],
+      "sha256_extras": "e39db8d0c29e94bcb945855d789be5446cd663219d3782fc28ce052ccdbb7d04",
+      "sha256_manifest_identica": true,
+      "unitati_totale": 6125,
+      "cuvinte_totale_corp_extras": 57416,
+      "lectura_integrala": false,
+      "intervale_contextuale_citite": [
+        {
+          "de_la": "L00001",
+          "pana_la": "L00125",
+          "inclusiv": true,
+          "scop": "Frontispiciu și început, citire continuă"
+        },
+        {
+          "de_la": "L05206",
+          "pana_la": "L05335",
+          "inclusiv": true,
+          "scop": "Începutul capitolului 20, citire continuă"
+        },
+        {
+          "de_la": "L05500",
+          "pana_la": "L05645",
+          "inclusiv": true,
+          "scop": "Final narativ și începutul anexei, citire continuă"
+        },
+        {
+          "de_la": "L05711",
+          "pana_la": "L05724",
+          "inclusiv": true,
+          "scop": "Fișa Ecaterinei: contextul datelor biografice"
+        },
+        {
+          "de_la": "L06060",
+          "pana_la": "L06125",
+          "inclusiv": true,
+          "scop": "Finalul anexei, citire continuă"
+        }
+      ],
+      "cautari_cu_rezultate_citite": [
+        {
+          "nume": "antete_initiale",
+          "interval_scanat_automat": {
+            "de_la": "L00001",
+            "pana_la": "L06125"
+          },
+          "regex": "^(?:#{1,6}\\s*)?(?:\\*\\*)?(?:CAPITOL(?:UL)?\\b|CHAPTER\\b|PROLOG\\b|EPILOG\\b|ACT(?:UL)?\\s+[IVX\\d]|PARTEA\\b|ANEX[ĂA]\\b|NOT[ĂA]\\b|CUPRINS\\b|POSTFA[ȚŢ][ĂA]\\b)",
+          "flags": "IGNORECASE",
+          "interval_scanat_nu_inseamna_lectura_integrala": true,
+          "rezultate_afisate_si_citite": [
+            {
+              "id": "L00021",
+              "text": "# ACTUL I: UMBRA"
+            },
+            {
+              "id": "L00023",
+              "text": "## Capitolul 1: Noaptea Trandafirului Negru"
+            },
+            {
+              "id": "L00235",
+              "text": "## Capitolul 2: Fiica Negustorului"
+            },
+            {
+              "id": "L00469",
+              "text": "## Capitolul 3: Chemarea la Cetate"
+            },
+            {
+              "id": "L00869",
+              "text": "## Capitolul 4: Secretele Morților"
+            },
+            {
+              "id": "L01269",
+              "text": "# ACTUL II: LABIRINTUL"
+            },
+            {
+              "id": "L01271",
+              "text": "## Capitolul 5: Banchetul Otrăvit"
+            },
+            {
+              "id": "L01569",
+              "text": "## Capitolul 6: Biblioteca Interzisă"
+            },
+            {
+              "id": "L01931",
+              "text": "## Capitolul 7: Umbre în Pădure"
+            },
+            {
+              "id": "L02303",
+              "text": "## Capitolul 8: Confesiuni pe Sfoară"
+            },
+            {
+              "id": "L02519",
+              "text": "## Capitolul 9: Dansul Mascat"
+            },
+            {
+              "id": "L02779",
+              "text": "# ACTUL III: REVELAȚII"
+            },
+            {
+              "id": "L02781",
+              "text": "## Capitolul 10: Fantoma din Trecut"
+            },
+            {
+              "id": "L03025",
+              "text": "## Capitolul 11: Bătălia din Umbră"
+            },
+            {
+              "id": "L03303",
+              "text": "## Capitolul 12: Trădarea Finală"
+            },
+            {
+              "id": "L03561",
+              "text": "## Capitolul 13: Capturarea Uzurpatorului"
+            },
+            {
+              "id": "L03995",
+              "text": "# ACTUL IV: RENAȘTERE"
+            },
+            {
+              "id": "L03997",
+              "text": "## Capitolul 14: După Furtună"
+            },
+            {
+              "id": "L04301",
+              "text": "## Capitolul 15: Alegeri de Inimă"
+            },
+            {
+              "id": "L04522",
+              "text": "## Capitolul 16: Nunta și Noul Început"
+            },
+            {
+              "id": "L04716",
+              "text": "## Capitolul 17: Un An Mai Târziu"
+            },
+            {
+              "id": "L04820",
+              "text": "## Capitolul 18: Construirea Păcii"
+            },
+            {
+              "id": "L05000",
+              "text": "## Capitolul 19: Moștenirea și Viitorul"
+            },
+            {
+              "id": "L05206",
+              "text": "## Capitolul 20: Epilog - Zece Ani Mai Târziu"
+            },
+            {
+              "id": "L05616",
+              "text": "# ANEXĂ: PROFILE DE PERSONAJE"
+            }
+          ]
+        },
+        {
+          "nume": "campuri_selectate_din_profile",
+          "interval_scanat_automat": {
+            "de_la": "L05646",
+            "pana_la": "L06060"
+          },
+          "regex": "^###.*(?:ECATERINA|ANDREI|MAGDA)|^\\*\\*|^- \\*\\*(?:Nume complet|Născut|Vârst|Familie|Final|Rol)",
+          "flags": "IGNORECASE",
+          "interval_scanat_nu_inseamna_lectura_integrala": true,
+          "rezultate_afisate_si_citite": [
+            {
+              "id": "L05660",
+              "text": "**Fațeta Publică — Domnul**:"
+            },
+            {
+              "id": "L05666",
+              "text": "**Fațeta Privată — Omul**:"
+            },
+            {
+              "id": "L05673",
+              "text": "**Conflicte Interioare**:"
+            },
+            {
+              "id": "L05697",
+              "text": "- **Final**: Alege iubirea împreună cu datoria — căsătoria cu Ecaterina (decembrie 1476), familia, pacea cu Matia Corvin și apoi cu sultanul, școala și cronicile; la 1500 îl ridică pe Mihai co-regent"
+            },
+            {
+              "id": "L05707",
+              "text": "### 2. ECATERINA DE BRAȘOV"
+            },
+            {
+              "id": "L05709",
+              "text": "**„Frumusețea cu minte ascuțită\"**"
+            },
+            {
+              "id": "L05713",
+              "text": "- **Nume complet**: Ecaterina Johanna Müller (nume săsesc); după nuntă — Voievodeasa Ecaterina Müller Țepeș"
+            },
+            {
+              "id": "L05715",
+              "text": "- **Născută**: 1450, Brașov — 26 de ani în octombrie 1476"
+            },
+            {
+              "id": "L05732",
+              "text": "**Trăsături Dominante**:"
+            },
+            {
+              "id": "L05739",
+              "text": "**Abilități și Talente**:"
+            },
+            {
+              "id": "L05746",
+              "text": "**Conflicte Interioare**:"
+            },
+            {
+              "id": "L05770",
+              "text": "- **Final**: Independență câștigată în interiorul căsniciei — voievodeasă, mamă a patru copii (Mihai n. 1478, Elena n. 1481, Ștefan n. 1484, Raluca cea mică n. 1487), ctitoră, alături de Vlad, a școlii de lângă cetate (deschisă în 1478)"
+            },
+            {
+              "id": "L05780",
+              "text": "### 3. ANDREI CORBEA"
+            },
+            {
+              "id": "L05782",
+              "text": "**„Cavalerul loial\"**"
+            },
+            {
+              "id": "L05786",
+              "text": "- **Nume complet**: Andrei Corbea"
+            },
+            {
+              "id": "L05788",
+              "text": "- **Născut**: 1444 — 32 de ani în octombrie 1476"
+            },
+            {
+              "id": "L05805",
+              "text": "**Trăsături Dominante**:"
+            },
+            {
+              "id": "L05812",
+              "text": "**Abilități**:"
+            },
+            {
+              "id": "L05818",
+              "text": "**Conflicte Interioare**:"
+            },
+            {
+              "id": "L05843",
+              "text": "- **Final**: Acceptare, maturizare, iertare; căsătoria cu Maria (ianuarie 1478)"
+            },
+            {
+              "id": "L05853",
+              "text": "### 4. MAGDA — VINDECĂTOAREA"
+            },
+            {
+              "id": "L05855",
+              "text": "**„Păstrătoarea secretelor vechi\"**"
+            },
+            {
+              "id": "L05861",
+              "text": "- **Vârstă**: incertă — nimeni nu o știe exact, iar ea o lasă anume în ceață"
+            },
+            {
+              "id": "L05877",
+              "text": "**Trăsături Dominante**:"
+            },
+            {
+              "id": "L05884",
+              "text": "**Abilități**:"
+            },
+            {
+              "id": "L05890",
+              "text": "**Ambiguitate (păstrată deliberat de carte)**:"
+            },
+            {
+              "id": "L05912",
+              "text": "- **Rol în rezoluție**: Cheie în înțelegerea Umbrei Eterne și a slăbiciunii Maestrului; moașa nașterii lui Mihai (1478)"
+            },
+            {
+              "id": "L05924",
+              "text": "**„Boierul ambițios\"**"
+            },
+            {
+              "id": "L05928",
+              "text": "- **Nume complet**: Ioan Basarab"
+            },
+            {
+              "id": "L05930",
+              "text": "- **Născut**: 1436 — 40 de ani în 1476"
+            },
+            {
+              "id": "L05933",
+              "text": "- **Rol în intrigă**: capul conspirației politice boierești (legăturile cu Ungaria și cu Alexandru Aldea) — entitate distinctă de cultul Umbra Eternă al lui Radu Buzescu"
+            },
+            {
+              "id": "L05947",
+              "text": "**Trăsături Dominante**:"
+            },
+            {
+              "id": "L05954",
+              "text": "**Abilități**:"
+            },
+            {
+              "id": "L05960",
+              "text": "**Motivații**:"
+            },
+            {
+              "id": "L05978",
+              "text": "- **Final**: Capturat (noiembrie 1476), judecat public și executat"
+            },
+            {
+              "id": "L05990",
+              "text": "**„Fantoma din trecut\"**"
+            },
+            {
+              "id": "L05995",
+              "text": "- **Născută**: 1448, Sighișoara — copilul târziu al mamei, născută în anul întoarcerii lui Vlad din captivitate; cu optsprezece ani mai mică decât fratele ei; 28 de ani în noiembrie 1476"
+            },
+            {
+              "id": "L06037",
+              "text": "**„Ochii credincioși\"**"
+            },
+            {
+              "id": "L06043",
+              "text": "- **Familie**: un frate mai mic, Franz — răpit de cultul Umbra Eternă în jurul anului 1473"
+            }
+          ]
+        }
+      ],
+      "capitole_identificate_prin_antete": [
+        {
+          "numar": 1,
+          "id_antet": "L00023",
+          "titlu_din_extras": "Capitolul 1: Noaptea Trandafirului Negru"
+        },
+        {
+          "numar": 2,
+          "id_antet": "L00235",
+          "titlu_din_extras": "Capitolul 2: Fiica Negustorului"
+        },
+        {
+          "numar": 3,
+          "id_antet": "L00469",
+          "titlu_din_extras": "Capitolul 3: Chemarea la Cetate"
+        },
+        {
+          "numar": 4,
+          "id_antet": "L00869",
+          "titlu_din_extras": "Capitolul 4: Secretele Morților"
+        },
+        {
+          "numar": 5,
+          "id_antet": "L01271",
+          "titlu_din_extras": "Capitolul 5: Banchetul Otrăvit"
+        },
+        {
+          "numar": 6,
+          "id_antet": "L01569",
+          "titlu_din_extras": "Capitolul 6: Biblioteca Interzisă"
+        },
+        {
+          "numar": 7,
+          "id_antet": "L01931",
+          "titlu_din_extras": "Capitolul 7: Umbre în Pădure"
+        },
+        {
+          "numar": 8,
+          "id_antet": "L02303",
+          "titlu_din_extras": "Capitolul 8: Confesiuni pe Sfoară"
+        },
+        {
+          "numar": 9,
+          "id_antet": "L02519",
+          "titlu_din_extras": "Capitolul 9: Dansul Mascat"
+        },
+        {
+          "numar": 10,
+          "id_antet": "L02781",
+          "titlu_din_extras": "Capitolul 10: Fantoma din Trecut"
+        },
+        {
+          "numar": 11,
+          "id_antet": "L03025",
+          "titlu_din_extras": "Capitolul 11: Bătălia din Umbră"
+        },
+        {
+          "numar": 12,
+          "id_antet": "L03303",
+          "titlu_din_extras": "Capitolul 12: Trădarea Finală"
+        },
+        {
+          "numar": 13,
+          "id_antet": "L03561",
+          "titlu_din_extras": "Capitolul 13: Capturarea Uzurpatorului"
+        },
+        {
+          "numar": 14,
+          "id_antet": "L03997",
+          "titlu_din_extras": "Capitolul 14: După Furtună"
+        },
+        {
+          "numar": 15,
+          "id_antet": "L04301",
+          "titlu_din_extras": "Capitolul 15: Alegeri de Inimă"
+        },
+        {
+          "numar": 16,
+          "id_antet": "L04522",
+          "titlu_din_extras": "Capitolul 16: Nunta și Noul Început"
+        },
+        {
+          "numar": 17,
+          "id_antet": "L04716",
+          "titlu_din_extras": "Capitolul 17: Un An Mai Târziu"
+        },
+        {
+          "numar": 18,
+          "id_antet": "L04820",
+          "titlu_din_extras": "Capitolul 18: Construirea Păcii"
+        },
+        {
+          "numar": 19,
+          "id_antet": "L05000",
+          "titlu_din_extras": "Capitolul 19: Moștenirea și Viitorul"
+        },
+        {
+          "numar": 20,
+          "id_antet": "L05206",
+          "titlu_din_extras": "Capitolul 20: Epilog - Zece Ani Mai Târziu"
+        }
+      ],
+      "intervale_totale_citite_unice": [
+        {
+          "de_la": "L00001",
+          "pana_la": "L00125",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L00235",
+          "pana_la": "L00235",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L00469",
+          "pana_la": "L00469",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L00869",
+          "pana_la": "L00869",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L01269",
+          "pana_la": "L01269",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L01271",
+          "pana_la": "L01271",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L01569",
+          "pana_la": "L01569",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L01931",
+          "pana_la": "L01931",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L02303",
+          "pana_la": "L02303",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L02519",
+          "pana_la": "L02519",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L02779",
+          "pana_la": "L02779",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L02781",
+          "pana_la": "L02781",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03025",
+          "pana_la": "L03025",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03303",
+          "pana_la": "L03303",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03561",
+          "pana_la": "L03561",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03995",
+          "pana_la": "L03995",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03997",
+          "pana_la": "L03997",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L04301",
+          "pana_la": "L04301",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L04522",
+          "pana_la": "L04522",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L04716",
+          "pana_la": "L04716",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L04820",
+          "pana_la": "L04820",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05000",
+          "pana_la": "L05000",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05206",
+          "pana_la": "L05335",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05500",
+          "pana_la": "L05645",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05660",
+          "pana_la": "L05660",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05666",
+          "pana_la": "L05666",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05673",
+          "pana_la": "L05673",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05697",
+          "pana_la": "L05697",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05707",
+          "pana_la": "L05707",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05709",
+          "pana_la": "L05709",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05711",
+          "pana_la": "L05724",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05732",
+          "pana_la": "L05732",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05739",
+          "pana_la": "L05739",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05746",
+          "pana_la": "L05746",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05770",
+          "pana_la": "L05770",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05780",
+          "pana_la": "L05780",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05782",
+          "pana_la": "L05782",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05786",
+          "pana_la": "L05786",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05788",
+          "pana_la": "L05788",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05805",
+          "pana_la": "L05805",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05812",
+          "pana_la": "L05812",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05818",
+          "pana_la": "L05818",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05843",
+          "pana_la": "L05843",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05853",
+          "pana_la": "L05853",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05855",
+          "pana_la": "L05855",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05861",
+          "pana_la": "L05861",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05877",
+          "pana_la": "L05877",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05884",
+          "pana_la": "L05884",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05890",
+          "pana_la": "L05890",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05912",
+          "pana_la": "L05912",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05924",
+          "pana_la": "L05924",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05928",
+          "pana_la": "L05928",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05930",
+          "pana_la": "L05930",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05933",
+          "pana_la": "L05933",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05947",
+          "pana_la": "L05947",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05954",
+          "pana_la": "L05954",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05960",
+          "pana_la": "L05960",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05978",
+          "pana_la": "L05978",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05990",
+          "pana_la": "L05990",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05995",
+          "pana_la": "L05995",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L06037",
+          "pana_la": "L06037",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L06043",
+          "pana_la": "L06043",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L06060",
+          "pana_la": "L06125",
+          "inclusiv": true
+        }
+      ],
+      "intervale_necitite": [
+        {
+          "de_la": "L00126",
+          "pana_la": "L00234",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L00236",
+          "pana_la": "L00468",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L00470",
+          "pana_la": "L00868",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L00870",
+          "pana_la": "L01268",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L01270",
+          "pana_la": "L01270",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L01272",
+          "pana_la": "L01568",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L01570",
+          "pana_la": "L01930",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L01932",
+          "pana_la": "L02302",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L02304",
+          "pana_la": "L02518",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L02520",
+          "pana_la": "L02778",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L02780",
+          "pana_la": "L02780",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L02782",
+          "pana_la": "L03024",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03026",
+          "pana_la": "L03302",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03304",
+          "pana_la": "L03560",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03562",
+          "pana_la": "L03994",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03996",
+          "pana_la": "L03996",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L03998",
+          "pana_la": "L04300",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L04302",
+          "pana_la": "L04521",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L04523",
+          "pana_la": "L04715",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L04717",
+          "pana_la": "L04819",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L04821",
+          "pana_la": "L04999",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05001",
+          "pana_la": "L05205",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05336",
+          "pana_la": "L05499",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05646",
+          "pana_la": "L05659",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05661",
+          "pana_la": "L05665",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05667",
+          "pana_la": "L05672",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05674",
+          "pana_la": "L05696",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05698",
+          "pana_la": "L05706",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05708",
+          "pana_la": "L05708",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05710",
+          "pana_la": "L05710",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05725",
+          "pana_la": "L05731",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05733",
+          "pana_la": "L05738",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05740",
+          "pana_la": "L05745",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05747",
+          "pana_la": "L05769",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05771",
+          "pana_la": "L05779",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05781",
+          "pana_la": "L05781",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05783",
+          "pana_la": "L05785",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05787",
+          "pana_la": "L05787",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05789",
+          "pana_la": "L05804",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05806",
+          "pana_la": "L05811",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05813",
+          "pana_la": "L05817",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05819",
+          "pana_la": "L05842",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05844",
+          "pana_la": "L05852",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05854",
+          "pana_la": "L05854",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05856",
+          "pana_la": "L05860",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05862",
+          "pana_la": "L05876",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05878",
+          "pana_la": "L05883",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05885",
+          "pana_la": "L05889",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05891",
+          "pana_la": "L05911",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05913",
+          "pana_la": "L05923",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05925",
+          "pana_la": "L05927",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05929",
+          "pana_la": "L05929",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05931",
+          "pana_la": "L05932",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05934",
+          "pana_la": "L05946",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05948",
+          "pana_la": "L05953",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05955",
+          "pana_la": "L05959",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05961",
+          "pana_la": "L05977",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05979",
+          "pana_la": "L05989",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05991",
+          "pana_la": "L05994",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L05996",
+          "pana_la": "L06036",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L06038",
+          "pana_la": "L06042",
+          "inclusiv": true
+        },
+        {
+          "de_la": "L06044",
+          "pana_la": "L06059",
+          "inclusiv": true
+        }
+      ],
+      "acoperire": {
+        "unitati_contextuale": 481,
+        "unitati_unice_citite": 539,
+        "cuvinte_in_unitati_citite": 5460,
+        "procent_cuvinte_extras": 9.51,
+        "include_antete_anexe_metanote": true,
+        "observatie": "Procent de acoperire textuală, nu măsură de validare a romanului."
+      }
+    },
+    {
+      "id": "N02",
+      "fisier": "01_SURSE/texte/N02.txt",
+      "versiune_din_manifest": [
+        "Versiunea 5",
+        "MARIENBURG-SIGILIUL-FECIOAREI-Draft5-Clean.docx"
+      ],
+      "sha256_extras": "aa4ca96e04d049ab018b37d500daac8e374d4545287e91d4add8371413992a45",
+      "sha256_manifest_identica": true,
+      "unitati_totale": 5251,
+      "cuvinte_totale_corp_extras": 80012,
+      "lectura_integrala": false,
+      "intervale_contextuale_citite": [
+        {
+          "de_la": "P00001",
+          "pana_la": "P00112",
+          "inclusiv": true,
+          "scop": "Frontispiciu, început și intrarea în viziune"
+        },
+        {
+          "de_la": "P01596",
+          "pana_la": "P01602",
+          "inclusiv": true,
+          "scop": "Antet capitol 6 și contextul planului 1218"
+        },
+        {
+          "de_la": "P01750",
+          "pana_la": "P01753",
+          "inclusiv": true,
+          "scop": "Antet și contextul revenirii la 1469"
+        },
+        {
+          "de_la": "P05002",
+          "pana_la": "P05080",
+          "inclusiv": true,
+          "scop": "Începutul epilogului 1470"
+        },
+        {
+          "de_la": "P05170",
+          "pana_la": "P05251",
+          "inclusiv": true,
+          "scop": "Finalul epilogului, promisiunea Prejmer, coda 1485 și finalul extrasului"
+        }
+      ],
+      "cautari_cu_rezultate_citite": [
+        {
+          "nume": "antete_initiale",
+          "interval_scanat_automat": {
+            "de_la": "P00001",
+            "pana_la": "P05251"
+          },
+          "regex": "^(?:#{1,6}\\s*)?(?:\\*\\*)?(?:CAPITOL(?:UL)?\\b|CHAPTER\\b|PROLOG\\b|EPILOG\\b|ACT(?:UL)?\\s+[IVX\\d]|PARTEA\\b|ANEX[ĂA]\\b|NOT[ĂA]\\b|CUPRINS\\b|POSTFA[ȚŢ][ĂA]\\b)",
+          "flags": "IGNORECASE",
+          "interval_scanat_nu_inseamna_lectura_integrala": true,
+          "rezultate_afisate_si_citite": [
+            {
+              "id": "P00005",
+              "text": "**Act I: Invitația la întuneric** (Capitolele 1-5) - **Act II: Labirintul** (Capitolele 6-12)**Act III: Adevăruri îngropate** (Capitolele 13-17) **Act IV: Sigiliul** (Capitolele 18-20)"
+            },
+            {
+              "id": "P00007",
+              "text": "# CAPITOL 1: SIGILIUL"
+            },
+            {
+              "id": "P00213",
+              "text": "# CAPITOL 2: CADAVRUL"
+            },
+            {
+              "id": "P00451",
+              "text": "# CAPITOL 3: ZECIUIALA"
+            },
+            {
+              "id": "P00719",
+              "text": "Partea cea mai dificilă fu sigiliul. Trebuia să aplic sigiliul regal, dar nu aveam acces la matricea regelui. Așa că improvizai. Folosii ceară veche, o topii, o turnai în forma unei matrici improvizate pe care o sculptai în lemn. Nu era perfectă, dar era suficient de bună pentru a păcăli un ochi neprofesionist."
+            },
+            {
+              "id": "P00760",
+              "text": "# CAPITOL 4: BANCHETUL"
+            },
+            {
+              "id": "P01086",
+              "text": "# CAPITOL 5: PACTUL"
+            },
+            {
+              "id": "P01584",
+              "text": "## ACT I - COMPLET ✅"
+            },
+            {
+              "id": "P01596",
+              "text": "# CAPITOL 6: PREJMER"
+            },
+            {
+              "id": "P01599",
+              "text": "## PARTEA I: 1218 (Din Codex)"
+            },
+            {
+              "id": "P01750",
+              "text": "## PARTEA II: 1469 (Dracula)"
+            },
+            {
+              "id": "P01872",
+              "text": "# CAPITOL 7: HĂRȚI & MINE"
+            },
+            {
+              "id": "P02150",
+              "text": "# CAPITOL 8: CĂLUGĂRUL-OGLINDĂ"
+            },
+            {
+              "id": "P02443",
+              "text": "# CAPITOL 9: CUMANUL DIN PĂDURE"
+            },
+            {
+              "id": "P02446",
+              "text": "## PARTEA I: 1218 — Noaptea răpirii"
+            },
+            {
+              "id": "P02567",
+              "text": "## PARTEA II: 1218 — Interogatoriul"
+            },
+            {
+              "id": "P02590",
+              "text": "## PARTEA III: 1469 — Ambuscada"
+            },
+            {
+              "id": "P02692",
+              "text": "# CAPITOL 10: JURĂMINTE"
+            },
+            {
+              "id": "P02903",
+              "text": "# CAPITOL 11: SCRISORI DE LA CURTEA REGELUI"
+            },
+            {
+              "id": "P02906",
+              "text": "## PARTEA I: 1218 (Din Codex)"
+            },
+            {
+              "id": "P02982",
+              "text": "## PARTEA II: 1469 (Dracula)"
+            },
+            {
+              "id": "P03079",
+              "text": "## PARTEA III: 1218 (Epilog Codex)"
+            },
+            {
+              "id": "P03106",
+              "text": "# CAPITOL 12: LACUNELE CODEXULUI"
+            },
+            {
+              "id": "P03325",
+              "text": "## Epilog Act II"
+            },
+            {
+              "id": "P03371",
+              "text": "# CAPITOL 13: COPYCAT"
+            },
+            {
+              "id": "P03734",
+              "text": "# CAPITOL 14: CAPCANA"
+            },
+            {
+              "id": "P03990",
+              "text": "# CAPITOL 15: DEZVĂLUIREA"
+            },
+            {
+              "id": "P04210",
+              "text": "# CAPITOL 16: EXPULZAREA"
+            },
+            {
+              "id": "P04213",
+              "text": "## PARTEA I: 1225 (Ultima zi)"
+            },
+            {
+              "id": "P04304",
+              "text": "## PARTEA II: 1469 (Ecaterina)"
+            },
+            {
+              "id": "P04378",
+              "text": "## Epilog 1225"
+            },
+            {
+              "id": "P04395",
+              "text": "# CAPITOL 17: DEMASCAREA FINALĂ"
+            },
+            {
+              "id": "P04575",
+              "text": "# CAPITOL 18: JUDECATA"
+            },
+            {
+              "id": "P04786",
+              "text": "# CAPITOL 19: IERTAREA LUI HERMANUS (1226)"
+            },
+            {
+              "id": "P05002",
+              "text": "# CAPITOL 20: EPILOG — FELDIOARA, 1470"
+            }
+          ]
+        }
+      ],
+      "capitole_identificate_prin_antete": [
+        {
+          "numar": 1,
+          "id_antet": "P00007",
+          "titlu_din_extras": "CAPITOL 1: SIGILIUL"
+        },
+        {
+          "numar": 2,
+          "id_antet": "P00213",
+          "titlu_din_extras": "CAPITOL 2: CADAVRUL"
+        },
+        {
+          "numar": 3,
+          "id_antet": "P00451",
+          "titlu_din_extras": "CAPITOL 3: ZECIUIALA"
+        },
+        {
+          "numar": 4,
+          "id_antet": "P00760",
+          "titlu_din_extras": "CAPITOL 4: BANCHETUL"
+        },
+        {
+          "numar": 5,
+          "id_antet": "P01086",
+          "titlu_din_extras": "CAPITOL 5: PACTUL"
+        },
+        {
+          "numar": 6,
+          "id_antet": "P01596",
+          "titlu_din_extras": "CAPITOL 6: PREJMER"
+        },
+        {
+          "numar": 7,
+          "id_antet": "P01872",
+          "titlu_din_extras": "CAPITOL 7: HĂRȚI & MINE"
+        },
+        {
+          "numar": 8,
+          "id_antet": "P02150",
+          "titlu_din_extras": "CAPITOL 8: CĂLUGĂRUL-OGLINDĂ"
+        },
+        {
+          "numar": 9,
+          "id_antet": "P02443",
+          "titlu_din_extras": "CAPITOL 9: CUMANUL DIN PĂDURE"
+        },
+        {
+          "numar": 10,
+          "id_antet": "P02692",
+          "titlu_din_extras": "CAPITOL 10: JURĂMINTE"
+        },
+        {
+          "numar": 11,
+          "id_antet": "P02903",
+          "titlu_din_extras": "CAPITOL 11: SCRISORI DE LA CURTEA REGELUI"
+        },
+        {
+          "numar": 12,
+          "id_antet": "P03106",
+          "titlu_din_extras": "CAPITOL 12: LACUNELE CODEXULUI"
+        },
+        {
+          "numar": 13,
+          "id_antet": "P03371",
+          "titlu_din_extras": "CAPITOL 13: COPYCAT"
+        },
+        {
+          "numar": 14,
+          "id_antet": "P03734",
+          "titlu_din_extras": "CAPITOL 14: CAPCANA"
+        },
+        {
+          "numar": 15,
+          "id_antet": "P03990",
+          "titlu_din_extras": "CAPITOL 15: DEZVĂLUIREA"
+        },
+        {
+          "numar": 16,
+          "id_antet": "P04210",
+          "titlu_din_extras": "CAPITOL 16: EXPULZAREA"
+        },
+        {
+          "numar": 17,
+          "id_antet": "P04395",
+          "titlu_din_extras": "CAPITOL 17: DEMASCAREA FINALĂ"
+        },
+        {
+          "numar": 18,
+          "id_antet": "P04575",
+          "titlu_din_extras": "CAPITOL 18: JUDECATA"
+        },
+        {
+          "numar": 19,
+          "id_antet": "P04786",
+          "titlu_din_extras": "CAPITOL 19: IERTAREA LUI HERMANUS (1226)"
+        },
+        {
+          "numar": 20,
+          "id_antet": "P05002",
+          "titlu_din_extras": "CAPITOL 20: EPILOG — FELDIOARA, 1470"
+        }
+      ],
+      "intervale_totale_citite_unice": [
+        {
+          "de_la": "P00001",
+          "pana_la": "P00112",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00213",
+          "pana_la": "P00213",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00451",
+          "pana_la": "P00451",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00719",
+          "pana_la": "P00719",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00760",
+          "pana_la": "P00760",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01086",
+          "pana_la": "P01086",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01584",
+          "pana_la": "P01584",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01596",
+          "pana_la": "P01602",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01750",
+          "pana_la": "P01753",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01872",
+          "pana_la": "P01872",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02150",
+          "pana_la": "P02150",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02443",
+          "pana_la": "P02443",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02446",
+          "pana_la": "P02446",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02567",
+          "pana_la": "P02567",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02590",
+          "pana_la": "P02590",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02692",
+          "pana_la": "P02692",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02903",
+          "pana_la": "P02903",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02906",
+          "pana_la": "P02906",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02982",
+          "pana_la": "P02982",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03079",
+          "pana_la": "P03079",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03106",
+          "pana_la": "P03106",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03325",
+          "pana_la": "P03325",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03371",
+          "pana_la": "P03371",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03734",
+          "pana_la": "P03734",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03990",
+          "pana_la": "P03990",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04210",
+          "pana_la": "P04210",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04213",
+          "pana_la": "P04213",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04304",
+          "pana_la": "P04304",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04378",
+          "pana_la": "P04378",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04395",
+          "pana_la": "P04395",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04575",
+          "pana_la": "P04575",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04786",
+          "pana_la": "P04786",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P05002",
+          "pana_la": "P05080",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P05170",
+          "pana_la": "P05251",
+          "inclusiv": true
+        }
+      ],
+      "intervale_necitite": [
+        {
+          "de_la": "P00113",
+          "pana_la": "P00212",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00214",
+          "pana_la": "P00450",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00452",
+          "pana_la": "P00718",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00720",
+          "pana_la": "P00759",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00761",
+          "pana_la": "P01085",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01087",
+          "pana_la": "P01583",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01585",
+          "pana_la": "P01595",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01603",
+          "pana_la": "P01749",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01754",
+          "pana_la": "P01871",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01873",
+          "pana_la": "P02149",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02151",
+          "pana_la": "P02442",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02444",
+          "pana_la": "P02445",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02447",
+          "pana_la": "P02566",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02568",
+          "pana_la": "P02589",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02591",
+          "pana_la": "P02691",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02693",
+          "pana_la": "P02902",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02904",
+          "pana_la": "P02905",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02907",
+          "pana_la": "P02981",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02983",
+          "pana_la": "P03078",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03080",
+          "pana_la": "P03105",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03107",
+          "pana_la": "P03324",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03326",
+          "pana_la": "P03370",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03372",
+          "pana_la": "P03733",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03735",
+          "pana_la": "P03989",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03991",
+          "pana_la": "P04209",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04211",
+          "pana_la": "P04212",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04214",
+          "pana_la": "P04303",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04305",
+          "pana_la": "P04377",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04379",
+          "pana_la": "P04394",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04396",
+          "pana_la": "P04574",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04576",
+          "pana_la": "P04785",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P04787",
+          "pana_la": "P05001",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P05081",
+          "pana_la": "P05169",
+          "inclusiv": true
+        }
+      ],
+      "acoperire": {
+        "unitati_contextuale": 284,
+        "unitati_unice_citite": 313,
+        "cuvinte_in_unitati_citite": 5535,
+        "procent_cuvinte_extras": 6.92,
+        "include_antete_anexe_metanote": true,
+        "observatie": "Procent de acoperire textuală, nu măsură de validare a romanului."
+      }
+    },
+    {
+      "id": "N03",
+      "fisier": "01_SURSE/texte/N03.txt",
+      "versiune_din_manifest": [
+        "Versiunea 1",
+        "CIVITAS_SEX_LEGAMANTUL_DE_SARE.docx"
+      ],
+      "sha256_extras": "907004d55294ad82e4a3e37661e7578bc68bab0c0aebea336933f0f5caeb0721",
+      "sha256_manifest_identica": true,
+      "unitati_totale": 3903,
+      "cuvinte_totale_corp_extras": 98499,
+      "lectura_integrala": false,
+      "intervale_contextuale_citite": [
+        {
+          "de_la": "P00001",
+          "pana_la": "P00055",
+          "inclusiv": true,
+          "scop": "Frontispiciu, structură declarată și începutul narațiunii"
+        },
+        {
+          "de_la": "P03713",
+          "pana_la": "P03903",
+          "inclusiv": true,
+          "scop": "Capitolul 20, epilogul 1289 și textul final din corp"
+        }
+      ],
+      "cautari_cu_rezultate_citite": [
+        {
+          "nume": "antete_initiale",
+          "interval_scanat_automat": {
+            "de_la": "P00001",
+            "pana_la": "P03903"
+          },
+          "regex": "^(?:#{1,6}\\s*)?(?:\\*\\*)?(?:CAPITOL(?:UL)?\\b|CHAPTER\\b|PROLOG\\b|EPILOG\\b|ACT(?:UL)?\\s+[IVX\\d]|PARTEA\\b|ANEX[ĂA]\\b|NOT[ĂA]\\b|CUPRINS\\b|POSTFA[ȚŢ][ĂA]\\b)",
+          "flags": "IGNORECASE",
+          "interval_scanat_nu_inseamna_lectura_integrala": true,
+          "rezultate_afisate_si_citite": [
+            {
+              "id": "P00015",
+              "text": "ACT I – Carnea și Sarea (Capitole 1-5) - Introducerea personajelor și conflictelor - Descoperirea crimei Adelheid Blum - Stabilirea mizei politice și economice"
+            },
+            {
+              "id": "P00016",
+              "text": "ACT II – Jurăminte (Capitole 6-12) - Investigația intensă - Dezvăluirea straturilor de secrete - Complicații romantice și politice"
+            },
+            {
+              "id": "P00017",
+              "text": "ACT III – Adevăruri Topite (Capitole 13-17) - Capcane și revelații - Identificarea adevăratului criminal - Diploma Andreanum și consecințele politice"
+            },
+            {
+              "id": "P00018",
+              "text": "ACT IV – Cronicarul (Capitole 18-20) - Judecată și rezoluție - Epilog 1225: Expulzarea teutonilor - Epilog 1289: Moștenirea evenimentelor"
+            },
+            {
+              "id": "P00020",
+              "text": "ACT I – CARNEA ȘI SAREA"
+            },
+            {
+              "id": "P00021",
+              "text": "CAPITOLUL 1: CASTRUM SEX"
+            },
+            {
+              "id": "P00075",
+              "text": "Notă mintală: verifică ledgerul personal. Compară cu copiile de lucru. Caută orice anomalie."
+            },
+            {
+              "id": "P01175",
+              "text": "ACT II – JURĂMINTE"
+            },
+            {
+              "id": "P01176",
+              "text": "CAPITOL 6: INTEROGATORII"
+            },
+            {
+              "id": "P01177",
+              "text": "ACT II: JURĂMINTEData: 22 aprilie 1224Locație: Sighișoara, infirmeria și sala de consiliu"
+            },
+            {
+              "id": "P01391",
+              "text": "ACT II: JURĂMINTE (continuare)Data: 22 aprilie 1224, după-amiazăLocație: Mănăstirea dominicană, Sighișoara"
+            },
+            {
+              "id": "P02603",
+              "text": "ACT III – ADEVĂRURI TOPITE"
+            },
+            {
+              "id": "P02604",
+              "text": "CAPITOL 13: CAPCANA DE LA VAMA MICĂ"
+            },
+            {
+              "id": "P02605",
+              "text": "ACT III: “ADEVĂRURI TOPITE”"
+            },
+            {
+              "id": "P03233",
+              "text": "Act III se închidea cu speranță. Act IV va aduce încheierea — despărțiri, epiloguri, moșteniri care vor dura secole."
+            },
+            {
+              "id": "P03373",
+              "text": "Act III se încheiase. Act IV va aduce epiloguri — ce devine din Sighișoara, din Diploma, din personaje după plecarea protagoniștilor."
+            },
+            {
+              "id": "P03378",
+              "text": "ACT IV – CRONICARUL"
+            },
+            {
+              "id": "P03379",
+              "text": "CAPITOL 18: JUDECATA & EXODUL"
+            },
+            {
+              "id": "P03893",
+              "text": "NOTĂ DE ÎNCHEIERE"
+            }
+          ]
+        },
+        {
+          "nume": "antete_lipite_si_referinte_capitole",
+          "interval_scanat_automat": {
+            "de_la": "P00001",
+            "pana_la": "P03903"
+          },
+          "regex": "capitol(?:ul)?\\s+\\d+|^.{0,8}\\d{1,2}[\\.\\): —–-]",
+          "flags": "IGNORECASE",
+          "interval_scanat_nu_inseamna_lectura_integrala": true,
+          "rezultate_afisate_si_citite": [
+            {
+              "id": "P00021",
+              "text": "CAPITOLUL 1: CASTRUM SEX"
+            },
+            {
+              "id": "P00215",
+              "text": "Continua în Capitolul 2: “Crima”"
+            },
+            {
+              "id": "P00217",
+              "text": "Număr cuvinte: [Va fi verificat de Manager] # CAPITOL 2: CRIMA"
+            },
+            {
+              "id": "P00532",
+              "text": "Continuă în Capitolul 3: “Consiliul”"
+            },
+            {
+              "id": "P00533",
+              "text": "Număr cuvinte Capitolul 2: [Va fi verificat de Manager] Progres total roman: [6,115 + Capitol 2 = ?]"
+            },
+            {
+              "id": "P00535",
+              "text": "Continuă în Capitolul 3: “Consiliul”"
+            },
+            {
+              "id": "P00536",
+              "text": "Număr cuvinte: [Va fi verificat de Manager] # CAPITOL 3: CONSILIUL"
+            },
+            {
+              "id": "P00723",
+              "text": "Continuă în Capitolul 4: “Ledgerul Albastru”"
+            },
+            {
+              "id": "P00724",
+              "text": "Număr cuvinte Capitolul 3: [Va fi verificat de Manager] # CAPITOL 4: LEDGERUL ALBASTRU"
+            },
+            {
+              "id": "P00923",
+              "text": "Continuă în Capitolul 5: “Banchetul Breslelor”"
+            },
+            {
+              "id": "P00924",
+              "text": "Număr cuvinte Capitolul 4: [Va fi verificat de Manager] # CAPITOL 5: BANCHETUL BRESLELOR"
+            },
+            {
+              "id": "P01170",
+              "text": "Continuă în ACT II, Capitolul 6: “Interogatorii”"
+            },
+            {
+              "id": "P01171",
+              "text": "Număr cuvinte Capitolul 5: [Va fi verificat de Manager]"
+            },
+            {
+              "id": "P01176",
+              "text": "CAPITOL 6: INTEROGATORII"
+            },
+            {
+              "id": "P01388",
+              "text": "SFÂRȘIT CAPITOL 6"
+            },
+            {
+              "id": "P01389",
+              "text": "Continuă în Capitolul 7: “Trasee & Vămi”"
+            },
+            {
+              "id": "P01390",
+              "text": "Număr cuvinte Capitol 6: [Va fi verificat de Manager] # CAPITOL 7: TRASEE & VĂMI"
+            },
+            {
+              "id": "P01517",
+              "text": "— 12 florini pe lună e mult. Pentru un patrician normal, ar fi venit decent. Pentru ce erau folosiți? Nu pentru Adelheid — ea nu trăia luxos vizibil."
+            },
+            {
+              "id": "P01540",
+              "text": "SFÂRȘIT CAPITOL 7"
+            },
+            {
+              "id": "P01541",
+              "text": "Continuă în Capitolul 8: “Duel de Coduri”"
+            },
+            {
+              "id": "P01542",
+              "text": "Număr cuvinte Capitol 7: [Va fi verificat de Manager] # CAPITOL 8: DUEL DE CODURI"
+            },
+            {
+              "id": "P01584",
+              "text": "— 18 aprilie, marți. Și ultimele intrări în ledger sunt din 17 aprilie, luni. Deci între 17 și descoperirea ledger-ului de către noi — aproape o săptămână — cineva ar fi putut modifica intrările."
+            },
+            {
+              "id": "P01733",
+              "text": "SFÂRȘIT CAPITOL 8"
+            },
+            {
+              "id": "P01734",
+              "text": "Continuă în Capitolul 9: “Noapte pe Târnava”"
+            },
+            {
+              "id": "P01735",
+              "text": "Număr cuvinte Capitol 8: [Va fi verificat de Manager] # CAPITOL 9: NOAPTE PE TÂRNAVA"
+            },
+            {
+              "id": "P01962",
+              "text": "SFÂRȘIT CAPITOL 9"
+            },
+            {
+              "id": "P01963",
+              "text": "Continuă în Capitolul 10: “Iubire Interzisă”"
+            },
+            {
+              "id": "P01964",
+              "text": "Număr cuvinte Capitol 9: [Va fi verificat de Manager] # CAPITOL 10: IUBIRE INTERZISĂ"
+            },
+            {
+              "id": "P02186",
+              "text": "SFÂRȘIT CAPITOL 10"
+            },
+            {
+              "id": "P02187",
+              "text": "Continuă în Capitolul 11: “Edicte & Soli”"
+            },
+            {
+              "id": "P02188",
+              "text": "Număr cuvinte Capitol 10: [Va fi verificat de Manager] # CAPITOL 11: EDICTE & SOLI"
+            },
+            {
+              "id": "P02422",
+              "text": "SFÂRȘIT CAPITOL 11"
+            },
+            {
+              "id": "P02423",
+              "text": "Continuă în Capitolul 12: “Minciuna contabilă”"
+            },
+            {
+              "id": "P02424",
+              "text": "Număr cuvinte Capitol 11: [Va fi verificat de Manager] # CAPITOL 12: MINCIUNA CONTABILĂ"
+            },
+            {
+              "id": "P02600",
+              "text": "SFÂRȘIT CAPITOL 12 – SFÂRȘIT ACT II"
+            },
+            {
+              "id": "P02601",
+              "text": "Continuă în Actul III, Capitolul 13: “Capcana de la vama mică”"
+            },
+            {
+              "id": "P02602",
+              "text": "Număr cuvinte Capitol 12: [Va fi verificat de Manager]Progres total Act II: Finalizat (Capitole 6-12)Progres roman: 60% complet (12/20 capitole) "
+            },
+            {
+              "id": "P02604",
+              "text": "CAPITOL 13: CAPCANA DE LA VAMA MICĂ"
+            },
+            {
+              "id": "P02803",
+              "text": "SFÂRȘIT CAPITOL 13"
+            },
+            {
+              "id": "P02804",
+              "text": "Continuă în Capitolul 14: “Masca lui Laurentius”"
+            },
+            {
+              "id": "P02805",
+              "text": "Număr cuvinte Capitol 13: [Va fi verificat de Manager] # CAPITOL 14: MASCA LUI LAURENTIUS"
+            },
+            {
+              "id": "P02944",
+              "text": "SFÂRȘIT CAPITOL 14"
+            },
+            {
+              "id": "P02945",
+              "text": "Continuă în Capitolul 15: “Dezvăluirea”"
+            },
+            {
+              "id": "P02946",
+              "text": "Număr cuvinte Capitol 14: [Va fi verificat de Manager] # CAPITOL 15: DEZVĂLUIREA"
+            },
+            {
+              "id": "P03096",
+              "text": "SFÂRȘIT CAPITOL 15"
+            },
+            {
+              "id": "P03097",
+              "text": "Continuă în Capitolul 16: “Andreanum”"
+            },
+            {
+              "id": "P03098",
+              "text": "Număr cuvinte Capitol 15: [Va fi verificat de Manager] # CAPITOL 16: ANDREANUM"
+            },
+            {
+              "id": "P03235",
+              "text": "SFÂRȘIT CAPITOL 16"
+            },
+            {
+              "id": "P03236",
+              "text": "Continuă în Capitolul 17: “Prețul” # CAPITOL 17: PREȚUL"
+            },
+            {
+              "id": "P03237",
+              "text": "30 mai 1224, Sighișoara"
+            },
+            {
+              "id": "P03376",
+              "text": "SFÂRȘIT CAPITOL 17"
+            },
+            {
+              "id": "P03377",
+              "text": "Continuă în ACTUL IV: Capitolul 18 – “Judecata & Exodul” "
+            },
+            {
+              "id": "P03379",
+              "text": "CAPITOL 18: JUDECATA & EXODUL"
+            },
+            {
+              "id": "P03380",
+              "text": "15 iunie 1224, Sighișoara"
+            },
+            {
+              "id": "P03420",
+              "text": "3 iulie 1224"
+            },
+            {
+              "id": "P03466",
+              "text": "15 august 1224"
+            },
+            {
+              "id": "P03502",
+              "text": "30 septembrie 1224"
+            },
+            {
+              "id": "P03519",
+              "text": "1. Flexibilitate strategică și tactică mai mare, dogmatism ideologic mai redus2. Recunoaștere explicită că adversarii și populațiile locale pot avea motive legitime complexe pentru rezistență la ordinul nostru, nu doar rău satanic simplu3. Prioritizare constantă a adevărului obiectiv verificabil peste loialitate tribală oarbă care servește doar interese de grup pe termen scurt4. Balans constant necesar între disciplină militară rigidă și judecată morală independentă individuală"
+            },
+            {
+              "id": "P03527",
+              "text": "SFÂRȘIT CAPITOL 18"
+            },
+            {
+              "id": "P03528",
+              "text": "Continuă în Capitolul 19 – “Epilog I (1225)” # CAPITOL 19: EPILOG I (1225)"
+            },
+            {
+              "id": "P03584",
+              "text": "\"15 mai, Anno Domini 1225Undeva pe drumul lung spre Prussia"
+            },
+            {
+              "id": "P03712",
+              "text": "SFÂRȘIT CAPITOL 19"
+            },
+            {
+              "id": "P03713",
+              "text": "Continuă în Capitolul 20 – “Epilog II (1289)” # CAPITOL 20: EPILOG II (1289)"
+            }
+          ]
+        }
+      ],
+      "capitole_identificate_prin_antete": [
+        {
+          "numar": 1,
+          "id_antet": "P00021",
+          "titlu_din_extras": "CAPITOLUL 1: CASTRUM SEX"
+        },
+        {
+          "numar": 2,
+          "id_antet": "P00217",
+          "titlu_din_extras": "CAPITOL 2: CRIMA"
+        },
+        {
+          "numar": 3,
+          "id_antet": "P00536",
+          "titlu_din_extras": "CAPITOL 3: CONSILIUL"
+        },
+        {
+          "numar": 4,
+          "id_antet": "P00724",
+          "titlu_din_extras": "CAPITOL 4: LEDGERUL ALBASTRU"
+        },
+        {
+          "numar": 5,
+          "id_antet": "P00924",
+          "titlu_din_extras": "CAPITOL 5: BANCHETUL BRESLELOR"
+        },
+        {
+          "numar": 6,
+          "id_antet": "P01176",
+          "titlu_din_extras": "CAPITOL 6: INTEROGATORII"
+        },
+        {
+          "numar": 7,
+          "id_antet": "P01390",
+          "titlu_din_extras": "CAPITOL 7: TRASEE & VĂMI"
+        },
+        {
+          "numar": 8,
+          "id_antet": "P01542",
+          "titlu_din_extras": "CAPITOL 8: DUEL DE CODURI"
+        },
+        {
+          "numar": 9,
+          "id_antet": "P01735",
+          "titlu_din_extras": "CAPITOL 9: NOAPTE PE TÂRNAVA"
+        },
+        {
+          "numar": 10,
+          "id_antet": "P01964",
+          "titlu_din_extras": "CAPITOL 10: IUBIRE INTERZISĂ"
+        },
+        {
+          "numar": 11,
+          "id_antet": "P02188",
+          "titlu_din_extras": "CAPITOL 11: EDICTE & SOLI"
+        },
+        {
+          "numar": 12,
+          "id_antet": "P02424",
+          "titlu_din_extras": "CAPITOL 12: MINCIUNA CONTABILĂ"
+        },
+        {
+          "numar": 13,
+          "id_antet": "P02604",
+          "titlu_din_extras": "CAPITOL 13: CAPCANA DE LA VAMA MICĂ"
+        },
+        {
+          "numar": 14,
+          "id_antet": "P02805",
+          "titlu_din_extras": "CAPITOL 14: MASCA LUI LAURENTIUS"
+        },
+        {
+          "numar": 15,
+          "id_antet": "P02946",
+          "titlu_din_extras": "CAPITOL 15: DEZVĂLUIREA"
+        },
+        {
+          "numar": 16,
+          "id_antet": "P03098",
+          "titlu_din_extras": "CAPITOL 16: ANDREANUM"
+        },
+        {
+          "numar": 17,
+          "id_antet": "P03236",
+          "titlu_din_extras": "CAPITOL 17: PREȚUL"
+        },
+        {
+          "numar": 18,
+          "id_antet": "P03379",
+          "titlu_din_extras": "CAPITOL 18: JUDECATA & EXODUL"
+        },
+        {
+          "numar": 19,
+          "id_antet": "P03528",
+          "titlu_din_extras": "CAPITOL 19: EPILOG I (1225)"
+        },
+        {
+          "numar": 20,
+          "id_antet": "P03713",
+          "titlu_din_extras": "CAPITOL 20: EPILOG II (1289)"
+        }
+      ],
+      "intervale_totale_citite_unice": [
+        {
+          "de_la": "P00001",
+          "pana_la": "P00055",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00075",
+          "pana_la": "P00075",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00215",
+          "pana_la": "P00215",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00217",
+          "pana_la": "P00217",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00532",
+          "pana_la": "P00533",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00535",
+          "pana_la": "P00536",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00723",
+          "pana_la": "P00724",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00923",
+          "pana_la": "P00924",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01170",
+          "pana_la": "P01171",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01175",
+          "pana_la": "P01177",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01388",
+          "pana_la": "P01391",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01517",
+          "pana_la": "P01517",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01540",
+          "pana_la": "P01542",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01584",
+          "pana_la": "P01584",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01733",
+          "pana_la": "P01735",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01962",
+          "pana_la": "P01964",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02186",
+          "pana_la": "P02188",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02422",
+          "pana_la": "P02424",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02600",
+          "pana_la": "P02605",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02803",
+          "pana_la": "P02805",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02944",
+          "pana_la": "P02946",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03096",
+          "pana_la": "P03098",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03233",
+          "pana_la": "P03233",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03235",
+          "pana_la": "P03237",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03373",
+          "pana_la": "P03373",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03376",
+          "pana_la": "P03380",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03420",
+          "pana_la": "P03420",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03466",
+          "pana_la": "P03466",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03502",
+          "pana_la": "P03502",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03519",
+          "pana_la": "P03519",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03527",
+          "pana_la": "P03528",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03584",
+          "pana_la": "P03584",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03712",
+          "pana_la": "P03903",
+          "inclusiv": true
+        }
+      ],
+      "intervale_necitite": [
+        {
+          "de_la": "P00056",
+          "pana_la": "P00074",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00076",
+          "pana_la": "P00214",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00216",
+          "pana_la": "P00216",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00218",
+          "pana_la": "P00531",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00534",
+          "pana_la": "P00534",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00537",
+          "pana_la": "P00722",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00725",
+          "pana_la": "P00922",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P00925",
+          "pana_la": "P01169",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01172",
+          "pana_la": "P01174",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01178",
+          "pana_la": "P01387",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01392",
+          "pana_la": "P01516",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01518",
+          "pana_la": "P01539",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01543",
+          "pana_la": "P01583",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01585",
+          "pana_la": "P01732",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01736",
+          "pana_la": "P01961",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P01965",
+          "pana_la": "P02185",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02189",
+          "pana_la": "P02421",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02425",
+          "pana_la": "P02599",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02606",
+          "pana_la": "P02802",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02806",
+          "pana_la": "P02943",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P02947",
+          "pana_la": "P03095",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03099",
+          "pana_la": "P03232",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03234",
+          "pana_la": "P03234",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03238",
+          "pana_la": "P03372",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03374",
+          "pana_la": "P03375",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03381",
+          "pana_la": "P03419",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03421",
+          "pana_la": "P03465",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03467",
+          "pana_la": "P03501",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03503",
+          "pana_la": "P03518",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03520",
+          "pana_la": "P03526",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03529",
+          "pana_la": "P03583",
+          "inclusiv": true
+        },
+        {
+          "de_la": "P03585",
+          "pana_la": "P03711",
+          "inclusiv": true
+        }
+      ],
+      "acoperire": {
+        "unitati_contextuale": 246,
+        "unitati_unice_citite": 316,
+        "cuvinte_in_unitati_citite": 7651,
+        "procent_cuvinte_extras": 7.77,
+        "include_antete_anexe_metanote": true,
+        "observatie": "Procent de acoperire textuală, nu măsură de validare a romanului."
+      }
+    }
+  ],
+  "surse_locale_necitite_ca_text": [
+    "01_SURSE/originale/S01.xlsx",
+    "01_SURSE/originale/N01.md",
+    "01_SURSE/originale/N02.docx",
+    "01_SURSE/originale/N03.docx",
+    "01_SURSE/originale/N04.md",
+    "01_SURSE/texte/N04.txt",
+    "01_SURSE/originale/S03.json",
+    "01_SURSE/originale/S04.md",
+    "01_SURSE/texte/S04.txt",
+    "01_SURSE/originale/S05.md",
+    "01_SURSE/texte/S05.txt",
+    "01_SURSE/originale/S06.md",
+    "01_SURSE/texte/S06.txt",
+    "01_SURSE/originale/S02.md"
+  ],
+  "harta": {
+    "fisier": "02_CANON/HARTA_PRELIMINARA.md",
+    "numar_cuvinte_whitespace": 1583,
+    "numar_constrangeri_sau_intrebari": 13
+  },
+  "observatie_surse": "Originalele nu au fost citite separat; s-au folosit extrasele locale. Citirea manifestului nu echivalează cu citirea fișierelor pe care le inventariază.",
+  "surse_locale_necitite_ca_text_descriere": "Pentru S01 s-a citit extrasul JSON local, nu registrul XLSX integral. Originalul S02 nu a fost deschis separat, însă extrasul S02 a fost citit integral."
+}

@@ -1,0 +1,17 @@
+{
+  "local_originals_preserved": true,
+  "masked_files": [
+    {
+      "path": "Caută liniile de finanțare din RO/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "Caută liniile de finanțare din RO/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    }
+  ]
+}

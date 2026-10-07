@@ -1,0 +1,131 @@
+{
+    "verified_at":  "2026-09-24T08:15:01.0882686+03:00",
+    "sources":  10,
+    "index_sha256":  "cd9e96884d60c2c76b125b4b5ca5096a144f36a5fc9d0a6fcbe16a240b2ea698",
+    "receipt_match":  true,
+    "sidecar_match":  true,
+    "derived_files":  [
+                          {
+                              "role":  "P-MANAGER",
+                              "path":  "P-MANAGER.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "P-MANAGER",
+                              "path":  "P-MANAGER.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "P-CANON",
+                              "path":  "P-CANON.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "P-CANON",
+                              "path":  "P-CANON.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-GOVERNANCE",
+                              "path":  "A-GOVERNANCE.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-GOVERNANCE",
+                              "path":  "A-GOVERNANCE.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-CANON",
+                              "path":  "A-CANON.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-CANON",
+                              "path":  "A-CANON.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-QAMANAGER",
+                              "path":  "A-QAMANAGER.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-QAMANAGER",
+                              "path":  "A-QAMANAGER.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "P-EDITOR",
+                              "path":  "P-EDITOR.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "P-EDITOR",
+                              "path":  "P-EDITOR.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-GENRE",
+                              "path":  "A-GENRE.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-GENRE",
+                              "path":  "A-GENRE.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-ORIGINALITY",
+                              "path":  "A-ORIGINALITY.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-ORIGINALITY",
+                              "path":  "A-ORIGINALITY.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-STRUCTURE",
+                              "path":  "A-STRUCTURE.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-STRUCTURE",
+                              "path":  "A-STRUCTURE.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-EN",
+                              "path":  "A-EN.jsonl",
+                              "hash_match":  true,
+                              "size_match":  true
+                          },
+                          {
+                              "role":  "A-EN",
+                              "path":  "A-EN.md",
+                              "hash_match":  true,
+                              "size_match":  true
+                          }
+                      ],
+    "prefixes_verified_by_this_check":  false,
+    "scope_erratum":  "ROM001-G01-EXPORT_ERRATUM-r01.md"
+}

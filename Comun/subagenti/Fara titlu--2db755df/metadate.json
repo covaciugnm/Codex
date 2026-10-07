@@ -1,0 +1,23 @@
+{
+  "id": "01a08186-c83e-7a51-b352-b6712db755df",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788879489,
+  "updated_at": 1788879696,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a08174-9d0a-7942-a083-3539d44ac1af\",\"depth\":1,\"agent_path\":\"/root/technical_checklist\",\"agent_nickname\":\"Copernicus\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a08174-9d0a-7942-a083-3539d44ac1af",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 217542,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 2,
+  "message_count": 1,
+  "content_sha256": "1a68b8dae03972c462136af789099e5cc9e7a3174e4a6a7fcb89e3f65e8ddbc9",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

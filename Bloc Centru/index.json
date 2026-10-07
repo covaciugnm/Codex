@@ -1,0 +1,41 @@
+{
+  "project": {
+    "id": "31efd1b1-4971-46e2-b502-e0f2cc9d92b6",
+    "name": "Bloc Centru",
+    "roots": [
+      "D:\\00. Downloads\\Apartamente Bloc Centru"
+    ],
+    "conversations": 1,
+    "subagents": 0,
+    "messages": 11,
+    "files_copied": 4,
+    "content_sha256": "fd408dd4076c36f46fcae2225fed159a35e19f93dedbfde651607b104d2069b8"
+  },
+  "threads": [
+    {
+      "id": "01a0f2f8-4191-7720-acc6-9452c3236b03",
+      "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Bloc Centru",
+      "created_at": 1790782751,
+      "updated_at": 1791193099,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Verifică e-mailurile administrației",
+      "project_id": "31efd1b1-4971-46e2-b502-e0f2cc9d92b6",
+      "project": "Bloc Centru",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "source_bytes": 3777152,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 264,
+      "message_count": 11,
+      "content_sha256": "63a68fce374be06e32db904a1614cc15a574d5c3d2b1d123f743fef11ba534bf",
+      "files_copied": 4,
+      "references_not_copied": 5,
+      "subagent": false,
+      "folder": "Bloc Centru/Verifică e-mailurile administrației"
+    }
+  ]
+}

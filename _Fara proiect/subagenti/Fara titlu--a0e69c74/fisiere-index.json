@@ -1,0 +1,51 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\api\\admin\\resources\\categories.py",
+    "status": "copiat",
+    "saved_path": "fisiere/categories--c5052eb7.py",
+    "bytes": 17021,
+    "sha256": "b2be7748bfbf1027399cdadb49d17350dd2b8102aad7385c56f3a861cf53d739"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\app\\api\\storefront.py",
+    "status": "copiat",
+    "saved_path": "fisiere/storefront--66ce9d63.py",
+    "bytes": 151141,
+    "sha256": "a582999862a76d7bcb7fd3011d5321c948e59c993d88239829735ebad9f5da73"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_cart_quantity_validation.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_cart_quantity_validation--990a8150.py",
+    "bytes": 4066,
+    "sha256": "04649eeb8dab6db49f123c0b2434650e107f72aab132f9438b95d6e5bb448143"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_category_product_counts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_category_product_counts--7eba3b36.py",
+    "bytes": 2747,
+    "sha256": "ef85ee98b1b412f64b876cd4e04099436e6110e27ffcd3ab61ece89ff06c32ad"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\backend\\test_category_translation_patch.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_category_translation_patch--6f7d2411.py",
+    "bytes": 1878,
+    "sha256": "b3a84e384bed807644a1dd13f7c58e3aebf958294d2813144ba5175099a568a9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\backend\\app\\api\\admin\\resources\\categories.py",
+    "status": "copiat",
+    "saved_path": "fisiere/categories--6a5b2d5e.py",
+    "bytes": 17021,
+    "sha256": "b2be7748bfbf1027399cdadb49d17350dd2b8102aad7385c56f3a861cf53d739"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\backend\\app\\api\\storefront.py",
+    "status": "copiat",
+    "saved_path": "fisiere/storefront--a8889458.py",
+    "bytes": 151179,
+    "sha256": "3553faacaa690289d06584ed589d042644baeac3c95a0b1d251d2b7bd844be49"
+  }
+]

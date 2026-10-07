@@ -1,0 +1,396 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f664-e16f-76c3-8f07-86a588dd0eef\\fetch_sources.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/fetch_sources--02a5128c.ps1",
+    "bytes": 2418,
+    "sha256": "47125458fa42e532dc69d2acc29bfd651830dbdd87267bba75ae42f78327b51b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f664-e16f-76c3-8f07-86a588dd0eef\\inspect_catalog.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/inspect_catalog--d4626aa4.cjs",
+    "bytes": 800,
+    "sha256": "31910b7c9f3814dfa3193db3af4aa6ade1aea126421d2a4fb18280adcab2553b"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Catalog_dictionare_2026-10-01/Extins/Date_gratuite_PanLex_2019.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Date_gratuite_PanLex_2019--c3148ceb.zip",
+    "bytes": 214031962,
+    "sha256": "e6bc9e6bf9272c623b0c805b84a0e8c15e2e1124f03aa09b19ad01a8b9f84f58"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Catalog_dictionare_2026-10-01/Extins/catalog_dictionare.html",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog_dictionare--1f1352c3.html",
+    "bytes": 10731226,
+    "sha256": "eb9d2deb5a2487d0ce335b65394d30a20b1b3f9bc0bb0ff3c1ddfedfaa59d4b5"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Catalog_dictionare_2026-10-01/Extins/catalog_dictionare.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog_dictionare--2e75c24c.xlsx",
+    "bytes": 1759022,
+    "sha256": "649356aa1079bc95a59511576f3f6b63496e233f531a05ef55074ee5ee5961d5"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Catalog_dictionare_2026-10-01/catalog_dictionare.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog_dictionare--98dce8e0.csv",
+    "bytes": 2687991,
+    "sha256": "16def6212dcd95fcffe94fd9244560b7025f905c75a56faaeecf6d7538c55b55"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Catalog_dictionare_2026-10-01/catalog_dictionare.html",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog_dictionare--2a08501c.html",
+    "bytes": 3155246,
+    "sha256": "2386b5aeffda80b6f7c6c4675d6f5dab565f054e43a965d59f4fe2a2a4412483"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/Catalog_dictionare_2026-10-01/catalog_dictionare.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/catalog_dictionare--8ee32800.xlsx",
+    "bytes": 578482,
+    "sha256": "c1bd4f4b667f529960dce295e5c51cb722908744f47fc9cc80d7c73666250e0c"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_Learn_Import_35",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_Learn_Import_35/CITESTE_MA.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/CITESTE_MA--fa891488.txt",
+    "bytes": 5734,
+    "sha256": "e6790aa5881937d142a2f193a40e16a3561aea97295c7ece43bd0ad4c797d75d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_Learn_Import_35/INDEX_IMPORT.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX_IMPORT--74a61667.xlsx",
+    "bytes": 111326,
+    "sha256": "1d7eb1e9118342f99b49cdbd0471940f095a16a0764121d6fa2f2d67c3bd25da"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Learn\\Catalog_dictionare_2026-10-01",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://archive.org/details/cu31924026888481",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://archive.org/details/dictionaryofhaus02robiuoft",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://archive.org/details/englishchinesevo00shan",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://archive.org/details/judsonburmeseeng00judsrich",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://archive.org/details/vocabularyofyoru00crow",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://azure.microsoft.com/en-us/pricing/details/speech/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://biblio.ircam.ma/pmb/catalogue/index.php?id=25091&lvl=notice_display",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cloud.google.com/products/translate/pricing",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dexonline.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dexonline.ro/licenta",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.cloud.google.com/translate/docs/languages",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dsal.uchicago.edu/dictionaries/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://freedict.org/downloads/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/AI4Bharat/Indic-Glossaries",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/AI4Bharat/IndicTrans2",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/AlienKevin/wordshk_app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/OHF-Voice/piper1-gpl",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/OpenNMT/CTranslate2",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/chimezie90/igbotts",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/espeak-ng/espeak-ng/blob/master/docs/languages.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/facebookresearch/flores/blob/main/flores200/README.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/g0v/moedict-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/g0v/moedict-data-twblg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ilius/pyglossary",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/jeremy110/MeloTTS_hokkien",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/tatuylonen/wiktextract",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/veer66/Yaitron",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/xiaoyifang/goldendict-ng",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/9jaLingo/9jaLingo-TTS-African-ckpt-25k",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/MERaLiON/MERaLiON-OmniVoice-Hokkien-TTS",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/OpenASR/dolphin-cn-dialect-small",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/ai4bharat/IndicF5",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/ai4bharat/indic-parler-tts",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/chimezie90/igbo-tts-f5",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/facebook/mms-tts",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/facebook/mms-tts-hau",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/facebook/mms-tts-yor",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Amharic/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Azerbaijani/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Bengali/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Burmese/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Cantonese/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Egyptian%20Arabic/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Gujarati/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Hausa/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Hokkien/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Kannada/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Kazakh/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Khmer/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Malayalam/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Marathi/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Moroccan%20Arabic/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Nepali/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Odia/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Persian/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Sinhalese/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Tamil/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Telugu/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Thai/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Urdu/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Uzbek/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Vietnamese/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/Yoruba/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kaikki.org/dictionary/rawdata.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://punjabi-dictionary.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://rogerblench.info/Language/Niger-Congo/VN/Igboid/Igbo%20Dictionary.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://sealang.net/khmer/dictionary-top.htm",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://words.hk/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://words.hk/base/hoifong/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.cfilt.iitb.ac.in/indowordnet/home",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.livelingua.com/course/peace-corps/tashelhit-dictionary",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.moedict.tw/about.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.phil.muni.cz/linguistica/dickins/",
+    "status": "referinta_externa_necopiata"
+  }
+]

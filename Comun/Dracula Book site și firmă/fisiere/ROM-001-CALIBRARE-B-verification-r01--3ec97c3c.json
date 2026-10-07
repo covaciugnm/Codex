@@ -1,0 +1,193 @@
+{
+  "checked_at": "2026-09-24T08:45:50.6357945+03:00",
+  "type": "CALIBRATION_INPUT_AND_HANDOFF_HASH_CHECK",
+  "inputs": [
+    {
+      "path": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md",
+      "sha256": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md",
+      "sha256": "84cb08309fdc6c29bd433a12b17635f7eb99734750a323780b6cab9ebe23f8ba",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/agents_at_B_check.json",
+      "sha256": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+      "matches": true
+    },
+    {
+      "path": "00_CONDUCERE/MANUAL_ATELIER.md",
+      "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2",
+      "matches": true
+    },
+    {
+      "path": "00_CONDUCERE/policy.json",
+      "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-CHARACTER-b-r01.json",
+      "sha256": "c0d42b8bd21d51731f2664db55db46ded8ecafa5d1ad7059512ac55954edbde6",
+      "matches": true
+    },
+    {
+      "path": "01_ECHIPA/A-CHARACTER.md",
+      "sha256": "7cc64af6bf82afaa72f353c91bfc15566267e4ac66b2046058f86031cb458c22",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-CHARACTER-calibrare-b-r01.md",
+      "sha256": "94634cf14b4f69ef3f20a10b9a40fd3716233f334debaf28027ff3f869b35c89",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-CHARACTER-calibrare-b-predare-r01.json",
+      "sha256": "e6ef54310ebb04b13a13cef557f7c84b98c3061074e3f64cc18dd0133911b585",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-FACT-b-r01.json",
+      "sha256": "eb3763a3c2d3692edb43ccb66c760c2865cbbd97ac82d4077ffcbadd19e86289",
+      "matches": true
+    },
+    {
+      "path": "01_ECHIPA/A-FACT.md",
+      "sha256": "8f8312fae8ee0a1f4510a6f8ea1afc971f554892b9938f54a9463f1570ba9fae",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-FACT-calibrare-b-r01.md",
+      "sha256": "617f4116ef234e95518ed3c888530f40e6a2cadb76d32b77bb0e0ee7e4ed7165",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-FACT-calibrare-b-predare-r01.json",
+      "sha256": "2adf4d7611d02e5e2559ac2c68ce23076e3c34d4801a2d47b45b50575ae75f45",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-RO-b-r01.json",
+      "sha256": "9696f8d2d0fcc70ae83ef11bbc8732c1ae668a33a0f46db576e147e8d5788353",
+      "matches": true
+    },
+    {
+      "path": "01_ECHIPA/A-RO.md",
+      "sha256": "66ca4c30e05256695343e91fed515eb345e199a06e1ac5140ae9eb8b64ce6d87",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-RO-calibrare-b-r01.md",
+      "sha256": "5a05cd55a88d9c843ee7fd0ddad520851a8180d6df0dd24e72d16ba353f1a743",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-RO-calibrare-b-predare-r01.json",
+      "sha256": "535a5180ca04dbf03eea3ceba3a659ee92135376d6626d0a3f5ec8cd8a524a53",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-DE-b-r01.json",
+      "sha256": "13d3c7c369fe969007fba6d0e0f744fabd4dc7ade87f0f9c9c2bc60af63af518",
+      "matches": true
+    },
+    {
+      "path": "01_ECHIPA/A-DE.md",
+      "sha256": "2197fb2d212bac118b986ef1a589ab560215a910776089ebe7b3a8944e434851",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-DE-calibrare-b-r01.md",
+      "sha256": "b2105a77c755e26d8d99dc3df5ba034eef8fda9e14f94a68f019f98394a60ea7",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-DE-calibrare-b-predare-r01.json",
+      "sha256": "0ab8b661570fee93f31d89b18c2998e92494a76823b5f816428539cfbb06b5a2",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-TRANSLATION-b-r01.json",
+      "sha256": "72f5b905d85b3e4f4df85e8c6e50fa0a1709ae4935967dbb6bfe585f688beaf8",
+      "matches": true
+    },
+    {
+      "path": "01_ECHIPA/A-TRANSLATION.md",
+      "sha256": "0a576290e92eddf62ebff8378a3744da07bd4091c022102d93a5120ce7dc1946",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-TRANSLATION-calibrare-b-r01.md",
+      "sha256": "d3c17495f25c56c3f6c92bee203d099cc9c78440e3106b948901417703a4369d",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-TRANSLATION-calibrare-b-predare-r01.json",
+      "sha256": "659f5d19fa9d83c593df49ab0403f90af1dc31f3f43505136b0b871f91324b2b",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/CALIBRARE/ROM-001/A-PRODUCTION-b-r01.json",
+      "sha256": "036fc226f320c997238726f1d66eeb17aaf4cd388a5ecf0919932ea1014e4262",
+      "matches": true
+    },
+    {
+      "path": "01_ECHIPA/A-PRODUCTION.md",
+      "sha256": "6dd41897bed1396b325113dea2dbc03b2750660da6e22abd645d36106f7e1151",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/PROMPTURI/ROM-001-A-PRODUCTION-calibrare-b-r01.md",
+      "sha256": "5e0dae89864b922c4a2d1ade2b768344515f5b78274c4c4df873d62ff681f6cf",
+      "matches": true
+    },
+    {
+      "path": "06_REGISTRU/ISTORIC/ROM-001-A-PRODUCTION-calibrare-b-predare-r01.json",
+      "sha256": "bcad0bdaa71f17fa3120229b344db7cf1fc2fa958b9dc3e3b1dcc43bab6ac42e",
+      "matches": true
+    }
+  ],
+  "all_match": true,
+  "input_count": 29,
+  "qa_summary": {
+    "respondents": 6,
+    "cases_reviewed": 66,
+    "key_matches": 66,
+    "valid_semantic_reasons": 66,
+    "valid_evidence": 66,
+    "correct_results": 66,
+    "qualified_roles": 6,
+    "returned_roles": 0,
+    "synthetic_verdict_distribution": {
+      "RETURN": 51,
+      "PASS": 6,
+      "NU_E_DEFECT_IN_SINE": 9
+    },
+    "findings": [],
+    "measures": []
+  },
+  "report_handoffs": [
+    {
+      "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.md",
+      "sha256": "13f1d435a47ce6df97f487e67d0abcca39f81c64ccf28165f041a65dfed7d42e",
+      "bytes": 25430
+    },
+    {
+      "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_r01.json",
+      "sha256": "f9d9b6c1526824e0fb3cb49b70d7122ddc6bafdaf0afc7b783802a7de4aa1441",
+      "bytes": 57413
+    },
+    {
+      "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_B_r01.md",
+      "sha256": "e1a7d8ed210693a045479539779781994b1d7658d603bf05132f2d37e5a727df",
+      "bytes": 31981
+    },
+    {
+      "path": "05_AUDIT/ROM-001-CALIBRARE/VERIFICARE_B_r01.json",
+      "sha256": "c3d85b46d3a2fde0d030e391b9b01d852732b1a13a4a4d06a731038d24bb032c",
+      "bytes": 88536
+    }
+  ],
+  "limits": "Read-only manager verification of fixed inputs and delivered report bytes, not a second nominal evaluation or product approval"
+}

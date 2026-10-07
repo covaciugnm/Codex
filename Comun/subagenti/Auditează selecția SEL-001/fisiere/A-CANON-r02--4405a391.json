@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+  "role": "A-CANON",
+  "set_version": "r02",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Defectul este criteriul cu scor exact 950 și verdictul PASS atribuit în pofida lui. Cerința este strict >950 pe fiecare criteriu: 950 nu o îndeplinește. Scorurile 980 de la celelalte criterii și media nu pot compensa criteriul respins; verdictul cazului este RETURN.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L12-L14"
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Defectul este identitatea comună a producătorului și auditorului: X semnează sub alias Y, dar păstrează ID-ul X. Aliasul nu creează un evaluator independent. Auditul este autoaudit și trebuie înlocuit prin evaluarea unui auditor distinct și autorizat; redenumirea semnăturii nu rezolvă cazul.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L16-L18"
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Defectul este neconcordanța dintre SHA-256 A din raport și SHA-256 B al fișierului curent. Auditul versiunii A nu validează octeții versiunii B. Este necesar un audit nou al versiunii efective; simpla înlocuire a hashului în raportul vechi nu constituie reverificare.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L20-L22"
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Defectul este absența elementului C02 din predarea care trebuia să conțină C01, C02 și C03. Sumarul «complet» contrazice conținutul efectiv și nu ține locul textului lipsă. Predarea trebuie completată, apoi verificată din nou față de toate cele trei ID-uri cerute.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L24-L26"
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Defectul este aceeași scenă textuală de 2.000 de cuvinte prezentă în ambele capitole și numărată de două ori fără justificare. Două apariții nu demonstrează 4.000 de cuvinte distincte de conținut narativ. Este necesară remedierea duplicării și a numărării, urmată de retestarea textului și a totalului; nu presupun că o simplă ajustare ar aproba automat produsul.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L28-L30"
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Defectul este contradicția dintre moartea definitivă a Marei la sfârșitul V1 și prezentarea ei vie în V2, fără explicație ori schimbare autorizată. V2 nu respectă intrarea de canon descrisă. Semnalez ambele stări incompatibile și solicit reconciliere documentată; nu inventez o înviere, un vis, un flashback sau altă soluție.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L32-L34"
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Defectul este lipsa lui P04 din traducerea DE: masterul EN conține P01-P04, iar DE numai P01-P03. Verificarea integralității prin corespondența ID-urilor identifică omisiunea indiferent de lungimea totală a traducerii. P04 trebuie tradus și corespondența tuturor celor patru paragrafe trebuie retestată.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L36-L38"
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "Nu există defect în stimulul dat: cei doi auditori sunt independenți și calificați, versiunea este exact cea fixată, fiecare criteriu are 951, nu există constatări, metaauditul este valid și condițiile tehnice sunt verificate. 951 este strict mai mare decât 950, deci toate condițiile enunțate permit PASS. Nu impun 1000 sau verificări suplimentare inexistente în contract; verdictul privește numai cazul sintetic.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L40-L42"
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "În situația descrisă nu este localizat un defect: livrabilul cerut este selecție preliminară, iar raportul declară pasajele efectiv citite și nu pretinde canon integral sau aprobarea romanului. Acoperirea limitată, declarată sincer, este compatibilă cu acel scop și nu trebuie judecată ca un G01 închis. Această constatare nu acordă automat PASS produsului: corectitudinea probelor și celelalte condiții rămân de verificat.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L44-L46"
+    },
+    {
+      "id": "A-CANON-S01",
+      "verdict": "RETURN",
+      "reason": "Defectul este omisiunea din raport a conflictului dintre paragraful 3, Alexandre Boucher, și paragraful 5, Alexandre Dubois, pentru același mire. Citarea exclusivă a primei forme ascunde o contradicție materială de identitate. Raportul trebuie să localizeze ambele forme și să declare conflictul pentru reconciliere; nu aleg arbitrar un nume și nu inventez două personaje sau o schimbare de nume. Este aplicarea pe exemplul sintetic, nu o calificare retroactivă a auditului r01.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L70-L72"
+    },
+    {
+      "id": "A-CANON-S02",
+      "verdict": "RETURN",
+      "reason": "Defectul este afirmația «roman publicat validat» bazată pe o listare în catalog și pe un fișier care conține numai planul. Titlul listat și planul nu demonstrează existența prozei complete, validarea ei sau publicarea. Afirmația trebuie retrasă ori susținută prin artefactul complet și probe distincte pentru validare și publicare; din absența acestor probe nu inventez nici finalizarea, nici publicarea.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L74-L76"
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T04:25:08+03:00"
+}

@@ -1,0 +1,37 @@
+EVA PRINT dynamic website architecture
+
+Selected stack
+Go backend, server-rendered semantic HTML, a small progressively loaded browser layer and PostgreSQL. Native net/http and html/template are suitable building blocks. Database access uses parameterized queries and a bounded connection pool. A compiled backend and server-rendered content are a practical choice for this project; no claim of absolute language superiority or measured site speed is made before implementation and benchmarking.
+
+Every site content value is data
+The runtime must not load translated display strings from source-code literals or locale JSON files. English source copy and all translations are content_fields and field_translations rows. A field includes entity type/id, property path, stable field key, value type, source locale and source version. Values may be text, lists, numbers, references or constrained structured data. Material identifiers and numerical properties are invariant technical data, while their labels and descriptions are localized fields.
+
+Layout is separate data
+page_definitions identifies the route and template. page_positions defines regions, parent/child components, order and options. field_placements binds fields to component properties. localized_positions permits a deliberate language-specific override. menu_definitions/menu_items and form_definitions/form_fields define navigation and intake structure. The component registry and business logic are executable Go code; editors configure instances and fields rather than storing executable scripts in the database.
+
+Example: material.abs-fiberlogy.description belongs to a material entity. A placement binds it to the description slot in material-detail.main. Each language has its own translation row pointing to the same field. Moving that placement updates all languages. Changing the English value increases the source version, preserves its old value, marks translations stale and creates translation jobs. Approved translations are published only against the current source version; a late job for an earlier version cannot publish over newer content.
+
+Languages are separate data
+The locales table starts with en/de/fr/es/ro/hu/bg, native names, order, enabled state and source fallback. Spanish uses es. Adding another locale does not require a new application enum. The locale trigger creates its missing translation jobs. Disabling a locale changes navigation, retains editorial history and invalidates rendered public pages. Technical documents keep their original language.
+
+Propagation means a controlled editorial workflow
+Editing source content does not magically produce accurate translations. The DB queues updates and prevents outdated translations from remaining public. A human translator or configured translation service creates drafts for review. The newest English value is temporarily displayed with a DB-defined fallback label until the new translation is reviewed. Previously reviewed text is retained for comparison. Technical and legal language requires review; supplier terminology, numbers and standards must be protected from unintended changes.
+
+All binary business content is also in PostgreSQL
+assets/project_files hold metadata; file_blobs relates one binary object to its asset or project document. file_blob_chunks stores ordered bytea segments of at most 8 MiB. Originals, supplier research documents and web thumbnails are imported through a streaming worker with hash verification. The initial seed registers metadata; asset-import-manifest.json is the binary import input. No production DB has been connected or populated with the entire binary bundle by this research task.
+
+Use bounded-memory streaming and independent total-size quotas. Finalize a blob only after chunk continuity, total byte length and SHA-256 match. Downloads require a complete blob and permission check, including range requests. Public reference photos never become public merely by importing their bytes. Customer documents remain private and are quarantined until scanning succeeds. A restricted ingestion/scanning service handles quarantined bytes; customers cannot download them before approval. Database backups include file content and require capacity planning for WAL, replication and retention.
+
+Fast public rendering
+Resolve layout, page content and related entity fields in bulk, with indexes on entity, language and position. Avoid one query per field. Build public HTML on the server and cache by entity/route, locale, source/translation versions and layout version. Durable render_events is the invalidation queue; PostgreSQL NOTIFY accelerates it, but workers also process retained events after restart. Position, placement, menu, form and locale edits invalidate their affected views. Cache image derivatives and licensed public downloads separately. Private sessions/projects/files bypass shared caches.
+
+Responsive AVIF/WebP images, explicit dimensions, sensible loading priorities, compressed responses and a delayed CAD viewer reduce transfer and browser work. Performance targets: p75 mobile LCP <= 2.5 seconds, INP <= 200 ms, CLS <= 0.1. Benchmark the implemented site with representative catalogs, real images, seven locales and large private files. Record query count, TTFB, server memory and cache behavior. These are acceptance targets, not results from this package.
+
+Evidence and reference documentation
+https://go.dev/doc/
+https://pkg.go.dev/net/http
+https://pkg.go.dev/html/template
+https://www.postgresql.org/docs/current/datatype-json.html
+https://www.postgresql.org/docs/current/ddl-rowsecurity.html
+https://web.dev/articles/rendering-on-the-web
+https://web.dev/articles/defining-core-web-vitals-thresholds

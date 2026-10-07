@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d1d0-6f17-7c52-a5f8-a3c3178c2cb8",
+  "role": "A-EN",
+  "set_version": "rom001-r01",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Criteriul notat exact 950 nu depășește pragul strict >950. Celelalte note de 980 și media lor nu pot compensa acest criteriu; verdictul PASS este nejustificat.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C01, liniile 12–14: criteriul de 950 și verdictul PASS; 00_CONDUCERE/MANUAL_ATELIER.md, § 3, linia 18."
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Producătorul și semnatarul auditului au același ID X. Aliasul Y nu creează un evaluator independent: raportul este autoaudit și nu poate valida livrabilul.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C02, liniile 16–18: alias Y cu același ID X; 00_CONDUCERE/MANUAL_ATELIER.md, § 3, linia 20."
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Amprenta A din raport nu corespunde amprentei B a fișierului curent. Auditul privește altă versiune și nu se transferă asupra celei modificate; versiunea curentă necesită audit nou.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C03, liniile 20–22: SHA-256 A în raport, B la fișier; 00_CONDUCERE/MANUAL_ATELIER.md, § 3, linia 20, și § 4, linia 25."
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Din succesiunea cerută C01–C03 lipsește capitolul C02. Declarația de completitudine din sumar nu furnizează capitolul absent; predarea rămâne incompletă.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C04, liniile 24–26: predare cu numai C01 și C03; 00_CONDUCERE/MANUAL_ATELIER.md, § 11, linia 70."
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Scena identică de 2.000 de cuvinte apare în două capitole și este numărată de două ori. Duplicarea umflă nejustificat volumul; trebuie remediată, apoi reverificate proza și numărătoarea.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C05, liniile 28–30: scena repetată și dubla numărare; 00_CONDUCERE/MANUAL_ATELIER.md, § 9, liniile 58 și 60."
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Mara vie în V2 contrazice moartea definitivă stabilită la finalul V1. Stimulul nu oferă explicație sau schimbare autorizată; nu pot inventa o înviere pentru a închide contradicția.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C06, liniile 32–34: moarte definitivă în V1, personaj viu în V2; 00_CONDUCERE/MANUAL_ATELIER.md, § 5, linia 30, și § 11, linia 70."
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Paragraful P04 din masterul EN nu are corespondent în traducerea DE. Traducerea este incompletă; verificarea pe identificatori trebuie să confirme restituirea paragrafului, indiferent de volumul total de cuvinte.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C07, liniile 36–38: EN P01–P04, DE numai P01–P03; 00_CONDUCERE/MANUAL_ATELIER.md, § 12, liniile 75 și 77."
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "Fiecare criteriu de 951 depășește strict 950. Stimulul confirmă doi auditori independenți și calificați, versiunea fixată, zero constatări, metaaudit valid și toate condițiile tehnice; nu există motiv să impun 1000 sau o condiție suplimentară.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C08, liniile 40–42: toate condițiile sunt stipulate ca îndeplinite; 00_CONDUCERE/MANUAL_ATELIER.md, § 3, liniile 18 și 20."
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Contractul cere o selecție preliminară, iar raportul declară exact pasajele citite și limitele concluziilor. Această acoperire delimitată nu este prin ea însăși un defect; nu dovedește acceptarea întregului produs, a canonului integral sau a romanului.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, § C09, liniile 44–46: selecție preliminară cu limite declarate; 01_ECHIPA/A-EN.md, § Definiția finalizării sarcinii, linia 24."
+    },
+    {
+      "id": "A-EN-S01",
+      "verdict": "RETURN",
+      "reason": "În prima propoziție, «Anna have placed the cup down», auxiliarul «have» nu se acordă cu subiectul singular Anna. În a doua, «He were afraid», «were» nu se acordă cu «He» în enunțul declarativ dat, iar pronumele masculin nu are antecedent și nu justifică perspectiva introdusă. Brief-ul nu autorizează dialect sau schimbare de perspectivă; raportul de limbă impecabilă și referent clar este infirmat de ambele propoziții.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_r01.md, § A-EN-S01, liniile 22–24: cele două propoziții EN și absența antecedentului, schimbării de perspectivă și dialectului; 01_ECHIPA/A-EN.md, liniile 6 și 12."
+    },
+    {
+      "id": "A-EN-S02",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "«Not tonight» este o replică eliptică idiomatică, permisă explicit de brief, cu sens și vorbitor clare în context. Absența unui verb finit în replică nu justifică respingerea; restul criteriilor necesită evaluare separată și nu primesc automat PASS.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_r01.md, § A-EN-S02, liniile 25–27: replica «Not tonight», atribuirea Annei și permisiunea pentru fragmente; 01_ECHIPA/A-EN.md, liniile 6 și 12."
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T08:09:01.5282651+03:00"
+}

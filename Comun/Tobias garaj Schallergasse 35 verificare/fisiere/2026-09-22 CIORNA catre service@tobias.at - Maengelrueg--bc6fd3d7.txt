@@ -1,0 +1,103 @@
+An:          service@tobias.at
+Von:         office@ac-wohnart.at
+Betreff:     Garagentoranlage TOBIAS SATURN, Bj. 1998, Herstell-Nr. 98005 – Schallergasse 35, 1120 Wien | Serviceeinsatz vom 18.09.2026: Mängelrüge, Vorbehalt und Ersuchen um Ortstermin am 25.09.2026
+Anlage:      Schadens- und Ereignisbericht Garagentor - Schallergasse 35 - 2026-09-18.pdf (11 Seiten, 14 Lichtbilder)
+Antwort auf: service@tobias.at vom 14.09.2026 10:30 (Rechnungsanschrift)
+Status:      CIORNA in EVA -> Drafts (id 4fd1cff2-b6cb-4d3d-b084-f81368b89b3a) - NU a fost trimisa
+======================================================================
+
+Sehr geehrte Frau Mucha,
+sehr geehrte Damen und Herren,
+
+wir wenden uns heute in einer Angelegenheit an Sie, die uns aufrichtig bedauern lässt. Wir haben uns bewusst an Sie als Herstellerin der Anlage gewandt, gerade um ein fachgerechtes Vorgehen sicherzustellen. Das Ergebnis des Einsatzes vom 18.09.2026 entspricht dieser Erwartung leider nicht.
+
+Wir ersuchen Sie höflich, die nachstehende Darstellung als sachliche Mängelrüge und als Grundlage für eine rasche, einvernehmliche Klärung zu verstehen.
+
+1. GEGENSTAND UND ANLAGE
+
+Liegenschaft: Schallergasse 35, 1120 Wien (Meidling)
+Eigentümerin und Auftraggeberin: A&C Wohnart Immobilien GmbH, FN 668224h, HG Wien
+Anlage: Garagentoranlage, Hersteller Adolf Tobias Ges.m.b.H., Typ SATURN, Baujahr 1998, Herstell-Nr. 98005
+Gegenständlicher Einsatz: Freitag, 18.09.2026, ab ca. 07:00 Uhr
+
+2. TERMINLICHE GRUNDLAGE
+
+Sie haben uns mit Schreiben vom 11.09.2026 eine Regiewartung samt Tausch des Notentriegelungsschlosses für Freitag, den 18.09.2026, ca. 07:00 Uhr, angeboten. Wir haben am 14.09.2026 um Verlegung auf Freitag, den 25.09.2026, 07:00 Uhr, ersucht; diesen Termin haben Sie am selben Tag um 09:54 Uhr schriftlich bestätigt. Der 25.09.2026 ist damit die letzte in unseren Unterlagen dokumentierte Terminvereinbarung.
+
+Tatsächlich ist bereits am 18.09.2026 gegen 07:00 Uhr ein Techniker Ihres Hauses am Objekt erschienen. Wir haben unseren gesamten Schriftverkehr nochmals vollständig durchgesehen und dazu keine weitere Vereinbarung auffinden können.
+
+Wir ersuchen daher um Übermittlung Ihrer Einsatzunterlagen, insbesondere Auftrag bzw. Auftragsbestätigung, Arbeitsschein und Servicebericht vom 18.09.2026, damit der Ablauf für beide Seiten nachvollziehbar dokumentiert ist.
+
+3. ZUSTAND DER ANLAGE VOR DEM EINSATZ
+
+Die Anlage war vor dem Einsatz mechanisch intakt und über die Funkfernbedienung bedienbar. Dies ist durch eine Videoaufnahme vom 11.09.2026 belegt, in der das Tor vollständig und störungsfrei auffährt; zwei Standbilder daraus liegen dem beiliegenden Bericht als Bild 13 und Bild 14 bei. Die Originaldatei stellen wir Ihnen auf Wunsch gerne zur Verfügung.
+
+In den Tagen danach erlosch die rote Kontroll-Leuchtdiode der Fernbedienung, die in unveränderter Weise mitgeführt wurde; ein Sendesignal war in weiterer Folge offenbar nicht mehr vorhanden. Beim Eintreffen des Technikers war das Tor blockiert. Das Fehlerbild wies damit eindeutig in Richtung Handsender bzw. Funkempfänger und nicht in Richtung Mechanik.
+
+4. ABLAUF DES EINSATZES VOM 18.09.2026
+
+- ca. 07:00 Uhr: Eintreffen des Technikers, Feststellung der Blockade. Ein Öffnungsversuch mit einer mitgeführten Universalfernbedienung blieb erfolglos; die mitgeführten Schlüssel passten nicht.
+- ca. 07:19 Uhr: Das Torblatt wurde gegen die noch eingerastete Verriegelung von Hand gewaltsam nach oben gezogen.
+- ca. 07:20 Uhr: Als unmittelbare Folge waren die Verbindungs- bzw. Mitnehmerarme zwischen Torblatt und Antriebskette verbogen und die Befestigungsstelle an der Laufschiene verformt.
+- bis ca. 12:15 Uhr: Arbeiten an der Elektrik, namentlich Abklemmen und Umklemmen von Leitungen, Änderung von Schaltvarianten sowie Demontage des Funkempfängers, ohne dass die reguläre Funktion wiederhergestellt wurde. Abschließend Montage einer neuen Notentriegelung mit Bowdenzug und Demontage der bisherigen Verriegelung.
+
+5. TECHNISCHE BEANSTANDUNGEN
+
+5.1 Zerstörungsfreie Alternative nicht gewählt. Eine blockierte Toranlage lässt sich fachgerecht zerstörungsfrei entriegeln, etwa durch Aufbohren der Befestigungsschrauben der Ver- und Entriegelungseinheit. Das Hochziehen des Torblattes gegen die eingerastete Verriegelung leitet die gesamte Handkraft über die Mitnehmerarme in die Laufschiene ein; eine plastische Verformung dieser Bauteile ist dabei nicht ein Risiko, sondern die zwangsläufige Folge.
+
+5.2 Fehlersuche nicht an der naheliegenden Ursache. Trotz des eindeutigen Fehlerbildes im Funkbereich wurde diese Spur nicht systematisch abgearbeitet. Die eingesetzte Universalfernbedienung erbrachte in keinem Versuch ein Ergebnis, ohne dass daraus auf eine mögliche Störung des Empfangszweiges geschlossen worden wäre.
+
+5.3 Eingriffe in die Elektrik ohne Dokumentation. Klemmstellen, Schaltvarianten und der Funkempfänger wurden verändert bzw. demontiert, ohne dass der Ausgangszustand aufgenommen oder der Endzustand dokumentiert worden wäre. Der ursprüngliche Verkabelungs- und Einstellzustand der Anlage ist damit nicht mehr gesichert, was jede spätere Ursachenanalyse erschwert.
+
+5.4 Montage der neuen Notentriegelung. Bei der Montage war dem Techniker die Wirkungsweise eines Bowdenzuges nicht geläufig, insbesondere die Notwendigkeit, die Außenhülle in einem Widerlager abzustützen, damit überhaupt Kraft übertragen werden kann. Die korrekte Fixierung musste ihm vor Ort von uns gezeigt werden.
+
+Wir halten ausdrücklich fest: der eingesetzte Mitarbeiter war durchwegs ruhig, höflich und gesprächsbereit. Unsere Beanstandung richtet sich nicht gegen seine Person, sondern gegen die aus unserer Sicht fehlende fachliche Eignung für diese konkrete Aufgabe an einer Anlage Ihres eigenen Fabrikats.
+
+6. SCHADENSBILD (STAND 18.09.2026)
+
+- Verbindungs- bzw. Mitnehmerarme zwischen Torblatt und Antriebskette sichtbar verbogen
+- Befestigungs- bzw. Anschlussstelle an der Laufschiene verformt, Lackabplatzungen
+- Laufschiene bzw. Führung verzogen; weitere Verformungen oder Risse an Beschlägen sind nicht auszuschließen
+- Antrieb über Funkfernbedienung nach dem Einsatz nicht regulär funktionsfähig
+- veränderter, nicht dokumentierter Zustand der Elektrik
+- bisherige Verriegelung demontiert, neue Notentriegelung eingebaut
+
+Sämtliche Punkte sind im beiliegenden Schadens- und Ereignisbericht vom 21.09.2026 mit vierzehn Lichtbildern und Zeitstempeln belegt.
+
+7. RECHTLICHE WÜRDIGUNG UND VORBEHALT
+
+Die Anlage war vor dem Einsatz mechanisch intakt; die Störung lag nach dem Erscheinungsbild im Funkbereich. Nach dem Einsatz ist die Mechanik beschädigt, die Anlage weiterhin nicht regulär bedienbar und die tatsächliche Ursache nach wie vor ungeklärt. Aus einer einfachen Entriegelungsmaßnahme ist damit ein Schaden an der bestehenden Substanz entstanden.
+
+Wir behalten uns sämtliche Rechte aus Gewährleistung und Schadenersatz ausdrücklich vor. Eine Freigabe, Abnahme oder Anerkennung der am 18.09.2026 erbrachten Leistungen erfolgt hiermit ausdrücklich nicht.
+
+8. UNSER ERSUCHEN
+
+Uns ist an einer raschen und einvernehmlichen Lösung gelegen. Wir halten daher den von Ihnen bestätigten Termin am Freitag, dem 25.09.2026, um 07:00 Uhr, Schallergasse 35, 1120 Wien, aufrecht und ersuchen, ihn als gemeinsamen Ortstermin mit einem fachlich einschlägig erfahrenen Techniker oder Sachverständigen Ihres Hauses durchzuführen. Gegenstand sollen sein:
+
+- Bestandsaufnahme und Bewertung der Schäden an Torblatt, Mitnehmerarmen, Laufschiene und Beschlägen
+- Klärung der tatsächlichen Ursache der ursprünglichen Störung, namentlich Handsender, Funkempfänger und Steuerung
+- Wiederherstellung eines definierten und dokumentierten Zustands der Elektrik und der Antriebseinstellungen
+- verbindlicher Instandsetzungsplan mit Terminen und Kostenübernahme
+- Überprüfung der neu montierten Notentriegelung auf fachgerechte Ausführung und Funktion
+
+Wir sind zeitlich flexibel und ermöglichen Ihrem Techniker jederzeit Zugang zur Garage und zur gesamten Toranlage.
+
+9. RECHNUNGSANSCHRIFT
+
+Zu Ihrer Anfrage vom 14.09.2026 übermitteln wir die Rechnungsanschrift:
+
+A&C Wohnart Immobilien GmbH
+FN 668224h, HG Wien
+Schallergasse 35
+1120 Wien
+
+Die Bekanntgabe erfolgt ausschließlich zu administrativen Zwecken und stellt weder eine Anerkennung der am 18.09.2026 erbrachten Leistungen noch einer daraus abgeleiteten Forderung dar.
+
+10. FRIST
+
+Wir ersuchen um Rückmeldung bis spätestens Mittwoch, den 24.09.2026, damit der Termin am Freitag beiderseits gesichert disponiert werden kann.
+
+Für Rückfragen stehen wir Ihnen jederzeit gerne zur Verfügung:
+A&C Wohnart Immobilien GmbH, office@ac-wohnart.at, Tel. +43 665 67055045
+
+Mit freundlichen Grüßen

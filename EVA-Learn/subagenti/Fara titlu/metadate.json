@@ -1,0 +1,23 @@
+{
+  "id": "01a10b83-5e61-7ef3-a047-c97c44cf2711",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn",
+  "created_at": 1791194521,
+  "updated_at": 1791208201,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a10b76-63c7-79a3-93a0-4708a9986efa\",\"depth\":1,\"agent_path\":\"/root/inventar_limbi\",\"agent_nickname\":\"Volta\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "bad0be1d-5fae-412b-aa11-fef421eb951f",
+  "project": "EVA-Learn",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a10b76-63c7-79a3-93a0-4708a9986efa",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 16370793,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 348,
+  "message_count": 28,
+  "content_sha256": "463e710a1105b1256dbafdbcf1f0746230ad1e779346f267cda7e5f76392dfc5",
+  "files_copied": 5,
+  "references_not_copied": 2
+}

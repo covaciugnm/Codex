@@ -1,0 +1,163 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r01--64e5ca9d.json",
+    "bytes": 16735,
+    "sha256": "a825a5db3032848664851c345440a795f8870545617af85f8e3ed915efa97d4a"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r01--4be5e34b.md",
+    "bytes": 42330,
+    "sha256": "a1a8657f7c9c6236d23c334a724ed2c5a562a59392a0119937b6a47edbfff95f"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r02-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r02-tests--8a178c2f.txt",
+    "bytes": 129333,
+    "sha256": "191f688cd66490d256c1c300bc2ca6b929bc50fce98cad9a9d3d6d5651d6d5d1"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r02--ef5f3e99.json",
+    "bytes": 24557,
+    "sha256": "8fbbb12e49eae3c57d4304ef08f18a486c47680692cd60d2356a80c39bb120bd"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r02--7cbde28d.md",
+    "bytes": 10941,
+    "sha256": "e26f641e1b0c8f100a538ca390436d85aa55188c9a69d6eeff77d76fc34fff60"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r03-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r03-tests--030eea7c.txt",
+    "bytes": 176656,
+    "sha256": "616c275f97fe30ffee69da168ac188e2e0bbcebbe2348b2fbb38cb7349edabb2"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r03--a26556a9.json",
+    "bytes": 26526,
+    "sha256": "2f90a5d4dd468ae599158d4f4af4759ee17dc7fa9fec3826ae09fa1271467616"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-SYSTEMS-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r03--23c1fabf.md",
+    "bytes": 10136,
+    "sha256": "e555d42759595bb69e82374ecaa79287fe9bed4304eb676c8e2d0e6108f3d00f"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/CALIBRARE/A-SYSTEMS-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r02--94475b95.json",
+    "bytes": 4544,
+    "sha256": "313ad647e90dc3f34ce81928ed9bfcd44d60cacdf52290887de0fd10ef3227e7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-SYSTEMS-r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r01--64e5ca9d.json",
+    "bytes": 16735,
+    "sha256": "a825a5db3032848664851c345440a795f8870545617af85f8e3ed915efa97d4a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-SYSTEMS-r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r01--4be5e34b.md",
+    "bytes": 42330,
+    "sha256": "a1a8657f7c9c6236d23c334a724ed2c5a562a59392a0119937b6a47edbfff95f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-SYSTEMS-r02-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r02-tests--8a178c2f.txt",
+    "bytes": 129333,
+    "sha256": "191f688cd66490d256c1c300bc2ca6b929bc50fce98cad9a9d3d6d5651d6d5d1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-SYSTEMS-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r02--ef5f3e99.json",
+    "bytes": 24557,
+    "sha256": "8fbbb12e49eae3c57d4304ef08f18a486c47680692cd60d2356a80c39bb120bd"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-SYSTEMS-r02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r02--7cbde28d.md",
+    "bytes": 10941,
+    "sha256": "e26f641e1b0c8f100a538ca390436d85aa55188c9a69d6eeff77d76fc34fff60"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-SYSTEMS-r03-tests.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r03-tests--030eea7c.txt",
+    "bytes": 176656,
+    "sha256": "616c275f97fe30ffee69da168ac188e2e0bbcebbe2348b2fbb38cb7349edabb2"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-SYSTEMS-r03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r03--a26556a9.json",
+    "bytes": 26526,
+    "sha256": "2f90a5d4dd468ae599158d4f4af4759ee17dc7fa9fec3826ae09fa1271467616"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\05_AUDIT\\SYS-001\\A-SYSTEMS-r03.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r03--23c1fabf.md",
+    "bytes": 10136,
+    "sha256": "e555d42759595bb69e82374ecaa79287fe9bed4304eb676c8e2d0e6108f3d00f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\CALIBRARE\\A-SYSTEMS-r02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-SYSTEMS-r02--94475b95.json",
+    "bytes": 4544,
+    "sha256": "313ad647e90dc3f34ce81928ed9bfcd44d60cacdf52290887de0fd10ef3227e7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\REZULTATE\\VIZUAL_R02\\pagina-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-1--4003fc63.png",
+    "bytes": 41782,
+    "sha256": "32d0f8911d6e84c6b7174db0e442572ce6d14a44b9d03c901732ad3c3ac6e0eb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\REZULTATE\\VIZUAL_R02\\pagina-6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-6--5f4080d8.png",
+    "bytes": 165331,
+    "sha256": "4a224e6b271b0f4f3252038e361022a527fc02a6d599a0d7e69b737b9f7c6cb4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\REZULTATE\\VIZUAL_R02\\pagina-7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-7--5170b487.png",
+    "bytes": 155908,
+    "sha256": "9d06593fd270ccdf4a7c1ed3d7c76a88badf024ab6916c23a6d7bdba476e875f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\REZULTATE\\VIZUAL_R03_v02\\pagina-28.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-28--cd681581.png",
+    "bytes": 49162,
+    "sha256": "206dcb42183f2b60b93b1b525db6450e01705bdd7603a19d3fb6449e39afb288"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\02. ATELIER EDITORIAL - ROMANE 50000\\06_REGISTRU\\REZULTATE\\VIZUAL_R03_v02\\pagina-7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-7--dc2c98a0.png",
+    "bytes": 157680,
+    "sha256": "00d3d5efdee89fbf943dfc94ca09da1b28e5fc001119226b2005fe5b1c1ff1cb"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "agents": [
+    {
+      "agent_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+      "role": "P-MANAGER",
+      "kind": "producer",
+      "active": true
+    },
+    {
+      "agent_id": "01a0d0d7-e865-7b71-9707-be8786099512",
+      "role": "P-CANON",
+      "kind": "producer",
+      "active": true
+    },
+    {
+      "agent_id": "01a0d0d8-0415-77a3-88c6-755ad2530f62",
+      "role": "P-RESEARCH",
+      "kind": "producer",
+      "active": true
+    },
+    {
+      "agent_id": "01a0d0d9-1f95-7211-8093-c26e28e6ebee",
+      "role": "P-SYSTEMS",
+      "kind": "producer",
+      "active": true
+    }
+    ,
+  {
+    "agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+    "role": "A-GOVERNANCE",
+    "kind": "auditor",
+    "active": true
+  },
+  {
+    "agent_id": "01a0d0ee-a18e-78a1-a069-9e87df0efc87",
+    "role": "A-SYSTEMS",
+    "kind": "auditor",
+    "active": true
+  },
+  {
+    "agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+    "role": "A-CANON",
+    "kind": "auditor",
+    "active": true
+  },
+  {
+    "agent_id": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+    "role": "A-SOURCES",
+    "kind": "auditor",
+    "active": true
+  }
+
+    ,{"agent_id":"01a0d0f3-8249-7d91-95f4-ef806130bebe","role":"A-QAMANAGER","kind":"auditor","active":true}
+  ]
+}

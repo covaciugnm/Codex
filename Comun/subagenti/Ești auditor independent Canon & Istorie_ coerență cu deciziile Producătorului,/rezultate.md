@@ -1,0 +1,506 @@
+# Rezultate — Ești auditor independent Canon & Istorie: coerență cu deciziile Producătorului, continuitate internă, cronologie, vârste și identități, reguli ale puterilor, date/locuri istorice verificate pe surse primare. Separă istoria documentată de tradiție și de ficțiune. Verifică legăturile canon–organizare. pentru proiectul DRACULA. Nu ai contribuit la revizii. User cere trei evaluări independente reale, minimum9,50 FIECARE; nu umfla note și nu inventa defecte pentru severitate. Numai defecte motivate, locație exactă și remediu verificabil. Grila deja stabilită: 9,50–10 excepțional fără modificări substanțiale; major plafon9,20; critic plafon8,50; minore cumulate scad nota; neconcordanță cu decizie aprobată=critic. Nu schimba grila. Verdict PASS iff scor>=9.50.
+ROOT COPIE IZOLATĂ: D:\00. Downloads\Dracula Book\DRACULA-COMICS-CODEX-G0-20260924
+PACHET FIX OBLIGATORIU: D:\00. Downloads\Dracula Book\DRACULA-COMICS-CODEX-G0-20260924\00_STUDIO\audit\RELUARE_CODEX_20260924_120350\PACHET_AUDIT_01. Citește integral fișierele principale din pachet, nu eșantionat: 01_CANON/00_CANON_NUCLEU.md (v4.2), 00_STUDIO/01_ECHIPA_SI_ROADMAP.md, 00_STUDIO/03_JURNAL_PROGRES.md. 00_STUDIO/rapoarte/S_showrunner.md este anexă de stare de verificat, nu schimbă perimetrul istoric. Citește deciziile15 și contrasemnările din pachet; acestea prevalează. Briefurile sunt tot în pachet. Calculează SHA256 și verifică manifest.json. Căile absolute vechi din istoric rămân istorice; pentru date curente folosește echivalentele din ROOT sau pachet, NICIODATĂ originalul modificat de altă sesiune.
+Dosare referință/evidență neschimbate de autori acum:
+- ROOT/00_STUDIO/audit/G0-CANON-v4/R1_plan_masuri.md și R1_audit_*.md; revizia nouă: REV_IZOLAT_20260924/RAPORT_REVIZIE.md, MASURI_39.md, DEFECTE_64.md, verificări, predat.
+- ROOT/00_STUDIO/audit/G0-STUDIO-v4/R3_plan_masuri.md, R3_audit_*.md; revizia nouă CODEX_R3_verificari/EXECUTIE_FINALA.md, verificări, manifest.
+Evaluează situația NOUĂ, nu transfera notele vechi. Separă condițiile G0 de implementările G1 viitoare; lipsa site-ului final nu este defect G0 dacă mandatul G0 definește doar brief/proces. Testele autorilor nu țin loc de judecată semantică. Verifică măsurile anterioare relevante lentilei, cu starea lor și dovezi, fără a pretinde verificări neexecutate. Folosește web pentru fapte istorice/juridice incerte cu surse primare. Ai acces autorizat de coordonator și la referința confidențială ROOT/04_LUME/05_MISTERUL_OMULUI_FARA_UMBRA.md pentru compatibilitate; nu dezvălui identitatea antagonistului în rezumatul public.
+SALVEAZĂ DOAR 2 RAPOARTE NOI (română, UTF8), nu edita producția, scripturile sau notele altor auditori:
+1 ROOT/00_STUDIO/audit/G0-CANON-v4/R2_audit_canon.md
+2 ROOT/00_STUDIO/audit/G0-STUDIO-v4/R4_audit_canon.md
+Fiecare: perimetru/hash, metoda reală, NOTĂ două zecimale, PASS/FAIL, puncte forte, tabel defecte gravitate/loc/probă/remediu, închiderea măsurilor anterioare, limite. G0 nu este aviz juridic sau certificare comercială externă. Nu efectua scrieri prin verificatoare cu hardcoded original root; poți citi și face verificări proprii read-only. Nu lansa agenți. Python disponibil C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe. Citește în bucăți dacă output e trunchiat, nu revendica lectură integrală dacă nu ai făcut-o.
+Returnează concis scoruri, defecte blocante și căi rapoarte. Nu aștepta ca părintele să confirme PASS; acordă verdictul onest.
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## Asistent
+
+Lectura integrală a celor trei documente principale este încheiată. Am găsit nealinieri concrete între regulile canonului și instrucțiunile operative despre repere și mărci; verific acum briefurile și măsurile precedente pentru a stabili gravitatea și dacă remedierea declarată le acoperă.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-18753d59-17b3-4951-9a36-b1b6574d2d04",
+  "query": "site.digitale-sammlungen.de Dracole 1488 Ayrer 14 Oktober ...",
+  "action": {
+    "type": "search",
+    "queries": [
+      "site.digitale-sammlungen.de Dracole 1488 Ayrer 14 Oktober",
+      "site.college-optometrists.org sunglasses 1752 Ayscough Scarlett",
+      "site.normattiva.it decreto legislativo 42 2004 articolo 108 riproduzioni",
+      "site.ris.bka.gv.at Staatsbürgerschaftsgesetz 28 Beibehaltung"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn7search0",
+      "snippet": "# Bundesrecht konsolidiert: Staatsbürgerschaftsgesetz 1985 § 28, Fassung vom 29.12.2025 ... (3)Absatz 3,Die Beibehaltung der Staatsbürgerschaft darf nur auf schriftlichen Antrag und unter der Bedingun",
+      "title": "RIS - Staatsbürgerschaftsgesetz 1985 § 28 - Bundesrecht konsolidiert, Fassung vom 29.12.2025",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2025-12-29&Gesetzesnummer=10005579&Paragraf=28&Uebergangsrecht="
+    },
+    {
+      "type": "text_result",
+      "domain": "www.normattiva.it",
+      "ref_id": "turn7search1",
+      "snippet": "* Image 42 ... ((Disciplina in materia di restituzione, nell'ambito dell'Unione europea, di beni culturali illecitamente usciti dal territorio di uno Stato membro)) ... *",
+      "title": "DECRETO LEGISLATIVO 22 gennaio 2004, n. 42 - Normattiva",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2004-01-22%3B42~art107="
+    },
+    {
+      "type": "text_result",
+      "domain": "bildsuche.digitale-sammlungen.de",
+      "ref_id": "turn7search2",
+      "snippet": "Image: Dracole Wayda ... 1488]",
+      "title": "Dracole Wayda ( [ca. 1488]) - Digitalisiertes Buch aus dem urheberrechtsfreien Bestand der Bayerischen Staatsbibliothek München [Deutschland] 2007-2026 Bildähnlichkeitssuche",
+      "url": "https://bildsuche.digitale-sammlungen.de/index.html?bandnummer=bsb00032879&c=viewer"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.parlamento.it",
+      "ref_id": "turn7search3",
+      "snippet": "I relativi corsi si adeguano a criteri e livelli di qualità definiti con accordo in sede di Conferenza Stato-regioni, ai sensi dell'articolo 4 del decreto",
+      "title": "Dlgs 42/04",
+      "url": "https://www.parlamento.it/parlam/leggi/deleghe/04042dl.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ris.bka.gv.at",
+      "ref_id": "turn7search12",
+      "snippet": "Staatsbürgerschaftsgesetzes 1965 in der Stammfassung und in der Fassung der Staatsbürgerschaftsgesetz- ... Nachträgliche Bewilligung zur Beibehaltung der österreichischen Staatsbürgerschaft trotz ... ",
+      "title": "Bundesrecht konsolidiert",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40245832/NOR40245832.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn7search4",
+      "snippet": "The College has issued the following advice to help safeguard eye health and vision over the summer months: ... Clinical Adviser at The College of",
+      "title": "Summer eye health tips - College of Optometrists",
+      "url": "https://www.college-optometrists.org/news/2024/july/summer-eye-health-tips"
+    },
+    {
+      "type": "text_result",
+      "domain": "bildsuche.digitale-sammlungen.de",
+      "ref_id": "turn7search5",
+      "snippet": "#### of Dracole Wayda ([Nürnberg] [ca.1488])",
+      "title": "Image-based Similarity Search | Digitale Bibliothek der BSB",
+      "url": "https://bildsuche.digitale-sammlungen.de/index.html?bandnummer=bsb00032879&c=band_segmente&l=en&pimage=00001"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cittametropolitana.mi.it",
+      "ref_id": "turn7search13",
+      "snippet": "riproduzione è consentita solo in via eccezionale e nel rispetto delle modalità stabilite con apposito decreto ... 108. ... b) dei mezzi e delle modalità",
+      "title": "Decreto Legislativo 22 gennaio 2004, n. 42",
+      "url": "https://www.cittametropolitana.mi.it/export/sites/default/pianificazione_territoriale/normativa/DLgs42-2004smi_aggiornatoAgosto14.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn7search6",
+      "snippet": "In 2017, the College undertook a systematic literature review, with a view to addressing four questions: ... If optometrists are selling blue-blocking spectacle lenses, they",
+      "title": "Blue blocking spectacle lenses - College of Optometrists",
+      "url": "https://www.college-optometrists.org/policy-and-influencing/position-statements/blue-blocking-spectacle-lenses"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn7search7",
+      "snippet": "## Appendix 1: Editions of Dracole Wayda from 1488-1500. ... Image 1: Title page of Die Geschicht Dracole Wayda (Nuremberg: Marx Ayrer, 14.",
+      "title": "Dracula Pamphlets in 15th-Century Germany | PDF | Vlad The Impaler",
+      "url": "https://www.scribd.com/document/640155125/18796583-Daphnis-Horrors-of-the-East"
+    },
+    {
+      "type": "text_result",
+      "domain": "irep.ntu.ac.uk",
+      "ref_id": "turn7search14",
+      "snippet": "c.1723-30 Edward Scarlett – the first ‘riding temple’ glasses (those which stay on via rigid bridge and arms resting on the ears, as is the",
+      "title": "Armed Glances:",
+      "url": "https://irep.ntu.ac.uk/id/eprint/101/1/203561_finalwholephdpdf.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.vwgh.gv.at",
+      "ref_id": "turn7search8",
+      "snippet": "Sämtliche Entscheidungen ab 1990 sind durchgehend im Rechtsinformationssystem des Bundes (RIS) erfasst. ... # § 28 StbG (Staatsbürgerschaftsgesetz): Minderjährige haben einen Anspruch auf Beibehaltung",
+      "title": "Österreichischer Verwaltungsgerichtshof",
+      "url": "https://www.vwgh.gv.at/rechtsprechung/aktuelle_entscheidungen/2019/ra_2018010076.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "geschichtsquellen.de",
+      "ref_id": "turn7search9",
+      "snippet": "* Lübeck ca. 1490 bei Ghotan, Bartolomäus (Copinger 2119 – GW – ISTC) unter dem Titel Van deme quaden thyranne Dracole wyda ... * Nürnberg",
+      "title": "Geschichtsquellen: Werk/5617",
+      "url": "https://geschichtsquellen.de/werk/5617"
+    },
+    {
+      "type": "text_result",
+      "domain": "mariuscomper.uk",
+      "ref_id": "turn7search10",
+      "snippet": "Marx Ayrer finished his Nürnberg quarto on St Calixtus' day, 14 October 1488 (GW 12525; the single surviving copy sits in Weimar as Inc. 609a);",
+      "title": "How Vlad Țepeș became Europe's first print villain: 1462–1897",
+      "url": "https://mariuscomper.uk/vlad-tepes/en/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.college-optometrists.org",
+      "ref_id": "turn7search11",
+      "snippet": "^{130} General Optical Council (2016) Standards of Practice for Optometrists and Dispensing Opticians para 2 [Accessed 1 Nov 2023] ... The College has a suggested",
+      "title": "Sale and supply of spectacles - College of Optometrists",
+      "url": "https://www.college-optometrists.org/clinical-guidance/guidance/knowledge%2C-skills-and-performance/sale-and-supply-of-spectacles"
+    },
+    {
+      "type": "text_result",
+      "domain": "it.wikipedia.org",
+      "ref_id": "turn7search15",
+      "snippet": "Il decreto legislativo 22 gennaio 2004, n. 42, comunemente denominato Codice dei beni culturali e del paesaggio o Codice Urbani, è un decreto legislativo che",
+      "title": "Codice dei beni culturali e del paesaggio",
+      "url": "https://it.wikipedia.org/wiki/Codice_dei_beni_culturali_e_del_paesaggio"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn7search16",
+      "snippet": "Around the year 1752, James Ayscough introduced spectacles with double-hinged side pieces. ... These spectacles with tinted lenses are believed to be the precursors to",
+      "title": "James Ayscough",
+      "url": "https://en.wikipedia.org/wiki/James_Ayscough"
+    },
+    {
+      "type": "text_result",
+      "domain": "peabody.yale.edu",
+      "ref_id": "turn7search17",
+      "snippet": "This type of spectacle was introduced by James Ayscough (d1759) in 1752. ... Around 1730, Scarlett advertised that he “Grindeth all manner of Optick Glasses,",
+      "title": "Optical Instruments",
+      "url": "https://peabody.yale.edu/sites/default/files/documents/history-science-technology/Lentz%20Collection%20Guide%203-3-2022.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bmeia.gv.at",
+      "ref_id": "turn7search18",
+      "snippet": "Betr.: Antrag auf Bewilligung der Beibehaltung der österreichischen Staatsbürgerschaft gemäß § 28 Staatsbürgerschaftsgesetz 1985 ... Da ich den Erwerb der __________________________ Staatsangehörigkei",
+      "title": "_____________________________",
+      "url": "https://www.bmeia.gv.at/fileadmin/user_upload/Allgemein/Formulare/Antrag_Beibehaltung_Staatsbuergerschaft.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn7search19",
+      "snippet": "Die rechtliche Lage bei mehrfachen Staatsbürgerschaften ist in Österreich u.a. im Staatsbürgerschaftsgesetz 1985 (StbG) geregelt (§§10 Abs.6, 28). ... Um die österreichische Staatsbürgerschaft nicht z",
+      "title": "Staatsbürgerschaft",
+      "url": "https://de.wikipedia.org/wiki/Staatsb%C3%BCrgerschaft"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bmeia.gv.at",
+      "ref_id": "turn7search20",
+      "snippet": "• Die **Verleihung** einer **fremden Staatsangehörigkeit** auf Antrag bzw. mit positiver Willenserklärung führt automatisch zum **Verlust der österreichischen Staatsbürgerschaft** (§ 27 Staatsbürgersc",
+      "title": "Information zur Beibehaltung der österreichischen Staatsbürgerschaft",
+      "url": "https://www.bmeia.gv.at/fileadmin/user_upload/Vertretungen/GK_New_York/Dokumente/Information_zur_Beibehaltung_der_oesterreichischen_Staatsbuergerschaft.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn7search21",
+      "snippet": "Die Beibehaltungsgenehmigung ist ein Bescheid in Form einer Urkunde nach § 28 Abs.2 Staatsbürgerschaftsgesetz für österreichische Staatsbürger, die sich in einem anderen Staat einbürgern lassen",
+      "title": "Beibehaltungsgenehmigung",
+      "url": "https://de.wikipedia.org/wiki/Beibehaltungsgenehmigung"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn7search22",
+      "snippet": "Wer freiwillig eine fremde Staatsbürgerschaft erwirbt, verliert dadurch grundsätzlich die österreichische, es sei denn, er beantragt deren Beibehaltung (§§ 26 Z 1, 27, 29 StbG).",
+      "title": "Österreichische Staatsbürgerschaft",
+      "url": "https://de.wikipedia.org/wiki/%C3%96sterreichische_Staatsb%C3%BCrgerschaft"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit23",
+      "snippet": "> Die Staatsbürgerschaft _darf einem Fremden_, soweit in diesem Bundesgesetz nicht anderes bestimmt ist, _nur verliehen werden_, wenn ... > die für das Ausscheiden aus",
+      "title": "Staatsbürgerschaftsgesetz 1985, Fassung vom 01.01.1989",
+      "url": "https://www.reddit.com/r/Austria/comments/nz32fv"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn7search24",
+      "snippet": "V. mit StAG verlor ein Deutscher seine deutsche Staatsangehörigkeit, wenn er eine fremde Staatsangehörigkeit auf seinen Antrag erwarb, ohne zuvor eine Beibehaltungsgenehmigung erhalten zu haben.Die",
+      "title": "Deutsche Staatsangehörigkeit",
+      "url": "https://de.wikipedia.org/wiki/Deutsche_Staatsangeh%C3%B6rigkeit"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit25",
+      "snippet": "Nach § 27 StbG verliert man die österreichische Staatsbürgerschaft, wenn man eine fremde durch Antrag, Erklärung oder ausdrückliche Zustimmung erwirbt, außer man hat vorher eine",
+      "title": "Doppelte Staatsbürgerschaft durch Oma (§5 StAG), verliere ich die österreichische? Hat jemand Erfahrung?",
+      "url": "https://www.reddit.com/r/Austria/comments/1veqz2s/doppelte_staatsb%C3%BCrgerschaft_durch_oma_5_stag/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit26",
+      "snippet": "Aber deine These lässt sich ja leicht überprüfen, und zwar durch einen Antrag auf Beibehaltung nach § 28 StbG.Sollte die Behörde der Meinung sein, Taiwan",
+      "title": "Verlust der österreichischen Staatsangehörigkeit durch Aufnahme der taiwanischen Staatsangehörigkeit",
+      "url": "https://www.reddit.com/r/Austria/comments/1qiio1m/verlust_der_%C3%B6sterreichischen_staatsangeh%C3%B6rigkeit/"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Închei verificările la perimetrul G0 și salvez cele două rapoarte. Voi separa constatările confirmate de limitele neverificate; documentele și avizele prevăzute pentru G1 nu vor fi tratate ca livrabile lipsă la G0.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-cb2e6a79-0044-4ca8-9c74-84f74be5a0ae",
+  "query": "site.khm.at Vlad Tepes 1560 portrait ...",
+  "action": {
+    "type": "search",
+    "queries": [
+      "site.khm.at Vlad Tepes 1560 portrait",
+      "site.gesamtkatalogderwiegendrucke.de Dracole Ayrer 1488"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.khm.at",
+      "ref_id": "turn8search0",
+      "snippet": "ŢEPEŞ (1430–1477 ), das Vorbild für Bram Stokers Roman »Dracula« (1897), war der Sohn des Vlad Dracul, Fürst der Walachei.",
+      "title": "Vlad III. Tzepesch, der Pfähler, Woywode der Walachei 1456-1462 und 1476 (gestorben 1477) - Kunstwerke - Kunsthistorisches Museum - KHM.at",
+      "url": "https://www.khm.at/objektdb/detail/5508/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.khm.at",
+      "ref_id": "turn8search1",
+      "snippet": "um 1560/1565 | Frans de Vriendt, gen. ... Floris (1519/1520 - 1570 Antwerpen) DNBarrow_outward ... Bildmaß Kopf unregelm. achteckig ausgeschnitten; d.Übrige später ergänzt: 46 ×",
+      "title": "Selbstbildnis - Kunstwerke - Kunsthistorisches Museum - KHM.at",
+      "url": "https://www.khm.at/kunstwerke/selbstbildnis-732"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn8search2",
+      "snippet": "Dracole Wayda in 1488 against the context of the broader literary ... are referenced according to the Gesamtkatalog der Wiegendrucke (GW): ... Image 1: Title",
+      "title": "Dracula Pamphlets in 15th-Century Germany | PDF | Vlad The Impaler",
+      "url": "https://www.scribd.com/document/640155125/18796583-Daphnis-Horrors-of-the-East"
+    },
+    {
+      "type": "text_result",
+      "domain": "pdfcoffee.com",
+      "ref_id": "turn8search3",
+      "snippet": "The first printing (Rome: Georgius Teutonicus and Sixtus Riesinger 1481) was followed closely by a second run in Germany (Urach: Konrad Fyner 1481) and a",
+      "title": "Die Geschichte Dracole Waide - PDFCOFFEE.COM",
+      "url": "https://pdfcoffee.com/die-geschichte-dracole-waide-pdf-free.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn8search4",
+      "snippet": "cu toate acestea, în 1488, Dracole Waydawas nu mai era legat de prezent ... sunt referite conform Gesamtkatalog der Wiegendrucke (GW): ... Image 1: Title",
+      "title": "(18796583 - Daphnis) Grozăviile Orientului | PDF",
+      "url": "https://www.scribd.com/document/970795002/18796583-Daphnis-Groz%C4%83viile-Orientului"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.meisterdrucke.at",
+      "ref_id": "turn8search5",
+      "snippet": "## (Portrait of Vlad Tepes III the impaler or Dracula (painting)) ... 1560 · painting · Bild-ID: 977703",
+      "title": "Porträt von Vlad III. Tepeș, dem Pfähler, oder Dracula",
+      "url": "https://www.meisterdrucke.at/kunstdrucke/Unknown-artist/977703/Portr%C3%A4t-von-Vlad-III.-Tepe%C8%99%2C-dem-Pf%C3%A4hler%2C-oder-Dracula.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "commons.wikimedia.org",
+      "ref_id": "turn8search6",
+      "snippet": "# File:024 - Vlad Tepes.jpg ... Description 16th-century portrait painting of men, with Not identified, Unspecified, Unmentioned, Unknown Unknown or AnonymousUnknown author artist, and missing",
+      "title": "File:024 - Vlad Tepes.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3A024_-_Vlad_Tepes.jpg"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.wikidata.org",
+      "ref_id": "turn8search7",
+      "snippet": "English | Portrait of Vlad III the Impaler | painting attributed to Deutsch, Schloss Ambras Innsbruck | ... https://www.khm.at/objektdb/detail/5508/ ... detailID=5508&file=GG_8285&cHash=bc75d58c3cb610",
+      "title": "Portrait of Vlad III the Impaler - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q67136855"
+    },
+    {
+      "type": "text_result",
+      "domain": "press.khm.at",
+      "ref_id": "turn8search12",
+      "snippet": "sammlungen KHM ... sucher anlockte. ... aus der Regierungszeit von Vlad Ţepeş /",
+      "title": "Jahresbericht",
+      "url": "https://press.khm.at/fileadmin/content/KHM/Presse/Jahresberichte/KHM_JB_2010_Druck.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.khm.at",
+      "ref_id": "turn8search8",
+      "snippet": "um 1550 | Ferdinand II. ... Der kaiserliche oberkommandierende Generalkapitän am oberungarischen Kriegsschauplatz von 1566-1568, Lazarus Schwendi von Hohenlandsberg, übersandte Erzherzog Ferdinand II.",
+      "title": "Großer Pferde-Kehlbehang - Artworks - Kunsthistorisches Museum - KHM.at",
+      "url": "https://www.khm.at/en/artworks/grosser-pferde-kehlbehang-373668"
+    },
+    {
+      "type": "text_result",
+      "domain": "api.pageplace.de",
+      "ref_id": "turn8search13",
+      "snippet": "Michel Beheim bei Hofe die paradigmenbildende Verserzählung „Von ainem wutrich der ... Strübing, Eduard: Eine unbekannte Ausgabe des Dracole Waida (Nürnberg: Marx Ayrer 1488).",
+      "title": "Vlad der Pfähler – Dracula",
+      "url": "https://api.pageplace.de/preview/DT0400.9783447195454_A29337854/preview-9783447195454_A29337854.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "commons.wikimedia.org",
+      "ref_id": "turn8search9",
+      "snippet": "(Weitergeleitet von Vlad Tepes) ... * Vlad Țepeș also known as Vlad the Impaler or Dracula (around 1560, probably after a lost original) ... 1575",
+      "title": "Vlad Țepeș – Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Vlad_Tepes?uselang=de"
+    },
+    {
+      "type": "text_result",
+      "domain": "repository.de.dariah.eu",
+      "ref_id": "turn8search14",
+      "snippet": "Dracole Waida.Nürnberg 1488. ... Marx Ayrer, GW 12524. ... Die Geschichte der Juden von Sternberg.",
+      "title": "Transkriptions- und Annotationshandbuch",
+      "url": "https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000C-35E3-8/data"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ustc.ac.uk",
+      "ref_id": "turn8search10",
+      "snippet": "Dracole Waida ... [Lübeck, Bartholomaeus Ghotan, about 1485] ... * Gesamtkatalog der Wiegendrucke Reference: GW12531",
+      "title": "USTC - Edition - No. 740530",
+      "url": "https://www.ustc.ac.uk/editions/740530"
+    },
+    {
+      "type": "text_result",
+      "domain": "raw.githubusercontent.com",
+      "ref_id": "turn8search15",
+      "snippet": "Michel Beheim, Von ainem wutrich der hiess Trakle waida von der Walachei. — ... Die Geschichte Dracole waide, édition critique sur la base de l’incunableimprimé",
+      "title": "LES BIOGRAPHIES CONTEMPORAINES",
+      "url": "https://raw.githubusercontent.com/chartes/encpos/metadata/data/ENCPOS_1977/ENCPOS_1977_05.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "commons.wikimedia.org",
+      "ref_id": "turn8search11",
+      "snippet": "Portrait of Vlad III the Impaler ... * https://www.khm.at/objektdb/detail/5508 ... https://creativecommons.org/publicdomain/mark/1.0/PDM Creative Commons Public Domain Mark 1.0 false false The officia",
+      "title": "File:Vlad Tepes 001.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AVlad_Tepes_001.jpg"
+    },
+    {
+      "type": "text_result",
+      "domain": "barthbibliothek.de",
+      "ref_id": "turn8search16",
+      "snippet": "Augsburg: Erhart Ratdolt, 1488. ... http://gesamtkatalogderwiegendrucke.de/docs/M46726.htm",
+      "title": "Verzeichnis der Wiegendrucke",
+      "url": "https://barthbibliothek.de/media/inkunabelnbarth.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.e-periodica.ch",
+      "ref_id": "turn8search17",
+      "snippet": "Bei den Wiegendrucken ... die einzige überkommene Kopie der frühesten ... Geschieht Dracole Waide», Nürnberg 1488bei Marx Ayrer (Inc 609a, Abb. 7), gezeigt,",
+      "title": "Zeitschrift:",
+      "url": "https://www.e-periodica.ch/cntmng?pid=lib-006%3A2020%3A63%3A%3A189"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn8search18",
+      "snippet": "- David \"Race\" Bannon, \"Dracula's Art of War: A Martial Portrait of Vlad III Tepes\", Kungfu, Nov 2000: 18–19, 58–59. ... - Treptow, 2000, p.",
+      "title": "Vlad the Impaler",
+      "url": "https://en.wikipedia.org/wiki/Vlad_the_Impaler"
+    },
+    {
+      "type": "text_result",
+      "domain": "it.wikipedia.org",
+      "ref_id": "turn8search19",
+      "snippet": "Ritratti di Dracula, grazie ai pamphlet tedeschi stampati fino al 1568, circolarono in tutta Europa. ... Vlad Țepeș ritratto come Aegeas, il proconsole romano di",
+      "title": "Vlad III di Valacchia",
+      "url": "https://it.wikipedia.org/wiki/Vlad_III_di_Valacchia"
+    },
+    {
+      "type": "text_result",
+      "domain": "fr.wikipedia.org",
+      "ref_id": "turn8search20",
+      "snippet": "Légende: Portrait de Vlad Țepeș dans la « Galerie des Ancêtres » de la Maison Esterházy, , château de Forchtenstein. ... vignette|upright|Représentation de Vlad Țepeș",
+      "title": "Vlad III l'Empaleur",
+      "url": "https://fr.wikipedia.org/wiki/Vlad_III_l%27Empaleur"
+    },
+    {
+      "type": "text_result",
+      "domain": "pt.wikipedia.org",
+      "ref_id": "turn8search21",
+      "snippet": "Semelhança de Vlad encontrada na pintura do Calvário de Cristo, 1460, Maria am Gestade, Viena ... Retrato em tamanho real de Vlad Țepeș na \"Galeria",
+      "title": "Vlad, o Empalador",
+      "url": "https://pt.wikipedia.org/wiki/Vlad%2C_o_Empalador"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn8search22",
+      "snippet": "Vlad Țepeș (film)Name: Vlad Țepeș ... * Teofil Vâlcu – Boyar Albu",
+      "title": "Vlad Țepeș (film)",
+      "url": "https://en.wikipedia.org/wiki/Vlad_%C8%9Aepe%C8%99_%28film%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn8search23",
+      "snippet": "Er soll eine Vorliebe für Hinrichtungen durch Pfählung gehabt haben, die ihm in christlichen Gebieten posthum, ca. 1550, einen weiteren Beinamen einbrachte: Țepeș (), wobei",
+      "title": "Vlad III.",
+      "url": "https://de.wikipedia.org/wiki/Vlad_III."
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn8view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn8view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.normattiva.it",
+      "ref_id": "turn8view2",
+      "snippet": "Total lines: 76",
+      "title": "Normattiva - Errore",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2004-01-22%3B42~art108="
+    }
+  ]
+}
+````
+
+## Asistent
+
+Am confirmat două blocaje față de deciziile aprobate: în canon, diacriticele sunt înlocuite efectiv cu `?` în două pasaje; în organizare, RS28 permite folosirea descriptivă a numelui real al trenului, deși regula aprobată cere vehicule generice sau fictive. Aplic plafonul pentru defecte critice cerut de grilă. Separat, RS27 păstrează o permisiune pentru desenele din interior care contrazice canonul actual.
+
+
+## Asistent
+
+Am salvat cele două rapoarte UTF-8:
+
+- **Canon: 8,50 — FAIL.** Blocant: text corupt în OBS-10/V4-87, neconform deciziei 6 privind diacriticele. [Raport R2](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/R2_audit_canon.md>)
+- **Studio: 8,20 — FAIL.** Blocante: RS28 permite marca reală a trenului contrar regulii aprobate; RS27 omite verificarea reprezentărilor interioare cerută de canon. Două nealinieri minore suplimentare. [Raport R4](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-STUDIO-v4/R4_audit_canon.md>)
+
+**Manifest: 32/32 conforme.** Limitele neverificate sunt explicite. Fișierele înghețate nu au fost modificate.

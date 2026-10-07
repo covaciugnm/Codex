@@ -1,0 +1,192 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\build_contract.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_contract--4ce249a0.py",
+    "bytes": 35557,
+    "sha256": "c0024dbf59302e088566b8f1cd6803c6556e7c9b56ceca5bd816dc1d3986c025"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\check_final.py",
+    "status": "copiat",
+    "saved_path": "fisiere/check_final--bcc42418.py",
+    "bytes": 2341,
+    "sha256": "9490154778308d3ab700a583f0c5af492ee35516053939bce2a8be998b023413"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\eva-contract.docx.b64",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-contract.docx--1c181aaf.b64",
+    "bytes": 73905,
+    "sha256": "21aaef646ce5bc051d80085069c28b11827c1bb6d14f14cbd22d5fde45b1faf1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\eva-contract.pdf.b64",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-contract.pdf--7e3c881c.b64",
+    "bytes": 100362,
+    "sha256": "5ef2949581fd6a54d30d75fce1db3e554d79773910241fc7c0890e3ac19ed8a3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\eva-preview-0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-preview-0--c5d766de.png",
+    "bytes": 165586,
+    "sha256": "55827f92d91f869b48e77b349f82fc5a2f8cc25f5b46ed9314679edf98b39870"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\eva-preview-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-preview-2--5a701da7.png",
+    "bytes": 151280,
+    "sha256": "2074b422ea8a73fc07d097606a7a1bd08ac417c4766139e2e85a92420eb26f34"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\eva-preview-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-preview-21--1df30691.png",
+    "bytes": 105924,
+    "sha256": "e23f62f8a7a97521ec66cf1a6e7e2087be41b6c967e70d35d53430b4edbd6777"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\final-eva.docx.b64",
+    "status": "copiat",
+    "saved_path": "fisiere/final-eva.docx--c0691950.b64",
+    "bytes": 73945,
+    "sha256": "913b5efab893a6a9f842f9a400a5560256d536a74d642611221a708abece475f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\final-eva.pdf.b64",
+    "status": "copiat",
+    "saved_path": "fisiere/final-eva.pdf--2839a412.b64",
+    "bytes": 100394,
+    "sha256": "3e573402cfa9a0278c73a47dce8bee461f6d9745a1d301a00eb71c77533c4147"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\final-signature.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-signature--e03dc750.png",
+    "bytes": 171217,
+    "sha256": "46f71d12b04153a719e08b861f8c7a1ab65327bf72517f7905e0476e31fdc2ff"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\signed2-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/signed2-2--17ab75f6.png",
+    "bytes": 222450,
+    "sha256": "ad59f8be1a629d48716edf8f2d633dfab766c6f8a104ac37578c3c107ce738fc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\signed2-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/signed2-3--0d0593b0.png",
+    "bytes": 194843,
+    "sha256": "d8ef3f67ea26f613a16e625e2ae7707422da00229bf9dcd994f4912ea821b678"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\signed2-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/signed2-4--3b659103.png",
+    "bytes": 184285,
+    "sha256": "2164f1c75419962eef5bd53e7383dcd7409acb9ce171a4897f68068629a553e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-review\\signed2-5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/signed2-5--c9142218.png",
+    "bytes": 44732,
+    "sha256": "321c431ee3213fffd911ca1b5140646b3fd31afc52cf3e8db5e382a4e1792ad7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-v4\\question-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/question-2--1bafead7.png",
+    "bytes": 238684,
+    "sha256": "20e1dbe7bb8ffdb16a5e6d0a9f0e18cccbda71b44a58d4adf4b18ca01a34c8a3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-v4\\question-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/question-3--fec35ab7.png",
+    "bytes": 208408,
+    "sha256": "3715725fe4bd925e32b84dae579b654329ff2cd2686a1d175b713913893384b2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-v4\\question-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/question-4--16ef21ca.png",
+    "bytes": 197086,
+    "sha256": "9a4c7c96c08783046c73afa937008ec0f81b934940cc4861917018bee162a1ca"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-v4\\v4-page-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/v4-page-1--ff9e6a1e.png",
+    "bytes": 163718,
+    "sha256": "6c0710a7c94efb9832849f3be08c10926775185b06189a34b0c020d815229b98"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-v4\\v4-page-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/v4-page-14--0e87e7c3.png",
+    "bytes": 109162,
+    "sha256": "b15c24288fd7c6862e48f8cad2b6a6a773e39696c574810de9390eb885bfc01f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\09\\30\\01a0f194-572c-7490-a456-49150d14916a\\toms-v4\\v4-page-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/v4-page-4--b763e248.png",
+    "bytes": 167925,
+    "sha256": "7f258d41b8ecfeecd738f1a915e98192f848125941144a0b4dcbdd33600f6e9d"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-10-01 Contract v3 - propunere\\02 Email contract - DE - ciorna.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/02 Email contract - DE - ciorna--90fb493e.txt",
+    "bytes": 4092,
+    "sha256": "ac9324854643a24cbe9d9d37625d25ddc65f7446f9ce44add7e1515b25fbc657"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-10-01 Contract v3 - propunere\\03 Email acces portal - DE - ciorna.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/03 Email acces portal - DE - ciorna--0d2e05a6.txt",
+    "bytes": 1775,
+    "sha256": "e2ce439007908697a5b12fc9b239bce2c13f7a412b97df47dba3cad0543b90ca"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-10-01 Contract v3 - propunere\\04 Dovezi EVA si surse.json",
+    "status": "copiat",
+    "saved_path": "fisiere/04 Dovezi EVA si surse--a3482d81.json",
+    "bytes": 83652,
+    "sha256": "28068872a98c62c78b042259fdea1cdecdfaacd9a80b56a2502c13537a621bd7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-10-01 Contract v3 - propunere\\05 Jurnal TOMS - situatie si actiuni.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/05 Jurnal TOMS - situatie si actiuni--3e5f2e0b.txt",
+    "bytes": 7815,
+    "sha256": "bf56c8e9833fe58d638bd811c3b53f589f06d22f4d9b7dd8671e82f5214f2b1d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-10-01 Contract v3 - propunere\\06 Confirmari ciorne EVA si reminder.json",
+    "status": "copiat",
+    "saved_path": "fisiere/06 Confirmari ciorne EVA si reminder--ac104024.json",
+    "bytes": 9500,
+    "sha256": "567c954a1f5720f93eb12aa04a5a164122d16fbd4ab55a3ce897f027de3db383"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--6f49fa50.md",
+    "bytes": 21771,
+    "sha256": "b8778b1f3977edb71db5eeaada99e14f803b03c51952780f3787268762cd0bdc"
+  },
+  {
+    "source_reference": "plugin://dev-6aa3eadee6ec8191a9bc3b9608c0f1bc@created-by-me-remote",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

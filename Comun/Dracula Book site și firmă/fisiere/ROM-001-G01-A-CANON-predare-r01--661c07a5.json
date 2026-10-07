@@ -1,0 +1,12 @@
+{
+  "agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+  "role": "A-CANON",
+  "submission": {
+    "submission_id": "01a0d24a-bd80-7490-acf4-e9da845c2457"
+  },
+  "closure": {
+    "previous_status": {
+      "completed": "ROM-001-G01 r01: **RETURN**.\n\nScoruri /1000: acoperire **980**, canon **940**, contradicții **965**, mandat **985**, trasabilitate **980**.\n\nO singură constatare deschisă: `ROM-001-G01-A-CANON-F01`. Nomenclatorul operațional asociază neprobat Marcel hotelului, deși H și registrul factual îl identifică drept arhivar. Raportul precizează remedierea și testul de închidere.\n\nFișiere finale:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-CANON.md>)\n- [Audit JSON](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-CANON.json>)\n- [Controale proprii](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r01/A-CANON-CONTROLES.json>)\n\nVerificate integral cele 11 artefacte; lectură proprie țintită de 650 paragrafe H, distinctă de verificarea mecanică a celor 3984 paragrafe expuse producătorului. Cele 22 de dispoziții au fost retestate; contradicțiile manuscrisului nu sunt declarate reparate.\n\nControl final: 137 fișiere contractuale și 629 intrări arhivate fără diferențe; hashurile, ancorele și concordanța MD/JSON sunt valide.\n\nNu certific romanul viitor, drepturile comerciale, exactitatea externă sau G02+. Nu am consultat celălalt audit G01 și nu am modificat produsele. Metaauditul și arhivarea acestui RETURN rămân coordonării. **Scrierile sunt oprite.**"
+    }
+  }
+}

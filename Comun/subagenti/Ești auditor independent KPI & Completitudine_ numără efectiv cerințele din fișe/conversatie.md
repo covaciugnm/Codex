@@ -1,0 +1,51 @@
+# Ești auditor independent KPI & Completitudine: numără efectiv cerințele din fișele de rol și brief, verifică planurile R1 canon/R3 studio, dovezile execuției, consistența fișelor și briefurilor, termenele/dependențele, integritatea arhivei și aplicabilitatea regulilor. Verificare independentă, nu accepta automat rezultatele testelor autorilor. Istoricul etichetat ca istoric nu e conținut curent. pentru proiectul DRACULA. Nu ai contribuit la revizii. User cere trei evaluări independente reale, minimum9,50 FIECARE; nu umfla note și nu inventa defecte pentru severitate. Numai defecte motivate, locație exactă și remediu verificabil. Grila deja stabilită: 9,50–10 excepțional fără modificări substanțiale; major plafon9,20; critic plafon8,50; minore cumulate scad nota; neconcordanță cu decizie aprobată=critic. Nu schimba grila. Verdict PASS iff scor>=9.50.
+ROOT COPIE IZOLATĂ: D:\00. Downloads\Dracula Book\DRACULA-COMICS-CODEX-G0-20260924
+PACHET FIX OBLIGATORIU: D:\00. Downloads\Dracula Book\DRACULA-COMICS-CODEX-G0-20260924\00_STUDIO\audit\RELUARE_CODEX_20260924_120350\PACHET_AUDIT_01. Citește integral fișierele principale din pachet, nu eșantionat: 01_CANON/00_CANON_NUCLEU.md (v4.2), 00_STUDIO/01_ECHIPA_SI_ROADMAP.md, 00_STUDIO/03_JURNAL_PROGRES.md. 00_STUDIO/rapoarte/S_showrunner.md este anexă de stare de verificat, nu schimbă perimetrul istoric. Citește deciziile15 și contrasemnările din pachet; acestea prevalează. Briefurile sunt tot în pachet. Calculează SHA256 și verifică manifest.json. Căile absolute vechi din istoric rămân istorice; pentru date curente folosește echivalentele din ROOT sau pachet, NICIODATĂ originalul modificat de altă sesiune.
+Dosare referință/evidență neschimbate de autori acum:
+- ROOT/00_STUDIO/audit/G0-CANON-v4/R1_plan_masuri.md și R1_audit_*.md; revizia nouă: REV_IZOLAT_20260924/RAPORT_REVIZIE.md, MASURI_39.md, DEFECTE_64.md, verificări, predat.
+- ROOT/00_STUDIO/audit/G0-STUDIO-v4/R3_plan_masuri.md, R3_audit_*.md; revizia nouă CODEX_R3_verificari/EXECUTIE_FINALA.md, verificări, manifest.
+Evaluează situația NOUĂ, nu transfera notele vechi. Separă condițiile G0 de implementările G1 viitoare; lipsa site-ului final nu este defect G0 dacă mandatul G0 definește doar brief/proces. Testele autorilor nu țin loc de judecată semantică. Verifică măsurile anterioare relevante lentilei, cu starea lor și dovezi, fără a pretinde verificări neexecutate. Folosește web pentru fapte istorice/juridice incerte cu surse primare. Ai acces autorizat de coordonator și la referința confidențială ROOT/04_LUME/05_MISTERUL_OMULUI_FARA_UMBRA.md pentru compatibilitate; nu dezvălui identitatea antagonistului în rezumatul public.
+SALVEAZĂ DOAR 2 RAPOARTE NOI (română, UTF8), nu edita producția, scripturile sau notele altor auditori:
+1 ROOT/00_STUDIO/audit/G0-CANON-v4/R2_audit_kpi.md
+2 ROOT/00_STUDIO/audit/G0-STUDIO-v4/R4_audit_kpi.md
+Fiecare: perimetru/hash, metoda reală, NOTĂ două zecimale, PASS/FAIL, puncte forte, tabel defecte gravitate/loc/probă/remediu, închiderea măsurilor anterioare, limite. G0 nu este aviz juridic sau certificare comercială externă. Nu efectua scrieri prin verificatoare cu hardcoded original root; poți citi și face verificări proprii read-only. Nu lansa agenți. Python disponibil C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe. Citește în bucăți dacă output e trunchiat, nu revendica lectură integrală dacă nu ai făcut-o.
+Returnează concis scoruri, defecte blocante și căi rapoarte. Nu aștepta ca părintele să confirme PASS; acordă verdictul onest.
+
+ID: `01a0d2c0-c699-7ac0-99d5-300e02a8cf1b`  
+Proiect: Comun  
+Export UTC: 2026-10-07T08:10:14.831141+00:00
+
+Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
+
+## Asistent
+
+Am găsit două neconcordanțe curente care merită separate de istoricul păstrat: inventarul declară versiuni depășite, iar o regulă de utilizare a monumentelor din studio nu mai corespunde canonului predat. Verific măsurile și briefurile asociate înainte de a stabili gravitatea și notele.
+
+
+## Asistent
+
+Numărătoarea și verificarea de fond sunt distincte: existența unui KPI în ambele documente nu garantează că regula este corectă. Am confirmat că planul aprobat cere un nume fictiv pentru trenul de lux; verificarea studioului a păstrat o excepție contrară în registrul de riscuri.
+
+
+## Utilizator
+
+At your next natural stopping point, save completed reports and return concise findings/scores. Keep verification thorough but bounded to G0 and your lens; no optional scope expansion or invented production requirements. Explicitly mark unverified limits, do not simulate completeness. Parent is waiting for actual defects to fix and will preserve all reports. Do not modify frozen files.
+
+## Asistent
+
+Închid verificările strict pe G0 și lentila KPI. Voi salva constatările confirmate, cu limite explicite pentru verificările neexecutate; nu voi amâna rapoartele pentru cercetări suplimentare de producție.
+
+
+## Asistent
+
+Verificarea independentă confirmă 25 de fișe, 131 de puncte de sarcină și 228 de KPI, reproduse identic în briefurile actuale. Manifestele și instantaneele verificate nu au diferențe de hash. Rămân însă defecte concrete de text și reguli, plus o poartă de tipar programată înaintea publicării pe care o cere drept condiție. Salvez acum cele două rapoarte.
+
+
+## Asistent
+
+Am salvat numai cele două rapoarte, în UTF-8:
+
+- **Canon: 8,50 — FAIL.** 20 de caractere corupte în OBS-10/V4-87; încadrare critică potrivit regulii impuse pentru decizia 6. [Raport R2](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-CANON-v4/R2_audit_kpi.md>)
+- **Studio: 8,35 — FAIL.** RS28 contrazice decizia aprobată privind trenul; RS27 contrazice canonul; GT precedă publicarea obligatorie. [Raport R4](<D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/00_STUDIO/audit/G0-STUDIO-v4/R4_audit_kpi.md>)
+
+Confirmate: **32/32 fișiere conforme manifestului; 228 KPI și 131 sarcini identice între fișe și briefuri**. Limitele neverificate sunt explicite. Fișierele înghețate au rămas intacte.

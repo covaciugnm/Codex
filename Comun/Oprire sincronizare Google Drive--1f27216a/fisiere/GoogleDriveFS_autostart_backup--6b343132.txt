@@ -1,0 +1,3 @@
+﻿"C:\Program Files\Google\Drive File Stream\131.0.2.0\GoogleDriveFS.exe" --startup_mode
+OneDrive="C:\Program Files\Microsoft OneDrive\OneDrive.exe" /background
+Microsoft.Lists=C:\Program Files\Microsoft OneDrive\26.168.0830.0006\OneDrive.Sync.Service.exe

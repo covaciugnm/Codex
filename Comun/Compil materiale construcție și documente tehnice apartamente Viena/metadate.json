@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9ce7-71a3-a5ff-7f0277e6e930",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1785925604,
+  "updated_at": 1788778397,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compil materiale construcție și documente tehnice apartamente Viena",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 895223,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 341,
+  "message_count": 341,
+  "content_sha256": "06543d20059269cb55e4c2bf0c326679c147a3e7f36f6354c606ec368fc9dee6",
+  "files_copied": 18,
+  "references_not_copied": 63
+}

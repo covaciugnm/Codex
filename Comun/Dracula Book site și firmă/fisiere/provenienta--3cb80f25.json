@@ -1,0 +1,34 @@
+{
+    "captured_at":  "2026-09-24T07:58:42.8425097+03:00",
+    "scope":  "Exact read-only source copies, not substantive approval",
+    "files":  [
+                  {
+                      "id":  "WC",
+                      "original":  "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Versiunea 2/WordCountReport_v2.txt",
+                      "copy":  "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/WC.txt",
+                      "sha256":  "24d39eae32f4cbdde6e47d8a51f3ca7ab48737a0741a8047c2956e7df8069937",
+                      "bytes":  8079
+                  },
+                  {
+                      "id":  "SCORES",
+                      "original":  "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Versiunea 2/Chapter_Scorecards_Bundle_v2.txt",
+                      "copy":  "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/SCORES.txt",
+                      "sha256":  "549ef7a53f6986f1be921de47f6ab82e0d53d2b7646d7da94a99649434b9b5fb",
+                      "bytes":  19535
+                  },
+                  {
+                      "id":  "TR_PROMPT",
+                      "original":  "D:/00. Downloads/Dracula Book/AMORIS SERIES/Hotelul din Rue des Âmes/Prompt de Traducere manuscris HOTELUL DIN RUE DES ÂMES pentru CODEX.md",
+                      "copy":  "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/TR_PROMPT.md",
+                      "sha256":  "f49ad4f5c1fb958555be09913ced61f6e0be27a0904be45a15bdd2d809486b9e",
+                      "bytes":  3431
+                  },
+                  {
+                      "id":  "STRATEGIE",
+                      "original":  "D:/00. Downloads/Dracula Book/01. STRATEGIE 100 TITLURI 2026-12-01/_documentare/date_plan.json",
+                      "copy":  "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/STRATEGIE_date_plan.json",
+                      "sha256":  "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80",
+                      "bytes":  80684
+                  }
+              ]
+}

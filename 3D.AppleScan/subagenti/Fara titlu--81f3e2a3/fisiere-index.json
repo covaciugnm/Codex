@@ -1,0 +1,34 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\UTILIZARI_CERCETARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/UTILIZARI_CERCETARE--e9eafce1.md",
+    "bytes": 22027,
+    "sha256": "b1db76582433bb544b95bd1a6bd37a45509b2101ba56e27d789ad959ba1b1cbd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\usecase-catalog-ro.json",
+    "status": "copiat",
+    "saved_path": "fisiere/usecase-catalog-ro--e763a2e6.json",
+    "bytes": 30146,
+    "sha256": "964f094cf7afa67f449ffbfe42ed50cfbfef26c50cf935fb962613399dd1d9e3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\usecase-research-events.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/usecase-research-events--9296ab30.jsonl",
+    "bytes": 926,
+    "sha256": "e760a24b613f3b28c88296d1bcb7a33e210f2fce3abc804655560c77326592d9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\usecase-sources.json",
+    "status": "copiat",
+    "saved_path": "fisiere/usecase-sources--cba86d1f.json",
+    "bytes": 7517,
+    "sha256": "88b8d340fad96913a9cf92ad29bda4e4e8c398818373fd1ca3dbc0b123c89dee"
+  },
+  {
+    "source_reference": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+    "status": "referinta_externa_necopiata"
+  }
+]

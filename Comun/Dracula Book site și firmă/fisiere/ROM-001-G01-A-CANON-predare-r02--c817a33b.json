@@ -1,0 +1,7 @@
+{
+  "agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+  "role": "A-CANON",
+  "previous_status": {
+    "completed": "**PASS individual — ROM-001-G01, formal r02.**\n\nScoruri /1000: acoperire **982**, canon **976**, contradicții **974**, mandat **986**, trasabilitate **982**.\n\nF01 închis exclusiv pe noua depunere; r01 RETURN rămâne intact. Constatarea QA nu este închisă aici. PASS-ul nu înlocuiește acceptarea cumulativă G01.\n\nVerificate: 12 artefacte integral, 514 paragrafe H țintite, 257 hashuri contractuale, 848 intrări BEFORE și 43 referințe probatorii. Fără lectură integrală nouă H sau cold restore BEFORE.\n\nFișiere finale și SHA-256:\n\n- [A-CANON.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-CANON.md>) — `e8ec20666f6e40885201bb34893ee4f947283356241be1f0ff21fb801ea65934`\n- [A-CANON.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-CANON.json>) — `867888f1d0a5331f8c83bd1fe0061d3d5c4abd42280dcd338e5b35f934c81ff0`\n- [A-CANON-CONTROLES.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/A-CANON-CONTROLES.json>) — `1221cc5c46e8e2a0fd238fd8003c1a5e7f4e481b9acdfce68738a7891bd14ff7`\n\nConcordanța și validarea finală sunt confirmate. **Scrieri oprite.**"
+  }
+}

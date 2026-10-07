@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9dc3-74b2-a355-7eb9b324a4ed",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1783505182,
+  "updated_at": 1783513216,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Cauta CV-uri Dan Beldeanu si Cristian Bintintan",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 466036,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 256,
+  "message_count": 256,
+  "content_sha256": "10879e78fc390e9c20df4c619df23d1641f0bf7daa42b40d1f69a237e8caa0a3",
+  "files_copied": 1,
+  "references_not_copied": 30
+}

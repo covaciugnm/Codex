@@ -1,0 +1,60 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\a52ed513-7619-49f9-9eb7-7810dec7eb47\\scratchpad\\ocr_scan.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Downloads\\Scan2026-08-20_175626.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Website\\schallergasse35\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\A&C Wohnart Immobilien GmbH\\Acte Firma\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\06. Utilitati\\\\UTILITATI Deratizare - Attensam\\\\Comunicare\\\\2026.09.02\\\\DRAFT Email Attensam - schimbare proprietar (2026.09.02).txt",
+    "status": "copiat",
+    "saved_path": "fisiere/DRAFT Email Attensam - schimbare proprietar (2026.09.02--9510761d.txt",
+    "bytes": 5603,
+    "sha256": "e5968cdd08241a77a737bccb692fde31da109691ffdd35b99bedfddd011b43b5"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\06. Utilitati\\\\UTILITATI Deratizare - Attensam\\\\Comunicare\\\\2026.09.02\\\\EMAIL FINAL catre Attensam - Eigentuemerwechsel Schallergasse 35 (de trimis).txt",
+    "status": "copiat",
+    "saved_path": "fisiere/EMAIL FINAL catre Attensam - Eigentuemerwechsel Schalle--6065b399.txt",
+    "bytes": 6653,
+    "sha256": "437bb46f60f31c57023f5161cce939826c42d3cc1dd074ae8a7da5852f819c33"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\06. Utilitati\\\\UTILITATI Deratizare - Attensam\\\\DRAFT Email Attensam - schimbare proprietar (2026.09.02).txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://www.cerhahempel.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.cerhahempel.com/disclaimer",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.hofhans.at",
+    "status": "referinta_externa_necopiata"
+  }
+]

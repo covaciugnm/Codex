@@ -1,0 +1,54 @@
+{
+  "campaign": "EVA-3dScan — reality to phone",
+  "createdDate": "2026-10-02",
+  "method": "Built-in image_gen; 5 separate prompts, 5 separate image calls; no CLI",
+  "status": "All five selected and visually inspected",
+  "limitations": "Conceptual promotional illustrations. Not screenshots of a released app or evidence of scanning accuracy. Face image uses an intact real face plus detached nonliving holographic copy. Speech and labels must be HTML/localized.",
+  "assets": [
+    {
+      "id": "01-capture",
+      "prompt": "Use case: ads-marketing. Create one polished high-end 3D editorial illustration for an iPhone 3D scanning app campaign. Landscape 3:2 canvas. Bright warm ivory studio atmosphere with confident electric cobalt, cyan light and coral accents, playful energetic premium look, soft realistic materials, clear visual explanation. Recurring main character: friendly young adult woman with short dark bob hair, medium skin, fashionable cobalt utility jacket over white T-shirt, understated silver earrings, holding a recognizable modern iPhone with Dynamic Island. Central composition with all important subjects within middle 75% so can crop for mobile. Phone screen visible where feasible shows clean conceptual scanning UI with tiny simple glyphs only. No letters, no written numbers, no logos, no watermark, no speech bubbles. This is a promotional metaphor, not documentary app screenshot. The woman stands left-center and aims the iPhone at an elegant sculptural coral ceramic vase on a small ivory plinth right-center. A dynamic curved stream of glowing cyan tiny geometric voxels and wireframe fragments travels from the vase toward the phone, where the complete vase appears as a small digital model. The real vase remains intact. Capture motion, a delighted expression, extremely legible subject and phone relation. A few cobalt geometric shapes emphasize depth.",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-fd3ab5bd-d84e-4d44-aa47-5ef8a37fdf55.png",
+      "saved": "public/assets/campaign/01-capture.png",
+      "width": 1536,
+      "height": 1024,
+      "review": "Inspected visually: consistent cobalt/coral/cyan palette, clear phone and scan metaphor, no embedded copy, no injury or stereotypes."
+    },
+    {
+      "id": "02-face",
+      "prompt": "Use case: ads-marketing. Create one polished high-end 3D editorial illustration for an iPhone 3D scanning app campaign. Landscape 3:2 canvas. Bright warm ivory studio atmosphere with confident electric cobalt, cyan light and coral accents, playful energetic premium look, soft realistic materials, clear visual explanation. Recurring main character: friendly young adult woman with short dark bob hair, medium skin, fashionable cobalt utility jacket over white T-shirt, understated silver earrings, holding a recognizable modern iPhone with Dynamic Island. Central composition with all important subjects within middle 75% so can crop for mobile. Phone screen visible where feasible shows clean conceptual scanning UI with tiny simple glyphs only. No letters, no written numbers, no logos, no watermark, no speech bubbles. This is a promotional metaphor, not documentary app screenshot. The woman stands left-center holding her iPhone toward a friendly adult man from India on right-center. He has warm brown skin, short black hair, subtle dark stubble, contemporary cream overshirt and coral T-shirt. He smiles amused and raises an open palm in playful surprise. His real face remains fully normal and intact. A clearly NONLIVING translucent cyan wireframe holographic copy of his head, detached in open space BETWEEN the two people, dissolves into luminous geometric pixels flowing into the phone. Respectful contemporary appearance, no ethnic costume or stereotypical symbols. Lighthearted science-fiction visual joke, NO skin removal, no injury, no horror, no face blanking. Leave top space for later HTML caption; no embedded text.",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-7e4fb35c-f45b-4cce-b52d-90b420f529d3.png",
+      "saved": "public/assets/campaign/02-face.png",
+      "width": 1536,
+      "height": 1024,
+      "review": "Inspected visually: consistent cobalt/coral/cyan palette, clear phone and scan metaphor, no embedded copy, no injury or stereotypes."
+    },
+    {
+      "id": "03-objects",
+      "prompt": "Use case: ads-marketing. Create one polished high-end 3D editorial illustration for an iPhone 3D scanning app campaign. Landscape 3:2 canvas. Bright warm ivory studio atmosphere with confident electric cobalt, cyan light and coral accents, playful energetic premium look, soft realistic materials, clear visual explanation. Recurring main character: friendly young adult woman with short dark bob hair, medium skin, fashionable cobalt utility jacket over white T-shirt, understated silver earrings, holding a recognizable modern iPhone with Dynamic Island. Central composition with all important subjects within middle 75% so can crop for mobile. Phone screen visible where feasible shows clean conceptual scanning UI with tiny simple glyphs only. No letters, no written numbers, no logos, no watermark, no speech bubbles. This is a promotional metaphor, not documentary app screenshot. The woman kneels beside an ivory workbench, scanning a precisely manufactured coral industrial gear and a small cobalt bracket using her iPhone. Floating cyan technical witness lines, arrows and bounding boxes surround the gear to communicate measurement, WITHOUT any text or numbers. An enlarged visually legible digital wireframe gear appears just above the phone screen, linked by a short luminous stream to the real gear. Cheerful engineering workshop hints in clean bright background. Focus on object geometry and scale.",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-d4cabdb8-7c96-48d9-a473-4077af6efc34.png",
+      "saved": "public/assets/campaign/03-objects.png",
+      "width": 1536,
+      "height": 1024,
+      "review": "Inspected visually: consistent cobalt/coral/cyan palette, clear phone and scan metaphor, no embedded copy, no injury or stereotypes."
+    },
+    {
+      "id": "04-measure",
+      "prompt": "Use case: ads-marketing. Create one polished high-end 3D editorial illustration for an iPhone 3D scanning app campaign. Landscape 3:2 canvas. Bright warm ivory studio atmosphere with confident electric cobalt, cyan light and coral accents, playful energetic premium look, soft realistic materials, clear visual explanation. Recurring main character: friendly young adult woman with short dark bob hair, medium skin, fashionable cobalt utility jacket over white T-shirt, understated silver earrings, holding a recognizable modern iPhone with Dynamic Island. Central composition with all important subjects within middle 75% so can crop for mobile. Phone screen visible where feasible shows clean conceptual scanning UI with tiny simple glyphs only. No letters, no written numbers, no logos, no watermark, no speech bubbles. This is a promotional metaphor, not documentary app screenshot. In a bright stylish contemporary living room the woman aims her iPhone at a compact coral sofa and an ivory side table. Clear glowing cyan augmented-reality witness lines with endpoint dots span the width of the sofa and height of the side table, without written numbers. The phone displays the same furniture with a cyan measuring line, conceptual interface glyphs only. Dynamic three-quarter angle, raised arm gesture, polished wood and ivory floor, cobalt cushion. This scene should explain measuring a room LIVE.",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-fc38723d-754a-4a4c-9339-fbd2bf2b31d8.png",
+      "saved": "public/assets/campaign/04-measure.png",
+      "width": 1536,
+      "height": 1024,
+      "review": "Inspected visually: consistent cobalt/coral/cyan palette, clear phone and scan metaphor, no embedded copy, no injury or stereotypes."
+    },
+    {
+      "id": "05-spaces",
+      "prompt": "Use case: ads-marketing. Create one polished high-end 3D editorial illustration for an iPhone 3D scanning app campaign. Landscape 3:2 canvas. Bright warm ivory studio atmosphere with confident electric cobalt, cyan light and coral accents, playful energetic premium look, soft realistic materials, clear visual explanation. Recurring main character: friendly young adult woman with short dark bob hair, medium skin, fashionable cobalt utility jacket over white T-shirt, understated silver earrings, holding a recognizable modern iPhone with Dynamic Island. Central composition with all important subjects within middle 75% so can crop for mobile. Phone screen visible where feasible shows clean conceptual scanning UI with tiny simple glyphs only. No letters, no written numbers, no logos, no watermark, no speech bubbles. This is a promotional metaphor, not documentary app screenshot. The woman stands beside a luminous miniature cutaway apartment hologram hovering between her iPhone and an actual bright contemporary room. The miniature apartment has three connected rooms, ivory walls, wood floors, coral sofa and cyan scan grid. A graceful ribbon of small glowing cyan square points flows from surrounding walls through the model into the iPhone. Three-quarter isometric perspective of the apartment, energetic and clean. Communicate room capture joined into an entire home, with real walls and physical character intact.",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a0fca3-de4f-7fa3-871f-eba808646673\\exec-57ea327d-db3f-49c2-ad9f-bf907cdef1e0.png",
+      "saved": "public/assets/campaign/05-spaces.png",
+      "width": 1536,
+      "height": 1024,
+      "review": "Inspected visually: consistent cobalt/coral/cyan palette, clear phone and scan metaphor, no embedded copy, no injury or stereotypes."
+    }
+  ]
+}

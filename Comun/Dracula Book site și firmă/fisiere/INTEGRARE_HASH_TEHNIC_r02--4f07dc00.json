@@ -1,0 +1,22 @@
+[
+    {
+        "path":  "04_INSTRUMENTE/gatekeeper.py",
+        "live":  "ad90fd517856e7d7b55d965598b4f776ea5d1098baa6f5a71518b51b0c63363b",
+        "staging":  "ad90fd517856e7d7b55d965598b4f776ea5d1098baa6f5a71518b51b0c63363b"
+    },
+    {
+        "path":  "04_INSTRUMENTE/archive_round.py",
+        "live":  "560e74c6ad7b9c6825da2f5a9f238a2ab4dcc1d5de9125a4ecf0451d0e6c6a56",
+        "staging":  "560e74c6ad7b9c6825da2f5a9f238a2ab4dcc1d5de9125a4ecf0451d0e6c6a56"
+    },
+    {
+        "path":  "04_INSTRUMENTE/test_gatekeeper.py",
+        "live":  "393c6188eb87c4c087f908d3fa01ca6cf2fb4b483dc621f14ada868666c7cc26",
+        "staging":  "393c6188eb87c4c087f908d3fa01ca6cf2fb4b483dc621f14ada868666c7cc26"
+    },
+    {
+        "path":  "04_INSTRUMENTE/test_archive_round.py",
+        "live":  "386a9f9d9aba6c440a90967f71ec2491d66165958a8461a7d0b96c1c207dca10",
+        "staging":  "386a9f9d9aba6c440a90967f71ec2491d66165958a8461a7d0b96c1c207dca10"
+    }
+]

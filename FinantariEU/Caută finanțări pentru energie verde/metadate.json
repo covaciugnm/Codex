@@ -1,0 +1,23 @@
+{
+  "id": "01a0f6d7-bf66-7cb3-a4d9-7dd497a4c9bc",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026 EU",
+  "created_at": 1790847729,
+  "updated_at": 1790848476,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Caută finanțări pentru energie verde",
+  "project_id": "ec58c433-8025-4835-8910-bab2f99b913f",
+  "project": "FinantariEU",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1263132,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 78,
+  "message_count": 7,
+  "content_sha256": "7c4618ff8f12dfddb122893b6a693d18a4a2c9b1b491a91d8caf39e7ebd5199c",
+  "files_copied": 0,
+  "references_not_copied": 35
+}

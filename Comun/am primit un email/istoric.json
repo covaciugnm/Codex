@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "id": "01a0b122-85a6-7fb1-9f8e-19d1ce8f6855",
+    "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+    "created_at": 1789639069,
+    "updated_at": 1789639819,
+    "archived": 0,
+    "source": "vscode",
+    "title": "am primit un email",
+    "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+    "project": "Comun",
+    "assignment_method": "workspace_path",
+    "parent_thread_id": null,
+    "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+    "source_bytes": 81910,
+    "invalid_json_lines": 0,
+    "history_source": "items",
+    "rollout_exists": true,
+    "item_count": 12,
+    "message_count": 12,
+    "content_sha256": "da67a4573dee313b3dc694c6fdcd4a14d5fa7b38af4b940d56e3957fa58996dc"
+  },
+  "items": [
+    {
+      "ordinal": 2,
+      "timestamp": "2026-09-17T20:50:24.810Z",
+      "turn_id": "external-import-turn-1",
+      "item": {
+        "type": "userMessage",
+        "id": "item-1",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "am primit un email \n\n\n\nBogdan.Capra@cerhahempel.com\n<Capra Bogdan>\ncătre covaciu.gnm\nWG: 1120 Wien, Schallergasse 35 (gü)\nSep 16, 2026, 1:18 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nde la:\nBogdan.Capra@cerhahempel.com <Capra Bogdan>\ncătre:\ncovaciu.gnm@gmail.com, office@ac-wohnart.at\ndata:\n16 sept. 2026, 13:18:37\nsubiect:\nWG: 1120 Wien, Schallergasse 35 (gü)\nsecuritate:\nCriptare standard (TLS)\nBuna ziua,\n\n \n\nAlaturat va transmit o noua somatie pe care tocmai am primit-o de la domnul Kornhofer.\n\n \n\nDin cate reiese in prezent, pentru imobil nu a fost desemnata inca nicio administratie de imobil (Hausverwaltung). In ultimele luni am primit numeroase scrisori si somatii in aceasta privinta. Din pacate, documentele si corespondenta pe care vi le-am transmis au ramas fara niciun raspuns.\n\n \n\nPermiteti-mi asadar sa va reiterez politicos recomandarea de a desemna cat mai curand posibil o administratie de imobil adecvata, care sa asigure o evidenta corespunzatoare a tuturor costurilor si documentelor. Doresc sa va atrag atentia ca, daca situatia actuala continua, nu pot exclude posibilitatea initierii unor proceduri judiciare impotriva societatii in calitate de proprietar al imobilului, precum si aplicarea unor sanctiuni administrative.\n\n \n\nSalutari,\n\nBogdan\n\n\nMag. Bogdan Capra\nRechtsanwalt\n\nCERHA HEMPEL\n\nRechtsanwälte GmbH\n\nA-1010 Wien, Parkring 2\nTel.: +43/1/514 35-427\n\nMobil: +43/664/156 50 85\n\n\nbogdan.capra@cerhahempel.com\n\n[www.cerhahempel.com](https://www.cerhahempel.com)\n\n\ndoresc sa facem un draft de email in care sa ii spui ca ii multumesc inca odata pentru tot ajutorul si ca am fost receptiv la toate mesajele primite prin dansi - imi cer scuze pentru ca inca mai primesc acolo mesaje DAR asa cum stie - pentru ca au fost avocati mei la tranzactia de cumparare a imobilului - nu sa facut un fisier cu toate companiile unde firma administratoare a facut contracte - sau comunicari - cu pagini de web - linkuri - cu user & parola - sau lista de firma si administrati cu adrese de email si numere de contracte sa pot trimite la toti sa schimbe adrsele de email si sa imi prezinte contractele. M-am trezit in mod repetat cu faptul ca nu am stiut de existenta unui atare contract care mi se cere sa achit facturi si alte cheltuieli pe contracte care eu nu le-am semnat ....DAR incet incet am comunicat tuturor ca noi suntem proprietari am cerut contracte si schimbare de date de facturare etc. \nAm tinut cont de tot ce au retransmis ei\nne-am lofat am comunicat la toate adresele de email am cerut clarificari despre contracte tot ce prevede legea din austira am respectat si achitat \nTotusi ar fi fost mult mai bine daca fostul administrator ar fi avut un docar organizat pe care sa ni-l predea DAR care nu il au - le-am cerut personal in repetate randuri sa nu va mai scrie si sa ne scrie noua direct si sa ne transmita un docar fizic cu contracte si facturi si unul electronic - DAR nu au nimic sau nu ne-au predat nimic\nSCrie draftul cu respect dar ferm la adresa avocatilor",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1789678224810
+    },
+    {
+      "ordinal": 4,
+      "timestamp": "2026-09-17T20:50:24.810Z",
+      "turn_id": "external-import-turn-1",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-2",
+        "text": "Scriu draftul. Mai întâi verific contextul salvat despre Schallergasse 35 și somațiile anterioare.",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224810
+    },
+    {
+      "ordinal": 6,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-1",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-3",
+        "text": "[external_agent_tool_call: Read]\nfile: C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\donau-polita-somatie.md\n[/external_agent_tool_call]",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 8,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-1",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-4",
+        "text": "[external_agent_tool_call: Read]\nfile: C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\ac-wohnart-firma-website.md\n[/external_agent_tool_call]",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 10,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-1",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-5",
+        "text": "[external_agent_tool_result]\n<system-reminder>This memory is 13 days old. Memories are point-in-time observations, not live state — claims about code behavior or file:line citations may be outdated. Verify against current code before asserting as fact.</system-reminder>\n1\t---\n2\tname: ac-wohnart-firma-website\n3\tdescription: Date firma A&C Wohnart Immobilien GmbH (FN 668224h) + pagina de prezentare creata pt. ac-wohnart.at (Schallergasse 35)\n4\tmetadata: \n5\t  node_type: memory\n6\t  type: project\n7\t  originSessionId: 90278fcb-fc07-402a-b633-f284ef895158\n8\t  modified: 2026-09-03T10:29:03.675Z\n9\t---\n10\t\n11\t**A&C Wohnart Immobilien GmbH** — firma austriaca a proiectului [[schallergasse-35-materiale]]:\n12\t- FN 668224h, Handelsgericht Wien, capital EUR 10.000, infiintata 03.12.2025 (Errichtungserklärung)\n13\t- Gesellschafter unic 100%: Cosmin-Adrian Covaciu (n. 19.10.1972)\n14\t- Geschäftsführer: Cosmin-Adrian Covaciu + Anastasia-Elena-Ekaterina Covaciu (n. 11.04.2001), ambii selbständig\n15\t- Geschäftsanschrift (Firmenbuch la 01.04.2026): Schallergasse 35, 1120 Wien; pe site-ul ac-wohnart.at apare Parkring 2, 1010 Wien\n16\t- Proprietar 1/1 al Schallergasse 35 (KG 01305, EZ 2235, TZ 466/2026, Kaufvertrag 20.02.2026)\n17\t- Acte firma: `D:\\00. Downloads\\Apartamente Viena\\A&C Wohnart Immobilien GmbH\\Acte Firma\\`\n18\t\n19\t**Site de prezentare** (02.09.2026, HTML pur + style.css, stil identic cu index_de.html: Cinzel+Montserrat, auriu #c9a84c, fundal #faf9f7, fonturi si poze locale = merge offline):\n20\t- Folder de upload: `D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Website\\schallergasse35\\` (index.html/projekte.html = DE, index_en.html/projects_en.html = EN cu switch „DE | EN\" hardcoded, style.css, images\\, fonts\\)\n21\t- Se urca langa index_de.html → https://ac-wohnart.at/schallergasse35/\n22\t- Contact public: office@ac-wohnart.at, +43 665 670 550 45, Parkring 2, 1010 Wien (ca pe antetul firmei; butoane mailto)\n23\t- Oferta Schallergasse pe pagina: 8 apartamente de vanzare EG–3.OG (65–120 m²), Yoga-Studio de inchiriat, mansarda M1+M2 conform planselor, „in curand randari cu toate apartamentele\"\n24\t\n25\t**Preferinta utilizator (cerinta explicita):** pe pagina publica se mentioneaza doar Cosmin-Adrian Covaciu; **Anastasia NU se mentioneaza**. Ton laudativ, obiective de viitor vagi („weitere Projekte in Wien\"), fara numar/detalii concrete despre proiectele viitoare.\n26\t\n[/external_agent_tool_result]",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 12,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-1",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-6",
+        "text": "[external_agent_tool_result]\n<system-reminder>This memory is 2 days old. Memories are point-in-time observations, not live state — claims about code behavior or file:line citations may be outdated. Verify against current code before asserting as fact.</system-reminder>\n1\t---\n2\tname: donau-polita-somatie\n3\tdescription: \"Polita DONAU 2044001194 Schallergasse 35 + somatia Commerz-Inkasso 2616052 (09.09.2026): cronologie, analiza juridica, actiuni pendinte\"\n4\tmetadata: \n5\t  node_type: memory\n6\t  type: project\n7\t  originSessionId: fa0414ae-212a-4028-8738-a547b7043014\n8\t  modified: 2026-09-14T14:33:01.256Z\n9\t---\n10\t\n11\tPolița DONAU Wohnhausversicherung **2044001194** (fost X712.261-2, Rahmenvertrag 2900010498) pt. [[schallergasse-35-materiale]], transcrisă ex lege (§ 69 VersVG) pe A&C Wohnart la 28.05.2026 după cumpărarea imobilului (proprietate CF: 10.03.2026). Primă anuală 6.367,24 €/an (1.591,81 €/trimestru), durată până 01.01.2036, plata cu Zahlschein (ref. 002044001194). Termenul de reziliere al dobânditorului (§ 70 VersVG, 1 lună) a EXPIRAT în aprilie 2026.\n12\t\n13\t**Somația Commerz-Inkasso 2616052 din 09.09.2026** (prin Kanzlei Dr. Maritczak — ortografia corectă, nu „Maritzcak\"; office@maritczak.at, Postgasse 19/21, 1010 Wien — pt. Donau): 2×1.591,81 prime + 550,72 accesorii = **3.734,34 €, termen 21.09.2026**, IBAN AT11 3500 0000 0310 7703, ref. 2616052. Primită 14.09.2026 via Bogdan Capra (CERHA HEMPEL, unde încă sosește poșta — Parkring 2).\n14\t\n15\t**Concluzia analizei juridice (14.09.2026)**: prima e datorată (transfer ex lege, „nu am semnat\" NU e apărare); contestabile doar accesoriile Inkasso (BGBl 141/1996, § 1333 ABGB) și cuantumul Q3 (cerere reducere acoperire din 01.07.2026 rămasă nesoluționată de Donau; M. Pfeiffer a oferit la 14.07.2026 excluderea Leitungswasser ~3.128 €/an + Mieten-BU contra 3 documente: Baubewilligung, Baubeschreibung, confirmare instalator apă închisă — NETRIMISE încă). Donau a declarat în scris „derzeit kein Versicherungsschutz\" (imobil 1905 gol, fără acoperire = risc major).\n16\t\n17\tPersoane Donau: Cornelia Loschy (c.loschy@donauversicherung.at, Vertragsverwaltung), Mario Pfeiffer (m.pfeiffer@donauversicherung.at, Gewerbekoordinator LD Wien). Corespondența s-a purtat de pe cosmin@ig.ro și office@ac-wohnart.at.\n18\t\n19\tFișiere: somația + emailuri + **analiza juridică docx** în `...\\00. Cladire 1 Schallergasse 35...\\08. Corespondenta\\2026.09.14 Somatie Commerz-Inkasso (Donau)\\`; polițe/mahnungen în `...\\05. Asigurari\\Asigurare cladire\\`. Ciornă EVA (Drafts, office@ac-wohnart.at → office@maritczak.at): adresa actuală + cerere acte + prelungire termen.\n20\t\n[/external_agent_tool_result]",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 14,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-1",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-7",
+        "text": "Am contextul necesar. Iată draftul, în română, respectuos dar ferm. Am lăsat două paranteze pătrate pentru detalii pe care doar dumneavoastră le știți (stadiul desemnării unei Hausverwaltung și somația Kornhofer).\n\n**Către:** Bogdan.Capra@cerhahempel.com\n**Cc:** office@ac-wohnart.at\n**Subiect:** AW: WG: 1120 Wien, Schallergasse 35 (gü)\n\n```\nStimate domnule Capra,\n\nVă mulțumesc încă o dată pentru tot sprijinul acordat și pentru fiecare document sau somație pe care ne-ați retransmis-o. Vreau să fie clar de la început: am fost receptiv la toate mesajele primite prin dumneavoastră, am ținut cont de fiecare dintre ele și am acționat de fiecare dată.\n\nÎmi cer scuze că în continuare sosesc la Parkring 2 scrisori adresate societății noastre. Aș dori însă să explic de ce se întâmplă acest lucru, pentru că nu este rezultatul lipsei de reacție din partea noastră.\n\nAșa cum știți, în calitate de avocați ai noștri la tranzacția de cumpărare a imobilului, la predare nu a existat niciun dosar de handover: nicio listă a societăților cu care fosta administrație a încheiat contracte sau a purtat corespondență, niciun registru de contracte cu numere, adrese de email și persoane de contact, niciun acces la portalurile online ale furnizorilor (utilități, asigurări, servicii) cu utilizator și parolă. Fără aceste informații nu am avut cui să comunicăm schimbarea proprietarului și a adreselor de corespondență.\n\nConsecința a fost că, în mod repetat, am aflat de existența unor contracte abia în momentul în care ni s-au cerut plăți pe baza lor, deși societatea noastră nu le-a semnat niciodată. Cu toate acestea, pas cu pas, am comunicat tuturor furnizorilor identificați că A&C Wohnart Immobilien GmbH este noul proprietar, am solicitat copiile contractelor, am cerut schimbarea datelor de facturare și a adreselor de corespondență și am cerut clarificări acolo unde sumele solicitate nu erau documentate. Tot ceea ce prevede legislația austriacă am respectat și am achitat.\n\nAm solicitat personal, în repetate rânduri, fostului administrator să nu vă mai scrie dumneavoastră, ci să ne scrie direct nouă, și să ne predea un dosar fizic și unul electronic cu toate contractele și facturile aferente imobilului. Până astăzi nu am primit nimic, fie pentru că nu există o astfel de evidență, fie pentru că nu ni se predă. Situația de care vorbiți ar fi arătat complet altfel dacă acest dosar ar fi existat și ar fi fost predat la momentul tranzacției, așa cum era firesc.\n\nDe aceea vă rog, cu tot respectul, să ne sprijiniți concret în două direcții:\n\n- să solicitați formal fostei administrații și vânzătorului predarea completă a documentației imobilului (contracte, facturi, corespondență, accesuri online), împreună cu lista tuturor entităților cu care au fost încheiate contracte în legătură cu imobilul;\n- în cazul în care mai primiți corespondență pentru societatea noastră, să o retransmiteți în continuare pe adresele de mai jos, indicând expeditorului adresa noastră actuală, întrucât nu avem alt mod de a afla cine ne scrie.\n\nAdresa oficială de corespondență a societății este: A&C Wohnart Immobilien GmbH, Schallergasse 35, 1120 Wien, email office@ac-wohnart.at.\n\nÎn privința desemnării unei administrații de imobil (Hausverwaltung): [de completat: stadiul actual / termenul până la care va fi desemnată].\n\nSomația domnului Kornhofer o analizăm și îi vom răspunde direct. [de completat dacă e cazul: obiectul somației și poziția noastră].\n\nVă mulțumesc pentru înțelegere și rămân la dispoziția dumneavoastră pentru orice clarificare.\n\nCu stimă,\nCosmin-Adrian Covaciu\nGeschäftsführer\nA&C Wohnart Immobilien GmbH\n```\n\nDouă observații înainte de trimitere:\n\n- **Hausverwaltung** este punctul central al avocatului și amenințarea cu proceduri judiciare se leagă de el. Dacă nu completați acel paragraf cu ceva concret, restul emailului rămâne o explicație fără răspuns la întrebarea lui.\n- **Somația Kornhofer** nu am văzut-o. Dacă mi-o dați, pot adapta paragraful respectiv sau pregăti răspunsul separat către Kornhofer.\n\nPot crea draftul direct în EVA, pe căsuța office@ac-wohnart.at, ca să îl trimiteți de acolo.",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 18,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-2",
+      "item": {
+        "type": "userMessage",
+        "id": "item-8",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "elimina : De aceea vă rog, cu tot respectul, să ne sprijiniți concret în două direcții:\n- să solicitați formal fostei administrații și vânzătorului predarea completă a documentației imobilului (contracte, facturi, corespondență, accesuri online), împreună cu lista tuturor entităților cu care au fost încheiate contracte în legătură cu imobilul;\n- în cazul în care mai primiți corespondență pentru societatea noastră, să o retransmiteți în continuare pe adresele de mai jos, indicând expeditorului adresa noastră actuală, întrucât nu avem alt mod de a afla cine ne scrie.\n\nLegat de În privința desemnării unei administrații de imobil (Hausverwaltung): [de completat: stadiul actual / termenul până la care va fi desemnată].\ninvoca legea Austriaca - fa referire la lege si capitol etc. in care avem dreptul sa administram cladirea ca si proprietari si ca nu suntem obligati sa angajam pe cineva - si ca pana cand nu finalizam lucrarile de reparatii si constructii intentionam sa administram noi constructia pentru a intelege mai bine toate cheltuielile care le vom avea si pe viitor daca intentionam sa inchiriem.\n\nlegat de Somația domnului Kornhofer o analizăm și îi vom răspunde direct. [de completat dacă e cazul: obiectul somației și poziția noastră]. - ii vom scrie si dl. - să solicitați formal fostei administrații și vânzătorului predarea completă a documentației imobilului (contracte, facturi, corespondență, accesuri online), împreună cu lista tuturor entităților cu care au fost încheiate contracte în legătură cu imobilul; - ceea ce daca aveti bunatatea va rugam sa raspundeti si dvs. - \n\nprezinta aici raspunsul nou",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 20,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-2",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-9",
+        "text": "Iată draftul revizuit, cu modificările cerute.\n\n**Către:** Bogdan.Capra@cerhahempel.com\n**Cc:** office@ac-wohnart.at\n**Subiect:** AW: WG: 1120 Wien, Schallergasse 35 (gü)\n\n```\nStimate domnule Capra,\n\nVă mulțumesc încă o dată pentru tot sprijinul acordat și pentru fiecare document sau somație pe care ne-ați retransmis-o. Vreau să fie clar de la început: am fost receptiv la toate mesajele primite prin dumneavoastră, am ținut cont de fiecare dintre ele și am acționat de fiecare dată.\n\nÎmi cer scuze că în continuare sosesc la Parkring 2 scrisori adresate societății noastre. Aș dori însă să explic de ce se întâmplă acest lucru, pentru că nu este rezultatul lipsei de reacție din partea noastră.\n\nAșa cum știți, în calitate de avocați ai noștri la tranzacția de cumpărare a imobilului, la predare nu a existat niciun dosar de handover: nicio listă a societăților cu care fosta administrație a încheiat contracte sau a purtat corespondență, niciun registru de contracte cu numere, adrese de email și persoane de contact, niciun acces la portalurile online ale furnizorilor (utilități, asigurări, servicii) cu utilizator și parolă. Fără aceste informații nu am avut cui să comunicăm schimbarea proprietarului și a adreselor de corespondență.\n\nConsecința a fost că, în mod repetat, am aflat de existența unor contracte abia în momentul în care ni s-au cerut plăți pe baza lor, deși societatea noastră nu le-a semnat niciodată. Cu toate acestea, pas cu pas, am comunicat tuturor furnizorilor identificați că A&C Wohnart Immobilien GmbH este noul proprietar, am solicitat copiile contractelor, am cerut schimbarea datelor de facturare și a adreselor de corespondență și am cerut clarificări acolo unde sumele solicitate nu erau documentate. Tot ceea ce prevede legislația austriacă am respectat și am achitat.\n\nAm solicitat personal, în repetate rânduri, fostului administrator să nu vă mai scrie dumneavoastră, ci să ne scrie direct nouă, și să ne predea un dosar fizic și unul electronic cu toate contractele și facturile aferente imobilului. Până astăzi nu am primit nimic, fie pentru că nu există o astfel de evidență, fie pentru că nu ni se predă. Situația de care vorbiți ar fi arătat complet altfel dacă acest dosar ar fi existat și ar fi fost predat la momentul tranzacției, așa cum era firesc.\n\nAdresa oficială de corespondență a societății este: A&C Wohnart Immobilien GmbH, Schallergasse 35, 1120 Wien, email office@ac-wohnart.at.\n\nÎn privința desemnării unei administrații de imobil (Hausverwaltung), vă rog să aveți în vedere următoarele. Societatea noastră este proprietar unic (Alleineigentümer) al imobilului, înscris în cartea funciară KG 01305, EZ 2235. În temeiul § 354 și § 362 ABGB, proprietarul are dreptul de a dispune liber de substanța și de folosința bunului său, inclusiv de a-l administra personal. Obligația de a desemna un administrator (Verwalter) prevăzută la § 19 și urm. WEG 2002 se aplică exclusiv comunităților de proprietari în regim de Wohnungseigentum, ceea ce nu este cazul nostru. Nicio dispoziție a ABGB, MRG sau a Bauordnung für Wien nu obligă un proprietar unic să angajeze o administrație de imobil externă; obligațiile legale ale proprietarului (întreținere, siguranță, evidența costurilor, raportări) ne revin nouă direct și ni le asumăm și le îndeplinim ca atare. Administrarea propriului imobil nu constituie nici activitate reglementată în sensul § 117 GewO, care privește doar administrarea imobilelor terților.\n\nPrin urmare, până la finalizarea lucrărilor de reparații și construcție intenționăm să administrăm noi înșine imobilul. Considerăm aceasta nu doar un drept, ci și o necesitate: numai astfel putem înțelege în detaliu toate costurile pe care le implică imobilul, ceea ce este esențial pentru deciziile noastre viitoare, inclusiv în perspectiva închirierii. Desemnarea unei administrații externe va fi analizată la momentul potrivit, după încheierea lucrărilor.\n\nSomația domnului Kornhofer o analizăm și îi vom răspunde direct. Cu aceeași ocazie îi vom solicita formal predarea completă a documentației imobilului (contracte, facturi, corespondență, accesuri online), împreună cu lista tuturor entităților cu care au fost încheiate contracte în legătură cu imobilul. Dacă aveți bunătatea, vă rugăm să susțineți și dumneavoastră această solicitare printr-un răspuns adresat domnului Kornhofer, întrucât o intervenție din partea avocaților care au asistat tranzacția ar avea, credem, o greutate mult mai mare.\n\nVă mulțumesc pentru înțelegere și rămân la dispoziția dumneavoastră pentru orice clarificare.\n\nCu stimă,\nCosmin-Adrian Covaciu\nGeschäftsführer\nA&C Wohnart Immobilien GmbH\n```\n\nNotă despre referințele legale folosite:\n\n- **§ 354 și § 362 ABGB** definesc dreptul de proprietate ca drept de a dispune liber de substanța și folosința bunului, inclusiv de a-l administra sau lăsa neadministrat.\n- **§ 19 și urm. WEG 2002** reglementează administratorul obligatoriu, dar numai pentru Wohnungseigentumsgemeinschaft, nu pentru proprietate unică.\n- **§ 117 GewO** reglementează profesia de Immobilienverwalter pentru administrarea imobilelor terților. Administrarea propriului imobil nu intră sub incidența ei.\n\nAceste referințe sunt corecte în principiu, dar avocatul le va citi cu ochi de specialist. Dacă are o obiecție, va fi probabil legată de obligațiile concrete din Bauordnung sau MRG, nu de dreptul de a vă administra singur imobilul.",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 24,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-3",
+      "item": {
+        "type": "userMessage",
+        "id": "item-10",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "da-mi versiunea de raspuns in germana",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 26,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-3",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-11",
+        "text": "**An:** Bogdan.Capra@cerhahempel.com\n**Cc:** office@ac-wohnart.at\n**Betreff:** AW: WG: 1120 Wien, Schallergasse 35 (gü)\n\n```\nSehr geehrter Herr Mag. Capra,\n\nich möchte mich nochmals herzlich für Ihre gesamte Unterstützung sowie für jedes Schreiben und jede Mahnung bedanken, die Sie uns weitergeleitet haben. Eines möchte ich vorweg klarstellen: Ich habe auf sämtliche über Sie eingelangten Nachrichten reagiert, jede einzelne berücksichtigt und jeweils entsprechend gehandelt.\n\nIch bedaure, dass nach wie vor Post für unsere Gesellschaft am Parkring 2 einlangt. Erlauben Sie mir jedoch zu erläutern, warum dies geschieht, denn es ist keineswegs auf mangelnde Reaktion unsererseits zurückzuführen.\n\nWie Ihnen als unsere Rechtsvertreter beim Erwerb der Liegenschaft bekannt ist, gab es bei der Übergabe keinerlei Übergabeunterlagen: keine Aufstellung der Unternehmen, mit denen die frühere Hausverwaltung Verträge abgeschlossen oder Korrespondenz geführt hat, kein Vertragsverzeichnis mit Vertragsnummern, E-Mail-Adressen und Ansprechpersonen, keine Zugangsdaten zu den Online-Portalen der Lieferanten (Energieversorger, Versicherungen, Dienstleister). Ohne diese Informationen hatten wir schlicht niemanden, dem wir den Eigentümerwechsel und die neuen Zustelladressen mitteilen konnten.\n\nDie Folge war, dass wir wiederholt erst dann von der Existenz eines Vertrages erfahren haben, als von uns Zahlungen daraus verlangt wurden, obwohl unsere Gesellschaft diese Verträge nie unterzeichnet hat. Dennoch haben wir Schritt für Schritt allen identifizierten Vertragspartnern mitgeteilt, dass die A&C Wohnart Immobilien GmbH neue Eigentümerin ist, die Vertragskopien angefordert, die Änderung der Rechnungs- und Zustelladressen verlangt und dort um Aufklärung ersucht, wo geforderte Beträge nicht belegt waren. Alles, was das österreichische Recht vorsieht, haben wir eingehalten und bezahlt.\n\nIch habe die frühere Hausverwaltung persönlich und wiederholt ersucht, nicht mehr an Sie, sondern direkt an uns zu schreiben und uns einen physischen sowie einen elektronischen Akt mit sämtlichen Verträgen und Rechnungen zur Liegenschaft zu übergeben. Bis heute haben wir nichts erhalten, sei es, weil eine solche Dokumentation nicht existiert, sei es, weil sie uns nicht übergeben wird. Die von Ihnen angesprochene Situation sähe völlig anders aus, wenn dieser Akt existiert hätte und, wie es sich gehört, im Zuge der Transaktion übergeben worden wäre.\n\nDie offizielle Zustelladresse der Gesellschaft lautet: A&C Wohnart Immobilien GmbH, Schallergasse 35, 1120 Wien, E-Mail office@ac-wohnart.at.\n\nZur Frage der Bestellung einer Hausverwaltung bitte ich Folgendes zu berücksichtigen. Unsere Gesellschaft ist Alleineigentümerin der Liegenschaft, eingetragen im Grundbuch KG 01305, EZ 2235. Gemäß §§ 354 und 362 ABGB steht dem Eigentümer das Recht zu, mit der Substanz und den Nutzungen seiner Sache frei zu verfügen, einschließlich des Rechts, sie selbst zu verwalten. Die Verpflichtung zur Bestellung eines Verwalters nach §§ 19 ff WEG 2002 gilt ausschließlich für Eigentümergemeinschaften im Wohnungseigentum, was hier nicht der Fall ist. Keine Bestimmung des ABGB, des MRG oder der Bauordnung für Wien verpflichtet einen Alleineigentümer, eine externe Hausverwaltung zu beauftragen; die gesetzlichen Pflichten des Eigentümers (Instandhaltung, Sicherheit, Kostenevidenz, Meldepflichten) treffen uns unmittelbar, und wir nehmen sie als solche wahr und erfüllen sie. Die Verwaltung der eigenen Liegenschaft stellt auch keine reglementierte Tätigkeit im Sinne des § 117 GewO dar, der ausschließlich die Verwaltung fremder Liegenschaften betrifft.\n\nWir beabsichtigen daher, die Liegenschaft bis zum Abschluss der Sanierungs- und Bauarbeiten selbst zu verwalten. Wir sehen dies nicht nur als unser Recht, sondern auch als Notwendigkeit: Nur so können wir sämtliche mit der Liegenschaft verbundenen Kosten im Detail verstehen, was für unsere künftigen Entscheidungen, auch im Hinblick auf eine spätere Vermietung, wesentlich ist. Die Bestellung einer externen Hausverwaltung werden wir zu gegebener Zeit nach Abschluss der Arbeiten prüfen.\n\nDie Mahnung von Herrn Kornhofer prüfen wir und werden ihm direkt antworten. Bei dieser Gelegenheit werden wir ihn förmlich zur vollständigen Übergabe der Liegenschaftsdokumentation auffordern (Verträge, Rechnungen, Korrespondenz, Online-Zugänge) samt einer Aufstellung sämtlicher Vertragspartner, mit denen im Zusammenhang mit der Liegenschaft Verträge abgeschlossen wurden. Wir wären Ihnen sehr verbunden, wenn Sie diese Aufforderung Ihrerseits durch ein Schreiben an Herrn Kornhofer unterstützen könnten, da einer Intervention der Rechtsanwälte, die die Transaktion begleitet haben, unseres Erachtens deutlich mehr Gewicht zukommt.\n\nIch danke Ihnen für Ihr Verständnis und stehe für Rückfragen jederzeit gerne zur Verfügung.\n\nMit freundlichen Grüßen\nCosmin-Adrian Covaciu\nGeschäftsführer\nA&C Wohnart Immobilien GmbH\n```\n\nDouă precizări la versiunea germană:\n\n- **Formula de adresare** folosește titlul academic „Herr Mag. Capra\", cum este uzual în Austria.\n- **Termenul „Mahnung\"** l-am folosit pentru somație. Dacă documentul de la Kornhofer este o „Zahlungsaufforderung\" sau un „Schreiben\", puteți înlocui cuvântul în paragraful respectiv.",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224811
+    },
+    {
+      "ordinal": 28,
+      "timestamp": "2026-09-17T20:50:24.811Z",
+      "turn_id": "external-import-turn-3",
+      "item": {
+        "type": "agentMessage",
+        "id": "item-12",
+        "text": "<EXTERNAL SESSION IMPORTED>",
+        "phase": null,
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1789678224811
+    }
+  ]
+}

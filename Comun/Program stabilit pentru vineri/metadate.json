@@ -1,0 +1,23 @@
+{
+  "id": "01a0d4e2-dc30-79e3-bad6-bd9fd3a231ad",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790278032,
+  "updated_at": 1790690557,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Program stabilit pentru vineri",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 2548822,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 941,
+  "message_count": 941,
+  "content_sha256": "5f6d020892347058a4e54c3ec18680e01cc0f4101248fe77d87439098b8b7a44",
+  "files_copied": 25,
+  "references_not_copied": 54
+}

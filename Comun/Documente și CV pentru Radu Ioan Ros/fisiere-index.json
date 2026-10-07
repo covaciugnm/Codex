@@ -1,0 +1,63 @@
+[
+  {
+    "source_reference": "$_.Used/1GB",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/8753fdfe-69ac-40f6-887b-4c41ba867b18/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/8753fdfe-69ac-40f6-887b-4c41ba867b18/tasks/b1kdxjr1c.output",
+    "status": "copiat",
+    "saved_path": "fisiere/b1kdxjr1c--beebad09.output",
+    "bytes": 92,
+    "sha256": "096eebe19c453ffaa52ae63672f7351b8e6e2ee82edba8733272049e5d9586a9"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Everything\\Everything.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Everything\\es.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\8753fdfe-69ac-40f6-887b-4c41ba867b18\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\00. Arhiva\\ROS RADU-IOAN - 1520801011095",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\ROS RADU-IOAN - 1520801011095",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\ROS RADU-IOAN - 1520801011095\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\ROS RADU-IOAN - 1520801011095\\08. CV si declaratii\\1520801011095 - ROS RADU-IOAN - CV - 4ea5f31602.doc",
+    "status": "copiat",
+    "saved_path": "fisiere/1520801011095 - ROS RADU-IOAN - CV - 4ea5f31602--47e9ec19.doc",
+    "bytes": 115200,
+    "sha256": "4ea5f31602e2542d06aaaa569645f485936cf541c0afa0cbddc5c8de057a2024"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\ROS RADU-IOAN - 1520801011095\\09. Alte documente\\1520801011095 - ROS RADU-IOAN - Index surse documente copiate 2026.10.06.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/1520801011095 - ROS RADU-IOAN - Index surse documente c--15eaca61.csv",
+    "bytes": 45470,
+    "sha256": "e7684cf3727a7423c310421a28ff7748d839cd012958d987e80faa6a8a5101f8"
+  },
+  {
+    "source_reference": "[^a-z]|$",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

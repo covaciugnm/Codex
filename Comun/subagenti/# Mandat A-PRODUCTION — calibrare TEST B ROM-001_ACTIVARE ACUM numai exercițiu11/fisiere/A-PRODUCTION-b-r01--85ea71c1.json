@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d1e2-59ed-7e23-8a75-cdd3413f413f",
+  "role": "A-PRODUCTION",
+  "set_version": "rom001-b-r01",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Criteriul notat exact 950 nu îndeplinește condiția strictă >950. Celelalte criterii de 980 și media nu compensează acest eșec; verdictul PASS din stimul trebuie respins. Remedierea criteriului și reverificarea sunt necesare înaintea acceptării.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:12-14, cazul C01; linia 13 localizează criteriul cu scor exact 950 și verdictul autorului, iar linia 14 precizează pragul strict."
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Producătorul X și auditorul cu alias Y au același ID X. Schimbarea numelui afișat nu creează independență; raportul este autoaudit și nu poate satisface cerința unui auditor distinct de producător.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:16-18, cazul C02; linia 17 identifică același ID X în producție și audit, sub alias Y."
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "SHA-256 A din raport diferă de SHA-256 B al fișierului curent. Auditul nu acoperă versiunea actuală și aprobarea sa nu se transferă asupra acesteia. Este necesar un audit nou pe versiunea fixată, cu amprenta corespunzătoare, păstrând istoricul.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:20-22, cazul C03; linia 21 pune în corespondență amprenta A citată de raport și amprenta B a fișierului curent. A și B sunt simbolurile stimulului, nu hashuri calculate în acest exercițiu."
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Din succesiunea cerută C01-C03 lipsește capitolul C02, predarea conținând numai C01 și C03. Afirmația de completitudine din sumar nu înlocuiește capitolul absent. Completarea și reverificarea tuturor identificatorilor ceruți sunt necesare.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:24-26, cazul C04; linia 25 indică intervalul cerut și cele două capitole efectiv stipulate în predare, între care lipsește C02."
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Aceeași scenă textuală de 2.000 de cuvinte apare în două capitole și este numărată de două ori. Duplicarea nu reprezintă proză distinctă și umflă nejustificat totalul. Producătorul trebuie să remedieze duplicarea, iar numărătoarea și funcția editorială a capitolelor trebuie retestate; nu este suficientă corectarea sumei.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:28-30, cazul C05; linia 29 localizează defectul la scena identică de 2.000 de cuvinte din cele două capitole. Stimulul nu furnizează ID-uri de capitol sau pagini, deci acestea nu sunt inventate."
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Moartea definitivă a Marei la sfârșitul V1 contrazice prezentarea ei vie în V2, în absența unei explicații sau schimbări autorizate. Produsul încalcă intrarea de canon stipulată. Nu presupun o înviere, un flashback ori o aprobare care nu există în stimul; contradicția trebuie remediată și reverificată.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:32-34, cazul C06; linia 33 identifică cele două repere incompatibile: sfârșitul V1 și prezentarea Marei în V2."
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Masterul EN include P04, însă traducerea DE se oprește la P03. P04 este omis, deci traducerea nu este integrală. Verificarea trebuie să confrunte identificatorii P01-P04 și conținutul lor; apropierea numărului de cuvinte nu ar putea compensa lipsa. Completarea și retestarea revin fluxului de producție, fără a traduce în acest exercițiu.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:36-38, cazul C07; linia 37 localizează omisiunea la EN/P04, fără corespondent DE/P04."
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "Fiecare criteriu are 951, deci depășește pragul strict de 950. Stimulul confirmă doi auditori independenți și calificați, versiunea exactă fixată, zero constatări, metaaudit valid și toate condițiile tehnice verificate. În aceste condiții stipulate, PASS este justificat; nu adaug un prag de 1000 sau cerințe inexistente. Verdictul privește exclusiv cazul sintetic.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:40-42, cazul C08; linia 41 enumeră toate condițiile satisfăcute, inclusiv scorul 951 pentru fiecare criteriu."
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Contractul cere o selecție preliminară, iar raportul delimitează sincer pasajele citite și întinderea concluziilor. Această limitare este compatibilă cu scopul cerut și nu constituie singură un defect. Nu acordă automat PASS produsului, nu validează canonul integral și nu aprobă romanul; celelalte condiții rămân de verificat în cadrul lor autorizat.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:44-46, cazul C09; linia 45 precizează scopul preliminar și delimitarea explicită a lecturii și afirmațiilor raportului."
+    },
+    {
+      "id": "A-PRODUCTION-S01",
+      "verdict": "RETURN",
+      "reason": "PDF-ul declarat în manifest are 0 octeți și nu se poate deschide. Existența numelui fișierului nu dovedește conținutul, integralitatea sau testarea formatului; afirmația că toate formatele au fost testate este nejustificată. Într-o remediere productivă autorizată, producătorul ar regenera ediția, iar auditorul ar verifica efectiv deschiderea și conținutul integral față de masterul aprobat, cu manifest și amprente actualizate. Aici este evaluat numai stimulul, fără deschiderea unui pachet real.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md:34-36, cazul A-PRODUCTION-S01; linia 35 localizează PDF-ul de 0 octeți și afirmația de testare bazată numai pe existența numelui."
+    },
+    {
+      "id": "A-PRODUCTION-S02",
+      "verdict": "RETURN",
+      "reason": "Fișierul etichetat RO conține text german, iar cuprinsul ediției DE trimite la capitole EN. Amprentele corecte confirmă identitatea octeților existenți, inclusiv a celor greșiți; ele nu certifică limba, corespondența ediției sau navigarea. Remedierea trebuie urmată de confruntarea etichetelor EN/RO/DE cu textul fiecărei ediții și de testarea destinațiilor cuprinsului în ediția corespunzătoare, apoi de reverificarea pachetului și amprentelor. Nu pretind efectuarea acestor teste pe un produs real.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md:37-39, cazul A-PRODUCTION-S02; linia 38 identifică separat conținutul german din fișierul RO și trimiterile cuprinsului DE către capitole EN, în pofida hashurilor corecte."
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T08:28:27.6584314+03:00"
+}

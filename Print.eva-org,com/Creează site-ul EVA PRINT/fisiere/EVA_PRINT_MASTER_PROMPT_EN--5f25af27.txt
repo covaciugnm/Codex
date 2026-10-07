@@ -1,0 +1,1625 @@
+EVA PRINT SRL website implementation prompt
+
+Build a complete website and customer project portal for EVA PRINT SRL, a custom 3D printing company. Use the accompanying research package as the content and source dataset. English is the master editorial language. Deliver a working PostgreSQL-backed application, installation instructions, migrations, a content administration interface and tests for the customer workflow. Do not stop after creating a visual homepage.
+
+Company and positioning
+
+Company name: EVA PRINT SRL.
+Contact email: print@eva-org.com.
+Proposed domain: print.eva-org.com.
+The owner states that the company has five specialized engineers, all nozzle types relevant to its equipment, a broad selection of materials and most material families in stock. State the five-engineer team in the presentation. Do not invent staff names, portraits, qualifications, certifications, customer logos, delivery promises, exact inventory or completed EVA PRINT projects.
+
+Use this core English copy:
+“Custom 3D printing, supported by engineering expertise.”
+“EVA PRINT SRL turns your drawings, models and ideas into physical prototypes, custom components and large-format parts. Our team of five specialized engineers helps define the material, geometry and production approach for your project.”
+“From presentation models to functional prototypes and industrial tooling, we review each project against its intended use, dimensions and operating conditions.”
+Primary call to action: “Request a project quotation”.
+Secondary call to action: “Explore materials”.
+Stock statement: “A broad selection of materials is available from stock. Exact grade, color and quantity are confirmed during project review.”
+
+Installed printer fleet
+
+1. Original Prusa XL with five independent toolheads. Nominal volume 360 × 360 × 360 mm. Explain multi-color and multi-material work with up to five loaded materials, independently selected nozzles and support interfaces. Material combinations need bonding, temperature and support validation. Do not promise arbitrary combinations or more than five simultaneously loaded colors as a standard one-job capability.
+   Owner reference: https://www.prusa3d.com/product/original-prusa-xl-5-toolhead-3d-printer/
+   Published reference limits: 290°C nozzle and 120°C bed. The current shop page describes XL+, whereas the owner declared XL. Do not silently upgrade the owned printer, chamber or firmware in website copy. Record the exact installed generation and options in the administration panel.
+2. Rat Rig V-Core 4.1 500. Nominal single-tool volume 500 × 500 × 500 mm. Published reference maximums are 350°C nozzle and 120°C bed for the manufacturer's specified configuration. Verify the installed equipment before treating those values as the company's validated process limits.
+   https://ratrig.com/products/rat-rig-v-core-4-1
+   Enclosure panels and IDEX are configuration-dependent. Do not describe the owned machine as IDEX unless confirmed. Copy and mirror modes reduce the usable area per toolhead.
+3. Modix BIG-Meter. Owner-declared nominal volume 1000 × 1000 × 1000 mm. Present as approximately one cubic metre and verify the actual usable volume and toolhead configuration. Current GEN5 listings can specify 980 × 1000 × 1000 mm, while earlier material refers to nominal 1000 mm dimensions.
+   https://www.modix3d.com/ro/big-meter/
+   https://www.modix3d.com/tech-specs/
+   Published Griffin reference information describes testing up to 340°C. A component rating of 500°C is not a validated operating temperature for the whole printer. Do not assume active high-temperature chamber heating or IDEX from an enclosure or nozzle assortment.
+
+Materials and capability policy
+
+Import every record in 02_MATERIALS/materials.en.json. Preserve manufacturer, grade and variant distinctions. Do not reduce the catalog to PLA, PETG, ABS and TPU. Treat a material family, its specific formulation, finish, color and supplier SKU as distinct concepts.
+
+Provide an alphabetically ordered A–Z Materials menu with individual, indexable pages for every catalog record. Offer a family view to group equivalent polymer types while retaining grade-specific pages and technical documents. Alphabetical sorting must be applied to the displayed label in the selected language, with stable grade names and a search fallback for abbreviations.
+
+Include standard polymers, copolyesters, nylons, flexible elastomers, carbon/glass/aramid composites, ESD formulations, flame-retardant grades, soluble/breakaway supports, recycled grades, natural-pigment grades, lightweight and foaming filaments, wood composites, metal powder composites and special filled PETG grades. The dataset is an extensive researched starting catalog, not a mathematically exhaustive list of every proprietary formulation on the market. Allow administrators to add new grades without code changes.
+
+Do not say “we can print every material” based on nozzles alone. Use separate statuses:
+- Project review required.
+- Enclosure and process validation required.
+- Specialist process validation required.
+- Outside the verified configuration of the current fleet.
+- Validated for a named printer, profile and material lot, only after company confirmation.
+
+PEEK and PEI records are reference catalog entries, not confirmed current services. For example, Prusament PEI 1010 publishes high-temperature nozzle, bed and chamber requirements beyond the reference limits of this fleet. Keep those records visible as technical information, with an inquiry action and no availability claim. Preserve grade-specific evaluation for PPS, PPE/PS, PPA and other specialist formulations.
+
+Add an extended material assessment register for PEKK, PPSU, PSU, POM/acetal, PMMA, HDPE/LDPE, TPC/TPEE, PBT, additional PAHT formulations, PPA-GF, PA-CF/GF grades, ceramic-filled polymers, conductive polymers, stone/mineral composites, flame-retardant grades and bound-metal filaments when exact supplier data becomes available. These are assessment candidates. Never mark them as in stock, validated or orderable merely because they appear in this register. Bound-metal printing needs a separate debinding/sintering service; filled filament does not imply direct production of solid-metal parts. Resin, powder-bed metals, concrete, food, silicone and continuous-fiber deposition are separate processes that are not established by the three declared FFF printers.
+
+Each material page must contain
+
+- Material name, polymer family, supplier, precise formulation, intended role and service status.
+- A concise original English explanation from the accompanying description.en.txt, localized for the selected language.
+- Characteristics, advantages, limitations, drying, bed surface, nozzle and enclosure considerations.
+- Grade-specific technical properties with units, test standard, specimen orientation, conditioning and annealing state when established. Keep an unknown value unknown. Do not mix raw resin, filament and printed specimen properties.
+- Recommended temperature ranges from the exact manufacturer's documentation and a separate matrix for the three printers.
+- Example applications from the dataset, clearly marked as proposed uses.
+- Documented external examples, only when evidence links the project and material. Do not guess which polymer was used in a case study.
+- A photo gallery with local assets, source links, author attribution and publication rights status.
+- An original technical illustration, its PNG/SVG preview, PDF download and DXF download. Label conceptual illustrations as such. They are not client drawings or manufacturing releases. DXF is provided as an editable exchange format; do not rename it to DWG.
+- A technical resources section that links both the exact original manufacturer TDS URL and the downloaded local document, with SDS separate from TDS. Include document language, revision if established and research date.
+- A clearly identified EVA PRINT engineering overview where no manufacturer PDF was found. This overview must never be presented as the manufacturer's TDS.
+- Grade-specific colors and finishes, supplier SKU options and actual EVA PRINT stock where verified.
+- Related industries and an inquiry button that preselects the grade in the quotation form.
+
+Photos and portfolio
+
+All 04_REFERENCE_PHOTOS assets are local research copies. They do not carry an assumed commercial publication license. Preserve the manifest. The public site may show only original EVA PRINT media or assets whose rights_status is permission_granted or licensed. Reference-only images remain available to editors in the private research library and are replaced with licensed or company photos before publication. Source links can remain public where appropriate.
+
+Use the original technical illustrations provided in 05_TECHNICAL_DRAWINGS as conceptual visuals. They do not prove a specific part has been produced or tested. Do not use supplier product photos as EVA PRINT job photographs. Completed EVA PRINT portfolio entries need genuine company project evidence and publication permission.
+
+Industry pages and examples
+
+Import all records in 03_INDUSTRIES/industries.en.json. Provide an alphabetically ordered Industries menu and a dedicated page for every industry. Preserve all proposed application examples. Cross-link material pages, industry pages and example records rather than duplicating disconnected content.
+
+Each industry page explains the problem the printing service can help solve, lists the proposed applications, suggests relevant material families and identifies the constraints that affect the request. Include small prototypes, practical jigs and fixtures, replacement noncritical components, multi-material work, presentation models and large-format examples where relevant.
+
+Documented case studies in 03_INDUSTRIES/documented-external-cases.json are external references. Place them under “Industry inspiration” or “Documented applications”, with direct source links and honest material identification. Do not describe these companies as EVA PRINT clients. Keep suggested applications separate from completed company work in the data model and visible labels.
+
+Sitemap
+
+Create localized routes for Home, About, Engineering Services, Printing Capabilities, Printers, Materials A–Z, individual Material pages, Industries A–Z, individual Industry pages, Applications and Inspiration, company Portfolio when verified entries exist, Resources and Technical Data, Request a Quotation, Contact, Sign Up, Sign In, Customer Dashboard, Project Detail, Privacy, Terms and Cookie Preferences.
+
+The Home page should lead with the company value proposition, five-engineer team, three printer sizes, relevant applications and a clear quotation action. The About page may explain proposed engineering responsibilities as services, without assigning invented biographies. Suggested service areas are design for additive manufacturing, CAD preparation, material selection, production planning, finishing and inspection.
+
+The Contact page shows EVA PRINT SRL and print@eva-org.com, with a working contact form routed to the company through the backend. Address, telephone, opening hours, registration number and VAT number are configuration fields that remain hidden until supplied. Do not invent them. Store contact requests and delivery results in PostgreSQL. Do not expose mail credentials or place an email provider secret in the browser.
+
+Account creation and sign in
+
+Implement verified email/password registration, sign in, password reset, secure sessions, sign out and Google sign in. Google integration must use server-validated tokens and the provider's official current documentation. Use authorization code flow with PKCE where supported; validate issuer, audience, signature, state and nonce, and register exact callback URLs. Request only necessary identity scopes.
+
+The owner's label “EU Pass” is unresolved. Assume EU Login only as a planning candidate until the owner identifies the provider. EU Login is the European institutions' authentication service, and integration for this commercial site must be confirmed with the provider. Do not substitute Europass, eIDAS or a European Digital Identity Wallet without an explicit choice.
+
+Create a configurable external-provider adapter for the confirmed integration mechanism, provider metadata, credentials and approved callback URLs. Keep the EU sign-in option disabled and out of public navigation until provider identity, eligibility, onboarding and a successful real integration test are established. Do not fake successful authentication or infer eligibility from the existence of public EU Login accounts. Google and email sign in remain independent of this unresolved provider.
+
+Use explicit, authenticated account-linking flows. Do not merge accounts solely because an untrusted external claim contains the same email address. Prevent customer access to other users' projects and files. Customers, engineers and administrators have separate permissions.
+
+Project quotation and order intake
+
+Build an accessible multi-step request form. Offer draft saving for signed-in users, a review screen and a real server submission receipt with a project reference. A quotation request is not automatically an accepted manufacturing order.
+
+Step 1: Project identity and contact
+Collect project title, description, intended use, industry, contact person, email, preferred communication language and optional company/VAT/billing details. The title, description and intended use are mandatory. Explain the difference between an appearance model, functional prototype, tooling aid and proposed end-use component.
+
+Step 2: Parts and requirements
+Allow multiple part records. For each: name, quantity, dimensions and explicit units, current design revision, exact grade or request for engineering recommendation, color/finish preference, multi-material/color mapping, wall or structural requirements, tolerance-critical features, thread/insert requirements, mating parts, preferred surface finish and post-processing. Ask for operating temperature range, load type, impact/vibration, UV/weather, chemicals, moisture, electrical/ESD requirements and any applicable customer standard. Ask whether the design or use is safety-critical or regulated so an engineer can define the appropriate review.
+
+Step 3: Documents and reference media
+Accept multiple uploads with drag-and-drop, progress, retry, remove and revision labels. Standard types: STL, 3MF, STEP/STP, OBJ, PLY, DXF, DWG, PDF, PNG, JPG/JPEG, WEBP, TIFF, SVG, ZIP, DOCX, XLSX, CSV and TXT. Support HEIC conversion in a dedicated worker if needed. Accept other relevant document types through a controlled review path; do not execute arbitrary uploaded files. Archives need safe extraction, file-count and expanded-size limits.
+
+Label file role: 3D model, 2D technical drawing, photo, specification, inspection requirement, reference document or archive. Collect units, revision and a note for each file. Preserve originals. A DWG or PDF may need human CAD preparation; do not claim every upload automatically contains a printable solid model. Images and sketches are valid quotation inputs even when a 3D design still needs to be created.
+
+Provide read-only previews for supported models and PDFs, while retaining download access for private documents. Never execute uploaded G-code, macros or scripts. Quarantine uploads, verify the real type, scan them and isolate conversion jobs with time and memory limits. Escape SVG and document content in previews.
+
+Store file metadata, hashes, permissions, revisions, project relationships and the actual file bytes in PostgreSQL. Use file_blobs and ordered file_blob_chunks containing bounded bytea chunks, with streaming upload/download endpoints in Go. The supplied chunk limit is 8 MiB; set total-file and project quotas separately in database settings. Keep customer blobs private and quarantined until scanning succeeds. Authorization must run before every download or range request. Do not send drawings to third-party conversion/AI services by default.
+
+Step 4: Timing, confidentiality and delivery
+Collect requested deadline, optional budget/currency, pickup/shipping preference, delivery destination and NDA request. Explain that the engineering review confirms feasibility, grade/color stock, cost and delivery. Capture agreement to the specified terms and privacy notice with a version and timestamp. Portfolio permission and marketing consent are separate optional choices, not mandatory order conditions.
+
+Step 5: Review and submit
+Summarize the project, parts, requirements and files. Submit transactionally to the backend. Generate a unique reference only after a successful write. Put confirmation notifications in an outbox queue and display delivery failures honestly. Show a clear success page linked to the private project dashboard.
+
+Project states: Draft → Submitted → Engineering Review, with Needs Information as required → Quoted → Accepted → Scheduled → Printing → Quality Check → Ready → Shipped or Collected → Delivered. Support controlled cancellation and revision requests. The customer dashboard lists projects, documents, comments, quote revisions, agreed specifications, statuses and delivery details. Engineers manage review notes, feasibility, printer/profile assignment, material lot, inspection and quote revisions. Customers cannot edit issued prices or self-assign production status.
+
+PostgreSQL and backend
+
+Use Go for the backend, native net/http and html/template for server-rendered pages, parameterized PostgreSQL queries and a small amount of progressively loaded browser JavaScript. Load a CAD viewer only when the user opens a model. Public information and navigation must be usable without a large client application. Use semantic HTML, efficient CSS, compression and responsive images. Go is the selected practical implementation language; do not claim that a language alone guarantees the fastest website.
+
+Use PostgreSQL as the canonical store for all site content, languages, display fields, translations, page positions, menus, form definitions, UI messages, email templates, SEO text, media metadata and binary data. It also holds users, accounts, sessions/token hashes, material families and grades, colors/SKUs, stock, printers/configurations, compatibility records, industries, examples, customer companies, projects, parts, comments/events, quote revisions, production records, consents, contact requests, audit events and notification delivery. Apply 07_DATABASE/schema.sql, 002_dynamic_fields.sql and seed.sql in that order as a reviewed starting point, adapting through explicit migrations. JSON/CSV/text files in this research bundle are import sources, not live runtime content stores.
+
+Use a server application with parameterized queries, server-side authorization and validated inputs. Keep credentials in environment variables or a secret store. Use transactions for project submission and quote acceptance. Protect against cross-project file/item references. Apply runtime role privileges as well as row-level policies. The runtime role must not own tables, be a superuser or bypass row-level security.
+
+Serve licensed public assets through a separate access path from private project blobs, even though both are stored in PostgreSQL. Derived thumbnails and web image versions also have database blob records. Stream chunks with bounded memory; verify byte count, chunk sequence and hash before finalizing a blob. Do not load whole large CAD files into a page query. Use resumable uploads, per-project quotas and a dedicated restricted scanning service for quarantine processing. Back up the database with binary content consistently and test recovery. Configure retention and customer deletion workflows after the company provides its policy. Secrets, executable application code and build artifacts are managed outside editorial content tables; all business/site data remains in the DB. Add scrubbed logs without file contents or secrets. Deploy to the company's chosen infrastructure without a proprietary website platform dependency.
+
+Languages
+
+Support EN, DE, FR, Spanish, RO, HU and BG. The owner's “SP” label means Spanish, whose standard locale code and route are “es”. Use native language names: English, Deutsch, Français, Español, Română, Magyar and Български. Use /en, /de, /fr, /es, /ro, /hu and /bg routes, per-locale metadata, localized menus, search, forms, validation, emails and account screens. Preserve the current page when switching languages.
+
+English is the source editorial language. Define supported locales in the locales table, including native name, default/fallback language, formatting and ordering. Do not hardcode a seven-language enum in application logic: an administrator can register another language and queue its translations without recompilation. The initial language set has seven entries.
+
+Keep shared facts as typed canonical values instead of duplicating them inside translated prose. For example, store engineer_count=5 in site_settings and use the protected token {engineer_count} in every localized team sentence. A company-data edit then changes all language displays immediately. Define token-to-data bindings and locale plural forms in the DB, validate token preservation during translation and allow only registered tokens. Printer dimensions/limits, email, grade identifiers, quantities and units use the same principle. The renderer formats and escapes typed values; it never executes token strings as code.
+
+Implement field-level content using content_fields and field_translations. Each field has a stable key, entity type/id, property path, value type, source language, JSONB source value, source version and publication state. Translation rows reference the field and language separately, retaining the source version and editorial review state. Use these tables for every displayed heading, paragraph, list, menu label, button, placeholder, help text, validation message, status label, email subject/body, alt text, consent wording and SEO field. Canonical technical identifiers and measured values are stored once and formatted for the selected locale. Never duplicate the same source property in competing translation tables.
+
+Define page structure separately using page_definitions, page_positions, field_placements and optional localized_positions. Database rows specify component key, region, parent, order, visibility, presentation options and field binding. Templates implement an allowlisted component registry; visible text and placement are read from the database. A material page template is shared while each material owns its fields. Moving or hiding a field changes all language views immediately unless an explicit locale override exists. Menus and order-form steps/fields are also database definitions, with database-backed labels. Do not execute arbitrary database strings as application code.
+
+When an English source field changes, advance its version, save the previous value, mark older translations stale and queue updates for every other registered locale. Preserve previous translations for audit; never silently overwrite reviewed work. Translators or a configured translation worker prepare the new versions. Only a reviewed translation matching the current source version becomes public. Until then resolve the latest English source with a visible fallback indicator. A layout change does not require retranslating text. A new locale creates missing translation jobs; disabling a locale removes its navigation entry without deleting its content. Reject delayed translation results referencing an obsolete source version.
+
+The supplied seven-language interface seed is draft starter copy, not a completed translation of the entire technical catalog. Human review is required for technical/legal translations before publication. Material identifiers, manufacturer names, standards and exact TDS titles remain stable. Manufacturer documents retain their original language. Show translation coverage in the administration panel and distinguish reviewed, draft, stale and missing content.
+
+Resolve the page layout and required fields in bulk, then render HTML on the server. Cache only public rendered content, keyed by locale, route/entity, content versions and layout version. Persist invalidation work in render_events and use LISTEN/NOTIFY as an accelerator, not the only delivery mechanism. Invalidate affected pages and all affected locales after edits. Private customer pages and downloads must never enter shared public caches. Measure performance on real devices: target p75 LCP <= 2.5 s, INP <= 200 ms and CLS <= 0.1. Record server response, query count and asset weight; do not invent benchmark results.
+
+Design and accessibility
+
+Use an engineering-focused design: charcoal and deep navy, white backgrounds, a restrained teal accent and clear typography. Use generous spacing, readable technical tables, drawing details and actual approved part photos. Use color swatches only as approximate screen representations; do not promise an exact printed color from a screen hex value.
+
+Use a responsive A–Z catalog, searchable filter panel, material comparison view and readable page sections. Drawings need zoom and download controls. Avoid invented photorealistic staff or customer work. Meet practical WCAG 2.2 AA requirements, including keyboard operation, visible focus, form labels, error summaries, text alternatives, contrast and non-color-only status labels. Include empty, loading, failed upload and unavailable-provider states.
+
+Administration and launch checks
+
+Provide editing for all seven language variants, materials, source documents, rights/attribution, stock, supplier colors, printer configuration, published compatibility profiles, industry links, examples and portfolio permissions. Engineers must be able to mark a grade as validated for one machine and unavailable for another without deleting its page.
+
+Test the complete customer workflow against a real PostgreSQL test environment: registration/verification, Google callback validation, account linking, private uploads, quarantine and scanning states, project submission, cross-customer access denial, quote revision/acceptance, engineer-only actions, localization fallbacks and notification failures. Verify all local asset links and original source links. Verify uploads with duplicate names, damaged archives, wrong units, very large files and unsupported CAD formats. Test mobile layouts and keyboard navigation. Never expose reference-only photos or private research HTML through the public site.
+
+Deliver the working source, migrations, seed/import instructions, environment example without secrets, deployment instructions, backup instructions and a clear list of remaining owner configuration. Production launch requires real provider credentials, company contact/legal fields, installed machine verification, verified stock, approved public media and reviewed policy copy. Keep unfinished dependencies explicit; do not simulate a completed integration.
+
+Attached research references
+
+Read 00_README/START_HERE_EN.txt for the package map and limits. Material-by-material document links are appended below from the researched dataset. Where no exact manufacturer PDF was retrieved, the source page and the local overview are identified separately.
+
+MATERIAL-BY-MATERIAL SOURCE AND TECHNICAL DOCUMENT LINKS
+
+ABS — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/abs-en/abs-abs-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/04/FIBERLOGY_ABS_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-abs-abs-en/FIBERLOGY_ABS_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/abs-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/abs-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/abs-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/ABS_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-abs-abs-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/abs-fiberlogy/material.json
+
+ABS Easy — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/abs-en/easy-abs-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/abs-en/easy-abs-en/
+EVA PRINT overview: 02_MATERIALS/abs-easy-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/abs-easy-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/abs-easy-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/EASY_ABS_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-easy-abs-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/abs-easy-fiberlogy/material.json
+
+ABS EMI Shielding — 3DXTECH
+Source: https://www.3dxtech.com/products/3dxlabs-emi-abs
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXTECH_TDS_-_EMI-ABS_v0.2.pdf?v=1757353959
+Local copy: 06_DATASHEETS/3dxtech-3dxlabs-emi-abs/3DXTECH_TDS_-_EMI-ABS_v0.2.pdf
+EVA PRINT overview: 02_MATERIALS/abs-emi-shielding-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/abs-emi-shielding-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/abs-emi-shielding-3dxtech.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/EMI-ABS_84581c65-8b27-4eeb-81d2-ec0b7da357a5.png?v=1753102227
+Local private copy: 04_REFERENCE_PHOTOS/abs-emi-shielding-3dxtech/manufacturer-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/EMI-ABS.png?v=1753101981
+Local private copy: 04_REFERENCE_PHOTOS/abs-emi-shielding-3dxtech/manufacturer-1.png
+Full English description and complete gallery: 02_MATERIALS/abs-emi-shielding-3dxtech/material.json
+
+ABS ESD — 3DXTECH
+Source: https://www.3dxtech.com/products/3dxstat-esd-abs-1
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXSTAT_ESD_ABS_TDS_v3.pdf?v=1723942764
+Local copy: 06_DATASHEETS/3dxtech-3dxstat-esd-abs-1/3DXSTAT_ESD_ABS_TDS_v3.pdf
+EVA PRINT overview: 02_MATERIALS/abs-esd-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/abs-esd-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/abs-esd-3dxtech.dxf
+Reference image: https://www.3dxtech.com/cdn/shop/files/96-ESD-ABS-175mm-Black-1kg-3D-Printer-Filament.png?v=1722621019&width=1946
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-3dxstat-esd-abs-1/reference-1.png
+Reference image: https://www.3dxtech.com/cdn/shop/files/96-ESD-ABS-175mm-Black-1kg-3D-Printer-Filament.png?v=1722621019&width=800
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-3dxstat-esd-abs-1/reference-2.png
+Full English description and complete gallery: 02_MATERIALS/abs-esd-3dxtech/material.json
+
+ABS ESD — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/abs-en/abs-esd-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_ESD-ABS_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-abs-esd-en/FIBERLOGY_ESD-ABS_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/abs-esd-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/abs-esd-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/abs-esd-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/08/ABS_ESD_PRINT_1024x1024-1.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-abs-esd-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/abs-esd-fiberlogy/material.json
+
+ABS Glass Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/abs-en/absgf-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ABSGF_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-absgf-en/FIBERLOGY_ABSGF_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/abs-glass-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/abs-glass-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/abs-glass-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/08/ABSGF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-absgf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/abs-glass-fiber-fiberlogy/material.json
+
+ABS Plus — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/abs-en/abs-plus-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ABSPLUS_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_ABSPLUS_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/abs-plus-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/abs-plus-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/abs-plus-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/ABS_PLUS_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-abs-plus-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/abs-plus-fiberlogy/material.json
+
+ABS Recycled — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/abs-en/rabs-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_RABS_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_RABS_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/abs-recycled-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/abs-recycled-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/abs-recycled-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/rABS_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-rabs-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/abs-recycled-fiberlogy/material.json
+
+ASA — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/asa-en/asa-asa-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_ASA_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-asa-asa-en/FIBERLOGY_ASA_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/asa-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/asa-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/asa-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/ASA_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-asa-asa-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/asa-fiberlogy/material.json
+
+ASA — Prusament
+Source: https://prusament.com/materials/prusament-asa/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/bc8551ef-tds_prusament-asa_2024_en.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-asa/bc8551ef-tds_prusament-asa_2024_en.pdf
+EVA PRINT overview: 02_MATERIALS/asa-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/asa-prusament.pdf | 05_TECHNICAL_DRAWINGS/asa-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2018/09/P1533094-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-asa/reference-1.jpg
+Reference image: https://prusament.com/wp-content/uploads/2018/09/P1533187-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-asa/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/asa-prusament/material.json
+
+ASA Aramid Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/asa-en/asaaf-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/asa-en/asaaf-en/
+EVA PRINT overview: 02_MATERIALS/asa-aramid-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/asa-aramid-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/asa-aramid-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/ASA_AF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-asaaf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/asa-aramid-fiber-fiberlogy/material.json
+
+ASA Carbon Fiber CF08 — Polymaker
+Source: https://fiberon.polymaker.com/product/asa-cf08/
+Manufacturer TDS: https://polymaker.com/wp-content/uploads/lana-downloads/TDS_FIBERON-ASA-CF08_V1.0_EN.pdf
+Local copy: 06_DATASHEETS/fiberon-asa-cf08/TDS_FIBERON-ASA-CF08_V1.0_EN.pdf
+EVA PRINT overview: 02_MATERIALS/asa-carbon-fiber-cf08-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/asa-carbon-fiber-cf08-polymaker.pdf | 05_TECHNICAL_DRAWINGS/asa-carbon-fiber-cf08-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/ff02006_isometric_top.png?v=1756223314
+Local private copy: 04_REFERENCE_PHOTOS/asa-carbon-fiber-cf08-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/asa-cf08_weather_res.png?v=1767449016
+Local private copy: 04_REFERENCE_PHOTOS/asa-carbon-fiber-cf08-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/asa-carbon-fiber-cf08-polymaker/material.json
+
+ASA Matte — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/asa-en/asa-matte-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_MATTEASA_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_MATTEASA_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/asa-matte-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/asa-matte-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/asa-matte-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/ASA_MATTE_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-asa-matte-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/asa-matte-fiberlogy/material.json
+
+ASA Recycled — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/asa-en/rasa-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/asa-en/rasa-en/
+EVA PRINT overview: 02_MATERIALS/asa-recycled-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/asa-recycled-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/asa-recycled-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/rASA_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-rasa-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/asa-recycled-fiberlogy/material.json
+
+Biopolymer NonOilen — Fillamentum
+Source: https://shop.fillamentum.com/products/nonoilen-ginger-shot
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_NonOilen_EN_03082020_FfN.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_NonOilen_EN_03082020_FfN.pdf
+EVA PRINT overview: 02_MATERIALS/biopolymer-nonoilen-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/biopolymer-nonoilen-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/biopolymer-nonoilen-fillamentum.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/files/NonOilen_GingerShot.jpg?v=1779706367
+Local private copy: 04_REFERENCE_PHOTOS/biopolymer-nonoilen-fillamentum/supplier-0.jpg
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/files/NonOilen_Ginger_Shot.png?v=1779880740
+Local private copy: 04_REFERENCE_PHOTOS/biopolymer-nonoilen-fillamentum/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/biopolymer-nonoilen-fillamentum/material.json
+
+Breakaway Support for PA12 — Polymaker
+Source: https://shop.polymaker.com/products/polysupport
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolySupport-for-PA12_TDS_V5.3.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolySupport-for-PA12_TDS_V5.3.pdf
+EVA PRINT overview: 02_MATERIALS/breakaway-support-for-pa12-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/breakaway-support-for-pa12-polymaker.pdf | 05_TECHNICAL_DRAWINGS/breakaway-support-for-pa12-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/pw01002_pdt_isometric_top.png?v=1732040209
+Local private copy: 04_REFERENCE_PHOTOS/breakaway-support-for-pa12-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/pw01002_pdt_isometric_packaging.png?v=1732040209
+Local private copy: 04_REFERENCE_PHOTOS/breakaway-support-for-pa12-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/breakaway-support-for-pa12-polymaker/material.json
+
+Breakaway Support for PLA — Polymaker
+Source: https://shop.polymaker.com/products/polysupport-for-pla
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolySupport_TDS_V5.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolySupport_TDS_V5.1.pdf
+EVA PRINT overview: 02_MATERIALS/breakaway-support-for-pla-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/breakaway-support-for-pla-polymaker.pdf | 05_TECHNICAL_DRAWINGS/breakaway-support-for-pla-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/polysupport_spool.png?v=1732039888
+Local private copy: 04_REFERENCE_PHOTOS/breakaway-support-for-pla-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/polysupport_for_pla.png?v=1732039971
+Local private copy: 04_REFERENCE_PHOTOS/breakaway-support-for-pla-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/breakaway-support-for-pla-polymaker/material.json
+
+BVOH — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/support-en/bvoh-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/support-en/bvoh-en/
+EVA PRINT overview: 02_MATERIALS/bvoh-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/bvoh-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/bvoh-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/BVOH_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-bvoh-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/bvoh-fiberlogy/material.json
+
+CPE Carbon Fiber CF112 — Fillamentum
+Source: https://shop.fillamentum.com/products/cpe-cf112-carbon
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/TDS_CPE-CF112-Carbon.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/TDS_CPE-CF112-Carbon.pdf
+EVA PRINT overview: 02_MATERIALS/cpe-carbon-fiber-cf112-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/cpe-carbon-fiber-cf112-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/cpe-carbon-fiber-cf112-fillamentum.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/CPE_CF112_Carbon_Natural_1_75.jpg?v=1606719599
+Local private copy: 04_REFERENCE_PHOTOS/cpe-carbon-fiber-cf112-fillamentum/supplier-0.jpg
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/CPE_CF112_Carbon_Martin_B_01.jpg?v=1606719599
+Local private copy: 04_REFERENCE_PHOTOS/cpe-carbon-fiber-cf112-fillamentum/supplier-1.jpg
+Full English description and complete gallery: 02_MATERIALS/cpe-carbon-fiber-cf112-fillamentum/material.json
+
+CPE HG100 — Fillamentum
+Source: https://fillamentum.com/collections/cpe-cf112-carbon-filament
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_CPE-HG100_03012019.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_CPE-HG100_03012019.pdf
+EVA PRINT overview: 02_MATERIALS/cpe-hg100-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/cpe-hg100-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/cpe-hg100-fillamentum.dxf
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-32x32.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-cpe-cf112-carbon-filament/cropped-fav_fillamentum-32x32.png
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-192x192.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-cpe-cf112-carbon-filament/cropped-fav_fillamentum-192x192.png
+Full English description and complete gallery: 02_MATERIALS/cpe-hg100-fillamentum/material.json
+
+CPE HT — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/cpe-en/cpe-ht-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_CPEHT_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_CPEHT_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/cpe-ht-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/cpe-ht-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/cpe-ht-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/CPE_HT_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-cpe-ht-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/cpe-ht-fiberlogy/material.json
+
+CPE HT Silver Antibacterial — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/cpe-en/cpe-htag-antibac-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_CPEANTIBAC_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_CPEANTIBAC_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/cpe-ht-silver-antibacterial-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/cpe-ht-silver-antibacterial-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/cpe-ht-silver-antibacterial-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/CPE_HT_AG_ANTIBAC_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-cpe-htag-antibac-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/cpe-ht-silver-antibacterial-fiberlogy/material.json
+
+HIPS — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/hips-en/hips-hips-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_HIPS_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-hips-hips-en/FIBERLOGY_HIPS_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/hips-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/hips-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/hips-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/HIPS_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-hips-hips-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/hips-fiberlogy/material.json
+
+PA Nylon Aramid AF80 — Fillamentum
+Source: https://shop.fillamentum.com/products/nylon-af80-aramid-lockpad
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Nylon-AF80-Aramid.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_Nylon-AF80-Aramid.pdf
+EVA PRINT overview: 02_MATERIALS/pa-nylon-aramid-af80-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa-nylon-aramid-af80-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/pa-nylon-aramid-af80-fillamentum.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/bundles_nylonAF_pad.png?v=1612970229
+Local private copy: 04_REFERENCE_PHOTOS/pa-nylon-aramid-af80-fillamentum/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/10.png?v=1612970229
+Local private copy: 04_REFERENCE_PHOTOS/pa-nylon-aramid-af80-fillamentum/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa-nylon-aramid-af80-fillamentum/material.json
+
+PA Nylon Carbon Fiber CF15 — Fillamentum
+Source: https://shop.fillamentum.com/products/nylon-cf15-carbon-lockpad
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Nylon-CF15-Carbon_03012019.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_Nylon-CF15-Carbon_03012019.pdf
+EVA PRINT overview: 02_MATERIALS/pa-nylon-carbon-fiber-cf15-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa-nylon-carbon-fiber-cf15-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/pa-nylon-carbon-fiber-cf15-fillamentum.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/Carbon_lock.png?v=1674561791
+Local private copy: 04_REFERENCE_PHOTOS/pa-nylon-carbon-fiber-cf15-fillamentum/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/11.png?v=1674561791
+Local private copy: 04_REFERENCE_PHOTOS/pa-nylon-carbon-fiber-cf15-fillamentum/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa-nylon-carbon-fiber-cf15-fillamentum/material.json
+
+PA Nylon FX256 — Fillamentum
+Source: https://shop.fillamentum.com/products/nylon-fx256-lockpad
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Nylon-FX256.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_Nylon-FX256.pdf
+EVA PRINT overview: 02_MATERIALS/pa-nylon-fx256-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa-nylon-fx256-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/pa-nylon-fx256-fillamentum.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/Vinyl_lock.png?v=1674561861
+Local private copy: 04_REFERENCE_PHOTOS/pa-nylon-fx256-fillamentum/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/09.png?v=1674561861
+Local private copy: 04_REFERENCE_PHOTOS/pa-nylon-fx256-fillamentum/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa-nylon-fx256-fillamentum/material.json
+
+PA Nylon Recycled — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/nylon-en/rnylon-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_RNYLON_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-rnylon-en/FIBERLOGY_RNYLON_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pa-nylon-recycled-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa-nylon-recycled-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pa-nylon-recycled-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/rNYLON_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-rnylon-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pa-nylon-recycled-fiberlogy/material.json
+
+PA11 — Prusament
+Source: https://prusament.com/materials/prusament-pa11/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/08/2d2145fc-pa11_tds_eng.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pa11/2d2145fc-pa11_tds_eng.pdf
+EVA PRINT overview: 02_MATERIALS/pa11-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa11-prusament.pdf | 05_TECHNICAL_DRAWINGS/pa11-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/08/9d72b7ac-p7200750-scaled.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pa11/reference-2.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/08/90c8bcc6-padsc09605-scaled.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pa11/reference-1.jpg
+Full English description and complete gallery: 02_MATERIALS/pa11-prusament/material.json
+
+PA11 Carbon Fiber — Prusament
+Source: https://prusament.com/materials/prusament-pa11-nylon-carbon-fiber/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2022/08/TDS_PA11CFB.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pa11-nylon-carbon-fiber/TDS_PA11CFB.pdf
+EVA PRINT overview: 02_MATERIALS/pa11-carbon-fiber-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa11-carbon-fiber-prusament.pdf | 05_TECHNICAL_DRAWINGS/pa11-carbon-fiber-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2022/08/Pipes_1-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pa11-nylon-carbon-fiber/reference-1.jpg
+Reference image: https://prusament.com/wp-content/uploads/2022/08/Gear-Wheel_1-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pa11-nylon-carbon-fiber/reference-3.jpg
+Full English description and complete gallery: 02_MATERIALS/pa11-carbon-fiber-prusament/material.json
+
+PA12 Carbon Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/nylon-en/nylon-pa12cf-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/nylon-en/nylon-pa12cf-en/
+EVA PRINT overview: 02_MATERIALS/pa12-carbon-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa12-carbon-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pa12-carbon-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/NYLON_PA12_CF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-nylon-pa12cf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pa12-carbon-fiber-fiberlogy/material.json
+
+PA12 Carbon Fiber — Polymaker
+Source: https://shop.polymaker.com/products/fiberon-pa12-cf10
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyMide_PA12_CF_TDS_V5.1.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyMide_PA12_CF_TDS_V5.1.1.pdf
+EVA PRINT overview: 02_MATERIALS/pa12-carbon-fiber-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa12-carbon-fiber-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pa12-carbon-fiber-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG04001_Isometric_Top.png?v=1731685900
+Local private copy: 04_REFERENCE_PHOTOS/pa12-carbon-fiber-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/pa12-cf_square.png?v=1731089501
+Local private copy: 04_REFERENCE_PHOTOS/pa12-carbon-fiber-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa12-carbon-fiber-polymaker/material.json
+
+PA12 Glass Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/nylon-en/nylon-pa12gf-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_NYLONPA12GF15_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_NYLONPA12GF15_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pa12-glass-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa12-glass-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pa12-glass-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/NYLON_PA12_GF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-nylon-pa12gf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pa12-glass-fiber-fiberlogy/material.json
+
+PA12 Nylon — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/nylon-en/nylon-pa12-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_NYLONPA12_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-nylon-pa12-en/FIBERLOGY_NYLONPA12_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pa12-nylon-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa12-nylon-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pa12-nylon-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/NYLON_PA12_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-nylon-pa12-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pa12-nylon-fiberlogy/material.json
+
+PA6 Carbon Fiber — Polymaker
+Source: https://shop.polymaker.com/products/fiberon-pa6-cf20
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyMide_PA6_CF_TDS_V5.2.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyMide_PA6_CF_TDS_V5.2.pdf
+EVA PRINT overview: 02_MATERIALS/pa6-carbon-fiber-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa6-carbon-fiber-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pa6-carbon-fiber-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG03001_Isometric_Top.png?v=1721220020
+Local private copy: 04_REFERENCE_PHOTOS/pa6-carbon-fiber-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PolyMide-PA6-CF_1.75mm_0.5kg_Black_76256e1c-5432-4700-86da-b590929fd29c.png?v=1721220744
+Local private copy: 04_REFERENCE_PHOTOS/pa6-carbon-fiber-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa6-carbon-fiber-polymaker/material.json
+
+PA6 Glass Fiber — Polymaker
+Source: https://shop.polymaker.com/products/fiberon-pa6-gf25
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyMide_PA6_GF_TDS_V5.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyMide_PA6_GF_TDS_V5.1.pdf
+EVA PRINT overview: 02_MATERIALS/pa6-glass-fiber-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa6-glass-fiber-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pa6-glass-fiber-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG02001_Isometric_Top.png?v=1721220001
+Local private copy: 04_REFERENCE_PHOTOS/pa6-glass-fiber-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PolyMide-PA6-GF_1.75mm_0.5kg_Grey_53995563-cc65-4eb2-9395-eb067ffff38c.png?v=1721220761
+Local private copy: 04_REFERENCE_PHOTOS/pa6-glass-fiber-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa6-glass-fiber-polymaker/material.json
+
+PA6 PA66 Copolymer — Polymaker
+Source: https://shop.polymaker.com/products/polymide-copa
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyMide_CoPA_TDS_V5.2.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyMide_CoPA_TDS_V5.2.pdf
+EVA PRINT overview: 02_MATERIALS/pa6-pa66-copolymer-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa6-pa66-copolymer-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pa6-pa66-copolymer-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/copa_spool_square.png?v=1731102029
+Local private copy: 04_REFERENCE_PHOTOS/pa6-pa66-copolymer-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/polymide_copa_square.png?v=1731101964
+Local private copy: 04_REFERENCE_PHOTOS/pa6-pa66-copolymer-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa6-pa66-copolymer-polymaker/material.json
+
+PA612 Carbon Fiber — Polymaker
+Source: https://shop.polymaker.com/products/fiberon-pa612-cf
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyMide_PA612_CF_TDS_V5.3.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyMide_PA612_CF_TDS_V5.3.pdf
+EVA PRINT overview: 02_MATERIALS/pa612-carbon-fiber-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa612-carbon-fiber-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pa612-carbon-fiber-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG07001_Isometric_Top.png?v=1721220117
+Local private copy: 04_REFERENCE_PHOTOS/pa612-carbon-fiber-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PolyMide-PA612-CF_1.75mm_0.5kg_Black_648ac96d-3e5d-4c21-81f9-772605a3c8f2.png?v=1721221120
+Local private copy: 04_REFERENCE_PHOTOS/pa612-carbon-fiber-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa612-carbon-fiber-polymaker/material.json
+
+PA612 ESD — Polymaker
+Source: https://shop.polymaker.com/products/fiberon-pa612-esd
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/TDS_FIBERON-PA612-ESD_V1.0_EN-1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/TDS_FIBERON-PA612-ESD_V1.0_EN-1.pdf
+EVA PRINT overview: 02_MATERIALS/pa612-esd-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pa612-esd-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pa612-esd-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG08001_Isometric_Top.png?v=1741023904
+Local private copy: 04_REFERENCE_PHOTOS/pa612-esd-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FG08002_Isometric_Top.png?v=1741023931
+Local private copy: 04_REFERENCE_PHOTOS/pa612-esd-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pa612-esd-polymaker/material.json
+
+PC ABS — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/abs-en/pc-abs-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/abs-en/pc-abs-en/
+EVA PRINT overview: 02_MATERIALS/pc-abs-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pc-abs-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pc-abs-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PC_ABS_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pc-abs-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pc-abs-fiberlogy/material.json
+
+PC Blend — Prusament
+Source: https://prusament.com/materials/prusament-pc-blend/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2022/10/PCBlend_Prusament_TDS_2022_16_EN.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pc-blend/PCBlend_Prusament_TDS_2022_16_EN.pdf
+EVA PRINT overview: 02_MATERIALS/pc-blend-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pc-blend-prusament.pdf | 05_TECHNICAL_DRAWINGS/pc-blend-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2020/05/kolecka-1-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pc-blend/reference-1.jpg
+Reference image: https://prusament.com/wp-content/uploads/2020/05/fan_shroud-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pc-blend/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/pc-blend-prusament/material.json
+
+PC Blend Carbon Fiber — Prusament
+Source: https://prusament.com/materials/prusament-pc-blend-carbon-fiber/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/04/TDS_Prusament-PCCF_2023_EN.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pc-blend-carbon-fiber/TDS_Prusament-PCCF_2023_EN.pdf
+EVA PRINT overview: 02_MATERIALS/pc-blend-carbon-fiber-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pc-blend-carbon-fiber-prusament.pdf | 05_TECHNICAL_DRAWINGS/pc-blend-carbon-fiber-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2021/06/DSC_5815_ctverec-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pc-blend-carbon-fiber/reference-1.jpg
+Reference image: https://prusament.com/wp-content/uploads/2021/06/DSC_5755_ctverec-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pc-blend-carbon-fiber/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/pc-blend-carbon-fiber-prusament/material.json
+
+PC Flame Retardant — 3DXTECH
+Source: https://www.3dxtech.com/products/3dxlabs%E2%84%A2-fr-pc
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXLABS_FR-PC_TDS_v0.1.pdf?v=1763685951
+Local copy: 06_DATASHEETS/3dxtech-3dxlabs-e2-84-a2-fr-pc/3DXLABS_FR-PC_TDS_v0.1.pdf
+EVA PRINT overview: 02_MATERIALS/pc-flame-retardant-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pc-flame-retardant-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/pc-flame-retardant-3dxtech.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXLABS-FR-PC-Black.jpg?v=1763674616
+Local private copy: 04_REFERENCE_PHOTOS/pc-flame-retardant-3dxtech/manufacturer-0.jpg
+Reference image: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXLABS-FR-PC-Orange.jpg?v=1763674616
+Local private copy: 04_REFERENCE_PHOTOS/pc-flame-retardant-3dxtech/manufacturer-1.jpg
+Full English description and complete gallery: 02_MATERIALS/pc-flame-retardant-3dxtech/material.json
+
+PC Flame Retardant — Polymaker
+Source: https://shop.polymaker.com/products/polymax-pc-fr
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyMax_PC_FR_TDS_V5.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyMax_PC_FR_TDS_V5.1.pdf
+EVA PRINT overview: 02_MATERIALS/pc-flame-retardant-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pc-flame-retardant-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pc-flame-retardant-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/pc-fr_black.png?v=1732037700
+Local private copy: 04_REFERENCE_PHOTOS/pc-flame-retardant-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/pc-fr_black_square.png?v=1731348949
+Local private copy: 04_REFERENCE_PHOTOS/pc-flame-retardant-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pc-flame-retardant-polymaker/material.json
+
+PC PBT — Polymaker
+Source: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/Polymaker_PC_PBT_TDS_V5.1.pdf
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/Polymaker_PC_PBT_TDS_V5.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/Polymaker_PC_PBT_TDS_V5.1.pdf
+EVA PRINT overview: 02_MATERIALS/pc-pbt-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pc-pbt-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pc-pbt-polymaker.dxf
+No exact-grade supplier photograph was retrieved. Use the original conceptual PNG: 05_TECHNICAL_DRAWINGS/pc-pbt-polymaker.png
+Full English description and complete gallery: 02_MATERIALS/pc-pbt-polymaker/material.json
+
+PC Space Grade — Prusament
+Source: https://prusament.com/materials/prusament-pc-space-grade/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/09/e032493a-tds_pc_space_grade_en.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pc-space-grade/e032493a-tds_pc_space_grade_en.pdf
+EVA PRINT overview: 02_MATERIALS/pc-space-grade-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pc-space-grade-prusament.pdf | 05_TECHNICAL_DRAWINGS/pc-space-grade-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/09/0607c297-new_dsc5283-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pc-space-grade/reference-3.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/09/f0a546b0-dsc5399-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pc-space-grade/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/pc-space-grade-prusament/material.json
+
+PCTG — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pctg-en/pctg-pctg-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTG_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-pctg-pctg-en/FIBERLOGY_PCTG_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pctg-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pctg-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pctg-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PCTG_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pctg-pctg-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pctg-fiberlogy/material.json
+
+PCTG Carbon Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pctg-en/pctgcf-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PCTGCF_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_PCTGCF_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pctg-carbon-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pctg-carbon-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pctg-carbon-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PCTGCF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pctgcf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pctg-carbon-fiber-fiberlogy/material.json
+
+PCTG Glass Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pctg-en/pctggf-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/pctg-en/pctggf-en/
+EVA PRINT overview: 02_MATERIALS/pctg-glass-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pctg-glass-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pctg-glass-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PCTGGF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pctggf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pctg-glass-fiber-fiberlogy/material.json
+
+PEBA 90A — 3DXTECH
+Source: https://www.3dxtech.com/products/3dxlabs-peba-90a
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXLABS_TDS_-_PEBA_90A_v0.2.pdf?v=1777317583
+Local copy: 06_DATASHEETS/3dxtech-3dxlabs-peba-90a/3DXLABS_TDS_-_PEBA_90A_v0.2.pdf
+EVA PRINT overview: 02_MATERIALS/peba-90a-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/peba-90a-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/peba-90a-3dxtech.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/PEBA-Black-WEB.webp?v=1777317311
+Local private copy: 04_REFERENCE_PHOTOS/peba-90a-3dxtech/manufacturer-0.webp
+Reference image: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/PEBA-Natural_v2.png?v=1778246780
+Local private copy: 04_REFERENCE_PHOTOS/peba-90a-3dxtech/manufacturer-1.png
+Full English description and complete gallery: 02_MATERIALS/peba-90a-3dxtech/material.json
+
+PEBA 90A — Fillamentum
+Source: https://fillamentum.com/collections/flexfill-tpe-flexible-filament
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/TDS_Flexfill-PEBA-90A_EN.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/TDS_Flexfill-PEBA-90A_EN.pdf
+EVA PRINT overview: 02_MATERIALS/peba-90a-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/peba-90a-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/peba-90a-fillamentum.dxf
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-32x32.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-flexfill-tpe-flexible-filament/cropped-fav_fillamentum-32x32.png
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-192x192.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-flexfill-tpe-flexible-filament/cropped-fav_fillamentum-192x192.png
+Full English description and complete gallery: 02_MATERIALS/peba-90a-fillamentum/material.json
+
+PEEK — 3DXTECH
+Source: https://www.3dxtech.com/products/thermax-peek-1
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/Themax_PEEK_TDS_v3.pdf?v=1723942765
+Local copy: 06_DATASHEETS/3dxtech-thermax-peek-1/Themax_PEEK_TDS_v3.pdf
+EVA PRINT overview: 02_MATERIALS/peek-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/peek-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/peek-3dxtech.dxf
+Reference image: https://www.3dxtech.com/cdn/shop/files/442-PEEK-175mm-Natural-500g-3D-Printer-Filament.png?v=1722621391&width=1946
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-thermax-peek-1/reference-1.png
+Reference image: https://www.3dxtech.com/cdn/shop/files/442-PEEK-175mm-Natural-500g-3D-Printer-Filament.png?v=1722621391&width=800
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-thermax-peek-1/reference-2.png
+Full English description and complete gallery: 02_MATERIALS/peek-3dxtech/material.json
+
+PEI 1010 — Prusament
+Source: https://prusament.com/materials/prusament-pei-1010/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/09/53ee8f5e-tds_prusament_pei-1010_en.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pei-1010/53ee8f5e-tds_prusament_pei-1010_en.pdf
+EVA PRINT overview: 02_MATERIALS/pei-1010-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pei-1010-prusament.pdf | 05_TECHNICAL_DRAWINGS/pei-1010-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/07/5c7c131e-564f-4a0e-bae3-91103cb873af-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pei-1010/reference-2.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/07/43fdd9a9-0dd0-47fa-9d95-f9428a6255fa-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pei-1010/reference-3.jpg
+Full English description and complete gallery: 02_MATERIALS/pei-1010-prusament/material.json
+
+PEI 9085 — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pei-en/pei-9085-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PEI9085_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-pei-9085-en/FIBERLOGY_PEI9085_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pei-9085-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pei-9085-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pei-9085-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PEI_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pei-9085-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pei-9085-fiberlogy/material.json
+
+PET Carbon Fiber — 3DXTECH
+Source: https://www.3dxtech.com/products/3dxlabs-pet-cf
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXLABS_TDS_-_PET_CF_v0.2.pdf?v=1788453541
+Local copy: 06_DATASHEETS/3dxtech-3dxlabs-pet-cf/3DXLABS_TDS_-_PET_CF_v0.2.pdf
+EVA PRINT overview: 02_MATERIALS/pet-carbon-fiber-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pet-carbon-fiber-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/pet-carbon-fiber-3dxtech.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/PET-CFLaunch.png?v=1788449078
+Local private copy: 04_REFERENCE_PHOTOS/pet-carbon-fiber-3dxtech/manufacturer-0.png
+Full English description and complete gallery: 02_MATERIALS/pet-carbon-fiber-3dxtech/material.json
+
+PET Carbon Fiber — Polymaker
+Source: https://shop.polymaker.com/products/fiberon-pet-cf17
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/TDS_FIBERON-PET-CF17_V1.0_EN.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/TDS_FIBERON-PET-CF17_V1.0_EN.pdf
+EVA PRINT overview: 02_MATERIALS/pet-carbon-fiber-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pet-carbon-fiber-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pet-carbon-fiber-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FL01001_Isometric_Top.png?v=1721220229
+Local private copy: 04_REFERENCE_PHOTOS/pet-carbon-fiber-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/pet-cf_square.png?v=1731089800
+Local private copy: 04_REFERENCE_PHOTOS/pet-carbon-fiber-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pet-carbon-fiber-polymaker/material.json
+
+PETG — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/petg-en/easy-petg-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_EASYPETG_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-easy-petg-en/FIBERLOGY_EASYPETG_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/petg-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/petg-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/EASY_PETG_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-easy-petg-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/petg-fiberlogy/material.json
+
+PETG — Prusament
+Source: https://prusament.com/materials/prusament-petg/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2023/10/9f8d2165-tds_prusament-petg_n_en.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-petg/9f8d2165-tds_prusament-petg_n_en.pdf
+EVA PRINT overview: 02_MATERIALS/petg-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-prusament.pdf | 05_TECHNICAL_DRAWINGS/petg-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2018/09/clamp-1-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg/reference-2.jpg
+Reference image: https://prusament.com/wp-content/uploads/2018/09/1125-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg/reference-1.jpg
+Full English description and complete gallery: 02_MATERIALS/petg-prusament/material.json
+
+PETG Carbon Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/petg-en/petgcf-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/petg-en/petgcf-en/
+EVA PRINT overview: 02_MATERIALS/petg-carbon-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-carbon-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/petg-carbon-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PETG_CF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-petgcf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/petg-carbon-fiber-fiberlogy/material.json
+
+PETG Carbon Fiber — Prusament
+Source: https://prusament.com/materials/prusament-petg-carbon-fiber/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/02/TDS_Prusament-PETG-CF-Black.zip
+Local copy: 06_DATASHEETS/prusament-prusament-petg-carbon-fiber/TDS_Prusament-PETG-CF-Black_extracted/TDS_Prusament PETG-CF Black_CS.pdf
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/02/TDS_Prusament-PETG-CF-Black.zip
+Local copy: 06_DATASHEETS/prusament-prusament-petg-carbon-fiber/TDS_Prusament-PETG-CF-Black_extracted/TDS_Prusament PETG-CF Black_DE.pdf
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/02/TDS_Prusament-PETG-CF-Black.zip
+Local copy: 06_DATASHEETS/prusament-prusament-petg-carbon-fiber/TDS_Prusament-PETG-CF-Black_extracted/TDS_Prusament PETG-CF Black_EN.pdf
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/02/TDS_Prusament-PETG-CF-Black.zip
+Local copy: 06_DATASHEETS/prusament-prusament-petg-carbon-fiber/TDS_Prusament-PETG-CF-Black_extracted/TDS_Prusament PETG-CF Black_ES.pdf
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/02/TDS_Prusament-PETG-CF-Black.zip
+Local copy: 06_DATASHEETS/prusament-prusament-petg-carbon-fiber/TDS_Prusament-PETG-CF-Black_extracted/TDS_Prusament PETG-CF Black_FR.pdf
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/02/TDS_Prusament-PETG-CF-Black.zip
+Local copy: 06_DATASHEETS/prusament-prusament-petg-carbon-fiber/TDS_Prusament-PETG-CF-Black_extracted/TDS_Prusament PETG-CF Black_IT.pdf
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/02/TDS_Prusament-PETG-CF-Black.zip
+Local copy: 06_DATASHEETS/prusament-prusament-petg-carbon-fiber/TDS_Prusament-PETG-CF-Black_extracted/TDS_Prusament PETG-CF Black_PL.pdf
+EVA PRINT overview: 02_MATERIALS/petg-carbon-fiber-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-carbon-fiber-prusament.pdf | 05_TECHNICAL_DRAWINGS/petg-carbon-fiber-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2023/02/Gearbox-550-by-Paragon.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-carbon-fiber/reference-1.jpg
+Reference image: https://prusament.com/wp-content/uploads/2023/02/CF_Technical-models-1.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-carbon-fiber/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/petg-carbon-fiber-prusament/material.json
+
+PETG ESD — 3DXTECH
+Source: https://www.3dxtech.com/products/3dxstat-esd-petg-1
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXSTAT_ESD-PETG-TDS-v03.pdf?v=1723942764
+Local copy: 06_DATASHEETS/3dxtech-3dxstat-esd-petg-1/3DXSTAT_ESD-PETG-TDS-v03.pdf
+EVA PRINT overview: 02_MATERIALS/petg-esd-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-esd-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/petg-esd-3dxtech.dxf
+Reference image: https://www.3dxtech.com/cdn/shop/files/97-ESD-PETG-175mm-Black-1kg-3D-Printer-Filament.png?v=1722621048&width=1946
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-3dxstat-esd-petg-1/reference-1.png
+Reference image: https://www.3dxtech.com/cdn/shop/files/97-ESD-PETG-175mm-Black-1kg-3D-Printer-Filament.png?v=1722621048&width=800
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-3dxstat-esd-petg-1/reference-2.png
+Full English description and complete gallery: 02_MATERIALS/petg-esd-3dxtech/material.json
+
+PETG ESD — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/petg-en/petg-esd-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/petg-en/petg-esd-en/
+EVA PRINT overview: 02_MATERIALS/petg-esd-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-esd-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/petg-esd-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PETG_ESD_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-petg-esd-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/petg-esd-fiberlogy/material.json
+
+PETG FR V0 — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/petg-en/petg-fr-v0-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PETGV0_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-petg-fr-v0-en/FIBERLOGY_PETGV0_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/petg-fr-v0-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-fr-v0-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/petg-fr-v0-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PETG_FR_V0_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-petg-fr-v0-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/petg-fr-v0-fiberlogy/material.json
+
+PETG Magnetite 40 percent — Prusament
+Source: https://prusament.com/materials/prusament-petg-magnetite-40/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/01/7cdc9586-technical-data-sheet-2.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-petg-magnetite-40/7cdc9586-technical-data-sheet-2.pdf
+EVA PRINT overview: 02_MATERIALS/petg-magnetite-40-percent-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-magnetite-40-percent-prusament.pdf | 05_TECHNICAL_DRAWINGS/petg-magnetite-40-percent-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/01/8b734f75-case2-cuttingknife-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-magnetite-40/reference-3.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/01/f18ebcbc-ntd_1387-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-magnetite-40/reference-4.jpg
+Full English description and complete gallery: 02_MATERIALS/petg-magnetite-40-percent-prusament/material.json
+
+PETG Matte — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/petg-en/petg-matte-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/petg-en/petg-matte-en/
+EVA PRINT overview: 02_MATERIALS/petg-matte-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-matte-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/petg-matte-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PETG_MATTE_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-petg-matte-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/petg-matte-fiberlogy/material.json
+
+PETG Production Grade — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/fiberworks/fiberworks-petg/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/08/FiberWORKS-PETG-TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-fiberworks-petg/FiberWORKS-PETG-TDS.pdf
+EVA PRINT overview: 02_MATERIALS/petg-production-grade-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-production-grade-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/petg-production-grade-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/08/FIBERWORKS_PLA-175-100_Black_RAL_9005_front-2.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-fiberworks-petg/reference-3.webp
+Reference image: https://fiberlogy.com/app/uploads/2026/08/RAL_Colors.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-fiberworks-petg/reference-2.webp
+Full English description and complete gallery: 02_MATERIALS/petg-production-grade-fiberlogy/material.json
+
+PETG PTFE — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/petg-en/petgptfe-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/petg-en/petgptfe-en/
+EVA PRINT overview: 02_MATERIALS/petg-ptfe-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-ptfe-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/petg-ptfe-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PETG_PTFE_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-petgptfe-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/petg-ptfe-fiberlogy/material.json
+
+PETG Recycled — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/petg-en/rpetg-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_RPETG_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_RPETG_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/petg-recycled-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-recycled-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/petg-recycled-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/rPETG_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-rpetg-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/petg-recycled-fiberlogy/material.json
+
+PETG Recycled — Prusament
+Source: https://prusament.com/materials/prusament-petg-recycled/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2022/03/8_PETG_RECYCLED_Prusament_TDS_2022.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-petg-recycled/8_PETG_RECYCLED_Prusament_TDS_2022.pdf
+EVA PRINT overview: 02_MATERIALS/petg-recycled-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-recycled-prusament.pdf | 05_TECHNICAL_DRAWINGS/petg-recycled-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2022/03/rPETG_holder_3-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-recycled/reference-2.jpg
+Reference image: https://prusament.com/wp-content/uploads/2022/03/rPETG_jug-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-recycled/reference-3.jpg
+Full English description and complete gallery: 02_MATERIALS/petg-recycled-prusament/material.json
+
+PETG Recycled Carbon Fiber — Polymaker
+Source: https://shop.polymaker.com/products/fiberon-petg-rcf08
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/TDS_FIBERON-PETG-rCF08_V1.0_EN.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/TDS_FIBERON-PETG-rCF08_V1.0_EN.pdf
+EVA PRINT overview: 02_MATERIALS/petg-recycled-carbon-fiber-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-recycled-carbon-fiber-polymaker.pdf | 05_TECHNICAL_DRAWINGS/petg-recycled-carbon-fiber-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/FB04001_Isometric_Top_199b2b3c-5cee-4a95-8c40-d79ced66ad86.png?v=1721569410
+Local private copy: 04_REFERENCE_PHOTOS/petg-recycled-carbon-fiber-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/petg-rcf_square.png?v=1731089940
+Local private copy: 04_REFERENCE_PHOTOS/petg-recycled-carbon-fiber-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/petg-recycled-carbon-fiber-polymaker/material.json
+
+PETG Tungsten 75 percent — Prusament
+Source: https://prusament.com/materials/prusament-petg-tungsten-75/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/03/TDS_Prusament-PETG-Tungsten-75_EN-1.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-petg-tungsten-75/TDS_Prusament-PETG-Tungsten-75_EN-1.pdf
+EVA PRINT overview: 02_MATERIALS/petg-tungsten-75-percent-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-tungsten-75-percent-prusament.pdf | 05_TECHNICAL_DRAWINGS/petg-tungsten-75-percent-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2023/03/Uvodni_model_disassembled_02-544x408.png
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-tungsten-75/reference-2.png
+Reference image: https://prusament.com/wp-content/uploads/2023/03/Uvodni_model_disassembled_02-1024x1024.png
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-tungsten-75/reference-1.png
+Full English description and complete gallery: 02_MATERIALS/petg-tungsten-75-percent-prusament/material.json
+
+PETG Ultraglow — Prusament
+Source: https://prusament.com/materials/prusament-petg-ultraglow/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/05/a150c178-prusament-petg-ultraglow-filament-technical-data-sheet.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-petg-ultraglow/a150c178-prusament-petg-ultraglow-filament-technical-data-sheet.pdf
+EVA PRINT overview: 02_MATERIALS/petg-ultraglow-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-ultraglow-prusament.pdf | 05_TECHNICAL_DRAWINGS/petg-ultraglow-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/05/152a340c-2-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-ultraglow/reference-1.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/05/309aa266-4-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-ultraglow/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/petg-ultraglow-prusament/material.json
+
+PETG V0 — Prusament
+Source: https://prusament.com/materials/prusament-petg-v0/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2023/07/PETG_V0_ENG.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-petg-v0/PETG_V0_ENG.pdf
+EVA PRINT overview: 02_MATERIALS/petg-v0-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/petg-v0-prusament.pdf | 05_TECHNICAL_DRAWINGS/petg-v0-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2023/07/Rpi-black-copy-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-v0/reference-1.jpg
+Reference image: https://prusament.com/wp-content/uploads/2023/07/Krytka-copy-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-petg-v0/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/petg-v0-prusament/material.json
+
+PLA — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/easy-pla-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_EASYPLA_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-easy-pla-en/FIBERLOGY_EASYPLA_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/08/EASY-PLA_PRINT_1024x1024-2.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-easy-pla-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-fiberlogy/material.json
+
+PLA — Prusament
+Source: https://prusament.com/materials/pla/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA/1_PLA_Prusament_TDS_2022_CZ.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA/1_PLA_Prusament_TDS_2022_DE.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA/1_PLA_Prusament_TDS_2022_EN.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA/1_PLA_Prusament_TDS_2022_ES.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA/1_PLA_Prusament_TDS_2022_FR.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA/1_PLA_Prusament_TDS_2022_IT.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA/1_PLA_Prusament_TDS_2022_JP.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA/1_PLA_Prusament_TDS_2022_PL.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA Blend/TDS_Prusament_PLA-Blend_CZ.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA Blend/TDS_Prusament_PLA-Blend_DE.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA Blend/TDS_Prusament_PLA-Blend_EN.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA Blend/TDS_Prusament_PLA-Blend_ES.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA Blend/TDS_Prusament_PLA-Blend_FR.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA Blend/TDS_Prusament_PLA-Blend_IT.pdf
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/05/7ca620c4-prusament-pla-plablend.zip
+Local copy: 06_DATASHEETS/prusament-pla/7ca620c4-prusament-pla-plablend_extracted/Prusament PLA Blend/TDS_Prusament_PLA-Blend_PL.pdf
+EVA PRINT overview: 02_MATERIALS/pla-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-prusament.pdf | 05_TECHNICAL_DRAWINGS/pla-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/10/945a684f-3b2b-4627-8726-2ca319a5ee44-scaled.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-pla/reference-4.jpg
+Full English description and complete gallery: 02_MATERIALS/pla-prusament/material.json
+
+PLA Carbon Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/placf-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/pla-en/placf-en/
+EVA PRINT overview: 02_MATERIALS/pla-carbon-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-carbon-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-carbon-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PLA_CF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-placf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-carbon-fiber-fiberlogy/material.json
+
+PLA Carbon Fiber — Polymaker
+Source: https://shop.polymaker.com/products/polylite-pla-cf
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyLite_PLA-CF_TDS_US_5.3.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyLite_PLA-CF_TDS_US_5.3.pdf
+EVA PRINT overview: 02_MATERIALS/pla-carbon-fiber-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-carbon-fiber-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pla-carbon-fiber-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PLA-CF_Square.png?v=1732055340
+Local private copy: 04_REFERENCE_PHOTOS/pla-carbon-fiber-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/pla-cf_scientist_square.png?v=1731352191
+Local private copy: 04_REFERENCE_PHOTOS/pla-carbon-fiber-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pla-carbon-fiber-polymaker/material.json
+
+PLA Crystal Clear — Fillamentum
+Source: https://fillamentum.com/collections/pla-crystal-clear-filament
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_PLA-Crystal-Clear_03012019.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_PLA-Crystal-Clear_03012019.pdf
+EVA PRINT overview: 02_MATERIALS/pla-crystal-clear-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-crystal-clear-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/pla-crystal-clear-fillamentum.dxf
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-32x32.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-pla-crystal-clear-filament/cropped-fav_fillamentum-32x32.png
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-192x192.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-pla-crystal-clear-filament/cropped-fav_fillamentum-192x192.png
+Full English description and complete gallery: 02_MATERIALS/pla-crystal-clear-fillamentum/material.json
+
+PLA ESD — 3DXTECH
+Source: https://www.3dxtech.com/products/3dxstat-esd-pla-1
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/3DXTECH_TDS_-_ESD-PLA_v1.0.pdf?v=1761064896
+Local copy: 06_DATASHEETS/3dxtech-3dxstat-esd-pla-1/3DXTECH_TDS_-_ESD-PLA_v1.0.pdf
+EVA PRINT overview: 02_MATERIALS/pla-esd-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-esd-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/pla-esd-3dxtech.dxf
+Reference image: https://www.3dxtech.com/cdn/shop/files/393-ESD-PLA-175mm-Black-1kg-3D-Printer-Filament.png?v=1722621056&width=1946
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-3dxstat-esd-pla-1/reference-1.png
+Reference image: https://www.3dxtech.com/cdn/shop/files/393-ESD-PLA-175mm-Black-1kg-3D-Printer-Filament.png?v=1722621056&width=800
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-3dxstat-esd-pla-1/reference-2.png
+Full English description and complete gallery: 02_MATERIALS/pla-esd-3dxtech/material.json
+
+PLA High Speed — Prusament
+Source: https://prusament.com/materials/prusament-pla-high-speed/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/06/269cd3c8-prusament-pla-hs-technical-datasheet.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pla-high-speed/269cd3c8-prusament-pla-hs-technical-datasheet.pdf
+EVA PRINT overview: 02_MATERIALS/pla-high-speed-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-high-speed-prusament.pdf | 05_TECHNICAL_DRAWINGS/pla-high-speed-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/06/6bd43723-obrazek_2026-06-24_095448610-544x408.png
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pla-high-speed/reference-1.png
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2026/06/57cc19c2-obrazek_2026-06-24_095538936-544x408.png
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pla-high-speed/reference-2.png
+Full English description and complete gallery: 02_MATERIALS/pla-high-speed-prusament/material.json
+
+PLA High Speed Clear — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/hs-pla-clear-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_HSPLACLEAR_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-hs-pla-clear-en/FIBERLOGY_HSPLACLEAR_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-high-speed-clear-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-high-speed-clear-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-high-speed-clear-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/08/HS_PLA_CLEAR_PRINT_1024x1024-1.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-hs-pla-clear-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-high-speed-clear-fiberlogy/material.json
+
+PLA High Temperature — Polymaker
+Source: https://shop.polymaker.com/products/polymaker-ht-pla
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/Polymaker-HT-PLA_TDS_EN_V1.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/Polymaker-HT-PLA_TDS_EN_V1.1.pdf
+EVA PRINT overview: 02_MATERIALS/pla-high-temperature-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-high-temperature-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pla-high-temperature-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PA17012_Isometric_Top.png?v=1748364916
+Local private copy: 04_REFERENCE_PHOTOS/pla-high-temperature-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/square_ht-pla_fire.png?v=1767448929
+Local private copy: 04_REFERENCE_PHOTOS/pla-high-temperature-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pla-high-temperature-polymaker/material.json
+
+PLA High Temperature Glass Fiber — Polymaker
+Source: https://shop.polymaker.com/products/polymaker-ht-pla-gf
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/Polymaker-HT-PLA-GF_TDS_EN_V1.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/Polymaker-HT-PLA-GF_TDS_EN_V1.1.pdf
+EVA PRINT overview: 02_MATERIALS/pla-high-temperature-glass-fiber-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-high-temperature-glass-fiber-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pla-high-temperature-glass-fiber-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PA18009_Isometric_Top.png?v=1748364933
+Local private copy: 04_REFERENCE_PHOTOS/pla-high-temperature-glass-fiber-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/square_ht-pla-gf_power_tool_teal.png?v=1767448910
+Local private copy: 04_REFERENCE_PHOTOS/pla-high-temperature-glass-fiber-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pla-high-temperature-glass-fiber-polymaker/material.json
+
+PLA Impact — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/pla-impact-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_IMPACT-PLA_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-pla-impact-en/FIBERLOGY_IMPACT-PLA_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-impact-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-impact-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-impact-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PLA_IMPACT_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pla-impact-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-impact-fiberlogy/material.json
+
+PLA Lightweight — colorFabb
+Source: https://colorfabb.com/lw-pla
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyLite_LW-PLA_TDS_US_5.3.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyLite_LW-PLA_TDS_US_5.3.pdf
+Manufacturer TDS: https://colorfabb.com/media/datasheets/tds/colorfabb/TDS_E_ColorFabb_LW-PLA.pdf
+Local copy: 06_DATASHEETS/colorfabb/TDS_LW-PLA.pdf
+EVA PRINT overview: 02_MATERIALS/pla-lightweight-colorfabb/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-lightweight-colorfabb.pdf | 05_TECHNICAL_DRAWINGS/pla-lightweight-colorfabb.dxf
+Reference image: https://colorfabb.com/media/nav-value.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-lw-pla/nav-value.png
+Reference image: https://colorfabb.com/media/nav-shoe.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-lw-pla/nav-shoe.png
+Full English description and complete gallery: 02_MATERIALS/pla-lightweight-colorfabb/material.json
+
+PLA Lightweight — Polymaker
+Source: https://shop.polymaker.com/products/polylite-lw-pla
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyLite_LW-PLA_TDS_US_5.3.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyLite_LW-PLA_TDS_US_5.3.pdf
+EVA PRINT overview: 02_MATERIALS/pla-lightweight-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-lightweight-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pla-lightweight-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/PA08007_PDT_Isometric_Top.png?v=1732055040
+Local private copy: 04_REFERENCE_PHOTOS/pla-lightweight-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/orange_lwpla_square.png?v=1731355769
+Local private copy: 04_REFERENCE_PHOTOS/pla-lightweight-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pla-lightweight-polymaker/material.json
+
+PLA Matte — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/pla-matte-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_MATTEPLA_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_MATTEPLA_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-matte-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-matte-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-matte-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PLA_MATTE_PRINT_1024x1024-768x768.webp
+Local private copy: 04_REFERENCE_PHOTOS/pla-matte-fiberlogy/reference-0.webp
+Full English description and complete gallery: 02_MATERIALS/pla-matte-fiberlogy/material.json
+
+PLA Mineral — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/pla-mineral-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_PLAMINERAL_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-pla-mineral-en/FIBERLOGY_PLAMINERAL_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-mineral-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-mineral-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-mineral-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/08/PLA_MINERAL_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pla-mineral-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-mineral-fiberlogy/material.json
+
+PLA PHA Blend — colorFabb
+Source: https://colorfabb.com/pla-pha
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://colorfabb.com/pla-pha
+EVA PRINT overview: 02_MATERIALS/pla-pha-blend-colorfabb/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-pha-blend-colorfabb.pdf | 05_TECHNICAL_DRAWINGS/pla-pha-blend-colorfabb.dxf
+Reference image: https://colorfabb.com/media/wysiwyg/QualitySysCert_ISO9001_col_kopie.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-pla-pha/QualitySysCert_ISO9001_col_kopie.png
+Reference image: https://colorfabb.com/media/nav-shoe.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-pla-pha/nav-shoe.png
+Full English description and complete gallery: 02_MATERIALS/pla-pha-blend-colorfabb/material.json
+
+PLA PHA Bronze Fill — colorFabb
+Source: https://colorfabb.com/bronzefill
+Manufacturer TDS: https://colorfabb.com/media/datasheets/tds/colorfabb/TDS_E_ColorFabb_BronzeFill.pdf
+Local copy: 06_DATASHEETS/colorfabb/TDS_BronzeFill.pdf
+EVA PRINT overview: 02_MATERIALS/pla-pha-bronze-fill-colorfabb/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-pha-bronze-fill-colorfabb.pdf | 05_TECHNICAL_DRAWINGS/pla-pha-bronze-fill-colorfabb.dxf
+Reference image: https://colorfabb.com/media/catalog/product/p/l/pla_bronzefill.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-bronzefill/pla_bronzefill.png
+Reference image: https://colorfabb.com/media/nav-value.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-bronzefill/nav-value.png
+Full English description and complete gallery: 02_MATERIALS/pla-pha-bronze-fill-colorfabb/material.json
+
+PLA PHA Copper Fill — colorFabb
+Source: https://colorfabb.com/copperfill
+Manufacturer TDS: https://colorfabb.com/media/datasheets/tds/colorfabb/TDS_E_ColorFabb_CopperFill.pdf
+Local copy: 06_DATASHEETS/colorfabb/TDS_CopperFill.pdf
+EVA PRINT overview: 02_MATERIALS/pla-pha-copper-fill-colorfabb/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-pha-copper-fill-colorfabb.pdf | 05_TECHNICAL_DRAWINGS/pla-pha-copper-fill-colorfabb.dxf
+Reference image: https://colorfabb.com/media/nav-shoe.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-copperfill/nav-shoe.png
+Reference image: https://colorfabb.com/media/nav-value.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-copperfill/nav-value.png
+Full English description and complete gallery: 02_MATERIALS/pla-pha-copper-fill-colorfabb/material.json
+
+PLA PHA Steel Fill — colorFabb
+Source: https://colorfabb.com/steelfill
+Manufacturer TDS: https://colorfabb.com/media/datasheets/tds/colorfabb/TDS_E_ColorFabb_SteelFill.pdf
+Local copy: 06_DATASHEETS/colorfabb/TDS_SteelFill.pdf
+EVA PRINT overview: 02_MATERIALS/pla-pha-steel-fill-colorfabb/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-pha-steel-fill-colorfabb.pdf | 05_TECHNICAL_DRAWINGS/pla-pha-steel-fill-colorfabb.dxf
+Reference image: https://colorfabb.com/media/nav-shoe.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-steelfill/nav-shoe.png
+Reference image: https://colorfabb.com/media/nav-colors.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-steelfill/nav-colors.png
+Full English description and complete gallery: 02_MATERIALS/pla-pha-steel-fill-colorfabb/material.json
+
+PLA Production Grade — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/fiberworks/fiberworks-pla/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/08/FiberWORKS-PLA-TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-fiberworks-pla/FiberWORKS-PLA-TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-production-grade-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-production-grade-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-production-grade-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/08/FIBERWORKS_PLA-175-100_Black_RAL_9005_side_2-300x300.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-fiberworks-pla/reference-4.webp
+Reference image: https://fiberlogy.com/app/uploads/2026/08/FIBERWORKS_PLA-175-100_Gray_RAL_7042_side_2.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-fiberworks-pla/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-production-grade-fiberlogy/material.json
+
+PLA Recycled — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/rpla-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_RPLA_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-rpla-en/FIBERLOGY_RPLA_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-recycled-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-recycled-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-recycled-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/rPLA_PRINT_1024x1024-1.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-rpla-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-recycled-fiberlogy/material.json
+
+PLA Recycled — Prusament
+Source: https://prusament.com/materials/prusament-pla-recycled/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2021/12/7_PLA-Recycled_Prusament_TDS_2021_V4.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pla-recycled/7_PLA-Recycled_Prusament_TDS_2021_V4.pdf
+EVA PRINT overview: 02_MATERIALS/pla-recycled-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-recycled-prusament.pdf | 05_TECHNICAL_DRAWINGS/pla-recycled-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2018/07/adam_1080_510-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pla-recycled/reference-1.jpg
+Reference image: https://prusament.com/wp-content/uploads/2018/07/jewelry-1-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pla-recycled/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/pla-recycled-prusament/material.json
+
+PLA Recycled Natural Pigments — Prusament
+Source: https://prusament.com/materials/prusament-rpla/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2023/11/0eaa8597-prusament-rpla-natural-pigments-technical-data-sheet.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-rpla/0eaa8597-prusament-rpla-natural-pigments-technical-data-sheet.pdf
+EVA PRINT overview: 02_MATERIALS/pla-recycled-natural-pigments-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-recycled-natural-pigments-prusament.pdf | 05_TECHNICAL_DRAWINGS/pla-recycled-natural-pigments-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2023/11/9be812c9-pots_09-allcolors-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-rpla/reference-2.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2023/11/28f99255-2023-10-16-prusa-organics-photoshoot-fullpx-41-scaled.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-rpla/reference-1.jpg
+Full English description and complete gallery: 02_MATERIALS/pla-recycled-natural-pigments-prusament/material.json
+
+PLA Satin — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/pla-fibersatin-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_FIBERSATIN_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_FIBERSATIN_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-satin-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-satin-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-satin-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PLA_FIBERSATIN_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pla-fibersatin-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-satin-fiberlogy/material.json
+
+PLA Silk — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/pla-fibersilk-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_FIBERSILK_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_FIBERSILK_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-silk-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-silk-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-silk-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PLA_FIBERSILK_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pla-fibersilk-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-silk-fiberlogy/material.json
+
+PLA Tough — Polymaker
+Source: https://shop.polymaker.com/products/polymax-pla
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyMax-PLA_TDS_V5.3.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyMax-PLA_TDS_V5.3.pdf
+EVA PRINT overview: 02_MATERIALS/pla-tough-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-tough-polymaker.pdf | 05_TECHNICAL_DRAWINGS/pla-tough-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/teal_7a902625-2845-4040-823f-126da8857d90.png?v=1731969098
+Local private copy: 04_REFERENCE_PHOTOS/pla-tough-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/teal_polymax_square.png?v=1731097128
+Local private copy: 04_REFERENCE_PHOTOS/pla-tough-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/pla-tough-polymaker/material.json
+
+PLA Velvet — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/velvet-pla-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/07/FIBERLOGY_VELVET-PLA_TDS-1-3.pdf
+Local copy: 06_DATASHEETS/fiberlogy-velvet-pla-en/FIBERLOGY_VELVET-PLA_TDS-1-3.pdf
+EVA PRINT overview: 02_MATERIALS/pla-velvet-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-velvet-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-velvet-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/08/PLA_VELVET_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-velvet-pla-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-velvet-fiberlogy/material.json
+
+PLA Wood — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pla-en/pla-fiberwood-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_FIBERWOOD_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_FIBERWOOD_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/pla-wood-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pla-wood-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pla-wood-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PLA_FIBERWOOD_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pla-fiberwood-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pla-wood-fiberlogy/material.json
+
+PP — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pp-en/pp-pp-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/pp-en/pp-pp-en/
+EVA PRINT overview: 02_MATERIALS/pp-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pp-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pp-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/PP_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pp-pp-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pp-fiberlogy/material.json
+
+PP 2320 — Fillamentum
+Source: https://fillamentum.com/collections/pp-2320-filament
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_PP-2320.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_PP-2320.pdf
+EVA PRINT overview: 02_MATERIALS/pp-2320-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pp-2320-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/pp-2320-fillamentum.dxf
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-32x32.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-pp-2320-filament/cropped-fav_fillamentum-32x32.png
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/PP_2320_Natural_Ivo_03-2.jpg
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-pp-2320-filament/PP_2320_Natural_Ivo_03-2.jpg
+Full English description and complete gallery: 02_MATERIALS/pp-2320-fillamentum/material.json
+
+PP Carbon Fiber — Prusament
+Source: https://prusament.com/materials/prusament-pp/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/01/b4ef2bf6-technical-data-sheet-1.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pp/b4ef2bf6-technical-data-sheet-1.pdf
+EVA PRINT overview: 02_MATERIALS/pp-carbon-fiber-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pp-carbon-fiber-prusament.pdf | 05_TECHNICAL_DRAWINGS/pp-carbon-fiber-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/01/0a22ef71-vicko-kanystr-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pp/reference-1.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/01/459f6868-zkumavky-2-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pp/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/pp-carbon-fiber-prusament/material.json
+
+PP Glass Fiber — Prusament
+Source: https://prusament.com/materials/prusament-pp-glass-fiber/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/07/512923fd-tds_pp_glass_fiber_en.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pp-glass-fiber/512923fd-tds_pp_glass_fiber_en.pdf
+EVA PRINT overview: 02_MATERIALS/pp-glass-fiber-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pp-glass-fiber-prusament.pdf | 05_TECHNICAL_DRAWINGS/pp-glass-fiber-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/07/6c7045af-ntd_2426-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pp-glass-fiber/reference-1.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/07/b051337a-ntd_2445-bezloga-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pp-glass-fiber/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/pp-glass-fiber-prusament/material.json
+
+PP Recycled — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pp-en/rpp-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/pp-en/rpp-en/
+EVA PRINT overview: 02_MATERIALS/pp-recycled-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pp-recycled-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pp-recycled-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/rPP_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-rpp-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pp-recycled-fiberlogy/material.json
+
+PPA Carbon Fiber — IPCON
+Source: https://ipconpolymer.com/ppa-cf/
+Manufacturer TDS: https://ipconpolymer.com/wp-content/uploads/2026/03/IPCON-PPA-CF_TDS-Technical-Data-Sheet.pdf
+Local copy: 06_DATASHEETS/ipcon-ppa-cf/IPCON-PPA-CF_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/ppa-carbon-fiber-ipcon/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/ppa-carbon-fiber-ipcon.pdf | 05_TECHNICAL_DRAWINGS/ppa-carbon-fiber-ipcon.dxf
+Reference image: https://www.ipconpolymer.com/wp-content/uploads/2026/08/2_241.png
+Local private copy: 04_REFERENCE_PHOTOS/ipcon-ppa-cf/2_241.png
+Reference image: https://www.ipconpolymer.com/wp-content/uploads/2026/02/ipcon-ppa-cf-black-filament-spool-2.jpg
+Local private copy: 04_REFERENCE_PHOTOS/ipcon-ppa-cf/ipcon-ppa-cf-black-filament-spool-2.jpg
+Full English description and complete gallery: 02_MATERIALS/ppa-carbon-fiber-ipcon/material.json
+
+PPE PS — 3DXTECH
+Source: https://www.3dxtech.com/products/thermax-ppe-ps-1
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/THERMAX_PPE_PS_TDS_v1.pdf?v=1723942768
+Local copy: 06_DATASHEETS/3dxtech-thermax-ppe-ps-1/THERMAX_PPE_PS_TDS_v1.pdf
+EVA PRINT overview: 02_MATERIALS/ppe-ps-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/ppe-ps-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/ppe-ps-3dxtech.dxf
+Reference image: https://www.3dxtech.com/cdn/shop/files/469-PPE-PS-175mm-Black-750g-3D-Printer-Filament.png?v=1722621432&width=1946
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-thermax-ppe-ps-1/reference-1.png
+Reference image: https://www.3dxtech.com/cdn/shop/files/469-PPE-PS-175mm-Black-750g-3D-Printer-Filament.png?v=1722621432&width=800
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-thermax-ppe-ps-1/reference-2.png
+Full English description and complete gallery: 02_MATERIALS/ppe-ps-3dxtech/material.json
+
+PPS — 3DXTECH
+Source: https://www.3dxtech.com/products/thermax-pps
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/THERMAX_PPS_TDS_v3.pdf?v=1723942766
+Local copy: 06_DATASHEETS/3dxtech-thermax-pps/THERMAX_PPS_TDS_v3.pdf
+EVA PRINT overview: 02_MATERIALS/pps-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pps-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/pps-3dxtech.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/pps_natural-square.webp?v=1779984511
+Local private copy: 04_REFERENCE_PHOTOS/pps-3dxtech/manufacturer-0.webp
+Full English description and complete gallery: 02_MATERIALS/pps-3dxtech/material.json
+
+PVA Soluble Support — 3DXTECH
+Source: https://www.3dxtech.com/products/aquatek-pva-1
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/AquaTek_PVA_TDS_v1.0.pdf?v=1739974182
+Local copy: 06_DATASHEETS/3dxtech-aquatek-pva-1/AquaTek_PVA_TDS_v1.0.pdf
+EVA PRINT overview: 02_MATERIALS/pva-soluble-support-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pva-soluble-support-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/pva-soluble-support-3dxtech.dxf
+Reference image: https://www.3dxtech.com/cdn/shop/files/462-PVA-175mm-Natural-1kg-3D-Printer-Filament.png?v=1722621093&width=800
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-aquatek-pva-1/reference-2.png
+Reference image: https://www.3dxtech.com/cdn/shop/files/462-PVA-175mm-Natural-1kg-3D-Printer-Filament.png?v=1722621093&width=1946
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-aquatek-pva-1/reference-1.png
+Full English description and complete gallery: 02_MATERIALS/pva-soluble-support-3dxtech/material.json
+
+PVB — Prusament
+Source: https://prusament.com/materials/prusament-pvb/
+Manufacturer TDS: https://prusament.com/wp-content/uploads/2022/10/PVB_Prusament_TDS_2021_10_EN.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-pvb/PVB_Prusament_TDS_2021_10_EN.pdf
+EVA PRINT overview: 02_MATERIALS/pvb-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pvb-prusament.pdf | 05_TECHNICAL_DRAWINGS/pvb-prusament.dxf
+Reference image: https://prusament.com/wp-content/uploads/2018/09/color_change_vase2-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pvb/reference-1.jpg
+Reference image: https://prusament.com/wp-content/uploads/2018/09/earrings2-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-pvb/reference-3.jpg
+Full English description and complete gallery: 02_MATERIALS/pvb-prusament/material.json
+
+PVB FiberSmooth — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/pvb-en/pvb-fibersmooth-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/pvb-en/pvb-fibersmooth-en/
+EVA PRINT overview: 02_MATERIALS/pvb-fibersmooth-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pvb-fibersmooth-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/pvb-fibersmooth-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/FIBERSMOOTH_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-pvb-fibersmooth-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/pvb-fibersmooth-fiberlogy/material.json
+
+PVDF — 3DXTECH
+Source: https://www.3dxtech.com/products/fluorx-pvdf-1
+Manufacturer TDS: https://cdn.shopify.com/s/files/1/0625/4185/6821/files/FLUORX_PVDF_TDS_v3.pdf?v=1723942766
+Local copy: 06_DATASHEETS/3dxtech-fluorx-pvdf-1/FLUORX_PVDF_TDS_v3.pdf
+EVA PRINT overview: 02_MATERIALS/pvdf-3dxtech/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/pvdf-3dxtech.pdf | 05_TECHNICAL_DRAWINGS/pvdf-3dxtech.dxf
+Reference image: https://www.3dxtech.com/cdn/shop/files/445-PVDF-175mm-White-500g-3D-Printer-Filament.png?v=1722621298&width=1946
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-fluorx-pvdf-1/reference-1.png
+Reference image: https://www.3dxtech.com/cdn/shop/files/445-PVDF-175mm-White-500g-3D-Printer-Filament.png?v=1722621298&width=800
+Local private copy: 04_REFERENCE_PHOTOS/3dxtech-fluorx-pvdf-1/reference-2.png
+Full English description and complete gallery: 02_MATERIALS/pvdf-3dxtech/material.json
+
+TPE 90A — Fillamentum
+Source: https://fillamentum.com/collections/flexfill-tpe-flexible-filament
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical_Data_Sheet_Flexfill_TPE_90A.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical_Data_Sheet_Flexfill_TPE_90A.pdf
+EVA PRINT overview: 02_MATERIALS/tpe-90a-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpe-90a-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/tpe-90a-fillamentum.dxf
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-32x32.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-flexfill-tpe-flexible-filament/cropped-fav_fillamentum-32x32.png
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-192x192.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-flexfill-tpe-flexible-filament/cropped-fav_fillamentum-192x192.png
+Full English description and complete gallery: 02_MATERIALS/tpe-90a-fillamentum/material.json
+
+TPE 96A — Fillamentum
+Source: https://fillamentum.com/collections/flexfill-tpe-flexible-filament
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Flexfill-TPE-96A.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_Flexfill-TPE-96A.pdf
+EVA PRINT overview: 02_MATERIALS/tpe-96a-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpe-96a-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/tpe-96a-fillamentum.dxf
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-32x32.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-flexfill-tpe-flexible-filament/cropped-fav_fillamentum-32x32.png
+Reference image: https://fillamentum.com/wp-content/uploads/2020/10/cropped-fav_fillamentum-192x192.png
+Local private copy: 04_REFERENCE_PHOTOS/fillamentum-flexfill-tpe-flexible-filament/cropped-fav_fillamentum-192x192.png
+Full English description and complete gallery: 02_MATERIALS/tpe-96a-fillamentum/material.json
+
+TPE FiberFlex 30D — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/flex-en/fiberflex-30d-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_FIBERFLEX30D_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_FIBERFLEX30D_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/tpe-fiberflex-30d-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpe-fiberflex-30d-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/tpe-fiberflex-30d-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/FIBERFLEX_30D_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-fiberflex-30d-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/tpe-fiberflex-30d-fiberlogy/material.json
+
+TPE FiberFlex 40D — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/flex-en/fiberflex-40d-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_FIBERFLEX40D_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_FIBERFLEX40D_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/tpe-fiberflex-40d-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpe-fiberflex-40d-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/tpe-fiberflex-40d-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/FIBERFLEX_40D_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-fiberflex-40d-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/tpe-fiberflex-40d-fiberlogy/material.json
+
+TPE FiberFlex Aero — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/flex-en/fiberflex-aero-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/08/FIBERLOGY_FIBERFLEX-AERO_TDS-1.pdf
+Local copy: 06_DATASHEETS/fiberlogy-fiberflex-aero-en/FIBERLOGY_FIBERFLEX-AERO_TDS-1.pdf
+EVA PRINT overview: 02_MATERIALS/tpe-fiberflex-aero-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpe-fiberflex-aero-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/tpe-fiberflex-aero-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/FIBERFLEX_AERO_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-fiberflex-aero-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/tpe-fiberflex-aero-fiberlogy/material.json
+
+TPE FiberFlex Carbon Fiber — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/flex-en/fiberflexcf-en/
+Manufacturer TDS: https://fiberlogy.com/app/uploads/2026/05/FIBERLOGY_FIBERFLEXCF_TDS.pdf
+Local copy: 06_DATASHEETS/fiberlogy-faq/FIBERLOGY_FIBERFLEXCF_TDS.pdf
+EVA PRINT overview: 02_MATERIALS/tpe-fiberflex-carbon-fiber-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpe-fiberflex-carbon-fiber-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/tpe-fiberflex-carbon-fiber-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/FIBERFLEX_CF_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-fiberflexcf-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/tpe-fiberflex-carbon-fiber-fiberlogy/material.json
+
+TPE MattFlex 40D — Fiberlogy
+Source: https://fiberlogy.com/en/filaments/flex-en/mattflex-40d-en/
+Exact manufacturer TDS PDF not retrieved. Product webpage: https://fiberlogy.com/en/filaments/flex-en/mattflex-40d-en/
+EVA PRINT overview: 02_MATERIALS/tpe-mattflex-40d-fiberlogy/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpe-mattflex-40d-fiberlogy.pdf | 05_TECHNICAL_DRAWINGS/tpe-mattflex-40d-fiberlogy.dxf
+Reference image: https://fiberlogy.com/app/uploads/2026/07/MATTFLEX_40D_PRINT_1024x1024.webp
+Local private copy: 04_REFERENCE_PHOTOS/fiberlogy-mattflex-40d-en/reference-1.webp
+Full English description and complete gallery: 02_MATERIALS/tpe-mattflex-40d-fiberlogy/material.json
+
+TPU 90A — Polymaker
+Source: https://shop.polymaker.com/products/polyflex-tpu90
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyFlex_TPU90_TDS_V5.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyFlex_TPU90_TDS_V5.1.pdf
+EVA PRINT overview: 02_MATERIALS/tpu-90a-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpu-90a-polymaker.pdf | 05_TECHNICAL_DRAWINGS/tpu-90a-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/teal_t_pu90.png?v=1732035369
+Local private copy: 04_REFERENCE_PHOTOS/tpu-90a-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/teal_tpu90_square.png?v=1732035681
+Local private copy: 04_REFERENCE_PHOTOS/tpu-90a-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/tpu-90a-polymaker/material.json
+
+TPU 92A — Fillamentum
+Source: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Flexfill-TPU-92A_26082019.pdf
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Flexfill-TPU-92A_26082019.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_Flexfill-TPU-92A_26082019.pdf
+EVA PRINT overview: 02_MATERIALS/tpu-92a-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpu-92a-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/tpu-92a-fillamentum.dxf
+No exact-grade supplier photograph was retrieved. Use the original conceptual PNG: 05_TECHNICAL_DRAWINGS/tpu-92a-fillamentum.png
+Full English description and complete gallery: 02_MATERIALS/tpu-92a-fillamentum/material.json
+
+TPU 95A — Prusament
+Source: https://prusament.com/materials/prusament-tpu-95a/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/05/80316f6d-tds-prusament_tpu_95a_en-1.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-tpu-95a/80316f6d-tds-prusament_tpu_95a_en-1.pdf
+EVA PRINT overview: 02_MATERIALS/tpu-95a-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpu-95a-prusament.pdf | 05_TECHNICAL_DRAWINGS/tpu-95a-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/05/15ee3574-dsc07201-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-tpu-95a/reference-4.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2025/05/a7195967-dsc07219-scaled.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-tpu-95a/reference-2.jpg
+Full English description and complete gallery: 02_MATERIALS/tpu-95a-prusament/material.json
+
+TPU 95A High Flow — Polymaker
+Source: https://shop.polymaker.com/products/polyflex-tpu95-hf
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyFlex_TPU95_HF_TDS_V5.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyFlex_TPU95_HF_TDS_V5.1.pdf
+EVA PRINT overview: 02_MATERIALS/tpu-95a-high-flow-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpu-95a-high-flow-polymaker.pdf | 05_TECHNICAL_DRAWINGS/tpu-95a-high-flow-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/pd03001_pdt_isometric_top.png?v=1732036644
+Local private copy: 04_REFERENCE_PHOTOS/tpu-95a-high-flow-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/products/71-n3Z_yABL._AC_SL1500.jpg?v=1652262696
+Local private copy: 04_REFERENCE_PHOTOS/tpu-95a-high-flow-polymaker/supplier-1.jpg
+Full English description and complete gallery: 02_MATERIALS/tpu-95a-high-flow-polymaker/material.json
+
+TPU 98A — Fillamentum
+Source: https://shop.fillamentum.com/products/flexfill-tpu-98a-carrot-orange
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Flexfill-TPU-98A_26082019.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_Flexfill-TPU-98A_26082019.pdf
+EVA PRINT overview: 02_MATERIALS/tpu-98a-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpu-98a-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/tpu-98a-fillamentum.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/Flexfill_TPU_98A_Carrot_Orage_1_75.jpg?v=1606721309
+Local private copy: 04_REFERENCE_PHOTOS/tpu-98a-fillamentum/supplier-0.jpg
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/Flexfill_TPU_98A_Carrot_Orange_Fillaball_01.jpg?v=1606721309
+Local private copy: 04_REFERENCE_PHOTOS/tpu-98a-fillamentum/supplier-1.jpg
+Full English description and complete gallery: 02_MATERIALS/tpu-98a-fillamentum/material.json
+
+TPU Variable Shore Foaming — colorFabb
+Source: https://colorfabb.com/varioshore-tpu
+Manufacturer TDS: https://colorfabb.com/media/datasheets/tds/colorfabb/TDS_E_ColorFabb_varioShore_TPU.pdf
+Local copy: 06_DATASHEETS/colorfabb/TDS_varioShore_TPU.pdf
+EVA PRINT overview: 02_MATERIALS/tpu-variable-shore-foaming-colorfabb/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/tpu-variable-shore-foaming-colorfabb.pdf | 05_TECHNICAL_DRAWINGS/tpu-variable-shore-foaming-colorfabb.dxf
+Reference image: https://colorfabb.com/media/nav-colors.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-varioshore-tpu/nav-colors.png
+Reference image: https://colorfabb.com/media/nav-value.png
+Local private copy: 04_REFERENCE_PHOTOS/colorfabb-varioshore-tpu/nav-value.png
+Full English description and complete gallery: 02_MATERIALS/tpu-variable-shore-foaming-colorfabb/material.json
+
+Water Soluble Support S1 — Polymaker
+Source: https://shop.polymaker.com/products/polydissolve-s1
+Manufacturer TDS: https://cdn.polymaker.com.cn/wp-content/uploads/lana-downloads/PolyDissolve_S1_TDS_V5.1.pdf
+Local copy: 06_DATASHEETS/polymaker-cn-data/PolyDissolve_S1_TDS_V5.1.pdf
+EVA PRINT overview: 02_MATERIALS/water-soluble-support-s1-polymaker/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/water-soluble-support-s1-polymaker.pdf | 05_TECHNICAL_DRAWINGS/water-soluble-support-s1-polymaker.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/ph01001_pdt_isometric_top.png?v=1732040339
+Local private copy: 04_REFERENCE_PHOTOS/water-soluble-support-s1-polymaker/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0548/7299/7945/files/puzzle_1.png?v=1732040650
+Local private copy: 04_REFERENCE_PHOTOS/water-soluble-support-s1-polymaker/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/water-soluble-support-s1-polymaker/material.json
+
+Wood Composite Timberfill — Fillamentum
+Source: https://shop.fillamentum.com/products/timberfill-terracotta
+Manufacturer TDS: https://fillamentum.com/wp-content/uploads/2020/10/Technical-Data-Sheet_Timberfill_03012019.pdf
+Local copy: 06_DATASHEETS/fillamentum-data/Technical-Data-Sheet_Timberfill_03012019.pdf
+EVA PRINT overview: 02_MATERIALS/wood-composite-timberfill-fillamentum/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/wood-composite-timberfill-fillamentum.pdf | 05_TECHNICAL_DRAWINGS/wood-composite-timberfill-fillamentum.dxf
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/Timberfill_Terracotta_1.75.png?v=1670446651
+Local private copy: 04_REFERENCE_PHOTOS/wood-composite-timberfill-fillamentum/supplier-0.png
+Reference image: https://cdn.shopify.com/s/files/1/0677/6533/products/12_6.png?v=1674569945
+Local private copy: 04_REFERENCE_PHOTOS/wood-composite-timberfill-fillamentum/supplier-1.png
+Full English description and complete gallery: 02_MATERIALS/wood-composite-timberfill-fillamentum/material.json
+
+Woodfill — Prusament
+Source: https://prusament.com/materials/prusament-woodfill/
+Manufacturer TDS: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/07/286c3bc0-tds_prusament_woodfill-linden-light_en.pdf
+Local copy: 06_DATASHEETS/prusament-prusament-woodfill/286c3bc0-tds_prusament_woodfill-linden-light_en.pdf
+EVA PRINT overview: 02_MATERIALS/woodfill-prusament/technical-overview.pdf
+Concept drawing: 05_TECHNICAL_DRAWINGS/woodfill-prusament.pdf | 05_TECHNICAL_DRAWINGS/woodfill-prusament.dxf
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/07/42f28531-woodfill-linden-light2-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-woodfill/reference-2.jpg
+Reference image: https://storage.googleapis.com/prusa3d-content-prod-14e8-wordpress-prusament-prod/2024/07/c47d77e4-woodfill-linden-light4-544x408.jpg
+Local private copy: 04_REFERENCE_PHOTOS/prusament-prusament-woodfill/reference-1.jpg
+Full English description and complete gallery: 02_MATERIALS/woodfill-prusament/material.json
+

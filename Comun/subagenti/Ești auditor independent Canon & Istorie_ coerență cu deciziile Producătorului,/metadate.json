@@ -1,0 +1,23 @@
+{
+  "id": "01a0d2c0-c4c3-7a12-af20-d2c54f21f9b1",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790242243,
+  "updated_at": 1790243335,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a0d24f-a0c9-7482-b766-52c86c55aba7\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Einstein\",\"agent_role\":null}}}",
+  "title": "Ești auditor independent Canon & Istorie: coerență cu deciziile Producătorului, continuitate internă, cronologie, vârste și identități, reguli ale puterilor, date/locuri istorice verificate pe surse primare. Separă istoria documentată de tradiție și de ficțiune. Verifică legăturile canon–organizare. pentru proiectul DRACULA. Nu ai contribuit la revizii. User cere trei evaluări independente reale, minimum9,50 FIECARE; nu umfla note și nu inventa defecte pentru severitate. Numai defecte motivate, locație exactă și remediu verificabil. Grila deja stabilită: 9,50–10 excepțional fără modificări substanțiale; major plafon9,20; critic plafon8,50; minore cumulate scad nota; neconcordanță cu decizie aprobată=critic. Nu schimba grila. Verdict PASS iff scor>=9.50.\nROOT COPIE IZOLATĂ: D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\nPACHET FIX OBLIGATORIU: D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\PACHET_AUDIT_01. Citește integral fișierele principale din pachet, nu eșantionat: 01_CANON/00_CANON_NUCLEU.md (v4.2), 00_STUDIO/01_ECHIPA_SI_ROADMAP.md, 00_STUDIO/03_JURNAL_PROGRES.md. 00_STUDIO/rapoarte/S_showrunner.md este anexă de stare de verificat, nu schimbă perimetrul istoric. Citește deciziile15 și contrasemnările din pachet; acestea prevalează. Briefurile sunt tot în pachet. Calculează SHA256 și verifică manifest.json. Căile absolute vechi din istoric rămân istorice; pentru date curente folosește echivalentele din ROOT sau pachet, NICIODATĂ originalul modificat de altă sesiune.\nDosare referință/evidență neschimbate de autori acum:\n- ROOT/00_STUDIO/audit/G0-CANON-v4/R1_plan_masuri.md și R1_audit_*.md; revizia nouă: REV_IZOLAT_20260924/RAPORT_REVIZIE.md, MASURI_39.md, DEFECTE_64.md, verificări, predat.\n- ROOT/00_STUDIO/audit/G0-STUDIO-v4/R3_plan_masuri.md, R3_audit_*.md; revizia nouă CODEX_R3_verificari/EXECUTIE_FINALA.md, verificări, manifest.\nEvaluează situația NOUĂ, nu transfera notele vechi. Separă condițiile G0 de implementările G1 viitoare; lipsa site-ului final nu este defect G0 dacă mandatul G0 definește doar brief/proces. Testele autorilor nu țin loc de judecată semantică. Verifică măsurile anterioare relevante lentilei, cu starea lor și dovezi, fără a pretinde verificări neexecutate. Folosește web pentru fapte istorice/juridice incerte cu surse primare. Ai acces autorizat de coordonator și la referința confidențială ROOT/04_LUME/05_MISTERUL_OMULUI_FARA_UMBRA.md pentru compatibilitate; nu dezvălui identitatea antagonistului în rezumatul public.\nSALVEAZĂ DOAR 2 RAPOARTE NOI (română, UTF8), nu edita producția, scripturile sau notele altor auditori:\n1 ROOT/00_STUDIO/audit/G0-CANON-v4/R2_audit_canon.md\n2 ROOT/00_STUDIO/audit/G0-STUDIO-v4/R4_audit_canon.md\nFiecare: perimetru/hash, metoda reală, NOTĂ două zecimale, PASS/FAIL, puncte forte, tabel defecte gravitate/loc/probă/remediu, închiderea măsurilor anterioare, limite. G0 nu este aviz juridic sau certificare comercială externă. Nu efectua scrieri prin verificatoare cu hardcoded original root; poți citi și face verificări proprii read-only. Nu lansa agenți. Python disponibil C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe. Citește în bucăți dacă output e trunchiat, nu revendica lectură integrală dacă nu ai făcut-o.\nReturnează concis scoruri, defecte blocante și căi rapoarte. Nu aștepta ca părintele să confirme PASS; acordă verdictul onest.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a0d24f-a0c9-7482-b766-52c86c55aba7",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1277626,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 7,
+  "message_count": 5,
+  "content_sha256": "b9e445c17ea2beb44986eeaef9e72bcfca08807192bbe962c2db208fe60aac11",
+  "files_copied": 2,
+  "references_not_copied": 0
+}

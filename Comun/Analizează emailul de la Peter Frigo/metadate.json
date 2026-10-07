@@ -1,0 +1,23 @@
+{
+  "id": "01a08174-9d0a-7942-a083-3539d44ac1af",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1788878298,
+  "updated_at": 1788886700,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Analizează emailul de la Peter Frigo",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 4017335,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 192,
+  "message_count": 29,
+  "content_sha256": "2a02d247dcf55bea233826123c2c89fd3d9c8488fdb5a637d662d474fcc65a9a",
+  "files_copied": 0,
+  "references_not_copied": 31
+}

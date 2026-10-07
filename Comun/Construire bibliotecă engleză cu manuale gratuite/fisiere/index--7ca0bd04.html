@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://accounts.google.com https://apis.google.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://accounts.google.com; connect-src 'self' https://accounts.google.com https://oauth2.googleapis.com https://www.googleapis.com https://graph.facebook.com https://www.facebook.com; img-src 'self' data: https://*.google.com https://*.gstatic.com https://*.googleusercontent.com https://*.facebook.com https://*.fbcdn.net; frame-src https://accounts.google.com https://www.facebook.com https://web.facebook.com https://staticxx.facebook.com; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <title>EVA — English Voice Assistant</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230E7C6D'/%3E%3Cpath d='M9 21c-3 0-5-2-5-5s2.2-5.2 5.2-5.2c.8 0 1.6.2 2.3.6C12.5 8.3 14.7 7 17.2 7 21 7 23.5 9.7 23.5 13.2c1.7.5 2.5 1.9 2.5 3.4 0 2.1-1.7 3.8-4 3.8H9Z' fill='%23fff'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div id="app" aria-live="polite">
+    <div class="boot">
+      <div class="boot-logo">EVA</div>
+      <p>Se încarcă…</p>
+    </div>
+  </div>
+
+  <!-- Modal Setări -->
+  <dialog id="settings">
+    <form method="dialog" class="settings-card" id="settingsForm">
+      <h2>⚙️ Setări</h2>
+      <div class="set-row" id="modeRow"></div>
+
+      <label class="set-label" for="providerSelect">Motor AI (provider)</label>
+      <div style="display:flex;gap:8px">
+        <select id="providerSelect" style="flex:1"></select>
+        <button type="button" class="btn ghost" id="pingBtn" title="Testează conexiunea">Testează</button>
+      </div>
+      <p class="set-hint" id="pingResult"></p>
+
+      <!-- doar pentru Anthropic -->
+      <div id="anthropicBox">
+        <label class="set-label" for="apiKeyInput">Cheie API Anthropic</label>
+        <input id="apiKeyInput" type="password" placeholder="sk-ant-…" autocomplete="off" />
+        <p class="set-hint">Cheia se salvează <b>doar pe acest calculator</b>, în profilul tău (<code>%LOCALAPPDATA%\EVA\config.local.json</code>) — nu pe drive-ul de rețea.</p>
+        <div class="set-grid">
+          <div>
+            <label class="set-label" for="modelSelect">Model Claude</label>
+            <select id="modelSelect"></select>
+          </div>
+          <div>
+            <label class="set-label" for="effortSelect">Viteză / profunzime</label>
+            <select id="effortSelect">
+              <option value="low">Rapid (recomandat pt. chat)</option>
+              <option value="medium">Echilibrat</option>
+              <option value="high">Profund</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- info pentru provideri locali -->
+      <p class="set-hint" id="localInfo" style="display:none"></p>
+
+      <div class="set-grid">
+        <div>
+          <label class="set-label" for="voiceSelect">Voce EVA (TTS)</label>
+          <select id="voiceSelect"></select>
+        </div>
+        <div>
+          <label class="set-label" for="rateInput">Viteză vorbire: <span id="rateVal">0.9</span></label>
+          <input id="rateInput" type="range" min="0.6" max="1.2" step="0.05" value="0.9" />
+        </div>
+      </div>
+
+      <label class="set-check"><input type="checkbox" id="autoTts" checked /> EVA citește mesajele cu voce tare</label>
+
+      <details class="set-social">
+        <summary>Login cu Google / Facebook (opțional)</summary>
+        <label class="set-label" for="googleClientId">Google Client ID</label>
+        <input id="googleClientId" type="text" placeholder="…apps.googleusercontent.com" autocomplete="off" />
+        <label class="set-label" for="facebookAppId">Facebook App ID</label>
+        <input id="facebookAppId" type="text" placeholder="ID-ul aplicației Facebook" autocomplete="off" />
+        <label class="set-label" for="facebookAppSecret">Facebook App Secret</label>
+        <input id="facebookAppSecret" type="password" placeholder="secretul aplicației Facebook" autocomplete="off" />
+        <p class="set-hint">Ca butoanele să funcționeze, creezi o aplicație OAuth (Google Cloud Console / Facebook for Developers) și adaugi această adresă la „origini autorizate". Google acceptă doar <code>http://localhost</code> sau HTTPS cu domeniu (nu IP simplu). <b>Facebook</b> cere și <b>App Secret</b> (serverul verifică tokenul cu el — se salvează doar pe acest calculator, nu se trimite înapoi în browser). Lasă gol dacă folosești doar email + parolă.</p>
+      </details>
+
+      <div class="set-actions">
+        <button type="button" class="btn ghost" id="settingsClose">Închide</button>
+        <button type="submit" class="btn solid" id="settingsSave">Salvează</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/js/md.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/voice.js"></script>
+  <script src="/js/srs.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

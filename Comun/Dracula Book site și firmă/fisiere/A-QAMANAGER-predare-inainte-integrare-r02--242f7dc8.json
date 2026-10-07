@@ -1,0 +1,5 @@
+{
+  "previous_status": {
+    "completed": "Încheiat:\n\n- Metaauditurile r01 [SYS-001](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SYS-001/A-QAMANAGER-r01.md>), [SEL-001](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/SEL-001/A-QAMANAGER-r01.md>) și [RES-001](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-QAMANAGER-r01.md>) sunt depuse în JSON și MD: PASS pentru rapoartele diagnostice; produsele rămân RETURN.\n- [Calibrarea proprie r02](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/CALIBRARE/A-QAMANAGER-r02.json>): 11/11; controlul distinct al coordonatorului rămâne de confirmat.\n- [Verificarea nominală r02](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/CALIBRARE_VERIFICARE-r02.md>): A-GOVERNANCE, A-SOURCES, A-CANON și A-SYSTEMS — fiecare CALIFICAT, 11/11, după examinarea motivelor și probelor.\n\nFără calificare retroactivă r01 sau aprobări de produse r02. Versiunile r01 pot fi arhivate; după conservarea lor, producătorii pot interveni.\n\nREADY pentru mandatul următor."
+  }
+}

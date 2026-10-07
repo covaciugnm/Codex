@@ -1,0 +1,102 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/ac-wohnart-firma-website.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ac-wohnart-firma-website--bc060891.md",
+    "bytes": 2802,
+    "sha256": "30100538ac490ddcb3b2729b12d78d6a3b5cd53c58680012a1d2c2598752a0d0"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/site-uri-share-eva-contab.md",
+    "status": "copiat",
+    "saved_path": "fisiere/site-uri-share-eva-contab--2d0a2b67.md",
+    "bytes": 3255,
+    "sha256": "0dc17bb9ee844be0a24156bbdddf3981a6276bf1ffa58c66b1f380eea5e21f87"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/f9e3d94b-dce6-4724-99e6-f148354b2e29/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/f9e3d94b-dce6-4724-99e6-f148354b2e29/scratchpad/stage.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py",
+    "status": "copiat",
+    "saved_path": "fisiere/shutil--1a142a6e.py",
+    "bytes": 58328,
+    "sha256": "de2f5819114464949b55229b137ac9deed85ce16955ead2dc725e45805ba098c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\f9e3d94b-dce6-4724-99e6-f148354b2e29\\scratchpad\\stage.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\02. Autorizatie + Planse oficiale\\Arhiva Wien 2026.09.28 - Planse istorice (poze)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Website\\schallergasse35\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\A&C Wohnart Immobilien GmbH\\Acte Firma\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/schallergasse35",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/schallergasse35/import_p3_arhiva.sql",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\\\schallergasse35",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\\\schallergasse35\\\\data\\\\uploads\\\\pages\\\\3\\\\c0897343529943bf8a3b8e1b2dad5c8d.JPEG",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\claude_key.pub",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\schallergasse35/",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\schallergasse35\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\schallergasse35\\data\\uploads\\pages\\3",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\schallergasse35\\reset_parola.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/reset_parola--2445adf4.sh",
+    "bytes": 951,
+    "sha256": "facc08f788464a03decadbe4e795fcfc2a7c56a33f6acb1bc68d504faf9560db"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\schallergasse35",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.151\\\\site-uri\\\\schallergasse35",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.151\\site-uri\\schallergasse35\\data\\uploads\\pages\\3",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "https://www.ac-wohnart.at/p2",
+    "status": "referinta_externa_necopiata"
+  }
+]

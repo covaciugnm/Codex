@@ -1,0 +1,23 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/A-GOVERNANCE_r01.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-GOVERNANCE_r01--95e66d48.json",
+    "bytes": 36254,
+    "sha256": "aa08455d07dc3d5c1582071521eaf8b8d3e39c1f3f413cc84cd5375607e04dca"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/A-GOVERNANCE_r01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/A-GOVERNANCE_r01--47fc007f.md",
+    "bytes": 40056,
+    "sha256": "5df7d98f73b2dd8a5fcffde714dc24824040fcfbce98b2424fefbaa749e257ab"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/calibrare/A-GOVERNANCE.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A-GOVERNANCE--1bd62b7d.json",
+    "bytes": 8927,
+    "sha256": "52b429564b4a37000e0599f7758ec10a019e03135332c6ce6c77d9bfc5866d6b"
+  }
+]

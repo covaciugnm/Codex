@@ -1,0 +1,23 @@
+{
+  "id": "01a0d34d-7a01-7861-a969-510c77bf84f0",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790251465,
+  "updated_at": 1790251645,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a07b90-9d07-7e72-8eb7-8439e985b9ba\",\"depth\":1,\"agent_path\":null,\"agent_nickname\":\"Hegel\",\"agent_role\":null}}}",
+  "title": "ACTIVARE EXPLICITĂ ACUM — cercetare G02, specializarea RO. Începe și finalizează fără altă reluare. ROOT D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000. Citește și aplică integral 06_REGISTRU/PROMPTURI/ROM-001-G02-COMUN-r01.md și ROM-001-G02-RO-r01.md. G01 este ACCEPTAT: 06_REGISTRU/REZULTATE/ROM-001-G01-ACCEPTARE-r02.md SHA256 eb0f1185a1d2d728bdd9ab361d27b17ddb492e34d240fe7e76c6f258064e4d8d. Contract G01 r02 1f08388e16baa2320585048ddcc7ae18b6b11732a29bb5938f19597695c62398; douăprimare+META+gatePASS, AFTER968intrări recuperat963fișiere cuPASSidentic. Acceptarea și recuperarea sunt păstrate și în r02-accepted-handoff,1021intrări,indexbe84b231198aefb8ca58e3ce3396a0b2fad7be4c9bd9e6b3db800ec44678b86e. EticheteleDRAFTdinbriefsunt istorice; acceptareacurentăfixeazăaceiașibytes.\nScrie exclusiv 07_ROMANE/ROM-001/02_RESEARCH/r01/CONTRIBUTIE_RO.md și SURSE_RO.json. Specializarea: Cercetează dateprimare accesibile despre lectura/piațacărții în România și1–2repere editoriale relevante. Preferă INS/Eurostat/INCFC și edituricareîși prezintă titlurile; declarăinexistența unordatenaționalerecente dacănu suntgăsite. Nu prezenta sondajuldesprecititca vânzări. Formuleazăipoteze despre public/beneficiupentrulectură înRO fărăstereotipuri, fără promisiunicomerciale și fărăalterareatarifului/site-ului. Folosește surse primare web citite efectiv, citări precise și limite; marchează inferențele. Nu folosi rezultate de căutare singure drept pagini citite și nu reproduce material protejat lung. Nu crea altepremise/proză și nu rezolva Margaux. Nu modifica altefișiere. Nu produce scoruri. Înregistrează propriulIDreal din context înfișă; managerul îl adaugă registrului. La final fișiere/hashuri, limite și confirmăscrierioprite.",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 1770991,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 28,
+  "message_count": 4,
+  "content_sha256": "9b27a9c9f731b39e062eb05d0110735179b8edf4add74777fa138892e00cea4f",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

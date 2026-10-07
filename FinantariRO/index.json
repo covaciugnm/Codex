@@ -1,0 +1,66 @@
+{
+  "project": {
+    "id": "7310b49a-fe03-4b49-b6de-1877255e0742",
+    "name": "FinantariRO",
+    "roots": [
+      "Z:\\00. Proiecte 2026"
+    ],
+    "conversations": 2,
+    "subagents": 0,
+    "messages": 23,
+    "files_copied": 4,
+    "content_sha256": "f8d74c520eb48a2e2dd93b49a2071b365919b584fca893e1964b9b209b198cf7"
+  },
+  "threads": [
+    {
+      "id": "01a0f65b-a84e-7c30-a776-a9d2110e9784",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026",
+      "created_at": 1790839597,
+      "updated_at": 1791360126,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Caută liniile de finanțare din RO",
+      "project_id": "7310b49a-fe03-4b49-b6de-1877255e0742",
+      "project": "FinantariRO",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "source_bytes": 2894243,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 85,
+      "message_count": 16,
+      "content_sha256": "b68def781f4375d03dc0dc5fed6aadb570560b5f1978964d520c1f520e9b460a",
+      "files_copied": 3,
+      "references_not_copied": 0,
+      "subagent": false,
+      "folder": "FinantariRO/Caută liniile de finanțare din RO"
+    },
+    {
+      "id": "01a11562-6693-7612-b468-3a4527223501",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2026",
+      "created_at": 1791360132,
+      "updated_at": 1791360613,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Organizează proiectele noi",
+      "project_id": "7310b49a-fe03-4b49-b6de-1877255e0742",
+      "project": "FinantariRO",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "source_bytes": 2717756,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 52,
+      "message_count": 7,
+      "content_sha256": "7febc2dcb1ff320bf1e0f0c5d23038bba7576b7a46c6497dd62e818e5b213a4d",
+      "files_copied": 1,
+      "references_not_copied": 0,
+      "subagent": false,
+      "folder": "FinantariRO/Organizează proiectele noi"
+    }
+  ]
+}

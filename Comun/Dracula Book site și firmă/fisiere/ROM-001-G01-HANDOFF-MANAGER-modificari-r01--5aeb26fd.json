@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-24 08:59:13 UTC",
+  "producer_id": "01a07b90-9d07-7e72-8eb7-8439e985b9ba",
+  "status": "CORRECTED_IN_PRODUCTION_PENDING_RETEST_AND_FORMAL_AUDIT",
+  "source_control": "06_REGISTRU/MASURI/ROM-001-G01-HANDOFF-MANAGER-controle-r01.md",
+  "source_control_sha256": "9aa802c960d5e510d3b864aeddb86c79b1574f449ff8df4015248fe01ce79dad",
+  "before_copies": "07_ROMANE/ROM-001/00_BRIEF/ISTORIC_PREDEPUNERE_r02/provenienta.json",
+  "changes": [
+    {
+      "item": "HM-P01",
+      "file": "07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r02.md",
+      "before": "Fișa nu acordă scor și nu acceptă G01. La redactarea ei, rezultatele editorului nu erau încă predate. Plicul închis, custodia Isabellei și pista Margaux/1968 rămân promisiuni; rezolvarea se construiește ulterior, în G03–G05.",
+      "after": "Fișa nu acordă scor și nu acceptă G01. La redactarea ei, rezultatele editorului nu erau încă predate. Plicul nedeschis și custodia Isabellei sunt stări deja observate în H; adresa înscrisă și referința Margaux Beaumont/camera 14/1968 sunt informații documentare relatate în ficțiune (CANON_FACTUAL, F07–F09). Promisiunile viitoare sunt cercetarea persoanei ori familiei, solicitarea opțiunii privind livrarea/desigilarea și dezvoltarea poveștii Margaux; identitățile și rezolvarea misterului se construiesc ulterior în G03–G05. Cele două referințe Margaux nu probează nici două persoane distincte, nici o identitate comună."
+    },
+    {
+      "item": "HM-P02",
+      "file": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+      "before": "Faptele observate F, alegerile editoriale D și ipotezele I rămân distincte. G01 nu rezolvă identitatea M, legătura exactă dintre cele două Margaux, autorul/conținutul/destinația plicului sau biografiile încă nedezvăluite. Acestea se construiesc original în G03–G05, după G02. Custodia nu echivalează cu permisiunea de contact, transmitere, desigilare ori publicare. Sarcina este timpurie; nu există deja un copil născut.",
+      "after": "Faptele observate F, alegerile editoriale D și ipotezele I rămân distincte. În starea deja relatată la final, plicul rămâne nedeschis și se află în custodia Isabellei; poartă adresa „Room 14, Hotel Rue des Âmes” și inițiala M. pe verso (CANON_FACTUAL, F07/F09). Registrul consemnează referința Margaux Beaumont/camera 14/1968 (F08). G01 nu stabilește identitatea din spatele inițialei, legătura dintre cele două referințe documentare Margaux, persoana autoare sau destinatară, conținutul plicului ori biografiile nedezvăluite. Adresa materială cunoscută nu este confundată cu persoana destinatară necunoscută; două referințe nu înseamnă două persoane confirmat distincte sau una singură demonstrată. Cercetarea și solicitarea opțiunii persoanei rămân promisiuni viitoare; dezvoltarea originală aparține G03–G05, după G02. Custodia nu echivalează cu permisiunea de contact, transmitere, desigilare ori publicare. Sarcina este timpurie; nu există deja un copil născut."
+    },
+    {
+      "item": "HM-T15 clarification",
+      "file": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+      "before": "- ROM-001-G01-F01-afiliere-control-r01.md: 29 de persoane și opt instituții, 37 de teste P-CANON în aria declarată; fără alt candidat material identificat. Nu este audit extern producției.",
+      "after": "- ROM-001-G01-F01-afiliere-control-r01.md: 29 de fișe de persoane/referenți și opt intrări instituționale, 37 de teste P-CANON în aria declarată; numărul fișelor nu certifică 29 de persoane distincte. Fără alt candidat material identificat. Nu este audit extern producției."
+    }
+  ],
+  "limits": "Production edits before first formal r02 freeze, exact prior drafts preserved. Formal CANON/META findings remain open."
+}

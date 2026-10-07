@@ -1,0 +1,28 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2026 EU\\Fondul pentru Modernizare - Baterii independente 2026\\00_Status_documentare.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Proiecte 2026 EU\\2026.10.30 - FMST - Fondul pentru Modernizare baterii independente\\2.SURSE SI VERIFICARI\\Previzualizare_fisa.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Previzualizare_fisa--2e8e0ec5.png",
+    "bytes": 132064,
+    "sha256": "d48b24224d837b76f60dcd3465b748b185137892c3a61821f3b119c0d9a2e1df"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Proiecte 2026 EU\\2026.10.30 - FMST - Fondul pentru Modernizare baterii independente\\2.SURSE SI VERIFICARI\\Previzualizare_punctaj.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Previzualizare_punctaj--55ac75f0.png",
+    "bytes": 161773,
+    "sha256": "ef9c4bc45936ef239f9c001ce953a068402bcd3ceb0be1cf0cc86a8f9ab457fb"
+  },
+  {
+    "source_reference": "https://agerpres.ro/politic/2026/08/18/bolojan-150-de-milioane-euro-pentru-noi-instalatii-de-stocare-a-energiei--1585910",
+    "status": "referinta_externa_necopiata"
+  }
+]

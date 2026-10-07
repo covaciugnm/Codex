@@ -1,0 +1,13 @@
+{
+  "agent_id": "01a0d0d9-1f95-7211-8093-c26e28e6ebee",
+  "role": "P-SYSTEMS",
+  "submission": {
+    "submission_id": "01a0d24b-b407-7152-8270-fd78d1ec2a26"
+  },
+  "closure": {
+    "previous_status": {
+      "completed": "Recuperarea reală este încheiată: **625/625 fișiere recuperate conforme**, iar toate cele **629 intrări ale snapshotului** au fost reverificate.\n\nValidatorul restaurat: **exit 2 / RETURN așteptat**, numai pentru auditurile și metaauditul G01 lipsă. Fără erori de hash, schemă, contract sau recuperare.\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-BEFORE-r01.md>)\n- [JSON cu rezultatul real, comanda și amprentele](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-BEFORE-r01.json>)\n- [Director recuperat, păstrat](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/09_RECUPERARI/ROM-001-G01-r01-before-20260924T072727Z-334ca93c>)\n\nRegistrele recuperate sunt neschimbate. Nu declar acceptare G01; AFTER rămâne test separat. Scrierile sunt oprite."
+    }
+  },
+  "limits": "Control tehnic de producător, nu audit editorial; starea BEFORE fără audituri produce RETURN așteptat."
+}

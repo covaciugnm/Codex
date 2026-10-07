@@ -1,0 +1,23 @@
+{
+  "id": "01a0c5d3-2f97-7160-836f-406bb60145fa",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790025346,
+  "updated_at": 1790025346,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Raport comparativ GPU 128GB",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 541027,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 254,
+  "message_count": 254,
+  "content_sha256": "29dfca68f963b825b33a84ba948a1a7b238cdab93673814a0c1624b22829682b",
+  "files_copied": 11,
+  "references_not_copied": 37
+}

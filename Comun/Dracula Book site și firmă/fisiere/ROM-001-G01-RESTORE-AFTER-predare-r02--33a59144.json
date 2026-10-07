@@ -1,0 +1,6 @@
+{
+  "id": "01a0d0d9-1f95-7211-8093-c26e28e6ebee",
+  "previous_status": {
+    "completed": "Recuperarea REALĂ AFTER r02 este încheiată: **PASS, exit 0, fără erori**, rezultat integral identic semantic cu cel înghețat.\n\n968/968 intrări verificate; **963 fișiere recuperate, 196.042.886 bytes**. Snapshotul și copia sunt neschimbate, fără cache nou.\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r02.md>) — SHA256 `f5f702489a941d6fcb90d4b272f165414f4073085b1a58c34969cbf3438f32c1`\n- [Raport JSON integral](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/06_REGISTRU/REZULTATE/ROM-001-G01-RESTORE-AFTER-r02.json>) — SHA256 `224f3ea75d2a46a0c77e3010cce667ef72515463e71dd18724eb33724903a27f`\n- [Director recuperat, păstrat](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/09_RECUPERARI/ROM-001-G01-r02-after-20260924T115515Z-2087a431>).\n\nFără audit editorial sau acceptare cumulativă acordată de mine. **Scrierile sunt oprite.**"
+  }
+}

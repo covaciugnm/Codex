@@ -1,0 +1,23 @@
+{
+  "id": "01a0a69c-8e09-7392-ad26-357e8009755d",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789472356,
+  "updated_at": 1789479138,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Suntech Purchase order - cauta in Eva si in folderul",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 196203,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 65,
+  "message_count": 65,
+  "content_sha256": "019ba08ea731e91389e26b2b8bff58e5691333f6f170e0b260ac4ae2a5149d27",
+  "files_copied": 3,
+  "references_not_copied": 11
+}

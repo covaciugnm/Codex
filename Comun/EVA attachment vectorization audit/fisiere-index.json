@@ -1,0 +1,164 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\fa1bbbf8-3b5c-4ef0-9268-4887637bda86\\scratchpad\\add_restante.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\fa1bbbf8-3b5c-4ef0-9268-4887637bda86\\scratchpad\\build_wien_archive.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\fa1bbbf8-3b5c-4ef0-9268-4887637bda86\\scratchpad\\fix_and_excel.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\fa1bbbf8-3b5c-4ef0-9268-4887637bda86\\scratchpad\\read_mahnung.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\fa1bbbf8-3b5c-4ef0-9268-4887637bda86\\scratchpad\\refresh_letters.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\fa1bbbf8-3b5c-4ef0-9268-4887637bda86\\scratchpad\\save_letter.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\Autoritati Wien",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\Autoritati Wien\\MA 06 - Rechnungs- und Abgabenwesen (BA 9)\\03. Atasamente\\2026.08.12 MA 6 - Mahnung Wasser-Abwassergebuehren 7,59 EUR (Eingang 18.08.2026).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.08.12 MA 6 - Mahnung Wasser-Abwassergebuehren 7,59--ba7332f7.pdf",
+    "bytes": 218733,
+    "sha256": "ca7f2490e5cd73b048fc45a1e5d67933453bff53d8cec4c75ab0aa45d73f71a5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Inbox\\20260818125542.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Website\\schallergasse35\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\A&C Wohnart Immobilien GmbH\\Acte Firma\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\08. Corespondenta\\\\Autoritati Wien\\\\00. REGISTRU corespondenta autoritati Wien - Schallergasse 35.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/00. REGISTRU corespondenta autoritati Wien - Schallerga--3f995dbb.xlsx",
+    "bytes": 23522,
+    "sha256": "ea638fba69553eb5d5ab369f3547e40bba3f3114674b6b12af44570b21785b2a"
+  },
+  {
+    "source_reference": "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40211390/NOR40211390.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40006288/LWI40006288.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/amtshelfer/bauen-wohnen/baupolizei/aufzug/errichtung.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/data/csv/verwaltungsadressen.csv",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakt/ma06",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakt/ma48",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakte/ma06/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakte/ma28/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakte/ma31/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakte/ma36/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakte/ma37/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakte/ma46/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/kontakte/ma50/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/recht/landesrecht-wien/landesgesetzblatt/jahrgang/2006/html/lg2006068.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/wirtschaft/gewerbe/technik/feuerpolizei/ueberpruefung-heizungsanlagen.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "images/0.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/1.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/2.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/3.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/4.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/5.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/6.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/7.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/8.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "images/9.jpg",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

@@ -1,0 +1,645 @@
+[
+  {
+    "source_reference": "00_STUDIO/01_ECHIPA_SI_ROADMAP.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00_STUDIO/03_JURNAL_PROGRES.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "00_STUDIO/audit/00_CONTRASEMNARI_PRODUCATOR.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "01_CANON/00_CANON_NUCLEU.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "01_CANON/01_DECIZII_PRODUCATOR.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/dracula-book-editura.md",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-book-editura--f1839506.md",
+    "bytes": 12029,
+    "sha256": "c8ec5e181774b2ed304851505d5ee3a4d45132816e46fa49c50b4eb58a8c744c"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/drakon-comics.md",
+    "status": "copiat",
+    "saved_path": "fisiere/drakon-comics--71786943.md",
+    "bytes": 4662,
+    "sha256": "5662173a19741ff912a7ca38da4992d15712044c5a0284a3d70ce611381eabb5"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/D--00--Downloads-Dracula-Book-DRACULA-COMICS-00-STUDIO/010d63d3-a2e0-494a-8e19-1a42f357e657/workflows/scripts/dracula-comics-gates-wf_10ab3be6-d65.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-comics-gates-wf_10ab3be6-d65--8c0d432f.js",
+    "bytes": 34961,
+    "sha256": "8aff8b06bdf88cb6c4a9b17c8f9b4c2fbfe6c74e694ffdbaa2b57e50fd1a52eb"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/D--00--Downloads-Dracula-Book-DRACULA-COMICS-00-STUDIO/010d63d3-a2e0-494a-8e19-1a42f357e657/workflows/scripts/dracula-research-extins-wf_2be1bcb0-ba7.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-research-extins-wf_2be1bcb0-ba7--944ca8b7.js",
+    "bytes": 13380,
+    "sha256": "a6e195c53e13fd275bd6e678dfda205e04e76fc2ce7164aaa772a01f1675e553"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/D--00--Downloads-Dracula-Book-DRACULA-COMICS-00-STUDIO/010d63d3-a2e0-494a-8e19-1a42f357e657/workflows/scripts/dracula-v4-pipeline.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-v4-pipeline--5a717b1e.js",
+    "bytes": 42303,
+    "sha256": "2c13db6a6d9a8817e70538fa8df4ff7c7ba6378140c0102590db53e3ad403ead"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\memory\\drakon-comics.md",
+    "status": "copiat",
+    "saved_path": "fisiere/drakon-comics--71786943.md",
+    "bytes": 4662,
+    "sha256": "5662173a19741ff912a7ca38da4992d15712044c5a0284a3d70ce611381eabb5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\D--00--Downloads-Dracula-Book-DRACULA-COMICS-00-STUDIO\\010d63d3-a2e0-494a-8e19-1a42f357e657\\workflows\\scripts\\dracula-comics-gates-wf_10ab3be6-d65.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-comics-gates-wf_10ab3be6-d65--8c0d432f.js",
+    "bytes": 34961,
+    "sha256": "8aff8b06bdf88cb6c4a9b17c8f9b4c2fbfe6c74e694ffdbaa2b57e50fd1a52eb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\D--00--Downloads-Dracula-Book-DRACULA-COMICS-00-STUDIO\\010d63d3-a2e0-494a-8e19-1a42f357e657\\workflows\\scripts\\dracula-research-extins-wf_2be1bcb0-ba7.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-research-extins-wf_2be1bcb0-ba7--944ca8b7.js",
+    "bytes": 13380,
+    "sha256": "a6e195c53e13fd275bd6e678dfda205e04e76fc2ce7164aaa772a01f1675e553"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\D--00--Downloads-Dracula-Book-DRACULA-COMICS-00-STUDIO\\010d63d3-a2e0-494a-8e19-1a42f357e657\\workflows\\scripts\\dracula-v4-pipeline.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-v4-pipeline--5a717b1e.js",
+    "bytes": 42303,
+    "sha256": "2c13db6a6d9a8817e70538fa8df4ff7c7ba6378140c0102590db53e3ad403ead"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\D--00--Downloads-Dracula-Book-DRACULA-COMICS-00-STUDIO\\\\010d63d3-a2e0-494a-8e19-1a42f357e657\\\\workflows\\\\scripts\\\\dracula-comics-gates-wf_10ab3be6-d65.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-comics-gates-wf_10ab3be6-d65--8c0d432f.js",
+    "bytes": 34961,
+    "sha256": "8aff8b06bdf88cb6c4a9b17c8f9b4c2fbfe6c74e694ffdbaa2b57e50fd1a52eb"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\D--00--Downloads-Dracula-Book-DRACULA-COMICS-00-STUDIO\\\\010d63d3-a2e0-494a-8e19-1a42f357e657\\\\workflows\\\\scripts\\\\dracula-v4-pipeline.js",
+    "status": "copiat",
+    "saved_path": "fisiere/dracula-v4-pipeline--5a717b1e.js",
+    "bytes": 42303,
+    "sha256": "2c13db6a6d9a8817e70538fa8df4ff7c7ba6378140c0102590db53e3ad403ead"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--3d3e6119.md",
+    "bytes": 1139,
+    "sha256": "e9b2a8a8d3a4894d413c290a62c463d05a25195bb428a0d0089191aa1cd4b196"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924-AUDIT-INCHIS.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/DRACULA-COMICS-CODEX-G0-20260924-AUDIT-INCHIS--474d1479.zip",
+    "bytes": 9988635,
+    "sha256": "83fd2fadb12c1ec31e8fbbf444be81ec781f443586ca3520b61af02eace7c618"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS-CODEX-G0-20260924/REZULTAT_G0.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REZULTAT_G0--e920161b.md",
+    "bytes": 1962,
+    "sha256": "dc0776cb7b4f73a6080e86975e8236851e72da7611ae754df7d748969cba4655"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS/00_STUDIO",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS/00_STUDIO/audit",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS/00_STUDIO/audit/00_PROCEDURA_PIPELINE_v4.js",
+    "status": "copiat",
+    "saved_path": "fisiere/00_PROCEDURA_PIPELINE_v4--76c2f0ed.js",
+    "bytes": 42303,
+    "sha256": "2c13db6a6d9a8817e70538fa8df4ff7c7ba6378140c0102590db53e3ad403ead"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS/00_STUDIO/audit/00_PROCEDURA_POARTA_9_50.js",
+    "status": "copiat",
+    "saved_path": "fisiere/00_PROCEDURA_POARTA_9_50--7343e8b7.js",
+    "bytes": 34961,
+    "sha256": "8aff8b06bdf88cb6c4a9b17c8f9b4c2fbfe6c74e694ffdbaa2b57e50fd1a52eb"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS/00_STUDIO/audit/00_PROCEDURA_RESEARCH_EXTINS.js",
+    "status": "copiat",
+    "saved_path": "fisiere/00_PROCEDURA_RESEARCH_EXTINS--698513e8.js",
+    "bytes": 13380,
+    "sha256": "a6e195c53e13fd275bd6e678dfda205e04e76fc2ce7164aaa772a01f1675e553"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/DRACULA-COMICS/01_CANON",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/NOIR SERIES",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00. Downloads/Dracula Book/NOIR SERIES/Umbra Trandafirului Negru Devin.ai/Versiunea 5",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\00. PROMPTURI COPERTE MULTILINGVE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00. PROMPTURI COPERTE MULTILINGVE--890d28dd.md",
+    "bytes": 6282,
+    "sha256": "e141db7b3ce5c1679c520eb364a7ea28a5e783821d5a9af0638f6eeb46058802"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-CANON-v4\\R2_plan_masuri.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R2_plan_masuri--610b0f0e.md",
+    "bytes": 2264,
+    "sha256": "114e6200d5513b4552f72eced94e504b629a016e27fe96ce56051b74fa3ccec5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-STUDIO-v4\\R4_corecturi\\EXECUTIE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/EXECUTIE--aed9b544.md",
+    "bytes": 3090,
+    "sha256": "7ca362c8785b605cc6173e34e1c9ee604f6b0261fe40b2a5b11f83546c0e24bf"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\G0-STUDIO-v4\\R4_plan_masuri.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R4_plan_masuri--56e8fa32.md",
+    "bytes": 3225,
+    "sha256": "d79b69bbae4f3e7da897645fbaa4b2f22286324ce9398328af5ef49fb0fb7d27"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\DESCHIDERE_AUDIT_01.md",
+    "status": "copiat",
+    "saved_path": "fisiere/DESCHIDERE_AUDIT_01--c8bac03a.md",
+    "bytes": 900,
+    "sha256": "38f15407b8393525a3410f926ecad5c8009b10f91f42068a1c8f1917cbfdc523"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\DESCHIDERE_AUDIT_02.md",
+    "status": "copiat",
+    "saved_path": "fisiere/DESCHIDERE_AUDIT_02--326a5289.md",
+    "bytes": 917,
+    "sha256": "45f97e0929975257244d213978e7e87046876ad243f8041e0a308920f0befc2f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\DESCHIDERE_STUDIO_R5.md",
+    "status": "copiat",
+    "saved_path": "fisiere/DESCHIDERE_STUDIO_R5--9865699a.md",
+    "bytes": 1787,
+    "sha256": "162b4eeaba5ec1e26db72b44073871624346b4247f108ee0433989c90216dcdb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\OBSERVATII_COORDONATOR.md",
+    "status": "copiat",
+    "saved_path": "fisiere/OBSERVATII_COORDONATOR--fc48e1d8.md",
+    "bytes": 1091,
+    "sha256": "9970521dc793078caee2acad729f4ee8c688fffee7c36e74106789b8a3db8028"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\corectura_canon_R2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/corectura_canon_R2--a232a921.py",
+    "bytes": 3354,
+    "sha256": "a37bbc993b21e88cb9c1993ebc99dbb65b80ab3e2d065c973171f2c79342ab8e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\inchide_G0.py",
+    "status": "copiat",
+    "saved_path": "fisiere/inchide_G0--0ed010c7.py",
+    "bytes": 10343,
+    "sha256": "f0cdc63ac83f4c56353fe940466759008a69714f4a3c62e977ef7d531571822f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\instructiuni_R3_canon.md",
+    "status": "copiat",
+    "saved_path": "fisiere/instructiuni_R3_canon--cba49779.md",
+    "bytes": 2908,
+    "sha256": "369c68fdcab024e94f072846cc52ba0fffff11966f2277f043f574beb3d71a72"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\instructiuni_R3_craft.md",
+    "status": "copiat",
+    "saved_path": "fisiere/instructiuni_R3_craft--fba63533.md",
+    "bytes": 3015,
+    "sha256": "5466aebf928ad99e8324d5577aa6a7442264ed18a00225e3ac9cc1b8944f843b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\instructiuni_R3_kpi.md",
+    "status": "copiat",
+    "saved_path": "fisiere/instructiuni_R3_kpi--741d0dc8.md",
+    "bytes": 3001,
+    "sha256": "98863baafb0393d255951d8814ca0d3828922244e7ebf059179ba4e8821fb9d3"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\instructiuni_R5_canon.md",
+    "status": "copiat",
+    "saved_path": "fisiere/instructiuni_R5_canon--0540dc19.md",
+    "bytes": 1782,
+    "sha256": "da9e4c56b6b07ada5fe97bd52823bb7fe51168dca3e8e5d6e486981e2f299513"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\instructiuni_R5_craft.md",
+    "status": "copiat",
+    "saved_path": "fisiere/instructiuni_R5_craft--21f560d2.md",
+    "bytes": 1782,
+    "sha256": "585fe42bc8f417de7085618566cb25642709609c5e592258726b0d77b6effdfc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\instructiuni_R5_kpi.md",
+    "status": "copiat",
+    "saved_path": "fisiere/instructiuni_R5_kpi--a28c7c89.md",
+    "bytes": 1778,
+    "sha256": "1cfad716e93027134ee73b5af0b1eca976e6c454e3cefdfe5ced96c56b4bc516"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS-CODEX-G0-20260924\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\verifica_studio_R4.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verifica_studio_R4--3d6db224.py",
+    "bytes": 6372,
+    "sha256": "28281dc740c7d38179fab3ec10e4f67b2789867d973c51e924b25935ea12a9cc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\01_ECHIPA_SI_ROADMAP.md",
+    "status": "copiat",
+    "saved_path": "fisiere/01_ECHIPA_SI_ROADMAP--95604bf9.md",
+    "bytes": 344165,
+    "sha256": "a3f393af2ac27cdd0187c87c3fc2db561539d4a40e23c19c57c0f6cd36f97b0e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\02_BRIEFURI\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\03_JURNAL_PROGRES.md",
+    "status": "copiat",
+    "saved_path": "fisiere/03_JURNAL_PROGRES--f806679e.md",
+    "bytes": 116354,
+    "sha256": "8646a7ad23079743188c8e4feca5e81cd24d6b8e23feb9e0fe04e7cb72a688c6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\00_PROCEDURA_POARTA_9_50.js",
+    "status": "copiat",
+    "saved_path": "fisiere/00_PROCEDURA_POARTA_9_50--7343e8b7.js",
+    "bytes": 34961,
+    "sha256": "8aff8b06bdf88cb6c4a9b17c8f9b4c2fbfe6c74e694ffdbaa2b57e50fd1a52eb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-CANON-v4\\R1_audit_craft.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R1_audit_craft--5c3fc53b.md",
+    "bytes": 37391,
+    "sha256": "b5e7d22feecf0807b2981f835d9f2ca111c4926713dca130e2e8e7f92f4e1255"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-CANON\\R1_audit_craft.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R1_audit_craft--8f6c70b9.md",
+    "bytes": 31836,
+    "sha256": "b70ceb8cbdda43eb1b5f332318a61ffbaa268fc445a7fa8e1615b6c9c4d3f27d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-CANON\\R1_plan_masuri.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R1_plan_masuri--55d0b49e.md",
+    "bytes": 96762,
+    "sha256": "6df4cd1bf414c976b0179dc419ec3b719cb55f4088e8e526f22ccf19409ba601"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-STUDIO-v4\\R1_audit_canon.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R1_audit_canon--64cc0e8f.md",
+    "bytes": 27191,
+    "sha256": "6155369aa17e134a8255458520d643b70e79d688c3e5a58073430cfd77dac3a9"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-STUDIO-v4\\R1_audit_craft.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R1_audit_craft--8769339e.md",
+    "bytes": 32427,
+    "sha256": "65cf8d76ae6a9a88006214579da2ba7e24668305eb0e6b072df7be93822b17f7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-STUDIO-v4\\R1_audit_kpi.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R1_audit_kpi--d140b56f.md",
+    "bytes": 30980,
+    "sha256": "47b09a20cb7cfe04895f0aa6387521c7d4a5c9267ed106d7ed7e7408960f11f9"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-STUDIO-v4\\R2_audit_canon.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R2_audit_canon--7cc8e223.md",
+    "bytes": 31077,
+    "sha256": "86068a7190439bc69fe89a91358b181c5b43adf1261a58a4dae6716fcb3122b9"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-STUDIO-v4\\R2_audit_craft.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R2_audit_craft--059b3aef.md",
+    "bytes": 37678,
+    "sha256": "502dc055ead9de8baea557047ef45d22bd0500d4cbf69eb81d63f489e6989069"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\G0-STUDIO-v4\\R2_audit_kpi.md",
+    "status": "copiat",
+    "saved_path": "fisiere/R2_audit_kpi--77696063.md",
+    "bytes": 28895,
+    "sha256": "c653e0d915b1a8a485f017975aa4116372142a764f0bbf28a619cffcf7d4f26b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\audit\\RELUARE_CODEX_20260924_120350\\control_poarta.py",
+    "status": "copiat",
+    "saved_path": "fisiere/control_poarta--e5a10054.py",
+    "bytes": 2374,
+    "sha256": "16ec584b2be3af24a3d17bd9e49c865ad4ba4ccd49f254370c19420c25ac53c6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\00_STUDIO\\rapoarte\\S_showrunner.md",
+    "status": "copiat",
+    "saved_path": "fisiere/S_showrunner--70e4b9b9.md",
+    "bytes": 184772,
+    "sha256": "f749a329cc296815558a5ba75edc431a18add3ae15a3b055c57333b44b56a8a9"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA-COMICS\\01_CANON\\00_CANON_NUCLEU.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00_CANON_NUCLEU--ab02abb4.md",
+    "bytes": 183938,
+    "sha256": "663801be1dabb65c9e67cdb9727117ee06a11b5b4c5bfaea6117d931a20a322b"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\00. CATALOG SI REZUMAT.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00. CATALOG SI REZUMAT--40f932bf.md",
+    "bytes": 8680,
+    "sha256": "43dc2f09fd1ab09cda944283364cc03ed1942085f17d89f3a5a5c9d9e17025fb"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\00. SITE dracula-book.com\\\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--d261e216.html",
+    "bytes": 704723,
+    "sha256": "d838000410a40bdf3c92ae71129c523939d8d5690e38827e970a258411960f72"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\DRACULA-COMICS",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\DRACULA-COMICS\\\\01_CANON\\\\00_CANON_NUCLEU.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00_CANON_NUCLEU--ab02abb4.md",
+    "bytes": 183938,
+    "sha256": "663801be1dabb65c9e67cdb9727117ee06a11b5b4c5bfaea6117d931a20a322b"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\_scripts\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\reader\\data\\books\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DRACULA BOOK SRL - CUI TBD",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\undefined",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\01_CANON\\\\\\\\00_CANON_NUCLEU.md",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\02_RESEARCH",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\_lucru_research_extins",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "drakon-comics.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "email-check-sent-too.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "https://abrahamstoker.blogspot.com/2012/10/arminius-vambery.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://adevarul.ro/stiri-locale/suceava/prima-infrangere-a-lui-stefan-cel-mare-asediul-1749175.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anpc.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anpc.ro/ce-este-sal/?ref=footer_3_5",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/contacteaza-ne",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/intrebari-frecvente",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/politica-de-confidentialitate",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/politica-de-cookies",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/politica-de-retur-si-garantie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/politica-de-stergere-a-datelor-personale",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/reclamatii",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/termeni-si-conditii",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://claude.ai/code/artifact/afe1ea7b-6322-47dc-bbbe-be6a54212dc6",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Affair_of_the_Poisons",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Basilica_Cistern",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Bridge_of_Sighs",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Chrysler_Building",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Dracula_(1924_play",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Fondaco_dei_Tedeschi",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Mircea_II_of_Wallachia",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Nicholas_of_Modru%C5%A1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Prague_astronomical_clock",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Radu_the_Handsome",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/The_Ice_House_(St._Petersburg",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://en.wikipedia.org/wiki/Vlad_the_Impaler",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://historia.ro/sectiune/general/12-aprilie-1457-ziua-in-care-stefan-cel-mare-a-566466.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://research.library.kutztown.edu/cgi/viewcontent.cgi?article=1023&amp;context=dracula-studies",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ro.pinterest.com/cesiro_com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ro.wikipedia.org/wiki/Catedrala_Evanghelic%C4%83_din_Sibiu",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ro.wikipedia.org/wiki/Cetatea_F%C4%83g%C4%83ra%C8%99ului",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://scarlettmemories.com/2017/07/01/the-1462-letter-to-corvinus/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://walkoffame.com/history/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.at-wohnart.at",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.b1tv.ro/eveniment/istorie-epidemii-tarile-romane-ciuma-lui-caragea-323180.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.executedtoday.com/2010/08/24/1460-amlas-vlad-dracula-impaled/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.facebook.com/profile.php?id=100089260186048&locale=ro_RO",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.instagram.com/cesiroro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.rri.ro/en/features-and-reports/rri-encyclopaedia/franz-liszt-touring-the-romanian-principalities-id169984.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.youtube.com/@cesirodinnerwareproducersi662",
+    "status": "referinta_externa_necopiata"
+  }
+]

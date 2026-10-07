@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "audit_id": "AUD-SEL-001-A-GOVERNANCE-r01",
+  "deliverable_id": "SEL-001",
+  "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+  "reviewer_role": "A-GOVERNANCE",
+  "files": [
+    {
+      "path": "02_DOCUMENTARE/CANON_EXISTENT.md",
+      "sha256": "0c64e4cc13bed895a0105a582afca2c85905f69cc90e3ce34774446f2e87ad72"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "surse",
+      "weight": 25,
+      "score": 960,
+      "evidence": [
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L21-L71",
+        "08_ARHIVA/INTRARI_CANON/20260924-r01/index.json:L1-L17"
+      ]
+    },
+    {
+      "id": "distinctii",
+      "weight": 25,
+      "score": 975,
+      "evidence": [
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L25-L35",
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L151-L166",
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L239-L254"
+      ]
+    },
+    {
+      "id": "compatibilitate",
+      "weight": 20,
+      "score": 965,
+      "evidence": [
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L13-L19",
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L168-L223"
+      ]
+    },
+    {
+      "id": "recomandare",
+      "weight": 20,
+      "score": 965,
+      "evidence": [
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L9-L19",
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L225-L237"
+      ]
+    },
+    {
+      "id": "handoff",
+      "weight": 10,
+      "score": 975,
+      "evidence": [
+        "02_DOCUMENTARE/CANON_EXISTENT.md:L239-L267",
+        "00_CONDUCERE/RUBRICI.md:L7-L7"
+      ]
+    }
+  ],
+  "findings": [],
+  "verdict": "PASS",
+  "limitations": [
+    "Audit individual A-GOVERNANCE de proces și documentare; nu este verdictul agregat al porții și nu înlocuiește auditorul specialist sau A-QAMANAGER.",
+    "Nu am produs ori modificat livrabilele, registrele, arhivele sau site-ul; nu am citit fișiere .env și nu am creat subagenți.",
+    "SHA-256 probează identitatea octeților la momentele verificate, nu autenticitatea autorului, adevărul surselor sau protecție WORM.",
+    "Manifestele depuse au audits: [] și nu declară meta_audit. Validatorul executat în citire a returnat RETURN pentru fiecare pachet; SEL/RES au și dependența SYS-001 neacceptată. Aceasta este starea unei depuneri în audit, nu dovada unei aprobări fictive.",
+    "Nu se aprobă prin acest raport canonul integral, o intrigă, un roman, G01–G17, transferul sau publicarea.",
+    "PASS privește exclusiv auditul individual A-GOVERNANCE al anexei preliminare SEL-001. Nu este PASS agregat al livrabilului: A-CANON, metaauditul și dependența SYS-001 trebuie să satisfacă separat condițiile; SYS-001 este RETURN în prezentul audit.",
+    "Am citit integral CANON_EXISTENT.md, am verificat raportul față de manifest/snapshot și am comparat SHA-256 și dimensiunile celor 11 copii canonice cu sursele originale. Nu am citit integral romanele, nu am recitit pasajele lor pentru a certifica afirmațiile P-CANON și nu am reverificat site-ul public; controlul de fond aparține A-CANON.",
+    "Contradicțiile H-C1–H-C8 și necunoscutele de canon sunt obiecte declarate pentru G01, nu defecte ascunse sau închise prin acest PASS de documentare G00.",
+    "Arhiva suplimentară INTRARI_CANON este în afara manifestului SEL-001; indexul ei enumeră 11 surse, nu toate sursele raportului. La inspecție nu exista index.sha256 separat; digestul indexului calculat aici este în MD. Nu o certific drept snapshot complet al întregului canon."
+  ],
+  "reviewed_at": "2026-09-24T01:08:40+00:00"
+}
+

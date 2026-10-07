@@ -1,0 +1,60 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/f6bb3293-7405-49a8-8768-fb6549ffa02e/tool-results/bsgkl4ezg.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/bsgkl4ezg--8fca1528.txt",
+    "bytes": 33964,
+    "sha256": "e8ad6c4ffed4f25d9dae0f1a42e60b7f74c8dce2e6f3d94a7728a0c1a232cb99"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/f6bb3293-7405-49a8-8768-fb6549ffa02e/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\f6bb3293-7405-49a8-8768-fb6549ffa02e\\scratchpad\\ang855.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-09-18 Besprechungsunterlage TOMS Ziviltechniker - Schallergasse 35 (DE).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-18 Besprechungsunterlage TOMS Ziviltechniker - --0390d865.pdf",
+    "bytes": 686344,
+    "sha256": "df9b68ad796da744c49fde48369d786e9de675f1e9827960dc1ce2528be9c58e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\TOMS\\2026-09-18 Fragenkatalog TOMS - Schallergasse 35 (DE-RO, ausfuellbar).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-18 Fragenkatalog TOMS - Schallergasse 35 (DE-RO--5c3d5fa7.pdf",
+    "bytes": 593545,
+    "sha256": "529df4be8168e24217b032a7cca5629331d483380fdf4249ef1544bc69d1e060"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\01. Verificator (Pruefingenieur)\\\\TOMS\\\\2026-09-18 Besprechungsunterlage TOMS Ziviltechniker - Schallergasse 35 (DE).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-18 Besprechungsunterlage TOMS Ziviltechniker - --0390d865.pdf",
+    "bytes": 686344,
+    "sha256": "df9b68ad796da744c49fde48369d786e9de675f1e9827960dc1ce2528be9c58e"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\01. Verificator (Pruefingenieur)\\\\TOMS\\\\2026-09-18 Fragenkatalog TOMS - Schallergasse 35 (DE-RO, ausfuellbar).pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/2026-09-18 Fragenkatalog TOMS - Schallergasse 35 (DE-RO--5c3d5fa7.pdf",
+    "bytes": 593545,
+    "sha256": "529df4be8168e24217b032a7cca5629331d483380fdf4249ef1544bc69d1e060"
+  },
+  {
+    "source_reference": "toms-ziviltechniker-schallergasse.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

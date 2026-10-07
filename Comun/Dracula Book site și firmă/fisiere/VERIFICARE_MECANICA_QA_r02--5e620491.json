@@ -1,0 +1,90 @@
+{
+  "type": "DETERMINISTIC_CALIBRATION_CHECK_NOT_RECURSIVE_EDITORIAL_AUDIT",
+  "agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "role": "A-QAMANAGER",
+  "actual_responses": 11,
+  "unique_ids": 11,
+  "expected_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "A-QAMANAGER-S01",
+    "A-QAMANAGER-S02"
+  ],
+  "results": [
+    {
+      "id": "C01",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "C02",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "C03",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "C04",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "C05",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "C06",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "C07",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "C08",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "C09",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "A-QAMANAGER-S01",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    },
+    {
+      "id": "A-QAMANAGER-S02",
+      "key_match": true,
+      "reason_present": true,
+      "evidence_present": true
+    }
+  ],
+  "limitation": "Comparație de cheie și completitudine, nu scor literar și nu certificare umană.",
+  "qualified_by_key": true
+}

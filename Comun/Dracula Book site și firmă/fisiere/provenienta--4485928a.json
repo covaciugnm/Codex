@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-09-24T11:37:05.3943865+03:00",
+  "copies": [
+    {
+      "source": "06_REGISTRU/agents.json",
+      "copy": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_REMEDIERE_r03/agents.json",
+      "sha256": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+      "size_bytes": 2902,
+      "byte_identical": true
+    },
+    {
+      "source": "06_REGISTRU/deliverables.json",
+      "copy": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_REMEDIERE_r03/deliverables_G01_RETURN_r01.json",
+      "sha256": "468289f1f00fa42f67667b8da2ce96804e13ded5edff6e5a9c0e64bddc71253d",
+      "size_bytes": 109229,
+      "byte_identical": true
+    },
+    {
+      "source": "00_CONDUCERE/STATUS.md",
+      "copy": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_REMEDIERE_r03/STATUS_la_remediere.md",
+      "sha256": "2133495fe27454cf6000c7a905699a07371f8a32f54776b59a2b4c1b27d10f54",
+      "size_bytes": 8634,
+      "byte_identical": true
+    }
+  ],
+  "purpose": "Fixed historical context before G01 corrective product revision r03, formal future submission r02; G01 still RETURN r01",
+  "limits": "Role authorization is not runtime activity. No manuscript or site modification."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a0fbd7-f9a0-7df1-839f-a3792ebc6e66",
+  "cwd": "\\\\?\\UNC\\192.168.100.151\\site-uri\\print.eva-org.com",
+  "created_at": 1790931630,
+  "updated_at": 1790949307,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Creează site-ul EVA PRINT",
+  "project_id": "5ecee0ff-6b67-4fba-b6fb-a38674476433",
+  "project": "Print.eva-org,com",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 4100358,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 173,
+  "message_count": 16,
+  "content_sha256": "1d7d793148ae9233521bd2c62a88053133b0d8fa354f546357a52aa1e02fc331",
+  "files_copied": 36,
+  "references_not_copied": 4
+}

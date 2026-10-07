@@ -1,0 +1,46 @@
+[
+  {
+    "id": "nuci-dracula-farm",
+    "sku": "DF-001",
+    "price": 49,
+    "category": "pantry",
+    "image": "/assets/produse/dracula-food-nuci-dracula-farm.png",
+    "name": {
+      "ro": "Nuci Dracula-Farm",
+      "en": "Dracula-Farm Walnuts",
+      "de": "Dracula-Farm Walnüsse"
+    },
+    "description": {
+      "ro": "Un gust clasic. O prezentare cu personalitate. Prima selecție Dracula-Farm, în ambalajul negru cu semnătura Dracula Food.",
+      "en": "A classic flavour. A distinctive presentation. The first Dracula-Farm selection, in black packaging bearing the Dracula Food signature.",
+      "de": "Ein klassischer Geschmack. Ein unverwechselbarer Auftritt. Die erste Dracula-Farm Auswahl in schwarzer Verpackung mit der Dracula Food Signatur."
+    },
+    "details": {
+      "ro": "Nuci Dracula-Farm, prezentate în macheta de ambalaj de 500 g furnizată. Alergen: nuci. Fotografia ilustrează conceptul de prezentare. Compoziția finală, cantitatea comercială, informațiile nutriționale și condițiile de păstrare vor fi confirmate înainte de vânzare. Prețul afișat este demonstrativ.",
+      "en": "Dracula-Farm walnuts, shown in the supplied 500 g packaging mockup. Allergen: walnuts. The image illustrates the presentation concept. Final composition, retail quantity, nutrition information and storage conditions will be confirmed before sales begin. The displayed price is illustrative.",
+      "de": "Dracula-Farm Walnüsse im bereitgestellten Verpackungsentwurf für 500 g. Allergen: Walnüsse. Das Bild zeigt das Gestaltungskonzept. Endgültige Zusammensetzung, Verkaufsmenge, Nährwertangaben und Lagerbedingungen werden vor Verkaufsbeginn bestätigt. Der angezeigte Preis ist ein Beispielpreis."
+    }
+  },
+  {
+    "id": "alune-de-padure-dracula-farm",
+    "sku": "DF-002",
+    "price": 59,
+    "category": "pantry",
+    "image": "/assets/produse/dracula-food-alune-de-padure-dracula-farm.png",
+    "name": {
+      "ro": "Alune de pădure Dracula-Farm",
+      "en": "Dracula-Farm Hazelnuts",
+      "de": "Dracula-Farm Haselnüsse"
+    },
+    "description": {
+      "ro": "O selecție cu caracter, în aceeași semnătură Dracula-Farm. Alune de pădure într-un ambalaj negru, cu detalii roșii și o prezență discretă.",
+      "en": "A selection with character, bearing the Dracula-Farm signature. Hazelnuts in black packaging, with red details and a quietly distinctive presence.",
+      "de": "Eine Auswahl mit Charakter und der Dracula-Farm Signatur. Haselnüsse in schwarzer Verpackung mit roten Details und einem dezenten, unverwechselbaren Auftritt."
+    },
+    "details": {
+      "ro": "Alune de pădure Dracula-Farm, prezentate în macheta de ambalaj de 500 g furnizată. Alergen: alune de pădure. Fotografia ilustrează conceptul de prezentare. Compoziția finală, cantitatea comercială, informațiile nutriționale și condițiile de păstrare vor fi confirmate înainte de vânzare. Prețul afișat este demonstrativ.",
+      "en": "Dracula-Farm hazelnuts, shown in the supplied 500 g packaging mockup. Allergen: hazelnuts. The image illustrates the presentation concept. Final composition, retail quantity, nutrition information and storage conditions will be confirmed before sales begin. The displayed price is illustrative.",
+      "de": "Dracula-Farm Haselnüsse im bereitgestellten Verpackungsentwurf für 500 g. Allergen: Haselnüsse. Das Bild zeigt das Gestaltungskonzept. Endgültige Zusammensetzung, Verkaufsmenge, Nährwertangaben und Lagerbedingungen werden vor Verkaufsbeginn bestätigt. Der angezeigte Preis ist ein Beispielpreis."
+    }
+  }
+]

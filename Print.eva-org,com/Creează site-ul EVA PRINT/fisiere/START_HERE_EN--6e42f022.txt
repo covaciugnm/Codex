@@ -1,0 +1,41 @@
+EVA PRINT SRL — website prompt and research package
+Research date: 2 October 2026
+
+Start with 01_PROMPT/EVA_PRINT_MASTER_PROMPT_EN.txt or its PDF version. Open 11_PREVIEW/index.html to browse the researched materials, original drawings, technical documents and industry examples locally. This package prepares the website implementation; it is not a deployed production website.
+
+The design follows the owner's dynamic-content requirement: Go server-rendered pages, PostgreSQL canonical content, separate language definitions, display fields, translations and page positions. Menus, form definitions and public/private binary assets also belong to the DB. Changing a source field versions the content and queues the other languages; changing position applies to all language views. Translation propagation includes review and a current-source fallback, not an invented automatic complete translation.
+
+Folder map
+01_PROMPT: complete reusable English implementation prompt with grade-specific TDS URLs, image URLs and local resources.
+02_MATERIALS: alphabetical catalog, per-grade English descriptions/JSON, authored overview PDFs, supplier color/SKU snapshots.
+03_INDUSTRIES: English industry descriptions, proposed applications and documented external case studies.
+04_REFERENCE_PHOTOS: downloaded manufacturer/product/application reference images, with sources in the manifest and catalog.
+05_TECHNICAL_DRAWINGS: one original conceptual illustration per grade in PNG, SVG, PDF and editable DXF. These are schematic studies, not released production drawings. DXF is not DWG.
+06_DATASHEETS: downloaded manufacturer PDFs and original document ZIP packages. TDS and SDS are separate document types. Some original files are in languages other than English.
+07_DATABASE: PostgreSQL schema, dynamic-field migration, content seed, architecture, binary asset import manifest and import/deployment instructions.
+08_LOCALIZATION: English field import source and starter UI translations for EN/DE/FR/ES/RO/HU/BG. These files are imports, not runtime locale stores.
+09_SOURCES: provenance, retrieved webpage snapshots and readable text extracted from technical PDFs, for private research.
+10_AUTH_AND_ORDER: provider and project-intake requirements.
+11_PREVIEW: offline research viewer.
+12_VALIDATION: asset/count checks, PDF inspection, unavailable-document list and isolated PostgreSQL validation report.
+
+Scope and evidence
+The catalog contains supplier grades and variants, not an equivalent number of distinct polymers. It is an extensive starting catalog across 31 polymer/specialty families. No finite list can cover every proprietary formulation and future product. The prompt includes an expandable assessment register for additional families; administrators can add grades without changing code.
+
+Manufacturer TDS PDFs were obtained for most grades. The exact missing grades are in 12_VALIDATION/unavailable-manufacturer-tds.json. Each grade has an original EVA PRINT overview PDF, clearly distinguished from the supplier's official data. A missing TDS, unknown test state or unknown operating setting is not replaced with a guessed number.
+
+Every grade has an original technical illustration. Two legacy grades lack an exact supplier photograph in this snapshot: PC PBT — Polymaker and TPU 92A — Fillamentum. Their technical documents and conceptual illustrations are included. Reference galleries contain both printed-part images and product/spool images. Source links identify the manufacturer context; they are not evidence of completed EVA PRINT work.
+
+The company team of five engineers and broad stock statement come from the owner. Exact people, qualifications, stock quantities, supplier colors and printer configurations have not been independently verified. Supplier color/variant availability does not establish EVA PRINT inventory.
+
+Published printer specifications depend on configuration/generation. The Prusa owner URL now describes XL+, the owned XL must be verified. The Modix nominal metre cube and current GEN5 usable area differ. Nozzle assortment alone does not establish a heated-chamber process. PEEK/PEI reference entries are not confirmed services on the declared fleet. Review each specialist grade and geometry before offering production.
+
+Industry applications in the catalog are proposed uses. The documented external cases are manufacturer references and must not be presented as EVA PRINT customers or portfolio projects. Unknown case-study filament grades remain unknown.
+
+All external photographs are private research copies until commercial publication rights are established. The public site can use original illustrations and approved/licensed/company media. Do not deploy this package as a public static directory. Included web.config/.htaccess denial files help prevent exposure on matching IIS/Apache configurations; verify the actual server behavior before placing private research on any served path.
+
+EU Pass has not been identified. Its provider adapter is specified but disabled pending confirmation. Google sign-in needs real credentials and callbacks. The package contains no provider secrets, customer records, fabricated sign-in or submitted orders.
+
+Initial six non-English UI translations are drafts; the large technical catalog is authored in English. Do not claim that all seven full catalogs are already translated. Review technical/legal translations and actual company policy before publication.
+
+Validation is limited to this package and isolated PostgreSQL tests. Performance targets are acceptance criteria for the future Go website, not measured production results. See 12_VALIDATION/database-validation.json and asset-validation.json for the completed checks and precise scope.

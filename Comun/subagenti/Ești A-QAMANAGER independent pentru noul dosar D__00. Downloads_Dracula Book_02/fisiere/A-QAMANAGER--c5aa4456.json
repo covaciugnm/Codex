@@ -1,0 +1,102 @@
+{
+  "agent_id": null,
+  "role": "A-QAMANAGER",
+  "work_id": "ROM-002",
+  "exercise_type": "CALIBRARE_DESCHISA",
+  "set_version": "r02",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Defectul este la criteriul punctat cu exact 950 și la verdictul PASS al autorului. Condiția este strict >950 pe fiecare criteriu; egalitatea cu pragul eșuează, iar celelalte valori de 980 și orice medie nu o pot compensa.",
+      "evidence": "01_SURSE/originale/S06.md#c01; 01_SURSE/originale/S03.json: threshold_exclusive=950, require_all_criteria_above_threshold=true; 01_SURSE/originale/S04.md, §3."
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Defectul este în identitatea semnatarului auditului: aliasul Y păstrează ID-ul X al producătorului. Aceeași execuție își verifică propriul livrabil, deci independența lipsește indiferent de numele de rol folosit.",
+      "evidence": "01_SURSE/originale/S06.md#c02; 01_SURSE/originale/S04.md, §2–3 și §10."
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Defectul este nepotrivirea dintre amprenta A citată în raport și amprenta B a fișierului curent. Concluziile raportului nu acoperă versiunea prezentă; aceasta trebuie fixată și auditată din nou, nu validată prin simpla înlocuire a hashului din raport.",
+      "evidence": "01_SURSE/originale/S06.md#c03; 01_SURSE/originale/S04.md, §3–4."
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Lipsa este localizată la elementul C02 prevăzut de plan. Predarea conține numai C01 și C03, astfel că afirmația de completitudine din sumar nu are corespondent în text. Este necesară completarea predării și reverificarea acoperirii planului.",
+      "evidence": "01_SURSE/originale/S06.md#c04; 01_SURSE/originale/S04.md, §5 și §11."
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Defectul este scena textuală identică de 2.000 de cuvinte inclusă în două capitole și contabilizată de două ori. A doua apariție nu justifică încă 2.000 de cuvinte de proză distinctă. Duplicarea și numărătoarea trebuie remediate, apoi textul și totalul trebuie reverificate.",
+      "evidence": "01_SURSE/originale/S06.md#c05; 01_SURSE/originale/S04.md, §9–10."
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Contradicția este între moartea definitivă a Marei la sfârșitul V1 și prezentarea ei vie în V2. Stimulul nu oferă explicație sau schimbare autorizată de canon; nu pot inventa o revenire ori altă rezolvare pentru a elimina defectul.",
+      "evidence": "01_SURSE/originale/S06.md#c06; 01_SURSE/originale/S04.md, §5 și §11."
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Omisiunea este paragraful P04 din traducerea DE, deși el există în masterul EN. Corespondența identificatorilor P01–P04 nu este completă. Un volum de cuvinte apropiat nu ar acoperi lipsa; P04 trebuie tradus, iar integralitatea reverificată.",
+      "evidence": "01_SURSE/originale/S06.md#c07; 01_SURSE/originale/S04.md, §12."
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "Nu există defect în condițiile date: fiecare criteriu are 951, deci depășește strict 950. Stimulul confirmă cei doi auditori independenți și calificați, aceeași versiune fixată, absența constatărilor, metaauditul valid și toate verificările tehnice. Nu există temei pentru a adăuga un prag de 1000 sau alte condiții.",
+      "evidence": "01_SURSE/originale/S06.md#c08; 01_SURSE/originale/S03.json: threshold_exclusive=950, min_independent_auditors=2, require_all_criteria_above_threshold=true, require_meta_audit=true; 01_SURSE/originale/S04.md, §3."
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Limitarea declarată se află în raportul unei selecții preliminare și corespunde acestui scop: pasajele citite sunt delimitate, fără pretenție de canon integral sau de aprobare a romanului. Limitarea sinceră nu constituie singură un defect și nici nu furnizează un PASS automat pentru întregul produs.",
+      "evidence": "01_SURSE/originale/S06.md#c09; 01_SURSE/originale/S04.md, §4–5."
+    },
+    {
+      "id": "A-QAMANAGER-S01",
+      "verdict": "META_POATE_PASS",
+      "reason": "Constatarea deschisă privește produsul și este reflectată corect în verdictul primar RETURN. Stimulul confirmă validitatea calculelor, acoperirii, independenței și dovezilor; rezultatul negativ nu invalidează acel raport. Metaauditul poate confirma raportul ca valid, în timp ce produsul rămâne RETURN.",
+      "evidence": "01_SURSE/originale/S06.md#a-qamanager-s01; 01_SURSE/originale/S04.md, §11, metaaudit terminal."
+    },
+    {
+      "id": "A-QAMANAGER-S02",
+      "verdict": "RETURN",
+      "reason": "Defectul este în legătura dintre afirmația auditorului și referința citată: sursa nu susține afirmația și nu există altă probă. Nota 980 nu repară lipsa justificării. Se întoarce raportul auditorului pentru remedierea probei și reverificare.",
+      "evidence": "01_SURSE/originale/S06.md#a-qamanager-s02; 01_SURSE/originale/S04.md, §11."
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "qualification_note": "Cele 11 verdicte sunt conforme cheii deschise r02 și sunt însoțite de localizare, motiv propriu și trimitere. Verificarea nominală și controlul răspunsurilor A-QAMANAGER de către coordonator rămân necesare; această calibrare nu aprobă un produs și nu constituie audit sau scor literar.",
+  "coordinator_verification": "PENDING",
+  "identity_note": "ID-ul real al acestei execuții nu este cunoscut; agent_id rămâne null pentru înscriere de către coordonator. Rolul A-QAMANAGER este păstrat în această conversație pentru mandatul ulterior de audit pe copie fixă. Nu am produs livrabilele de auditat.",
+  "scope": {
+    "production_evaluated": false,
+    "literary_score_assigned": false,
+    "product_approved": false,
+    "production_audit_started": false
+  },
+  "completed_at": "2026-09-28T05:40:14+03:00",
+  "source_snapshots": [
+    {
+      "path": "01_SURSE/originale/S06.md",
+      "sha256": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba"
+    },
+    {
+      "path": "01_SURSE/originale/S03.json",
+      "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4"
+    },
+    {
+      "path": "01_SURSE/originale/S04.md",
+      "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2"
+    }
+  ]
+}

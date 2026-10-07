@@ -1,0 +1,14 @@
+[
+  {
+    "source_reference": "\\\\192.168.100.169\\...",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Dracula Book",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\DESKTOP-COSMIN",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

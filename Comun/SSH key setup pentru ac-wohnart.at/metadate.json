@@ -1,0 +1,23 @@
+{
+  "id": "01a0ed79-7dab-72f0-b32c-629c22385738",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790679591,
+  "updated_at": 1790682607,
+  "archived": 0,
+  "source": "vscode",
+  "title": "SSH key setup pentru ac-wohnart.at",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 806450,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 426,
+  "message_count": 426,
+  "content_sha256": "2551953fd18b4b9a1091a865617fdfcf66fdb0734700706192f7d454fef5b2b0",
+  "files_copied": 15,
+  "references_not_copied": 17
+}

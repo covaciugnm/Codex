@@ -1,0 +1,94 @@
+﻿JURNAL OBIECTIVE / ACTIUNI / REZULTATE
+Data de referinta: 30.09.2026 (Europe/Bucharest)
+Obiectiv general: audit sever al Clarificarii nr. 1 privind prelungirea contractului CFMSES011011372801030, corelat cu solicitarile finantatorului si documentele depuse.
+
+EVIDENTA COMENZILOR
+ISTORIC_COMENZI_REZULTATE.jsonl contine apelurile si rezultatele instrumentelor din sesiunea principala, exportate fara mesaje de conversatie sau rationament intern. Exportul este un instantaneu; se actualizeaza la inchiderea lucrarii.
+JURNAL_COMENZI.jsonl contine comenzile noi, scopul declarat si rezultatul capturat de la instituirea jurnalului.
+Notele de mai jos pentru etapele anterioare cererii de jurnal sunt retrospective, pe baza probelor si rezultatelor pastrate. Nu sunt prezentate ca ore exacte de executie.
+
+O01. Identificarea solicitarii AFIR
+Actiune: cautare si citire emailuri AFIR si atasamente.
+Rezultat: cererea 1382394 comunicata la 29.09.2026, 11:47; model Partea II, 5 zile lucratoare, nota/memoriu/grafice, termene procedurale si urgentare PTE-IU.
+Dovada: tehnic_email.txt; sursele A1/A2 din raport.
+
+O02. Clarificarea acceptarii celor 8 luni
+Actiune: citirea mesajului Sorinei Munteanu si a confirmarii beneficiarului.
+Rezultat: termen acceptabil daca este justificat; nu este aprobare de act aditional. Confirmarea primirii exista.
+
+O03. Acces si inventar
+Actiune: enumerare dosar local/retea, identificare Python si biblioteci.
+Rezultat: accesul standard a ramas suspendat; accesul cu aprobare a functionat. Inventar initial intreg proiect: 761 PDF-uri si 201 DOCX, cu copii/versiuni istorice.
+
+O04. Extragerea dosarului prelungirii
+Actiune: extract_audit.py, fitz/python-docx, hash SHA-256 si inventar ZIP.
+Rezultat: 38 fisiere inventariate, 24 PDF-uri / 55 pagini. Un fisier temporar Word ~$ nu poate fi tratat ca document normal.
+Dovada: extragere_prelungire.json.
+
+O05. Verificarea celor sase anexe finale
+Actiune: citire text integrala si inspectie vizuala referat/grafic.
+Rezultat: 13 pagini citite; termene si sume principale corelate; Partea II lipseste din pachet.
+
+O06. Integritatea pachetului
+Actiune: comparare SHA-256 pentru continutul ZIP fata de PDF-urile finale.
+Rezultat: toate cele sase coincid. Dovada: MANIFEST_PACHET_VERIFICAT.json.
+
+O07. Audit tehnic independent
+Actiune: corelare ATR, AA1 AFIR, acte furnizor, fise echipamente, surse ANRE.
+Rezultat: configuratie ATR veche; 2222x450=999,900 kWp; termene conditionate de incadrare; acte comerciale necorelate cu noul calendar.
+Dovada: tehnic_email.txt.
+
+O08. Audit financiar independent
+Actiune: extragere 67 PDF-uri si inspectie vizuala raport ATTA, extrase, PV.
+Rezultat: sumele clarificarii sunt corecte; plati 2.985.000 lei cu TVA; erori istorice in raport/PV.
+Dovada: identitate_financiar.txt, identitate_extragere.json, imagini raport.
+
+O09. Audit procedural independent
+Actiune: comparare cerinte AFIR, verificare structurala semnaturi, cronologie si consumator eligibil.
+Rezultat: lipsa Partea II; justificare procedurala incompleta; nevoie de dovezi pentru PTE/livrari si calendarul fabricii. Semnaturi structurale prezente; validitatea criptografica neverificata.
+Dovada: procedura.txt, procedura_semnaturi.json.
+
+O10. Verificarea suplimentara a surselor istorice
+Actiune: confruntare acte semnate cu drafturi; verificare articol 9/12 din Anexa I.
+Rezultat: se separa erorile istorice/draft de problemele pachetului curent. Anul 2214 din extras ramane de confirmat vizual; nu este calificat definitiv drept eroare certa.
+
+O11. Blocaj limita de utilizare
+Actiune: tentativa de verificare vizuala suplimentara.
+Rezultat: neexecutata; verificarea automata a aprobarii a raportat limita de utilizare epuizata, fara constatare ca actiunea era nesigura.
+
+O12. Reluare dupa solicitarea utilizatorului
+Actiune: acces standard la UNC, apoi prin fluxul de aprobare.
+Rezultat: apelurile standard functions.exec 1 si 2 au ramas suspendate si au fost terminate; accesul cu aprobare a reusit.
+
+O13. Jurnalul cerut de utilizator
+Actiune: creare JURNAL_COMENZI.jsonl; tentativa export larg al conversatiei, apoi export strict comenzi/rezultate.
+Rezultat: exportul larg a fost respins de revizia automata, deoarece includea comunicari mai ample decat jurnalul cerut. Nu a fost executat. Varianta restransa la apeluri/rezultate instrumente a fost aprobata; primul export are 141 evenimente.
+Dovada: ISTORIC_COMENZI_REZULTATE.jsonl. Nu s-a copiat conversatia integrala.
+
+O14. Raport consolidat
+Actiune: redactare raport DOCX/PDF, registru XLSX si manifest de integritate.
+Rezultat: se confirma prin lista fisierelor si verificarea de dupa generare, consemnate in JURNAL_COMENZI.jsonl.
+
+Stare documente originale: nemodificate.
+Stare depunere AFIR: nu a fost efectuata/verificata in portal.
+Stare comunicari externe: nu au fost trimise.
+
+O15. Limita Windows a lungimii comenzii
+Actiune: prima tentativa de generare a tuturor fisierelor intr-o singura comanda.
+Rezultat: comanda neexecutata (os error 206). Continutul a fost apoi salvat in 14 fragmente, fiecare consemnat in JURNAL_COMENZI.jsonl.
+
+O16. Controlul referintelor
+Actiune: verificare existentei fisierelor citate. Prima cautare AP1.1 nu a gasit un rezultat, deoarece numele real contine spatiu: AP 1.1.
+Rezultat: sursa F1 a fost corectata la calea exacta; raportul si registrul au fost regenerate.
+
+O17. Verificare finala
+Rezultat: PDF 10 pagini; DOCX lizibil, 215 paragrafe; registru 20 constatari, dintre care 8 MAJOR. Toate ID-urile constatarilor exista in PDF. Nicio cale locala citata lipsa. Niciun caracter de inlocuire detectat. Cele sase PDF-uri sursa au aceleasi SHA-256 ca la inceput.
+Dovada: VERIFICARE_RAPORT.json; MANIFEST_PACHET_VERIFICAT.json.
+
+O18. Predare
+Actiune: solicitare de afisare a raportului PDF in aplicatie.
+Rezultat: queued, conform raspunsului instrumentului; nu se afirma ca afisarea este deja finalizata.
+Fisiere principale: Raport_audit_Clarificare_nr1.pdf; Raport_audit_Clarificare_nr1.docx; Registru_constatari_audit.xlsx.
+Jurnalele subauditorilor: INDEX_JURNALE_SUBAUDITORI.json; 238 evenimente de instrumente in cele trei sesiuni de audit cu activitate. Instantaneul principal se actualizeaza la aceasta inchidere; rezultatul ultimei comenzi este consemnat separat in JURNAL_COMENZI.jsonl.
+Concluzie: auditul documentar si jurnalizarea sunt predate; remedierea documentelor si depunerea AFIR nu au fost efectuate.
+

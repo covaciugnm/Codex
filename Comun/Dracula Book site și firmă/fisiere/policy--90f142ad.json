@@ -1,0 +1,8 @@
+{
+  "schema_version": 2,
+  "threshold_exclusive": 950,
+  "score_scale": 1000,
+  "min_independent_auditors": 2,
+  "require_all_criteria_above_threshold": true,
+  "require_meta_audit": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a0c923-d064-7d82-b45c-63a9b07604a9",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790080962,
+  "updated_at": 1790081041,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică emailul și atașamentul",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 726892,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 12,
+  "message_count": 4,
+  "content_sha256": "1e9b2c4ee1be370dd3613cb7db464f5a0da509b222af9925ff4165a4f8200a9e",
+  "files_copied": 0,
+  "references_not_copied": 1
+}

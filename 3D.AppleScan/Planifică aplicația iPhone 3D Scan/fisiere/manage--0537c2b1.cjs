@@ -1,0 +1,79 @@
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const root = path.resolve(__dirname, '..');
+const stamp = () => new Date().toISOString();
+const read = p => fs.readFileSync(path.join(root,p),'utf8').replace(/^\uFEFF/,'');
+const json = p => JSON.parse(read(p));
+const hashBytes = b => crypto.createHash('sha256').update(b).digest('hex');
+const hash = p => hashBytes(fs.readFileSync(path.join(root,p)));
+const write = (p,s) => { const dest=path.join(root,p); fs.mkdirSync(path.dirname(dest),{recursive:true}); const tmp=dest+'.tmp';fs.writeFileSync(tmp,s,'utf8'); fs.renameSync(tmp,dest); };
+const files = (d=root) => fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(path.join(d,e.name)):[path.relative(root,path.join(d,e.name)).replaceAll('\\','/')]);
+const save = (p,v) => write(p,JSON.stringify(v,null,2)+'\n');
+const event = (actor,task,type,result,artifacts=[],next='Consultă STATUS.json') => {
+ if(!/^[a-z0-9_-]+$/.test(actor)) throw Error('actor invalid');
+ if([task,type,result,next].some(v=>typeof v!=='string'||!v.trim()))throw Error('task/event/result/next required');
+ if(!Array.isArray(artifacts)||artifacts.some(v=>typeof v!=='string'))throw Error('artifacts invalid');
+ const p=`09_jurnale/${actor}.jsonl`;
+ const previous=fs.existsSync(path.join(root,p))?read(p).trim().split(/\r?\n/).filter(Boolean).at(-1):null;
+ const entry={event_id:crypto.randomUUID(),timestamp:stamp(),actor,task,event:type,result,artifacts,next,previous_line_sha256:previous?hashBytes(previous):null};
+ fs.appendFileSync(path.join(root,p),JSON.stringify(entry)+'\n','utf8');return entry;
+};
+const cmd=process.argv[2];
+if(cmd==='event') console.log(JSON.stringify(event(process.argv[3],process.argv[4],process.argv[5],process.argv[6],process.argv.slice(7))));
+if(cmd==='event-json') {
+ const e=JSON.parse(fs.readFileSync(process.argv[3],'utf8').replace(/^\uFEFF/,''));
+ if(!Number.isInteger(e.attempt)||e.attempt<1||!e.input_hashes||typeof e.input_hashes!=='object'||Array.isArray(e.input_hashes)||!Array.isArray(e.checks))throw Error('attempt, input_hashes and checks required');
+ if(!/^[a-z0-9_-]+$/.test(e.actor)||[e.task,e.event,e.result,e.next].some(v=>typeof v!=='string'||!v.trim())||!Array.isArray(e.artifacts))throw Error('invalid event');
+ if(e.artifacts.some(v=>typeof v!=='string'||!v.trim())||e.checks.some(v=>typeof v!=='string'||!v.trim())||Object.entries(e.input_hashes).some(([k,v])=>!k.trim()||typeof v!=='string'||! /^[a-f0-9]{64}$/i.test(v)))throw Error('Invalid artifacts/checks/hash elements');
+ const p=`09_jurnale/${e.actor}.jsonl`,lines=fs.existsSync(path.join(root,p))?read(p).trim().split(/\r?\n/).filter(Boolean):[];
+ const record={...e,schema_version:'1.1',event_id:crypto.randomUUID(),timestamp:stamp(),previous_line_sha256:lines.length?hashBytes(lines.at(-1)):null};
+ fs.appendFileSync(path.join(root,p),JSON.stringify(record)+'\n','utf8');console.log(JSON.stringify(record));
+}
+if(cmd==='validate') {
+ const failures=[],all=files(),checks=[];
+ for(const p of all.filter(p=>/\.jsonl?$/.test(p))) {try{if(p.endsWith('.jsonl')){const lines=read(p).trim().split(/\r?\n/).filter(Boolean);lines.forEach((l,i)=>{const e=JSON.parse(l);if(e.previous_line_sha256!==undefined && e.previous_line_sha256!==(i?hashBytes(lines[i-1]):null))throw Error(`hashchain line ${i+1}`);});}else json(p);checks.push(p);}catch(e){failures.push(`${p}: ${e.message}`);}}
+ for(const p of all.filter(p=>p.endsWith('.md')&&!p.startsWith('08_livrabile/'))){const txt=read(p);if(txt.includes('\uFFFD'))failures.push('UTF8 '+p);for(const m of txt.matchAll(/\]\(([^)]+)\)/g)){if(/^(https?:|mailto:|#)/.test(m[1]))continue;const t=m[1].split('#')[0];if(t&&!fs.existsSync(path.resolve(root,path.dirname(p),t)))failures.push('Missing link '+p+' -> '+t);}}
+ if(fs.existsSync(path.join(root,'03_plan/tasks.json'))){const tasks=json('03_plan/tasks.json').tasks;const ids=new Set(tasks.map(t=>t.id));if(ids.size!==tasks.length)failures.push('Duplicate task IDs');const byId=new Map(tasks.map(t=>[t.id,t]));const active=new Set(),done=new Set();function visit(id){if(active.has(id)){failures.push('Dependency cycle '+id);return;}if(done.has(id))return;active.add(id);for(const d of byId.get(id)?.dependencies||[]){if(!ids.has(d))failures.push('Unknown dependency '+d);else visit(d);}active.delete(id);done.add(id);}for(const t of tasks){visit(t.id);if(!t.owner||!t.auditor||t.owner===t.auditor)failures.push('Invalid auditor '+t.id);if(!t.acceptance||!t.next_action)failures.push('Incomplete task '+t.id);if(t.status==='accepted')for(const o of t.outputs||[])if(!fs.existsSync(path.join(root,o)))failures.push('Missing accepted output '+o);}}
+ if(fs.existsSync(path.join(root,'03_plan/requirements.json'))&&fs.existsSync(path.join(root,'05_validare/experiments.json'))){const reqs=json('03_plan/requirements.json').requirements;const ex=json('05_validare/experiments.json').experiments;const ei=new Set(ex.map(e=>e.id)),ri=new Set(reqs.map(r=>r.id));if(ri.size!==reqs.length||ei.size!==ex.length)failures.push('Duplicate requirement/experiment');for(const r of reqs){if(!r.tests?.length)failures.push('Untested requirement '+r.id);for(const t of r.tests||[])if(!ei.has(t))failures.push('Unknown test '+t);}for(const e of ex){if(!e.metric||!e.target||!e.protocol||!e.sample||!e.owner||!e.auditor)failures.push('Incomplete experiment '+e.id);for(const r of e.requirements||[])if(!ri.has(r))failures.push('Unknown requirement '+r);}}
+ if(fs.existsSync(path.join(root,'07_audit/REGISTRU.json'))){const audits=json('07_audit/REGISTRU.json');if(audits.status==='accepted'&&(audits.findings||[]).some(f=>f.status!=='closed'))failures.push('Accepted audit with open findings');}
+ const rolePath='02_echipa/roles.json',taskPath='03_plan/tasks.json',expPath='05_validare/experiments.json';
+ const roleIds=fs.existsSync(path.join(root,rolePath))?new Set(json(rolePath).roles.map(r=>r.id)):new Set();
+ const exps=fs.existsSync(path.join(root,expPath))?json(expPath).experiments:[],expIds=new Set(exps.map(e=>e.id));
+ const taskStates=new Set(['planned','ready','in_progress','in_review','rework','blocked','accepted','abandoned']);
+ if(fs.existsSync(path.join(root,taskPath)))for(const t of json(taskPath).tasks){
+   if(!taskStates.has(t.status))failures.push('Invalid task status '+t.id);
+   for(const r of [t.owner,t.auditor])if(!roleIds.has(r))failures.push('Unknown task role '+r+' '+t.id);
+   for(const e of t.experiments||[])if(!expIds.has(e))failures.push('Unknown task experiment '+e+' '+t.id);
+   if(t.status==='accepted'){
+     if(!t.audit_ref||!fs.existsSync(path.join(root,t.audit_ref)))failures.push('Accepted without audit '+t.id);
+     if(!t.accepted_at||!t.acceptance_evidence?.length)failures.push('Accepted without evidence '+t.id);
+     for(const e of t.acceptance_evidence||[])if(!fs.existsSync(path.join(root,e)))failures.push('Missing acceptance evidence '+t.id+' '+e);
+     if(t.id.startsWith('W'))for(const id of t.experiments||[]){const ex=exps.find(e=>e.id===id);if(ex?.status!=='passed'||!ex.result)failures.push('Accepted W with unexecuted experiment '+t.id+' '+id);}
+   }
+ }
+ for(const e of exps){if(!['planned','in_progress','passed','failed','inconclusive','blocked'].includes(e.status))failures.push('Invalid experiment status '+e.id);if(e.status==='passed'&&!e.result)failures.push('Passed experiment without result '+e.id);for(const r of [e.owner,e.auditor])if(!roleIds.has(r))failures.push('Unknown experiment role '+r);}
+ if(fs.existsSync(path.join(root,'03_plan/requirements.json'))){const reqs=json('03_plan/requirements.json').requirements;for(const r of reqs){if(!roleIds.has(r.owner)||!r.acceptance)failures.push('Incomplete requirement ownership/criterion '+r.id);for(const id of r.tests||[])if(!exps.find(e=>e.id===id)?.requirements?.includes(r.id))failures.push('Unreciprocal requirement '+r.id+' '+id);}for(const e of exps){if(e.owner===e.auditor)failures.push('Same experiment author/auditor '+e.id);for(const id of e.requirements||[])if(!reqs.find(r=>r.id===id)?.tests?.includes(e.id))failures.push('Unreciprocal experiment '+e.id+' '+id);}}
+ if(fs.existsSync(path.join(root,'05_validare/subtests.json')))for(const s of json('05_validare/subtests.json').subtests){if(!expIds.has(s.experiment)||!fs.existsSync(path.join(root,s.source)))failures.push('Invalid subtest '+s.id);}
+ if(fs.existsSync(path.join(root,'07_audit/REGISTRU.json'))){const a=json('07_audit/REGISTRU.json');if(a.status==='accepted'){for(const d of a.required_domains||[]){const rv=(a.reviews||[]).find(r=>r.domain===d&&r.status==='accepted');if(!rv||!rv.report||!fs.existsSync(path.join(root,rv.report))||!rv.author_agent||!rv.auditor_agent||rv.author_agent===rv.auditor_agent)failures.push('Domain not independently accepted '+d);if(!rv?.findings_ref||!fs.existsSync(path.join(root,rv.findings_ref)))failures.push('Domain findings absent '+d);else{const f=json(rv.findings_ref),entries=Array.isArray(f)?f:f.findings;if(!Array.isArray(entries)||entries.some(x=>x.status!=='closed'))failures.push('Domain findings open '+d);}}if(!a.required_domains?.length)failures.push('Accepted audit without required domains');}}
+ for(const p of all.filter(p=>p.startsWith('09_jurnale/')&&p.endsWith('.jsonl'))){for(const l of read(p).split(/\r?\n/).filter(Boolean)){const e=JSON.parse(l);if(!e.task||!e.event||!(e.timestamp||e.timestamp_utc)||!e.next)failures.push('Invalid basic event '+p);if(e.schema_version==='1.1'&&(!e.event_id||!e.timestamp||!e.actor||!e.task||!e.event||!e.result||!e.next||!Number.isInteger(e.attempt)||e.attempt<1||!Array.isArray(e.artifacts)||!e.input_hashes||!Array.isArray(e.checks)))failures.push('Invalid structured event '+p);}}
+ for(const p of all.filter(p=>p.startsWith('09_jurnale/')&&p.endsWith('.jsonl')))for(const l of read(p).split(/\r?\n/).filter(Boolean)){const e=JSON.parse(l);if(e.schema_version==='1.1'&&((e.artifacts||[]).some(v=>typeof v!=='string'||!v.trim())||(e.checks||[]).some(v=>typeof v!=='string'||!v.trim())||Object.entries(e.input_hashes||{}).some(([k,v])=>!k.trim()||typeof v!=='string'||!/^[a-f0-9]{64}$/i.test(v))))failures.push('Invalid structured elements '+p);}
+ for(const p of all.filter(p=>p.endsWith('.tmp')&&!p.startsWith('07_audit/fixtures/')))failures.push('Unconfirmed temporary artifact '+p);
+ const report={at:stamp(),status:failures.length?'failed':'passed',checks:checks.length,failures,scope:'JSON, JSONL hashchain where present, internal links, dependencies, traceability and documentary state; not semantic proof or physical validation'};save('07_audit/VERIFICARE_AUTOMATA.json',report);console.log(JSON.stringify(report));if(failures.length)process.exitCode=1;
+}
+if(cmd==='manifest'){const excludes=['MANIFEST_SHA256.json','LIVRARE_CONFIRMATA.json'];const f=files().filter(p=>!excludes.includes(p)).sort().map(p=>({path:p,bytes:fs.statSync(path.join(root,p)).size,sha256:hash(p)}));save('MANIFEST_SHA256.json',{at:stamp(),excludes,files:f});console.log(JSON.stringify({files:f.length}));}
+if(cmd==='verify'){const m=json('MANIFEST_SHA256.json'),mismatches=m.files.filter(f=>!fs.existsSync(path.join(root,f.path))||hash(f.path)!==f.sha256).map(f=>f.path);const tracked=new Set(m.files.map(f=>f.path));const extra=files().filter(p=>!tracked.has(p)&&!m.excludes.includes(p));console.log(JSON.stringify({status:mismatches.length||extra.length?'failed':'passed',files:m.files.length,mismatches,extra}));if(mismatches.length||extra.length)process.exitCode=1;}
+if(cmd==='build'){
+ const order=['00_control/INVENTAR_SI_SCOP.md',...files().filter(p=>p.startsWith('01_capitole/')&&p.endsWith('.md')).sort(),'02_echipa/FISE_DE_POST.md','02_echipa/AGENTI_RUNTIME.md','02_echipa/PROMPT_MASTER.md','03_plan/PLAN_EXECUTIE.md','05_validare/CRITERII_CANONICE.md','05_validare/PROTOCOL_AUDIT.md','00_control/RELUARE.md',...files().filter(p=>p.startsWith('07_audit/')&&p.endsWith('.md')).sort(),'06_surse/BIBLIOGRAFIE.md'];
+ const chapters=order.filter(p=>fs.existsSync(path.join(root,p)));
+ let md='# EVA 3dScan de la scanare metrică la percepție robotică\n\nDosar de cercetare și proiectare · 2 octombrie 2026\n\nSpecificație propusă, echipă, plan și protocoale reproductibile. Fără rezultate fizice validate. Starea aprobării documentare se citește în rapoartele de audit incluse.\n\n';
+ for(const p of chapters)md+='\n\n'+read(p)+'\n';
+ write('08_livrabile/DOSAR_COMPLET.md',md);
+ const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+ const inline=s=>esc(s).replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g,'<a href="$2">$1</a>');
+ let code=false,table=false,buf=[],nav=[],h=0;for(const line of md.split(/\r?\n/)){if(line.startsWith('```')){if(table){buf.push('</tbody></table></div>');table=false;}code=!code;buf.push(code?'<pre><code>':'</code></pre>');continue;}if(code){buf.push(esc(line)+'\n');continue;}if(line.startsWith('|')){if(/^\|[\s:|\-]+\|$/.test(line))continue;if(!table){buf.push('<div class="table-wrap"><table><tbody>');table=true;}buf.push('<tr>'+line.split('|').slice(1,-1).map(c=>'<td>'+inline(c.trim())+'</td>').join('')+'</tr>');continue;}if(table){buf.push('</tbody></table></div>');table=false;}const m=line.match(/^(#{1,6}) (.+)$/);if(m){const id='s'+(++h);buf.push(`<h${m[1].length} id="${id}">${inline(m[2])}</h${m[1].length}>`);if(m[1].length===1)nav.push(`<a href="#${id}">${esc(m[2])}</a>`);}else if(/^[-*] /.test(line))buf.push('<p class="bullet">• '+inline(line.slice(2))+'</p>');else if(line.trim())buf.push('<p>'+inline(line)+'</p>');}
+ if(table)buf.push('</tbody></table></div>');
+ write('08_livrabile/DOSAR_COMPLET.html',`<!doctype html><html lang="ro"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EVA 3dScan · Cercetare și arhitectură robotică</title><style>body{margin:0;background:#edf2f5;color:#182c3c;font:16px/1.65 system-ui,Segoe UI,sans-serif}aside{position:fixed;inset:0 auto 0 0;width:260px;box-sizing:border-box;padding:24px;background:#123245;color:#fff;overflow:auto}aside a{display:block;color:#d4ecf3;text-decoration:none;font-size:12px;padding:6px 0}main{margin:0 0 0 260px;padding:48px 5vw;background:#fff;max-width:1180px}h1{color:#087c82;font-size:30px;line-height:1.25;margin:60px 0 20px}h2{font-size:23px;margin-top:38px}h3{font-size:19px}p{margin:12px 0}.bullet{margin:5px 0 5px 18px}a{color:#075e90;overflow-wrap:anywhere}code{font-size:.86em;background:#edf3f6;overflow-wrap:anywhere}pre{background:#edf3f6;padding:18px;white-space:pre-wrap;overflow-wrap:anywhere}.table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:12px;margin:20px 0}td{padding:8px;border:1px solid #cad9e1;vertical-align:top}tr:first-child{font-weight:600;background:#e5f3f4}footer{margin-top:60px;color:#556}@media(max-width:900px){aside{position:static;width:auto;max-height:250px}main{margin:0;padding:22px}}@page{size:A4;margin:17mm 14mm}@media print{aside{display:none}main{margin:0;padding:0;max-width:none}body{background:white;font-size:10pt;line-height:1.5}h1{break-before:page;font-size:22pt}h2{font-size:16pt}h3{font-size:12pt}h1,h2,h3{break-after:avoid}table{font-size:8pt}.table-wrap{overflow:visible}tr{break-inside:avoid}a{color:inherit}pre{font-size:8pt}}</style><aside><h2>EVA 3dScan</h2><p>Cercetare și proiectare<br>iPhone · 6D · ROS 2</p>${nav.join('')}</aside><main>${buf.join('\n')}<footer>Document de proiectare. Pragurile de performanță necesită validare experimentală.</footer></main></html>`);
+ console.log(JSON.stringify({chapters:chapters.length,words:md.split(/\s+/).length}));
+}
+if(!['event','event-json','validate','manifest','verify','build'].includes(cmd)) {console.error('Usage: node tools/manage.cjs event ACTOR TASK TYPE RESULT [ARTIFACT...] | event-json INPUT_JSON | validate | manifest | verify | build');process.exitCode=2;}

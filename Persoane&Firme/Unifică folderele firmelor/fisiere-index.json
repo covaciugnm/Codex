@@ -1,0 +1,39 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f675-255b-7753-b0b6-3ccd30581fe5\\control_identitati.png",
+    "status": "copiat",
+    "saved_path": "fisiere/control_identitati--e0e504dd.png",
+    "bytes": 3362444,
+    "sha256": "55b594da4e20c1e19fc4d212765c97eef71eead6918a8db71f936616f96f482d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f675-255b-7753-b0b6-3ccd30581fe5\\control_scanari.png",
+    "status": "copiat",
+    "saved_path": "fisiere/control_scanari--d8d2a24a.png",
+    "bytes": 1878031,
+    "sha256": "ddab10ffbf2ae95dae125ff84723e8ad09b87f744840d9272bacfe1c65c7df90"
+  },
+  {
+    "source_reference": "Z:/00. Firme/00. CENTRALIZATOR FIRME SI DOCUMENTE - 2026-10-01.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/00. CENTRALIZATOR FIRME SI DOCUMENTE - 2026-10-01--dd325dae.xlsx",
+    "bytes": 1490868,
+    "sha256": "0f89b5ad6aed365e575de2e09b3c7d69aa50062222a10e83dde3a2cf42515ff8"
+  },
+  {
+    "source_reference": "Z:\\00. Firme",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme (1)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme 1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\000. ArhivaActe Societati",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

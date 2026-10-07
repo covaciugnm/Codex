@@ -1,0 +1,728 @@
+[
+  {
+    "source_reference": "/guestfiles/get?filename=ODAFileConverter_QT6_vc16_amd64dll_27.1.msi",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "C:\\Program Files",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\ODA",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Autodesk",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Autodesk\\DWG TrueView 2025 - English",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Autodesk\\DWG TrueView 2025 - English\\accoreconsole.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\FreeCAD 1.1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\FreeCAD 1.1\\bin",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\FreeCAD 1.1\\bin\\freecadcmd.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ODA",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ODA\\ODAFileConverter\\ODAFileConverter.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Open Design Alliance",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\subagents\\workflows\\wf_0c6b87ee-b74",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\subagents\\workflows\\wf_18cdc169-a8c\\journal.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/journal--7e1bc3ab.jsonl",
+    "bytes": 12308,
+    "sha256": "4fb9d8455849920c4da3b0f489439fe4d9e8353acdc47c5d3f9cf4c2beeeebcc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\subagents\\workflows\\wf_54d0cecc-ce7",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\subagents\\workflows\\wf_54d0cecc-ce7\\journal.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/journal--d1b544c9.jsonl",
+    "bytes": 139085,
+    "sha256": "04d9da05b9632c38d2a3507cef86b14150f72dbc2e90d60c9be61d0754a19cec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\subagents\\workflows\\{wf}\\journal.jsonl",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\tool-results\\webfetch-1785945133573-4gyc8j.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\workflows\\scripts\\analiza-planse-schallergasse-wf_54d0cecc-ce7.js",
+    "status": "copiat",
+    "saved_path": "fisiere/analiza-planse-schallergasse-wf_54d0cecc-ce7--6cb19f3f.js",
+    "bytes": 9801,
+    "sha256": "f3d8dcb66be34648483e01a471b1efec39f8d9c8271e6eaa7076525a1f153842"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\workflows\\scripts\\cercetare-dedeman-schallergasse-wf_0c6b87ee-b74.js",
+    "status": "copiat",
+    "saved_path": "fisiere/cercetare-dedeman-schallergasse-wf_0c6b87ee-b74--80fa2493.js",
+    "bytes": 23236,
+    "sha256": "49d5e6679010140ac5a8dfedbd1f379a05c84b73fa1adb3966c2e00d94f2d2a4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\workflows\\scripts\\verify-emails-firme-wf_18cdc169-a8c.js",
+    "status": "copiat",
+    "saved_path": "fisiere/verify-emails-firme-wf_18cdc169-a8c--883e9134.js",
+    "bytes": 4179,
+    "sha256": "9d1c4fab4678f354a217900ed2f937ec8d1c0e8f824c89f4d3d8f2c942689d1b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py",
+    "status": "copiat",
+    "saved_path": "fisiere/shutil--1a142a6e.py",
+    "bytes": 58328,
+    "sha256": "de2f5819114464949b55229b137ac9deed85ce16955ead2dc725e45805ba098c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\A02_Erdgeschoss_DE.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\A02_anonim.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\ODA",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\ODAFileConverter_27.1.msi",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\add_otel_sheet.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\analiza_completa.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\analiza_partiala.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\build_0810.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\build_zip_pech.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\cad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\cantitati.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\centralizator.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\cercetare_dedeman.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\check_cartus.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\check_dxf_leftover.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\check_leftover.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\cleanup_remnant.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\copy_mv3.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\detect_cartus2.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\dump_dxf_text.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\dump_ident.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\dump_spans.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\dump_xlsx.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_anschreiben_0810.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_antwort_pech.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_baukg_anfragen.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_comparativ_roluri.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_contracte.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_doc1_descriere.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_doc2_tehnologie.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_doc3_fise.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_doc4_clarificare.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_doc5_autorizat.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_emails_final.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_etape_executie.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_firme_docs.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_fisa_pruefingenieur.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_index.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_pruef_anfragen.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_xlsx_alternative.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_xlsx_deviz.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_xlsx_lista.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\gen_xlsx_oferta_simpla.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\list_produse.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\oda_extract.log",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\oda_install.log",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\organizare.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\organizare2.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\patch_emails.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\produse_compact.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\recalc_com.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\restruct_04.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\save_cercetare.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\show_analiza.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\spans_ro.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\translate_dxf.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\translate_pdf.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\verify_anon.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\verify_details.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\verify_emails.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\scratchpad\\verify_remnant.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\eb7d487f-47dd-4d1a-aa04-a424862df570\\tasks\\w739hzmc7.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Roaming\\Claude\\local-agent-mode-sessions\\skills-plugin\\361ccaf4-827d-4316-ba15-7a658bd3c67f\\3da5ff7c-afad-4234-85ad-a094f34bebac\\skills\\xlsx\\scripts\\recalc.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\eb7d487f-47dd-4d1a-aa04-a424862df570\\\\scratchpad\\\\A02_Erdgeschoss_DE.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:/00.%20Downloads/Apartamente%20Viena/00.%20Cladire%201%20Schallergasse%2035,%201120%20Wien%20(Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00.",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Claude",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Claude\\02. Echipa si Roluri\\Echipa_si_Conditii_Schallergasse_35.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Echipa_si_Conditii_Schallergasse_35--e761175e.docx",
+    "bytes": 14032,
+    "sha256": "34d116e8d0b1b361e4223152c6c8e594a00f4e6411664e3614213f8732f3cde8"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\01. Behoerden + Eigentum\\01. Baubescheid + genehmigte Plaene\\P2041_C_220329_Baubeschreibung.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/P2041_C_220329_Baubeschreibung--9848873b.pdf",
+    "bytes": 1284528,
+    "sha256": "e29838049bb36b8263aa92f1ce9d4171378c67a7dfb6e2ca3aed09d04fc40090"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\04. Ausfuehrungsplanung",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\04. Ausfuehrungsplanung\\A.02 Grundriss Erdgeschoss M.v.3.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\04. Ausfuehrungsplanung\\Grundriss Kellergeschoss M.v.3.dwg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\05. Haustechnik\\01. Elektro (IE)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\05. Haustechnik\\02. Sanitaer-Heizung (IT)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\zt-pech.at\\2026.08.07\\Schallergasse35_Statik-Unterlagen_2026-08-07.zip",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\zt-pech.at\\2026.08.10",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\zt-pech.at\\2026.08.10\\02_Einreichplaene_P2041_genehmigt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\zt-pech.at\\2026.08.10\\05_Verbesserungsvorschlag_2026",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\01. Verificator (Pruefingenieur)\\Cereri oferta (Angebotsanfragen)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\02. Protectia Muncii (BauKG-Koordinator)\\Cereri oferta (Angebotsanfragen)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\ACAD",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\ACAD\\001 P2041_C_01 230420.dwg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\ACAD\\002 P2041_C_02 230420.dwg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\ACAD\\1120 Wien, Schallergasse 35.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.05.28",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.05.28\\Necesar_materiale_electrice.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.05.28\\Specificatii Ziduri + Planse Adnotate\\SPECIFICATII_Pereti_pe_Niveluri.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\Centralizator_cantitati.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\Materiale",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\Materiale\\Cerere_Oferta_Dedeman_Simplificata.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\Materiale\\Deviz_General_pe_Incaperi.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\Materiale\\Lista_Materiale_Dedeman.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\Materiale\\Materiale_Alternative_Premium.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\Sectiunea AA.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\2026.07.29\\instalatii\\IT04_Plan mansarda 1.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\Dedeman Oferte",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\Arhitectura Madalina\\Dedeman Oferte\\Solicitare_oferta_Dedeman1.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\GBA 05.11.25.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\00.Claude\\\\02. Echipa si Roluri\\\\Comparativ_Bauführer_Pruefingenieur_OBA.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparativ_Bauführer_Pruefingenieur_OBA--f4aae064.docx",
+    "bytes": 40797,
+    "sha256": "a0a4f81aea9ca7d69616f2b844c1e53f123a6f5a06c14a12cb0c14ba249e0afd"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\00.Claude\\\\02. Echipa si Roluri\\\\Fisa_Post_Pruefingenieur.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Fisa_Post_Pruefingenieur--7fc70618.docx",
+    "bytes": 39966,
+    "sha256": "02d33ca9285f831574c6778fd5903f0e54bcbf4c6b79084f13313427b1a6f2d1"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\00.Proiect\\\\09. Vertraege\\\\zt-pech.at\\\\2026.08.07\\\\Antwort_DrPech_Herzina_2026-08-07.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Antwort_DrPech_Herzina_2026-08-07--7dec49b0.docx",
+    "bytes": 38539,
+    "sha256": "8a102eb6d88e6bb31939e3dab3684771ce39c47e23e0fda1fcee7668c89951f1"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\00.Proiect\\\\09. Vertraege\\\\zt-pech.at\\\\2026.08.07\\\\Email-Text_Antwort_DrPech_2026-08-07.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Email-Text_Antwort_DrPech_2026-08-07--cc92c4fa.txt",
+    "bytes": 3159,
+    "sha256": "7c9ca3c740a223453a4efb75f9c1827c63fdf2e0772135505f4ef0ab1ad94727"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\00.Proiect\\\\09. Vertraege\\\\zt-pech.at\\\\2026.08.10\\\\00_Anschreiben\\\\Anschreiben_A&C_Wohnart_2026-08-10.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Anschreiben_A&C_Wohnart_2026-08-10--772d8f55.docx",
+    "bytes": 39177,
+    "sha256": "83c0f114bcd1bb891a9ea64bbcbe3c4a9351957b50ec0c21db755d828b4a9597"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\00.Proiect\\\\09. Vertraege\\\\zt-pech.at\\\\2026.08.10\\\\00_Anschreiben\\\\Email-Text_Anschreiben_2026-08-10.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/Email-Text_Anschreiben_2026-08-10--6071683c.txt",
+    "bytes": 4258,
+    "sha256": "bf1272fed12557d475e0cb3aacf58f9f8535dcd032ac1764130ec4e4f1b903a7"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\03. Proiectare\\\\Arhitectura Madalina",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\01. Verificator (Pruefingenieur)\\\\Cereri oferta (Angebotsanfragen)\\\\01_DI Janka Neid\\\\Angebotsanfrage_Pruefingenieur_DI_Janka_Neid.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Angebotsanfrage_Pruefingenieur_DI_Janka_Neid--ccb00cfd.docx",
+    "bytes": 37931,
+    "sha256": "11e033745787792cb0cfbde19a3ceb4d2e6860525978b2c17ae0237bb34056e9"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\01. Verificator (Pruefingenieur)\\\\Cereri oferta (Angebotsanfragen)\\\\Pruefingenieur_Kandidaten_Vergleich.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Pruefingenieur_Kandidaten_Vergleich--14c42c79.xlsx",
+    "bytes": 7787,
+    "sha256": "9d18ae59c05866b471cd917748b18035fa0f28b33017d012855befe224a07741"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\01. Verificator (Pruefingenieur)\\\\Fisa_Post_Verificator_Pruefingenieur.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Fisa_Post_Verificator_Pruefingenieur--81460a02.docx",
+    "bytes": 38360,
+    "sha256": "77a8f216074af332cd656c2e2a8f10cdd0681ce6149faf784d2cb49a0302c4d8"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\02. Protectia Muncii (BauKG-Koordinator)\\\\Fisa_Post_Coordonator_BauKG_Protectia_Muncii.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Fisa_Post_Coordonator_BauKG_Protectia_Muncii--ec0ac4c1.docx",
+    "bytes": 38148,
+    "sha256": "20c67939d0e7046ffd383034df32d8d7b4b4822c68c26a550337c0078585392b"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\03. Executant (Bauleitung + Ausfuehrung)\\\\Etape_Executie_pe_Obiecte_Ordine.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Etape_Executie_pe_Obiecte_Ordine--524e83ab.xlsx",
+    "bytes": 9907,
+    "sha256": "33b2948026afb01485c5820491af73cd7d325b82c64476e0524b8ec9d626f3ce"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\04. Firme + Executie\\\\03. Executant (Bauleitung + Ausfuehrung)\\\\Fisa_Post_Executant.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Fisa_Post_Executant--2d345554.docx",
+    "bytes": 38310,
+    "sha256": "d066f46603aef57cc844069b571776c54fd12a2016347412603b5881c532fce5"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.05.25",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Cerere_Oferta_Dedeman_Simplificata.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Descriere_Centralizator_pe_Taburi.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Deviz_General_pe_Incaperi.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Fise_Tehnice_Materiale.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Lista_Materiale_Dedeman.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Lucrari_Autorizate_si_Limite_Legale.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Materiale_Alternative_Premium.xlsx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Nota_Clarificare_Sistem_Incalzire.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\Arhitectura Madalina\\\\2026.07.29\\\\Materiale\\\\Tehnologia_de_Aplicare.docx",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\_INDEX_STRUCTURA.md",
+    "status": "copiat",
+    "saved_path": "fisiere/_INDEX_STRUCTURA--c5ae0cbb.md",
+    "bytes": 5293,
+    "sha256": "acf1b3b813562ad5fc6f43d64028ea5ae9a32782a7c3b9527b81407f4f054bd0"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Apartamente Viena\\\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\\\_ORGANIZARE_manifest_2026-08-10.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/_ORGANIZARE_manifest_2026-08-10--b464715c.txt",
+    "bytes": 2317,
+    "sha256": "009190d9503f4f296294b1de81bd25364d8e8008dbc4901f7c9d13ec398be97b"
+  },
+  {
+    "source_reference": "\\\\Arhitectura Madalina\\\\2026.07.29",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "https://wien.arching.at/fileadmin/user_upload/redakteure_wnb/D_Service/D_13_Technisches%20Service/Pruefingenieur-Leistungsbild_2020.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.jusline.at/gesetz/baukg/paragraf/artikel2zu3",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.neid.co.at",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.pak-immo.at/oenorm-b-2110-b-2118-leitfaden/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000006&Paragraf=127",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.usp.gv.at/themen/brancheninformationen/bau/koordination.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wien.gv.at/wohnen/baupolizei/pruefingenieur.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.wohnnet.at/bauen/baustelle/bauaufsicht-40764",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.zt-pech.at",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.zt-pech.at/datenschutzverordnung/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www2.report.at/bau-immo/20306-serie-recht-die-oertliche-bauaufsicht-und-ihre-aufgaben-teil-1",
+    "status": "referinta_externa_necopiata"
+  }
+]

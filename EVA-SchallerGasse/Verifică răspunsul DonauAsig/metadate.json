@@ -1,0 +1,23 @@
+{
+  "id": "01a0f21f-8b26-7c51-85f9-22089ebfea54",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1790768548,
+  "updated_at": 1790838731,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică răspunsul DonauAsig",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 12720844,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 164,
+  "message_count": 20,
+  "content_sha256": "eaf8cea5f519a61f50fe83d39085d4f6921181f7737735003dfe4335c709db54",
+  "files_copied": 23,
+  "references_not_copied": 8
+}

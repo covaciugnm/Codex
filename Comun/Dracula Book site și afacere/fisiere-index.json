@@ -1,0 +1,320 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PIL\\Image.py",
+    "status": "copiat",
+    "saved_path": "fisiere/Image--14d5a601.py",
+    "bytes": 146669,
+    "sha256": "fc9d6717d4842c0ce0d7cf30793334a338671e3d9638f1c9a97a72bb9eb0e4ab"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\ee6110e4-f0c1-4cec-83e9-b8fec35025e2\\scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\ee6110e4-f0c1-4cec-83e9-b8fec35025e2\\scratchpad\\contact_sheet.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\ee6110e4-f0c1-4cec-83e9-b8fec35025e2\\scratchpad\\imgs.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\ee6110e4-f0c1-4cec-83e9-b8fec35025e2\\scratchpad\\index.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\ee6110e4-f0c1-4cec-83e9-b8fec35025e2\\\\scratchpad\\\\covers_sheet.jpg",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\ee6110e4-f0c1-4cec-83e9-b8fec35025e2\\\\scratchpad\\\\site.template.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\00. CATALOG SI REZUMAT.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00. CATALOG SI REZUMAT--40f932bf.md",
+    "bytes": 8680,
+    "sha256": "43dc2f09fd1ab09cda944283364cc03ed1942085f17d89f3a5a5c9d9e17025fb"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\00. SITE dracula-book.com\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--d261e216.html",
+    "bytes": 704723,
+    "sha256": "d838000410a40bdf3c92ae71129c523939d8d5690e38827e970a258411960f72"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\00. RAPORT PREGATIRE PUBLICARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00. RAPORT PREGATIRE PUBLICARE--0649b610.md",
+    "bytes": 3459,
+    "sha256": "05267bb7f102c300741811d5d0a6b683d0270459e0c99e14c28545946e1730e0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book *\\Coperta\\*Cover_1600x2400.png",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 10\\Coperta\\Aurora_Compass_Cover_1600x2400.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Aurora_Compass_Cover_1600x2400--c3a6fcab.png",
+    "bytes": 467233,
+    "sha256": "bc2c4dd2e1d8fa462ab1b2d20179a6e184ff857881b3639307c4ae8daec5ab7a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 4\\Coperta\\Between_Two_Addresses_Cover_1600x2400.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Between_Two_Addresses_Cover_1600x2400--2811f9a0.png",
+    "bytes": 439025,
+    "sha256": "b64fb3972cb05ab555f6985f8c56cc69afbb5a02ee6950a5acb81d063eef875f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 4\\Publicare\\Between_Two_Addresses_Interior_6x9.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Between_Two_Addresses_Interior_6x9--a57a0fea.docx",
+    "bytes": 106779,
+    "sha256": "98e19897232c10a8ee9b79e5a4fb93462d3bd834d464aeb76fbdaa1dde72f110"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 5\\Coperta\\Dawn_of_Courage_Cover_1600x2400.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Dawn_of_Courage_Cover_1600x2400--efcb433b.png",
+    "bytes": 453492,
+    "sha256": "2a226d7afbea9a19a79b41c8b9d81e7081f680d76188b27a304fc5a0237e6030"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 6\\Coperta\\Aurora_Verde_Cover_1600x2400.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Aurora_Verde_Cover_1600x2400--4d8ce467.png",
+    "bytes": 426885,
+    "sha256": "e2a9f76094dcf983824cb4ad9582107bfda6ea05979942a623ef0ec31676949b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 7\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 7\\Coperta\\We_After_the_Feed_Cover_1600x2400.png",
+    "status": "copiat",
+    "saved_path": "fisiere/We_After_the_Feed_Cover_1600x2400--8aed776f.png",
+    "bytes": 484126,
+    "sha256": "ffa35496f4db3404a88ea3e04db8d48376973868c799a60238813d7197c4b8bd"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 8\\Coperta\\Aurora_Admit_Cover_1600x2400.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Aurora_Admit_Cover_1600x2400--ae91ed58.png",
+    "bytes": 396820,
+    "sha256": "edc2757aa4a82cf34b7056a4852630dab51d33ae30b6de146eaf5bb207affb7d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 9\\Coperta\\Aurora_Signal_Cover_1600x2400.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Aurora_Signal_Cover_1600x2400--e6abd9c0.png",
+    "bytes": 409617,
+    "sha256": "e98deb9258ee3f46f980017f06982820f87f8722b52ded687c00086537b5a933"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Dracula Book\\DRACULA AURORA\\Book 9\\Prompt de Scriere manuscris AURORA SIGNAL pentru CODEX.md",
+    "status": "copiat",
+    "saved_path": "fisiere/Prompt de Scriere manuscris AURORA SIGNAL pentru CODEX--253eb415.md",
+    "bytes": 8873,
+    "sha256": "268d379b6e679ab488d9014411fdd41c610e9d441f726097f3f6051e2bcda727"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\00. CATALOG SI REZUMAT.md",
+    "status": "copiat",
+    "saved_path": "fisiere/00. CATALOG SI REZUMAT--40f932bf.md",
+    "bytes": 8680,
+    "sha256": "43dc2f09fd1ab09cda944283364cc03ed1942085f17d89f3a5a5c9d9e17025fb"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\AMORIS SERIES\\\\BENEATH THE SKIN OF THE SEA\\\\Coperta\\\\ChatGPT Image Oct 8, 2025, 07_47_19 PM.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ChatGPT Image Oct 8, 2025, 07_47_19 PM--1248f7d8.png",
+    "bytes": 489,
+    "sha256": "9db35667335147247acc2fb3978cb09d3adedaf6642ef749d714414cf2902431"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\DRACULA AURORA\\\\Book 4\\\\Coperta\\\\Between_Two_Addresses_Cover_1600x2400.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Between_Two_Addresses_Cover_1600x2400--2811f9a0.png",
+    "bytes": 439025,
+    "sha256": "b64fb3972cb05ab555f6985f8c56cc69afbb5a02ee6950a5acb81d063eef875f"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\DRACULA AURORA\\\\Book 4\\\\Publicare\\\\Between_Two_Addresses_Interior_6x9.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Between_Two_Addresses_Interior_6x9--a57a0fea.docx",
+    "bytes": 106779,
+    "sha256": "98e19897232c10a8ee9b79e5a4fb93462d3bd834d464aeb76fbdaa1dde72f110"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\DRACULA AURORA\\\\Book 7\\\\Prompt de Scriere manuscris WE, AFTER THE FEED pentru CODEX.md",
+    "status": "copiat",
+    "saved_path": "fisiere/Prompt de Scriere manuscris WE, AFTER THE FEED pentru C--4fa52987.md",
+    "bytes": 6609,
+    "sha256": "04c122d779bc51f6661bccb7322ed9666bb5248932a23f9cc0dbab3d62901041"
+  },
+  {
+    "source_reference": "D:\\\\00. Downloads\\\\Dracula Book\\\\DRACULA AURORA\\\\Book 9\\\\Prompt de Scriere manuscris AURORA SIGNAL pentru CODEX.md",
+    "status": "copiat",
+    "saved_path": "fisiere/Prompt de Scriere manuscris AURORA SIGNAL pentru CODEX--253eb415.md",
+    "bytes": 8873,
+    "sha256": "268d379b6e679ab488d9014411fdd41c610e9d441f726097f3f6051e2bcda727"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\DRACULA BOOK SRL - CUI TBD",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_BACKUP-VECHI\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_LEGENDA.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_RAPORT_B2_analizat.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Firme\\_RAPORT_C1b_dubluri_in_sursa.csv",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Persoane\\_LEGENDA.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte\\ROSE",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte\\Scan Cosmina\\Acte societate",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\00. RAPORT\\_RAPORT_D1_propunere_atribuire.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/_RAPORT_D1_propunere_atribuire--f4e5146d.csv",
+    "bytes": 117924,
+    "sha256": "73446fc3cd5276eb73da8c607f951c17c0c0dbf40cd0aa61ae423878ce6f5112"
+  },
+  {
+    "source_reference": "Z:\\01. Acte Proprietate\\_LEGENDA.md",
+    "status": "copiat",
+    "saved_path": "fisiere/_LEGENDA--58b488f6.md",
+    "bytes": 2329,
+    "sha256": "50d791eafba517d64de86065b8efd519dc17c2c2427f299fce1b14b54f7a8a15"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Firme\\DRACULA BOOK SRL - CUI TBD\\_FISA_FIRMA.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://anpc.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anpc.ro/ce-este-sal/?ref=footer_3_5",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/contacteaza-ne",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/intrebari-frecvente",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/politica-de-confidentialitate",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/politica-de-cookies",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/politica-de-retur-si-garantie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/politica-de-stergere-a-datelor-personale",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/reclamatii",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cesiro.ro/termeni-si-conditii",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://claude.ai/code/artifact/afe1ea7b-6322-47dc-bbbe-be6a54212dc6",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ro.pinterest.com/cesiro_com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.facebook.com/profile.php?id=100089260186048&locale=ro_RO",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.instagram.com/cesiroro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.youtube.com/@cesirodinnerwareproducersi662",
+    "status": "referinta_externa_necopiata"
+  }
+]

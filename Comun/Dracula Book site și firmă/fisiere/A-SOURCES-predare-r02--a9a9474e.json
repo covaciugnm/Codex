@@ -1,0 +1,5 @@
+{
+  "previous_status": {
+    "completed": "RES-001 r02: **RETURN**.\n\nScoruri /1000: surse **962**, succes **970**, originalitate **965**, relevanță **965**, utilizare **940**.\n\nGOV-RES-01 este închis procedural. F-RES-SOURCES-001 rămâne deschis: corecția documentară este confirmată, dar retestul pe WorkID-uri reale nu este demonstrat.\n\nSchema v2, cele 34 de referințe probatorii, hashurile și concordanța MD/JSON au fost verificate. R01 a rămas nemodificat.\n\nFișiere:\n\n- [Raport MD](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-SOURCES-r02.md>)\n- [Raport JSON](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-SOURCES-r02.json>)\n- [Jurnal de teste](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/RES-001/A-SOURCES-r02-tests.txt>)\n\nEditările sunt oprite. Metaauditul și arhivarea inclusiv RETURN rămân coordonării."
+  }
+}

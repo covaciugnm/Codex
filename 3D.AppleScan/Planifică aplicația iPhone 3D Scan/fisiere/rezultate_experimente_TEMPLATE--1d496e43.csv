@@ -1,0 +1,1 @@
+run_id,experiment_id,status,app_version,device_model,os_version,operator_id,specimen_id,method,repeat_index,reference_instrument,reference_uncertainty_mm,reference_length_mm,measured_length_mm,signed_error_mm,duration_s,lighting_lux,thermal_state,source_file,sha256,notes

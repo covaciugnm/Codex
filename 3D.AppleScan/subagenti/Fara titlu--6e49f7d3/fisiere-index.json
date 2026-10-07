@@ -1,0 +1,135 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\06_audit\\findings_cercetare_robot.json",
+    "status": "copiat",
+    "saved_path": "fisiere/findings_cercetare_robot--12978d1f.json",
+    "bytes": 4245,
+    "sha256": "b6de8d1ac04aa28ecb4c91a036cc8e80e1ae48554c272d554836dcbe31ecdae9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\06_audit\\replay_robot_R1.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/replay_robot_R1--05026fbc.cjs",
+    "bytes": 1217,
+    "sha256": "ce280d7f1eaa31caece0301e667741f088e40aa0e97ee3387270e75e09f2b4f3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\06_audit\\review_cercetare_robot_R1.md",
+    "status": "copiat",
+    "saved_path": "fisiere/review_cercetare_robot_R1--a67a83ca.md",
+    "bytes": 8151,
+    "sha256": "4b5a9187b6def96cad175e8478186bf7ca5591be4edb25a7ec256ff97cd2ff1b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\redesign-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-desktop--b031bb97.png",
+    "bytes": 1569496,
+    "sha256": "dc917056d1f954fbc2874ceceeee4cb5945f749512f7917f29850d7903c1d803"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\redesign-face.png",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-face--0a90b494.png",
+    "bytes": 439829,
+    "sha256": "5d797aabb3b80086fe2c6230595bc0a42ee79f8a97d2e40206b2b7bc254c2fda"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\redesign-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-mobile--6bb47532.png",
+    "bytes": 783528,
+    "sha256": "66b3d49a7241360037a44898a32bd29c98ca73643dfd812fb41b41e1c5aef4a8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\scenarios-home.png",
+    "status": "copiat",
+    "saved_path": "fisiere/scenarios-home--48ce0be6.png",
+    "bytes": 1569462,
+    "sha256": "09f50777b1a2e28f8e3218e5d04bc3c91e63306f5d868e42bb200ac7d80d6fe7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\spaces-usecases.png",
+    "status": "copiat",
+    "saved_path": "fisiere/spaces-usecases--d5866687.png",
+    "bytes": 931304,
+    "sha256": "c29955d7495aece35f762e8c3e7a797139bf78f8960b6b13e0bdb5a3497af65e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\uses-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/uses-desktop--f7ba02ca.png",
+    "bytes": 311397,
+    "sha256": "886b690bfbfd5a788448dd8735654c94b08f5c416acd769051c5259e9f8d0449"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\uses-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/uses-mobile--e9de3826.png",
+    "bytes": 323541,
+    "sha256": "4483e9387acbb753444bc7d02f5d3641c8e07e79054212b8521eb17347ae12e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\01-capture.webp",
+    "status": "copiat",
+    "saved_path": "fisiere/01-capture--0890752d.webp",
+    "bytes": 144234,
+    "sha256": "0e6662fcccc1b8dd9415ac6748c3fe30f4b7034713c4f50f56bcb719c0fde7ca"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\02-face.webp",
+    "status": "copiat",
+    "saved_path": "fisiere/02-face--cb528954.webp",
+    "bytes": 163556,
+    "sha256": "0117f8328da208e5c49ca2a1e4f123390e7b7100cc378bc8a9644cbc590e5495"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\03-objects.webp",
+    "status": "copiat",
+    "saved_path": "fisiere/03-objects--bc3d7cfc.webp",
+    "bytes": 179788,
+    "sha256": "e35b234c2364fb120963c9a8ac690321d22c3f1bf4207cec92d142ba7c2c36c3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\04-measure.webp",
+    "status": "copiat",
+    "saved_path": "fisiere/04-measure--e5d12ac4.webp",
+    "bytes": 155898,
+    "sha256": "54128e1d9cf54a3f2e92119a82511674929eb15382760dc070636e6ed5ca64f8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\05-spaces.webp",
+    "status": "copiat",
+    "saved_path": "fisiere/05-spaces--abaad4c2.webp",
+    "bytes": 194478,
+    "sha256": "31a5295c9222ac698d293822822459d9850a389d8598378195c6e84b4207b858"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\06-architect.png",
+    "status": "copiat",
+    "saved_path": "fisiere/06-architect--84059c58.png",
+    "bytes": 2153179,
+    "sha256": "b6b75559e32be88e63ca7d5d1abdd364b842f743b64b955ac26e6a4344d1ff14"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\07-mario-walls.png",
+    "status": "copiat",
+    "saved_path": "fisiere/07-mario-walls--e8f3f0d4.png",
+    "bytes": 2101010,
+    "sha256": "4bca6e4cf1d0b73d53450a2284aa8dd51d73b8135abc87147eb4d217748f63e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\08-design-couple.png",
+    "status": "copiat",
+    "saved_path": "fisiere/08-design-couple--8c32e7f1.png",
+    "bytes": 2329679,
+    "sha256": "f4a25c252c90db3773dffcc434d134645f408956169b9c178846619374c5651f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\09-repair-foreman.png",
+    "status": "copiat",
+    "saved_path": "fisiere/09-repair-foreman--186d61e0.png",
+    "bytes": 2338230,
+    "sha256": "d5d1b783779ca770dd4b3669546c0a675edd0091350bcee12cc009aa00aaaa23"
+  }
+]

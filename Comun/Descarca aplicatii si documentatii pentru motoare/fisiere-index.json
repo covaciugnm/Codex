@@ -1,0 +1,37 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/d4ea7271-bbb4-45bb-bac2-104df62b262c/tasks/bxfv64dtp.output",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\d4ea7271-bbb4-45bb-bac2-104df62b262c\\scratchpad\\dl_robstride.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\d4ea7271-bbb4-45bb-bac2-104df62b262c\\scratchpad\\extract_links.py",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\d4ea7271-bbb4-45bb-bac2-104df62b262c\\scratchpad\\post_robstride.ps1",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Humanoid Robot Hand\\openarmx_ws\\Motoare",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\Humanoid Robot Hand\\openarmx_ws\\Motoare\\Documentati si download.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Documentati si download--8c718ae8.pdf",
+    "bytes": 92384,
+    "sha256": "73bf507e6256afc2a648164c9a9b9aa71523897d1fb9f2a3434eaac2a2b5f1cb"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  }
+]

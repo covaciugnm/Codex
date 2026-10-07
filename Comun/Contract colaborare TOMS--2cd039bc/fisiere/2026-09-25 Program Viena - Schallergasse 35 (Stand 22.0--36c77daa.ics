@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//A&C Wohnart//Wien 25.09.2026//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Vienna
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rlb-madl-20260925@ac-wohnart.at
+DTSTAMP:20260922T140000Z
+DTSTART;TZID=Europe/Vienna:20260925T080000
+DTEND;TZID=Europe/Vienna:20260925T084500
+SUMMARY:Kaffee Mag. Martina Madl (Raiffeisen RLB NOe-Wien) - Projektupdate
+LOCATION:Raiffeisenhaus Wien / Naehe Schwedenplatz - Ort noch zu bestaetigen
+DESCRIPTION:Projektupdate Schallergasse 35. Frau Madl hat um ein Treffen im Raiffeisenhaus 2. Bezirk bzw. Naehe Schwedenplatz gebeten und sendet eine Einladung - Ort und Uhrzeit bestaetigen. Mobil +43 660 97870159.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lechner-baukg-20260925@ac-wohnart.at
+DTSTAMP:20260922T140000Z
+DTSTART;TZID=Europe/Vienna:20260925T093000
+DTEND;TZID=Europe/Vienna:20260925T100000
+SUMMARY:BauKG Lechner (BAU-WERTE) - Objektbegehung Schallergasse 35
+LOCATION:Schallergasse 35\, 1120 Wien
+DESCRIPTION:Neuer Termin laut Outlook-Einladung vom 22.09.2026 (zuvor 08:00). Teilnehmer: Bmstr. DI Stefan Lechner\, Guenther Bauer. Themen: BauKG-Angebot ANG/26-0094\, Zielkonditionen 1.000 EUR + 600 EUR/Monat\, Fachkundenachweis \, Begehungsintervall woechentlich. Tel. +43 664 22 41 591.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ma37-planeinsicht-20260925@ac-wohnart.at
+DTSTAMP:20260922T140000Z
+DTSTART;TZID=Europe/Vienna:20260925T113000
+DTEND;TZID=Europe/Vienna:20260925T123000
+SUMMARY:Planeinsicht MA 37 - Planarchiv Gebietsgruppe West
+LOCATION:Spetterbruecke 4\, 2. Stock\, Zi. 201\, 1160 Wien
+DESCRIPTION:Planeinsicht einer Baueinlage - Schallergasse 35 (EZ 2235\, KG 01305). Reservierung bestaetigt 18.09.2026. Tel. +43 1 4000-37720. Mitnehmen: Firmenbuchauszug FN 668224h\, Grundbuchauszug\, Ausweis\, Bescheid MA37/1539234-2021-1\, USB-Stick.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:obenauf-gu-20260925@ac-wohnart.at
+DTSTAMP:20260922T140000Z
+DTSTART;TZID=Europe/Vienna:20260925T130000
+DTEND;TZID=Europe/Vienna:20260925T143000
+SUMMARY:OBENAUF GmbH (GU) - Objektbegehung Schallergasse 35
+LOCATION:Schallergasse 35\, 1120 Wien - Treffpunkt Haupteingang
+DESCRIPTION:Bestaetigt am 22.09.2026 von Bmstr. DI Stefan Lechner (Leiter Kalkulation & Vertrieb\, OBENAUF Generalunternehmung GmbH\, FN 337924y). Danach Download-Link mit Ausfuehrungsplanung 08.09.2026\, Statik-Grundlagen\, Installationsprojekt\, Baugrund. Tel. +43 660 9223 170.
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung
+END:VALARM
+END:VEVENT
+END:VCALENDAR

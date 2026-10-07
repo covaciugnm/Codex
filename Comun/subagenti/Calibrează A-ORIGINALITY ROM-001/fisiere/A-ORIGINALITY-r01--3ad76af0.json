@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d1d0-690e-7871-b245-6817b004172f",
+  "role": "A-ORIGINALITY",
+  "set_version": "rom001-r01",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Criteriul notat exact 950 nu depășește pragul strict; minimul admis este 951. Celelalte criterii de 980 și media nu repară această neîndeplinire, deci verdictul PASS declarat nu este susținut.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C01, liniile 12–14; 00_CONDUCERE/MANUAL_ATELIER.md, §3, linia 18."
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Autorul și semnatarul auditului au același ID X. Aliasul Y nu creează o execuție independentă: acesta este autoaudit și trebuie înlocuit cu evaluarea unui auditor distinct de autor.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C02, liniile 16–18; 00_CONDUCERE/MANUAL_ATELIER.md, §3, linia 20."
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Amprenta A din raport nu corespunde amprentei B a fișierului curent. Auditul privește altă versiune și nu poate valida fișierul actual; sunt necesare fixarea versiunii curente și un audit nou, nu simpla înlocuire a hashului în raport.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C03, liniile 20–22; 00_CONDUCERE/MANUAL_ATELIER.md, §3, linia 20 și §4, linia 25."
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Din predarea cerută C01–C03 lipsește capitolul C02. Afirmația de completitudine din sumar nu furnizează textul absent; capitolul trebuie predat și completitudinea reverificată.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C04, liniile 24–26; 00_CONDUCERE/MANUAL_ATELIER.md, §11, linia 70."
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Aceeași scenă de 2.000 de cuvinte apare în două capitole și este contabilizată de două ori. Duplicarea umflă nejustificat totalul; sunt necesare remedierea textului, renumărarea prozei eligibile și retestarea, fără a păstra repetiția pentru atingerea pragului.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C05, liniile 28–30; 00_CONDUCERE/MANUAL_ATELIER.md, §9, liniile 58–60."
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Mara vie în V2 contrazice moartea definitivă stipulată la sfârșitul V1. Testul nu oferă explicație sau schimbare autorizată; nu pot inventa o înviere ori o excepție de canon pentru a valida contradicția.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C06, liniile 32–34; 00_CONDUCERE/MANUAL_ATELIER.md, §5, linia 30 și §11, linia 70."
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Paragraful P04 prezent în masterul EN lipsește din traducerea DE. Traducerea este incompletă indiferent de volumul ei; P04 trebuie tradus, iar corespondența integrală P01–P04 trebuie reverificată pe identificatori.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C07, liniile 36–38; 00_CONDUCERE/MANUAL_ATELIER.md, §12, linia 77."
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "În situația sintetică sunt îndeplinite toate condițiile: doi auditori independenți și calificați, aceeași versiune fixată, fiecare criteriu 951, zero constatări, metaaudit valid și controale tehnice trecute. 951 este strict peste 950; cerința de 1000 ar adăuga un prag inexistent.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C08, liniile 40–42; 00_CONDUCERE/MANUAL_ATELIER.md, §3, liniile 18–20."
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Contractul cere o selecție preliminară, iar raportul declară exact pasajele citite și limitele concluziilor. Această delimitare respectă scopul și nu este un eșantion ascuns; ea nu aprobă automat selecția pe celelalte criterii, canonul integral sau romanul.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md, secțiunea C09, liniile 44–46; 01_ECHIPA/A-ORIGINALITY.md, Definiția finalizării sarcinii, linia 24."
+    },
+    {
+      "id": "A-ORIGINALITY-S01",
+      "verdict": "RETURN",
+      "reason": "Preluarea păstrează succesiunea distinctivă a celor șapte întâmplări, relațiile, indiciile și răsturnarea finală. Schimbarea numelor și a orașului lasă configurația recognoscibilă a intrigii intactă; eticheta de mecanisme universale nu demonstrează construcție independentă. Este o respingere editorială a cazului TEST, fără verdict sau certificat juridic.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_r01.md, secțiunea A-ORIGINALITY-S01, liniile 10–12; 00_CONDUCERE/MANUAL_ATELIER.md, §6, liniile 41–43; 01_ECHIPA/A-ORIGINALITY.md, Limite de autoritate, linia 21."
+    },
+    {
+      "id": "A-ORIGINALITY-S02",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Matricea stipulează diferențiere pe zece axe, de la personaje și motivații la rezolvare și voce, fără expresie ori scene preluate. Scrisoarea care declanșează o alegere este un mecanism general; singură nu justifică respingerea. Celelalte criterii rămân de verificat, fără PASS automat pentru proiect sau garanție juridică.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_r01.md, secțiunea A-ORIGINALITY-S02, liniile 13–15; 00_CONDUCERE/MANUAL_ATELIER.md, §6, liniile 37–43; 01_ECHIPA/A-ORIGINALITY.md, Obiective și rezultate măsurabile, linia 9 și Limite de autoritate, linia 21."
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T08:09:01+03:00"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "previous_status": {
+    "completed": "Metaaudit r02: **PASS pentru ambele rapoarte**, cu toate cele șase controale îndeplinite, inclusiv justificarea notelor 980+.\n\n`META-ROM-001-G01-r01-F01` este închisă prin retestul T01–T04 exclusiv pe r02. Istoricul RETURN r01 rămâne nemodificat.\n\nFișiere finale și SHA-256:\n\n- [META.md](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/META.md>)  \n  `66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4`\n- [META.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/META.json>)  \n  `d6244a70b681aae4147926ab95a1d8573de478a61736ace283403f516c3ee6bb`\n- [META-CONTROLES.json](<D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/05_AUDIT/ROM-001-G01/r02/META-CONTROLES.json>)  \n  `d611b03fdf9313f76e10b82fbea0152df547ddcc30890d3d2906a7ee6fa68245`\n\nVerificarea finală confirmă schema, 52 de referințe meta, 31 de suplimente și 289 de intrări neschimbate. Lectura semantică nouă H este delimitată la 393 de paragrafe, nu integrală.\n\n**Scrierile sunt oprite.** Nu am autorizat G02 și nu am executat arhivarea sau recuperarea AFTER r02; acestea rămân la coordonare."
+  }
+}

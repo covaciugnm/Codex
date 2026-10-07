@@ -1,0 +1,1072 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\00_management\\DECIZII_SI_RISCURI.md",
+    "status": "copiat",
+    "saved_path": "fisiere/DECIZII_SI_RISCURI--2ea83d49.md",
+    "bytes": 3699,
+    "sha256": "73bcc22bd34943d6d9b5ae48e22d7e275a490f15fb901d7333ccfa4806196530"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\00_management\\INVENTAR_INITIAL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/INVENTAR_INITIAL--28e162eb.md",
+    "bytes": 1135,
+    "sha256": "f8d89ed924f00168eb0ec36034a1b8794db5ca49dadcce8af692d52103e81167"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\00_management\\PLAN_ECHIPA_SI_RELUARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PLAN_ECHIPA_SI_RELUARE--181d0bbc.md",
+    "bytes": 7982,
+    "sha256": "9d6cd8301f2f977b18752bb081a9fb830d47d420ecd5cb840be022ce55df8d43"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\02_specificatie\\01_VIZIUNE_SI_SPECIFICATIE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/01_VIZIUNE_SI_SPECIFICATIE--7eb887f5.md",
+    "bytes": 14621,
+    "sha256": "49b430ca17c28c9df262bfa76cddbb9f93c01e0473c2fe29e44f396332ff4017"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\05_validare\\CRITERII_CANONICE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CRITERII_CANONICE--96da9d6f.md",
+    "bytes": 6360,
+    "sha256": "e9542d5e40bd45f32356a939eaacd785cf359db5a2b8b70b4dfd697644fa9633"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\05_validare\\METODOLOGIE_CERCETARE_SI_TESTARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/METODOLOGIE_CERCETARE_SI_TESTARE--19357592.md",
+    "bytes": 8656,
+    "sha256": "3ffba2578f879dd4e46831e8e2e8d0b7125a16759c3b7fd1f1c8bf5b48f62b0c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\05_validare\\rezultate_experimente_TEMPLATE.csv",
+    "status": "copiat",
+    "saved_path": "fisiere/rezultate_experimente_TEMPLATE--1d496e43.csv",
+    "bytes": 272,
+    "sha256": "34abf9fdaa4db2919b31c064aab6b6ceb73d48ad8ada4069db2b07986e22ba58"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\06_prompturi\\PROMPT_MASTER.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PROMPT_MASTER--22073423.md",
+    "bytes": 7639,
+    "sha256": "5643064176da1687824ce12c48fdf76595dc38fc9332ecfa48b45d3467b5e1ce"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\06_prompturi\\PROMPT_RELUARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PROMPT_RELUARE--1a5bef60.md",
+    "bytes": 1225,
+    "sha256": "ea74e26b5f7580ac449041bacb2f5943ffb83cc82b0b4c01ced7201711ab7336"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\07_surse\\ARHIVA_SI_ACCES.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ARHIVA_SI_ACCES--ef3f8979.md",
+    "bytes": 2193,
+    "sha256": "012d990e313150519fc20e146df56e5635660f1966c1241e55650d146c29c307"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\07_surse\\manager_sources.json",
+    "status": "copiat",
+    "saved_path": "fisiere/manager_sources--f4f47c7f.json",
+    "bytes": 1991,
+    "sha256": "66c49c213599eea47eb1fd4c8bbcabf3ffe306f69ddd5275ed7c9ecb90b0b68c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--a3c0b7e2.md",
+    "bytes": 4506,
+    "sha256": "747a6443a05e588d347c006260181b2e11d3a29701e3cb544236744a55ea860c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\tools\\manage.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/manage--48af4b19.cjs",
+    "bytes": 12584,
+    "sha256": "e1b6d0014de581a6176a4df9353a8abdaa13c2038857ee69ebf5f2f3ec287b38"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\tools\\remediate.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/remediate--16d69f72.cjs",
+    "bytes": 2635,
+    "sha256": "710c92a59aec793b14e704a88ff5faa708f49d630bb0645aa565c65db9e305da"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\tools\\traceability.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/traceability--d3332fdc.cjs",
+    "bytes": 2030,
+    "sha256": "64b3c24c08474f80d67d04ee4c7e7d74df61173739f5fd9a93ab5707ec89c3a0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\3dscan-documentatie\\tools\\update_registry.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/update_registry--809aef07.cjs",
+    "bytes": 3936,
+    "sha256": "7841cccf88f6b25c25532a29a90c55cb4eb1302be8fe8b2dcf4431b2958ce8d7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\00_control\\INVENTAR_SI_SCOP.md",
+    "status": "copiat",
+    "saved_path": "fisiere/INVENTAR_SI_SCOP--9b278b87.md",
+    "bytes": 3051,
+    "sha256": "101eb4340d3c4c3c247ca0a25871ee169e38ed6699bee015bd7111fdc1b6f2bd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\00_control\\RELUARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RELUARE--6bcc88b4.md",
+    "bytes": 6447,
+    "sha256": "fe255083f4474ca462543307deaf7449c88b4f411f722ed5af224eb6658dbf44"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\01_Cadru_stiintific_si_obiective.md",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Cadru_stiintific_si_obiective--b9296dd8.md",
+    "bytes": 7388,
+    "sha256": "412914e3e9990a8af14c50cf8f33b4a77af3c14638babfb2e630328d08e4e22c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\02_Produs_utilizatori_si_UX.md",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Produs_utilizatori_si_UX--17482370.md",
+    "bytes": 9028,
+    "sha256": "59d43d20443d3e69bd076cfd0f457662f087c5dc36a27c378a77e5f97a2e2390"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\08_Metrologie_CAD_si_printare.md",
+    "status": "copiat",
+    "saved_path": "fisiere/08_Metrologie_CAD_si_printare--d4be64b0.md",
+    "bytes": 8860,
+    "sha256": "07d23d6c75bb7cd63714bbb065ee7af308a8383c2c11fbfb93ba0712a54c7117"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\09_Metodologie_experimentala.md",
+    "status": "copiat",
+    "saved_path": "fisiere/09_Metodologie_experimentala--202d3c1a.md",
+    "bytes": 7948,
+    "sha256": "508070726ca98962757beaa15b02c7b9a5b34aa0b63e2a5675f512887bc6a1f9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\10_Date_securitate_si_operare.md",
+    "status": "copiat",
+    "saved_path": "fisiere/10_Date_securitate_si_operare--b88fda22.md",
+    "bytes": 7497,
+    "sha256": "91ba76b522be1a34d8742e3f052cb5f6fc707f38ae2d06e61b5e61964d3da8d5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\01_capitole\\11_Livrare_resurse_si_limite.md",
+    "status": "copiat",
+    "saved_path": "fisiere/11_Livrare_resurse_si_limite--cd7ef808.md",
+    "bytes": 3871,
+    "sha256": "a39689c5ce8617c754ea11fc900035500bd5b12b5259b5151b0e75e2eb8207d1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\02_echipa\\AGENTI_RUNTIME.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AGENTI_RUNTIME--1149345d.md",
+    "bytes": 4149,
+    "sha256": "6bdf04e272a015a36c19e88ba823f6669a08e91e28e90e442e246a8bf4b8aec0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\02_echipa\\PROMPT_AGENT.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PROMPT_AGENT--6b19ed24.md",
+    "bytes": 1600,
+    "sha256": "2160546c018fee4ad8ae0b7d84dfd25ba1d0a5a49c65da5d0fa71a60c677e7a4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\02_echipa\\PROMPT_AUDITOR.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PROMPT_AUDITOR--61b1b5eb.md",
+    "bytes": 1552,
+    "sha256": "3e25a00a7b37a7a7b0ce0d5d27434de3f2917e76f4639d03f33fb3e92b80c7f9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\02_echipa\\PROMPT_MASTER.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PROMPT_MASTER--1c7a9c0b.md",
+    "bytes": 5313,
+    "sha256": "88225794b2ae293652a85782c5d4c703232b940dfb4be954652ca16864b8e7bf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\03_plan\\RISCURI_SI_DECIZII.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RISCURI_SI_DECIZII--424e5d1c.md",
+    "bytes": 3383,
+    "sha256": "bee5aab8967d97b951262934f14c8660d2168506e640de06c68d1e80dfea1d86"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\04_contracte\\event.schema.json",
+    "status": "copiat",
+    "saved_path": "fisiere/event.schema--ca16829a.json",
+    "bytes": 1067,
+    "sha256": "e5629dc332c8bd6d6e0f19fa21d503d8cfc73c1ee409bc6990ee89b438096abc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\05_validare\\CRITERII_CANONICE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/CRITERII_CANONICE--5cd24b8a.md",
+    "bytes": 6210,
+    "sha256": "020e9ed9719a6846e27c6ec4e3d91e710245d9a05263ee711938ee96393c9023"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\05_validare\\PROTOCOL_AUDIT.md",
+    "status": "copiat",
+    "saved_path": "fisiere/PROTOCOL_AUDIT--45587486.md",
+    "bytes": 3176,
+    "sha256": "040d7e41421dc70cba8843eda02336247458a2d20a3b6dd17e6fc03c3beff95c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\REMEDIERE_GUVERNANTA_R1.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REMEDIERE_GUVERNANTA_R1--cbb23112.md",
+    "bytes": 1404,
+    "sha256": "c832d72d84954ecd67604324228cfdb8545c91a02fc1c5c7f6d5baac2521767d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\07_audit\\document-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/document-preview--13d0c85f.png",
+    "bytes": 150522,
+    "sha256": "7596939f946fa9c97cc9f971bbc36c5e1d5cb3b5f360a6f15aa53ca62eafda56"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--7fdffb9e.md",
+    "bytes": 3437,
+    "sha256": "ca918f07c85d5a625c142b8bfa4c7a35bade14aa91edcff0a0f4a26771fe70c4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\build-sources.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build-sources--a0572e5c.cjs",
+    "bytes": 4369,
+    "sha256": "aba25c125e8e18d2651c8d209d43aa530ba4d15f418d128dea50b43ec12afec8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\create-registers.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/create-registers--1c568f83.cjs",
+    "bytes": 25097,
+    "sha256": "a02d35e67ea4b88709f7418bb07dbe89689eaeaa10c760e6bc524e4542f5340f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\deliver.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/deliver--366c9c20.cjs",
+    "bytes": 1878,
+    "sha256": "eb8cea95ac66df089b584b4201381a18008ec963f03b9d478f77412651bc395e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\deliver.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/deliver--df193119.ps1",
+    "bytes": 2621,
+    "sha256": "0993fcad418e07a0d03b0b635464ce2e89d68d817b64ab76404f66e20545a878"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\integrate-audits.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/integrate-audits--1fa29abe.cjs",
+    "bytes": 5884,
+    "sha256": "0f46f5fc337d2538123b55009b2531a18ffd5b3e6266ca3d5b6d16c8b52c776b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\manage.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/manage--0537c2b1.cjs",
+    "bytes": 15899,
+    "sha256": "56891a108dd46cf8bac575166b2ff27590281f065b71e7d783d5d5522df3eb91"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\preview.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/preview--286e4c7b.cjs",
+    "bytes": 626,
+    "sha256": "98060ffb1f77983d7a6e1f17577c6b0a514cc487d62cea39b2ee83c830a3fa56"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\remediate-transversal-r1.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/remediate-transversal-r1--b763ab0b.cjs",
+    "bytes": 11118,
+    "sha256": "dba92aaf37c2917554aefff16fae7ccb72543eb5eb4533e621f7fa1dca04d07c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Cercetare_si_arhitectura_robotica_2026-10-02\\tools\\render.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/render--b9323f3c.cjs",
+    "bytes": 1085,
+    "sha256": "5e3979186232ff01153a7e3f889a4978609ba4391baf4c37335a39ebc986141f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\00_control\\ECHIPA_PLAN_SI_RELUARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ECHIPA_PLAN_SI_RELUARE--a4dbe3b2.md",
+    "bytes": 10297,
+    "sha256": "77d885c33b8f1c9569c5f7c62a4ab3cbb8b3ef61481b898aa84773b6af050022"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\01_cercetare\\01_sinteza_si_ipoteze.md",
+    "status": "copiat",
+    "saved_path": "fisiere/01_sinteza_si_ipoteze--1b9b1ce9.md",
+    "bytes": 6549,
+    "sha256": "d93bdd1d6dfb5209e4aad5c1a12ae62b083da0a6f8876a9efed14cf8620daa7f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\01_cercetare\\02_algoritmi_si_argumente.md",
+    "status": "copiat",
+    "saved_path": "fisiere/02_algoritmi_si_argumente--6aceb94d.md",
+    "bytes": 9840,
+    "sha256": "c7a1d559c6a7b5bfed6d30746382e77c58e7ffaac26a99c800faf442cc3afa5e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\01_cercetare\\03_hardware_decizii_si_riscuri.md",
+    "status": "copiat",
+    "saved_path": "fisiere/03_hardware_decizii_si_riscuri--15a586e4.md",
+    "bytes": 10105,
+    "sha256": "32aa0e5f1c265bba40b2cd3a4a1e0fe3dc43a40d8f77fee13212385254949e70"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\tools\\manage.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/manage--4f72ba9c.cjs",
+    "bytes": 8560,
+    "sha256": "c6fc73c8c10ab59104a31865d471a8b12a67d547b4df251f9ab238211dd441f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Aplicatie\\Proiect_tehnic_fundamentat_2026-10-02\\tools\\registers.cjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\.dockerignore",
+    "status": "copiat",
+    "saved_path": "fisiere/dockerignore--ba6b4d41",
+    "bytes": 93,
+    "sha256": "6cb2334095d7d3d642983c6f51af59660734623dc608d4ded270cd25ed353098"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\.gitignore",
+    "status": "copiat",
+    "saved_path": "fisiere/gitignore--5435e587",
+    "bytes": 65,
+    "sha256": "457e6373818bc87e663fc91731682fee4b44461a9959e9888b94cab45f4a1af7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--d357b836.md",
+    "bytes": 4350,
+    "sha256": "efc4e20802f6b87f74254f492e2ae355874df61a8f340ec11b44cdf75c328778"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\content\\redesign-v2-source.json",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-v2-source--eabaf008.json",
+    "bytes": 11110,
+    "sha256": "3e803f71f91321e8f158638666e81864c461f3482004abcf354d6a97530a2ae2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\ARCHITECTURE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/ARCHITECTURE--8fcf67cc.md",
+    "bytes": 3090,
+    "sha256": "26129aaf45f18ea566758832c7f728d15408a77cff10084116a56489301a3645"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\BRAND.md",
+    "status": "copiat",
+    "saved_path": "fisiere/BRAND--c7b4acdb.md",
+    "bytes": 1433,
+    "sha256": "9ea2966299caef8afefd2a3a00ca2abd5ab9db01dc381a77a6c282c7f08b8331"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\IDENTITATE_EVA-3dScan.md",
+    "status": "copiat",
+    "saved_path": "fisiere/IDENTITATE_EVA-3dScan--bad0fd37.md",
+    "bytes": 3445,
+    "sha256": "fbb918f937d017baafbc0da94ccbef823803840a9df30dbb1c2f1418d98c05f1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\REDESIGN_LIVRAT.md",
+    "status": "copiat",
+    "saved_path": "fisiere/REDESIGN_LIVRAT--db0a5821.md",
+    "bytes": 3890,
+    "sha256": "803d73ddcecd144193a34f01187e397aa70487beeac46af81d5940b83cc0fc79"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\RELUARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RELUARE--520dff32.md",
+    "bytes": 2995,
+    "sha256": "59bcc0905185a7bce673aa9bf93ac3dd1b24d4980f6346498e342e68e1103add"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\SCENARII_VIZUALE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SCENARII_VIZUALE--a24f5311.md",
+    "bytes": 1803,
+    "sha256": "b939ed3c68e03e0347f00f1237756149e3cf0890b87562830e55c0ae2e5c2b20"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\STATUS.json",
+    "status": "copiat",
+    "saved_path": "fisiere/STATUS--9a16984b.json",
+    "bytes": 5340,
+    "sha256": "d11dc0a0cea722c6e0efef5a99cfd35e4df9cd915bcd55266f058d045ba57383"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\UTILIZARI_LIVRARE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/UTILIZARI_LIVRARE--03ff19f8.md",
+    "bytes": 1443,
+    "sha256": "be934715f28b7ea325a59ec9df4b60fabd50e3f039c0fc4bb5c5c2ff3aa39726"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\VALIDARE_FINALA.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VALIDARE_FINALA--1889b7e7.md",
+    "bytes": 3645,
+    "sha256": "c7ebbc32f2884f999caf27efbbdea3830a104e7e05e0270354777cd9d013d4a0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\manager-events.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/manager-events--3d235cc1.jsonl",
+    "bytes": 6238,
+    "sha256": "7576c9ec449630fb782a00a85ec9f9a7207d6a61baaebf3432e0d525a5a6c934"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\customer-finder-1440.png",
+    "status": "copiat",
+    "saved_path": "fisiere/customer-finder-1440--9bff0c04.png",
+    "bytes": 1565521,
+    "sha256": "8713b32bc40d197a5a88cfe59df300ccb1e559552caf55e08ea6930b14f94bfe"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\customer-finder-390.png",
+    "status": "copiat",
+    "saved_path": "fisiere/customer-finder-390--fad35248.png",
+    "bytes": 797879,
+    "sha256": "eda09b8cf6876c2ede6ed45b7c919bdd856c7bbacaa07805faf2f9bfbc3da5d5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\home-1440.png",
+    "status": "copiat",
+    "saved_path": "fisiere/home-1440--f41b1c91.png",
+    "bytes": 1569460,
+    "sha256": "7bbbe7de2b3b918015a97aa8d5ef4b5f413f354fbc24f83318362b5dfa8ec2e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\home-390.png",
+    "status": "copiat",
+    "saved_path": "fisiere/home-390--9eb8a9c9.png",
+    "bytes": 783535,
+    "sha256": "f64b6f5df30f90e11ec06ebda32e37b0d7db997dbb762123e61ebcd584c23ae2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\product-v2-1440.png",
+    "status": "copiat",
+    "saved_path": "fisiere/product-v2-1440--6ec22c34.png",
+    "bytes": 1598333,
+    "sha256": "948c7a6eef059c4b32364f9828e0012bc3f616f78f8bade1235994c31c0cd373"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\redesign-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-desktop--b031bb97.png",
+    "bytes": 1569496,
+    "sha256": "dc917056d1f954fbc2874ceceeee4cb5945f749512f7917f29850d7903c1d803"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\redesign-face.png",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-face--0a90b494.png",
+    "bytes": 439829,
+    "sha256": "5d797aabb3b80086fe2c6230595bc0a42ee79f8a97d2e40206b2b7bc254c2fda"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\redesign-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-mobile--6bb47532.png",
+    "bytes": 783528,
+    "sha256": "66b3d49a7241360037a44898a32bd29c98ca73643dfd812fb41b41e1c5aef4a8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\scenarios-home.png",
+    "status": "copiat",
+    "saved_path": "fisiere/scenarios-home--48ce0be6.png",
+    "bytes": 1569462,
+    "sha256": "09f50777b1a2e28f8e3218e5d04bc3c91e63306f5d868e42bb200ac7d80d6fe7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\spaces-usecases.png",
+    "status": "copiat",
+    "saved_path": "fisiere/spaces-usecases--d5866687.png",
+    "bytes": 931304,
+    "sha256": "c29955d7495aece35f762e8c3e7a797139bf78f8960b6b13e0bdb5a3497af65e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\uses-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/uses-desktop--f7ba02ca.png",
+    "bytes": 311397,
+    "sha256": "886b690bfbfd5a788448dd8735654c94b08f5c416acd769051c5259e9f8d0449"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\docs\\validation\\uses-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/uses-mobile--e9de3826.png",
+    "bytes": 323541,
+    "sha256": "4483e9387acbb753444bc7d02f5d3641c8e07e79054212b8521eb17347ae12e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\ops\\start.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/start--30de1872.sh",
+    "bytes": 243,
+    "sha256": "f3a2c8daee03e21c1446e2a0ed4215551c500e300dd759324da2dc71192e6cce"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\ops\\verify.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/verify--1a62d6f7.sh",
+    "bytes": 421,
+    "sha256": "d932d1a2f7b60e37d5bcf60fb614831bfbab3761cac2c2edb3f82a1fcde87404"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\app.js",
+    "status": "copiat",
+    "saved_path": "fisiere/app--aa381e85.js",
+    "bytes": 28096,
+    "sha256": "5953bcc27388225afeb6f2a0a60c2efaab92a8379be0d9be4e69a699191d7dd4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\01-capture.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01-capture--42662f64.png",
+    "bytes": 2131575,
+    "sha256": "1823aae4f996b172015f8faf3e019525912274e02a59be3cb087ea35a411d57b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\02-face.png",
+    "status": "copiat",
+    "saved_path": "fisiere/02-face--2b17943f.png",
+    "bytes": 2254412,
+    "sha256": "bbabca62c97eb10322b1fcf6c9df989db146059549c98be2e446cfcfca48a954"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\05-spaces.png",
+    "status": "copiat",
+    "saved_path": "fisiere/05-spaces--3b7394d5.png",
+    "bytes": 2375408,
+    "sha256": "72508e4b3f5c01a40a759c60f0558e968ce96810be0ff503d3a148bfd9081945"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\06-architect.png",
+    "status": "copiat",
+    "saved_path": "fisiere/06-architect--84059c58.png",
+    "bytes": 2153179,
+    "sha256": "b6b75559e32be88e63ca7d5d1abdd364b842f743b64b955ac26e6a4344d1ff14"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\07-mario-walls.png",
+    "status": "copiat",
+    "saved_path": "fisiere/07-mario-walls--e8f3f0d4.png",
+    "bytes": 2101010,
+    "sha256": "4bca6e4cf1d0b73d53450a2284aa8dd51d73b8135abc87147eb4d217748f63e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\08-design-couple.png",
+    "status": "copiat",
+    "saved_path": "fisiere/08-design-couple--8c32e7f1.png",
+    "bytes": 2329679,
+    "sha256": "f4a25c252c90db3773dffcc434d134645f408956169b9c178846619374c5651f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\campaign\\09-repair-foreman.png",
+    "status": "copiat",
+    "saved_path": "fisiere/09-repair-foreman--186d61e0.png",
+    "bytes": 2338230,
+    "sha256": "d5d1b783779ca770dd4b3669546c0a675edd0091350bcee12cc009aa00aaaa23"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\eva-app-icon.svg",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-app-icon--04fb040f.svg",
+    "bytes": 1020,
+    "sha256": "1cdfa957b92dfca6bf03e99996ce50e10c0583c4a3089e0f2086209b5ee7b392"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\eva-logo-animated.svg",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-logo-animated--f7e9bc35.svg",
+    "bytes": 1018,
+    "sha256": "5f146b8eb3d81e072ecb0904b3f6056837f8a62db2c71f951b797118ced92fb9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\eva-mark-animated.svg",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-mark-animated--fbc7d6e6.svg",
+    "bytes": 952,
+    "sha256": "0f33978f048c8d1edc6a3945c3ca8467eb53e0c2a0bb8bbe28fb0d05af569874"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\hero-scan.png",
+    "status": "copiat",
+    "saved_path": "fisiere/hero-scan--8658ba1d.png",
+    "bytes": 1798604,
+    "sha256": "e5990e01f0bd9fdc236c70c095b3a20f9c50481fae1b656a57586da0bcdf6cc2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\logo.svg",
+    "status": "copiat",
+    "saved_path": "fisiere/logo--8198acc1.svg",
+    "bytes": 646,
+    "sha256": "a563e72254eaf705ef9bc46f9f35b778455429e82d92a333da6a2e574f74c15e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\assets\\mark.svg",
+    "status": "copiat",
+    "saved_path": "fisiere/mark--1d3b3b0f.svg",
+    "bytes": 317,
+    "sha256": "5e1f60def944a23670a52fd3df37357d3b2bf778829ed3af967a5f5f807f9409"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\campaign.css",
+    "status": "copiat",
+    "saved_path": "fisiere/campaign--8c1d4735.css",
+    "bytes": 9938,
+    "sha256": "2b47350500496a66e7a24b175e804cd76242cdbedc711476403f2ab9fcff7c6d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\discovery.css",
+    "status": "copiat",
+    "saved_path": "fisiere/discovery--1ae5bc8b.css",
+    "bytes": 6249,
+    "sha256": "652fadbbc2fe08fc335d2c5470b7373757d53feeb0894373a7ce55c66362cce1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--2bf394f4.html",
+    "bytes": 1044,
+    "sha256": "a5013d7ba54b028ccadcc2fd8f6cfca7426903dfcdb2114bc34f28b7a0cd09b1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\product-story.css",
+    "status": "copiat",
+    "saved_path": "fisiere/product-story--e9b60ad6.css",
+    "bytes": 18913,
+    "sha256": "d8eb388aa446daa83132d09b88f877f77bbd532ca02b2c370dd83ccbf6c55634"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\product-story.js",
+    "status": "copiat",
+    "saved_path": "fisiere/product-story--a2a87f46.js",
+    "bytes": 17747,
+    "sha256": "5138a39b7f6de8f191c3d55766c718ae470ad9f2d4c696c4b0956180e117b541"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\public\\styles.css",
+    "status": "copiat",
+    "saved_path": "fisiere/styles--0a11fa33.css",
+    "bytes": 19460,
+    "sha256": "1ba0f75b16d85d8909472997fbd2098978ae34bccae37b08d14715ec0a74abd1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\apply-campaign-content.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/apply-campaign-content--52e5d97e.mjs",
+    "bytes": 1044,
+    "sha256": "4071ba435034eaaddea619d21c26ceac75d30b7b56b3e1aadbbf070abdc96663"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\apply-product-redesign.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/apply-product-redesign--a5954504.mjs",
+    "bytes": 836,
+    "sha256": "331883f3c2b9d1ff13316a2f376b854f5693bd8a8d00322d17487ff8186a2f4c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\scripts\\apply-usecase-content.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/apply-usecase-content--1b865498.mjs",
+    "bytes": 1051,
+    "sha256": "a32907009bba333af7c51af8d7d9296b7a8989cbbf16eaa466cae95c060307c8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\server\\http.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/http--3d4cc2af.mjs",
+    "bytes": 16404,
+    "sha256": "25c720056df5c96508c68794f3d018b85e3c7e57d2267f3977e6119cdf2aa507"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\server\\seo.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/seo--238c66a8.mjs",
+    "bytes": 10734,
+    "sha256": "27fd88c5a92f3480122e708ccb4938edd45567f04fc0a0949d4ad42eeb7c842f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\backend-seo.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/backend-seo--9cf62972.mjs",
+    "bytes": 10008,
+    "sha256": "19f5efb3c6c983ebfe5d52d0690b9aff9b2c562cca39af75ed1c94e056817585"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\browser.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/browser--de245174.mjs",
+    "bytes": 7080,
+    "sha256": "553749304b2d700b9cf0442ab81172f680a495f61ad21277636e4aef2b9201dc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\customer-finder-browser.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/customer-finder-browser--d739fd10.mjs",
+    "bytes": 5511,
+    "sha256": "11c389b70dbe97ae3dc2dcfb5c468f34c9203d2ae914953cc04c7e91cfebe3e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\discovery-browser.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/discovery-browser--5d707732.mjs",
+    "bytes": 7384,
+    "sha256": "2394b4b41dcf6d67ea0c4e5dc4dd370f2e14aa724bb6fc05749f5aabba06ca0e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\live-variable.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/live-variable--739d2b2a.mjs",
+    "bytes": 1918,
+    "sha256": "85c35a4eaad3706bb215a54beb78c242de24e86e6804a4e076134452887bd1b5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\product-story-browser.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/product-story-browser--2025c86d.mjs",
+    "bytes": 7461,
+    "sha256": "f1c1f205a4be4069760de673547bb79ce8d5d44cb6679b950840d3faa0ccea2c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\public-customer-smoke.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/public-customer-smoke--b1a28a83.mjs",
+    "bytes": 2026,
+    "sha256": "0a3dc6b392940b949f952ac2c3f80bf76a3432a78f529fc7fec369e2c6fe05d2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\public-seo.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/public-seo--85276bb8.mjs",
+    "bytes": 1603,
+    "sha256": "ecf8b045c20fb1f8b58cc7502bcf1ef253cff80dfd78def6671a29c109cf4394"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tests\\redesign-browser.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/redesign-browser--0621278e.mjs",
+    "bytes": 5259,
+    "sha256": "18be0a88c7d10b55ac259a2a59b772c38c4a664cb7d870863b8508b69e30ce04"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\apply-discovery.mjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\apply-home-redesign.mjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\discovery-functions.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\export-backend-snapshot.mjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\export-seo-keywords.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/export-seo-keywords--55383260.mjs",
+    "bytes": 1237,
+    "sha256": "437a0a1b8c5ffa5aaf8c61e5a28db5422b953886cb99ddaecb95772ac78a9c70"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\finalize-customer-focus.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-customer-focus--a75303ab.mjs",
+    "bytes": 4589,
+    "sha256": "538dcf2ede38ce792d228a9551d6e4a86b1909cc00d7a9828f4a21638864d1df"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\finalize-product-qa.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize-product-qa--a4d2c4c5.mjs",
+    "bytes": 1379,
+    "sha256": "fee9d72b6c4c65376555f1c96e0b89ce48657b61c24c7237a099add93f68e7c3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\home-template.txt",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\manifest.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/manifest--0613ff40.mjs",
+    "bytes": 1555,
+    "sha256": "384c291b375b82e1bc0bfc85c4e799a6bc6a6269f30b4e6f5a168377fdce5c48"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\merge-existing-backend.mjs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\optimize-assets.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/optimize-assets--72b3a691.mjs",
+    "bytes": 1422,
+    "sha256": "3844d48507a1d7c7e77a75897f1a2265bbeae833f0d8f466bd9c12bdd2f05219"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\performance.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/performance--1a75c2d7.mjs",
+    "bytes": 1797,
+    "sha256": "b793e00585a344ae3fb1ef51816e241ec82bbd73077031dbe9fd4d59bf8267e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\prepare-campaign.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-campaign--58b1dfd6.mjs",
+    "bytes": 2045,
+    "sha256": "05c04e660b91a334b52610ad6a01bb168ba29005866c2136eeda09d386f08f44"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\prepare-customer-focus.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-customer-focus--c74cec8c.mjs",
+    "bytes": 8113,
+    "sha256": "f03a3f2d16a6b987fd124c4ff4bf10d07002608c1c63d4e1b8501dd1c255c1f2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\prepare-product-redesign.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-product-redesign--5754c096.mjs",
+    "bytes": 4807,
+    "sha256": "730e6c0c34d6eec746e99196c48ff6500a1133647b8b5de1d09b8fde0add78ba"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\prepare-usecase-assets.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-usecase-assets--707f8ad5.mjs",
+    "bytes": 1476,
+    "sha256": "6d61981d967365519f59389a15a26f9e188979e54767b11b326e7eb03de80ca1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\prepare-usecase-content.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare-usecase-content--cfc1adb5.mjs",
+    "bytes": 1005,
+    "sha256": "e38f41781971481f481c06fb3d6da5923bd1654a91fdaf587f3dce803c815133"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\record-customer-delivery.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/record-customer-delivery--050d318f.mjs",
+    "bytes": 10637,
+    "sha256": "c4a46b7b11e1e8d9faa9aec4ec9b05eb0499c778b29b39d6a248f754621540a5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\Site\\tools\\record-redesign.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/record-redesign--060b1503.mjs",
+    "bytes": 2686,
+    "sha256": "eb9eb1432977997ba9cbd851dabadb494157bfe045822a6ad18872f6a6b602f6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\02\\01a0fc12-eed4-7763-89a8-9dbc3f2d96aa\\document-preview.png",
+    "status": "copiat",
+    "saved_path": "fisiere/document-preview--84b4382d.png",
+    "bytes": 93718,
+    "sha256": "ea81b034a563b17ca95370b8b72243a076df08c7ffd53f9931079ca133fe8c6e"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/Aplicație",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/Aplicație/Identitate EVA-3dScan",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/EVA_3D_Scan_documentatie.zip",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/Site/README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--dd63f586.md",
+    "bytes": 3886,
+    "sha256": "5857e4ffdba7846d150288ef2752b810d4591381faf02a85290b547b2f3905da"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/Site/docs/VALIDARE_FINALA.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VALIDARE_FINALA--f3701cf3.md",
+    "bytes": 3645,
+    "sha256": "c7ebbc32f2884f999caf27efbbdea3830a104e7e05e0270354777cd9d013d4a0"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/Site/docs/campaign-assets.json",
+    "status": "copiat",
+    "saved_path": "fisiere/campaign-assets--74f0775f.json",
+    "bytes": 9998,
+    "sha256": "3303e7a720dd791ff65faa0de95a657cd41b3bd5464c4562dd99cb736918574a"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/Site/public/assets/campaign",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/documentatie/06_prompturi/PROMPT_MASTER.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/documentatie/06_prompturi/PROMPT_RELUARE.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/documentatie/08_audit/AUDIT_02_FINAL.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:/3dscan.eva-org.com/documentatie/09_livrabile/DOSAR_COMPLET.pdf",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\3dscan.eva-org.com\\Aplicație\\Cercetare_si_arhitectura_robotica_2026-10-02\\08_livrabile\\DOSAR_COMPLET.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/DOSAR_COMPLET--7639a021.pdf",
+    "bytes": 1675858,
+    "sha256": "8c559f7940a440dcfff2d2dba3a16b6404862e1ed5f9f3fe63ea4a2842fb069a"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\3dscan.eva-org.com\\Aplicație\\Cercetare_si_arhitectura_robotica_2026-10-02\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--6e8a7d97.md",
+    "bytes": 3437,
+    "sha256": "ca918f07c85d5a625c142b8bfa4c7a35bade14aa91edcff0a0f4a26771fe70c4"
+  },
+  {
+    "source_reference": "http://127.0.0.1:4160/?lang=ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://3dscan.eva-org.com/?lang=ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/arcamera/transform",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/ardepthdata/confidencemap",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/arframe/smoothedscenedepth",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/arkit/armeshanchor",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/avfoundation/avcapturesession/interruptionreason/videodevicenotavailableinbackground",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/coreml",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/roomplan/structurebuilder/capturedstructure%28from%3A%29",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/vision/vngenerateforegroundinstancemaskrequest",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/vision/vntrackobjectrequest",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/visionos/implementing-object-tracking-in-your-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/documentation/visionos/using-a-reference-object-with-arkit-in-ios",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/it/documentation/roomplan/capturedroom/object",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/library/archive/technotes/tn2445/_index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://developer.apple.com/videos/play/wwdc2023/10049/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.opencv.org/4.13.0/d5/d1f/calib3d_solvePnP.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/AprilRobotics/apriltag",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros-infrastructure/rep/blob/master/rep-0103.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros-infrastructure/rep/blob/master/rep-0105.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros/robot_state_publisher",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ros2/ros2_documentation/blob/jazzy/source/Concepts/Intermediate/About-Quality-of-Service-Settings.rst",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.open3d.org/docs/release/tutorial/pipelines/icp_registration.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.open3d.org/docs/release/tutorial/pipelines/multiway_registration.html",
+    "status": "referinta_externa_necopiata"
+  }
+]

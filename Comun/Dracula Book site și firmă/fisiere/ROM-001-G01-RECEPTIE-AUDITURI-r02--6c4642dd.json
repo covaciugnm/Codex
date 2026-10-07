@@ -1,0 +1,759 @@
+{
+  "checked_at": "2026-09-24T14:15:30.4269540+03:00",
+  "scope": "Readonly file/hash and line-anchor existence, not semantic meta-audit",
+  "reports": [
+    {
+      "path": "05_AUDIT/ROM-001-G01/r02/A-CANON.json",
+      "sha256": "867888f1d0a5331f8c83bd1fe0061d3d5c4abd42280dcd338e5b35f934c81ff0",
+      "notification_hash_matches": true,
+      "verdict": "PASS",
+      "min_score": 974,
+      "checks": [
+        {
+          "path": "06_REGISTRU/CONTRACTE/ROM-001-G01-r02.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/RAPORT_REMEDIERE_r01.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON-CONTROLES.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.sha256",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/provenienta.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-receipt-r02.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-verification-r02.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON.md",
+          "anchor": ":L27-L37",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+          "anchor": ":L9-L84",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+          "anchor": ":L7-L27",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-CANON.jsonl",
+          "anchor": ":L137-L227",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON.md",
+          "anchor": ":L39-L65",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+          "anchor": ":L88-L158",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+          "anchor": ":L175-L184",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+          "anchor": ":L35-L44",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+          "anchor": ":L88-L106",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r02.md",
+          "anchor": ":L60",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+          "anchor": ":L19",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON.md",
+          "anchor": ":L55-L65",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md",
+          "anchor": ":L19-L268",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+          "anchor": ":L24-L82",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+          "anchor": ":L129-L186",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+          "anchor": ":L22-L255",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/CONSTRANGERI_CALENDAR_r01.md",
+          "anchor": ":L24-L45",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON.md",
+          "anchor": ":L19-L25",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON.md",
+          "anchor": ":L67-L73",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/APROBARE_BENEFICIAR_G01.md",
+          "anchor": ":L3-L6",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+          "anchor": ":L131-L147",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+          "anchor": ":L166-L190",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r02.md",
+          "anchor": ":L39-L45",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/STRATEGIE_date_plan.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "00_CONDUCERE/RUBRICI.md",
+          "anchor": ":L39-L47",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON.md",
+          "anchor": ":L25-L37",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-CANON-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+          "anchor": ":L50-L127",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+          "anchor": ":L23-L69",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_REMEDIERE_r03/agents.json",
+          "anchor": ":L39-L44",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_REMEDIERE_r03/provenienta.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+          "anchor": ":L92-L112",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.sha256",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/provenienta.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-receipt-r02.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-verification-r02.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        }
+      ],
+      "failures": []
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.json",
+      "sha256": "e9663c922e1382b7960b4f328f58290e38c46a46d6fd42b178a193a6cb06f3a9",
+      "notification_hash_matches": true,
+      "verdict": "PASS",
+      "min_score": 963,
+      "checks": [
+        {
+          "path": "06_REGISTRU/CONTRACTE/ROM-001-G01-r02.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/RAPORT_REMEDIERE_r01.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.md",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE-CONTROLES.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.sha256",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/provenienta.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-receipt-r02.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-verification-r02.json",
+          "anchor": null,
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+          "anchor": ":L45-L84",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+          "anchor": ":L1-L31",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+          "anchor": ":L1-L28",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-CANON.jsonl",
+          "anchor": ":L137-L227",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.md",
+          "anchor": ":L9-L23",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+          "anchor": ":L84-L159",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+          "anchor": ":L35-L98",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r02.md",
+          "anchor": ":L60",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+          "anchor": ":L19",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.md",
+          "anchor": ":L25-L68",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md",
+          "anchor": ":L19-L90",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md",
+          "anchor": ":L91-L192",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md",
+          "anchor": ":L193-L269",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+          "anchor": ":L18-L82",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+          "anchor": ":L1-L266",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/CONSTRANGERI_CALENDAR_r01.md",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.md",
+          "anchor": ":L58-L68",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/APROBARE_BENEFICIAR_G01.md",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+          "anchor": ":L3-L25",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+          "anchor": ":L137-L147",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+          "anchor": ":L1-L14",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/STRATEGIE_date_plan.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_REMEDIERE_r03/agents.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+          "anchor": ":L48-L68",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/CALIBRARE/A-GOVERNANCE-r02.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.md",
+          "anchor": ":L82-L95",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+          "anchor": ":L27-L135",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+          "anchor": ":L21-L77",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/MASURI/META-ROM-001-G01-r01-F01-plan-A-GOVERNANCE-r01.md",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/META.md",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/index.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r02-before/provenienta.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-verification-r02.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE.md",
+          "anchor": ":L82-L95",
+          "hash_ok": true,
+          "anchor_exists": true
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r02/A-GOVERNANCE-CONTROLES.json",
+          "anchor": "",
+          "hash_ok": true,
+          "anchor_exists": true
+        }
+      ],
+      "failures": []
+    }
+  ],
+  "transport_note": "Prima încercare de citire combinată manifest+JSON+controale a fost trunchiată; nu a fost folosită. Manifestul și fiecare raport au fost recitite separat integral. Controalele complete rămân intrări pentru QA; recepția managerului nu este metaaudit."
+}

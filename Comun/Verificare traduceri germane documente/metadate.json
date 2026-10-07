@@ -1,0 +1,23 @@
+{
+  "id": "01a0d24f-b386-7750-a258-cc18e861a2bf",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1790167320,
+  "updated_at": 1790168451,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verificare traduceri germane documente",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 404962,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 137,
+  "message_count": 137,
+  "content_sha256": "745a5ce67bc60875d35cc9d3aa0d2eb330fa444d89be40764ea2b4b8ca8c85f9",
+  "files_copied": 4,
+  "references_not_copied": 28
+}

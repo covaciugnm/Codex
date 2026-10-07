@@ -1,0 +1,23 @@
+{
+  "id": "01a0ecfb-b836-7972-8f41-f8926b51bb76",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.09.11. Puscau Bogdan Sebastian SES",
+  "created_at": 1790682314,
+  "updated_at": 1791300339,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică stadiul achizițiilor",
+  "project_id": "fb3ecc5b-d79f-4ebd-8375-45b8acdeb7c5",
+  "project": "Indunova",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 67120370,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 717,
+  "message_count": 159,
+  "content_sha256": "ce9dcd4bc209420507c3fd5c41054baa9b891adb2d73a77d2dce23cc74bede05",
+  "files_copied": 93,
+  "references_not_copied": 35
+}

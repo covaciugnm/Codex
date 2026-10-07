@@ -1,0 +1,43 @@
+import unittest
+from export_istoric_observabil import select,redact,config_path,ROOT
+class ObservableExportTests(unittest.TestCase):
+    def test_config_inside_workshop(self):
+        self.assertEqual(config_path("06_REGISTRU/config-new.json"),ROOT/"06_REGISTRU/config-new.json")
+    def test_config_parent_escape_rejected(self):
+        with self.assertRaises(ValueError):config_path("../outside.json")
+    def test_absolute_external_config_rejected(self):
+        with self.assertRaises(ValueError):config_path(str(ROOT.parent/"outside.json"))
+    def test_reasoning_event_excluded(self):
+        self.assertIsNone(select({"type":"reasoning","summary":"hidden"}))
+    def test_system_message_excluded(self):
+        self.assertIsNone(select({"type":"message","role":"system","content":[]}))
+    def test_developer_message_excluded(self):
+        self.assertIsNone(select({"type":"message","role":"developer","content":[]}))
+    def test_analysis_message_excluded(self):
+        self.assertIsNone(select({"type":"message","role":"assistant","channel":"analysis","content":[]}))
+    def test_unknown_assistant_phase_excluded(self):
+        self.assertIsNone(select({"type":"message","role":"assistant","content":[]}))
+    def test_commentary_message_included(self):
+        self.assertEqual(select({"type":"message","role":"assistant","phase":"commentary","content":[{"type":"output_text","text":"status"}]})["content"][0]["text"],"status")
+    def test_final_message_included(self):
+        self.assertEqual(select({"type":"message","role":"assistant","phase":"final_answer","content":[]})["phase"],"final_answer")
+    def test_user_text_preserved(self):
+        self.assertEqual(select({"type":"message","role":"user","content":[{"type":"input_text","text":"cerință exactă"}]})["content"][0]["text"],"cerință exactă")
+    def test_internal_message_metadata_omitted(self):
+        self.assertNotIn("internal_chat_message_metadata_passthrough",select({"type":"message","role":"user","content":[],"internal_chat_message_metadata_passthrough":"hidden"}))
+    def test_tool_call_allowlist(self):
+        d=select({"type":"custom_tool_call","name":"functions.exec","call_id":"c1","input":"public code","encrypted_content":"hidden"})
+        self.assertEqual(d,{"type":"custom_tool_call","call_id":"c1","name":"functions.exec","input":"public code"})
+    def test_tool_result_allowlist(self):
+        d=select({"type":"custom_tool_call_output","call_id":"c1","output":"public result","internal_chat_message_metadata_passthrough":"hidden"})
+        self.assertEqual(d,{"type":"custom_tool_call_output","call_id":"c1","output":"public result"})
+    def test_secret_patterns_redacted(self):
+        d,n=redact({"output":"Bearer "+"A"*25+" "+"sk-"+"B"*25})
+        self.assertEqual(n,2);self.assertNotIn("A"*25,d["output"]);self.assertNotIn("B"*25,d["output"])
+    def test_nested_private_keys_removed(self):
+        d,n=redact({"output":{"encrypted_content":"hidden","reasoning":"hidden","public":"kept"}})
+        self.assertEqual(d,{"output":{"public":"kept"}})
+    def test_media_not_copied_as_hidden_payload(self):
+        d=select({"type":"message","role":"user","content":[{"type":"image","data":"not copied"}]})
+        self.assertNotIn("data",d["content"][0])
+if __name__=="__main__":unittest.main()

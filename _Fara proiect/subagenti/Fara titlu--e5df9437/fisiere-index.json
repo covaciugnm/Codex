@@ -1,0 +1,37 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/dracula-food/FOOD-SOURCES.md",
+    "status": "copiat",
+    "saved_path": "fisiere/FOOD-SOURCES--da3252dd.md",
+    "bytes": 10196,
+    "sha256": "7c393ee59e71acb543b2b355cdf41b243b5142e041643a434a37c2039d998d1a"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/dracula-food/food/product-enrichment.json",
+    "status": "copiat",
+    "saved_path": "fisiere/product-enrichment--cdefe280.json",
+    "bytes": 292227,
+    "sha256": "a1ab961f1da355e7c9eb36fb685605a2a70ee0e460066ca221d1c1163b8a1894"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\backend\\import_raisin_drafts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/import_raisin_drafts--74e53f61.py",
+    "bytes": 8973,
+    "sha256": "137c919c43a19b4669d7861a7ffb58e6abc0aee948fe22c3ca0d70de8974b4ac"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-food\\ops\\RAISIN-CATALOG.md",
+    "status": "copiat",
+    "saved_path": "fisiere/RAISIN-CATALOG--d3c49e56.md",
+    "bytes": 1893,
+    "sha256": "9a680d876e5f6f121838457b117977f880d564a30f59c8b3b4fc119542ae3ec3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\build-food-enrichment.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build-food-enrichment--b9028d1b.py",
+    "bytes": 87078,
+    "sha256": "0c4392b2da0994e9433eb6c97e5c7db4aa45bfc85a99d0b97f4a61e85376d4b9"
+  }
+]

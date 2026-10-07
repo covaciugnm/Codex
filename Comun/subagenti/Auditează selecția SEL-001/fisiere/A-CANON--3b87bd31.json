@@ -1,0 +1,356 @@
+{
+  "schema_version": 2,
+  "audit_id": "8ca0f5da-96e7-49f6-8abb-534d0d965170",
+  "deliverable_id": "ROM-001-G01",
+  "version_id": "r01",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/ROM-001-G01-r01.json",
+    "sha256": "07110637be555cb455727593ebdf9ef88de1f27c12b5a389f53e79544bd6cebe"
+  },
+  "reviewer_agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+  "reviewer_role": "A-CANON",
+  "files": [
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r02.md",
+      "sha256": "fb26a4a6bdfa76da4d0a66cc8fac9b75677ee2f299e014cc3de666978c9e78c7"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r02.md",
+      "sha256": "6ee676184ae2d21bbdffb57459158e18fae35ffb0ec3f2a7d7de4533d0b2b4a4"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+      "sha256": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+      "sha256": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r01.md",
+      "sha256": "04666f05d44e796d8ed6be5196930e0e164f76403e76d9c724239cfad1ea859f"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+      "sha256": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+      "sha256": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+      "sha256": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+      "sha256": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+      "sha256": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801"
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+      "sha256": "8a08f2358479913c3c998d6110a7d00aabc4cbf0545d9c8bd32f94a1cbf02c39"
+    }
+  ],
+  "supplemental_evidence_files": [
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+      "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc"
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r01/A-CANON-CONTROLES.json",
+      "sha256": "c1c72c28f4163cb5f30c2ec4c8483882da707cba2f9d18be2d4655ab92fd80bb"
+    },
+    {
+      "sha256": "73befab70d1266a41f79a339ce00eadb00d32efd57c5afdf9eb9ea7817c99823",
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/index.json"
+    },
+    {
+      "sha256": "f0328731f32221d8a54e71c9ccb2c3caf02020b6fa8ed1e4345e575b36c31d00",
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/index.sha256"
+    },
+    {
+      "sha256": "d04ac45055e27b9f86fd238582bf7ac967b272baec54f6e98f7a494308493aeb",
+      "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/provenienta.json"
+    },
+    {
+      "sha256": "3848a0b3dc9c17b950852a9c3fbe3a009d8f98edc7f8226a278f6cbaa4dc8f96",
+      "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-receipt-r01.json"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "acoperire",
+      "weight": 25,
+      "score": 980,
+      "evidence": [
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+          "sha256": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc",
+          "anchor": ":L45-L84"
+        },
+        {
+          "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-CANON.jsonl",
+          "sha256": "7167e755c47e27ab00057282b0bfa77815035637dc937d84a2565c37d800a5f2",
+          "anchor": ":L137-L227"
+        },
+        {
+          "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/P-CANON.md",
+          "sha256": "0dc81a963cc8e694c6511188eaee2f82a94cda77a717315e3ad232fbe7945538",
+          "anchor": ":L208-L232"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+          "sha256": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801",
+          "anchor": ":L7-L27"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#lecturi"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON-CONTROLES.json",
+          "sha256": "c1c72c28f4163cb5f30c2ec4c8483882da707cba2f9d18be2d4655ab92fd80bb",
+          "anchor": ""
+        }
+      ]
+    },
+    {
+      "id": "canon",
+      "weight": 30,
+      "score": 940,
+      "evidence": [
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+          "sha256": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc",
+          "anchor": ":L84-L105"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+          "sha256": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab",
+          "anchor": ":L35-L44"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+          "sha256": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab",
+          "anchor": ":L88-L105"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+          "anchor": ""
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r02.md",
+          "sha256": "6ee676184ae2d21bbdffb57459158e18fae35ffb0ec3f2a7d7de4533d0b2b4a4",
+          "anchor": ":L109-L117"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+          "sha256": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc",
+          "anchor": ":L159-L166"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#constatare"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#reteste"
+        }
+      ]
+    },
+    {
+      "id": "contradictii",
+      "weight": 20,
+      "score": 965,
+      "evidence": [
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+          "sha256": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0",
+          "anchor": ":L1-L266"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r02.md",
+          "sha256": "6ee676184ae2d21bbdffb57459158e18fae35ffb0ec3f2a7d7de4533d0b2b4a4",
+          "anchor": ":L17-L266"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md",
+          "sha256": "a5a9ff52b30f110d362e4b2175a17fe924d8a34d11c89efeb407d5025db54abc",
+          "anchor": ":L22-L80"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/CONSTRANGERI_CALENDAR_r01.md",
+          "sha256": "33436bcf08fce257ed4c1263372d79e4a3dfab956283d236e33f7892d2f3123a",
+          "anchor": ":L26-L45"
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/H.docx",
+          "sha256": "a9940d5776380cb40b105429f6976219440f3ea74fb8ebc1d1b4481e9da068c3",
+          "anchor": ""
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HP.docx",
+          "sha256": "7c5857a612ed87d1820e66623c06b876bc47fce05fff8829f6ef49063dfbd156",
+          "anchor": ""
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HB.docx",
+          "sha256": "9820461122fc30fcd82430a17b1d110fa9bdc3da4ad348b1883eba845c7615a9",
+          "anchor": ""
+        },
+        {
+          "path": "02_DOCUMENTARE/INTRARI_REFERINTA/HC.txt",
+          "sha256": "a2c60252d69160132ad815ee3a70a4b1d75578b5f4e7548f881b5d40b1e97dd3",
+          "anchor": ":L372-L379"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON-CONTROLES.json",
+          "sha256": "c1c72c28f4163cb5f30c2ec4c8483882da707cba2f9d18be2d4655ab92fd80bb",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#reteste"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#calendar"
+        }
+      ]
+    },
+    {
+      "id": "mandat",
+      "weight": 15,
+      "score": 985,
+      "evidence": [
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/APROBARE_BENEFICIAR_G01.md",
+          "sha256": "47563b28103b26a6269b6315fcc147f0b516d5bf7fc4ee35dddd8c361cc5edc1",
+          "anchor": ":L1-L7"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/MANDAT_SESIUNE_20260924.md",
+          "sha256": "0c5304782dd51d29a8a8a6215ec4a7f202fd3a66b818b151f72da74adb8a162f",
+          "anchor": ":L3-L12"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r02.md",
+          "sha256": "fb26a4a6bdfa76da4d0a66cc8fac9b75677ee2f299e014cc3de666978c9e78c7",
+          "anchor": ":L11-L31"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+          "sha256": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f",
+          "anchor": ":L1-L14"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/CONTEXT_INTEGRARE_r02/agents.json",
+          "sha256": "9eb4f8b4a4a7189e943fadcdcf7b74677fad93944d0152e464ab17b8b9f70e9c",
+          "anchor": ":L3-L61"
+        },
+        {
+          "path": "05_AUDIT/CALIBRARE_VERIFICARE-r02.md",
+          "sha256": "1688b73123cd032a119bcdb36d1f5d25753e8bc85df9c53888e613cc187ccefc",
+          "anchor": ":L92-L112"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/01_CANON/INTRARI_G01/STRATEGIE_date_plan.json",
+          "sha256": "ff35b05cf39779e05f26033f1d1406917925ddf2f8e651c65320ffca203a1b80",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#identitate"
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#limite"
+        }
+      ]
+    },
+    {
+      "id": "trasabilitate",
+      "weight": 10,
+      "score": 980,
+      "evidence": [
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r01.md",
+          "sha256": "04666f05d44e796d8ed6be5196930e0e164f76403e76d9c724239cfad1ea859f",
+          "anchor": ":L1-L42"
+        },
+        {
+          "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r02.md",
+          "sha256": "fb26a4a6bdfa76da4d0a66cc8fac9b75677ee2f299e014cc3de666978c9e78c7",
+          "anchor": ":L39-L70"
+        },
+        {
+          "path": "06_REGISTRU/ISTORIC/EXPORT_OBSERVABIL/ROM001-G01-depunere-r01/index.json",
+          "sha256": "ba15c729b9a444cbf8fc39df143e5fc8cbe54b93a2f1e768d28b7b340c31df78",
+          "anchor": ""
+        },
+        {
+          "sha256": "73befab70d1266a41f79a339ce00eadb00d32efd57c5afdf9eb9ea7817c99823",
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/index.json",
+          "anchor": ""
+        },
+        {
+          "sha256": "f0328731f32221d8a54e71c9ccb2c3caf02020b6fa8ed1e4345e575b36c31d00",
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/index.sha256",
+          "anchor": ""
+        },
+        {
+          "sha256": "d04ac45055e27b9f86fd238582bf7ac967b272baec54f6e98f7a494308493aeb",
+          "path": "06_REGISTRU/PROBE_ARHIVA/ROM-001-G01-r01-before/provenienta.json",
+          "anchor": ""
+        },
+        {
+          "sha256": "3848a0b3dc9c17b950852a9c3fbe3a009d8f98edc7f8226a278f6cbaa4dc8f96",
+          "path": "06_REGISTRU/REZULTATE/ROM-001-G01-BEFORE-receipt-r01.json",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON-CONTROLES.json",
+          "sha256": "c1c72c28f4163cb5f30c2ec4c8483882da707cba2f9d18be2d4655ab92fd80bb",
+          "anchor": ""
+        },
+        {
+          "path": "05_AUDIT/ROM-001-G01/r01/A-CANON.md",
+          "sha256": "516b1d5e499b0ab78a1456508f462d148160b6e629300cd715bca665f10efefc",
+          "anchor": "#integritate"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "ROM-001-G01-A-CANON-F01",
+      "severity": "medium",
+      "status": "open",
+      "location": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r02.md:L92",
+      "description": "În rândul ordonat Laurent / Marcel / Odette / Rousseau, rolul corespunzător lui Marcel este «personal/interlocutor al hotelului». H P128-P160/P1366/P1380-P1385/P1409 îl identifică drept arhivar, iar CANON_FACTUAL.md:L92 păstrează corect acest fapt. Nu există o decizie editorială declarată de schimbare a instituției. Rezumatul operațional introduce o afiliere nesusținută și intră în conflict cu sursa pe care o invocă.",
+      "remediation": "Corectați în noua versiune depusă rolul lui Marcel Fontaine ca arhivar/intermediar al arhivelor, fără afiliere la personalul hotelului. Separați rândul pe persoane sau faceți corespondența nume–rol neechivocă; păstrați Laurent manager, Besson recepție/custodie, Odette martoră și Jean-Michel Rousseau custode distinct de Sophie. Retest: confruntare O §3 cu CANON_FACTUAL.md:L88-L98 și H P128-P160/P1366/P1380-P1385/P1409; căutarea tuturor aparițiilor Marcel în cele 11 artefacte și confirmarea că niciun rezumat/handoff nu îi atribuie hotelul, fără schimbarea H ori a registrului factual. Constatarea rămâne open până la o nouă depunere și retest independent."
+    }
+  ],
+  "verdict": "RETURN",
+  "limitations": [
+    "Auditul privește exclusiv ROM-001-G01 r01 și canonul operațional pentru continuare; nu certifică rectificarea H, romanul viitor, G02+ sau publicarea.",
+    "Am citit integral cele 11 artefacte și țintit 650 de paragrafe distincte H; lista exactă este în controlul propriu. Nu revendic lectura umană integrală nouă a H sau a tuturor auxiliarelor.",
+    "Am verificat mecanic toate cele 40 de porțiuni H expuse producătorului în exportul filtrat, inclusiv identitatea celor 3984 de paragrafe; aceasta probează acoperirea observabilă, nu atenția mentală ori componentele vizuale, comentariile și antetele DOCX.",
+    "Nu am consultat celălalt audit G01, jurnale brute, .env sau site-ul online. Dependențele G00 au fost verificate prin poartă, nu reevaluate editorial; notele istorice nu au fost transferate.",
+    "Drepturile pentru comercializare, autenticitatea istorică externă, practica juridică/medicală și originalitatea viitoarei proze nu sunt certificate aici. Necunoscutele Margaux și sarcina timpurie rămân delimitate.",
+    "Nu am realizat metaauditul, acceptarea cumulativă ori arhivarea post-audit; raportul RETURN trebuie păstrat și arhivat de coordonare."
+  ],
+  "reviewed_at": "2026-09-24T10:44:39+03:00"
+}

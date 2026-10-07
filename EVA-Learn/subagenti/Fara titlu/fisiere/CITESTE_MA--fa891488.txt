@@ -1,0 +1,60 @@
+EVA LEARN — DICȚIONARE ȘI VORBIRE, 2026-10-02
+Deschide INDEX_IMPORT.xlsx sau INDEX_IMPORT.html.
+Tabelul include limba cuvintelor, limba explicațiilor/traducerilor, URL-ul scris, fișierul local, licența, recenziile disponibile și evaluarea proprie. Fără ratinguri inventate.
+
+35 foldere după limba cuvintelor; 41 baze lexicale SQLite, 40 cu date.
+16.289.211 rânduri totale, 16.264.190 cu traduceri/definiții. Sunt sensuri și traduceri, cu repetiții, nu cuvinte unice.
+25.021 înregistrări fără definiție sunt păstrate pentru audit și excluse din cititorul de lecții.
+Originale + CSV UTF-8 (separator ;) + Excel în volume de maximum 80.000 rânduri + SQLite cu proveniență.
+Toate cele 20 de direcții între RO, EN, DE, FR, ES au date. Celelalte perechi exacte sunt în PERECHI_DISPONIBILE.csv; nu presupune că toate combinațiile există.
+_Catalog_cercetare păstrează cercetarea anterioară cu 5.093 variante/resurse, inclusiv alternative care NU sunt descărcate și mai multe formate ale aceluiași dicționar.
+
+IMPORT
+manifest_import.json listează bazele de import. SQLite păstrează valorile complete.
+Excel este pentru inspecție/editare: celulele peste limita Excel sunt scurtate și marcate; valorile complete rămân în DB/CSV.
+_Integrare/FORMAT_IMPORT.txt și schema.sql descriu câmpurile.
+_Integrare/EvaLexicon.cjs este un cititor de probă cu căutare, Node.js 24+; nu modifică bazele.
+Integrarea în codul existent EVA Learn nu este realizată: proiectul/schema aplicației nu au fost furnizate.
+Cheie globală: fișier_DB + ":" + id. Nu uni automat omografe, sensuri și surse; păstrează source_id și direction_kind.
+CSV păstrează textul original: importă coloanele ca text în Excel. XLSX folosește celule text.
+
+LIMBI
+Kaikki: cuvintele sunt în limba folderului, explicațiile în engleză. Nu sunt traduse automat în toate cele cinci limbi.
+Littré adaugă FR–FR; Chuon Nath KM–KM; Alar KN–EN.
+Punjabi pnb separat de pa generic. Complementar_Punjabi_generic_pa nu este prezentat ca Shahmukhi. _Initial_mixed_export este doar audit, exclus din import.
+Dickins sudanez: transliterare latină a autorului, ambele sensuri, drepturi comerciale neconfirmate, exclus implicit.
+Wu/Shanghai este din China (Shanghai/Zhejiang/Jiangsu), nu West Bengal. Hokkien nan și varietățile berbere nu garantează toate accentele/regiunile.
+
+TTS/STT
+Fiecare folder: TTS/manifest_TTS.json, STT/manifest_STT.json. Motoarele și modelele comune sunt în _Comune.
+10 voci Piper, 31 modele MMS TTS; coduri eSpeak confirmate în 26 de foldere (inclusiv unele fallback-uri).
+Whisper pentru 30 de foldere, dintre care 3 sunt fallback-uri generice; 27 adaptoare MMS STT, inclusiv Kabyle/Tashilhit.
+Nu există TTS/STT exact descărcat pentru toate cele 35 de cerințe.
+Teste funcționale reușite: Piper RO, eSpeak RO, Whisper base EN, turbo pe probă sintetică RO. Nu sunt măsurători comparative de calitate în toate limbile.
+_Integrare/EvaSpeech.cjs rulează local motoarele Windows, Node.js 24+. Argumentul --path necesar eSpeak este inclus.
+MMS este numai necomercial, CC-BY-NC-4.0. Necesită suplimentar Python și biblioteci de inferență; acest mediu nu este instalat și inferența nu a fost testată.
+Piper: fișele sunt păstrate. Licența datelor de antrenare nu dovedește automat drepturile modelului. Lessac are restricții de cercetare; Alan/Gyro trimit la alte URL-uri. Verifică drepturile înainte de distribuire comercială.
+Motoarele portabile nu au fost instalate în sistem.
+
+LICENȚE
+PanLex 2019: CC0-1.0, fără extindere asupra celorlalte date.
+Kaikki/Wiktionary și Littré: CC-BY-SA-4.0, atribuire și ShareAlike.
+Alar: ODbL-1.0. Chuon Nath/SPICE: LGPL-2.1 declarat de proiect.
+Whisper/whisper.cpp: MIT. eSpeak NG: GPL-3.0-or-later.
+Piper, versiunea veche: cod MIT cu componente și licențe separate.
+MMS: numai necomercial. Dickins și voci cu drepturi neclare: excluse comercial implicit.
+Sursele/autorii sunt în tabela sources și Licente/ATRIBUIRE.txt; consultă fișele originale pentru obligațiile concrete.
+
+VERIFICĂRI
+_Verificare: rapoarte SQLite/Excel și teste audio.
+verificare_salvare.json: verificarea copiilor prin SHA-256.
+_Documente_cercetare: extragerile celor două documente DOCX în Excel/SQLite, cataloage de cercetare, nu vocabular.
+
+Verificare Excel: 234 fișiere verificate; 5.434 celule marcate ca scurtate pentru limita Excel. Folosește DB/CSV pentru importul complet, inclusiv câmpurile JSON.
+
+SUPLIMENTE DESCĂRCATE ÎN CĂUTAREA ADÂNCITĂ
+Spark African: autorul declară Igbo/Hausa/Yoruba, Apache-2.0. CosyVoice3: EN/DE/FR/ES și Shanghai/cantoneză/Minnan declarate, Apache-2.0. Dolphin CN Dialect: STT chinez multivarietal cu Wu/cantoneză/Minnan declarate, Apache-2.0. Fișierele și sursele sunt descărcate; Spark/CosyVoice necesită mediu Python și dependențe neinstalate. Nu am măsurat calitatea pe aceste limbi. Dolphin are motor Windows portabil și probă de integritate a modelului în _Verificare.
+MMS raw ara/pan: generatoare originale de arabă/Punjabi GENERICE, CC-BY-NC-4.0; nu certifică dialectele arabe sau Shahmukhi.
+SUPLIMENTE_VORBIRE.csv listează fiecare fișier și URL direct. INDEX_IMPORT.xlsx include suplimentele și matricea celor 300 direcții 30×5×2. Matricea separă traducerile, definițiile și drepturile neconfirmate.
+291 direcții au traduceri/definiții cu licențe libere în datele descărcate, 8 nu au date și 1 are numai drepturi neconfirmate. Acest lucru nu înseamnă dicționare complete sau vocabular echilibrat pe toate perechile.
+Pentru Dolphin local: node EvaSpeech.cjs stt wuu fisier.wav rezultat --dolphin (citește limitele modelului; fără descărcări automate).

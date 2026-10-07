@@ -1,0 +1,28 @@
+[
+  {
+    "source_reference": "/C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/docs/assets.json",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "/C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/public/assets/hero-scan.png",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "/C:/Users/User/.codex/visualizations/2026/10/02/01a0fc12-eed4-7763-89a8-9dbc3f2d96aa/Site/public/assets/room-scan.png",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fc36-0de8-75c0-879d-2f6c69f52865\\exec-7bf25720-fd5a-4291-98b3-92b5155cbb83.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-7bf25720-fd5a-4291-98b3-92b5155cbb83--e9cf845e.png",
+    "bytes": 2090404,
+    "sha256": "8011cac2dc2fc88833340e4a8a32101718f455331144be0c5e06024e5efd8b90"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\generated_images\\01a0fc36-0de8-75c0-879d-2f6c69f52865\\exec-b0dd3aa4-8c48-4c01-b34d-40d40fad14ea.png",
+    "status": "copiat",
+    "saved_path": "fisiere/exec-b0dd3aa4-8c48-4c01-b34d-40d40fad14ea--3ec1ee99.png",
+    "bytes": 1798604,
+    "sha256": "e5990e01f0bd9fdc236c70c095b3a20f9c50481fae1b656a57586da0bcdf6cc2"
+  }
+]

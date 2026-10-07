@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9e0a-7f83-9727-7bc9bffdec44",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1783446927,
+  "updated_at": 1786547885,
+  "archived": 0,
+  "source": "vscode",
+  "title": "POCIDIF funding project for humanoid robot EVA",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 2336696,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 953,
+  "message_count": 953,
+  "content_sha256": "16453520d8e6adb6cee1998b07fef615f1d13de30a611e6181433ac7fe1f4f7b",
+  "files_copied": 58,
+  "references_not_copied": 109
+}

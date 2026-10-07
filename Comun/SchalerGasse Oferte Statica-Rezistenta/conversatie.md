@@ -1,0 +1,488 @@
+# SchalerGasse Oferte Statica-Rezistenta.
+
+ID: `01a0a69c-8de1-7a90-b48b-5fb718283121`  
+Proiect: Comun  
+Export UTC: 2026-10-07T08:10:14.831141+00:00
+
+Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
+
+## Utilizator
+
+SchalerGasse Oferte Statica-Rezistenta. 
+in folderul D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)
+avem proiectul de pe schaller gasse, si din pacte nu am primit prea multe oferte de rezistenta/statica si inginer verificator.
+Fa un tabel cu toti cei comntactati 
+firma / nume / data email / raspuns / termen de intalnire daca exista
+
+## Asistent
+
+[external_agent_tool_call: PowerShell]
+description: Find statics/offer folders in project
+command: Get-ChildItem -LiteralPath "D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)" -Recurse -Directory | Where-Object { $_.FullName -match '(?i)stati|statik|rezist|tragwerk|pr.fing|verificator|oferte|angebot' } | Select-Object -ExpandProperty FullName
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: ToolSearch]
+input: {"query":"select:mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails,mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_get_email,mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_list_calendar_events","max_results":3}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Studiu Geo
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\07. Kosten + Ausschreibung\03. Angebote (Oferte)
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\09. Vertraege\neid.co.at\2026.08.11\04_Einreichstatik_2021-2022
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\09. Vertraege\zt-pech.at\2026.08.10\04_Einreichstatik_2021
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\03. Proiectare\Arhitectura Statica
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\03. Proiectare\Statik
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\03. Proiectare\Arhitectura Madalina\Dedeman Oferte
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\03. Proiectare\Statik\Impartit
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\03. Proiectare\Statik\OCR
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\03. Proiectare\Statik\OCR\Tradus
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite\Achizitie
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite\Antreprenor LVR GmbH Antreprenor General
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite\Constructor Christian Gschirtz
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite\Constructor Sandra Knöbl
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite\Constructor SIMONE SCHWARZ
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite\Documente Predate
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite\Übergabeprotokoll
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\00. Oferte primite\Constructor Sandra Knöbl\SCHG 35- Bestandsbegehung 2026-04-14- MATTES
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\01_DI Janka Neid
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\02_Toms Ziviltechniker GmbH
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\03_POTYKA & Partner ZT GmbH
+D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfrag...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: PowerShell]
+description: List files in verifier offers folder
+command: Get-ChildItem -LiteralPath "D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)" -Recurse -File | Select-Object LastWriteTime, Length, FullName | Format-Table -AutoSize -Wrap | Out-String -Width 400
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+LastWriteTime       Length FullName                                                                                                                                                                                                                                                                               
+-------------       ------ --------                                                                                                                                                                                                                                                                               
+10.08.2026 14:24:36  38360 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Fisa_Post_Verificator_Pruefingenieur.docx                                                                                                
+10.08.2026 14:26:26  38915 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Model_Contract_Pruefingenieur_DE.docx                                                                                                    
+14.09.2026 12:05:17   7787 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\Pruefingenieur_Kandidaten_Vergleich.xlsx                                                                
+10.08.2026 15:05:13  37931 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\01_DI Janka Neid\Angebotsanfrage_Pruefingenieur_DI_Janka_Neid.docx                                      
+10.08.2026 15:05:13   2178 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\01_DI Janka Neid\Email-Text_Angebotsanfrage.txt                                                         
+10.08.2026 15:05:13  37896 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\02_Toms Ziviltechniker GmbH\Angebotsanfrage_Pruefingenieur_Toms_Ziviltechniker_GmbH.docx                
+02.09.2026 14:59:05  13117 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\02_Toms Ziviltechniker GmbH\Anschreiben_Toms_Gesamtangebot_Statik_2026-09-02.docx                       
+02.09.2026 13:09:04   2916 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\02_Toms Ziviltechniker GmbH\Email-Text_Anfrage_Ausfuehrungsstatik_2026-09-02.txt                        
+10.08.2026 15:05:13   2097 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\02_Toms Ziviltechniker GmbH\Email-Text_Angebotsanfrage.txt                                              
+02.09.2026 15:00:02   1574 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\02_Toms Ziviltechniker GmbH\Email-Text_Nachtrag_ANG840_2026-09-02.txt                                   
+07.09.2026 13:41:32   3767 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\02_Toms Ziviltechniker GmbH\Email-Text_Rueckfragen_Termin_2026-09-07.txt                           ...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: PowerShell]
+description: List statics and contracts folder files
+command: Get-ChildItem -LiteralPath "D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik","D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\03. Proiectare\Statik","D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\09. Vertraege" -File -Recurse -Depth 2 | Select-Object LastWriteTime, FullName | Format-Table -AutoSize | Out-String -Width 400
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails]
+input: {"query":"Schallergasse Statik","limit":50,"date_from":"2026-07-01"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails]
+input: {"query":"Prüfingenieur","limit":50,"date_from":"2026-07-01"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+LastWriteTime       FullName                                                                                                                                                                                                                
+-------------       --------                                                                                                                                                                                                                
+10.07.2026 09:44:49 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\712816.zip                                                              
+21.07.2026 16:55:17 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Anfrage_Ausfuehrungsstatik_LB_DE_RO.docx                                
+09.07.2026 13:58:04 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\BEV_S_KA_Katastralmappe_VTC.pdf                                         
+09.07.2026 13:56:02 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Geotechnik_Auszug_Studiu_Geo_Extras 1.docx                              
+09.07.2026 12:37:15 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Geotechnik_Auszug_Studiu_Geo_Extras.docx                                
+11.08.2026 18:50:52 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Geotechnische_Zusammenfassung_Baugrund_DE_Schallergasse35.docx          
+11.08.2026 18:58:21 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Geotechnische_Zusammenfassung_Baugrund_DE_Schallergasse35.pdf           
+09.07.2026 13:58:06 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\KatasterVectorTiles_im_QGis.pdf                                         
+09.07.2026 13:57:23 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\legende-kataster.pdf                                                    
+09.07.2026 12:39:26 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\STATIK VorKonzept_2021-12-07.pdf                                        
+09.07.2026 13:56:06 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\WC0321_000_A.pdf                                                        
+09.07.2026 13:56:17 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\wien200.pdf                                                             
+10.07.2026 09:47:54 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Studiu Geo\13670003.pdf                                                 
+10.07.2026 09:47:54 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Studiu Geo\14618002.pdf                                                 
+10.07.2026 09:47:54 D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\00.Proiect\03. Einreichplanung - Planwechsel\03. Statik\Studiu Geo\14618003.pdf  ...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":50,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"fa387b38-a348-4440-85f0-0fe44a5c0c47","account_email":"office@ac-wohnart.at","subject":"AW: AW: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Simona Hotea","from_address":"simona.hotea@toms.at","to":["office@ac-wohnart.at"],"received_at":"2026-09-11T09:38:17Z","snippet":"Sehr geehrter Herr Covaciu,\r\n\r\nwie vorhin tel besprochen, ist der Termin zur Anbotsbesprechung mit H","category":"fyi","labels":["1: To respond","99: Important"],"folder":"Simona Hotea","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["image001.jpg"]},{"id":"1fe377a0-1757-454c-8144-b5a189daa95f","account_email":"office@ac-wohnart.at","subject":"Re: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Dipl.-Ing. Remzi Avunduk","from_address":"office@zt-avunduk.at","to":["office@ac-wohnart.at"],"received_at":"2026-09-10T13:27:32Z","snippet":"Sehr geehrter Herr Covaciu,\r\n\r\nich war die letzten 7 Tage in Urlaub, deswegen melde ich mich so spät","category":"fyi","labels":["1: To respond","99: Important"],"folder":"Dipl.-Ing. Remzi Avunduk","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["nj5pUCon0nSnqLe0.png"]},{"id":"665abb5d-81ce-440f-bfbe-d2481ae24b26","account_email":"office@ac-wohnart.at","subject":"Re: AW: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["simona.hotea@toms.at"],"received_at":"2026-09-10T05:38:57.437450Z","snippet":"Sehr geehrte Frau Hotea,\nvielen Dank für Ihre Rückmeldung und die Abstimmung mit Herrn DI Toms.\nWir ","category":"fyi","labels":["SENT","1: To respond"],"folder":"simona.hotea@toms.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"e51a2d3e-7a95-42ce-8601-7e67861139dd","account_email":"office@ac-wohnart.at","subject":"AW: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Simona Hotea","from_address":"simona.hotea@toms.at","to":["office@ac-wohnart.at"],"received_at":"2026-09-09T09:22:04Z","snippet":"Sehr geehrter Herr Covaciu,\r\n\r\nnach unserem gestrigen Telefonat habe ich mit Herrn DI Toms Rücksprac","category":"fyi","labels":["1: To respond","99: Important"],"folder":"Simona Hotea","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["image001.jpg"]},{"id":"3cd9ff62-8d84-48e0-b15e-5e5eb3713794","account_email":"office@ac-wohnart.at","subject":"Re: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["simona.hotea@toms.at"],"received_at":"2026-09-07T10:48:37.605986Z","snippet":"An: office@toms.at\nCc: ferdinand.toms@toms.at\nBetreff: AW: Ihr Angebot ANG 855 (Tragwerksplanung) - ","category":"fyi","labels":["SENT","1: To respond"],"folder":"simona.hotea@toms.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"1588aca9-151e-4737-941a-2a66ba2b6975","account_email":"office@ac-wohnart.at","subject":"AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Simona Hotea","from_address":"simona.hotea@toms.at","to":["office@ac-wohnart.at"],"received_at":"2026-09-07T10:17:33Z","snippet":"Sehr geehrter Herr Covaciu,\r\n\r\nbitte finden Sie anbei das gewünschte Anbot.\r\nWir freuen uns auf eine","category":"fyi","labels":["1: To respond","99: Important"],"folder":"Simona Hotea","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["ANG 855_Schallergasse 35, 1120 Wien_TWP.PDF","image002.jpg"]},{"id":"cb65cb84-16d3-47b5-a056-32...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_get_email]
+input: {"email_id":"fa387b38-a348-4440-85f0-0fe44a5c0c47"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"fa387b38-a348-4440-85f0-0fe44a5c0c47","account_email":"office@ac-wohnart.at","subject":"AW: AW: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Simona Hotea","from_address":"simona.hotea@toms.at","to":["office@ac-wohnart.at"],"cc":[],"received_at":"2026-09-11T09:38:17Z","text":"Sehr geehrter Herr Covaciu,\r\n\r\nwie vorhin tel besprochen, ist der Termin zur Anbotsbesprechung mit Herrn DI Toms für Freitag, 18.09.2026 / 07.00 Uhr in unserem Wr. Büro hiemit fixiert.\r\n\r\nVielen Dank!\r\n\r\n\r\n\r\nMit freundlichen Grüßen\r\n[Ein Bild, das Text, Logo, Schrift, Grafiken enthält.  Automatisch generierte Beschreibung]\r\n   Simona Hotea\r\n   Sekretariat\r\n\r\nDachsberggasse 8 | A-3500 Krems/Donau\r\nTel.: +43 (0) 2732/72797  | Fax: DW 21\r\n\r\nMargaretenstraße 93 | 1050 Wien\r\nTel.: +43 (0) 1/310 0707\r\n\r\noffice@toms.at<mailto:office@toms.at>\r\nwww.toms.at<http://www.toms.at/>\r\n\r\n\r\nVon: office@ac-wohnart.at<mailto:office@ac-wohnart.at> <office@ac-wohnart.at<mailto:office@ac-wohnart.at>>\r\nGesendet: Donnerstag, 10. September 2026 07:39\r\nAn: Simona Hotea <simona.hotea@toms.at<mailto:simona.hotea@toms.at>>\r\nBetreff: Re: AW: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien\r\n\r\n\r\nSehr geehrte Frau Hotea,\r\n\r\nvielen Dank für Ihre Rückmeldung und die Abstimmung mit Herrn DI Toms.\r\n\r\nWir möchten die Zusammenarbeit mit Toms Ziviltechniker GmbH nun gerne konkret beginnen und die Beauftragung kurzfristig abschließen.\r\n\r\nDamit wir die nächsten Schritte effizient und ohne weitere Verzögerung abwickeln können, bitten wir Sie zunächst um eine kurze schriftliche Beantwortung der noch offenen Verständnis- und Abgrenzungsfragen aus unserer E-Mail vom 07.09.2026.\r\n\r\nInsbesondere benötigen wir noch die Klärung folgender Punkte:\r\n\r\n  1.  Bestätigung des vollständigen Leistungsumfangs der Ausführungsstatik, insbesondere für:\r\n– Stahlbeton-Fundamentplatte und Gründung,\r\n– Aufzugszubau einschließlich Schacht und Gründung,\r\n– statische Ertüchtigung des Bestands,\r\n– zweigeschossigen Dachgeschossausbau,\r\n– hofseitige Balkone.\r\n  2.  Bestätigung, ob Bewehrungs- und Stahllisten/Stücklisten Bestandteil der angebotenen Konstruktionsplanung sind.\r\n  3.  Angabe, in welchem Umfang auf der vorhandenen statischen Vorbemessung, dem Fundierungskonzept und dem Mauerwerksgutachten aufgebaut werden kann.\r\n  4.  Konkreter Bearbeitungs- und Liefertermin für die prüffähige Ausführungsstatik sowie die zugehörigen Konstruktionspläne.\r\n  5.  Anzahl der in Pos. 1.2.2 enthaltenen Termine bzw. Baubesprechungen im Rahmen der statischen Betreuung.\r\n  6.  Abgrenzung der Baugrubensicherung einschließlich erforderlicher Berechnungen bzw. Lastangaben.\r\n  7.  Bestätigung des Leistungsumfangs der Prüfingenieur-Leistungen gemäß ANG 839 im Rahmen der vorgesehenen gemeinsamen Beauftragung.\r\n  8.  Optionales Angebot bzw. Abgrenzung für die Erstellung des Bauwerksbuchs.\r\n  9.  Bestätigung des Übergabeformats der Unterlagen, jedenfalls PDF und – soweit verfügbar – DWG sowie der erforderlichen unterfertigten bzw. prüffähigen Ausfertigungen.\r\n\r\nFür die erste Beauftragungsphase ist unsere Absicht wie folgt:\r\n\r\n– Tragwerksplanung / Ausführungsstatik gemäß ANG 855\r\n– Konstruktionsplanung einschließlich der vereinbarten Schalungs-, Bewehrungs- und Stahlbaupläne\r\n– statische Betreuung während der Bauausführung\r\n– Prüfingenieur-Leistungen gemäß ANG 839\r\n– gegebenenfalls Bauwerksbuch nach abschließender Klärung\r\n\r\nDie Leistungen gemäß BauKG / ANG 840 möchten wir in dieser ersten Beauftragungsphase ausdrücklich noch nicht beauftragen. Dieses Thema möchten wir nach Abschluss der oben genannten ersten Phase gesondert mit Ihnen besprechen.\r\n\r\nZusätzlich bitten wir Sie um einen kurzen verbindlichen „Roadmap / Terminplan“ für die Beauftragung und Bearbeitung, idealerweise mit folgende...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_get_email]
+input: {"email_id":"1fe377a0-1757-454c-8144-b5a189daa95f"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails]
+input: {"query":"Ausführungsstatik","limit":50,"date_from":"2026-06-01"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"1fe377a0-1757-454c-8144-b5a189daa95f","account_email":"office@ac-wohnart.at","subject":"Re: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Dipl.-Ing. Remzi Avunduk","from_address":"office@zt-avunduk.at","to":["office@ac-wohnart.at"],"cc":[],"received_at":"2026-09-10T13:27:32Z","text":"Sehr geehrter Herr Covaciu,\r\n\r\nich war die letzten 7 Tage in Urlaub, deswegen melde ich mich so spät:\r\nBei uns sind in den letzten Wochen die Zusagen für 2 neue Projekte \r\nreingekommen. So sind wir kapazitätsmässig mehr als voll. Deswegen muss \r\nich leider bei Ihrem Projekt absagen.\r\n\r\nmfg\r\nAvunduk\r\n\r\nDipl.-Ing. Remzi Avunduk\r\nIngenieurkonsulent für Bauingenieurwesen\r\n\r\nAm Freihof 21/2, A-1220 Wien\r\nÖSTERREICH\r\nTel: +43 (1) 202 19 75\r\nE-Mail: office@zt-avunduk.at <mailto:office@zt-avunduk>\r\n\r\nUID Nr: ATU62474557\r\n\r\n\r\n\r\nAm 03.09.2026 um 10:21 schrieb office@ac-wohnart.at:\r\n>\r\n> An: office@zt-avunduk.at\r\n>\r\n> Betreff: Re: Angebotsanfrage Pruefingenieur-Leistungen - Wohnhaus \r\n> Schallergasse 35, 1120 Wien - Bitte um Gesamtangebot \r\n> Ausfuehrungsstatik + Pruefingenieur\r\n>\r\n>\r\n> Sehr geehrter Herr Dipl.-Ing. Avunduk,\r\n>\r\n>\r\n> zunaechst bitten wir um Entschuldigung fuer die verspaetete \r\n> Rueckmeldung auf Ihre\r\n>\r\n> E-Mail vom 14.08.2026 - ich war laengere Zeit beruflich verreist und \r\n> konnte Ihre\r\n>\r\n> Nachricht erst jetzt beantworten.\r\n>\r\n>\r\n> Umso mehr haben wir uns ueber Ihre Rueckfrage gefreut, denn sie trifft \r\n> genau unsere\r\n>\r\n> Situation: Die statisch-konstruktive Bearbeitung (Ausfuehrungsstatik) \r\n> ist derzeit\r\n>\r\n> noch NICHT vergeben - wir suchen aktuell einen interessierten und \r\n> verlaesslichen\r\n>\r\n> Partner, der genau das von Ihnen beschriebene Gesamtpaket \r\n> Ausfuehrungsstatik +\r\n>\r\n> Pruefingenieur uebernimmt. Ihre Spezialisierung auf Dachgeschossausbau \r\n> und Umbau\r\n>\r\n> bei Gruenderzeithaeusern passt aus unserer Sicht hervorragend zu \r\n> unserem Vorhaben.\r\n>\r\n>\r\n> Zu Ihren Fragen:\r\n>\r\n>\r\n> 1. Statik/Ausfuehrungsstatik: noch nicht beauftragt - genau dafuer \r\n> moechten wir\r\n>\r\n>    Ihr Angebot.\r\n>\r\n> 2. Einreichstatik: Es liegen vor: das statische Vorkonzept vom \r\n> 07.12.2021 sowie\r\n>\r\n>    die Statische Vorbemessung samt Fundierungskonzept (Berechnungen \r\n> 30.11.2021,\r\n>\r\n>    Ausfertigung Jaenner 2022) - inklusive Mauerwerksgutachten \r\n> (Ingenieurbefund\r\n>\r\n>    zum Bestandsmauerwerk). Die Vorbemessung gilt ausdruecklich nicht als\r\n>\r\n>    Ausfuehrungsstatik.\r\n>\r\n> 3. Letztgueltige Planung: Der massgebliche Planstand vom 12.08.2026 \r\n> liegt vor\r\n>\r\n>    (Grundrisse KG/EG/1.-3. OG Bestand + Umbau, erstmals inkl. Grundrisse\r\n>\r\n>    Dachgeschoss 1 + 2 / TOP 20-23, Schnitt A-A, Details \r\n> Traufe/Gaupe/Gaupe-Attika,\r\n>\r\n>    CAD als DWG/DXF), ergaenzt um Baubescheid, genehmigte \r\n> Einreichplaene P2041,\r\n>\r\n>    Grundbuch sowie Bohrprofile aus dem Baugrundkataster der MA 29 samt\r\n>\r\n>    geotechnischer Zusammenfassung.\r\n>\r\n>\r\n> Die vollstaendigen Unterlagen (ZIP, rd. 77 MB, gegliedert in \r\n> Unterordner 01-06)\r\n>\r\n> uebermitteln wir Ihnen gerne umgehend per WeTransfer-Download-Link - \r\n> eine kurze\r\n>\r\n> Rueckmeldung genuegt.\r\n>\r\n>\r\n> Wir ersuchen Sie um ein Gesamtangebot ueber SAEMTLICHE Leistungen, die \r\n> Ihr Buero\r\n>\r\n> fuer unser Bauvorhaben erbringen kann, insbesondere:\r\n>\r\n>   1. Ausfuehrungsstatik: prueffaehige detaillierte statische \r\n> Berechnung der\r\n>\r\n>      tragenden Bauteile (Dachgeschossausbau, statische Ertuechtigung \r\n> des Bestandes,\r\n>\r\n>      Stahlbeton-Fundamentplatte d = 30 cm gemaess Fundierungskonzept, \r\n> Aufzugszubau\r\n>\r\n>      ueber alle Geschosse, hofseitige Balkone);\r\n>\r\n>   2. Konstruktionsplaene: Schalungs-, Bewehrungs- und \r\n> Stahlbaufuehrungsplaene samt\r\n>\r\n>      St...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails]
+input: {"query":"Tragwerksplanung Schallergasse","limit":50,"date_from":"2026-06-01"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"fa387b38-a348-4440-85f0-0fe44a5c0c47","account_email":"office@ac-wohnart.at","subject":"AW: AW: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Simona Hotea","from_address":"simona.hotea@toms.at","to":["office@ac-wohnart.at"],"received_at":"2026-09-11T09:38:17Z","snippet":"Sehr geehrter Herr Covaciu,\r\n\r\nwie vorhin tel besprochen, ist der Termin zur Anbotsbesprechung mit H","category":"fyi","labels":["1: To respond","99: Important"],"folder":"Simona Hotea","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["image001.jpg"]},{"id":"1fe377a0-1757-454c-8144-b5a189daa95f","account_email":"office@ac-wohnart.at","subject":"Re: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Dipl.-Ing. Remzi Avunduk","from_address":"office@zt-avunduk.at","to":["office@ac-wohnart.at"],"received_at":"2026-09-10T13:27:32Z","snippet":"Sehr geehrter Herr Covaciu,\r\n\r\nich war die letzten 7 Tage in Urlaub, deswegen melde ich mich so spät","category":"fyi","labels":["1: To respond","99: Important"],"folder":"Dipl.-Ing. Remzi Avunduk","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":["nj5pUCon0nSnqLe0.png"]},{"id":"89908e0b-ab39-4249-9a73-0ba821bf33f7","account_email":"office@ac-wohnart.at","subject":"Re: AW: AW: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 (Ihre Zustandsaufnahme und statische Vorbemessung 2021) – Leistungsbeschreibung im Anhang","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@bmberger.at"],"received_at":"2026-09-10T08:33:04.287754Z","snippet":"Sehr geehrte Damen und Herren,\n\nich befinde mich heute und morgen in Wien. Da die Frist sehr knapp b","category":"fyi","labels":["SENT","1: To respond"],"folder":"office@bmberger.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"34439125-276c-4e85-bf5c-7e3bebd03da8","account_email":"office@ac-wohnart.at","subject":"Re: AW: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 (Ihre Zustandsaufnahme und statische Vorbemessung 2021) – Leistungsbeschreibung im Anhang","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["herzina@zt-pech.at"],"received_at":"2026-09-10T08:24:54.843906Z","snippet":"Sehr geehrte Damen und Herren,\n\nich möchte mich noch einmal kurz bei Ihnen melden. Ich habe Ihnen di","category":"fyi","labels":["SENT","1: To respond"],"folder":"herzina@zt-pech.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"665abb5d-81ce-440f-bfbe-d2481ae24b26","account_email":"office@ac-wohnart.at","subject":"Re: AW: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["simona.hotea@toms.at"],"received_at":"2026-09-10T05:38:57.437450Z","snippet":"Sehr geehrte Frau Hotea,\nvielen Dank für Ihre Rückmeldung und die Abstimmung mit Herrn DI Toms.\nWir ","category":"fyi","labels":["SENT","1: To respond"],"folder":"simona.hotea@toms.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"e51a2d3e-7a95-42ce-8601-7e67861139dd","account_email":"office@ac-wohnart.at","subject":"AW: AW: AW: Angebotsanfrage Prüfingenieur-Leistungen (§ 127 BO Wien) - Wohnhaus Schallergasse 35, 1120 Wien","from_name":"Simona Hotea","from_address":"simona.hotea@toms.at","to":["office@ac-wohnart.at"],"received_at":"2026-09-09T09:22:04Z","snippet":"Sehr geehrter Herr Covaciu,\r\n\r\nnach unserem gestrigen Telefonat habe ich mit Herrn DI Toms Rücksprac","category":"fyi","labels":["1: To respond","99: Important"],"folder":"Simona Hotea","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result: error]
+The connector's server isn't responding. You can try again.
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: PowerShell]
+description: Read statics email texts and list contract firms
+command: $b="D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)"; Get-Content -Encoding UTF8 -LiteralPath "$b\00.Proiect\09. Vertraege\zt-pech.at\2026.08.07\Email-Text_Antwort_DrPech_2026-08-07.txt","$b\00.Proiect\09. Vertraege\bmberger.at\2026.08.17\Email-Text_Angebot_2026-08-17.txt","$b\00.Proiect\09. Vertraege\bmberger.at\2026.07.20-22 Anfrage+Versicherung\Email-Text_Anfrage_und_Versicherung_1Mio.txt","$b\00.Proiect\09. Vertraege\neid.co.at\2026.08.26\Email-Text_Absage_2026-08-26.txt","$b\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\05_KPPK Ziviltechniker GmbH\Email-Text_Absage_2026-08-11.txt"; Get-ChildItem -LiteralPath "$b\00.Proiect\09. Vertraege" -Directory | Select -Expand Name
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+Betreff: AW: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 – Übermittlung Einreichpläne und Einreichstatik
+An: herzina@zt-pech.at; office@zt-pech.at
+
+Sehr geehrter Herr DI Herzina,
+
+vielen Dank für Ihre Rückmeldung. Gerne übermitteln wir Ihnen die für die Kostenkalkulation
+benötigten Unterlagen. Sämtliche Dokumente finden Sie strukturiert in der beigefügten
+ZIP-Datei „Schallergasse35_Statik-Unterlagen_2026-08-07.zip“ (ca. 44 MB).
+
+Sollte Ihr Postfach diese Größe nicht zulassen, stellen wir Ihnen die Unterlagen gerne
+zusätzlich über folgenden Download-Link zur Verfügung: [DOWNLOAD-LINK EINFÜGEN].
+
+Inhalt der Übermittlung:
+
+1. Baubescheid MA 37/1539234-2021-1 vom 21.04.2023 (rechtskräftig).
+
+2. Einreichpläne Architektur (genehmigt 2022, P2041): Genehmigungsplan/Geschosse (A3)
+   sowie Baubeschreibung.
+
+3. Einreichstatik 2021 (Dr. PECH ZT GmbH gemeinsam mit Bmstr. DI (FH) Markus Berger GmbH):
+   STATIK-VorKonzept vom 07.12.2021 sowie die Statische Vorbemessung inkl.
+   Mauerwerksgutachten (komprimierte Fassung) – der Vollständigkeit halber beigelegt.
+
+4. Baugrund: aktuelle Bohrprofile aus dem Baugrundkataster der MA 29
+   (Nr. 14618002, 14618003, 13670003).
+
+5. Ausführungs-/Umbauplanung Architektur (Planverfasserin arch. Madalina Giurgiu),
+   ins Deutsche übersetzt (Planstand M.v.3): Grundrisse Keller/Erdgeschoss/Regelgeschoss
+   (Bestand und Umbau), Schnitt A-A sowie die Dachdetails D-01 bis D-03. Diese Pläne
+   bilden die aktuelle Grundlage der Umbaumaßnahmen (Neuaufteilung, neue Leichtbauwände,
+   neue Öffnungen).
+
+6. Haustechnik (Elektro IE01–IE05, Heizung IT01–IT05, DE, M.v.3) – zur Information/
+   Koordination (Durchdringungen, Fußbodenaufbauten). Vorabzüge, Stand „in Bearbeitung“.
+
+7. Leistungsbeschreibung Ausführungsstatik mit den Positionen 1–6 (bereits mit unserer
+   Anfrage übermittelt, hier nochmals beigelegt).
+
+8. CAD-Dateien der Architekturgrundrisse (Keller-, Erd- und Regelgeschoss) als DWG und DXF
+   (ACAD2018), ins Deutsche übersetzt – Ordner „08_CAD_Architektur_DE“ – zur Verwendung
+   als Modellgrundlage.
+
+Umfang der beauftragten Leistung bleibt unverändert die Ausführungsstatik samt statischer
+Baubegleitung für die mit dem Bescheid bewilligten Maßnahmen (u. a. Fundamentplatte,
+Stahlbeton-Verbunddecke über dem 3. OG, Mauerwerksverpressungen, Stahlkonstruktion des
+Dachgeschosses, Aufzugszubau) unter Berücksichtigung der o. g. Umbauplanung. Der Baubeginn
+ist für das 1. Quartal 2027 vorgesehen.
+
+Wir ersuchen um Pauschalpreise je Position entsprechend der Struktur der
+Leistungsbeschreibung. Für eine gemeinsame Objektbegehung sowie für Rückfragen stehen
+wir jederzeit gerne zur Verfügung.
+
+Über die Übermittlung Ihres Angebots bis zum [ANGEBOTSFRIST – z. B. 28.08.2026] würden
+wir uns freuen.
+
+Mit freundlichen Grüßen
+
+Cosmin Covaciu
+Geschäftsführer
+A&C Wohnart Immobilien GmbH (FN 668224h, HG Wien)
+Parkring 2, 1010 Wien
+office@ac-wohnart.at · Tel.: +43 665 67055045
+
+Beilage: Schallergasse35_Statik-Unterlagen_2026-08-07.zip (ca. 44 MB)
+Primit: 17.08.2026
+De la: Markus Berger <office@bmberger.at>
+Bmstr. Dipl.-Ing. (FH) Markus Berger GmbH, Schoenbrunner Str. 123/2, 1050 Wien
+Tel: +43-1-78 64 614 | Mobil: +43-664-283 0 933
+
+Atasament: 2026_08_17_Anbot_Statik_Detail.pdf (Honoraranbot)
+
+--- Text email (original) ---
+
+Sehr geehrter Herr Covaciu,
+
+Nochmals vielen Dank fuer die Moeglichkeit zur Angebotslegung. Ich habe Ihnen vorab mein
+Angebot fuer die gewuenschten Leistungen beigefuegt. Wenn das Ihren Erwartungen entspricht,
+koennen wir/kann ich das gerne noch im Grossen und Ganzen auf Ihre Positionen abgestimmt
+umformulieren.
+
+Bei Rueckfragen stehe ich Ihnen gerne zur Verfuegung.
+
+Mit freundlichen Gruessen
+Markus Berger
+
+--- Rezumat oferta (extras din PDF) ---
+Obiect: statische Berechnung (pruefaehig) + Schal-/Bewehrungsplaene + Pruefingenieur-
+Taetigkeiten (par. 127/128 BO Wien) pt. Zubau/Umbau/DG-Ausbau Schallergasse 35...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_get_email]
+input: {"email_id":"89908e0b-ab39-4249-9a73-0ba821bf33f7"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"89908e0b-ab39-4249-9a73-0ba821bf33f7","account_email":"office@ac-wohnart.at","subject":"Re: AW: AW: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 (Ihre Zustandsaufnahme und statische Vorbemessung 2021) – Leistungsbeschreibung im Anhang","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@bmberger.at"],"cc":[],"received_at":"2026-09-10T08:33:04.287754Z","text":"Sehr geehrte Damen und Herren,\n\nich befinde mich heute und morgen in Wien. Da die Frist sehr knapp bemessen ist, möchte ich Sie höflich bitten, ob Sie sich für ein kurzes Gespräch - heute oder morgen - Zeit nehmen könnten.\n\nIch freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nBest regards,\nCosmin Adrian Covaciu\n\n\r\n  ---------- In reply to ---------\n\r\n  \r\n    From:  office@bmberger.at\n\r\n    Date:  August 17th, 2026 10:05 PM\n\r\n\n\r\n  \r\n    \r\n\r\n\r\n P {margin-top:0;margin-bottom:0;} \r\n\r\n\r\n\r\nSehr geehrter Herr Covaciu,\n\r\n\r\nNochmals vielen Dank für die Möglichkeit zur Angebotslegung. Ich habe Ihnen vorab mein Angebot für die gewünschten Leistungen beigefügt. Wenn das Ihren Erwartungen entspricht, können wir/kann ich das gerne noch im Großen und Ganzen auf Ihre Positionen abgestimmt\r\n umformulieren.\n\r\n\r\n\n\r\n\n\r\n\r\n\r\nBei Rückfragen stehe ich Ihnen gerne zur Verfügung.\n\r\n\r\nMit freundlichen Grüßen\n\r\n\r\nMarkus Berger\n\r\n\r\n\n\r\n\n\r\n\r\n-------------------------------------------------------------------\n\r\n\r\nBmstr. Dipl.-Ing. (FH) Markus Berger GmbH\n\r\n\r\nIngenieurkonsulent für Bauingenieurwesen rB.\n\r\n\r\nSchönbrunner Straße 123 / 2\n\r\n\r\nA - 1050 Wien\n\r\n\r\nTel.: +43-1-78 64 614\n\r\n\r\nMobil: +43-664-283 0 933\n\r\n\r\nE-Mail: office@bmberger.at\n\r\n\r\n \n\r\n\n\r\n\n\r\n\n\r\n\r\n\n\r\n\n\r\n\r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at>\n\r\nGesendet: Mittwoch, 12. August 2026 13:02\n\r\nAn: Markus Berger <office@bmberger.at>\n\r\nBetreff: Re: AW: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 (Ihre Zustandsaufnahme und statische Vorbemessung 2021) – Leistungsbeschreibung im Anhang\r\n\n\r\n\r\n\n\r\n\n\r\nSehr geehrter Herr Bmstr. Dipl.-Ing. (FH) Berger,\n\r\n\n\r\n\n\r\nvielen Dank nochmals für Ihre freundliche Rückmeldung und Ihre grundsätzliche Bereitschaft, für das Bauvorhaben in der Schallergasse 35 ein Angebot zu legen.\n\r\nWir hoffen sehr, dass Sie einen angenehmen und erholsamen Urlaub hatten und gut zurückgekehrt sind.\n\r\nBezugnehmend auf Ihre Nachricht möchten wir Ihnen bestätigen, dass die von Ihnen angeführte Versicherungssumme von EUR 1 Mio. aus unserer Sicht\r\nkeinen Ausschließungsgrund für die Angebotslegung darstellt.\n\r\nDa Sie nun wieder zurück sind, würden wir uns sehr freuen, wenn Sie uns das Angebot für die\r\nAusführungsstatik samt statischer Baubegleitung entsprechend unserer übermittelten Leistungsbeschreibung erstellen könnten.\n\r\nWir ersuchen Sie höflich, das Angebot möglichst entsprechend der im beigefügten Dokument vorgesehenen Struktur und unter getrennter Ausweisung der dort angeführten Positionen 1–6 zu erstellen. Soweit möglich,\r\n bitten wir um Angabe von Pauschalpreisen je Leistungsposition, damit die angebotenen Leistungen eindeutig den einzelnen Positionen der Leistungsbeschreibung zugeordnet werden können.\n\r\nAufgrund Ihrer bereits bestehenden Kenntnis des Gebäudes und insbesondere Ihrer Mitwirkung an der statischen Vorbemessung aus dem Jahr 2021 würden wir uns über eine weitere Zusammenarbeit mit Ihrem Büro bei der\r\n Umsetzung dieses Projektes außerordentlich freuen.\n\r\nSollten Sie für die Angebotserstellung zusätzliche Unterlagen benötigen – insbesondere den MA-37-Bescheid, die vollständigen statischen Vorberechnungen, die aktuellen Bohrprofile oder sonstige technische Projektunterlagen\r\n – stellen wir Ihnen diese selbstverständlich jederzeit gerne zur Verfügung.\n\r\nEbenso stehen wir für Rückfragen oder, sofern dies für die weitere Be...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_get_email]
+input: {"email_id":"34439125-276c-4e85-bf5c-7e3bebd03da8"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails]
+input: {"query":"Schallergasse","date_from":"2026-09-10","is_sent":false,"limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"id":"34439125-276c-4e85-bf5c-7e3bebd03da8","account_email":"office@ac-wohnart.at","subject":"Re: AW: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 (Ihre Zustandsaufnahme und statische Vorbemessung 2021) – Leistungsbeschreibung im Anhang","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["herzina@zt-pech.at"],"cc":[],"received_at":"2026-09-10T08:24:54.843906Z","text":"Sehr geehrte Damen und Herren,\n\nich möchte mich noch einmal kurz bei Ihnen melden. Ich habe Ihnen die angeforderten Dokumente bereits zugesendet, habe aber bisher leider keine Rückmeldung erhalten.\n\nWir sind sehr daran interessiert, die Zusammenarbeit mit Ihnen zu beginnen. Daher bitten wir höflich um eine erneute Prüfung unserer Unterlagen und um Zusendung des Angebots.\n\nSollten Sie noch weitere Informationen oder Dokumente von uns benötigen, lassen Sie es uns bitte wissen. Wir stehen Ihnen gerne zur Verfügung.\n\nMit freundlichen Grüßen\n\nBest regards,\nCosmin Adrian Covaciu\n\n\r\n  ---------- In reply to ---------\n\r\n  \r\n    From:  herzina@zt-pech.at\n\r\n    Date:  August 6th, 2026 2:27 PM\n\r\n\n\r\n  \r\n    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n \n\r\n \n\r\nSehr geehrter Hr. Covaciu!\n\r\n \n\r\nVielen Dank für die Anfrage. Um eine ordentliche Kostenkalkulation durchführen zu können, benötige ich die Einreichpläne sowie die Einreichstatik. Ich bitte um Übersendung dieser\r\n beiden Dokumente.\n\r\n \n\r\n\n\r\n\n\r\nMit freundlichen Grüßen\n\r\nPeter Herzina\n\r\n___________________________________________________________________________________\n\r\nDI (FH) Peter Herzina\n\r\nIngenieurkonsulent f. Bauwesen und Baumanagement\n\r\nAllgemein beeideter und gerichtlich zertifizierter Sachverständiger\n\r\nGeschäftsführer\n\r\n \n\r\nDr.PECH ZiviltechnikerGmbH\n\r\nJohann-Strauß-Gasse 32/11\n\r\n1040 Wien\n\r\n\n\r\nt \r\n+43 1 5053680-31\n\r\ne \r\nherzina@zt-pech.at\n\r\nw \r\nwww.zt-pech.at\n\r\n \n\r\nDr. PECH Ziviltechnikergesellschaft mbH\n\r\nRegistergericht: HG Wien, FN 426034 x\n\r\nUID-Nr.: ATU 69226367\n\r\n \n\r\nBitte denken Sie an die Umwelt bevor Sie dieses E-Mail ausdrucken!\n\r\nInformationen durch E-Mail und deren Anhänge sind nur dann bindend und autorisiert, wenn diese Informationen schriftlich von\r\n uns bestätigt werden. Diese Email (samt Dateianhängen) ist ausschließlich für den seitens des Absenders dieser Nachricht beabsichtigten Empfänger bestimmt, da sie rechtliche geschützte und vertrauenswürdige Informationen enthalten kann. Sollten Sie nicht der\r\n beabsichtigte Empfänger dieser Nachricht sein so müssen Sie diese vollständig, dauerhaft und unwiederbringlich aus Ihrem System löschen, da es Ihnen untersagt ist, diese Nachricht oder deren Inhalte (samt Dateianhängen) in welcher Form auch immer dauerhaft\r\n zu verspeichern, weiter zu verbreiten, zu kopieren auszudrucken oder sonstig zu verarbeiten. Sollten Sie diese Email auf Grund eines Übermittlungsfehlers erhalten haben, bitte ich Sie, mich umgehend per Mail oder Telefon darüber zu benachrichtigen.\n\r\nWir weisen darauf hin, dass alle übermittelten Daten im Rahmen der Projektbearbeitung verarbeitet und lokal im Firmennetzwerk für die Dauer der gesetzlichen\r\n Aufbewahrungsfrist gemäß §6 DSG 2000 (in der ab 25.05.2018 geltenden Fassung) gespeichert werden. Unsere vollständige Datenschutzerklärung mit Informationen über Ihre Rechte auf Auskunft, Änderung oder Löschung finden Sie auf unserer Homepage unter\r\nwww.zt-pech.at/datenschutzverordnung/\n\r\n \n\r\n\r\nVon: office@ac-wohnart.at <office@ac-wohnart.at>\r\n\n\r\nGesendet: Montag, 20. Juli 2026 19:35\n\r\nAn: Office <office@zt-pech.at>\n\r\nBetreff: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 (Ihre Zustandsaufnahme und statische Vorbemessung 2021) – Leistungsbeschreibung im Anhang\n\r\n\n\r\n \n\r\nSehr geehrter Herr Dr. Pech, sehr geehrter Herr Herzina,\n\r\n \n\r\ndie A&C Wohnart Immobilien GmbH (FN 668224h, Handelsgericht Wie...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails]
+input: {"sender":"potyka","limit":20}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"1d032b7c-fb53-4bb0-bd0f-45e4c1dfeef2","account_email":"office@ac-wohnart.at","subject":"Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung + vollstaendige Unterlagen | Bitte um Interessensbekundung + Objektbegehung","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@sedlak.co.at"],"received_at":"2026-09-15T14:33:58.135983Z","snippet":"Sehr geehrte Damen und Herren,\n\nals klassischer Wiener Baumeisterbetrieb mit umfassender Erfahrung i","category":null,"labels":["DRAFT"],"folder":"Drafts","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":[]},{"id":"58dce9ad-287e-4f57-a320-385fac4a9648","account_email":"office@ac-wohnart.at","subject":"Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung + vollstaendige Unterlagen | Bitte um Interessensbekundung + Objektbegehung","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@hazet.at"],"received_at":"2026-09-15T14:33:47.715301Z","snippet":"Sehr geehrte Damen und Herren,\n\nIhre Referenzen - von der Generalsanierung des Gartenpalais Schoenbo","category":null,"labels":["DRAFT"],"folder":"Drafts","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":[]},{"id":"4f61545e-d576-44bd-89c2-aee2aa42ea97","account_email":"office@ac-wohnart.at","subject":"Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung + vollstaendige Unterlagen | Bitte um Interessensbekundung + Objektbegehung","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office-wien@gerstl.at"],"received_at":"2026-09-15T14:33:36.954028Z","snippet":"Sehr geehrte Damen und Herren,\n\nals Traditionsbetrieb mit ueber 100-jaehriger Geschichte und eigener","category":null,"labels":["DRAFT"],"folder":"Drafts","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":[]},{"id":"300db61e-60aa-43c5-bbcf-7411c132090a","account_email":"office@ac-wohnart.at","subject":"Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung + vollstaendige Unterlagen | Bitte um Interessensbekundung + Objektbegehung","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["bau@baumeister-jovicic.at"],"received_at":"2026-09-15T14:33:20.864914Z","snippet":"Sehr geehrter Herr Ing. Jovicic,\n\nals Baumeisterbetrieb mit Generalunternehmer-Erfahrung, eigener Pl","category":null,"labels":["DRAFT"],"folder":"Drafts","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":[]},{"id":"1210c927-8fc1-431f-9b71-1af348a47658","account_email":"office@ac-wohnart.at","subject":"Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung + vollstaendige Unterlagen | Bitte um Interessensbekundung + Objektbegehung","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@koenig-heinrich.at"],"received_at":"2026-09-15T14:33:10.008084Z","snippet":"Sehr geehrter Herr Dr. Resch,\n\nals behoerdlich konzessionierter Baumeisterbetrieb in Hietzing - nur ","category":null,"labels":["DRAFT"],"folder":"Drafts","is_read":true,"is_starred":false,"is_sent":false,"has_attachments":true,"attachment_names":[]},{"id":"c59a402f-80ae-42b7-aacb-d6b8b16978ed","account_email":"office@ac-wohnart.at","subject":"Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung + vollstaendige Unterlagen | Bitte um Interessensbekundung + Objektbegehung","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@dezet-bau.at"],"received_at":"2026-09-15T14:32:59.072173Z","snip...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails]
+input: {"sender":"pcd-zt","limit":20}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":20,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_search_emails]
+input: {"query":"Statik","is_sent":true,"date_from":"2026-06-01","limit":50}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[],"total":0,"limit":20,"offset":0}
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: mcp__090946e4-21b8-41b4-9ba6-b8b5e95b5405__eva_list_calendar_events]
+input: {"date_from":"2026-09-01","date_to":"2026-10-15"}
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"3ca37bc7-b5f7-4854-a8de-1ded6e79d96a","account_email":"office@ac-wohnart.at","subject":"Re: 2026_245 _1120 Wien Schallergasse 35 - Wohnhaus DG Ausbau","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@lebe-bau.at"],"received_at":"2026-09-14T07:59:08.388946Z","snippet":"Sehr geehrte Herr Bmstr. Dipl.-Ing. Johannes Beranek,\n\ngerne möchte ich unseren Termin am 25.09.2026","category":"fyi","labels":["SENT","1: To respond"],"folder":"office@lebe-bau.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"89908e0b-ab39-4249-9a73-0ba821bf33f7","account_email":"office@ac-wohnart.at","subject":"Re: AW: AW: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 (Ihre Zustandsaufnahme und statische Vorbemessung 2021) – Leistungsbeschreibung im Anhang","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@bmberger.at"],"received_at":"2026-09-10T08:33:04.287754Z","snippet":"Sehr geehrte Damen und Herren,\n\nich befinde mich heute und morgen in Wien. Da die Frist sehr knapp b","category":"fyi","labels":["SENT","1: To respond"],"folder":"office@bmberger.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"34439125-276c-4e85-bf5c-7e3bebd03da8","account_email":"office@ac-wohnart.at","subject":"Re: AW: Angebotsanfrage Ausführungsstatik – 1120 Wien, Schallergasse 35 (Ihre Zustandsaufnahme und statische Vorbemessung 2021) – Leistungsbeschreibung im Anhang","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["herzina@zt-pech.at"],"received_at":"2026-09-10T08:24:54.843906Z","snippet":"Sehr geehrte Damen und Herren,\n\nich möchte mich noch einmal kurz bei Ihnen melden. Ich habe Ihnen di","category":"fyi","labels":["SENT","1: To respond"],"folder":"herzina@zt-pech.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"285f00bc-23ae-4759-acb1-1ab0461c99d3","account_email":"office@ac-wohnart.at","subject":"Re: 2026_245 AW: Einladung zur Zusammenarbeit als Generalunternehmer -\r\n Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung +\r\n vollstaendige Unterlagen vorhanden | Bitte um Interessensbekundung +\r\n Terminvorschlag Do./Fr. dieser Woche","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@lebe-bau.at"],"received_at":"2026-09-10T08:06:18.084499Z","snippet":"Hallo,\n\nvielen Dank für Ihren Vorschlag, den wir für angemessen halten. Wir würden unsere Zusammenar","category":"fyi","labels":["SENT","1: To respond"],"folder":"office@lebe-bau.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"886b9697-c760-4183-89b4-0578a4a2ac9d","account_email":"office@ac-wohnart.at","subject":"Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung + vollstaendige Unterlagen vorhanden | Bitte um Interessensbekundung + Terminvorschlag Do./Fr. dieser Woche","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@lebe-bau.at"],"received_at":"2026-09-10T06:30:26.764290Z","snippet":"An: office@lebe-bau.at\nBetreff: Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schal","category":"fyi","labels":["SENT","3: Fyi"],"folder":"office@lebe-bau.at","is_read":true,"is_starred":false,"is_sent":true,"has_attachments":false,"attachment_names":[]},{"id":"bef5db4b-1d16-454d-bc1c-ef63938e3682","account_email":"office@ac-wohnart.at","subject":"Einladung zur Zusammenarbeit als Generalunternehmer - Wohnhaus Schallergasse 35, 1120 Wien - rechtskraeftige Baubewilligung + vollstaendige Unterlagen vorhanden | Bitte um Interessensbekundung + Terminvorschlag Do./Fr. dieser Woche","from_name":"office@ac-wohnart.at","from_address":"office@ac-wohnart.at","to":["office@sattlerbau.at"],"received_at":"2...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+{"items":[{"id":"b3dfa9d2-cc27-440f-95b8-c0e8dd89d4d7","title":"🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production","start":"2026-09-01T09:00:00Z","end":"2026-09-07T09:30:00Z","location":null,"attendees":[],"description":"Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de","meeting_link":null},{"id":"f985cde0-2b6a-48aa-8a6b-e569af6334ac","title":"🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production","start":"2026-09-02T09:00:00Z","end":"2026-09-08T09:30:00Z","location":null,"attendees":[],"description":"Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de","meeting_link":null},{"id":"280bf606-9c11-422d-a82e-ae1937890b55","title":"🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production","start":"2026-09-03T09:00:00Z","end":"2026-09-09T09:30:00Z","location":null,"attendees":[],"description":"Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de","meeting_link":null},{"id":"60d26523-b5eb-40a8-bc67-3c611a3ba34a","title":"AW: AW: Angebotsanfrage Baustellenkoordination (Planungs- und Baustellenkoordinator gem. BauKG) - Wohnhaus Schallergasse 35, 1120 Wien","start":"2026-09-03T21:00:00Z","end":"2026-09-04T20:59:59Z","location":null,"attendees":[],"description":"Account: office@ac-wohnart.at\n\nEmail Content:\n<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\"><head><meta http-equiv=Content-Type content=\"text/html; charset=utf-8\"><meta name=Generator content=\"Microsoft Word 15 (filtered medium)\"><style><!--\r\n/* Font Definitions */\r\n@font-face\r\n\t{font-family:\"Cambria Math\";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:Calibri;\r\n\tpanose-1:2 15 5 2 2 2 4 3 2 4;}\r\n@font-face\r\n\t{font-family:Aptos;}\r\n/* Style Definitions */\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Aptos\",sans-serif;}\r\nspan.E-MailFormatvorlage18\r\n\t{mso-style-type:personal-reply;\r\n\tfont-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext;}\r\n.MsoChpDefault\r\n\t{mso-style-type:export-only;\r\n\tfont-size:11.0pt;\r\n\tmso-fareast-language:EN-US;}\r\n@","meeting_link":null},{"id":"a188fb0d-6f07-4d2e-a725-7b72f60450e8","title":"🔔 RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production","start":"2026-09-04T09:00:00Z","end":"2026-09-10T09:30:00Z","location":null,"attendees":[],"description":"Reminder pentru emailul de la: Adriana.DURIGA@afir.info\n\nSubiect: RE: Notificare de informare privind cesiunea partilor sociale de la Cesiro Production\n\nReferitor la schimbarea acționariatului societății trebuie încărcată în sistem o documentație: · Nota explicativa si memoriul justificativ · Declaraţia pe proprie răspundere de angajament faţă de","meeting_link":null},{"id":"49ca82c1-a5fd-44fa-a11c-88ff27a589fc","title":"🔔 RE: Notificare de informare privi...
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_call: PowerShell]
+description: Read Toms offer summaries
+command: $d="D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\02_Toms Ziviltechniker GmbH"; Get-Content -Encoding UTF8 -LiteralPath "$d\Angebot 2026.08.26\Email-Text_Angebot_2026-08-26.txt","$d\Angebot 2026.09.07 (ANG 855 TWP)\Email-Text_Angebot_2026-09-07.txt"
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Dump verifier comparison spreadsheet
+command: cd "/d/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/01. Verificator (Pruefingenieur)/Cereri oferta (Angebotsanfragen)" && python -c "
+import openpyxl
+wb=openpyxl.load_workbook('Pruefingenieur_Kandidaten_Vergleich.xlsx')
+for ws in wb:
+  print('##',ws.title)
+  for r in ws.iter_rows(values_only=True):
+    if any(r): print(' | '.join('' if c is None else str(c) for c in r))
+"
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+Primit: 26.08.2026, 17:29 (oferta datata 20.08.2026)
+De la: Office@toms.at (Dagmar Zottl, Sekretariat; cc ferdinand.toms@toms.at)
+Referinta: Angebot ANG 839 - Pruefingenieur Schallergasse 35 (Kundennr. 2301011, FTO/DZO)
+
+--- Text email ---
+Sehr geehrter Herr Covaciu,
+bitte finden Sie anbei auch unser Angebot bezueglich Pruefingenieursleistungen.
+Wir hoffen das Angebot entspricht Ihren Erwartungen und freuen uns auf die Beauftragung!
+MfG, Dagmar Zottl, Sekretariat
+Toms Ziviltechniker GmbH, Dachsberggasse 8, 3500 Krems | Margaretenstr. 93, 1050 Wien
+FN 214744a | UID ATU53776301
+
+--- Rezumat oferta ANG 839 (20.08.2026) ---
+Pruefingenieur gem. par. 127 + 128 WBO (exkl. Bauwerksbuch): PAUSCHAL 8.000 EUR net.
+Include: toate Beschauen + Abnahmebefunde, ZT-Bestaetigung par. 127 pt.
+Fertigstellungsanzeige, confirmarea independentei conform par. 127.
+Ipoteza: 15 Begehungen. Stundensatz: 155 EUR. Disponibilitate confirmata la fazele
+critice (fundare, armare, Rohbau).
+Clauza: la depasirea efortului cu >10% se renegociaza onorariul pe ore efective.
+Plata: 30 zile net. VALABIL PANA LA: 19.09.2026.
+Primit: 07.09.2026 (oferta datata 03.09.2026)
+De la: office@toms.at (Simona Hotea, Sekretariat)
+Referinta: Angebot ANG 855 - "WH Schallergasse 35, 1120 Wien - TWP" (Tragwerksplanung)
+Ca raspuns la: Anschreiben-ul nostru din 02.09.2026 (cerere Gesamtangebot statica)
+
+--- Text email ---
+Sehr geehrter Herr Covaciu,
+bitte finden Sie anbei das gewuenschte Anbot. Wir freuen uns auf eine Beauftragung.
+Fuer Fragen stehen wir gerne zur Verfuegung.
+MfG, Simona Hotea, Sekretariat
+Toms Ziviltechniker GmbH, Dachsberggasse 8, 3500 Krems | Margaretenstr. 93, 1050 Wien
+
+--- Rezumat ANG 855 (03.09.2026) ---
+Pos. 1.2.1  Ausfuehrungsplanung - PAUSCHAL 25.000 EUR net
+   Ausfuehrungsstatik + saemtliche Schalungs- und Bewehrungsplaene +
+   Fuehrungsplanung Stahl- UND Holzbau (fara Werksplanung)
+Pos. 1.2.2  Statische Betreuung - PAUSCHAL 1.500 EUR net (numar termine NEspecificat)
+SUMA: 26.500 EUR net (31.800 brutto)
+Clauza: >10% efort => renegociere pe ore | Plata 30 zile | VALABIL pana 03.10.2026
+
+Comparativ Berger (echivalent poz. 1-3): 35.000 net => Toms cu 8.500 (24%) mai ieftin.
+Pachet total Toms (ANG 839 + 855): 34.500 net vs Berger 45.000 net.
+NU au raspuns la: constructia pe Vorbemessung, durata pana la statica prueffaehiga,
+compatibilitatea par. 127 Abs. 3a, confirmarea ANG 839 in pachet, nr. termine Betreuung.
+[/external_agent_tool_result]
+
+## Asistent
+
+[external_agent_tool_result]
+## Kandidaten Pr�fingenieur
+PR�FINGENIEUR - CANDIDATI SI URMARIRE OFERTE | Schallergasse 35, 1120 Wien |  |  |  |  |  |  |  |  |  | 
+Ordinea = preferinta initiala. Completati coloanele 'Angebot erhalten', 'Preis' si 'Bemerkung' pe masura ce sosesc ofertele. |  |  |  |  |  |  |  |  |  | 
+Nr. | B�ro / ZT | Adresse | Bezirk/Distanz | Tel. | E-Mail | Spezialisierung / Notiz | Angebot erhalten (Datum) | Pauschalpreis netto (EUR) | �128 inkl.? | Bemerkung
+1 | DI Janka Neid | Aichholzgasse 26/2, 1120 Wien | 1120 - lokal | +43 676 633 78 15 | office@neid.co.at | Local 12. Bezirk; Pr�fingenieur, Rohbau/Ausbau, Bestandsgutachten. PRIMA ALEGERE (pret/proximitate/specializare). | ABSAGE 26.08.2026 |  |  | ABSAGE DEFINITIVA 26.08.2026 (dupa analiza documentelor trimise la 11.08): capacitate epuizata - doua proiecte mari pornite simultan; nu preiau proiecte noi in perioada urmatoare. Istoric: 11.08 - refuz Pruefingenieur separat (doar cu statica de la concept). Ton amabil, deschis pe viitor. Email: 09. Vertraege\neid.co.at\2026.08.26
+2 | Toms Ziviltechniker GmbH | Margaretenstrasse 93, 1050 Wien | 1050 | +43 1 310 07 07 | office@toms.at | >45 ani / 5.100 proiecte; bun compromis pret/siguranta. Rating 4,8/5 (secundar). | 26.08.2026 (ANG 839 din 20.08) | 8000 | Ja | ANG 839 (Pruefingenieur): pauschal 8.000 net, par.127+128 (exkl. Bauwerksbuch), independenta confirmata, 15 Begehungen, >10% => renegociere, VALABIL 19.09. + ANG 855 din 03.09 (TWP/statica): Ausfuehrungsstatik + toate Schal-/Bewehrungsplaene + Fuehrungsplanung otel+lemn 25.000 + statische Betreuung 1.500 = 26.500 net, VALABIL 03.10. PACHET TOTAL Toms 34.500 net vs Berger 45.000. Deschis: Vorbemessung-baza?, durata?, par.127(3a) cumul?, nr. termine Betreuung. PDF: 02_Toms\Angebot 2026.09.07
+3 | POTYKA & Partner ZT GmbH | Altmannsdorfer Strasse 76A/9, 1120 Wien | 1120 - Meidling | +43 1 877 25 71 | office@potyka-partner.at | In Meidling; ing. constructii + verificare. Rating 4,8/5 (putine recenzii). |  |  |  | 
+4 | DI Remzi Avunduk | Am Freihof 21/2, 1220 Wien | 1220 | +43 1 202 19 75 | office@zt-avunduk.at | Specializat Gr�nderzeit/DG-Ausbau/Aufstockung; �127 complet. Birou in 1220 (mai departe). | 14.08.2026 - Rueckfrage (nu oferta) |  |  | INTERES CONDITIONAT 14.08 (procesat 02.09): prefera pachetul Ausfuehrungsstatik + Pruefingenieur impreuna ('nicht gern nur Pruefingenieur'). Intreaba: cine face statica, exista Einreichstatik + Ingenieurbefund, ultimul planstand. Specializat Gruenderzeit/DG-Ausbau. Raspuns cu cerere de oferta completa trimis 02.09.2026. Email: 04_DI Remzi Avunduk
+5 | KPPK Ziviltechniker GmbH | Gumpendorfer Strasse 132, 1060 Wien | 1060 | +43 1 535 21 23 | office@kppk.at | Pachet complet; 21-50 angajati. Oferta de control/calitate. | REFUZ 11.08.2026 |  |  | REFUZ 11.08.2026 (identificat in auditul Eva-Mail din 08.09): fara capacitate disponibila, nu poate transmite o oferta atractiva economic. Contact: Selin Yazici, Office Management. Emailul de refuz NEarhivat inca in foldere - de salvat din inbox.
+6 | PCD ZT-GmbH | Schoenbrunner Strasse 297, 1120 Wien | 1120 - lokal | +43 1 877 34 25 | office@pcd-zt.at | Local; foarte experimentat (proiecte complexe/infrastructura). Probabil premium; benchmark. E-mail de completat. |  |  |  | Email confirmat: office@pcd-zt.at (pcd-zt.at, FN 105856x)
+7 | Bmstr. DI (FH) Markus Berger GmbH | Sch�nbrunner Strasse 123/2, 1050 Wien | 1050 | +43 664 283 0 933 | office@bmberger.at | Autorul Vorbemessung 2022 - continuitate maxima. Oferta = pachet complet: Ausf�hrungsstatik + Schal-/Bewehrungspl�ne + Pr�fingenieur (�127/�128). | 17.08.2026 | 10000 | Ja | Pr�fingenieur pauschal 10.000 net, parte din pachet total 45.000 net (54.000 brutto, ~12 luni). Statik 13.000 conditionat de pastrarea conceptului din Vorbemessung. ATENTIE: cumul statica+Pr�fingenieur - de verificat independenta �127 Abs. 3a BO. PDF: 09. Vertraege\bmberger.at\2026.08.17 ATENTIE: asigurare RC profesionala LIMITATA la 1 Mio EUR (declarata 22.07, polita POL...
+[/external_agent_tool_result]
+
+## Asistent
+
+Am verificat folderul și emailurile din EVA. Mai jos e tabelul. În total ați contactat **8 firme**: 2 pentru statica de execuție (Ausführungsstatik) și 6 pentru inginer verificator (Prüfingenieur). Pe parcurs, cererea s-a extins la pachetul complet la trei dintre ele.
+
+| # | Firmă | Nume contact | Pentru ce | Data email(uri) trimise | Răspuns | Întâlnire |
+|---|---|---|---|---|---|---|
+| 1 | **Toms Ziviltechniker GmbH** (Margaretenstr. 93, 1050 Wien) | DI Ferdinand Toms (secretariat: Dagmar Zottl, Simona Hotea) | Verificator, apoi pachet complet de statică | 10.08, 02.09, 07.09, 10.09.2026 | ✅ **2 oferte:** ANG 839 verificator, 8.000 € net, valabilă până la **19.09**. ANG 855 statică de execuție + planuri + asistență în șantier, 26.500 € net, valabilă până la 03.10. **Total 34.500 € net.** Întrebările din 07.09 și 10.09 au rămas fără răspuns scris | **Vineri 18.09.2026, ora 07:00**, la biroul lor din Viena. Discuția ofertei, fixată telefonic pe 11.09 |
+| 2 | **Bmstr. DI (FH) Markus Berger GmbH** (Schönbrunner Str. 123/2, 1050 Wien) | Markus Berger | Statică de execuție (autorul Vorbemessung 2021), apoi pachet complet | 20.07, 22.07, 12.08, 10.09.2026 | ✅ **Ofertă 17.08:** statică + planuri de cofraj/armare + verificator, **45.000 € net** (54.000 brut). Asigurarea lor profesională e limitată la 1 mil. € (au anunțat pe 22.07). Emailul din 10.09, în care cereați o discuție, e fără răspuns | — (ați cerut o discuție pe 10–11.09, nu a răspuns) |
+| 3 | **Dr. PECH Ziviltechniker GmbH** (Johann-Strauß-G. 32/11, 1040 Wien) | DI (FH) Peter Herzina | Statică de execuție (Zustandsaufnahme 2021) | 20.07, 10.08 (documente), 10.09.2026 (revenire) | ⏳ Pe 06.08 au cerut planurile de autorizare și statica de autorizare. Le-ați trimis, dar **nu mai răspund de atunci** | — |
+| 4 | **DI Remzi Avunduk** (Am Freihof 21/2, 1220 Wien) | DI Remzi Avunduk | Verificator, apoi pachet complet de statică | 10.08, 03.09.2026 | ❌ Pe 14.08 a spus că preferă doar pachetul statică + verificator. **Refuz 10.09:** nu are capacitate (2 proiecte noi) | — |
+| 5 | **DI Janka Neid** (Aichholzg. 26/2, 1120 Wien) | Ing. Mag. Markus Neid | Verificator, apoi evaluare pentru statică | 10.08, 11.08, 12.08.2026 | ❌ Pe 10.08 a refuzat să facă doar verificator. Pe 11.08 a cerut documentele. **Refuz definitiv 26.08:** fără capacitate | — |
+| 6 | **KPPK Ziviltechniker GmbH** (Gumpendorfer Str. 132, 1060 Wien) | Selin Yazici (Office Management) | Verificator | 10.08.2026 | ❌ **Refuz 11.08:** fără capacitate. Sunt deschiși pentru proiecte viitoare | — |
+| 7 | **POTYKA & Partner ZT GmbH** (Altmannsdorfer Str. 76A/9, 1120 Wien) | — | Verificator | 10.08.2026 | 🔇 **Niciun răspuns** | — |
+| 8 | **PCD ZT-GmbH** (Schönbrunner Str. 297, 1120 Wien) | — | Verificator | 10.08.2026 | 🔇 **Niciun răspuns** | — |
+
+**Pe scurt:** aveți 2 oferte (Toms, Berger), 3 refuzuri (Avunduk, Neid, KPPK) și 3 firme care nu răspund (Pech, POTYKA, PCD). Singura întâlnire stabilită e cu **Toms, pe 18.09 la 07:00**.
+
+**De reținut:**
+- **Oferta Toms pentru verificator (ANG 839) expiră pe 19.09**, adică a doua zi după întâlnire. Cereți la întâlnire să o prelungească până pe 03.10, ca pe cealaltă ofertă.
+- Emailurile din 20.07 către Pech și Berger aveau o dată lipsă: textul „Angebotsfrist: [DATUM + 3 Wochen]” a plecat necompletat. În aceleași emailuri scria „Baubeginn 1. Quartal 2027”, iar mai târziu ați comunicat 01.10.2026. Asta poate explica de ce Pech nu s-a grăbit.
+- Firmele care nu răspund de la 10.08 (POTYKA, PCD) și Pech merită un telefon, nu încă un email. Numerele sunt în [Pruefingenieur_Kandidaten_Vergleich.xlsx](D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\Cereri oferta (Angebotsanfragen)\Pruefingenieur_Kandidaten_Vergleich.xlsx): POTYKA +43 1 877 25 71, PCD +43 1 877 34 25, Pech +43 1 5053680-31.
+
+Pot să actualizez și fișierul xlsx cu stările de mai sus (refuzul Avunduk din 10.09, întâlnirea Toms) sau să pregătesc ciorne de revenire în EVA pentru POTYKA, PCD și Pech. Vreți?
+
+## Asistent
+
+<EXTERNAL SESSION IMPORTED>

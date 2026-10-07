@@ -1,0 +1,908 @@
+{
+  "agent_id": "01a0e5dd-dc7c-7e11-9f48-fcb4984609c3",
+  "role": "A-GOVERNANCE",
+  "audit_id": "ROM-002-SEL/A-GOVERNANCE/r01",
+  "round": "r01",
+  "scope": "ROM-002-SEL: selecție PRELIMINARĂ a DB-004, brief de pornire, sondaj canonic și predare către G01; exclusiv SELECTIE_r01_BEFORE. Nu este audit G01 integral, audit de roman final sau metaaudit.",
+  "manifest_sha256": "da1ff40adac149be3843a7879ad1ab2c94eda4c0498a38ecf74befca92b58ca1",
+  "rubric": {
+    "source": "01_SURSE/originale/S05.md:19-27",
+    "contract": "00_COORDONARE/FISA_DEPUNERE_SELECTIE_r01.md:7-17",
+    "weights": {
+      "surse": 25,
+      "distinctii": 25,
+      "compatibilitate": 20,
+      "recomandare": 20,
+      "handoff": 10
+    },
+    "score_scale": 1000,
+    "threshold_exclusive": 950,
+    "minimum_per_criterion": 951,
+    "maximum_open_findings_for_pass": 0,
+    "scoring_anchor": "S05:3-7: 951–979 = toate condițiile îndeplinite și probe suficiente; 980–1000 necesită execuție excepțională demonstrată. Notele sunt judecăți argumentate asupra selecției, fără transfer de scoruri și fără compensare prin medie."
+  },
+  "scores": {
+    "surse": 976,
+    "distinctii": 978,
+    "compatibilitate": 968,
+    "recomandare": 974,
+    "handoff": 977
+  },
+  "verdict": "PASS",
+  "findings": [],
+  "limits": [
+    "Evaluare limitată la selecția preliminară și predarea documentată către G01. N01, N02 și N03 nu au fost citite integral; intervalele citite contextual de acest auditor sunt enumerate separat. Această limită corespunde fișei de depunere și nu a fost penalizată ca lipsă a lecturii integrale G01.",
+    "Hashurile tuturor fișierelor, reproducerea extracțiilor și scanările automate nu reprezintă lectură integrală semantică. Reproducerea jurnalului confirmă exactitatea textelor afișate, intervalelor și calculelor sale, nu certifică retrospectiv un proces mental al producătorului.",
+    "În DOCX s-a verificat corespondența întregului corp extras cu descendenții w:p/w:t din word/document.xml. Nu s-au citit notele de subsol/finale, comentariile și imaginile; nu s-au inspectat vizual copertele sau paginarea. Componentele omise sunt declarate în pachet și rămân de verificat la G01.",
+    "Pentru S01 au fost confruntate direct cu XLSX toate cele 24 de rânduri/311 celule din EXTRAIT_STRATEGIE.json. Nu se revendică evaluarea întregii strategii, a realizării calendarului sau a tuturor manuscriselor din portofoliu.",
+    "S02 este probă despre conținutul catalogului, nu certificare a completitudinii, publicării sau acceptării titlurilor. N04 este context de versiune și prag istoric; scorul lui 9,5 nu este preluat.",
+    "Nu s-a efectuat cercetare externă, verificare istorică factuală, validare comercială, juridică ori lingvistică umană. Afirmațiile narative despre instituții, ani și tehnologie rămân fapte textuale ale ficțiunii.",
+    "Nu s-au accesat alte proiecte, comics sau ROM-001 în auditul productiv. Contextul cererii și raportarea la DB-047 provin din mandatul/decizia fixate și din strategia din pachet; nu se pretinde verificarea conversației anterioare în afara pachetului.",
+    "PASS reprezintă numai avizul primar A-GOVERNANCE pentru manifestul indicat. Acceptarea selecției necesită și celălalt audit primar și metaauditul separat pe aceleași amprente; G01, redactarea și publicarea nu sunt aprobate prin acest raport."
+  ],
+  "independence": {
+    "declaration": "Nu am produs sau modificat mandatul, decizia, brief-ul, fișa, planul, harta ori jurnalul evaluate. Am produs doar propria calibrare, inclusă ca dovadă de calificare, și prezentul audit.",
+    "team_reference": "00_COORDONARE/ECHIPA.json:1-26",
+    "submission_reference": "00_COORDONARE/FISA_DEPUNERE_SELECTIE_r01.md:3-4",
+    "producer_ids": [
+      "01a0d24f-a0c9-7482-b766-52c86c55aba7",
+      "01a0e5dd-d6b9-7a80-b8eb-969787e2f652"
+    ],
+    "other_primary_auditor_id": "01a0e5dd-dbf3-7fa1-b533-aa544cd6c0bd",
+    "meta_auditor_id": "01a0e5dd-dce7-76a2-843a-01bf3cbe9c0a",
+    "all_five_ids_distinct": true,
+    "other_productive_audit_consulted": false
+  },
+  "qualification": {
+    "status": "CALIFICAT",
+    "passed_count": 11,
+    "total_count": 11,
+    "qa_evidence": "07_AUDIT/calibrare/VERIFICARE_QA.md:52-70",
+    "qa_evidence_sha256": "47458b8f8aac8bf99d09fae276d2678d0b4a50a0f8521593224eedfdf6a113c1",
+    "identity_binding": "07_AUDIT/calibrare/CONTROL_COORDONATOR.json:12-20",
+    "response_file": "07_AUDIT/calibrare/A-GOVERNANCE.json",
+    "response_sha256": "52b429564b4a37000e0599f7758ec10a019e03135332c6ce6c77d9bfc5866d6b",
+    "note": "agent_id null din răspunsul original este legat nominal de coordonator și confirmat de QA. Raportul QA rezolvă semantic_review pending din registrul anterior; nu se rescrie calibrarea."
+  },
+  "criterion_justifications": {
+    "surse": {
+      "reason": "Selecția este ancorată în S01/Catalog_100 rândul 5: DB-004, NOIR, Cronicile Transilvaniei, vol.4, EN, concept nescris, 60.000 de cuvinte, gen și premisa clopotului. Am confruntat direct toate cele 24 de rânduri și 311 celule din extras cu XML-ul XLSX, inclusiv rândurile 2–5, 48, 72–73 și Saga_12. Manifestul pachetului este corect 36/36; manifestul surselor corespunde copiilor și extraselor. Extracțiile Markdown și DOCX se reproduc integral la nivelul metodei declarate. Trimiterile PC-01–PC-13 confruntate indică probele relevante, iar jurnalul reproduce exact căutările și acoperirea. Rezultatul justifică o notă solidă în intervalul de îndeplinire demonstrată 951–979; integritatea tehnică nu este confundată cu certificarea întregului canon.",
+      "evidence": [
+        "00_COORDONARE/DECIZIE_SELECTIE_r01.md:8-18,27-32",
+        "01_SURSE/originale/S01.xlsx:Catalog_100!A5:T5; rândurile 1–5,38–39,48,72–73,101; Saga_12!A1:G13",
+        "01_SURSE/MANIFEST_SOURCES.json",
+        "01_SURSE/VERIFICATION_EXTRACTION.json",
+        "02_CANON/HARTA_PRELIMINARA.md:7-43",
+        "02_CANON/LECTURA_EFECTUATA.json:/surse_romane"
+      ]
+    },
+    "distinctii": {
+      "reason": "Mandatul și brief-ul separă alegerea coordonatorului de aprobarea nominală a beneficiarului, premisa din strategie de propuneri editoriale și sondajul de canonul integral. Harta distinge explicit eveniment narat, afirmație a personajului, autodescriere a anexei și inferență: circa 1439 pentru nașterea Ecaterinei în N02 este calcul, longevitatea din N03 este mărturia Klarei, iar ecoul lui Radu nu este prezentat drept revenire corporală. Conflictele de familie, calendare, titlu și Prejmer sunt expuse cu probe, fără soluții inventate. Procentele jurnalului sunt acoperire de text brut, nu progres de roman. Sincronizarea titlului RO păstrează mandatul inițial și explică onest momentul hashului. Distincțiile sunt susținute în punctele relevante, fără a transforma sinceritatea limitelor într-un PASS automat.",
+      "evidence": [
+        "00_COORDONARE/MANDAT.md:4-8",
+        "00_COORDONARE/BRIEF_PORNIRE_r01.md:7-19,31-36",
+        "02_CANON/HARTA_PRELIMINARA.md:7-43",
+        "02_CANON/LECTURA_EFECTUATA.json:/documente_context_citite/0, /5, /6",
+        "08_ARHIVA/MANDAT_initial.md:5",
+        "01_SURSE/texte/N01.txt:L05570–L05612,L05620,L05632–L05636",
+        "01_SURSE/texte/N02.txt:P05215–P05223",
+        "01_SURSE/texte/N03.txt:P03766–P03773,P03896"
+      ]
+    },
+    "compatibilitate": {
+      "reason": "Decizia compară patru opțiuni din colecții/serii deja începute și folosește criteriul cererii: altă serie decât Isabella Morgan/DB-047 și o poziție următoare documentată. S01 distinge NOIR/Cronicile Transilvaniei/DB-004 de AMORIS/Isabella/DB-047, confirmă cele trei volume de fond și următoarea poziție nouă; pentru MYTHICA, R72 consemnează conflictul de titlu. S02 susține cele două titluri Alex Damian și contradicția catalogului privind Aurora Signal. Motivele nealegerii sunt delimitate; nu se pretind clasamente de vânzări, efort mai mic sau canon reconciliat al alternativelor. Comparația este suficientă și coerentă pentru selecție, cu o fundamentare în principal de catalog și strategie, fără demonstrația unei superiorități editoriale excepționale; 968 reflectă această calitate a comparației, fără penalizarea lecturii integrale care aparține G01.",
+      "evidence": [
+        "00_COORDONARE/DECIZIE_SELECTIE_r01.md:6-18",
+        "00_COORDONARE/FISA_DEPUNERE_SELECTIE_r01.md:11,17",
+        "01_SURSE/originale/S01.xlsx:Catalog_100!A2:T5,A48:T48,A72:T73; Saga_12!A2:G2,A6:G7",
+        "01_SURSE/originale/S02.md:34-48,70-87",
+        "02_CANON/HARTA_PRELIMINARA.md:19-35"
+      ]
+    },
+    "recomandare": {
+      "reason": "Recomandarea DB-004 urmează poziția 4 după DB-001–DB-003 și păstrează genul, masterul EN și ținta de 60.000 din strategie, alături de minimul atelierului de 50.000. ROM-002 este dosar, nu WorkID suplimentar. Titlul RO Făuritorul de clopote din Brașov este coerent în mandat, decizie, brief și PC-13; vechea formă Clopotarul rămâne identificată doar ca istoric. Premisa Q5 este citată exact, iar ideile despre sunet, indicii și costul alegerilor sunt etichetate drept propuneri. Anul, protagonistul, natura fenomenului și forma continuității nu sunt declarate fapte deja stabilite. Justificarea este aplicabilă pornirii proiectului, fără inventare de canon sau succes comercial.",
+      "evidence": [
+        "00_COORDONARE/MANDAT.md:4-7",
+        "00_COORDONARE/DECIZIE_SELECTIE_r01.md:8,18-25",
+        "00_COORDONARE/BRIEF_PORNIRE_r01.md:5-29",
+        "02_CANON/HARTA_PRELIMINARA.md:5,41",
+        "01_SURSE/originale/S01.xlsx:Catalog_100!A2:Q5",
+        "08_ARHIVA/MANDAT_initial.md:5"
+      ]
+    },
+    "handoff": {
+      "reason": "Planul G01 cere lectura integrală relevantă, verificarea componentelor DOCX omise, registre localizate de fapte și contradicții, cronologii separate, stabilirea gradului de continuitate și un brief complet urmat de audit distinct. Harta furnizează intrări concrete pentru aceste operații: identități, vârste, familie, puteri, Prejmer, acces la documente, cronologie și titluri. Decizia exclude promovarea automată a etapelor ulterioare, iar brief-ul declară zero proză EN nouă, capitole acceptate și traduceri, compatibil cu conținutul pachetului. Pragul strict, auditul dublu și meta terminal sunt păstrate. Nici rezultatul selecției, nici nota istorică N04 nu sunt folosite pentru a închide anticipat G01. Predarea este concretă și verificabilă în scopul cerut.",
+      "evidence": [
+        "02_CANON/PLAN_LECTURA_G01.md:7-31",
+        "00_COORDONARE/DECIZIE_SELECTIE_r01.md:34-35",
+        "00_COORDONARE/BRIEF_PORNIRE_r01.md:21-36",
+        "00_COORDONARE/FISA_DEPUNERE_SELECTIE_r01.md:13-17",
+        "02_CANON/HARTA_PRELIMINARA.md:17-43",
+        "01_SURSE/originale/S04.md:18-27,68-77"
+      ]
+    }
+  },
+  "claim_checks": [
+    {
+      "id": "PC-01",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:17",
+      "evidence": [
+        "N01:L00015,L05618–L05620",
+        "S02:13,70"
+      ],
+      "result": "SUSTINUT",
+      "reason": "V6 și autodescrierea anexei sunt reale; catalogul trimite la V5. Harta nu pretinde comparație între versiuni sau recertificare."
+    },
+    {
+      "id": "PC-02",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:19",
+      "evidence": [
+        "S01:Catalog_100!D2:D5",
+        "S02:70–72",
+        "N01:L00027,L05514–L05518",
+        "N02:P00008,P05002–P05003,P05215–P05236",
+        "N03:P00022,P03528–P03529,P03713–P03714"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Pozițiile editoriale 1–4 nu ordonează temporal 1476/1500, 1469/1470/1485 și 1224/1225/1289. Concluzia de nearmonizare este justificată."
+    },
+    {
+      "id": "PC-03",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:21",
+      "evidence": [
+        "N01:L05632–L05636",
+        "N02:P05062–P05065",
+        "N03:P03766–P03773,P03896"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Biografia Vlad III și numele Vlad Drăculea nu probează identitatea cu figura descrisă de Klara; longevitatea este atribuită corect jurnalului, cu ambiguitatea finală păstrată."
+    },
+    {
+      "id": "PC-04",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:23",
+      "evidence": [
+        "N01:L05713–L05716",
+        "N02:P05215–P05217"
+      ],
+      "result": "SUSTINUT",
+      "reason": "1450/26 în 1476 față de 46 în 1485 este un conflict real al datelor dacă personajele sunt unificate. Circa 1439 este corect marcat ca inferență, nu citat."
+    },
+    {
+      "id": "PC-05",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:25",
+      "evidence": [
+        "N01:L05716,L06095–L06100,L05518",
+        "N02:P05221–P05223"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Nunta din 1476 și cei patru copii diferă de coda din 1485 care neagă căsătoria oficială și enumeră Vlad, Mihai și Magdalena; nu se inventează armonizare."
+    },
+    {
+      "id": "PC-06",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:27",
+      "evidence": [
+        "N01:L05546–L05590",
+        "N02:P00082–P00095,P05242–P05243",
+        "N03:P03769–P03773,P03859–P03875"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Manifestările sunt localizate exact; harta nu echivalează trandafirul, viziunile și mărturia despre longevitate și nu le transferă clopotului."
+    },
+    {
+      "id": "PC-07",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:29",
+      "evidence": [
+        "N01:L06077–L06081,L05570–L05612,L06121–L06122"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Moartea este atribuită anexei, ecoul interpretării personajelor și finalului legendar; conspirația politică și cultul rămân distincte."
+    },
+    {
+      "id": "PC-08",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:31",
+      "evidence": [
+        "N02:P05183–P05203,P05220"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Promisiunea unei investigații este urmată de mențiunea finalizării în 1482. Afirmațiile despre prima crimă din 1213 și 1211 există ambele; contradicția este consemnată, nu ascunsă."
+    },
+    {
+      "id": "PC-09",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:33",
+      "evidence": [
+        "N03:P03721–P03731,P03788–P03795,P03815–P03817,P03894–P03895"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Transmiterea VERITAS prin Andreas către Jakob și accesul restricționat la jurnal sunt textuale. Supraviețuirea documentelor este atribuită romanului, fără validare istorică sau acces presupus pentru DB-004."
+    },
+    {
+      "id": "PC-10",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:35",
+      "evidence": [
+        "N02:P00008,P05021,P00069,P00090",
+        "N03:P00024,P00053–P00055,P01177"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Octombrie 1469 versus decembrie 1470 numit exact un an, aprilie versus martie 1213 și toamna versus aprilie 1224 sunt repere corect citate. Sondajul nu pretinde că a exclus orice explicație posibilă în textul necitit."
+    },
+    {
+      "id": "PC-11",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:37",
+      "evidence": [
+        "N03:P00001,P00008",
+        "S02:15,72",
+        "S01:Catalog_100!E4"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Cele două forme de titlu și asocierea aka există; harta nu afirmă inspectarea copertei ori alegerea unui titlu definitiv."
+    },
+    {
+      "id": "PC-12",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:39",
+      "evidence": [
+        "N03:P00003,P00217,P00536",
+        "N02:P01584",
+        "S02:14"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Metanotele AI/numărător și marcajul de act complet sunt prezente. Eticheta Clean și antetele nu sunt folosite ca dovadă de curățare sau finalizare acceptată."
+    },
+    {
+      "id": "PC-13",
+      "location": "02_CANON/HARTA_PRELIMINARA.md:41",
+      "evidence": [
+        "N01:L05714–L05715",
+        "N02:P05030,P05071",
+        "S01:Catalog_100!E5,Q5",
+        "00_COORDONARE/MANDAT.md:5"
+      ],
+      "result": "SUSTINUT",
+      "reason": "Referințele brașovene, titlul și sămânța narativă sunt exacte; titlul RO actual este sincronizat și nu fixează nejustificat meseria, protagonistul sau epoca."
+    }
+  ],
+  "production_documents_read": [
+    {
+      "path": "00_COORDONARE/MANDAT.md",
+      "mode": "integral",
+      "lines": [
+        1,
+        9
+      ],
+      "sha256": "3a8f94d98540fe24dcdf8116812eb9a9b152fd9261ea500b4e2b216f7fe11050"
+    },
+    {
+      "path": "00_COORDONARE/DECIZIE_SELECTIE_r01.md",
+      "mode": "integral",
+      "lines": [
+        1,
+        35
+      ],
+      "sha256": "47d38b9eee3ca430f8be628b85bd51d4cbd6fc5d4cf59d8e9a8c8b04110868c0"
+    },
+    {
+      "path": "00_COORDONARE/BRIEF_PORNIRE_r01.md",
+      "mode": "integral",
+      "lines": [
+        1,
+        36
+      ],
+      "sha256": "a4e1cdb8bf21d90665ebd40bb0fc13576f5b3066f18c9c90e626ac1ee6c93b73"
+    },
+    {
+      "path": "00_COORDONARE/FISA_DEPUNERE_SELECTIE_r01.md",
+      "mode": "integral",
+      "lines": [
+        1,
+        17
+      ],
+      "sha256": "7cfbe715c4a5b83632af2917a0b82cacf8d3004a114ab644de6ce7974f7d806a"
+    },
+    {
+      "path": "02_CANON/PLAN_LECTURA_G01.md",
+      "mode": "integral",
+      "lines": [
+        1,
+        31
+      ],
+      "sha256": "8415d2a5868cdce9ea1bf63adc6a4b3219bcd9ac5674e7c9efff0fe249638304"
+    },
+    {
+      "path": "02_CANON/HARTA_PRELIMINARA.md",
+      "mode": "integral",
+      "lines": [
+        1,
+        43
+      ],
+      "sha256": "5870bc163f178e0b032bd540ea1499d7435b582844ab2e4907af04361b5a0c6d"
+    },
+    {
+      "path": "02_CANON/LECTURA_EFECTUATA.json",
+      "mode": "integral; toate cheile și cele trei intrări, inclusiv rezultatele căutărilor și intervalele citite/necitite; intervalele au fost afișate compact fără omisiuni de valori",
+      "sha256": "b9e06da7920014a550e8aa3256c9b571ea664322009f8c78b289e150fa5e690a"
+    },
+    {
+      "path": "08_ARHIVA/MANDAT_initial.md",
+      "mode": "integral",
+      "lines": [
+        1,
+        9
+      ],
+      "sha256": "d0a05ac053a3fd34a2b9a90502d65b823d53411b7cb538897a68eb3fdb9e657b"
+    }
+  ],
+  "sources_consulted": [
+    {
+      "path": "MANIFEST.json",
+      "mode": "integral și recalculare SHA-256 pentru toate cele 36 de intrări",
+      "sha256": "da1ff40adac149be3843a7879ad1ab2c94eda4c0498a38ecf74befca92b58ca1"
+    },
+    {
+      "path": "01_SURSE/MANIFEST_SOURCES.json",
+      "mode": "integral; verificare a hashurilor copiilor și extraselor",
+      "sha256": "0191e506f0bb972abdd6f523f67c81430ead647c2e46d00908161d06542898a5"
+    },
+    {
+      "path": "01_SURSE/EXTRAIT_STRATEGIE.json",
+      "mode": "integral",
+      "sha256": "aeb21a9489e4ad9cf89f0d5bd64e72c9aab6a925fe8828aae6ef4261938abfd2"
+    },
+    {
+      "path": "01_SURSE/VERIFICATION_EXTRACTION.json",
+      "mode": "integral; confruntare cu conținutul ZIP/DOCX",
+      "sha256": "718fee79270be1f55bb30e8e70d90668075a39c0b65e23009503ae995394736f"
+    },
+    {
+      "path": "01_SURSE/originale/S01.xlsx",
+      "mode": "citire directă XML pentru cele 24 de rânduri din extras, comparare exactă 311 celule; fără lectură integrală a tuturor foilor",
+      "sha256": "2e341c1410981e99de0853939774f81e50a2f788682740eaf4d6bd3993b5ff86"
+    },
+    {
+      "path": "01_SURSE/originale/S02.md",
+      "mode": "integral, liniile 1–100; extrasul S02 verificat mecanic",
+      "sha256": "43dc2f09fd1ab09cda944283364cc03ed1942085f17d89f3a5a5c9d9e17025fb"
+    },
+    {
+      "path": "01_SURSE/originale/S03.json",
+      "mode": "integral",
+      "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4"
+    },
+    {
+      "path": "01_SURSE/originale/S04.md",
+      "mode": "liniile 11–32 și 57–77 din copia fixată",
+      "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2"
+    },
+    {
+      "path": "01_SURSE/originale/S05.md",
+      "mode": "liniile 1–27 și 219–222 din copia fixată",
+      "sha256": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd"
+    },
+    {
+      "path": "01_SURSE/originale/S06.md",
+      "mode": "hash și identitate cu sursa calibrării deja efectuate; nicio recalificare pretinsă",
+      "sha256": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba"
+    },
+    {
+      "path": "01_SURSE/originale/N04.md",
+      "mode": "liniile 1–7 și 54–74 din copia fixată, exclusiv context de versiune și prag",
+      "sha256": "5f12ea77ef1d37b598cecd8d49efe21372af490f7007dcaa3d3f8bd996e7c720"
+    },
+    {
+      "path": "01_SURSE/originale/N01.md",
+      "mode": "corespondență mecanică integrală cu extrasul; lectură semantică numai prin intervalele N01 enumerate",
+      "sha256": "3f9004c85d3c9e158aab029f030ada1fc292e37c0fda7e9e04ecbf7ee64ccd9d"
+    },
+    {
+      "path": "01_SURSE/originale/N02.docx",
+      "mode": "corespondență mecanică integrală a paragrafelor w:p/w:t din word/document.xml cu extrasul; lectură semantică numai prin intervalele N02 enumerate",
+      "sha256": "84ecf1904fb16685c682131c7e526a27dab96526401908da60d4d36f4186ba80"
+    },
+    {
+      "path": "01_SURSE/originale/N03.docx",
+      "mode": "corespondență mecanică integrală a paragrafelor w:p/w:t din word/document.xml cu extrasul; lectură semantică numai prin intervalele N03 enumerate",
+      "sha256": "46bba731100a53b08d5e358a8387aac78213609412b57560206734b8301b2137"
+    },
+    {
+      "path": "00_COORDONARE/ECHIPA.json",
+      "mode": "integral",
+      "sha256": "86558139169eaaa51ec28b2e48218a694d18fd6e463cbf925fc095a74b43d0fe"
+    },
+    {
+      "path": "07_AUDIT/calibrare/CONTROL_COORDONATOR.json",
+      "mode": "registru parsată integral; legătura A-GOVERNANCE verificată pe ID, cale și SHA-256",
+      "sha256": "c392116117fef8911a2e042e9fdc0bf0b0acf8079836a4930543a8dbde917bdb"
+    },
+    {
+      "path": "07_AUDIT/calibrare/VERIFICARE_QA.md",
+      "mode": "liniile 1–30 și 52–74 din copia fixată",
+      "sha256": "47458b8f8aac8bf99d09fae276d2678d0b4a50a0f8521593224eedfdf6a113c1"
+    },
+    {
+      "path": "07_AUDIT/calibrare/CONTROL_QA_COORDONATOR.md",
+      "mode": "integral",
+      "sha256": "61d760607068ae90337b992474efe906a0c0a01de5346ab7cb473d8211a15dfb"
+    },
+    {
+      "path": "07_AUDIT/calibrare/A-GOVERNANCE.json",
+      "mode": "hashul calibrării proprii confruntat cu registrul și raportul QA",
+      "sha256": "52b429564b4a37000e0599f7758ec10a019e03135332c6ce6c77d9bfc5866d6b"
+    }
+  ],
+  "auditor_contextual_reading": {
+    "N01": [
+      [
+        1,
+        30
+      ],
+      [
+        1269,
+        1271
+      ],
+      [
+        2779,
+        2781
+      ],
+      [
+        3995,
+        3997
+      ],
+      [
+        5206,
+        5215
+      ],
+      [
+        5500,
+        5645
+      ],
+      [
+        5707,
+        5724
+      ],
+      [
+        6060,
+        6125
+      ]
+    ],
+    "N02": [
+      [
+        1,
+        18
+      ],
+      [
+        65,
+        100
+      ],
+      [
+        1582,
+        1586
+      ],
+      [
+        1596,
+        1602
+      ],
+      [
+        1750,
+        1753
+      ],
+      [
+        5002,
+        5006
+      ],
+      [
+        5018,
+        5032
+      ],
+      [
+        5060,
+        5075
+      ],
+      [
+        5178,
+        5251
+      ]
+    ],
+    "N03": [
+      [
+        1,
+        55
+      ],
+      [
+        215,
+        218
+      ],
+      [
+        532,
+        538
+      ],
+      [
+        1175,
+        1179
+      ],
+      [
+        3527,
+        3532
+      ],
+      [
+        3713,
+        3742
+      ],
+      [
+        3764,
+        3776
+      ],
+      [
+        3786,
+        3797
+      ],
+      [
+        3813,
+        3819
+      ],
+      [
+        3856,
+        3878
+      ],
+      [
+        3888,
+        3903
+      ]
+    ]
+  },
+  "mechanical_checks": {
+    "scope_note": "Procesarea integrală mecanică este distinctă de lectura semantică selectivă.",
+    "source_manifest_hashes": "Toate copiile și extrasele declarate corespund MANIFEST_SOURCES.json.",
+    "strategy": {
+      "rows": 24,
+      "cells": 311,
+      "exact_match": true
+    },
+    "text_extraction": {
+      "S02": 100,
+      "S04": 92,
+      "S05": 222,
+      "S06": 100,
+      "N01": 6125,
+      "N02": 5251,
+      "N03": 3903,
+      "N04": 74
+    },
+    "text_extraction_all_units_exact_match": true,
+    "docx_parts_list_confirmed": {
+      "N02": [
+        "word/footnotes.xml",
+        "word/endnotes.xml",
+        "word/media/image1.jpeg"
+      ],
+      "N03": [
+        "word/footnotes.xml",
+        "word/comments.xml"
+      ]
+    },
+    "journal_searches_reproduced": 5,
+    "journal_all_results_text_and_ids_exact_match": true,
+    "journal_read_and_unread_intervals_exact_complements": true,
+    "journal_coverage_recalculated": [
+      {
+        "id": "N01",
+        "contextual_units": 481,
+        "read_unique_units": 539,
+        "read_words": 5460,
+        "total_words": 57416,
+        "read_word_percent": 9.51
+      },
+      {
+        "id": "N02",
+        "contextual_units": 284,
+        "read_unique_units": 313,
+        "read_words": 5535,
+        "total_words": 80012,
+        "read_word_percent": 6.92
+      },
+      {
+        "id": "N03",
+        "contextual_units": 246,
+        "read_unique_units": 316,
+        "read_words": 7651,
+        "total_words": 98499,
+        "read_word_percent": 7.77
+      }
+    ],
+    "chapter_headings_confirmed": {
+      "N01": 20,
+      "N02": 20,
+      "N03": 20
+    },
+    "journal_context_hashes_match": true,
+    "map_word_count": 1583,
+    "map_word_count_matches_journal": true,
+    "current_ro_title_consistent": true,
+    "prior_ro_title_preserved_in_archived_mandate": true
+  },
+  "closure": {
+    "open_findings": 0,
+    "statement": "Nu am identificat defecte confirmate ale livrabilului SEL în verificările relevante efectuate. Problemele textelor anterioare expuse corect în PC-01–PC-13 sunt intrări documentate pentru G01 și nu sunt declarate remediate.",
+    "remediation_required_for_this_audit": false,
+    "product_gate_accepted_by_this_report_alone": false
+  },
+  "handoff_conditions": [
+    "Lectură integrală relevantă N01–N03 și verificarea componentelor DOCX omise.",
+    "Registre localizate de fapte, cronologii, relații, obiecte și contradicții; decizii de reconciliere înainte de continuitate comună.",
+    "Clarificarea identităților, familiei, fenomenelor, accesului la documente, titlurilor și perioadei DB-004 fără import de canon din alte proiecte.",
+    "Brief G01 complet și audit separat pe o versiune fixată; niciun scor sau verdict viitor precompletat."
+  ],
+  "snapshot_root": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/08_ARHIVA/SELECTIE_r01_BEFORE",
+  "manifest_path": "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/08_ARHIVA/SELECTIE_r01_BEFORE/MANIFEST.json",
+  "minimum_score": 968,
+  "minimum_criterion": [
+    "compatibilitate"
+  ],
+  "weighted_mean_informational": 974.6,
+  "completed_at": "2026-09-28T03:05:22+00:00",
+  "snapshot_unchanged_after_audit": true,
+  "output_files": [
+    "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/A-GOVERNANCE_r01.md",
+    "D:/00. Downloads/Dracula Book/02. ATELIER EDITORIAL - ROMANE 50000/07_ROMANE/ROM-002/07_AUDIT/A-GOVERNANCE_r01.json"
+  ],
+  "manifest_verification": {
+    "expected_files": 36,
+    "verified_files": 36,
+    "missing_files": [],
+    "unexpected_files": [],
+    "all_hashes_match": true,
+    "all_byte_sizes_match": true,
+    "performed_independently_by": "A-GOVERNANCE",
+    "files": [
+      {
+        "path": "08_ARHIVA/MANDAT_initial.md",
+        "sha256": "d0a05ac053a3fd34a2b9a90502d65b823d53411b7cb538897a68eb3fdb9e657b",
+        "bytes": 1398,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "00_COORDONARE/MANDAT.md",
+        "sha256": "3a8f94d98540fe24dcdf8116812eb9a9b152fd9261ea500b4e2b216f7fe11050",
+        "bytes": 1410,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "00_COORDONARE/DECIZIE_SELECTIE_r01.md",
+        "sha256": "47d38b9eee3ca430f8be628b85bd51d4cbd6fc5d4cf59d8e9a8c8b04110868c0",
+        "bytes": 5166,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "00_COORDONARE/BRIEF_PORNIRE_r01.md",
+        "sha256": "a4e1cdb8bf21d90665ebd40bb0fc13576f5b3066f18c9c90e626ac1ee6c93b73",
+        "bytes": 4705,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "00_COORDONARE/FISA_DEPUNERE_SELECTIE_r01.md",
+        "sha256": "7cfbe715c4a5b83632af2917a0b82cacf8d3004a114ab644de6ce7974f7d806a",
+        "bytes": 1990,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "00_COORDONARE/ECHIPA.json",
+        "sha256": "86558139169eaaa51ec28b2e48218a694d18fd6e463cbf925fc095a74b43d0fe",
+        "bytes": 578,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "02_CANON/PLAN_LECTURA_G01.md",
+        "sha256": "8415d2a5868cdce9ea1bf63adc6a4b3219bcd9ac5674e7c9efff0fe249638304",
+        "bytes": 2809,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "02_CANON/HARTA_PRELIMINARA.md",
+        "sha256": "5870bc163f178e0b032bd540ea1499d7435b582844ab2e4907af04361b5a0c6d",
+        "bytes": 12258,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "02_CANON/LECTURA_EFECTUATA.json",
+        "sha256": "b9e06da7920014a550e8aa3256c9b571ea664322009f8c78b289e150fa5e690a",
+        "bytes": 78284,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/EXTRAIT_STRATEGIE.json",
+        "sha256": "aeb21a9489e4ad9cf89f0d5bd64e72c9aab6a925fe8828aae6ef4261938abfd2",
+        "bytes": 11899,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/MANIFEST_SOURCES.json",
+        "sha256": "0191e506f0bb972abdd6f523f67c81430ead647c2e46d00908161d06542898a5",
+        "bytes": 4759,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/VERIFICATION_EXTRACTION.json",
+        "sha256": "718fee79270be1f55bb30e8e70d90668075a39c0b65e23009503ae995394736f",
+        "bytes": 1769,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/N01.md",
+        "sha256": "3f9004c85d3c9e158aab029f030ada1fc292e37c0fda7e9e04ecbf7ee64ccd9d",
+        "bytes": 387293,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/N02.docx",
+        "sha256": "84ecf1904fb16685c682131c7e526a27dab96526401908da60d4d36f4186ba80",
+        "bytes": 327373,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/N03.docx",
+        "sha256": "46bba731100a53b08d5e358a8387aac78213609412b57560206734b8301b2137",
+        "bytes": 276075,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/N04.md",
+        "sha256": "5f12ea77ef1d37b598cecd8d49efe21372af490f7007dcaa3d3f8bd996e7c720",
+        "bytes": 14220,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/S01.xlsx",
+        "sha256": "2e341c1410981e99de0853939774f81e50a2f788682740eaf4d6bd3993b5ff86",
+        "bytes": 97760,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/S02.md",
+        "sha256": "43dc2f09fd1ab09cda944283364cc03ed1942085f17d89f3a5a5c9d9e17025fb",
+        "bytes": 8680,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/S03.json",
+        "sha256": "f28786cd4469679b06cc8dd04e49c0768d7a6447c84fa11c9f0f73dcb38adda4",
+        "bytes": 190,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/S04.md",
+        "sha256": "2502324b772ab5527ae214c6113416d39d8df9ae0f46a19a87b75899be46e7b2",
+        "bytes": 13432,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/S05.md",
+        "sha256": "10bc35a69450e7143a7d84354cbf4107da2fcb9e68f4eec195ba2e6942d06edd",
+        "bytes": 9378,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/originale/S06.md",
+        "sha256": "968ac2a12660124cf1e5b6228038d929cfaf6cb9420531398190d01ea92d90ba",
+        "bytes": 6644,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/texte/N01.txt",
+        "sha256": "e39db8d0c29e94bcb945855d789be5446cd663219d3782fc28ce052ccdbb7d04",
+        "bytes": 436293,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/texte/N02.txt",
+        "sha256": "aa4ca96e04d049ab018b37d500daac8e374d4545287e91d4add8371413992a45",
+        "bytes": 569004,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/texte/N03.txt",
+        "sha256": "907004d55294ad82e4a3e37661e7578bc68bab0c0aebea336933f0f5caeb0721",
+        "bytes": 710607,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/texte/N04.txt",
+        "sha256": "751a829647ce53290cfb964635afe50cce7bebcc3057e21fbf6431ac9534113d",
+        "bytes": 14812,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/texte/S02.txt",
+        "sha256": "9ac1d6d88deed35996b9a3d9e74a487b9e6dcfa84c6c9b30226215cb2ea032f8",
+        "bytes": 9380,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/texte/S04.txt",
+        "sha256": "66930176ce30c60094a55ee8ab013931709b68a38d84c8bf1fc13ddab93e47ae",
+        "bytes": 14168,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/texte/S05.txt",
+        "sha256": "e6c198117e3ae294f8342ece4ad41359377f65465e4393947b4f61c819f4807c",
+        "bytes": 11154,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "01_SURSE/texte/S06.txt",
+        "sha256": "9158d67c435d5288890a26d39233c76904735e38100dd7b1f34508d6e39e4282",
+        "bytes": 7444,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "07_AUDIT/calibrare/A-CANON.json",
+        "sha256": "309fded720444933d07a72e5467f2e7a3d805074b311e284b4ef92a9211ad2a2",
+        "bytes": 8245,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "07_AUDIT/calibrare/A-GOVERNANCE.json",
+        "sha256": "52b429564b4a37000e0599f7758ec10a019e03135332c6ce6c77d9bfc5866d6b",
+        "bytes": 8927,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "07_AUDIT/calibrare/A-QAMANAGER.json",
+        "sha256": "2748c80c5c13dbcd0da7a9d4d5395467142425cb11378631ea11679a967c1afb",
+        "bytes": 6651,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "07_AUDIT/calibrare/CONTROL_COORDONATOR.json",
+        "sha256": "c392116117fef8911a2e042e9fdc0bf0b0acf8079836a4930543a8dbde917bdb",
+        "bytes": 1572,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "07_AUDIT/calibrare/CONTROL_QA_COORDONATOR.md",
+        "sha256": "61d760607068ae90337b992474efe906a0c0a01de5346ab7cb473d8211a15dfb",
+        "bytes": 942,
+        "hash_matches": true,
+        "bytes_match": true
+      },
+      {
+        "path": "07_AUDIT/calibrare/VERIFICARE_QA.md",
+        "sha256": "47458b8f8aac8bf99d09fae276d2678d0b4a50a0f8521593224eedfdf6a113c1",
+        "bytes": 14721,
+        "hash_matches": true,
+        "bytes_match": true
+      }
+    ]
+  }
+}

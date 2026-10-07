@@ -1,0 +1,141 @@
+A-QAMANAGER / SEL-001 / r03 — jurnal propriu
+Evaluator: 01a0d0f3-8249-7d91-95f4-ef806130bebe
+Data: 2026-09-24, Europe/Bucharest +03:00.
+Control structural nou: Gatekeeper.load(), verify_contract() recursiv, audit() separat pentru fiecare raport cu seturi reviewer/role distincte, verify_unchanged(). Nu s-a schimbat manifestul și nu s-a folosit un meta fictiv pentru a aproba produsul.
+Pentru fiecare evidence: SHA-256 și namespace propriu; pentru :L verificată limita fizică, pentru # existența ancorei explicite/titlului. Susținerea semantică decisivă este consemnată în MD, nu dedusă din existența ancorei.
+Baseline global: 374 fișiere fixate, fără a declara hashul registrelor live. JSON strict fără duplicate și schema v2; bundle/criterii/ponderi/timestamp/ID/rol conform gatekeeper. Control MD-JSON suplimentar și aritmetică Fraction, fără scor meta.
+În auxiliarul MD-JSON prima selecție căuta criteriul și în coloanele narative și a prins două rânduri pentru „control”; s-a oprit. Selectarea exactă a primei coloane a fost corectată și toate cele 30 rânduri au fost reverificate. Eroare de harness QA, nu defect al raportului, fără scrieri în surse.
+Arhive: citire read-only, verificare rezolvare în folderul exact, SHA index=sidecar, fiecare fișier indexat SHA/lungime și inventar fără intrări în plus; byte-comparație intrări r03, primari și suplimente în primary-complete. Fără creare arhivă sau restaurare fizică QA.
+Copii plate: bytes original=copie și SHA declarat în provenienta.json; metaraport r02 versus v02 are aceleași câmpuri semantice. Probele v02 comparate cu bytes r02 conservați, nu cu live r03 modificat. Nu se ingerează archive-tree; căile de sursă ale observațiilor nu sunt supplemental_evidence_files.
+Jurnalele primare sunt probe atribuite emitentului. Testele lor nu sunt prezentate ca rerulate de QA. Niciun TEST nu este scor editorial.
+
+Retest QA H: ZIP în memorie / word/document.xml / //w:body//w:p / concatenare .//w:t / nevid; 3984 P indexate. Boucher [166,860], Dubois [3548,3550]. Citit P166/P860/P3538-P3556/P3981-P3984. În plus N P3540-P3545/P3785-P3792, nu romane integrale. Produs SEL neschimbat r02; închidere numai omisiunea documentară, nu H-C9 G01.
+
+
+REZULTATE OBSERVATE (nu declarații de suplimente):
+{
+  "at": "2026-09-24T04:18:12.615327+00:00",
+  "package": "SEL-001",
+  "contract": {
+    "path": "06_REGISTRU/CONTRACTE/SEL-001-r03.json",
+    "sha256": "85ec85d5f34b57a49f0d0430e50caf030a094af11eba902c98692da3c565fd28"
+  },
+  "inputs": 86,
+  "primary_reports": [
+    {
+      "path": "05_AUDIT/SEL-001/A-CANON-r03.json",
+      "sha256": "100c3f057f41c3b4e30f57dc1bc69cad602c7808205889b1260adf1af6387787",
+      "reviewer": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+      "references": 39,
+      "supplements": [
+        {
+          "path": "05_AUDIT/SEL-001/A-CANON-r03.md",
+          "sha256": "cc82730b74d9534462472a36477d10d7c04b1af5d10eeb1b14bdb7feed012189"
+        },
+        {
+          "path": "05_AUDIT/SEL-001/A-CANON-r03-tests.txt",
+          "sha256": "b7c2a54071679257abff38913ff216ee20560651d00ced8ecd285a88e580e83e"
+        }
+      ],
+      "scores": [
+        970,
+        970,
+        965,
+        965,
+        975
+      ]
+    },
+    {
+      "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.json",
+      "sha256": "b59bf43f9c53852c1e9847c8d68d0b8d2549f4ebbbcc7bf970f15bc65e10abad",
+      "reviewer": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "references": 22,
+      "supplements": [
+        {
+          "path": "05_AUDIT/SEL-001/A-GOVERNANCE-r03.md",
+          "sha256": "bb8307e12afcf3d886d62c4c9d1b4d6ce716c6fb3bd08c3948fe09aaca2ad40d"
+        }
+      ],
+      "scores": [
+        965,
+        975,
+        964,
+        968,
+        976
+      ]
+    }
+  ],
+  "structural_errors": [],
+  "primary_evidence_references": 61,
+  "all_six_reports_total_references": 198,
+  "unique_baseline_inputs_global": 374,
+  "archives": [
+    {
+      "id": "SEL-001",
+      "round": "r01-after-audit",
+      "entries": 185,
+      "index_sha256": "140c741c34cb203211925d2c5ef76d0881c7bc343cc23798a6e9407e13b774ce",
+      "receipt": "not separately checked",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "SEL-001",
+      "round": "r02-before-audit",
+      "entries": 228,
+      "index_sha256": "1523afcea486883f6c5ed64751498fba92379ebbf649091b44e052315e6c8210",
+      "receipt": "not separately checked",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "SEL-001",
+      "round": "r02-after-audit-v02",
+      "entries": 380,
+      "index_sha256": "9ca8e5618544c7ebd6ef9f38c8f727ccdfc3d1f44f7d92a674023fe34343c874",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "SEL-001",
+      "round": "r03-before-audit",
+      "entries": 331,
+      "index_sha256": "3ebb395377127b71d7224a098134651aa08ef365fe6d33416bff568380d90b63",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    },
+    {
+      "id": "SEL-001",
+      "round": "r03-primary-complete",
+      "entries": 445,
+      "index_sha256": "a376205798e65b78545708bfa64d9e47e0cb4e0cb69c910749d005db5bf8595d",
+      "receipt": "exact",
+      "verified_hash_size_inventory": true
+    }
+  ],
+  "flat_copies": [
+    "06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.json",
+    "06_REGISTRU/INTRARI_META_R02/SEL-001_r01-after-audit_index.sha256",
+    "06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.json",
+    "06_REGISTRU/INTRARI_META_R02/SEL-001_r02-before-audit_index.sha256"
+  ],
+  "delta": {
+    "id": "SEL-001",
+    "changed": [],
+    "unchanged": 1
+  },
+  "weighted_primary_scores": [
+    {
+      "audit_id": "SEL-001-A-CANON-r03-01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+      "reviewer_agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+      "reviewer_role": "A-CANON",
+      "score": 968.5
+    },
+    {
+      "audit_id": "SEL-001-A-GOVERNANCE-r03",
+      "reviewer_agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "reviewer_role": "A-GOVERNANCE",
+      "score": 969
+    }
+  ]
+}
+
+Limite: fișierele hashuit-citite pentru integritate nu sunt toate lecturi editoriale integrale. Fără web nou/rawlogs, fără calibrare refăcută ori retroactivă, fără audit literar nou. Nu este recuperarea finală r03. MD și acest jurnal se fixează înaintea JSON meta; control final read-only după ultimul edit.

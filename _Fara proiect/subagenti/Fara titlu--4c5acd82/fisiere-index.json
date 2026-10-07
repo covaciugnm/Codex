@@ -1,0 +1,93 @@
+[
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/AUDIT-DRACULA-DESIGN.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT-DRACULA-DESIGN--541f955e.md",
+    "bytes": 9975,
+    "sha256": "e1a109e871aaad0e237df60f507e680b96e840cae13dde5b54496fe1be435bcf"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-09-25/cre/outputs/VERIFICARE-DOCKER.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE-DOCKER--691989de.md",
+    "bytes": 3013,
+    "sha256": "b4dd18c19e03e0f251e534c6711bfa7d38f015b6ecba0ea4e2891c156f1f0de8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\AUDIT-DRACULA-DESIGN.md",
+    "status": "copiat",
+    "saved_path": "fisiere/AUDIT-DRACULA-DESIGN--541f955e.md",
+    "bytes": 9975,
+    "sha256": "e1a109e871aaad0e237df60f507e680b96e840cae13dde5b54496fe1be435bcf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\VERIFICARE-DOCKER.md",
+    "status": "copiat",
+    "saved_path": "fisiere/VERIFICARE-DOCKER--691989de.md",
+    "bytes": 3013,
+    "sha256": "b4dd18c19e03e0f251e534c6711bfa7d38f015b6ecba0ea4e2891c156f1f0de8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\audit-admin.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-admin--41748411.png",
+    "bytes": 60067,
+    "sha256": "087025f7610d825abc9d82bfcc1668175f22bacd0f41bbcff535067016e9e727"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\audit-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-desktop--f15f80c1.png",
+    "bytes": 2902290,
+    "sha256": "83248a38672c80e85f52c7d3cba62be9b9a66310d9cf36ce6b46910098efb025"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\audit-dossier-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-dossier-desktop--572cbcc9.png",
+    "bytes": 1276523,
+    "sha256": "51abea400af46ee0c60f21569bb0aab4487f2fce8b9616b270c06e737f80a18e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\audit-dossier-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-dossier-mobile--d4edf1ca.png",
+    "bytes": 492872,
+    "sha256": "2021d9faf60c0db74af4036e2762bb54e59099a2ecab0c572166f52bb5bd8399"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\outputs\\dracula-design-office\\audit-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-mobile--c317d48b.png",
+    "bytes": 1031861,
+    "sha256": "4ecc316a04eac849a1254911730150e628100d71e09aa6cbcaa1750dcdde7373"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-design-dossier-mail.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-design-dossier-mail--cd92c2ef.cjs",
+    "bytes": 7089,
+    "sha256": "8d30ebbd8ee4e033a25fc88dabde80ea7017242d3ed95c03f38ea292baa39be6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-design-extra.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-design-extra--eb988414.cjs",
+    "bytes": 3946,
+    "sha256": "f3c6ac1219c87e08d29ca3b025f43ea6691d00379c68398951895c319f7c16d2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\audit-design.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/audit-design--00527ddc.cjs",
+    "bytes": 7143,
+    "sha256": "bca5450936c02147344bf7a584af054ff451de422602d6738fe98cef676b0413"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-09-25\\cre\\work\\reaudit-design.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/reaudit-design--694b3f18.cjs",
+    "bytes": 5706,
+    "sha256": "835c4aafe26c0e38bd7bf670668d18fb9f697532020548252cec21668676b6c9"
+  }
+]

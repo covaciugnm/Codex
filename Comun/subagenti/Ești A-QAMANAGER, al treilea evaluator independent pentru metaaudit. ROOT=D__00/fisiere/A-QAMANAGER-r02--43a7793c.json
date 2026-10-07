@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d0f3-8249-7d91-95f4-ef806130bebe",
+  "role": "A-QAMANAGER",
+  "set_version": "r02",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "TEST: criteriul de 950 nu este strict peste 950. Celelalte note de 980 și media nu compensează. PASS-ul declarat este neconform; nu măresc nota și nu inventez o remediere.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L12-L14"
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "TEST: producătorul X și auditorul alias Y au același ID X. Aliasul nu schimbă identitatea; este autoaudit. Este necesar un evaluator cu ID distinct, nu redenumirea semnatarului.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L16-L18"
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "TEST: raportul fixează hashul A, iar fișierul curent are hashul B. Proba privește altă versiune. Cer reevaluare și raport nou pe octeții curenți; păstrez raportul vechi, nu schimb doar hashul său.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L20-L22"
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "TEST: din planul C01–C03 lipsește capitolul C02 în predare. Sumarul care spune complet nu ține locul textului absent. Localizez lipsa C02 și cer completare și retest al acoperirii.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L24-L26"
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "TEST: aceeași scenă textuală de 2.000 de cuvinte apare în două capitole și este numărată de două ori fără justificare. Numărătoarea nu demonstrează proză distinctă. Cer remedierea duplicării și retest; nu inventez numărul total al manuscrisului.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L28-L30"
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "TEST: V1 fixează moartea definitivă a Marei, iar V2 o prezintă vie fără explicație ori schimbare autorizată. Contradicția este între canonul de intrare și produs. Nu inventez înviere, vis, geamănă sau altă rezolvare.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L32-L34"
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "TEST: P04 există în masterul EN P01–P04, dar lipsește din DE P01–P03. O traducere omisă nu este compensată de lungimea altor paragrafe. Cer completarea și reverificarea alinierii pe ID-uri.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L36-L38"
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "TEST: toate criteriile 951 sunt strict peste 950 și stimulul stipulează doi auditori independenți/calificați, versiunea exactă, zero constatări, meta valid și toate verificările tehnice. Nu introduc condiția 1000 ori alte criterii inexistente. PASS este numai verdictul acestui caz sintetic.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L40-L42"
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "TEST: mandatul cere selecție preliminară, iar raportul delimitează onest pasajele citite și nu pretinde canon integral sau aprobare de roman. Această limitare respectă scopul; nu acordă automat PASS întregului produs și nu echivalează cu lectura integrală.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L44-L46"
+    },
+    {
+      "id": "A-QAMANAGER-S01",
+      "verdict": "META_POATE_PASS",
+      "reason": "TEST: constatarea documentată rămâne deschisă, iar raportul primar emite corect RETURN; calculele, acoperirea, independența și probele sunt date ca valide. Meta poate confirma raportul negativ, fără să închidă constatarea și fără să aprobe produsul, care rămâne RETURN.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L90-L92"
+    },
+    {
+      "id": "A-QAMANAGER-S02",
+      "verdict": "RETURN",
+      "reason": "TEST: referința indicată nu susține afirmația și nu există altă probă, deși scorul este 980. Scorul nu dovedește adevărul; evidence nu trece, iar justificarea scoring trebuie refăcută. Returnez raportul auditorului pentru probă reală și reevaluare într-o versiune nouă; QA nu inventează dovezi și nu rescrie scorul.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L94-L96"
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T04:37:40+03:00"
+}

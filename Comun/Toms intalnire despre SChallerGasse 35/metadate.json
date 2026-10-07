@@ -1,0 +1,23 @@
+{
+  "id": "01a0b122-8568-7a82-93be-0bf299eaeeb0",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1789652316,
+  "updated_at": 1789655501,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Toms intalnire despre SChallerGasse 35",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 421050,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 166,
+  "message_count": 166,
+  "content_sha256": "a3ac0be55010e94d5df3bcdb4d76821b40de2aad4a9029d67abfde287b87c7a2",
+  "files_copied": 6,
+  "references_not_copied": 4
+}

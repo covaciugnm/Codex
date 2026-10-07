@@ -1,0 +1,77 @@
+{
+  "agent_id": "01a0d1e2-5845-7401-ba0d-8d4ec267681c",
+  "role": "A-TRANSLATION",
+  "set_version": "rom001-b-r01",
+  "responses": [
+    {
+      "id": "C01",
+      "verdict": "RETURN",
+      "reason": "Criteriul evaluat cu exact 950 nu îndeplinește condiția strictă >950, deci verdictul PASS din stimul este nejustificat. Celelalte criterii de 980 și media nu pot compensa acest criteriu. Acceptarea cere remediere și reverificare, cu fiecare criteriu peste 950.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:12-14, cazul C01, stimulul de la linia 13: criteriul cu scor 950 și verdictul PASS. Regula: 00_CONDUCERE/MANUAL_ATELIER.md:17-20."
+    },
+    {
+      "id": "C02",
+      "verdict": "RETURN",
+      "reason": "Autorul livrabilului și semnatarul auditului au același ID X. Aliasul Y nu creează o execuție independentă; acesta este autoaudit și nu poate valida produsul. Este necesar un audit realizat de un auditor eligibil cu identitate reală distinctă de autor.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:16-18, cazul C02, stimulul de la linia 17: autor X, semnătură sub alias Y, același ID X. Regula: 00_CONDUCERE/MANUAL_ATELIER.md:13 și 20."
+    },
+    {
+      "id": "C03",
+      "verdict": "RETURN",
+      "reason": "Raportul fixează amprenta A, iar fișierul curent are amprenta B; auditul nu acoperă versiunea prezentată. PASS nu se transferă între aceste versiuni. Este necesar un audit nou pentru fișierul curent fixat prin SHA-256 și reevaluarea dependențelor afectate.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:20-22, cazul C03, stimulul de la linia 21: SHA-256 A în raport versus SHA-256 B pentru fișierul curent. Regula: 00_CONDUCERE/MANUAL_ATELIER.md:20 și 25."
+    },
+    {
+      "id": "C04",
+      "verdict": "RETURN",
+      "reason": "Predarea omite capitolul C02 din succesiunea obligatorie C01-C03. Afirmația de completitudine din sumar nu furnizează textul lipsă și nu dovedește respectarea planului. Închiderea defectului cere depunerea conținutului lipsă și verificarea predării complete pe identificatorii ceruți.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:24-26, cazul C04, stimulul de la linia 25: plan C01-C03, predare numai C01 și C03, absență C02."
+    },
+    {
+      "id": "C05",
+      "verdict": "RETURN",
+      "reason": "Aceeași scenă textuală de 2.000 de cuvinte este prezentă în două capitole și numărată de două ori. Duplicarea mărește nejustificat volumul declarat și constituie un defect al predării. Producătorul trebuie să remedieze scena duplicată și să refacă numărătoarea, urmate de retestarea textului și a totalului; stimulul nu oferă identificatori mai preciși ai capitolelor.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:28-30, cazul C05, stimulul de la linia 29: scena identică de 2.000 de cuvinte în cele două capitole depuse. Regula: 00_CONDUCERE/MANUAL_ATELIER.md:57-60."
+    },
+    {
+      "id": "C06",
+      "verdict": "RETURN",
+      "reason": "Canonul fictiv fixează moartea definitivă a Marei la sfârșitul V1, iar V2 o prezintă vie fără explicație sau schimbare autorizată. Există o contradicție explicită între intrare și produs. Nu poate fi inventată o înviere ori altă justificare; este necesară remedierea conform canonului sau o schimbare autorizată și verificarea consecințelor acesteia.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:32-34, cazul C06, stimulul de la linia 33: moarte definitivă la sfârșitul V1 versus Mara vie în V2. Regula privind schimbările de canon: 00_CONDUCERE/MANUAL_ATELIER.md:30."
+    },
+    {
+      "id": "C07",
+      "verdict": "RETURN",
+      "reason": "Paragraful EN/P04 nu are corespondent în traducerea DE, care se oprește la P03. Este o omisiune de traducere identificabilă prin alinierea paragrafelor, indiferent de numărul total de cuvinte. Închiderea cere completarea de către traducător și verificarea integralității corespondenței P01-P04 cu aceeași versiune sursă.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:36-38, cazul C07, stimulul de la linia 37: EN/P01-P04 versus DE/P01-P03, lipsă DE/P04. Reguli: 01_ECHIPA/A-TRANSLATION.md:6-12 și 00_CONDUCERE/MANUAL_ATELIER.md:77."
+    },
+    {
+      "id": "C08",
+      "verdict": "PASS",
+      "reason": "Stimulul confirmă doi auditori independenți și calificați, aceeași versiune fixată, fiecare criteriu la 951, zero constatări, metaaudit valid și toate condițiile tehnice verificate. 951 este strict peste 950, deci toate condițiile stipulate sunt îndeplinite. Nu se adaugă obligația unui scor 1000 sau criterii inexistente; acest PASS privește exclusiv cazul sintetic.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:40-42, cazul C08, stimulul de la linia 41: lista completă a condițiilor îndeplinite și scorurile 951. Regula: 00_CONDUCERE/MANUAL_ATELIER.md:18-20."
+    },
+    {
+      "id": "C09",
+      "verdict": "NU_E_DEFECT_IN_SINE",
+      "reason": "Contractul cere o selecție preliminară, iar raportul declară pasajele citite și limitează explicit concluziile la acel scop. Acoperirea astfel delimitată nu este în sine un defect, deoarece nu pretinde validarea canonului integral sau a romanului. Verdictul nu acordă automat PASS întregului produs; celelalte cerințe aplicabile selecției rămân de verificat.",
+      "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:44-46, cazul C09, stimulul de la linia 45: selecție preliminară cerută, pasaje citite delimitate și absența pretenției de canon integral ori aprobare de roman."
+    },
+    {
+      "id": "A-TRANSLATION-S01",
+      "verdict": "RETURN",
+      "reason": "La P12, sursa EN o identifică pe Nora drept persoana care îl avertizează pe Paul și fixează trenul la 18:40. Ținta RO inversează participanții la acțiune, făcându-l pe Paul să o avertizeze pe Nora, și schimbă ora în 08:40. Sunt două abateri de sens; apropierea numărului de paragrafe și cuvinte nu dovedește fidelitate. Remedierea de către traducător trebuie urmată de confruntarea acțiunii și orei din RO/P12 cu EN/P12 și de verificarea integrală cerută pentru predare.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md:28-30, cazul A-TRANSLATION-S01, stimulul de la linia 29: EN/P12 Nora îl avertizează pe Paul, 18:40; RO/P12 Paul o avertizează pe Nora, 08:40. Reguli: 01_ECHIPA/A-TRANSLATION.md:6-12 și 00_CONDUCERE/MANUAL_ATELIER.md:75-77."
+    },
+    {
+      "id": "A-TRANSLATION-S02",
+      "verdict": "RETURN",
+      "reason": "Traducerea și alinierea aprobate corespund EN-v1, dar predarea curentă trebuie să corespundă EN-v2, care schimbă finalul. Aprobarea relației sursă-țintă pentru v1 nu validează aceeași țintă față de v2, iar evaluarea impactului lipsește. Este necesară evaluarea impactului asupra ambelor traduceri, remedierea segmentelor afectate și reverificarea alinierii și fidelității față de EN-v2, păstrând versiunile și auditurile anterioare. Stimulul localizează schimbarea la final, fără identificatori de paragraf; nu inventez o localizare mai precisă.",
+      "evidence": "06_REGISTRU/CALIBRARE/ROM-001/SET_SUPLIMENTAR_B_r01.md:31-33, cazul A-TRANSLATION-S02, stimulul de la linia 32: traducere și aliniere aprobate pentru EN-v1, final modificat în EN-v2, țintă încă după v1 și impact neevaluat. Reguli: 00_CONDUCERE/MANUAL_ATELIER.md:20, 25 și 75-77; 01_ECHIPA/A-TRANSLATION.md:9-12."
+    }
+  ],
+  "passed_count": 11,
+  "total_count": 11,
+  "qualified": true,
+  "completed_at": "2026-09-24T08:28:36.0996029+03:00"
+}

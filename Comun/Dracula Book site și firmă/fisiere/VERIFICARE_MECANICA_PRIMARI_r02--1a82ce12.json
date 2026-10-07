@@ -1,0 +1,353 @@
+{
+  "type": "TEST_KEY_COMPARISON_NOT_EDITORIAL_AUDIT",
+  "results": [
+    {
+      "agent_id": "01a0d0ee-a42b-7182-af79-92a1d6a9dafb",
+      "role": "A-CANON",
+      "total": 11,
+      "claimed": true,
+      "checks": [
+        {
+          "id": "C01",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L12-L14"
+        },
+        {
+          "id": "C02",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L16-L18"
+        },
+        {
+          "id": "C03",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L20-L22"
+        },
+        {
+          "id": "C04",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L24-L26"
+        },
+        {
+          "id": "C05",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L28-L30"
+        },
+        {
+          "id": "C06",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L32-L34"
+        },
+        {
+          "id": "C07",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L36-L38"
+        },
+        {
+          "id": "C08",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L40-L42"
+        },
+        {
+          "id": "C09",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L44-L46"
+        },
+        {
+          "id": "A-CANON-S01",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L70-L72"
+        },
+        {
+          "id": "A-CANON-S02",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L74-L76"
+        }
+      ],
+      "expected_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "A-CANON-S01",
+        "A-CANON-S02"
+      ]
+    },
+    {
+      "agent_id": "01a0d0ee-9f2d-77d0-8603-7aa9969772af",
+      "role": "A-GOVERNANCE",
+      "total": 11,
+      "claimed": true,
+      "checks": [
+        {
+          "id": "C01",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L13-L13"
+        },
+        {
+          "id": "C02",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L17-L17"
+        },
+        {
+          "id": "C03",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L21-L21"
+        },
+        {
+          "id": "C04",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L25-L25"
+        },
+        {
+          "id": "C05",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L29-L29"
+        },
+        {
+          "id": "C06",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L33-L33"
+        },
+        {
+          "id": "C07",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L37-L37"
+        },
+        {
+          "id": "C08",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L41-L41"
+        },
+        {
+          "id": "C09",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L45-L45"
+        },
+        {
+          "id": "A-GOVERNANCE-S01",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L51-L51"
+        },
+        {
+          "id": "A-GOVERNANCE-S02",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L55-L55"
+        }
+      ],
+      "expected_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "A-GOVERNANCE-S01",
+        "A-GOVERNANCE-S02"
+      ]
+    },
+    {
+      "agent_id": "01a0d0ee-a56e-7140-b26d-e212cb9c7fb8",
+      "role": "A-SOURCES",
+      "total": 11,
+      "claimed": true,
+      "checks": [
+        {
+          "id": "C01",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L12-L14"
+        },
+        {
+          "id": "C02",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L16-L18"
+        },
+        {
+          "id": "C03",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L20-L22"
+        },
+        {
+          "id": "C04",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L24-L26"
+        },
+        {
+          "id": "C05",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L28-L30"
+        },
+        {
+          "id": "C06",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L32-L34"
+        },
+        {
+          "id": "C07",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L36-L38"
+        },
+        {
+          "id": "C08",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L40-L42"
+        },
+        {
+          "id": "C09",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L44-L46"
+        },
+        {
+          "id": "A-SOURCES-S01",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L80-L82"
+        },
+        {
+          "id": "A-SOURCES-S02",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L84-L86"
+        }
+      ],
+      "expected_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "A-SOURCES-S01",
+        "A-SOURCES-S02"
+      ]
+    },
+    {
+      "agent_id": "01a0d0ee-a18e-78a1-a069-9e87df0efc87",
+      "role": "A-SYSTEMS",
+      "total": 11,
+      "claimed": true,
+      "checks": [
+        {
+          "id": "C01",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L12-L14"
+        },
+        {
+          "id": "C02",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L16-L18"
+        },
+        {
+          "id": "C03",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L20-L22"
+        },
+        {
+          "id": "C04",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L24-L26"
+        },
+        {
+          "id": "C05",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L28-L30"
+        },
+        {
+          "id": "C06",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L32-L34"
+        },
+        {
+          "id": "C07",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L36-L38"
+        },
+        {
+          "id": "C08",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L40-L42"
+        },
+        {
+          "id": "C09",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L44-L46"
+        },
+        {
+          "id": "A-SYSTEMS-S01",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L60-L62"
+        },
+        {
+          "id": "A-SYSTEMS-S02",
+          "exact_key_match": true,
+          "nonempty_reason": true,
+          "evidence": "06_REGISTRU/CALIBRARE/SET_TEST_r02.md:L64-L66"
+        }
+      ],
+      "expected_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "A-SYSTEMS-S01",
+        "A-SYSTEMS-S02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a0f134-5daf-7092-a0ba-10ffca52ce6d",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES",
+  "created_at": 1790753136,
+  "updated_at": 1790755294,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Centralizează stadiul implementării",
+  "project_id": "13771f36-ff54-4018-99b0-f69f8dfdd2f8",
+  "project": "WildMotion",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 18121663,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 81,
+  "message_count": 14,
+  "content_sha256": "f147b074e59c78128ee6d641fd825c7a6827dacfe55515fbc42cf95854019b8d",
+  "files_copied": 0,
+  "references_not_copied": 2
+}

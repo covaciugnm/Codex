@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-09-24T14:51:09.5335438+03:00",
+  "checks": [
+    {
+      "path": "05_AUDIT/ROM-001-G01/r02/META.md",
+      "anchor": "#independenta",
+      "actual_sha256": "66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4",
+      "matches": [
+        {
+          "line": 22,
+          "heading": "## Independenta"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r02/META.md",
+      "anchor": "#acoperire",
+      "actual_sha256": "66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4",
+      "matches": [
+        {
+          "line": 39,
+          "heading": "## Acoperire"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r02/META.md",
+      "anchor": "#probe",
+      "actual_sha256": "66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4",
+      "matches": [
+        {
+          "line": 51,
+          "heading": "## Probe"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r02/META.md",
+      "anchor": "#notare",
+      "actual_sha256": "66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4",
+      "matches": [
+        {
+          "line": 68,
+          "heading": "## Notare"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r02/META.md",
+      "anchor": "#inchidere",
+      "actual_sha256": "66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4",
+      "matches": [
+        {
+          "line": 86,
+          "heading": "## Inchidere"
+        }
+      ],
+      "exists": true
+    },
+    {
+      "path": "05_AUDIT/ROM-001-G01/r02/META.md",
+      "anchor": "#versiune",
+      "actual_sha256": "66fa03e2767af0fcf7abcc687521398842f812bf1b84c68142258a7d876c85d4",
+      "matches": [
+        {
+          "line": 101,
+          "heading": "## Versiune"
+        }
+      ],
+      "exists": true
+    }
+  ],
+  "correction": "Controlul inițial al managerului verifica numai ancore de linie și a marcat false cele șase ancore de titlu, neimplementate de helper. Nu era o constatare a absenței titlurilor. Toate cele șase titluri au fost citite în MD și retestate efectiv aici, pe aceleași amprente. Rapoartele QA nu s-au modificat; recepția inițială rămâne păstrată. Toate celelalte80verificări inițiale erau conforme. Nu se modifică validatorul aprobat."
+}

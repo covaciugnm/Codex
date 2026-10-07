@@ -1,0 +1,23 @@
+{
+  "id": "01a0f663-7e23-7e02-8580-21cbf2de2964",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Learn",
+  "created_at": 1790840110,
+  "updated_at": 1791287006,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește dicționare explicative",
+  "project_id": "bad0be1d-5fae-412b-aa11-fef421eb951f",
+  "project": "EVA-Learn",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 12147552,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 313,
+  "message_count": 55,
+  "content_sha256": "82969b77e8ccad46fb36e8836bffcb85b9d473f107ce8545da97a54a7603ba33",
+  "files_copied": 17,
+  "references_not_copied": 82
+}

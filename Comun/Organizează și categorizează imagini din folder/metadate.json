@@ -1,0 +1,23 @@
+{
+  "id": "01a07b90-9df9-73d2-97d2-1eddc27d9b9d",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1782989381,
+  "updated_at": 1783350495,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Organizează și categorizează imagini din folder",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+  "source_bytes": 2607277,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 1569,
+  "message_count": 1569,
+  "content_sha256": "e2a92cbe07dd5426947870ecd426709a0098c5b5ac9dd3508e7042bce5ed5ff9",
+  "files_copied": 5,
+  "references_not_copied": 110
+}

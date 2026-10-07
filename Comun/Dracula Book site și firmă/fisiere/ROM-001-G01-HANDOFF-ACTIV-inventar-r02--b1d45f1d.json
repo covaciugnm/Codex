@@ -1,0 +1,582 @@
+{
+  "checked_at": "2026-09-24T12:07:42.7479178+03:00",
+  "scope": "12 planned artifacts plus manager FISA r02",
+  "pattern": "Marcel|Fontaine|Jean[-‐‑– ]Michel|Rousseau|Sophie|Laurent|Besson|Odette",
+  "case_insensitive": true,
+  "files": [
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/BRIEF_ROMAN_r03.md",
+      "sha256": "c62bb54f08be93ea19084cb3350a0d109efbca5af5ae2493dd4ce14fb9b14e5a",
+      "physical_lines": 190,
+      "matched_lines": 2,
+      "occurrences": 9,
+      "matches": [
+        {
+          "line": 36,
+          "occurrences": 8
+        },
+        {
+          "line": 162,
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/DECIZII_CANON_r03.md",
+      "sha256": "a7abc0c057541708349896d0e9a5263d4b19dfde7529b60ec5b7eb971c8fa9d1",
+      "physical_lines": 275,
+      "matched_lines": 13,
+      "occurrences": 19,
+      "matches": [
+        {
+          "line": 61,
+          "occurrences": 1
+        },
+        {
+          "line": 63,
+          "occurrences": 1
+        },
+        {
+          "line": 81,
+          "occurrences": 2
+        },
+        {
+          "line": 83,
+          "occurrences": 1
+        },
+        {
+          "line": 85,
+          "occurrences": 2
+        },
+        {
+          "line": 87,
+          "occurrences": 1
+        },
+        {
+          "line": 113,
+          "occurrences": 1
+        },
+        {
+          "line": 127,
+          "occurrences": 1
+        },
+        {
+          "line": 145,
+          "occurrences": 2
+        },
+        {
+          "line": 221,
+          "occurrences": 2
+        },
+        {
+          "line": 225,
+          "occurrences": 1
+        },
+        {
+          "line": 243,
+          "occurrences": 3
+        },
+        {
+          "line": 264,
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/CANON_OPERATIONAL_r03.md",
+      "sha256": "f01333cfc2be0ca4d7673c58e1679826c4fbf13f6bb904ee47dd89a45af348c3",
+      "physical_lines": 188,
+      "matched_lines": 23,
+      "occurrences": 59,
+      "matches": [
+        {
+          "line": 33,
+          "occurrences": 2
+        },
+        {
+          "line": 37,
+          "occurrences": 3
+        },
+        {
+          "line": 54,
+          "occurrences": 1
+        },
+        {
+          "line": 64,
+          "occurrences": 1
+        },
+        {
+          "line": 97,
+          "occurrences": 1
+        },
+        {
+          "line": 98,
+          "occurrences": 2
+        },
+        {
+          "line": 99,
+          "occurrences": 2
+        },
+        {
+          "line": 100,
+          "occurrences": 4
+        },
+        {
+          "line": 101,
+          "occurrences": 1
+        },
+        {
+          "line": 102,
+          "occurrences": 4
+        },
+        {
+          "line": 103,
+          "occurrences": 4
+        },
+        {
+          "line": 108,
+          "occurrences": 2
+        },
+        {
+          "line": 109,
+          "occurrences": 4
+        },
+        {
+          "line": 110,
+          "occurrences": 3
+        },
+        {
+          "line": 112,
+          "occurrences": 13
+        },
+        {
+          "line": 119,
+          "occurrences": 1
+        },
+        {
+          "line": 121,
+          "occurrences": 2
+        },
+        {
+          "line": 122,
+          "occurrences": 1
+        },
+        {
+          "line": 133,
+          "occurrences": 1
+        },
+        {
+          "line": 134,
+          "occurrences": 1
+        },
+        {
+          "line": 135,
+          "occurrences": 2
+        },
+        {
+          "line": 151,
+          "occurrences": 2
+        },
+        {
+          "line": 182,
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/REGISTRU_DREPTURI_r01.md",
+      "sha256": "d8a18a237b0bc855b11f7c9dbc1030a52df39a462b6c9cf589456474df12be5f",
+      "physical_lines": 14,
+      "matched_lines": 0,
+      "occurrences": 0,
+      "matches": []
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/TRASABILITATE_DEPUNERE_r02.md",
+      "sha256": "bd69bdd3310a53ee8a1cf7e8d8ac66f0970232b126f2c13ca246a32fb95cfcc5",
+      "physical_lines": 77,
+      "matched_lines": 3,
+      "occurrences": 3,
+      "matches": [
+        {
+          "line": 17,
+          "occurrences": 1
+        },
+        {
+          "line": 35,
+          "occurrences": 1
+        },
+        {
+          "line": 44,
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CANON_FACTUAL.md",
+      "sha256": "0635d163992d0c63d0b1d815df000816f8b9320c84e33c732cb899dd6eebd3ab",
+      "physical_lines": 132,
+      "matched_lines": 15,
+      "occurrences": 27,
+      "matches": [
+        {
+          "line": 42,
+          "occurrences": 1
+        },
+        {
+          "line": 70,
+          "occurrences": 1
+        },
+        {
+          "line": 78,
+          "occurrences": 2
+        },
+        {
+          "line": 88,
+          "occurrences": 1
+        },
+        {
+          "line": 89,
+          "occurrences": 1
+        },
+        {
+          "line": 90,
+          "occurrences": 2
+        },
+        {
+          "line": 91,
+          "occurrences": 2
+        },
+        {
+          "line": 92,
+          "occurrences": 3
+        },
+        {
+          "line": 93,
+          "occurrences": 2
+        },
+        {
+          "line": 94,
+          "occurrences": 4
+        },
+        {
+          "line": 96,
+          "occurrences": 2
+        },
+        {
+          "line": 98,
+          "occurrences": 3
+        },
+        {
+          "line": 102,
+          "occurrences": 1
+        },
+        {
+          "line": 103,
+          "occurrences": 1
+        },
+        {
+          "line": 115,
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CRONOLOGIE_OBSERVATA.md",
+      "sha256": "59532fffe2ce25487863a9ecb8517cab85ba836637b49bda597631dc0f81633c",
+      "physical_lines": 85,
+      "matched_lines": 6,
+      "occurrences": 7,
+      "matches": [
+        {
+          "line": 30,
+          "occurrences": 1
+        },
+        {
+          "line": 40,
+          "occurrences": 1
+        },
+        {
+          "line": 45,
+          "occurrences": 2
+        },
+        {
+          "line": 55,
+          "occurrences": 1
+        },
+        {
+          "line": 56,
+          "occurrences": 1
+        },
+        {
+          "line": 64,
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/CONTRADICTII.md",
+      "sha256": "593b11074efb6833d198af794256a0b1b3c2567c54a1acfde3b880dd328c05d0",
+      "physical_lines": 266,
+      "matched_lines": 12,
+      "occurrences": 19,
+      "matches": [
+        {
+          "line": 68,
+          "occurrences": 1
+        },
+        {
+          "line": 72,
+          "occurrences": 2
+        },
+        {
+          "line": 88,
+          "occurrences": 2
+        },
+        {
+          "line": 89,
+          "occurrences": 1
+        },
+        {
+          "line": 90,
+          "occurrences": 1
+        },
+        {
+          "line": 95,
+          "occurrences": 1
+        },
+        {
+          "line": 127,
+          "occurrences": 1
+        },
+        {
+          "line": 141,
+          "occurrences": 2
+        },
+        {
+          "line": 209,
+          "occurrences": 2
+        },
+        {
+          "line": 213,
+          "occurrences": 1
+        },
+        {
+          "line": 227,
+          "occurrences": 4
+        },
+        {
+          "line": 247,
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/r01/JURNAL_LECTURA.md",
+      "sha256": "dba0d58e1e123a6e48dfe164fd54da669bfae4b4bb42655efe0dd07e0b938afc",
+      "physical_lines": 131,
+      "matched_lines": 12,
+      "occurrences": 16,
+      "matches": [
+        {
+          "line": 48,
+          "occurrences": 1
+        },
+        {
+          "line": 50,
+          "occurrences": 2
+        },
+        {
+          "line": 51,
+          "occurrences": 1
+        },
+        {
+          "line": 53,
+          "occurrences": 2
+        },
+        {
+          "line": 56,
+          "occurrences": 1
+        },
+        {
+          "line": 57,
+          "occurrences": 1
+        },
+        {
+          "line": 58,
+          "occurrences": 2
+        },
+        {
+          "line": 69,
+          "occurrences": 2
+        },
+        {
+          "line": 96,
+          "occurrences": 1
+        },
+        {
+          "line": 99,
+          "occurrences": 1
+        },
+        {
+          "line": 101,
+          "occurrences": 1
+        },
+        {
+          "line": 131,
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/MATRICE_SURSE_r01.md",
+      "sha256": "692bf5108ef9a066fd0524eef6dccbb7f6bd172bb4f27f7ca149e76bd1d6b801",
+      "physical_lines": 31,
+      "matched_lines": 0,
+      "occurrences": 0,
+      "matches": []
+    },
+    {
+      "path": "07_ROMANE/ROM-001/01_CANON/LECTURA_AUXILIARE_MANAGER_r01.md",
+      "sha256": "8a08f2358479913c3c998d6110a7d00aabc4cbf0545d9c8bd32f94a1cbf02c39",
+      "physical_lines": 28,
+      "matched_lines": 0,
+      "occurrences": 0,
+      "matches": []
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/RAPORT_REMEDIERE_r01.md",
+      "sha256": "c570e5cfb0a3a0f29f4ed9fc095aa41481ec175e65b5f601552c7da86869f2f4",
+      "physical_lines": 188,
+      "matched_lines": 27,
+      "occurrences": 85,
+      "matches": [
+        {
+          "line": 22,
+          "occurrences": 1
+        },
+        {
+          "line": 38,
+          "occurrences": 6
+        },
+        {
+          "line": 46,
+          "occurrences": 7
+        },
+        {
+          "line": 47,
+          "occurrences": 4
+        },
+        {
+          "line": 48,
+          "occurrences": 1
+        },
+        {
+          "line": 49,
+          "occurrences": 4
+        },
+        {
+          "line": 66,
+          "occurrences": 1
+        },
+        {
+          "line": 84,
+          "occurrences": 5
+        },
+        {
+          "line": 90,
+          "occurrences": 1
+        },
+        {
+          "line": 91,
+          "occurrences": 3
+        },
+        {
+          "line": 93,
+          "occurrences": 3
+        },
+        {
+          "line": 94,
+          "occurrences": 1
+        },
+        {
+          "line": 105,
+          "occurrences": 1
+        },
+        {
+          "line": 106,
+          "occurrences": 1
+        },
+        {
+          "line": 107,
+          "occurrences": 3
+        },
+        {
+          "line": 108,
+          "occurrences": 2
+        },
+        {
+          "line": 109,
+          "occurrences": 2
+        },
+        {
+          "line": 110,
+          "occurrences": 2
+        },
+        {
+          "line": 111,
+          "occurrences": 3
+        },
+        {
+          "line": 112,
+          "occurrences": 2
+        },
+        {
+          "line": 113,
+          "occurrences": 2
+        },
+        {
+          "line": 114,
+          "occurrences": 2
+        },
+        {
+          "line": 120,
+          "occurrences": 13
+        },
+        {
+          "line": 147,
+          "occurrences": 4
+        },
+        {
+          "line": 148,
+          "occurrences": 1
+        },
+        {
+          "line": 149,
+          "occurrences": 6
+        },
+        {
+          "line": 150,
+          "occurrences": 4
+        }
+      ]
+    },
+    {
+      "path": "07_ROMANE/ROM-001/00_BRIEF/FISA_LIVRABIL_G01_r02.md",
+      "sha256": "cf6581c9f8c70b091e8eb2d13b35993f97e973d8409c09ace04a47517383b5b5",
+      "physical_lines": 62,
+      "matched_lines": 1,
+      "occurrences": 1,
+      "matches": [
+        {
+          "line": 40,
+          "occurrences": 1
+        }
+      ]
+    }
+  ],
+  "file_count": 13,
+  "matched_lines": 114,
+  "occurrences": 245,
+  "limits": "Lexical inventory only; source files preserved separately. Full source text omitted from this inventory to avoid transport duplication. Earlier attempt including all matching text was truncated and not accepted or saved. Not independent audit."
+}
