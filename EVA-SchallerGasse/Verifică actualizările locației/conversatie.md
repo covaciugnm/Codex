@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-07T14:10:54.540840+00:00
+Export UTC: 2026-10-08T08:13:16.769065+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -278,3 +278,76 @@ Este o analiză documentară realizată de agenți, fără semnătură de avocat
 - :codex-followup[Calcul regres]{prompt="Calculează pe documentele existente ce sume am putea recupera de la vânzătoare și justifică fiecare poziție."}
 - :codex-followup[Dosar probator]{prompt="Pregătește un dosar al probelor pentru contestarea DONAU, separând documentele existente de cele lipsă."}
 - :codex-followup[Scenarii financiare]{prompt="Compară financiar continuarea, reducerea acoperirilor și încetarea negociată a poliței DONAU, cu ipotezele explicite."}
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-zilnic-schallergasse-35</automation_id>
+  <current_time_iso>2026-10-08T05:00:26.444Z</current_time_iso>
+  <instructions>
+Verifică zilnic la ora 08:00, Europe/Bucharest, comunicările și actualizările noi privind Schallergasse 35, 1120 Wien. Începe cu folder map/README.md și inventarul din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling), apoi cele mai recente statusuri, registre și jurnale datate. Caută în Eva-Mail mesajele primite și trimise după ultima verificare, cu suprapunere de o zi: toate mesajele office@ac-wohnart.at și căutări globale după adresă, firme și referințe relevante. Verifică ultima sincronizare și paginează toate rezultatele. Compară ID-urile cu arhiva, citește integral mesajele noi relevante și originalele pentru sume și decizii. Salvează mesajele și atașamentele relevante pe disc, cu dată, subiect, expeditor, destinatari, CC, ID Eva-Mail și statut primit/trimis/draft; păstrează textul original și datele tehnice. Folosește YYYY.MM.DD la începutul numelor documentelor noi și în rezumate. Păstrează istoricul; actualizează jurnalul proiectului și al partenerului cu status scurt, ultimul răspuns, următorul pas și sursa; actualizează incremental indexul. Afișează în acest chat, în română, doar noutățile față de ultima verificare, cu sume, termene, acțiuni necesare și surse. Dacă nu sunt noutăți, raportează concis că nu ai identificat comunicări noi și limitele acoperirii. Distinge draftul de mesajul trimis, oferta de contractul acceptat, invitația de întâlnirea efectuată și ordinul de plată de debitul/încasarea confirmată. Nu trimite emailuri, nu semna și nu efectua plăți.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific mesajele noi față de ultima preluare, inclusiv răspunsurile privind DONAU, TOMS și ceilalți parteneri, apoi actualizez arhiva și jurnalele cu noutățile confirmate.
+
+
+## Asistent
+
+Am identificat cinci comunicări noi: răspunsul Schmitt + Sohn la negociere, revenirea SCHAUERLEUTE pentru confirmarea vizitei, documente de la Füglister și Weigl, plus o notificare STURM privind corespondență poștală returnată. Verific anexele pentru costuri și solduri; TOMS și DONAU nu au răspunsuri noi în intervalul verificat.
+
+
+## Utilizator
+
+raporteaza actualizarile - ofertele - fisierele venite in EVA si downloadate
+
+
+## Asistent
+
+Sunt cinci mesaje noi relevante, cu 15 PDF-uri și 9 imagini anexate. Finalizez descărcarea originalelor și verific prețurile; raportul va separa ofertele, documentația tehnică și modelele de contract.
+
+
+## Asistent
+
+Toate cele 24 de atașamente au fost descărcate integral și verificate ca dimensiune.
+
+Schmitt acceptă planul de plată propus și confirmă includerea taxelor TÜV, dar nu oferă garanția de șase ani solicitată. Costul anual de service este 2.000 EUR net pentru întreținerea de bază sau întreținerea completă în perioada de răspundere pentru defecte; întreținerea completă după această perioadă este 2.980 EUR net, cu toate modulele incluse.
+
+
+## Asistent
+
+STURM a retransmis soldurile pentru Top 5: 27,12 EUR la curent și 109,99 EUR la gaz, total 137,11 EUR. Aceste facturi existau deja în evidență, deci nu le adaug din nou la datorii. Noutatea este confirmarea soldurilor la 2026.10.07 și faptul că notificarea poștală a fost returnată de la Parkring 2.
+
+Mesajele, originalele și jurnalele sunt salvate. Finalizez actualizarea indexului.
+
+
+## Asistent
+
+Verificarea din **2026.10.08** a identificat **5 mesaje noi relevante**. Am descărcat integral **24 de atașamente: 15 PDF-uri și 9 imagini**.
+
+- **Schmitt + Sohn:** acceptă planul de plată **25% / 25% / 40% / 10%** și confirmă includerea taxelor TÜV și formalităților de recepție. Nu oferă garanția de șase ani solicitată; vorbește despre răspunderea pentru defecte și întreținere completă. Reconfirmă costurile anuale, cu toate modulele: **2.000 EUR net** pentru întreținerea de bază sau completă în perioada de răspundere pentru defecte; **2.980 EUR net** pentru întreținerea completă ulterior. Indexare anuală. Oferta de service retransmisă este datată **2026.06.25**; modelele de contract sunt nesemnate.
+
+- **SCHAUERLEUTE:** cere confirmarea vizitei pentru **2026.10.09, 09:30 Viena / 10:30 România**, sau propunerea altui termen. Vizita rămâne neconfirmată.
+
+- **Füglister:** trimite planul-model pentru lift de **630 kg** și catalogul cabinelor. Promite oferta în săptămâna **2026.10.12–18**. Nu există încă preț nou sau confirmare completă a compatibilității cu proiectul.
+
+- **Weigl:** cere adresa exactă pentru ofertare și telefonul. Propune platforma pe partea dreaptă, văzută de jos, cu acces la **90°**, pentru a păstra trecerea spre curte. Fără preț nou.
+
+- **STURM:** notificarea poștală către **Parkring 2** a fost returnată cu mențiunea „necunoscut”. Extrasele din **2026.10.07** reconfirmă pentru Top 5 **27,12 EUR curent + 109,99 EUR gaz = 137,11 EUR**. Facturile existau deja în evidență; nu sunt datorii suplimentare de adăugat din nou.
+
+Fișierele descărcate sunt:
+
+| Partener | Documente |
+|---|---|
+| Schmitt + Sohn | 5 PDF-uri: ofertă service, checklist, comparație servicii, două modele de contract; 3 imagini |
+| Füglister | Plan lift 630 kg și catalog cabine; 2 imagini |
+| Weigl | Fișă STRATOS NG și prospect platforme; 1 imagine |
+| STURM | 2 facturi, 2 extrase de cont, 2 somații; 1 imagine |
+| SCHAUERLEUTE | 2 imagini anexate mesajului |
+
+[Raportul complet și lista tuturor fișierelor salvate](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.08 Verificare zilnica/2026.10.08 Raport actualizari si fisiere.txt>).
+
+**TOMS și DONAU nu au răspunsuri noi.** Căsuțele principale sunt sincronizate până la aproximativ **08:00 România**. Jurnalele și indexul sunt actualizate; nu am trimis emailuri sau efectuat plăți.

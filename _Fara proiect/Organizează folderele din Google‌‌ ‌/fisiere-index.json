@@ -1,6 +1,140 @@
 [
   {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-13b97d47-efa3-495c-b744-1c62bcc88940.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-13b97d47-efa3-495c-b744-1c62bcc88940--0e05cac2.png",
+    "bytes": 104311,
+    "sha256": "2fc3f03c192618fa226848559bd0ab86aa00fd135dadc88574f1d46be6db1cf8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-40ad56cd-6cce-4a36-ab6e-c2995a955f57.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-40ad56cd-6cce-4a36-ab6e-c2995a955f57--f0072b4b.png",
+    "bytes": 236980,
+    "sha256": "3b47a080ff7f5e11fdcca3b1d6485d0d010d016c795e7450119d9a8e63ce0b79"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-97b6b2e2-3adc-4661-831d-e7228b3ba4d8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-97b6b2e2-3adc-4661-831d-e7228b3ba4d8--d61225d5.png",
+    "bytes": 329309,
+    "sha256": "25b791920d7885b60a05092ad6d15692ae508b564594bc031b1c655fb5b4c731"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-13b97d47-efa3-495c-b744-1c62bcc88940.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-13b97d47-efa3-495c-b744-1c62bcc88940--0e05cac2.png",
+    "bytes": 104311,
+    "sha256": "2fc3f03c192618fa226848559bd0ab86aa00fd135dadc88574f1d46be6db1cf8"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-40ad56cd-6cce-4a36-ab6e-c2995a955f57.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-40ad56cd-6cce-4a36-ab6e-c2995a955f57--f0072b4b.png",
+    "bytes": 236980,
+    "sha256": "3b47a080ff7f5e11fdcca3b1d6485d0d010d016c795e7450119d9a8e63ce0b79"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-97b6b2e2-3adc-4661-831d-e7228b3ba4d8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-97b6b2e2-3adc-4661-831d-e7228b3ba4d8--d61225d5.png",
+    "bytes": 329309,
+    "sha256": "25b791920d7885b60a05092ad6d15692ae508b564594bc031b1c655fb5b4c731"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/15ZT9AfEdvsL7aMxfdQ-wIjc4PRlrTuBm",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/18dy4fCHehpuzgPNaPYGJwa3p1ijpi_ra",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1BBWrVH4L5zNpMt7CfvW3biqVQa7Hzgdx",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1BPKGW7_HU1Dg7V2WFFY_kY2J3V1n5sfm",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1BxsTN0l2SdnifwH_7YhDc9XvaSk4rhAt",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1DjUDcovFv3qJC2I9lqTbTgFAtCox15OP",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1JnKbnByd_1usNRAWCz8cDJ_V1MQEwb0P",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1Kre6GTr3FsIz9BZqqoGYv3z-zral4VCZ",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1TJ1ZBwjYfpK1NJccIDMvlvmEoA6eYogf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1UcfQOgjbNYHP74c3g0KJTTz6S8w7cIUd",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1YJi7NrlcbJFyj4K-sasyhzeHdaHvGKph",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1Z2h08osj-FhherDOtGpkxuPmMMlczDvA",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1_iJ4HdPSn7qUEr5bVAY_e149qFsOVMev",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1gn5Z73bBBLEYUKx6EYuXoRFEU1vw80wr",
+    "status": "referinta_externa_necopiata"
+  },
+  {
     "source_reference": "https://drive.google.com/drive/folders/1ltgo4ImgXLsA1WeuAd9ecrD6bWvY5UMT",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1mu9M8tkt1IaemawTcWrKl4Cslxk7hYRR",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://drive.google.com/drive/folders/1qIp6xP6h1eup2fCEdA7l-OLClQfDqyOV",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://myaccount.google.com/connections",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://myaccount.google.com/device-activity",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.google.com/accounts/answer/16363505?hl=ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.google.com/accounts/answer/3067630?hl=ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.google.com/drive/answer/10838124?hl=ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.google.com/drive/answer/13401938?hl=ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support.google.com/mail/answer/32046?hl=ro",
     "status": "referinta_externa_necopiata"
   }
 ]

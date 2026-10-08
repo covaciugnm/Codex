@@ -1,3 +1,7 @@
+# 2026.10.08 — Cinci comunicări noi și 24 originale salvate
+
+Puncte curente: ../2026.10.08 Status proiect.txt; ../2026.10.08 Log progres proiect.txt; registrele TXT/JSON2026.10.08 și dosarul ../08. Corespondenta/2026.10.08 Verificare zilnica/. Începe cu 2026.10.08 Raport actualizari si fisiere.txt. Schmitt răspunde negocierii, acceptă plățile și taxeTÜV, nu garanție6ani; service retransmis, modele nesemnate. SCHAUERLEUTE cere confirmarea vizitei2026.10.09 09:30Viena. Füglister șiWeigl transmit documentație, fărăprețnou. STURM cere corectarea/verificarea adresei și retransmite solduriTop5 total137,11EUR, deja cuprinse în poziții istorice; nu se dublează.15PDF și9imagini descărcate integral. TOMS/DONAU fără răspuns nou. Office și cosmin@ig.ro sincronizate2026.10.08 08:00România; alte conturi pot avea limite. Nicio trimitere, semnare sau plată. Istoricul juridic2026.10.07 rămâne valabil; copia PDF din05.Asigurari este duplicat identic, nu noutate externă.
+
 # 2026.10.07 — Opinie juridică DONAU redactată și auditată
 
 Punctul curent juridic: ../08. Corespondenta/2026.10.07 Analiza juridica Donau auditata/. Începe cu 2026.10.07 Opinie juridica Donau Schallergasse 35.docx sau PDF și 2026.10.07 Audit juridic.txt. Document detaliat cu sinteză, surse RIS și nouă hotărâri OGH; două roluri AI separate, fără atribuire unui avocat. Opinia înlocuiește analiza preliminară ca reper juridic actual. Durata comercială de zece ani este posibilă; căile de ieșire sunt condiționate de acord, cadrul complet, exercitarea în termen sau cauze speciale. Controlul 1000K, proba somației și regresul contractual sunt distincte. Drafturile DONAU și Capra sunt NETRIMISE; Capra neutilizat la cererea utilizatorului. Termenul Commerz 2026.10.12 nu este suspendat. Jurnalele TXT actualizate, istoricul păstrat.
@@ -155,3 +159,8 @@ Prin urmare, **inventarul tuturor fișierelor este complet pentru aria indicată
 ## 2026.09.30 — MA6, ciorna corectare Q3
 
 Dosar: `../08. Corespondenta/2026.09.30 MA6 - Corectare aviz Q3/`. Email german catre `kanzlei-b09@ma06.wien.gv.at`, din `office@ac-wohnart.at`, DRAFT NETRIMIS in Eva-Mail, ID `58677bca-4b7f-426c-9abd-720bda87fd81`. Cere alocarea platii Q2 din 2026.07.27, 93,23 EUR, referinta 889970805056, si aviz/sold Q3 actualizat. Avizul original este anexat; text, JSON, EML cu atasament si jurnal sunt pe disc. Nu exista trimitere sau acceptare MA6 confirmata.
+
+
+## 2026.10.08 — Tongou / Conex Electronic, ofertanți electrice
+
+Dosar: `../04. Firme + Executie/08. Ofertanti electrice/Tongou - Conex Electronic/2026.10.08 Catalog comparativ/`. Începe cu `2026.10.08 Tongou comparativ produse.xlsx` și `2026.10.08 Ghid dosar si limite.txt`. Toate cele 29 produse din catalog, 4 foi comparative, stocuri numerice, bife și observații. SKU 43074 epuizat. SKU 43092: conflict RCBO/RCCB, fără protecție la supracurent confirmată. 12 PDF-uri oficiale alternative salvate, 5 linkuri PDF Conex indisponibile HTTP 404; registrul distinge originalele indisponibile de documentele alternative. 1P+N este subdiviziune explicită, nu 1P simplu. Jurnalele proiectului și Tongou/Conex actualizate. Documentare web, fără email, comandă sau ofertă acceptată.

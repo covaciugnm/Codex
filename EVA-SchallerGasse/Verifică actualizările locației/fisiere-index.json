@@ -1,5 +1,12 @@
 [
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.08 Eva manifest temporar.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 Eva manifest temporar--91744b3a.json",
+    "bytes": 949173,
+    "sha256": "0a437b2f9f4ad5bafed7c33b5c3287a43a9275b97fee2e601caa558fc5185362"
+  },
+  {
     "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
     "status": "fisier_inexistent_sau_director"
   },
@@ -354,6 +361,62 @@
     "sha256": "b1a88e5685b52ff08603a62d1bef48c1a57e02d7ac2187faaceb42ee40bf04ac"
   },
   {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.08 Verificare zilnica\\2026.10.08 Verificare originale\\2026.10.08 06e819a0 p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 06e819a0 p1--49a7502e.png",
+    "bytes": 151443,
+    "sha256": "811090fcd053e86c36d4644e27c62261e86117f78bacd75c76c73715336b4127"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.08 Verificare zilnica\\2026.10.08 Verificare originale\\2026.10.08 7225d976 p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 7225d976 p1--9523bc49.png",
+    "bytes": 84642,
+    "sha256": "34a247e0bf4d4e4ed654f31078a5184b64b5d570fcc62fad23663e9c1534a4fc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.08 Verificare zilnica\\2026.10.08 Verificare originale\\2026.10.08 7225d976 p2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 7225d976 p2--97b44726.png",
+    "bytes": 106219,
+    "sha256": "e799403b95662cc1fd174e04a8f7fdd9aad8c2097d238eeef12176e762961e97"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.08 Verificare zilnica\\2026.10.08 Verificare originale\\2026.10.08 a4cbd8a2 p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 a4cbd8a2 p1--5431ebd6.png",
+    "bytes": 165762,
+    "sha256": "d2044854082a5c493122f216e522dfa36c8cd2d2194709d0e9cf0d20913b0d95"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.08 Verificare zilnica\\2026.10.08 Verificare originale\\2026.10.08 a741ff86 p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 a741ff86 p1--81c197fa.png",
+    "bytes": 99375,
+    "sha256": "b2166bc5d255b9347098197f1a0c4fcadbbd9ce89b5951a2a84f3849fc7fea9c"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.08 Verificare zilnica\\2026.10.08 Verificare originale\\2026.10.08 b4dc9a6d p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 b4dc9a6d p1--52e5a216.png",
+    "bytes": 174210,
+    "sha256": "ce33b29cb29299bbddab9fd5a7796d4ac7eeceee7875736fbe61ec8d2cc42413"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.08 Verificare zilnica\\2026.10.08 Verificare originale\\2026.10.08 cf05157d p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 cf05157d p1--fb8000ef.png",
+    "bytes": 90309,
+    "sha256": "c312b2d84daa054f4b54460f94394efb072ea5adfc68a762c40cb2d0cee9ebb2"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.08 Verificare zilnica\\2026.10.08 Verificare originale\\2026.10.08 cf05157d p2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 cf05157d p2--25a3d161.png",
+    "bytes": 111753,
+    "sha256": "b224b1a1ef7dd26921a6bccbcbf870964e3ab3f853ba3113e0f56cd4d41ce27f"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.01 actualizeaza comunicari.py",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.01 actualizeaza comunicari--8c448f57.py",
@@ -415,6 +478,20 @@
     "saved_path": "fisiere/2026.10.07 genereaza_opinie--7d938add.py",
     "bytes": 7757,
     "sha256": "ca1f947ca786415a0db3bb9e1eade6b06a42b361d84a39701a1720813c0fd20a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.08 actualizeaza_jurnale.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 actualizeaza_jurnale--273845c5.py",
+    "bytes": 10782,
+    "sha256": "12a1577af42fada707630bc06cfc75f7dd9b2abe82a4f78de86a9d3fb5f69ffc"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.08 arhiveaza_eva.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.08 arhiveaza_eva--56831588.py",
+    "bytes": 4769,
+    "sha256": "51811d29ebf73578678c7d05d992546ed238cdb0aefe06f5ffdc28a7fcfaf433"
   },
   {
     "source_reference": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979",
