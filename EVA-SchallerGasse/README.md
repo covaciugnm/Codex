@@ -1,6 +1,6 @@
 # EVA-SchallerGasse
 
-Conversații: 6; subagenți: 5; mesaje: 235; fișiere copiate: 325.
+Conversații: 6; subagenți: 5; mesaje: 247; fișiere copiate: 347.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -14,4 +14,4 @@ Conversații: 6; subagenți: 5; mesaje: 235; fișiere copiate: 325.
 | [Compară ofertele de lift](Compar%C4%83%20ofertele%20de%20lift/conversatie.md) | Conversație | 46 |
 | [Fara titlu](subagenti/Fara%20titlu--62080438/conversatie.md) | Subagent | 1 |
 | [Fara titlu](subagenti/Fara%20titlu--cdf5b78c/conversatie.md) | Subagent | 2 |
-| [Compară produsele Tongou pe tipuri](Compar%C4%83%20produsele%20Tongou%20pe%20tipuri/conversatie.md) | Conversație | 17 |
+| [Compară produsele Tongou pe tipuri](Compar%C4%83%20produsele%20Tongou%20pe%20tipuri/conversatie.md) | Conversație | 29 |

@@ -1,0 +1,23 @@
+{
+  "id": "01a11ac9-7ce0-7481-87a6-870f72ae1107",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791450774,
+  "updated_at": 1791457433,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară 3 programe HR gratuite",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 12732644,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 202,
+  "message_count": 43,
+  "content_sha256": "9b9189a697f3312fc5243f86e368bcf25292b9c91b00e9baded4a525c508e2ee",
+  "files_copied": 49,
+  "references_not_copied": 101
+}

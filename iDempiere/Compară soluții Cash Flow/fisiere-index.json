@@ -1,0 +1,122 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\Audit_EVA.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_EVA--82582255.png",
+    "bytes": 65461,
+    "sha256": "a5f9006fce5fe9574f1dea1d1aa52361c78c8508780d80aeea977c03f5040067"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\Catalog_module.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Catalog_module--4c6f4def.png",
+    "bytes": 65048,
+    "sha256": "d4dc76ca4a57b38365146e14ec4ac58eb6733e3a203754a51df2a58115494711"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\Comparatie.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparatie--600dd32d.png",
+    "bytes": 66863,
+    "sha256": "69d3396387ae57951401068dfa0aaf993693a52f37b11edc78e148066e019144"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\Extensii_iD.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Extensii_iD--dd411027.png",
+    "bytes": 67279,
+    "sha256": "50311f1eb8424b99685ab48303392215c6eb2c3c34fe3115940cd8452acd9299"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\Ghid.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Ghid--40f3d237.png",
+    "bytes": 41708,
+    "sha256": "6361f7a20dfa2e00f72f2ac46bcacf24f90db29fd2fc96581f142e9329a0ea7e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\Module_native.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Module_native--fe2ce6f7.png",
+    "bytes": 61709,
+    "sha256": "dc4e4cd16a7c976692bc9482ef4aa08c9c809535fa7a9483fe5401e70d0b47dd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\Surse.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Surse--bd4390e6.png",
+    "bytes": 120582,
+    "sha256": "2380e87a28440f406a039f09da41a44111c52de380110691b4201f86a71ea3ce"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\Versiuni.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Versiuni--a6bce2d3.png",
+    "bytes": 92392,
+    "sha256": "fad2ed175e057d0cc11859fb6ada55cdd56d68b9d6a57978b9029230642c20ba"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\pdf_contact_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pdf_contact_1--98d7239d.png",
+    "bytes": 841206,
+    "sha256": "13d7456dc0e71d595ae8be20d54506fbd95aafba07b2bac4a9f23a2c40ff82fb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\pdf_contact_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pdf_contact_2--86dd0aec.png",
+    "bytes": 557662,
+    "sha256": "bb4cbd92eb53ccec133aca2af4e02fac0982409a914acc94a068a46e4e12f8c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\pdf_page_29.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pdf_page_29--caccf29a.png",
+    "bytes": 216641,
+    "sha256": "19c937c371e56a5bf4b35dfa2a65168849c7805ff8b953fc3b9dd2557031fe25"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf-builder\\qa\\pdf_page_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pdf_page_3--394db6e5.png",
+    "bytes": 227062,
+    "sha256": "6bd0259e8ac1fc68d7c643dccc8bc31bd9336b4d0aeffee0e7bf0f9f3e6bb54c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\cf_collect.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cf_collect--2449ae31.py",
+    "bytes": 6509,
+    "sha256": "fb911613f4aee05f715bd4b717c1dd0d82fbce34df92e23b1854203f82fdee28"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Documentatie/Cash_Flow/01_Comparatie_functionala/Comparatie_Cash_Flow.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparatie_Cash_Flow--179691a7.xlsx",
+    "bytes": 55598,
+    "sha256": "6fbf9db9f6024900ba9c8d57432e5331740e9b3da373dc435f3bb83cf52f57b8"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Documentatie/Cash_Flow/Raport_Cash_Flow.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_Cash_Flow--d513562a.pdf",
+    "bytes": 183586,
+    "sha256": "ef22d05cb65b95af30b56c549cf367a983c58535bb3c1bd70bf387f552bcf86b"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Documentatie/Cash_Flow_2026-10-08.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Cash_Flow_2026-10-08--d6b8c741.zip",
+    "bytes": 21709804,
+    "sha256": "6f11e84268ca275c8c0ba8ed856d68c1dc338f52327479cf30f275b5fb63007f"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/2cfaa2082b26262ecc595fb1258a44fbaf793ef0/Documentatie/Cash_Flow",
+    "status": "referinta_externa_necopiata"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "01a11ad4-197c-7a53-b610-a0736239858f",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791451470,
+  "updated_at": 1791465111,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Alege un WMS gratuit pentru iDempi",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 23654553,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 215,
+  "message_count": 44,
+  "content_sha256": "6ab75926fcd6070aef0f35b15a357e0c1e7c985b673e28f26c614ebdff5f4059",
+  "files_copied": 46,
+  "references_not_copied": 165
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "source_reference": "D:/MP3.Varvi/Porneste.cmd",
+    "status": "copiat",
+    "saved_path": "fisiere/Porneste--a4ecc194.cmd",
+    "bytes": 89,
+    "sha256": "78fc0b8742d8602aa27a96c4c82b3ac4b7a308dafc8e7509bcefc734e4945372"
+  },
+  {
+    "source_reference": "D:/MP3.Varvi/downloads/Excel - Model_playlist_masa_si_petrecere",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\.gitignore",
+    "status": "copiat",
+    "saved_path": "fisiere/gitignore--b96276e2",
+    "bytes": 47,
+    "sha256": "aa903f74b339c32da41d59f1766019bb6de6cf806e169ff94efa54cecd384162"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\.runtime\\desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/desktop--af67e9b9.png",
+    "bytes": 122340,
+    "sha256": "1c28ac8a886b95b05ddf74d5225a46bc427c997620170a53242d5179dcff33f1"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\.runtime\\mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/mobile--5bc7e23b.png",
+    "bytes": 110411,
+    "sha256": "6477c14a188bb022d63e5b04aed7b7a4d8d3a0378bd909bf181aef68c27242bd"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\Porneste.cmd",
+    "status": "copiat",
+    "saved_path": "fisiere/Porneste--a4ecc194.cmd",
+    "bytes": 89,
+    "sha256": "78fc0b8742d8602aa27a96c4c82b3ac4b7a308dafc8e7509bcefc734e4945372"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\README.md",
+    "status": "copiat",
+    "saved_path": "fisiere/README--0d901df6.md",
+    "bytes": 6643,
+    "sha256": "148f10a5ad57c6fa7a4d7324756ddc822587df493b7afff9d3075c7dcf22b64e"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\app.py",
+    "status": "copiat",
+    "saved_path": "fisiere/app--0a3d0686.py",
+    "bytes": 20844,
+    "sha256": "e7559dd40da028fb38ceb049e804542279486bde2a06242c620f445c88758482"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\downloads",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\excel_import.py",
+    "status": "copiat",
+    "saved_path": "fisiere/excel_import--6df5c540.py",
+    "bytes": 3903,
+    "sha256": "f9206ef138b263b91e98745dde97950e8ae4358a6aa10c91d7cc6c100302d98e"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\requirements.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/requirements--1236163a.txt",
+    "bytes": 136,
+    "sha256": "462660648ed0fbe8649370c7215acfb994a1dbb7f6808e7a85bc681036261556"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\start.ps1",
+    "status": "copiat",
+    "saved_path": "fisiere/start--d4656af1.ps1",
+    "bytes": 892,
+    "sha256": "89e7bda4637f60328e4e303c6f4ecaddf38e75d3c63c8246a77c82a2fad60b75"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\static\\app.js",
+    "status": "copiat",
+    "saved_path": "fisiere/app--8ea46bf8.js",
+    "bytes": 6063,
+    "sha256": "8dc6e7756f0cb9b5ed21e948168b617ae2622eacfd92abb91262b19442b30e1b"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\templates\\index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--1e2eda9f.html",
+    "bytes": 6468,
+    "sha256": "7674e1319b350168f2873e28cf566cd500750894bb2c3707e2532f3bab96413d"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\tests\\browser.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/browser--c81c4c0f.cjs",
+    "bytes": 2473,
+    "sha256": "55c4bf0bdd234dbd3c7c2f45d4e8fdf2c703a9e44666aa4cbcd73649e3ccffdf"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\tests\\test_app.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_app--5a48dcec.py",
+    "bytes": 3347,
+    "sha256": "758e6646a4e87e59243c916302f82b08fbebf8bec109892b3cb159edfc25b4a8"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\tests\\test_conversion.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_conversion--1736f878.py",
+    "bytes": 1328,
+    "sha256": "68c8d598e8227b3145d49d8b16396cf086cf4523db7c1eb88c9bd26de210740b"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\tests\\test_excel_import.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_excel_import--1eab01ae.py",
+    "bytes": 5062,
+    "sha256": "89e4aa8109d9abdf7d5a747fcaf997f24ac31a20a1dd5b46fb9a3261207cfa58"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\tests\\test_pacing.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_pacing--eeab81b3.py",
+    "bytes": 2973,
+    "sha256": "5f69e105d8c16d0c72039e0157f3119a2a8161c23cf57b55995cf4b0ebb8c7aa"
+  },
+  {
+    "source_reference": "http://127.0.0.1:8765",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://archivesupport.zendesk.com/hc/en-us/articles/360016553532-Live-Music-Archive-etree-org",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://audionautix.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://bandcamp.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://commons.wikimedia.org/wiki/Commons:Simple_media_reuse_guide",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://dig.ccmixter.org/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://freemusicarchive.org/Help",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://get.bandcamp.help/en/articles/15263234-in-which-formats-can-i-download-my-purchases",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://get.bandcamp.help/en/articles/15263450-you-guys-said-i-d-get-200-more-codes-for-free-every-month-well-where-are-they",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://help.7digital.com/en/articles/15273301-how-do-i-download-my-music",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://help.soundcloud.com/hc/en-us/articles/115003448787-Downloading-tracks",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://musopen.org/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://pixabay.com/music/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://soundcloud.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://support-artist.jamendo.com/pt/getting-started",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://web.incompetech.com/music/royalty-free/licenses/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.7digital.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.jamendo.com",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.reverbnation.com/downloads",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.soundclick.com/faq.cfm",
+    "status": "referinta_externa_necopiata"
+  }
+]

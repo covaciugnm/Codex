@@ -1,0 +1,23 @@
+{
+  "id": "01a11bc6-46a3-7492-89a6-d9b30feb18be",
+  "cwd": "\\\\?\\D:\\MP3.Varvi",
+  "created_at": 1791467341,
+  "updated_at": 1791468563,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Pregătește playlist de petrecere",
+  "project_id": "73685247-92a1-4212-a650-4fcf586fc1f4",
+  "project": "MP3.Varvi",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 1610568,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 33,
+  "message_count": 9,
+  "content_sha256": "08829605139d971b62cbdbb9534d29767acc9a8965e2b5079aa3fd5ddb8e3738",
+  "files_copied": 7,
+  "references_not_copied": 0
+}

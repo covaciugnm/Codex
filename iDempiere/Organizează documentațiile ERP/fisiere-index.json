@@ -1,0 +1,48 @@
+[
+  {
+    "source_reference": "//192.168.100.169/comun/00.Roboti/EVA.Pro/Eva-contab/Comparatie TOP6/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--0d6cf449.html",
+    "bytes": 2435482,
+    "sha256": "fe550c2eed4eb94f585312fc581d5e210e33c3180130f8db184fa06d7b3cf389"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.ssh\\eva_accounting_docs_20261008",
+    "status": "configuratie_sau_credentiale_excluse"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\eva-top6-catalog.png",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-top6-catalog--515f37c3.png",
+    "bytes": 86517,
+    "sha256": "debb2df81373db0e47cad3e4839eaf98bb3dfa4a7030d49f6037c5172caf49ae"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Comparatie TOP6/Migrare_iDempiere",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Comparatie TOP6",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\comun\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie/Comparatie%20TOP6",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie/Comparatie%20TOP6/Migrare_iDempiere",
+    "status": "referinta_externa_necopiata"
+  }
+]

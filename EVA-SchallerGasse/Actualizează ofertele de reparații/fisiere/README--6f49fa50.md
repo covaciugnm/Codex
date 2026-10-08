@@ -164,3 +164,9 @@ Dosar: `../08. Corespondenta/2026.09.30 MA6 - Corectare aviz Q3/`. Email german 
 ## 2026.10.08 — Tongou / Conex Electronic, ofertanți electrice
 
 Dosar: `../04. Firme + Executie/08. Ofertanti electrice/Tongou - Conex Electronic/2026.10.08 Catalog comparativ/`. Începe cu `2026.10.08 Tongou comparativ produse.xlsx` și `2026.10.08 Ghid dosar si limite.txt`. Toate cele 29 produse din catalog, 4 foi comparative, stocuri numerice, bife și observații. SKU 43074 epuizat. SKU 43092: conflict RCBO/RCCB, fără protecție la supracurent confirmată. 12 PDF-uri oficiale alternative salvate, 5 linkuri PDF Conex indisponibile HTTP 404; registrul distinge originalele indisponibile de documentele alternative. 1P+N este subdiviziune explicită, nu 1P simplu. Jurnalele proiectului și Tongou/Conex actualizate. Documentare web, fără email, comandă sau ofertă acceptată.
+
+
+## 2026.10.08 — Acasa: inventar foto
+Dosar: ../Acasa/. Intrare: 2026.10.08 Citeste intai.txt și 2026.10.08 Acasa inventar si echivalente.xlsx. Șapte originale, inventar vizual, echivalente Tongou condiționate și protecții de verificat; două liste CSV. Cantitățile sunt observații, nu deviz. Codurile acoperite și amplasamentul instalației nu sunt confirmate.
+
+Actualizare Acasa: Excelul include fila „Necesar si stoc”. Documentația este accesibilă prin ../Acasa/Documentatie Tongou/2026.10.08 Documentatie Tongou.html (29 sinteze, 12 PDF-uri originale). Necesarul este provizoriu, după validare tehnică.

@@ -1,0 +1,23 @@
+{
+  "id": "01a11ab2-a16c-7b90-b9c7-8a128b6a124d",
+  "cwd": "\\\\?\\C:\\Users\\User\\Documents\\Codex\\2026-10-08\\am",
+  "created_at": 1791449276,
+  "updated_at": 1791449773,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Configurează semnătura pentru PDF",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "explicitly_projectless",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 10896508,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 49,
+  "message_count": 14,
+  "content_sha256": "4570d84dc9c73a5b770fd349d1d72a89086aadb37c2503cf63d31cae1e41ed3c",
+  "files_copied": 0,
+  "references_not_copied": 1
+}

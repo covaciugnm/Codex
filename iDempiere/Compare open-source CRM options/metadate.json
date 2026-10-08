@@ -1,0 +1,23 @@
+{
+  "id": "01a11b02-5c44-79a3-a6d7-eb6a3eb4892b",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791454501,
+  "updated_at": 1791457393,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compare open-source CRM options",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 12137718,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 131,
+  "message_count": 28,
+  "content_sha256": "e9cd041a166f72ae25961c0581649f914b8b2790691a54c5fab5f77b64255c6d",
+  "files_copied": 16,
+  "references_not_copied": 2
+}

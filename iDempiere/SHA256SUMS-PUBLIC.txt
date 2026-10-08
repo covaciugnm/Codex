@@ -1,8 +1,295 @@
-c08ff64edbc09eca8d833d90ef826774d6ad7df5dfc8cb102abeba271843a5e6  arhiva-001.zip
-40214c9ef62f15f620d63deb1c0ac40b25a76c062d9ee9605ca43680039b9837  arhiva-002.zip
-9339ce38875809f007655e24dc812c789bfdb2d5ecef45f6ff998cf61bf8cc4e  arhiva-003.zip
-9975b5894707dd16382879576fdba7f539c9aac1a507bd2cb30af3e7a4c22c1f  index.json
-3de5bdf21744d4d90a86394929cf9f6bdc8bd93253b8614381dccaff9b03e603  Inventariază documentele ERP/conversatie.md
+b6ea6ef16814aae8daf040cb2372a70baa481042132c1400f9e74cbdf88fa115  Alege un WMS gratuit pentru iDempi/conversatie.md
+8af9b860b93622cbf0bcb07613d3e4a535e69d9c03cb5cd918a96afe1df6ae9e  Alege un WMS gratuit pentru iDempi/fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip
+6f11e84268ca275c8c0ba8ed856d68c1dc338f52327479cf30f275b5fb63007f  Alege un WMS gratuit pentru iDempi/fisiere/Cash_Flow_2026-10-08--d6b8c741.zip
+6fbf9db9f6024900ba9c8d57432e5331740e9b3da373dc435f3bb83cf52f57b8  Alege un WMS gratuit pentru iDempi/fisiere/Comparatie_Cash_Flow--179691a7.xlsx
+ae2218626f8c13870fdc70a5c3ecdffa20dd6a80349d5d4becf582ada1c15bcd  Alege un WMS gratuit pentru iDempi/fisiere/Comparatie_ERP_Productie--d390a172.xlsx
+592ed4a7d16a760b6b1bf577b5cd2b1acf545a6d9d991a98fc3ff69fe3e7aa2a  Alege un WMS gratuit pentru iDempi/fisiere/Comparatie_WMS_EVA_2026-10-08--5400101a.xlsx
+71ab56d8b35f4d4d6afa51e70cd4e86c39fd92bd7a4e62ca5b45fe050a82e8ba  Alege un WMS gratuit pentru iDempi/fisiere/Comparatie_WMS_iDempiere_2026-10-08--0a13d3c2.pdf
+3ad1d77ef5989161cf199ac09ab5171dff6a425bd73c5c06a6f785b01928082e  Alege un WMS gratuit pentru iDempi/fisiere/details--199a7770.png
+a88073a59fdd9eab54ff5453b310142667ad3c0857589bc744b5b9f04d1a9dc7  Alege un WMS gratuit pentru iDempi/fisiere/ERP_Productie_2026-10-08--268cd8be.zip
+6ebc70be60b3503f5179a547203468c2b8b6678534b01c8395160f9bc6dbcf9d  Alege un WMS gratuit pentru iDempi/fisiere/eva-review-1--3122380a.png
+3f99e4269aa85c94fa77f8a0f5547fa6519108f7d3fcca41c8681793dab0a60e  Alege un WMS gratuit pentru iDempi/fisiere/eva-review-2--a8c82ed5.png
+5c77754a908282859b74083a929cce7bc157d4478cede70a71c8b3230e0b030f  Alege un WMS gratuit pentru iDempi/fisiere/eva-review-3--1a464b41.png
+e661f8c7c8d3f0d6098cc1fe3c1f594216487a539bbd2a271649578ba686c83e  Alege un WMS gratuit pentru iDempi/fisiere/eva-review-4--9b62eb9f.png
+593947f650dafcc8184f84d4d76573a459e5a3e9bbc4c5b8af9e7ba8f36613f4  Alege un WMS gratuit pentru iDempi/fisiere/INDEX--17c533b2.html
+abfbde4d055f994252058f42090dc1a5cfc7a28275da7ae883cc8e383a64f322  Alege un WMS gratuit pentru iDempi/fisiere/index--ba90fa23.html
+bf2b51448e33f2ed5ba644a8fc9e35780c636ff55c4e3396c51024fa1cd07e0c  Alege un WMS gratuit pentru iDempi/fisiere/matrix-bottom--357d8fba.png
+0ec4f07c62b043e31cdd1d51210ae5dd220ac9d3b080a1c6afd5d598c20d3d4a  Alege un WMS gratuit pentru iDempi/fisiere/matrix-left--cf8a57c6.png
+9dc0ba329165798612d717e031420059a095b4b4b9ccff3abbbecd8a4ea7e57d  Alege un WMS gratuit pentru iDempi/fisiere/matrix-right--b79a7ad9.png
+ef22d05cb65b95af30b56c549cf367a983c58535bb3c1bd70bf387f552bcf86b  Alege un WMS gratuit pentru iDempi/fisiere/Raport_Cash_Flow--d513562a.pdf
+1332584f20378e3fd5e7f428d76efc9c4600fccdc52d9ee36047bc03afe7dcf1  Alege un WMS gratuit pentru iDempi/fisiere/Raport_ERP_Productie--91323634.pdf
+673f8d7eae6801a76cddef8431031e8dbc0495f9bb563a995f54f03743d2d4dd  Alege un WMS gratuit pentru iDempi/fisiere/Supliment_EVA_implementata_2026-10-08--a63ca77d.pdf
+868a3d1282f2c77891254b8730a505f383d2e19351b6a43af79586392bcc7da4  Alege un WMS gratuit pentru iDempi/fisiere/versions-left--1cd73b1f.png
+5792d22f74c7b629f5050b4feb475fffffab44a7b15eddc0d79db30b91692045  Alege un WMS gratuit pentru iDempi/fisiere/versions-right--eaae94d8.png
+b83135258a7454aace751c3a5f3a7aa4fb802fb9ec1cb5038048087e4967f702  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-01--9a2e6b57.png
+238fc8bfda70262fe743c9f83aca69b3338ad1cfda3698db9255c4baad925cbf  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-05--d9f26435.png
+0101b71d88e1fd5705494b81bc1c32601b137e4ab1d6dc9dc9b10d7b5cc5e794  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-06--1a08f1f0.png
+ec3b449719fd69295ebd86e08eddf78c9c40051b00a6e5a041ccda0347457cde  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-07--1ffe25a0.png
+5e50335403bb5e9b9c4abf7abcdd335974f7c3ffdce0bbced99a4cf01684e6ca  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-08--c6f48567.png
+4662c4766c73c009ee9daf249618ec087373200c0a31e9ef39b3b45cc3440fd9  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-09--adbfec43.png
+b00dcefe0b097d1f0c06dc62d535c3917267ed7ea04267b3607d17997b7952bc  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-10--17f87428.png
+ce36b1895ce0a165afdd9af5f3cabe221344eeb1208a4afc75c645eb90c40eaa  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-11--c583ad5a.png
+561978c5021b636f29415cfa2e5bab8bad3074016c6250cdae1619ff10d9ff2a  Alege un WMS gratuit pentru iDempi/fisiere/wms-final-12--01d57565.png
+d81887df92ea1b6d6706928ef5c8fc0fd9fd75f5c4a956f5122d6d58e0e4c341  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-01--c60752be.png
+c2dcb8e2e1cb6d2196d7bb98ba2c41da81b302203a5b630588fe61a463950c90  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-02--c37c3b2a.png
+422975847ce86687b6f6f768b8d01a68fb95b8b23f2f5b6f46595d66a3001d2d  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-03--3de79f0a.png
+d670e18db9de38a92bcce7ccfe8eb8dc8aec8e1326d42c28e7bb3d24f09b93f4  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-04--06ee2c4c.png
+6335a9788f39f777d0e17535a2f02cedb48840d8daabc7a4cba8a961bd194756  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-05--1f1c12a9.png
+e2e79c60680b6779bfb58b69cd7d2900af00ef73c794f905bee7519a0c0dc4f1  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-06--44c033e3.png
+eefed8c6a91cc225843b5e4a5b39bb19a2c3a59e4495b8c1432c82f2c2001e50  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-07--379fa881.png
+ea1842f1ade36e45c5c53c8acf8529602f80f17adb7089eed995f5dcae78d554  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-08--2a987d2b.png
+ca9e09f33786e0f64f4865de5d5b16e4b5bf0bc0a9ee30d2ec347d717145a407  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-09--a538df16.png
+f4794ffdeb5f16f940b6ade2c19fe32d67d678e8b8e75f1b8f5e93e4c878d5ea  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-10--c64385ac.png
+9b9be79330d8f5c29a69686fa80ba10dfe5b1985767d886c95238b0720c17b30  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-11--7e6aded1.png
+d175af03510d385b5669c0ca9cf9851b814c7f70352d378ce28fb79ed51cc39a  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-12--ffcd6ab7.png
+ce26bc43dcbde5ec0ca8f42edbc76340a61b1d4ea0fe76bbe8941bd19ceb76e1  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-13--16812dab.png
+5e78b87b3de2038536f5472dc54e7c8ebfd90100157bdcd5bd201dff5b8e5fd4  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-14--0a39582a.png
+7b82d724e70841527ea794870e136538075dba0aed5972bc0459b9ee9b547040  Alege un WMS gratuit pentru iDempi/fisiere/wms-page-15--4d39ef4f.png
+86c68c27f4251cd1ae64528f3fec9c8a401188cc74b5f3673c6f8992d4970abd  Alege un WMS gratuit pentru iDempi/fisiere-index.json
+6f9e42950cd8f1509d465d8ef2e8db7d6cf162cfcff312cb663594db1890632f  Alege un WMS gratuit pentru iDempi/istoric.json
+f15bfe16549652794ad384298f3b46e4640438346d5c409e4aeeb780f2d57505  Alege un WMS gratuit pentru iDempi/metadate.json
+6fa6becf629aedd45a0cffdf3727f4e7354eea3fdc8458d7285156b6bac59dce  Alege un WMS gratuit pentru iDempi/rezultate.md
+50d2ea8631fa683421f3c6423423be2f1d5da09ac1ad2e2e487a463e852585a5  arhiva-001.zip
+d57d0a3d4417e35720145ba3558526e83e2bf3fcec8138e719264da0f5cf5958  arhiva-002.zip
+6b3977a61423a3ffc8fade0108d8bf4409aec3506614b0cac0127d7ed3da8e5a  arhiva-003.zip
+40214c9ef62f15f620d63deb1c0ac40b25a76c062d9ee9605ca43680039b9837  arhiva-004.zip
+a0c113a7aa36c08a93e92243deba9c577f97cd1b99451a081b5aa1b880adcfa8  arhiva-005.zip
+6fe449a9c7df1c3b88d2d6f985449754f1fdb023216357cc5abc6146ab028a01  Compare open-source CRM options/conversatie.md
+30d2cab4df9cd156ce08e2704b6cacd8b306522ed80077e6487baeb6ae8a109b  Compare open-source CRM options/fisiere/Cerințe obligatorii--5c937f71.png
+5c7affef55cf9d7f86c91dcc0a1f4901d6dc166031771d2f112a38db48364eff  Compare open-source CRM options/fisiere/Comparatie_CRM_EVA_iDempiere--6fea75ec.xlsx
+32c62eeb2e3e4a8bb2adff36ce641d842d5a5c41c6b8e949b0494df4391da908  Compare open-source CRM options/fisiere/contact-1--0a94de40.png
+d7a97f875f2b998d50f5d257fa806163a96fa8902d861a172d718e0f69daac58  Compare open-source CRM options/fisiere/contact-2--cf348d85.png
+a008069a6f4cc55a2ffb7c6c31e39e256b7b5368bb6ffa00134b6bcbeb4c7799  Compare open-source CRM options/fisiere/contact-3--e0303403.png
+030b10b9813b2040af6afc2e364ea6a78eb1d01d881f609d593f7768cc2aaa8f  Compare open-source CRM options/fisiere/contact-4--99d2668b.png
+2550340abeb3d5081cb4a9397f277ee134146770a2c7cd31a10e16cb570d91d6  Compare open-source CRM options/fisiere/contact-5--a9c27433.png
+1f2f9ffadf95ccb43dfee9f9ef68f841c85e8f13591e846391f4eb5fe1d39676  Compare open-source CRM options/fisiere/content--fbfe666a.py
+8ea41b8d0ea3704ff13748a7f94aa03fbbd4f88c668fca651cbddde7b66badca  Compare open-source CRM options/fisiere/Ghid--b0ffec4b.png
+abfbde4d055f994252058f42090dc1a5cfc7a28275da7ae883cc8e383a64f322  Compare open-source CRM options/fisiere/index--ba90fa23.html
+0e80406f8b0129cbd7da3af477a7e87f8a100d48d79dc46fe826e9621f75e031  Compare open-source CRM options/fisiere/Matrice CRM--5efcb89c.png
+1a33a7c173dd7ed5d16d3913fa69ff75030110f4aec3fb97b971f8dd56681ce3  Compare open-source CRM options/fisiere/Module iDempiere--c57d95a5.png
+70ad283f76d343373a74fd9f8133863b6f711b8bdbc92fbb16bb2e209cb54b77  Compare open-source CRM options/fisiere/Raport_CRM_EVA_iDempiere--9ba88443.docx
+7923ff133cbe8b28e194cd1e4f98390ea09c9c62fd1eb8b33e0a09a335487fbd  Compare open-source CRM options/fisiere/Raport_CRM_EVA_iDempiere--f8eddb85.pdf
+76547cd7f071377c29b9c64620e0f9ff72cf69e4199478a22fcaf523f68573a2  Compare open-source CRM options/fisiere/Surse--e9d711cb.png
+b5696e8db5dd4b7bb2911ac41c9b54a8b08a8417fdd38417d890ceb6454eed36  Compare open-source CRM options/fisiere/Versiuni--3e7651a3.png
+97080e4abd12c2a48c3a1499a0d2c98fd51e7e206932c23bc68ffb9e6e331ae8  Compare open-source CRM options/fisiere-index.json
+9ea755c0e591755f6c561f848bca1435cec6ea62e878417a2bb9ed97ab0ef683  Compare open-source CRM options/istoric.json
+aa42407db0787daabc4d3b1787179f3d620feb8ddf0726093314cdd9c53fa1eb  Compare open-source CRM options/metadate.json
+030e052299188acff2cd7eaf18d411f7c9fda3576acb1a284d966a88c13360dc  Compare open-source CRM options/rezultate.md
+0b167c2ba3b1af5b41390f34c61c4d0572dd25008b649fafeadfa714f5b7937e  Compară 3 programe HR gratuite/conversatie.md
+c4fad53c3964a83b21434e35320a1e4e8c7033373ae3a912652dcd7846cc479b  Compară 3 programe HR gratuite/fisiere/Analiza_iDempiere_HR_SSM_SU--253551a5.pdf
+8af9b860b93622cbf0bcb07613d3e4a535e69d9c03cb5cd918a96afe1df6ae9e  Compară 3 programe HR gratuite/fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip
+c0d3b96a93aac2013c881f6982dcd2ecef53b1db4cf01c571595bcb09d0aea3e  Compară 3 programe HR gratuite/fisiere/colecteaza_documentatia--ec70b304.py
+d2fbc66581a69899cc7b4f2349628a814339da794c136c15b3ed420838c63b83  Compară 3 programe HR gratuite/fisiere/Comparativ_iDempiere_HR_SSM_SU_2026-10-08--e7d9b08d.xlsx
+5f8fccaebb27e7a1e4954ff4716497a0f932992df1b3f5b81b6f76bfdf17974d  Compară 3 programe HR gratuite/fisiere/completeaza_sursele--061bcedf.py
+5ede8d19af5aa2705d86e24c8db63db463378b6ba77508bfb96c50fefb3391cb  Compară 3 programe HR gratuite/fisiere/continut_raport--51607e94.py
+a30d3a9d28c3a801835322e684c9fa26e82dec45d57fe157329bc5d715852a6a  Compară 3 programe HR gratuite/fisiere/creeaza_comparativ_excel--2aa3aed1.mjs
+01a44f0a5e938cf7503a3e7f00a0ae90f0ae9d0f3a6d320622260b3475f786ee  Compară 3 programe HR gratuite/fisiere/dovezi--c5b04b6a.png
+a8fb49e9e85d76c45014c38a46ac2fca865e81a39781a3f414e284587f60feb8  Compară 3 programe HR gratuite/fisiere/extinde_cuprinsul--0c95bb4e.py
+f35c7efdcf3800a8e5c4f5d71543166cca7863a65d0cfd9d5ed5bdec75f2c84e  Compară 3 programe HR gratuite/fisiere/final-15--587f2c00.png
+bdcbff963471e147be6158b4c6e8259c0c9401dbff9b297db22784e750d4d7fe  Compară 3 programe HR gratuite/fisiere/final-17--54441fdc.png
+23debbfeb3b570e9eb8d3d5f1a8e14f4a03238a98d90bccaa2b59424f21221fc  Compară 3 programe HR gratuite/fisiere/final-18--f834dbd4.png
+5a07db503146b3647708d68430c5cde400b5ad4f70217b6342b8ff305d876be6  Compară 3 programe HR gratuite/fisiere/finalizeaza_pachetul--bf26965a.py
+affe76e3ea4771e858eb137703c12b41ef26a0b7ee118a3eec824825a8b66eca  Compară 3 programe HR gratuite/fisiere/genereaza_dosarul--ea430504.py
+593947f650dafcc8184f84d4d76573a459e5a3e9bbc4c5b8af9e7ba8f36613f4  Compară 3 programe HR gratuite/fisiere/INDEX--17c533b2.html
+17e10064ed653c6154663ae0900480ea616e5cee0a5ba12b71fc882e274a7af4  Compară 3 programe HR gratuite/fisiere/legenda--0f6849a7.png
+0d72a02b5ffc9110e6f00487fa89306ca25e1390f3d1e1600430533e3f8cefca  Compară 3 programe HR gratuite/fisiere/linkuri--76d03280.png
+5ee7f758d90457e725a4de023eacd3c4e8511c0af5f4647a7c9db529e1a0bc2d  Compară 3 programe HR gratuite/fisiere/matrice--4c233fa6.png
+7a139c0e1b036f0d96354d22202612b45ea4f93b36ed61950430026de70a66b6  Compară 3 programe HR gratuite/fisiere/module--6f915174.png
+7dc08760905117bc2eacef7388fc3942de3ed1e0d3bdf4385beadf9025a944bc  Compară 3 programe HR gratuite/fisiere/pagina-01--50d7ac90.png
+449e3f682bfbd0ea95c7ef2aaa6f1845f1af170418bc57bb4beba38e93e9a921  Compară 3 programe HR gratuite/fisiere/pagina-02--9c5ba3ee.png
+72bb44b43988e4bbbf978fb0b2259004a838808d81587981bd9c3dd19d4028ff  Compară 3 programe HR gratuite/fisiere/pagina-03--5c02b6ed.png
+90990f9047810103fb98ae53203f3d744d566dc23272de4dab0d29be6f8cc16b  Compară 3 programe HR gratuite/fisiere/pagina-04--701a8348.png
+64005e835cac60dc135ff3308933c5a1c1dcae6e2a9dd16d2f60251cf2ff0384  Compară 3 programe HR gratuite/fisiere/pagina-05--41ff86ae.png
+48862421f047185d8ae81cfcc5b69c7e6d1cc004861992c7eb3b5604a32de182  Compară 3 programe HR gratuite/fisiere/pagina-06--ac40a5e1.png
+f17b7077ae7fdcff7302027393c6bc664976702a81afc5bed5b81d4294eb0590  Compară 3 programe HR gratuite/fisiere/pagina-07--a9c13d6f.png
+a311ff7d2be75d80dfde0dbbb39be41475b31ff96f8c055a276069d6fccdc2fa  Compară 3 programe HR gratuite/fisiere/pagina-08--d7b0452e.png
+e75ab614168d4b0dae078512741841a1cb4ab5e5601e013d76068deafe313f11  Compară 3 programe HR gratuite/fisiere/pagina-09--3697d24a.png
+a264b235989978130da2abefa8eb155d643ae8c82f986cccd363c3f4634a0115  Compară 3 programe HR gratuite/fisiere/pagina-10--43ed7425.png
+fbd4561b30682a0c9dc965fd87f16794639f869944d8828f501dd2e93c5fe9a1  Compară 3 programe HR gratuite/fisiere/pagina-11--79bf7883.png
+df08f873d9ce4525cc10ca5e218f17482714afdfe547ba490d763bd93009bcdf  Compară 3 programe HR gratuite/fisiere/pagina-12--0e6a099a.png
+e700482faa86dba5860eb44eabcca37bf2e9dcec52c448b496bb2b982453c262  Compară 3 programe HR gratuite/fisiere/pagina-13--1c4a8e34.png
+a8ffe8619946efd6ca9354a50284279dfcea1021bcafaff8ce2d8db3ee25255b  Compară 3 programe HR gratuite/fisiere/pagina-14--8ac1d600.png
+64a791dd5ade71e9d50ca07daaa24db702d386fd54406c58685acfe6704b141c  Compară 3 programe HR gratuite/fisiere/pagina-15--2944c024.png
+0b5d59c749012e2510beb4abded45a49634ff0782250017b46d7bde1c2eabac2  Compară 3 programe HR gratuite/fisiere/pagina-16--8ce5f54e.png
+ad7c4cccf9b5250a6fdb3db0db0df0459df85bb783d3077896f78a1d78ff2955  Compară 3 programe HR gratuite/fisiere/pagina-17--d0d77d4a.png
+f70ca97732ff7cd9d816f81bbfeb67232c9f7756027cf7328fd90376ecbe5da7  Compară 3 programe HR gratuite/fisiere/pagina-18--53a619c8.png
+7e4fba6c4fa460536bfdbe7792d40a9144ebd3e5230de071afb4ee6b515d6545  Compară 3 programe HR gratuite/fisiere/pagina-19--13ab8a6f.png
+cc426f36ceebaef042625f2251615523b5abe28c96f9ac36e4ca2c677aba7e0c  Compară 3 programe HR gratuite/fisiere/pagina-20--76a2edea.png
+017fef8342f4951d31d7ddde24de2259c1bb40b76ec0f92f378db8fbc8bf2cf7  Compară 3 programe HR gratuite/fisiere/pagina-21--9b74da4a.png
+2d3650be33c71afa30cbccabf182b57494fa6bd3dc91095baaed63b0fe9282c1  Compară 3 programe HR gratuite/fisiere/pagina-22--57d6f354.png
+47a9a77b75cc17647190f89755a16e0159a8f72264b01a1d9af30604721af239  Compară 3 programe HR gratuite/fisiere/pagina-23--70bbac62.png
+5bc95d6696f42ea82c5ec42f520820b97d27f0f52de23cadc527213053a2345a  Compară 3 programe HR gratuite/fisiere/pagina-24--40d1180d.png
+3f39275a8df14d38a2fe71f4a8e88bfc9f69a8e111be58ab8c31ff0930bbf57b  Compară 3 programe HR gratuite/fisiere/pagina-25--8a503863.png
+490c714892250dc1c682664c06481c3e81d2a7473ed65e20f819bf0674dd5b18  Compară 3 programe HR gratuite/fisiere/pagina-26--d324da24.png
+f406fe95691082f15201352209805b8c2472e2fe63442e83d68c9548d596b9fd  Compară 3 programe HR gratuite/fisiere/pagina-27--567e39cf.png
+7784ee749a1eb64259d0820a08fad6731db325461605fff3d37f311cd4bf8bf2  Compară 3 programe HR gratuite/fisiere/pregateste_comparativ_excel--d7c20fbb.py
+2d88d5dfd4799bfddb3b275546f284cc6ac95e7d06406837ca1a80b2ce3984df  Compară 3 programe HR gratuite/fisiere/produse--44e0848a.png
+0ee920409a9a5fe8560202016c8d431d611eabcd0139339d4a71ecc8ec622609  Compară 3 programe HR gratuite/fisiere/verifica_si_pregateste_excel--603948e6.py
+c45cb1335bb042f868fd562ff1e0f896755167e93ce334b06ab03aaf7f5e78f8  Compară 3 programe HR gratuite/fisiere-index.json
+8d37f7a945b70ed0a7b036f6d46b65d598feccd6646f11f593a21ba490d23ffc  Compară 3 programe HR gratuite/istoric.json
+c2b9b77199e9a5c15834ca9bbca2be36e555bb010229428545a96412dd056210  Compară 3 programe HR gratuite/metadate.json
+40fb8dd8c4418b4e62cbda9c6afac297135ae7b97879e23fa1859ec381e72e54  Compară 3 programe HR gratuite/rezultate.md
+2368d5cd4fdcbdf3724db8964b55b8720666ec31a488bcbdbef4bc093c6cea35  Compară ERP-uri pentru producție/conversatie.md
+dfaa0235b7f93d7b5c0490da4ceccd5a013e3259926b6dbf5f7fa56ecf37819f  Compară ERP-uri pentru producție/fisiere/build_excel--b75d5f87.mjs
+e85aba83ad1ced2fa6499bde663a890cf3c916450b28944b8e3ad9fc0c7f1a14  Compară ERP-uri pentru producție/fisiere/build_package--23948306.py
+34baf3f014c2b13c8dce22a7e9cff212bdedd8d55dca59a38ae3ee3a8b5e244a  Compară ERP-uri pentru producție/fisiere/comparatie--77b7aac9.png
+ae2218626f8c13870fdc70a5c3ecdffa20dd6a80349d5d4becf582ada1c15bcd  Compară ERP-uri pentru producție/fisiere/Comparatie_ERP_Productie--d390a172.xlsx
+71ab56d8b35f4d4d6afa51e70cd4e86c39fd92bd7a4e62ca5b45fe050a82e8ba  Compară ERP-uri pentru producție/fisiere/Comparatie_WMS_iDempiere_2026-10-08--0a13d3c2.pdf
+6eb36ce0bb4d82fb74d702d87b1769f4f0674295e99e4394208a67d3cb8c4319  Compară ERP-uri pentru producție/fisiere/contact_0--b374d812.png
+bb83bdab9f56aa089aa59b240fa7d8b3d22a1e83e9d680f3f55eed9bbfc12338  Compară ERP-uri pentru producție/fisiere/contact_1--d1a714f4.png
+537ae58b402d3791e502f721c6f0409b46e70657db8c8d21ce9d47d37e3b5392  Compară ERP-uri pentru producție/fisiere/contact_2--d308af11.png
+d473f3d08472038e3c5e8e0bbfb5cbe3d2953666e594526e3ad67d46614d2edc  Compară ERP-uri pentru producție/fisiere/contact_3--8818da1e.png
+a7bb68f37cc7e51cc104aff73d6c99ef274d4277ef1fdf2f05b90f8914d13994  Compară ERP-uri pentru producție/fisiere/contact_4--fd46857e.png
+a88073a59fdd9eab54ff5453b310142667ad3c0857589bc744b5b9f04d1a9dc7  Compară ERP-uri pentru producție/fisiere/ERP_Productie_2026-10-08--268cd8be.zip
+fad1ae03246d0832288d666068d9f39034da8a9f8b317dfe2c144891e04cecf6  Compară ERP-uri pentru producție/fisiere/finalize_package--03d31d90.py
+fe550c2eed4eb94f585312fc581d5e210e33c3180130f8db184fa06d7b3cf389  Compară ERP-uri pentru producție/fisiere/index--0d6cf449.html
+8b3af5158ffb4f97017ebae2dcf62e8739d812933f7581a0bbc187fe4ed52c90  Compară ERP-uri pentru producție/fisiere/legenda--51f591ad.png
+176eee70cbc3015e9e639e974cbf96057de9cc116107aea6362ef0b210925850  Compară ERP-uri pentru producție/fisiere/module1--e1e53d1e.png
+6b1d3ddb78f43e465f8c29462d70052c085bb589edbf59d3772392197aca873f  Compară ERP-uri pentru producție/fisiere/module2--a6c27682.png
+1332584f20378e3fd5e7f428d76efc9c4600fccdc52d9ee36047bc03afe7dcf1  Compară ERP-uri pentru producție/fisiere/Raport_ERP_Productie--91323634.pdf
+c7b9681093072041a6b8d7cc7e8b6ea7272350b11d01b407e5be06e429b76d49  Compară ERP-uri pentru producție/fisiere/recover_docs--e4272f40.py
+565671df986cc8d906605e05ba7f87a0486b1eb5a2559ede96d0ae54abe2f4c1  Compară ERP-uri pentru producție/fisiere/report_data--462c6a5e.py
+f66efc0fbaa95d804dd1f4c25f92b741cab11e6c2d5a0d50983c9224917821b4  Compară ERP-uri pentru producție/fisiere/surse--ede1fd27.png
+f18a40f7f80a70bfac9fe9d9220584d30a6c70aad7b78dc0bec9ccd9df6928f1  Compară ERP-uri pentru producție/fisiere/updated-28--56bdf3eb.png
+ac37c58fb260fd73a7bcc3a876995ec7b8f0d2215ab84bcf4a22570a40eceda5  Compară ERP-uri pentru producție/fisiere/versiuni--961be7a6.png
+7117ba368a91c622f93db5b115d78210829f3eca1a2e6692e50245006e5cbfe0  Compară ERP-uri pentru producție/fisiere-index.json
+9423fe4f29fec3062e32d43206ad512f97367e34155627284d86e76881036e07  Compară ERP-uri pentru producție/istoric.json
+e0821a4b0c23a66f307c54efe38672346f9099c1c9d386f94bc8943f26ca0a24  Compară ERP-uri pentru producție/metadate.json
+852396b515d9ae5741584806c42e5bdb95820ec34115a08357beff3208eba3fa  Compară ERP-uri pentru producție/rezultate.md
+a6d62f109ea82924489c98c69bf728a2daeb2add486e97b7f6179237e851e7bd  Compară soluții BI pentru iDempiere/conversatie.md
+f3c3b5bed85989e72d35d644ade0d5475cb6d95a526af7af36b906cd2c39c83d  Compară soluții BI pentru iDempiere/fisiere/1--7de8e828.png
+79d88f7b92b17441f29c37eef18860204674fbf0a8c00fbf12757bada55ade42  Compară soluții BI pentru iDempiere/fisiere/2--cfb87f75.png
+60ab511109d03040156ee10dc72b0191e611a2ab5c6646fd7854300b7180906c  Compară soluții BI pentru iDempiere/fisiere/3--4ec816c3.png
+7ac3b84e8423925076ec4e128eee44fd2fbe4a444e4d859f63fcd701494c8ef4  Compară soluții BI pentru iDempiere/fisiere/4--539d179b.png
+e2194928b17d2b7bd7427abb585091988aac3dbbcd28a3c11fc3c1011b915c2c  Compară soluții BI pentru iDempiere/fisiere/5--aa0a6ae3.png
+e039f7f2b27ec380e416dfff3a5a2e5b3415604972e048cff00a9556c6a7326e  Compară soluții BI pentru iDempiere/fisiere/6--a460dc31.png
+ad19a38541ae8035a2038d52d688c11e56eceff10ae1cce2e51bdf517312f297  Compară soluții BI pentru iDempiere/fisiere/7--3622fb5c.png
+16dae0902a0820fab0068685fdd9d1851676ed03e4e8d9c9696f9f78dbf73c44  Compară soluții BI pentru iDempiere/fisiere/8--c62f8223.png
+902c0041643ff44bf6e655f9d3ef6bf4c6c565da47e992df144fc9a0bbd5b831  Compară soluții BI pentru iDempiere/fisiere/9--05bdfe4a.png
+33412eee291c2b9d842629138feb24596ca78bcf78a7fe651de8e2db8c58c9a5  Compară soluții BI pentru iDempiere/fisiere/build_annexes--abff0b08.py
+20da80058023bc48317425cd48b45e42e2310938cf08cb2bafaae49fe2129936  Compară soluții BI pentru iDempiere/fisiere/build_excel--2cc501eb.mjs
+a1a31bec60cb34601d6dcdb4b0af8301266fa817c8af0b4c9c398136aff571d6  Compară soluții BI pentru iDempiere/fisiere/build_report--b1870f46.py
+c2de1a99a1d410e001f6c17e685c17bf630ca0fd0c08dc3776f14824d6291130  Compară soluții BI pentru iDempiere/fisiere/contact-1--ec5aa2ab.png
+ecbf007086e460589774316dfe08dde294eecc817764f966d13e53fc4c89ee01  Compară soluții BI pentru iDempiere/fisiere/contact-2--553961b2.png
+3c4af2cb3a86c04b062a8188de626e41238d06abf6bd9d2e3ea66767e6b21efe  Compară soluții BI pentru iDempiere/fisiere/contact-3--ff25d794.png
+79f1c7ebdbae4073ba37b0f680c14c1490168e304fe1a12bfbc24d4eb4c3c19b  Compară soluții BI pentru iDempiere/fisiere/contact-4--285eb69c.png
+17a602cde6c8024fccb37e6edc22a1e0abea909f2a06a347d1db8c7f8fee3861  Compară soluții BI pentru iDempiere/fisiere/contact-5--9e05ad55.png
+4feabd4b7511fa44f11a7cbcf861945391544f9dbc4350bdd3c6f9836bf2f316  Compară soluții BI pentru iDempiere/fisiere/contact-6--ae6ede30.png
+20f19324feb0c97f411579574ab51c9f39aeae566f2413c41fe6112457ed51a5  Compară soluții BI pentru iDempiere/fisiere/download_docs--c5155fe4.py
+05af62347b4cf74e41c2a78cef5d779f53f3683504afdfe7c20c773966a9a5d8  Compară soluții BI pentru iDempiere/fisiere/eva_evidence--84518b79.py
+89a4436634ce0f6f2976b646cdd536e292852f100fe4448c87c7912c0d2d0cdb  Compară soluții BI pentru iDempiere/fisiere/finalize_content--97a4bf49.py
+fe550c2eed4eb94f585312fc581d5e210e33c3180130f8db184fa06d7b3cf389  Compară soluții BI pentru iDempiere/fisiere/index--0d6cf449.html
+631d4a7a382ab842d1ab96fd1f57d3813bb581285068733aeb047e0702d8144d  Compară soluții BI pentru iDempiere/fisiere/package_bi--7d559bb3.py
+8060f330f79e4cad935f088349ac5cbcc0b97e0359b0e72e8fff9214204ac44f  Compară soluții BI pentru iDempiere/fisiere/page-01--290ead65.png
+e0f2e8687ae4d7bebed06c8684c86ffe72887e15308db818dff9a1f71e6adc85  Compară soluții BI pentru iDempiere/fisiere/page-02--c260a25c.png
+ec0440172a956f883481a095a5dd1896426dd724fbf8973ba7faa4df129fd2c5  Compară soluții BI pentru iDempiere/fisiere/page-03--08681a41.png
+80b3da1406ebee7b210b04fe37d8c55ab6bd364a05af6eb57d43f8daf2766c33  Compară soluții BI pentru iDempiere/fisiere/page-04--bc6806e3.png
+71152f0b2ed26dc7bd7ebe5ebc5c8dc996c2b7a9f454c46776f5ee986274660c  Compară soluții BI pentru iDempiere/fisiere/page-05--c7a18111.png
+fc79d9212502c08685cf17264283c61ca2b584bc3fa94bf382b1a244a26663ee  Compară soluții BI pentru iDempiere/fisiere/page-06--75a7e02a.png
+d43de4d6a8e6e5bc6747c7f186312e55ef263a3a4b8670138cff39681c864742  Compară soluții BI pentru iDempiere/fisiere/page-07--ff468c5a.png
+9c1f86c34331bea691931baa30b1e4125df15e6a2b0edb66ed608f4dfa716dad  Compară soluții BI pentru iDempiere/fisiere/page-08--c4612860.png
+64ecf25f0ee082ebe903b7aba27eaba7005240d955c75af670bf1e9dbdae1802  Compară soluții BI pentru iDempiere/fisiere/page-09--df3cf87a.png
+ea79108d9f028fc60cd6ebc830ebb79fb3c60f15231dfb965cf44fb7cd5fe303  Compară soluții BI pentru iDempiere/fisiere/page-10--99cbad7a.png
+10f14b57638373d984f5e2db0686fa8d0fc92f3f20eb439e979bf0015ecff2a9  Compară soluții BI pentru iDempiere/fisiere/page-11--45ba6586.png
+2cdfb733574d33f9ba6613b7e40797c77187ff9f34c0050c71498be8efbe8d00  Compară soluții BI pentru iDempiere/fisiere/page-12--c5431fab.png
+f0cd08096ea5898d97cbee6493f0858da304255eda794ec76c37184c273006e9  Compară soluții BI pentru iDempiere/fisiere/page-13--9ebf59a4.png
+e8faf29422112ef6bb8c4c514ffcf98624ee9a20b00d7afbdd2b9f05241d2452  Compară soluții BI pentru iDempiere/fisiere/page-14--0269d6d8.png
+0be64bfa51a2a39be58cda1e6769c2d14e32ec858fe6bc9c176240da77198a38  Compară soluții BI pentru iDempiere/fisiere/page-15--1ea445e9.png
+7c973a464f7fbea45b315e834bf20617043cf4d02a3078acc8ad592f0eed34b6  Compară soluții BI pentru iDempiere/fisiere/page-16--4c6c4813.png
+044845c400b65066842dc5246cce27774f67ad0c148080b75debce8d02a0a2fa  Compară soluții BI pentru iDempiere/fisiere/page-17--cda8cab5.png
+b163e13e5a01dc752e2d62767a49c312a35dce057f7f3d6d1f8668a008b41815  Compară soluții BI pentru iDempiere/fisiere/page-18--3fb9bb28.png
+964433b1bb011160cfcf1d39928ae4d84fcb9d0c1cbeeb89898c2b12b921f93e  Compară soluții BI pentru iDempiere/fisiere/page-19--a2689592.png
+6e127625fae01af5c0200bacba7382dbc864a5b0364402ec3298c87c8f679d6c  Compară soluții BI pentru iDempiere/fisiere/page-20--f1c9a4e0.png
+df7fe77d75ad896b9005462bd242e00c12e7590fccaff8ec457ca4af5e75dcab  Compară soluții BI pentru iDempiere/fisiere/page-21--4a7d16e6.png
+45b737c7c0c4a2fb7c21f3ba7b182326ee459241d15da2f33fd42bceb10ae877  Compară soluții BI pentru iDempiere/fisiere/page-22--3b6af048.png
+8271f184e54974cd6fa72bef01dc4ff792bfd321b2ec47e5acd504a41efb0243  Compară soluții BI pentru iDempiere/fisiere/page-23--72a0de9c.png
+ffad6e6e10edfb8084893ccc60dc2f8a395b91a03edd3d224997701c2bef585f  Compară soluții BI pentru iDempiere/fisiere/page-24--d640e00e.png
+9145d6e3c5462e82aacea14c36f50da23b0faf4cfc736a4ce5e4009e4f2806d2  Compară soluții BI pentru iDempiere/fisiere/page-25--08a33341.png
+8b51f3b0b40e2272e188f6c5fa95448dc629c867d0dab5a8eda80acb59080bde  Compară soluții BI pentru iDempiere/fisiere/page-26--462f807c.png
+a2d4f92117ac4745a0e4bbe7892058aeda1f98f2972f2a4d006bd9bf9f38b8d9  Compară soluții BI pentru iDempiere/fisiere/page-27--488e975c.png
+b5ac5532d4e585bbbdc71f924cea8a108e93e8912d8883d3b38030538b1dbd58  Compară soluții BI pentru iDempiere/fisiere/page-28--ecd0c768.png
+39d66966e6d1ac2a81c7fae84476366c37a155f74809dcb7bf7e9153bde94c13  Compară soluții BI pentru iDempiere/fisiere/page-29--946e93ff.png
+b99c88c31dc873f140b6bf72702ba14bd041ab507245dfe9756af34bf049bafd  Compară soluții BI pentru iDempiere/fisiere/page-30--42ce226e.png
+d97010adc03a880632f994213ba2386b68f7453620f55668903b7f5056f0c49a  Compară soluții BI pentru iDempiere/fisiere/page-31--f534fe50.png
+3e1c7ba53b0803fb04cddc5d168edc682309caea2b73346c5d67674aac4ee27f  Compară soluții BI pentru iDempiere/fisiere/page-32--e00ac473.png
+62a4bba7b1d5c6471b87a5438d71911d649739c0921e9115a0db67ec383a91a4  Compară soluții BI pentru iDempiere/fisiere/page-33--32ac5734.png
+cc30487f376f785e7646515e34328747fae7203327254d1754958fcf4f66cf14  Compară soluții BI pentru iDempiere/fisiere/page-34--13d418cd.png
+5f1db208232c4751ecf3090b4fd1fb48fc1ee6318ccaa3b7c179889631d287e9  Compară soluții BI pentru iDempiere/fisiere/page-35--06432f5e.png
+3c158d3c2d541729e68be73acd9134913d5011509f0b8922ce5df13a1366a4b2  Compară soluții BI pentru iDempiere/fisiere/prepare_excel--b89a079e.py
+af19052af8c3efe6e8f51df37fce30c509874173faffa82cb987ed7bfb9c3e0f  Compară soluții BI pentru iDempiere/fisiere/qa_pdf--829fab5d.py
+4542261271a4c742e9b07115b345e5308b35372e6efb69f5cd6657c89ac54be5  Compară soluții BI pentru iDempiere/fisiere/report_content--62d041f3.txt
+d9cf07e9015bf2bdac18229c012da319ffe4fe32921f8c1d401cf67b05ec1a49  Compară soluții BI pentru iDempiere/fisiere/research_bi--97e01487.py
+9f586a2fa6dc9a3b3262c9085a0df9e69f7c0c10d10e4f742dc1bd2e6beff8e7  Compară soluții BI pentru iDempiere/fisiere/supplement--ee4d9fc2.py
+ddcb73932ed18c979b7ee910b867189f5a106e4ea794bc64ebaeb0a1503b384a  Compară soluții BI pentru iDempiere/fisiere-index.json
+1525c6bb93a515eb1936026d1cecae3b00dd378d6a0e5fcd1984687a1cf797fc  Compară soluții BI pentru iDempiere/istoric.json
+5113c6e64668f2b0cdc8fc01700f9c1f9df6652c349dfe86becba1eac8b9a678  Compară soluții BI pentru iDempiere/metadate.json
+43e2e91e2041ca17bdb42a221ad1003676ab63f18a140d8b419d696295e8cbe5  Compară soluții BI pentru iDempiere/rezultate.md
+929141ab0c20f12566a059bff98b6ab2ef869157af11f4f55e16cb75d7315fed  Compară soluții Cash Flow/conversatie.md
+a5f9006fce5fe9574f1dea1d1aa52361c78c8508780d80aeea977c03f5040067  Compară soluții Cash Flow/fisiere/Audit_EVA--82582255.png
+6f11e84268ca275c8c0ba8ed856d68c1dc338f52327479cf30f275b5fb63007f  Compară soluții Cash Flow/fisiere/Cash_Flow_2026-10-08--d6b8c741.zip
+d4dc76ca4a57b38365146e14ec4ac58eb6733e3a203754a51df2a58115494711  Compară soluții Cash Flow/fisiere/Catalog_module--4c6f4def.png
+fb911613f4aee05f715bd4b717c1dd0d82fbce34df92e23b1854203f82fdee28  Compară soluții Cash Flow/fisiere/cf_collect--2449ae31.py
+69d3396387ae57951401068dfa0aaf993693a52f37b11edc78e148066e019144  Compară soluții Cash Flow/fisiere/Comparatie--600dd32d.png
+6fbf9db9f6024900ba9c8d57432e5331740e9b3da373dc435f3bb83cf52f57b8  Compară soluții Cash Flow/fisiere/Comparatie_Cash_Flow--179691a7.xlsx
+50311f1eb8424b99685ab48303392215c6eb2c3c34fe3115940cd8452acd9299  Compară soluții Cash Flow/fisiere/Extensii_iD--dd411027.png
+6361f7a20dfa2e00f72f2ac46bcacf24f90db29fd2fc96581f142e9329a0ea7e  Compară soluții Cash Flow/fisiere/Ghid--40f3d237.png
+dc4e4cd16a7c976692bc9482ef4aa08c9c809535fa7a9483fe5401e70d0b47dd  Compară soluții Cash Flow/fisiere/Module_native--fe2ce6f7.png
+13d7456dc0e71d595ae8be20d54506fbd95aafba07b2bac4a9f23a2c40ff82fb  Compară soluții Cash Flow/fisiere/pdf_contact_1--98d7239d.png
+bb4cbd92eb53ccec133aca2af4e02fac0982409a914acc94a068a46e4e12f8c5  Compară soluții Cash Flow/fisiere/pdf_contact_2--86dd0aec.png
+19c937c371e56a5bf4b35dfa2a65168849c7805ff8b953fc3b9dd2557031fe25  Compară soluții Cash Flow/fisiere/pdf_page_29--caccf29a.png
+6bd0259e8ac1fc68d7c643dccc8bc31bd9336b4d0aeffee0e7bf0f9f3e6bb54c  Compară soluții Cash Flow/fisiere/pdf_page_3--394db6e5.png
+ef22d05cb65b95af30b56c549cf367a983c58535bb3c1bd70bf387f552bcf86b  Compară soluții Cash Flow/fisiere/Raport_Cash_Flow--d513562a.pdf
+2380e87a28440f406a039f09da41a44111c52de380110691b4201f86a71ea3ce  Compară soluții Cash Flow/fisiere/Surse--bd4390e6.png
+fad2ed175e057d0cc11859fb6ada55cdd56d68b9d6a57978b9029230642c20ba  Compară soluții Cash Flow/fisiere/Versiuni--a6bce2d3.png
+3ddeb33767a35bddff2c3ca5b68bfdeb6af9102e2684980291dd5db43883cdb2  Compară soluții Cash Flow/fisiere-index.json
+61f67389df761474aba6183d88f10b74b1449e5865b7574ed0959856a9d8cdbc  Compară soluții Cash Flow/istoric.json
+96761863c8dd991499c76d856432a1f155a216e8f824b109774c47484cd6dd7c  Compară soluții Cash Flow/metadate.json
+025979d1a2b802a5d2d07f80ba6167ec10148e377ba59f220a8fbb04fa4af25a  Compară soluții Cash Flow/rezultate.md
+3635dd04b7c9ea3dc9e8fa00ca53c9a3a3e9c01d5a841db124234fd0a4d47611  Găsește aplicații open source ISO_6σ/conversatie.md
+181861bf348e5b3f39840e2418d07234ba3261e1f385d399fb0a4411fb95517f  Găsește aplicații open source ISO_6σ/fisiere/Analiza_QMS_ISO_SixSigma_EVA--a67d67cb.docx
+5355418de47b88dbae8f01e2f9af291f04bc16d01c280d75129d27c7afd59d3b  Găsește aplicații open source ISO_6σ/fisiere/annex--78e1fa6d.md
+7f4bd16273ec377d9a093482a4b9e0853990df970fbca92a179697f86b455244  Găsește aplicații open source ISO_6σ/fisiere/build--96d2f815.py
+1c37d42be7b8c4aff9a10758f85e3dc99d7c73b823b499cf07639c0dd4035f96  Găsește aplicații open source ISO_6σ/fisiere/build_excel--24e39333.mjs
+c46f26a7b896ffe6cccc739cfca746a40b1170cea48984df3798efb0ffde3fbe  Găsește aplicații open source ISO_6σ/fisiere/check-01--94b131e0.png
+5a8e8f91287d4c1ee174e42771ca6a6240201a7fb607d795f22b83a96ff790e0  Găsește aplicații open source ISO_6σ/fisiere/check-02--2a64d7ab.png
+ecca3448cae04d7e28ffcd8f479409fa23c84afea3586ce3991f4b731610fcfe  Găsește aplicații open source ISO_6σ/fisiere/check-03--ee800d9c.png
+c9076f3ab2f43e5f98b636cbf3c3c77fa5ef09beb40bce54417154ac0e03fd7b  Găsește aplicații open source ISO_6σ/fisiere/check-04--f2520f6f.png
+03e3d637b4e5b0fc938edf8e5da46d3e83c683149a7d3f665abce50a9198dfcc  Găsește aplicații open source ISO_6σ/fisiere/check-05--6538cb10.png
+e02ce5e8048b822b2c280c495a6537fbb2570113d273f2f2c851526f818e99e0  Găsește aplicații open source ISO_6σ/fisiere/check-06--d6c06822.png
+236220ca98d5ce2c60b92e8d9e63b8d9b7e3405e0012f680da64293e6a794127  Găsește aplicații open source ISO_6σ/fisiere/check-07--85178cd4.png
+d26497f7c6fea02374a4ff8dbac2c914adce0cfdb9fd3835d7160fe0525d9ccb  Găsește aplicații open source ISO_6σ/fisiere/check-08--00eb4953.png
+9d824ae651f31d32defc5ff30aa3503800d8c67ffd08c10a6f11d9fbd364b45e  Găsește aplicații open source ISO_6σ/fisiere/check-09--2d5e8bd5.png
+7ebd9f5eb73a8106e75940595d77ebeb54ff8616b9ed3a56aeac334a6ec4da27  Găsește aplicații open source ISO_6σ/fisiere/check-10--ff037716.png
+9cd82c57770944becdbeba8e78ce4055f5d2d18be8dc4be92a92030a5d2481c8  Găsește aplicații open source ISO_6σ/fisiere/check-11--9e80738a.png
+0a22e94cd03f825103f09121b1ee9667bbd99353b7b03eeb7be7dc68255d4b93  Găsește aplicații open source ISO_6σ/fisiere/check-12--6048d9bd.png
+5e078e136c0b6d72c6c989db0855c1228af6c35736956a269a7c783352d47f23  Găsește aplicații open source ISO_6σ/fisiere/check-13--dfc9b0e0.png
+e638089027da12db7768b98b3df2cccceafd874515c56f162a6b6fcda1b6db30  Găsește aplicații open source ISO_6σ/fisiere/check-14--d07113f5.png
+381b3f4278253256c42ce18285034cd4301ce1b1e970a81855ce8c40b1fc6abc  Găsește aplicații open source ISO_6σ/fisiere/check-15--5fb2ed34.png
+6c8e5073cf24b32a1e8efc51c913431f40746095c1c0653f6b52484b63406bf9  Găsește aplicații open source ISO_6σ/fisiere/check-16--2e4f3a88.png
+9ffc0736cda373e6deff448b7bfd127a4175b6c404f0dfe040de22a2ab65ac56  Găsește aplicații open source ISO_6σ/fisiere/check-17--801676ec.png
+4d954980988a5a47cadb14dd71f5141b1fedafbc744f24b4ddac94a725c9ae58  Găsește aplicații open source ISO_6σ/fisiere/check-18--70ab09ba.png
+1c50d200c747db8ec98d2689562d984e5efcd285b736220d111e5b3d7d3b38c9  Găsește aplicații open source ISO_6σ/fisiere/check-19--11292df5.png
+4a83d735762bde7e6f7139b4b16edd378d10a9e0ddc14e34a068ff7013822b6b  Găsește aplicații open source ISO_6σ/fisiere/Comparatie_QMS_ISO_SixSigma_EVA--8ed491b6.xlsx
+c38d1772944fa412f6afae6a18a444cc17a4d8db71332ef9c426a6f38c82c3ec  Găsește aplicații open source ISO_6σ/fisiere/excel-comparatie--176653e7.png
+dc1a75c3ccdbcb63da5edec2e5c814d0fda6fb315f6684b3d350393c27db1add  Găsește aplicații open source ISO_6σ/fisiere/excel-final--b8c2dc77.png
+0976f5b1e190830ec9e58fa305e523fe36416477a6176ea3a968e36dd7e2bdb7  Găsește aplicații open source ISO_6σ/fisiere/excel-module--00125bdc.png
+f2000a3b14a45fedeb010338f530a6bf962a1a7d5dbc822ea5a0812f6424a421  Găsește aplicații open source ISO_6σ/fisiere/excel-surse--3cc4af0d.png
+001c6cd1590fb52faffaa24eb9c06567181fb4c8f5cf7115d0839007c6e357cd  Găsește aplicații open source ISO_6σ/fisiere/excel-versiuni--2254ceae.png
+8ab38ae68e4e95f51c4aadf968c9f19fcfaf2606d6e9988146e54fb80c3f89a3  Găsește aplicații open source ISO_6σ/fisiere/excel_data--9269be49.py
+aa191749f963f6a791b31f9f031c45b03822640c6b048365f6d41b0a4daffd89  Găsește aplicații open source ISO_6σ/fisiere/page-01--cbaac4d2.png
+414571efa3474d2b0b36dfa3cb01c9708bfdbcc14795b7460837c895350fdff0  Găsește aplicații open source ISO_6σ/fisiere/page-02--aa0df230.png
+b4e84bf1d72382fd253000760200a535f147e2c2f5a190d89bc4e7d8e97eaf75  Găsește aplicații open source ISO_6σ/fisiere/page-03--9b595cbd.png
+f8f8492b5ed51eed5a7e226dff9c5db7104b44f46f76fd7d9f5444f7b4dcebb1  Găsește aplicații open source ISO_6σ/fisiere/page-04--4632835d.png
+b6d08af235a9a9875a44049e93040aa5d0887cdf48d9b4ec45f1feaaa3346c32  Găsește aplicații open source ISO_6σ/fisiere/page-05--919d466e.png
+5b783de87f610a453540c0c666408b1f67816388863eebe2eff94bcc9ca2ca82  Găsește aplicații open source ISO_6σ/fisiere/page-06--f66b2262.png
+ab9a7d2ad65a52a4b16229cf8cd99eba3d200bf9dd172177f681b8716143f7a6  Găsește aplicații open source ISO_6σ/fisiere/page-07--2d1ca98f.png
+72fbfa4d9a9e7824710e1ed2cf47d258411580cb25e58d3d2bcd9622bbe9191a  Găsește aplicații open source ISO_6σ/fisiere/report--10eb61e7.md
+7f9904a065fd346a6caeaa8378d6b9f302b837cc09dfce09866f0e089f8ca93f  Găsește aplicații open source ISO_6σ/fisiere-index.json
+ff138cdb8fa50e3a6c9d220a35cca95d584d7c2ea493c5cc2c6ba31626242fa3  Găsește aplicații open source ISO_6σ/istoric.json
+ed2c81bfc7fe734c3334eccc2a5303fc885fc6b332186da6be39b9063e4dafa0  Găsește aplicații open source ISO_6σ/metadate.json
+b242776664dfd580d25c1a17e79dafbcc14e7590201dea1523181a6b35a17457  Găsește aplicații open source ISO_6σ/rezultate.md
+513f045c432a393b8daab0dd7d85e3fb5d17ddb43c5f4d49c9f7c5417262a0b2  index.json
+88eaa67e37fb95226eefd71f30df6f9a445188d71c9f32c88babb83d10a10bef  Inventariază documentele ERP/conversatie.md
 cff827e34c302f3899781c08c1c93cbc5ab0776964486b844db39ab2c4b3ac02  Inventariază documentele ERP/fisiere/00_Index--7bbf6d21.html
 7f8bf61729b74a0731e6957f45d535074ca415f56e8cd658d2f99a6dda67b2f7  Inventariază documentele ERP/fisiere/01_acasa--f7069c36.png
 b1a88120bc35eefcd83e736d5fe1a380b7b5067d01f03b98d1cbc40ed2125327  Inventariază documentele ERP/fisiere/03_capitol--5b0fc657.png
@@ -122,13 +409,20 @@ c32a3224dbc597f9421f23fce2ad39e676a4d483ad67b208206f22680b2a091d  Inventariază 
 a4604b3681ad03697afb1e2f7c54e246772bf12dbd2bb1f48d2d131c44ddce3b  Inventariază documentele ERP/fisiere/Volum_09_contact_01--efb4f100.jpg
 e1c15b7540c1a48198051c99b54d9d8166e55a302d1b4c693df0eeee02caa127  Inventariază documentele ERP/fisiere/Volum_19_8--f01df1a6.png
 c4ef7bd5d00a1c8dd9ff17425ee9068810ce780d7aa917d4ce880c6816cc6028  Inventariază documentele ERP/fisiere-index.json
-4a0ebe4acc17aa6e9e000f78c7b0625b0d1dc99dc82284b2c90dee990a2d8719  Inventariază documentele ERP/istoric.json
-0b04ed94e8d0fa84e18301badd7e22cad782a7629823eab56c6ed83eacb14e24  Inventariază documentele ERP/metadate.json
+0454a67608a5a01bbb418e9215ea677d130b3d5b5adf56cd414d013b4c23e850  Inventariază documentele ERP/istoric.json
+2d883b18f84b766824a6357deae7d2e1329a088093b1596ad6c59c9c9f68a9c1  Inventariază documentele ERP/metadate.json
 dac7a6f909d353aa0cb3339bcfade12a5e40a2276c5b001e84507f5e89cb2d3d  Inventariază documentele ERP/rezultate.md
-43b9c77d95ddc21984700f604044b132dc66b1ba0e2c7104e2f3e99fb8a984d3  mascari-publicare.json
-22881a025c6a44821d2e781d61cc1e723c81a42d95b7066c872c759951af1179  README.md
-f4b59f61419144a7487880fd8c039bcac445ad25614d82485eef731b7241fa71  Verifică API-ul REGIS/conversatie.md
+b5417f79f5bee97c4fc668a2430f70b850abe71b9761270dc30418ff75a80f83  mascari-publicare.json
+7ccd13ae6f9aff264ed382b59e50aebf0bbb9b9518cbd2c570fc5e73cd02b66c  Organizează documentațiile ERP/conversatie.md
+debb2df81373db0e47cad3e4839eaf98bb3dfa4a7030d49f6037c5172caf49ae  Organizează documentațiile ERP/fisiere/eva-top6-catalog--515f37c3.png
+fe550c2eed4eb94f585312fc581d5e210e33c3180130f8db184fa06d7b3cf389  Organizează documentațiile ERP/fisiere/index--0d6cf449.html
+ba729846fbd2d60f65ce063df1ef32a485b86a1db38492d167fce161453dd6f7  Organizează documentațiile ERP/fisiere-index.json
+f6a7ed23e09e93d09c9d51fa020dcd614d5fc2d86dc5d1057bdd83933d1a7729  Organizează documentațiile ERP/istoric.json
+d88915fbc3cb7e851902dca062ccf85e5c90740bf1f1eec96622e99e04a92c01  Organizează documentațiile ERP/metadate.json
+60a7a4d247540333d0b378f188e665f5740c5695e113dc706b620d5dac4e54f4  Organizează documentațiile ERP/rezultate.md
+634cbf6ccdb0fa012708272c8549c52f554b557490b70b59bf3d9296f08bda55  README.md
+dd4ecc2bda8c1996f1ef09a6ce64e559fa59126cbdf8ef5c4007320f660ac766  Verifică API-ul REGIS/conversatie.md
 2c803191545c9be9a042b3f62176c6f53c83b3cfd31e81fb7fe77f3594b9e080  Verifică API-ul REGIS/fisiere-index.json
-a6494f3f3764f5f9d36d693e1962001f0276702cc702aba65ef7937d2565f833  Verifică API-ul REGIS/istoric.json
-7e4010b682ec136c20ef79f8241f17252f85d645310a5781caf0032b46389f07  Verifică API-ul REGIS/metadate.json
+495d676287801887c07b66db363454675947b23482cb029e639b556ef0ce41a9  Verifică API-ul REGIS/istoric.json
+5d152f660979c24e733a8d3f794241ef76e4f19da051621b23a24150f37b7a45  Verifică API-ul REGIS/metadate.json
 f3d06d796ef5ce294e0985763134bb7263d4775cee67571640de38a53af940a6  Verifică API-ul REGIS/rezultate.md

@@ -1,0 +1,749 @@
+[
+  {
+    "source_reference": "'+r['url']+'",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "../../index.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/08/01a11ac9-7ce0-7481-87a6-870f72ae1107/Analiza_iDempiere_HR_SSM_SU_2026-10-08/01_Raport/Analiza_iDempiere_HR_SSM_SU.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Analiza_iDempiere_HR_SSM_SU--253551a5.pdf",
+    "bytes": 185332,
+    "sha256": "c4fad53c3964a83b21434e35320a1e4e8c7033373ae3a912652dcd7846cc479b"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/08/01a11ac9-7ce0-7481-87a6-870f72ae1107/outputs/01a11ac9-7ce0-7481-87a6-870f72ae1107/Comparativ_iDempiere_HR_SSM_SU_2026-10-08.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparativ_iDempiere_HR_SSM_SU_2026-10-08--e7d9b08d.xlsx",
+    "bytes": 91030,
+    "sha256": "d2fbc66581a69899cc7b4f2349628a814339da794c136c15b3ed420838c63b83"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\colecteaza_documentatia.py",
+    "status": "copiat",
+    "saved_path": "fisiere/colecteaza_documentatia--ec70b304.py",
+    "bytes": 14300,
+    "sha256": "c0d3b96a93aac2013c881f6982dcd2ecef53b1db4cf01c571595bcb09d0aea3e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\completeaza_sursele.py",
+    "status": "copiat",
+    "saved_path": "fisiere/completeaza_sursele--061bcedf.py",
+    "bytes": 3361,
+    "sha256": "5f8fccaebb27e7a1e4954ff4716497a0f932992df1b3f5b81b6f76bfdf17974d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\continut_raport.py",
+    "status": "copiat",
+    "saved_path": "fisiere/continut_raport--51607e94.py",
+    "bytes": 40603,
+    "sha256": "5ede8d19af5aa2705d86e24c8db63db463378b6ba77508bfb96c50fefb3391cb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\creeaza_comparativ_excel.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/creeaza_comparativ_excel--2aa3aed1.mjs",
+    "bytes": 11071,
+    "sha256": "a30d3a9d28c3a801835322e684c9fa26e82dec45d57fe157329bc5d715852a6a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\extinde_cuprinsul.py",
+    "status": "copiat",
+    "saved_path": "fisiere/extinde_cuprinsul--0c95bb4e.py",
+    "bytes": 1814,
+    "sha256": "a8fb49e9e85d76c45014c38a46ac2fca865e81a39781a3f414e284587f60feb8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\finalizeaza_pachetul.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalizeaza_pachetul--bf26965a.py",
+    "bytes": 10936,
+    "sha256": "5a07db503146b3647708d68430c5cde400b5ad4f70217b6342b8ff305d876be6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\genereaza_dosarul.py",
+    "status": "copiat",
+    "saved_path": "fisiere/genereaza_dosarul--ea430504.py",
+    "bytes": 13688,
+    "sha256": "affe76e3ea4771e858eb137703c12b41ef26a0b7ee118a3eec824825a8b66eca"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\outputs\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\dovezi.png",
+    "status": "copiat",
+    "saved_path": "fisiere/dovezi--c5b04b6a.png",
+    "bytes": 91259,
+    "sha256": "01a44f0a5e938cf7503a3e7f00a0ae90f0ae9d0f3a6d320622260b3475f786ee"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\outputs\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\legenda.png",
+    "status": "copiat",
+    "saved_path": "fisiere/legenda--0f6849a7.png",
+    "bytes": 125475,
+    "sha256": "17e10064ed653c6154663ae0900480ea616e5cee0a5ba12b71fc882e274a7af4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\outputs\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\linkuri.png",
+    "status": "copiat",
+    "saved_path": "fisiere/linkuri--76d03280.png",
+    "bytes": 46138,
+    "sha256": "0d72a02b5ffc9110e6f00487fa89306ca25e1390f3d1e1600430533e3f8cefca"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\outputs\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\matrice.png",
+    "status": "copiat",
+    "saved_path": "fisiere/matrice--4c233fa6.png",
+    "bytes": 129964,
+    "sha256": "5ee7f758d90457e725a4de023eacd3c4e8511c0af5f4647a7c9db529e1a0bc2d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\outputs\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\module.png",
+    "status": "copiat",
+    "saved_path": "fisiere/module--6f915174.png",
+    "bytes": 70723,
+    "sha256": "7a139c0e1b036f0d96354d22202612b45ea4f93b36ed61950430026de70a66b6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\outputs\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\produse.png",
+    "status": "copiat",
+    "saved_path": "fisiere/produse--44e0848a.png",
+    "bytes": 99876,
+    "sha256": "2d88d5dfd4799bfddb3b275546f284cc6ac95e7d06406837ca1a80b2ce3984df"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\pregateste_comparativ_excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/pregateste_comparativ_excel--d7c20fbb.py",
+    "bytes": 23512,
+    "sha256": "7784ee749a1eb64259d0820a08fad6731db325461605fff3d37f311cd4bf8bf2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verifica_si_pregateste_excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verifica_si_pregateste_excel--603948e6.py",
+    "bytes": 7054,
+    "sha256": "0ee920409a9a5fe8560202016c8d431d611eabcd0139339d4a71ecc8ec622609"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\final-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-15--587f2c00.png",
+    "bytes": 150518,
+    "sha256": "f35c7efdcf3800a8e5c4f5d71543166cca7863a65d0cfd9d5ed5bdec75f2c84e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\final-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-17--54441fdc.png",
+    "bytes": 135683,
+    "sha256": "bdcbff963471e147be6158b4c6e8259c0c9401dbff9b297db22784e750d4d7fe"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\final-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/final-18--f834dbd4.png",
+    "bytes": 155119,
+    "sha256": "23debbfeb3b570e9eb8d3d5f1a8e14f4a03238a98d90bccaa2b59424f21221fc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-01--50d7ac90.png",
+    "bytes": 177638,
+    "sha256": "7dc08760905117bc2eacef7388fc3942de3ed1e0d3bdf4385beadf9025a944bc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-02--9c5ba3ee.png",
+    "bytes": 157139,
+    "sha256": "449e3f682bfbd0ea95c7ef2aaa6f1845f1af170418bc57bb4beba38e93e9a921"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-03--5c02b6ed.png",
+    "bytes": 150288,
+    "sha256": "72bb44b43988e4bbbf978fb0b2259004a838808d81587981bd9c3dd19d4028ff"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-04--701a8348.png",
+    "bytes": 124482,
+    "sha256": "90990f9047810103fb98ae53203f3d744d566dc23272de4dab0d29be6f8cc16b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-05--41ff86ae.png",
+    "bytes": 143842,
+    "sha256": "64005e835cac60dc135ff3308933c5a1c1dcae6e2a9dd16d2f60251cf2ff0384"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-06--ac40a5e1.png",
+    "bytes": 182081,
+    "sha256": "48862421f047185d8ae81cfcc5b69c7e6d1cc004861992c7eb3b5604a32de182"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-07--a9c13d6f.png",
+    "bytes": 164399,
+    "sha256": "f17b7077ae7fdcff7302027393c6bc664976702a81afc5bed5b81d4294eb0590"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-08--d7b0452e.png",
+    "bytes": 175107,
+    "sha256": "a311ff7d2be75d80dfde0dbbb39be41475b31ff96f8c055a276069d6fccdc2fa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-09--3697d24a.png",
+    "bytes": 132823,
+    "sha256": "e75ab614168d4b0dae078512741841a1cb4ab5e5601e013d76068deafe313f11"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-10--43ed7425.png",
+    "bytes": 127595,
+    "sha256": "a264b235989978130da2abefa8eb155d643ae8c82f986cccd363c3f4634a0115"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-11--79bf7883.png",
+    "bytes": 104318,
+    "sha256": "fbd4561b30682a0c9dc965fd87f16794639f869944d8828f501dd2e93c5fe9a1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-12--0e6a099a.png",
+    "bytes": 97564,
+    "sha256": "df08f873d9ce4525cc10ca5e218f17482714afdfe547ba490d763bd93009bcdf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-13--1c4a8e34.png",
+    "bytes": 129230,
+    "sha256": "e700482faa86dba5860eb44eabcca37bf2e9dcec52c448b496bb2b982453c262"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-14--8ac1d600.png",
+    "bytes": 133549,
+    "sha256": "a8ffe8619946efd6ca9354a50284279dfcea1021bcafaff8ce2d8db3ee25255b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-15--2944c024.png",
+    "bytes": 150316,
+    "sha256": "64a791dd5ade71e9d50ca07daaa24db702d386fd54406c58685acfe6704b141c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-16--8ce5f54e.png",
+    "bytes": 118758,
+    "sha256": "0b5d59c749012e2510beb4abded45a49634ff0782250017b46d7bde1c2eabac2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-17--d0d77d4a.png",
+    "bytes": 127615,
+    "sha256": "ad7c4cccf9b5250a6fdb3db0db0df0459df85bb783d3077896f78a1d78ff2955"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-18--53a619c8.png",
+    "bytes": 117519,
+    "sha256": "f70ca97732ff7cd9d816f81bbfeb67232c9f7756027cf7328fd90376ecbe5da7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-19--13ab8a6f.png",
+    "bytes": 133077,
+    "sha256": "7e4fba6c4fa460536bfdbe7792d40a9144ebd3e5230de071afb4ee6b515d6545"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-20--76a2edea.png",
+    "bytes": 131982,
+    "sha256": "cc426f36ceebaef042625f2251615523b5abe28c96f9ac36e4ca2c677aba7e0c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-21--9b74da4a.png",
+    "bytes": 128789,
+    "sha256": "017fef8342f4951d31d7ddde24de2259c1bb40b76ec0f92f378db8fbc8bf2cf7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-22--57d6f354.png",
+    "bytes": 138367,
+    "sha256": "2d3650be33c71afa30cbccabf182b57494fa6bd3dc91095baaed63b0fe9282c1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-23--70bbac62.png",
+    "bytes": 119222,
+    "sha256": "47a9a77b75cc17647190f89755a16e0159a8f72264b01a1d9af30604721af239"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-24--40d1180d.png",
+    "bytes": 114690,
+    "sha256": "5bc95d6696f42ea82c5ec42f520820b97d27f0f52de23cadc527213053a2345a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-25--8a503863.png",
+    "bytes": 134195,
+    "sha256": "3f39275a8df14d38a2fe71f4a8e88bfc9f69a8e111be58ab8c31ff0930bbf57b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-26--d324da24.png",
+    "bytes": 149397,
+    "sha256": "490c714892250dc1c682664c06481c3e81d2a7473ed65e20f819bf0674dd5b18"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11ac9-7ce0-7481-87a6-870f72ae1107\\verificare_vizuala\\pagina-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/pagina-27--567e39cf.png",
+    "bytes": 135105,
+    "sha256": "f406fe95691082f15201352209805b8c2472e2fe63442e83d68c9548d596b9fd"
+  },
+  {
+    "source_reference": "PROTOCOL-SALVARE.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Salveaza-Codex.ps1",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip",
+    "bytes": 14019212,
+    "sha256": "8af9b860b93622cbf0bcb07613d3e4a535e69d9c03cb5cd918a96afe1df6ae9e"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08/INDEX.html",
+    "status": "copiat",
+    "saved_path": "fisiere/INDEX--17c533b2.html",
+    "bytes": 96538,
+    "sha256": "593947f650dafcc8184f84d4d76573a459e5a3e9bbc4c5b8af9e7ba8f36613f4"
+  },
+  {
+    "source_reference": "https://axelor.com/pricing/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://bxservice.github.io/idempiere-rest-docs/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/adk/7.4/dev-guide/web-services/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/aos/en/5.4/hr/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/aos/en/8.0/aos/RH/employe_file/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/aos/en/aos/RH/employe_file/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/aos/en/aos/RH/job_offer/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/aos/en/aos/RH/tickets/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/aos/en/aos/RH/training/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.axelor.com/aos/en/category/rh/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/framework/user/en/api/rest",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/framework/v14/user/en/guides/integration/webhooks",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/hr/employee",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/hr/introduction",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/hr/payroll-entry",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/hr/payroll-setup",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/hr/recruitment",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/hr/salary-slip",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/hr/shift-management",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/hr/training-program",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.idempiere.org/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.idempiere.org/docs/basic-functional/menue_overview",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://forum.axelor.com/t/clarifcation-on-community-versions/6243",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://frappe.io/framework/api-and-integrations",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ghid.ssm.ro/docs",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ghid.ssm.ro/docs/02-ghiduri/utilizator/generatoare-documente",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ghid.ssm.ro/docs/02-ghiduri/utilizator/introducere-date-angajati",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ghid.ssm.ro/docs/02-ghiduri/utilizator/primii-pasi",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ghid.ssm.ro/docs/03-api",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ghid.ssm.ro/docs/03-api/autentificare",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ghid.ssm.ro/docs/03-api/exemple-implementare/nodejs",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ghid.ssm.ro/docs/03-api/rapoarte",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/adempiere/adempiere/releases",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/apache/ofbiz-framework",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/apache/ofbiz-framework/blob/trunk/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/axelor/axelor-open-suite",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/axelor/axelor-open-suite/releases",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/axelor/axelor-open-suite/tree/master/axelor-human-resource",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/axelor/open-suite-webapp",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/bxservice/idempiere-rest",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/commit/5779e2a19056262a980695ba03681969f1737f52",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/808f976f6904829ab3cbbde7dbd0ac006cef0574/Documentatie/Analiza_iDempiere_HR_SSM_SU_2026-10-08",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/Codex",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/Codex/commit/25f4b8c6a7ae4aa9c829c9d5a19d20f93523eb55",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/Codex/commit/6eaaf8ade5e0b6dc1619ba90b8208f9f83aeef39",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/Codex/commit/8f36675ca31655f8fd6c357a095ad8918acf6bf9",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/Codex/commit/c0e383ebb5419d44c16bc42b994bf69644973b23",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/Codex/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/Codex/settings/keys/new",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/frappe/hrms",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/frappe/hrms#key-features",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/frappe/hrms/releases",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/idempiere/idempiere",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/ingeint/ingeint-idempiere-humantalent",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/login/device",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/luisamesty/Amerpsoft-iDempiere-community",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/luisamesty/Amerpsoft-iDempiere-community/blob/master/README.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/luisamesty/Amerpsoft-iDempiere-community/blob/master/org.amerpsoft.com.idempiere.personnelpayroll/README.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/243520",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/73772",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/80730",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/63056",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nightlies.apache.org/ofbiz/stable/ofbiz/html5/user-manual.html#_human_resources",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nightlies.apache.org/ofbiz/stable/ofbiz/pdf/developer-manual.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nightlies.apache.org/ofbiz/stable/ofbiz/pdf/user-manual.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ofbiz.apache.org/download",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ofbiz.apache.org/download.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://orangehrm.com/pricing",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/axelor/axelor-open-suite/master/LICENSE",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://raw.githubusercontent.com/frappe/hrms/develop/license.txt",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://safehub.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://safehub.ro/preturi/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://sourceforge.net/projects/idempiere/files/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Category%3AAvailable_Plugins",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Downloading_Installers",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Expense_Report_%28Window_ID-235%29",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Manual",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_CDSoftware_Attendance",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_CDSoftware_EmployeeRecruitment",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_CDSoftware_EmployeeTraining",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_CDSoftware_Payroll",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_CDSoftware_PayrollReport",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_Ingeint_Payroll",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_Libero_Payroll",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_Localization_Romania",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Reference",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/w-en/images/5/53/PayrollPluginNomina_EN_Luis_Amesty.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ssm.ro/intrebari-frecvente",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ssm.ro/oferta",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ssmatic.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ssmatic.ro/preturi",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "salvari/2026-10-07_initial/README.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "ultima-incarcare.json",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "01a11afe-4484-77d1-ab73-73cc47f60b56",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791454233,
+  "updated_at": 1791457139,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară ERP-uri pentru producție",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 12420615,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 127,
+  "message_count": 23,
+  "content_sha256": "dcca075836520a5f7f1d5111f73f387c55f4572860e7afa9957dda9a3a7e4bc4",
+  "files_copied": 22,
+  "references_not_copied": 48
+}

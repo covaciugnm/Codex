@@ -2,7 +2,7 @@
 
 ID: `01a11168-d247-7a22-aa3f-c91b5b3494c1`  
 Proiect: iDempiere  
-Export UTC: 2026-10-07T08:10:14.831141+00:00
+Export UTC: 2026-10-08T14:13:28.280906+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 

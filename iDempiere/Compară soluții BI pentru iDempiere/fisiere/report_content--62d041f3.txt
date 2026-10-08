@@ -1,0 +1,419 @@
+@@PAGE Business Intelligence pentru Eva Accounting și iDempiere
+Raport de selecție și arhitectură pentru management și echipa tehnică
+Evaluare la 8 octombrie 2026 • Autor: Codex • Beneficiar: echipa Eva Accounting
+
+Recomand Apache Superset ca motor principal BI, păstrând contabilitatea și rapoartele operaționale în iDempiere 13 și dezvoltând un configurator AI local bazat pe profilul companiei. Aceasta este alegerea cu cel mai bun echilibru între acoperire analitică, integrare programatică, control al accesului și lipsa unei licențe comerciale obligatorii pentru funcțiile BI centrale. Recomandarea este una de arhitectură; trecerea în producție depinde de testele și criteriile de acceptanță din acest document.
+
+Metabase OSS este alternativa pentru introducere rapidă și utilizatori fără SQL, beneficiind de un plugin iDempiere public. Integrarea gratuită de tip guest are însă limite față de self-service cu SSO. Knowage CE este potrivit pentru raportare clasică și OLAP, Redash pentru echipe SQL, iar Lightdash OSS pentru modelare semantică și dbt. Niciuna dintre cele cinci soluții nu este demonstrată aici ca oferind gratuit, gata configurat, întregul flux AI cerut pentru Eva.
+
+„100% free” înseamnă în această analiză ediție self-hosted utilizabilă fără abonament sau taxă per utilizator pentru funcțiile punctate. Infrastructura, integrarea, suportul, verificările și inferența AI consumă resurse. Funcțiile Enterprise sunt inventariate, dar nu sunt contabilizate ca gratuite.
+
+Decizia propusă este aprobarea unui pilot Superset cu două firme și două organizații, trei domenii de date și configurare AI în mod propunere. Nu propun înlocuirea ERP-ului și nici instalarea simultană a tuturor candidaților. Pilotul trebuie să confirme reconcilierea contabilă, izolarea și reproductibilitatea configurației.
+
+Surse principale: S01–S17, S35–S42, S50–S55; audit Eva la commitul 1c039193e0c1626cb03fb8ca37f9980a1703fd0c. Documentele și dovezile sunt indexate în subfolderele bibliotecii BI.
+@@PAGE Cum se citește și se verifică evaluarea
+Raportul compară cinci ediții gratuite și două repere distincte: iDempiere standard și codul Eva Accounting. Inventarul este complet pentru taxonomia și sursele identificate în această evaluare, nu o certificare că toate extensiile private sau istorice din ecosistem au fost găsite. Un rezultat de căutare sau o etichetă „open source” nu demonstrează că un modul este instalat, compatibil ori întreținut.
+
+Ordinea probelor este: cod și manifest fixate la commit; documentație de versiune; manual oficial curent; matrice comercială de ediții; pagină de plugin; anunț istoric. Când sursele diferă, se păstrează diferența. De exemplu, wiki BX Metabase menționează testare pe 8.2, iar manifestul sursei descărcate declară Java 17 și dependențe iDempiere 11. Niciuna nu dovedește testarea pe Eva 13.
+
+Legenda matricei: N = funcție nativă în ediția gratuită; C = disponibilă gratuit după configurare, modelare sau instalarea unei dependențe; L = funcție limitată în ediția gratuită; P = funcția comparabilă este comercială; D = dezvoltare/infrastructură externă; U = neconfirmat; — = în afara rolului principal al produsului. N nu înseamnă că datele Eva și indicatorii companiei sunt deja pregătiți.
+
+Pentru Eva folosim E = implementare observată în cod, A = infrastructură/capabilitate ERP moștenită de verificat în instalare, G = gol identificat în componentele inspectate, H = componentă istorică/dormantă conform README. „G” nu dovedește inexistența în orice altă ramură.
+
+Nu au fost executate benchmarkuri sau instalări BI și nu a fost accesată baza de producție. Scorurile sunt judecăți inginerești explicate, nu rezultate de laborator. Release-urile identificate pe paginile oficiale GitHub sunt salvate în versiuni_identificate.json; interogările API nereușite sunt păstrate separat în releases.json; manualele complete sunt instantanee de repository cu SHA și pot include funcții în dezvoltare. Numai un release stabil fixat prin digest poate deveni candidat de producție.
+
+Traseu de lectură: management — paginile 1, 3, 20, 29, 31; arhitecți — 14–28; testare și acceptanță — 30; surse — ultimele pagini. Excelul include 64 de funcții, coloane pe produse și foi dedicate componentelor native și extensiilor. Bifele separă Da, Parțial, Nu și Neconfirmat.
+@@PAGE Ediții și condiții de eligibilitate
+|Produs evaluat|Licență de bază|Ce este gratuit în evaluare|Limită decisivă|
+|Apache Superset|Apache 2.0|Motor BI, dashboarduri, API, RLS și SDK embedding|Operare și adaptor iDempiere necesare|
+|Metabase OSS|AGPL v3; condiții distincte de embedding|Întrebări, SQL, dashboarduri, guest embedding|SSO embedded și row/column security avansată comerciale|
+|Knowage CE|AGPL v3|Raportare BIRT/Jasper, dashboard de bază, KPI, OLAP, inquiry|Matricea curentă rezervă funcții importante Enterprise|
+|Redash self-hosted|BSD 2 clause|SQL, vizualizări, dashboarduri, alerte|Izolarea este orientată pe sursa de date, nu RLS per utilizator|
+|Lightdash OSS|MIT pentru nucleu; director EE separat|Semantică, explorare, grafice și dashboarduri din nucleu|Embedding, AI Analyst și MCP self-hosted cer Enterprise în documentația curentă|
+
+Cele cinci sunt comparate la funcționalitatea ediției gratuite. Dacă cerința este ca absolut orice funcție oferită de furnizor, inclusiv toate produsele comerciale, să fie gratuită, Metabase, Knowage și Lightdash nu îndeplinesc acea interpretare. Pentru integrarea cerută, Superset este candidatul principal; Redash este reperul simplu, dar mai puțin complet. Nu există motiv tehnic să forțăm cinci câștigători echivalenți.
+
+Licența aplicației, a SDK-ului de embedding, a driverelor și a modelului AI sunt verificări separate. Un server rulat local nu transformă funcțiile EE în funcții OSS. Nu se elimină verificări de licență și nu se importă module EE în configuratorul Eva. Păstrarea atribuirilor, licențelor și eventualelor obligații de furnizare a sursei face parte din livrare; analiza nu presupune că simpla separare în containere rezolvă automat toate obligațiile.
+
+Versiunea iDempiere de referință pentru Eva este 13, conform README la commitul auditat. Versiunile identificate sunt Superset 6.1.0, Metabase OSS v0.64.1, Knowage v9.0.11, Redash v26.9.0 și Lightdash 2.423.2. Pentru candidații BI, echipa va alege release-ul stabil compatibil și va fixa imaginea, driverul PostgreSQL, SDK-ul și schema de metadate în manifestul pilotului. Documentația „latest” este material de cercetare, nu specificație de build.
+
+Surse: S08, S10, S15–S16, S35–S37, S41–S42, S50; fișierele LICENSE și PROVENIENTA din manualele locale.
+@@PAGE Taxonomia funcțiilor BI
+|Categorie|Funcții urmărite|Rezultat cerut pentru Eva|
+|Acces la date|PostgreSQL, surse multiple, fișiere, API, replică|Citire controlată din date ERP validate|
+|Pregătire și semantică|Join, metrici, dimensiuni, dicționar, istoric|Definiție unică pentru fiecare indicator|
+|Explorare|SQL, editor vizual, filtre, pivot, drill-down|Analiză de către tehnic și business|
+|Vizualizare|KPI, grafice, hărți, dashboard, interacțiuni|Tablouri adaptate rolului și industriei|
+|Raportare|Tabular, paginat, export, programare, alerte|Rapoarte operaționale și manageriale distincte|
+|Securitate|Autentificare, roluri, tenant, organizație, coloane|Zero acces între firme sau drepturi nepermise|
+|Integrare|API, embed, context ERP, link către document|Experiență integrată în ZK iDempiere|
+|AI|Profilare, selecție KPI, generare config, NLQ, explicații|Propuneri verificabile, fără cifre fabricate|
+|Operare|Cache, joburi, backup, monitorizare, upgrade|Serviciu sustenabil și recuperabil|
+|Guvernanță|Versiuni, trasabilitate, aprobări, proprietar KPI|Decizii reproductibile și auditabile|
+
+BI nu este sinonim cu un grafic. Un grafic corect tehnic poate afișa o metrică greșită: vânzări cu TVA numite venituri, solduri însumate între luni sau facturi în valute diferite adunate fără conversie. Evaluarea acordă importanță modelului de date și izolării, nu numai numărului de vizualizări.
+
+Funcțiile financiare preconfigurate pentru România nu sunt native în platformele BI generice. Ele trebuie construite din definițiile și datele Eva. De asemenea, ETL, CDC, guvernanța de catalog completă, ML și writeback nu sunt presupuse incluse doar fiindcă produsul poate apela un API.
+
+Matricele următoare descompun taxonomia în funcții comparabile. Subfolderul 02_Matrice conține aceeași structură în CSV, iar 04_Arhitectura_AI conține exemple de profil, contracte și scenarii de acceptanță. Acestea sunt specificații de implementare, nu un modul instalat.
+@@PAGE Matrice de acces la date și modelare
+{{MATRIX1}}
+@@PAGE Matrice de explorare și vizualizare
+{{MATRIX2}}
+@@PAGE Matrice de raportare și distribuție
+{{MATRIX3}}
+@@PAGE Matrice de securitate integrare și AI
+{{MATRIX4}}
+@@PAGE Apache Superset
+Superset este opțiunea recomandată când echipa urmărește un motor analitic extensibil, cu control asupra implementării și fără trecerea obligatorie la o ediție proprietară pentru funcțiile BI principale. Seturile de date, metricile SQL și graficele pot fi compuse în dashboarduri; SQL Lab servește analiștilor, iar Explore utilizatorilor care lucrează pe un model pregătit. [S01, S04, S35 și manualele locale Superset]
+
+Integrarea propusă folosește un serviciu server care verifică sesiunea Eva și emite guest token pentru dashboardul permis. Tokenul include restricții de date determinate de server. Cheia de serviciu nu ajunge în browser. SDK-ul încarcă dashboardul într-un container al formularului ZK sau într-o pagină internă controlată. Accesul la SQL Lab rămâne rezervat analiștilor autorizați; guest embedding nu este un editor complet de BI.
+
+RLS în Superset ajută filtrarea, dar nu înlocuiește securitatea bazei de date. Contul bazei trebuie limitat la vederi aprobate, iar izolarea cabinetelor trebuie păstrată. Separarea drepturilor la dataset, dashboard și export se testează pe release-ul fixat, inclusiv cache, descărcări și rapoarte programate. [S38; PostgreSQL S34]
+
+Alertele și rapoartele necesită configurare: worker, scheduler, broker/cache, browser pentru capturi și canal de livrare. Acestea sunt costuri operaționale și dependențe, nu taxe de licență Superset. Import/export și API permit generarea controlată a configurației, însă structura payloadurilor trebuie validată împotriva versiunii instalate. [S39–S40]
+
+Superset 6.1 documentează un server MCP inclus pentru queryuri, grafice și dashboarduri, cu client AI extern. MCP trebuie securizat separat; setarea de utilizator de dezvoltare nu se utilizează în producție. [S55]
+
+Golul pentru Eva este adaptorul OSGi și serviciul de configurare AI. Nu a fost identificat în sursele inspectate un conector Superset pentru Eva gata instalat și testat. Avantajul recomandării este libertatea de a-l construi fără a condiționa obiectivul central de un pachet Enterprise. Costul este o echipă capabilă să opereze Python, servicii asincrone și metadate versionate.
+@@PAGE Metabase OSS
+Metabase este foarte potrivit pentru întrebări de business și explorare accesibilă utilizatorilor care nu scriu SQL. Editorul vizual, întrebările salvate, filtrele și dashboardurile reduc timpul până la prima analiză. Pentru Eva, avantajul distinct este pluginul public BX Service Metabase, care documentează afișarea în formular BI, dashboard de start, câmp, Quick Info și ieșire de raport. [S06, S20]
+
+Integrarea gratuită de tip guest folosește JWT și parametri blocați. Documentația curentă o descrie ca vizualizare de grafice și dashboarduri; editorul de întrebări, SQL editor și drill-through în embedded SSO sunt funcții ale planurilor comerciale. Parametrul blocat pe firmă nu trebuie confundat cu întregul model de autorizare row/column pentru utilizatorii autentificați. [S06–S07]
+
+Pluginul BX transmite AD_Client_ID, dar pentru Eva trebuie demonstrată și restricția pe organizații, roluri și eventual cabinete. Fiecare întrebare din dashboard trebuie legată corect la parametrii de securitate; simpla prezență a unui filtru vizual nu este probă de izolare. Exportul și expirarea tokenurilor intră în scenariile de test.
+
+Wiki menționează release 8.2, iar manifestul descărcat declară dependențe 11.0.0 și Java 17. Acest fapt justifică un test de build și runtime pe iDempiere 13, nu respingerea automată și nici declararea compatibilității. Bibliotecile incluse, inclusiv mecanismul JWT, trebuie verificate înainte de instalare. [S20; manual local BX_Metabase/META-INF/MANIFEST.MF]
+
+Alegerea Metabase este justificată dacă echipa acceptă embedded predominant pentru consum și analize create în interfața Metabase separată. Dacă managementul cere self-service embedded, SSO și guvernanță avansată fără plată, condiția nu este satisfăcută de OSS în același mod. Metabot, NLQ și MCP sunt disponibile în oferta open source curentă cu provider propriu; documentația include vLLM local. Acesta este un avantaj AI real, fără a presupune inferență fără cost de resurse. Profilul complet Eva, publicarea controlată și integrarea drepturilor ERP rămân dezvoltare. Metabase este principalul contracandidat pentru pilotul AI. [S51–S54]
+@@PAGE Knowage Community Edition
+Knowage CE oferă o suită BI clasică mai largă decât un simplu dashboard SQL: rapoarte BIRT/Jasper, KPI, OLAP, interogare vizuală, catalog și spațiu de lucru. Poate fi relevant dacă organizația are deja competențe Java, rapoarte Jasper și cerințe de analiză multidimensională. [S10–S11, S46–S47]
+
+Matricea oficială curentă trebuie citită mai atent decât formularea generală de marketing „toate capabilitățile analitice”. Aceeași pagină listează în Enterprise: widgeturi avansate inclusiv pivot/interactivitate, near real time, dossier Word/PDF, data preparation, colaborare, glossary, audit dashboard, scheduler batch, Python integration, import/export și administrare multi-tenant. Nu le considerăm disponibile gratuit doar pentru că manualul suitei le descrie. [S10]
+
+Există mecanisme SDK pentru integrarea documentelor și datelor în pagini externe. Totuși, autentificarea, profilurile și compatibilitatea cu versiunea CE aleasă necesită verificare. Nu există în dovezile colectate un conector Eva specific care să rezolve automat AD_Client_ID, AD_Org_ID și drepturile utilizatorului. [S47]
+
+Pentru scenariul Eva, complexitatea suitei nu compensează restricțiile ediției gratuite la distribuție și administrare. O implementare cu instanțe separate poate evita necesitatea administrării multi-tenant din produs, dar adaugă efort operațional; nu este aceeași funcție și nu primește același punctaj.
+
+Recomand Knowage numai dacă pilotul arată că OLAP și raportarea clasică au prioritate față de embedding interactiv și automatizare. Arhiva locală de documentație este completă pentru repository-ul fixat; descrierile EE din ea sunt păstrate ca referință și marcate în comparație. Asistentul generativ al furnizorului nu este luat drept AI gratuit disponibil pentru configurarea profilului companiei.
+@@PAGE Redash self hosted
+Redash are o arhitectură orientată către interogări: un analist scrie SQL sau interogarea specifică sursei, salvează rezultatul, construiește vizualizări și le combină în dashboarduri. Programarea interogărilor și alertele sunt utile pentru operațiuni, control financiar și verificări de calitate a datelor. Nucleul BSD permite adaptare fără pachet comercial obligatoriu pentru aceste funcții. [S12–S14, S36]
+
+Modelul documentat de permisiuni este bazat pe grupuri și surse de date. Acesta este mai simplu decât izolarea dinamică pe fiecare firmă și organizație cerută pentru un ERP multi-firmă. Soluția realistă este o sursă de date restrânsă per cabinet sau grup autorizat, cu vederi și conturi DB separate. Filtrele de dashboard și parametrii de interogare nu sunt o barieră de securitate.
+
+Partajarea și embeddingul trebuie tratate cu atenție: un URL public sau o cheie de dashboard acordă acces celor care o dețin. Pentru datele contabile nu recomand publicarea. Integrarea în Eva trebuie să treacă prin autentificare controlată și să probeze că vizualizările restricționate nu pot fi accesate prin API sau export. [S13]
+
+Redash este potrivit pentru o echipă tehnică mică, cu cerințe relativ stabile și analiști care cunosc SQL. Are un cost de modelare mai mare pentru utilizatorii de business și nu oferă din oficiu o semantică financiară, configurator AI de companie sau raportare paginată de tip formular contabil.
+
+Îl păstrăm ca reper de control în pilot: aceeași interogare și același dashboard minimal pot estima cât din complexitatea Superset este justificată. Dacă cerința se reduce la câteva dashboarduri interne SQL, Redash poate câștiga la simplitate. Pentru ținta completă exprimată de utilizator, acoperirea și integrarea îl plasează sub Superset.
+@@PAGE Lightdash OSS
+Lightdash este atractiv pentru echipe care doresc să definească metrici și dimensiuni în cod, aproape de modelele dbt. Astfel, modificarea unei definiții analitice poate fi revizuită în Git, testată și promovată între medii. Pentru AI, un model semantic bine definit este un avantaj real: agentul poate selecta metrici aprobate în loc să inventeze joinuri și formule. [S15–S17 și manualele locale Lightdash]
+
+Avantajul semantic nu trebuie confundat cu eligibilitatea tuturor componentelor produsului. LICENSE exclude explicit directorul backend/src/ee din licența MIT a nucleului. Documentația embedding spune că funcția este pentru utilizatori Cloud și Enterprise On-Prem. Paginile self-hosted AI și MCP cer o cheie LIGHTDASH_LICENSE_KEY; absența cheii nu este doar o problemă de configurare a modelului. [S15, S41–S42, S50]
+
+Prin urmare, nu recomand Lightdash ca răspuns direct la „embedding și AI complete, fără licențe plătite”. El rămâne un candidat bun pentru BI separat, gratuit, cu dezvoltare proprie a serviciului AI și a integrării. Această dezvoltare nu trebuie estimată ca și când SDK-ul embedded comercial ar fi deja disponibil gratuit.
+
+Datele Eva ar necesita marturi și modele dbt sau un contract semantic echivalent; documentarea metricilor, unităților, granularităților și restricțiilor este oricum utilă, indiferent de motorul ales. Recomand preluarea principiului metrics-as-code în arhitectura Superset, fără copierea codului EE Lightdash.
+
+Un pilot Lightdash este justificat dacă există deja o echipă dbt și dacă managementul acceptă folosirea aplicației BI separate. Pentru obiectivul actual, restricțiile de embedding și AI sunt eliminatorii pentru varianta complet nativă, gratuită. Ele nu anulează utilitatea nucleului open source pentru alte scenarii.
+@@PAGE iDempiere standard pentru BI și performanță
+|Componentă nativă|Funcții și obiecte principale|Utilitate și limită|
+|Application Dictionary|AD_Table, AD_Column, AD_ReportView, AD_Process, AD_Process_Para|Metadate și procese configurabile; nu un warehouse|
+|Report View|Vederi de raportare, filtre, sortare, proces asociat|Reconstruiește datele normalizate pentru raport|
+|Print Format|AD_PrintFormat, AD_PrintFormatItem, grupare, totaluri, layout|Rapoarte și formulare; configurare necesară|
+|Raport din fereastră|Filtre, înregistrări selectate, export, navigare spre date|Analiză operațională contextuală|
+|Chart|AD_Chart, AD_ChartDatasource, serii și SQL|Grafice pe date ERP; nu toate vizualizările BI externe|
+|Dashboard Content|PA_DashboardContent, acces și preferințe|Portlet HTML, raport, grafic și indicator|
+|Performance Goal|PA_Goal, restricții, ținte și progres|Management prin obiective|
+|Performance Measure|PA_Measure, PA_MeasureCalc, PA_Achievement|Calcul și realizări pentru indicatori|
+|Ratio și Benchmark|PA_Ratio, PA_RatioElement, PA_Benchmark|Rapoarte între valori și etaloane|
+|Color Schema|PA_ColorSchema|Praguri și interpretare vizuală a performanței|
+|Alert|AD_Alert, AD_AlertRule, AD_AlertRecipient|Reguli de excepție și destinatari|
+|Scheduler și arhivare|Procese/rapoarte planificate, istoric, distribuție|Necesită configurare și controlul destinatarilor|
+
+Acestea sunt capabilități ale platformei, nu dovezi că fiecare ecran sau indicator este activ în instalarea Eva. Rolul și meniul pot ascunde funcții existente. Inventarierea locală trebuie făcută din Application Dictionary și configurația OSGi, înainte de a dezvolta o funcție duplicată.
+
+Surse: S18, S27–S28; manualele iDempiere descărcate, secțiunile dashboard, chart, report wizard, goal indicator și scheduler. Lista exclude explicit funcții din „in-development” ca disponibilitate implicită în Eva 13.
+@@PAGE Raportare financiară și operațională iDempiere
+|Familie|Componente și funcții|Contribuție la BI|
+|Rapoarte financiare|PA_Report, Report Line Set, Report Column Set|Definirea liniilor și coloanelor, perioade și formule|
+|Ierarhii|PA_Hierarchy și surse de raport|Agregări după structuri organizaționale și conturi|
+|Report Cube|PA_ReportCube, proces FactAcctSummary|Precalcul contabil pe dimensiuni; nu server OLAP general|
+|Situații contabile|Statement of Accounts, Trial Balance|Solduri, rulaje și verificare contabilă|
+|Jasper integrat|org.adempiere.report.jasper, resurse JRXML, parametri|Rapoarte paginate și formatare avansată|
+|Parteneri|Solduri, facturi deschise, scadențe, plăți și alocări|Creanțe, datorii și flux de numerar|
+|Vânzări și achiziții|Comenzi, facturi, livrări, recepții|Performanță comercială și furnizori|
+|Stoc și costuri|Inventory Valuation, Product Cost Summary, mișcări|Valoare stoc, cost, rotație după modelare|
+|Proiecte|Project Reporting, marjă și contabilitate pe proiect|Profitabilitate și urmărire proiect|
+|Planificare numerar|Cash Plan și rapoarte de cash flow documentate|Planificare ERP; delimitare de pluginul CashForecasting|
+|Info Windows și Quick Info|Interogare contextuală și informații în ecran|Drill-down operațional fără platformă BI separată|
+|Replică de raportare|Mecanism documentat pentru read-only replica|Reducerea încărcării pe baza tranzacțională|
+
+Raportarea financiară rămâne ancora de reconciliere a BI. Nu se mută în Superset calculele fiscale doar pentru a obține un dashboard. Modelul analitic consumă fapte validate și păstrează posibilitatea de a ajunge la documentul ERP, prin link autorizat.
+
+Sunt de verificat seturile de conturi, schema contabilă, perioadele de ajustare, stornările și regulile de semn. Nu se însumează simultan Facts din două scheme contabile. Nu se amestecă documente în ciornă cu documente postate fără un indicator separat de statut.
+
+Surse: S18, S28 și manualul local iDempiere, inclusiv financialreport-enhancement, reporting-from-read-only-replica, extensible-report-content-generation.
+@@PAGE Extensii iDempiere direct relevante pentru BI
+|Extensie|Funcții documentate|Disponibilitate și compatibilitate|
+|BX Service Metabase|Dashboard BI, portlet, câmp, Quick Info, raport; JWT și parametri|GPL v2; sursă salvată; wiki 8.2, manifest 11/Java17; test pe 13 necesar|
+|Chart Maker|Configurare ChartBuilder și datasource, grafice stacked bar|GPL v2; versiune istorică 3.1; sursă arhivată și download SourceForge|
+|JasperReports Red1|Customer/Vendor Statement și Balances, JRXML incluse|GPL v2; pachet de rapoarte distinct de motorul Jasper standard|
+|JasperReports FreiBier|Starter alternativ, resurse, parametri context, export|Extensie istorică; licența/buildul exact de verificat înainte de adoptare|
+|CashForecasting|Planificare intrări/ieșiri, raport și analiză OLAP|GPL v2; wiki 7.1, repository 1.0.1a; manual PDF descărcat|
+|Kanban Dashboard|Stări, priorități, limite WIP, sume, filtre, swimlanes, procese|GPL v2; vizualizare operațională, nu înlocuitor BI general|
+|AMERPSOFT Financial|Rapoarte contabile, funcții date/text, procese și taxe|Sursă publică; adaptarea RO și compatibilitatea se verifică separat|
+|Small BI th.motive.form.bi|Extensie BI istorică menționată în comunitate|Sursă Bitbucket indisponibilă în verificare; capabilități și build neconfirmate|
+
+Nu recomand instalarea tuturor. Ordinea utilă este inventarul funcțiilor standard, testul Superset și, dacă se dorește comparația de efort, testul BX Metabase. Jasper rămâne pentru formulare și rapoarte paginate. CashForecasting și Kanban rezolvă probleme operaționale specifice, fără să înlocuiască un model BI comun.
+
+Pentru fiecare plugin: pin commit, citește LICENSE, verifică MANIFEST.MF, construiește în mediu izolat pentru iDempiere 13, verifică 2Pack și modificările de dicționar, apoi execută testul de acces între firme. Un link către un JAR vechi nu este o recomandare de instalare în producție.
+
+Surse: S20–S25, S30, S43, S45, S49; codul BX și CashForecast din biblioteca locală.
+@@PAGE Extensii conexe și limitele inventarului
+|Componentă sau pistă|Legătură cu BI|Tratament în recomandare|
+|Information Gadget JPiere|Anunțuri/categorii, paginare, fișiere, publicare în dashboard|Colaborare și informare; nu analiză de metrici|
+|Broadcaster Dashboard Panel|Prezență și mesaje pe client/rol/organizație|Comunicare operațională; nu punctaj analitic|
+|EGS Charts Panels|Anunț de grafice interactive, teme, drill-down și preferințe|Licența/pachetul gratuit exact neconfirmate; nu candidat aprobat|
+|BillboardJS chart plugin|Pistă tehnică menționată ca bază a EGS|Necesită identificare sursă și licență înainte de comparație fermă|
+|ZK Charts dashboard demo|Demo public de extensii ZK|Licențele componentelor se verifică; demo nu înseamnă gratuit complet|
+|Keikai Spreadsheet Enterprise|Foi de calcul în interfața ZK|Componenta Enterprise nu îndeplinește automat condiția gratuită|
+|Excel Dashboard Integration istoric|Analiză prin foaie de calcul|Dependențe și licență neconfirmate; nu bază de arhitectură|
+|Budgetary Control și Import Budget|Bugete și alimentarea comparației buget/realizat|Surse de date/flux ERP; necesită audit separat de module|
+|Rapoarte payroll AMERPSOFT/CDSoftware|Analiză HR și exporturi salariale|Domeniu de date, cu acces restrâns; fără expunere implicită în BI|
+|Google Map și georeferencing|Vizualizare geografică a datelor ERP|Costuri/termeni API de hartă separați de licența pluginului|
+
+Aceste piste sunt incluse pentru a nu confunda „dashboard” cu „Business Intelligence”. Ele nu au aceeași maturitate sau rol. Unele pagini sunt istorice, altele descriu produse comerciale ori demonstratoare. Categoria „neconfirmat” cere o verificare ulterioară, nu implică gratuitate sau absență.
+
+Pentru inventarul exhaustiv al instalării Eva se propune exportul read-only al AD_Menu, AD_Window, AD_Process, AD_Form, PA_DashboardContent și al bundle-urilor OSGi active. Se compară cu baseline-ul iDempiere 13 și se marchează componentele custom, versiunea, proprietarul și ultima probă de funcționare. Scriptul de inventar inclus nu a fost executat pe producție.
+
+Surse: catalogul oficial de pluginuri S19, S26, S44 și referințele publice descrise în registrul extensiilor. Nu se pretinde acoperirea pluginurilor private sau a tuturor localizărilor.
+@@PAGE Ce oferă deja Eva Accounting
+Auditul este fixat la commitul 1c039193e0c1626cb03fb8ca37f9980a1703fd0c, ramura implicită fix/116-remediere-izolare-multifirma. Au fost inspectate surse Java, Python și README, nu containerele instalate. Proveniența și hashurile sunt în 03_Audit_Eva_Accounting.
+
+|Dovadă|Funcție observată în cod|Concluzie|
+|WSagaSituatiiManagerialeForm|Rezultat lunar/perioadă din Fact_Acct, top 10 parteneri, solduri-cheie|BI financiar tabular existent, cu formule fixe|
+|WSagaSituatieVanzariForm|Filtre gestiune/grupă, agregare articole, valoare și adaos|Analiză comercială existentă; costul depinde de proveniența importului|
+|WSagaSituatieFurnizoriForm și Clienti|Sold inițial/final/la zi, facturi și scadențar, confirmare sold|Analiză creanțe/datorii și navigare operațională|
+|WBalantaForm și BalantaService|Interfață și serviciu de balanță|Ancoră de reconciliere contabilă|
+|WSagaBilantForm și GenBilant|Situații și generare bilanț|Raportare fiscală/statutară, distinctă de BI general|
+|Situații comenzi/producție/consumuri/SGR|Clase native în plugin|Surse de cerințe și reutilizare; nu dovadă de warehouse|
+|backend reports.py|Endpointuri de raportare read-only|Cod prezent, dar backendul este marcat dormant în README|
+|backend fiscal_profile.py|Profil fiscal derivat din schema importului SAGA|Nu este încă profil BI complet al companiei|
+
+Comentariile din cod menționează audituri și validări istorice; acestea nu sunt transformate aici în rezultate de test executate de noi. Pentru management, distincția este esențială: Eva nu pornește de la zero, dar nici nu are demonstrată o platformă BI configurabilă de utilizator, echivalentă cu Superset.
+
+Pentru reutilizare se extrag definițiile de business și cazurile de test, nu se copiază orbește SQL-ul. De exemplu, un clasament pe grandtotal este cu TVA; un indicator de venit net trebuie să aibă altă definiție și alt nume.
+@@PAGE Golurile Eva care influențează decizia
+Catalogul AI declară 120 de sarcini în zece categorii. Setul IMPLEMENTED conține invoice_ocr, classify_document, suggest_account, match_bank_line, explain_posting_error și explain_nc. Sarcinile summarize_period, cashflow_forecast, aging_analysis, profitability_analysis, budget_vs_actual, kpi_explain și narrative_report nu sunt în acest set. Service-ul are ramură explicită not_implemented. Prin urmare, un catalog de funcții nu este echivalent cu implementarea lor.
+
+Gateway-ul local existent oferă un punct de pornire: endpoint compatibil OpenAI, cerere JSON, timeout și rezultat cu used_mock. Dar un fallback mock nu trebuie folosit pentru răspunsuri BI de management. În noul flux, indisponibilitatea modelului produce un mesaj de indisponibilitate și păstrează rapoartele deterministe; nu produce explicații sau estimări aparent reale.
+
+În sursele BI inspectate nu a fost demonstrat un registru semantic reutilizabil, un configurator pe profil companie, un lifecycle de promovare a dashboardurilor sau un conector Superset/Metabase activ. Recomand dezvoltarea lor ca un serviciu nou, cu adaptor ZK, nu presupunerea că vechiul backend este activ.
+
+Au fost identificate puncte concrete de verificat în modelarea datelor: interogările manageriale au filtre pe AD_Client_ID, dar nu expun în aceleași clauze filtrul AD_Org_ID și C_AcctSchema_ID; clasamentul însumează totaluri de factură fără conversie explicită de valută în query-ul inspectat. Aceste observații indică teste obligatorii; nu demonstrează singure o scurgere de date sau o eroare pentru fiecare instalare.
+
+Masca de date din gateway tratează chei sensibile, însă nu reprezintă o politică completă de minimizare a datelor pentru BI. Promptul trebuie să primească metadate și agregate autorizate, nu registre contabile brute. Autorizația se verifică înainte de orice apel AI și înainte de execuția interogării, independent de textul generat.
+
+Surse Eva: catalog.py liniile 177–194; service.py ramura is_implemented; gateway.py; WSagaSituatiiManagerialeForm.java; README. Linkurile permanente sunt în registrul auditului.
+@@PAGE Clasament ponderat și justificare
+Scorul este o estimare de arhitectură pe scară 1–5, unde 5 este potrivirea maximă. Ponderile reflectă cerința de completitudine, integrare sigură și zero licențe obligatorii. Punctajul AI măsoară posibilitatea de a construi configuratorul local, nu existența gratuită a unui agent complet în produs.
+
+{{SCORES}}
+
+Ponderi: acoperire analitică 20%; integrare gratuită 20%; securitate și izolare 20%; automatizare/AI 15%; raportare și distribuție 10%; operare 10%; ușurință business 5%. Scorul final este suma ponderată, convertită la 100. Valorile detaliate sunt în CSV și pot fi schimbate de management.
+
+Superset câștigă prin API, embedding fără pachet EE și controale configurabile. Metabase pierde la embedding self-service gratuit și câștigă la utilizare, Metabot/MCP gratuit cu provider propriu și existența pluginului. Knowage câștigă la raportare/OLAP, dar pierde pe delimitarea CE/EE. Redash este simplu pentru SQL, însă modelul de permisiuni cere separări externe. Lightdash are semantică bună și pierde decisiv pe embedding și AI comerciale.
+
+Există și criterii eliminatorii: orice candidat care nu dovedește izolarea firmelor, corectitudinea indicatorilor sau lipsa unei licențe obligatorii pentru fluxul acceptat nu intră în producție, indiferent de scor. Un scor mare nu compensează un test de securitate eșuat.
+
+Analiză de sensibilitate: dacă folosirea separată de ERP și simplitatea business devin dominante, Metabase poate deveni prima alegere. Dacă OLAP și rapoartele paginate domină, Knowage merită pilot. Pentru cerința actuală — BI bogat, integrat, configurabil cu AI local — Superset rămâne recomandarea asumată.
+@@PAGE Arhitectura de integrare recomandată
+Fluxul propus este: iDempiere 13 și pluginurile Eva → replică/read model → marturi BI validate → Superset → adaptor ZK. Configuratorul AI operează asupra profilului companiei, catalogului semantic și configurațiilor BI; nu scrie în tabelele contabile.
+
+|Strat|Responsabilitate|Implementare propusă|
+|ERP|Documente, contabilizare, reguli fiscale, drepturi|iDempiere și pluginurile Eva existente|
+|Ingestie|Copie controlată, watermark, ștergeri și corecții|Replicare sau extragere incrementală după evaluare|
+|Mart analitic|Fapte/dimensiuni, metrici, izolare, istoric|PostgreSQL separat; SQL/dbt versionat|
+|BI|Grafice, dashboarduri, explorare și livrare|Apache Superset self-hosted|
+|Adaptor ERP|Context de sesiune, navigare, token scurt|Plugin OSGi dedicat com.eva.ro.bi propus|
+|Configurator AI|Profil → plan → configurație validată|Serviciu local cu JSON Schema și catalog de KPI|
+|Operare|Secrete, backup, loguri, monitorizare|Servicii și politici separate de aplicația ERP|
+
+În prima etapă se păstrează separarea fizică existentă a cabinetelor. Dacă se dorește un warehouse comun, cheia business devine compusă: cabinet_id, AD_Client_ID, AD_Org_ID și ID-ul local. AD_Client_ID singur nu este unic între baze independente. Același principiu se aplică partenerilor, documentelor și produselor.
+
+Browserul nu stabilește firma printr-un parametru de încredere. Adaptorul citește sesiunea activă, verifică accesul la dashboard și calculează domeniul permis. API-ul BI primește doar resursa aprobată și restricțiile serverului. Navigarea spre un document verifică din nou dreptul în iDempiere.
+
+Aceasta este o specificație de integrare, nu o livrare executabilă. Exemplele de contract nu sunt endpointuri existente. Nu se schimbă producția în cadrul documentării. Surse tehnice: S04, S34, S38–S40; README și AGENTS Eva.
+@@PAGE Securitate pentru cabinet firmă și organizație
+Izolarea trebuie menținută pe patru planuri: conexiunea la baza cabinetului, tenantul ERP, organizațiile permise și accesul la coloane/metrici. Un dashboard ascuns din meniu nu protejează API-ul. Un WHERE generat de AI nu este un mecanism de autorizare.
+
+|Control|Regulă propusă|Probă obligatorie|
+|Identitate|Sesiune Eva verificată server-side; rol efectiv curent|Token fără sesiune validă este refuzat|
+|Firmă|Mapare cabinet + client din identitate|Nu se poate schimba prin URL/payload|
+|Organizație|Lista permisă din rol; fără listă = deny|Org exclusă nu apare în detaliu sau total|
+|Date|Vederi restrânse, cont read-only, fără bypass RLS|Interogarea directă și API nu depășesc domeniul|
+|Token|TTL scurt, resursă limitată, fără secrete în browser|Expirare, resursă schimbată și replay testate|
+|Cache|Cheie dependentă de domeniul de acces|Nicio reutilizare între firme/roluri|
+|Export|Aceleași restricții ca vizualizarea|CSV și capturile nu expun rânduri suplimentare|
+|Programare|Identitate și destinatari autorizați explicit|Revalidare la execuție și după revocare|
+|AI|Acces la metadate/agregate aprobate|Promptul ostil nu schimbă domeniul de date|
+
+Pentru conexiuni partajate, RLS PostgreSQL nu funcționează magic pe utilizatorul ERP. Dacă rolul DB este comun, trebuie proiectată maparea sigură a contextului; nu presupunem că guest token setează o variabilă de sesiune SQL. În pilot, izolarea prin surse/vederi restrânse per cabinet este mai ușor de verificat. Pentru segmentarea per organizație se combină politici DB și RLS BI după un design explicit.
+
+Contul de interogare nu deține tabelele și nu are privilegii BYPASSRLS, superuser sau DDL. Se aplică timeout și limite de resurse. Nu se folosesc conturile de administrare iDempiere. Logurile păstrează ID-uri de corelație și versiuni, nu tokenuri sau prompturi cu date brute. [S34, S38]
+@@PAGE Modelul de date și reconcilierea
+|Mart propus|Granularitate|Chei și verificări|
+|fact_gl|O linie contabilă postată|Cabinet, client, org, schemă, cont, dată, document|
+|fact_invoice_line|O linie de factură|Tip document, semn storno, monedă și curs|
+|fact_open_item_snapshot|Document deschis la data snapshotului|Sold la data istorică, alocări până la acea dată|
+|fact_inventory_movement|Mișcare de stoc|Produs, depozit, locator, UM, lot și dată|
+|fact_inventory_snapshot|Produs și depozit la o dată|Cantitate și valoare; nu se însumează între zile|
+|fact_budget|Buget la nivelul aprobat|Versiune, perioadă, cont, centru cost, monedă|
+|dim_company și dim_org|Firmă/organizație versionată|Cheie globală, denumire, fus orar, statut|
+|dim_product și dim_partner|Entitate business|ID global și păstrarea clasificărilor istorice|
+
+Fiecare mart are owner, sursă, regulă de încărcare, watermark, versiune și test de reconciliere. Fact_Acct furnizează adevărul contabil, iar facturile oferă granularitate comercială. Cele două nu se unesc direct la nivel de linii fără controlul multiplicării: o factură poate avea mai multe linii și mai multe postări.
+
+Se păstrează atât moneda tranzacției, cât și moneda contabilă. Cursurile se aplică după regula aprobată și data relevantă; AI nu selectează arbitrar un curs. Retururile, stornările, anulările și perioadele de ajustare au tratament explicit. Venitul nu este echivalent cu grandtotal inclusiv TVA.
+
+Încărcarea incrementală doar după Updated este insuficientă dacă există ștergeri, recalculări sau corecții retroactive. Se definește fereastra de reîncărcare, detectarea ștergerilor și reexecuția idempotentă. Snapshoturile istorice ale creanțelor nu se reconstruiesc din soldul „la zi” fără istoricul alocărilor.
+
+Controlul minim: număr rânduri, sumă debit/credit, total net facturi, stoc pe produs/depozit și timestamp de prospețime. Toleranțele se aprobă pe monedă și raport; nu se inventează o toleranță universală. Exemplul SQL de inventar din anexă este read-only și nu creează marturile.
+@@PAGE Catalogul inițial de indicatori
+|Domeniu|KPI și definiție de proiect|Condiții de calcul|
+|Financiar|Venit net; cheltuieli; rezultat; marjă operațională|Mapare conturi aprobată; fără dublarea închiderilor|
+|Comercial|Vânzări nete, discount, retur, top parteneri, mix produse|Fără TVA, semn storno, monedă comună|
+|Creanțe|Sold deschis, restant, aging, DSO|Data de referință și alocările istorice sunt obligatorii|
+|Furnizori|Datorii scadente, aging, DPO|Termene și plăți alocate, nu doar facturi totale|
+|Stoc|Valoare, rotație, zile acoperire, stoc lent, rupturi|Cost validat, UM coerente, istoric disponibil|
+|Producție|Consum specific, rebut, randament, cost unitar|Necesită surse și module de producție suficiente|
+|Calitate|Rată defecte, cost neconformitate, reclamații|Date QMS; lipsa datelor este afișată explicit|
+|Achiziții|Preț mediu, variație preț, întârziere furnizor|Calendar și legătura comandă–recepție|
+|Proiecte|Venit, cost și marjă pe proiect|Alocare completă și perioade comparabile|
+|HR|Cost personal, absenteism, ore productive|Acces separat; fără date personale în dashboard general|
+|Cash flow|Încasări/plăți realizate și prognoză pe scenarii|Prognoza etichetată, ipoteze și interval de incertitudine|
+
+DSO nu se calculează prin simpla medie a zilelor de întârziere ale facturilor. Se selectează și documentează formula: de exemplu sold mediu al creanțelor comerciale raportat la vânzări pe credit și numărul zilelor perioadei. DPO și rotația stocului au aceeași nevoie de definiție stabilă și numitor compatibil.
+
+OEE se activează numai dacă există date pentru disponibilitate, performanță și calitate la granularitatea utilaj/schimb. Profilul „producție ceramică” poate sugera indicatorul, dar nu poate crea datele lipsă. Similar, EBITDA, marja și cash flow au reguli distincte; AI nu le tratează ca sinonime.
+
+Catalogul KPI trebuie să includă unitate, formulă, grain, sursă, filtre, owner, clasificare de acces, prospețime, teste și versiune. Profilele din anexă sunt exemple sintetice, nu descrieri confirmate ale companiei.
+@@PAGE Configurarea cu AI bazată pe profilul companiei
+Obiectivul este ca un utilizator autorizat să descrie compania și să primească o configurație BI coerentă, verificabilă și editabilă. AI propune metrici, dimensiuni, filtre, dashboarduri și explicații; motorul determinist validează compatibilitatea și autorizațiile înainte de orice publicare.
+
+|Date din profil|Cum influențează configurația|Ce nu poate decide AI singur|
+|Industrie și model de business|Pachet KPI și vocabular|Date sau procese inexistente|
+|Entități și organizații|Structura filtrelor și dashboardurilor|Extinderea drepturilor utilizatorului|
+|Monede și calendar fiscal|Perioade comparative și conversii|Cursuri/reguli fiscale inventate|
+|Module active și surse|Selectarea marturilor disponibile|Presupunerea că un plugin este instalat|
+|Obiective și roluri|Dashboard management, financiar, operațional|Modificarea politicii de acces|
+|Praguri și ținte|Alerte și comparații|Ținte prezentate ca aprobate fără owner|
+|Prospețime și volum|Programări și buget de interogare|Ocolirea limitelor de producție|
+|Limbă și terminologie|Etichete RO și dicționar companie|Schimbarea formulelor prin traducere|
+
+Exemplul pentru producție ceramică sugerează venit net, cost unitar, rebut, consum de energie pe unitate și stoc lent. Indicatorii care cer QMS, contoare sau MES rămân în starea „date necesare”. Exemplul pentru distribuție pune accent pe marjă, rotație, fill rate și creanțe. Exemplul pentru servicii pune accent pe proiect, ore facturabile și profitabilitate.
+
+Profilul are surse și nivel de încredere pe câmp. Informația confirmată de utilizator prevalează asupra inferenței AI. CAEN și profilul fiscal existent pot ajuta inițializarea, dar nu descriu singure operațiunile reale. Se păstrează variante și diferențe între versiuni.
+
+Modelul poate rula prin Ollama sau vLLM local. Un model cu ponderi deschise și licență verificată, precum Qwen3-8B, este un candidat de pilot, nu o promisiune de calitate pentru toate întrebările. Alegerea finală se face după teste în română, SQL și catalogul real. [S31–S33]
+@@PAGE Contractele configuratorului AI
+Configurarea nu va fi un prompt care execută SQL arbitrar. Intrarea este company_profile.json; ieșirea este un plan tipizat cu metric_id, dataset_id, chart_type, filter_refs și explicație. Fiecare referință trebuie să existe în catalogul aprobat. Politicile de securitate sunt calculate de serviciul Eva și nu sunt negociabile prin prompt.
+
+|Obiect|Câmpuri esențiale|Validări|
+|CompanyProfile|schema_version, company_key, industry, modules, locale|JSON Schema, sursă și owner|
+|MetricDefinition|id, grain, formula_ref, unit, dimensions|Formulă aprobată și teste de agregare|
+|DashboardPlan|id, audience, widgets, filters, refresh|Tipuri și seturi de date în allowlist|
+|AIProposal|profile_version, model_revision, plan, reasons|Metadate complete, fără secrete sau SQL liber|
+|DeploymentPlan|diff, target, version, tests, rollback_ref|Idempotent; numai obiectele gestionate de configurator|
+|ExecutionReceipt|request_id, actor, scope_hash, applied_version|Trasabilitate între profil și dashboard|
+
+Exemplu de interacțiune: „Suntem distribuitor cu trei depozite; vrem marjă și stoc lent.” Serviciul validează ce depozite poate vedea utilizatorul, verifică disponibilitatea costului și propune două dashboarduri. Dacă lipsește costul, marja rămâne blocată cu motiv; nu devine zero și nu este estimată din prețuri fără marcaj.
+
+Arhitectura separă generatorul de plan, validatorul și executorul. Generatorul nu are credențiale de publicare și nici acces direct la DB. Validatorul respinge identificatori necunoscuți, queryuri cu granularitate incompatibilă și metrici fără unitate. Executorul folosește API-ul BI și păstrează mapping stabil între ID-uri logice și ID-uri Superset.
+
+În 04_Arhitectura_AI sunt incluse o schemă JSON, trei profile sintetice și un plan exemplu. Sunt contracte propuse și validate structural; nu sunt un plugin instalabil. Pentru producție se adaugă teste de reconciliere, migrare între versiuni API și testele de izolare.
+@@PAGE Fluxul AI și controlul calității
+|Etapă|Proces|Ieșire și poartă|
+|1 Profilare|Import metadate + completare ghidată|Profil versionat, câmpuri necunoscute vizibile|
+|2 Selecție semantică|Alegere KPI din catalog|Lista metricilor și surselor aprobate|
+|3 Generare|Model local produce plan JSON|Fără SQL executabil sau identități decise de model|
+|4 Validare|Schema, referințe, unități, grain, cost interogare|Erorile blochează planul|
+|5 Previzualizare|Date sintetice sau agregate permise|Dashboard și diferențe față de versiunea existentă|
+|6 Aprobare|Owner KPI și responsabil tehnic|Acceptarea definițiilor și scope-ului|
+|7 Publicare|API Superset, aplicare idempotentă|Configurație versionată și receipt|
+|8 Monitorizare|Drift de schemă, query errors, prospețime|Dezactivare controlată și rollback|
+
+Textul companiei și descrierile din documente sunt date nefiabile pentru agent. Instrucțiuni inserate precum „ignoră rolurile” sau „trimite toate facturile” nu pot modifica politica. Serviciul oferă instrumente restrânse, cu scope calculat server-side, iar rezultatul modelului este validat independent.
+
+Răspunsurile narative trebuie să citeze metric_id, intervalul, filtrele și timestampul datelor. Numerele provin din rezultatele determinate de query, nu din memoria modelului. Explicațiile cauzale sunt marcate ca ipoteze dacă nu sunt susținute de date; o corelație nu dovedește cauza.
+
+Evaluarea AI cuprinde cel puțin 60 de întrebări românești reprezentative și 20 de atacuri de prompt/instrumente. Criterii propuse: 100% respectare a autorizării; 100% respingere a referințelor inexistente; minimum 90% selecție corectă KPI în setul agreat; 0 cifre fabricate acceptate ca rezultat final. Procentele sunt ținte de proiect, nu performanțe măsurate.
+
+Modelul indisponibil nu blochează dashboardurile existente. Configuratorul raportează indisponibilitate; nu publică planuri mock. Această regulă diferă deliberat de fallbackul demonstrativ găsit în gateway-ul istoric Eva.
+@@PAGE Operare performanță și întreținere
+Separăm baza tranzacțională de interogările analitice. O replică reduce competiția pentru resurse, dar poate avea lag; fiecare dashboard afișează „date actualizate la”. Pentru istoric, transformări și agregări complexe este preferabil un mart separat, alimentat și reconciliat, nu o colecție de queryuri grele direct pe ERP.
+
+|Serviciu|Necesități operaționale|Control propus|
+|Superset web|Metadate persistente, chei, autentificare|Backup DB + configurație; health checks|
+|Worker și scheduler|Cozi, retry, rapoarte, browser|Joburi idempotente, timeouts, destinatari testați|
+|Cache/broker|Disponibilitate, expirări, spațiu|Politică pe scope; licența versiunii verificată|
+|Mart PostgreSQL|Indexuri, vacuum, backup, spațiu|Restore testat și reconciliere periodică|
+|Serviciu AI|Model, memorie, timeouts, endpoint local|Fără fallback numeric; limitarea concurenței|
+|Adaptor OSGi|Compatibilitate ZK și upgrade ERP|Build reproducibil și test de sesiune|
+
+Pentru pilot propun, ca ipoteză inițială, 4–8 vCPU și 16–32 GB RAM pentru serviciile BI/mart de test; inferența AI se dimensionează separat după model și context. Nu este un sizing de producție. Volumul, concurența, cardinalitatea și latența trebuie măsurate. Kubernetes nu este obligatoriu pentru pilot; containere pe Linux pot fi suficiente.
+
+Ținte inițiale: p95 sub 5 secunde pentru dashboardurile cache-uite, sub 15 secunde pentru interogările uzuale fără cache, prospețime sub 15 minute pentru analiza operațională agreată. Sunt praguri de acceptanță propuse, nu benchmarkuri ale produselor.
+
+Backupul include metadate BI, catalog semantic, profiluri, mappinguri de ID și manifestul versiunilor. Se testează restaurarea într-un mediu separat. Upgrade-urile trec prin UAT; documentația latest sau schimbarea unui tag Docker nu trebuie să actualizeze producția automat. Se păstrează inventarul componentelor și se verifică periodic vulnerabilitățile relevante.
+@@PAGE Plan de implementare și cost total
+|Etapă|Livrabil|Estimare de efort|
+|Inventar și contract semantic|Module active, surse, roluri și KPI de pilot|5–8 zile om|
+|Mart și reconciliere|3 domenii validate, încărcare repetabilă|10–18 zile om|
+|Superset și adaptor|Dashboarduri, token, context ZK, navigare|8–14 zile om|
+|Configurator AI|Profiluri, catalog, plan JSON, preview, versionare|12–22 zile om|
+|Teste și operare|Izolare, performanță, restore, ghiduri|8–15 zile om|
+|Total inițial|Pilot complet și decizie de extindere|43–77 zile om|
+
+Estimarea este a autorului, condiționată de calitatea datelor și disponibilitatea echipei; nu este ofertă de furnizor. O echipă de două persoane poate paraleliza unele activități, dar validarea semantică și integrarea au dependențe. Nu transformăm automat 43 zile om în 22 zile calendaristice.
+
+Bugetul se calculează transparent: efort × cost intern/zi + infrastructură incrementală + ore de operare + backup/monitorizare + mentenanță. Pentru trei ani: TCO = implementare + 36 × cost lunar infrastructură și operare + upgrade-uri + rezervă pentru schimbări. Abonamentul de licență al soluției recomandate poate fi zero; TCO nu este zero.
+
+Managementul desemnează ownerii pentru financiar, vânzări și stoc și aprobă definițiile KPI. Tehnicul este responsabil de mart, autorizare, operare și adaptor. Un data steward urmărește completitudinea și reconcilierea. Responsabilul de securitate verifică separarea cabinetelor și a organizațiilor.
+
+Riscurile principale sunt datele istorice inconsistente, extinderea necontrolată a catalogului, folosirea componentelor dormante, driver/SDK incompatibil și subestimarea operării. Măsurile sunt pilot limitat, commituri fixe, contracte testabile și criterii eliminatorii. Pentru Metabase se poate estima separat un pilot mai mic, dar nu se presupune că el acoperă toate cerințele embedded/AI gratuit.
+@@PAGE Scenarii de acceptanță pentru pilot
+|ID|Scenariu|Criteriu de trecere|
+|T01|Aceleași ID-uri locale în două cabinete|Rezultatele nu se amestecă|
+|T02|Utilizator cu acces doar la o organizație|Niciun rând/total din altă organizație|
+|T03|Modificare client/org/dashboard în browser|Refuz server-side sau scope neschimbat|
+|T04|Token expirat și rol revocat|Acces refuzat; politica de revocare documentată|
+|T05|Export CSV, captură și raport programat|Aceleași restricții și destinatari autorizați|
+|T06|Factură, storno, valute și două scheme contabile|Reconciliere cu setul etalon aprobat|
+|T07|Corecție retroactivă și ștergere în sursă|Mart actualizat fără dubluri|
+|T08|Aging la dată istorică vs sold la zi|Alocările după dată nu modifică soldul istoric|
+|T09|Date lipsă pentru cost/OEE|Valoare necunoscută, nu zero inventat|
+|T10|AI propune metrică sau dataset inexistent|Plan respins înainte de execuție|
+|T11|Prompt care cere schimbarea firmei sau acces total|Politica nu se modifică|
+|T12|Model AI indisponibil sau mock|Nicio publicare automată și nicio cifră fabricată|
+|T13|Aceeași configurație aplicată de două ori|Fără dashboarduri duplicate|
+|T14|Rollback profil/dashboard și restore backup|Versiunea anterioară funcțională|
+|T15|Încărcare concurentă și refresh|Pragurile p95 agreate sunt atinse|
+|T16|Upgrade BI sau plugin pe iDempiere 13|Teste funcționale și securitate repetate|
+
+Setul etalon conține date sintetice sau date autorizate minimizate și rezultate calculate independent. Pentru fiecare test se păstrează actor, scope, versiune, input, rezultat așteptat, rezultat obținut și verdict. Testele din această pagină sunt propuse; nu sunt raportate ca executate.
+
+Echipa aprobă soluția numai după trecerea T01–T12 fără excepții de securitate sau corectitudine. Problemele de performanță pot cere optimizare și retestare; ele nu justifică ocolirea izolării sau afișarea de rezultate aproximative nemarcate.
+@@PAGE Decizia recomandată și condițiile de implementare
+Recomand aprobarea arhitecturii Superset + PostgreSQL analitic + adaptor OSGi Eva + configurator AI local. iDempiere păstrează motorul tranzacțional, fiscal și rapoartele oficiale; Superset adaugă explorarea și dashboardurile, iar AI automatizează configurația pe baza unui catalog controlat.
+
+Această recomandare este asumată pe criteriile utilizatorului: capabilități open source puternice, integrare în iDempiere, lipsa taxelor obligatorii de licență pentru fluxul de bază și configurare adaptată companiei. Ea nu declară Superset cel mai simplu de operat și nici nu promite un conector deja instalat. Efortul adaptorului și al semanticii este inclus în plan.
+
+Metabase OSS rămâne alternativa de rezervă dacă se prioritizează timpul până la prima valoare și se acceptă limitele guest embedding. Knowage CE este rezerva pentru OLAP și raportare clasică. Redash este alternativa pentru un scope SQL intern mai mic. Lightdash OSS este relevant pentru o echipă dbt, dar nu satisface gratuit fluxul integrat AI/embedding descris de ediția Enterprise.
+
+Managementul poate decide acum direcția și finanțarea pilotului. Echipa tehnică trebuie să confirme înainte de implementare: configurația reală a cabinetelor, versiunea instalată a pluginurilor, domeniul organizațiilor, volumele, sursele costului și modelul AI. Acestea sunt porți tehnice, nu motive pentru a trata funcții neconfirmate ca inexistente.
+
+Livrarea documentară include raportul, matricea de funcții, registrul componentelor iDempiere, auditul Eva la commit, arhitectura AI, profilele sintetice, testele propuse, sursele descărcate, manualele și manifestele de proveniență. Fiecare descărcare eșuată rămâne vizibilă în registru; biblioteca nu este prezentată ca o copie funcțională a tuturor site-urilor web.
+
+Primul rezultat urmărit în pilot este un dashboard financiar reconciliat, unul comercial și unul de stoc, fiecare generabil din profil și izolat pe cabinet, firmă și organizație. Acest rezultat verificabil, nu numărul de grafice din prezentarea furnizorului, trebuie să închidă decizia de integrare.

@@ -1,0 +1,348 @@
+[
+  {
+    "source_reference": "'+r['url']+'",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "../../index.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "//192.168.100.169/comun/00.Roboti/EVA.Pro/Eva-contab/Comparatie TOP6/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--0d6cf449.html",
+    "bytes": 2435482,
+    "sha256": "fe550c2eed4eb94f585312fc581d5e210e33c3180130f8db184fa06d7b3cf389"
+  },
+  {
+    "source_reference": "Analiza_QMS_ISO_SixSigma_EVA.docx",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Analiza_QMS_ISO_SixSigma_EVA.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/08/01a11ad4-197c-7a53-b610-a0736239858f/wms-docs-publish/Documentatie/WMS_iDempiere/Comparatie_WMS_iDempiere_2026-10-08.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparatie_WMS_iDempiere_2026-10-08--0a13d3c2.pdf",
+    "bytes": 164775,
+    "sha256": "71ab56d8b35f4d4d6afa51e70cd4e86c39fd92bd7a4e62ca5b45fe050a82e8ba"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\build_excel.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_excel--b75d5f87.mjs",
+    "bytes": 7572,
+    "sha256": "dfaa0235b7f93d7b5c0490da4ceccd5a013e3259926b6dbf5f7fa56ecf37819f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\build_package.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_package--23948306.py",
+    "bytes": 19576,
+    "sha256": "e85aba83ad1ced2fa6499bde663a890cf3c916450b28944b8e3ad9fc0c7f1a14"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\finalize_package.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize_package--03d31d90.py",
+    "bytes": 3704,
+    "sha256": "fad1ae03246d0832288d666068d9f39034da8a9f8b317dfe2c144891e04cecf6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\comparatie.png",
+    "status": "copiat",
+    "saved_path": "fisiere/comparatie--77b7aac9.png",
+    "bytes": 91646,
+    "sha256": "34baf3f014c2b13c8dce22a7e9cff212bdedd8d55dca59a38ae3ee3a8b5e244a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\contact_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_0--b374d812.png",
+    "bytes": 469522,
+    "sha256": "6eb36ce0bb4d82fb74d702d87b1769f4f0674295e99e4394208a67d3cb8c4319"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\contact_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_1--d1a714f4.png",
+    "bytes": 442228,
+    "sha256": "bb83bdab9f56aa089aa59b240fa7d8b3d22a1e83e9d680f3f55eed9bbfc12338"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\contact_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_2--d308af11.png",
+    "bytes": 292141,
+    "sha256": "537ae58b402d3791e502f721c6f0409b46e70657db8c8d21ce9d47d37e3b5392"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\contact_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_3--8818da1e.png",
+    "bytes": 420085,
+    "sha256": "d473f3d08472038e3c5e8e0bbfb5cbe3d2953666e594526e3ad67d46614d2edc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\contact_4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_4--fd46857e.png",
+    "bytes": 463533,
+    "sha256": "a7bb68f37cc7e51cc104aff73d6c99ef274d4277ef1fdf2f05b90f8914d13994"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\legenda.png",
+    "status": "copiat",
+    "saved_path": "fisiere/legenda--51f591ad.png",
+    "bytes": 62199,
+    "sha256": "8b3af5158ffb4f97017ebae2dcf62e8739d812933f7581a0bbc187fe4ed52c90"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\module1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/module1--e1e53d1e.png",
+    "bytes": 53921,
+    "sha256": "176eee70cbc3015e9e639e974cbf96057de9cc116107aea6362ef0b210925850"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\module2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/module2--a6c27682.png",
+    "bytes": 60176,
+    "sha256": "6b1d3ddb78f43e465f8c29462d70052c085bb589edbf59d3772392197aca873f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\surse.png",
+    "status": "copiat",
+    "saved_path": "fisiere/surse--ede1fd27.png",
+    "bytes": 54366,
+    "sha256": "f66efc0fbaa95d804dd1f4c25f92b741cab11e6c2d5a0d50983c9224917821b4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\updated-28.png",
+    "status": "copiat",
+    "saved_path": "fisiere/updated-28--56bdf3eb.png",
+    "bytes": 156455,
+    "sha256": "f18a40f7f80a70bfac9fe9d9220584d30a6c70aad7b78dc0bec9ccd9df6928f1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\qa\\versiuni.png",
+    "status": "copiat",
+    "saved_path": "fisiere/versiuni--961be7a6.png",
+    "bytes": 105335,
+    "sha256": "ac37c58fb260fd73a7bcc3a876995ec7b8f0d2215ab84bcf4a22570a40eceda5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\recover_docs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/recover_docs--e4272f40.py",
+    "bytes": 1942,
+    "sha256": "c7b9681093072041a6b8d7cc7e8b6ea7272350b11d01b407e5be06e429b76d49"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11afe-4484-77d1-ab73-73cc47f60b56\\ERP_Productie\\report_data.py",
+    "status": "copiat",
+    "saved_path": "fisiere/report_data--462c6a5e.py",
+    "bytes": 58379,
+    "sha256": "565671df986cc8d906605e05ba7f87a0486b1eb5a2559ede96d0ae54abe2f4c1"
+  },
+  {
+    "source_reference": "Comparatie_WMS_iDempiere_2026-10-08.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Comparatie_WMS_iDempiere_2026-10-08.pdf",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Registru_surse.csv",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Surse_WMS_2026-10-08.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Documentatie/ERP_Productie/01_Raport/Comparatie_ERP_Productie.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparatie_ERP_Productie--d390a172.xlsx",
+    "bytes": 47190,
+    "sha256": "ae2218626f8c13870fdc70a5c3ecdffa20dd6a80349d5d4becf582ada1c15bcd"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Documentatie/ERP_Productie/01_Raport/Raport_ERP_Productie.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_ERP_Productie--91323634.pdf",
+    "bytes": 160825,
+    "sha256": "1332584f20378e3fd5e7f428d76efc9c4600fccdc52d9ee36047bc03afe7dcf1"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Documentatie/ERP_Productie_2026-10-08.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/ERP_Productie_2026-10-08--268cd8be.zip",
+    "bytes": 33385898,
+    "sha256": "a88073a59fdd9eab54ff5453b310142667ad3c0857589bc744b5b9f04d1a9dc7"
+  },
+  {
+    "source_reference": "https://codeberg.org/bookstack/bookstack",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cran.r-project.org/web/packages/SixSigma/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cran.r-project.org/web/packages/qcc/index.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/erpnext/quality_review",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.frappe.io/erpnext/user/manual/en/quality-inspection",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.openboxes.com/en/latest/api-guide/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/BookStackApp/BookStack/releases",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/OCA/management-system",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/OCA/management-system/tree/18.0/mgmtsystem_quality",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/bxservice/idempiere-rest",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/analiza-qms-idempiere-2026-10-08/Documentatie/Analiza_QMS_ISO_SixSigma_2026-10-08",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie/Comparatie%20TOP6",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie/ERP_Productie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie/WMS_iDempiere",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/frappe/erpnext",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/logilite/logilite-DMS",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/openboxes/openboxes",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/openboxes/openboxes/releases",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/openwms/org.openwms",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/wms2/mywms",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://huggingface.co/FahrenheitResearch/FR-Forge-1.7B",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://idempiere.org/blog/2021/01/02/iso-22000-with-idempiere-erp/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://sourceforge.net/projects/red1/files/Warehousing/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://sourceforge.net/projects/red1/files/Warehousing/WMSGuide.pdf/download",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://sourceforge.net/projects/red1/files/p2/WMS/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Manual",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_Libero_Warehousing",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin%3A_WMS",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://wiki.idempiere.org/en/Plugin:Logilite-DMS",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.bookstackapp.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.flinkiso.com/pricing/free-vs-paid.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.openboxes.org/features/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "references/clarification-questions.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "writing_quality.md#editorial-review-for-documents",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "{S[m[1]][1]}",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "{s['url']}",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "{url}",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

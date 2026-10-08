@@ -1,4 +1,19 @@
 {
   "local_originals_preserved": true,
-  "masked_files": []
+  "masked_files": [
+    {
+      "path": "Compară 3 programe HR gratuite/istoric.json",
+      "masked_values": {
+        "aws_access_key": 1,
+        "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "Compară 3 programe HR gratuite/rezultate.md",
+      "masked_values": {
+        "aws_access_key": 1,
+        "signed_url_credential": 2
+      }
+    }
+  ]
 }

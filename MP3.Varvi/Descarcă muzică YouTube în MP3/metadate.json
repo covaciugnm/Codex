@@ -1,0 +1,23 @@
+{
+  "id": "01a11bbd-6d5c-7df2-9bda-ffd497b27994",
+  "cwd": "\\\\?\\D:\\MP3.Varvi",
+  "created_at": 1791466761,
+  "updated_at": 1791468533,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Descarcă muzică YouTube în MP3",
+  "project_id": "73685247-92a1-4212-a650-4fcf586fc1f4",
+  "project": "MP3.Varvi",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 2022026,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 98,
+  "message_count": 28,
+  "content_sha256": "c596d730d7af87a03c9dfefbae38a6f51be6aaa9bef62b31e65e8720037caae2",
+  "files_copied": 17,
+  "references_not_copied": 22
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a11b03-712c-77b3-ab22-a2900c591b2e",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791454572,
+  "updated_at": 1791457366,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Compară soluții Cash Flow",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 6883041,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 112,
+  "message_count": 25,
+  "content_sha256": "bab24ecd8d6e733c1f27989e959d7cca1944f2afc5a3a7916ca959357d300747",
+  "files_copied": 16,
+  "references_not_copied": 2
+}

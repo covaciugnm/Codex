@@ -1,0 +1,51 @@
+[
+  {
+    "source_reference": "D:/MP3.Varvi/outputs/party_20261008/Model_playlist_masa_si_petrecere.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Model_playlist_masa_si_petrecere--56927e9b.xlsx",
+    "bytes": 35313,
+    "sha256": "4ef687ada6c94c831c46e5437d5a2a527aca3bdc91001e683c5b2f80a2b31cb4"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\build_template.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_template--b417aa31.mjs",
+    "bytes": 6754,
+    "sha256": "68cdc186a29703bddb7dcbb0ffb2a2180a747ce17f6ebc6573bab0800285a43d"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\collect.py",
+    "status": "copiat",
+    "saved_path": "fisiere/collect--e044fafa.py",
+    "bytes": 6521,
+    "sha256": "cd2a2e0b011e9f4c0b3bcb8ddf24c8a02b9be50d8515eac8839dcb7b38832390"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\previews\\all_styles.png",
+    "status": "copiat",
+    "saved_path": "fisiere/all_styles--19e6439c.png",
+    "bytes": 211968,
+    "sha256": "43014945802aa5a1ba6407d8606ecf7164c417e1a612c78b0d60db540c57f531"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\previews\\template_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/template_0--26285778.png",
+    "bytes": 92036,
+    "sha256": "b4a4d5c6a1a2d8f0ad3f6cfc1e26ce2c681424664e3ebb4c8eaf4322c2cb4148"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\previews\\template_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/template_1--83670e15.png",
+    "bytes": 28580,
+    "sha256": "a76ae9ab5cefe1118014d7beb07db7841b63eb0def4cc54963642e315a9f15c1"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\selection.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/selection--3217f04b.txt",
+    "bytes": 17378,
+    "sha256": "39362bb51bce9ea67ef92eb36641ad9ab0542e2829340d7eab5a1a9c82c492b6"
+  }
+]

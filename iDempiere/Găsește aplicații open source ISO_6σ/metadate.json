@@ -1,0 +1,23 @@
+{
+  "id": "01a11add-716d-7ea3-88e3-6c44068f5a42",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791452082,
+  "updated_at": 1791468701,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Găsește aplicații open source ISO/6σ",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T14:13:28.280906+00:00",
+  "source_bytes": 13848759,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 176,
+  "message_count": 41,
+  "content_sha256": "c6487ba1d5290a7dae434178f38d790d2fdc1932022d065f1b11b07aa395dff6",
+  "files_copied": 38,
+  "references_not_copied": 105
+}

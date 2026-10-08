@@ -1,0 +1,122 @@
+[
+  {
+    "source_reference": "//192.168.100.169/Comun/00.Roboti/iDempiere/Documentatie_CRM_2026-10-08/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--ba90fa23.html",
+    "bytes": 46005,
+    "sha256": "abfbde4d055f994252058f42090dc1a5cfc7a28275da7ae883cc8e383a64f322"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/08/01a11b02-5c44-79a3-a6d7-eb6a3eb4892b/crm_work/CRM_iDempiere_EVA_2026-10-08/01_Raport_si_matrice/Comparatie_CRM_EVA_iDempiere.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Comparatie_CRM_EVA_iDempiere--6fea75ec.xlsx",
+    "bytes": 39313,
+    "sha256": "5c7affef55cf9d7f86c91dcc0a1f4901d6dc166031771d2f112a38db48364eff"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/08/01a11b02-5c44-79a3-a6d7-eb6a3eb4892b/crm_work/CRM_iDempiere_EVA_2026-10-08/01_Raport_si_matrice/Raport_CRM_EVA_iDempiere.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_CRM_EVA_iDempiere--9ba88443.docx",
+    "bytes": 59144,
+    "sha256": "70ad283f76d343373a74fd9f8133863b6f711b8bdbc92fbb16bb2e209cb54b77"
+  },
+  {
+    "source_reference": "C:/Users/User/.codex/visualizations/2026/10/08/01a11b02-5c44-79a3-a6d7-eb6a3eb4892b/crm_work/CRM_iDempiere_EVA_2026-10-08/01_Raport_si_matrice/Raport_CRM_EVA_iDempiere.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_CRM_EVA_iDempiere--f8eddb85.pdf",
+    "bytes": 479669,
+    "sha256": "7923ff133cbe8b28e194cd1e4f98390ea09c9c62fd1eb8b33e0a09a335487fbd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\content.py",
+    "status": "copiat",
+    "saved_path": "fisiere/content--fbfe666a.py",
+    "bytes": 240,
+    "sha256": "1f2f9ffadf95ccb43dfee9f9ef68f841c85e8f13591e846391f4eb5fe1d39676"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\excel_qa\\Cerințe obligatorii.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Cerințe obligatorii--5c937f71.png",
+    "bytes": 85443,
+    "sha256": "30d2cab4df9cd156ce08e2704b6cacd8b306522ed80077e6487baeb6ae8a109b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\excel_qa\\Ghid.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Ghid--b0ffec4b.png",
+    "bytes": 68364,
+    "sha256": "8ea41b8d0ea3704ff13748a7f94aa03fbbd4f88c668fca651cbddde7b66badca"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\excel_qa\\Matrice CRM.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Matrice CRM--5efcb89c.png",
+    "bytes": 92624,
+    "sha256": "0e80406f8b0129cbd7da3af477a7e87f8a100d48d79dc46fe826e9621f75e031"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\excel_qa\\Module iDempiere.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Module iDempiere--c57d95a5.png",
+    "bytes": 49869,
+    "sha256": "1a33a7c173dd7ed5d16d3913fa69ff75030110f4aec3fb97b971f8dd56681ce3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\excel_qa\\Surse.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Surse--e9d711cb.png",
+    "bytes": 54040,
+    "sha256": "76547cd7f071377c29b9c64620e0f9ff72cf69e4199478a22fcaf523f68573a2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\excel_qa\\Versiuni.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Versiuni--3e7651a3.png",
+    "bytes": 61615,
+    "sha256": "b5696e8db5dd4b7bb2911ac41c9b54a8b08a8417fdd38417d890ceb6454eed36"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\word_qa\\contact-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-1--0a94de40.png",
+    "bytes": 688574,
+    "sha256": "32c62eeb2e3e4a8bb2adff36ce641d842d5a5c41c6b8e949b0494df4391da908"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\word_qa\\contact-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-2--cf348d85.png",
+    "bytes": 512378,
+    "sha256": "d7a97f875f2b998d50f5d257fa806163a96fa8902d861a172d718e0f69daac58"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\word_qa\\contact-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-3--e0303403.png",
+    "bytes": 437240,
+    "sha256": "a008069a6f4cc55a2ffb7c6c31e39e256b7b5368bb6ffa00134b6bcbeb4c7799"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\word_qa\\contact-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-4--99d2668b.png",
+    "bytes": 560992,
+    "sha256": "030b10b9813b2040af6afc2e364ea6a78eb1d01d881f609d593f7768cc2aaa8f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-5c44-79a3-a6d7-eb6a3eb4892b\\crm_work\\word_qa\\contact-5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-5--a9c27433.png",
+    "bytes": 532840,
+    "sha256": "2550340abeb3d5081cb4a9397f277ee134146770a2c7cd31a10e16cb570d91d6"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/analiza-crm-idempiere-2026-10-08/docs/crm-idempiere-2026-10-08",
+    "status": "referinta_externa_necopiata"
+  }
+]

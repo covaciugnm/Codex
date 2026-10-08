@@ -3766,30 +3766,22 @@ Rulez salvarea programată și verific modificările care trebuie publicate în 
 {
   "type": "commandExecution",
   "id": "exec-3ef837e5-d4cf-48a9-b9bd-46b348ce8399",
-  "process_id": "95314",
-  "command": [
-    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
-    "-Command",
-    "Get-ChildItem -LiteralPath '.\\salvari' -Directory | Sort-Object CreationTime -Descending | Select-Object -First 1 Name | ConvertTo-Json -Compress"
-  ],
-  "cwd": "file:///C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva",
-  "parsed_cmd": [
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-ChildItem -LiteralPath '.\\\\salvari' -Directory | Sort-Object CreationTime -Descending | Select-Object -First 1 Name | ConvertTo-Json -Compress\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "95314",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
     {
       "type": "unknown",
-      "cmd": "Get-ChildItem -LiteralPath '.\\salvari' -Directory | Sort-Object CreationTime -Descending | Select-Object -First 1 Name | ConvertTo-Json -Compress"
+      "command": "Get-ChildItem -LiteralPath '.\\salvari' -Directory | Sort-Object CreationTime -Descending | Select-Object -First 1 Name | ConvertTo-Json -Compress"
     }
   ],
-  "source": "unified_exec_startup",
-  "status": "completed",
-  "stdout": "{\"Name\":\"2026-10-08_11-13-16\"}\r\n",
-  "stderr": "",
-  "aggregated_output": "{\"Name\":\"2026-10-08_11-13-16\"}\r\n",
-  "exit_code": 0,
-  "duration": {
-    "secs": 0,
-    "nanos": 128593800
-  },
-  "formatted_output": "{\"Name\":\"2026-10-08_11-13-16\"}\r\n"
+  "aggregatedOutput": "{\"Name\":\"2026-10-08_11-13-16\"}\r\n",
+  "exitCode": 0,
+  "durationMs": 128
 }
 ````
 
@@ -3809,34 +3801,203 @@ Exportul continuă fără erori raportate. Comparația cu GitHub va folosi conț
 {
   "type": "commandExecution",
   "id": "exec-bbacc753-8f3a-43ca-886f-7ab070534d59",
-  "process_id": "14532",
-  "command": [
-    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
-    "-Command",
-    "$backupFiles = Get-ChildItem -LiteralPath '.\\salvari\\2026-10-08_11-13-16' -Recurse -File; [pscustomobject]@{Files=$backupFiles.Count; Bytes=($backupFiles | Measure-Object Length -Sum).Sum} | ConvertTo-Json -Compress"
-  ],
-  "cwd": "file:///C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva",
-  "parsed_cmd": [
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$backupFiles = Get-ChildItem -LiteralPath '\"'.\\\\salvari\\\\2026-10-08_11-13-16' -Recurse -File; [pscustomobject]@{Files=\"'$backupFiles.Count; Bytes=($backupFiles | Measure-Object Length -Sum).Sum} | ConvertTo-Json -Compress'",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "14532",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
     {
       "type": "unknown",
-      "cmd": "$backupFiles = Get-ChildItem -LiteralPath '.\\salvari\\2026-10-08_11-13-16' -Recurse -File; [pscustomobject]@{Files=$backupFiles.Count; Bytes=($backupFiles | Measure-Object Length -Sum).Sum} | ConvertTo-Json -Compress"
+      "command": "$backupFiles = Get-ChildItem -LiteralPath '.\\salvari\\2026-10-08_11-13-16' -Recurse -File; [pscustomobject]@{Files=$backupFiles.Count; Bytes=($backupFiles | Measure-Object Length -Sum).Sum} | ConvertTo-Json -Compress"
     }
   ],
-  "source": "unified_exec_startup",
-  "status": "completed",
-  "stdout": "{\"Files\":2582,\"Bytes\":3520822717.0}\r\n",
-  "stderr": "",
-  "aggregated_output": "{\"Files\":2582,\"Bytes\":3520822717.0}\r\n",
-  "exit_code": 0,
-  "duration": {
-    "secs": 0,
-    "nanos": 291196500
-  },
-  "formatted_output": "{\"Files\":2582,\"Bytes\":3520822717.0}\r\n"
+  "aggregatedOutput": "{\"Files\":2582,\"Bytes\":3520822717.0}\r\n",
+  "exitCode": 0,
+  "durationMs": 291
 }
 ````
 
 ## Asistent
 
 Noua copie conține deja peste 2.500 de fișiere, aproximativ 3,5 GB. Exportul încă procesează proiectele.
+
+
+## Asistent
+
+Am găsit o conversație în plus în `EVA-SchallerGasse`, împreună cu fișiere recuperabile suplimentare. `Comun` este neschimbat față de ultima încărcare.
+
+
+## Asistent
+
+Au fost regăsite toate cele 18 proiecte. Există actualizări și în `3D.AppleScan` și `_Fara proiect`; urmează verificarea completă a salvării.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-2784088d-8cb3-4f56-baee-cbf04a33cc41",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \".\\\\Salveaza-Codex.ps1\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "61687",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": ".\\Salveaza-Codex.ps1"
+    }
+  ],
+  "aggregatedOutput": "{\"id\": \"5c179290-3222-4036-8042-710f2e84db88\", \"name\": \"Comun\", \"conversations\": 148, \"subagents\": 38, \"messages\": 29550, \"files_copied\": 1923, \"folder\": \"Comun\", \"content_sha256\": \"140d2fdbe87e106b2683e5cd2bd28f06eaeaf71840679f934106b743ca40edee\"}\r\n{\"id\": \"59b8aaaa-7677-449b-b80b-e79b02b3b9ab\", \"name\": \"dracula-design\", \"conversations\": 0, \"subagents\": 0, \"messages\": 0, \"files_copied\": 0, \"folder\": \"dracula-design\", \"content_sha256\": \"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\"}\r\n{\"id\": \"95875198-03f4-4b10-8e79-934b195cc0e8\", \"name\": \"IndustryDeveloperPrinter\", \"conversations\": 0, \"subagents\": 0, \"messages\": 0, \"files_copied\": 0, \"folder\": \"IndustryDeveloperPrinter\", \"content_sha256\": \"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\"}\r\n{\"id\": \"fb3ecc5b-d79f-4ebd-8375-45b8acdeb7c5\", \"name\": \"Indunova\", \"conversations\": 2, \"subagents\": 0, \"messages\": 163, \"files_copied\": 91, \"folder\": \"Indunova\", \"content_sha256\": \"71c6507ba1150dbde2c406e93462088581943f6ceccff970caa8c9ba79c5fcfe\"}\r\n{\"id\": \"13771f36-ff54-4018-99b0-f69f8dfdd2f8\", \"name\": \"WildMotion\", \"conversations\": 1, \"subagents\": 0, \"messages\": 14, \"files_copied\": 0, \"folder\": \"WildMotion\", \"content_sha256\": \"bc9acb9a8148ecd532d86071811777fb7aa287331ffc8e276b9f670280d5bf71\"}\r\n{\"id\": \"a62819fc-eecd-41a3-acfa-724e26db8d88\", \"name\": \"AFIR-FotoVoltaic Production\", \"conversations\": 4, \"subagents\": 3, \"messages\": 61, \"files_copied\": 12, \"folder\": \"AFIR-FotoVoltaic Production\", \"content_sha256\": \"c6f089efd9db0d7c73114b669764e5703ca307ae38b51ff06f1b4b6469ed7b0e\"}\r\n{\"id\": \"88071415-6de0-43ab-a220-10f6d6515e0e\", \"name\": \"EVA-SchallerGasse\", \"conversations\": 6, \"subagents\": 5, \"messages\": 235, \"files_copied\": 325, \"folder\": \"EVA-SchallerGasse\", \"content_sha256\": \"e4078ca307ee4ad13e36e4babcdbf3843fed0c563f6722bc2a7cb8c797e23d61\"}\r\n{\"id\": \"31efd1b1-4971-46e2-b502-e0f2cc9d92b6\", \"name\": \"Bloc Centru\", \"conversations\": 1, \"subagents\": 0, \"messages\": 11, \"files_copied\": 4, \"folder\": \"Bloc Centru\", \"content_sha256\": \"fd408dd4076c36f46fcae2225fed159a35e19f93dedbfde651607b104d2069b8\"}\r\n{\"id\": \"b56f4502-5596-48b3-ab73-9624c7b0cd4a\", \"name\": \"eDrive\", \"conversations\": 1, \"subagents\": 0, \"messages\": 29, \"files_copied\": 8, \"folder\": \"eDrive\", \"content_sha256\": \"0bda73f9f5bec03f817cf03cc01e649595998e4d1d2a85ee6bac707893ef440b\"}\r\n{\"id\": \"7310b49a-fe03-4b49-b6de-1877255e0742\", \"name\": \"FinantariRO\", \"conversations\": 4, \"subagents\": 14, \"messages\": 138, \"files_copied\": 93, \"folder\": \"FinantariRO\", \"content_sha256\": \"9b6832b2ff1c0be1aefc317127435340c66a3526162005e56ecadefa61143768\"}\r\n{\"id\": \"ec58c433-8025-4835-8910-bab2f99b913f\", \"name\": \"FinantariEU\", \"conversations\": 4, \"subagents\": 0, \"messages\": 47, \"files_copied\": 17, \"folder\": \"FinantariEU\", \"content_sha256\": \"0ee187bda27ed4ec7e278b43a41c467137beb2e3bfb44afd468452666b6029b3\"}\r\n{\"id\": \"bad0be1d-5fae-412b-aa11-fef421eb951f\", \"name\": \"EVA-Learn\", \"conversations\": 3, \"subagents\": 3, \"messages\": 285, \"files_copied\": 40, \"folder\": \"EVA-Learn\", \"content_sha256\": \"277f2c4cab224232cfedf9ac004ec56ce52534ab13394d337f67e20c92ec64de\"}\r\n{\"id\": \"e56b444a-bcfc-4be0-8aef-18f33b0e3b74\", \"name\": \"Persoane&Firme\", \"conversations\": 2, \"subagents\": 0, \"messages\": 61, \"files_copied\": 20, \"folder\": \"Persoane&Firme\", \"content_sha256\": \"0de774b691b0dfa0154a940c5c5f88b4c7152570a3f2948427e13570013a13dd\"}\r\n{\"id\": \"5ecee0ff-6b67-4fba-b6fb-a38674476433\", \"name\": \"Print.eva-org,com\", \"conversations\": 1, \"subagents\": 0, \"messages\": 16, \"files_copied\": 36, \"folder\": \"Print.eva-org,com\", \"content_sha256\": \"4d1448443c0a728ca05c25beec658c7eb4446b9b0db21266eb7044305e81ea84\"}\r\n{\"id\": \"e7854c92-2b47-41b6-811e-be76b04f4f39\", \"name\": \"3D.AppleScan\", \"conversations\": 4, \"subagents\": 19, \"messages\": 275, \"files_copied\": 275, \"folder\": \"3D.AppleScan\", \"content_sha256\": \"42ae3943162da54966802166e45b6deabf9cd972b6f975f71911c539e82ef0e6\"}\r\n{\"id\": \"4bf5f961-e996-4dbc-8c36-d744d97c97db\", \"name\": \"iDempiere\", \"conversations\": 2, \"subagents\": 0, \"messages\": 61, \"files_copied\": 118, \"folder\": \"iDempiere\", \"content_sha256\": \"bcce4e3cfb35d436b656c9b891b9f44810d464d3973271f409f237898fe41927\"}\r\n{\"id\": \"a85004ee-5acd-4f38-b445-2289450e8065\", \"name\": \"EVA-Mail\", \"conversations\": 1, \"subagents\": 0, \"messages\": 7, \"files_copied\": 0, \"folder\": \"EVA-Mail\", \"content_sha256\": \"1d36635405a13d5ecfe4a2906d9013dd3fb5dbcdfd48c0d6016069bf3a787141\"}\r\n{\"id\": \"0342b0dc-be68-43fb-b135-3d436d2d009d\", \"name\": \"Hidroelectrica\", \"conversations\": 1, \"subagents\": 0, \"messages\": 17, \"files_copied\": 8, \"folder\": \"Hidroelectrica\", \"content_sha256\": \"acbf4513dc0e570c07d86789de9eba70d1ee0dca389944a17983dd33cafdcc6a\"}\r\n{\"id\": null, \"name\": \"_Fara proiect\", \"conversations\": 7, \"subagents\": 9, \"messages\": 199, \"files_copied\": 232, \"folder\": \"_Fara proiect\", \"content_sha256\": \"92a27db2e5fa6540c12249fb7ef4700b7dfba46af1ba72e27a2c9b08bfb2b3fb\"}\r\nTOTALS {\"projects\": 18, \"conversations\": 192, \"subagents\": 91, \"messages\": 31169, \"internal_sessions_excluded\": 260, \"missing_rollouts\": 0, \"invalid_json_lines\": 0, \"files_copied\": 3202, \"file_reference_statuses\": {\"fisier_inexistent_sau_director\": 2126, \"program_sau_endpoint_tehnic_exclus\": 88, \"copiat\": 3202, \"unitate_sau_server_inaccesibil\": 106, \"referinta_relativa_neconfirmata\": 229, \"cale_linux_indisponibila\": 15, \"referinta_externa_necopiata\": 1038, \"configuratie_sau_credentiale_excluse\": 1, \"export_curent_exclus_pentru_a_evita_recursia\": 10}}\r\nOUTPUT C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\salvari\\2026-10-08_11-13-16\r\n{\"verified_files\": 4367, \"verified_threads\": 283, \"totals\": {\"projects\": 18, \"conversations\": 192, \"subagents\": 91, \"messages\": 31169, \"internal_sessions_excluded\": 260, \"missing_rollouts\": 0, \"invalid_json_lines\": 0, \"files_copied\": 3202, \"file_reference_statuses\": {\"fisier_inexistent_sau_director\": 2126, \"program_sau_endpoint_tehnic_exclus\": 88, \"copiat\": 3202, \"unitate_sau_server_inaccesibil\": 106, \"referinta_relativa_neconfirmata\": 229, \"cale_linux_indisponibila\": 15, \"referinta_externa_necopiata\": 1038, \"configuratie_sau_credentiale_excluse\": 1, \"export_curent_exclus_pentru_a_evita_recursia\": 10}}}\r\nSalvare verificata: C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\salvari\\2026-10-08_11-13-16\r\nCititi manifest.json pentru fisiere indisponibile. Salvarea nu incarca automat date in GitHub.\r\n",
+  "exitCode": 0,
+  "durationMs": 330496
+}
+````
+
+## Asistent
+
+Verificările SHA-256 și ZIP au trecut pentru toate cele 192 de conversații principale. Sincronizarea cu GitHub a început.
+
+
+## Asistent
+
+Comparația confirmă modificări în cele trei directoare: `EVA-SchallerGasse`, `3D.AppleScan` și `_Fara proiect`. Copia publică este pregătită cu mascarea credențialelor detectate.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-cb515558-6cfd-4ec3-9232-c9370d2055b5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' '.\\\\sincronizeaza_github.py' '.\\\\salvari\\\\2026-10-08_11-13-16'\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "25584",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '.\\sincronizeaza_github.py' '.\\salvari\\2026-10-08_11-13-16'"
+    }
+  ],
+  "aggregatedOutput": "{\"verified_files\": 4367, \"verified_threads\": 283, \"totals\": {\"projects\": 18, \"conversations\": 192, \"subagents\": 91, \"messages\": 31169, \"internal_sessions_excluded\": 260, \"missing_rollouts\": 0, \"invalid_json_lines\": 0, \"files_copied\": 3202, \"file_reference_statuses\": {\"fisier_inexistent_sau_director\": 2126, \"program_sau_endpoint_tehnic_exclus\": 88, \"copiat\": 3202, \"unitate_sau_server_inaccesibil\": 106, \"referinta_relativa_neconfirmata\": 229, \"cale_linux_indisponibila\": 15, \"referinta_externa_necopiata\": 1038, \"configuratie_sau_credentiale_excluse\": 1, \"export_curent_exclus_pentru_a_evita_recursia\": 10}}}\r\n{\"changed_projects\": [\"EVA-SchallerGasse\", \"3D.AppleScan\", \"_Fara proiect\"]}\r\n{\"prepared_project\": \"EVA-SchallerGasse\", \"credential_files_masked\": 6}\r\n{\"prepared_project\": \"3D.AppleScan\", \"credential_files_masked\": 6}\r\n{\"prepared_project\": \"_Fara proiect\", \"credential_files_masked\": 0}\r\nPUSH_STARTED 8f36675ca31655f8fd6c357a095ad8918acf6bf9\r\n{\"verified_remote_commit\": \"8f36675ca31655f8fd6c357a095ad8918acf6bf9\", \"repository\": \"https://github.com/covaciugnm/Codex.git\", \"changed_projects\": [\"EVA-SchallerGasse\", \"3D.AppleScan\", \"_Fara proiect\"], \"verified_at_utc\": \"2026-10-08T08:20:48.903690+00:00\"}\r\n",
+  "exitCode": 0,
+  "durationMs": 111920
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-08ee3b67-7ffc-4015-9b26-ddc0a42c5694",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport json, pathlib, subprocess\nroot=pathlib.Path.cwd()\nreceipt=json.loads((root/'ultima-incarcare.json').read_text(encoding='utf-8'))\nconfig=json.loads((root/'conexiune-github.json').read_text(encoding='utf-8'))\nsha=receipt['verified_remote_commit']\ntree=json.loads(subprocess.check_output([config['gh_executable'],'api',f'repos/covaciugnm/Codex/git/trees/{sha}?recursive=1'],text=True,encoding='utf-8'))\nassert not tree.get('truncated'), 'Remote tree truncated'\nremote={x['path'] for x in tree['tree'] if x['type']=='blob'}\nlocal=set(subprocess.check_output(['git','-C',str(root/'GitHub-Codex'),'ls-tree','-r','--name-only','-z','HEAD']).decode('utf-8').rstrip('\\\\0').split('\\\\0'))\nassert remote==local, 'Remote and local file lists differ'\nassert not subprocess.check_output(['git','-C',str(root/'GitHub-Codex'),'status','--porcelain'],text=True).strip(), 'Uncommitted publication changes'\nreceipt.update(verified_remote_file_count=len(remote),remote_file_list_matches_local_commit=True,snapshot='salvari/2026-10-08_11-13-16')\n(root/'ultima-incarcare.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')\nprint(json.dumps({'commit':sha,'remote_file_count':len(remote),'remote_matches_local':True,'checkout_clean':True}))\n'@ | & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "2427",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport json, pathlib, subprocess\nroot=pathlib.Path.cwd()\nreceipt=json.loads((root/'ultima-incarcare.json').read_text(encoding='utf-8'))\nconfig=json.loads((root/'conexiune-github.json').read_text(encoding='utf-8'))\nsha=receipt['verified_remote_commit']\ntree=json.loads(subprocess.check_output([config['gh_executable'],'api',f'repos/covaciugnm/Codex/git/trees/{sha}?recursive=1'],text=True,encoding='utf-8'))\nassert not tree.get('truncated'), 'Remote tree truncated'\nremote={x['path'] for x in tree['tree'] if x['type']=='blob'}\nlocal=set(subprocess.check_output(['git','-C',str(root/'GitHub-Codex'),'ls-tree','-r','--name-only','-z','HEAD']).decode('utf-8').rstrip('\\0').split('\\0'))\nassert remote==local, 'Remote and local file lists differ'\nassert not subprocess.check_output(['git','-C',str(root/'GitHub-Codex'),'status','--porcelain'],text=True).strip(), 'Uncommitted publication changes'\nreceipt.update(verified_remote_file_count=len(remote),remote_file_list_matches_local_commit=True,snapshot='salvari/2026-10-08_11-13-16')\n(root/'ultima-incarcare.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')\nprint(json.dumps({'commit':sha,'remote_file_count':len(remote),'remote_matches_local':True,'checkout_clean':True}))\n'@ | & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -"
+    }
+  ],
+  "aggregatedOutput": "{\"commit\": \"8f36675ca31655f8fd6c357a095ad8918acf6bf9\", \"remote_file_count\": 4419, \"remote_matches_local\": true, \"checkout_clean\": true}\r\n",
+  "exitCode": 0,
+  "durationMs": 1096
+}
+````
+
+## Asistent
+
+[Salvarea în GitHub](https://github.com/covaciugnm/Codex/commit/8f36675ca31655f8fd6c357a095ad8918acf6bf9) a reușit.
+
+- **EVA-SchallerGasse**: o conversație suplimentară și fișiere recuperabile.
+- **3D.AppleScan** și **_Fara proiect**: actualizările salvate.
+
+SHA-256, ZIP-urile și commitul distant sunt verificate. Fișierele inaccesibile sunt consemnate separat.
+
+## Asistent
+
+Rulez salvarea programată și verific ce s-a schimbat față de ultima încărcare în GitHub.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-3b6caf54-7ffe-4e7b-ab3e-d81ead9a173f",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Item -LiteralPath '.\\\\PROTOCOL-SALVARE.md','.\\\\Salveaza-Codex.ps1','.\\\\export_codex.py','.\\\\sincronizeaza_github.py' | Select-Object Name,LastWriteTime; Get-Content -LiteralPath '.\\\\ultima-incarcare.json'; Get-PSDrive -Name C | Select-Object Free | ConvertTo-Json -Compress\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "34834",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Item -LiteralPath '.\\PROTOCOL-SALVARE.md','.\\Salveaza-Codex.ps1','.\\export_codex.py','.\\sincronizeaza_github.py' | Select-Object Name,LastWriteTime; Get-Content -LiteralPath '.\\ultima-incarcare.json'; Get-PSDrive -Name C | Select-Object Free | ConvertTo-Json -Compress"
+    }
+  ],
+  "aggregatedOutput": "\r\nName                    LastWriteTime\r\n----                    -------------\r\nPROTOCOL-SALVARE.md     10/7/2026 11:48:14 AM\r\nSalveaza-Codex.ps1      10/7/2026 11:05:39 AM\r\nexport_codex.py         10/7/2026 11:47:42 AM\r\nsincronizeaza_github.py 10/8/2026 5:20:26 AM\r\n{\r\n  \"verified_remote_commit\": \"8f36675ca31655f8fd6c357a095ad8918acf6bf9\",\r\n  \"repository\": \"https://github.com/covaciugnm/Codex.git\",\r\n  \"changed_projects\": [\r\n    \"EVA-SchallerGasse\",\r\n    \"3D.AppleScan\",\r\n    \"_Fara proiect\"\r\n  ],\r\n  \"verified_at_utc\": \"2026-10-08T08:20:48.903690+00:00\",\r\n  \"verified_remote_file_count\": 4419,\r\n  \"remote_file_list_matches_local_commit\": true,\r\n  \"snapshot\": \"salvari/2026-10-08_11-13-16\"\r\n}\r\n{\"Free\":77274374144}\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 608
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-a0970e1c-b72f-4a10-95ca-78949334eef1",
+  "process_id": "98906",
+  "command": [
+    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+    "-Command",
+    "Get-ChildItem -LiteralPath '.\\salvari' -Directory | Sort-Object CreationTime -Descending | Select-Object -First 1 Name | ConvertTo-Json -Compress"
+  ],
+  "cwd": "file:///C:/Users/User/.codex/visualizations/2026/10/07/01a1155d-f8a7-7ce1-8b61-7f365a73b769/Codex-Arhiva",
+  "parsed_cmd": [
+    {
+      "type": "unknown",
+      "cmd": "Get-ChildItem -LiteralPath '.\\salvari' -Directory | Sort-Object CreationTime -Descending | Select-Object -First 1 Name | ConvertTo-Json -Compress"
+    }
+  ],
+  "source": "unified_exec_startup",
+  "status": "completed",
+  "stdout": "{\"Name\":\"2026-10-08_17-13-28\"}\r\n",
+  "stderr": "",
+  "aggregated_output": "{\"Name\":\"2026-10-08_17-13-28\"}\r\n",
+  "exit_code": 0,
+  "duration": {
+    "secs": 0,
+    "nanos": 144119100
+  },
+  "formatted_output": "{\"Name\":\"2026-10-08_17-13-28\"}\r\n"
+}
+````
+
+## Asistent
+
+Salvarea `2026-10-08_17-13-28` este în curs. Copiile anterioare sunt păstrate, iar spațiul disponibil este suficient pentru această rulare.
+
+
+## Asistent
+
+Exportul continuă fără erori raportate. Diferențele față de GitHub vor fi confirmate după verificarea noii copii.
 

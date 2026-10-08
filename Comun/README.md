@@ -1,6 +1,6 @@
 # Comun
 
-Conversații: 148; subagenți: 38; mesaje: 29550; fișiere copiate: 1923.
+Conversații: 148; subagenți: 38; mesaje: 29550; fișiere copiate: 1922.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|

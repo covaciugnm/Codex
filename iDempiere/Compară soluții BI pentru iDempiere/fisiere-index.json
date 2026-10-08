@@ -1,0 +1,479 @@
+[
+  {
+    "source_reference": "'+r['url']+'",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "../../index.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "//192.168.100.169/comun/00.Roboti/EVA.Pro/Eva-contab/Comparatie TOP6/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--0d6cf449.html",
+    "bytes": 2435482,
+    "sha256": "fe550c2eed4eb94f585312fc581d5e210e33c3180130f8db184fa06d7b3cf389"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\build_annexes.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_annexes--abff0b08.py",
+    "bytes": 16261,
+    "sha256": "33412eee291c2b9d842629138feb24596ca78bcf78a7fe651de8e2db8c58c9a5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\build_excel.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_excel--2cc501eb.mjs",
+    "bytes": 7937,
+    "sha256": "20da80058023bc48317425cd48b45e42e2310938cf08cb2bafaae49fe2129936"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\build_report.py",
+    "status": "copiat",
+    "saved_path": "fisiere/build_report--b1870f46.py",
+    "bytes": 16588,
+    "sha256": "a1a31bec60cb34601d6dcdb4b0af8301266fa817c8af0b4c9c398136aff571d6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\download_docs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/download_docs--c5155fe4.py",
+    "bytes": 2321,
+    "sha256": "20f19324feb0c97f411579574ab51c9f39aeae566f2413c41fe6112457ed51a5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\eva_evidence.py",
+    "status": "copiat",
+    "saved_path": "fisiere/eva_evidence--84518b79.py",
+    "bytes": 1680,
+    "sha256": "05af62347b4cf74e41c2a78cef5d779f53f3683504afdfe7c20c773966a9a5d8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/1--7de8e828.png",
+    "bytes": 129677,
+    "sha256": "f3c3b5bed85989e72d35d644ade0d5475cb6d95a526af7af36b906cd2c39c83d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2--cfb87f75.png",
+    "bytes": 72639,
+    "sha256": "79d88f7b92b17441f29c37eef18860204674fbf0a8c00fbf12757bada55ade42"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/3--4ec816c3.png",
+    "bytes": 37519,
+    "sha256": "60ab511109d03040156ee10dc72b0191e611a2ab5c6646fd7854300b7180906c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/4--539d179b.png",
+    "bytes": 80025,
+    "sha256": "7ac3b84e8423925076ec4e128eee44fd2fbe4a444e4d859f63fcd701494c8ef4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/5--aa0a6ae3.png",
+    "bytes": 45619,
+    "sha256": "e2194928b17d2b7bd7427abb585091988aac3dbbcd28a3c11fc3c1011b915c2c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/6--a460dc31.png",
+    "bytes": 145131,
+    "sha256": "e039f7f2b27ec380e416dfff3a5a2e5b3415604972e048cff00a9556c6a7326e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/7--3622fb5c.png",
+    "bytes": 183329,
+    "sha256": "ad19a38541ae8035a2038d52d688c11e56eceff10ae1cce2e51bdf517312f297"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/8--c62f8223.png",
+    "bytes": 139971,
+    "sha256": "16dae0902a0820fab0068685fdd9d1851676ed03e4e8d9c9696f9f78dbf73c44"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\excel_previews\\9.png",
+    "status": "copiat",
+    "saved_path": "fisiere/9--05bdfe4a.png",
+    "bytes": 109072,
+    "sha256": "902c0041643ff44bf6e655f9d3ef6bf4c6c565da47e992df144fc9a0bbd5b831"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\finalize_content.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize_content--97a4bf49.py",
+    "bytes": 3647,
+    "sha256": "89a4436634ce0f6f2976b646cdd536e292852f100fe4448c87c7912c0d2d0cdb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\package_bi.py",
+    "status": "copiat",
+    "saved_path": "fisiere/package_bi--7d559bb3.py",
+    "bytes": 5112,
+    "sha256": "631d4a7a382ab842d1ab96fd1f57d3813bb581285068733aeb047e0702d8144d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\contact-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-1--ec5aa2ab.png",
+    "bytes": 476503,
+    "sha256": "c2de1a99a1d410e001f6c17e685c17bf630ca0fd0c08dc3776f14824d6291130"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\contact-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-2--553961b2.png",
+    "bytes": 413235,
+    "sha256": "ecbf007086e460589774316dfe08dde294eecc817764f966d13e53fc4c89ee01"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\contact-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-3--ff25d794.png",
+    "bytes": 545061,
+    "sha256": "3c4af2cb3a86c04b062a8188de626e41238d06abf6bd9d2e3ea66767e6b21efe"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\contact-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-4--285eb69c.png",
+    "bytes": 545372,
+    "sha256": "79f1c7ebdbae4073ba37b0f680c14c1490168e304fe1a12bfbc24d4eb4c3c19b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\contact-5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-5--9e05ad55.png",
+    "bytes": 538094,
+    "sha256": "17a602cde6c8024fccb37e6edc22a1e0abea909f2a06a347d1db8c7f8fee3861"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\contact-6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact-6--ae6ede30.png",
+    "bytes": 398910,
+    "sha256": "4feabd4b7511fa44f11a7cbcf861945391544f9dbc4350bdd3c6f9836bf2f316"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-01--290ead65.png",
+    "bytes": 146564,
+    "sha256": "8060f330f79e4cad935f088349ac5cbcc0b97e0359b0e72e8fff9214204ac44f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-02--c260a25c.png",
+    "bytes": 160415,
+    "sha256": "e0f2e8687ae4d7bebed06c8684c86ffe72887e15308db818dff9a1f71e6adc85"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-03--08681a41.png",
+    "bytes": 163764,
+    "sha256": "ec0440172a956f883481a095a5dd1896426dd724fbf8973ba7faa4df129fd2c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-04--bc6806e3.png",
+    "bytes": 131912,
+    "sha256": "80b3da1406ebee7b210b04fe37d8c55ab6bd364a05af6eb57d43f8daf2766c33"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-05--c7a18111.png",
+    "bytes": 85790,
+    "sha256": "71152f0b2ed26dc7bd7ebe5ebc5c8dc996c2b7a9f454c46776f5ee986274660c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-06--75a7e02a.png",
+    "bytes": 83010,
+    "sha256": "fc79d9212502c08685cf17264283c61ca2b584bc3fa94bf382b1a244a26663ee"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-07--ff468c5a.png",
+    "bytes": 85200,
+    "sha256": "d43de4d6a8e6e5bc6747c7f186312e55ef263a3a4b8670138cff39681c864742"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-08--c4612860.png",
+    "bytes": 92893,
+    "sha256": "9c1f86c34331bea691931baa30b1e4125df15e6a2b0edb66ed608f4dfa716dad"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-09--df3cf87a.png",
+    "bytes": 150168,
+    "sha256": "64ecf25f0ee082ebe903b7aba27eaba7005240d955c75af670bf1e9dbdae1802"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-10--99cbad7a.png",
+    "bytes": 151944,
+    "sha256": "ea79108d9f028fc60cd6ebc830ebb79fb3c60f15231dfb965cf44fb7cd5fe303"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-11--45ba6586.png",
+    "bytes": 128994,
+    "sha256": "10f14b57638373d984f5e2db0686fa8d0fc92f3f20eb439e979bf0015ecff2a9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-12--c5431fab.png",
+    "bytes": 123493,
+    "sha256": "2cdfb733574d33f9ba6613b7e40797c77187ff9f34c0050c71498be8efbe8d00"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-13--9ebf59a4.png",
+    "bytes": 125474,
+    "sha256": "f0cd08096ea5898d97cbee6493f0858da304255eda794ec76c37184c273006e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-14--0269d6d8.png",
+    "bytes": 130759,
+    "sha256": "e8faf29422112ef6bb8c4c514ffcf98624ee9a20b00d7afbdd2b9f05241d2452"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-15--1ea445e9.png",
+    "bytes": 139171,
+    "sha256": "0be64bfa51a2a39be58cda1e6769c2d14e32ec858fe6bc9c176240da77198a38"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-16--4c6c4813.png",
+    "bytes": 143788,
+    "sha256": "7c973a464f7fbea45b315e834bf20617043cf4d02a3078acc8ad592f0eed34b6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-17--cda8cab5.png",
+    "bytes": 162428,
+    "sha256": "044845c400b65066842dc5246cce27774f67ad0c148080b75debce8d02a0a2fa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-18--3fb9bb28.png",
+    "bytes": 136601,
+    "sha256": "b163e13e5a01dc752e2d62767a49c312a35dce057f7f3d6d1f8668a008b41815"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-19--a2689592.png",
+    "bytes": 149866,
+    "sha256": "964433b1bb011160cfcf1d39928ae4d84fcb9d0c1cbeeb89898c2b12b921f93e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-20--f1c9a4e0.png",
+    "bytes": 140341,
+    "sha256": "6e127625fae01af5c0200bacba7382dbc864a5b0364402ec3298c87c8f679d6c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-21--4a7d16e6.png",
+    "bytes": 133061,
+    "sha256": "df7fe77d75ad896b9005462bd242e00c12e7590fccaff8ec457ca4af5e75dcab"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-22--3b6af048.png",
+    "bytes": 134117,
+    "sha256": "45b737c7c0c4a2fb7c21f3ba7b182326ee459241d15da2f33fd42bceb10ae877"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-23--72a0de9c.png",
+    "bytes": 135215,
+    "sha256": "8271f184e54974cd6fa72bef01dc4ff792bfd321b2ec47e5acd504a41efb0243"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-24--d640e00e.png",
+    "bytes": 141178,
+    "sha256": "ffad6e6e10edfb8084893ccc60dc2f8a395b91a03edd3d224997701c2bef585f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-25--08a33341.png",
+    "bytes": 143621,
+    "sha256": "9145d6e3c5462e82aacea14c36f50da23b0faf4cfc736a4ce5e4009e4f2806d2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-26--462f807c.png",
+    "bytes": 136137,
+    "sha256": "8b51f3b0b40e2272e188f6c5fa95448dc629c867d0dab5a8eda80acb59080bde"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-27--488e975c.png",
+    "bytes": 135737,
+    "sha256": "a2d4f92117ac4745a0e4bbe7892058aeda1f98f2972f2a4d006bd9bf9f38b8d9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-28.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-28--ecd0c768.png",
+    "bytes": 135904,
+    "sha256": "b5ac5532d4e585bbbdc71f924cea8a108e93e8912d8883d3b38030538b1dbd58"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-29.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-29--946e93ff.png",
+    "bytes": 134130,
+    "sha256": "39d66966e6d1ac2a81c7fae84476366c37a155f74809dcb7bf7e9153bde94c13"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-30.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-30--42ce226e.png",
+    "bytes": 132652,
+    "sha256": "b99c88c31dc873f140b6bf72702ba14bd041ab507245dfe9756af34bf049bafd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-31.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-31--f534fe50.png",
+    "bytes": 147267,
+    "sha256": "d97010adc03a880632f994213ba2386b68f7453620f55668903b7f5056f0c49a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-32.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-32--e00ac473.png",
+    "bytes": 170611,
+    "sha256": "3e1c7ba53b0803fb04cddc5d168edc682309caea2b73346c5d67674aac4ee27f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-33.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-33--32ac5734.png",
+    "bytes": 196393,
+    "sha256": "62a4bba7b1d5c6471b87a5438d71911d649739c0921e9115a0db67ec383a91a4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-34.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-34--13d418cd.png",
+    "bytes": 196143,
+    "sha256": "cc30487f376f785e7646515e34328747fae7203327254d1754958fcf4f66cf14"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\pdf_previews\\page-35.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-35--06432f5e.png",
+    "bytes": 68269,
+    "sha256": "5f1db208232c4751ecf3090b4fd1fb48fc1ee6318ccaa3b7c179889631d287e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\prepare_excel.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare_excel--b89a079e.py",
+    "bytes": 9019,
+    "sha256": "3c158d3c2d541729e68be73acd9134913d5011509f0b8922ce5df13a1366a4b2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\qa_pdf.py",
+    "status": "copiat",
+    "saved_path": "fisiere/qa_pdf--829fab5d.py",
+    "bytes": 1294,
+    "sha256": "af19052af8c3efe6e8f51df37fce30c509874173faffa82cb987ed7bfb9c3e0f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\report_content.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/report_content--62d041f3.txt",
+    "bytes": 56921,
+    "sha256": "4542261271a4c742e9b07115b345e5308b35372e6efb69f5cd6657c89ac54be5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\research_bi.py",
+    "status": "copiat",
+    "saved_path": "fisiere/research_bi--97e01487.py",
+    "bytes": 4320,
+    "sha256": "d9cf07e9015bf2bdac18229c012da319ffe4fe32921f8c1d401cf67b05ec1a49"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\08\\01a11b02-c180-7552-9529-6451295e0796\\supplement.py",
+    "status": "copiat",
+    "saved_path": "fisiere/supplement--ee4d9fc2.py",
+    "bytes": 2197,
+    "sha256": "9f586a2fa6dc9a3b3262c9085a0df9e69f7c0c10d10e4f742dc1bd2e6beff8e7"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/blob/docs/biblioteca-erp-ro-2026-10-06/Documentatie/BI_iDempiere/00_Raport/Raport_BI_iDempiere_Eva_2026-10-08.pdf?raw=true",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/blob/docs/biblioteca-erp-ro-2026-10-06/Documentatie/BI_iDempiere/02_Matrice/Comparatie_BI_iDempiere_Eva.xlsx?raw=true",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie/BI_iDempiere",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/Eva-Accounting/tree/docs/biblioteca-erp-ro-2026-10-06/Documentatie/Comparatie%20TOP6",
+    "status": "referinta_externa_necopiata"
+  }
+]
