@@ -1,0 +1,23 @@
+{
+  "id": "01a1184d-85db-72b3-867e-da7cfe2ed898",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791354345,
+  "updated_at": 1791354374,
+  "archived": 0,
+  "source": "vscode",
+  "title": "EVA 3D Scan – agent help non-stop (server + aplicație)",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T02:11:43.299007+00:00",
+  "source_bytes": 52771,
+  "invalid_json_lines": 0,
+  "history_source": "legacy_events",
+  "rollout_exists": true,
+  "item_count": 13,
+  "message_count": 13,
+  "content_sha256": "cecd1a39c484aa53b1d4b23e5ba8232010a0fc7921845d7b2e160af653bb0bb5",
+  "files_copied": 1,
+  "references_not_copied": 0
+}

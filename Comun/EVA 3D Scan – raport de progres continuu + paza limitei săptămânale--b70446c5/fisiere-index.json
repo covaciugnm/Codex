@@ -1,0 +1,17 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\subagents\\workflows\\*\\journal.jsonl",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\workflows\\scripts\\*.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\scheduled-tasks\\eva-raport-progres\\SKILL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SKILL--38f75287.md",
+    "bytes": 4224,
+    "sha256": "57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc"
+  }
+]

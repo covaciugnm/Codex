@@ -1,0 +1,23 @@
+{
+  "id": "01a1184d-83c4-7291-a2f3-fee5a9c360d2",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791358834,
+  "updated_at": 1791358972,
+  "archived": 0,
+  "source": "vscode",
+  "title": "EVA 3D Scan – raport de progres continuu + paza limitei săptămânale",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-08T02:11:43.299007+00:00",
+  "source_bytes": 147158,
+  "invalid_json_lines": 0,
+  "history_source": "legacy_events",
+  "rollout_exists": true,
+  "item_count": 38,
+  "message_count": 38,
+  "content_sha256": "40c7430f9cb830c48a63ae4e20e36ebfd9dc2fa65619fdf85457150cd06bd5a4",
+  "files_copied": 1,
+  "references_not_copied": 13
+}

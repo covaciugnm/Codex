@@ -1,10 +1,53 @@
 [
   {
+    "source_reference": "%s_SERVER_CATRE_IOS.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "):`<section class=\"container page-heading\"><h1>${s('ui.notFound'",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "../TEST_FINAL_PLAN.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "2026-10-07_0430_IOS_CATRE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0440_IOS_CATRE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0520_IOS_CATRE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "2026-10-07_0545_IOS_CATRE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
     "source_reference": "3dscan-eva-org-server.md",
     "status": "referinta_relativa_neconfirmata"
   },
   {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/subagents/workflows",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
     "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/subagents/workflows/wf_2c06e54e-03b",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/subagents/workflows/wf_86d08c35-1d5/journal.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/journal--37df00d0.jsonl",
+    "bytes": 275566,
+    "sha256": "44e9ed608e2fd79c71f0b816c78f50f8f7d4b76d6f02eab747c9f3f905126ee1"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/workflows/scripts",
     "status": "fisier_inexistent_sau_director"
   },
   {
@@ -13,6 +56,13 @@
     "saved_path": "fisiere/eva-admin-live-wf_121cb157-e8a--9f5f59d1.js",
     "bytes": 18564,
     "sha256": "0e82b9686f59b6da1f04bcb5380c572171110fa93406a60315cb3ebe83f9351e"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/workflows/scripts/eva-model-ensemble-wf_37baf7d1-324.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-model-ensemble-wf_37baf7d1-324--4938af5f.js",
+    "bytes": 22139,
+    "sha256": "f1754c1dc3ff5e3a6bef685def0ff661ca6715e9313a6d44a53825a8abaa18b8"
   },
   {
     "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/workflows/scripts/eva-scene-live-wf_4410ae04-3ba.js",
@@ -29,11 +79,25 @@
     "sha256": "a5c28bc2bcd19ee0d50ca447e6d52ce9123ee4f8614aa3ec85f49d316b1410e6"
   },
   {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/3dscan-eva-org-server.md",
+    "status": "copiat",
+    "saved_path": "fisiere/3dscan-eva-org-server--c5ebc232.md",
+    "bytes": 4093,
+    "sha256": "d07f5d91c030e45bc19883e86fd97931d484dbc977dfe093843b87a9d3d9d013"
+  },
+  {
     "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/MEMORY.md",
     "status": "copiat",
     "saved_path": "fisiere/MEMORY--51c05c25.md",
     "bytes": 6811,
     "sha256": "d71a1fb30f14c87cdda8603b6acfdad01cc18eed637cb58d264b6a467332bcc8"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/decide-autonom-fara-intrebari.md",
+    "status": "copiat",
+    "saved_path": "fisiere/decide-autonom-fara-intrebari--5818ab6c.md",
+    "bytes": 1271,
+    "sha256": "6b8f093d19ca6c6ae5ace669280b2d80c12659421a7491118dd4567243bc393e"
   },
   {
     "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/memory/github-repos-site-uri.md",
@@ -50,6 +114,21 @@
     "sha256": "0dc17bb9ee844be0a24156bbdddf3981a6276bf1ffa58c66b1f380eea5e21f87"
   },
   {
+    "source_reference": "C:/Users/User/.claude/scheduled-tasks/$t/SKILL.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/settings.json",
+    "status": "copiat",
+    "saved_path": "fisiere/settings--be5cd529.json",
+    "bytes": 1273,
+    "sha256": "cf8bf8dbe4d50c3ac42f2ae4bf03a3c8bc966b834b3edb88e6e2884c01d6d718"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/settings.local.json",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/scratchpad",
     "status": "fisier_inexistent_sau_director"
   },
@@ -58,11 +137,68 @@
     "status": "fisier_inexistent_sau_director"
   },
   {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/scratchpad/coord",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/scratchpad/fixwf.py",
+    "status": "copiat",
+    "saved_path": "fisiere/fixwf--c54d08ad.py",
+    "bytes": 7758,
+    "sha256": "3d92bbfb3974ba4465d31275edb96435815ffcb64265b03dcbb954fe83ff5cde"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/scratchpad/handoff",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/scratchpad/handoff2/msg.md",
+    "status": "copiat",
+    "saved_path": "fisiere/msg--e4243137.md",
+    "bytes": 3339,
+    "sha256": "3788fc32287a101fcd0537189e0854e92c79a7903510253b32a9d4491c0fe647"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\subagents\\workflows\\wf_121cb157-e8a\\journal.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/journal--04a4ab43.jsonl",
+    "bytes": 304715,
+    "sha256": "859add5b465174cf17b77e24514768aba155b4634e5aa736e1e4219b4aee53ec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\subagents\\workflows\\wf_2c06e54e-03b\\journal.jsonl",
+    "status": "copiat",
+    "saved_path": "fisiere/journal--83ed5df7.jsonl",
+    "bytes": 476399,
+    "sha256": "3404ed2ae21a8c78f0329268f0b022b336d13d040f135de97fc609d3d9637cca"
+  },
+  {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\workflows\\scripts\\eva-admin-live-wf_121cb157-e8a.js",
     "status": "copiat",
     "saved_path": "fisiere/eva-admin-live-wf_121cb157-e8a--9f5f59d1.js",
     "bytes": 18564,
     "sha256": "0e82b9686f59b6da1f04bcb5380c572171110fa93406a60315cb3ebe83f9351e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\workflows\\scripts\\eva-api-comunicare-wf_948d62f3-278.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-api-comunicare-wf_948d62f3-278--80c3ef32.js",
+    "bytes": 12320,
+    "sha256": "51fed1434dc128ea8d073ea083ffef4e244a718a96047dcfac51175bc0fb2010"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\workflows\\scripts\\eva-help-system-wf_74f435e0-181.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-help-system-wf_74f435e0-181--8f65289f.js",
+    "bytes": 13358,
+    "sha256": "7ea77b4e70ec7908058d285267252087e1fd65d559b141062c859df103da2f33"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\workflows\\scripts\\eva-model-ensemble-wf_37baf7d1-324.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-model-ensemble-wf_37baf7d1-324--4938af5f.js",
+    "bytes": 22139,
+    "sha256": "f1754c1dc3ff5e3a6bef685def0ff661ca6715e9313a6d44a53825a8abaa18b8"
   },
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\workflows\\scripts\\eva-scene-live-wf_4410ae04-3ba.js",
@@ -79,11 +215,99 @@
     "sha256": "a5c28bc2bcd19ee0d50ca447e6d52ce9123ee4f8614aa3ec85f49d316b1410e6"
   },
   {
+    "source_reference": "C:\\Users\\User\\.claude\\settings.json",
+    "status": "copiat",
+    "saved_path": "fisiere/settings--be5cd529.json",
+    "bytes": 1273,
+    "sha256": "cf8bf8dbe4d50c3ac42f2ae4bf03a3c8bc966b834b3edb88e6e2884c01d6d718"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--90dd88c1.py",
+    "bytes": 14379,
+    "sha256": "feb17670e443e5db2723f217727dcc5d5e155c40e4e6935b16061c88542f24e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\decoder.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decoder--1f97611a.py",
+    "bytes": 12882,
+    "sha256": "9f4cc83197bf1b13fee3ce71a044a4b4987a7eeecd8768206abd31a78e0a3d16"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\__init__.py",
+    "status": "copiat",
+    "saved_path": "fisiere/__init__--ef4b9227.py",
+    "bytes": 16700,
+    "sha256": "778cdca1fe51cddb7671d7a158c6bdecee1b7967e9f4a0ddf41cfb5320568c42"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_parser.py",
+    "status": "copiat",
+    "saved_path": "fisiere/_parser--6799a8e7.py",
+    "bytes": 42281,
+    "sha256": "bcc84f06d54e2d28506350a60bc1aaaa0efda4221f4ceeb05b2d0f48c712c479"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\scratchpad\\coord\\TEST_FINAL_PASI.ppsx",
+    "status": "copiat",
+    "saved_path": "fisiere/TEST_FINAL_PASI--bedd3f2a.ppsx",
+    "bytes": 580231,
+    "sha256": "918062299f7d6ec9588f962e84a34eab8c8ed90e6cb7ef27d80572ee0f0ece32"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\scratchpad\\coord\\TEST_FINAL_PASI.pptx",
+    "status": "copiat",
+    "saved_path": "fisiere/TEST_FINAL_PASI--4d3a1801.pptx",
+    "bytes": 580226,
+    "sha256": "df63afce0944e92805652a25308f38585ae973760a159ad5998313e01d716872"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\scratchpad\\coord\\gen2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/gen2--0fb892a1.py",
+    "bytes": 6710,
+    "sha256": "dc108598a7033efcb9371d169db1c94ef6aec288c8cc71b0ea62b6cb0526f042"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\scratchpad\\deck\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\tasks\\wxyf7fe4n.output",
+    "status": "copiat",
+    "saved_path": "fisiere/wxyf7fe4n--e5987b15.output",
+    "bytes": 203490,
+    "sha256": "f8956e81748f15573e0b9d95577c55635317bfd420a477c81bb13c86874fee56"
+  },
+  {
     "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\\\workflows\\\\scripts\\\\eva-admin-live-wf_121cb157-e8a.js",
     "status": "copiat",
     "saved_path": "fisiere/eva-admin-live-wf_121cb157-e8a--9f5f59d1.js",
     "bytes": 18564,
     "sha256": "0e82b9686f59b6da1f04bcb5380c572171110fa93406a60315cb3ebe83f9351e"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\\\workflows\\\\scripts\\\\eva-help-system-wf_74f435e0-181.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-help-system-wf_74f435e0-181--8f65289f.js",
+    "bytes": 13358,
+    "sha256": "7ea77b4e70ec7908058d285267252087e1fd65d559b141062c859df103da2f33"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\\\workflows\\\\scripts\\\\eva-model-ensemble-wf_37baf7d1-324.js",
+    "status": "copiat",
+    "saved_path": "fisiere/eva-model-ensemble-wf_37baf7d1-324--4938af5f.js",
+    "bytes": 22139,
+    "sha256": "f1754c1dc3ff5e3a6bef685def0ff661ca6715e9313a6d44a53825a8abaa18b8"
   },
   {
     "source_reference": "C:\\\\Users\\\\User\\\\.claude\\\\projects\\\\--192-168-100-169-Comun-\\\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\\\workflows\\\\scripts\\\\eva-scene-live-wf_4410ae04-3ba.js",
@@ -100,6 +324,20 @@
     "sha256": "a5c28bc2bcd19ee0d50ca447e6d52ce9123ee4f8614aa3ec85f49d316b1410e6"
   },
   {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\--192-168-100-169-Comun-\\\\5efc40cc-73af-42fe-b44f-b1dcd7a13200\\\\scratchpad\\\\coord\\\\TEST_FINAL_PASI.ppsx",
+    "status": "copiat",
+    "saved_path": "fisiere/TEST_FINAL_PASI--bedd3f2a.ppsx",
+    "bytes": 580231,
+    "sha256": "918062299f7d6ec9588f962e84a34eab8c8ed90e6cb7ef27d80572ee0f0ece32"
+  },
+  {
+    "source_reference": "C:\\\\\\\\Users\\\\\\\\User\\\\\\\\.claude\\\\\\\\settings.json",
+    "status": "copiat",
+    "saved_path": "fisiere/settings--be5cd529.json",
+    "bytes": 1273,
+    "sha256": "cf8bf8dbe4d50c3ac42f2ae4bf03a3c8bc966b834b3edb88e6e2884c01d6d718"
+  },
+  {
     "source_reference": "CONTRACTE_V2.md",
     "status": "referinta_relativa_neconfirmata"
   },
@@ -112,7 +350,51 @@
     "status": "referinta_relativa_neconfirmata"
   },
   {
+    "source_reference": "PROGRES_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "PROTOCOL.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "PROTOCOL_COMUNICARE_ECHIPE.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
     "source_reference": "RELUARE.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "RELUARE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "SRV-016_api-comunicare-unic.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "TABLOU.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "TEST_FINAL_PASI.ppsx",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "TEST_FINAL_PASI.pptx",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "TEST_FINAL_PLAN.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "Z:/images/images\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\)\\",
     "status": "referinta_relativa_neconfirmata"
   },
   {
@@ -124,7 +406,91 @@
     "status": "referinta_relativa_neconfirmata"
   },
   {
+    "source_reference": "\\\\\\\\n## 15\\\\\\\\.",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\n## 16\\\\\\\\.",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
     "source_reference": "\\\\nIstoric runde (date; verifica si ca remedierile declarate exista): ${JSON.stringify(history).slice(-5000)}",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "decide-autonom-fara-intrebari.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/main/Aplica%C8%9Bie/Extindere-Robotica/Coordonare-Server-iOS/2026-10-07_0038_SERVER_CATRE_IOS.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/main/Aplica%C8%9Bie/Extindere-Robotica/Coordonare-Server-iOS/PROGRES_SERVER.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/main/Aplica%C8%9Bie/Extindere-Robotica/Coordonare-Server-iOS/RELUARE_SERVER.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/blob/main/Aplica%C8%9Bie/Extindere-Robotica/Coordonare-Server-iOS/TEST_FINAL_PLAN.md",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/covaciugnm/3dscan.eva-org.com/tree/main/Aplica%C8%9Bie/Extindere-Robotica/Coordonare-Server-iOS",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "progres_server.json",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "sarcini/IOS-001_clip-test-worker.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/IOS-002_raport-capabilitati-device.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/IOS-003_client-sync-seq.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/IOS-004_telemetrie-functii.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/IOS-005_flux-brut-audio-video.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/IOS-012_modul-comm-dispozitive-mesaje.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/SRV-002_scena-flux-brut.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/SRV-012_auth-me-role.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/SRV-015_panou-admin-test.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/SRV-017_limba-fara-palpaire.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini/{t['id']}_{t['slug']}.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "sarcini\\/",
     "status": "referinta_relativa_neconfirmata"
   }
 ]

@@ -1,0 +1,40 @@
+[
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/.claude/projects/--192-168-100-169-Comun-/5efc40cc-73af-42fe-b44f-b1dcd7a13200/subagents/workflows",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/2fb34389-b732-4c6f-844f-d2eff7b6affb/scratchpad/upd.py",
+    "status": "copiat",
+    "saved_path": "fisiere/upd--4d2f6841.py",
+    "bytes": 4084,
+    "sha256": "9ed1aea32ab106648a9584075b2320c820e62746355382d9addeede48be83107"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\subagents\\workflows\\*\\journal.jsonl",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\workflows\\scripts\\*.js",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\scheduled-tasks\\eva-raport-progres\\SKILL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SKILL--38f75287.md",
+    "bytes": 4224,
+    "sha256": "57868f595bf04bda1c0edef062d94008989a31ecf4fae935aabc67fe7530dfcc"
+  },
+  {
+    "source_reference": "RELUARE_SERVER.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "progres_server.json",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

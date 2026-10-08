@@ -1,0 +1,89 @@
+# EVA 3D Scan – coordonare non-stop cu echipa Mac
+
+ID: `01a1184d-8690-7d30-88dd-43fb42865a1c`  
+Proiect: Comun  
+Export UTC: 2026-10-08T02:11:43.299007+00:00
+
+Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
+
+## Utilizator
+
+<scheduled-task name="eva-coordonare-mac" file="C:\Users\User\.claude\scheduled-tasks\eva-coordonare-mac\SKILL.md">
+This is an automated run of a scheduled task. The user is not present to answer questions. For implementation details, execute autonomously without asking clarifying questions — make reasonable choices and note them in your output. "write" actions (e.g. MCP tools that send, post, create, update, or delete), only take them if the task file asks for that specific action. When in doubt, producing a report of what you found is the correct output.
+
+Ești agentul de coordonare SERVER pentru proiectul EVA 3D Scan (site https://3dscan.eva-org.com, repo GitHub privat covaciugnm/3dscan.eva-org.com). Lucrezi complet autonom: proprietarul (utilizatorul) a cerut explicit să NU fie întrebat nimic — decizi singur, execuți și raportezi pe scurt. Răspunde în română, cu diacritice.
+
+ACCES: din Windows, prin `ssh -o BatchMode=yes saga-server@192.168.100.151 '<comenzi>'` (cheie SSH, Docker fără sudo; root pe host — autorizat de proprietar — prin `docker run --rm --privileged --pid=host -v /:/host ubuntu:24.04 nsenter -t 1 -m -u -n -i sh -c '...'`). Git pe server: clona de lucru `~/work/3dscan-handoff` (remote origin = git@github-3dscan-eva:covaciugnm/3dscan.eva-org.com.git, cheie de deploy cu scriere). Checkout-ul LIVE e `~/site-uri/3dscan.eva-org.com` (stack docker compose `eva-3d-scan-site` în Site/: db, app pe 127.0.0.1:4160, worker, tunnel). Pe server rulează ~120 containere ale altor proiecte: nu le atinge, fără prune global.
+
+PAS 0 — LOCK (evită dublura cu alte instanțe): pe server `mkdir ~/work/coord-state/lock 2>/dev/null` — dacă eșuează și directorul are mai puțin de 30 de minute (`find ~/work/coord-state/lock -maxdepth 0 -mmin -30`), ieși imediat fără să faci nimic; dacă e mai vechi, șterge-l și recreează-l. La final (orice caz) `rmdir ~/work/coord-state/lock`.
+
+PAS 1 — DETECTARE: în ~/work/3dscan-handoff: `git fetch origin`; compară `git rev-parse origin/main` cu `~/work/coord-state/last_processed_sha`. Dacă sunt egale → eliberează lock-ul și termină TĂCUT (nu scrie nimic, nu raporta nimic).
+
+PAS 2 — CITIRE: `git checkout -B main origin/main`; citește commit-urile noi (`git log last..origin/main`), în special ale autorului EVA (Claude de pe Mac, aplicația iOS pe branch `app`), și folderul `Aplicație/Extindere-Robotica/Coordonare-Server-iOS/`: PROTOCOL.md (stratul de sarcini), PROTOCOL_COMUNICARE_ECHIPE.md (mesaje imutabile, ACK, zone de proprietate — acceptat), TABLOU.md (sursa unică de stare), sarcini/*.md (IOS-*, SRV-*, SRV-100+ propuse de iOS), mesajele noi `*_IOS_CATRE_SERVER.md`.
+
+PAS 3 — RĂSPUNS (conform protocoalelor): ora reală din `TZ=Europe/Bucharest date`. Pentru fiecare mesaj/sarcină nouă de la iOS: append în §Discuție a sarcinii (`### AAAA-LL-ZZ HH:MM — SERVER`), schimbă starea sarcinilor la care SERVER e executant (sau `verificată`/`închisă` unde SERVER e solicitant, DOAR după ce ai verificat efectiv criteriile — ex. interogare DB, curl), actualizează TABLOU.md, iar pentru răspunsuri mai lungi scrie un mesaj nou `AAAA-LL-ZZ_HHMM_SERVER_CATRE_IOS.md` + rând în README.md. Commit `coord(<ID>): <stare> — <rezumat>` cu `git -c user.name=saga-server -c user.email=horeca.cesiro@gmail.com commit`, linia finală `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`, `git pull --rebase` înainte, `git push origin HEAD:main`, niciodată force. Nu edita mesajele celuilalt; respectă zonele de proprietate (iOS deține EVA-3DScan/, branch app, Site/db/app-i18n/; SERVER deține Site/server, Site/worker, compose, deploy).
+
+PAS 4 — IMPLEMENTARE: sarcinile cerute serverului (SRV-*) care sunt mici (≤ ~1 oră) le implementezi direct pe un branch feat/<id>, cu teste într-un stack izolat (`docker compose -p 3dscan-<id>` fără tunnel, port propriu pe 127.0.0.1, `down -v` la final), audit independent cu un subagent (Agent tool) până la zero constatări, apoi merge pe main + deploy. Sarcinile mari: pornește un Workflow cu buclă arhitectură (recenzenți independenți) → implementare → 3 auditori independenți → remediere până la 10/10 (fără limită artificială mică). Verifică și branch-urile feat/* în lucru (git log origin/feat/*) — dacă un livrabil are audit 10/10 documentat și nu e încă pe main, fă merge + deploy.
+
+DEPLOY (după orice merge care atinge Site/): pe server în checkout-ul live: `./ops/git.sh pull --ff-only origin main`, `cd Site && docker compose build app worker` (+ serviciile noi din compose), `docker compose run --rm migrate node scripts/migrate.mjs`, `docker compose up -d`, apoi smoke test: `curl -s -o /dev/null -w '%{http_code}' https://3dscan.eva-org.com/` = 200, `/api/library/items` = 401, `/api/inventory/rooms` = 401 (+ endpoint-urile noi). Dacă smoke test-ul pică: rollback la commit-ul anterior și raportează. Actualizează TABLOU.md (stare live) și anunță iOS printr-un mesaj datat când un contract devine final.
+
+PAS 5 — FINAL: scrie SHA-ul procesat în `~/work/coord-state/last_processed_sha` (= origin/main după push-urile tale), eliberează lock-ul. Raport scurt (2–5 rânduri) doar dacă ai făcut ceva.
+
+Onestitate: ce nu ai rulat = not_run; nu declara performanțe fără măsurătoare; nu inventa rezultate.
+
+LIMITA SĂPTĂMÂNALĂ (regulă cerută de proprietar): la început verifică pe server `~/work/coord-state/STOP_LIMITA`. Dacă există, ieși imediat fără nicio acțiune. Dacă există `~/work/coord-state/FARA_LUCRU_NOU`, nu porni workflow-uri noi și nicio implementare mare: doar răspunsuri scurte de coordonare și merge-uri ale livrabilelor deja auditate 10/10. Când un livrabil trece auditul 10/10: merge + push imediat, apoi actualizează PROGRES_SERVER.md și progres_server.json din folderul de coordonare.
+</scheduled-task>
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Check stop flag, take lock, compare SHAs
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'cd ~/work/coord-state 2>/dev/null || mkdir -p ~/work/coord-state; ls ~/work/coord-state; if [ -e ~/work/coord-state/STOP_LIMITA ]; then echo STOP; exit 0; fi; if mkdir ~/work/coord-state/lock 2>/dev/null; then echo LOCKED_OK; else if [ -n "$(find ~/work/coord-state/lock -maxdepth 0 -mmin -30)" ]; then echo LOCK_BUSY; exit 0; else rmdir ~/work/coord-state/lock; mkdir ~/work/coord-state/lock && echo LOCK_RECREATED; fi; fi; cd ~/work/3dscan-handoff && git fetch origin -q && echo "origin=$(git rev-parse origin/main)" && echo "last=$(cat ~/work/coord-state/last_processed_sha 2>/dev/null)"'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+apply_help15.py
+help_last_sha_app
+help_last_sha_main
+help_pending_app-ro.json
+help_pending.txt
+last_processed_sha
+orchestrare
+progres_server.json
+PROGRES_SERVER.md
+RELUARE_SERVER.md
+rows.txt
+TEST_FINAL_PASI.ppsx
+TEST_FINAL_PASI.pptx
+TEST_FINAL_PLAN.md
+LOCKED_OK
+origin=49f54e8e60f5bdf276695f68f7eef635a5478aeb
+last=49f54e8e60f5bdf276695f68f7eef635a5478aeb
+[/external_agent_tool_result]
+
+## Asistent
+
+Equal → release lock and exit silently.
+
+## Asistent
+
+[external_agent_tool_call: Bash]
+description: Release coordination lock
+command: ssh -o BatchMode=yes saga-server@192.168.100.151 'rmdir ~/work/coord-state/lock && echo released'
+[/external_agent_tool_call]
+
+## Asistent
+
+[external_agent_tool_result]
+released
+[/external_agent_tool_result]
+
+## Asistent
+
+Nu sunt commit-uri noi pe `origin/main`, așa că am încheiat rularea fără nicio acțiune. SHA-ul curent (`49f54e8`) e identic cu ultimul procesat, iar lock-ul a fost eliberat.
+
+## Asistent
+
+<EXTERNAL SESSION IMPORTED>

@@ -1,6 +1,6 @@
 # 3D.AppleScan
 
-Conversații: 4; subagenți: 19; mesaje: 249; fișiere copiate: 275.
+Conversații: 4; subagenți: 19; mesaje: 261; fișiere copiate: 275.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -26,4 +26,4 @@ Conversații: 4; subagenți: 19; mesaje: 249; fișiere copiate: 275.
 | [Fara titlu](subagenti/Fara%20titlu--46e3c9eb/conversatie.md) | Subagent | 2 |
 | [Fara titlu](subagenti/Fara%20titlu--3edfdaa3/conversatie.md) | Subagent | 2 |
 | [Fara titlu](subagenti/Fara%20titlu--b19d71c8/conversatie.md) | Subagent | 1 |
-| [Arhivează conversațiile Codex](Arhiveaz%C4%83%20conversa%C8%9Biile%20Codex/conversatie.md) | Conversație | 53 |
+| [Arhivează conversațiile Codex](Arhiveaz%C4%83%20conversa%C8%9Biile%20Codex/conversatie.md) | Conversație | 65 |

@@ -5,12 +5,22 @@ import json
 import os
 import pathlib
 import shutil
+import stat
 import shlex
 import subprocess
 import sys
 import urllib.error
 import urllib.request
 from protejeaza_publicarea import protect_project
+
+def copy_public_file(source, destination):
+    # Source attributes must not prevent later updates or credential masking.
+    target = pathlib.Path(destination)
+    if target.is_file() and not target.stat().st_mode & stat.S_IWRITE:
+        target.chmod(target.stat().st_mode | stat.S_IWRITE)
+    result = shutil.copy2(source, destination)
+    target.chmod(target.stat().st_mode | stat.S_IWRITE)
+    return result
 
 REMOTE = 'git@github.com:covaciugnm/Codex.git'
 parser = argparse.ArgumentParser()
@@ -121,7 +131,7 @@ if large_paths:
 for project in changed:
     folder_name = pathlib.PurePosixPath(project['archives'][0]['path']).parts[0]
     source = snapshot / folder_name
-    shutil.copytree(source, repo / folder_name, dirs_exist_ok=True)
+    shutil.copytree(source, repo / folder_name, dirs_exist_ok=True, copy_function=copy_public_file)
     masked = protect_project(repo / folder_name)
     print(json.dumps({'prepared_project': project['name'], 'credential_files_masked': len(masked)}, ensure_ascii=True), flush=True)
     staged_paths.append(folder_name)

@@ -1,0 +1,32 @@
+[
+  {
+    "source_reference": "../PROTOCOL.md",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/526966a8-6b2d-4d7c-abc2-a9ea1c745e0c/scratchpad",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.claude\\scheduled-tasks\\eva-help-writer\\SKILL.md",
+    "status": "copiat",
+    "saved_path": "fisiere/SKILL--bac6a00f.md",
+    "bytes": 5137,
+    "sha256": "3a14fde0cdb1f64856545f9b247d0efdacd7c1f5dc8dfb2c8c4121fdb936de2d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cp1252--31b9c8fc.py",
+    "bytes": 13818,
+    "sha256": "7acb7b80c29d9ffda0fe79540509439537216df3a259973d54e1fb23c34e7519"
+  },
+  {
+    "source_reference": "IOS-009_texte/",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "IOS-009_texte/app-help-propus.bg.json",
+    "status": "fisier_inexistent_sau_director"
+  }
+]
