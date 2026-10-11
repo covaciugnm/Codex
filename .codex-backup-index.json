@@ -86,14 +86,14 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "4be56d156525e46b97429b57317aeae64d2c50b03ff3ddce5963f6fd6a1405a0",
-      "snapshot_utc": "2026-10-11T14:23:09.537034+00:00",
+      "content_sha256": "f386db1b16808b4e38edf7b655f6034f8ebc4e3f7e9d0e4aa8b565a260b30d9e",
+      "snapshot_utc": "2026-10-11T20:24:09.131464+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
       "name": "iDempiere",
-      "content_sha256": "dbe385a1f19836d8568cffd4a240864f8f0cb6c3be1c6f14893adba1a95894d3",
-      "snapshot_utc": "2026-10-11T08:22:35.726694+00:00",
+      "content_sha256": "0348ce3f9481f8b0264fd3357c892145fff70d7a29541bd5cac8e9c0547aee03",
+      "snapshot_utc": "2026-10-11T20:24:09.131464+00:00",
       "folder": "iDempiere"
     },
     "a85004ee-5acd-4f38-b445-2289450e8065": {
@@ -121,5 +121,5 @@
       "folder": "MP3.Varvi"
     }
   },
-  "updated_at_utc": "2026-10-11T14:30:58.998306+00:00"
+  "updated_at_utc": "2026-10-11T20:31:40.500958+00:00"
 }

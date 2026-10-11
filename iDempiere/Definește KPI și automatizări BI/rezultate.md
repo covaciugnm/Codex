@@ -1,0 +1,4088 @@
+# Rezultate — Definește KPI și automatizări BI
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## Asistent
+
+Voi construi o specificație pentru un BI de management: KPI pe capitole, funcții, automatizări și particularități pe industrii/CAEN. Interpretez „TOP 10 AI” ca platforme BI cu funcții AI; voi compara documentația oficială cu recenzii și discuții din comunități, pentru a separa oferta produselor de nevoile utilizatorilor.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-f0d904b5-7c39-4b8c-8686-19c653429dd2",
+  "query": "site.onrc.ro CAEN Rev.3 structura sectiuni 2025 2026 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.onrc.ro CAEN Rev.3 structura sectiuni 2025 2026",
+      "site.learn.microsoft.com power bi copilot overview features fabric",
+      "site.help.tableau.com Tableau Pulse Tableau Agent capabilities"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn0search0",
+      "snippet": "Copilot and other generative AI features in preview bring new ways to transform and analyze data, generate insights, and create visualizations and reports in Microsoft",
+      "title": "Overview of Copilot in Fabric - Microsoft Fabric | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/fabric/fundamentals/copilot-fabric-overview"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn0search1",
+      "snippet": "# Tableau Cloud Help# Premium Tableau Pulse Capabilities ... You can try Tableau Agent in Pulse for free on an existing Tableau Cloud site with",
+      "title": "Premium Tableau Pulse Capabilities - Tableau",
+      "url": "https://help.tableau.com/current/online/en-us/pulse_capabilities.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn0search2",
+      "snippet": "# Copilot in Power BI integration overview ... Copilot in Microsoft Fabric is a generative AI assistant that enhances the data analytics experience in the",
+      "title": "Copilot in Power BI: Integration Overview and Benefits - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-integration?trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn0search3",
+      "snippet": "Copilot in Fabric works similar to the other Microsoft Copilots, such as Microsoft 365 Copilot, Microsoft Security Copilot, and Copilots and generative AI in Power",
+      "title": "How Copilot in Microsoft Fabric works - Microsoft Fabric | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/fabric/fundamentals/how-copilot-works"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn0search4",
+      "snippet": "The user can interact with Copilot in Power BI either by using the Power BI mobile app, Power BI Desktop, or in a Fabric workspace.",
+      "title": "Copilot in Power BI: Integration Overview and Benefits - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-integration"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn-microsoft.com",
+      "ref_id": "turn0search5",
+      "snippet": "# Copilot for Power BI overview ... The product also includes various AI-infused Copilot features. ... Learn more about the standalone Copilot. ... * Your",
+      "title": "Copilot for Power BI overview - Power BI | Microsoft Learn",
+      "url": "https://learn-microsoft.com/en-us/power-bi/create-reports/copilot-introduction"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn0search6",
+      "snippet": "Important: Tableau Agent in Pulse is a Tableau+ feature that must be turned on in the Tableau Cloud site settings. ... The complete instructions are",
+      "title": "Ask Questions and Discover Insights in Tableau Pulse - Tableau",
+      "url": "https://help.tableau.com/current/online/en-gb/pulse_ask_discover_qa.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com.mcas.ms",
+      "ref_id": "turn0search7",
+      "snippet": "Power BI documentation covers cloud capabilities in Microsoft Fabric, standalone desktop and on-premises applications, and guidance tailored to your role—whether you create reports, model data,",
+      "title": "Power BI documentation - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com.mcas.ms/en-us/power-bi/"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn0search8",
+      "snippet": "Tableau Cloud | Tableau Agent in Viz Authoring(Link opens in a new window) | 2024.2 (August) and later | Acts an AI assistant to help",
+      "title": "AI in Tableau Features - Tableau",
+      "url": "https://help.tableau.com/current/tableau/en-us/tableau_gai_solutions.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com.mcas.ms",
+      "ref_id": "turn0search9",
+      "snippet": "Discover how Copilot in Microsoft Fabric and Power BI transforms data analysis, generates insights, and creates visualizations. ... Manage operations from cloud to edge with",
+      "title": "Learn how to use Microsoft Copilot | Microsoft Learn",
+      "url": "https://learn.microsoft.com.mcas.ms/en-us/copilot/"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn0search10",
+      "snippet": "# Updates to Copilot in Power BI: More ways to see, learn from, and ask about your report data",
+      "title": "Updates to Copilot in Power BI: More ways to see, learn from, and ask about your report data | Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/blog/fbc_pbiupdatesblog/updates-to-copilot-in-power-bi-more-ways-to-see-learn-from-and-ask-about-your-re/5174123"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn0search11",
+      "snippet": "We’re taking an important step toward that goal with a preview of Microsoft 365 Copilot integrated directly into Power BI and Microsoft Fabric.",
+      "title": "Power BI September 2026 Feature Summary | Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/blog/fbc_pbiupdatesblog/power-bi-september-2026-feature-summary/5325831?trk=public_post_comment-text"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn0search12",
+      "snippet": "When using Tableau Agent in Tableau Desktop and Tableau Prep Builder, the language used in the generative AI response is based on the language selected",
+      "title": "Tableau Prep Help",
+      "url": "https://help.tableau.com/current/offline/en-gb/tableau_prep.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn0search13",
+      "snippet": "<tr><td>(9)</td><td>În cazul în care se realizează exclusiv activitățile obiectului de activitate prevăzut CAEN Rev. 3 nu se va modifica obiectul de activitate, se completează doar",
+      "title": "2025-04-29 (1).pdf",
+      "url": "https://www.onrc.ro/documente/legislatie/ordin2938.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube14",
+      "snippet": "# Copilot in Microsoft FabricBy: Microsoft Power BI (529000 followers, Verified)",
+      "title": "Copilot in Microsoft Fabric - YouTube",
+      "url": "https://www.youtube.com/watch?v=sX3LTa4jXJM"
+    },
+    {
+      "type": "text_result",
+      "domain": "marketingassets.microsoft.com",
+      "ref_id": "turn0search15",
+      "snippet": "Having a unified data fabric platform accelerates the adoption of generative AI tools by providing several key ... data governance features to manage privacy and",
+      "title": "Maximize Your Power BI Value",
+      "url": "https://marketingassets.microsoft.com/gdc/gdce6wYXP/original"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tableau.com",
+      "ref_id": "turn0search16",
+      "snippet": "- Set up your Site for Tableau Pulse – Site configuration, permissions ... Tableau Agent can help analysts create calculations from natural language in data",
+      "title": "Your Guide to Moving to Tableau Cloud",
+      "url": "https://www.tableau.com/sites/default/files/2024-12/Your-Guide-Moving-to-Tableau-Cloud.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "m.bvb.ro",
+      "ref_id": "turn0search17",
+      "snippet": "cadrul Adunării Generale Ordinare a Acţionarilor din data de 12/13 mai 2026, aşa cum suntacestea definite de prevederile Regulamentului ASF nr. ... Rev. 3, inclusiv",
+      "title": "Către, \nAutoritatea de Supraveghere Financiară \nBu",
+      "url": "https://m.bvb.ro/info/Raportari/IPRU/IPRU_20260408084216_Raport-curent-08-aprilie-2026---Conv-AGOA-AGEA-12-13-mai-2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "publicrecord.ro",
+      "ref_id": "turn0search18",
+      "snippet": "ONRCActivităţi în afara sediului social şi a sediilor secundare (CAEN REV.3): ... Raport generat în data de 17.05.2026 19:27:22",
+      "title": "MINISTERUL JUSTIŢIEI",
+      "url": "https://publicrecord.ro/wp-content/uploads/2026/06/ONRC-Molbak-Proiect-SRL.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube19",
+      "snippet": "Check out the links below as we walk step by step through the tutorial to show you how to use the new Power BI copilot",
+      "title": "Microsoft Fabric: Power BI Copilot End to End tutorial - YouTube",
+      "url": "https://www.youtube.com/watch?v=iTI2HUWLvVI"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit20",
+      "snippet": "Copilot in Power BI web modeling (preview) - Power BI | Microsoft Learn ... Feedback for Power BI Copilot in web modeling (pre... - Microsoft",
+      "title": "Copilot for Web Modeling Demo - Uses Fabric Semantic Modeling MCP server",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1uktzyh/copilot_for_web_modeling_demo_uses_fabric/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit21",
+      "snippet": "I had the opportunity to present an end-to-end Microsoft Fabric Copilot overview to the Microsoft Super User community on May 5, 2026. ... \\#MicrosoftFabric #FabricCopilot",
+      "title": "🚀 Microsoft Fabric Copilot: End-to-End Overview | Super User Session, May 5, 2026",
+      "url": "https://www.reddit.com/r/learndataplatform/comments/1t6kj7o/microsoft_fabric_copilot_endtoend_overview_super/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit22",
+      "snippet": "Salut, considerand ca toate firmele si PFA-urile trebuie sa-si updateze Codul CAEN la Rev3, m-am gandit ca ar fi util sa postez un video despre",
+      "title": "Tutorial pentru updatarea codul CAEN la Rev3 ONLINE si GRATUIT",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1r22jox/tutorial_pentru_updatarea_codul_caen_la_rev3/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit23",
+      "snippet": "[Monday September 14 2026] [+3 votes] ... Dar având in vedere faptul ca nu inteleg cum sa navighez site-ul ălora de la ONRC.... ... La",
+      "title": "Actualizare CAEN Rev 3 - Tip fisier pentru actul constitutiv si publicarea in MO",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1wfxrjv/actualizare_caen_rev_3_tip_fisier_pentru_actul/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit24",
+      "snippet": "Am intrat pe site-ul ONRC, am dat la actualizare coduri CAEN, evident **cele generate automat n-au legatura cu realitatea si trebuie sa le modific eu,**",
+      "title": "Documente necesare actualizare coduri CAEN REV3",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1jv5fd8/documente_necesare_actualizare_coduri_caen_rev3/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit25",
+      "snippet": "We got approval to use Copilot (chat) and now we are using Power BI and Fabric (Pro Licenses + F16 capacity) directors what users to",
+      "title": "Copilot for Power BI and Fabric",
+      "url": "https://www.reddit.com/r/MicrosoftFabric/comments/1t6crez/copilot_for_power_bi_and_fabric/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit26",
+      "snippet": "Dacă aveți o societate și nu ați verificat încă trecerea obiectului de activitate la **CAEN Rev. 3**, termenul-limită este **25 septembrie 2026**. ... • pregătirea",
+      "title": "CAEN Rev. 3: termen-limită 25 septembrie 2026",
+      "url": "https://www.reddit.com/r/RoAntreprenoriat/comments/1vzzwd6/caen_rev_3_termenlimit%C4%83_25_septembrie_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit27",
+      "snippet": "[Thursday August 27 2026] [+5 votes]Dacă aveți o societate și nu ați verificat încă trecerea obiectului de activitate la **CAEN Rev. 3**, termenul-limită este **25",
+      "title": "CAEN Rev. 3: termen-limită 25 septembrie 2026",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1vzyxz9/caen_rev_3_termenlimit%C4%83_25_septembrie_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit28",
+      "snippet": "[Saturday September 05 2026] [+1 votes]Ofer consultanta contra cost pentru modificarea obiectului de activitate ca urmare a conversiei CAEN rev. 3 (inclusiv redactare AGA si",
+      "title": "CAEN rev. 3 - deadline: 25.09.2026",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1w80lrw/caen_rev_3_deadline_25092026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit29",
+      "snippet": "Edit 2: am gasit aceste informatii: https://www.juridice.ro/765925/caen-rev-3-va-intra-in-vigoare-de-la-1-ianuarie-2025.html ele spun ca de fapt exista obligativitatea si explica si care sunt pasii. .",
+      "title": "Actualizare cod caen",
+      "url": "https://www.reddit.com/r/programare/comments/1hsmq71"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit30",
+      "snippet": "Am încercat singur sa îmi actualizez prin portal.onrc codurile caen la rev 3. ... E undeva in pasii de inregistrare la ONRC optiunea de terti,",
+      "title": "Actualizare cod cean rev 3",
+      "url": "https://www.reddit.com/r/juridice/comments/1lg2lv8"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit31",
+      "snippet": "Din cate am observat, nu se pot edita cererile online de pe onrc. ... Am depus si eu pentru conversie CAEN v3 si am o",
+      "title": "Cerere online onrc",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1jo300x"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search32",
+      "snippet": "31 March 2016.†powerbi.microsoft.com】 ... With time, Microsoft also added many additional features like question and answers, enterprise-level data connectivity, and security options via Power BI",
+      "title": "Microsoft Power BI",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Power_BI"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn0news33",
+      "snippet": "Microsoft has introduced a redesigned version of its Copilot AI platform which claims to combine chat, delegated work, and coding tools into a unified application",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/6gmgUMP_qaAB7TWd2GcPb4Et-vPwzJ0uAscIYh8FJRdxrT6ZVyRYnG8_pjIPn2U57LmLa27Raic52xHO1ZUw9OjZwYthBWn00nv9I6C6BVXl4uzme0EPJrfBAardhQ5C",
+      "title": "Microsoft says the 'new Copilot' promises to help you achieve everything you ever wanted at home and at work",
+      "url": "https://www.techradar.com/pro/microsoft-unveils-new-copilot-which-promises-to-help-you-achieve-everything-you-ever-wanted-at-home-and-at-work"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.techradar.com",
+      "ref_id": "turn0news34",
+      "snippet": "[Image 4: Microsoft Fabric homepage] ... The limitation arrives when you want to share those reports with other users, which requires a Power BI Pro",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ZDzaECCXGwR-xn_VCgtUgzULXpoApaRavidjnmNj2kIWK-1rygifyE9SeVUa9zZPwse5fhGkke6SjecdSUPVcHYTDBNC70VlwzOvnNsUUSGpxKPm6EfIkTBTUmM9B8l4",
+      "title": "50 Microsoft tools you can use for free just in time for Build 2026",
+      "url": "https://www.techradar.com/pro/50-microsoft-tools-you-can-use-for-free-just-in-time-for-build-2026"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search35",
+      "snippet": "features=bingnewpage) (Archive1 (https://web.archive.org/web/20250330092304/https://www.bing.com/new/termsofuse/archives), , Archive3 (https://megalodon.jp/2025-0403-1651-35/https://www.bing.com:443/n",
+      "title": "Microsoft Copilot",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Copilot"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search36",
+      "snippet": "Website: https://microsoft.com/power-platform/ ... * Power BI, a business analytics tool for visualizing data through various charts, graphs, and dashboards. ... * Copilot Studio (formerly Power",
+      "title": "Microsoft Power Platform",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Power_Platform"
+    },
+    {
+      "type": "text_result",
+      "domain": "es.wikipedia.org",
+      "ref_id": "turn0search37",
+      "snippet": "Website: https://powerbi.microsoft.com/",
+      "title": "Power BI",
+      "url": "https://es.wikipedia.org/wiki/Power_BI"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Pentru ce utilizare pregătim specificația BI? Voi continua cercetarea pentru România, cu CAEN Rev.3 și o arhitectură aplicabilă mai multor industrii.
+- BI integrat cu iDempiere / ERP
+- Alegerea și cumpărarea unei platforme BI
+- Dezvoltarea unui produs BI propriu
+
+## Asistent
+
+Voi organiza rezultatul în cataloage legate între ele: indicatori, funcții, automatizări și cerințe pe industrii. La KPI voi include definiția, sursa datelor, frecvența și responsabilul; la automatizări, declanșatorul și acțiunea. Astfel, lista va putea fi folosită și drept caiet de sarcini.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-716d733e-0345-4f85-b8c8-fdb238703d70",
+  "query": "site.cloud.google.com looker docs gemini conversational analytics overview ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.cloud.google.com looker docs gemini conversational analytics overview",
+      "site.help.qlik.com insight advisor qlik answers automations predictive"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "docs.cloud.google.com",
+      "ref_id": "turn1search0",
+      "snippet": "Gemini in Looker represents a series of features in the Gemini for Google Cloud portfolio that provides generative AI-powered assistance to help you analyze and",
+      "title": "Gemini in Looker overview  |  Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/looker/docs/gemini-overview-looker?hl=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.cloud.google.com",
+      "ref_id": "turn1search1",
+      "snippet": "A Looker admin must enable the Conversational Analytics setting on the Gemini in Looker page in the Admin panel of the Looker (Google Cloud core)",
+      "title": "Set up Conversational Analytics in Looker  |  Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/looker/docs/conversational-analytics-looker-setup"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.cloud.google.com",
+      "ref_id": "turn1search2",
+      "snippet": "Conversational analytics is a chat-with-your-data feature that is powered by Gemini for Google Cloud. ... Conversational analytics uses Gemini for Google Cloud to interpret natural",
+      "title": "Conversational Analytics in Looker overview  |  Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/looker/docs/conversational-analytics-overview?trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.cloud.google.com",
+      "ref_id": "turn1search3",
+      "snippet": "Conversational analytics, powered by Gemini for Google Cloud, lets you investigate your data by asking questions about it in conversational language through an intuitive chat",
+      "title": "Query an Explore in natural language  |  Looker  |  Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/looker/docs/conversational-analytics-looker-data?hl=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.qlik.com",
+      "ref_id": "turn1search4",
+      "snippet": "Insight Advisor is not available when a tenant is using the Qlik Answers agentic experience. ... Insight Advisor can help build your data model, create",
+      "url": "https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Insights/insight-advisor.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.cloud.google.com",
+      "ref_id": "turn1search5",
+      "snippet": "* Learn more about Gemini for Google Cloud. ... * Access control and permission management: Understand how Looker manages user permissions and data access, which",
+      "title": "Conversational Analytics in Looker overview  |  Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/looker/docs/conversational-analytics-overview"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.qlik.com",
+      "ref_id": "turn1search6",
+      "snippet": "Insight Advisor is not available when a tenant is using the Qlik Answers agentic experience. ... Insight Advisor then uses the Qlik cognitive engine to",
+      "url": "https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Insights/insight-advisor-create-visualizations.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.cloud.google.com",
+      "ref_id": "turn1search7",
+      "snippet": "To access these features in a Looker (Google Cloud core) instance, a user with the Looker Admin (`roles/looker.admin`) IAM role must enable Gemini in Looker",
+      "title": "Gemini in Looker overview  |  Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/looker/docs/gemini-overview-looker?trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+      "type": "text_result",
+      "domain": "cloud.google.com",
+      "ref_id": "turn1search8",
+      "snippet": "At Google Cloud Next 25, we expanded the availability of Gemini in Looker, including Conversational Analytics, to all Looker platform users, redefining how line-of-business employees",
+      "title": "A closer look at Looker Conversational Analytics | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/business-intelligence/a-closer-look-at-looker-conversational-analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "cloud.google.com",
+      "ref_id": "turn1search9",
+      "snippet": "Gemini in Looker does this through a suite of gen-AI-powered capabilities that make analytics tasks and workflows easier: * Looker Conversational Analytics allows users to",
+      "title": "Gemini in Looker deep dive | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/data-analytics/gemini-in-looker-deep-dive"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.qlik.com",
+      "ref_id": "turn1search12",
+      "snippet": "For more information about Insight Advisor, see: AI & Machine Learning ... Qlik Predict is an advanced analytics service in Qlik Cloud Data Services. ...",
+      "title": "Qlik Cloud® Analytics",
+      "url": "https://help.qlik.com/en-US/evaluation-guides/pdf/Qlik-Cloud-Analytics.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.qlik.com",
+      "ref_id": "turn1search13",
+      "snippet": "This was further expanded in 2018 with Insight advisor. ... Qlik Answers is Qlik's AI-powered question-and-answer capability built into Qlik Cloud. ... This allows users",
+      "title": "AI in Qlik Cloud®",
+      "url": "https://help.qlik.com/en-US/evaluation-guides/pdf/AI-in-Qlik-Cloud.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "cloud.google.com",
+      "ref_id": "turn1search10",
+      "snippet": "This week at Google Cloud Next, we introduced Conversational Analytics as part of Gemini in Looker, rethinking how we bring easy access of insights to",
+      "title": "Introducing Gemini in Looker at Next ‘24 | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/data-analytics/introducing-gemini-in-looker-at-next24"
+    },
+    {
+      "type": "text_result",
+      "domain": "cloud.google.com",
+      "ref_id": "turn1search11",
+      "snippet": "Today at Google Cloud Next ‘25, we're announcing a major step in making Looker the most powerful platform for data analysis and exploration,by enhancing it",
+      "title": "Looker BI platform gets AI-powered data exploration | Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/data-analytics/looker-bi-platform-gets-ai-powered-data-exploration"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.qlik.com",
+      "ref_id": "turn1search14",
+      "snippet": "This section provides Qlik Sense business users, analytic creators, and data integrators a summary of the features and improvements available in Qlik Sense Enterprise on",
+      "title": "News since Qlik Sense 1.0",
+      "url": "https://help.qlik.com/en-EN/cloud-services/pdf/News%20since%20Qlik%20Sense%201.0.pdf?_gac=1.156728649.1612190108.Cj0KCQiA6t6ABhDMARIsAONIYyxTeAdel9VRENDX2zMbD8R8xafr6_P5srPwvL1QeLkkQb_F-Vw1uusaAq0dEALw_wcB"
+    },
+    {
+      "type": "text_result",
+      "domain": "assets.qlik.com",
+      "ref_id": "turn1search15",
+      "snippet": "In addition, Qlik Answers will be able to initiate action through automations. ... Scheduled to begin rolling out in the summer, this new experience will",
+      "title": "PILLAR 1  PILLAR 2",
+      "url": "https://assets.qlik.com/image/upload/v1729176776/qlik/docs/resource-library/whitepapers/resource-wp-qlik-ai-strategy-en_ineqyb.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "assets.qlik.com",
+      "ref_id": "turn1search16",
+      "snippet": "• Insight Advisor, Qlik Cloud’s built in AI, supports users to ask questions and discover relevant answers with auto-generated visualizations and narrative insights. ... Qlik",
+      "title": "5. Analytics",
+      "url": "https://assets.qlik.com/image/upload/v1713394584/qlik/docs/resource-library/ebooks/resource-eb-how-to-create-ral-time-insights-for-us-state-local-and-higher-ed-organizations-en_f1auub.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit17",
+      "snippet": "➡️ Conversational Analytics – Show reasoning (Looker Studio Pro)Gemini can now show how your prompt was interpreted and how the result was calculated. ... Google",
+      "title": "Google rolled out a few useful Looker Studio updates this February-2026 that are easy to miss if you are not checking releases regularly.",
+      "url": "https://www.reddit.com/r/GoogleDataStudio/comments/1qzxrix/google_rolled_out_a_few_useful_looker_studio/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit18",
+      "snippet": "Big Query has a native agent facility that you can set up to interrogate datasets and published to a looker studio frontend if you have",
+      "title": "bigquery for business users",
+      "url": "https://www.reddit.com/r/googlecloud/comments/1rko7gw/bigquery_for_business_users/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search19",
+      "snippet": "Qlik Answers generates answers to questions from unstructured data sources.It also includes AutoML for no-code development of predictive models and tools for low-latency data processing.",
+      "title": "Qlik",
+      "url": "https://en.wikipedia.org/wiki/Qlik"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit20",
+      "snippet": "I want to implement Gemini to generate automatic insights in my Looker Studio dashboards, does anyone have any idea how much Looker Studio Pro +",
+      "title": "What can be the Pricing for Gemini in Looker Studio?",
+      "url": "https://www.reddit.com/r/GoogleDataStudio/comments/1je1bb1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit21",
+      "snippet": "If you Google 'Looker Explore Assistant' and 'Looker Dashboard Summarization' it should take you to the appropriate git repos where you'll find an example approach",
+      "title": "LLM integration",
+      "url": "https://www.reddit.com/r/Looker/comments/1iih5v2"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit22",
+      "snippet": "It's easier to use conversations analytics via looker pro. ... We partnered with Google to develop v1 last year but have not been managing it.We",
+      "title": "Has anyone set up the Looker Explore Assistant?",
+      "url": "https://www.reddit.com/r/googlecloud/comments/1hfpyqa"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit23",
+      "snippet": "Handy list of sessions around BI & Google Looker from Google Cloud Next 2025, for those who like YouTube playlist https://www.youtube.com/playlist? ... A new era",
+      "title": "List of sessions & videos around BI & Google Looker from Google Cloud Next 2025",
+      "url": "https://www.reddit.com/r/googlecloud/comments/1k4au7o"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit24",
+      "snippet": "I’ve been learning Looker for a while now and honestly the docs are a lot. ... I have created this in ChatGPT, Claude and Gemini",
+      "title": "Prompt to help learn Looker.",
+      "url": "https://www.reddit.com/r/Looker/comments/1pbtocs/prompt_to_help_learn_looker/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit25",
+      "snippet": "* **For the Business:** Qlik Answers (Conversational Truth), Discovery Agent (Anomaly detection), and Predict Agent (NL-Forward questioning). ... Personally, the **Automate Agent** orchestration acros",
+      "title": "Beyond the Dashboard: Qlik’s 8 New AI Agents and the Rise of the Agentic Enterprise (Live from Qlik Connect 2026)",
+      "url": "https://www.reddit.com/r/DifferentiaConsulting/comments/1sq9ah1/beyond_the_dashboard_qliks_8_new_ai_agents_and/"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn1academia26",
+      "snippet": "Arnold, Vijay Vasudevan, Shubham Agrawal, Jason Riesa, Dmitry Lepikhin, Richard Tanburn, Srivatsan Srinivasan, Hyeontaek Lim, Sarah Hodkinson, Pranav Shyam, Johan Ferret, Steven Hand, Ankush Garg,",
+      "title": "Gemini: A Family of Highly Capable Multimodal Models",
+      "url": "https://arxiv.org/abs/2312.11805"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit27",
+      "snippet": "Are you using AI tools (Copilot, Cursor, Claude, Gemini, etc.) to write or maintain your models, or is it still mostly by hand? ... For",
+      "title": "Anyone using AI to build or maintain LookML? What's actually working?",
+      "url": "https://www.reddit.com/r/Looker/comments/1wzlc5z/anyone_using_ai_to_build_or_maintain_lookml_whats/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit28",
+      "snippet": "Does anyone have a good tutorial on connecting Gemini to a Google Analytics account? ... That's a tough one, most of the walkthroughs I've seen",
+      "title": "Connecting Gemini to Google Analytics",
+      "url": "https://www.reddit.com/r/GeminiAI/comments/1vg8vnf/connecting_gemini_to_google_analytics/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit29",
+      "snippet": "Meanwhile we have **Gemini** sitting right there inside Google’s ecosystem. ... It won’t build reports, but Analytics Advisor might be able to answer some of",
+      "title": "Please connect Gemini to GA4 already",
+      "url": "https://www.reddit.com/r/GoogleAnalytics/comments/1r11mf6/please_connect_gemini_to_ga4_already/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit30",
+      "snippet": "Handy list of sessions around BI & Google Looker from Google Cloud Next, for those who like YouTube playlist https://www.youtube.com/playlist? ... A new era of",
+      "title": "List of sessions around BI & Google Looker from Google Cloud NEXT 2025",
+      "url": "https://www.reddit.com/r/google/comments/1k4aspv"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search31",
+      "snippet": "The CEO of Looker quietly left the company, two years after Google Cloud closed its $2.4 billion acquisition of the data analytics company.",
+      "title": "Looker (company)",
+      "url": "https://en.wikipedia.org/wiki/Looker_%28company%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search32",
+      "snippet": "In June 2019, Google acquired data analytics company Looker for $2.6 billion to \"help its customers analyze their data in a consistent way\".",
+      "title": "Data Studio",
+      "url": "https://en.wikipedia.org/wiki/Data_Studio"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-185f41e6-ad40-437d-b217-bc313b51a437",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Location\nrg --files -g AGENTS.md -g '*BI*' -g '*CAEN*' -g '*.md' -g '*.txt' -g '*.docx' -g '*.pdf' -g '*.xlsx' -g '\"'!node_modules'\"' -g '\"'!.git'\"' -g '\"'!vendor'\"'\"",
+  "cwd": "\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "processId": null,
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Location\nrg --files -g AGENTS.md -g '*BI*' -g '*CAEN*' -g '*.md' -g '*.txt' -g '*.docx' -g '*.pdf' -g '*.xlsx' -g '!node_modules' -g '!.git' -g '!vendor'"
+    }
+  ],
+  "aggregatedOutput": "Failed to create unified exec process: CreateProcessWithLogonW failed: 267",
+  "exitCode": -1,
+  "durationMs": 0
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-efc7fdb1-65e2-4b30-b9c5-aa3e3019ebe2",
+  "query": "site.docs.thoughtspot.com spotter AI analyst analyst studio alerts ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.docs.thoughtspot.com spotter AI analyst analyst studio alerts",
+      "site.zoho.com analytics help zia insights ask zia forecasting"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "help.zoho.com",
+      "ref_id": "turn2search0",
+      "snippet": "# Using Ask Zia l Zoho Analytics Help",
+      "title": "Using Ask Zia l Zoho Analytics Help",
+      "url": "https://help.zoho.com/portal/en/kb/analytics/user-guide/ask-zia/articles/using-ask-zia"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search1",
+      "snippet": "Embedding Ask Zia, the AI-powered analytics assistant, brings advanced analytical capabilities like conversational insights and Key Driver Analysis (KDA) directly into the applications users already",
+      "title": "Ask Zia l Zoho Analytics Help",
+      "url": "https://www.zoho.com/analytics/help/zia/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search2",
+      "snippet": "Zia Insights, a generative AI tool powered by Zoho Analytics, examines all the data points in the report and deploys advanced analytical methods and ML",
+      "title": "Zia Insights",
+      "url": "https://www.zoho.com/analytics/help/zia/insights.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search3",
+      "snippet": "Zia, the intelligent analytics assistant is enabled with Natural Language Processing (NLP) to understand users' questions and offer powerful insights immediately, in the form of",
+      "title": "Ask Zia | Zoho Analytics On-Premise",
+      "url": "https://www.zoho.com/analytics/help/onpremise/zia.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search4",
+      "snippet": "Zoho Analytics enables you to analyze your data with advanced analytical options. ... * Zia Insights * Forecasting",
+      "title": "Analyze Data l Zoho Analytics Help",
+      "url": "https://www.zoho.com/analytics/help/analyze-data/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search5",
+      "snippet": "Ask Zia anything about future trends, predict scenarios, and plan ahead of time with smart forecasting. ... Be it finding a public dataset and importing",
+      "title": "AI Powered Data Analytics Software | Ask Zia - Zoho Analytics",
+      "url": "https://www.zoho.com/analytics/zia/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search6",
+      "snippet": "Ask Zia now supports English, Spanish, Brazilian Portuguese and French (Beta) languages.The language specified in your Zoho Analytics account will be the default language for",
+      "title": "Zia Insights | Zoho Analytics On Premise",
+      "url": "https://www.zoho.com/analytics/help/onpremise/zia/insights.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn2search7",
+      "snippet": "ThoughtSpot ships the TS: AI and BI Stats system Model for usage/adoption. ... ThoughtSpot Adoption Analyst ... No — no the instructions are not visible",
+      "title": "Spotter Analysts :: ThoughtSpot Documentation",
+      "url": "https://docs.thoughtspot.com/cloud/26.10.0.cl/spotter-analysts"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn2search8",
+      "snippet": "ThoughtSpot Cloud is AI-powered analytics that puts self-service analysis in the hands of everyone in your organization—no SQL or data expertise required.## Spotter agents ...",
+      "title": "ThoughtSpot Cloud Documentation :: ThoughtSpot Documentation",
+      "url": "https://docs.thoughtspot.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.zoho.com",
+      "ref_id": "turn2search9",
+      "snippet": "When you open a dashboard in Zoho CRM, the components on it—KPIs, target meters, charts—give you a snapshot of how things are going. ... Open",
+      "title": "Zia Dashboard Insights",
+      "url": "https://help.zoho.com/portal/en/kb/crm/analytics-and-dashboards/analytics-dashboards/articles/zia-dashboard-insights"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn2search12",
+      "snippet": "Data --> Analyst StudioData --> Spotter Coaching --> Reference Questions ... Liveboard > AI Highlights > AI highlights click on a KPI ... Answer page",
+      "title": "ThoughtSpot_QA_April_2025_VPAT",
+      "url": "https://docs.thoughtspot.com/cloud/26.6.0.cl/_attachments/ThoughtSpot_QA_April_2025_VPAT.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn2search10",
+      "snippet": "Spotter Agent is an AI analyst that delivers agentic data experiences with enterprise-grade trust and scale. ... Spotter is included with all-new ThoughtSpot Analytics per-user",
+      "title": "Spotter :: ThoughtSpot Documentation",
+      "url": "https://docs.thoughtspot.com/cloud/26.10.0.cl/spotter"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search11",
+      "snippet": "# Zoho Analytics Help Resources ... * Zia Insights",
+      "title": "Zoho Analytics - Online Help",
+      "url": "https://www.zoho.com/analytics/help/overview.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search13",
+      "snippet": "▶ Zia, Zoho’s AI assistant, accepts plain, natural English queries, making analytics available to everyone.Ask to see \"last month's sales per product\" or \"ticket velocity",
+      "title": "ANALYTICS SOLUTION HIGHLIGHTS",
+      "url": "https://www.zoho.com/sites/zweb/images/enterprise/business-pulse/zoho-business-pulse-integrated-analytics.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search14",
+      "snippet": "AI forecasting in Zoho CRM ... Zia provides various analytics for your forecast, such as a forecast overview, target achievement report, user and role performance",
+      "title": "AI forecasting",
+      "url": "https://www.zoho.com/sites/zweb/images/crm/ai-driven-business-optimization-with-zoho-crm-final.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search15",
+      "snippet": "How can I leverage Zia for deeper insights in Zoho Analytics? ... Using the Ask Zia feature, you can pose specific questions about your data",
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "url": "https://www.zoho.com/sites/zweb/images/enterprise/business-pulse/zoho-business-pulse-strategic-ai.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn2search16",
+      "snippet": "- Decipher insights using Zia Insights ... - Ask Zia",
+      "title": "Zoho Analytics Experts",
+      "url": "https://www.zoho.com/sites/zweb/images/spark/productagendas/zoho_analytics_experts_agenda.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn2search17",
+      "snippet": "ThoughtSpot ... Analyst Studio ... Spotter - Agentic AI Analyst, Deep Research, Agent as a Service",
+      "title": "Spotter  SpotMap",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-SpotMap-Slides-February-2026.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit18",
+      "snippet": "I am assuming that you are using the Ask Zia feature in Zoho CRM to create this custom module.However, that may exceed its current capabilities",
+      "title": "Zia Custom Module Creator",
+      "url": "https://www.reddit.com/r/Zoho/comments/1kgzfwr"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit19",
+      "snippet": "If you want to set this up, you can reach out to our Zoho Partners at https://www.zoho.com/partners/find-partner.html or you can also email our support (support@zohoanalytics.com),",
+      "title": "Merge, Synthesize, and Analyze Facebook Ads, Google Ads, and Google Analytics, possible?",
+      "url": "https://www.reddit.com/r/Zoho/comments/15lv6ui"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit20",
+      "snippet": "My first thought was the new Zia agents feature URL. ... https://www.zoho.com/analytics/help/code-environment/code-studio.html",
+      "title": "Zoho Desk data intelligence",
+      "url": "https://www.reddit.com/r/Zoho/comments/1kgxrgv"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit21",
+      "snippet": "I want to ask my org to do ChatGPT integration for analytics ... https://www.zoho.com/zia/",
+      "title": "Hi, is It alread posible to use ZIA? And is there some article or video that shows some cool features?",
+      "url": "https://www.reddit.com/r/Zoho/comments/13sowdi"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn2search22",
+      "snippet": "ThoughtSpot allows for non-technical individuals to conduct a self-service data analysis search. ... In July 2025, the company launched its agentic MCP server, Spotter, an",
+      "title": "ThoughtSpot",
+      "url": "https://en.wikipedia.org/wiki/ThoughtSpot"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit23",
+      "snippet": "https://www.zoho.com/mail/help/zia-artificial-intelligence.html ... My advice would be to ask Zoho support for a feature availability matrix for your exact subscription instead of a generic \"Does Zia",
+      "title": "ZOHO ZIA IS BASICALLY NONEXISTENT — WHERE IS IT?",
+      "url": "https://www.reddit.com/r/Zoho/comments/1v38tke/zoho_zia_is_basically_nonexistent_where_is_it/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit24",
+      "snippet": "Hi all, I was interested in using Zoho for the function of finding external datasets using Ask Zia/ChatGPT that is advertised on the website, so",
+      "title": "Does the Zoho function to find external datasets using Zia exist?",
+      "url": "https://www.reddit.com/r/Zoho/comments/1b8j06s"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit25",
+      "snippet": "Does anyone knows how to use Zia API for data enrichment in ZohoCRM in deluge? ... You can send an email to social-support@zohocorp.com along with",
+      "title": "Zia in Deluge",
+      "url": "https://www.reddit.com/r/Zoho/comments/1lrpyp7"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn2academia26",
+      "snippet": "Zero-Input AI (ZIA) introduces a novel framework for human-computer interaction by enabling proactive intent prediction without explicit user commands. ... To support deployment on edge",
+      "title": "ZIA: A Theoretical Framework for Zero-Input AI",
+      "url": "https://arxiv.org/abs/2502.16124"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit27",
+      "snippet": "Zoho's Ask Zia is a full agentic AI assistant. ... For most ISVs building on top of diverse data sources and wanting to ship fast,",
+      "title": "Zoho Analytics vs Reveal BI for embedded analytics -  key differences worth knowing",
+      "url": "https://www.reddit.com/r/u_arvindnatarajan/comments/1sbe0bo/zoho_analytics_vs_reveal_bi_for_embedded/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit28",
+      "snippet": "Within Insights Logs, Is there a way to show each users only once? ... Instead, I've been making use of the Applications report under Analytics",
+      "title": "ZIA Insights Logs",
+      "url": "https://www.reddit.com/r/Zscaler/comments/118kanf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit29",
+      "snippet": "i'm pretty sure there are cheaper and better companies than thoughtspot. ... The differentiator is primarily it’s their analytics agent spotter, which doesent do txt",
+      "title": "Feedback from anyone using ThoughtSpot - Pros and cons?",
+      "url": "https://www.reddit.com/r/analytics/comments/1vifoat/feedback_from_anyone_using_thoughtspot_pros_and/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit30",
+      "snippet": "https://help.zoho.com/portal/en/kb/desk/zia/articles/integration-of-zia-with-openai-chatgpt-in-zoho-desk#Data\\_disclosure",
+      "title": "Zia from Zoho is it valuable?",
+      "url": "https://www.reddit.com/r/Zoho/comments/1i81ioe"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn2reddit31",
+      "snippet": "You can disable \"Ask Zia\" on specific User Profiles there's a whole Zia section under the Profile settings. ... As Ex-Zoho who was there till",
+      "title": "Remove Zia from CRM?",
+      "url": "https://www.reddit.com/r/Zoho/comments/1nl59gh/remove_zia_from_crm/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1eaa8879-0b66-4638-bab2-7881c28f54d2",
+  "query": "site.help.sap.com SAP Analytics Cloud Joule Just Ask smart predict planning features ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.help.sap.com SAP Analytics Cloud Joule Just Ask smart predict planning features",
+      "site.ibm.com/docs cognos analytics assistant forecasting explanations dashboards"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn3search0",
+      "snippet": "Use forecasting in IBM® Cognos Analytics to discover and model trend, seasonality, and time dependence in data.You can forecast in IBM Cognos Analytics by using",
+      "title": "Forecasting",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.1.x?topic=dashboards-forecasting"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn3search1",
+      "snippet": "IBM® Cognos® Analytics includes an embedded assistant that supports natural language text-based input to help you gain quick insights into your data and simplify your",
+      "title": "AI Assistant",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.0.x?topic=explorations-assistant-panel"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn3search2",
+      "snippet": "# SAP Analytics Cloud Help ... Learn how to use features in SAP Analytics Cloud to enhance planning and analytics processes with AI. ... *",
+      "title": "AI for Planning and Analytics | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/cd897576c3344475a208c2f7a52f151e.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn3search12",
+      "snippet": "SAP Analytics Cloud offers many AI features for improving business decisions and analysis workflow. ... Just Ask ... Smart Predict provides many tools, such as",
+      "title": "PUBLIC\nSAP Analytics Cloud\nFeature Scope Descripti",
+      "url": "https://help.sap.com/doc/67a70d4fa9f74cc7890547e7b4d9153a/release/en-US/SAC_Feature_Scope_Description.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn3search3",
+      "snippet": "# SAP Analytics Cloud Help ... Type of predictive models | For Smart Predict - Predictive Planning, i.e. the integration of SAP Analytics Cloud Smart",
+      "title": "Understand Restrictions with Predictive Planning | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/1bbf118346bb4059b8bd068b4b91c943.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn3search13",
+      "snippet": "When you open an older dashboard in the current release of IBM Cognos Analytics, the data caching feature will not work until you save the",
+      "title": "IBM Cognos Analytics   Version 11.1.0  :   Dashboards and Stories User Guide",
+      "url": "https://www.ibm.com/docs/en/SSEP7J_11.1.0/pdf/ug_ca_dshb.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn3search14",
+      "snippet": "In IBM Cognos Analytics with Watson, you can create a multivariate forecast that considers multiple measures in its model. ... 162 IBM Cognos Analytics Version",
+      "title": "IBM Cognos Analytics   Version 11.2.0  :   Dashboards and Stories User Guide",
+      "url": "https://www.ibm.com/docs/en/SSEP7J_11.2.0/pdf/ug_ca_dshb.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn3search15",
+      "snippet": "Joule works with data from models that are indexed by the just ask feature of SAP Analytics Cloud. ... that the administrator for just ask",
+      "title": "PUBLIC\nDocument Version: 1.0.0 – 2026-05-19\nJoule",
+      "url": "https://help.sap.com/doc/1b82af8383e2443eaa95a034a70beb1b/CLOUD/en-US/c0bb884c3e27438695f4750b547aac77.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn3search4",
+      "snippet": "# What's New in SAP Analytics Cloud ... Model Readiness Check for Just Ask and Joule Analytical Insights | Just Ask administrators can now run",
+      "title": "What's New in SAP Analytics Cloud | SAP Help Portal",
+      "url": "https://help.sap.com/whats-new/42e4f84a0e5e458792b1047eaf81c31a?Version=Q2+2024+%282024.03+-+2024.08%29&locale=en-US"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn3search5",
+      "snippet": "You can now add comments to the English version of the SAP Analytics Cloud Help to help us improve our documentation. ... Run a readiness",
+      "title": "Check Your Model's Readiness for Just Ask and Joule Analytical Insights | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/121c342e23124efb8295f1bb785b2cc0.html?q=predictive"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn3search16",
+      "snippet": "Forecasting statistical details are located in the data tray at the bottom of each visualization. ... When the status is **Success**, the other fields provide",
+      "title": "IBM Cognos Analytics   Version 11.1.0  :   Dashboards and Stories User Guide",
+      "url": "https://www.ibm.com/docs/en/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/ug_ca_dshb.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn3search17",
+      "snippet": "AI for Planning and Analytics. . . . . . . . . . . . . . . . . . . . .",
+      "title": "CONFIDENTIAL",
+      "url": "https://help.sap.com/doc/65af24de9abe43d0ab80e505ebab26f5/release/en-US/SAPAnalyticsCloudUserHelp.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "userapps.support.sap.com",
+      "ref_id": "turn3search6",
+      "snippet": "# 3009023 - What are the supported data connections for AI Features in SAP Analytics Cloud? ... * What are the supported data connections for",
+      "title": "3009023 - What are the supported data connections for AI Features in SAP Analytics Cloud?",
+      "url": "https://userapps.support.sap.com/sap/support/knowledge/en/3009023"
+    },
+    {
+      "type": "text_result",
+      "domain": "mediacenter.ibm.com",
+      "ref_id": "turn3search7",
+      "snippet": "# Dashboards - Introduction to the Assistant with dashboards ... A dashboard with advanced analytics visualizations created by the Assistant using artificial intelligence is also",
+      "title": "Dashboards - Introduction to the Assistant with dashboards - IBM Mediacenter",
+      "url": "https://mediacenter.ibm.com/media/Dashboards%2B-%2BIntroduction%2Bto%2Bthe%2BAssistant%2Bwith%2Bdashboards/1_qzsbweeh"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sap.com",
+      "ref_id": "turn3search8",
+      "snippet": "Perform analytics and planning tasks using Joule agents to analyze data, assess risk, and generate scripts, enriching data models through a single conversational experience. ...",
+      "title": "SAP Analytics Cloud | BI, Planning, and Predictive Analysis Tools",
+      "url": "https://www.sap.com/products/technology-platform/cloud-analytics.html?faq=5"
+    },
+    {
+      "type": "text_result",
+      "domain": "userapps.support.sap.com",
+      "ref_id": "turn3search9",
+      "snippet": "# 2861907 - Why does the Smart Predict feature not exist or is not available on my SAP Analytics Cloud system? ... Error, Issue, System,",
+      "title": "2861907 - Why does the Smart Predict feature not exist or is not available on my SAP Analytics Cloud system?",
+      "url": "https://userapps.support.sap.com/sap/support/knowledge/en/2861907"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.ibm.com",
+      "ref_id": "turn3search10",
+      "snippet": "In this release, IBM reaffirms its commitment in delivering a true self-service analytics experience. ... In Cognos Analytics previous versions it was accessible in Cognos",
+      "title": "Cognos Analytics 12.0: Meet the new Cognos Analytics Assistant",
+      "url": "https://community.ibm.com/community/user/blogs/rodrigo-de-andrade/2023/05/27/cognos-analytics-120-meet-the-new-cognos-analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "architecture.learning.sap.com",
+      "ref_id": "turn3search11",
+      "snippet": "Joule is a conversational, generative AI copilot embedded in SAP Analytics Cloud, designed to boost analytics and planning productivity directly within the user interface. ...",
+      "title": "Analytical Insights in Joule for SAP Analytics Cloud | SAP Architecture Center",
+      "url": "https://architecture.learning.sap.com/docs/ref-arch/9efadc"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit18",
+      "snippet": "## From Data to Prediction: Integrating RPT-1.5 into SAP Analytics Cloud ... ## AI-Powered Forecasting with SAC, SAP RPT & Gen AI — Part 5:",
+      "title": "[Roundup] The best community blogs of August 2026",
+      "url": "https://www.reddit.com/r/SAPAnalyticsCloud/comments/1wkr6fq/roundup_the_best_community_blogs_of_august_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit19",
+      "snippet": "**What it covers:** The QRC3 \"Smart Boundaries\" button in Compass, which runs Smart Predict over historical data to auto-populate a driver's min/max fluctuation boundaries, as",
+      "title": "[Roundup] The best community blogs of June 2026",
+      "url": "https://www.reddit.com/r/SAPAnalyticsCloud/comments/1um7fin/roundup_the_best_community_blogs_of_june_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit20",
+      "snippet": "## SAP Analytics Cloud (SAC) QRC3 2026 Planning Enhancements – Copy Step & Comment Management ... | Dynamic Top-N Waterfall Analysis in SAP Analytics Cloud:",
+      "title": "[Roundup] The best community blogs of September 2026",
+      "url": "https://www.reddit.com/r/SAPAnalyticsCloud/comments/1ww7oap/roundup_the_best_community_blogs_of_september_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit21",
+      "snippet": "\\*\\*What it covers:\\*\\* The QRC3 \"Smart Boundaries\" button in Compass, which runs Smart Predict over historical data to auto-populate a driver's min/max fluctuation boundaries, as",
+      "title": "[Roundup] The best community blogs of June 2026",
+      "url": "https://www.reddit.com/r/SAP/comments/1umkdkz/roundup_the_best_community_blogs_of_june_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn3search22",
+      "snippet": "Website: https://www.ibm.com/products/cognos-analytics ... Dashboard Documentation, p. 7 http://download.boulder.ibm.com/ibmdl/pub/software/data/cognos/documentation/docs/en/8.4.0/ug_exd.pdf ,(25.04.2",
+      "title": "IBM Cognos Analytics",
+      "url": "https://en.wikipedia.org/wiki/IBM_Cognos_Analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit23",
+      "snippet": "## Three New Chart Types in SAP Analytics Cloud: Sankey, Gauge, and Funnel ... **Why it's worth your time:** It goes past the feature list",
+      "title": "[Roundup] The best community blogs of July 2026",
+      "url": "https://www.reddit.com/r/SAPAnalyticsCloud/comments/1vig90w/roundup_the_best_community_blogs_of_july_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit24",
+      "snippet": "I am learning this software and have read the IBM supplements but have found no answer (version is 11.1R2). ... I have the dataset and",
+      "title": "Forecast feature",
+      "url": "https://www.reddit.com/r/cognos/comments/12d5aj3"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit25",
+      "snippet": "Sap’s answer to ai is Joule that will be integrated across all of its products. ... In sac, “just ask” is where you want to",
+      "title": "What is the current state of BPC, GR, and SAC in the market? Exploring AI within the SAP ecosystem",
+      "url": "https://www.reddit.com/r/SAP/comments/1hyc1jd"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit26",
+      "snippet": "I've tried to calculate the CO% within a data module and within the dashboard itself. ... I came across this: https://www.ibm.com/support/pages/considerations-percentage-calculations-dashboards-cognos",
+      "title": "Cognos Dashboard",
+      "url": "https://www.reddit.com/r/cognos/comments/fhhbqh"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit27",
+      "snippet": "We’re implementing SAP IBP without any previous knowledge, and Joule has been a big help in solving technical issues. ... Predictive AI and Joule- An",
+      "title": "Are you using Joule or other AI tools in your SAP projects?",
+      "url": "https://www.reddit.com/r/SAP/comments/1vj3ipl/are_you_using_joule_or_other_ai_tools_in_your_sap/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit28",
+      "snippet": "Is it too much to ask to improve the same feature in purchasing which has been crap for 10 years, but we (as consultants) can",
+      "title": "sapphire day 1",
+      "url": "https://www.reddit.com/r/SAP/comments/1d8achv"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit29",
+      "snippet": "* Smart Transformation ... This contains important SAP Cloud platform features for data processing and analytics.Analytics, data cleaning and visualization, the use of custom widgets,",
+      "title": "Overview of Sap Analytics Cloud and its features.",
+      "url": "https://www.reddit.com/r/u_iampankaj1/comments/10l77zu"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn3reddit30",
+      "snippet": "## Adding a Decomposition Tree to SAP Analytics Cloud with D3.js ... ## SAP Analytics Cloud — You Want to Export to Excel? ... how",
+      "title": "[Roundup] The best community blogs of May 2026",
+      "url": "https://www.reddit.com/r/SAPAnalyticsCloud/comments/1u0viki/roundup_the_best_community_blogs_of_may_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn3search31",
+      "snippet": "Homepage: https://www.ibm.com/products/cognos-analytics ... A significant upgrade to IBM Cognos 8 BI, this new software brings together social collaboration and analytics for business users to gain",
+      "title": "Cognos",
+      "url": "https://en.wikipedia.org/wiki/Cognos"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn3search32",
+      "snippet": "IBM Planning Analytics powered by TM1 (formerly IBM Cognos TM1, formerly Applix TM1, formerly Sinper TM/1) is a business performance management software suite designed to",
+      "title": "IBM Planning Analytics",
+      "url": "https://en.wikipedia.org/wiki/IBM_Planning_Analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn3academia33",
+      "snippet": "This paper proposes a predictive analytics framework that is also equipped with explanation capabilities based on the game theory of Shapley Values.The framework has been",
+      "title": "An Explainable Decision Support System for Predictive Process Analytics",
+      "url": "https://arxiv.org/abs/2207.12782"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn3search34",
+      "snippet": "SAP HANA includes a number of analytic engines for various kinds of data processing. ... The Predictive Analytics Library includes native algorithms for calculating common",
+      "title": "SAP HANA",
+      "url": "https://en.wikipedia.org/wiki/SAP_HANA"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn3academia35",
+      "snippet": "Many real-world analytics problems involve two significant challenges: prediction and optimization. ... In contrast, we propose a new and very general framework, called Smart \"Predict,",
+      "title": "Smart \"Predict, then Optimize\"",
+      "url": "https://arxiv.org/abs/1710.08005"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-21a9a359-c418-4581-b1f5-6c2a5f566caa",
+  "query": "site.docs.aws.amazon.com quicksight Amazon Quick Suite generative BI scenarios topics executive summaries ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.docs.aws.amazon.com quicksight Amazon Quick Suite generative BI scenarios topics executive summaries",
+      "site.docs.oracle.com analytics cloud AI assistant explain predict automated insights"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn4search0",
+      "snippet": "With Amazon Quick chat, you can utilize the Generative BI authoring experience, create executive summaries of your data, ask and answer questions of data, and",
+      "title": "Generative BI with Quick Sight - Amazon Quick",
+      "url": "https://docs.aws.amazon.com/quick/latest/userguide/quicksight-gen-bi.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn4search1",
+      "snippet": "Oracle Analytics Cloud AI Assistant provides a conversational analytics workflow that enables business users to instantly generate insights from their data with full data security",
+      "title": "Learn About AI-powered Insights With Oracle Analytics Cloud AI Assistant",
+      "url": "https://docs.oracle.com/en/solutions/oac-ai-assist/index.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn4search12",
+      "snippet": "With Amazon Quick Suite chat, you can utilize the Generative BI authoring experience, create executive summaries of your data, ask and answer questions of data,",
+      "title": "Amazon Quick Suite - User Guide",
+      "url": "https://docs.aws.amazon.com/pdfs/quicksuite/latest/userguide/amazon-quicksuite-user.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn4search2",
+      "snippet": "Oracle® Cloud Visualizing Data and Building Reports in Oracle Analytics Cloud ... Explain analyzes the selected column within the context of its data set and",
+      "title": "Analyze Data with Explain",
+      "url": "https://docs.oracle.com/html/E81765_34/GUID-D1C86E85-5380-4566-B1CB-DC14E0D3919E.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn4search3",
+      "snippet": "Oracle Analytics AI Assistant is built on the Oracle Analytics Cloud platform. ... When deploying the Oracle Analytics AI Assistant, an author user typically prepares",
+      "title": "About the Oracle Analytics AI Assistant",
+      "url": "https://docs.oracle.com/en/cloud/saas/analytics/26r3/fawug/oracle-analytics-ai-assistant.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.oracle.com",
+      "ref_id": "turn4search4",
+      "snippet": "Users can customize the prediction interval and model type of the built-in algorithms to better fit the data and business use case. ... With only",
+      "title": "Analytics Platform with Embedded AI and ML",
+      "url": "https://www.oracle.com/analytics/capabilities/ai-ml/"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn4search5",
+      "snippet": "AI Assistants provide generative AI capabilities throughout Oracle Analytics Cloud to help users analyze data, build content, develop semantic models, and generate business-friendly descriptions. ...",
+      "title": "About Oracle Analytics AI Assistants",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acabi/oracle-analytics-ai-assistants-features.html?source=%3Aow%3Aevp%3Acpo%3A%3A%3A%3ARC_WWMK220222P00068%3AOER400222946Enterprisebyrelease"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn4search6",
+      "snippet": "Also, a variety of datasets are available free online that you can use with Amazon QuickSight, for example the AWS public datasets. ... Document Conventions",
+      "title": "How Amazon QuickSight works - Amazon QuickSight",
+      "url": "https://docs.aws.amazon.com/en_us/quicksight/latest/user/how-quicksight-works.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn4search7",
+      "snippet": "## Scenario characteristics ... Amazon Q in QuickSight is configured to retrieve data from AWS and third party data sources, using row level security and",
+      "title": "Generative business intelligence - Generative AI Lens",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-business-intelligence.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "blogs.oracle.com",
+      "ref_id": "turn4search8",
+      "snippet": "# Oracle Analytics Cloud: All About Oracle Analytics AI Assistant ... The Oracle Analytics AI Assistant is an AI-powered tool embedded in Oracle Analytics Cloud",
+      "title": "Oracle Analytics Cloud: All About Oracle Analytics AI Assistant | analytics",
+      "url": "https://blogs.oracle.com/analytics/oracle-analytics-cloud-all-about-oracle-analytics-ai-assistant"
+    },
+    {
+      "type": "text_result",
+      "domain": "aws.amazon.com",
+      "ref_id": "turn4search9",
+      "snippet": "To address these problems, the new Q&A experience first suggests AI-generated questions and provides data previews for a quick understanding of what’s in the data",
+      "title": "Amazon Q is now generally available in Amazon QuickSight, bringing Generative BI capabilities to the entire organization | AWS Business Intelligence Blog",
+      "url": "https://aws.amazon.com/blogs/business-intelligence/amazon-q-is-now-generally-available-in-amazon-quicksight-bringing-generative-bi-capabilities-to-the-entire-organization//"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn4search13",
+      "snippet": "<tr><td>Connect to Oracle Autonomous Data Warehouse using resource principal</td><td>Use an Oracle Cloud Infrastructure (OCI) resource principal to connect to Oracle Autonomous Data Warehouse. ... <tr",
+      "title": "What’s New for Oracle Analytics Cloud",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acswn/whats-new-oracle-analytics-cloud.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "aws.amazon.com",
+      "ref_id": "turn4search10",
+      "snippet": "## AWS News Blog ... by Esra Kayabali and Donnie Prakoso on 09 OCT 2025 in Amazon Quick Sight, Announcements, Artificial Intelligence, Business Intelligence, Generative",
+      "title": "Announcing Amazon Quick Suite: your agentic teammate for answering questions and taking action | AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/reimagine-the-way-you-work-with-ai-agents-in-amazon-quick-suite/"
+    },
+    {
+      "type": "text_result",
+      "domain": "aws.amazon.com",
+      "ref_id": "turn4search11",
+      "snippet": "by Donnie Prakoso on 28 NOV 2023 in Amazon Bedrock, Amazon Q, Amazon Quick Sight, Analytics, Announcements, AWS re:Invent, Business Intelligence, Generative AI, Generative BI,",
+      "title": "New Amazon Q in QuickSight uses generative AI assistance for quicker, easier data insights (preview) | AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/new-amazon-q-in-quicksight-uses-generative-ai-assistance-for-quicker-easier-data-insights-preview/?sc_icampaign=launch_reinvent23-amazon-quicksight-q&sc_ichannel=ha&sc_icontent=awssm-4003_launch_reinvent23&sc_iplace=ribbon&trk=fa4b638d-807e-47be-bbe5-09bb03287291~ha_awssm-4003_launch_reinvent23"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn4search14",
+      "snippet": "properly joined in the Dataset-Agent data model (Oracle Analytics Cloud multi-table data model ... This results in a better experience and better insights for consumer",
+      "title": "Business / Technical Brief",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/actch/OAC_Enable_AI_Assistant_for_Consumers.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit15",
+      "snippet": "**Use Amazon QuickSight** — this seems like the more logical path, since it's AWS's native BI/visualization tool. ... With multi-dataset topics you add your 4",
+      "title": "Power BI → Amazon QuickSight migration: struggling to understand the dataset/topic logic (3 questions)",
+      "url": "https://www.reddit.com/r/AmazonQuick/comments/1vfa2d1/power_bi_amazon_quicksight_migration_struggling/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit16",
+      "snippet": "**Use Amazon QuickSight** — this seems like the more logical path, since it's AWS's native BI/visualization tool. ... \"Topics,\" meanwhile, seem to exist purely to",
+      "title": "Power BI → Amazon QuickSight migration: struggling to understand the dataset/topic logic (3 questions)",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1vfpi3c/power_bi_amazon_quicksight_migration_struggling/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit17",
+      "snippet": "https://aws.amazon.com/quicksuite/quicksight/pricing/ ... The $3 BI Reader users are not going away - if your readers just need to view dashboards and such but not use",
+      "title": "New Quick suite pricing (ex Quick sight)",
+      "url": "https://www.reddit.com/r/aws/comments/1odygni"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn4search18",
+      "snippet": "The user interface also allows the automated generation of Java and/or SQL code associated with the data-mining activities. ... An independent interface also exists: the",
+      "title": "Oracle Data Mining",
+      "url": "https://en.wikipedia.org/wiki/Oracle_Data_Mining"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit19",
+      "snippet": "Whoever on the Amazon/AWS team decided to rename QuickSight/QuickSuite to just 'Quick' (and whomever it was approved by) is likely secretly working for Microsoft or",
+      "title": "Amazon Quick",
+      "url": "https://www.reddit.com/r/aws/comments/1ww793f/amazon_quick/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit20",
+      "snippet": "My team consumes data that is only available through Amazon QuickSight dashboards. ... Quick Suite tools may be able to automate some of it within",
+      "title": "Has anyone automated data extraction from Amazon QuickSight dashboards using Agentic AI?",
+      "url": "https://www.reddit.com/r/amazonemployees/comments/1v80cq8/has_anyone_automated_data_extraction_from_amazon/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit21",
+      "snippet": "Outside hardcore AWS shops, QuickSight/Quick Suite still feels kinda niche vs PowerBI, which pops up in way more orgs and job reqs, and the AI",
+      "title": "QuickSight / Quick Suite - Is the user base growing?",
+      "url": "https://www.reddit.com/r/dataanalysis/comments/1q1csn8/quicksight_quick_suite_is_the_user_base_growing/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit22",
+      "snippet": "We're not entirely sure about the specific blog you're referring to, but I've found some resources on the same topic that might interest you:Document history",
+      "title": "Quicksight release notes",
+      "url": "https://www.reddit.com/r/aws/comments/1amp5fw"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit23",
+      "snippet": "My company has a latency problem with managing queries to a 17.5 million row, 5 column table in AWS QuickSight (with another 6 or so",
+      "title": "Company is doubling down on BI dashboard in place of OLAP database w/ APIs -- is it crazy?",
+      "url": "https://www.reddit.com/r/aws/comments/1oscgcc/company_is_doubling_down_on_bi_dashboard_in_place/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit24",
+      "snippet": "I'd be thrilled if they actually fixed the mess that is access management in quicksight to get it working like, oh idk, every other AWS",
+      "title": "AWS launches Quick Suite, a chatbot and set of AI agents that can analyze sales data, produce reports, and summarize web content, set to replace Q Business",
+      "url": "https://www.reddit.com/r/aws/comments/1o2ambw"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit25",
+      "snippet": "an api for this that hooks into athena datasources would be great for those not using quicksight but have a custom bi tool around athena",
+      "title": "New – Amazon QuickSight Q Answers Natural-Language Questions About Business Data",
+      "url": "https://www.reddit.com/r/aws/comments/k4q89v"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn4reddit26",
+      "snippet": "With the popularity of hybrid cloud and BI desktop tools such as Tableau, Power BI and Qlik, are there any plans for AWS to develop",
+      "title": "AWS Quicksight Desktop for Windows and macOS: are there any plans in AWS roadmap to develop a desktop version of Quicksight?",
+      "url": "https://www.reddit.com/r/aws/comments/kubw7o"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-eaf25339-c0e0-4bdf-82fd-a2ec6bb79973",
+  "query": "site.onrc.ro \"CAEN Rev.3\" \"SECŢIUNEA\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.onrc.ro \"CAEN Rev.3\" \"SECŢIUNEA\"",
+      "site.learn.microsoft.com en-us power-bi copilot overview",
+      "site.help.tableau.com current online tableau pulse agent overview"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn5search0",
+      "snippet": "# Copilot in Power BI tutorial: End-to-end overview ... You learn how to ask questions, interpret answers, dig deeper into insights, and summarize your findings.",
+      "title": "Copilot in Power BI Tutorial: End-to-End Overview - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/tutorial-copilot-power-bi-introduction"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn5search12",
+      "snippet": "Clasificarea activităților din economia nationala - CAEN Rev. ... <tr><td>Diviziune</td><td>Grupă</td><td>Clasă</td><td>CAEN Rev.3</td></tr><tr><td></td><td></td><td></td><td>SECTIUNEA A - AGRICULTURĂ",
+      "title": "Clasificarea activităților din economia nationala - CAEN Rev. 3",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn5search1",
+      "snippet": "Copilot in Microsoft Fabric is a generative AI assistant that enhances the data analytics experience in the Fabric platform. ... This article provides an in-depth",
+      "title": "Copilot in Power BI: Integration Overview and Benefits - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-integration?trk=article-ssr-frontend-pulse_little-text-block"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn5search2",
+      "snippet": "## Overview of how Copilot in Power BI works ... * P SKUs: You can also use Copilot in Power BI if you have a",
+      "title": "Copilot in Power BI: Integration Overview and Benefits - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-integration"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn5search3",
+      "snippet": "Those citations are illustrated by visualisations that help you understand that data at a glance. ... If your site doesn’t have a Tableau+ licence edition,",
+      "title": "Ask Questions and Discover Insights in Tableau Pulse - Tableau",
+      "url": "https://help.tableau.com/current/online/en-gb/pulse_ask_discover_qa.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn5search4",
+      "snippet": "# Tableau Cloud Help ... For more information, see Ask Questions and Discover Insights in Tableau Pulse.You can try Tableau Agent in Pulse for free",
+      "title": "Premium Tableau Pulse Capabilities - Tableau",
+      "url": "https://help.tableau.com/current/online/en-gb/pulse_capabilities.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn5search5",
+      "snippet": "The articles in this section help you get started with Tableau Pulse, whether you’re a Tableau administrator setting up your site, a Creator defining the",
+      "title": "About Tableau Pulse - Tableau",
+      "url": "https://help.tableau.com/current/online/en-gb/pulse_about.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com.mcas.ms",
+      "ref_id": "turn5search6",
+      "snippet": "Power BI documentation covers cloud capabilities in Microsoft Fabric, standalone desktop and on-premises applications, and guidance tailored to your role—whether you create reports, model data,",
+      "title": "Power BI documentation - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com.mcas.ms/en-us/power-bi/"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn5search7",
+      "snippet": "* Copilot in Microsoft Fabric isn't supported on trial SKUs. ... * Overview of Copilot for Power BI ... Learn more",
+      "title": "Summarize a Report With Copilot - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com/power-bi/create-reports/copilot-pane-summarize-content"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn5search8",
+      "snippet": "# Copilot for Power BI overview ... Learn how to prepare your data for AI. ... * Your administrator needs to enable Copilot in Microsoft",
+      "title": "Copilot for Power BI overview - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com/mt-mt/power-bi//create-reports/copilot-introduction"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn5search9",
+      "snippet": "4.1, 4.2 sau 4.3, după caz, cu precizarea că documentele depuse în susținerea cererii de înregistrare la oficiul registrului comerțului de pe lângă tribunal, trebuie",
+      "title": "Oficiul National al Registrului Comertului",
+      "url": "https://www.onrc.ro/index.php/ro/home?id=329"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn5search10",
+      "snippet": "2.1, 2.2 sau 2.3, după caz, cu precizarea că documentele depuse în susținerea cererii de înregistrare la oficiul registrului comerțului de pe lângă tribunal, trebuie",
+      "title": "Oficiul National al Registrului Comertului",
+      "url": "https://www.onrc.ro/index.php/ro/72-structurare-continut/index.php/despre-onrc/prezentare"
+    },
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com.mcas.ms",
+      "ref_id": "turn5search11",
+      "snippet": "# Microsoft 365 Copilot extensibility overview",
+      "title": "Extend Microsoft 365 Copilot | Microsoft Learn",
+      "url": "https://learn.microsoft.com.mcas.ms/en-us/microsoft-365-copilot/extensibility/overview"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn5search13",
+      "snippet": "<tr><td>(8)</td><td>În situația în care sunt mai mulți membri, se va completa în mod corespunzător o anexă cu datele CAEN și denumire sector, conform Secțiunii VI,",
+      "title": "2025-04-29 (1).pdf",
+      "url": "https://www.onrc.ro/documente/legislatie/ordin2938.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.inspectiamuncii.ro",
+      "ref_id": "turn5search14",
+      "snippet": "Totodată, potrivit Ordinului ministrului justiției 2938/C/2024, CAEN Rev. 3 se folosește pentru precizarea obiectului de activitate al profesioniștilor care solicită înmatricularea/înregistrarea în re",
+      "title": "MINISTERUL JUSTIȚIEI",
+      "url": "https://www.inspectiamuncii.ro/documents/740192/69604123/INFORMARE%2BACTUALIZARE%2BCOD%2BCAEN%2BREV%2B3.pdf/1ae103fe-4746-42c3-98d9-aac7ef3a66e2"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn5search15",
+      "snippet": "When using Tableau Agent in Tableau Desktop and Tableau Prep Builder, the language used in the generative AI response is based on the language selected",
+      "title": "Tableau Prep Help",
+      "url": "https://help.tableau.com/current/offline/en-gb/tableau_prep.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn5youtube16",
+      "snippet": "# Copilot in Power BI OverviewBy: Microsoft Power BI (529000 followers, Verified) ... Learn more about Copilot in Power BI in the announcement blog: URL",
+      "title": "Copilot in Power BI Overview - YouTube",
+      "url": "https://www.youtube.com/watch?v=Pmt9TyvNsQM"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.jurnalul-bucurestiului.ro",
+      "ref_id": "turn5search17",
+      "snippet": "Diviziune | Grupă | Clasă | CAEN Rev.3 Secțiunea N — Activități profesionale, științifice și tehnice",
+      "title": "P A R T E A  I",
+      "url": "https://www.jurnalul-bucurestiului.ro/wp-content/uploads/2025/01/CAEN-Rev-3-detalii.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn5search18",
+      "snippet": "For information about the languages Tableau Agent currently supports, see AI in Tableau supported languages and locales. ... For more information about authoring flows on",
+      "title": "Tableau Prep Help",
+      "url": "https://help.tableau.com/current/offline/en-us/tableau_prep.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn5youtube19",
+      "snippet": "By: Microsoft Power BI (529000 followers, Verified) ... Learn more about Copilot in Power BI in the announcement blog: URL",
+      "title": "Copilot in Power BI Demo - YouTube",
+      "url": "https://www.youtube.com/watch?v=wr__6tM5U6I"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit20",
+      "snippet": "Salut, considerand ca toate firmele si PFA-urile trebuie sa-si updateze Codul CAEN la Rev3, m-am gandit ca ar fi util sa postez un video despre",
+      "title": "Tutorial pentru updatarea codul CAEN la Rev3 ONLINE si GRATUIT",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1r22jox/tutorial_pentru_updatarea_codul_caen_la_rev3/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit21",
+      "snippet": "Mențiune: În prezent, soluționarea dosarelor la ONRC este întârziată din cauza lipsei de registratori/operatori, dar și ca urmare a volumului mare de cereri pentru CAEN",
+      "title": "Conversie CAEN rev. 3 - data-limită: 25 septembrie 2026",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1wlcdhx/conversie_caen_rev_3_datalimit%C4%83_25_septembrie_2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit22",
+      "snippet": "The task i got is in 2 parts: 1st part is analysis of a company in Power BI, 2nd part is creating an agent in",
+      "title": "Power BI integration into Copilot Studio",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1pq6rsm/power_bi_integration_into_copilot_studio/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit23",
+      "snippet": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction#copilot-requirements",
+      "title": "Copilot in power bi service",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1jhwdi0"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit24",
+      "snippet": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-prepare-data-ai-faq#when-i-prepare-my-data-for-copilot--which-capabilities-are-affected-",
+      "title": "Prep your data for AI - questions",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1oxdnqu"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit25",
+      "snippet": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction",
+      "title": "Help with Copilot in premium workspsce",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1klr663"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn5search26",
+      "snippet": "31 March 2016.†powerbi.microsoft.com】",
+      "title": "Microsoft Power BI",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Power_BI"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit27",
+      "snippet": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction#copilot-requirements",
+      "title": "Co-Pilot License requirement (Pro vs Premium)",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1dkf5kq"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit28",
+      "snippet": "Copilot in Power BI web modeling (preview) - Power BI | Microsoft Learn ... Feedback for Power BI Copilot in web modeling (pre... - Microsoft",
+      "title": "Copilot for Web Modeling Demo - Uses Fabric Semantic Modeling MCP server",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1uktzyh/copilot_for_web_modeling_demo_uses_fabric/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit29",
+      "snippet": "Here's the article I would suggest, https://learn.microsoft.com/en-us/power-bi/fundamentals/service-features-license-type#power-bi-service-licenses ... Is powerbi copilot released yet?",
+      "title": "Introducing Microsoft Fabric and Copilot in Microsoft Power BI",
+      "url": "https://www.reddit.com/r/PowerBI/comments/13pr3dp"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit30",
+      "snippet": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-enable-power-bi#only-show-ai-prepped-items-in-the-standalone-copilot-in-power-bi-experience-preview",
+      "title": "How to make a semantic model inaccessible by Copilot?",
+      "url": "https://www.reddit.com/r/MicrosoftFabric/comments/1lj9aqf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit31",
+      "snippet": "Based on some questions from a client, I've been looking into M365 Copilot inside of Power BI. ... Some customers are already using this public",
+      "title": "M365 Copilot in Power BI vs. CS Agent accessing SQL Server",
+      "url": "https://www.reddit.com/r/copilotstudio/comments/1meb6t7"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit32",
+      "snippet": "As the final month of the year, December was a great opportunity to close 2025 with a full end-to-end overview of Power BI Copilot at",
+      "title": "Power BI Copilot: Complete Overview | Super User 2, December 2025 Monthly Session",
+      "url": "https://www.reddit.com/r/u_uzuntasgokberk/comments/1ph9xjk/power_bi_copilot_complete_overview_super_user_2/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn5search33",
+      "snippet": "Microsoft stated that it intended to employ InterpretML and Fairlearn to detect and rectify data bias, provide links to its sources, and state any applicable",
+      "title": "Microsoft Copilot",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Copilot"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn5search34",
+      "snippet": "* Copilot Studio (formerly Power Virtual Agents) provides tools for customizing or building copilot, or AI-powered chatbot, experiences. ... * Pro Microsoft Power BI Administration:",
+      "title": "Microsoft Power Platform",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Power_Platform"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-18c62e08-317c-4636-b335-b5cb1a3f05b7",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218\\\\skills\\\\spreadsheets\\\\SKILL.md'\"",
+  "cwd": "C:\\Users\\User",
+  "processId": "11075",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\SKILL.md'",
+      "name": "SKILL.md",
+      "path": "C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\SKILL.md"
+    }
+  ],
+  "aggregatedOutput": "---\r\nname: \"Spreadsheets\"\r\ndescription: \"Use skill when user requests to create, modify, analyze, visualize, or work with spreadsheet files (`.xlsx`, `.xls`, `.csv`, `.tsv`) or Google Sheets with formulas, formatting, charts, tables, and recalculation. Do not use for live controlling Microsoft Excel app or a live Excel session.\"\r\n---\r\n\r\n# Spreadsheets skill\r\nRead entirely for spreadsheet creation, editing, analysis, or visualization.\r\n\r\n## Decision Boundary\r\n- Google Sheets targeted outputs also require `routing/google_sheets.md`. Otherwise, author local files with artifact tool.\r\n\r\n## Important Instructions\r\n- For new workbooks or authorized redesigns, plan the simplest correct workbook that meets the task, audience, actual data and domain. If formulas become hard to read, first reconsider whether the workbook’s structure, layout, or logic is overcomplicated before simplifying individual formulas. Remove unnecessary or duplicated logic while preserving calculation correctness, required business relationships, and financial reconciliation\r\n- Instruction precedence for workbook content, layout, and formatting is: user request > reference/template > domain defaults/conventions > general defaults.\r\n\r\n## Tools + Contract Requirements\r\n- Author spreadsheet with `@oai/artifact-tool` JS and only `load_workspace_dependencies` executables/dependencies, never repo-local deps. If unavailable, check `~/.cache/codex-runtimes/codex-primary-runtime/dependencies/`. Never modify dependency directories.\r\n- In a writable, conversation-specific or tmp directory, create a `node_modules` symlink or Windows junction to the loader `node_modules`.\r\n- Prefer to patch/rerun one `.mjs` builder. No heredocs or duplicate builders.\r\n- Use the provided API reference for supported syntax. Its examples do not set workbook structure, formatting or formula defaults. Do not inspect package internals or prototypes. If blocked, run at most one targeted `workbook.help(\"<api_or_feature>\")` query.\r\n- No `openpyxl`, `xlsxwriter`, or `pandas.ExcelWriter` authoring unless asked, or  `@oai/artifact-tool` is unavailable.\r\n- Analyze with JS/formulas, else bundled Python (libraries) and JSON/CSV intermediates; other libraries only for missing capabilities.\r\n- Use `update_plan` for complex work.\r\n- In your final response, omit builders, previews, or other support files unless requested.\r\n- Immediately before the first create/edit authoring command, run `mark_artifact_operation_started.mjs` successfully exactly once using the command below. Do not run it for read-only work. For edits, replace `create` with `edit`; adjust the expected count and output format to match the requested outputs.\r\n  ```bash\r\n  node container_tools/mark_artifact_operation_started.mjs --operation-kind create --expected-output-count 1 --output-format xlsx\r\n  ```\r\n\r\n## Clarification questions\r\n\r\nWhen making a new spreadsheets, or majorly rewriting one, read [clarification questions](references/clarification-questions.md) before continuing on.\r\n\r\n## Spreadsheet (Workbook) Complexity: Workbook Structure & Formulas\r\n\r\nKeep the workbook simple, especially for focused tasks. A focused task produces a simple analysis, report or tracker for a specific question or workflow. It needs one main output, supported by the necessary inputs and calculations. “Focused” describes the scope of the task, not the number of source records.\r\n\r\nDesign the structure and formulas together so a reader can follow the inputs, useful calculation steps and final answer. Put summaries and main outputs first, show the work behind them, and avoid tabs or formulas that only repeat finished results. Keep separate schedules and output views when they serve distinct needs. Preserve required detail, the supplied template and the requested edit scope.\r\n\r\n## Workbook Structure\r\n\r\n### Tab Types & Relationships\r\n\r\nTab types describe the role each part of the workbook plays. They do not require separate tabs. A simple workbook can combine inputs, assumptions, builds and outputs in clearly labeled sections on one worksheet.\r\n\r\n**Inputs/Sources and Assumptions feed Builds; Builds calculate results and feed Outputs.** These relationships describe how calculations flow, not the physical tab order. The same rules apply when roles share a tab.\r\n\r\n**Input / Sources** contain the data the workbook starts from. Keep dedicated raw source or Actuals areas intact, with original values and source meaning separate from prepared calculations. Cleaning, mapping and source summaries may have their own labeled areas with clear provenance. Put business calculations, including historical calibration from actuals, in the build. Raw source data does not read results back from downstream areas.\r\n\r\n**Assumptions** hold the editable drivers and controls used by the builds. When cases are needed, keep one authoritative Case selector on Cover or Assumptions. Group each driver with its `Active Selection` row first, followed by its labeled case inputs, such as Base and Downside, sharing the same period columns. Prefer these driver groups to separate whole-case blocks for new designs. The build links directly to each period's active input. Preserve a supplied layout during narrow edits, and do not add cases or a separate tab when the task does not need them.\r\n\r\nChanging the Case selector updates the active forecast assumptions for each period. The same build keeps linking to those active cells and recalculates with the selected values. Outputs update from the build results while historical actuals remain unchanged.\r\n\r\nWhen cases are used, display the selected case on each worksheet by linking to the authoritative selector. Keep only one editable selector; distinguish source actuals and separately labeled comparison cases from the active forecast.\r\n\r\nIn historical periods, the active assumption row may link to ratios or other measures calculated from actuals in a build. Show that history once, aligned with the build's historical period columns, to help the user set forecast assumptions. The forecast active row selects the chosen case's assumptions and feeds the build. Forecast results must not feed back into the assumptions driving that same forecast. Historical calibration is a business calculation, not a terminal Check/Audit result.\r\n\r\n**Build** tabs pull source inputs and assumptions to combine historical analysis, current results and/or a forecast. Bring the relevant inputs and applicable assumptions into clearly labeled rows or columns, then calculate the results on the build. Keep periods aligned and chronological. Show meaningful steps, subtotals and totals so readers can follow the logic—for example, headcount and compensation driving personnel cost, or revenue less COGS producing gross profit. Each step should do useful work. Do not hide the whole calculation in one dense formula or make the build merely repeat finished results from elsewhere.\r\n\r\nFor a simple calculation, a small labeled assumption block can sit beside it. For a larger build, link important drivers from their control area and show the useful calculation steps. Use one set of forecast schedules driven by the active assumptions, organized by the business sequence, such as revenue, headcount, vendors and cash. Do not mirror the Assumptions grid, add Case columns or parallel named-case forecasts, or apply the selector only to finished results.\r\n\r\nA requested case comparison still needs each case's correctly evaluated results. If the requested simultaneous current results cannot be produced with the supported single-build design, explain the limitation and agree on the calculation or refresh method before building the comparison. Do not omit it, link both cases to the active result, or silently substitute snapshots, `TABLE`, arrays, dense formulas or a hidden second build. Preserve explicit user/template requirements and the separately authorized native-feature and capture workflows below.\r\n\r\n**Output / Summary** tabs consolidate the builds and tell the main story. These might be named “Overview,” “Summary,” “Exec Summary” or “Dashboard,” depending on the task. Bring across finished build results, show how matching totals roll into higher-level totals and put the main summary above the detail. Readers should be able to trace a headline result to its supporting build without finding the same calculation repeated elsewhere. Keep input retrieval, case selection and detailed business logic in the owning build/control area. Do not route forecast results through Assumptions before presenting them. Historical references used to set drivers and linked case/period displays remain allowed.\r\n\r\n**Check / Audit** tabs review source data and builds for completeness, consistency and reconciliation. They may calculate their own diagnostics, but do not own business calculations or feed assumptions, builds or outputs. Nothing outside the check/audit area should depend on its results.\r\n\r\n**Cover, if useful** gives a complex workbook a simple front page, especially for recurring or shared workflows. Include the company/project name or available logo, workbook title and relevant period or as-of date, with generous whitespace and restrained branding. Place it first. Keep analysis and methodology off the cover. Skip it for focused tasks or when the main output provides enough context.\r\n\r\nFor complex workbooks, use a separate `ReadMe` only when source choices, joins, scoring or refresh steps need more explanation than nearby notes. Explain the method and material limitations without repeating outputs or giving a tab tour. Put it last. Multiple sources alone do not require one.\r\n\r\nApply [Style guidance](style_guidelines.md) to these tab and section roles, so formatting helps readers distinguish the main answer, editable inputs and supporting calculations.\r\n\r\n### Tab Names\r\n\r\nUse concise names that describe each tab's purpose, such as `Check` or `Audit` for a reconciliation tab. Preserve established names during unrelated edits. For new forecast work, use `Forecast review` for review checks, `Forecast variance` for comparisons with a prior forecast, or `Sensitivity` for assumption tests. Do not label these tabs or views `Movement` or `Forecast movement`.\r\n\r\n### Tab Order & Progression\r\n\r\nFor a new workbook or authorized redesign, start with one clear primary view that answers the task. Start with one tab, or two when the original source needs to stay separate, for focused tasks such as a department budget versus actuals report, a peer-company valuation comparison, a weekly marketing campaign report, an appointment-capacity tracker or a research measurement log with unit conversions. Preserve required source tabs and dependencies. Put the requested summary above the supporting detail and calculations. Add another tab only for a distinct source, calculation, reader or workflow need; do not create a separate tab for every role. Keep review commentary, refresh instructions and documentation beside the relevant work when they do not need a separate workflow.\r\n\r\nKeep separate schedules when the work requires them, such as revenue, payroll, depreciation and debt builds in a financial model. One or two tabs is a starting point for the examples above, not a limit on every workbook. Do not shrink text, hide necessary calculations or discard records to meet a tab count or fit one printed page. Preserve the supplied template and existing architecture during narrow edits.\r\n\r\n| Domain and task | Do: one output tab | Don't: create extra output/build tabs by default |\r\n| --- | --- | --- |\r\n| Finance / FP&A: one department's monthly budget versus actuals | On `Budget vs Actuals`, tab name `BvA`, show total spend and variance at the top, with category-level budget, actuals and variance calculations below. | Separate Summary, Dashboard, Scenarios and Assumptions tabs for this report. |\r\n| Financial modeling: peer-company valuation comparison from supplied data | On `Comparable Companies`, tab name `Comps`, show the requested multiple summaries at the top, with peer-company inputs and calculated multiples below. | A DCF, debt schedule or full three-statement model when the task only asks for comparable-company analysis. |\r\n| Marketing: weekly campaign spend and cost per lead | On `Campaigns`, show total spend, leads and overall cost per lead at the top, with campaign detail below. Calculate overall cost per lead from the matching totals. | One output tab per campaign, a duplicate dashboard or an attribution model that wasn't requested. |\r\n| Healthcare administration: appointment capacity by clinic | On `Appointments`, tab name `Appts`, show available slots, bookings and overall utilization at the top, with clinic and period detail below. Calculate overall utilization from the matching totals. | A separate dashboard, clinical alerts or a payroll schedule for an appointment report. |\r\n| Scientific research: measurement log with required unit conversions and a requested summary | On `Measurements`, show the requested results at the top, with original observations, units and required conversions below. | Separate Protocol, Processing, Calculations and Checks tabs, or statistical tests that the task does not require. |\r\n\r\nOne output worksheet can contain several useful sections. Keep original sources and substantial builds separate when needed; do not create multiple output tabs for the same answer.\r\n\r\nFor a file with multiple tabs, the physical left-to-right order is **Outputs → Builds → Inputs/Sources/Internal**, with a separate **Assumptions** control panel kept easy to reach, usually just after the primary output and before build tabs. Covers, key outputs (executive summary, financial statements, etc.) belong toward the left; working builds sit in the middle when needed; data, sources, inputs and internal documentation sit toward the right. A two-tab workbook has Output on the left and Input on the right. The logical calculation flow is Source/Input and Assumptions → Build → Output; a visible control panel may sit to the left of its builds. Do not confuse tab position with calculation sequence. Within a horizontal build, factors may feed intermediate results from left to right; preserve chronological period columns. Within a single worksheet, inputs and supporting calculations below can feed the main answer above. Preserve an intentional user/reference layout; do not reorganize a narrow edit to enforce this default.\r\n\r\n#### Checks and Audit\r\n\r\nChecks/Audit are terminal review areas and are not required for focused tasks. They read source/build evidence and may calculate or summarize their own diagnostics within that area. No formula outside a terminal check/audit area may use its results, directly or through helpers, names or dynamic references. This includes assumptions, business calculations, summaries, presented outputs, displayed statuses and output gates. Keep necessary input validation in the owning input/build logic; checks observe it independently. When separate tabs are useful, keep Checks/Audit and internal documentation toward the right. In complex workbooks, a divider such as `Internal >>` can group them with source data; follow [Style guidance](style_guidelines.md) for divider and child-tab colors. Preserve useful supplied controls and notes, but do not add separate tabs for a few lines.\r\n\r\n\r\n### Build Structure and Formula Flow\r\n\r\nArrange labeled rows and columns so a reader can follow starting data, assumptions, useful calculation steps, subtotals and results. Follow the physical layout above; the logical sequence of inputs to results does not require every build to run from top to bottom.\r\n\r\n- **Row progression:** make the useful business steps visible, such as quantity × rate, capacity used ÷ capacity available, or a balance plus its movements. Link the clean input and applicable assumption into their own labeled rows, then calculate the result on that build. Do not add trivial steps just to create more rows.\r\n- **Active assumptions:** select the active assumptions once in the control area and link each period's cells directly into the same build. Do not bypass the active row, repeat case selection across schedules, put a forecast inside Assumptions or maintain parallel case builds. Resolve a required comparison's calculation and refresh method as described in [Tab Types & Relationships](#tab-types--relationships).\r\n- **Historical reference:** Assumptions may link to historical ratios calculated from actuals in a build to help set forecast drivers. Trace the cells: this actuals-only reference must not create a feedback loop from the forecast into its own assumptions.\r\n- **Column progression:** keep comparable items, scenarios and periods aligned. Use the shared headers and controls described in [Anchoring](#anchoring) and [Dates and Time Periods](#dates-and-time-periods), rather than repeating them beside each calculation.\r\n- **Roll-forwards:** show opening balance, relevant movements and closing balance. Normally link each new period's opening balance to the prior period's closing balance, preserving the model's actual timing and conventions.\r\n- **Reuse:** keep one place that owns each calculation, then link matching results into summaries and useful output views. Apply the matching-input, period, unit, rounding and override conditions in [Formula Construction](#formula-construction).\r\n\r\nA tab that only repeats linked values from another tab or workbook is a red flag. Build tabs should perform useful calculations and show the steps. Output tabs should bring results together and calculate relevant subtotals or totals where needed. A useful output may link directly to completed build results without adding new calculations. Keep a linking-only tab when it serves a clear source, import or reporting need; otherwise, combine or remove it within the authorized scope. Do not invent calculations merely to justify a distinct reader view.\r\n\r\n### Workbook Structure Examples\r\n\r\n| Example | Do | Don't |\r\n| --- | --- | --- |\r\n| A1. Simple action tracker | Use one `Actions` tab with owner, due date, status and the requested totals above the table. | Add Cover, Readme, Inputs, Dashboard and Checks tabs around a small task list. |\r\n| A2. Newly designed monthly activity report | Keep Month as a column in one activity table; use that table directly or add a linked summary tab to its left. | Copy the same layout into Jan, Feb and Mar tabs when separate monthly sheets are not required. |\r\n| A3. Compare several teams or campaigns | Keep the comparison in one table with a team/campaign field and the requested measures. | Create a separate nearly identical report tab for each team and make the reader assemble the comparison. |\r\n| A4. A few shared assumptions | Put a short labeled rate/assumption block to the left of the working calculation, or below the results on one worksheet. | Create Setup and Assumptions tabs for three cells, or duplicate editable copies of the same rate. |\r\n| A5. A requested scenario comparison | Group each driver's Active Selection and case inputs together. Keep one active build. Agree on any required comparison's calculation and refresh method, and label retained results accurately. | Maintain parallel case forecasts, omit the comparison or affected dependencies, link both cases to the active result, or use `TABLE` or snapshots as an ordinary shortcut. Do not add unneeded scenarios. Preserve explicitly required native sensitivity or [capture workflows](#circular-references-and-iterative-calculation). |\r\n| A6. Explain a one-page operating calculation | Put People needed at the top, the work/capacity calculation beneath it, and Requests and Minutes per request below. Let the lower inputs feed the answer above. | Scatter each step across a different tab, bury the answer at the bottom, or show only an unexplained staffing result. |\r\n| A7. Present an existing calculation | In a new multi-tab workbook, put Outputs on the left, Builds in the middle and Sources/Inputs on the right. Link the output to the completed build; on one worksheet, show that output above its build. Keep each editable control authoritative in one place; preserve an intentional front-end selector. | Put the primary output after internal source tabs, duplicate the same editable control in several places, create an unintended circular calculation, or rebuild the same calculation in the summary. |\r\n| A8. Reconcile a small import | Put an independent comparison near the relevant table. Use a Checks/Audit tab only if needed, and keep it a terminal reader of sources and builds. | Add a full control dashboard for one useful tie-out, or make the build, summary or output gate read a Checks/Audit result. |\r\n| A9. Keep source context usable | Document each source once alongside the relevant input data, following [Citation Requirements](#citation-requirements). Retain essential period/unit labels, required row-level source columns and intact source tabs. | Repeat filenames and source explanations across builds and outputs, hide essential context in cell notes, or create Sources, Notes, Methodology and Version History tabs for a one-off analysis with one source. |\r\n| A10. Summarize a long source table | Keep all required records intact and make the primary view compact. Use a separate source tab when it improves use or preserves the import. | Drop rows, hide needed calculations or make text tiny so all the evidence fits on one page. |\r\n| A11. A production plan with distinct schedules | Keep materials, line-capacity and staffing schedules separate when their inputs, time grains or update owners differ; place the primary output plan to the left of those builds, with supporting data/inputs farther right. | Merge incompatible schedules just to stay within two tabs, or repeat their calculations in the summary. |\r\n| A12. A narrow edit to an existing workbook | Change the requested cells and affected dependencies, preserving established tabs, native features and layout. | Normalize, merge, rename or remove existing tabs just because a new workbook could be simpler. |\r\n| A13. Several thin tabs around one calculation | For a new capacity plan, keep the input factors, meaningful work/capacity calculation and requested result together in one view or two useful tabs. A Build should contribute the steps shown in F13. | Create seven tabs that mostly repeat the same central range, with nominal Build tabs doing no distinct work. Putting that central calculation on Checks/Audit is also a dependency failure. |\r\n| A14. More than one output view | Keep an operator detail view and a manager summary when their fields, level of detail or workflow differ. Both may link to the same owning build, as in F14. | Copy the same table into Summary, Dashboard, Report and Executive tabs without a distinct reader need, or invent new calculations just to make each tab look different. |\r\n\r\n\r\n## Formulas\r\n\r\nApply these rules to newly added or edited formulas and their affected dependencies. Follow the user's preferences and supplied template; preserve unrelated formulas and layout during narrow edits. Design formulas to support the workbook structure above: the reader should be able to follow the inputs, useful calculation steps and final answer.\r\n\r\n### Formula Construction\r\n\r\n- Use direct references, familiar functions and meaningful intermediate calculations. Follow [Build Structure and Formula Flow](#build-structure-and-formula-flow) to show the work; do not hide an entire build in one dense formula or add trivial helpers just to make formulas shorter.\r\n- Keep raw data, editable assumptions, mappings and business rules in labeled cells or tables. Mathematical, index and control constants may remain in formulas. Keep calculated results as formulas so they update with their inputs.\r\n- Fixed cutoffs or categories from the user's request can appear directly in formulas when result labels state the rule. For example, label `COUNTIFS(B2:B100,\">1000\")` as `Invoices over $1,000`, without adding an input cell for `1000`. Use one labeled input cell when the cutoff is user-adjustable or serves as a shared assumption across different calculations.\r\n- Calculate a shared result once and reuse it when the inputs, period, units, rounding and overrides match. Keep independent reconciliations independent.\r\n- Use consistent formulas across comparable rows and periods, while preserving intentional differences such as [historical versus forecast logic](domain_guidance/financial_models.md#periods-assumptions-and-scenarios), one-off adjustments and overrides.\r\n- Keep business calculations in the owning build and necessary input guards with their inputs or dependent build logic, following the [terminal Checks/Audit rule](#checks-and-audit). Do not invent business restrictions or wrap ordinary calculations in repeated workbook-wide validation gates. For example, use `=SUM(I11:I12)` for a valid total; do not add an `IF` that rejects a negative result unless the business rule requires it.\r\n\r\n### Anchoring\r\n\r\nUse `$` to fix only the part of a reference that must stay in place when a formula is copied. Anchor shared **rows, columns or individual cells** so the workbook can reuse one period header, assumption block, item column or Case selector instead of repeating it beside every calculation.\r\n\r\n| Reference | What stays fixed | Useful pattern |\r\n| --- | --- | --- |\r\n| `C8` | Neither row nor column | A quantity that moves with the calculation when copied across or down. |\r\n| `C$4` | Row 4 | Read each column's period from one shared header row; copying across advances the period, copying down keeps that header. |\r\n| `$A8` | Column A | Read each row's item or category from one shared column; copying down advances the item, copying across keeps its label. |\r\n| `$B$3` | Cell B3 | Reuse one fixed conversion rate or Case selector throughout the applicable calculation. |\r\n\r\nFor example, `=SUMIFS(Amount,Month,C$4,Item,$A8)` reads the period above and the item at the left. Copied one column right it uses `D$4`; copied one row down it uses `$A9`. The aligned named ranges represent the source columns; they do not require named ranges in the delivered workbook.\r\n\r\nA period-specific assumption should move with its period: `=C8*C$3` becomes `=D8*D$3` when copied across. A single assumption shared by every period should stay fixed: `=C8*$B$3` becomes `=D8*$B$3`. Choose between them from the model's meaning, not by adding `$` everywhere. Use keyed lookups when source and destination orders differ; anchoring cannot make mismatched row positions equivalent. Quote cross-sheet names, for example `='Build'!E14`.\r\n\r\n### Dates and Time Periods\r\n\r\n- When calculations depend on a reporting date, use the date specified by the task or source. Use TODAY() only when calculations should update with the current date. Use a fixed reporting date when results should remain tied to a particular date. Label any assumed date. Preserve source deadlines and flag conflicts with derived deadlines.\r\n- Review the template's calendar, period layout and source grain before building formulas. Use real dates where the source supports them, with number formats for display; do not invent a missing reporting year. Derive period filters and labels from the shared header rather than hardcoding months in individual formulas.\r\n- For a new `Week of` label, use the week's first business day as the underlying date: Monday by default, moved forward for holidays only when a holiday calendar is supplied. Follow an explicit source/template week convention. Do not invent holidays or relabel a week-ending date as a week start.\r\n- When several time scales are needed and the template does not prescribe a layout, place the broader summaries to the left and finer detail to the right: **Annual | Quarterly | Monthly | Weekly**. Include only the time scales needed for the task. Keep periods chronological from left to right within each group; use the supplied fiscal calendar and week convention.\r\n- Separate different time scales with narrow, blank, unfilled spacer columns; do not extend formatting down the entire column. Do not add a spacer merely between actual and forecast months in one continuous schedule. Align matching period columns across Assumptions, builds and summaries where practical. When recent actuals help set drivers, include that historical reference on Assumptions in the same period column as the build, followed by the matching forecast periods. Within a continuous schedule, use one shared period header rather than repeating identical date rows above every subsection. Keep it visible when useful; separate tables with different column meanings may need their own headers, and print titles can repeat headers on printed pages.\r\n- Match each period to its own assumptions and data. Roll detail into summaries using the right calculation: sum additive amounts, use the appropriate ending balance for stocks, and calculate ratios or weighted averages from the relevant components. Do not sum monthly percentages or double-count weeks that cross month boundaries.\r\n\r\nFor a monthly summary of daily dates, with `C4` holding the first day of the month and aligned source ranges, use `=SUMIFS(Amount,Date,\">=\"&C$4,Date,\"<\"&EDATE(C$4,1),Item,$A8)`. The next-month exclusive upper bound includes the full last day, including timestamps. Equality to `C$4` is appropriate only when the source already stores that same monthly key.\r\n\r\n### Choosing Formulas and Excel Tools\r\n\r\n- **Totals and products:** use `SUM` over the relevant detail for total rows. Use `PRODUCT` for a result built by multiplying a range of numeric factors, or direct multiplication for a simple two-cell calculation. Use `SUMPRODUCT` for a sum of matching quantity × rate pairs or a weighted calculation. Keep ranges aligned and bounded; do not include both subtotals and their detail. Check required factors first: `PRODUCT` ignores blank/text cells in a referenced range, which can make missing inputs look like a valid result.\r\n- **Conditional counts, sums and averages:** prefer `COUNTIFS`, `SUMIFS` and `AVERAGEIFS` for new formulas, even with one criterion, so another condition can be added consistently. Avoid choosing `COUNTIF`, `SUMIF` or `AVERAGEIF` for new work by default; preserve a valid existing/template convention during a narrow edit. This preference does not prohibit an ordinary `IF` condition.\r\n- **Lookups:** `INDEX/MATCH`, `VLOOKUP` and `XLOOKUP` are all useful. Follow the user's preference and the workbook's established approach where it works. Make exact versus approximate matching intentional, handle missing keys explicitly and confirm whether duplicate keys should be rejected, matched once or aggregated. Do not substitute a first-match lookup for a required sum.\r\n- **Conditional logic:** use a short `IF` for a simple choice. Nested `IF` formulas are appropriate when they express necessary, understandable logic, including advanced Finance calculations. For a long list of categories or editable rules, prefer a mapping table or labeled steps. Preserve rule order, boundaries, gaps and the unmatched case; do not replace useful business logic merely to reduce nesting.\r\n- **Formula choices to avoid:** do not introduce `LET`, array/spill formulas, `MAP`, `REDUCE` or `LAMBDA`. Use familiar formulas and labeled intermediate steps. Normal range arguments in functions such as `SUMIFS` and `SUMPRODUCT` remain appropriate, as do the lookup, `INDIRECT`, `OFFSET` and `CHOOSE` patterns below. Preserve required existing/template behavior and do not rewrite unrelated formulas during a narrow edit. Formula length alone is not the test: the reader must be able to understand and extend the calculation.\r\n- **Sensitivity analysis:** use a native What-If Data Table only for an explicitly requested native sensitivity analysis or required existing/template behavior, when supported. Do not introduce `TABLE` into an ordinary forecast or case comparison, or manufacture a second varying input with a metric selector. Excel supports one or two varying inputs; the current Artifact Tool supports only two-variable tables, with both input cells on the table’s worksheet. Read [Data Tables](artifact_tool_docs/DATA_TABLES.md) before creating one. Two inputs test one output across their combinations; use separate tables for additional outputs. If the requested native design is unsupported, explain the limitation before agreeing on a formula-based design or change-input/recalculate/restore process. Label captured results and their refresh method. Ordinary case comparisons follow the single-build and comparison boundary above.\r\n\r\nAn Excel Table, PivotTable and What-If Data Table are different features. Check the chosen tool and destination's support. If a requested native feature cannot be created or preserved, explain the limitation before substituting a formula or static result. Keep API setup and feature-specific execution details in the relevant tool reference.\r\n\r\n### Scalable Formulas and Brief Explanations\r\n\r\nUse the patterns below when they make recurring updates easier without hiding the calculation. Choose the simplest approach that supports the actual update workflow, not just the current snapshot.\r\n- **Assumption and Case selection:** prefer one numeric Case selector with labeled case names and `CHOOSE` or `OFFSET` to select the active assumptions. `INDEX/MATCH` or `XLOOKUP` remain valid when they fit the layout. In each driver group, put Active Selection above its case inputs, sharing the same period header. For example, with Case in B3 and two case values in I22:I23, active I21 can be `=CHOOSE($B$3,I22,I23)`; the matching build input is simply `='Assumptions'!I21`. Anchor and validate the selector. Do not repeat the choice in the build or maintain a second editable copy of the drivers. The simple CHOOSE example assumes validated numeric case inputs. Otherwise, test the selected source value before a reference can turn a blank into zero. Preserve a valid zero. A missing unselected case must not block the active case. In an agreed comparison, mark only the affected case and dependent deltas unavailable. Keep necessary validation local to the driver and reuse it. OFFSET and INDIRECT are volatile, so keep references bounded and consider recalculation cost.\r\n- **New monthly source tabs:** if the workflow receives a separate tab in the same format each month, a visible month-to-tab registry and bounded `INDIRECT` references can support new periods without rewriting the reference pattern. Register the new tab and extend the summary periods or bounded ranges when needed. Validate the expected layout, tab names and source coverage; quote and escape sheet names correctly. For a new workflow without that constraint, one source table with a Month column may be simpler.\r\n- **Explain recurring updates:** when a less familiar formula materially improves the workbook, add a short explanation near its control or in the existing guide: why it helps, what the user can change and how to extend it safely. For example: “Add the new month tab in the same layout and register its name in Setup. Extend the summary period and ranges if needed; the formulas keep the same reference pattern.” Keep this brief; do not add comments to every formula or create a new instruction tab for one note.\r\n\r\n### Missing Inputs, Errors and Overrides\r\n\r\n- Do not invent missing source data or substitute a different metric. If required data is absent, leave the result unavailable and state the specific missing input beside its data or setting and briefly in the response. For a rate, preserve the requested numerator, denominator, population and period; do not substitute another available denominator.\r\n- Distinguish a real zero from missing data, an unavailable result and something that is not applicable. Use `\"n.a.\"`, a deliberate `\"\"` blank, or an exposed error according to the user's preference and the calculation's meaning. Right-align `n.a.` and similar placeholders when they sit among numeric results; do not turn them into numeric zero for appearance.\r\n- `IFERROR` can be useful for a deliberate, understood fallback, but must not hide unexpected failures. Prefer testing the expected condition directly, or `IFNA`/a lookup's not-found result when only a missing match is expected. Do not blanket-wrap formulas in `IFERROR(...,0)` or `IFERROR(...,\"\")` to make broken references and bad inputs disappear. Text `\"n.a.\"` and the `#N/A` error are different; choose intentionally and ensure downstream formulas handle the result correctly.\r\n- Guards such as `ISNUMBER` must not turn a failed prerequisite into a healthy zero or an understated issue count. Keep unexpected failures visible in the affected results, even when an intermediate formula returns text or a blank instead of an error.\r\n- Handle necessary validation in the input/build that owns it, affecting only the relevant outputs. A SUMIFS result of zero does not prove matching records exist; retain a source-coverage test when no match must remain blank or unavailable. Keep the issue visible without spreading the same long guard through every summary formula or pulling a global status from Checks/Audit.\r\n- A matched lookup key does not prove its value is populated. Check required source values before a lookup or reference can turn a blank into zero; preserve a permitted numeric zero.\r\n- Add manual overrides only when the task, template or established workflow needs them. Otherwise, calculate directly from the relevant drivers; do not add an optional override row to every result.\r\n- Preserve deliberate zero overrides, blanks, one-off adjustments and rounding. A blank optional override may mean “use the base”; a zero override may mean “use zero.” Do not treat those as the same condition.\r\n\r\n### Circular References and Iterative Calculation\r\n\r\nAvoid unintended circular references. Use intentional circular logic only when the requested model needs it and the selected tool and target engine support it. Document the loop and its purpose; preserve or deliberately configure iteration, maximum iterations and maximum change. Verify convergence after representative input changes and save/reopen. Do not silently enable iteration, change application-wide settings, or treat cached values, a successful export or an error-free scan as proof. If calculation or setting preservation cannot be verified, report the limitation and use a verified workflow or a mathematically equivalent non-circular approach within scope. Keep Checks/Audit outside the loop.\r\n\r\nAn explicit/template case-capture workflow may use a self-retaining `IF` in an output area to store a selected case's result while the same model calculates the other cases. This is a snapshot, not a live recalculation of every case; assumptions and business calculations must not depend on it. Define initialization and capture/refresh steps, show the captured case and stale-state warning, and verify each case is captured and retained correctly in the intended engine. Convergence alone does not prove capture correctness. Do not introduce this pattern as a default scenario comparison.\r\n\r\nPresent case results as a compact `Case comparison`, with each case named above comparable metric rows and period columns. Keep capture/refresh instructions secondary and label saved snapshots clearly; a new label or layout does not make them live.\r\n\r\n### Formula Examples\r\n\r\nThese examples assume the inputs, ranges and units described. Named ranges stand for labeled source ranges, not a requirement to add names. Preserve the task's missing-data policy and material rounding.\r\n\r\n| Example | Do | Don't |\r\n| --- | --- | --- |\r\n| F1. Reuse an editable assumption | With one fixed conversion rate in B3, use `=C8*$B$3`. With a different rate in each period of row 3, use `=C8*C$3` and fill across. | Hardcode the rate in every formula, or let a shared rate drift to a neighboring cell when copied. |\r\n| F2. Show a build on one worksheet | Put Requests in B10 and Minutes per request in B9; calculate Work minutes in B8 as `=PRODUCT(B9:B10)`. With positive Available minutes per person in B7, put People needed in B6 as `=B8/B7`, with required whole-person rounding. All factors must be present and numeric. | Hide input retrieval, unit conversion and staffing logic inside one unexplained output, or treat a missing factor as zero workload. |\r\n| F3. Reuse the matching subtotal | If B12 is the eligible-volume subtotal for the required period, calculate `=B12*$B$3`. | Re-sum the detail in every output, or reuse a subtotal with different eligibility, units, period or rounding. |\r\n| F4. Link a period rollforward | Link this month's Beginning inventory to the prior month's Ending inventory; calculate Ending as Beginning + Receipts − Usage. | Rebuild cumulative history from the first month in every period when the prior ending balance already represents the same quantity. |\r\n| F5. Resolve a shared lookup once | With unique validated keys and matched ranges, put the rate in D8 with `=INDEX('Rates'!$C$5:$C$12,MATCH($A8,'Rates'!$A$5:$A$12,0))`; reuse D8 for that same rate. An established VLOOKUP or XLOOKUP pattern is also valid. | Repeat the same lookup in each output, silently select an ambiguous duplicate, or add a helper for an already simple one-use expression. |\r\n| F6. Replace a long category decision tree | Keep the category-to-owner mapping in a table; with unique keys, use `=XLOOKUP($A8,Categories,Owners,\"Unmapped\",0)`. | Repeat a long category `IF` chain in every row, or remove necessary conditional model logic merely because it uses nested IFs. |\r\n| F7. Preserve rule boundaries | For supplied bands `0 ≤ x < 100`, `100 ≤ x < 500`, and `x ≥ 500`, preserve those boundaries and test the thresholds and values on either side. | Turn `<100` into `≤100`, reorder overlapping tests, fill an intentional gap or invent a default category. |\r\n| F8. Guard the expected exception | With validated numeric B8 and C8 and a not-applicable policy for a zero denominator, use `=IF(C8=0,\"n.a.\",B8/C8)`. A deliberate blank may be appropriate under a different display policy. | Use `IFERROR(...,0)` so missing data or a broken reference appears to be a real zero rate. |\r\n| F9. Preserve a zero override | With base B8 and validated optional override C8, use `=IF(C8=\"\",B8,C8)`. | Use `=IF(C8=0,B8,C8)` and erase a valid zero override, or overwrite the base to apply an adjustment. |\r\n| F10. Fill using shared headers and labels | Use `=SUMIFS(Amount,Month,C$4,Item,$A8)` for matching monthly keys. Row 4 supplies periods across the table; column A supplies items down it. Use the date-bounds pattern above for daily source dates. | Repeat the same date header in every subsection, hardcode January across the year, or assume differently ordered source tabs have matching row positions. |\r\n| F11. Choose the aggregate that matches the math | Use `=SUM(C8:C11)` for a total, `=PRODUCT(C8:C10)` for three required numeric factors, or `=SUMPRODUCT(B8:B11,C8:C11)` for matching quantity × rate pairs. Use SUMIFS for an ordinary conditional sum. | Replace these with a custom array pipeline, double-count subtotal rows, or let PRODUCT silently skip a missing required factor. |\r\n| F12. Keep checks independent and one-way | If a Checks tab is warranted, compare the build with an independent source control there, such as `='Build'!E14-'Source'!D20`. | Use `='Checks'!C8` in a build, summary or output gate, compare a total with itself, or treat a cached PASS as a newly executed check. |\r\n| F13. Show progression within a build | For A13's capacity plan, use numeric Runs in C8 and kWh per run in D8 to calculate Energy needed in E8 as `=C8*D8`. With positive Available kWh in F8 for the same period, calculate Capacity share in G8 as `=E8/F8`. | Label a linked copy “Build,” hide all factors in one long formula, or add relay tabs without useful work. |\r\n| F14. Share a result across useful views | For A14's distinct output views, let both read the owning result, such as `='Build'!E14`, and present the detail their readers need. | Recompute the same result in every output, or copy the same table into several tabs without a distinct reader or workflow need. |\r\n\r\n\r\n## Writing Quality and Authored Content\r\nApply these defaults to text you write, including titles, labels and messages returned by formulas. User instructions and preferences, reference/template conventions and domain guidance take precedence, in that order. For edits, do not change unrelated content outside of the user's request and follow the workbook’s existing writing style.\r\n\r\n- Write for the intended audience. Never include internal file paths, authoring commentary, planning notes, or requester instructions in the artifact unless explicitly requested. Do not repeat audience or style directives such as “executive-friendly” in headings, content, or comments.\r\n  - Omit: `Discussion support only. This workbook does not make final rating or promotion decisions.` just because the user asked for a workbook for discussion.\r\n  - Omit: `Supports discussion and consistency checks. Human reviewers remain responsible.` unless that limitation is explicitly required.\r\n\r\n- Include text only when it helps the reader understand the data or use the workbook. Keep clear text unchanged. Rewrite useful text that is unclear. Delete unnecessary text instead of replacing it with a cleaner version of the same filler.\r\n\r\n- Use concise, plain-language titles and labels. Name the specific subject, issue or action and avoid internal jargon and vague status labels. Preserve what each label measures, including the population, period, units, comparison, and uncertainty. Do not shorten a label by removing a distinction the reader needs.\r\n  - Good: `Weekly metrics`. Bad: `Follow the weekly trends`\r\n  - Use `Metric` for a general metric column and `Revenue driver` for a revenue assumption explanation. Avoid invented labels such as `Planning measure`, `Movement explanation` or `Planning basis`. Retain specific labels when they add necessary meaning.\r\n  - Bad: `Requisition blockers`. Good: `Hiring requests awaiting approval` when approval is the issue.\r\n  - Bad: `Two-band rating movement`. Choose a descriptive, clear phrase that represents the underlying event, e.g.:\r\n    - Promotion: `Promoted by two job levels`\r\n    - Rating change: `Performance rating increased by two levels`\r\n  - Good: `Monthly results`. Bad: `Decision-ready monthly impact analysis`\r\n  - Good: `Income and household assumptions`. Bad: `Same paycheck. Different purchasing power.`\r\n  - Use `Retained employees` only for employees who remained over a defined period. Otherwise, name the population counted, such as `Total employees` or `Employees reviewed`.\r\n\r\n- Avoid decorative bullets, icons, emoji, arrows and pipe-delimited titles. Omit filler suffixes; keep terms such as `review`, `analysis` or `dashboard` when they identify the content.\r\n  - Bad: `$ in USD • monthly • forecast`\r\n  - Good: `Monthly forecast (USD)`\r\n\r\n- Prefer direct, specific human wording. Avoid slogans, buzzwords, invented terminology, vague framing and formulaic claims.\r\n  - Good (when supported by the data): `Most revenue growth comes from data centers.` Bad: `Data centers are doing the heavy lifting.`\r\n  - Good: `Contributions decreased`. Bad: `Contributions waned`\r\n  - Good: `Revenue metrics`. Bad: `Strategic Value Drivers`\r\n  - Bad formulaic phrasing: `The tool not only saves time, but also transforms how teams collaborate.` or `Faster, smarter, and more intuitive.`\r\n  - Bad: `While remote work offers flexibility, it also presents unique challenges.` (synthetic balance without a real tradeoff)\r\n  - Bad: `Operating evidence improved`. Operating evidence is unclear and not a common term used.\r\n\r\n- Avoid AI-like sentence constructions. Use direct sentences with clear meaning and avoid vague explanations and forced contrasts. Prefer periods between sentences. Do not use semicolons, pipes, bullets, or dashes to assemble several labels into a slogan.\r\n  - Semicolons and vague explanations: Use `Travel demand and employment fell from Jan to Feb.`, not `Travel demand and employment fell from Jan to Feb; persistent behavior shifts are shaping the path back.`.\r\n  - Passive voice when active is clearer e.g. Use `The team approved the proposal.` not `The proposal was approved by the team.`\r\n  - Contrast slogans like `It’s not X, it’s Y`: For a title, use `Humidity exposure over time` not `Humidity is an exposure trajectory, not a setpoint.`\r\n  - Unnecessary em-dashes: Bad: `Purpose: isolate what changed – and what deliberately stayed in place – under Osaka Prefecture’s Red Stage emergency response.`\r\n\r\n- Keep wording factual, parseable and supported by the workbook.\r\n  - Good: `Transit use is 79% of pre-pandemic levels.`\r\n  - Bad: `79% Transit use back to pre-pandemic`\r\n\r\n- Omit repeated information, obvious purpose statements and generic disclaimers. Subtitles are optional. State critical definitions and material assumptions once beside the relevant data or setting. Preserve task-required limits and warnings, such as a review supporting discussion rather than making final personnel decisions.\r\n\r\n- Do not include motivational wording or self-assessment. Omit decorative badges and self-evaluation banners. Preserve task-required business statuses, risk flags, uncertainty labels and specific warnings as ordinary data. Do not invent scoring systems or confidence scales merely to decorate the workbook.\r\n  - Omit: `This workbook is source-backed and ready for review`.\r\n\r\n- For checks and logic, be specific:\r\n  - Bad: `Signal integrity: BLOCKED`. Good: `Missing input: forecast rate` (a specific functional warning)\r\n\r\n- For a requested workflow, provide an obvious editable field for required human input, separate from original source notes. Short calculated statuses or actions should reflect all required prerequisites. Do not imply completion while another required action is still open.\r\n\r\n\r\n## Workflows\r\nRequired:\r\n- `workflows/edit_workflows.md` for existing files/follow-ups.\r\n- `workflows/create_workflows.md` for new files\r\n\r\n## Resources\r\nRead the following BEFORE starting the task:\r\n\r\nRequired:\r\n- `artifact_tool_docs/API_QUICK_START.md` for `artifact_tool` JS API documentation. Read entirely.\r\n- `style_guidelines.md` for formatting.\r\n\r\nAs applicable:\r\n- `references/template-elicitation.md`: if user has not provided a template, reference, or visual direction.\r\n- `references/image-references.md`: if a reference image or screenshot is provided.\r\n- `references/read_only_qna.md`: for Q&/audits\r\n- `features/charts.md`: for creating or editing charts.\r\n\r\n<a id=\"domain-requirements\"></a>\r\n\r\n## Role and Domain Guidance\r\nBefore authoring, identify the user's **task/function**, **role**, **audience** and **industry** separately, then read the relevant guides below. Apply the professional conventions of the work being done; a role or industry label alone does not determine the workbook's structure or formatting.\r\n- Use function guidance for the work being done. Financial forecasts, budgets, cash models and valuations use Finance guidance in any industry.\r\n- Add industry requirements only when they affect definitions, units, source handling or the workflow. A healthcare company's financial forecast uses Finance guidance; an appointment tracker does not inherit financial-model structure or colors.\r\n- Use the user's role and audience to choose useful detail, terminology and outputs, and to resolve ambiguity in the task. Do not apply Finance conventions to an unrelated task just because the user works in Finance. Explicit instructions and templates retain precedence; relevant domain conventions override generic defaults.\r\n\r\nGuides:\r\n- Finance, corporate finance and FP&A, financial modeling, valuation and investment banking: `domain_guidance/financial_models.md`. Read the relevant financial requirements below the shared structure, formula and style rules.\r\n- Healthcare: `domain_guidance/healthcare.md`\r\n- Marketing and advertising: `domain_guidance/marketing_advertising.md`\r\n- Scientific research: `domain_guidance/scientific_research.md`\r\n\r\n## Create and Edits\r\nFor any task that requires modifying or creating a workbook:\r\n\r\n### Data Formatting Rules\r\n- Store numbers, percentages, currency, and dates as typed spreadsheet values, not preformatted strings. Use text only for true identifiers such as ZIP codes, account IDs, SKUs, or labels.\r\n- Use Excel-invariant number/date format codes, not locale-specific display strings. Generic numeric examples include `#,##0`, `#,##0.0`, `0.0%`, `0.00%`, `\"$\"#,##0`, `\"$\"#,##0.00`. Preserve source dates and unrelated existing formats.\r\n- Percentages: Follow the domain or reference's precision. Otherwise, use 1 decimal for most analytical cells, 0 decimals for dashboard outputs, and 2 decimals where small rate differences matter.\r\n- Do not swap `.` and `,` in format codes to mimic locale separators; separators are controlled by spreadsheet/render locale. Use `0.0%`, not `0,0%`, and `#,##0`, not `#.##0`.\r\n- Choose the appropriate format for readability. Match precision to meaning: counts use `#,##0`; rates usually use `0.0%` or `0.00%`; currency uses whole units unless cents matter.\r\n\r\n- For dates in data columns, default to a short date format appropriate to the workbook's language/location, such as `mm/dd/yy` for the US. Follow explicit user preferences and reference/template or domain conventions.\r\n\r\nKeep underlying dates numeric and sortable. A display format does not change the period represented or authorize aggregation. Fit the final display so dates do not truncate or show `####`.\r\n\r\n### Verification Rules\r\nUse Artifact Tool to verify requested features and results within the authorized changes and their affected dependencies. Match coverage to the scope, complexity and risk. Report unrelated pre-existing defects without repairing them. Reuse checks for unchanged content and keep authoring-only tests out of the delivered workbook.\r\n\r\nAfter completing all edits, call `workbook.recalculate()` once before the final checks below and export. If you make further edits, recalculate again before repeating affected checks and exporting.\r\n```js\r\nworkbook.recalculate();\r\n```\r\n\r\n1. Inspect labels, values and formulas in key ranges:\r\n```js\r\nconst check = await workbook.inspect({\r\n  kind: \"table\",\r\n  range: \"Dashboard!A1:H20\",\r\n  include: \"values,formulas\",\r\n  tableMaxRows: 20,\r\n  tableMaxCols: 12,\r\n});\r\nconsole.log(check.ndjson);\r\n```\r\n\r\nCheck what each source row represents, units, reporting periods, and numerators and denominators for rates. Spot-check representative metrics against source data or an independent calculation. Trace headline results through the build to inputs, including named and dynamic references. Confirm the build does useful calculations and does not depend on terminal Checks/Audit. When cases are used, trace each period to its active assumptions. Summary should link to finished results without repeating the build or routing results through Assumptions. An actuals-only historical calibration reference is allowed.\r\n\r\nCheck formula copying across and down at first, middle and later rows/periods. When the workflow promises extensions, test the next record, period or requested case. Keep notes and overrides tied to stable record IDs after supported sorts or refreshes. Reconcile key totals to independent source controls using the right period aggregation. Apply tolerances appropriate to the units and precision, but compare identifiers, counts and categories exactly. Investigate double-counting or conflicting data and fix confirmed errors within scope.\r\n\r\n2. Scan formula errors:\r\n```js\r\nconst errors = await workbook.inspect({\r\n  kind: \"match\",\r\n  searchTerm: \"#REF!|#DIV/0!|#VALUE!|#NAME\\\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!\",\r\n  options: { useRegex: true, maxResults: 300 },\r\n  summary: \"final formula error scan\",\r\n});\r\nconsole.log(errors.ndjson);\r\n```\r\n\r\nCheck wrong or shifted references and unintended cycles as well as reported errors. Distinguish deliberate missing-data markers from unexpected failures. Trace unavailable results and zero issue counts through their prerequisites: a failed detail calculation must not disappear into a healthy zero or an understated summary.\r\n\r\n3. Verify applicable recalculation in the intended engine. Test representative input changes and boundaries in a disposable copy or restore every temporary edit before delivery. Include blank versus zero, missing/duplicate keys, period cutoffs, overrides and rounding. For cases, change the selector and a later-period driver. Confirm the same build and linked outputs update while actuals remain unchanged. A blank unselected input must not block a valid active case; selecting that case must expose the missing input. Verify any agreed comparison refresh and stale-state behavior separately. Report any engine checks that could not be performed.\r\n\r\nFor workflows, check that required human inputs have editable fields and that completion guidance accounts for every prerequisite. Complete one prerequisite while leaving another open and confirm the remaining action stays visible. For input-driven rankings and action lists, change an input that should alter the order or included records and verify the list updates. Verify affected charts, status text, validation and conditional formatting react to edits. A saved value, static matrix or unchanged PASS cell is not recalculation proof.\r\n\r\n4. Render sheets/ranges to verify visual output. Skip only when the rendered view and its data/formula dependencies are unchanged:\r\n```js\r\nconst blob = await workbook.render({ sheetName: \"Sheet1\", range: \"A1:H20\", scale: 2 });\r\n```\r\nFor creation or broad authorized restructuring, visually review every sheet. For a narrow edit, review the changed view and affected dependencies, then compare all tabs with the source for unintended value, formula, object, validation or style changes. Do not repeatedly render unchanged tabs; investigate any scope-preservation failure.\r\n\r\nInspect at normal zoom with cells unselected. Fix blank/broken charts, low-contrast text, unreadable fonts, clipped headers/numbers, `####`, awkward wrapping, truncated chart labels, default blank sheets and content outside the working area. Check effective cell/chart fonts, fitted row heights and widths, pane boundaries and conditional-format ranges. Logical titles and labels should appear once with a clear layout. Valid check values should stay neutral, with errors and missing inputs visibly distinct. Do not shrink content to force a fit.\r\n\r\nKeep output compact: avoid arbitrary formula-count checks, assumptions about file storage and huge NDJSON dumps.\r\n\r\n5. Export:\r\n```js\r\nawait fs.mkdir(outputDir, { recursive: true });\r\nconst output = await SpreadsheetFile.exportXlsx(workbook);\r\nawait output.save(`${outputDir}/output.xlsx`);\r\n```\r\n\r\n6. Inspect the saved file when an affected feature or export concern requires it. Verify requested or preserved native features in the intended engine, including any explicitly required Data Table input/output behavior. Check iteration and capture behavior separately when used.\r\n\r\nFinalize only after successful export and the applicable checks. Report what was performed and any remaining limitations. Formula text, a preview and a successful export do not establish native-application behavior.\r\n- Do not export extra `.xlsx` variants unless asked.\r\n\r\n### Citation Requirements\r\nThese are defaults for new workbooks: user instructions, reference/template conventions and domain guidance take precedence. For edits, follow the workbook’s existing citation practices.\r\n- Cite real sources when they exist.\r\n- Keep citations and sources in one place: an existing input tab (sources or data tab) or in the correct input section in a tab, alongside the input data.\r\n- There are two ways to cite a source: \r\n  1. (Preferred) Inline in the input tab when the tab exists.\r\n    - If there are multiple unique sources (different pages/lines don't count), inline them in an adjacent cell at the table's end, with one column as a buffer, when a table exists\r\n    - If there is a single source, just have a single cell above the data, left aligned.\r\n  2. (Fallback) Cell note, not a comment/thread, with the citation\r\n    Only do this for hardcoded inputs not on a separate input tab, such as an input area on a build sheet. For adjacent cells in the same row or column that come from the same source, do not add duplicate cell notes. Never add citation notes to titles or headers.\r\n- If there is no clear place for sources, return sources in chat. Do not add a tab just for citations.\r\n- Citation format should follow best practice for domain, default to `(Source: Company 10-K, FY2026, Page 20, Revenue Note, [URL LINK])`\r\n- Do not add citations, comments or notes to cover/presentation tabs or output regions unless requested. On a mixed-use sheet, citations may sit beside the input data, outside the output region.\r\n- When comments are requested, keep them succinct, minimal and easy to read.\r\n- Do not add a different annotation type to a cell that already has one. Update an existing note/comment/thread rather than layering another system over it.\r\n- Do not add cell comments unless the user requests them. Preserve existing annotations.\r\n\r\n## Completion Criteria\r\n### Criteria for Question / Read only requests\r\n- Answer from the available workbook context. Do not edit or overwrite unless the user asks for a workbook change.\r\n\r\n### Criteria for all create and edit requests\r\nComplete only when:\r\n- Content is populated, addresses the user's request, and formulas compute, with no obvious formula errors in key scanned ranges (including bad-reference, off-by-one or circular errors).\r\n- `.xlsx` saved to `outputs/<unique_thread_id>/`.\r\n- Visual verification passes: organized, legible layout matches requested style or default/existing edit baseline; all important numbers/callouts are visible; numbers, text, charts and content are unclipped without awkward wrapping.\r\n- Required controls, charts, panes and requested features exist.\r\n\r\n## Error Recovery\r\nOn first tool or API error:\r\n1. Read error text.\r\n2. Consult the selected workflow's targeted help or schema discovery only if needed.\r\n3. Retry with minimal patch (not full rewrite).\r\n4. Continue from existing workbook state.\r\n\r\nDo not loop indefinitely on similar failures.\r\n\r\n## Final response\r\n\r\n### Final response citations\r\n\r\nPlace :codex-file-citation{...} inline in prose without wrapping it in backticks or a code block, not in a trailing list. Use `purpose=\"source\"` for Q&A/no-op and `purpose=\"output\"` for create/edit.\r\n\r\n- [HARD REQUIREMENT] Create/edit: cite each final workbook exactly once with a plain output citation. Summarize representative changes; do not cite every sheet/range or add a separate filename, path, or Markdown link. Example: `Created :codex-file-citation{path=\"/abs/path/inventory.xlsx\" purpose=\"output\"} with formula-driven status and a summary.`\r\n- Q&A: cite whole-workbook claims plainly; otherwise use the narrowest reliable `sheet` + `range` (the exact cell for a discrete value). Cite discontiguous cells separately. For objects, use `sheet` + exact inspected `object_id`; add `object_kind`/`label` only when useful. Never cite a sheet alone or guess locators.\r\n- Calculations: cite only distinct inputs, drivers, formulas, or results the answer needs.\r\n\r\n:codex-file-citation{path=\"/abs/path/book.xlsx\" purpose=\"source\" artifact_kind=\"workbook\" sheet=\"Revenue Model\" range=\"C27\"}\r\n\r\nNever cite intermediates unless asked.\r\n\r\n### Final response suggested followups\r\n\r\n- After successfully creating, editing, or analyzing an artifact, finish your final response with 3 useful next actions tailored to the artifact and the user's goal. Completing the requested work is not a reason to skip these actions: they help the user continue from the result. Do not perform the actions unless the user chooses one.\r\n- Each action must be a distinct, concrete request the user could send next. Do not repeat completed work or invent filler. Omit the list if the user declines suggestions, the requested work fails, or no genuinely useful next action remains.\r\n- Present each action as an unescaped Markdown list item using this exact syntax: `- :codex-followup[Short action]{prompt=\"Complete request for that action\"}`.\r\n\r\n## Comment Author\r\n- If the authenticated/user profile or env context provides a user display name, use it as the threaded comment display name unless the user requests another name. Default to `User`.\r\n\r\n## Source, PDF, and Attachment Processing\r\n- For attachment references, include only the file/section/table details needed to locate supporting data. Do not paste large PDF excerpts unless requested.\r\n- Bundled Python libraries available in the bundled runtime environment for extraction/analysis include `pandas`, `numpy`, `pypdf`, `python-docx`, and `reportlab`. You may read/extract in separate scripts if needed.\r\n- Bundled JS libraries available for document/PDF work include `docx`, `pdf-lib`, and `pdfjs-dist`.\r\n",
+  "exitCode": 0,
+  "durationMs": 276
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ac2d56f2-c9d9-480a-bd05-99a40eb8f339",
+  "query": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn6view0",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c2b7ffa3-e3f5-434c-adc2-5311b47ed3e4",
+  "query": "site.thoughtspot.com/product spotter AI analyst ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.thoughtspot.com/product spotter AI analyst",
+      "site.docs.thoughtspot.com \"Spotter\" \"alerts\"",
+      "site.ibm.com/docs/en/cognos-analytics \"assistant\" \"forecast\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn7search0",
+      "snippet": "Give everyone an analyst at their fingertips with Spotter. ... Image: ThoughtSpot Agentic Anayitcs Product Interface ... “Our view is that Spotter and AI, these",
+      "title": "Spotter | The most trusted enterprise agent for analytics",
+      "url": "https://www.thoughtspot.com/product/agents/spotter"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn7search1",
+      "snippet": "# Meet Spotter: Your AI Analyst",
+      "title": "Spotter-Your dedicated AI Analyst",
+      "url": "https://www.thoughtspot.com/spotter-embed"
+    },
+    {
+      "type": "text_result",
+      "domain": "developers.thoughtspot.com",
+      "ref_id": "turn7search2",
+      "snippet": "To share a Spotter Analyst with other ThoughtSpot users and groups, or to change or revoke their access, send a `POST` request to the `/api/rest/2.0/ai/agent/analysts/{analyst_identifier}/share`",
+      "title": "Spotter Analyst API",
+      "url": "https://developers.thoughtspot.com/docs/spotter-analyst-api"
+    },
+    {
+      "type": "text_result",
+      "domain": "developers.thoughtspot.com",
+      "ref_id": "turn7search3",
+      "snippet": "When Spotter Analysts are enabled on your ThoughtSpot instance and sidebar is visible in the embedded view, the Analysts panel and dashboard are visible by",
+      "title": "Configure Spotter Analysts",
+      "url": "https://developers.thoughtspot.com/docs/customize-spotter-analysts"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn7search4",
+      "snippet": "Spotter is your personal AI analyst, delivering business-ready insights with enterprise-grade trust. ... Spotter is included with all-new ThoughtSpot Analytics per-user and consumption plans.",
+      "title": "Spotter :: ThoughtSpot Documentation",
+      "url": "https://docs.thoughtspot.com/cloud/26.9.0.cl/spotter"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn7search5",
+      "snippet": "ThoughtSpot emails you a notification of your KPI monitor alerts. ... You must add Spotter to the relevant Slack channel to be able to send",
+      "title": "Monitor Key Performance Indicators in your data :: ThoughtSpot Documentation",
+      "url": "https://docs.thoughtspot.com/cloud/26.9.0.cl/monitor"
+    },
+    {
+      "type": "text_result",
+      "domain": "developers.thoughtspot.com",
+      "ref_id": "turn7search6",
+      "snippet": "# Embed Spotter Analyst ... ThoughtSpot Spotter Analysts are governed AI agents configured with specific data sources, instructions, and starter prompts.",
+      "title": "Embed Spotter Analyst",
+      "url": "https://developers.thoughtspot.com/docs/embed-spotter-analyst"
+    },
+    {
+      "type": "text_result",
+      "domain": "spotter-coaching.thoughtspot.com",
+      "ref_id": "turn7search7",
+      "snippet": "ThoughtSpot ... Point Click AI · Spotter 3 ... Follow this guide to go from a raw data model to a live AI analyst that",
+      "title": "Spotter · Point Click AI",
+      "url": "https://spotter-coaching.thoughtspot.com/actuator/env"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn7search8",
+      "snippet": "Monitor alerts can send alert triggers directly to Slack to ensure better visibility and immediate action within your workflows. ... Image: Spotter alert in Slack",
+      "title": "Untitled :: ThoughtSpot Documentation",
+      "url": "https://docs.thoughtspot.com/cloud/26.9.0.cl/coming-soon-26-7-0-cl"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn7search12",
+      "snippet": "Data --> Spotter Coaching --> Reference Questions ... Answer page > More > Alerts > Create alert",
+      "title": "ThoughtSpot_QA_April_2025_VPAT",
+      "url": "https://docs.thoughtspot.com/cloud/26.6.0.cl/_attachments/ThoughtSpot_QA_April_2025_VPAT.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "tsa-guide.thoughtspot.com",
+      "ref_id": "turn7search9",
+      "snippet": "## Meet Spotter — Your AI Analyst",
+      "title": "ThoughtSpot Analytics — SpotGuide",
+      "url": "https://tsa-guide.thoughtspot.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn7search13",
+      "snippet": "Meet Spotter, your AI analyst ... https://docs.thoughtspot.com/cloud/10.11.0.cl/spotter-why",
+      "title": "Customer Insights Hour | August 28th",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-Customer-Insights-Hour-August-2025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn7search10",
+      "snippet": "Ask questions in plain language and get analyst-grade answers grounded in your client, transaction, and risk data. ... Enterprise AI Trust ensures Spotter meets them.",
+      "title": "Spotter: Agentic Analytics for Financial Services",
+      "url": "https://www.thoughtspot.com/solutions/financial-analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "spotter-coaching.thoughtspot.com",
+      "ref_id": "turn7search11",
+      "snippet": "Spotter instructions · Analyst instructions ... What does this question need that lives outside ThoughtSpot? ... After generating AI Context, ask Spotter to surface its",
+      "title": "Spotter · Point Click AI",
+      "url": "https://spotter-coaching.thoughtspot.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn7search14",
+      "snippet": "- Support for developing datasets in ThoughtSpot Analyst Studio using SQL/Python and connecting them to ThoughtSpot’s AI Analyst Spotter(**Analyst Studio subscription/license required)",
+      "title": "ThoughtSpot-Thoughtspot AI Premium-Services.docx",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-Thoughtspot-AI-Premium-Services.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn7search15",
+      "snippet": "SPOTTERThe AI Analyst for Everyone | Any data, Any question",
+      "title": "ThoughtSpot",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-Customer-Insights-Hour-November-2024.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "go.thoughtspot.com",
+      "ref_id": "turn7search16",
+      "snippet": "- Alerts by Attribute (EA in 10.8) ... - Spotter shortcuts (EA in 10.8)",
+      "title": "Customer Insights Hour | April 24th",
+      "url": "https://go.thoughtspot.com/hubfs/pardot-pages-migraiton/ThoughtSpot-Customer-Insights-Hour-April-2025.pdf?hsLang=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn7search17",
+      "snippet": "Website: http://thoughtspot.com ... It also offers an analytics software product designed for Google's data warehouse service, BigQuery. ... In July 2025, the company launched its",
+      "title": "ThoughtSpot",
+      "url": "https://en.wikipedia.org/wiki/ThoughtSpot"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit18",
+      "snippet": "**ThoughtSpot’s AI Agent, Spotter**. ... Meanwhile, ThoughtSpot’s Spotter is the best that I’ve tried for sharing the insights found, though still not all the way",
+      "title": "Has anyone actually rolled out “talk to your data” to your business stakeholders?",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1rc0arr/has_anyone_actually_rolled_out_talk_to_your_data/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit19",
+      "snippet": "Spotter ... Only a handful of AI companies will pay you if you fail their qualifying assessment.",
+      "title": "Spotter.ai a Scam?",
+      "url": "https://www.reddit.com/r/AiTraining_Annotation/comments/1wweczu/spotterai_a_scam/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit20",
+      "snippet": "Just got a new client and they use Thoughtspot for analytics...anyone have any experience? ... Are there AI tools getting that good now? ... My",
+      "title": "Thoughts on Thoughtspot?",
+      "url": "https://www.reddit.com/r/analytics/comments/1hw55l5/thoughts_on_thoughtspot/"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn7academia21",
+      "snippet": "Title: SPOTTER: Extending Symbolic Planning Operators through Targeted Reinforcement Learning",
+      "title": "SPOTTER: Extending Symbolic Planning Operators through Targeted Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2012.13037"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn7academia22",
+      "snippet": "To address these issues, this work proposes a novel multi-scale dense text spotter for edge AI-based vision system (EdgeSpotter) to achieve accurate and robust industrial",
+      "title": "EdgeSpotter: Multi-Scale Dense Text Spotting for Industrial Panel Monitoring",
+      "url": "https://arxiv.org/abs/2506.07112"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn7academia23",
+      "snippet": "In this paper, we introduce a hybrid SLT approach, Spotter+GPT, that utilizes a sign spotter and a powerful Large Language Model (LLM) to improve SLT",
+      "title": "Using an LLM to Turn Sign Spottings into Spoken Language Sentences",
+      "url": "https://arxiv.org/abs/2403.10434"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit24",
+      "snippet": "Recently starting a new journey with the Thoughtspot BI tool.Management seems to really like the AI-search features where a natural language query can return numbers.",
+      "title": "Any opinions on Thoughtspot's AI-suggested searches?",
+      "url": "https://www.reddit.com/r/analytics/comments/1r58let/any_opinions_on_thoughtspots_aisuggested_searches/"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Documentația consultată arată două lucruri esențiale: răspunsurile AI depind de definiții de date bine pregătite, iar unele funcții cer licențe sau module suplimentare. Voi marca aceste condiții în comparație. Folosesc și skill-ul „Spreadsheets” pentru a livra catalogul într-un Excel filtrabil.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-53cbcbd4-8da6-410c-a7c0-78e79c09afe5",
+  "query": "Cognos analytics assistant forecasting key drivers ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Cognos analytics assistant forecasting key drivers",
+      "SAP Analytics Cloud just ask smart predict planning Joule"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search0",
+      "snippet": "Learn how to use features in SAP Analytics Cloud to enhance planning and analytics processes with AI.## Just Ask ... * Search Your Data for",
+      "title": "AI for Planning and Analytics | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/cd897576c3344475a208c2f7a52f151e.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search1",
+      "snippet": "# SAP Analytics Cloud Help ... Simply ask your question using natural language, and Just Ask will instantly provide answers as simple charts and tables.",
+      "title": "Exploring Your Data with Just Ask | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/95dbe296761940c2bf4e18d54a20f3df.html?locale=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search12",
+      "snippet": "Comparing planning versions such as actuals and forecast for a specific measure in a specified time ... Joule works with data from models that are",
+      "title": "PUBLIC\nDocument Version: 1.0.0 – 2026-05-19\nJoule",
+      "url": "https://help.sap.com/doc/1b82af8383e2443eaa95a034a70beb1b/CLOUD/en-US/c0bb884c3e27438695f4750b547aac77.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search2",
+      "snippet": "# SAP Analytics Cloud Help ... In the case of a classification model, Smart Predict bases the selection looking at the performance indicators Predictive Power",
+      "title": "How does Smart Predict Select the Best Predictive Model? | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/bf9d9c446b1d4c5f89d11da3718a7e36.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search3",
+      "snippet": "Type of predictive models | For Smart Predict - Predictive Planning, i.e. the integration of SAP Analytics Cloud Smart Predict with SAP Analytics Cloud planning",
+      "title": "Understand Restrictions with Predictive Planning | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/1bbf118346bb4059b8bd068b4b91c943.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn8search4",
+      "snippet": "A driver analysis visualization shows you the key drivers or predictors for a target. ... Cognos Analytics picks the right tests for the data.",
+      "title": "Driver analysis visualization in a dashboard",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.0.x?topic=types-driver-analysis"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search5",
+      "snippet": "SAP Analytics Cloud allows you to create planning models and run predictive time series forecasts on your data within a story grid or table. ...",
+      "title": "Prepare Data Sources for Predictive Planning",
+      "url": "https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/d6d29c19ce53475892a015ee211fc4ed.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn8search13",
+      "snippet": "Key driver ... Important: If there are many inputs, IBM Cognos Analytics might find many drivers.",
+      "title": "IBM Cognos Analytics   Version 11.1.0  :   Dashboards and Stories User Guide",
+      "url": "https://www.ibm.com/docs/en/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/ug_ca_dshb.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search6",
+      "snippet": "You can now add comments to the English version of the SAP Analytics Cloud Help to help us improve our documentation. ... Run a readiness",
+      "title": "Check Your Model's Readiness for Just Ask and Joule Analytical Insights | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/121c342e23124efb8295f1bb785b2cc0.html?q=predictive"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search7",
+      "snippet": "Regression | What could be the prediction of a business value, taking into account the context of its occurrence? ... Once you have compared the",
+      "title": "Smart Predict – Using Predictive Scenarios",
+      "url": "https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/37db2128dab44d15b46e1918829c1ff1.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn8search8",
+      "snippet": "Data preparation is critical in IBM® Cognos Analytics with Watson.Only prepared data is entered into analysis for key drivers, decision trees, and relationships that are",
+      "title": "Data preparation",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/11.2.x?topic=analytics-data-preparation"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search9",
+      "snippet": "When working with planning models in SAP Analytics Cloud, you can run predictive time series forecasts on your data within a table. ... A predictive",
+      "title": "Run Predictive Forecasts on Table Cells | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/eb08d57f2d964d0b9b75234e481b1ddf.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn8search10",
+      "snippet": "# Two-way key drivers ... Given a target field, IBM® Cognos Analytics with Watson uses a statistical model for analysis of a pair of other",
+      "title": "Two-way key drivers",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/11.2.x?topic=pada-two-way-key-drivers"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn8search11",
+      "snippet": "Use forecasting in IBM® Cognos Analytics to discover and model trend, seasonality, and time dependence in data.You can forecast in IBM Cognos Analytics by using",
+      "title": "Forecasting",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.1.x?topic=dashboards-forecasting"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn8search14",
+      "snippet": "Your SAP Analytics Cloud user accounts must have Read permission for the Joule privilege to use analytical ... The just ask feature in your SAP",
+      "title": "Integration Guide | PUBLIC",
+      "url": "https://help.sap.com/doc/de3af3c0f81642dbaa4d36172ed57a72/CLOUD/en-US/79bfc83ab386450c8cd9c7937ce26a3a.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c191385a-d694-4231-aae8-9c11874af63f",
+  "query": "Power BI Tableau Qlik reviews pros cons data modeling cost performance ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Power BI Tableau Qlik reviews pros cons data modeling cost performance",
+      "business intelligence finance reporting managers excel reconciliation dashboard",
+      "Power BI finance accounting financial statements matrix drill through"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit12",
+      "snippet": "The monthly reporting process was someone exporting from each system into Excel, spending two days reconciling, and building summary reports. ... Finance now has a",
+      "title": "Automated financial reporting from NetSuite, Stripe, and payroll into one dashboard without writing code",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1srjhq3/automated_financial_reporting_from_netsuite/"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search0",
+      "snippet": "How to create drill through when the values of a matrix is a measure? ... I am working on creating financial statements in PBI. ...",
+      "title": "How to create drill through when the values of a m... - Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/t5/Developer/How-to-create-drill-through-when-the-values-of-a-matrix-is-a/td-p/2817570"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search1",
+      "snippet": "# Right click figures in matrix for line item drill-through from multiple data sources ... Set up drillthrough in Power BI reports",
+      "title": "Right click figures in matrix for line item drill-through from multiple data sources | Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/discussions/power-bi-designer/right-click-figures-in-matrix-for-line-item-drill-through-from-multiple-data-sou/2714071"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search2",
+      "snippet": "I am new to Power BI and try to figure out, how I can get more information when I click on counted values in a",
+      "title": "Not sure what to use - Getting additional information when clicking | Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/discussions/power-bi-designer/not-sure-what-to-use---getting-additional-information-when-clicking/4888255"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search3",
+      "snippet": "* First, create a separate page in your Power BI report that will serve as the drill-through page. ... You can do this by right-clicking",
+      "title": "Drill Through with Measures on the rows - Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/t5/Desktop/Drill-Through-with-Measures-on-the-rows/m-p/3789015"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.g2.com",
+      "ref_id": "turn9search4",
+      "snippet": "# Compare Microsoft Power BI and Qlik Sense ... Pros & Cons ... * According to verified reviews, Qlik Sense provides a solid development environment",
+      "title": "Compare Microsoft Power BI vs. Qlik Sense | G2",
+      "url": "https://www.g2.com/compare/microsoft-microsoft-power-bi-vs-qlik-sense"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search5",
+      "snippet": "it seems you're looking for a ragged hierarchy where drilldown/level expansion stops once there are no more children: ... hcze - Take a look at",
+      "title": "Financial statement | Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/discussions/power-bi-designer/financial-statement/1213869"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search6",
+      "snippet": "Unfortunately, Power BI doesn't support drill-through based on the measure clicked in a matrix.",
+      "title": "Drill through via a matrix of measures without multiple drill through pages | Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/discussions/power-bi-designer/drill-through-via-a-matrix-of-measures-without-multiple-drill-through-pages/4712834/replies/4713914"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search7",
+      "snippet": "Manually entered tables like AccountingTransactions, LedgerMaster, and GroupTable using Power BI’s “Enter Data” feature ... Created a Drilldown Hierarchy in Matrix Visual ... FinancialMeasures =",
+      "title": "Solved: Re: Tally Link to Powerbi - Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/t5/Desktop/Tally-Link-to-Powerbi/m-p/4756149"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search8",
+      "snippet": "This happens because drillthrough in Power BI works primarily based on field values, and your table's columns (FY22, FY23, FY24) are likely measure-based rather than",
+      "title": "drillthrough for YTD &amp; Previous data | Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/discussions/power-bi-designer/drillthrough-for-ytd--previous-data/4621702/replies/4621893"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search9",
+      "snippet": "Is there a way for me to disable drill through on columns of a matrix visual and enable on the rows of a matriz visual",
+      "title": "Solved: Disable Drill through on Columns in a matrix but n... - Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/t5/Desktop/Disable-Drill-through-on-Columns-in-a-matrix-but-not-on-Rows/td-p/2595686"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search10",
+      "snippet": "Yes, you're absolutely right a Matrix visual in Power BI is the perfect way to replicate this kind of expandable structure where users can drill",
+      "title": "Creating a drill down using a matrix? | Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/discussions/power-bi-designer/creating-a-drill-down-using-a-matrix/4728516/replies/4728572"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search11",
+      "snippet": "Financial Statements using MATRIX Visual ... I am trying to visualize a profit and loss statement in a matrix visualization similar to how I do",
+      "title": "Financial Statements using MATRIX Visual - Microsoft Fabric Community",
+      "url": "https://community.fabric.microsoft.com/t5/Desktop/Financial-Statements-using-MATRIX-Visual/m-p/412388"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit13",
+      "snippet": "Since it’s a one-time setup, you can reuse the same script whenever you need to prepare the report. ... You can try continuous close/reporting with",
+      "title": "How to automate monthly financial reporting without a data engineer?",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1skzch0/how_to_automate_monthly_financial_reporting/"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search14",
+      "snippet": "Creating a Calculation group in Power BI Desktop ... A slicer titled “Year, Month Name” lists 2019, 2020, and 2021 with 2021 expanded; months January",
+      "title": "Creating a Calculation group in Power BI Desktop",
+      "url": "https://community.fabric.microsoft.com/oxcrx34285/attachments/oxcrx34285/fbc_comm_blog/3/1/Creating%20a%20Calculation%20group%20in%20Power%20BI%20Desktop.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "community.fabric.microsoft.com",
+      "ref_id": "turn9search15",
+      "snippet": "Small screenshot of Power BI Desktop ribbon and left navigation rail. ... Visualizations pane shows many chart icons and a “Values” well with “Add data",
+      "title": "power-bi fundamentals | Microsoft Learn",
+      "url": "https://community.fabric.microsoft.com/oxcrx34285/attachments/oxcrx34285/power-bi-designer/1394594/1/power-bi-fundamentals.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.trustradius.com",
+      "ref_id": "turn9search16",
+      "snippet": "Once we have enough reviews of Power ... Most compared to | QlikView; Tableau Server; SAP Business Objects ... Power BI is a strong data",
+      "title": "The Buyer’s Guide to",
+      "url": "https://media.trustradius.com/downloads/Xl/lD/business-intelligence-2016-DAELEAWRZE75.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "go.trustradius.com",
+      "ref_id": "turn9search17",
+      "snippet": "| | Overall Satisfaction Rating trScore | Product Metrics # of Reviews | Share of Traffic | Reviewer Company Size Small | Midsize | Entreprise",
+      "title": "The Buyer’s Guide to",
+      "url": "https://go.trustradius.com/rs/827-FOI-687/images/2019_BI_Buyers_Guide_TrustRadius.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit18",
+      "snippet": "for example, my company is in the food industry for a major Australian retailer, and we report Service Level, we do this by reporting missed",
+      "title": "My finance team never leaves Excel, so Power BI sits in the middle both ways",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1wh4dlg/my_finance_team_never_leaves_excel_so_power_bi/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit19",
+      "snippet": "My OpEx PBI and Excel reports are not very intuitive and playing around hasn't really gotten me to a good spot. ... A wider group",
+      "title": "What do your PBI/Excel Dashboards for your business partners look like?",
+      "url": "https://www.reddit.com/r/FPandA/comments/zmcnxs"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn9reddit20",
+      "snippet": "I’ve been obsessed with killing manual Excel reporting lately.I built this Power BI dashboard to turn messy raw data into something stakeholders can understand instantly",
+      "title": "Finally automated my monthly reporting workflow. Looking for feedback on the UX/UI!",
+      "url": "https://www.reddit.com/r/PowerBI/comments/1rgbsdx/finally_automated_my_monthly_reporting_workflow/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-e9b11796-33ae-459b-8f10-15e632db153c",
+  "query": "e factura reconciliere SPV facturi contabilitate probleme ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "e factura reconciliere SPV facturi contabilitate probleme",
+      "FPandA dashboard executives what metrics cash forecast excel manual reporting"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit12",
+      "snippet": "Eu am un PFA și am făcut cheltuieli deductibile cu cursele Bolt, am cont business la ei, însă din mai de când am făcut aceste",
+      "title": "Factura spv Bolt",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1vanpyj/factura_spv_bolt/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit13",
+      "snippet": "Mai am vreo 3 facturi tot asa duplicate, am aflat acum, dar alea au fost inainte de aprilie, inca \"nu conta\", si nu mi-a zis",
+      "title": "eFactura trimis de 2x in SPV, nu stiu de unde",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1gkwukd"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit14",
+      "snippet": "Firma se trezește cu o factura pe care nu o poate justifica, dar tambalaul ii încurcă pe cei de la contabilitate. ... Și dacă companiile",
+      "title": "Situatie stupida",
+      "url": "https://www.reddit.com/r/contabilitate/comments/1u1wrif/situatie_stupida/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit15",
+      "snippet": "Din ce știu nu se pot înregistra facturi dacă nu sunt și la Anaf în e-factură. ... Daca factura e de la firma din Romania,",
+      "title": "solutii incadrare cheltuieli- lipsa facturi uber/bolt in eFactura",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1qwnga5/solutii_incadrare_cheltuieli_lipsa_facturi/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit16",
+      "snippet": "De asemenea vad o potențială integrare in procesul operațional al anumitor firme, existând posibilitatea de a-l folosi in interiorul departamentului de contabilitate (sau al altora)",
+      "title": "O direcție noua pentru FiscalZen: de la termene ANAF la monitorizare SPV/e-Factura",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1txnz15/o_direc%C8%9Bie_noua_pentru_fiscalzen_de_la_termene/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit17",
+      "snippet": "A fost emisa o factura, trimisa catre client, incarcata in SPV / e-factura prin programul de facturare. ... Acum, se pare ca in SPV am",
+      "title": "Factura transmisa de 2 ori prin SPV/e-factura",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1ondcg6"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit18",
+      "snippet": "Facturi fie google docs sau pentru e-factura ofera ANAF un website unde poti genera e-factura. ... Comerțului și a fost foarte ok, apoi la primărie",
+      "title": "Contabilitate PFA",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1spy1b0/contabilitate_pfa/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit19",
+      "snippet": "Eu mi am facut semnatura electronica si am incarcat o acolo in SPV( aveam contul deja pe persoana fizica -nu pfa) de dinainte. ... Stiu",
+      "title": "Inregistrare SPV/eFactura si Semnatura Digitala",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1rli8mu/inregistrare_spvefactura_si_semnatura_digitala/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit20",
+      "snippet": "Am platit cu cardul atasat contului de PFA, am cerut factura, am primit factura, am uitat sa o descarc in termenul de 60 de zile,",
+      "title": "Am uitat sa descarc factura din SPV",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1tjb2fl/am_uitat_sa_descarc_factura_din_spv/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit21",
+      "snippet": "Acum îmi dă mesaj și zice că i-a scris azi contabila lui ca factura de la mine trebuie pusa si in SPV si ea nu",
+      "title": "PFA - problema cu un client",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1drwwe7"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit22",
+      "snippet": "Problema apare atunci când vrei sa sincronizezi aceste facturi cu un program de contabilitate ca Saga, CIEL sau Winmentor, care sunt cele mai cunoscute, iar",
+      "title": "Firma IT specializata in e-Factura",
+      "url": "https://www.reddit.com/r/programare/comments/18lyue9"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn10reddit23",
+      "snippet": "Statusul unei facturi trimise prin RO e-Factura se verifica din SPV, folosind indexul de incarcare primit la trimitere, sau direct din aplicatia de facturare daca",
+      "title": "Cum verifici corect statusul unei facturi trimise prin e-Factura ANAF",
+      "url": "https://www.reddit.com/r/u_Plus_Bedroom_819/comments/1wbekp9/cum_verifici_corect_statusul_unei_facturi_trimise/"
+    },
+    {
+      "type": "text_result",
+      "domain": "hu.reddit.com",
+      "ref_id": "turn10search0",
+      "snippet": "# FPandA ... FP&A tasks such as producing cost center reports, budget and forecast data entry, loading and consolidating budget and forecast into the system,",
+      "title": "Shift to outsourced FP&A : FPandA",
+      "url": "https://hu.reddit.com/r/FPandA/comments/1usrdph/shift_to_outsourced_fpa/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.conta.ro",
+      "ref_id": "turn10search1",
+      "snippet": "# Controale ANAF: ce probleme au descoperit inspectorii la firmele verificate ... In urma inspectiilor fiscale desfasurate la contribuabili persoane juridice si fizice si incheiate",
+      "title": "Controale ANAF: ce probleme au descoperit inspectorii la firmele verificate",
+      "url": "https://www.conta.ro/articol_controale-anaf-ce-probleme-au-descoperit-inspectorii-la-firmele-verificate-8344.html"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6616e26a-823c-4ee4-b497-798ad2a5c1c6",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218\\\\skills\\\\spreadsheets\\\\SKILL.md' | Select-Object -Skip 200\nGet-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218\\\\skills\\\\spreadsheets\\\\references\\\\clarification-questions.md'\nGet-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218\\\\skills\\\\spreadsheets\\\\style_guidelines.md'\"",
+  "cwd": "C:\\Users\\User",
+  "processId": "93057",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\SKILL.md' | Select-Object -Skip 200\nGet-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\references\\clarification-questions.md'\nGet-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\style_guidelines.md'"
+    }
+  ],
+  "aggregatedOutput": "\r\n### Circular References and Iterative Calculation\r\n\r\nAvoid unintended circular references. Use intentional circular logic only when the requested model needs it and the selected tool and target engine support it. Document the loop and its purpose; preserve or deliberately configure iteration, maximum iterations and maximum change. Verify convergence after representative input changes and save/reopen. Do not silently enable iteration, change application-wide settings, or treat cached values, a successful export or an error-free scan as proof. If calculation or setting preservation cannot be verified, report the limitation and use a verified workflow or a mathematically equivalent non-circular approach within scope. Keep Checks/Audit outside the loop.\r\n\r\nAn explicit/template case-capture workflow may use a self-retaining `IF` in an output area to store a selected case's result while the same model calculates the other cases. This is a snapshot, not a live recalculation of every case; assumptions and business calculations must not depend on it. Define initialization and capture/refresh steps, show the captured case and stale-state warning, and verify each case is captured and retained correctly in the intended engine. Convergence alone does not prove capture correctness. Do not introduce this pattern as a default scenario comparison.\r\n\r\nPresent case results as a compact `Case comparison`, with each case named above comparable metric rows and period columns. Keep capture/refresh instructions secondary and label saved snapshots clearly; a new label or layout does not make them live.\r\n\r\n### Formula Examples\r\n\r\nThese examples assume the inputs, ranges and units described. Named ranges stand for labeled source ranges, not a requirement to add names. Preserve the task's missing-data policy and material rounding.\r\n\r\n| Example | Do | Don't |\r\n| --- | --- | --- |\r\n| F1. Reuse an editable assumption | With one fixed conversion rate in B3, use `=C8*$B$3`. With a different rate in each period of row 3, use `=C8*C$3` and fill across. | Hardcode the rate in every formula, or let a shared rate drift to a neighboring cell when copied. |\r\n| F2. Show a build on one worksheet | Put Requests in B10 and Minutes per request in B9; calculate Work minutes in B8 as `=PRODUCT(B9:B10)`. With positive Available minutes per person in B7, put People needed in B6 as `=B8/B7`, with required whole-person rounding. All factors must be present and numeric. | Hide input retrieval, unit conversion and staffing logic inside one unexplained output, or treat a missing factor as zero workload. |\r\n| F3. Reuse the matching subtotal | If B12 is the eligible-volume subtotal for the required period, calculate `=B12*$B$3`. | Re-sum the detail in every output, or reuse a subtotal with different eligibility, units, period or rounding. |\r\n| F4. Link a period rollforward | Link this month's Beginning inventory to the prior month's Ending inventory; calculate Ending as Beginning + Receipts − Usage. | Rebuild cumulative history from the first month in every period when the prior ending balance already represents the same quantity. |\r\n| F5. Resolve a shared lookup once | With unique validated keys and matched ranges, put the rate in D8 with `=INDEX('Rates'!$C$5:$C$12,MATCH($A8,'Rates'!$A$5:$A$12,0))`; reuse D8 for that same rate. An established VLOOKUP or XLOOKUP pattern is also valid. | Repeat the same lookup in each output, silently select an ambiguous duplicate, or add a helper for an already simple one-use expression. |\r\n| F6. Replace a long category decision tree | Keep the category-to-owner mapping in a table; with unique keys, use `=XLOOKUP($A8,Categories,Owners,\"Unmapped\",0)`. | Repeat a long category `IF` chain in every row, or remove necessary conditional model logic merely because it uses nested IFs. |\r\n| F7. Preserve rule boundaries | For supplied bands `0 ≤ x < 100`, `100 ≤ x < 500`, and `x ≥ 500`, preserve those boundaries and test the thresholds and values on either side. | Turn `<100` into `≤100`, reorder overlapping tests, fill an intentional gap or invent a default category. |\r\n| F8. Guard the expected exception | With validated numeric B8 and C8 and a not-applicable policy for a zero denominator, use `=IF(C8=0,\"n.a.\",B8/C8)`. A deliberate blank may be appropriate under a different display policy. | Use `IFERROR(...,0)` so missing data or a broken reference appears to be a real zero rate. |\r\n| F9. Preserve a zero override | With base B8 and validated optional override C8, use `=IF(C8=\"\",B8,C8)`. | Use `=IF(C8=0,B8,C8)` and erase a valid zero override, or overwrite the base to apply an adjustment. |\r\n| F10. Fill using shared headers and labels | Use `=SUMIFS(Amount,Month,C$4,Item,$A8)` for matching monthly keys. Row 4 supplies periods across the table; column A supplies items down it. Use the date-bounds pattern above for daily source dates. | Repeat the same date header in every subsection, hardcode January across the year, or assume differently ordered source tabs have matching row positions. |\r\n| F11. Choose the aggregate that matches the math | Use `=SUM(C8:C11)` for a total, `=PRODUCT(C8:C10)` for three required numeric factors, or `=SUMPRODUCT(B8:B11,C8:C11)` for matching quantity × rate pairs. Use SUMIFS for an ordinary conditional sum. | Replace these with a custom array pipeline, double-count subtotal rows, or let PRODUCT silently skip a missing required factor. |\r\n| F12. Keep checks independent and one-way | If a Checks tab is warranted, compare the build with an independent source control there, such as `='Build'!E14-'Source'!D20`. | Use `='Checks'!C8` in a build, summary or output gate, compare a total with itself, or treat a cached PASS as a newly executed check. |\r\n| F13. Show progression within a build | For A13's capacity plan, use numeric Runs in C8 and kWh per run in D8 to calculate Energy needed in E8 as `=C8*D8`. With positive Available kWh in F8 for the same period, calculate Capacity share in G8 as `=E8/F8`. | Label a linked copy “Build,” hide all factors in one long formula, or add relay tabs without useful work. |\r\n| F14. Share a result across useful views | For A14's distinct output views, let both read the owning result, such as `='Build'!E14`, and present the detail their readers need. | Recompute the same result in every output, or copy the same table into several tabs without a distinct reader or workflow need. |\r\n\r\n\r\n## Writing Quality and Authored Content\r\nApply these defaults to text you write, including titles, labels and messages returned by formulas. User instructions and preferences, reference/template conventions and domain guidance take precedence, in that order. For edits, do not change unrelated content outside of the user's request and follow the workbook’s existing writing style.\r\n\r\n- Write for the intended audience. Never include internal file paths, authoring commentary, planning notes, or requester instructions in the artifact unless explicitly requested. Do not repeat audience or style directives such as “executive-friendly” in headings, content, or comments.\r\n  - Omit: `Discussion support only. This workbook does not make final rating or promotion decisions.` just because the user asked for a workbook for discussion.\r\n  - Omit: `Supports discussion and consistency checks. Human reviewers remain responsible.` unless that limitation is explicitly required.\r\n\r\n- Include text only when it helps the reader understand the data or use the workbook. Keep clear text unchanged. Rewrite useful text that is unclear. Delete unnecessary text instead of replacing it with a cleaner version of the same filler.\r\n\r\n- Use concise, plain-language titles and labels. Name the specific subject, issue or action and avoid internal jargon and vague status labels. Preserve what each label measures, including the population, period, units, comparison, and uncertainty. Do not shorten a label by removing a distinction the reader needs.\r\n  - Good: `Weekly metrics`. Bad: `Follow the weekly trends`\r\n  - Use `Metric` for a general metric column and `Revenue driver` for a revenue assumption explanation. Avoid invented labels such as `Planning measure`, `Movement explanation` or `Planning basis`. Retain specific labels when they add necessary meaning.\r\n  - Bad: `Requisition blockers`. Good: `Hiring requests awaiting approval` when approval is the issue.\r\n  - Bad: `Two-band rating movement`. Choose a descriptive, clear phrase that represents the underlying event, e.g.:\r\n    - Promotion: `Promoted by two job levels`\r\n    - Rating change: `Performance rating increased by two levels`\r\n  - Good: `Monthly results`. Bad: `Decision-ready monthly impact analysis`\r\n  - Good: `Income and household assumptions`. Bad: `Same paycheck. Different purchasing power.`\r\n  - Use `Retained employees` only for employees who remained over a defined period. Otherwise, name the population counted, such as `Total employees` or `Employees reviewed`.\r\n\r\n- Avoid decorative bullets, icons, emoji, arrows and pipe-delimited titles. Omit filler suffixes; keep terms such as `review`, `analysis` or `dashboard` when they identify the content.\r\n  - Bad: `$ in USD • monthly • forecast`\r\n  - Good: `Monthly forecast (USD)`\r\n\r\n- Prefer direct, specific human wording. Avoid slogans, buzzwords, invented terminology, vague framing and formulaic claims.\r\n  - Good (when supported by the data): `Most revenue growth comes from data centers.` Bad: `Data centers are doing the heavy lifting.`\r\n  - Good: `Contributions decreased`. Bad: `Contributions waned`\r\n  - Good: `Revenue metrics`. Bad: `Strategic Value Drivers`\r\n  - Bad formulaic phrasing: `The tool not only saves time, but also transforms how teams collaborate.` or `Faster, smarter, and more intuitive.`\r\n  - Bad: `While remote work offers flexibility, it also presents unique challenges.` (synthetic balance without a real tradeoff)\r\n  - Bad: `Operating evidence improved`. Operating evidence is unclear and not a common term used.\r\n\r\n- Avoid AI-like sentence constructions. Use direct sentences with clear meaning and avoid vague explanations and forced contrasts. Prefer periods between sentences. Do not use semicolons, pipes, bullets, or dashes to assemble several labels into a slogan.\r\n  - Semicolons and vague explanations: Use `Travel demand and employment fell from Jan to Feb.`, not `Travel demand and employment fell from Jan to Feb; persistent behavior shifts are shaping the path back.`.\r\n  - Passive voice when active is clearer e.g. Use `The team approved the proposal.` not `The proposal was approved by the team.`\r\n  - Contrast slogans like `It’s not X, it’s Y`: For a title, use `Humidity exposure over time` not `Humidity is an exposure trajectory, not a setpoint.`\r\n  - Unnecessary em-dashes: Bad: `Purpose: isolate what changed – and what deliberately stayed in place – under Osaka Prefecture’s Red Stage emergency response.`\r\n\r\n- Keep wording factual, parseable and supported by the workbook.\r\n  - Good: `Transit use is 79% of pre-pandemic levels.`\r\n  - Bad: `79% Transit use back to pre-pandemic`\r\n\r\n- Omit repeated information, obvious purpose statements and generic disclaimers. Subtitles are optional. State critical definitions and material assumptions once beside the relevant data or setting. Preserve task-required limits and warnings, such as a review supporting discussion rather than making final personnel decisions.\r\n\r\n- Do not include motivational wording or self-assessment. Omit decorative badges and self-evaluation banners. Preserve task-required business statuses, risk flags, uncertainty labels and specific warnings as ordinary data. Do not invent scoring systems or confidence scales merely to decorate the workbook.\r\n  - Omit: `This workbook is source-backed and ready for review`.\r\n\r\n- For checks and logic, be specific:\r\n  - Bad: `Signal integrity: BLOCKED`. Good: `Missing input: forecast rate` (a specific functional warning)\r\n\r\n- For a requested workflow, provide an obvious editable field for required human input, separate from original source notes. Short calculated statuses or actions should reflect all required prerequisites. Do not imply completion while another required action is still open.\r\n\r\n\r\n## Workflows\r\nRequired:\r\n- `workflows/edit_workflows.md` for existing files/follow-ups.\r\n- `workflows/create_workflows.md` for new files\r\n\r\n## Resources\r\nRead the following BEFORE starting the task:\r\n\r\nRequired:\r\n- `artifact_tool_docs/API_QUICK_START.md` for `artifact_tool` JS API documentation. Read entirely.\r\n- `style_guidelines.md` for formatting.\r\n\r\nAs applicable:\r\n- `references/template-elicitation.md`: if user has not provided a template, reference, or visual direction.\r\n- `references/image-references.md`: if a reference image or screenshot is provided.\r\n- `references/read_only_qna.md`: for Q&/audits\r\n- `features/charts.md`: for creating or editing charts.\r\n\r\n<a id=\"domain-requirements\"></a>\r\n\r\n## Role and Domain Guidance\r\nBefore authoring, identify the user's **task/function**, **role**, **audience** and **industry** separately, then read the relevant guides below. Apply the professional conventions of the work being done; a role or industry label alone does not determine the workbook's structure or formatting.\r\n- Use function guidance for the work being done. Financial forecasts, budgets, cash models and valuations use Finance guidance in any industry.\r\n- Add industry requirements only when they affect definitions, units, source handling or the workflow. A healthcare company's financial forecast uses Finance guidance; an appointment tracker does not inherit financial-model structure or colors.\r\n- Use the user's role and audience to choose useful detail, terminology and outputs, and to resolve ambiguity in the task. Do not apply Finance conventions to an unrelated task just because the user works in Finance. Explicit instructions and templates retain precedence; relevant domain conventions override generic defaults.\r\n\r\nGuides:\r\n- Finance, corporate finance and FP&A, financial modeling, valuation and investment banking: `domain_guidance/financial_models.md`. Read the relevant financial requirements below the shared structure, formula and style rules.\r\n- Healthcare: `domain_guidance/healthcare.md`\r\n- Marketing and advertising: `domain_guidance/marketing_advertising.md`\r\n- Scientific research: `domain_guidance/scientific_research.md`\r\n\r\n## Create and Edits\r\nFor any task that requires modifying or creating a workbook:\r\n\r\n### Data Formatting Rules\r\n- Store numbers, percentages, currency, and dates as typed spreadsheet values, not preformatted strings. Use text only for true identifiers such as ZIP codes, account IDs, SKUs, or labels.\r\n- Use Excel-invariant number/date format codes, not locale-specific display strings. Generic numeric examples include `#,##0`, `#,##0.0`, `0.0%`, `0.00%`, `\"$\"#,##0`, `\"$\"#,##0.00`. Preserve source dates and unrelated existing formats.\r\n- Percentages: Follow the domain or reference's precision. Otherwise, use 1 decimal for most analytical cells, 0 decimals for dashboard outputs, and 2 decimals where small rate differences matter.\r\n- Do not swap `.` and `,` in format codes to mimic locale separators; separators are controlled by spreadsheet/render locale. Use `0.0%`, not `0,0%`, and `#,##0`, not `#.##0`.\r\n- Choose the appropriate format for readability. Match precision to meaning: counts use `#,##0`; rates usually use `0.0%` or `0.00%`; currency uses whole units unless cents matter.\r\n\r\n- For dates in data columns, default to a short date format appropriate to the workbook's language/location, such as `mm/dd/yy` for the US. Follow explicit user preferences and reference/template or domain conventions.\r\n\r\nKeep underlying dates numeric and sortable. A display format does not change the period represented or authorize aggregation. Fit the final display so dates do not truncate or show `####`.\r\n\r\n### Verification Rules\r\nUse Artifact Tool to verify requested features and results within the authorized changes and their affected dependencies. Match coverage to the scope, complexity and risk. Report unrelated pre-existing defects without repairing them. Reuse checks for unchanged content and keep authoring-only tests out of the delivered workbook.\r\n\r\nAfter completing all edits, call `workbook.recalculate()` once before the final checks below and export. If you make further edits, recalculate again before repeating affected checks and exporting.\r\n```js\r\nworkbook.recalculate();\r\n```\r\n\r\n1. Inspect labels, values and formulas in key ranges:\r\n```js\r\nconst check = await workbook.inspect({\r\n  kind: \"table\",\r\n  range: \"Dashboard!A1:H20\",\r\n  include: \"values,formulas\",\r\n  tableMaxRows: 20,\r\n  tableMaxCols: 12,\r\n});\r\nconsole.log(check.ndjson);\r\n```\r\n\r\nCheck what each source row represents, units, reporting periods, and numerators and denominators for rates. Spot-check representative metrics against source data or an independent calculation. Trace headline results through the build to inputs, including named and dynamic references. Confirm the build does useful calculations and does not depend on terminal Checks/Audit. When cases are used, trace each period to its active assumptions. Summary should link to finished results without repeating the build or routing results through Assumptions. An actuals-only historical calibration reference is allowed.\r\n\r\nCheck formula copying across and down at first, middle and later rows/periods. When the workflow promises extensions, test the next record, period or requested case. Keep notes and overrides tied to stable record IDs after supported sorts or refreshes. Reconcile key totals to independent source controls using the right period aggregation. Apply tolerances appropriate to the units and precision, but compare identifiers, counts and categories exactly. Investigate double-counting or conflicting data and fix confirmed errors within scope.\r\n\r\n2. Scan formula errors:\r\n```js\r\nconst errors = await workbook.inspect({\r\n  kind: \"match\",\r\n  searchTerm: \"#REF!|#DIV/0!|#VALUE!|#NAME\\\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!\",\r\n  options: { useRegex: true, maxResults: 300 },\r\n  summary: \"final formula error scan\",\r\n});\r\nconsole.log(errors.ndjson);\r\n```\r\n\r\nCheck wrong or shifted references and unintended cycles as well as reported errors. Distinguish deliberate missing-data markers from unexpected failures. Trace unavailable results and zero issue counts through their prerequisites: a failed detail calculation must not disappear into a healthy zero or an understated summary.\r\n\r\n3. Verify applicable recalculation in the intended engine. Test representative input changes and boundaries in a disposable copy or restore every temporary edit before delivery. Include blank versus zero, missing/duplicate keys, period cutoffs, overrides and rounding. For cases, change the selector and a later-period driver. Confirm the same build and linked outputs update while actuals remain unchanged. A blank unselected input must not block a valid active case; selecting that case must expose the missing input. Verify any agreed comparison refresh and stale-state behavior separately. Report any engine checks that could not be performed.\r\n\r\nFor workflows, check that required human inputs have editable fields and that completion guidance accounts for every prerequisite. Complete one prerequisite while leaving another open and confirm the remaining action stays visible. For input-driven rankings and action lists, change an input that should alter the order or included records and verify the list updates. Verify affected charts, status text, validation and conditional formatting react to edits. A saved value, static matrix or unchanged PASS cell is not recalculation proof.\r\n\r\n4. Render sheets/ranges to verify visual output. Skip only when the rendered view and its data/formula dependencies are unchanged:\r\n```js\r\nconst blob = await workbook.render({ sheetName: \"Sheet1\", range: \"A1:H20\", scale: 2 });\r\n```\r\nFor creation or broad authorized restructuring, visually review every sheet. For a narrow edit, review the changed view and affected dependencies, then compare all tabs with the source for unintended value, formula, object, validation or style changes. Do not repeatedly render unchanged tabs; investigate any scope-preservation failure.\r\n\r\nInspect at normal zoom with cells unselected. Fix blank/broken charts, low-contrast text, unreadable fonts, clipped headers/numbers, `####`, awkward wrapping, truncated chart labels, default blank sheets and content outside the working area. Check effective cell/chart fonts, fitted row heights and widths, pane boundaries and conditional-format ranges. Logical titles and labels should appear once with a clear layout. Valid check values should stay neutral, with errors and missing inputs visibly distinct. Do not shrink content to force a fit.\r\n\r\nKeep output compact: avoid arbitrary formula-count checks, assumptions about file storage and huge NDJSON dumps.\r\n\r\n5. Export:\r\n```js\r\nawait fs.mkdir(outputDir, { recursive: true });\r\nconst output = await SpreadsheetFile.exportXlsx(workbook);\r\nawait output.save(`${outputDir}/output.xlsx`);\r\n```\r\n\r\n6. Inspect the saved file when an affected feature or export concern requires it. Verify requested or preserved native features in the intended engine, including any explicitly required Data Table input/output behavior. Check iteration and capture behavior separately when used.\r\n\r\nFinalize only after successful export and the applicable checks. Report what was performed and any remaining limitations. Formula text, a preview and a successful export do not establish native-application behavior.\r\n- Do not export extra `.xlsx` variants unless asked.\r\n\r\n### Citation Requirements\r\nThese are defaults for new workbooks: user instructions, reference/template conventions and domain guidance take precedence. For edits, follow the workbook’s existing citation practices.\r\n- Cite real sources when they exist.\r\n- Keep citations and sources in one place: an existing input tab (sources or data tab) or in the correct input section in a tab, alongside the input data.\r\n- There are two ways to cite a source: \r\n  1. (Preferred) Inline in the input tab when the tab exists.\r\n    - If there are multiple unique sources (different pages/lines don't count), inline them in an adjacent cell at the table's end, with one column as a buffer, when a table exists\r\n    - If there is a single source, just have a single cell above the data, left aligned.\r\n  2. (Fallback) Cell note, not a comment/thread, with the citation\r\n    Only do this for hardcoded inputs not on a separate input tab, such as an input area on a build sheet. For adjacent cells in the same row or column that come from the same source, do not add duplicate cell notes. Never add citation notes to titles or headers.\r\n- If there is no clear place for sources, return sources in chat. Do not add a tab just for citations.\r\n- Citation format should follow best practice for domain, default to `(Source: Company 10-K, FY2026, Page 20, Revenue Note, [URL LINK])`\r\n- Do not add citations, comments or notes to cover/presentation tabs or output regions unless requested. On a mixed-use sheet, citations may sit beside the input data, outside the output region.\r\n- When comments are requested, keep them succinct, minimal and easy to read.\r\n- Do not add a different annotation type to a cell that already has one. Update an existing note/comment/thread rather than layering another system over it.\r\n- Do not add cell comments unless the user requests them. Preserve existing annotations.\r\n\r\n## Completion Criteria\r\n### Criteria for Question / Read only requests\r\n- Answer from the available workbook context. Do not edit or overwrite unless the user asks for a workbook change.\r\n\r\n### Criteria for all create and edit requests\r\nComplete only when:\r\n- Content is populated, addresses the user's request, and formulas compute, with no obvious formula errors in key scanned ranges (including bad-reference, off-by-one or circular errors).\r\n- `.xlsx` saved to `outputs/<unique_thread_id>/`.\r\n- Visual verification passes: organized, legible layout matches requested style or default/existing edit baseline; all important numbers/callouts are visible; numbers, text, charts and content are unclipped without awkward wrapping.\r\n- Required controls, charts, panes and requested features exist.\r\n\r\n## Error Recovery\r\nOn first tool or API error:\r\n1. Read error text.\r\n2. Consult the selected workflow's targeted help or schema discovery only if needed.\r\n3. Retry with minimal patch (not full rewrite).\r\n4. Continue from existing workbook state.\r\n\r\nDo not loop indefinitely on similar failures.\r\n\r\n## Final response\r\n\r\n### Final response citations\r\n\r\nPlace :codex-file-citation{...} inline in prose without wrapping it in backticks or a code block, not in a trailing list. Use `purpose=\"source\"` for Q&A/no-op and `purpose=\"output\"` for create/edit.\r\n\r\n- [HARD REQUIREMENT] Create/edit: cite each final workbook exactly once with a plain output citation. Summarize representative changes; do not cite every sheet/range or add a separate filename, path, or Markdown link. Example: `Created :codex-file-citation{path=\"/abs/path/inventory.xlsx\" purpose=\"output\"} with formula-driven status and a summary.`\r\n- Q&A: cite whole-workbook claims plainly; otherwise use the narrowest reliable `sheet` + `range` (the exact cell for a discrete value). Cite discontiguous cells separately. For objects, use `sheet` + exact inspected `object_id`; add `object_kind`/`label` only when useful. Never cite a sheet alone or guess locators.\r\n- Calculations: cite only distinct inputs, drivers, formulas, or results the answer needs.\r\n\r\n:codex-file-citation{path=\"/abs/path/book.xlsx\" purpose=\"source\" artifact_kind=\"workbook\" sheet=\"Revenue Model\" range=\"C27\"}\r\n\r\nNever cite intermediates unless asked.\r\n\r\n### Final response suggested followups\r\n\r\n- After successfully creating, editing, or analyzing an artifact, finish your final response with 3 useful next actions tailored to the artifact and the user's goal. Completing the requested work is not a reason to skip these actions: they help the user continue from the result. Do not perform the actions unless the user chooses one.\r\n- Each action must be a distinct, concrete request the user could send next. Do not repeat completed work or invent filler. Omit the list if the user declines suggestions, the requested work fails, or no genuinely useful next action remains.\r\n- Present each action as an unescaped Markdown list item using this exact syntax: `- :codex-followup[Short action]{prompt=\"Complete request for that action\"}`.\r\n\r\n## Comment Author\r\n- If the authenticated/user profile or env context provides a user display name, use it as the threaded comment display name unless the user requests another name. Default to `User`.\r\n\r\n## Source, PDF, and Attachment Processing\r\n- For attachment references, include only the file/section/table details needed to locate supporting data. Do not paste large PDF excerpts unless requested.\r\n- Bundled Python libraries available in the bundled runtime environment for extraction/analysis include `pandas`, `numpy`, `pypdf`, `python-docx`, and `reportlab`. You may read/extract in separate scripts if needed.\r\n- Bundled JS libraries available for document/PDF work include `docx`, `pdf-lib`, and `pdfjs-dist`.\r\n# Clarification questions\r\n\r\nCheck user attachments and references first and reuse answers already given. Review every category below. Ask exactly one question for each unanswered category. A reasonable default or an inferred preference does not count as an answer.\r\n\r\nWithin each category, ask about the missing detail that matters most. Do not combine categories into one question or limit the round to only the highest-priority categories.\r\n\r\n## What to ask\r\n\r\n| Detail | Ask for |\r\n| --- | --- |\r\n| Purpose | What the workbook should help someone do, such as track expenses, compare budgets, forecast demand, or decide where to invest. |\r\n| Audience and use | Who will enter data, maintain the workbook, and read the results. Whether this is a one-time analysis or a tracker they will update regularly. |\r\n| Scope and detail | What to include, such as teams, products, accounts, or projects, and the time period. What each row should represent, such as a transaction, customer, or monthly total. |\r\n| Inputs and calculations | What users will enter and what the workbook should calculate. Any assumptions or business rules, such as tax rates, allocation rules, or forecast drivers. |\r\n| Main metrics | Which numbers matter most and how to define them. Any targets or comparisons, such as actual versus budget or change from last month. |\r\n| Outputs | What users need to see, such as a summary dashboard, detailed records, charts, or a scenario comparison. Which result should be easiest to find. |\r\n| Data sources | Which files, sheets, or connected systems supply the data and which source to trust if they disagree. For recurring workbooks, how new data will arrive. If no data is available, whether to create a blank template or clearly labeled sample data. Ask about citations when needed. |\r\n| Additional coverage | Any required columns, categories, exceptions, or existing layout to preserve. For example, separate currencies, overdue items, or a reporting format the team already uses. |\r\n\r\n## How to ask\r\n\r\nUse `request_user_input_async` to ask questions. Submit all questions together in one `request_user_input_async` call.\r\n\r\nFor structured questions, give the two best options for the task. For each option, include a short rationale/elaboration for the choice in the option's text. Add `Use your judgment` as the third option. Make either the 1st or 2nd option recommended\r\n\r\nFor open-ended question, include examples in the question text to help the user answer, such as \"Is there anything else this should cover, such as a specific example or concern?\" If the tool is unavailable, ask in a message.\r\n\r\nIf the user doesn't provide a template, you may find a template while the user answers. Otherwise, wait at least 90 seconds for a reply. If none arrives, make a reasonable assumption or use a placeholder and disclose it. Never invent data or citations to fill a missing source. Do not stop the turn.\r\n# Style and Formatting Instructions\r\n\r\nFollow user instructions, then intentional templates/references, then domain guidance. Defaults apply only to new sheets or authorized restyling.\r\n\r\nRender before editing. Preserve unrelated content, layout, formatting and native features; values-only edits must not change formatting.\r\n\r\n## Tab Structure Defaults\r\n- Follow [Workbook Structure](SKILL.md#workbook-structure) and [Build Structure and Formula Flow](SKILL.md#build-structure-and-formula-flow). Roles do not require separate tabs: keep simple workbooks basic and apply role styling by section on mixed-use tabs.\r\n- Keep primary outputs and the assumptions control panel easy to find. Use a dark brand-color tab for outputs and one level lighter for Assumptions; standalone Finance Actuals tabs use light tan. Preserve intentional user/reference colors.\r\n- For complex workbooks with several source/internal tabs after the working views, place a divider before that group. Do not add dividers for focused tasks. Choose a plain name that fits the group, such as `Data >>`, `Internal >>` or `Inputs >>`. Color the divider and leave its children uncolored, overriding individual role colors. Give any `ReadMe` tab a distinct muted color, including within a divider group. Leave other tabs uncolored unless color clarifies navigation.\r\n\r\n## Reader-facing sheet layout\r\n\r\nFor new reader-facing sheets or authorized restyling, use a compact, presentation-style opening view: a concise unfilled title, modest whitespace and the main results. Choose a table, chart or both to suit the task. Covers follow the simple front-page guidance in Workbook Structure instead of the layout below.\r\n\r\nFor a filled Cover, start with a bounded area such as `A1:Z100` and adjust it to the intended opening view. Never apply the background to the entire worksheet or whole rows/columns.\r\n\r\n- Use one blank top row, then a concise unfilled left-aligned title, a thin rule and compact spacing before the main content. Include essential context, not a required subtitle or takeaway. Avoid large filled title banners. This presentation default does not add blank rows to raw source tables or override a supplied layout.\r\n- Remove filler. Put useful table commentary in ordinary `Notes` or `Comments` cells to the right, separated by at least one blank spacer column and outside the table header fill and borders. Turn wrapping off. Widen or shorten notes without increasing the table row heights; put longer required explanations in a separate notes area on the same sheet. Keep notes readable and unclipped. Do not add setup/footer blocks. Keep essential units and specific warnings beside the affected result. Follow [Citation Requirements](SKILL.md#citation-requirements) for sources and annotations. These are ordinary cells, not Excel Comments or Notes.\r\n- Add summary/KPI cards only when they clarify the requested decision; do not duplicate a small table or make oversized cards.\r\n- Choose cards, tables and charts for the task; keep useful trends and comparisons rather than defaulting every summary to a table. Use the width of an analytical Summary: place a compact table beside a useful chart and monthly detail below when that fits the content. Do not turn it into a tall page of prose or shrink fonts to force a layout.\r\n\r\n## Use a visually clear layout\r\n- Distinguish headers, inputs, calculations and notes consistently. Default to dark body text and restrained fills, not a universal teal theme. Preserve domain styling defaults, like finance input/formula/source colors and dynamic statuses.\r\n- When cases are used, including outside Finance, show `Case Selected:` and the linked case value (for example, `Base`) prominently near the top of each output and build tab. Center the value horizontally and vertically in a restrained dashed or dotted outline, close to the content. Keep one editable selector and distinguish the active case from actuals and named comparison cases. On Assumptions, put the selector or its linked value and only essential global inputs directly above the driver table. Emphasize each driver's Active Selection row over its case inputs. Include a short case-number key only for numeric selectors. Do not add unused Owner columns or setup sections, and preserve meaningful existing owners.\r\n- Put purely technical helper rows, such as period keys, above the model; italicize and group/collapse them where supported. Keep them inspectable but out of business headers and chart labels. Do not hide useful business calculation steps as helpers.\r\n- On output tabs, use consistent row heights within each table and modest vertical padding. Tighten excessive spacing and reduce oversized heights after autofit while keeping useful breathing room and readability when tables are copied into slides or printed to PDF. Size rows to the font and content; expand only rows needing wrapped table content, not the whole table, and do not shrink fonts to tighten spacing. Exclude off-table commentary from table-row autofit. Input tabs can use smaller, fitted rows; keep working builds compact. Apply these distinctions by section on mixed-use tabs. Format only populated or intentionally reserved ranges.\r\n- Keep working titles, headers and input/calculation areas unmerged. Presentation merges require user/template intent; never overwrite content or combine distinct table columns. In reader-facing tables, center column headers horizontally and vertically. For one heading spanning several otherwise empty header cells, use Center Across Selection where supported, or simplify the layout to one header cell. Treat the span as one header group with no internal borders or blank outlined header boxes; never center across distinct headings or populated cells. Working builds may retain useful blank column headers and genuine spacer columns.\r\n- Use yellow/amber for inputs needing updates. Distinguish editable-input cues from calculated warnings, with a compact legend when needed. Follow documented exception styles for overrides, special formulas and one-offs.\r\n- Dark column headers: white text with thin white separators between actual headings, including dates.\r\n- Section bands: continuous fill and one outside outline, without internal borders; exclude gutters. Keep genuine spacer columns between separate tables or sections blank and unfilled, including their header cells.\r\n- If a sheet uses a leading gutter, align titles, sections and tables to the same content edge. Keep it empty except for specified navigation markers. Follow Finance gutter defaults only for financial models; do not impose them on operational trackers.\r\n- Prefer thin/light structural borders, stronger section breaks and no full body-cell grid. Do not apply borders around every filled cell. \r\n- Hide worksheet gridlines by default on new sheets, including inputs, builds and outputs. Preserve an intentional user/reference setting and do not change gridlines during unrelated edits. Gridline visibility is separate from selective structural borders.\r\n- Put needed context in separate cells or ordinary punctuation. Preserve meaningful financial/mathematical labels and symbols, required source quotes, intentional reference conventions and the expressly specified plain `x` navigation markers.\r\n- Use bounded conditional formatting for status, risk, variance and exception cues that must react to edits. Reuse the workbook's existing rules rather than inventing business logic for color. Emphasize affected missing/invalid inputs or failed checks, for example with light-red fill and bold red text for critical errors. Keep valid check values neutral. Do not substitute static error paint or decorative PASS fills.\r\n\r\n## Freeze panes\r\n\r\n- For tables that need vertical scrolling, freeze the header rows. Freeze identifying columns when horizontal scrolling would hide them. Use the smallest useful frozen area. Leave enough space to read and work with the data.\r\n- Do not move content or add tabs to accommodate freezing. Preserve existing panes during unrelated edits.\r\n- Do not freeze compact summary, dashboard or cover sheets unless scrolling requires preserving shared headers or row labels.\r\n\r\n## Align and format by data type\r\n\r\n- Left-align text, right-align numbers and center column headers horizontally. Default to middle vertical alignment throughout populated and intentionally reserved workbook ranges. Top-align wrapped descriptions where helpful.\r\n- Keep numbers/dates typed with explicit, appropriate formats and clear units. Adjust widths/heights so final content with formatting fits (including signs, parenthesis and units); never stringify values for appearance.\r\n- Italicize brief context/scope/unit notes—not headers, controls, statuses or warnings.\r\n\r\n## Typography - Use intentionally but conservatively\r\n\r\n- Choose one font verified in both generating and target environments: Helvetica Neue → Helvetica → Arial → Aptos. Use one family across cells, charts and theme fonts, with consistent body sizing across the workbook. \r\n- Default to two font sizes, max three, across standard non-cover sheets, keeping sizes consistent for matching elements. Dashboard and visual sheets may use additional sizes selectively but keep them modest.\r\n- Keep the largest size no more than 6 pt above the body size, unless the user or reference specifies otherwise. Use spacing and restrained fills for hierarchy.\r\n- Example defaults: 10pt body/table headers, 14pt for titles, 16pt ceiling.\r\n- Table headers and content should typically be consistent following the chosen body size.\r\n- Use bold or italics sparingly for emphasis. For example for totals or when needed for domain styling defaults.\r\n\r\n## Live inputs and visuals\r\n\r\n- Drive dependent values, charts and status text from editable cells. Use categorical validation where feasible and the dynamic-state formatting above. Invalid/missing inputs must not appear as plausible zeros or success states.\r\n- Prefer compact, formula-linked summaries. Preserve required outputs; avoid redundant tables and oversized KPI cards. Inline bars require explicit request. Follow `features/charts.md` for charts.\r\n",
+  "exitCode": 0,
+  "durationMs": 250
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-6131aa07-0f12-4c8c-a6fb-a73e89a8dab7",
+  "server": "codex_app",
+  "tool": "load_workspace_dependencies",
+  "status": "completed",
+  "arguments": {},
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Workspace dependencies are available for this local desktop thread.\n\n### Workspace Dependencies\nUse these bundled paths for sheets, slides, documents, PDFs, images, or browser automation:\n- Bundle version: `26.915.20218`\n- Git executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.exe`\n- Node.js executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe`\n- Node.js packages: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules`\n- pnpm executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.cmd`\n- Python executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe`\n- Python packages: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python`\n- Override binaries: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override`\n- Fallback binaries: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback`"
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 50
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-d3a7b080-3d02-4326-b860-fea1642c2d10",
+  "query": "site.reddit.com/r/FPandA/ \"dashboard\" \"executives\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.reddit.com/r/FPandA/ \"dashboard\" \"executives\"",
+      "site.reddit.com/r/BusinessIntelligence/ \"dashboard\" \"trust\" \"Excel\"",
+      "site.trustradius.com/products/tableau-desktop/reviews \"Pros\" \"Cons\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.trustradius.com",
+      "ref_id": "turn11search0",
+      "snippet": "# Tableau Desktop Reviews & Insights ... TrustRadius Community Insights are summaries of user sentiment data from TrustRadius reviews and, when relevant, HG Insights data.",
+      "title": "Tableau Desktop Reviews from Real Users | TrustRadius",
+      "url": "https://www.trustradius.com/products/tableau-desktop/reviews"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.trustradius.com",
+      "ref_id": "turn11search1",
+      "snippet": "features Tableau Desktop has to offer, as determined by TrustRadius' reviewers. ... ### Pros ... ### Cons ... ### Tableau user review",
+      "title": "Tableau Desktop Overview, Reviews, Pricing 2026 | TrustRadius",
+      "url": "https://www.trustradius.com/products/tableau-desktop"
+    },
+    {
+      "type": "text_result",
+      "domain": "go.trustradius.com",
+      "ref_id": "turn11search12",
+      "snippet": "Tableau Desktop and Server ... PROSCONS ... Read reviews on TrustRadius.",
+      "title": "The Buyer’s Guide to",
+      "url": "https://go.trustradius.com/rs/827-FOI-687/images/2019_BI_Buyers_Guide_TrustRadius.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.trustradius.com",
+      "ref_id": "turn11search13",
+      "snippet": "TABLEAU PROS | TABLEAU CONS ... | Source: (65) User reviews of Tableau Desktop and (29) User reviews of Tableau Server on TrustRadius.",
+      "title": "The Buyer’s Guide to",
+      "url": "https://media.trustradius.com/downloads/Xl/lD/business-intelligence-2016-DAELEAWRZE75.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit14",
+      "snippet": "it not lack of trust, its lack of utility, i want excel cause i want to be able to play with the data. do calculations",
+      "title": "[Removed]",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1tkqagg/removed/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit15",
+      "snippet": "So if you’re running a business, or managing finance/reporting, and you’ve hit a wall with tools like Power BI, Google Data Studio, or Excel ask",
+      "title": "I’ve helped dozens of small businesses fix their reporting chaos AMA about Power BI, financial dashboards, or how to actually trust your numbers.",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1oo99zi/ive_helped_dozens_of_small_businesses_fix_their/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit16",
+      "snippet": "If you are able to cross that chasm of OLAP database design and get support in doing it, your life will be MUCH easier as",
+      "title": "[Removed]",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1tc7dg9/removed/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit17",
+      "snippet": "Can query data directly into google sheets and more quickly get to the trust/data issues and try to find ways to resolve and define appropriate",
+      "title": "Building useless dashboards",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/z335op"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit18",
+      "snippet": "I work in a finance team and I am a little surprised at the frustration *some* show here if their BI dashboard doesn't answer all",
+      "title": "Why people want to delve into the data, not just look at dashboards",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1tlcys3/why_people_want_to_delve_into_the_data_not_just/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit19",
+      "snippet": "This is data literacy and building trust by meeting them where they are not where you think they should be. ... I usually build it",
+      "title": "What are the keys to successful adoption of Business Intelligence (BI) dashboards and reports in a large company in your experience?",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/vzj7ro"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit20",
+      "snippet": "**TL;DR** Built a personalized dashboard for delivery drivers that got used by more than 200 people and improved business metrics. ... So we ended up",
+      "title": "What’s the most valuable/actionable dashboard you’ve ever built?",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/12hn99f/whats_the_most_valuableactionable_dashboard_youve/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit21",
+      "snippet": "The dashboard becomes unusable so I assume they’re downloading to excel.",
+      "title": "How do you handle a stakeholder who wants a dashboard with 40+ columns?",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/17und5w"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit22",
+      "snippet": "Trust is very hard to rebuild ... They went through 3 large data warehousing/dashboarding efforts in spite of people like myself telling them they have",
+      "title": "[Removed]",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1s2fk3e/removed/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit23",
+      "snippet": "Business users frequently ask for data in Excel format, both on an ad-hoc and regular basis. ... Are they able to export all data related",
+      "title": "How do you handle repeated requests for Excel data from business users?",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1hjvxg4"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit24",
+      "snippet": "Also if you'd be building something in excel you would need to do a truckload of work to protect the file being broken by the",
+      "title": "Examples of how BI Tools (POWER BI, Qlicksense, Tableu etc) have has a material Impact on decision Making?",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/vzjuu1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn11reddit25",
+      "snippet": "They still look at the dashboard though.",
+      "title": "Are any of your BI users actually moving from dashboards to chat?",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1usnj1y/are_any_of_your_bi_users_actually_moving_from/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.g2.com",
+      "ref_id": "turn11search2",
+      "snippet": "--- title: Tableau Reviews meta_title: 'Tableau Reviews 2026: Details, Pricing, & Features | G2' meta_description: Filter 4230 reviews by the users' company size, role or",
+      "title": "Tableau Pros and Cons | User Likes & Dislikes",
+      "url": "https://www.g2.com/products/tableau/reviews?page=4&qs=pros-and-cons"
+    },
+    {
+      "type": "text_result",
+      "domain": "solutions.trustradius.com",
+      "ref_id": "turn11search26",
+      "snippet": "The product profiles in this report showcase aggregate data from reviews collected on TrustRadius, including the most commonly identified pros and cons from the most",
+      "title": "<visual_element id=\"e1\">",
+      "url": "https://solutions.trustradius.com/wp-content/uploads/the-buyers-guide-to-accounting-software-trustradius.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.capterra.com",
+      "ref_id": "turn11search3",
+      "snippet": "Capterra’s researchers use a mix of verified reviews, independent research and objective methodologies to bring you selection and ranking information you can trust. ... ##",
+      "title": "Tableau Reviews 2026. Verified Reviews, Pros & Cons | Capterra",
+      "url": "https://www.capterra.com/p/208764/Tableau/reviews/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.selecthub.com",
+      "ref_id": "turn11search4",
+      "snippet": "Once you’ve configured the registry key on every computer with a Tableau Desktop instance, it’ll start sending usage reports to the Tableau Server. ... Based",
+      "title": "Tableau Reviews 2025: Pricing, Features & More",
+      "url": "https://www.selecthub.com/business-intelligence-tools/tableau-desktop/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.linkedin.com",
+      "ref_id": "turn11search5",
+      "snippet": "# Tableau Desktop 2026.1 Free Edition Review: Pros and Cons",
+      "title": "Tableau Desktop 2026.1 Free Edition Review: Pros and Cons | Mervyn Fernandes posted on the topic | LinkedIn",
+      "url": "https://www.linkedin.com/posts/mervynferns_tableau2026-dataviz-freetableau-activity-7436331972366557184-X2Xn"
+    },
+    {
+      "type": "text_result",
+      "domain": "thedigitalprojectmanager.com",
+      "ref_id": "turn11search6",
+      "snippet": "# Tableau Review: Pros, Cons, Features & Pricing ... Our reviews reflect our human editorial judgment, not a sales pitch.",
+      "title": "Tableau Review: Pros, Cons, Features & Pricing",
+      "url": "https://thedigitalprojectmanager.com/tools/tableau-review/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.softwarereviews.com",
+      "ref_id": "turn11search7",
+      "snippet": "- tableau desktop is quite expensive and costly; tableau public is free but has limited functionality. ... it's important to understand the pros and cons",
+      "title": "Tableau Customer Reviews 2026 | Business Intelligence & Analytics",
+      "url": "https://www.softwarereviews.com/products/tableau?c_id=248&offering_page=3"
+    },
+    {
+      "type": "text_result",
+      "domain": "dashboardfox.com",
+      "ref_id": "turn11search8",
+      "snippet": "# ​Tableau Pros & Cons in 2026: Straight-Talk Review of Salesforce's BI Platform ... The product hasn't changed fundamentally — Tableau Desktop is still the",
+      "title": "Tableau Pros & Cons in 2026: Straight-Talk Review of Salesforce's BI Platform",
+      "url": "https://dashboardfox.com/blog/tableau-pros-cons-straight-talk-review/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.joinsecret.com",
+      "ref_id": "turn11search9",
+      "snippet": "## 02 Pros and cons from reviewers ... Tableau 4,1/5 (29 reviews)",
+      "title": "Tableau Reviews - Pros & Cons",
+      "url": "https://www.joinsecret.com/tableau/reviews"
+    },
+    {
+      "type": "text_result",
+      "domain": "work-management.org",
+      "ref_id": "turn11search10",
+      "snippet": "### ✅ Tableau Pros ... * Tableau Desktop is available on both Windows and Mac. ... ### ❌ Tableau Cons",
+      "title": "Tableau Review 2026: Is It Worth the Cost?",
+      "url": "https://work-management.org/analytics/tableau-review/"
+    },
+    {
+      "type": "text_result",
+      "domain": "mode.com",
+      "ref_id": "turn11search11",
+      "snippet": "If you decide to invest in products like Desktop, Server, and Prep, you’ll find you have a Salesforce-size solution on your hands (but yes, you’ll",
+      "title": "Tableau Reviews: A Roundup of the Pros, Cons, and Where It Fits in the Modern BI Landscape | Mode",
+      "url": "https://mode.com/blog/reviews-of-tableau/"
+    },
+    {
+      "type": "text_result",
+      "domain": "dkdlnw2x4nft5.cloudfront.net",
+      "ref_id": "turn11search27",
+      "snippet": "“I have experience with the main differences between Tableau and Power BI, and understand the pros and cons between these tools. ... Read full review",
+      "title": "Tableau Enterprise • Other Solutions Considered",
+      "url": "https://dkdlnw2x4nft5.cloudfront.net/buyer-guide/prodview-smvevd7wwdy3q.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "information-science-engineering.newhorizoncollegeofengineering.in",
+      "ref_id": "turn11search28",
+      "snippet": "PROS AND CONS OF USING TABLEAU ... The app supports practically that a desktop and online version has.",
+      "title": "VOLUME 8  ISSUE 2",
+      "url": "https://information-science-engineering.newhorizoncollegeofengineering.in/wp-content/uploads/2024/02/news-letter-vol-8-issue-2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.datananda.com",
+      "ref_id": "turn11search29",
+      "snippet": "Pros `` Automatic connection to a huge variety of data sources, including big data environments `` Drag-and-drop interface enables fast data exploration `` Can generate",
+      "title": "Data Visualization Tools: A Comparative Analysis",
+      "url": "https://www.datananda.com/static/data-visualization-tools-comparative-analysis-b341104c8a7056f7b8b8e72fbdc7c708.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-779ab9f5-0e8d-4171-bd88-c7f1cf63157d",
+  "query": "'SECŢIUNEA J'",
+  "action": {
+    "type": "findInPage",
+    "url": null,
+    "pattern": "SECŢIUNEA J"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn12view0",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn12view1",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn12view2",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn12view3",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-208d2f7a-46e6-431e-9013-964a5536c902",
+  "query": "Qlik Answers structured unstructured automations agentic ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Qlik Answers structured unstructured automations agentic",
+      "Amazon Quick Suite user guide flows research spaces scenarios",
+      "Oracle Analytics AI assistant explain contextual insights data flows"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "help.qlik.com",
+      "ref_id": "turn13search0",
+      "snippet": "Qlik Answers supports both unstructured and structured data: ... Qlik Answers assistants use knowledge bases to answer user questions. ... The following outlines the best",
+      "url": "https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikAnswers/Qlik-Answers.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn13search1",
+      "snippet": "Use the topics in this section to get started with the core capabilities of Quick, including AI agents for natural language conversations, Amazon Quick Sight",
+      "title": "Getting started with Amazon Quick - Amazon Quick",
+      "url": "https://docs.aws.amazon.com/quick/latest/userguide/getting-started.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn13search2",
+      "snippet": "When you assign a space to an agent, it draws on everything in that space to answer questions and complete tasks. ... Quick Flows |",
+      "title": "How Amazon Quick works - Amazon Quick",
+      "url": "https://docs.aws.amazon.com/quick/latest/userguide/how-quicksuite-works.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn13search3",
+      "snippet": "Amazon Quick is an AI-powered service for automating tasks, analyzing data, building web applications, and conducting research. ... * Amazon Quick Flows – Automate repetitive",
+      "title": "What is Amazon Quick? - Amazon Quick",
+      "url": "https://docs.aws.amazon.com/quicksuite/latest/userguide/what-is.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn13search4",
+      "snippet": "Amazon Quick Flows is a capability within Amazon Quick that lets any user create, customize, and share workflows that automate routine tasks. ... Each flow",
+      "title": "Using Amazon Quick Flows - Amazon Quick",
+      "url": "https://docs.aws.amazon.com/quick/latest/userguide/using-amazon-quick-flows.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.qlik.com",
+      "ref_id": "turn13search5",
+      "snippet": "After Qlik Answers returns a response, click View source below the answer and then click Show reasoning. ... When a question requires both structured and",
+      "url": "https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikAnswers/understanding-agent-reasoning.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn13search6",
+      "snippet": "The following table shows how each user type in Amazon Quick interacts with spaces. ... The following table outlines how user permissions determine what you",
+      "title": "Organize, collaborate, and share resources with spaces in Amazon Quick - Amazon Quick",
+      "url": "https://docs.aws.amazon.com/quick/latest/userguide/working-with-spaces.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn13search7",
+      "snippet": "AI agents allow the Oracle Analytics AI Assistant to interpret natural-language questions with greater accuracy and deliver more meaningful, context-aware insights. ... It contains the",
+      "title": "About Oracle Analytics AI Agents",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/oracle-analytics-ai-agents.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn13search8",
+      "snippet": "In Oracle Analytics, Explain provides advanced insights about any specific column or calculation that you select from your dataset.Explain analyzes data from the selected column",
+      "title": "What Is Explain?",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/what-is-explain.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn13search9",
+      "snippet": "* Use AI Agents and the Oracle Analytics AI Assistant to Interact with Data * Preview: Create data flows with AI Assistant ... * Use",
+      "title": "Oracle Analytics Cloud - Visualize Data",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/visualize-data.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn13search10",
+      "snippet": "Understanding the core terminology and concepts helps you effectively create, run, share, and maintain flows within your organization. ... A flow is made up of",
+      "title": "Terminology and key concepts - Amazon Quick",
+      "url": "https://docs.aws.amazon.com/quick/latest/userguide/terminology-and-key-concepts.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.qlik.com",
+      "ref_id": "turn13search12",
+      "snippet": "Middle section: “Answer formulation” split into “Structured” and “Unstructured.” ... When formulating answers on structured data, Qlik Answers first uses the **Semantic Search Agent** to",
+      "title": "AI in Qlik Cloud®",
+      "url": "https://help.qlik.com/en-US/evaluation-guides/pdf/AI-in-Qlik-Cloud.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn13search11",
+      "snippet": "Oracle Analytics Cloud AI Assistant provides a conversational analytics workflow that enables business users to instantly generate insights from their data with full data security",
+      "title": "Learn About AI-powered Insights With Oracle Analytics Cloud AI Assistant",
+      "url": "https://docs.oracle.com/en/solutions/oac-ai-assist/index.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.aws.amazon.com",
+      "ref_id": "turn13search13",
+      "snippet": "Amazon Quick Suite — User Guide ... Quick Research steps in Flows enable the automation and standardization of research processes across common business scenarios, including",
+      "title": "Amazon Quick Suite - User Guide",
+      "url": "https://docs.aws.amazon.com/pdfs/quicksuite/latest/userguide/amazon-quicksuite-user.pdf"
+    }
+  ]
+}
+````
+
+## Asistent
+
+În forumurile financiar-contabile apar cereri concrete: acces de la total până la document, reconciliere cu ERP-ul, export în Excel pentru analize proprii și depistarea facturilor lipsă sau duplicate. Le includ ca cerințe distincte. Am verificat și structura CAEN Rev.3: IT-ul este în secțiunea K, iar sănătatea în R, deci voi evita mapările vechi din Rev.2.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e7ad68c9-d730-49bf-93b0-4af23dc9698a",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218\\\\skills\\\\spreadsheets\\\\artifact_tool_docs\\\\API_QUICK_START.md'\nGet-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218\\\\skills\\\\spreadsheets\\\\workflows\\\\create_workflows.md'\nGet-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218\\\\skills\\\\spreadsheets\\\\SKILL.md' | Select-Object -Skip 145 -First 55\nGet-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218\\\\skills\\\\spreadsheets\\\\references\\\\template-elicitation.md'\nTest-Path -LiteralPath '\\\\\\\\192.168.100.169\\\\Comun\\\\00.Roboti\\\\iDempiere'\nGet-Content -LiteralPath '\\\\\\\\192.168.100.169\\\\Comun\\\\00.Roboti\\\\iDempiere\\\\AGENTS.md' -ErrorAction SilentlyContinue\"",
+  "cwd": "C:\\Users\\User",
+  "processId": "42894",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\artifact_tool_docs\\API_QUICK_START.md'\nGet-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\workflows\\create_workflows.md'\nGet-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\SKILL.md' | Select-Object -Skip 145 -First 55\nGet-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\references\\template-elicitation.md'\nTest-Path -LiteralPath '\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere'\nGet-Content -LiteralPath '\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere\\AGENTS.md' -ErrorAction SilentlyContinue"
+    }
+  ],
+  "aggregatedOutput": "# Using artifact_tool APIs (JavaScript)\r\n\r\nLibrary version: 2.8.58+\r\n\r\n## Required imports, setup and exports\r\n```js\r\nimport fs from \"node:fs/promises\";\r\nimport { FileBlob, SpreadsheetFile, Workbook } from \"@oai/artifact-tool\";\r\n\r\n// To import existing workbook\r\nconst input = await FileBlob.load(\"path/to/input.xlsx\");\r\nconst workbook = await SpreadsheetFile.importXlsx(input);\r\n\r\n// To create a new workbook and add a sheet to it\r\nconst workbook = Workbook.create();\r\nconst sheet = workbook.worksheets.add(\"Inputs\");\r\n\r\n// To export\r\nawait fs.mkdir(outputDir, { recursive: true });\r\nconst output = await SpreadsheetFile.exportXlsx(workbook);\r\nawait output.save(`${outputDir}/output.xlsx`);\r\n```\r\n\r\nImport CSV text directly when the source or intermediate data is CSV:\r\n```js\r\nconst csvText = await fs.readFile(\"path/to/input.csv\", \"utf8\");\r\nconst workbook = await Workbook.fromCSV(csvText, { sheetName: \"Sheet1\" });\r\n```\r\nPrefer `Workbook.fromCSV(...)` over hand-parsing CSV rows; clean or analyze CSV with Python/Node first only when needed.\r\nCSV fields import as strings. Convert intended numeric/date columns before calculations; number formatting alone does not convert text to numbers.\r\n\r\n\r\n## Build Patterns\r\n- Prefer block writes (`range.values`, `range.formulas`) over per-cell loops. Normally match the matrix shape to the target range (e.g. \"D4:M4\" → 1×10). To intentionally expand a larger matrix from an anchor, target a single cell or use range.write(matrix).\r\n- `range.values = [[value]]` repeats that value across the range; range.formulas does not broadcast a single formula. For merged ranges, write to the top-left cell or `mergedRange.values = [[value]]` where `mergedRange` is a single merged range.\r\n- Seed scalar formulas once, then `fillDown()` / `fillRight()`. For dynamic-array formulas (like `SEQUENCE`, `UNIQUE`, `FILTER`, `SORT`, `VSTACK`, `HSTACK`), write only the anchor cell and let the result spill after.\r\n- Use `range.displayFormulas` plus `range.formulaInfos` when you need to understand a spill child or a data-table output cell.\r\n- Setting cell values or formulas automatically recalculates dependent formulas; no manual recalculation is needed after ordinary edits, including batches (exception: creating data tables). Call `workbook.recalculate()` once after all edits, before final verification and export. If you make further edits, recalculate again before rechecking and exporting.\r\n- Prefer real `Date` objects for sortable/charted/formula date columns.\r\n- Number and date formats must be applied explicitly (for example `yyyy-mm-dd`).\r\n- Use JSON-serializable values for non-Date cells: `string | number | boolean | null`.\r\n- If a cell is intended to display literal text that begins with `=`, write it as a value prefixed with a single quote (for example `'=B2*C2`). This includes formula descriptions, validation examples, and labels; do not write these cells through `range.formulas`.\r\n- Create every worksheet referenced by formulas before writing any cross-sheet formulas.\r\n- Verify with `await workbook.inspect(...)`; use `workbook.help(...)` only when the quick surface below is insufficient.\r\n- `render` can be used to examine an existing workbook visually and for visual verifications.\r\n\r\n## Conventions\r\n- Use camelCase API names and option keys.\r\n- Cell/range addressing: A1 notation (`sheet.getRange(\"A1:C10\")`).\r\n- Drawing anchors (`sheet.charts`, `sheet.shapes`, `sheet.images`): 0-based `{ row, col }`.\r\n- Drawing offsets/extents use pixels (`rowOffsetPx`, `colOffsetPx`, `widthPx`, `heightPx`).\r\n\r\n## API Discovery Policy (Strict)\r\n- Use this quick API surface first.\r\n- Use `workbook.help(...)` only when the supplied public documentation leaves a required operation unclear. Start with one bounded exact feature/path lookup, such as `range.dataValidation` or `chart.series.add`.\r\n- If that lookup returns no useful match, one bounded reformulation is allowed. Stop after those two attempts; do not repeat similar queries, inspect package internals/prototypes/nearby tests, or invent enum values and setters. Use a documented equivalent that preserves the task.\r\n\r\n## Supported Formulas\r\n- Look up formula syntax with `fx.<formula>`, e.g. `workbook.help(\"fx.PMT\", { include: \"index,examples,notes\", maxChars: 3000 })`. A help entry does not guarantee working calculation or Excel export.\r\n- To browse a family of formulas, use `fx.*` with a category regex. Useful categories: `financial`, `math-trig`, `statistical`, `lookup-reference`, `logical`, `text`, `date-time`, `information`, `engineering`, `database`.\r\n- For intent-based lookup, use a short natural query plus a narrow `search` regex of likely functions.\r\n- Keep `maxChars` bounded; if results are noisy, narrow `search` rather than issuing many similar queries.\r\n\r\n```\r\nconsole.log(workbook.help(\"fx.PMT\", { include: \"index,examples,notes\" }).ndjson);\r\nconsole.log(workbook.help(\"fx.*\", { search: \"financial\", include: \"index,examples\", maxChars: 4000 }).ndjson);\r\nconsole.log(workbook.help(\"lookup with fallback\", { search: \"XLOOKUP|INDEX|MATCH|IFERROR\", include: \"index,examples,notes\", maxChars: 4000 }).ndjson);\r\n```\r\n\r\n### Known formula/export limitations (not exhaustive)\r\nIf a formula fails, use a verified equivalent that preserves the intended result.\r\n\r\nKnown issues:\r\n- Avoid `MAP`, `REDUCE`, `SCAN`, `MAKEARRAY`, `GROUPBY`, `PIVOTBY`. Use helper cells and supported scalar formulas;\r\n- Prefix `XLOOKUP`, `TEXTJOIN`, `MINIFS`, `MAXIFS`, `IFS`, and `RANK.EQ` with `_xlfn.`, including nested calls: e.g. `'=_xlfn.TEXTJOIN(\", \",TRUE,B2:C2)'`.\r\n- If using `LET`, `LAMBDA`, `BYROW`, and `BYCOL`, prefix function names with `_xlfn.` and every LET/LAMBDA local-variable declaration and reference with `_xlpm.`. This is compatibility syntax, not guidance to introduce those formulas.\r\n- PivotTable APIs exist, but XLSX export is unreliable.\r\n- `COUNTIF` / `COUNTIFS` with an empty-string criterion can miss blank cells, even in bounded ranges. For unconditional blank counts, use `COUNTBLANK(range)`.\r\n\r\n\r\n## Reading existing/imported workbooks\r\n- On existing/imported workbooks, get a compact summary via `inspect` to understand what already exists and where.\r\n- Prefer `inspect(...)` for workbook understanding and discovery across broad areas.\r\n- Prefer direct getters like `range.formulas` when you already know the target range and need the exact rectangular formula matrix.\r\n- If formula locations are unknown, prefer `inspect({ kind: \"formula\", ... })` over reading `range.formulas` across a very large area.\r\n- Prefer to set `maxChars`, `tableMaxRows`, `tableMaxCols`, and/or `maxResults` to prevent large dumps of data.\r\n- For suspicious or high-impact outputs, use `workbook.trace(\"Sheet!A1\")` to audit the dependency tree from final output/check cell back to source cells. Trace output can be large, so summarize by depth/node count before logging.\r\n\r\n### Inspect for workbook understanding\r\n- Compact summary:\r\n```js\r\nawait wb.inspect({\r\n  kind: \"workbook,sheet,table\",\r\n  maxChars: 6000,\r\n  tableMaxRows: 6,\r\n  tableMaxCols: 6,\r\n  tableMaxCellChars: 80,\r\n});\r\n```\r\n- Quick overview of sheet ids and names: `await wb.inspect({ kind: \"sheet\", include: \"id,name\" })`\r\n- Formula discovery in a targeted area: `await wb.inspect({ kind: \"formula\", sheetId: firstSheetName, range: \"A1:Z30\", maxChars: 2500, options: {maxResults:50} })`\r\n- Checking existing styles in a targeted area: `await wb.inspect({ kind: \"computedStyle\", sheetId: firstSheetName, range: \"A1:E10\", maxChars: 2500 })`\r\n- Common `kind` tokens: `workbook`, `sheet`, `table`, `region`, `match`, `formula`, `thread`, `computedStyle`, `definedName`, `drawing`\r\n- Inspects can also be used to zoom in on specific areas, especially for target edits:\r\n```js\r\nawait wb.inspect({\r\n  kind: \"region\",\r\n  sheetId: firstSheetName,\r\n  range: \"A1:Z30\",\r\n  maxChars: 2500,\r\n});\r\n```\r\n- Inspect output may include JSON records with `\"id\"` values (for example `\"ws/r5qsk5\"`), which you can resolve back to workbook objects with `wb.resolve(...)`:\r\n- `wb.resolve(\"ws/...\")` -> worksheet\r\n- `wb.resolve(\"th/...\")` -> comment thread\r\n\r\n## Known Gotchas (Do not repeat)\r\n- Do not set undocumented attributes on remote objects.\r\n- `Workbook.create()` starts with no sheets; add one before calling `getActiveWorksheet()`.\r\n- Create every worksheet referenced by formulas before writing cross-sheet formulas.\r\n- Prefer bounded formula ranges, e.g. `$A$6:$A$205`. Full-column references can be truncated to each column's populated extent: unequal extents can make `COUNTIFS` / `SUMIFS` return `#VALUE!`, and `ROWS` / `INDEX` can differ from Excel.\r\n- If export fails, isolate the cause by checkpoint-export after major blocks to isolate the cause: base sheets, values/formulas, formatting, conditional formatting, tables, charts/rendering. For charts, first simplify optional styling first: nested border configs, custom chart axis/series mutations, broad autofit/formatting, then nonessential drawings.\r\n\r\n## Quick API Surface (High-Value + Common)\r\n\r\n### Core workbook/file APIs\r\n- `import { FileBlob, SpreadsheetFile, Workbook } from \"@oai/artifact-tool\"`\r\n- `const workbook = Workbook.create()` to create an empty workbook\r\n- `const sheet = workbook.worksheets.add(\"Sheet1\")` to add a sheet\r\n- `const workbook = await SpreadsheetFile.importXlsx(arrayBufferOrFileBlob)`\r\n- `const xlsx = await SpreadsheetFile.exportXlsx(workbook); await xlsx.save(\"output.xlsx\")`\r\n- `const inspect = await workbook.inspect({ kind: \"sheet\", include: \"id,name\", sheetId, range: \"A1:C10\" })`\r\n- `const help = workbook.help(\"worksheet.getRange\", { include: \"index,examples\" })`\r\n- Preferred: `const preview = await workbook.render({ sheetName: \"Sheet1\", autoCrop: \"all\", scale: 1, format: \"png\" })`\r\n- To get the bytes and/or save the blob to file:\r\n```js\r\nconst previewBytes = new Uint8Array(await preview.arrayBuffer());\r\nawait fs.writeFile(`${outputDir}/preview.png`, previewBytes);\r\n```\r\n- `const workbook = await Workbook.fromCSV(csvText, { sheetName: \"Sheet1\" })`\r\n- `await workbook.fromCSV(csvText, { sheetName: \"ImportedData\" })` requires an empty workbook; it does not append CSV to a populated workbook. Prefer static `Workbook.fromCSV(...)`.\r\n\r\n### Worksheet selection/creation\r\n- `workbook.worksheets.add(name)`\r\n- `workbook.worksheets.getItem(name)`\r\n- `workbook.worksheets.getItemAt(index)`\r\n- `workbook.worksheets.getActiveWorksheet()` (only after at least one sheet exists)\r\n\r\n### Worksheet operations\r\n- `sheet.getRange(\"A1:C10\")`, `sheet.getRangeByIndexes(startRow, startCol, rowCount, colCount)`, `sheet.getCell(row, col)`\r\n- `sheet.getUsedRange(valuesOnly?)`\r\n- `sheet.freezePanes.freezeRows(rowCount)`, `sheet.freezePanes.freezeColumns(columnCount)`, `sheet.freezePanes.unfreeze()`\r\n- `sheet.tabColor = \"#1F4E78\"` sets the worksheet tab color; the getter returns a `Color` object.\r\n- `sheet.tables`, `sheet.charts`, `sheet.sparklineGroups` (`sheet.sparklines` alias), `sheet.shapes`, `sheet.images`\r\n- `sheet.showGridLines = false`\r\n- `sheet.dataTables`, `sheet.conditionalFormattings`, `sheet.dataValidations`\r\n- `sheet.deleteAllDrawings()` removes all drawings, including charts, shapes, and images.\r\n\r\n### Range values/formulas\r\n- `const range = sheet.getRange(\"A1:C10\")`\r\n- `range.values = [[...], ...]` (2D matrix of values).\r\n- `range.formulas = [[\"=...\"], ...]`\r\n- `range.formulasR1C1 = [[\"=RC[-1]*2\"]]`\r\n- To read: `range.values` / `range.formulas` / `range.displayFormulas` / `range.formulaInfos` (for spill/array formulas)\r\n- `range.write(matrixOrPayload)` (auto-sizes/spills from anchor as needed)\r\n- `range.writeValues(matrixOrRows)`\r\n- `range.fillDown()`, `range.fillRight()`\r\n  - `sheet.getRange(\"D2\").formulas = [[\"=...\"]]`\r\n  - `sheet.getRange(\"D2:D200\").fillDown()`\r\n- `range.clear({ applyTo: \"contents\" | \"formats\" | \"all\" })` clears cell contents, formatting, or both; drawings remain.\r\n- `range.copyFrom(sourceRange, \"values\" | \"formulas\" | \"all\")`. Prefer matching shapes; a single-cell value source can broadcast across a larger destination.\r\n- `range.copyTo(destRange, \"values\" | \"formulas\" | \"all\")`\r\n- `range.offset(rowOffset, colOffset)`, `range.resize(rowCount, columnCount)`, `range.getCurrentRegion()`, `range.getRow(i)`, `range.getColumn(j)`\r\n- `range.getRangeByIndexes(startRow, startCol, rowCount, colCount)`, `range.getCell(row, col)` (relative to the range)\r\n\r\n### Formatting\r\n- `range.format` supports `fill`, `font`, `numberFormat`, `borders`, alignments, `wrapText`\r\n- `range.format.verticalAlignment = \"center\"` maps to Excel Middle Align\r\n- `range.format.autofitColumns()`, `range.format.autofitRows()`\r\n- Excel unit sizing:  `range.format.columnWidth = 18`, `range.format.rowHeight = 24`\r\n- Pixel sizing: `range.format.columnWidthPx = 120`, `range.format.rowHeightPx = 24`\r\n- `range.setNumberFormat(\"yyyy-mm-dd\")`\r\n- `range.format.numberFormat = [[\"0\"], [\"0.00\"], [\"@\"]]`\r\n- Borders: There are two ways to set borders on a range (1) simple form (2) per edge form. Example:\r\n```js\r\n// (1) Preferred simple form\r\n// `preset` can be \"none\" | \"outside\" | \"inside\" | \"all\" | \"doubleBottom\"\r\n// \"outside\" will just set borders on the outside edges of the range.\r\n// `style` are Excel/OpenXML-style names such as \"thin\", \"medium\", \"thick\", \"dashed\", and \"dotted\".\r\nrange.format.borders = { preset: \"all\", style: \"thin\", color: \"#D9D9D9\" };\r\n\r\n// (2) Per-edge form. Use top/bottom/left/right, not edgeTop/edgeBottom/etc.\r\n// Format: {style?: string; color?: ColorConfig; weight?: number;}\r\n// Prefer setting `style` over `weight` unless you want granular control.\r\nrange.format.borders = {\r\n  insideHorizontal: { style: \"thin\", color: \"#D9D9D9\" },\r\n  insideVertical: { style: \"medium\", color: \"#D9D9D9\" },\r\n  top: { style: \"thick\", color: \"#D9D9D9\" },\r\n  bottom: { style: \"dashed\", color: \"#D9D9D9\" },\r\n  left: { style: \"dotted\", color: \"#D9D9D9\" },\r\n  right: { style: \"thin\", color: \"#D9D9D9\" },\r\n};\r\n```\r\n\r\n### Data Validation\r\n- `range.dataValidation = { rule: { type: \"list\", formula1: \"Categories!$A$2:$A$4\" } }`\r\n- `range.dataValidation = { rule: { type: \"list\", values: [\"Not Started\", \"In Progress\"] } }`\r\n- `sheet.dataValidations.add({ range: \"B2:B100\", rule: { type: \"whole\", operator: \"between\", formula1: 1, formula2: 10 } })`\r\n\r\n### Conditional formatting\r\n- Use `range.conditionalFormats.add(ruleType, ConditionalFormatConfig);`.\r\n- Use `range.conditionalFormats.add(ruleType, {operator, formula, format});`. Choose ruleType, operator, color, and style strings from the inline types below.\r\n```\r\ntype ConditionalFormatRuleType =\r\n  | \"cellIs\" | \"CellValue\" | \"Custom\" | \"expression\"\r\n  | \"colorScale\" | \"dataBar\" | \"iconSet\"\r\n  | \"containsText\" | \"notContainsText\" | \"beginsWith\" | \"endsWith\"\r\n  | \"containsBlanks\" | \"notContainsBlanks\" | \"containsErrors\" | \"notContainsErrors\"\r\n  | \"duplicateValues\" | \"uniqueValues\" | \"timePeriod\" | \"top10\" | \"aboveAverage\";\r\n\r\ntype CellIsOperator =\r\n  | \"greaterThan\"\r\n  | \"greaterThanOrEqual\"\r\n  | \"lessThan\"\r\n  | \"lessThanOrEqual\"\r\n  | \"equal\"\r\n  | \"notEqual\"\r\n  | \"between\"\r\n  | \"notBetween\";\r\n\r\ntype ConditionalFormatConfig =\r\n  | { operator: CellIsOperator; formula: string | number | Array<string | number>; format?: DifferentialFormatConfig }\r\n  | { formula: string | number; format?: DifferentialFormatConfig }\r\n  | { colors?: ColorConfig[]; thresholds?: CfvoInput[] }\r\n  | { color?: ColorConfig; thresholds?: CfvoInput[]; gradient?: boolean }\r\n  | { iconSet: string; showValue?: boolean; reverse?: boolean; thresholds?: CfvoInput[] }\r\n  | { text: string; format?: DifferentialFormatConfig }\r\n  | { timePeriod: \"yesterday\" | \"today\" | \"tomorrow\" | \"last7Days\" | \"lastWeek\" | \"thisWeek\" | \"nextWeek\" | \"lastMonth\" | \"thisMonth\" | \"nextMonth\"; format?: DifferentialFormatConfig }\r\n  | { rank?: number; percent?: boolean; bottom?: boolean; format?: DifferentialFormatConfig }\r\n  | { aboveAverage?: boolean; equalAverage?: boolean; stdDev?: number; format?: DifferentialFormatConfig };\r\n\r\ntype DifferentialFormatConfig = {\r\n  fill?: FillConfig;\r\n  font?: { bold?: boolean; italic?: boolean; color?: ColorConfig };\r\n  border?: RangeBordersConfig; // Per-edge top/bottom/left/right only; presets are ignored here.\r\n  numberFormat?: string;\r\n};\r\n\r\ntype CfvoInput =\r\n  | \"min\"\r\n  | \"max\"\r\n  | number\r\n  | `${number}%`\r\n  | { type: \"min\" | \"max\" | \"num\" | \"percent\" | \"percentile\"; value?: string | number };\r\n```\r\n- Rule types (`ConditionalFormatRuleType`): \"cellIs\" | \"CellValue\" | \"Custom\" | \"expression\"\r\n  | \"colorScale\" | \"dataBar\" | \"iconSet\"\r\n  | \"containsText\" | \"notContainsText\" | \"beginsWith\" | \"endsWith\"\r\n  | \"containsBlanks\" | \"notContainsBlanks\" | \"containsErrors\" | \"notContainsErrors\"\r\n  | \"duplicateValues\" | \"uniqueValues\" | \"timePeriod\" | \"top10\" | \"aboveAverage\";\r\n- XLSX `iconSet` names: `3Arrows`, `4Arrows`, `5Arrows`, `3ArrowsGray`, `4ArrowsGray`, `5ArrowsGray`, `3TrafficLights1`, `3Signs`, `4RedToBlack`, `3TrafficLights2`, `4TrafficLights`, `3Symbols`, `3Flags`, `3Symbols2`, `5Quarters`, `4Rating`, `5Rating`. Avoid `3Stars`, `3Triangles`, and `5Boxes`: their current XLSX serialization is not reliable.\r\n- Custom conditional formatting: `range.conditionalFormats.addCustom(expression, {fill, font, border});`\r\n- `range.conditionalFormats.deleteAll()` / `range.conditionalFormats.clear()`\r\n\r\n```js\r\nconst grid = sheet.getRange(\"B2:J10\");\r\ngrid.conditionalFormats.add(\"colorScale\", {\r\n  colors: [\"#2563EB\", \"#FDE047\", \"#DC2626\"],\r\n  thresholds: [\"min\", { type: \"percentile\", value: 50 }, \"max\"]\r\n});\r\n```\r\n\r\n### Tables\r\n- When adding new tables, set explicit unique names (`TasksTable`, `SummaryTable`).\r\n- Do not overlap tables; the API does not reject overlaps. Check existing table ranges in the initial compact `inspect` summary before adding one.\r\n- `const table = sheet.tables.add(\"A1:H200\", true, \"TasksTable\")`\r\n- `table.rows.add(null, [[...], ...])`, `table.getDataRows()`, `table.getHeaderRowRange()`\r\n- Read tables: `sheet.tables.items` -> `Table[]`\r\n- Set + Getters: `table.name`, `table.style`, `table.showHeaders`\r\n- Toggles for table utilities (set/get): `table.showTotals`, `table.showBandedColumns = true`, `table.showFilterButton`\r\n- `table.delete()`\r\n\r\n### Images\r\n- `sheet.images.add({dataUrl: \"data:image/png;base64,...\", anchor: {from: { row: 1, col: 2 }, extent: { widthPx: 160, heightPx: 120 }}})`\r\n\r\n### Threaded Comments\r\nThis creates Excel Comments (threads with replies), which require a user-visible author.\r\n- Required: Before adding a comment, create its visible author with `workbook.comments.setSelf({\"displayName\": <user_display_string>})`, where `<user_display_string>` is a string such as \"User\"\r\n- Create a new thread with a single comment: `const thread = workbook.comments.addThread({\"cell\": sheet.getRange(\"E2\")}, \"Source: <website>\")`\r\n- To reply to a threaded comment: `thread.addReply(\"This is a reply to the comment\")`\r\n- To resolve/re-open a thread: `thread.resolve()`, `thread.reopen()`\r\n\r\n\r\n### Notes\r\nExcel Notes are single-cell annotations without replies; threaded Comments are conversations with replies. Both survive XLSX export/import, but PNG renders omit their indicators and text.\r\n\r\n```js\r\nconst authorId = \"\"; // Or workbook.comments.setSelf({ displayName: \"User\" }).id\r\nworkbook.notes.add({\r\n  id: `${sheet.name}:B4`,\r\n  target: { cell: { sheetName: sheet.name, sheetId: sheet.sheetId, address: \"B4\" } },\r\n  authorId,\r\n  createdAt: \"\",\r\n  body: { plainText: \"Source: <website>\" },\r\n});\r\n```\r\n\r\n### Charts\r\n- Place charts in reserved blank areas with gutter rows/columns; do not cover data.\r\n- Prefer range-backed charts so source edits update the chart. Headers are detected when the first row contains text and no numeric cells.\r\n\r\n\r\n#### Fast-chart path\r\n- For contiguous data: pass categories first, then one column per series:\r\n  ```js\r\n  sheet.getRange(\"F4:H6\").values = [\r\n    [\"Month\", \"Revenue\", \"EBITDA\"],\r\n    [\"Jan\", 100, 10],\r\n    [\"Feb\", 120, 18],\r\n  ];\r\n  const chart = sheet.charts.add(\"line\", sheet.getRange(\"F4:H6\"));\r\n  ```\r\n- For nonadjacent columns: pass equal-height, single-column ranges with categories first:\r\n  ```js\r\n  const chart = sheet.charts.add(\"bar\", [\r\n    sheet.getRange(\"A1:A10\"),\r\n    sheet.getRange(\"D1:D10\"),\r\n    sheet.getRange(\"G1:G10\"),\r\n  ]);\r\n  chart.series.items[0].fill = \"#F472B6\";\r\n  ```\r\n- Both paths create source-cell references and show a bottom legend. Apply requested formatting once after creation:\r\n```js\r\nchart.setPosition(\"J4\", \"Q20\"); // always set\r\nconst fontFamily = \"Arial\";\r\n\r\nchart.title = \"Revenue and EBITDA Trend\";\r\n// Set titleTextStyle properties individually, not to an object\r\nchart.titleTextStyle.fontSize = 12;\r\nchart.titleTextStyle.typeface = fontFamily;\r\n\r\nchart.legend = { position: \"top\", textStyle: { typeface: fontFamily } };\r\nchart.xAxis = { axisType: \"textAxis\", textStyle: { typeface: fontFamily, fontSize: 10 } };\r\n// Number formatting on chart axis must be set separately even if the source range is already formatted.\r\nchart.yAxis = { numberFormatCode: \"$#,##0\", numberFormatSourceLinked: false, textStyle: { typeface: fontFamily }, tickLabelInterval: 2 };\r\nchart.xAxis.title.text = \"Month\";\r\nchart.yAxis.title.text = \"Revenue and EBITDA\";\r\n```\r\n- Chart `textStyle.fontSize` uses pixels; `typeface` sets the family. Style axes, legend, and titles separately (`xAxis.textStyle`, `yAxis.textStyle`, `legend.textStyle`, `titleTextStyle`); cell fonts do not configure chart fonts.\r\n- Only set/style intended titles; styling an absent title can create a placeholder.\r\n- For custom axis formats, set `numberFormatSourceLinked: false`. For $M labels, use `$0.0,,\"M\"` for dollars, `$0.0,\"M\"` for thousands, or `$0.0\"M\"` for millions. Fix formatting without changing source data.\r\n- `chart.setData(range)` replaces categories/series but preserves title, legend, and axes. Apply series styling after binding data.\r\n- For month/date labels, use helper cells containing strings such as `Jan 2025`; date-axis formats may show serial numbers in previews.\r\n- Inspect series through `chart.series.items`; source bindings are `series.formula` and `series.categoryFormula`.\r\n- Additional chart getters: `chart.type`, `chart.title.text`, `chart.categories` (may be empty for range-backed charts; inspect series references).\r\n- Collection methods: `sheet.charts.getItemOrNullObject(\"Chart 1\")`, `sheet.charts.deleteAll()`.\r\n- XLSX chart types: `\"bar\" | \"line\" | \"area\" | \"pie\" | \"doughnut\" | \"scatter\" | \"bubble\" | \"radar\" | \"stock\"`.\r\n- `\"treemap\"`, `\"sunburst\"`, `\"histogram\"`, `\"boxWhisker\"`, `\"waterfall\"`, `\"funnel\"`, and `\"map\"` are accepted by the API but omitted from XLSX exports in this runtime. Do not use them for Excel deliverables.\r\n\r\n### Merging cells\r\n- `sheet.mergeCells(\"A1:C1\")`, `sheet.unmergeCells(\"A1:C1\")`\r\n- `range.merge()` merges the target range into one cell; `range.merge(true)` merges across each row in the target range.\r\n- `range.unmerge()` reverses a merge.\r\nFor example:\r\n```js\r\nconst range = sheet.getRange(\"I23:N24\");\r\nrange.merge();\r\nrange.values = [[\"Quarterly revenue\"]];\r\n```\r\n\r\n### Help / Grep\r\nUse `workbook.help(...)` primarily for obscure/advanced surfaces (for example deep chart axis settings, unusual drawing configs, pivot APIs, or uncommon option schemas).\r\n- `workbook.help(\"enum.ShapeGeometry\", { include: \"index,notes\" }).ndjson`\r\n- `workbook.help(\"enum.*\", { search: \"ShapeGeometry|LineStyle\", include: \"index\" }).ndjson`\r\n- `workbook.help(\"shape.add\", { include: \"examples,notes\" }).ndjson`\r\n- `workbook.help(\"fx.RATE\", { include: \"index,examples,notes\" }).ndjson`\r\n- `workbook.help(\"cash flow return rate\", { search: \"IRR|XIRR|NPV|XNPV\", include: \"index,examples,notes\", maxChars: 4000 }).ndjson`\r\n- `workbook.help(\"*\", { search: \"fill|borders|autofit\", include: \"index,examples,notes\", maxChars: 6000 }).ndjson`\r\n\r\n### Trace\r\nFor tracing the full tree of how a formula is calculated, `workbook.trace(\"Sheet!A1\")` is available. For complex formulas, the full tree can be extremely large, so output should be capped or outputted to a separate temp file (never dump raw traces). It takes only a cell reference. \r\n\r\n## Additional Resources\r\n\r\n- For sensitivity data tables, read `artifact_tool_docs/DATA_TABLES.md`.\r\n- For sparklines, read `artifact_tool_docs/SPARKLINES.md`.\r\n\r\n## JavaScript example snippet (runnable)\r\n\r\n```js\r\nimport fs from \"node:fs/promises\";\r\nimport { SpreadsheetFile, Workbook } from \"@oai/artifact-tool\";\r\n\r\nconst fontFamily = \"Arial\"; // Example font used by the cell and chart API calls below.\r\n\r\nconst outputDir = \"output\";\r\nawait fs.mkdir(outputDir, { recursive: true });\r\n\r\nconst workbook = Workbook.create();\r\nconst sheet = workbook.worksheets.add(\"Summary\");\r\n\r\nsheet.getRange(\"A1:C4\").values = [\r\n  [\"Month\", \"Revenue\", \"EBITDA\"],\r\n  [\"Jan\", 100, 10],\r\n  [\"Feb\", 120, 18],\r\n  [\"Mar\", 130, 22],\r\n];\r\nsheet.getRange(\"D1\").values = [[\"Margin\"]];\r\nsheet.getRange(\"D2\").formulas = [[\"=C2/B2\"]];\r\nsheet.getRange(\"D2:D4\").fillDown();\r\n\r\nsheet.getRange(\"A1:G4\").format.font = { name: fontFamily, size: 11 };\r\nsheet.getRange(\"A1:D1\").format = {\r\n  fill: \"#0F766E\",\r\n  font: { name: fontFamily, bold: true, color: \"#FFFFFF\" },\r\n};\r\nsheet.getRange(\"B2:C4\").format.numberFormat = \"$#,##0\";\r\nsheet.getRange(\"D2:D4\").format.numberFormat = \"0.0%\";\r\n\r\n// Helper range links to source cells so edits update the chart.\r\nsheet.getRange(\"F1:G1\").values = [[\"Month\", \"Revenue\"]];\r\nsheet.getRange(\"F2:G2\").formulas = [[\"=A2\", \"=B2\"]];\r\nsheet.getRange(\"F2:G4\").fillDown();\r\nconst chart = sheet.charts.add(\"line\", sheet.getRange(\"F1:G4\"));\r\nchart.title = \"Revenue Trend\";\r\nchart.titleTextStyle.typeface = fontFamily;\r\nchart.hasLegend = false;\r\nchart.xAxis = { axisType: \"textAxis\", textStyle: { typeface: fontFamily } };\r\nchart.yAxis = { numberFormatCode: \"$#,##0\", numberFormatSourceLinked: false, textStyle: { typeface: fontFamily } };\r\nchart.setPosition(\"I1\", \"P15\");\r\n\r\n// Final calculation before visual verification, inspect and export.\r\nworkbook.recalculate();\r\nconst preview = await workbook.render({\r\n  sheetName: \"Summary\",\r\n  autoCrop: \"all\",\r\n  scale: 1,\r\n  format: \"png\",\r\n});\r\nawait fs.writeFile(`${outputDir}/summary.png`, new Uint8Array(await preview.arrayBuffer()));\r\n\r\nconst xlsx = await SpreadsheetFile.exportXlsx(workbook);\r\nawait xlsx.save(`${outputDir}/summary.xlsx`);\r\n```\r\n# Workflows for creating new spreadsheets\r\n\r\n## Quality Guidelines\r\n- Build correct, readable, auditable workbooks for the intended audience; keep them simple and easy to update.\r\n- Before populating, identify the audience, decision, target engine, outputs, inputs, calculations and checks from the user request, reference/template and applicable domain guidance. These roles do not require tabs: combine compatible roles and add tabs only for distinct readers, dependencies, refresh boundaries, auditability or an explicit request.\r\n- Keep related inputs and calculation steps together. Calculate each result in one place and link to it from other views. Do not create a tab for a small supporting block that fits cleanly in an existing sheet.\r\n- Put requested insights or recommendations once on the main dashboard, cover or summary. If none exists, place them near the relevant results. Support them with figures or rules already shown. Avoid generic rationale, invented scoring or long formula-generated narrative. Keep useful short calculated statuses and actions.\r\n- For triage, priorities or next actions, make records needing attention and the reasons easy to find, using formatting for visual cues to highlight important items needing attention. Include owners, actions or deadlines when relevant and supported by the data. Keep summary counts traceable to those records.\r\n- Reduce oversized widths/heights after autofit without clipping content.\r\n\r\n## Checks\r\n- Do not add a separate \"Checks\" tab for simple spreadsheets. Only add when useful for task/complexity.\r\n\r\n### Anchoring\r\n\r\nUse `$` to fix only the part of a reference that must stay in place when a formula is copied. Anchor shared **rows, columns or individual cells** so the workbook can reuse one period header, assumption block, item column or Case selector instead of repeating it beside every calculation.\r\n\r\n| Reference | What stays fixed | Useful pattern |\r\n| --- | --- | --- |\r\n| `C8` | Neither row nor column | A quantity that moves with the calculation when copied across or down. |\r\n| `C$4` | Row 4 | Read each column's period from one shared header row; copying across advances the period, copying down keeps that header. |\r\n| `$A8` | Column A | Read each row's item or category from one shared column; copying down advances the item, copying across keeps its label. |\r\n| `$B$3` | Cell B3 | Reuse one fixed conversion rate or Case selector throughout the applicable calculation. |\r\n\r\nFor example, `=SUMIFS(Amount,Month,C$4,Item,$A8)` reads the period above and the item at the left. Copied one column right it uses `D$4`; copied one row down it uses `$A9`. The aligned named ranges represent the source columns; they do not require named ranges in the delivered workbook.\r\n\r\nA period-specific assumption should move with its period: `=C8*C$3` becomes `=D8*D$3` when copied across. A single assumption shared by every period should stay fixed: `=C8*$B$3` becomes `=D8*$B$3`. Choose between them from the model's meaning, not by adding `$` everywhere. Use keyed lookups when source and destination orders differ; anchoring cannot make mismatched row positions equivalent. Quote cross-sheet names, for example `='Build'!E14`.\r\n\r\n### Dates and Time Periods\r\n\r\n- When calculations depend on a reporting date, use the date specified by the task or source. Use TODAY() only when calculations should update with the current date. Use a fixed reporting date when results should remain tied to a particular date. Label any assumed date. Preserve source deadlines and flag conflicts with derived deadlines.\r\n- Review the template's calendar, period layout and source grain before building formulas. Use real dates where the source supports them, with number formats for display; do not invent a missing reporting year. Derive period filters and labels from the shared header rather than hardcoding months in individual formulas.\r\n- For a new `Week of` label, use the week's first business day as the underlying date: Monday by default, moved forward for holidays only when a holiday calendar is supplied. Follow an explicit source/template week convention. Do not invent holidays or relabel a week-ending date as a week start.\r\n- When several time scales are needed and the template does not prescribe a layout, place the broader summaries to the left and finer detail to the right: **Annual | Quarterly | Monthly | Weekly**. Include only the time scales needed for the task. Keep periods chronological from left to right within each group; use the supplied fiscal calendar and week convention.\r\n- Separate different time scales with narrow, blank, unfilled spacer columns; do not extend formatting down the entire column. Do not add a spacer merely between actual and forecast months in one continuous schedule. Align matching period columns across Assumptions, builds and summaries where practical. When recent actuals help set drivers, include that historical reference on Assumptions in the same period column as the build, followed by the matching forecast periods. Within a continuous schedule, use one shared period header rather than repeating identical date rows above every subsection. Keep it visible when useful; separate tables with different column meanings may need their own headers, and print titles can repeat headers on printed pages.\r\n- Match each period to its own assumptions and data. Roll detail into summaries using the right calculation: sum additive amounts, use the appropriate ending balance for stocks, and calculate ratios or weighted averages from the relevant components. Do not sum monthly percentages or double-count weeks that cross month boundaries.\r\n\r\nFor a monthly summary of daily dates, with `C4` holding the first day of the month and aligned source ranges, use `=SUMIFS(Amount,Date,\">=\"&C$4,Date,\"<\"&EDATE(C$4,1),Item,$A8)`. The next-month exclusive upper bound includes the full last day, including timestamps. Equality to `C$4` is appropriate only when the source already stores that same monthly key.\r\n\r\n### Choosing Formulas and Excel Tools\r\n\r\n- **Totals and products:** use `SUM` over the relevant detail for total rows. Use `PRODUCT` for a result built by multiplying a range of numeric factors, or direct multiplication for a simple two-cell calculation. Use `SUMPRODUCT` for a sum of matching quantity × rate pairs or a weighted calculation. Keep ranges aligned and bounded; do not include both subtotals and their detail. Check required factors first: `PRODUCT` ignores blank/text cells in a referenced range, which can make missing inputs look like a valid result.\r\n- **Conditional counts, sums and averages:** prefer `COUNTIFS`, `SUMIFS` and `AVERAGEIFS` for new formulas, even with one criterion, so another condition can be added consistently. Avoid choosing `COUNTIF`, `SUMIF` or `AVERAGEIF` for new work by default; preserve a valid existing/template convention during a narrow edit. This preference does not prohibit an ordinary `IF` condition.\r\n- **Lookups:** `INDEX/MATCH`, `VLOOKUP` and `XLOOKUP` are all useful. Follow the user's preference and the workbook's established approach where it works. Make exact versus approximate matching intentional, handle missing keys explicitly and confirm whether duplicate keys should be rejected, matched once or aggregated. Do not substitute a first-match lookup for a required sum.\r\n- **Conditional logic:** use a short `IF` for a simple choice. Nested `IF` formulas are appropriate when they express necessary, understandable logic, including advanced Finance calculations. For a long list of categories or editable rules, prefer a mapping table or labeled steps. Preserve rule order, boundaries, gaps and the unmatched case; do not replace useful business logic merely to reduce nesting.\r\n- **Formula choices to avoid:** do not introduce `LET`, array/spill formulas, `MAP`, `REDUCE` or `LAMBDA`. Use familiar formulas and labeled intermediate steps. Normal range arguments in functions such as `SUMIFS` and `SUMPRODUCT` remain appropriate, as do the lookup, `INDIRECT`, `OFFSET` and `CHOOSE` patterns below. Preserve required existing/template behavior and do not rewrite unrelated formulas during a narrow edit. Formula length alone is not the test: the reader must be able to understand and extend the calculation.\r\n- **Sensitivity analysis:** use a native What-If Data Table only for an explicitly requested native sensitivity analysis or required existing/template behavior, when supported. Do not introduce `TABLE` into an ordinary forecast or case comparison, or manufacture a second varying input with a metric selector. Excel supports one or two varying inputs; the current Artifact Tool supports only two-variable tables, with both input cells on the table’s worksheet. Read [Data Tables](artifact_tool_docs/DATA_TABLES.md) before creating one. Two inputs test one output across their combinations; use separate tables for additional outputs. If the requested native design is unsupported, explain the limitation before agreeing on a formula-based design or change-input/recalculate/restore process. Label captured results and their refresh method. Ordinary case comparisons follow the single-build and comparison boundary above.\r\n\r\nAn Excel Table, PivotTable and What-If Data Table are different features. Check the chosen tool and destination's support. If a requested native feature cannot be created or preserved, explain the limitation before substituting a formula or static result. Keep API setup and feature-specific execution details in the relevant tool reference.\r\n\r\n### Scalable Formulas and Brief Explanations\r\n\r\nUse the patterns below when they make recurring updates easier without hiding the calculation. Choose the simplest approach that supports the actual update workflow, not just the current snapshot.\r\n- **Assumption and Case selection:** prefer one numeric Case selector with labeled case names and `CHOOSE` or `OFFSET` to select the active assumptions. `INDEX/MATCH` or `XLOOKUP` remain valid when they fit the layout. In each driver group, put Active Selection above its case inputs, sharing the same period header. For example, with Case in B3 and two case values in I22:I23, active I21 can be `=CHOOSE($B$3,I22,I23)`; the matching build input is simply `='Assumptions'!I21`. Anchor and validate the selector. Do not repeat the choice in the build or maintain a second editable copy of the drivers. The simple CHOOSE example assumes validated numeric case inputs. Otherwise, test the selected source value before a reference can turn a blank into zero. Preserve a valid zero. A missing unselected case must not block the active case. In an agreed comparison, mark only the affected case and dependent deltas unavailable. Keep necessary validation local to the driver and reuse it. OFFSET and INDIRECT are volatile, so keep references bounded and consider recalculation cost.\r\n- **New monthly source tabs:** if the workflow receives a separate tab in the same format each month, a visible month-to-tab registry and bounded `INDIRECT` references can support new periods without rewriting the reference pattern. Register the new tab and extend the summary periods or bounded ranges when needed. Validate the expected layout, tab names and source coverage; quote and escape sheet names correctly. For a new workflow without that constraint, one source table with a Month column may be simpler.\r\n- **Explain recurring updates:** when a less familiar formula materially improves the workbook, add a short explanation near its control or in the existing guide: why it helps, what the user can change and how to extend it safely. For example: “Add the new month tab in the same layout and register its name in Setup. Extend the summary period and ranges if needed; the formulas keep the same reference pattern.” Keep this brief; do not add comments to every formula or create a new instruction tab for one note.\r\n\r\n### Missing Inputs, Errors and Overrides\r\n\r\n- Do not invent missing source data or substitute a different metric. If required data is absent, leave the result unavailable and state the specific missing input beside its data or setting and briefly in the response. For a rate, preserve the requested numerator, denominator, population and period; do not substitute another available denominator.\r\n- Distinguish a real zero from missing data, an unavailable result and something that is not applicable. Use `\"n.a.\"`, a deliberate `\"\"` blank, or an exposed error according to the user's preference and the calculation's meaning. Right-align `n.a.` and similar placeholders when they sit among numeric results; do not turn them into numeric zero for appearance.\r\n- `IFERROR` can be useful for a deliberate, understood fallback, but must not hide unexpected failures. Prefer testing the expected condition directly, or `IFNA`/a lookup's not-found result when only a missing match is expected. Do not blanket-wrap formulas in `IFERROR(...,0)` or `IFERROR(...,\"\")` to make broken references and bad inputs disappear. Text `\"n.a.\"` and the `#N/A` error are different; choose intentionally and ensure downstream formulas handle the result correctly.\r\n- Guards such as `ISNUMBER` must not turn a failed prerequisite into a healthy zero or an understated issue count. Keep unexpected failures visible in the affected results, even when an intermediate formula returns text or a blank instead of an error.\r\n- Handle necessary validation in the input/build that owns it, affecting only the relevant outputs. A SUMIFS result of zero does not prove matching records exist; retain a source-coverage test when no match must remain blank or unavailable. Keep the issue visible without spreading the same long guard through every summary formula or pulling a global status from Checks/Audit.\r\n- A matched lookup key does not prove its value is populated. Check required source values before a lookup or reference can turn a blank into zero; preserve a permitted numeric zero.\r\n- Add manual overrides only when the task, template or established workflow needs them. Otherwise, calculate directly from the relevant drivers; do not add an optional override row to every result.\r\n- Preserve deliberate zero overrides, blanks, one-off adjustments and rounding. A blank optional override may mean “use the base”; a zero override may mean “use zero.” Do not treat those as the same condition.\r\n# Artifact Template Selection\r\n\r\nOpen the template selection picker for creating new spreadsheets when the user has not provided a template, reference, or visual direction. Also open the picker when the user asks to browse or upload templates. Do not open it if the user declines templates, requests a connected-source design search, or if `list_artifact_templates` is unavailable this turn. Subject matter, audience, tone, company names, and source files do not by themselves specify a template or visual direction.\r\n\r\nCall `list_artifact_templates({artifactKind, request})` with `artifactKind: \"spreadsheet\"`, or `\"google-sheets\"` for Google Sheets requests. Include compatible Office and Google templates without changing the requested output format.\r\n\r\nRank templates by relevance, breaking ties in favor of personal or shared templates. Include a mix of styles. Pass their `skillName` values unchanged to `choose_artifact_template({artifactKind, request, templates})` and call it once. Set `includeAllTemplates: true` only when the user requests the full catalog. The picker displays at most ten templates.\r\n\r\nFollow the selected template or uploaded reference. Save an uploaded reference only when `saveForFutureUse` is true. Use Template Creator with the returned `displayName`. Continue without a template if the picker is declined, cancelled, unavailable, or fails. Do not replace the picker with `request_user_input` or a chat list. Browsing templates does not authorize artifact creation.\r\nTest-Path: \r\nLine |\r\n   6 |  Test-Path -LiteralPath '\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere'\r\n     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Access to the path '\\\\192.168.100.169\\Comun\\00.Roboti\\iDempiere' is denied.\r\nFalse\r\n",
+  "exitCode": 1,
+  "durationMs": 438
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-977a76b4-19a7-46ab-8af5-a265912fc09e",
+  "query": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction",
+  "action": {
+    "type": "openPage",
+    "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "learn.microsoft.com",
+      "ref_id": "turn14view0",
+      "snippet": "Total lines: 207",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/DfMVeG2Fyo9NSyNl2bXsnnMrHtKWVzrqFET-8cj1k8NBqCIcOQIJdENiWvK4qEdB2sekU5DhGQhhHwZk8bon2_gkmXpY9uIb0awvSHLcq08",
+      "title": "Copilot for Power BI overview - Power BI | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.tableau.com",
+      "ref_id": "turn14view1",
+      "snippet": "Total lines: 32",
+      "title": "AI in Tableau Features - Tableau",
+      "url": "https://help.tableau.com/current/tableau/en-us/tableau_gai_solutions.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn14view2",
+      "snippet": "Total lines: 13",
+      "title": "What Is Explain?",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/what-is-explain.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-0299c83f-cc78-4fb1-819a-37557da0b58b",
+  "query": "IBM Cognos Analytics assistant AI features product ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "IBM Cognos Analytics assistant AI features product",
+      "SAF-T D406 e Factura e TVA e Transport documentatie API"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search0",
+      "snippet": "Ask the Cognos Analytics AI Assistant ... Leverage the predictive powers of SPSS directly within the Cognos Analytics environment, enriching the analytical capabilities of your",
+      "title": "Features - IBM Cognos Analytics",
+      "url": "https://www.ibm.com/products/cognos-analytics/features"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search1",
+      "snippet": "IBM® Cognos® Analytics includes an embedded assistant that supports natural language text-based input to help you gain quick insights into your data and simplify your",
+      "title": "AI Assistant",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.0.x?topic=explorations-assistant-panel"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search2",
+      "snippet": "The Assistant is a powerful feature in Cognos Analytics that allows you to ask questions and discover insights in natural language.",
+      "title": "Assistant commands",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/11.2.x?topic=assistant-commands"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search3",
+      "snippet": "Agentic AI is available in various IBM® Cognos® Analytics offerings: ... Agentic AI is accessible from the Assistant panel, after you enable it in your",
+      "title": "Introduction to agentic AI",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.1.x?topic=ai-introduction-agentic"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search4",
+      "snippet": "Activate new features such as conversational analytics and content curation easily without complex migrations. ... IBM watsonx® BI brings trusted generative AI to Cognos Analytics,",
+      "title": "IBM Cognos Analytics Addons",
+      "url": "https://www.ibm.com/products/cognos-analytics/addons"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search5",
+      "snippet": "Each offering might support different components, features, data sources, documentation, and other aspects of the product. ... Functionality | Cognos Analytics on Premises | Cognos",
+      "title": "Cognos Analytics offerings",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.1.x?topic=cognos-analytics-offerings"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search6",
+      "snippet": "# View narrative insights in the Assistant ... Before Cognos Analytics 12.0.0, narrative insights were available only on the Analytics panel for dashboard visualizations.",
+      "title": "View narrative insights in the Assistant",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.0.x?topic=assistant-view-narrative-insights-in"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search7",
+      "snippet": "IBM Cognos Analytics delivers compliance-ready reporting, business analytics and agentic AI built on certified data models. ... View all Cognos Analytics features ... Built directly",
+      "title": "IBM Cognos Analytics",
+      "url": "https://www.ibm.com/products/cognos-analytics?utmsource=slatehq.com"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search8",
+      "snippet": "The Cognos Analytics service makes it easier for you to extract meaning from your data with features such as: ... This service is included in",
+      "title": "Cognos Analytics",
+      "url": "https://www.ibm.com/docs/en/software-hub/5.3.x?topic=services-cognos-analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search9",
+      "snippet": "The following table provides more information about the product functions that are available with the different license roles. ... Access with the Cognos Analytics mobile",
+      "title": "Cognos Analytics on Cloud Hosted license roles",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/12.1.x?topic=hosted-license-roles"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search10",
+      "snippet": "This documentation describes all features of IBM Cognos Analytics, including features that are not supported in IBM Cognos Analytics for IBM Cloud Pak for AIOps.",
+      "title": "Getting started with IBM Cognos Analytics",
+      "url": "https://www.ibm.com/docs/en/cloud-paks/cloud-pak-aiops/4.13.0?topic=reports-getting-started-cognos-analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search11",
+      "snippet": "Each offering might support different components, features, data sources, documentation, and other aspects of the product. ... AI Assistant | Yes | Yes | Yes",
+      "title": "Cognos Analytics offerings",
+      "url": "https://www.ibm.com/docs/en/cognos-analytics/11.2.x?topic=cognos-analytics-offerings"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search12",
+      "snippet": "This documentation describes all features of IBM Cognos Analytics, including features that are not supported in IBM Cognos Analytics for IBM Cloud Pak for AIOps.",
+      "title": "BETA The installation and integration of IBM Cognos® Analytics is available only for technology preview, and is not for production usage.",
+      "url": "https://www.ibm.com/docs/en/SSJGDOB_4.9.1/pdf/IBM_Cloud_Pak_AIOps_4.6.1_pt1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search13",
+      "snippet": "Screenshot of an Assistant chat message: a dark speech bubble says “show source Hollywood_noaccess”; below it a message reads “You don't have the capability to",
+      "title": "IBM Cognos Analytics Version 11.2: What's New",
+      "url": "https://www.ibm.com/docs/en/SSEP7J_11.2.0/pdf/ca_new.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search14",
+      "snippet": "When the new AI > Learning capability is assigned to a user, IBM Cognos Analytics learns from the user's product usage. ... 60 IBM Cognos",
+      "title": "IBM Cognos Analytics Version 11.1: New Features Guide",
+      "url": "https://www.ibm.com/docs/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ca_new.doc/ca_new.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ibm.com",
+      "ref_id": "turn15search15",
+      "snippet": "Users can access **Capabilities** and **User Interface Profiles** on the **Security** tab in **IBM Cognos Administration** to manage the secured functions and features and the",
+      "title": "IBM Cognos Analytics Version 11.1: Managing User Guide",
+      "url": "https://www.ibm.com/docs/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ag_manage.doc/ca_manage.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ce20115f-0223-4701-aa75-fce2de07b342",
+  "query": "site.anaf.ro servicii web e factura documentatie tehnica ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.anaf.ro servicii web e factura documentatie tehnica",
+      "site.anaf.ro D406 SAF-T documentatie",
+      "site.anaf.ro e TVA decont precompletat",
+      "site.anaf.ro e transport ghid"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search0",
+      "snippet": "D406 - Declaraţia SAF-T conform OPANAF 1783 din 04.11.2021 privind natura informaţiilor pe care contribuabilul/platitorul trebuie să le declare prin fişierul standard de control fiscal,",
+      "title": "ANAF",
+      "url": "https://static.anaf.ro/static/10/Anaf/Declaratii_R/406.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search1",
+      "snippet": "Se completează și se transmite de către organele de executare silită, inclusiv executorii judecătorești și Agenția Națională de Administrare a Bunurilor Indisponibilizate, care emit facturi",
+      "title": "FORMULARE CU EXPLICAȚII",
+      "url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Toateformularele/Toate_Formularele.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search12",
+      "snippet": "ANAF > Despre ANAF > Strategii ANAF > Proiecte de digitalizare > SAF-T ... Totodată, în cadrul acestei secțiuni se poate descărca și documentul cu",
+      "title": "GHIDUL CONTRIBUABILULUI",
+      "url": "https://static.anaf.ro/static/10/Anaf/Informatii_R/SAF_T_Ghidul_D406_1712021.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search2",
+      "snippet": "Fișier standard de control fiscal (SAF-T) - Formularul D406 | Următoarele categorii de contribuabili au obligația de depunere a fișierului standard de control fiscal (SAF-T),",
+      "title": "Calendarul Obligațiilor Fiscale",
+      "url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Calendar/Calendar_obligatii_fiscale_2025.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.anaf.mfinante.gov.ro",
+      "ref_id": "turn16search3",
+      "snippet": "* Documentul de asistenţă dedicat modulului active pentru pregătirea/depunerea declaraţiei informative D406 - Fişierul standard de control fiscal (SAF-T) - actualizat în data de 26.05.2023",
+      "url": "https://www.anaf.mfinante.gov.ro/anaf/internet/ANAF/servicii_online/servicii_web_anaf?uri=nm%3Aoid%3AZ6_H1H6H282J8FQC0QR1LEAK00086"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search13",
+      "snippet": "Captură de ecran a aplicației E-Transport pe un telefon, cu formular de înrolare.",
+      "title": "Ghid Aplicatie e-Transport",
+      "url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Ghid_Aplicatie_eTransport.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search4",
+      "snippet": "- apel producţie: https://webserviceapl.anaf.ro/prod/FCTEL/rest/listaMesajeFactura - apel test: https://webserviceapl.anaf.ro/test/FCTEL/rest/listaMesajeFactura",
+      "title": "Servicii WEB sincron",
+      "url": "https://static.anaf.ro/static/10/Anaf/Informatii_R/Servicii_web/url_eFactura.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search5",
+      "snippet": "* Ghid de utilizare a codurilor dedicate tipurilor de facturi, a diverselor categorii de TVA, precum şi a altor reguli, în sistemul national privind factura",
+      "title": "E-Factura",
+      "url": "https://static.anaf.ro/static/10/Anaf/Informatii_R/e_factura.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search6",
+      "snippet": "pentru completarea formularului (300) \"Decont de taxă pe valoarea adăugată\" Formularul (300) \"Decont de taxă pe valoarea adăugată\" se completează de persoanele impozabile înregistrate în",
+      "title": "ANEXA 2",
+      "url": "https://static.anaf.ro/static/10/Anaf/transparenta/ANEXA2_TVA.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.anaf.ro",
+      "ref_id": "turn16search7",
+      "snippet": "ANAF a stabilit TVA suplimentară de plată de aproximativ 87 milioane de lei în urma verificării unor tranzacții cu utilaje agricole aduse din alte state",
+      "url": "https://www.anaf.ro/anaf/internet/Licita/acasa/%21ut/p/a1/pZHBCgIhEIYfyT9N244bgbqwsAbS5iU8hVBbh-j50-hisRo0t2G-j2H-IY6MxE3-EU7-Hq6TP6feiaNaKKFoQzusDIVhzLadlUCDCBwyQBnA8I3ecTkAEB9-Pt7yt4-ZavGbPwes2X9-BEp-zyp-z2r57YkrrhhoBUgnFoH0gxdQCrkc0_ILyO-QlNwuNtaIoIN-AsiZmx0%21/dl5/d5/L0lDU0lKSWdrbUNTUS9JUFJBQUlpQ2dBek15cXpHWUEhIS80SkNoRG9NZHRCZ2NobkFWR0ZjUi9aN19IMUg2SDI4MkowN1EyMFEzM1VBSlVHMDBPNi8wL3NhLnNwZl9BY3Rpb25MaXN0ZW5lcg%21%21/?PC_Z7_H1H6H282J07Q20Q33UAJUG00O6000000_spf_strutsAction=%212fsearchStiri.do"
+    },
+    {
+      "type": "text_result",
+      "domain": "elicitatii.anaf.ro",
+      "ref_id": "turn16search8",
+      "snippet": "Pentru a vă autentifica, este necesar să dețineți un cont înregistrat în Spațiul Privat Virtual (SPV) al ANAF sau în portal ANAF. ... * Ghid",
+      "title": "Ghid de utilizare | ANAF eLicitații",
+      "url": "https://elicitatii.anaf.ro/ghid"
+    },
+    {
+      "type": "text_result",
+      "domain": "static.anaf.ro",
+      "ref_id": "turn16search9",
+      "snippet": "* Certificatul de root si certificatul intermediar ale noii autoritati emitente MF-ANAF pentru autentificarea masina la masina - publicate in data de 27.01.2023 ... *",
+      "url": "https://static.anaf.ro/static/ARB/instructiuni_ARB.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.anaf.mfinante.gov.ro",
+      "ref_id": "turn16search10",
+      "snippet": "* Image Ghid privind utilizarea Sistemului național privind monitorizarea transporturilor rutiere de bunuri RO e-Transport - publicat în data de 02.06.2025 ... * Image Ghid",
+      "url": "https://www.anaf.mfinante.gov.ro/anaf/internet/ANAF/asistenta_contribuabili/servicii_oferite_contribuabililor/ghiduri_curente?uri=nm%3Aoid%3AZ6_H1H6H282J0R380Q5BFEB9S00K0"
+    },
+    {
+      "type": "text_result",
+      "domain": "permisdeantreprenor.ro",
+      "ref_id": "turn16search11",
+      "snippet": "* ANAF – Ghidul contribuabilului pentru pregătirea și depunerea D406 (PDF): https://static.anaf.ro/static/10/Anaf/Informatii_R/SAF_T_Ghidul_D406_1712021.pdf",
+      "title": "Erori SAF-T D406 2026: recipisă + soluții rapide",
+      "url": "https://permisdeantreprenor.ro/erori-saf-t-d406-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn16search14",
+      "snippet": "D406 (Saf-t for Romania variant) started officially at 1 January 2022 with large tax payers as a first stage. ... - The official Romanian D406/saf-t",
+      "title": "SAF-T",
+      "url": "https://en.wikipedia.org/wiki/SAF-T"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn16reddit15",
+      "snippet": "Am dat login pe SPV aici: https://pfinternet.anaf.ro/anaf/myinternet/SPV ... Precompletata adica cu datele tale sau iti calculeaza anaful si darile? ... Eu banuiesc ca va fi",
+      "title": "Unde gasesc DU precompletata?",
+      "url": "https://www.reddit.com/r/RoFiscalitate2/comments/1rgb1nr/unde_gasesc_du_precompletata/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn16reddit16",
+      "snippet": "Salut, sunt web developer la inceput de drum si fac o aplicatie web de tip e store, ma poate ajuta cineva cu niste informatii despre",
+      "title": "Despre facturi electronice la anaf",
+      "url": "https://www.reddit.com/r/programare/comments/1ltpfbm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn16reddit17",
+      "snippet": "ANAF OAUTH documentatie - https://static.anaf.ro/static/10/Anaf/Informatii\\_R/API/Oauth\\_procedura\\_inregistrare\\_aplicatii\\_portal\\_ANAF.pdf ... Înainte de a trimite request-ul, trebuie să fii autent",
+      "title": "Implementare serviciu e-Factura",
+      "url": "https://www.reddit.com/r/programare/comments/18c3bg8"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn16reddit18",
+      "snippet": "Nu inteleg de ce toata lumea cauta pe net diferite \"surse\" de informatii si intreaba pe Reddit in loc sa intre direct la sursa pe",
+      "title": "Formular pentru E-Factura",
+      "url": "https://www.reddit.com/r/RoFiscalitate/comments/18t4zxe"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-cc7a30af-1b35-43e1-b404-7134cc1f0fc3",
+  "query": "https://www.reddit.com/r/BusinessIntelligence/comments/1tlcys3/why_people_want_to_delve_into_the_data_not_just/",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1tlcys3/why_people_want_to_delve_into_the_data_not_just/"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17view0",
+      "snippet": "Total lines: 894",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/FXEeym5tPVqzd7qemsyA-g4e2fWcS1DjMac3PXT-V2PvjkDcPw9OxfQ_OKMS5AyhJ5ZrmbCvaSciNGbkMsJ7lw",
+      "title": "Why people want to delve into the data, not just look at dashboards : r/BusinessIntelligence",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1tlcys3/why_people_want_to_delve_into_the_data_not_just/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn17view1",
+      "snippet": "Total lines: 1036",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/FIKXh4dR3PcriYwMGGxcuWelqdtGA2KpY0HBTgu5FzNJT_S0F5_YUTWrYJEQVCG7bMld2UmD2Bhgr2-9GBKehg",
+      "title": "Has anyone actually rolled out “talk to your data” to your business stakeholders? : r/BusinessIntelligence",
+      "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1rc0arr/has_anyone_actually_rolled_out_talk_to_your_data/"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn17view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-a3cb011d-7150-42a8-b92e-a522fd402995",
+  "query": "SAP Analytics Cloud features planning business intelligence ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "SAP Analytics Cloud features planning business intelligence",
+      "Oracle Analytics Cloud product features",
+      "Zoho Analytics features business intelligence Zia",
+      "Tableau AI analytics features Pulse"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.sap.com",
+      "ref_id": "turn18search0",
+      "snippet": "### SAP named as a Market Leader in Business Intelligence and Analytics ... SAP Analytics Cloud is a key component of SAP Business Data Cloud,",
+      "title": "SAP Analytics Cloud | BI, Planning, and Predictive Analysis Tools",
+      "url": "https://www.sap.com/products/technology-platform/cloud-analytics/features.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn18search1",
+      "snippet": "The feature scope description provides a high-level list of the features that are available with SAP Analytics Cloud.SAP Analytics Cloud is an all-in-one cloud product",
+      "title": "Feature Scope Description for SAP Analytics Cloud | SAP Help Portal",
+      "url": "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/92a4a76cf6ae454cbf55b73df1cc2f3d/26b634b6a5a64b9c9c6867a46c4aeedd.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn18search2",
+      "snippet": "SAP Analytics Cloud is an end-to-end cloud solution that brings together business intelligence, augmented analytics, predictive analytics, and enterprise planning in a single system. ...",
+      "title": "What Is SAP Analytics Cloud? | SAP Help Portal",
+      "url": "https://help.sap.com/docs/PRODUCT_ID/00f68c2e08b941f081002fd3691d86a7/449cc17118304d73b2d50d562eff50a5.html?locale=en-US&state=PRODUCTION&version=release"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sap.com",
+      "ref_id": "turn18search3",
+      "snippet": "SAP Analytics Cloud for planning is a finance‑led planning platform that enables consistent budgeting, forecasting, and performance steering across the enterprise using structured, governed planning",
+      "title": "SAP Analytics Cloud for Planning | SAP Financial Management",
+      "url": "https://www.sap.com/products/financial-management/analytics-cloud-planning.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.oracle.com",
+      "ref_id": "turn18search4",
+      "snippet": "Offering valuable, actionable insights from all types of data—in the cloud, on-premises, or in a hybrid deployment—Oracle Analytics empowers business users, data engineers, and data",
+      "title": "Analytics Platform Capabilities",
+      "url": "https://www.oracle.com/analytics/capabilities/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn18search5",
+      "snippet": "# Zoho Analytics - AI features ... This article explores all the AI-driven capabilities, the underlying model types (whether in-house or OpenAI-powered), and the specific",
+      "title": "AI Features in Zoho Analytics",
+      "url": "https://www.zoho.com/analytics/help/ai-features-in-zoho-analytics.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn18search6",
+      "snippet": "With SAP Analytics Cloud, you can cover a range of planning operations like scheduling tasks, kickstarting forecasts with predictive features, building custom planning applications, carrying",
+      "title": "About Planning",
+      "url": "https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/0ace2c43b92b41099b1cd964b4ff198a.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn18search7",
+      "snippet": "Brings all industry-leading capabilities of the Oracle Analytics Cloud platform to organizations requiring on-premises deployment options. ... * Product Roadmap",
+      "title": "Analytics Products - Analytics Products",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-products/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn18search8",
+      "snippet": "Embedding Ask Zia, the AI-powered analytics assistant, brings advanced analytical capabilities like conversational insights and Key Driver Analysis (KDA) directly into the applications users already",
+      "title": "Ask Zia l Zoho Analytics Help",
+      "url": "https://www.zoho.com/analytics/help/zia/"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn18search9",
+      "snippet": "Scorecard and Strategy Management | Yes | No | See Oracle Statement Of Direction for Oracle Scorecard & Strategy Management Product (OSSM) - Oracle Support",
+      "title": "Feature Availability and Comparison",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmgb/feature-availability-and-comparison.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.oracle.com",
+      "ref_id": "turn18search10",
+      "snippet": "* Explore features and benefits of Oracle Analytics Cloud on Gen 2",
+      "title": "Oracle Analytics Cloud - Get Started",
+      "url": "https://docs.oracle.com/en/cloud/paas/analytics-cloud/"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn18search11",
+      "snippet": "Feature | SAP Analytics Cloud for business intelligence, predictive edition | SAP Analytics Cloud for planning, predictive standard edition | SAP Analytics Cloud for planning,",
+      "title": "Features by License Type for Analytic Models",
+      "url": "https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/b51b338827764edc847a6c1d6b8d7ed5.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn18search12",
+      "snippet": "SAP Analytics Cloud offers plans based on three licenses: Business Intelligence, Planning, and ... Feature Scope Description for SAP Analytics Cloud",
+      "title": "PUBLIC\nSAP Analytics Cloud\nFeature Scope Descripti",
+      "url": "https://help.sap.com/doc/67a70d4fa9f74cc7890547e7b4d9153a/release/en-US/SAC_Feature_Scope_Description.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn18search13",
+      "snippet": "ness intelligence, ... Two license types allow you to use planning tools: SAP Analytics Cloud for planning, standard edition and SAP ... For analytics features",
+      "title": "CONFIDENTIAL",
+      "url": "https://help.sap.com/doc/65af24de9abe43d0ab80e505ebab26f5/release/en-US/SAPAnalyticsCloudUserHelp.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tableau.com",
+      "ref_id": "turn18search14",
+      "snippet": "This looks different for every organization, but often includes training end users on new AI features like Tableau Pulse (and Tableau Agent, if your organization",
+      "title": "Your Guide to Moving to Tableau Cloud",
+      "url": "https://www.tableau.com/sites/default/files/2024-12/Your-Guide-Moving-to-Tableau-Cloud.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "help.sap.com",
+      "ref_id": "turn18search15",
+      "snippet": "Next level business intelligence ... SAP Analytics Cloud Feature Highlight: Smart Features",
+      "title": "SAP Business One and SAP Analytics Cloud (BI)",
+      "url": "https://help.sap.com/doc/aceb85b533774c49aabc1fe9bc53fe24/latest/en-US/Overview_SAP_Business_One_and_SAP_Analytics_Cloud.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zoho.com",
+      "ref_id": "turn18search16",
+      "snippet": "automatic analyses via Zoho’s proprietary AI, Zia (Zoho Intelligent Assistant), which is also ... In contrast to the other Zoho business applications, the Zoho BI",
+      "title": "The Zoho BI and Analytics",
+      "url": "https://www.zoho.com/sites/default/files/zoho_general_pages/zoho-bi-platform-analysis.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6d5a7be6-8111-4cab-85f8-df4200859ea1",
+  "query": "Microsoft Power BI product overview features ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Microsoft Power BI product overview features",
+      "Looker business intelligence platform features",
+      "Thoughtspot Spotter product AI analytics"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search0",
+      "snippet": "###### Spotter is the analytics agent that helps every team get trusted answers, scale analytics impact, and safely deliver agentic AI—so decisions, products, and execution",
+      "title": "Spotter | The most trusted enterprise agent for analytics",
+      "url": "https://www.thoughtspot.com/product/agents/spotter"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search1",
+      "snippet": "Embed Spotter directly into your product so customers get governed, AI-native analytics without leaving your experience. ... ThoughtSpot Embedded gives you a production-ready, AI-native analytics",
+      "title": "Spotter: Agentic Analytics for Software and Tech",
+      "url": "https://www.thoughtspot.com/solutions/tech-software-analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search2",
+      "snippet": "Powered by ThoughtSpot’s patented search token architecture and agentic semantic layer, Spotter guarantees transparency and explainability in AI answers, giving you the confidence to make",
+      "title": "ThoughtSpot BI Agents: Spotter, Model, Viz & Code",
+      "url": "https://www.thoughtspot.com/product/agents"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search3",
+      "snippet": "ThoughtSpot Analytics ... Design and embed AI-powered analytics experiences into any product with the developer-friendly analytics SDK. ... Auto-analyze billions of rows of data to",
+      "title": "ThoughtSpot Product",
+      "url": "https://www.thoughtspot.com/product"
+    },
+    {
+      "type": "text_result",
+      "domain": "docs.thoughtspot.com",
+      "ref_id": "turn19search4",
+      "snippet": "ThoughtSpot Cloud is AI-powered analytics that puts self-service analysis in the hands of everyone in your organization—no SQL or data expertise required.## Spotter agents",
+      "title": "ThoughtSpot Cloud Documentation :: ThoughtSpot Documentation",
+      "url": "https://docs.thoughtspot.com/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search5",
+      "snippet": "# Introducing Spotter: ThoughtSpot’s AI Analyst for everyone ... Spotter’s augmented analytics engine is built using ThoughtSpot’s relational search—the tried-and-trusted technology behind ThoughtSpot",
+      "title": "Introducing Spotter: Your AI Analyst",
+      "url": "https://www.thoughtspot.com/blog/introducing-spotter-ai-analyst"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search6",
+      "snippet": "ThoughtSpot's Agentic Analytics Platform flips that ratio. ... Explore data conversationally with Spotter, your agentic AI analyst, and let it resolve the routine questions that",
+      "title": "Agentic Analytics Platform for Data Analysts | ThoughtSpot",
+      "url": "https://www.thoughtspot.com/analyst"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search7",
+      "snippet": "Image: ThoughtSpot Agentic Anayitcs Product Interface ... Spotter, ThoughtSpot’s dedicated AI analyst, delivers true self-service on your business data, backed by enterprise-grade trust.",
+      "title": "Augmented Analytics for Smarter, Automated Insights",
+      "url": "https://www.thoughtspot.com/product/automated-analytics"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search8",
+      "snippet": "Image: Your Guide for Agentic Analytics ... # Meet Spotter: Your AI Analyst",
+      "title": "Spotter-Your dedicated AI Analyst",
+      "url": "https://www.thoughtspot.com/spotter-embed"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search9",
+      "snippet": "## How Spotter Semantics Makes AI Reliable ... Image: ThoughtSpot Agentic Anayitcs Product Interface ... Encode shared definitions, business logic, and security rules once so",
+      "title": "Spotter Semantics | ThoughtSpot",
+      "url": "https://www.thoughtspot.com/product/spotter-semantics"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search10",
+      "snippet": "ThoughtSpot AI-powered analytics takes search-driven analytics to the next level with natural language and generative AI. ... ThoughtSpot’s search token technology is key to how",
+      "title": "ThoughtSpot Trust Center for Enterprise-Grade AI",
+      "url": "https://www.thoughtspot.com/trust/enterprise-grade-ai"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.thoughtspot.com",
+      "ref_id": "turn19search11",
+      "snippet": "THOUGHTSPOT FOR INDUSTRIES ... Trust Spotter, your enterprise analytics agent-- now tailored to your industry -- to act like your best analysts and drive ROI.",
+      "title": "ThoughtSpot for Industries",
+      "url": "https://www.thoughtspot.com/solutions"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn19search12",
+      "snippet": "Meet Spotter, your AI analyst ... - Show the total sales by product and region ... https://docs.thoughtspot.com/cloud/10.11.0.cl/spotter-why",
+      "title": "Customer Insights Hour | August 28th",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-Customer-Insights-Hour-August-2025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn19search13",
+      "snippet": "ThoughtSpotAgentic Analytics Platform ... Spotter - Agentic AI Analyst, Deep Research, Agent as a Service",
+      "title": "Spotter  SpotMap",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-SpotMap-Slides-February-2026.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn19search14",
+      "snippet": "The dashboard shows a line chart titled “Total Sales by Daily Date and Product Type,” with multiple colored product-type lines and a right-side legend listing",
+      "title": "ThoughtSpot-Thoughtspot AI Premium-Services.docx",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-Thoughtspot-AI-Premium-Services.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn19search15",
+      "snippet": "INTRODUCING AI-DRIVEN ANALYTICS FROM THOUGHTSPOT ... SpotIQ works hand-in-hand with ThoughtSpot’s relational search engine to curate deep and relevant insights for users that they may",
+      "title": "Chapter 4  \nINTRODUCING AI-DRIVEN ANALYTICS FROM T",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-SpotIQ-AI-Driven-Analytics-Whitepaper-2nd-Edition.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "media.thoughtspot.com",
+      "ref_id": "turn19search16",
+      "snippet": "Whether you’re using the ThoughtSpot application or mobile app to uncover business insights in natural language, building entirely new data products with ThoughtSpot Embedded, or",
+      "title": "2024 TS brochure",
+      "url": "https://media.thoughtspot.com/pdf/ThoughtSpot-AI-Powered-Analytics.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-5ab6ff18-fae7-4d77-879a-b8a76d228e70",
+  "query": "BARC BI Analytics Survey 2026 user survey data governance problems ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "BARC BI Analytics Survey 2026 user survey data governance problems",
+      "BI data analytics survey 2025 data quality self service adoption"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search0",
+      "snippet": "BARC has published the Data, BI and Analytics Trend Monitor 2026, the world’s largest survey on trends in data and analytics. ... The BARC Data,",
+      "title": "BARC News | Data Quality Beats AI Hype",
+      "url": "https://barc.com/news/barc-publishes-the-data-bi-and-analytics-trend-monitor-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search1",
+      "snippet": "By providing the raw data via a web-based tool – The BI & Analytics Survey Analyzer – users have the ability to carry out their",
+      "title": "About The BI & Analytics Survey",
+      "url": "https://barc.com/about-the-bi-analytics-survey/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search2",
+      "snippet": "Scaling AI in 2026 will not work without a platform-independent semantic layer and a much sharper governance practice,” says Kevin Petrie, VP of Research at",
+      "title": "Unstructured data remains the biggest blind spot in production AI, shows BARC study",
+      "url": "https://barc.com/news/unstructured-data-barc-study/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search3",
+      "snippet": "* March 18, 2026 ... Part of the problem is a disconnect between what vendors promise and what users actually do. ... On the user",
+      "title": "Data fabric tools strengthen data access and trust, but AI readiness lags behind",
+      "url": "https://barc.com/news/ai-in-data-management-falls-short-of-expectations-barc-survey/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search4",
+      "snippet": "In the BARC BI & Analytics Survey 26 (n=857), 66% of respondents rate data security and privacy as very important, and 62% say the same",
+      "title": "BARC Article | Is Your Data Foundation Ready?",
+      "url": "https://barc.com/ai-readiness-data-foundation/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search5",
+      "snippet": "Publication: March 2026 ... This offer is aimed at enduser companies. ... It employs the same proven methodology as The BI & Analytics Survey and",
+      "title": "The Data Fabric Survey 26",
+      "url": "https://barc.com/product/the-data-fabric-survey/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search6",
+      "snippet": "* September 22, 2026 ... BARC has published the global topical survey “The State of Data and AI Governance,” based on responses from 234 data,",
+      "title": "AI is in production at 97% of organizations, but controls lag behind",
+      "url": "https://barc.com/news/ai-is-in-production-at-97-of-organizations-but-no-control/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search12",
+      "snippet": "BARC ... Our survey data shows that performance issues are both the most common product-related problem and one of the most frequently reported issues overall",
+      "title": "The BI & Analytics Survey 26 - Sample, Product, Methodology and KPIs",
+      "url": "https://barc.com/wp-content/uploads/2025/11/The-BI-Analytics-Survey-26-Sample-Products-Methodology-and-KPIs.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search7",
+      "snippet": "* November 5, 2025 ... The new BI & Analytics Survey 26 by BARC, the world’s largest end-user survey of BI and analytics software, based",
+      "title": "Inside the BI Market – What 1,000 Users Say About Their Tools",
+      "url": "https://barc.com/news/what-1000-users-say-about-their-bi-tools/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search8",
+      "snippet": "# Data, BI and Analytics Trend Monitor 2026 – Recommendations & Methodology ... Timm Grosser is a Senior Analyst Data & Analytics at BARC with",
+      "title": "Trend Monitor 2026 - Recommendations & Methodology",
+      "url": "https://barc.com/data-bi-analytics-trend-monitor-2026-recommendations/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search9",
+      "snippet": "This is the central finding of the global BARC study Data Sovereignty 2026: Reality, Relevance, Roadmap, for which 320 companies were surveyed. ... The study",
+      "title": "Data Sovereignty 2026: From Compliance Topic to Prerequisite for Scalable AI",
+      "url": "https://barc.com/news/data-sovereignty-2026-survey/?trk=public_post_comment-text"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search10",
+      "snippet": "This second edition of the BARC Topical Survey shows how drivers and measures have shifted since 2025, where Europe and North America are diverging, and",
+      "title": "Data Sovereignty 2026: Reality, Relevance, Roadmap",
+      "url": "https://barc.com/research/data-sovereignty-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "barc.com",
+      "ref_id": "turn20search11",
+      "snippet": "The Analytics & AI Survey – formerly known as The BI & Analytics Survey – is the world’s largest survey of business intelligence, analytics, and",
+      "title": "Latest BARC surveys",
+      "url": "https://barc.com/research/latest-barc-surveys/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b20b7823-51bf-4afe-8262-3d16529a8425",
+  "query": "https://cloud.google.com/looker",
+  "action": {
+    "type": "openPage",
+    "url": "https://cloud.google.com/looker"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "cloud.google.com",
+      "ref_id": "turn21view0",
+      "snippet": "Total lines: 623",
+      "title": "Looker: AI Business Intelligence & Embedded Analytics | Google Cloud",
+      "url": "https://cloud.google.com/looker"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.microsoft.com",
+      "ref_id": "turn21view1",
+      "snippet": "Total lines: 649",
+      "title": "Power BI - Data Visualization | Microsoft Power Platform",
+      "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.qlik.com",
+      "ref_id": "turn21view2",
+      "snippet": "Total lines: 799",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/4U5LJCJwFQP0bnuM-MMQh1yBilaJWNkBds1O_DaEsK9exvD45gchTvgyNlGuzaLlVjK4RxKnJfpDvV7j9W__Vw",
+      "title": "Qlik Cloud Analytics | Agentic Analytics for Smarter Business Decisions",
+      "url": "https://www.qlik.com/us/products/qlik-cloud-analytics"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn21view3",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-33ae7f74-13d9-44f5-a7a7-b76b19eaafa6",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn22view0",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-38cd190b-18b5-4e45-92e0-298d0634b2a7",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn23view0",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c9692c9a-56fd-4ade-bfa5-0908e5011d95",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn24view0",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-bd1bc446-22de-47c6-be6e-3c20a1bb29c9",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn25view0",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-971e8351-3b0c-4f00-b00e-058621fda591",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.onrc.ro",
+      "ref_id": "turn26view0",
+      "snippet": "Total lines: 1180",
+      "url": "https://www.onrc.ro/documente/anunturi/CAEN-Rev.3_structura-completa.pdf"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5834bdc8-e04b-48bf-9447-28d559876a51",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-ChildItem -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218' -Name\nGet-ChildItem -LiteralPath 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime' -Name\"",
+  "cwd": "C:\\Users\\User",
+  "processId": "24754",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-ChildItem -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218' -Name\nGet-ChildItem -LiteralPath 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime' -Name"
+    }
+  ],
+  "aggregatedOutput": ".codex-plugin\r\nassets\r\nskills\r\n.app.json\r\nREADME.md\r\ndependencies\r\nplugins\r\nruntime.json\r\n",
+  "exitCode": 0,
+  "durationMs": 214
+}
+````
+
+## Asistent
+
+Voi trata cele 10 platforme ca un grup de referință, fără a pretinde un clasament universal. Cerințele propuse vor acoperi și planificarea, simulările și acțiunile în ERP/CRM. În panoul principal al managerului recomand 12 KPI și o listă scurtă de excepții prioritare; catalogul extins va susține analizele pe departamente și industrii.
+
+
+## Asistent
+
+Catalogul de bază este structurat în 22 de capitole, de la strategie și numerar până la producție, oameni, fiscalitate și calitatea datelor. Adaug pachetele sectoriale și regulile automatizărilor. Acțiunile cu efect financiar vor avea limite și aprobări configurate, iar alertele vor avea responsabil, termen și confirmarea rezolvării.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-2c75023e-8da5-4624-bc00-b7021d9ab15d",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -NoProfile -Command \"rg --files 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime' -g 'mark_artifact_operation_started.mjs'\nrg --files 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\spreadsheets\\\\26.915.20218' -g 'mark_artifact_operation_started.mjs'\"",
+  "cwd": "C:\\Users\\User",
+  "processId": "10828",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg --files 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime' -g 'mark_artifact_operation_started.mjs'\nrg --files 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218' -g 'mark_artifact_operation_started.mjs'"
+    }
+  ],
+  "aggregatedOutput": "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime\\plugins\\pdf\\skills\\pdf\\container_tools\\mark_artifact_operation_started.mjs\nC:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime\\plugins\\documents\\skills\\documents\\container_tools\\mark_artifact_operation_started.mjs\nC:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime\\plugins\\spreadsheets\\skills\\spreadsheets\\container_tools\\mark_artifact_operation_started.mjs\nC:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime\\plugins\\presentations\\skills\\presentations\\container_tools\\mark_artifact_operation_started.mjs\nC:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.915.20218\\skills\\spreadsheets\\container_tools\\mark_artifact_operation_started.mjs\n",
+  "exitCode": 0,
+  "durationMs": 997
+}
+````

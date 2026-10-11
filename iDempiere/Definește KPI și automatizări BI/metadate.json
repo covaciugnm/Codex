@@ -1,0 +1,23 @@
+{
+  "id": "01a12b7e-5143-7d52-98d9-06cd528e1a15",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791731061,
+  "updated_at": 1791731994,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Definește KPI și automatizări BI",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-11T20:24:09.131464+00:00",
+  "source_bytes": 1658569,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 42,
+  "message_count": 8,
+  "content_sha256": "50ca503202a61efc0e4e1b7d16ca20687389f62537c49f7ee93b891bd757dd87",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

@@ -354,3 +354,13 @@ EVA-SchallerGasse/subagenti/Fara[[:space:]]titlu--cdf5b78c/istoric.json filter=l
 EVA-SchallerGasse/subagenti/Fara[[:space:]]titlu--cdf5b78c/rezultate.md filter=lfs diff=lfs merge=lfs -text
 3D.AppleScan/subagenti/Fara[[:space:]]titlu--08646673/istoric.json filter=lfs diff=lfs merge=lfs -text
 3D.AppleScan/subagenti/Fara[[:space:]]titlu--08646673/rezultate.md filter=lfs diff=lfs merge=lfs -text
+3D.AppleScan/subagenti/Fara[[:space:]]titlu--08646673/istoric.json filter=lfs diff=lfs merge=lfs -text
+3D.AppleScan/subagenti/Fara[[:space:]]titlu--08646673/rezultate.md filter=lfs diff=lfs merge=lfs -text
+iDempiere/Alege[[:space:]]un[[:space:]]WMS[[:space:]]gratuit[[:space:]]pentru[[:space:]]iDempi/fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip filter=lfs diff=lfs merge=lfs -text
+iDempiere/Alege[[:space:]]un[[:space:]]WMS[[:space:]]gratuit[[:space:]]pentru[[:space:]]iDempi/fisiere/Cash_Flow_2026-10-08--d6b8c741.zip filter=lfs diff=lfs merge=lfs -text
+iDempiere/Alege[[:space:]]un[[:space:]]WMS[[:space:]]gratuit[[:space:]]pentru[[:space:]]iDempi/fisiere/ERP_Productie_2026-10-08--268cd8be.zip filter=lfs diff=lfs merge=lfs -text
+iDempiere/Compară[[:space:]]3[[:space:]]programe[[:space:]]HR[[:space:]]gratuite/fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip filter=lfs diff=lfs merge=lfs -text
+iDempiere/Compară[[:space:]]ERP-uri[[:space:]]pentru[[:space:]]producție/fisiere/ERP_Productie_2026-10-08--268cd8be.zip filter=lfs diff=lfs merge=lfs -text
+iDempiere/Compară[[:space:]]soluții[[:space:]]Cash[[:space:]]Flow/fisiere/Cash_Flow_2026-10-08--d6b8c741.zip filter=lfs diff=lfs merge=lfs -text
+iDempiere/Inventariază[[:space:]]documentele[[:space:]]ERP/fisiere/Biblioteca_modele_documentate_ERP_RO_2026-10-06--dabb61bd.zip filter=lfs diff=lfs merge=lfs -text
+iDempiere/Inventariază[[:space:]]documentele[[:space:]]ERP/fisiere/Catalog_documente_ERP_RO_2026-10-06--2442c10a.zip filter=lfs diff=lfs merge=lfs -text
