@@ -2594,3 +2594,7 @@ M-am oprit și nu mai fac nimic în browser. Nu am descărcat nimic și nu am ș
 3. **Abia apoi** le ștergi așa: în Drive selectezi folderul (Comun, Documents, Downloads) → iconița **coș** din bara de sus, sau click dreapta → **Mută în coș**. La final golești coșul.
 
 Spune-mi când vrei să continui.
+
+## Asistent
+
+You've hit your weekly limit · resets Oct 12, 9am (Europe/Bucharest)

@@ -7,6 +7,27 @@
     "sha256": "0a437b2f9f4ad5bafed7c33b5c3287a43a9275b97fee2e601caa558fc5185362"
   },
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Arhiveaza verificare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 Arhiveaza verificare--a0cd49a1.py",
+    "bytes": 9692,
+    "sha256": "7dcf49c7406e3e48cdb8d7ce6de39ca10882ce58fd0094d64c4d0bced2a65a22"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Completeaza audit local.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 Completeaza audit local--81277982.py",
+    "bytes": 1627,
+    "sha256": "bcfeed750f7afcf6b09940829d50920e24d75a3d919d567b4ba01549a08dc9f9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Manifest Eva-Mail temporar.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 Manifest Eva-Mail temporar--df9faaf5.json",
+    "bytes": 163918,
+    "sha256": "4c07df71ab55552ac55706f275d37795c29c76f3a34c108183649ff5ffec991c"
+  },
+  {
     "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
     "status": "fisier_inexistent_sau_director"
   },

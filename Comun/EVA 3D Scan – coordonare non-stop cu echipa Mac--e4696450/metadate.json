@@ -1,0 +1,23 @@
+{
+  "id": "01a11d74-c334-7893-beed-68a9e4696450",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791339404,
+  "updated_at": 1791339495,
+  "archived": 0,
+  "source": "vscode",
+  "title": "EVA 3D Scan – coordonare non-stop cu echipa Mac",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-11T08:22:35.726694+00:00",
+  "source_bytes": 93034,
+  "invalid_json_lines": 0,
+  "history_source": "legacy_events",
+  "rollout_exists": true,
+  "item_count": 20,
+  "message_count": 20,
+  "content_sha256": "d67ee008d0034aba4c55def398d22688a299147df15475d107732ce87412cdde",
+  "files_copied": 1,
+  "references_not_copied": 17
+}

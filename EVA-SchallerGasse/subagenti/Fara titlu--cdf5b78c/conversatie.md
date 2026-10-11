@@ -2,7 +2,7 @@
 
 ID: `01a11589-044f-7c10-8ff4-8a1ccdf5b78c`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-08T14:13:28.280906+00:00
+Export UTC: 2026-10-11T08:22:35.726694+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -48,3 +48,52 @@ Căutarea după adresă trebuie să includă variantele **Schallergasse 35**, **
 `05. Asigurari/2026.10.07 Opinie juridica Donau Schallergasse 35.pdf`, creat/modificat la **2026.10.07, 12:12:12**, 246.586 octeți. Hash-ul coincide cu PDF-ul din dosarul analizei auditate (`8cd31269…ffd4907`): **este o copie identică, nu o comunicare nouă**. Nu am identificat alte documente noi/modificate în comparația metadatelor.
 
 Drafturile DONAU `aa653a96-…` și Capra `3b3a2213-…` rămân **netrimise**. Termenul de răspuns propus **2026.10.09** în draftul DONAU nu trebuie tratat ca termen deja comunicat.
+
+## Asistent
+
+Verific reperele locale și fișierele schimbate după ultima indexare, pentru a identifica ce mai necesită confirmare în email.
+
+
+## Asistent
+
+Cele 34 exporturi EML cu dată de modificare nouă au exact aceleași hash-uri ca în index. Singurul fișier nou este un PDF din Inbox; folosesc fluxul de citire PDF pentru a-i stabili relevanța.
+
+
+## Asistent
+
+Verificare locală read-only 2026.10.11:
+
+- **34 EML istorice** au data de modificare schimbată la 2026.10.09, dar **toate 34 au SHA-256 identic cu indexul**. Nu sunt comunicări noi.
+- **Un PDF nou:** `Inbox/Documente-germana.pdf`, 39 pagini, 14.694.709 octeți, mtime 2026.10.09 15:24:42; SHA `604b90c64c1c65fa2361835d7a597e7344ac61bf00162c521ea1fa95ccb65f02`. Este scanat, fără text extractibil, produs iLovePDF la 2026.10.07. Pagini inspectate: formular Wiener Wasser necompletat, ofertă REALIG din 2026.03.26, document administrativ Burgenland. Conținut mixt; nu dovedește singur o comunicare externă nouă. Oferta REALIG are deja original separat în arhivă. Nu am interpretat integral cele 39 pagini.
+
+Repere pentru Eva-Mail:
+
+| Partener | Ce rămâne neconfirmat |
+|---|---|
+| **SCHAUERLEUTE** | Vizita propusă **2026.10.09, 09:30 Viena /10:30 România**: nici confirmare a beneficiarului, nici efectuare documentată local. Ultimul primit: ID `7297d88d-378c-4d49-95f0-12838396fbdd`, 2026.10.07. De verificat confirmarea/reprogramarea, transmiterea documentelor și eventualele prețuri după vizită. |
+| **TOMS** | V4.1 **trimis la 2026.10.02**, 37.900 EUR net, dar fără acceptare/semnături confirmate. Ultimul răspuns primit 2026.10.01, ID `838c8bcd-4e2d-4e90-bc25-25355ea6da60`; trimis V4.1 `64c91100-89c3-4206-8e7e-988e575385b8`. Rămân semnături, data efectivă, calendar D2–D5, acces portal/planlistă, vizită și documentele echipei/asigurării. D1 începe la semnarea ambelor părți. Vizita țintă 2026.10.08 nu este confirmată. |
+| **DONAU/Commerz** | **Termen 2026.10.12**, suma cerută **5.326,15 EUR**, include deja Q4. Nicio plată, suspendare a termenului/costurilor, reducere sau restabilire a acoperirii confirmată local. Ultimul DONAU: 2026.10.06, `2c273256-a0bf-408b-bb22-09718372e888`; ultimul direct Commerz: 2026.09.30, `1fa19552-d1fd-459e-92b3-57ed5319d18c`. Referințe: **2044001194 /2616052 /2900010498**. |
+
+Draftul DONAU `aa653a96-7eee-4133-a41d-5892ea79788d` și solicitarea Capra `3b3a2213-bc82-47ea-a023-4692db3da65c` rămân **NETRIMISE** în evidența locală. Termenul 2026.10.09 din draftul DONAU nu trebuie prezentat drept termen transmis asigurătorului.
+
+Cele mai recente statusuri/jurnale rămân cele din 2026.10.08; nu există actualizare locală ulterioară care să confirme reperele de mai sus.
+
+## Asistent
+
+Verific vizual toate cele 39 de pagini ale PDF-ului nou, pentru a separa documentele istorice de eventuale acte sau decizii recente.
+
+
+## Asistent
+
+Am verificat **vizual toate 39 de pagini** prin trei planșe de contact și am deschis separat, la rezoluție mai mare, paginile **1–6, 10–11, 16, 18, 22, 26, 30, 34 și37**. Pagina3 a fost rotită pentru citire.
+
+**Nu am identificat acte ori decizii datate după 2026.10.08.** PDF-ul este o compilație istorică mixtă:
+
+- **p.1:** formular Wiener Wasser pentru preluarea contorului, necompletat; fără dată, semnătură sau confirmare de preluare.
+- **p.2–3:** oferta/calculul REALIG pentru Schallergasse35, datate **2026.03.26**. Originalul REALIG există deja separat în arhivă; nu este ofertă nouă ori acceptare.
+- **p.4–15:** corespondență fiscală Chemnitz-Süd/CESIRO, din **2026.07.28–29**, cu formulare necompletate și termen istoric **2026.09.10**; alt dosar decât clădirea.
+- **p.16–39:** documente personale privind circulația rutieră, în germană/română, datate **2026.07.03, 2026.07.10, 2026.08.26 și2026.09.10**; formulare și traduceri. Fără legătură documentată cu proiectul.
+
+**Data cea mai recentă a unui act observat este 2026.09.10.** Mtime2026.10.09 indică apariția copiei locale; metadata PDF indică asamblare iLovePDF la2026.10.07. Nu trebuie raportat ca noutate externă a clădirii.
+
+PNG-urile de audit sunt numai în rădăcina de vizualizări autorizată, dosarul `2026.10.11 Audit Inbox`. Originalele, registrele și jurnalele nu au fost modificate. Acoperirea este identificare vizuală a tuturor paginilor și citirea detaliată a paginilor enumerate, nu audit juridic sau financiar al dosarelor personale.

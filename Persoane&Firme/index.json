@@ -11,8 +11,9 @@
     "conversations": 2,
     "subagents": 0,
     "messages": 61,
-    "files_copied": 20,
-    "content_sha256": "0de774b691b0dfa0154a940c5c5f88b4c7152570a3f2948427e13570013a13dd"
+    "files_copied": 4,
+    "folder": "Persoane&Firme",
+    "content_sha256": "3c196a30a3f2bd499fdf08d4d3dbf62b57147b2da47bd952dc3051fa1cf7ac33"
   },
   "threads": [
     {
@@ -27,7 +28,7 @@
       "project": "Persoane&Firme",
       "assignment_method": "app_assignment",
       "parent_thread_id": null,
-      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "export_started_at_utc": "2026-10-11T08:22:35.726694+00:00",
       "source_bytes": 23520185,
       "invalid_json_lines": 0,
       "history_source": "items",
@@ -35,8 +36,8 @@
       "item_count": 188,
       "message_count": 37,
       "content_sha256": "25ae7cf9a68f50f883055ad54bec77dfc0d2271a2574a0d44f65a5dd158ae6c3",
-      "files_copied": 17,
-      "references_not_copied": 3,
+      "files_copied": 1,
+      "references_not_copied": 19,
       "subagent": false,
       "folder": "Persoane&Firme/Organizează documentele persoanelor"
     },
@@ -52,7 +53,7 @@
       "project": "Persoane&Firme",
       "assignment_method": "app_assignment",
       "parent_thread_id": null,
-      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "export_started_at_utc": "2026-10-11T08:22:35.726694+00:00",
       "source_bytes": 10032312,
       "invalid_json_lines": 0,
       "history_source": "items",

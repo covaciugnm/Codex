@@ -2,7 +2,7 @@
 
 ID: `01a0f194-572c-7490-a456-49150d14916a`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-08T14:13:28.280906+00:00
+Export UTC: 2026-10-11T08:22:35.726694+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -382,3 +382,14 @@ doar verificam
 ## Asistent
 
 Am înțeles. BauKG nu este inclus; totul rămâne cum ai cerut.
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verific-finalizarea-contractului-toms</automation_id>
+  <current_time_iso>2026-10-09T07:00:25.142Z</current_time_iso>
+  <instructions>
+Verificare unică programată pentru vineri 02.10.2026, ora 10:00 Europe/Bucharest (09:00 Viena). Citește jurnalul local 05 Jurnal TOMS - situatie si actiuni.txt din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\TOMS\2026-10-01 Contract v3 - propunere și ultimele mesaje TOMS din Eva-Mail. Verifică dacă ciornele contract și acces portal au fost trimise, dacă există contract v3 semnat de ambele părți cu dată efectivă și calendar acceptat, confirmarea accesului și planului de bază, prețurile pentru detalierea separată, documentele de asigurare/echipă și programarea vizitei până la 08.10.2026. Calendar propus: D1 09.10, D2 16.10, calcul static complet 22.10, D3 23.10, D4/D5 28.10.2026. Distinge propunerea de acceptare. Notifică utilizatorul cu diferențele, întârzierile și acțiunile necesare; dacă totul este confirmat, raportează închiderea verificării. Nu trimite emailuri, nu semna contracte și nu modifica documentele comerciale. Execută o singură verificare.
+  </instructions>
+</heartbeat>
+

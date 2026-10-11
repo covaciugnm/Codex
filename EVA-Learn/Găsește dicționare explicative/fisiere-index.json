@@ -92,24 +92,15 @@
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\build_dictionary_extended.cjs",
-    "status": "copiat",
-    "saved_path": "fisiere/build_dictionary_extended--d78904b7.cjs",
-    "bytes": 16057,
-    "sha256": "ddb1182b8a9d57afa47f2f35ef515f8879c7611d09649b7e1b2a732cbec70ab8"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\dictionary_data_extended.json",
-    "status": "copiat",
-    "saved_path": "fisiere/dictionary_data_extended--8c59cac9.json",
-    "bytes": 429964,
-    "sha256": "bbbe08353d377c878a1cb16d3cf06e43001245b83578fa5e4b89ba56bbe2af94"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\prepare_dictionary_extended.cjs",
-    "status": "copiat",
-    "saved_path": "fisiere/prepare_dictionary_extended--936ec341.cjs",
-    "bytes": 6513,
-    "sha256": "e91f29798c93bb50a3dda783bd0c3f7bd89b5eaf2294339fa226e75444d07300"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Learn/EVA_LEARN_DB_35",

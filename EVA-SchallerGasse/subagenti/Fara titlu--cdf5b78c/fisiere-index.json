@@ -1,5 +1,117 @@
 [
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 contact 1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 contact 1--a3c51195.png",
+    "bytes": 1055412,
+    "sha256": "521d38f65e9a8901321bbcf8651b77e5cada871ed19e3b3095ec94c2cc7b9570"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 contact 2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 contact 2--1eb587a3.png",
+    "bytes": 1024996,
+    "sha256": "ec178fa8c49ca41e1b6bad0bb8df0a22f71f1fb0a434883cbfa35f92bce84b55"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 contact 3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 contact 3--359f224e.png",
+    "bytes": 1160134,
+    "sha256": "419d1f19f044f49d35801fdbcce54efd4619ecb94aaa73feffbe236529870a2e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 10--98c54fea.png",
+    "bytes": 372194,
+    "sha256": "e6ff8597f24be7c4eb63934d1624d7f3ae4ac2cfbc031a5dc57796e9ea8503d1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 11--dfd07e03.png",
+    "bytes": 410333,
+    "sha256": "f2c052ea01ba6a516baed3a05c39eecdf7b205caad0a65aa35d4112181c815a3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 16--99ac08bf.png",
+    "bytes": 353027,
+    "sha256": "685e83a2c0fd6e27c2352c65e9e6a6b0c1a0f91db2f09a6daa498155c23115ca"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 18--46f43748.png",
+    "bytes": 320980,
+    "sha256": "b1e0126e99394dd9e5a5ae13fe322570a43c33f29aef89896ea4bc6a8125ab6f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 22--fc1a8d29.png",
+    "bytes": 384397,
+    "sha256": "96cf30b11feee2ff33cb201d0682ed176a413ccc70ea72c53e45eef4237cbb21"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 26--f9642266.png",
+    "bytes": 425216,
+    "sha256": "41b000b1295f84b98ffc75b4c5ff49c31c7309133ae85d33bc8e7794092bd063"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 3 rotita.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 3 rotita--9c22a3af.png",
+    "bytes": 650770,
+    "sha256": "817d0751122a2e20335d0e6f2140132b8a8a50a0cbd5b206be795bcf55ed6054"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 30.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 30--2b70e94b.png",
+    "bytes": 411462,
+    "sha256": "78ab66179720f37c4226de501e3f5d99a6cdd63f8cc0c0ec84e8e9a9ed9e1e16"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 34.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 34--583a0bd9.png",
+    "bytes": 420387,
+    "sha256": "046e13a91c26992bbec7cb5cad326dc67bc57ed7bac712a7d9c71dba5f9262e6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 37.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 37--3e0f9eb8.png",
+    "bytes": 417496,
+    "sha256": "5f8c08ea71b835c4fbe1c5cd39ffc969c0d5354869bcd9f51928252469f6093c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 4--ae711c2b.png",
+    "bytes": 416617,
+    "sha256": "a7b7f6dba22f41b01bd18961b2b06459054b77a71cc2c1a285e675b3938951f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 5--563c2135.png",
+    "bytes": 408903,
+    "sha256": "3ea61b75409416a563e4d854e0bc21cc40020d4efd7525d93d41b715bec62018"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.11 Audit Inbox\\2026.10.11 pagina 6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.11 pagina 6--7cfb2d4d.png",
+    "bytes": 188689,
+    "sha256": "802270b44faef11849504a64281e3cf1230bb980b38c732351f33be1f324abb1"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Audit juridic.txt",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.07 Audit juridic--d457ec46.txt",

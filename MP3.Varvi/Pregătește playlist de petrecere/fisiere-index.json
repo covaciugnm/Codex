@@ -1,10 +1,147 @@
 [
   {
+    "source_reference": "/D:/MP3.Varvi/downloads/Excel - Playlist_masa_si_petrecere_COMPLET",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "D:/MP3.Varvi/outputs/free_mp3_20261008/Playlist_MP3_gratuite_24_ore.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Playlist_MP3_gratuite_24_ore--c1f3ce0d.xlsx",
+    "bytes": 87866,
+    "sha256": "a251e228032e42bf92e26d71cee19f7c27d8b000a060d7b71690305a4ad680a5"
+  },
+  {
     "source_reference": "D:/MP3.Varvi/outputs/party_20261008/Model_playlist_masa_si_petrecere.xlsx",
     "status": "copiat",
     "saved_path": "fisiere/Model_playlist_masa_si_petrecere--56927e9b.xlsx",
     "bytes": 35313,
     "sha256": "4ef687ada6c94c831c46e5437d5a2a527aca3bdc91001e683c5b2f80a2b31cb4"
+  },
+  {
+    "source_reference": "D:/MP3.Varvi/outputs/party_20261008/Playlist_masa_si_petrecere_COMPLET.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Playlist_masa_si_petrecere_COMPLET--81098299.xlsx",
+    "bytes": 88998,
+    "sha256": "e460795c22d76389790760f736adbfcad223c372fb80cded3c61f1bd423dc3b8"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\build_free.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build_free--c9caa9b0.mjs",
+    "bytes": 8539,
+    "sha256": "c81fe221f70f2e30f5d036cc3866ea4c0c6963cb0e6d1420e459bb065056df64"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\collect_archive.py",
+    "status": "copiat",
+    "saved_path": "fisiere/collect_archive--55d6b277.py",
+    "bytes": 4198,
+    "sha256": "14da49638569d3569d291b1f69d30d90512a74663676e80e01564c25a1065401"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\collect_free.py",
+    "status": "copiat",
+    "saved_path": "fisiere/collect_free--4f96e4ef.py",
+    "bytes": 2159,
+    "sha256": "b5849b6747ef157074df4de4769fa9e689f0a5e7739217e8c4c701185d659a75"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\enrich_free.py",
+    "status": "copiat",
+    "saved_path": "fisiere/enrich_free--ac8138a8.py",
+    "bytes": 3044,
+    "sha256": "5f8680d206acc43d101b5374af3c0bebb8a7ff848311dba5111fefe9ec3905f0"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\native_links.py",
+    "status": "copiat",
+    "saved_path": "fisiere/native_links--24f24fd5.py",
+    "bytes": 2130,
+    "sha256": "d80c931e813966dc6a81277da5e8d5090d9af04f12a460d383d134137c7b57b6"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_0--3566c718.png",
+    "bytes": 134944,
+    "sha256": "7d244e0ea377e0e77e8aaf3cb61605dcd6b72ec77a9a4712fa1ca591d2f3bbdc"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_1--44d1663a.png",
+    "bytes": 89580,
+    "sha256": "bbd76d20b9cc059b52810e267fe6477fa7921940254156a29f83bf2e801ac71f"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_10--d245c1da.png",
+    "bytes": 81055,
+    "sha256": "d1b365cee74654d641283095b0eda47bf3e93140eb797f9ba60df9475982b5d1"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_2--e7b3e430.png",
+    "bytes": 88316,
+    "sha256": "1b378617c1327e58765c426bbc16b0ec0a7658b579f329e4139da1d8700d635a"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_3--1cac8621.png",
+    "bytes": 85118,
+    "sha256": "4e54a58c7948438db35e5a07be48c910ed5c29ae826afa7058520db4bb07992b"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_4--fe1b0c3d.png",
+    "bytes": 82904,
+    "sha256": "dc47c70601e33852bbf9143bb642f173f972dbccad8492f1fdfe478c70a317f0"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_5--74c406c8.png",
+    "bytes": 84512,
+    "sha256": "c32997237663a7f56ef79ff7d5774ec611780d0289d466a9aced16067c19ea1e"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_6--015920ca.png",
+    "bytes": 81319,
+    "sha256": "df5bb9828b56f3473da1ce21ff28dfb4e638c2c76a4b062c111fcf8ec17293da"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_7--d24c7019.png",
+    "bytes": 87442,
+    "sha256": "961d9028ba2f5b12639a94ff55019c4825b4e6feb1638a89ad96aa3b80d46c79"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_8--c64c3b68.png",
+    "bytes": 97676,
+    "sha256": "c851d64efd6b32625596a5066616709d01a9632c3989ffeaab14d83884f40f85"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\previews\\free_9.png",
+    "status": "copiat",
+    "saved_path": "fisiere/free_9--0394b7d9.png",
+    "bytes": 107043,
+    "sha256": "6559e680f23eb6c210effd3f3f93d3ba521738242e198eb311ce1db5f9639ae7"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\free_mp3_20261008\\select_free.py",
+    "status": "copiat",
+    "saved_path": "fisiere/select_free--5b3c31e8.py",
+    "bytes": 5953,
+    "sha256": "4eef08605896718ba2ad369a54c491567d3d9968930ed5cc54351619f8abd47b"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\build_template.mjs",
@@ -19,6 +156,104 @@
     "saved_path": "fisiere/collect--e044fafa.py",
     "bytes": 6521,
     "sha256": "cd2a2e0b011e9f4c0b3bcb8ddf24c8a02b9be50d8515eac8839dcb7b38832390"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_0--ae14988c.png",
+    "bytes": 103894,
+    "sha256": "153c3f3ac41da98d2d1dc910e000fa8cb43088bed81066d5676008ed4d301df7"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_1--e1aaba59.png",
+    "bytes": 101127,
+    "sha256": "b7dc6021048d94abc48c0828eae5b38beac47fdf8aa1662b921379e4ba3ae99a"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_10--c9190fe1.png",
+    "bytes": 89366,
+    "sha256": "ba935b04ae47407ec52cce269c2095a87b6f21b9bbbcf14fda7329c936272a5d"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_2--4c8443ac.png",
+    "bytes": 100574,
+    "sha256": "87e55c5d25e7b2b7b2f9b412789cfc48a6d147be75e86189a549be9d6a5ca02b"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_3--a06acfa3.png",
+    "bytes": 93733,
+    "sha256": "0f1e2326eff87706be39da1fd5dfcbcc7cdeda88319993a19f5ad0cf0e12b7a5"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_4--98c35c4b.png",
+    "bytes": 94921,
+    "sha256": "af2406d20765ba06493fe49f39bb5f2a9326027a8d230f819b7330c8edf9c1c2"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_5--8319a895.png",
+    "bytes": 94106,
+    "sha256": "b9e2f447be03cc667728c961885670f0be38625ba78ef672c75eadbb1e0fe99e"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_6--e98048a0.png",
+    "bytes": 106871,
+    "sha256": "f8565a4a98683547548e363c4bced819045851560ff8d44022ab5bbb7b4fbc79"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_7--c2a07c51.png",
+    "bytes": 93615,
+    "sha256": "ffdc1e4ffe4bdd8ac9c576e81e48f066c8074a75eaeb093c9022d41f6474e99a"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_8--f907e101.png",
+    "bytes": 102299,
+    "sha256": "bc1f3a8ba218ca170a0acd6d802d827b0fdb780ad5840d9ff7bf08503d82eff3"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\final_previews\\sheet_9.png",
+    "status": "copiat",
+    "saved_path": "fisiere/sheet_9--982567e1.png",
+    "bytes": 95582,
+    "sha256": "320b5a20655ca9bed0856d1a3fdd90f3f95b70733b801c07f59c3a946d82b4e1"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\finalize_data.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize_data--0ad15a7a.py",
+    "bytes": 2414,
+    "sha256": "1937501074b7187a9efd4b5cc093a353040c4e2b7e24393988ebfd9b7d18a0e7"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\native_links.py",
+    "status": "copiat",
+    "saved_path": "fisiere/native_links--989f3f55.py",
+    "bytes": 2126,
+    "sha256": "c8696c27a1cf8864346648eea6f79768f0c51eaee594a89ff7494bd22ff047d8"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\populate.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/populate--5c681300.mjs",
+    "bytes": 4412,
+    "sha256": "fa762a2ba61cb560da1fdf4d7314db8a278d0fec95d0d96bfb0003919129934b"
   },
   {
     "source_reference": "D:\\MP3.Varvi\\outputs\\party_20261008\\previews\\all_styles.png",
@@ -47,5 +282,37 @@
     "saved_path": "fisiere/selection--3217f04b.txt",
     "bytes": 17378,
     "sha256": "39362bb51bce9ea67ef92eb36641ad9ab0542e2829340d7eab5a1a9c82c492b6"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\top20_20261008\\chart_probe.py",
+    "status": "copiat",
+    "saved_path": "fisiere/chart_probe--b7276c6f.py",
+    "bytes": 393,
+    "sha256": "19521470a7770b4d12436b18e34462fd54ee8358741d856bc339ddbec9b81c07"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\top20_20261008\\collect_charts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/collect_charts--f6bfdec1.py",
+    "bytes": 5468,
+    "sha256": "55fe2d5b08b0447de6944c062523cfc31c3455c2ab6b43fdc63b152716811a14"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\top20_20261008\\enrich.py",
+    "status": "copiat",
+    "saved_path": "fisiere/enrich--7deebe16.py",
+    "bytes": 2421,
+    "sha256": "a1aed5ff4e9fcf25779cf465ebb4d90080c28374c95d152430bc2486b714f82d"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\top20_20261008\\fill.py",
+    "status": "copiat",
+    "saved_path": "fisiere/fill--975d1b4b.py",
+    "bytes": 2061,
+    "sha256": "57d661ee6ebb35b1346c9b9fec1bbe0d52066d4c44b21eea2f854962e2265b58"
+  },
+  {
+    "source_reference": "D:\\MP3.Varvi\\outputs\\top20_20261008\\select.py",
+    "status": "fisier_inexistent_sau_director"
   }
 ]

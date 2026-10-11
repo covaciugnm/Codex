@@ -3850,3 +3850,28 @@ Da. Lista va include **doar descărcări gratuite autorizate și fișiere deja c
 **YouTube va fi folosit doar după verificarea surselor relevante.** Dacă un site nu răspunde sau cere autentificare, rezultatul trebuie marcat „neverificat”, nu „piesa nu există”.
 
 Aceasta este lista verificată pentru integrare; **căutarea automată între aceste site-uri nu este încă implementată în aplicație**. Modelul Excel disponibil este încă gol, deci nu putem verifica momentan acoperirea pieselor concrete.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-ae244d13-fa0f-4a1d-b3ea-0bc0feeb8ea5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \".\\\\.venv\\\\Scripts\\\\python.exe app.py\"",
+  "cwd": "D:\\MP3.Varvi",
+  "processId": "72877",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": ".\\.venv\\Scripts\\python.exe app.py"
+    }
+  ],
+  "aggregatedOutput": "MP3 Varvi: http://127.0.0.1:8765\r\n * Serving Flask app 'app'\r\n * Debug mode: off\r\nWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\r\n * Running on http://127.0.0.1:8765\r\nPress CTRL+C to quit\r\n127.0.0.1 - - [08/Oct/2026 17:06:24] \"GET / HTTP/1.1\" 200 -\r\n127.0.0.1 - - [08/Oct/2026 18:36:22] \"GET /api/status HTTP/1.1\" 200 -\r\n127.0.0.1 - - [08/Oct/2026 18:36:47] \"POST /api/imports HTTP/1.1\" 200 -\r\n127.0.0.1 - - [08/Oct/2026 18:36:58] \"POST /api/imports/6f150484c5eb47be9eaf2b2329941e84/start HTTP/1.1\" 202 -\r\n127.0.0.1 - - [08/Oct/2026 18:37:04] \"GET /api/jobs/9a31b12e8fcb48c4aacfd9683fb1e6ad HTTP/1.1\" 200 -\r\n",
+  "exitCode": -1,
+  "durationMs": 11631275
+}
+````

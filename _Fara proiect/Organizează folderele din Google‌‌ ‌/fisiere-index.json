@@ -1,5 +1,20 @@
 [
   {
+    "source_reference": "C:/Users/User/.codex/plugins/cache/openai-bundled/computer-use/26.930.41038/docs/guidance.md",
+    "status": "configuratie_sau_credentiale_excluse"
+  },
+  {
+    "source_reference": "C:/Users/User/Documents/Codex/2026-10-07/vr/outputs/Retrage_partajari_Drive.gs",
+    "status": "copiat",
+    "saved_path": "fisiere/Retrage_partajari_Drive--bfb797de.gs",
+    "bytes": 15783,
+    "sha256": "b62ccf16f2f97e94474e1f59acefe5fba726eba3dce62d78df1126f22b06bdc3"
+  },
+  {
+    "source_reference": "C:\\GAM7",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-13b97d47-efa3-495c-b744-1c62bcc88940.png",
     "status": "copiat",
     "saved_path": "fisiere/codex-clipboard-13b97d47-efa3-495c-b744-1c62bcc88940--0e05cac2.png",
@@ -19,6 +34,13 @@
     "saved_path": "fisiere/codex-clipboard-97b6b2e2-3adc-4661-831d-e7228b3ba4d8--d61225d5.png",
     "bytes": 329309,
     "sha256": "25b791920d7885b60a05092ad6d15692ae508b564594bc031b1c655fb5b4c731"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\Documents\\Codex\\2026-10-07\\vr\\outputs\\Retrage_partajari_Drive.gs",
+    "status": "copiat",
+    "saved_path": "fisiere/Retrage_partajari_Drive--bfb797de.gs",
+    "bytes": 15783,
+    "sha256": "b62ccf16f2f97e94474e1f59acefe5fba726eba3dce62d78df1126f22b06bdc3"
   },
   {
     "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-13b97d47-efa3-495c-b744-1c62bcc88940.png",
@@ -110,11 +132,27 @@
     "status": "referinta_externa_necopiata"
   },
   {
+    "source_reference": "https://github.com/GAM-team/GAM/releases/latest",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/GAM-team/GAM/wiki/Authorization",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/GAM-team/GAM/wiki/Downloads-Installs",
+    "status": "referinta_externa_necopiata"
+  },
+  {
     "source_reference": "https://myaccount.google.com/connections",
     "status": "referinta_externa_necopiata"
   },
   {
     "source_reference": "https://myaccount.google.com/device-activity",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://script.google.com/",
     "status": "referinta_externa_necopiata"
   },
   {

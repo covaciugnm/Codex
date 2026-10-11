@@ -1,0 +1,55 @@
+  origin/HEAD -> origin/main
+  origin/app
+  origin/feat/admin-live
+  origin/feat/b01-hardware
+  origin/feat/b05-sequencer
+  origin/feat/b09-worldmodel
+  origin/feat/b12-leases
+  origin/feat/b15-ops
+  origin/feat/help
+  origin/feat/model-export
+  origin/feat/models
+  origin/feat/scene-live
+  origin/main
+2a4a3b9 coord: registru migrari - eliminat randul vechi 015 modele (mutat pe 017)
+e0d9a36 coord(SRV-006,SRV-011): 009+015 deployate live, 015=IOS limbi, modele mutate pe 017, raspuns 0440/0520 (2026-10-07 05:18)
+f8eefb9 coord(015): live — limbi în DB deployate și verificate (7 limbi, 101 chei site.*)
+848f3a4 feat(limbi): migrarea 015 app_languages + GET /api/app/languages + GET /api/site/i18n + site fara dictionare hardcodate (101 chei site.* x 7 in DB, selector dinamic) + coord 0520 + i18n seed 1360 - auditat
+cd847bf coord(SRV-014,SRV-015): prezentarea pasilor de test (39 de slide-uri, pptx + ppsx) + sarcina /admin/test (2026-10-07 04:33)
+---
+e56b136 docs(help): revizia r3 arhitect - registre pe admin-live 72953e8, scene-live e5970bc (SCENA r3 s11 + MAGAZIE_PACHET), models c67e552; capitole noi app aliniate cu IOS-009; politica de continut v2 verificata pe fixture-uri; /api/events public; cautare cu tip.* din app; link /ajutor/ in antet; tastatura fara shiftKey, Esc in dialog, reatasare popover, aria-describedby nedistructiv, actiuni link pe desktop, lang (WCAG 3.1.2), focus tinut in popover din tastatura, axe-core + reflow; textul exact pentru coordonator (s15)
+99fd525 docs(help): revizia r2 arhitect - registru admin din codul real (feat/admin-live a06069d), detectare h()/el()/createElement, poarta de merge pe echipe, instantaneu app 33ab47e (15 capitole, 69 slide-uri, 54 SF, sceneStream/native_id), help.comm sincronizat, tips iOS 45/45 + check-help-app-tips, politica de continut, no-store pe erori, top layer, popover non-modal, WCAG 2.1.4, touch, test final WAN (SRV-014/IOS-010)
+d943187 docs(help): arhitectura ajutor app+server, „Ce e asta / Ce face”, migrarea 016, API /api/help, help.js, portal /ajutor/, contract iOS (IOS-009) + contracte JSON (structura server, registru tips, mapare SF Symbols)
+38f1691 coord(IOS-001,IOS-002,SRV-006,SRV-012): raspuns la 0430 - protocoale reconciliate, IOS-001 inchisa, SRV-012 noua (2026-10-07 04:16)
+4522bfb coord(ios->server): raspuns 0430 - E2E video INCHIS (sneakers 0.86, done in 3.5s), fapte iOS reale, codecuri infezabile marcate + PROTOCOL_COMUNICARE_ECHIPE v1 (canal fisiere, ACK, proprietate zone, ciclu contracte)
+
+ARCHITECTURE.md
+asset-optimization.json
+assets.json
+auditor-events.jsonl
+audit-redesign-inputs.json
+AUDIT_REDESIGN.md
+AUDIT_SITE.md
+audit-variables-inputs.json
+backend-events.jsonl
+BACKEND.md
+BRAND.md
+campaign-assets.json
+campaign-optimization.json
+FILES.sha256.json
+IDENTITATE_EVA-3dScan.md
+manager-events.jsonl
+redesign-auditor-events.jsonl
+REDESIGN_LIVRAT.md
+RELUARE.md
+STATUS.json
+translations-events.jsonl
+TRANSLATIONS.md
+TUNNEL.txt
+VALIDARE_FINALA.md
+validation
+ls: cannot access 'Site/db/help': No such file or directory
+"Aplica\310\233ie/Extindere-Robotica/Coordonare-Server-iOS/sarcini/IOS-009_help-aplicatie-intrebare-clic-dreapta.md"
+"Aplica\310\233ie/Extindere-Robotica/Coordonare-Server-iOS/sarcini/SRV-013_help-server-aplicatie.md"
+
+[exited with code 0]

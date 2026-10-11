@@ -1,6 +1,6 @@
 # EVA-Learn
 
-Conversații: 3; subagenți: 3; mesaje: 285; fișiere copiate: 40.
+Conversații: 3; subagenți: 3; mesaje: 285; fișiere copiate: 37.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|

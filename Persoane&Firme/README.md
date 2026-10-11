@@ -1,6 +1,6 @@
 # Persoane&Firme
 
-Conversații: 2; subagenți: 0; mesaje: 61; fișiere copiate: 20.
+Conversații: 2; subagenți: 0; mesaje: 61; fișiere copiate: 4.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
