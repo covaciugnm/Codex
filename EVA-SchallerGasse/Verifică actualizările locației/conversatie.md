@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-11T08:22:35.726694+00:00
+Export UTC: 2026-10-11T14:23:09.537034+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -418,3 +418,33 @@ Scanul local nou de 39 de pagini conține documente istorice și formulare; nu a
 Nu am identificat alte comunicări relevante noi pentru **2026.10.09–11**. Acoperire: office până la **2026.10.11, 08:00**; cosmin@ig.ro până la **2026.10.10, 02:30**.
 
 Arhiva, jurnalele și indexul sunt actualizate. Nu am trimis emailuri sau efectuat plăți.
+
+## Utilizator
+
+existao alta oferta de rezistenta - de la cine?
+
+
+## Asistent
+
+Verific ofertele de structură din arhivă și corespondență, ca să identific alternativa la TOMS și prețul ofertat.
+
+
+## Asistent
+
+Da, am identificat două oferte scrise: Markus BERGER și Dr. PECH. Berger a ofertat 45.000 EUR net pentru un pachet care include și Prüfingenieur; Dr. PECH, 69.300 EUR net pentru pachetul său. Verific valabilitatea și ce cuprinde fiecare.
+
+
+## Asistent
+
+**Da — avem două oferte concrete, în afară de TOMS:**
+
+| Firmă | Data ofertei | Preț net | Ce include |
+|---|---|---:|---|
+| [Markus BERGER GmbH](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/00.Proiect/09. Vertraege/bmberger.at/2026.08.17/2026_08_17_Anbot_Statik_Detail.pdf>) | 2026.08.17 | **45.000 EUR** | Calcule statice, planuri de structură/cofraj/armare, asistență și **Prüfingenieur** |
+| [Dr. PECH Ziviltechnikergesellschaft](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/03. Proiectare/Statik/Angebot 2026-470-AN01 2026-09-17.pdf>) | 2026.09.17 | **69.300 EUR** | Statică de execuție, goluri în existent, sprijinirea excavației, inspecție teren, asistență și documentație finală |
+
+La **Dr. PECH**, numai statica de execuție este **42.000 EUR net**. Contactul proiectului: **Bernhard Ployer — ployer@zt-pech.at**.
+
+La **Berger**, contactul este **Markus Berger — office@bmberger.at**. Valabilitatea de opt săptămâni ajunge la **2026.10.12**, deci reconfirmarea este urgentă.
+
+Pachetele au conținut diferit. **Disponibilitatea actuală și calendarul de lucru trebuie confirmate la ambele firme.**

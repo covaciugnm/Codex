@@ -2,7 +2,7 @@
 
 ID: `01a0f194-572c-7490-a456-49150d14916a`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-11T08:22:35.726694+00:00
+Export UTC: 2026-10-11T14:23:09.537034+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -393,3 +393,41 @@ Verificare unică programată pentru vineri 02.10.2026, ora 10:00 Europe/Buchare
   </instructions>
 </heartbeat>
 
+
+## Utilizator
+
+reia
+
+
+## Asistent
+
+Reiau verificarea TOMS pentru situația de azi, 2026.10.11, folosind ultima versiune a contractului, v4.1. Verific trimiterea emailului, răspunsurile primite și ce mai lipsește pentru semnare și începerea lucrului.
+
+
+## Asistent
+
+TOMS a răspuns la 2026.10.08 că nu poate prelua comanda în prezent, din lipsă de resurse. Emailul nostru cu v4.1 este confirmat ca trimis la 2026.10.02. Refuzul lor citează însă mesajul vechi despre v3, deci rămâne de clarificat dacă au analizat versiunea redusă v4.1.
+
+
+## Asistent
+
+Nu am găsit un contract semnat, un acord de începere sau un răspuns ulterior refuzului. Vechile date din v3 nu mai sunt termene de urmărit: în v4.1, D1 curge de la semnarea efectivă, iar restul calendarului se stabilește de comun acord. Am salvat dovezile și actualizat jurnalele.
+
+
+## Asistent
+
+Verificarea este încheiată; se finalizează indexarea fișierelor salvate. Pasul următor este clarificarea refuzului față de v4.1 și identificarea unui prestator alternativ. Nu am trimis niciun mesaj.
+
+
+## Asistent
+
+**TOMS a refuzat preluarea comenzii**, prin emailul din **2026.10.08**, invocând lipsa resurselor.
+
+Am reverificat:
+- Contractul **v4.1 a fost trimis la 2026.10.02**.
+- Nu am găsit contract semnat sau începerea lucrului confirmată.
+- Refuzul citează emailul vechi despre **v3**, fără să menționeze explicit v4.1, în care eliminasem cererile suplimentare.
+
+**Următorul pas:** clarificăm dacă refuzul privește și v4.1 și pregătim o alternativă pentru proiectarea structurală și verificare. Termenul D1 nu poate fi considerat pornit fără semnare confirmată.
+
+Am actualizat [raportul și jurnalele locale](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.11 Reverificare TOMS/2026.10.11 Raport TOMS.txt>). **Nu am trimis emailuri.**

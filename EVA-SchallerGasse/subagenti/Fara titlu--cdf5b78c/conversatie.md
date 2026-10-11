@@ -2,7 +2,7 @@
 
 ID: `01a11589-044f-7c10-8ff4-8a1ccdf5b78c`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-11T08:22:35.726694+00:00
+Export UTC: 2026-10-11T14:23:09.537034+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -97,3 +97,34 @@ Am verificat **vizual toate 39 de pagini** prin trei planșe de contact și am d
 **Data cea mai recentă a unui act observat este 2026.09.10.** Mtime2026.10.09 indică apariția copiei locale; metadata PDF indică asamblare iLovePDF la2026.10.07. Nu trebuie raportat ca noutate externă a clădirii.
 
 PNG-urile de audit sunt numai în rădăcina de vizualizări autorizată, dosarul `2026.10.11 Audit Inbox`. Originalele, registrele și jurnalele nu au fost modificate. Acoperirea este identificare vizuală a tuturor paginilor și citirea detaliată a paginilor enumerate, nu audit juridic sau financiar al dosarelor personale.
+
+## Asistent
+
+Caut în ofertele și corespondența arhivate alternative pentru proiectarea structurii și calculul static, cu prețul și serviciile efectiv ofertate.
+
+
+## Asistent
+
+Am găsit două oferte concrete de structură, de la Markus Berger și Dr. PECH. Mai există o poziție de statică într-o ofertă mai veche REALIG; verific dacă poate fi considerată alternativă separată și care sunt limitele.
+
+
+## Asistent
+
+**Da: două oferte concrete pentru structură, în afară de TOMS.** Sumele și domeniul au fost confirmate în PDF-urile originale.
+
+| Firmă / persoană | Ofertă | Preț și domeniu | Situație |
+|---|---|---|---|
+| **Bmstr. Dipl.Ing.(FH) Markus BERGER GmbH** — Markus Berger, `office@bmberger.at` | **2026.08.17** | **45.000 EUR net /54.000 brut**: calcul static13.000 + planuri de structură/cofraj/armare20.000 + asistență până la8vizite2.000 + Prüfingenieur10.000. Componenta structură și asistență însumează **35.000 net**, însă atribuirea parțială necesită acordul firmei. | Oferta este pentru Schallergasse35. Valabilitate8săptămâni, termen calculat **2026.10.12**. Disponibilitatea actuală trebuie reconfirmată. |
+| **Dr. PECH Ziviltechnikergesellschaft mbH** — coordonator **Bernhard Ployer**, `ployer@zt-pech.at` | **2026.09.17**, nr. **2026-470/AN01** | **69.300 EUR net /83.160 brut**: statică de execuție42.000 + proiectare goluri în existent6.000 + sprijinire excavație5.000 + inspecție teren800 + asistență/12recepții14.000 + documentație finală1.500. Recepție suplimentară450net. | Ofertă concretă, formular de comandă nesemnat. Valabilitate90zile, termen calculat **2026.12.16**. Calendarul se stabilește prin acord. Oferta nu numește expres funcția de Prüfingenieur; nu presupune includerea ei. |
+
+**Diferențe importante:** Berger exclude calculul sprijinirii excavației/zidurilor de sprijin și condiționează cei13.000net de păstrarea conceptului static preliminar. Planurile de atelier rămân ale executantului. PECH include explicit sprijinirea excavației și proiectarea golurilor, deci totalurile nu sunt direct comparabile.
+
+Surse locale:
+- [Oferta Berger](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/00.Proiect/09. Vertraege/bmberger.at/2026.08.17/2026_08_17_Anbot_Statik_Detail.pdf>)
+- [Oferta PECH](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/03. Proiectare/Statik/Angebot 2026-470-AN01 2026-09-17.pdf>)
+
+Emailul PECH care transmite oferta: **2026.09.17**, ID `63cd2bcb-2160-4027-b6c8-25bb42d9ae50`, Secretariat către office@ac-wohnart.at, CCPloyer. Jurnalul PECH vechi nu reflectă acest răspuns; PDF-ul și emailul există în arhivă. Berger: primit2026.08.17, ID `ce6905cb-0c93-4e6b-8cde-7e300dfc874c`; ultima revenire trimisă2026.09.10, ID `89908e0b-ab39-4249-9a73-0ba821bf33f7`.
+
+**REALIG /Christian Gschirtz** are și o poziție istorică **24.000 EUR net** pentru structură/proiectare de execuție/recepții armare, în oferta2026.03.26. Capitolul o califică **„Summen angenommen”** — sumă estimată într-un pachet mai larg. Nu o prezenta drept ofertă fermă separată. Contact: `cg@realig.at`.
+
+**Neid și Avunduk au refuzat pentru lipsă de capacitate** (2026.08.26, respectiv2026.09.10); nu sunt alternative disponibile confirmate. MATTES exclude statică de execuție; LVR presupune existența staticii. Ofertele BauKG/Bauwerksbuch/GU nu înlocuiesc proiectarea structurii.
