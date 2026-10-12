@@ -232,19 +232,28 @@
   },
   {
     "source_reference": "S:/print.eva-org.com/EVA_PRINT_WEBSITE_BRIEF_2026-10-02/01_PROMPT/EVA_PRINT_MASTER_PROMPT_EN.pdf",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "copiat",
+    "saved_path": "fisiere/EVA_PRINT_MASTER_PROMPT_EN--fc3a008f.pdf",
+    "bytes": 192864,
+    "sha256": "c5a4aeff1c50043736d8b8cbd09669e906ac226a62066583d375fbb0ab322c2c"
   },
   {
     "source_reference": "S:/print.eva-org.com/EVA_PRINT_WEBSITE_BRIEF_2026-10-02/07_DATABASE/DYNAMIC_ARCHITECTURE_EN.txt",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "copiat",
+    "saved_path": "fisiere/DYNAMIC_ARCHITECTURE_EN--20ba3546.txt",
+    "bytes": 5726,
+    "sha256": "b5e6fdfb1a59294327e3bc1073f0672e88193f50183408d666c45112cb823001"
   },
   {
     "source_reference": "S:/print.eva-org.com/EVA_PRINT_WEBSITE_BRIEF_2026-10-02/11_PREVIEW/index.html",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "copiat",
+    "saved_path": "fisiere/index--8507ca69.html",
+    "bytes": 291164,
+    "sha256": "784d5806178c4edc7f7acea840623f683de167a952f5dadfdcb38b4a70e7436a"
   },
   {
     "source_reference": "S:\\print.eva-org.com\\EVA_PRINT_WEBSITE_BRIEF_2026-10-02",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "https://ratrig.com/products/rat-rig-v-core-4-1?srsltid=AU7gw4UH3GdyUXWZQzASZy2wxnqwBMP3UK3XHtnvzhNbdJt7Aei7OBLe",

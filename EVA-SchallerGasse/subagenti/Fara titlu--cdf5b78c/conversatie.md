@@ -2,7 +2,7 @@
 
 ID: `01a11589-044f-7c10-8ff4-8a1ccdf5b78c`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-12T08:25:51.143327+00:00
+Export UTC: 2026-10-12T14:26:02.743395+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -149,3 +149,60 @@ Repere urgente astăzi:
 Alte repere: vizitaSCHAUERLEUTE2026.10.09 rămâne neconfirmată efectuată; Füglister promisese oferta în săptămâna **2026.10.12–18**, fără zi fixă.
 
 Acoperire locală: registrul2026.10.11 are801mesaje și783/783anexe documentare salvate,68corpuri trunchiate. Ultima verificare generală: office2026.10.11 08:00:13; reverificarea punctualăTOMS: office12:30:10; cosmin@ig.ro2026.10.10 02:30:10. Această citire locală nu extinde acoperirea emailurilor și nu confirmă plăți.
+
+## Asistent
+
+Extrag ofertele Berger și Dr. PECH integral și separ serviciile confirmate de cele care cer clarificare. Voi păstra distinct totalurile ofertelor și subtotalurile calculate.
+
+
+## Asistent
+
+Am salvat [Date alternative.json](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Date alternative.json>): 18 servicii pentru fiecare ofertă, prețuri, condiții, surse și hash-uri.
+
+Totalurile sunt verificate: Berger **45.000 EUR net**, PECH **69.300 EUR net**. Principalele limite pentru tabele:
+
+- Berger35.000net este subtotal matematic; atribuirea parțială cere acord.
+- PECH42.000net este numai staticăPos01.
+- Referința generică PECH la descrierea beneficiarului cere identificarea versiunii; nu confirmă separat fiecare detaliu.
+- 12recepții PECH nu dovedesc numirea ca Prüfingenieur.
+- 8vizite Berger privesc asistența statică; nu limitează expres toate vizitele Prüfingenieur.
+- REALIG24.000net este estimare istorică într-un pachet.
+- PECH prevede indexareZT și rezervă drepturile de utilizare/modificare/terți chiar după plată.
+
+Nu am modificat Excelurile, jurnalele sau registrele. Sunt disponibil pentru auditul celor două tabele finale.
+
+## Asistent
+
+Auditez acum matricea comparativă, în special includerile tehnice, limitele vizitelor și felul în care sunt prezentate prețurile Berger și PECH.
+
+
+## Asistent
+
+**Auditul Berger/PECH este favorabil**, cu trei corecții înaintea livrării:
+
+1. **Totalurile încă `null` trebuie completate**, în JSON sau prin formulele Excel:
+   - net: TOMS37.900 /Berger45.000 /PECH69.300;
+   - TVA:7.580 /9.000 /13.860;
+   - brut:45.480 /54.000 /83.160.
+   - subtotale structură+asistență: TOMS26.500 /Berger35.000, marcate drept calcule, fără ofertă separată demonstrată.
+2. La statutul Berger/PECH, înlocuiește **„Ofertă, neacceptată”** cu **„Acceptarea A&C neconfirmată”**. Lipsa semnăturii beneficiarului în PDF nu exclude acceptarea prin alt canal.
+3. Corectează **„Datesle” →„Datele”**.
+
+Delimitările tehnice sunt corecte:8vizite Berger pentru asistență, fără plafon explicit al tuturor vizitelor PI;12recepții PECH fără numire PI dedusă; sprijinire excavație exclusă Berger și explicit ofertată PECH; atelier exclus Berger; detaliile/formatele PECH condiționate de identificarea LB; drepturile PECH rezervate; Bauwerksbuch și BauKG nespecificate la ambii.
+
+Îmbunătățire utilă: numește coloana TOMS **„Propunere de contract v4.1 trimisă”**, pentru a evita impresia unui contract bilateral încheiat. PECH800EUR este inspecția terenului, fără studiu geotehnic integral dedus; tabelul păstrează corect distincția.
+
+Nu am modificat matricea. Verificarea independentă acoperă Berger și PECH; validarea detaliată TOMS rămâne dependentă de sursele redactorului.
+
+## Asistent
+
+Fac verificarea finală a celor două foi Excel: formule, totaluri, statut comercial și delimitarea serviciilor.
+
+
+## Asistent
+
+Audit final **favorabil**. Cele două foi,11formule și valorile calculate sunt corecte; nu există erori Excel. Statutul ofertelor și limitele8vizite Berger/12recepții PECH sunt păstrate corect.
+
+Raport salvat în [Audit comparatie.txt](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Audit comparatie.txt>). Workbook-ul nu a fost modificat.
+
+Observație minoră: data surseiT8 poate fi etichetată „data exportului”; trimiterea efectivă2026.10.02 este deja corectă în tabele.

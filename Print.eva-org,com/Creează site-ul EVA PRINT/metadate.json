@@ -10,7 +10,7 @@
   "project": "Print.eva-org,com",
   "assignment_method": "app_assignment",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-12T08:25:51.143327+00:00",
+  "export_started_at_utc": "2026-10-12T14:26:02.743395+00:00",
   "source_bytes": 4100358,
   "invalid_json_lines": 0,
   "history_source": "items",
@@ -18,6 +18,6 @@
   "item_count": 173,
   "message_count": 16,
   "content_sha256": "1d7d793148ae9233521bd2c62a88053133b0d8fa354f546357a52aa1e02fc331",
-  "files_copied": 33,
-  "references_not_copied": 7
+  "files_copied": 36,
+  "references_not_copied": 4
 }

@@ -1,0 +1,1596 @@
+{
+  "metadata": {
+    "id": "01a1305c-b78e-7a91-b1a3-fb7f08049565",
+    "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES",
+    "created_at": 1791812745,
+    "updated_at": 1791814310,
+    "archived": 0,
+    "source": "vscode",
+    "title": "Caută ATV-uri similare sub 9.000 €",
+    "project_id": "13771f36-ff54-4018-99b0-f69f8dfdd2f8",
+    "project": "WildMotion",
+    "assignment_method": "app_assignment",
+    "parent_thread_id": null,
+    "export_started_at_utc": "2026-10-12T14:26:02.743395+00:00",
+    "source_bytes": 926211,
+    "invalid_json_lines": 0,
+    "history_source": "items",
+    "rollout_exists": true,
+    "item_count": 31,
+    "message_count": 11,
+    "content_sha256": "e5bd031b74a44c030f2382eca34725f3c3707ff1dd084f0f0b7ea0ce8689f786"
+  },
+  "items": [
+    {
+      "ordinal": 12,
+      "timestamp": "2026-10-12T13:46:06.868Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "userMessage",
+        "id": "01a1305d-0c8b-71a2-a501-4c245343ee07",
+        "clientId": "6d76c1d0-62f2-4275-8627-5b76cd3ac506",
+        "content": [
+          {
+            "type": "text",
+            "text": "Mobile.de Search pornind de la achizitia din folder da-mi lista de ATV-uri pe care le-am trecut si da-mi o lista de minim 10 ATV -uri identice ca si caracteristici tehnice dar cu pret mai mic de 9.000 euro de pe modile.de\n",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1791812766868
+    },
+    {
+      "ordinal": 13,
+      "timestamp": "2026-10-12T13:46:12.167Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_035cddd569ca3599016acce4f05a2c8191911238b6a54b935f",
+        "text": "Voi căuta în folder documentele achiziției ca să identific ATV-urile și caracteristicile lor, apoi voi verifica pe mobile.de cel puțin 10 anunțuri sub 9.000 € care corespund.\n",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791812771096
+    },
+    {
+      "ordinal": 17,
+      "timestamp": "2026-10-12T13:46:42.798Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-46faeef2-53f3-43ff-9d3b-a6be34ba8645",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"rg --files -g AGENTS.md -g '*.pdf' -g '*.docx' -g '*.xlsx' -g '*.doc' -g '*.xls' -g '*.txt'\"",
+        "cwd": "Z:\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES",
+        "processId": null,
+        "source": "unifiedExecStartup",
+        "status": "failed",
+        "commandActions": [
+          {
+            "type": "unknown",
+            "command": "rg --files -g AGENTS.md -g '*.pdf' -g '*.docx' -g '*.xlsx' -g '*.doc' -g '*.xls' -g '*.txt'"
+          }
+        ],
+        "aggregatedOutput": "Failed to create unified exec process: CreateProcessWithLogonW failed: 267",
+        "exitCode": -1,
+        "durationMs": 0
+      },
+      "created_at_ms": 1791812802798
+    },
+    {
+      "ordinal": 22,
+      "timestamp": "2026-10-12T13:47:14.227Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-10856737-796d-4492-a12a-c49d882a5429",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-ChildItem -LiteralPath '\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES' -Recurse -File | Select-Object FullName\"",
+        "cwd": "C:\\Users\\User",
+        "processId": "70366",
+        "source": "unifiedExecStartup",
+        "status": "failed",
+        "commandActions": [
+          {
+            "type": "unknown",
+            "command": "Get-ChildItem -LiteralPath '\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES' -Recurse -File | Select-Object FullName"
+          }
+        ],
+        "aggregatedOutput": "Get-ChildItem: \r\nLine |\r\n   2 |  Get-ChildItem -LiteralPath '\\\\192.168.100.169\\Comun\\00. Proiecte 2025 …\r\n     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Access to the path '\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES' is denied.\r\nGet-ChildItem: \r\nLine |\r\n   2 |  Get-ChildItem -LiteralPath '\\\\192.168.100.169\\Comun\\00. Proiecte 2025 …\r\n     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Cannot find path '\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES' because it does not exist.\r\n",
+        "exitCode": 1,
+        "durationMs": 302
+      },
+      "created_at_ms": 1791812833924
+    },
+    {
+      "ordinal": 27,
+      "timestamp": "2026-10-12T13:47:34.104Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-77f0c510-4d85-47b3-9c30-df75a945c2bd",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-ChildItem -LiteralPath '\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES' -Recurse -File | Select-Object FullName\"",
+        "cwd": "C:\\Users\\User",
+        "processId": "73305",
+        "source": "unifiedExecStartup",
+        "status": "completed",
+        "commandActions": [
+          {
+            "type": "unknown",
+            "command": "Get-ChildItem -LiteralPath '\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES' -Recurse -File | Select-Object FullName"
+          }
+        ],
+        "aggregatedOutput": "\r\nFullName\r\n--------\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\Dosar Achizitie ATV uri Wild Motion.zip\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\PIN Semnatura Ionel.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\Tranzactie_DR00014090423180.pdf\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\Wild Motion Rapoarte Reges.zip\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\WILD MOTION.rar\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\1. Anexa5_Planul de afaceri - …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\1. Anexa5_Planul de afaceri - …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\copy- PINTEA FLORIN - Copy.doc\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\Macheta_Planul de afaceri_Lapa…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\Proiect\\Analiza plan Capota Ni…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\Proiect\\Anexa5_Planul de aface…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\Proiect\\Anexa6_Buget Plan de a…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\Proiect\\vechi\\Anexa6_Buget Pla…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\Proiect\\vechi\\Anexa6_Buget Pla…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\0. Proiecte model\\Proiect\\vechi\\Anexa6_Buget Pla…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\00. Contract de finantare\\CONTRACT SUBVENTIE_WIL…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\0. Act Aditional nr.1 Se…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\5. DECONT DE CHELTUIELI-…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Act Aditional nr.1 Semna…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Act Aditional nr.1 Wild …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Act_Aditional_nr_1_WILD_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Act_Aditional_nr_1_WILD_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Act_Aditional_nr_1_WILD_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Anexa6_Buget Plan de afa…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Anexa6_Buget_Plan_de_afa…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Anexa6_Buget_Plan_de_afa…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Anexa6_Buget_Plan_de_afa…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\MODEL ACT ADITIONAL NR 2…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Plan de Afaceri CAPOTA N…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Plan de afaceri Capota N…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Oferte justificative\\19-…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Oferte justificative\\ofe…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\001. Act Aditional NR.1\\Oferte justificative\\ofe…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Anexa1_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Anexa2_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Anexa3_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Anexa4_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Anexa5_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Anexa6_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Anexa7_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Metodol…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Publica…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\1. Documente oficiale InoSocRural 311779\\Text.do…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\2025101…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\Act Con…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\Anexa n…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\Anexa n…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\anexa_1…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\Cazier_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\Cerere …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\cerere_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\CERTIFI…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\CI_Nou_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\CI_Vech…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\contrac…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\Decizie…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\declara…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\Documen…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\dovada_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2. Inmatriculare Firma si Atestat Social\\Inregis…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Anexe Bilant Wild.zip\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\balanta_de_verificare_01062026_1…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\bilant_declaratie_29052026_13293…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant_SC_122025_52786696_2025_1…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\HotarareAGA_2025_52786696 de sem…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Prima Pagina bilant.pdf\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\PropunereDistribuireDividende_31…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\RaportulAdministratorului_31.12.…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant Wild\\Anexe Bilant Wild.zip\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant Wild\\balanta_de_verificar…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant Wild\\bilant_declaratie_29…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant Wild\\Bilant_SC_122025_527…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant Wild\\HotarareAGA_2025_527…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant Wild\\Prima Pagina bilant.…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant Wild\\PropunereDistribuire…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\2.1 Bilant 2025\\Bilant Wild\\RaportulAdministrato…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\00_OPIS_documente_g…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\01_Anexa1_Nota_priv…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\02_Anexa2_Invitatie…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\02_Anexa2_Invitatie…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\02_Anexa2_Invitatie…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\03_Anexa3_Declarati…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\03_Anexa3_Declarati…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\03_Anexa3_Declarati…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\04_Anexa4_Declarati…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\05_Anexa5_Nota_just…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\06_Anexa6_Comunicar…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\06_Anexa6_Comunicar…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\06_Anexa6_Comunicar…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\07_Anexa7_Contract_…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\10_Anexa10_Proces_v…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\Dosar Achizitie ATV…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\OFERTA_WM-ATV-015_D…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\OFERTA_WM-ATV-016_M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\OFERTA_WM-ATV-017_A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Registru1 Procedura Achiztie.…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\00_Registru_Proced…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\Corecturi de reali…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\Dosar_Achizitie_WI…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REF…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\ARHIVA\\Dosar_Achizitie_WILD_M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\ARHIVA\\Dosar_Achizitie_WILD_M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\1. Referat de Necesi…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\18. Proces-Verbal De…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\18. Proces-Verbal De…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\2. Nota Justificativ…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\22. Raportul Procedu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\24. Comunicare Rezul…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\8. Anunt de Particip…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\9. Invitatie Partici…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 2\\Dosar complet pentru…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 2\\Dosar complet pentru…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 2\\Dosar complet pentru…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva CFMoto\\DOC060526-06052…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva CFMoto\\DOC060526-06052…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\4. Site Wild Motion SRL\\Tranzactie_DR00014090422…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Analiza implementare 2026-09-30\\Raport_implem…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Analiza implementare 2026-09-30\\Raport_implem…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\10. Varianta Finala Depusa\\4x4 …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\10. Varianta Finala Depusa\\Anex…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\10. Varianta Finala Depusa\\CAPO…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\Oferte BUGGY-ur…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\500 CC Bugy LNA…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\500 CC Bugy LNA…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\500 CC Bugy LNA…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\500 CC Bugy LNA…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\500 CC Bugy LNA…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\3. Oferte Buggy\\800 Bugy Tongca…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\5. Draft\\Anexa5_Planul de aface…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\5. Draft\\CAPOTA NICOLAE IOAN  I…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\5.1 Draft 1\\Anexa6_Buget_Plan_d…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\5.1 Draft 1\\Anexa6_Buget_Plan_d…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\5.1 Draft 1\\CAPOTA NICOLAE IOAN…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\5.1 Draft 1\\Nesemnat plan de af…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\5.1 Draft 1\\Plan de Afaceri CAP…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\5. Proiect Ionel\\5.1 Draft 1\\Plan de afaceri Cap…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\1. I…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\10. …\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\2. F…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\2. F…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\2. F…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\3. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\4. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\4. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\4. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\4. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\4. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\4. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\4. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\5. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\5. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\5. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\5. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\5. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\5. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\5. M…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\6. I…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\6. I…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\6. I…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\6. I…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\6. I…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\6. I…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\7.Iu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\7.Iu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\7.Iu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\7.Iu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\7.Iu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\7.Iu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\7.Iu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\7.Iu…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\8. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\8. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\8. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\8. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\8. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\8. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\8. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\8. A…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\6. Implementare Proiect-Raportari_Decontari\\9. S…\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\7. HR-Wild Motion\\CIM_Wild Motion-Neamtiu Florin…\r\n\r\n",
+        "exitCode": 0,
+        "durationMs": 6433
+      },
+      "created_at_ms": 1791812847670
+    },
+    {
+      "ordinal": 32,
+      "timestamp": "2026-10-12T13:47:51.546Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-2b4eb719-a2d9-477c-b29c-24921bc1f93a",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$p='\"'\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES'; Get-ChildItem -LiteralPath \\\"\"'$p'\"\\\\3. Achizitie\\\" -Recurse -File | ForEach-Object { \"'$_.FullName }; Get-ChildItem -LiteralPath $p -Filter AGENTS.md -Recurse -File | ForEach-Object { Get-Content -LiteralPath $_.FullName }'",
+        "cwd": "C:\\Users\\User",
+        "processId": "86850",
+        "source": "unifiedExecStartup",
+        "status": "completed",
+        "commandActions": [
+          {
+            "type": "unknown",
+            "command": "$p='\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES'; Get-ChildItem -LiteralPath \"$p\\3. Achizitie\" -Recurse -File | ForEach-Object { $_.FullName }; Get-ChildItem -LiteralPath $p -Filter AGENTS.md -Recurse -File | ForEach-Object { Get-Content -LiteralPath $_.FullName }"
+          }
+        ],
+        "aggregatedOutput": "\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\00_OPIS_documente_generate_WILD_MOTION_ATV.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\01_Anexa1_Nota_privind_determinarea_valorii_estimate_WM-ATV-002.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\02_Anexa2_Invitatie_participare_ARIDE_RIDE_IT_SRL_WM-ATV-011.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\02_Anexa2_Invitatie_participare_DANCOR_PROIECT_SRL_WM-ATV-009.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\02_Anexa2_Invitatie_participare_MARIUS_CODE_WNK_SRL_WM-ATV-010.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\03_Anexa3_Declaratie_ofertant_ARIDE_RIDE_IT_SRL.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\03_Anexa3_Declaratie_ofertant_DANCOR_PROIECT_SRL.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\03_Anexa3_Declaratie_ofertant_MARIUS_CODE_WNK_SRL.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\04_Anexa4_Declaratie_beneficiar_WILD_MOTION.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\05_Anexa5_Nota_justificativa_atribuire_WM-ATV-022.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\06_Anexa6_Comunicare_rezultat_ARIDE_RIDE_IT_SRL_WM-ATV-026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\06_Anexa6_Comunicare_rezultat_DANCOR_PROIECT_SRL_WM-ATV-024.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\06_Anexa6_Comunicare_rezultat_MARIUS_CODE_WNK_SRL_WM-ATV-025.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\07_Anexa7_Contract_furnizare_produse_DANCOR_WM-ATV-033.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\10_Anexa10_Proces_verbal_receptie_WM-ATV-036.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\Dosar Achizitie ATV uri Wild Motion.zip\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\OFERTA_WM-ATV-015_DANCOR-PROIECT_SRL.pdf\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\OFERTA_WM-ATV-016_MARIUS_CODE_WNK_SRL.pdf\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\OFERTA_WM-ATV-017_ARIDE_RIDE_IT_SRL.pdf\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Registru1 Procedura Achiztie.xlsx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\00_Registru_Procedura_Achizitie_COMPLETAT.xlsx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\Corecturi de realizat.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\Dosar_Achizitie_WILD_MOTION_ATV_COMPLET.pdf\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\00_Registru_Procedura_Achizitie_COMPLETAT.xlsx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\01_REFERAT_DE_NECESITATE_WM-ATV-001_16-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\02_NOTA_JUSTIFICATIVA_VALOARE_ESTIMATA_WM-ATV-002_16-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\03_SPECIFICATII_TEHNICE_CAIET_DE_SARCINI_WM-ATV-003_17-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\04_DECIZIE_NUMIRE_COMISIE_EVALUARE_WM-ATV-004_21-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\05_DECLARATIE_IMPARTIALITATE_PRESEDINTE_WM-ATV-005_21-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\06_DECLARATIE_IMPARTIALITATE_MEMBRU_1_WM-ATV-006_21-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\07_DECLARATIE_IMPARTIALITATE_MEMBRU_2_WM-ATV-007_21-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\08_ANUNT_DE_PARTICIPARE_PUBLICARE_WM-ATV-008_24-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\09_INVITATIE_PARTICIPARE_CATRE_OFERTANT_1_DP_WM-ATV-009_27-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\10_INVITATIE_PARTICIPARE_CATRE_OFERTANT_2_MCW_WM-ATV-010_27-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\11_INVITATIE_PARTICIPARE_CATRE_OFERTANT_3_ARIDE_WM-ATV-011_27-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\12_CONFIRMARE_PRIMIRE_DE_LA_OFERTANT_1_DP_WM-ATV-012_27-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\13_CONFIRMARE_PRIMIRE_DE_LA_OFERTANT_2_MCW_WM-ATV-013_27-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\14_CONFIRMARE_PRIMIRE_DE_LA_OFERTANT_3_ARIDE_WM-ATV-014_27-04-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\15_OFERTA_DEPUSA_DE_OFERTANT_1_DP_WM-ATV-015_04-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\16_OFERTA_DEPUSA_DE_OFERTANT_2_MCW_WM-ATV-016_04-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\17_OFERTA_DEPUSA_DE_OFERTANT_3_ARIDE_WM-ATV-017_04-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\18_PROCES_VERBAL_DESCHIDERE_OFERTE_WM-ATV-018_05-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\19_PROCES_VERBAL_EVALUARE_CALIFICARE_WM-ATV-019_06-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\20_PROCES_VERBAL_EVALUARE_TEHNICA_WM-ATV-020_07-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\21_PROCES_VERBAL_EVALUARE_FINANCIARA_WM-ATV-021_08-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\22_RAPORTUL_PROCEDURII_WM-ATV-022_11-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\23_NOTA_DE_APROBARE_RAPORT_PROCEDURA_WM-ATV-023_11-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\24_ADRESA_COMUNICARE_REZULTAT_CASTIGATOR_DP_WM-ATV-024_12-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\25_ADRESA_COMUNICARE_NECASTIGATOR_2_MCW_WM-ATV-025_12-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\26_ADRESA_COMUNICARE_NECASTIGATOR_3_ARIDE_WM-ATV-026_12-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\27_CONFIRMARE_PRIMIRE_REZULTAT_O1_DP_WM-ATV-027_12-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\28_CONFIRMARE_PRIMIRE_REZULTAT_O2_MCW_WM-ATV-028_12-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\29_CONFIRMARE_PRIMIRE_REZULTAT_O3_ARIDE_WM-ATV-029_12-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\30_DECLARATIE_IMPARTIALITATE_FINALA_P_WM-ATV-030_15-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\31_DECLARATIE_IMPARTIALITATE_FINALA_M1_WM-ATV-031_15-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\32_DECLARATIE_IMPARTIALITATE_FINALA_M2_WM-ATV-032_15-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\33_CONTRACT_DE_ACHIZITIE_SEMNARE_WM-ATV-033_18-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\34_ANUNT_DE_ATRIBUIRE_PUBLICARE_WM-ATV-034_20-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\35_DOSARUL_ACHIZITIEI_OPISAT_WM-ATV-035_22-05-2026.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\DOSAR ACHIZITI REFACUT.zip\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\ARHIVA\\Dosar_Achizitie_WILD_MOTION_ATV_DOCX.zip\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\ARHIVA\\Dosar_Achizitie_WILD_MOTION_ATV_PDF.zip\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\1. Referat de Necesitate V5 - Wild Motion SRL.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\18. Proces-Verbal Deschidere Oferte - WILD MOTION SRL V6 (1).docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\18. Proces-Verbal Deschidere Oferte - WILD MOTION SRL V6.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\2. Nota Justificativa V5 - Wild Motion SRL.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\22. Raportul Procedurii - WILD MOTION SRL V6.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\24. Comunicare Rezultat (Castigator) - NEETS FOTOSHOOTING SRL V6.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\8. Anunt de Participare - WILD MOTION SRL V6.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 1\\9. Invitatie Participare - NEETS FOTOSHOOTING SRL V6.docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 2\\Dosar complet pentru achiziția și finanțarea a trei ATV-uri CFMOTO CFORCE 1000 X10 EPS Euro 5+ 2026 .docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 2\\Dosar complet pentru achiziția și finanțarea a trei ATV-uri CFMOTO CFORCE 1000 X10 EPS Euro 5+ 2026 .pdf\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva 2\\Dosar complet pentru achiziția și finanțarea a trei ATV-uri CFMOTO CFORCE 1000 X10 EPS Euro 5+ 2026 v1 .docx\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva CFMoto\\DOC060526-06052026175237.pdf\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\Arhiva CFMoto\\DOC060526-06052026180821.pdf\r\n",
+        "exitCode": 0,
+        "durationMs": 5534
+      },
+      "created_at_ms": 1791812866012
+    },
+    {
+      "ordinal": 37,
+      "timestamp": "2026-10-12T13:48:12.405Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-67bc7e37-788e-41b3-9215-22b23f5e42e4",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$p='\"'\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie'; \"'$files=@(Get-ChildItem -LiteralPath \"$p'\"\\\\Dosar Achizitie\\\" -Filter '*.docx' | Where-Object Name -Match '01_Anexa|05_Anexa|07_Anexa|02_Anexa2_Invitatie_participare_DANCOR'); \"'$files+=Get-ChildItem -LiteralPath \"$p'\"\\\\Draft\\\\2026.07.01\\\\DOSAR ACHIZITI REFACUT\\\" -Filter '03_SPEC*'; foreach(\"'$f in $files){$f.FullName; $z=[IO.Compression.ZipFile]::OpenRead($f.FullName); $r=[IO.StreamReader]::new($z.GetEntry('\"'word/document.xml').Open()); [xml]\"'$x=$r.ReadToEnd(); $x.SelectNodes('\"'//*[local-name()=\\\"p\\\"]') | ForEach-Object {(\"'$_.SelectNodes('\"'.//*[local-name()=\\\"t\\\"]') | ForEach-Object InnerText) -join ''}; \"'$r.Dispose();$z.Dispose()}'",
+        "cwd": "C:\\Users\\User",
+        "processId": "98931",
+        "source": "unifiedExecStartup",
+        "status": "completed",
+        "commandActions": [
+          {
+            "type": "unknown",
+            "command": "$p='\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie'; $files=@(Get-ChildItem -LiteralPath \"$p\\Dosar Achizitie\" -Filter '*.docx' | Where-Object Name -Match '01_Anexa|05_Anexa|07_Anexa|02_Anexa2_Invitatie_participare_DANCOR'); $files+=Get-ChildItem -LiteralPath \"$p\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\" -Filter '03_SPEC*'; foreach($f in $files){$f.FullName; $z=[IO.Compression.ZipFile]::OpenRead($f.FullName); $r=[IO.StreamReader]::new($z.GetEntry('word/document.xml').Open()); [xml]$x=$r.ReadToEnd(); $x.SelectNodes('//*[local-name()=\"p\"]') | ForEach-Object {($_.SelectNodes('.//*[local-name()=\"t\"]') | ForEach-Object InnerText) -join ''}; $r.Dispose();$z.Dispose()}"
+          }
+        ],
+        "aggregatedOutput": "\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\01_Anexa1_Nota_privind_determinarea_valorii_estimate_WM-ATV-002.docx\r\nAnexa 1 Notă privind determinarea valorii estimate\r\n\r\nDenumire beneficiar: SC WILD MOTION S.R.L.\r\nSediu: Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba, cod poștal 517243\r\nCod fiscal: 52786696\r\nNr. WM-ATV-002 din 16.04.2026\r\nNotă privind determinarea valorii estimate\r\n\r\n\r\nAvând în vedere Bugetul Planului de Afaceri depus și aprobat în cadrul proiectului “InoSocRural – Intreprinderi sociale inovative in mediul rural din Regiunea Centru”, Cod SMIS 2021: 311779, se propune achiziționarea de produse – Furnizare 3 ATV-uri, vehicule de tip ATV / All-Terrain Vehicle,1000 cmc, înmatriculabile, Euro 5+.\r\nBeneficiar:\r\nSC WILD MOTION S.R.L., CUI 52786696, ONRC J2025082656000 din 28.10.2025, EUID ROONRC.J2025082656000\r\nContract de subvenție nr:\r\nPIDS/83/PIDS_P3/OP4/ESO4.1/PIDS_A12/311779\r\nLinia de finanţare:\r\nProgram Incluziune și Demnitate Socială 2021-2027 / PoIDS 2021-2027\r\nTip achiziție:\r\nFurnizare produse\r\nTip procedură:\r\nProcedură competitivă conform Ordinului Ministerului Fondurilor Europene nr. 1284/2016\r\nObiectul contractului de achiziţie:\r\nFurnizare 3 ATV-uri, vehicule de tip ATV / All-Terrain Vehicle, 600–1000 cmc, înmatriculabile, Euro 5+, necesare desfășurării activităților recreative, tururilor ghidate off-road și activităților sociale asumate prin Planul de afaceri\r\nCod CPV:\r\n34113200-4 – Vehicule pentru orice teren (All-terrain vehicles)\r\nValoarea estimată a contractului de achiziție a fost determinată pe baza analizelor de preț care au stat la baza elaborării bugetului Planului de afaceri și prin raportare la prețul de piață al echipamentelor similare, în conformitate cu prevederile Ordinului MIPE nr. 1284/2016.\r\nValoarea estimată a contractului de achiziție este de: 225.564,71 RON fără TVA, respectiv 268.422,00 RON TVA inclus.\r\nValoarea estimată a contractului de achiziție a fost determinată în baza informațiilor rezultate din cercetarea ofertelor de piață prin luarea în considerare a costului de piață al unor astfel de produse, fiind calculată la momentul elaborării/actualizării Bugetului Planului de afaceri, după cum urmează:\r\nNr crt\r\nDenumire achiziție\r\nUnitate de măsură\r\nCantitate\r\nPreț unitar RON (TVA inclus)\r\nValoare totală RON (TVA inclus)\r\nSuma finanțată din subvenție\r\nContribuție proprie\r\nValoare totală\r\n1\r\nATV Euro 5+\r\nbuc.\r\n3\r\n89.474,00\r\n268.422,00\r\n221.838,00\r\n46.584,00\r\n268.422,00\r\n\r\nAchiziție organizată pe loturi:\r\n( ) Da\r\n(X) Nu – achiziția se organizează ca un singur contract, având obiect unitar și funcțional.\r\nSpecificații tehnice minime:\r\nSpecificațiile tehnice sunt formulate obiectiv, ca cerințe minime sau echivalente, fără restrângerea concurenței, astfel încât ofertanții să poată propune produse cu performanțe cel puțin echivalente.\r\nTabel specificații tehnice minime:\r\nNr crt\r\nDenumire produs\r\nSpecificații tehnice minime\r\nCantitate\r\n1\r\nATV tip All-Terrain Vehicle, Euro 5+, înmatriculabil\r\nATV de tip All-Terrain Vehicle, 4x4, înmatriculabil, omologare Euro 5+; capacitate cilindrică minimă 900 cmc și maximă 1000 cmc; motor 4 timpi, V-Twin sau echivalent; putere omologată minim 80 CP; transmisie automată CVT sau echivalent; combustibil benzină; răcire cu lichid; pornire electrică; suspensie față cu livrare cu documente de conformitate/omologare, certificat de garanție și documente necesare utilizării legale/înmatriculării.\r\n3 buc.\r\n\r\nCriteriul aplicat pentru atribuirea contractului: prețul cel mai scăzut dintre ofertele conforme.\r\nCAPOTA NICOLAE-IOAN,\r\nReprezentant legal / Administrator\r\n\r\n\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\02_Anexa2_Invitatie_participare_DANCOR_PROIECT_SRL_WM-ATV-009.docx\r\nAnexa 2 Invitație de participare \r\n\r\n\r\nDenumire beneficiar: SC WILD MOTION S.R.L.\r\nSediu: Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba, cod poștal 517243\r\nCod fiscal: 52786696\r\nNr. WM-ATV-009 din 27.04.2026\r\nCătre: DANCOR-PROIECT SRL, Municipiul Alba Iulia, Str. ȘTEFAN LUCHIAN, Nr. 3B, Județ Alba, CUI 12445967, J01/410/1999\r\n\r\nInvitație de participare \r\nîn vederea atribuirii Contractului de Furnizare produse,\r\nconform prevederilor Ordinului nr. 1284 / 08.08.2016 privind aprobarea procedurii competitive aplicabile solicitanţilor/beneficiarilor privaţi pentru atribuirea contractelor de furnizare, servicii sau lucrări finanţate din fonduri europene,\r\nDenumirea achizitorului: SC WILD MOTION S.R.L.;\r\nAdresa sediu social: localitatea Hăpria, sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba;\r\nContract de subvenție nr. PIDS/83/PIDS_P3/OP4/ESO4.1/PIDS_A12/311779:\r\nProcedura aplicată pentru atribuirea contractului de furnizare: Procedură competitivă conform Ordinului Ministerului Fondurilor Europene nr. 1284/2016;\r\nObiectul contractului și locul de implementare a contractului: \r\nObiectul contractului: Furnizare produse – Furnizare 3 ATV-uri, vehicule de tip ATV / All-Terrain Vehicle, 1000 cmc, înmatriculabile, Euro 5+;\r\nLocul de implementare: localitatea Hăpria, sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba;\r\nValoarea estimată a achiziției: 225.564,71 lei fără TVA.\r\nÎn situația de față achiziția nu se face pe loturi, întrucât obiectul contractului este unitar.\r\nAchiziția nu se face pe loturi.\r\nLoturi: nu se aplică.\r\nNu se acceptă divizarea artificială a achiziției.\r\nCodul CPV: 34113200-4 – Vehicule pentru orice teren (All-terrain vehicles)\r\nSursa de finanțare: Programul Incluziune și Demnitate Socială 2021-2027, proiect „InoSocRural – Intreprinderi sociale inovative in mediul rural din Regiunea Centru”, Cod SMIS 311779, cofinanțat din FSE+ prin PoIDS 2021-2027, conform contractului de subvenție nr. PIDS/83/PIDS_P3/OP4/ESO4.1/PIDS_A12/311779.\r\nSpecificații tehnice minime:\r\nSpecificațiile tehnice minime sunt formulate în mod obiectiv și permit ofertarea oricărui produs cu performanțe cel puțin echivalente.\r\nTabel specificații tehnice minime:\r\nNr crt\r\nDenumire produs\r\nSpecificații tehnice minime\r\nCantitate\r\n1\r\nATV tip All-Terrain Vehicle, Euro 5+, înmatriculabil\r\nATV de tip All-Terrain Vehicle, 4x4, înmatriculabil, omologare Euro 5+; capacitate cilindrică minimă 900 cmc și maximă 1000 cmc; motor 4 timpi, V-Twin sau echivalent; putere omologată minim 80 CP; transmisie automată CVT sau echivalent; combustibil benzină; livrare cu documente de conformitate/omologare, certificat de garanție și documente necesare utilizării legale/înmatriculării.\r\n3 buc.\r\n\r\nTipul si durata contractului:\r\nTipul: Contract de Furnizare produse;\r\nDurata contractului: maximum 30 de zile calendaristice de la data semnării contractului, până la livrarea și recepția produselor;\r\nAtribuirea contractului se va face pentru întreaga achiziție, fără împărțire pe loturi;\r\nCriteriul aplicat pentru atribuirea contractului: prețul cel mai scăzut dintre ofertele conforme;\r\nData și ora limită pentru depunerea ofertelor este 04.05.2026, ora 16:00. Depunerea ofertelor se va face la sediul beneficiarului: Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba, cod poștal 517243, sau prin e-mail, conform comunicării transmise de achizitor. Oferta va fi redactată în limba română;\r\nPosibilitatea depunerii de oferte alternative: Nu pot fi depuse oferte alternative.\r\nDocumentele ce urmează a fi prezentate de către ofertanți: propunere tehnico-financiară semnată, care va cuprinde informații privind denumirea produselor, specificații tehnice, cantitate, preț unitar, valoare TVA, valoare totală, perioadă de valabilitate a ofertei, termen de livrare și garanție; declarație privind evitarea conflictului de interese – ofertant;\r\nOferta se depune pentru întreaga achiziție; nu se acceptă oferte parțiale pe loturi, deoarece achiziția nu este divizată pe loturi.\r\nInstrucțiuni privind modul de elaborare și prezentare a propunerii financiare: prețul se va exprima în lei, fără TVA și cu TVA, pentru întreaga cantitate solicitată;\r\nAjustarea prețului contractului: prețul contractului nu se ajustează\r\nPerioada de valabilitate a ofertei: minimum 30 de zile calendaristice de la termenul limită de depunere;\r\nTermen de livrare: maximum 30 de zile calendaristice de la semnarea contractului;\r\nOperatorii economici pot contacta achizitorul pentru obținerea de informații suplimentare legate de contractul de achiziție la numărul de telefon 0769982977.\r\n\r\n\r\nCAPOTA NICOLAE-IOAN,\r\nReprezentant legal / Administrator\r\n\r\n\r\n\r\n\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\05_Anexa5_Nota_justificativa_atribuire_WM-ATV-022.docx\r\nAnexa 5 Notă justificativă de atribuire\r\n\r\nDenumire beneficiar: SC WILD MOTION S.R.L.\r\nSediu: Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba, cod poștal 517243\r\nCod fiscal: 52786696\r\nNr. WM-ATV-022 / data 11.05.2026\r\n\r\nNotă justificativă de atribuire \r\n\r\nDenumirea achizitorului: SC WILD MOTION S.R.L.;\r\nAdresa sediu social: Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba, cod poștal 517243;\r\nProcedura aplicată pentru atribuirea contractului de furnizare: Procedură competitivă conform Ordinului Ministerului Fondurilor Europene nr. 1284/2016;\r\nObiectul contractului si locul de implementare a contractului: \r\nObiectul contractului: Furnizare produse – Furnizare 3 ATV-uri, vehicule de tip ATV / All-Terrain Vehicle,1000 cmc, înmatriculabile, Euro 5+;\r\nLocul de implementare: sat Hăpria, Comuna Ciugud, Strada Teilor, nr. 26, județul Alba;\r\nValoarea estimată a achiziției: 268.422,00 lei (TVA inclus).\r\nAchiziția nu se face pe loturi, obiectul contractului fiind unitar.\r\nAchiziția nu este divizată pe loturi.\r\nLoturi: nu se aplică.\r\nNu se aplică.\r\nSursa de finanțare: Programul Incluziune și Demnitate Socială 2021-2027, proiect „InoSocRural – Intreprinderi sociale inovative in mediul rural din Regiunea Centru”, Cod SMIS 311779, cofinanțat din FSE+ prin PoIDS 2021-2027, conform contractului de subvenție nr. PIDS/83/PIDS_P3/OP4/ESO4.1/PIDS_A12/311779;\r\nCriteriul aplicat pentru atribuirea contractului: prețul cel mai scăzut;\r\n\r\n\r\n\r\nPână la termenul limită de depunere a ofertelor au fost primite 3 (trei) oferte astfel:\r\nDenumire ofertant\r\nNr înreg oferta\r\nCantitate\r\nPreț fără TVA\r\nValoare fără TVA\r\nTotal cu TVA\r\nDANCOR-PROIECT SRL\r\nWM-ATV-015 / 04.05.2026\r\n3 buc.\r\n75.188,24\r\n225.564,71\r\n268.422,00\r\nMARIUS CODE WNK SRL\r\nWM-ATV-016 / 04.05.2026\r\n3 buc.\r\n75.398,32\r\n226.194,96\r\n269.172,00\r\nARIDE RIDE IT SRL\r\nWM-ATV-017 / 04.05.2026\r\n3 buc.\r\n75.482,35\r\n226.447,06\r\n269.472,00\r\n\r\nOfertele depuse de către DANCOR-PROIECT SRL, MARIUS CODE WNK SRL și ARIDE RIDE IT SRL au fost analizate și îndeplinesc specificațiile tehnice solicitate în Invitația de participare.\r\nOferta cu prețul cel mai scăzut și care se încadrează în valoarea estimată este oferta depusă de către DANCOR-PROIECT SRL.\r\nPrin urmare se decide că oferta selectată şi declarată căştigătoare este:\r\n- oferta depusă de către DANCOR-PROIECT SRL, cu sediul în Municipiul Alba Iulia, Str. ȘTEFAN LUCHIAN, nr. 3B, județul Alba, numărul de ordine în registrul comerțului J01/410/1999, cod unic de înregistrare 12445967, în valoare de 225.564,71 lei fără TVA, respectiv 268.422,00 lei TVA inclus.\r\n\r\n          Drept pentru care s-a încheiat prezenta Notă justificativă de atribuire.\r\nCAPOTA NICOLAE-IOAN,\r\nReprezentant legal / Administrator\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie\\07_Anexa7_Contract_furnizare_produse_DANCOR_WM-ATV-033.docx\r\nAnexa 7 Contract de furnizare produse\r\n\r\nContract de furnizare produse\r\nNr. WM-ATV-033 / 18.05.2026\r\n\r\nPREAMBUL\r\nAvând în vedere prevederile Ordinului nr. 1284 / 08.08.2016 privind aprobarea procedurii competitive aplicabile solicitanţilor/beneficiarilor privaţi pentru atribuirea contractelor de furnizare, servicii sau lucrări finanţate din fonduri europene, precum și rezultatul procedurii de atribuire consemnat în Nota justificativă de atribuire nr. WM-ATV-022 / 11.05.2026, s-a încheiat prezentul Contract\r\nÎntre\r\nSC WILD MOTION S.R.L., cu sediul în Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba, cod poștal 517243, telefon 0769982977, e-mail nedeclarat în documentele procedurii, numărul de ordine în registrul comerțului J2025082656000, cod fiscal 52786696, contul RO42BTRLRONCRTODB3187901, deschis la Banca Transilvania, reprezentată prin dl CAPOTA NICOLAE-IOAN, având funcţia de Administrator, în calitate de achizitor, pe de o parte\r\nși \r\nSC DANCOR-PROIECT SRL, cu sediul în Municipiul Alba Iulia, Str. ȘTEFAN LUCHIAN, Nr. 3B, Județ Alba, telefon 058/822200; 0742749605, numărul de ordine în registrul comerțului J01/410/1999, având codul fiscal 12445967, contul bancar conform facturii fiscale/proformei emise de furnizor, deschis la banca indicată în factura fiscală/proformă, reprezentată legal prin dl COVACIU COSMIN ADRIAN, având funcția de Administrator, în calitate de furnizor, pe de altă parte,\r\ndenumite, în continuare, în mod individual \"Partea\" și împreună, \"Părțile\" \r\nau convenit încheierea prezentului Contract, astfel:\r\n\r\nDEFINIȚII\r\nÎn prezentul contract următorii termeni vor fi interpretați astfel:\r\ncontract - prezentul contract și toate anexele sale;\r\nachizitor și furnizor – părțile contractante, aşa cum sunt acestea numite în prezentul contract;\r\npreţul contractului - preţul plătibil furnizorului de către achizitor, în baza contractului, pentru îndeplinirea integrală şi corespunzătoare a tuturor obligaţiilor asumate prin contract;\r\nproduse - echipamentele, maşinile, utilajele, orice alte bunuri, cuprinse în anexa/anexele la prezentul contract, pe care furnizorul se obligă, prin contract, să le furnizeze achizitorului;\r\nservicii - serviciile aferente livrării produselor, respectiv activităţile legate de furnizarea produselor, cum ar fi transportul, asigurarea, instalarea, punerea în funcţiune, asistenţa tehnică în perioada de garanţie şi orice alte asemenea obligaţii care revin furnizorului prin contract;\r\norigine - locul unde produsele au fost realizate, fabricate. Produsele sunt fabricate atunci când prin procesul de fabricare, prelucrare sau asamblare majoră şi esenţială a componentelor rezultă un produs nou, recunoscut comercial, care este diferit, prin caracteristicile sale de bază, prin scop sau prin utilitate, de componentele sale. Originea produselor şi serviciilor poate fi distinctă de naţionalitatea furnizorului;\r\ndestinaţie finală - locul unde furnizorul are obligaţia de a furniza produsele;\r\nforţa majoră - un eveniment mai presus de controlul părţilor, care nu se datorează greşelii sau vinei acestora, care nu putea fi prevăzut la momentul încheierii contractului şi care face imposibilă executarea şi, respectiv, îndeplinirea contractului; sunt considerate asemenea evenimente: războaie, revoluţii, incendii, inundaţii sau orice alte catastrofe naturale, restricţii apărute ca urmare a unei carantine, embargou, enumerarea nefiind exhaustivă, ci enunţiativă. Nu este considerat forţă majoră un eveniment asemenea celor de mai sus care, fără a crea o imposibilitate de executare, face extrem de costisitoare executarea obligaţiilor uneia dintre părţi;\r\nzi - zi calendaristică; an - 365 de zile.\r\nOBIECTUL CONTRACTULUI\r\nObiectul prezentului Contract îl reprezintă achiziția de Furnizare 3 bucăți CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod produs CF1000AU-2 EPS Basic, sau echivalent conform ofertei declarate câștigătoare și cerințelor din Invitația de participare, denumite în continuare Produsele, pe care Furnizorul se obligă să le furnizeze în conformitate cu prevederile din prezentul Contract, cu dispozițiile legale, aprobările și standardele tehnice, profesionale și de calitate în vigoare și conform cerințelor din Invitația de participare și Oferta acceptată, la destinația finală Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba. Specificațiile ofertate includ: CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod CF1000AU-2 EPS Basic; motor V-Twin, 4 timpi; capacitate 962,6 cmc; combustibil benzină; rezervor 26 l; răcire cu lichid; pornire electrică; putere omologată 84 CP; putere constructivă 90 CP; transmisie CVT; suspensie față dublu braț A; suspensie spate independentă; frâne hidraulice pe disc față/spate; anvelope față 27 X 9-14; anvelope spate 27 X 11-14; dimensiuni 2445 x 1270 x 1465 mm; greutate 443 kg; garda la sol 300 mm; înmatriculabil; categorie permis B; omologare Euro 5+; an 2026.\r\nPREȚUL CONTRACTULUI\r\nPreţul convenit pentru îndeplinirea Contractului, plătibil Furnizorului de către Achizitor, conform ofertei prezentate, este 225.564,71 lei fără TVA, la care se adaugă TVA în valoare de 42.857,29 lei, valoarea totală fiind 268.422,00 lei TVA inclus, în conformitate cu Oferta, anexă la prezentul contract.\r\nPrețul Contractului este ferm și nu se ajustează.\r\nPlata se face după livrarea și recepția produselor, în termen de maximum 30 de zile de la data primirii facturii fiscale, după semnarea procesului-verbal de recepție fără obiecțiuni.\r\nDURATA CONTRACTULUI\r\nDurata prezentului Contract este de maximum 30 de zile calendaristice de la data intrării în vigoare a prezentului Contract, până la livrarea și recepția produselor.\r\nDOCUMENTELE CONTRACTULUI\r\nDocumentele prezentului Contract se completează și se explicitează reciproc, sunt parte integrantă din Contract și sunt, în ordinea importanței lor, următoarele:\r\nInvitația de participare;\r\nOferta.\r\nOBLIGAȚIILE FURNIZORULUI\r\nFurnizorul se obligă să furnizeze produsele la standardele şi performanţele prezentate în oferta sa.\r\nFurnizorul se obligă să furnizeze produsele în termen de maximum 30 de zile calendaristice de la data semnării contractului, în conformitate cu prevederile prezentului contract.\r\nFurnizorul se obligă să despăgubească achizitorul împotriva oricăror: reclamaţii şi acţiuni în justiţie, ce rezultă din încălcarea unor drepturi de proprietate intelectuală (brevete, nume, mărci înregistrate etc.), legate de echipamentele, materialele, instalaţiile sau utilajele folosite pentru sau în legătură cu produsele achiziţionate; şi daune-interese, costuri, taxe şi cheltuieli de orice natură, aferente, cu excepţia situaţiei în care o astfel de încălcare rezultă din respectarea specificațiilor tehnice întocmite de către achizitor.\r\nFurnizorul se obligă să transmită factura fiscală pentru bunurile livrate în conformitate cu prezentul contract.\r\nÎn îndeplinirea obligaţiilor de mai sus, Furnizorul se obligă să acorde drepturile de acces necesare personalului şi/sau agenţilor desemnaţi în acest sens de către Comisia Europeană, Oficiul de Luptă Anti - Fraudă sau Curtea Europeană de Conturi la locaţia/locaţiile utilizate de Furnizor pentru executarea contractului, la sistemele informatice, documentele şi bazele de date relevante pentru gestiunea tehnică şi financiară a contractului, precum şi să ia toate măsurile necesare pentru a facilita activitatea acestor persoane/agenţi. Accesul persoanelor desemnate de către Comisia Europeană, Oficiul de Luptă Anti - Fraudă sau Curtea Europeană de Conturi va fi acordat cu respectarea regulii confidenţialităţii, fără ca prin acest lucru să se încalce obligaţiile de drept public ce îi revin Furnizorului conform legii statului a cărui naţionalitate o are.\r\nFurnizorul va permite accesul neîngrădit al persoanelor/instituțiilor menționate în cazul în care aceștia efectuează verificări/controale/audit la fața locului și solicită declarații, informații, documente, precum și ofiţerului de proiect şi/sau oricăror alte persoane desemnate de către achizitor, precum şi personalului/agenţilor desemnaţi de către instituţiile din România abilitate conform legii să deruleze astfel de verificări şi controale.\r\nFurnizorul se obligă să respecte Principiul DNSH (”do not significantly harm” engl.orig.) – A nu prejudicia în mod semnificativ prin adoptarea unei atitudini resposabile față de mediu.\r\nOBLIGAȚIILE ACHIZITORULUI\r\nAchizitorul se obligă să recepţioneze produsele în momentul furnizării acestora la destinația finală.\r\nAchizitorul se obligă să plătească preţul produselor către furnizor în termenul convenit. \r\nAchizitorul se obligă să informeze în timp util Furnizorul în legătură cu orice modificare/dezvoltare a cerinţelor operaţionale şi funcţionale ale proiectului, care ar putea avea impact asupra clauzelor prevăzute în contract.\r\n\r\nSANCȚIUNI PENTRU NEÎNDEPLINIREA CULPABILĂ A OBLIGAȚIILOR\r\nÎn cazul în care, din vina sa exclusivă, furnizorul nu reuşeşte să-şi îndeplinească obligaţiile asumate, atunci achizitorul are dreptul de a scădea, ca penalităţi, o sumă echivalentă cu o cotă procentuală de 0,1 % pe zi din preţul contractului.\r\nÎn cazul în care achizitorul nu îşi onorează obligaţiile în termen de 28 de zile de la expirarea perioadei convenite, atunci acestuia îi revine obligaţia de a plăti, ca penalităţi, o sumă echivalentă cu o cotă procentuală de 0,1 % pe zi din plata neefectuată.\r\nNerespectarea obligaţiilor asumate prin prezentul contract de către una dintre părţi, în mod culpabil şi repetat, dă dreptul părţii lezate de a considera contractul reziliat de drept.\r\nAchizitorul îşi rezervă dreptul de a renunţa la contract, printr-o notificare scrisă adresată furnizorului, fără nici o compensaţie, dacă acesta din urmă dă faliment, cu condiţia ca această anulare să nu prejudicieze sau să afecteze dreptul la acţiune sau despăgubire pentru furnizor. În acest caz, furnizorul are dreptul de a pretinde numai plata corespunzătoare pentru partea din contract îndeplinită până la data denunţării unilaterale a contractului.\r\nRECEPȚIE, INSPECȚII ȘI TESTE\r\nAchizitorul, prin reprezentanții săi, are dreptul de a inspecta şi/sau de a testa produsele pentru a verifica conformitatea lor cu specificaţiile din oferta acceptată, anexă la contract. \r\nInspecţiile şi/sau testările la care vor fi supuse produsele, cât şi condiţiile de îndeplinire a recepţiei calitative se vor efectua prin verificarea conformităţii cu specificaţiile din oferta acceptată.\r\nInspecţiile şi testele din cadrul recepţiei calitative se vor face la destinaţia finală a produselor precizată la Art. 3 al prezentului contract.\r\nDacă vreunul din produsele inspectate sau testate nu corespunde specificaţiilor, achizitorul are dreptul să îl respingă, iar furnizorul are obligaţia, fără a modifica preţul contractului, de a înlocui produsele refuzate.\r\nDreptul achizitorului de a inspecta, testa şi, dacă este necesar, de a respinge nu va fi limitat sau amânat datorită faptului că produsele au fost inspectate şi testate de furnizor, cu sau fără participarea unui reprezentant al achizitorului, anterior livrării acestora la destinaţia finală.\r\nPrevederile prezentului articol nu îl vor absolvi pe furnizor de obligaţia asumării garanţiilor sau altor obligaţii prevăzute în contract.\r\nFurnizorul va transmite achizitorului documentele care însoţesc produsele după cum urmează: factura fiscală, certificatul de garanţie acordat de producător pentru fiecare produs, documentele de conformitate/omologare, documentele necesare utilizării legale/înmatriculării, manualul de utilizare și instrucțiunile de siguranță.\r\nCertificarea de către achizitor a faptului că produsele au fost livrate parţial sau total se face după recepţie, prin semnarea de procesului verbal de receptie de către reprezentantii săi autorizați.\r\nLivrarea produselor se consideră încheiată în momentul în care sunt îndeplinite prevederile clauzelor de recepţie a produselor.\r\nAMBALARE ȘI MARCARE\r\nFurnizorul are obligaţia de a ambala produsele pentru ca acestea să facă faţă, fără limitare, la manipularea dură din timpul transportului, tranzitului şi expunerii la temperaturi extreme, la soare şi la precipitaţiile care ar putea să apară în timpul transportului şi depozitării în aer liber, în aşa fel încât să ajungă în bună stare la destinaţia finală.\r\nÎn cazul ambalării greutăţilor şi volumelor în cutii, furnizorul va lua în considerare, unde este cazul, distanţa mare până la destinaţia finală a produselor şi absenţa facilităţilor de manipulare grea în toate punctele de tranzit.\r\nAmbalarea, marcarea şi documentaţia din interiorul sau din afara pachetelor vor respecta strict cerinţele ce vor fi special prevăzute în contract, inclusiv cerinţele suplimentare.\r\nToate materialele de ambalare a produselor, precum şi toate materialele necesare protecţiei coletelor (paleţi de lemn, cutii, foi de protecţie etc.) rămân în proprietatea achizitorului.\r\nGARANȚIA PRODUSELOR\r\nFurnizorul are obligaţia de a garanta că produsele furnizate prin contract sunt noi, nefolosite, de ultimă generaţie şi încorporează toate îmbunătăţirile recente în proiectare şi structura materialelor. Garanția minimă acceptată este de 24 luni sau garanția comercială standard a producătorului, dacă aceasta este mai favorabilă achizitorului.\r\nAchizitorul are dreptul de a notifica imediat furnizorului, în scris, orice plângere sau reclamaţie ce apare în conformitate cu această garanţie.\r\nLa primirea unei astfel de notificări, furnizorul are obligaţia de a remedia defecţiunea sau de a înlocui produsul în termen de de 14 zile lucrătoare de la data notificării, fără costuri suplimentare pentru achizitor. Produsele care, în timpul perioadei de garanţie, le înlocuiesc pe cele defecte beneficiază de o nouă perioadă de garanţie care curge de la data înlocuirii produsului.\r\nDacă furnizorul, după ce a fost înştiinţat, nu reuşeşte să remedieze defectul în perioada de timp menţionată, achizitorul are dreptul de a lua măsuri de remediere pe riscul şi pe cheltuiala furnizorului şi fără a aduce niciun prejudiciu oricăror alte drepturi pe care achizitorul le poate avea faţă de furnizor prin contract.\r\nCONFLICTUL DE INTERESE\r\nFurnizorul va lua toate măsurile necesare pentru a preveni orice situaţie de natură să compromită realizarea cu imparțialitate și obiectivitate a contractului și va informa în cel mai scurt timp Achizitorul asupra oricărei situații care constituie un conflict de interese și care a apărut pe parcursul implementării. Conflictele de interese, astfel cum sunt acestea definite în contract, pot apărea în mod special ca rezultat al intereselor economice, afinităţilor, legăturilor de rudenie ori afinitate sau al oricăror alte legături ori interese comune. Orice conflict de interese apărut în timpul executării contractului de furnizare trebuie notificat în scris Achizitorului, fără întârziere. \r\nCARACTERUL CONFIDENŢIAL AL CONTRACTULUI\r\nPărțile convin să păstreze în strictă confidențialitate informațiile contractuale și sunt de acord să prevină orice utilizare sau divulgare neautorizată a acestora. Părțile înțeleg să utilizeze informațiile contractuale doar în scopul de a-și îndeplini obligațiile din prezentul contract.\r\nFără a aduce atingere obligațiilor prevăzute în prezentul Contract și anexele acestuia privind furnizarea informațiilor și documentelor necesare desfășurării activităților de audit și control de către instituțiile / departamentele abilitate, conform prevederilor legale, părțile se angajează să depună toate diligențele pentru păstrarea confidențialității datelor cu caracter personal în conformitate cu prevederile Directivei (UE) 2016/680 a Parlamentului European și a Consiliului din 27 aprilie 2016 privind protecţia persoanelor fizice referitor la prelucrarea datelor cu caracter personal de către autorităţile competente în scopul prevenirii, depistării, investigării sau urmăririi penale a infracţiunilor sau al executării pedepselor și privind libera circulaţie a acestor date și de abrogare a Deciziei-cadru 2008/977/JAI a Consiliului și în conformitate cu prevederile Regulamentului nr. 679 din 27 aprilie 2016 privind protecţia persoanelor fizice în ceea ce priveşte prelucrarea datelor cu caracter personal şi privind libera circulaţie a acestor date şi de abrogare a Directivei 95/46/CE (Regulamentul general privind protecţia datelor).\r\nAJUSTAREA PREȚULUI CONTRACTULUI\r\nPentru produsele livrate, plăţile datorate de achizitor furnizorului sunt cele declarate în oferta acceptată, anexă la contract, și indicate in Art. 4 al contractului. \r\nPreţul contractului nu se ajustează.\r\nÎNCETAREA CONTRACTULUI\r\nPrezentul contract încetează în următoarele situații: \r\nla implinirea termenului prevăzut  în contract;\r\nprin executarea de către ambele părți a tuturor obligațiilor ce le revin conform prezentului contract și legislației aplicabile;\r\nprin acordul părților consemnat în scris;\r\nprin reziliere/rezoluțiune, în cazul în care una din părți nu își execută sau execută necorespunzător obligațiile contractuale. \r\nprin denunțare unilaterală conform dispozițiilor prezentului contract.\r\nÎn situația rezilierii/rezoluțiunii din cauza neexecutării/executării parțiale sau executarii necorespunzatoare de către Furnizor a obligațiilor contractuale, acesta va datora achizitorului daune-interese cu titlu de clauză penală în cuantum egal cu valoarea obligațiilor contractuale neexecutate. \r\nÎn situația în care executarea parțială a obligațiilor contractuale face imposibilă realizarea obiectului contractului în integralitatea sa, chiar dacă a fost recepționată o parte din contract conform dispozițiilor legale, Furnizorul va datora Achizitorului daune-interese cu titlu de clauză penală în cuantum egal cu întreaga valoare a obligațiilor contractuale stabilite prin contract.\r\nNerespectarea în mod repetat de către o parte a obligaţiilor contractuale va fi dovedită cu notificările scrise şi transmise de către cealaltă parte, notificări care vor face referire la neîndeplinirea respectivă precum şi la durata ei. Prin notificări se vor solicita justificări privind neîndeplinirea obligaţiilor, pe care cealaltă parte este obligată să le presteze în termen de maxim 5 zile de la data primirii notificării. \r\nPărţile sunt de drept în întârziere prin simplul fapt al nerespectării clauzelor prezentului contract.\r\nFORȚA MAJORĂ\r\nForţa majoră este constatată de o autoritate competentă.\r\nForţa majoră exonerează părţile contractante de îndeplinirea obligaţiilor asumate prin prezentul contract, pe toată perioada în care aceasta acţionează.\r\nÎndeplinirea contractului va fi suspendată în perioada de acţiune a forţei majore, dar fără a prejudicia drepturile ce li se cuveneau părţilor până la apariţia acesteia.\r\nPartea contractantă care invocă forţa majoră are obligaţia de a notifica celeilalte părţi, imediat şi în mod complet, producerea acesteia şi să ia orice măsuri care îi stau la dispoziţie în vederea limitării consecinţelor.\r\nDacă forţa majoră acţionează sau se estimează că va acţiona o perioadă mai mare de 6 luni, fiecare parte va avea dreptul să notifice celeilalte părţi încetarea de plin drept a prezentului contract, fără ca vreuna dintre părţi să poată pretinde celeilalte daune-interese.\r\nSOLUȚIONAREA LITIGIILOR\r\nAchizitorul şi furnizorul vor depune toate eforturile pentru a rezolva pe cale amiabilă, prin tratative directe, orice neînţelegere sau dispută care se poate ivi între ei în cadrul sau în legătură cu îndeplinirea contractului.\r\nDacă, după 15 de zile de la începerea acestor tratative, achizitorul şi furnizorul nu reuşesc să rezolve în mod amiabil o divergenţă contractuală, fiecare poate solicita ca disputa să se soluţioneze prin adresarea la instanțele competente.\r\nLIMBA CARE GUVERNEAZĂ CONTRACTUL; LEGEA APLICABILĂ CONTRACTULUI\r\nLimba care guvernează contractul este limba română.\r\nContractul va fi interpretat conform legilor din România.\r\nCOMUNICĂRI\r\nOrice comunicare între părţi, referitoare la îndeplinirea prezentului contract, trebuie să fie transmisă în scris.\r\nComunicările dintre părţi se pot face şi prin telefon, fax sau e-mail, cu condiţia confirmării în scris a primirii comunicării.\r\n\r\nPărţile au înţeles să încheie astăzi 18.05.2026, prezentul contract în 2 (două) exemplare originale, având aceeaşi valoare juridică, 1 (unu) la Furnizor şi 1 (unu) la Achizitor.\r\n\r\nACHIZITOR,SC WILD MOTION S.R.L.CAPOTA NICOLAE-IOANAdministrator\r\nFURNIZOR,SC DANCOR-PROIECT SRLCOVACIU COSMIN ADRIANAdministrator\r\n\r\n\r\n\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Draft\\2026.07.01\\DOSAR ACHIZITI REFACUT\\03_SPECIFICATII_TEHNICE_CAIET_DE_SARCINI_WM-ATV-003_17-04-2026.docx\r\nBeneficiar\r\nSC WILD MOTION S.R.L. | CUI 52786696 | J2025082656000 din 28.10.2025\r\nNr. document\r\nWM-ATV-003\r\nContract subvenție\r\nPIDS/83/PIDS_P3/OP4/ESO4.1/PIDS_A12/311779\r\nData\r\n17.04.2026\r\nAchiziție\r\n3 x ATV capacitate cilindrică mare, Euro 5+\r\nProcedură\r\nAchiziție competitivă / solicitare de oferte\r\n\r\nSPECIFICAȚII TEHNICE - CAIET DE SARCINI\r\nNr. WM-ATV-003 / 17.04.2026\r\n\r\nObiectul caietului de sarcini\r\nObiectul prezentului caiet de sarcini îl constituie furnizarea unui număr de 3 ATV-uri capacitate cilindrică mare, Euro 5+, noi, funcționale, înmatriculabile și conforme cu cerințele minime din prezentul document, fără impunerea unei anumite mărci, a unui anumit model sau a unui cod de producător.\r\nSpecificații tehnice minime/echivalente\r\nCerință\r\nSpecificație minimă/acceptată\r\nTip echipament\r\nATV nou, înmatriculabil, Euro 5+, destinat utilizării recreative/off-road\r\nDenumire/model\r\nFără marcă/model impus; ofertantul va indica în ofertă modelul propus\r\nCod produs\r\nNu se solicită cod de producător; ofertantul poate indica propriul cod, dacă există\r\nMotor\r\nMotor 4 timpi, benzină, capacitate cilindrică mare\r\nCapacitate cilindrică\r\nmin. 950 cmc\r\nCombustibil\r\nBenzină\r\nRezervor\r\nmin. 25 litri\r\nRăcire\r\ncu lichid sau sistem echivalent adecvat utilizării ATV\r\nSistem pornire\r\nelectric\r\nPutere omologată\r\nmin. 80 CP\r\nPutere constructivă\r\nmin. 80 CP / conform documentației producătorului\r\nSuspensie față\r\nsuspensie adecvată utilizării off-road, independentă sau echivalentă\r\nSuspensie spate\r\nsuspensie adecvată utilizării off-road, independentă sau echivalentă\r\nFrână față\r\nsistem de frânare hidraulic/disc sau echivalent\r\nFrână spate\r\nsistem de frânare hidraulic/disc sau echivalent\r\nAnvelopă față\r\nanvelope ATV/off-road compatibile cu echipamentul ofertat\r\nAnvelopă spate\r\nanvelope ATV/off-road compatibile cu echipamentul ofertat\r\nDimensiuni minime/echivalente\r\nlungime 2350-2500 mm; lățime 1200-1350 mm; înălțime 1400-1550 mm\r\nGreutate\r\nmax. 460 kg\r\nGardă la sol\r\nmin. 280 mm\r\nÎnmatriculabil\r\nDa, cu documente necesare utilizării/înmatriculării legale\r\nAn fabricație/model\r\nechipament nou, model curent, cu respectarea omologării solicitate\r\nCulori acceptate\r\norice culoare disponibilă la furnizor/producător\r\nCategorie permis\r\nB sau categoria legală aplicabilă conform documentelor de omologare\r\nOmologare\r\nEuro 5+ sau standard echivalent/aplicabil la data livrării\r\nTransmisie\r\nCVT sau transmisie echivalentă adecvată utilizării ATV\r\nDocumente la livrare\r\nfactură, certificat de garanție, certificat/conformitate/omologare, carte de identitate/acte necesare înmatriculării, manual utilizare în limba română sau engleză\r\nGaranție minimă solicitată\r\nminimum 24 luni sau garanția comercială standard a producătorului, oricare este mai avantajoasă\r\nLivrare\r\nla sediul / punctul indicat de beneficiar în județul Alba, cu predare-primire și probă de funcționare\r\n\r\nMențiune: specificațiile sunt formulate ca minime tehnice sau echivalente, astfel încât să fie permisă ofertarea oricărui produs cu performanțe cel puțin echivalente, fără restrângerea artificială a concurenței.\r\nCerințe privind oferta\r\noferta va indica prețul unitar și valoarea totală, TVA inclus, pentru cantitatea de 3 bucăți;\r\noferta va include termenul de livrare, perioada de garanție, condițiile de plată și documentele furnizate la livrare;\r\nofertantul va declara că produsele ofertate sunt noi, neutilizate, conforme cu standardele de siguranță aplicabile și apte pentru înmatriculare/utilizare conform legii;\r\nse acceptă produse echivalente numai dacă îndeplinesc cel puțin parametrii minimi tehnici, iar echivalența trebuie demonstrată prin fișă tehnică, broșură sau declarație de conformitate.\r\nCriteriul de atribuire\r\nCriteriul de atribuire este prețul cel mai scăzut dintre ofertele declarate conforme din punct de vedere administrativ, tehnic și financiar.\r\nCondiții de livrare și recepție\r\nlivrarea se face la locația indicată de beneficiar, în județul Alba;\r\nrecepția se face pe bază de proces-verbal de predare-primire, verificare vizuală și probă de funcționare;\r\nla recepție se predau factura, documentele de garanție, documentele tehnice și orice document necesar înmatriculării/omologării;\r\nneconformitățile constatate la livrare se consemnează și se remediază pe cheltuiala furnizorului.\r\n\r\nLocul: Hăpria, jud. Alba\r\nData: 17.04.2026\r\n\r\nCalitate\r\nNume și prenume\r\nSemnătură\r\nÎntocmit - Expert Tehnic\r\n[DE COMPLETAT: nume și prenume Membru 1 / expert tehnic]\r\n____________________________\r\nAvizat - Manager Proiect\r\nCAPOTA NICOLAE-IOAN\r\n____________________________\r\n\r\n",
+        "exitCode": 0,
+        "durationMs": 8308
+      },
+      "created_at_ms": 1791812884097
+    },
+    {
+      "ordinal": 42,
+      "timestamp": "2026-10-12T13:48:21.807Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-c2fb51ed-6c9b-4c5c-9ae6-c3d76cc53253",
+        "query": "site.mobile.de CFMOTO CForce 1000 8990 ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "site.mobile.de CFMOTO CForce 1000 8990",
+            "site.mobile.de CFMOTO CForce 1000 8500",
+            "site.mobile.de CFMOTO X10 9000"
+          ]
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "www.mobile.de",
+            "ref_id": "turn0search0",
+            "snippet": "€5,899 ... ## Sponsored CFMOTO Cforce 1000 Overland |keine Touring Pro",
+            "title": "CFMOTO used in Germany | mobile.de",
+            "url": "https://www.mobile.de/en/motorcycle/cfmoto"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn0search1",
+            "snippet": "## CFMOTO Quad CForce 1000 Overland 4x4 EFI AHK Seilwinde",
+            "title": "CFMOTO cforce 1000 used in Germany | mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/cfmoto-cforce-1000.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn0search2",
+            "snippet": "## CFMOTO CFORCE 1000 TOURING PRO ABS | NO 850 625",
+            "title": "CFMOTO cforce 850 touring used in Germany | mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/cfmoto-cforce-850-touring.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn0search3",
+            "snippet": "* CFMOTO cforce 1000 mud version ... €11,899¹",
+            "title": "CFMOTO cforce 1000 mud version used in Germany | mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/cfmoto-cforce-1000-mud-version.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn0search4",
+            "snippet": "* CFMOTO cforce 1000 touring",
+            "title": "CFMOTO cforce 1000 touring used in Germany | mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/cfmoto-cforce-1000-touring.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn0search5",
+            "snippet": "### CFMOTO CForce Touring 1000 EPS ABS Quad ATV ... Image: CFMOTO CForce 850 T3B ABS Camo ATV",
+            "title": "Quadcenter Siemer in Daren/Bakum",
+            "url": "https://home.mobile.de/QUADCENTERSIEMER"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn0search6",
+            "snippet": "### CFMOTO CFORCE 1000 Touring ABS EPS 2026",
+            "title": "S.H. Quad & Moto Center in Hohentengen",
+            "url": "https://home.mobile.de/home/index.html?colorTheme=default&customerId=461574&partnerHead=false"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn0search7",
+            "snippet": "### CFMOTO CFORCE 1000 TOURING PRO - 2026 GRANITE RIDGE ... Image: CFMOTO CFORCE 850 TOURING PRO - GRANITE RIDGE - 2026",
+            "title": "Quadrausch GmbH in Krugzell",
+            "url": "https://home.mobile.de/RAUSCH-TITTEL-GMBH"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.mobile.de",
+            "ref_id": "turn0search8",
+            "snippet": "## Gesponsord CFMOTO CFORCE 625 L Touring ABS inkl. ... ## CFMOTO UForce 1000 EPS LOF, Vollkabine mit Heizung",
+            "title": "CFMOTO tweedehands in Duitsland | Motor gebruikt | mobile.de",
+            "url": "https://www.mobile.de/nl/motorcycle/cfmoto"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn0search9",
+            "snippet": "### CFMOTO CForce 1000 ABS",
+            "title": "MMX Quadracing OHG in Genthin",
+            "url": "https://home.mobile.de/MMXQUADRACINGOHG"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn0search10",
+            "snippet": "## CFMOTO UForce 1000 EPS LOF, Vollkabine mit Heizung",
+            "title": "CFMOTO Motorrad gebraucht kaufen bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/cfmoto.html?lang=en"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn0search11",
+            "snippet": "Image: CFMOTO CForce 1000 Overland",
+            "title": "Quadcenter Kraichgau in Sinsheim",
+            "url": "https://home.mobile.de/QUADCENTERKRAICHGAU"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.cfmoto.de",
+            "ref_id": "turn0search12",
+            "snippet": "In Sachen Geländegängigkeit stehen die CFORCE 1000 TOURING und die CFORCE 850 TOURING damit an der Spitze ihrer Fahrzeugklassen. ... cfmoto.de",
+            "title": "CFMOTO_katalog_CFORCE(2024)_297x210.indd",
+            "url": "https://www.cfmoto.de/wp-content/uploads/2025/02/CFMOTO_CFORCE_850_1000_Katalog.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.cfmoto.de",
+            "ref_id": "turn0search13",
+            "snippet": "CFMOTO ... Die neue CFORCE 1000 OVERLAND bietet alles was du brauchst, um dein ganz persönliches Abenteuer zu erleben.",
+            "title": "CFMOTO\n\nCFORCE  \n1000 OVERLAND\n\nInklusive 100-Lite",
+            "url": "https://www.cfmoto.de/wp-content/uploads/2025/04/CFMOTO_CFORCE_ZWEIZYLINDER_KATALOG.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.cfmoto.de",
+            "ref_id": "turn0search14",
+            "snippet": "<td>CFORCE 1000 TOURING ABS (inkl. ... <td>€ 13.699,00<br>€ 13.899,00</td> ... Der Fahrzeug-Endpreis einschließlich etwaiger händlerbezogener Nebenkosten erfahren Sie bei Ihrem CFMOTO Fachhändler.",
+            "title": "PREISLISTE AT",
+            "url": "https://www.cfmoto.de/wp-content/uploads/2025/02/CFMOTO-Preisliste-AT_01022025.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.autohaus-giemsch.de",
+            "ref_id": "turn0search15",
+            "snippet": "| AFA-LED-BRS1000 | CForce 850, 1000 | CFMOTO LED Licht-halterungset links & rechts | € 17,88 |",
+            "title": "<visual_element id=\"e1\">",
+            "url": "https://www.autohaus-giemsch.de/wp-content/uploads/2021/02/CFMOTO-KATALOG_ZUBEHOER_2020_10_screen.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.quad-saarland.de",
+            "ref_id": "turn0search16",
+            "snippet": "Left feature column for CFORCE 1000/850 showing two engine images: a black-and-silver engine close-up above and a colored technical engine illustration below. ... Das hauseigene",
+            "title": "CFORCE 1000 / CFORCE 850",
+            "url": "https://www.quad-saarland.de/de/upload/CFMOTO_CFORCE_ZWEIZYLINDER_KATALOG.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit17",
+            "snippet": "Earlier this year, I purchased the CFMoto Gen 3 CForce 1000 Touring. ... Well, I can say from experience that a 2010 outlander 800r max",
+            "title": "Cfmoto or Can-am",
+            "url": "https://www.reddit.com/r/ATV/comments/1hlgn5l"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit18",
+            "snippet": "Bin bis jetzt immer die CFMoto 650NK gefahren und mit CF wirklich sehr zufrieden gewesen. ... Neu oder Gebraucht bis 10 000km.",
+            "title": "Supersportler bis 8/9k",
+            "url": "https://www.reddit.com/r/MotorradDeutschland/comments/1s3ct3k/supersportler_bis_89k/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit19",
+            "snippet": "When you’ll see the new redesigned Cforce 850 & 1000 will depend on CFMoto and where they want to ship the new models first.",
+            "title": "Cforce 1000 Overland redesigned in 2024?",
+            "url": "https://www.reddit.com/r/cfmoto/comments/1ad61uy"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit20",
+            "snippet": "Looking to buy a gen 3 cfmoto 1000 ... I own a 2021 CForce 600 and have never had a problem with it.",
+            "title": "Cf moto 1000",
+            "url": "https://www.reddit.com/r/ATV/comments/1eo7m98"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit21",
+            "snippet": "CFMoto really dropped the ball on this bike. ... Man its the same weight as the sport touring GSX1000GT with 40 less HP.",
+            "title": "There it is. 12,990. Arriving in 2 months to US shores.",
+            "url": "https://www.reddit.com/r/cfmoto/comments/1rythdk/there_it_is_12990_arriving_in_2_months_to_us/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit22",
+            "snippet": "A CFMoto 1000 Overland is on my shortlist for my next ATV purchase. ... I’m not sure so far these cf motos are super popular",
+            "title": "Got a new today today!",
+            "url": "https://www.reddit.com/r/ATV/comments/1i9xbek"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit23",
+            "snippet": "So I just purchased a 2025 CFMOTO CFORCE TOURING 1000 a month ago in Houston and brother it was the best thing I could’ve done.",
+            "title": "2025 CFORCE 1000 OVERLAND",
+            "url": "https://www.reddit.com/r/cfmoto/comments/1h6ir46"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit24",
+            "snippet": "Got a 2023 850xc, ride it quite hard. ... When I began shopping for a new ATV I quickly saw that the CFMoto CForce 1000",
+            "title": "Cfmoto",
+            "url": "https://www.reddit.com/r/ATV/comments/1twonb5/cfmoto/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit25",
+            "snippet": "They are everywhere in Netherlands, Germany and France! ... Als je waarde hecht aan dealerondersteuning, restwaarde en betrouwbaarheid, dan is de CFMOTO CForce 1000 de",
+            "title": "AODES or CFMOTO buying in Germany (Bitburg)",
+            "url": "https://www.reddit.com/r/ATV/comments/1vfnyzx/aodes_or_cfmoto_buying_in_germany_bitburg/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit26",
+            "snippet": "ich hab die Neuankündigung der 1000er CFMoto gesehen und fand es rein vom optischen und den Grundwerten echt interessant. ... Im Vergleich zwischen Voge 900",
+            "title": "Ist CF Moto eine valide Option?",
+            "url": "https://www.reddit.com/r/MotorradDeutschland/comments/1opvut6"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit27",
+            "snippet": "Nekak se odločam med novim CF Moto 800MT cena novega (9000€)",
+            "title": "CF MOTO 800MT ali Africa twin",
+            "url": "https://www.reddit.com/r/motorjislovenija/comments/1socg4v/cf_moto_800mt_ali_africa_twin/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn0reddit28",
+            "snippet": "Does any know if the new gen3 800/1000 CFORCE will make its way to Canada?",
+            "title": "Cforce 800 / 1000 Generation 3 release",
+            "url": "https://www.reddit.com/r/cfmoto/comments/1c6iftq"
+          },
+          {
+            "type": "text_result",
+            "domain": "en.wikipedia.org",
+            "ref_id": "turn0search29",
+            "snippet": "CFMOTO entered the World Rally-Raid Championship for the first time with a factory effort for 2024. ... 2024 | Dakar Rally | Quad | CForce",
+            "title": "CFMoto",
+            "url": "https://en.wikipedia.org/wiki/CFMoto"
+          }
+        ]
+      },
+      "created_at_ms": 1791812898340
+    },
+    {
+      "ordinal": 43,
+      "timestamp": "2026-10-12T13:48:27.084Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-1748a78e-58b6-4baf-a816-7393feade2bc",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-primary-runtime\\\\pdf\\\\26.915.20218\\\\skills\\\\pdf\\\\SKILL.md'\"",
+        "cwd": "C:\\Users\\User",
+        "processId": "37909",
+        "source": "unifiedExecStartup",
+        "status": "completed",
+        "commandActions": [
+          {
+            "type": "read",
+            "command": "Get-Content -LiteralPath 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.915.20218\\skills\\pdf\\SKILL.md'",
+            "name": "SKILL.md",
+            "path": "C:\\Users\\User\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.915.20218\\skills\\pdf\\SKILL.md"
+          }
+        ],
+        "aggregatedOutput": "---\r\nname: \"pdf\"\r\ndescription: \"Read, create, inspect, render, and verify PDF files where visual layout matters, including fillable AcroForms. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pypdf for generation and extraction.\"\r\n---\r\n\r\n# PDF Skill\r\n\r\n## When To Use\r\n\r\n- Read or review PDF content where layout and visuals matter.\r\n- Create PDFs programmatically with reliable formatting.\r\n- Fill and validate interactive PDF forms.\r\n- Validate final rendering before delivery.\r\n\r\n## Tools + Contract Requirements\r\n\r\nImmediately before the first create/edit authoring command, run `mark_artifact_operation_started.mjs` successfully exactly once using the command below. Do not run it for read-only work. For edits, replace `create` with `edit`; adjust the expected count and output format to match the requested outputs.\r\n\r\n```bash\r\nnode container_tools/mark_artifact_operation_started.mjs --operation-kind create --expected-output-count 1 --output-format pdf\r\n```\r\n\r\n## Workflow\r\n\r\n1. Prefer visual review: render PDF pages to PNGs and inspect them.\r\n   - Use `pdftoppm` from the bundled runtime or system Poppler when available.\r\n   - If unavailable, install Poppler or ask the user to review the output locally.\r\n2. Use `reportlab` to generate PDFs when creating new documents.\r\n3. Use `pdfplumber` or `pypdf` for text extraction and quick checks; do not rely on text extraction for layout fidelity.\r\n4. After each meaningful update, re-render pages and verify alignment, spacing, and legibility.\r\n\r\n## Fill And Validate AcroForms\r\n\r\nVisual review alone is not a correctness check for a fillable PDF. A page `/Widget` annotation can render a value from its appearance stream while the canonical `/AcroForm/Fields` tree is missing or contains a stale value.\r\n\r\n1. Keep the result interactive by default; set `flatten=True` only when the user explicitly requests a completed, static form. Preserve the source PDF, and do not flatten a signed PDF without an explicit workflow decision.\r\n2. Inspect both representations before filling: enumerate fields from `reader.get_fields()` and `/Widget` annotations from every page's `/Annots`, following `/Parent` and `/Kids`. If a widget and a canonical field have the same name but are distinct objects with no `/Parent` relationship, do not call `reattach_fields()` blindly: it can create a second top-level field with the same name. Report the ambiguity or produce a static result.\r\n3. Recover genuinely orphaned widgets, fill all pages, and write the result with `pypdf`:\r\n\r\n```python\r\nfrom pypdf import PdfReader, PdfWriter\r\nfrom pypdf.generic import NameObject\r\n\r\nreader = PdfReader(input_pdf)\r\nwriter = PdfWriter()\r\nwriter.clone_document_from_reader(reader)\r\n\r\n# Restores widgets that are missing from /AcroForm/Fields.\r\nwriter.reattach_fields()\r\nfields = writer.get_fields() or {}\r\nmissing = set(expected_values) - set(fields)\r\nif missing:\r\n    raise ValueError(f\"Form fields not found after repair: {sorted(missing)}\")\r\n\r\nvalues_to_write = dict(expected_values)\r\nif flatten:\r\n    # Paint every existing value before removing every widget.\r\n    values_to_write = {\r\n        name: field.get(\"/V\", \"/Off\" if field.get(\"/FT\") == \"/Btn\" else \"\")\r\n        for name, field in fields.items()\r\n    }\r\n    values_to_write.update(expected_values)\r\n\r\nwriter.update_page_form_field_values(\r\n    None, values_to_write, auto_regenerate=False, flatten=flatten\r\n)\r\n\r\nif flatten:\r\n    # pypdf's flatten=True paints appearances but does not remove widgets.\r\n    writer.remove_annotations(subtypes=\"/Widget\")\r\n    writer.root_object.pop(NameObject(\"/AcroForm\"), None)\r\n\r\nwith open(output_pdf, \"wb\") as stream:\r\n    writer.write(stream)\r\n```\r\n\r\n4. Reopen the written PDF before delivery. For an interactive result, require every expected field to be present in `get_fields()` with the expected `/V`, enumerate page widgets again, and confirm their effective `/V` (the widget value or inherited `/Parent` value) agrees. Confirm each updated widget has a non-empty `/AP` `/N` appearance and render the final pages to catch stale or clipped appearances. Do not rely on `/NeedAppearances` or a successful PNG render as proof that logical field data was updated.\r\n5. For a flattened result, require zero `/Widget` annotations and no remaining `/AcroForm` field tree after reopening, then render the final pages. Keep an editable copy when the user may need to revise the form.\r\n\r\n## Temp And Output Conventions\r\n\r\n- Use `tmp/pdfs/` for intermediate files; delete them when done.\r\n- Write final artifacts under `output/pdf/` when working in this repo.\r\n- Keep filenames stable and descriptive.\r\n\r\n## Dependencies\r\n\r\nPrefer the Codex bundled workspace/runtime dependencies when available. The primary runtime is expected to include:\r\n\r\n- Python packages: `reportlab`, `pdfplumber`, `pypdf`\r\n- Rendering tools: `pdftoppm` and `pdfinfo` from Poppler\r\n\r\nIf a dependency is missing, install only what is needed.\r\n\r\nPython packages:\r\n\r\n```bash\r\nuv pip install reportlab pdfplumber pypdf\r\n```\r\n\r\nIf `uv` is unavailable:\r\n\r\n```bash\r\npython3 -m pip install reportlab pdfplumber pypdf\r\n```\r\n\r\nSystem tools for rendering:\r\n\r\n```bash\r\n# macOS (Homebrew)\r\nbrew install poppler\r\n\r\n# Ubuntu/Debian\r\nsudo apt-get install -y poppler-utils\r\n```\r\n\r\nIf installation is not possible in this environment, tell the user which dependency is missing and how to install it locally.\r\n\r\n## Environment\r\n\r\nNo required environment variables.\r\n\r\n## Rendering Command\r\n\r\n```bash\r\npdftoppm -png \"$INPUT_PDF\" \"$OUTPUT_PREFIX\"\r\n```\r\n\r\n## Quality Expectations\r\n\r\n- Maintain polished visual design: consistent typography, spacing, margins, and section hierarchy.\r\n- Avoid rendering issues: clipped text, overlapping elements, broken tables, black squares, or unreadable glyphs.\r\n- Charts, tables, and images must be sharp, aligned, and clearly labeled.\r\n- Use ASCII hyphens only. Avoid U+2011 and other Unicode dashes.\r\n- Citations and references must be human-readable; never leave tool tokens or placeholder strings.\r\n\r\n## Final Checks\r\n\r\n- Do not deliver until the latest PNG inspection shows zero visual or formatting defects.\r\n- Confirm headers, footers, page numbering, and section transitions look polished.\r\n- Keep intermediate files organized or remove them after final approval.\r\n\r\n## Final response\r\n\r\n### Final response citations\r\n\r\nPlace `:codex-file-citation{...}` inline in prose, not in a trailing list. Use `purpose=\"source\"` for Q&amp;A/no-op and `purpose=\"output\"` for create/edit.\r\n\r\n- [HARD REQUIREMENT] Create/edit: cite each final PDF exactly once with a plain output citation. Summarize representative changes; do not cite every page or add a separate filename, path, or Markdown link. Example: `Created :codex-file-citation{path=\"/abs/path/report.pdf\" purpose=\"output\"}, with the completed analysis and appendix.`\r\n- Q&amp;A/no-op: do not edit or re-export. Inspect the complete relevant pages, preserve material headings, table/figure labels, footnotes, sources, and sample sizes, and cite each source PDF once with a plain source citation.\r\n\r\nPDF citations currently support only plain file citations. Do not add `artifact_kind`, `page_number`, or other locators. Never cite rendered PNGs, scratch files, builders, or QA intermediates unless asked.\r\n\r\n### Final response suggested followups\r\n\r\n- After successfully creating, editing, or analyzing an artifact, finish your final response with 3 useful next actions tailored to the artifact and the user's goal. Completing the requested work is not a reason to skip these actions: they help the user continue from the result. Do not perform the actions unless the user chooses one.\r\n- Each action must be a distinct, concrete request the user could send next. Do not repeat completed work or invent filler. Omit the list if the user declines suggestions, the requested work fails, or no genuinely useful next action remains.\r\n- Present each action as an unescaped Markdown list item using this exact syntax: `- :codex-followup[Short action]{prompt=\"Complete request for that action\"}`.\r\n",
+        "exitCode": 0,
+        "durationMs": 179
+      },
+      "created_at_ms": 1791812906904
+    },
+    {
+      "ordinal": 44,
+      "timestamp": "2026-10-12T13:48:27.134Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "mcpToolCall",
+        "id": "exec-09767c5a-c9c1-48db-9dc6-5bfe127cf4f1",
+        "server": "codex_app",
+        "tool": "load_workspace_dependencies",
+        "status": "completed",
+        "arguments": {},
+        "appContext": null,
+        "mcpAppUi": null,
+        "pluginId": "codex-app-tools@openai-bundled",
+        "readOnlyHint": null,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Workspace dependencies are available for this local desktop thread.\n\n### Workspace Dependencies\nUse these bundled paths for sheets, slides, documents, PDFs, images, or browser automation:\n- Bundle version: `26.915.20218`\n- Git executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.exe`\n- Node.js executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe`\n- Node.js packages: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules`\n- pnpm executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.cmd`\n- Python executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe`\n- Python packages: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python`\n- Override binaries: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override`\n- Fallback binaries: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback`"
+            }
+          ],
+          "structuredContent": null,
+          "_meta": null
+        },
+        "error": null,
+        "durationMs": 32
+      },
+      "created_at_ms": 1791812907102
+    },
+    {
+      "ordinal": 49,
+      "timestamp": "2026-10-12T13:48:31.891Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_035cddd569ca3599016acce57ac3708191b8319ff61af5fcde",
+        "text": "În contract apar 3 bucăți din același model: CFMOTO CFORCE 1000 X10 EPS Euro 5+ 2026, cu 962,6 cmc și 84 CP omologați. Dosarul cere ATV-uri noi. Primele rezultate sub 9.000 € sunt modele mai vechi, unele de 75 CP; voi marca aceste diferențe, pentru a nu le prezenta drept identice. Folosesc și instrumentele PDF pentru a verifica cele trei oferte din dosar.\n",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791812909338
+    },
+    {
+      "ordinal": 53,
+      "timestamp": "2026-10-12T13:48:41.959Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-89a0c37a-9971-403c-86bc-6fad1927e984",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfrom pathlib import Path\nfrom pypdf import PdfReader\np=Path(r'\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\Dosar Achizitie')\nfor f in p.glob('OFERTA*.pdf'):\n print('\\\\nFILE:',f.name)\n for page in PdfReader(f).pages: print(page.extract_text())\n'@ | & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -\"",
+        "cwd": "C:\\Users\\User",
+        "processId": "29492",
+        "source": "unifiedExecStartup",
+        "status": "failed",
+        "commandActions": [
+          {
+            "type": "unknown",
+            "command": "@'\nfrom pathlib import Path\nfrom pypdf import PdfReader\np=Path(r'\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie')\nfor f in p.glob('OFERTA*.pdf'):\n print('\\nFILE:',f.name)\n for page in PdfReader(f).pages: print(page.extract_text())\n'@ | & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -"
+          }
+        ],
+        "aggregatedOutput": "\r\nFILE: OFERTA_WM-ATV-015_DANCOR-PROIECT_SRL.pdf\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 6, in <module>\r\n  File \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\encodings\\cp1252.py\", line 19, in encode\r\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u0218' in position 55: character maps to <undefined>\r\n",
+        "exitCode": 1,
+        "durationMs": 1696
+      },
+      "created_at_ms": 1791812920263
+    },
+    {
+      "ordinal": 54,
+      "timestamp": "2026-10-12T13:48:43.868Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-b8f06d56-353c-4c1e-8df8-30a0dfa89877",
+        "query": "site.mobile.de \"Cforce 1000\" \"8.500\" ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "site.mobile.de \"Cforce 1000\" \"8.500\"",
+            "site.mobile.de \"Cforce 1000\" \"7.900\"",
+            "site.mobile.de \"Cforce 1000\" \"8.990\""
+          ]
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn1search0",
+            "snippet": "7.900 €¹ ... Image: CFMOTO CFORCE 1000 TOURING PRO !",
+            "title": "Quad-Point-Breisgau GmbH in Sexau",
+            "url": "https://home.mobile.de/QUADPOINTBREISGAUGMBH"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn1search1",
+            "snippet": "8.990 € ... Image: CFMOTO CF Moto CForce 1000 Touring PRO ABS Black",
+            "title": "RMX-Racing GmbH in Bad Dürrenberg OT Kauern",
+            "url": "https://home.mobile.de/RMXRACINGGMBH"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn1search2",
+            "snippet": "## CFMOTO CForce 1000 Touring PRO + KOSTENLOSE LIEFERUNG Andere Suchkriterien geändert ... 8.500 €",
+            "title": "CFMOTO Cforce 625 Xl gebraucht kaufen bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/cfmoto-cforce-625-xl.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn1search3",
+            "snippet": "## Gesponsert CFMOTO CForce Touring 1000 EPS ABS Quad ATV Nebula Blac ... 8.990 €",
+            "title": "Quad Atv gebraucht kaufen | Motorrad bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/quad-atv.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.njuskalo.hr",
+            "ref_id": "turn1search4",
+            "snippet": "Prodajem rabljeno vozilo: CFmoto CFORCE 1000 ... 8.500 €",
+            "title": "CFmoto 1000 2023.g*Traktor*Vitlo*kuka*kofer*u PDV-u*reg do 5/2027, 2023 god.",
+            "url": "https://www.njuskalo.hr/cetverokotaci/cfmoto-cforce-1000-2023-g-vitlo-kuka-kofer-pdv-oglas-48471590"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn1search5",
+            "snippet": "### CFMOTO CFORCE 1000 / Garantie bis 04/2028 ... Image: KTM 990 RC-R / GA bis 02.2030",
+            "title": "HJM Motorradtuning in Hagen",
+            "url": "https://home.mobile.de/HJM-MOTORRADTUNING"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.kleinanzeigen.de",
+            "ref_id": "turn1search6",
+            "snippet": "CFMOTO CFORCE 1000 ... ## 8.500 € VB",
+            "title": "CFMOTO CFORCE 1000",
+            "url": "https://www.kleinanzeigen.de/s-anzeige/cfmoto-cforce-1000/3431671101-305-4930"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.2dehands.be",
+            "ref_id": "turn1search7",
+            "snippet": "🔥 CFMOTO CFORCE 1000 – 2021 – 9.330 km – 1 JAAR GARANTIE 🔥 ... 💰 Vraagprijs: €7.900",
+            "title": "QUAD CFMOTO CFORCE 1000 EPS BY CFMOTOFLANDERS (m2448594414) — Quads en Trikes — 2dehands",
+            "url": "https://www.2dehands.be/v/motoren/quads-en-trikes/m2448594414-quad-cfmoto-cforce-1000-eps-by-cfmotoflanders"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.milanuncios.com",
+            "ref_id": "turn1search8",
+            "snippet": "Image: cf moto - cforce 1000, Vendo mi atv por poco uso rasguños tipicos del uso motor perfecto cabestrante maleta trasera centralita de potencis etc",
+            "title": "Atv cf moto 1000 de segunda mano | Milanuncios",
+            "url": "https://www.milanuncios.com/motor/atv-cf-moto-1000.htm"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.dasparking-motorrad.de",
+            "ref_id": "turn1search9",
+            "snippet": "* ## Cfmoto Cforce Cf1000 ... mobile.de kleinanzeigen.de ... ursprünglicher Preis : ~~8.500~~",
+            "title": "cfmoto cforce deutschland Gebrauchtmotorrad - Gebrauchte Motorräder suchen - ¤<NAME_SITE>¤",
+            "url": "https://www.dasparking-motorrad.de/gebrauchtmotorrader/cfmoto-cforce-deutschland.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.dasparking-motorrad.de",
+            "ref_id": "turn1search10",
+            "snippet": "8.500 € ... mobile.de kleinanzeigen.de autoscout24.de 1000ps.de ... cfmoto cforce 1000 touring | 1.000 km | garantie",
+            "title": "cfmoto cforce orange Gebrauchtmotorrad - Gebrauchte Motorräder suchen - ¤<NAME_SITE>¤",
+            "url": "https://www.dasparking-motorrad.de/gebrauchtmotorrader/cfmoto-cforce-orange.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.kleinanzeigen.de",
+            "ref_id": "turn1search11",
+            "snippet": "8.500 € VB ... ### CFMOTO CForce, 1000ccm, LOF!!",
+            "title": "Cforce 1000 Lof kleinanzeigen.de",
+            "url": "https://www.kleinanzeigen.de/s-cforce-1000-lof/k0"
+          },
+          {
+            "type": "text_result",
+            "domain": "moto.bakosis.gr",
+            "ref_id": "turn1search12",
+            "snippet": "CFORCE 625 -800XC - 1000 ... 8.990",
+            "title": "CFORCE 450\nΚοτσα-\nBOM\nΠεριγραφή\nΧρώμα\nΛιανική με",
+            "url": "https://moto.bakosis.gr/wp-content/uploads/2021/10/%CE%A4%CE%B9%CE%BC%CE%BF%CE%BA%CE%B1%CF%84%CE%AC%CE%BB%CE%BF%CE%B3%CE%BF%CF%82-%CE%9B%CE%B9%CE%B1%CE%BD%CE%B9%CE%BA%CE%AE%CF%82-CFMOTO-ATV-Sep2021-bom_211018_140128.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.zougla.gr",
+            "ref_id": "turn1search13",
+            "snippet": "8.990 ... CFORCE 1000",
+            "title": "Κοτσα-\n ΜΟΝΤΕΛΟ\nΛιανική με \nΦΠΑ και ΤΤ\nTT\nΤροχοί\nΕ",
+            "url": "https://www.zougla.gr/Uploads/News/2021/08/31/CFMOTO-UFORCE-23858ATV.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "epaper.wittich.de",
+            "ref_id": "turn1search14",
+            "snippet": "CFORCE 1000 TOURING PRO LIMITED ... Mercedes-Benz C 300 e T 150 kW (204 PS), polarweiß, EZ: 14.8.2024, 7.900 km, AVANTGARDE Advanced Plus, AVANTGARDE Exterieur,",
+            "title": "Tipp Vogelsberg 33 2025",
+            "url": "https://epaper.wittich.de/frontend/catalogs/522501/1/pdf/complete.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn1view0",
+            "snippet": "Total lines: 936",
+            "title": "CFMOTO Cforce 1000 gebraucht kaufen bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/cfmoto-cforce-1000.html"
+          }
+        ]
+      },
+      "created_at_ms": 1791812921974
+    },
+    {
+      "ordinal": 59,
+      "timestamp": "2026-10-12T13:48:52.591Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-b8b91afb-198a-4cf2-93d5-2bf6ad2ab5a9",
+        "query": "",
+        "action": {
+          "type": "other"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn2view0",
+            "snippet": "Total lines: 936",
+            "title": "CFMOTO Cforce 1000 gebraucht kaufen bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/cfmoto-cforce-1000.html"
+          }
+        ]
+      },
+      "created_at_ms": 1791812931005
+    },
+    {
+      "ordinal": 60,
+      "timestamp": "2026-10-12T13:49:03.871Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-67e88b95-9c5b-478a-b92b-3c4eabdbeed2",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport sys\nsys.stdout.reconfigure(encoding='utf-8')\nfrom pathlib import Path\nfrom pypdf import PdfReader\np=Path(r'\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\Dosar Achizitie')\nfor f in p.glob('OFERTA*.pdf'):\n print('\\\\nFILE:',f.name)\n for page in PdfReader(f).pages: print(page.extract_text())\n'@ | & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -\"",
+        "cwd": "C:\\Users\\User",
+        "processId": "52511",
+        "source": "unifiedExecStartup",
+        "status": "completed",
+        "commandActions": [
+          {
+            "type": "unknown",
+            "command": "@'\nimport sys\nsys.stdout.reconfigure(encoding='utf-8')\nfrom pathlib import Path\nfrom pypdf import PdfReader\np=Path(r'\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\Dosar Achizitie')\nfor f in p.glob('OFERTA*.pdf'):\n print('\\nFILE:',f.name)\n for page in PdfReader(f).pages: print(page.extract_text())\n'@ | & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -"
+          }
+        ],
+        "aggregatedOutput": "\r\nFILE: OFERTA_WM-ATV-015_DANCOR-PROIECT_SRL.pdf\r\nCUI 12445967   ·   J01/410/1999\r\nMun. Alba Iulia, Str. Ștefan Luchian, Nr. 3B, Jud. Alba\r\nAdministrator: Covaciu Cosmin Adrian\r\nDANCOR-PROIECT SRL  ·  12445967  ·  J01/410/1999\r\nPagina 1\r\nProiect InoSocRural · Cod SMIS 311779 · valori exprimate în lei\r\nProiect: InoSocRural – Întreprinderi sociale inovative în mediul rural din Regiunea Centru · Cod SMIS 311779\r\nPROPUNERE TEHNICO-FINANCIARĂ\r\nNr. WM-ATV-015 / 04.05.2026\r\nOFERTANT\r\nDANCOR-PROIECT SRL\r\nMun. Alba Iulia, Str. Ștefan Luchian, Nr. 3B, Jud.\r\nAlba\r\nCUI 12445967 · J01/410/1999\r\nReprezentant legal: Covaciu Cosmin Adrian,\r\nAdministrator\r\nCĂTRE / ACHIZITOR\r\nSC WILD MOTION S.R.L.\r\nSat Hăpria, Strada Teilor, nr. 26,\r\nComuna Ciugud, județul Alba, cod poștal 517243\r\nCUI 52786696\r\nObiect achiziție\r\nFurnizare 3 bucăți CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod produs CF1000AU-2 EPS Basic, sau\r\nechivalent, conform Invitației de participare.\r\nCentralizator financiar\r\nNr.\r\nDenumire produs\r\nCant.\r\nPreț unitar\r\nfără TVA\r\nValoare\r\nfără TVA\r\nValoare\r\ncu TVA (21%)\r\n1\r\nCFMOTO CFORCE 1000 X10 EPS\r\nEuro 5+ '26  ·  cod CF1000AU-2 EPS Basic\r\n3 buc.\r\n75.188,24\r\n225.564,71\r\n272.933,30\r\nTotal fără TVA\r\n225.564,71 lei\r\nTVA 21%\r\n47.368,59 lei\r\nTOTAL cu TVA inclus\r\n272.933,30 lei\r\nSpecificații tehnice ofertate\r\n—  model ofertat: CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod CF1000AU-2 EPS Basic;\r\n \r\n—  motor V-Twin, 4 timpi, capacitate 962,6 cmc; combustibil benzină; rezervor 26 l; răcire cu lichid; pornire\r\n electrică;\r\n—  putere omologată 84 CP; putere constructivă 90 CP; transmisie CVT;\r\n \r\n—  suspensie față dublu braț A; suspensie spate independentă; frâne hidraulice pe disc față/spate;\r\n \r\n—  anvelope față 27 X 9-14; anvelope spate 27 X 11-14; dimensiuni 2445 x 1270 x 1465 mm; greutate 443 kg;\r\n gardă la sol 300 mm;\r\n—  înmatriculabil, categorie permis B, omologare Euro 5+, an/model 2026; garanție minimum 24 luni sau\r\n garanția comercială standard a producătorului, dacă aceasta este mai favorabilă achizitorului.\r\nTermen de livrare\r\nmaximum 30 de zile calendaristice de la semnarea contractului.\r\nValabilitatea ofertei\r\n30 de zile calendaristice de la data limită de depunere a ofertelor.\r\nPreț\r\nferm, nu se ajustează.\r\nCu stimă,\r\nCovaciu Cosmin Adrian,\r\nAdministrator · DANCOR-PROIECT SRL\r\nSemnătură și ștampilă: ______________________________\r\n\r\n\r\nFILE: OFERTA_WM-ATV-016_MARIUS_CODE_WNK_SRL.pdf\r\nMARIUS CODE\r\nWNK SRL\r\nsoluții software · servicii · furnizare echipamente\r\nCUI 37707133   ·   J2017000690010\r\nMun. Alba Iulia, Str. Ștefan Luchian, Nr. 15, Jud. Alba\r\nAdministrator: Vaida Elena\r\nMARIUS CODE WNK SRL  ·  37707133  ·  J2017000690010\r\nPagina 1\r\nProiect InoSocRural · Cod SMIS 311779 · valori exprimate în lei\r\nProiect: InoSocRural – Întreprinderi sociale inovative în mediul rural din Regiunea Centru · Cod SMIS 311779\r\nPROPUNERE TEHNICO-FINANCIARĂ\r\nNr. WM-ATV-016 / 04.05.2026\r\nOFERTANT\r\nMARIUS CODE WNK SRL\r\nMun. Alba Iulia, Str. Ștefan Luchian, Nr. 15, Jud.\r\nAlba\r\nCUI 37707133 · J2017000690010\r\nReprezentant legal: Vaida Elena, Administrator\r\nCĂTRE / ACHIZITOR\r\nSC WILD MOTION S.R.L.\r\nSat Hăpria, Strada Teilor, nr. 26,\r\nComuna Ciugud, județul Alba, cod poștal 517243\r\nCUI 52786696\r\nObiect achiziție\r\nFurnizare 3 bucăți CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod produs CF1000AU-2 EPS Basic, sau\r\nechivalent, conform Invitației de participare.\r\nCentralizator financiar\r\nNr.\r\nDenumire produs\r\nCant.\r\nPreț unitar\r\nfără TVA\r\nValoare\r\nfără TVA\r\nValoare\r\ncu TVA (21%)\r\n1\r\nCFMOTO CFORCE 1000 X10 EPS\r\nEuro 5+ '26  ·  cod CF1000AU-2 EPS Basic\r\n3 buc.\r\n75.398,32\r\n226.194,96\r\n273.695,90\r\nTotal fără TVA\r\n226.194,96 lei\r\nTVA 21%\r\n47.500,94 lei\r\nTOTAL cu TVA inclus\r\n273.695,90 lei\r\nSpecificații tehnice ofertate\r\n—  model ofertat: CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod CF1000AU-2 EPS Basic;\r\n \r\n—  motor V-Twin, 4 timpi, capacitate 962,6 cmc; combustibil benzină; rezervor 26 l; răcire cu lichid; pornire\r\n electrică;\r\n—  putere omologată 84 CP; putere constructivă 90 CP; transmisie CVT;\r\n \r\n—  suspensie față dublu braț A; suspensie spate independentă; frâne hidraulice pe disc față/spate;\r\n \r\n—  anvelope față 27 X 9-14; anvelope spate 27 X 11-14; dimensiuni 2445 x 1270 x 1465 mm; greutate 443 kg;\r\n gardă la sol 300 mm;\r\n—  înmatriculabil, categorie permis B, omologare Euro 5+, an/model 2026; garanție minimum 24 luni sau\r\n garanția comercială standard a producătorului, dacă aceasta este mai favorabilă achizitorului.\r\nTermen de livrare\r\nmaximum 30 de zile calendaristice de la semnarea contractului.\r\nValabilitatea ofertei\r\n30 de zile calendaristice de la data limită de depunere a ofertelor.\r\nPreț\r\nferm, nu se ajustează.\r\nCu stimă,\r\nVaida Elena,\r\nAdministrator · MARIUS CODE WNK SRL\r\nSemnătură și ștampilă: ______________________________\r\n\r\n\r\nFILE: OFERTA_WM-ATV-017_ARIDE_RIDE_IT_SRL.pdf\r\nCUI 37932526   ·   J1/978/2017\r\nMun. Alba Iulia, Str. Ștefan Luchian, Nr. 18, Jud. Alba\r\nAdministrator: Roș Radu Ioan\r\nARIDE RIDE IT SRL  ·  37932526  ·  J1/978/2017\r\nPagina 1\r\nProiect InoSocRural · Cod SMIS 311779 · valori exprimate în lei\r\nProiect: InoSocRural – Întreprinderi sociale inovative în mediul rural din Regiunea Centru · Cod SMIS 311779\r\nPROPUNERE TEHNICO-FINANCIARĂ\r\nNr. WM-ATV-017 / 04.05.2026\r\nOFERTANT\r\nARIDE RIDE IT SRL\r\nMun. Alba Iulia, Str. Ștefan Luchian, Nr. 18, Jud.\r\nAlba\r\nCUI 37932526 · J1/978/2017\r\nReprezentant legal: Roș Radu Ioan, Administrator\r\nCĂTRE / ACHIZITOR\r\nSC WILD MOTION S.R.L.\r\nSat Hăpria, Strada Teilor, nr. 26,\r\nComuna Ciugud, județul Alba, cod poștal 517243\r\nCUI 52786696\r\nObiect achiziție\r\nFurnizare 3 bucăți CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod produs CF1000AU-2 EPS Basic, sau\r\nechivalent, conform Invitației de participare.\r\nCentralizator financiar\r\nNr.\r\nDenumire produs\r\nCant.\r\nPreț unitar\r\nfără TVA\r\nValoare\r\nfără TVA\r\nValoare\r\ncu TVA (21%)\r\n1\r\nCFMOTO CFORCE 1000 X10 EPS\r\nEuro 5+ '26  ·  cod CF1000AU-2 EPS Basic\r\n3 buc.\r\n75.482,35\r\n226.447,06\r\n274.000,94\r\nTotal fără TVA\r\n226.447,06 lei\r\nTVA 21%\r\n47.553,88 lei\r\nTOTAL cu TVA inclus\r\n274.000,94 lei\r\nSpecificații tehnice ofertate\r\n—  model ofertat: CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod CF1000AU-2 EPS Basic;\r\n \r\n—  motor V-Twin, 4 timpi, capacitate 962,6 cmc; combustibil benzină; rezervor 26 l; răcire cu lichid; pornire\r\n electrică;\r\n—  putere omologată 84 CP; putere constructivă 90 CP; transmisie CVT;\r\n \r\n—  suspensie față dublu braț A; suspensie spate independentă; frâne hidraulice pe disc față/spate;\r\n \r\n—  anvelope față 27 X 9-14; anvelope spate 27 X 11-14; dimensiuni 2445 x 1270 x 1465 mm; greutate 443 kg;\r\n gardă la sol 300 mm;\r\n—  înmatriculabil, categorie permis B, omologare Euro 5+, an/model 2026; garanție minimum 24 luni sau\r\n garanția comercială standard a producătorului, dacă aceasta este mai favorabilă achizitorului.\r\nTermen de livrare\r\nmaximum 30 de zile calendaristice de la semnarea contractului.\r\nValabilitatea ofertei\r\n30 de zile calendaristice de la data limită de depunere a ofertelor.\r\nPreț\r\nferm, nu se ajustează.\r\nCu stimă,\r\nRoș Radu Ioan,\r\nAdministrator · ARIDE RIDE IT SRL\r\nSemnătură și ștampilă: ______________________________\r\n\r\n",
+        "exitCode": 0,
+        "durationMs": 6260
+      },
+      "created_at_ms": 1791812937609
+    },
+    {
+      "ordinal": 67,
+      "timestamp": "2026-10-12T13:49:14.640Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-a9f17dbb-b3e0-47d0-afe2-5325ddba4baa",
+        "query": "site.mobile.de \"TGB\" \"1000\" \"8.500\" ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "site.mobile.de \"TGB\" \"1000\" \"8.500\"",
+            "site.mobile.de \"1000\" \"8.900\" \"Quad\"",
+            "site.mobile.de \"1000\" \"7.990\" \"Quad\""
+          ]
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn3search0",
+            "snippet": "## Gesponsert CFMOTO CForce Touring 1000 EPS ABS Quad ATV Nebula Blac ... 7.990 €",
+            "title": "Quad Atv gebraucht kaufen | Motorrad bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/quad-atv.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn3search1",
+            "snippet": "# MMX Quadracing OHG in Genthin ... Image: CFMOTO CForce 1000 Pro Overland ... 7.990 €¹",
+            "title": "MMX Quadracing OHG in Genthin",
+            "url": "https://home.mobile.de/home/index.html?customerId=29137879"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.dasparking-motorrad.de",
+            "ref_id": "turn3search2",
+            "snippet": "* * ## Tgb Blade 1000 ... ursprünglicher Preis : ~~8.500~~ ... mobile.de",
+            "title": "tgb blade 1000 2020 Gebrauchtmotorrad - Gebrauchte Motorräder suchen - ¤<NAME_SITE>¤",
+            "url": "https://www.dasparking-motorrad.de/gebrauchtmotorrader/tgb-blade-1000-2020.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.deparking-moto.be",
+            "ref_id": "turn3search3",
+            "snippet": "# TGB BLADE 1000 ... oorspronkelijke prijs : ~~8.500~~ ... * mobile.de",
+            "title": "TGB TGB BLADE 1000 LT EFI 4X4 LOF tweedehands - De Parking",
+            "url": "https://www.deparking-moto.be/tweedehands-motoren-detail/tgb-blade-blade-1000/tgb-blade-1000-lt-efi-4x4-lof/CO98J9L.html"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.dasquadforum.de",
+            "ref_id": "turn3search4",
+            "snippet": "Also die 650er liegt bei 8.500€, die 650 + bei um 9.000€, die 800er 10.500€ und die 1000er um die 12.000€. ... Die TGB-Fahrer die",
+            "title": "Erfahrungen Odes Pathcross 650/800/1000 - Kaufberatung - dasquadforum.de - Quad-/ATV-Forum und Community",
+            "url": "https://www.dasquadforum.de/forum/thread/48610-erfahrungen-odes-pathcross-650-800-1000/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.kleinanzeigen.de",
+            "ref_id": "turn3search5",
+            "snippet": "CFMOTO CFORCE 1000 QUAD ATV Moto CF TOP ZUSTAND ... 8.900 €[Button: Finanzierung berechnen]",
+            "title": "CFMOTO CFORCE 1000 QUAD ATV Moto CF TOP ZUSTAND",
+            "url": "https://www.kleinanzeigen.de/s-anzeige/cfmoto-cforce-1000-quad-atv-top-zustand/3516164340-305-1023"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.dasquadforum.de",
+            "ref_id": "turn3search6",
+            "snippet": "( TGB Blade 1000 wurde mir mit dem oben gefordertem Zubehör für 9900€ angeboten) - wie ist da die Qualität? ... Angebot 8.500€",
+            "title": "Grosses ATV mit Doppel-Sitzbank gesucht. - Kaufberatung - dasquadforum.de - Quad-/ATV-Forum und Community",
+            "url": "https://www.dasquadforum.de/forum/thread/39907-grosses-atv-mit-doppel-sitzbank-gesucht/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.kleinanzeigen.de",
+            "ref_id": "turn3search7",
+            "snippet": "Biete hier eine gepflegte TGB 1000 von BJ 2020 an! ... 8.500 € VB",
+            "title": "Tgb Blade 1000 Koffer, Motorrad gebraucht kaufen | kleinanzeigen.de",
+            "url": "https://www.kleinanzeigen.de/s-motorraeder-roller/anbieter%3Aprivat/tgb-blade-1000-koffer/k0c305"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.kleinanzeigen.de",
+            "ref_id": "turn3search8",
+            "snippet": "Image: Arctic Cat 1000 ccm Quad LOF Zulassung mit Schneeschild in Hünfelden ... ## 7.990 €",
+            "title": "Arctic Cat 1000 ccm Quad LOF Zulassung mit Schneeschild in Hessen - Hünfelden | Quad gebraucht kaufen | kleinanzeigen.de",
+            "url": "https://www.kleinanzeigen.de/s-anzeige/arctic-cat-1000-ccm-quad-lof-zulassung/3160217158-305-4360"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.kleinanzeigen.de",
+            "ref_id": "turn3search9",
+            "snippet": "### TGB BLADE 550 TÜV neu bis 08,2028. ... ### TGB Blade 1000 LOF – nur 4.500 km – Inspektion & TÜV neu",
+            "title": "Tgb Quad Blade, Quad gebraucht kaufen in Hessen | kleinanzeigen.de",
+            "url": "https://www.kleinanzeigen.de/s-motorraeder-roller/quad/hessen/tgb-quad-blade/k0c305l4279%2Bmotorraeder_roller.shift_s%3Aautomatik%2Bmotorraeder_roller.type_s%3Aquad"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.kleinanzeigen.de",
+            "ref_id": "turn3search10",
+            "snippet": "TGB Blade 1000 LOF Zulassung ... 8.500 € ... ### TGB Blade 1000 Led Facelift Servolenkung",
+            "title": "Tgb Quad Automatik, Motorrad gebraucht kaufen in Hessen | kleinanzeigen.de",
+            "url": "https://www.kleinanzeigen.de/s-motorraeder-roller/hessen/tgb-quad-automatik/k0c305l4279"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.kleinanzeigen.de",
+            "ref_id": "turn3search11",
+            "snippet": "# Automatik in Rheinland-Pfalz 1 - 12 von 12 Quad gebraucht kaufen für „tgb blade 1000“ in Rheinland-Pfalz ... 8.500 €",
+            "title": "Tgb Blade 1000, Quad gebraucht kaufen in Rheinland-Pfalz | kleinanzeigen.de",
+            "url": "https://www.kleinanzeigen.de/s-motorraeder-roller/quad/rheinland-pfalz/tgb-blade-1000/k0c305l4938%2Bmotorraeder_roller.shift_s%3Aautomatik%2Bmotorraeder_roller.type_s%3Aquad"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tips.at",
+            "ref_id": "turn3search12",
+            "snippet": "PS, nur 9.500 km, mittelblau- ... (119.000km), Allrad, 8fach be- ... >> Wohnmobile ... Roller TGB Bullet 50, Bj.",
+            "title": "Ortsreportage:",
+            "url": "https://www.tips.at/PDF/2012/TIV_14.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.wochenspiegelonline.de",
+            "ref_id": "turn3search13",
+            "snippet": "125 TGB-Roller, 8.500 km, 780 €, ... 1.100 € VB. ... www.ankaufwohnmobile.de",
+            "title": "Ein lesenswertes Saarland – Woch für Woch",
+            "url": "https://www.wochenspiegelonline.de/fileadmin/epaper/2023/kw25/20230624_WSSLS.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tips.at",
+            "ref_id": "turn3search14",
+            "snippet": "8.500,-. ... Wohnmobile ... 1.100,-. ... Roller TGB, wie neu, 2.000 km,",
+            "title": ">> FAIR PLAY",
+            "url": "https://www.tips.at/PDF/2008/TIV_16.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.alextamm.de",
+            "ref_id": "turn3search15",
+            "snippet": "Z 1000 ABS 3/13, 5500 km, gm, 101 kw, 1. ... Monster M 696 ABS 3/14, 3500 km, 59 kw, red € 7.990,- ... TGB-Quad",
+            "title": "Kradblatt Ausgabe 10/14",
+            "url": "https://www.alextamm.de/assets/kradblatt_ausgabe_10-2014.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "t.jbc.jelenia-gora.pl",
+            "ref_id": "turn3search16",
+            "snippet": "* dnia w kraju, stan b. dobry • 8.500 zł + opłaty. ... KAWASAKI GPZ 1000RX, 1986 r., gotowy do sezonu, nowe: ... MOTOROWER TGB",
+            "title": "OGŁOSZEŃ \n. .  | 0 | \nZ NIEMIEC \nN A  STRONIE\n*  I",
+            "url": "https://t.jbc.jelenia-gora.pl/Content/40893/ag_2005_062.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "jbc.jelenia-gora.pl",
+            "ref_id": "turn3search17",
+            "snippet": "KUPIĘ MOTOCYKL YAMAHA R 1000,2002/04 r., uszkodzo­ ... MOTOROWER TGB AKROS SKUTER, 2002 r„ 50 ccm, srebr- ... nowy -18.500 zł, 2 kaski, bagażnik -",
+            "title": "OFERT A l \nEGZEMPLARZ REGIONALNY\nN A  STRONIE\nPRZE",
+            "url": "https://jbc.jelenia-gora.pl/Content/41108/ag_2005_074.pdf"
+          },
+          {
+            "type": "text_result",
+            "ref_id": "turn3view0",
+            "snippet": "Total lines: 1",
+            "title": "Internal Error"
+          }
+        ]
+      },
+      "created_at_ms": 1791812952266
+    },
+    {
+      "ordinal": 74,
+      "timestamp": "2026-10-12T13:49:23.708Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-2f353159-02b8-4232-b2ce-4d6ff022f3c8",
+        "query": "https://suchen.mobile.de/motorrad/tgb-blade-1000.html",
+        "action": {
+          "type": "openPage",
+          "url": "https://suchen.mobile.de/motorrad/tgb-blade-1000.html"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn4view0",
+            "snippet": "Total lines: 892",
+            "title": "TGB Blade 1000 gebraucht kaufen bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/tgb-blade-1000.html"
+          },
+          {
+            "type": "text_result",
+            "ref_id": "turn4view1",
+            "snippet": "Total lines: 1",
+            "title": "Internal Error"
+          },
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn4view2",
+            "snippet": "Total lines: 1000",
+            "title": "Can-Am Outlander 1000 gebraucht kaufen | Motorrad bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/can-am-outlander-1000.html"
+          }
+        ]
+      },
+      "created_at_ms": 1791812961783
+    },
+    {
+      "ordinal": 81,
+      "timestamp": "2026-10-12T13:49:57.094Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "commandExecution",
+        "id": "exec-902b69e9-4ccf-47e3-aa72-0c043efdb92b",
+        "pluginId": null,
+        "scriptPath": null,
+        "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport urllib.request,re,json,sys\nsys.stdout.reconfigure(encoding='utf-8')\nu='https://suchen.mobile.de/motorrad/tgb-blade-1000.html'\ns=urllib.request.urlopen(u).read().decode()\nprint('length',len(s))\nprint('\\\\n'.join(re.findall(r'.{0,100}details.html.{0,220}',s)[:25]))\nprint('\\\\n'.join(re.findall(r'<script[\"'^>]+>'\"',s)[-15:]))\n'@ | & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -\"",
+        "cwd": "C:\\Users\\User",
+        "processId": "87900",
+        "source": "unifiedExecStartup",
+        "status": "failed",
+        "commandActions": [
+          {
+            "type": "unknown",
+            "command": "@'\nimport urllib.request,re,json,sys\nsys.stdout.reconfigure(encoding='utf-8')\nu='https://suchen.mobile.de/motorrad/tgb-blade-1000.html'\ns=urllib.request.urlopen(u).read().decode()\nprint('length',len(s))\nprint('\\n'.join(re.findall(r'.{0,100}details.html.{0,220}',s)[:25]))\nprint('\\n'.join(re.findall(r'<script[^>]+>',s)[-15:]))\n'@ | & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -"
+          }
+        ],
+        "aggregatedOutput": "Traceback (most recent call last):\r\n  File \"<stdin>\", line 4, in <module>\r\n  File \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 215, in urlopen\r\n    return opener.open(url, data, timeout)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 521, in open\r\n    response = meth(req, response)\r\n               ^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 630, in http_response\r\n    response = self.parent.error(\r\n               ^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 559, in error\r\n    return self._call_chain(*args)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 492, in _call_chain\r\n    result = func(*args)\r\n             ^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 639, in http_error_default\r\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\r\nurllib.error.HTTPError: HTTP Error 403: Forbidden\r\n",
+        "exitCode": 1,
+        "durationMs": 593
+      },
+      "created_at_ms": 1791812996498
+    },
+    {
+      "ordinal": 82,
+      "timestamp": "2026-10-12T13:49:59.060Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-2b5a98ab-6de5-4888-bab6-7abf8aee1973",
+        "query": "",
+        "action": {
+          "type": "other"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "suchen.mobile.de",
+            "ref_id": "turn5view0",
+            "snippet": "Total lines: 1000",
+            "title": "Can-Am Outlander 1000 gebraucht kaufen | Motorrad bei mobile.de",
+            "url": "https://suchen.mobile.de/motorrad/can-am-outlander-1000.html"
+          }
+        ]
+      },
+      "created_at_ms": 1791812997106
+    },
+    {
+      "ordinal": 87,
+      "timestamp": "2026-10-12T13:50:10.858Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_035cddd569ca3599016acce5dd44208191943bac7485afe286",
+        "text": "Am verificat cele trei oferte: toate propun același CFMOTO X10, de la trei furnizori diferiți. Am găsit peste 10 ATV-uri sub 9.000 €, dar nu pot confirma 10 identice cu cel din dosar: variantele ieftine sunt rulate, iar Euro 5+ nu este confirmat în rezultatele afișate. Mai apare o diferență în documente: ofertele PDF folosesc TVA 21%, iar contractul păstrează un total calculat cu 19%.\n",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791813008958
+    },
+    {
+      "ordinal": 91,
+      "timestamp": "2026-10-12T13:50:16.940Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-fbf64380-6243-4b16-bf93-c748fce9df2d",
+        "query": "site:mobile.de \"CFORCE\" \"X10\" ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "site:mobile.de \"CFORCE\" \"X10\"",
+            "site:mobile.de \"CFORCE 1000\" \"Euro 5\"",
+            "site:mobile.de \"CFORCE 1000\" \"Neufahrzeug\" \"8.999\""
+          ]
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn6search0",
+            "snippet": "Image: CFMOTO CForce 1000 Overland ... Image: CFMOTO CF 700CLX Adventure Euro 5 mit Tageszulassung",
+            "title": "Quadcenter Kraichgau in Sinsheim",
+            "url": "https://home.mobile.de/QUADCENTERKRAICHGAU"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn6view0",
+            "snippet": "Total lines: 315",
+            "title": "Quadcenter Siemer in Daren/Bakum",
+            "url": "https://home.mobile.de/QUADCENTERSIEMER"
+          },
+          {
+            "type": "text_result",
+            "domain": "home.mobile.de",
+            "ref_id": "turn6view1",
+            "snippet": "Total lines: 301",
+            "title": "Quad-Point-Breisgau GmbH in Sexau",
+            "url": "https://home.mobile.de/QUADPOINTBREISGAUGMBH"
+          }
+        ]
+      },
+      "created_at_ms": 1791813013344
+    },
+    {
+      "ordinal": 96,
+      "timestamp": "2026-10-12T13:51:06.362Z",
+      "turn_id": "01a1305c-ed26-7212-808c-02e7fc346dfd",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_035cddd569ca3599016acce5f17668819193d16b33c67e8a31",
+        "text": "**În dosar ai trecut 3 ATV-uri CFMOTO CFORCE 1000 X10 EPS Euro 5+ 2026, toate același model.** Am găsit 10 anunțuri sub 9.000 € pe mobile.de, dar **nu pot confirma că sunt identice tehnic cu cele din achiziție**: sunt rulate, iar omologarea Euro 5+ nu este confirmată în informațiile accesibile.\n\n**ATV-ul din achiziție**\n\nConform [contractului din folder](<Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/Dosar Achizitie/07_Anexa7_Contract_furnizare_produse_DANCOR_WM-ATV-033.docx>):\n\n| Caracteristică | Specificație |\n|---|---|\n| Model / cod | CFMOTO CFORCE 1000 X10 EPS / CF1000AU-2 EPS Basic |\n| Cantitate și stare | 3 bucăți, noi, model 2026 |\n| Motor | V-Twin, 4 timpi, benzină, 962,6 cmc |\n| Putere | 84 CP omologați / 90 CP constructivi |\n| Transmisie / tracțiune | CVT / 4×4 |\n| Rezervor / răcire | 26 litri / lichid |\n| Dimensiuni / greutate | 2.445 × 1.270 × 1.465 mm / 443 kg |\n| Gardă la sol | 300 mm |\n| Omologare / garanție | Euro 5+, înmatriculabil / minimum 24 luni |\n\nCele trei oferte din dosar sunt pentru acest același model:\n\n| Furnizor | Preț/buc. fără TVA | Total 3 buc., cu TVA 21%, în PDF |\n|---|---:|---:|\n| DANCOR-PROIECT | 75.188,24 lei | 272.933,30 lei |\n| MARIUS CODE WNK | 75.398,32 lei | 273.695,90 lei |\n| ARIDE RIDE IT | 75.482,35 lei | 274.000,94 lei |\n\nSursele sunt ofertele :codex-file-citation{path=\"Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/Dosar Achizitie/OFERTA_WM-ATV-015_DANCOR-PROIECT_SRL.pdf\" purpose=\"source\"}, :codex-file-citation{path=\"Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/Dosar Achizitie/OFERTA_WM-ATV-016_MARIUS_CODE_WNK_SRL.pdf\" purpose=\"source\"} și :codex-file-citation{path=\"Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/Dosar Achizitie/OFERTA_WM-ATV-017_ARIDE_RIDE_IT_SRL.pdf\" purpose=\"source\"}.\n\n**Diferență de verificat în dosar:** contractul DANCOR indică 268.422 lei cu TVA, în timp ce oferta PDF indică 272.933,30 lei. Documentele folosesc cote TVA diferite.\n\n**10 alternative sub 9.000 € pe mobile.de**\n\nPrețurile sunt cele afișate în paginile consultate la **12 octombrie 2026**, pe bucată, fără a adăuga transportul și înmatricularea. Toate exemplarele de mai jos sunt rulate. Linkurile duc la **paginile de rezultate unde apar anunțurile**, deoarece nu am putut extrage legăturile individuale.\n\n| Nr. | Model din anunț | Preț | Prima înmatriculare | Km | Cmc / CP | Localitate | Sursă |\n|---:|---|---:|---|---:|---|---|---|\n| 1 | TGB Blade 1000 EFI EPS LOF | **6.500 €** | 06/2016 | 3.268 | 997 / 84 | Rhönblick | [mobile.de](https://suchen.mobile.de/motorrad/tgb-blade-1000.html) |\n| 2 | TGB Blade 1000 EFI EPS LOF | **6.900 €** | 10/2016 | 11.990 | 997 / 84 | Rheinau | [mobile.de](https://suchen.mobile.de/motorrad/tgb-blade-1000.html) |\n| 3 | TGB Blade 1000 EFI | **6.990 €** | 04/2016 | 6.142 | 997 / 84 | Stadtlauringen | [mobile.de](https://suchen.mobile.de/motorrad/tgb-blade-1000.html) |\n| 4 | TGB Blade 1000 EFI 4×4 IRS LOF | **7.250 €** | 05/2016 | 2.237 | 997 / 86 | Peine | [mobile.de](https://suchen.mobile.de/motorrad/tgb-blade-1000.html) |\n| 5 | CFMOTO CFORCE 1000 | **7.600 €** | 03/2021 | 8.000 | 987 / 68* | Bratislava | [mobile.de](https://suchen.mobile.de/motorrad/cfmoto-cforce-1000.html) |\n| 6 | TGB Blade 1000 LT FL EPS ABS MAX | **7.899 €** | 08/2020 | 10.380 | 997 / 84 | Sinsheim | [mobile.de](https://suchen.mobile.de/motorrad/tgb-blade-1000.html) |\n| 7 | TGB Blade 1000 LOF, Allrad, Sperrdiff. | **7.950 €** | 06/2019 | 1.002 | 997 / 84 | Heidenau | [mobile.de](https://suchen.mobile.de/motorrad/tgb-blade-1000.html) |\n| 8 | TGB Blade 1000 EPS FL LOF | **8.190 €** | 03/2022 | 2.000 | 997 / 84 | Villingen-Schwenningen | [mobile.de](https://suchen.mobile.de/motorrad/tgb-blade-1000.html) |\n| 9 | CFMOTO CFORCE 1000 | **8.800 €** | 07/2021 | 3.100 | 1.000 / 75* | Gramzow | [mobile.de](https://suchen.mobile.de/motorrad/cfmoto-cforce-1000.html) |\n| 10 | CFMOTO CFORCE 1000 4×4, 1. Hand LOF | **8.950 €** | 02/2021 | 6.000 | 963 / 75 | Troisdorf-Spich | [mobile.de](https://suchen.mobile.de/motorrad/cfmoto-cforce-1000.html) |\n\n\\* Valorile sunt transcrise din anunțuri; cilindreea și puterea trebuie confruntate cu actele vehiculului.\n\n**Pentru achiziția din proiect, aceste 10 exemplare nu sunt înlocuitori confirmați.** TGB-urile au cilindree și putere apropiate, însă sunt alte modele; CFMOTO-urile ieftine au putere declarată sub minimul de 80 CP din dosar. Niciunul dintre cele 10 nu îndeplinește cerința de produs nou.\n\nCa reper pentru un vehicul nou din gama apropiată, am găsit **CFMOTO CFORCE 1000 Touring, 962 cmc, 86 CP, la 11.999 €**, la [Quadcenter Kraichgau pe mobile.de](https://home.mobile.de/QUADCENTERKRAICHGAU). Nici pentru acesta nu este demonstrată identitatea cu varianta X10 Euro 5+ din dosar.\n\n- :codex-followup[Doar ATV-uri noi conforme]{prompt=\"Caută ATV-uri noi care îndeplinesc toate cerințele din dosar și arată cele mai mici prețuri, chiar dacă depășesc 9.000 euro.\"}\n- :codex-followup[Comparație tehnică TGB–CFMOTO]{prompt=\"Compară tehnic TGB Blade 1000 cu CFMOTO X10 din dosar, inclusiv omologare, rezervor, dimensiuni și garanție.\"}\n- :codex-followup[Verifică diferențele de preț din dosar]{prompt=\"Verifică neconcordanțele dintre ofertele PDF, contract și nota de atribuire privind prețurile și TVA, fără să modifici documentele.\"}",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791813028054
+    },
+    {
+      "ordinal": 105,
+      "timestamp": "2026-10-12T14:10:01.462Z",
+      "turn_id": "01a13072-ea50-7542-a9bf-b72fcd811d05",
+      "item": {
+        "type": "userMessage",
+        "id": "01a13072-f06f-7cc3-a1cf-45333a8a3177",
+        "clientId": "190f1727-4a41-4547-b215-f7fda596a264",
+        "content": [
+          {
+            "type": "text",
+            "text": "comparativ ATV de la CF motor versus cele din lista care sunt mai performante ?\n",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1791814201462
+    },
+    {
+      "ordinal": 106,
+      "timestamp": "2026-10-12T14:10:05.240Z",
+      "turn_id": "01a13072-ea50-7542-a9bf-b72fcd811d05",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_035cddd569ca3599016accea89504481919785a4be70a4bcf3",
+        "text": "Voi compara CFMOTO X10 din dosar cu TGB Blade 1000 și CFMOTO-urile mai vechi din listă, folosind puterea, suspensia și dotările relevante pentru trasee off-road.\n",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791814203839
+    },
+    {
+      "ordinal": 110,
+      "timestamp": "2026-10-12T14:10:09.744Z",
+      "turn_id": "01a13072-ea50-7542-a9bf-b72fcd811d05",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-a1ce2dd7-2811-43f0-be1d-a5f3a3435296",
+        "query": "CFMOTO CFORCE 1000 X10 EPS Euro 5+ 2026 90 84 962.6 ...",
+        "action": {
+          "type": "search",
+          "query": null,
+          "queries": [
+            "CFMOTO CFORCE 1000 X10 EPS Euro 5+ 2026 90 84 962.6",
+            "TGB Blade 1000 LT EPS 2016 2019 technical specifications 83 23 suspension"
+          ]
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "www.tgb.com.tw",
+            "ref_id": "turn7search0",
+            "snippet": "The Blade 1000 LT EPS EVO combines next-level equipment with powerful innovative technology, delivering maximum comfort through a versatile and adaptable design. ... Independent suspension",
+            "title": "BLADE 1000 LT EPS EVO | ATV | TGB",
+            "url": "https://www.tgb.com.tw/products/atv/blade-1000-lt-eps-evo"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tgbitalia.it",
+            "ref_id": "turn7search1",
+            "snippet": "Home › TGB ATV › BLADE 1000 LT ... TGB Blade 1000 LT EPS è la scelta perfetta per chi vuole il mix perfetto ad",
+            "title": "BLADE 1000 LT - TGB Italia",
+            "url": "https://www.tgbitalia.it/tgb-atv/blade-1000-lt/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.cfmoto.ro",
+            "ref_id": "turn7search2",
+            "snippet": "# CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26 ... 2026 CFMOTO CFORCE 1000 X10 EPS Euro5 este un ATV bigbore potrivit pentru cei mai",
+            "title": "ATV - CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26 - Cfmoto.ro",
+            "url": "https://www.cfmoto.ro/atv/cfmoto-cforce-1000-x10-eps-euro5"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tgb-germany.de",
+            "ref_id": "turn7search3",
+            "snippet": "Angebot gültig bis 30.09.2026 und bei teilnehmenden TGB-Händlern.Maximale Power, maximaler Komfort, maximale Kontrolle – das TGB BLADE 1000 LONG EPS ABS ist das Flaggschiff der",
+            "title": "BLADE 1000 LONG EPS ABS | ATV | 1000 ccm",
+            "url": "https://www.tgb-germany.de/aktion"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tgbmotor.cz",
+            "ref_id": "turn7search12",
+            "snippet": "TGB BLADE 1000i LT EVO EPS 14'' ... Maximální výkon | 83 HPBLADE 1000i LT ... ČTYŘKOLKA ROKU 2019",
+            "title": "EVO\nEPS\nVÝKONNÝ V-TWIN MOTOR\n           \nTo nejlep",
+            "url": "https://www.tgbmotor.cz/download/64-65_05-2019_Quad.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tgb-motor.ch",
+            "ref_id": "turn7search4",
+            "snippet": "# Blade 1000 LT FL EPS ... Avec la connexion Bluetooth au téléphone portable et la possibilité d'entrer un avertissement de vitesse, l'écran TFT en",
+            "title": "BLADE 1000 LT FL EPS - TGB",
+            "url": "https://www.tgb-motor.ch/blade-1000-lt-fl-eps-fr"
+          },
+          {
+            "type": "text_result",
+            "domain": "tgbcanada.ca",
+            "ref_id": "turn7search5",
+            "snippet": "# TGB BLADE 1000 LTX EPS ... The most potent ATVs on the market, TGB Blade 1000 LTX models have 83 horsepower and are equipped",
+            "title": "TGB BLADE 1000 LTX EPS | TGB Canada",
+            "url": "https://tgbcanada.ca/products/tgb-blade-1000-ltx-eps"
+          },
+          {
+            "type": "text_result",
+            "domain": "tgb-motors.com",
+            "ref_id": "turn7search6",
+            "snippet": "# Blade 1000 LTX EPS ... Мощность, л.с. | 83 л.с. ... Шины передние / задние | AT 26 × 9 – 14, 6 PLY",
+            "title": "Квадроцикл TGB Blade 1000 LTX EPS",
+            "url": "https://tgb-motors.com/product/blade-1000-ltx-eps/1"
+          },
+          {
+            "type": "text_result",
+            "domain": "tgb-motors.com",
+            "ref_id": "turn7search7",
+            "snippet": "# Blade 1000 LT EPS ... Мощность, л.с. | 83 л.с. ... Топливный бак, л | 23",
+            "title": "Квадроцикл TGB Blade 1000 LT EPS",
+            "url": "https://tgb-motors.com/product/blade-1000-lt-eps/2"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tgb-motor.ch",
+            "ref_id": "turn7search8",
+            "snippet": "### Die TGB Königsklasse setzt neue Maßstäbe. ... Die neuen 14-Zoll XTC Aluminiumfelgen verleihen den BLADE 1000 LT FL EPS MAX Modellen mit ihren Farbeinsätzen",
+            "title": "BLADE 1000 LT FL EPS MAX Touring - TGB",
+            "url": "https://www.tgb-motor.ch/index.php/blade-1000-lt-fl-eps-max-touring"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.velototal.fr",
+            "ref_id": "turn7search9",
+            "snippet": "# TGB Blade /LOF EPS 1000 LT (Année 2016) - données du véhiculeVérifie les principales données du véhicule TGB Blade /LOF EPS 1000 LT (Année",
+            "title": "Pièces détachées & données techniques pour TGB Blade /LOF EPS 1000…",
+            "url": "https://www.velototal.fr/about/TGB/18195-TGB-Blade-LOF-EPS-1000-LT-Ann-e-2016"
+          },
+          {
+            "type": "text_result",
+            "domain": "tgb-motos.es",
+            "ref_id": "turn7search10",
+            "snippet": "# BLADE 1000 LTX EPS ... El Blade 1000 LTX es la última generación del modelo insignia de TGB. ... Neumáticos delanteros | AT 26",
+            "title": "BLADE 1000 LTX EPS - TGB ATV´S",
+            "url": "https://tgb-motos.es/quads/blade-1000-ltx-eps/"
+          },
+          {
+            "type": "text_result",
+            "domain": "tgb-motos.pt",
+            "ref_id": "turn7search11",
+            "snippet": "# BLADE 1000 LTX EPS ... A TGB recomenda a utilização de proteções, assim como efetuar uma condução responsável, seguindo as normativas em vigor. ...",
+            "title": "BLADE 1000 LTX ABS EPS - TGB ATV´S Portugal",
+            "url": "https://tgb-motos.pt/quads/blade-1000-ltx-abs-eps/"
+          },
+          {
+            "type": "text_result",
+            "domain": "camso.co",
+            "ref_id": "turn7search13",
+            "snippet": "Textron | 1000 | Havoc / X / Backcounthry | Ind | 2018 | 2019 | UTV | | 18 | 18 | NA |",
+            "title": "|  | NEW ITEM NOW AVAILABLE  | SUSPENSION  |  |  |  | REMARKS  |  |  |  |  |  |  |",
+            "url": "https://camso.co/content/files/Camso_PS_ATV_UTV_Applicationguide_September2020_2020_09_15.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.cfmoto.it",
+            "ref_id": "turn7search14",
+            "snippet": "LISTINO PREZZI AL PUBBLICO EURO 5+ - 2026 ... 10.490,00 ... CFORCE1000 TOURING S - EPS ... www.cfmoto.it info@imex-srl.com",
+            "title": "LISTINO PREZZI AL PUBBLICO EURO 5+ - 2026",
+            "url": "https://www.cfmoto.it/wp-content/uploads/2026/03/1-LISTINO-CFMOTO-EURO5-2026.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "pro-quad.ch",
+            "ref_id": "turn7search15",
+            "snippet": "22 | tgb-motor.ch ... <th>BLADE 1000 LT FL EPS MAX Touring<br>BLADE 1000 LT FL EPS MAX</th> ... <td>28,2 kW (38,5 CV) à 6.000 min⁻¹</td> ...",
+            "title": "22 | tgb-motor.ch",
+            "url": "https://pro-quad.ch/wp-content/uploads/2021/09/TGB_catalogue-2024.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.aspshop.sk",
+            "ref_id": "turn7search16",
+            "snippet": "TGB BLADE 1000i LT EPS 4x4 (T3b) ... | Výkon | 83 k (60,9kW) / 6750 (off-road) |",
+            "title": "Microsoft Word - Blade 1000i LT EPS 4x4 T3b (new)",
+            "url": "https://www.aspshop.sk/data/attachments/blade-1000i-lt-eps-t3b-spec.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.tgb-motor.fr",
+            "ref_id": "turn7search17",
+            "snippet": "BLADE 4x4 1000 EPS LTCARACTERISTIQUESLe Blade 1000 LT a été conçu pour répondre à une clientèle exigeante.",
+            "title": "TGB",
+            "url": "https://www.tgb-motor.fr/images/flipbook/tgb-brochure-2022.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn7reddit18",
+            "snippet": "Can it be possible, that only the 2026 models are euro 5+? ... I have a 2025 Cfmoto 450SR and it is euro 5+.",
+            "title": "Cfmoto Euro 5 or 5+",
+            "url": "https://www.reddit.com/r/cfmoto/comments/1qfng2y/cfmoto_euro_5_or_5/"
+          },
+          {
+            "type": "text_result",
+            "domain": "en.wikipedia.org",
+            "ref_id": "turn7search19",
+            "snippet": "TGB Laser | Produced 2005-2008. ... Blade | Produced 2010 to present day. ... LandMax | Production 2024 to present day. 83hp 1000cc v-twin engine",
+            "title": "Taiwan Golden Bee",
+            "url": "https://en.wikipedia.org/wiki/Taiwan_Golden_Bee"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn7reddit20",
+            "snippet": "Hi my TGB Blade 1000 Eps Efi Black Edition from 2021 is leaking Oil on the Engines side on the Short Rod between the Engine",
+            "title": "TGB Blade Oil leak",
+            "url": "https://www.reddit.com/r/ATV/comments/1lelhmf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn7reddit21",
+            "snippet": "Looking for advice from anyone who got a 2026 CFORCE 1000 fixed for the right-side engine rattle. ... Has anyone with a 2026 successfully forced",
+            "title": "Gen 3 CFORCE 1000 Right-Side Engine Rattle – Dealer Help Needed",
+            "url": "https://www.reddit.com/r/cfmoto/comments/1x2vyi2/gen_3_cforce_1000_rightside_engine_rattle_dealer/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn7reddit22",
+            "snippet": "If it is a **TGB Blade 1000 ltx** and it is still fast-moving in the market then you can totally trust them and buy them.",
+            "title": "TGB blade 1000 ltx",
+            "url": "https://www.reddit.com/r/u_yorkshireatv0/comments/sumun5"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.reddit.com",
+            "ref_id": "turn7reddit23",
+            "snippet": "Looking for advice from anyone who got a 2026 CFORCE 1000 fixed for the right-side engine rattle. ... Has anyone with a 2026 successfully forced",
+            "title": "26 Cforce 1000 right side rattle",
+            "url": "https://www.reddit.com/r/ATV/comments/1x2w07i/26_cforce_1000_right_side_rattle/"
+          },
+          {
+            "type": "text_result",
+            "domain": "de.wikipedia.org",
+            "ref_id": "turn7search24",
+            "snippet": "* TGB Blade EFI 1000 LT",
+            "title": "Taiwan Golden Bee",
+            "url": "https://de.wikipedia.org/wiki/Taiwan_Golden_Bee"
+          }
+        ]
+      },
+      "created_at_ms": 1791814207438
+    },
+    {
+      "ordinal": 115,
+      "timestamp": "2026-10-12T14:10:14.508Z",
+      "turn_id": "01a13072-ea50-7542-a9bf-b72fcd811d05",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-8e48a961-5cbd-4d85-9a5a-4f9a978e702e",
+        "query": "https://www.cfmoto.ro/atv/cfmoto-cforce-1000-x10-eps-euro5",
+        "action": {
+          "type": "openPage",
+          "url": "https://www.cfmoto.ro/atv/cfmoto-cforce-1000-x10-eps-euro5"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "ref_id": "turn8view0",
+            "snippet": "Total lines: 1",
+            "title": "Internal Error"
+          }
+        ]
+      },
+      "created_at_ms": 1791814212788
+    },
+    {
+      "ordinal": 118,
+      "timestamp": "2026-10-12T14:10:43.043Z",
+      "turn_id": "01a13072-ea50-7542-a9bf-b72fcd811d05",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_035cddd569ca3599016accea982ba48191bc2bcf18ce1ec68a",
+        "text": "**CFMOTO X10 2026 din dosarul tău are avantajul la puterea constructivă. TGB Blade 1000 este apropiat ca putere, iar CFMOTO-urile mai vechi din listă sunt sub el.** Totuși, datele disponibile nu demonstrează că X10 este mai rapid sau mai capabil pe orice teren.\n\n| Criteriu | CFMOTO X10 2026 din dosar | TGB Blade 1000 din listă | CFMOTO 1000 mai vechi din listă |\n|---|---|---|---|\n| Motor | 962,6 cmc, V-Twin | Aproximativ 997 cmc, V-Twin | 963–1.000 cmc declarați în majoritatea anunțurilor |\n| Putere | **90 CP constructivi / 84 CP omologați**, conform dosarului | **84–86 CP declarați în anunțuri** | **68–75 CP declarați** |\n| Transmisie | CVT, 4×4 | CVT, 4×4 în gama Blade 1000 | Configurația exactă trebuie verificată |\n| Rezervor | **26 litri** | **23 litri** în fișele Blade 1000 LT | Neconfirmat pentru fiecare exemplar |\n| Stare | **Nou, model 2026** | Rulate, 2016–2022 | Rulate, 2021 |\n| Avantaj principal | Putere constructivă și achiziție nouă | Putere apropiată la preț mai mic | Preț mai mic, aceeași familie de marcă |\n\nDatele generale pentru motor, transmisie și rezervor sunt susținute de [CFMOTO România](https://www.cfmoto.ro/atv/cfmoto-cforce-1000-x10-eps-euro5) și [fișa oficială TGB Blade 1000](https://www.tgb.com.tw/products/atv/blade-1000-lt-eps-evo). Dotările TGB diferă între ani și versiuni; fișa actuală nu confirmă automat echiparea exemplarelor vechi.\n\n**Ce înseamnă practic:**\n\n- **La putere:** X10 are avantaj pe hârtie la puterea constructivă. Dar cei 90 CP constructivi nu trebuie comparați direct cu puterea omologată din alte anunțuri. Raportat la cei **84 CP omologați din dosar**, TGB-urile sunt foarte apropiate. Anunțul de 86 CP din Peine nu dovedește singur că acel ATV este mai performant.\n- **Pe teren greu:** nu avem suficiente date comparabile despre greutate, anvelope, blocarea diferențialelor și suspensia fiecărui exemplar pentru a desemna un câștigător. Cilindreea mai mare a TGB-ului nu înseamnă automat performanță mai bună.\n- **La autonomie:** rezervorul X10 este cu 3 litri mai mare, dar autonomia depinde și de consum.\n- **Pentru tururi ghidate:** aș prefera **X10 nou**, pentru garanție și lipsa unui istoric de uzură. Aceasta este o alegere practică pentru exploatare, nu dovada că marca ar fi mai fiabilă.\n\n**Dintre alternativele sub 9.000 €, TGB Blade 1000 este concurentul mai apropiat de X10 ca putere.** Aș verifica întâi exemplarul **EPS FL din 2022, la 8.190 € și 2.000 km**, apoi cel **LT FL EPS ABS MAX din 2020, la 7.899 €**. Sunt candidați pentru inspecție, nu câștigători confirmați doar din anunț. [Lista TGB pe mobile.de](https://suchen.mobile.de/motorrad/tgb-blade-1000.html)\n\n**Nu aș alege CFMOTO-urile vechi de 68–75 CP dacă obiectivul este să obții performanțe mai mari decât X10 2026.** [Lista CFMOTO pe mobile.de](https://suchen.mobile.de/motorrad/cfmoto-cforce-1000.html)",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791814218713
+    },
+    {
+      "ordinal": 127,
+      "timestamp": "2026-10-12T14:11:38.593Z",
+      "turn_id": "01a13074-67bf-7870-a3e9-bbb211be2062",
+      "item": {
+        "type": "userMessage",
+        "id": "01a13074-6bd7-7531-b2be-776a481c79b3",
+        "clientId": "de4aa1cb-91d0-4a36-bccb-a9bbcd1a8b48",
+        "content": [
+          {
+            "type": "text",
+            "text": "unde sunt produse TGB ?\n",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1791814298593
+    },
+    {
+      "ordinal": 128,
+      "timestamp": "2026-10-12T14:11:41.360Z",
+      "turn_id": "01a13074-67bf-7870-a3e9-bbb211be2062",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_035cddd569ca3599016acceaea07788191bc23afd1f745c839",
+        "text": "Voi verifica țara de fabricație pe site-ul oficial TGB.\n",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791814300810
+    },
+    {
+      "ordinal": 132,
+      "timestamp": "2026-10-12T14:11:43.494Z",
+      "turn_id": "01a13074-67bf-7870-a3e9-bbb211be2062",
+      "item": {
+        "type": "webSearch",
+        "id": "exec-2c5072ae-5a88-477f-b84d-6ac81304fa7e",
+        "query": "site.tgb.com.tw Taiwan Golden Bee manufactured Taiwan factory",
+        "action": {
+          "type": "search",
+          "query": "site.tgb.com.tw Taiwan Golden Bee manufactured Taiwan factory",
+          "queries": null
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "domain": "vpic.nhtsa.dot.gov",
+            "ref_id": "turn9search0",
+            "snippet": "## TAIWAN GOLDEN BEE COMPANY ... https://www.tgb.com.tw",
+            "title": "TAIWAN GOLDEN BEE COMPANY - MID",
+            "url": "https://vpic.nhtsa.dot.gov/mid/manufacturer/details/11521"
+          },
+          {
+            "type": "text_result",
+            "domain": "findbiz.nat.gov.tw",
+            "ref_id": "turn9search1",
+            "snippet": "公司名稱 | 台灣金蜂股份有限公司 Google搜尋 (出進口廠商英文名稱：TAIWAN GOLDEN BEE CO., LTD.) ... 專利商標 | TGB設計字、金蜂 ... 來源網址：https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?",
+            "title": "台灣金蜂股份有限公司 - 經濟部商工登記公示資料查詢",
+            "url": "https://findbiz.nat.gov.tw/fts/company/88659922"
+          },
+          {
+            "type": "text_result",
+            "domain": "en.wikipedia.org",
+            "ref_id": "turn9search12",
+            "snippet": "Website: http://www.tgb.com.tw/Taiwan Golden Bee (TGB) is a Taiwanese manufacturer of scooters, and all-terrain vehicle s.",
+            "title": "Taiwan Golden Bee",
+            "url": "https://en.wikipedia.org/wiki/Taiwan_Golden_Bee"
+          },
+          {
+            "type": "text_result",
+            "domain": "mail.ezb2b.com",
+            "ref_id": "turn9search13",
+            "snippet": "www.tgb.com.tw E-Mail：tgb@tgb.com.tw ... TAIWAN GOLDEN BEE CO., LTD. ... Factory : NO.15, YOUN-KONG 2nd RD., YOUN-AN INDUSTRIAL PARK, KAOHSIUNG, TAIWAN",
+            "title": "B001-如何查閱本會員名錄-完整版",
+            "url": "https://mail.ezb2b.com/ebook/vehicle/2026/pages/TTVMA_Members.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "vpic.nhtsa.dot.gov",
+            "ref_id": "turn9search2",
+            "snippet": "VIN SUBMISSION No.15, Youn-Kong 2nd Road, Youn-An Industrial Park, Kaohsiung Hsien, Taiwan TEL:886-7-6222101~6 FAX:886-7-6222110 E-mail:moto@tgb.com.tw http://www.tgb.com.tw Dec.14, 2015 RV01 Administ",
+            "title": "Cover Letter",
+            "url": "https://vpic.nhtsa.dot.gov/mfrportal/home/coverletter/ffac9dd7-50b4-483c-be55-18d62b523a5e"
+          },
+          {
+            "type": "text_result",
+            "domain": "tgbco.imb2b.com",
+            "ref_id": "turn9search3",
+            "snippet": "Taiwan Golden Bee Co., Ltd. ... Website: https://www.tgb.com.tw/",
+            "title": "Contact Us|Taiwan Golden Bee Co., Ltd. 台灣金蜂股份有限公司",
+            "url": "https://tgbco.imb2b.com/contact/"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.findcompany.com.tw",
+            "ref_id": "turn9search4",
+            "snippet": "CD01040 | Motor Vehicles and Parts Manufacturing",
+            "title": "TAIWAN GOLDEN BEE CO., LTD.",
+            "url": "https://www.findcompany.com.tw/en/TAIWAN%20GOLDEN%20BEE%20CO.%2C%20LTD."
+          },
+          {
+            "type": "text_result",
+            "domain": "www.findcompany.com.tw",
+            "ref_id": "turn9search5",
+            "snippet": "公司英文名稱 | TAIWAN GOLDEN BEE CO., LTD. ... Image | TGB設計字 申請人 台灣金蜂股份有限公司 | 01958123 | 107035625 | 2018-12-16",
+            "title": "台灣金蜂股份有限公司",
+            "url": "https://www.findcompany.com.tw/TAIWAN%20GOLDEN%20BEE%20CO.%2C%20LTD."
+          },
+          {
+            "type": "text_result",
+            "domain": "www.findcompany.com.tw",
+            "ref_id": "turn9search6",
+            "snippet": "公司英文名稱 | TAIWAN GOLDEN BEE CO., LTD. ... Image | TGB設計字 申請人 台灣金蜂股份有限公司 | 01958123 | 107035625 | 2018-12-16",
+            "title": "台灣金蜂股份有限公司",
+            "url": "https://www.findcompany.com.tw/%E5%8F%B0%E7%81%A3%E9%87%91%E8%9C%82%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.scribd.com",
+            "ref_id": "turn9search7",
+            "snippet": "Taiwan Golden Bee Co., Ltd.TGB",
+            "title": "TGB Scooter Warranty and Maintenance Guide | PDF | Technology & Engineering",
+            "url": "https://www.scribd.com/document/620911804/TGB-Delivery-150-Owners-Manual"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.eurostargroup.com",
+            "ref_id": "turn9search8",
+            "snippet": "HOME / TGB ... Taiwan Golden Bee was established in 1965 by Chi-Fu Chang, the man formerly responsible for the Taiwanese division of Vespa.",
+            "title": "TGB - EUROSTAR Group",
+            "url": "https://www.eurostargroup.com/en/tgb/"
+          },
+          {
+            "type": "text_result",
+            "domain": "tgbco.imb2b.com",
+            "ref_id": "turn9search9",
+            "snippet": "Taiwan Golden Bee Co., Ltd. ... (TGB) has been set up in 1978 based on Piaggio technology for the Vespa Scoters parts production.TGB is the",
+            "title": "Introduction|Taiwan Golden Bee Co., Ltd. 台灣金蜂股份有限公司",
+            "url": "https://tgbco.imb2b.com/introduce/"
+          },
+          {
+            "type": "text_result",
+            "domain": "upandclear.org",
+            "ref_id": "turn9search14",
+            "snippet": "TGB TAIWAN GOLDEN BEE CO., LTD. ... TEL:+886-7-6222101~6 http://www.tgb.com.tw",
+            "title": "TGB TAIWAN GOLDEN BEE CO., LTD.",
+            "url": "https://upandclear.org/wp-content/uploads/2024/06/blade_550_se.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "circabc.europa.eu",
+            "ref_id": "turn9search15",
+            "snippet": "<td>Taiwan Golden Bee Co. ... <td>Chongqing Zongshen Motorcycle, Science &amp; Technology Group Co.Ltd., Banan District,Congqing China</td> ... <td>CL-125T</td>",
+            "title": "EUROPA - Enterprise – Automotive industry - final report on anti tampering devices",
+            "url": "https://circabc.europa.eu/sd/a/37475b91-dea0-4d3a-8421-4f9932630636/report_anti_tampering_devices_en.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "tgbco.imb2b.com",
+            "ref_id": "turn9search10",
+            "snippet": "Taiwan Golden Bee Co., Ltd. ... (TGB) has been set up in 1978 based on Piaggio technology for the Vespa Scoters parts production.TGB is the",
+            "title": "Taiwan Golden Bee Co., Ltd. 台灣金蜂股份有限公司",
+            "url": "https://tgbco.imb2b.com/"
+          },
+          {
+            "type": "text_result",
+            "domain": "cloudcdn.taiwantradeshows.com.tw",
+            "ref_id": "turn9search16",
+            "snippet": "assembly take place in its factory in Tainan, just ... TGBTaiwan Golden Bee Co.",
+            "title": "June 12, 2017 • Volume 20, Number 9 • $3.99",
+            "url": "https://cloudcdn.taiwantradeshows.com.tw/2017/motorcycle/news/PowerSports-Business.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.findcompany.com.tw",
+            "ref_id": "turn9search11",
+            "snippet": "TAIWAN GOLDEN BEE CO., LTD. ... Company Name | TAIWAN GOLDEN BEE CO., LTD. ... Image | TGB設計字 申請人 台灣金蜂股份有限公司 | 01958123 | 107035625 |",
+            "title": "TAIWAN GOLDEN BEE CO., LTD.",
+            "url": "https://www.findcompany.com.tw/en/%E5%8F%B0%E7%81%A3%E9%87%91%E8%9C%82%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"
+          },
+          {
+            "type": "text_result",
+            "domain": "www.cens.com",
+            "ref_id": "turn9search17",
+            "snippet": "TAIWAN GOLDEN BEE CO., LTD. ... TGB is the first CVT manufacturer in Taiwan (Ping Tung Plant), and the main customers are Piaggio, Rotax, Peugeot,",
+            "title": "TAIWAN GOLDEN BEE CO., LTD.",
+            "url": "https://www.cens.com/cens/publication/89/969/publication_969.pdf"
+          },
+          {
+            "type": "text_result",
+            "domain": "de.wikipedia.org",
+            "ref_id": "turn9search18",
+            "snippet": "TGB (Taiwan Golden Bee) wurde 1965 als Taiwan Vespa Co. ... * Offizielle Website (https://www.tgb.com.tw/) (englisch)",
+            "title": "Taiwan Golden Bee",
+            "url": "https://de.wikipedia.org/wiki/Taiwan_Golden_Bee"
+          }
+        ]
+      },
+      "created_at_ms": 1791814301769
+    },
+    {
+      "ordinal": 135,
+      "timestamp": "2026-10-12T14:11:50.261Z",
+      "turn_id": "01a13074-67bf-7870-a3e9-bbb211be2062",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_035cddd569ca3599016acceaef65e48191a4f439a84d0f17ce",
+        "text": "**ATV-urile TGB sunt produse în Taiwan**, de compania **Taiwan Golden Bee Co., Ltd.** — de aici vine abrevierea TGB.\n\nFabrica este în **Kaohsiung, în parcul industrial Youn-An**. Producătorul este înregistrat și în [registrul oficial NHTSA](https://vpic.nhtsa.dot.gov/mid/manufacturer/details/11521).",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1791814305914
+    }
+  ]
+}

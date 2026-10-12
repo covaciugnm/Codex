@@ -1,0 +1,86 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Monografie",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Monografie/PROMPT_CLAUDE_CLI_IMPLEMENTARE_MONOGRAFIE_IDEMPIERE_JAVA.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/PROMPT_CLAUDE_CLI_IMPLEMENTARE_MONOGRAFIE_IDEMPIERE_JAV--193a3476.txt",
+    "bytes": 46726,
+    "sha256": "e26f7c32496ca0c607f97fe0dd594df9540009839200ad37ac3cef5d37b8f91d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Monografie_contabila_RO_2026-10-12.zip",
+    "status": "copiat",
+    "saved_path": "fisiere/Monografie_contabila_RO_2026-10-12--09be2459.zip",
+    "bytes": 3454469,
+    "sha256": "ff67c980625722de5ea088be8633bc897244a243d96a3722e1ec992a3fc7145d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Monografie_contabila_RO_2026-10-12/Documentare_contabila_completa_editabil.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Documentare_contabila_completa_editabil--5e5b42db.pdf",
+    "bytes": 1126958,
+    "sha256": "887a96365f6302da4e60436b4cd4bf3c8aeebc5fedda704b22613f7f78caac22"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/iDempiere/Monografie_contabila_RO_2026-10-12/Monografie_contabila_model_editabil.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Monografie_contabila_model_editabil--fca158f7.pdf",
+    "bytes": 1096105,
+    "sha256": "663721d66410f0e2b8323e3091711ebce48013080489fbf068011e793afa8621"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Monografie",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://chatgpt.com/space/page_9b59789401148191969476c413a76c95",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/112431",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/237807",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/286043",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/300253",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://monografie-contabila-ro-caen.chirpybrook6.chatgpt.site",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/Declaratii_R/406.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/Informatii_R/e_factura.htm",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/Informatii_R/saf_t.htm",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_2023.htm",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "library-file:fde1_bGliZmlsZV9BdlRNQzZQTXpWOXpadGtkaUpsOUh3_FileDrive_472ddc8d468c81919b3a5803203d5f30",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "library-file:fde1_bGliZmlsZV9OS1dfbk5EM1lNVXhxeVJ5dTU2TERR_FileDrive_472ddc8d468c81919b3a5803203d5f30",
+    "status": "referinta_externa_necopiata"
+  }
+]

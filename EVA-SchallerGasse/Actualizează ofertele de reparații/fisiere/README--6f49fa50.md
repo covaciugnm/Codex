@@ -1,3 +1,9 @@
+# 2026.10.12 — Comparație servicii și prețuri structură
+
+Rezultat: ../04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Comparatie servicii si preturi structura.xlsx. Două foi: 1 Servicii (47 rânduri, capitolele v4.1 și discuțiile TOMS) și 2 Preturi (24 rânduri, poziții, totaluri și condiții). Datele TOMS, BERGER și PECH sunt documentate separat în același dosar. Totaluri net 37.900 /45.000 /69.300 EUR, cu domenii diferite. TOMS v4.1 TRIMIS, acceptare neconfirmată și refuz actual 2026.10.08; BERGER/PECH acceptare neconfirmată. Nu sunt comunicări noi sau plăți. Jurnalul actualizării: ../04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Jurnal actualizare comparatie.txt. Verificarea zilnică 2026.10.12 este păstrată mai jos.
+
+ISTORIC PĂSTRAT
+
 # 2026.10.12 — Verificare fără comunicări noi
 
 Puncte curente: ../2026.10.12 Status proiect.txt; ../2026.10.12 Log progres proiect.txt; registrele2026.10.12 din arhivaEva-Mail; ../08. Corespondenta/2026.10.12 Verificare zilnica/2026.10.12 Raport verificare.txt.46căutări complete pentru2026.10.10–12; niciun mesaj relevant nou și nicio anexă relevantă nouă. Office sincronizat2026.10.12 08:00:19România; cosmin@ig.ro numai2026.10.10 02:30:10. Jurnalele partenerilor păstrează ultimele răspunsuri reale. Pech actualizat pe oferta deja arhivată2026.09.17, fără a o prezenta ca ofertă nouă. TermenCommerz și expirarea calculatăBerger sunt astăzi2026.10.12, fără amânare/prelungire confirmată. Nu s-au trimis mesaje, semnat sau plătit. Istoricul este păstrat;801mesaje și825originale în arhivă.

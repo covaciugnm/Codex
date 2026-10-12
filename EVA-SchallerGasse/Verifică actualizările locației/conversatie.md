@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-12T08:25:51.143327+00:00
+Export UTC: 2026-10-12T14:26:02.743395+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -480,3 +480,85 @@ Am verificat toate rezultatele celor **46 de căutări**. Acoperire:
 - **cosmin@ig.ro:** până la 2026.10.10, 02:30 — comunicările ulterioare nu sunt acoperite de sincronizare.
 
 Jurnalele și indexul sunt actualizate. [Raportul verificării](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.12 Verificare zilnica/2026.10.12 Raport verificare.txt>).
+
+## Utilizator
+
+pune in tabel ce am discutat cu TOMS si ce au ofertat ceilalti si preturi daca sunt detaliate pe servicii 
+fa doua tabele unul cu serviciile pe capitole acoperite ( conform ultimului contract trimis TOMS si cele oferite de ceilalti ofertanti  / si tot tabelar ofertele pe tip de serviciu si preturi
+
+
+## Asistent
+
+Pregătesc două tabele: unul cu serviciile, capitol cu capitol, folosind ultimul contract trimis TOMS ca reper, și unul cu prețurile detaliate ale ofertanților. Verific și discuțiile TOMS, ca să disting ce am solicitat, ce au ofertat și ce a rămas neacceptat.
+
+
+## Asistent
+
+Voi folosi skillul Spreadsheets pentru un Excel cu cele două tabele, păstrând legătura fiecărui rând cu sursa. Pentru alternative, compar ofertele BERGER și Dr. PECH; sumele estimate sau serviciile fără preț separat vor fi marcate explicit.
+
+
+## Asistent
+
+TOMS a inclus în prețul de 25.000 EUR calculul și planurile de structură, fără defalcare separată. BERGER le-a cotat separat, iar PECH are șase poziții de preț. Voi marca distinct serviciile cerute în contractul trimis TOMS și cele confirmate de ofertant, inclusiv excluderile și suplimentele fără preț stabilit.
+
+
+## Asistent
+
+Diferența care contează la comparație este domeniul fiecărei oferte: TOMS include Prüfingenieur și Bauwerksbuch, BERGER include Prüfingenieur, iar PECH cotează separat sprijinirea excavării și 12 recepții, fără să numească explicit rolul de Prüfingenieur. De aceea, voi arăta totalurile împreună cu serviciile lipsă sau neconfirmate.
+
+
+## Asistent
+
+Am verificat și clarificările TOMS semnate: acestea confirmă mai multe servicii decât oferta inițială descrie, inclusiv fazele de asistență, reviziile și verificarea planurilor de atelier întocmite de executanți. Tabelul păstrează aceste confirmări separat de contractul v4.1, pentru care acceptarea nu este confirmată.
+
+
+## Asistent
+
+Cele două tabele sunt completate, cu 47 de rânduri de servicii și 24 de rânduri de prețuri și condiții. Totalurile verificate sunt 37.900 EUR net pentru TOMS, 45.000 EUR net pentru BERGER și 69.300 EUR net pentru PECH. Finalizez verificarea fișierului și salvarea în jurnalul proiectului.
+
+
+## Asistent
+
+Am creat Excelul cu **două tabele detaliate**, surse și totaluri verificate: :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Comparatie servicii si preturi structura.xlsx" purpose="output"}
+
+Primul are **47 de rânduri**, pe capitolele contractului TOMS v4.1 transmis la **2026.10.02**, și separă solicitările noastre de confirmările TOMS. Al doilea detaliază prețurile, suplimentele și condițiile. Mai jos este sinteza.
+
+**1. Servicii acoperite**
+
+| Serviciu | TOMS: ofertă și discuții | BERGER | Dr. PECH |
+|---|---|---|---|
+| Calcul structural | Inclus, cu confirmări pentru elementele clădirii în Q1 | Inclus; preț condiționat de conceptul static neschimbat | Inclus; descrierea exactă a serviciilor trebuie identificată |
+| Cofraj, armare, planuri structurale | Incluse în pachetul de 25.000 EUR | Ofertate separat | Livrabilele trebuie confirmate prin descrierea beneficiarului |
+| Noduri, ancore, îmbinări detaliate | Excluse din v4.1; unele marcate anterior cu supliment fără sumă | Neconfirmate individual | Neconfirmate individual |
+| Planuri de atelier | Întocmirea exclusă; verificarea documentelor executantului confirmată | Întocmirea exclusă; aprobarea ulterioară prevăzută | De clarificat |
+| Sprijinirea excavării | Proiectarea la terți; verificarea documentelor confirmată | Exclusă | Ofertată explicit |
+| Asistență pe șantier | Început + 6 faze critice + întâlniri după nevoie | Maximum 8 vizite de asistență | 12 recepții incluse |
+| Prüfingenieur și §128 | Ofertat; 15 vizite ca ipoteză, clarificări pentru certificatul final | Ofertat explicit | Rolul Prüfingenieur nu este confirmat explicit |
+| Bauwerksbuch | Inclus, cu înregistrare; fotografiile/fisurile și catalogul extins excluse | Nespecificat | Nespecificat |
+| PDF, DWG, DXF, IFC | Confirmări punctuale în Q2 | Predare electronică generică | Formatele trebuie confirmate |
+
+**2. Prețuri pe servicii — EUR net**
+
+| Serviciu | TOMS | BERGER | Dr. PECH |
+|---|---:|---:|---:|
+| Calcul structural | 25.000¹ | 13.000 | 42.000 |
+| Planuri constructive | Incluse¹ | 20.000 | De clarificat |
+| Goluri în existent | Incluse în pachet | Fără preț separat | 6.000 |
+| Sprijinirea excavării | Exclusă întocmirea | Exclusă | 5.000 |
+| Inspecție teren | În serviciile PI | Fără preț separat | 800 |
+| Asistență / Baubegleitung | 1.500 | 2.000 | 14.000 |
+| Prüfingenieur | 8.000 | 10.000 | Neconfirmat explicit |
+| Bauwerksbuch | 3.400 | Nespecificat | Nespecificat |
+| Documente finale | În pachetele PI/Bauwerksbuch | Anexa §128 în PI | 1.500 |
+| **Total net** | **37.900** | **45.000** | **69.300** |
+| **Total cu TVA 20%** | **45.480** | **54.000** | **83.160** |
+
+¹ TOMS nu separă prețul calculului de cel al planurilor. „Nespecificat” nu înseamnă zero.
+
+**Totalurile acoperă servicii diferite.** BERGER cotează explicit Prüfingenieur; PECH include excavarea, dar rolul PI și Bauwerksbuch necesită clarificare. REALIG are o sumă istorică estimată de **24.000 EUR net**, prezentată separat în Excel.
+
+TOMS a refuzat preluarea în prezent la **2026.10.08**, invocând lipsa resurselor. Refuzul răspunde firului v3; întinderea față de v4.1 rămâne de clarificat. Acceptarea contractului v4.1 nu este confirmată.
+
+- :codex-followup[Clarificări BERGER]{prompt="Pregătește un draft netrimis către BERGER pentru prelungirea ofertei, disponibilitate și completarea serviciilor neconfirmate din comparație."}
+- :codex-followup[Clarificări PECH]{prompt="Pregătește un draft netrimis către PECH pentru descrierea exactă a serviciilor, planuri, Prüfingenieur, Bauwerksbuch, drepturi de utilizare și indexare."}
+- :codex-followup[Clarificări TOMS]{prompt="Pregătește un draft netrimis către TOMS pentru clarificarea refuzului față de contractul v4.1 și posibilitatea preluării unor componente separate."}

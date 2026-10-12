@@ -30,31 +30,19 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/fbf467a9-54c4-4749-952c-25f8e37df5b8/scratchpad/dfs/robocopy.log",
-    "status": "copiat",
-    "saved_path": "fisiere/robocopy--fb971301.log",
-    "bytes": 1201,
-    "sha256": "e5932ac26564aec19e18d8f42b4dd68a888ae684c1b97d736d31012a40945fc8"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/fbf467a9-54c4-4749-952c-25f8e37df5b8/tasks/bi2lff211.output",
-    "status": "copiat",
-    "saved_path": "fisiere/bi2lff211--d12f180a.output",
-    "bytes": 579,
-    "sha256": "6b1511c1e317bf3b113e7f5a05925c993dda763b04c417fddec84c4e63b9fe70"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/fbf467a9-54c4-4749-952c-25f8e37df5b8/tasks/blyj96w6q.output",
-    "status": "copiat",
-    "saved_path": "fisiere/blyj96w6q--eaf84bec.output",
-    "bytes": 175,
-    "sha256": "7df8d8bf710b5b54c3b68664ec12cc9d5dcecc7101988b5d53f3ddf3c26353a3"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/fbf467a9-54c4-4749-952c-25f8e37df5b8/tasks/bx3twxm2j.output",
-    "status": "copiat",
-    "saved_path": "fisiere/bx3twxm2j--050679bb.output",
-    "bytes": 22,
-    "sha256": "53b7595a236f7973a34d2c35f1e1e2e97561c281207f137642a6c2e525f474e2"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/My Drive (covaciu.gnm@gmail.com)/00. Proiecte",
@@ -129,10 +117,7 @@
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\fbf467a9-54c4-4749-952c-25f8e37df5b8\\scratchpad\\dfs\\robocopy.log",
-    "status": "copiat",
-    "saved_path": "fisiere/robocopy--fb971301.log",
-    "bytes": 1201,
-    "sha256": "e5932ac26564aec19e18d8f42b4dd68a888ae684c1b97d736d31012a40945fc8"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\GoogleDriveFS_autostart_backup.txt",
@@ -187,23 +172,23 @@
   },
   {
     "source_reference": "G:/Other computers",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "G:/Other computers/My Laptop",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "G:/Other computers/My PC",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "G:\\My Drive",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "G:\\\\",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "I:\\00. Proiecte",
@@ -211,7 +196,7 @@
   },
   {
     "source_reference": "S:\\00. Proiecte",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "V:\\00. Proiecte",

@@ -16,10 +16,7 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/aca2a15e-9ccb-4b1b-b3a6-5a5ede318958/scratchpad/q1.py",
-    "status": "copiat",
-    "saved_path": "fisiere/q1--990768ab.py",
-    "bytes": 857,
-    "sha256": "6e1470df438a9f70f51a16e164bd55dcc233d550443da637ad0dfcdb47b2dfb2"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/aca2a15e-9ccb-4b1b-b3a6-5a5ede318958/scratchpad\\",
@@ -162,15 +159,15 @@
   },
   {
     "source_reference": "G:\\My Drive.lnk",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "G:\\Other computers",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "G:\\Other computers\\*",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "I:\\\\",

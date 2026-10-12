@@ -1,0 +1,16 @@
+[
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\sources\\insolventa\\collect.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/collect--a2037667.cjs",
+    "bytes": 4504,
+    "sha256": "ca9ff40ef30e3e7f75acca7279dc473fffb46c447f6ae07ae68732e303e39511"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\sources\\insolventa\\finalize.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize--9da0aba4.cjs",
+    "bytes": 1435,
+    "sha256": "22b9b69614873a02efba1a6568bbab76ec1015ef138de146ae893314e4536a42"
+  }
+]

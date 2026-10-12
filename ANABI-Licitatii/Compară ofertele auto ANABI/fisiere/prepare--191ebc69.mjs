@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+const ent={Icirc:'Î',icirc:'î',acirc:'â',Acirc:'Â',nbsp:' ',ndash:'–',mdash:'—',rsquo:'’',lsquo:'‘',ldquo:'„',rdquo:'”',quot:'"',amp:'&',eacute:'é',Eacute:'É',ouml:'ö',Ouml:'Ö',middot:'•',bull:'•',sup3:'³',deg:'°'};
+const dec=s=>s.replace(/&(#x[\da-f]+|#\d+|\w+);/gi,(m,k)=>k[0]==='#'?String.fromCodePoint(parseInt(k.slice(k[1]==='x'?2:1),k[1]==='x'?16:10)):ent[k]??m);
+const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+let d=JSON.parse(fs.readFileSync('sources/details.json'));let excluded=[];
+const configs={1262:['Porsche','911 Carrera 4 GTS Cabriolet',2023,11579,63000,21],1279:['Porsche','911 Carrera S Coupé · RHD',2020,651,62500,21],1277:['BMW','550e xDrive',2025,19976,45450,21],1274:['Mercedes-Benz','S400d 4MATIC',2021,208322,41832.75,0],1272:['Mercedes-Benz','S400 4MATIC Coupé',2016,182222,26028.75,21],1273:['BMW','M850i xDrive Coupé',2019,213676,25291.5,0],1266:['Audi','A6 Avant 40 TDI',2024,10721,23500,21],1271:['BMW','750i xDrive',2016,187414,16500,0],1270:['BMW','740d xDrive',2015,265368,14250,0],1275:['Mercedes-Benz','CLS 350 CDI 4MATIC',2011,142994,10017,0],1278:['Audi','A6 3.0 TDI Quattro Tiptronic',2007,356080,2372,0]};
+let cars=[];
+for(let x of d){x.text=dec(x.text);x.tables=x.tables.map(r=>r.map(dec));let t=norm(x.title);if(/autoutilit|autotilitar|motocicl|tractor|remorc|\batv\b|stivuit|utilaj|despic|crafter|krafter|transporter|sprinter|ducato|transit|l ?200/.test(t)){excluded.push({id:x.id,title:x.title,reason:'Vehicul comercial / utilaj / motociclu / rulotă, în afara selecției autoturisme'});continue;}
+ if(x.tables.some(r=>/^(caroseria|caroserie|categorie)$/.test(norm(r[0]||''))&&/furgon|autoutilit|^n[123]$/i.test(r[1]||''))){excluded.push({id:x.id,title:x.title,reason:'Fișa indică furgon / categorie N1–N3'});continue;}
+ const value=re=>x.tables.find(r=>re.test(norm(r[0]||'')))?.[1]||'';
+ const brands=['Porsche','BMW','Mercedes-Benz','Audi','Volkswagen','Skoda','Dacia','Renault','Ford','Toyota','Land Rover','Bentley','Ferrari','Lamborghini','Maserati','Opel','Peugeot','Citroen','Volvo','Honda','Hyundai','Kia','Lexus','Nissan','Fiat','Seat','Suzuki','Chevrolet','Cadillac','Mazda','Subaru','Mitsubishi'];
+ let brand=/mercedes/.test(t)?'Mercedes-Benz':/aston martin/.test(t)?'Aston Martin':brands.find(b=>norm(x.title).includes(norm(b).replace('-',' '))||norm(x.title).includes(norm(b)))||(/porche/.test(t)?'Porsche':/\bvw\b/.test(t)?'Volkswagen':/octavia/.test(t)?'Skoda':'Altele');
+ let c=configs[x.id];x.brand=c?.[0]||brand;x.model=c?.[1]||x.title.replace(/^(NEADJUDECAT|ADJUDECAT)\s*[-–]?\s*/i,'');x.year=c?.[2]||Number(value(/an.*fabric/).match(/(?:19|20)\d{2}/)?.[0])||null;x.km=c?.[3]??null;x.eur=c?.[4]??null;x.vat=c?.[5]??null;x.gross=x.eur===null?null:x.eur*(1+x.vat/100);x.ron=Number(x.price.replace(/,/g,'').replace(/[^\d.]/g,''));x.status=/ANULAT/i.test(x.title)?'Anulată':x.auctionDate>='2026-10-12'&&!/^(NEADJUDECAT|ADJUDECAT)/.test(x.title)?'Viitoare':'Arhivă';
+ x.docs=x.docs.filter(u=>/public\/upload\//.test(u)).map(u=>new URL(u,'https://anabi.just.ro').href);x.observations=x.tables.filter(r=>/observatii/.test(norm(r.join(' ')))).map(r=>r.join(' ')).join('\n');x.fields=Object.fromEntries(x.tables.filter(r=>r.length===2));
+ x.search=`https://suchen.mobile.de/fahrzeuge/search.html?vc=Car&isSearchRequest=true&sb=p&od=up&ft=${encodeURIComponent(x.model)}`;cars.push(x);
+}
+fs.writeFileSync('sources/cars.json',JSON.stringify(cars,null,2));fs.writeFileSync('sources/excluded.json',JSON.stringify(excluded,null,2));
+fs.mkdirSync('catalog/assets',{recursive:true});fs.mkdirSync('catalog/auto',{recursive:true});
+for(let x of cars.filter(x=>x.status!=='Arhivă')){if(x.image){let r=await fetch(x.image);if(r.ok)fs.writeFileSync(`catalog/assets/${x.id}.jpg`,Buffer.from(await r.arrayBuffer()));}for(let [i,url] of x.docs.entries()){let r=await fetch(url);if(r.ok)fs.writeFileSync(`sources/document-${x.id}-${i+1}.pdf`,Buffer.from(await r.arrayBuffer()));}}
+console.log('CARS',cars.length,'ACTIVE',cars.filter(x=>x.status==='Viitoare').length,'EXCLUDED',excluded.length);console.log(cars.filter(x=>x.brand==='Altele').map(x=>[x.id,x.title]));

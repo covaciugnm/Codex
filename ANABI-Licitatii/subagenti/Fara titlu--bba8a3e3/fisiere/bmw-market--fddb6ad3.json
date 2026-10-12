@@ -1,0 +1,284 @@
+{
+  "researchedAt": "2026-10-12",
+  "method": "Prețuri cerute brute în EUR observate în pagini mobile.de accesibile prin căutare și deschidere. Nu este o inventariere completă, ordonată crescător, a tuturor ofertelor active. Prețurile din rezultate indexate pot avea întârziere de circa 3–4 săptămâni. Prima înmatriculare nu dovedește anul fabricației. O a doua verificare a inventarului public al dealerilor mobile.de a furnizat ID-uri individuale și prețuri curente pentru M850i, 750i și alternativa 740d; observațiile vechi au fost păstrate distinct.",
+  "vehicles": [
+    {
+      "anabiModel": "BMW 550e xDrive 2025",
+      "reference": {
+        "title": "BMW 550e A xD M-Sport, Pano, AHK, DAProf, Sitzbelü",
+        "priceEur": 62222,
+        "priceBasis": "brut, TVA germană 19% inclusă; net 52.287 EUR",
+        "registration": "03/2025",
+        "year": 2025,
+        "km": 24522,
+        "powerKw": 360,
+        "powerType": "putere totală sistem hibrid",
+        "fuel": "benzină / electric, plug-in hybrid",
+        "transmission": "automată",
+        "body": "berlină G60",
+        "engineCc": 2998,
+        "seller": "Reisacher Augsburg GmbH, Augsburg",
+        "condition": "rulat; pagina nu confirmă explicit lipsa accidentelor",
+        "url": "https://suchen.mobile.de/auto-inserat/bmw-550e-a-xd-m-sport-pano-ahk-daprof-sitzbel%C3%BC-augsburg/454373284.html",
+        "evidence": "Pagina individuală deschisă; 62.222 EUR, 24.522 km, 03/2025, G60 berlină, 360 kW. Certificat baterie indicat: 100,0%, test al dealerului.",
+        "equipment": [
+          "M Sport",
+          "plafon panoramic",
+          "cârlig de remorcare",
+          "Driving Assistant Professional",
+          "ventilație scaune",
+          "cameră marșarier",
+          "interior Alcantara negru"
+        ],
+        "match": "bun: aceeași versiune, an și caroserie; rulaj cu 4.546 km mai mare",
+        "limitations": [
+          "ANABI indică 230 kW pentru motorul termic; 360 kW în oferta mobile reprezintă sistemul hibrid, nu o versiune diferită doar prin această cifră.",
+          "Cel mai mic preț al unui anunț individual comparabil identificat în această cercetare; nu minim garantat al pieței.",
+          "Starea, garanția și dotările trebuie confruntate cu lotul ANABI."
+        ]
+      },
+      "otherObserved": [
+        {
+          "priceEur": 62900,
+          "registration": "03/2025",
+          "km": 23000,
+          "url": "https://suchen.mobile.de/auto-inserat/bmw-550e-xdrive-lim-m-sport-autobahnassist-daprof-berlin/452119005.html",
+          "note": "BMW AG Berlin; berlină M Sport; certificat baterie 99,9%."
+        },
+        {
+          "priceEur": 61950,
+          "registration": "06/2025",
+          "km": 33233,
+          "url": "https://suchen.mobile.de/auto/bmw-550-jahreswagen.html",
+          "note": "WELLER Hildesheim; listă indexată; rulaj mai mare; link individual neidentificat. Nu eticheta URL ca anunț individual."
+        }
+      ],
+      "confidence": "medie spre bună"
+    },
+    {
+      "anabiModel": "BMW M850i xDrive Coupé 2019",
+      "reference": {
+        "title": "BMW M850i xDrive Aut., Deutsches Fahrzeug, Garantie",
+        "priceEur": 38490,
+        "registration": "09/2019",
+        "year": 2019,
+        "km": 112300,
+        "powerKw": 390,
+        "engineCc": 4395,
+        "fuel": "benzină",
+        "transmission": "automată",
+        "body": "Coupé 2 uși / 4 locuri",
+        "seller": "Jülicher Autozentrum Makki GmbH",
+        "condition": "fără avarie curentă indicată; funcțional conform datelor publice; istoricul accidentelor neconfirmat",
+        "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48199118632256",
+        "note": "Referință de ofertă curentă, comparație indicativă din cauza diferenței de stare și rulaj.",
+        "directUrl": "https://suchen.mobile.de/fahrzeuge/details.html?id=48199118632256",
+        "listingId": 48199118632256,
+        "sourceUrl": "https://home.mobile.de/JUELICHER-AUTOZENTRUM?pageNumber=4",
+        "evidence": "ID, preț brut și caracteristici extrase din datele publice ale dealerului mobile.de la 12.10.2026; același ID în lista curentă BMW M850 2019.",
+        "equipment": [
+          "xDrive",
+          "automată",
+          "garanție menționată în titlu"
+        ],
+        "match": "slab pentru evaluarea financiară: cu 101.376 km mai puțin și fără avaria frontală a lotului ANABI",
+        "limitations": [
+          "Cel mai mic preț cu ID individual găsit și verificat în eșantionul curent; nu minim garantat.",
+          "Oferta indexată de 37.900 EUR nu are disponibilitate reconfirmată.",
+          "Diferența de preț nu include reparațiile și rulajul suplimentar al lotului ANABI."
+        ]
+      },
+      "directAlternative": {
+        "title": "BMW M850i xDrive Coupé, Guter Allgemeinzustand",
+        "priceEur": 42990,
+        "registration": "07/2019",
+        "year": 2019,
+        "km": 57200,
+        "powerKw": 390,
+        "engineCc": 4395,
+        "fuel": "benzină",
+        "transmission": "automată",
+        "body": "Coupé 2 uși / 4 locuri",
+        "seller": "Jülicher Autozentrum Makki GmbH",
+        "condition": "rulat, stare generală bună declarată; lipsa accidentelor neconfirmată",
+        "url": "https://suchen.mobile.de/auto-inserat/bmw-m850i-xdrive-coupe-guter-allgemeinzustand-j%C3%BClich/458856086.html",
+        "note": "Anunț individual deschis. Rulaj mult prea mic pentru un reper economic fidel; nu este cel mai ieftin observat."
+      },
+      "confidence": "scăzută; nu recomand semafor economic concludent",
+      "indexedLowerObservation": {
+        "title": "BMW M850i xDrive Coupé – Laser/ACC/Individual/Performance",
+        "priceEur": 37900,
+        "priceBasis": "preț afișat, vânzător privat",
+        "registration": "04/2019",
+        "year": 2019,
+        "km": 144000,
+        "powerKw": 390,
+        "fuel": "benzină",
+        "transmission": "automată",
+        "body": "Coupé",
+        "seller": "vânzător privat, Augsburg",
+        "condition": "declarat fără accidente în rezultatul mobile",
+        "url": "https://suchen.mobile.de/auto/bmw-m850-2019.html",
+        "directUrl": null,
+        "evidence": "Oferta și prețul apar în lista mobile.de pentru 2019; linkul individual nu a fost identificat.",
+        "equipment": [
+          "faruri laser",
+          "ACC",
+          "Individual"
+        ],
+        "match": "slab: versiune și an egale, dar 69.676 km mai puțini și fără avarie frontală declarată",
+        "limitations": [
+          "Lotul ANABI are 213.676 km și avarie frontală; reducerea față de un exemplar fără accidente NU măsoară economisirea netă.",
+          "Fără deviz de reparație și inspecție structurală nu se poate determina atractivitatea economică.",
+          "Nu există minim verificat pentru aceeași stare și același rulaj.",
+          "URL-ul este listă de rezultate, nu anunț individual."
+        ],
+        "status": "Ofertă indexată veche; nu reapare în prima pagină actuală. Disponibilitate neconfirmată."
+      }
+    },
+    {
+      "anabiModel": "BMW 750i xDrive 2016",
+      "reference": {
+        "title": "BMW 750i xDrive Massage/SOFTC/360°/Sitzlüftung/Laser",
+        "priceEur": 25990,
+        "priceBasis": "preț brut afișat",
+        "year": 2016,
+        "registration": "11/2016",
+        "km": 169600,
+        "powerKw": 330,
+        "engineCc": 4395,
+        "fuel": "benzină",
+        "transmission": "automată",
+        "body": "berlină",
+        "seller": "Arnold Automobile e.K., Tübingen",
+        "condition": "fără accident și funcțional conform datelor publice; trei deținători; versiune germană",
+        "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=453992923",
+        "directUrl": "https://suchen.mobile.de/fahrzeuge/details.html?id=453992923",
+        "listingId": 453992923,
+        "sourceUrl": "https://home.mobile.de/ASGINTERNATIONAL",
+        "equipment": [
+          "xDrive",
+          "masaj",
+          "soft-close",
+          "cameră 360°",
+          "ventilație scaune",
+          "faruri laser"
+        ],
+        "evidence": "ID, preț și caracteristici extrase direct din pagina publică a dealerului mobile.de la 12.10.2026.",
+        "match": "aceeași versiune și an, rulaj cu 17.814 km mai mic; diferență importantă de istoric",
+        "limitations": [
+          "Preț minim în eșantionul cu ID individual și versiune/rulaj apropiate; nu minim garantat al mobile.de.",
+          "Observația indexată de 19.950 EUR nu are anunț individual ori disponibilitate reconfirmată.",
+          "Lotul ANABI are istoric SUA/daune; referința germană fără accident nu justifică singură concluzia de chilipir."
+        ]
+      },
+      "directAlternative": {
+        "title": "BMW 750Li xDrive Panorama/HUD/Memory/Kamera",
+        "priceEur": 26990,
+        "registration": "07/2016",
+        "year": 2016,
+        "km": 119000,
+        "powerKw": 330,
+        "engineCc": 4395,
+        "fuel": "benzină",
+        "transmission": "automată",
+        "body": "berlină lungă G12",
+        "seller": "Autohaus high-class, Bad Saarow; vânzare în numele clientului",
+        "condition": "accident reparat; trei deținători; versiune germană",
+        "url": "https://suchen.mobile.de/auto-inserat/bmw-750li-xdrive-panorama-hud-memory-kamera-bad-saarow/42229590668928.html",
+        "note": "Date detaliate accesibile în rezultatul de căutare; deschiderea directă a dat cache miss. Este variantă lungă și cu 68.414 km mai puțin: reper secundar, nu comparabil principal și nu minim."
+      },
+      "confidence": "scăzută spre medie",
+      "indexedLowerObservation": {
+        "title": "BMW 750i Edition Exclusive, X-Drive, Laser, Fond",
+        "priceEur": 19950,
+        "priceBasis": "preț afișat, vânzător privat",
+        "registration": "03/2016",
+        "year": 2016,
+        "km": 184700,
+        "powerKw": 330,
+        "fuel": "benzină",
+        "transmission": "automată",
+        "body": "berlină",
+        "seller": "vânzător privat, Schweinfurt",
+        "condition": "declarat fără accidente",
+        "url": "https://suchen.mobile.de/auto/bmw-750-2016.html",
+        "directUrl": null,
+        "evidence": "Oferta 19.950 EUR / 184.700 km apare în lista mobile.de indexată și în lista benzină automată. Pagina recent redeschisă afișează numai prima pagină; disponibilitatea exemplarului rămâne de reconfirmat.",
+        "equipment": [
+          "Edition Exclusive",
+          "xDrive",
+          "faruri laser",
+          "echipare spate Fond"
+        ],
+        "match": "an, motor, tracțiune și rulaj apropiate (cu 2.714 km mai puțin); istoric de avarii diferit",
+        "limitations": [
+          "Lot ANABI cu istoric SUA/daune; referința declară fără accidente. Nu există corecție numerică justificată pentru istoric.",
+          "Link individual neidentificat: URL-ul este listă, nu anunț individual.",
+          "Preț observat, nu minim garantat; oferta poate fi expirată."
+        ]
+      }
+    },
+    {
+      "anabiModel": "BMW 740d xDrive G11 2015",
+      "reference": {
+        "title": "BMW 740d xDrive M-Paket",
+        "priceEur": 22900,
+        "priceBasis": "preț afișat negociabil, vânzător privat",
+        "registration": "07/2016",
+        "year": 2016,
+        "km": 256000,
+        "powerKw": 235,
+        "fuel": "diesel",
+        "transmission": "automată",
+        "body": "berlină",
+        "seller": "vânzător privat, Schwieberdingen",
+        "condition": "declarat fără accidente",
+        "url": "https://suchen.mobile.de/auto/bmw-740-2016.html",
+        "directUrl": null,
+        "evidence": "Pagina mobile.de redeschisă afișează oferta sponsorizată: 22.900 EUR, 07/2016, 256.000 km, 235 kW, diesel.",
+        "equipment": [
+          "M-Paket",
+          "xDrive"
+        ],
+        "match": "aceeași motorizare G11 235 kW și rulaj apropiat, cu 9.368 km mai puțin; prima înmatriculare 2016 față de fabricație ANABI 2015",
+        "limitations": [
+          "Majoritatea ofertelor mobile cu prima înmatriculare 2015 sunt F01 230 kW/313 CP: excluse, generație diferită.",
+          "Nu a fost identificat comparabil individual G11 2015 la circa 265.000 km.",
+          "Linkul este listă de rezultate; anunțul individual neidentificat.",
+          "Prima înmatriculare 2016 nu dovedește anul fabricației 2016."
+        ]
+      },
+      "directAlternative": {
+        "title": "BMW 740d xDrive M Sport 360° ACC HUD GSD LASER TÜV",
+        "priceEur": 27500,
+        "registration": "10/2016",
+        "year": 2016,
+        "km": 175000,
+        "powerKw": 235,
+        "engineCc": 2993,
+        "fuel": "diesel",
+        "transmission": "automată",
+        "body": "berlină G11/G12",
+        "seller": "Estenfeld KFZ-Handel",
+        "condition": "rulat, doi deținători; lipsa accidentelor neconfirmată",
+        "url": "https://suchen.mobile.de/auto-inserat/bmw-740d-xdrive-m-sport-360-acc-hud-gsd-laser-t%C3%BCv-estenfeld/45388349012320.html",
+        "equipment": [
+          "M Sport",
+          "cameră 360°",
+          "ACC",
+          "HUD",
+          "plafon vitrat",
+          "faruri laser",
+          "piele neagră"
+        ],
+        "note": "Anunț individual deschis. Cu 90.368 km mai puțin; mai scump decât reperul de listă. Nu prezenta ca minim sau comparație fidelă.",
+        "sourceUrl": "https://home.mobile.de/ESTENFELDKFZHANDEL",
+        "listingId": 45388349012320,
+        "directUrl": "https://suchen.mobile.de/auto-inserat/bmw-740d-xdrive-m-sport-360-acc-hud-gsd-laser-t%C3%BCv-estenfeld/45388349012320.html",
+        "evidence": "Pagina publică a dealerului verificată direct la 12.10.2026: preț actual 27.500 EUR, ID 45388349012320, 175.000 km. Prețul vechi din index 28.500 EUR a fost actualizat."
+      },
+      "confidence": "scăzută spre medie"
+    }
+  ]
+}

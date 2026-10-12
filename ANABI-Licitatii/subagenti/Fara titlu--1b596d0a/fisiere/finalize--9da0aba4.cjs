@@ -1,0 +1,7 @@
+const fs=require('fs'),p=require('path'),d=__dirname;
+const rows=JSON.parse(fs.readFileSync(p.join(d,'listings.json'))).filter(r=>r.sourceUrl&&r.id!=='ins-');
+const c=JSON.parse(fs.readFileSync(p.join(d,'coverage.json')));
+c.errors=c.errors.filter(e=>e.id!=='ins-');c.expected=2308;c.count=rows.length;c.detailCount=rows.filter(r=>r.detailFetched).length;c.complete=c.count===c.expected&&c.detailCount===c.count&&c.errors.length===0;c.checkedAt=new Date().toISOString();
+c.categoryCounts=Object.fromEntries([...new Set(rows.map(x=>x.category))].sort().map(k=>[k,rows.filter(x=>x.category===k).length]));
+c.notes=['Inventarul public curent din 47 de pagini, deduplicat după ID. Contorul sursei a fost reverificat: 2308 anunțuri.','Categoriile și localizarea sunt cele declarate de publicator, fără reclasificare automată.','Prețurile rămân în moneda originală; null reprezintă preț nespecificat. Gratuit rămâne o etichetă declarată, fără presupunerea că bunul este oferit gratuit.','Data licitației este primul câmp structurat publicat; descrierea poate menționa repetări ulterioare. Nu se deduce automat expirarea exclusiv din data primei licitații.','Sursele pot fi actualizate ulterior. Nu este o sincronizare în timp real.'];
+fs.writeFileSync(p.join(d,'listings.json'),JSON.stringify(rows,null,2));fs.writeFileSync(p.join(d,'coverage.json'),JSON.stringify(c,null,2));console.log(JSON.stringify(c,null,2));

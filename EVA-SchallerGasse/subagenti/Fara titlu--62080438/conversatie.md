@@ -2,7 +2,7 @@
 
 ID: `01a11588-bcbd-72c0-b042-1c4262080438`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-12T08:25:51.143327+00:00
+Export UTC: 2026-10-12T14:26:02.743395+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -22,3 +22,11 @@ Constatările decisive:
 - Plata și restabilirea acoperirii, reducerea componentelor și ieșirea negociată sunt analizate distinct.
 
 Registrele surselor TXT/JSON sunt salvate alături. Nu am modificat jurnalele/indexul și nu am creat emailuri.
+
+## Asistent
+
+Salvat [2026.10.12 Date TOMS.json](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Date TOMS.json>).
+
+Conține 16 capitole, 69 servicii, 6 prețuri originale și 17 rate propuse de AG. Totalul ratelor verificat: **37.900 EUR net**.
+
+Corecțiile materiale pentru matrice au fost comunicate: confirmări Q1 separate de contractul neacceptat, 300 EUR/vizită confirmat, PI 15 vizite și 24 ore, surse exacte pentru Bauwerksbuch și formate. Nicio modificare în registre sau jurnale.

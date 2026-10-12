@@ -1,6 +1,6 @@
 # iDempiere
 
-Conversații: 11; subagenți: 0; mesaje: 368; fișiere copiate: 374.
+Conversații: 14; subagenți: 0; mesaje: 456; fișiere copiate: 432.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -14,4 +14,7 @@ Conversații: 11; subagenți: 0; mesaje: 368; fișiere copiate: 374.
 | [Compare open-source CRM options](Compare%20open-source%20CRM%20options/conversatie.md) | Conversație | 28 |
 | [Compară soluții BI pentru iDempiere](Compar%C4%83%20solu%C8%9Bii%20BI%20pentru%20iDempiere/conversatie.md) | Conversație | 31 |
 | [Compară soluții Cash Flow](Compar%C4%83%20solu%C8%9Bii%20Cash%20Flow/conversatie.md) | Conversație | 25 |
-| [Definește KPI și automatizări BI](Define%C8%99te%20KPI%20%C8%99i%20automatiz%C4%83ri%20BI/conversatie.md) | Conversație | 12 |
+| [Definește KPI și automatizări BI](Define%C8%99te%20KPI%20%C8%99i%20automatiz%C4%83ri%20BI/conversatie.md) | Conversație | 18 |
+| [Creează invitație Halloween Family](Creeaz%C4%83%20invita%C8%9Bie%20Halloween%20Family/conversatie.md) | Conversație | 41 |
+| [Creează monografia contabilă](Creeaz%C4%83%20monografia%20contabil%C4%83/conversatie.md) | Conversație | 25 |
+| [Create audit checklist and workspace](Create%20audit%20checklist%20and%20workspace/conversatie.md) | Conversație | 16 |

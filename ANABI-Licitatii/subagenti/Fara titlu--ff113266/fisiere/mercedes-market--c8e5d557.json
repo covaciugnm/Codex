@@ -1,0 +1,185 @@
+{
+  "checkedAt": "2026-10-12",
+  "method": "Prețuri cerute brute, nu prețuri de tranzacționare. Minimul absolut mobile.de nu este demonstrat. Datele verificate direct provin din JSON-ul public al paginilor dealerilor mobile.de; ID-ul anunțului identifică linkul individual. Pagina individuală suchen.mobile.de este blocată HTTP 403 pentru colectarea automată.",
+  "vehicles": [
+    {
+      "anabiModel": "Mercedes-Benz CLS 350 CDI 4MATIC",
+      "anabiYear": 2011,
+      "comparisonStatus": "verified_reference",
+      "reference": {
+        "title": "Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt",
+        "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=446559313",
+        "sourceUrl": "https://home.mobile.de/AZAUTOHANDELCRAILSHEIM",
+        "id": "446559313",
+        "priceEur": 16660,
+        "netEur": 14000,
+        "vatPercent": 19,
+        "year": 2011,
+        "firstRegistration": "12/2011",
+        "mileageKm": 133000,
+        "powerKw": 195,
+        "fuel": "Diesel",
+        "engineCc": 2987,
+        "transmission": "Automată",
+        "drive": "4MATIC",
+        "seller": "A&Z Autohandel",
+        "location": "Crailsheim, Germania",
+        "emissions": "Euro 5",
+        "owners": 2,
+        "seats": 4,
+        "condition": "JSON dealer: hasDamage=false; readyToDrive=true. Nu echivalează cu inspecție independentă sau istoric complet fără accidente."
+      },
+      "quality": "Bună potrivire de an, motor, putere, tracțiune și kilometraj. Nu este dovedit minimul absolut; cel mai mic reper apropiat observat și identificat direct.",
+      "differences": [
+        "Reperul are 133.000 km, cu 9.994 km mai puțin decât cei 142.994 km afișați ANABI.",
+        "ANABI are suspensia pneumatică defectă; reperul este declarat apt de circulație. Economia aparentă trebuie redusă cu reparațiile și riscurile.",
+        "Dotările exacte și istoricul de accidente ale reperului nu sunt verificate individual."
+      ],
+      "observedAlternatives": [
+        {
+          "title": "CLS350 AMG-Line 4Matic",
+          "priceEur": 19990,
+          "year": 2011,
+          "mileageKm": 150000,
+          "sourceUrl": "https://suchen.mobile.de/auto/mercedes-benz-cls-350-2011.html"
+        },
+        {
+          "title": "CLS350 CDI 4Matic AMG H&K STDHZ AIR LED SHD CAM",
+          "priceEur": 22999,
+          "year": 2011,
+          "mileageKm": 149892,
+          "sourceUrl": "https://suchen.mobile.de/auto/mercedes-benz-cls-350-2011.html"
+        }
+      ]
+    },
+    {
+      "anabiModel": "Mercedes-Benz S 400 4MATIC Coupé",
+      "anabiYear": 2016,
+      "comparisonStatus": "verified_reference_not_minimum",
+      "reference": {
+        "title": "Mercedes-Benz S 400 Coupe 4Matic*AMG Paket*Pano*HUD*Burmester",
+        "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=419335164",
+        "sourceUrl": "https://home.mobile.de/AUTOSALONESSEN?pageNumber=3",
+        "id": "419335164",
+        "priceEur": 34950,
+        "year": 2016,
+        "firstRegistration": "10/2016",
+        "mileageKm": 212587,
+        "powerKw": 270,
+        "fuel": "Benzină",
+        "engineCc": 2996,
+        "transmission": "Automată",
+        "drive": "4MATIC",
+        "seller": "Autosalon Essen",
+        "location": "Essen, Germania",
+        "emissions": "Euro 6",
+        "owners": 2,
+        "seats": 4,
+        "color": "Gri",
+        "features": [
+          "AMG Paket",
+          "Panoramic",
+          "Head-up display",
+          "Burmester"
+        ],
+        "condition": "JSON dealer: hasDamage=false; readyToDrive=true. Nu echivalează cu verificare independentă."
+      },
+      "quality": "Aceeași caroserie, an, motor și putere. Reper direct verificat din Germania; un reper italian cu 50 EUR mai mic este observat fără ID individual recuperat, deci 34.950 EUR nu trebuie etichetat minim mobile.de.",
+      "differences": [
+        "Reperul are 212.587 km: cu 30.365 km peste kilometrajul ANABI afișat, dar cu 54.564 km sub înregistrarea istorică ANABI de 267.151 km.",
+        "Diferența istorică de kilometraj ANABI este mai importantă decât diferența față de kilometrajul afișat.",
+        "Dotările sunt cele din titlul reperului; nu există decodare VIN oficială a reperului."
+      ],
+      "observedAlternatives": [
+        {
+          "title": "S400 Coupé 4Matic Maximum",
+          "priceEur": 34900,
+          "year": 2016,
+          "firstRegistration": "03/2016",
+          "mileageKm": 194850,
+          "powerKw": 270,
+          "seller": "VASAUTO",
+          "location": "Italia",
+          "sourceUrl": "https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html",
+          "status": "Observat în pagina mobile.de proaspătă; link individual nerecuperat."
+        },
+        {
+          "title": "S400 Coupe*4Matic*Pano*Burmester*Nachtsicht*360",
+          "priceEur": 29950,
+          "year": 2016,
+          "mileageKm": 244000,
+          "sourceUrl": "https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html",
+          "status": "Exclus: numai index mai vechi; nu mai apare la deschiderea proaspătă."
+        }
+      ]
+    },
+    {
+      "anabiModel": "Mercedes-Benz S 400 d 4MATIC",
+      "anabiYear": 2021,
+      "comparisonStatus": "insufficient_close_primary_reference",
+      "reference": null,
+      "reason": "Cel mai apropiat reper economic găsit (57.100 EUR, 216.000 km) este indexat de agregatoare, dar anunțul original individual nu a putut fi identificat/verificat. Nu trebuie prezentat ca minim verificat sau folosit pentru o bulină definitivă.",
+      "observedCandidates": [
+        {
+          "title": "Mercedes-Benz S 400 d 4MATIC L AMG Line",
+          "priceEur": 57100,
+          "year": 2021,
+          "firstRegistration": "08/2021",
+          "mileageKm": 216000,
+          "powerKw": 243,
+          "fuel": "Diesel",
+          "transmission": "Automată",
+          "location": "Rodgau, Germania",
+          "url": null,
+          "sourceUrl": "https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400",
+          "secondarySourceUrl": "https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line",
+          "status": "Numai index secundar, neconfirmat pe mobile.de; versiune L."
+        },
+        {
+          "title": "Mercedes-Benz S400 d 4Matic AMG 21 BURMESTER PANO FULL",
+          "priceEur": 58980,
+          "year": 2021,
+          "firstRegistration": "01/2021",
+          "mileageKm": 182770,
+          "powerKw": 243,
+          "location": "Frankfurt am Main, Germania",
+          "sourceUrl": "https://www.12gebrauchtwagen.de/auto/mercedes-benz/s-400?page=7",
+          "status": "Numai index secundar, neconfirmat pe mobile.de."
+        }
+      ],
+      "verifiedSecondaryReference": {
+        "title": "Mercedes-Benz S 400 d AMG 4M HEADUP+HIFI+DISTRO+PANO+360°+LED",
+        "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=454449745",
+        "sourceUrl": "https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber=5",
+        "id": "454449745",
+        "priceEur": 66900,
+        "netEur": 56218.49,
+        "vatPercent": 19,
+        "year": 2021,
+        "firstRegistration": "07/2021",
+        "mileageKm": 112220,
+        "powerKw": 243,
+        "fuel": "Diesel",
+        "engineCc": 2925,
+        "transmission": "Automată",
+        "drive": "4MATIC",
+        "seller": "S&G Automobil AG",
+        "location": "Karlsruhe, Germania",
+        "emissions": "Euro 6",
+        "owners": 1,
+        "seats": 5,
+        "features": [
+          "AMG",
+          "Head-up display",
+          "HiFi",
+          "Distronic",
+          "Panoramic",
+          "360°",
+          "LED"
+        ],
+        "condition": "hasDamage=false; readyToDrive=true.",
+        "caution": "Reper verificat direct, dar cu 96.102 km mai puțin decât ANABI și nu cel mai mic preț observat. Poate fi afișat ca reper suplimentar, fără a-l eticheta minim."
+      }
+    }
+  ]
+}

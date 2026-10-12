@@ -736,11 +736,11 @@
   },
   {
     "source_reference": "S:\\dracula-design",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "S:\\dracula-food",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "http://127.0.0.1:4173/",

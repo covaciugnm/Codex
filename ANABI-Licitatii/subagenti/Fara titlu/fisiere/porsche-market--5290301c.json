@@ -1,0 +1,86 @@
+{
+  "checkedDate": "2026-10-12",
+  "method": "Cautare web mobile.de si verificare pagina dealerului; cel mai mic pret observat in esantionul eligibil, nu minim certificat al intregii piete. Preturi cerute, nu tranzactii. Anul mobile este prima inmatriculare, nu neaparat anul fabricatiei.",
+  "vehicles": [
+    {
+      "anabiId": 1262,
+      "reference": {
+        "title": "Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE",
+        "priceEurGross": 159900,
+        "firstRegistration": "10/2023",
+        "km": 10100,
+        "powerKw": 353,
+        "displacementCc": 2981,
+        "fuel": "Benzina",
+        "transmission": "Automata",
+        "drive": "Integrala (Carrera 4)",
+        "body": "Cabriolet",
+        "owners": 1,
+        "condition": "Fara accidente declarate de vanzator; Porsche Approved",
+        "color": "Gri",
+        "seller": "Porsche Zentrum Aachen (Fleischhauer PZ GmbH)",
+        "mobileId": "42408584926656",
+        "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=42408584926656",
+        "evidenceUrl": "https://home.mobile.de/PORSCHE-AACHEN",
+        "access": "Pretul, kilometrajul, echiparea, anul si identificatorul anuntului verificate in pagina live si datele JSON publice ale dealerului mobile.de. Pagina de detaliu a raspuns 403; linkul este construit din identificatorul observat.",
+        "features": ["Clubleder", "BOSE", "4 locuri", "Porsche Approved"],
+        "comparison": "Acelasi model 992.1, caroserie Cabriolet, putere 353 kW, transmisie automata si tractiune integrala; prima inmatriculare 2023. Rulajul este cu 1.479 km mai mic decat ANABI. Dotarile complete, istoricul si pozitia volanului trebuie reconfirmate. Fara ajustare monetara inventata pentru dotari sau stare.",
+        "confidence": "buna pentru configuratia principala, medie pentru evaluare; reper indicativ",
+        "minimumScope": "Cel mai mic pret observat cu configuratie 4 GTS Cabriolet 353 kW si rulaj apropiat; piata nu a putut fi verificata integral."
+      },
+      "alternatives": [
+        {"title":"Porsche 992 Carrera 4 GTS Cabrio, BOSE, InnoDrive, PASM", "priceEurGross":179500,"firstRegistration":"03/2022","km":13445,"powerKw":353,"url":"https://suchen.mobile.de/auto-inserat/porsche-992-carrera-4-gts-cabrio-bose-innodrive-pasm-starnberg/450312329.html","note":"An cu unu mai vechi; acelasi model, automata, rulaj apropiat, fara accidente declarate."},
+        {"title":"Porsche 992 GTS 4 CABRIO LIFT/BURMESTER/360/CHRONO/SPORT","priceEurGross":112900,"firstRegistration":"01/2023","km":120655,"powerKw":353,"url":"https://suchen.mobile.de/auto/porsche-992-2023.html","note":"EXCLUS ca reper apropiat: rulaj de peste zece ori mai mare decat ANABI. Exista deci oferte nominal mai ieftine pe piata, insa nu comparabile ca uzura."},
+        {"title":"Porsche 992-911 CARRERA GTS CABRIO LIFT ACC 360 BOSE","priceEurGross":145900,"firstRegistration":"03/2023","km":14000,"powerKw":353,"url":"https://suchen.mobile.de/auto/porsche-cabrio-911-gt3.html","note":"EXCLUS: model GTS fara 4, tractiunea integrala nu este confirmata; nu trebuie confundat cu Carrera 4 GTS."}
+      ],
+      "official": {
+        "vin":"WP0ZZZ992PS241575",
+        "vinBuildSheetObtained":false,
+        "modelSource":"https://newsroom.porsche.com/en/2021/products/porsche-911-gts-models-premiere-24875.html",
+        "technicalPdf":"https://newsroom.porsche.com/dam/jcr:cd5bb202-d506-4078-bdc6-50e1e02deffc/PAG_911_Carrera_4_GTS_PDK_TD_EN.pdf",
+        "facts":"Familia 992.1 GTS: boxer biturbo 2.981 cmc, 353 kW/480 CP, 570 Nm; Carrera 4 are tractiune integrala; PDK cu 8 trepte. PDF-ul este pentru Coupe 4 GTS, nu pentru Cabriolet, deci masa si performantele caroseriei nu se transfera automat.",
+        "note":"Date oficiale de model, nu certificat individual de echipare pe VIN. Nu utiliza datele generatiei noi GTS T-Hybrid 3,6 litri."
+      }
+    },
+    {
+      "anabiId":1279,
+      "reference": {
+        "title":"Porsche 992 Carrera S",
+        "priceEurGross":114999,
+        "firstRegistration":"10/2020",
+        "km":26000,
+        "powerKw":331,
+        "displacementCc":2981,
+        "fuel":"Benzina",
+        "transmission":"Automata PDK 8 trepte",
+        "drive":"Spate",
+        "body":"Coupe",
+        "owners":2,
+        "condition":"Fara accidente declarate de vanzator",
+        "origin":"Versiune germana; pozitia volanului nu este explicit confirmata textual",
+        "seller":"Autoland Weiden e.K.",
+        "url":"https://suchen.mobile.de/auto-inserat/porsche-992-carrera-s-weiden/437456329.html",
+        "access":"Pagina individuala citita prin instrumentul web; cache indicat aproximativ 3 saptamani vechime.",
+        "features":["Piele integrala neagra","LED","Navigatie","Camera parcare","Climatizare 2 zone"],
+        "comparison":"Acelasi model 992 Carrera S Coupe, 331 kW, benzina, automata si tractiune spate, prima inmatriculare 2020. Rulaj cu 25.349 km peste ANABI. ANABI are volan pe dreapta si prima inmatriculare 2024 desi fabricat 2020; acestea sunt diferente decisive. Nu s-a gasit un exemplar mobile.de RHD apropiat de 651 km.",
+        "confidence":"slaba; reper contextual, nu comparabil suficient pentru bulina de pret",
+        "minimumScope":"Nu este minim mobile.de certificat si nu este minim pentru RHD. Nu calcula verdict colorat pe acest reper.",
+        "eligibleForColor":false
+      },
+      "official": {
+        "vin":"WP0ZZZ99ZLS281393",
+        "vinBuildSheetObtained":false,
+        "modelSource":"https://newsroom.porsche.com/en/products/porsche-911-new-eighth-generation-992-timeless-machine-world-premiere-los-angeles-2018-news-tv-live-broadcasting-16473.html",
+        "technicalPdf":"https://newsroom.porsche.com/dam/jcr:d5712d5c-b376-41d9-8201-09731162e143/2020_911_Carrera_S_and_911_Carrera_4S_US_specifications.pdf",
+        "facts":"992 Carrera S: boxer biturbo 3,0 litri, 331 kW/450 CP, 530 Nm, tractiune spate, PDK 8 trepte. Fisa SUA exprima puterea 443 hp SAE, nu 450 PS metric; nu reprezinta o alta motorizare.",
+        "note":"Date oficiale de model, nu certificat pe VIN si nu confirmare a dotarilor exemplarului ANABI."
+      }
+    }
+  ],
+  "vinDocumentation": {
+    "url":"https://vehicledocumentation.porsche.com/usa",
+    "officialExplanationUrl":"https://newsroom.porsche.com/en_US/2022/technology/porsche-vehicle-documentation-online-service-30039.html",
+    "finding":"Porsche are portal oficial de solicitare Porsche Production Specifications (PPS), cu VIN si checkout. Include optional echipamentele originale, culorile, tipul motorului/cutiei si data productiei. Nu ofera public in pagina o fisa descarcabila gratis pentru aceste doua VIN-uri; nu s-a comandat si nu s-a obtinut certificatul. Portalul este pentru America de Nord; eligibilitatea VIN-urilor europene si documentatia disponibila trebuie confirmate la Porsche Romania/Centrul Porsche.",
+    "limitation":"Cautarea exacta a VIN-urilor nu a furnizat fise oficiale publice individuale. Nu se poate deduce lista completa de optionale din VIN. PPS nu contine istoricul de garantie, proprietarii anteriori sau istoricul daunelor."
+  }
+}

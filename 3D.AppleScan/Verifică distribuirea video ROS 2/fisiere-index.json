@@ -21,11 +21,11 @@
   },
   {
     "source_reference": "../../../EVA-3DScan/EVA-3DScan/Core/Robot/RobotBridge.swift",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "../../../EVA-3DScan/EVA-3DScan/Core/Robot/RobotTelemetry.swift",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "01-specialist-iphone-ios.md",
@@ -683,7 +683,7 @@
   },
   {
     "source_reference": "versiuni/PLAN_V1.md",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "vision-robotics.md",

@@ -1,0 +1,54 @@
+[
+  {
+    "source_reference": "Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/Dosar Achizitie/07_Anexa7_Contract_furnizare_produse_DANCOR_WM-ATV-033.docx",
+    "status": "copiat",
+    "saved_path": "fisiere/07_Anexa7_Contract_furnizare_produse_DANCOR_WM-ATV-033--5b0e1baf.docx",
+    "bytes": 1269657,
+    "sha256": "e1cbec7541ea6477e1236cb4945b5a9a31a11263b79dfb09f2ce3427a8c8b9e8"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/Dosar Achizitie/OFERTA_WM-ATV-015_DANCOR-PROIECT_SRL.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/OFERTA_WM-ATV-015_DANCOR-PROIECT_SRL--d1fcb19c.pdf",
+    "bytes": 86283,
+    "sha256": "d5022a060b92113e400ebd533b47671a43bd40dba13eb32e0423245f239353eb"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/Dosar Achizitie/OFERTA_WM-ATV-016_MARIUS_CODE_WNK_SRL.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/OFERTA_WM-ATV-016_MARIUS_CODE_WNK_SRL--05a805b4.pdf",
+    "bytes": 46915,
+    "sha256": "a238548779e17be0c64a266d2797dab935fb241a2c5af40ff640a31204fffe0c"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/Dosar Achizitie/OFERTA_WM-ATV-017_ARIDE_RIDE_IT_SRL.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/OFERTA_WM-ATV-017_ARIDE_RIDE_IT_SRL--288d0deb.pdf",
+    "bytes": 144543,
+    "sha256": "2c0cda1e6950f35250f9c3ff037cb0ef4a0f516de66b668adde377da65450fd1"
+  },
+  {
+    "source_reference": "https://home.mobile.de/QUADCENTERKRAICHGAU",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://suchen.mobile.de/motorrad/cfmoto-cforce-1000.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://suchen.mobile.de/motorrad/tgb-blade-1000.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://vpic.nhtsa.dot.gov/mid/manufacturer/details/11521",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.cfmoto.ro/atv/cfmoto-cforce-1000-x10-eps-euro5",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.tgb.com.tw/products/atv/blade-1000-lt-eps-evo",
+    "status": "referinta_externa_necopiata"
+  }
+]

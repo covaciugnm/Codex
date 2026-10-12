@@ -1,0 +1,2518 @@
+# Rezultate — Fara titlu
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-42ebb073-a1b5-4522-a626-c92a708eb306",
+  "query": "site.suchen.mobile.de/auto-inserat \"S 400\" \"2021\" \"200.000\" diesel ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.suchen.mobile.de/auto-inserat \"S 400\" \"2021\" \"200.000\" diesel",
+      "site.suchen.mobile.de/auto-inserat \"S 400\" \"2016\" \"Coupé\"",
+      "site.suchen.mobile.de/auto-inserat \"CLS 350\" \"2011\" \"4Matic\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn9search0",
+      "snippet": "Sports Car/Coupe Mercedes-Benz S 400 ... Accident-free • FR 02/2016 • 88,600 km • 270 kW (367 hp) • Petrol ... ## Mercedes-Benz S 400/",
+      "title": "Mercedes-Benz S 400 Coupe gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn9search1",
+      "snippet": "## Mercedes-Benz CLS 350 CDI 4Matic AMG H&K STDHZ AIR LED SHD CAM ... How many gebrauchte Mercedes-Benz CLS 350 aus dem Jahr 2011 are",
+      "title": "Mercedes CLS 350 Gebrauchtwagen aus dem Jahr 2011",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-cls-350-2011.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn9search2",
+      "snippet": "## Mercedes-Benz CLS 350 CDI 4Matic AMG H&K STDHZ AIR LED SHD CAM ... How many Mercedes-Benz CLS aus dem Jahr 2011 are there on",
+      "title": "Mercedes CLS aus dem Jahr 2011 gebraucht bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-2011-cls.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn9search3",
+      "snippet": "How many Mercedes-Benz S 400 Gebrauchtwagen are there on mobile.de? ... * Sports Car/Coupe Mercedes-Benz S 400 ... * 2016 Mercedes-Benz S 400",
+      "title": "Mercedes S 400 gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn9search4",
+      "snippet": "Non accidenté • PI 01/2016 • 81 090 km • 245 kW (333 Ch DIN) • Essence ... ## Mercedes-Benz S 400 3.0 V6 KAT",
+      "title": "Mercedes-Benz S 400 d’occasion en Allemagne | mobile.de",
+      "url": "https://www.mobile.de/fr/car/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.brisk.cz",
+      "ref_id": "turn9search12",
+      "snippet": "2008 - 2016 ... S 400 4-Matic Coupe",
+      "title": "... FOR NEW ENGINES",
+      "url": "https://www.brisk.cz/content/uploads/2025/10/P41-EN_lq.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.de",
+      "ref_id": "turn9search5",
+      "snippet": "## Mercedes-Benz S 400 Coupe 4Matic*AMG Paket*Pano*HUD*Burmester ... 10/2016 ... ## Häufige Fragen zum gebrauchten Mercedes-Benz S 400 als Coupé",
+      "title": "Mercedes-Benz S-Klasse S 400 Coupé gebraucht kaufen - AutoScout24 Deutschland",
+      "url": "https://www.autoscout24.de/lst/mercedes-benz/s-klasse/mt_s-400/bt_coupe?atype=C&search_id=2c9j8ypodt1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn9search6",
+      "snippet": "# Gebraucht 2016 Mercedes S400 367 PS in Silber## S 400 Coupe 4Matic, 2. ... * Ausstattungslinie Coupé",
+      "title": "Gebraucht Mercedes S400 367 PS (2016) in Nordrhein-Westfalen - Jülich - 36.890 € | AutoUncle",
+      "url": "https://www.autouncle.de/de/d/227943957-gebraucht-2016-mercedes-s400-367-ps"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kleinanzeigen.de",
+      "ref_id": "turn9search7",
+      "snippet": "# Mercedes-Benz S400 Coupe 4Matic Automaitc ... * Erstzulassung Juli 2016",
+      "title": "Mercedes-Benz S400 Coupe 4Matic Automaitc in Nordrhein-Westfalen - Emmerich am Rhein | Mercedes Benz S 400 Gebrauchtwagen kaufen | kleinanzeigen.de",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-s400-coupe-4matic-automaitc/3414905217-216-1396"
+    },
+    {
+      "type": "text_result",
+      "domain": "autospot.com.pl",
+      "ref_id": "turn9search8",
+      "snippet": "Mercedes-Benz S 400 Coupe ... 2016",
+      "title": "Mercedes-Benz S 400 Coupe - Auto Spot",
+      "url": "https://autospot.com.pl/oferta/mercedes-benz-s-400-coupe/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn9search9",
+      "snippet": "Gebraucht (2016) Mercedes S400 AMG 367 PS | Guter Preis Coupe 4Matic*AMG Paket*Pano*HU Okt 2016 212.587 km Ausstattungslinie: AMG 3.0L Benzin Coupé Automatik 367 PS",
+      "title": "2016 | Mercedes S400 • Preise ab 23.056 € – 22 Angebote",
+      "url": "https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/y-2016"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.nl",
+      "ref_id": "turn9search10",
+      "snippet": "Mercedes-Benz S400 4MATIC Coupe ... {\"mia\":\"false\",\"leasing\":\"false\",\"seg\":\"sport,upperclass\",\"did\":\"23141171\",\"stmil\":\"198133\",\"gear\":\"A\",\"make\":\"47\",\"stmak\":\"Mercedes-Benz\",\"model\":\"15775\",\"stmod\":\"",
+      "title": "Mercedes-Benz S 400 occasion | Coupé | Zwart | in ZELHEM voor € 42.500",
+      "url": "https://www.autoscout24.nl/aanbod/mercedes-benz-s-400-coupe-4matic-2016-black-benzine-zwart-34599e15-7446-4236-b716-81e5800e5adc"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn9search13",
+      "snippet": "Zum Marktstart im Januar 2011 gab es zwei Motoren: Zum einen der überarbeitete und stärkere V6-Dieselmotor CLS 350 CDI BlueEFFICIENCY mit 195kW (265 PS), den",
+      "title": "Mercedes-Benz Baureihe 218",
+      "url": "https://de.wikipedia.org/wiki/Mercedes-Benz_Baureihe_218"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.otomoto.pl",
+      "ref_id": "turn9search11",
+      "snippet": "Mercedes-Benz Klasa S Coupe | 2016 | 4MATIC | 367 KM I Pakiet AMGNa sprzedaż oferuję wyjątkowe coupe – Mercedes-Benz Klasa S w wersji 400",
+      "title": "Używany Mercedes-Benz Klasa S 2016 - 215 900 PLN, 39 900 km - Otomoto.pl",
+      "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-klasa-s-ID6IezuV.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ryansautomotive.ie",
+      "ref_id": "turn9search14",
+      "snippet": "MERCEDES-BENZ GASOLINE CLASSE S CABRIOLET (A217) 63 AMG 4MATIC (450 kw) (- - -) - - - FSCU (CAN) (2016-) ... MERCEDES-BENZ GASOLINE CLASSE S",
+      "title": "• RELEASE 186: SPECIAL FUNCTIONS",
+      "url": "https://www.ryansautomotive.ie/wp-content/uploads/2020/01/Release-186-Cars-CT-Special-Functions-ENG.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mef.gob.pe",
+      "ref_id": "turn9search15",
+      "snippet": "<th>2016</th> ... <tr><td>A4</td><td>MERCEDES BENZ</td><td>E 400 COUPE</td><td>E 400 COUPE</td><td>285 530</td><td>256 980</td><td>228 420</td></tr> ... <tr><td>A4</td><td>MERCEDES BENZ</td><td></td><",
+      "title": "Publicacion Oficial - Diario Oficial El Peruano",
+      "url": "https://www.mef.gob.pe/es/por-instrumento/resolucion-ministerial/16990-resolucion-ministerial-n-004-2018-ef-15/file"
+    },
+    {
+      "type": "text_result",
+      "domain": "autorevue.at",
+      "ref_id": "turn9search16",
+      "snippet": "Marke | Leistung | Preis | 2020 | 2019 | 2018 | 2017 | 2016 ... (S 400 d Lang) | 250/340 | (112.450) |",
+      "title": "preisliste | NEU- UND GEBRAUCHTWAGEN",
+      "url": "https://autorevue.at/files/uploads/2022/08/autorevue_Preisliste.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "autospot.com.pl",
+      "ref_id": "turn9search17",
+      "snippet": "coupe ... 12/19/2016 ... Auto-dimming mirrors ... Driver settings memory (Driver's seat, mirrors, steering column)",
+      "title": "MERCEDES-BENZ S 400 COUPE",
+      "url": "https://autospot.com.pl/AutoSpot_oferta_en.php?id=844"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mef.gob.pe",
+      "ref_id": "turn9search18",
+      "snippet": "D 90 NORMAS LEGALES | | | | Domingo | o 7 de ene | | --- | --- | --- | --- | ---",
+      "title": "Firmado Digitalmente por:",
+      "url": "https://www.mef.gob.pe/es/normatividad-sp-9322/por-instrumento/resoluciones-ministeriales/16991-resolucion-ministerial-n-004-2018-ef-15-1/file"
+    },
+    {
+      "type": "text_result",
+      "domain": "it.wikipedia.org",
+      "ref_id": "turn9search19",
+      "snippet": "Nella primavera del 2011 si ha l'arrivo della CLS 500 V8, equipaggiata dal V8 da 4,7 litri biturbo in grado di erogare una potenza massima",
+      "title": "Mercedes-Benz C218",
+      "url": "https://it.wikipedia.org/wiki/Mercedes-Benz_C218"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn9search20",
+      "snippet": "CLS 63 AMG S 4MATIC | 2013–2018 | at 5,500 rpm | 3.6 s ... CLS 350 CDI BlueEFFICIENCY | 2011–2014 | OM642 DE30",
+      "title": "Mercedes-Benz CLS-Class (C218)",
+      "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLS-Class_%28C218%29"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-08c420c0-5cce-40b8-9c5d-b00181be94c4",
+  "query": "site.suchen.mobile.de \"S 400 d\" \"2021\" \"200.000\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.suchen.mobile.de \"S 400 d\" \"2021\" \"200.000\"",
+      "site.suchen.mobile.de \"S 400 d\" \"2021\" \"180.000\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.polovniautomobili.com",
+      "ref_id": "turn12search0",
+      "snippet": "Image: Mercedes Benz S 400 S 400 D 4 MATIC LONG, 2021. godište, Limuzina, Dizel, 2925 cm3, vozilo prešlo 180000 km, Cena 73.000 €",
+      "title": "Mercedes Benz S 400 S 400 D 4 MATIC LONG | Polovni Automobili",
+      "url": "https://www.polovniautomobili.com/auto-oglasi/30386035/mercedes-benz-s-400-s-400-d-4-matic-long?paPage=srchpg&paPageNo=1&paPromo=true&paSection=srch&paSerial=11"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.otomoto.pl",
+      "ref_id": "turn12search1",
+      "snippet": "Używany · 2021 ... Image: Mercedes-Benz Klasa S 400 d 4-Matic L AMG Line 9G-TRONIC - 1 ... Gwarancja fabryczna do 200.000 km lub października",
+      "title": "Używany Mercedes-Benz Klasa S 2021 - 385 000 PLN, 165 000 km - Otomoto.pl",
+      "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-klasa-s-ID6I534H.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn12search2",
+      "snippet": "Mercedes-Benz S 400d 4 MATIC L - AMG Line - MB Garantie 79.900 €●●●●● Super Preis Finanzierung möglich ab 1063€ finanzieren ↗Diesel330 PS (243 kW)36.647",
+      "title": "Mercedes-Benz S 400 in Bielefeld gebraucht • 60 Angebote vor Ort",
+      "url": "https://www.12gebrauchtwagen.de/stadt/bielefeld/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "joautok.hu",
+      "ref_id": "turn12search3",
+      "snippet": "## Mercedes-Benz S 400 ... ### d L 4Matic 9G-TRONIC / Garancia / Amg line / Premium plus / Masszázs / ... Kérjük megtekintés előtt",
+      "title": "Eladó Mercedes-Benz S-osztály - S 400 | d L 4Matic 9G-TRONIC / Garancia / Amg line / Premium plus / Masszázs / - JóAutók.hu",
+      "url": "https://joautok.hu/elado/hasznalt/mercedes-benz/s-400/-d-l-4matic-9g-tronic-garancia-amg-line-premium-plus-masszazs-/100355816"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.otomoto.pl",
+      "ref_id": "turn12search4",
+      "snippet": "Gwarancja producenta do 30/09/2027 lub 200.000 km !!!!!!!!! ... # Mercedes-Benz Klasa S 400 d 4-Matic L AMG Line 9G-TRONICUżywany · 2021",
+      "title": "Używany Mercedes-Benz Klasa S 2021 - 399 000 PLN, 66 800 km - Otomoto.pl",
+      "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-klasa-s-ID6Ih3ib.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kleinanzeigen.de",
+      "ref_id": "turn12search5",
+      "snippet": "180.000 km EZ 10/2021 ... ### Mercedes-Benz S 400 d 4MATIC AMG Garantie BLP 180.651€ Burmest",
+      "title": "Mercedes S 400 Amg, Gebrauchtwagen Seite 2 | kleinanzeigen.de",
+      "url": "https://www.kleinanzeigen.de/s-autos/seite%3A2/mercedes-s-400-amg/k0c216"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autovit.ro",
+      "ref_id": "turn12search6",
+      "snippet": "Mercedes-Benz S 400 d 4MATIC Long – 2022 ... 180.000 € ... W223 [2021 - Prezent]",
+      "title": "Utilizat Mercedes-Benz S 2022 - 96 000 EUR, 29 900 km - Autovit.ro",
+      "url": "https://www.autovit.ro/autoturisme/anunt/mercedes-benz-s-ver-400-d-4matic-long-ID7HKjLn.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.trovit.com",
+      "ref_id": "turn12search7",
+      "snippet": "* Foto anschauen Mercedes-benz s 400 d amg 4matik hud pano distronic burmester 32.990 € 32758, Detmold, Kreis Lippe, Land Nordrhein-Westfalen 2018 200.000 Km Mercedes-benz",
+      "title": "2 Mercedes 400 Gebrauchtwagen in Kreis Lippe - Trovit",
+      "url": "https://de.trovit.com/autos/mercedes-400-kreis-lippe"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn12search8",
+      "snippet": "## Sponsorizat NOU Mercedes-Benz S 400 S400 D 4MATIC/Lang/AMG/Brabus D40/Exklusiv/Top!! ... Fără accidente • Prima înmatriculare 07/2021 • 156.720 km • 243 kW (330 CP)",
+      "title": "Mercedes-Benz S 400 Transmisie automată second hand în Germania | mobile.de",
+      "url": "https://www.mobile.de/ro/car/mercedes-benz/s-400/tr_automatic"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.tipcars.sk",
+      "ref_id": "turn12search9",
+      "snippet": "x24 v detailu inzerce x24 Mercedes-Benz Triedy S novinka na serveri 70 466 EUR možnosť odpočtu DPH S 400 d 4MATIC 2021 106 tkm 243",
+      "title": "Vozy Mercedes-Benz Triedy S nafta | bazar a prodej vozů | TipCars.com",
+      "url": "https://www.tipcars.sk/mercedes-benz-triedy-s/nafta/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn12search10",
+      "snippet": "Langlebige Fahrzeuge laufen bis zu 308.000 km und es sind Angebote ab 200.000 km gelistet. ... Mercedes-Benz S 400 d 4MATIC L AMG Line 57.100",
+      "title": "Mercedes-Benz S 400 in Mannheim gebraucht • 61 Angebote vor Ort",
+      "url": "https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "olx.ba",
+      "ref_id": "turn12search11",
+      "snippet": "Poruka Poruka Poruka Poruka Poruka Poruka Poruka Poruka Poruka Poruka Poruka Poruka Poruka Poruka Mercedes-Benz S 400 / S 400 / Mercedes S 400 d",
+      "title": "Pretraga za Automobili",
+      "url": "https://olx.ba/pretraga?kategorija=1487&sort_order=ASC&sort_po=datum&trazilica=s+mercedes"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn12view0",
+      "snippet": "Total lines: 1528",
+      "title": "Mercedes-Benz S 400 Coupe gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn12view1",
+      "snippet": "Total lines: 1403",
+      "title": "Mercedes CLS 350 Gebrauchtwagen aus dem Jahr 2011",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-cls-350-2011.html"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-654e369e-b000-4cc5-8537-c998f7150652",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$r=Invoke-WebRequest -Uri '\"'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html' -UseBasicParsing; \"'$s=$r.Content; [regex]::Matches($s,'\"'.{0,150}details.html.{0,200}') | Select-Object -First 4 | ForEach-Object {\"'$_.Value}'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "62756",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$r=Invoke-WebRequest -Uri 'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html' -UseBasicParsing; $s=$r.Content; [regex]::Matches($s,'.{0,150}details.html.{0,200}') | Select-Object -First 4 | ForEach-Object {$_.Value}"
+    }
+  ],
+  "aggregatedOutput": "Invoke-WebRequest: \r\nLine |\r\n   2 |  $r=Invoke-WebRequest -Uri 'https://suchen.mobile.de/auto/mercedes-ben …\r\n     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Authentication failed, see inner exception.\r\n",
+  "exitCode": 0,
+  "durationMs": 362
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f9927b5a-ce6e-433d-8323-f5aeddf73c0b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"curl.exe -k -L 'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html' --max-time 30 -s | Select-String -Pattern 'details.html' | ForEach-Object { [regex]::Matches(\"'$_.Line,'\"'.{0,50}details.html.{0,160}') | Select-Object -First 5 | ForEach-Object {\"'$_.Value} }'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "51999",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "curl.exe -k -L 'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html' --max-time 30 -s | Select-String -Pattern 'details.html' | ForEach-Object { [regex]::Matches($_.Line,'.{0,50}details.html.{0,160}') | Select-Object -First 5 | ForEach-Object {$_.Value} }"
+    }
+  ],
+  "aggregatedOutput": "curl.exe: \r\nLine |\r\n   2 |  curl.exe -k -L 'https://suchen.mobile.de/auto/mercedes-benz-s-400-cou …\r\n     |  ~~~~~~~~\r\n     | The term 'curl.exe' is not recognized as a name of a cmdlet, function, script file, or executable program.\r\nCheck the spelling of the name, or if a path was included, verify that the path is correct and try again.\r\n",
+  "exitCode": 1,
+  "durationMs": 265
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-129f1a7a-9747-4bc7-a49f-940ff682c9f4",
+  "query": "site.mobile.de \"CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt\" \"16.660\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.mobile.de \"CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt\" \"16.660\"",
+      "site.mobile.de \"S 400\" \"2021\" \"216.000\"",
+      "site.mobile.de \"S 400\" \"Coupe*4Matic*Pano*Burmester*Nachtsicht*360\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn18search0",
+      "snippet": "## Sponsored Mercedes-Benz S 400 Coupe 4Matic*AMG Paket*Pano*HUD*Burmester ... ## Mercedes-Benz S 400 Coupe*4Matic*Pano*Burmester*Nachtsicht*360",
+      "title": "Mercedes-Benz S 400 Coupe gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn18search1",
+      "snippet": "Image: Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt ... 16.660 €¹",
+      "title": "A&Z Autohandel in Crailsheim",
+      "url": "https://home.mobile.de/AZAUTOHANDELCRAILSHEIM"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn18search2",
+      "snippet": "## Mercedes-Benz S 400 4Matic ILS/Burmester/Fahrdyn.Sitze/360°Kam ... ## Mercedes-Benz S 400 d 4MATIC AMG Line 360 Pano AMG Line ... ## Mercedes-Benz S 400 Coupe",
+      "title": "Mercedes S 400 Gebrauchtwagen aus dem Jahr 2017",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-2017.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.de",
+      "ref_id": "turn18search3",
+      "snippet": "## Mercedes-Benz CLS 350CDI 4MATIC BlueEFFICIENCY TOP gepflegt ... € 16.660 inkl.",
+      "title": "Aktuelle Fahrzeuge von A&Z Autohandel in Crailsheim | AutoScout24",
+      "url": "https://www.autoscout24.de/haendler/a-und-z-autohandel"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn18search4",
+      "snippet": "Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt 16.660 €●●●●● Super Preis Finanzierung möglich ab 202€ finanzieren ↗Diesel265 PS (195 kW)133.000 kmEZ 12/2011Automatik4 Türen 74564",
+      "title": "Mercedes-Benz CLS 350 in Aalen gebraucht • 71 Angebote vor Ort",
+      "url": "https://www.12gebrauchtwagen.de/stadt/aalen/mercedes-benz/cls-350"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn18search5",
+      "snippet": "Image: Mercedes-Benz S 400 COUPE 4 MATIC*NAPPA*COMAND WIDE*PANO*LED* - Mercedes-Benz S-Class in Stuttgart ... Image: Mercedes-Benz S 400 4Matic ILS/Burmester/Fahrdyn.Sitze/360°Kam - Mercedes-Benz S-Cl",
+      "title": "Mercedes-Benz S-Klasse Stuttgart | Buy a Car at mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-klasse-gebrauchtwagen-stuttgart.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn18search6",
+      "snippet": "S 400d 4Matic|AMG|PANO|Burmester| ... ## Mercedes-Benz S 400 d 4MATIC - Lang* AMG*BURM*MBEA*360*MASSAM*",
+      "title": "Mercedes-Benz S 400 in schwarz gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-schwarz.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn18search7",
+      "snippet": "## Sponsored Mercedes-Benz S 500 4Matic\"Pano\"Burmester\"360°\"Designo\" ... ## Sponsored Mercedes-Benz S 63 AMG Coupe 4Matic+ Magic Sky Softclose 360° ... ## Sponsored Mercedes-Benz S 400",
+      "title": "Mercedes-Benz S-Klasse 4matic gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-klasse-4matic.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn18search8",
+      "snippet": "## Mercedes-Benz S 500 COUPE 4M AMG-LINE/DIST+/HuD/PANO/NACHT/360 ... ## Mercedes-Benz S 400 COUPÉ 4-MATIC AMG-PACKET/BURMESTER/HEAD-UP",
+      "title": "Mercedes-Benz Clasa S Coupe second hand în Germania | mobile.de",
+      "url": "https://www.mobile.de/ro/automobil/mercedes-benz-clasa-s-coupe/vhc%3Acar%2Cms1%3A17200_-16_coupe"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.theparking.eu",
+      "ref_id": "turn18search9",
+      "snippet": "kleinanzeigen.de mobile.de * ## Mercedes S-class S 400 4MATIC ... coupe*4matic*pano*burmester*nachtsicht*360",
+      "title": "mercedes s 400 gasoline germany used – Search for your used car on the parking",
+      "url": "https://www.theparking.eu/used-cars/mercedes-s-400-gasoline-germany.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn18search10",
+      "snippet": "## Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt ... Image: mobile.de logo16.660 €",
+      "title": "Mercedes Benz CLS 350 Diesel kaufen | Gebrauchtwagen in Deutschland suchen & finden",
+      "url": "https://auto.meinestadt.de/deutschland/gebrauchtwagen-azl/100-171726-172223-172413"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn18search11",
+      "snippet": "Image: mobile.de logo ... * Image: Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt ... 16.660 €",
+      "title": "Mercedes-Benz CLS 350 Coupé in Abenberg kaufen",
+      "url": "https://auto.meinestadt.de/abenberg/automarkt/100-154574-155818-487"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.westrom.nl",
+      "ref_id": "turn18search12",
+      "snippet": "2022 € 2 1 6. 000,- (betreft Al gemeen Bezotd ig ingsmaxi mu m). ... € 216.000€ s.400",
+      "title": "+ westrom\nJ [', f,R S 1- tJ l{ l{t= l'{\nn\n/- 022\nA",
+      "url": "https://www.westrom.nl/images/downloads/Jaarstukken%202022.pdf"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5a7fb6d1-58a9-4cfd-a3b9-04088ec6617e",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$r=Invoke-WebRequest -Uri '\"'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html' -SkipCertificateCheck; [regex]::Matches(\"'$r.Content,'\"'.{0,100}details.html.{0,200}') | Select-Object -First 8 | ForEach-Object {\"'$_.Value}'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "74008",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$r=Invoke-WebRequest -Uri 'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html' -SkipCertificateCheck; [regex]::Matches($r.Content,'.{0,100}details.html.{0,200}') | Select-Object -First 8 | ForEach-Object {$_.Value}"
+    }
+  ],
+  "aggregatedOutput": "Invoke-WebRequest: \r\nLine |\r\n   2 |  $r=Invoke-WebRequest -Uri 'https://suchen.mobile.de/auto/mercedes-ben …\r\n     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Authentication failed, see inner exception.\r\n",
+  "exitCode": 0,
+  "durationMs": 373
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-371a3566-5911-4c52-b561-bd53b106fcb3",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn23view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn23view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn23view2",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-47d1586c-a6f9-48cc-908d-bd8fa7f78c76",
+  "query": "\"S 400\" \"2021\" \"57.100\" mobile ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"S 400\" \"2021\" \"57.100\" mobile",
+      "\"CLS 350\" \"133.000\" \"suchen.mobile.de/fahrzeuge\"",
+      "\"S 400\" \"34.950\" \"Autosalon Essen\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn26search0",
+      "snippet": "Mercedes-Benz S 400 d 4MATIC L AMG Line 57.100 €●●●○○ Fairer Preis Finanzierung möglich ab 696€ finanzieren ↗Diesel330 PS (243 kW)216.000 kmEZ 08/2021Automatik4 Türen 63110",
+      "title": "Mercedes-Benz S 400 in Mannheim gebraucht • 61 Angebote vor Ort",
+      "url": "https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.lu",
+      "ref_id": "turn26search1",
+      "snippet": "## Mercedes-Benz S 400 Classe S - Maximum 4matic auto ... € 34.950 ... Autosalon Essen DE-45141 Essen",
+      "title": "Acheter une Mercedes-Benz S 400 de 2016 d'occasion sur AutoScout24",
+      "url": "https://www.autoscout24.lu/lst/mercedes-benz/s-400/re_2016"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn26search2",
+      "snippet": "## Sponsorlu YENİ Mercedes-Benz S 400 Coupe 4Matic*AMG Paket*Pano*HUD*Burmester€34.950 ... Autosalon Essen DE-45141 Essen",
+      "title": "Almanya’da ikinci el Mercedes-Benz S 400 Otomatik vites | mobile.de",
+      "url": "https://www.mobile.de/tr/car/mercedes-benz/s-400/tr_automatic"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn26search3",
+      "snippet": "Image: Gebraucht Mercedes S400 AMG line 330 PS (242 kW) 2021 Schwarz Limousine ... Gebraucht (2021) Mercedes S400 AMG line 330 PS | Fairer Preis",
+      "title": "AMG line | Mercedes S400 – 112 gebrauchte Autos ab 34.745 €",
+      "url": "https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn26search4",
+      "snippet": "## Mercedes-Benz S 400 d 4MATIC L AMG Line ... 8/2021 ... 57.100 €",
+      "title": "Mercedes-Benz S 400 Limousine in Großenlüder kaufen",
+      "url": "https://auto.meinestadt.de/grossenlueder/automarkt/100-154574-155818-609"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn26search5",
+      "snippet": "Bob Automotive(2021) Jaguar I-Pace S 400 PS 22.888 €Superpreis Spare 3.612 €45770 Marl, Nordrhein-Westfalen CO2-Klasse: A - 0 g CO2/km komb. - 294 kW (400",
+      "title": "Seite 2 von 2: Jaguar | Heiligenhaus – Die 25 besten Händler-Angebote in deiner Nähe • Ab 9.616 €",
+      "url": "https://www.autouncle.de/de/gebrauchtwagen/Jaguar/in/Nordrhein-Westfalen/Heiligenhaus?page=2"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn26search6",
+      "snippet": "* ●●●●● Super Preis: 31.590 € zu 57.842 € ... S 400 Mercedes-Benz S400 d 4Matic AMG 21 BURMESTER PANO FULL 58.980 €●●●○○ Fairer Preis",
+      "title": "Mercedes-Benz S-Klasse in Fürth gebraucht • 619 Angebote vor Ort",
+      "url": "https://www.12gebrauchtwagen.de/stadt/fuerth/mercedes-benz/s-klasse"
+    },
+    {
+      "type": "text_result",
+      "domain": "pt.scribd.com",
+      "ref_id": "turn26search7",
+      "snippet": "I/[Link] S 400 HYBRID 0161910ON 153.870 141.120 - - - - - - - - ... I/[Link] SLK230K 0149291ON - - - - - -",
+      "title": "Tabela IPVA 2021: Valores Veículos MG | PDF | Fabricantes de automóveis | Veículos",
+      "url": "https://pt.scribd.com/document/817298498/Base-de-Calculo-2021-11-a-20-Anos"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn26search8",
+      "snippet": "* Kilometerzähler: 100 km ... Mercedes-Benz S 400 d 4MATIC 66.999 €●○○○○ Hoher Preis Finanzierung möglich ab 882€ finanzieren ↗Diesel330 PS (243 kW)210.000 kmEZ 11/2021Automatik4",
+      "title": "Mercedes-Benz S-Klasse in Osnabrück gebraucht • 435 Angebote vor Ort",
+      "url": "https://www.12gebrauchtwagen.de/stadt/osnabrueck/mercedes-benz/s-klasse"
+    },
+    {
+      "type": "text_result",
+      "domain": "leasingsh.ro",
+      "ref_id": "turn26search9",
+      "snippet": "Mercedes-Benz S 400 S Limousine 4Matic L AMG 2021 Clasa S 119.000 km Diesel 2.925 cm³ 330 CP Cutie automată 89.115 EUR MER207614 73.649 EUR",
+      "title": "Leasing Auto: 35.435 mașini rulate și noi - LeasingSH.ro",
+      "url": "https://leasingsh.ro/oferte?_rsc=PO_JLiMZTHXt46WJ&pag=746"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn26search10",
+      "snippet": "Mercedes-Benz S 400 d 4M lang AMG/21\"/Fahrass+/Pano/Exklusiv 81.990 €●●●○○ Fairer Preis Finanzierung möglich ab 1106€ finanzieren ↗Diesel330 PS (243 kW)60.967 kmEZ 08/2021Automatik4 Türen 10587 Berlin",
+      "title": "Mercedes-Benz S-Klasse in Berlin gebraucht • 308 Angebote vor Ort",
+      "url": "https://www.12gebrauchtwagen.de/stadt/berlin/mercedes-benz/s-klasse"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.4motori.com",
+      "ref_id": "turn26search11",
+      "snippet": "* Mercedes S 400 d Business 118.258 euro ... Disponibile a trazione anteriore o integrale, ha una gamma motori composta da nove unità turbo: cinque",
+      "title": "2021 Giugno | 4motori",
+      "url": "https://www.4motori.com/?m=202106"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn26view0",
+      "snippet": "Total lines: 247",
+      "title": "A&Z Autohandel in Crailsheim",
+      "url": "https://home.mobile.de/AZAUTOHANDELCRAILSHEIM"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn26view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_UDdCyiwTns5sK9NRhjc4EHZo",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-e21ab2ac-c7b9-4b5a-a1eb-ea73872bde03",
+  "query": "https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn29view0",
+      "snippet": "Total lines: 1003",
+      "title": "AMG line | Mercedes S400 – 105 gebrauchte Autos ab 34.698 €",
+      "url": "https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn29view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn29view2",
+      "snippet": "Total lines: 247",
+      "title": "A&Z Autohandel in Crailsheim",
+      "url": "https://home.mobile.de/AZAUTOHANDELCRAILSHEIM"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-eade464e-3afb-4124-a612-dc983616bda9",
+  "query": "'216.000'",
+  "action": {
+    "type": "findInPage",
+    "url": null,
+    "pattern": "216.000"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn33view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn33view1",
+      "snippet": "Total lines: 1003",
+      "title": "AMG line | Mercedes S400 – 105 gebrauchte Autos ab 34.698 €",
+      "url": "https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6c68062e-dca5-42b2-a46e-b5788ef290e3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-Command node | Select-Object -ExpandProperty Source'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "73173",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Command node | Select-Object -ExpandProperty Source"
+    }
+  ],
+  "aggregatedOutput": "C:\\Program Files\\nodejs\\node.exe\r\n",
+  "exitCode": 0,
+  "durationMs": 165
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-bff2103d-251e-443d-8870-58399a72db97",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://home.mobile.de/AZAUTOHANDELCRAILSHEIM').then(r=>r.text()).then(t=>{let i=t.indexOf('446559313');console.log(t.slice(i-500,i+1000)); console.log(t.match(/https[\"'^'\"\\\\\\\" ]+details[\"'^'\"\\\\\\\" ]+/g)?.slice(0,3));})\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "32996",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://home.mobile.de/AZAUTOHANDELCRAILSHEIM').then(r=>r.text()).then(t=>{let i=t.indexOf('446559313');console.log(t.slice(i-500,i+1000)); console.log(t.match(/https[^\\\" ]+details[^\\\" ]+/g)?.slice(0,3));})\""
+    }
+  ],
+  "aggregatedOutput": "[eval]:1\r\nfetch('https://home.mobile.de/AZAUTOHANDELCRAILSHEIM').then(r=>r.text()).then(t=>{let i=t.indexOf('446559313');console.log(t.slice(i-500,i+1000)); console.log(t.match(/https[^\\\r\n                                                                                                                                                                       ^\r\nUnterminated regexp literal\r\n\r\nSyntaxError: Invalid regular expression: missing /\r\n    at makeContextifyScript (node:internal/vm:194:14)\r\n    at compileScript (node:internal/process/execution:388:10)\r\n    at evalTypeScript (node:internal/process/execution:260:22)\r\n    at node:internal/main/eval_string:71:3\r\n\r\nNode.js v24.18.0\r\n",
+  "exitCode": 1,
+  "durationMs": 236
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-ffd88cdb-eb46-411f-8a03-a7617d42b0e9",
+  "query": "site.home.mobile.de \"Autosalon Essen\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.home.mobile.de \"Autosalon Essen\"",
+      "site.mobile.de \"S 400\" \"57100\"",
+      "site.mobile.de \"S 400\" \"57.100\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn36search0",
+      "snippet": "# Autosalon Essen in Essen ... DE-45141 Essen",
+      "title": "Autosalon Essen in Essen",
+      "url": "https://home.mobile.de/AUTOSALONESSEN"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.dasoertliche.de",
+      "ref_id": "turn36search1",
+      "snippet": "https://www.home.mobile.de/AUTOSALON-ESSEN ... Autosalon Essen bietet Autohaus an.",
+      "title": "Autosalon Essen in Essen ⇒ in Das Örtliche",
+      "url": "https://www.dasoertliche.de/Themen/Autosalon-Essen-Essen-Stadtkern-Maxstr"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn36search2",
+      "snippet": "Antwort von Autosalon Essen ... Antwort von Autosalon Essen ... Ab sofort gibt es bei mobile.de eine Händlerbewertung, die dir einen schnellen Überblick über den",
+      "title": "Autosalon Essen | Rezensionen & Bewertungen | 45141 Essen",
+      "url": "https://www.mobile.de/bewertungen/AUTOSALONESSEN?showTotal=true"
+    },
+    {
+      "type": "text_result",
+      "domain": "ir-api.eqs.com",
+      "ref_id": "turn36search12",
+      "snippet": "insgesamt 57.100 (i.V. ... S 400 HYBRID unsere Erwartungen deutlich übertroffen.",
+      "title": "Jahresfinanzbericht 2009",
+      "url": "https://ir-api.eqs.com/media/document/25dac470-80b4-44e3-8fe8-65e60f7235cd/assets/DE0007100000-JA-2009-EQ-D-00.pdf?disposition=inline"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autobranche.org",
+      "ref_id": "turn36search3",
+      "snippet": "Email: autosalon-essen@mobile.de",
+      "title": "Autosalon Essen | Autobranche.org",
+      "url": "https://www.autobranche.org/autohaendler-verzeichnis/autosalon-essen/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.motor-talk.de",
+      "ref_id": "turn36search4",
+      "snippet": "Nachdem mir der Händler vorab telefonisch versichert hat, dass alles mit dem Auto in Ordnung sei, lediglich der linke hintere Heckflügel wg. einem Blechschaden ausgetauscht",
+      "title": "Warnung vor BMW Unfallauto Händler: Auto-Zentrum-Essen - Seite 11 -... | MOTOR-TALK",
+      "url": "https://www.motor-talk.de/forum/warnung-vor-bmw-unfallauto-haendler-auto-zentrum-essen-t3930090.html?page=10"
+    },
+    {
+      "type": "text_result",
+      "domain": "branchenbuch.meinestadt.de",
+      "ref_id": "turn36search5",
+      "snippet": "# Autosalon Essen ... Autosalon Essen",
+      "title": "Autosalon Essen in Essen 45141 | Graf-Beust-Allee 3 | meinestadt.de",
+      "url": "https://branchenbuch.meinestadt.de/essen-ruhr/company/502054124"
+    },
+    {
+      "type": "text_result",
+      "domain": "innovativeworker.economistjurist.es",
+      "ref_id": "turn36search13",
+      "snippet": "| MERCEDES | S-400 CDI CORTO | 3.996 | 6 | 250 CV DIESEL | 23,73 | 61.300 | ... | MERCEDES | S-420 (W",
+      "title": "BOE 305 de 22/12/2003 Sec 1 Pag 45429 a. 45549",
+      "url": "https://innovativeworker.economistjurist.es/BDI/legislacion/legislaciongeneral/descargarorg.php?cod=BOE-A-2003-23458"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.dasoertliche.de",
+      "ref_id": "turn36search6",
+      "snippet": "## Autopark Altenessen ... ## Autosalon Essen ... ## Autowelt van Eupen GmbH",
+      "title": "PKW in Essen Seite 5 ⇒ in Das Örtliche",
+      "url": "https://www.dasoertliche.de/Themen/PKW/Essen-Seite-5.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ecoimport.pt",
+      "ref_id": "turn36search7",
+      "snippet": "Um S 400 d 4Matic novo em Portugal começa nos 145.000€. ... * POUPANÇA: 57.100€",
+      "title": "Quanto Poupa Ao Importar Um Mercedes Classe S da Alemanha em 2026 - EcoImport",
+      "url": "https://ecoimport.pt/quanto-poupa-importar-mercedes-classe-s-2026/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn36search8",
+      "snippet": "Insgesamt wird das Autohaus von der großen Mehrheit der Käufer klar weiterempfohlen. ... mobile.de user ... Ich empfehle diesen Autosalon, ein fantastisches Erlebnis bei [Rhein-Ruhr].",
+      "title": "Rhein-Ruhr-Service und Handel UG (haftungsbeschränkt) | Reviews & Ratings | 45141 Essen",
+      "url": "https://www.mobile.de/bewertungen/RheinRuhrServiceundHandelUG"
+    },
+    {
+      "type": "text_result",
+      "domain": "mintransporte.gov.co",
+      "ref_id": "turn36search14",
+      "snippet": "15904603 | AUTOMOVILES | AUTOMOVIL | MERCEDES BENZ | S 400 | 2996 | CAPACIDAD (6) 0 | 0 | AÑO MODELO (7) 44930 |",
+      "title": "MINISTERIO DE TRANSPORTE",
+      "url": "https://mintransporte.gov.co/loader.php?idFile=30856&lFuncion=exposeDocument&lServicio=Tools2&lTipo=descargas&tmp=adbb2b9dfe86fafa4e24a47be0921e5a&urlDeleteFunction=https%3A%2F%2Fmintransporte.gov.co%2Floader.php%3FlServicio%3DTools2%26lTipo%3Ddescargas%26lFuncion%3DdeleteTemporalFile%26tmp%3Dadbb2b9dfe86fafa4e24a47be0921e5a"
+    },
+    {
+      "type": "text_result",
+      "domain": "cs.amklassiek.nl",
+      "ref_id": "turn36search9",
+      "snippet": "Veletrhy, dny veteránů a výstavy Auto je Onderdelen ... Autosalon Essen Motor Show 2026 se koná od 28. listopadu do 6. prosince 2026 na veletrhu",
+      "title": "Essen Motor Show 2026 in Essen | data en | Auto Motor Klassiek",
+      "url": "https://cs.amklassiek.nl/ud%C3%A1lost/Autosalon-v-Essenu-2026/?amk_back=https%3A%2F%2Famklassiek.nl%2Foldtimer-evenementen-kalender%2F%3Famk_events_page%3D3"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kleinanzeigen.de",
+      "ref_id": "turn36search10",
+      "snippet": "57.100 € ... ### Mercedes-Benz S 400 Hybrid*startet-nicht*",
+      "title": "Euro Klima Abs, Autos | kleinanzeigen.de",
+      "url": "https://www.kleinanzeigen.de/s-autos/euro-klima-abs/k0c216%2Bautos.material_innenausstattung_s%3Avolleder"
+    },
+    {
+      "type": "text_result",
+      "domain": "webex.in.ua",
+      "ref_id": "turn36search11",
+      "snippet": "# Autosalon Essen ... MOBILE: +49 (0)1575 5364598",
+      "title": "Autosalon Essen",
+      "url": "https://webex.in.ua/seller/287312-Autosalon_Essen.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.zougla.gr",
+      "ref_id": "turn36search15",
+      "snippet": "<tr><td>E 250 (Auto)</td><td>211</td><td>155</td><td>1,991</td><td>212.036</td><td>57.100</td><td>839</td></tr> ... <tr><td>S 400 Hybrid Long (Auto)</td><td>306</td><td>225</td><td>3,498</td><td>222.1",
+      "title": "MB Pricelist_21 07 2014",
+      "url": "https://www.zougla.gr/Uploads/old_root/AutoMoto_2/_PDF/MB%20Pricelist_21%2007%202014.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "opendata2.uni-halle.de",
+      "ref_id": "turn36search16",
+      "snippet": "180000 9 398 571 757 80 [400] 810 [400] 9064 69 181066 229 ... 6880 55771 936 00 56805 6569 801 57614 845 904 5808s5",
+      "title": "Landeszeitung für die Provinz Sachſen",
+      "url": "https://opendata2.uni-halle.de/retrieve/d2bb7608-3ba2-4239-93a9-57812d3e199a/16872166X191110152.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.iustel.com",
+      "ref_id": "turn36search17",
+      "snippet": "<tr><td>MERCEDES</td><td>S 400 CDI Largo 250cv (W220)</td><td>2002 - 2005</td><td>3997</td><td>8</td><td>D</td><td>184</td><td>26,63</td><td></td><td>250</td><td>79.100</td></tr> ... <tr><td>MERCEDES<",
+      "title": "Binder1.pdf",
+      "url": "https://www.iustel.com/contenidos/imagenes/027391.%20Imagen%201.pdf"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-4ad5aa73-d483-4fcb-9ec0-462bb7f878a4",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfetch('https://home.mobile.de/AZAUTOHANDELCRAILSHEIM').then(r=>r.text()).then(t=>{let i=t.indexOf('446559313');console.log(t.slice(i-300,i+1800));});\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "16579",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfetch('https://home.mobile.de/AZAUTOHANDELCRAILSHEIM').then(r=>r.text()).then(t=>{let i=t.indexOf('446559313');console.log(t.slice(i-300,i+1800));});\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "Container\"><a class=\"FinancingAndLeasingBadges-module__-JYsuW__financingAndLeasingBadge FinancingAndLeasingBadges-module__-JYsuW__tooltip FinancingAndLeasingBadges-module__-JYsuW__clickable\" data-tooltip=\"60 Monate, 3.332,00 € Anzahlung\" href=\"https://www.mobile.de/finanzierung/route/outlink/1?adId=446559313&amp;placement=dhp-srp-rates&amp;downPayment=3332&amp;loanDuration=60&amp;abtest=cos-dhp-aa%3Av1&amp;abtest=cos-qct-dhp-contact%3Av1\" rel=\"noopener noreferrer\" target=\"_blank\">Finanzierung ab<!-- --> <span class=\"FinancingAndLeasingBadges-module__-JYsuW__rate\">177 €</span> <!-- -->mtl.</a></div></div></div><div class=\"BaseListing-module___BHaBW__bottomMiddle\"><section class=\"BaseListing-module___BHaBW__listingAvailability\" data-testid=\"listing-details\"><div class=\"BaseListing-module___BHaBW__listingAttributeLine typography-module__luTpGq__copy\" data-testid=\"listing-details-attributes\"><div class=\"\">EZ 12/2011<!-- --> • <!-- -->133.000 km<!-- --> • <!-- -->195 kW (265 PS)<!-- --> • <!-- -->Diesel</div></div></section></div><div class=\"BaseListing-module___BHaBW__middle\"><div class=\"ListingActions-module__NsNp5W__container\" data-testid=\"listing-action-buttons\"><button class=\"button-module__6OhV_q__Button button-module__6OhV_q__Button--highlight button-module__6OhV_q__Button--medium\" data-testid=\"listing-action-email\" aria-label=\"E-Mail schreiben\" type=\"button\"><span class=\"button-module__6OhV_q__Button__wrap align-module__Degc5a__align-flex-center\" tabindex=\"-1\"><svg class=\"button-module__6OhV_q__Button__icon button-module__6OhV_q__Button__icon--left svgIcon-module__xaREpW__SvgIcon\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\"><path d=\"M2 4V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V4H2ZM19.5 6L12 11L4.5 6H19.5ZM4 18V8.07L10.89 12.66C11.56 13.11 12.44 13.11 13.11 12.66L20 8.07V18H4Z\" fill=\"currentColor\"></path></svg><span class=\"button-module__6OhV_q__Button__label\" tabindex=\"-1\">Kontakt</span></span></button><button class=\"button-module__6OhV_q__Button button-module__6OhV_q__Bu\n",
+  "exitCode": 0,
+  "durationMs": 899
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f46bce28-6bc6-4d13-a859-a68c00ce57ce",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfor(const u of ['https://home.mobile.de/AZAUTOHANDELCRAILSHEIM','https://home.mobile.de/AUTOSALONESSEN']){let t=await (await fetch(u)).text();console.log(u);for(const m of t.matchAll(/.{0,300}(?:446559313|S 400|212.587).{0,1600}/g))console.log(m[0]);}\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "21702",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfor(const u of ['https://home.mobile.de/AZAUTOHANDELCRAILSHEIM','https://home.mobile.de/AUTOSALONESSEN']){let t=await (await fetch(u)).text();console.log(u);for(const m of t.matchAll(/.{0,300}(?:446559313|S 400|212.587).{0,1600}/g))console.log(m[0]);}\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "https://home.mobile.de/AZAUTOHANDELCRAILSHEIM\nContainer\"><a class=\"FinancingAndLeasingBadges-module__-JYsuW__financingAndLeasingBadge FinancingAndLeasingBadges-module__-JYsuW__tooltip FinancingAndLeasingBadges-module__-JYsuW__clickable\" data-tooltip=\"60 Monate, 3.332,00 € Anzahlung\" href=\"https://www.mobile.de/finanzierung/route/outlink/1?adId=446559313&amp;placement=dhp-srp-rates&amp;downPayment=3332&amp;loanDuration=60&amp;abtest=cos-dhp-aa%3Acontrol&amp;abtest=cos-qct-dhp-contact%3Av1\" rel=\"noopener noreferrer\" target=\"_blank\">Finanzierung ab<!-- --> <span class=\"FinancingAndLeasingBadges-module__-JYsuW__rate\">177 €</span> <!-- -->mtl.</a></div></div></div><div class=\"BaseListing-module___BHaBW__bottomMiddle\"><section class=\"BaseListing-module___BHaBW__listingAvailability\" data-testid=\"listing-details\"><div class=\"BaseListing-module___BHaBW__listingAttributeLine typography-module__luTpGq__copy\" data-testid=\"listing-details-attributes\"><div class=\"\">EZ 12/2011<!-- --> • <!-- -->133.000 km<!-- --> • <!-- -->195 kW (265 PS)<!-- --> • <!-- -->Diesel</div></div></section></div><div class=\"BaseListing-module___BHaBW__middle\"><div class=\"ListingActions-module__NsNp5W__container\" data-testid=\"listing-action-buttons\"><button class=\"button-module__6OhV_q__Button button-module__6OhV_q__Button--highlight button-module__6OhV_q__Button--medium\" data-testid=\"listing-action-email\" aria-label=\"E-Mail schreiben\" type=\"button\"><span class=\"button-module__6OhV_q__Button__wrap align-module__Degc5a__align-flex-center\" tabindex=\"-1\"><svg class=\"button-module__6OhV_q__Button__icon button-module__6OhV_q__Button__icon--left svgIcon-module__xaREpW__SvgIcon\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\"><path d=\"M2 4V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V4H2ZM19.5 6L12 11L4.5 6H19.5ZM4 18V8.07L10.89 12.66C11.56 13.11 12.44 13.11 13.11 12.66L20 8.07V18H4Z\" fi\nd\\\":1791303228,\\\"renewed\\\":1791241048,\\\"version\\\":96,\\\"makeId\\\":17200,\\\"modelId\\\":148,\\\"make\\\":{\\\"id\\\":\\\"17200\\\",\\\"localized\\\":\\\"Mercedes-Benz\\\"},\\\"model\\\":{\\\"id\\\":\\\"148\\\",\\\"localized\\\":\\\"CLS 350\\\"},\\\"financePlans\\\":[{\\\"type\\\":\\\"AO\\\",\\\"url\\\":\\\"https://www.mobile.de/finanzierung/route/outlink/1?adId=446559313\\\",\\\"shortFlow\\\":true,\\\"promotion\\\":false,\\\"showInGallery\\\":false,\\\"offer\\\":{\\\"bankName\\\":\\\"Openbank Deutschland AG\\\",\\\"loanBroker\\\":\\\"Check24 GmbH\\\",\\\"loanType\\\":\\\"BALLOON\\\",\\\"downPayment\\\":3332,\\\"creditTerm\\\":60,\\\"yearlyMileage\\\":10000,\\\"creditAmount\\\":13328,\\\"interestRateNominal\\\":5.41,\\\"interestRateEffective\\\":5.55,\\\"monthlyInstallment\\\":176.63,\\\"finalInstallment\\\":5497.8,\\\"totalInterest\\\":2590.76,\\\"totalAmount\\\":15918.76,\\\"localized\\\":{\\\"downPayment\\\":\\\"3.332,00 €\\\",\\\"downPaymentInPercent\\\":\\\"20%\\\",\\\"creditTerm\\\":\\\"60\\\",\\\"creditTermInYears\\\":\\\"5\\\",\\\"yearlyMileage\\\":\\\"10.000\\\",\\\"creditAmount\\\":\\\"13.328,00 €\\\",\\\"interestRateNominal\\\":\\\"5,41%\\\",\\\"interestRateEffective\\\":\\\"5,55%\\\",\\\"monthlyInstallment\\\":\\\"177 €\\\",\\\"finalInstallment\\\":\\\"5.497,80 €\\\",\\\"totalInterest\\\":\\\"2.590,76 €\\\",\\\"totalAmount\\\":\\\"15.918,76 €\\\",\\\"disclaimer\\\":\\\"Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von 10.000,00 €, effektiver Jahreszins 5,55%, fester Sollzinssatz 5,41% p.a., Laufzeit 60 Monate, 59 monatliche Raten à 144,70 € und eine Schlussrate à 3.300,00 €, Gesamtbetrag 11.837,52 €. Ein Angebot der Openbank Deutschland AG (Darlehensgeber), Santander-Platz 1, 41061 Mönchengladbach. Bonität vorausgesetzt.\\\"}}}],\\\"images\\\":[{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/33/33a5754d-51d3-448d-9fb7-6d75c5b31132\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/b0/b06b81bb-f8ea-42e2-887c-16c8f580794d\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/c9/c9770da4-0d24-456d-939d-1629bba42c8e\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/fe/fe0badec-f63\nhresholdLabels\\\":[\\\"13.200 €\\\",\\\"17.200 €\\\",\\\"18.500 €\\\",\\\"20.600 €\\\",\\\"22.100 €\\\",\\\"24.600 €\\\"],\\\"vehiclePriceOffset\\\":86},\\\"segment\\\":\\\"Car\\\",\\\"title\\\":\\\"Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt\\\",\\\"vat\\\":\\\"19,00% MwSt.\\\",\\\"vc\\\":\\\"Car\\\",\\\"category\\\":\\\"Sportwagen/Coupé\\\",\\\"id\\\":446559313,\\\"price\\\":{\\\"grs\\\":{\\\"amount\\\":16660,\\\"currency\\\":\\\"EUR\\\",\\\"localized\\\":\\\"16.660 €\\\"},\\\"nt\\\":{\\\"amount\\\":14000,\\\"currency\\\":\\\"EUR\\\",\\\"localized\\\":\\\"14.000 €\\\"},\\\"type\\\":\\\"FIXED\\\",\\\"vat\\\":19},\\\"kba\\\":{\\\"hsn\\\":\\\"1313\\\",\\\"tsn\\\":\\\"BZX\\\"},\\\"customDimensions\\\":{\\\"10\\\":\\\"bronze\\\"}},{\\\"isEyeCatcher\\\":false,\\\"numImages\\\":14,\\\"attr\\\":{\\\"cn\\\":\\\"DE\\\",\\\"z\\\":\\\"74564\\\",\\\"loc\\\":\\\"Crailsheim\\\",\\\"fr\\\":\\\"08/2022\\\",\\\"pw\\\":\\\"147 kW (200 PS)\\\",\\\"ft\\\":\\\"Diesel\\\",\\\"ml\\\":\\\"90.000 km\\\",\\\"cc\\\":\\\"1.993 cm³\\\",\\\"tr\\\":\\\"Automatik\\\",\\\"gi\\\":\\\"Neu\\\",\\\"ecol\\\":\\\"Schwarz\\\",\\\"eu\\\":\\\"Deutsche Ausführung\\\",\\\"door\\\":\\\"4/5\\\",\\\"sc\\\":\\\"5\\\",\\\"c\\\":\\\"EstateCar\\\",\\\"emc\\\":\\\"Euro 6e\\\",\\\"pvo\\\":\\\"1\\\",\\\"nw\\\":\\\"1.815 kg\\\"},\\\"siteId\\\":\\\"GERMANY\\\",\\\"p\\\":\\\"23.800 €\\\",\\\"st\\\":\\\"Händler\\\",\\\"shortTitle\\\":\\\"Mercedes-Benz C 220\\\",\\\"subTitle\\\":\\\"Avantgarde TÜV+KD NEU, GARANTIE,BUSINESS\\\",\\\"hasDamage\\\":false,\\\"isDamageCase\\\":false,\\\"isVideoEnabled\\\":false,\\\"readyToDrive\\\":true,\\\"contact\\\":{\\\"type\\\":\\\"Händler\\\",\\\"country\\\":\\\"DE\\\",\\\"enumType\\\":\\\"DEALER\\\",\\\"name\\\":\\\"A\\u0026Z Autohandel\\\",\\\"address1\\\":\\\"Hallerstr. 221\\\",\\\"phones\\\":[{\\\"type\\\":\\\"MOBILE\\\",\\\"number\\\":\\\"+49 (0)176 65030718\\\",\\\"uri\\\":\\\"tel:+4917665030718\\\"},{\\\"type\\\":\\\"PHONE1\\\",\\\"number\\\":\\\"+49 (0)7951 4691840\\\",\\\"uri\\\":\\\"tel:+4979514691840\\\"},{\\\"type\\\":\\\"MOBILE\\\",\\\"number\\\":\\\"+49 (0)173 7801726\\\",\\\"uri\\\":\\\"tel:+491737801726\\\"},{\\\"type\\\":\\\"FAX\\\",\\\"number\\\":\\\"+49 (0)7951 4691841\\\"}],\\\"messengers\\\":[{\\\"type\\\":\\\"WHATS_APP\\\",\\\"number\\\":\\\"+49 0176 65030718\\\",\\\"uri\\\":\\\"https://wa.me/4917665030718?ref=wa\\\"}],\\\"latLong\\\":{\\\"lat\\\":49.1387362,\\\"lon\\\":10.025725},\\\"rating\\\":{\\\"count\\\":17,\\\"t\nj_6pi_knkr.js\\\",\\\"https://static.classistatic.de/dhp/_next/static/chunks/1kzltc_kv3dmw.js\\\"],\\\"VehicleCategoryFilterClient\\\"]\\n46:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ResultList-module__Bfx-XW__resultListWrapper\\\",\\\"data-testid\\\":\\\"result-list\\\",\\\"children\\\":[[[\\\"$\\\",\\\"article\\\",\\\"listing-container-446559313-0\\\",{\\\"className\\\":\\\"contentBox-module__lb-04W__ContentBox ResultList-module__Bfx-XW__rounded contentBox-module__lb-04W__ContentBox--level-1\\\",\\\"ref\\\":\\\"$undefined\\\",\\\"children\\\":[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"typography-module__luTpGq__copy contentSection-module__VAtVeq__ContentSection padding-module__hVY4pq__none\\\",\\\"ref\\\":\\\"$undefined\\\",\\\"data-testid\\\":\\\"$undefined\\\",\\\"children\\\":[null,[\\\"$\\\",\\\"div\\\",null,{\\\"data-testid\\\":\\\"$undefined\\\",\\\"className\\\":\\\"$undefined\\\",\\\"children\\\":\\\"$L48\\\"}]]}]}],[\\\"$\\\",\\\"article\\\",\\\"listing-container-449589170-1\\\",{\\\"className\\\":\\\"contentBox-module__lb-04W__ContentBox ResultList-module__Bfx-XW__rounded contentBox-module__lb-04W__ContentBox--level-1\\\",\\\"ref\\\":\\\"$undefined\\\",\\\"children\\\":[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"typography-module__luTpGq__copy contentSection-module__VAtVeq__ContentSection padding-module__hVY4pq__none\\\",\\\"ref\\\":\\\"$undefined\\\",\\\"data-testid\\\":\\\"$undefined\\\",\\\"children\\\":[null,[\\\"$\\\",\\\"div\\\",null,{\\\"data-testid\\\":\\\"$undefined\\\",\\\"className\\\":\\\"$undefined\\\",\\\"children\\\":\\\"$L49\\\"}]]}]}],[\\\"$\\\",\\\"article\\\",\\\"listing-container-41049783145504-2\\\",{\\\"className\\\":\\\"contentBox-module__lb-04W__ContentBox ResultList-module__Bfx-XW__rounded contentBox-module__lb-04W__ContentBox--level-1\\\",\\\"ref\\\":\\\"$undefined\\\",\\\"children\\\":[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"typography-module__luTpGq__copy contentSection-module__VAtVeq__ContentSection padding-module__hVY4pq__none\\\",\\\"ref\\\":\\\"$undefined\\\",\\\"data-testid\\\":\\\"$undefined\\\",\\\"children\\\":[null,[\\\"$\\\",\\\"div\\\",null,{\\\"data-testid\\\":\\\"$undefined\\\",\\\"className\\\":\\\"$u\ns:filters\\\"}]\\n57:[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[\\\"(\\\",4,\\\")\\\"]}]\\n48:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__container BaseListing-module___BHaBW__listingCard\\\",\\\"children\\\":[\\\"$\\\",\\\"$L5c\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__containerLink\\\",\\\"listingId\\\":446559313,\\\"testId\\\":\\\"listing-1\\\",\\\"trackingPlacement\\\":\\\"$undefined\\\",\\\"vipUrlParams\\\":{\\\"listingId\\\":446559313,\\\"searchId\\\":\\\"cbc6f62a-f63b-116a-8ba8-70337960bbb1\\\",\\\"searchParams\\\":\\\"$36:props:children:2:props:children:1:props:children:0:props:children:2:props:filters\\\",\\\"isInIFrame\\\":false},\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ListingImage-module__ysyhfG__container BaseListing-module___BHaBW__left\\\",\\\"children\\\":[\\\"$\\\",\\\"$L5d\\\",null,{\\\"alt\\\":\\\"Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt\\\",\\\"className\\\":\\\"$undefined\\\",\\\"priority\\\":true,\\\"sizes\\\":\\\"(min-width: 768px) 385px, 278px\\\",\\\"src\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/33/33a5754d-51d3-448d-9fb7-6d75c5b31132\\\",\\\"testId\\\":\\\"listing-1-image\\\",\\\"vehicleCategory\\\":\\\"Car\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__topMiddle\\\",\\\"children\\\":[false,\\\"$L5e\\\",\\\"$L5f\\\"]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__bottomMiddle\\\",\\\"children\\\":[\\\"$L60\\\",\\\"$undefined\\\"]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__middle\\\",\\\"children\\\":\\\"$L61\\\"}]]}]}]\\n49:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__container BaseListing-module___BHaBW__listingCard\\\",\\\"children\\\":[\\\"$\\\",\\\"$L5c\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__containerLink\\\",\\\"listingId\\\":449589170,\\\"testId\\\":\\\"listing-2\\\",\\\"trackingPlacement\\\":\\\"$undefined\\\",\\\"vipUrlParams\\\":{\\\"listingId\\\":449589170,\\\"searchId\\\":\\\"cbc6f62a-f63b-116a-8ba8-70337960bbb1\\\",\\\"searchParams\\\":\\\"$36:props:children:2:props:children:1:props:children:0:props:children:\nefined\\\",\\\"children\\\":[\\\"EZ 12/2011\\\",\\\" • \\\",\\\"133.000 km\\\",\\\" • \\\",\\\"195 kW (265 PS)\\\",\\\" • \\\",\\\"Diesel\\\"]}],null]}]]}]]\\n61:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ListingActions-module__NsNp5W__container\\\",\\\"data-testid\\\":\\\"listing-action-buttons\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L8a\\\",null,{\\\"listingId\\\":446559313,\\\"pageRef\\\":\\\"dhpSrp\\\",\\\"testId\\\":\\\"listing-action-email\\\",\\\"trackEvent\\\":\\\"srp/EMAIL_BUTTON_CLICK\\\",\\\"type\\\":\\\"highlight\\\",\\\"vipUrlParams\\\":\\\"$48:props:children:props:vipUrlParams\\\"}],[\\\"$\\\",\\\"$L8b\\\",null,{\\\"listingId\\\":446559313,\\\"size\\\":\\\"medium\\\",\\\"testIdPrefix\\\":\\\"listing-action-parking\\\",\\\"trackingEvents\\\":{\\\"addParking\\\":\\\"srp/ADD_PARKING\\\",\\\"removeParking\\\":\\\"srp/REMOVE_PARKING\\\",\\\"carParkLinkClick\\\":\\\"srp/CAR_PARK_LINK_CLICK\\\"}}]]}]\\n64:[\\\"$undefined\\\",[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__listingAvailability\\\",\\\"data-testid\\\":\\\"listing-details\\\",\\\"children\\\":[null,[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__listingAttributeLine typography-module__luTpGq__copy\\\",\\\"data-testid\\\":\\\"listing-details-attributes\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",\\\"Unfallfrei\\\",{\\\"className\\\":\\\"\\\",\\\"data-testid\\\":\\\"$undefined\\\",\\\"children\\\":[[\\\"$\\\",\\\"strong\\\",\\\"Unfallfrei\\\",{\\\"children\\\":\\\"Unfallfrei\\\"}],\\\" • \\\",\\\"EZ 08/2022\\\",\\\" • \\\",\\\"90.000 km\\\",\\\" • \\\",\\\"147 kW (200 PS)\\\",\\\" • \\\",\\\"Diesel\\\"]}],null]}]]}]]\\n65:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ListingActions-module__NsNp5W__container\\\",\\\"data-testid\\\":\\\"listing-action-buttons\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L8a\\\",null,{\\\"listingId\\\":449589170,\\\"pageRef\\\":\\\"dhpSrp\\\",\\\"testId\\\":\\\"listing-action-email\\\",\\\"trackEvent\\\":\\\"srp/EMAIL_BUTTON_CLICK\\\",\\\"type\\\":\\\"highlight\\\",\\\"vipUrlParams\\\":\\\"$49:props:children:props:vipUrlParams\\\"}],[\\\"$\\\",\\\"$L8b\\\",null,{\\\"listingId\\\":449589170,\\\"size\\\":\\\"medium\\\",\\\"testIdPrefix\\\":\\\"listing-action-parking\\\",\\\"trackingEvents\\\":\\\"$61:props:children:1:props:trackingEv\ne/api/v1/mo-prod/images/0a/0a81f528-324e-4f77-9763-0e85da0cebfa\\\"}},\\\"services\\\":[],\\\"userDefinedLink\\\":\\\"$undefined\\\",\\\"serviceTitle\\\":\\\"$undefined\\\",\\\"serviceText\\\":\\\"$undefined\\\",\\\"hasLogo\\\":true,\\\"hasPicture\\\":false},\\\"googleMapsApiKey\\\":\\\"AIzaSyC-WGT-8ptlM7BQ1BX64a4Qa2c5PrzJgqQ\\\",\\\"listingId\\\":446559313,\\\"trackingPageName\\\":\\\"DealerHomepage\\\"}]\\n30:[\\\"$\\\",\\\"footer\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L1a\\\",null,{}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"Footer-module__Fno3Ma__seoContainer\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"Ob \\u003ca href=\\\\\\\"https://suchen.mobile.de/auto/neuwagen.html\\\\\\\" target=\\\\\\\"_blank\\\\\\\"\\u003eNeuwagen\\u003c/a\\u003e, \\u003ca href=\\\\\\\"https://www.mobile.de/\\\\\\\" target=\\\\\\\"_blank\\\\\\\"\\u003eGebrauchtwagen\\u003c/a\\u003e oder \\u003ca href=\\\\\\\"https://www.mobile.de/leasing/\\\\\\\" target=\\\\\\\"_blank\\\\\\\"\\u003eLeasing-Angebote\\u003c/a\\u003e: Alle Fahrzeuge gibt es bei mobile.de\\\"},\\\"className\\\":\\\"Footer-module__Fno3Ma__seoLink\\\",\\\"id\\\":\\\"footer-seo-link-box\\\"}]}],false]}]\\n\"])</script><script type=\"text/javascript\"  src=\"/kgJ0ge/UXm/jIn/AQFg8zHU/1f7Y0V1ruapiGhuY3c/OFIrR2o/QnM/FFxlPcho\"></script><noscript><img src=\"https://home.mobile.de/akam/13/pixel_2d0bcfc0?a=dD0zMGZkNTZlOTQzOGNmOWJiNzQ5NzlkZjA2MWQwOThhNzBkODhlNDUzJmpzPW9mZg==\" style=\"visibility: hidden; position: absolute; left: -999px; top: -999px;\" /></noscript><script type=\"text/javascript\"  src=\"/kgJ0ge/UXm/jIn/AQFg8zHU/NS7Y0V1ruapi/Q3MwR2o/UHg/UNA9PHWkT?v=5aa0f631-620a-6184-41d1-e1c62a866875\" defer></script></body></html>\nhttps://home.mobile.de/AUTOSALONESSEN\n",
+  "exitCode": 0,
+  "durationMs": 1568
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-ba6ad826-9918-43bf-8998-6e864bedb041",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfor(const u of ['https://home.mobile.de/AUTOSALONESSEN?pageNumber=2','https://home.mobile.de/AUTOSALONESSEN?pageNumber=3']){let t=await (await fetch(u)).text();let s=[...t.matchAll(/self\\\\.__next_f\\\\.push\\\\(\\\\[1,(\\\"(?:\\\\\\\\.|[\"'^\"'\"\\\\\\\\])*\\\")\\\\]\\\\)/g)].map(m=>JSON.parse(m[1])).join('');console.log(u);let i=s.indexOf('212.587');console.log(s.slice(i-500,i+8500));}\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "59332",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfor(const u of ['https://home.mobile.de/AUTOSALONESSEN?pageNumber=2','https://home.mobile.de/AUTOSALONESSEN?pageNumber=3']){let t=await (await fetch(u)).text();let s=[...t.matchAll(/self\\.__next_f\\.push\\(\\[1,(\"(?:\\\\.|[^\"\\\\])*\")\\]\\)/g)].map(m=>JSON.parse(m[1])).join('');console.log(u);let i=s.indexOf('212.587');console.log(s.slice(i-500,i+8500));}\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "https://home.mobile.de/AUTOSALONESSEN?pageNumber=2\n\nhttps://home.mobile.de/AUTOSALONESSEN?pageNumber=3\nr Preis\",\"thresholdLabels\":[\"25.600 €\",\"33.200 €\",\"35.800 €\",\"39.800 €\",\"42.700 €\",\"47.500 €\"],\"vehiclePriceOffset\":5},\"segment\":\"Car\",\"title\":\"Chrysler Pacifica L 3.6L V6*7-Sitzer*25TKM*\",\"vc\":\"Car\",\"category\":\"Van/Minibus\",\"id\":454384918,\"price\":{\"grs\":{\"amount\":25990,\"currency\":\"EUR\",\"localized\":\"25.990 €\"},\"type\":\"FIXED\"},\"customDimensions\":{\"10\":\"gold\"}},{\"isEyeCatcher\":true,\"numImages\":31,\"attr\":{\"cn\":\"DE\",\"z\":\"45141\",\"loc\":\"Essen\",\"fr\":\"10/2016\",\"pw\":\"270 kW (367 PS)\",\"ft\":\"Benzin\",\"ml\":\"212.587 km\",\"cc\":\"2.996 cm³\",\"tr\":\"Automatik\",\"gi\":\"Neu\",\"ecol\":\"Grau\",\"eu\":\"Deutsche Ausführung\",\"door\":\"2/3\",\"sc\":\"4\",\"c\":\"SportsCar\",\"emc\":\"Euro6\",\"pvo\":\"2\",\"nw\":\"2.035 kg\"},\"siteId\":\"GERMANY\",\"p\":\"34.950 €\",\"st\":\"Händler\",\"shortTitle\":\"Mercedes-Benz S 400\",\"subTitle\":\"Coupe  4Matic*AMG Paket*Pano*HUD*Burmester\",\"hasDamage\":false,\"isVideoEnabled\":false,\"readyToDrive\":true,\"contact\":{\"type\":\"Händler\",\"country\":\"DE\",\"enumType\":\"DEALER\",\"name\":\"Autosalon Essen\",\"address1\":\"Stoppenberger Str. 104\",\"phones\":[{\"type\":\"PHONE1\",\"number\":\"+49 (0)201 54559401\",\"uri\":\"tel:+4920154559401\"},{\"type\":\"MOBILE\",\"number\":\"+49 (0)163 5993667\",\"uri\":\"tel:+491635993667\"},{\"type\":\"FAX\",\"number\":\"+49 201 81414077\"}],\"messengers\":[{\"type\":\"WHATS_APP\",\"number\":\"+49 163 5993667\",\"uri\":\"https://wa.me/491635993667?ref=wa\"}],\"latLong\":{\"lat\":51.4696856,\"lon\":7.0272972},\"rating\":{\"count\":12,\"totalCount\":133,\"score\":4,\"scoreLocalized\":\"4,0\",\"link\":\"https://www.mobile.de/bewertungen/AUTOSALONESSEN?lang=de\"},\"logo\":\"img.classistatic.de/api/v1/mo-prod/images/61/61c09782-90b3-4488-820d-c5138e1c8358\",\"canBeFollowed\":true},\"created\":1742033491,\"modified\":1791359025,\"renewed\":1791359024,\"version\":145,\"makeId\":17200,\"modelId\":87,\"make\":{\"id\":\"17200\",\"localized\":\"Mercedes-Benz\"},\"model\":{\"id\":\"87\",\"localized\":\"S 400\"},\"financePlans\":[{\"type\":\"AO\",\"url\":\"https://www.mobile.de/finanzierung/route/outlink/1?adId=419335164\",\"shortFlow\":true,\"promotion\":false,\"showInGallery\":false,\"offer\":{\"bankName\":\"Openbank Deutschland AG\",\"loanBroker\":\"CHECK24 GmbH\",\"loanType\":\"BALLOON\",\"downPayment\":6990,\"creditTerm\":60,\"yearlyMileage\":10000,\"creditAmount\":27960,\"interestRateNominal\":5.41,\"interestRateEffective\":5.55,\"monthlyInstallment\":370.53,\"finalInstallment\":11533.5,\"totalInterest\":5435,\"totalAmount\":33395,\"localized\":{\"downPayment\":\"6.990,00 €\",\"downPaymentInPercent\":\"20%\",\"creditTerm\":\"60\",\"creditTermInYears\":\"5\",\"yearlyMileage\":\"10.000\",\"creditAmount\":\"27.960,00 €\",\"interestRateNominal\":\"5,41%\",\"interestRateEffective\":\"5,55%\",\"monthlyInstallment\":\"371 €\",\"finalInstallment\":\"11.533,50 €\",\"totalInterest\":\"5.435,00 €\",\"totalAmount\":\"33.395,00 €\",\"disclaimer\":\"Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von 10.000,00 €, effektiver Jahreszins 5,55%, fester Sollzinssatz 5,41% p.a., Laufzeit 60 Monate, 59 monatliche Raten à 144,70 € und eine Schlussrate à 3.300,00 €, Gesamtbetrag 11.837,52 €. Ein Angebot der Openbank Deutschland AG (Darlehensgeber), Santander-Platz 1, 41061 Mönchengladbach. Bonität vorausgesetzt.\"}}}],\"images\":[{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/aa/aa4a948d-e308-4ab8-b111-3010095adcff\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/d9/d9dc4464-b774-46fb-bc4f-f7e2bcd23933\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/75/750ecca2-b9b4-4c77-88b5-cfa4441675e1\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/22/228580bd-3d53-4ebc-89dd-3d4cef12e346\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/fc/fc5159ac-a752-4f54-94d2-d7bc3832894c\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/94/94f0e0d6-89c9-46e0-8dec-bebe25520e1f\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/ba/ba52e9bf-f16d-468a-8f27-72d46608de52\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/30/30a238dd-aee6-4fab-a101-772a3d5cbd11\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/c3/c3e91f5f-86eb-435a-8325-3d5dcb86de55\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/24/2420b4ac-5fae-4d9e-86d6-6ca48d5d1fb7\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/49/49d2375d-f6c3-4851-af7a-4471540e68ba\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/d3/d312b8c4-342b-494d-9880-e3ed4704e333\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/37/37d1d080-452e-4828-b5f4-315d15bda68c\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/03/03687a4d-db28-4355-98cb-bb2c7a2ccc01\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/ca/ca77b369-6dc6-408d-85e5-b7ea43f9f90a\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/4f/4f86dc45-7501-4518-965c-4f9a96e098d4\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/39/39980761-685a-4a6c-8d70-977719347b43\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/1c/1cc2c206-7c6e-4588-b60b-09eccc1b33a4\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/bf/bf7c1502-bd84-4359-8eb9-a24f5aac51c5\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/8e/8e72f1a8-dba6-4a36-aeb7-4d392defd724\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/e0/e05f64ad-bd72-407a-8163-f3a21d954111\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/5f/5f22acfe-2b50-42a6-9e7c-9cc9e61d18a8\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/81/81e931a6-0cea-45e9-8634-de61d227b487\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/2c/2cf953c4-fa5f-403a-916f-628008657206\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/af/afa7780d-f9dd-4ef1-9d9a-9a5e2806fc44\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/18/18f7d00c-debf-4c13-ba8f-60eccecc50ff\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/48/48971e1a-552d-4c31-bbfa-ba17ebae32af\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/e1/e17b2657-6852-4405-9562-e4ec941f401f\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/41/41c90a0f-6f98-4046-9945-42d93c7d4472\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/d4/d4814df6-b6c2-425a-8bb2-7b856cb07f40\"},{\"uri\":\"img.classistatic.de/api/v1/mo-prod/images/14/14e826a1-6833-42e7-9f2c-1e48071cf086\"}],\"highlights\":[\"Finanzierung ab 4,99%\"],\"sellerId\":25883071,\"priceRating\":{\"rating\":\"INCREASED_PRICE\",\"ratingLabel\":\"Erhöhter Preis\",\"thresholdLabels\":[\"21.600 €\",\"28.000 €\",\"30.200 €\",\"33.600 €\",\"36.000 €\",\"40.000 €\"],\"vehiclePriceOffset\":56},\"segment\":\"Car\",\"title\":\"Mercedes-Benz S 400 Coupe  4Matic*AMG Paket*Pano*HUD*Burmester\",\"vc\":\"Car\",\"category\":\"Sportwagen/Coupé\",\"id\":419335164,\"price\":{\"grs\":{\"amount\":34950,\"currency\":\"EUR\",\"localized\":\"34.950 €\"},\"type\":\"FIXED\"},\"kba\":{\"hsn\":\"1313\",\"tsn\":\"EXI\"},\"customDimensions\":{\"10\":\"gold\"}},{\"isEyeCatcher\":false,\"numImages\":44,\"attr\":{\"cn\":\"DE\",\"z\":\"45141\",\"loc\":\"Essen\",\"fr\":\"06/2017\",\"pw\":\"324 kW (441 PS)\",\"ft\":\"Benzin\",\"ml\":\"169.989 km\",\"cc\":\"2.894 cm³\",\"tr\":\"Automatik\",\"gi\":\"Neu\",\"ecol\":\"Grau\",\"eu\":\"Deutsche Ausführung\",\"door\":\"4/5\",\"sc\":\"4\",\"c\":\"Limousine\",\"emc\":\"Euro6\",\"pvo\":\"2\",\"nw\":\"1.945 kg\"},\"siteId\":\"GERMANY\",\"p\":\"42.890 €\",\"st\":\"Händler\",\"shortTitle\":\"Porsche Panamera\",\"subTitle\":\"4 S*SportChrono*BOSE*SoftClose*\",\"hasDamage\":false,\"isDamageCase\":false,\"isVideoEnabled\":false,\"readyToDrive\":true,\"contact\":{\"type\":\"Händler\",\"country\":\"DE\",\"enumType\":\"DEALER\",\"name\":\"Autosalon Essen\",\"address1\":\"Stoppenberger Str. 104\",\"phones\":[{\"type\":\"PHONE1\",\"number\":\"+49 (0)201 54559401\",\"uri\":\"tel:+4920154559401\"},{\"type\":\"MOBILE\",\"number\":\"+49 (0)163 5993667\",\"uri\":\"tel:+491635993667\"},{\"type\":\"FAX\",\"number\":\"+49 201 81414077\"}],\"messengers\":[{\"type\":\"WHATS_APP\",\"number\":\"+49 163 5993667\",\"uri\":\"https://wa.me/491635993667?ref=wa\"}],\"latLong\":{\"lat\":51.4696856,\"lon\":7.0272972},\"rating\":{\"count\":12,\"totalCount\":133,\"score\":4,\"scoreLocalized\":\"4,0\",\"link\":\"https://www.mobile.de/bewertungen/AUTOSALONESSEN?lang=de\"},\"logo\":\"img.classistatic.de/api/v1/mo-prod/images/61/61c09782-90b3-4488-820d-c5138e1c8358\",\"canBeFollowed\":true},\"created\":1776769945,\"modified\":1791302334,\"renewed\":1789639295,\"version\":99,\"makeId\":20100,\"modelId\":4,\"make\":{\"id\":\"20100\",\"localized\":\"Porsche\"},\"model\":{\"id\":\"4\",\"localized\":\"Panamera\"},\"financePlans\":[{\"type\":\"AO\",\"url\":\"https://www.mobile.de/finanzierung/route/outlink/1?adId=453748139\",\"shortFlow\":true,\"promotion\":false,\"showInGallery\":false,\"offer\":{\"bankName\":\"Openbank Deutschland AG\",\"loanBroker\":\"Check24 GmbH\",\"loanType\":\"BALLOON\",\"downPayment\":8578,\"creditTerm\":60,\"yearlyMileage\":10000,\"creditAmount\":34312,\"interestRateNominal\":5.41,\"interestRateEffective\":5.55,\"monthlyInstallment\":454.71,\"finalInstallment\":14153.7,\"totalInterest\":6669.73,\"totalAmount\":40981.73,\"localized\":{\"downPayment\":\"8.578,00 €\",\"downPaymentInPercent\":\"20%\",\"creditTerm\":\"60\",\"creditTermInYears\":\"5\",\"yearlyMileage\":\"10.000\",\"creditAmount\":\"34.312,00 €\",\"interestRateNominal\":\"5,41%\",\"interestRateEffective\":\"5,55%\",\"monthlyInstallment\":\"455 €\",\"finalInstallment\":\"14.153,70 €\",\"totalInterest\":\"6.669,73 €\",\"totalAmount\":\"40.981,73 €\",\"disclaimer\":\"Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von 10.000,00 €, effektiver Jahreszins 5,55%, fester Sollzinssatz 5,41% p.a., Laufzeit 60 Monate, 59 monatliche Raten à 144,70 € und eine Schlussrate à 3.300,00 €, Gesamtbetrag 11.837,52 €. Ei\n",
+  "exitCode": 0,
+  "durationMs": 934
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-0ffc4c97-e206-4c08-9b8d-356ed3f938da",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfor(const u of ['https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400','https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line']){let t=await(await fetch(u)).text();console.log(u);let i=t.indexOf('216.000');console.log(t.slice(i-3500,i+1500));}\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "51553",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfor(const u of ['https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400','https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line']){let t=await(await fetch(u)).text();console.log(u);let i=t.indexOf('216.000');console.log(t.slice(i-3500,i+1500));}\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400\n\nhttps://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line\n\n",
+  "exitCode": 0,
+  "durationMs": 1321
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-76c8260a-6c0c-4f2b-8236-b6d81d5d732c",
+  "query": "site.mobile.de \"S 400\" \"2021\" \"220.000\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.mobile.de \"S 400\" \"2021\" \"220.000\"",
+      "site.mobile.de \"S 400\" \"2021\" \"190.000\"",
+      "\"S 400\" \"216.000\" \"mobile.de\" Rodgau"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn42search0",
+      "snippet": "Unfallfrei • EZ 03/2015 • 190.000 km • 110 kW (150 PS) • Benzin ... Image: Mercedes-Benz S 400 Hybrid/Benzin *Scheckheftgepflegt* ... Image: Opel Meriva",
+      "title": "RSD AUTOMOBILE in Fürstenfeldbruck",
+      "url": "https://home.mobile.de/RSAUTOMOBILEMUENCHEN"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.polovniautomobili.com",
+      "ref_id": "turn42search1",
+      "snippet": "# Mercedes Benz S 400 AMG 4 MATIC 2021. godište ... 220.000 km",
+      "title": "Mercedes Benz S 400 AMG 4 MATIC | Polovni Automobili",
+      "url": "https://www.polovniautomobili.com/auto-oglasi/28794924/mercedes-benz-s-400-amg-4-matic?attp=p0_pv0_pc0_pl1_plv0"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn42search2",
+      "snippet": "Größere Bilder auf mobile.de ... S 400 d 4Matic L*AMG UMBAU*PAN ... 216.000 km",
+      "title": "Gebraucht 2017 Mercedes S63 AMG AMG 340 PS Limousine – Nordrhein-Westfalen (Händler) – 43.990 € (Nicht bewertet) | AutoUncle",
+      "url": "https://www.autouncle.de/de/d/194667528-gebraucht-mercedes-s63-amg-s-400-d-4matic-l-amg-umbau-pano-burmester"
+    },
+    {
+      "type": "text_result",
+      "domain": "boletinoficial.gba.gob.ar",
+      "ref_id": "turn42search12",
+      "snippet": "Ma-1, serie 23650k; 4 Camas ortopédicas; 1 Camilla rodante; 8 Manómetros; 1 Frasco grande de respiración con carro para cirugía; 1 Mesa redonda marca Etilen;",
+      "title": "BOLETÍN OFICIAL DE LA PROVINCIA DE BUENOS AIRES",
+      "url": "https://boletinoficial.gba.gob.ar/secciones/10741/ver"
+    },
+    {
+      "type": "text_result",
+      "domain": "autoedner.olx.ba",
+      "ref_id": "turn42search3",
+      "snippet": "# Mercedes-Benz S 400 4Matic Long220.000 KM ... #### 2021",
+      "title": "Mercedes-Benz S 400 4Matic Long - Automobili - PIK.ba",
+      "url": "https://autoedner.olx.ba/artikal/51442449/"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn42search4",
+      "snippet": "Image: Mercedes-Benz S 400 Hybrid AMG-Line ... Unfallfrei • EZ 04/2016 • 190.000 km • 140 kW (190 PS) • Diesel",
+      "title": "Bodensee Autocenter in Immenstaad am Bodensee",
+      "url": "https://home.mobile.de/home/index.html?customerId=452621"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sahibinden.com",
+      "ref_id": "turn42search5",
+      "snippet": "| CLK | CLK 320 CDI Elegance | [Input] sahibinden acil | 2006 | 220.000 | Siyah | 1.425.000 TL [Input] | 20 Ekim ...",
+      "title": "Kadıköy Mercedes-Benz Fiyatları & Modelleri sahibinden.com'da - 3",
+      "url": "https://www.sahibinden.com/mercedes-benz/istanbul-kadikoy/dizel?pagingOffset=40"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn42search6",
+      "snippet": "ahg-mobile.de(2025) BMW M340 M Sport 340 PS 59.830 €Fairer Preis Spare 2.070 €77656 Offenburg, Baden-Württemberg CO2-Klasse: F - 163 g CO2/km komb. - 340 PS",
+      "title": "Mercedes S400 kaufen in Baden-Württemberg: 54 Angebote in deiner Nähe",
+      "url": "https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/in/Baden-W%C3%BCrttemberg"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn42search7",
+      "snippet": "## Mercedes-Benz S 400 ... Image: mobile.de logo ... 10/2021 ... 190.000 km",
+      "title": "Mercedes-Benz S 400 Automatik Gebraucht kaufen in Völklingen - Gebrauchtwagen suchen & finden",
+      "url": "https://auto.meinestadt.de/voelklingen/gebrauchtwagen-azl/100-171726-172223-928"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn42search8",
+      "snippet": "* Kilometerzähler: 216.000 km ... S 400 Mercedes-Benz 400SE H-Zulassung, V8, Historie 11.999 €●●●●○ Guter Preis Finanzierung möglich ab 145€ finanzieren ↗Benzin286 PS (210 kW)240.000",
+      "title": "Mercedes-Benz S 400 in Mannheim gebraucht • 61 Angebote vor Ort",
+      "url": "https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.1a-automarkt.de",
+      "ref_id": "turn42search9",
+      "snippet": "# Mercedes S 400 Gebrauchtwagen zum kaufen ... EZ: 05/2021 ... 220.000 km",
+      "title": "Mercedes-Benz S 400 Gebrauchtwagen kaufen",
+      "url": "https://www.1a-automarkt.de/auto-marken/mercedes-benz/s-400/"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn42search10",
+      "snippet": "# Mercedes-Benz S 400 Limousine Gebraucht in Grünstadt ... Image: mobile.de logo ... 220.000 km ... 1/2021",
+      "title": "Mercedes-Benz S 400 Limousine Gebraucht kaufen in Grünstadt - Gebrauchtwagen suchen & finden",
+      "url": "https://auto.meinestadt.de/gruenstadt/gebrauchtwagen-azl/100-171726-172223-630"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bestauto.ro",
+      "ref_id": "turn42search11",
+      "snippet": "* Image: Mercedes-Benz S 400 4MATIC AMG Line Plus | Burmester 3D | Scaune cu masaj | DISTRONIC PLUS - imagine 6 ... Kilometraj: aproximativ",
+      "title": "Mercedes-benz Clasa s 2016, Maramures, Sighetu Marmatiei, Benzina, , 26 000 EUR",
+      "url": "https://www.bestauto.ro/anunturi/auto-moto/masini-second-hand/mercedes-benz/clasa-s/anunt/mercedes-benz-s-400-4matic-amg-line-plus-burmester-3d-scaune-cu-masaj-distronic-plus/h99211ei585476h2d1i4g085e2dh454h.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.gars.nrw",
+      "ref_id": "turn42search13",
+      "snippet": "Daten aus den Jahrgängen 2021 und 2022 ... 220.000,- ... s +/- 400 m² | Bodenwert Ø 90.000 €",
+      "title": "Der Gutachterausschuss",
+      "url": "https://www.gars.nrw/images/user/GA_Kreis_Unna/pdf/GMB_2023_Kreis_Unna.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "cdn.travsport.se",
+      "ref_id": "turn42search14",
+      "snippet": "Solvalla lördag den 29 maj 2021. ... Pris: 220.000-110.000-62.000-35.000-22.000-15.000-10.000-6.000 ... Kihlström Ö Ö 1/5-11 1/3140 4 14,8 c c S - 400'",
+      "title": "Solvalla lördag den 29 maj 2021.",
+      "url": "https://cdn.travsport.se/startlists/trot/sport/589874.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "stor0.anuntul.ro",
+      "ref_id": "turn42search15",
+      "snippet": "Colentina S.U. 163 mp, curte 220 ... 2021, la cheie, 113.000 {; ... teren Godeanu S.U. 110 mp, curte 400 mp,",
+      "title": "9.243 anun¡uri",
+      "url": "https://stor0.anuntul.ro/media/editii_pdf/2024/21-02-2024.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "stor0.anuntul.ro",
+      "ref_id": "turn42search16",
+      "snippet": "190.000 {; (0773.803.721/ ... Balotesti, DN1, S.U. 400 mp, curte 5000 ... boxa 25 mp, dec., renovat 2021, imbunatatiri de",
+      "title": "9.282 anun¡uri",
+      "url": "https://stor0.anuntul.ro/media/editii_pdf/2023/29-11-2023.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "cdnek.ekirikas.com",
+      "ref_id": "turn42search17",
+      "snippet": "Αντιδρώντας στην παράδοση το 2019 στην Τουρκία της πρώτης συστοιχίας του ρωσικού συστήματος αεροπορικής άμυνας S-400, οι Ηνωμένες Πολιτείες απέκλεισαν την Αγκυρα από το πρόγραμμα",
+      "title": "ΕΘΝΙΚΟΣ ΚΗΡΥΞ  ΔΕΥΤΕΡΑ 22 ΦΕΒΡΟΥΑΡΙΟΥ 2021",
+      "url": "https://cdnek.ekirikas.com/wp-content/uploads/2021/02/0222_id13979.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-b0404f5f-1287-4d04-8ce7-07a6fadf103c",
+  "query": "Mercedes S400 2021 4matic 330 180000 mobile.de ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Mercedes S400 2021 4matic 330 180000 mobile.de",
+      "Mercedes S400d 2021 4matic 200000 gebraucht",
+      "Mercedes S400d 2021 156720"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn44search0",
+      "snippet": "## Sponsored Mercedes-Benz S 400 d 4MATIC L - S63 UMBAU PANO*KEYLESS*3dBURM ... Accident-free • FR 07/2021 • 92,500 km • 243 kW (330 hp)",
+      "title": "Mercedes S 400 gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn44search1",
+      "snippet": "İlk tescil 04/2021 • 129.000 km • 243 kW (330 BG) • Dizel ... ## Sponsorlu YENİ Mercedes-Benz S 400 d 4MATIC AMG Garantie BLP",
+      "title": "Almanya’da ikinci el Mercedes-Benz S 400 | mobile.de",
+      "url": "https://www.mobile.de/tr/car/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn44search2",
+      "snippet": "## Sponsorlu YENİ Mercedes-Benz S 400 S400 D 4MATIC/Lang/AMG/Brabus D40/Exklusiv/Top!! ... Kazasızlık • İlk tescil 07/2021 • 156.720 km • 243 kW (330 BG) •",
+      "title": "Almanya’da ikinci el Mercedes-Benz S 400 Otomatik vites | mobile.de",
+      "url": "https://www.mobile.de/tr/car/mercedes-benz/s-400/tr_automatic"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn44search3",
+      "snippet": "## Sponsored Mercedes-Benz S 400 S400d 4Matic L AMG+LASER+DISTR+BURMESTE®+MASSAGE ... Accident-free • FR 07/2021 • 21,000 km • 243 kW (330 hp) • Diesel ...",
+      "title": "Used Mercedes-Benz S 400 AMG cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-amg.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn44search4",
+      "snippet": "## Спонсируемое Mercedes-Benz S 400 d 4Matic AMG-Line*Designo*1. ... Без ДТП • Постановка на учет 01/2021 • 68 919 км • 243 кВт (330 л.",
+      "title": "Mercedes-Benz S 400 с пробегом в Германии | mobile.de",
+      "url": "https://www.mobile.de/ru/car/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn44search5",
+      "snippet": "## Mercedes-Benz S 400 S 4Matic Lang Rentnerfahrzeug ... FR 06/2009 • 116,000 km • 205 kW (279 hp) • Hybrid (petrol/electric) ... €35,900¹ ...",
+      "title": "Used Mercedes-Benz S 400 cars for sale in Germany | mobile.de",
+      "url": "https://www.mobile.de/en/car/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn44search6",
+      "snippet": "PR 05/2021 • 245 000 km • 243 kW (330 KM) • Diesel ... ## Mercedes-Benz S 400 3.0 V6 KAT AMG 4MATIC NIGHT VISION",
+      "title": "Mercedes-Benz S 400 używane w Niemczech | mobile.de",
+      "url": "https://www.mobile.de/pl/car/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn44search7",
+      "snippet": "* Mercedes-Benz S 400 ... Mercedes-Benz S 400 Automatic ... Automatic climatisation, 2 zones (330) ... 02/2021",
+      "title": "Used Mercedes-Benz S 400 Automatic cars for sale in Germany | mobile.de",
+      "url": "https://www.mobile.de/en/car/mercedes-benz/s-400/tr_automatic"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn44search8",
+      "snippet": "## Mercedes-Benz S 400 d 4MATIC AMG+BURMESTER-4D+KEYLESS-GO+Navi ... FR 08/2021 • 96,000 km • 243 kW (330 hp) • Diesel",
+      "title": "Mercedes S 400 gebraucht in Berlin & der Nähe kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-berlin.html?lang=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn44search9",
+      "snippet": "Image: Mercedes-Benz S 400 d,Lang,AMG,4Matic,Designo,Panorama ... With mobile.de since Jan 21, 2004 ... Mike Automobile Inh.Mircea Vranceanu Raiffeisenstrasse 3 DE-77933 Lahr 07821 51885 0171 4260857",
+      "title": "Mercedes-Benz S 400 in Lahr for €49,900 | mobile.de",
+      "url": "https://suchen.mobile.de/auto-inserat/mercedes-benz-s-400-d-lang-amg-4matic-designo-panorama-lahr/43454663325504.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn44search10",
+      "snippet": "## Mercedes-Benz S 400 d 4MATIC AHK+PANORAMA+DISTRONIC+360°+19\"Different colour ... Accident-free • FR 2021 • 60,000 km • 330 hp • Diesel",
+      "title": "Mercedes-Benz S 400 in blau gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-blau.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn44search11",
+      "snippet": "## Patrocinado Mercedes-Benz S 400 d 4Matic AMG/Pano/Nappa/Exklusiv-Paket/360 ... PR 01/2021 • 128.398 km • 243 kW (330 cv) • Diesel ... PR 06/2009 •",
+      "title": "Mercedes-Benz S 400 de segunda mano en Alemania | mobile.de",
+      "url": "https://www.mobile.de/es/car/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "advertising.mobile.de",
+      "ref_id": "turn44search12",
+      "snippet": "BMW Premium Selection — 13% ... Volvo Selekt — 1% ... Right-side photo of a yellow car viewed from above, with a teal circular callout",
+      "title": "Ungestützte Markenbekanntheit (in %)",
+      "url": "https://advertising.mobile.de/fileadmin/user_upload/Mobile/studien/mobile.de-gebrauchtwagen-programme-studie-2021.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.mobile.de",
+      "ref_id": "turn44search13",
+      "snippet": "September 2021 – Einmal hinterm Steuer sitzen und rasant unterwegs sein wie Michael Schumacher, hinter den Horizont fahren wie Udo Lindenberg oder sich luxuriös den",
+      "title": "Microsoft Word - 210921_mobile.de_25_Jahre_Promi-Autos.docx",
+      "url": "https://newsroom.mobile.de/download/19780/?tmstv=1774007260"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.mobile.de",
+      "ref_id": "turn44search14",
+      "snippet": "Exklusiv auf mobile.de: Diese Autos gehörten ... zum Verkauf: Zum einen ein Mercedes-Benz G 400 mit wenig mehr als ... aus dem Jahr 1981. ...",
+      "title": "Pressemitteilung",
+      "url": "https://newsroom.mobile.de/download/25291/?tmstv=1756738522"
+    },
+    {
+      "type": "text_result",
+      "domain": "promo.mobile.de",
+      "ref_id": "turn44search15",
+      "snippet": "Mercedes-Benz ... 1.000 ... Quelle: mobile.de, EV gebraucht, Betrachtungszeitraum Dez. ... 2024, ... Kilometer 200.000, max.",
+      "title": "FEBRUAR 2025",
+      "url": "https://promo.mobile.de/sites/mq/wp-content/uploads/2025/02/mQ-Februar-2025-DE-Download.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "advertising.mobile.de",
+      "ref_id": "turn44search16",
+      "snippet": "- Seit 2019 ist Mercedes Benz Junge Sterne der Spitzenreiter in puncto Bekanntheit, sowohl ungestützt als auch gestützt. ... - Hauptberührungspunkte mit GW-Programmen sind relativ",
+      "title": "PowerPoint-Präsentation",
+      "url": "https://advertising.mobile.de/fileadmin/user_upload/Mobile/studien/GW_Siegel_Studie_2024_Website_de.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "advertising.mobile.de",
+      "ref_id": "turn44search17",
+      "snippet": "mobile.de Markenimage Monitor ... *Alfa Romeo, Audi, BMW, Citroen, Cupra, Dacia, DS, Fiat, Ford, Honda, Hyundai, Jaguar, Jeep, KIA, Land Rover, Mazda, Mercedes-Benz, Mini, Mitsubishi,",
+      "title": "mobile.de Markenimage Monitor",
+      "url": "https://advertising.mobile.de/fileadmin/user_upload/Mobile/studien/Imagemonitoraktuell.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-947365dd-6f41-41a2-9136-a3a8b920c25f",
+  "query": "\"Mercedes\" \"S400\" \"2021\" \"216.000\" \"57.100\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Mercedes\" \"S400\" \"2021\" \"216.000\" \"57.100\"",
+      "\"Mercedes-Benz S400 d 4Matic AMG 21 BURMESTER PANO FULL\"",
+      "site.home.mobile.de \"S400d 4M L AMG Chauffeur\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn46search0",
+      "snippet": "## Mercedes-Benz S 400 d 4MATIC L AMG Line216.000 km ... 8/2021 ... 57.100 €",
+      "title": "Mercedes-Benz S 400 Limousine in Großenlüder kaufen",
+      "url": "https://auto.meinestadt.de/grossenlueder/automarkt/100-154574-155818-609"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.12gebrauchtwagen.de",
+      "ref_id": "turn46search1",
+      "snippet": "S 400 Mercedes-Benz S400 d 4Matic AMG 21 BURMESTER PANO FULL 58.980 €●●●○○ Fairer Preis Finanzierung möglich ab 718€ finanzieren ↗Diesel330 PS (243 kW)182.770 kmEZ",
+      "title": "Mercedes-Benz S 400 gebraucht kaufen | Ab €12.300 • 532 Angebote",
+      "url": "https://www.12gebrauchtwagen.de/auto/mercedes-benz/s-400?page=7"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn46search2",
+      "snippet": "## Sponsorowane Mercedes-Benz S 400 S400d 4M L AMG Chauffeur 3D 4xTV HA-Lenk.",
+      "title": "Mercedes-Benz S 400 używane w Niemczech | mobile.de",
+      "url": "https://www.mobile.de/pl/car/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn46search3",
+      "snippet": "## Sponsored Mercedes-Benz S 400 d 4MATIC L -AMG PAKET ... ## Sponsored Mercedes-Benz S 400 d 4Matic Lang AMG AIRM.",
+      "title": "Mercedes S 400 Gebrauchtwagen aus dem Jahr 2020",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-400-2020.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.bg",
+      "ref_id": "turn46search4",
+      "snippet": "НОМЕР: 1000000178 MERCEDES-BENZ S400 D*4M*AMG*LONG*BURMESTER*PANO*360*HUD ------------------------------------------ Допълнилно оборудване: Пакет \" AMG\" Пакет \" Energizing\" Пакет \" Памет\" Асистент за ",
+      "title": "Mercedes-Benz S 400 Автомобили и Джипове втора ръка и нови, обяви и цени — Mobile.bg - Страница 8",
+      "url": "https://www.mobile.bg/obiavi/avtomobili-dzhipove/mercedes-benz/s-400/p-8"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autotrader.nl",
+      "ref_id": "turn46search5",
+      "snippet": "## Mercedes-Benz S 400 400D 4MATIC AMG LINE - PANO - BURMESTER - 21 INCH",
+      "title": "Mercedes-Benz S 400 occasion kopen op AutoTrader",
+      "url": "https://www.autotrader.nl/auto/mercedes-benz/s-400/cit_hengelo"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.bg",
+      "ref_id": "turn46search6",
+      "snippet": "Mercedes-Benz S 400 d 4M L AMG - CHAUFFEUR - EXCLUSIVE RED",
+      "title": "Mercedes-Benz S-класа Автомобили и Джипове втора ръка и нови, обяви и цени — Mobile.bg - Страница 63",
+      "url": "https://www.mobile.bg/obiavi/avtomobili-dzhipove/mercedes-benz/s-klasa/p-63"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn46search7",
+      "snippet": "* Image: Mercedes-Benz S 400d 4Matic L/BURMESTER/360°/CARPLAY/HUD ... * * Image: Mercedes-Benz S 400 d 4Matic 9G AMG LINE\"PANO\"MB100 BIS 11.26\"",
+      "title": "Mercedes Benz S 400 Diesel kaufen in Wetzlar - Gebrauchtwagen suchen & finden",
+      "url": "https://auto.meinestadt.de/wetzlar/gebrauchtwagen-azl/100-171726-172223-170755"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.njuskalo.hr",
+      "ref_id": "turn46search8",
+      "snippet": "* ### MERCEDES S400 d 4 MATIC LANG** AMG** DESIGNO** 21\"** ... * ### Mercedes-Benz S 400d 4MATIC** AMG**PANO**SOFT CLOSE**MBUX HEAD UP**",
+      "title": "Mercedes S klasa rabljena vozila - Mercedes S klasa rabljeni auti - Njuškalo",
+      "url": "https://www.njuskalo.hr/rabljeni-auti/mercedes-s-klasa?page=7"
+    },
+    {
+      "type": "text_result",
+      "domain": "hex.solcar.hu",
+      "ref_id": "turn46search9",
+      "snippet": "MERCEDES-BENZ S 400 d 4Matic 9G-TRONIC ÁFÁS/ADAPTÍV TEMPOMAT / ADAPTÍV LED/ PANO/ HOLTTÉR-FIGYELŐ/ AZ AUTÓ VÉTELÁRA TARTALMAZZA AZ ÁFA-T MELY NYÍLT VÉGŰ FINANSZÍROZÁSSAL VISSZAIGÉNYELHETŐ/FEKETE METÁL",
+      "title": "Bemutató modul",
+      "url": "https://hex.solcar.hu/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.quoka.de",
+      "ref_id": "turn46search10",
+      "snippet": "## Mercedes-Benz S 400 S400d 4M L AMG Chauffeur 3D 4xTV HA-Lenk.",
+      "title": "reifes - Automarkt in Brechen: Gebrauchtwagen kaufen & verkaufen",
+      "url": "https://www.quoka.de/anzeigen/auto-motorrad/automarkt/hessen/brechen/?carbody=limousine&gearname=automatik&q=reifes&radius=100"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.de",
+      "ref_id": "turn46search11",
+      "snippet": "## Mercedes-Benz S 400 S400d 4M L AMG Chauffeur 3D 4xTV HA-Lenk.",
+      "title": "Mercedes-Benz S-Klasse S 400 aus 2021 gebraucht kaufen - AutoScout24 Deutschland",
+      "url": "https://www.autoscout24.de/lst/mercedes-benz/s-klasse/mt_s-400/re_2021"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-4ac0db2b-1b05-4d70-8cd4-2a002489e7a1",
+  "query": "site.home.mobile.de \"Autohaus Multi\" \"S 400\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.home.mobile.de \"Autohaus Multi\" \"S 400\"",
+      "\"S400\" \"58980\" Frankfurt",
+      "\"S 400\" \"216000\" \"2021\" rodgau"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn48search0",
+      "snippet": "Autohaus Multi GmbH DE-63694 Limeshain ... Ile jest Mercedes-Benz S 400 na mobile.de?",
+      "title": "Mercedes-Benz S 400 używane w Niemczech | mobile.de",
+      "url": "https://www.mobile.de/pl/car/mercedes-benz/s-400"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.clubensayos.com",
+      "ref_id": "turn48search1",
+      "snippet": "Carlos Hernández Apuntes 6 de Febrero de 2021 ... Si el costo del agua S/.1.50 por 4000 litros, determine cuál sanitario debe comprar con base",
+      "title": "Examen Final Ingeco - Apuntes - Negocios",
+      "url": "https://www.clubensayos.com/Negocios/Examen-Final-Ingeco/5212161.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "sistemas.meioambiente.mg.gov.br",
+      "ref_id": "turn48search2",
+      "snippet": "# Portaria nº 1702657/2021 ... Vazão liberada (l/s) | 400 | 400 | 400 | 400 | 200 | 200 | 200 | 200 |",
+      "title": "Portaria nº 1702657/2021",
+      "url": "https://sistemas.meioambiente.mg.gov.br/licenciamento/site/detalhes-outorga?id=25289"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.go-parts.com",
+      "ref_id": "turn48search3",
+      "snippet": "S400 2014-2016 (tap click to expand)(tap click to hide)",
+      "title": "OEM HVAC Heater Blower Motor Evaporator Housing Assembly for 2014-2020 Mercedes-Benz - Rear 680-58980 (2228302405, 2228307301)",
+      "url": "https://www.go-parts.com/hl-product.php?make=Mercedes-Benz&model=S-Class&sku=680-58980-1002208394"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.bestauto.ro",
+      "ref_id": "turn48search4",
+      "snippet": "Mercedes-Benz S400d 4MATIC Premium Plus Prima inmatriculare: 02 2021 Kilometri: 37.000 km (certificați) Masina va fi inmatriculata in Romania rar si itp facut numerele vor",
+      "title": "Mercedes-benz Autoturisme Timisoara - Masini second hand de vanzare Timis - Bestauto",
+      "url": "https://www.bestauto.ro/auto/mercedes-benz/timis/timisoara/?carclima=automata&damagedcar=neavariata&km=216000"
+    },
+    {
+      "type": "text_result",
+      "domain": "autohausbalingen.de",
+      "ref_id": "turn48search5",
+      "snippet": "Fensterheber, Mittelarmlehne vorne, Innenspiegel abblendbar, Lederlenkrad, Memoryfunktion Sitze, Multifunktionslenkrad, Bordcomputer, Servolenkung, Lordosenstütze, Gurtstraffer, Skisack, Freisprechein",
+      "title": "Mercedes-Benz S 400 4Matic gebraucht kaufen in Balingen 34.990 € - Int.Nr.: 2096 VERKAUFT",
+      "url": "https://autohausbalingen.de/de/auto/mercedes-benz/s-400/gebrauchtwagen-in-balingen-ThQE3d.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn48search6",
+      "snippet": "## NEW Mercedes-Benz S 500 4Matic 360/BURMESTER/SERVO/DISTRONIC/PANO ... Repaired accident damage • FR 11/2010 • 139,865 km • 400 kW (544 hp) • Petrol ...",
+      "title": "Used Full leather Mercedes-Benz S-Klasse cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/mercedes-benz-s-klasse-leder.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ebay.es",
+      "ref_id": "turn48search7",
+      "snippet": "# 1x Llanta Multi-Espoke Aluminio Mercedes-Benz W223 19” A2234014700 ET31,5Auto-Scholz-AVS-Shop ... Mercedes-Benz | Clase S | 2021/08-2024/12 | V223 | S 400 EQ Boost |",
+      "title": "1x Llanta Multi-Espoke Aluminio Mercedes-Benz W223 19” A2234014700 ET31,5 | eBay",
+      "url": "https://www.ebay.es/itm/257697165197"
+    },
+    {
+      "type": "text_result",
+      "domain": "fliphtml5.com",
+      "ref_id": "turn48search8",
+      "snippet": "4M. (190 kW / CDI / 320) 4 210/286 111.350 71,3 56,4 48,5* 44,6 35,7* 30,4 26,2 22,4* C 300 d Cabrio (C 250 d)",
+      "title": "Exklusive Häuser – No. 2 2019 - Flipbook by cenkdepo1 | FlipHTML5",
+      "url": "https://fliphtml5.com/egxhk/dtdb/Exklusive_H%C3%A4user_%E2%80%93_No._2_2019/"
+    },
+    {
+      "type": "text_result",
+      "domain": "es.scribd.com",
+      "ref_id": "turn48search9",
+      "snippet": "## 2024 216000 35896 16.62% ... 2031 216000 41233 19.09%",
+      "title": "Proyecto de Inversión en Cénit Restaurant | PDF | Restaurantes | Turismo",
+      "url": "https://es.scribd.com/document/935952034/Proyecto-Cenit-Restaurant-Informe-Sin-Formato"
+    },
+    {
+      "type": "text_result",
+      "domain": "veh-markets.com",
+      "ref_id": "turn48search10",
+      "snippet": "Drive type: | 4dr Sdn S 400 Hybrid RWD ... This Mercedes S-class is build with useful options like keyless Go, hot and cold multi",
+      "title": "2010 Mercedes-Benz S 400 Hybrid 48075 Miles Diamond White Metallic 3.5L Hybrid",
+      "url": "https://veh-markets.com/cars/kia-c/646228-2010-mercedes-benz-s-400-hybrid-48075-miles-diamond-white-metallic-35l-hybrid.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.publi24.ro",
+      "ref_id": "turn48search11",
+      "snippet": "* S 400 (1) ... * 2021",
+      "title": "Mercedes-benz Clasa s Masini de vanzare Constanta | Auto second hand - Publi24",
+      "url": "https://www.publi24.ro/anunturi/auto-moto/masini-second-hand/mercedes-benz/clasa-s/constanta/?carstatename=inmatriculata&commercial=false&schimb=true"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-2c640667-5057-4d38-9afe-c566e0870baa",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfor(const u of ['https://suchen.mobile.de/auto/mercedes-benz-s-400.html','https://www.mobile.de/en/car/mercedes-benz/s-400']){let r=await fetch(u);let t=await r.text(); console.log(u,r.status,t.length);console.log(t.slice(0,150));console.log(t.match(/.{0,200}216.000.{0,500}/g)?.slice(0,1));}\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "90744",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfor(const u of ['https://suchen.mobile.de/auto/mercedes-benz-s-400.html','https://www.mobile.de/en/car/mercedes-benz/s-400']){let r=await fetch(u);let t=await r.text(); console.log(u,r.status,t.length);console.log(t.slice(0,150));console.log(t.match(/.{0,200}216.000.{0,500}/g)?.slice(0,1));}\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "https://suchen.mobile.de/auto/mercedes-benz-s-400.html 403 7841\n<!DOCTYPE html>\n<html lang=\"de\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <t\nundefined\nhttps://www.mobile.de/en/car/mercedes-benz/s-400 200 1258413\n<!DOCTYPE html><html data-grid=\"8\" data-theme=\"\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-sca\nundefined\n",
+  "exitCode": 0,
+  "durationMs": 1357
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-3216bd3e-eb88-491d-a347-43a9d7c3915a",
+  "query": "Autohaus Multi GmbH mobile Limeshain ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "Autohaus Multi GmbH mobile Limeshain",
+      "S400d 182770 Frankfurt mobile"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.autohausmulti.de",
+      "ref_id": "turn49search0",
+      "snippet": "* info@autohausmulti.de ... * Wernher-von-Braun-Straße 9-11, 63694 - Limeshain, DEUTSCHLAND",
+      "title": "Autohaus Multi – Ihrem Opel Service-Partner in Limeshain-Rommelhausen",
+      "url": "https://www.autohausmulti.de/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autohausmulti.de",
+      "ref_id": "turn49search1",
+      "snippet": "* Wernher-von-Braun-Straße 9-11, 63694 - Limeshain, DEUTSCHLAND ... * Email: info@autohausmulti.de",
+      "title": "KONTAKT – Autohaus Multi",
+      "url": "https://www.autohausmulti.de/kontakt/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn49search2",
+      "snippet": "# 50 Bewertungen für Autohaus Multi GmbH ... DE-63694 Limeshain ... Ab sofort gibt es bei mobile.de eine Händlerbewertung, die dir einen schnellen Überblick über",
+      "title": "Autohaus Multi GmbH | Rezensionen & Bewertungen | 63694 Limeshain",
+      "url": "https://www.mobile.de/bewertungen/AUTOHAUSMULTIGMBH"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.multipart.de",
+      "ref_id": "turn49search3",
+      "snippet": "0 | 63694 | Limeshain | Autohaus Multi GmbH | Freie KFZ-Werkstatt & Opel-Servicepartner | 06047/96345 | @ (info@autohausmulti.de)",
+      "title": "Gebrauchtwagengarantie in Limeshain - Autohaus Multi GmbH",
+      "url": "https://www.multipart.de/spezialisten/autohaus-multi-gmbh/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.opel-autohausmulti-limeshain.de",
+      "ref_id": "turn49search4",
+      "snippet": "Autohaus Multi GmbH Wernher-von-Braun-Str.9, 63694 Limeshain-Rommelhausen",
+      "title": "Kontakt & Öffnungszeiten | Autohaus Multi GmbH",
+      "url": "https://www.opel-autohausmulti-limeshain.de/uber-uns/kontakt"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn49search5",
+      "snippet": "# Autohaus Multi GmbH in Limeshain",
+      "title": "Autohaus Multi GmbH in Limeshain",
+      "url": "https://home.mobile.de/home/index.html?customerId=27952583"
+    },
+    {
+      "type": "text_result",
+      "domain": "autohausmulti.go1a.de",
+      "ref_id": "turn49search6",
+      "snippet": "Autohaus Multi ... 63694 Limeshain ... CENTRO Verwaltungs-GmbH",
+      "title": "Impressum",
+      "url": "https://autohausmulti.go1a.de/impressum/"
+    },
+    {
+      "type": "text_result",
+      "domain": "kh-giessen.de",
+      "ref_id": "turn49search7",
+      "snippet": "Autohaus Multi GmbH ... 63694 Limeshain",
+      "title": "Mitglieder Innung des Kraftfahrzeuggewerbes | KH Giessen",
+      "url": "https://kh-giessen.de/innungen/innung-des-kraftfahrzeuggewerbes-oberhessen/mitglieder-der-kraftfahrzeug-innung-oberhessen/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.de",
+      "ref_id": "turn49search8",
+      "snippet": "# Autohaus Multi GmbH ... 9-11, 63694 Limeshain",
+      "title": "Aktuelle Fahrzeuge von Autohaus Multi GmbH in Limeshain | AutoScout24",
+      "url": "https://www.autoscout24.de/haendler/autohaus-multi-gmbh"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.de",
+      "ref_id": "turn49search9",
+      "snippet": "# Autohaus Multi GmbH ... 9-11, 63694 Limeshain",
+      "title": "Bewertungen von Autohaus Multi GmbH in Limeshain | AutoScout24",
+      "url": "https://www.autoscout24.de/haendler/autohaus-multi-gmbh/bewertungen"
+    },
+    {
+      "type": "text_result",
+      "domain": "autohausmulti.go1a.de",
+      "ref_id": "turn49search10",
+      "snippet": "Montags und Donnerstags bei uns im Haus. ... Startklar ins neue Jahr: Die unterschätzten Servicepunkte Der Jahreswechsel ist der perfekte Zeitpunkt, Ihrem Auto ein wenig",
+      "title": "Autohaus Multi",
+      "url": "https://autohausmulti.go1a.de/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.hessen.jobs",
+      "ref_id": "turn49search11",
+      "snippet": "Autohaus Multi GmbH - Limeshain",
+      "title": "Kfz-Mechatroniker / Kfz-Mechaniker (m/w/d) gesucht - Limeshain | hessen.jobs",
+      "url": "https://www.hessen.jobs/job/kfz-mechatroniker-kfz-mechaniker-m-w-d-gesucht-17690647"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.justiz-auktion.de",
+      "ref_id": "turn49search12",
+      "snippet": " Autohaus Multi GmbH, DE-63694 Limeshain, +49 (0)173 -",
+      "title": "Marktanalyse Nr. 1.360.366",
+      "url": "https://www.justiz-auktion.de/uplimg/mb11843_6ce2d926fa3fdc72be72117aa218069e_doc1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.opel.de",
+      "ref_id": "turn49search13",
+      "snippet": "| Autohaus Multi GmbH | Wernher-von-Braun-Str.9 | 63694 | Limeshain-Rommelhausen | Angebot anfragen |",
+      "title": "<visual_element id=\"e1\">",
+      "url": "https://www.opel.de/content/dam/opel/germany/angebote/service/june-2025/20250612_TEILNAHME_5plus_Service_OPEL.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.dzbank-wertpapiere.de",
+      "ref_id": "turn49search14",
+      "snippet": "(2) Erfüllungsort ist Frankfurt am Main.",
+      "title": "Endgültige Bedingungen Nr. 182770 vom 4. Juni 2026",
+      "url": "https://www.dzbank-wertpapiere.de/filedb/deliver/xuuid/g001e1a246d12572dc813c0f0a46f84f12ab/name/Endg%C3%BCltige%2BBedingungen"
+    }
+  ]
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_I8HDUHYye0wsOH8r7mHIEaKO",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5ef419ac-ba57-4b74-8726-c9bdb23db2aa",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nlet t=await(await fetch('https://www.mobile.de/en/car/mercedes-benz/s-400')).text();let s=[...t.matchAll(/self\\\\.__next_f\\\\.push\\\\(\\\\[1,(\\\"(?:\\\\\\\\.|[\"'^\"'\"\\\\\\\\])*\\\")\\\\]\\\\)/g)].map(m=>JSON.parse(m[1])).join('');console.log(s.length);console.log(s.slice(0,300));console.log(t.match(/.{0,100}pageNumber.{0,150}/g)?.slice(0,3));console.log(t.match(/.{0,100}2021.{0,180}/g)?.slice(-10));\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "59594",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nlet t=await(await fetch('https://www.mobile.de/en/car/mercedes-benz/s-400')).text();let s=[...t.matchAll(/self\\.__next_f\\.push\\(\\[1,(\"(?:\\\\.|[^\"\\\\])*\")\\]\\)/g)].map(m=>JSON.parse(m[1])).join('');console.log(s.length);console.log(s.slice(0,300));console.log(t.match(/.{0,100}pageNumber.{0,150}/g)?.slice(0,3));console.log(t.match(/.{0,100}2021.{0,180}/g)?.slice(-10));\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "696227\n1:\"$Sreact.fragment\"\ne:I[563491,[\"https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/31qpdintufbsv.js\",\"https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/0mdu1bn8n61p4.js\",\"https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/0tt1n8y-8plx\n[\n  'alerfinancing\\\\\",\\\\\"finBank\\\\\":\\\\\"Santander\\\\\"}],\\\\\"searchId\\\\\":\\\\\"c6e3d8d0-42b5-d07f-1d34-eae282ddca68\\\\\",\\\\\"pageNumber\\\\\":1},\\\\\"selectedMode\\\\\":\\\\\"SystemMode\\\\\"}]\\\\n4f:[\\\\\"$\\\\\",\\\\\"$L55\\\\\",null,{\\\\\"eventScope\\\\\":\\\\\"feature-save-search-srp\\\\\",\\\\\"searchResults\\\\\":\\\\\"$4e:props:searchResul',\n  '-19-44469966803616-1\\\\\",{\\\\\"children\\\\\":null}]]]}]\\\\nc2:[\\\\\"$\\\\\",\\\\\"$Ld3\\\\\",null,{\\\\\"numResultsTotal\\\\\":485,\\\\\"pageNumber\\\\\":1,\\\\\"searchId\\\\\":\\\\\"c6e3d8d0-42b5-d07f-1d34-eae282ddca68\\\\\",\\\\\"searchParams\\\\\":\\\\\"$61:props:children:2:props:children:0:props:children:0:props:searchParam'\n]\n[\n  '24\">2024</option><option value=\"2023\">2023</option><option value=\"2022\">2022</option><option value=\"2021\">2021</option><option value=\"2020\">2020</option><option value=\"2019\">2019</option><option value=\"2018\">2018</option><option value=\"2017\">2017</option><option value=\"2016\">2016</op',\n  '24\">2024</option><option value=\"2023\">2023</option><option value=\"2022\">2022</option><option value=\"2021\">2021</option><option value=\"2020\">2020</option><option value=\"2019\">2019</option><option value=\"2018\">2018</option><option value=\"2017\">2017</option><option value=\"2016\">2016</op',\n  '024\\\\\"},{\\\\\"label\\\\\":\\\\\"2023\\\\\",\\\\\"value\\\\\":\\\\\"2023\\\\\"},{\\\\\"label\\\\\":\\\\\"2022\\\\\",\\\\\"value\\\\\":\\\\\"2022\\\\\"},{\\\\\"label\\\\\":\\\\\"2021\\\\\",\\\\\"value\\\\\":\\\\\"2021\\\\\"},{\\\\\"label\\\\\":\\\\\"2020\\\\\",\\\\\"value\\\\\":\\\\\"2020\\\\\"},{\\\\\"label\\\\\":\\\\\"2019\\\\\",\\\\\"value\\\\\":\\\\\"2019\\\\\"},{\\\\\"label\\\\\":\\\\\"2018\\\\\",\\\\\"value\\\\\":\\\\\"2018\\\\\"},{\\\\\"label\\\\\":\\\\\"2017\\\\\",\\\\\"value\\\\\":\\\\\"2017\\\\',\n  '\"i\\\\\":18975,\\\\\"n\\\\\":\\\\\"Oldsmobile\\\\\"},{\\\\\"i\\\\\":32380,\\\\\"n\\\\\":\\\\\"OMODA\\\\\"},{\\\\\"i\\\\\":19000,\\\\\"n\\\\\":\\\\\"Opel\\\\\"},{\\\\\"i\\\\\":32021,\\\\\"n\\\\\":\\\\\"Packard\\\\\"},{\\\\\"i\\\\\":149,\\\\\"n\\\\\":\\\\\"Pagani\\\\\"},{\\\\\"i\\\\\":19300,\\\\\"n\\\\\":\\\\\"Peugeot\\\\\"},{\\\\\"i\\\\\":19600,\\\\\"n\\\\\":\\\\\"Piaggio\\\\\"},{\\\\\"i\\\\\":19800,\\\\\"n\\\\\":\\\\\"Plymouth\\\\\"},{\\\\\"i\\\\\":4,\\\\\"n\\\\\":\\\\\"Polestar\\\\\"},{\\\\\"i\\\\',\n  'stration\\\\\",\\\\\"filterName\\\\\":\\\\\"FirstRegistrationYearMin\\\\\",\\\\\"filterParameter\\\\\":\\\\\"fr\\\\\",\\\\\"filterValue\\\\\":\\\\\"2021\\\\\"},\\\\\"suggestionLabel\\\\\":\\\\\"2021\\\\\",\\\\\"searchUrl\\\\\":\\\\\"/fahrzeuge/search.html?ms=17200%3B87\\\\u0026fr=2021\\\\u0026sb=ll\\\\u0026ref=seoSrpRecommender\\\\\"},{\\\\\"suggestion\\\\\":{\\\\\"filterId\\\\\":\\\\\"first_re',\n  '\",\\\\\"value\\\\\":\\\\\"32380\\\\\"},{\\\\\"label\\\\\":\\\\\"Opel\\\\\",\\\\\"value\\\\\":\\\\\"19000\\\\\"},{\\\\\"label\\\\\":\\\\\"Packard\\\\\",\\\\\"value\\\\\":\\\\\"32021\\\\\"},{\\\\\"label\\\\\":\\\\\"Pagani\\\\\",\\\\\"value\\\\\":\\\\\"149\\\\\"},{\\\\\"label\\\\\":\\\\\"Peugeot\\\\\",\\\\\"value\\\\\":\\\\\"19300\\\\\"},{\\\\\"label\\\\\":\\\\\"Piaggio\\\\\",\\\\\"value\\\\\":\\\\\"19600\\\\\"},{\\\\\"label\\\\\":\\\\\"Plymouth\\\\\",\\\\\"value\\\\\":\\\\\"19800\\\\\"},{\\\\',\n  '\",\\\\\"value\\\\\":\\\\\"32380\\\\\"},{\\\\\"label\\\\\":\\\\\"Opel\\\\\",\\\\\"value\\\\\":\\\\\"19000\\\\\"},{\\\\\"label\\\\\":\\\\\"Packard\\\\\",\\\\\"value\\\\\":\\\\\"32021\\\\\"},{\\\\\"label\\\\\":\\\\\"Pagani\\\\\",\\\\\"value\\\\\":\\\\\"149\\\\\"},{\\\\\"label\\\\\":\\\\\"Peugeot\\\\\",\\\\\"value\\\\\":\\\\\"19300\\\\\"},{\\\\\"label\\\\\":\\\\\"Piaggio\\\\\",\\\\\"value\\\\\":\\\\\"19600\\\\\"},{\\\\\"label\\\\\":\\\\\"Plymouth\\\\\",\\\\\"value\\\\\":\\\\\"19800\\\\\"},{\\\\'\n]\n",
+  "exitCode": 0,
+  "durationMs": 1062
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-c561929c-4a11-4425-aab3-883a38b506a9",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfor(const u of ['https://www.mobile.de/en/car/mercedes-benz/s-400?pageNumber=2','https://www.mobile.de/en/car/mercedes-benz/s-400?fr=2021%3A2021','https://home.mobile.de/AUTOHAUSMULTIGMBH?pageNumber=3']){let r=await fetch(u);let t=await r.text();let s=[...t.matchAll(/self\\\\.__next_f\\\\.push\\\\(\\\\[1,(\\\"(?:\\\\\\\\.|[\"'^\"'\"\\\\\\\\])*\\\")\\\\]\\\\)/g)].map(m=>JSON.parse(m[1])).join(''); console.log(u,r.status,t.length);console.log(s.match(/\\\"pageNumber\\\":\\\\d+/g)?.slice(0,3));let i=s.indexOf('245.000');console.log(s.slice(i-300,i+1000));console.log(s.match(/\\\"title\\\":\\\"Mercedes-Benz S 400[\"'^'\"\\\\n]{0,200}/g)?.slice(0,2));}\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "19756",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfor(const u of ['https://www.mobile.de/en/car/mercedes-benz/s-400?pageNumber=2','https://www.mobile.de/en/car/mercedes-benz/s-400?fr=2021%3A2021','https://home.mobile.de/AUTOHAUSMULTIGMBH?pageNumber=3']){let r=await fetch(u);let t=await r.text();let s=[...t.matchAll(/self\\.__next_f\\.push\\(\\[1,(\"(?:\\\\.|[^\"\\\\])*\")\\]\\)/g)].map(m=>JSON.parse(m[1])).join(''); console.log(u,r.status,t.length);console.log(s.match(/\"pageNumber\":\\d+/g)?.slice(0,3));let i=s.indexOf('245.000');console.log(s.slice(i-300,i+1000));console.log(s.match(/\"title\":\"Mercedes-Benz S 400[^\\n]{0,200}/g)?.slice(0,2));}\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "https://www.mobile.de/en/car/mercedes-benz/s-400?pageNumber=2 200 1269170\n[ '\"pageNumber\":1', '\"pageNumber\":1' ]\n\n[\n  '\"title\":\"Mercedes-Benz S 400 Hyb LUFT+PANO+SOFT+KAM+LED+H&K+COMAN+MUTIK\",\"children\":\"$undefined\"}],false,[\"$\",\"div\",null,{\"className\":\"_ivVLF\",\"data-testid\":\"base-result-listing-1-price-section\",\"children\":[[\"$\",\"div\",null,{\"cla',\n  '\"title\":\"Mercedes-Benz S 400 HYBRID \",\"children\":\"$undefined\"}],false,[\"$\",\"div\",null,{\"className\":\"_ivVLF\",\"data-testid\":\"base-result-listing-2-price-section\",\"children\":[[\"$\",\"div\",null,{\"className\":\"$undefined\",\"data-testid\":'\n]\nhttps://www.mobile.de/en/car/mercedes-benz/s-400?fr=2021%3A2021 200 1258478\n[ '\"pageNumber\":1', '\"pageNumber\":1', '\"pageNumber\":1' ]\n\n[\n  '\"title\":\"Mercedes-Benz S 400 Hyb LUFT+PANO+SOFT+KAM+LED+H&K+COMAN+MUTIK\",\"children\":\"$undefined\"}],false,[\"$\",\"div\",null,{\"className\":\"_ivVLF\",\"data-testid\":\"base-result-listing-1-price-section\",\"children\":[[\"$\",\"div\",null,{\"cla',\n  '\"title\":\"Mercedes-Benz S 400 HYBRID \",\"children\":\"$undefined\"}],false,[\"$\",\"div\",null,{\"className\":\"_ivVLF\",\"data-testid\":\"base-result-listing-2-price-section\",\"children\":[[\"$\",\"div\",null,{\"className\":\"$undefined\",\"data-testid\":'\n]\nhttps://home.mobile.de/AUTOHAUSMULTIGMBH?pageNumber=3 200 435865\n[ '\"pageNumber\":3', '\"pageNumber\":3' ]\n\nundefined\n",
+  "exitCode": 0,
+  "durationMs": 1503
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-45e1e157-d664-4387-abe3-59e8b3f17cc1",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfor(let p=1;p<=3;p++){let t=await(await fetch('https://home.mobile.de/AUTOHAUSMULTIGMBH?pageNumber='+p)).text();let s=[...t.matchAll(/self\\\\.__next_f\\\\.push\\\\(\\\\[1,(\\\"(?:\\\\\\\\.|[\"'^\"'\"\\\\\\\\])*\\\")\\\\]\\\\)/g)].map(m=>JSON.parse(m[1])).join('');let i=s.indexOf('S400d');console.log(p,i,s.slice(i-750,i+1000));console.log(s.match(/\\\"title\\\":\\\"Mercedes-Benz S 400.{0,550}/g)?.slice(0,3));}\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "49597",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfor(let p=1;p<=3;p++){let t=await(await fetch('https://home.mobile.de/AUTOHAUSMULTIGMBH?pageNumber='+p)).text();let s=[...t.matchAll(/self\\.__next_f\\.push\\(\\[1,(\"(?:\\\\.|[^\"\\\\])*\")\\]\\)/g)].map(m=>JSON.parse(m[1])).join('');let i=s.indexOf('S400d');console.log(p,i,s.slice(i-750,i+1000));console.log(s.match(/\"title\":\"Mercedes-Benz S 400.{0,550}/g)?.slice(0,3));}\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "1 -1 \nundefined\n2 -1 \nundefined\n3 169297 ealistische Preisbewertung vornehmen.\"},\"segment\":\"Car\",\"title\":\"Volkswagen Sharan Pacific Navi Klima Tempomat Sitzh Kühlbox\",\"vc\":\"Car\",\"category\":\"Van/Minibus\",\"id\":459098644,\"price\":{\"grs\":{\"amount\":2790,\"currency\":\"EUR\",\"localized\":\"2.790 €\"},\"type\":\"FIXED\"},\"kba\":{\"hsn\":\"0603\",\"tsn\":\"AEJ\"},\"customDimensions\":{\"10\":\"gold\"}},{\"isEyeCatcher\":false,\"numImages\":42,\"attr\":{\"cn\":\"DE\",\"z\":\"63694\",\"loc\":\"Limeshain\",\"fr\":\"09/2022\",\"pw\":\"243 kW (330 PS)\",\"ft\":\"Diesel\",\"ml\":\"140.000 km\",\"cc\":\"2.925 cm³\",\"tr\":\"Automatik\",\"gi\":\"Neu\",\"ecol\":\"Schwarz\",\"eu\":\"Deutsche Ausführung\",\"door\":\"4/5\",\"sc\":\"5\",\"c\":\"Limousine\",\"emc\":\"Euro6d\",\"pvo\":\"1\",\"nw\":\"2.090 kg\"},\"siteId\":\"GERMANY\",\"p\":\"79.500 €\",\"st\":\"Händler\",\"shortTitle\":\"Mercedes-Benz S 400\",\"subTitle\":\"S400d 4M L AMG Night Chauffeur Fond HuD 3D 5Sit\",\"hasDamage\":false,\"isVideoEnabled\":false,\"contact\":{\"type\":\"Händler\",\"country\":\"DE\",\"enumType\":\"DEALER\",\"name\":\"Autohaus Multi GmbH\",\"address1\":\"Wernher-von-Braun-Straße 9-11\",\"phones\":[{\"type\":\"MOBILE\",\"number\":\"+49 (0)1575 4407935\",\"uri\":\"tel:+4915754407935\"},{\"type\":\"MOBILE\",\"number\":\"+49 (0)173 1423196\",\"uri\":\"tel:+491731423196\"},{\"type\":\"FAX\",\"number\":\"+49 6047 963479\"}],\"messengers\":[{\"type\":\"WHATS_APP\",\"number\":\"+49 173 1423196\",\"uri\":\"https://wa.me/491731423196?ref=wa\"}],\"latLong\":{\"lat\":50.2595386,\"lon\":8.9786801},\"rating\":{\"count\":5,\"totalCount\":50,\"score\":4.7,\"scoreLocalized\":\"4,7\",\"link\":\"https://www.mobile.de/bewertungen/AUTOHAUSMULTIGMBH?lang=de\"},\"logo\":\"img.classistatic.de/api/v1/mo-prod/images/d4/d40b17cb-59e8-4f47-ade5-2656a0e4184c\",\"canBeFollowed\":true},\"created\":1789897712,\"modified\":1791630031,\"renewed\":1789897712,\"version\":26,\"makeId\":17200,\"modelId\":87,\"make\":{\"id\":\"17200\",\"localized\":\"Mercedes-Benz\"},\"model\":{\"id\"\nundefined\n",
+  "exitCode": 0,
+  "durationMs": 1618
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-7182a193-aab8-4eaf-9f3c-5b99cf5d5cc8",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfor(const u of ['https://www.mobile.de/en/car/mercedes-benz/s-400/yr_2021','https://www.mobile.de/en/car/mercedes-benz/s-400?pg=2','https://www.mobile.de/fahrzeuge/search.html?ms=17200%3B87&fr=2021%3A2021&sb=p&od=up']){let r=await fetch(u);let t=await r.text();let s=[...t.matchAll(/self\\\\.__next_f\\\\.push\\\\(\\\\[1,(\\\"(?:\\\\\\\\.|[\"'^\"'\"\\\\\\\\])*\\\")\\\\]\\\\)/g)].map(m=>JSON.parse(m[1])).join('');console.log(u,r.url,r.status,t.length,s.match(/\\\"numResultsTotal\\\":\\\\d+/g)?.slice(0,1),s.match(/\\\"pageNumber\\\":\\\\d+/g)?.slice(0,1));}\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "70613",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfor(const u of ['https://www.mobile.de/en/car/mercedes-benz/s-400/yr_2021','https://www.mobile.de/en/car/mercedes-benz/s-400?pg=2','https://www.mobile.de/fahrzeuge/search.html?ms=17200%3B87&fr=2021%3A2021&sb=p&od=up']){let r=await fetch(u);let t=await r.text();let s=[...t.matchAll(/self\\.__next_f\\.push\\(\\[1,(\"(?:\\\\.|[^\"\\\\])*\")\\]\\)/g)].map(m=>JSON.parse(m[1])).join('');console.log(u,r.url,r.status,t.length,s.match(/\"numResultsTotal\":\\d+/g)?.slice(0,1),s.match(/\"pageNumber\":\\d+/g)?.slice(0,1));}\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "https://www.mobile.de/en/car/mercedes-benz/s-400/yr_2021 https://www.mobile.de/en/car/mercedes-benz/s-400/yr_2021 404 218827 undefined undefined\nhttps://www.mobile.de/en/car/mercedes-benz/s-400?pg=2 https://www.mobile.de/en/car/mercedes-benz/s-400?pg=2 200 1269532 [ '\"numResultsTotal\":485' ] [ '\"pageNumber\":1' ]\nhttps://www.mobile.de/fahrzeuge/search.html?ms=17200%3B87&fr=2021%3A2021&sb=p&od=up https://www.mobile.de/fahrzeuge/search.html?ms=17200%3B87&fr=2021%3A2021&sb=p&od=up 403 7833 undefined undefined\n",
+  "exitCode": 0,
+  "durationMs": 954
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-6badb6cd-97e9-4d50-a0c7-f9ad5b7046ca",
+  "query": "\"S 400\" \"2021\" \"61.940\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"S 400\" \"2021\" \"61.940\"",
+      "site.mobile.de \"S 400\" \"2021\" \"59.950\"",
+      "site.mobile.de \"S 400\" \"2021\" \"59.900\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.de",
+      "ref_id": "turn51search0",
+      "snippet": "# 136 Angebote für Mercedes-Benz S-Klasse aus 2021 ... ## Mercedes-Benz S 400 d 4MATIC AHK+PANORAMA+DISTRONIC+360°+19\" ... € 61.940^{1}Sehr guter Preis",
+      "title": "Mercedes-Benz S-Klasse aus 2021 gebraucht kaufen - AutoScout24 Deutschland",
+      "url": "https://www.autoscout24.de/lst/mercedes-benz/s-klasse/re_2021"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.dasimport.nl",
+      "ref_id": "turn51search1",
+      "snippet": "# Mercedes-Benz S 400 occasion ... 07/2021 ... Totaal | 61.940,00 |",
+      "title": "Mercedes-Benz S 400 occasion uit Duitsland - 2021/7 / € 61.940,- all-in prijs",
+      "url": "https://www.dasimport.nl/occasions/mercedes-benz/s-400/od-13066509"
+    },
+    {
+      "type": "text_result",
+      "domain": "autosupermarket.it",
+      "ref_id": "turn51search2",
+      "snippet": "59.900 € Mercedes-Benz Classe SImage: Mercedes-Benz Classe S Classe s - w223 - s 400 d premium plus 4matic auto Nero usata Narni ... Immatricolazione",
+      "title": "Mercedes-Benz Classe S Classe s - w223 - s 400 d premium plus 4matic auto Usata Diesel con 124.338 km a Narni (TR) - AutoSuperMarket",
+      "url": "https://autosupermarket.it/annunci/mercedes-benz-classe-s-400-d-diesel-2021-498fe74878d5d475"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.comparis.ch",
+      "ref_id": "turn51search3",
+      "snippet": "Merken Mercedes-Benz S 400 4.5 / 6 S 400 d L AMG Line 9G-Tronic CHF 84'900 Versicherung vergleichen 59.900 km 04.2021 Diesel 330 PS Automat",
+      "title": "Mercedes-Benz S 400 2021 – Preise und technische Daten",
+      "url": "https://www.comparis.ch/carfinder/marktplatz/mercedes-benz/s-klasse/s-400/2021"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn51search4",
+      "snippet": "8.900 € ... Image: Mercedes-Benz S 400 d L 4Matic AMG*63*MAGICSKY*3DBUR*KEY*MEMO*",
+      "title": "Autohaus Aurel in Berlin",
+      "url": "https://home.mobile.de/AUTOHAUSAUREL"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn51search5",
+      "snippet": "Image: Mercedes-Benz S 400 HYBRID AMG Massage Burmester Ambiente ... Reparierter Unfallschaden • EZ 05/2021 • 31.000 km • 295 kW (401 PS) • Benzin",
+      "title": "444 Cars GmbH in Hamm",
+      "url": "https://home.mobile.de/444CARSGMBHIG"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn51search6",
+      "snippet": "Image: mobile.de logo ... 1/2020 ... * * Image: Mercedes-Benz S 400/LIM/d/4Matic/Lang/MWST/1. ... 59.950 €",
+      "title": "Mercedes-Benz S 400 Limousine in Lohfelden kaufen",
+      "url": "https://auto.meinestadt.de/lohfelden/automarkt/100-154574-155818-609"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn51search7",
+      "snippet": "## Mercedes-Benz S400d 4Matic LANG/MASSAGE/HUD/DTR/PANO/BURMEST. ... Image: mobile.de logo59.950 € ... 1/2021",
+      "title": "Mercedes-Benz S 400 Limousine Automatik in Geeste kaufen",
+      "url": "https://auto.meinestadt.de/geeste/automarkt/100-154574-155818-2287"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto.meinestadt.de",
+      "ref_id": "turn51search8",
+      "snippet": "# Mercedes-Benz S 400 Limousine Diesel in Staufenberg/Niedersachsen ... Image: mobile.de logo ... 59.950 € ... 9/2021",
+      "title": "Mercedes-Benz S 400 Limousine Diesel in Staufenberg/Niedersachsen kaufen",
+      "url": "https://auto.meinestadt.de/staufenberg-niedersachsen/automarkt/100-154574-155818-2784"
+    },
+    {
+      "type": "text_result",
+      "domain": "city-cars-nord.de",
+      "ref_id": "turn51search9",
+      "snippet": "### Mercedes-Benz S 400 d 4Matic L BRABUS PANO+HAL+HUD+3D+FOND ... 03/2021 ... 59.974 km",
+      "title": "Auto neu oder gebraucht kaufen Kilometerstand ab 50.000 km bis 100.000 km sort sort in Tornesch - p. 2",
+      "url": "https://city-cars-nord.de/de/fahrzeugsuche.html?odometer_max=100000&odometer_min=50000&page=2&sort=__sort__"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kleinanzeigen.de",
+      "ref_id": "turn51search10",
+      "snippet": "### Mercedes S400d Langversion *Finanzierung möglich* inkl. ... 55.252 km EZ 08/2021 ... 59.900 €",
+      "title": "400 Sitze, Autos | kleinanzeigen.de",
+      "url": "https://www.kleinanzeigen.de/s-autos/400-sitze/k0c216%2Bautos.anzahl_tueren_s%3A4_5"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn51search11",
+      "snippet": "### Mercedes-Benz S 400 d 4Matic 9G HUD Pano KeyGo Sitzklima 360Ka ... Unfallfrei • EZ 05/2020 • 124.455 km • 250 kW (340 PS)",
+      "title": "Autoforum Mülheim GmbH in Mülheim an der Ruhr",
+      "url": "https://home.mobile.de/home/index.html?customerId=12580034"
+    },
+    {
+      "type": "text_result",
+      "domain": "stor0.anuntul.ro",
+      "ref_id": "turn51search12",
+      "snippet": "130 mp, curte 293 mp, 5 cam., 2021, la cheie, ... Balotesti, DN1, S.U. 400 mp, curte 5000",
+      "title": "9.175 anun¡uri",
+      "url": "https://stor0.anuntul.ro/media/editii_pdf/2024/07-02-2024.pdf"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e03d49b4-9d8b-4f00-a532-d21f1f708fff",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nlet t=await(await fetch('https://www.mobile.de/en/car/mercedes-benz/s-400')).text();console.log([...t.matchAll(/href=\\\"([\"'^\"]+)\"/g)].map(m=>m[1]).filter(x=>/page|pgn|2021|fr_|p_/.test(x)).slice(-40));let s=[...t.matchAll(/self'\"\\\\.__next_f\\\\.push\\\\(\\\\[1,(\\\"(?:\\\\\\\\.|[\"'^\"'\"\\\\\\\\])*\\\")\\\\]\\\\)/g)].map(m=>JSON.parse(m[1])).join('');console.log(s.match(/.{0,150}pagination.{0,1200}/gi)?.slice(0,2));\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "72990",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nlet t=await(await fetch('https://www.mobile.de/en/car/mercedes-benz/s-400')).text();console.log([...t.matchAll(/href=\"([^\"]+)\"/g)].map(m=>m[1]).filter(x=>/page|pgn|2021|fr_|p_/.test(x)).slice(-40));let s=[...t.matchAll(/self\\.__next_f\\.push\\(\\[1,(\"(?:\\\\.|[^\"\\\\])*\")\\]\\)/g)].map(m=>JSON.parse(m[1])).join('');console.log(s.match(/.{0,150}pagination.{0,1200}/gi)?.slice(0,2));\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "[]\n[\n  'app-next/_next/static/chunks/1_91phtr2qlw6.js\",\"https://static.classistatic.de/consumer-webapp-next/_next/static/chunks/2hm7sgirvx36x.js\"],\"ResultListPagination\"]'\n]\n",
+  "exitCode": 0,
+  "durationMs": 869
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_rYh8z0sdZ3Smpv5qoP05evY4",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-f759e919-63af-4e11-8e52-6f70f3735a69",
+  "query": "site.home.mobile.de \"S&G Automobil AG\" Karlsruhe ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.home.mobile.de \"S&G Automobil AG\" Karlsruhe",
+      "\"S 400\" \"AMG 21 BURMESTER PANO FULL\" \"Frankfurt\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn54search0",
+      "snippet": "# S&G Automobil AG - autorisierter Mercedes-Benz Verkauf und Service in Karlsruhe ... Fahrzeugkategorie",
+      "title": "S&G Automobil AG - autorisierter Mercedes-Benz Verkauf und Service in Karlsruhe",
+      "url": "https://home.mobile.de/SUG-KARLSRUHE"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn54search1",
+      "snippet": "# S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Karlsruhe ... Vorführfahrzeug • EZ 05/2025 • 35.223 km • 120 kW (163 PS) •",
+      "title": "S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Karlsruhe",
+      "url": "https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn54search2",
+      "snippet": "# S&G Automobil AG - autorisierter Mercedes-Benz Verkauf und Service in Karlsruhe",
+      "title": "S&G Automobil AG - autorisierter Mercedes-Benz Verkauf und Service in Karlsruhe",
+      "url": "https://home.mobile.de/home/index.html?customerId=460531"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn54search3",
+      "snippet": "# S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Bruchsal ... Unfallfrei • Vorführfahrzeug • EZ 08/2026 • 10.000 km • 145 kW (197",
+      "title": "S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Bruchsal",
+      "url": "https://home.mobile.de/SUG-BRUCHSAL"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn54search4",
+      "snippet": "# S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Bruchsal",
+      "title": "S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Bruchsal",
+      "url": "https://home.mobile.de/home/index.html?customerId=451595"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn54search5",
+      "snippet": "EZ 12/2021 • 74.020 km • 110 kW (150 PS) • Diesel ... Image: Skoda Kodiaq 2.0 TDI Sportline 4x4 NAVIGATION+LED+20\" ... Unfallfrei • Vorführfahrzeug",
+      "title": "S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Karlsruhe",
+      "url": "https://home.mobile.de/home/index.html?customerId=451597"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn54search6",
+      "snippet": "# 68 Bewertungen für S&G Automobil AG - autorisierter Mercedes-Benz Verkauf und Service ... mobile.de Nutzer ... Antwort von S&G Automobil AG - autorisierter Mercedes-Benz",
+      "title": "S&G Automobil AG - autorisierter Mercedes-Benz Verkauf und Service | Rezensionen & Bewertungen | 76139 Karlsruhe",
+      "url": "https://www.mobile.de/bewertungen/SUG-KARLSRUHE"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn54search7",
+      "snippet": "# 184 Bewertungen für S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service ... Wir hoffen, Sie haben viel Freude an Ihrem neuen Fahrzeug und wünschen",
+      "title": "S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service | Rezensionen & Bewertungen | 76185 Karlsruhe",
+      "url": "https://www.mobile.de/bewertungen/SUG-GEBRAUCHTWAGEN-KARLSRUHE"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn54search8",
+      "snippet": "# S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Bretten ... Unfallfrei • Vorführfahrzeug • EZ 09/2026 • 10.000 km • 145 kW (197",
+      "title": "S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Bretten",
+      "url": "https://home.mobile.de/SUG-NL-BRUCHSAL-BRETTEN"
+    },
+    {
+      "type": "text_result",
+      "domain": "openregister.de",
+      "ref_id": "turn54search9",
+      "snippet": "S&G Automobil AG, Karlsruhe | OpenRegister",
+      "title": "S&G Automobil AG, Karlsruhe",
+      "url": "https://openregister.de/company/DE-HRB-B1601-108015"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn54search10",
+      "snippet": "# S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Offenburg",
+      "title": "S&G Automobil AG autorisierter Mercedes-Benz Verkauf und Service in Offenburg",
+      "url": "https://home.mobile.de/SUG-GEBRAUCHTWAGEN-OFFENBURG"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sug.de",
+      "ref_id": "turn54search11",
+      "snippet": "Karlsruhe S&G Automobil AG",
+      "title": "Autohaus Mercedes-Benz: Alle S&G Standorte direkt in Ihrer Nähe",
+      "url": "https://www.sug.de/kontakt/standorte/mercedes-benz"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sug.de",
+      "ref_id": "turn54search12",
+      "snippet": "| S&G Automobil AG | Schoemperlenstraße 1476185 Karlsruhe ... | S&G Automobil AG | Industriestraße 5-7",
+      "title": "Truck Technik  |  |  |  |  |",
+      "url": "https://www.sug.de/fileadmin/user_upload/Bilder/Service/Mercedes-Benz/LKW/Trucktechnik/Preiskatalog_2024_Internet.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "storage.e.jimdo.com",
+      "ref_id": "turn54search13",
+      "snippet": "<td>S&amp;G Automobil AG</td><td>Schoemperlenstraße 14<br>76185 Karlsruhe<br>Deutschland</td> ... <td>S&amp;G Automobil AG</td>",
+      "title": "S&G Truck Technik",
+      "url": "https://storage.e.jimdo.com/file/download/17499544-3c79-4055-8d0b-ee41de737665/Preiskatalog%202024%20komprimiert.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sug.de",
+      "ref_id": "turn54search14",
+      "snippet": "S&G Automobil AG ... 76185 Karlsruhe ... S&G Automobil AG ... Daten (etwa Motortemperatur, Abstandssensor, Motordrehzahl etc.), die mit der Fahrzeugidentifikationsnummer verbunden sind, fallen",
+      "title": "Datenschutzhinweise",
+      "url": "https://www.sug.de/fileadmin/user_upload/Bilder/Datenschutz/Datenschutzhinweise_S_G_Automobil_AG_01.04.2025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "storage.e.jimdo.com",
+      "ref_id": "turn54search15",
+      "snippet": "<td>S&amp;G Automobil AG</td><td>Schoemperlenstraße 14<br>76185 Karlsruhe<br>Deutschland</td> ... <td>S&amp;G Automobil AG</td>",
+      "title": "S&G Truck Technik",
+      "url": "https://storage.e.jimdo.com/file/4d58af4f-5656-4505-9a66-d0eec1223e2b/Preiskatalog%202024%20Internet.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.taxi-zentrale-karlsruhe.de",
+      "ref_id": "turn54search16",
+      "snippet": "Yellow headline bars reading “HERZLICH WILLKOMMEN BEI” and “DER TAXI-FUNK-ZENTRALE KARLSRUHE”, followed by a paragraph about the company founded in 1970, more than 300 drivers",
+      "title": "72956_Taxi_V1_DS.indd",
+      "url": "https://www.taxi-zentrale-karlsruhe.de/images/PDF/Taxizentrale-Karlsruhe.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sug.de",
+      "ref_id": "turn54search17",
+      "snippet": "So feiert das neue Mercedes-Benz CLA Coupé im Juli Premiere – und wir können Ihnen vorab schon das CLA Concept Car vorstellen. ... Apropos faszinierende",
+      "title": "Inhalt\n\nLiebe Leserinnen, liebe Leser,\n\nes wird wi",
+      "url": "https://www.sug.de/fileadmin/user_upload/Bilder/Unternehmen/VIA/via_Fruehjahr_2025/Ansicht_SuG_VIA_Fruehjahr_2025_AG.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn54search18",
+      "snippet": "Die heutige Geschäftsleitung der S&G Automobil AG besteht aus Christian Ullrich, Daniel Daufer und Stephan Kinzel als Geschäftsführer der S&G GmbH. ... Es wurde die",
+      "title": "S&G Automobil",
+      "url": "https://de.wikipedia.org/wiki/S%26G_Automobil"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn54view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-49910a89-c5a1-4b79-9724-5672fcf36485",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nawait Promise.all(Array.from({length:11},(_,i)=>i+1).map(async p=>{let u='https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber='+p;let t=await(await fetch(u)).text();let s=[...t.matchAll(/self\\\\.__next_f\\\\.push\\\\(\\\\[1,(\\\"(?:\\\\\\\\.|[\"'^\"'\"\\\\\\\\])*\\\")\\\\]\\\\)/g)].map(m=>JSON.parse(m[1])).join('');for(let m of s.matchAll(/\\\"shortTitle\\\":\\\"Mercedes-Benz S 400\\\"/g)){let a=s.lastIndexOf('{\\\"isEyeCatcher\\\"',m.index);let b=s.indexOf('},{\\\"isEyeCatcher\\\"',m.index);let j=JSON.parse(s.slice(a,b+1));console.log(JSON.stringify({url:u,id:j.id,price:j.price,attr:j.attr,title:j.title,hasDamage:j.hasDamage,readyToDrive:j.readyToDrive,highlights:j.highlights}));}}));\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "82202",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nawait Promise.all(Array.from({length:11},(_,i)=>i+1).map(async p=>{let u='https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber='+p;let t=await(await fetch(u)).text();let s=[...t.matchAll(/self\\.__next_f\\.push\\(\\[1,(\"(?:\\\\.|[^\"\\\\])*\")\\]\\)/g)].map(m=>JSON.parse(m[1])).join('');for(let m of s.matchAll(/\"shortTitle\":\"Mercedes-Benz S 400\"/g)){let a=s.lastIndexOf('{\"isEyeCatcher\"',m.index);let b=s.indexOf('},{\"isEyeCatcher\"',m.index);let j=JSON.parse(s.slice(a,b+1));console.log(JSON.stringify({url:u,id:j.id,price:j.price,attr:j.attr,title:j.title,hasDamage:j.hasDamage,readyToDrive:j.readyToDrive,highlights:j.highlights}));}}));\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "{\"url\":\"https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber=7\",\"id\":460407834,\"price\":{\"grs\":{\"amount\":88970,\"currency\":\"EUR\",\"localized\":\"88.970 €\"},\"nt\":{\"amount\":74764.71,\"currency\":\"EUR\",\"localized\":\"74.765 €\"},\"type\":\"FIXED\",\"vat\":19},\"attr\":{\"cn\":\"DE\",\"z\":\"76185\",\"loc\":\"Karlsruhe\",\"fr\":\"03/2023\",\"pw\":\"243 kW (330 PS)\",\"ft\":\"Diesel\",\"ml\":\"79.230 km\",\"cc\":\"2.925 cm³\",\"tr\":\"Automatik\",\"gi\":\"Neu\",\"ecol\":\"Weiß\",\"eu\":\"Deutsche Ausführung\",\"door\":\"4/5\",\"sc\":\"5\",\"c\":\"Limousine\",\"emc\":\"Euro6\",\"pvo\":\"1\"},\"title\":\"Mercedes-Benz S 400 d 4M AMG PANO+DIG-LED+HUD+360°+MEMORY+HIFI\",\"hasDamage\":false,\"readyToDrive\":true,\"highlights\":[\"DISTRONIC\",\"STANDHEIZUNG\",\"SPURHALTE\"]}\n{\"url\":\"https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber=5\",\"id\":456573117,\"price\":{\"grs\":{\"amount\":66950,\"currency\":\"EUR\",\"localized\":\"66.950 €\"},\"nt\":{\"amount\":56260.5,\"currency\":\"EUR\",\"localized\":\"56.260 €\"},\"type\":\"FIXED\",\"vat\":19},\"attr\":{\"cn\":\"DE\",\"z\":\"76185\",\"loc\":\"Karlsruhe\",\"fr\":\"03/2021\",\"pw\":\"243 kW (330 PS)\",\"ft\":\"Diesel\",\"ml\":\"102.140 km\",\"cc\":\"2.925 cm³\",\"tr\":\"Automatik\",\"gi\":\"Neu\",\"ecol\":\"Weiß\",\"eu\":\"Deutsche Ausführung\",\"door\":\"4/5\",\"sc\":\"5\",\"c\":\"Limousine\",\"emc\":\"Euro6\",\"pvo\":\"1\"},\"title\":\"Mercedes-Benz S 400 d 4M Limousine AMG PANO+360°+HIFI+MEMORY\",\"hasDamage\":false,\"readyToDrive\":true,\"highlights\":[\"DISTRONIC\",\"CARPLAY\",\"20 ZOLL\"]}\n{\"url\":\"https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber=5\",\"id\":454449745,\"price\":{\"grs\":{\"amount\":66900,\"currency\":\"EUR\",\"localized\":\"66.900 €\"},\"nt\":{\"amount\":56218.49,\"currency\":\"EUR\",\"localized\":\"56.218 €\"},\"type\":\"FIXED\",\"vat\":19},\"attr\":{\"cn\":\"DE\",\"z\":\"76185\",\"loc\":\"Karlsruhe\",\"fr\":\"07/2021\",\"pw\":\"243 kW (330 PS)\",\"ft\":\"Diesel\",\"ml\":\"112.220 km\",\"cc\":\"2.925 cm³\",\"tr\":\"Automatik\",\"gi\":\"Neu\",\"ecol\":\"Schwarz\",\"eu\":\"Deutsche Ausführung\",\"door\":\"4/5\",\"sc\":\"5\",\"c\":\"Limousine\",\"emc\":\"Euro6\",\"pvo\":\"1\"},\"title\":\"Mercedes-Benz S 400 d AMG 4M HEADUP+HIFI+DISTRO+PANO+360°+LED\",\"hasDamage\":false,\"readyToDrive\":true,\"highlights\":[\"HEADUP\",\"PANORAMA\",\"DISTRONIC\"]}\n{\"url\":\"https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber=8\",\"id\":455046471,\"price\":{\"grs\":{\"amount\":79930,\"currency\":\"EUR\",\"localized\":\"79.930 €\"},\"nt\":{\"amount\":67168.07,\"currency\":\"EUR\",\"localized\":\"67.168 €\"},\"type\":\"FIXED\",\"vat\":19},\"attr\":{\"cn\":\"DE\",\"z\":\"76185\",\"loc\":\"Karlsruhe\",\"fr\":\"03/2023\",\"pw\":\"243 kW (330 PS)\",\"ft\":\"Diesel\",\"ml\":\"164.560 km\",\"cc\":\"2.925 cm³\",\"tr\":\"Automatik\",\"ecol\":\"Schwarz\",\"eu\":\"Deutsche Ausführung\",\"door\":\"4/5\",\"sc\":\"5\",\"c\":\"Limousine\",\"emc\":\"Euro6\",\"pvo\":\"1\"},\"title\":\"Mercedes-Benz S 400 d 4M AMG Limousine Lang 360°+Pano+Night\",\"hasDamage\":false,\"readyToDrive\":true,\"highlights\":[\"Top-View / 360° Kamera\",\"Alufelgen 21 Zoll\",\"Sitzbelüftung\"]}\n",
+  "exitCode": 0,
+  "durationMs": 825
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e1770e28-ada9-499a-9d58-f54765422194",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nfor(const [u,id] of [['https://home.mobile.de/AZAUTOHANDELCRAILSHEIM',446559313],['https://home.mobile.de/AUTOSALONESSEN?pageNumber=3',419335164]]){let t=await(await fetch(u)).text();let s=[...t.matchAll(/self\\\\.__next_f\\\\.push\\\\(\\\\[1,(\\\"(?:\\\\\\\\.|[\"'^\"'\"\\\\\\\\])*\\\")\\\\]\\\\)/g)].map(m=>JSON.parse(m[1])).join('');let k=s.indexOf('\\\"id\\\":'+id+',\\\"price\\\"');let a=s.lastIndexOf('{\\\"isEyeCatcher\\\"',k);let b=s.indexOf('},{\\\"isEyeCatcher\\\"',k);let j=JSON.parse(s.slice(a,b+1));console.log(JSON.stringify({url:u,id:j.id,price:j.price,attr:j.attr,title:j.title,hasDamage:j.hasDamage,isDamageCase:j.isDamageCase,readyToDrive:j.readyToDrive,highlights:j.highlights}));}\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "43987",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nfor(const [u,id] of [['https://home.mobile.de/AZAUTOHANDELCRAILSHEIM',446559313],['https://home.mobile.de/AUTOSALONESSEN?pageNumber=3',419335164]]){let t=await(await fetch(u)).text();let s=[...t.matchAll(/self\\.__next_f\\.push\\(\\[1,(\"(?:\\\\.|[^\"\\\\])*\")\\]\\)/g)].map(m=>JSON.parse(m[1])).join('');let k=s.indexOf('\"id\":'+id+',\"price\"');let a=s.lastIndexOf('{\"isEyeCatcher\"',k);let b=s.indexOf('},{\"isEyeCatcher\"',k);let j=JSON.parse(s.slice(a,b+1));console.log(JSON.stringify({url:u,id:j.id,price:j.price,attr:j.attr,title:j.title,hasDamage:j.hasDamage,isDamageCase:j.isDamageCase,readyToDrive:j.readyToDrive,highlights:j.highlights}));}\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "{\"url\":\"https://home.mobile.de/AZAUTOHANDELCRAILSHEIM\",\"id\":446559313,\"price\":{\"grs\":{\"amount\":16660,\"currency\":\"EUR\",\"localized\":\"16.660 €\"},\"nt\":{\"amount\":14000,\"currency\":\"EUR\",\"localized\":\"14.000 €\"},\"type\":\"FIXED\",\"vat\":19},\"attr\":{\"cn\":\"DE\",\"z\":\"74564\",\"loc\":\"Crailsheim\",\"fr\":\"12/2011\",\"pw\":\"195 kW (265 PS)\",\"ft\":\"Diesel\",\"ml\":\"133.000 km\",\"cc\":\"2.987 cm³\",\"tr\":\"Automatik\",\"gi\":\"08/2027\",\"eu\":\"Deutsche Ausführung\",\"door\":\"4/5\",\"sc\":\"4\",\"c\":\"SportsCar\",\"emc\":\"Euro5\",\"pvo\":\"2\"},\"title\":\"Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt\",\"hasDamage\":false,\"readyToDrive\":true}\n{\"url\":\"https://home.mobile.de/AUTOSALONESSEN?pageNumber=3\",\"id\":419335164,\"price\":{\"grs\":{\"amount\":34950,\"currency\":\"EUR\",\"localized\":\"34.950 €\"},\"type\":\"FIXED\"},\"attr\":{\"cn\":\"DE\",\"z\":\"45141\",\"loc\":\"Essen\",\"fr\":\"10/2016\",\"pw\":\"270 kW (367 PS)\",\"ft\":\"Benzin\",\"ml\":\"212.587 km\",\"cc\":\"2.996 cm³\",\"tr\":\"Automatik\",\"gi\":\"Neu\",\"ecol\":\"Grau\",\"eu\":\"Deutsche Ausführung\",\"door\":\"2/3\",\"sc\":\"4\",\"c\":\"SportsCar\",\"emc\":\"Euro6\",\"pvo\":\"2\",\"nw\":\"2.035 kg\"},\"title\":\"Mercedes-Benz S 400 Coupe  4Matic*AMG Paket*Pano*HUD*Burmester\",\"hasDamage\":false,\"readyToDrive\":true,\"highlights\":[\"Finanzierung ab 4,99%\"]}\n",
+  "exitCode": 0,
+  "durationMs": 1141
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-d39f517a-5c75-4246-8064-0ee787ce13ee",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nconst fs=require('fs');const d={checkedAt:'2026-10-12',method:'Prețuri cerute brute, nu prețuri de tranzacționare. Minimul absolut mobile.de nu este demonstrat. Datele verificate direct provin din JSON-ul public al paginilor dealerilor mobile.de; ID-ul anunțului identifică linkul individual. Pagina individuală suchen.mobile.de este blocată HTTP 403 pentru colectarea automată.',vehicles:[{anabiModel:'Mercedes-Benz CLS 350 CDI 4MATIC',anabiYear:2011,comparisonStatus:'verified_reference',reference:{title:'Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt',url:'https://suchen.mobile.de/fahrzeuge/details.html?id=446559313',sourceUrl:'https://home.mobile.de/AZAUTOHANDELCRAILSHEIM',id:'446559313',priceEur:16660,netEur:14000,vatPercent:19,year:2011,firstRegistration:'12/2011',mileageKm:133000,powerKw:195,fuel:'Diesel',engineCc:2987,transmission:'Automată',drive:'4MATIC',seller:'A&Z Autohandel',location:'Crailsheim, Germania',emissions:'Euro 5',owners:2,seats:4,condition:'JSON dealer: hasDamage=false; readyToDrive=true. Nu echivalează cu inspecție independentă sau istoric complet fără accidente.'},quality:'Bună potrivire de an, motor, putere, tracțiune și kilometraj. Nu este dovedit minimul absolut; cel mai mic reper apropiat observat și identificat direct.',differences:['Reperul are 133.000 km, cu 9.994 km mai puțin decât cei 142.994 km afișați ANABI.','ANABI are suspensia pneumatică defectă; reperul este declarat apt de circulație. Economia aparentă trebuie redusă cu reparațiile și riscurile.','Dotările exacte și istoricul de accidente ale reperului nu sunt verificate individual.'],observedAlternatives:[{title:'CLS350 AMG-Line 4Matic',priceEur:19990,year:2011,mileageKm:150000,sourceUrl:'https://suchen.mobile.de/auto/mercedes-benz-cls-350-2011.html'},{title:'CLS350 CDI 4Matic AMG H&K STDHZ AIR LED SHD CAM',priceEur:22999,year:2011,mileageKm:149892,sourceUrl:'https://suchen.mobile.de/auto/mercedes-benz-cls-350-2011.html'}]},{anabiModel:'Mercedes-Benz S 400 4MATIC Coupé',anabiYear:2016,comparisonStatus:'verified_reference_not_minimum',reference:{title:'Mercedes-Benz S 400 Coupe 4Matic*AMG Paket*Pano*HUD*Burmester',url:'https://suchen.mobile.de/fahrzeuge/details.html?id=419335164',sourceUrl:'https://home.mobile.de/AUTOSALONESSEN?pageNumber=3',id:'419335164',priceEur:34950,year:2016,firstRegistration:'10/2016',mileageKm:212587,powerKw:270,fuel:'Benzină',engineCc:2996,transmission:'Automată',drive:'4MATIC',seller:'Autosalon Essen',location:'Essen, Germania',emissions:'Euro 6',owners:2,seats:4,color:'Gri',features:['AMG Paket','Panoramic','Head-up display','Burmester'],condition:'JSON dealer: hasDamage=false; readyToDrive=true. Nu echivalează cu verificare independentă.'},quality:'Aceeași caroserie, an, motor și putere. Reper direct verificat din Germania; un reper italian cu 50 EUR mai mic este observat fără ID individual recuperat, deci 34.950 EUR nu trebuie etichetat minim mobile.de.',differences:['Reperul are 212.587 km: cu 30.365 km peste kilometrajul ANABI afișat, dar cu 54.564 km sub înregistrarea istorică ANABI de 267.151 km.','Diferența istorică de kilometraj ANABI este mai importantă decât diferența față de kilometrajul afișat.','Dotările sunt cele din titlul reperului; nu există decodare VIN oficială a reperului.'],observedAlternatives:[{title:'S400 Coupé 4Matic Maximum',priceEur:34900,year:2016,firstRegistration:'03/2016',mileageKm:194850,powerKw:270,seller:'VASAUTO',location:'Italia',sourceUrl:'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html',status:'Observat în pagina mobile.de proaspătă; link individual nerecuperat.'},{title:'S400 Coupe*4Matic*Pano*Burmester*Nachtsicht*360',priceEur:29950,year:2016,mileageKm:244000,sourceUrl:'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html',status:'Exclus: numai index mai vechi; nu mai apare la deschiderea proaspătă.'}]},{anabiModel:'Mercedes-Benz S 400 d 4MATIC',anabiYear:2021,comparisonStatus:'insufficient_close_primary_reference',reference:null,reason:'Cel mai apropiat reper economic găsit (57.100 EUR, 216.000 km) este indexat de agregatoare, dar anunțul original individual nu a putut fi identificat/verificat. Nu trebuie prezentat ca minim verificat sau folosit pentru o bulină definitivă.',observedCandidates:[{title:'Mercedes-Benz S 400 d 4MATIC L AMG Line',priceEur:57100,year:2021,firstRegistration:'08/2021',mileageKm:216000,powerKw:243,fuel:'Diesel',transmission:'Automată',location:'Rodgau, Germania',url:null,sourceUrl:'https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400',secondarySourceUrl:'https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line',status:'Numai index secundar, neconfirmat pe mobile.de; versiune L.'},{title:'Mercedes-Benz S400 d 4Matic AMG 21 BURMESTER PANO FULL',priceEur:58980,year:2021,firstRegistration:'01/2021',mileageKm:182770,powerKw:243,location:'Frankfurt am Main, Germania',sourceUrl:'https://www.12gebrauchtwagen.de/auto/mercedes-benz/s-400?page=7',status:'Numai index secundar, neconfirmat pe mobile.de.'}],verifiedSecondaryReference:{title:'Mercedes-Benz S 400 d AMG 4M HEADUP+HIFI+DISTRO+PANO+360°+LED',url:'https://suchen.mobile.de/fahrzeuge/details.html?id=454449745',sourceUrl:'https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber=5',id:'454449745',priceEur:66900,netEur:56218.49,vatPercent:19,year:2021,firstRegistration:'07/2021',mileageKm:112220,powerKw:243,fuel:'Diesel',engineCc:2925,transmission:'Automată',drive:'4MATIC',seller:'S&G Automobil AG',location:'Karlsruhe, Germania',emissions:'Euro 6',owners:1,seats:5,features:['AMG','Head-up display','HiFi','Distronic','Panoramic','360°','LED'],condition:'hasDamage=false; readyToDrive=true.',caution:'Reper verificat direct, dar cu 96.102 km mai puțin decât ANABI și nu cel mai mic preț observat. Poate fi afișat ca reper suplimentar, fără a-l eticheta minim.'}}]};fs.mkdirSync('sources',{recursive:true});fs.writeFileSync('sources/mercedes-market.json',JSON.stringify(d,null,2));console.log('Saved',d.vehicles.length,'vehicles');\n'@ | node\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "84626",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nconst fs=require('fs');const d={checkedAt:'2026-10-12',method:'Prețuri cerute brute, nu prețuri de tranzacționare. Minimul absolut mobile.de nu este demonstrat. Datele verificate direct provin din JSON-ul public al paginilor dealerilor mobile.de; ID-ul anunțului identifică linkul individual. Pagina individuală suchen.mobile.de este blocată HTTP 403 pentru colectarea automată.',vehicles:[{anabiModel:'Mercedes-Benz CLS 350 CDI 4MATIC',anabiYear:2011,comparisonStatus:'verified_reference',reference:{title:'Mercedes-Benz CLS 350 CDI 4MATIC BlueEFFICIENCY TOP gepflegt',url:'https://suchen.mobile.de/fahrzeuge/details.html?id=446559313',sourceUrl:'https://home.mobile.de/AZAUTOHANDELCRAILSHEIM',id:'446559313',priceEur:16660,netEur:14000,vatPercent:19,year:2011,firstRegistration:'12/2011',mileageKm:133000,powerKw:195,fuel:'Diesel',engineCc:2987,transmission:'Automată',drive:'4MATIC',seller:'A&Z Autohandel',location:'Crailsheim, Germania',emissions:'Euro 5',owners:2,seats:4,condition:'JSON dealer: hasDamage=false; readyToDrive=true. Nu echivalează cu inspecție independentă sau istoric complet fără accidente.'},quality:'Bună potrivire de an, motor, putere, tracțiune și kilometraj. Nu este dovedit minimul absolut; cel mai mic reper apropiat observat și identificat direct.',differences:['Reperul are 133.000 km, cu 9.994 km mai puțin decât cei 142.994 km afișați ANABI.','ANABI are suspensia pneumatică defectă; reperul este declarat apt de circulație. Economia aparentă trebuie redusă cu reparațiile și riscurile.','Dotările exacte și istoricul de accidente ale reperului nu sunt verificate individual.'],observedAlternatives:[{title:'CLS350 AMG-Line 4Matic',priceEur:19990,year:2011,mileageKm:150000,sourceUrl:'https://suchen.mobile.de/auto/mercedes-benz-cls-350-2011.html'},{title:'CLS350 CDI 4Matic AMG H&K STDHZ AIR LED SHD CAM',priceEur:22999,year:2011,mileageKm:149892,sourceUrl:'https://suchen.mobile.de/auto/mercedes-benz-cls-350-2011.html'}]},{anabiModel:'Mercedes-Benz S 400 4MATIC Coupé',anabiYear:2016,comparisonStatus:'verified_reference_not_minimum',reference:{title:'Mercedes-Benz S 400 Coupe 4Matic*AMG Paket*Pano*HUD*Burmester',url:'https://suchen.mobile.de/fahrzeuge/details.html?id=419335164',sourceUrl:'https://home.mobile.de/AUTOSALONESSEN?pageNumber=3',id:'419335164',priceEur:34950,year:2016,firstRegistration:'10/2016',mileageKm:212587,powerKw:270,fuel:'Benzină',engineCc:2996,transmission:'Automată',drive:'4MATIC',seller:'Autosalon Essen',location:'Essen, Germania',emissions:'Euro 6',owners:2,seats:4,color:'Gri',features:['AMG Paket','Panoramic','Head-up display','Burmester'],condition:'JSON dealer: hasDamage=false; readyToDrive=true. Nu echivalează cu verificare independentă.'},quality:'Aceeași caroserie, an, motor și putere. Reper direct verificat din Germania; un reper italian cu 50 EUR mai mic este observat fără ID individual recuperat, deci 34.950 EUR nu trebuie etichetat minim mobile.de.',differences:['Reperul are 212.587 km: cu 30.365 km peste kilometrajul ANABI afișat, dar cu 54.564 km sub înregistrarea istorică ANABI de 267.151 km.','Diferența istorică de kilometraj ANABI este mai importantă decât diferența față de kilometrajul afișat.','Dotările sunt cele din titlul reperului; nu există decodare VIN oficială a reperului.'],observedAlternatives:[{title:'S400 Coupé 4Matic Maximum',priceEur:34900,year:2016,firstRegistration:'03/2016',mileageKm:194850,powerKw:270,seller:'VASAUTO',location:'Italia',sourceUrl:'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html',status:'Observat în pagina mobile.de proaspătă; link individual nerecuperat.'},{title:'S400 Coupe*4Matic*Pano*Burmester*Nachtsicht*360',priceEur:29950,year:2016,mileageKm:244000,sourceUrl:'https://suchen.mobile.de/auto/mercedes-benz-s-400-coupe.html',status:'Exclus: numai index mai vechi; nu mai apare la deschiderea proaspătă.'}]},{anabiModel:'Mercedes-Benz S 400 d 4MATIC',anabiYear:2021,comparisonStatus:'insufficient_close_primary_reference',reference:null,reason:'Cel mai apropiat reper economic găsit (57.100 EUR, 216.000 km) este indexat de agregatoare, dar anunțul original individual nu a putut fi identificat/verificat. Nu trebuie prezentat ca minim verificat sau folosit pentru o bulină definitivă.',observedCandidates:[{title:'Mercedes-Benz S 400 d 4MATIC L AMG Line',priceEur:57100,year:2021,firstRegistration:'08/2021',mileageKm:216000,powerKw:243,fuel:'Diesel',transmission:'Automată',location:'Rodgau, Germania',url:null,sourceUrl:'https://www.12gebrauchtwagen.de/stadt/mannheim/mercedes-benz/s-400',secondarySourceUrl:'https://www.autouncle.de/de/gebrauchtwagen/Mercedes/S400/t-AMG%20line',status:'Numai index secundar, neconfirmat pe mobile.de; versiune L.'},{title:'Mercedes-Benz S400 d 4Matic AMG 21 BURMESTER PANO FULL',priceEur:58980,year:2021,firstRegistration:'01/2021',mileageKm:182770,powerKw:243,location:'Frankfurt am Main, Germania',sourceUrl:'https://www.12gebrauchtwagen.de/auto/mercedes-benz/s-400?page=7',status:'Numai index secundar, neconfirmat pe mobile.de.'}],verifiedSecondaryReference:{title:'Mercedes-Benz S 400 d AMG 4M HEADUP+HIFI+DISTRO+PANO+360°+LED',url:'https://suchen.mobile.de/fahrzeuge/details.html?id=454449745',sourceUrl:'https://home.mobile.de/SUG-GEBRAUCHTWAGEN-KARLSRUHE?pageNumber=5',id:'454449745',priceEur:66900,netEur:56218.49,vatPercent:19,year:2021,firstRegistration:'07/2021',mileageKm:112220,powerKw:243,fuel:'Diesel',engineCc:2925,transmission:'Automată',drive:'4MATIC',seller:'S&G Automobil AG',location:'Karlsruhe, Germania',emissions:'Euro 6',owners:1,seats:5,features:['AMG','Head-up display','HiFi','Distronic','Panoramic','360°','LED'],condition:'hasDamage=false; readyToDrive=true.',caution:'Reper verificat direct, dar cu 96.102 km mai puțin decât ANABI și nu cel mai mic preț observat. Poate fi afișat ca reper suplimentar, fără a-l eticheta minim.'}}]};fs.mkdirSync('sources',{recursive:true});fs.writeFileSync('sources/mercedes-market.json',JSON.stringify(d,null,2));console.log('Saved',d.vehicles.length,'vehicles');\n'@ | node"
+    }
+  ],
+  "aggregatedOutput": "Saved 3 vehicles\n",
+  "exitCode": 0,
+  "durationMs": 242
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_JVMJZGbT7Spzy5MPXmOu2c1g",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-cd00dcf7-d334-4c3e-b3e9-873015b12db2",
+  "query": "site.home.mobile.de \"VASAUTO\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.home.mobile.de \"VASAUTO\"",
+      "\"S 400\" \"Rodgau\" \"2021\" \"AMG Line\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "vasauto.eu",
+      "ref_id": "turn56search0",
+      "snippet": "vasauto@outlook.com",
+      "title": "Vasauto - compravendita auto usate a Bologna e provincia | VASAUTO",
+      "url": "https://vasauto.eu/"
+    },
+    {
+      "type": "text_result",
+      "domain": "vasauto.it",
+      "ref_id": "turn56search1",
+      "snippet": "vasauto@outlook.com ... Vasauto - compravendita auto usate a Bologna e provincia ... * Home",
+      "title": "Lista Veicoli",
+      "url": "https://vasauto.it/lista-veicoli/"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn56search2",
+      "snippet": "VASAUTO IT-40068 San Lazzaro di Savena ... How many ALPINA Gebrauchtwagen von 2011 are there on mobile.de?There are 14 ALPINA Gebrauchtwagen von 2011 in total",
+      "title": "ALPINA Gebrauchtwagen von 2011 kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/alpina-2011.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "servicios.lasprovincias.es",
+      "ref_id": "turn56search12",
+      "snippet": "Anuncio inferior de Volkswagen/Vasauto con un coche gris en carretera y texto promocional. ... Incluye logotipo VW “Das Auto.” y datos de concesionarios Vasauto:",
+      "title": "MOTOR140927_LPR",
+      "url": "https://servicios.lasprovincias.es/hemeroteca-motor/Extra_Motor_LAS_PROVINCIAS_27_septiembre_2014.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "autosupermarket.it",
+      "ref_id": "turn56search3",
+      "snippet": "# VASAUTO ... Home Annunci Recensioni Mappa ... Vasiliy and Oleksandra took photos and videos to show all the parts of the car and how",
+      "title": "Recensioni VASAUTO San Lazzaro di Savena, BO - Autosupermarket",
+      "url": "https://autosupermarket.it/concessionari/emilia-romagna/bologna/vasauto/recensioni"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.it",
+      "ref_id": "turn56search4",
+      "snippet": "# Vasauto ... GRAZIE VASAUTO, GRAZIE MATTEO.",
+      "title": "Recensioni di Vasauto in San Lazzaro di Savena - Bologna | AutoScout24",
+      "url": "https://www.autoscout24.it/concessionari/vasauto/recensioni"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autoscout24.it",
+      "ref_id": "turn56search5",
+      "snippet": "# Vasauto ... E 220 d Auto Cabrio Sport plus",
+      "title": "Veicoli di Vasauto in San Lazzaro di Savena - Bologna | AutoScout24",
+      "url": "https://www.autoscout24.it/concessionari/vasauto"
+    },
+    {
+      "type": "text_result",
+      "domain": "rekvizitai.vz.lt",
+      "ref_id": "turn56search6",
+      "snippet": "## Company Vasauto, MB",
+      "title": "Vasauto, MB ( IĮ Vasauto) legal entity data, change history. Rekvizitai.lt",
+      "url": "https://rekvizitai.vz.lt/en/company/vasauto/legal-entity/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.registrucentras.lt",
+      "ref_id": "turn56search13",
+      "snippet": "**ĮĮ Vasauto, kodas 305593924**",
+      "title": "Įstaigos dalininkai įgis po Įstaigos pertvarkymo veikiančios uždarosios akcinės bendrovės akcijas proporcingai turimam esamo Įstaigos dalininko įnašui.",
+      "url": "https://www.registrucentras.lt/jar/infleid/download.do?oid=329569"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.todosbiz.es",
+      "ref_id": "turn56search7",
+      "snippet": "No hay ningún sitio web de Vasauto Concesionario Volkswagen, pero puede encontrar a Vasauto Concesionario Volkswagen en Twitter.",
+      "title": "Vasauto Concesionario Volkswagen | 963 37 92 50 | Valencia",
+      "url": "https://www.todosbiz.es/vasauto-concesionario-volkswagen"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.mobile.de",
+      "ref_id": "turn56search8",
+      "snippet": "Automol GmbH DE-46236 Bottrop ... VASAUTO IT-40068 San Lazzaro di Savena ... mobile.de'de kaç tane Mercedes-Benz R 350 var?",
+      "title": "Almanya’da ikinci el Mercedes-Benz R 350 | mobile.de",
+      "url": "https://www.mobile.de/tr/car/mercedes-benz/r-350"
+    },
+    {
+      "type": "text_result",
+      "domain": "servicios.lasprovincias.es",
+      "ref_id": "turn56search14",
+      "snippet": "El Fiesta estrena retoques y motores para el 2013. :: | El Fiesta estrena retoques y motores para el 2013. :: NoneVasauto-VW renueva su ...",
+      "title": "MOTOR121117",
+      "url": "https://servicios.lasprovincias.es/documentos/PROVINCIASMOTOR_20121117.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.auto.bg",
+      "ref_id": "turn56search9",
+      "snippet": "# Vas Auto ... Популярни модели:VW Golf Audi A4 Audi A6 VW Passat BMW 3 Mercedes-Benz E Audi A3 BMW X5 Mercedes-Benz C BMW 5",
+      "title": "vasauto автокъща - Дупница — обяви в Auto.bg",
+      "url": "https://www.auto.bg/dealer/vasauto"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.axesor.es",
+      "ref_id": "turn56search10",
+      "snippet": "## Información General de Vasauto Chapa Sociedad Limitada en Liquidacion",
+      "title": "Vasauto Chapa S. L en Liquidacion: Teléfono, CIF y Dirección | Axesor",
+      "url": "https://www.axesor.es/Informes-Empresas/520937/VASAUTO_CHAPA_SOCIEDAD_LIMITADA_EN_LIQUIDACION.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "scoris.lt",
+      "ref_id": "turn56search11",
+      "snippet": "Company directory Vasauto",
+      "title": "Vasauto, MB company info, contacts - Scoris",
+      "url": "https://scoris.lt/en/imone/305593924"
+    },
+    {
+      "type": "text_result",
+      "domain": "servicios.lasprovincias.es",
+      "ref_id": "turn56search15",
+      "snippet": "La marca oferta la versión 1.2 de 60 CV desde 8.900 euros, una oferta a la que Vasauto añade otras de la gama con diferentes",
+      "title": "MOTOR20130209",
+      "url": "https://servicios.lasprovincias.es/documentos/LASPROVINCIAS_MOTOR_20130209.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.cnmc.es",
+      "ref_id": "turn56search16",
+      "snippet": "(VASAUTO) por su participación en el cártel de",
+      "title": "JURISPRUDENCIA",
+      "url": "https://www.cnmc.es/sites/default/files/2941359_0.pdf"
+    }
+  ]
+}
+````
+
+## Asistent
+
+Am salvat [mercedes-market.json](D:/ANABI%20-%20Licitatii/sources/mercedes-market.json).
+
+- CLS 350: reper verificat direct, **16.660 €**, 2011, 133.000 km; ID **446559313**.
+- S400 Coupé: reper Germania verificat, **34.950 €**, 2016, 212.587 km; ID **419335164**. Există un reper italian observat la 34.900 €, fără ID recuperat; nu eticheta 34.950 € drept minim.
+- S400d: reper apropiat la **57.100 € / 216.000 km** găsit doar prin indexări secundare, neconfirmat individual. Reper suplimentar verificat: **66.900 € / 112.220 km**, ID **454449745**, dar kilometrajul diferă prea mult pentru verdict ferm.
+
+JSON-ul include linkuri individuale, surse, TVA, specificații și diferențe. Recomand statut neconcludent pentru S400d, fără bulină definitivă.

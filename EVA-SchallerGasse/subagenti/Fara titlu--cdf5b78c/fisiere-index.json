@@ -116,6 +116,20 @@
     "status": "fisier_inexistent_sau_director"
   },
   {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026.10.12 Comparatie servicii structura\\2026.10.12 Audit comparatie.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.12 Audit comparatie--7fe39c18.txt",
+    "bytes": 4053,
+    "sha256": "01cbb75c7e088f2c901a2164af854fa98c3b75fbe37278869d789cc3ccc24a8e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026.10.12 Comparatie servicii structura\\2026.10.12 Date alternative.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.12 Date alternative--9b439903.json",
+    "bytes": 20253,
+    "sha256": "ea310c7a6c7520d21cccb88ec77ca802216c79e5a93cdb7c62ed9d85855eef6c"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Audit juridic.txt",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.07 Audit juridic--d457ec46.txt",

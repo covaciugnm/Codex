@@ -1,4 +1,4 @@
-ece9dd0a8c16f095fe07ba18395d9c38886ee724519e5ca8395c00cad17d1480  Actualizează ofertele de reparații/conversatie.md
+ef177df91a9669cd2c63de057a403af02ff6715f70c439298da0c7f8493cc1fd  Actualizează ofertele de reparații/conversatie.md
 56d76d87c95dad9fae128347f545fe5c52aeabd02af35e248695c21a6a478747  Actualizează ofertele de reparații/fisiere/04 Eva-Mail BAU-WERTE 2026-09-25--baef2ff7.json
 f26263f59ceef259f0fe6cf479ba5ab58e9ef1255dfc73ed8729cb3c74f1f13f  Actualizează ofertele de reparații/fisiere/2026.09.30 7dce663e 14854--c562543f.jpg
 bd2f3db0e635d37473d3b4a23ff54070c9e4e3241174b22f00fd4f104e288671  Actualizează ofertele de reparații/fisiere/2026.09.30 actualizeaza jurnale--61f85f0d.py
@@ -139,20 +139,21 @@ a4073bc0a7b587cc48082e815b562fd74b238f4b2d6c4a65a9d0dda3e88de331  Actualizează 
 d62b094eece31c3d11e1aa2249e7538190cc82f8a7082b2d82a101eafa072a8c  Actualizează ofertele de reparații/fisiere/genereaza_documente--f3cb90f5.py
 e7cfec7269a439487efa5e9f846991758d130fb8f5427ca5f1a5985898e0c0f2  Actualizează ofertele de reparații/fisiere/incheie_livrare--875449ab.py
 ed6eb35e4fa901591b6e081c0b6f1c0fa9caac72b26a5344b94898c4835fe080  Actualizează ofertele de reparații/fisiere/ocr_windows--7a8601c9.ps1
-8c7fded403843bb9092c71bb2337147b2c015a78bd007392355ce5df4321d99d  Actualizează ofertele de reparații/fisiere/README--6f49fa50.md
+e8fded6580387de15eabc0f9736742f7dab8850fa0eb0aa383bf95a127a4a45d  Actualizează ofertele de reparații/fisiere/README--6f49fa50.md
 c3518c0be9be35e0a151fe2a181e721380354bd4b70662af60c6a904f38e94f5  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p2--2f7d2b5b.png
 77863bd133750bc961f4a9f9aefcce03695e4078d9ed380fadf1543ad890dcd7  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p3--701d7009.png
 088e14c4c4be33f997342ef2f0942fe158d1c67e72199f0512000fc791310ca1  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p4--165b8498.png
 a740b17bc3c0abc900b972c19ada6da20d97c3b8e5b9f424366a5007c7c27a2c  Actualizează ofertele de reparații/fisiere/TOMS_28sept_p5--5b367725.png
 7cbf653725c58b80a5b6ed765d77a8f6150d60e879f42f369fbf287f04df6dbf  Actualizează ofertele de reparații/fisiere/verifica_artefacte--75193486.py
-7deaad7024a5e37f411607808d3e8afc57420a39c83ba7d2ead9f601178a9f05  Actualizează ofertele de reparații/fisiere-index.json
-1fee38dce9c5dbcec6f3056280727c71f3e10ea74617ead5ddcc05dfd8ad9a33  Actualizează ofertele de reparații/istoric.json
-9c6d5bb9bf8488b9de4206a77256d9c4f84c8384e0676e8441ca3c646bd8abeb  Actualizează ofertele de reparații/metadate.json
+7e5e187c2de0a44e113350da9e4e4f4b0eacc1def2024e3253f3921c14f8855b  Actualizează ofertele de reparații/fisiere-index.json
+0495e99e4dc719568930a65010bebf78d84e0e22a497a1059b0e7a6c8c6ca299  Actualizează ofertele de reparații/istoric.json
+cc02697094ffb313b5e1ecdb8f117bb0424fb085749fb4a71b061cefed8f62d9  Actualizează ofertele de reparații/metadate.json
 5a24f65cc788d8fbebf6f9d214c21b63fd8a7b525182b5a6d1fd9a27e7ce7a14  Actualizează ofertele de reparații/rezultate.md
-66c6bdc9ff7122e555468de4290972dfd533295f7b4009307fda67869bdbdee3  arhiva-001.zip
-37313efb709f04936d587c8d68b95d390d1f564385d0438a1be32d95496eab19  arhiva-002.zip
-0cc38579fc3b1a0f082d4269a70293b24073cd509258e0ccbb837ea733228e59  arhiva-003.zip
-d203ce3f8a6de0a508c4cd404979256d2af4987df96b133f099d7925313a825f  Compară ofertele de lift/conversatie.md
+cdb92bebdd96cea34166a3a560dfdb9388828487f53a8e1202ca847af6392dc4  arhiva-001.zip
+b9e58be4fdbb183952578e9bce3428e8786c62549849c072621389a000b064ac  arhiva-002.zip
+54ce355e3ab19f972890afac99057eb49b01944684bd2bb129a433456bb49595  arhiva-003.zip
+113ee909b79fde4c5abe170f9a30837b9474a833e27f0a0c69835be074350b51  arhiva-004.zip
+f2b5320541be231a6e8276f60df62b1ded3ae8b36a2991f05391e755805c2f43  Compară ofertele de lift/conversatie.md
 bcf8f17430360f72502f691e31ec0044e0386f53788f9b6a4f92d1f4f2afc94f  Compară ofertele de lift/fisiere/2026-09-24 Otis Angebot 32KB1294-01 - Gen3 Core - 38.68--6279c80c.pdf
 52efe2c4219c99559244bd02ee642b18a740e698bb04688d1354e89866cd418a  Compară ofertele de lift/fisiere/2026.10.05 63b2ea93 ANG0232318_Angebot_Service--48797de4.pdf
 55d2bace03d619893ec9a8c1fcb75c4ae757b1d69a085565916685cc73860c87  Compară ofertele de lift/fisiere/2026.10.05 arhiveaza draft Schmitt--7425d90e.py
@@ -171,10 +172,10 @@ cb34e69719389a944e68dab1b2d3ebea11e625d62c3d60f1e21e0c45ecc271e0  Compară ofert
 e50d694e15b06fd9ee3ae8cb4f9d12e4a0272527091ece230e9343f53e1f68a4  Compară ofertele de lift/fisiere/2026.10.05 sohn pagina 7--70e278bb.png
 9585b7a2f3386a68c2d778f3abbf65a3061849ead3a44630c1ce150bd16996f2  Compară ofertele de lift/fisiere/2026.10.05 Sohn plan cabina oglinda--872417b2.png
 c2de024474dc82b91870eac6626f888acb39ef83cb407f3fbe1a9aa48ba3496a  Compară ofertele de lift/fisiere-index.json
-b642b1b2a63e3a73ad0a61a787f77d6d27175e26e2fc7ab0503eb2216ed76f3d  Compară ofertele de lift/istoric.json
-635f7fa48428e0368bf76369524af1cdd7a3cac51cc43f2f3a064287619f37d7  Compară ofertele de lift/metadate.json
+3fabd613e6347db8e4098e3021606a7c90a851b6f8280037e07ae5317e130415  Compară ofertele de lift/istoric.json
+cd0a71bc64986fa03f724d3f9c1d140a18e5324d4d95be28eea1ef053e4f3d39  Compară ofertele de lift/metadate.json
 6305b07e7ffc26cf657bcf8308cfec46f51c1bdd12aa0131f33297fc22730c8f  Compară ofertele de lift/rezultate.md
-fe75e44fb7919b39237ee9debd61f96b2fc122aade6a10f5f5179212595e5fe3  Compară produsele Tongou pe tipuri/conversatie.md
+50449b0504668a41c7682c540c0da4bdf41ee2f357ecae8fbc38f97a9a70e305  Compară produsele Tongou pe tipuri/conversatie.md
 ef288c136d9219858c90c224c2600ac7b4d5a6608b50b9a72ef31b5d053ae875  Compară produsele Tongou pe tipuri/fisiere/2026.10.08 Acasa inventar si echivalente--e0f68889.xlsx
 01011c1faebd3d539c9b0030ab927b2ec4aa6faff8f807738d6fa18563d39efc  Compară produsele Tongou pe tipuri/fisiere/2026.10.08 build--31ae760b.mjs
 cfe5bedfae10b378023cfa39a31de2c2afd870c4031f635c3eea8a10d5194fe5  Compară produsele Tongou pe tipuri/fisiere/2026.10.08 documentatie--cc6dba10.py
@@ -209,20 +210,20 @@ eac8088b838e373631d50bac32971c9f5ab947fa1c650283abae16be19bbbfe3  Compară produ
 0fb8968c5a2b1eb5a62324f06693ffc8de14111b7ef84f9c5d7408b5c9cf0749  Compară produsele Tongou pe tipuri/fisiere/codex-clipboard-e088c6dd-40d0-4609-816e-91f93e52a8df--14727df7.png
 94f8bf773a847ce71c1d5906a889ec668c948f394fe7ab35ad571f6cda659a19  Compară produsele Tongou pe tipuri/fisiere/codex-clipboard-ead1a92a-101d-415f-af7e-d3bd9df36313--4d9ef618.png
 6791bb2ef07a6b3a83c9b1d55899437d24e4d0b8788b4f0657fe15bff22ca032  Compară produsele Tongou pe tipuri/fisiere-index.json
-5bb63f6fca85df7805b723377684bed4767fb3a39f92dddabbf288edf3e59288  Compară produsele Tongou pe tipuri/istoric.json
-fd81978e58f50607ada1c1f9e6f93698c22f3a1bbd23a32e0c12171e3a4adcf8  Compară produsele Tongou pe tipuri/metadate.json
+5c7f5bc0f8845cebdd556c14bd4ebc0f6eb6c037664818b2831c230e281a91c9  Compară produsele Tongou pe tipuri/istoric.json
+3055ff37f90f9b66f0cdbcfb95c13a2a109df357a822508825c889f5beb42ee1  Compară produsele Tongou pe tipuri/metadate.json
 42c3cfd11e84c40053045c8d5d1a7b083db621697fcd91592bdc4029a4aef709  Compară produsele Tongou pe tipuri/rezultate.md
-bf8ce182294782e7baef9072cd609fd68ec1019185d1f1d4c3f54ece29b7700a  index.json
+cc87366883ab0893561c7792dc5238daaea73dc762a871140812cf593fe9553b  index.json
 4cd56ad42fca37ffc156789a6d7a94c4cfc176ef0d7c3a1f6397d3220c5f1904  mascari-publicare.json
-d44e40c740b9ed9ff29cafd5b389e05d4df51dbb5830cfa0338417ddf9f4c571  README.md
-f082183380034e0c548b96f21c259c8b74476b2ece6a69c45f74425883e87487  subagenti/Fara titlu/conversatie.md
+64c017aadc8487a8a0b6948034c4d3c26f2a20e31df322f54cef7f0f268dd170  README.md
+5f1d67eea1b8c73b36eba645b345b86df4a96c612cb4519a3d56da453ee5d450  subagenti/Fara titlu/conversatie.md
 422884f026db6212da7b583b4377035488d7536ea0609c509c35466317e52a31  subagenti/Fara titlu/fisiere/CONTRACT_DE--439dde70.md
 eb6abbc950b47e2a8198d85ad9012943c27b3dff68ae898066b51633155b437f  subagenti/Fara titlu/fisiere/SURSE_JURIDICE--bc0f9f38.md
 f960711ce285aaa74af52578beb4ffecc16024165793548a3736abed8b784971  subagenti/Fara titlu/fisiere-index.json
-c5fab48561fe7e95a0841cd2ba5204530525acbce88c7e405840355bbd7df726  subagenti/Fara titlu/istoric.json
-c0c1794bcfc0aedf4678052c5b649e8cd46653b16f682b15c12aa1b51feb3281  subagenti/Fara titlu/metadate.json
+1c44aa68d434e65be01b78dc504dbb191d11dc75008c6e2689b78c15bcd1b51b  subagenti/Fara titlu/istoric.json
+36914cf4ba92ac072176bb716b42dc3ac7c7e071e05225e0c2bafc75c6b96a1e  subagenti/Fara titlu/metadate.json
 9db59c0b50f4adfa35dee68798ca8c1953399689feb63b3af009ec070f825bc3  subagenti/Fara titlu/rezultate.md
-a8eb7c1bc3613d405f14e6a0d876afcd3d972e58ee3825cbf5bf01d47e1171be  subagenti/Fara titlu--48d97fc8/conversatie.md
+b8bfe624519cf6a2c901272bcf39f1bbc5067c06f6af05b34794889302aeb2e8  subagenti/Fara titlu--48d97fc8/conversatie.md
 3394a0cc478ae453931708242bddf514daa59ad50d41b8766dd49df667fe8682  subagenti/Fara titlu--48d97fc8/fisiere/ANEXA_PRESTATII_DE--0ad96a65.md
 b9ad06f6217ee2fdeb439ff358cd423b8c9b4f3e371e7fe00dd7b82a238cc97b  subagenti/Fara titlu--48d97fc8/fisiere/BAUWERTE_p2--ec9c9e86.png
 a0a91c516fad35bb2ce60df9cec34e041118d241c82400af2d271f5795f05783  subagenti/Fara titlu--48d97fc8/fisiere/MATRICE_BAUKG--068312dc.md
@@ -230,18 +231,29 @@ a0a91c516fad35bb2ce60df9cec34e041118d241c82400af2d271f5795f05783  subagenti/Fara
 0c8289249c4681ffe19db7d05592bc886b47118da3a198004de34ef3f7abceb3  subagenti/Fara titlu--48d97fc8/fisiere/TOMS23_p23--2c09465e.png
 23b229f12612b3bbeaf60fadadfd78a65ffb33d15a5ec5979de0e3808a7720ce  subagenti/Fara titlu--48d97fc8/fisiere/TOMS23_p25--a63ce77d.png
 7c1041d73a3b5b723850ddfd562b538791645abd52492103f55b04fadd78efc2  subagenti/Fara titlu--48d97fc8/fisiere-index.json
-ec1b2aeb00c6344a21574fc9e091a67709776446c47fe59c1ed013410eb67f3c  subagenti/Fara titlu--48d97fc8/istoric.json
-2ebfd9bf3c960d8c32feaedb94f580099362f6860479bcfce8be427dba916d11  subagenti/Fara titlu--48d97fc8/metadate.json
+dea797fb083e60eb647dd6513d4fe5992dfe5eb6f6792b863bff379d3be27d72  subagenti/Fara titlu--48d97fc8/istoric.json
+b20d2536a1473d8fde08c11647c152ee9c4d141788e6cd2d987f8b2a1b3bdfe7  subagenti/Fara titlu--48d97fc8/metadate.json
 0280b88aced19c10fe7a329985d5028d4e2f94dd2e3a84a25bc03b2ea7f0d229  subagenti/Fara titlu--48d97fc8/rezultate.md
-944f107232f039e7e35ba7ac22cb80f45d062ec074f7337e0bb6c353a45051d5  subagenti/Fara titlu--62080438/conversatie.md
+6286e4b3561a5bca61dd8b963ebcffad2a42e469f087370b6fe02f59cd88a328  subagenti/Fara titlu--62080438/conversatie.md
 218f8fbf854ff27be6d56e96dfc3e08708316d120ea41e5b8511cacebd224987  subagenti/Fara titlu--62080438/fisiere/2026.10.07 Analiza redactor--a06986d7.txt
 b98a78d639e5e327a5a2c5997b6cd127ea7fb7e38817304e5e8ea43d5982cf7e  subagenti/Fara titlu--62080438/fisiere/2026.10.07 Registru surse redactor--c79de458.json
 6304ab0f7ddd42625fa9a302c9eeb319d3eb6da8813c3a6082d8f4d0d2f53712  subagenti/Fara titlu--62080438/fisiere/2026.10.07 Registru surse redactor--d004738b.txt
-1ee2ff3fd57088e6d5218a8fdb61a464ea1d50278da4cd0efbadff773fa8c23f  subagenti/Fara titlu--62080438/fisiere-index.json
-0f1d8faaf83b43b5ca9de7c3fe8fb416e6322d07bdf51914172643552d0bf245  subagenti/Fara titlu--62080438/istoric.json
-b4dde6e32001070f42b04c14902d7bd4520211fae47a1cb8c0bafd8baefe1c0c  subagenti/Fara titlu--62080438/metadate.json
-5bd0d9125d893f8bcdf1525eb5fa7f60dc9f2be53f54bd0fcc807a1fa1d01808  subagenti/Fara titlu--62080438/rezultate.md
-2cf9a9dc8d7f8c94b30ff6920a71b52f2dd686ea7ceb7c2c30d4f2ddc3fca3fe  subagenti/Fara titlu--a3c455a1/conversatie.md
+4a37391ecb6d596dd2974f79a7967cdaafcc616319f317789b9c78f42ebb830d  subagenti/Fara titlu--62080438/fisiere/2026.10.12 ANG839-1--08d4c118.png
+dd78808b4f21c052b51efbd5bcfbefa361ae92839dbf2193a1d27df8a3124078  subagenti/Fara titlu--62080438/fisiere/2026.10.12 ANG840-1--63340af1.png
+9c87a99d52c05de0f2fd6511fd64b508671a0ae36b1ae54581e9eab63c12fa3b  subagenti/Fara titlu--62080438/fisiere/2026.10.12 ANG855-1--17908d93.png
+2bab04740d884376d285a9d4eb7a631933847eb285df1921c82aca162b2c4e59  subagenti/Fara titlu--62080438/fisiere/2026.10.12 ANG891-1--70787982.png
+0f2e7d5c6b112a7fdb68a489c1087ad5b1d1a7ac606aab57c082acf25e8fc6a4  subagenti/Fara titlu--62080438/fisiere/2026.10.12 Date TOMS--5d1d4ed8.json
+a854d20e8ef1a9d390a1375fc28013512d65a859364b5fb560332f57af0b9d54  subagenti/Fara titlu--62080438/fisiere/2026.10.12 Q2-2--c55ddb3e.png
+4fb6bc93dfe6bd554b154c49dc278440b4c537ca2b97c75dd55418afb8e57ab6  subagenti/Fara titlu--62080438/fisiere/2026.10.12 Q2-3--3399b26f.png
+86b648eeb80e2b65d0544cac5b8b183634686165daa5fbe9a23c7d74d85a12d9  subagenti/Fara titlu--62080438/fisiere/2026.10.12 Q2-4--b1d855b1.png
+b8c7571a82c782e7276ebd6a037b867700d07b82c76987f79904d85b52b28d5d  subagenti/Fara titlu--62080438/fisiere/2026.10.12 v4.1 p10--8c4034e2.png
+15cc310caa1cc7a9025846bbfdd469a67117da5a5d0a8d7614091acc908fffd6  subagenti/Fara titlu--62080438/fisiere/2026.10.12 v4.1 p18--37550fdc.png
+5ce938e16f0bae429989c56dc3c5483de82e60c20babbb074364f941285d9444  subagenti/Fara titlu--62080438/fisiere/2026.10.12 v4.1 p19--c814a787.png
+20dcdf8043b679f2cd4af7f6ebcc41fc9932ca1550cc69bff756de476baefdb2  subagenti/Fara titlu--62080438/fisiere-index.json
+5b658de9f138bb4eac9f938cf08d6df60e2c455b4ba0a3ba1f107208dd9272df  subagenti/Fara titlu--62080438/istoric.json
+6a943a8927837d2d5d984754c69734a400ee46e08731047e0af8c05025d4174c  subagenti/Fara titlu--62080438/metadate.json
+2d5ad91bfae812b0eb414e31e8ea40d812067b5ddb914b9e878543a67dd24ec8  subagenti/Fara titlu--62080438/rezultate.md
+3e088bbec2261579950372f84474dad821cb9cd4da9e7f3b04e024bc20be47b4  subagenti/Fara titlu--a3c455a1/conversatie.md
 e911c07077d964129b795bc3959e5cca8c4fbb6a1cbbaee8e9f58a44e39afda1  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT--92eece7d.md
 26d23e2a1fade4316bb874bb4f5015b169cb3daa445ba4e87bc0c6fcb0515fc5  subagenti/Fara titlu--a3c455a1/fisiere/audit_artefacte--732cf345.py
 e6286512432a067a5d00069296020edc61c23c39d9da4a0d029db1d48a732218  subagenti/Fara titlu--a3c455a1/fisiere/AUDIT_contact_01--efba54b0.png
@@ -254,10 +266,10 @@ b9ad06f6217ee2fdeb439ff358cd423b8c9b4f3e371e7fe00dd7b82a238cc97b  subagenti/Fara
 9fbc095c248eed8b9ac84798720b737f40348bf17b790b99aff4801cb8de081b  subagenti/Fara titlu--a3c455a1/fisiere/TOMS23_p22--36d66bae.png
 0c8289249c4681ffe19db7d05592bc886b47118da3a198004de34ef3f7abceb3  subagenti/Fara titlu--a3c455a1/fisiere/TOMS23_p23--2c09465e.png
 76242e83212d1172e201344b8071cfd79c8182f174386941eac8b367bab4b0e6  subagenti/Fara titlu--a3c455a1/fisiere-index.json
-8a83ef02f84790e27c85caeaebf2ce03673e0ce54a9ffe0df93285fa81cb7cd0  subagenti/Fara titlu--a3c455a1/istoric.json
-692b534529bc806107534ee1ceaea92610cfcf3da774507110ad3fa3068c28c7  subagenti/Fara titlu--a3c455a1/metadate.json
+068cd350f0ebee094e3613bfae393c5524325a6c7b08e7f38df57acb717697df  subagenti/Fara titlu--a3c455a1/istoric.json
+544003fa1ffff883c8e36376c74f9b518497aa3d641d7d6b75d1b867b9392020  subagenti/Fara titlu--a3c455a1/metadate.json
 ff667cfe5839014ac209c17180ccc938f392105639afebca8af09e743bf7e3e1  subagenti/Fara titlu--a3c455a1/rezultate.md
-49eac309b48347b6bca68feb2d9728d6554e04c91eeb8e1ce5e724a4f1ade0a8  subagenti/Fara titlu--cdf5b78c/conversatie.md
+65b6684dded9648e4ad5a8e1ce25efa69495e2e44009dce1336e98d0c141bf7d  subagenti/Fara titlu--cdf5b78c/conversatie.md
 dee3abeeeeb8ac1dd71be395c2cce02c95925f957acf4fbc80eded3d3c5aa21d  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.07 Audit juridic--d457ec46.txt
 abfc9c4554040c32ecf15cd13a02f3cf640a58137cc237d284bb903561e7436a  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.07 polita istorica p12--680a85a7.png
 88e72f094b50bb588dd194a8586753f5908393cb598fa8eaad649c01c3ed2d73  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.07 somatie originala p1--63b93d4b.png
@@ -277,16 +289,18 @@ b1e0126e99394dd9e5a5ae13fe322570a43c33f29aef89896ea4bc6a8125ab6f  subagenti/Fara
 a7b7f6dba22f41b01bd18961b2b06459054b77a71cc2c1a285e675b3938951f4  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.11 pagina 4--ae711c2b.png
 3ea61b75409416a563e4d854e0bc21cc40020d4efd7525d93d41b715bec62018  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.11 pagina 5--563c2135.png
 802270b44faef11849504a64281e3cf1230bb980b38c732351f33be1f324abb1  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.11 pagina 6--7cfb2d4d.png
-eae97ba6ceae0bc56bf38b155502b7fb9475826d3dfae4f47ed18affe1066166  subagenti/Fara titlu--cdf5b78c/fisiere-index.json
-73458c7be14ef09a1be4bded4a054054715d2c17fe158b5139cf42bd50300864  subagenti/Fara titlu--cdf5b78c/istoric.json
-d326e24f4bb2dda7392b8f31c3466385aee0b95497b099e92cb1350bacc67f9b  subagenti/Fara titlu--cdf5b78c/metadate.json
-93628ac639b2bafdbdab80524e5c7329e30d6289bd04db425a6546a57ad45f94  subagenti/Fara titlu--cdf5b78c/rezultate.md
-778ccd3ee77a6d0044177a38a831e4e8365f7110a02c675c04a6af8e63b1fa04  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/conversatie.md
+01cbb75c7e088f2c901a2164af854fa98c3b75fbe37278869d789cc3ccc24a8e  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.12 Audit comparatie--7fe39c18.txt
+ea310c7a6c7520d21cccb88ec77ca802216c79e5a93cdb7c62ed9d85855eef6c  subagenti/Fara titlu--cdf5b78c/fisiere/2026.10.12 Date alternative--9b439903.json
+041213e45213c7e9a004fd846c45259a4d973c5a1d3c9412dd6e8162a6f538ff  subagenti/Fara titlu--cdf5b78c/fisiere-index.json
+09876d4f1804c0de8da4725ff28435c5bd9ba4331a68a53f0a08832f1337c368  subagenti/Fara titlu--cdf5b78c/istoric.json
+b9fb3714a05966ce3039cdee0c6a99d64d76006aa32830619a0b236c43398207  subagenti/Fara titlu--cdf5b78c/metadate.json
+373853caa10b311f00d449e54aeba009994132ac2ec166adea8aba11ecd2db1c  subagenti/Fara titlu--cdf5b78c/rezultate.md
+7b5b3f1bcd07023d1d01bb91ce7ad7bd703d40f81c8c6ff5f182f0e16f33e492  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/conversatie.md
 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/fisiere-index.json
-a1310fd24a7457526d6a60349c3948098d76e5c80f5da6956d16d3238f894a1f  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/istoric.json
-018db50747f3aafe152294ec8e4c0184d76c36a88185bcf38b463991418bc84c  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/metadate.json
+c868d4043a52d7aa4e5ad4d39dc262a7fe8e2d40019882d7c30cd47d5ccce09a  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/istoric.json
+15bd8976654fd6c2be26637c3fd2ebdd1b075d2caa3d2a177128fe7fcf36b747  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/metadate.json
 8bd04778a901ed3ebc63f4a6b9563976a469cf052448beeb3d50adeb67f32a47  Să nu pregetăm a face binele, căci la timpul său vom secera, dacă nu ne vom lăsa/rezultate.md
-d70f761e22812dfff1c3bb5d8ab9d9e07d435c616d59a35c6675b92e565a7085  Verifică actualizările locației/conversatie.md
+e87b04ab883fc580b4471e86f165a729308c6140c5d12785fcd3cd80a7798dc7  Verifică actualizările locației/conversatie.md
 4c8baa2b9867452beba3ae5fcb42d2ca91ba3fa39259197b531b6b676f4dedef  Verifică actualizările locației/fisiere/2026.10.01 actualizeaza comunicari--8c448f57.py
 4650fcd8221dd27ae78915c748618b5fc1adc8114de6f0c994cee5bac5853c36  Verifică actualizările locației/fisiere/2026.10.01 descarca comunicari--ca7b5510.ps1
 203fe897ea58ff12b052b91eb7974625dfd07ce01c6f3e296e818b84607bb0da  Verifică actualizările locației/fisiere/2026.10.01 Descarcari originale--dcd24893.json
@@ -352,7 +366,24 @@ b224b1a1ef7dd26921a6bccbcbf870964e3ab3f853ba3113e0f56cd4d41ce27f  Verifică actu
 bcfeed750f7afcf6b09940829d50920e24d75a3d919d567b4ba01549a08dc9f9  Verifică actualizările locației/fisiere/2026.10.11 Completeaza audit local--81277982.py
 4c07df71ab55552ac55706f275d37795c29c76f3a34c108183649ff5ffec991c  Verifică actualizările locației/fisiere/2026.10.11 Manifest Eva-Mail temporar--df9faaf5.json
 57e4bc8186a4daf3193115b947b6e2d2405f8edc6b5fe6b98ff65e192fe71218  Verifică actualizările locației/fisiere/2026.10.11 Pech p1--c7346445.png
+a12f79d004c5997720ce312fcb3f7c40823b0f2037b6ef3c51624624717bc8f3  Verifică actualizările locației/fisiere/2026.10.12 actualizeaza_jurnale--2cc8a62a.py
+4e1ad8618e02c65a93fd5252490cdaae3bdd389f57cef4f4ad6d78b2380a62ce  Verifică actualizările locației/fisiere/2026.10.12 Comparatie servicii si preturi structura--32539ad8.xlsx
+f164e2a44996562199797914ed2e9de0abf7e15209aed304deeadc5f2ec9f1fd  Verifică actualizările locației/fisiere/2026.10.12 completeaza_matrice--13bcf147.py
+96ad4dea0de9fbcc1ceccd5e8ff2cdca7b3941bfaa131690aca6b3b5cd3c14ae  Verifică actualizările locației/fisiere/2026.10.12 construieste--259381e4.mjs
 ac57b32bfc3500b76f6b00cd07fe1acd3dfbcccf672ffb9d1df98b1f8b2c78cc  Verifică actualizările locației/fisiere/2026.10.12 Dovezi temporare Eva--8da07d9c.json
+d3f3192b74eb4dd37466f2799ede0a8047735d4ccb9ffc4d65d01846747ba5d9  Verifică actualizările locației/fisiere/2026.10.12 Matrice comparatie--28cb4fef.json
+a5a183a69ef152c19777754c5fdbbeb972d4b73cdb55dc18369fa6291c218ba3  Verifică actualizările locației/fisiere/2026.10.12 QA 01 1_Servicii--c6097f57.png
+07213d8058f5057b6e73d10834fa8794f21a81d68fb21f6c9f4d113a1d801346  Verifică actualizările locației/fisiere/2026.10.12 QA 02 1_Servicii--43a4b5a7.png
+28d20b20c28b22336c757817eadcd3d48b44fe955dcfeb57d59f179774883c62  Verifică actualizările locației/fisiere/2026.10.12 QA 03 1_Servicii--b6aff838.png
+dc86449d204bf8ae598ba3831ffbfa46f63ae4e3bf74ab3cb57e92cabd41ff00  Verifică actualizările locației/fisiere/2026.10.12 QA 04 1_Servicii--9771fc9e.png
+c580c7dd851e3e3eefc18f9c185463339b56617fcb53b18a23131cde1d098d20  Verifică actualizările locației/fisiere/2026.10.12 QA 05 1_Servicii--7150fd37.png
+43f5dc8b75c20997fbc8d738cf64b0d7ae298eca4e216994886ff263b5c85707  Verifică actualizările locației/fisiere/2026.10.12 QA 06 1_Servicii--45375b7e.png
+7704f6af3ea1c6342f57dafa040f9b8d21f0741c79e07e60596863d96b430f36  Verifică actualizările locației/fisiere/2026.10.12 QA 07 1_Servicii--ebf4ece1.png
+a6b7eecb9327176eecf3286ad2d7aad061d9d84677dbefc01bba9f959566c796  Verifică actualizările locației/fisiere/2026.10.12 QA 08 2_Preturi--4d1c9302.png
+6bf657b0c2bf74f8aee20aeef1ca86c934b4d4acaee3f583a9209d32e51b8005  Verifică actualizările locației/fisiere/2026.10.12 QA 09 2_Preturi--8f27cdbb.png
+cbb144d8b35d46a31f79136bc14914edbd8ddfb73c9a92c5e5ea940a00329ec6  Verifică actualizările locației/fisiere/2026.10.12 QA 10 2_Preturi--4f7859c7.png
+8ec8c0cf685480fb9310e43d5cc8d0d7b9c65562d0416f51164642429bc69960  Verifică actualizările locației/fisiere/2026.10.12 QA 11 2_Preturi--ced3e202.png
+b04d028a468cba928901874c4565b6683cdb925a6309eb3fd9f581a2fc81da0e  Verifică actualizările locației/fisiere/2026.10.12 QA 12 2_Preturi--65296d5f.png
 505f3c78faa966c8a632dd65738678830defe71c5ee40bfd9e114cb50e751f85  Verifică actualizările locației/fisiere/2026.10.12 Salveaza verificare--08fda3be.py
 9aff553be1538def28cff8f82a6e07892956cc91a762e89243a98d3b1d074891  Verifică actualizările locației/fisiere/page-01--c2e1ea4a.png
 0b63828e945cca14be78759565f6a043c39a448662d3630f164c4a588efe83d1  Verifică actualizările locației/fisiere/page-02--7621c76e.png
@@ -365,11 +396,11 @@ caff8642fc76e1e0b954cd5d4e0c4c3698e28de168c928a7ecb50ed0a3f0aaba  Verifică actu
 cde64cff1b838b6ec560a0b4304e4d4e49629e04bc368b90f958f265eef66edc  Verifică actualizările locației/fisiere/page-09--7a54c8fe.png
 b09bba4e0871314bdbe817071c667cc4757f55afe798f166b0c77922a4393631  Verifică actualizările locației/fisiere/page-10--7027707d.png
 6176f0592fe09b67580fda17f9fd3f3ee899ff68f7784ebaffbd383132bee4d1  Verifică actualizările locației/fisiere/page-11--0b79b6d1.png
-8d98d09c3bf0ca23798cd59a7f905c2b97a7d1087e0e3cb38798d7df9ba8db97  Verifică actualizările locației/fisiere-index.json
-0f760d9fbf6517cbc5bcf2f50b44ba24336c27b582d1cddedcfb24f5aa801c80  Verifică actualizările locației/istoric.json
-d3ca054e70c9515ed8a258cf2aa6ad2a75c3f776a9d6678aeb9c70f1f86f4f61  Verifică actualizările locației/metadate.json
-deebb9fda93a227a341bcc9c0bf018face133cef77228676f5b728038422c69c  Verifică actualizările locației/rezultate.md
-81db5366d7a78af57879408b9ae7b3ed67cf47d1b39043a908b518fbefb5acfd  Verifică răspunsul DonauAsig/conversatie.md
+0ae03668e8126a1d2f84b4cf09f093989f86951fe022a297393cd4a370d47c83  Verifică actualizările locației/fisiere-index.json
+f11f81cb2ca4e923ee11c35a64bd64161eef3b4d862f01e3698db320b339b945  Verifică actualizările locației/istoric.json
+31d9fd099b506d7ab9ce3c2d83e16b697c4c4deb14f0c64d336800da5235a1eb  Verifică actualizările locației/metadate.json
+0bf7adbea91682edf3d26074b0e0168fc3e5ee2e9ccf07e840fbd5cab80866ea  Verifică actualizările locației/rezultate.md
+8ba3df7446e1169ab8774477d79986c79bb1599df210df5984fdc62c94834ace  Verifică răspunsul DonauAsig/conversatie.md
 b19977770860f9d1d74602b8493bd5077f224738e20e8dbbc97ef5e0df106efc  Verifică răspunsul DonauAsig/fisiere/2026.09.30 actualizare Donau revenire--62e898fd.py
 bd2f3db0e635d37473d3b4a23ff54070c9e4e3241174b22f00fd4f104e288671  Verifică răspunsul DonauAsig/fisiere/2026.09.30 actualizeaza jurnale--61f85f0d.py
 16d6bbbbaad835ffb959973e4a40d5f1d0b0c2ea1cd19a5aad4c6dbdc633747a  Verifică răspunsul DonauAsig/fisiere/2026.09.30 actualizeaza raspuns Donau--0336bcb1.py
@@ -392,12 +423,12 @@ bbbfca6d5c82a80ff8965ed4e705e06788acd809f8f922c3044b898539ccbe8a  Verifică răs
 3ab8275c34b5c6a3e76e66a973cbea2ffa1daa5bab7c795ca2310b34eed6ef7d  Verifică răspunsul DonauAsig/fisiere/2026.09.30 Verificare corespondenta si limite--d95cd1ad.json
 365c88e151a484dd7e3e60f3a4a9d49803c7ff5c3ec4f0b727496b81249177aa  Verifică răspunsul DonauAsig/fisiere/2026.10.01 arhiveaza reziliere Donau--1527ce48.py
 ac940938f0a797b0e4c2e617540180d80606a7905193d0c1552e889bddad32f2  Verifică răspunsul DonauAsig/fisiere/2026.10.01 DRAFT Reziliere Donau--96e60585.json
-8c7fded403843bb9092c71bb2337147b2c015a78bd007392355ce5df4321d99d  Verifică răspunsul DonauAsig/fisiere/README--6f49fa50.md
-afb4d5ac8b8d99f3f4def869254e588e2c4a6f7126dfcf3786a70cf0f959f907  Verifică răspunsul DonauAsig/fisiere-index.json
-6de956a0e1e74a469447228946b1a9098ee703ec0eadde053d44db010019e2c8  Verifică răspunsul DonauAsig/istoric.json
-5614d3fbe7fcb49f17eb5d3f1133dd78ebfb54c1cbece4ad7549ad9cf76c18e6  Verifică răspunsul DonauAsig/metadate.json
+e8fded6580387de15eabc0f9736742f7dab8850fa0eb0aa383bf95a127a4a45d  Verifică răspunsul DonauAsig/fisiere/README--6f49fa50.md
+d9c9ed57e4b1cec9ff32ed60a73221901acc4c97a80ff63e7c3d5e508ad0bd29  Verifică răspunsul DonauAsig/fisiere-index.json
+58a9ce0448ee4df80b5e57bebfb35b395562fc364c95d885ee502f2bdf855c4f  Verifică răspunsul DonauAsig/istoric.json
+8fff2ef63c0e9e814290bc15e33f25cb30a55e92397839c04c17aad98ee87be9  Verifică răspunsul DonauAsig/metadate.json
 effa45b2d2e9845a37923454839846d11a8b27d4dfd549e95a2f2414e2148833  Verifică răspunsul DonauAsig/rezultate.md
-2c6aab68a8c9fcab43297df75f70dbf1daa59065c234a2c7ae1eda408eaa1465  Verifică situația actuală TOMS/conversatie.md
+8650314985823ee93366b6ee80f71f30af1cdd9e1d7141dd266941578adfa05b  Verifică situația actuală TOMS/conversatie.md
 ac9324854643a24cbe9d9d37625d25ddc65f7446f9ce44add7e1515b25fbc657  Verifică situația actuală TOMS/fisiere/02 Email contract - DE - ciorna--90fb493e.txt
 e2ce439007908697a5b12fc9b239bce2c13f7a412b97df47dba3cad0543b90ca  Verifică situația actuală TOMS/fisiere/03 Email acces portal - DE - ciorna--0d2e05a6.txt
 28068872a98c62c78b042259fdea1cdecdfaacd9a80b56a2502c13537a621bd7  Verifică situația actuală TOMS/fisiere/04 Dovezi EVA si surse--a3482d81.json
@@ -416,7 +447,7 @@ e23f62f8a7a97521ec66cf1a6e7e2087be41b6c967e70d35d53430b4edbd6777  Verifică situ
 20e1dbe7bb8ffdb16a5e6d0a9f0e18cccbda71b44a58d4adf4b18ca01a34c8a3  Verifică situația actuală TOMS/fisiere/question-2--1bafead7.png
 3715725fe4bd925e32b84dae579b654329ff2cd2686a1d175b713913893384b2  Verifică situația actuală TOMS/fisiere/question-3--fec35ab7.png
 9a4c7c96c08783046c73afa937008ec0f81b934940cc4861917018bee162a1ca  Verifică situația actuală TOMS/fisiere/question-4--16ef21ca.png
-8c7fded403843bb9092c71bb2337147b2c015a78bd007392355ce5df4321d99d  Verifică situația actuală TOMS/fisiere/README--6f49fa50.md
+e8fded6580387de15eabc0f9736742f7dab8850fa0eb0aa383bf95a127a4a45d  Verifică situația actuală TOMS/fisiere/README--6f49fa50.md
 ad59f8be1a629d48716edf8f2d633dfab766c6f8a104ac37578c3c107ce738fc  Verifică situația actuală TOMS/fisiere/signed2-2--17ab75f6.png
 d8ef3f67ea26f613a16e625e2ae7707422da00229bf9dcd994f4912ea821b678  Verifică situația actuală TOMS/fisiere/signed2-3--0d0593b0.png
 2164f1c75419962eef5bd53e7383dcd7409acb9ce171a4897f68068629a553e4  Verifică situația actuală TOMS/fisiere/signed2-4--3b659103.png
@@ -424,7 +455,7 @@ d8ef3f67ea26f613a16e625e2ae7707422da00229bf9dcd994f4912ea821b678  Verifică situ
 6c0710a7c94efb9832849f3be08c10926775185b06189a34b0c020d815229b98  Verifică situația actuală TOMS/fisiere/v4-page-1--ff9e6a1e.png
 b15c24288fd7c6862e48f8cad2b6a6a773e39696c574810de9390eb885bfc01f  Verifică situația actuală TOMS/fisiere/v4-page-14--0e87e7c3.png
 7f258d41b8ecfeecd738f1a915e98192f848125941144a0b4dcbdd33600f6e9d  Verifică situația actuală TOMS/fisiere/v4-page-4--b763e248.png
-6bb3b56e14ca8e984e538f71e13c14cf071cefd54d8bdd36340872684c64b85c  Verifică situația actuală TOMS/fisiere-index.json
-239daf17a213960ae49d071f187937fd90a624a6b2870b3711b32e0dde95e64a  Verifică situația actuală TOMS/istoric.json
-2c0fbcd9637eec51bd36e0254df81be5798dfca90e22e393a9b8e42926da54e2  Verifică situația actuală TOMS/metadate.json
+4af915ffc5e0ea9fc35ef0960f3a80f2a17bbb5770741f4c6f2884faa3d1b432  Verifică situația actuală TOMS/fisiere-index.json
+85d5006c38e81cd1268ed8e77f63d7a987835c8fa2a2f60368f215ca8816c277  Verifică situația actuală TOMS/istoric.json
+d026755d8358e797e285e1c1b367cfeba04503cc38bfe790982b4f98d87023fe  Verifică situația actuală TOMS/metadate.json
 dccaedcafbae2fb96532f3eec3b43422ccf580b0cda0490de41f9db8a3baa644  Verifică situația actuală TOMS/rezultate.md

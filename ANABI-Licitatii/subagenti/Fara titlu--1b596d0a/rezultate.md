@@ -1,0 +1,889 @@
+# Rezultate — Fara titlu
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-4be8fbe7-62ff-428d-a27c-7238ed8c7def",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-ChildItem -Name'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "1241",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-ChildItem -Name"
+    }
+  ],
+  "aggregatedOutput": "catalog\r\nsources\r\nanabi-list.html\r\nbuild.mjs\r\nCITESTE-MA.txt\r\ncollect.mjs\r\ndetails.mjs\r\nfinalize.mjs\r\nindex.html\r\nmobile-parse.mjs\r\nprepare.mjs\r\npreview.mjs\r\nverify.cjs\r\n",
+  "exitCode": 0,
+  "durationMs": 193
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-5a9d39a5-92e9-4ccc-ad10-f0742390d1f4",
+  "query": "https://www.licitatii-insolventa.ro/",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.licitatii-insolventa.ro/"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.licitatii-insolventa.ro",
+      "ref_id": "turn62view0",
+      "snippet": "Total lines: 361",
+      "title": "UNPIR - Licitatii Insolventa",
+      "url": "https://www.licitatii-insolventa.ro/"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6ce28b02-35f7-4294-bcb0-cefc5dad1a91",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"New-Item -ItemType Directory -Path sources/insolventa -Force | Out-Null\nnode -e \\\"fetch('https://www.licitatii-insolventa.ro/').then(r=>r.text()).then(s=>require('fs').writeFileSync('sources/insolventa/home.html',s))\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "25318",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "New-Item -ItemType Directory -Path sources/insolventa -Force | Out-Null\nnode -e \"fetch('https://www.licitatii-insolventa.ro/').then(r=>r.text()).then(s=>require('fs').writeFileSync('sources/insolventa/home.html',s))\""
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 640
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-22cbf80b-9882-4140-ab00-e5d853f30efe",
+  "server": "codex_app",
+  "tool": "load_workspace_dependencies",
+  "status": "completed",
+  "arguments": {},
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Workspace dependencies are available for this local desktop thread.\n\n### Workspace Dependencies\nUse these bundled paths for sheets, slides, documents, PDFs, images, or browser automation:\n- Bundle version: `26.915.20218`\n- Git executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.exe`\n- Node.js executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe`\n- Node.js packages: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules`\n- pnpm executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.cmd`\n- Python executable: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe`\n- Python packages: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python`\n- Override binaries: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override`\n- Fallback binaries: `C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback`"
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 57
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-3a2c76b5-7eaa-4a79-bf74-00b4b2c67d31",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'rg -n \"item-title|listing|search|sCategory|paginate|pagination|list-item|latest|data-item\" sources/insolventa/home.html'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "60202",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg -n \"item-title|listing|search|sCategory|paginate|pagination|list-item|latest|data-item\" sources/insolventa/home.html"
+    }
+  ],
+  "aggregatedOutput": "33:  var zaraSearchImg = 'https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/search-sprite.png';\n92:    <a id=\"h-search\" class=\"resp is767\">\n137:  <form action=\"https://www.licitatii-insolventa.ro/index.php\" method=\"get\" name=\"topSearch\" class=\"search nocsrf\" >\n140:      <input type=\"hidden\" name=\"page\" value=\"search\" />\n147:                  <input type=\"hidden\" id=\"sCategory\" name=\"sCategory\" value=\"\" /><div id=\"uniform-sCategory\"><span>Selecteaza o categorie</span><div id=\"inc-cat-box\"><div class=\"current-cat\"><i class=\"fa fa-hand-o-right\"></i>&nbsp;Selecteaza categoria in care vrei sa navighezi</div><ul id=\"inc-cat-list\"><li class=\"bold\" rel=\"\">Toate categoriile</li><li rel=\"96\">Afaceri</li><li rel=\"99\">Auto</li><li rel=\"104\">Imobiliare</li><li rel=\"115\">Industrial</li><li rel=\"121\">Office</li><li rel=\"124\">Altele</li></ul></div></div>         \n149:        <button id=\"top-search\" type=\"submit\"><span>&nbsp;</span></button>\n157:    <div id=\"search-example\"></div>\n163:  // Clear all search parameters\n172:  $('#sCategory').val('');\n173:  $('#uniform-sCategory span').text('Selecteaza o categorie');\n210:$('#sCategory').change(function(){\n245:  $('.search').submit();\n252:  $('input[name=\"sCategory\"]').val($(this).attr('rel'));\n272://document.getElementById(\"sCategory\").onchange = function(){this.form.submit();};\n273:$(\"#sCategory\").change(function(){\n274:  $('.search').submit();\n277:$(\".search\").submit(function(){\n446:<!-- BREAD CRUMBS - hide on search page -->\n475:      <div class=\"home-container hc-latest\">\n478:          <div id=\"latest\" class=\"white\">\n1755:    <a class=\"o-border-bottom\" href=\"https://www.licitatii-insolventa.ro/cauta\"><i class=\"fa fa-search\"></i>Cauta</a>\n1771:    <input type=\"hidden\" name=\"page\" value=\"search\" />\n1797:          <select name=\"sCategory\" id=\"sCategory\"><option value=\"\">Selecteaza o categorie</option><option value=\"96\">Afaceri</option><option value=\"97\">&nbsp;&nbsp;Marci inregistrate</option><option value=\"98\">&nbsp;&nbsp;Active functionale</option><option value=\"99\">Auto</option><option value=\"100\">&nbsp;&nbsp;Autoturisme</option><option value=\"101\">&nbsp;&nbsp;Camioane</option><option value=\"102\">&nbsp;&nbsp;Vehicule Utilitare</option><option value=\"103\">&nbsp;&nbsp;Vehicule Transport Persoane</option><option value=\"104\">Imobiliare</option><option value=\"105\">&nbsp;&nbsp;Apartamente si case</option><option value=\"106\">&nbsp;&nbsp;Cladiri</option><option value=\"107\">&nbsp;&nbsp;Terenuri</option><option value=\"108\">&nbsp;&nbsp;Teren cu cladire</option><option value=\"109\">&nbsp;&nbsp;Proiecte imobiliare</option><option value=\"110\">&nbsp;&nbsp;Proprietati industriale</option><option value=\"111\">&nbsp;&nbsp;Spatii de birouri</option><option value=\"112\">&nbsp;&nbsp;Spatii comerciale</option><option value=\"113\">&nbsp;&nbsp;Pensiuni</option><option value=\"114\">&nbsp;&nbsp;Hoteluri</option><option value=\"115\">Industrial</option><option value=\"116\">&nbsp;&nbsp;Masini si utilaje</option><option value=\"117\">&nbsp;&nbsp;Materiale si materii prime</option><option value=\"118\">&nbsp;&nbsp;Retele de distributie</option><option value=\"119\">&nbsp;&nbsp;Stocuri</option><option value=\"120\">&nbsp;&nbsp;Aparatura medicala</option><option value=\"121\">Office</option><option value=\"122\">&nbsp;&nbsp;Mobilier</option><option value=\"123\">&nbsp;&nbsp;IT</option><option value=\"124\">Altele</option><option value=\"126\">&nbsp;&nbsp;Altele</option><option value=\"128\">&nbsp;&nbsp;Anunturi selectie</option></select>        </div>\n1904:        <a href=\"https://www.licitatii-insolventa.ro/cauta\" class=\"clear-search\" title=\"Sterge parametrii\"><i class=\"fa fa-eraser\"></i>Sterge cautare</a>\n",
+  "exitCode": 0,
+  "durationMs": 147
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-17e1694c-ce9a-4bc0-94d6-daebffd23638",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content sources/insolventa/home.html | Select-Object -Skip 475 -First 57\nnode -e \\\"fetch('https://www.licitatii-insolventa.ro/cauta').then(r=>r.text()).then(s=>require('fs').writeFileSync('sources/insolventa/search.html',s))\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "49664",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content sources/insolventa/home.html | Select-Object -Skip 475 -First 57\nnode -e \"fetch('https://www.licitatii-insolventa.ro/cauta').then(r=>r.text()).then(s=>require('fs').writeFileSync('sources/insolventa/search.html',s))\""
+    }
+  ],
+  "aggregatedOutput": "        <div class=\"inner\">\r\n\r\n          <div id=\"latest\" class=\"white\">\r\n            \r\n\r\n            \r\n                          <div class=\"block\">\r\n                <div class=\"wrap\">\r\n                                                        \r\n  <div class=\"simple-prod o1\">\r\n    <div class=\"simple-wrap\">\r\n      \r\n      <div class=\"item-img-wrap\">\r\n        \r\n        <div class=\"category-link\"><span><i class=\"fa fa-bars\"></i> Altele</span></div>\r\n\r\n                              <a class=\"img-link\" href=\"https://www.licitatii-insolventa.ro/altele/altele_1/licita%c8%9bie-publica-azarcar-srl_i179137\">\r\n                                                <img class=\"lazy link0\" src=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97726_thumbnail.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97726_thumbnail.png\" title=\"Licitație publică AZARCAR SRL\" alt=\"Licitație publică AZARCAR SRL\" />\r\n                                                                <img class=\"lazy link1\" src=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97727_thumbnail.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97727_thumbnail.png\" title=\"Licitație publică AZARCAR SRL\" alt=\"Licitație publică AZARCAR SRL\" />\r\n                                          </a>\r\n                  \r\n       \r\n      </div>\r\n\r\n      \r\n                        \r\n      \r\n      <a class=\"title\" href=\"https://www.licitatii-insolventa.ro/altele/altele_1/licita%c8%9bie-publica-azarcar-srl_i179137\">Licitație publică AZARCAR SRL</a>\r\n\r\n              <div class=\"price\"><span>Verifica cu vanzatorul</span></div>\r\n          </div>\r\n  </div>\r\n\r\n                    \r\n                                                          \r\n  <div class=\"simple-prod o2\">\r\n    <div class=\"simple-wrap\">\r\n      \r\n      <div class=\"item-img-wrap\">\r\n        \r\n        <div class=\"category-link\"><span><i class=\"fa fa-home\"></i> Teren cu cladire</span></div>\r\n\r\n                  <a class=\"img-link\" href=\"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire/licitatie-publica-cu-strigare-cu-pret-in-urcare_i179136\"><img class=\"lazy\" src=\"https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/no-image.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/no-image.png\" title=\"Licitatie publica cu strigare cu pret in urcare\" alt=\"Licitatie publica cu strigare cu pret in urcare\" /></a>\r\n        \r\n       \r\n      </div>\r\n\r\n      \r\n                        \r\n      \r\n      <a class=\"title\" href=\"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire/licitatie-publica-cu-strigare-cu-pret-in-urcare_i179136\">Licitatie publica cu strigare cu pret in urcare</a>\r\n\r\n              <div class=\"price\"><span>Verifica cu vanzatorul</span></div>\r\n          </div>\r\n  </div>\r\n\r\n                    \r\n",
+  "exitCode": 0,
+  "durationMs": 849
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-fd110c10-8101-4ab3-9379-47c67572684e",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'rg -n \"paginate|pagination|/cauta|simple-prod|location|description|pub-date\" sources/insolventa/search.html'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "44740",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg -n \"paginate|pagination|/cauta|simple-prod|location|description|pub-date\" sources/insolventa/search.html"
+    }
+  ],
+  "aggregatedOutput": "8:  <meta name=\"description\" content=\"Altele Cluj-Napoca, Subscrisa TRANSILVANIA MASTER INSOLV SPRL, în calitate de lichidator judiciar al AZARCAR S.R.L. organizează licitație pu...\" />\n191:$('.clear-cookie-location').click(function(){\n266:// Remove &nbsp; and - from location name in span\n2487:      <div class=\"paginate\">\n2488:        <ul><li><span class=\"searchPaginationSelected list-first\">1</span></li> <li><a href=\"https://www.licitatii-insolventa.ro/cauta/iPage,2\" class=\"searchPaginationNonSelected\">2</a></li> <li><a href=\"https://www.licitatii-insolventa.ro/cauta/iPage,3\" class=\"searchPaginationNonSelected\">3</a></li> <li><a href=\"https://www.licitatii-insolventa.ro/cauta/iPage,2\" class=\"searchPaginationNext\">&gt;</a></li> <li><a href=\"https://www.licitatii-insolventa.ro/cauta/iPage,47\" class=\"searchPaginationLast list-last\">&raquo;</a></li></ul>\n2515:          <fieldset class=\"box location\">\n2669:    <a class=\"o-border-bottom\" href=\"https://www.licitatii-insolventa.ro/cauta\"><i class=\"fa fa-search\"></i>Cauta</a>\n2818:        <a href=\"https://www.licitatii-insolventa.ro/cauta\" class=\"clear-search\" title=\"Sterge parametrii\"><i class=\"fa fa-eraser\"></i>Sterge cautare</a>\n",
+  "exitCode": 0,
+  "durationMs": 176
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-824f91c5-48b0-41c1-b6ee-e4cdd5025c54",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content sources/insolventa/search.html | Select-Object -Skip 485 -First 125\nnode -e \\\"let p='C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';for(let m of ['cheerio','jsdom']){try{console.log(m,require.resolve(p+'/'+m))}catch(e){}}\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "41779",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content sources/insolventa/search.html | Select-Object -Skip 485 -First 125\nnode -e \"let p='C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';for(let m of ['cheerio','jsdom']){try{console.log(m,require.resolve(p+'/'+m))}catch(e){}}\""
+    }
+  ],
+  "aggregatedOutput": "          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <div id=\"search-items\">                    \r\n                      <div id=\"list-view\">\r\n\r\n  \r\n\r\n\r\n    \r\n    \r\n  <div class=\"list-prod o1\">\r\n    \r\n    <div class=\"left\">\r\n      <h3 class=\"resp-title\"><a href=\"https://www.licitatii-insolventa.ro/altele/altele_1/licita%c8%9bie-publica-azarcar-srl_i179137\">Licitație publică AZARCAR SRL</a></h3>\r\n\r\n              <a class=\"big-img\" href=\"https://www.licitatii-insolventa.ro/altele/altele_1/licita%c8%9bie-publica-azarcar-srl_i179137\"><img class=\"lazy\" src=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97726_thumbnail.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97726_thumbnail.png\" title=\"Licitație publică AZARCAR SRL\" alt=\"Licitație publică AZARCAR SRL\" /></a>\r\n\r\n        <div class=\"img-bar\">\r\n                                              <span class=\"small-img selected\" id=\"bar_img_0\"><img class=\"lazy\" src=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97726_thumbnail.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97726_thumbnail.png\" title=\"Licitație publică AZARCAR SRL\" alt=\"Licitație publică AZARCAR SRL\" /></span>\r\n                                                <span class=\"small-img\" id=\"bar_img_1\"><img class=\"lazy\" src=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97727_thumbnail.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97727_thumbnail.png\" title=\"Licitație publică AZARCAR SRL\" alt=\"Licitație publică AZARCAR SRL\" /></span>\r\n                              </div>\r\n          </div>\r\n\r\n    <div class=\"middle\">\r\n      \r\n      <h3><a href=\"https://www.licitatii-insolventa.ro/altele/altele_1/licita%c8%9bie-publica-azarcar-srl_i179137\">Licitație publică AZARCAR SRL</a></h3>\r\n      <div class=\"desc has_images\">Subscrisa TRANSILVANIA MASTER INSOLV SPRL, în calitate de lichidator judiciar al AZARCAR S.R.L. organizează licitație publică cu strigare pentru vânzarea bunurilor mobile din patrimoniul debitoarei la 100% din valoarea de piață stabilită de evaluatorul ANEVAR, constând în: - Autoturism Ford C-Max - ...</div>\r\n      <div class=\"loc\"><i class=\"fa fa-map-marker\"></i>Cluj-Napoca in Cluj (Romania)</div>\r\n      <div class=\"author\">\r\n        <i class=\"fa fa-pencil\"></i>Publicat de \r\n                  <a href=\"https://www.licitatii-insolventa.ro/user/profil/1771\">TRANSILVANIA MASTER INSOLV SPRL</a>\r\n              </div>\r\n    </div>\r\n\r\n    <div class=\"right\">\r\n              <div class=\"price\">Verifica cu vanzatorul</div>\r\n      \r\n      <a class=\"view round2\" href=\"https://www.licitatii-insolventa.ro/altele/altele_1/licita%c8%9bie-publica-azarcar-srl_i179137\">Vizualizare</a>\r\n      <a class=\"category\" href=\"https://www.licitatii-insolventa.ro/altele/altele_1\">Altele</a>\r\n\r\n            <span class=\"date\">\r\n        publicat <span>azi</span>      </span>\r\n\r\n      <span class=\"viewed\">\r\n        vizualizat <span>18x</span>      </span>\r\n    </div>\r\n  </div>\r\n\r\n\r\n\r\n    \r\n      \r\n    \r\n  <div class=\"list-prod o2\">\r\n    \r\n    <div class=\"left\">\r\n      <h3 class=\"resp-title\"><a href=\"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire/licitatie-publica-cu-strigare-cu-pret-in-urcare_i179136\">Licitatie publica cu strigare cu pret in urcare</a></h3>\r\n\r\n              <a class=\"big-img no-img\" href=\"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire/licitatie-publica-cu-strigare-cu-pret-in-urcare_i179136\"><img class=\"lazy\" src=\"https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/no-image.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/no-image.png\" title=\"Licitatie publica cu strigare cu pret in urcare\" alt=\"Licitatie publica cu strigare cu pret in urcare\" /></a>\r\n          </div>\r\n\r\n    <div class=\"middle\">\r\n      \r\n      <h3><a href=\"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire/licitatie-publica-cu-strigare-cu-pret-in-urcare_i179136\">Licitatie publica cu strigare cu pret in urcare</a></h3>\r\n      <div class=\"desc \">A&amp;A CONSULTANTS SPRL, lichidator judiciar al Companiei Nationale de Radiocomunicatii Navale Radionav SA, organizează licitație publică cu strigare, cu preț în urcare, la data de 23.10.2026, ora 16.00, în Mun. București, Bd. Carol I, nr. 12, et. 1, Sector 3, pentru vânzarea în bloc la prețul de p...</div>\r\n      <div class=\"loc\"><i class=\"fa fa-map-marker\"></i>Bucuresti in Bucuresti (Romania)</div>\r\n      <div class=\"author\">\r\n        <i class=\"fa fa-pencil\"></i>Publicat de \r\n                  <a href=\"https://www.licitatii-insolventa.ro/user/profil/1862\">A&amp;A CONSULTANTS SPRL</a>\r\n              </div>\r\n    </div>\r\n\r\n    <div class=\"right\">\r\n              <div class=\"price\">Verifica cu vanzatorul</div>\r\n      \r\n      <a class=\"view round2\" href=\"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire/licitatie-publica-cu-strigare-cu-pret-in-urcare_i179136\">Vizualizare</a>\r\n      <a class=\"category\" href=\"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire\">Teren cu cladire</a>\r\n\r\n            <span class=\"date\">\r\n        publicat <span>azi</span>      </span>\r\n\r\n      <span class=\"viewed\">\r\n        vizualizat <span>16x</span>      </span>\r\n    </div>\r\n  </div>\r\n\r\n\r\n\r\n    \r\n      \r\n    \r\n  <div class=\"list-prod o3\">\r\n    \r\n    <div class=\"left\">\r\n      <h3 class=\"resp-title\"><a href=\"https://www.licitatii-insolventa.ro/imobiliare/terenuri/teren-intravilan-in-suprafata-de-3011-mp-din-posta-calnau-dezmembrat-in-6-loturi_i179135\">Teren intravilan in suprafata de 3011 mp din Posta Calnau dezmembrat in 6 loturi</a></h3>\r\n\r\n              <a class=\"big-img no-img\" href=\"https://www.licitatii-insolventa.ro/imobiliare/terenuri/teren-intravilan-in-suprafata-de-3011-mp-din-posta-calnau-dezmembrat-in-6-loturi_i179135\"><img class=\"lazy\" src=\"https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/no-image.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/no-image.png\" title=\"Teren intravilan in suprafata de 3011 mp din Posta Calnau dezmembrat in 6 loturi\" alt=\"Teren intravilan in suprafata de 3011 mp din Posta Calnau dezmembrat in 6 loturi\" /></a>\r\n          </div>\r\n\r\n    <div class=\"middle\">\r\n      \r\n      <h3><a href=\"https://www.licitatii-insolventa.ro/imobiliare/terenuri/teren-intravilan-in-suprafata-de-3011-mp-din-posta-calnau-dezmembrat-in-6-loturi_i179135\">Teren intravilan in suprafata de 3011 mp din Posta Calnau dezmembrat in 6 loturi</a></h3>\r\n      <div class=\"desc \">EUROAVIPO SA, societate în faliment, in bankruptcy, en faillite, prin lichidator judiciar BĂLESCU &amp; ASOCIAȚII SPRL, conform dosar nr. 1910/114/2012, organizează licitație publică cu strigare în datele: 28.10.2026, 04.11.2026, 11.11.2026, 18.11.2026, 25.11.2026, 02.12.2026, 09.12.2026, 16.12.2026...</div>\r\n      <div class=\"loc\"><i class=\"fa fa-map-marker\"></i>Buzau in Buzau (Romania)</div>\r\n      <div class=\"author\">\r\n        <i class=\"fa fa-pencil\"></i>Publicat de \r\n                  <a href=\"https://www.licitatii-insolventa.ro/user/profil/1617\">BALESCU &amp; ASOCIATII SPRL</a>\r\n              </div>\r\n    </div>\r\n\r\n    <div class=\"right\">\r\n              <div class=\"price\">304,300.00 LEI</div>\r\n      \r\n      <a class=\"view round2\" href=\"https://www.licitatii-insolventa.ro/imobiliare/terenuri/teren-intravilan-in-suprafata-de-3011-mp-din-posta-calnau-dezmembrat-in-6-loturi_i179135\">Vizualizare</a>\r\n      <a class=\"category\" href=\"https://www.licitatii-insolventa.ro/imobiliare/terenuri\">Terenuri</a>\r\n\r\n            <span class=\"date\">\r\n        publicat <span>azi</span>      </span>\r\n\r\n      <span class=\"viewed\">\r\n        vizualizat <span>15x</span>      </span>\r\n    </div>\r\n",
+  "exitCode": 0,
+  "durationMs": 456
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-53d92da7-1a08-41c7-8c1e-0b6ed8c5f7e5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://www.licitatii-insolventa.ro/auto/autoturisme/autoturism-m1-citroen-jumper_i179130').then(r=>r.text()).then(s=>require('fs').writeFileSync('sources/insolventa/detail-sample.html',s))\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "13352",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://www.licitatii-insolventa.ro/auto/autoturisme/autoturism-m1-citroen-jumper_i179130').then(r=>r.text()).then(s=>require('fs').writeFileSync('sources/insolventa/detail-sample.html',s))\""
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 550
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-4ba5a2a5-4b48-4ad8-a2e8-1985a3c4c8e9",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'rg -n \"description|item-desc|Data|Publicat|pub_date|Expir|judet|Judet|attribute|Anul|Marca|breadcrumb\" sources/insolventa/detail-sample.html'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "81807",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg -n \"description|item-desc|Data|Publicat|pub_date|Expir|judet|Judet|attribute|Anul|Marca|breadcrumb\" sources/insolventa/detail-sample.html"
+    }
+  ],
+  "aggregatedOutput": "9:  <meta name=\"description\" content=\"Autoturisme Bacau, Ionescu şi Asociaţii SPRL Lichidator judiciar al SC A.G STEEL BUILDINGS SRL, organizeazǎ licitaţie publică în vederea vâ...\" />\n15:<meta http-equiv=\"Expires\" content=\"Mon, 01 Jul 1970 00:00:00 GMT\" />\n90:    <meta property=\"og:description\" content=\"Ionescu şi Asociaţii SPRL Lichidator judiciar al SC A.G STEEL BUILDINGS SRL, organizeazǎ licitaţie publică în vederea vânzării unor bunuri auto după cum urmează Nr. crt. Specificatie Preț pornire licitație (lei) fără TVA 1 Citroen Jumper – BC 14 DNG 9.180,00 Licitaţia va avea loc în ziua de 30.10.2026, ora 11.00 la adresa: loc. Bacǎu, str.Ștefan Cel Mare, bl.3, Parter, jud.Bacău. Bunurile se vînd individual. Condiţiile de participare şi regulamentul de licitaţie se regăsesc în caietele de sarcin...\" />\n102:      <meta itemprop=\"description\" content=\"Ionescu şi Asociaţii SPRL Lichidator judiciar al SC A.G STEEL BUILDINGS SRL, organizeazǎ licitaţie publică în vederea vânzării unor bunuri auto după cum urmează Nr. crt. Specificatie Preț pornire licitație (lei) fără TVA 1 Citroen Jumper – BC 14 DNG 9.180,00 Licitaţia va avea loc în ziua de 30.10.2026, ora 11.00 la adresa: loc. Bacǎu, str.Ștefan Cel Mare, bl.3, Parter, jud.Bacău. Bunurile se vînd individual. Condiţiile de participare şi regulamentul de licitaţie se regăsesc în caietele de sarcin...\" />\n478:  <div class=\"breadcrumb\">\n479:    <div class=\"bread-home\"><i class=\"fa fa-home\"></i></div><ul class=\"breadcrumb\">\n557:                    <div class=\"left\">Data publicare</div>\n572:                        <span>Data licitatie:</span> 30/10/2026                      </div>\n587:                        <span>Marca:</span> Citroën                      </div>\n629:            <div class=\"item-description sc-block\">\n638:Licitaţia va avea loc în ziua de  30.10.2026, ora 11.00  la adresa: loc. Bacǎu, str.Ștefan Cel Mare, bl.3, Parter, jud.Bacău. Bunurile se vînd individual. Condiţiile de participare şi regulamentul de licitaţie se regăsesc în caietele de sarcini care pot fi achiziţionate după cum urmează: - pentru Autoturism M1 Citroen Jumper – BC 14 DNG, preţul caietului de sarcini este de 910,00 lei + TVA,Caietul de sarcini se achiziţionează pentru fiecare bun in parte,de la adresa Lichidatorului judiciar începând cu data de 13.10.2026.Data limită pentru achiziţionarea caietelor de sarcini este cu 48 ore înainte de data licitaţiei. La data adjudecarii cumpărători vor prezenta lichidatorului judiciar Certificat de atestare fiscală prin care să se ateste achitarea tuturor obligațiilor de plată datorate bugetului local al unității administrativ-teritoriale în a cărei rază iși au domiciliul, sediul sau punctul de lucru, după caz conform OG 7/2026.Prezentul anunţ constituie şi notificare către creditori, debitori şi orice persoană fizică sau juridică interesată în cauză. Relaţii la tel. Tel/Fax 0334/417350; <br />\n706:\t<input type=\"hidden\" name=\"meta_name\" value=\"Data licitatie,Tip Vanzare,Marca,KM,Combustibil,An fabricatie,Capacitate cilindrica,Ora licitatie\">\n728:Licitaţia va avea loc în ziua de  30.10.2026, ora 11.00  la adresa: loc. Bacǎu, str.Ștefan Cel Mare, bl.3, Parter, jud.Bacău. Bunurile se vînd individual. Condiţiile de participare şi regulamentul de licitaţie se regăsesc în caietele de sarcini care pot fi achiziţionate după cum urmează: - pentru Autoturism M1 Citroen Jumper – BC 14 DNG, preţul caietului de sarcini este de 910,00 lei + TVA,Caietul de sarcini se achiziţionează pentru fiecare bun in parte,de la adresa Lichidatorului judiciar începând cu data de 13.10.2026.Data limită pentru achiziţionarea caietelor de sarcini este cu 48 ore înainte de data licitaţiei. La data adjudecarii cumpărători vor prezenta lichidatorului judiciar Certificat de atestare fiscală prin care să se ateste achitarea tuturor obligațiilor de plată datorate bugetului local al unității administrativ-teritoriale în a cărei rază iși au domiciliul, sediul sau punctul de lucru, după caz conform OG 7/2026.Prezentul anunţ constituie şi notificare către creditori, debitori şi orice persoană fizică sau juridică interesată în cauză. Relaţii la tel. Tel/Fax 0334/417350; &lt;br /&gt;\n732:        <input type=\"hidden\" name=\"pub_date\" value=\"2026-10-12 15:30:39\">\n863:          <a class=\"single single-google-plus\" title=\"Publicati pe Google Plus\" target=\"_blank\" href=\"https://plus.google.com/share?url=https://www.licitatii-insolventa.ro/auto/autoturisme/autoturism-m1-citroen-jumper_i179130\"><i class=\"fa fa-google-plus-square\"></i></a> \n865:          <a class=\"single single-pinterest\" title=\"Publicați pe Pinterest\" target=\"_blank\" href=\"https://pinterest.com/pin/create/button/?url=https://www.licitatii-insolventa.ro/auto/autoturisme/autoturism-m1-citroen-jumper_i179130&media=https://www.licitatii-insolventa.ro/0.&description=AUTOTURISM M1 CITROEN JUMPER\"><i class=\"fa fa-pinterest-square\"></i></a> \n1081:            <h4>Judet</h4>\n1084:                <option value=\"\">Alege judet</option>\n1277:              result += '<option value=\"\">Alege judet</option>';\n1282:              $(\"#sRegion-side\").before('<select name=\"sRegion\" id=\"regionId\" ><option selected=\"selected\" value=\"\">Alege judet</option></select>').remove();\n1304:        $(\"#sRegion-side\").before('<select name=\"sRegion\" id=\"regionId\"><option selected=\"selected\" value=\"\">Alege judet</option></select>').remove();\n1305:        $(\"#regionId\").html('<option selected=\"selected\" value=\"\">Alege judet</option>').attr('disabled',true);\n",
+  "exitCode": 0,
+  "durationMs": 170
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5ef2eeb6-2a92-4e1e-927c-7c26aae16bfb",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-Content sources/insolventa/detail-sample.html | Select-Object -Skip 549 -First 105\nGet-Content sources/insolventa/detail-sample.html | Select-Object -Skip 695 -First 42'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "52142",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content sources/insolventa/detail-sample.html | Select-Object -Skip 549 -First 105\nGet-Content sources/insolventa/detail-sample.html | Select-Object -Skip 695 -First 42"
+    }
+  ],
+  "aggregatedOutput": "                  <div class=\"left\">Vizualizari</div>\r\n                  <div class=\"right\">15x</div>\r\n                </div>\r\n              </div>\r\n\r\n                              <div class=\"elem\">\r\n                  <div class=\"ins\">\r\n                    <div class=\"left\">Data publicare</div>\r\n                    <div class=\"right\">12/10/2026</div>\r\n                  </div>\r\n                </div>\r\n              \r\n              \r\n            </div>\r\n          </div>\r\n\r\n                                <div id=\"custom_fields\">\r\n              <h3><span>Informatii aditionale</span></h3>\r\n\r\n              <div class=\"meta_list\">\r\n                                                                                          <div class=\"meta odd\">\r\n                      <div class=\"ins\">\r\n                        <span>Data licitatie:</span> 30/10/2026                      </div>\r\n                    </div>\r\n                  \r\n                                                                                            <div class=\"meta even\">\r\n                      <div class=\"ins\">\r\n                        <span>Ora licitatie:</span> 11                      </div>\r\n                    </div>\r\n                  \r\n                                                                                            <div class=\"meta odd\">\r\n                      <div class=\"ins\">\r\n                        <span>Tip Vanzare:</span> Licitatie publica                      </div>\r\n                    </div>\r\n                  \r\n                                                                                            <div class=\"meta even\">\r\n                      <div class=\"ins\">\r\n                        <span>Marca:</span> Citroën                      </div>\r\n                    </div>\r\n                  \r\n                                                                                            <div class=\"meta odd\">\r\n                      <div class=\"ins\">\r\n                        <span>KM:</span> -                      </div>\r\n                    </div>\r\n                  \r\n                                                                                            <div class=\"meta even\">\r\n                      <div class=\"ins\">\r\n                        <span>Combustibil:</span> Motorina                      </div>\r\n                    </div>\r\n                  \r\n                                                                                            <div class=\"meta odd\">\r\n                      <div class=\"ins\">\r\n                        <span>An fabricatie:</span> 2008                      </div>\r\n                    </div>\r\n                  \r\n                                                                                            <div class=\"meta even\">\r\n                      <div class=\"ins\">\r\n                        <span>Capacitate cilindrica:</span> 2999 &ndash; cmc / 115.5 Kw                      </div>\r\n                    </div>\r\n                  \r\n                                                </div>\r\n\r\n            </div>\r\n          \r\n          <div id=\"plugin-details\">\r\n          \r\n            <h3 style=\"margin-left: 40px;margin-top: 20px;\">Documente</h3>\r\n<div class=\"box\">\r\n    <div class=\"box dg_files\">\r\n                </div>\r\n</div>\r\n  \r\n          </div>\r\n\t\t  \r\n                  Debitor: A.G. STEEL BUILDINGS        \r\n          <!-- Block #3 - Description -->\r\n          <div id=\"more-info\">\r\n            <h2 class=\"sc-click\"><span>Descriere</span></h2>\r\n        \r\n            <div class=\"item-description sc-block\">\r\n                              <!-- QR CODE PLUGIN -->\r\n                <div class=\"qr-right noselect\">\r\n                  <img src=\"https://www.licitatii-insolventa.ro/oc-content/uploads/qrcode/179130_0954ffe2fed8eae92f5f05fbc06bc976_2.png\" alt=\"QR CODE\" id=\"qrcode_179130\" class=\"qrcode\" />                </div>\r\n              \r\n\r\n              Ionescu şi Asociaţii SPRL Lichidator judiciar al SC A.G STEEL BUILDINGS SRL, organizeazǎ licitaţie publică în vederea vânzării unor bunuri auto după cum urmează <br />\r\nNr. crt.\tSpecificatie\tPreț pornire licitație (lei) fără TVA<br />\r\n1\tCitroen Jumper – BC 14 DNG\t9.180,00<br />\r\nLicitaţia va avea loc în ziua de  30.10.2026, ora 11.00  la adresa: loc. Bacǎu, str.Ștefan Cel Mare, bl.3, Parter, jud.Bacău. Bunurile se vînd individual. Condiţiile de participare şi regulamentul de licitaţie se regăsesc în caietele de sarcini care pot fi achiziţionate după cum urmează: - pentru Autoturism M1 Citroen Jumper – BC 14 DNG, preţul caietului de sarcini este de 910,00 lei + TVA,Caietul de sarcini se achiziţionează pentru fiecare bun in parte,de la adresa Lichidatorului judiciar începând cu data de 13.10.2026.Data limită pentru achiziţionarea caietelor de sarcini este cu 48 ore înainte de data licitaţiei. La data adjudecarii cumpărători vor prezenta lichidatorului judiciar Certificat de atestare fiscală prin care să se ateste achitarea tuturor obligațiilor de plată datorate bugetului local al unității administrativ-teritoriale în a cărei rază iși au domiciliul, sediul sau punctul de lucru, după caz conform OG 7/2026.Prezentul anunţ constituie şi notificare către creditori, debitori şi orice persoană fizică sau juridică interesată în cauză. Relaţii la tel. Tel/Fax 0334/417350; <br />\r\n            </div>\r\n          </div>\r\n\r\n        \r\n          <!-- Block #5 - Related listings -->\r\n          <div id=\"more-info\">\r\n                      </div>\r\n\r\n              \r\n          </div>\r\n\r\n\r\n    <!-- RIGHT SIDEBAR -->\r\n          <div id=\"side-right\" class=\"main-side\">\r\n   \r\n        \r\n        {\r\n            window.open(\"about :blank\",\"printme\",\"width=750,height=600,scrollbars=yes,menubar=yes\");\r\n            return true;\r\n        }\r\n    </script>\r\n\r\n    <form name=\"printform\" id=\"printform\" action=\"https://www.licitatii-insolventa.ro/oc-content/plugins/print_ad/print.php\" method=\"post\" target=\"printme\" onsubmit=\"formpopup();\"><input type='hidden' name='CSRFName' value='CSRF261014107_927657023' />\r\n        <input type='hidden' name='CSRFToken' value='b9203565ca6c9169e83ebcd98044a7dabef300e5c3179b59e2750958f02789a4ed365433c4bcdc58b8a5f0dcaa632611e9457f3a64e9e6f2c5fabe6b6a5da294' />\r\n\r\n\t<input type=\"hidden\" name=\"meta_id\" value=\"1,3,4,5,6,7,8,16\">\r\n\t<input type=\"hidden\" name=\"meta_name\" value=\"Data licitatie,Tip Vanzare,Marca,KM,Combustibil,An fabricatie,Capacitate cilindrica,Ora licitatie\">\r\n\t<input type=\"hidden\" name=\"meta_value\" value=\"30/10/2026,Licitatie publica,Citroën,-,Motorina,2008,2999 &amp;ndash; cmc / 115.5 Kw,11\">\r\n\t\r\n\t<input type=\"hidden\" name=\"image_id\" value=\"\">\r\n\t<input type=\"hidden\" name=\"image_path\" value=\"\">\r\n\t<input type=\"hidden\" name=\"image_ext\" value=\"\">\r\n\r\n\t<input type=\"hidden\" name=\"contact_name\" value=\"IONESCU SI ASOCIATII SPRL\">\r\n\t<input type=\"hidden\" name=\"anuntid\" value=\"179130\">\r\n\t<input type=\"hidden\" name=\"contact_email\" value=\"cpi.ionescuadrian@yahoo.com\">\r\n\t<input type=\"hidden\" name=\"contact_email_en\" value=\"\">\r\n\t<input type=\"hidden\" name=\"contact_phone\" value=\"\">\r\n\t<input type=\"hidden\" name=\"mobil\" value=\"\">\r\n\t<input type=\"hidden\" name=\"mobil2\" value=\"0334417350\">\r\n\t<input type=\"hidden\" name=\"contact_website\" value=\"\">\r\n\t<input type=\"hidden\" name=\"contact_address\" value=\"\">\r\n\r\n\t<input type=\"hidden\" name=\"site_title\" value=\"UNPIR - Licitatii Insolventa\">\r\n\t<input type=\"hidden\" name=\"site_url\" value=\"https://www.licitatii-insolventa.ro/\">\r\n        <input type=\"hidden\" name=\"desc\" value=\"Ionescu şi Asociaţii SPRL Lichidator judiciar al SC A.G STEEL BUILDINGS SRL, organizeazǎ licitaţie publică în vederea vânzării unor bunuri auto după cum urmează &lt;br /&gt;\r\nNr. crt.\tSpecificatie\tPreț pornire licitație (lei) fără TVA&lt;br /&gt;\r\n1\tCitroen Jumper – BC 14 DNG\t9.180,00&lt;br /&gt;\r\nLicitaţia va avea loc în ziua de  30.10.2026, ora 11.00  la adresa: loc. Bacǎu, str.Ștefan Cel Mare, bl.3, Parter, jud.Bacău. Bunurile se vînd individual. Condiţiile de participare şi regulamentul de licitaţie se regăsesc în caietele de sarcini care pot fi achiziţionate după cum urmează: - pentru Autoturism M1 Citroen Jumper – BC 14 DNG, preţul caietului de sarcini este de 910,00 lei + TVA,Caietul de sarcini se achiziţionează pentru fiecare bun in parte,de la adresa Lichidatorului judiciar începând cu data de 13.10.2026.Data limită pentru achiziţionarea caietelor de sarcini este cu 48 ore înainte de data licitaţiei. La data adjudecarii cumpărători vor prezenta lichidatorului judiciar Certificat de atestare fiscală prin care să se ateste achitarea tuturor obligațiilor de plată datorate bugetului local al unității administrativ-teritoriale în a cărei rază iși au domiciliul, sediul sau punctul de lucru, după caz conform OG 7/2026.Prezentul anunţ constituie şi notificare către creditori, debitori şi orice persoană fizică sau juridică interesată în cauză. Relaţii la tel. Tel/Fax 0334/417350; &lt;br /&gt;\r\n\">\r\n        <input type=\"hidden\" name=\"title\" value=\"AUTOTURISM M1 CITROEN JUMPER\">\r\n        <input type=\"hidden\" name=\"price\" value=\"9,180.00 LEI\">\r\n        <input type=\"hidden\" name=\"pub_date\" value=\"2026-10-12 15:30:39\">\r\n         <input type=\"hidden\" name=\"expire_date\" value=\"2026-10-30 11:00:00\">\r\n        <input type=\"hidden\" name=\"country\" value=\"Romania\">\r\n        <input type=\"hidden\" name=\"region\" value=\"Bacau\">\r\n        <input type=\"hidden\" name=\"city\" value=\"Bacau\">\r\n        <input type=\"hidden\" name=\"zip\" value=\"\">\r\n",
+  "exitCode": 0,
+  "durationMs": 481
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-c75dec60-be81-46e7-8da4-66c3bbf4b7f6",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://www.licitatii-insolventa.ro/robots.txt').then(r=>r.text()).then(console.log)\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "30462",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://www.licitatii-insolventa.ro/robots.txt').then(r=>r.text()).then(console.log)\""
+    }
+  ],
+  "aggregatedOutput": "User-agent: *\nDisallow: /oc-content\nDisallow: /oc-includes\n",
+  "exitCode": 0,
+  "durationMs": 325
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-b7fdee4c-b03a-43e8-b92c-150f1be837da",
+  "changes": [
+    {
+      "path": "D:\\ANABI - Licitatii\\sources\\insolventa\\collect.cjs",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "const fs=require('fs'),path=require('path');\nconst dir=__dirname,base='https://www.licitatii-insolventa.ro';\nconst entities={amp:'&',quot:'\"',apos:\"'\",lt:'<',gt:'>',nbsp:' ',ndash:'–',mdash:'—',hellip:'…'};\nfunction decode(x=''){return x.replace(/&(#x[\\da-f]+|#\\d+|\\w+);/gi,(m,k)=>k[0]==='#'?String.fromCodePoint(k[1]==='x'?parseInt(k.slice(2),16):+k.slice(1)):entities[k]??m)}\nfunction clean(x=''){return decode(x.replace(/<[^>]*>/g,' ')).replace(/\\s+/g,' ').trim()}\nfunction match(x,re){return x.match(re)?.[1]||''}\nfunction field(x,c){return clean(match(x,new RegExp('<(?:div|a|span)[^>]*class=\"'+c+'[^\" ]*(?: [^\"]*)?\"[^>]*>([\\\\s\\\\S]*?)</(?:div|a|span)>')))}\nconst errors=[];let requests=0;\nasync function fetchPage(url){for(let n=0;n<3;n++){try{requests++;const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('HTTP '+r.status);return await r.text()}catch(e){if(n===2)throw e;await new Promise(r=>setTimeout(r,1500*(n+1)))}}}\nconst catNames={afaceri:'Afaceri',auto:'Auto',imobiliare:'Imobiliare',industrial:'Industrial',office:'Office',altele:'Altele'};\nfunction parseList(html){return html.split(/<div class=\"list-prod [^\"]*\">/).slice(1).map(c=>{const url=match(c,/<h3[^>]*>\\s*<a href=\"([^\"]*)\"/);const title=clean(match(c,/<h3[^>]*>\\s*<a[^>]*>([\\s\\S]*?)<\\/a>/));const priceText=field(c,'price');const n=priceText.match(/[\\d,]+\\.\\d+/);const loc=field(c,'loc');const lm=loc.match(/^(.*?) in (.*?) \\((.*?)\\)$/);const image=match(c,/<img[^>]*src=\"([^\"]*)\"/);return {id:'ins-'+match(url,/_i(\\d+)/),source:'INSOLVENȚĂ',sourceUrl:url,title,category:catNames[url.split('/')[3]]||'Altele',subcategory:field(c,'category'),price:n?Number(n[0].replace(/,/g,'')):null,currency:/Euro/i.test(priceText)?'EUR':/LEI/i.test(priceText)?'RON':null,priceText,county:lm?.[2]||null,locality:lm?.[1]||null,country:lm?.[3]||null,location:loc,image:image.includes('no-image')?null:image,description:field(c,'desc'),seller:clean(match(c,/<div class=\"author\">[\\s\\S]*?<a[^>]*>([\\s\\S]*?)<\\/a>/)),publishedLabel:field(c,'date'),attributes:{}}})}\nfunction input(h,n){return decode(match(h,new RegExp('name=\"'+n+'\" value=\"([^\"]*)\"')))}\nfunction detail(row,h){const attrs={};const block=match(h,/<div id=\"custom_fields\">([\\s\\S]*?)<div id=\"plugin-details\">/);for(const m of block.matchAll(/<div class=\"ins\">\\s*<span>([^<]*):<\\/span>([\\s\\S]*?)<\\/div>/g))attrs[clean(m[1])]=clean(m[2]);row.attributes=attrs;row.description=clean(decode(input(h,'desc')))||row.description;row.publishedAt=input(h,'pub_date')||null;row.expiresAt=input(h,'expire_date')||null;row.auctionDate=attrs['Data licitatie']||null;row.auctionTime=attrs['Ora licitatie']||null;row.county=input(h,'region')||row.county;row.locality=input(h,'city')||row.locality;row.brand=attrs['Marca']||null;row.year=/^\\d{4}$/.test(attrs['An fabricatie'])?+attrs['An fabricatie']:null;row.fuel=attrs['Combustibil']||null;row.area=attrs['Suprafata']||attrs['Suprafata teren']||null;row.detailFetched=true;}\nfunction save(rows,more={}){fs.writeFileSync(path.join(dir,'listings.json'),JSON.stringify(rows,null,2));fs.writeFileSync(path.join(dir,'coverage.json'),JSON.stringify({source:base,checkedAt:new Date().toISOString(),referenceDate:'2026-10-12',expected:2309,count:rows.length,detailCount:rows.filter(r=>r.detailFetched).length,requests,errors,...more},null,2))}\n(async()=>{let rows=[];for(let p=1;p<=47;p++){try{const h=p===1?fs.readFileSync(path.join(dir,'search.html'),'utf8'):await fetchPage(base+'/cauta/iPage,'+p);fs.writeFileSync(path.join(dir,'page-'+p+'.html'),h);rows.push(...parseList(h));console.log('page',p,rows.length);await new Promise(r=>setTimeout(r,120));}catch(e){errors.push({page:p,error:e.message})}}rows=[...new Map(rows.map(r=>[r.id,r])).values()];save(rows,{pages:47});let next=0,done=0;await Promise.all(Array.from({length:4},async()=>{while(next<rows.length){const r=rows[next++];try{detail(r,await fetchPage(r.sourceUrl))}catch(e){errors.push({id:r.id,error:e.message})}done++;if(done%100===0){save(rows,{pages:47});console.log('details',done,'/',rows.length)}await new Promise(r=>setTimeout(r,180))}}));save(rows,{pages:47,complete:errors.length===0});console.log('COMPLETE',rows.length,errors.length)})();\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_2673d71e7301456f97f346a5011a0d82",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-7cb4f46f-a79d-4e48-90ac-c79123f66cc5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const f=require('fs');let h=f.readFileSync('sources/insolventa/search.html','utf8'); console.log((h.match(/class=\\\\\\\"list-prod/g)||[]).length); console.log(h.slice(h.lastIndexOf('<div class=\\\\\\\"list-prod')-100,h.lastIndexOf('<div class=\\\\\\\"list-prod')+800))\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "3611",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const f=require('fs');let h=f.readFileSync('sources/insolventa/search.html','utf8'); console.log((h.match(/class=\\\"list-prod/g)||[]).length); console.log(h.slice(h.lastIndexOf('<div class=\\\"list-prod')-100,h.lastIndexOf('<div class=\\\"list-prod')+800))\""
+    }
+  ],
+  "aggregatedOutput": "ParserError: \r\nLine |\r\n   2 |  . rch.html','utf8'); console.log((h.match(/class=\\\"list-prod/g)||[]).le .\r\n     |                                                                ~\r\n     | Unexpected token ')' in expression or statement.\r\n",
+  "exitCode": 1,
+  "durationMs": 238
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-94fa244f-d04f-40e1-9406-1940d2d28837",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-Content sources/insolventa/coverage.json\nGet-Content sources/insolventa/listings.json -TotalCount 36'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "16688",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content sources/insolventa/coverage.json\nGet-Content sources/insolventa/listings.json -TotalCount 36"
+    }
+  ],
+  "aggregatedOutput": "{\r\n  \"source\": \"https://www.licitatii-insolventa.ro\",\r\n  \"checkedAt\": \"2026-10-12T13:57:56.803Z\",\r\n  \"referenceDate\": \"2026-10-12\",\r\n  \"expected\": 2309,\r\n  \"count\": 2309,\r\n  \"detailCount\": 0,\r\n  \"requests\": 46,\r\n  \"errors\": [],\r\n  \"pages\": 47\r\n}\r\n[\r\n  {\r\n    \"id\": \"ins-179137\",\r\n    \"source\": \"INSOLVENȚĂ\",\r\n    \"sourceUrl\": \"https://www.licitatii-insolventa.ro/altele/altele_1/licita%c8%9bie-publica-azarcar-srl_i179137\",\r\n    \"title\": \"Licitație publică AZARCAR SRL\",\r\n    \"category\": \"Altele\",\r\n    \"subcategory\": \"Altele\",\r\n    \"price\": null,\r\n    \"currency\": null,\r\n    \"priceText\": \"Verifica cu vanzatorul\",\r\n    \"county\": \"Cluj\",\r\n    \"locality\": \"Cluj-Napoca\",\r\n    \"country\": \"Romania\",\r\n    \"location\": \"Cluj-Napoca in Cluj (Romania)\",\r\n    \"image\": \"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97726_thumbnail.png\",\r\n    \"description\": \"Subscrisa TRANSILVANIA MASTER INSOLV SPRL, în calitate de lichidator judiciar al AZARCAR S.R.L. organizează licitație publică cu strigare pentru vânzarea bunurilor mobile din patrimoniul debitoarei la 100% din valoarea de piață stabilită de evaluatorul ANEVAR, constând în: - Autoturism Ford C-Max - ...\",\r\n    \"seller\": \"TRANSILVANIA MASTER INSOLV SPRL\",\r\n    \"publishedLabel\": \"publicat azi\",\r\n    \"attributes\": {}\r\n  },\r\n  {\r\n    \"id\": \"ins-179136\",\r\n    \"source\": \"INSOLVENȚĂ\",\r\n    \"sourceUrl\": \"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire/licitatie-publica-cu-strigare-cu-pret-in-urcare_i179136\",\r\n    \"title\": \"Licitatie publica cu strigare cu pret in urcare\",\r\n    \"category\": \"Imobiliare\",\r\n    \"subcategory\": \"Teren cu cladire\",\r\n    \"price\": null,\r\n    \"currency\": null,\r\n    \"priceText\": \"Verifica cu vanzatorul\",\r\n    \"county\": \"Bucuresti\",\r\n    \"locality\": \"Bucuresti\",\r\n    \"country\": \"Romania\",\r\n    \"location\": \"Bucuresti in Bucuresti (Romania)\",\r\n    \"image\": null,\r\n",
+  "exitCode": 0,
+  "durationMs": 180
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-b41627e6-6f69-4118-920b-6baa7526e5a2",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-Content sources/insolventa/coverage.json'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "5077",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content sources/insolventa/coverage.json",
+      "name": "coverage.json",
+      "path": "D:\\ANABI - Licitatii\\sources\\insolventa\\coverage.json"
+    }
+  ],
+  "aggregatedOutput": "{\r\n  \"source\": \"https://www.licitatii-insolventa.ro\",\r\n  \"checkedAt\": \"2026-10-12T13:58:09.114Z\",\r\n  \"referenceDate\": \"2026-10-12\",\r\n  \"expected\": 2309,\r\n  \"count\": 2309,\r\n  \"detailCount\": 99,\r\n  \"requests\": 150,\r\n  \"errors\": [\r\n    {\r\n      \"id\": \"ins-\",\r\n      \"error\": \"Failed to parse URL from \"\r\n    }\r\n  ],\r\n  \"pages\": 47\r\n}\r\n",
+  "exitCode": 0,
+  "durationMs": 166
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-3f47790b-2e1d-4af2-8a91-9046c312bf13",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"rg -n 'class=\\\"list-prod' sources/insolventa/search.html | Select-Object -First 4\nrg -n 'class=\\\"list-prod' sources/insolventa/search.html | Select-Object -Last 4\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "23524",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "rg -n 'class=\"list-prod' sources/insolventa/search.html | Select-Object -First 4\nrg -n 'class=\"list-prod' sources/insolventa/search.html | Select-Object -Last 4"
+    }
+  ],
+  "aggregatedOutput": "499:  <div class=\"list-prod o1\">\r\n542:  <div class=\"list-prod o2\">\r\n580:  <div class=\"list-prod o3\">\r\n615:          <div class=\"list-prod list-ad\">\r\n2324:  <div class=\"list-prod o47\">\r\n2368:  <div class=\"list-prod o48\">\r\n2406:  <div class=\"list-prod o49\">\r\n2447:  <div class=\"list-prod o50\">\r\n",
+  "exitCode": 0,
+  "durationMs": 222
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-925a9533-2fea-4019-a2a9-7500bc90066a",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://www.licitatii-insolventa.ro/cauta').then(r=>r.text()).then(s=>require('fs').writeFileSync('sources/insolventa/search-check.html',s))\\\"\nrg -n 'rezultate|230|count|anunturi' sources/insolventa/search-check.html | Select-Object -First 8\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "80962",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://www.licitatii-insolventa.ro/cauta').then(r=>r.text()).then(s=>require('fs').writeFileSync('sources/insolventa/search-check.html',s))\"\nrg -n 'rezultate|230|count|anunturi' sources/insolventa/search-check.html | Select-Object -First 8"
+    }
+  ],
+  "aggregatedOutput": "147:        <input type=\"text\" name=\"sPattern\"  id=\"query\" placeholder=\"Cauta in 2308 anunturi\" value=\"\" />\r\n226:  var sQuery = 'Cauta in 2308 anunturi';\r\n252:  var sQuery = 'Cauta in 2308 anunturi';\r\n472:      <div class=\"counter\">\r\n473:        1 - 50  de  2308 anunturi                                                           \r\n965:      <h3 class=\"resp-title\"><a href=\"https://www.licitatii-insolventa.ro/altele/anunturi-selectie/anunt-selectie-firma-de-arhivare_i179125\">ANUNT SELECTIE FIRMA DE ARHIVARE</a></h3>\r\n967:              <a class=\"big-img no-img\" href=\"https://www.licitatii-insolventa.ro/altele/anunturi-selectie/anunt-selectie-firma-de-arhivare_i179125\"><img class=\"lazy\" src=\"https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/no-image.png\" data-original=\"https://www.licitatii-insolventa.ro/oc-content/themes/zara/images/no-image.png\" title=\"ANUNT SELECTIE FIRMA DE ARHIVARE\" alt=\"ANUNT SELECTIE FIRMA DE ARHIVARE\" /></a>\r\n972:      <h3><a href=\"https://www.licitatii-insolventa.ro/altele/anunturi-selectie/anunt-selectie-firma-de-arhivare_i179125\">ANUNT SELECTIE FIRMA DE ARHIVARE</a></h3>\r\n",
+  "exitCode": 0,
+  "durationMs": 684
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-9d8e9dae-59be-480b-ba50-983b648cb589",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$collectionCode = Get-Content sources/insolventa/collect.cjs -Raw\n$collectionCode = $collectionCode.Replace('\"'attributes:{}}})}', 'attributes:{}}}).filter(r=>r.sourceUrl&&r.id\"'!=='\"''ins-'')}')\n\"'$collectionCode = $collectionCode.Replace('\"'expected:2309','expected:Number(match(fs.readFileSync(path.join(dir,''search-check.html''),''utf8''),/Cauta in (\\\\d+) anunturi/))')\nSet-Content sources/insolventa/collect.cjs -Value \"'$collectionCode -Encoding utf8\nnode --check sources/insolventa/collect.cjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "44104",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$collectionCode = Get-Content sources/insolventa/collect.cjs -Raw\n$collectionCode = $collectionCode.Replace('attributes:{}}})}', 'attributes:{}}}).filter(r=>r.sourceUrl&&r.id!==''ins-'')}')\n$collectionCode = $collectionCode.Replace('expected:2309','expected:Number(match(fs.readFileSync(path.join(dir,''search-check.html''),''utf8''),/Cauta in (\\d+) anunturi/))')\nSet-Content sources/insolventa/collect.cjs -Value $collectionCode -Encoding utf8\nnode --check sources/insolventa/collect.cjs"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 244
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e63ea3b9-1f21-41aa-9ef5-624f4965e582",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-Content sources/insolventa/listings.json -TotalCount 48'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "64120",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content sources/insolventa/listings.json -TotalCount 48"
+    }
+  ],
+  "aggregatedOutput": "[\r\n  {\r\n    \"id\": \"ins-179137\",\r\n    \"source\": \"INSOLVENȚĂ\",\r\n    \"sourceUrl\": \"https://www.licitatii-insolventa.ro/altele/altele_1/licita%c8%9bie-publica-azarcar-srl_i179137\",\r\n    \"title\": \"Licitație publică AZARCAR SRL\",\r\n    \"category\": \"Altele\",\r\n    \"subcategory\": \"Altele\",\r\n    \"price\": null,\r\n    \"currency\": null,\r\n    \"priceText\": \"Verifica cu vanzatorul\",\r\n    \"county\": \"Cluj\",\r\n    \"locality\": \"Cluj-Napoca\",\r\n    \"country\": \"Romania\",\r\n    \"location\": \"Cluj-Napoca in Cluj (Romania)\",\r\n    \"image\": \"https://www.licitatii-insolventa.ro/oc-content/uploads/1791/97726_thumbnail.png\",\r\n    \"description\": \"Subscrisa TRANSILVANIA MASTER INSOLV SPRL, în calitate de lichidator judiciar al AZARCAR S.R.L. organizează licitație publică cu strigare pentru vânzarea bunurilor mobile din patrimoniul debitoarei la 100% din valoarea de piață stabilită de evaluatorul ANEVAR, constând în: - Autoturism Ford C-Max - Licitația va avea loc în data de 23.10.2026 ora 13:00, in Cluj-Napoca, Calea Dorobanților, Nr. 14-16, Clădirea Cluj City Center, Et. 2, Ap. 66, Birou 206, jud. Cluj. Documentația de înscriere va putea fi depusă până la ora 13:00, în ziua anterioară licitației. În caz de neadjudecare licitația se va repeta în datele de 30.10.2026, 06.11.2026, 13.11.2026, 20.11.2026. Informații suplimentare se pot obține la tel: 0734098554.\",\r\n    \"seller\": \"TRANSILVANIA MASTER INSOLV SPRL\",\r\n    \"publishedLabel\": \"publicat azi\",\r\n    \"attributes\": {\r\n      \"Data licitatie\": \"23/10/2026\",\r\n      \"Ora licitatie\": \"13:00\",\r\n      \"Tip Vanzare\": \"Licitatie publica\"\r\n    },\r\n    \"publishedAt\": \"2026-10-12 16:10:50\",\r\n    \"expiresAt\": \"2026-11-20 16:10:00\",\r\n    \"auctionDate\": \"23/10/2026\",\r\n    \"auctionTime\": \"13:00\",\r\n    \"brand\": null,\r\n    \"year\": null,\r\n    \"fuel\": null,\r\n    \"area\": null,\r\n    \"detailFetched\": true\r\n  },\r\n  {\r\n    \"id\": \"ins-179136\",\r\n    \"source\": \"INSOLVENȚĂ\",\r\n    \"sourceUrl\": \"https://www.licitatii-insolventa.ro/imobiliare/teren-cu-cladire/licitatie-publica-cu-strigare-cu-pret-in-urcare_i179136\",\r\n    \"title\": \"Licitatie publica cu strigare cu pret in urcare\",\r\n    \"category\": \"Imobiliare\",\r\n    \"subcategory\": \"Teren cu cladire\",\r\n    \"price\": null,\r\n    \"currency\": null,\r\n    \"priceText\": \"Verifica cu vanzatorul\",\r\n    \"county\": \"Bucuresti\",\r\n    \"locality\": \"Bucuresti\",\r\n    \"country\": \"Romania\",\r\n    \"location\": \"Bucuresti in Bucuresti (Romania)\",\r\n",
+  "exitCode": 0,
+  "durationMs": 175
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_1144546bad9d4be69d93425e02ec310f",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-2e88eb10-99a9-484c-9dd2-28fdab9a77ca",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"let r=require('./sources/insolventa/listings.json'); console.log(JSON.stringify([...new Set(r.flatMap(x=>Object.keys(x.attributes)))],null,2)); console.log(JSON.stringify(r.filter(x=>x.category==='Imobiliare'&&x.detailFetched).slice(0,2).map(x=>x.attributes),null,2))\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "72557",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"let r=require('./sources/insolventa/listings.json'); console.log(JSON.stringify([...new Set(r.flatMap(x=>Object.keys(x.attributes)))],null,2)); console.log(JSON.stringify(r.filter(x=>x.category==='Imobiliare'&&x.detailFetched).slice(0,2).map(x=>x.attributes),null,2))\""
+    }
+  ],
+  "aggregatedOutput": "[\n  \"Data licitatie\",\n  \"Ora licitatie\",\n  \"Tip Vanzare\",\n  \"Suprafata\",\n  \"Tip teren\",\n  \"Marca\",\n  \"KM\",\n  \"Combustibil\",\n  \"An fabricatie\",\n  \"Capacitate cilindrica\",\n  \"Dată expirare\",\n  \"Suprafata teren\",\n  \"An constructie\",\n  \"Suprafata cladire\",\n  \"Numar persoane\",\n  \"Camere\"\n]\n[\n  {\n    \"Data licitatie\": \"23/10/2026\",\n    \"Ora licitatie\": \"16.00\",\n    \"Tip Vanzare\": \"Licitatie publica\"\n  },\n  {\n    \"Data licitatie\": \"28/10/2026\",\n    \"Ora licitatie\": \"15.00\",\n    \"Tip Vanzare\": \"Licitatie publica\",\n    \"Suprafata\": \"3011 mp\",\n    \"Tip teren\": \"Intravilan\"\n  }\n]\n",
+  "exitCode": 0,
+  "durationMs": 206
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_5ddf19ca559747528afc102418a268b6",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-cf17e3dd-39df-4851-8352-067efc5a604b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"let r=require('./sources/insolventa/listings.json'); console.log(JSON.stringify({rows:r.length,done:r.filter(x=>x.detailFetched).length,bad:r.filter(x=>x.detailFetched&&\"'!x.publishedAt).map(x=>x.id),categories:Object.fromEntries([...new Set(r.map(x=>x.category))].map(k=>[k,r.filter(x=>x.category===k).length]))},null,2))\"'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "1863",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"let r=require('./sources/insolventa/listings.json'); console.log(JSON.stringify({rows:r.length,done:r.filter(x=>x.detailFetched).length,bad:r.filter(x=>x.detailFetched&&!x.publishedAt).map(x=>x.id),categories:Object.fromEntries([...new Set(r.map(x=>x.category))].map(k=>[k,r.filter(x=>x.category===k).length]))},null,2))\""
+    }
+  ],
+  "aggregatedOutput": "{\n  \"rows\": 2309,\n  \"done\": 499,\n  \"bad\": [],\n  \"categories\": {\n    \"Altele\": 792,\n    \"Imobiliare\": 520,\n    \"Auto\": 443,\n    \"Office\": 53,\n    \"Afaceri\": 57,\n    \"Industrial\": 444\n  }\n}\n",
+  "exitCode": 0,
+  "durationMs": 240
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-3a7ec2c5-6f7a-4e9d-8aff-c55cf3c717a3",
+  "changes": [
+    {
+      "path": "D:\\ANABI - Licitatii\\sources\\insolventa\\finalize.cjs",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "const fs=require('fs'),p=require('path'),d=__dirname;\nconst rows=JSON.parse(fs.readFileSync(p.join(d,'listings.json'))).filter(r=>r.sourceUrl&&r.id!=='ins-');\nconst c=JSON.parse(fs.readFileSync(p.join(d,'coverage.json')));\nc.errors=c.errors.filter(e=>e.id!=='ins-');c.expected=2308;c.count=rows.length;c.detailCount=rows.filter(r=>r.detailFetched).length;c.complete=c.count===c.expected&&c.detailCount===c.count&&c.errors.length===0;c.checkedAt=new Date().toISOString();\nc.categoryCounts=Object.fromEntries([...new Set(rows.map(x=>x.category))].sort().map(k=>[k,rows.filter(x=>x.category===k).length]));\nc.notes=['Inventarul public curent din 47 de pagini, deduplicat după ID. Contorul sursei a fost reverificat: 2308 anunțuri.','Categoriile și localizarea sunt cele declarate de publicator, fără reclasificare automată.','Prețurile rămân în moneda originală; null reprezintă preț nespecificat. Gratuit rămâne o etichetă declarată, fără presupunerea că bunul este oferit gratuit.','Data licitației este primul câmp structurat publicat; descrierea poate menționa repetări ulterioare. Nu se deduce automat expirarea exclusiv din data primei licitații.','Sursele pot fi actualizate ulterior. Nu este o sincronizare în timp real.'];\nfs.writeFileSync(p.join(d,'listings.json'),JSON.stringify(rows,null,2));fs.writeFileSync(p.join(d,'coverage.json'),JSON.stringify(c,null,2));console.log(JSON.stringify(c,null,2));\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-35b54e8f-ce93-48f6-93f5-ce0b0423bf42",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"let r=require('./sources/insolventa/listings.json'); console.log(JSON.stringify(r.filter(x=>x.detailFetched&&x.category==='Auto').slice(0,3).map(x=>({title:x.title,attrs:x.attributes})),null,2)); console.log(JSON.stringify(r.filter(x=>x.detailFetched&&x.attributes.Camere).slice(0,3).map(x=>x.attributes),null,2));\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "6989",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"let r=require('./sources/insolventa/listings.json'); console.log(JSON.stringify(r.filter(x=>x.detailFetched&&x.category==='Auto').slice(0,3).map(x=>({title:x.title,attrs:x.attributes})),null,2)); console.log(JSON.stringify(r.filter(x=>x.detailFetched&&x.attributes.Camere).slice(0,3).map(x=>x.attributes),null,2));\""
+    }
+  ],
+  "aggregatedOutput": "[\n  {\n    \"title\": \"AUTOUTILITARA N1 FIAT QUBO\",\n    \"attrs\": {\n      \"Data licitatie\": \"30/10/2026\",\n      \"Ora licitatie\": \"11\",\n      \"Tip Vanzare\": \"Licitatie publica\",\n      \"Marca\": \"Fiat\",\n      \"KM\": \"-\",\n      \"Combustibil\": \"Motorina\",\n      \"An fabricatie\": \"2012\",\n      \"Capacitate cilindrica\": \"1248 – cmc / 55 Kw\"\n    }\n  },\n  {\n    \"title\": \"AUTOTURISM M1 CITROEN JUMPER\",\n    \"attrs\": {\n      \"Data licitatie\": \"30/10/2026\",\n      \"Ora licitatie\": \"11\",\n      \"Tip Vanzare\": \"Licitatie publica\",\n      \"Marca\": \"Citroën\",\n      \"KM\": \"-\",\n      \"Combustibil\": \"Motorina\",\n      \"An fabricatie\": \"2008\",\n      \"Capacitate cilindrica\": \"2999 – cmc / 115.5 Kw\"\n    }\n  },\n  {\n    \"title\": \"AUTOUTILITARA N1 MERCEDES-BENZ\",\n    \"attrs\": {\n      \"Data licitatie\": \"30/10/2026\",\n      \"Ora licitatie\": \"11\",\n      \"Tip Vanzare\": \"Licitatie publica\",\n      \"Marca\": \"Mercedes\",\n      \"KM\": \"-\",\n      \"Combustibil\": \"Motorina\",\n      \"An fabricatie\": \"2001\",\n      \"Capacitate cilindrica\": \"2148 – cmc / 95 Kw\"\n    }\n  }\n]\n[\n  {\n    \"Data licitatie\": \"15/10/2026\",\n    \"Ora licitatie\": \"10.00\",\n    \"Tip Vanzare\": \"Licitatie publica\",\n    \"Camere\": \"3\"\n  },\n  {\n    \"Data licitatie\": \"14/10/2026\",\n    \"Ora licitatie\": \"13.00\",\n    \"Tip Vanzare\": \"Licitatie publica\",\n    \"Camere\": \"2\"\n  },\n  {\n    \"Data licitatie\": \"23/10/2026\",\n    \"Ora licitatie\": \"10:00\",\n    \"Tip Vanzare\": \"Licitatie publica\",\n    \"Camere\": \"3\"\n  }\n]\n",
+  "exitCode": 0,
+  "durationMs": 185
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_41e43b2a51e140fd988e389907802419",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-d74ff5e8-399b-45cf-ace5-1d9e03c41ce5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-Content sources/insolventa/coverage.json'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "96228",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content sources/insolventa/coverage.json",
+      "name": "coverage.json",
+      "path": "D:\\ANABI - Licitatii\\sources\\insolventa\\coverage.json"
+    }
+  ],
+  "aggregatedOutput": "{\r\n  \"source\": \"https://www.licitatii-insolventa.ro\",\r\n  \"checkedAt\": \"2026-10-12T13:59:42.272Z\",\r\n  \"referenceDate\": \"2026-10-12\",\r\n  \"expected\": 2309,\r\n  \"count\": 2309,\r\n  \"detailCount\": 899,\r\n  \"requests\": 950,\r\n  \"errors\": [\r\n    {\r\n      \"id\": \"ins-\",\r\n      \"error\": \"Failed to parse URL from \"\r\n    }\r\n  ],\r\n  \"pages\": 47\r\n}\r\n",
+  "exitCode": 0,
+  "durationMs": 150
+}
+````
+
+## sleep
+
+````json
+{
+  "type": "sleep",
+  "id": "call_2615198ac31845fe903a3c3e13bcce0b",
+  "durationMs": 45000
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-f9a63db0-bbb1-4628-aee4-bdf547dcd4b3",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"const r=require('./sources/insolventa/listings.json'); console.log(JSON.stringify({d:r.filter(x=>x.detailFetched).length,missing:r.filter(x=>x.detailFetched&&\"'!x.publishedAt).map(x=>x.id),attributes:[...new Set(r.flatMap(x=>Object.keys(x.attributes)))]},null,2))\"'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "30844",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"const r=require('./sources/insolventa/listings.json'); console.log(JSON.stringify({d:r.filter(x=>x.detailFetched).length,missing:r.filter(x=>x.detailFetched&&!x.publishedAt).map(x=>x.id),attributes:[...new Set(r.flatMap(x=>Object.keys(x.attributes)))]},null,2))\""
+    }
+  ],
+  "aggregatedOutput": "{\n  \"d\": 1399,\n  \"missing\": [],\n  \"attributes\": [\n    \"Data licitatie\",\n    \"Ora licitatie\",\n    \"Tip Vanzare\",\n    \"Suprafata\",\n    \"Tip teren\",\n    \"Marca\",\n    \"KM\",\n    \"Combustibil\",\n    \"An fabricatie\",\n    \"Capacitate cilindrica\",\n    \"Dată expirare\",\n    \"Suprafata teren\",\n    \"An constructie\",\n    \"Suprafata cladire\",\n    \"Numar persoane\",\n    \"Camere\"\n  ]\n}\n",
+  "exitCode": 0,
+  "durationMs": 203
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-ac36ef3d-cc61-4e63-b13d-559e27ff465d",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Select-String -Path sources/insolventa/collect.cjs -Pattern 'filter|expected'\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "28267",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Select-String -Path sources/insolventa/collect.cjs -Pattern 'filter|expected'"
+    }
+  ],
+  "aggregatedOutput": "\r\nsources\\insolventa\\collect.cjs:11:function parseList(html){return html.split(/<div class=\"list-prod \r\n[^\"]*\">/).slice(1).map(c=>{const url=match(c,/<h3[^>]*>\\s*<a href=\"([^\"]*)\"/);const \r\ntitle=clean(match(c,/<h3[^>]*>\\s*<a[^>]*>([\\s\\S]*?)<\\/a>/));const priceText=field(c,'price');const \r\nn=priceText.match(/[\\d,]+\\.\\d+/);const loc=field(c,'loc');const lm=loc.match(/^(.*?) in (.*?) \\((.*?)\\)$/);const \r\nimage=match(c,/<img[^>]*src=\"([^\"]*)\"/);return {id:'ins-'+match(url,/_i(\\d+)/),source:'INSOLVENȚĂ',sourceUrl:url,title,\r\ncategory:catNames[url.split('/')[3]]||'Altele',subcategory:field(c,'category'),price:n?Number(n[0].replace(/,/g,'')):nu\r\nll,currency:/Euro/i.test(priceText)?'EUR':/LEI/i.test(priceText)?'RON':null,priceText,county:lm?.[2]||null,locality:lm?\r\n.[1]||null,country:lm?.[3]||null,location:loc,image:image.includes('no-image')?null:image,description:field(c,'desc'),s\r\neller:clean(match(c,/<div class=\"author\">[\\s\\S]*?<a[^>]*>([\\s\\S]*?)<\\/a>/)),publishedLabel:field(c,'date'),attributes:{\r\n}}}).filter(r=>r.sourceUrl&&r.id!=='ins-')}\r\nsources\\insolventa\\collect.cjs:14:function save(rows,more={}){fs.writeFileSync(path.join(dir,'listings.json'),JSON.stri\r\nngify(rows,null,2));fs.writeFileSync(path.join(dir,'coverage.json'),JSON.stringify({source:base,checkedAt:new Date().to\r\nISOString(),referenceDate:'2026-10-12',expected:Number(match(fs.readFileSync(path.join(dir,'search-check.html'),'utf8')\r\n,/Cauta in (\\d+) \r\nanunturi/)),count:rows.length,detailCount:rows.filter(r=>r.detailFetched).length,requests,errors,...more},null,2))}\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 187
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-e56657be-ac2b-4160-88f6-dda74db0034b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command '$collectionCode = Get-Content sources/insolventa/collect.cjs -Raw\n$collectionCode = $collectionCode.Replace(\"const errors=[];let requests=0;\", \"const errors=[];let requests=0,expected=0,pageCount=0;\")\n$collectionCode = $collectionCode.Replace(\"referenceDate:'\"'2026-10-12',expected:Number(match(fs.readFileSync(path.join(dir,'search-check.html'),'utf8'),/Cauta in (\\\\d+) anunturi/))\\\", \\\"referenceDate:new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Bucharest'}),expected\\\")\n\"'$collectionCode = $collectionCode.Replace(\"(async()=>{let rows=[];for(let p=1;p<=47;p++){\", \"(async()=>{let rows=[];const firstPage=await fetchPage(base+'\"'/cauta');expected=Number(match(firstPage,/Cauta in (\\\\d+) anunturi/));pageCount=Math.ceil(expected/50);if(\"'!pageCount)throw Error('\"'No public inventory counter found');for(let p=1;p<=pageCount;p++){\\\")\n\"'$collectionCode = $collectionCode.Replace(\"p===1?fs.readFileSync(path.join(dir,'\"'search.html'),'utf8')\\\", \\\"p===1?firstPage\\\")\n\"'$collectionCode = $collectionCode.Replace('\"'pages:47','pages:pageCount')\nSet-Content sources/insolventa/collect.cjs -Value \"'$collectionCode -Encoding utf8\nnode --check sources/insolventa/collect.cjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "62526",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "$collectionCode = Get-Content sources/insolventa/collect.cjs -Raw\n$collectionCode = $collectionCode.Replace(\"const errors=[];let requests=0;\", \"const errors=[];let requests=0,expected=0,pageCount=0;\")\n$collectionCode = $collectionCode.Replace(\"referenceDate:'2026-10-12',expected:Number(match(fs.readFileSync(path.join(dir,'search-check.html'),'utf8'),/Cauta in (\\d+) anunturi/))\", \"referenceDate:new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Bucharest'}),expected\")\n$collectionCode = $collectionCode.Replace(\"(async()=>{let rows=[];for(let p=1;p<=47;p++){\", \"(async()=>{let rows=[];const firstPage=await fetchPage(base+'/cauta');expected=Number(match(firstPage,/Cauta in (\\d+) anunturi/));pageCount=Math.ceil(expected/50);if(!pageCount)throw Error('No public inventory counter found');for(let p=1;p<=pageCount;p++){\")\n$collectionCode = $collectionCode.Replace(\"p===1?fs.readFileSync(path.join(dir,'search.html'),'utf8')\", \"p===1?firstPage\")\n$collectionCode = $collectionCode.Replace('pages:47','pages:pageCount')\nSet-Content sources/insolventa/collect.cjs -Value $collectionCode -Encoding utf8\nnode --check sources/insolventa/collect.cjs"
+    }
+  ],
+  "aggregatedOutput": null,
+  "exitCode": 0,
+  "durationMs": 213
+}
+````
+
+## sleep
+
+````json
+{
+  "type": "sleep",
+  "id": "call_4ce26665e13a4154bde200d691611ca5",
+  "durationMs": 45000
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_e3f8a2fb57cc410d9663b0a57dc95d99",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-d870d3d6-9bae-431b-8ad9-079b731b8924",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node sources/insolventa/collect.cjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "81993",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node sources/insolventa/collect.cjs"
+    }
+  ],
+  "aggregatedOutput": "page 1 51\npage 2 102\npage 3 153\npage 4 204\npage 5 255\npage 6 306\npage 7 357\npage 8 408\npage 9 459\npage 10 510\npage 11 561\npage 12 612\npage 13 663\npage 14 714\npage 15 765\npage 16 816\npage 17 867\npage 18 918\npage 19 969\npage 20 1020\npage 21 1071\npage 22 1122\npage 23 1173\npage 24 1224\npage 25 1275\npage 26 1326\npage 27 1377\npage 28 1428\npage 29 1479\npage 30 1530\npage 31 1581\npage 32 1632\npage 33 1683\npage 34 1734\npage 35 1785\npage 36 1836\npage 37 1887\npage 38 1938\npage 39 1989\npage 40 2040\npage 41 2091\npage 42 2142\npage 43 2193\npage 44 2244\npage 45 2295\npage 46 2346\npage 47 2355\ndetails 100 / 2309\ndetails 200 / 2309\ndetails 300 / 2309\ndetails 400 / 2309\ndetails 500 / 2309\ndetails 600 / 2309\ndetails 700 / 2309\ndetails 800 / 2309\ndetails 900 / 2309\ndetails 1000 / 2309\ndetails 1100 / 2309\ndetails 1200 / 2309\ndetails 1300 / 2309\ndetails 1400 / 2309\ndetails 1500 / 2309\ndetails 1600 / 2309\ndetails 1700 / 2309\ndetails 1800 / 2309\ndetails 1900 / 2309\ndetails 2000 / 2309\ndetails 2100 / 2309\ndetails 2200 / 2309\ndetails 2300 / 2309\nCOMPLETE 2309 1\n",
+  "exitCode": 0,
+  "durationMs": 288511
+}
+````
+
+## sleep
+
+````json
+{
+  "type": "sleep",
+  "id": "call_dcf9daceae72423491b6f78819efd8d9",
+  "durationMs": 30000
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-26547439-7fa6-4d36-a924-553b26d706fd",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node sources/insolventa/finalize.cjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "48691",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node sources/insolventa/finalize.cjs"
+    }
+  ],
+  "aggregatedOutput": "{\n  \"source\": \"https://www.licitatii-insolventa.ro\",\n  \"checkedAt\": \"2026-10-12T14:02:45.420Z\",\n  \"referenceDate\": \"2026-10-12\",\n  \"expected\": 2308,\n  \"count\": 2308,\n  \"detailCount\": 2308,\n  \"requests\": 2357,\n  \"errors\": [],\n  \"pages\": 47,\n  \"complete\": true,\n  \"categoryCounts\": {\n    \"Afaceri\": 57,\n    \"Altele\": 791,\n    \"Auto\": 443,\n    \"Imobiliare\": 520,\n    \"Industrial\": 444,\n    \"Office\": 53\n  },\n  \"notes\": [\n    \"Inventarul public curent din 47 de pagini, deduplicat după ID. Contorul sursei a fost reverificat: 2308 anunțuri.\",\n    \"Categoriile și localizarea sunt cele declarate de publicator, fără reclasificare automată.\",\n    \"Prețurile rămân în moneda originală; null reprezintă preț nespecificat. Gratuit rămâne o etichetă declarată, fără presupunerea că bunul este oferit gratuit.\",\n    \"Data licitației este primul câmp structurat publicat; descrierea poate menționa repetări ulterioare. Nu se deduce automat expirarea exclusiv din data primei licitații.\",\n    \"Sursele pot fi actualizate ulterior. Nu este o sincronizare în timp real.\"\n  ]\n}\n",
+  "exitCode": 0,
+  "durationMs": 337
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-389954c9-e1c1-4090-8442-724a6bcc8e54",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"let r=require('./sources/insolventa/listings.json');console.log(JSON.stringify({count:r.length,ids:new Set(r.map(x=>x.id)).size,noTitle:r.filter(x=>\"'!x.title).length,noDate:r.filter(x=>!x.publishedAt).length,emptyDescription:r.filter(x=>!x.description).length,unknownSubcategory:r.filter(x=>!x.subcategory).length,priceKnown:r.filter(x=>x.price!==null).length,autoBrand:r.filter(x=>x.brand).length,autoYear:r.filter(x=>x.year).length,area:r.filter(x=>x.area).length,currencies:[...new Set(r.map(x=>x.currency))],sampleLast:r.slice(-1).map(x=>({title:x.title,date:x.publishedAt}))},null,2))\"'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "12267",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"let r=require('./sources/insolventa/listings.json');console.log(JSON.stringify({count:r.length,ids:new Set(r.map(x=>x.id)).size,noTitle:r.filter(x=>!x.title).length,noDate:r.filter(x=>!x.publishedAt).length,emptyDescription:r.filter(x=>!x.description).length,unknownSubcategory:r.filter(x=>!x.subcategory).length,priceKnown:r.filter(x=>x.price!==null).length,autoBrand:r.filter(x=>x.brand).length,autoYear:r.filter(x=>x.year).length,area:r.filter(x=>x.area).length,currencies:[...new Set(r.map(x=>x.currency))],sampleLast:r.slice(-1).map(x=>({title:x.title,date:x.publishedAt}))},null,2))\""
+    }
+  ],
+  "aggregatedOutput": "{\n  \"count\": 2308,\n  \"ids\": 2308,\n  \"noTitle\": 0,\n  \"noDate\": 0,\n  \"emptyDescription\": 0,\n  \"unknownSubcategory\": 0,\n  \"priceKnown\": 2059,\n  \"autoBrand\": 443,\n  \"autoYear\": 443,\n  \"area\": 330,\n  \"currencies\": [\n    null,\n    \"RON\",\n    \"EUR\"\n  ],\n  \"sampleLast\": [\n    {\n      \"title\": \"FORD FOCUS 1,8 TDI BREAK\",\n      \"date\": \"2018-04-02 11:55:53\"\n    }\n  ]\n}\n",
+  "exitCode": 0,
+  "durationMs": 321
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_26614246360c476b846d75617ac9c6e6",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Am salvat inventarul complet:
+
+- `sources/insolventa/listings.json`: **2.308 anunțuri**, toate cu detalii.
+- `sources/insolventa/coverage.json`: acoperire, număr pe categorii, verificări și limite.
+- `sources/insolventa/collect.cjs`: colector reutilizabil cu paginare dinamică.
+
+Categorii: Afaceri 57, Altele 791, Auto 443, Imobiliare 520, Industrial 444, Office 53.
+
+Schema include titlu, sursă, categorie/subcategorie, preț și monedă originale, județ/localitate, fotografie, descriere integrală, publicator, publicare/expirare, data/ora licitației și `attributes`. Auto are marcă/an/combustibil; imobiliarele au suprafețe, camere și tip teren unde sunt publicate.
+
+Validat: ID-uri unice, toate detaliile descărcate, zero erori, 2.059 prețuri numerice. Sursa include și postări vechi din 2018; nu trebuie prezentate automat drept licitații active.

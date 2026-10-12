@@ -1,0 +1,455 @@
+{
+  "data": "2026.10.12",
+  "tip": "Extracție verificată pentru comparație; nu acceptare comercială",
+  "reguli": [
+    "null înseamnă preț/includere neprecizat, nu zero.",
+    "Includerea generică și referința la descrierea beneficiarului nu confirmă fiecare detaliu tehnic.",
+    "Subtotalul Berger 35.000 EUR este calcul, nu ofertă separată; atribuirea parțială cere acord.",
+    "42.000 EUR PECH este numai poziția 01, nu totalul."
+  ],
+  "surse": [
+    {
+      "id": "BERGER",
+      "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.08.17/2026_08_17_Anbot_Statik_Detail.pdf",
+      "sha256": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+      "cache": "folder map/texte/b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b.txt",
+      "hash_identical_index": true,
+      "size_and_mtime_unchanged": true,
+      "pagini": 4,
+      "citire": "Text integral 4/4 pagini; vizual originale p1–4, cifre/condiții/semnătura prestatorului."
+    },
+    {
+      "id": "PECH",
+      "cale": "03. Proiectare/Statik/Angebot 2026-470-AN01 2026-09-17.pdf",
+      "sha256": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+      "cache": "folder map/texte/29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1.txt",
+      "hash_identical_index": true,
+      "size_and_mtime_unchanged": true,
+      "pagini": 4,
+      "citire": "Text integral 4/4 pagini; vizual originale p1–4, prețuri/poziții/formular nesemnat/AGB."
+    },
+    {
+      "id": "LB_BENEFICIAR",
+      "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+      "cache": "folder map/texte/a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b.txt",
+      "statut": "cerere a beneficiarului, nu ofertă/contract acceptat",
+      "limita": "PECH trimite generic la Leistungsbeschreibung vom Auftraggeber fără identificarea versiunii/datei; verificarea exactei anexe contractuale rămâne necesară. Cererea conține și câmpuri între paranteze pătrate."
+    },
+    {
+      "id": "REALIG",
+      "cale": "00.Proiect/07. Kosten + Ausschreibung/03. Angebote (Oferte)/Angebot REALIG Gschirtz.pdf",
+      "cache": "folder map/texte/2a40d2d8e65ae1320f71e52ba35711e0ced4703b96b4cc5ec636612e8a4340c7.txt",
+      "citire": "p2 original verificat vizual; capitolul Sonstige Planungen (Summen angenommen)."
+    }
+  ],
+  "oferte": [
+    {
+      "id": "BERGER",
+      "firma": "Bmstr. Dipl.Ing.(FH) Markus BERGER GmbH",
+      "persoana": "Markus Berger",
+      "contact": "office@bmberger.at",
+      "data_oferta": "2026.08.17",
+      "email_primit_id": "ce6905cb-0c93-4e6b-8cde-7e300dfc874c",
+      "statut": "Ofertă semnată de prestator la p4; acceptarea A&C nu este demonstrată.",
+      "moneda": "EUR",
+      "net": 45000,
+      "TVA_pct": 20,
+      "TVA": 9000,
+      "brut": 54000,
+      "valabilitate": "8 săptămâni",
+      "expirare_calculata": "2026.10.12",
+      "preturi": [
+        {
+          "id": "calcule",
+          "net": 13000,
+          "sursa": "BERGER p2",
+          "conditie": "Fără schimbare static relevantă față de predimensionare, în special conceptul static."
+        },
+        {
+          "id": "planuri_structura",
+          "net": 20000,
+          "sursa": "BERGER p2",
+          "conditie": "Planuri cofraj/armare și/sau conducere execuție oțel, liste de piese; fără planuri de atelier."
+        },
+        {
+          "id": "asistenta_statica",
+          "net": 2000,
+          "sursa": "BERGER p2",
+          "conditie": "Maximum 8 vizite la ședințe de șantier, după necesitate."
+        },
+        {
+          "id": "prufingenieur",
+          "net": 10000,
+          "sursa": "BERGER p3",
+          "conditie": "§127, până la Rohbaubeschau și anexă §128, sub confirmările Bauführer și ÖBA/Bauwerber."
+        }
+      ],
+      "calcule": [
+        {
+          "eticheta": "Structură + asistență, fără Prüfingenieur",
+          "formula": "13.000 +20.000 +2.000",
+          "net": 35000,
+          "brut": 42000,
+          "statut": "Subtotal matematic; nu ofertă separată. Teilvergaben nur nach Rücksprache."
+        }
+      ],
+      "conditii": {
+        "calendar": "Început prin acord; circa 12 luni pentru serviciile proprii (p1). P3 afirmă începere imediată după returnarea ofertei semnate. Fără termene distincte de predare.",
+        "plata": "Facturi parțiale/avansuri după îndeplinirea serviciilor; fiecare factură 14 zile fără deduceri (p3).",
+        "garantie_retention": "Retenție/garanție numerică neprecizată; nu zero.",
+        "indexare": "Neindicată expres; nu echivalează cu garanție de preț fix.",
+        "regie_net_pe_ora": {
+          "Baumeister/Ziviltechniker": 150,
+          "qualifizierter Techniker": 135,
+          "Techniker": 95,
+          "Sekretärin": 75
+        },
+        "formate": "O dată în hârtie și transmitere electronică (p3); PDF/DWG/DXF/native nu specificate.",
+        "drepturi": "Drepturi de reutilizare/modificare/cedare către terți neprecizate.",
+        "excluderi": [
+          "Calcul Baugrubensicherung, Stützmauern, Außenanlagen; numai încărcări ale clădirii proprii furnizate (p2).",
+          "Planuri de atelier: executantul le întocmește; urmează aprobare (p2).",
+          "Specialiști externi: geotehnician, geometru, instalații etc. (p3).",
+          "Săpături pentru verificarea fundațiilor existente și deschideri de probe la elemente/deecke (p3).",
+          "Calcule privind transmiterea ulterioară a încărcărilor către puțuri de metrou (p3).",
+          "Relații cu cumpărători/chiriași (p3)."
+        ],
+        "sursa": "BERGER p1–3"
+      },
+      "servicii": [
+        {
+          "id": "calcul_static",
+          "statut": "inclus explicit",
+          "text": "Calcul detaliat verificabil al elementelor portante.",
+          "sursa": "BERGER p2"
+        },
+        {
+          "id": "elemente_fundatie",
+          "statut": "inclus generic / detalii neprecizate",
+          "text": "Elemente portante pentru extindere/transformare/mansardă; nu inventariază placa fundației și fiecare verificare geotehnică. Săpăturile/probele excluse.",
+          "sursa": "BERGER p1–3"
+        },
+        {
+          "id": "lift",
+          "statut": "inclus generic",
+          "text": "Puțul liftului apare în obiectul/honorariul proiectului (100.000 EUR construcție estimată); detaliile calculului și interfețelor nu sunt enumerate.",
+          "sursa": "BERGER p1"
+        },
+        {
+          "id": "sprijiniri_excavatie",
+          "statut": "exclus explicit",
+          "text": "Baugrubensicherung/Stützmauern/Außenanlagen în sarcina beneficiarului; sunt date numai încărcările clădirii proprii.",
+          "sursa": "BERGER p2"
+        },
+        {
+          "id": "goluri_existent",
+          "statut": "neprecizat separat",
+          "text": "Transformarea este generic în obiect; nu oferă poziție dedicată golurilor, număr, preț pe gol sau detalii de sprijinire.",
+          "sursa": "BERGER p1–2"
+        },
+        {
+          "id": "cofraj_armare",
+          "statut": "inclus explicit generic",
+          "text": "Schalungs-/Bewehrungspläne ale elementelor portante, bazate pe Polierpläne; trebuie aprobate de beneficiar/proiectantul de execuție.",
+          "sursa": "BERGER p2"
+        },
+        {
+          "id": "otel_lemn",
+          "statut": "oțel generic; lemn neprecizat",
+          "text": "Stahlbauführungspläne sunt exemplu explicit; planurile pentru lemn/conectorii specifici nu sunt numiți.",
+          "sursa": "BERGER p2"
+        },
+        {
+          "id": "liste_piese",
+          "statut": "inclus explicit",
+          "text": "Stücklisten pentru elementele portante; nu enumeră separat toate listele de armătură/conectori/ancore.",
+          "sursa": "BERGER p2"
+        },
+        {
+          "id": "detalii_conectori",
+          "statut": "neprecizat individual",
+          "text": "Date necesare execuției generic incluse; calcule noduri/ancore/suduri/clase/protecții nu sunt detaliate ca poziții.",
+          "sursa": "BERGER p2"
+        },
+        {
+          "id": "planuri_atelier",
+          "statut": "exclus întocmire; aprobare generic inclusă",
+          "text": "Fără Werkstättenpläne; executanții le întocmesc și ulterior sunt aprobate.",
+          "sursa": "BERGER p2"
+        },
+        {
+          "id": "asistenta_vizite",
+          "statut": "inclus cu limită",
+          "text": "Asistență statică, ședințe de șantier după necesitate, max8vizite; fără termen RFI/raport de2zile.",
+          "sursa": "BERGER p2"
+        },
+        {
+          "id": "prufingenieur",
+          "statut": "inclus explicit",
+          "text": "10.000net; verificări/Abnahmebefunde §127, până Rohbaubeschau, anexă §128; numărul tuturor vizitelor specifice verificatorului nu este exprimat.",
+          "sursa": "BERGER p3"
+        },
+        {
+          "id": "planwechsel",
+          "statut": "neprecizat / necesită acord",
+          "text": "Nicio cotă de Planwechsel inclusă; formula Prüfingenieur presupune confirmarea că nu au fost modificări care cer Planwechsel. Schimbările conceptului pot afecta prețul calculelor.",
+          "sursa": "BERGER p2–3"
+        },
+        {
+          "id": "final",
+          "statut": "inclus parțial explicit",
+          "text": "Anexă la notificarea finalizării §128 în Prüfingenieur; As-built PDF/DWG și conținutul complet al dosarului final nu sunt numite.",
+          "sursa": "BERGER p3"
+        },
+        {
+          "id": "bauwerksbuch",
+          "statut": "neprecizat",
+          "text": "Bauwerksbuch nu este ofertat explicit.",
+          "sursa": "BERGER p1–4"
+        },
+        {
+          "id": "baukg",
+          "statut": "neprecizat",
+          "text": "BauKG nu este ofertat explicit.",
+          "sursa": "BERGER p1–4"
+        },
+        {
+          "id": "formate",
+          "statut": "predare generică",
+          "text": "Hârtie o dată +electronic; formate editabile/model/calcul-native neprecizate.",
+          "sursa": "BERGER p3"
+        },
+        {
+          "id": "drepturi",
+          "statut": "neprecizat",
+          "text": "Nicio licență de utilizare/modificare/terți explicită.",
+          "sursa": "BERGER p1–4"
+        }
+      ]
+    },
+    {
+      "id": "PECH",
+      "firma": "Dr. PECH Ziviltechnikergesellschaft mbH",
+      "persoana": "Bernhard Ployer (Projektleitung); Gabriela Spirkoska (ofertare)",
+      "contact": "ployer@zt-pech.at; Sekretariat@zt-pech.at",
+      "data_oferta": "2026.09.17",
+      "numar": "2026-470/AN01",
+      "email_primit_id": "63cd2bcb-2160-4027-b6c8-25bb42d9ae50",
+      "statut": "Ofertă; formularul beneficiarului de comandă nesemnat la p3.",
+      "moneda": "EUR",
+      "net": 69300,
+      "TVA_pct": 20,
+      "TVA": 13860,
+      "brut": 83160,
+      "valabilitate": "90 zile",
+      "expirare_calculata": "2026.12.16",
+      "preturi": [
+        {
+          "id": "01",
+          "serviciu": "Ausführungsstatik",
+          "net": 42000,
+          "brut": 50400,
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "02",
+          "serviciu": "Durchbruchsplanung Bestand",
+          "net": 6000,
+          "brut": 7200,
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "03",
+          "serviciu": "Baugrubensicherung",
+          "net": 5000,
+          "brut": 6000,
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "04",
+          "serviciu": "Untergrundbeschau",
+          "net": 800,
+          "brut": 960,
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "05",
+          "serviciu": "Baubegleitung, 12 Abnahmen incluse",
+          "net": 14000,
+          "brut": 16800,
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "06",
+          "serviciu": "Schlussunterlagen",
+          "net": 1500,
+          "brut": 1800,
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "abnahme_suplimentara",
+          "serviciu": "Fiecare recepție suplimentară",
+          "net": 450,
+          "brut": 540,
+          "sursa": "PECH p1–2"
+        }
+      ],
+      "conditii": {
+        "referinta_LB": "Fiecare poziție p2: «Vorgaben gemäß Leistungsbeschreibung vom Auftraggeber». Versiunea/data descrierii nu este identificată în ofertă; nu afirma că fiecare detaliu din cererea locală a fost confirmat separat.",
+        "calendar": "Se stabilește cu beneficiarul; începe cel mai devreme după primirea comenzii scrise și documentației necesare; fără calendar fix (p4).",
+        "plata": "14 zile fără deduceri de la data facturii; drept la facturi parțiale lunare; reclamații la factură în14zile conform AGB (p1,p4).",
+        "garantie_retention": "Kein Haftrücklass (fără retenție, explicit p1).",
+        "indexare": "ZT-Index conform AGBp4; nu garanție fixprice până2028.",
+        "regie_net_pe_ora": {
+          "Ziviltechniker": 195,
+          "Projektleiter": 145,
+          "Techniker": 125,
+          "Technischer Zeichner": 95
+        },
+        "costuri_suplimentare": "Ridicarea/returnarea cheilor separat; întârzieri externe și staționări pot fi înregie; lucrări de refacere după probe în sarcina beneficiarului dacă nu se comandă separat (p4).",
+        "formate": "Oferta nu enumeră PDF/DWG/DXF/model/native; trimite generic la LB la fiecare poziție. Cere identificarea și anexarea exactei LB.",
+        "drepturi": "AGBp4 păstrează la PECH drepturile de autor/exploatare/utilizare asupra datelor/planurilor/fotografiilor și inclusiv execuția/modificarea/reproducerea de terți, chiar după plată. Licența necesară beneficiarului trebuie clarificată.",
+        "modificari": "Schimbări peste uzual din sfera beneficiarului/partenerilor facturate înregie (p3); timp imprevizibil notificat și decizie de oprire/continuare cu costuri crescute (p4).",
+        "sursa": "PECH p1–4"
+      },
+      "servicii": [
+        {
+          "id": "calcul_static",
+          "statut": "inclus explicit, prin poziție",
+          "text": "Pos01 Ausführungsstatik42.000net; detaliere prin LB generic.",
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "elemente_fundatie",
+          "statut": "referință LB / confirmare detaliată necesară",
+          "text": "Pos01 trimite la LB; cererea locală enumeră placa fundației/planșeu/DG/zidărie, dar oferta nu le transcrie și nu identifică versiunea LB.",
+          "sursa": "PECH p2; LB_BENEFICIAR Pos1"
+        },
+        {
+          "id": "lift",
+          "statut": "referință LB / confirmare detaliată necesară",
+          "text": "Cererea Pos1.4 include puț lift+fundare; nu este numit separat în PDF ofertă.",
+          "sursa": "PECH p2; LB_BENEFICIAR Pos1.4"
+        },
+        {
+          "id": "sprijiniri_excavatie",
+          "statut": "inclus explicit",
+          "text": "Pos03 Baugrubensicherung5.000net; detalii subzidiri/vecini/secvențe prin LB de identificat.",
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "goluri_existent",
+          "statut": "inclus explicit",
+          "text": "Pos02 Durchbruchsplanung Bestand6.000net; numărul golurilor, consolidări și plafonul cererii nu sunt transcrise în PDF.",
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "cofraj_armare",
+          "statut": "referință LB / confirmare detaliată necesară",
+          "text": "Cererea Pos1 presupune planuri complete cofraj/armare; PDF ofertă conține numai Ausführungsstatik +referință generică LB.",
+          "sursa": "PECH p2; LB_BENEFICIAR Pos1"
+        },
+        {
+          "id": "otel_lemn",
+          "statut": "neprecizat individual / referință LB",
+          "text": "Planurile de oțel/lemn și toate conexiunile nu sunt enumerate explicit în ofertă.",
+          "sursa": "PECH p1–4"
+        },
+        {
+          "id": "liste_piese",
+          "statut": "referință LB / confirmare detaliată necesară",
+          "text": "Cererea include liste oțel/elemente încorporate; nu este o confirmare independentă a fiecărei liste în ofertă.",
+          "sursa": "PECH p2; LB_BENEFICIAR Pos1"
+        },
+        {
+          "id": "detalii_conectori",
+          "statut": "neprecizat individual",
+          "text": "Nu enumeră calcule și detalii noduri/ancore/suduri; cere clarificarea livrabilelor.",
+          "sursa": "PECH p1–4"
+        },
+        {
+          "id": "planuri_atelier",
+          "statut": "neprecizat",
+          "text": "Nu este promisă expres întocmirea/aprobarea planurilor de atelier.",
+          "sursa": "PECH p1–4"
+        },
+        {
+          "id": "asistenta_vizite",
+          "statut": "inclus cu limită",
+          "text": "Pos05,12recepții incluse, supliment450net/recepție. Nu echivala12recepții cu numărul tuturor ședințelor/RFI.",
+          "sursa": "PECH p1–2"
+        },
+        {
+          "id": "prufingenieur",
+          "statut": "neprecizat ca numire/rol separat",
+          "text": "Baubegleitung/Abnahmen/Schlussunterlagen nu demonstrează automat preluarea rolului Prüfingenieur §127/128. Cererea prevede chiar numirea independentă a Prüfingenieur.",
+          "sursa": "PECH p1–4; LB_BENEFICIAR C"
+        },
+        {
+          "id": "planwechsel",
+          "statut": "neprecizat / modificări înregie",
+          "text": "Nicio cotă de Planwechsel inclusă; Pos02 privind goluri nu este automat un Planwechsel integral.",
+          "sursa": "PECH p2–4"
+        },
+        {
+          "id": "final",
+          "statut": "inclus explicit generic",
+          "text": "Pos06 Schlussunterlagen1.500net; conținutul As-built și participarea la confirmarea §128 prin LB ce trebuie identificată.",
+          "sursa": "PECH p1–2; LB_BENEFICIAR Pos6"
+        },
+        {
+          "id": "bauwerksbuch",
+          "statut": "neprecizat",
+          "text": "Bauwerksbuch nu este numit ca serviciu în ofertă.",
+          "sursa": "PECH p1–4"
+        },
+        {
+          "id": "baukg",
+          "statut": "neprecizat",
+          "text": "BauKG nu este ofertat explicit.",
+          "sursa": "PECH p1–4"
+        },
+        {
+          "id": "formate",
+          "statut": "referință LB / confirmare necesară",
+          "text": "PDF/DWG/DXF/model/Rechenfiles cerute local nu sunt enumerate în ofertă; se identifică/anexează LB.",
+          "sursa": "PECH p2; LB_BENEFICIAR C"
+        },
+        {
+          "id": "drepturi",
+          "statut": "rezervate prestatorului",
+          "text": "AGB rezervă drepturile inclusiv pentru execuție/modificare/terți; nu trata PDF/DWG ca drept nelimitat de folosire.",
+          "sursa": "PECH p4"
+        }
+      ]
+    }
+  ],
+  "alte_repere": [
+    {
+      "firma": "REALIG /Christian Gschirtz",
+      "data": "2026.03.26",
+      "net_estimat": 24000,
+      "statut": "Sumă estimată în pachet general, «Sonstige Planungen (Summen angenommen)»; nu ofertă fermă separată.",
+      "scop": "Tragwerksplanung Ausführungsplanung +Bewehrungsabnahmen",
+      "sursa": "REALIG p2"
+    },
+    {
+      "firma": "DI Janka Neid /Markus Neid",
+      "data_refuz": "2026.08.26",
+      "email_id": "161f9dfc-2094-4747-8725-f38d6ceef693",
+      "statut": "Refuz lipsă capacitate; nu ofertă alternativă disponibilă confirmată."
+    },
+    {
+      "firma": "DI Remzi Avunduk",
+      "data_refuz": "2026.09.10",
+      "email_id": "1fe377a0-1757-454c-8144-b5a189daa95f",
+      "statut": "Refuz lipsă capacitate; nu ofertă alternativă disponibilă confirmată."
+    }
+  ],
+  "limite_audit": [
+    "Nu s-a efectuat trimitere, negociere, acceptare sau cercetare de furnizori noi.",
+    "Noțiunile independente Prüfingenieur/BauKG/Bauwerksbuch nu se confundă cu proiectarea structurii.",
+    "Comparația cu TOMS v4.1 trebuie folosită ca reper de scop/preț, nu contract acceptat; TOMS refuză preluarea în prezent.",
+    "Validitatea numerică nu dovedește disponibilitatea actuală a prestatorului ori începerea lucrării."
+  ]
+}

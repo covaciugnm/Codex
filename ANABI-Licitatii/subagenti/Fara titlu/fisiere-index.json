@@ -1,0 +1,13 @@
+[
+  {
+    "source_reference": "/D:/ANABI - Licitatii/sources/porsche-market.json",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\sources\\porsche-market.json",
+    "status": "copiat",
+    "saved_path": "fisiere/porsche-market--5290301c.json",
+    "bytes": 7108,
+    "sha256": "f26fd67829cf4507507431069ece139c3d7248a60188ea6073cd40139f23edc5"
+  }
+]

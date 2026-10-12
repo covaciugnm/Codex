@@ -1,0 +1,23 @@
+{
+  "id": "01a13051-1b30-79a0-9ad0-78c01d8e8e83",
+  "cwd": "\\\\?\\D:\\ANABI - Licitatii",
+  "created_at": 1791811984,
+  "updated_at": 1791812135,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a1304e-d950-75e2-806a-d5894448b76f\",\"depth\":1,\"agent_path\":\"/root/porsche_market\",\"agent_nickname\":\"Kuhn\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "5bad9d98-be40-4d1c-86ef-6d65a2e0d593",
+  "project": "ANABI-Licitatii",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "export_started_at_utc": "2026-10-12T14:26:02.743395+00:00",
+  "source_bytes": 551698,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 21,
+  "message_count": 1,
+  "content_sha256": "c88fe1ea98118b5ad4bb4e3a23da3449c2a1f6bd480462540750aede515ec6ff",
+  "files_copied": 1,
+  "references_not_copied": 1
+}

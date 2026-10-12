@@ -86,7 +86,7 @@ Marjă brută|Venituri nete − costul bunurilor/serviciilor vândute; procent /
 Marjă de contribuție|Venituri nete − costuri variabile convenite; procent / venituri nete|lei și %|P0
 EBITDA managerial|EBIT + amortizări incluse în EBIT; ajustările se arată separat|lei și %|P0
 EBIT|Rezultat operațional conform mapării contabile aprobate|lei
-Profit net|Venituri totale − cheltuieli totale − impozitul pe profit aplicabil|lei|P0
+Profit net|Rezultat înainte de impozitare − cheltuiala cu impozitul pe rezultat, conform regimului și mapării aprobate|lei|P0
 Cost-to-serve|Costuri atribuibile servirii clientului, inclusiv logistică și suport|lei/client
 Cost unitar complet|Costuri directe + indirecte alocate, împărțite la unități comparabile|lei/unitate
 Abatere preț-volum-mix|Descompunere a variației veniturilor/marjei pe preț, volum, mix și curs|lei

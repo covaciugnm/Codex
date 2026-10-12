@@ -45,10 +45,7 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5ea8efa4-ec5c-4721-8559-bbcd09526e09/tasks/b1mi8peco.output",
-    "status": "copiat",
-    "saved_path": "fisiere/b1mi8peco--3b6eef75.output",
-    "bytes": 22,
-    "sha256": "53b7595a236f7973a34d2c35f1e1e2e97561c281207f137642a6c2e525f474e2"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py",

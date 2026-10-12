@@ -24,3 +24,4 @@ Salvarea automată rulează la 6 ore. Versiunile precedente rămân în istoricu
 - [_Fara proiect](_Fara%20proiect/README.md)
 - [Hidroelectrica](Hidroelectrica/README.md)
 - [MP3.Varvi](MP3.Varvi/README.md)
+- [ANABI-Licitatii](ANABI-Licitatii/README.md)

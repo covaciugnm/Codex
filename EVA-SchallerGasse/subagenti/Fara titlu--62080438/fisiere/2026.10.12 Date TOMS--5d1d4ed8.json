@@ -1,0 +1,2683 @@
+{
+  "data_lizibila": "2026.10.12",
+  "proiect": "Schallergasse 35, 1120 Wien",
+  "rol": "Extracție factuală TOMS pentru autorul tabelelor Excel; fără autorarea workbookului",
+  "status_general": {
+    "ultima_propunere_AG": "v4.1,2026.10.02",
+    "trimis": true,
+    "sursa_trimitere": "SENT02",
+    "acceptat": false,
+    "semnat": false,
+    "inceput_confirmat": false,
+    "ultima_pozitie_AN": "2026.10.08 refuz din motive de resurse; citează emailul v3, fără analiză explicită a v4.1",
+    "surse": [
+      "REF08",
+      "CHECK12"
+    ],
+    "nota": "Nu presupune că AN este disponibil pentru pachete separate ori că oferta mai poate fi comandată."
+  },
+  "surse": {
+    "V41": {
+      "data": "2026.10.02",
+      "tip": "Propunere AG, transmisă, nesemnată",
+      "cale": "04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026.10.02 Contract v4.1 - data actualizata/2026.10.02 Werkvertrag TOMS - Entwurf AG v4.1.pdf",
+      "pagini": 22,
+      "sha256": "4a96470e2b7eab736d67adb3815984310f60ebafc15ba10cfb0e41e573a3d5a5"
+    },
+    "ANG855": {
+      "data": "2026.09.03",
+      "tip": "Ofertă AN",
+      "cale": "04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/ANG 855_Schallergasse 35, 1120 Wien_TWP.PDF",
+      "pagini": 1,
+      "sha256": "4796f14b15e5e1c4f17dfad37c62bdcd320e9e5a885af8e36962f10e946619c2"
+    },
+    "ANG839": {
+      "data": "2026.08.20",
+      "tip": "Ofertă AN",
+      "cale": "04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/ANG 839_Schallergasse 35, 1120 Wien_PI.PDF",
+      "pagini": 1,
+      "sha256": "9e81281474078101443771baf4e8e70a2ea73a52f1141fd31aaf673c0f8a35bb"
+    },
+    "ANG840": {
+      "data": "2026.08.20",
+      "tip": "Ofertă AN, nu este inclusă în v4.1",
+      "cale": "04. Firme + Executie/02. Protectia Muncii (BauKG-Koordinator)/TOMS/ANG 840_Schallergasse 35, 1120 Wien_BauKG.PDF",
+      "pagini": 1,
+      "sha256": "41a9ac11696d588273e313219b450f8ad8d85c9347274a1de314d973107a0c3d"
+    },
+    "ANG891": {
+      "data": "2026.09.23",
+      "tip": "Ofertă AN",
+      "cale": "04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026.10.02 Contract v4.1 - data actualizata/Beilagen/2026.10.02 2026-09-23 ANG 891 Bauwerksbuch (3.400 EUR netto).PDF",
+      "pagini": 1,
+      "sha256": "92bcae4fdbaf48b04e62d1eeb7138a7002af9ae04ba8a1c7e01d25735d2d973a"
+    },
+    "Q1": {
+      "data": "2026.09.23",
+      "tip": "Reinschrift corectat și semnat AN",
+      "cale": "04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026.10.02 Contract v4.1 - data actualizata/Beilagen/2026.10.02 2026-09-23 Anlage 5 - Fragenkatalog (digitale Reinschrift) korrigiert + signiert von TOMS.pdf",
+      "pagini": 25,
+      "sha256": "3b1cc0a930a58f6ecff788886949537132f9675e1e3b9063a01be0a8f78f802d"
+    },
+    "Q2": {
+      "data": "2026.09.28",
+      "tip": "Clarificări semnate AN",
+      "cale": "04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026-09-28 Fragekatalog 2 - unterzeichnet von TOMS.pdf",
+      "pagini": 5,
+      "sha256": "b9573fd9282bdd91081fa17dc616e5ad4c57f3df16464234e6b5dc1eca6d42e4"
+    },
+    "MAIL23": {
+      "data": "2026.09.23",
+      "tip": "Primit AN",
+      "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/TOMS/2026.09.23 07-31 PRIMIT AW Werkvertrag-Entwurf Tragwerksplanung  424871d3.txt",
+      "eva_id": "424871d3-119b-4550-81cb-db46f02a3cd5"
+    },
+    "MAIL24": {
+      "data": "2026.09.24",
+      "tip": "Primit AN",
+      "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/TOMS/2026.09.24 10-18 PRIMIT AW Kurzer Klärungskatalog zur unterzeich bdfcd1c2.txt",
+      "eva_id": "bdfcd1c2-a3f4-42d0-a6e4-607b2463d321"
+    },
+    "MAIL28": {
+      "data": "2026.09.28",
+      "tip": "Primit AN",
+      "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/TOMS/2026.09.28 09-46 PRIMIT AW Kurzer Klärungskatalog zur unterzeich 829cdad8.txt",
+      "eva_id": "829cdad8-bf82-494e-91fc-93680a431858"
+    },
+    "MAIL01": {
+      "data": "2026.10.01",
+      "tip": "Primit AN, limite",
+      "cale": "08. Corespondenta/2026.10.02 Verificare TOMS/2026.10.01 PRIMIT TOMS 838c8bcd.txt",
+      "eva_id": "838c8bcd-4e2d-4e90-bc25-25355ea6da60"
+    },
+    "SENT02": {
+      "data": "2026.10.02",
+      "tip": "Trimis AG",
+      "cale": "08. Corespondenta/2026.10.05 Actualizare comunicari/2026.10.05 TRIMIS TOMS 64c91100.txt",
+      "eva_id": "64c91100-89c3-4206-8e7e-988e575385b8",
+      "data_tehnica": "2026-10-02T09:03:26Z",
+      "nota": "Prefixul exportului este data salvării; data trimiterii este 2026.10.02."
+    },
+    "REF08": {
+      "data": "2026.10.08",
+      "tip": "Primit AN, refuz actual de preluare",
+      "cale": "08. Corespondenta/2026.10.11 Reverificare TOMS/2026.10.11 PRIMIT TOMS cdd301b0.txt",
+      "eva_id": "cdd301b0-457e-4452-a394-6eea21256e61",
+      "data_tehnica": "2026-10-08T07:07:36Z"
+    },
+    "CHECK12": {
+      "data": "2026.10.12",
+      "tip": "Raport verificare arhivă",
+      "cale": "08. Corespondenta/2026.10.12 Verificare zilnica/2026.10.12 Raport verificare.txt"
+    }
+  },
+  "capitole_contract": [
+    {
+      "capitol": "§1",
+      "titlu": "Obiect, documente și ordine de prioritate",
+      "pagini": "1–2",
+      "continut": "Baza autorizată P2041/2023, planuri arhitecturale 2026.09.08, listă comună, oferta AG obligatorie numai după ambele semnături.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "1–2",
+          "loc": "§1"
+        }
+      ]
+    },
+    {
+      "capitol": "§2",
+      "titlu": "Proiectare structurală și calcul de execuție",
+      "pagini": "2–4",
+      "continut": "25.000 EUR net, toate elementele enumerate, cofraj/armare și Führungsplanung oțel/lemn.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4",
+          "loc": "§2"
+        }
+      ]
+    },
+    {
+      "capitol": "§3",
+      "titlu": "Nivel de detaliere, completitudine, materiale",
+      "pagini": "4",
+      "continut": "Calcul și proiect de ghidaj, revizuirea detaliilor altora; forțe nodale numai în calcul; repararea lipsurilor în 5 zile lucrătoare.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "4",
+          "loc": "§3"
+        }
+      ]
+    },
+    {
+      "capitol": "§4",
+      "titlu": "Asistență statică în șantier",
+      "pagini": "4–5",
+      "continut": "1.500 EUR net, început + 6 faze critice + după nevoie; 12 luni, prelungire condiționată la 15 luni; 300 EUR/vizită suplimentară.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "4–5",
+          "loc": "§4"
+        }
+      ]
+    },
+    {
+      "capitol": "§5",
+      "titlu": "Prüfingenieur §§127/128, recepții și confirmare finală",
+      "pagini": "5–6",
+      "continut": "8.000 EUR net, 15 vizite, faze critice 24 ore, verificare internă, ZT la final; Bauwerksbuch separat.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "5–6",
+          "loc": "§5"
+        }
+      ]
+    },
+    {
+      "capitol": "§6",
+      "titlu": "Excluderi și obligațiile beneficiarului",
+      "pagini": "6–8",
+      "continut": "Detalii suplimentare, cantități, ÖBA/Bauführung, as-built, lucrări temporare și alte servicii excluse; date existente și acces istoric complet.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6"
+        }
+      ]
+    },
+    {
+      "capitol": "§7",
+      "titlu": "Bauwerksbuch",
+      "pagini": "8",
+      "continut": "3.400 EUR net pentru întregul imobil, prima verificare, înregistrare MA37 și dovada; termenele calendaristice sunt propuse de AG.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "8",
+          "loc": "§7"
+        }
+      ]
+    },
+    {
+      "capitol": "§8",
+      "titlu": "Termene, livrări, întâlniri",
+      "pagini": "9",
+      "continut": "D1 Bemessungsgrundlagen la 3 săptămâni după semnarea bilaterală; D2–D5 de convenit în scris; raport săptămânal.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "9",
+          "loc": "§8"
+        }
+      ]
+    },
+    {
+      "capitol": "§9",
+      "titlu": "Formate și drepturi de utilizare",
+      "pagini": "9",
+      "continut": "PDF semnat, DWG/DXF și IFC, revizii, drepturi nelimitate și predare la încetare; anumite formate speciale excluse.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "9",
+          "loc": "§9"
+        }
+      ]
+    },
+    {
+      "capitol": "§10",
+      "titlu": "Predare, verificare și freigabe",
+      "pagini": "10",
+      "continut": "Verificare AG 10 zile lucrătoare, completări 5 zile, plata numai pentru dosarul complet și eliberat.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "10",
+          "loc": "§10"
+        }
+      ]
+    },
+    {
+      "capitol": "§11",
+      "titlu": "Onorarii fixe și plată",
+      "pagini": "10–11",
+      "continut": "25.000 + 1.500 + 8.000 + 3.400 = 37.900 EUR net; Anexa3 distribuie rate AG; modificările se aprobă prealabil.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "10–11",
+          "loc": "§11"
+        }
+      ]
+    },
+    {
+      "capitol": "§12",
+      "titlu": "Echipă, competență și referințe",
+      "pagini": "11–12",
+      "continut": "DI Ferdinand Toms responsabil, echipa și înlocuitorul de nominalizat, documente și 3–5 referințe.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "11–12",
+          "loc": "§12"
+        }
+      ]
+    },
+    {
+      "capitol": "§13",
+      "titlu": "Asigurare profesională",
+      "pagini": "12",
+      "continut": "Generali 1,5 milioane EUR, de două ori pe an, franșiză 10.000 EUR; perioada poliței 2026.01.01–2027.01.01; documente complete necesare.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "12",
+          "loc": "§13"
+        }
+      ]
+    },
+    {
+      "capitol": "§14",
+      "titlu": "Schimbarea proiectului și autoritate",
+      "pagini": "12–13",
+      "continut": "AG cere o buclă de modificări în cadrul conceptului și documente structurale; arhitectul gestionează planurile/submission arhitecturală.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "12–13",
+          "loc": "§14"
+        }
+      ]
+    },
+    {
+      "capitol": "§15",
+      "titlu": "Consolidare și documente pendinte",
+      "pagini": "13",
+      "continut": "Ofertă AG de semnat; valabilitatea ofertelor până la 2026.12.31; excluderi și documente de completat.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "13",
+          "loc": "§15"
+        }
+      ]
+    },
+    {
+      "capitol": "§16",
+      "titlu": "Durată, încetare, predare și instanță",
+      "pagini": "13–14",
+      "continut": "Până la prestația completă, inclusiv înregistrarea Bauwerksbuch; încetare pentru motiv important; plata prestației realizate și predare; drept austriac.",
+      "statut": "Cerință AG în v4.1 trimisă; nesemnată și neacceptată",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "13–14",
+          "loc": "§16"
+        }
+      ]
+    }
+  ],
+  "servicii_detaliate": [
+    {
+      "id": "T01",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Calcul nou de execuție",
+      "cerinta_AG_v41": "Calcul nou semnat pe planul actual, actualizarea preliminarului ianuarie2022 în răspundere proprie",
+      "pozitie_AN_documentata": "Confirmat Q1 F3; nu este simpla reutilizare a calculului preliminar",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "5",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T02",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Placă fundație și legătura cu fundațiile existente",
+      "cerinta_AG_v41": "Placă30cm, fundație și conexiuni vechi/noi",
+      "pozitie_AN_documentata": "Inclus în Q1 F1; concept30cm confirmat F12",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3,14",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T03",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Lift pe toate nivelurile",
+      "cerinta_AG_v41": "Pereți puț, groapă, fundație și preluarea sarcinilor fabricantului",
+      "pozitie_AN_documentata": "Inclus; sarcinile sunt furnizate de fabricant și revizuite de TOMS",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3,7–8",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T04",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Consolidarea planșeelor existente",
+      "cerinta_AG_v41": "Tram/Dippelbaum, reazeme și margini",
+      "pozitie_AN_documentata": "Inclus Q1 F1",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T05",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Pereți, stâlpi, buiandrugi și goluri noi",
+      "cerinta_AG_v41": "Calcul și consolidări pentru pereții existenți și goluri",
+      "pozitie_AN_documentata": "Inclus Q1 F1",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T06",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Mansardă pe două niveluri",
+      "cerinta_AG_v41": "Oțel/lemn, acoperiș, lucarne, atic, terase",
+      "pozitie_AN_documentata": "Führungsplanung inclusă; Werksplanung exclusă din ANG855 și Q1",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T07",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Contravântuire și traseul sarcinilor",
+      "cerinta_AG_v41": "Diafragme, vânt și verificarea clădirii existente până la fundații",
+      "pozitie_AN_documentata": "Principiul structural inclus; detaliile conexiunilor excluderi Q2 A10",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": "Nu echivalează cu proiectarea conexiunilor excluse."
+    },
+    {
+      "id": "T08",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Balcoane",
+      "cerinta_AG_v41": "Sistem portant și transferul în zidăria existentă",
+      "pozitie_AN_documentata": "Incluse în principiu; proiectarea diblurilor/ancorelor este Aufpreis Q2 A5 și exclusă v4.1",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": "Nu prezenta ancorarea detaliată ca inclusă."
+    },
+    {
+      "id": "T09",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Scări, podeste, pereți casa scării",
+      "cerinta_AG_v41": "Vechi/noi și racorduri în limita detaliului de bază",
+      "pozitie_AN_documentata": "Incluse Q1 F1",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T10",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Feuermauern și vecinătăți",
+      "cerinta_AG_v41": "Pereți antifoc, racord vecini, coșuri în influența structurii",
+      "pozitie_AN_documentata": "Incluse structural; dimensionarea R incendiu este exclusă",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T11",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Subzidiri",
+      "cerinta_AG_v41": "Calcul, principiu desenat, lungimi/tronsoane, ordine, geometrie, armare",
+      "pozitie_AN_documentata": "Q1 F6 confirmă principiul; proiect sprijinire excavație separat",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "7–8",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T12",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Cofraj și armare",
+      "cerinta_AG_v41": "Toate planurile de cofraj/armare pentru elementele de beton",
+      "pozitie_AN_documentata": "ANG855 afirmă sämtliche Schalungs- und Bewehrungspläne; Q1 confirmă",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "4",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T13",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Liste armare și fasonare",
+      "cerinta_AG_v41": "Bewehrungs- und Biegelisten pentru planurile de armare",
+      "pozitie_AN_documentata": "Q1 F2 confirmă; Excel/CSV separat nu este confirmat Q2",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "4",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T14",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Planuri de poziții și sarcini pe nivel",
+      "cerinta_AG_v41": "Poziții și sarcini pentru fiecare etaj",
+      "pozitie_AN_documentata": "Q1 F2 confirmă",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "4",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T15",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Forțe în noduri și reazeme",
+      "cerinta_AG_v41": "Forțele în calculul structural; fără înscriere suplimentară în plan",
+      "pozitie_AN_documentata": "Q2 A7 numai în statică, confirmat",
+      "statut_comparatie": "Confirmare Q2; v4.1 respectă limita",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": 2,
+          "loc": "A7"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T16",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Reazeme în zidăria existentă",
+      "cerinta_AG_v41": "Plăci de distribuție, pat mortar, lungimi de rezemare",
+      "pozitie_AN_documentata": "Q2 A9 inclus",
+      "statut_comparatie": "Confirmare Q2; contract nesemnat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": 2,
+          "loc": "A9"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T17",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Revizuire planuri atelier și documente furnizori",
+      "cerinta_AG_v41": "Revizuire/eliberare planuri oțel/lemn, prefabricate, ancore/dibluri",
+      "pozitie_AN_documentata": "Q1 F2 confirmă REVIZUIREA, nu elaborarea detaliilor",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "4",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T18",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Revizuire sprijiniri și sarcini terți",
+      "cerinta_AG_v41": "Verificarea documentelor constructorului și sarcinilor MEP/lift",
+      "pozitie_AN_documentata": "Q1 F6 confirmă revizuirea; elaborarea de terți",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "7–8",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T19",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Puncte de control și recomandare vecini",
+      "cerinta_AG_v41": "Stabilirea momentelor de freigabe și recomandarea dovezilor pentru vecini",
+      "pozitie_AN_documentata": "Q1 F6 confirmă; efectuarea Beweissicherung de alt expert",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "7–8",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "T20",
+      "capitol": "§2 / §3 / Anexa2",
+      "serviciu": "Două cicluri corecții pe plan și întrebări tehnice ofertanți",
+      "cerinta_AG_v41": "Minimum2 corecții și răspunsuri tehnice",
+      "pozitie_AN_documentata": "Q1 F2 confirmă; nu include evaluarea comercială/tendernegocieri",
+      "statut_comparatie": "Conținut confirmat în principiu în Q1; contractul AG nu este acceptat",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "2–4,16–17",
+          "loc": "§2 / §3 / Anexa2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "4",
+          "loc": "F1–F4"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "S01",
+      "capitol": "§4",
+      "serviciu": "Asistență statică: vizite",
+      "cerinta_AG_v41": "Ședință inițială +6 faze: fundație,lift,planșee/găuri,acoperiș,balcoane,Rohbau + întâlniri după nevoie",
+      "pozitie_AN_documentata": "ANG855 nu are număr vizite; Q1 F5 precizează6 faze + start + după nevoie",
+      "statut_comparatie": "Confirmare clarificare; numărul nu rezultă din oferta originală",
+      "pachet_pret": "SUP1500",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "4–5",
+          "loc": "§4"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "6–7",
+          "loc": "F5"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "1.2.2"
+        }
+      ],
+      "nota": "6 rate B1–B6 nu înseamnă6 vizite. B6 include balcon și închidere Rohbau."
+    },
+    {
+      "id": "S02",
+      "capitol": "§4",
+      "serviciu": "Asistență: durată",
+      "cerinta_AG_v41": "12 luni; până la15 luni fără supliment dacă vizitele nu cresc substanțial; AG definește substanțial >3 vizite",
+      "pozitie_AN_documentata": "Q1 acceptă prelungirea condiționată; pragul numeric >3 este completare AG",
+      "statut_comparatie": "Parțial confirmat; pragul numeric AG neacceptat",
+      "pachet_pret": "SUP1500",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "4–5",
+          "loc": "§4(2)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "6–7",
+          "loc": "F5"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "S03",
+      "capitol": "§4",
+      "serviciu": "Asistență: răspuns, protocol, alternative, deplasare",
+      "cerinta_AG_v41": "Protocol3 zile lucrătoare, întrebări nelimitate răspuns2 zile, alternative, deplasare inclusă",
+      "pozitie_AN_documentata": "Q1 confirmă principiul protocolului, răspuns2 zile, alternative și deplasare; termenul protocol3 zile formulat AG",
+      "statut_comparatie": "Parțial confirmat; termen protocol cerut AG",
+      "pachet_pret": "SUP1500",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "4–5",
+          "loc": "§4(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "6–7",
+          "loc": "F5"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "P01",
+      "capitol": "§5",
+      "serviciu": "PI: 15 vizite și faze critice",
+      "cerinta_AG_v41": "15 vizite; disponibilitate24h",
+      "pozitie_AN_documentata": "ANG839: ipoteză15 vizite și disponibilitate critică; Q1 F7 confirmă24h",
+      "statut_comparatie": "Clarificare AN mai precisă decât oferta originală",
+      "pachet_pret": "PI8000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "5–6",
+          "loc": "§5"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 9,
+          "loc": "F7"
+        },
+        {
+          "sursa": "ANG839",
+          "pagini": 1,
+          "loc": "01.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "P02",
+      "capitol": "§5",
+      "serviciu": "PI: inspecții și constatări",
+      "cerinta_AG_v41": "Substrat, armare înainte turnare, un Rohbau, balcon, Ausbau și final; befunde și MA37",
+      "pozitie_AN_documentata": "Q1 F7 confirmă, dar Rohbaubeschau o singură dată, nu fiecare etaj",
+      "statut_comparatie": "Confirmat cu limită explicită",
+      "pachet_pret": "PI8000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "5–6",
+          "loc": "§5(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 9,
+          "loc": "F7"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "P03",
+      "capitol": "§5",
+      "serviciu": "PI: verificare statică și materiale",
+      "cerinta_AG_v41": "Patru ochi, clase, preliminar2022, plan/statică, atelier, dovezi beton/metal/lemn",
+      "pozitie_AN_documentata": "Q1 F7/F10 confirmă; lipsă separare internă personală agreată",
+      "statut_comparatie": "Confirmat în principiu; fără echivalență cu verificator extern independent",
+      "pachet_pret": "PI8000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "5–6",
+          "loc": "§5(1–2)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "9,12",
+          "loc": "F7/F10"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "P04",
+      "capitol": "§5",
+      "serviciu": "PI: autoritate, numire și eventuală Prüfstatik externă",
+      "cerinta_AG_v41": "Pregătire numire MA37; coordonare/predare dacă MA37 cere extern; fără costuri suplimentare de verificare cerute AG",
+      "pozitie_AN_documentata": "Q1 F10 confirmă coordonarea și declarația fără alte costuri; nu este o ofertă separată de calcul extern",
+      "statut_comparatie": "Confirmat în limitele clarificării; necesită păstrarea condiției MA37",
+      "pachet_pret": "PI8000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "5–6",
+          "loc": "§5(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 12,
+          "loc": "F10"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "P05",
+      "capitol": "§5",
+      "serviciu": "ZT confirmare finală §128",
+      "cerinta_AG_v41": "Conformitate structură/execuție incendiu, dosar befunde/materiale, arhitect/constructor, întrebări MA37, listă documente terți",
+      "pozitie_AN_documentata": "Q1 F8 confirmă; as-built arhitect, nu TOMS; ofertele839 spun §127 la ZT deși titlul include127/128",
+      "statut_comparatie": "Clarificare Q1 corectează descrierea generală a originalului",
+      "pachet_pret": "PI8000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "5–6",
+          "loc": "§5(3)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 10,
+          "loc": "F8"
+        },
+        {
+          "sursa": "ANG839",
+          "pagini": 1,
+          "loc": "01.2.1"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "B01",
+      "capitol": "§7",
+      "serviciu": "Bauwerksbuch: conținut și înregistrare",
+      "cerinta_AG_v41": "Întregul imobil vechi+extindere, prima inspecție, confirmări, MA37 și dovadă",
+      "pozitie_AN_documentata": "ANG8913400; Q2 E1–7,E10–12 confirmă conținutul",
+      "statut_comparatie": "Inclus separat; nu în PI8000",
+      "pachet_pret": "BB3400",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": 8,
+          "loc": "§7"
+        },
+        {
+          "sursa": "ANG891",
+          "pagini": 1,
+          "loc": "14.1"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "4–5",
+          "loc": "E"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "B02",
+      "capitol": "§7",
+      "serviciu": "Bauwerksbuch: termene",
+      "cerinta_AG_v41": "AG anunță finalul6 săptămâni; draft20 zile lucrătoare/final10 înainte notificare; befunde5 după control; până2027.12.31 pentru vechi",
+      "pozitie_AN_documentata": "Q2 câmpuri termen necompletate; termenele sunt AG, nu calendar AN confirmat",
+      "statut_comparatie": "Cerință AG neconfirmată",
+      "pachet_pret": "BB3400",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": 8,
+          "loc": "§7(2)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "4–5",
+          "loc": "E"
+        }
+      ],
+      "nota": "Termenul2027.12.31 este cel scris în contract, nu verificare nouă de drept."
+    },
+    {
+      "id": "B03",
+      "capitol": "§7 / §6",
+      "serviciu": "Bauwerksbuch: excluderi",
+      "cerinta_AG_v41": "Foto/fisuri înainte și după; index suplimentar complet cu locații",
+      "pozitie_AN_documentata": "Q2 E8/E9 nein",
+      "statut_comparatie": "Exclus și în Q2 și în v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": 8,
+          "loc": "§7(2)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "4–5",
+          "loc": "E8/E9"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "X01",
+      "capitol": "§6",
+      "serviciu": "Calcul conexiuni oțel",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A1 Aufpreis",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        },
+        {
+          "sursa": "MAIL01",
+          "pagini": null,
+          "loc": "Refuz ofertare suplimentară"
+        },
+        {
+          "sursa": "SENT02",
+          "pagini": null,
+          "loc": "Retragere cerere suplimentară"
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X02",
+      "capitol": "§6",
+      "serviciu": "Calcul conexiuni lemn",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A2 Aufpreis",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        },
+        {
+          "sursa": "MAIL01",
+          "pagini": null,
+          "loc": "Refuz ofertare suplimentară"
+        },
+        {
+          "sursa": "SENT02",
+          "pagini": null,
+          "loc": "Retragere cerere suplimentară"
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X03",
+      "capitol": "§6",
+      "serviciu": "Dibluri/ancore: tip, dimensiune, număr, distanțe",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A5 Aufpreis",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        },
+        {
+          "sursa": "MAIL01",
+          "pagini": null,
+          "loc": "Refuz ofertare suplimentară"
+        },
+        {
+          "sursa": "SENT02",
+          "pagini": null,
+          "loc": "Retragere cerere suplimentară"
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X04",
+      "capitol": "§6",
+      "serviciu": "Grosimi plăci și tip/grosime suduri",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A6 Aufpreis",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        },
+        {
+          "sursa": "MAIL01",
+          "pagini": null,
+          "loc": "Refuz ofertare suplimentară"
+        },
+        {
+          "sursa": "SENT02",
+          "pagini": null,
+          "loc": "Retragere cerere suplimentară"
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X05",
+      "capitol": "§6",
+      "serviciu": "Desene noduri și conexiuni",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A3 nein",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X06",
+      "capitol": "§6",
+      "serviciu": "Specificarea elementelor de îmbinare",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A4 nein",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X07",
+      "capitol": "§6",
+      "serviciu": "Liste componente direct în plan",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A8 nein",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X08",
+      "capitol": "§6",
+      "serviciu": "Detalii conexiuni contravântuire",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A10 nein",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X09",
+      "capitol": "§6",
+      "serviciu": "Protecție specială coroziune/lemn și clase speciale",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A11 nein; ipotezele/materialele necesare calculului de bază rămân incluse",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X10",
+      "capitol": "§6",
+      "serviciu": "Planuri atelier și Abbund",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q2 A12 nein; ANG855 keine Werksplanung",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X11",
+      "capitol": "§6",
+      "serviciu": "Cantități pentru licitație",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F2 neincluse",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "4",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X12",
+      "capitol": "§6",
+      "serviciu": "Seismic existent B1998-3 și evaluare existent B4008-1",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F1/F3: deja prezente în documentele existente",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3,5",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X13",
+      "capitol": "§6",
+      "serviciu": "Calcul incendiu R pentru structură",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F1 neincluse; conformitatea execuției verificată la final",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "3",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X14",
+      "capitol": "§6",
+      "serviciu": "Crearea sarcinilor MEP/lift/constructor",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F6: de terți; TOMS doar aprobă static",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "7–8",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X15",
+      "capitol": "§6",
+      "serviciu": "Proiect sprijinire excavație/verbaŭ",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F6: calcul/plans de alt prestator; TOMS revizuiește",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "7–8",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X16",
+      "capitol": "§6",
+      "serviciu": "Sprijiniri temporare și fazare demolări/organizare șantier",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F6 neincluse",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "7–8",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X17",
+      "capitol": "§6",
+      "serviciu": "Control continuu al fiecărui stadiu din șantier",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F10 neincluse peste Beschauen PI",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "12",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X18",
+      "capitol": "§6",
+      "serviciu": "As-built structural",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F8/F17: arhitect",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "10,19",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X19",
+      "capitol": "§6",
+      "serviciu": "Listă interfețe, negocieri adjudecare, evaluare oferte constructor",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F21 neincluse",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "23",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X20",
+      "capitol": "§6",
+      "serviciu": "ÖBA și Bauführung",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F21: constructorul Bauführer, recomandare ÖBA separat",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "23",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X21",
+      "capitol": "§6",
+      "serviciu": "Beweissicherung efectivă vecini",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F6: terți, numai recomandare TOMS",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "7–8",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "X22",
+      "capitol": "§6",
+      "serviciu": "Exemplare pe hârtie",
+      "cerinta_AG_v41": "Exclus din v4.1; furnizat separat de terți",
+      "pozitie_AN_documentata": "Q1 F17 nein",
+      "statut_comparatie": "Exclus; fără preț în pachetul v4.1",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "6–8",
+          "loc": "§6(1)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "19",
+          "loc": null
+        }
+      ],
+      "nota": "Aufpreis nu are sumă numerică și nu înseamnă serviciu comandat."
+    },
+    {
+      "id": "G01",
+      "capitol": "§6",
+      "serviciu": "Date de teren, zidărie și constatarea existentului",
+      "cerinta_AG_v41": "Date MA29/geotehnic adecvate; zidărie2021 adecvată;30cm; apă4,25m fără măsuri speciale; vizită/sightcheck și adaptări incluse",
+      "pozitie_AN_documentata": "Q1 F12 confirmă bazele și observațiile; sondele definite TOMS și executate constructor",
+      "statut_comparatie": "Confirmare de principiu; situații fizice efective neconstatate prin semnare",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "7–8",
+          "loc": "§6(3–4)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 14,
+          "loc": "F12"
+        }
+      ],
+      "nota": "Nu promite lipsa oricăror costuri de laborator/sondaje terți; declanșarea numai cu acord scris AG."
+    },
+    {
+      "id": "G02",
+      "capitol": "§1/§6/Anexa7",
+      "serviciu": "Planuri istorice complete și bază actuală",
+      "cerinta_AG_v41": "Portal, istoric autorizare, lista comună cu fișier/index/data; arhitectural2026.09.08",
+      "pozitie_AN_documentata": "MAIL24 cere toate planurile istorice integrale; numai cartușele nu ajung",
+      "statut_comparatie": "Cerere AN; recepția completă și accesul nu sunt confirmate",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "1–2,7–8,21–22",
+          "loc": "§1,§6,Anexa7"
+        },
+        {
+          "sursa": "MAIL24",
+          "pagini": null,
+          "loc": null
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "G03",
+      "capitol": "§6",
+      "serviciu": "Relația PI–Bauführer–ÖBA",
+      "cerinta_AG_v41": "Constructorul este Bauführer; control structural PI+asistență fără ÖBA; recomandare ÖBA extern",
+      "pozitie_AN_documentata": "Q1 F21 confirmă; nu include serviciul ÖBA",
+      "statut_comparatie": "Confirmat ca delimitare, nu ofertă ÖBA",
+      "pachet_pret": "PI8000 / SUP1500",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": 8,
+          "loc": "§6(6)"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 23,
+          "loc": "F21"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "A01",
+      "capitol": "§8/Anexa4",
+      "serviciu": "D1 și calendar D2–D5",
+      "cerinta_AG_v41": "D1 numai Bemessungsgrundlagen în3 săptămâni după ambele semnături; D2–D5 ulterior scris",
+      "pozitie_AN_documentata": "Q2 clarifică D1; nu are date calendaristice ferme D2–D5",
+      "statut_comparatie": "Termen condiționat AG; neînceput",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "9,19–20",
+          "loc": "§8,Anexa4"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": "2–3",
+          "loc": "B"
+        },
+        {
+          "sursa": "REF08",
+          "pagini": null,
+          "loc": null
+        }
+      ],
+      "nota": "Nu folosi vechile date din v3 ca restanțe contractuale."
+    },
+    {
+      "id": "A02",
+      "capitol": "§8",
+      "serviciu": "Vizită și raport săptămânal",
+      "cerinta_AG_v41": "Două opțiuni de vizită după semnare; Anastasia dimineața8 ori după16; status săptămânal",
+      "pozitie_AN_documentata": "Întâlnirea și raportul exact sunt cerințe AG, nu vizită efectuată",
+      "statut_comparatie": "AG neconfirmat",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": 9,
+          "loc": "§8"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "A03",
+      "capitol": "§9",
+      "serviciu": "Formate, revizii, drepturi și predare",
+      "cerinta_AG_v41": "PDF semnat,DWG/DXF,IFC2x3/4; index/data, drepturi nelimitate, pachet final și la încetare",
+      "pozitie_AN_documentata": "Q1 F17 confirmă digital/drepturi/predare; Q2 C delimitează formatele speciale",
+      "statut_comparatie": "Confirmare de principiu, formate exacte AG parțial",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": 9,
+          "loc": "§9"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 19,
+          "loc": "F17"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": 3,
+          "loc": "C"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "A04",
+      "capitol": "§9",
+      "serviciu": "Formate suplimentare excluse",
+      "cerinta_AG_v41": "Layere pe meserii/poziții toate în text, calcule native, Excel/CSV separat, BTL/BVX și NC/DSTV",
+      "pozitie_AN_documentata": "Q2 C nein",
+      "statut_comparatie": "Exclus, fără preț",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": 9,
+          "loc": "§9"
+        },
+        {
+          "sursa": "Q2",
+          "pagini": 3,
+          "loc": "C"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "A05",
+      "capitol": "§3/§10",
+      "serviciu": "Completitudine și acceptare dosare",
+      "cerinta_AG_v41": "Fiecare componentă, 10 zile lucrătoare control AG,5 zile remediere; acceptare tacită potrivit propunerii",
+      "pozitie_AN_documentata": "Q1 confirmă lipsa costurilor corecțiilor proprii; mecanismul10/5/tacit AG nu este acceptat contractual",
+      "statut_comparatie": "Cerință AG suplimentară",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "4,10",
+          "loc": "§3,§10"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 20,
+          "loc": "F18"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "A06",
+      "capitol": "§11/Anexa3",
+      "serviciu": "Rate și plată",
+      "cerinta_AG_v41": "Fără avans/plată pe timp;30 zile după factură și dosar complet/freigabe; rate D/B/P",
+      "pozitie_AN_documentata": "Q1 F18 spune după progres și TOMS va propune plan; nu acceptă automat Anexa3 AG",
+      "statut_comparatie": "Prețurile AN confirmate, eșalonarea AG neacceptată",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "10–11,18–19",
+          "loc": "§11,Anexa3"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 20,
+          "loc": "F18"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "A07",
+      "capitol": "§11",
+      "serviciu": "Depășire efort >10% și modificări",
+      "cerinta_AG_v41": "Nu majorare automată; ofertă modificare și acord prealabil scris; fără extra pentru corecții proprii și baza convenită",
+      "pozitie_AN_documentata": "Ofertele prevăd recalcul după ore și convenire separată dacă efortul crește>10%; Q1 F18 limitează la schimbări AG și acord",
+      "statut_comparatie": "Înțeles restrâns Q1; text exact contract AG neacceptat",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "10–11",
+          "loc": "§11"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 20,
+          "loc": "F18"
+        },
+        {
+          "sursa": "ANG855",
+          "pagini": 1,
+          "loc": "Anmerkungen"
+        },
+        {
+          "sursa": "ANG839",
+          "pagini": 1,
+          "loc": "Anmerkungen"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "A08",
+      "capitol": "§12/Anexa6/7",
+      "serviciu": "Echipă, competență, referințe",
+      "cerinta_AG_v41": "DI responsabil, înlocuitor/echipă/documente,3–5 referințe similare, fără subcontractare neaprobată",
+      "pozitie_AN_documentata": "Q1 F16/18 confirmă principiu; nominalizarea integrală/referințele și dovada independenței rămân de completat",
+      "statut_comparatie": "Obligație propusă și documente pendinte",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "11–12,20–22",
+          "loc": "§12,Anexa6/7"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "16,18",
+          "loc": "F16/F18"
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "A09",
+      "capitol": "§13",
+      "serviciu": "Asigurare profesională",
+      "cerinta_AG_v41": "1,5m EUR,2x/an,10.000 franșiză suportată AN;2026.01.01–2027.01.01; condiții și actualizare",
+      "pozitie_AN_documentata": "Q1 F15 corectează țintele AG2m/5k la1,5m/10k; polița Generali anexată folosită de AG",
+      "statut_comparatie": "Baza comercială corectată; condiții complete și reînnoire neconfirmate",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": 12,
+          "loc": "§13"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 17,
+          "loc": "F15"
+        }
+      ],
+      "nota": "Nachhaftung nelimitată nu înseamnă răspundere monetară nelimitată."
+    },
+    {
+      "id": "A10",
+      "capitol": "§14",
+      "serviciu": "O buclă Planwechsel și documente autoritate",
+      "cerinta_AG_v41": "AG cere modificări în concept, reducere ziduri/apartamente, calcule și anexe, notificare executant/AG; arhitect pentru submission",
+      "pozitie_AN_documentata": "Q1 F11/F13: colaborare structurală inclusă, planchange/newsubmission încă de clarificat",
+      "statut_comparatie": "Parțial discutat; bucla cantitativă AG neacceptată",
+      "pachet_pret": "TWP25000",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "12–13",
+          "loc": "§14"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": "13,15",
+          "loc": "F11/F13"
+        }
+      ],
+      "nota": "Nu prezenta întreaga cerință AG ca validare AN."
+    },
+    {
+      "id": "A11",
+      "capitol": "§15/§16",
+      "serviciu": "Oferta AG, semnare, încetare și predare",
+      "cerinta_AG_v41": "Consolidare și semnare bilaterală; încetare motiv important, remunerare prestație executată, drept austriac/instanță",
+      "pozitie_AN_documentata": "Nicio semnare/acceptare; REF08 refuz prezent din resurse",
+      "statut_comparatie": "Contract nesemnat; clauze AG neintrate în vigoare",
+      "pachet_pret": null,
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "13–14",
+          "loc": "§15/§16"
+        },
+        {
+          "sursa": "SENT02",
+          "pagini": null,
+          "loc": null
+        },
+        {
+          "sursa": "REF08",
+          "pagini": null,
+          "loc": null
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "K01",
+      "capitol": "În afara v4.1",
+      "serviciu": "BauKG: Planungskoordination",
+      "cerinta_AG_v41": "Nu este comandat în v4.1",
+      "pozitie_AN_documentata": "ANG84004.1: SiGe/Unterlage spätere Arbeiten;1200net; ședințe separat",
+      "statut_comparatie": "Ofertă istorică separată, exclusă din contractul curent",
+      "pachet_pret": "BAUKG_PLAN1200",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "ANG840",
+          "pagini": 1,
+          "loc": "04.1"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 22,
+          "loc": "F20"
+        },
+        {
+          "sursa": "MAIL23",
+          "pagini": null,
+          "loc": null
+        }
+      ],
+      "nota": ""
+    },
+    {
+      "id": "K02",
+      "capitol": "În afara v4.1",
+      "serviciu": "BauKG: Baustellenkoordination",
+      "cerinta_AG_v41": "Nu este comandat în v4.1",
+      "pozitie_AN_documentata": "ANG84004.2:9840net ipoteză12luni; durată efectivă, notificareAI,ordineșantier, vizite și documentare",
+      "statut_comparatie": "Ofertă separată; modificarea țintei AG refuzată",
+      "pachet_pret": "BAUKG_SITE9840",
+      "pret_distinct_net_eur": null,
+      "surse": [
+        {
+          "sursa": "ANG840",
+          "pagini": 1,
+          "loc": "04.2"
+        },
+        {
+          "sursa": "Q1",
+          "pagini": 22,
+          "loc": "F20"
+        },
+        {
+          "sursa": "MAIL23",
+          "pagini": null,
+          "loc": null
+        }
+      ],
+      "nota": "820EUR/lună este calcul9840/12, nu tarif lunar separat tipărit. Q1 discută vizite săptămânale,200extra; MAIL23 refuză corectarea BauKG solicitată."
+    }
+  ],
+  "preturi_originale_AN": [
+    {
+      "id": "TWP25000",
+      "sursa": "ANG855",
+      "pozitie": "1.2.1",
+      "serviciu": "Proiectare statică de execuție; planuri cofraj/armare; Führungsplanung oțel/lemn",
+      "net_eur": 25000,
+      "tva_cota": 0.2,
+      "brut_calculat_eur": 30000,
+      "tip_pret": "Ofertă originală AN; preț de pachet, nu defalcare pe subelemente",
+      "inclus_in_v41": true,
+      "pagini": 1,
+      "valabilitate_tiparita": "2026.10.03",
+      "valabilitate_extinsa": "2026.12.31",
+      "sursa_extindere": "MAIL23",
+      "statut_actual": "Refuz preluare în prezent REF08; valabilitatea istorică nu echivalează cu disponibilitate/acceptare",
+      "nota": "Brutul este calculat cu20% TVA; originalele afișează net."
+    },
+    {
+      "id": "SUP1500",
+      "sursa": "ANG855",
+      "pozitie": "1.2.2",
+      "serviciu": "Asistență statică",
+      "net_eur": 1500,
+      "tva_cota": 0.2,
+      "brut_calculat_eur": 1800,
+      "tip_pret": "Ofertă originală AN; preț de pachet, nu defalcare pe subelemente",
+      "inclus_in_v41": true,
+      "pagini": 1,
+      "valabilitate_tiparita": "2026.10.03",
+      "valabilitate_extinsa": "2026.12.31",
+      "sursa_extindere": "MAIL23",
+      "statut_actual": "Refuz preluare în prezent REF08; valabilitatea istorică nu echivalează cu disponibilitate/acceptare",
+      "nota": "Brutul este calculat cu20% TVA; originalele afișează net."
+    },
+    {
+      "id": "PI8000",
+      "sursa": "ANG839",
+      "pozitie": "01.2.1",
+      "serviciu": "Prüfingenieur §127/§128 fără Bauwerksbuch",
+      "net_eur": 8000,
+      "tva_cota": 0.2,
+      "brut_calculat_eur": 9600,
+      "tip_pret": "Ofertă originală AN; preț de pachet, nu defalcare pe subelemente",
+      "inclus_in_v41": true,
+      "pagini": 1,
+      "valabilitate_tiparita": "2026.09.19",
+      "valabilitate_extinsa": "2026.12.31",
+      "sursa_extindere": "MAIL23",
+      "statut_actual": "Refuz preluare în prezent REF08; valabilitatea istorică nu echivalează cu disponibilitate/acceptare",
+      "nota": "Brutul este calculat cu20% TVA; originalele afișează net."
+    },
+    {
+      "id": "BB3400",
+      "sursa": "ANG891",
+      "pozitie": "14.1",
+      "serviciu": "Bauwerksbuch",
+      "net_eur": 3400,
+      "tva_cota": 0.2,
+      "brut_calculat_eur": 4080,
+      "tip_pret": "Ofertă originală AN; preț de pachet, nu defalcare pe subelemente",
+      "inclus_in_v41": true,
+      "pagini": 1,
+      "valabilitate_tiparita": "2026.12.31",
+      "valabilitate_extinsa": null,
+      "sursa_extindere": null,
+      "statut_actual": "Refuz preluare în prezent REF08; valabilitatea istorică nu echivalează cu disponibilitate/acceptare",
+      "nota": "Brutul este calculat cu20% TVA; originalele afișează net."
+    },
+    {
+      "id": "BAUKG_PLAN1200",
+      "sursa": "ANG840",
+      "pozitie": "04.1",
+      "serviciu": "Planungskoordination BauKG",
+      "net_eur": 1200,
+      "tva_cota": 0.2,
+      "brut_calculat_eur": 1440,
+      "tip_pret": "Ofertă originală AN; preț de pachet, nu defalcare pe subelemente",
+      "inclus_in_v41": false,
+      "pagini": 1,
+      "valabilitate_tiparita": "2026.09.19",
+      "valabilitate_extinsa": "2026.12.31",
+      "sursa_extindere": "MAIL23",
+      "statut_actual": "Refuz preluare în prezent REF08; valabilitatea istorică nu echivalează cu disponibilitate/acceptare",
+      "nota": "Brutul este calculat cu20% TVA; originalele afișează net."
+    },
+    {
+      "id": "BAUKG_SITE9840",
+      "sursa": "ANG840",
+      "pozitie": "04.2",
+      "serviciu": "Baustellenkoordination, ipoteză12luni",
+      "net_eur": 9840,
+      "tva_cota": 0.2,
+      "brut_calculat_eur": 11808,
+      "tip_pret": "Ofertă originală AN; preț de pachet, nu defalcare pe subelemente",
+      "inclus_in_v41": false,
+      "pagini": 1,
+      "valabilitate_tiparita": "2026.09.19",
+      "valabilitate_extinsa": "2026.12.31",
+      "sursa_extindere": "MAIL23",
+      "statut_actual": "Refuz preluare în prezent REF08; valabilitatea istorică nu echivalează cu disponibilitate/acceptare",
+      "nota": "Brutul este calculat cu20% TVA; originalele afișează net."
+    }
+  ],
+  "alocari_rate_AG_v41": [
+    {
+      "id": "D1",
+      "pachet": "TWP25000",
+      "livrabil": "Baze de calcul, vizită/listă, sistem și sarcini, puncte control, program",
+      "net_eur": 2500,
+      "procent": 10,
+      "brut_calculat_eur": 3000,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Termen3săptămâni pentru documentul Bemessungsgrundlagen după ambele semnături, nu automat întreg dosarD1."
+    },
+    {
+      "id": "D2",
+      "pachet": "TWP25000",
+      "livrabil": "Fundații, lift, subzidiri, planuri/liste, sarcini sprijinire",
+      "net_eur": 6250,
+      "procent": 25,
+      "brut_calculat_eur": 7500,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "D3",
+      "pachet": "TWP25000",
+      "livrabil": "Planșee/pereți existenți, goluri, Feuermauern, conexiuni vechi/noi",
+      "net_eur": 6250,
+      "procent": 25,
+      "brut_calculat_eur": 7500,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "D4",
+      "pachet": "TWP25000",
+      "livrabil": "Mansardă oțel/lemn, acoperiș,lucarne,atic,terase,contravântuire",
+      "net_eur": 6250,
+      "procent": 25,
+      "brut_calculat_eur": 7500,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "D5",
+      "pachet": "TWP25000",
+      "livrabil": "Balcoane,scări,rest componente și predare completă",
+      "net_eur": 3750,
+      "procent": 15,
+      "brut_calculat_eur": 4500,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "B1",
+      "pachet": "SUP1500",
+      "livrabil": "Ședință început",
+      "net_eur": 250,
+      "procent": null,
+      "brut_calculat_eur": 300,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "B2",
+      "pachet": "SUP1500",
+      "livrabil": "Placă fundație",
+      "net_eur": 250,
+      "procent": null,
+      "brut_calculat_eur": 300,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "B3",
+      "pachet": "SUP1500",
+      "livrabil": "Puț lift",
+      "net_eur": 250,
+      "procent": null,
+      "brut_calculat_eur": 300,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "B4",
+      "pachet": "SUP1500",
+      "livrabil": "Consolidare planșee și găuri",
+      "net_eur": 250,
+      "procent": null,
+      "brut_calculat_eur": 300,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "B5",
+      "pachet": "SUP1500",
+      "livrabil": "Acoperiș",
+      "net_eur": 250,
+      "procent": null,
+      "brut_calculat_eur": 300,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "B6",
+      "pachet": "SUP1500",
+      "livrabil": "Balcoane ȘI închidere Rohbau",
+      "net_eur": 250,
+      "procent": null,
+      "brut_calculat_eur": 300,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Două faze de vizite într-o singură rată."
+    },
+    {
+      "id": "P1",
+      "pachet": "PI8000",
+      "livrabil": "Numire MA37,patruochi/clase,baze,substrat",
+      "net_eur": 2000,
+      "procent": 25,
+      "brut_calculat_eur": 2400,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "P2",
+      "pachet": "PI8000",
+      "livrabil": "Armare și materiale beton/oțel",
+      "net_eur": 2000,
+      "procent": 25,
+      "brut_calculat_eur": 2400,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "P3",
+      "pachet": "PI8000",
+      "livrabil": "Rohbau,balcon,befunde,lemn",
+      "net_eur": 1600,
+      "procent": 20,
+      "brut_calculat_eur": 1920,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "P4",
+      "pachet": "PI8000",
+      "livrabil": "Ausbau și recepție elemente",
+      "net_eur": 1200,
+      "procent": 15,
+      "brut_calculat_eur": 1440,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "P5",
+      "pachet": "PI8000",
+      "livrabil": "Final,befunde,§128,coordonare și listă terți",
+      "net_eur": 1200,
+      "procent": 15,
+      "brut_calculat_eur": 1440,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    },
+    {
+      "id": "BB",
+      "pachet": "BB3400",
+      "livrabil": "Bauwerksbuch complet,înregistrat și eliberat",
+      "net_eur": 3400,
+      "procent": 100,
+      "brut_calculat_eur": 4080,
+      "tip": "Rate de plată propuse AG în v4.1; NU prețuri independente ofertate de AN",
+      "surse": [
+        {
+          "sursa": "V41",
+          "pagini": "18–19",
+          "loc": "Anexa3"
+        }
+      ],
+      "nota": "Nu aduna ratele încă o dată peste cele4 pachete."
+    }
+  ],
+  "totale": {
+    "pachet_v41_net_eur": 37900,
+    "pachet_v41_tva_calculat_eur": 7580,
+    "pachet_v41_brut_calculat_eur": 45480,
+    "baukg_separat_net_eur": 11040,
+    "baukg_separat_brut_calculat_eur": 13248,
+    "nota": "BauKG nu intră în totalul v4.1. Totalul37900 rezultă din4 pachete originale. Nu se inventează distribuții ale25000 pe fundație/mansardă etc."
+  },
+  "preturi_suplimentare_si_istorice": [
+    {
+      "id": "EXTRA_STATIC",
+      "net_eur": 300,
+      "unitate": "vizită cu deplasare",
+      "surse": [
+        {
+          "sursa": "Q1",
+          "pagini": "6–7",
+          "loc": "F5"
+        },
+        {
+          "sursa": "V41",
+          "pagini": "4–5",
+          "loc": "§4(3)"
+        }
+      ],
+      "statut": "Confirmare Q1 pentru vizite suplimentare; întinderea contractului AG și pragul>3 neacceptate"
+    },
+    {
+      "id": "PI_HOUR",
+      "net_eur": 155,
+      "unitate": "oră",
+      "surse": [
+        {
+          "sursa": "ANG839",
+          "pagini": 1,
+          "loc": "Std-Satz"
+        }
+      ],
+      "statut": "Tarif original PI; nu tarif universal TWP și nu majorare automată"
+    },
+    {
+      "id": "BAUKG_HOUR",
+      "net_eur": 125,
+      "unitate": "oră",
+      "surse": [
+        {
+          "sursa": "ANG840",
+          "pagini": 1,
+          "loc": "întâlniri/vizite suplimentare"
+        }
+      ],
+      "statut": "Pentru întâlniri suplimentare ori vizite peste1/săptămână în oferta originală"
+    },
+    {
+      "id": "BAUKG_Q1_EXTRA",
+      "net_eur": 200,
+      "unitate": "vizită suplimentară",
+      "surse": [
+        {
+          "sursa": "Q1",
+          "pagini": 22,
+          "loc": "F20"
+        },
+        {
+          "sursa": "MAIL23",
+          "pagini": null,
+          "loc": "BauKG nu poate fi corectat conform cererii AG"
+        }
+      ],
+      "statut": "Discuție/clarificare istorică; nu înlocui automat originalul125/oră după refuzul ajustării"
+    },
+    {
+      "id": "BAUKG_820_DERIVED",
+      "net_eur": 820,
+      "unitate": "lună calculată9840/12",
+      "surse": [
+        {
+          "sursa": "ANG840",
+          "pagini": 1,
+          "loc": "04.2"
+        }
+      ],
+      "statut": "Calcul derivat, nu tarif lunar tipărit independent"
+    },
+    {
+      "id": "Q2_AUFPREIS",
+      "net_eur": null,
+      "unitate": null,
+      "surse": [
+        {
+          "sursa": "Q2",
+          "pagini": 2,
+          "loc": "A1/A2/A5/A6"
+        },
+        {
+          "sursa": "MAIL01",
+          "pagini": null,
+          "loc": null
+        },
+        {
+          "sursa": "SENT02",
+          "pagini": null,
+          "loc": null
+        }
+      ],
+      "statut": "Aufpreis fără sumă; suplimente necomandate; AN nu oferă suplimentul solicitat și AG retrage cererea"
+    },
+    {
+      "id": "BAUKG_AG_TARGET",
+      "net_eur": 8200,
+      "unitate": "1000+12×600",
+      "surse": [
+        {
+          "sursa": "MAIL23",
+          "pagini": null,
+          "loc": null
+        }
+      ],
+      "statut": "Țintă AG istorică refuzată, NU ofertă AN; exclusă din totalurile comerciale"
+    }
+  ],
+  "note_critice": [
+    "Toate clauzele v4.1 sunt cerințe ale beneficiarului în oferta trimisă, nu contract acceptat; confirmările Q1/Q2 se arată separat.",
+    "ANG855 nu precizează5 vizite de asistență. Numărul6 faze provine din Q1F5 și v4.1; 6 rate nu înseamnă6 vizite.",
+    "ANG839 are ipoteză15 vizite, Q1 limitează Rohbaubeschau la una, nu per etaj;24ore adăugat prin clarificare.",
+    "Detaliile oțel/lemn și ancore marcate Aufpreis ori nein în Q2 sunt EXCLUSE din v4.1; elaborarea de terți, revizuirea de TOMS.",
+    "Raportul curent no-new-mails nu reînnoiește ofertele și nu anulează refuzul2026.10.08.",
+    "Ratele Anexa3 sunt alocări AG în interiorul pachetelor; nu pot fi comparate ca prețuri originale AN autonome.",
+    "Planwechsel exact/o buclă, prag>3 vizite, termeneBauwerksbuch/10zilefreigabe/5remediere sunt AG ori doar parțial confirmate.",
+    "ANG840 există și a fost discutat, dar BauKG nu este inclus în ultimul contract trimis; nu se adaugă la37900 fără prezentare distinctă.",
+    "Factura Wurmb540EURbrut era alt proiect și a fost eliminată; nu apare drept cost Schallergasse.",
+    "Fără ofertă pe subcomponentă folosește «inclus în pachet25000» ori «exclus/fără preț», nu0EUR și nu sumă inventată."
+  ],
+  "verificare_originale": {
+    "hash_potrivite_index": [
+      "V41",
+      "ANG839",
+      "ANG840",
+      "ANG855",
+      "ANG891",
+      "Q1",
+      "Q2"
+    ],
+    "citire_integrala": [
+      "V41",
+      "ANG839",
+      "ANG840",
+      "ANG855",
+      "ANG891",
+      "Q1",
+      "Q2",
+      "MAIL23",
+      "MAIL24",
+      "MAIL28",
+      "MAIL01",
+      "SENT02",
+      "REF08"
+    ],
+    "inspectie_vizuala_originale": [
+      "ANG839p1",
+      "ANG840p1",
+      "ANG855p1",
+      "ANG891p1",
+      "Q2p2,p3,p4",
+      "V41p10,p18,p19"
+    ],
+    "director_probe": "04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Probe vizuale TOMS",
+    "limita": "Nu constituie verificare legislativă sau acceptare comercială; arhiva locală consultată, nu trimitere ori interogare email nouă de agent."
+  }
+}

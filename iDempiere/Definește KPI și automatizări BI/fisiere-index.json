@@ -1,10 +1,17 @@
 [
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\bi_balance.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/bi_balance--dbefb9c6.mjs",
+    "bytes": 3051,
+    "sha256": "44221e6a4988c1817b4e085c5a93203ddb0e5ae04363d9e1f8758d73fd254d0a"
+  },
+  {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\bi_catalog.mjs",
     "status": "copiat",
     "saved_path": "fisiere/bi_catalog--48f24f94.mjs",
-    "bytes": 35384,
-    "sha256": "7a1f2bcb3c21787a85c51c40da43cd912e5aa0aa088d46cf01808b745af81b4a"
+    "bytes": 35425,
+    "sha256": "715fc6a3c136e5ed4f8c58591cb6c8db553d9de120e33af07ddae375832ce434"
   },
   {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\bi_extensions.mjs",
@@ -19,5 +26,107 @@
     "saved_path": "fisiere/bi_products--beb211e8.mjs",
     "bytes": 11413,
     "sha256": "1357b470f09a9bdeed0aac85966851a1e7a3b2e95d894cbeb48df0b6fc1966b9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Automatizari.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Automatizari--1876b04e.png",
+    "bytes": 52466,
+    "sha256": "16625ce53b5571f1dc3bfce94eb037c4be2fe08a047b434a70c55980382d9053"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Extract_help.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Extract_help--a40b629f.png",
+    "bytes": 54918,
+    "sha256": "24c4bb12afbe637fd3f29e1d6d15eed491577d323b7e421233f3835e98475172"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Functii.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Functii--24f2d3b7.png",
+    "bytes": 44917,
+    "sha256": "4daa9af8d3f39aa4235153d272e452ecea37050e9a574117c9034316c1d67da6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Implementare.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Implementare--6cdcd79c.png",
+    "bytes": 41333,
+    "sha256": "45e26a874ab9707b548f7ce3c39b08b965a7b5f435494219c9e02aa94ba5d762"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Industrii_CAEN.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Industrii_CAEN--42a5ec2e.png",
+    "bytes": 77040,
+    "sha256": "450dd61fa698164ee6a8d907fdb1c09c964ceec870dae07ea64097dc89a7e70c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\KPI.png",
+    "status": "copiat",
+    "saved_path": "fisiere/KPI--eed5f0e8.png",
+    "bytes": 62200,
+    "sha256": "6410a01bcca9f786fe9fe0b8737ecff9d495ef950f571c346eaaa169e36231b9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Nevoi_utilizatori.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Nevoi_utilizatori--6aae51c4.png",
+    "bytes": 76414,
+    "sha256": "924a0416d4e2d0f79a70926d64b30f1e3e34b86c3d3c013422718fda68bbb0cc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Platforme_AI.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Platforme_AI--154c4bd6.png",
+    "bytes": 104795,
+    "sha256": "546047c17298872db71efb96d8ab8abdf9558dd39bcfcc0b203dd1c0416b0e6c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Reguli.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Reguli--85b09417.png",
+    "bytes": 46883,
+    "sha256": "e915a4111a404f3ce4b7cedc5fc548b198d8ddddc9346a9a27b9889d4ba42618"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Selectie.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Selectie--eac2449d.png",
+    "bytes": 35352,
+    "sha256": "6b2d7b02f301a909b98883890a928c1b969219c055385b8332835513e65878f6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Sinteza.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Sinteza--fe4d2c18.png",
+    "bytes": 36966,
+    "sha256": "4f42c591bcf36f93368f594938a7905920bea0e3928c586ae523a2372f79012c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\qa\\Sinteza_totaluri.png",
+    "status": "copiat",
+    "saved_path": "fisiere/Sinteza_totaluri--47250e27.png",
+    "bytes": 47931,
+    "sha256": "657b728fa00162ab796bd44a16cd066ed81bf8fb5e3a2f55cdd11bf4652d989a"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/KPI&BI/BI_Manager_Catalog_Complet.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/BI_Manager_Catalog_Complet--6ce38ad0.xlsx",
+    "bytes": 78363,
+    "sha256": "e9bd0ea02d23dcf79b31d80053344514741e3373d3b90b5ed475162abf6a6771"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/KPI&BI/BI_Manager_Raport.html",
+    "status": "copiat",
+    "saved_path": "fisiere/BI_Manager_Raport--3542c523.html",
+    "bytes": 173936,
+    "sha256": "7250a3b3d63eb6785f6e9ed146d2d0fd083ce629cb0523ee2c946e1579325ffb"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\KPI&BI",
+    "status": "fisier_inexistent_sau_director"
   }
 ]

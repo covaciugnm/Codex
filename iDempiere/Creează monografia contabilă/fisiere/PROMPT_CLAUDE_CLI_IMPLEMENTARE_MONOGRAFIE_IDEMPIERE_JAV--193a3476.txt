@@ -1,0 +1,788 @@
+﻿PROMPT PENTRU CLAUDE CLI
+Implementarea modulului „Monografia contabilă a companiei” în EVA-contab / iDempiere, cu Java
+Data redactării: 12.10.2026
+Folderul documentelor: Z:\00.Roboti\EVA.Pro\Eva-contab\Monografie
+
+INSTRUCȚIUNE DE LUCRU
+
+Acționează ca dezvoltator Java senior și arhitect iDempiere pentru proiectul EVA-contab.
+Implementează integrarea completă a documentației și a monografiei contabile în sistemul
+iDempiere existent. Livrează cod, model de date, ferestre, procese, importuri, PDF-uri,
+teste și pachet instalabil. Continuă dincolo de analiză și plan până la o implementare
+verificabilă în mediul de dezvoltare/test disponibil.
+
+Cerința utilizatorului: documentarea tuturor informațiilor, deciziilor, politicilor,
+setărilor și regulilor necesare monografiei contabile pentru România, organizate pe
+capitole aplicabile/neaplicabile, de la planul de conturi până la controale și integrări.
+Obligatoriu, în setările firmei trebuie să se vadă CE CODURI CAEN SUNT AUTORIZATE PE
+FIECARE LOCAȚIE. Autorizațiile, avizele și acreditările sectoriale trebuie documentate
+separat și legate de activitate și locație.
+
+Acest prompt definește lucrarea de implementat; nu reprezintă dovada unei implementări
+deja existente. Planul EVA-contab consultat menționează iDempiere 13. Versiunea efectiv
+instalată, JDK-ul, baza de date, repository-ul și modulele active trebuie verificate.
+Directorul cu documente nu trebuie presupus a fi repository-ul de cod.
+
+1. CITEȘTE SURSELE ȘI INVENTARIAZĂ SISTEMUL
+
+1.1. Citește întâi instrucțiunile aplicabile din repository, inclusiv CLAUDE.md și
+AGENTS.md, convențiile modulelor EVA și modificările locale existente. Păstrează munca
+existentă. Folosește mecanismele și biblioteca de componente ale proiectului.
+
+1.2. Citește integral aceste materiale din folderul documentelor:
+- CITESTE-MA.txt;
+- Documentare_contabila_completa_editabil.pdf;
+- Monografie_contabila_model_editabil.pdf;
+- dist/documents/Documentare_completa_editabil.html;
+- dist/documents/Model_date_companie.json;
+- dist/config.js: catalogul capitolelor, întrebărilor, registrelor și surselor;
+- dist/core.js: modelul inițial, verificările și structura documentelor;
+- dist/app.js, dist/pdf.js, dist/index.html și dist/style.css;
+- Monografie_contabila_RO_2026-10-12.zip, dacă ai nevoie să verifici distribuția.
+
+PDF-urile inițiale sunt modele completabile necompletate. Pachetul conține 45 de capitole,
+360 de întrebări și 20 de registre; verifică numerele din sursa efectiv citită.
+Documentarea inițială are 124 de pagini, monografia-model 123 de pagini, fiecare cu 573
+de câmpuri în varianta goală. Aceste numere descriu modelele, nu sunt limite pentru
+documentele generate cu date reale.
+
+1.3. Citește și materialele de context din directorul părinte, dacă sunt disponibile:
+- Plan de implementare EVA-contab ERP (nivel Dynamics 365 Business Central).md;
+- Catalog module si surse open-source pentru localizarea RO - EVA-contab (iDempiere).md.
+Tratează aceste documente ca planuri și referințe. Confirmă în cod ce există efectiv.
+
+1.4. Identifică și consemnează:
+- versiunea/commitul iDempiere, JDK, Maven/Tycho, OSGi și baza de date;
+- modulele EVA de contabilitate, localizare RO, CAEN, taxe, documente și audit;
+- UI-ul existent, REST/webservices, autentificarea, rolurile și organizațiile;
+- schema de contabilitate, planul de conturi, dimensiunile și mecanismul de postare;
+- modulele de PDF/raportare, stocarea atașamentelor și fluxurile de aprobare;
+- migrațiile, identificatorii Application Dictionary, 2Pack și pipeline-ul de build;
+- ce lipsește, ce poate fi reutilizat și ce necesită dezvoltare.
+
+Nu inventa căi, credențiale, endpointuri, versiuni sau funcții existente. Dacă lipsește
+accesul la runtime, continuă lucrările independente în cod și raportează precis ce
+nu ai putut testa. Nu raporta drept validată o instalare pe care nu ai executat-o.
+
+2. REZULTATUL FUNCȚIONAL CERUT
+
+Utilizatorul trebuie să poată:
+a) selecta compania, organizațiile, perioada, cadrul și schema contabilă;
+b) vedea locațiile, activitățile și autorizările CAEN în setările firmei;
+c) completa toate capitolele, întrebările și registrele existente;
+d) prelua controlat date disponibile în iDempiere și completa datele lipsă;
+e) defini politici, reguli, corespondențe contabile, controale, probe și teste;
+f) vedea lipsurile și diferențele față de configurarea ERP;
+g) parcurge întocmirea, verificarea, aprobarea și publicarea unei versiuni;
+h) genera dosarul de documentare și monografia PDF completabilă din aceleași date;
+i) vedea versiunile istorice, anexele, aprobările și trasabilitatea;
+j) propune și aplica setările ERP acceptate, prin procese distincte și controlate.
+
+Toate cele 45 de capitole trebuie implementate ca date și interfețe funcționale.
+Nu reduce acoperirea la câteva capitole demonstrative. Funcțiile specializate externe
+(salarizare, declarații, SAF-T, e-Factura etc.) se conectează prin modulele existente
+și prin contracte de integrare documentate; simpla existență a unui capitol nu înseamnă
+că un generator de declarații sau un conector ANAF a fost implementat.
+
+3. ARHITECTURĂ JAVA ȘI INTEGRARE NATIVĂ
+
+3.1. Dezvoltă extensii Java compatibile cu instalarea identificată, preferabil pluginuri
+OSGi integrate în arhitectura EVA. Propunere de namespace: ro.eva.contab.monografie;
+adaptează-l la convenția reală. Evită modificările în nucleu dacă extensiile disponibile
+acoperă cerința; documentează concret orice excepție.
+
+3.2. Folosește Application Dictionary pentru tabele, coloane, referințe, ferestre,
+taburi, câmpuri, meniuri, procese, traduceri și acces. UI-ul principal trebuie să fie
+accesibil din iDempiere. Folosește UI-ul web/ZK sau infrastructura deja adoptată.
+Orice formular web suplimentar folosește aceleași servicii Java și aceleași permisiuni.
+
+3.3. Persistența de producție este în baza de date a sistemului, cu acces concurent,
+tranzacții, audit și izolare între companii. Aplicația HTML/JavaScript existentă este
+sursă de cerințe și format de migrare. Nu păstra localStorage ca sursă oficială a datelor.
+
+3.4. Separă serviciile pentru:
+- catalog și șabloane;
+- dosar/versiune, capitole, răspunsuri și registre;
+- locații, CAEN și autorizații;
+- politici, conturi, taxe, reguli și simulare;
+- import/export, validare, documente și aprobări;
+- citirea/aplicarea setărilor ERP și audit.
+Serviciile trebuie reutilizate de UI, procese și API. Validările critice se execută
+pe server, inclusiv când operația vine din import sau API.
+
+3.5. Folosește modele, tranzacții, fabrici, procese și evenimente compatibile cu
+versiunea verificată. Maven/Tycho și 2Pack se folosesc conform mecanismelor proiectului.
+Exemple de puncte de extensie se găsesc în documentația oficială din secțiunea 18;
+confirmă în cod semnăturile și comportamentul, nu copia API-uri din altă versiune.
+
+4. MODEL DE DATE ȘI IDENTITATE
+
+4.1. Catalogul reutilizabil trebuie separat de răspunsurile companiei:
+- șablon și versiune de șablon;
+- capitol cu ID stabil C01...C45, titlu, grup și ordine;
+- întrebare cu ID stabil CxxQxx, etichetă, explicație, ordine și reguli;
+- definiția fiecărui registru și a coloanelor sale.
+Actualizarea șablonului nu modifică retroactiv dosarele aprobate.
+
+4.2. Pentru dosar/monografie reține cel puțin:
+ID/UUID, număr, companie, organizații incluse, cadru contabil, schemă contabilă,
+exercițiu/perioadă, versiune, șablon-sursă, valabil de la/până la, stare,
+întocmit/verificat/aprobat de și datele aferente, decizie de aprobare, descriere,
+versiune anterioară, motivul reviziei și identificatorul snapshotului.
+
+Nu presupune că AD_Client este întotdeauna echivalent cu o singură persoană juridică.
+Stabilește maparea companiei juridice, organizației și schemei contabile în instalarea
+reală. Un dosar nu poate amesteca accidental date din companii juridice diferite.
+
+4.3. Pentru fiecare capitol:
+aplicabilitate Da/Nu/De stabilit, motiv de neaplicabilitate, responsabil, termen,
+stare, politică decisă, probe/surse, configurare/controale/excepții, aprobator,
+data aprobării și data efectivă. Păstrează răspunsurile și dacă devine neaplicabil.
+Motivul de excludere și verificarea lui rămân vizibile în monografie.
+
+4.4. Registrele trebuie să permită rânduri nelimitate funcțional, cu paginare și
+identificatori stabili. Pentru entitățile cu relații, căutare și controale contabile
+folosește câmpuri tipizate și relații persistente. Un JSON arhivat poate păstra
+originalul importat, dar nu înlocuiește singur relațiile și validările operaționale.
+
+4.5. Model orientativ, de adaptat după inventariere:
+EVA_MonoTemplate, EVA_MonoChapterDef, EVA_MonoQuestionDef, EVA_Monograph,
+EVA_MonoChapter, EVA_MonoAnswer, EVA_MonoDecision, EVA_MonoEvidence,
+EVA_MonoRule, EVA_MonoRuleLine, EVA_MonoValidation, EVA_MonoTest,
+EVA_MonoApproval, EVA_MonoSnapshot, EVA_MonoImport, EVA_MonoMapping.
+Reutilizează entități existente dacă sunt potrivite; numele sunt propuneri, nu API-uri
+confirmate. Modelează și celelalte registre din anexă, cu justificarea alegerii.
+
+4.6. Include câmpurile standard iDempiere adecvate, audit, AD_Client_ID, AD_Org_ID,
+UUID, stare activă și control al concurenței. Constrângerile, indecșii și verificările
+trebuie să prevină legăturile între clienți neautorizați și duplicatele în același
+domeniu. Metadatele globale și datele de afaceri au reguli de acces distincte.
+
+5. SETĂRILE FIRMEI, LOCAȚII ȘI CAEN — OBLIGATORIU
+
+5.1. În setările firmei oferă acces direct la:
+- Identificare și cadru contabil;
+- Locații și puncte de lucru;
+- Coduri CAEN autorizate pe locație;
+- Autorizații, avize și acreditări;
+- Monografie și versiunea în vigoare.
+
+5.2. Locația include toate coloanele registrului locations și o identitate stabilă.
+Leagă explicit locația de organizație, adresă, gestiune/depozit și centru de cost,
+după caz. Un punct de lucru juridic nu este presupus identic cu un locator de depozit.
+Păstrează relația între aceste niveluri și datele ei de valabilitate.
+
+5.3. Nomenclator CAEN versionat:
+cod păstrat ca text de 4 cifre, denumire oficială, versiune a clasificării,
+valabilitate, sursă oficială și data verificării. Păstrează zero-urile inițiale.
+Nu deduce versiunea doar din lungimea codului. Dacă este necesară o conversie între
+revizii, folosește corespondențe verificabile; permite relații unu-la-mai-multe.
+
+5.4. Matrice companie–locație–CAEN:
+un rând identificabil pentru fiecare asociere și interval relevant, cu toate cele
+17 coloane din registrul caen. Păstrează principal/secundar, activitatea efectivă,
+statutul autorizării, actul ONRC, data, referința/atașamentul, valabilitatea,
+restricțiile, regulile contabile asociate, responsabilul și data verificării.
+Distinctează codul declarat în obiectul de activitate de autorizarea exercitării
+activității într-o locație concretă.
+
+5.5. Pentru autorizații sectoriale păstrează toate coloanele permits, tipul,
+emitentul, numărul, condițiile, activitatea/CAEN, locația, documentul și reînnoirea.
+Nu eticheta autorizarea ONRC drept acreditare sectorială. Interfața poate afișa
+„CAEN autorizate / autorizații și acreditări”, dar datele rămân distincte.
+
+5.6. Controale și istoric:
+- locație și cod existente, versiune CAEN cunoscută;
+- intervale coerente și verificarea la data relevantă, nu doar la data curentă;
+- documente/probe pentru starea „Autorizat”;
+- expirare, suspendare, retragere, neconfirmare și istoric al modificărilor;
+- detectarea suprapunerilor incompatibile și a activităților fără acoperire;
+- afișarea locațiilor fără CAEN și a autorizațiilor apropiate de expirare.
+
+Termenele alertelor sunt configurabile. Nu inventa o dată de expirare pentru acte
+care nu au una. Restricțiile/blocările operaționale sunt decizii configurate și
+aprobate, legate de documentul și data corecte. O lipsă de autorizare nu trebuie să
+împiedice înregistrarea contabilă a unei operațiuni deja efectuate sau a corecției ei;
+semnalează excepția și aplică fluxul de analiză stabilit.
+
+5.7. CAEN poate selecta scenarii și cerințe de documentare. Nu stabilește singur
+conturile, taxele sau tratamentul fiscal. Politicile se justifică și prin contract,
+natura operației, regimul fiscal și perioada aplicabilă.
+
+6. PLAN DE CONTURI, SCHEME ȘI CONFIGURĂRI ERP
+
+6.1. Preia controlat structura efectivă a planului de conturi și permite importul
+integral al planului ales pentru companie. Menține legătura dintre contul documentat
+și contul ERP; nu genera conturi arbitrare și nu suprascrie planul existent la import.
+
+6.2. Verifică maparea către modelele disponibile, de exemplu:
+- AD_Client, AD_Org și informațiile organizației;
+- C_Location, M_Warehouse și M_Locator, unde corespund semantic;
+- C_AcctSchema și elementele ei;
+- C_Element, C_ElementValue și C_ValidCombination;
+- C_Calendar, C_Year, C_Period;
+- C_DocType, C_Currency, C_ConversionType, C_Conversion_Rate;
+- C_Tax/C_TaxCategory și configurațiile contabile asociate;
+- parteneri, categorii de produse, conturi bancare, proiecte și activități.
+Aceste nume sunt repere de verificat, nu motiv pentru a crea tabele duplicate.
+
+6.3. Pentru conturi implementează cod, denumire, ierarhie, tip contabil, postabilitate,
+analitice, dimensiuni obligatorii, mapări de raportare, valabilitate și aprobare.
+Maparea A/P/B din model la tipurile iDempiere trebuie explicitată; nu presupune o
+corespondență mecanică unu-la-unu. Verifică sensul și ierarhia conturilor colectoare.
+
+6.4. Validează dimensiunile și combinațiile contabile în contextul schemei, monedei,
+organizației și datei. Respectă preciziile contabile, cursurile, perioadele închise
+și regulile existente ale contabilității.
+
+6.5. Un tabel de corespondență trebuie să arate pentru fiecare setare:
+cerință-sursă, obiect/tabel/câmp ERP, valoare decisă, valoare existentă, diferență,
+companie/organizație, versiune, aplicabilitate, responsabil, proces de aplicare,
+test și stare. Separă „Documentat”, „Verificat în ERP” și „Aplicat”.
+
+6.6. Salvarea unui răspuns, aprobarea unui capitol, importul unui fișier și generarea
+PDF-ului nu trebuie să modifice automat schema contabilă sau documentele contabile.
+Aplicarea unei configurări are previzualizare, verificare, tranzacție, audit și
+permisiune distinctă. Configurările în uz se revizuiesc cu efect și istoric explicit.
+
+7. REGULI CONTABILE ȘI MOTORUL NATIV
+
+7.1. Implementează integral registrele rules și lines. O regulă poate avea oricâte
+linii debit/credit și trebuie să includă condiții, priorități, excluderi, document,
+eveniment, data contabilă, tratament fiscal, retur/storno, justificare, control,
+valabilitate, stare, aprobator și scenarii/teste asociate.
+
+7.2. Păstrează două niveluri distincte:
+- regula documentată, care poate conține explicații în limbaj natural;
+- configurația executabilă, mapată explicit la mecanismul iDempiere și testată.
+Textul din „Formula sumei” nu este cod executabil implicit. Nu folosi eval, execuție
+de scripturi arbitrare, compilare Java din input sau SQL furnizat de utilizator.
+
+Dacă este necesar un evaluator, implementează expresii structurate cu variabile și
+operații permise, tipuri, limite de complexitate, validare și calcule BigDecimal.
+Sumele, procentele și cursurile folosesc precizia și rotunjirea configurate.
+
+7.3. Utilizează contabilizarea nativă și configurațiile existente. Pentru extensii
+de postare, verifică punctele disponibile, inclusiv IDocFactory dacă este necesar.
+Orice extensie trebuie delimitată la documentele, schema și companiile vizate.
+Nu înregistra o înlocuire globală a mecanismului contabil pentru toate documentele
+fără o justificare și acoperire de teste.
+
+Nu scrie direct în Fact_Acct pentru a simula o integrare contabilă și nu crea în
+paralel un al doilea registru contabil oficial.
+
+7.4. Simularea arată:
+regula selectată și versiunea, criteriile, data de evaluare, conturi/dimensiuni,
+sume debit/credit, monede, taxe, rotunjiri, avertismente și justificare.
+Detectează conflictele de prioritate, intervalele incompatibile și absența unei
+reguli potrivite. Egalitatea D=C este un control necesar, nu validare fiscală completă.
+
+7.5. Pentru reguli activate, verifică:
+conturi postabile și valabile, dimensiuni complete, perioadă deschisă, monedă și
+curs, taxe valabile, versiune aprobată, teste trecute și unicitatea procesării.
+Include retururi, stornări, anulări, avansuri, documente negative, valută și corecții.
+
+7.6. Evită dublarea postării la retry, evenimente repetate sau reluarea unui job.
+Păstrează legătura document-sursă–schemă–versiune regulă–rezultat și folosește
+mecanismele native de procesare, cu tranzacții și concurență testate.
+Repostarea autorizată, reversarea și corectarea trebuie să rămână posibile prin
+fluxul nativ; o cheie de idempotență nu trebuie să le blocheze permanent.
+
+8. POLITICI, TAXE, REGISTRE ȘI ACOPERIRE
+
+8.1. Implementează toate cele 20 de registre din anexă cu toate coloanele existente.
+Permite legături navigabile între capitol, întrebare, decizie, regulă, cont, taxă,
+document, probă, control, configurare ERP, scenariu, test și problemă.
+
+8.2. Taxele, cotele, plafoanele, deductibilitatea și termenele au domeniu, sursă,
+verificator, dată de verificare și valabilitate. Nu include valori legale presupuse
+actuale. Dacă imporți valori, verifică sursa oficială și data operației.
+Menține mecanismul legislativ existent în EVA, dacă există.
+
+8.3. Cadrul contabil se selectează explicit. Nu aplica automat OMFP 1802 tuturor
+entităților și nu considera planul-model o opinie contabilă aprobată.
+Pentru un capitol neaplicabil este necesară justificarea; pentru unul „De stabilit”
+rămâne un punct deschis vizibil.
+
+8.4. Fiecare operațiune reală din scenarios trebuie să aibă capitol, regulă,
+document justificativ și test. Raportul de acoperire arată separat:
+- întrebări documentate;
+- capitole cu aplicabilitate stabilită;
+- politici verificate/aprobate;
+- reguli documentate și reguli implementate în ERP;
+- operațiuni acoperite prin teste;
+- lipsuri, excepții și termene.
+Nu afișa „100% implementat” doar pentru că toate câmpurile au text.
+
+8.5. Validările din core.js sunt o bază de cerințe, nu singurele controale necesare.
+Portează intenția lor în Java, corectând limitările: precizia sumelor, date reale,
+relații tipizate, neaplicabilitate, coduri pe schemă, validări server și audit.
+Nu reproduce orbește limita de două zecimale dacă moneda/configurarea cere altceva.
+
+9. INTERFAȚA ÎN LIMBA ROMÂNĂ
+
+9.1. Meniu propus: EVA-contab > Configurare contabilă > Monografia companiei.
+Pune legături și în setările firmei și în ferestrele relevante existente.
+
+9.2. Include:
+- listă de dosare cu companie, perioadă, versiune, stare și responsabil;
+- tabloul de progres și lipsuri;
+- navigare pe 45 de capitole, căutare și filtre;
+- răspunsuri cu explicațiile originale și legături către registre;
+- grile pentru cele 20 de registre, cu adăugare, editare, import, export și filtre;
+- matrice CAEN pe locații și vizualizare la o dată selectată;
+- previzualizare monografie;
+- comparație între versiuni și față de configurarea ERP;
+- pagină de verificare/aprobare, arhivă și jurnal al modificărilor.
+
+9.3. Mesajele trebuie să explice problema în română și să ducă la câmpul/rândul
+care o produce. Nu afișa identificatori tehnici fără context pentru contabil.
+Oferă salvare clară, tratarea conflictelor dintre utilizatori și recuperarea
+editării după erori. Nu pierde modificări în tăcere.
+
+9.4. Un câmp cu o valoare preluată trebuie să arate proveniența și data preluării.
+Reîmprospătarea din ERP produce o comparație înainte de a înlocui deciziile.
+Copierea într-o versiune nouă păstrează originea, fără a moșteni aprobările active.
+
+10. IMPORT ȘI EXPORT FĂRĂ PIERDEREA DATELOR
+
+10.1. Implementează un adaptor pentru schema originală „ro-monografie-v1”:
+meta, answers, chapters, registers și updated.
+Păstrează ID-urile Cxx/CxxQxx și identificatorii registrelor.
+
+meta include company, cui, period, framework, version, effective, author, reviewer,
+approver, decision. Datele persoanelor importate reprezintă afirmații din fișier;
+nu generează automat identități, drepturi sau aprobări autentificate în ERP.
+
+chapters folosește în prezent applies, reason, owner, deadline, status, policy,
+evidence, controls, approver, approved, effective. Conservă conținutul integral.
+Registrele v1 folosesc etichete românești drept chei; ține o mapare explicită către
+câmpuri stabile. Nu pierde diacritice, texte lungi, rânduri sau zero-uri inițiale.
+
+10.2. Implementarea poate folosi un format nou versionat pentru câmpuri suplimentare.
+Asigură migrarea v1 și teste pentru import–export–reimport. Exportul v1 care nu poate
+reprezenta toate datele trebuie marcat ca limitat și însoțit de exportul complet.
+
+10.3. Importul are:
+validare de structură și versiune, limită de dimensiune, verificare de referințe,
+identificarea companiei-țintă, previzualizare, raport pe câmp/rând și strategie
+explicită de creare/actualizare. Fișierul nu poate selecta un tenant neautorizat.
+Pentru conflicte nu folosi înlocuire silențioasă a întregului dosar.
+
+Reimportul aceluiași fișier în același scop trebuie să fie idempotent sau să creeze
+o versiune nouă numai la o alegere explicită. Păstrează originalul și rezultatul.
+
+10.4. CSV pe registru: antete-model, UTF-8, separator documentat, quoting corect,
+date și zecimale normalizate explicit, raport de erori. La export protejează
+deschiderea în foi de calcul împotriva interpretării celulelor drept formule.
+
+10.5. Fișierele sursă conțin referințe la probe, nu întotdeauna probele efective.
+Nu marca drept încărcat un document numai pentru că există un link în registru.
+Atașamentele noi se stochează prin mecanismul ERP/documentar existent, cu hash,
+tip, mărime, versiune, drepturi și legătură cu dosarul. Nu prelua arbitrar fișiere
+de pe disc sau din rețea pe baza unei căi importate.
+
+11. PDF-URI DIN ACEEAȘI VERSIUNE A DATELOR
+
+11.1. Implementează procese Java distincte:
+„Generează dosarul complet de documentare” și „Generează monografia contabilă”.
+Ambele citesc același snapshot coerent, identificat prin UUID/versiune și hash.
+Datele altui utilizator salvate în timpul generării nu trebuie să producă un PDF mixt.
+
+11.2. Dosarul include întrebările, explicațiile, răspunsurile, politicile, probele,
+registrele și lipsurile. Monografia include politicile și regulile adoptate,
+conturile, articolele contabile, setările, responsabilitățile, controalele,
+aprobările, CAEN pe locații și anexele relevante. Capitolele neaplicabile apar cu
+justificarea lor. O versiune incompletă este vizibil marcată „PROIECT”.
+
+11.3. Folosește o bibliotecă PDF Java compatibilă cu OSGi și licențele proiectului,
+de exemplu o versiune verificată Apache PDFBox, sau soluția deja instalată.
+O soluție Jasper este acceptabilă dacă sunt îndeplinite explicit cerințele AcroForm.
+Un PDF tipărit/flattened nu înlocuiește PDF-ul completabil cerut.
+
+11.4. Cerințe PDF:
+- text românesc cu ș, ț, ă, â, î și fonturi înglobate;
+- câmpuri AcroForm editabile pentru copia de lucru;
+- câmpuri denumite stabil după entitate, capitol, întrebare și UUID de rând;
+- manifest de mapare câmp PDF–obiect ERP–versiune;
+- cuprins, paginare, antet/subsol, companie și versiune;
+- texte lungi și tabele cu paginare, fără tăiere sau suprapuneri;
+- identificatorul snapshotului, data și starea documentului;
+- anexele și referințele complete, cu acces conform drepturilor;
+- deschidere și salvare verificate în cititoare PDF uzuale.
+
+11.5. Salvează separat copia de lucru editabilă și exemplarul arhivat al versiunii
+aprobate. O modificare în copia de lucru nu modifică aprobarea sau arhiva.
+Nu prezenta un nume tastat sau starea „Aprobat” drept semnătură electronică.
+Dacă există un serviciu de semnare, integrează-l conform procedurii existente.
+
+11.6. Pentru PDF-urile noi generate de modul, implementează reimportul câmpurilor
+ca propuneri de modificare într-un draft:
+identificare snapshot, verificare permisiuni, comparație, validare și audit.
+Un fișier extern poate fi modificat; hash-ul original identifică originea, dar
+nu autentifică singur conținutul editat. Nu importa aprobări, roluri sau postări.
+Respinge schimbările asupra câmpurilor nemapate și semnalează conflictele de versiune.
+
+Modelele PDF vechi au și nume cu index de generare și valori compozite. Nu promite
+reimport automat complet al acestor fișiere fără mapare demonstrată. Arhivează-le,
+importă doar câmpurile mapate sigur și raportează restul pentru completare controlată.
+JSON-ul original rămâne sursa de migrare structurată preferată.
+
+12. APROBĂRI, VERSIONARE ȘI SECURITATE
+
+12.1. Stări de bază:
+Ciornă -> În completare -> În verificare -> Aprobat -> În vigoare -> Înlocuit/Arhivat.
+Adaptează implementarea la workflow-ul real și definește tranzițiile, actorii și
+efectele lor. Respingerea/retragerea verificării trebuie să fie explicite.
+
+12.2. Aplicabilitatea capitolului, aprobarea conținutului și aplicarea în ERP sunt
+trei stări distincte. Publicarea unei monografii nu pornește automat o contabilizare.
+Intrarea în vigoare ține cont de dată și de suprapunerile versiunilor din același domeniu.
+
+12.3. Roluri funcționale:
+administrator tehnic, întocmitor, responsabil de capitol, verificator contabil,
+aprobator și auditor/consultare. Folosește rolurile existente și accesul pe client,
+organizație, înregistrare, proces și atașament. Aplică aceleași limite și în API.
+
+12.4. La aprobare verifică:
+aplicabilitate stabilită, justificările excluderilor, câmpuri obligatorii,
+referințe valide, probe cerute, reguli și teste necesare, probleme blocante închise.
+O excepție acceptată trebuie să aibă motiv, impact, responsabil, termen și aprobator.
+Nu transforma câmpurile completate cu „nu știu” în conformitate automată.
+
+12.5. Versiunile aprobate sunt imutabile logic. Corecțiile produc o versiune nouă
+legată de precedentă. Păstrează istoricul și proveniența fiecărei decizii.
+Înregistrează cine, când, din ce interfață, ce a schimbat, valorile înainte/după,
+motivul, versiunea și corelația operației.
+
+12.6. Interogări parametrizate, validare de input, tratarea sigură a fișierelor și
+a textului afișat, control de concurență și limitarea încărcărilor voluminoase.
+Niciun utilizator nu poate obține prin export sau URL un document al altui tenant.
+Nu pune credențiale în repository, exemple, loguri sau PDF-uri.
+
+13. API ȘI INTEGRĂRI
+
+13.1. Reutilizează mecanismul REST/webservices deja instalat. Nu presupune că un
+plugin REST este activ doar pentru că există în ecosistem.
+Dacă trebuie extins, documentează dependința și modul de instalare.
+
+13.2. Expune servicii pentru:
+catalog; dosare; capitole/răspunsuri; registre; CAEN/locații; atașamente;
+validare; simulare; import/export; generare și descărcare PDF; comparații;
+tranziții de workflow; propuneri și aplicări de configurare.
+Documentează contractele, exemplele, autentificarea, paginarea, erorile,
+idempotența și controlul concurenței.
+
+13.3. Claude CLI este instrumentul cu care dezvolți implementarea. Modulul Java
+trebuie să funcționeze fără o sesiune Claude și fără un apel AI obligatoriu.
+Pentru integrările EVA existente, oferă contracte deterministe și jurnalizate.
+Propunerile AI, dacă există deja un astfel de flux, nu devin aprobări contabile.
+
+13.4. Un job de durată are ID, stare, progres, rezultat și reluare sigură.
+Generarea PDF-urilor sau importul voluminos nu trebuie să blocheze interfața.
+
+14. MIGRĂRI, INSTALARE ȘI OPERARE
+
+14.1. Livrează migrații versionate și reproductibile, inclusiv obiectele Application
+Dictionary, datele de șablon, referințele, mesajele în română, rolurile și meniurile.
+Folosește convenția proiectului pentru namespace/EntityType, UUID și identificatori;
+nu atribui arbitrar ID-uri care pot intra în conflict.
+
+14.2. Pachetul trebuie să poată fi instalat pe un mediu curat și actualizat pe un
+mediu cu date, fără pierderea dosarelor. Reexecutarea migrațiilor nu dublează
+capitolele, întrebările, registrele, ferestrele sau accesul.
+
+14.3. Include verificări înainte/după, backup conform procedurii, rollback sau plan
+de recuperare realist. Nu declara că un Pack In este complet reversibil fără test.
+Dezinstalarea/dezactivarea nu șterge implicit istoricul contabil și documentele.
+
+14.4. Testează în dezvoltare/test, dacă mediul este disponibil și autorizat.
+Pregătește pachetul, diferențele și instrucțiunile pentru producție. Aplicarea
+migrațiilor în producție, schimbarea regulilor active și postarea documentelor
+reale urmează aprobările și drepturile stabilite ale proiectului.
+
+14.5. Documentează configurația, logurile, recuperarea importurilor, generarea
+documentelor, monitorizarea erorilor, copiile de siguranță și restaurarea.
+
+15. TESTE ȘI CRITERII DE ACCEPTARE
+
+Creează teste automate semnificative și un scenariu de recepție pentru contabil.
+Folosește date sintetice marcate clar; nu importa accidental date demo în producție.
+
+AC01 — Toate cele 45 de capitole, cele 360 de întrebări și cele 20 de registre sunt
+regăsite în catalog, UI și matricea de trasabilitate, fără pierderea textelor/coloanelor.
+Dacă sursa a fost actualizată, numerele noi sunt explicate și acoperite integral.
+
+AC02 — Sunt testate Da/Nu/De stabilit, justificarea neaplicabilității, conservarea
+răspunsurilor și blocarea aprobării nejustificate.
+
+AC03 — Firma cu două locații poate avea același cod CAEN cu stări diferite pe locații.
+Nu se transmite autorizarea de la o locație la alta.
+
+AC04 — CAEN cu zero inițial, revizii diferite, act fără expirare, autorizare suspendată
+și permis sectorial expirat sunt tratate distinct. Filtrarea istorică este corectă.
+
+AC05 — Setările firmei afișează CAEN pe locație, documente, restricții și responsabil.
+Autorizarea ONRC și acreditarea sectorială rămân identificabile separat.
+
+AC06 — Planul de conturi existent este preluat/mapat fără duplicare sau modificare
+automată; conturile nepostabile și dimensiunile lipsă sunt detectate.
+
+AC07 — Importul JSON v1 complet, cu texte lungi și diacritice, urmat de export și
+reimport conservă valorile, identitățile și legăturile relevante.
+
+AC08 — Importurile greșite, repetate, din alt client sau cu versiune necunoscută
+produc rezultate explicite; rollback-ul unei operații eșuate nu lasă date parțiale.
+
+AC09 — Reguli compuse D/C, monede, precizii, rotunjire, curs, cont inactiv, perioadă
+închisă, conflict de prioritate și lipsa taxei valabile sunt testate.
+
+AC10 — Reîncercarea unui proces nu dublează înregistrările contabile. Returul,
+reversarea și repostarea autorizată funcționează prin mecanismul nativ.
+
+AC11 — Două companii/doi clienți cu utilizatori diferiți nu își pot consulta/modifica
+reciproc dosarele sau fișierele, inclusiv prin URL, API și export.
+
+AC12 — Doi utilizatori care editează aceeași versiune primesc un conflict gestionat,
+fără pierderea silențioasă a datelor.
+
+AC13 — Starea „Aprobat” importată din JSON/PDF nu conferă aprobare autentică.
+Rolurile și tranzițiile sunt verificate pe server.
+
+AC14 — Versiunea aprobată și PDF-ul arhivat rămân neschimbate după crearea și
+editarea unei versiuni noi. Snapshotul se poate reproduce semantic.
+
+AC15 — Ambele PDF-uri reflectă aceeași versiune, includ CAEN pe locații și suportă
+diacritice, texte lungi, anexe extinse și număr variabil de rânduri.
+
+AC16 — PDF-ul de lucru are câmpuri AcroForm editabile și poate fi salvat/redeschis.
+Verifică programatic câmpurile și vizual pagini reprezentative, inclusiv ultima pagină.
+
+AC17 — Reimportul unui PDF nou modificat creează propuneri într-un draft, identifică
+versiunea și conflictele și nu modifică automat aprobări/configurări/postări.
+
+AC18 — Raportul de acoperire arată operațiunile fără regulă/test și problemele
+blocante. Nu este echivalat procentul de completare cu conformitatea legală.
+
+AC19 — Instalarea inițială și upgrade-ul păstrează datele; repetarea migrației nu
+creează duplicate. Verifică și funcționarea după repornirea serviciului.
+
+AC20 — UI și API folosesc aceeași logică de validare și autorizare. Testează input
+invalid, referințe în alt tenant, atașamente nepermise și acces doar de consultare.
+
+AC21 — Diferențele între politica decisă și setările ERP pot fi examinate, aplicate
+în test și auditate. Salvarea formularului nu produce efecte contabile ascunse.
+
+AC22 — Un dosar de test complet, cu două locații, conturi, taxe parametrizate,
+articole compuse, documente, probe și aprobări este demonstrabil de la import până
+la cele două PDF-uri și verificarea configurațiilor.
+
+Raportează separat teste unitare, integrare, UI, PDF și instalare. Include rezultate,
+versiuni și dovezi. Dacă mediul lipsește, etichetează explicit testul „neexecutat”;
+nu înlocui testarea contabilă integrată cu un mock care verifică doar propriul cod.
+
+16. LIVRABILE ȘI TRASABILITATE
+
+Livrează în repository-ul real:
+- sursa Java și pluginurile/modulele necesare;
+- definițiile Application Dictionary și migrațiile/2Pack;
+- catalogul complet și importatorul surselor, fără execuția arbitrară a config.js;
+- formularele și mesajele în română;
+- validările, workflow-ul, auditul și serviciile/API;
+- generatoarele și importatorul controlat de PDF;
+- testele și setul de date sintetic;
+- pachetul instalabil și instrucțiunile de instalare/upgrade/recuperare.
+
+În folderul de documentare solicitat, sau într-un subfolder Implementare al lui,
+salvează documentele livrării și referințele către artefactele din repository:
+01_Inventar_sistem_si_compatibilitate
+02_Arhitectura_si_model_date
+03_Matrice_trasabilitate
+04_Mapare_campuri_JSON_PDF_ERP
+05_Contracte_API_si_integrari
+06_Instalare_upgrade_si_recuperare
+07_Manual_utilizare_contabil
+08_Raport_teste_si_receptie
+09_Limitari_dependente_si_pasi_ramasi
+10_Manifest_artefacte_si_versiuni
+Alege formate editabile și ușor de urmărit în proiect.
+
+Matricea de trasabilitate trebuie să includă fiecare întrebare și fiecare coloană
+din registre: ID-sursă, cerință, entitate/câmp, UI, validare, API, ieșire PDF,
+test, stare și probă. Un element lipsă nu se marchează „realizat” prin simpla
+menționare într-un README.
+
+17. MOD DE EXECUȚIE ȘI RAPORT FINAL
+
+Lucrează în etape verificabile:
+1) inventariere și mapare;
+2) catalog, persistare, migrații și acces;
+3) toate formularele/registrele și setările CAEN pe locații;
+4) integrarea conturilor/configurărilor și importul/exportul;
+5) reguli, validare, simulare, workflow și audit;
+6) documente PDF, arhivare și reimport controlat;
+7) teste integrate, pachet și documentație.
+
+Păstrează un registru al progresului care permite reluarea lucrului fără pierderea
+contextului. Rezolvă alegerile tehnice obișnuite conform proiectului. Cere doar
+informații care lipsesc efectiv și blochează implementarea; continuă componentele
+independente. Nu lua în numele firmei decizii contabile sau fiscale încă neaprobate.
+
+La final arată:
+- ce funcționează și unde se găsește în meniul iDempiere;
+- ce versiune de platformă a fost verificată;
+- cum se importă documentația și se generează cele două PDF-uri;
+- ce câmpuri au corespondență efectivă în ERP și ce rămâne documentare;
+- cum sunt gestionate CAEN și acreditările pe locații;
+- ce teste au trecut, ce nu a putut fi testat și de ce;
+- pachetul instalabil, documentația și pașii exacți pentru punere în funcțiune.
+
+Nu raporta „gata” pentru schelete, ferestre goale, endpointuri fictive, TODO-uri
+critice sau procese care nu salvează/generează efectiv rezultatul.
+O limitare reală trebuie raportată cu impactul ei și cu lucrarea rămasă.
+
+18. REFERINȚE TEHNICE OFICIALE
+
+Documentație consultată pentru orientarea promptului la 12.10.2026. Verifică versiunea
+aplicabilă instalării înainte de a utiliza API-urile și instrucțiunile:
+
+- Pluginuri, servicii, procese și UI:
+  https://docs.idempiere.org/docs/category/developing-plug-ins
+- Pachete de metadate/configurare Application Dictionary:
+  https://docs.idempiere.org/docs/basic-development/2pack/what-is-2pack
+- Extinderea contabilizării prin document factory:
+  https://docs.idempiere.org/docs/basic-development/plugin-development/plugin-doc-factory
+- Build Maven/Tycho:
+  https://docs.idempiere.org/docs/basic-development/plugin-development/plugin-maven-build
+- Evenimente OSGi disponibile începând cu versiuni anterioare:
+  https://docs.idempiere.org/docs/new-features/v9/osgi-new-event-handling-annotation
+
+Cerințele funcționale din acest prompt sunt cerințe de proiect. Referințele tehnice
+descriu mecanismele iDempiere și nu certifică instalarea lor în mediul EVA.
+Sursele contabile/legislative sunt în pachetul original și trebuie reverificate
+pentru companie și perioada de aplicare.
+
+19. ANEXĂ: CATALOGUL EXISTENT CARE TREBUIE ACOPERIT
+
+Lista de mai jos este extrasă din dist/config.js la redactarea promptului.
+Păstrează ID-urile și toate întrebările/explicațiile originale din fișier.
+
+
+19.1. CAPITOLE
+C01 — Identitatea companiei și perimetrul (8 întrebări)
+C02 — Cadrul contabil, fiscal și de raportare (8 întrebări)
+C03 — Guvernanță, responsabilități și aprobări (8 întrebări)
+C04 — Politici generale și raționamente contabile (8 întrebări)
+C05 — Planul de conturi și analiticele (8 întrebări)
+C06 — Nomenclatoare și date de bază (8 întrebări)
+C07 — Documente justificative și circuit (8 întrebări)
+C08 — Reguli de contabilizare și șabloane (8 întrebări)
+C09 — Achiziții interne și furnizori (8 întrebări)
+C10 — Vânzări, clienți și venituri (8 întrebări)
+C11 — Stocuri, gestiuni și logistică (8 întrebări)
+C12 — Producție și calculația costurilor (8 întrebări)
+C13 — Servicii, proiecte și contracte pe termen lung (8 întrebări)
+C14 — Imobilizări corporale și investiții (8 întrebări)
+C15 — Imobilizări necorporale, software și cercetare (8 întrebări)
+C16 — Leasing, chirii și drepturi de utilizare (8 întrebări)
+C17 — Trezorerie, casă, bancă și plăți (8 întrebări)
+C18 — Valută și diferențe de curs (8 întrebări)
+C19 — TVA și matricea fiscală a tranzacțiilor (8 întrebări)
+C20 — Operațiuni intracomunitare, import și export (8 întrebări)
+C21 — Impozit pe profit, microîntreprindere și alte impozite (8 întrebări)
+C22 — Salarii, beneficii și relația cu personalul (8 întrebări)
+C23 — Finanțări, împrumuturi și investiții financiare (8 întrebări)
+C24 — Capitaluri proprii, dividende și asociați (8 întrebări)
+C25 — Subvenții, granturi și ajutoare (8 întrebări)
+C26 — Provizioane, ajustări și contingente (8 întrebări)
+C27 — Cheltuieli și venituri în avans; estimări periodice (8 întrebări)
+C28 — Afiliați, intercompany și prețuri de transfer (8 întrebări)
+C29 — Consolidare, sucursale și raportare de grup (8 întrebări)
+C30 — Inventariere și confirmarea soldurilor (8 întrebări)
+C31 — Închidere lunară, trimestrială și anuală (8 întrebări)
+C32 — Situații financiare și raportări manageriale (8 întrebări)
+C33 — Declarații fiscale și calendar de conformare (8 întrebări)
+C34 — SAF-T / D406 și trasabilitatea datelor (8 întrebări)
+C35 — RO e-Factura, e-TVA, e-Transport și sisteme conexe (8 întrebări)
+C36 — Contabilitate de gestiune, bugete și alocări (8 întrebări)
+C37 — Configurarea sistemului contabil și iDempiere (8 întrebări)
+C38 — Integrări, migrare și solduri de deschidere (8 întrebări)
+C39 — Controale interne, securitate și continuitate (8 întrebări)
+C40 — Operațiuni speciale și tranzacții excepționale (8 întrebări)
+C41 — Particularități sectoriale și verificarea exhaustivității (8 întrebări)
+C42 — Evenimente ulterioare, continuitate și incertitudini (8 întrebări)
+C43 — Testare, validare și recepția monografiei (8 întrebări)
+C44 — Registrul deciziilor, excepțiilor și actualizărilor (8 întrebări)
+C45 — Coduri CAEN autorizate pe locații și autorizații sectoriale (8 întrebări)
+
+19.2. REGISTRE ȘI COLOANE DE PĂSTRAT
+
+locations — Locații și puncte de lucru
+ID locație | Denumire | Tip sediu/punct/terți | Adresă completă | Țară | Organizație ERP | Gestiune | Centru de cost | Responsabil | Valabil de la | Valabil până la | Statut
+
+caen — CAEN autorizat pe fiecare locație
+ID înregistrare | ID locație | Cod CAEN | Versiune CAEN | Denumire oficială | Principal/secundar | Activitate efectivă | Statut autorizare | Document ONRC/număr | Data documentului | Referință document | Valabil de la | Valabil până la | Restricții | Reguli contabile asociate | Responsabil | Verificat la
+
+permits — Autorizații, avize și acreditări
+ID autorizație | ID locație | Cod CAEN | Tip autorizație/acreditare | Emitent | Număr document | Data emiterii | Valabil de la | Valabil până la | Condiții/restricții | Referință document | Termen reînnoire | Responsabil | Statut
+
+accounts — Planul de conturi
+Cod cont | Denumire | Cont părinte | Nivel | Funcție A/P/B | Postabil Da/Nu | Analitic obligatoriu | Dimensiuni obligatorii | Mapare bilanț/P&L | Mapare SAF-T/grup | Valabil de la | Valabil până la | Statut | Aprobator
+
+rules — Reguli și articole contabile
+ID regulă | Capitol | Operațiune | Eveniment declanșator | Document justificativ | Condiții și excluderi | Prioritate | Data contabilă | Tratament fiscal | Stornare/retur | Control/reconciliere | Sursă și raționament | Valabil de la | Valabil până la | Statut | Aprobator
+
+lines — Linii contabile
+ID regulă | Nr. linie | Sens D/C | Cod cont | Formula sumei | Sumă exemplu | Analitic/dimensiuni | Cod taxă | Monedă | Explicație
+
+taxes — Taxe, cote și plafoane
+Cod taxă | Denumire/regim | Bază de calcul | Cotă % | Prag/plafon | Monedă | Deductibilitate % | Condiții | Cont debit | Cont credit | Cod SAF-T/e-Factura | Valabil de la | Valabil până la | Articol legal și link | Verificat la | Statut | Aprobator
+
+dimensions — Analitice și dimensiuni
+Tip dimensiune | Cod | Denumire | Părinte | Regulă obligatorie | Responsabil | Valabil de la | Valabil până la | Statut
+
+documents — Documente și circuit
+Cod document | Denumire | Emitent | Verificator | Aprobator | Termen predare | Serie/numerotare | Validări | Reguli asociate | Loc arhivă | Termen păstrare și temei | Statut
+
+evidence — Documente suport și probe
+ID probă | Capitol/regulă | Titlu | Cale sau link | Versiune/datǎ | Emitent | Verificator | Verificat la | Observații
+
+decisions — Decizii și politici
+ID decizie | Capitol/regulă | Subiect | Opțiuni analizate | Soluție decisă | Motivare | Temei/sursă | Impact | Responsabil | Termen | Statut | Aprobator | Data aprobării | Valabil de la
+
+controls — Riscuri și controale
+ID control | Flux/regulă | Risc | Descriere control | Preventiv/detectiv | Frecvență | Responsabil | Revizor | Probă | Toleranță | Excepții și acțiuni | Statut
+
+calendar — Calendar de închidere și conformare
+ID activitate | Activitate/declarație | Aplicabilitate | Periodicitate | Data/scadența și regulă | Temei | Responsabil | Înlocuitor | Dependențe | Control | Dovadă/recipisă | Statut
+
+erp — Mapări și configurări ERP
+ID setare | Sistem/versiune | Modul/fereastră | Câmp/setare | Valoare decisă | Companie/organizație | Capitol/regulă | Justificare | Responsabil implementare | Mediu | Test asociat | Statut
+
+migration — Migrare și solduri
+Obiect | Cod vechi | Cod nou | Sursă | Sold debit | Sold credit | Monedă | Valoare valută | Analitic | Data migrării | Reconciliere | Diferență | Responsabil | Statut
+
+tests — Teste și recepție
+ID test | ID regulă | Scenariu | Date de intrare | Rezultat așteptat | Rezultat obținut | Debit total | Credit total | Probă/link | Executat de | Data | Statut | Defect/remediere
+
+issues — Lipsuri, excepții și acțiuni
+ID acțiune | Capitol/regulă | Descriere | Severitate | Responsabil | Termen | Dependențe | Soluție | Statut | Aprobat de
+
+sources — Surse și actualizări legislative
+ID sursă | Titlu act/document | Articol/versiune | Link | Domeniu | Data verificării | Valabil de la | Impact/decizie | Responsabil | Statut
+
+closing — Checklist de închidere
+Perioadă | Activitate | Conturi/registre | Control/rezultat așteptat | Rezultat efectiv | Diferențe | Responsabil | Revizor | Data finalizării | Probă | Statut
+
+scenarios — Inventarul operațiunilor și acoperirea
+ID scenariu | Operațiune reală | Contract/document exemplu | Frecvență | Valoare aproximativă | Țări/monede | Particularități | Capitol | ID regulă | ID test | Responsabil | Statut
+
+19.3. AMPRENTELE FIȘIERELOR-SURSĂ LA REDACTARE (SHA-256)
+dist\config.js : 2F7A0063D24063D1664A4130AC4829C0FC3462C053C13901C1B5E7318E5A9370
+dist\core.js : 6675CDBD37444731F0F853D6AE842101FF6C095C38DBAA0B226B2EE24464F5FD
+dist\pdf.js : 0054A96A6B4B57B6579E5E109AC7968436F833D9002E3E74C55EBAF86E7F4A7E
+dist\documents\Model_date_companie.json : 0F9DCCCC597582D854B50301F40C0015B2AC2DF046A62041519D84FFFB1FE7E3
+Documentare_contabila_completa_editabil.pdf : 887A96365F6302DA4E60436B4CD4BF3C8AEEBC5FEDDA704B22613F7F78CAAC22
+Monografie_contabila_model_editabil.pdf : 663721D66410F0E2B8323E3091711EBCE48013080489FBF068011E793AFA8621
+
+Dacă sursele s-au schimbat, compară versiunile și păstrează explicit diferențele.

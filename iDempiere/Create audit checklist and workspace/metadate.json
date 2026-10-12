@@ -1,0 +1,23 @@
+{
+  "id": "01a12ff3-f243-7792-8abb-71ef315d4c13",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791805878,
+  "updated_at": 1791808372,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Create audit checklist and workspace",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-12T14:26:02.743395+00:00",
+  "source_bytes": 10410746,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 98,
+  "message_count": 16,
+  "content_sha256": "896e5c8b3338a4c270aec913b91fa45a39c5dad1c98eca3e696c2dcc437962c5",
+  "files_copied": 21,
+  "references_not_copied": 1
+}

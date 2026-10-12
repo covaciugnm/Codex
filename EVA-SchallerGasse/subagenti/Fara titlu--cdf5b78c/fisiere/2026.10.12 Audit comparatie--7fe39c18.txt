@@ -1,0 +1,45 @@
+2026.10.12 | AUDIT INDEPENDENT FINAL — COMPARAȚIE SERVICII ȘI PREȚURI STRUCTURĂ
+
+Verdict: FAVORABIL pentru comparația documentară și numerică. Nu au fost identificate erori materiale în formulele finale, totalurile Berger/PECH sau delimitările dintre serviciile ofertate și cele neconfirmate.
+
+Fișier verificat:
+2026.10.12 Comparatie servicii si preturi structura.xlsx
+Două foi: „1 Servicii” și „2 Preturi”. Citire exclusiv read-only cu openpyxl, în mod formula și data_only. Workbook-ul nu a fost editat.
+
+Verificare numerică independentă:
+TOMS: net 37.900 EUR; TVA 7.580 EUR; brut 45.480 EUR.
+BERGER: net 45.000 EUR; TVA 9.000 EUR; brut 54.000 EUR.
+PECH: net 69.300 EUR; TVA 13.860 EUR; brut 83.160 EUR.
+Subtotal structură +asistență TOMS: 26.500 EUR; BERGER: 35.000 EUR.
+Toate cele 11 formule de total, TVA, brut și subtotal au valorile cache corecte. Totalurile însumează numai pozițiile numerice de pachet, fără suplimente, subtotaluri sau BauKG istoric. Nicio celulă de tip eroare Excel nu a fost identificată. Datele reale Excel sunt formatate yyyy.mm.dd.
+
+Corecții față de prima matrice confirmate în workbook:
+- Totalurile și TVA sunt completate prin formule și valori cache, nu rămân goale.
+- Statut BERGER/PECH: „Acceptarea A&C neconfirmată”.
+- Tariful PI TOMS 155 EUR net/oră este separat și nu este aplicat automat întregii proiectări.
+- Tariful TOMS 300 EUR/vizită este atribuit confirmării Q1; pragul de peste 3 vizite rămâne distinct drept completare AG neacceptată.
+- Confirmările punctuale Q1 TOMS sunt separate de acceptarea întregului v4.1.
+- Corectată eroarea „Datesle”.
+
+Acoperirea BERGER/PECH a fost verificată independent față de originalele integrale:
+BERGER 2026.08.17: 4 pagini, SHA-256 b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b.
+PECH 2026.09.17: 4 pagini, SHA-256 29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1.
+Hash, mărime și mtime identice cu indexul; cache integral reutilizat, originale vizualizate pentru cifre, condiții și formulare.
+
+Granularități păstrate corect:
+- BERGER: maximum 8 vizite de asistență statică, distincte de activitatea PI. Numărul tuturor vizitelor PI nu este indicat.
+- PECH: 12 recepții Abnahmen și 450 EUR net/recepție suplimentară; nu se deduce numirea ca Prüfingenieur sau numărul tuturor ședințelor/RFI.
+- BERGER 35.000 EUR este subtotal matematic; atribuirea parțială cere acord.
+- PECH 42.000 EUR este numai Pos01, iar totalul este 69.300 EUR net.
+- Referința PECH la descrierea AG nu confirmă separat fiecare detaliu; versiunea LB trebuie identificată.
+- Nu se deduc formate editabile, planuri de atelier, Bauwerksbuch, BauKG ori preț zero din tăcere.
+- BERGER exclude întocmirea proiectului excavării și a planurilor de atelier; PECH include explicit Baugrubensicherung, fără extindere tacită la toate susținerile temporare.
+- PECH: ZT-Index, fără Haftrücklass și drepturi rezervate prestatorului după plată sunt prezentate.
+- REALIG 24.000 EUR net rămâne estimare istorică într-un pachet, nu ofertă fermă comparabilă.
+
+Observație de trasabilitate fără impact numeric: data 2026.10.05 din registrul surselor T8 descrie copia/dovada locală; trimiterea v4.1 este 2026.10.02, indicată corect în corpul tabelelor. Pentru folosirea externă, eticheta datei sursei poate preciza „data exportului” ca să nu fie confundată cu data emailului.
+
+Limitele auditului:
+Verificarea independentă detaliată a domeniului comercial privește BERGER/PECH. TOMS este comparat pe baza extracției și auditului separat al redactorului, inclusiv Q1; acest audit final confirmă integrarea delimitărilor și formulele, nu reprezintă o nouă relectură vizuală integrală a tuturor anexelor TOMS. Aspectul vizual final al Excelului este verificat separat de agentul coordonator.
+Nicio trimitere, comandă, negociere, semnare sau confirmare de disponibilitate rezultă din comparativ. Prețurile se compară după alinierea serviciilor.
+

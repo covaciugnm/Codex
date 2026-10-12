@@ -1,0 +1,1319 @@
+# Rezultate — Fara titlu
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-acbd752f-6a4d-4e3e-bdd0-c6d5627c7aca",
+  "query": "site.mobile.de Porsche 911 Carrera 4 GTS Cabriolet 2023 353 kW preis ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.mobile.de Porsche 911 Carrera 4 GTS Cabriolet 2023 353 kW preis",
+      "site.mobile.de Porsche 911 Carrera S 2020 Rechtslenker 331 kW"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search0",
+      "snippet": "Image: Porsche 992 911 Carrera GTS Cabrio CARPLAY/MEMORY/BOSE/ ... Porsche 992 911 Carrera GTS Cabrio CARPLAY/MEMORY/BOSE/ ... * Mobile Online Dienste Android Auto ... *",
+      "title": "Porsche 992 in Ehrenkirchen for €182,770 | mobile.de",
+      "url": "https://suchen.mobile.de/auto-inserat/porsche-992-911-carrera-gts-cabrio-carplay-memory-bose-ehrenkirchen/451323601.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search1",
+      "snippet": "Accident-free • FR 01/2020 • 36,000 km • 331 kW (450 hp) • Petrol ... ## Porsche 911 Carrera 4 S ... How many 2020",
+      "title": "Used 2020 Porsche 911 Urmodell cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-911-urmodell-2020.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search2",
+      "snippet": "Unfallfrei • EZ 03/2023 • 15.200 km • 353 kW (480 PS) • Benzin ... ## Porsche 992 911 Carrera 4 Cabrio Sportabgas BOSE LED-Ma",
+      "title": "Porsche 992 von 2023 gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-992-2023.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search3",
+      "snippet": "Airbag Fahrer-/Beifahrerseite, Antriebsart: Heckantrieb, Außenspiegel asphärisch, links, Außenspiegel elektr. verstell- und heizbar, beide, Blinkleuchten LED, Bremssättel Rot lackiert, Connect Plus (B",
+      "title": "Porsche 992 in Weiden for €114,999 | mobile.de",
+      "url": "https://suchen.mobile.de/auto-inserat/porsche-992-carrera-s-weiden/437456329.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search4",
+      "snippet": "Unfallfrei • EZ 05/2020 • 75.900 km • 331 kW (450 PS) • Benzin ... Wie viele Porsche 911 Carrera 4s 2020 gibt es bei",
+      "title": "Porsche 911 Carrera 4s 2020 gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-2020-911-carrera-4s.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search5",
+      "snippet": "Porsche 992 911 Carrera 4 GTS Cabriolet Burmester LED ... 3,591 ccm ... # Porsche 992 911 Carrera 4 GTS Cabriolet Burmester LED ... A",
+      "title": "Porsche 992 in Bielefeld for €199,700 | mobile.de",
+      "url": "https://suchen.mobile.de/auto-inserat/porsche-992-911-carrera-4-gts-cabriolet-burmester-led-bielefeld/448672897.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search6",
+      "snippet": "## Porsche 997 911 Carrera 4 GTS Cabriolet 3.8i PDK TOP TOP ... Accident-free • FR 09/2023 • 18,500 km • 353 kW (480 hp)",
+      "title": "Used Convertible/Roadster Porsche 911 gt3 cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-cabrio-911-gt3.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search7",
+      "snippet": "## Porsche 911 Carrera 4 GTS Cabriolet Approved bis 04/2027 ... How many Porsche 911er Reihe carrera gts are there on mobile.de?",
+      "title": "Used Porsche 911er Reihe carrera gts cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-911er-reihe-carrera-gts.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search8",
+      "snippet": "Unfallfrei • EZ 08/2020 • 102.500 km • 331 kW (450 PS) • Benzin ... ## Porsche 992 911 Carrera 4 S TECHART AKRAPOVIC 111",
+      "title": "Porsche 992 von 2020 gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-992-2020.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn4search9",
+      "snippet": "Image: Porsche 992 (911) Carrera 4 GTS Cabriolet ... Unfallfrei • EZ 05/2024 • 29.074 km • 353 kW (480 PS) • Benzin",
+      "title": "Porsche Niederlassung Berlin GmbH in Berlin",
+      "url": "https://home.mobile.de/PORSCHEZENTRUM-BERLIN"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.porsche.com",
+      "ref_id": "turn4search10",
+      "snippet": "# 911 Carrera 4 GTS Cabriolet ... 3.1 ... Image: Porsche 911 Carrera GTS Cabriolet in Schwarz steht mit offenem Verdeck in Betonlandschaft.",
+      "title": "Porsche 911 Carrera 4 GTS Cabriolet | Porsche Deutschland",
+      "url": "https://www.porsche.com/germany/models/911/carrera-cabriolet-models/911-carrera-4-gts-cabriolet/"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn4search11",
+      "snippet": "Accident-free • FR 12/2020 • 21,603 km • 331 kW (450 hp) • Petrol ... How many 2020 Porsche 911 carrera 4s are there on",
+      "title": "Used 2020 Porsche 911 carrera 4s cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-2020-911-carrera-4s.html?lang=en"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.porsche-duesseldorf.de",
+      "ref_id": "turn4search12",
+      "snippet": "911 Carrera GTS Cabriolet ... 2023 ... 353 kW / 480 PS ... Porsche Exclusive Manufaktur ... 4A3",
+      "title": "Modell:\n911 Carrera GTS Cabriolet\nModellschlüssel:",
+      "url": "https://www.porsche-duesseldorf.de/portal/pics/dus/pdf/2022/exclusive_showcars/pzdus_911_carrera_gts_cabriolet_individualausstattung.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn4search13",
+      "snippet": "# Dynamischer denn je: die neuen Porsche 911 GTS-Modelle ... Der Sechszylinder-Boxermotor leistet 353 kW (480 PS). ... - 911 Carrera 4 GTS mit Allradantrieb,",
+      "title": "Die erfolgreiche Porsche 911-Familie wächst um fünf Modell-Varianten",
+      "url": "https://newsroom.porsche.com/dam/jcr%3A86728290-1544-4353-ae03-6a859511defe/PAG-911-GTS-DE.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "porsche.fi",
+      "ref_id": "turn4search14",
+      "snippet": "PORSCHE ... <td>9923B2A</td> ... <td>353 (480)</td> ... <td>911 Carrera GTS Cabriolet</td> ... <td>911 Carrera 4 GTS Cabriolet</td>",
+      "title": "Malli vuosi: 2026",
+      "url": "https://porsche.fi/wp-content/uploads/2025/03/911_MYT_CARRERA_GTS_26032025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn4search15",
+      "snippet": "911 Carrera 4 GTS Cabriolet ... Verbrennungsmotor Bauart | Sechszylinder-Boxermotor mit elektrischem Abgasturbolader (eTurbo); Ottopartikelfilter (OPF) --- | --- Verbrennungsmotor Zylinderzahl | 6 Ver",
+      "title": "MY S 05/2024",
+      "url": "https://newsroom.porsche.com/dam/jcr%3A5e4f0a47-18c9-4a0c-b428-d4d63de354f5/pag-911-carrera4-gts-cabriolet-de.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.motor-talk.de",
+      "ref_id": "turn4search16",
+      "snippet": "Porsche 911 Carrera 4 GTS Cabriolet (992 l) ... 3.648 KM ... 353 kW / 480 PS",
+      "title": "Porsche-Katalog-02-2025.pdf",
+      "url": "https://www.motor-talk.de/forum/aktion/Attachment.html?attachmentId=822249"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn4search17",
+      "snippet": "Porsche 992: | 911 Carrera | 911 Carrera 4 | 911 Carrera T | 911 Carrera | 911 Carrera T | 911 Carrera S |",
+      "title": "Porsche 992",
+      "url": "https://de.wikipedia.org/wiki/Porsche_992"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn4search18",
+      "snippet": "Porsche 991: | 911 Carrera | 911 Carrera 4 | 911 Carrera S | 911 Carrera 4S | 911 Carrera GTS | 911 Carrera 4",
+      "title": "Porsche 991",
+      "url": "https://de.wikipedia.org/wiki/Porsche_991"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn4search19",
+      "snippet": "Im Sommer 2004 wurden die Modelle 997Carrera und CarreraS vorgestellt.Beide Modelle haben einen wassergekühlten Sechszylinderboxermotor mit einem Hubraum von 3596cm³, der im 911 Carrera 239kW",
+      "title": "Porsche 997",
+      "url": "https://de.wikipedia.org/wiki/Porsche_997"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn4search20",
+      "snippet": "Außerdem bestimmen die Cabriolet-Karosserieform (Zusatz Cabriolet) und die Allrad-Antriebsart (Zusatz4) die weiteren Ergänzungen im Modellnamen. ... Der Porsche 991 ist die siebte Generation des Porsc",
+      "title": "Porsche 911",
+      "url": "https://de.wikipedia.org/wiki/Porsche_911"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn4search21",
+      "snippet": "Porsche ... 997/2 (2010) | 911 Carrera 4 GTS Coupé/Cabriolet | 302km/h | 300kW (408 PS)",
+      "title": "Porsche",
+      "url": "https://de.wikipedia.org/wiki/Porsche"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-c9d70c1d-c027-4361-8005-fd2171633eeb",
+  "query": "site.suchen.mobile.de/auto-inserat/ \"4 GTS\" \"Cabrio\" \"2023\" \"15.000\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.suchen.mobile.de/auto-inserat/ \"4 GTS\" \"Cabrio\" \"2023\" \"15.000\"",
+      "site.suchen.mobile.de/auto-inserat/ \"4 GTS\" \"Cabrio\" \"2023\" \"20,000\"",
+      "site.mobile.de \"992\" \"Carrera S\" \"Rechtslenker\"",
+      "site.porsche.com \"Vehicle documentation\" \"VIN\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn5search0",
+      "snippet": "With the recently launched Porsche Vehicle Documentation site (vehicledocumentation.porsche.com), users can now request a Porsche Production Specification (PPS) from their computer or smart device, us",
+      "title": "New online service charts the origins of your classic Porsche - Porsche Newsroom USA",
+      "url": "https://newsroom.porsche.com/en_US/2022/technology/porsche-vehicle-documentation-online-service-30039.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn5search12",
+      "snippet": "With the recently launched Porsche Vehicle Documentation site (vehicledocumentation.porsche.com), users can now request a Porsche Production Specification (PPS) from their computer or smart device, us",
+      "title": "newsroom  PORSCHE",
+      "url": "https://newsroom.porsche.com/pdf/f55cd793-ba31-48e0-a502-ab6708335ed4?print="
+    },
+    {
+      "type": "text_result",
+      "domain": "mobile.porsche.com",
+      "ref_id": "turn5search1",
+      "snippet": "# Porsche Warranty Information And Vehicle Documentation ... Simply enter the 17-character VIN (the Vehicle Identification Number from the top of the dash on the",
+      "title": "Porsche Warranty Information And Vehicle Documentation | Porsche Mobile",
+      "url": "https://mobile.porsche.com/en/service/warranty-and-vehicle-information"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn5search2",
+      "snippet": "## Porsche 996 911ER CARRERA*4*3.6L*FACELIFT*RECHTSLENKER*TOP! ... ## Porsche 992 911 Carrera S Cabriolet 992 Erstbesitz ... Es gibt insgesamt 36 Porsche 911er bei mobile.de, davon",
+      "title": "Porsche 911er gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-911er.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.continental-aftermarket.com",
+      "ref_id": "turn5search13",
+      "snippet": "| 3.0 Carrera 4 S (992620) | 331 kW | 01/19→05/24 | AQUACTRL 2 SINGLE; Einbauposition fahrerseitig; für Rechtslenker; passender Adapter: B | 2800011626270 |",
+      "title": "Fahrzeugverwendungen",
+      "url": "https://www.continental-aftermarket.com/media/6757/katalog-scheibenwischer-aquactrl-2-de-2025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.carandclassic.com",
+      "ref_id": "turn5search3",
+      "snippet": "2020 PORSCHE 911 3.0 T 992 Carrera S 2981cc · Benzin · 29.129 Meilen · Handschaltgetriebe · 7+ Gänge · Rechtslenker 82.995 £",
+      "title": "Porsche 911 Carrera S 992 kaufen bei Car & Classic",
+      "url": "https://www.carandclassic.com/de/autos/porsche/911/carrera-s/992"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.carandclassic.com",
+      "ref_id": "turn5search4",
+      "snippet": "# 2023 Porsche 911 Carrera S 992 Kaufen Bei * Rechtslenker",
+      "title": "2023 Porsche 911 Grau Automatik, 7+ Gänge Rechtslenker - Kaufen Bei | Car & Classic",
+      "url": "https://www.carandclassic.com/de/auto/C2174996"
+    },
+    {
+      "type": "text_result",
+      "domain": "d3sm3e0zl6r9d1.cloudfront.net",
+      "ref_id": "turn5search14",
+      "snippet": "VIN : ... Has Carfax VHR? ... Vehicle Documentation ... For the purpose of evaluating body and paint for eligibility in the Porsche Approved Certified",
+      "title": "Vehicle Data",
+      "url": "https://d3sm3e0zl6r9d1.cloudfront.net/sothebysmotor/vehicles/160A4747-69BC-4785-ADB2-5719CA665CA5/documents/431CEC8D-1EDE-4C75-A5A8-917644F58ADA.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "firstcarsmotors.com",
+      "ref_id": "turn5search5",
+      "snippet": "Image: 2021 Porsche 911 (992) Carrera S — Bild 1 ... * Rechtslenker — auf Wunsch Umbau auf Linkslenker möglich",
+      "title": "2021 Porsche 911 (992) Carrera S | FIRSTCARMOTORS",
+      "url": "https://firstcarsmotors.com/de/bestand/porsche-911-992-carrera-s-2021/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.carandclassic.com",
+      "ref_id": "turn5search6",
+      "snippet": "# 2019 Porsche 911 992 (2018 - Present) Carrera S Coupe Kaufen Bei * Rechtslenker",
+      "title": "2019 Porsche 911 Grau Automatik, 7+ Gänge Rechtslenker in Caerphilly, Vereinigtes Königreich - Kaufen Bei | Car & Classic",
+      "url": "https://www.carandclassic.com/de/auto/C2174603"
+    },
+    {
+      "type": "text_result",
+      "domain": "s3.amazonaws.com",
+      "ref_id": "turn5search15",
+      "snippet": "VIN : ________ Model Year : ________ Model Name : ________ In-Service Date : ________ Repair Order : ________ Mileage : ________ Engine # :",
+      "title": "CPO Checklist",
+      "url": "https://s3.amazonaws.com/cdn.autoipacket.com/modules/mech_check/data/porsche_cpo_sample.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn5search7",
+      "snippet": "Image: Porsche 992 Cabrio 3.0 Carrera 4 GTS ... EZ 01/2026 • 15.000 km • 398 kW (541 PS) • Benzin",
+      "title": "Porsche Centrum Rotterdam in Rotterdam",
+      "url": "https://home.mobile.de/home/index.html?customerId=9261416"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.carandclassic.com",
+      "ref_id": "turn5search8",
+      "snippet": "* Rechtslenker ... Fertig in atemberaubendem Paint to Sample Oak Green Metallic-Lack und ergänzt durch ein kunstvoll gestaltetes exklusives Manufaktur-Schwarz mit Cognac-Leder-Interieur, präsentiert d",
+      "title": "2023 Porsche 911 pts-oak-green-metallic Handschaltgetriebe Rechtslenker in Bramley, England, Vereinigtes Königreich - Kaufen Bei | Car & Classic",
+      "url": "https://www.carandclassic.com/de/auto/C2082929"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.redbook.com.au",
+      "ref_id": "turn5search9",
+      "snippet": "The biggest increases of $38,900 and $34,000 have predictably been applied to the track-focused GT3 RS (now from $539,100 plus ORCs) and the ballistic Turbo",
+      "title": "More price increases for Porsche 911, Taycan and Macan - carsales.com.au",
+      "url": "https://www.redbook.com.au/editorial/details/more-price-increases-for-porsche-911-taycan-and-macan-140534/?__source=editorialArticle&driver_crosssell=editorial.in.article.link"
+    },
+    {
+      "type": "text_result",
+      "domain": "d911api.datadial.net",
+      "ref_id": "turn5search10",
+      "snippet": "Porsche 992.1 Carrera / S >>12.07.2020 ... Durch den Austausch oder die Aufrüstung der Rechtslenker-Scheinwerfer Ihres Porsche wird die optimale Strahlbündelung und Nachtsicht wiederhergestellt und",
+      "title": "Scheinwerfer für Rechtslenker von Porsche | Austausch und Upgrades der Rechtslenker-Beleuchtung – Design911 | Design911",
+      "url": "https://d911api.datadial.net/de/porsche/porsche-992-carrera-2s-cabriolet-30l/porsche-right-hand-drive-headlamps/"
+    },
+    {
+      "type": "text_result",
+      "domain": "opsholders.com",
+      "ref_id": "turn5search11",
+      "snippet": "2018+ PORSCHE 911 (992) CARRERA / CARRERA S / CARRERA T ... CT Carbon bietet unsere NUR FÜR RECHTSLENKER vorgesehenen Spiegel für den Porsche 911",
+      "title": "PORSCHE 911 992 CARBONFASER-SPIEGEL – (NUR RHD) – OPSHOLDERS",
+      "url": "https://opsholders.com/de/product/porsche-911-992-carbon-fibre-mirrors-rhd-only/"
+    },
+    {
+      "type": "text_result",
+      "domain": "pcarmarket-media-staging1.s3.us-east-2.amazonaws.com",
+      "ref_id": "turn5search16",
+      "snippet": "VIN : WPOCB2A9XCS754788 ... Has Carfax VHR? ... Vehicle Documentation ... For the purpose of evaluating body and paint for eligibility in the Porsche Approved",
+      "title": "CPO Checklist",
+      "url": "https://pcarmarket-media-staging1.s3.us-east-2.amazonaws.com/htwritable/media/uploads/galleries/photos/uploads/galleries/44291-ficklin-2012-porsche-911-carrera-4-gts/cpo_checklist_WP0CB2A9XCS754788_05.31.24.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit17",
+      "snippet": "I have a photo of the VIN number though it is faint. ... https://newsroom.porsche.com/en\\_US/2022/technology/porsche-vehicle-documentation-online-service-30039.html",
+      "title": "1983 911 Porsche SC Cabriolet - owned by Porsches son?",
+      "url": "https://www.reddit.com/r/Porsche/comments/1j9bob1"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-7cda7b04-07dc-40f7-9353-050f3a78d289",
+  "query": "site.mobile.de/auto-inserat \"Carrera 4 GTS\" \"2023\" Cabriolet 353 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.mobile.de/auto-inserat \"Carrera 4 GTS\" \"2023\" Cabriolet 353",
+      "site.mobile.de/auto-inserat \"Carrera 4 GTS\" \"2022\" Cabriolet",
+      "\"WP0ZZZ992PS241575\"",
+      "\"WP0ZZZ99ZLS281393\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn7search0",
+      "snippet": "#### 03/2022 ... Carrera 4 GTS Cabriolet ... Porsche 992 (911) Carrera 4 GTS Cabriolet ... * Endrohre schwarz ... With mobile.de since Mar 3,",
+      "title": "Porsche 992 in Starnberg for €179,500 | mobile.de",
+      "url": "https://suchen.mobile.de/auto-inserat/porsche-992-carrera-4-gts-cabrio-bose-innodrive-pasm-starnberg/450312329.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn7search1",
+      "snippet": "## NEU Porsche 992 GTS 4 CABRIO LIFT/BURMESTER/360/CHRONO/SPORT ... Unfallfrei • EZ 01/2023 • 120.655 km • 353 kW (480 PS) • Benzin ... ##",
+      "title": "Porsche 992 von 2023 gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-992-2023.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn7search2",
+      "snippet": "## Porsche 992 911 Carrera 4S Cabriolet Sportfahrwerk BOSE ... ## Porsche 992 Carrera GTS Cabriolet ... How many 2022 Porsche 992 are there on",
+      "title": "Used 2022 Porsche 992 cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-992-2022.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn7search3",
+      "snippet": "## Porsche 992 Carrera 4 GTS Cabriolet Carrera GTS ... Accident-free • FR 07/2023 • 22,500 km • 353 kW (480 hp) • Petrol",
+      "title": "Porsche 992 Duisburg | Buy a Car at mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-992-gebrauchtwagen-duisburg.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn7search4",
+      "snippet": "Unfallfrei • EZ 05/2022 • 87.633 km • 257 kW (349 PS) • Benzin ... Image: Porsche 992 (911) Carrera 4 GTS Cabriolet",
+      "title": "Porsche Zentrum Siegen / PZ Siegen Automobile GmbH & Co. KG in Siegen",
+      "url": "https://home.mobile.de/home/index.html?customerId=451915"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn7search5",
+      "snippet": "## Porsche 997 911 Carrera 4 GTS Cabriolet 3.8i PDK TOP TOP ... Accident-free • FR 09/2023 • 18,500 km • 353 kW (480 hp)",
+      "title": "Used Convertible/Roadster Porsche 911 gt3 cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-cabrio-911-gt3.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn7search6",
+      "snippet": "Image: Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE ... Unfallfrei • EZ 10/2023 • 10.100 km • 353 kW (480 PS) • Benzin",
+      "title": "Porsche Zentrum Aachen (Fleischhauer PZ GmbH) in Aachen",
+      "url": "https://home.mobile.de/PORSCHE-AACHEN"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn7search7",
+      "snippet": "# 92 2022 Porsche 911 Urmodell ... ## Porsche 911 Carrera 4S Cabriolet Bose ACC Approved 05/27 ... ## Porsche 911 Carrera 4 GTS ...",
+      "title": "Used 2022 Porsche 911 Urmodell cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-911-urmodell-2022.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "anabi.just.ro",
+      "ref_id": "turn7search8",
+      "snippet": "Serie șasiu | WP0ZZZ992PS241575",
+      "title": "Licitatie LICITATIE PORCHE 911 CARRERA 4 GTS REDUS CU 25% - ANABI",
+      "url": "https://anabi.just.ro/licitatiionline/auction/1262/licitatie-porche-911-carrera-4-gts-redus-cu-25-1"
+    },
+    {
+      "type": "text_result",
+      "domain": "auto-doerr.de",
+      "ref_id": "turn7search9",
+      "snippet": "911/992 Carrera 4 GTS Cabriolet PPF+Lift+BOSE ... 11/2022 ... Alle Details auf Mobile.de",
+      "title": "Auto Dörr | Fahrzeug Ansehen: 911/992 Carrera 4 GTS Cabriolet PPF+Lift+BOSEIhr Autohaus für hochwertige Gebrauchtwagen in Homburg im Saarland.",
+      "url": "https://auto-doerr.de/fahrzeug_ansehen/44703324253920"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn7search10",
+      "snippet": "## Sponsored Porsche 911 Carrera GTS Cabriolet*2-JAHRE*APPROVED* ... Accident-free • FR 03/2023 • 20,150 km • 353 kW (480 hp) • Petrol ... ## Sponsored",
+      "title": "Used Porsche 911 gt2 cars for sale in Germany | mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-911-gt2.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn7search11",
+      "snippet": "Unfallfrei • EZ 10/2023 • 37.580 km • 353 kW (480 PS) • Benzin ... Image: Porsche 992 911 Carrera 4 GTS Cabriolet Burmester LED",
+      "title": "Porsche Zentrum Bonn (Fleischhauer PZ GmbH) in Bonn",
+      "url": "https://home.mobile.de/home/index.html?customerId=451937"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.auto-motor-und-sport.de",
+      "ref_id": "turn7search12",
+      "snippet": "Kreisel RE-X1 (Imp) ... 2022 ... Porsche 911 Carrera 4 GTS Cabrio (VT)",
+      "title": "Inhaltsverzeichnis 2022",
+      "url": "https://www.auto-motor-und-sport.de/static-download/news/425448/Jahresinhalt_ams_2022.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.turbo-fuer-talente.de",
+      "ref_id": "turn7search13",
+      "snippet": "<tr><td>911 Carrera GTS Cabriolet</td><td>353</td><td>480</td><td>11.3–10.5</td><td>256–239</td></tr> ... <tr><td>911 Carrera 4 GTS Cabriolet</td><td>353</td><td>480</td><td>11.3–10.8</td><td>256–244<",
+      "title": "EMISSION AND CONSUMPTION INFORMATION",
+      "url": "https://www.turbo-fuer-talente.de/dam/jcr%3A838a302c-ddc1-46bc-b525-c6c6b18c3800/Annual%20and%20Sustainability%20Report%202023%20Porsche%20AG%20%28consolidated%20financial%20statements%20IFRS%29.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "porschecarshistory.com",
+      "ref_id": "turn7search14",
+      "snippet": "<th>911 Carrera 4 GTS Cabriolet</th> ... Stand: 10/2022.",
+      "title": "TECHNISCHE DATEN 911 MODELLE.",
+      "url": "https://porschecarshistory.com/wp-content/old/brochures5/49/2022MY%20992%20DE.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "brochoure.autoinfo.co.th",
+      "ref_id": "turn7search15",
+      "snippet": "<th>911 Carrera 4 GTS Cabriolet</th> ... as of 08/07/2022",
+      "title": "2022-07-14_911 Carrera (4) GTS Cabriolet (Targa)_MY P",
+      "url": "https://brochoure.autoinfo.co.th/data/pdf/2023100803325221.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.voets-gruppe.de",
+      "ref_id": "turn7search16",
+      "snippet": "Porsche 992 911 Carrera 4 GTS Cabrio HA-Lenkung InnoDrive ... 01/2022 ... Wegfahrsperre",
+      "title": "Fahrzeug - Exposé",
+      "url": "https://www.voets-gruppe.de/fahrzeugsuche/porsche/992/porsche-992-911-carrera-4-gts-cabrio-ha-lenkung-innodrive-41f6612d01e831a9b99aaab3b8fe6120//print"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn7search17",
+      "snippet": "In June 2022, for 2023 model year, Porsche introduced 911 Carrera GTS Cabriolet America Edition. ... It was officially revealed on May 28, 2024 and",
+      "title": "Porsche 911 (992)",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_%28992%29"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-2118505a-1510-40ec-aa67-c258a5394c31",
+  "query": "https://home.mobile.de/PORSCHE-AACHEN",
+  "action": {
+    "type": "openPage",
+    "url": "https://home.mobile.de/PORSCHE-AACHEN"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "home.mobile.de",
+      "ref_id": "turn10view0",
+      "snippet": "Total lines: 317",
+      "title": "Porsche Zentrum Aachen (Fleischhauer PZ GmbH) in Aachen",
+      "url": "https://home.mobile.de/PORSCHE-AACHEN"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn10view1",
+      "snippet": "Total lines: 1227",
+      "title": "Porsche 992 von 2023 gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-992-2023.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-493d11c8-bb71-4fde-9e0a-9be1a4a9da18",
+  "query": "\"Porsche\" \"Cabriolet Clubleder BOSE\" \"159.900\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "\"Porsche\" \"Cabriolet Clubleder BOSE\" \"159.900\"",
+      "site.mobile.de/auto-inserat \"Carrera 4 GTS Cabriolet\" \"Clubleder\"",
+      "site.newsroom.porsche.com 2021 GTS 480 570 cabriolet technical data",
+      "site.newsroom.porsche.com 2019 911 Carrera S 450 530 technical data"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search0",
+      "snippet": "Image: 911 Carrera GTS, 2021, Porsche AG ... Its six-cylinder boxer engine delivers 353 kW (480 PS; 911 GTS Models (NEDC): Fuel consumption combined 10.7",
+      "title": "More distinctive and dynamic than ever: the new Porsche 911 GTS models - Porsche Newsroom",
+      "url": "https://newsroom.porsche.com/en/2021/products/porsche-911-gts-models-premiere-24875.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search12",
+      "snippet": "newsroom ... - Peak torque: 530 Nm ... The new Porsche 911 Carrera accelerates 0 – 100 km/h in 4.1 seconds (3.9 seconds with the",
+      "title": "newsroom  \nPORSCHE\n\nPeak torque is 450 Nm, with 30",
+      "url": "https://newsroom.porsche.com/pdf/48bb357e-ab5d-4553-85ea-9f76d4a57bc1?print="
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search1",
+      "snippet": "Image: The powertrain of the new 911 Carrera, 2019, Porsche AG ... At 331 kW (450 PS; combined cycle fuel consumption 9.0 l/100 km; combined",
+      "title": "How the new 911 got its “drive” - Porsche Newsroom AUS",
+      "url": "https://newsroom.porsche.com/en_AU/2019/technology/porsche-911-carrera-type-992-powertrain-boxer-engine-16978.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search2",
+      "snippet": "* * ### 2019 – 911 GT3 RS technical specifications ... * * ### 2017 – 911 Carrera and Carrera S technical specifications",
+      "title": "Technical Specifications - Porsche Newsroom USA",
+      "url": "https://newsroom.porsche.com/en_US/media-resources/technical-specifications.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "download.newsroom.porsche.com",
+      "ref_id": "turn14search13",
+      "snippet": "newsroom ... The turbocharged flat-six engine of the 911 Carrera S and 911 Carrera 4S now produces 331 kW (450 PS). ... The fuel consumption",
+      "title": "newsroom  \nPORSCHE\n\npower is delivered by a newly",
+      "url": "https://download.newsroom.porsche.com/pdf/11983862-2cee-43d1-bde5-4da98c8e2a30?print="
+    },
+    {
+      "type": "text_result",
+      "domain": "pnr-prd2-pub1.newsroom.porsche.com",
+      "ref_id": "turn14search3",
+      "snippet": "Image: Das Triebwerk des neuen 911 Carrera, 2019, Porsche AG ... Für den Einsatz in den beiden neuen 911-Modellen des Typs 992 – dem 911",
+      "title": "So bekam der neue 911 seinen „Drive“ - Porsche Newsroom DEU",
+      "url": "https://pnr-prd2-pub1.newsroom.porsche.com/de/2019/technik/porsche-911-carrera-typ-992-triebwerk-boxermotor-16977.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search4",
+      "snippet": "The next generation of flat-six turbocharged engines has been further developed and is more powerful than ever before, with 331 kW (450 PS; 911 Carrera",
+      "title": "The new Porsche 911: more powerful, faster, digital - Porsche Newsroom",
+      "url": "https://newsroom.porsche.com/en/products/porsche-911-new-eighth-generation-992-timeless-machine-world-premiere-los-angeles-2018-news-tv-live-broadcasting-16473.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "download.newsroom.porsche.com",
+      "ref_id": "turn14search14",
+      "snippet": "newsroom Porsche ... 23/06/2021 Approximately two years after the market launch of the 992 generation, the 911 range is welcoming sporty GTS models to the",
+      "title": "newsroom                                                                 Porsche",
+      "url": "https://download.newsroom.porsche.com/pdf/cdfb82ea-5bd5-4a00-b6f6-8e2d738bcae5?print="
+    },
+    {
+      "type": "text_result",
+      "domain": "pnr-prd2-pub1.newsroom.porsche.com",
+      "ref_id": "turn14search15",
+      "snippet": "911 Carrera GTS Cabriolet (MT) | 353 | 480 | 15.1 | 7.7 | 10.4 | 238 | 10.9 –10.5 | 246 – 239 |",
+      "title": "04 \nLETTER FROM THE EXECUTIVE BOARD\n06 \nIMPORTANT",
+      "url": "https://pnr-prd2-pub1.newsroom.porsche.com/dam/jcr%3A0ae068e7-c439-4d55-87de-294f908b5402/Annual%20and%20Sustainability%20Report%202021%20Porsche%20AG.pdf.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "download.newsroom.porsche.com",
+      "ref_id": "turn14search16",
+      "snippet": "newsroom ... 450 Nm.The new 911 Carrera Coupé goes from 0 to 100 km/h in 4.1 seconds (3.9 seconds with the Sport Chrono package) and",
+      "title": "newsroom  \nPORSCHE\n\n450 Nm.\n\nThe new 911 Carrera C",
+      "url": "https://download.newsroom.porsche.com/pdf/00a9119f-35a5-426e-a4cc-984677a21da2?print="
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search5",
+      "snippet": "* 911 Carrera GTS con tracción trasera, versiones Coupé y Cabriolet ... El motor bóxer de seis cilindros turboalimentado de 2.981 cc del nuevo 911",
+      "title": "Nuevos Porsche 911 GTS: más dinámicos y distintivos que nunca - Porsche Newsroom LAT-AM",
+      "url": "https://newsroom.porsche.com/es/2021/vehiculos/PLA-porsche-911-gts-modelos-2021-24887.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search6",
+      "snippet": "Image: 911 Carrera GTS, 2021, Porsche AG ... Der Sechszylinder-Boxermotor leistet 353 kW (480 PS; 911 GTS-Modelle (NEFZ): Kraftstoffverbrauch kombiniert 10,7 – 9,7 l/100 km,",
+      "title": "Eigenständiger und dynamischer denn je: die neuen Porsche 911 GTS-Modelle - Porsche Newsroom DEU",
+      "url": "https://newsroom.porsche.com/de/2021/produkte/porsche-911-gts-modelle-premiere-24872.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "pnr-prd2-pub1.newsroom.porsche.com",
+      "ref_id": "turn14search7",
+      "snippet": "Image: The powertrain of the new 911 Carrera, 2019, Porsche AG ... 除了输出功率提高 22 kW（30 PS），达到 331 kW（450 PS）/6,500 rpm 之外，发动机的峰值扭矩提高了 30 Nm，即在 2,300 -",
+      "title": "全新 911 的动力来源是什么？ - Porsche Newsroom CHN",
+      "url": "https://pnr-prd2-pub1.newsroom.porsche.com/zh/2019/technology/cn-porsche-911-carrera-type-992-powertrain-boxer-engine-16983.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search8",
+      "snippet": "Image: Taycan Turbo S, 2019, Porsche AG ... Image: 911 Carrera 4, 911 Carrera 4 Cabriolet, 2019, Porsche AG",
+      "title": "Porsche at the IAA 2019 - Porsche Newsroom",
+      "url": "https://newsroom.porsche.com/en/press-kits/porsche-iaa-2019.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.it",
+      "ref_id": "turn14search9",
+      "snippet": "Image: El grupo propulsor del 911 Carrera, 2019, Porsche AG ... Con 450 CV (331 kW) y 530 Nm, ahora entrega 30 CV (22 kW)",
+      "title": "Los secretos del motor del nuevo Porsche 911 - Porsche Newsroom ESP",
+      "url": "https://newsroom.porsche.it/es_ES/tecnologia/2019/es-porsche-911-carrera-type-992-powertrain-boxer-engine-9047.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn14search10",
+      "snippet": "Weiterentwickelt und mit 331 kW (450 PS; 911 Carrera S: Kraftstoffverbrauch kombiniert 8,9 l/100 km; CO_{2}-Emissionen kombiniert 205 g/km; ... Die Uhr ist ab April",
+      "title": "Der neue Porsche 911 – stärker, schneller, digital - Porsche Newsroom DEU",
+      "url": "https://newsroom.porsche.com/de/produkte/porsche-911-neu-achte-generation-992-timeless-machine-weltpremiere-los-angeles-2018-news-tv-live-16472.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn14search11",
+      "snippet": "## 992 Cabriolet Clubleder BOSE ... Image: Gebraucht Porsche 911 Carrera 4 GTS 480 PS (353 kW) 2023 Grau Cabrio",
+      "title": "Gebraucht Porsche 911 Carrera 4 GTS 480 PS (2023) in Nordrhein-Westfalen - 159.900 € | AutoUncle",
+      "url": "https://www.autouncle.de/de/d/226120982-gebraucht-2023-porsche-911-carrera-4-gts-480-ps"
+    },
+    {
+      "type": "text_result",
+      "domain": "it.wikipedia.org",
+      "ref_id": "turn14search17",
+      "snippet": "Porsche 992 ... Al debutto sono disponibili le versioni Carrera S e Carrera 4S, esposte al Salone dell'automobile di Los Angeles nel 2018 e dotate",
+      "title": "Porsche 992",
+      "url": "https://it.wikipedia.org/wiki/Porsche_992"
+    },
+    {
+      "type": "text_result",
+      "domain": "pt.wikipedia.org",
+      "ref_id": "turn14search18",
+      "snippet": "O 992 é a oitava geração do Porsche 911 produzida desde 2019. ... As versões de estreia são o Carrera S e o Carrera 4S,",
+      "title": "Porsche 992",
+      "url": "https://pt.wikipedia.org/wiki/Porsche_992"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn14search19",
+      "snippet": "In 2020, Porsche introduced 911 Carrera 4S Belgian Legend Edition. ... - New 2019 Porsche 911: eighth-generation sports car revealed. ... GT3 RS (992.1) |",
+      "title": "Porsche 911 (992)",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_%28992%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "fr.wikipedia.org",
+      "ref_id": "turn14search20",
+      "snippet": "Légende: Porsche 992 Carrera S Coupé phase 1. ... Couple: 450 à 800 ... La Porsche 992 (ou 911 Type 992) est une voiture sportive",
+      "title": "Porsche 911 (992)",
+      "url": "https://fr.wikipedia.org/wiki/Porsche_911_%28992%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn14search21",
+      "snippet": "### 911 Carrera and Carrera S (2015–2019) ... In 2016, Porsche unveiled 911 Carrera S Endurance Racing Edition to celebrate manufacturer's 18th win in Le",
+      "title": "Porsche 911 (991)",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_%28991%29"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit22",
+      "snippet": "[Tuesday July 30 2019] [+8 votes] ... it says carrera s on the back though",
+      "title": "The 992 Carrera features 19/20\" wheels, 385 PS and 450nm",
+      "url": "https://www.reddit.com/r/Porsche/comments/cjo4v3"
+    },
+    {
+      "type": "text_result",
+      "domain": "es.wikipedia.org",
+      "ref_id": "turn14search23",
+      "snippet": "Porsche 911 ... ### 992 Carrera/ Carrera S ... Fue introducido oficialmente en el Porsche Experience Center de Los Ángeles, California, el 27 de noviembre",
+      "title": "Porsche 911",
+      "url": "https://es.wikipedia.org/wiki/Porsche_911"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit24",
+      "snippet": "For 190K I’d rather have an AMG GT C or a Porsche 911 Turbo S if I want a proper daily super GT car. ...",
+      "title": "2020 Porsche 911 Carrera S Tested",
+      "url": "https://www.reddit.com/r/cars/comments/cbu7nh"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn14reddit25",
+      "snippet": "[Saturday November 09 2019] [+37 votes] ... That’s from Porsche. ... That’s 200 horsepower. 997 generation it was 385hp in the Carrera S and 530hp",
+      "title": "2020 Porsche 911 Turbo S Boasts a Huge Bump in Power and Torque",
+      "url": "https://www.reddit.com/r/cars/comments/dtr42q"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-c049f6cb-fd32-4130-8cd4-0dc07f3d731c",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'Get-Command node | Select-Object -ExpandProperty Source'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "52498",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Command node | Select-Object -ExpandProperty Source"
+    }
+  ],
+  "aggregatedOutput": "C:\\Program Files\\nodejs\\node.exe\r\n",
+  "exitCode": 0,
+  "durationMs": 186
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-673b5cb8-e7e9-4c24-a51b-f4793fa4a1d5",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://home.mobile.de/PORSCHE-AACHEN').then(r=>r.text()).then(t=>{let i=t.indexOf('Clubleder BOSE');console.log(t.slice(i-1200,i+1800))})\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "68720",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://home.mobile.de/PORSCHE-AACHEN').then(r=>r.text()).then(t=>{let i=t.indexOf('Clubleder BOSE');console.log(t.slice(i-1200,i+1800))})\""
+    }
+  ],
+  "aggregatedOutput": "7.71 16.12L13.42 20.41H13.41ZM7.5 5.41003C6.57 5.41003 5.69 5.77003 5.02 6.44003C4.36 7.10003 4 7.98003 4 8.91003C4 11 5.8 12.8 7.71 14.7L12 18.99L16.29 14.7C18.2 12.79 20 10.99 20 8.91003C20 7.98003 19.64 7.10003 18.97 6.44003C17.65 5.12003 15.34 5.12003 14.02 6.44003C13.36 7.10003 13 7.98003 13 8.91003H11C11 7.98003 10.64 7.10003 9.97 6.44003C9.31 5.78003 8.43 5.41003 7.5 5.41003Z\" fill=\"currentColor\"></path></svg><span class=\"button-module__6OhV_q__Button__label\" tabindex=\"-1\">Parken</span></span></button></div></div></span></div></div></section></article><article class=\"contentBox-module__lb-04W__ContentBox ResultList-module__Bfx-XW__rounded contentBox-module__lb-04W__ContentBox--level-1\"><section class=\"typography-module__luTpGq__copy contentSection-module__VAtVeq__ContentSection padding-module__hVY4pq__none\"><div><div class=\"BaseListing-module___BHaBW__container BaseListing-module___BHaBW__listingCard\"><span class=\"link-module__iYNUYG__Link link-module__iYNUYG__Link--unstyled BaseListing-module___BHaBW__containerLink\" data-testid=\"listing-18\"><div class=\"ListingImage-module__ysyhfG__container BaseListing-module___BHaBW__left\"><img alt=\"Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE\" data-testid=\"listing-18-image\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"ListingPreviewImage-module__sSveUW__image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"(min-width: 768px) 385px, 278px\" srcSet=\"https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-160 160w, https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-200 200w, https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-240 240w, https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-360 360w, https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-640 640w, https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-1024 1024w, https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-1600 1600w\" src=\"https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-1600\"/></div><div class=\"BaseListing-module___BHaBW__topMiddle\"><div class=\"ListingTitle-module__4RTQ_G__wrapper ListingTitle-module__4RTQ_G__wrapperTestAligned\" data-testid=\"listing-18-title\"><h3 class=\"ListingTitle-module__4RTQ_G__title\">Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE</h3></div><div class=\"PriceSection-module__TcLFaa__priceLabelContainer\" data-testid=\"listing-18-price-section\"><div class=\"PriceSection-module__TcLFaa__priceLabel\" data-testid=\"main-price-label\"><div><span class=\"PriceLabel-module__tsmUda__mainPrice\" data-testid=\"price-label\">159.900 €</span></div></div><div class=\"FinancingAndLeasingBadges-module__\n",
+  "exitCode": 0,
+  "durationMs": 791
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-1a57eba6-5c3d-4c96-bc78-30f8b3aed95b",
+  "query": "https://www.autouncle.de/de/d/226120982-gebraucht-2023-porsche-911-carrera-4-gts-480-ps",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.autouncle.de/de/d/226120982-gebraucht-2023-porsche-911-carrera-4-gts-480-ps"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.autouncle.de",
+      "ref_id": "turn17view0",
+      "snippet": "Total lines: 298",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/_C9V3rkkwlbQPiCxcg-JJeOK44YJuQ3EnjasOBOdR2K2CXlj5UlbovWrtiPdKprdHRDDbXakBzewewnT8GitAJkUo1x-mZf_t10nZquDwsOw5NMkgDyhItFzeACGRlRKP66IzDA-1zrtEmoyl2jgqPR2gg5zbFme3qF4o4wJpmpmcsR445cWJhTXz9no30FW",
+      "title": "Gebraucht Porsche 911 Carrera 4 GTS 480 PS (2023) in Nordrhein-Westfalen - 159.900 € | AutoUncle",
+      "url": "https://www.autouncle.de/de/d/226120982-gebraucht-2023-porsche-911-carrera-4-gts-480-ps"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn17view1",
+      "snippet": "Total lines: 460",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Evd0B6dcqxzlp-8C6mQQITP9bVD0c2yoMMx-btotcu0U_8-tXyi8mGrRBTpwfgpzKc6vkHLnXSbptYGzbwXpqNQhIJgPhPK-S3O-clubfa65f4r9hJN4UyXRH5GU3AKagpGGpvcVaq5RzNKsJlF82k7u71ZOcrbJRII-13Qe5wEwxuUbcecL6b2nqUfJijFDBujoGTjrZWvUm3NMruh1HGbsu15KGQs_4E01VemlfZmimpmhvU2y-QFvbSoxNYDXZd0E_KwxEPe94S_Kqq72Lw",
+      "title": "Technical Specifications - Porsche Newsroom USA",
+      "url": "https://newsroom.porsche.com/en_US/media-resources/technical-specifications.html"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-ed3d1192-60cd-40a7-bc2c-e1f115bfb3bb",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://home.mobile.de/PORSCHE-AACHEN').then(r=>r.text()).then(t=>{for(let i=0;(i=t.indexOf('Clubleder BOSE',i))>=0;i+=10) console.log(t.slice(i-250,i+450))})\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "4066",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://home.mobile.de/PORSCHE-AACHEN').then(r=>r.text()).then(t=>{for(let i=0;(i=t.indexOf('Clubleder BOSE',i))>=0;i+=10) console.log(t.slice(i-250,i+450))})\""
+    }
+  ],
+  "aggregatedOutput": "NUYG__Link link-module__iYNUYG__Link--unstyled BaseListing-module___BHaBW__containerLink\" data-testid=\"listing-18\"><div class=\"ListingImage-module__ysyhfG__container BaseListing-module___BHaBW__left\"><img alt=\"Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE\" data-testid=\"listing-18-image\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"ListingPreviewImage-module__sSveUW__image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"(min-width: 768px) 385px, 278px\" srcSet=\"https://img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4?rule=mo-160 160w, https://img.classistatic.de/api/v1/mo-prod/images/1\nisting-module___BHaBW__topMiddle\"><div class=\"ListingTitle-module__4RTQ_G__wrapper ListingTitle-module__4RTQ_G__wrapperTestAligned\" data-testid=\"listing-18-title\"><h3 class=\"ListingTitle-module__4RTQ_G__title\">Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE</h3></div><div class=\"PriceSection-module__TcLFaa__priceLabelContainer\" data-testid=\"listing-18-price-section\"><div class=\"PriceSection-module__TcLFaa__priceLabel\" data-testid=\"main-price-label\"><div><span class=\"PriceLabel-module__tsmUda__mainPrice\" data-testid=\"price-label\">159.900 €</span></div></div><div class=\"FinancingAndLeasingBadges-module__-JYsuW__financingAndLeasingBadgesContainer\"><a class=\"FinancingAndLeasingBadges-modu\n\"2.981 cm³\\\",\\\"tr\\\":\\\"Automatik\\\",\\\"ecol\\\":\\\"Grau\\\",\\\"door\\\":\\\"2/3\\\",\\\"sc\\\":\\\"4\\\",\\\"c\\\":\\\"Cabrio\\\",\\\"pvo\\\":\\\"1\\\"},\\\"siteId\\\":\\\"GERMANY\\\",\\\"p\\\":\\\"159.900 €\\\",\\\"st\\\":\\\"Händler\\\",\\\"shortTitle\\\":\\\"Porsche 992\\\",\\\"subTitle\\\":\\\"911 Carrera 4 GTS Cabriolet Clubleder BOSE\\\",\\\"hasDamage\\\":false,\\\"isDamageCase\\\":false,\\\"isVideoEnabled\\\":false,\\\"readyToDrive\\\":true,\\\"contact\\\":{\\\"type\\\":\\\"Händler\\\",\\\"country\\\":\\\"DE\\\",\\\"enumType\\\":\\\"DEALER\\\",\\\"name\\\":\\\"Porsche Zentrum Aachen (Fleischhauer PZ GmbH)\\\",\\\"address1\\\":\\\"Europaplatz 10\\\",\\\"phones\\\":[{\\\"type\\\":\\\"PHONE1\\\",\\\"number\\\":\\\"+49 (0)241 5180314\\\",\\\"uri\\\":\\\"tel:+492415180314\\\"},{\\\"type\\\":\\\"FAX\\\",\\\"number\\\":\\\"+49 241 5180367\\\"}],\\\"latLong\\\":{\\\"lat\\\":50.77\nff57.porsche.svg\\\",\\\"width\\\":60,\\\"height\\\":30}},\\\"elements\\\":[\\\"12-36 Monate Garantie\\\",\\\"Technikcheck\\\",\\\"Mobilitätsgarantie\\\",\\\"Leasing und Finanzierung\\\",\\\"Inzahlungnahme\\\"]},\\\"segment\\\":\\\"Car\\\",\\\"title\\\":\\\"Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE\\\",\\\"usedCarSealId\\\":\\\"PORSCHE\\\",\\\"vc\\\":\\\"Car\\\",\\\"category\\\":\\\"Cabrio/Roadster\\\",\\\"id\\\":42408584926656,\\\"price\\\":{\\\"grs\\\":{\\\"amount\\\":159900,\\\"currency\\\":\\\"EUR\\\",\\\"localized\\\":\\\"159.900 €\\\"},\\\"type\\\":\\\"FIXED\\\"},\\\"customDimensions\\\":{\\\"10\\\":\\\"gold\\\"}},{\\\"isEyeCatcher\\\":true,\\\"numImages\\\":29,\\\"attr\\\":{\\\"cn\\\":\\\"DE\\\",\\\"z\\\":\\\"52068\\\",\\\"loc\\\":\\\"Aachen\\\",\\\"fr\\\":\\\"03/2025\\\",\\\"pw\\\":\\\"346 kW (470 PS)\\\",\\\"ft\\\":\\\"Hybrid (Benzin/Elektro)\\\",\\\"ml\\\n2:props:filters\\\",\\\"isInIFrame\\\":false},\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ListingImage-module__ysyhfG__container BaseListing-module___BHaBW__left\\\",\\\"children\\\":[\\\"$\\\",\\\"$L6f\\\",null,{\\\"alt\\\":\\\"Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE\\\",\\\"className\\\":\\\"$undefined\\\",\\\"priority\\\":false,\\\"sizes\\\":\\\"(min-width: 768px) 385px, 278px\\\",\\\"src\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4\\\",\\\"testId\\\":\\\"listing-18-image\\\",\\\"vehicleCategory\\\":\\\"Car\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW__topMiddle\\\",\\\"children\\\":[false,\\\"$Lb5\\\",\\\"$Lb6\\\"]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"BaseListing-module___BHaBW\n_wrapper ListingTitle-module__4RTQ_G__wrapperTestAligned\\\",\\\"data-testid\\\":\\\"listing-18-title\\\",\\\"children\\\":[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"ListingTitle-module__4RTQ_G__title\\\",\\\"children\\\":[false,false,\\\"Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE\\\"]}]}]\\nb9:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ListingTitle-module__4RTQ_G__wrapper ListingTitle-module__4RTQ_G__wrapperTestAligned\\\",\\\"data-testid\\\":\\\"listing-19-title\\\",\\\"children\\\":[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"ListingTitle-module__4RTQ_G__title\\\",\\\"children\\\":[false,false,\\\"Porsche Panamera 4 E-Hybrid InnoDrive Head-Up Soft-Close\\\"]}]}]\\nbd:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ListingTitle-module__4RTQ_G__wrapper Listing\n",
+  "exitCode": 0,
+  "durationMs": 568
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-304eb8da-403b-42b5-884e-ee6402b8415d",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn20view0",
+      "snippet": "Total lines: 99",
+      "url": "https://newsroom.porsche.com/dam/jcr%3Ad5712d5c-b376-41d9-8201-09731162e143/2020_911_Carrera_S_and_911_Carrera_4S_US_specifications.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn20view1",
+      "snippet": "Total lines: 123",
+      "url": "https://newsroom.porsche.com/dam/jcr%3Acd5bb202-d506-4078-bdc6-50e1e02deffc/PAG_911_Carrera_4_GTS_PDK_TD_EN.pdf"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-bbe0ecc1-976b-4244-b8cc-2ce15ac3790d",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://home.mobile.de/PORSCHE-AACHEN').then(r=>r.text()).then(t=>{let i=t.indexOf('shortTitle');let j=t.indexOf('Clubleder BOSE',t.indexOf('shortTitle'));console.log(t.slice(j-800,j+6500))})\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "25757",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://home.mobile.de/PORSCHE-AACHEN').then(r=>r.text()).then(t=>{let i=t.indexOf('shortTitle');let j=t.indexOf('Clubleder BOSE',t.indexOf('shortTitle'));console.log(t.slice(j-800,j+6500))})\""
+    }
+  ],
+  "aggregatedOutput": "ealId\\\":\\\"PORSCHE\\\",\\\"vat\\\":\\\"19,00% MwSt.\\\",\\\"vc\\\":\\\"Car\\\",\\\"category\\\":\\\"SUV/Geländewagen/Pickup\\\",\\\"id\\\":39545542056896,\\\"price\\\":{\\\"grs\\\":{\\\"amount\\\":93800,\\\"currency\\\":\\\"EUR\\\",\\\"localized\\\":\\\"93.800 €\\\"},\\\"nt\\\":{\\\"amount\\\":78823.53,\\\"currency\\\":\\\"EUR\\\",\\\"localized\\\":\\\"78.824 €\\\"},\\\"type\\\":\\\"FIXED\\\",\\\"vat\\\":19},\\\"customDimensions\\\":{\\\"10\\\":\\\"gold\\\"}},{\\\"isEyeCatcher\\\":false,\\\"numImages\\\":29,\\\"attr\\\":{\\\"cn\\\":\\\"DE\\\",\\\"z\\\":\\\"52068\\\",\\\"loc\\\":\\\"Aachen\\\",\\\"fr\\\":\\\"10/2023\\\",\\\"pw\\\":\\\"353 kW (480 PS)\\\",\\\"ft\\\":\\\"Benzin\\\",\\\"ml\\\":\\\"10.100 km\\\",\\\"cc\\\":\\\"2.981 cm³\\\",\\\"tr\\\":\\\"Automatik\\\",\\\"ecol\\\":\\\"Grau\\\",\\\"door\\\":\\\"2/3\\\",\\\"sc\\\":\\\"4\\\",\\\"c\\\":\\\"Cabrio\\\",\\\"pvo\\\":\\\"1\\\"},\\\"siteId\\\":\\\"GERMANY\\\",\\\"p\\\":\\\"159.900 €\\\",\\\"st\\\":\\\"Händler\\\",\\\"shortTitle\\\":\\\"Porsche 992\\\",\\\"subTitle\\\":\\\"911 Carrera 4 GTS Cabriolet Clubleder BOSE\\\",\\\"hasDamage\\\":false,\\\"isDamageCase\\\":false,\\\"isVideoEnabled\\\":false,\\\"readyToDrive\\\":true,\\\"contact\\\":{\\\"type\\\":\\\"Händler\\\",\\\"country\\\":\\\"DE\\\",\\\"enumType\\\":\\\"DEALER\\\",\\\"name\\\":\\\"Porsche Zentrum Aachen (Fleischhauer PZ GmbH)\\\",\\\"address1\\\":\\\"Europaplatz 10\\\",\\\"phones\\\":[{\\\"type\\\":\\\"PHONE1\\\",\\\"number\\\":\\\"+49 (0)241 5180314\\\",\\\"uri\\\":\\\"tel:+492415180314\\\"},{\\\"type\\\":\\\"FAX\\\",\\\"number\\\":\\\"+49 241 5180367\\\"}],\\\"latLong\\\":{\\\"lat\\\":50.7793652,\\\"lon\\\":6.1071943},\\\"rating\\\":{\\\"count\\\":6,\\\"totalCount\\\":125,\\\"score\\\":4.3,\\\"scoreLocalized\\\":\\\"4,3\\\",\\\"link\\\":\\\"https://www.mobile.de/bewertungen/PORSCHE-AACHEN?lang=de\\\"},\\\"canBeFollowed\\\":true},\\\"created\\\":1787932917,\\\"modified\\\":1791783854,\\\"renewed\\\":1787932917,\\\"version\\\":64,\\\"makeId\\\":20100,\\\"modelId\\\":28,\\\"make\\\":{\\\"id\\\":\\\"20100\\\",\\\"localized\\\":\\\"Porsche\\\"},\\\"model\\\":{\\\"id\\\":\\\"28\\\",\\\"localized\\\":\\\"992\\\"},\\\"financePlans\\\":[{\\\"type\\\":\\\"AO\\\",\\\"url\\\":\\\"https://www.mobile.de/finanzierung/route/outlink/1?adId=42408584926656\\\",\\\"shortFlow\\\":true,\\\"promotion\\\":false,\\\"showInGallery\\\":false,\\\"offer\\\":{\\\"bankName\\\":\\\"Openbank Deutschland AG\\\",\\\"loanBroker\\\":\\\"CHECK24 GmbH\\\",\\\"loanType\\\":\\\"BALLOON\\\",\\\"downPayment\\\":31980,\\\"creditTerm\\\":60,\\\"yearlyMileage\\\":10000,\\\"creditAmount\\\":127920,\\\"interestRateNominal\\\":5.41,\\\"interestRateEffective\\\":5.55,\\\"monthlyInstallment\\\":1695.23,\\\"finalInstallment\\\":52767,\\\"totalInterest\\\":24865.7,\\\"totalAmount\\\":152785.7,\\\"localized\\\":{\\\"downPayment\\\":\\\"31.980,00 €\\\",\\\"downPaymentInPercent\\\":\\\"20%\\\",\\\"creditTerm\\\":\\\"60\\\",\\\"creditTermInYears\\\":\\\"5\\\",\\\"yearlyMileage\\\":\\\"10.000\\\",\\\"creditAmount\\\":\\\"127.920,00 €\\\",\\\"interestRateNominal\\\":\\\"5,41%\\\",\\\"interestRateEffective\\\":\\\"5,55%\\\",\\\"monthlyInstallment\\\":\\\"1.696 €\\\",\\\"finalInstallment\\\":\\\"52.767,00 €\\\",\\\"totalInterest\\\":\\\"24.865,70 €\\\",\\\"totalAmount\\\":\\\"152.785,70 €\\\",\\\"disclaimer\\\":\\\"Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von 10.000,00 €, effektiver Jahreszins 5,55%, fester Sollzinssatz 5,41% p.a., Laufzeit 60 Monate, 59 monatliche Raten à 144,70 € und eine Schlussrate à 3.300,00 €, Gesamtbetrag 11.837,52 €. Ein Angebot der Openbank Deutschland AG (Darlehensgeber), Santander-Platz 1, 41061 Mönchengladbach. Bonität vorausgesetzt.\\\"}}}],\\\"images\\\":[{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/1d/1d38c63e-1b7a-4626-a275-864689f406d4\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/5f/5fe51d41-fbe0-4e0a-842d-485b85bd3e89\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/94/9460fdb4-8ddc-478d-8a6d-2dd4a9ef19ff\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/3e/3e7aa5d5-4aa5-4160-951a-db4a1d6f089e\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/23/2331f623-4733-468b-a547-fb4634a9309c\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/4d/4d5ad1e9-92da-458a-9d57-22dc6359abf1\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/99/9920f97e-8c43-4e58-b938-1448c83fe35b\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/23/23597543-b94d-4b62-b749-e95d8c8f71fe\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/50/50706316-bd3d-40b5-87f4-60b6a21b21e4\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/f4/f4c1d711-125b-43d7-ade4-de4f064c3a8a\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/bf/bf82037c-cf0f-4f0d-9f84-42ed88618015\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/21/21d722ab-31ac-4ac4-8779-d8d44ac4a284\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/b5/b585282e-2b0e-4c82-87b0-f38ed77c5c05\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/d7/d7725742-dd1b-4571-bbe2-4125464ae4e7\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/d0/d0ba0285-aa10-44ed-90d4-a4cd9e702705\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/a3/a3eab8d4-371a-43f5-a7f1-8e16159821c7\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/20/204aed69-3c96-4a3f-b2f7-867d3f2b6091\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/be/be00a026-b25f-462e-b682-d2d7e0aa9d04\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/d2/d2db4480-2d83-4e88-946b-4ca3747773b0\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/1f/1fd0ffbc-7c3a-47c6-afd2-77b34e4cce99\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/92/9248fa1c-100c-4d16-a58c-8f51c52068b1\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/fd/fd957af0-0f4f-4959-8551-cc318311a463\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/03/034af762-ec94-4f46-9cd3-759afffbe928\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/29/2911eb6c-fb1a-495b-9643-4dc9addf4b55\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/cc/ccae88a1-da1e-4a1e-9fcc-7461bf3f662d\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/90/90a76ee0-2781-4fb0-a985-0d23e29b3ca2\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/37/37c91859-859f-416e-adbf-aa3e5ae07c7e\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/39/39f15197-0223-4d45-b7c3-93617b865e92\\\"},{\\\"uri\\\":\\\"img.classistatic.de/api/v1/mo-prod/images/45/45c0ba87-ef6f-43d7-a4e4-e9c85227d8e4\\\"}],\\\"sellerId\\\":451924,\\\"priceRating\\\":{\\\"rating\\\":\\\"NO_RATING\\\",\\\"ratingLabel\\\":\\\"Ohne Bewertung\\\",\\\"noRatingReason\\\":\\\"mobile.de bewertet nur dann den Preis eines Fahrzeugs, wenn ausreichend viele Vergleichsdaten vorliegen. Ist dies nicht der Fall, kann mobile.de keine realistische Preisbewertung vornehmen.\\\"},\\\"sealDetails\\\":{\\\"localizedName\\\":\\\"Porsche Approved\\\",\\\"infoUrl\\\":\\\"//static.classistatic.de/vcs/assets/pages/seal_info/porsche-fb204a6b36988c91d20763ceaaf2a958/index.html\\\",\\\"icons\\\":{\\\"FULL_ICON\\\":{\\\"url\\\":\\\"//static.classistatic.de/vcs/assets/images/used_car_seals/140x30/aa463462aa56b415341125482d5e1c87.porsche.svg\\\",\\\"width\\\":140,\\\"height\\\":30},\\\"SMALL_ICON\\\":{\\\"url\\\":\\\"//static.classistatic.de/vcs/assets/images/used_car_seals/40x20/3ddd5244a36bc9def2771624a5fcfb0a.porsche.svg\\\",\\\"width\\\":40,\\\"height\\\":20},\\\"MEDIUM_ICON\\\":{\\\"url\\\":\\\"//static.classistatic.de/vcs/assets/images/used_car_seals/60x30/968d4bd0e500e00fa48ba0e616a7ff57.porsche.svg\\\",\\\"width\\\":60,\\\"height\\\":30}},\\\"elements\\\":[\\\"12-36 Monate Garantie\\\",\\\"Technikcheck\\\",\\\"Mobilitätsgarantie\\\",\\\"Leasing und Finanzierung\\\",\\\"Inzahlungnahme\\\"]},\\\"segment\\\":\\\"Car\\\",\\\"title\\\":\\\"Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE\\\",\\\"usedCarSealId\\\":\\\"PORSCHE\\\",\\\"vc\\\":\\\"Car\\\",\\\"category\\\":\\\"Cabrio/Roadster\\\",\\\"id\\\":42408584926656,\\\"price\\\":{\\\"grs\\\":{\\\"amount\\\":159900,\\\"currency\\\":\\\"EUR\\\",\\\"localized\\\":\\\"159.900 €\\\"},\\\"type\\\":\\\"FIXED\\\"},\\\"customDimensions\\\":{\\\"10\\\":\\\"gold\\\"}},{\\\"isEyeCat\n",
+  "exitCode": 0,
+  "durationMs": 654
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-f30abdd4-32ff-474f-b877-d9f2f3a25743",
+  "query": "https://suchen.mobile.de/fahrzeuge/details.html?id=42408584926656",
+  "action": {
+    "type": "openPage",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=42408584926656"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "ref_id": "turn24view0",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-85019103-01f8-491e-b93d-ca3c2b090268",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://suchen.mobile.de/fahrzeuge/details.html?id=42408584926656').then(async r=>{let t=await r.text();console.log(r.status,r.url,t.match(/<title>(.*?)<\\\\/title>/)?.[1]);console.log(t.includes('159.900'));})\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "97919",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://suchen.mobile.de/fahrzeuge/details.html?id=42408584926656').then(async r=>{let t=await r.text();console.log(r.status,r.url,t.match(/<title>(.*?)<\\/title>/)?.[1]);console.log(t.includes('159.900'));})\""
+    }
+  ],
+  "aggregatedOutput": "403 https://suchen.mobile.de/fahrzeuge/details.html?id=42408584926656 Zugriff verweigert / Access denied\nfalse\n",
+  "exitCode": 0,
+  "durationMs": 508
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_821dfaaf8f74421c98e1f350d971e5ff",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-7725c02e-4cb0-427c-86bc-78aaf25d8df1",
+  "query": "site.mobile.de/auto-inserat \"Carrera S\" \"2020\" \"5,000\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.mobile.de/auto-inserat \"Carrera S\" \"2020\" \"5,000\"",
+      "site.mobile.de/auto-inserat \"Carrera S\" \"2020\" \"10,000\"",
+      "site.mobile.de/auto-inserat \"Carrera S\" \"2020\" \"9,000\"",
+      "site.mobile.de/auto-inserat \"Carrera 4 GTS\" \"Cabriolet\" \"2023\" \"150\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.theclassicvaluer.com",
+      "ref_id": "turn28search0",
+      "snippet": "## 2020 Porsche 911 Carrera S Coupe ... This 2020 Porsche 911 Carrera S has only 10k miles and is finished in Agate Gray Metallic",
+      "title": "Sold | 2020 Porsche 911 Carrera S Coupe",
+      "url": "https://www.theclassicvaluer.com/vehicle-details/bring-a-trailer-2026-04-07-porsche-911-992-carrera-s-coupe-c41daf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.101specialistcars.com",
+      "ref_id": "turn28search1",
+      "snippet": "* Model year: 2020 (20) ... --- 12 MONTHS PORSCHE WARRANTY --- AMAZING SPEC --- SPORTS EXHAUST --- SPORTS CHRONO PACKAGE --- PAN ROOF ---",
+      "title": "Used Porsche 911 Coupe 3.0t 992 Carrera S Pdk Euro 6 (S/s) 2dr in Manchester, Lancashire | 101 Specialist Cars",
+      "url": "https://www.101specialistcars.com/used-cars/porsche-911-3-0t-992-carrera-s-pdk-euro-6-ss-2dr-manchester-202406281244041"
+    },
+    {
+      "type": "text_result",
+      "domain": "images.auto.co.il",
+      "ref_id": "turn28search12",
+      "snippet": "Engine None | 2020 911 Carrera | 2020 911 Carrera Cabriolet None | 2020 911 Carrera S | 2020 911 Carrera S Cabriolet None ---",
+      "title": "Model shown | 911 Carrera 4S",
+      "url": "https://images.auto.co.il/attachment/catalog/pdf/354%2C2870%2C3365%2C3910%2C.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "rennlist.com",
+      "ref_id": "turn28search13",
+      "snippet": "Porsche 911 Carrera S (2020) ... • Incl. first scheduled maintenance at 10,000 miles or 1 year ... • Auto start/stop function",
+      "title": "Date (MM/DD/YYYY)",
+      "url": "https://rennlist.com/forums/attachments/992-245/i-just-spec-ed-a-new-992-carrera-s-1115967/pqricxzvmnw3v6lhab5fjaapes9jtq_usm-1296477d1543690383dl"
+    },
+    {
+      "type": "text_result",
+      "domain": "bringatrailer.com",
+      "ref_id": "turn28search2",
+      "snippet": "# 2020 Porsche 911 Carrera S Coupe ... Aktuelles Gebot: USD $10,000 Endet in Es wird nach Geboten aus der letzten Sekunde gesucht...0Kommentare ... Das",
+      "title": "No Reserve: 2020 Porsche 911 Carrera S Coupe for sale on BaT Auctions - ending June 22 (Lot #248,865) | Bring a Trailer",
+      "url": "https://bringatrailer.com/de/listing/2020-porsche-911-carrera-s-coupe-47/?switch_language=1"
+    },
+    {
+      "type": "text_result",
+      "domain": "newsroom.porsche.com",
+      "ref_id": "turn28search14",
+      "snippet": "5,000 rpm. ... The maximum boost pressure of the 911 Carrera S and 4S is around 16 psi (1.1",
+      "title": "2020 911 Carrera S and 4S Cabriolet",
+      "url": "https://newsroom.porsche.com/dam/jcr%3A027b3198-602a-498d-b4fc-52e6e3b5261a/2020_911_Carrera_S_and_4S_Cabriolet_US_Press_Kit.pdf.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.carlist.my",
+      "ref_id": "turn28search3",
+      "snippet": "# Recon 2020 5K KM 5A CHRONO RADAR PACK Porsche 911 3.0 Carrera S (992) Coupe UNREG - 汽车出售 ... Recon 2020 5K KM 5A",
+      "title": "Porsche 911 3.0 Carrera S 2020 - RM 678,000 - Carlist.my",
+      "url": "https://www.carlist.my/zh/recon-cars/2020-5k-km-5a-chrono-radar-pack-porsche-911-3-0-carrera-s-992-coupe-unreg/18648797"
+    },
+    {
+      "type": "text_result",
+      "domain": "www-backend.pcarmarket.com",
+      "ref_id": "turn28search15",
+      "snippet": "CARFAX Vehicle History Report for this 2017 PORSCHE 911 CARRERA S: WP0AB2A98HS123133 ... <td>Vehicle serviced<br>- Maintenance inspection completed<br>- 10,000 mile service performed<br>- Brake fluid ",
+      "title": "CARFAX Vehicle History Report for this 2017 PORSCHE 911 CARRERA S: WP0AB2A98HS123133",
+      "url": "https://www-backend.pcarmarket.com/static/media/uploads/galleries/photos/uploads/galleries/57165-new-2017-porsche-911-carrera-s/CARFAX_Vehicle_History_Report_for_this_2017_PORSCHE_911_CARRERA_S__WP0AB2A98HS123133.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "porsche.fi",
+      "ref_id": "turn28search16",
+      "snippet": "Malli vuosi: 2023 ... <td>911 Carrera 4 GTS Cabriolet</td> ... <td>241 150</td>",
+      "title": "Malli vuosi: 2023",
+      "url": "https://porsche.fi/wp-content/uploads/2022/07/911_MYP_GTS_TURBO_15072022_SF.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "rennlist.com",
+      "ref_id": "turn28search4",
+      "snippet": "Image: Old Jan 16, 2022 | 10:41 AM ... Joined: Aug 2020 ... I was quoted $30,000 for new engine for my 2017 Macan S",
+      "title": "Has anybody put a tune(56 hp) in there at 992 Carrera S yet - Page 3 - Rennlist - Porsche Discussion Forums",
+      "url": "https://rennlist.com/forums/992/1284246-has-anybody-put-a-tune-56-hp-in-there-at-992-carrera-s-yet-3.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "monroneylabels.com",
+      "ref_id": "turn28search17",
+      "snippet": "Year: 2020 ... Model: 911 Carrera 4S (992) ... - Interior Trim -inc: Metal-Look Instrument Panel Insert, Metal-Look Door Panel Insert, Metal-Look Console Insert and",
+      "title": "Year: 2020  \nMake: Porsche  \nModel: 911 Carrera 4S",
+      "url": "https://monroneylabels.com/cars/2415033-2020-porsche-911/window_sticker.pdf?cfl=4924243925"
+    },
+    {
+      "type": "text_result",
+      "domain": "uae.dubizzle.com",
+      "ref_id": "turn28search5",
+      "snippet": "فُحصت من 16 درهم 445,000 استثنائي بورشه 911 Carrera S AED 6762/month | 2020 Porsche 911 Carrera S | GCC Specs | Ref#488340 2020 44,987",
+      "title": "بورشه 911 كاريرا إس مستعملة للبيع في الإمارات | دوبيزل",
+      "url": "https://uae.dubizzle.com/ar/motors/used-cars/porsche/911/s/trim/carrera-s/"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn28search6",
+      "snippet": "## Porsche 992 Carrera S Approved 08/2028 SportDesgin/Chron ... Accident-free • FR 01/2020 • 101,000 km • 331 kW (450 hp) • Petrol ... How",
+      "title": "Porsche 992 gebraucht in Hagen & der Nähe kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-992-hagen.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "rennlist.com",
+      "ref_id": "turn28search7",
+      "snippet": "* Image: 2021 Porsche 911 - 2021 911 Carrera S - GT Silver with Bordeaux interior - Very well equipped - Used - VIN WP0AB2A91MS222130",
+      "title": "2021 911 Carrera S - GT Silver with Bordeaux interior - Very well equipped - Rennlist - Porsche Discussion Forums",
+      "url": "https://rennlist.com/forums/market/1319878"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.porschemobile.com",
+      "ref_id": "turn28search8",
+      "snippet": "* Brake Type: 4-Wheel Disc ... * Body Style: Cabriolet ... * Tons/yr of CO2 Emissions @ 15K mi/year: 9.3",
+      "title": "2023 Porsche 911 Carrera 4 GTS Mobile AL | Porsche Mobile WP0CB2A90PS248294",
+      "url": "https://www.porschemobile.com/used-Mobile-2023-Porsche-911-Carrera%2B4%2BGTS-WP0CB2A90PS248294"
+    },
+    {
+      "type": "text_result",
+      "domain": "magdeburg.porsche.de",
+      "ref_id": "turn28search9",
+      "snippet": "# Porsche 911 Carrera 4 GTS Cabriolet (992 I) ... 06/2023",
+      "title": "Porsche 911 Carrera 4 GTS Cabriolet gebraucht beim Porsche Zentrum Magdeburg kaufen",
+      "url": "https://magdeburg.porsche.de/de/inventory/porsche/porsche-911-carrera-4-gts-cabriolet-gebraucht-OG5ZMO"
+    },
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn28search10",
+      "snippet": "FR 2020 • 31,000 km • 385 hp • Petrol ... Autopark Nabburg DE-92507 Nabburg ... ## Porsche 911 991.2 Carrera S Cabriolet/LEDER/CHRONO/BOSE/Different model ...",
+      "title": "Porsche Cayman Cabrio gebraucht kaufen bei mobile.de",
+      "url": "https://suchen.mobile.de/auto/porsche-cayman-cabrio.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.classic.com",
+      "ref_id": "turn28search11",
+      "snippet": "* 29,700 miles puts this 2020 car in the higher-mileage band for the market — roughly 9 in 10 992.1 Carrera S Coupes sit below",
+      "title": "2020 Porsche 911 Carrera S VIN: WP0AB2A90LS228760 - CLASSIC.COM",
+      "url": "https://www.classic.com/veh/2020-porsche-911-carrera-s-wp0ab2a90ls228760-nO8qo2W/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn28reddit18",
+      "snippet": "Pretty much all the options on the 911 start at ~$3,000 and go up, and this one has $9k worth of carbon ceramic brakes, so",
+      "title": "2020 Porsche 911 Carrera S Tested",
+      "url": "https://www.reddit.com/r/cars/comments/cbu7nh"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn28search19",
+      "snippet": "It was officially revealed on May 28, 2024 and production began in June 2024.[citation needed] It is available with coupé, cabriolet, and targa body styles,",
+      "title": "Porsche 911 (992)",
+      "url": "https://en.wikipedia.org/wiki/Porsche_911_%28992%29"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-07e297bc-cc61-40d1-9c43-7b7685ab9134",
+  "query": "https://suchen.mobile.de/auto-inserat/porsche-992-carrera-s-weiden/437456329.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://suchen.mobile.de/auto-inserat/porsche-992-carrera-s-weiden/437456329.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "suchen.mobile.de",
+      "ref_id": "turn31view0",
+      "snippet": "Total lines: 701",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/x4eogq1p8fdhq4pFLVtUe4xmu5b4fmnn2EB1rQCwfUdaGGZZPZgNgJPYWRFgJIvmMGI-cn8BJ4OjreS3S2phGTS_TVfjIHoAOpgs6EPQUvZhw1NXycGoz_OqAku4m2df0lkGxNZqq1zQti3N8nUkXJdOtgB0zKT9YRwM3eveWOA",
+      "title": "Porsche 992 in Weiden für 114.999 € | mobile.de",
+      "url": "https://suchen.mobile.de/auto-inserat/porsche-992-carrera-s-weiden/437456329.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "vehicledocumentation.porsche.com",
+      "ref_id": "turn31view1",
+      "snippet": "Total lines: 54",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Qwuy2x-eefleW19Dq8tG1ZVxRhWAgvHkkTmGf-kfluPHZEigEKYbtpQKtODj9rbb47NAkbTt9kQpBSDpbnL6Z6_aQdAVGW36ymotc7QJQXOnZckJNUf0VwUlt09HxeeW7X7e5tq0Q0s9oBIGJES3DQ",
+      "title": "Porsche Vehicle Documentation",
+      "url": "https://vehicledocumentation.porsche.com/"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-fd3aa16f-ad5a-4682-8973-4f9e9647b202",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "vehicledocumentation.porsche.com",
+      "ref_id": "turn34view0",
+      "snippet": "Total lines: 54",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/zWipg2dlEFtfk5sfRZd3r5HQHEbahS-QQgr6GsoVnxYYPKh-wvruW0YcBTPg4dFxHsQFVRsE4qtDa3qbGXxpDb-l92MTMt38OR4v9ZRpaLJMsbuOjEyyyoLbBALNFgTUisenVDp5k0STqy_5NTTr8A",
+      "title": "Porsche Vehicle Documentation",
+      "url": "https://vehicledocumentation.porsche.com/"
+    }
+  ]
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-0b007f9d-0ed0-4ca7-9fef-61cfc582646b",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"node -e \\\"fetch('https://suchen.mobile.de/auto/porsche-992-2023.html').then(r=>r.text()).then(t=>{let a=[...t.matchAll(/.{0,400}GTS 4 CABRIO.{0,16000}/g)].map(x=>x[0]);console.log(a.at(-1)?.slice(0,1800));})\\\"\"",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "86651",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node -e \"fetch('https://suchen.mobile.de/auto/porsche-992-2023.html').then(r=>r.text()).then(t=>{let a=[...t.matchAll(/.{0,400}GTS 4 CABRIO.{0,16000}/g)].map(x=>x[0]);console.log(a.at(-1)?.slice(0,1800));})\""
+    }
+  ],
+  "aggregatedOutput": "undefined\n",
+  "exitCode": 0,
+  "durationMs": 404
+}
+````
+
+## fileChange
+
+````json
+{
+  "type": "fileChange",
+  "id": "exec-44119123-e0b6-4901-8467-1e41b1de6827",
+  "changes": [
+    {
+      "path": "D:\\ANABI - Licitatii\\sources\\porsche-market.json",
+      "kind": {
+        "type": "add"
+      },
+      "diff": "{\n  \"checkedDate\": \"2026-10-12\",\n  \"method\": \"Cautare web mobile.de si verificare pagina dealerului; cel mai mic pret observat in esantionul eligibil, nu minim certificat al intregii piete. Preturi cerute, nu tranzactii. Anul mobile este prima inmatriculare, nu neaparat anul fabricatiei.\",\n  \"vehicles\": [\n    {\n      \"anabiId\": 1262,\n      \"reference\": {\n        \"title\": \"Porsche 992 911 Carrera 4 GTS Cabriolet Clubleder BOSE\",\n        \"priceEurGross\": 159900,\n        \"firstRegistration\": \"10/2023\",\n        \"km\": 10100,\n        \"powerKw\": 353,\n        \"displacementCc\": 2981,\n        \"fuel\": \"Benzina\",\n        \"transmission\": \"Automata\",\n        \"drive\": \"Integrala (Carrera 4)\",\n        \"body\": \"Cabriolet\",\n        \"owners\": 1,\n        \"condition\": \"Fara accidente declarate de vanzator; Porsche Approved\",\n        \"color\": \"Gri\",\n        \"seller\": \"Porsche Zentrum Aachen (Fleischhauer PZ GmbH)\",\n        \"mobileId\": \"42408584926656\",\n        \"url\": \"https://suchen.mobile.de/fahrzeuge/details.html?id=42408584926656\",\n        \"evidenceUrl\": \"https://home.mobile.de/PORSCHE-AACHEN\",\n        \"access\": \"Pretul, kilometrajul, echiparea, anul si identificatorul anuntului verificate in pagina live si datele JSON publice ale dealerului mobile.de. Pagina de detaliu a raspuns 403; linkul este construit din identificatorul observat.\",\n        \"features\": [\"Clubleder\", \"BOSE\", \"4 locuri\", \"Porsche Approved\"],\n        \"comparison\": \"Acelasi model 992.1, caroserie Cabriolet, putere 353 kW, transmisie automata si tractiune integrala; prima inmatriculare 2023. Rulajul este cu 1.479 km mai mic decat ANABI. Dotarile complete, istoricul si pozitia volanului trebuie reconfirmate. Fara ajustare monetara inventata pentru dotari sau stare.\",\n        \"confidence\": \"buna pentru configuratia principala, medie pentru evaluare; reper indicativ\",\n        \"minimumScope\": \"Cel mai mic pret observat cu configuratie 4 GTS Cabriolet 353 kW si rulaj apropiat; piata nu a putut fi verificata integral.\"\n      },\n      \"alternatives\": [\n        {\"title\":\"Porsche 992 Carrera 4 GTS Cabrio, BOSE, InnoDrive, PASM\", \"priceEurGross\":179500,\"firstRegistration\":\"03/2022\",\"km\":13445,\"powerKw\":353,\"url\":\"https://suchen.mobile.de/auto-inserat/porsche-992-carrera-4-gts-cabrio-bose-innodrive-pasm-starnberg/450312329.html\",\"note\":\"An cu unu mai vechi; acelasi model, automata, rulaj apropiat, fara accidente declarate.\"},\n        {\"title\":\"Porsche 992 GTS 4 CABRIO LIFT/BURMESTER/360/CHRONO/SPORT\",\"priceEurGross\":112900,\"firstRegistration\":\"01/2023\",\"km\":120655,\"powerKw\":353,\"url\":\"https://suchen.mobile.de/auto/porsche-992-2023.html\",\"note\":\"EXCLUS ca reper apropiat: rulaj de peste zece ori mai mare decat ANABI. Exista deci oferte nominal mai ieftine pe piata, insa nu comparabile ca uzura.\"},\n        {\"title\":\"Porsche 992-911 CARRERA GTS CABRIO LIFT ACC 360 BOSE\",\"priceEurGross\":145900,\"firstRegistration\":\"03/2023\",\"km\":14000,\"powerKw\":353,\"url\":\"https://suchen.mobile.de/auto/porsche-cabrio-911-gt3.html\",\"note\":\"EXCLUS: model GTS fara 4, tractiunea integrala nu este confirmata; nu trebuie confundat cu Carrera 4 GTS.\"}\n      ],\n      \"official\": {\n        \"vin\":\"WP0ZZZ992PS241575\",\n        \"vinBuildSheetObtained\":false,\n        \"modelSource\":\"https://newsroom.porsche.com/en/2021/products/porsche-911-gts-models-premiere-24875.html\",\n        \"technicalPdf\":\"https://newsroom.porsche.com/dam/jcr:cd5bb202-d506-4078-bdc6-50e1e02deffc/PAG_911_Carrera_4_GTS_PDK_TD_EN.pdf\",\n        \"facts\":\"Familia 992.1 GTS: boxer biturbo 2.981 cmc, 353 kW/480 CP, 570 Nm; Carrera 4 are tractiune integrala; PDK cu 8 trepte. PDF-ul este pentru Coupe 4 GTS, nu pentru Cabriolet, deci masa si performantele caroseriei nu se transfera automat.\",\n        \"note\":\"Date oficiale de model, nu certificat individual de echipare pe VIN. Nu utiliza datele generatiei noi GTS T-Hybrid 3,6 litri.\"\n      }\n    },\n    {\n      \"anabiId\":1279,\n      \"reference\": {\n        \"title\":\"Porsche 992 Carrera S\",\n        \"priceEurGross\":114999,\n        \"firstRegistration\":\"10/2020\",\n        \"km\":26000,\n        \"powerKw\":331,\n        \"displacementCc\":2981,\n        \"fuel\":\"Benzina\",\n        \"transmission\":\"Automata PDK 8 trepte\",\n        \"drive\":\"Spate\",\n        \"body\":\"Coupe\",\n        \"owners\":2,\n        \"condition\":\"Fara accidente declarate de vanzator\",\n        \"origin\":\"Versiune germana; pozitia volanului nu este explicit confirmata textual\",\n        \"seller\":\"Autoland Weiden e.K.\",\n        \"url\":\"https://suchen.mobile.de/auto-inserat/porsche-992-carrera-s-weiden/437456329.html\",\n        \"access\":\"Pagina individuala citita prin instrumentul web; cache indicat aproximativ 3 saptamani vechime.\",\n        \"features\":[\"Piele integrala neagra\",\"LED\",\"Navigatie\",\"Camera parcare\",\"Climatizare 2 zone\"],\n        \"comparison\":\"Acelasi model 992 Carrera S Coupe, 331 kW, benzina, automata si tractiune spate, prima inmatriculare 2020. Rulaj cu 25.349 km peste ANABI. ANABI are volan pe dreapta si prima inmatriculare 2024 desi fabricat 2020; acestea sunt diferente decisive. Nu s-a gasit un exemplar mobile.de RHD apropiat de 651 km.\",\n        \"confidence\":\"slaba; reper contextual, nu comparabil suficient pentru bulina de pret\",\n        \"minimumScope\":\"Nu este minim mobile.de certificat si nu este minim pentru RHD. Nu calcula verdict colorat pe acest reper.\",\n        \"eligibleForColor\":false\n      },\n      \"official\": {\n        \"vin\":\"WP0ZZZ99ZLS281393\",\n        \"vinBuildSheetObtained\":false,\n        \"modelSource\":\"https://newsroom.porsche.com/en/products/porsche-911-new-eighth-generation-992-timeless-machine-world-premiere-los-angeles-2018-news-tv-live-broadcasting-16473.html\",\n        \"technicalPdf\":\"https://newsroom.porsche.com/dam/jcr:d5712d5c-b376-41d9-8201-09731162e143/2020_911_Carrera_S_and_911_Carrera_4S_US_specifications.pdf\",\n        \"facts\":\"992 Carrera S: boxer biturbo 3,0 litri, 331 kW/450 CP, 530 Nm, tractiune spate, PDK 8 trepte. Fisa SUA exprima puterea 443 hp SAE, nu 450 PS metric; nu reprezinta o alta motorizare.\",\n        \"note\":\"Date oficiale de model, nu certificat pe VIN si nu confirmare a dotarilor exemplarului ANABI.\"\n      }\n    }\n  ],\n  \"vinDocumentation\": {\n    \"url\":\"https://vehicledocumentation.porsche.com/usa\",\n    \"officialExplanationUrl\":\"https://newsroom.porsche.com/en_US/2022/technology/porsche-vehicle-documentation-online-service-30039.html\",\n    \"finding\":\"Porsche are portal oficial de solicitare Porsche Production Specifications (PPS), cu VIN si checkout. Include optional echipamentele originale, culorile, tipul motorului/cutiei si data productiei. Nu ofera public in pagina o fisa descarcabila gratis pentru aceste doua VIN-uri; nu s-a comandat si nu s-a obtinut certificatul. Portalul este pentru America de Nord; eligibilitatea VIN-urilor europene si documentatia disponibila trebuie confirmate la Porsche Romania/Centrul Porsche.\",\n    \"limitation\":\"Cautarea exacta a VIN-urilor nu a furnizat fise oficiale publice individuale. Nu se poate deduce lista completa de optionale din VIN. PPS nu contine istoricul de garantie, proprietarii anteriori sau istoricul daunelor.\"\n  }\n}\n"
+    }
+  ],
+  "status": "completed"
+}
+````
+
+## subAgentActivity
+
+````json
+{
+  "type": "subAgentActivity",
+  "id": "call_4fcba17a36c643ce810471f896c8b1c8",
+  "kind": "interacted",
+  "agentThreadId": "01a1304e-d950-75e2-806a-d5894448b76f",
+  "agentPath": "/root"
+}
+````
+
+## Asistent
+
+Am salvat cercetarea în [porsche-market.json](</D:/ANABI - Licitatii/sources/porsche-market.json>).
+
+- **1262 GTS:** reper apropiat la **159.900 €**, 10/2023, 10.100 km; verificat în pagina dealerului mobile.de.
+- **1279 Carrera S:** reper contextual la **114.999 €**, însă fără echivalent confirmat cu volan pe dreapta; recomand bulină gri.
+- Fișele oficiale Porsche de model sunt incluse. Fișele individuale pe VIN nu au fost obținute; portalul Porsche presupune solicitare, nu descărcare publică directă.

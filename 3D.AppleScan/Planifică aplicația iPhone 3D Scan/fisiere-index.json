@@ -904,55 +904,70 @@
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/Aplicație",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/Aplicație/Identitate EVA-3dScan",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/EVA_3D_Scan_documentatie.zip",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/Site/README.md",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "copiat",
+    "saved_path": "fisiere/README--dd63f586.md",
+    "bytes": 3886,
+    "sha256": "5857e4ffdba7846d150288ef2752b810d4591381faf02a85290b547b2f3905da"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/Site/docs/VALIDARE_FINALA.md",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "copiat",
+    "saved_path": "fisiere/VALIDARE_FINALA--f3701cf3.md",
+    "bytes": 3645,
+    "sha256": "c7ebbc32f2884f999caf27efbbdea3830a104e7e05e0270354777cd9d013d4a0"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/Site/docs/campaign-assets.json",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "copiat",
+    "saved_path": "fisiere/campaign-assets--74f0775f.json",
+    "bytes": 9998,
+    "sha256": "3303e7a720dd791ff65faa0de95a657cd41b3bd5464c4562dd99cb736918574a"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/Site/public/assets/campaign",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/documentatie/06_prompturi/PROMPT_MASTER.md",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/documentatie/06_prompturi/PROMPT_RELUARE.md",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/documentatie/08_audit/AUDIT_02_FINAL.md",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "S:/3dscan.eva-org.com/documentatie/09_livrabile/DOSAR_COMPLET.pdf",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri\\3dscan.eva-org.com\\Aplicație\\Cercetare_si_arhitectura_robotica_2026-10-02\\08_livrabile\\DOSAR_COMPLET.pdf",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "copiat",
+    "saved_path": "fisiere/DOSAR_COMPLET--7639a021.pdf",
+    "bytes": 1675858,
+    "sha256": "8c559f7940a440dcfff2d2dba3a16b6404862e1ed5f9f3fe63ea4a2842fb069a"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri\\3dscan.eva-org.com\\Aplicație\\Cercetare_si_arhitectura_robotica_2026-10-02\\README.md",
-    "status": "unitate_sau_server_inaccesibil"
+    "status": "copiat",
+    "saved_path": "fisiere/README--6e8a7d97.md",
+    "bytes": 3437,
+    "sha256": "ca918f07c85d5a625c142b8bfa4c7a35bade14aa91edcff0a0f4a26771fe70c4"
   },
   {
     "source_reference": "http://127.0.0.1:4160/?lang=ro",

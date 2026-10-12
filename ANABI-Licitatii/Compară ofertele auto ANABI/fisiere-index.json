@@ -1,0 +1,162 @@
+[
+  {
+    "source_reference": "/D:/ANABI - Licitatii/catalog/index.html",
+    "status": "cale_linux_indisponibila"
+  },
+  {
+    "source_reference": "D:/ANABI - Licitatii/index.html",
+    "status": "copiat",
+    "saved_path": "fisiere/index--afde0b69.html",
+    "bytes": 3052,
+    "sha256": "39a6727f997f8d856c81017169272d0478c810cd3b6f075d7f28a562ab51ca4f"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\build.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build--444ec06d.mjs",
+    "bytes": 29439,
+    "sha256": "d784625966e34244640047c61e8303c10b0891751fe7930583488482c0bbcdf3"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\catalog\\preview-desktop.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-desktop--289fd9de.png",
+    "bytes": 1618196,
+    "sha256": "8fd6cf9462973f9f3ca1674789cdeb1d9ed043e9653d7b41a339f2e6246bb449"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\catalog\\preview-detail.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-detail--ce0684c3.png",
+    "bytes": 683602,
+    "sha256": "37ca5671bd2bdc58d45ca8905c657be6b971a29cb5da99bafd1e558da9e51603"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\catalog\\preview-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-mobile--72a65490.png",
+    "bytes": 1646865,
+    "sha256": "7815d233be7991774d3f3d276ad2c29880348e1d838bdfe810692335f399f38c"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\collect.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/collect--15ebb8e6.mjs",
+    "bytes": 1198,
+    "sha256": "898ecff149d2484291edc3f68a503b47186c3a252df5487eec24887ae49e51ba"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\details.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/details--3967474e.mjs",
+    "bytes": 1778,
+    "sha256": "acaef984104b9ff4ad0903d0a75b1371b41ab2e3180a41b50c888693715b91ca"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\finalize.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize--53efe384.mjs",
+    "bytes": 1741,
+    "sha256": "f0f33392e463abda7ca53926fb45cdbe320b740330c1b9c15362db4cd2e588da"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\mobile-parse.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/mobile-parse--b322a528.mjs",
+    "bytes": 1117,
+    "sha256": "cd8456152993ff28eb222e905bdad28f663f3050e9a1a4bcae47da193dafc392"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\portal-build.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/portal-build--e6d89a2d.mjs",
+    "bytes": 11556,
+    "sha256": "e8ffdda1de9ff4e89026e6980aa655710e7d53dda01fd0db7b53c1e90e1852e8"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\portal-verify.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/portal-verify--9e0ae004.cjs",
+    "bytes": 3254,
+    "sha256": "fe8f1a8f6e6ae9ab5b57d05d0dc30844abe0ddcc5f1074bc11ed769f8feb6c5d"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\portal\\app.js",
+    "status": "copiat",
+    "saved_path": "fisiere/app--79dbca49.js",
+    "bytes": 7356,
+    "sha256": "11d1e5795d5750805f3732c55c307e5f48db6a66dbb40f3dbc3992c38bf6ff9b"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\portal\\preview-executori.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-executori--0a7e8a88.png",
+    "bytes": 85495,
+    "sha256": "7b458dd762e48491aac453eceb24e5fb302f05f4b7a15c10fd3fbeb4b761278a"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\portal\\preview-home.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-home--433ca540.png",
+    "bytes": 104568,
+    "sha256": "665d3575805cf3268fa85112e0dd319ac37ac46085e21dc9afc9dd250fa84124"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\portal\\preview-insolventa-mobile.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-insolventa-mobile--d882e9cb.png",
+    "bytes": 32463,
+    "sha256": "d23502a855ec7b608613a73e47a236a944f04a4448d8920ae555a52959d31ab3"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\portal\\style.css",
+    "status": "copiat",
+    "saved_path": "fisiere/style--70237275.css",
+    "bytes": 9323,
+    "sha256": "b0cc9951bf730fee299c47c173ce321168cc8fc839e1604d65388077661f496c"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\prepare.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare--191ebc69.mjs",
+    "bytes": 4200,
+    "sha256": "e2141dd2710a27cef3e77231ebcd714992bcffed971873f390d0680ca3927a26"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\preview.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/preview--c273590b.mjs",
+    "bytes": 812,
+    "sha256": "b68d6219b6f5bd7435fcb63847d6d987c56f9b400fda63c12218047eb8ddc776"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\sources\\audi-market.json",
+    "status": "copiat",
+    "saved_path": "fisiere/audi-market--31d702ee.json",
+    "bytes": 3090,
+    "sha256": "3e7beee609b2e2c0765877d383e66f16e1eb9306570f7b99baaa08c830a027f9"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\verify.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/verify--546cd562.cjs",
+    "bytes": 2773,
+    "sha256": "327a5aa429694f901500de5048f6a9d28e93654ec7ce508271f092f224557f57"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/ads?page=1\\&shortBy=price_high_to_low",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://prod.executori.ro/repes",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.licitatii-insolventa.ro/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.unejr.ro/",
+    "status": "referinta_externa_necopiata"
+  }
+]
