@@ -170,33 +170,27 @@
   },
   {
     "source_reference": "S:\\\\dracula-book\\\\",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\\\dracula-book\\\\DOCUMENTATIE.md",
-    "status": "copiat",
-    "saved_path": "fisiere/DOCUMENTATIE--d0c67318.md",
-    "bytes": 3035,
-    "sha256": "e8d88a62ccc426a32453cd64320054df08ed611b33770302efc4638947d66f83"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\dracula-book\\DOCUMENTATIE.md",
-    "status": "copiat",
-    "saved_path": "fisiere/DOCUMENTATIE--d0c67318.md",
-    "bytes": 3035,
-    "sha256": "e8d88a62ccc426a32453cd64320054df08ed611b33770302efc4638947d66f83"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri\\_backup-20260923-1840",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri\\_backup-dracula-book-20260924",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri\\schallergasse35\\_backup-links-20260929",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\\\\\d identity.user_tokens\\nselect purpose, used_at, expires_at > now() valid, created_at from identity.user_tokens order by created_at desc limit 4;\\n",

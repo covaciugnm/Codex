@@ -2,7 +2,7 @@
 
 ID: `01a11589-044f-7c10-8ff4-8a1ccdf5b78c`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-11T14:23:09.537034+00:00
+Export UTC: 2026-10-12T08:25:51.143327+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -128,3 +128,24 @@ Emailul PECH care transmite oferta: **2026.09.17**, ID `63cd2bcb-2160-4027-b6c8-
 **REALIG /Christian Gschirtz** are și o poziție istorică **24.000 EUR net** pentru structură/proiectare de execuție/recepții armare, în oferta2026.03.26. Capitolul o califică **„Summen angenommen”** — sumă estimată într-un pachet mai larg. Nu o prezenta drept ofertă fermă separată. Contact: `cg@realig.at`.
 
 **Neid și Avunduk au refuzat pentru lipsă de capacitate** (2026.08.26, respectiv2026.09.10); nu sunt alternative disponibile confirmate. MATTES exclude statică de execuție; LVR presupune existența staticii. Ofertele BauKG/Bauwerksbuch/GU nu înlocuiesc proiectarea structurii.
+
+## Asistent
+
+Verific modificările locale și termenele de astăzi, inclusiv oferta Berger și dosarul Commerz, pe baza ultimelor registre salvate.
+
+
+## Asistent
+
+**2026.10.12 — verificare locală read-only:** nu există fișiere noi sau modificate față de indexul generat **2026.10.11, 12:44:00 România**. Exporturile retimestampate și scanul mixt au fost deja reconciliate; nu aduc noutăți externe.
+
+Repere urgente astăzi:
+
+- **Commerz/DONAU:** termen comunicat **2026.10.12**, creanță solicitată **5.326,15 EUR** = 4.775,43 prime +550,72 accesorii. Include deja Q4; nu se adaugă separat1.591,81EUR. Nu există local confirmare de plată, amânare, suspendare a costurilor ori restabilire a acoperirii. Ultimele surse: Commerz2026.09.30, `1fa19552-d1fd-459e-92b3-57ed5319d18c`; DONAU2026.10.06, `2c273256-a0bf-408b-bb22-09718372e888`. Referințe **2616052 /2044001194**.
+- **Markus Berger:** oferta2026.08.17 are valabilitate8săptămâni; **2026.10.12 este data calculată de expirare**. Preț45.000EUR net, incluzând Prüfingenieur. Nicio prelungire, acceptare ori disponibilitate actuală confirmată local. Contact `office@bmberger.at`; primit `ce6905cb-0c93-4e6b-8cde-7e300dfc874c`.
+- **Alternativa PECH:** oferta2026-470/AN01 din2026.09.17,69.300EUR net,90zile — termen calculat2026.12.16. Nu expiră astăzi; comandă nesemnată și calendar neconfirmat.
+
+**TOMS — reperul corect din reverificarea2026.10.11:** V4.1 a fost trimis2026.10.02; răspunsul2026.10.08 refuză preluarea momentan pentru lipsă de resurse, dar citează firulv3. Nu confirmă analiza explicită av4.1 și nici disponibilitatea unor componente separate. Nu există acceptare/semnături/începere. **D1 nu a început; vechile datev3 nu sunt restanțe contractuale.** Clarificarea refuzului și cererea unei recomandări de înlocuitor sunt neexpediate.
+
+Alte repere: vizitaSCHAUERLEUTE2026.10.09 rămâne neconfirmată efectuată; Füglister promisese oferta în săptămâna **2026.10.12–18**, fără zi fixă.
+
+Acoperire locală: registrul2026.10.11 are801mesaje și783/783anexe documentare salvate,68corpuri trunchiate. Ultima verificare generală: office2026.10.11 08:00:13; reverificarea punctualăTOMS: office12:30:10; cosmin@ig.ro2026.10.10 02:30:10. Această citire locală nu extinde acoperirea emailurilor și nu confirmă plăți.

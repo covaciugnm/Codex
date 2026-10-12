@@ -49,6 +49,20 @@
     "sha256": "57e4bc8186a4daf3193115b947b6e2d2405f8edc6b5fe6b98ff65e192fe71218"
   },
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.12 Dovezi temporare Eva.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.12 Dovezi temporare Eva--8da07d9c.json",
+    "bytes": 33635,
+    "sha256": "ac57b32bfc3500b76f6b00cd07fe1acd3dfbcccf672ffb9d1df98b1f8b2c78cc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.12 Salveaza verificare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.12 Salveaza verificare--08fda3be.py",
+    "bytes": 8933,
+    "sha256": "505f3c78faa966c8a632dd65738678830defe71c5ee40bfd9e114cb50e751f85"
+  },
+  {
     "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
     "status": "fisier_inexistent_sau_director"
   },

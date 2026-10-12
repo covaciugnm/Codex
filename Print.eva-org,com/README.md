@@ -1,6 +1,6 @@
 # Print.eva-org,com
 
-Conversații: 1; subagenți: 0; mesaje: 16; fișiere copiate: 36.
+Conversații: 1; subagenți: 0; mesaje: 16; fișiere copiate: 33.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|

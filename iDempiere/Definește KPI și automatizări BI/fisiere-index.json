@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\bi_catalog.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/bi_catalog--48f24f94.mjs",
+    "bytes": 35384,
+    "sha256": "7a1f2bcb3c21787a85c51c40da43cd912e5aa0aa088d46cf01808b745af81b4a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\bi_extensions.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/bi_extensions--f3eac637.mjs",
+    "bytes": 33593,
+    "sha256": "02efc8872c3d43bd4e708d1a80d365234f033740fdf3b8ffb51541f73d06e7c3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\11\\01a12b7e-5143-7d52-98d9-06cd528e1a15\\bi_products.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/bi_products--beb211e8.mjs",
+    "bytes": 11413,
+    "sha256": "1357b470f09a9bdeed0aac85966851a1e7a3b2e95d894cbeb48df0b6fc1966b9"
+  }
+]

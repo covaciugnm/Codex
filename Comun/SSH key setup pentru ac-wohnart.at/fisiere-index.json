@@ -102,59 +102,47 @@
   },
   {
     "source_reference": "S:/dracula-design/dracula",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:/dracula-design/dracula/*.jpg",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:/dracula-design/dracula/3c9a04a8-cf00-48c1-9e7a-dca4a1073a1d.jpg",
-    "status": "copiat",
-    "saved_path": "fisiere/3c9a04a8-cf00-48c1-9e7a-dca4a1073a1d--2420d623.jpg",
-    "bytes": 326050,
-    "sha256": "fdc143091f4681a9a9ad1c4b1b798f9e43777092e45e2a89c1bae5d6d3c2292b"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:/dracula-design/dracula/corectate",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:/dracula-design/dracula/corectate/_CORESPONDENTA.csv",
-    "status": "copiat",
-    "saved_path": "fisiere/_CORESPONDENTA--85027591.csv",
-    "bytes": 2134,
-    "sha256": "f183b76faa5a7f4626cb8cfe1cb359c2b1f7e356c2729b3d0f82b72cafb3de33"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:/dracula-design/dracula/corectate/dd-{i:02d}-{n}.jpg",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\dracula-book\\_scripts\\",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\dracula-book\\reader\\data\\books\\",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\dracula-design\\_jurnal\\JURNAL.md",
-    "status": "copiat",
-    "saved_path": "fisiere/JURNAL--f707907c.md",
-    "bytes": 591356,
-    "sha256": "c90a5b32bb81c18e2aee7899a600accc2a16d84576587e7e2453299924b8a266"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\dracula-design\\dracula\\corectate\\",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\dracula-design\\dracula\\corectate\\_CORESPONDENTA.csv",
-    "status": "copiat",
-    "saved_path": "fisiere/_CORESPONDENTA--85027591.csv",
-    "bytes": 2134,
-    "sha256": "f183b76faa5a7f4626cb8cfe1cb359c2b1f7e356c2729b3d0f82b72cafb3de33"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "Z:\\00. Firme\\DRACULA BOOK SRL - CUI TBD",

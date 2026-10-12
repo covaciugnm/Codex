@@ -8,8 +8,9 @@
     "conversations": 1,
     "subagents": 0,
     "messages": 16,
-    "files_copied": 36,
-    "content_sha256": "4d1448443c0a728ca05c25beec658c7eb4446b9b0db21266eb7044305e81ea84"
+    "files_copied": 33,
+    "folder": "Print.eva-org,com",
+    "content_sha256": "70b74bea46f2075ebd5f61a6bc906055133cb9fdc22324bb3b5db0a5192aa806"
   },
   "threads": [
     {
@@ -24,7 +25,7 @@
       "project": "Print.eva-org,com",
       "assignment_method": "app_assignment",
       "parent_thread_id": null,
-      "export_started_at_utc": "2026-10-07T08:10:14.831141+00:00",
+      "export_started_at_utc": "2026-10-12T08:25:51.143327+00:00",
       "source_bytes": 4100358,
       "invalid_json_lines": 0,
       "history_source": "items",
@@ -32,8 +33,8 @@
       "item_count": 173,
       "message_count": 16,
       "content_sha256": "1d7d793148ae9233521bd2c62a88053133b0d8fa354f546357a52aa1e02fc331",
-      "files_copied": 36,
-      "references_not_copied": 4,
+      "files_copied": 33,
+      "references_not_copied": 7,
       "subagent": false,
       "folder": "Print.eva-org,com/Creează site-ul EVA PRINT"
     }

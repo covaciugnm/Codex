@@ -15,46 +15,43 @@
   },
   {
     "source_reference": "S:\\_test-claude",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\_test-claude\\sub",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\_test-claude\\sub\\copie.html",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\_test-claude\\sub\\proba.txt",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\_test-claude\\sub\\proba2.txt",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\dracula-book\\public\\images\\",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\schallergasse35\\public\\index.html",
-    "status": "copiat",
-    "saved_path": "fisiere/index--c65893c4.html",
-    "bytes": 7019,
-    "sha256": "ce92d4fb599bf45ced164e57b0ba6fbcbfb44646ab8f6861fa6e59f7eb3b7b13"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri\\dracula-book",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri\\schallergasse35",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "https://www.ac-wohnart.at",

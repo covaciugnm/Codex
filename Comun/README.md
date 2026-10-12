@@ -1,6 +1,6 @@
 # Comun
 
-Conversații: 157; subagenți: 38; mesaje: 30008; fișiere copiate: 1944.
+Conversații: 157; subagenți: 38; mesaje: 30008; fișiere copiate: 1933.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -171,31 +171,31 @@ Conversații: 157; subagenți: 38; mesaje: 30008; fișiere copiate: 1944.
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--3923b2e0/conversatie.md) | Conversație | 7 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--a0e7bdd5/conversatie.md) | Conversație | 7 |
 | [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--909c809b/conversatie.md) | Conversație | 28 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--b3bb0f21/conversatie.md) | Conversație | 11 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--b6996214/conversatie.md) | Conversație | 5 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--42865a1c/conversatie.md) | Conversație | 8 |
-| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--ddf6ae05/conversatie.md) | Conversație | 31 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--a32474fc/conversatie.md) | Conversație | 11 |
-| [EVA 3D Scan – agent help non-stop (server + aplicație)](EVA%203D%20Scan%20%E2%80%93%20agent%20help%20non-stop%20%28server%20%2B%20aplica%C8%9Bie%29--a1a70c93/conversatie.md) | Conversație | 34 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--3596333e/conversatie.md) | Conversație | 8 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--a128252e/conversatie.md) | Conversație | 15 |
-| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--75c8b916/conversatie.md) | Conversație | 43 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--048ca1c1/conversatie.md) | Conversație | 14 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--1e158255/conversatie.md) | Conversație | 7 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--e971bf72/conversatie.md) | Conversație | 8 |
-| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--0eba50b4/conversatie.md) | Conversație | 27 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--99a00e89/conversatie.md) | Conversație | 11 |
-| [EVA 3D Scan – agent help non-stop (server + aplicație)](EVA%203D%20Scan%20%E2%80%93%20agent%20help%20non-stop%20%28server%20%2B%20aplica%C8%9Bie%29--fe2ed898/conversatie.md) | Conversație | 13 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--0df97341/conversatie.md) | Conversație | 8 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--67b75770/conversatie.md) | Conversație | 8 |
-| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--556ddb56/conversatie.md) | Conversație | 42 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--9925df44/conversatie.md) | Conversație | 22 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--56447b5c/conversatie.md) | Conversație | 8 |
-| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--4ef7b0f9/conversatie.md) | Conversație | 5 |
-| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--b70446c5/conversatie.md) | Conversație | 11 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--3fcd67a3/conversatie.md) | Conversație | 14 |
 | [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--a9c360d2/conversatie.md) | Conversație | 38 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--f6ae6809/conversatie.md) | Conversație | 8 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--48ba259e/conversatie.md) | Conversație | 8 |
 | [EVA 3D Scan – agent help non-stop (server + aplicație)](EVA%203D%20Scan%20%E2%80%93%20agent%20help%20non-stop%20%28server%20%2B%20aplica%C8%9Bie%29--428d45c0/conversatie.md) | Conversație | 11 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--b932a277/conversatie.md) | Conversație | 5 |
+| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--b70446c5/conversatie.md) | Conversație | 11 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--56447b5c/conversatie.md) | Conversație | 8 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--4ef7b0f9/conversatie.md) | Conversație | 5 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--9925df44/conversatie.md) | Conversație | 22 |
+| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--556ddb56/conversatie.md) | Conversație | 42 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--67b75770/conversatie.md) | Conversație | 8 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--0df97341/conversatie.md) | Conversație | 8 |
+| [EVA 3D Scan – agent help non-stop (server + aplicație)](EVA%203D%20Scan%20%E2%80%93%20agent%20help%20non-stop%20%28server%20%2B%20aplica%C8%9Bie%29--fe2ed898/conversatie.md) | Conversație | 13 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--99a00e89/conversatie.md) | Conversație | 11 |
+| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--0eba50b4/conversatie.md) | Conversație | 27 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--e971bf72/conversatie.md) | Conversație | 8 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--1e158255/conversatie.md) | Conversație | 7 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--048ca1c1/conversatie.md) | Conversație | 14 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--a128252e/conversatie.md) | Conversație | 15 |
+| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--75c8b916/conversatie.md) | Conversație | 43 |
+| [EVA 3D Scan – agent help non-stop (server + aplicație)](EVA%203D%20Scan%20%E2%80%93%20agent%20help%20non-stop%20%28server%20%2B%20aplica%C8%9Bie%29--a1a70c93/conversatie.md) | Conversație | 34 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--3596333e/conversatie.md) | Conversație | 8 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--a32474fc/conversatie.md) | Conversație | 11 |
+| [EVA 3D Scan – raport de progres continuu + paza limitei săptămânale](EVA%203D%20Scan%20%E2%80%93%20raport%20de%20progres%20continuu%20%2B%20paza%20limitei%20s%C4%83pt%C4%83m%C3%A2nale--ddf6ae05/conversatie.md) | Conversație | 31 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--42865a1c/conversatie.md) | Conversație | 8 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--b6996214/conversatie.md) | Conversație | 5 |
+| [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--b3bb0f21/conversatie.md) | Conversație | 11 |

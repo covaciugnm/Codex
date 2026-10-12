@@ -2,8 +2,8 @@
   "projects": {
     "5c179290-3222-4036-8042-710f2e84db88": {
       "name": "Comun",
-      "content_sha256": "7da90e22c1551a3faab448a84c3a32260e482913e8cd8becf4e71016198c6dac",
-      "snapshot_utc": "2026-10-11T08:22:35.726694+00:00",
+      "content_sha256": "111ac857c54dd20239dc34032abc51e7de17fb42a92483bae6f1f700490dea3a",
+      "snapshot_utc": "2026-10-12T08:25:51.143327+00:00",
       "folder": "Comun"
     },
     "59b8aaaa-7677-449b-b80b-e79b02b3b9ab": {
@@ -38,14 +38,14 @@
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "054d11240be08562af5b89cef36d50a4451baf670b65d67ebd7df330ac3ec11d",
-      "snapshot_utc": "2026-10-11T14:23:09.537034+00:00",
+      "content_sha256": "536308c1a7cc2f1bade123bc94be0e98119d2afa44d180ee8ba495bf1ddd0fb1",
+      "snapshot_utc": "2026-10-12T08:25:51.143327+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
       "name": "Bloc Centru",
-      "content_sha256": "fd408dd4076c36f46fcae2225fed159a35e19f93dedbfde651607b104d2069b8",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "61d8f693594c2d6ca0347dc880276732df656a2fe82a7645439845a1125cd685",
+      "snapshot_utc": "2026-10-12T08:25:51.143327+00:00",
       "folder": "Bloc Centru"
     },
     "b56f4502-5596-48b3-ab73-9624c7b0cd4a": {
@@ -80,20 +80,20 @@
     },
     "5ecee0ff-6b67-4fba-b6fb-a38674476433": {
       "name": "Print.eva-org,com",
-      "content_sha256": "4d1448443c0a728ca05c25beec658c7eb4446b9b0db21266eb7044305e81ea84",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "70b74bea46f2075ebd5f61a6bc906055133cb9fdc22324bb3b5db0a5192aa806",
+      "snapshot_utc": "2026-10-12T08:25:51.143327+00:00",
       "folder": "Print.eva-org,com"
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "0c36de5b513f690fce32bb96a27ca581d3ecf110c57016df0bda2bb7dfa60964",
-      "snapshot_utc": "2026-10-12T02:25:19.601223+00:00",
+      "content_sha256": "5cb52f3db63212d626517527f5dc802e84f35be3b16bbe22219c7abe44bfc41b",
+      "snapshot_utc": "2026-10-12T08:25:51.143327+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
       "name": "iDempiere",
-      "content_sha256": "0348ce3f9481f8b0264fd3357c892145fff70d7a29541bd5cac8e9c0547aee03",
-      "snapshot_utc": "2026-10-11T20:24:09.131464+00:00",
+      "content_sha256": "0d178c78312d62ba36c72a4f30f8e1c41b633a359d8c5395ade38b0686d5433a",
+      "snapshot_utc": "2026-10-12T08:25:51.143327+00:00",
       "folder": "iDempiere"
     },
     "a85004ee-5acd-4f38-b445-2289450e8065": {
@@ -104,8 +104,8 @@
     },
     "_Fara proiect": {
       "name": "_Fara proiect",
-      "content_sha256": "7a2d2312a4fd2a4fe4b3a78013e92309647905745f61c78797cbd1e2eba10e40",
-      "snapshot_utc": "2026-10-11T08:22:35.726694+00:00",
+      "content_sha256": "4df4480057e995777f84033722227ac22f65871589485f199dcc5c9a3b720272",
+      "snapshot_utc": "2026-10-12T08:25:51.143327+00:00",
       "folder": "_Fara proiect"
     },
     "0342b0dc-be68-43fb-b135-3d436d2d009d": {
@@ -121,5 +121,5 @@
       "folder": "MP3.Varvi"
     }
   },
-  "updated_at_utc": "2026-10-12T02:32:38.819520+00:00"
+  "updated_at_utc": "2026-10-12T08:38:25.855937+00:00"
 }

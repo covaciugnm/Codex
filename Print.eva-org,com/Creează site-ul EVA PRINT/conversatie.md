@@ -2,7 +2,7 @@
 
 ID: `01a0fbd7-f9a0-7df1-839f-a3792ebc6e66`  
 Proiect: Print.eva-org,com  
-Export UTC: 2026-10-07T08:10:14.831141+00:00
+Export UTC: 2026-10-12T08:25:51.143327+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 

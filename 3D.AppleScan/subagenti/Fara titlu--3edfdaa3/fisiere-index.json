@@ -9,7 +9,7 @@
   },
   {
     "source_reference": ".\", \"pub_date\": null, \"crawl_date\": null, \"pub_timestamp\": 1763510400.0, \"crawl_timestamp\": 1790769212.0, \"ref_id\": \"turn236210search22\"}, \"status\": \"finished_successfully\", \"end_turn\": null, \"weight\": 1.0, \"metadata\": {\"debug_sonic_thread_id\": \"thread_6ac52e3e5cd8832a948e6cc73ef5a034\", \"search_engine\": \"system2-web\", \"result_source\": \"labrador\", \"ref_id\": \"turn236210search22\", \"minimal_str\": \"README.md · facebook/sam-3d-objects at refs/pr/3 (https://huggingface.co/facebook/sam-3d-objects/blob/refs%2Fpr%2F3/README.md?code=true",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": ".\", \"pub_date\": null, \"crawl_date\": null, \"pub_timestamp\": null, \"crawl_timestamp\": 1789903318.0, \"ref_id\": \"turn236210search26\"}, \"status\": \"finished_successfully\", \"end_turn\": null, \"weight\": 1.0, \"metadata\": {\"debug_sonic_thread_id\": \"thread_6ac52e3e5cd8832a948e6cc73ef5a034\", \"search_engine\": \"system2-web\", \"result_source\": \"labrador\", \"ref_id\": \"turn236210search26\", \"minimal_str\": \"Full Code of facebookresearch/sam-3d-objects for AI - Complete Repository Source | GitExtract (https://gitextract.com/facebookresearch/sam-3d-objects",
@@ -17,7 +17,7 @@
   },
   {
     "source_reference": "./lightglue/superpoint.py",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "C:/Users/User/.codex/visualizations/2026/10/05/01a10ade-37d0-7f91-95c0-23125e63e891/plan-2026-10-06/04-candidati-research.md",

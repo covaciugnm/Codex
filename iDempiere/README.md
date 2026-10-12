@@ -1,6 +1,6 @@
 # iDempiere
 
-Conversații: 11; subagenți: 0; mesaje: 364; fișiere copiate: 371.
+Conversații: 11; subagenți: 0; mesaje: 368; fișiere copiate: 374.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -14,4 +14,4 @@ Conversații: 11; subagenți: 0; mesaje: 364; fișiere copiate: 371.
 | [Compare open-source CRM options](Compare%20open-source%20CRM%20options/conversatie.md) | Conversație | 28 |
 | [Compară soluții BI pentru iDempiere](Compar%C4%83%20solu%C8%9Bii%20BI%20pentru%20iDempiere/conversatie.md) | Conversație | 31 |
 | [Compară soluții Cash Flow](Compar%C4%83%20solu%C8%9Bii%20Cash%20Flow/conversatie.md) | Conversație | 25 |
-| [Definește KPI și automatizări BI](Define%C8%99te%20KPI%20%C8%99i%20automatiz%C4%83ri%20BI/conversatie.md) | Conversație | 8 |
+| [Definește KPI și automatizări BI](Define%C8%99te%20KPI%20%C8%99i%20automatiz%C4%83ri%20BI/conversatie.md) | Conversație | 12 |

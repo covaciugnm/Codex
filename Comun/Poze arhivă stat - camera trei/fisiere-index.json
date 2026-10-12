@@ -46,46 +46,43 @@
   },
   {
     "source_reference": "S:/schallergasse35",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:/schallergasse35/import_p3_arhiva.sql",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\\\schallergasse35",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\\\schallergasse35\\\\data\\\\uploads\\\\pages\\\\3\\\\c0897343529943bf8a3b8e1b2dad5c8d.JPEG",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\claude_key.pub",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\schallergasse35/",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\schallergasse35\\",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\schallergasse35\\data\\uploads\\pages\\3",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "S:\\schallergasse35\\reset_parola.sh",
-    "status": "copiat",
-    "saved_path": "fisiere/reset_parola--2445adf4.sh",
-    "bytes": 951,
-    "sha256": "facc08f788464a03decadbe4e795fcfc2a7c56a33f6acb1bc68d504faf9560db"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\192.168.100.151\\site-uri\\schallergasse35",
-    "status": "fisier_inexistent_sau_director"
+    "status": "unitate_sau_server_inaccesibil"
   },
   {
     "source_reference": "\\\\\\\\192.168.100.151\\\\site-uri\\\\schallergasse35",

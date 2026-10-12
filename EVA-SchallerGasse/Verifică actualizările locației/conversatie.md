@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-11T14:23:09.537034+00:00
+Export UTC: 2026-10-12T08:25:51.143327+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -448,3 +448,35 @@ La **Dr. PECH**, numai statica de execuție este **42.000 EUR net**. Contactul p
 La **Berger**, contactul este **Markus Berger — office@bmberger.at**. Valabilitatea de opt săptămâni ajunge la **2026.10.12**, deci reconfirmarea este urgentă.
 
 Pachetele au conținut diferit. **Disponibilitatea actuală și calendarul de lucru trebuie confirmate la ambele firme.**
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-zilnic-schallergasse-35</automation_id>
+  <current_time_iso>2026-10-12T05:00:30.815Z</current_time_iso>
+  <instructions>
+Verifică zilnic la ora 08:00, Europe/Bucharest, comunicările și actualizările noi privind Schallergasse 35, 1120 Wien. Începe cu folder map/README.md și inventarul din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling), apoi cele mai recente statusuri, registre și jurnale datate. Caută în Eva-Mail mesajele primite și trimise după ultima verificare, cu suprapunere de o zi: toate mesajele office@ac-wohnart.at și căutări globale după adresă, firme și referințe relevante. Verifică ultima sincronizare și paginează toate rezultatele. Compară ID-urile cu arhiva, citește integral mesajele noi relevante și originalele pentru sume și decizii. Salvează mesajele și atașamentele relevante pe disc, cu dată, subiect, expeditor, destinatari, CC, ID Eva-Mail și statut primit/trimis/draft; păstrează textul original și datele tehnice. Folosește YYYY.MM.DD la începutul numelor documentelor noi și în rezumate. Păstrează istoricul; actualizează jurnalul proiectului și al partenerului cu status scurt, ultimul răspuns, următorul pas și sursa; actualizează incremental indexul. Afișează în acest chat, în română, doar noutățile față de ultima verificare, cu sume, termene, acțiuni necesare și surse. Dacă nu sunt noutăți, raportează concis că nu ai identificat comunicări noi și limitele acoperirii. Distinge draftul de mesajul trimis, oferta de contractul acceptat, invitația de întâlnirea efectuată și ordinul de plată de debitul/încasarea confirmată. Nu trimite emailuri, nu semna și nu efectua plăți.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific comunicările noi pentru Schallergasse 35 față de ultima preluare, inclusiv TOMS, ofertele alternative de structură și DONAU/Commerz.
+
+
+## Asistent
+
+Nu am găsit comunicări relevante noi față de ieri. Căsuța office este sincronizată până la 2026.10.12, 08:00; cosmin@ig.ro rămâne la 2026.10.10, 02:30. Înregistrez verificarea și păstrez ofertele, refuzul TOMS și plățile neconfirmate cu statutul lor actual.
+
+
+## Asistent
+
+**2026.10.12:** Nu am identificat comunicări sau atașamente relevante noi pentru Schallergasse 35 față de verificarea precedentă.
+
+Am verificat toate rezultatele celor **46 de căutări**. Acoperire:
+
+- **office@ac-wohnart.at:** până la 2026.10.12, 08:00.
+- **cosmin@ig.ro:** până la 2026.10.10, 02:30 — comunicările ulterioare nu sunt acoperite de sincronizare.
+
+Jurnalele și indexul sunt actualizate. [Raportul verificării](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.12 Verificare zilnica/2026.10.12 Raport verificare.txt>).
