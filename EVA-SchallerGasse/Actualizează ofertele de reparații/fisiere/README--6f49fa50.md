@@ -1,3 +1,9 @@
+# 2026.10.12 — Propuneri contracte BERGER și PECH pentru lectură
+
+Dosar: ../04. Firme + Executie/2026.10.12 Propuneri contracte Berger si Pech/. Propuneri Word/PDF în germană cu sinteză română: BERGER 45.000 EUR net, 18 pagini; PECH 69.300 EUR net, 23 pagini. Originalele ofertelor și mesajelor sunt copii identice. Toate extinderile structurale, Prüfingenieur și Bauwerksbuch pentru existent+nou sunt propuse în totalurile păstrate. Fără BauKG și management general REALIG. NETRIMISE/NESEMNATE; acceptarea și calendarul efectiv nu sunt confirmate. Începe cu 2026.10.12 Propunere contract BERGER.docx sau PECH.docx, apoi 2026.10.12 Audit contracte.txt și registrul de propuneri. Jurnalele proiectului și partenerilor au fost completate, istoricul păstrat; nu sunt mesaje noi.
+
+ISTORIC PĂSTRAT
+
 # 2026.10.12 — Comparație servicii și prețuri structură
 
 Rezultat: ../04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Comparatie servicii si preturi structura.xlsx. Două foi: 1 Servicii (47 rânduri, capitolele v4.1 și discuțiile TOMS) și 2 Preturi (24 rânduri, poziții, totaluri și condiții). Datele TOMS, BERGER și PECH sunt documentate separat în același dosar. Totaluri net 37.900 /45.000 /69.300 EUR, cu domenii diferite. TOMS v4.1 TRIMIS, acceptare neconfirmată și refuz actual 2026.10.08; BERGER/PECH acceptare neconfirmată. Nu sunt comunicări noi sau plăți. Jurnalul actualizării: ../04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Jurnal actualizare comparatie.txt. Verificarea zilnică 2026.10.12 este păstrată mai jos.

@@ -4522,3 +4522,28 @@ Am creat [pagina principală](<D:/ANABI - Licitatii/index.html>) cu trei secțiu
 Paginile noi includ categorii, căutare, filtre pentru locație, preț, monedă și dată, plus filtre auto/imobiliare. Fiecare anunț are detalii și link către sursă.
 
 Funcționează local și pe mobil. Datele sunt din **12.10.2026** și includ anunțuri vechi. Reminderul de la **08:00** urmărește în continuare autoturismele ANABI.
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-650bd8fa-4c5c-4c3b-b3a8-04879d86df19",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command 'node portal-build.mjs; node preview.mjs'",
+  "cwd": "D:\\ANABI - Licitatii",
+  "processId": "86236",
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "node portal-build.mjs; node preview.mjs"
+    }
+  ],
+  "aggregatedOutput": "{\"executori\":1909,\"insolventa\":2308}\nhttp://127.0.0.1:8765/catalog/\n",
+  "exitCode": -1,
+  "durationMs": 13582868
+}
+````

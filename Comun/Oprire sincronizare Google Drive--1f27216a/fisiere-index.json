@@ -16,17 +16,11 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/fbf467a9-54c4-4749-952c-25f8e37df5b8/scratchpad/dfs/compare.py",
-    "status": "copiat",
-    "saved_path": "fisiere/compare--99838eed.py",
-    "bytes": 1767,
-    "sha256": "5934647ac07f94fbc7335be803991ed6c19de4f15bdc03f622ab5fa44e185923"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/fbf467a9-54c4-4749-952c-25f8e37df5b8/scratchpad/dfs/find_missing.py",
-    "status": "copiat",
-    "saved_path": "fisiere/find_missing--39e9a07b.py",
-    "bytes": 1295,
-    "sha256": "ab0ece81fb15db26db11fa9b9978fa1ec75f6c4988ae8eed4a8879a404165e33"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/fbf467a9-54c4-4749-952c-25f8e37df5b8/scratchpad/dfs/robocopy.log",

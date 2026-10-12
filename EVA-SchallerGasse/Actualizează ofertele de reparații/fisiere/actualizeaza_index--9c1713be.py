@@ -140,7 +140,7 @@ def describe(rel,text,status):
     return kind+' — '+n,excerpt
 
 def main():
-    files=sorted((p for p in ROOT.rglob('*') if p.is_file() and BASE not in p.parents and not any(x in {'.git','.codex','.agents'} for x in p.relative_to(ROOT).parts)),key=lambda p:str(p).lower())
+    files=sorted((p for p in ROOT.rglob('*') if p.is_file() and not p.name.startswith('~$') and BASE not in p.parents and not any(x in {'.git','.codex','.agents'} for x in p.relative_to(ROOT).parts)),key=lambda p:str(p).lower())
     rows=[]; hashes={}; errors=[]
     verified={}
     situation=ROOT/'04. Firme + Executie'/'Actualizare oferte 2026.09.30'/'situatie_structurata.json'

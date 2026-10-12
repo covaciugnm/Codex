@@ -1,0 +1,486 @@
+{
+  "provider": "BERGER",
+  "status": "AG-Entwurf 2026.10.12, nicht unterzeichnet, nicht versendet",
+  "summary_ro": [
+    "Preț păstrat: 45.000 EUR net, 54.000 EUR brut. Toate extinderile sunt propuneri noi ale beneficiarului.",
+    "Bauwerksbuch pentru clădirea existentă și nouă și Prüfingenieur până la final sunt incluse expres în pachet și necesită acceptarea prestatorului.",
+    "Cele 8 vizite de asistență sunt distincte de toate verificările necesare Prüfingenieur.",
+    "Planuri complete, conexiuni, formate native și editabile, Planwechsel și drepturi pentru terți; fără BauKG și management general.",
+    "Înainte de semnare: capacitate, persoane legal abilitate, asigurare și confirmarea calendarului și a ratelor propuse. Niciun mesaj trimis."
+  ],
+  "sections": [
+    {
+      "title": "WERKVERTRAG — ENTWURF DER AUFTRAGGEBERIN",
+      "paragraphs": [
+        "Tragwerksplanung, vollständige Ausführungsunterlagen, statische Betreuung, Prüfingenieur-Leistungen und Bauwerksbuch — Wohnhaus Schallergasse 35, 1120 Wien.",
+        "Entwurfsstand 2026.10.12. NICHT UNTERZEICHNET — NICHT VERSENDET. Dieser Text ist ein neues Vertragsangebot der AG und keine Annahme des ursprünglichen Angebotes des AN. Die Erweiterungen und Änderungen werden erst mit Unterzeichnung durch beide Parteien verbindlich. Das ursprüngliche Angebot vom 2026.08.17 wird unverändert als Quelle beigefügt; dieser Entwurf ändert kein bereits unterzeichnetes Original."
+      ]
+    },
+    {
+      "title": "Vertragsparteien",
+      "paragraphs": [
+        "Auftraggeberin (AG): A&C Wohnart Immobilien GmbH, FN 668224h, Handelsgericht Wien; Geschäftsanschrift Schallergasse 35, 1120 Wien; vertreten durch den selbständig vertretungsberechtigten Geschäftsführer Cosmin-Adrian Covaciu; UID ATU83086125; office@ac-wohnart.at; +43 665 67055045. Die aktuelle Vertretung ist vor tatsächlicher Unterzeichnung durch einen aktuellen Firmenbuchnachweis zu bestätigen.",
+        "Auftragnehmer (AN): Bmstr. Dipl.Ing.(FH) Markus BERGER GmbH, Schönbrunner Straße 123/2, 1050 Wien; office@bmberger.at. Firmenbuchnummer, Firmenbuchgericht und UID: ____________________. Vertretungsberechtigte Person: ____________________.",
+        "Fachlich verantwortliche Person, nachgewiesene Berufsberechtigung und zuständige Prüfingenieur-Person: vor Unterzeichnung gemäß Anlage 4 verbindlich einzutragen. Eine Ziviltechnikerbefugnis wird durch die Firmenbezeichnung oder dieses Vertragsangebot nicht unterstellt."
+      ]
+    },
+    {
+      "title": "§ 1 Vertragsgegenstand und Rangordnung",
+      "paragraphs": [
+        "(1) Beauftragt wird das vollständige vereinbarte Tragwerkspaket für den Bestand Baujahr 1905, Keller, Erdgeschoss und drei Obergeschosse, den zweigeschossigen Dachgeschossausbau, den Aufzugszubau und die baulich betroffenen Nebenbereiche. Der Auftrag umfasst die Leistungen dieses Vertrages einschließlich Bauwerksbuch für Bestand und Erweiterung sowie Prüfingenieur bis zur Fertigstellung.",
+        "(2) Grundlage sind Baubescheid MA 37 vom 2023.04.21, GZ MA37/1539234-2021-1, genehmigte Einreichpläne P2041, Planstand 2023.04.20, sowie die von der AG bereitgestellten historischen, Bestands-, Baugrund- und Architekturunterlagen, insbesondere Architekturstand 2026.09.08. Die verbindliche Bearbeitungsgrundlage wird vor Bearbeitungsbeginn gemeinsam in Anlage 2 mit Dateiname, Index, Datum und Dokumentenstatus festgehalten.",
+        "(3) Spätere beiderseits schriftlich vereinbarte Nachträge gehen im ausdrücklich geänderten Bereich diesem Vertrag vor; im Übrigen gilt folgende Rangordnung: dieser beiderseits unterzeichnete Vertrag einschließlich Leistungs- und Zahlungsanlagen; gemeinsame Planliste; das unverändert beigefügte Angebot des AN vom 2026.08.17, soweit es nicht widerspricht. Sonstige AGB oder Bedingungen des AN gelten nur, soweit die AG ihnen ausdrücklich schriftlich zustimmt und sie diesem Vertrag nicht widersprechen.",
+        "(4) Die Ausschlüsse und Einschränkungen des ursprünglichen Angebotes gelten ausschließlich in dem Umfang weiter, in dem dieser Vertrag sie ausdrücklich übernimmt. Insbesondere gehen der erweiterte Leistungsumfang, der Festpreis, die Formate, die Rechte der AG und die Zahlungsregeln dieses Vertrages vor. Die im ursprünglichen Angebot genannte Bindungsfrist von acht Wochen gilt nicht als Zusage aktueller Verfügbarkeit; mit Unterzeichnung bestätigt der AN Preis und Kapazität für dieses Vertragsangebot.",
+        "(5) BauKG-Koordination, allgemeines Baumanagement, allgemeine ÖBA, Bauherrenvertretung und Bauführung werden nicht beauftragt. Tragwerksbezogene Planung, Kontrollen, Schnittstellenklärung und die nachfolgenden ausdrücklich benannten Leistungen bleiben geschuldet."
+      ]
+    },
+    {
+      "title": "§ 2 Vollständige Ausführungsstatik und Bauteilumfang",
+      "paragraphs": [
+        "(1) Der AN erstellt eine neue, prüffähige, unterfertigte Ausführungsstatik in eigener fachlicher Verantwortung. Die Vorbemessung und das Fundierungskonzept Jänner 2022 sowie vorhandene Mauerwerks- und Baugrunddaten sind zu prüfen und in die aktuelle Bemessung zu überführen. Eine bloße Übergabe alter Vorbemessungsunterlagen erfüllt den Auftrag nicht. Die Normengrundlagen und deren Anwendbarkeit auf die bestehende Bewilligung sind nachvollziehbar zu dokumentieren.",
+        "(2) Enthalten sind Fundamentplatte d = 30 cm und Gründung einschließlich Anschluss an Bestandsfundamente; Aufzugsgrube, Schachtwände und Aufzugsfundierung über sämtliche Geschosse; Ertüchtigung der Tram-/Dippelbaumdecken mit Auflagern, Randbereichen, Durchbrüchen und notwendigen Auswechslungen; Bestandswände, Pfeiler, Stürze und neue Wandöffnungen. Die 30-cm-Platte ist eine Konzeptannahme, fachlich zu bestätigen oder begründet zu korrigieren; sie ist keine vorweg bestätigte sichere Dimension. Die gemäß bewilligter Grundlage vorgesehene neue Stahlbetonverbunddecke über dem dritten Obergeschoss ist einschließlich Details und Anschlüssen umfasst.",
+        "(3) Enthalten sind der zweigeschossige Dachgeschossausbau in Holz/Stahl, Dachstuhl, Gaupen, Attika, Terrassen, Aussteifung, Deckenscheiben und Windverbände einschließlich vollständiger Lastweiterleitung und erforderlicher Nachweise des Bestandes bis zur Fundierung. Ferner umfasst sind hofseitige Balkone einschließlich ihrer Verankerung im Bestand, bestehende und neue Stiegen, Podeste, Stiegenhauswände sowie sämtliche tragwerksrelevanten Neu/Alt-Verbindungen.",
+        "(4) Feuermauern, Anschlüsse zu Nachbargebäuden und Kamine/Rauchfänge im Einflussbereich der Tragstruktur sind zu berücksichtigen. Abschnittsweise Unterfangungen umfassen Bemessung, Geometrie, Bewehrung, Abschnittslängen, Reihenfolge, erforderliche Sicherungsmaßnahmen und belastbare Schnittstellen zu Baugrubensicherung und temporären Abstützungen.",
+        "(5) Soweit für die vorgenannten Maßnahmen erforderlich, erstellt der AN die tragwerksbezogenen Berechnungen und Ausführungsunterlagen zur Baugrubensicherung, zu temporären Abstützungen von Decken, Wänden und Fassade und zur statisch erforderlichen Abfolge von Abbruch und Herstellung. Allgemeine Baustellenorganisation und Sicherheitskoordination bleiben ausgeschlossen. Eine erforderliche Fachplanung darf nicht stillschweigend als unbeauftragte Lücke verbleiben; der AN benennt sie mit Zuständigkeit und Freigabepunkt vor Ausführung.",
+        "(6) Die erforderlichen Tragfähigkeits- und Stabilitätsnachweise, Gebrauchstauglichkeit, Anschluss- und Befestigungsnachweise sowie die für das genehmigte Vorhaben erforderliche brandschutztechnische Bemessung tragender Bauteile einschließlich maßgeblicher R-Anforderungen sind im vereinbarten Paket enthalten. Vorliegende Bestandsbewertungen und Erdbebennachweise sind auf Verwendbarkeit zu prüfen; für den vereinbarten Umbau notwendige Ergänzungen sind zu dokumentieren und zu bearbeiten. Ein allgemeines Brandschutzkonzept für das Gesamtgebäude wird nicht beauftragt.",
+        "(7) Der AN prüft die vom Aufzugshersteller, von Haustechnikplanern und Baufirma gelieferten Lasten, Öffnungen und Nachweise auf Tragwerksverträglichkeit und erteilt die statische Freigabe oder begründete Korrekturanforderungen. Die Erstellung produktspezifischer Herstellerdaten bleibt Aufgabe des jeweiligen Lieferanten."
+      ]
+    },
+    {
+      "title": "§ 3 Ausführungspläne, Anschlüsse und Mindestinhalt",
+      "paragraphs": [
+        "(1) Geschuldet sind vollständige aufeinander abgestimmte Positions- und Lastpläne je Geschoss, Schalungs- und Bewehrungspläne, Bewehrungs- und Biegelisten, Führungs- und statische Detailpläne für Stahl- und Holzbau einschließlich Dachstuhl sowie die für die Ausführung erforderlichen konstruktiven Einzelheiten. Es dürfen keine notwendige Bemessung und keine statisch erforderlichen Detailangaben allein mit dem Hinweis auf eine spätere Werkstattplanung offenbleiben.",
+        "(2) Der AN bemisst sämtliche tragwerksrelevanten Knoten und Anschlüsse in Stahl und Holz sowie Dübel, Anker und sonstige Befestigungen in Beton und Mauerwerk. Anzugeben sind Werkstoff und Typ beziehungsweise gleichwertige Bemessungskriterien, Abmessungen, Anzahl, Anordnung, Rand- und Achsabstände, erforderliche Blechdicken sowie Art und Dicke der Schweißnähte. Normal-, Quer- und Zugkräfte sowie Momente werden je maßgeblichem Knoten positionsbezogen im Rechenwerk und in den zugehörigen Plänen angegeben.",
+        "(3) Betonpläne enthalten Geometrie, Höhen, Durchbrüche und Einbauteile, Betonfestigkeits-, Expositions- und erforderliche Ausführungsklassen, Betondeckung, Bewehrungspositionen mit Durchmessern, Abständen, Verankerungs- und Übergreifungslängen, Fugen und Betonierabschnitte sowie Neu/Alt-Anschlüsse. Holz- und Stahlpläne enthalten System, Querschnitte, Materialklassen, Aussteifung, Auflager, Verbindungsmittel und maßgebliche Korrosions-/Holzschutzanforderungen. Auflager im Bestand sind mit Lastverteilungsplatten, Mörtelbett, erforderlichen Auflagerlängen und Tragfähigkeitsnachweis auszuarbeiten.",
+        "(4) Herstellungsspezifische Werkstatt-, Abbund- und Fertigungspläne erstellt der ausführende Betrieb. Der AN stellt ihm die vollständigen statisch erforderlichen Angaben und Details zur Verfügung und prüft sowie gibt dessen Werkstatt- und Abbundpläne, Fertigteilunterlagen und Befestigungsnachweise vor Herstellung frei. Herstellungsspezifische NC-/CNC-Dateien des Betriebes sind keine vom AN neu zu erstellende Fertigungsleistung.",
+        "(5) Enthalten sind mindestens zwei Korrekturzyklen je Plan, technische Bieterfragen während der Vergabephase, tragwerksbezogene Schnittstellenliste und prüffähige Mengen-/Stücklisten zu Beton, Bewehrung, Stahl und Holz aus der eigenen Planung. Allgemeine Leistungsverzeichnisse, kaufmännische Angebotswertung und Vergabeverhandlungen sind nicht beauftragt.",
+        "(6) Die Vollständigkeit wird bauteil- und dossierbezogen geprüft. Fehler oder fehlende Angaben im beauftragten Umfang berichtigt der AN ohne Zusatzentgelt innerhalb von fünf Werktagen nach konkreter Mitteilung, bei sicherheitskritischen oder bauablaufkritischen Punkten unverzüglich mit sofortiger vorläufiger Handlungsanweisung. Eine AG-Freigabe ist keine Entlastung von der fachlichen Verantwortung."
+      ]
+    },
+    {
+      "title": "§ 4 Statische Betreuung und acht geplante Baustellentermine",
+      "paragraphs": [
+        "(1) Für die statische Betreuung sind acht geplante Termine einschließlich Startbesprechung vorgesehen. Die Terminplanung deckt mindestens Fundamentplatte, Aufzugsschacht, Ertüchtigung der Bestandsdecken und Kernbohrungen, Dachstuhl, Balkone und Rohbauabschluss ab. Der verbleibende Termin wird nach Bedarf gemeinsam festgelegt. Das Honorar hierfür bleibt unverändert EUR 2.000,00 netto.",
+        "(2) Diese acht Termine sind von den Prüfingenieur-Beschauen nach § 5 rechtlich und abrechnungsmäßig zu unterscheiden. Eine gemeinsame Durchführung ist organisatorisch möglich, wenn beide Aufgaben vollständig erfüllt und getrennt dokumentiert werden; sie verringert nicht die erforderlichen Prüfpflichten und rechtfertigt keine doppelte Verrechnung.",
+        "(3) Protokolle mit Teilnehmern, Datum, Befund, offenen Punkten, Zuständigkeiten und Fristen werden binnen drei Werktagen übermittelt. Telefonische und schriftliche Tragwerksfragen werden binnen zwei Werktagen beantwortet; dringende sicherheitsrelevante Hinweise sofort. Die fachliche Beurteilung von Alternativvorschlägen der Baufirma sowie notwendige digitale Abstimmungen sind im Paket enthalten.",
+        "(4) Die kalkulierte Bauzeit beträgt rund zwölf Monate. Eine Verlängerung bis zu fünfzehn Monaten allein löst bei unverändertem Leistungsumfang und ohne zusätzliche geplante Betreuungstermine keine Mehrvergütung aus. Weitere Betreuungsbesprechungen über die acht geplanten Termine hinaus bedürfen hinsichtlich Umfang, Notwendigkeit und Preis einer vorherigen schriftlichen Vereinbarung. Für eigene Fehlerkorrekturen, bereits geschuldete Leistungen und erforderliche Prüfingenieur-Beschauen ist kein Zusatzhonorar zulässig."
+      ]
+    },
+    {
+      "title": "§ 5 Prüfingenieur, Beschauen und Fertigstellungsbestätigung",
+      "paragraphs": [
+        "(1) Der AN übernimmt die für das Vorhaben erforderlichen Prüfingenieur-Leistungen nach §§ 127 und 128 BO für Wien im vereinbarten Pauschalpaket bis zur vollständigen Fertigstellung; die Einschränkung des ursprünglichen Angebotes auf die Rohbaubeschau gilt nicht. Die fachlich berechtigte, persönlich verantwortliche Person wird vor Unterzeichnung benannt. Der AN legt Berechtigung und die gesetzlich erforderliche Unabhängigkeit von Bauwerber und Bauführer vor und stellt die erforderliche Bekanntgabe an die MA 37 sicher. Die PI-Funktion erfordert nach § 127 einen entsprechend befugten Ziviltechniker oder gerichtlich beeideten Sachverständigen; die Bestätigung nach § 128 Abs. 2 Z 1 ist dagegen einem entsprechend befugten Ziviltechniker vorbehalten. Ein unzulässiges Dienst-/Organschaftsverhältnis zu Bauwerber oder Bauführer darf nicht bestehen. Projektant und PI dürfen nur bei tatsächlicher Erfüllung der gesetzlichen Voraussetzungen zusammentreffen.",
+        "(2) Umfasst sind sämtliche gesetzlich und nach Baubescheid erforderlichen Beschauen und Abnahmebefunde, insbesondere Untergrund vor Fundierung, Bewehrung vor relevanten Betonagen, Aufzugsschacht und Deckenertüchtigung, Rohbau, Balkone, Ausbau und Endbeschau sowie Prüfungen verdeckt werdender maßgeblicher Anschlüsse. Anzahl und Prüfpunkte sind mit Bescheid und Bauablauf abzugleichen. Es gilt keine aus den acht Betreuungsterminen abgeleitete Begrenzung der erforderlichen Prüfingenieur-Beschauen.",
+        "(3) Der AN organisiert die Verfügbarkeit in kritischen Phasen innerhalb von 24 Stunden nach rechtzeitiger Anmeldung durch den Bauführer. Die erforderlichen Vorlaufzeiten und Haltepunkte werden im Starttermin festgelegt. Nicht freigegebene, verdeckt werdende Bauteile dürfen durch eine bloße Terminüberschreitung nicht als freigegeben gelten.",
+        "(4) Zum Prüfprogramm gehören dokumentierte Plausibilitätsprüfung der Vorbemessung, interne Kontrolle der eigenen Berechnung durch eine zweite fachkundige Person, Zuverlässigkeits- und Schadensfolgeklasse, Plan/Statik-Abgleich, Prüfung fremder Werkstattunterlagen und Materialnachweise einschließlich Betonlieferscheinen und erforderlichen Würfelprüfungen sowie Nachweisen zu Bewehrungsstahl, Baustahl und Holz. Die zweite fachkundige Person ersetzt keine gesetzlich vorgeschriebene externe Prüfung oder Unabhängigkeit.",
+        "(5) Der AN erstellt die für die Fertigstellungsanzeige erforderlichen Bestätigungen/Befunde im Rahmen seiner gesetzlichen Befugnis, koordiniert das tragwerksbezogene Paket nach § 128 BO für Wien und übernimmt die fachliche Kommunikation hierzu mit der MA 37. Er beschafft erforderliche Unterfertigungen durch eine entsprechend befugte, vorab benannte Person innerhalb des vereinbarten Paketes, wenn seine eigene Befugnis dafür nicht genügt. Technisch oder gesetzlich unzutreffende Bestätigungen werden nicht verlangt. Ein statischer Einzelbefund ist nicht automatisch die vollständige Bestätigung nach § 128 Abs. 2 Z 1 über das Anzeigepaket. Der AN sammelt und integriert die erforderlichen Drittunterlagen; AG/Bauführer stellen die außerhalb des Fachauftrags notwendigen Installations-, Kanal-, Abgas- und sonstigen Befunde rechtzeitig bereit. Innerhalb des Pakets sorgt der AN für eine aktuell befugte ZT-Person und bestätigt nur im Umfang der Befugnis und tatsächlich nachgewiesenen Voraussetzungen; eine behördliche Anerkennung ohne diese Voraussetzungen wird nicht garantiert.",
+        "(6) Fehlende Befunde anderer Gewerke, Widersprüche zur Bewilligung und notwendige Nachbesserungen sind der AG und dem Bauführer frühzeitig konkret mitzuteilen. Die Bestätigung darf bei tatsächlichen wesentlichen Mängeln nicht erteilt werden; sie darf aber auch nicht wegen einer außerhalb der eigenen Prüfaufgabe liegenden, pauschal unbestimmten Mitwirkung verweigert werden. Erforderliche Drittbefunde sind in einer verbindlichen Schnittstellenliste mit Zuständigkeit und Fälligkeit zu führen.",
+        "(7) Ist eine zusätzliche externe Prüfstatik zwingend erforderlich, teilt der AN Anlass, zuständige Person, Prüfgegenstand und Kostenfolge unverzüglich mit. Für eine bei Unterzeichnung aus Bescheid, Umfang oder eigener Befugnissituation bereits erkennbare Prüfung ist die Beauftragung und Vergütung im Gesamtpaket enthalten. Eine erst durch eine echte, genehmigte Leistungsänderung neu ausgelöste Prüfung unterliegt ausschließlich § 11."
+      ]
+    },
+    {
+      "title": "§ 6 Bauwerksbuch für Bestand und neue Bauteile",
+      "paragraphs": [
+        "(1) Der AN erstellt das Bauwerksbuch für das gesamte Gebäude einschließlich Altbestand, Dachgeschossausbau, Aufzugszubau und sonstiger Umbauteile und veranlasst die nach § 128a BO für Wien erforderliche Registrierung sowie die Übergabe des Registrierungsnachweises. Diese gegenüber dem ursprünglichen Angebot zusätzlich verlangte Leistung ist Bestandteil des Gesamtfestpreises von EUR 45.000,00 netto. Es wird hierfür kein gesondertes Honorar vereinbart. Das Bauwerksbuch wird elektronisch und fortschreibbar übergeben. Registrierung ist keine automatische Genehmigung oder Mängelfreiheitsbestätigung. Die gesetzlich erforderliche Befugnis und Unabhängigkeit der Ersteller- und Erstprüfungsperson von Bauwerber, Bauführer und Eigentümer einschließlich fehlender unzulässiger Dienst-/Organschaftsverhältnisse werden nachgewiesen.",
+        "(2) Umfasst sind Gebäudebezeichnung, Adresse und Eigentümerdaten, maßgebliche Bewilligungen, Beschreibung von Tragwerk und Bauteilen, Baujahr und Änderungen, erforderliche Erstprüfung durch eine befugte Person, Zustandsbefund, erkannte Mängel/Baugebrechen, Behebungsfristen und Nachweise sowie Angaben zu erforderlichen weiteren Kontrollen und Instandhaltung. Auch die Prüfgrundlagen und Qualifikation, Kontrollintervalle, ein Maßnahmen-/Behebungsplan und die konkret einschlägigen Maßnahmen nach § 118c BO für Wien sind zu dokumentieren. Eine gesondert erforderliche Gebäudebeschreibung nach § 128 Abs. 2 Z 10 ist von Bauwerksbuch/Registrierung zu unterscheiden; die tragwerksbezogene Zuarbeit ist enthalten. Zeitpunkt der erstmaligen sowie der nächsten Prüfung werden ausdrücklich festgehalten. Die Erfassung und Planung der Behebung bestehender Baugebrechen beinhaltet keine Bauausführung oder physische Reparatur durch den AN; diese Maßnahmen sind von der AG gesondert zu veranlassen. Im Bauwerksbuch sind außerdem die Voraussetzungen und die erforderliche fachliche Qualifikation der für künftige Überprüfungen zuständigen Personen nach § 128a Abs. 4 Z 4 BO für Wien festzuhalten.",
+        "(2a) Der AN übernimmt in das Bauwerksbuch die nach § 128a Abs. 4 Z 7 erforderliche Dokumentation der einschlägigen Maßnahmen und Änderungen gemäß § 118c Abs. 2 und 7. Die AG und zuständigen Energie- beziehungsweise Haustechnikfachplaner liefern die fachfremden Nachweise; der AN fordert sie konkret an, ordnet sie zu und dokumentiert fehlende Grundlagen. Energetische Systemplanung oder Ausführung solcher Maßnahmen werden dadurch nicht beauftragt; tragwerksbezogene Schnittstellen bleiben geschuldet.",
+        "(3) Der AN führt die erforderlichen Bestands-, Prüf-, Material-, Bewilligungs- und Ausführungsunterlagen zusammen. Enthalten sind eine nachvollziehbare Fotodokumentation wesentlicher Befunde und betroffener Riss-/Schadensstellen sowie ein strukturiertes Plan- und Dokumentenverzeichnis mit Ablageorten; vor/nach dem Umbau vorhandene beziehungsweise im eigenen Auftragsbereich erstellte Fotos werden zugeordnet. Eine umfassende Beweissicherung fremder Nachbarobjekte durch einen gesonderten Sachverständigen bleibt eine andere Leistung.",
+        "(4) Die AG gibt den voraussichtlichen Fertigstellungs- und Anzeigetermin mindestens sechs Wochen zuvor bekannt. Der AN benennt fehlende Unterlagen innerhalb von fünf Werktagen. Eine prüffähige Vorfassung ist spätestens zwanzig Werktage und die endgültige Fassung mit den zu diesem Zeitpunkt möglichen Bestätigungen spätestens zehn Werktage vor der geplanten Fertigstellungsanzeige vorzulegen. Befunde der Endbeschau sind binnen fünf Werktagen nach dieser Beschau, jedenfalls vor Abgabe der Fertigstellungsanzeige, zu ergänzen.",
+        "(5) Für den Altbestand wird als AG-Ziel die vollständige Erstellung und gesetzlich erforderliche Registrierung bis spätestens 2027.12.31 vereinbart, soweit nicht eine frühere verbindliche gesetzliche Frist gilt. Der AN prüft die konkret anwendbaren Übergangs- und Registrierungsvorgaben beim Start und teilt das Ergebnis dokumentiert mit; die rechtzeitig erforderliche Leistung darf nicht allein wegen eines späteren Bauendes aufgeschoben werden. Erforderliche Fortschreibungen bis zur Fertigstellungsanzeige sind im Paket enthalten. Die Zuordnung des Altbestandes zur Übergangsfrist setzt die dokumentierte Bestätigung der Errichtung vor 1919 voraus. Die erforderlichen Bauwerksbuch- und Registrierungsunterlagen für neue/umgebaute Bauteile werden jedenfalls rechtzeitig vor Fertigstellungsanzeige bereitgestellt."
+      ]
+    },
+    {
+      "title": "§ 7 Mitwirkung und Bestandserhebungen",
+      "paragraphs": [
+        "(1) Die AG stellt verfügbare vollständige historische Pläne, Bauakte, Baugrunddaten, Gutachten und Architekturunterlagen im Projektportal bereit. Der AN bestätigt Zugriff und benennt fehlende oder unleserliche Unterlagen innerhalb von fünf Werktagen konkret. Ein pauschaler Hinweis auf fehlende Unterlagen genügt nicht, um sämtliche Termine zu verschieben.",
+        "(2) Eingeschlossen sind die tragwerksbezogene Bestandsaufnahme im Rahmen der Objektbegehung, die Sichtprüfung geöffneter Deckenkonstruktionen und die Anpassung des eigenen Rechenwerks an festgestellte Verhältnisse innerhalb der vereinbarten Umbauplanung. Der AN legt erforderliche Sondagen und Proben fachlich fest. Physische Aufgrabungen, Bauteilöffnungen, Laborprüfungen, Vermessung und gesonderte geotechnische Gutachten werden von geeigneten Dritten nur nach vorheriger schriftlicher Freigabe der AG durchgeführt.",
+        "(3) Die AG trägt nicht automatisch jede vom AN veranlasste Fremdleistung. Vor Auslösung sind Notwendigkeit, Leistungsumfang, Kostenvoranschlag, Zuständigkeit und Auswirkungen schriftlich mitzuteilen. Der AN führt die Schnittstellen zu diesen Fachleuten und verwendet deren erforderliche Ergebnisse in seiner Planung.",
+        "(4) Ein unerwarteter Zustand mit erheblicher Auswirkung auf den vereinbarten Umfang wird unverzüglich nach § 11 angezeigt. Keine automatische Stundenabrechnung und keine generelle Haftungsfreistellung entstehen daraus. Bis zur Entscheidung sind sichere fachliche Zwischenmaßnahmen und nicht betroffene Arbeiten abzustimmen.",
+        "(5) Die Bauführung verbleibt beim gesondert bestellten Bauführer; eine allgemeine ÖBA wird durch diesen Vertrag nicht ersetzt. Beweissicherung fremder Nachbargebäude, Berechnungen der Lastweiterleitung in U-Bahn-Schächte, Betreuung von Käufern/Mietern und allgemeine Außenanlagenplanung bleiben ausgeschlossen, soweit sie nicht schriftlich gesondert beauftragt werden. Ist eine solche Schnittstelle für die eigene Planung wesentlich, hat der AN vor Freigabe konkret zu warnen."
+      ]
+    },
+    {
+      "title": "§ 8 Beginn und relative Liefertermine",
+      "paragraphs": [
+        "(1) T0 ist der gemeinsam schriftlich bestätigte Arbeitsbeginn nach beiderseitiger Unterzeichnung, Nachweis der erforderlichen Befugnisse/Versicherung und Übergabe der erforderlichen Bearbeitungsgrundlagen. Der AN beginnt unverzüglich nach Eintritt dieser Voraussetzungen beziehungsweise zu dem ausdrücklich vereinbarten Starttermin: ____________________. Ohne beiderseitige Unterzeichnung läuft kein Liefertermin.",
+        "(2) Als neue AG-Terminregel werden die Meilensteine gemäß Anlage 3 vorgeschlagen: D1 Bemessungsgrundlagen und verbindlicher Liefer-/Prüfplan bis T0 + drei Wochen; D2 Fundierung, Lift, Unterfangung und notwendige Sicherungen bis T0 + sechs Wochen; D3 Bestandsertüchtigung, Wände und Öffnungen bis T0 + acht Wochen; D4 Dachgeschoss, Holz/Stahl, Aussteifung bis T0 + zehn Wochen; D5 Restbauteile, Balkone, Stiegen und vollständiges Ausführungsset bis T0 + zwölf Wochen. Diese relativen Fristen sind nicht dem ursprünglichen Angebot entnommen.",
+        "(3) Vor Unterzeichnung bestätigt der AN diesen Ablauf oder trägt beiderseits genehmigte abweichende relative Fristen in Anlage 3 ein. Herstellungsspezifische Drittpläne werden im abgestimmten Ablauf vor Fertigung geprüft. Nachweislich verspätete, rechtzeitig konkret angeforderte wesentliche Mitwirkung verschiebt ausschließlich unmittelbar betroffene Termine um die dokumentierte notwendige Dauer; der AN meldet Ursache und Gegenmaßnahme ohne Verzug.",
+        "(4) Der AN berichtet wöchentlich kurz über erreichte Lieferstände, offene Entscheidungen, Risiken und nächste Schritte. Rückfragen und Korrekturfristen richten sich nach §§ 3 und 4. Betreuung und Prüfingenieur orientieren sich am Bauablauf von rund zwölf Monaten; das Bauwerksbuch hat die gesonderten Fristen des § 6."
+      ]
+    },
+    {
+      "title": "§ 9 Datenformate, Dokumentation und Nutzungsrechte",
+      "paragraphs": [
+        "(1) Jede Lieferung enthält unterfertigte, behördentaugliche PDF-Unterlagen, bearbeitbare DWG-Dateien (AutoCAD 2018 oder vereinbarte ältere Version), DXF und vorhandene beziehungsweise im Auftrag erstellte IFC-Modelldaten (IFC 2x3 oder IFC 4). Planmaßstäbe und Einheiten werden eindeutig angegeben; ausdruckbare Führungspläne in der Regel 1:50, Detailpläne entsprechend ihrem Zweck.",
+        "(2) Enthalten sind native Berechnungs- und Modelldateien der eingesetzten Software mit Software-/Versionsangabe und verwendeten Eingabedaten, bearbeitbare Tabellen der Bewehrungs-, Biege-, Material-, Mengen- und Stücklisten in XLSX oder CSV sowie die projektbezogenen Planquellen. Nicht übertragbare Softwarelizenzen werden nicht geschuldet; gesetzlich oder lizenzrechtlich geschützte Bibliotheken werden nur im zulässigen Umfang, ihre projektbezogenen Parameter jedenfalls nachvollziehbar übergeben.",
+        "(3) DWG werden bei jeder relevanten Planrevision mitgeliefert. Pläne und Daten sind strukturiert, mit Positionen, Layern und Bauteilangaben bearbeitbar zu übergeben. Jede Lieferung enthält eine Planliste mit Dateinamen, Index, Datum und Änderungsvermerk und wird der AG per Email/Download beziehungsweise Projektportal angekündigt.",
+        "(4) Der AN räumt der AG mit Erstellung der projektbezogenen Ergebnisse ein zeitlich, räumlich und für das Bauvorhaben sachlich unbeschränktes, unwiderrufliches, nicht ausschließliches Nutzungsrecht ein. Es umfasst Vervielfältigung, Behördenvorlage, Ausführung, Betrieb, Wartung, Änderung und Fortführung durch geeignete Dritte sowie Weitergabe an Eigentümer, Erwerber, Finanzierer und beauftragte Planer/Unternehmer für Zwecke des Objekts. Die Vergütung hierfür ist im Paket enthalten; gesetzliche Urheberpersönlichkeitsrechte bleiben gewahrt.",
+        "(5) Änderungen durch Dritte sind als solche kenntlich zu machen; der AN haftet nicht für fachliche Änderungen, die er nicht geprüft oder zu vertreten hat. Die ursprüngliche Urheberschaft berechtigt nicht dazu, die Nutzung der bereits erstellten Ergebnisse bei einem Honorarstreit zu blockieren. Die AG darf unbestrittene fällige Entgelte nicht deshalb zurückhalten, weil sie Ergebnisse nutzt.",
+        "(6) Auf Anforderung, spätestens bei Unterbrechung oder Beendigung, sind binnen fünf Werktagen sämtliche bisherigen projektbezogenen Ergebnisse, Planstände, Quellen, Befunde, Prüfvermerke und offenen Bearbeitungspunkte geordnet zu übergeben. Bei Abschluss erhält die AG zusätzlich die vollständige Bestands-/As-built-Dokumentation der eigenen Tragwerksplanung, nach Abgleich mit den vom Bauführer/Architekten bestätigten Ausführungsständen."
+      ]
+    },
+    {
+      "title": "§ 10 Lieferprüfung, Abnahme und Mängel",
+      "paragraphs": [
+        "(1) Jede Dossierlieferung ist mit nachvollziehbarer Inhalts- und Prüfliste abzugeben. Die AG prüft die vereinbarte Vollständigkeit innerhalb von zehn Werktagen. Die technische Prüfung und Verantwortung des AN bleiben unberührt. Freigabe und etwaige konkrete Vorbehalte werden schriftlich dokumentiert; Schweigen gilt nicht als technische Abnahme oder als Verzicht auf Mängelrechte.",
+        "(2) Ein Dossier ist nicht vollständig, wenn wesentliche Bauteile, erforderliche Anschlussbemessungen, Planformate oder Prüfunterlagen fehlen. Offenkundig fehlerhafte oder fehlende Angaben werden gemäß § 3 ergänzt. Nachweislich mangelfreie abtrennbare Teile können gesondert schriftlich freigegeben und bezahlt werden.",
+        "(3) Der AN hat rechtzeitig vor Betonage, Fertigung oder Verdecken alle vereinbarten fachlichen Freigaben durchzuführen. Eine bloße Zahlungsfreigabe der AG ersetzt weder eine technische Freigabe noch einen gesetzlich erforderlichen Befund.",
+        "(4) Für die vertragsgemäßen Planungs-, Prüf- und Dokumentationsleistungen vereinbaren die Parteien eine Gewährleistungsfrist von mindestens drei Jahren ab vollständiger dokumentierter Abnahme des Gesamtpakets gemäß § 12. Längere gesetzliche Fristen, Rechte wegen verdeckter Mängel und eigenständige Schadenersatzansprüche bleiben unberührt. Eine Verkürzung durch Angebotsbedingungen wird ausgeschlossen. Der AN berichtigt zu vertretende Fehler seiner Leistungen unentgeltlich; notwendige Folgemaßnahmen und Kostentragung richten sich nach Gesetz und diesem Vertrag. Die Pflicht, vorhandene Mängel am Altbau zu erkennen, zu dokumentieren und ein erforderliches Behebungskonzept darzustellen, ist keine Zusage, sämtliche vorhandenen Gebäudemängel im Planungshonorar physisch zu beseitigen."
+      ]
+    },
+    {
+      "title": "§ 11 Festhonorar, Änderungen und Abrechnung",
+      "paragraphs": [
+        "(1) Das Gesamtpauschalhonorar beträgt unverändert EUR 45.000,00 netto zuzüglich 20 % Umsatzsteuer EUR 9.000,00, insgesamt EUR 54.000,00 brutto. Die vier ursprünglichen Positionen bleiben mit EUR 13.000,00 Berechnung, EUR 20.000,00 Konstruktionspläne, EUR 2.000,00 statische Betreuung und EUR 10.000,00 Prüfingenieur erhalten. Die neu geforderten Leistungen dieses Vertrages einschließlich Bauwerksbuch und abschließender Dokumentation sind im Gesamtpaket enthalten; ein zusätzliches gesondertes Honorar entsteht hierfür nicht.",
+        "(2) Die Kalkulationsvoraussetzung des ursprünglichen Angebotes über ein unverändertes Konzept wird durch die gemeinsam identifizierte Bearbeitungsgrundlage und den hier vereinbarten Umfang konkretisiert. Der AN bestätigt vor Unterzeichnung, dass er das Paket auf dieser Grundlage zu diesem Festhonorar erbringen kann. Nach Unterzeichnung dürfen bereits erkennbare Unterschiede zur Vorbemessung oder hier ausdrücklich verlangte Leistungen nicht nachträglich als unbepreiste Ergänzung behandelt werden.",
+        "(3) Enthalten sind die eigenen Personal-, Reise-, Fahrt-, Kommunikations-, Datenübermittlungs- und Nebenkosten sowie die vertraglich geschuldeten Abstimmungen, Prüfungen und Korrekturen. Es gibt keine automatische Indexierung, keine automatische Überschreitungsklausel ab zehn Prozent Aufwand und keine einseitige Umstellung auf Stundenvergütung.",
+        "(4) Echte Änderungen durch die AG oder erst nach Unterzeichnung unvorhersehbar erkannte Änderungen des Leistungsgegenstandes werden vor Bearbeitung mit Anlass, Abgrenzung zur Grundpflicht, Preis, Terminfolge und Alternativen schriftlich angeboten. Ein Zusatzauftrag entsteht ausschließlich durch vorherige schriftliche Zustimmung der vertretungsberechtigten AG. Dringende fachliche Gefahrenabwehr und gesetzliche Warnpflichten bleiben unberührt; sie sind unverzüglich zu dokumentieren.",
+        "(5) Die ursprünglichen Regiesätze EUR 150,00 Baumeister/Ziviltechniker, EUR 135,00 qualifizierter Techniker, EUR 95,00 Techniker und EUR 75,00 Sekretariat je Stunde netto dürfen nur verwendet werden, wenn der konkrete Zusatzauftrag sie ausdrücklich vereinbart. Die Darstellung dieser Sätze beauftragt keine Stunden und erzeugt keinen Mindest- oder Zusatzbetrag.",
+        "(6) Es erfolgen keine Vorauszahlungen und keine bloßen zeitbezogenen Monatsrechnungen. Teilrechnungen sind ausschließlich nach dem beiderseits festgelegten Dossierplan und schriftlicher Freigabe des jeweiligen vollständig gelieferten Meilensteins zulässig. Zahlungsziel ist dreißig Kalendertage nach Zugang einer prüffähigen Rechnung und dokumentierter Leistungsfreigabe. Dies ersetzt das ursprüngliche Zahlungsziel von vierzehn Tagen.",
+        "(7) Die Teilrechnungen müssen kumulierten Leistungsstand, bisherige Zahlungen, Umsatzsteuer und den noch offenen Paketbetrag erkennen lassen. Sämtliche Teilrechnungen einschließlich Schlussrechnung zusammen dürfen ohne genehmigte Nachträge EUR 45.000,00 netto nicht überschreiten. Keine Doppelverrechnung von Prüfingenieur, Betreuung, Dokumentation oder Bauwerksbuch ist zulässig."
+      ]
+    },
+    {
+      "title": "§ 12 Haftrücklass und Zahlungsschutz",
+      "paragraphs": [
+        "(1) Als ausdrücklich neue AG-Vereinbarung werden fünf Prozent des jeweils freigegebenen Netto-Rechnungsbetrags als Haftrücklass für die vertragsgemäße Erfüllung und anschließende Gewährleistung einbehalten. Die Bemessungsgrundlage ist der Nettobetrag ohne Umsatzsteuer. Der Haftrücklass ist kein Preisnachlass; nach seiner Freigabe ist er als Teil des vereinbarten Honorars auszuzahlen.",
+        "(2) Der AN kann den Einbehalt durch eine gleichwertige, unwiderrufliche und in Österreich durchsetzbare Bankgarantie eines zugelassenen Kreditinstituts ersetzen. Garantiebetrag, gesicherte Ansprüche und Laufzeit müssen den Einbehalt vollständig abdecken. Das Garantieformular wird vor Unterzeichnung vereinbart; eine Garantie auf erstes Anfordern setzt eine ausdrückliche beiderseitige Vereinbarung voraus.",
+        "(3) Die Parteien vereinbaren für die vertragsgemäßen Planungs-, Prüf- und Dokumentationsleistungen eine Gewährleistungsfrist von mindestens drei Jahren ab vollständiger dokumentierter Abnahme des Gesamtpakets. Längere gesetzliche Fristen und eigenständige Schadenersatzansprüche bleiben unberührt. Der Haftrücklass wird nach Ablauf dieser vereinbarten Frist unverzüglich freigegeben, soweit keine konkret geltend gemachten gesicherten Ansprüche offen sind. Nur der für solche Ansprüche angemessene Teil darf bis zur Klärung einbehalten bleiben; der nicht benötigte Teil ist unverzüglich freizugeben.",
+        "(4) Bei konkreten Mängeln oder ausstehenden wesentlichen Leistungen darf die AG im gesetzlich zulässigen Umfang angemessene Beträge zurückhalten. Unbestrittene, freigegebene und fällige Restbeträge bleiben zahlbar. Der AN darf eine sicherheitsrelevante Auskunft oder gesetzlich notwendige Warnung nicht als Druckmittel verweigern. Zwingende Sicherstellungsrechte des AN, insbesondere nach § 1170b ABGB soweit anwendbar, bleiben ausdrücklich unberührt. Der Haftrücklass der AG ist keine Werklohnsicherstellung zugunsten des AN."
+      ]
+    },
+    {
+      "title": "§ 13 Fachpersonal, Befugnis und Versicherung",
+      "paragraphs": [
+        "(1) Der AN benennt die verantwortliche Planungs-, Prüfingenieur- und Vertretungsperson mit Berufsberechtigung, Befugnisumfang und Aufgaben. Wesentliche Wechsel werden vorab angezeigt und bedürfen eines fachlich gleichwertigen Ersatzes; vorgeschriebene unabhängige Funktionen sind zu beachten. Subunternehmer für wesentliche Fachleistungen bedürfen vorheriger schriftlicher Zustimmung; der AN bleibt für die vertragsgemäße Leistung verantwortlich. Das ursprüngliche Angebot führt die Ingenieurkonsulentenbezeichnung mit dem Zusatz «rB». Daraus wird kein aktuell aktiver ZT-Befugnisstatus abgeleitet. Ruhende Befugnis genügt nicht für befugnispflichtige ZT-Leistungen und öffentliche Urkunden; die nötige aktive Befugnis ist nachzuweisen oder durch eine vorab benannte geeignete Fachperson im Gesamtpaket sicherzustellen.",
+        "(2) Vor Unterzeichnung sind vorzulegen: aktueller Firmenbuch-/Gewerbe- beziehungsweise Befugnisnachweis, Nachweis der Prüfingenieur-Eignung und gesetzlichen Unabhängigkeit, Team-/Vertretungsliste und drei bis fünf einschlägige Referenzen zu Gründerzeithaus, Dachgeschossausbau, Aufzug, Bestandsertüchtigung und Unterfangung.",
+        "(3) Der AN weist eine für Planung, Prüfingenieur-Tätigkeit und Bauwerksbuch einschlägige aufrechte Berufshaftpflichtversicherung nach. Als AG-Mindestanforderung werden EUR 2.000.000,00 je Versicherungsfall und mindestens zweifache Jahresmaximierung vorgeschlagen. Versicherer, Polizzennummer, Deckungsumfang, Selbstbehalt, Laufzeit, Nachhaftung und Ausschlüsse sind in Anlage 4 einzutragen; keine bestehende Deckung in dieser Höhe wird behauptet.",
+        "(4) Der AN trägt seinen Selbstbehalt und erhält die vereinbarte Deckung während der Leistungserbringung aufrecht. Kündigung, Prämienrückstand mit Deckungsauswirkung oder wesentliche Einschränkung sind unverzüglich mitzuteilen. Versicherungsgrenzen begrenzen nicht automatisch die gesetzliche oder vertragliche Haftung. Die Dokumentenübergabe darf nicht durch einen Versicherungsstreit blockiert werden."
+      ]
+    },
+    {
+      "title": "§ 14 Planwechsel, Bewilligungsabgleich und Behörden",
+      "paragraphs": [
+        "(1) Im Festhonorar enthalten ist ein abgestimmter Planwechsel-/Anpassungszyklus innerhalb des vereinbarten Umbaukonzeptes, insbesondere Reduktion beziehungsweise Anpassung von Wänden/Wohnungszuschnitten und dazu erforderliche statische Änderungen, Nachweise und strukturelle Planbeilagen. Der AN klärt die statische Tragweite vor Freigabe und führt erforderliche Korrekturen des eigenen Werkes ohne Zusatzentgelt aus.",
+        "(2) Die Architektin beziehungsweise der gesondert beauftragte Einreichplaner erstellt und reicht die architektonischen Unterlagen ein. Der AN erbringt die strukturelle Zuarbeit, stimmt Pläne und Berechnung aufeinander ab und beantwortet tragwerksbezogene MA-37-Rückfragen. Ein vollständiger Wechsel des Tragwerkskonzeptes oder eine zusätzliche grundlegende Ausbauvariante unterliegt dem Änderungsverfahren nach § 11.",
+        "(3) Eine Abweichung, die vor Ausführung eine Bewilligung oder Änderungseinreichung benötigt, ist schriftlich zu kennzeichnen. Eine Bestätigung nach § 128 darf nicht auf die unzutreffende Annahme gestützt werden, dass keine Planänderung erfolgt sei. Nach wirksam genehmigtem Planwechsel richtet sich der Abgleich nach dem tatsächlich maßgeblichen bewilligten Stand."
+      ]
+    },
+    {
+      "title": "§ 15 Haftung, Warnung und Leistungsunterbrechung",
+      "paragraphs": [
+        "(1) Der AN schuldet fachgerechte, verwendbare und mit dem vereinbarten Projektstand übereinstimmende Ergebnisse und haftet für zu vertretende Pflichtverletzungen nach österreichischem Recht. Pauschale Haftungsfreistellungen für eigene Planungs-, Prüf- oder Koordinationsfehler und ein Verzicht auf Ersatz vorsätzlich oder grob fahrlässig verursachter Schäden werden nicht vereinbart.",
+        "(2) Der AN hat erkennbare ungeeignete Grundlagen, widersprüchliche Weisungen, fehlende Fachleistungen und Gefahren schriftlich konkret zu beanstanden. Er darf fachlich unvertretbare oder gesetzeswidrige Ausführung nicht freigeben. Die AG und der Bauführer gewährleisten, dass Haltepunkte und notwendige Drittbefunde beachtet werden.",
+        "(3) Die AG darf Arbeiten beziehungsweise Freigaben aus Sicherheits-, Bewilligungs- oder konkreten Qualitätsgründen schriftlich anhalten; der AN nennt unverzüglich betroffene Teile, Sicherungsmaßnahmen und Voraussetzungen der Wiederaufnahme. Kein automatischer Honoraranspruch für jede Unterbrechung entsteht; tatsächlich begründete Vergütungs- oder Entschädigungsansprüche nach Gesetz und § 11 bleiben zu prüfen.",
+        "(4) Bei unterbliebener erforderlicher Mitwirkung oder unbestrittener fälliger Nichtzahlung setzt der AN eine angemessene schriftliche Nachfrist und benennt genau die drohenden Folgen. Gesetzlich zulässige Leistungsunterbrechung oder Vertragsaufhebung bleibt möglich; erforderliche Warnungen, Sicherungsinformationen und Übergabe bereits erstellter Projektunterlagen sind dabei zu gewährleisten. Zwingende Rechte nach § 1170b ABGB werden nicht ausgeschlossen: Soweit anwendbar, kann der AN die gesetzliche Werklohnsicherstellung verlangen und die dort vorgesehenen Rechte ausüben. Die Regel «keine Vorauszahlung» und die AG-Sicherheiten beseitigen dieses Recht nicht. Sicherheitsinformationen, Warnung, Sicherung des erreichten Bearbeitungsstandes und rechtlich zulässige geordnete Übergabe sind auch hierbei zu gewährleisten."
+      ]
+    },
+    {
+      "title": "§ 16 Beendigung, freie Abbestellung und Übergabe",
+      "paragraphs": [
+        "(1) Der Auftrag endet mit vertragsgemäßer vollständiger Leistung, Abschluss-/As-built-Übergabe, den erforderlichen Prüfbestätigungen und dem registrierten Bauwerksbuch. Die Fertigstellung einzelner Rohbauleistungen beendet nicht das Gesamtpaket.",
+        "(2) Beide Parteien können bei wichtigem Grund nach österreichischem Recht vorzeitig beenden. Bei behebbarer wesentlicher Pflichtverletzung ist grundsätzlich zuvor eine angemessene konkrete Nachfrist mit Beendigungsandrohung zu setzen; bei unzumutbarer Fortsetzung, akuter Gefahr oder nicht behebbarer wesentlicher Verletzung bleibt sofortige Beendigung zulässig. Gründe und Umfang sind schriftlich festzuhalten.",
+        "(3) Die AG kann die noch nicht ausgeführten Leistungen jederzeit schriftlich abbestellen. Dies ist keine Zusage kostenfreier Kündigung. Die Vergütungsfolgen richten sich nach § 1168 ABGB: Bei Leistungsbereitschaft des AN und Verhinderung aus der Sphäre der AG ist das vereinbarte Entgelt unter Anrechnung ersparter Aufwendungen, anderweitigen Erwerbs und absichtlich unterlassenen anderweitigen Erwerbs abzurechnen. Der AN legt eine prüffähige Abrechnung mit erbrachten, offenen und ersparten Leistungen vor. Bereits geleistete Zahlungen werden angerechnet.",
+        "(4) Bei vom AN zu vertretender Beendigung bleiben Gewährleistungs-, Schadenersatz- und gesetzliche Einwendungen der AG unberührt. Die Abrechnung darf keinen pauschalen Anspruch auf Bezahlung nicht geschuldeter Zusatzleistungen enthalten. Sicherungsbeträge werden nur im für offene gesicherte Ansprüche erforderlichen Umfang weiter gehalten.",
+        "(5) Innerhalb von fünf Werktagen nach Beendigung oder schriftlicher Abbestellung übergibt der AN sämtliche verfügbaren Bearbeitungsstände, prüffähigen Berechnungen, Quell-/Modelldaten, Pläne, Befunde und Planlisten mit Status «freigegeben», «Entwurf» oder «noch ungeprüft», sowie offene Risiken und Restleistungen. Sicherheitskritische Informationen sind sofort zu übergeben. Die AG darf mit den vereinbarten Nutzungsrechten einen geeigneten Nachfolger beauftragen.",
+        "(6) Der AN wirkt an einem geordneten einmaligen fachlichen Übergabegespräch mit. Berechtigte Vergütungs- und Zurückbehaltungsfragen sind gesondert zu klären. Die Parteien vereinbaren, dass bereits erstellte projektbezogene Unterlagen und notwendige Sicherheitsinformationen nicht bis zur Beilegung eines Honorarstreites gesperrt werden; zwingende gesetzliche Rechte bleiben unberührt."
+      ]
+    },
+    {
+      "title": "§ 17 Schlussbestimmungen und Unterzeichnung",
+      "paragraphs": [
+        "(1) Der Vertragsschluss und wesentliche Vertragsänderungen werden durch beiderseits unterzeichnete Vertrags-/Nachtragsurkunde dokumentiert; vor Unterzeichnung wird die zulässige Form festgelegt (handschriftlich unterzeichnete Urkunde beziehungsweise ausgetauschtes unterzeichnetes PDF oder vereinbarte qualifizierte elektronische Signatur). Für operative Freigaben, Mitteilungen und konkret bezeichnete Zusatzaufträge genügt die ausdrücklich vereinbarte Textform per nachvollziehbarer Email einer vertretungsberechtigten oder hierzu benannten bevollmächtigten Person, soweit keine wesentliche Vertragsänderung oder gesetzliche besondere Form betroffen ist. Die Bezeichnung «schriftliche Zustimmung/Freigabe» in diesen operativen Klauseln meint diese vereinbarte Textform. Eine bloße Projektabstimmung oder Schweigen beauftragt keine Zusatzleistung. Werktage sind Montag bis Freitag, ausgenommen österreichische gesetzliche Feiertage.",
+        "(2) Es gilt österreichisches Recht. Für Streitigkeiten wird, soweit wirksam vereinbar, das sachlich zuständige Gericht in Wien vereinbart. Eine unwirksame Einzelbestimmung führt nicht automatisch zur Unwirksamkeit des gesamten Vertrages; an ihre Stelle tritt die gesetzliche Regelung, soweit keine zulässige schriftliche Ersatzregel vereinbart wird.",
+        "(3) Vor Unterzeichnung sind insbesondere die gemeinsame Planliste, die beruflich befugten Personen, die Versicherungsnachweise, der relative Ablaufplan und der Dossier-Zahlungsplan fertigzustellen. Bloße Entwurfsfelder gelten nicht als ausgefüllt oder genehmigt.",
+        "Ort: ____________________   Datum: ____________________",
+        "Für die AG — A&C Wohnart Immobilien GmbH: Name/Funktion ____________________   Unterschrift ____________________",
+        "Für den AN — Bmstr. Dipl.Ing.(FH) Markus BERGER GmbH: Name/Funktion ____________________   Unterschrift ____________________"
+      ]
+    }
+  ],
+  "price_headers": [
+    "Ursprüngliche Honorarposition",
+    "Netto EUR",
+    "USt20% EUR",
+    "Brutto EUR",
+    "Hinweis"
+  ],
+  "price_rows": [
+    [
+      "Berechnung / Ausführungsstatik",
+      13000,
+      2600,
+      15600,
+      "Ursprüngliche Position; Leistungsumfang durch diesen AG-Entwurf präzisiert/erweitert."
+    ],
+    [
+      "Konstruktions- und Ausführungspläne",
+      20000,
+      4000,
+      24000,
+      "Ursprüngliche Position; Holz, Anschlüsse, editierbare Daten und vollständige Details neu ausdrücklich verlangt."
+    ],
+    [
+      "Statische Betreuung",
+      2000,
+      400,
+      2400,
+      "Ursprüngliche Position; acht geplante Betreuungstermine, getrennt von den Prüfingenieur-Beschauen."
+    ],
+    [
+      "Prüfingenieur",
+      10000,
+      2000,
+      12000,
+      "Ursprüngliche Position; hier bis Fertigstellung erweitert."
+    ],
+    [
+      "GESAMTPAKET",
+      45000,
+      9000,
+      54000,
+      "Gesamtpreis einschließlich der zusätzlichen Anforderungen dieses AG-Entwurfs und des Bauwerksbuchs; kein gesondertes Zusatzhonorar."
+    ]
+  ],
+  "annexes": [
+    {
+      "title": "Anlage 1 — Verbindlicher Leistungs- und Schnittstellenkatalog",
+      "paragraphs": [
+        "Diese Anlage ist Bestandteil des AG-Vertragsangebots. Der volle Umfang nach §§ 2–6 bleibt maßgeblich. In der Unterzeichnungsfassung sind die beteiligten Drittplaner/ausführenden Unternehmen und Haltepunkte einzutragen."
+      ],
+      "table": {
+        "headers": [
+          "Bereich",
+          "Geschuldete AN-Leistung",
+          "Schnittstelle / Abgrenzung"
+        ],
+        "rows": [
+          [
+            "Fundierung und Aufzug",
+            "Berechnung, Schalungs- und Bewehrungspläne, Unterfangung, Neu/Alt-Anschlüsse, Aufzugsschacht und Aufzugsgrube",
+            "Die Herstellerlasten liefert der Hersteller; der AN prüft sie auf Tragwerksverträglichkeit."
+          ],
+          [
+            "Bestand",
+            "Decken, Wände, Stürze, Öffnungen, Auswechslungen und vollständiger Lastpfad",
+            "Bauteilöffnungen und physische Proben führen Dritte nach Freigabe der AG durch."
+          ],
+          [
+            "Dachgeschoss",
+            "Holz- und Stahltragwerk, Dach, Gaupen, Terrassen, Aussteifung und Anschlüsse",
+            "Die Fertigungspläne erstellt der Betrieb; statische Details und deren Prüfung erbringt der AN."
+          ],
+          [
+            "Balkone, Stiegen und Nachbaranschlüsse",
+            "Nachweise, Anker, Auflager, Neu/Alt-Anschlüsse und Feuermauern",
+            "Die umfassende Beweissicherung fremder Nachbarobjekte erfolgt durch einen gesonderten Sachverständigen."
+          ],
+          [
+            "Bauzustände",
+            "Erforderliche Sicherungs- und Abstützungsstatik sowie statisch notwendige Abfolge",
+            "Allgemeine Baustellenorganisation und BauKG-Koordination sind nicht beauftragt."
+          ],
+          [
+            "Prüfung",
+            "Alle erforderlichen Prüfingenieur-Beschauen, Befunde, Materialnachweise und Abschlussleistungen",
+            "Bauführung und allgemeine ÖBA erfolgen aufgrund anderer Aufträge. Die erforderliche Befugnis ist nachzuweisen."
+          ],
+          [
+            "Bauwerksbuch",
+            "Gesamtes Gebäude einschließlich Bestand und neuer Bauteile, Erstprüfung, Fotos, Dokumentenverzeichnis und Registrierung",
+            "Fehlende Drittbefunde sind konkret anzufordern. Es entsteht keine selbständige zusätzliche Preisposition."
+          ],
+          [
+            "Schlussübergabe",
+            "As-built-Dokumentation des Tragwerks, Quelldateien und Modelle, editierbare Listen und Planverzeichnis",
+            "Der tatsächlich ausgeführte Stand ist mit Bauführer und Architekt abzustimmen."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Anlage 2 — Gemeinsame Plan- und Grundlagenliste",
+      "paragraphs": [
+        "Vor Unterzeichnung beziehungsweise vor T0 vollständig auszufüllen: Genehmigungsstatus, Bescheid, historische Unterlagen, Vorbemessung, Mauerwerksdaten, Geotechnik, Architekturstand und Herstellerlasten. Empfang und Zugriff sind getrennt von fachlicher Zustimmung zu dokumentieren."
+      ],
+      "table": {
+        "headers": [
+          "Dokument / Dateiname",
+          "Index / Datum",
+          "Status / Herkunft",
+          "Empfang / notwendige Ergänzung"
+        ],
+        "rows": [
+          [
+            "____________________",
+            "____________________",
+            "____________________",
+            "____________________"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Anlage 3 — Relativer Dossier- und Zahlungsplan (neue AG-Anlage)",
+      "paragraphs": [
+        "Termine und Zahlungsanteile sind neue AG-Vorschläge, keine bereits zugesagten Angebotsfristen oder gesondert angebotenen Bauteilpreise. D1 bis D5 sind Liefermeilensteine. Die Aufteilung des Gesamtpakets lautet 10/20/25/15/10/10/10 Prozent und wird erst durch beiderseitige Unterzeichnung verbindlich. Das Bauwerksbuch ist zusammen mit den vollständigen Abschlussleistungen Voraussetzung der Schlussrate. Die vier ursprünglichen Honorarpositionen bleiben unverändert; diese neue Verteilung ist ausschließlich eine Zahlungsstaffel innerhalb des Gesamtbetrags."
+      ],
+      "table": {
+        "headers": [
+          "Meilenstein",
+          "Relativer AG-Vorschlag",
+          "Mindestlieferung",
+          "AG-Zahlungsanteil am Gesamtpaket"
+        ],
+        "rows": [
+          [
+            "D1",
+            "T0 + 3 Wochen",
+            "Bemessungsgrundlagen, Prüfung der Grundlagen sowie Liefer- und Prüfplan",
+            "10 % = EUR 4.500,00 netto"
+          ],
+          [
+            "D2",
+            "T0 + 6 Wochen",
+            "Fundierung, Lift, Unterfangung und erforderliche Sicherungen: Berechnung, Pläne und Listen",
+            "20 % = EUR 9.000,00 netto"
+          ],
+          [
+            "D3",
+            "T0 + 8 Wochen",
+            "Bestandsdecken, Wände, Öffnungen und Auswechslungen: Berechnung und Pläne",
+            "25 % = EUR 11.250,00 netto"
+          ],
+          [
+            "D4",
+            "T0 + 10 Wochen",
+            "Dachgeschoss, Holz- und Stahlbau, Aussteifung und Anschlüsse: Berechnung und Pläne",
+            "15 % = EUR 6.750,00 netto"
+          ],
+          [
+            "D5",
+            "T0 + 12 Wochen",
+            "Balkone, Stiegen, übrige Bauteile und vollständige Ausführungsunterlagen",
+            "10 % = EUR 4.500,00 netto"
+          ],
+          [
+            "Betreuung und Prüfingenieur",
+            "Nach dem konkret dokumentierten Baufortschritt",
+            "Dokumentierte acht Betreuungstermine und sämtliche erforderlichen Prüfingenieur-Beschauen",
+            "10 % = EUR 4.500,00 netto"
+          ],
+          [
+            "Schlussleistung",
+            "Nach § 6 und dem abgestimmten Fertigstellungsablauf",
+            "Unterlagen nach § 128, As-built-Dokumentation, Quelldateien, registriertes Bauwerksbuch und sämtliche Restunterlagen",
+            "10 % = EUR 4.500,00 netto"
+          ],
+          [
+            "SUMME",
+            "Mit beiderseitiger Unterzeichnung verbindlich",
+            "Gesamtpaket",
+            "100 % = EUR 45.000,00 netto"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Anlage 4 — Personen, Befugnis, Versicherung und Nachweise",
+      "paragraphs": [
+        "Vor Unterzeichnung sind Firmenbuchdaten und Gewerbe- beziehungsweise ZT-Befugnisse, die verantwortliche Planungsperson, der Prüfingenieur, die zur Unterfertigung nach § 128 befugte Person und deren Vertretungen einzutragen. Die Versicherungsdaten sind durch aktuelle Nachweise zu belegen; eine noch nicht nachgewiesene Deckung darf nicht als bestätigt bezeichnet werden."
+      ],
+      "table": {
+        "headers": [
+          "Nachweis / Feld",
+          "Angabe / Quelle",
+          "Bestätigt am"
+        ],
+        "rows": [
+          [
+            "Verantwortliche Planungsperson und Befugnis",
+            "____________________",
+            "____________________"
+          ],
+          [
+            "Prüfingenieur: Person, Befugnis und Unabhängigkeit",
+            "____________________",
+            "____________________"
+          ],
+          [
+            "Bestätigung nach § 128: befugte Person",
+            "____________________",
+            "____________________"
+          ],
+          [
+            "Bauwerksbuch: Ersteller- und Erstprüfungsperson, Befugnis und Unabhängigkeit",
+            "____________________",
+            "____________________"
+          ],
+          [
+            "Versicherer, Polizzennummer, Deckung und Jahresmaximierung",
+            "____________________",
+            "____________________"
+          ],
+          [
+            "Laufzeit, Selbstbehalt, Nachhaftung, Ausschlüsse",
+            "____________________",
+            "____________________"
+          ],
+          [
+            "Garantiebank, Garantieformular und Laufzeit für den Haftrücklass",
+            "____________________",
+            "____________________"
+          ],
+          [
+            "Team, Ersatz, Referenzen",
+            "____________________",
+            "____________________"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Anlage 5 — Ursprüngliches BERGER-Angebot als unveränderte Quelle",
+      "paragraphs": [
+        "Angebot vom 2026.08.17, vier Seiten, beigefügt als «2026.10.12 Oferta originala BERGER 2026.08.17.pdf». Das Originalangebot bleibt unverändert. Die Rangordnung des § 1 übernimmt seine vier Beträge, setzt bei abweichenden Bedingungen jedoch den erst beiderseits zu unterzeichnenden Vertrag voraus. Die achtwöchige ursprüngliche Bindungsfrist belegt keine heutige Kapazität; die Unterzeichnung dieses Vertrages bestätigt die neue Vereinbarung."
+      ]
+    },
+    {
+      "title": "Anhang RO — Sinteză și modificări propuse; fără efect contractual autonom",
+      "paragraphs": [
+        "Documentul este o propunere nouă a beneficiarului, NETRIMISĂ și NESEMNATĂ. Prețul original BERGER rămâne 45.000 EUR net, la care se adaugă 9.000 EUR TVA, rezultând 54.000 EUR brut. Cele patru poziții originale sunt păstrate: 13.000 EUR pentru calcul, 20.000 EUR pentru planuri, 2.000 EUR pentru asistență statică și 10.000 EUR pentru Prüfingenieur. Prestatorul trebuie să accepte expres serviciile extinse în acest preț.",
+        "Bauwerksbuch nu era ofertat explicit. Propunerea cere cartea întregii clădiri, pentru partea existentă și intervențiile noi, inclusiv prima verificare, documentarea, înregistrarea și dovada acesteia. Serviciul este inclus în prețul întregului pachet. Nu este prezentat drept o prestație deja ofertată de BERGER și nu îi atribuim un preț separat. Constatarea defectelor existente și planul pentru remedierea lor nu includ reparațiile fizice ale clădirii în onorariul de proiectare.",
+        "Oferta descria Prüfingenieur până la Rohbaubeschau, cu o anexă pentru procedura de finalizare conform § 128. Propunerea extinde funcția până la finalizarea lucrărilor și include toate verificările și recepțiile necesare. Acestea sunt distincte de cele 8 vizite de asistență statică din ofertă și nu sunt plafonate prin acest număr. Persoanele responsabile trebuie să aibă calificarea, abilitarea și independența cerute pentru fiecare funcție.",
+        "Față de oferta originală, cerem explicit proiectarea pentru lemn și oțel, dimensionarea nodurilor, ancorelor și sudurilor, toate detaliile structurale necesare execuției, subzidirile și sprijinirile temporare necesare, precum și calculul la foc pentru structura afectată. Cerem și verificarea planurilor de atelier și un ciclu integrat de Planwechsel. Planurile specifice fabricării sunt întocmite de executant; calculul și detaliile structurale necesare rămân în obligația prestatorului.",
+        "Predarea este extinsă la PDF semnat, DWG, DXF și IFC, fișiere native de calcul și model, liste editabile și documentația structurală as-built. Beneficiarul primește drepturi de utilizare, modificare și continuare a proiectului cu terți, precum și documentele de lucru la încetarea contractului. Oferta originală nu individualiza toate aceste livrabile și drepturi.",
+        "Propunem plata la 30 de zile după predarea completă și acceptarea livrabilului, în locul termenului original de 14 zile. Nu sunt prevăzute avansuri, indexare sau majorări automate; suplimentele necesită aprobare prealabilă documentată. Propunem o retenție de 5% din valoarea netă a fiecărei facturi acceptate și o garanție contractuală de cel puțin trei ani de la recepția documentată a întregului pachet, fără reducerea termenelor legale mai lungi sau a drepturilor la despăgubiri. Retenția se eliberează la expirarea acestei perioade, exceptând partea justificată pentru pretenții concrete încă nesoluționate; poate fi înlocuită printr-o garanție bancară echivalentă. Drepturile imperative ale prestatorului la garantarea onorariului, inclusiv § 1170b ABGB când este aplicabil, rămân neafectate.",
+        "Calendarul original era stabilit prin acord și estima aproximativ 12 luni. Termenele propuse acum sunt relative la începutul confirmat T0: 3, 6, 8, 10 și 12 săptămâni pentru dosarele D1–D5. Eșalonarea nouă a plății este de 10%, 20%, 25%, 15%, 10%, 10% și 10% din total, conform Anexei 3. Ea reprezintă o propunere a beneficiarului și necesită acceptarea prestatorului; nu este o defalcare originală a prețurilor pe subservicii.",
+        "Beneficiarul poate solicita încetarea prestațiilor viitoare, dar aceasta nu înseamnă automat cost zero. Conform § 1168 ABGB, remunerația convenită poate rămâne datorată cu scăderea economiilor și a veniturilor alternative relevante. Contractul cere o decontare documentată și nu limitează în mod nejustificat drepturile prestatorului la plata lucrului deja realizat. Predarea documentelor și a informațiilor necesare continuării și siguranței este reglementată separat.",
+        "Înainte de semnare trebuie confirmate disponibilitatea prestatorului, documentația de bază, persoanele abilitate pentru Prüfingenieur, confirmarea conform § 128 și Bauwerksbuch, precum și asigurarea profesională propusă de 2.000.000 EUR. Trebuie confirmate și calendarul, eșalonarea plăților și condițiile garanției. Expirarea calculată a ofertei originale la 2026.10.12 nu dovedește disponibilitatea actuală. BauKG, ÖBA generală, Bauführung și serviciile generale de Baumanagement sau REALIG nu sunt comandate prin această propunere.",
+        "Surse documentare: oferta BERGER din 2026.08.17, paginile 1–4; contractul TOMS v4.1 trimis la 2026.10.02, utilizat ca reper pentru cerințele beneficiarului; matricea factuală din 2026.10.12. Confirmările TOMS nu sunt atribuite firmei BERGER. § 1168 ABGB a fost verificat în RIS: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622&Paragraf=1168. Documentul reprezintă o propunere contractuală a beneficiarului și nu o acceptare deja exprimată de prestator."
+      ]
+    }
+  ],
+  "open_fields": [
+    "Firmenbuchnummer, Firmenbuchgericht und UID des AN",
+    "Vertretungsberechtigte Person des AN",
+    "Gemeinsame Planliste und verbindliche Bearbeitungsgrundlage",
+    "Personen und Befugnisse für Prüfingenieur, Bestätigung nach § 128 und Bauwerksbuch",
+    "Versicherungsdaten und Bestätigung der vorgeschlagenen Deckung von EUR 2.000.000,00",
+    "Bestätigung von T0 und der relativen Lieferfristen",
+    "Garantieformular und Laufzeit für den Haftrücklass",
+    "Ort, Datum und Unterschriften beider Parteien",
+    "Bestätigung der vorgeschlagenen AG-Zahlungsstaffel",
+    "Aktueller Firmenbuchnachweis der AG vor tatsächlicher Unterzeichnung"
+  ],
+  "source_notes": {
+    "berger": "00.Proiect/09. Vertraege/bmberger.at/2026.08.17/2026_08_17_Anbot_Statik_Detail.pdf",
+    "berger_sha256": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+    "ag_reference": "04. Firme + Executie/01. Verificator (Pruefingenieur)/TOMS/2026.10.02 Contract v4.1 - data actualizata/2026.10.02 Contract v4.1 - continut sursa.txt",
+    "abgb1168": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622&Paragraf=1168",
+    "abgb1170b": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1170b/NOR40070129",
+    "bo128a": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217",
+    "abgb886": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P886/NOR12018610",
+    "AG_daten": "Root visuell geprüft: Firmenbuchauszug Stichtag 2026.04.01 p.1–2, FN668224h Handelsgericht Wien, Geschäftsanschrift Schallergasse35 und Cosmin-Adrian Covaciu selbständig vertretungsberechtigt; UID-Mitteilung 2026.03.19: ATU83086125. Aktuellen Firmenbuchnachweis vor tatsächlicher Unterzeichnung einholen."
+  }
+}

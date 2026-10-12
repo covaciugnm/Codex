@@ -1,0 +1,68 @@
+2026.10.12 — AUDIT INDEPENDENT AL PROPUNERILOR CONTRACTUALE BERGER ȘI PECH
+Schallergasse 35, 1120 Wien — A&C Wohnart GmbH
+
+CONCLUZIE
+Cele două documente sunt adecvate pentru analiza și negocierea unor propuneri ale beneficiarului. Auditul final nu identifică o corecție juridică materială obligatorie rămasă neimplementată în versiunile identificate mai jos. Sunt drafturi NETRIMISE și NESEMNATE. Extinderile de servicii, reținerea, calendarul și derogările de la ofertele/AGB originale trebuie acceptate expres de prestatori; nu sunt obligații deja asumate de aceștia. Auditul de conținut nu constituie semnătură profesională, numire de Prüfingenieur sau certificat tehnic al clădirii.
+
+DOCUMENTELE FINALE CONTROLATE
+BERGER, JSON: 2026.10.12 Contract BERGER continut.json
+SHA-256: 642c0c6796b98d70f071da90c0ecf48fd20dd560acf9604accf24c0f20d598b7
+BERGER, Word: 2026.10.12 Propunere contract BERGER.docx
+SHA-256: dbe8851572cb7699e94fb5f649dbb5c8807bcf1700c0f9881344243988830d22
+BERGER, PDF: 2026.10.12 Propunere contract BERGER.pdf — 18 pagini
+SHA-256: cf9ff43a531bf1a50c0f48c96c5feac487bad91e72604803363ffc1f662e388f
+
+PECH, JSON: 2026.10.12 Contract PECH continut.json
+SHA-256: bec236dcfbccde7162a6e4a1b6b8144e503df1b04a7aaf327b4c567fd1c2ed94
+PECH, Word: 2026.10.12 Propunere contract PECH.docx
+SHA-256: ad3bbed2ac30d4a2c554bc72a2707158204d57a17450b1d24c8af8376b83caf6
+PECH, PDF: 2026.10.12 Propunere contract PECH.pdf — 23 pagini
+SHA-256: 0f54a5b3f54621535d70b8c7bd1ae611a9b863dbc50efddb1341b8d674e8fbec
+
+CONCORDANȚĂ ȘI ÎNTINDEREA VERIFICĂRII
+Revalidare după exportul de aspect din 2026.10.12: JSON neschimbate, BERGER 18 pagini și PECH 23 pagini; concordanța celor 208 paragrafe a fost reconfirmată integral înaintea ultimei simplificări exclusiv vizuale. La exportul final s-au scurtat barele câmpurilor goale, s-a utilizat antetul BERGER «AG Anteil am Paket» și s-au introdus spații în eticheta PECH D5 «Balkone / Stiegen / Resttragwerk», fără schimbarea scopului, sumelor sau clauzelor. SHA Word/PDF finale sunt actualizate mai sus. Agentul principal a confirmat verificarea vizuală PASS pentru paginile modificate BERGER 16–18 și PECH 14; restul imaginilor paginilor au SHA identice cu setul integral verificat anterior. Nu a fost reluată cercetarea juridică și nu au fost modificate Word/PDF de auditor.
+Am citit clauzele celor două drafturi și reviziile materiale finale. Cele 93 de paragrafe BERGER și 115 paragrafe PECH din secțiunile JSON sunt integral prezente în documentele Word și în textul extras din PDF, după excluderea subsolurilor de pagină și normalizarea punctuației/spațierii. Cele 227 de celule ale tabelelor din secțiunile PECH sunt prezente integral în Word. Extragerea PDF intercalează textul coloanelor; verificarea semantică a clauzelor și cifrelor nu este o certificare independentă a aspectului vizual al fiecărei celule. Verificarea vizuală a randării finale este efectuată separat de agentul care a produs Word/PDF. Nu am modificat Word/PDF, jurnalele sau indexul proiectului.
+
+Numerotarea Bauwerksbuch este coerentă: BERGER §6 alin.(1), (2), (2a), (3), (4), (5); PECH §8 alin.(1), (1a), (2), (2a), (3)–(8). Inserarea (2a) nu a șters sau duplicat clauzele existente. Trimiterile operative identifică în continuare secțiunea corectă.
+
+PREȚURI ȘI CONDIȚII ECONOMICE CONFIRMATE
+BERGER: patru poziții originale de 13.000 + 20.000 + 2.000 + 10.000 = 45.000 EUR net; TVA 9.000; total 54.000 EUR brut. Propunerea de plăți 10/20/25/15/10/10/10% însumează 100% și 45.000 EUR net. Nu reprezintă o defalcare istorică a ofertei pe subservicii. Cele opt vizite de asistență sunt distincte de verificările legale necesare ale Prüfingenieur; acestea din urmă nu sunt limitate artificial la opt.
+
+PECH: șase poziții originale de 42.000 + 6.000 + 5.000 + 800 + 14.000 + 1.500 = 69.300 EUR net; TVA 13.860; total 83.160 EUR brut. Etapele de plată propuse rămân în interiorul fiecărei poziții originale și însumează 69.300 EUR net. Cele 12 Abnahmen și prețul de 450 EUR net pentru o vizită suplimentară sunt păstrate. O vizită comună de statică/PI se numără o singură dată. Necesitatea de verificare și aprobarea costurilor suplimentare sunt tratate separat: lipsa aprobării nu permite continuarea unei etape nesigure sau eludarea unui Prüfhalt legal. Repetările provocate de propriile erori ale AN nu generează automat un onorariu suplimentar.
+
+PI extins, detalierea completă a structurii, formatele native/editabile, as-built și Bauwerksbuch pentru întregul existent și intervențiile noi sunt cerințe noi AG, încadrate expres în totalurile păstrate. Nu există o poziție istorică fictivă Bauwerksbuch la zero EUR. BERGER include BWB în pachetul total; PECH îl include în poziția 06 și PI în poziția 05, numai sub rezerva acceptării exprese a pachetului extins.
+
+În ambele propuneri reținerea este de 5% din facturile NETE, nu din brut: 2.250 EUR BERGER și 3.465 EUR PECH pentru întregul onorariu de bază. Reținerea este o garanție temporară, nu un discount. Eliberarea este legată de sfârșitul garanției contractuale de minimum trei ani de la recepția completă documentată, cu reținerea numai a părții proporționale necesare pentru pretenții concrete încă deschise. Este permisă înlocuirea cu o garanție bancară echivalentă; formularul și durata se stabilesc înainte de semnare.
+
+CORECȚII JURIDICE IMPLEMENTATE ȘI CONCLUZII CONFIRMATE
+1. §1168 ABGB: abbestellen/încetarea la inițiativa AG nu este prezentată drept gratuită. Prestatorul disponibil poate avea dreptul la remunerația convenită, cu deducerea economiilor, a veniturilor obținute prin utilizarea alternativă și a celor omise intenționat. Formula eronată de plată numai a lucrărilor deja executate a fost eliminată. Decontul trebuie să fie verificabil; prejudiciile și contrapretențiile se analizează distinct.
+
+2. §1170b ABGB: garanția legală cerută de prestator este diferită de reținerea AG de 5%. Drepturile imperative, inclusiv consecințele unei cereri legale neexecutate, sunt păstrate. OGH 6 Ob 65/18d, 2018.04.26, arată că serviciile de proiectare pot intra în această protecție; nu se exclude prin simpla etichetă de contract de planificare. Clauzele de informare și predare pentru siguranță nu sunt prezentate ca interdicție absolută a unei întreruperi legale.
+
+3. §§918, 932, 933, 933a ABGB: remedierea, termenul suplimentar rezonabil, reducerea prețului/încetarea în condițiile legii și răspunderea culpabilă sunt păstrate. Garanția de trei ani este o extindere contractuală explicită pentru întregul pachet; nu se afirmă că toate serviciile intelectuale au obligatoriu aceeași clasificare și durată legală. Drepturile legale mai lungi și daunele rămân independente. OGH 2 Ob 163/13d, 2014.05.22, susține tratarea distinctă a regulii Nachfrist și a excepțiilor, fără a transforma orice dispută în drept de încetare imediată.
+
+4. BO Wien §§127/128: PI trebuie să fie persoana legal eligibilă, nominalizată și independentă în sensul normei. Un expert judiciar poate fi eligibil pentru PI fără să fie automat eligibil pentru certificatul ZT de la §128 alin.2 pct.1. Pentru această confirmare se cere Ziviltechniker cu abilitare activă și competență relevantă. Sunt cerute probe și procedurile legale; niciun draft nu pretinde o numire sau acceptare a autorității deja existentă. Mențiunea rB din oferta BERGER impune verificarea stării actuale a abilitării, nu o acuzație că firma ar fi în prezent neeligibilă. Cumulul proiectare/PI nu este declarat automat permis sau automat interzis; se verifică persoanele, rolurile și independența profesională concretă.
+
+5. BO Wien §128a, versiunea în vigoare de la 2026.07.15: BWB acoperă întregul imobil, autorul și persoana de Erstprüfung trebuie să îndeplinească cerințele de calificare și independență inclusiv față de proprietar. Sunt incluse data primei/următoarei verificări, intervalele, calificarea persoanelor pentru verificările VIITOARE, inventarul defectelor și planul de remediere. Termenul 2027.12.31 pentru existent presupune confirmarea documentată a încadrării înainte de 1919; documentele pentru intervențiile noi/umgebaut trebuie pregătite la timp pentru Fertigstellungsanzeige. Înregistrarea nu este certificare automată a lipsei defectelor sau aprobare a autorității.
+
+6. §118c alin.2 și 7, raportat la §128a alin.4 pct.7: ultimele completări precizează documentarea măsurilor și modificărilor relevante, cu probe furnizate de specialiștii în energie/instalații și urmărirea lipsurilor de către AN. Nu se comandă tacit proiectarea energetică generală sau execuția acelor lucrări; interfețele structurale rămân datorate.
+
+7. Existent, probe și remediere: planificarea și verificarea se bazează pe date confirmate și pe semnalarea lipsurilor/necesității de sondaje sau teste. Reparația fizică a defectelor vechi nu este inclusă automat în onorariul de proiectare. Documentarea limitelor de investigație și obligațiile de avertizare împiedică prezentarea unei examinări limitate ca garanție că nu există defecte ascunse. Nu este garantată lipsa tuturor defectelor istorice la final.
+
+8. Oferta/AGB/forma: derogările noi AG sunt explicite, iar modificările bilaterale ulterioare au prioritate în partea modificată. Semnarea contractului este distinctă de aprobările operative prin text/email autorizat. Termenii neobișnuiți, garanția, răspunderea, drepturile de utilizare și extinderea volumului trebuie negociate efectiv; semnătura nu înlătură controlul §§864a/879 ABGB. În clauzele operative nu se atribuie redactarea unui avocat și nu se impune o declarație AI.
+
+DIFERENȚE COMERCIALE ȘI ELEMENTE RĂMASE DE COMPLETAT
+PECH propune penalitate de 0,1% din valoarea netă a pachetului întârziat pe zi lucrătoare, plafonată în total la 5% din netul contractului, adică 3.465 EUR, numai pentru întârziere culpabilă la termene devenite obligatorii. Se păstrează moderarea legală și compensarea cu daunele, fără dublă recuperare. BERGER nu conține aceeași penalitate contractuală; documentele nu sunt identice comercial. Nici reținerea de 5%, nici penalitatea nu constituie o garanție legală universal obligatorie.
+
+BERGER propune expres asigurare de 2.000.000 EUR pe caz, de confirmat; PECH lasă minimul concret pentru negociere. Nu este atestată existența sau suficiența unei polițe prin textul draftului. Trebuie verificate profesioniștii, funcțiile acoperite, franșiza, agregatul, continuitatea și eventualele excluderi. Acoperirea nu devine automat plafon al răspunderii contractuale.
+
+Înainte de semnare se completează identitatea și reprezentarea AN, abilitările active, nominalizările și independența PI/§128/BWB, lista comună de planuri, probele și limitele investigațiilor, asigurarea, calendarul/T0 și formularul de garanție. Firma AG este identificată pe baza actelor verificate de agentul principal: Firmenbuch 2026.04.01, FN668224h și UID ATU83086125; extrasul nu este pretins actualizat la 2026.10.12. Reprezentarea se reverifică la semnarea efectivă. Acceptarea prestatorului pentru întregul volum la prețul păstrat rămâne esențială și neconfirmată.
+
+SURSE ȘI PROVENIENȚĂ
+Registrul separat: 2026.10.12 Surse audit contracte.json — 19 norme și două hotărâri OGH, surse oficiale RIS, cu URL, versiune/data intrării în vigoare, aplicare și limite. Normele BO §§128,128a,118c folosite sunt versiunile actuale 2026.07.15, nu textele istorice găsite inițial în căutare.
+
+Oferta BERGER: 00.Proiect/09. Vertraege/bmberger.at/2026.08.17/2026_08_17_Anbot_Statik_Detail.pdf
+SHA-256: b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b
+Oferta PECH: 03. Proiectare/Statik/Angebot 2026-470-AN01 2026-09-17.pdf
+SHA-256: 29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1
+Prețurile și condițiile ofertelor au fost controlate în originale și în extracția auditată de la 2026.10.12; oferta, comparația și propunerile contractuale au statut distinct. TOMS v4.1 este reper intern de interese AG și nu transferă automat obligațiile sau datele TOMS către BERGER/PECH.

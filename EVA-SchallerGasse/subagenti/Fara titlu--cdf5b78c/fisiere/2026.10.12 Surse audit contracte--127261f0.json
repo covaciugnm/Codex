@@ -1,0 +1,193 @@
+{
+  "data": "2026.10.12",
+  "scop": "Surse primare verificate pentru auditul celor două propuneri de contract; nu opinie de avocat și nu acceptare comercială.",
+  "metoda": "RIS oficial. Versiunea în vigoare și data intrării în vigoare au fost citite; nu se folosesc versiuni §128/§128a istorice găsite inițial în căutare.",
+  "surse": [
+    {
+      "id": "L01",
+      "norma": "BO Wien §127",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P127/LWI40016468",
+      "in_vigoare_de_la": "2023.12.14",
+      "verificat": "Text integral și lista versiunilor; nicio versiune ulterioară afișată.",
+      "aplicare": "PI este ZT sau expert judiciar în specialitate; numire/notificare înaintea lucrărilor, confirmare de luare la cunoștință. Distinct de Bauwerber/Bauführer, fără raport de muncă/organ cu aceștia. Verificări structurale, Rohbaubeschau și conformitate; nu echivalează cu simpla asistență statică ori plafon arbitrar de vizite.",
+      "limita": "Textul nu interzice automat cumulul cu proiectarea; trebuie verificate atribuțiile și conflictele concrete."
+    },
+    {
+      "id": "L02",
+      "norma": "BO Wien §128",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40018216",
+      "in_vigoare_de_la": "2026.07.15",
+      "verificat": "Text integral, LGBl25/2026, versiunea actuală.",
+      "aplicare": "Certificatul alin2Z1 cere ZT în limitele abilitării, distinct de Bauwerber/Bauführer fără Dienst/Organschaft. Dosarul final include dovezi ale verificărilor, documente terțe și registrări BWB/Gebäudebeschreibung. PI expert judiciar nu este automat eligibil pentru semnătura ZT.",
+      "limita": "Nicio garanție de aprobare administrativă și nicio atestare fără probe. Responsabilitățile autorității și ale beneficiarului nu se transferă tacit."
+    },
+    {
+      "id": "L03",
+      "norma": "BO Wien §128a",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217",
+      "in_vigoare_de_la": "2026.07.15",
+      "verificat": "Text integral LGBl25/2026, inclusiv alin2–5.",
+      "aplicare": "BWB pentru intervenții noi înaintea notificării finale; pentru existent termene în funcție de anul edificării. Autorul și verificatorul inițial pot fi ZT/expert judiciar/alt profesionist abilitat; independență și față de proprietar. Conținut: acte clădire, componente/intervale/calificări, rezultate, defecte și remediere, documentarea măsurilor §118c. Conducere electronică.",
+      "limita": "Nu se afirmă anul edificării ori termenul 2027 fără document; actualizare/registrare nu este o aprobare tehnică a MA37."
+    },
+    {
+      "id": "L04",
+      "norma": "ZTG2019 §16",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/i/2019/29/P16/NOR40213942",
+      "in_vigoare_de_la": "2019.07.01",
+      "verificat": "Alin6–9 și lista versiunilor.",
+      "aplicare": "Abilitarea suspendată nu permite servicii ZT sau acte publice. Mențiunea «rB» din oferta Berger impune verificarea actualei abilitări sau asigurarea unui ZT eligibil în echipă.",
+      "limita": "Nu se afirmă că Berger este neeligibil actualmente numai din mențiunea din PDF."
+    },
+    {
+      "id": "L05",
+      "norma": "ABGB §1168",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168/NOR12018908",
+      "in_vigoare_de_la": "1917.01.01",
+      "verificat": "Text integral.",
+      "aplicare": "Încetarea din sfera AG poate păstra onorariul minus economii și câștig alternativ ori câștig intenționat omis. Nu se prezintă decontul numai pentru lucrări prestate ca regulă legală implicită.",
+      "limita": "O derogare contractuală B2B trebuie identificată ca negociere și acceptare expresă; nu se ascunde în AGB."
+    },
+    {
+      "id": "L06",
+      "norma": "ABGB §918",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P918/NOR12018643",
+      "in_vigoare_de_la": "1917.01.01",
+      "verificat": "Text integral.",
+      "aplicare": "Retragerea pentru întârziere prin termen suplimentar rezonabil; pentru prestații divizibile se delimitează partea restantei."
+    },
+    {
+      "id": "L07",
+      "norma": "ABGB §932",
+      "url": "https://ris.bka.gv.at/eli/jgs/1811/946/P932/NOR40237219",
+      "in_vigoare_de_la": "2022.01.01",
+      "verificat": "Text integral, versiunea actuală.",
+      "aplicare": "Remediere/înlocuire prioritar; reducere sau rezoluțiune în condițiile legii. Costul remedierii este al prestatorului. Rezoluțiunea nu pentru defect minor."
+    },
+    {
+      "id": "L08",
+      "norma": "ABGB §933",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40237220/NOR40237220.html",
+      "in_vigoare_de_la": "2022.01.01",
+      "verificat": "Text integral, inclusiv alin3–4.",
+      "aplicare": "Termene legale diferențiate și prescripție la 3 luni după perioada de garanție; alin4 permite convenirea prelungirii. Garanția contractuală 5 ani trebuie numită propunere, nu termen legal universal."
+    },
+    {
+      "id": "L09",
+      "norma": "ABGB §933a",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P933a/NOR40018132",
+      "in_vigoare_de_la": "2002.01.01",
+      "verificat": "Text integral.",
+      "aplicare": "Despăgubiri pentru defect culpabil, distinct de garanție. Nu se confundă limita asigurării cu limita răspunderii."
+    },
+    {
+      "id": "L10",
+      "norma": "ABGB §1299",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1299/NOR12019041",
+      "in_vigoare_de_la": "1812.01.01",
+      "verificat": "Text integral.",
+      "aplicare": "Standardul de cunoștințe și diligență al specialistului; certificarea beneficiarului nu transferă responsabilitatea tehnică."
+    },
+    {
+      "id": "L11",
+      "norma": "ABGB §1336",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1336/NOR40070132",
+      "in_vigoare_de_la": "2007.01.01",
+      "verificat": "Text integral.",
+      "aplicare": "Pönale contractuală posibilă; proporție/bază/cap/plafon și raport cu despăgubirile trebuie precizate. Moderarea judiciară se păstrează, nu se exclude."
+    },
+    {
+      "id": "L12",
+      "norma": "ABGB §879",
+      "url": "https://ris.bka.gv.at/eli/jgs/1811/946/P879/NOR12018602",
+      "in_vigoare_de_la": "1992.07.01",
+      "verificat": "Text integral alin1–3.",
+      "aplicare": "Controlul clauzelor standard excesiv dezavantajoase rămâne relevant în B2B; semnătura nu garantează validitatea fiecărei clauze."
+    },
+    {
+      "id": "L13",
+      "norma": "ABGB §864a",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P864a/NOR12018587",
+      "in_vigoare_de_la": "1979.10.01",
+      "verificat": "Text integral.",
+      "aplicare": "Clauzele neobișnuite dezavantajoase din formulare trebuie evidențiate; extinderile de scop și derogările importante sunt prezentate explicit."
+    },
+    {
+      "id": "L14",
+      "norma": "ABGB §884",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P884/NOR12018608",
+      "in_vigoare_de_la": "1917.01.01",
+      "verificat": "Text integral.",
+      "aplicare": "Forma convenită pentru încheiere susține rezerva de semnare. Aprobarea scrisă a suplimentelor este cerință contractuală propusă, nu formalitate legală universală pentru orice operațiune B2B."
+    },
+    {
+      "id": "L15",
+      "norma": "ABGB §1168a",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168a/NOR12018909",
+      "in_vigoare_de_la": "1917.01.01",
+      "verificat": "Text integral.",
+      "aplicare": "Avertizare pentru baze ori instrucțiuni vădit inadecvate; siguranța nu se suspendă tacit pentru dispută comercială."
+    },
+    {
+      "id": "L16",
+      "norma": "ABGB §1170b",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1170b/NOR40070129",
+      "in_vigoare_de_la": "2007.01.01",
+      "verificat": "Text integral alin1–3.",
+      "aplicare": "Dreptul AN la garanția onorariului restant este imperativ dacă sunt îndeplinite condițiile. Nu se suprimă prin «fără suspendare în orice caz». Este distinct de retenția de 5% ori garanția bancară în beneficiul AG."
+    },
+    {
+      "id": "J01",
+      "hotarare": "OGH 6 Ob65/18d",
+      "data": "2018.04.26",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20180426_OGH0002_0060OB00065_18D0000_000&IncludeSelf=True",
+      "verificat": "Motive 3.4–3.6 prin text primar RIS.",
+      "aplicare": "Proiectanții, statiker și inginerii pot intra în §1170b; începerea fizică a construcției nu se presupune condiție universală pentru dreptul la garanție.",
+      "limita": "Decizia distinge nuanțe privind planificarea pură, etapele și intervalul lung; nu se afirmă că fiecare prestație BWB pur documentară intră automat."
+    },
+    {
+      "id": "J02",
+      "hotarare": "OGH 2 Ob163/13d",
+      "data": "2014.05.22",
+      "url": "https://ris.bka.gv.at/Dokumente/Justiz/JJT_20140522_OGH0002_0020OB00163_13D0000_000/JJT_20140522_OGH0002_0020OB00163_13D0000_000.pdf",
+      "verificat": "Motive pct3, text primar RIS.",
+      "aplicare": "Termen rezonabil §918; poate lipsi pentru imposibilitate evidentă ori refuz definitiv, nu pentru orice dispută minoră."
+    },
+    {
+      "id": "L17",
+      "norma": "ABGB §886",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P886/NOR12018610",
+      "in_vigoare_de_la": "1917.01.01",
+      "verificat": "Text integral RIS actual.",
+      "aplicare": "Forma semnăturilor pentru încheiere se distinge de Textform-email convenită pentru operațiuni/aprobări."
+    },
+    {
+      "id": "L18",
+      "norma": "ZTG2019 §12 alin2",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010625",
+      "verificat": "Consolidare curentă RIS și text primar §12 PDF NOR40213938, alin2.",
+      "aplicare": "Imparțialitatea profesională la certificări este distinctă de simpla apartenență la o firmă; cumulul rolurilor nu este validat automat."
+    },
+    {
+      "id": "L19",
+      "norma": "BO Wien §118c",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P118c/LWI40018201",
+      "in_vigoare_de_la": "2026.07.15",
+      "verificat": "Text integral RIS, în special alin2 și7.",
+      "aplicare": "Documentarea măsurilor/schimbărilor energetice și la componente în Bauwerksbuch se integrează potrivit §128a(4)Z7. Nu transformă contractul de structură în contract de planificare/executare energetică generală; dovezile MEP/energie sunt furnizate de specialiști."
+    }
+  ],
+  "propuneri_comerciale_neimpuse_de_aceste_norme": [
+    "Suma asigurată cerută contractual și dovezile acoperirii pentru planificare/PI/BWB/terți.",
+    "Retenție AG 5%, cu mecanism alternativ de garanție bancară și eliberare definită.",
+    "Livrare PDF/DWG/DXF/IFC/native, licență de utilizare/modificare și predare intermediară.",
+    "Adăugarea BWB/PI/detaliilor complete la totalurile originale cu extinderi explicit acceptate.",
+    "Preț fix fără indexare, aprobări scrise pentru suplimente, calendar D1–D5."
+  ],
+  "interdictii_de_afirmare": [
+    "Nu există acceptare a noilor servicii/prețului de către ofertanți înaintea semnării.",
+    "Nu se declară PI/autorBWB calificat și numit numai din titlul comercial al firmei.",
+    "Nu se fabrică certificate finale ori confirmări de înregistrare/aprobare administrativă.",
+    "Nu se spune că polița cu sumă contractuală garantează plata fiecărei penalități ori costului propriei remedieri."
+  ]
+}

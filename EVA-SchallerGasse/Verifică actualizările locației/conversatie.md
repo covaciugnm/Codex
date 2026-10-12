@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-12T14:26:02.743395+00:00
+Export UTC: 2026-10-12T20:27:38.716272+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -562,3 +562,93 @@ TOMS a refuzat preluarea în prezent la **2026.10.08**, invocând lipsa resursel
 - :codex-followup[Clarificări BERGER]{prompt="Pregătește un draft netrimis către BERGER pentru prelungirea ofertei, disponibilitate și completarea serviciilor neconfirmate din comparație."}
 - :codex-followup[Clarificări PECH]{prompt="Pregătește un draft netrimis către PECH pentru descrierea exactă a serviciilor, planuri, Prüfingenieur, Bauwerksbuch, drepturi de utilizare și indexare."}
 - :codex-followup[Clarificări TOMS]{prompt="Pregătește un draft netrimis către TOMS pentru clarificarea refuzului față de contractul v4.1 și posibilitatea preluării unor componente separate."}
+
+## Utilizator
+
+creaza o propunere de contract atat pentru Berger cat si pentru Pech cu toate cele solicitate chiar daca nu sunt explicite&#x20;
+include de exemplu Bauwerksbuch: existent și intervenții noi chiar daca nu sunt explicit scrise&#x20;
+
+tine cont de termenele de executie propuse de ei
+
+inclusiv pruf ingineur
+
+nu include BauKG
+
+nu includem **REALiG: Baumanagement, Planung**&#x20;
+
+pastreaza sumele lor DAR introdu toate clauzele care ne intereseaza&#x20;
+pregateste contractele sa le citesc
+
+
+## Asistent
+
+Pregătesc două propuneri de contract pentru lectură, una pentru BERGER și una pentru PECH. Păstrez sumele ofertate și introduc serviciile și clauzele cerute, inclusiv Prüfingenieur și Bauwerksbuch pentru clădirea existentă și intervențiile noi. Voi marca drept propuneri ale beneficiarului completările care nu sunt confirmate în ofertele lor și voi ține cont de calendarul indicat de fiecare.
+
+
+## Asistent
+
+În ce limbă vrei contractele pentru lectură? Pot pregăti textul contractual în germană, cu o sinteză în română a serviciilor, termenelor și clauzelor adăugate.
+- Germană, cu sinteză în română
+- Integral în română
+- Versiuni complete în germană și română
+
+## Asistent
+
+Voi folosi skillul Documents pentru versiunile Word și PDF și verificarea paginilor. Doi agenți redactează separat propunerile BERGER și PECH, iar un al treilea verifică obligațiile, prețurile, termenele și clauzele juridice. Completările intră în prețul total propus, fără să fie prezentate ca deja acceptate de ofertanți.
+
+
+## Asistent
+
+Pentru BERGER păstrez începutul prin acord și durata orientativă de circa 12 luni. PECH nu a indicat o durată fixă, ci un calendar de convenit după comanda scrisă și primirea documentelor; voi separa acest lucru de termenele de predare pe care le propunem noi. Continui cu textul în germană și sinteză în română, pentru lectură.
+
+
+## Utilizator
+
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_4c965a61bfc7425aa9e1b92435632388\",0]","question":"În ce limbă vrei contractele pentru lectură? Pot pregăti textul contractual în germană, cu o sinteză în română a serviciilor, termenelor și clauzelor adăugate.","answer":"Germană, cu sinteză în română"}]
+</send_user_message_question_reply>
+
+## Asistent
+
+Verificarea juridică a identificat două cerințe importante pentru propuneri: persoana care îndeplinește rolul de Prüfingenieur trebuie să aibă calificarea legală necesară, iar certificarea finală §128 cere separat un Ziviltechniker cu autorizație activă. Contractele vor cere nominalizarea și dovezile înaintea etapelor respective, cu costul inclus în totalul propus.
+
+
+## Asistent
+
+Propunerile păstrează totalurile de 45.000 EUR net pentru BERGER și 69.300 EUR net pentru PECH. Bauwerksbuch și completările tehnice vor fi cerute în aceste totaluri. Introduc și clauze explicite pentru predările editabile, dreptul de continuare cu alți specialiști, aprobarea scrisă a suplimentelor, remedierea erorilor și plățile pe livrabile.
+
+
+## Asistent
+
+Ambele propuneri sunt redactate, cu text contractual în germană și sinteză în română. La PECH, Prüfingenieur este inclus expres în poziția de 14.000 EUR, iar Bauwerksbuch în poziția de 1.500 EUR pentru documentele finale, ca extinderi propuse spre acceptare. Finalizez verificarea paginilor și a concordanței dintre text, sume și anexe.
+
+
+## Asistent
+
+Controlul juridic și numeric a confirmat totalurile și clauzele pentru încetare, garanții și Bauwerksbuch. Mai ajustez câteva tabele și blocurile de semnături, apoi salvez versiunile finale pentru lectură.
+
+
+## Asistent
+
+Contractele sunt gata pentru lectură. Am verificat toate cele 41 de pagini și am salvat și ofertele originale alături de propuneri. Actualizez acum indexul arhivei, ca documentele noi să poată fi găsite la următoarea verificare.
+
+
+## Asistent
+
+Am pregătit ambele propuneri **în germană, cu sinteză în română**, pentru lectură.
+
+**BERGER — 45.000 EUR net / 54.000 EUR cu TVA, 18 pagini.**  
+Word: :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Propuneri contracte Berger si Pech/2026.10.12 Propunere contract BERGER.docx" purpose="output"}  
+PDF: :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Propuneri contracte Berger si Pech/2026.10.12 Propunere contract BERGER.pdf" purpose="output"}
+
+**PECH — 69.300 EUR net / 83.160 EUR cu TVA, 23 de pagini.**  
+Word: :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Propuneri contracte Berger si Pech/2026.10.12 Propunere contract PECH.docx" purpose="output"}  
+PDF: :codex-file-citation{path="D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Propuneri contracte Berger si Pech/2026.10.12 Propunere contract PECH.pdf" purpose="output"}
+
+Am inclus expres **Prüfingenieur și Bauwerksbuch pentru întregul existent și intervențiile noi**, în totalurile păstrate, plus clauzele de protecție solicitate. BauKG și serviciile generale REALIG sunt excluse.
+
+Calendarul ofertat este separat de termenele noi propuse de noi. Completările necesită acceptarea prestatorilor; documentele sunt **netrimise și nesemnate**.
+
+- :codex-followup[Compară contractele]{prompt="Compară tabelar diferențele dintre cele două propuneri contractuale, inclusiv termenele, plățile, asigurarea și penalitățile."}
+- :codex-followup[Puncte de negociere]{prompt="Extrage pentru fiecare contract clauzele prioritare de negociere și concesiile posibile."}
+- :codex-followup[Emailuri netrimise]{prompt="Pregătește emailuri de însoțire pentru cele două propuneri, fără să le trimiți."}

@@ -130,6 +130,20 @@
     "sha256": "ea310c7a6c7520d21cccb88ec77ca802216c79e5a93cdb7c62ed9d85855eef6c"
   },
   {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026.10.12 Propuneri contracte Berger si Pech\\2026.10.12 Audit contracte.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.12 Audit contracte--abb481a7.txt",
+    "bytes": 12402,
+    "sha256": "d1573a261f000c83fa6a42c830f7eb6e912c4590aca0cd017d333fb3c752c4d0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026.10.12 Propuneri contracte Berger si Pech\\2026.10.12 Surse audit contracte.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.12 Surse audit contracte--127261f0.json",
+    "bytes": 11812,
+    "sha256": "06393b82c4e0fe031809e2a0ee4f6ae67dd49e12f1a01a92bc1f5bfb9583bd40"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.07 Analiza juridica Donau auditata\\2026.10.07 Audit juridic.txt",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.07 Audit juridic--d457ec46.txt",

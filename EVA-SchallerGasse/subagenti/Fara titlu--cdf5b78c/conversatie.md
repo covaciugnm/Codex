@@ -2,7 +2,7 @@
 
 ID: `01a11589-044f-7c10-8ff4-8a1ccdf5b78c`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-12T14:26:02.743395+00:00
+Export UTC: 2026-10-12T20:27:38.716272+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -206,3 +206,39 @@ Audit final **favorabil**. Cele două foi,11formule și valorile calculate sunt 
 Raport salvat în [Audit comparatie.txt](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/04. Firme + Executie/2026.10.12 Comparatie servicii structura/2026.10.12 Audit comparatie.txt>). Workbook-ul nu a fost modificat.
 
 Observație minoră: data surseiT8 poate fi etichetată „data exportului”; trimiterea efectivă2026.10.02 este deja corectă în tabele.
+
+## Asistent
+
+Verific temeiurile legale austriece pentru verificator, cartea clădirii, răspundere și încetare, apoi auditez cele două propuneri de contract față de sumele și serviciile ofertate.
+
+
+## Asistent
+
+Legea distinge verificatorul de șantier de semnatarul certificatului final: pentru certificatul §128 este necesară o abilitare ZT activă. Am semnalat și mențiunea „rB” din oferta Berger, astfel încât proiectul de contract să ceară dovada calificării sau un specialist eligibil desemnat.
+
+
+## Asistent
+
+Propunerea Berger păstrează totalul ofertat și marchează clar extinderile cerute. Auditul a corectat ordinea documentelor contractuale, calificările PI/§128 și drepturile legale care nu pot fi eliminate. Verific în continuare contractul PECH după aceleași criterii.
+
+
+## Asistent
+
+Contractul PECH păstrează cele șase sume ofertate, dar auditul a identificat câteva clauze de completat: decontul la încetare, calificarea semnatarului §128 și cerințele actuale ale Bauwerksbuch. Am transmis corecțiile pentru a le verifica în versiunea finală.
+
+
+## Asistent
+
+Auditul comun și cele 21 de surse RIS sunt salvate în dosarul contractelor.
+
+Versiunile finale sunt coerente juridic pentru negociere, fără corecții materiale restante. Am confirmat prețurile, reținerea de 5% net, garanția contractuală minimum trei ani și concordanța celor 208 paragrafe între JSON, Word și PDF.
+
+Acceptarea extinderilor, persoanele autorizate, asigurarea și calendarul rămân de confirmat înaintea semnării. Diferențele comerciale BERGER/PECH sunt explicitate în raport.
+
+## Asistent
+
+Raport actualizat cu SHA-urile finale și paginarea: BERGER 18 pagini, PECH 23 pagini. Toate cele 208 paragrafe sunt reconfirmate în Word și PDF; JSON-urile și verdictul juridic rămân neschimbate.
+
+## Asistent
+
+SHA-urile finale Word/PDF sunt actualizate în raport. Am consemnat simplificările vizuale și verificarea PASS comunicată de tine. Scopul, sumele, clauzele și verdictul juridic rămân neschimbate.

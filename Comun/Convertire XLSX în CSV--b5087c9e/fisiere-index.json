@@ -17,24 +17,15 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/Eva-Learn/documentatie/EVA-traducere-RO-TOT-2026-10-05.xlsx",
-    "status": "copiat",
-    "saved_path": "fisiere/EVA-traducere-RO-TOT-2026-10-05--d02b7015.xlsx",
-    "bytes": 13711356,
-    "sha256": "2a71f4da9c0e30d0428312e2897f882819936c8d2ac80152cc78754921b686a2"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/Eva-Learn/documentatie/EVA-traduceri-TOATE-LIMBILE-EN-RO-DE-FR-ES-2026-10-05.xlsx",
-    "status": "copiat",
-    "saved_path": "fisiere/EVA-traduceri-TOATE-LIMBILE-EN-RO-DE-FR-ES-2026-10-05--84f80aa0.xlsx",
-    "bytes": 25957461,
-    "sha256": "6091d17b2c6cdbbfa9a6159db7454a01c2fc3e4cef58295c136a58acc65577ac"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/patch1.py",
-    "status": "copiat",
-    "saved_path": "fisiere/patch1--f513e016.py",
-    "bytes": 10279,
-    "sha256": "8accb01ecbd26aab0f823b9155557f95ba48ae0a441f9cc6cbba73b6cd1d35a7"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/patch3.py",
@@ -52,10 +43,7 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/bf3qwf2q8.output",
-    "status": "copiat",
-    "saved_path": "fisiere/bf3qwf2q8--6c9f9fed.output",
-    "bytes": 170,
-    "sha256": "b1c6c2ba7048ce2387a120e3f548a0119f50a95a3b98c09ba6af5e6b240001c3"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/bi6f0yjk5.output",
@@ -73,10 +61,7 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/by632dei8.output",
-    "status": "copiat",
-    "saved_path": "fisiere/by632dei8--ca828fcb.output",
-    "bytes": 24,
-    "sha256": "e7b5ecba26ad16f5e5237a2b5d051f72dc4d5898d72051a2d6e117a25d00c471"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py",
