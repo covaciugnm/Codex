@@ -29,17 +29,11 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/patch3.py",
-    "status": "copiat",
-    "saved_path": "fisiere/patch3--3015b1bb.py",
-    "bytes": 3614,
-    "sha256": "a682583bbfaa1fb8e31b52cdcafd488ca89996c77dca727f86062b6b9f24dfb6"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/scratchpad/tg_template.jinja",
-    "status": "copiat",
-    "saved_path": "fisiere/tg_template--be321ba4.jinja",
-    "bytes": 17302,
-    "sha256": "5fe67942c81c51bafa6e78b623d128f9323c15dee9694135f9c4bc62d2353f45"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/bf3qwf2q8.output",
@@ -47,10 +41,7 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/bi6f0yjk5.output",
-    "status": "copiat",
-    "saved_path": "fisiere/bi6f0yjk5--b67bf401.output",
-    "bytes": 702,
-    "sha256": "f9d39830ab47cbf0e84657f33d3a92f8da9ef3296f40e861eb13a8143adbd1ec"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/6c1815d5-add9-4997-baea-23a34bbfde44/tasks/blug12jmk.output",

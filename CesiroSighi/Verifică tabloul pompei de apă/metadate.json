@@ -1,0 +1,23 @@
+{
+  "id": "01a13423-2bfa-76e0-926d-0cbeae496eec",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\Dep. Resurse Umane\\CesiroSighi",
+  "created_at": 1791876082,
+  "updated_at": 1791876205,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică tabloul pompei de apă",
+  "project_id": "e3898c8c-1e2e-422a-a23f-35ea1ed61beb",
+  "project": "CesiroSighi",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-13T08:28:59.767902+00:00",
+  "source_bytes": 1673602,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 4,
+  "message_count": 3,
+  "content_sha256": "e8dae69d235c0f9d5bdf2f9057f1c42fecd4bcacb2b085a5c167bd143605879b",
+  "files_copied": 4,
+  "references_not_copied": 1
+}

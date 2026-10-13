@@ -1,0 +1,34 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-133657a7-6fe5-4d02-9b31-fca94193d91d.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-133657a7-6fe5-4d02-9b31-fca94193d91d--e8075f69.png",
+    "bytes": 537318,
+    "sha256": "60533bccc46b2b6725482efffd58ed4a286515d9306ecc5c78b026599c2e3676"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-9206ec58-f8bc-4cf9-8492-7cab05071988.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-9206ec58-f8bc-4cf9-8492-7cab05071988--85806139.png",
+    "bytes": 615074,
+    "sha256": "8de5b3f3ec6e49ed71a6ab59a446d78cc0eefd944fb5e66748ba84364c61e653"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-133657a7-6fe5-4d02-9b31-fca94193d91d.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-133657a7-6fe5-4d02-9b31-fca94193d91d--e8075f69.png",
+    "bytes": 537318,
+    "sha256": "60533bccc46b2b6725482efffd58ed4a286515d9306ecc5c78b026599c2e3676"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-9206ec58-f8bc-4cf9-8492-7cab05071988.png",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-9206ec58-f8bc-4cf9-8492-7cab05071988--85806139.png",
+    "bytes": 615074,
+    "sha256": "8de5b3f3ec6e49ed71a6ab59a446d78cc0eefd944fb5e66748ba84364c61e653"
+  },
+  {
+    "source_reference": "https://www.hse.gov.uk/electricity/nearelectric.htm",
+    "status": "referinta_externa_necopiata"
+  }
+]

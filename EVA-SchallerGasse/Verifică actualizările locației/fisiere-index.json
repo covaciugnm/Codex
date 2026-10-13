@@ -329,11 +329,39 @@
     "sha256": "ac57b32bfc3500b76f6b00cd07fe1acd3dfbcccf672ffb9d1df98b1f8b2c78cc"
   },
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.12 ORIGINAL bd01729c image001.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.12 ORIGINAL bd01729c image001--0677cceb.png",
+    "bytes": 37110,
+    "sha256": "184b4e147100c45c058c9be7c2eee608972d484ce2e0b0041dd6020d7ea10661"
+  },
+  {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.12 Salveaza verificare.py",
     "status": "copiat",
     "saved_path": "fisiere/2026.10.12 Salveaza verificare--08fda3be.py",
     "bytes": 8933,
     "sha256": "505f3c78faa966c8a632dd65738678830defe71c5ee40bfd9e114cb50e751f85"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 Actualizare arhiva.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Actualizare arhiva--aa229605.py",
+    "bytes": 14133,
+    "sha256": "8bfbc1119d4ed2342ac065ddd9194be92edc567de0c3fa880085df0381068545"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 Dovezi verificare Eva-Mail.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Dovezi verificare Eva-Mail--09a4e17e.json",
+    "bytes": 75470,
+    "sha256": "dedf29287361129ad03198ce58d4dfef914494ac49ca3da585a93891b1172189"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 Export original Eva.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Export original Eva--6a3f2910.json",
+    "bytes": 50432,
+    "sha256": "fcae51276930f265df29c23deabe28a7f390e59a05a9a6d7260cd4c49b7addff"
   },
   {
     "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",

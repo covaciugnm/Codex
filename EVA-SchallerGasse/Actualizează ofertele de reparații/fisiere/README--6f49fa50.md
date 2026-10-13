@@ -1,3 +1,9 @@
+# 2026.10.13 — Revenire Frigo privind oferta de administrare
+
+Puncte curente: ../2026.10.13 Status proiect.txt; ../2026.10.13 Log progres proiect.txt; registrele 2026.10.13 din arhiva Eva-Mail; ../08. Corespondenta/2026.10.13 Verificare zilnica/2026.10.13 Raport verificare.txt. Un mesaj nou Frigo PRIMIT 2026.10.12, privind oferta transmisă 2026.09.10; fără sume, condiții sau termen nou. Unicul atașament original descărcat este semnătura/logo. 59 căutări complete pentru 2026.10.11–13 +1 contextuală; fără alte comunicări relevante noi. Office sincronizat 2026.10.13 08:00:15 România; Gmail 05:04:19; cosmin@ig.ro numai 2026.10.10 02:30:10. Jurnalele proiectului și partenerilor sunt actualizate, istoricul păstrat. Total802 mesaje/826 originale/783 documentare. Nicio trimitere, semnare sau plată. Propunerile locale BERGER/PECH de mai jos rămân NETRIMISE/NESEMNATE.
+
+ISTORIC PĂSTRAT
+
 # 2026.10.12 — Propuneri contracte BERGER și PECH pentru lectură
 
 Dosar: ../04. Firme + Executie/2026.10.12 Propuneri contracte Berger si Pech/. Propuneri Word/PDF în germană cu sinteză română: BERGER 45.000 EUR net, 18 pagini; PECH 69.300 EUR net, 23 pagini. Originalele ofertelor și mesajelor sunt copii identice. Toate extinderile structurale, Prüfingenieur și Bauwerksbuch pentru existent+nou sunt propuse în totalurile păstrate. Fără BauKG și management general REALIG. NETRIMISE/NESEMNATE; acceptarea și calendarul efectiv nu sunt confirmate. Începe cu 2026.10.12 Propunere contract BERGER.docx sau PECH.docx, apoi 2026.10.12 Audit contracte.txt și registrul de propuneri. Jurnalele proiectului și partenerilor au fost completate, istoricul păstrat; nu sunt mesaje noi.

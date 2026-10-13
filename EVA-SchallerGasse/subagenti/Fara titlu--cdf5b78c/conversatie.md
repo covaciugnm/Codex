@@ -2,7 +2,7 @@
 
 ID: `01a11589-044f-7c10-8ff4-8a1ccdf5b78c`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-12T20:27:38.716272+00:00
+Export UTC: 2026-10-13T08:28:59.767902+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -242,3 +242,33 @@ Raport actualizat cu SHA-urile finale și paginarea: BERGER 18 pagini, PECH 23 p
 ## Asistent
 
 SHA-urile finale Word/PDF sunt actualizate în raport. Am consemnat simplificările vizuale și verificarea PASS comunicată de tine. Scopul, sumele, clauzele și verdictul juridic rămân neschimbate.
+
+## Asistent
+
+Nu am identificat documente externe noi sau modificate față de indexul din **2026.10.12 19:24:35**: 5.595 intrări, zero modificări. Cele două fișiere neindexate sunt fișiere temporare Office `~$`, fără noutăți externe.
+
+Repere pentru verificarea mesajelor:
+
+- **BERGER:** valabilitatea calculată până la **2026.10.12** a trecut; prelungirea nu este confirmată. Ultimul răspuns: **2026.08.17**. Draftul nou rămâne netrimis și nesemnat.
+- **DONAU/Commerz:** termenul **2026.10.12** pentru **5.326,15 EUR**, inclusiv Q4, a trecut. Nu există local confirmare de amânare, încasare sau restabilire a acoperirii. Ultimele răspunsuri: DONAU **2026.10.06**, Commerz **2026.09.30**.
+- **PECH:** valabilitate calculată până la **2026.12.16**; disponibilitatea/calendarul și acceptarea extinderilor rămân neconfirmate. Ultimul răspuns: **2026.09.17**.
+- **Füglister:** oferta promisă pentru săptămâna **2026.10.12–18**; intervalul este în curs, fără zi fixă. Ultimul răspuns: **2026.10.07**, fără preț nou.
+- **SCHAUERLEUTE:** vizita propusă pentru **2026.10.09, 09:30 Viena** nu este documentată ca efectuată, reprogramată sau urmată de ofertă.
+
+Surse locale: `2026.10.12 Status proiect.txt` și, în `08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/`, jurnalele **2026.10.12** pentru Markus Berger, Pech, Donau Versicherung, Maritczak–Commerz Inkasso și SCHAUERLEUTE; jurnalul **2026.10.08** pentru Füglister.
+
+Expirarea termenelor este un reper existent, fără a reprezenta un răspuns nou. Nu am accesat Eva-Mail și nu am scris fișiere.
+
+## Asistent
+
+Interpretarea este corectă. Formulare mai fidelă: **Frigo revine asupra ofertei de administrare trimise la 2026.09.10, speră că aceasta a ajuns și invită întrebări.** Nu transmite ofertă PDF, sume, condiții sau termen nou; acceptarea rămâne neconfirmată.
+
+Mesajul este din **2026.10.12**, identificat la verificarea **2026.10.13**.
+
+Statusul anterior și numărătorile sunt confirmate local: după salvarea noului mesaj și a imaginii, **802 mesaje / 826 originale / 783 anexe documentare**. Imaginea semnăturii este un original salvat suplimentar, fără document comercial nou.
+
+## Asistent
+
+Nu am identificat probleme concrete. Textul `m.text` este păstrat exact în TXT, direcția PRIMIT și CC gol sunt corecte, iar imaginea are dimensiunea și SHA declarate.
+
+Raportul și jurnalele disting corect revenirea Frigo de o ofertă nouă sau acceptare. Registrele confirmă **802/826/783**, cu toate înregistrările anterioare păstrate neschimbate.

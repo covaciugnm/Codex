@@ -2,7 +2,7 @@
 
 ID: `01a1304e-d950-75e2-806a-d5894448b76f`  
 Proiect: ANABI-Licitatii  
-Export UTC: 2026-10-12T20:27:38.716272+00:00
+Export UTC: 2026-10-13T08:28:59.767902+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -130,3 +130,18 @@ Am creat [pagina principală](<D:/ANABI - Licitatii/index.html>) cu trei secțiu
 Paginile noi includ categorii, căutare, filtre pentru locație, preț, monedă și dată, plus filtre auto/imobiliare. Fiecare anunț are detalii și link către sursă.
 
 Funcționează local și pe mobil. Datele sunt din **12.10.2026** și includ anunțuri vechi. Reminderul de la **08:00** urmărește în continuare autoturismele ANABI.
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <current_time_iso>2026-10-13T05:01:26.873Z</current_time_iso>
+  <instructions>
+Verifică zilnic la ora 08:00, fusul Europe/Bucharest, dacă au apărut anunțuri noi de autoturisme pe https://anabi.just.ro/licitatiionline/ads?page=1&shortBy=price_high_to_low . Parcurge paginarea necesară și verifică și anunțurile auto care nu au categoria Autovehicule; exclude motocicletele, ATV-urile, utilajele și vehiculele comerciale. Compară identificatorii și URL-urile cu inventarul inițial din D:\ANABI - Licitatii\sources\listings.json și cu starea ultimei verificări reușite, păstrată separat în D:\ANABI - Licitatii\sources\monitor-state.json. La prima rulare folosește inventarul existent drept bază, fără a anunța ofertele deja cunoscute ca noi. Consideră relistările cu ID nou drept anunțuri noi, dar explică dacă VIN-ul era deja cunoscut. Pentru fiecare noutate verificată comunică în română marca, modelul, anul dacă este disponibil, prețul și TVA-ul declarat, data licitației și linkul ANABI. Actualizează starea monitorului numai după verificare reușită; nu suprascrie inventarul inițial. Dacă nu sunt noutăți, rămâi tăcut. Notifică doar când apar anunțuri noi relevante, o problemă care împiedică verificarea sau este necesară intervenția utilizatorului. Nu interpreta eșecul accesului drept lipsa anunțurilor noi.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+

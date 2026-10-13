@@ -67,6 +67,13 @@
     "sha256": "cd8456152993ff28eb222e905bdad28f663f3050e9a1a4bcae47da193dafc392"
   },
   {
+    "source_reference": "D:\\ANABI - Licitatii\\monitor-anabi.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/monitor-anabi--e38aaa54.mjs",
+    "bytes": 2957,
+    "sha256": "c0be7aaf0be10dfa640ac16cdfcbc2e3bd8efce926e125a3e94214d8eb6c9460"
+  },
+  {
     "source_reference": "D:\\ANABI - Licitatii\\portal-build.mjs",
     "status": "copiat",
     "saved_path": "fisiere/portal-build--e6d89a2d.mjs",

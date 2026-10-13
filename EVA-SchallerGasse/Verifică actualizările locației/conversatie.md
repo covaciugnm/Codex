@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-12T20:27:38.716272+00:00
+Export UTC: 2026-10-13T08:28:59.767902+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -652,3 +652,46 @@ Calendarul ofertat este separat de termenele noi propuse de noi. Completările n
 - :codex-followup[Compară contractele]{prompt="Compară tabelar diferențele dintre cele două propuneri contractuale, inclusiv termenele, plățile, asigurarea și penalitățile."}
 - :codex-followup[Puncte de negociere]{prompt="Extrage pentru fiecare contract clauzele prioritare de negociere și concesiile posibile."}
 - :codex-followup[Emailuri netrimise]{prompt="Pregătește emailuri de însoțire pentru cele două propuneri, fără să le trimiți."}
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-zilnic-schallergasse-35</automation_id>
+  <current_time_iso>2026-10-13T05:01:55.893Z</current_time_iso>
+  <instructions>
+Verifică zilnic la ora 08:00, Europe/Bucharest, comunicările și actualizările noi privind Schallergasse 35, 1120 Wien. Începe cu folder map/README.md și inventarul din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling), apoi cele mai recente statusuri, registre și jurnale datate. Caută în Eva-Mail mesajele primite și trimise după ultima verificare, cu suprapunere de o zi: toate mesajele office@ac-wohnart.at și căutări globale după adresă, firme și referințe relevante. Verifică ultima sincronizare și paginează toate rezultatele. Compară ID-urile cu arhiva, citește integral mesajele noi relevante și originalele pentru sume și decizii. Salvează mesajele și atașamentele relevante pe disc, cu dată, subiect, expeditor, destinatari, CC, ID Eva-Mail și statut primit/trimis/draft; păstrează textul original și datele tehnice. Folosește YYYY.MM.DD la începutul numelor documentelor noi și în rezumate. Păstrează istoricul; actualizează jurnalul proiectului și al partenerului cu status scurt, ultimul răspuns, următorul pas și sursa; actualizează incremental indexul. Afișează în acest chat, în română, doar noutățile față de ultima verificare, cu sume, termene, acțiuni necesare și surse. Dacă nu sunt noutăți, raportează concis că nu ai identificat comunicări noi și limitele acoperirii. Distinge draftul de mesajul trimis, oferta de contractul acceptat, invitația de întâlnirea efectuată și ordinul de plată de debitul/încasarea confirmată. Nu trimite emailuri, nu semna și nu efectua plăți.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific comunicările noi din Eva-Mail față de ultima verificare salvată, inclusiv mesajele trimise și atașamentele. Voi raporta doar noutățile și voi preciza limitele sincronizării.
+
+
+## Asistent
+
+Am găsit un mesaj nou de la Peter Rupert Frigo, primit la 2026.10.12, despre oferta actualizată pe care spune că a transmis-o anterior. Verific mesajul integral și oferta din arhivă pentru a vedea dacă sunt prețuri sau condiții noi. În căsuța office nu apar comunicări noi despre proiect.
+
+
+## Asistent
+
+Mesajul Frigo este o revenire privind oferta de administrare din 2026.09.10: nu conține prețuri, condiții sau termene noi. Am descărcat unicul atașament, care este semnătura firmei, și salvez mesajul împreună cu actualizarea jurnalelor și a indexului.
+
+
+## Asistent
+
+Arhivarea și jurnalele au fost verificate: este un singur mesaj relevant nou și nicio ofertă PDF nouă. Indexul se actualizează acum. Limita principală rămâne căsuța cosmin@ig.ro, sincronizată doar până la 2026.10.10.
+
+
+## Asistent
+
+**2026.10.13: o singură comunicare relevantă nouă.**
+
+Peter Rupert **Frigo** a revenit la 2026.10.12 asupra ofertei de administrare trimise la 2026.09.10: speră că aceasta a ajuns și invită întrebări. **Nu transmite prețuri, condiții sau termene noi.** Unicul atașament este imaginea semnăturii firmei; nu există o ofertă PDF nouă. [Mesaj integral](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.13 Verificare zilnica/2026.10.12 14-12 PRIMIT Frigo c384374a.txt>).
+
+Dacă oferta rămâne de interes, următorul pas este confirmarea primirii și clarificarea condițiilor. Nu am trimis niciun răspuns.
+
+Nu am identificat alte comunicări relevante noi, inclusiv de la TOMS, Berger sau Pech. Mesajul și atașamentul sunt salvate; jurnalele și indexul sunt actualizate.
+
+Acoperire: office până la **2026.10.13 08:00**, Gmail până la **05:04**; cosmin@ig.ro rămâne sincronizat doar până la **2026.10.10 02:30**, ora României.

@@ -1,0 +1,46 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a13459-cc01-77b3-a892-11b6bbc1a24c\\F3565DB1-9E38-4593-B4DB-F12787601E4E\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a13459-cc01-77b3-a892-11b6bbc1a24c\\\\F3565DB1-9E38-4593-B4DB-F12787601E4E\\\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "S:\\3dscan.eva-org.com",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/hardware/platform/rvc/rvc2",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/hardware/products/OAK-D%20Pro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software-v3/ai-inference/conversion/rvc-conversion/offline/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software-v3/depthai/api/cpp",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software-v3/depthai/depthai-components/host_nodes",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software-v3/depthai/depthai-components/host_nodes/pointcloud",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software-v3/depthai/depthai-components/nodes/april_tag",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software-v3/depthai/depthai-components/nodes/rgbd",
+    "status": "referinta_externa_necopiata"
+  }
+]

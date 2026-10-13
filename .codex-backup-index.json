@@ -2,8 +2,8 @@
   "projects": {
     "5c179290-3222-4036-8042-710f2e84db88": {
       "name": "Comun",
-      "content_sha256": "f5bf4e6e9abaea687e543cd5e9172705ce7026a187ca449599a607956793db73",
-      "snapshot_utc": "2026-10-12T20:27:38.716272+00:00",
+      "content_sha256": "bf3ec17d62977759e5be7cbba656b9eb9ce02fcc904b54f78b52ce6d1a858576",
+      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
       "folder": "Comun"
     },
     "59b8aaaa-7677-449b-b80b-e79b02b3b9ab": {
@@ -38,8 +38,8 @@
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "5a7043dd45273d3a76cf6d4d12b78eaf4ccd1fb017360c5e17d51050b2fc21f4",
-      "snapshot_utc": "2026-10-12T20:27:38.716272+00:00",
+      "content_sha256": "242663cea4245d53bb747725d004204c658755268566aa49533c7b6afbd01c39",
+      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "07835cae05ab8160ef7d40fa010cd556321fdd96ff6ec47caef0748c0ef46d80",
-      "snapshot_utc": "2026-10-13T02:28:19.425959+00:00",
+      "content_sha256": "c37fad8fe1439c1a57823bf84a3f735afe134fb8020fc586fc0781e78a97d7b0",
+      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -122,10 +122,16 @@
     },
     "5bad9d98-be40-4d1c-86ef-6d65a2e0d593": {
       "name": "ANABI-Licitatii",
-      "content_sha256": "f0579d6d37ae71f3db9467384b5963ece814e44c7cfba547569d2a0ede2923aa",
-      "snapshot_utc": "2026-10-12T20:27:38.716272+00:00",
+      "content_sha256": "85b1786d6b71ab31950b13caeab2aaf35f332fe7fc048582d1abb3bf271838e1",
+      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
       "folder": "ANABI-Licitatii"
+    },
+    "e3898c8c-1e2e-422a-a23f-35ea1ed61beb": {
+      "name": "CesiroSighi",
+      "content_sha256": "c93cfe567e638ac115f3ec1788d64a2b85b8bcde1d93f56d4bb8ee9ad302064c",
+      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
+      "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-13T02:35:56.061033+00:00"
+  "updated_at_utc": "2026-10-13T08:39:46.305906+00:00"
 }
