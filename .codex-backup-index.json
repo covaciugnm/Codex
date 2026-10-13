@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "60fec23ba2c91e37db1dbc1b3c5b7bfdc2552dd60512ee898d986cbcdb68afc3",
-      "snapshot_utc": "2026-10-12T20:27:38.716272+00:00",
+      "content_sha256": "07835cae05ab8160ef7d40fa010cd556321fdd96ff6ec47caef0748c0ef46d80",
+      "snapshot_utc": "2026-10-13T02:28:19.425959+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -127,5 +127,5 @@
       "folder": "ANABI-Licitatii"
     }
   },
-  "updated_at_utc": "2026-10-12T20:38:57.506517+00:00"
+  "updated_at_utc": "2026-10-13T02:35:56.061033+00:00"
 }
