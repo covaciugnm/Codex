@@ -105,6 +105,34 @@
     "sha256": "fda8ded5b8015a927f3e6b421d536f0fa4fa46952b0918f26ecc144b07376eb8"
   },
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\14\\01a139e8-3daa-7f40-a37a-603953ec1b60\\revo\\pf_drafts\\01_Contract_vanzare_cumparare_ATV_PROIECT_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Contract_vanzare_cumparare_ATV_PROIECT_0--f9113966.png",
+    "bytes": 179895,
+    "sha256": "8135b909933c122b3009c7e322319362eb20dbd8fa2ccbd2db354ed41d7f0ca9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\14\\01a139e8-3daa-7f40-a37a-603953ec1b60\\revo\\pf_drafts\\02_Proces_verbal_predare_primire_ATV_PROIECT_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Proces_verbal_predare_primire_ATV_PROIECT_0--2b1afbe1.png",
+    "bytes": 158200,
+    "sha256": "9e5ec00c60097049f2ff39cbe6678bf28f916159337958a8aa847052136739dc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\14\\01a139e8-3daa-7f40-a37a-603953ec1b60\\revo\\pf_final\\01_Contract_vanzare_cumparare_ATV_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Contract_vanzare_cumparare_ATV_0--024870e7.png",
+    "bytes": 172488,
+    "sha256": "cbc7877727e7deeee504d1616ab74ce516cfd80e02677f634fa9d62959a94c9c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\14\\01a139e8-3daa-7f40-a37a-603953ec1b60\\revo\\pf_final\\02_Proces_verbal_predare_primire_ATV_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Proces_verbal_predare_primire_ATV_0--9d4b9859.png",
+    "bytes": 149694,
+    "sha256": "3676a6fc58aa0672be3b0436d6d67ef61c7a3cad14112a676045c27d213bd64c"
+  },
+  {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\14\\01a139e8-3daa-7f40-a37a-603953ec1b60\\revo\\qa\\contact-1.jpg",
     "status": "copiat",
     "saved_path": "fisiere/contact-1--6e269c56.jpg",
@@ -203,6 +231,69 @@
     "sha256": "183443658f3e43bf0d05c20994a39c86a46b939a2c12a87f46752df38a16e6c3"
   },
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\14\\01a139e8-3daa-7f40-a37a-603953ec1b60\\revo\\ros_final\\01_Contract_vanzare_cumparare_ATV_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/01_Contract_vanzare_cumparare_ATV_0--265159ca.png",
+    "bytes": 168994,
+    "sha256": "16514a4da17d111718c62ac33583be9387d9f6f0d64e5f8136dd351acda1a6e4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\14\\01a139e8-3daa-7f40-a37a-603953ec1b60\\revo\\ros_final\\02_Proces_verbal_predare_primire_ATV_0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/02_Proces_verbal_predare_primire_ATV_0--5225b1c8.png",
+    "bytes": 146574,
+    "sha256": "a92f882209298a275ddccfd60e97247af656b59aa69694a732ac4ce16bd4695f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-05528b4b-f1a9-4149-b912-bfd1f59aa9a9.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-05528b4b-f1a9-4149-b912-bfd1f59aa9a9--757dec16.jpg",
+    "bytes": 190223,
+    "sha256": "40b8520ad19daf858b37f603add22b5523d12c3aad38eeafd76e427419b092f2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-2053c01b-2261-4786-bfe7-364b93101df1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-2053c01b-2261-4786-bfe7-364b93101df1--eda46063.jpg",
+    "bytes": 294045,
+    "sha256": "1b4330c226ef524cba22f521350e080a47564ad4372375168cf5d9efd15c434c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\codex-clipboard-b2e3b17e-65d0-47ac-8976-5f58b2608fcc.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-b2e3b17e-65d0-47ac-8976-5f58b2608fcc--b454c8a2.jpg",
+    "bytes": 309242,
+    "sha256": "310d8179f595d1b302d09b8383e25a145624def94aabf6d42e6ac5968675cdfc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\ros_id.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ros_id--c44fddb6.png",
+    "bytes": 638646,
+    "sha256": "f776f1fc0ef27adc78b3cd9b70a07efeff02463be96243271d1f8d98f95426fa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-05528b4b-f1a9-4149-b912-bfd1f59aa9a9.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-05528b4b-f1a9-4149-b912-bfd1f59aa9a9--757dec16.jpg",
+    "bytes": 190223,
+    "sha256": "40b8520ad19daf858b37f603add22b5523d12c3aad38eeafd76e427419b092f2"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-2053c01b-2261-4786-bfe7-364b93101df1.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-2053c01b-2261-4786-bfe7-364b93101df1--eda46063.jpg",
+    "bytes": 294045,
+    "sha256": "1b4330c226ef524cba22f521350e080a47564ad4372375168cf5d9efd15c434c"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\codex-clipboard-b2e3b17e-65d0-47ac-8976-5f58b2608fcc.jpg",
+    "status": "copiat",
+    "saved_path": "fisiere/codex-clipboard-b2e3b17e-65d0-47ac-8976-5f58b2608fcc--b454c8a2.jpg",
+    "bytes": 309242,
+    "sha256": "310d8179f595d1b302d09b8383e25a145624def94aabf6d42e6ac5968675cdfc"
+  },
+  {
     "source_reference": "Z:/00. Proiecte 2025/2025.06.12 Ionel Capota SES/3. Achizitie/2. Revo 5C SRL/Achizitie REVO 5C",
     "status": "fisier_inexistent_sau_director"
   },
@@ -218,7 +309,80 @@
     "sha256": "d965d9c4d138e6f05dfc56a6d360f5c0a334eedb9c48c4c1a6a3c89ca7615cfe"
   },
   {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Persoane\\ROS RADU-IOAN - 1520801011095\\01. CI si Pasaport\\1520801011095 - ROS RADU-IOAN - act identitate administrator.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/1520801011095 - ROS RADU-IOAN - act identitate administ--452a5bec.jpeg",
+    "bytes": 210710,
+    "sha256": "114a33ed6204191e674cbaf8778c1f523f78bb572fd5c79f5d2eeef55b248099"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Persoane\\ROS RADU-IOAN - 1520801011095\\01. CI si Pasaport\\1520801011095 - ROS RADU-IOAN - buletin de identitate ros radu ioan 1.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/1520801011095 - ROS RADU-IOAN - buletin de identitate r--b0aceb98.jpeg",
+    "bytes": 114772,
+    "sha256": "e272d33777ad047c0a69963732da2d1763113440eeb6d92343758fcf73e6c873"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Persoane\\ROS RADU-IOAN - 1520801011095\\01. CI si Pasaport\\1520801011095 - ROS RADU-IOAN - buletin identitate ROS RADU IOAN 2.jpeg",
+    "status": "copiat",
+    "saved_path": "fisiere/1520801011095 - ROS RADU-IOAN - buletin identitate ROS --3045e9de.jpeg",
+    "bytes": 138189,
+    "sha256": "010a7ecd71b998a0f18deb692f83fc8097ab3fc44002912dfe109869a155a62f"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\00. Contract de finantare\\\\CONTRACT SUBVENTIE_WILD MOTION.pdf",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\2. Revo 5C SRL\\\\Achizitie REVO 5C\\\\02_Anexa2_Invitatie_participare_REVO_5C_SRL_WM-ATV-009.docx",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\2. Revo 5C SRL\\\\Achizitie REVO 5C\\\\07_Anexa7_Contract_furnizare_produse_REVO_5C_WM-ATV-033.docx",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\2. Revo 5C SRL\\\\Achizitie REVO 5C\\\\NEAMȚIU TOADER-FLORIN - 1670927013927\\\\01_Contract_vanzare_cumparare_ATV.pdf",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\2. Revo 5C SRL\\\\Achizitie REVO 5C\\\\NEAMȚIU TOADER-FLORIN - 1670927013927\\\\01_Contract_vanzare_cumparare_ATV_PROIECT.docx",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\2. Revo 5C SRL\\\\Achizitie REVO 5C\\\\NEAMȚIU TOADER-FLORIN - 1670927013927\\\\02_Proces_verbal_predare_primire_ATV.pdf",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\2. Revo 5C SRL\\\\Achizitie REVO 5C\\\\NEAMȚIU TOADER-FLORIN - 1670927013927\\\\02_Proces_verbal_predare_primire_ATV_PROIECT.docx",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\2. Revo 5C SRL\\\\Achizitie REVO 5C\\\\ROȘ RADU-IOAN - 1520801011095\\\\01_Contract_vanzare_cumparare_ATV.pdf",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\3. Achizitie\\\\2. Revo 5C SRL\\\\Achizitie REVO 5C\\\\ROȘ RADU-IOAN - 1520801011095\\\\02_Proces_verbal_predare_primire_ATV.pdf",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\192.168.100.169\\\\Comun\\\\00. Proiecte 2025\\\\2025.06.12 Ionel Capota SES\\\\6. Implementare Proiect-Raportari_Decontari\\\\10. Octombrie\\\\10. Personal\\\\Act_Aditional_nr_2_WILD_MOTION s.pdf",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
     "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/180889",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Cotele_de_TVA_09.2025.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/3/Ploiesti/20260121160412_comunicat%20ajfp%20arges%20-%20micro%202027%20site.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/30/Ploiesti/20260317144006_comunicat%20ajfp%20arges%20-%20impozit%20micro%202026%20site.pdf",
     "status": "referinta_externa_necopiata"
   },
   {

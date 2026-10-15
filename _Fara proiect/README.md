@@ -1,6 +1,6 @@
 # _Fara proiect
 
-Conversații: 9; subagenți: 9; mesaje: 275; fișiere copiate: 234.
+Conversații: 10; subagenți: 9; mesaje: 281; fișiere copiate: 251.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -22,3 +22,4 @@ Conversații: 9; subagenți: 9; mesaje: 275; fișiere copiate: 234.
 | [Organizează folderele din Google‌‌ ‌](Organizeaz%C4%83%20folderele%20din%20Google%E2%80%8C%E2%80%8C%20%E2%80%8C/conversatie.md) | Conversație | 109 |
 | [Configurează semnătura pentru PDF](Configureaz%C4%83%20semn%C4%83tura%20pentru%20PDF/conversatie.md) | Conversație | 14 |
 | [Verifică și șterge ciornele CIN EVA](Verific%C4%83%20%C8%99i%20%C8%99terge%20ciornele%20CIN%20EVA/conversatie.md) | Conversație | 2 |
+| [Extrage nume și CNP](Extrage%20nume%20%C8%99i%20CNP/conversatie.md) | Conversație | 6 |

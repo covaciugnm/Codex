@@ -1,6 +1,6 @@
 # EVA-SchallerGasse
 
-Conversații: 10; subagenți: 11; mesaje: 757; fișiere copiate: 1621.
+Conversații: 10; subagenți: 11; mesaje: 761; fișiere copiate: 1621.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -10,7 +10,7 @@ Conversații: 10; subagenți: 11; mesaje: 757; fișiere copiate: 1621.
 | [Fara titlu](subagenti/Fara%20titlu--48d97fc8/conversatie.md) | Subagent | 1 |
 | [Fara titlu](subagenti/Fara%20titlu--a3c455a1/conversatie.md) | Subagent | 1 |
 | [DonauAsig](DonauAsig/conversatie.md) | Conversație | 74 |
-| [Berger&Pech](Berger%26Pech/conversatie.md) | Conversație | 238 |
+| [Berger&Pech](Berger%26Pech/conversatie.md) | Conversație | 242 |
 | [Compară ofertele de lift](Compar%C4%83%20ofertele%20de%20lift/conversatie.md) | Conversație | 46 |
 | [Fara titlu](subagenti/Fara%20titlu--62080438/conversatie.md) | Subagent | 67 |
 | [Fara titlu](subagenti/Fara%20titlu--cdf5b78c/conversatie.md) | Subagent | 98 |

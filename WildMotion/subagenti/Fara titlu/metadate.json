@@ -1,0 +1,23 @@
+{
+  "id": "01a13fde-721d-7f70-a836-8840ef62470e",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES",
+  "created_at": 1792072905,
+  "updated_at": 1792073239,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a139e8-3daa-7f40-a37a-603953ec1b60\",\"depth\":1,\"agent_path\":\"/root/audit_achizitie\",\"agent_nickname\":\"Bohr\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "13771f36-ff54-4018-99b0-f69f8dfdd2f8",
+  "project": "WildMotion",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a139e8-3daa-7f40-a37a-603953ec1b60",
+  "export_started_at_utc": "2026-10-15T15:26:13.346330+00:00",
+  "source_bytes": 6355171,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 37,
+  "message_count": 1,
+  "content_sha256": "1f56876cdf7d46cb5b6e4c47c1fef910b50e6635bbb1e78ab1fdfdb456b9ea84",
+  "files_copied": 6,
+  "references_not_copied": 1
+}

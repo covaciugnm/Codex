@@ -1,0 +1,48 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\revo_audit",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\revo_audit\\aa2_p5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/aa2_p5--73317dea.png",
+    "bytes": 161633,
+    "sha256": "36d3b000826b35cb5be9c13fbab0201c0582d1c19b9cd91ae656723496a5e824"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\revo_audit\\contract_annexes.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contract_annexes--cf21cf7c.png",
+    "bytes": 1691714,
+    "sha256": "a3ed0f8c444ebbcb5882ee9e54c6abc1e05efa9dafbe65d976adc936f1c33b64"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\revo_audit\\subventie_p1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/subventie_p1--2ef00eb7.png",
+    "bytes": 369223,
+    "sha256": "4545c33f41ea837c043881b3208be34b791f1febb8ec22bfdc4bd983605dba4b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\revo_audit\\subventie_p23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/subventie_p23--8cadc2f9.png",
+    "bytes": 314240,
+    "sha256": "f21d1380c41221f29dddf84f580b6dea2d870b56450467253fe4786ce4a16c09"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\revo_audit\\subventie_p24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/subventie_p24--29872e92.png",
+    "bytes": 228876,
+    "sha256": "05dc7778542473e58966a77875e8a6de9e91eaef2a7dbb3dcb5afa98a4587e6c"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES\\3. Achizitie\\2. Revo 5C SRL\\ANAF -Revo 5C neplatitor de TVA.png",
+    "status": "copiat",
+    "saved_path": "fisiere/ANAF -Revo 5C neplatitor de TVA--c793b665.png",
+    "bytes": 315022,
+    "sha256": "cd5913c24465365794de3e7ad7d37e0c5ea1efc08a3157ec893ccd28917ea4fb"
+  }
+]

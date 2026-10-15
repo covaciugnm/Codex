@@ -10,7 +10,7 @@
   "project": "iDempiere",
   "assignment_method": "app_assignment",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "export_started_at_utc": "2026-10-15T15:26:13.346330+00:00",
   "source_bytes": 7563837,
   "invalid_json_lines": 0,
   "history_source": "items",
@@ -18,6 +18,6 @@
   "item_count": 205,
   "message_count": 60,
   "content_sha256": "a6981c080919b9fcc2d982483883aef96c3bebd66c3b4c782ff68be61c2ad1f8",
-  "files_copied": 3,
-  "references_not_copied": 8
+  "files_copied": 2,
+  "references_not_copied": 9
 }

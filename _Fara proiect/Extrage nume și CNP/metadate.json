@@ -1,0 +1,23 @@
+{
+  "id": "01a13f74-c9cf-70d3-8e0f-f7c24a133e69",
+  "cwd": "\\\\?\\C:\\Users\\User\\Documents\\Codex\\2026-10-15\\9-chats-yesterday-yesterday-monday-15",
+  "created_at": 1792065980,
+  "updated_at": 1792066232,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Extrage nume și CNP",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "explicitly_projectless",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T15:26:13.346330+00:00",
+  "source_bytes": 22760755,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 24,
+  "message_count": 6,
+  "content_sha256": "e14147ffb2a4c6a652a332bb95957f8fc2cb9e4530d4e4365cf40d5a21b143d3",
+  "files_copied": 17,
+  "references_not_copied": 0
+}
