@@ -1,0 +1,35 @@
+2026.10.13 — VERIFICARE COSTURI ȘI DURATĂ; CLARIFICARE 12 + 6 ÎN CURS
+
+Surse originale: BERGER 2026.08.17, patru pagini; PECH 2026.09.17, patru pagini. Documentele contractuale R02 și primele proiecte R03 sunt NETRIMISE și NESEMNATE. Cerințele AG noi nu constituie acceptare comercială.
+
+BERGER
+45.000 EUR net / 54.000 EUR brut: calcule 13.000, planuri 20.000, asistență 2.000, PI 10.000 EUR net.
+Original: aproximativ 12 luni pentru prestațiile proprii; asistență maximum opt vizite. Fără tarif lunar sau preț ferm pentru o vizită suplimentară. Nu se deduce automat un preț suplimentar de 250 EUR prin împărțirea 2.000/8.
+Regie originală net/oră: Baumeister/Ziviltechniker 150; qualifizierter Techniker 135; Techniker 95; Sekretariat 75.
+Dacă se negociază 12 vizite incluse în aceeași poziție de 2.000 EUR, 2.000/12 = 166,666… EUR net/vizită este un tarif nou calculat de AG, nu un tarif ofertat sau acceptat de BERGER; șase asemenea vizite ar însemna exact 1.000 EUR net / 1.200 EUR brut dacă se folosește raportul exact. Prețul unitar rotunjit trebuie armonizat cu totalul.
+
+PECH
+69.300 EUR net / 83.160 EUR brut, din care Baubegleitung 14.000 EUR net cu 12 Abnahmen.
+Originalul nu fixează numărul de luni; 12 Abnahmen înseamnă 12 inspecții, nu 12 luni.
+Tariful expres pentru o Abnahme suplimentară: 450 EUR net / 540 EUR brut. Șase asemenea vizite: 2.700 EUR net / 3.240 EUR brut. Total cu toate șase: 72.000 EUR net / 86.400 EUR brut, înaintea altor suplimente legitime.
+Împărțirea poziției de 14.000 EUR la 12 dă 1.166,666… EUR net/vizită; șase ar însemna exact 7.000 EUR net / 8.400 EUR brut, total 76.300 EUR net / 91.560 EUR brut. Acesta este un calcul AG diferit și mai mare decât tariful suplimentar expres de 450 EUR; nu se prezintă drept tariful oferit de PECH.
+Nu se calculează un supliment lunar pe baza numărului de vizite fără o clauză comercială explicită.
+
+VERSIUNI
+R02 avea 12 luni + prelungire condiționată până la 15.
+Primul R03 propune 16 luni de execuție ab B0, separate de planificare ab T0, în prețurile păstrate; include continuarea PI/BWB și închiderea aferentă, fără tarif lunar automat. Necesită acceptarea expresă a prestatorului.
+Ultima indicație AG «12 + posibil 6» necesită clarificarea unității și a tarifului înainte de definitivarea reviziei. Nu se presupune răspunsul utilizatorului.
+
+ASIGURARE
+BERGER: email 2026.07.22 declară 1mio; Allianz A559847312 din 2016.08.09 arată 3,5 milioane general și distinct 1 milion pentru Pflichtversicherung Baumeister 6436. R03 reduce valoarea de bază la 1 milion și nu impune suplimentar dublu anual. Actualitatea, agregatul anual, activitățile, persoanele, sub-limitele și condițiile trebuie dovedite înainte de semnare.
+PECH: nicio sumă de asigurare identificată în oferta și mesajele cercetate; suma/agregatul rămân de completat pe dovezi actuale, fără a presupune lipsa asigurării.
+
+BAUWERKSBUCH
+Durata construcției nu amână termenul legal anterior pentru existent. Dacă se confirmă regimul pre-1919 și termenul 2027.12.31, întocmirea/înregistrarea inițială trebuie făcută până atunci, cu actualizările aferente intervențiilor noi până la închidere.
+
+TEMEI PENTRU ÎMPIEDICARE
+§1168 ABGB rezervă în condițiile legale remunerația/compensația pentru împiedicare și pierdere de timp din sfera beneficiarului, cu deducerile aplicabile. Nu orice întârziere sau număr suplimentar de luni produce automat o sumă.
+Sursă oficială verificată 2026.10.13: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622&Paragraf=1168
+
+Nu s-a trimis, semnat ori plătit nimic.
+

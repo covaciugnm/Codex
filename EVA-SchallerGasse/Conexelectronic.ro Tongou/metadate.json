@@ -1,0 +1,23 @@
+{
+  "id": "01a11a7f-26cc-74d0-8299-0fdc77912d97",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1791445903,
+  "updated_at": 1791976187,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Conexelectronic.ro Tongou",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 64137393,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 237,
+  "message_count": 40,
+  "content_sha256": "9e99c0c5eb413d6d7542edc4d80903a98951824983ec6680e5cee2cba7b6707a",
+  "files_copied": 49,
+  "references_not_copied": 6
+}

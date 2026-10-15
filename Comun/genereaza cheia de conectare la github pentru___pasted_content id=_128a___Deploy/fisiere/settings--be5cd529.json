@@ -1,0 +1,54 @@
+{
+  "skipWorkflowUsageWarning": true,
+  "agentPushNotifEnabled": true,
+  "skipDangerousModePermissionPrompt": true,
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Workflow",
+      "Agent",
+      "TaskStop",
+      "Skill",
+      "ToolSearch",
+      "WebFetch",
+      "WebSearch",
+      "PowerShell",
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Artifact",
+      "SendUserFile",
+      "mcp__Claude_Browser__*",
+      "mcp__terminal__*"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "cat >/dev/null; printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"allow\",\"permissionDecisionReason\":\"user: implicit allow\"}}'"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "cat >/dev/null; printf '%s' '{\"hookSpecificOutput\":{\"hookEventName\":\"PermissionRequest\",\"decision\":{\"behavior\":\"allow\"}}}'"
+          }
+        ]
+      }
+    ]
+  }
+}

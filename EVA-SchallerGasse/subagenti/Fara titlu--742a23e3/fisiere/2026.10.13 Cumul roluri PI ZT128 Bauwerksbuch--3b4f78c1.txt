@@ -1,0 +1,71 @@
+2026.10.13 — CERCETARE JURIDICĂ INDEPENDENTĂ
+Schallergasse 35, 1120 Wien
+Prüfingenieur, ZT-Fertigstellungsbestätigung și Bauwerksbuch
+
+CONCLUZIE APLICATĂ
+Un singur contract comercial cu BERGER ori PECH poate cuprinde proiectarea, Prüfingenieur, documentația finală și Bauwerksbuch. Contractul comercial nu conferă însă abilitări și nu înlătură incompatibilitățile legale. Fiecare funcție trebuie atribuită unei persoane legal eligibile, cu probe actuale. Din textele BO Wien verificate nu rezultă o interdicție generală de cumul cu proiectarea și nici obligația ca autorul Bauwerksbuch să fie întotdeauna altă persoană decât Erstprüfer. Aceasta este o interpretare a incompatibilităților enumerate, nu confirmarea nominală că un anumit reprezentant BERGER/PECH poate îndeplini toate funcțiile. Dacă o persoană nu îndeplinește condițiile, contractantul poate organiza în pachet persoane corespunzătoare; numele, responsabilitatea, costurile incluse și înlocuirea trebuie stabilite înainte de semnare.
+
+Nu sunt cercetate și nu sunt adăugate BauKG ori serviciile generale REALiG Baumanagement/Planung. Acest raport este material de lucru pentru reorganizarea și auditul contractelor, fără atribuirea autoratului unui avocat și fără certificarea tehnică a clădirii.
+
+1. PRÜFINGENIEUR: § 127 ALIN. 3 ȘI 3a
+Textul actual identificat este LWI40016468, în vigoare din 2023.12.14, ultima modificare LGBl. 37/2023. Bauwerber numește un Ziviltechniker sau un expert judiciar pentru domeniul relevant, atunci când sunt îndeplinite situațiile legale. PI trebuie să fie distinct de Bauwerber și Bauführer și să nu aibă cu aceștia raport de muncă ori de organ. Înainte de începerea lucrărilor trebuie comunicat autorității PI, cu dovada că a luat la cunoștință comunicarea; simpla trimitere fără această dovadă nu îndeplinește formalitatea. Schimbarea se comunică imediat în același mod. Programul de verificări urmărește progresul efectiv: fundații, teren, armare, elemente și îmbinări, Rohbaubeschau și conformitatea execuției. Un număr comercial de vizite nu reduce verificările obligatorii. Neprezentarea PI sau lipsa documentelor relevante poate împiedica continuarea legală a lucrărilor.
+Sursa primară: https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P127/LWI40016468
+
+2. CERTIFICATUL FINAL: § 128 ALIN. 2 PCT. 1
+Textul actual este LWI40018216, în vigoare din 2026.07.15. Certificatul de la pct. 1 este al unui Ziviltechniker, emis în cadrul abilitării sale și în forma profesională necesară; semnatarul este distinct de Bauwerber și Bauführer, fără raport de muncă ori de organ cu aceștia. Expertul judiciar eligibil ca PI nu devine automat eligibil pentru acest certificat. Certificatul privește conformitatea execuției și pachetul de documente cerut, nu numai o anexă de calcul static. Pct. 3 cere probele verificărilor PI; pct. 9 dovada înregistrării Bauwerksbuch; pct. 10 înregistrarea separată a Gebäudebeschreibung. Pct. 2/2a tratează planurile conforme cu execuția și dovada fiabilității structurii în caz de modificări. Dosarul incomplet nu este Fertigstellungsanzeige complet depusă; utilizarea înaintea unui dosar complet este interzisă în condițiile alin. 4. Excepțiile alin. 3/3a se verifică în concret, nu se presupun pentru acest proiect.
+Sursa primară: https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40018216/LWI40018216.html
+ELI: https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40018216
+
+3. BAUWERKSBUCH: § 128a ALIN. 2–5
+Textul actual este LWI40018217, în vigoare din 2026.07.15. Autorul poate fi Ziviltechniker, expert judiciar specializat ori profesionist abilitat potrivit regulilor profesionale. Aceleași categorii se aplică Erstprüfer pentru existent. Atât autorul, cât și inspectorul inițial trebuie să fie distincți de Bauwerber, Bauführer și proprietar/coproprietar și să nu aibă raport de muncă ori de organ cu aceștia. Proprietarul este o incompatibilitate expresă suplimentară față de formularea PI/certificatului § 128. Legea cere identificarea elementelor supuse controlului, data primei verificări, intervalele, condițiile persoanelor pentru verificări, rezultate, inventar actual al defectelor și plan de remediere. Proprietarul ori administratorul desemnat ține electronic documentația și o prezintă la cererea autorității. Pentru Neu-/Zu-/Umbau, cartea trebuie întocmită până la Fertigstellungsanzeige. Pentru existent: 2027.12.31 dacă edificarea este anterioară 1919.01.01; 2030.12.31 pentru intervalul 1919.01.01–1945.01.01. Există excepții pentru construcțiile expres prevăzute și posibilitatea unui ordin individual al autorității.
+Sursa primară: https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217
+
+4. ÎNTINDEREA ȘI ABILITAREA BAUWERKSBUCH
+Instrucțiunea oficială MA 37, datată 2025.05.23, confirmă eligibilitatea ZT activi în arhitectură/inginerie civilă, experților judiciari activi în domeniile relevante și Baumeister cu autorizație corespunzătoare. Restrângerea la execuție fără componenta profesională de evaluare nu este suficientă. Aceasta este explicație administrativă, aplicabilă doar în măsura compatibilității cu legea actuală. BWB privește elementele care pot genera pericol, inclusiv anvelopa, acoperișul, ferestrele, fațadele, balcoanele și protecțiile la cădere; nu trebuie redus la calculul noilor elemente structurale. Adâncimea investigației se stabilește profesional după starea reală și suspiciuni. O Erstprüfung de stare nu constituie, singură, control complet al conformității cu autorizația. Planul de remediere nu obligă implicit inginerul să execute fizic reparațiile vechi. Întocmirea BWB nu înlocuiește documentația BauKG, care rămâne distinctă și exclusă contractual aici.
+Sursa oficială, secțiunile 1.3.2, 1.5, 2.1, 2.4–2.7: https://www.wien.gv.at/pdf/ma37/erlaeuterungen-bauwerksbuch.pdf
+
+5. SCHIMBAREA DIN 2026 ȘI REGULA DE TRANZIȚIE
+LGBl. 25/2026 a fost publicat la 2026.07.14. Art. IV prevede intrarea în vigoare în ziua următoare, iar Art. V păstrează normele anterioare pentru procedurile pendinte la intrarea în vigoare. Punctul 18 schimbă la § 128a alin. 4 pct. 7 numai referința energetică din § 118 alin. 3 în § 118c alin. 2 și 7; punctul 17 ajustează trimiterea de la § 128 alin. 2 pct. 13. Nu trebuie descrisă aceasta drept introducerea în 2026 a întregii independențe PI/BWB ori a obligației BWB pentru clădirile vechi. § 127 rămâne nemodificat de această reformă. Pentru autorizația 2023, o eventuală procedură Planwechsel și dosarul final trebuie verificată cronologia procedurală înainte de a afirma că toate noile cerințe energetice se aplică retroactiv. Raportul nu soluționează factual această încadrare; cere verificarea actelor și procedurilor reale.
+Sursa primară, punctele 17–18 și Art. IV/V: https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20260714_25/LGBLA_WI_20260714_25.pdf
+
+6. § 118c: DOCUMENTARE, NU PROIECTARE ENERGETICĂ TACITĂ
+§ 118c actual, LWI40018201, privește cerințele energetice pentru existent. Alin. 2/3 tratează sistemele energetice și verificarea posibilității tehnice, funcționale și economice în situațiile prevăzute. Alin. 7 cere documentarea intervențiilor la componente și a schimbărilor sistemelor tehnice; când există BWB, documentarea se face în acesta. Contractul poate cere AN să identifice și să integreze documentele furnizate de specialiști, urmărind lipsurile. Această obligație documentară nu este o comandă pentru proiectare energetică generală sau execuția instalațiilor. Interfețele structurale și avertizările rămân în sarcina proiectantului de structură potrivit contractului. Ediția MA 37 din 2025 și unele pagini administrative mai vechi folosesc încă referințe energetice anterioare; pentru actuala trimitere normativă are prioritate textul RIS aplicabil.
+Sursa primară: https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P118c/LWI40018201
+
+7. ÎNREGISTRARE ȘI PROBELE DISTINCTE
+MA 37 explică practic că înregistrarea se face cu confirmarea întocmirii BWB, semnată electronic de persoana abilitată, și, pentru existent, confirmarea primei inspecții semnată de persoana abilitată. Se primește o confirmare de înregistrare și număr; BWB integral nu se încarcă automat în etapa de înregistrare. § 128c enumeră datele întocmirii/primei verificări și cele două confirmări. Înregistrarea nu reprezintă o aprobare a corectitudinii întregului BWB, lipsa defectelor sau certificarea execuției după § 128. Pentru proiectul de extindere/transformare, confirmarea BWB din dosarul final trebuie tratată distinct de confirmarea Gebäudebeschreibung. Existentul și intervențiile noi se documentează coerent, evitând fie lipsa existentului, fie duplicate inutile prezentate ca lucrări suplimentare.
+Surse oficiale: https://www.wien.gv.at/amtswege/bauwerksbuch-registrierung
+§ 128c, text consolidat BO Wien: https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000006
+
+8. CUMULUL FUNCȚIILOR: CONCLUZIE ȘI CONFIRMĂRI NECESARE
+Interpretare din limitele normative de mai sus: proiectarea nu este enumerată ca incompatibilitate autonomă la § 127 alin. 3a sau § 128a alin. 2/3. Nici relația autor BWB–Erstprüfer nu este desemnată ca obligație universală de separare. Pot coexista contractual, inclusiv la același furnizor, dacă persoanele efective îndeplinesc fiecare condiție. O verificare internă de către coleg nu vindecă lipsa abilitării ori incompatibilitatea cu proprietarul/Bauwerber/Bauführer. O simplă etichetă comercială „ZT GmbH”, „Baumeister”, „rB” sau „Projektleiter” nu constituie proba tuturor funcțiilor.
+
+Înainte de acceptare și începere sunt necesare:
+- Numele persoanei pentru proiectare, PI, certificatul § 128, autor BWB și Erstprüfer; se poate nominaliza aceeași persoană doar cu verificarea tuturor condițiilor.
+- Probe actuale privind statutul și întinderea abilitării ZT, înscrierea judiciară și specialitatea ori autorizația profesională relevantă. Pentru § 128, proba trebuie să privească ZT, chiar dacă PI este expert judiciar.
+- Declarații verificabile de independență și identificarea Bauführer/Bauwerber/proprietar, inclusiv raporturile reale de muncă și organe. Angajarea la propriul furnizor distinct de A&C/Bauführer nu este incompatibilitatea expresă analizată aici; alte conflicte se evaluează profesional.
+- Nominalizare și acceptare PI comunicate autorității înainte de lucrări, plus un circuit de informare a fazelor critice; vizitele incluse nu sunt plafon de neîndeplinire a legii.
+- Program complet pentru BWB existent și nou, probe privind anul edificării, data primei/următoarelor verificări, calificările viitoarelor verificatori și registrul defectelor/remedierilor.
+- Registrare, fișiere electronice actualizabile, dovezile semnate și predare efectivă către proprietar/administrator; obligațiile ulterioare nu dispar prin plata pachetului.
+- Asigurare adecvată funcțiilor efectiv preluate și mecanism de persoană substitută în totalul negociat când este necesar.
+
+9. OBSERVAȚII PENTRU REORGANIZAREA DRAFTURILOR
+Analizate țintit documentele germane din 2026.10.13 și auditul istoric 2026.10.12; raportul nu îl înlocuiește retroactiv și nu constituie reacceptarea lui integrală.
+
+BERGER § 5 și PECH § 5 au în esență distincția PI–ZT final și cer probe. În reorganizare este util ca persoana separată care semnează § 128 să aibă explicit propria obligație de independență, nu să fie presupus eligibilă numai pentru că are o abilitare ZT.
+
+BERGER § 6 și PECH § 8 includ BWB pentru întregul existent și intervenții, precum și independența și calificările. Domeniul integral trebuie reflectat și în anexe: anvelopă, elemente de fațadă, ferestre, acoperiș, protecții la cădere și alte elemente relevante, fără a introduce management general ori reparație fizică. La PECH, condiționarea generică a înregistrării din § 8 alin. 4 nu trebuie utilizată pentru a elimina o dovadă legal necesară a dosarului final.
+
+Anul 1905 din draftul BERGER trebuie legat de un original documentar înainte de a transforma 2027.12.31 într-o concluzie factuală definitivă. Dossierul din acest raport nu reverifică actul de edificare. Înregistrarea pentru lucrările noi/transformare poate deveni necesară înaintea termenului pentru existent, în funcție de Fertigstellung.
+
+Datele-limită de 20/10 zile lucrătoare, intervalul 12/15 luni, includerea extinderilor în 45.000/69.300 EUR net și mecanismele de plată sunt propuneri contractuale, nu reguli impuse de aceste articole și nu promisiuni originale deja confirmate.
+
+DOCUMENTE LOCALE CONSULTATE
+PECH: 00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Propunere contract/2026.10.13 Werkvertrag PECH DE.docx
+SHA-256: 1dc0ca2314c5dec3e4896c44b353295d3e488df539efd257f65bd9878555ee3f
+BERGER: 00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Propunere contract/2026.10.13 Werkvertrag BERGER DE.docx
+SHA-256: 4052d9d8922c95edc1b991f94b7194b98256ffc9f0f198d58cdb8f506fa8d1d9
+Istoric: copiile 2026.10.12 Audit contracte.txt; fără editarea acestor copii.
+
+METODĂ ȘI LIMITE
+Numai surse primare oficiale RIS, MA 37/Stadt Wien și, ca verificare auxiliară istorică, Leistungsbild PI al ZT-Kammer din 2012. Acesta din urmă nu este folosit pentru o regulă actuală care diferă de legea în vigoare. Nu au fost folosite surse comerciale ori ghiduri private. Textul actual RIS al § 128 a fost accesat prin documentul HTML LWI40018216 deoarece ELI a returnat temporar eroare. Vizualizările consolidate RIS sunt cache din 2026.10.12/2026.10.10; versiunile individuale și legea publicată au fost verificate pentru schimbările relevante. Eligibilitatea nominală actuală BERGER/PECH, acceptarea lor comercială, dosarul procedural și anul edificării nu sunt confirmate prin această cercetare de norme.

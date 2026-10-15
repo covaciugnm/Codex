@@ -1,0 +1,10 @@
+2026.10.13 — JURISPRUDENȚĂ SUPLIMENTARĂ, RECUPERAREA SURSEI PRIMARE2026
+
+Ulterior fișei inițiale am citit integral HTML-ul primar oficial OGH8Ob147/25p din2026.03.24 prin accesHTTP, după eșecul instrumentului web. Originalul este salvat nemodificat, cu SHA în2026.10.13 Surse suplimentare OGH 8Ob14725p.json. Fișa inițială rămâne istoricul etapei anterioare recuperării.
+
+Concluzia pct54: obiecțiile neîntemeiate ale beneficiarului nu împiedică valorificarea garanției§1170b pentru creanța exigibilă aflată în întârziere. La garanția abstractă, simpla dispută nu dovedește apel abuziv; cauza concretă și limitele creanței rămân relevante. OGH se distanțează explicit de soluția mai restrictivă6Ob113/20s/5Ob54/25i. Nu este o concluzie că orice apel AN este legitim sau că o retenție AG5% devine identică garanțieiAN.
+
+R14 — VERIFICARE OBLIGATORIE ÎN NOILE TEXTE: nu interziceți valorificarea garanțieiAN până la soluționarea oricărei obiecțiiAG și nu subordonați apelul unei aprobări discreționareAG. Drepturile pentru obiecții întemeiate și apel abuziv rămân legale. Regula licenței documentelor și reținerile contractuale se tratează separat.
+
+Sursă:
+https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20260324_OGH0002_0080OB00147_25P0000_000/JJT_20260324_OGH0002_0080OB00147_25P0000_000.html

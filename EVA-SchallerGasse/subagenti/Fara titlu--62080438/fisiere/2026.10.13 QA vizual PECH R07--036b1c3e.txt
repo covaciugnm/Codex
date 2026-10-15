@@ -1,0 +1,27 @@
+2026.10.13 - QA vizuală finală PECH R07
+
+REZULTAT: PASS pentru toate cele 33 de pagini ale PDF-ului final.
+PDF: 00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Vertragsvorschlag R07/2026.10.13 Werkvertrag PECH R07.pdf.
+SHA-256 recalculat independent: a327ffb86f3b66d4c5de65172da42bef33cc6ca66b4012c0e60a2eda6fa5d270.
+JSON final: f94de0baea202d865914490f1854ad980dbd97fe2c4df26ebb0c930dbe0e81c9.
+
+ACOPERIRE
+Prima randare R07, hash fd998805a29d1defd98891d65884409ede9bf437e0020164cab6087604288089, a fost inspectată individual integral: toate paginile 1-33, prin view_image la detail original, fără contact sheet și fără reutilizarea QA R06. Raportul istoric «2026.10.13 QA vizual PECH R07 prima randare.txt» păstrează rezultatul acelei inspecții.
+Pentru randarea finală au fost inspectate individual, la detail original, toate cele patru pagini schimbate: 5, 6, 7 și 8. Nu există clipping, suprapuneri, probleme de margini sau paragrafe/casete orfane. Pe pagina 5, § 3(7) este lizibil și § 4(4) încape acum integral; paginile 6-8 au redistribuirea clară și completă a verificărilor PI/BWB.
+Am comparat suplimentar independent întreaga imagine, fără crop, pentru fiecare pagină 1-33. Numai paginile 5-8 diferă. Celelalte 29 de pagini sunt identice pixel cu pixel, inclusiv antetele și footerele. QA individuală inițială pentru aceste 29 de pagini acoperă exact versiunea finală. Dovada, cu lista fiecărei pagini, hashurile și controlul PDF, este «2026.10.13 QA PECH R07 dovada finala independenta.json».
+
+DELTA CONTRACTUALĂ FINALĂ
+Confruntarea independentă a JSON-ului final cu snapshotul din «2026.10.13 Istoric R07 inainte ultima neutralizare» arată o singură modificare: § 3(7). După înlocuirea acelui alineat, obiectele JSON sunt integral egale. Nu există alte diferențe de drepturi, obligații, sume, termene, tabele sau metadate contractuale.
+Textul final este: «Eine interne Baukostenschätzung oder Prozentmethode ist keine Zusage über die tatsächlichen Baukosten und kein automatischer Index für dieses Honorar. Der vollständige beauftragte Umfang wird im vereinbarten Paketpreis und nicht nur in einer einzelnen Honorarposition übernommen.»
+Neutralizarea este editorială și nu schimbă efectul operativ: nicio garanție privind costul efectiv al lucrărilor, nicio indexare automată a onorariului și includerea întregului scop în prețul pachetului. Auditul R07 anterior este reconfirmat pentru sursa finală pe această diferență limitată.
+
+CONTROLUL VIZUAL RECONFIRMAT
+Coperta are numai A&C Wohnart și Dr. PECH, 69.300 EUR net / 13.860 TVA / 83.160 brut, 12 vizite și până la șase opțiuni, 18 luni B0 real și Fassung R07 Vertragsvorschlag. Antetele/footerele au numai PECH | VERTRAGSVORSCHLAG și paginarea 1-33.
+Chenarele fine, fonturile și casetele sunt lizibile. Continuările au aceeași referință și Fortsetzung. Tabelele repetă titlul și antetul și nu taie celulele monetare; tabelul cu opt coloane și tabelul TVA/retenție/plată sunt intacte. Cele două probleme de layout istorice - pagina aproape goală la începutul tabelului Anlage 1 și g/n izolate în calendar - sunt închise și nu reapar.
+Anexa economică păstrează cele șase poziții și toate sumele, E1-E7 și alocările, PECH 800/6.130 E6, PI 406,67/813,33/1.220, retenție totală 3.465 și plată ilustrativă 79.695. Opțiunile sunt 2.700/3.240 și pachetul condiționat 72.000/86.400; regia 195/145/125/95. Pagina 33 păstrează toate cele șapte câmpuri/paragrafe de semnătură împreună, fără acceptare sau semnături fictive.
+
+TEXT, METADATE ȘI NAVIGARE PDF FINAL
+Textul real al tuturor paginilor, metadatele și cele 23 de outline-uri au fost controlate din nou cu pypdf pe PDF-ul final. Zero apariții BERGER, verhandl*, beide Anbieter, beide AN, anbieterabhängig ori comparații între ofertanți. Istoria tehnică a clădirii și comunicările obligatorii pentru abateri de execuție rămân, conform sursei auditate.
+Title: WERKVERTRAG - VERTRAGSVORSCHLAG A&C WOHNART. Subject: Vertragsvorschlag. Author: A&C Wohnart Immobilien GmbH. Reperele sunt Vorbemerkungen, 16 capitole și șase anexe și indică paginile corecte; nu au titluri comparative sau referințe la alt ofertant. Nu au fost introduse surse interne în metadatele PDF.
+
+Nota este ancorată numai la hashul PDF și sursa finală de mai sus. Reconfirmă QA vizuală prin inspecție integrală inițială, identitate exactă documentată a 29 de pagini și inspecție individuală nouă pentru paginile 5-8. Nu este o semnare/acceptare sau validare structurală. Nu s-au modificat contracte, renderer sau PDF de către auditor.

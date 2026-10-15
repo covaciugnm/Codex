@@ -17,10 +17,7 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/66460770-e2cc-448d-a120-f594d0cc50f4/tasks/a6351417a2931ba82.output",
-    "status": "copiat",
-    "saved_path": "fisiere/a6351417a2931ba82--a5fdf151.output",
-    "bytes": 0,
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\66460770-e2cc-448d-a120-f594d0cc50f4\\workflows\\scripts\\help-translate-server-wf_d2c65ea3-1e8.js",
@@ -42,10 +39,7 @@
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\66460770-e2cc-448d-a120-f594d0cc50f4\\tasks\\b0tubklk0.output",
-    "status": "copiat",
-    "saved_path": "fisiere/b0tubklk0--984fb0c4.output",
-    "bytes": 3276,
-    "sha256": "247584f46faa2a436754013203964436cd3a919a3ddb15a1fefa149cfc55f852"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "\\\\b(?=[A-Za-z0-9+/_=-]*\\\\d)(?=[A-Za-z0-9+/_=-]*[A-Za-z])[A-Za-z0-9+/_=-]{32,}\\\\b",

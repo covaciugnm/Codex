@@ -1,0 +1,11 @@
+2026.10.13 — Addendum la auditul matricei comune de negociere
+
+Sursa curentă: 2026.10.13 Cerinte comune negociere matrice.json.
+SHA-256: 73b45b4c8a18908f6f30bcea9400a4506de02de3719ede324750ca6afe76aa0f.
+Nota semantică anterioară, legată de 8ad0abd035fb0a55ae18052f621bdd24ebe42b63968bf7fbec9c4effb69f2154, rămâne istoric.
+
+Rectificarea documentată în 2026.10.13 Validare metadate si mapare 401.json/txt privește 13 trimiteri selectate și 8 asocieri de componente. Nu trebuie prezentată retrospectiv ca lipsă originară a oricărei asocieri greșite. Cele 100 de cerințe, conținutul celulelor publice și citatele R05 au rămas neschimbate semantic.
+
+Control independent al fișierului curent: 100 criterii și 401 componente. Fiecare referință selectată a fost reconstruită separat din JSON R05 al prestatorului propriu; nu există referințe selectate inexistente. Fiecare citat din referinte_r05 corespunde exact referinței prestatorului propriu. Fiecare dintre cele 401 citate de componente corespunde exact referinței și prestatorului indicate. Rezultate: INVALID_SELECTED=[], QUOTE_MISMATCH=[], COMPONENT_MISMATCH=[].
+
+Verdict: rectificarea metadatelor este verificată. Concluzia semantică anterioară privește aceleași cerințe comune; nu pretinde o nouă recitire a tuturor celor 100 de criterii. R05 și originalele nu au fost modificate. Matricea rămâne bază de negociere, nu acord acceptat și nu confirmare actuală a persoanelor, autorizărilor sau polițelor.

@@ -1,0 +1,44 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const out=path.join(root,'05. Asigurari','Asigurare cladire','2026.10.14 Situatie Donau');
+const data=JSON.parse(await fs.readFile(path.join(out,'2026.10.14 Cronologie Donau.json'),'utf8'));
+const wb=Workbook.create();const s=wb.worksheets.add('Cronologie Donau');s.showGridLines=false;
+const n=data.randuri.length,end=8+n;
+s.getRange(`A1:E${end}`).format.font={name:'Arial',size:11,color:'#1E293B'};
+s.getRange('A2').values=[['DONAU — Corespondență verificată la 2026.10.14']];s.getRange('A2').format.font={name:'Arial',size:15,bold:true};
+s.getRange('A2:E2').format.rowHeight=28;
+s.getRange('A3:E3').format.borders={bottom:{style:'thin',color:'#CBD5E1'}};
+s.getRange('A4').values=[['Acoperire: DONAU declară lipsa protecției pentru neplată. Încetarea poliței nu este confirmată.']];
+s.getRange('A5').values=[['Ciorna din 2026.10.07: NETRIMISĂ. Ultimul răspuns DONAU: 2026.10.06.']];
+s.getRange('A6').values=[['Ultima sumă cerută: 5.326,15 EUR. Termen 2026.10.12 depășit; nicio amânare identificată.']];
+s.getRange('A4:E6').format.rowHeight=22;
+s.getRange('A8:E8').values=[['Data','Tip','De la cine','Scurt cuprins al mesajului','Documente anexate']];
+const rows=data.randuri.map(r=>[new Date(r.data.replaceAll('.','-')+'T00:00:00Z'),r.tip,r.de_la,r.cuprins,r.anexe]);
+s.getRange(`A9:E${end}`).values=rows;
+const t=s.tables.add(`A8:E${end}`,true,'CorespondentaDonau');t.showFilterButton=true;
+s.getRange('A8:E8').format={fill:'#334155',font:{name:'Arial',size:11,bold:true,color:'#FFFFFF'},horizontalAlignment:'center',verticalAlignment:'center',wrapText:true,rowHeight:30};
+const widths=[15,21,29,84,61];'ABCDE'.split('').forEach((c,i)=>s.getRange(`${c}1:${c}${end}`).format.columnWidth=widths[i]);
+s.getRange(`A9:A${end}`).setNumberFormat('yyyy"."mm"."dd');
+s.getRange(`A9:E${end}`).format.wrapText=true;
+s.getRange(`A9:E${end}`).format.verticalAlignment='top';
+const wrapCount=(text,width)=>String(text).split('\n').reduce((sum,line)=>sum+Math.max(1,Math.ceil(line.length/width)),0);
+data.randuri.forEach((r,i)=>{
+ const row=9+i;const lines=Math.max(wrapCount(r.cuprins,78),wrapCount(r.anexe,55),wrapCount(r.de_la,24));
+ s.getRange(`A${row}:E${row}`).format.rowHeight=Math.max(51,lines*15+12);
+ s.getRange(`A${row}:E${row}`).format.fill=i%2?'#F1F5F9':'#FFFFFF';
+ wb.notes.add({id:`source-${r.id}`,target:{cell:{sheetName:s.name,sheetId:s.sheetId,address:`A${row}`}},authorId:'',createdAt:'',body:{plainText:`Sursă: Eva-Mail ${r.id}. Export integral disponibil: ${r.sursa}. Verificat 2026.10.14.`}});
+});
+s.freezePanes.freezeRows(8);
+wb.recalculate();
+const check=await wb.inspect({kind:'table',range:`'Cronologie Donau'!A8:E${end}`,include:'values,formulas',tableMaxRows:5,tableMaxCols:5,maxChars:2500});
+console.log(check.ndjson);
+const errors=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#NUM!|#SPILL!',options:{useRegex:true,maxResults:20},maxChars:1000});console.log(errors.ndjson);
+for(const [label,range] of [['inceput','A1:E18'],['final',`A19:E${end}`]]){
+ const pic=await wb.render({sheetName:s.name,range,scale:1.3,format:'png'});
+ await fs.writeFile(path.join(root,'folder map',`2026.10.14 Donau tabel ${label}.png`),new Uint8Array(await pic.arrayBuffer()));
+}
+const output=await SpreadsheetFile.exportXlsx(wb);await output.save(path.join(out,'2026.10.14 Cronologie Donau.xlsx'));
+console.log(JSON.stringify({output:'2026.10.14 Cronologie Donau.xlsx',rows:n,columns:5}));

@@ -1,0 +1,23 @@
+{
+  "id": "01a13a0c-d1c7-7db2-ae80-d6330a61d8a4",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1791975281,
+  "updated_at": 1791976625,
+  "archived": 0,
+  "source": "vscode",
+  "title": "STURM Energie",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 7035323,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 110,
+  "message_count": 17,
+  "content_sha256": "dfa70b9aafad972ecc002c961cd14938fe89a116ebcbe1aafa387233f9a29d70",
+  "files_copied": 11,
+  "references_not_copied": 1
+}

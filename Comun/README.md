@@ -1,6 +1,6 @@
 # Comun
 
-Conversații: 157; subagenți: 38; mesaje: 30008; fișiere copiate: 1896.
+Conversații: 162; subagenți: 38; mesaje: 31088; fișiere copiate: 1920.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -145,7 +145,7 @@ Conversații: 157; subagenți: 38; mesaje: 30008; fișiere copiate: 1896.
 | [Fișă proiect Ghidul-solicitantului](Fi%C8%99%C4%83%20proiect%20Ghidul-solicitantului/conversatie.md) | Conversație | 97 |
 | [Documente și CV pentru Radu Ioan Ros](Documente%20%C8%99i%20CV%20pentru%20Radu%20Ioan%20Ros/conversatie.md) | Conversație | 79 |
 | [Documente și CV pentru Radu Ioan Ros](Documente%20%C8%99i%20CV%20pentru%20Radu%20Ioan%20Ros--f750aa30/conversatie.md) | Conversație | 79 |
-| [GitHub deploy key pentru 3DScan-Server](GitHub%20deploy%20key%20pentru%203DScan-Server/conversatie.md) | Conversație | 582 |
+| [genereaza cheia de conectare la github pentru  <pasted_content id="128a"> Deploy keys / Add new Title 3DScan-Server Key </pasted_content id="128a">  pentru https://github.com/covaciugnm/3dscan.eva-org.com/settings/keys/new](genereaza%20cheia%20de%20conectare%20la%20github%20pentru___pasted_content%20id%3D_128a___Deploy/conversatie.md) | Conversație | 582 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac/conversatie.md) | Conversație | 7 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--2209b9f5/conversatie.md) | Conversație | 7 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--f2e4dc1c/conversatie.md) | Conversație | 7 |
@@ -199,3 +199,8 @@ Conversații: 157; subagenți: 38; mesaje: 30008; fișiere copiate: 1896.
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--42865a1c/conversatie.md) | Conversație | 8 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--b6996214/conversatie.md) | Conversație | 5 |
 | [EVA 3D Scan – coordonare non-stop cu echipa Mac](EVA%203D%20Scan%20%E2%80%93%20coordonare%20non-stop%20cu%20echipa%20Mac--b3bb0f21/conversatie.md) | Conversație | 11 |
+| [Folder și setări licitati.eva-org.com](Folder%20%C8%99i%20set%C4%83ri%20licitati.eva-org.com/conversatie.md) | Conversație | 580 |
+| [IP address Spamhaus blocklist issue](IP%20address%20Spamhaus%20blocklist%20issue/conversatie.md) | Conversație | 138 |
+| [Sturm Energie facturi și contracte](Sturm%20Energie%20facturi%20%C8%99i%20contracte/conversatie.md) | Conversație | 144 |
+| [Revo 5C achiziție documente](Revo%205C%20achizi%C8%9Bie%20documente/conversatie.md) | Conversație | 184 |
+| [Analiza CEva blocheaza PC](Analiza%20CEva%20blocheaza%20PC/conversatie.md) | Conversație | 34 |

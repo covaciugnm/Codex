@@ -1,0 +1,155 @@
+2026.10.14 — MEMORANDUM DE CERCETARE PRIMARĂ
+DONAU 2044001194 | A&C Wohnart Immobilien GmbH | Schallergasse 35
+Destinație: redactor și auditor. Document de lucru probatoriu, nu opinie semnată de avocat.
+
+1. CONCLUZII DECISIVE
+
+Contractul și obligația de plată pot continua în timpul exonerării asigurătorului pentru neplată. Totuși, declarația DONAU că nu există acoperire nu dovedește prin ea însăși că toate condițiile exonerării sunt îndeplinite. Verificarea trebuie să fie pe fiecare componentă și pe fiecare interval.
+
+Noutate esențială față de analiza din 2026.10.07: ABS1000A art.4 pct.5 trimite expres la §§39,39a,91 VersVG. §91 stabilește minimum o lună pentru somația în asigurarea clădirii, în capitolul Feuerversicherung. Pentru componenta incendiu a clădirii trebuie cercetat distinct acest termen; nu este corect să aplicăm uniform numai două săptămâni întregului pachet. §108 actual nu enumeră §91 ca normă nederogabilă. Nu folosim §108 ca temei al nederogabilității lui §91. Documentele disponibile nu au identificat o derogare expresă de la §91. Contractul-cadru rămâne lipsă. O somație cu termen prea scurt ridică o obiecție serioasă, dar nu permite certificarea retrospectivă a acoperirii fără analiza tuturor somațiilor și derogărilor.
+
+Polița curentă este act de modificare a titularului, nu dovadă a unui nou contract încheiat personal de A&C. Polița istorică are „Ersatzvertrag” și durată până în2036. Lipsa semnăturii A&C nu înlătură transferul legal§69. Dovada acordului pentru durata2036 și eventualul drept anual din cadrul2900010498 rămân de obținut.
+
+Asigurarea comercială pe10ani nu este automat nelegală. §8(3), dreptul după3ani, este destinat consumatorului. OGH7Ob152/01f este direct relevant unei societăți imobiliare cu pachete pe10ani, însă hotărârea privește durata negociată individual, lăsând deschis controlul clauzelor standard.
+
+Cererea amiabilă poate fi refuzată. Refuzul nu stinge declarația subsidiară de încetare la primul termen permis. Data efectivă trebuie stabilită prin contract și drepturile speciale, fără a transforma automat01.01.2027 sau2036în singura dată posibilă.
+
+2. ORIGINALE VERIFICATE ȘI STRUCTURA CONTRACTULUI
+
+P01: 814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf,9pagini,262935bytes,SHA256fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd.
+P02: Schalle_1080_DON_SHU_2044001194_2939905718.pdf,89pagini,1211739bytes,SHA25696e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835.
+Hashurile corespund indexului. Extrasele integrale sunt salvate separat cu pagina PDF. Pagini operative au fost și randate/citite vizual. Textul german din originale este probă contractuală furnizată de utilizator; traducerea română trebuie marcată ca explicație.
+
+P01 p1: „Änderung Partner/ Adresse (Änderung Versicherungsnehmer (Eigentümerwechsel))”; „Änderung ab: 28.05.2026 0:00 Uhr, Ablauf: 01.01.2036 0:00 Uhr, Hauptfälligkeit: 01.01.”
+P01 p6: prima anuală6367,24EUR, rata trimestrială1591,81EUR. Prima trimestrială nu transformă perioada de asigurare într-un trimestru.
+P01 p7–8: condițiile contractului, expirare/prelungire, lege austriacă și posibilitatea de a solicita declarațiile contractuale.
+P02 p1: emisiune03.02.2026, „Ersatzvertrag”, modificare01.01.2026, expirare01.01.2036; vechiul titular Schallergasse35ImmobilienbesitzGmbH&CoKG.
+
+Condiții efectiv incluse în P02, și nominalizate în P01p7:
+-1000A ABS2018: PDFp34–42.
+-1001A AFB2018: PDFp43–49.
+-1002A AStB2018: PDFp50–56.
+-1003A AWB2018: PDFp57–63.
+-1010A AHVB2005/EHVB2005versiunea2012, ediția2018: PDFp64–83.
+-1013A AFBUB2018: PDFp84–89.
+-Clauzele speciale: PDFp12–33.
+Polița actuală confirmă și convenție individuală ce derogă de la cadrul2900010498, înlocuind Seipt&PartnerLW14. Existența trimiterii nu furnizează textul integral al cadrului.
+
+C01: PDF oficial DONAU1000A2018 descărcat,9pagini, footer27.06.2025. Este sursă publică de control; originalul P02 are prioritate probatorie pentru contractul concret. URL exact în registrul web. Nu am înlocuit ediția contractului cu ABS2012/900 ori condițiile STURM.
+
+3. EXTRASE CONTRACTUALE DIRECTE
+
+P02p35,ABSart4.1:
+„Als Versicherungsperiode gilt, wenn der Versicherungsvertrag nicht für eine kürzere Zeit abgeschlossen ist, der Zeitraum eines Jahres, und zwar auch dann, wenn die Jahresprämie vertragsgemäß in Teilbeträgen zu entrichten ist.”
+Consecință:§41a se referă la viitoarele perioade anuale, nu automat la trimestrul următor.
+
+P02p35,ABSart4.5:
+„Die Folgeprämien sind zu den jeweils vereinbarten Fälligkeitsterminen zu zahlen. Die Rechtsfolgen des Zahlungsverzugs mit Folgeprämien sind in den §§ 39, 39a und 91VersVG geregelt.”
+Consecință: analiză §91 obligatorie pentru incendiu clădire; pentru celelalte componente trebuie evitată extinderea automată.
+
+P02p35,ABSart4.6:
+„Wird der Versicherungsvertrag während der Versicherungsperiode oder sonst vorzeitig aufgelöst, so gebührt dem Versicherer die Prämie für die bis dahin verstrichene Vertragslaufzeit, soweit nicht Sonderbestimmungen anderes vorsehen (§40 Satz1 VersVG).”
+Urmează regula distinctă§68(2) pentru dispariția interesului, până la cunoașterea de către asigurător. Încetarea validă reduce primele viitoare; lipsa acoperirii prin§39nu este încetare.
+
+P02p37,ABSart13:
+„Für sämtliche Anzeigen und Erklärungen des Versicherungsnehmers ist die geschriebene Form erforderlich, sofern nicht die Schriftform ausdrücklich und mit gesonderter Erklärung vereinbart wurde...”
+„...z.B. Telefax oder E-Mail”.
+Emailul poate satisface forma, dar trebuie dovadă de ajungere; acord separat scris ar putea schimba cerința. §1bVersVG oferă și remedierea în14zile când asigurătorul invocă prompt defectul formei.
+
+P02p37,ABSart14 și P01p7:
+„Beträgt die vereinbarte Vertragsdauer mindestens ein Jahr, verlängert sich der Vertrag jedes Mal um ein weiteres Jahr, wenn er nicht spätestens drei Monate vor Ablauf der Vertragsdauer von einem der Vertragspartner gekündigt worden ist.”
+Aceasta privește expirarea duratei convenite. Nu creează singură ieșire la fiecare scadență anuală în interiorul duratei de10ani.
+
+ATENȚIE normelor speciale după sinistru: ABSart12p37este subsidiar condițiilor pe ramuri. AFBart12p47–48,AStBart12p54–55,AWBart13p61–62,AHVBart12p70–71prevăd drept de încetare după sinistru în cazul încălcării obligațiilor celeilalte părți; independent de această încălcare, când indemnizația depășește5000EUR(500EURconsumator) SAU două sinistre în perioada anuală cu indemnizații totale peste prima anuală. Termenul este o lună de la încheierea negocierilor, respectiv de la cunoașterea ulterioară a încălcării. Asigurătorul respectă preavizul de o lună. Asiguratul nu poate alege după finalul perioadei curente. §§96/108și158/158apermit derogări cu drepturi egale; nu promiteți ieșire automată după orice daună.
+
+P02p71,AHVBart12.4:
+„Fällt ein versichertes Risiko vollständig und dauernd weg, so erlischt die Versicherung bezüglich dieses Risikos.”
+P02p71,art12.5:
+„Dem Versicherer gebührt jeweils die Prämie für die bis zur Vertragsauflösung verstrichene Vertragslaufzeit.”
+Clădirea goală sau apa oprită nu elimină în mod necesar răspunderea proprietarului; trebuie dispariție totală și permanentă a riscului specific.
+
+P02p69,AHVBart11.2.4:
+„Alle eingehenden Zahlungen werden auf die älteste Schuld angerechnet.”
+Este o regulă contractuală suplimentară de alocare. Trebuie acord/documentare pe datorie/perioadă/componentă pentru plăți parțiale; nu garantează rezervarea scrisă unilaterală că suma stinge exclusiv principalul selectat.
+
+P02p12,1000K:
+avantaje de durată în prima curentă; încetare înainte de2ani=>80%din prima anuală; după2ani70%,după3ani60%,scade10puncte/an; bazăprima anuală curentă. Excepție expresă numai dacă asigurătorul încetează după sinistru.
+Calcul pur orientativ80%×6367,24=5093,79EUR; nu este creanță dovedită. Contestabil prin§879(3),7Ob154/22fși7Ob211/12y, cu limiteleconsumer/B2B. Nu confundăm costul ieșirii cu dreptul ieșirii.
+
+P02p15clauza1242K(cutremur)șiP02p25clauza3031K(apă catastrofică): drept anual separat, preaviz1lună; exclud expres dreptul de a înceta contractul de furtună doar pentru încetarea adaosului. Se poate analiza încetarea numai acestor adaosuri la finalul perioadei; prima lor separată nu este indicată înpoliță.
+
+4. LEGEA ȘI APLICAREA ÎN TIMP
+
+L01: VersVG integral, versiunea 2026.10.14. L03: §5c, forma 2022.08.01–2026.09.30, https://ris.bka.gv.at/eli/bgbl/1959/2/P5c/NOR40244230 .
+
+Pentru un contract nou încheiat efectiv în februarie 2026, §5c prevede retragerea în 14 zile. Termenul începe după încheiere/informarea încheierii și primirea poliței, condițiilor, regulilor primei și informării de retragere. Alin.5 stinge dreptul cel târziu o lună după primirea poliței împreună cu informarea valabilă. Lipsa numai a condițiilor nu păstrează dreptul deschis după acest plafon. Lipsa informării ori un defect atât de grav încât împiedică exercitarea în condiții esențial similare informării corecte echivalează cu lipsa informării, conform alin.3 ultima teză și alin.5. În acest caz dreptul poate rămâne deschis. Nu se poate calcula data concretă fără dovada comunicării.
+
+§191c(25), extras exact: „§5c Abs.7 in der Fassung des Verbraucherrechts-Änderungsgesetzes2026, BGBl.I Nr.59/2026, tritt mit 1.Oktober2026 in Kraft und ist in dieser Fassung auf Verträge anzuwenden, die nach dem 30.September2026 geschlossen werden.” Schimbarea privește numai alin.7, adăugând regimul consumatorilor la distanță; nu redeschide contractele din februarie și nu oferă GmbH un drept nou. Transferul prin §69 nu pornește termen nou. Dacă Ersatzvertrag este contract nou, trebuie verificată comunicarea la titularul originar. §5c nu este limitat numai la consumatori; excepția Großrisiken trebuie dovedită, nu rezultă numai din forma GmbH.
+
+§1(2): „Der Versicherungsnehmer hat die vereinbarte Prämie zu entrichten.”
+§3: drept la copii; suspendarea specială a termenelor cere condițiile legale exacte, nu orice cerere generică.
+§5: aprobarea diferențelor dintre poliță și cerere prin lipsa obiecției cere avertizare specială și identificarea diferențelor. Cererea originală lipsește.
+§8: prelungire tacită maxim un an; contract nedeterminat, preaviz egal de una–trei luni; ieșirea după trei ani este pentru consumatori.
+§9: perioada anuală rămâne și în cazul ratelor.
+§12(1): prescripție contractuală de trei ani; câteva luni fără acțiune nu șterg ratele ulterioare. Alin.3 privește pretenția asiguratului după refuz calificat, nu o stingere trimestrială a primei.
+§38(1): prima inițială/unică — ficțiune de retragere dacă nu este cerută judiciar în trei luni de la scadență. Inkasso nu este acțiune judiciară. Nu se aplică automat ratelor ulterioare sau schimbării administrative a titularului.
+§39(1): somație scrisă calificată, termen general de minimum două săptămâni, avertizare despre alin.2 și3; termen neconform ineficace. §91 cere o lună pentru incendiu clădire.
+§39(2): exonerare pentru eveniment ulterior termenului, cu restanță culpabilă la eveniment. Convingerea subiectivă că datoria este nejustificată nu dovedește lipsa culpei.
+§39(3): asigurătorul poate înceta, nu este obligat. Declarația poate fi combinată explicit cu somația. Plata în o lună poate înlătura efectele încetării dacă evenimentul nu a intervenit deja. Nu există ficțiunea din §38 pentru orice rată ulterioară.
+§39(4): „Die Nichtzahlung von Zinsen oder Kosten löst die Rechtsfolgen der Abs.1 bis3 nicht aus.”
+§39a: restanță de maximum 10% din prima anuală, dar maximum60EUR. Aici plafonul efectiv este60EUR.
+§40 actual: prima până la încetarea efectivă, cu excepțiile legale. Nu importăm vechiul principiu al indivizibilității primei din hotărârile istorice. Nu se datorează automat toate primele până2036.
+§41a: reducere pentru perioade viitoare când factorii de agravare dispar ori își pierd relevanța; nu rambursare retroactivă automată din iulie.
+§41b: cheltuieli suplimentare cauzate de asigurat, nu orice comision ales.
+§51: reducere pentru supraasigurare semnificativă, cu probă de evaluare.
+§60: dublă asigurare necunoscută, cerere promptă; cumpărarea deliberată a altei polițe nu desființează DONAU.
+§§68/68a: lipsa/dispariția interesului, distinctă de exonerare sau neocupare temporară.
+§§69/70: transfer legal; cumpărătorul are o lună de la dobândire ori de la cunoașterea ulterioară, dacă înainte nu știa. Încetarea validă§70 are efecte speciale asupra primei vânzătorului și răspunderii cumpărătorului.
+§91: „Bei der Gebäudeversicherung muß die im Falle einer nicht rechtzeitigen Zahlung der Prämie nach §39 zu bestimmende Zahlungsfrist mindestens einen Monat betragen.” Capitolul Feuerversicherung; nu extindem automat tuturor ramurilor.
+§§101–107: protecții pentru creditorul ipotecar anunțat asigurătorului. §102(2) are regulă specială pentru neplată; §103 are excepție pentru încetarea asigurătorului din neplată; §106 poate cere acordul creditorului/dovada lipsei sarcinii cu o lună înainte, cu excepțiile§70(2)/96. §104 permite subrogarea. Protecția creditorului nu echivalează cu acoperirea proprie A&C.
+
+5. MATRICE DE JURISPRUDENȚĂ
+
+J01 — 7Ob152/01f,2001.07.11,p4–6. Societate cu36imobile, durată de zece ani negociată individual. Respinge analogia§8(2)/(3). Nu decide validitatea unei durate standard și nu dovedește acordul concret din dosar.
+J02 — 7Ob154/22f,2022.11.23,p7–8,pct13–14. Acțiune colectivă consumatori; clauzaR10 invalidă deoarece cuprinde și încetarea pentru motiv grav imputabil asigurătorului. Similaritate cu1000K, nu rezultat B2B garantat.
+J03 — 7Ob211/12y,2013.03.27,motivare. GmbH, dispariție risc,§§68/68a; control§879(3) și B2B. Completarea contractuală rămâne posibilă; nu orice cost este zero și nu se decide că doar degresivitatea strictă este permisă B2B.
+J04 — 7Ob20/89,1989.06.15. Pentru§70 ajunge cunoașterea existenței asigurării și a asigurătorului; nu trebuie întreaga poliță. Cunoașterea ulterioară trebuie probată.
+J05 — 7Ob83/21p,2022.01.26,p5–9. Somație primită, termen expirat, culpabilitate; asigurătorul dovedește primirea. Adresa veche nu determină automat invaliditatea.
+J06 — 3Ob393/60,1960.10.21. Prima continuă deși există exonerare; context primă inițială și lege veche. PreferămJ10 pentru rate ulterioare; nu importăm vechiul§40.
+J07 — 7Ob103/97s,1997.04.16. Transportator comercial; ordin bancar anterior sinistrului cu fonduri suficiente, executat ulterior, poate înlătura exonerarea. Alte motive de neacoperire rămân de analizat.
+J08 — 7Ob179/03d,2003.08.05,p8–9. Motiv grav concret pentru încetare extraordinară; prețul mare/refuzul legal al încetării nu ajung singure.
+J09 — 7Ob7/01g,2001.09.26,p1–2și5. Zece ani dar clauzăX18 cu ieșire anuală. Arată importanța cadrului; X18 nu este dovedită aici. Nu validează generic1000K astăzi.
+J10 — 3Ob722/54,1954.11.17,p2–3. Precedent direct: prime în timpul exonerării§39; contract comercial și transfer bun. OGH a anulat și retrimis pentru lipsa probei somației și primirii. Regula istorică despre orice restanță mică este depășită prin§39a.
+J11 — 7Ob95/25h,2025.09.25,pct1–7. Adresa veche/fost colocatar pot constitui acces real. Recomandata nu este singurul mod de probă; ficțiunea§10 are cerințe speciale.
+J12 — 7Ob58/07s,2007.04.18. Schimbarea frecvenței ratelor nu înseamnă automat amânarea restanței. O amânare efectivă cere analiză contextuală.
+J13 — 7Ob69/01z,2001.04.27,p4. Faptele disting o lună Feuer-Gebäude și două săptămâni celelalte componente. Nu este ratio privind validitatea derogării§91.
+J14 — 3Ob16/25m,2025.05.28,p6–9,pct19și25–26. Plata cu rezervă stinge datoria dacă există; rezerva păstrează numai un eventual drept de restituire. Context executare întreținere, nu asigurare; reguli generale ABGB.
+J15 — 1Ob669/50,1950.12.06,motivare. Asigurătorul anunța incapacitatea proprie de acoperire;§1052 putea justifica încetarea. Diferă de exonerarea pentru neplata asiguratului. Soluția depinde și de un acord ulterior pentru înlocuire; nu este ștergere automată a tuturor primelor.
+
+URL-urile exacte, originalele și hashurile sunt în registrul web din același dosar.
+
+6. DE CE PRIMĂ CÂND NU EXISTĂ ACOPERIRE?
+
+J10,p2,motivarea OGH:
+„Ist auf Grund einer zugekommenen qualifizierten Mahnung gemäß § 39 Abs. 2 VersVG. Leistungsfreiheit eingetreten, ändert sich hiedurch am Bestand des Versicherungsverhältnisses selbst, also an der Vertragsdauer und der Prämienzahlungspflicht, nichts.”
+Traducere: exonerarea bazată pe somația calificată primită nu schimbă existența raportului, durata ori obligația de primă.
+
+Legea face din neplata culpabilă, după avertizarea cerută, un motiv pentru refuzul indemnizației păstrând contractul și creanța. §1052 nu înlătură automat o exonerare legal dobândită prin neplata proprie. Este interpretarea combinată a§1(2),§39șiJ10; nu pretindem căJ10 judecă un capăt distinct pe§1052 sau§1431.
+
+Situația diferă dacă nu există contract, există încetare validă, reducere, debit contabil greșit sau refuz nejustificat al acoperirii datorate. Atunci pot exista rectificare și restituire pentru sume nedatorate, respectiv alte remedii în condițiile lor. Somația invalidă poate păstra acoperirea fără să șteargă prima: serviciul rămâne juridic datorat.
+
+J14,pct26: rezerva nu generează rambursare imediată. Restituirea cere inexistența reală a datoriei și, dacă este contestată, acțiune separată. Pct19: dacă datoria există, plata cu rezervă o stinge. Alocarea la cea mai veche datorie rămâne distinctă de rezerva restituirii.
+
+7. OBLIGAȚII EXTERNE ȘI DOCUMENTE NECESARE
+
+Nu s-a identificat obligația generală de a păstra DONAU ori acest pachet. WEG§28(1)4 include asigurarea adecvată în administrarea obișnuită a comunității de proprietari. Proprietatea A&C1/1 nu echivalează automat cu o comunitate WEG. Nu confundăm costurile recuperabile de la chiriași cu obligația universală de a avea DONAU. Obligațiile proprietarului, creditul/vinkularea, finanțarea, locațiunile și eventualele condiții ale autorizației se verifică separat. Asigurarea actuală a clădirii diferă de asigurarea lucrărilor viitoare.
+
+DONAU: cererea și acceptarea originale; toate modificările; cadrul2900010498 și Seipt&Partner; dovada comunicării condițiilor/informării§5c; orice derogare§91; toate somațiile și dovezile primirii; orice încetare deja declarată; starea acoperirii pe componente/date; cont complet cu plăți, credite șiQ1–Q4; calcul accesorii/1000K; creditorii ipotecari anunțați/vinkulare; documentele tehnice necesare și data reducerii.
+Capra/vânzător/broker: mandatul, cunoașterea asigurării, notificări§70, negocierea duratei, contracte de credit/garanții și regresul din vânzare.
+A&C: dovezi bancare, oprirea apei, autorizația, lucrările, ocuparea/chiriile și istoricul daunelor.
+
+8. POZIȚIE ȘI PAȘI
+
+Nu considerăm dovedit că singura ieșire este2036 sau că orice primă neplătită a eliminat imediat acoperirea. Solicităm situația pe componente și intervale; invocăm§91șiABSart4.5; verificăm drepturile speciale/cadrul; negociem încetarea și acoperirea înlocuitoare.
+Nu recomandăm refuzul global al primei numai pentru lipsa acoperirii. Contestăm concret suma, perioada, somația, accesoriile și costul ieșirii. Verificăm încetarea efectivă, credit/reducere, restanța numai din accesorii,§39a, amânarea reală ori contractul nou care ar activa§38. Un termen nou Inkasso nu garantează singur restabilirea acoperirii.
+Starea corectă: asigurătorul declară lipsa acoperirii; contractul nu este confirmat încetat; temeiul exonerării necesită control inclusiv§91. Nu descriem situația drept poliță suspendată fără prime.

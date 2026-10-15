@@ -1,0 +1,30 @@
+2026.10.13 — COMPLETARE A AUDITULUI INIȚIAL, FĂRĂ MODIFICAREA ACESTUIA
+
+Fișiere germane evaluate inițial:
+BERGER DOCX SHA-2564052d9d8922c95edc1b991f94b7194b98256ffc9f0f198d58cdb8f506fa8d1d9.
+PECH DOCX SHA-2561dc0ca2314c5dec3e4896c44b353295d3e488df539efd257f65bd9878555ee3f.
+Acestea sunt versiunile exclusiveDE inițiale, nu textele reorganizate care urmează să fie auditate. Nota preliminară nu se transferă automat unei alte versiuni.
+
+R10 — DREPT TEMPORAL, PRECIZARE OBLIGATORIE LA REVIZIE
+Textele actuale BO Wien nu sunt sinonime cu normele automat aplicabile autorizației2023, unui Planwechsel sau procedurii de finalizare. LGBl25/2026, Art.IV, intră în vigoare în ziua următoare publicării2026.07.14; Art.V păstrează dispozițiile anterioare pentru procedurile pendinte la acea dată. AN trebuie să documenteze regimul temporal pentru fiecare procedură/etapă, cu dovezi ale dosarului și clarificări necesare ale autorității. Referirile la §118c actual și documentarea energetică pot fi păstrate ca scop contractual asumat, fără o afirmație falsă de retroactivitate obligatorie. Termenele BWB pentru existent și calificările/independența nu sunt toate creații ale legii2026; schimbarea specifică§128a(4)Z7 modifică trimiterea energetică. Nu este rezolvată din simpla dată a semnării contractului.
+Sursă primară Art.IV/V, pagina20:
+https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20260714_25/LGBLA_WI_20260714_25.pdf
+
+R11 — INSOLVENȚĂ, PROTECȚIE IMPERATIVĂ PENTRU NOUA CLAUZĂ
+Nu introduceți drept de încetare automată numai prin deschiderea insolvenței. IO§25b(2) interzice, cu excepția categoriei speciale legale, convenirea retragerii/încetării pentru acest simplu fapt. §25a limitează timp de șase luni încetarea care ar periclita continuarea întreprinderii; simpla deteriorare economică și restanțele scadente înaintea deschiderii nu sunt motive importante în această regulă. Excepțiile și drepturile administratorului judiciar rămân legale. Pierderea efectivă a abilitării sau o încălcare tehnică concretă se analizează pe propriul temei, fără a deduce automat pierderea abilitării din deschiderea procedurii. NOR40117918 este§25a, nu§25b.
+Surse:
+https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40117918/NOR40117918.html
+https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001736&ShowPrintPreview=True
+
+R12 — RECEPȚIE/PLATĂ, EXTINDEREA VERIFICĂRII R06
+UGB§457 fixează în principiu maximum30zile de la primirea bunului/prestarea serviciului pentru verificare/recepție; un termen mai lung trebuie convenit expres și nu poate fi grosier dezavantajos creditorului. Zece zile lucrătoare sunt o procedură contractuală rezonabilă în principiu, dar ciclurile nu trebuie reluate la nesfârșit prin obiecții vagi. Existența unui defect concret esențial și predarea incompletă se disting de simpla lipsă de răspuns AG. §459 controlează clauzele privind plata, dobânzile și costurile; excluderea dobânzilor de întârziere este întotdeauna grosier dezavantajoasă, iar excluderea compensației costurilor cere justificarea excepției legale. Nu se inventează nulitatea automată a unui termen30zile negociat.
+Surse primare:
+https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40148645/NOR40148645.html
+https://www.ris.bka.gv.at/eli/drgbl/1897/219/P459/NOR40148647
+
+R13 — FORMA ELECTRONICĂ
+SVG§4 conferă QES efectul de îndeplinire a formei scrise§886ABGB, cu rezervarea cerințelor speciale și formei contractuale. Scanul unei semnături sau aprobarea prin email se definesc drept forme contractuale admise pentru scopul concret; nu se prezintă drept automat echivalente cu QES în orice situație. Separarea semnării contractului de Textform pentru operațiuni/aprobări trebuie să fie aplicată consecvent în ambele texte.
+Sursă:
+https://www.ris.bka.gv.at/eli/bgbl/i/2016/50/P4/NOR40184733
+
+Verificarea cumulului rolurilor PI/ZT128/BWB se coroborează cu raportul separat2026.10.13 Cumul roluri PI ZT128 Bauwerksbuch.txt. Acesta nu este o nominalizare profesională, nu probează abilitarea unei persoane și nu transformă certificarea finală într-un act posibil fără rapoartele necesare. Nu se impun două persoane diferite fără temei concret în lege/roluri sau în regulile imparțialității profesionale.

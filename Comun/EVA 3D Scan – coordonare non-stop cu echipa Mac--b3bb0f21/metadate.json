@@ -10,14 +10,14 @@
   "project": "Comun",
   "assignment_method": "workspace_path",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-13T08:28:59.767902+00:00",
-  "source_bytes": 55073,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 16129,
   "invalid_json_lines": 0,
-  "history_source": "legacy_events",
+  "history_source": "items",
   "rollout_exists": true,
   "item_count": 11,
   "message_count": 11,
-  "content_sha256": "7777cd18039c121e288564c64f0400ce3d65f412ac64ee330083c1e4a27de3f4",
+  "content_sha256": "08eca5433ec14a3a1d55b2eb6a985b80e2f4ca0b5b9993b58a147f07294e5f7a",
   "files_copied": 1,
   "references_not_copied": 2
 }

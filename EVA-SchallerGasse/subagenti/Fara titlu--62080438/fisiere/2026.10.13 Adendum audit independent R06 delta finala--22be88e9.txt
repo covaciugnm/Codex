@@ -1,0 +1,13 @@
+2026.10.13 - Adendum la auditul independent R06
+
+Verificare independentă exactă a snapshoturilor istorice auditate față de JSON-urile finale.
+BERGER anterior: d6eaa839dad7ff8ed54ff09b13dfe23b22f5bae5d69563d7edc575758418ccb3.
+BERGER final: b2a5254c4806e4067eadd6d17613b815bcb5d7d85020f672cc32b1964a420d56.
+PECH anterior: 033f030e1a49f2d8a0e89227740bddc306b21d6224efc4c63a3179ff01a04a07.
+PECH final: edf8d2831118f5137cb5e616df0a96172ff4aa3781617ded5291668bda84e101.
+
+PASS pentru ambele: transformarea exactă a textului § 9(2), plus normalizarea cratimelor în câmpurile randate, reproduce integral obiectul JSON final. Nu există alte chei sau valori diferite. Metadatele de sursă și celelalte câmpuri tehnice nerandate sunt identice.
+§ 9(2) precizează acum: «Vor Beginn ist die normale Ausführung innerhalb dieses achtzehnmonatigen Rahmens kein selbständiger Zusatzhonorargrund.» Observația unică privind sensul duratei este închisă. Drepturile legale și depășirea cadrului din § 9(7) rămân intacte.
+Nu s-au schimbat sumele, alocările, opțiunile, drepturile, obligațiile, cerințele sau condițiile comune. Verdictul auditului inițial este reconfirmat pentru hashurile finale: apt pentru negociere, cu limitele și câmpurile de confirmat consemnate în audit.
+
+Dovada structurată: «2026.10.13 Reconfirmare independenta delta finala R06.json». Nu s-a modificat niciun contract, nu s-a generat PDF. Acest adendum nu este un control vizual al viitoarelor PDF-uri; fiecare pagină finală necesită QA distinctă.

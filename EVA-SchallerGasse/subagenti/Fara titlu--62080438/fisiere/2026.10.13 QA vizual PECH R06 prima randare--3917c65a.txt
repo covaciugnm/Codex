@@ -1,0 +1,16 @@
+2026.10.13 - QA vizuală PECH R06, prima randare
+
+PDF: 00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Verhandlungsentwurf R06/2026.10.13 Werkvertrag PECH R06.pdf.
+SHA-256: 9e32f115a4b73f14f3165bf2537d4736f1819c2ced97f630da26616944c03c88.
+34 de pagini. Inspectate individual toate paginile 1-34 prin view_image, detail original, pe PNG-urile 2026.10.13 PECH R06-01.png până la -34.png din VIS/2026.10.13 QA contracte elegante R06/PECH. Fără folosirea unei foi de contact ca substitut.
+
+REZULTAT: revizie de layout necesară, fără defect de conținut identificat vizual.
+1. Pagina 21: numai caseta Anlage 1(2) în partea superioară, aproximativ 17% din pagină; tabelul Anlage 1 începe integral pe pagina 22. Spațiul alb este excesiv și contrazice cerința unei paginări continue. Textul și tabelul sunt intacte.
+2. Pagina 25: în prima coloană a calendarului Anlage 3, «Grundlagenprüfung» este rupt cu «g» izolat, iar «Liefer-/Beschauplan» cu «n» izolat. Nu există pierdere de text, dar fragmentarea trebuie îmbunătățită editorial prin lățime/font, fără schimbarea sursei.
+
+Celelalte pagini sunt lizibile, fără clipping, suprapuneri, chenare peste text, antete/footere în conflict sau pagini complet goale. Continuările alineatelor au reper explicit «Fortsetzung» și același număr. Titlurile au primul alineat alături. Tabelele sunt în margini, cu celulele intacte și antete repetate la continuare.
+Coperta: 69.300 EUR net, 13.860 TVA, 83.160 brut; 12 vizite și până la șase opțiuni, 18 luni B0. Textul § 9(2) pe pagina 11 conține precizarea finală «innerhalb dieses achtzehnmonatigen Rahmens».
+Pagini 28-31: cele șase poziții originale, E1-E7, alocarea cu opt coloane, TVA, retenția 5% net și plățile ilustrative sunt lizibile. Pe pagina 30 sunt vizibile integral 800/6.130 în E6, PI 406,67/813,33/1.220 și totalul de retenție 3.465, plată 79.695. Opțiunile pe pagina 31: 2.700/3.240, total condiționat 72.000/86.400; tarifele orare 195/145/125/95.
+Pagina 34: toate cele șapte câmpuri/paragrafe de semnătură sunt pe aceeași pagină, cu loc/data reală și reprezentarea efectivă de completat, fără semnătură fictivă. Statutul VERHANDLUNGSENTWURF și paginarea 1-34 apar consecvent.
+
+Nota se referă numai la acest hash și la prima randare. Nu este PASS final pentru un PDF rerandat. Problemele au fost transmise root pentru repararea exclusivă a rendererului; nu s-au modificat JSON, contracte, PDF sau scriptul renderer de către auditor.

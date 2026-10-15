@@ -1,0 +1,45 @@
+2026.10.13 — Audit critic separat al pozițiilor comune de negociere N01.1
+
+Fișier controlat: 2026.10.13 Obiectii negociere reformulate.json
+Versiune: N01.1, clarificare D5/planuri de atelier ulterioare; material separat de R05.
+SHA-256 verificat: f417405a49d72b9a4f14d0bb87a53e97fbc64c8e3d2b0d5e85666e9d245d914b.
+
+Acoperire: toate cele 16 puncte P01–P16, inclusiv pozițiile, evaluările, limitele, cerințele de răspuns și formulările în germană; toate cele 7 repere E1–E7; toate cele 30 de mapări C01–C18/J01–J12; diferențele D01–D10, principiile, formatul comun de răspuns și limitele. Reperele din P09 și lista principală sunt identice; ID-urile celor 30 de mapări sunt unice și trimit la puncte existente. Controlul nu este QA vizual al unui Word/PDF nou și nu este încă auditul matricei comerciale, indisponibilă la începutul acestei verificări.
+
+Concluzie: documentul este o bază de negociere coerentă și echilibrată. Nu am identificat o cerință viitoare formulată diferit pentru BERGER și PECH; diferențele de preț, surse și regim profesional sunt numite explicit. Recomand două clarificări juridice locale în formulările germane înainte de publicarea materialului nou. Acestea nu presupun modificarea R05 și nu înseamnă că documentul integral ar fi nelegal ori inutilizabil.
+
+N01 — P09, limita facturării numai pentru prestația efectuată
+Pasajul DE «Das Honorar wird nur für erbrachte zuordenbare Leistungen abgerechnet» este corect pentru facturarea curentă pe livrabile și interdicția de a devansa PI neprestat. Fiind formulat fără limită, poate sugera că remunerația ori decontul la o oprire din sfera AG se reduc tot la prestația deja făcută. Aceasta contrazice intenția explicită din P13/P14 și R05 § 15 de a păstra cadrul § 1168 ABGB. În contextul integral, P13/P14 oferă deja contraponderea, deci nu constat o renunțare certă sau nulitate; constat o ambiguitate evitabilă în formula care poate fi preluată separat.
+Clarificare recomandată în materialul nou: precizați că regula privește facturarea curentă a livrabilelor; pretențiile și decontul legal justificat după § 1168 și regulile de încetare rămân distincte. Nu schimbă interdicția avansului pentru o verificare PI încă neprestată.
+
+N02 — P14, deducerea veniturilor alternative
+Pasajul DE «relevante anderweitige Erwerbsmöglichkeiten werden berücksichtigt» poate fi citit drept deducere a oricărei oportunități economice ipotetice. § 1168 alin. (1) distinge economiile efective, venitul alternativ obținut și venitul alternativ a cărui obținere a fost omisă intenționat. Nu permite prin simpla referință la oportunități deducerea automată a oricărui venit presupus sau a muncii proprii neefectuate. R05 § 15 alin. (4) exprimă corect această distincție; P14 RO păstrează referința legală.
+Clarificare recomandată: utilizați cele trei categorii legale exacte, inclusiv «absichtlich unterlassener anderweitiger Erwerb». Mențineți și distincția că economia de timp propriu nu este prin ea însăși economie monetară. Nu propun un alt mecanism comercial și nu declar § 1168 integral normă imperativă.
+
+Constatări substanțiale fără defect identificat
+P01: scop comun și respingerea excluderii tacite, fără a numi oferta veche acceptare; în documentul public și matrice trebuie să rămână excluderile comune R05 pentru execuție fizică, BauKG, ÖBA/Bauführung și management general.
+P02: PI până la finalul necesar și BWB pentru întreg existentul și noile intervenții; se disting funcțiile și persoanele competente. Specialiștii previzibili ai BWB sunt în pachet, iar cartea nu devine execuție fizică a reparațiilor. Cumulul proiectant/PI nu este interzis generic, iar tranziția legală este rezervată.
+P03–P04: aceeași regulă de numărare fizică, un singur ID pentru deplasarea comună PI/statik, cu prima Untergrund inclusă în cele 12 și fără eliminarea arbitrară a poziției PECH de 800 EUR. Cele 6 opțiuni nu autorizează omiterea controalelor necesare. BERGER n × 2.000/12 și PECH 450 sunt distincte, cu proveniență transparentă. Formula cumulativă BERGER produce exact 1.000 EUR pentru 6; PECH exact 2.700 EUR. Nu se afirmă că gratuitatea PI universală ar fi consecință legală.
+P05: T0/B0 sunt separate; 18 luni nu devin rată lunară, prelungire a ofertei ori încetare automată. Închiderea normală rămâne inclusă, impedimentele au analiză distinctă.
+P06: calendarul nou 3/6/8/10/12 săptămâni este comun și propus; D5 nu este blocat de toate viitoarele planuri ale furnizorilor. Proiectarea proprie completă și verificarea ulterioară a planurilor de atelier sunt sarcini separate, fără fabricație înaintea verificării necesare. Timpii de răspuns au mecanism pentru complexitate reală.
+P07–P08: laboratorul și intervențiile fizice autonome sunt delimitate de inspecțiile/documentarea/specialiștii profesionali BWB. Schimbările reale se diferențiază de greșelile AN; drepturile legale sunt tratate distinct de suplimentul comercial, fără facturare dublă.
+P09: aceeași scadență și procedură obiectivă, 30 de zile/10 zile lucrătoare, retenție 5% net, garanție substitutivă, termen de garanție 3 ani și decont/recepție la încetare. Nu blochează retenția la infinit până la finalizarea unei clădiri abandonate. Singura clarificare necesară este N01 de mai sus. Cuantificarea facturilor pe poziții trebuie reconciliată în matricea economică; lipsa sumelor în acest document de poziții nu este un avans inventat.
+P10: păstrează § 1170b ca drept distinct, în ipotezele sale; nici obiecția neîntemeiată, nici simpla existență a litigiului nu blochează automat apelul garanției. Costurile și procedura legală rămân.
+P11: accesul la date și drepturile pentru obiect sunt comune; nu se transferă fictiv software-ul general sau licențele terților, și nu se elimină drepturile imperative.
+P12: aceeași penalitate propusă, 0,1% din netul etapei afectate pe zi lucrătoare culpabilă, plafon total 5%; 2.250/3.465 EUR sunt aritmetic corecte pentru 45.000/69.300 EUR. Termenele neobligatorii și prelungirile justificate sunt excluse, imputarea asupra aceleiași daune și moderarea sunt păstrate. Nu se pretinde că penalitatea fusese ofertată sau acceptată.
+P13–P14: cauzele, pregătirea de prestare, decontul și veniturile/economiile sunt de probat; lipsa unui acord tarifar nu elimină automat creanța legală. Încetarea pentru neexecutare, renunțarea AG și încetarea § 1170b sunt distincte; nu se cer PI viitoare după încetare valabilă și nu se presupune reziliere automată pentru insolvență. N02 privește numai precizia germană a deducerilor.
+P15–P16: răspuns explicit și registru de abateri, fără tăcere ca acceptare; documentele actuale ale persoanelor/acoperirii sunt cerute administrativ, fără cifre de asigurare inventate sau transfer mecanic al regimului Baumeister către ZT. Verificarea firmei nu se confundă cu numirea ori eligibilitatea persoanei pe un rol concret.
+
+Cele 7 repere
+E1–E5 au livrabile comune și termene relative propuse. Rapoartele PI din E2–E4 sunt prestații profesionale distincte de controlul intern propriu al proiectantului; facturarea se leagă de prestația efectivă. E5 distinge propriul set complet de verificarea ulterioară a planurilor de atelier. E6 se decontează proporțional pentru vizitele și rapoartele efective, fără plata integrală după primul control. E7 cere dosar/BWB complet, dar permite prestarea/decontarea separabilă a părților cu termen legal anterior; nu amână acele obligații până la finalul celor 18 luni.
+
+Cele 30 de mapări
+Toate C01–C18 și J01–J12 sunt acoperite o singură dată în mapare și trimit către P01–P16 existente. Consolidarea tematică nu ascunde diferențele R05 D01–D10. Nu am identificat o mapare care să mute intenția unei obiecții către un punct incompatibil.
+
+Norme primare recitite pentru acest control în 2026.10.13
+ABGB § 1168: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168/NOR12018908
+ABGB § 1170b, recitit în controlul imediat anterior al aceleiași baze: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1170b/NOR40070129
+UGB § 457: https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40148645/NOR40148645.html
+ABGB § 1336: încercarea ELI din acest control a dat 503; nu pretind o reverificare integrală nouă în acea cerere. Registrul surselor al autorului documentează verificarea sa primară și lipsa aplicabilității vechii excluderi § 348 HGB după 2006.12.31; auditul anterior păstrează analiza.
+
+Aviz: publicabil ca material de negociere după cele două clarificări locale N01/N02, cu verificarea ulterioară a concordanței matricei comerciale. Nu este aviz de semnare, dovadă de acceptare sau confirmare a autorizațiilor, polițelor și datei de început. R05 și originalele rămân nemodificate; nu au fost trimise mesaje sau realizate alte acțiuni externe.

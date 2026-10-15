@@ -1,0 +1,56 @@
+2026.10.13 | Verificare vizuală finală PECH R03
+
+Rezultat: PASS.
+
+PDF verificat:
+00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag PECH R03.pdf
+SHA-256: d309fffbde06d708e0de1decfb217efc54c3e75f20f942cde787d3b1c665ab97
+Număr de pagini PDF: 22.
+
+Metodă: inspecție individuală a fiecărei imagini de pagină, prin view_image cu detail original. Au fost consultate toate cele 22 de PNG-uri din dosarul 2026.10.13 QA R03/PECH. Nu s-a folosit un contact sheet și nu s-a substituit inspecția vizuală prin extragerea textului. PDF-ul și DOCX-ul nu au fost modificate și nu au fost rerandate în această verificare.
+
+Pagini inspectate individual:
+1: PASS — titlu, versiune R03, mențiunea propunerii neacceptate și datele părților lizibile.
+2: PASS — rangul documentelor, § 3, alineate și subsol fără tăieri.
+3: PASS — § 4 și § 5 lizibile; continuarea alineatului pe pagina următoare este normală.
+4: PASS — continuarea § 5 și § 6 lizibile, margini păstrate.
+5: PASS — § 6 și § 7; 12 Abnahmen și 450,00 EUR net lizibile.
+6: PASS — § 8 și începutul § 9; T0 și B0 distincte, 16 luni de la B0 lizibile.
+7: PASS — continuarea § 9; 16 luni, termenul de notificare și lipsa expirării automate lizibile.
+8: PASS — § 10 și § 11; prețurile și includerea planificării/execuției/documentelor finale lizibile.
+9: PASS — § 11 și § 12; alineate și subsol fără suprapuneri.
+10: PASS — retenție, garanție, § 1170b și § 13 lizibile.
+11: PASS — penalitate 3.465,00 EUR, § 14 și începutul § 15 lizibile.
+12: PASS — continuarea § 15 și începutul § 16 lizibile.
+13: PASS — continuarea § 16 și întregul bloc al semnăturilor pe aceeași pagină.
+14: PASS — Anexa 1: toate rândurile și celulele tabelului sunt lizibile.
+15: PASS — Anexa 2: tabelul documentelor și câmpurile de confirmare sunt lizibile.
+16: PASS — Anexa 3: calendarul, B0 planificat, B0 efectiv și B0 + 16 luni sunt lizibile.
+17: PASS — antetul tabelului repetat corect; durata de 16 luni și cele 12 recepții sunt distincte și lizibile.
+18: PASS — Anexa 4: pozițiile originale, net/TVA/brut, exemplul opțional de supliment și prima parte a tranșelor sunt lizibile.
+19: PASS — continuarea tranșelor, antet repetat corect și tarifele de regie sunt lizibile.
+20: PASS — pagina scurtă a Anexei 5 este intenționată; nu este pagină goală.
+21: PASS — Anexa 6: persoanele, dovezile, câmpurile și prima parte a tabelului abaterilor sunt lizibile.
+22: PASS — antet repetat corect; durata de 16 luni, tariful de recepție și celelalte abateri sunt lizibile.
+
+Constatări generale:
+- Nu au fost identificate text sau celule tăiate, suprapuneri, caractere lipsă ori pagini goale.
+- Titlurile de capitol rămân cu textul aferent; tabelele au antetele necesare la continuare.
+- Subsolurile arată corect PECH, Entwurf 2026.10.13 R03 și numărul paginii, de la 1 von 22 până la 22 von 22.
+- Semnăturile AG și AN sunt grupate pe pagina 13 și nu se suprapun cu subsolul.
+
+Verificare vizuală a sumelor din Anexa 4, paginile 18–19:
+Pozițiile nete sunt 42.000,00 + 6.000,00 + 5.000,00 + 800,00 + 14.000,00 + 1.500,00 = 69.300,00 EUR.
+TVA 20 %: 13.860,00 EUR. Total brut: 83.160,00 EUR.
+Tranșele poziției 01: 10 % + 25 % + 25 % + 25 % + 15 % = 100 %, total 42.000,00 EUR.
+Poziția 02: 50 % + 50 % = 100 %, total 6.000,00 EUR.
+Poziția 03: 70 % + 30 % = 100 %, total 5.000,00 EUR.
+Poziția 04: 100 %, 800,00 EUR.
+Poziția 05: 20 % + 40 % + 20 % + 20 % = 100 %, total 14.000,00 EUR.
+Poziția 06: 100 %, 1.500,00 EUR.
+Totalul tranșelor: 69.300,00 EUR net.
+Recepția suplimentară: 450,00 EUR net / 540,00 EUR brut. Exemplul condiționat de patru recepții suplimentare: 1.800,00 EUR net / 2.160,00 EUR brut; acesta nu este adăugat automat la totalul de bază.
+
+Durata: § 9, paginile 6–7, și Anexa 3, paginile 16–17, prevăd vizibil 16 luni calendaristice de la B0 efectiv, separat de T0 pentru planificare. Cele 12 recepții nu sunt transformate în 16 recepții. § 11, pagina 8, păstrează onorariul și include perioada propusă și documentele finale obișnuite. Pagina 1 identifică explicit aceste condiții ca propunere R03, fără dovada acceptării PECH.
+
+Limita verificării: control al aspectului și al sumelor vizibile, nu validare juridică independentă, acceptare comercială, dovadă de asigurare sau numire efectivă. Auditul juridic R03 este separat. Documentul rămâne NETRIMIS și NESEMNAT.

@@ -1,6 +1,6 @@
 # iDempiere
 
-Conversații: 14; subagenți: 0; mesaje: 456; fișiere copiate: 432.
+Conversații: 15; subagenți: 0; mesaje: 472; fișiere copiate: 432.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -18,3 +18,4 @@ Conversații: 14; subagenți: 0; mesaje: 456; fișiere copiate: 432.
 | [Creează invitație Halloween Family](Creeaz%C4%83%20invita%C8%9Bie%20Halloween%20Family/conversatie.md) | Conversație | 41 |
 | [Creează monografia contabilă](Creeaz%C4%83%20monografia%20contabil%C4%83/conversatie.md) | Conversație | 25 |
 | [Create audit checklist and workspace](Create%20audit%20checklist%20and%20workspace/conversatie.md) | Conversație | 16 |
+| [Verifică aplicația și commitul](Verific%C4%83%20aplica%C8%9Bia%20%C8%99i%20commitul/conversatie.md) | Conversație | 16 |

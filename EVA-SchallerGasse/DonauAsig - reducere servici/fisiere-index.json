@@ -1,0 +1,56 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.14 Renuntare partiala Donau\\2026.10.14 Optiune selectata si procedura Donau.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.14 Optiune selectata si procedura Donau--5bf376de.txt",
+    "bytes": 4395,
+    "sha256": "fea671e68d56c97c3d332fd945beb866b7b71aad5b6648a9ba2851c60f57954e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\05. Asigurari\\Asigurare cladire\\2026.10.14 Renuntare partiala Donau\\2026.10.14 Renuntare partiala Donau.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.14 Renuntare partiala Donau--21373a34.txt",
+    "bytes": 5527,
+    "sha256": "37838a5c6de42769ad02314b9fcba75e03b35c76f688da05c2f51587c17e0059"
+  },
+  {
+    "source_reference": "https://ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.donauversicherung.at/kontakt",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010711_OGH0002_0070OB00152_01F0000_000/JJT_20010711_OGH0002_0070OB00152_01F0000_000.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P39/NOR12037674",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P40/NOR12037676",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P68/NOR12037686",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P8/NOR40138452",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P91/NOR12026511",
+    "status": "referinta_externa_necopiata"
+  }
+]

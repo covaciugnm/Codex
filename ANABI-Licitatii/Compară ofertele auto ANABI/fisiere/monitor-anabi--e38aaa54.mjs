@@ -1,5 +1,6 @@
 import fs from 'node:fs';
-const dir='sources/monitor-2026-10-13';fs.mkdirSync(dir,{recursive:true});
+const runDate=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Bucharest',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const dir=`sources/monitor-${runDate}`;fs.mkdirSync(dir,{recursive:true});
 const clean=s=>s.replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/\s+/g,' ').trim();
 async function get(url){for(let i=0;i<3;i++){try{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('HTTP '+r.status);const t=await r.text();if(!t.includes('licitatie'))throw Error('Unexpected page');return t}catch(e){if(i===2)throw e}}}
 const first=await get('https://anabi.just.ro/licitatiionline/ads?page=1&shortBy=price_high_to_low');

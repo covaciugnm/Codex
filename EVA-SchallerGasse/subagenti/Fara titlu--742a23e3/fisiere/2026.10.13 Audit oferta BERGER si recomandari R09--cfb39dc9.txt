@@ -1,0 +1,59 @@
+2026.10.13 — BERGER: verificarea ofertei originale și recomandări pentru R09
+
+Sursă: 00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Werkvertrag R08/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf.
+SHA-256 reconfirmat: b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b.
+Toate cele 4 pagini au fost recitite și inspectate individual în PNG, detail original, după randare Poppler la 150 dpi. R08, PECH și EVA nu au fost modificate.
+
+1. Constatări exacte din oferta originală
+
+Pagina 2, Statik: «Die Berechnung der Baugrubensicherung/Stützmauen/Außenanlagen wird bauseits durchgeführt. Nur Lastangaben des eigenen Gebäudes werden vom Auftragnehmer angegeben bzw. zur Verfügung gestellt.» Ortografia «Stützmauen» este păstrată în acest citat; în textul operativ se poate folosi «Stützmauern».
+Pagina 2, Statische Betreuung während der Bauphase: «Anwesenheit bei den Baubesprechungen nach Erfordernis maximal 8 Besuche», Pauschale 2.000 Euro.
+Pagina 3: Prüfingenieur este poziție distinctă, Pauschale 10.000 Euro, cu verificări în timpul execuției, «Vorhalten des Prüfingenieurs bis zum Rohbaubeschau» și documentul pentru § 128. Această poziție nu conține un plafon numeric de vizite. Absența plafonului nu este o ofertă pentru modificări nelimitate ale scopului; funcția PI extinsă din contractul propus se păstrează în limitele acelui scop, cu procedura existentă pentru modificări reale.
+Pagina 1: 45.000 EUR net + 9.000 EUR TVA = 54.000 EUR brut. Cele patru valori rămân 13.000 / 20.000 / 2.000 / 10.000 EUR net; regia p. 3 rămâne 150 / 135 / 95 / 75 EUR net/oră.
+
+Plafonul original de 8 se referă numai la asistența statică, nu la toate inspecțiile PI. Numărarea T0 în cele 8 și tariful 1.000 EUR pentru un pachet de 4 suplimentare sunt reguli ale noii propuneri potrivit instrucțiunii utilizatorului; nu se prezintă drept formulări deja acceptate în oferta originală. Recomandarea de mai jos înlocuiește ipoteza intermediară de plafon global 8 pentru toate funcțiile.
+
+2. Excluderea proiectării Baugrube / Verbau
+
+Clauză recomandată în germană:
+«Die Berechnung und Planung von Baugrubensicherung und Verbau, einschließlich der zugehörigen Stützmauern und Außenanlagen, sind nicht Bestandteil des Leistungsumfangs des AN. Diese Leistungen sind von der AG gesondert bauseits zu beauftragen. Der AN stellt die erforderlichen Lastangaben seines Gebäude-Tragwerks zur Verfügung und stimmt dessen Schnittstellen mit dem zuständigen bauseitigen Fachplaner ab. Gebäudeigene Fundierungs-, Lift- und Tragwerksleistungen nach Anlage 1 bleiben davon abgegrenzt. Die gesetzlichen Prüf- und Warnpflichten aus den tatsächlich übernommenen Funktionen werden durch diese Abgrenzung nicht aufgehoben.»
+
+Trebuie delimitată proiectarea sprijinirii excavației față de fundarea/sprijinirile structurale ale propriei clădiri. Nu se elimină implicit fundarea, placa de 30 cm, liftul, consolidările sau avertizarea asupra interfețelor. Nu se promite că un terț este deja contractat. Nu se atribuie AN proiectarea ori aprobarea generală a Verbau printr-o cerință reziduală de «toate asigurările temporare».
+
+Locuri de corectat în R09: § 3(4), rândul Baugrube und Sicherungen din anexa 1, formulările D2 din anexa 3 și E2 din anexa 4. În D2/E2 se păstrează numai fundarea/liftul/sprijinirile propriei clădiri și interfețele incluse; nu «Baugrubensicherung/Verbau». Contractul trebuie să prezinte explicit excluderea, nu numai să șteargă un rând din tabel.
+
+3. Cele 8 vizite de asistență statică, T0 și PI separat
+
+Clauză recomandată:
+«Die Position Statische Betreuung umfasst bei unverändertem Honorar von EUR 2.000,00 netto höchstens acht tatsächliche physische Betreuungstermine. Eine gesondert stattfindende anfängliche T0-Begehung mit statischer Bestands- und Grundlagenbetreuung zählt als einer dieser acht Termine; sie wird nicht als zusätzlicher neunter Betreuungstermin außerhalb dieses Kontingents zugesagt. Eine digitale Besprechung verbraucht keinen physischen Betreuungstermin. Reine PI-Beschauen ohne zusätzliche statische Betreuungsleistung sind durch das gesonderte PI-Honorar abgegolten und verbrauchen keinen Betreuungstermin. Bei einer gemeinsamen Anwesenheit für statische Betreuung und PI wird die statische Betreuung nur einmal gezählt; es entstehen keine zweite Termin- oder PI-Wegvergütung.»
+
+Clauză PI recomandată:
+«Der gesonderte PI-Beschauplan richtet sich nach den notwendigen tatsächlichen Prüfungen. Die Höchstzahl von acht statischen Betreuungsterminen begrenzt die vereinbarte PI-Leistung nicht. Eine reine PI-Beschau löst weder ein zusätzliches statisches Betreuungspaket noch einen weiteren PI-Terminpreis aus. Mehrere Funktionen dürfen tatsächlich gemeinsam erfüllt und getrennt dokumentiert werden; eine bloße Umbenennung einer PI-Beschau in statische Betreuung begründet kein Zusatzentgelt.»
+
+Sunt de eliminat din BERGER: 12 B0 + T0 separat gratuit; regula comună de tarifare suplimentară «auch bei PI»; cap de 6 opțiuni; formula 2.000/12 și valoarea 166,67 EUR. § 5(3), §§ 7–8, § 9(2), § 11(1), anexele 3, 4 și 6, presentation și preambulul emailului trebuie să fie concordante. Nu se înlocuiește mecanic orice «zwölf» sau «sechs»: D5 la 12 săptămâni și D2 la 6 săptămâni rămân termene de proiectare.
+
+4. Distribuire orientativă a celor 8 locuri pentru asistență statică
+
+1 — T0: inspectarea inițială a existentului, bazelor și interfețelor Bauwerksbuch, dacă este o deplasare separată cu asistență statică efectivă.
+2 — Untergrund / Fundierung: verificarea situației propriei fundări înainte de realizare, cu datele bauseits disponibile; fără proiectarea Verbau.
+3 — Placa de fundare și baza liftului: armături, racord existent/nou și elementele simultan pregătite pentru verificare.
+4 — Puțul liftului, reazeme și scări: faza efectivă relevantă pentru asistență; controalele PI necesare în alte momente rămân în planul PI separat.
+5 — Consolidarea existentului, planșee, goluri și reazeme: stadiul real înainte de acoperire ori execuția dependentă.
+6 — Mansardă lemn/oțel, contravântuiri și noduri: elementele efectiv accesibile în aceeași prezență.
+7 — Balcoane, ancore și Rohbau: se comasează numai elementele realmente pregătite în același moment.
+8 — Faza finală structural relevantă / închidere: asistența finală, constatări și interfețe as-built.
+
+Aceasta este o alocare de buget pentru asistență, nu o promisiune că toate fazele legale se pot verifica în 8 deplasări. Faze nesimultane nu se declară controlate prin comasare administrativă. Necesarul PI se verifică separat fără plafonul 8 și fără taxă nouă PI. Asistența statică suplimentară efectiv necesară poate fi comandată prin mecanismul de mai jos.
+
+5. Pachet suplimentar de 4 vizite / 1.000 EUR net
+
+Clauză recomandată:
+«Über die acht enthaltenen statischen Betreuungstermine hinaus können zusätzliche statische Betreuungstermine ausschließlich in gesondert beauftragten Paketen zu jeweils vier tatsächlichen physischen Betreuungsterminen bestellt werden. Der Preis je Viererpaket beträgt EUR 1.000,00 netto zuzüglich gesetzlicher Umsatzsteuer, bei zwanzig Prozent EUR 1.200,00 brutto. Jedes Paket benötigt vor seiner Leistungserbringung eine konkrete Freigabe durch die hierzu bevollmächtigte Person mit Paket-ID, Umfang und Terminfolge. Es gibt keine automatische Bestellung oder Aufrundung auf ein weiteres Paket. Die laufende Abrechnung richtet sich nach den tatsächlich dokumentierten Paketleistungen; EUR 250,00 netto je ausgeführtem Betreuungstermin ist der anteilige Abrechnungswert eines bestellten Pakets, kein selbständig bestellbarer Einzelterminpreis. Die vollständige Paketvergütung wird nicht allein mit dem ersten Termin als Vorauszahlung fällig. Für nicht bestellte Pakete entsteht kein Entgelt. Die gesetzlichen Abrechnungsfolgen einer späteren Abbestellung bereits wirksam beauftragter Leistungen bleiben nach § 15 unberührt. Reine PI-Beschauen, normale Dokumentenarbeit, bereits vergütete Anwesenheiten und eigene Fehlerkorrekturen werden nicht als zusätzliche statische Betreuung verrechnet.»
+
+Tariful pachetului este instrucțiunea utilizatorului. Nu se inventează un tarif suplimentar PI și nu se schimbă regia. La pachete integrale efectiv comandate și realizate: q pachete = 4q vizite, supliment 1.000q EUR net; total 45.000 + 1.000q EUR net. Un pachet: 46.000 net / 55.200 brut; două: 47.000 net / 56.400 brut. Acestea sunt scenarii condiționate, nu comenzi sau datorii existente. Nu se introduce automat un plafon de două pachete ori o comandă prin ceil(vizite/4).
+
+6. Coerența facturării
+
+E6 de 4.500 EUR net poate rămâne 2.000 EUR asistență + 2.500 EUR componenta PI existentă, fără modificarea sumelor sau alocărilor. Rândul E6 descrie separat: asistența statică de maximum 8, inclusiv T0 dacă efectuată ca atare, versus prestațiile PI din planul propriu, fără a plafona inspecțiile PI la 8. Componenta de asistență se facturează după stadiul propriu; o componentă T0 efectiv realizată nu se amână fictiv până la B0. PI se facturează numai pentru propriile prestații documentate, fără avans sau a doua plată pentru verificarea proprie a proiectantului. Anexa 4 va afișa pachetul de 4 / 1.000 EUR, fără vechiul tabel 6 / 1.000 EUR.
+
+R09 trebuie marcat intern ca versiune nouă a BERGER; R08 și PECH sunt păstrate. Actualizarea unui draft EVA existent și a PDF-ului atașat aparține agentului principal, după controlul noii versiuni; nu a fost efectuată în această verificare.

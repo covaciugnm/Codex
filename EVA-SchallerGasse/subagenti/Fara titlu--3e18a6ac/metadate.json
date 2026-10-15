@@ -1,0 +1,23 @@
+{
+  "id": "01a13a20-5798-7481-830c-36f83e18a6ac",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1791976560,
+  "updated_at": 1791976626,
+  "archived": 0,
+  "source": "{\"subagent\":{\"thread_spawn\":{\"parent_thread_id\":\"01a13a0c-d1c7-7db2-ae80-d6330a61d8a4\",\"depth\":1,\"agent_path\":\"/root/redactare_juridica_sturm\",\"agent_nickname\":\"Chandrasekhar\",\"agent_role\":null}}}",
+  "title": "Fara titlu",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "parent_thread",
+  "parent_thread_id": "01a13a0c-d1c7-7db2-ae80-d6330a61d8a4",
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 615513,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 6,
+  "message_count": 0,
+  "content_sha256": "02fc0b356f713b62b9c41a91d4abd75e638887404d3e10fa95016418f7c92fe7",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

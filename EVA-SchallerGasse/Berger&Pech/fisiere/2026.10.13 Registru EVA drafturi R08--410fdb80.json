@@ -1,0 +1,120 @@
+{
+  "data": "2026.10.13",
+  "drafturi": [
+    {
+      "provider": "BERGER",
+      "draft_id": "5a66f053-9d6b-45e2-880b-baecf778b46f",
+      "status": "pending",
+      "from": "office@ac-wohnart.at",
+      "to": [
+        "office@bmberger.at"
+      ],
+      "cc": [],
+      "subject": "Schallergasse 35 - Unser Vertragsvorschlag",
+      "created_at_original": "2026-10-13T15:34:01.385196Z",
+      "updated_at_original": "2026-10-13T15:34:01.385196Z",
+      "server_readback_path": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Werkvertrag R08/2026.10.13 EVA draft BERGER R08 original.json",
+      "attachments": [
+        {
+          "filename": "2026.10.13 Werkvertrag BERGER R08.pdf",
+          "local_path": "00.Proiect\\09. Vertraege\\bmberger.at\\2026.10.13 Werkvertrag R08\\2026.10.13 Werkvertrag BERGER R08.pdf",
+          "sha256": "a1dc3efa2b83bfadde71e4446ef1ac7a8cfdf2607d4faefbeaecd9ae62b1bdd5",
+          "bytes": 185734,
+          "document_id": "56fd2478-5a94-48de-8dad-dfb42adc509d",
+          "upload_return": {
+            "id": "56fd2478-5a94-48de-8dad-dfb42adc509d",
+            "filename": "2026.10.13 Werkvertrag BERGER R08.pdf",
+            "size": 185734,
+            "mime_type": "application/pdf",
+            "format": "pdf",
+            "draft_id": null,
+            "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+          }
+        },
+        {
+          "filename": "2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "local_path": "00.Proiect\\09. Vertraege\\bmberger.at\\2026.10.13 Werkvertrag R08\\2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "sha256": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "bytes": 174755,
+          "document_id": "9d4fc251-6221-4698-b1e8-3d26e0ab2a03",
+          "upload_return": {
+            "id": "9d4fc251-6221-4698-b1e8-3d26e0ab2a03",
+            "filename": "2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+            "size": 174755,
+            "mime_type": "application/pdf",
+            "format": "pdf",
+            "draft_id": null,
+            "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+          }
+        }
+      ],
+      "readback": "PASS"
+    },
+    {
+      "provider": "PECH",
+      "draft_id": "8e954def-ac5f-4782-b5c7-b25c64572bb9",
+      "status": "pending",
+      "from": "office@ac-wohnart.at",
+      "to": [
+        "sekretariat@zt-pech.at"
+      ],
+      "cc": [
+        "ployer@zt-pech.at"
+      ],
+      "subject": "Schallergasse 35 - Unser Vertragsvorschlag",
+      "created_at_original": "2026-10-13T15:33:40.816500Z",
+      "updated_at_original": "2026-10-13T15:33:40.816500Z",
+      "server_readback_path": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Werkvertrag R08/2026.10.13 EVA draft PECH R08 original.json",
+      "attachments": [
+        {
+          "filename": "2026.10.13 Werkvertrag PECH R08.pdf",
+          "local_path": "00.Proiect\\09. Vertraege\\zt-pech.at\\2026.10.13 Werkvertrag R08\\2026.10.13 Werkvertrag PECH R08.pdf",
+          "sha256": "9d0f0078728fe1f22ca2b3914335f8ddad049ecb11fbd2bf553c9da3670511b5",
+          "bytes": 186227,
+          "document_id": "bbdaea38-ae7f-4bf5-90a0-b10dc41657df",
+          "upload_return": {
+            "id": "bbdaea38-ae7f-4bf5-90a0-b10dc41657df",
+            "filename": "2026.10.13 Werkvertrag PECH R08.pdf",
+            "size": 186227,
+            "mime_type": "application/pdf",
+            "format": "pdf",
+            "draft_id": null,
+            "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+          }
+        },
+        {
+          "filename": "2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "local_path": "00.Proiect\\09. Vertraege\\zt-pech.at\\2026.10.13 Werkvertrag R08\\2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "sha256": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "bytes": 68147,
+          "document_id": "e1c7dabf-3dfd-465d-9db7-83ea7bc217ff",
+          "upload_return": {
+            "id": "e1c7dabf-3dfd-465d-9db7-83ea7bc217ff",
+            "filename": "2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+            "size": 68147,
+            "mime_type": "application/pdf",
+            "format": "pdf",
+            "draft_id": null,
+            "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+          }
+        }
+      ],
+      "readback": "PASS"
+    }
+  ],
+  "mailbox_verificata": {
+    "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "email": "office@ac-wohnart.at",
+    "provider": "imap",
+    "permission": "owner",
+    "searchable": true,
+    "is_active": true,
+    "last_sync": "2026-10-13T15:00:14.337773Z"
+  },
+  "octeti_PDF_verificati": "00.Proiect/09. Vertraege/2026.10.13 Contracte R08 - intern/2026.10.13 Verificare octeti PDF EVA R08.json",
+  "drafturi_EVA_create": 2,
+  "mesaje_trimise": 0,
+  "semnaturi": 0,
+  "plati": 0
+}
+

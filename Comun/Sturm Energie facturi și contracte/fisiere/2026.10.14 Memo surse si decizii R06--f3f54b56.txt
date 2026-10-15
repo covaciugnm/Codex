@@ -1,0 +1,33 @@
+2026.10.14 — MEMO REDACTARE R06 (Solicitare justificare contractuala STURM ENERGIE GmbH)
+Statut: draft local NETRIMIS. Nu s-a creat draft Eva-Mail. Nu s-a trimis nimic.
+Baza: R05 (audit 9/10) + cele 4 remedieri din „2026.10.14 Audit juridic R05.txt”, aplicate exact cu textele din audit (citat → inlocuire). Nicio alta modificare.
+Fisier scrisoare: D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\06. Utilitati\UTILITATI Curent - Sturm Energie\2026.10.14 Solicitare justificare contractuala STURM\Redactare\2026.10.14 Solicitare STURM DE R06 NETRIMIS.txt
+Metoda: copie R05 → R06, apoi 4 inlocuiri exacte de text (fiecare sir gasit o singura data). UTF-8.
+
+1. REMEDIERI APLICATE
+
+Nr. | Loc | Inlocuire (rezumat) | Motiv (audit) | Aplicata
+----|-----|---------------------|---------------|---------
+1 | II.4 (integral) | „Abnehmers der Lieferung” (termenul exact din § 11 Abs. 1 Z 3 lit. b UStG pentru Strom/Gas = Lieferung); „eine fremde UID (ATU76175979), nicht jene der A&C (ATU83086125)” — titularul UID-ului nu e identificat in dosar, deci nu se afirma ca e al fostei partenere; exemplu concret Rechnung 29708/10/2026; norma fiscala prezentata ca confirmare a II.1–II.3, nu ca temei autonom; „oder eine Rechnungsberichtigung ändert nichts daran, dass es an einem Vertrag mit A&C fehlt” — inchide replica „Formfehler, wir stellen neu aus”. | DREPT + FACT | DA
+2 | II.3 (completat) | Fraza noua: cererile A&C / fostei reprezentante (CERHA HEMPEL) de transmitere a documentelor si facturilor deschise (Ticket 339194) au servit clarificarii faptelor si nu sunt nici acceptare de contract, nici preluare. Pre-emptioneaza folosirea emailurilor din 27.05/08.06.2026 de catre STURM, pe care III.7(b) le va scoate la iveala. | STRATEGIC | DA
+3 | III.3 (teza finala) | Kündigungserklärungen cerute doar „soweit Sie daraus Forderungen gegen A&C ableiten” (inchide scuza Drittunterlagen/Datenschutz, aceeasi tehnica ca in III.5); fraza rupta in doua cereri distincte („Weiters ...” / „Schließlich die Bestätigung ...”). Continutul confirmarii privind consumurile pana la Lieferende neschimbat. | STRATEGIC | DA
+4 | III.7 lit. (b) | Enumerarea „Hofhans, CERHA HEMPEL, A&C oder STURM ENERGIE intern” stearsa → „(veranlassende Stelle und zugrunde liegendes Dokument)”. Lista nu adauga nimic si sugera ca A&C/CERHA ar fi putut dispune readresarea. | CLARITATE | DA
+
+Neschimbate (confirmate de audit): tot restul R05 — antet, Betreff, I, II.1–II.2, II.5–II.8, III.1–III.2, III.4–III.6, III.7 lit. (a), (c)–(f), III.8–III.9, IV, V, semnatura cu placeholder telefon, Beilage 1 (21 randuri, 3 coloane de completat), Beilage 2, toate trimiterile interne (III.9 → III.1–III.7; V → III.9, III.1–III.8; Beilage 1 → III.1, III.2, III.4, III.7; Beilage 2 → III.1–III.7). Numerotarea II/III neschimbata (nu s-au adaugat/sters puncte).
+
+2. NORME CITATE (neschimbate)
+- § 11 Abs. 1 Z 3 lit. b UStG 1994 — verificat RIS 14.10.2026: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&Paragraf=11 ; textul lit. b: „den Namen und die Anschrift des Abnehmers der Lieferung oder des Empfängers der sonstigen Leistung” — R06 foloseste acum „Abnehmers der Lieferung” (energie = Lieferung). Regula UID > 10.000 EUR neinvocata (facturi sub prag).
+- ABGB §§ 859, 861, 862, 863, 1405, 1406, 1333 Abs. 1 und 2, 1431 — neschimbate.
+- Necitate deliberat: § 1404, § 1409, § 1432 ABGB; § 458 UGB; ElWOG 2010 / GWG 2011; KSchG.
+
+3. FAPTE NOI FOLOSITE
+- Ticket 339194: cererile noastre din 27.05.2026 si 08.06.2026 (documente, conturi, facturi deschise, Guthaben) — sursa: 2026.10.14 Situatie STURM\Surse\2026.06.17 f51d3f00.txt (firul complet) si 2026.06.01 46501cec.txt. In II.3 sunt calificate ca Sachverhaltsklärung.
+- Restul surselor: identice cu Memo R05.
+
+4. VERIFICARI PRE-EXPEDIERE (din audit R05, valabile pentru R06)
+a) Completeaza sau sterge „ | Tel.: [vor Versand ergänzen]” din semnatura.
+b) La expediere in 15.10.2026: III.9 si V → „17.10.2026, 12:00 Uhr” + data din antet („Wien, am ...”). 28.10.2026 ramane.
+c) Confirmarea platitorului (Privatperson) pentru descrierea neutra din IV.3.
+d) Semnatura GF, PDF cu antet; Beilage 1/2 ca tabele lizibile (landscape).
+e) Trimitere la grosskunde@sturmenergie.at + kundendienst@sturmenergie.at, de preferat in firul Ticket 365759, cu ticketele si Kundennummern in subiect; arhivarea dovezii de trimitere.
+f) Calendar: 16.10 (confirmare suspendare) / 19.10 (termen STURM) / 28.10 (documente). Argument de rezerva Hauptsicherung (19.03.2026): de confirmat documentar pentru etapa urmatoare, neinclus.

@@ -1,0 +1,66 @@
+from pathlib import Path
+import re,json,hashlib,html,os,shutil
+R=Path(__file__).resolve().parent.parent
+O=R/'06. Utilitati/UTILITATI Curent - Sturm Energie/2026.10.14 Identificatori si dovada contract'
+inv=json.loads((R/'folder map/inventar.json').read_text('utf-8-sig'));seen=set();docs=[];checks=[]
+for e in inv:
+ if e['extensie'].lower()!='.pdf' or e['sha256'] in seen:continue
+ texts=[]
+ for k in ['text_cache','ocr_cache']:
+  if e.get(k) and (R/e[k]).is_file():texts.append((R/e[k]).read_text('utf-8-sig'))
+ t='\n'.join(texts)
+ if not re.search(r'sturmenergie\.at',t,re.I):continue
+ seen.add(e['sha256']);p=R/e['cale'];h=hashlib.sha256(p.read_bytes()).hexdigest()
+ if h!=e['sha256']:raise ValueError('Sursa modificata: '+str(p))
+ checks.append({'cale':e['cale'],'sha256':h,'identic_index':True})
+ fields=[]
+ for m in re.finditer(r'vertragsnummer|vertrags[- ]?nr\.?|vertragskonto|vertragsbestätigung|lieferbestätigung',t,re.I):fields.append(t[max(0,m.start()-40):m.end()+90])
+ # Preserve the actual source text separately; normalized display dates are additional.
+ dates=sorted(set(re.findall(r'\b\d{2}\.\d{2}\.20\d{2}\b',t)))
+ docs.append({'cale':e['cale'],'sha256':h,'nr_client':sorted(set(re.findall(r'\b420\d{5}\b',t))),'nr_instalatie':sorted(set(re.findall(r'\b4000\d{6}\b',t))),'facturi':sorted(set(re.findall(r'\b\d{4,6}/10/20\d{2}\b',t))),'date_documentare_originale':dates,'date_documentare_lizibile':['.'.join(x.split('.')[::-1]) for x in dates],'campuri_contract_gasite':fields})
+for d in docs:
+ if d['cale']=='05. Asigurari/Asigurare cladire/20260526163714572.pdf':
+  d['nr_client_ocr_brut']=d['nr_client'];d['nr_client']=['42017328'];d['corectie_vizuala']='Pagina 1: 42017328, nu 42017828; OCR a confundat cifra 3. Original nemodificat.'
+src='06. Utilitati/UTILITATI Curent - Sturm Energie/Anlagenliste_Schallergasse_35_16.06.2026.pdf'
+e=next(x for x in inv if x['cale']==src);t=(R/e['text_cache']).read_text('utf-8-sig');plants=[]
+for line in t.splitlines():
+ m=re.match(r'\s*(\d{10})\s+(Strom|Gas)\s+beendete Belieferung\s+(\d{2}\.\d{2}\.\d{4})\s+(\d{2}\.\d{2}\.\d{4})\s+HI 1120, Schallergasse 35\s+Schallergasse\s+35\s+(\S+)\s+1120\s+Wien\s+(AT\d+)\s+(\S+)',line)
+ if not m:continue
+ num,typ,start,end,top,zp,meter=m.groups()
+ # Client linkage must come from a document containing the installation and a single client.
+ support=[d for d in docs if num in d['nr_instalatie'] and len(d['nr_client'])==1]
+ clients=sorted(set(c for d in support for c in d['nr_client']))
+ plants.append({'nr_instalatie':num,'energie':'Curent' if typ=='Strom' else 'Gaz','top':top,'inceput_furnizare':'.'.join(start.split('.')[::-1]),'sfarsit_furnizare':'.'.join(end.split('.')[::-1]),'nr_client':', '.join(clients) or 'Neconfirmat în document cu un singur client','nr_contract':'NEIDENTIFICAT','data_semnarii':'NEIDENTIFICATĂ','partener_in_lista':'HI 1120, Schallergasse 35','punct_consum':zp,'contor':meter,'sursa_status':src,'sursa_client':support[0]['cale'] if len(clients)==1 else ''})
+for p in plants:
+ if p['nr_instalatie']=='4000114087':
+  p['nr_client']='42017328';p['sursa_client']='08. Corespondenta/2026.10.05 Actualizare comunicari/2026.10.05 Atasamente/2026.10.05 75af73b7 Schreiben von Sturm Energie_A&C Wohnart.pdf';p['pagina_sursa_client']=3;p['verificare']='Client si instalatie verificate vizual pe pagina 3.'
+assert len(plants)==21
+assert sum(p['energie']=='Curent' for p in plants)==12
+assert not any(d['campuri_contract_gasite'] for d in docs)
+out={'data_lizibila':'2026.10.14','concluzie':'Niciun numar de contract si niciun contract semnat/acceptat de A&C identificat. Numerele clientilor si instalatiilor nu sunt numere de contract. Datele de furnizare nu sunt date de semnare.','instalatii':plants,'documente':docs,'verificare_hash':checks,'limite':'Date si facturi extrase automat in inventarul de documente; semnaturile nu se deduc din OCR. Lista instalatiilor si exemplele de etichete/formular au fost verificate vizual. Cautarea documentelor EVA 42017328 este plafonata la 50 rezultate; completata cu indexul local si anexele mesajelor, fara afirmatie de exhaustivitate globala.'}
+(O/'2026.10.14 Identificatori extrasi si surse.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),'utf-8')
+def link(rel,label=None):
+ return '<a href="'+html.escape(Path(os.path.relpath(R/rel,O)).as_posix())+'">'+html.escape(label or rel)+'</a>'
+def table(headers,rows):return '<table><thead><tr>'+''.join('<th>'+html.escape(x)+'</th>' for x in headers)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+str(x)+'</td>' for x in row)+'</tr>' for row in rows)+'</tbody></table>'
+S='06. Utilitati/UTILITATI Curent - Sturm Energie/2026.10.14 Situatie STURM/Surse/'
+proof=[('2026.03.25','Oferta #323971','STURM propune să transmită un formular precompletat pentru semnare după răspunsul privind adresa. Nu este confirmare de contract.',S+'2026.03.25 c49b8bb4.txt'),('2026.06.01','Răspuns STURM','Confirmă că vechile contracte au fost reziliate și nu s-a răspuns la oferta transmisă lui Capra.',S+'2026.06.01 46501cec.txt'),('2026.06.16','Lista STURM','21 de instalații: toate cu furnizare încheiată. Rubrica partener: HI 1120, Schallergasse 35. Nu există coloană cu număr de contract.',src),('2026.06.17','Răspuns STURM #339194','Explică rezilierea și lipsa acceptării ofertei. Documentele de închidere de la rețea se cer la Wiener Netze; datele Hofhans au fost eliminate.',S+'2026.06.17 f51d3f00.txt'),('2026.09.24','Somații și formular SEPA','Pachetul retransmis prin Capra la 2026.10.01 conține somații și un formular SEPA necompletat (pagina 2 verificată vizual), fără semnătura A&C pe acea pagină.','08. Corespondenta/2026.10.05 Actualizare comunicari/2026.10.05 Atasamente/2026.10.05 75af73b7 Schreiben von Sturm Energie_A&C Wohnart.pdf')]
+conclusion='Nu am identificat un număr de contract STURM și nici un contract de furnizare semnat/acceptat de A&C. Avem documente despre furnizarea veche a clădirii, o ofertă ulterioară și facturi/somații. Aceasta este concluzia asupra documentelor disponibile, nu o dovadă absolută că nu a existat niciun alt acord.'
+intro='Am verificat identificatorii din '+str(len(docs))+' conținuturi PDF distincte care menționează domeniul STURM, textele/OCR indexate și căutări punctuale în Eva-Mail. Originalele incluse în analiză au hash identic indexului.'
+gloss=[('Număr contract','Vertragsnummer / Vertrags-Nr.','NEIDENTIFICAT; nici dată de semnare identificată'),('Număr client','Kundennummer','42017328 și 42018142'),('Număr instalație','Anlage / Anlagennummer','21 identificatori de câte 10 cifre, detaliați mai jos'),('Punct de consum','Zählpunkt','Coduri AT…; identifică punctul de consum'),('Număr contor','Zählernummer','Număr tehnic; PAUSCHAL pentru poziția casei scării'),('Număr factură','Endabrechnung / Abrechnung Nr.','Exemplu: 29721/10/2026, emisă 2026.05.18; nu este contract'),('Referință de plată','Zahlungsreferenz','Exemplu Top 5 gaz: 400012438711; nu este contract'),('Ticket de corespondență','Ticket','323811, 323971, 339194, 357112, 358681, 365740, 365759; nu sunt contracte'),('Cod produs','Produktblatt','EK_Q1e, valabil de la 2026.01.01; fișă de tarif, nu contract individual'),('Condiții generale','AGB','Versiune valabilă din 2019.12; nu identifică acceptarea A&C')]
+css='body{font:16px/1.5 Segoe UI,Arial;background:#f4f7f9;color:#17324b;margin:28px}main{background:white;padding:28px;max-width:1600px;margin:auto}table{border-collapse:collapse;width:100%;margin:20px 0}th,td{border:1px solid #d2dce5;padding:10px;vertical-align:top}th{background:#173d59;color:white;text-align:left}tr:nth-child(even){background:#f1f5f8}h2{margin-top:35px}a{color:#086a9c}.note{padding:16px;background:#fff2d1}.scroll{overflow:auto}td{overflow-wrap:anywhere}@media print{tr{break-inside:avoid}thead{display:table-header}}'
+body='<!doctype html><html lang="ro"><meta charset="utf-8"><title>2026.10.14 STURM — identificatori și dovada contractului</title><style>'+css+'</style><main><h1>STURM — numere, date și existența contractului</h1><p>Schallergasse 35 · 2026.10.14</p><p><strong>'+conclusion+'</strong></p><p>'+intro+'</p><h2>Ce fel de numere avem</h2>'+table(['Categorie','Etichetă originală','Rezultat'],gloss)
+body+='<h2>Instalațiile și datele furnizării</h2><p class="note">La toate cele 21 de poziții, numărul contractului și data semnării sunt NEIDENTIFICATE. Datele de mai jos sunt Belieferungsbeginn / Belieferungsende — început și sfârșit de furnizare. Nu le prezentăm ca date de semnare sau ca dovadă că A&C a contractat în 2023. Lista indică aceeași denumire generică a partenerului: HI 1120, Schallergasse 35.</p>'
+body+='<p>'+link(src,'Lista STURM din 2026.06.16, pagina 1')+'</p><div class="scroll">'+table(['Top','Energie','Nr. client','Nr. instalație','Început furnizare','Sfârșit furnizare','Punct de consum','Contor','Sursă număr client'],[[html.escape(p[k]) for k in ['top','energie','nr_client','nr_instalatie','inceput_furnizare','sfarsit_furnizare','punct_consum','contor']]+[link(p['sursa_client'],'Original') if p['sursa_client'] else 'Neconfirmat univoc'] for p in plants])+'</div>'
+body+='<h2>Dovezi despre ofertă și contract</h2>'+table(['Data','Document','Ce stabilește','Sursă'],[[*r[:3],link(r[3],'Deschide')] for r in proof])
+body+='<h2>Exemplu concret: Top 5 gaz</h2><p>Factura 29721/10/2026 din 2026.05.18 indică: client 42018142, instalație 4000112572, perioadă facturată 2025.06.11–2026.04.08, scadență 2026.06.02, referință de plată 400012438711. Destinatarul este „HI 1120, Schallergasse 35, p.a. A&amp;C Wohnart Immobilien GmbH”. Niciunul dintre acești identificatori nu este etichetat număr de contract. Prezența A&amp;C în adresare nu înlocuiește dovada acceptării sau preluării contractului.</p><h2>Documentele verificate: identificatori și date găsite</h2><p>Datele de mai jos pot fi date de factură, perioadă, scadență sau plată; inventarul nu le atribuie automat unui contract. Numerele facturilor sunt păstrate în forma originală.</p>'+table(['Original','Clienți','Instalații','Facturi','Date în document'],[[link(d['cale'],Path(d['cale']).name),', '.join(d['nr_client']),', '.join(d['nr_instalatie']),', '.join(d['facturi']),', '.join(d['date_documentare_lizibile'])] for d in docs])
+body+='<h2>Ce lipsește pentru o dovadă contractuală A&amp;C</h2><p>Contractul individual integral și numărul său, titularul juridic exact, data și modalitatea acceptării, semnătura/mandatul reprezentantului ori confirmarea electronică și, dacă se invocă preluarea, documentul sau temeiul concret al transferului. Lipsa unui exemplar semnat nu stabilește singură că orice obligație este exclusă.</p><h2>Limitele verificării</h2><p>'+html.escape(out['limite'])+' Căsuțele nesearchable și eventualele documente necomunicate nu pot fi verificate. Nu s-a trimis nicio cerere și nu s-a recunoscut nicio datorie.</p><p>Corecție OCR verificată vizual: documentul 20260526163714572.pdf are client 42017328; cifra 3 fusese citită 8. Pentru instalațiile 4000108056 și 4000108029, lista confirmă furnizarea și datele, dar nu atribuim un număr de client fără o sursă univocă.</p></main></html>'
+report=O/'2026.10.14 Tabel identificatori si dovada contract STURM.html';report.write_text(body,'utf-8')
+text=conclusion+'\n\n'+intro+'\n\n'+'\n'.join(' | '.join(x) for x in gloss)+'\n\nINSTALATII — numar contract si data semnarii neidentificate la toate pozitiile\n'+'\n'.join(' | '.join(p[k] for k in ['top','energie','nr_client','nr_instalatie','inceput_furnizare','sfarsit_furnizare','punct_consum','contor']) for p in plants)+'\n\nDOVEZI\n'+'\n'.join(' | '.join(x) for x in proof)
+(O/'2026.10.14 Concluzie verificare contract STURM.txt').write_text(text,'utf-8')
+entry='2026.10.14 — STURM: identificatori și dovada contractului\nStatus scurt: Niciun număr de contract sau exemplar individual semnat/acceptat de A&C identificat. Două Kundennummer (42017328,42018142), 21 Anlagennummer; începuturi de furnizare în 2023, nu date de semnare. Partener în lista STURM: HI 1120, Schallergasse 35; identitatea juridică nu este detaliată în listă.\nUltimul răspuns extern: 2026.10.13; verificarea de față extrage documentele existente. STURM 2026.06.01/17 confirmă rezilierea și lipsa răspunsului la oferta 2026.03.25. Formularul SEPA verificat este necompletat.\nUrmătorul pas: obținerea contractelor individuale și a dovezii acceptării/preluării ori temeiului facturării A&C; reconciliere distinctă. Nicio trimitere sau recunoaștere de datorie.\nSursă: '+report.relative_to(R).as_posix()+'; JSON cu identificatori, surse și hash; căutări EVA arhivate.\n\n'
+H=O/'Istoric';H.mkdir(exist_ok=True)
+for rel in ['2026.10.14 Status proiect.txt','2026.10.14 Log progres proiect.txt','08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.10.14 Log discutii - STURM ENERGIE.txt','folder map/README.md']:
+ p=R/rel;old=p.read_text('utf-8-sig');dest=H/(p.name if p.name.startswith('2026.') else '2026.10.14 '+p.name)
+ if not dest.exists():shutil.copy2(p,dest)
+ if entry not in old:p.write_text(('# ' if p.suffix=='.md' else '')+entry+'ISTORIC PĂSTRAT\n\n'+old,'utf-8')
+print(json.dumps({'pdf_distincte':len(docs),'instalatii':len(plants),'client_neconfirmat':[p['nr_instalatie'] for p in plants if not p['sursa_client']],'report':str(report)},ensure_ascii=False))

@@ -112,8 +112,1394 @@
     "sha256": "802270b44faef11849504a64281e3cf1230bb980b38c732351f33be1f324abb1"
   },
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 BERGER R09 original\\2026.10.13 original-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 original-2--203c1ec3.png",
+    "bytes": 203122,
+    "sha256": "c3b4a7fc532790204c988b80e22fd4fa5cc821ecbb7ebab2a5157a7a42ff178d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 BERGER R09 original\\2026.10.13 original-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 original-3--cd215af2.png",
+    "bytes": 238018,
+    "sha256": "bf48ccef85235a4ddc75bce743fc0253cef46161a0cc8b4cbe849039b97a0786"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-09--b4aef7ae.png",
+    "bytes": 186335,
+    "sha256": "b8f62b661f72741067b6f85e323c353ceb070003fe02ecccc6f953a6b750f986"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-16--59cffa93.png",
+    "bytes": 188143,
+    "sha256": "075144c9d059a1b095e8d584fbb2f5fef2f48f8798ad16137bada36c642281ae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-17--75de7bff.png",
+    "bytes": 182382,
+    "sha256": "40b8206e154caad32c80769a0da5d5c8c2cbbd0ba34bbe3eed289e6abb5b0906"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-18--05889150.png",
+    "bytes": 177869,
+    "sha256": "e7260856eda14270e81edbdaddd9c7e2a732f77a146857a026f47c01e6ed0190"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-19--cb056a65.png",
+    "bytes": 190787,
+    "sha256": "16f082ba5ddfb9527ff8e8e1e258cbb0b3043461f16d31a18d61289757cdbf95"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-20--d4278151.png",
+    "bytes": 181053,
+    "sha256": "02b5b30e0d7e2db4927b050b1829d5dd802b8bd0c7681a14b0d5158ca01746c4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-21--c2a9ed39.png",
+    "bytes": 158688,
+    "sha256": "b75c40c0367e510514f9cefcb6dc3dcd62c291a743fa0ae6fcf375c2c6cc5a73"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-22--78609a8e.png",
+    "bytes": 188742,
+    "sha256": "b8fc2e45267ac197721cc79e0024adec9d48c6239814d0209f11f4a57f26648a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-23--99b21f9f.png",
+    "bytes": 142732,
+    "sha256": "01b6dbc8c3a35ebb54f3b169c9b2b2c1f221a619cc054e9fbd147f1ae615e7ec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-24--5074aa3a.png",
+    "bytes": 165358,
+    "sha256": "2e480c96e72b6d96b62ba9f8d55bf2eb89f2b7ab8bb87d18c7d818c0d4de8cec"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-25--3f1cf696.png",
+    "bytes": 121107,
+    "sha256": "a458853d60872acbf5cc33cfa4bec49b80a4ca631a544710cbc7628ecd412d13"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-26--d9b3ff54.png",
+    "bytes": 113081,
+    "sha256": "7154b8990934d257c949e4ccd0541d1ffd606906b1a9660b8b330dd23e826152"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-27--5e6d0976.png",
+    "bytes": 188713,
+    "sha256": "3c965bff03e475995d88ac042adaee10c5e4bcb5ea12c5579649a95244c34250"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-28.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-28--a6670582.png",
+    "bytes": 176379,
+    "sha256": "10afceceaa705c4ae333b2bd182fac08c327be7ab10a4a3cbf16da21a00b4e43"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-29.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-29--487d76ed.png",
+    "bytes": 147660,
+    "sha256": "5ba80073ffbf41e7b8b8fd3ed1b24f8b57d3a40c6d858f072ffeaf841e0471fb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-30.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-30--14770d38.png",
+    "bytes": 98065,
+    "sha256": "75cbd02ace695d203b852cab42f53ccd1b495d52430cf377ce24c11d3d7d9a62"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-31.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-31--cebe70d1.png",
+    "bytes": 153731,
+    "sha256": "f5c351e34d8fe06cab3522a630a531e2e28de10d22de57dccd4bd09e3c157beb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-32.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-32--c0ac526c.png",
+    "bytes": 157026,
+    "sha256": "5b87640f6fca8937444c7f8e268548d2ef209ff7d05f002105f93002209f6598"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-33.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-33--de96bd2e.png",
+    "bytes": 161584,
+    "sha256": "bde0319fffc80249a533c430b73a7bb06c71ffed254d2757002e7e1a3264169b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-34.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-34--98115440.png",
+    "bytes": 177499,
+    "sha256": "c5a75df5b8c0b9a59c8e036ddd0c7630a6c983ce191b24834ab46e011fbdfa1f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini finale\\page-35.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-35--0cfbfa2c.png",
+    "bytes": 64930,
+    "sha256": "e7d2f5d3f0420e1259a243c3689b2287118cb0153700e29d87a2785217a75e96"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-01--3a1a794a.png",
+    "bytes": 212096,
+    "sha256": "9c283d9b849a9c55ff170582b979e28e0550a965836ca50e5556872a1ea2a312"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-02--a638fc20.png",
+    "bytes": 205193,
+    "sha256": "9e13f65af68def2e15eba55f71b71d9ef8fb4e0fafd5c51b7e60c585536cef68"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-03--6779cc9b.png",
+    "bytes": 166877,
+    "sha256": "e67a91125f97ab4059b1c62bf7f5ed66bf26b2f1f6cb38a903941accf25c45df"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-04--c1860b9c.png",
+    "bytes": 197371,
+    "sha256": "2adb841ff6b9d0f5f73c59cb1886ef72bf67eb00435ee46852c019487a14c650"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-05--b6e197df.png",
+    "bytes": 193833,
+    "sha256": "aff1e025230901000edb95b84f75739ba73f384328af08057ecd50fcf5a95b11"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-06--a69204bd.png",
+    "bytes": 207962,
+    "sha256": "50a6aac1418f364e14fc29075787e2544bb5c7303b7f124baeaa61814c4078d6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-07--91f5481c.png",
+    "bytes": 207408,
+    "sha256": "1582f84d12fb0a43f9268f4bd4c590df9936593b1c119a4883c01a13b6f505d9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-08--c7fa01ce.png",
+    "bytes": 195592,
+    "sha256": "0647e43ab356ae513b21c76b6e8af81de106d61938901d0ec0724ab4ced0d509"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-09--f4c1268f.png",
+    "bytes": 181269,
+    "sha256": "e81ae1a69a7c779c07ec6c027b425f1fef6016e59d8c90da3aaf1a609af11491"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-10--0efefeea.png",
+    "bytes": 189791,
+    "sha256": "83f168809ae8a08e5b42c5a53ee783c707548bd4347283b275182183f1596b8b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-11--f3024eb0.png",
+    "bytes": 176748,
+    "sha256": "028645ad38874ac1e83f41eb509e7e94daede95af68b4168193f2be449d8b8d2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-12--1dc716aa.png",
+    "bytes": 202420,
+    "sha256": "92b6d21cdcfb61229fc39e472fdbb8a74ef48a159ab2c417af0330191e3325fb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-13--56121c16.png",
+    "bytes": 180646,
+    "sha256": "3fecfe8a4efe30476dd50d96f0e9b5e32b49644a3ae143818f6c9435b90d1864"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-14--3901637a.png",
+    "bytes": 205964,
+    "sha256": "d2a722cf540a1255eb414f59b7dac9d67edb0bf973d13c8de42041d16b99249d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 PECH R09 pagini\\page-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-15--eac4a827.png",
+    "bytes": 200412,
+    "sha256": "36b8e031a420093fcdbe882c3f00ad676da63708f404edf1bbbaf3876a33b565"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-01--ebc3c3bc.png",
+    "bytes": 264454,
+    "sha256": "4be9f84c23724c0821c229848192cde6948214844a524372f54830aaf5002110"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-02--13580b1e.png",
+    "bytes": 251747,
+    "sha256": "a603c262749346830ded46ed99e242ad1edc1e360b725913a84d30b7c2895688"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-03--ddbce3bd.png",
+    "bytes": 256805,
+    "sha256": "eb1906fd20f93a0a096f5bfc3645732f1b8ea1af253986ed3ac194b9f0c88476"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-04--f0859bd0.png",
+    "bytes": 239261,
+    "sha256": "9ab7cc254ea624839a0306414dbec35c37ec48a375c6cd591f9bb61cb334cf63"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-05--7ba77a6a.png",
+    "bytes": 256975,
+    "sha256": "332423f67612d184f76d671e145eb9150b0efcdd92f808e14cffe954ccd86856"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-06--9cf5625d.png",
+    "bytes": 245574,
+    "sha256": "631f4d3766ac01edb38e5d93ec72db05d708f440f4323b99a0b08f99614bcaa9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-07--f4e57cda.png",
+    "bytes": 253541,
+    "sha256": "a4d41403eaa1e2f3b7bf6a1cba9b44ba3b40ace350a036fede7cbb11471b66bc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-08--ce737e40.png",
+    "bytes": 264370,
+    "sha256": "523fe956d12db1dc67b79d573eee6a312aab2656f8a7589dff8531e5898b22b6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-09--0328dd93.png",
+    "bytes": 254389,
+    "sha256": "8fd544a459e35ec3bf40d3708ac51224d5950076f3fbb54f42d0a90050f178db"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-10--2126352e.png",
+    "bytes": 242217,
+    "sha256": "7670b4cb008e26499ab16609aa9dc2da9b82a6312594755de4300d517b8ed4b7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-11--f5d960b0.png",
+    "bytes": 270171,
+    "sha256": "273195eaa0b4b3b774fd0516c8c5af495bca7d59ffd9a7fa5f0bca05461a3fd2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-12--871f95a5.png",
+    "bytes": 252482,
+    "sha256": "cc0972c77f4efe4cd16c7e211964e4054d34dbcb62f5bf2b59ed161d4124a11f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-13--b701d0d2.png",
+    "bytes": 248347,
+    "sha256": "1ac910a67e1369a1655ba288b9e4f7d4696c7e1894f8d2c16f5a2cd03fd5e7e1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-14--e388412b.png",
+    "bytes": 241380,
+    "sha256": "154cfd2c2f46158f85410d84228e5e6fded7038d0fd182fa2cd60a62c0ef4927"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-15--ede33ae9.png",
+    "bytes": 228523,
+    "sha256": "3a26d9c0efa9c1417f4aeab99f6a2a8bd865d57aaa18455c4ced39073a2e30ba"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-16--ccb65aa5.png",
+    "bytes": 221282,
+    "sha256": "46ad1f04eaf920812a8f314c0b7b633f9e11fce946c641a6763bcf20912080e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-17--c78bd942.png",
+    "bytes": 249609,
+    "sha256": "ad43e29549de2bb9a55ec98f4e01eeb91b2d657c87a95d620e7a996be49d5848"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-18--a4fbed19.png",
+    "bytes": 256003,
+    "sha256": "366096791d72b97083d2c570791025a9758c0978398c125bcf32b631fe7f6a5d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-19--1fc05170.png",
+    "bytes": 218413,
+    "sha256": "92a934532b14157995292587cf603906d5dd31f033077ed6a9caa16df9707ccc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-20--b568fc7f.png",
+    "bytes": 209080,
+    "sha256": "9c55023b4197d5ddb7ae9f8b71cee57d46b05bfc1c829924e7a26e8161c95b15"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-21--25e6e3ef.png",
+    "bytes": 186102,
+    "sha256": "8a8f4ac81017fffdbb675ccdb685f0597e76822ba2eed2e68b54eb838c387a2c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-22--bf39b4cf.png",
+    "bytes": 204213,
+    "sha256": "019b599b5313cc87941319282a9e102d8b545cef26f576b1bb72d68768df4525"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-23--6b6f7944.png",
+    "bytes": 176692,
+    "sha256": "2f11d5fef2a6b1c5bfae5b7b2fc4eec756d6c2ee2dcfb1cfd63c055c9ea32ef3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-24--a3708601.png",
+    "bytes": 191538,
+    "sha256": "e042a782c854903f6e10296302c0ebdea06a6f21d94e8c2623d73fa3856c30e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-25--5582424c.png",
+    "bytes": 255540,
+    "sha256": "72139f3c9f7e4ba72955527fddbbb68a01d35d73e27b0349399a7264c96ad579"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-26--c1eb2570.png",
+    "bytes": 136003,
+    "sha256": "45da8f4f8bc4af9b6a9b5639734371734005ba77ea42fd40ad28b71857144f01"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-27--5d3141a0.png",
+    "bytes": 216907,
+    "sha256": "18c087681eef175ffa4067f424d430056f16663ed578040a4fdc021f6be99d39"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-28.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-28--93c5f1e6.png",
+    "bytes": 201436,
+    "sha256": "4786bf5c8b7fda6a64a11665974e865dd7aebc9c6c280701c0640cbfcf4f41a5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA BERGER R09\\page-29.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-29--1ed9ca94.png",
+    "bytes": 193981,
+    "sha256": "303a86e23d21af73a1b83304100b90ea590c8c47e0cd328be1efe3cf2a468eba"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-01--bc3f291a.png",
+    "bytes": 264258,
+    "sha256": "25564d3022e75dfe3a54d3cb1959e813f7c423458c781fbb0634eef892b4a29f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-02--19cf068f.png",
+    "bytes": 252248,
+    "sha256": "c25f7d3ed5c19b907d901c791ba60400221e483375b1c9824add7d26cd519b37"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-03--00089067.png",
+    "bytes": 251137,
+    "sha256": "d2b3f01b6e5205202f4b6e9be14c426726af77ffb13ed417dc47248f1599fb1c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-04--4fe6f5be.png",
+    "bytes": 252050,
+    "sha256": "0dfcc86a64505ac57a702ced468536aef330b73d5be5dd310099a021daff3b07"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-05--da2c0906.png",
+    "bytes": 247881,
+    "sha256": "99c124507840fab487b31636ffe38c38378180d96e3b14041df524b115e4fa1c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-06--035ee746.png",
+    "bytes": 252605,
+    "sha256": "a11f6247ab630d3469abfa7de23d3ed53121547e3a3955b6accb0790e649bb20"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-07--5acff543.png",
+    "bytes": 250858,
+    "sha256": "253c1e4ef6f94828ea8bbcc2b004e12ff7a486407215f11cd86a2543bf2d2853"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-08--c807d21e.png",
+    "bytes": 255176,
+    "sha256": "da3cddaab9e95ee27b9a893854c2a70dbd566873ed7232b2de905b889c19d2a0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-09--6df59345.png",
+    "bytes": 243300,
+    "sha256": "a0235bc1e98857b5347ba4dcf13e22f4c41548fd8d55e780635dbdc3b35e8381"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-10--cebdcdb9.png",
+    "bytes": 257419,
+    "sha256": "820e6f28d5f45948f448533668a9ea43bba38b88eabc45095b0a75ed5febf58d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-11--b17c547c.png",
+    "bytes": 275055,
+    "sha256": "79844ac194d29fef74b4ed5c0cce02e34e6a2b18088537c0d5c2ac983087caa9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-12--8bc0eaab.png",
+    "bytes": 249032,
+    "sha256": "f4761de4d3f2248ca938ddb6fb03be300a8a158e75b7d66660b71fba215e397a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-13--5a126efb.png",
+    "bytes": 234627,
+    "sha256": "3745b19f9621d3284266cea6570c6ced41b3f56c3b34e12113d2798a0ff1bf9d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-14--389efa51.png",
+    "bytes": 246298,
+    "sha256": "c4517efe9c6a6fd9e8320f83f30a446297c8fdbe899b966ca98c6da9ae72c708"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-15--04b6732b.png",
+    "bytes": 247318,
+    "sha256": "c9ae861ae854231cb199ab89e879a550380df6a16d309927fec2f87c151d6c1c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-16--7611eb1c.png",
+    "bytes": 250298,
+    "sha256": "27ecdfafa313eae4cb38add0291033f63626ad6f898114f2cd6c38ebfe6f99b5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-17--b40e9558.png",
+    "bytes": 250817,
+    "sha256": "9b1c8ea46be3686637774c4fb8a93aa2cae61347878a0e077e60422cbb841e6a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-18--46835420.png",
+    "bytes": 246415,
+    "sha256": "a47fc11e6924f103699e8b0565d2b6f60bc2e4d49a1813d199e03e299a94e7d8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-19--24ae3a56.png",
+    "bytes": 216886,
+    "sha256": "64d978c42bdd9ccf42b6694e20f516377fe3e5f5b4ed0cb2e610ef3bf14dcdb6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-20--bd41fa60.png",
+    "bytes": 221332,
+    "sha256": "a544442536252c4b15106154b1e8e8c5bcb6ab963fc9521740b173cb706e1f7c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-21--0d996809.png",
+    "bytes": 186277,
+    "sha256": "98f2a36d994640f05ce1c05aa214b2c7a34fcc0ff99d0a09c4eba04e6fb6e8bb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-22--6ebf76f1.png",
+    "bytes": 215824,
+    "sha256": "484e78d481204ff379002b61d6fe6224858eda851dee5721a123cad1c4a4c9d6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-23--fb5e125c.png",
+    "bytes": 162187,
+    "sha256": "8e77b557260cf463c7d3b3ffb324de0560e74aba73a85aedf03e557c117a08f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-24--95e925a9.png",
+    "bytes": 162479,
+    "sha256": "bc8d87b1ba09fe18431b3c76ca2ee57b425e543812d1da605e6090f769e83db5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-25--88865f32.png",
+    "bytes": 266952,
+    "sha256": "9078cb30a7302084e1664cbeda07526b3a7b495fc89325fb41a5891a81ab3467"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-26--d091d8db.png",
+    "bytes": 189361,
+    "sha256": "ef65c1fcfe243c64b6b8e175600c95808c8256a0229eb0b235cd3416e8ec256d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-27--85ce89a0.png",
+    "bytes": 189122,
+    "sha256": "45fbbbe7de237911717393e0c9c566317f2c4bf2c08718d67112ce6da41b7229"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-28.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-28--429a9e65.png",
+    "bytes": 126631,
+    "sha256": "34d5ef1d2cf9b3b2e9dfc20ed56802a5d967bf9646c6a0601b65346222ac7531"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-29.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-29--2232d16b.png",
+    "bytes": 216222,
+    "sha256": "9eb0f6d9757ac81d7b156694793f4a14e594d2d9f80609b88b98a203029c703d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-30.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-30--7d1d259d.png",
+    "bytes": 178630,
+    "sha256": "abb7f507105a9fb75b2fa23702b110ac551c0d34ed90aa19348585f1fb37ff64"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-31.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-31--bfee1b35.png",
+    "bytes": 207815,
+    "sha256": "9b62f5ecb26b88e6c6e7433e6cc02c45eafaf2b0a5c467929e835d51369ac379"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA R08 BERGER\\page-32.png",
+    "status": "copiat",
+    "saved_path": "fisiere/page-32--e8c9bf0a.png",
+    "bytes": 63187,
+    "sha256": "a3af640a35eabe4f23a987360cbd96168bcba1d0c245f4bbb50a6ca4a2327dce"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA asigurare BERGER\\2026.10.13 polita pagina 1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 polita pagina 1--77e04cd8.png",
+    "bytes": 338954,
+    "sha256": "d67154568ed8b9af8a3ca50cbcbb226b735cfda1d577c02fe189b639a7ba823b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA asigurare BERGER\\2026.10.13 polita pagina 18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 polita pagina 18--a5cdad7f.png",
+    "bytes": 306606,
+    "sha256": "ee08ec99bcf59a5ff9d5fbea3e1edc9bc2e2d9654be124fa4d9cac5338c1d4fc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA asigurare BERGER\\2026.10.13 polita pagina 19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 polita pagina 19--3f389be4.png",
+    "bytes": 349273,
+    "sha256": "426336d72a3800b1c2f2f647512bc8baab4a007d9d0ec67f74e805cf753850fd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA asigurare BERGER\\2026.10.13 polita pagina 3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 polita pagina 3--7613a45e.png",
+    "bytes": 170182,
+    "sha256": "897fd0c3842853973d6f031d89e365e150799058778afe1d8859a77ed65f4292"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-1--456872e2.png",
+    "bytes": 383482,
+    "sha256": "2714db245831bc597d5fb5eae6f24de88ee86f59d8de85762d4f12f6ec7d5438"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-10--2b0c7d25.png",
+    "bytes": 316513,
+    "sha256": "bfc320d0fad47e45657e3a18471c4dc61d7ca9d55fad62943045202a1db52d3f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-11--57ae86d5.png",
+    "bytes": 400422,
+    "sha256": "fa7047ac26383552c667407b2386a7c31080d3453e442e9582d303a86ac14fa2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-12--bcbc3a74.png",
+    "bytes": 410291,
+    "sha256": "58587dbc3de99f82b24bf71517a2ca7afa7fea51f04b7ea2d84b4bc485177a75"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-13--2969b6e0.png",
+    "bytes": 340644,
+    "sha256": "584ed85594bbd70b95be209ed539691ec7a3fc7a89422cb7ece3f1c8c34fff4f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-14--4978fee7.png",
+    "bytes": 290963,
+    "sha256": "683e9823e0883f7f0be58d2b67def7d4794ea00162ce7cdc0df4652cc3df6a68"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-15--524180a2.png",
+    "bytes": 312732,
+    "sha256": "338c92fcc5f6ab8c71a0f3332b29ebfcb0d5c00c0f5aa8c590f7f3d5857c56c8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-16--632f3436.png",
+    "bytes": 141460,
+    "sha256": "4fc713ed2ed7a6b4fc5a76fd0534d2684d6f3f5d7899083b34269d4055ab1aee"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-2--e3b42779.png",
+    "bytes": 409027,
+    "sha256": "18d4262012e91cc8b2cb99d843021610172fabcae6975ae224658fafab0a6fae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-3--36a10600.png",
+    "bytes": 400816,
+    "sha256": "13d0e3afa4f2845c36794ee825be78156814e0fe69b767b5006167fcfa288db8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-4--73e09be1.png",
+    "bytes": 419869,
+    "sha256": "9a3879dbc39132b9979be9670bb58aeaae554816d3d0d355dc055a09ff11927e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-5--d7144915.png",
+    "bytes": 445886,
+    "sha256": "a9555d4badec61b3c8ad77d228d3c916d889bc7b3c5335f848b9b03f960a9283"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-6--850b5a93.png",
+    "bytes": 416789,
+    "sha256": "f11cd7e66129fc02811fb762a3ea18bc05959289c8fcf3c0d0aeeea629519d1d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-7--ed594a98.png",
+    "bytes": 392442,
+    "sha256": "78dce23fc4bc24ba0664cd1ee51782eea82750ce43a4bfd53c506f7cae3106d0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-8--1326d4ab.png",
+    "bytes": 403327,
+    "sha256": "15c216a90e6b68aea60272b550290d0d2d9dae5017df44d59996d39777042d2c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte DE\\BERGER\\2026.10.13 page-9.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-9--b2742e3e.png",
+    "bytes": 365216,
+    "sha256": "8f2c2ae9479f49f80ea55759e856a65f91cc1baec50bdef7ad978b073e0c22d7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER final\\2026.10.13 BERGER R07-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-04--e7c057bf.png",
+    "bytes": 223281,
+    "sha256": "5d4ebb85aad5d2e06864402c3852b30b4f8bd30180672633946ce936685e380f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER final\\2026.10.13 BERGER R07-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-05--3d9da298.png",
+    "bytes": 266905,
+    "sha256": "007353d55c0c1e59464f199258e501d8acbe565134f639e16cff73e3392ea5f5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-01.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-01--3287eaab.png",
+    "bytes": 117632,
+    "sha256": "57e625a9fc163689cda8cac1a3db963329291ddaa0705cb57e9b040050429b9c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-02.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-02--71c69c9e.png",
+    "bytes": 236725,
+    "sha256": "fd6b46b52ec34d2efa7c4496bc95d6da95f533c3a3411281405dd6a7f99544ef"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-03.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-03--39e1ddc4.png",
+    "bytes": 269910,
+    "sha256": "ab6551daccfd9de1f601534d3329cd5695c3e841b55a9069961ab9e41f9a8f17"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-04.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-04--9325e00e.png",
+    "bytes": 237600,
+    "sha256": "32b3a40d603a2238d14c9c9ee9954207a2e7976ff23b6feaa230c483fb1437e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-05.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-05--189829d7.png",
+    "bytes": 259498,
+    "sha256": "cfe895fda48f030abfe1d83a85cba21d191a3bf8e79d365739d0bfb8b50a8f51"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-06.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-06--68ce0791.png",
+    "bytes": 256407,
+    "sha256": "79c0cae3a2f6054398a4208bb7944a7609dda9374a7dfaddd1be454a7a6ce649"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-07.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-07--d4e97c15.png",
+    "bytes": 238915,
+    "sha256": "560b4c778565e90bf848ebac45a941fe680ab7089677d6430d9cf27683102146"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-08.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-08--e931d57a.png",
+    "bytes": 233914,
+    "sha256": "56fc28e74031316df7c6fe808f10f42f8a4f3f9e83cf9a73474a457b27672056"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-09.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-09--5c2e3935.png",
+    "bytes": 271724,
+    "sha256": "477b409c0393bf907baa53859d490684a6966f892cf3dbb0c0b83ce43bfd98a4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-10--4d36d63d.png",
+    "bytes": 247039,
+    "sha256": "a684c6116d0aab6ab10293ce15dec1b0d6febf7682061619e9a11da3b6dc4c84"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-11--030f3af3.png",
+    "bytes": 255062,
+    "sha256": "f9fabfd9951267dcde9a7ce796be1aec2f84d1f679d39759a569a871ea38536b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-12--e8d2b627.png",
+    "bytes": 246489,
+    "sha256": "dab2f20e5c0c5c68b560555f5c9de511fd093f0dd616d6b8c216c5f91642fa55"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-13--ce0ce8c7.png",
+    "bytes": 255848,
+    "sha256": "ecbc10d627fd2eb5c02874c468931508deb10113f3342ab0b198ed96e0023e2a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-14--17683091.png",
+    "bytes": 247749,
+    "sha256": "a24649cd90e6a6caa01ad5451e8fb2975524a0c7506e5078f91ece054a09d3cf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-15--1badeaf8.png",
+    "bytes": 257740,
+    "sha256": "765b6f1cb44eb0397a451c7ebf9f73b81132c3d143b273d0f46b9a008fa1a85e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-16--19eee1d4.png",
+    "bytes": 250459,
+    "sha256": "11b1b834fc3ed2920f84418d31e8242b4433d163bf0108f572b7829873e11ce8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-17--2c2acccd.png",
+    "bytes": 248300,
+    "sha256": "3e492731fb8466b48b4632dce1201ff05da25341a7dd38b99be5fae72e2a52e3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-18--32d541aa.png",
+    "bytes": 232740,
+    "sha256": "4a768da10c43f9389bd87a56236e6e7382e23c6974c85e12f6017507619480aa"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-19--bf309ad9.png",
+    "bytes": 260584,
+    "sha256": "5eef629c468cddcee7795cf725cdf179106d0d47afff6646adb8df070fe403ac"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-20--a4228aed.png",
+    "bytes": 217220,
+    "sha256": "1a7b15a95e39cfdcf986bc135203b2a49e6b68d9cbbb9a4610292f0727f7a715"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-21--ec803bed.png",
+    "bytes": 233737,
+    "sha256": "646713fa4f6f52b47d8a9ce7df7745ca7131f21c4fa8f911d3c874e72f168330"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-22--ceb719f1.png",
+    "bytes": 183960,
+    "sha256": "4665980e6019c5fcb26f1be02836c692deff60bc0b1b3cf930c984e97c18c8bb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-23--a6689bbe.png",
+    "bytes": 222530,
+    "sha256": "f8802be8709d86002a066401b02023dff367d9b84f7ad9bd2a89f17567c5e2d2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-24.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-24--32e0dc48.png",
+    "bytes": 184810,
+    "sha256": "2227a1bd65d62e2ec30cc0320ca1d8bc791bd761b1db17f2366bfb1a30e1d7a3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-25.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-25--cd1aed3d.png",
+    "bytes": 160304,
+    "sha256": "e6a8923040cdd447b8deb6bab37be4b6bd11df8223e9c95e8edaef9d360c1d92"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-26.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-26--633b11da.png",
+    "bytes": 217887,
+    "sha256": "867394835d72b89b4787784cea9d3b31bc626c7bfbdf02d3f3584289d2a18f2b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-27.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-27--17df1f4c.png",
+    "bytes": 260352,
+    "sha256": "0d2fdbf2a3d88e254aa2856749a9283c26e6fa85ee0aeb109f4fcc3c68216c1f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-28.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-28--0ac28525.png",
+    "bytes": 180180,
+    "sha256": "2f0dd57d8afc70fe4bb9849dd9caa84901ccdcef177520658c6fc10ad2a28307"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-29.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-29--b237112a.png",
+    "bytes": 156856,
+    "sha256": "042096dbae7e28d4ff8e88c38c2e932c89d5051bca4539d70f94230b8907a4b9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-30.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-30--bbdb83cc.png",
+    "bytes": 154742,
+    "sha256": "dd62ed3840b99f2aa2928ec3b5adc7fddaeb98474c9b4c4d2590394fed02bad2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-31.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-31--4dcd2b2d.png",
+    "bytes": 219328,
+    "sha256": "dc25c3c4e1fce43f17a8a5772c6dad72cce9e0b5a16d9cca89b0727afcd74b2b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-32.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-32--c2617477.png",
+    "bytes": 194753,
+    "sha256": "be0b30991f5bf6ae37fa3543674828525fa46ca76e8dbe59c8c136c295711bd7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA contracte R07\\BERGER\\2026.10.13 BERGER R07-33.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 BERGER R07-33--26385beb.png",
+    "bytes": 171061,
+    "sha256": "fb5054d73bcc9e650632ddb15cd725b63cf7fcb82c9243ffabf10d6a3eb23aa2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic final\\2026.10.13 page-44.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-44--dd55dc49.png",
+    "bytes": 384760,
+    "sha256": "042b6cf659ed6e4387acb9a238c37e208642fc8064dfa40e6bb80c50b035ecbd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic final\\2026.10.13 page-45.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-45--5ea97fb4.png",
+    "bytes": 316125,
+    "sha256": "2fdf1aca34d40c22f845fa7503f7155d161e7d11b89fa0f3f95cc2a50ccb41d4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic final\\2026.10.13 page-46.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-46--2e1372ea.png",
+    "bytes": 215105,
+    "sha256": "f1a7e82ddcf45a95b3f0b4e44ef48e966cc47e8e971eb854b7f9ebbd5c3ad2c3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-1--a7c89c85.png",
+    "bytes": 270940,
+    "sha256": "3f5396ecbf0a05ec5582a643e7f5446e3ca6e82d6c5cb09c18f196078578251e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-10.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-10--712bfd8f.png",
+    "bytes": 394358,
+    "sha256": "ddd6df749b851d4939b84665f477ebe3b66753cbc5fa20b6ede6a9fbd10bd4e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-11.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-11--da5b7099.png",
+    "bytes": 421045,
+    "sha256": "ffa3d8c37bc26d5d31ea555643560065f6d3b304279245ff1f6c52f9c6cbd3c7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-12.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-12--9b2a08d9.png",
+    "bytes": 407982,
+    "sha256": "905678624bb535a563d519450fdd68f83950619674d8f7cef4f5aa83c020d04f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-13.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-13--673b0d03.png",
+    "bytes": 248313,
+    "sha256": "95244215847e33ea6bd3980f327e9dff85b0fd0d647e00d1e3e35e959db1615e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-14--78fe0cdb.png",
+    "bytes": 283355,
+    "sha256": "08398c6a779eb5d41c9daeb4225ad84ab9b32afa279d9937df730a090aa3c2f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-15--9b16e00f.png",
+    "bytes": 310498,
+    "sha256": "bce4423fb013a0a82b1f5c583449d49fbd82704b2db94d723f1c13d097cbaa36"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-16.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-16--dfead757.png",
+    "bytes": 269140,
+    "sha256": "0de4e3267a33a0bb0f1e1e1acf24da8a3fb79bd255222821df36af0f296fdb0f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-17--79875140.png",
+    "bytes": 250864,
+    "sha256": "0a9f6180b4bc928241f452d8dd83ced57b8b1e988c4f1d76d77d4b8b1b7cfe77"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-18.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-18--440aad97.png",
+    "bytes": 237455,
+    "sha256": "feb7464f70342ff3abcf45b940a1429c24fc9404f2cebdf3667c4df1393df60f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-19.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-19--eb09fa92.png",
+    "bytes": 218390,
+    "sha256": "58d6c1ac6a53e496deb3bc41771e0f8c11b903c31aeafa98433c08c713711a09"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-2--904c88aa.png",
+    "bytes": 349299,
+    "sha256": "52e92675042304402b184f1b132caff5ce507ffc6fbee2fb65830eaa9911d6bb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-20--9beb4e11.png",
+    "bytes": 226093,
+    "sha256": "c7655deb2133e2cf30629e19b94e0d4c311e3a01c67f6158ee5aa3a5aaa3e6fd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-21--189d6c17.png",
+    "bytes": 277663,
+    "sha256": "26db995f7ca916514298ac4c035c325a9ebd1f0bfed0016f506a582c600fc149"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-22.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-22--d923cc0e.png",
+    "bytes": 286937,
+    "sha256": "763a13309c88f554f9c9e7b2842be511acddd6027479fa582428111e24274158"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-23--8e36fc44.png",
+    "bytes": 187609,
+    "sha256": "0befd82d5e5143f582c1390a85a2ab7a4670100f3cb2aed7b2e624eb94ade264"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-3--725a0884.png",
+    "bytes": 348146,
+    "sha256": "a65774ba57fe2b9f23566718103eaa95f61ecfb49ac919a3379e9a5e9696da1e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-4--785dc1e3.png",
+    "bytes": 372643,
+    "sha256": "473eb6a95f5b26f710044ed3623fd8039bf70c00532ca2682f0a2035a2a9edee"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-5--390a2df9.png",
+    "bytes": 342831,
+    "sha256": "516bfd8854ddc722c9443f1ad37c6c9552acb72cf3bd1548c63f91c3e4df2eef"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-6.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-6--ac5797f5.png",
+    "bytes": 395215,
+    "sha256": "64cd4d6edf175bc8edca6e8263f10b399223168e191cd747025ff5a952cddbe3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-7.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-7--057f5709.png",
+    "bytes": 353295,
+    "sha256": "42c60132619dca7652b27db62bb98712f08b41b92fa6c3e051ef1e95a73ae69f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-8.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-8--0407e317.png",
+    "bytes": 345493,
+    "sha256": "b0ae1c1417c32707323efcdcf892ed120dffa00cd8036dc4ded7e44c7e60ac4e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\01\\01a0f6eb-c105-7760-973e-241d6f6be8c1\\2026.10.13 QA rapoarte\\Juridic\\2026.10.13 page-9.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 page-9--f6d687f4.png",
+    "bytes": 370955,
+    "sha256": "9abf9993cb0f10ad3a0f6c2cf3f05a692262caf884f8e977b03f952ac83636a4"
+  },
+  {
     "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
     "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Baza comuna negociere BERGER PECH\\2026.10.13 Addendum audit metadate matrice.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Addendum audit metadate matrice--4cad8e3d.txt",
+    "bytes": 1503,
+    "sha256": "8d2228c72fd558239624e0bded69df32b526e2cc175261ea97056bcae4af8f92"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Baza comuna negociere BERGER PECH\\2026.10.13 Audit critic matrice comuna negociere final.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Audit critic matrice comuna negociere final--ea2fd185.txt",
+    "bytes": 8240,
+    "sha256": "513892b90516fa5ae337746da7bb5802f00d6eb88de0476115e8c7d5c11c2142"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Baza comuna negociere BERGER PECH\\2026.10.13 R06 propuneri negociere\\2026.10.13 Build R06.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Build R06--de70ceb7.py",
+    "bytes": 42638,
+    "sha256": "0a566d7fb6fbbfe4cd693417f716d67bf8e9560a03e9bd8d9f605c0b35fc673a"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Baza comuna negociere BERGER PECH\\2026.10.13 R06 propuneri negociere\\2026.10.13 R06 Aenderungsplan DE.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 R06 Aenderungsplan DE--b35030fd.txt",
+    "bytes": 5427,
+    "sha256": "2be5fe5c76772b252c1e531d60340538d0785c9bd7fa16bba66df8a1f6ac957f"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Baza comuna negociere BERGER PECH\\2026.10.13 R06 propuneri negociere\\2026.10.13 R06 Kontrollregister.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 R06 Kontrollregister--b0575a01.py",
+    "bytes": 8015,
+    "sha256": "1e5c4f90181e903684da513554af0194a41f9c146727ad0805bf5033b30a1fb1"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Contracte R08 - intern\\2026.10.13 Audit transfer preambul R08.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Audit transfer preambul R08--05e0131b.txt",
+    "bytes": 2535,
+    "sha256": "f73333c657364cb89ac7e889f06e84227f8f99471634be9630d16da90a2db353"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Contracte R08 - intern\\2026.10.13 QA vizual BERGER R08.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 QA vizual BERGER R08--aa9c08ea.txt",
+    "bytes": 3397,
+    "sha256": "23bc4edb66886706030db5d1cde40a379522d741e36f2ac83932e4842693a454"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Propuneri contract R07 - intern\\2026.10.13 Audit fidelitate editoriala R07.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Audit fidelitate editoriala R07--290f5d0e.txt",
+    "bytes": 2808,
+    "sha256": "05cbe08e95703220c3d8abd735352f5d063cbb670925d5a2b0bd86dc70e97a22"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Propuneri contract R07 - intern\\2026.10.13 Inventar editorial R07 generator.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Inventar editorial R07 generator--95e9af46.py",
+    "bytes": 21932,
+    "sha256": "f28505550ce9bec9ba448bf34271d44cbed766140974b4e81dffa4bc0c12039b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Propuneri contract R07 - intern\\2026.10.13 QA vizual BERGER R07 initial.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 QA vizual BERGER R07 initial--482067f0.txt",
+    "bytes": 2358,
+    "sha256": "f929fbd8e5215334db77686c7f7c921fbefce1a901708dc85fcc578c5e544d37"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Propuneri contract R07 - intern\\2026.10.13 QA vizual BERGER R07.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 QA vizual BERGER R07--a5cff10a.txt",
+    "bytes": 3252,
+    "sha256": "5e05ec4d612e3744dfc42f9d3f22acdcbc61ea1ab009715a86a882d6a8f8e812"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Audit juridic R01.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Audit juridic R01--28f25a9d.txt",
+    "bytes": 7552,
+    "sha256": "18cc5daa86b3bedba59d6117a9dc7578fc329d80818dfcb63365fadbced02c7e"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Audit juridic final R02.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Audit juridic final R02--4103dafd.txt",
+    "bytes": 14246,
+    "sha256": "34e15159b7a6450c7543b2a3b294091ca4d947c22187311e40289a9d170861d0"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Audit juridic initial.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Audit juridic initial--fb0d5b8b.txt",
+    "bytes": 10614,
+    "sha256": "00e10c374c23bae9eb19e3ef52d5496d233f54d15a7945dadc8c22958c33b810"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Completare audit initial.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Completare audit initial--252b9904.txt",
+    "bytes": 4387,
+    "sha256": "50f61a4d86a56387cc628ab2708836c77a4637556fd5af770de1d3a4befb11c5"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Jurisprudenta suplimentara 1170b.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Jurisprudenta suplimentara 1170b--68297d57.txt",
+    "bytes": 1361,
+    "sha256": "99d5d8884a4d5a8fd3cbc88b054bf73c0c56d56ab05c5c5b2c31e61cd9bfc00d"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Obiectii negociere reformulate.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Obiectii negociere reformulate--61e3b03b.json",
+    "bytes": 128054,
+    "sha256": "13c996c46fadb2c523191565e2f487a4cde7a797a4ebc7ea74221cac9816d902"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Surse audit juridic independent.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Surse audit juridic independent--e9d0f03f.json",
+    "bytes": 8030,
+    "sha256": "b48a808ace20564a36a6f3cc6949436be6a36e32d79865d5fe8179a651bb103f"
   },
   {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\04. Firme + Executie\\2026.10.12 Comparatie servicii structura\\2026.10.12 Audit comparatie.txt",
@@ -163,5 +1549,17 @@
     "saved_path": "fisiere/2026.10.07 somatie originala p1--63b93d4b.png",
     "bytes": 268592,
     "sha256": "88e72f094b50bb588dd194a8586753f5908393cb598fa8eaad649c01c3ed2d73"
+  },
+  {
+    "source_reference": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P127/LWI40016468",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40018216",
+    "status": "referinta_externa_necopiata"
   }
 ]

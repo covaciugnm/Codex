@@ -99,3 +99,7 @@ Rulează verificatorul asupra unui director de salvare:
 
 Poți citi direct copia dezarhivată sau extrage toate volumele ZIP ale unui proiect. Verifică SHA-256 înainte de a folosi copia restaurată. Exportul este o arhivă portabilă pentru citire și recuperarea fișierelor; nu este un mecanism garantat de reimport în bara laterală Codex.
 
+
+## Istorice comprimate de aplicație
+
+Dacă fișierul JSONL indicat de baza Codex a fost comprimat în `.jsonl.zst`, exportul citește automat varianta comprimată, fără modificarea sursei. Biblioteca `zstandard` este instalată local în `.python-deps`. Pe alt calculator se poate pregăti cu `python -m pip install --target .python-deps zstandard==0.25.0`. Erorile de decomprimare opresc exportul; un istoric corupt nu este declarat salvat.

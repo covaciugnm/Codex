@@ -1,0 +1,24 @@
+2026.10.13 — Audit de fidelitate a aplicării editoriale R07
+
+Surse R07 verificate:
+BERGER: 2026.10.13 Werkvertrag BERGER R07.json
+SHA-256 f2d34a629243d1de36afe2c592a84c5948377ba36e35da8979a7d125bb9edda3
+PECH: 2026.10.13 Werkvertrag PECH R07.json
+SHA-256 c09bf5aaddabca023ac81bfe8d183931729481e3a32dd66c3b647b1a40a98c8b
+
+Inventarul aplicat: 2026.10.13 Inventar editorial R07.json
+SHA-256 e1bd3564e30cfc0ad020adc8e610b756997c136436220b898bfac8622addc06c
+83 de înlocuiri individuale, cu text R06 exact și pointer JSON.
+
+Metodă: am reconstruit exclusiv în memorie transformarea celor două R06 înghețate, aplicând cele 83 de înlocuiri cu verificarea strictă a textului anterior. Am comparat fiecare câmp randat și întregul corp/anexe cu R07 salvate de root. Nu am modificat contractele sau PDF-urile.
+
+Rezultate:
+1. Toate câmpurile randate coincid EXACT cu rezultatul inventarului: title, version, date, preamble, sections, annexes, signatures, presentation. Nu există alte schimbări operative.
+2. Fiecare contract păstrează 16 capitole, 96 de alineate principale și 6 anexe. Nu au fost șterse alineate și nu s-a schimbat numerotarea. Înlocuirea explicativelor comerciale păstrează prevederile de prioritate, calificare și confirmare actuală; prețurile, termenele, T0/B0, vizitele, plățile, garanțiile, răspunderea și încetarea nu au primit o modificare suplimentară.
+3. În câmpurile randate: zero rădăcină «verhand», zero «Anbieter», zero referință «für beide AN/Anbieter». Numele celeilalte firme nu apare. Cooperarea AG/AN, numărarea comună a funcțiilor PI/statică și istoricul tehnic al imobilului rămân în contextul lor propriu.
+4. Tabelele sunt exact transformate conform inventarului; valorile numerice nu au fost schimbate. Sumele pe rând și coloană, cele șapte repere, net + TVA = brut, retenție = 5 % net și plata = brut minus retenție sunt verificate și corecte.
+5. Metadatele nerandate au două schimbări suplimentare: sources este listă goală în R07, în locul dicționarului intern R06; financial_check nu este în R07 public. Acestea nu sunt clauze sau sume și nu sunt ascunse ca parte a celor 83 de înlocuiri. Proveniența și verificările numerice rămân în registrele interne. Nu pretind o identitate a întregului JSON limitată doar la cele 83 de câmpuri.
+
+Verdict: PASS pentru fidelitatea aplicării și prezentarea neutră a propriei propuneri A&C. Nu am identificat defecte de aplicare. Este propunere de contract, fără a presupune că a fost acceptată ori transmisă. Această notă nu substituie auditul juridic independent sau confirmarea efectivă a persoanelor, autorizărilor și datelor înainte de semnare.
+
+PDF/QA vizuală: nu sunt acoperite de această notă; vor fi verificate separat după export.

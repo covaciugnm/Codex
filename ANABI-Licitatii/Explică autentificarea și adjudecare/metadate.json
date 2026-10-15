@@ -1,0 +1,23 @@
+{
+  "id": "01a13581-22b2-7332-b0c0-c3741bc9211c",
+  "cwd": "\\\\?\\D:\\ANABI - Licitatii",
+  "created_at": 1791899017,
+  "updated_at": 1791899171,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Explică autentificarea și adjudecare",
+  "project_id": "5bad9d98-be40-4d1c-86ef-6d65a2e0d593",
+  "project": "ANABI-Licitatii",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 8086411,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 26,
+  "message_count": 6,
+  "content_sha256": "59791423cc7e349403ecfcebbd72e2f92656e395dcbbfbaaf16b773243a89c44",
+  "files_copied": 7,
+  "references_not_copied": 5
+}

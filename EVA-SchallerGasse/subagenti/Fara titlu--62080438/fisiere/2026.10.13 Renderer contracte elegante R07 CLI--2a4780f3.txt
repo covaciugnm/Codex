@@ -1,0 +1,24 @@
+2026.10.13 - Renderer PDF R07: VERTRAGSVORSCHLAG
+
+SCRIPT
+2026.10.13 Renderer contracte elegante R07.py
+SHA-256: d09eae395b23a4837695968a9049f2a9cc487491b1404a97d31099b2ce6090b8.
+Runtime: C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe.
+
+DESIGN ȘI DIFERENȚA FAȚĂ DE R06
+Designul final R06 este păstrat: A4, margini 18 mm, Cambria 11/14, Calibri pentru repere, chenare fine 0,35 pt #CDD4DA, accent #243746, casete cu padding 9 pt, continuări numerotate, tabele cu titlu și antet repetate. Rămâne corecția de paginare cu caption în tabel/repeatRows=2 și lățimile calendarului [4.25, 8.25, 4].
+Doar etichetele adăugate de renderer devin VERTRAGSVORSCHLAG în copertă, antet și footer; PDF subject este Vertragsvorschlag, author este A&C Wohnart Immobilien GmbH. Nota informativă a copertei vorbește despre acest Vertragsvorschlag. Nu există etichete hardcodate VERHANDLUNGSENTWURF sau Verhandlungsentwurf în noul script.
+Titlul, versiunea, preambulul și toate textele operative rămân citite exact din JSON. Rendererul nu reformulează sursa, nu elimină mențiuni despre negociere sau alți ofertanți din textul autorului și nu fabrică R07 din R06. Root furnizează sursele R07 auditate, cu titlul WERKVERTRAG - VERTRAGSVORSCHLAG și versiunea proprie. presentation.cover rămâne opțional; valorile explicite ale autorului prevalează asupra extragerii prudente. Documentul afișează numai providerul și părțile sursei respective.
+
+CLI VALIDARE FĂRĂ PDF
+python.exe ".../2026.10.13 Renderer contracte elegante R07.py" --validate-only --source ".../2026.10.13 Werkvertrag BERGER R07.json" --source ".../2026.10.13 Werkvertrag PECH R07.json" --manifest ".../2026.10.13 Renderer R07 preflight surse R07.json"
+--validate-only este implicit. Dacă se folosește --manifest, calea trebuie să fie nouă. Validarea nu creează Canvas/PDF și nu modifică sursele. Schema rămâne provider/title/version/date/preamble/16 sections/6 annexes/signatures/sources și presentation.cover opțional. Sources nu sunt inserate în clauzele operative.
+
+CLI AUTORARE - NUMAI ROOT, DUPĂ MARKERUL SKILLULUI PDF
+node "C:/Users/User/.codex/plugins/cache/openai-primary-runtime/pdf/26.915.20218/skills/pdf/container_tools/mark_artifact_operation_started.mjs" --operation-kind create --expected-output-count 2 --output-format pdf
+python.exe ".../2026.10.13 Renderer contracte elegante R07.py" --render --source ".../2026.10.13 Werkvertrag BERGER R07.json" --output ".../2026.10.13 Werkvertrag BERGER R07.pdf" --source ".../2026.10.13 Werkvertrag PECH R07.json" --output ".../2026.10.13 Werkvertrag PECH R07.pdf" --manifest ".../2026.10.13 Export contracte elegante R07.json"
+--source și --output se repetă în aceeași ordine. Fișierele PDF și manifestul trebuie să aibă căi noi; scriptul refuză suprascrierea. Ofertele originale rămân copii separate, cu hash identic. Fiecare pagină finală se randează și inspectează ulterior; preflight nu înlocuiește QA vizuală.
+
+VALIDARE REALIZATĂ
+Au fost validate ambele surse R06 finale, numai pentru compatibilitatea schemei și metricile fonturilor: BERGER b2a5254c4806e4067eadd6d17613b815bcb5d7d85020f672cc32b1964a420d56 și PECH edf8d2831118f5137cb5e616df0a96172ff4aa3781617ded5291668bda84e101. Ambele PASS: 16 secțiuni, șase anexe, split de paragraf funcțional și surse nemodificate. Manifestul este «2026.10.13 Renderer R07 preflight surse R06.json» în VIS. Versiunea R06 din acel manifest este textul original al sursei de test, nu versiunea unui PDF R07 generat.
+Nu s-a generat niciun PDF R07 și nu s-a executat markerul de autorare. Rendererul R06 original a rămas neschimbat: SHA-256 c1fc584a3e39ae4dec086431bb7f2bcafdc67aaeeb0aa6ef6457dbbeefa0227e.

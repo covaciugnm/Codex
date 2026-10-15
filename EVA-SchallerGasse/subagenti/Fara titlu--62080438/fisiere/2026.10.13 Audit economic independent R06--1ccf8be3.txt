@@ -1,0 +1,40 @@
+2026.10.13 — Audit independent al propunerii economice comune R06
+
+Sursă: 2026.10.13 Propunere economica comuna R06.json și TXT omolog.
+SHA-256 JSON controlat: 37fef92d28a852ecd2520c130d283e2d4a0dbbd61aa9882be0c0c16a1f62410d.
+Statut sursă: propunere AG NETRIMISĂ/NESEMNATĂ, nu ofertă acceptată și nu contract integrat.
+
+Rezultat: PASS numeric. 632 de verificări independente cu Decimal și rotunjire la cent, fără aritmetică float; 0 erori. Scriptul și rezultatul reproductibil sunt în 2026.10.13 Audit numeric independent R06.py/.json. Acest aviz nu certifică prestarea reală ori acceptarea economică și nu este QA al unui PDF.
+
+1. Cele șapte repere și calculele
+Procentele 10/20/25/15/10/10/10 însumează 100% și sunt aceleași pentru ambii.
+BERGER: 4.500 / 9.000 / 11.250 / 6.750 / 4.500 / 4.500 / 4.500 EUR net, total 45.000 EUR; TVA 9.000; brut 54.000; retenție 2.250; plata brută după retenție 51.750 EUR.
+PECH: 6.930 / 13.860 / 17.325 / 10.395 / 6.930 / 6.930 / 6.930 EUR net, total 69.300 EUR; TVA 13.860; brut 83.160; retenție 3.465; plata brută după retenție 79.695 EUR.
+În toate ratele, TVA 20% se calculează pe netul înainte de retenție; retenția este 5% din net, nu din brut și nu reducere de preț. Sumele nete după retenție, plățile brute și afișările germane corespund exact. Verificarea este aritmetica modelului cu TVA oferită de 20%; tratamentul fiscal al facturilor efective rămâne cel aplicabil la facturare.
+
+2. Reconcilierea pozițiilor originale
+BERGER: coloanele însumează exact 13.000 calcul, 20.000 planuri, 2.000 asistență, 10.000 PI = 45.000 EUR net. Toate cele șapte rânduri corespund ratei globale respective.
+PECH: coloanele însumează exact 42.000 / 6.000 / 5.000 / 800 / 14.000 / 1.500 = 69.300 EUR net. Toate rândurile corespund ratei globale respective. Alocarea nu introduce poziție ori preț BWB nou și nu transformă coloanele istorice în excluderi de scop.
+
+3. PI efectiv versus predarea planului
+E1 nu conține o parte PI. La E2–E4, BERGER are 500/1.000/1.500 EUR PI, total 3.000; PECH are 406,67/813,33/1.220 EUR, total 2.440. Cumulul PECH respectă împărțirea 1:2:3 cu rotunjire cumulativă; nu este un tarif original de PI.
+Sursa numește rapoartele: E2 Beschau-/Haltepunkteplan și evaluarea documentată a bazelor; E3 raport PI distinct asupra predimensionării/bazelor/concordanței; E4 verificarea PI documentată a planurilor etapei. Textul cere raportul efectiv al persoanei eligibile în funcția PI, nu doar propriul plan ori QC intern. Dacă raportul lipsește, partea PI nu este exigibilă; partea separabilă de proiectare efectiv livrată poate fi facturată. Modelul nu introduce, prin textul său, un avans PI pentru simpla numire sau rezervare.
+Alocarea convenită nu dovedește singură că raportul este prestat ori că valorează suma; acestea necesită acceptare economică și probă efectivă. Condiția trebuie păstrată în R06, anexele și documentele de facturare, nu numai în nota de calcul.
+
+4. E6 și terenul PECH de 800 EUR
+BERGER E6: 2.000 asistență + 2.500 PI = 4.500 EUR; facturare progresivă pentru prestația efectivă.
+PECH E6: 800 pentru Untergrund + 6.130 pentru vizite/PI = 6.930 EUR. Cei 800 apar o singură dată în întreaga matrice, numai după Befund de teren complet. Prima vizită comună se numără o dată în cele 12; rezultatele profesionale pot fi distincte, fără o nouă taxă pentru aceeași deplasare.
+Exemplul proporțional este exact: BERGER cumul k × 4.500/12; PECH componenta vizitelor cumul k × 6.130/12, plus 800 numai când Befund este complet. La k=12 se ating exact 4.500 și 6.130 EUR. Nu sunt tarife pentru vizitele suplimentare. Dacă partea PI rămâne neprestată, partea sa convenită se amână. Alocarea celor 12 faze se confirmă înainte de semnare.
+
+5. E7 și Bauwerksbuch pentru existent înainte de final
+Bugetele E7 sunt 4.500 BERGER / 6.930 PECH. Prestația BWB pentru existent cu termen legal anterior nu este amânată până la sfârșitul proiectului. Plata sa separabilă este numai pentru partea completă și documentată, cu sumă A_BWB_E7 convenită în interiorul E7, nu în plus. Cuantumul rămâne câmp de negociere, deoarece nu există preț original separat; nu este inventat și nu se presupune că tot E7 ori Pos.06 PECH este cartea existentului. Soldul final se reduce cu orice sumă E7 facturată anterior. Actualizarea pentru intervențiile noi și restul dosarului rămân de livrat; nu apare o dublă factură sau plata integrală anticipată a finalului.
+
+6. Opțiunile 0–6
+BERGER cumulative net: 0 / 166,67 / 333,33 / 500 / 666,67 / 833,33 / 1.000 EUR. Se folosește raportul exact n × 2.000/12, apoi rotunjire cumulativă și scăderea facturilor anterioare; nu 6 × 166,67 = 1.000,02.
+PECH cumulative net: 0 / 450 / 900 / 1.350 / 1.800 / 2.250 / 2.700 EUR.
+La 6: supliment BERGER 1.000 net / 1.200 brut, total condiționat 46.000 net / 55.200 brut; PECH 2.700 net / 3.240 brut, total 72.000 net / 86.400 brut. Toate cele 28 de blocuri opțiuni/totaluri au TVA, retenție și afișări corecte la cent. Opțiunile necomandate nu se facturează; cele comandate și apoi împiedicate/anulate au decont legal analizat separat. Modelele cumulative sunt exemple; reconcilierea TVA și retenției în facturile efective trebuie să păstreze rotunjirea documentată, fără însumarea arbitrară a unor valori unitare aproximative.
+
+7. Limita de acceptare economică
+E1–E5 înseamnă 80%: 36.000 BERGER / 55.440 PECH. Diferențele față de alocările originale de calcul/proiectare de 33.000/53.000 sunt exact 3.000/2.440. Modelul este încărcat spre faza de proiectare; corectitudinea sumelor nu îl face echitabil sau acceptat prin ea însăși. Sursa spune explicit acest lucru și cere prestații efective, rapoarte PI distincte și validarea bilaterală. Nicio promisiune de acceptare a acestor valori nu rezultă din audit.
+
+Concluzie pentru integrarea ulterioară: numeric coerent și fără avans PI ori dublare a celor 800 EUR în textul controlat, cu condiția păstrării regulilor și probelor efective în R06. Confirmarea valorii economice a alocărilor și suma separabilă BWB sunt încă de convenit. Nu am modificat propunerea, R05, sursele sau PDF-urile și nu am generat un PDF.

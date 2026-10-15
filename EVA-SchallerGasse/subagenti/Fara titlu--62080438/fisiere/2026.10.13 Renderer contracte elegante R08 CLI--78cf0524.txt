@@ -1,0 +1,27 @@
+2026.10.13 - Renderer R08: numai contractul
+
+SCRIPT
+2026.10.13 Renderer contracte elegante R08.py
+SHA-256: a6ed3b76c3aa122b10a3133ad1a287dc0960c68560f3b4a1b73e56e27407e37e.
+Runtime: C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe.
+
+PREZENTARE
+Prima pagină începe cu WERKVERTRAG, Calibri Bold 22 pt / 26 pt, urmat de Wohnhaus Schallergasse 35, 1120 Wien, apoi direct § 1. Nu există copertă separată, rezumat al prețului, text introductiv despre propunere sau buclă pentru preambul. Antetul și footerul au WERKVERTRAG și prestatorul propriu; PDF Subject este WERKVERTRAG, Author A&C Wohnart Immobilien GmbH. Titlul metadatelor PDF este citit din sursa R08.
+Designul final rămâne A4, margini 18 mm, corp Cambria 11/14, repere Calibri, casete albe cu padding 9 pt, chenare 0,35 pt #CDD4DA, accent #243746. Fragmentarea casetelor cu referința repetată, titlul de capitol alături de primul alineat, titlul în tabel/repeatRows=2 și calendarul cu lățimi [4.25, 8.25, 4] sunt păstrate.
+Funcțiile pentru copertă și extragerea unui rezumat de copertă au fost eliminate. Nu există etichete hardcodate VERTRAGSVORSCHLAG sau Vorbemerkung în script. Sursele operative nu sunt reformulate. Manifestul inventorizează numai titlurile de capitol/anexă, alineatele, tabelele și semnăturile, conform conținutului randat.
+
+SCHEMA
+provider/title/version/date/preamble/sections/annexes/signatures/sources. Preambulul sursei R08 trebuie să fie []. Sunt cerute 16 capitole și șase anexe consecutive; alineatele și tabelele rămân intacte. Pentru export, scriptul refuză o sursă cu preamble nevid, ca să nu omită tacit un preambul dintr-o ediție neaprobată. Modul validate-only poate folosi R07 pentru controlul schemei/fonturilor, fără export. presentation, dacă există în sursă, nu produce o copertă ori rezumat de preț.
+
+CLI VALIDARE
+python.exe ".../2026.10.13 Renderer contracte elegante R08.py" --validate-only --source ".../2026.10.13 Werkvertrag BERGER R08.json" --source ".../2026.10.13 Werkvertrag PECH R08.json" --manifest ".../2026.10.13 Preflight renderer R08.json"
+--validate-only este implicit. Niciun PDF/Canvas nu este creat și sursele rămân read-only. Calea manifestului trebuie să fie nouă.
+
+CLI AUTORARE - ROOT DUPĂ MARKERUL PDF PENTRU CELE DOUĂ IEȘIRI NOI
+node "C:/Users/User/.codex/plugins/cache/openai-primary-runtime/pdf/26.915.20218/skills/pdf/container_tools/mark_artifact_operation_started.mjs" --operation-kind create --expected-output-count 2 --output-format pdf
+python.exe ".../2026.10.13 Renderer contracte elegante R08.py" --render --source ".../2026.10.13 Werkvertrag BERGER R08.json" --output ".../2026.10.13 Werkvertrag BERGER R08.pdf" --source ".../2026.10.13 Werkvertrag PECH R08.json" --output ".../2026.10.13 Werkvertrag PECH R08.pdf" --manifest ".../2026.10.13 Export contracte R08.json"
+Sursele și PDF-urile se asociază în ordinea argumentelor. Ieșirile și manifestul trebuie să fie noi; suprascrierea este refuzată. Copiile ofertelor originale se gestionează separat, fără rescriere. După export, fiecare pagină finală se inspectează și inventarul textului se confruntă cu PDF-ul.
+
+CONTROL REALIZAT FĂRĂ PDF
+Ambele surse R07 finale au trecut validate-only pentru compatibilitatea structurii/fonturilor și fragmentarea unui alineat lung. BERGER: f7fba9da1f4936ccbdedfceb19d47f8a4dc608c85cba8b670db701077af927f8. PECH: f94de0baea202d865914490f1854ad980dbd97fe2c4df26ebb0c930dbe0e81c9. Dovadă: 2026.10.13 Renderer R08 preflight surse R07.json în VIS.
+Nu s-au modificat R07 sau textele contractuale. Rendererul R07 rămâne cu hash d09eae395b23a4837695968a9049f2a9cc487491b1404a97d31099b2ce6090b8. Nu s-a executat markerul de autorare și nu s-a generat niciun PDF R08.

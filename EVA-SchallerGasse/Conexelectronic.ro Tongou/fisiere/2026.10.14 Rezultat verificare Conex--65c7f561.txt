@@ -1,0 +1,37 @@
+2026.10.14 — Verificare Conex Electronic / Tongou în EVA
+
+REZULTAT
+Da: oferta OFR000012370, ticket 187903, este datată 2026.10.07 și a fost transmisă la 2026.10.08, 13:11:27 Europe/Bucharest, de Laurentiu Udrea <contact@conexelectronic.ro> către office@cesiro.ro, CC covaciu.gnm@gmail.com.
+Email EVA: 989e6cb3-2af4-45cd-91b5-113a795f4ef1, căsuță covaciu.gnm@gmail.com, PRIMIT, etichetat SPAM. Originalul PDF a fost descărcat integral și verificat vizual.
+
+OFERTA OCTOMBRIE — Wi-Fi, nu Zigbee
+SKU 43067, disjunctor smart 2P 1–63 A Wi-Fi: 20 bucăți, 220,66 lei/buc fără TVA. 5 buc. marcate „Din stoc”; pentru celelalte 15, celula termenului este goală.
+SKU 43068, disjunctor smart 3P 1–63 A / 400 V Wi-Fi: 5 bucăți, 354,55 lei/buc fără TVA. 3 buc. marcate „Din stoc”; pentru celelalte 2, celula termenului este goală.
+Total document: 6.185,95 lei net + 1.299,05 lei TVA = 7.485,00 lei.
+Plată: OP AVANS. Valabilitate înscrisă: 7 zile. Stocul/prețul/valabilitatea necesită reconfirmare la comandă; acestea sunt datele ofertei istorice, nu verificare de stoc live la 2026.10.14.
+Cantitățile corespund cererii CESIRO din 2026.10.07 (20 buc. 2P + 5 buc. 3P, Zigbee sau Wi-Fi). Nu se confundă cu scenariul „Acasa” din Excel și nu se substituie automat modelelor RCBO propuse acolo.
+Termenul celor 17 bucăți fără mențiune nu este „90 zile”: acel termen apare doar în oferta veche din mai.
+
+ULTIMUL SCHIMB GĂSIT
+În mesajul 37e7c5c7-cf34-4664-8db4-a556e2a683ca, primit la 2026.10.09, office@cesiro.ro răspunde către Conex, CC covaciu.gnm@gmail.com, că directorul mai studiază și alte modele și că vor reveni, probabil luni. Este citată solicitarea de feedback Conex din 2026.10.09. Nu reprezintă acceptarea ofertei sau comandă.
+
+OFERTĂ MAI VECHE
+OFR000011675, datată 2026.05.22, transmisă 2026.05.25 de același expeditor către covaciu.gnm@gmail.com; copie în covaciu.gnm@eva-org.com, etichetată SPAM.
+4 × SKU 43081, RCBO 4P Zigbee, 534,79 lei/buc net, din stoc la data ofertei.
+20 × SKU 43079, RCBO 2P Zigbee, 379,34 lei/buc net: 5 din stoc și 15 cu „ca. 90 de zile”.
+Total: 11.768,40 lei cu TVA. Istoric, nu ofertă actualizată.
+Email EVA: e24ffb88-faaa-4536-8d33-55d5fa55c3a4.
+
+ACOPERIRE ȘI LIMITĂ
+Au fost folosite căutări globale, fără account_id, în toate cele 17 căsuțe searchable=true expuse de conector: după expeditor „conex”, domeniu „conexelectronic.ro”, adresa exactă contact@conexelectronic.ro și „tongou”, plus căutarea documentelor.
+Căutarea obișnuită și cea cu category=spam nu au returnat cele două emailuri originale de ofertă. Acestea au fost identificate prin documente, apoi citite după ID. Prin urmare căutarea emailurilor nu dovedește exhaustivitatea folderului Spam.
+Lista căsuțelor și datele ultimei sincronizări sunt salvate în Surse EVA.json. Unele căsuțe au sincronizări vechi ori necunoscute.
+Dintre cele trei conturi EVA indicate:
+- covaciu.gnm@gmail.com: acces disponibil; oferta actuală identificată.
+- cesiro.horeca@gmail.com: apare permission=team, searchable=false; conectorul nu permite căutarea acestei căsuțe sau enumerarea conturilor din autentificarea sa separată.
+- office@eva-org.com: nu apare în lista căsuțelor accesibile; nu există selector de autentificare în instrumentele EVA disponibile.
+Nu se declară verificate integral cele trei autentificări EVA și toate conturile lor. Pentru a închide această limită este necesar accesul prin conexiunile EVA corespunzătoare sau furnizarea mesajelor originale din acele conturi.
+
+ARHIVARE
+4 mesaje TXT + JSON, 2 PDF-uri originale, manifest SHA-256 și auditul căutărilor salvate în acest dosar. Nu s-au trimis mesaje, modificat etichete, comandat ori plătit produse.
+

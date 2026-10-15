@@ -1,0 +1,28 @@
+2026.10.14 Registru documente necesare pentru DONAU 2044001194
+
+Stare: analiză și cerere locală pregătite. Cererea de mai jos nu a fost trimisă și nu a fost creată ca draft nou în Eva-Mail. Ciorna din 2026.10.07 rămâne un obiect separat, NETRIMIS. Solicitările externe trebuie urmărite după o trimitere dovedită.
+
+Documentele care există și au fost citite
+Polița curentă de 9 pagini; polița istorică de 89 pagini cu condiții și clauze; somația 2026.05.20 cu termen de o lună, ștampila Hofhans 2026.05.26 și retransmiterea Capra 2026.05.27; somația 2026.06.05 cu termen de două săptămâni; solicitările și răspunsurile din cronologia 2026.10.14; scrisoarea 2026.09.17 și decontul Commerz; actele de carte funciară și contractul de cumpărare. Nu cerem din nou aceste acte ca și cum nu ar exista. Cerem confirmarea aplicabilității și completarea lipsurilor.
+
+Nr | Document și deținător | De ce este necesar | Criteriu de răspuns complet
+1 | Cererea, oferta și acceptarea Ersatzvertrag 2026; DONAU/Seipt/Hofhans | Cine a stabilit 2036 și cu ce mandat | Toate versiunile, autor, dată, mandat, comunicare și eventualele diferențe evidențiate
+2 | Polița veche X712.261-2 și istoricul modificărilor; DONAU | Contract nou sau simplă reemitere; durata deja scursă | Succesiunea polițelor și actelor, fără salt la 2026
+3 | Cadrul 2900010498, anexele Seipt și convențiile individuale; DONAU/Seipt | Drept anual, separabilitate, derogări și costuri | Text integral aplicabil, cod/ediție, toate modificările și dovada includerii în contract
+4 | Dovada comunicării poliței/condițiilor/informării § 5c; DONAU | Termenul retragerii și opozabilitatea condițiilor | Destinatar, dată și conținut efectiv comunicat, nu numai listă de documente
+5 | Temeiul și relația somațiilor din 2026.05.20 și 2026.06.05; DONAU | Prima acordă o lună; a doua două săptămâni. Trebuie identificat actul invocat pe fiecare ramură | Explicație punctuală a efectului fiecărui act; dacă se invocă o derogare de la § 91, textul exact și dovada acceptării
+6 | Dovezile recepției somațiilor, mandatul Hofhans și orice somație suplimentară, inclusiv portal 2026.07.07; DONAU/Hofhans/Capra | Opozabilitatea actului din mai după transfer și data începutului termenului | Data cunoașterii transferului de către DONAU (§ 69 alin. 3), expediere, acces A&C, efectul retransmiterii 2026.05.27, mandat valabil, acord electronic și loguri; originalul actului suplimentar
+7 | Orice declarație de încetare DONAU și dovada recepției | Dacă primele continuă și dacă există fereastră de remediere | Text operativ, data, temeiul, efectul, nu doar avertizarea „putem înceta”
+8 | Contul poliței de la 2026.01.01, rate, încasări, credite, costuri și dobânzi; DONAU/Commerz | Sold actual și evitarea plății duble | Linii datate și perioade, justificări de sumă, alocare, taxe și calcul dobândă
+9 | Statut pe ramuri, datele pretinsei exonerări și condițiile reluării; DONAU | Decizia imediată de protecție | Răspuns expres pe incendiu/apă/furtună/chirie/răspundere, sumă și efectul temporal al plății
+10 | Temeiul 1000K, calcul și avantajul efectiv; DONAU | Contestarea costului de încetare | Bază net/brut, perioadă, rate procentuale, excepții, avantaje efective; dacă nu se cere acum, confirmare
+11 | Notificări § 70 și mandate în perioada transferului; Capra/vânzător/Hofhans/Seipt | Existența unei ieșiri deja exercitate | Text, data, autor și dovada ajungerii la DONAU
+12 | Creditori ipotecari notificați, vinculări și contractul de finanțare; DONAU/A&C/finanțator | § 106 și obligații de protecție continuă | Situație actuală, întinderea dreptului și acordul necesar, dacă există
+13 | Autorizație, descriere lucrări, confirmare instalator; A&C/proiectant/instalator | Reducerea cerută la 2026.07.14 | Acte tehnice actuale și dovada transmiterii; răspuns DONAU privind data și cuantumul efectului
+14 | Banca și dovada plăților efective; A&C | Reconciliere înainte de decizie | Extras actual, ordine acceptate, încasări confirmate; ordinul nu este tratat drept încasare
+
+Controlul răspunsului
+Nu se consideră complet un răspuns care repetă numai „2036”, retransmite somațiile fără identificarea actului invocat, a destinatarului relevant, a mandatului și a datei accesului sau trimite o sumă totală fără cont. Pentru fiecare poziție se notează: primit integral / primit parțial / nu există potrivit emitentului / refuzat cu motiv / fără răspuns. Lipsa actului în dosarul nostru nu dovedește inexistența lui. Dacă este invocată o excepție legală sau contractuală, se cer faptele care o activează și documentul aplicabil.
+
+Priorități
+Imediat: 5–9 și 14 pentru acoperire/sold; în paralel 1–4 și 11–12 pentru încetare; 13 pentru reducere și 10 pentru negocierea costului. Un termen nou propus de noi nu prelungește automat termenul Commerz 2026.10.12.

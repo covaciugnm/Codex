@@ -4,6 +4,10 @@
     "status": "stare_interna_aplicatie_exclusa"
   },
   {
+    "source_reference": "C:\\Users\\User\\.ssh\\codex_cesiroproduction_serghei_deploy",
+    "status": "configuratie_sau_credentiale_excluse"
+  },
+  {
     "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a13459-cc01-77b3-a892-11b6bbc1a24c\\\\F3565DB1-9E38-4593-B4DB-F12787601E4E\\\\1-Photo-1.jpg",
     "status": "stare_interna_aplicatie_exclusa"
   },
@@ -42,5 +46,49 @@
   {
     "source_reference": "https://docs.luxonis.com/software-v3/depthai/depthai-components/nodes/rgbd",
     "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software/depthai/examples/rgb_depth_aligned",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar.",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar./blob/15495b27039d83832264668d3d488108dfab8aa0/camera-devices/ros2_ws/src/oakd_pkg/src/oakd_camera_node.cpp#L128",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar./blob/15495b27039d83832264668d3d488108dfab8aa0/camera-devices/ros2_ws/src/oakd_pkg/src/oakd_camera_node.cpp#L266",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar./blob/15495b27039d83832264668d3d488108dfab8aa0/cont0-yolo/ros2_ws/src/yolo_pkg/yolo_pkg/dashboard.py#L175",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar./blob/15495b27039d83832264668d3d488108dfab8aa0/cont0-yolo/ros2_ws/src/yolo_pkg/yolo_pkg/yolo_node.py#L471",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar./blob/15495b27039d83832264668d3d488108dfab8aa0/cont3-web/app/db.py#L56",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar./blob/15495b27039d83832264668d3d488108dfab8aa0/cont3-web/app/main.py#L34",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar./blob/15495b27039d83832264668d3d488108dfab8aa0/cont4-slam/entrypoint.sh#L24",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/cesiroproduction/serghei_scutelnic_docker_task.tar./settings/keys",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "plugin://documents@openai-primary-runtime",
+    "status": "referinta_relativa_neconfirmata"
   }
 ]

@@ -1,0 +1,20 @@
+2026.10.13 - QA vizuală comună BERGER și PECH R04
+
+Metodă: inspecție individuală a fiecărui PNG prin view_image, detail original, pentru toate cele 46 de pagini, 23 BERGER și 23 PECH. Au fost folosite imaginile noi R04, nu imaginile R03 ori un contact sheet. Director: C:/Users/User/.codex/visualizations/2026/10/01/01a0f6eb-c105-7760-973e-241d6f6be8c1/2026.10.13 QA R04/
+
+BERGER
+PDF: 00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag BERGER R04.pdf
+SHA-256: 4b00a91078e33890faf417ca16da7286bfe2623f0cf4181cc0bf768d2d08650b
+Pagini inspectate: 1-23, toate individual.
+Rezultat: PASS vizual. Nu sunt pagini goale, text/cifre tăiate, suprapuneri, titluri sau antete izolate, câmpuri de semnare fragmentate ori caractere lipite. Numerotarea subsolurilor este 1-23.
+Verificări specifice: statutul proiectului și cele 18 luni sunt lizibile pe pagina 1; 12 vizite incluse și opțiunea celor 6 vizite sunt complete pe paginile 5-6; semnăturile sunt integral pe pagina 13. Anexa 3 are antet repetat corect pe pagina 17 și toate cele 12 rânduri de vizite. Anexa 4 este completă pe paginile 18-20, cu antete repetate și sumele originale, matricea alocărilor, tarifele și tabelul opțional integral lizibile. Pe pagina 20 tabelul opțiunilor arată 1.000,00 EUR net/1.200,00 EUR brut și totalul condiționat 46.000,00 EUR net/55.200,00 EUR brut, fără tăieri. Anexele 5 și 6 sunt lizibile și câmpurile sunt complete.
+
+PECH
+PDF: 00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag PECH R04.pdf
+SHA-256: 451b0e2d8011f7eaace3585abc561dcdd91fd0e5d6883995ec8a9a25e3cc128d
+Pagini inspectate: 1-23, toate individual.
+Rezultat: o observație editorială de remediat, restul PASS vizual.
+Constatare precisă: tabelul scurt «Kostenfall» din Anexa 4 are numai două rânduri de date, dar este împărțit între paginile 19 și 20. Pagina 19 conține antetul și rândul «Bis zu 6 Zusatzabnahmen»; pagina 20 conține numai antetul repetat și ultimul rând «Grundhonorar + alle 6 Optionen», restul paginii fiind gol. Nu există pierdere de text ori de cifre. Recomandare de aspect: păstrarea întregului tabel scurt pe aceeași pagină, de preferință pagina 20, prin keep_together/keep_with_next aplicat rândurilor. Nu este necesară modificarea conținutului sau a JSON-ului contractual.
+Verificări specifice: preambulul și statutul sunt lizibile pe pagina 1; vizitele și opțiunile de 450,00 EUR net/540,00 EUR brut sunt complete pe paginile 5-6; semnăturile sunt integral pe pagina 13. Calendarul și toate cele 12 vizite sunt complete pe paginile 16-17, cu antet repetat corect. Totalurile originale 69.300,00 EUR net/13.860,00 EUR TVA/83.160,00 EUR brut și ratele sunt integral lizibile pe paginile 18-19. Tarifele sunt complete pe pagina 19. Opțiunea maximă 2.700,00 EUR net/3.240,00 EUR brut și totalul condiționat 72.000,00 EUR net/86.400,00 EUR brut se văd integral în tabelul împărțit. Anexele 5 și 6 sunt complete și fără tăieri.
+
+Limite: această notă privește exclusiv layoutul și lizibilitatea versiunilor identificate prin hash. Auditul juridic și comercial este realizat separat. Nu confirmă acceptarea prestatorilor, semnături reale, o poliță actuală sau funcții deja preluate. Niciun document contractual nu a fost modificat prin această verificare.

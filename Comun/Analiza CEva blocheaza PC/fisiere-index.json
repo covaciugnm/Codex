@@ -1,0 +1,134 @@
+[
+  {
+    "source_reference": "C:\\Program Files (x86)\\Gigabyte\\EasyTuneEngineService\\EasyTuneEngineService.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Google\\Chrome Remote Desktop\\154.0.8037.40\\remoting_host.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Intel\\Driver and Support Assistant\\x86\\DSAService.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Intel\\Driver and Support Assistant\\x86\\DSAUpdateService.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files (x86)\\Tencent\\Weixin\\Weixin.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Autodesk\\AdODIS\\V1\\Setup\\AdskAccessServiceHost.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Autodesk\\Autodesk CER\\service\\cer_service.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Bulk Image Downloader\\BIDDropBox.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Google\\Drive File Stream\\131.0.2.0\\GoogleDriveFS.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\LogiOptionsPlus\\logioptionsplus_updater.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Malwarebytes",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\DNS\\rsDNSResolver.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\DNS\\rsDNSSvc.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\EPP\\rsEngineSvc.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\ReasonLabs\\VPN\\rsVPNSvc.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\RustDesk\\RustDesk.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\SafeNet\\Authentication\\SAC\\x64\\SACSRV.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\WindowsApps\\Claude_2.37337.1.0_x64__pzs8sxrjxfjjc\\app\\resources\\cowork-svc.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Program Files\\cFosSpeed\\spd.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MpDefenderCoreService.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Google\\GoogleUpdater\\157.0.8089.0\\updater.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Opera\\opera.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\eva-top6-mirror-20261008",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Windows\\SoftwareDistribution\\Download",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\Program Files\\TxGameAssistant\\AppMarket\\QMEmulatorService.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  }
+]

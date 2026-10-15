@@ -1,0 +1,81 @@
+﻿RAPORT DE VERIFICARE SI CORECTURI
+Dosar: Serghei
+Data verificarii: 13.10.2026
+
+Au fost analizate cele 10 documente active din folder si fotografia CI adaugata ulterior. Varianta veche a contractului nr. 6, arhivata anterior, nu a fost readusa in dosarul curent.
+
+DATE CONFIRMATE
+Fotografia CI confirma SCUTELNIC SERGHEI, CNP 5041009410150, CI seria AX nr. 968372, emisa de SPCLEP Zlatna la 05.06.2025, domiciliu sat Patrangeni (oras Zlatna), judetul Alba, nr. 18.
+Contractul nr. 18/09.10.2026 apartine ARIDE RIDE IT SRL. Contractul nr. 6/09.10.2026 apartine WILD MOTION SRL. Existenta celor doua numere nu reprezinta o eroare: angajatorii sunt diferiti.
+Functia din contracte si din extrasul REGES este PROGRAMATOR, COR 251202. Ambele contracte indica 4 ore/zi si salariul brut de 2163 lei. Ambele contracte: durata nedeterminata de la 12.10.2026, perioada de proba de 90 de zile calendaristice, conform ultimei confirmari explicite a utilizatorului. Program nr. 18: 12:00-16:00; nr. 6: 08:00-12:00.
+
+CORECTURI EFECTUATE IN 8 DOCUMENTE - VERSIUNI CURENTE V2/V3
+1. Anexa cu criteriile de evaluare, contractul nr. 18, pagina 2: VASILACHE DUMITRU -> SCUTELNIC SERGHEI; 09.12.2026 -> 09.10.2026, data confirmata explicit de utilizator. Corectate si doua greseli de redactare: str. Str. si Semantura.
+2. Informarea art. 17, contractul nr. 18: CONTABIL / COR 331302 -> PROGRAMATOR / COR 251202, potrivit contractului si extrasului REGES. La declaratia de luare la cunostinta: Vasilache Dumitru -> SCUTELNIC SERGHEI.
+3. Ambele contracte: data eliberarii CI 05.06.2026 -> 05.06.2025, conform fotografiei CI.
+4. Contractul nr. 18: numarul ONRC din corpul contractului completat J01/978/2017, conform antetului si anexelor; corectata dublarea literei din ssalariatul.
+5. Contractul nr. 6: numarul ONRC din corpul contractului completat J2025082656000, conform antetului, anexelor si actului de subventie. Numele reprezentantului completat Capota Nicolae-Ioan in corp si la semnare, conform anexelor si actului de subventie.
+6. Anexele privind protectia datelor, WILD MOTION, toate cele 3 pagini: CUI din antet RO47344051 -> RO52786696 si adresa NR.23 -> NR.26, conform corpului documentului, contractului si actului de subventie.
+7. Anexele privind protectia datelor, ambele firme: trimiterile eronate 2016/676 -> 2016/679. Corectate si greseli de redactare precum ALBA IULA -> ALBA IULIA, Deptul -> Dreptul si crearii se profiluri -> crearii de profiluri.
+8. Fisa de verificare WILD MOTION: Adverinta -> Adeverinta si Regulamentului inters -> Regulamentului intern. Datele si semnaturile ramase necompletate nu au fost inventate.
+9. Contractele v2: ajustata paginarea sectiunilor I, Q si S pentru a elimina suprapunerile de text observate la randarea formularului. Continutul acestor clauze a ramas neschimbat. Formatul XFA editabil a fost pastrat.
+
+10. Ultima revizie: contractele nr. 6 si nr. 18, sectiunile C si D, si ambele informari art. 17 au fost actualizate la durata nedeterminata de la 12.10.2026 si perioada de proba de 90 de zile calendaristice, conform cererii explicite. Cele patru fisiere sunt v3. Revizia inlocuieste deciziile anterioare privind durata si proba.
+
+CE NU ESTE INCA REZOLVAT
+A. REGES: extrasul existent pentru nr. 18 indica durata determinata pana la 12.01.2027. A fost arhivat ca depasit fata de revizia documentelor. Nu au fost efectuate operatiuni in REGES. Sunt necesare actualizarea inregistrarilor aplicabile si obtinerea unui extras nou. Pentru nr. 6 nu exista extras in dosar.
+B. Ambele informari art. 17 spun se vor presta ore suplimentare, desi norma este de 4 ore/zi. Contractul nr. 6 contine deja interdictia si exceptiile. In contractul nr. 18 lipseste clauza expresa din sectiunea G. Propunere supusa confirmarii: precizarea interdictiei orelor suplimentare, exceptand forta majora si lucrarile urgente pentru prevenirea accidentelor ori inlaturarea consecintelor acestora. Nu au fost modificate salariile sau sporurile prin aceasta verificare.
+C. Contractul nr. 18: data/datele platii salariului sunt necompletate la I.5. Informarea indica 05 avans si 20 lichidare. Aceste date trebuie confirmate de angajator, apoi completate in contract.
+E. Numerotarea anexelor: la contractul nr. 18 exista doua documente intitulate Anexa 1 (criteriile de evaluare si nota GDPR). Vechile denumiri ale fisierelor GDPR mentionau anexele 3 si 4, dar in continut sunt 1 si 2. Numerotarea corecta trebuie stabilita pe inventarul complet al anexelor; nu a fost presupusa.
+F. Fisele postului nu sunt in folder, desi sunt mentionate in ambele contracte. Pentru WILD MOTION nu exista in folder o anexa distincta cu criteriile de evaluare, desi contractul face trimitere la anexa 1. Nu se poate confirma completitudinea dosarelor doar din aceste fisiere.
+G. Date de contact diferite: ARIDE - telefon 0731307903 si email office@cesiro.com in contract, alte contacte in anexe; WILD - telefon 0726541145 in contract, 0731307903 in anexele GDPR si 0769982977 in actul de subventie; email necompletat in contract si viloci9980@bitonc.com in anexa. Diferentele trebuie confirmate; nu demonstreaza singure o eroare si nu au fost inlocuite arbitrar.
+H. In ambele note GDPR, alternativa vor fi/nu vor fi transmise catre o tara terta nu este selectata. Trebuie completata dupa situatia reala a firmei. Temeiurile si intinderea consimtamantului, precum si referintele la REVISAL/REGES, necesita verificarea procedurii reale de prelucrare a datelor.
+I. In fisa de verificare, alternativa am/nu am fost incadrat, adeverinta, datele, confirmarile si semnaturile sunt necompletate. In contracte exista si optiuni/puncte de formular neindividualizate (locul muncii, conditii ale perioadei de proba, formare, SSM etc.). Nu au fost completate pe baza unor presupuneri.
+J. In informari apare de doua ori numarul VII; este o neuniformitate de numerotare, fara schimbarea datelor de identificare. Nu au fost rescrise integral modelele.
+K. Actul aditional de subventie nu este un act aditional la contractul de munca al lui Serghei. Numele Capota Nicolae-Ioan si Kronberger Claudia-Andreea sunt ale reprezentantilor, nu nume gresite de salariat. In text apare Manager pentru postul 1, iar in tabele Administrator, cu acelasi COR 112036. Denumirea trebuie verificata cu planul aprobat. Sumele din tabele sunt aritmetic coerente; validarea lor fata de contractul de subventie si actul nr. 1 nu se poate face fara documentele respective.
+
+DOCUMENTE PASTRATE NEMODIFICATE
+- Extrasul salariat REGES nr. 18: continut pastrat nemodificat, fisier mutat in Arhiva deoarece reflecta vechea durata.
+- Actul aditional nr. 2 la contractul de subventie: verificat textual; nu au fost modificate numele reprezentantilor sau datele financiare.
+- Fotografia CI: pastrata nemodificata.
+
+VERIFICAREA V2
+Corecturile au fost recitite din fisierele rezultate. Paginile celor 8 PDF-uri corectate au fost randate si inspectate vizual. La contracte au fost comparate toate campurile XFA; durata nedeterminata si proba de 90 de zile calendaristice pentru ambele contracte au fost actualizate conform ultimei cereri explicite. Celelalte propuneri de clauze din sectiunea de aspecte nerezolvate nu au fost aplicate. Nu au fost adaugate semnaturi si nu s-au operat modificari in REGES. Originalele inlocuite sunt pastrate integral in Arhiva.
+
+SURSE PENTRU REFERINTELE VERIFICATE
+GDPR - Regulamentul (UE) 2016/679:
+https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=celex%3A32016R0679
+Codul muncii - art. 105 alin. (1) lit. c), referinta pentru propunerea privind timpul partial:
+https://legislatie.just.ro/Public/DetaliiDocument/128647
+
+FISIERE CORECTATE SI ORIGINALE ARHIVATE
+
+Original: 18 _ 5041009410150 _ SCUTELNIC SERGHEI _ Anexa 1 - Criterii de evaluare profesionala.pdf
+Versiune curenta: 18 _ 5041009410150 _ SCUTELNIC SERGHEI _ Anexa 1 - Criterii de evaluare profesionala _ v2.pdf
+
+Original: 18 _ 5041009410150 _ SCUTELNIC SERGHEI _ Contract individual de munca.pdf
+Versiune curenta: 18 _ 5041009410150 _ SCUTELNIC SERGHEI _ Contract individual de munca _ v3.pdf
+
+Original: 18 _ 5041009410150 _ SCUTELNIC SERGHEI _ Informare art. 17 Codul muncii.pdf
+Versiune curenta: 18 _ 5041009410150 _ SCUTELNIC SERGHEI _ Informare art. 17 Codul muncii _ v3.pdf
+
+Original: 18 _ 5041009410150 _ SCUTELNIC SERGHEI _ Informare si consimtamant protectia datelor personale.pdf
+Versiune curenta: 18 _ 5041009410150 _ SCUTELNIC SERGHEI _ Informare si consimtamant protectia datelor personale _ v2.pdf
+
+Original: 6 _ 5041009410150 _ SCUTELNIC SERGHEI _ Contract individual de munca.pdf
+Versiune curenta: 6 _ 5041009410150 _ SCUTELNIC SERGHEI _ Contract individual de munca _ v3.pdf
+
+Original: 6 _ 5041009410150 _ SCUTELNIC SERGHEI _ Fisa de verificare a conditiilor de incadrare.pdf
+Versiune curenta: 6 _ 5041009410150 _ SCUTELNIC SERGHEI _ Fisa de verificare a conditiilor de incadrare _ v2.pdf
+
+Original: 6 _ 5041009410150 _ SCUTELNIC SERGHEI _ Informare si consimtamant protectia datelor personale.pdf
+Versiune curenta: 6 _ 5041009410150 _ SCUTELNIC SERGHEI _ Informare si consimtamant protectia datelor personale _ v2.pdf
+
+Original: 6 _ 5041009410150 _ SCUTELNIC SERGHEI _ Informare art. 17 Codul muncii.pdf
+Versiune curenta: 6 _ 5041009410150 _ SCUTELNIC SERGHEI _ Informare art. 17 Codul muncii _ v3.pdf
+
+Ultima arhivare: cele patru versiuni v2 inlocuite, extrasul REGES depasit, raportul anterior si formularul de diferente anterior sunt pastrate in subfolderul Arhiva/Revizie_v3_nedeterminata_90_zile_proba.
+
+
+VERIFICAREA ULTIMEI REVIZII
+Toate cele 10 documente de lucru au fost revizuite pentru referinte la durata si proba. Doar contractele si informarile necesita schimbari de continut; celelalte anexe nu contin referinte contradictorii la durata sau proba. Cele 12 pagini ale celor patru PDF-uri v3 au fost randate si inspectate vizual. Pentru contracte s-a verificat ca doar sectiunile C si D au valori schimbate. Celelalte neconcordante descrise mai sus raman de clarificat.

@@ -1,0 +1,632 @@
+{
+  "mailboxes": {
+    "mailboxes": [
+      {
+        "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+        "email": "factura3@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-05-28T15:05:35.568110Z"
+      },
+      {
+        "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+        "email": "admin@nova-robotics.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-29T17:38:56.048744Z"
+      },
+      {
+        "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+        "email": "factura1@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+        "email": "cosmin@ig.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-09T23:30:10.009451Z"
+      },
+      {
+        "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+        "email": "cosmin.covaciu@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-14T10:44:13.673600Z"
+      },
+      {
+        "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+        "email": "cosmin.covaciu@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-14T10:50:42.756689Z"
+      },
+      {
+        "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+        "email": "covaciu.gnm@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-14T07:55:46.875841Z"
+      },
+      {
+        "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+        "email": "covaciu.gnm@eva-org.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-05T20:30:06.421684Z"
+      },
+      {
+        "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+        "email": "office@ac-wohnart.at",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-14T10:44:29.580424Z"
+      },
+      {
+        "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+        "email": "factura2@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-21T23:30:06.079888Z"
+      },
+      {
+        "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+        "email": "vaidae104@gmail.com",
+        "provider": "gmail",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-13T07:38:01.541547Z"
+      },
+      {
+        "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+        "email": "factura@ipec.ro",
+        "provider": "exchange",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-06-25T10:00:12.428091Z"
+      },
+      {
+        "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+        "email": "production@cesiro.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-09-16T20:30:20.790286Z"
+      },
+      {
+        "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+        "email": "cosmin.covaciu@cesiro.com",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-14T10:44:17.575829Z"
+      },
+      {
+        "id": "3af45560-d448-4125-97cd-f12519882779",
+        "email": "office@alba-vision.ro",
+        "provider": "imap",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-14T10:44:18.008345Z"
+      },
+      {
+        "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+        "email": "mariuscodewnk@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-10-14T10:44:18.512639Z"
+      },
+      {
+        "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+        "email": "link_covaciu@yahoo.com",
+        "provider": "yahoo",
+        "permission": "owner",
+        "searchable": true,
+        "is_active": true,
+        "last_sync": "2026-08-02T20:30:05.901517Z"
+      },
+      {
+        "id": "shared:cesiro.horeca@gmail.com",
+        "email": "cesiro.horeca@gmail.com",
+        "provider": "",
+        "permission": "team",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:dancorproiectsrl@gmail.com",
+        "email": "dancorproiectsrl@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearideit@gmail.com",
+        "email": "3dspacearideit@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      },
+      {
+        "id": "shared:3dspacearide@gmail.com",
+        "email": "3dspacearide@gmail.com",
+        "provider": "",
+        "permission": "shared",
+        "searchable": false,
+        "is_active": true,
+        "last_sync": null
+      }
+    ]
+  },
+  "emails": [
+    {
+      "id": "37e7c5c7-cf34-4664-8db4-a556e2a683ca",
+      "account_email": "covaciu.gnm@gmail.com",
+      "subject": "Fwd: Re: CESIRO SA TONGOU",
+      "from_name": "office@cesiro.ro",
+      "from_address": "office@cesiro.ro",
+      "to": [
+        "contact@conexelectronic.ro"
+      ],
+      "cc": [
+        "covaciu.gnm@gmail.com"
+      ],
+      "received_at": "2026-10-09T10:08:15Z",
+      "text": "\r\nBuna ziua,\r\n\r\nMi-a spus dl director ca vrea sa mai studieze putin si sa mai comande si \r\nalte modele..\r\nRevenim cu raspuns, cred ca pe luni.\r\n\r\nMultumim,\r\n\r\nO zi buna in continuare!\r\n\r\n-------- Original Message --------\r\nSubject: Re: CESIRO SA TONGOU\r\nDate: 2026-10-09 11:38\r\n From: Laurentiu Udrea <contact@conexelectronic.ro>\r\nTo: office@cesiro.ro\r\nCc: covaciu.gnm@gmail.com\r\n\r\nBuna ziua,\r\n\r\nCand aveti posibilitatea, va rog sa ma ajutati cu un feedback pentru\r\noferta primita.\r\nVa multumesc anticipat si va doresc o zi frumoasa!\r\n\r\nCu stima,\r\n\r\nLaurentiu Udrea\r\nSC CONEX ELECTRONIC SRL\r\n\r\nhttps://www.conexelectronic.roTelefon: +40787770844\r\n\r\n  On Thu, 8 Oct at 1:11 PM , Laurentiu Udrea <contact@conexelectronic.ro>\r\nwrote:\r\n\r\n> Buna ziua,\r\n> \r\n> Revin cu oferta solicitata in atasament, si astept raspunsul\r\n> dumneavoastra cand aveti posibilitatea.\r\n> O zi frumoasa va doresc!\r\n> \r\n> Cu stima,\r\n> Laurentiu Udrea\r\n> SC CONEX ELECTRONIC SRL\r\n> \r\n> https://www.conexelectronic.roTelefon: +40787770844\r\n> \r\n> On Wed, 7 Oct at 3:07 PM , Office <office@cesiro.ro> wrote:\r\n> \r\n>> Buna ziua,\r\n>> \r\n>> Avem nevoie de o oferta pentru aceste disjunctoare:\r\n>> \r\n>> 1.a Disjunctor smart 2P 1...63A cu power meter Zigbee TOQCB2 Tongou\r\n>> -\r\n>> *20 buc* (vezi ex:\r\n>> \r\n> \r\nhttps://www.emag.ro/disjunctor-smart-2p-1-63a-cu-power-meter-zigbee-toqcb2-tongou-toqcb2-jzt-2c63/pd/DYWDXY2BM/);\r\n>> 2.a Disjunctor smart 3P 1...63A cu power meter Zigbee TOQCB2 Tongou\r\n>> - *5\r\n>> buc* (vezi ex:\r\n>> \r\n> \r\nhttps://www.emag.ro/disjunctor-smart-3p-1-63a-cu-power-meter-zigbee-toqcb2-tongou-toqcb2-jzt-3c63/pd/DDZ8HY2BM/\r\n>> \r\n>> );\r\n>> \r\n>> sau\r\n>> \r\n>> 1.b Disjunctor smart 2P 1-63A cu contor Wi-Fi TOQCB2 Tongou - *20\r\n>> buc*\r\n>> (vezi ex:\r\n>> \r\n> \r\nhttps://www.emag.ro/disjunctor-smart-2p-1-63a-cu-contor-wi-fi-toqcb2-tongou-toqcb2-jwt-2c63/pd/D9MYNY2BM/\r\n>> \r\n>> );\r\n>> 2.b Disjunctor smart 3P 1...63A cu power-meter WIFI TOQCB2 Tongou -\r\n>> *5\r\n>> buc* (vezi ex:\r\n>> \r\n> \r\nhttps://www.emag.ro/disjunctor-smart-3p-1-63a-cu-power-meter-wifi-toqcb2-tongou-toqcb2-jwt-3c63/pd/DB80HY2BM/\r\n>> \r\n>> );\r\n>> \r\n>> Asteptam oferta dvoastra, cu produse in stoc, pret si tremen de\r\n>> livrarea\r\n>> - astazi, daca se poate...\r\n>> \r\n>> Multumim,\r\n>> \r\n>> O zi buna!\r\n  187903:1303981\r\n",
+      "truncated": false,
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX",
+        "1: To respond",
+        "Label_43884",
+        "99: Important"
+      ],
+      "category": "fyi",
+      "folder": "office@cesiro.ro",
+      "thread_id": "1a120228cfd4f732",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "8544eec7-690a-4f9d-96c5-37ac9a759070",
+      "account_email": "covaciu.gnm@gmail.com",
+      "subject": "Cerere oferta disjunctoare ZigBee TOQCB2 Tongou !!!",
+      "from_name": "office@cesiro.ro",
+      "from_address": "office@cesiro.ro",
+      "to": [
+        "contact@conexelectronic.ro"
+      ],
+      "cc": [
+        "covaciu.gnm@gmail.com"
+      ],
+      "received_at": "2026-10-07T12:07:21Z",
+      "text": "\r\nBuna ziua,\r\n\r\nAvem nevoie de o oferta pentru aceste disjunctoare:\r\n\r\n1.a Disjunctor smart 2P 1...63A cu power meter Zigbee TOQCB2 Tongou - \r\n*20 buc* (vezi ex: \r\nhttps://www.emag.ro/disjunctor-smart-2p-1-63a-cu-power-meter-zigbee-toqcb2-tongou-toqcb2-jzt-2c63/pd/DYWDXY2BM/);\r\n2.a Disjunctor smart 3P 1...63A cu power meter Zigbee TOQCB2 Tongou - *5 \r\nbuc* (vezi ex: \r\nhttps://www.emag.ro/disjunctor-smart-3p-1-63a-cu-power-meter-zigbee-toqcb2-tongou-toqcb2-jzt-3c63/pd/DDZ8HY2BM/ \r\n);\r\n\r\nsau\r\n\r\n1.b Disjunctor smart 2P 1-63A cu contor Wi-Fi TOQCB2 Tongou - *20 buc* \r\n(vezi ex: \r\nhttps://www.emag.ro/disjunctor-smart-2p-1-63a-cu-contor-wi-fi-toqcb2-tongou-toqcb2-jwt-2c63/pd/D9MYNY2BM/ \r\n);\r\n2.b Disjunctor smart 3P 1...63A cu power-meter WIFI TOQCB2 Tongou - *5 \r\nbuc* (vezi ex: \r\nhttps://www.emag.ro/disjunctor-smart-3p-1-63a-cu-power-meter-wifi-toqcb2-tongou-toqcb2-jwt-3c63/pd/DB80HY2BM/ \r\n);\r\n\r\nAsteptam oferta dvoastra, cu produse in stoc, pret si tremen de livrarea \r\n- astazi, daca se poate...\r\n\r\nMultumim,\r\n\r\n\r\nO zi buna!\r\n\r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX",
+        "3: Fyi",
+        "Label_43852"
+      ],
+      "category": "fyi",
+      "folder": "office@cesiro.ro",
+      "thread_id": "1a1175fa92bb35bb",
+      "is_read": false,
+      "is_sent": false,
+      "attachments": [],
+      "note": ""
+    },
+    {
+      "id": "989e6cb3-2af4-45cd-91b5-113a795f4ef1",
+      "account_email": "covaciu.gnm@gmail.com",
+      "subject": "Re: CESIRO SA TONGOU",
+      "from_name": "Laurentiu Udrea",
+      "from_address": "contact@conexelectronic.ro",
+      "to": [
+        "office@cesiro.ro"
+      ],
+      "cc": [
+        "covaciu.gnm@gmail.com"
+      ],
+      "received_at": "2026-10-08T10:11:27Z",
+      "text": "Buna ziua,       Revin cu oferta solicitata in atasament, si astept raspunsul dumneavoastra cand aveti posibilitatea. O zi frumoasa va doresc!            Cu stima,  Laurentiu Udrea  SC CONEX ELECTRONIC SRL   https://www.conexelectronic.ro Telefon: +40787770844    \r\n                           \r\n                            On\r\n                            Wed, 7 Oct at  3:07 PM\r\n                            ,  Office <office@cesiro.ro>  wrote:\r\n                           \r\n                           \r\n                               Buna ziua,  Avem nevoie de o oferta pentru aceste disjunctoare:  1.a Disjunctor smart 2P 1...63A cu power meter Zigbee TOQCB2 Tongou -  *20 buc* (vezi ex:  https://www.emag.ro/disjunctor-smart-2p-1-63a-cu-power-meter-zigbee-toqcb2-tongou-toqcb2-jzt-2c63/pd/DYWDXY2BM/); 2.a Disjunctor smart 3P 1...63A cu power meter Zigbee TOQCB2 Tongou - *5  buc* (vezi ex:  https://www.emag.ro/disjunctor-smart-3p-1-63a-cu-power-meter-zigbee-toqcb2-tongou-toqcb2-jzt-3c63/pd/DDZ8HY2BM/  );  sau  1.b Disjunctor smart 2P 1-63A cu contor Wi-Fi TOQCB2 Tongou - *20 buc*  (vezi ex:  https://www.emag.ro/disjunctor-smart-2p-1-63a-cu-contor-wi-fi-toqcb2-tongou-toqcb2-jwt-2c63/pd/D9MYNY2BM/  ); 2.b Disjunctor smart 3P 1...63A cu power-meter WIFI TOQCB2 Tongou - *5  buc* (vezi ex:  https://www.emag.ro/disjunctor-smart-3p-1-63a-cu-power-meter-wifi-toqcb2-tongou-toqcb2-jwt-3c63/pd/DB80HY2BM/  );  Asteptam oferta dvoastra, cu produse in stoc, pret si tremen de livrarea  - astazi, daca se poate...  Multumim,   O zi buna!\r\n\r\n\r\n\r\n\r\n\r\n",
+      "truncated": false,
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "SPAM"
+      ],
+      "category": "spam",
+      "folder": null,
+      "thread_id": "1a11aff37c4e087b",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [
+        {
+          "id": "4b633467-c8c8-47c6-b145-d9e341d1c8a7",
+          "name": "Oferta Conex Electronic.pdf",
+          "size": 899915,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 1698,
+          "page_count": null,
+          "text": "Termen de\nLivrareCod articolNr.\nCrt.Denumirea  produselor U.M.CantitatePreţul unitar\n(fără TVA)\n- lei -Valoare \n(fără TVA)\n- lei -Valoare\nTVA\n- lei -Furnizor:\nModalitate de plata:Conex Electronic S.R.L.\nCota TVA: 21%Nr. Ord. Reg. Com/An:J1991008557403\nC.U.I:RO3016800\nSediu central:Str. Maica Domnului, Nr.48\nCapital social:150000 Lei\nBanca:Banca BCR\nCont:RO75 RNCB 0297 1069 4804 0001\nCont Trez. SECTOR 2: RO28 TREZ 7025 069X XX00 2350\nE-mail:contact@conexelectronic.ro\nTelefon: 0787 770 844; 0744 651 665\nOP AVANS\n1 2 3 4 5 6 7 08Ticket Numar: 187903Oferta\nNr. OFR000012370\nData: 07-Oct-26\nValabilitate: 7 zile\nClient:\nCESIRO SA\nSucursala/Adresa de livrare: CESIRO SA\nStr. Mihai Viteazul nr. 96, Sighisoara, 545400\nNr. Ord. Reg. Com/An: J26/488/1995\nC.U.I: 1224995\nSediu central: Str. Mihai Viteazul nr. 96\nLocalitate: Sighisoara\nBanca: \nCont: \n \nContact: Cosmin Covaciu\nTelefon: 0722.239.664 / 0757.112.211\n1 DISJUNCTOR SMART 2P 1-63A WIFI TONGOU 5 220.66 1103.31 Buc 231.69 Din stoc 43067\n2 DISJUNCTOR SMART 3P 1...63A/400V WIFI TONGOU 3 354.55 1063.64 Buc 223.36 Din stoc 43068\n3 DISJUNCTOR SMART 3P 1...63A/400V WIFI TONGOU 2 354.55 709.09 Buc 148.91 43068\n4 DISJUNCTOR SMART 2P 1-63A WIFI TONGOU 15 220.66 3309.91 Buc 695.09 43067\nTotal din care:\n \n \naccize\nSemnătura de primire TOTAL DE PLATĂDate privind expediţia:\nNumele delegatului:\nCNP:\nC.I. seria, nr.:\nMijlocul de transport nr.:\nExpedierea s-a efectuat în prezenţa noastră la data si ora de: \n \nSemnaturile:\n1 /1Pag:Emis de:\nLaurentiu Udrea\n08.10.26 13:087485.006185.95GLS Valoare neta Valoare TVAObservatii: \n1299.05\nPentru informatii legate despre oferta primita, va rugam sa ne comunicati numarul ofertei, sau numarul ticket-ului.\n"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "e24ffb88-faaa-4536-8d33-55d5fa55c3a4",
+      "account_email": "covaciu.gnm@eva-org.com",
+      "subject": "Re: CESIRO SA",
+      "from_name": "Laurentiu Udrea",
+      "from_address": "contact@conexelectronic.ro",
+      "to": [
+        "covaciu.gnm@gmail.com"
+      ],
+      "cc": [],
+      "received_at": "2026-05-25T07:26:46Z",
+      "text": "Buna ziua,         Revin cu oferta solicitata in atasament, si astept raspunsul dumneavoastra cand aveti posibilitatea. O zi frumoasa va doresc!         Cu stima,  Laurentiu Udrea  SC CONEX ELECTRONIC SRL   https://www.conexelectronic.ro Telefon: +40787770844       Abonati-va la buletinul nostru informativ si veti fi la curent cu cele mai noi oferte!    \r\r\n                           \r\r\n                            On\r\r\n                            Fri, 22 May at  4:35 PM\r\r\n                            ,  Laurentiu Udrea <contact@conexelectronic.ro>  wrote:\r\r\n                           \r\r\n                           \r\r\n                             \r\r\n \r\r\n Buna ziua, \r\r\n   \r\r\n Am primit solicitarea Dvs. revin in cel mai scurt timp cu oferta corespunzatoare. \r\r\n \r\r\n  \r\r\n   \r\r\n Cu stima, \r\r\n Laurentiu Udrea \r\r\n SC CONEX ELECTRONIC SRL \r\r\n \r\r\n https://www.conexelectronic.ro Telefon: +40787770844   \r\r\n \r\r\n  \r\r\n Abonati-va la buletinul nostru informativ si veti fi la curent cu cele mai noi oferte! \r\r\n  \r\r\n \r\r\n                           \r\r\n                            On\r\r\n                            Fri, 22 May at  4:34 PM\r\r\n                            ,  CESIRO SA <covaciu.gnm@gmail.com>  wrote:\r\r\n                          \r\r\n \r\r\n                           \r\r\n                              [16:21, 5/22/2026] +40 757 112 211: Buna ziua [16:22, 5/22/2026] +40 757 112 211: V-am sunat mai devreme (mi-ati spus ca nu a intrat e-mailul de la noi) [16:22, 5/22/2026] +40 757 112 211: Va trimit aici ptr cele 2 tipurio de disjunctoare [16:22, 5/22/2026] +40 757 112 211: Daca ne puteti spune un cost total si un termen de livrare, va rog [16:22, 5/22/2026] Conex ELECTRONIC: Sigur [16:22, 5/22/2026] +40 757 112 211: 4 bucati   https://www.conexelectronic.ro/tongou/26927-disjunctor-smart-rcbo-4p-1-63a-30-500ma-cu-power-meter-zigbee-toqcb2l-tongou-5949203917843.html [16:22, 5/22/2026] +40 757 112 211: 20 bucati :  https://www.conexelectronic.ro/tongou/26925-disjunctor-smart-rcbo-2p-1-63a-30-500ma-cu-power-meter-zigbee-toqcb2l-tongou-5949203917829.html [16:22, 5/22/2026] Conex ELECTRONIC: va rog o adresa de e-mail, sa incerc sa va trimit eu [16:22, 5/22/2026] +40 757 112 211: acestea sunt [16:23, 5/22/2026] +40 757 112 211: office@cesiro.ro [16:23, 5/22/2026] +40 757 112 211: sau cesiro.horeca@gmail.com [16:23, 5/22/2026] +40 757 112 211: la fel, va las si pe a sefului meu [16:24, 5/22/2026] +40 757 112 211: covaciu.gnm@gmail.com [16:24, 5/22/2026] +40 757 112 211: trimiteti pe acesata, va rog [16:24, 5/22/2026] +40 757 112 211: puteti sa ytrimiteti si aici, vas rog [16:25, 5/22/2026] +40 757 112 211: si pa un alt nr al dansului, va rog, va las mai jos [16:25, 5/22/2026] Conex ELECTRONIC: Desigur [16:25, 5/22/2026] +40 757 112 211: +40 722 239 664 [16:25, 5/22/2026] +40 757 112 211: Cosmin Covaciu [16:28, 5/22/2026] Conex ELECTRONIC: CESIRO SA  Adresă: Str. Mihai Viteazu 96, 545400 Sighișoara\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n\r\r\n",
+      "truncated": false,
+      "labels": [
+        "SPAM",
+        "1: To respond"
+      ],
+      "category": "spam",
+      "folder": null,
+      "thread_id": "<6a13f9b5dc2a7_1ffac3adbc441120681.sidekiq-frequent-fd-poduseast1-main5-green-9f49895cf-dxs7q@email.freshdesk.com>",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [
+        {
+          "id": "4ce1e5ee-f6dc-4cb5-b60a-e264c01586b7",
+          "name": "Oferta Conex Electronic.pdf",
+          "size": 899303,
+          "content_type": "application/pdf",
+          "has_text": true,
+          "text_chars": 1649,
+          "page_count": null,
+          "text": "Termen de\nLivrareCod articolNr.\nCrt.Denumirea  produselor U.M.CantitatePreţul unitar\n(fără TVA)\n- lei -Valoare \n(fără TVA)\n- lei -Valoare\nTVA\n- lei -Furnizor:\nModalitate de plata:Conex Electronic S.R.L.\nCota TVA: 21%Nr. Ord. Reg. Com/An:J1991008557403\nC.U.I:RO3016800\nSediu central:Str. Maica Domnului, Nr.48\nCapital social:150000 Lei\nBanca:Banca BCR\nCont:RO75 RNCB 0297 1069 4804 0001\nCont Trez. SECTOR 2: RO28 TREZ 7025 069X XX00 2350\nE-mail:contact@conexelectronic.ro\nTelefon: 0787 770 844; 0744 651 665\nOP AVANS\n1 2 3 4 5 6 7 08Ticket Numar: 122877Oferta\nNr. OFR000011675\nData: 22-May-26\nValabilitate: 7 zile\nClient:\nCESIRO SA\nSucursala/Adresa de livrare: CESIRO SA\nStr. Mihai Viteazul nr. 96, Sighisoara, 545400\nNr. Ord. Reg. Com/An: J26/488/1995\nC.U.I: 1224995\nSediu central: Str. Mihai Viteazul nr. 96\nLocalitate: Sighisoara\nBanca: \nCont: \n \nContact: Cosmin Covaciu\nTelefon: 0722.239.664 / 0757.112.211\n1 DISJUNCTOR RCBO SMART 4P 1-63A ZIGBEE TONGOU 4 534.79 2139.17 Buc 449.23 Din stoc 43081\n2 DISJUNCTOR RCBO SMART 2P 1-63A ZIGBEE TONGOU 5 379.34 1896.69 Buc 398.31 Din stoc 43079\n3 DISJUNCTOR RCBO SMART 2P 1-63A ZIGBEE TONGOU 15 379.34 5690.09 Buc 1194.91 ca. 90 de zile 43079\nTotal din care:\n \n \naccize\nSemnătura de primire TOTAL DE PLATĂDate privind expediţia:\nNumele delegatului:\nCNP:\nC.I. seria, nr.:\nMijlocul de transport nr.:\nExpedierea s-a efectuat în prezenţa noastră la data si ora de: \n \nSemnaturile:\n1 /1Pag:Emis de:\nLaurentiu Udrea\n25.05.26 10:2511768.409725.95GLS Valoare neta Valoare TVAObservatii: \n2042.45\nPentru informatii legate despre oferta primita, va rugam sa ne comunicati numarul ofertei, sau numarul ticket-ului.\n"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "downloads": [
+    {
+      "id": "4b633467-c8c8-47c6-b145-d9e341d1c8a7",
+      "filename": "Oferta Conex Electronic.pdf",
+      "mime_type": "application/pdf",
+      "size": 899915,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNGI2MzM0NjctYzhjOC00N2M2LWIxNDUtZDllMzQxZDFjOGE3IiwiZSI6MTc5MTk3OTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.SVGqex73dEULaxXSSuUF_xVDVMLVHRiNl6mOXmiGVEU",
+      "expires_at": "2026-10-14T11:58:11Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    },
+    {
+      "id": "4ce1e5ee-f6dc-4cb5-b60a-e264c01586b7",
+      "filename": "Oferta Conex Electronic.pdf",
+      "mime_type": "application/pdf",
+      "size": 899303,
+      "storage": "database",
+      "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiNGNlMWU1ZWUtZjZkYy00Y2I1LWI2MGEtZTI2NGMwMTU4NmI3IiwiZSI6MTc5MTk3OTA5MSwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.Njc7ATc5D3_NEF_2c4kuf470Gzm5zos_Zdl_Fk4YxYg",
+      "expires_at": "2026-10-14T11:58:11Z",
+      "mode": "download",
+      "note": "Download the URL to retrieve the complete original file and attach it using your client's file tools."
+    }
+  ],
+  "searches": [
+    {
+      "args": {
+        "sender": "conex",
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "query": "conexelectronic.ro",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "37e7c5c7-cf34-4664-8db4-a556e2a683ca",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Fwd: Re: CESIRO SA TONGOU",
+            "from_name": "office@cesiro.ro",
+            "from_address": "office@cesiro.ro",
+            "to": [
+              "contact@conexelectronic.ro"
+            ],
+            "received_at": "2026-10-09T10:08:15Z",
+            "snippet": "Buna ziua, Mi-a spus dl director ca vrea sa mai studieze putin si sa mai comande si alte modele.. Revenim cu raspuns, cred ca pe luni. Multumim, O zi buna in continuare! -------- Original Message -----",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "1: To respond",
+              "Label_43884",
+              "99: Important"
+            ],
+            "folder": "office@cesiro.ro",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "query": "tongou",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "37e7c5c7-cf34-4664-8db4-a556e2a683ca",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Fwd: Re: CESIRO SA TONGOU",
+            "from_name": "office@cesiro.ro",
+            "from_address": "office@cesiro.ro",
+            "to": [
+              "contact@conexelectronic.ro"
+            ],
+            "received_at": "2026-10-09T10:08:15Z",
+            "snippet": "Buna ziua, Mi-a spus dl director ca vrea sa mai studieze putin si sa mai comande si alte modele.. Revenim cu raspuns, cred ca pe luni. Multumim, O zi buna in continuare! -------- Original Message -----",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "1: To respond",
+              "Label_43884",
+              "99: Important"
+            ],
+            "folder": "office@cesiro.ro",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "8544eec7-690a-4f9d-96c5-37ac9a759070",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Cerere oferta disjunctoare ZigBee TOQCB2 Tongou !!!",
+            "from_name": "office@cesiro.ro",
+            "from_address": "office@cesiro.ro",
+            "to": [
+              "contact@conexelectronic.ro"
+            ],
+            "received_at": "2026-10-07T12:07:21Z",
+            "snippet": "Buna ziua, Avem nevoie de o oferta pentru aceste disjunctoare: 1.a Disjunctor smart 2P 1...63A cu power meter Zigbee TOQCB2 Tongou - *20 buc* (vezi ex: https://www.emag.ro/disjunctor-smart-2p-1-63a-cu-",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "3: Fyi",
+              "Label_43852"
+            ],
+            "folder": "office@cesiro.ro",
+            "is_read": false,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "0868e4fb-a24e-4ede-9999-dd7ad754e965",
+            "account_email": "mariuscodewnk@yahoo.com",
+            "subject": "TONGOU Circuit Breaker Type is still in your basket",
+            "from_name": "Amazon.de",
+            "from_address": "store-news@amazon.de",
+            "to": [
+              "mariuscodewnk@yahoo.com"
+            ],
+            "received_at": "2026-05-23T02:16:43Z",
+            "snippet": "https://www.amazon.de/gp/cart/view.html?ref_=cor TONGOU WiFi FI Circuit Breaker RCBO 4P 63A 30mA Fi Circuit Breaker Type",
+            "category": "fyi",
+            "labels": [
+              "8: Marketing"
+            ],
+            "folder": "Amazon.de",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "56f9d9cc-246c-412b-8799-d86d198f20ec",
+            "account_email": "cosmin.covaciu@cesiro.com",
+            "subject": "Fwd: A shipment from order JLEU163031 is on the way",
+            "from_name": "cosmin.covaciu@cesiro.com",
+            "from_address": "cosmin.covaciu@cesiro.com",
+            "to": [
+              "cesiro.horeca@gmail.com"
+            ],
+            "received_at": "2024-12-06T13:24:24Z",
+            "snippet": "\r\n\r\n-------- Mesaj original --------\r\nSubiect: A shipment from order JLEU163031 is on the way\r\nData:",
+            "category": null,
+            "labels": [
+              "SENT",
+              "6: Travel"
+            ],
+            "folder": "cesiro.horeca@gmail.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 4,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "sender": "conex",
+        "category": "spam",
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "query": "tongou",
+        "category": "spam",
+        "limit": 50
+      },
+      "result": {
+        "items": [],
+        "total": 0,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "args": {
+        "query": "contact@conexelectronic.ro",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "37e7c5c7-cf34-4664-8db4-a556e2a683ca",
+            "account_email": "covaciu.gnm@gmail.com",
+            "subject": "Fwd: Re: CESIRO SA TONGOU",
+            "from_name": "office@cesiro.ro",
+            "from_address": "office@cesiro.ro",
+            "to": [
+              "contact@conexelectronic.ro"
+            ],
+            "received_at": "2026-10-09T10:08:15Z",
+            "snippet": "Buna ziua, Mi-a spus dl director ca vrea sa mai studieze putin si sa mai comande si alte modele.. Revenim cu raspuns, cred ca pe luni. Multumim, O zi buna in continuare! -------- Original Message -----",
+            "category": "fyi",
+            "labels": [
+              "UNREAD",
+              "CATEGORY_PERSONAL",
+              "INBOX",
+              "1: To respond",
+              "Label_43884",
+              "99: Important"
+            ],
+            "folder": "office@cesiro.ro",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 1,
+        "limit": 50,
+        "offset": 0
+      }
+    }
+  ],
+  "documents": {
+    "items": [
+      {
+        "id": "4b633467-c8c8-47c6-b145-d9e341d1c8a7",
+        "filename": "Oferta Conex Electronic.pdf",
+        "size": 899915,
+        "mime_type": "application/pdf",
+        "source": "email_attachment",
+        "has_text": true,
+        "created_at": "2026-10-08T10:11:42.016982Z",
+        "email_id": "989e6cb3-2af4-45cd-91b5-113a795f4ef1",
+        "email_subject": "Re: CESIRO SA TONGOU",
+        "email_sender": "contact@conexelectronic.ro",
+        "email_date": "2026-10-08T10:11:27Z"
+      },
+      {
+        "id": "4ce1e5ee-f6dc-4cb5-b60a-e264c01586b7",
+        "filename": "Oferta Conex Electronic.pdf",
+        "size": 899303,
+        "mime_type": "application/pdf",
+        "source": "email_attachment",
+        "has_text": true,
+        "created_at": "2026-10-02T15:21:03.698973Z",
+        "email_id": "e24ffb88-faaa-4536-8d33-55d5fa55c3a4",
+        "email_subject": "Re: CESIRO SA",
+        "email_sender": "contact@conexelectronic.ro",
+        "email_date": "2026-05-25T07:26:46Z"
+      },
+      {
+        "id": "3200b6d1-2ec8-4cd3-824d-1ac1354a0183",
+        "filename": "Casă Smart – Ghid General și Tipuri de Echipamente.pdf",
+        "size": 95735,
+        "mime_type": null,
+        "source": "nas",
+        "has_text": true,
+        "created_at": "2026-06-29T11:01:23.880704Z",
+        "email_id": null,
+        "email_subject": null,
+        "email_sender": null,
+        "email_date": null
+      }
+    ],
+    "total": 3
+  }
+}

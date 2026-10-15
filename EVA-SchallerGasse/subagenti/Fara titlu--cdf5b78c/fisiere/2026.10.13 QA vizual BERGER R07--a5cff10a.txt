@@ -1,0 +1,30 @@
+2026.10.13 — QA vizual BERGER R07, PDF final
+
+PDF verificat:
+00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Vertragsvorschlag R07/2026.10.13 Werkvertrag BERGER R07.pdf
+SHA-256 1ec8f9966ea565d5ac26bf297108f9c955161caab188114a029ee8a8fe84b961
+33 de pagini.
+Sursă JSON: SHA-256 f7fba9da1f4936ccbdedfceb19d47f8a4dc608c85cba8b670db701077af927f8.
+
+Verdict: PASS pentru layout și prezentarea publică. Nu rămâne un defect vizual sau reziduul editorial semnalat la § 3(7).
+
+Acoperire exactă:
+– Am deschis individual toate cele 33 de pagini ale exportului inițial cu view_image, detail original: paginile 1–33, fără a înlocui această inspecție cu un contact sheet.
+– Am comparat independent toți pixelii celor 33 de PNG-uri finale cu imaginile inițiale, verificând și hashurile salvate înaintea rerandării. Paginile 1–3 și 6–33 sunt complet identice, inclusiv footer: 31 de pagini.
+– Numai paginile 4 și 5 sunt schimbate. Le-am deschis din nou individual la detail original în folderul BERGER final. Ambele sunt curate și lizibile; § 3(7) este acum un card complet pe pagina 5. Nu există schimbare de paginare.
+
+Controlul sursei:
+Compararea integrală cu snapshotul f2d34a629243d1de36afe2c592a84c5948377ba36e35da8979a7d125bb9edda3 confirmă exact o singură schimbare de alineat: /sections/2/paragraphs/6, § 3(7). După substituirea lui, întregul JSON coincide cu sursa finală. Sumele, tabelele, termenele, restul clauzelor și metadatele nu au fost modificate.
+
+Rezultate vizuale:
+Nu am identificat text tăiat, suprapuneri, depășiri de celule, cifre rupte, caractere lipsă, pagini goale sau antete de tabel izolate fără rânduri. Fonturile, diacriticele germane, cardurile și etichetele de continuare sunt lizibile. Tabelele au antetele repetate și continuări corecte. Paginarea este Seite 1 von 33 până la Seite 33 von 33. Blocul de semnături de pe pagina 33 este complet și are loc pentru completare.
+
+Copertă și economie afișată:
+EUR 45.000,00 net + EUR 9.000,00 TVA = EUR 54.000,00 brut. 12 vizite incluse, până la 6 comandate individual și 18 luni calendaristice de la B0 real. Tabelele pentru poziții, șapte repere, alocări, TVA, 5 % retenție, regie și opțiuni sunt lizibile. Opțiunile sunt separate de prețul de bază și nu sunt comandate automat.
+
+Suprafață publică verificată:
+Am extras textul real al tuturor celor 33 de pagini și am verificat metadatele și toate cele 23 de marcaje/outlines. Zero rădăcină «verhand», zero «Anbieter», zero «PECH», zero denumire a celeilalte societăți și zero referință «für beide AN/Anbieter». Metadatele identifică propria propunere A&C și nu atribuie documentul unui avocat. Istoricul tehnic al clădirii și stările tehnice de lucru păstrate nu sunt comparații comerciale.
+
+Documentare: 2026.10.13 QA vizual BERGER R07.json conține paginile identice/schimbate, hashurile și textul exact al deltei; nota și hashurile inițiale sunt păstrate separat.
+
+Nu am modificat sursele, PDF-ul sau PNG-urile. Această verificare nu declară contractul acceptat, transmis sau semnat și nu confirmă datele și rolurile rămase de completat înainte de semnare. Originalul ofertei rămâne atașament separat, nemodificat.

@@ -1,0 +1,41 @@
+2026.10.14 — Polița anterioară X712.261-2 și expirarea 2036
+Verificare documentară și audit separat: /root/audit_donau.
+
+CONCLUZIE
+Nu am identificat polița X712.261-2 propriu-zisă. Avem referiri la numărul anterior, nu documentul care stabilea durata sa. Începutul și expirarea vechii polițe rămân nedovedite.
+
+CE ESTE DOVEDIT
+1. Polița 2044001194 emisă la 2026.02.03 fostului proprietar, Schallergasse 35 Immobilienbesitz GmbH & Co KG, indică la pagina 1:
+«Ausstellungsgrund: Ersatzvertrag»
+«Änderung ab: 01.01.2026 0:00 Uhr, Ablauf: 01.01.2036 0:00 Uhr»
+și numărul anterior X712261.
+„Änderung ab” înseamnă modificare începând de la această dată; nu dovedește data inițială a asigurării. „Ersatzvertrag” nu dovedește singur un nou acord pentru zece ani.
+2. Polița emisă la 2026.06.03, pentru schimbarea titularului în A&C, păstrează expirarea 2036.01.01.
+3. Rezultă că expirarea 2036 era deja înscrisă înainte de reemiterea pentru A&C. Nu rezultă că zece ani noi au început la transfer.
+
+CONTRACT ȘI LEGE
+• ABS, art. 14 (p. 37 în PDF-ul istoric de 89 de pagini), și clauza „Vertragsdauer” (p. 7 în copia din iunie): la expirarea duratei convenite, prelungire tacită de câte un an dacă nu se notifică încetarea cu trei luni înainte de expirare. Această regulă nu transformă o durată inițială de zece ani valabil convenită într-un contract reziliabil anual.
+• §8 alin. 1 VersVG: o clauză de prelungire tacită este nulă în măsura în care fiecare prelungire depășește un an. Regula nu este limitată la consumatori.
+• §69 alin. 1 VersVG: cumpărătorul preia drepturile și obligațiile contractului existent; transferul proprietății nu pornește singur o nouă durată.
+• §5 VersVG: diferențele dintre poliță și cerere/acord pot fi considerate aprobate numai în condițiile legii, inclusiv comunicarea poliței, avertizarea specială, evidențierea diferențelor și lipsa opoziției scrise în termen de o lună. Fără cerințele alin. 2, diferența nu este obligatorie pentru asigurat, aplicându-se în acea privință cererea.
+• Un acord valabil pentru zece ani poate fi admis într-un raport comercial. Acest lucru nu permite o prelungire tacită automată de zece ani.
+
+PUNCT DE VEDERE ȘI PAS URMĂTOR
+Nu este documentat motivul juridic pentru expirarea 2036.01.01. Nu putem afirma încă nici că această dată este nevalabilă, nici că a fost acceptată valabil. Dacă a existat numai o renumerotare ori schimbare administrativă a titularului, durata anterioară nu se reîncepe automat. Dacă a fost numai prelungire tacită, fiecare prelungire poate fi de cel mult un an.
+
+Documentele precise de cerut DONAU și intermediarului Seipt:
+1. Polița X712.261-2 integrală și toate actele care fixează ultima expirare înainte de 2026.
+2. Cererea, oferta și acceptarea care justifică expirarea 2036.01.01.
+3. Identitatea persoanei care a acceptat și mandatul său.
+4. Dacă se invocă §5: polița comunicată, avertizarea privind fiecare abatere și dovada recepției.
+Această verificare nu constituie notificare de încetare și nu a fost trimis niciun email nou.
+
+SURSE
+Original: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf, p. 1 și 37.
+SHA-256: 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835
+Original: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf, p. 1 și 7.
+SHA-256: fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd
+https://www.ris.bka.gv.at/eli/bgbl/1959/2/P8/NOR40138452
+https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138449/NOR40138449.html
+https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489
+Legea verificată la 2026.10.14. Căutările locale/Eva-Mail și mesajele relevante sunt salvate în Surse. Căutările Eva-Mail nu acoperă textul tuturor atașamentelor; absența din rezultatele verificate nu dovedește inexistența documentului la terți.

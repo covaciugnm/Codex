@@ -2,8 +2,8 @@
   "projects": {
     "5c179290-3222-4036-8042-710f2e84db88": {
       "name": "Comun",
-      "content_sha256": "bf3ec17d62977759e5be7cbba656b9eb9ce02fcc904b54f78b52ce6d1a858576",
-      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
+      "content_sha256": "b548b3553f3242cfc0883f6025bbd3e54c04fd5919adeb6709dc4ddc29b1f37d",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "Comun"
     },
     "59b8aaaa-7677-449b-b80b-e79b02b3b9ab": {
@@ -20,26 +20,26 @@
     },
     "fb3ecc5b-d79f-4ebd-8375-45b8acdeb7c5": {
       "name": "Indunova",
-      "content_sha256": "71c6507ba1150dbde2c406e93462088581943f6ceccff970caa8c9ba79c5fcfe",
-      "snapshot_utc": "2026-10-07T14:10:54.540840+00:00",
+      "content_sha256": "a1dec1599913dda44787cdbfb2eca9467828d572fa0d0377166947cc30194792",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "Indunova"
     },
     "13771f36-ff54-4018-99b0-f69f8dfdd2f8": {
       "name": "WildMotion",
-      "content_sha256": "b27625092e8d17694482830cceb758dca7e77a389e374fff9d10ed3aefd7ec53",
-      "snapshot_utc": "2026-10-12T14:26:02.743395+00:00",
+      "content_sha256": "8868501c1a56d199c680b5ffe151cd77095c4024b3b2177468b226e8f31bcd77",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "WildMotion"
     },
     "a62819fc-eecd-41a3-acfa-724e26db8d88": {
       "name": "AFIR-FotoVoltaic Production",
-      "content_sha256": "c6f089efd9db0d7c73114b669764e5703ca307ae38b51ff06f1b4b6469ed7b0e",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "80d3d3f0fe26d26917666c4718e52367cb0f6daeee20278c11f691391e5cfd5d",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "AFIR-FotoVoltaic Production"
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "242663cea4245d53bb747725d004204c658755268566aa49533c7b6afbd01c39",
-      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
+      "content_sha256": "fa3df818ceb10dab9d4f6fe749d5acf0189e6251a9d82ea9ad0f13b2609daa3f",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
@@ -62,8 +62,8 @@
     },
     "ec58c433-8025-4835-8910-bab2f99b913f": {
       "name": "FinantariEU",
-      "content_sha256": "0ee187bda27ed4ec7e278b43a41c467137beb2e3bfb44afd468452666b6029b3",
-      "snapshot_utc": "2026-10-07T08:10:14.831141+00:00",
+      "content_sha256": "c1dc359f96c7d0839ff0a59c40bf705d6a0d16e00341fd8e9be0216b6cbbbb9f",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "FinantariEU"
     },
     "bad0be1d-5fae-412b-aa11-fef421eb951f": {
@@ -86,14 +86,14 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "c37fad8fe1439c1a57823bf84a3f735afe134fb8020fc586fc0781e78a97d7b0",
-      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
+      "content_sha256": "61f69625f1168192cac982d68f5cf83a33f77ac9bba9e5abb13b5af59982dd1f",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
       "name": "iDempiere",
-      "content_sha256": "2a8c13a73471391e2d9b52a1533fc71aaca3026104745861507b214631087f08",
-      "snapshot_utc": "2026-10-12T14:26:02.743395+00:00",
+      "content_sha256": "9233159c20c767935560de6655f5199ee27adc09a0bc3da0287170a802e4f817",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "iDempiere"
     },
     "a85004ee-5acd-4f38-b445-2289450e8065": {
@@ -104,8 +104,8 @@
     },
     "_Fara proiect": {
       "name": "_Fara proiect",
-      "content_sha256": "7a2d2312a4fd2a4fe4b3a78013e92309647905745f61c78797cbd1e2eba10e40",
-      "snapshot_utc": "2026-10-12T14:26:02.743395+00:00",
+      "content_sha256": "c5f91955a18d4d1d2c77ef8c016b7dfd0465d8ff9836067a9a86abd1f64844c5",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "_Fara proiect"
     },
     "0342b0dc-be68-43fb-b135-3d436d2d009d": {
@@ -122,16 +122,16 @@
     },
     "5bad9d98-be40-4d1c-86ef-6d65a2e0d593": {
       "name": "ANABI-Licitatii",
-      "content_sha256": "85b1786d6b71ab31950b13caeab2aaf35f332fe7fc048582d1abb3bf271838e1",
-      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
+      "content_sha256": "960d11ff832aeacd3946fe2972bd2aea0d5f7fe81af8a5cb7983c568ce3d37dd",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "ANABI-Licitatii"
     },
     "e3898c8c-1e2e-422a-a23f-35ea1ed61beb": {
       "name": "CesiroSighi",
-      "content_sha256": "c93cfe567e638ac115f3ec1788d64a2b85b8bcde1d93f56d4bb8ee9ad302064c",
-      "snapshot_utc": "2026-10-13T08:28:59.767902+00:00",
+      "content_sha256": "0fe964c88e7303ef740f06a6e541bd7ea4e2cb56957af18e5e70ee4741fd9680",
+      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
       "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-13T08:39:46.305906+00:00"
+  "updated_at_utc": "2026-10-15T09:45:30.070456+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "01a11327-2b08-75c3-95a9-3d1f4faaeeff",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791322696,
+  "updated_at": 1791884650,
+  "archived": 0,
+  "source": "vscode",
+  "title": "genereaza cheia de conectare la github pentru\n\n<pasted_content id=\"128a\">\nDeploy keys / Add new\nTitle\n3DScan-Server\nKey\n</pasted_content id=\"128a\">\n\npentru https://github.com/covaciugnm/3dscan.eva-org.com/settings/keys/new",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 1419060,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 582,
+  "message_count": 582,
+  "content_sha256": "35f559f77b58c44ccaf445e2e0249ff5c5f7e1539d29a2c4df67ce8785dfc75c",
+  "files_copied": 31,
+  "references_not_copied": 64
+}

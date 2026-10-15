@@ -1,0 +1,23 @@
+2026.10.13 - QA vizuală finală PECH R06
+
+REZULTAT: PASS pentru PDF-ul final de 33 de pagini.
+PDF: 00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Verhandlungsentwurf R06/2026.10.13 Werkvertrag PECH R06.pdf.
+SHA-256 recalculat independent: 5378b8bc6627d4d811e914de48890a6fe9b3e7c307ab875ee6cc94a77934743c.
+Sursa contractuală JSON: edf8d2831118f5137cb5e616df0a96172ff4aa3781617ded5291668bda84e101; sursa nu a fost modificată prin corecțiile de randare.
+
+ACOPERIRE VIZUALĂ ȘI DOVADĂ DE REUTILIZARE
+Prima randare, hash 9e32f115a4b73f14f3165bf2537d4736f1819c2ced97f630da26616944c03c88, a fost inspectată individual integral, toate paginile 1-34, prin view_image la detail original. Nota primei randări rămâne separată.
+Randarea finală a fost inspectată individual pentru pagina 1 și toate paginile 21-33 prin view_image la detail original. Au fost citite toate casetele/tabelele și observate antetele, footerele, marginea și semnăturile; nu s-a folosit o foaie de contact ca substitut.
+Pentru paginile 1-20, am verificat suplimentar independent identitatea pixelilor imaginii inițiale și finale: întreaga lățime, de la y=0 până la y=1480 exclusiv, cu antetul și întregul corp, înaintea zonei footerului. Toate cele 20 de corpuri sunt identice pixel cu pixel, iar dimensiunile imaginilor coincid. Astfel QA individuală anterioară acoperă exact corpul final neschimbat 1-20. Dovada este salvată în «2026.10.13 QA PECH R06 identitate corp 1-20.json». Footerul cu numărul total nou a fost inspectat pe pagina 1 și pe toate paginile finale 21-33; apare 33, consecvent cu noul total.
+
+PROBLEME ÎNCHISE
+Fostul spațiu alb excesiv de pe pagina 21 este eliminat: Anlage 1(2) este urmată pe aceeași pagină de tabelul cu primele șapte rânduri. Tabelul continuă pe pagina 22 cu titlu și antet repetate; ultimele două rânduri sunt intacte. Nu există pagină aproape goală de tranziție.
+Fosta fragmentare «Grundlagenprüfung» cu g izolat și «Liefer-/Beschauplan» cu n izolat este eliminată. În noul calendar, pe pagina 24, ambele etichete încap normal; continuarea paginii 25 repetă titlul și antetul. Lista D1-D5, B0 și BWB este completă și lizibilă.
+
+CONTROLUL FINAL
+Nu s-au identificat texte tăiate, suprapuneri, chenare peste litere, margini depășite, pagini goale sau titluri fără începutul conținutului. Casetele fragmentate păstrează numărul alineatului și «Fortsetzung». Tabelele se fragmentează natural pe rânduri, cu titlu și antet repetate; nu există celule monetare secționate sau rânduri confundate.
+Pagina 1: 69.300 EUR net, 13.860 TVA, 83.160 brut, 12 vizite și până la șase opțiuni, 18 luni calendaristice de la B0 real; statutul VERHANDLUNGSENTWURF este vizibil.
+Pagini 28-30: toate cele șase poziții originale și E1-E7 sunt intacte. Tabelul de alocare cu opt coloane de pe pagina 29 este lizibil, inclusiv 800/6.130 în E6 și PI timpuriu 406,67/813,33/1.220. Tabelul TVA/retenție/plată continuă pe pagina 30 cu antet repetat; totalurile 69.300/13.860/83.160/3.465/79.695 sunt vizibile și corecte. Tarifele regiei sunt 195/145/125/95, iar opțiunile 2.700/3.240 și pachetul condiționat 72.000/86.400 sunt intacte.
+Pagini 31-33: tabelul persoanelor și condițiilor comune se continuă cu antet repetat, fără pierdere de rânduri. Ultima pagină 33 include în aceeași pagină toate cele șapte câmpuri/paragrafe de semnătură, locul/data reală și reprezentarea efectivă de completat. Nu există semnătură sau acceptare fictivă.
+
+Nota este exclusiv QA vizuală a hashului final, completată de controlul de identitate documentat. Auditul de conținut și controlul fidelității integrale a textului sunt consemnate separat. Nu s-au modificat contracte, surse, renderer sau PDF de către auditor.

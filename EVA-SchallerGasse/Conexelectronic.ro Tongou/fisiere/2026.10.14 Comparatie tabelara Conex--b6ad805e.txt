@@ -1,0 +1,29 @@
+2026.10.14 — COMPARAȚIE PREȚURI CONEX: OFERTĂ VS SITE
+Toate sumele sunt lei cu TVA 21%; transportul nu este inclus în calcule. Stocul și prețurile au fost verificate live în paginile produselor la 2026.10.14 și salvate în HTML/JSON. Nu s-a efectuat comandă sau rezervare.
+
+SKU | Produs | Cantitate ofertată | Stoc azi | Lipsă față de cantitatea ofertată | Preț site/buc | Preț ofertă/buc cu TVA | Economie/buc | Total stoc la site | Total stoc la preț ofertat
+43067 | MCB smart 2P Wi-Fi | 20 | 5 | 15 | 289,00 | 267,00 | 22,00 | 1.445,00 | 1.335,00
+43068 | MCB smart 3P Wi-Fi | 5 | 3 | 2 | 519,00 | 429,00 | 90,00 | 1.557,00 | 1.287,00
+43079 | RCBO smart 2P Zigbee | 20 | 5 | 15 | 510,00 | 459,00 | 51,00 | 2.550,00 | 2.295,00
+43081 | RCBO smart 4P Zigbee | 4 | 2 | 2 | 719,00 | 647,10 | 71,90 | 1.438,00 | 1.294,20
+
+Wi-Fi: oferta OFR000012370 datată 2026.10.07, primită 2026.10.08.
+Din cantitatea ofertată se pot acoperi conform stocului public 5 buc. 2P + 3 buc. 3P = 8 buc.
+La prețurile site-ului: 3.002,00 lei. La prețurile unitare din ofertă: 2.622,00 lei, DOAR dacă furnizorul menține prețul pentru livrare parțială. Economie 380,00 lei.
+Rest de procurat: 15 buc. 2P + 2 buc. 3P = 17 buc., 4.863,00 lei la prețurile ofertate; termen nespecificat în ofertă.
+Toate cele 25 buc.: 8.375,00 lei la site versus 7.485,00 lei ofertat, diferență 890,00 lei.
+Prețul 429,00 lei/buc cu TVA este calculat din valorile totale ale liniilor PDF: (1.063,64+223,36)/3, respectiv (709,09+148,91)/2. Înmulțirea prețului net afișat rotunjit 354,55 cu 1,21 produce 429,01; documentul folosește precizie internă mai mare. Totalurile din ofertă prevalează.
+
+Zigbee RCBO: oferta ISTORICĂ OFR000011675 datată 2026.05.22, primită 2026.05.25.
+Stoc public actual: 5 buc. 2P + 2 buc. 4P = 7 buc.; cost site 3.988,00 lei.
+Echivalent aritmetic la vechile prețuri: 3.589,20 lei, economie ipotetică 398,80 lei. Acest preț nu este disponibil comercial confirmat acum; necesită ofertă nouă.
+Cantități rămase față de vechea cerere: 15 buc. 2P + 2 buc. 4P. Termenul „ca. 90 zile” din mai nu se consideră termen actual.
+Prețurile comparate sunt unitare cu TVA din totalurile liniilor ofertelor; nicio garanție că prețurile de volum se aplică la cantitatea parțială.
+Cele două oferte au valabilitate înscrisă de 7 zile; furnizorul trebuie să reconfirme prețul înaintea achiziției.
+
+Diferență funcțională relevantă: 43067/43068 sunt MCB smart Wi-Fi, fără protecție diferențială confirmată; 43079/43081 sunt RCBO Zigbee. Oferta Wi-Fi nu satisface singură cerința anterioară de protecție diferențială. Pentru RCBO rămâne de confirmat tipul A/AC/B și adecvarea circuitului. Acestea sunt opțiuni comerciale disponibile, nu echivalențe electrice certificate pentru toate circuitele din poze.
+Nu se schimbă automat scenariul Acasa de 59 module: aici comparația este strict pentru cele 4 SKU ofertate de Conex.
+
+Surse:
+PDF-urile originale în dosarul alăturat „2026.10.14 Oferta primita Conex”; sursele web și stocurile în „2026.10.14 Date actuale.json” din acest dosar.
+

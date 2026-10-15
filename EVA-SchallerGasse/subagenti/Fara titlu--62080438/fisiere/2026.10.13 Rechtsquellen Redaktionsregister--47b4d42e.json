@@ -1,0 +1,192 @@
+{
+  "date": "2026.10.13",
+  "art": "Primärquellenregister des Redaktors außerhalb der operativen Vertragsfassung",
+  "method": "Offizielle RIS-Normen und Entscheidungstexte am Prüftag gelesen. Keine privatrechtliche Pflichtkapitelliste und keine Autoritäts- oder Lizenzbehauptung.",
+  "normen": [
+    {
+      "norm": "ABGB § 1168",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168/NOR12018908",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Gesetzliche Entgeltfolgen bei Bestellerverhinderung; keine bloße Abrechnung nach physisch erledigter Arbeit.",
+      "vertrag": "§§ 9 und 15"
+    },
+    {
+      "norm": "ABGB § 1170b",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1170b/NOR40070129",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Zwingende Werklohnsicherheit einschließlich Kostenregelung; getrennt von AG-Haftrücklass.",
+      "vertrag": "§ 12"
+    },
+    {
+      "norm": "ABGB § 1168a",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168a/NOR12018909",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Warnung vor erkennbar untauglichen Grundlagen und Weisungen.",
+      "vertrag": "§ 8"
+    },
+    {
+      "norm": "ABGB § 886",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P886/NOR12018610",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Unterschrift und vereinbarte Form; einfache Email nicht pauschal gleichgesetzt.",
+      "vertrag": "§ 16"
+    },
+    {
+      "norm": "SVG § 4",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40184733/NOR40184733.html",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "QES erfüllt Schriftlichkeit; andere Formvorgaben bleiben bestehen.",
+      "vertrag": "§ 16"
+    },
+    {
+      "norm": "ABGB § 933",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P933/NOR40237220",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Vertragliche dreijährige Gewährleistung wird nicht als universeller gesetzlicher Zeitraum behauptet; Abs.3 erhalten.",
+      "vertrag": "§ 13"
+    },
+    {
+      "norm": "ABGB § 1299",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1299/NOR12019041",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Fachlicher Sorgfaltsmaßstab; keine fingierte technische Bestätigung.",
+      "vertrag": "§ 14"
+    },
+    {
+      "norm": "ABGB § 1336",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1336/NOR40070132",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Begrenzte Vertragsstrafe PECH bei verbindlichem Termin und Verschulden; Mäßigung und Anrechnung erhalten.",
+      "vertrag": "§ 13 PECH"
+    },
+    {
+      "norm": "ABGB § 879",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P879/NOR12018602",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Keine Aussage, dass eine bloße Unterschrift jede formularmäßige Benachteiligung heilt.",
+      "vertrag": "Unabhängiges Audit"
+    },
+    {
+      "norm": "ABGB § 864a",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12018587/NOR12018587.html",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Ungewöhnliche nachteilige Bedingungen erfordern deutlichen Hinweis; Abweichungen in Anlage6.",
+      "vertrag": "Anlage 6"
+    },
+    {
+      "norm": "UGB § 456",
+      "url": "https://www.ris.bka.gv.at/eli/drgbl/1897/219/P456/NOR40148644",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Gesetzliche Verzugszinsen unter den jeweiligen Voraussetzungen; keine Nullzinsklausel.",
+      "vertrag": "§ 12"
+    },
+    {
+      "norm": "UGB § 457",
+      "url": "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40148645/NOR40148645.html",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Abnahme-/Überprüfung grundsätzlich höchstens30Kalendertage; längereFrist nur ausdrücklich und nicht grob nachteilig.",
+      "vertrag": "§ 12"
+    },
+    {
+      "norm": "UGB § 458",
+      "url": "https://www.ris.bka.gv.at/eli/drgbl/1897/219/P458/NOR40148646",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "EUR40gesetzliche Pauschale bei Anwendbarkeit; keine automatischen beliebigen Mahngebühren.",
+      "vertrag": "§ 12"
+    },
+    {
+      "norm": "UGB § 459",
+      "url": "https://www.ris.bka.gv.at/eli/drgbl/1897/219/P459/NOR40148647",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Kontrolle grob nachteiliger Zahlungsbedingungen; Fälligkeit objektiviert.",
+      "vertrag": "§§ 12 und 13"
+    },
+    {
+      "norm": "IO § 25a",
+      "url": "https://ris.bka.gv.at/eli/bgbl/1914/337/P25a/NOR40117918",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Insolvenzrechtliche Grenzen der Beendigung; kein automatischer Grund wegen Insolvenz allein.",
+      "vertrag": "§ 15"
+    },
+    {
+      "norm": "IO § 25b",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40118026/NOR40118026.html",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Keine vorausgehende Umgehung der gesetzlichen Fortführungsregeln.",
+      "vertrag": "§ 15"
+    },
+    {
+      "norm": "BO für Wien § 127",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P127/LWI40016468",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "PI-Eignung, unabhängige personelle Gestaltung, Kenntnisnahme, gesetzliche Prüfungen.",
+      "vertrag": "§ 5"
+    },
+    {
+      "norm": "BO für Wien § 128",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40018216",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Gesondert befugte ZT-Bestätigung, Gesamtanzeigepaket, PI-Nachweise, BWB-/Gebäudebeschreibungsregistrierung.",
+      "vertrag": "§§ 5 und 6"
+    },
+    {
+      "norm": "BO für Wien § 128a",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "Gesamt-Bauwerksbuch, Ersteller/Erstprüfer, elektronische Führung, Inhalte und Altbestandsfristen.",
+      "vertrag": "§ 6"
+    },
+    {
+      "norm": "LGBl. für Wien Nr.25/2026 Art.V",
+      "url": "https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20260714_25/LGBLA_WI_20260714_25.pdf",
+      "pruefdatum": "2026.10.13",
+      "anwendung": "P.20: für bei Inkrafttreten anhängige Verfahren bisherige Bestimmungen; keine pauschale rückwirkende energetische Anforderung.",
+      "vertrag": "§2Abs.2/§6Abs.4"
+    }
+  ],
+  "entscheidungen": [
+    {
+      "case": "OGH 6 Ob 65/18d",
+      "date": "2018.04.26",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20180426_OGH0002_0060OB00065_18D0000_000&IncludeSelf=True&ShowPrintPreview=True",
+      "fundstelle": "Begründung3.4–3.6",
+      "rule": "Die Planer können vom Anwendungsbereich erfasst sein; grundsätzlich Sicherheit ab Vertragsschluss, ohne Vorleistung.",
+      "limit": "Der konkrete Streit betraf nicht bloß reine Planung. Keine automatische Einzelfallbestätigung für diese zwei ununterzeichneten Verträge."
+    },
+    {
+      "case": "OGH 8 Ob 133/16s",
+      "date": "2017.05.30",
+      "url": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20170530_OGH0002_0080OB00133_16S0000_000",
+      "fundstelle": "Begründung3–4",
+      "rule": "§1168knüpft an das vereinbarte Gesamtentgelt an; Anrechnungseinwände sind grundsätzlich Sache des Bestellers.",
+      "limit": "Vertragliche Abrechnungs-/Auskunftspflicht hier ist keine Behauptung einer umgekehrten gesetzlichen Beweislast. Keine pauschale Gewinnquote erfunden."
+    },
+    {
+      "case": "OGH 1 Ob 642/90",
+      "date": "1991.06.05",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19910605_OGH0002_0010OB00642_9000000_000&IncludeSelf=True&ShowPrintPreview=True",
+      "fundstelle": "Entscheidungstext und RS0021779",
+      "rule": "Erhaltung wirtschaftlicher Vertragsbedeutung, weder schlechter noch besser durch Storno; Rückverweisung zur konkreten Berechnung.",
+      "limit": "Biohaus-/Bauvertragsfall mit einzelnen Planungsleistungen; keine konkrete Berechnung der Kündigungskosten BERGER/PECH und keine Übernahme damaligerSchillingbeträge."
+    },
+    {
+      "case": "OGH 8 Ob147/25p",
+      "date": "2026.03.24",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20260324_OGH0002_0080OB00147_25P0000_000/JJT_20260324_OGH0002_0080OB00147_25P0000_000.html",
+      "fundstelle": "Insbesondere Rz27–30 und54",
+      "rule": "Bloße strittige oder unbegründete Einwendungen ergeben nicht automatisch einen Missbrauch des Abrufs einer abstrakten §1170b-Sicherheit.",
+      "limit": "Großanlagenfall und konkreter abstrakter Garantietext; nicht gleicheGarantie wie AG-Haftrücklass, keine Ausschaltung berechtigter Einwendungen oder Missbrauchskontrolle."
+    }
+  ],
+  "local_sources": {
+    "berger_offer_sha256": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+    "pech_offer_sha256": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+    "AG_FBA": "FBA A&C Wohnart FN668224h, Stand2026.04.01, ADVOKAT-Hinweis keinamtlichesDokument; aktuelle Vertretung vor Signatur erneut prüfen.",
+    "role_report": "2026.10.13 Cumul roluri PI ZT128 Bauwerksbuch.txt",
+    "commercial_matrix": "2026.10.13 Matrice conditii comerciale originale.json"
+  },
+  "drafts": {
+    "BERGER_R02": "238764889A777D38CA35B9F42A60880C713AF1F17518D4E1F16F7C78E669D26E",
+    "PECH_R02": "13080C5284C24DAAE9F3980497B94D69FA3AE115208EB9CD5263416606849464"
+  }
+}

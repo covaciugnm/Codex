@@ -5,12 +5,12 @@
     "roots": [
       "Z:\\Dep. Resurse Umane\\CesiroSighi"
     ],
-    "conversations": 1,
+    "conversations": 3,
     "subagents": 0,
-    "messages": 3,
-    "files_copied": 4,
+    "messages": 74,
+    "files_copied": 102,
     "folder": "CesiroSighi",
-    "content_sha256": "c93cfe567e638ac115f3ec1788d64a2b85b8bcde1d93f56d4bb8ee9ad302064c"
+    "content_sha256": "0fe964c88e7303ef740f06a6e541bd7ea4e2cb56957af18e5e70ee4741fd9680"
   },
   "threads": [
     {
@@ -25,7 +25,7 @@
       "project": "CesiroSighi",
       "assignment_method": "app_assignment",
       "parent_thread_id": null,
-      "export_started_at_utc": "2026-10-13T08:28:59.767902+00:00",
+      "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
       "source_bytes": 1673602,
       "invalid_json_lines": 0,
       "history_source": "items",
@@ -37,6 +37,56 @@
       "references_not_copied": 1,
       "subagent": false,
       "folder": "CesiroSighi/Verifică tabloul pompei de apă"
+    },
+    {
+      "id": "01a134b9-69cf-7543-90b8-2a636416f7a5",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\Dep. Resurse Umane\\CesiroSighi",
+      "created_at": 1791885928,
+      "updated_at": 1791887330,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Verifică pozele caselor de marcat",
+      "project_id": "e3898c8c-1e2e-422a-a23f-35ea1ed61beb",
+      "project": "CesiroSighi",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+      "source_bytes": 5197646,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 69,
+      "message_count": 18,
+      "content_sha256": "6a8d15919418a70e1fadfb8a600485455380ead8bc86b6d77a13533a11bfc987",
+      "files_copied": 20,
+      "references_not_copied": 11,
+      "subagent": false,
+      "folder": "CesiroSighi/Verifică pozele caselor de marcat"
+    },
+    {
+      "id": "01a1350e-ddef-7d50-b018-ef8c241c8daf",
+      "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\Dep. Resurse Umane\\CesiroSighi",
+      "created_at": 1791891529,
+      "updated_at": 1791900956,
+      "archived": 0,
+      "source": "vscode",
+      "title": "Redenumește fișierele angajaților",
+      "project_id": "e3898c8c-1e2e-422a-a23f-35ea1ed61beb",
+      "project": "CesiroSighi",
+      "assignment_method": "app_assignment",
+      "parent_thread_id": null,
+      "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+      "source_bytes": 21208927,
+      "invalid_json_lines": 0,
+      "history_source": "items",
+      "rollout_exists": true,
+      "item_count": 209,
+      "message_count": 53,
+      "content_sha256": "5bbb2bff68cf53db045f0a74ff0b6cd9411badb5ef5526d7ee3b923b75b43eb6",
+      "files_copied": 78,
+      "references_not_copied": 7,
+      "subagent": false,
+      "folder": "CesiroSighi/Redenumește fișierele angajaților"
     }
   ]
 }

@@ -1,0 +1,25 @@
+2026.10.13 — Verificare independentă a raportului comercial public R05
+
+Document verificat: 2026.10.13 Audit comercial comparativ R05.pdf
+SHA-256 PDF: 95c21fc19880af882ad1f2731a3428767cb07fc355f509154022bf52ced5f350
+Număr total de pagini: 33.
+Interval inspectat vizual de acest auditor: paginile 1–20, fiecare PNG separat, la rezoluția originală.
+Rezultat pentru intervalul 1–20: PASS. Nu s-au identificat texte tăiate, suprapuneri, caractere lipsă, pagini goale ori defecte materiale de tabel. Antetele repetate și subsolurile cu numărul paginii sunt lizibile. Unele cuvinte lungi se împart pe rânduri în coloane înguste; textul rămâne complet și lizibil.
+Verificarea vizuală independentă a paginilor 21–33 și a celor 7 pagini ale raportului de obiecții a fost realizată separat de agentul principal, care a comunicat PASS. Această notă nu pretinde că autorul ei a inspectat vizual acele pagini.
+
+Control de fidelitate semantică pentru documentul Word public integral:
+Sursa: 2026.10.13 Audit comercial comparativ R05 final.json
+SHA-256 sursă: 0ab9f9510bd6e8a920a3bdecee3d18fe27221abde30f250d16b8c4835e927b8b
+Rezultat: PASS.
+— Toate cele 60 de teme comerciale sunt prezente.
+— Cele 240 de câmpuri ofertă/contract sunt păstrate integral, după normalizarea exclusivă a spațiilor.
+— Toate cele 60 de recomandări și cele 5 observații rămase sunt prezente.
+— Toate cele 28 de hash-uri ale documentelor sursă sunt prezente.
+— Cele 44 de grupuri de mapare inversă sunt repartizate corect: 22 pentru BERGER și 22 pentru PECH. S-a verificat fiecare rând, nu doar apariția globală a textelor în document.
+— Toate cele 401 referințe de componente sunt prezente în grupul corect, împreună cu observația aferentă grupului.
+— În raportul public separat de obiecții, toate cele 18 obiecții comerciale ale acestui auditor, evaluările și pozițiile recomandate sunt păstrate integral, după normalizarea spațiilor. Cele 12 obiecții juridice suplimentare aparțin auditorului juridic separat.
+Textele germane integrale ale componentelor contractuale rămân în sursa JSON/TXT; raportul public folosește maparea și referințele fără a repeta integral contractele.
+
+Control vizual numeric: totalurile de bază, opțiunile cumulative pentru 0–6 vizite suplimentare și cele 5 observații sunt afișate coerent în paginile 1–3. BERGER: 45.000 EUR net de bază, maximum 1.000 EUR net pentru cele 6 opțiuni, total condiționat 46.000 EUR net. PECH: 69.300 EUR net de bază, maximum 2.700 EUR net pentru cele 6 opțiuni, total condiționat 72.000 EUR net. Raportul distinge condițiile originale de propunerile AG și nu afirmă acceptarea comercială a extinderilor.
+
+Nu s-au modificat contractele înghețate R05 și nici documentele publice verificate. Această notă este un document QA separat; PASS privește prezentarea și fidelitatea raportului, nu constituie acceptare a ofertelor sau contractelor de către prestatori.

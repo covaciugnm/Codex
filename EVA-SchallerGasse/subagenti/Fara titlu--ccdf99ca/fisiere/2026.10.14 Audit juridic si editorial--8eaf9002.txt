@@ -1,0 +1,55 @@
+2026.10.14 — Audit juridic și editorial DONAU, versiune corectată
+Polița 2044001194; referință anterioară X712.261-2; dosar Commerz 2616052
+Stare: verificarea corecției este încheiată. Verdictul privește exclusiv versiunile identificate la final.
+
+1. Corecție materială și retragerea premisei anterioare
+Auditul anterior a omis examinarea unui PDF scanat existent local, fără extras textual în index: 20260526163520179.pdf. Era o lacună a verificării, nu un document inexistent sau aflat exclusiv la terți. În căutarea ulterioară a poliței vechi, coordonatorul a identificat somația din 2026.05.20 și mesajul de retransmitere. Auditorul a confirmat independent originalul vizual.
+Somația acordă expres o lună. Prin urmare, retragem premisa «singura somație cunoscută acordă două săptămâni» și concluzia aplicată care prezenta diferența față de §91 ca apărare concretă suficientă împotriva întregii exonerări. Regula legală §91 nu s-a schimbat; corpusul de probe analizat inițial era incomplet.
+Versiunile anterioare și auditul anterior sunt păstrate, marcate DEPĂȘIT, în:
+Istoric/2026.10.14 DEPASIT inainte de verificarea somatiei din mai/
+Aprobarea lor anterioară nu trebuie folosită ca validare a premisei retrase. Documentele curente prevalează.
+
+2. Proba nou examinată și ce dovedește
+Original: 05. Asigurari/Asigurare cladire/20260526163520179.pdf; o pagină; SHA-256 8402921829c72536eabb94f8770ca913f7eefcfec1fe584206c62eea4415c791.
+Data actului: 2026.05.20. Destinatar: Schallergasse 35 Immobilienbesitz GmbH & Co KG, prin Hofhans Immobilienmanagement GmbH, Albertgasse 32/9, 1080 Wien. Polița 2044001194 / numărul anterior X712.261-2. Prima 1.591,81 EUR; costuri 10 EUR. Ștampila Hofhans: 2026.05.26.
+Text verificat vizual: «Zahlen Sie die offene Prämie bitte innerhalb von einem Monat ein (§ 39 Versicherungsvertragsgesetz).» Actul conține avertismente despre exonerare în caz de întârziere culpabilă, posibilitatea încetării și remedierea după o eventuală încetare. Nu declară prin aceasta o încetare deja produsă.
+Email verificat: Capra, 2026.05.27, ID cb505d08-3562-4ad6-a659-ed10ce34b02d; destinatari covaciu.gnm@gmail.com și cosmin.covaciu@ipec.ro; forward Hofhans și anexa cu somația. Exportul și proveniența sunt în Surse. Auditorul a citit exportul. Celelalte zece PDF-uri scanate din seria 20260526... au fost identificate vizual ca documente STURM ENERGIE, nu ca polița veche DONAU.
+Somația din 2026.06.05 rămâne o probă distinctă, către A&C, cu termen de două săptămâni și costuri 20 EUR.
+
+3. Control juridic al corecției
+Cele două texte curente și anexele operaționale recunosc expres ambele somații. Nu deduc automat ineficacitatea actului din mai din numele fostului proprietar. Verificarea corectă include transferul proprietății, mandatul Hofhans, comunicarea către A&C/mandatar, data accesului, data cunoașterii înstrăinării de către DONAU potrivit §69 alin.3, termenul efectiv, restanța și ramura asigurată.
+Ștampila și retransmiterea nu sunt echivalate cu o hotărâre definitivă despre opozabilitate. Data emiterii nu este tratată automat ca început al termenului. Nici actul din iunie nu este presupus că anulează sau repară retroactiv actul din mai. Dacă acesta din urmă este opozabil și celelalte condiții sunt îndeplinite, critica termenului din iunie nu exclude singură exonerarea.
+Distincțiile esențiale au fost păstrate: §39 versus §38; existența contractului versus obligația de despăgubire; prima versus accesorii; neplata versus încetarea efectivă; §39a protejează împotriva exonerării în limitele sale; §40 privește durata contractuală efectiv scursă când există încetare valabilă. Plata nu este prezentată ca restabilire retroactivă garantată. Sumele reprezintă pretenții de reconciliat.
+
+4. Auditul punctual X712.261-2 și 2036
+Concluzia scurtă a fost citită integral și verificată separat, inclusiv precizarea privind prelungirea după expirarea duratei convenite.
+Dovedit: polița emisă la 2026.02.03 sub numărul 2044001194, pentru fostul titular, menționează «Ersatzvertrag», «Änderung ab: 01.01.2026» și expirarea 2036.01.01. Reemiterea din iunie păstrează aceeași expirare. Nu rezultă că zece ani noi au început prin cumpărarea de către A&C.
+Nedovedit: documentul propriu-zis al poliței X712.261-2, începutul și expirarea sa și acordul/mandatul care ar justifica o modificare a duratei până în 2036. Căutările în index, textele PDF și originalele relevante nu au identificat polița veche. Aceasta nu dovedește inexistența ei la DONAU ori la terți.
+§8 alin.1 limitează fiecare prelungire tacită la un an și se aplică și raportului comercial. Nu scurtează prin sine o durată fixă de zece ani valabil convenită. ABS art.14 privește prelungirea după durata convenită. §69 transferă contractul existent, fără resetarea automată a duratei. §5 poate fi relevant pentru aprobarea diferențelor numai în condițiile sale, inclusiv comunicarea, avertizarea specială, evidențierea diferențelor și lipsa opoziției în termen. Simpla emitere a poliței înlocuitoare nu dovedește aceste împrejurări.
+Verdict punctual: nu se poate stabili încă valabilitatea temporală a poliței vechi și nici valida sau invalida definitiv data 2036 numai din înscrisul înlocuitor. Cererea privind polița anterioară, acordul de modificare, mandatul și comunicările este precisă și justificată.
+Surse legale verificate: VersVG §§5,8,69 în RIS; sursele exacte sunt în nota scurtă și bibliografiile studiilor.
+
+5. Concordanța anexelor și controlul vizual
+Au fost citite studiile corectate, cererea germană, registrul celor 14 categorii de probe și nota scurtă. Cererea germană menționează corect ambele somații și cere explicația efectelor lor, fără a ascunde actul de o lună. Păstrează notificarea din 2026.10.01 și nu recunoaște datoria ori durata 2036. Statutul rămâne NETRIMIS; nu a fost creat ori trimis un nou email de auditor.
+Au fost inspectate vizual toate cele 18 pagini ale PDF-urilor curente: documentul 01, paginile 1–8; documentul 02, paginile 1–10. Textul și bibliografiile sunt lizibile, datele tabelului sunt intacte, nu s-au observat tăieri, suprapuneri sau caractere lipsă. Tabelul documentului 02 este păstrat integral pe pagina 7. Documentul 01 include sursa P9, iar documentul 02 sursa P5 pentru actul din mai.
+Pentru această corecție s-au efectuat o rundă completă de audit al textelor și o rundă completă de inspecție a noilor randări. Istoricul rundelor anterioare este păstrat în auditul depășit; numărul lor nu constituie dovadă de infailibilitate. Redactorul a confirmat că toate editările sunt încheiate și nu există modificări în curs.
+
+6. Ultimele versiuni verificate — SHA-256 recalculat independent
+2026.10.14 01 Incetarea politei Donau.pdf — 8 pagini
+32f74a3181131ab2e1b80d4432d875a281d1362f3d5a31eff799fe5347ad029a
+2026.10.14 02 Neplata si acoperirea Donau.pdf — 10 pagini
+ffc78d10274f56af9898cd1e0a73c20c4b7c92c1d6b2150e8419fec90753d7cf
+2026.10.14 01 Incetarea politei Donau.txt
+fa6072d8f1b49c31f5fde35c51324894364a5d770f8ed5d9a44b028823639397
+2026.10.14 02 Neplata si acoperirea Donau.txt
+ed93ca34108aeb6daf29cb9318e604fecd370241da7a0e86314bf76313e072c8
+2026.10.14 Concluzie auditata durata X712 si 2036.txt
+36d237d50d4d9c12e69e31e1874b6e8f89d3943fa63b2fe7b1efed0d39ed629c
+2026.10.14 Cerere documente Donau NETRIMIS.txt
+29e0c78bbc87997d56ad538dfa52a212d60f2cd61f7951e47481dfee9f9138f4
+2026.10.14 Registru documente necesare.txt
+f13a77b9c53738fc9fbb9e864457a2abefbb3e872f11fce74faee58907c1db0b
+
+7. Verdict curent
+Versiunile de mai sus sunt admise pentru livrare ca analiză documentară corectată. Premisa materială greșită este retrasă în mod vizibil, iar consecințele juridice sunt reformulate în raport cu ambele somații. Nu au rămas defecte concrete importante de conținut sau formă identificate și necorectate în această verificare.
+Verdictul nu este o confirmare că polița este acoperită, suspendată ori încetată și nu garantează rezultatul unui litigiu. Nu acordăm calificativ artificial «10/10». Rămân de obținut polița veche, cadrul și acordurile/mandatele, dovezile complete de comunicare, actul portalului din iulie și contul bancar reconciliat. Aceste limite sunt explicate și transformate în solicitări concrete.

@@ -1,0 +1,23 @@
+{
+  "id": "01a139e8-3daa-7f40-a37a-603953ec1b60",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES",
+  "created_at": 1791972883,
+  "updated_at": 1791976186,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Achiziția REVO 5C",
+  "project_id": "13771f36-ff54-4018-99b0-f69f8dfdd2f8",
+  "project": "WildMotion",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 12111377,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 100,
+  "message_count": 14,
+  "content_sha256": "e58e4709483eb83b80cba72f26f06ff29f1da6be79415119af3bf78c6993e733",
+  "files_copied": 30,
+  "references_not_copied": 7
+}

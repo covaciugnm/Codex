@@ -1,0 +1,172 @@
+Încetarea poliței DONAU 2044001194
+Analiză juridică pentru A&C Wohnart Immobilien GmbH
+Schallergasse 35, 1120 Wien | 2026.10.14
+
+1 Concluzia pentru decizie
+
+Polița nu este dovedită încetată. DONAU a refuzat la 2026.10.06 încetarea prin acord și ieșirea ordinară imediată, invocând data 2036.01.01. Totuși, această dată nu exclude o clauză specială favorabilă, o încetare legală specială sau contestarea valabilității duratei. Pe documentele actuale nu este demonstrat un drept necondiționat de a închide întregul pachet la 2027.01.01. [P1, P2, P3]
+
+Piața austriacă permite în principiu contracte comerciale de asigurare pe zece ani. Întrebarea decisivă pentru noi este cine a convenit data 2036, când, cu ce mandat și cu ce drepturi de ieșire. OGH a validat o durată individual negociată; această soluție nu validează automat orice durată impusă prin condiții standard. [J1]
+
+Există trei direcții concrete: verificarea acordului care a fixat cei zece ani și a contractului-cadru 2900010498; valorificarea oricărei notificări de încetare făcute în termen după cumpărare; negocierea unei încetări datate, împreună cu ajustarea componentelor și decontul final. Două clauze permit explicit încetarea anuală a unor acoperiri suplimentare, fără a închide întregul contract. [P2, L1, J1, J2]
+
+Corecție materială la 2026.10.14: există două somații cunoscute. Cea din 2026.05.20 acordă expres o lună, iar cea din 2026.06.05 acordă două săptămâni. Retragem premisa versiunii anterioare potrivit căreia singura somație cunoscută ar acorda două săptămâni. § 91 VersVG rămâne relevant pentru incendiu-clădire, dar nu mai susține singur contestarea globală a exonerării. Somația din mai este adresată fostului proprietar prin Hofhans și a fost retransmisă de Capra la 2026.05.27; trebuie stabilite opozabilitatea față de A&C după transfer, mandatul de primire, data accesului și data la care DONAU a cunoscut înstrăinarea, inclusiv în raport cu § 69 alin. 3. Nici acoperirea, nici exonerarea nu sunt confirmate automat. Analiza completă este în documentul 02. [P2 p. 35, P4, P9, L1]
+
+Documentul este o analiză juridică documentară pentru decizie și discutarea cu avocatul austriac, nu o opinie profesională semnată. Extrasele germane sunt urmate de explicații în română. Paginile citate sunt paginile fizice PDF; numerotarea tipărită reîncepe în anexele poliței istorice.
+
+2 Contractul și situația efectivă
+
+Polița curentă din 2026.06.03 este un act de schimbare a titularului. Prima pagină indică schimbarea de la 2026.05.28 și expirarea la 2036.01.01, ora 00:00; scadența principală anuală este 01.01. Polița istorică din 2026.02.03, emisă pentru Schallergasse 35 Immobilienbesitz GmbH & Co KG, are mențiunea „Ersatzvertrag”, modificări de la 2026.01.01 și aceeași expirare. Reemiterea în iunie nu dovedește un nou acord al A&C pentru zece ani. [P1 p. 1; P2 p. 1]
+
+Extras din polița istorică: „Änderung ab: 01.01.2026 0:00 Uhr, Ablauf: 01.01.2036 0:00 Uhr, Hauptfälligkeit: 01.01.” Acesta dovedește ceea ce a consemnat asigurătorul; întrebarea dacă durata a fost valabil convenită cere și cererea, acceptarea, mandatul și cadrul. [P2 p. 1]
+
+Prima anuală totală este 6.367,24 EUR, cu taxe, plătibilă în rate trimestriale de 1.591,81 EUR. Componentele anuale sunt: incendiu 763,20 EUR; pierdere de chirie prin întreruperea activității 41,72 EUR; furtună 771,56 EUR; apă din conducte 3.127,72 EUR; spații de înlocuire 24,68 EUR; răspundere de proprietar 1.638,36 EUR. Ratele trimestriale nu transformă durata în contract trimestrial. [P1 p. 3–6]
+
+Actele de carte funciară din 2026.03.10 și 2026.03.11 arată dobândirea de către A&C înaintea datei administrative 2026.05.28. Polița apare în mesajul Capra din 2026.03.19. Mesajul trimis de A&C la 2026.05.27 dovedește direct cunoașterea asigurătorului și a poliței. Data exactă relevantă pentru § 70 trebuie corelată cu actele de înscriere și mandatul reprezentantului; nu se pornește artificial termenul de la emiterea actului din iunie. [P5, P6]
+
+La 2026.07.01, A&C a cerut reducerea acoperirii și examinarea încetării prin acord, rezervându-și drepturile. La 2026.10.01 a transmis o declarație expresă de încetare la prima dată admisă și cererea distinctă de încetare imediată prin acord. La 2026.10.06, DONAU a răspuns: „Der Vertrag ist regulär zum 01.01.2036 mit einer Frist von drei Monaten kündbar.” A refuzat acordul și a declarat lipsa acoperirii pentru prime restante. [P3]
+
+Cererea din 2026.10.01 a fost trimisă către DONAU și Cornelia Loschy, cu CC efectiv către cabinetul Maritczak și Stefanie Gruber; Capra nu figurează în CC efectiv. Ciorna din 2026.10.07 este încă NETRIMISĂ la verificarea din 2026.10.14. Nu are efectul unei notificări primite. Ultima pretenție Commerz identificată este 5.326,15 EUR, cu termen 2026.10.12, deja depășit; nu este un sold bancar reconciliat. [P3, P7]
+
+3 Condițiile generale efectiv identificate
+
+Polița curentă de nouă pagini nu conține singură întregul contract. Paginile 6–7 încorporează prin cod condițiile și clauzele. Pachetul istoric de 89 pagini conține textele: 1000A ABS 2018; 1001A AFB 2018; 1002A AStB 2018; 1003A AWB 2018; 1010A AHVB 2005 și EHVB 2005, versiunea 2012, forma 2018; 1013A AFBUB, plus clauzele speciale. Acestea sunt surse contractuale concrete, nu condiții publice alese după asemănarea denumirii. Cadrul 2900010498 integral și eventualele derogări rămân de obținut. Fișierul separat AGB.pdf transmis de Capra privește STURM ENERGIE și nu este utilizat ca act DONAU. [P1 p. 6–7; P2]
+
+ABS art. 4.1: „Als Versicherungsperiode gilt, wenn der Versicherungsvertrag nicht für eine kürzere Zeit abgeschlossen ist, der Zeitraum eines Jahres, und zwar auch dann, wenn die Jahresprämie vertragsgemäß in Teilbeträgen zu entrichten ist.” În română: perioada de asigurare este un an chiar când prima se plătește în rate. [P2 p. 35]
+
+ABS art. 14 și polița curentă: „Beträgt die vereinbarte Vertragsdauer mindestens ein Jahr, verlängert sich der Vertrag jedes Mal um ein weiteres Jahr, wenn er nicht spätestens drei Monate vor Ablauf der Vertragsdauer von einem der Vertragspartner gekündigt worden ist.” Regula privește prelungirea după durata convenită. Nu creează prin ea însăși o ieșire în fiecare an dintr-un termen fix de zece ani. [P2 p. 37; P1 p. 7]
+
+ABS art. 13: „Der geschriebenen Form wird durch Zugang eines Texts in Schriftzeichen entsprochen, aus dem die Person des Erklärenden hervorgeht (z. B. Telefax oder E-Mail).” Regula admite emailul, cu excepția unei forme stricte convenite expres și separat ori a regulilor legale speciale. Nu rezultă că orice email expediat a fost primit. Răspunsul DONAU din 2026.10.06, care reproduce mesajul din 2026.10.01, constituie o probă importantă a primirii acelui mesaj. [P2 p. 37; P3; L1 §§ 5a, 15a]
+
+4 Încetarea ordinară și durata de zece ani
+
+§ 8 VersVG reglementează trei situații diferite. Alin. 1 limitează prelungirea tacită convenită la maximum un an pentru fiecare prelungire. Alin. 2 privește asigurarea inițial încheiată pe durată nedeterminată; preavizul este între una și trei luni și renunțarea convențională la încetare este limitată. Alin. 3 permite unui consumator să iasă dintr-un contract mai lung de trei ani la sfârșitul celui de-al treilea an sau al unui an ulterior, cu preaviz de o lună. Aceste reguli nu se pot combina pentru a transforma orice contract comercial pe zece ani într-un contract anual. [L1 § 8]
+
+Extras § 8 alin. 3: „Ist der Versicherungsnehmer Verbraucher (§ 1 Abs. 1 Z 2 KSchG) ...”. Protecția este legată de calitatea de consumator. Pe faptele cunoscute, asigurarea clădirii administrate și renovate de A&C Wohnart Immobilien GmbH aparține activității sale profesionale. A&C este o GmbH, iar polița privește activitatea sa imobiliară; pe aceste date, dreptul consumatorului din § 8 alin. 3 nu se aplică. [L1; L2]
+
+OGH 7 Ob 152/01f, 2001.07.11, privește chiar o societate care administra clădiri și avea asigurări combinate pe zece ani. OGH nu a permis ieșirea prin analogie cu § 8 alin. 2/3. Durata fusese solicitată și negociată de societate cu sprijin profesional. Speța este nefavorabilă tezei că zece ani ar fi automat ilegali; nu validează automat o durată standard introdusă fără acord. [J1]
+
+OGH 7 Ob 7/01g, 2001.09.26, arată și situația opusă: polițe comerciale pe zece ani coexistau cu o clauză X18 de încetare anuală cu trei luni înaintea scadenței principale. Existența unui astfel de drept este contractuală; nu avem dovada că X18 sau un echivalent este cuprins în cadrul DONAU. Tocmai de aceea cadrul și convențiile brokerului Seipt & Partner trebuie cerute integral. [J2]
+
+Poziția noastră este să solicităm dovada acordului pentru termenul 2036 și toate derogările, păstrând declarația subsidiară din 2026.10.01. O declarație unilaterală valabilă nu devine ineficientă numai pentru că destinatarul nu o „acceptă”; validitatea datei și a formei trebuie însă stabilită. Trebuie cerut DONAU să confirme înregistrarea încetării la prima dată admisă, inclusiv subsidiar la 2036.01.01 dacă nu se stabilește un termen anterior, fără renunțare la contestarea duratei. [P3; L1; J1, J2]
+
+Nu recomandăm calcularea unei noi perioade de trei luni de la 2026.10.14 ca și cum ar genera singură dreptul de ieșire. Dacă apare un drept anual cu preaviz de trei luni, se verifică mesajul din 2026.10.01, ora primirii și data/ora expirării. Nu garantăm că notificarea în ziua 2026.10.01 a respectat termenul față de 2027.01.01 ora 00:00. O încetare la 2027.01.08 ori altă zi intermediară necesită un temei distinct sau acord.
+
+5 Dreptul cumpărătorului după transferul proprietății
+
+§ 69 alin. 1 VersVG prevede: „... so tritt an Stelle des Veräußerers der Erwerber in die während der Dauer seines Eigentums aus dem Versicherungsverhältnis sich ergebenden Rechte und Pflichten des Versicherungsnehmers ein.” Transferul asigurării bunului se poate produce prin lege. Lipsa unei semnături noi A&C sau lipsa unui mandat SEPA nu înlătură singure contractul. Alin. 2 instituie solidaritatea vânzătorului și cumpărătorului pentru prima perioadei de asigurare în curs. [L1 § 69]
+
+§ 70 alin. 2 permite cumpărătorului încetarea imediată sau la sfârșitul perioadei curente. Extras: „Das Kündigungsrecht erlischt, wenn es nicht innerhalb eines Monates nach dem Erwerb ausgeübt wird”; dacă asigurarea era necunoscută, termenul curge de la cunoaștere. Potrivit alin. 3, când încetarea se produce pe acest temei, prima revine vânzătorului, cumpărătorul nefiind răspunzător pentru ea. Acesta este un avantaj important, dar depinde de o exercitare valabilă și în termen. [L1 § 70]
+
+OGH 7 Ob 20/89, 1989.06.15, arată că este suficientă cunoașterea existenței asigurării și a numelui asigurătorului; nu trebuie primite toate condițiile. Cunoașterea mai târzie trebuie dovedită de cumpărătorul care o invocă. Înscrierea din martie, comunicarea către/prin Capra și mesajul direct din 2026.05.27 fac slabă o nouă invocare a § 70 în octombrie. [J3; P5, P6]
+
+Trebuie totuși recuperate toate mesajele trimise de vânzătoare, Hofhans, Seipt și Capra în perioada transferului. O denunțare în termen, încă neidentificată, poate schimba situația. Formula „trebuia reziliată” sau rezervarea de drepturi din iulie nu dovedesc o notificare de încetare primită. Pentru componentele de răspundere și întrerupere se verifică regulile proprii și legătura cu bunul; AFBUB art. 15 prevede aplicarea analogă a §§ 69–71 la vânzarea întreprinderii. [P2 p. 88–89]
+
+6 Contestarea acordului și retragerea inițială
+
+§ 5 VersVG impune condiții speciale pentru aprobarea prin tăcere a diferențelor dintre cererea/înțelegerea inițială și poliță, inclusiv avertizarea și evidențierea diferențelor. Dacă „Ersatzvertrag” a introdus o nouă perioadă până în 2036 fără acordul valabil al fostului titular sau al mandatarului său, există o problemă reală. Nu se poate deduce însă nulitatea numai din lipsa semnăturii A&C pe polița reemisă. [L1 §§ 3, 5; P2 p. 1]
+
+Se cer cererea inițială, polița anterioară X712261, oferta, acceptarea, corespondența de negociere, mandatul și dovada transmiterii. Trebuie clarificat dacă operațiunea din 2026.01.01 a fost un contract nou, o prelungire negociată sau numai reemiterea unui contract existent. Acest lucru influențează atât durata, cât și calculul avantajului 1000K.
+
+Retragerea inițială conform § 5c este distinctă de denunțarea ordinară și poate privi și un profesionist, cu excepțiile legale pentru riscurile mari; nu orice GmbH reprezintă un asemenea risc. Regula este un termen de 14 zile, care presupune încheierea contractului și primirea informării/documentelor cerute: poliță, condiții, reguli de primă și informarea privind retragerea. Totuși, alin. 5 stabilește și stingerea cel târziu la o lună după primirea poliței împreună cu informarea corectă. Lipsa condițiilor generale singură nu depășește acest plafon dacă polița și informarea valabilă au fost primite. O informare grav defectuoasă, echivalată legal cu lipsa informării, poate lăsa dreptul deschis. [L1 § 5c alin. 1–6]
+
+Polița istorică include informarea la p. 9. Pentru un eventual contract nou din prima parte a anului 2026 se aplică regimul de atunci, identic în aceste puncte cu alin. 1–6 actuale. § 191c alin. 25 limitează aplicarea noului § 5c alin. 7 la contracte încheiate după 2026.09.30; această modificare privind contractele de consum la distanță nu creează o nouă ieșire în octombrie pentru A&C. Transferul conform § 69 nu redeschide termenul. [P2 p. 9; L1 §§ 5c, 191c]
+
+Calea concretă rămasă este probatorie: dacă operațiunea Ersatzvertrag a constituit într-adevăr un contract nou, se verifică la titularul originar primirea poliței și informarea corectă. Pe baza prezenței informării în PDF nu se dovedește singură primirea, dar nici nu se poate afirma că dreptul este încă deschis. Sunt necesare cererea, acceptarea și dovada comunicării; o simplă schimbare de titular în iunie nu ajunge.
+
+O contestare pentru eroare, lipsă de mandat sau clauză surprinzătoare cere fapte concrete și respectarea termenelor legale. § 864a ABGB nu transformă automat într-o clauză ascunsă o dată de expirare vizibilă pe prima pagină. § 879 alin. 3 permite controlul clauzelor accesorii standard profund dezavantajoase, inclusiv în raporturi comerciale; nu constituie singur un plafon universal de durată. [L3; J4]
+
+7 Ieșiri speciale și reducerea unor componente
+
+Încetare prin acord. Poate fi convenită la orice dată acceptată de ambele părți, cu decont, credite și eliminarea ori stabilirea clară a costului de ieșire. Refuzul din 2026.10.06 nu împiedică o negociere ulterioară susținută de probe noi, inclusiv problema somației și controlul 1000K. Nu există deocamdată acord. [P3]
+
+După un sinistru. ABS art. 12 este numai regula generală, subordonată condițiilor ramurii. AFB art. 12, AStB art. 12, AWB art. 13 și AHVB art. 12 restrâng ieșirea la cazurile prevăzute: încălcarea de către cealaltă parte a unei obligații legale sau contractuale legate de sinistru; ori indemnizație peste 5.000 EUR pentru profesionist, respectiv 500 EUR pentru consumator; ori cel puțin două sinistre într-o perioadă, cu indemnizații care depășesc împreună prima anuală. Formularea și situația concretă se verifică pentru ramura respectivă. [P2 p. 47–48,54–55,61–62,70–71]
+
+Termenul obișnuit este o lună de la încheierea negocierilor privind indemnizația; pentru încălcarea cunoscută ulterior, condițiile conțin regula specială de la cunoaștere. Pentru incendiu contează §§ 96 și 108 VersVG, pentru răspundere § 158. § 108 actual permite derogarea privind dreptul § 96 numai în condițiile parității drepturilor. Nu orice daună dă automat ieșire din întregul pachet. Nu există acum un sinistru dovedit care să satisfacă aceste condiții. [L1; P2]
+
+Dispariția interesului asigurat. § 68 privește lipsa ori dispariția interesului, cu efecte proprii asupra primei și momentului în care asigurătorul află. O clădire goală sau în renovare continuă să poată arde ori produce prejudicii. Absența chiriașilor nu dovedește dispariția întregii asigurări; poate justifica analiza separată a pierderii de chirie și a altor componente. Pentru răspundere, condițiile cer dispariția completă și permanentă a riscului. [L1 § 68; P2 p. 71, AHVB art. 12.4]
+
+Reducerea riscului. § 41a permite în condițiile sale o reducere corespunzătoare a unei prime mai mari legate de împrejurări agravante care dispar. Efectul legal privește perioadele viitoare; perioada este anuală. Nu conferă automat un credit retroactiv din 2026.07.01. DONAU a cerut la 2026.07.14 autorizația, descrierea lucrărilor și confirmarea instalatorului privind oprirea/securizarea apei, iar la 2026.10.06 spune că nu le-a primit. Acest traseu trebuie completat efectiv și dovedită livrarea. [P3; L1 § 41a]
+
+Eliminarea apei din conducte și a pierderii de chirie ar reprezenta aritmetic 3.169,44 EUR anual la tarifele actuale. Este numai o comparație de cost; nu este un credit acordat și nu dovedește dreptul de a elimina unilateral ambele componente. Renovarea poate reduce unele riscuri și crește altele; declarațiile tehnice trebuie să fie exacte.
+
+Două drepturi parțiale explicite. Clauza 1242K pentru cutremur și clauza 3031K pentru catastrofe de apă prevăd: „Gegenständliche Zusatzdeckung kann von beiden Vertragspartnern zum Schluss einer jeden Versicherungsperiode unter Einhaltung einer einmonatigen Kündigungsfrist schriftlich gekündigt werden.” Textul adaugă că această încetare nu permite încetarea asigurării de furtună. Aceste drepturi pot fi valorificate pentru acoperirile indicate, dacă sunt dorite, cu verificarea formei și recepției și a eventualelor derogări din cadrul integral. Prima economisită nu este individualizată în polița disponibilă. [P2 p. 15,25]
+
+Motiv grav. OGH 7 Ob 179/03d recunoaște posibilitatea încetării extraordinare dacă continuarea devine intolerabilă, de exemplu printr-un refuz culpabil nejustificat de protecție. OGH 7 Ob 192/12d nu acceptă simplul dezavantaj economic ca motiv suficient. Neplata asiguratului, refuzul unei încetări amiabile sau găsirea unei oferte mai ieftine nu creează automat un motiv grav imputabil DONAU. Un refuz nejustificat de acoperire ar putea conta, dar nu este dovedit numai prin termenul de două săptămâni din iunie: somația din 2026.05.20 acordă o lună. Trebuie verificate efectele ambelor somații, apoi gravitatea, conduita ulterioară și reacția la timp. [P9] [J5, J6]
+
+8 Costul unei încetări anticipate și clauza 1000K
+
+Textul 1000K spune: „Vor Vollendung von zwei Jahren ab Vertragsbeginn beträgt die Nachtragsprämie 80 % einer Jahresprämie.” După doi ani procentul este 70%, după trei 60%, apoi scade cu zece puncte pentru fiecare an. Baza este prima anuală curentă la încetare. Excepția expresă este: „Eine Nachtragsprämie ist nicht zu bezahlen, wenn der Versicherer den Vertrag nach Eintritt eines Versicherungsfalles kündigt.” [P2 p. 12]
+
+80% din 6.367,24 EUR brut înseamnă 5.093,79 EUR. Aceasta este numai expunerea ilustrativă dacă s-ar folosi totalul brut; baza netă/brută, taxele, componentele, durata deja scursă și aplicabilitatea trebuie justificate. Suma nu figurează în pretenția Commerz de 5.326,15 EUR și nu trebuie adăugată ca datorie certă.
+
+OGH 7 Ob 154/22f, 2022.11.23, a invalidat o clauză de avantaj de durată care nu excepta încetarea pentru motive grave imputabile asigurătorului. Structura excepției este apropiată de 1000K. Hotărârea privește însă o acțiune colectivă de consumatori, cu unele diferențe de procente; nu este o hotărâre deja pronunțată în favoarea A&C. [J7]
+
+OGH 7 Ob 211/12y, 2013.03.27, confirmă controlul § 879 alin. 3 și într-un litigiu cu o GmbH. Hotărârea permite însă analiza completării contractului după eliminarea unei clauze nevalabile și dispune rejudecarea. Prin urmare, există un argument serios de contestare a 1000K, dar nu o garanție de cost zero. Clauza despre costul ieșirii nici nu acordă automat dreptul de a „cumpăra” încetarea la orice dată. [J4]
+
+§ 40 VersVG și ABS art. 4.6 limitează prima obișnuită la perioada scursă atunci când contractul încetează valabil înainte de termen, sub rezerva regulilor speciale. Nu rezultă că toate primele până în 2036 sunt exigibile acum. Într-un acord trebuie separate: prima până la încetare; creditele/reducerile; costurile și dobânzile; orice pretenție 1000K. [P2 p. 35; L1 § 40]
+
+9 Obligațiile față de lege și de alte persoane
+
+Încetarea acestei polițe și obligația de a asigura clădirea sunt întrebări distincte. Trebuie verificate situația juridică a imobilului, eventualele obligații din finanțare, ipoteci, închiriere, autorizații și contractele lucrărilor. Nu presupunem că întregul pachet DONAU este impus de lege sau că poate fi eliminat fără verificarea acestor acte.
+
+WEG § 28 alin. 1 pct. 4 include „die angemessene Versicherung der Liegenschaft” între actele administrării ordinare a comunității de proprietari. Această regulă nu se aplică mecanic unei GmbH proprietare 1/1. BO für Wien § 129 impune întreținerea clădirii conform legii; ABGB § 1319 reglementează răspunderea pentru clădiri. Aceste dispoziții nu cer prin ele însele păstrarea contractului DONAU. Obligațiile de siguranță și răspunderea subzistă dacă asigurarea încetează. [P5; L4, L5]
+
+Înlocuirea poliței trebuie să descrie corect clădirea neocupată și lucrările; o asigurare obișnuită poate avea excluderi pentru șantier sau deschiderea acoperișului. Nu este demonstrată în actele analizate o obligație legală generală de a păstra exact acest pachet și acest asigurător; obligațiile concrete din credit, autorizații și contracte trebuie controlate înaintea deciziei. [P2]
+
+Pentru un creditor ipotecar care și-a notificat ipoteca asigurătorului, § 106 alin. 1 condiționează în principiu eficacitatea încetării de către asigurat de dovada, cu minimum o lună înaintea expirării, că imobilul nu era grevat la momentul la care încetarea putea fi notificată cel mai târziu ori că creditorul consimte. Sunt exceptate încetările întemeiate pe § 70 alin. 2 și § 96; acordul creditorului nu poate fi refuzat fără motiv suficient, conform alin. 2. Se verifică aplicabilitatea concretă și eventuala excepție legală. [L1 § 106]
+
+§§ 101–104 conțin alte protecții și notificări pentru creditor. La neplată există reguli și excepții proprii: § 102 alin. 2 și § 103 nu pot fi rezumate ca acoperire nelimitată sau preaviz de trei luni în orice caz. Protecția creditorului nu dovedește că A&C primește personal despăgubirea și nu certifică existența unei ipoteci actuale. Se cer extras actualizat, creditorul notificat, eventuala vinculare și condițiile creditului. [L1 §§ 101–106]
+
+Contractul de cumpărare poate oferi un regres împotriva vânzătoarei. Clauza 1.8 privește contractele nepreluate și indemnizarea; 4.4–4.5 repartizează costurile și păstrează asigurarea până la data de decontare; 7.1(i) garantează plata primelor exigibile până atunci, iar 7.2 privește indemnizarea. Clauza 10.5 avertizează asupra dreptului limitat temporal și permite vânzătoarei să înceteze înaintea intabulării, cu efect cel mai devreme la data relevantă; nu îi impune textual să o facă. [P8 p. 2, 4,10, 12]
+
+Aceste clauze nu modifică automat drepturile externe DONAU. Pretenția contra vânzătoarei trebuie separată pe perioade, cauză și garanții. O eventuală răspundere a unui mandatar cere mandatul, obligația încălcată, prejudiciul și legătura cauzală; nu poate fi atribuită doar din nemulțumirea față de rezultat.
+
+10 Punct de vedere juridic aplicat
+
+Poziția cea mai defensabilă nu este „nu am semnat, deci nu există poliță”. § 69 poate explica transferul. Nici afirmația că firmele nu pot avea asigurări pe zece ani nu este susținută de OGH. Pe dosarul actual, DONAU are o bază serioasă pentru a respinge simpla ieșire ordinară imediată, dacă termenul inițial și mandatul sunt valabile.
+
+În actele primite și analizate, poziția DONAU rămâne incompletă: nu este justificat integral contractul-cadru, acordul pentru 2036, aplicarea tuturor clauzelor și statutul acoperirii pe ramuri. Somația din 2026.05.20 respectă în text durata de o lună; rămân de stabilit opozabilitatea sa față de A&C după transfer, mandatul Hofhans, accesul și relația cu somația ulterioară din iunie. [P9] Valabilitatea unei lipse de acoperire, dreptul la primă și dreptul de încetare trebuie judecate separat.
+
+Ruta recomandată este o cerere fermă de documente, menținerea notificării din 2026.10.01, completarea dosarului tehnic pentru reducere și negocierea unei ieșiri apropiate, cu soluție explicită pentru 1000K. Dacă actele noi arată o notificare § 70 în termen, o durată introdusă fără acord ori un motiv grav real, poziția se poate transforma într-o cerere unilaterală sau judiciară întemeiată. Până atunci nu se prezintă data dorită ca deja acceptată.
+
+11 Pași de urmat
+
+1. În 2026.10.14, avocatul verifică imediat dacă a sosit vreo somație judiciară ori alt act cu termen propriu. Termenul extrajudiciar 2026.10.12 este depășit; noua cerere de acte nu îl prelungește singură.
+
+2. Se transmite DONAU cererea completă de documente din fișierul separat, cu CC către Capra, Maritczak și Gruber, după corelarea cu ciorna netrimisă. Se cere răspuns punctual pentru fiecare act absent, inclusiv motivul dacă nu îl dețin, și nu numai o nouă trimitere la data 2036.
+
+3. Se solicită în scris confirmarea primirii și menținerii declarației din 2026.10.01 la prima dată permisă, separat de negocierea unei ieșiri anticipate. Se păstrează dovada recepției. Nu se retrage din greșeală această declarație printr-o reformulare ulterioară.
+
+4. Se obțin de la Capra, Hofhans și Seipt toate notificările, mandatele și acordurile legate de transfer și durata 2026–2036. Se verifică dacă exista un drept anual sau o încetare § 70 deja exercitată.
+
+5. Se depun autorizația, descrierea lucrărilor și confirmarea instalatorului, cu solicitarea datei exacte și a creditului rezultat pentru fiecare componentă. Se decide distinct dacă se folosesc drepturile parțiale 1242K/3031K; nu se elimină acoperiri fără o comparație cu riscul real.
+
+6. Se negociază o dată, un decont și eliminarea ori plafonarea expresă a oricărui supliment. Se asigură continuitatea adecvată riscului și respectarea eventualelor obligații față de finanțator. O poliță nouă nu stinge automat polița DONAU.
+
+7. Dacă răspunsul rămâne incomplet sau refuză un drept dovedit, avocatul evaluează acțiunea pentru constatarea situației contractuale și/sau contestarea creanței. Regresul contra vânzătoarei/mandatarului se conservă separat.
+
+12 Surse și localizarea probelor
+
+P1. Polița curentă, 2026.06.03, 9 pagini: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf. SHA-256 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd.
+P2. Polița istorică și condițiile complete, 2026.02.03, 89 pagini: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf. SHA-256 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835. Paginile fizice: 12 clauza 1000K; 15 clauza 1242K; 25 clauza 3031K; 34–42 ABS; 35 art. 4; 37 art. 12–14; 88–89 AFBUB art. 15 și extrase legale.
+P3. Dosar 05. Asigurari/Asigurare cladire/2026.10.14 Situatie Donau/Surse: mesaj trimis 2026.10.01 ID 23eaa675-18ad-45b1-b535-25f7583087b1; răspuns primit 2026.10.06 ID 2c273256-a0bf-408b-bb22-09718372e888; răspuns tehnic 2026.07.14 ID d10bdd3f-8439-45f0-a061-e222c9290266; ciorna 2026.10.07 ID aa653a96-7eee-4133-a41d-5892ea79788d pending la 2026.10.14.
+P4. Somația DONAU 2026.06.05: 05. Asigurari/Asigurare cladire/B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf, p. 1. SHA-256 1af65af6d23d9c25cc9c0cccad8676df46ecb38e2e33f865e8cfe403a833dd67.
+P5. Acte de proprietate: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Grundbuchbeschluss_TZ466-2026_Eigentumsuebertragung.pdf; Grundbuchauszug_aktuell_A&C_EZ2235.pdf.
+P6. Email Capra 2026.03.19 ID 8d541207 în arhiva centrală; email A&C 2026.05.27 ID d9216be2-1be9-493f-810e-8045d1e4cfd3 în dosarul Situație 2026.10.14.
+P7. Email Gruber 2026.09.30 ID 1fa19552-d1fd-459e-92b3-57ed5319d18c și Kostenaufstellung.pdf, dosarul Situație 2026.10.14/Anexe; vezi și registrul cronologic cu 22 comunicări.
+P8. Contract cumpărare: 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag/Kaufvertrag_Schallergasse_35_signiert.pdf. SHA-256 237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365.
+P9. Somația DONAU 2026.05.20, 1 pagină: 05. Asigurari/Asigurare cladire/20260526163520179.pdf. SHA-256 8402921829c72536eabb94f8770ca913f7eefcfec1fe584206c62eea4415c791. Destinatar Schallergasse 35 Immobilienbesitz GmbH & Co KG, prin Hofhans; ștampilă 2026.05.26. Transmitere Capra 2026.05.27 către covaciu.gnm@gmail.com și cosmin.covaciu@ipec.ro, ID Eva-Mail cb505d08-3562-4ad6-a659-ed10ce34b02d, cu forward Hofhans și somația.
+
+L1. VersVG, text consolidat RIS la 2026.10.14; se citează separat paragrafele și dispozițiile tranzitorii în corp. https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&FassungVom=2026-10-14
+L2. KSchG § 1, noțiunea consumator/profesionist. https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002462&Paragraf=1
+L3. ABGB §§ 864a, 879. https://www.ris.bka.gv.at/eli/jgs/1811/946/P864a/NOR12018587 și https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12018602/NOR12018602.html
+L4. WEG 2002 § 28 alin. 1 pct. 4. https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40240616/NOR40240616.html
+L5. Bauordnung für Wien § 129. https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P129/LWI40017756 ; ABGB § 1319: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622&Paragraf=1319
+J1. OGH 7 Ob 152/01f, 2001.07.11, concluzia p. 4–6. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010711_OGH0002_0070OB00152_01F0000_000/JJT_20010711_OGH0002_0070OB00152_01F0000_000.pdf
+J2. OGH 7 Ob 7/01g, 2001.09.26, clauza X18 p. 1–2, 5. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010926_OGH0002_0070OB00007_01G0000_000/JJT_20010926_OGH0002_0070OB00007_01G0000_000.pdf
+J3. OGH 7 Ob 20/89, 1989.06.15, cunoașterea asigurării. https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19890615_OGH0002_0070OB00020_8900000_000&IncludeSelf=True
+J4. OGH 7 Ob 211/12y, 2013.03.27, control B2B și interpretare completivă. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20130327_OGH0002_0070OB00211_12Y0000_000/JJT_20130327_OGH0002_0070OB00211_12Y0000_000.html
+J5. OGH 7 Ob 179/03d, 2003.08.05, p. 8–9 motiv grav. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20030805_OGH0002_0070OB00179_03D0000_000/JJT_20030805_OGH0002_0070OB00179_03D0000_000.pdf
+J6. OGH 7 Ob 192/12d, 2012.12.19. https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20121219_OGH0002_0070OB00192_12D0000_000&IncludeSelf=True
+J7. OGH 7 Ob 154/22f, 2022.11.23, pct. 13–14, p. 7–8. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20221123_OGH0002_0070OB00154_22F0000_000/JJT_20221123_OGH0002_0070OB00154_22F0000_000.pdf

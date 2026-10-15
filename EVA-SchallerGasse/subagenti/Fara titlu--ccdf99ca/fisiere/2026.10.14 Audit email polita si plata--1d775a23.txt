@@ -1,0 +1,21 @@
+2026.10.14 — Audit separat: email poliță anterioară și plata primelor
+
+VERDICT: versiunea finală este corespunzătoare pentru prezentare utilizatorului. Este un draft LOCAL NETRIMIS, fără ID Eva-Mail. Auditul nu confirmă expedierea, încasarea banilor, alocarea plății sau restabilirea acoperirii.
+
+Am recitit integral textul final și am verificat identitatea corpului între TXT, JSON și EML, precum și subiectul și destinatarii EML față de JSON. EML are X-Unsent: 1 și nu conține atașamente.
+
+Corecția de fond solicitată și aplicată: paragraful despre cumpărare admite mențiunile contractului privind asigurările existente și dreptul de reziliere limitat în timp. Relatarea utilizatorului privind necunoașterea este limitată la conținutul concret al poliței X712.261-2 și legarea până în 2036.01.01 la semnarea contractului. Nu se afirmă că existența oricărei asigurări era necunoscută sau că nu a fost comunicată nicio poliță.
+
+Sursa: Kaufvertrag_Schallergasse_35_signiert.pdf, în 00.Proiect/01. Behoerden + Eigentum/02. Grundbuch + Kaufvertrag; original verificat vizual la paginile 4, 10 și 12. Art. 4.5 prevede păstrarea asigurărilor, inclusiv asigurarea incendiu existentă, până la Verrechnungsstichtag; art. 7.1(i) privește plata primelor până atunci; art. 10.5 avertizează asupra rezilierii limitate în timp și permite, fără a impune, rezilierea de către vânzătoare în condițiile prevăzute. SHA-256 contract: 237ff87a2576302a4e44316009eb4cea18d387029f7b0d353d8d49b12c4da365.
+
+Corespondență verificată: Capra a transmis polița 2044001194 și traducerea la 2026.03.19, ID 8d541207-20b1-475d-aa39-7f71f475bc95; DONAU a invocat expres §69 și a descris termenul de o lună la 2026.07.10, ID 6706f86a-b245-495b-8637-f692156e29c7; răspunsul a fost retransmis la 2026.07.20. DONAU a reiterat expirarea 2036.01.01 și preavizul de trei luni la 2026.10.06, ID 2c273256-a0bf-408b-bb22-09718372e888. Draftul recunoaște explicația deja comunicată privind transferul și cere temeiul distinct, documentat, al duratei până în 2036.
+
+Plata: trei prime a câte 1.591,81 EUR, total aritmetic 4.775,43 EUR, pentru intervalul 2026.04.01–2027.01.01. Transferul este afirmat conform declarației utilizatorului; nu a fost verificată dovadă bancară. Draftul solicită confirmarea încasării și alocării, sold distinct pe prime/dobânzi/costuri și momentul/acoperirile pentru care există protecție. Nu afirmă că întregul debit inclusiv accesorii este stins. Menține declarația de reziliere din 2026.10.01 și rezervele privind durata, accesoriile și ajustarea primelor.
+
+Fișiere finale auditate — prefix comun:
+2026.10.14 Email polita anterioara si plata primelor NETRIMIS
+TXT SHA-256: dc011a9aaa8c31f5d72ea4eb38dbdc25a6a00b42c6ad91ae2b8d8665de358d33
+JSON SHA-256: 6e6c8e734b1469314769a73d2ba03adeefb497b1faf0fef37c9f0ece8e70098e
+EML SHA-256: 85df75598a96585adb3e21905758d91d6184ccdf23c29b5628e53c617b0eed1c
+
+Limite: cunoașterea subiectivă la semnare și plata sunt declarații ale utilizatorului, nu fapte confirmate independent de audit. Cererea de acte nu dovedește prin ea însăși nevalabilitatea duratei până în 2036. Studiile juridice și auditul lor nu au fost modificate prin această verificare.

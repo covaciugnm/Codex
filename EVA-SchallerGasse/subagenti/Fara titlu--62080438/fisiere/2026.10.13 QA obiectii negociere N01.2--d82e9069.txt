@@ -1,0 +1,24 @@
+2026.10.13 — QA vizual și fidelitate N01.2
+
+Documente:
+2026.10.13 Obiectii reformulate si pozitii comune negociere.docx
+2026.10.13 Obiectii reformulate si pozitii comune negociere.pdf
+Sursă: 2026.10.13 Obiectii negociere reformulate.json, N01.2.
+
+SHA-256 JSON: 915fdd30edf10dc8628b9e8c073a325af9b44bb330c436740d5acc9300467740
+SHA-256 DOCX: 33e3d89303f56dc58fb26c229ab0056a30b868bda49e2ae10f88c7975c2480c2
+SHA-256 PDF: 9418f532dc3332b8eddaa5c66b97db414658188b518b3b101dd36a8469195d6f
+Număr pagini PDF: 16.
+
+Control vizual: toate cele 16 PNG-uri din 2026.10.13 QA baza negociere/Obiectii au fost deschise individual prin view_image, detail original, în loturi de câte 4 imagini; nu s-a folosit contact sheet în locul paginilor. Rezultat PASS. Nicio pagină goală, suprapunere, coloană ieșită din margini, text ciupit sau bordură lipsă. Antetele tabelelor se repetă; footer-ele sunt lizibile și consecutive 1/16–16/16. Titlurile au conținut atașat. Paragrafele continue care trec pe pagina următoare rămân lizibile și nu pierd text. Sursele lungi de la pagina 16 se împart pe rânduri în interiorul marginii.
+
+Control de fidelitate: 165 de fragmente integrale din cele 16 puncte și 7 repere se regăsesc în DOCX și PDF; 0 fragmente lipsă. Cele 30 de mapări sunt prezente în tabelul Word și au fost citite vizual în PDF paginile 14–15. Verificarea tehnică a textului continuu a exclus exclusiv footer-ele din textul extras, pentru a nu produce false omisiuni la paragrafele de peste pagini; documentele nu au fost schimbate. Rezultatul tehnic este în 2026.10.13 QA fidelitate obiectii N01.2.json.
+
+Corecții juridice locale închise:
+- P09, pagina 7, RO și DE: regula este limitată la facturarea curentă pe livrabile; pretențiile și decontul legal de împiedicare/încetare, în special § 1168 și P13/P14, rămân distincte. Formularea integrală corespunde N01.2.
+- P14, paginile 10–11, RO și DE: se disting cheltuielile economisite, venitul alternativ efectiv și cel omis intenționat; oportunitățile ipotetice nu se deduc automat. Formularea integrală corespunde N01.2.
+- Repere E1–E7, paginile 12–13: toate prezente; E5 păstrează setul propriu complet și verificările ulterioare ale planurilor de atelier în pachet înainte de fabricație.
+
+Observație editorială neblocantă: în P02, pagina 2, celula despre investigațiile fizice trimite la «N07», deși punctul documentului este P07. Textul este fidel JSON-ului și tema P07 este identificabilă; observația nu schimbă avizul juridic ori rezultatul vizual. Nu am corectat fișierul.
+
+Aviz pentru această versiune exactă: PASS vizual și fidelitate; cele două observații juridice substanțiale N01.1 sunt rezolvate în N01.2. Documentul este publicabil ca material de negociere, fără a certifica acceptarea comercială sau datele actuale ale firmelor/persoanelor. Nu am modificat DOCX/PDF/JSON, contractele R05, ofertele, indexul ori jurnalele. Au fost create exclusiv notele QA separate.

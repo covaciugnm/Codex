@@ -2,7 +2,7 @@
 
 ID: `01a1304e-d950-75e2-806a-d5894448b76f`  
 Proiect: ANABI-Licitatii  
-Export UTC: 2026-10-13T08:28:59.767902+00:00
+Export UTC: 2026-10-15T09:33:11.760357+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -144,4 +144,39 @@ Verifică zilnic la ora 08:00, fusul Europe/Bucharest, dacă au apărut anunțur
 
 ## Asistent
 
+
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <current_time_iso>2026-10-14T05:01:19.965Z</current_time_iso>
+  <instructions>
+Verifică zilnic la ora 08:00, fusul Europe/Bucharest, dacă au apărut anunțuri noi de autoturisme pe https://anabi.just.ro/licitatiionline/ads?page=1&shortBy=price_high_to_low . Parcurge paginarea necesară și verifică și anunțurile auto care nu au categoria Autovehicule; exclude motocicletele, ATV-urile, utilajele și vehiculele comerciale. Compară identificatorii și URL-urile cu inventarul inițial din D:\ANABI - Licitatii\sources\listings.json și cu starea ultimei verificări reușite, păstrată separat în D:\ANABI - Licitatii\sources\monitor-state.json. La prima rulare folosește inventarul existent drept bază, fără a anunța ofertele deja cunoscute ca noi. Consideră relistările cu ID nou drept anunțuri noi, dar explică dacă VIN-ul era deja cunoscut. Pentru fiecare noutate verificată comunică în română marca, modelul, anul dacă este disponibil, prețul și TVA-ul declarat, data licitației și linkul ANABI. Actualizează starea monitorului numai după verificare reușită; nu suprascrie inventarul inițial. Dacă nu sunt noutăți, rămâi tăcut. Notifică doar când apar anunțuri noi relevante, o problemă care împiedică verificarea sau este necesară intervenția utilizatorului. Nu interpreta eșecul accesului drept lipsa anunțurilor noi.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Au apărut **două anunțuri noi**, ambele relistări ale unor autoturisme cu VIN deja cunoscut:
+
+| Autoturism | Preț de pornire și TVA declarat | Licitație |
+|---|---|---|
+| [Mercedes-Benz GLS 350 D 4Matic, 2018](https://anabi.just.ro/licitatiionline/auction/1280/autoturism-mercedes-benz-gls-350-redus-cu-50) | **145.259 lei + TVA 21%**, aplicat prețului de adjudecare | **12.11.2026**, 09:00–15:00 |
+| [Mercedes-Benz S500 4MATIC, 2014](https://anabi.just.ro/licitatiionline/auction/1281/licitatie-mercedes-benz-s500-4matic-2) | **94.239 lei**, TVA declarat **0** | **04.11.2026**, 09:00–15:00 |
+
+GLS are daună spate declarată; S500 are multiple avarii și un istoric de daună importantă menționat în anunț.
+
+Datele de mai sus provin din textul anunțurilor; câmpurile de numărătoare inversă afișează alte date. Am verificat toate cele **54 de pagini**, inclusiv anunțurile fără categorie.
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>anun-uri-auto-noi-pe-anabi</automation_id>
+  <current_time_iso>2026-10-15T05:00:22.611Z</current_time_iso>
+  <instructions>
+Verifică zilnic la ora 08:00, fusul Europe/Bucharest, dacă au apărut anunțuri noi de autoturisme pe https://anabi.just.ro/licitatiionline/ads?page=1&shortBy=price_high_to_low . Parcurge paginarea necesară și verifică și anunțurile auto care nu au categoria Autovehicule; exclude motocicletele, ATV-urile, utilajele și vehiculele comerciale. Compară identificatorii și URL-urile cu inventarul inițial din D:\ANABI - Licitatii\sources\listings.json și cu starea ultimei verificări reușite, păstrată separat în D:\ANABI - Licitatii\sources\monitor-state.json. La prima rulare folosește inventarul existent drept bază, fără a anunța ofertele deja cunoscute ca noi. Consideră relistările cu ID nou drept anunțuri noi, dar explică dacă VIN-ul era deja cunoscut. Pentru fiecare noutate verificată comunică în română marca, modelul, anul dacă este disponibil, prețul și TVA-ul declarat, data licitației și linkul ANABI. Actualizează starea monitorului numai după verificare reușită; nu suprascrie inventarul inițial. Dacă nu sunt noutăți, rămâi tăcut. Notifică doar când apar anunțuri noi relevante, o problemă care împiedică verificarea sau este necesară intervenția utilizatorului. Nu interpreta eșecul accesului drept lipsa anunțurilor noi.
+  </instructions>
+</heartbeat>
 

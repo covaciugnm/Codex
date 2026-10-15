@@ -1,0 +1,101 @@
+2026.10.13 — AUDIT JURIDIC INDEPENDENT FINAL, R02
+A&C Wohnart — BERGER și PECH — Schallergasse 35, 1120 Wien
+
+Concluzie: BERGER 10/10 și PECH 10/10 pentru calitatea redactării unor PROIECTE DE NEGOCIERE, potrivit rubricii stabilite înaintea reviziilor. Observațiile documentate au fost închise pe versiunile R02 identificate mai jos. Nu am identificat un defect justificat rămas în conținutul juridic și în funcționarea clauzelor verificate. Nota nu este rotunjită dintr-un rezultat mai mic și nu este transferată automat asupra altor versiuni.
+
+Documentele sunt NETRIMISE și NESEMNATE. Extinderile de servicii și condițiile noi nu sunt acceptate încă de prestatori. Nota nu reprezintă certitudine judiciară, verificare a unei abilitări profesionale actuale, confirmare a unei polițe sau constatarea că documentele pot fi semnate cu rubricile esențiale goale. Înainte de semnare și de preluarea funcțiilor trebuie confirmate datele, reprezentarea, persoanele, abilitările, independența, asigurarea și calendarul, conform clauzelor și Anexei 6.
+
+1. VERSIUNILE EFECTIV AUDITATE
+
+BERGER — 16 capitole, 6 anexe, 21 pagini PDF:
+2026.10.13 Werkvertrag BERGER R02.json
+SHA-256: 238764889a777d38ca35b9f42a60880c713af1f17518d4e1f16f7c78e669d26e
+2026.10.13 Werkvertrag BERGER juristisch R02 final.docx
+SHA-256: 170caa79d7f00392a66cfead8f236864b6d34109d5214f8acff490789ca74a81
+2026.10.13 Werkvertrag BERGER juristisch R02 final.pdf
+SHA-256: 853fbd6a2d37015a7e88d9e49148e20745ee7b1cf120f321534480308d0afdf6
+
+PECH — 16 capitole, 6 anexe, 21 pagini PDF:
+2026.10.13 Werkvertrag PECH R02.json
+SHA-256: 13080c5284c24daae9f3980497b94d69fa3ae115208eb9cd5263416606849464
+2026.10.13 Werkvertrag PECH juristisch R02.docx
+SHA-256: d798cd082e593d81814677edcff79a0492579912cd8f474999c3bbede38da25e
+2026.10.13 Werkvertrag PECH juristisch R02.pdf
+SHA-256: da5320ad2ff9c9ed0cf4f9870e5bceb28f90733c8e778425e50040e1e6eabbb8
+
+Dosarul comun: 00.Proiect/09. Vertraege/2026.10.13 Reorganizare juridica si audit.
+
+2. RUBRICA ȘI JUSTIFICAREA NOTEI
+
+Fiecare criteriu are nota 0–10; rezultatul este suma notelor înmulțite cu ponderile, împărțită la 100. Un câmp necunoscut, protejat printr-o verificare efectivă înainte de semnare sau de funcție, nu este depunctat doar pentru că prestatorul nu l-a confirmat încă. O opțiune comercială negociabilă nu este declarată defect juridic numai pentru că avantajează una dintre părți.
+
+Criteriu | Pondere | BERGER | PECH
+1. Validitate imperativă, statut și formarea acordului | 15% | 10 | 10
+2. Domeniu tehnic, livrabile și interfețe | 15% | 10 | 10
+3. Roluri PI, § 128 și BWB: abilitare și independență | 15% | 10 | 10
+4. Preț, sume originale, anexe și facturare | 10% | 10 | 10
+5. Calendar realizabil, dependențe și blocaje | 10% | 10 | 10
+6. Plata și garanțiile, inclusiv § 1170b ABGB | 10% | 10 | 10
+7. Recepție, garanție, remediere și răspundere | 10% | 10 | 10
+8. Încetare și decont potrivit § 1168 ABGB | 5% | 10 | 10
+9. Asigurare, comunicări, formă și instanțe | 5% | 10 | 10
+10. Coerență, documentare și completarea formularului | 5% | 10 | 10
+TOTAL | 100% | 10/10 | 10/10
+
+1 — Acordul este condiționat de semnarea bilaterală a contractului și anexelor. Nu există acceptare fictivă, debut retroactiv sau o clauză de încetare automată numai prin deschiderea insolvenței. IO §§ 25a și 25b sunt rezervate expres.
+2 — Sunt păstrate proiectarea completă, nodurile și conexiunile, detaliile de execuție, verificarea planurilor de atelier, sprijinirile și fazele temporare, documentele native, as-built, PI și Bauwerksbuch pentru întregul imobil. Sunt delimitate execuția fizică, contribuțiile terțe, BauKG și managementul general. Cartea clădirii nu este restrânsă la intervențiile structurale noi și nu certifică absența tuturor defectelor istorice.
+3 — Sunt distincte eligibilitatea PI și abilitarea persoanei ZT pentru § 128. Independența autorului și a verificatorului inițial BWB este documentată și față de proprietar. Cumulul funcțiilor nu este declarat automat permis sau automat interzis; sunt necesare probe concrete și respectarea imparțialității profesionale. Înregistrarea și certificatele finale nu sunt inventate.
+4 — Totalurile și pozițiile originale sunt păstrate, iar distribuția nouă a plăților este explicită. BERGER are acum o matrice completă pe cele patru poziții; nu există depășirea ascunsă a plafonului unei poziții sau un preț BWB separat fictiv. PECH păstrează cele șase poziții, cele 12 Abnahmen și prețul de referință de 450 EUR net pentru o vizită suplimentară legal comandată.
+5 — T0 are un reper real după semnare și documentele necesare. Calendarul distinge livrarea, verificarea de 10 zile lucrătoare, corecțiile și execuția. Pentru PECH, lipsa acordului privind D2–D5 este tratată prin decizie și termen suplimentar rezonabil, fără dată fabricată și fără începerea unor lucrări critice insuficient pregătite. Drepturile pentru întârzieri imputabile și colaborare rămân păstrate.
+6 — Plata se bazează pe livrabile efective, cu scadență obiectivă, nu pe o aprobare discreționară nelimitată AG. Retenția este de 5% net și are un mecanism de eliberare sau substituire prin garanție echivalentă, fără dublă asigurare. Dreptul imperativ AN din § 1170b ABGB, formele, costurile și consecințele sunt păstrate; nu este redus la reținerea AG de 5% și nu depinde de absența oricărei dispute.
+7 — Garanția contractuală este de trei ani, cu drepturile legale mai lungi și regulile de prescripție și excepție păstrate. Recepția amânată nejustificat are un mecanism controlat, fără certificare tehnică fictivă. La încetare înaintea finalizării, părțile deja livrate au recepție și repere proprii; reținerea nu așteaptă perpetuu o clădire sau o Fertigstellungsanzeige care nu mai este comandată.
+8 — Încetarea la inițiativa AG nu promite cost zero. § 1168 ABGB este aplicat cu economiile și veniturile alternative relevante, documentare și păstrarea sarcinilor legale ale probei. Compensația justificată pentru întârziere din sfera AG nu este eliminată prin lipsa aprobării unui supliment. După încetarea justificată în condițiile § 1170b ABGB nu se cere generic executarea viitoare ca într-un contract încă activ.
+9 — Asigurarea este o condiție care trebuie probată, nu o poliță presupus existentă. Limita ei nu devine automat plafon al răspunderii. Semnătura eigenhändig/QES este distinctă de aprobările operative prin email autorizat; instanța, regulile imperative și cerințele profesionale sunt rezervate.
+10 — Arhitectura comună are 16 capitole și 6 anexe finale, cu trimiteri coerente, semnături la final și statut de draft în germană. Datele neconfirmate sunt vizibile și trebuie rezolvate conform mecanismului contractual. Originalele comerciale și istoricul rămân nemodificate.
+
+3. ÎNCHIDEREA OBSERVAȚIILOR R15 ȘI R16
+
+R15 — ÎNCHISĂ. Anexa 4 BERGER distribuie exact 13.000 EUR calcul, 20.000 EUR planuri, 2.000 EUR asistență și 10.000 EUR PI. D1–D5 cuprind 33.000 EUR proiectare și 3.000 EUR pentru prestații distincte, efective și documentate ale persoanei PI eligibile. Sumele PI sunt 500/1.000/1.500 EUR la D2/D3/D4, legate de planul de verificări, evaluarea bazelor și rapoarte/validări distincte. Controlul intern propriu al proiectantului nu este facturat din nou ca PI. Dacă o parte PI nu a fost prestată, nu devine exigibilă numai pentru că planurile au fost livrate; partea separabilă efectiv prestată rămâne facturabilă. Nu există un avans implicit pentru verificări fizice viitoare. Documentația finală as-built și sursele rămân datorate prin § 10 alin. 6 și mecanismul de închidere din § 15.
+
+Cele șapte rate globale BERGER rămân: 4.500 + 9.000 + 11.250 + 6.750 + 4.500 + 4.500 + 4.500 = 45.000 EUR net. Alocarea este o condiție nouă propusă, nu un preț istoric pe subservicii. Ea nu limitează artificial decontul legal din § 1168 ABGB în caz de încetare.
+
+R16 — ÎNCHISĂ. § 9 alin. 6 și Anexa 3 includ timpul de verificare, corecțiile și punctele de oprire înaintea execuției. BERGER păstrează termenele relative convenite, în lipsa unei modificări valabile; PECH are o regulă expresă pentru neconvenirea D2–D5 în intervalul de cinci zile lucrătoare. Prestațiile sigure neafectate pot continua, fără termen fictiv sau eludarea unui Prüfhalt.
+
+Celelalte observații R01–R14 au fost închise documentat în raportul R01 și reconfirmate: comparația R01–R02 nu a eliminat aceste corecții. Rapoartele inițial, de completare și R01 sunt păstrate ca istoric. Traseul notelor este 8,75/8,40 inițial, 9,8/9,9 în R01, apoi 10/10 în R02, pentru același obiect limitat al evaluării redactării.
+
+4. CONTROLUL DOCUMENTELOR ȘI CIFRELOR
+
+Verificare independentă efectivă: 110 paragrafe BERGER și 108 PECH, incluzând preambulul, clauzele, anexele și semnăturile, sunt prezente exact în Word și integral în textul PDF după excluderea subsolurilor și normalizarea spațierii. Cele 10 tabele BERGER și 9 PECH au toate rândurile și celulele în ordinea sursei JSON. Preambulul și corpul nu conțin sinteză română. Această verificare este de conținut; controlul vizual integral al PNG-urilor finale este efectuat separat în echipă, nu este pretins în acest raport ca verificare vizuală nouă a auditorului juridic.
+
+BERGER: 45.000 EUR net + 9.000 EUR TVA = 54.000 EUR brut.
+PECH: 69.300 EUR net + 13.860 EUR TVA = 83.160 EUR brut.
+Totalurile ofertelor și ale ratelor sunt corecte. Reținerea de 5% net ar reprezenta, la întregul onorariu de bază, 2.250 EUR BERGER și 3.465 EUR PECH; este garanție temporară, nu reducere de preț.
+
+Anexa 5 este acum prezentă în dosarul comun sub numele citat, cu originalele identice:
+2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf
+SHA-256: b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b
+2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf
+SHA-256: 29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1
+
+5. CE RĂMÂNE DE NEGOCIAT ȘI CONFIRMAT
+
+Acceptarea explicită a întregului volum extins la prețurile păstrate, disponibilitatea și calendarul real nu sunt dovedite prin aceste drafturi. Trebuie completate reprezentarea și datele actuale ale firmelor, lista de planuri, persoanele și abilitările pentru fiecare rol, independența, polița și garanția bancară convenită. Documentele AG existente nu sunt prezentate ca verificare live a Firmenbuch la data semnării.
+
+Diferențele comerciale sunt păstrate transparent: opt vizite de asistență BERGER, distincte de PI, față de 12 Abnahmen PECH; penalitate contractuală numai PECH; asigurare de 2.000.000 EUR pe caz și agregat minimum dublu propusă BERGER, față de un minim de stabilit înaintea semnării PECH. Aceste opțiuni nu sunt obligații legale universale și nici acceptări deja primite. Dacă prestatorii solicită modificări, acestea necesită o nouă verificare; nota prezentă nu le acoperă automat.
+
+6. SURSE ȘI APLICABILITATE
+
+Registrul final separat, 2026.10.13 Surse audit juridic final.json, cuprinde 18 norme și 6 hotărâri OGH, linkuri primare, date, obiect și limite. Cercetarea a fost reluată pentru acest audit. BO Wien actuală este distinctă de legea aplicabilă procedurii concrete; Art. V din LGBl. 25/2026 păstrează vechile norme pentru procedurile pendinte la intrarea în vigoare. Contractele cer analiza temporală pentru autorizație și eventualul Planwechsel, fără retroactivitate automată presupusă.
+
+Jurisprudența nouă relevantă, OGH 8 Ob 147/25p din 2026.03.24, a fost citită integral din sursa primară și salvată nemodificat. Ea confirmă că obiecțiile neîntemeiate nu blochează apelul garanției § 1170b ABGB pentru o creanță exigibilă aflată în întârziere. Nu este motiv pentru a considera orice apel legitim; simpla dispută nu este însă un blocaj legal universal. Sursa: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20260324_OGH0002_0080OB00147_25P0000_000/JJT_20260324_OGH0002_0080OB00147_25P0000_000.html
+
+Celelalte hotărâri folosite limitat sunt 6 Ob 65/18d, 9 Ob 30/21h, 6 Ob 35/15p, 6 Ob 121/22w și 8 Ob 114/23g. Sunt relevante pentru garanția legală, efectele încetării, garanția substitutivă, retenție și invocarea serioasă a remedierii; nu sunt hotărâri asupra acestor două contracte și nu reprezintă o inventariere exhaustivă a jurisprudenței.
+
+Niciun contract editat direct de auditor, niciun email trimis, nicio semnătură și nicio plată. Raportul validează redactarea propunerilor R02 pentru negociere și lectura utilizatorului, cu condițiile și limitele de mai sus.
+
+
+10. REVALIDAREA EXPORTULUI FINAL BERGER — 2026.10.13
+
+După constatarea unei pagini goale în primul export R02, a fost eliminat un paragraf gol între ultimul tabel al Anexei 4 și titlul Anexei 5. Am comparat independent vechiul Word cu fișierul «R02 final»: toate cele 145 de blocuri semnificative, inclusiv textul, celulele și ordinea tabelelor, sunt identice. Am comparat integral textul extras din cele două PDF-uri, cu excluderea subsolului de pagină și normalizarea spațiilor și punctuației: cele 49.375 de caractere semnificative sunt identice. Hash-urile finale au fost recalculate local și coincid cu cele din secțiunea 1. PDF-ul BERGER are acum 21 de pagini. JSON-ul BERGER R02 și toate fișierele PECH rămân neschimbate.
+
+Prin urmare, verdictul privind redactarea se aplică variantelor finale identificate exact în secțiunea 1, pe baza acestei revalidări, fără transfer automat. Verificarea vizuală integrală a paginilor finale BERGER este efectuată separat de echipa de randare; nu revendic prin această comparație o inspecție vizuală proprie a tuturor PNG-urilor. Primul raport R02, legat de exportul BERGER cu 22 de pagini, a fost păstrat separat în «2026.10.13 Audit juridic R02 export initial.txt».

@@ -1,0 +1,23 @@
+{
+  "id": "01a13d91-abc7-72c0-8974-e8062f9f9dce",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791991960,
+  "updated_at": 1791992464,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Analiza CEva blocheaza PC",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 179625,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 34,
+  "message_count": 34,
+  "content_sha256": "b3ebd2c03bed0c591dd4dd2238af1c5800d9aff28fed20d04a86a7b596f809dc",
+  "files_copied": 0,
+  "references_not_copied": 33
+}

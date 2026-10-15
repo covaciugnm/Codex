@@ -1,0 +1,23 @@
+{
+  "id": "01a135c7-41f6-7f00-ae10-a4502037a81b",
+  "cwd": "\\\\?\\C:\\Users\\User\\Documents\\Codex\\2026-10-13\\ver",
+  "created_at": 1791903613,
+  "updated_at": 1791903650,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică și șterge ciornele CIN EVA",
+  "project_id": null,
+  "project": "_Fara proiect",
+  "assignment_method": "explicitly_projectless",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 96856,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 2,
+  "message_count": 2,
+  "content_sha256": "2083974bbdfbea65a26bf274bfc7f8f13670a90d9b6beed438b1794ae75387cc",
+  "files_copied": 0,
+  "references_not_copied": 0
+}

@@ -1,0 +1,31 @@
+2026.10.13 — QA vizual BERGER R08
+
+Verdict: PASS pentru export și inspecție vizuală, 32 de pagini. Nu am identificat un defect concret care necesită corectarea PDF-ului.
+
+PDF:
+00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Werkvertrag R08/2026.10.13 Werkvertrag BERGER R08.pdf
+SHA-256 a1dc3efa2b83bfadde71e4446ef1ac7a8cfdf2607d4faefbeaecd9ae62b1bdd5
+Sursă JSON SHA-256 9797b24b4e40fb55deb2520c756a6b190d58bac652846903d70d13e3957f6983.
+
+Acoperire exactă:
+Am deschis individual toate cele 32 de PNG-uri page-01.png până la page-32.png, cu view_image la detail original, din 2026.10.13 QA R08 BERGER. Nu am aprobat documentul numai pe baza unui contact sheet. Fiecare pagină 1–32 este acoperită, inclusiv tabelele și blocul final de semnături. Hashurile imaginilor și acoperirea per pagină sunt în 2026.10.13 QA vizual BERGER R08.json.
+
+Începutul PDF-ului este corect: WERKVERTRAG, proiectul Wohnhaus Schallergasse 35, 1120 Wien, apoi § 1. Nu există copertă-sinteză, tabel introductiv de prețuri sau cele trei Vorbemerkungen. Pagina 1 conține deja clauzele contractuale. Antetele și footer-ele folosesc WERKVERTRAG, iar paginarea este Seite 1 von 32 până la Seite 32 von 32.
+
+Layout:
+Nu am identificat text tăiat, suprapuneri, depășiri de celule, cifre rupte, caractere lipsă, pagini goale ori titluri de capitol izolate fără conținut. Fonturile și diacriticele germane sunt lizibile. Chenarele fine și etichetele de continuare sunt coerente; tabelarea și repetiția antetelor pe paginile următoare sunt corecte. Pagina 32 este pagina de semnături, completă și lizibilă; spațiul rămas pentru completare nu este o pagină goală.
+
+Text și metadate:
+Am citit textul extras din toate cele 32 de pagini, metadatele și toate cele 22 de marcaje PDF. Zero «Vorbemerk», zero «Vertragsvorschlag», zero rădăcină «verhand», zero «Anbieter» și zero «PECH». Title și Subject sunt WERKVERTRAG; Author este A&C Wohnart Immobilien GmbH. Nu există atribuire unui avocat sau prezentare comparativă în aceste suprafețe.
+
+Verificare independentă a integrității textului:
+După eliminarea etichetelor de pagină și de continuare și normalizarea spațiilor, toate cele 96 de alineate principale și toate paragrafele anexelor din sursa R08 sunt prezente integral în textul PDF. Lista paragrafelor lipsă este goală. Tabelele financiare sunt lizibile: EUR 45.000,00 net, EUR 9.000,00 TVA și EUR 54.000,00 brut; pozițiile, șapte repere, alocările, retenția și opțiunile sunt păstrate. Nu s-a introdus o majorare a prețului de bază sau comandă automată a opțiunilor.
+
+Oferta originală separată din folderul R08:
+2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf
+SHA-256 b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b, identic cu originalul verificat anterior. Nu am modificat-o.
+
+Legătura cu emailul:
+Transferul exact al celor trei paragrafe R07 în emailul local BERGER a fost verificat separat în 2026.10.13 Audit transfer preambul R08.txt/JSON. Această QA vizuală nu afirmă că emailul a fost trimis, că părțile au semnat ori că un răspuns a fost primit.
+
+Nu am modificat rendererul, sursa, PDF-ul sau PNG-urile. Raportul este de export/inspecție, fără calificativ juridic forțat și fără o nouă cercetare juridică. Nu înlocuiește confirmarea datelor și rolurilor înainte de semnare.

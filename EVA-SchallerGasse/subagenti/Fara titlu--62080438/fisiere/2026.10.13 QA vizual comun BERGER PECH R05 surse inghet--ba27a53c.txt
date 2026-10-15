@@ -1,0 +1,21 @@
+2026.10.13 - QA vizuală BERGER și PECH R05, surse înghețate
+
+Scop: numai inspectarea aspectului surselor R05 deja existente, fără modificarea contractelor. Constatările de fond și eventualele recomandări sunt documentate separat în audituri; această notă nu le închide.
+
+Metodă: toate cele 45 de PNG din 2026.10.13 QA R05 au fost deschise individual prin view_image la detail original: BERGER 1-23 și PECH 1-22. Nu s-au reutilizat concluziile R04 fără deschiderea imaginilor R05; nu s-a folosit numai contact sheet ori extragere text.
+
+BERGER
+PDF: 00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag BERGER R05.pdf
+SHA-256 recalculat: 5b29581b6af90ec2413e491c0c4b28792bedd06e7cf2300a8eaf3898a8551d5b
+23 de pagini, inspectate 1-23 integral.
+Rezultat: PASS vizual. Numerotarea este coerentă 1-23. Nu există text sau cifre tăiate, suprapuneri, pagini goale, titluri sau antete izolate, caractere lipite ori câmpuri de semnare fragmentate. Blocul de semnare este complet pe pagina 13. Calendarul are antet repetat corect pe pagina 17. Anexa 4, paginile 18-20, cuprinde integral sumele, ratele, alocarea, tarifele și tabelul de opțiuni; antetele tabelelor se repetă pe paginile de continuare. Tabelul opțiunilor este întreg pe pagina 20; sumele de 1.000,00/1.200,00 EUR și 46.000,00/55.200,00 EUR sunt lizibile. Anexele 5 și 6 sunt complete pe paginile 21-23.
+
+PECH
+PDF: 00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag PECH R05.pdf
+SHA-256 recalculat: 60cac119f679cf699c1951d42a833339608d5929c730288f2965d11cf0d9dc3d
+22 de pagini, inspectate 1-22 integral.
+Rezultat: PASS vizual. Numerotarea este coerentă 1-22. Nu există text sau cifre tăiate, suprapuneri, pagini goale, titluri sau antete izolate, caractere lipite ori câmpuri de semnare fragmentate. Blocul de semnare este complet pe pagina 13. Calendarul are antet repetat corect pe pagina 17. Anexa 4 este integral lizibilă pe paginile 18-19. Tabelul scurt al opțiunilor este acum întreg pe pagina 19, cu ambele rânduri și sumele de 2.700,00/3.240,00 EUR și 72.000,00/86.400,00 EUR; problema editorială din nota R04 nu este prezentă în R05. Anexa 5 este pe pagina 20, iar Anexa 6 pe paginile 21-22, cu antet de continuare repetat corect.
+
+Observațiile R04 rămân istoric pentru hashurile R04 și nu sunt atribuite acestor PDF-uri. Spațiul alb pe pagina de identificare a Anexei 5 rezultă din separarea anexelor și nu reprezintă o pagină fără conținut.
+
+Nu s-au modificat Word, PDF, JSON, clauze, tabele, fișierele sursă sau originalele ofertelor. Nu s-a transmis nicio comunicare, semnat ori plătit. Singurul fișier creat în această verificare este nota QA externă. Rezultatul privește aspectul și lizibilitatea, nu acceptarea comercială, actualitatea abilitărilor/asigurărilor sau inexistența problemelor juridice/comerciale deschise.

@@ -137,10 +137,26 @@ def load_items(row):
     legacy = []
     invalid = 0
     path = pathlib.Path(row['rollout_path'])
+    compressed = False
+    if not path.exists() and pathlib.Path(str(path) + '.zst').exists():
+        path = pathlib.Path(str(path) + '.zst')
+        compressed = True
     file_size = path.stat().st_size if path.exists() else 0
     if file_size:
-        with path.open('rb') as stream:
-            data = stream.read(file_size)
+        if compressed:
+            # Codex may compress older rollouts while retaining the JSONL path
+            # in its database. Read the compressed source without changing it.
+            sys.path.insert(0, str(pathlib.Path(__file__).parent / '.python-deps'))
+            try:
+                import zstandard
+            except ImportError as exc:
+                raise RuntimeError('Install zstandard in .python-deps to read compressed Codex histories.') from exc
+            with path.open('rb') as source:
+                with zstandard.ZstdDecompressor().stream_reader(source) as stream:
+                    data = stream.read()
+        else:
+            with path.open('rb') as stream:
+                data = stream.read(file_size)
         for ordinal, line in enumerate(data.splitlines()):
             try:
                 record = json.loads(line)

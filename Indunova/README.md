@@ -1,6 +1,6 @@
 # Indunova
 
-Conversații: 2; subagenți: 0; mesaje: 163; fișiere copiate: 91.
+Conversații: 2; subagenți: 0; mesaje: 163; fișiere copiate: 87.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|

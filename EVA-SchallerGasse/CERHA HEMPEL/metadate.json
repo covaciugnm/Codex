@@ -1,0 +1,23 @@
+{
+  "id": "01a13534-dffb-71e1-bea9-af50af106c2b",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1791894020,
+  "updated_at": 1791909872,
+  "archived": 0,
+  "source": "vscode",
+  "title": "CERHA HEMPEL",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 3038212,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 58,
+  "message_count": 11,
+  "content_sha256": "6bdbe023603b11c704cd434b148c91db563095c785bd6cd51aaae1699d3ee933",
+  "files_copied": 10,
+  "references_not_copied": 3
+}

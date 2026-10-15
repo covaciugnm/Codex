@@ -1,0 +1,64 @@
+2026.10.13 — AUDIT JURIDIC INDEPENDENT, RUNDA INIȚIALĂ
+BERGER și PECH — Schallergasse 35, A&C Wohnart
+
+Obiect: propunerile germane din dosarele fiecărui prestator, datate2026.10.13, înaintea reorganizării. Se evaluează calitatea redactării pentru negociere comercială B2B, nu certitudinea rezultatului judiciar, abilitarea profesională a persoanelor încă nenominalizate sau existența unei acceptări. Cercetarea RIS a fost reluată astăzi; auditul nu este copierea verdictului2026.10.12.
+
+METODĂ ȘI RUBRICĂ
+Fiecare criteriu primește0–10; nota finală = suma(notei×ponderii)/100. Nota10/10 înseamnă lipsa unor defecte de redactare justificate, după verificarea obiectului concret, fără presupunerea că toate faptele necunoscute sunt deja confirmate. Un câmp de completat, dacă începerea/semnarea funcției este condiționată efectiv de rezolvarea sa, nu produce automat depunctare. Nu se recompensează maximizarea unilaterală a intereselor AG.
+
+Criteriu | Pondere | BERGER inițial | PECH inițial
+1.Validitate imperativă, statutul draftului și formarea acordului |15%|9|8
+2.Domeniu tehnic complet, livrabile și interfețe |15%|9|9
+3.PI/§128/BWB: abilitare, independență și dovezi |15%|10|10
+4.Preț, sume originale, anexe și derogări explicite |10%|10|10
+5.Calendar realizabil, dependențe și consecințele blocajelor |10%|8|7
+6.Plata, retenția, garanția substitutivă și §1170b |10%|7|8
+7.Recepția, garanția, remedierea și răspunderea |10%|7|7
+8.Încetarea și decontul §1168 |5%|10|7
+9.Asigurarea, comunicările/formele și instanțele |5%|9|9
+10.Coerența, documentarea și completarea controlată |5%|8|7
+NOTE INIȚIALE: BERGER8,75/10; PECH8,40/10. Aceste note sunt valabile pentru redactarea anterioară reorganizării, nu pentru noile versiuni care urmează să fie auditate separat.
+
+FIȘĂ DE PROBLEME ȘI REZOLVARE — STATUS DESCHIS ÎNAINTEA NOULUI DRAFT
+R01 — AMBIGUITATE REMEDIABILĂ, AMBELE: «mindestens drei Jahre» nu fixează de sine stătător termenul eliberării retenției. AG poate întârzia documentarea recepției întregului pachet; acest lucru nu trebuie să mențină nelimitat garanția/onorariul AN. Cere termen contractual determinat de3ani, rezervarea duratelor legale mai lungi, mecanism pentru recepție refuzată nejustificat, fără acceptare tehnică fictivă prin simpla tăcere. Clarifică separat prescripția și regula§933 alin.3; nu presupune garanție perpetuă pentru defecte ascunse.
+
+R02 — AMBIGUITATE REMEDIABILĂ, AMBELE: înlocuirea retenției5% cu garanție bancară trebuie legată de o obligație de eliberare/plată într-un termen precis și de interdicția dublei asigurări pentru același risc. Formularul garanției trebuie să specifice scopul, suma, expirarea/prelungirea pentru pretenții concrete, procedura, contul și eventualele condiții de intrare în vigoare; nu se afirmă că orice hârtie intitulată bankgarantie este echivalentă. Dreptul AG de garanție este separat de dreptul AN§1170b.
+
+R03 — AMBIGUITATE REMEDIABILĂ, PECH§9(4),(6): licența pentru documente «entsprechend bezahlt» poate fi citită ca dependentă de plata integrală, în timp ce5% sunt reținute trei ani. Cere expres ca retențiile contractuale/legale și garantarea lor să nu blocheze utilizarea necesară proiectului; păstrează plata sumelor exigibile legitime și tratarea legală a creanțelor contestate. Nu este concluzie că plata condiționată a licenței ar fi întotdeauna ilegală; este incoerență de funcționare a acestui contract.
+
+R04 — AMBIGUITATE/ECHILIBRU REMEDIABIL, PECH§10(7),§17(2): limitarea compensației la suplimente aprobate sau pretenții «nicht wirksam abdingbar» poate exclude fără negociere clară dreptul DISPOZITIV§1168(1) la compensație pentru pierdere de timp din sferaAG. Păstrează expres drepturile legale justificate pentru suspendare/întârziere, cu obligație de probă, măsuri rezonabile de limitare a prejudiciului și fără automatism de regie/stehzeit. Decontul de încetare§17(4) este corect, dar nu rezolvă singur întreruperea contractului încă activ.
+
+R05 — AMBIGUITATE REMEDIABILĂ, PECH§10(2): «Unterzeichnung beziehungsweise schriftliche Beauftragung» poate sugera debut prin simplă comandă scrisă, deși contractul rezervă semnarea bilaterală și probele funcțiilor. Elimină alternativa ambiguă sau definește o comandă separată limitată, cu obiect, preț și rezervarea tuturor verificărilor necesare; nu inventa o activare prin email fără acceptare.
+
+R06 — AMBIGUITATE/ECHILIBRU REMEDIABILĂ, MAI ALES BERGER§11(6): plata condiționată de «dokumentierte Leistungsfreigabe» AG necesită un mecanism pentru neefectuarea/refuzul nejustificat al verificării. AG trebuie să aibă timp real pentru verificarea documentelor și remediere; AN nu trebuie să suporte o suspendare discreționară a întregii plăți pentru părți separabile conforme. Formalizarea recepției și startul termenului de plată trebuie să fie obiective și independente de arbitrar.
+
+R07 — CLARIFICARE DE DOMENIU, AMBELE: BWB întregul imobil înseamnă și componentele potențial periculoase ale anvelopei și parapetelor, nu doar statica intervențiilor. Precizează organizarea probelor interdisciplinare, autorul/Erstprüfer și integrarea rapoartelor terțe. Proiectarea generală energetică, lucrările fizice de reparație și viitoarele verificări periodice nu devin implicit gratuite sau deja efectuate. Obligația§128 de dosar final și atestare prin ZT eligibil trebuie executată pe probe, cu colaborarea responsabililor celorlalte discipline, fără certificat fictiv sau garanție de aprobare a autorității.
+
+R08 — COERENȚĂ REMEDIABILĂ, PECH§18(3): elimină referirea la o sinteză română care nu mai există în versiunea exclusiv germană. Reorganizează anexele și trimiterile fără a elimina atribuțiile sau modifica totalurile. Verificarea finală va identifica hashurile exacte ale noilor fișiere, nu va transfera automat verdictul asupra unui draft ulterior.
+
+R09 — PROTECȚIE IMPERATIVĂ LA NOUA REDACTARE: după încetarea justificată de AN pentru neconstituirea garanției§1170b, nu se poate pretinde generic executarea/remedierea viitoare ca și cum raportul ar fi activ. Delimitează decontul§1168, pretențiile legale rămase, prejudiciile și predarea de siguranță. Nu identifica retențiaAG5% cu obligațiaAG de garantare a onorariuluiAN.
+
+Nu sunt declarate nule integral cele două drafturi. R01–R09 sunt cerințe de precizie, funcționare și echilibru pentru un prag10/10 mai exigent decât acceptabilitatea ca punct de negociere.
+
+COMPROMISURI COMERCIALE, FĂRĂ A LE NUMI DEFECTE LEGALE
+Prețurile originale rămân45.000 și69.300EURnet; extindereaPI/BWB/detaliilor în aceste totaluri este o propunere nouă care necesită acceptare efectivă a AN. Opt vizite de asistență BERGER și12Abnahmen PECH sunt poziții diferite;450EURnet pentru o Abnahme suplimentară PECH rămâne condiția de referință. Plafonul comercial nu înlătură Prüfhalte obligatorii. Retenția5%, plățile30zile, indexarea exclusă, datele relative și suma de asigurare propusă sunt negocieri. Nu există obligație legală de a include aceeași penalitate în ambele drafturi; penalitateaPECH trebuie legată de termene obligatorii, culpă, bază/cap și compensarea daunelor, cu moderarea legală păstrată. Absența unei polițe sau nominalizări nu este tratată ca neeligibilitate demonstrată dacă signinggate o rezolvă înaintea funcției.
+
+SURSE PRIMARE REVERIFICATE ASTĂZI
+Legislație: ABGB§§1168,1170b,932,933,933a,864a,879 și BO Wien§§127,128,128a; versiunile afișate actuale în RIS. §127 din2023.12.14;§128/128a din2026.07.15. Legea nu interzice expres automat proiectant=PI ori autorBWB=Erstprüfer; sunt verificate conflictele concrete și imparțialitatea profesională. Nu se inventează condiția universală a două persoane distincte pentru toate rolurile.
+
+Jurisprudență verificată și folosită limitat, potrivit faptelor:
+OGH6Ob65/18d,2018.04.26:§1170b poate acoperi proiectanți/statiker și poate fi solicitat fără prestație prealabilă; nu se confundă cu o garanție exclusiv pentru antreprenorii de execuție.
+https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20180426_OGH0002_0060OB00065_18D0000_000/JJT_20180426_OGH0002_0060OB00065_18D0000_000.pdf
+OGH9Ob30/21h,2021.07.28,motive3.4: încetarea justificată§1170b elimină pretenția de executare și se aplică decontul diminuat§1168. Protecția imperativă AN nu este suprimată printr-o simplă dispută privind defectele.
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20210728_OGH0002_0090OB00030_21H0000_000&IncludeSelf=True
+OGH6Ob35/15p,2015.03.19: garanția de înlocuire a retenției trebuie să ofere o protecție echivalentă, iar transferul/eliberarea trebuie corelate cu condițiile concrete ale garanției. Nu este drept la cash și garanție simultan pentru același risc.
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20150319_OGH0002_0060OB00035_15P0000_000&IncludeSelf=True&ShowPrintPreview=True
+OGH6Ob121/22w,2023.03.24: întinderea păstrării retenției după intervenții de remediere depinde de clauza concretă; nu se prezumă păstrarea întregului cuantum pentru încă un ciclu complet.
+https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20230324_OGH0002_0060OB00121_22W0000_000/JJT_20230324_OGH0002_0060OB00121_22W0000_000.pdf
+OGH8Ob114/23g,2024.02.15,pct51: refuzul plății pentru remediere presupune invocarea serioasă a remedierii. Nu se aplică mecanic ca o regulă că orice defect minor dă dreptul la retenția integrală.
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20240215_OGH0002_0080OB00114_23G0000_000&IncludeSelf=True
+
+În căutare au apărut și8Ob147/25p,2026.03.24, respectiv alte hotărâri recente; accesul integral pentru8Ob147/25p a eșuat prin instrumentul web. Nu fundamentez o concluzie proprie pe un text integral necitit și nu pretind cercetare exhaustivă a întregii jurisprudențe2026. Hotărârile selectate susțin concret corecțiile; nu sunt decizii asupra acestor două contracte.
+
+URMĂTOAREA RUNDĂ
+Redactorul pregătește texte noi separate; auditul final va compara obiectul/prețurile originale, va verifica fiecareR01–R09 și cele10criterii pe hashurile finale JSON/DOCX și va păstra această fișă inițială ca istoric. Dacă rămâne un defect justificat, nota nu va fi forțată la10/10.

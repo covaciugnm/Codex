@@ -1,0 +1,23 @@
+{
+  "id": "01a13afe-7cf1-7e10-a9b1-b40df13b6122",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791978915,
+  "updated_at": 1791982688,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Revo 5C achiziție documente",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 474967,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 184,
+  "message_count": 184,
+  "content_sha256": "1d099cf92892258139ea43db147a5a1320fc868c5468fdaccb4c0627e27222a2",
+  "files_copied": 14,
+  "references_not_copied": 12
+}

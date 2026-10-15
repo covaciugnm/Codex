@@ -1,0 +1,23 @@
+{
+  "id": "01a139ed-fe5e-7cc0-b8b3-f1b4a1084cf3",
+  "cwd": "\\\\?\\D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)",
+  "created_at": 1791973260,
+  "updated_at": 1791973952,
+  "archived": 0,
+  "source": "vscode",
+  "title": "DonauAsig - reducere servici",
+  "project_id": "88071415-6de0-43ab-a220-10f6d6515e0e",
+  "project": "EVA-SchallerGasse",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 1281670,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 40,
+  "message_count": 17,
+  "content_sha256": "a2910de3d960e8a0d4ebb3b4edfc3a93055e57b0320d4c309ce98fc54e90df7c",
+  "files_copied": 2,
+  "references_not_copied": 10
+}

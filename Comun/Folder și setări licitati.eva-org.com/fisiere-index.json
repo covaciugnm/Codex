@@ -1,0 +1,102 @@
+[
+  {
+    "source_reference": "20\\d{2}",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "status": "program_sau_endpoint_tehnic_exclus"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:/licitatii.eva-org.com/generator/sources/executori/listings.json",
+    "status": "copiat",
+    "saved_path": "fisiere/listings--50a10deb.json",
+    "bytes": 2624229,
+    "sha256": "260a7ca381fe5ff079cc7387d1f57de182f74f2c85339d2eb498c4c43ab0cf45"
+  },
+  {
+    "source_reference": "U:\\\\tmp\\\\a.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:\\\\tmp\\\\a1262.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:\\licitatii.eva-org.com",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:\\licitatii.eva-org.com\\generator\\anunt-ocr.py",
+    "status": "copiat",
+    "saved_path": "fisiere/anunt-ocr--13e884e7.py",
+    "bytes": 5938,
+    "sha256": "9affc651a3366e0a53f2c5c8b951f2485df316a6e00a1c9a76835140ae6e0466"
+  },
+  {
+    "source_reference": "U:\\reconstruieste.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/reconstruieste--12ba9ba6.sh",
+    "bytes": 1238,
+    "sha256": "6857c16331c1f054ea2f514c2bf03041537727cdce2083ea2b57dc163b45c028"
+  },
+  {
+    "source_reference": "U:\\stare.sh",
+    "status": "copiat",
+    "saved_path": "fisiere/stare--dcdbd85a.sh",
+    "bytes": 472,
+    "sha256": "68643646e1277a981989eccf34982b37b6755b8d5226659fdc036b294cfb70ea"
+  },
+  {
+    "source_reference": "U:\\tmp\\a.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "U:\\tmp\\a1262.html",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.151\\site-uri\\licitatii.eva-org.com",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\192.168.100.169\\Comun",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "\\\\\\\\/",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\\\\\n",
+    "status": "unitate_sau_server_inaccesibil"
+  },
+  {
+    "source_reference": "\\\\n",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\n\\",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\\\u003c",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "\\d{2}",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "decide-autonom-fara-intrebari.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "licitatii-eva-org-site.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

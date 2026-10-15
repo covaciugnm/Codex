@@ -1,0 +1,16 @@
+2026.10.13 - QA vizuală PECH R07, prima randare
+
+REZULTAT: PASS pentru această randare, înainte de ultima precizare editorială § 3(7).
+PDF SHA-256 recalculat independent: fd998805a29d1defd98891d65884409ede9bf437e0020164cab6087604288089.
+PDF: 00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Vertragsvorschlag R07/2026.10.13 Werkvertrag PECH R07.pdf.
+33 de pagini inspectate individual, toate paginile 1-33, prin view_image la detail original, pe PNG 2026.10.13 PECH R07-01.png până la -33.png din VIS/2026.10.13 QA contracte R07/PECH. Fără foaie de contact și fără transferarea automată a QA din R06.
+
+Nu s-au identificat clipping, suprapuneri, chenare peste text, margini depășite, pagini goale sau spații albe masive de tranziție. Fonturile/cifrele sunt lizibile. Titlurile au primul alineat alături, iar casetele fragmentate au reperul exact și marcajul Fortsetzung. Tabelele au titlu și antet repetate la continuare, fără rânduri confundate sau celule monetare tăiate.
+Pagina 1: A&C Wohnart și Dr. PECH sunt singurele părți; 69.300 EUR net, 13.860 TVA, 83.160 brut; 12 vizite și până la șase opțiuni, 18 luni B0 real, R07 Vertragsvorschlag. Antetul/footerul sunt PECH | VERTRAGSVORSCHLAG, iar paginarea 1-33 este consecventă.
+Pagina 21: tabelul începe după caseta Anlage 1(2), fără golul excesiv din prima randare R06. Calendarul paginilor 24-25 nu izolează g/n în Grundlagenprüfung sau Liefer-/Beschauplan. Ambele probleme istorice rămân închise în R07.
+Pagini 28-30: cele șase poziții, E1-E7, alocarea cu opt coloane, TVA/retenția/plata și opțiunile sunt complete și lizibile. Se văd 800/6.130 E6, PI 406,67/813,33/1.220, retenție 3.465 și plată ilustrativă 79.695. Opțiunile sunt 2.700/3.240 și pachetul condiționat 72.000/86.400; regia 195/145/125/95. Antetul Honorarposition este neutru.
+Pagina 33: toate cele șapte câmpuri/paragrafe de semnătură sunt împreună, fără nume sau semnături fictive. Condițiile operative de completat și semnarea bilaterală sunt clare.
+
+Textul real al tuturor paginilor PDF, metadatele și cele 23 de repere de navigare au fost citite/controlate separat cu pypdf. Zero apariții BERGER, verhandl*, beide Anbieter, beide AN, anbieterabhängig sau comparație între ofertanți. Title este WERKVERTRAG - VERTRAGSVORSCHLAG A&C WOHNART; Subject este Vertragsvorschlag; Author este A&C Wohnart Immobilien GmbH. Outline-urile sunt Vorbemerkungen + 16 capitole + șase anexe, cu pagini corecte, inclusiv § 3 p4, § 9 p11, Anlage 4 p26, Anlage 6 p31. Dovada este «2026.10.13 QA PECH R07 metadata prima randare.json».
+
+Root a anunțat ulterior neutralizarea exclusiv editorială a § 3(7), care păstrează lipsa garanției privind costurile reale, lipsa indexării automate și includerea întregului scop în pachet. Această notă nu este PASS transferat unui hash PDF nou. După rerandare se verifică diferența exactă a sursei și toate paginile schimbate, cu identitate documentată pentru paginile reutilizate. Nicio modificare sau generare PDF de către auditor.

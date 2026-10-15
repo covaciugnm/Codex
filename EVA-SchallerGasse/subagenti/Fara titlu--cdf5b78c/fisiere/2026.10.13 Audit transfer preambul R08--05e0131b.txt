@@ -1,0 +1,21 @@
+2026.10.13 — Audit transfer exact preambul R08
+
+Verdict: PASS pentru sursele R08 și textele emailurilor locale. Nicio modificare de contract sau PDF din partea auditorului.
+
+Surse verificate prin SHA-256:
+BERGER R08: 9797b24b4e40fb55deb2520c756a6b190d58bac652846903d70d13e3957f6983
+PECH R08: c81e78c1e166d0a2095569d84391153dd70b957504f0dcf31360a80dfb90d8c5
+Email BERGER sursă: d1894895c61cc4eb9756e4a945135de36a34451e72f2ac2fb9b94d13aba99173
+Email PECH sursă: 3da8bbe9e8321ba2f2287aeb477460f9924598584c8a07bb2bde1f84d2e0bd65
+
+Comparație integrală cu R07 final (BERGER f7fba9da...; PECH f94de0ba...): arrays sections, annexes și signatures sunt EXACT identice pentru fiecare prestator. Fiecare are 16 capitole, 96 de alineate principale și 6 anexe, aceleași numere și toate tabelele. Nu s-a reformulat nicio normă sau clauză. Reconcilierea numerică a pozițiilor, alocărilor, TVA și retenției este corectă. BERGER rămâne EUR 45.000 net / EUR 54.000 brut; PECH EUR 69.300 net / EUR 83.160 brut, la TVA 20 % afișată și sub regulile efective ale facturii.
+
+R08 are preamble=[] și title=WERKVERTRAG. Fiecare dintre cele trei paragrafe introductive R07 apare integral, exact o singură dată și în aceeași ordine în body_de al emailului propriu. Primul identifică prestatorul corespunzător; niciun email nu include cealaltă firmă. Solicitările de observații, contrapropunere și confirmare scrisă sunt păstrate; semnarea bilaterală este distinctă.
+
+Emailurile sunt DRAFT LOCAL / NETRIMIS, fără ID de draft Eva. BERGER: office@bmberger.at, CC gol. PECH: sekretariat@zt-pech.at, CC ployer@zt-pech.at. Nu se afirmă trimiterea, acceptarea sau crearea în Eva.
+
+Ofertele originale din copiile R07 sunt încă identice: BERGER b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b; PECH 29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1. Anexa 5 și numele copiilor sunt exact păstrate în textul R08. Copiile noi R08 vor fi verificate separat după crearea lor.
+
+Limita acestei etape: PDF-ul nu este încă verificat aici. presentation.cover rămâne metadată internă a sursei, dar rendererul trebuie să o omită conform instrucțiunii. Emailurile sursă au momentan attachments=[]; exporturile locale și atașamentele efective se finalizează după PDF. Aceste limite sunt de acoperire, nu o concluzie că finalizarea ar fi defectuoasă.
+
+Datele complete și controalele sunt salvate în 2026.10.13 Audit transfer preambul R08.json. R07 și ofertele nu au fost modificate.

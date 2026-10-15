@@ -1,0 +1,25 @@
+2026.10.14 — Reaudit final al textului pentru draftul Eva-Mail DONAU
+
+VERDICT: textul verificat integral este corespunzător pentru crearea draftului Eva-Mail. Nu confirmă încasarea ori restabilirea acoperirii și nu afirmă nevalabilitatea duratei până în 2036. Crearea și verificarea destinatarilor draftului Eva-Mail aparțin agentului coordonator. Acest audit nu creează și nu trimite emailuri.
+
+Fișier verificat: 2026.10.14 Text reauditat pentru draft Eva-Mail Donau.txt
+SHA-256: 533a28ec4ca327862eeb2fb18058386f4aec12c12cad0b2c721617a002031170
+
+Corecțiile cerute în reaudit sunt aplicate:
+1. Alocarea banilor către cele trei prime este formulată ca cerere de confirmare; pentru o contabilizare diferită se cere acordul pentru realocare. Nu se susține că un email ulterior modifică automat destinația juridică a unui transfer deja executat. Cele trei rate însumează 4.775,43 EUR. Transferul este declarat de utilizator, fără dovadă bancară examinată; se cer încasarea, soldul separat pe prime/dobânzi/costuri și momentul acoperirii pe ramuri.
+2. Solicitarea temeiului expirării 2036 admite expres posibilitatea ca durata să fi fost deja convenită pentru polița X712.261-2. Nu presupune că era obligatoriu un nou acord în 2026. Se cer actele inițiale sau ulterioare, mandatul și recepția documentelor.
+3. §69 este folosit pentru transferul contractului cu durata rămasă. §8 alin.1 privește prelungirea tacită la expirarea duratei convenite; textul spune expres că aceasta nu scurtează o durată fixă valabil convenită. §5 este invocat condiționat, cu solicitarea informării speciale, a abaterilor evidențiate și a dovezilor de primire.
+4. Necunoașterea la semnare este calificată prin relatarea utilizatorului și limitată la conținutul concret X712 și durata până în 2036. Sunt recunoscute mențiunile contractului de cumpărare, transmiterea poliței prin Capra la 2026.03.19 și explicația DONAU din 2026.07.10 privind §69. Contractul de cumpărare art.4.5, 7.1(i), 10.5 a fost verificat anterior în original, paginile 4, 10, 12; aceste prevederi nu susțin afirmația că existența oricărei asigurări era necunoscută.
+5. Declarația trimisă la 2026.10.01 privind încetarea la primul termen permis și cererea de încetare amiabilă sunt menținute. Rezervele privind durata, accesoriile și ajustarea primelor nu sunt prezentate ca dovadă că polița a încetat. Numele și societatea nu sunt repetate după formula finală, deoarece coordonatorul a indicat că Eva adaugă semnătura.
+
+Surse oficiale reverificate pentru acest reaudit:
+§5 VersVG — diferențe față de cerere/acord și cerințele informării speciale:
+https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138449/NOR40138449.html
+§8 VersVG — maximum un an pentru fiecare prelungire tacită:
+https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138452/NOR40138452.html
+§69 VersVG — transferul drepturilor și obligațiilor din raportul de asigurare:
+https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489
+OGH 3 Ob 113/13h, 2013.07.17 — destinația plății se apreciază în raport cu împrejurările de la momentul primirii prestației; împrejurările ulterioare nu modifică retroactiv interpretarea acesteia:
+https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20130717_OGH0002_0030OB00113_13H0000_000&IncludeSelf=True
+
+Limite: auditul validează redactarea și concordanța cu probele cunoscute, nu cunoașterea subiectivă a utilizatorului, executarea/încasarea transferului sau rezultatul juridic al unei eventuale dispute. Lista celor patru adrese DONAU și a celor trei persoane în CC a fost comunicată de coordonator pentru verificarea separată a destinatarilor. La momentul auditului, textul analizat este local și nu are ID Eva-Mail.

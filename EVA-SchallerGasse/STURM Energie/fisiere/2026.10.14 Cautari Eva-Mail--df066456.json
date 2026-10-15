@@ -1,0 +1,1600 @@
+{
+  "data_lizibila": "2026.10.14",
+  "cautari_documente": [
+    {
+      "q": "STURM Vertrag",
+      "result": {
+        "items": [],
+        "total": 0
+      }
+    },
+    {
+      "q": "STURM Vertragsbestätigung",
+      "result": {
+        "items": [],
+        "total": 0
+      }
+    },
+    {
+      "q": "42017328",
+      "result": {
+        "items": [
+          {
+            "id": "f6044271-580a-45a8-8615-685591a8c4f5",
+            "filename": "M_4000114088_277.pdf",
+            "size": 426556,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "d0a04a3d-3691-44ae-8f87-ef060d4d25c3",
+            "filename": "M_4000108055_273.pdf",
+            "size": 427569,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "381de144-a3b1-4016-8c6a-fa6e7e2574bc",
+            "filename": "M_4000108218_284.pdf",
+            "size": 426487,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "5bf7971b-85a8-4a1f-8efd-b595cfee0da1",
+            "filename": "M_4000108037_280.pdf",
+            "size": 427614,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "b2d744d3-a584-4055-9e2f-8b0db809b9bd",
+            "filename": "M_4000108245_276.pdf",
+            "size": 427717,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "4ae1d752-456a-47eb-85ad-219aed507a2b",
+            "filename": "M_4000108057_274.pdf",
+            "size": 426540,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "f9246051-9293-43c2-b459-0d418a43dfbf",
+            "filename": "M_4000108036_278.pdf",
+            "size": 427590,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "59ac05e2-c05d-46e1-a6c0-812d2b5ca685",
+            "filename": "M_4000108033_275.pdf",
+            "size": 427560,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "c85cbb70-fb96-44df-b342-827a98ad134c",
+            "filename": "M_4000108030_283.pdf",
+            "size": 427646,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "ec034254-f9f2-4f69-a253-b9e0f38bf776",
+            "filename": "M_4000108217_272.pdf",
+            "size": 426526,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "76ba9af9-3c46-4af6-b8f7-b88b61d4ab80",
+            "filename": "M_4000108216_281.pdf",
+            "size": 426506,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "0624db03-68b4-4f48-9ff9-76d2c5d9354a",
+            "filename": "M_4000108034_279.pdf",
+            "size": 426482,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "bc870d51-014b-4402-8ff3-b458ca545d74",
+            "filename": "M_4000108032_270.pdf",
+            "size": 426448,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "83168a28-c7db-401d-bba7-75396b60ad9d",
+            "filename": "M_4000108035_271.pdf",
+            "size": 427607,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-13T07:17:46.208548Z",
+            "email_id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "email_subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-13T07:17:36Z"
+          },
+          {
+            "id": "76412d9d-20c5-4b34-a8f3-160c88fe7fcc",
+            "filename": "Gasrechnungen Sturm Energie GmbH - A&C Wohnart Immobilien\r\n GmbH.pdf",
+            "size": 1005143,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:28:14.074552Z",
+            "email_id": "2bc1fedd-f571-402d-8f9e-8d83aee87bdb",
+            "email_subject": "WG: Eingelangt: Gasrechnungen Sturm Energie GmbH - A&C Wohnart Immobilien GmbH",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-08-04T13:09:18Z"
+          },
+          {
+            "id": "171044b0-fe81-4ee0-9ab0-6d70c475297a",
+            "filename": "20260526163706298.pdf",
+            "size": 1836892,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "9bff5e74-e057-48fb-a515-81bf39f15c18",
+            "filename": "20260526163700146.pdf",
+            "size": 1798103,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "5330fdf1-8626-4814-8e9a-81d0cd78030a",
+            "filename": "20260526163655179.pdf",
+            "size": 1791863,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "5fb967fc-904f-4deb-bfa9-37229f949236",
+            "filename": "20260526163644896.pdf",
+            "size": 2073444,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "7fa98b10-3ba5-4669-b9b5-7e206c5aa3d2",
+            "filename": "20260526163650446.pdf",
+            "size": 1796793,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "b90d0be3-0706-499f-bbe7-40a3cd580558",
+            "filename": "20260526163733983.pdf",
+            "size": 1840340,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "587296ce-33f8-4505-bc6e-0b317cdff892",
+            "filename": "20260526163729167.pdf",
+            "size": 1790110,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "c02f078c-ef03-45cc-8ef6-1e9771aee9dc",
+            "filename": "20260526163724473.pdf",
+            "size": 1799439,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "01f73db9-8381-41cb-9d4d-08180e5177dd",
+            "filename": "20260526163714572.pdf",
+            "size": 1802398,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "32a2a24e-459e-4923-a2a9-676e7ec4246c",
+            "filename": "Rechnung_Sturm Energie GmbH_Kundennr. 42017328.pdf",
+            "size": 23774769,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T15:43:53.854224Z",
+            "email_id": "59ee9c56-4009-46d1-9ef4-3cf42edea6a5",
+            "email_subject": "Post zu COVACIU/42222000",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-07-21T10:09:58Z"
+          },
+          {
+            "id": "9c876066-b037-4947-b883-227b34b0eed4",
+            "filename": "Zahlungserinnerungen Sturm Energie GmbH.PDF",
+            "size": 1122697,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T14:53:28.285151Z",
+            "email_id": "3f78b8ef-2252-4f02-ad9b-8155aa1f8a54",
+            "email_subject": "AW: 1120 Wien, Schallergasse 35 (gü)",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-07-02T09:58:59Z"
+          },
+          {
+            "id": "be8f39e9-38dc-4975-b279-c26caca9d2fe",
+            "filename": "Rechnung_Sturm Energie GmbH_Kundennr. 42017328.pdf",
+            "size": 7129939,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T14:50:26.542880Z",
+            "email_id": "c9c43919-d0af-4a78-8ead-6a3b4cbf935e",
+            "email_subject": "WG: Post zu COVACIU/42222000",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-08-17T11:57:37Z"
+          },
+          {
+            "id": "75af73b7-122b-4884-874a-93ccb632dbdf",
+            "filename": "Schreiben von Sturm Energie_A&C Wohnart.pdf",
+            "size": 373005,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-01T14:46:17.099159Z",
+            "email_id": "ee452cda-1d64-4ed9-a337-34949502a39e",
+            "email_subject": "WG: Eingelangt: Schreiben für A&C Wohnart",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-10-01T14:46:04Z"
+          },
+          {
+            "id": "3e787164-dfe4-4daf-8afc-25065320acd9",
+            "filename": "M_4000108057_402.pdf",
+            "size": 426238,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-19T06:08:53.099700Z",
+            "email_id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "email_subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-08-19T06:08:52Z"
+          },
+          {
+            "id": "c67b8cf2-fa90-4fe7-8239-5a2785131b5b",
+            "filename": "M_4000108218_408.pdf",
+            "size": 426207,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-19T06:08:53.099700Z",
+            "email_id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "email_subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-08-19T06:08:52Z"
+          },
+          {
+            "id": "256462d7-c5f7-4d34-a411-2dc3856b54dd",
+            "filename": "M_4000108216_406.pdf",
+            "size": 426162,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-19T06:08:53.099700Z",
+            "email_id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "email_subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-08-19T06:08:52Z"
+          },
+          {
+            "id": "0818e3e3-cc7d-47ec-a5ef-27b30f46223a",
+            "filename": "M_4000108034_405.pdf",
+            "size": 426194,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-19T06:08:53.099700Z",
+            "email_id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "email_subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-08-19T06:08:52Z"
+          },
+          {
+            "id": "7eba6a52-8b90-4a21-bbfc-e62506f8a87c",
+            "filename": "M_4000114088_404.pdf",
+            "size": 426228,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-19T06:08:53.099700Z",
+            "email_id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "email_subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-08-19T06:08:52Z"
+          },
+          {
+            "id": "44e06244-56e0-4695-9551-8132035dadd8",
+            "filename": "M_4000108032_400.pdf",
+            "size": 426209,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-19T06:08:53.099700Z",
+            "email_id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "email_subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-08-19T06:08:52Z"
+          },
+          {
+            "id": "9ecd3e76-e814-40e0-b180-44178cd291ef",
+            "filename": "M_4000108031_403.pdf",
+            "size": 426190,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-19T06:08:53.099700Z",
+            "email_id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "email_subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-08-19T06:08:52Z"
+          },
+          {
+            "id": "fdaf41ef-c5de-4dde-95ae-d7b608dfbdf4",
+            "filename": "M_4000108217_401.pdf",
+            "size": 426191,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-19T06:08:53.099700Z",
+            "email_id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "email_subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-08-19T06:08:52Z"
+          },
+          {
+            "id": "d2b94b0b-a2d8-456a-b37a-554d10e0f109",
+            "filename": "Rechnung_Sturm Energie GmbH_Kundennr. 42017328.pdf",
+            "size": 7129939,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-17T11:58:48.937837Z",
+            "email_id": "de89fdf0-43bf-4de7-aa6e-bfca1a9a4586",
+            "email_subject": "WG: Post zu COVACIU/42222000",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-08-17T11:58:38Z"
+          },
+          {
+            "id": "c11c0c45-4863-43ea-aea2-fc4adccb72e6",
+            "filename": "Gasrechnungen Sturm Energie GmbH - A&C Wohnart Immobilien GmbH.pdf",
+            "size": 1005143,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-04T13:11:03.735318Z",
+            "email_id": "f3c5f3d9-53f2-45c8-b58d-3d73d1369293",
+            "email_subject": "WG: Eingelangt: Gasrechnungen Sturm Energie GmbH - A&C Wohnart Immobilien GmbH",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-08-04T10:10:49Z"
+          },
+          {
+            "id": "e5d72f5c-50ab-4e68-95ad-de3ebc1f2528",
+            "filename": "Rechnung_Sturm Energie GmbH_Kundennr. 42017328.pdf",
+            "size": 23774769,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-07-21T10:12:03.188946Z",
+            "email_id": "862457af-4c6a-4715-9aaf-b6ed9a910edd",
+            "email_subject": "Post zu COVACIU/42222000",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-07-21T07:11:51Z"
+          },
+          {
+            "id": "a4e7b7fd-c7c3-4e48-9b2f-68c4aa1adfb0",
+            "filename": "R_D_4000114088_29708_10_2026_1.pdf",
+            "size": 158172,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "519128c1-9277-49d5-bde8-69715de0cf58",
+            "filename": "R_D_4000108216_29704_10_2026_1.pdf",
+            "size": 158577,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "1ea1e0fd-b8e6-4d1e-9524-703780df8ee6",
+            "filename": "R_D_4000108034_29702_10_2026_1.pdf",
+            "size": 158082,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "49475fe1-b0a8-46d2-81aa-e32bc1a6cef8",
+            "filename": "R_D_4000108218_29706_10_2026_1.pdf",
+            "size": 158101,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "bdd0030c-601d-4a4e-b643-14fe68900a70",
+            "filename": "R_D_4000108031_29700_10_2026_1.pdf",
+            "size": 158600,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "433d9c37-c22b-4831-aa04-f1caf00b1757",
+            "filename": "R_D_4000108057_29703_10_2026_1.pdf",
+            "size": 158131,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "38fa0208-b6d1-4340-bc09-1bde574c2964",
+            "filename": "R_D_4000108032_29701_10_2026_1.pdf",
+            "size": 158108,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "3d98d309-69ae-4c36-ae29-e9dad98d2ef5",
+            "filename": "R_D_4000108217_29705_10_2026_1.pdf",
+            "size": 158141,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "3e88b14c-936a-4552-a683-0bda11800163",
+            "filename": "R_D_4000108283_29707_10_2026_1.pdf",
+            "size": 213077,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "29228d53-c024-4f2e-9f3b-ceab965c5430",
+            "filename": "20260526163700146.pdf",
+            "size": 1798103,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-02T18:36:35.539857Z",
+            "email_id": "e4ea9f01-8dec-4515-929c-8f156ddfb3e7",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T05:40:42Z"
+          },
+          {
+            "id": "52f6c746-0ed7-4e8e-ae8f-02fe6454444f",
+            "filename": "20260526163714572.pdf",
+            "size": 1802398,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-02T18:36:35.539857Z",
+            "email_id": "e4ea9f01-8dec-4515-929c-8f156ddfb3e7",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T05:40:42Z"
+          }
+        ],
+        "total": 50
+      }
+    },
+    {
+      "q": "42018142",
+      "result": {
+        "items": [
+          {
+            "id": "a4cbd8a2-c6a3-4ad6-b0db-1fffbd0b60f8",
+            "filename": "Kontoauszug_4000112572.pdf",
+            "size": 122132,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-07T06:24:06.670000Z",
+            "email_id": "97799dc8-4942-4fd9-9142-003a0954f058",
+            "email_subject": "(Ticket #365740) 42018142 - Ihr Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-07T06:23:52Z"
+          },
+          {
+            "id": "e11720c2-62e8-47b3-854e-b65405d9e061",
+            "filename": "M_4000112571_282.pdf",
+            "size": 426702,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-07T06:24:06.670000Z",
+            "email_id": "97799dc8-4942-4fd9-9142-003a0954f058",
+            "email_subject": "(Ticket #365740) 42018142 - Ihr Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-07T06:23:52Z"
+          },
+          {
+            "id": "ce6dd5ce-5f1c-4a30-ab8c-c956fefdf892",
+            "filename": "EM_4000112572_62.pdf",
+            "size": 426266,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-07T06:24:06.670000Z",
+            "email_id": "97799dc8-4942-4fd9-9142-003a0954f058",
+            "email_subject": "(Ticket #365740) 42018142 - Ihr Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-07T06:23:52Z"
+          },
+          {
+            "id": "265a0cff-745b-4342-a17f-8f4088ba26aa",
+            "filename": "R_D_4000112572_29721_10_2026_1.pdf",
+            "size": 168098,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-07T06:24:06.670000Z",
+            "email_id": "97799dc8-4942-4fd9-9142-003a0954f058",
+            "email_subject": "(Ticket #365740) 42018142 - Ihr Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-07T06:23:52Z"
+          },
+          {
+            "id": "c2274e15-9db4-4d92-9a99-2ce7b8d0617b",
+            "filename": "R_D_4000112571_41422_10_2026_11804.pdf",
+            "size": 221218,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-07T06:24:06.670000Z",
+            "email_id": "97799dc8-4942-4fd9-9142-003a0954f058",
+            "email_subject": "(Ticket #365740) 42018142 - Ihr Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-07T06:23:52Z"
+          },
+          {
+            "id": "06e819a0-5a16-4726-9bce-59d097ad609c",
+            "filename": "Kontoauszug_4000112571.pdf",
+            "size": 121338,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-07T06:24:06.670000Z",
+            "email_id": "97799dc8-4942-4fd9-9142-003a0954f058",
+            "email_subject": "(Ticket #365740) 42018142 - Ihr Kundenkonto",
+            "email_sender": "kundendienst@sturmenergie.at",
+            "email_date": "2026-10-07T06:23:52Z"
+          },
+          {
+            "id": "005005ac-fdc9-4290-afd9-09f7fa4ef790",
+            "filename": "20260526163719642.pdf",
+            "size": 1819710,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T16:24:08.021272Z",
+            "email_id": "bdbfaefe-8a2e-4151-a3a6-18d4c11b9fad",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T08:38:29Z"
+          },
+          {
+            "id": "761657cc-9412-416c-a037-c98fa1098f9f",
+            "filename": "Rechnung_Sturm Energie GmbH_Kundennr. 42018142.pdf",
+            "size": 3191850,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T15:43:53.854224Z",
+            "email_id": "59ee9c56-4009-46d1-9ef4-3cf42edea6a5",
+            "email_subject": "Post zu COVACIU/42222000",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-07-21T10:09:58Z"
+          },
+          {
+            "id": "9c876066-b037-4947-b883-227b34b0eed4",
+            "filename": "Zahlungserinnerungen Sturm Energie GmbH.PDF",
+            "size": 1122697,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T14:53:28.285151Z",
+            "email_id": "3f78b8ef-2252-4f02-ad9b-8155aa1f8a54",
+            "email_subject": "AW: 1120 Wien, Schallergasse 35 (gü)",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-07-02T09:58:59Z"
+          },
+          {
+            "id": "040c58c9-9a9d-4ffc-976d-aaf76c853509",
+            "filename": "Rechnung_Sturm Energie GmbH_Kundennr. 42018142.pdf",
+            "size": 1014696,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-02T14:50:26.542880Z",
+            "email_id": "c9c43919-d0af-4a78-8ead-6a3b4cbf935e",
+            "email_subject": "WG: Post zu COVACIU/42222000",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-08-17T11:57:37Z"
+          },
+          {
+            "id": "75af73b7-122b-4884-874a-93ccb632dbdf",
+            "filename": "Schreiben von Sturm Energie_A&C Wohnart.pdf",
+            "size": 373005,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-10-01T14:46:17.099159Z",
+            "email_id": "ee452cda-1d64-4ed9-a337-34949502a39e",
+            "email_subject": "WG: Eingelangt: Schreiben für A&C Wohnart",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-10-01T14:46:04Z"
+          },
+          {
+            "id": "93acbf70-7dbb-4680-b65c-a63f15adfaa8",
+            "filename": "R_D_4000112572_29721_10_2026_1.pdf",
+            "size": 168098,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-26T14:02:23.016390Z",
+            "email_id": "f7bf25c4-2751-4693-ac76-b2d2f90e3a5c",
+            "email_subject": "(Ticket #358681) Schallergasse 35/5, 1120 Wien",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-08-26T14:02:16Z"
+          },
+          {
+            "id": "c72ba189-2116-430b-a671-1aa8d78c28b5",
+            "filename": "2026.07.28_4000112572_Zahlungserinnerung.pdf",
+            "size": 106843,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-26T14:02:23.016390Z",
+            "email_id": "f7bf25c4-2751-4693-ac76-b2d2f90e3a5c",
+            "email_subject": "(Ticket #358681) Schallergasse 35/5, 1120 Wien",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-08-26T14:02:16Z"
+          },
+          {
+            "id": "8668d7c9-499e-461f-96bd-37cb02441c70",
+            "filename": "Rechnung_Sturm Energie GmbH_Kundennr. 42018142.pdf",
+            "size": 1014696,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-08-17T11:58:48.937837Z",
+            "email_id": "de89fdf0-43bf-4de7-aa6e-bfca1a9a4586",
+            "email_subject": "WG: Post zu COVACIU/42222000",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-08-17T11:58:38Z"
+          },
+          {
+            "id": "c874e48b-8697-48fb-9f97-4fe3063b8327",
+            "filename": "Rechnung_Sturm Energie GmbH_Kundennr. 42018142.pdf",
+            "size": 3191850,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-07-21T10:12:03.188946Z",
+            "email_id": "862457af-4c6a-4715-9aaf-b6ed9a910edd",
+            "email_subject": "Post zu COVACIU/42222000",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-07-21T07:11:51Z"
+          },
+          {
+            "id": "ce19360a-0f3b-403d-a82d-4486e8fa112b",
+            "filename": "R_D_4000112572_29721_10_2026_1.pdf",
+            "size": 168098,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "02547af5-9016-44ae-af10-db12b220e860",
+            "filename": "4000112571_Kontoauszug.pdf",
+            "size": 185867,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-17T06:01:00.349191Z",
+            "email_id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "email_subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "email_sender": "grosskunde@sturmenergie.at",
+            "email_date": "2026-06-17T06:00:58Z"
+          },
+          {
+            "id": "c74f4dd6-d3f9-4bd5-b471-612ca635c6c4",
+            "filename": "20260526163719642.pdf",
+            "size": 1819710,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-06-02T18:36:35.539857Z",
+            "email_id": "e4ea9f01-8dec-4515-929c-8f156ddfb3e7",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T05:40:42Z"
+          },
+          {
+            "id": "9c9a199e-3c38-4fd2-b2af-b0fc8c05cc9f",
+            "filename": "20260526163719642.pdf",
+            "size": 1819710,
+            "mime_type": "application/pdf",
+            "source": "email_attachment",
+            "has_text": true,
+            "created_at": "2026-05-27T09:00:05.087364Z",
+            "email_id": "e4ea9f01-8dec-4515-929c-8f156ddfb3e7",
+            "email_subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+            "email_sender": "Bogdan.Capra@cerhahempel.com",
+            "email_date": "2026-05-27T05:40:42Z"
+          }
+        ],
+        "total": 19
+      }
+    }
+  ],
+  "cautari_email": [
+    {
+      "query": {
+        "sender": "sturmenergie",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "0fed52e8-a06b-47c5-ba04-84e5eb934d9f",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "(Ticket #365759) 42017328 - Ihr ehemaliges Kundenkonto",
+            "from_name": "kundendienst@sturmenergie.at",
+            "from_address": "kundendienst@sturmenergie.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-13T07:17:36Z",
+            "snippet": "Sehr geehrte Damen und Herren , leider müssen wir Ihnen mitteilen, dass Ihre Mahnung postalisch nich",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "kundendienst@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "M_4000108036_278.pdf",
+              "M_4000108245_276.pdf",
+              "M_4000108037_280.pdf",
+              "M_4000108218_284.pdf",
+              "M_4000108055_273.pdf",
+              "M_4000114088_277.pdf",
+              "M_4000108033_275.pdf",
+              "M_4000108030_283.pdf",
+              "M_4000108057_274.pdf",
+              "M_4000108217_272.pdf"
+            ]
+          },
+          {
+            "id": "97799dc8-4942-4fd9-9142-003a0954f058",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "(Ticket #365740) 42018142 - Ihr Kundenkonto",
+            "from_name": "kundendienst@sturmenergie.at",
+            "from_address": "kundendienst@sturmenergie.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-10-07T06:23:52Z",
+            "snippet": "Sehr geehrte Damen und Herren , leider müssen wir Ihnen mitteilen, dass Ihre Zahlungserinnerung post",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "kundendienst@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "inline",
+              "R_D_4000112572_29721_10_2026_1.pdf",
+              "R_D_4000112571_41422_10_2026_11804.pdf",
+              "Kontoauszug_4000112571.pdf",
+              "M_4000112571_282.pdf",
+              "EM_4000112572_62.pdf",
+              "Kontoauszug_4000112572.pdf"
+            ]
+          },
+          {
+            "id": "f7bf25c4-2751-4693-ac76-b2d2f90e3a5c",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "(Ticket #358681) Schallergasse 35/5, 1120 Wien",
+            "from_name": "grosskunde@sturmenergie.at",
+            "from_address": "grosskunde@sturmenergie.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-08-26T14:02:16Z",
+            "snippet": "Sehr geehrte Damen und Herren, da die Mahnung im Anhang postalisch leider nicht zugestellt werden ko",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "inline",
+              "R_D_4000112572_29721_10_2026_1.pdf",
+              "2026.07.28_4000112572_Zahlungserinnerung.pdf"
+            ]
+          },
+          {
+            "id": "4fa309a0-d98c-40f2-b45c-91599714bb49",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "(Ticket #357112) 42017328 - Ihr ehemaliges Kundenkonto",
+            "from_name": "kundendienst@sturmenergie.at",
+            "from_address": "kundendienst@sturmenergie.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-08-19T06:08:52Z",
+            "snippet": "Sehr geehrter Herr Covaciu, leider müssen wir Ihnen mitteilen, dass Ihre Mahnungen postalisch nicht ",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "kundendienst@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "M_4000108218_408.pdf",
+              "M_4000108057_402.pdf",
+              "M_4000108032_400.pdf",
+              "M_4000108031_403.pdf",
+              "inline",
+              "M_4000108216_406.pdf",
+              "M_4000108217_401.pdf",
+              "M_4000108034_405.pdf",
+              "M_4000114088_404.pdf"
+            ]
+          },
+          {
+            "id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "grosskunde@sturmenergie.at",
+            "from_address": "grosskunde@sturmenergie.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-06-17T06:00:58Z",
+            "snippet": "Sehr geehrter Herr Covaciu, vielen Dank für Ihre E-Mail. Wir als Energielieferant können keine Auskü",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "4000112571_Kontoauszug.pdf",
+              "R_D_4000108216_29704_10_2026_1.pdf",
+              "R_D_4000108034_29702_10_2026_1.pdf",
+              "R_D_4000108218_29706_10_2026_1.pdf",
+              "R_D_4000108031_29700_10_2026_1.pdf",
+              "R_D_4000108057_29703_10_2026_1.pdf",
+              "R_D_4000112572_29721_10_2026_1.pdf",
+              "Anlagenliste_Schallergasse_35_16.06.2026.pdf",
+              "R_D_4000108032_29701_10_2026_1.pdf",
+              "R_D_4000114088_29708_10_2026_1.pdf"
+            ]
+          },
+          {
+            "id": "1337c803-46d0-4983-bb88-90200b47c5db",
+            "account_email": "covaciu.gnm@eva-org.com",
+            "subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "grosskunde@sturmenergie.at",
+            "from_address": "grosskunde@sturmenergie.at",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-06-08T12:19:12Z",
+            "snippet": "Sehr geehrte Damen und Herren, betreffend nachstehender E-Mail bitte ich nochmals h&ouml;flich um entsprechende R&uuml;c",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "inline"
+            ]
+          },
+          {
+            "id": "46501cec-fcab-438b-b607-aaabbb67e149",
+            "account_email": "covaciu.gnm@eva-org.com",
+            "subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "grosskunde@sturmenergie.at",
+            "from_address": "grosskunde@sturmenergie.at",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-06-01T08:39:01Z",
+            "snippet": "Sehr geehrter Herr Covaciu, vielen Dank f&uuml;r Ihre E-Mail. Wie bereits im M&auml;rz 2026 der Hausverwaltung Hofhans m",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "inline"
+            ]
+          },
+          {
+            "id": "9a1e6f34-7678-4b9e-ac80-9a98aa27ac1f",
+            "account_email": "covaciu.gnm@eva-org.com",
+            "subject": "(Ticket #339194) Empfangsbestätigung: Dringend: 1120 Wien, Schallergasse 35 – Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "grosskunde@sturmenergie.at",
+            "from_address": "grosskunde@sturmenergie.at",
+            "to": [
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-05-27T17:59:43Z",
+            "snippet": "Sehr geehrte Damen und Herren, vielen Dank f&uuml;r Ihre E-Mail. Da uns derzeit eine Vielzahl von Anfragen erreicht, bit",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          }
+        ],
+        "total": 8,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "query": {
+        "query": "STURM",
+        "is_sent": true,
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "2dd29262-8d57-41c2-81e5-80e3b909d32e",
+            "account_email": "cosmin@ig.ro",
+            "subject": "Re: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+            "from_name": "cosmin@ig.ro",
+            "from_address": "cosmin@ig.ro",
+            "to": [
+              "C.Loschy@donauversicherung.at"
+            ],
+            "received_at": "2026-07-01T04:42:36.971285Z",
+            "snippet": "Betreff: Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte Basisdeckung ab 01.07.2026 / Zahlung",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "C.Loschy@donauversicherung.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "30da3512-03a0-4d68-b25b-a7c58ac482d8",
+            "account_email": "cosmin@ig.ro",
+            "subject": "Re: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+            "from_name": "Cosmin Covaciu",
+            "from_address": "cosmin@ig.ro",
+            "to": [
+              "C.Loschy@donauversicherung.at"
+            ],
+            "received_at": "2026-07-01T04:42:35Z",
+            "snippet": "Betreff: Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte Basisdeckung ab 01.07.2026 / Zahlung",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "C.Loschy@donauversicherung.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "4041dc7c-ab5c-4dce-bc8c-87b0f41a25ad",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "(Ticket #339194) Dringend: 1120 Wien, Schallergasse 35 – Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "grosskunde@sturmenergie.at"
+            ],
+            "received_at": "2026-06-08T11:29:49.544214Z",
+            "snippet": "Sehr geehrte Frau Edelmann,\nvielen Dank für Ihre Rückmeldung und Ihre Bemühungen in dieser Angelegen",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          },
+          {
+            "id": "4d4ae41f-d8c7-4401-b44d-e88d8534e3ee",
+            "account_email": "covaciu.gnm@eva-org.com",
+            "subject": "Re: Update - Schallergasse 35, 1120 Wien [COVACIU/42222000]",
+            "from_name": "Cosmin Covaciu",
+            "from_address": "covaciu.gnm@gmail.com",
+            "to": [
+              "Bogdan.Capra@cerhahempel.com"
+            ],
+            "received_at": "2026-03-25T09:33:17Z",
+            "snippet": "Buna ziua, Miine voi fi in Viena si as vrea sa va rog sa imi predati cheile de la cladire. De asemnea va multumesc pentr",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "1: To respond"
+            ],
+            "folder": "Bogdan.Capra@cerhahempel.com",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.jpg",
+              "image002.jpg",
+              "image003.jpg"
+            ]
+          }
+        ],
+        "total": 4,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "query": {
+        "query": "323811",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "grosskunde@sturmenergie.at",
+            "from_address": "grosskunde@sturmenergie.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-06-17T06:00:58Z",
+            "snippet": "Sehr geehrter Herr Covaciu, vielen Dank für Ihre E-Mail. Wir als Energielieferant können keine Auskü",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "4000112571_Kontoauszug.pdf",
+              "R_D_4000108216_29704_10_2026_1.pdf",
+              "R_D_4000108034_29702_10_2026_1.pdf",
+              "R_D_4000108218_29706_10_2026_1.pdf",
+              "R_D_4000108031_29700_10_2026_1.pdf",
+              "R_D_4000108057_29703_10_2026_1.pdf",
+              "R_D_4000112572_29721_10_2026_1.pdf",
+              "Anlagenliste_Schallergasse_35_16.06.2026.pdf",
+              "R_D_4000108032_29701_10_2026_1.pdf",
+              "R_D_4000114088_29708_10_2026_1.pdf"
+            ]
+          },
+          {
+            "id": "27bf0629-cfa8-4c4a-87bf-90fc23132bac",
+            "account_email": "covaciu.gnm@eva-org.com",
+            "subject": "AW: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35 – Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "grosskunde@sturmenergie.at",
+              "covaciu.gnm@gmail.com"
+            ],
+            "received_at": "2026-06-08T12:26:39Z",
+            "snippet": "Sehr geehrte Damen und Herren, die gegenständliche Sache ist direkt mit dem Kunden bzw. Herrn Covaciu (cc) zu klären. Re",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image001.jpg",
+              "image002.jpg",
+              "image003.jpg",
+              "image004.png",
+              "image005.jpg"
+            ]
+          },
+          {
+            "id": "4041dc7c-ab5c-4dce-bc8c-87b0f41a25ad",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "(Ticket #339194) Dringend: 1120 Wien, Schallergasse 35 – Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "office@ac-wohnart.at",
+            "from_address": "office@ac-wohnart.at",
+            "to": [
+              "grosskunde@sturmenergie.at"
+            ],
+            "received_at": "2026-06-08T11:29:49.544214Z",
+            "snippet": "Sehr geehrte Frau Edelmann,\nvielen Dank für Ihre Rückmeldung und Ihre Bemühungen in dieser Angelegen",
+            "category": "fyi",
+            "labels": [
+              "SENT",
+              "3: Fyi"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": true,
+            "has_attachments": true,
+            "attachment_names": [
+              "A&C Grundbuchauszug_ KG 01305_ EZ 2235.PDF"
+            ]
+          }
+        ],
+        "total": 3,
+        "limit": 50,
+        "offset": 0
+      }
+    },
+    {
+      "query": {
+        "query": "323971",
+        "limit": 50
+      },
+      "result": {
+        "items": [
+          {
+            "id": "6b370ac8-7c5d-4c28-84bd-2ea6c7cb53e9",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: AW: WG: 1120 Wien, Schallergasse 35 (gü)",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "covaciu.gnm@gmail.com",
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-09-17T12:54:23Z",
+            "snippet": "Cu drag. Eu in weekend plec 10 zile in Tokio, dar dupa ce revin, daca sunteti prin zona, m-as bucura",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "f690b507-f462-48e2-a6f1-2b4d80f87c52",
+            "account_email": "covaciu.gnm@eva-org.com",
+            "subject": "AW: AW: WG: 1120 Wien, Schallergasse 35 (gü)",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "covaciu.gnm@gmail.com",
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-09-17T12:52:44Z",
+            "snippet": "Cu drag. Eu in weekend plec 10 zile in Tokio, dar dupa ce revin, daca sunteti prin zona, m-as bucura sa ne revedem. Salu",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": false,
+            "attachment_names": []
+          },
+          {
+            "id": "b8bab41b-0cd5-40a8-8467-ca9c98c344d4",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "AW: WG: 1120 Wien, Schallergasse 35 (gü)",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-09-17T10:37:09Z",
+            "snippet": "Buna ziua,\r\n\r\nLegat la cele scrise mai jos:\r\n\r\n\r\n  *   Somatia actuala de la dl Kornhofer este de EU",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image007.jpg",
+              "image009.jpg",
+              "image001.jpg",
+              "image010.jpg",
+              "inline",
+              "Produktblatt_EK_Q1e.pdf",
+              "image002.jpg",
+              "image011.jpg",
+              "20260426162134457.pdf",
+              "Traducere_20260426162134457 ro.pdf"
+            ]
+          },
+          {
+            "id": "d5559068-83de-42b8-b7dc-13f3fc63bf8b",
+            "account_email": "covaciu.gnm@eva-org.com",
+            "subject": "AW: WG: 1120 Wien, Schallergasse 35 (gü)",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-09-17T10:35:25Z",
+            "snippet": "Buna ziua, Legat la cele scrise mai jos: * Somatia actuala de la dl Kornhofer este de EUR 8,- (opt euro) si se refera la",
+            "category": "fyi",
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "image007.jpg",
+              "image009.jpg",
+              "image001.jpg",
+              "image010.jpg",
+              "inline",
+              "Produktblatt_EK_Q1e.pdf",
+              "image002.jpg",
+              "image011.jpg",
+              "20260426162134457.pdf",
+              "Traducere_20260426162134457 ro.pdf"
+            ]
+          },
+          {
+            "id": "f51d3f00-9735-4847-babd-7175d2b22c78",
+            "account_email": "office@ac-wohnart.at",
+            "subject": "Re: (Ticket #339194) Dringend: 1120 Wien, Schallergasse 35– Eigentümerwechsel / Verwaltung / Zahlungsdaten",
+            "from_name": "grosskunde@sturmenergie.at",
+            "from_address": "grosskunde@sturmenergie.at",
+            "to": [
+              "office@ac-wohnart.at"
+            ],
+            "received_at": "2026-06-17T06:00:58Z",
+            "snippet": "Sehr geehrter Herr Covaciu, vielen Dank für Ihre E-Mail. Wir als Energielieferant können keine Auskü",
+            "category": "fyi",
+            "labels": [
+              "1: To respond"
+            ],
+            "folder": "grosskunde@sturmenergie.at",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "4000112571_Kontoauszug.pdf",
+              "R_D_4000108216_29704_10_2026_1.pdf",
+              "R_D_4000108034_29702_10_2026_1.pdf",
+              "R_D_4000108218_29706_10_2026_1.pdf",
+              "R_D_4000108031_29700_10_2026_1.pdf",
+              "R_D_4000108057_29703_10_2026_1.pdf",
+              "R_D_4000112572_29721_10_2026_1.pdf",
+              "Anlagenliste_Schallergasse_35_16.06.2026.pdf",
+              "R_D_4000108032_29701_10_2026_1.pdf",
+              "R_D_4000114088_29708_10_2026_1.pdf"
+            ]
+          },
+          {
+            "id": "c49b8bb4-270e-4de7-b375-b00f819fa021",
+            "account_email": "covaciu.gnm@eva-org.com",
+            "subject": "WG: (Ticket #323971) AW: 1120 Wien, Schallergasse 35 (gü)",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "covaciu.gnm@gmail.com",
+              "cosmin.covaciu@ipec.ro"
+            ],
+            "received_at": "2026-03-25T15:58:41Z",
+            "snippet": "Va trimit mai jos si in atasament oferta de curent de la Sturm Energie, actualul provider. Daca aveti nevoie de traudece",
+            "category": "fyi",
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "inline",
+              "Produktblatt_EK_Q1e.pdf",
+              "AGB.pdf"
+            ]
+          },
+          {
+            "id": "272a2487-f323-4092-b814-9acbdd646a70",
+            "account_email": "cosmin.covaciu@ipec.ro",
+            "subject": "WG: (Ticket #323971) AW: 1120 Wien, Schallergasse 35 (gü)",
+            "from_name": "Capra Bogdan",
+            "from_address": "Bogdan.Capra@cerhahempel.com",
+            "to": [
+              "covaciu.gnm@gmail.com",
+              "cosmin.covaciu@ipec.ro"
+            ],
+            "received_at": "2026-03-25T13:59:27Z",
+            "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+            "category": null,
+            "labels": [
+              "3: Fyi"
+            ],
+            "folder": "Capra Bogdan",
+            "is_read": true,
+            "is_starred": false,
+            "is_sent": false,
+            "has_attachments": true,
+            "attachment_names": [
+              "inline",
+              "AGB.pdf",
+              "Produktblatt_EK_Q1e.pdf"
+            ]
+          }
+        ],
+        "total": 7,
+        "limit": 50,
+        "offset": 0
+      }
+    }
+  ],
+  "limita": "Cautarea documente 42017328 atinge plafonul de 50 rezultate; nu este considerata exhaustiva. Completare cu indexul local si inventarul atasamentelor mesajelor."
+}

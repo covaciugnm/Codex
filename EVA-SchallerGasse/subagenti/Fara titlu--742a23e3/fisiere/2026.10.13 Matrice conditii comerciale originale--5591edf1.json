@@ -1,0 +1,246 @@
+{
+  "data_verificarii": "2026.10.13",
+  "obiect": "Condițiile originale BERGER și PECH, separate de extinderile și derogările propuse de AG",
+  "metoda": "Citire integrală în PDF-urile originale copiate în dosarele prestatorilor din 2026.10.13; hash-urile identice cu sursele arhivate. Control vizual BERGER p1–4 și PECH p1, p3–4; PECH p2 citit integral ca text din original. Imaginile istorice p1/p3 au fost reutilizate pentru originalele cu același conținut; p2/p4 BERGER și p3/p4 PECH randate temporar pentru verificare. Nicio modificare a originalelor.",
+  "reguli": [
+    "Sumele pozițiilor sunt nete; lipsa unui preț nu înseamnă zero.",
+    "Condițiile din oferta originală nu dovedesc acceptarea A&C, disponibilitatea actuală sau acceptarea extinderilor AG.",
+    "Calendarul calculat al valabilității este separat de textul ofertei și de o eventuală prelungire confirmată.",
+    "Nu sunt incluse BauKG sau REALiG Baumanagement/Planung în propunerile analizate.",
+    "Oferta BERGER nu dovedește o abilitare ZT activă numai prin formula Ingenieurkonsulent für Bauingenieurwesen rB; oferta PECH nu este probă actualizată de asigurare ori de numire a persoanelor."
+  ],
+  "oferte": [
+    {
+      "id": "BERGER",
+      "nume_legal_original": "Bmstr. Dipl.Ing.(FH) Markus BERGER GmbH",
+      "mentiune_profesionala_originala": "Ingenieurkonsulent für Bauingenieurwesen rB",
+      "adresa_originala": "Schönbrunner Straße 123/2, 1050 Wien",
+      "persoana_originala": "Bmstr. Dipl.Ing.(FH) Markus BERGER, geschäftsführender Gesellschafter",
+      "email_original": "office@bmberger.at",
+      "FN_in_oferta": null,
+      "UID_in_oferta": null,
+      "data_oferta": "2026.08.17",
+      "numar_oferta": null,
+      "original": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Propunere contract/2026.10.12 Oferta originala BERGER 2026.08.17.pdf",
+      "sha256": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+      "pagini": 4,
+      "moneda": "EUR",
+      "pozitii": [
+        {
+          "serviciu_original": "Statik",
+          "net": 13000,
+          "sursa": "p2",
+          "conditie_originala": "Preț condiționat de lipsa unei schimbări statice relevante față de predimensionare, în special conceptul static."
+        },
+        {
+          "serviciu_original": "Konstruktionspläne",
+          "net": 20000,
+          "sursa": "p2",
+          "continut_original": "Planuri constructive, exemple cofraj/armare și/sau Stahlbauführungspläne, liste de piese și informațiile necesare execuției; Polierpläne ca bază; planurile constructive/cofraj trebuie aprobate de AG ori proiectantul de execuție. Planurile de atelier sunt întocmite de executant și ulterior aprobate."
+        },
+        {
+          "serviciu_original": "Statische Betreuung während der Bauphase",
+          "net": 2000,
+          "sursa": "p2",
+          "limita_originala": "Prezență la ședințele de șantier după necesitate, maximum 8 vizite."
+        },
+        {
+          "serviciu_original": "Prüfingenieurtätigkeiten gemäß Wiener Bauordnung",
+          "net": 10000,
+          "sursa": "p3",
+          "limita_originala": "Verificări și Abnahmebefunde §127; Vorhalten des Prüfingenieurs până la Rohbaubeschau, plus anexa la Fertigstellungsanzeige §128. Presupune confirmările Bauführer și ÖBA/Bauwerber privind conformitatea, condițiile autorizației, poziția/înălțimea și lipsa modificărilor care impun Planwechsel. Nu există un număr explicit al tuturor vizitelor PI."
+        }
+      ],
+      "total_net_original": 45000,
+      "TVA_procent_original": 20,
+      "TVA_suma_originala": 9000,
+      "total_brut_original": 54000,
+      "total_sursa": "p1",
+      "subtotal_structura_asistenta_calculat": {
+        "net": 35000,
+        "formula": "13000 + 20000 + 2000",
+        "statut": "Subtotal matematic, nu ofertă distinctă acceptabilă automat; Teilvergaben numai după consultare."
+      },
+      "vizite": {
+        "asistenta_maxim_original": 8,
+        "PI_numar_exprimat": null,
+        "pret_vizita_suplimentara_ofertat": null,
+        "nota": "Nu se extinde limita de 8 vizite asupra tuturor controalelor PI și nu se inventează un tarif fix suplimentar."
+      },
+      "durata_incepere_originale": {
+        "p1": "Început prin acord; circa 12 luni pentru serviciile proprii.",
+        "p3": "După returnarea ofertei semnate începe imediat lucrul.",
+        "concluzie": "Cele două formulări se citesc împreună; începutul și datele livrărilor trebuie convenite. Nu există un termen exact pentru D1–D5 ori un început la o anumită dată calendaristică."
+      },
+      "plata_originala": {
+        "termen_zile": 14,
+        "formulare": "14 zile fără deduceri pentru fiecare factură; facturi parțiale și plăți intermediare în funcție de îndeplinirea serviciilor.",
+        "sursa": "p3",
+        "retentie_numeric_precizata": null,
+        "nota": "Oferta nu prevede o reținere numerică, dar absența nu se traduce prin valoare zero sau acceptarea unei retenții AG de 5%."
+      },
+      "valabilitate_originala": {
+        "text": "8 săptămâni",
+        "sursa": "p3",
+        "data_expirare_calculata": "2026.10.12",
+        "formula_calendar": "2026.08.17 + 56 zile",
+        "nota": "Calcul de la data ofertei; prelungirea și disponibilitatea actuală nu sunt confirmate prin aceste PDF-uri. La 2026.10.13 termenul calculat este trecut."
+      },
+      "regie_net_EUR_ora": {
+        "Baumeister_Ziviltechniker": 150,
+        "qualifizierter_Techniker": 135,
+        "Techniker": 95,
+        "Sekretariat": 75,
+        "sursa": "p3"
+      },
+      "excluderi_si_limite_originale": [
+        "Baugrubensicherung, Stützmauern și Außenanlagen sunt calculate bauseits; AN furnizează numai încărcările propriului imobil (p2).",
+        "Planurile de atelier nu sunt întocmite de AN; executanții le întocmesc, urmând aprobarea lor (p2).",
+        "Specialiști externi: geotehnician, geometru și instalații, inclusiv electrice, încălzire, ventilație, etanșeitate și sistem energetic alternativ (p3).",
+        "Săpături pentru investigarea fundațiilor existente și deschideri de probă la elemente portante/planșeul superior (p3).",
+        "Calcule pentru transmiterea în continuare a încărcărilor asupra puțurilor de metrou (p3).",
+        "Asistență pentru cumpărători/chiriași (p3).",
+        "Atribuiri parțiale numai după consultare; eforturile suplimentare plătite separat (p3).",
+        "O copie pe hârtie plus transmitere electronică generică; DWG/DXF/IFC/native și drepturi de modificare/terți nu sunt precizate (p3)."
+      ],
+      "Bauwerksbuch_original": "Nu este oferit explicit în cele 4 pagini.",
+      "Planwechsel_inclus_original": "Nu există o cotă inclusă exprimată; clauza PI presupune lipsa modificărilor care necesită Planwechsel.",
+      "indexare_originala": "Nu este precizată explicit; aceasta nu confirmă un preț fix fără condiții pentru toate extinderile ulterioare.",
+      "asigurare_actuala": "Nedovedită în acest original; nu se afirmă lipsa asigurării și nici o valoare confirmată.",
+      "acceptare": "p4 are semnătura prestatorului; nu dovedește acceptarea beneficiarului ori începerea lucrărilor."
+    },
+    {
+      "id": "PECH",
+      "nume_legal_original": "Dr. PECH Ziviltechnikergesellschaft mbH",
+      "adresa_originala": "Johann Strauß-Gasse 32/11, 1040 Wien",
+      "FN_in_oferta": "426034x",
+      "UID_in_oferta": "ATU69226367",
+      "persoana_proiect_originala": "Bernhard Ployer",
+      "ofertare_originala": "Spirkoska Gabriela",
+      "email_original": "office@zt-pech.at; ployer@zt-pech.at",
+      "data_oferta": "2026.09.17",
+      "numar_oferta": "2026-470/AN01",
+      "original": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Propunere contract/2026.10.12 Oferta originala PECH 2026.09.17.pdf",
+      "sha256": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+      "pagini": 4,
+      "moneda": "EUR",
+      "pozitii": [
+        {
+          "pozitie": "01",
+          "serviciu_original": "Ausführungsstatik",
+          "net": 42000,
+          "sursa": "p1–2"
+        },
+        {
+          "pozitie": "02",
+          "serviciu_original": "Durchbruchsplanung Bestand",
+          "net": 6000,
+          "sursa": "p1–2"
+        },
+        {
+          "pozitie": "03",
+          "serviciu_original": "Baugrubensicherung",
+          "net": 5000,
+          "sursa": "p1–2"
+        },
+        {
+          "pozitie": "04",
+          "serviciu_original": "Untergrundbeschau",
+          "net": 800,
+          "sursa": "p1–2"
+        },
+        {
+          "pozitie": "05",
+          "serviciu_original": "Baubegleitung – 12 Abnahmen inkludiert",
+          "net": 14000,
+          "sursa": "p1–2"
+        },
+        {
+          "pozitie": "06",
+          "serviciu_original": "Schlussunterlagen",
+          "net": 1500,
+          "sursa": "p1–2"
+        }
+      ],
+      "referinta_LB_originala": "Fiecare poziție trimite la Leistungsbeschreibung vom Auftraggeber. Oferta nu identifică versiunea/data respectivei descrieri; nu este confirmarea separată a fiecărui detaliu din contractul AG nou.",
+      "total_net_original": 69300,
+      "TVA_procent_original": 20,
+      "TVA_suma_originala": 13860,
+      "total_brut_original": 83160,
+      "total_sursa": "p1",
+      "vizite": {
+        "Abnahmen_incluse": 12,
+        "extra_net_EUR_Abnahme": 450,
+        "extra_brut_EUR_calculat_20pct": 540,
+        "sursa": "p1–2",
+        "nota": "12 recepții, nu o confirmare separată a rolului PI, a tuturor ședințelor/RFI ori a unei durate de 12 luni."
+      },
+      "durata_incepere_originale": {
+        "durata_fixa_luni": null,
+        "termen_livrare_fix": null,
+        "text": "Durata se stabilește cu AG; început cel mai devreme după comanda scrisă și cu documentele necesare. Se comunică denumirea firmei, adresa de facturare și UID.",
+        "sursa": "p1 și p4",
+        "comanda_originala": "Returul ofertei completate și semnate sau scrisoare formală de comandă cu referința ofertei și datele necesare."
+      },
+      "plata_originala": {
+        "termen_zile": 14,
+        "formulare": "14 zile fără deduceri de la data facturii; facturi parțiale lunare și TVA aferentă.",
+        "retentie": "Kein Haftrücklass — fără retenție, explicit.",
+        "reclamatie_factura": "AGB prevăd reclamație în 14 zile, ulterior considerarea facturii acceptate ca sumă și conținut.",
+        "sursa": "p1 și p4"
+      },
+      "valabilitate_originala": {
+        "text": "90 zile de la data ofertei",
+        "sursa": "p1 și p4",
+        "data_expirare_calculata": "2026.12.16",
+        "formula_calendar": "2026.09.17 + 90 zile",
+        "nota": "Calcul calendaristic; nu confirmă disponibilitatea ori acceptarea extinderilor AG."
+      },
+      "regie_net_EUR_ora": {
+        "Ziviltechniker": 195,
+        "Projektleiter": 145,
+        "Techniker": 125,
+        "Technischer_Zeichner": 95,
+        "sursa": "p3"
+      },
+      "excluderi_si_limite_originale": [
+        "AGB prevăd indexarea valorii cu ZT-Index; nu este un preț fix neindexabil până la finalul proiectului (p4).",
+        "Schimbări peste uzual din sfera AG/partenerilor pot fi în regie; timpul neprevăzut se notifică și se decide oprire ori continuare cu costuri majorate (p3–4).",
+        "Întârzierile din afara sferei AN nu se includ în timpul de lucru; staționările pot fi în regie (p4).",
+        "Ridicarea și returnarea cheilor sunt suplimentare (p4).",
+        "Închiderea probelor/restabilirea existentului sunt ale AG dacă nu se comandă separat; AG trebuie să comunice traseele/elements ascunse; sunt stipulate indemnizări și excluderi pentru anumite deteriorări (p4).",
+        "Drepturile asupra datelor, planurilor, schițelor și fotografiilor rămân la PECH chiar după plată, inclusiv privind execuția, modificarea și reproducerea de terți (p4).",
+        "Formatele precise PDF/DWG/DXF/IFC/native, programul D1–D5, cantitățile/listele și toate nodurile/ancorele nu sunt individual enumerate; se trimite generic la descrierea AG (p1–4)."
+      ],
+      "Pruefingenieur_original": "Nu este confirmat explicit ca rol/preluare/numire; Baubegleitung și Schlussunterlagen nu sunt automat echivalente.",
+      "Bauwerksbuch_original": "Nu este oferit explicit în cele 4 pagini.",
+      "asigurare_actuala": "Nedovedită în acest original; nu se afirmă lipsa asigurării și nici o valoare confirmată.",
+      "acceptare": "Formularul de comandă AG de la p3 este gol și nesemnat; nu este acceptare comercială sau lucrare începută."
+    }
+  ],
+  "clauze_noi_AG_distincte_de_originale": [
+    "Bauwerksbuch pentru întregul existent și toate intervențiile noi, în pachetul total păstrat; fără a inventa o poziție istorică de zero EUR.",
+    "Prüfingenieur complet până la final și ZT128 cu persoane eligibile; pentru PECH este extindere explicită, pentru BERGER înlătură limita originală până la Rohbaubeschau.",
+    "Detaliere completă noduri/ancore/suduri, planuri și fișiere editabile/native, as-built, cantități și liste, coordonare și Planwechsel în conceptul stabilit: cerințe noi ori precizări care necesită acceptare expresă.",
+    "Pentru BERGER, integrarea Baugrubensicherung/temporare în același total modifică excluderea originală; pentru PECH poziția03 există deja, dar detaliile extinse trebuie acceptate.",
+    "Plată în 30 de zile, retenție5% net și garanție contractuală minimum 3 ani, licența de modificare/terți, suplimente numai aprobate și preț fix: derogăriAG, nu condiții originale.",
+    "12 luni este o durată orientativă ofertată de BERGER pentru propriile servicii; la PECH durata12 luni, prelungirea15 luni și D1 la 3 săptămâni sunt propuneriAG, nu promisiuni originale.",
+    "Tariful PECH450 EUR net pentru fiecare Abnahme suplimentară și cele 12 Abnahmen sunt păstrate; condiția aprobării prealabile, numărarea comună PI/statică și nefacturarea corectării proprii sunt completăriAG.",
+    "Extinderea calității de proiectant/PI/BWB nu poate crea abilitări, independență ori asigurare prin simplă semnare; acestea sunt condiții de confirmat cu probe actuale."
+  ],
+  "control_numeric": {
+    "BERGER": "13000 + 20000 + 2000 + 10000 =45000; TVA20%=9000; brut54000",
+    "PECH": "42000 +6000 +5000 +800 +14000 +1500 =69300; TVA20%=13860; brut83160",
+    "rezultat": "PASS — toate sumele originale din cele două PDF-uri coincid cu cele păstrate în drafturile analizate."
+  },
+  "fapte_de_corectat_sau_evitat": [
+    "Nu numi cei42.000 EUR totalul PECH; reprezintă exclusiv poziția 01.",
+    "Nu atribui PECH un termen original fix de12 luni și nu echivala12 recepții cu12 luni.",
+    "Nu afirma că originalul BERGER include deja Baugrubensicherung ori că prețul 13.000 EUR nu are condiție de concept.",
+    "Nu limita toate controalele PI ale BERGER la 8 vizite și nu prezenta40–50vizite sau un preț suplimentar fix inventat.",
+    "Nu considera semnătura BERGER p4 drept acceptare A&C; nu prezenta formularul gol PECH drept comandă semnată.",
+    "Nu prezenta15 luni,30 zile,5% retenție,asigurarea propusă și includerea BWB drept condiții originale acceptate.",
+    "Nu echivala pachetul extins AG cu o contraofertă acceptată de prestator și nu presupune prelungirea BERGER după 2026.10.12."
+  ],
+  "actiuni_executate": "Verificare locală a originalelor și salvarea acestei matrice. Fără Eva, mesaje, comenzi, acceptări, semnături, plăți ori noi documente Word/PDF."
+}

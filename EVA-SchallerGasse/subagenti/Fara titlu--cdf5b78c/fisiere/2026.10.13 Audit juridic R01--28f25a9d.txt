@@ -1,0 +1,40 @@
+2026.10.13 — AUDIT INDEPENDENT R01, VERSIUNI FIXATE PRIN HASH
+
+BERGER R01 JSON9b27b09bbbdb02df55ad737dd5cbc6ef933a45fbf27556df187f449ac833a610
+BERGER R01 DOCX6ff64b94fb66aa79c2d0cddc79d09586fa63ebbe52c30ccee2ec97f81980f7af
+PECH R01 JSON641ec4d3730441e5e69eec2eab8e228355f885cc7ea7e90d566861149f718175
+PECH R01 DOCX9506a11c822fc7c36eb1fe1ad07389548d87a5c67f904d9607a98364ec021da0
+Fișiere:2026.10.13 Werkvertrag [prestator] R01.json și2026.10.13 Werkvertrag [prestator] juristisch R01.docx, în acest dosar. R01 nu este verdictul final asupra unei versiuni ulterioare.
+
+Acoperire: citire semantică integrală a preambulului, celor16§,88alineate,6anexe și semnăturilor fiecărui JSON. Citite toate diferențele dintre prestatori. Verificare independentă Word: toate paragrafele sursă sunt prezente exact, toate200celule BERGER și248celule PECH din rândurile anexelor sunt prezente;9tabele în fiecare. PDF/PNG și aspectul final se verifică separat; nu pretind verificare vizuală nouă pentru R01 în acest raport.
+
+VERDICT R01
+Textele reorganizate rezolvă problemele materiale ale rundei inițiale și au o arhitectură profesională mult mai coerentă. Nu am identificat o încălcare imperativă nouă justificată. Păstrez însă două clarificări operaționale înaintea notei10/10. Cu rubrica inițială neschimbată, notele de redactare R01 sunt BERGER9,8/10 și PECH9,9/10: criteriul4 BERGER9/10 pentru corelarea facturării și criteriul5 ambii9/10 pentru precizarea verificărilor și scenariului de neconvenire a calendarului. Restul criteriilor10/10 în limitele unui draft de negociere, cu câmpuri controlate înainte de semnare/funcție. Notele nu înseamnă validare judiciară, acceptare comercială sau abilitare dovedită.
+
+FIȘĂ DE REZOLVARE R01
+R01 — REZOLVAT:§13(3),(4),§15(6) fixează3ani, păstrează§933(3)/drepturile legale și tratează refuzul nejustificat al recepției. Scenariul de încetare înaintea construirii/finalizării are dosar de încetare, verificare în10zile lucrătoare și recepția părților deja livrate; termenul și retenția pentru acestea nu așteaptă o clădire care nu mai este comandată.
+R02 — REZOLVAT:§12(5),(6), reținere5%net, eliberare10zile lucrătoare, controlul garanției substitutive5zile și eliberare10zile, fără dublă asigurare; numai partea proporțională pentru pretenții concrete poate rămâne.
+R03 — REZOLVAT:§10(3),(4) asigură licența proiectului; reținerea, garanția substitutivă și sumele legal contestate nu blochează utilizarea. Creanțele exigibile și§1170b rămân rezervate. Nu se aplică o licență tacit condiționată de plata retenției după3ani.
+R04 — REZOLVAT:§9(4),(5),§11(5),§15(2) păstrează explicit compensația justificată§1168(1) pentru sferaAG, fără necesitatea unui supliment aprobat pentru orice întârziere și fără automatism de costuri.
+R05 — REZOLVAT:§9(1),§16(1) leagă T0 de contract semnat bilateral și documente, nu de o simplă comandă/email.
+R06 — REZOLVAT:§12(2),(3),§13(4), plata și recepția au repere obiective; AG nu poate amâna discreționar exigibilitatea prin lipsa unei libere aprobări. Obiecțiile concrete esențiale și părțile separabile se disting.
+R07 — REZOLVAT:§5/6 și Anexa1 cer întreaga clădire, anvelopa, balustrade/parapete, componentele periculoase, roluri eligibile și rapoarte terțe; fără certificat/înregistrare fictivă, fără reparații fizice presupuse în onorariu. Înregistrarea necesară se organizează și se dovedește.
+R08 — REZOLVAT:16§comune și6anexe finale, trimiteri controlabile și fără referirea reziduală la sinteza română eliminată. Preambul/statut german și semnarea finală sunt coerente.
+R09 — REZOLVAT:§12(7),§15(3),(5),(6) păstrează garanția imperativăAN și efectele încetării justificate. Nu se cere generic executarea viitoare/remedierea ca și cum contractul ar rămâne activ după orice încetare.
+R10 — REZOLVAT:§2(2),§6(4) diferențiază norma actuală de aplicabilitatea temporală și Art.V LGBl25/2026. Nu presupune retroactivitatea automată asupra autorizației2023.
+R11 — REZOLVAT:§15(3) exclude încetarea automată prin deschiderea insolvenței și păstrează IO25a/25b.
+R12 — REZOLVAT:§12(2)–(4) asigură verificare conformUGB457, plată30zile obiectivă, dobânzi/costurilegale și40EUR când condițiile sunt îndeplinite; fără resetarea indefinită a termenelor pentru obiecții vagi.
+R13 — REZOLVAT:§16(1),(2) separă semnătura eigenhändig/QES de Textform pentru operațiuni; scanulPDF este forma de schimb convenită, nu pretinsă echivalență legală universală.
+R14 — CONFORM:§12(7) nu supune garanția1170b inexistenței disputelor și nu interzice abstract apelul până la o hotărâre. OGH8Ob147/25p2026.03.24 este acum recuperată integral și inclusă separat în surse; nu se fundamentează protecțiaAG pe ideea depășită că obiecțiile neîntemeiate ar bloca apelul.
+
+CLARIFICĂRI REZIDUALE R02 CERUTE AUTORULUI
+R15 — BERGER, Anexa4 și§12(1): D1–D5 însumează36.000EURnet, în timp ce calculul+planurile originale sunt33.000EUR. Staff-ul distribuie întregul pachet, dar livrabilele D1–D5 sunt predominant de proiectare, iar clauza interzice depășirea fiecărei poziții originale. Clarifică alocarea pe cele4poziții și prestațiilePI/BWB efectiv realizate la aceste etape, fără avans implicit pentru prestații viitoare, fără preț BWB separat inventat și fără schimbarea4sumelor sau a staff-ului procentual. Este o ambiguitate de corelare între cele două tabele, nu dovada că suma45.000 este greșită.
+
+R16 — CALENDAR, AMBELE: precizează operațional programarea livrabilelor cu timpul de verificare10zile lucrătoare și corecții tehnic rezonabile înaintea etapelor critice. La PECH explică ce se întâmplă dacă D2–D5 nu sunt convenite în cele5zile de laT0: fără termen fictiv, fără începerea unei faze nesigure și fără suspendarea arbitrară a prestațiilor neafectate. Drepturile pentru întârziere imputabilă/mitwirkung și decont se păstrează. Nu este cerere de date calendaristice fabricate sau de penalitate pe un simplu termen dorit.
+
+COMPLETAREA PACHETULUI, SEPARAT DE REDACTARE
+Anexa5 citează numele germane «2026.10.13 Anlage 5 Originalangebot [prestator] [data].pdf». În momentul auditului acestea nu existau încă în dosarul comun/cele două destinații; existau copiile cu numele românești istorice. Agentul principal trebuie să copieze originalele nemodificate cu numele citate și să verifice hashul sau să alinieze referința la numele real. Nu este o ofertă externă nouă. Această operațiune este necesară înaintea livrării finale a unui pachet complet.
+
+Prețuri/control: BERGER45.000net/9.000TVA/54.000brut,4poziții; PECH69.300net/13.860TVA/83.160brut,6poziții. Totalurile și staff-urile însumează corect onorariile. Diferențele comerciale păstrate sunt legitime:8asistențeBERGER vs12AbnahmenPECH și450EURnet suplimentar, penalitate numaiPECH, asigurare2MpropusăBERGER și minim negociat înainte de semnarePECH. Nu depunctez un câmp protejat doar pentru că prestatorul nu l-a confirmat încă.
+
+R02 se verifică pe noi hashuri, fără a rescrie acest raportR01. Sursele sunt2026.10.13 Surse audit juridic independent.json și2026.10.13 Surse suplimentare OGH 8Ob14725p.json; raportul cumulului rolurilor și completarea temporală sunt păstrate separat. Niciun email, semnătură sau plată; auditorul nu a editat contracte.

@@ -1,3 +1,243 @@
+2026.10.15 11:25:23 — Verificare punctuală BERGER/PECH: fără comunicări relevante noi; ultimul eveniment cunoscut 2026.10.13, propuneri R09 trimise; primire/acceptare neconfirmate. Următorul pas: verificarea programată. Sursă: 08. Corespondenta\2026.10.15 Verificare Berger Pech\2026.10.15 11-25-23 Raport verificare BERGER PECH.txt; sincronizări office 2026.10.15 11:02:54, Gmail 2026.10.15 08:15:13 România. Această operație nu extinde acoperirea generală la ceilalți parteneri.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.14 — DONAU: destinatari corectați, numai DONAU, fără CC/BCC
+
+Status scurt: La precizarea utilizatorului au fost eliminați Capra, Maritczak și Commerz din CC-ul draftului bcbaad0d-814c-4ca5-bffa-7a3157a263cd. Rămân exclusiv cele patru adrese DONAU din To. CC și BCC sunt goale. A fost eliminată și cererea de includere a destinatarilor CC din corpul emailului.
+Ultimul răspuns DONAU: 2026.10.06. Verificarea actuală privește doar draftul, recitit din Eva-Mail cu status pending / NETRIMIS. Niciun email nu a fost trimis prin această operațiune.
+Următorul pas: revizuire și eventuală trimitere de către utilizator din EVA → Drafts.
+Sursă: 05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/2026.10.14 Draft Eva-Mail Donau NUMAI DONAU verificat.json
+
+ISTORIC PĂSTRAT — instrucțiunea actuală privind destinatarii prevalează
+
+# 2026.10.14 — STURM: identificatori și dovada contractului
+Status scurt: Niciun număr de contract sau exemplar individual semnat/acceptat de A&C identificat. Două Kundennummer (42017328,42018142), 21 Anlagennummer; începuturi de furnizare în 2023, nu date de semnare. Partener în lista STURM: HI 1120, Schallergasse 35; identitatea juridică nu este detaliată în listă.
+Ultimul răspuns extern: 2026.10.13; verificarea de față extrage documentele existente. STURM 2026.06.01/17 confirmă rezilierea și lipsa răspunsului la oferta 2026.03.25. Formularul SEPA verificat este necompletat.
+Următorul pas: obținerea contractelor individuale și a dovezii acceptării/preluării ori temeiului facturării A&C; reconciliere distinctă. Nicio trimitere sau recunoaștere de datorie.
+Sursă: 06. Utilitati/UTILITATI Curent - Sturm Energie/2026.10.14 Identificatori si dovada contract/2026.10.14 Tabel identificatori si dovada contract STURM.html; JSON cu identificatori, surse și hash; căutări EVA arhivate.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.14 — DONAU: reaudit și draft creat în Eva-Mail, NETRIMIS
+
+Status scurt: Email reauditat separat și creat în Eva-Mail pentru office@ac-wohnart.at; ID bcbaad0d-814c-4ca5-bffa-7a3157a263cd. Statut recitit: pending / NETRIMIS. Către cele patru adrese DONAU verificate: donau@donauversicherung.at, c.loschy@donauversicherung.at, m.pfeiffer@donauversicherung.at, geko.wien@donauversicherung.at. CC: bogdan.capra@cerhahempel.com, office@maritczak.at, s.gruber@commerz-inkasso.at. Corecții: alocarea plății celor trei prime se cere spre confirmare/agrement, fără presupunere de realocare retroactivă unilaterală; se cer temeiurile inițiale ori ulterioare ale expirării2036, inclusiv dacă exista deja în X712. Transferul păstrează durata rămasă; prelungirea anuală nu scurtează un termen fix valabil convenit. Plata4.775,43EUR rămâne declarația utilizatorului, fără încasare sau acoperire confirmată. Rezilierea2026.10.01 este menținută.
+
+Ultimul răspuns DONAU verificat:2026.10.06. Observație nouă de status: cererea către Capra cu subiect datat2026.10.07 apare în Eva cu status sent și updated_at2026-10-13T17:15:27.357911Z; nu confundăm acel mesaj cu noul draft către DONAU. Sursa statusului este salvată în Surse.
+
+Următorul pas: Revizuirea și trimiterea din EVA → Drafts de către utilizator; apoi confirmarea încasării, alocării, acoperirii și primirea documentelor contractuale. Nu s-a trimis emailul prin această operațiune.
+
+Sursă: 05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/2026.10.14 Email polita anterioara si plata primelor NETRIMIS.txt; 2026.10.14 Reaudit final email Eva-Mail Donau.txt; răspunsul eva_get_draft arhivat în JSON.
+
+ISTORIC PĂSTRAT
+
+2026.10.14 — Verificări programate BERGER/PECH, zilnic la 10:00 și 16:00, Europe/Bucharest, ACTIVE. Automatizare verificare-emailuri-berger-i-pech în acest chat. Mesaje primite/trimise office și Gmail, răspunsuri, oferte/contrapropuneri, sume, servicii, termene, atașamente și nelivrări; numai noutăți, fără repetarea actualizărilor deja arhivate. Verificarea generală 08:00 rămâne activă. Ultimul răspuns: programarea solicitată a fost creată și verificată; nu s-a efectuat o nouă verificare comercială. Următorul pas: rulările programate și afișarea aici a noutăților ori a lipsei lor cu limite de sincronizare. Nicio trimitere, semnare, modificare de document comercial sau plată. Sursa: 08. Corespondenta/2026.10.14 Monitorizare Berger Pech/2026.10.14 Programare verificari Berger Pech.json și configurarea originală salvată în același folder.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.14 — STURM: conversații, contracte și probleme deschise
+
+Status scurt: La 2026.10.14 nu este identificat niciun contract STURM nou sau activ pentru clădire. Lista STURM din 2026.06.16 confirmă furnizarea încheiată pentru toate cele 21 de instalații: 12 de curent și 9 de gaz. Trei au data de sfârșit 2026.03.18; celelalte 18 au 2026.04.08. Rămân deschise deconturile, alocarea plăților/creditelor și adresa de corespondență.
+Ultimul răspuns: 2026.10.13, ID 0fed52e8-a06b-47c5-ba04-84e5eb934d9f; 14 somații 2.662,60 EUR, termen 2026.10.19. Top 5 137,11 EUR și Top 17 curent 432,66 EUR sunt distincte, fără sold reconciliat actual.
+Următorul pas: decont actual pe instalație, alocarea plăților/creditului 846,92 EUR, repartizare între proprietari și corectarea adresei. Nicio trimitere/plată/acceptare nouă.
+Sursă: 06. Utilitati/UTILITATI Curent - Sturm Energie/2026.10.14 Situatie STURM/2026.10.14 Tabel conversatii si contracte STURM.html; lista originală STURM din 2026.06.16, verificată vizual și prin hash; mesaje originale în Surse.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.14 — DONAU: plată declarată de utilizator; email documente NETRIMIS
+
+Status scurt: Utilizatorul declară achitarea celor trei rate până la 2027.01.01, totalul aferent primelor fiind 4.775,43 EUR. Nu există în această actualizare un ordin de plată verificat sau confirmare de încasare/alocare; nu se marchează debitul stins ori acoperirea restabilită. Draftul anunță transferul declarat, cere confirmarea încasării/alocării/acoperirii și documentele privind X712 și expirarea2036. Contractul de cumpărare menționează asigurarea existentă și termenul de reziliere; draftul nu neagă aceste clauze. Capra a transmis polița la2026.03.19; DONAU a invocat§69 la2026.07.10, iar corespondența Commerz invocă§39. Lipsește justificarea completă specifică duratei2036.
+
+Ultimul răspuns verificat: DONAU2026.10.06, ID2c273256-a0bf-408b-bb22-09718372e888. Ultima informație: declarația utilizatorului despre plată,2026.10.14.
+
+Următorul pas: Revizuirea și eventuala trimitere a draftului, apoi confirmarea bancară/DONAU a plății și obținerea documentelor contractuale. Nu s-a trimis niciun email nou.
+
+Sursă: 05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/2026.10.14 Email polita anterioara si plata primelor NETRIMIS.txt; Surse/2026.10.14 Reverificare corespondenta pentru email polita si plata.json; contractul semnat, art.4.5,7.1(i),10.5.
+ID Eva-Mail draft: nu există; draft local TXT/JSON/EML, fără atașamente.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.14 — CORECȚIE DONAU: somația de o lună; durata X712 neidentificată
+
+Status scurt: Corecție materială: somația DONAU din 2026.05.20 acordă o lună; a fost adresată fostului titular prin Hofhans, ștampilată la 2026.05.26 și retransmisă de Capra la 2026.05.27. Se retrage premisa din analiza anterioară că singura somație cunoscută acordă două săptămâni. Nu se poate deduce nerespectarea termenului de o lună numai din somația din iunie. Rămân de verificat recepția, mandatul Hofhans, cunoașterea transferului de către DONAU și efectele somațiilor pe fiecare ramură. Polița X712.261-2 propriu-zisă nu a fost identificată; durata sa rămâne necunoscută. Expirarea 2036.01.01 apare deja în polița emisă fostului titular la 2026.02.03. Transferul nu reîncepe automat durata (§69); prelungirea tacită este de cel mult un an (§8(1), ABS14). Temeiul unui acord valabil pentru 2036 trebuie documentat, inclusiv eventualul §5.
+
+Ultimul răspuns verificat: DONAU 2026.10.06, ID 2c273256-a0bf-408b-bb22-09718372e888; menține contractul și afirmă lipsa acoperirii. Această actualizare reverifică documente anterioare; nu reprezintă un răspuns nou al DONAU.
+
+Următorul pas: Obținerea poliței X712 integrale, a ultimelor acte anterioare anului 2026, a acordului și mandatului pentru expirarea 2036 și a dovezilor de comunicare; verificarea celor două somații și a situației de plată. Cererea locală și ciorna Eva-Mail din 2026.10.07 sunt NETRIMISE; această actualizare nu trimite emailuri și nu confirmă plăți.
+
+Sursă nou identificată în dosarul juridic: 05. Asigurari/Asigurare cladire/20260526163520179.pdf; SHA-256 8402921829c72536eabb94f8770ca913f7eefcfec1fe584206c62eea4415c791. Email primit 2026.05.27, Eva-Mail cb505d08-3562-4ad6-a659-ed10ce34b02d; JSON cu expeditor, destinatari, CC și atașamente salvat în Surse.
+
+Surse curente:
+05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/2026.10.14 Concluzie auditata durata X712 si 2036.txt
+05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/2026.10.14 01 Incetarea politei Donau.pdf
+05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/2026.10.14 02 Neplata si acoperirea Donau.pdf
+05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/2026.10.14 Audit juridic si editorial.txt
+
+ISTORIC DEPĂȘIT ÎN PRIVINȚA SOMAȚIEI DIN MAI — corecția de mai sus prevalează
+
+# 2026.10.14 — DONAU: două analize juridice și audit
+
+Dosar: `../05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/`. Citește cele două PDF-uri 01/02 și auditul final. Sursele oficiale și originale sunt identificate în bibliografii și în subfolderul Surse. Analiză documentară a încetării și a primelor în perioada în care DONAU invocă lipsa acoperirii. Nu este confirmată încetarea poliței. Durata comercială până în 2036 poate fi valabilă, dar acordul, mandatul și cadrul trebuie justificate. Obiecție nouă: ABS art. 4.5 și §91 VersVG indică termenul de o lună pentru componenta incendiu-clădire; somația identificată acordă două săptămâni. Aceasta corectează omisiunea studiului din 2026.10.07; nu dovedește automat acoperirea întregului pachet și nu șterge primele.
+
+Cerere completă de documente și justificare pe ramuri a lipsei acoperirii; dovada acordului pentru 2036, contractul-cadru, toate somațiile și recepțiile, decont și condiții de restabilire. Menținerea declarației trimise la 2026.10.01; completarea documentelor tehnice pentru reducere și negocierea ieșirii. Cererea nouă este pregătită local, NETRIMISĂ. Ciorna Eva-Mail din 2026.10.07 rămâne NETRIMISĂ.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.14 — DONAU: stare actuală și tabel de corespondență
+
+Dosar: `../05. Asigurari/Asigurare cladire/2026.10.14 Situatie Donau/`. Citește `2026.10.14 Situatie actuala Donau.txt` și `2026.10.14 Cronologie Donau.xlsx` (22 de comunicări, cele cinci coloane cerute).
+
+2026.10.14: verificare punctuală DONAU. Ultimul răspuns 2026.10.06 refuză încetarea și declară lipsa acoperirii pentru prime restante; contractul nu este confirmat încetat și nu există suspendare agreată a primelor. Nicio restabilire sau răspuns ulterior identificat. Cererea 2026.10.01 este TRIMISĂ; ciorna 2026.10.07 rămâne pending / NETRIMISĂ. Clarificare urgentă scrisă a sumei/alocării/momentului restabilirii acoperirii și a datei de încetare. Actualizarea termenelor depășite din ciorna netrimisă înainte de o eventuală expediere. Ultima cerere Commerz: 5.326,15 EUR, termen 2026.10.12 depășit, fără prelungire identificată; nu reprezintă sold bancar reconciliat. Jurnalele proiectului și partenerilor sunt actualizate; originalele și exporturile sunt în subfolderele Anexe/Surse. Acoperirea generală anterioară rămâne distinctă; această verificare privește DONAU.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.14 — Verificare zilnică: comunicări trimise, nelivrări și somații
+
+2026.10.14 | Noutăți Schallergasse 35 față de verificarea zilnică 2026.10.13
+
+BERGER și PECH: propunerile R09 apar efectiv TRIMISE de pe office@ac-wohnart.at în 2026.10.13 la 21:40 România, cu contractul și oferta originale proprii. BERGER 45.000 EUR net, PECH 69.300 EUR net. Nu sunt contracte acceptate; nu există răspunsuri/ofertă nouă identificate. Cele două copii Gmail rămân pending / NETRIMISE; cele două ciorne office sunt acum sent.
+
+Livrare BERGER: prima trimitere 20:26 a eșuat, 550 5.7.1 / IP expeditor blocat Spamhaus. Retrimiterea 21:40 nu are o nouă eroare identificată în interval, dar primirea nu este confirmată.
+
+CERHA HEMPEL: răspunsul 20:15 care anunță plata facturii 26/30363, 2.640,22 EUR, a eșuat din aceeași cauză tehnică. Nu există confirmare de încasare; anunțul nu dovedește debitul bancar. Somația deja analizată 2026.10.13 menține termenul 2026.10.16. Se verifică dovada bancară și comunicarea, fără o plată dublă automată.
+
+STURM: 14 somații retrimise după retur poștal «necunoscut»; total pretins 2.662,60 EUR, incluzând 98 EUR taxe, termen email 2026.10.19. Cele 14 instalații și referințe sunt în tabelul dedicat. Sume pretinse de creditor, de reconciliat cu plățile; nu 14 datorii noi adăugate. PDF-uri istorice 2026.08.26, termenul istoric 2026.09.07 nu înlocuiește termenul actual din email.
+
+ARTUS: 144 EUR pentru factura1264971, termen2026.10.20. 120 EUR net+24 TVA; fără dobândă/taxă în somație. PDF factura2026.09.15 vs email2026.09.16; UID client diferit în somație, de clarificat. Încasarea nu este confirmată de această verificare.
+
+Descărcări: 34 PDF originale verificate byte/SHA-256, din care 16 conținuturi noi salvate (14 STURM+factură și somație ARTUS), restul18 identice fișierelor existente și reutilizate. 11 ID-uri de email înregistrate suplimentar; copiile CERHA și retrimiterea BERGER nu dublează datorii/oferte. PDF-urile contractelor trimise sunt identice versiunilor R09 locale. Imaginile mici/inline au numai metadate.
+
+Acoperire: 2026.10.12–14, suprapunere o zi; 68 căutări complete fără pagini restante. Office sincronizat2026.10.14 08:00:13 România, Gmail04:04:01; unele alte căsuțe sunt întârziate, shared/team nesearchable neacoperite. Nu s-au trimis mesaje, semnat contracte sau efectuat plăți de către această verificare.
+
+Surse: toate exporturile TXT/JSON și EML reconstruite din API în 08. Corespondenta/2026.10.14 Verificare zilnica, cu originale PDF reale; 2026.10.14 Dovezi verificare Eva-Mail.json, 2026.10.14 Registru anexe originale.json și 2026.10.14 STURM tabel sume si referinte.txt. EML nu este MIME original integral furnizat de server.
+
+ISTORIC PĂSTRAT
+
+2026.10.13 — BERGER și PECH: câte o ciornă pending / NETRIMIS pe office@ac-wohnart.at și pe covaciu.gnm@gmail.com, patru ciorne active verificate. Textele, destinatarii, CC, subiectele și PDF-urile fiecărei perechi sunt identice. BERGER office nou ID f8c09c6b-f102-4998-877d-62c269ac5cdd; PECH office R09 existent ID 8e954def-ac5f-4782-b5c7-b25c64572bb9. BERGER office anterior cu statut sent rămâne istoric neatins. Ultimul răspuns: cerința utilizatorului aplicată; nicio comunicare primită nouă. Următorul pas: lectura/selectarea de către utilizator; nicio trimitere. Sursa: 08. Corespondenta/2026.10.13 Ciorne office Berger si Pech/2026.10.13 Registru ciorne office.json.
+
+ISTORIC PĂSTRAT
+
+2026.10.13 — Două ciorne identice de pe covaciu.gnm@gmail.com create în EVA: BERGER și PECH, ambele pending / NETRIMISE. Aceleași corpuri originale, destinatari, CC, subiect și atașamente PDF reale ca sursele curente. BERGER office apare cu statut sent la readback; agentul nu l-a trimis/modificat. PECH office R09 pending. Următorul pas: lectura/selectarea de către utilizator; nicio trimitere efectuată. Sursă: 08. Corespondenta/2026.10.13 Ciorne Gmail Berger si Pech/2026.10.13 Registru clone Gmail.json.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — PECH R09: funcții complete cerute, costuri de confirmat
+
+2026.10.13 — PECH R09: propunere contract și email actualizate, NETRIMISE.
+Status scurt: șase poziții originale păstrate, 69.300 EUR net / 83.160 EUR brut; regie originală păstrată. PI complet, certificarea integrală ZT și Bauwerksbuch întreg existent + intervenții noi, Erstprüfung și înregistrare rămân cerințe explicite, bold, cu asumarea și acoperirea onorariului neconfirmate și fără sume atribuite. Contribuțiile tehnice proprii PECH rămân în baza celor șase poziții.
+Ultimul răspuns: în această intervenție nu s-au preluat comunicări primite noi; instrucțiunile utilizatorului au fost aplicate propunerii și aceluiași draft EVA pending, fără trimitere.
+Calendar: E1-E7 ca variantă de lucru, numai pentru propriile șase poziții; calendar comun de livrare/facturare pe etape mari cu net/TVA/brut de agreat înainte de semnare. 18 luni de la B0 real, 12 Abnahmen incluse + până la 6 opționale proprii ×450 EUR net; costurile funcțiilor complete nu se deduc automat din tariful vizitelor.
+Următorul pas: lectura utilizatorului, apoi clarificarea de către PECH a funcțiilor, prestatorilor, prețurilor incluse sau suplimentare și calendarului; niciun cost extern nu este comandat tacit. Contract nesemnat, draft netrimis, fără plăți. BERGER și PECH R08 sunt intacte.
+Surse: 00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Werkvertrag R09/2026.10.13 Werkvertrag PECH R09.pdf; 2026.10.13 Email PECH R09 NETRIMIS.txt/json/eml în același folder; registru intern 00.Proiect/09. Vertraege/2026.10.13 PECH R09 - intern/2026.10.13 Registru PECH R09 final.json. EVA ID 8e954def-ac5f-4782-b5c7-b25c64572bb9, To sekretariat@zt-pech.at, CC ployer@zt-pech.at, actual updated_at: 2026-10-13T18:27:16.410901Z
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — Email BERGER: calendar de facturare cu valori
+
+Email curent: ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Werkvertrag R09/2026.10.13 Email BERGER calendar facturare NETRIMIS.txt. Același draft EVA BERGER 5a66f053-9d6b-45e2-880b-baecf778b46f pending / NETRIMIS solicită un Leistungs- und Rechnungsplan agreat și semnat ca anexă înainte de semnare. Etape/livrabile/rezultate facturabile/date și sume nete/TVA/brute, cumul/sold; baza45.000 EUR net54.000 brut și cele patru poziții păstrate. Fără sume intermediare inventate, fără plăți declanșate numai de calendar. Calendarul nu este încă primit/agreat/anexat.
+
+Contractul BERGER R09 și atașamentele rămân neschimbate; PECH neatins. Registru intern: ../00.Proiect/09. Vertraege/2026.10.13 BERGER Kalender facturare - intern/2026.10.13 Registru actualizare email BERGER calendar.json. Istoricul este păstrat; nicio trimitere, semnare sau plată.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — BERGER R09 finalizat; PECH așteaptă confirmarea
+
+Punct curent BERGER: ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Werkvertrag R09/2026.10.13 Werkvertrag BERGER R09.pdf și ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Werkvertrag R09/2026.10.13 Email BERGER R09 NETRIMIS.txt. PDF numai contract, fără introducere. Bază 45.000 EUR net, maximum8 vizite statice; PI10.000 separat fără plafon numeric. Verbau/Baugrubensicherung bauseits. Vizite statice suplimentare în pachete de4/1.000 EUR net, numai comandate. Facturare originală după prestație,14 zile fără rețineri; fără grilă procentuală/retention/penalitate. Adaosuri comerciale păstrate:3ani Gewährleistung,noindex,18luni B0. Valabilitatea originală8săptămâni necesită reconfirmare actuală, fără reset automat.
+
+Același draft EVA BERGER5a66f053-9d6b-45e2-880b-baecf778b46f actualizat, pending / NETRIMIS; numai contractul BERGER R09 și oferta sa originală atașate. R08 rămâne istoric. PECH PDF/email/draft R08 nemodificate; modificarea Pos.02 este amânată până la confirmarea utilizatorului privind închiderea BERGER.
+
+Registru intern: ../00.Proiect/09. Vertraege/2026.10.13 BERGER R09 - intern/2026.10.13 Registru BERGER R09 final.json. Jurnale și index actualizate; fără mesaje trimise, semnături sau plăți.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — Contracte R08 și emailuri germane în EVA
+
+Punct curent pentru lectură:
+
+- ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Werkvertrag R08/2026.10.13 Werkvertrag BERGER R08.pdf
+- ../00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Werkvertrag R08/2026.10.13 Werkvertrag PECH R08.pdf
+
+PDF-urile încep cu WERKVERTRAG și § 1, fără Vorbemerkungen. Cele trei alineate sunt în emailurile proprii, împreună cu intenția de semnare, explicația politicoasă a întârzierii și deschiderea la observații. Toate clauzele, anexele și sumele operative R07 sunt identice: 45.000 / 69.300 EUR net.
+
+Două drafturi EVA pending / NETRIMISE, cu contractul propriu R08 și oferta proprie originală Anlage 5 ca atașamente PDF reale. În folderele prestatorilor: TXT/JSON/EML și JSON original al readback-ului EVA, ID real, destinatari și CC verificați. Nu au fost trimise mesaje.
+
+BERGER: EVA draft 5a66f053-9d6b-45e2-880b-baecf778b46f, status pending; To office@bmberger.at; CC (fără CC)
+PECH: EVA draft 8e954def-ac5f-4782-b5c7-b25c64572bb9, status pending; To sekretariat@zt-pech.at; CC ployer@zt-pech.at
+
+Registru intern, neatașat: ../00.Proiect/09. Vertraege/2026.10.13 Contracte R08 - intern/2026.10.13 Registru contracte emailuri R08 final.json. R07 și versiunile anterioare rămân istoric intact; jurnale actualizate, fără dublarea comunicărilor reale sau a atașamentelor primite. Nicio semnare sau plată.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — Propuneri individuale A&C de contract R07
+
+Punct curent pentru lectură și viitoarea transmitere:
+
+- ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Vertragsvorschlag R07/2026.10.13 Werkvertrag BERGER R07.pdf
+- ../00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Vertragsvorschlag R07/2026.10.13 Werkvertrag PECH R07.pdf
+
+Fiecare propunere este VERTRAGSVORSCHLAG, privește exclusiv părțile proprii și păstrează prețul ofertat (45.000/69.300 EUR net). Nu există referiri în textul extern la alți ofertanți, negociere sau diferențe față de ofertă. Condițiile efective rămân:18 luni B0,12vizite plus până la6opționale separat comandate, T0 inclus, PI/§128 și Bauwerksbuch întregul existent/nou. Opțiunile nu sunt adăugate automat la prețul de bază. Originalele și R06 sunt intacte.
+
+În folderele R07 ale fiecărui prestator există PDF, sursa JSON proprie, oferta originală Anlage5 și emailuri locale TXT/JSON/EML NETRIMISE. EML include numai propunerea proprie și oferta originală proprie, cu atașamente reale. Destinatarii sunt cei verificați din arhivă; ID Eva-Mail draft nul, nu au fost create drafturi în EVA. Textul cere analiza propunerii, observații sau contrapropunere concretă; semnarea este separată.
+
+Registru și rapoarte INTERNE, care nu se atașează: ../00.Proiect/09. Vertraege/2026.10.13 Propuneri contract R07 - intern/2026.10.13 Registru propuneri R07 final.json. Jurnalele păstrează istoricul; numărătorile email rămân neschimbate. Nicio trimitere, semnare sau plată.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — Contracte germane R06 în PDF elegant
+
+Punctul curent pentru lectură sunt cele două propuneri VERHANDLUNGSENTWURF:
+
+- ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Verhandlungsentwurf R06/2026.10.13 Werkvertrag BERGER R06.pdf
+- ../00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Verhandlungsentwurf R06/2026.10.13 Werkvertrag PECH R06.pdf
+
+Registru: ../00.Proiect/09. Vertraege/2026.10.13 Baza comuna negociere BERGER PECH/2026.10.13 R06 propuneri negociere/2026.10.13 Registru contracte elegante R06.json. Cerințe tehnice și juridice comune; prețurile și tarifele rămân distincte. 18 luni de execuție de la B0 real, 12 vizite fizice plus până la 6 opționale, T0 inițial separat și inclus; PI/§ 128 și Bauwerksbuch întregul existent/nou. Fără BauKG sau management general REALIG. Asigurare administrativă, fără prag numeric AG nou.
+
+PDF-urile sunt în germană, cu clauze delimitate prin chenare fine și tabele de livrabile/termene/plăți. Copiile sursă editabile JSON și ofertele originale Anlage 5 sunt în aceleași foldere ale prestatorilor. Două audituri independente, control numeric, text și toate paginile vizuale sunt în dosarul R06. Cerințele extinse și noua grilă de plată sunt poziții AG pentru negociere, nu acorduri deja primite. Modelul de facturare cere prestații PI reale, nu avans pentru planurile proprii.
+
+R05 și ofertele originale sunt păstrate neschimbate. NETRIMIS/NESEMNAT. Nu există mesaje comerciale noi sau scan general zilnic EVA în această operațiune; jurnalele păstrează ultimul răspuns real și istoricul. Matricea de 100 criterii și obiecțiile reformulate rămân bază comparativă.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — Bază comună de negociere BERGER și PECH
+
+Punct curent: ../00.Proiect/09. Vertraege/2026.10.13 Baza comuna negociere BERGER PECH/. Începe cu `2026.10.13 Matrice explicita cerinte comune BERGER PECH.docx` sau PDF și `2026.10.13 Obiectii reformulate si pozitii comune negociere.docx` sau PDF. Registru: `2026.10.13 Registru baza negociere final.json`. Aceste documente definesc aceeași poziție AG pentru ambii; contractele R05 sunt documentele de pornire și rămân nemodificate. Auditul anterior păstrează constatările istorice și sursele, nu se prezintă drept acceptare ori contract finalizat.
+
+Pachet comun: structură și planuri complete, PI/§128, Bauwerksbuch existent+nou, 18luni de laB0 real, 12vizite fizice+6opționale; fărăBauKG/managementgeneralREALIG. Matricea explică fiecare criteriu și diferențele actuale de termene, numărarePI/vizite, penalitate și facturare, cu o cerință comună pentru uniformizare. Diferențele de valoare și tarife rămân economice:45.000/69.300EURnet; cu6opțiuni46.000/72.000EURnet. Asigurarea este doar completare administrativă secundară, fără cerință AG de majorare.
+
+Datele A&C, BERGER și PECH sunt completate în anexa administrativă din surse locale și publice, cu limite și neconcordanțe păstrate. UIDBERGER este publicat numai secundar; reprezentarea la semnare trebuie confirmată în etapa corespunzătoare. Nu este un nou scan zilnicEVA și nu există comunicare comercială nouă. Jurnalele și registrul sunt actualizate cu istoricul păstrat; nicio trimitere, semnare sau plată.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — Audit comparativ R05: DOAR sesizări, contracte nemodificate
+
+Punctul curent de audit: ../00.Proiect/09. Vertraege/2026.10.13 Reorganizare juridica si audit/. Începe cu `2026.10.13 Audit comercial comparativ R05.docx` sau PDF (33 pagini), `2026.10.13 Audit juridic bidirectional R05 final.docx` sau PDF (46 pagini) și `2026.10.13 Obiectii posibile BERGER PECH R05.docx` sau PDF (7 pagini). Registru de integritate și acoperire: `2026.10.13 Registru audit comparativ final R05.json`. Versiunea juridică publică fără cuvântul «final» în nume este intermediară și rămâne istoric.
+
+Contractele auditate R05, nemodificate după cererea «DOAR sesizează»: ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag BERGER R05.docx și PDF; ../00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag PECH R05.docx și PDF. SHA-256 conservate. NETRIMISE/NESEMNATE. Acesta este reperul curent; nota istorică R02 10/10 nu se transferă și nu se acordă o nouă notă forțată.
+
+Sume de bază BERGER/PECH: 45.000/69.300 EUR net. Cu maximum 6 vizite opționale reale: 46.000/72.000 EUR net, fără a plafona alte costuri legal justificate. BERGER 2.000/12 per supliment este propunere AG; PECH 450 EUR net este oferit. 18 luni de la B0 real, 12 vizite incluse, scop PI/BWB extins și clauzele noi necesită acceptare. Oferta BERGER originală avea maximum 8 vizite și circa 12 luni; expirare calculată 2026.10.12, fără prelungire documentată.
+
+Observații rămase: PECH Pos.04/05 și numărare, Materialprüfung/laborator, referința tehnică și limitele reziduale, autorizări/asigurări actuale, reconfirmarea BERGER. Rapoartele propun exclusiv clarificări; contractele nu au fost corectate. Două oferte complete distincte, documentație conexă și 14 mesaje istorice arhivate citite; nu este pretins un nou scan general live EVA. Jurnalele proiectului și ale celor doi parteneri sunt actualizate cu istoricul păstrat. Numărătorile Eva nu sunt modificate; nicio trimitere, semnare sau plată.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — CERHA: verificare plata 26/30363
+
+Raport: ../10. Banci + Extrase de cont/2026.10.13 Verificare CERHA 26-30363/2026.10.13 Raport verificare plata.txt. Fara debit identificat pana la 2026.09.28 in AT22/AT13. Notificare PRIMITA 2026.10.13, termen 2026.10.16; mesaj integral si trei PDF originale salvate in ../08. Corespondenta/2026.10.13 CERHA notificare 26-30363/. Factura era deja F016 in lista de platit. Perioada bancara 2026.09.29–2026.10.13 ramane neverificata. Supliment punctual la acoperirea centrala, fara dublare de datorie. Jurnalele TXT actualizate, istoricul pastrat.
+
+ISTORIC PASTRAT
+
+# 2026.10.13 — Contracte juridice BERGER și PECH cu audit critic final R02
+
+Versiuni curente: ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag BERGER.docx și PDF; ../00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag PECH.docx și PDF. Fiecare21pagini,16capitole și6anexe, numai germană, plus oferta originală separatăAnlage5. Totaluri net45.000/69.300EUR păstrate. Rapoarte, rubrică, jurisprudență și istoric: ../00.Proiect/09. Vertraege/2026.10.13 Reorganizare juridica si audit/. Audit final10/10 pentru redactarea proiectelor de negociere, nu pentru acceptare sau confirmarea datelor/abilitărilor/polițelor; NETRIMISE/NESEMNATE. Registru final: ../00.Proiect/09. Vertraege/2026.10.13 Reorganizare juridica si audit/2026.10.13 Registru contracte juridice finale.json. Toate42pagini finale verificate vizual; jurnalele și registrul comunicărilor actualizate, istoricul păstrat. Nicio comunicareEva nouă, semnare sau plată.
+
+ISTORIC PĂSTRAT
+
+# 2026.10.13 — Contracte BERGER și PECH numai în germană
+
+Versiuni curente fără introducerea română: ../00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Propunere contract/2026.10.13 Werkvertrag BERGER DE.docx și PDF(16pagini); ../00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Propunere contract/2026.10.13 Werkvertrag PECH DE.docx și PDF(22pagini). În fiecare dosar sunt și oferta originală Anlage5, mesajul sursă și auditul. Sumele și întregul contract german sunt păstrate identic; doar sinteza română este eliminată. NETRIMISE/NESEMNATE. Registru: ../00.Proiect/09. Vertraege/2026.10.13 Versiuni contracte numai germana.json. Jurnalele și registrul proiectului sunt actualizate; istoricul, versiunea cu sinteză română și sursele comune sunt păstrate. Nu sunt comunicări noi sau plăți.
+
+ISTORIC PĂSTRAT
+
 # 2026.10.13 — Revenire Frigo privind oferta de administrare
 
 Puncte curente: ../2026.10.13 Status proiect.txt; ../2026.10.13 Log progres proiect.txt; registrele 2026.10.13 din arhiva Eva-Mail; ../08. Corespondenta/2026.10.13 Verificare zilnica/2026.10.13 Raport verificare.txt. Un mesaj nou Frigo PRIMIT 2026.10.12, privind oferta transmisă 2026.09.10; fără sume, condiții sau termen nou. Unicul atașament original descărcat este semnătura/logo. 59 căutări complete pentru 2026.10.11–13 +1 contextuală; fără alte comunicări relevante noi. Office sincronizat 2026.10.13 08:00:15 România; Gmail 05:04:19; cosmin@ig.ro numai 2026.10.10 02:30:10. Jurnalele proiectului și partenerilor sunt actualizate, istoricul păstrat. Total802 mesaje/826 originale/783 documentare. Nicio trimitere, semnare sau plată. Propunerile locale BERGER/PECH de mai jos rămân NETRIMISE/NESEMNATE.
@@ -200,3 +440,33 @@ Dosar: `../04. Firme + Executie/08. Ofertanti electrice/Tongou - Conex Electroni
 Dosar: ../Acasa/. Intrare: 2026.10.08 Citeste intai.txt și 2026.10.08 Acasa inventar si echivalente.xlsx. Șapte originale, inventar vizual, echivalente Tongou condiționate și protecții de verificat; două liste CSV. Cantitățile sunt observații, nu deviz. Codurile acoperite și amplasamentul instalației nu sunt confirmate.
 
 Actualizare Acasa: Excelul include fila „Necesar si stoc”. Documentația este accesibilă prin ../Acasa/Documentatie Tongou/2026.10.08 Documentatie Tongou.html (29 sinteze, 12 PDF-uri originale). Necesarul este provizoriu, după validare tehnică.
+
+
+## 2026.10.13 — Draft CERHA privind plata declarata
+
+
+2026.10.13 | CERHA 26/30363: draft de raspuns salvat
+Status scurt: DRAFT NETRIMIS in office@ac-wohnart.at catre Bogdan.Capra@cerhahempel.com, fara CC si fara atasamente. ID EVA 5e46bf0d-e345-4b69-a5e9-be1dd3fff455.
+Ultimul raspuns: notificarea primita 2026.10.13; utilizatorul declara ulterior ca a achitat acum 2.640,22 EUR. Plata declarata de utilizator, fara dovada bancara noua verificata si fara incasare confirmata de creditor.
+Urmatorul pas: trimiterea draftului din EVA si confirmarea incasarii de catre avocat.
+Sursa: instructiunile utilizatorului din aceasta conversatie si 08. Corespondenta/2026.10.13 CERHA notificare 26-30363/2026.10.13 DRAFT raspuns plata CERHA.json.
+
+2026.10.14 | DONAU — renunțare parțială
+Status scurt: analiză locală salvată, NETRIMISĂ; drepturi parțiale identificate în 1242K și 3031K, fără selecție efectuată în numele utilizatorului.
+Ultimul răspuns: 2026.10.06 conform arhivei; nicio verificare nouă Eva-Mail. Utilizatorul solicită renunțare parțială; componentele și finalul mesajului sunt de clarificat.
+Următorul pas: precizarea componentelor, apoi finalizarea notificării și cuantificarea reducerii. Nu este confirmată încetarea sau reducerea primei.
+Sursă: 05. Asigurari/Asigurare cladire/2026.10.14 Renuntare partiala Donau/2026.10.14 Renuntare partiala Donau.txt; original poliță, p.15/25, hash identic indexului.
+
+2026.10.14 | DONAU — opțiune explicită utilizator
+Status: păstrează incendiu, furtună cu extensii și răspunderea proprietarului; solicită eliminarea apei din conducte, pierderii chiriei și spațiilor de înlocuire. NETRIMIS, fără acord DONAU.
+Ultimul răspuns: 2026.10.06, conform arhivei; fără sincronizare nouă. Total orientativ 3.173,12 EUR/an; economie aritmetică 3.194,12 EUR/an, neconfirmată.
+Următorul pas: cerere de modificare cu efect de la primire, subsidiar 2027.01.01, cu dovezi tehnice și confirmarea datei/prețului/acoperirii. Termenul special de o lună nu se aplică celor trei componente eliminate. Notificarea integrală anterioară se păstrează.
+Sursă: 05. Asigurari/Asigurare cladire/2026.10.14 Renuntare partiala Donau/2026.10.14 Optiune selectata si procedura Donau.txt
+
+
+## 2026.10.14 — Oferta Conex
+Ofertă primită 2026.10.08 în SPAM: OFR000012370, Wi-Fi, 7.485,00 lei cu TVA. Dosar: ../04. Firme + Executie/08. Ofertanti electrice/Tongou - Conex Electronic/2026.10.14 Oferta primita Conex/. Originalele PDF și 4 mesaje salvate. Limită: cesiro.horeca@gmail.com necăutabil, office@eva-org.com neexpus; nu se afirmă verificare completă a tuturor autentificărilor. Oferta din mai este istoric.
+
+
+## 2026.10.14 — Comparație Conex
+Stoc și prețuri live pentru 4 SKU, comparate cu ofertele originale în ../04. Firme + Executie/08. Ofertanti electrice/Tongou - Conex Electronic/2026.10.14 Comparatie oferta si stoc/. 8 Wi-Fi: site 3.002 lei vs ofertă condiționată 2.622 lei. 7 RCBO Zigbee: site 3.988 lei. Fără comandă; prețurile ofertate necesită reconfirmare.

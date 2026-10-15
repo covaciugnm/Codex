@@ -1,0 +1,29 @@
+2026.10.13 - QA vizual PECH R08
+
+Rezultat: PASS pentru prezentarea vizuală a exportului verificat.
+
+Document verificat:
+00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Werkvertrag R08/2026.10.13 Werkvertrag PECH R08.pdf
+SHA-256 PDF, recalculat independent:
+9d0f0078728fe1f22ca2b3914335f8ddad049ecb11fbd2bf553c9da3670511b5
+Număr de pagini: 32.
+
+Acoperire exactă:
+Toate paginile 1-32 au fost deschise și inspectate individual, prin view_image la detail original, din directorul:
+C:/Users/User/.codex/visualizations/2026/10/01/01a0f6eb-c105-7760-973e-241d6f6be8c1/2026.10.13 QA R08 PECH/
+Fișiere: page-01.png până la page-32.png, inclusiv.
+Controlul a folosit aceste imagini R08; nu a reutilizat aprobările vizuale ale versiunilor R06 sau R07 și nu s-a bazat pe o planșă de contact.
+
+Constatări:
+1. Pagina 1 începe cu titlul WERKVERTRAG, identificarea proiectului Schallergasse 35 și direct § 1. Nu există copertă introductivă, preambul sau secțiune Vorbemerkungen.
+2. Corpul §§ 1-16 și toate cele șase anexe sunt lizibile. Chenarele fine și spațiile interioare sunt uniforme; nu au fost identificate texte tăiate, suprapuneri, depășiri ale marginilor ori caractere lipsă vizibile.
+3. Aliniatele lungi continuă pe pagina următoare cu indicarea paragrafului și marcajul Fortsetzung. Nu au fost identificate titluri orfane, chenare care taie textul sau pagini goale.
+4. Tabelele din anexe sunt delimitate clar. Tabelele care continuă repetă titlul și antetul. Tabelul de alocare cu opt coloane din Anexa 4, paginile 27-28, este integral lizibil; numerele monetare nu depășesc celulele.
+5. Valorile vizibile în § 11 și Anexa 4 sunt coerente cu exportul: EUR 69.300,00 net, EUR 13.860,00 TVA și EUR 83.160,00 brut; retenția exemplificată este EUR 3.465,00, cu plată după reținere de EUR 79.695,00. Opțiunile afișează EUR 450,00 net pentru fiecare termen suplimentar, cel mult EUR 2.700,00 net pentru șase și EUR 72.000,00 net / EUR 86.400,00 brut cu toate cele șase efectuate.
+6. Antetele și footer-ele identifică PECH și WERKVERTRAG, cu numerotare consecutivă Seite 1 von 32 până la Seite 32 von 32.
+7. Pagina 32 rezervă separat și complet câmpurile de semnare pentru AG și AN, funcția persoanei reprezentante, locul și data. Spațiul liber al paginii este adecvat unui bloc de semnături, fără fragmentare sau lipsă de câmpuri.
+
+Controlul textual separat al exportului, salvat de root în 2026.10.13 QA text PDF PECH R08.json, raportează PASS pentru 538 de fragmente, zero fragmente lipsă și zero caractere în afara paginii. SHA-ul PDF din acel control coincide cu cel recalculat pentru prezentul raport.
+
+Defecte vizuale care necesită corectare: niciunul identificat.
+Fișierele PDF, JSON contractuale și rendererul nu au fost modificate în această verificare. A fost creat numai prezentul raport extern.

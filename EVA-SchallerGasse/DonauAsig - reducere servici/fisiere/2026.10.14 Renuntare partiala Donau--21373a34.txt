@@ -1,0 +1,38 @@
+DONAU — RENUNȚAREA LA O PARTE DIN ACOPERIRI
+2026.10.14 | A&C Wohnart Immobilien GmbH | Schallergasse 35, 1120 Wien
+Polița 2044001194 | Document de analiză și bază pentru notificare; NETRIMIS
+
+CONCLUZIE
+Da, există posibilități concrete de renunțare parțială. Refuzul încetării întregii polițe până în 2036 nu înlătură automat drepturile speciale de încetare a unor acoperiri suplimentare. Nu există însă un drept general demonstrat de eliminare imediată a oricărei componente, la simpla alegere a asiguratului.
+
+1. DREPTURI CONTRACTUALE EXPRESE
+1242K — acoperirea suplimentară pentru cutremur.
+3031K — acoperirea suplimentară pentru catastrofe de apă; delimitarea exactă între subpunctele a) și b) trebuie indicată în confirmarea asigurătorului.
+Textele prevăd încetarea scrisă la sfârșitul fiecărei perioade de asigurare, cu preaviz de o lună. Încetarea acestor suplimente nu conferă dreptul de încetare a asigurării de furtună.
+Pe baza scadenței principale anuale 01.01, data vizată poate fi 2027.01.01, sub rezerva verificării tuturor derogărilor din contractul-cadru și a recepției în termen. Notificarea trebuie transmisă din timp; prudent, cu primire dovedită cel târziu la 2026.11.30, fără a aștepta ultima zi. Nu este confirmată în prezent nicio încetare parțială.
+Economia aferentă acestor două suplimente nu este individualizată în documentele analizate. Nu se poate echivala cu întreaga primă de furtună sau cu prima pentru apă din conducte.
+
+2. APA DIN CONDUCTE — COMPONENTĂ DIFERITĂ
+Leitungswasser nu este același lucru cu Katastrophendeckung Wasser. Dreptul special din 3031K nu permite eliminarea automată a asigurării pentru apă din conducte.
+DONAU a cerut la 2026.07.14 autorizația, descrierea lucrărilor și confirmarea instalatorului privind oprirea/securizarea apei. Răspunsul din 2026.10.06 afirmă că nu le-a primit. Trebuie verificată și dovedită predarea lor și cerută recalcularea concretă.
+§ 41a VersVG permite reducerea corespunzătoare pentru perioade viitoare dacă împrejurările agravante pentru care s-a stabilit o primă mai mare au dispărut ori și-au pierdut importanța. Nu este un drept necondiționat la eliminarea componentei și nu dovedește singur un credit retroactiv. Lucrările pot reduce unele riscuri și crește altele.
+
+3. PIERDEREA CHIRIEI ȘI SPAȚIILE DE ÎNLOCUIRE
+Pot fi cerute eliminarea prin acord sau examinarea dispariției interesului asigurat, pe probe privind folosința reală și contractele de închiriere. Faptul că imobilul este neocupat nu dovedește singur dispariția definitivă a tuturor intereselor asigurate. Nu se afirmă că aceste componente au încetat deja.
+
+4. INCENDIU, FURTUNĂ ȘI RĂSPUNDERE DE PROPRIETAR
+Nu s-a identificat în verificarea de față un drept general de eliminare unilaterală imediată. Se verifică drepturile speciale și cadrul integral ori se negociază modificarea. Clădirea goală continuă să poată suferi incendii sau produce prejudicii. Se verifică și obligațiile concrete față de finanțator înaintea eliminării unei protecții.
+
+5. CE VA CUPRINDE NOTIFICAREA DUPĂ ALEGEREA COMPONENTELOR
+Identificarea exactă a acoperirilor eliminate și a celor păstrate; temeiul contractual distinct pentru fiecare; data solicitată și subsidiar prima dată admisă; confirmarea scrisă a încetării parțiale; prima anuală și trimestrială recalculată, taxele și eventualele costuri justificate separat; păstrarea declarației de încetare integrală trimise la 2026.10.01 și a obiecțiilor privind creanța. Cererea parțială nu trebuie formulată ca retragere a notificării anterioare sau ca acceptare a duratei până în 2036.
+Pentru clauzele cu drept expres, notificarea va exercita dreptul de încetare; pentru restul va solicita acordul ori ajustarea justificată, fără a prezenta acceptarea ca deja obținută.
+
+DE CLARIFICAT CU UTILIZATORUL
+Serviciile exacte pe care dorește să le elimine. Finalul mesajului «yoy sds rvjips fr trei» este neclar și nu a fost interpretat ca o instrucțiune precisă. Nu s-a ales în numele utilizatorului eliminarea cutremurului sau a catastrofelor de apă. Documentul de față este salvat; notificarea externă nu este finalizată și nu a fost trimisă.
+
+SURSE ȘI VERIFICĂRI
+Original: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf, paginile fizice 15 și 25, citite direct în această verificare. SHA-256 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835, identic indexului.
+Analiza precedentă: 05. Asigurari/Asigurare cladire/2026.10.14 Analiza juridica Donau/2026.10.14 01 Incetarea politei Donau.txt, secțiunea 7 și bibliografia. Conversația consultată: DonauAsig, ID 01a0f21f-8b26-7c51-85f9-22089ebfea54.
+Sursa oficială verificată online la 2026.10.14: https://ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460
+Corespondența originală și anexele sunt deja arhivate în 2026.10.14 Situatie Donau/Surse și Anexe; nu s-a efectuat o sincronizare nouă Eva-Mail. Ultimul răspuns identificat în verificarea anterioară: 2026.10.06, primit, ID Eva-Mail 2c273256-a0bf-408b-bb22-09718372e888. Notificarea integrală 2026.10.01: trimisă, ID 23eaa675-18ad-45b1-b535-25f7583087b1.
+Acest document nu este email: expeditor/destinatari/CC/ID Eva-Mail propriu — neaplicabil. Statut: document local, NETRIMIS. Nicio datorie, reducere sau restabilire de acoperire nu este confirmată prin redactarea lui.

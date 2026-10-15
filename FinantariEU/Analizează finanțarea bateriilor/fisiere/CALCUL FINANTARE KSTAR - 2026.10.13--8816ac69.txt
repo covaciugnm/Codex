@@ -1,0 +1,72 @@
+CALCULUL FINANTARII SI CONTRIBUTIEI PROPRII PENTRU OFERTA KSTAR
+Data calculului: 13.10.2026
+
+REZULTAT CONDITIONAL PENTRU PACHETUL OFERTAT
+Pret de referinta: 562.630,00 EUR.
+Grant maxim dupa capacitate: 360.180,00 EUR.
+Diferenta de finantat de firma, fara TVA si costuri suplimentare: 202.450,00 EUR.
+Cota proprie raportata la pretul pachetului: 35,98%.
+Grantul raportat la pretul pachetului: 64,02%.
+Acest calcul nu confirma eligibilitatea sau obtinerea grantului.
+
+SURSA SI IPOTEZE
+Sursa: Oferta Finala KSTR-PI-A20260327-02.pdf, 27.03.2026, adresata Neets Fotoshooting SRL.
+Fisier: Z:\00. Proiecte 2025\AFIR FotoVoltaic 1\0.1. Fise Tehnice\KStar\Oferta Finala KSTR-PI-A20260327-02.pdf
+Oferta a fost valabila pana la 04.04.2026; pretul necesita reconfirmare.
+Pretul este CIF Constanta. Proforma finala nu prezinta separat TVA; calculul de baza presupune ca pretul de 562.630 EUR este fara TVA romaneasca.
+Capacitate utilizata: 20 dulapuri x 261 kWh = 5.220 kWh = 5,22 MWh, conform ofertei.
+Calculul foloseste capacitatea nominala declarata in oferta, nu energia livrata anual si nu capacitatea redusa cu DoD.
+Capacitatea admisa la finantare va fi cea stabilita si asumata in documentatia proiectului. Fisa producatorului indica 261,24 kWh/dulap, dar calculul de aici pastreaza cifra de 261 kWh din oferta.
+Se presupune ca pachetul este acceptat ca cheltuiala eligibila si ca celelalte proiecte ale aceleiasi intreprinderi nu reduc plafonul disponibil sub suma calculata.
+Nu exista inca un deviz complet al proiectului si nici confirmarea tratamentului TVA/importului.
+
+CALCULUL GRANTULUI
+Plafon pe capacitate: 5,22 MWh x 69.000 EUR/MWh = 360.180,00 EUR.
+Plafonul efectiv este minimul dintre costurile eligibile, plafonul pe capacitate si plafonul de 15.000.000 EUR ramas pentru intreaga intreprindere.
+In ipotezele de mai sus, grant maxim teoretic = 360.180,00 EUR.
+Contributie proprie pentru pachet = 562.630,00 - 360.180,00 = 202.450,00 EUR.
+Cota proprie = 202.450,00 / 562.630,00 x 100 = 35,98%.
+Nu este o cota fixa impusa de program; rezulta din pretul pachetului si plafonul pe MWh.
+
+ECHIVALENT IN LEI LA CURSUL APELULUI, 1 EUR = 5,2434 LEI
+Pret pachet: 2.950.094,14 lei.
+Grant maxim teoretic: 1.888.567,81 lei.
+Diferenta de finantat: 1.061.526,33 lei.
+Sunt conversii pentru bugetul apelului, nu un curs bancar garantat pentru plata furnizorului.
+
+SCENARII DE OFERTARE, FARA TVA SI COSTURI SUPLIMENTARE
+Ajutor EUR/MWh | Grant EUR | Contributie proprie EUR | Cota proprie din pachet
+69.000 | 360.180,00 | 202.450,00 | 35,98%
+60.000 | 313.200,00 | 249.430,00 | 44,33%
+50.000 | 261.000,00 | 301.630,00 | 53,61%
+40.000 | 208.800,00 | 353.830,00 | 62,89%
+Acestea sunt scenarii aritmetice, nu praguri de castig. Solicitarea a 69.000 EUR/MWh maximizeaza grantul dupa capacitate, dar nu maximizeaza punctajul. Un ajutor solicitat/MWh mai mic imbunatateste pozitia relativa in competitie; punctajul real depinde de ofertele concurente.
+
+SIMULARE SEPARATA DE TVA, NU CALCUL FISCAL FINAL AL IMPORTULUI
+Daca se aplica TVA de 21% exclusiv la baza simplificata de 562.630 EUR:
+TVA simulata = 118.152,30 EUR.
+Pachet plus TVA simulata = 680.782,30 EUR.
+Diferenta fata de grantul maxim = 320.602,30 EUR.
+TVA nu se finanteaza prin apel. Aceasta suma reprezinta un scenariu de necesar de finantare daca TVA trebuie suportata/plătita; nu este automat costul final al firmei daca exista drept de deducere.
+Proforma este de la furnizor din China, CIF Constanta. Baza TVA la import poate include taxe vamale si alte elemente. Taxele, deductibilitatea si eventualele mecanisme de amanare a platii TVA trebuie confirmate cu documentele tranzactiei si contabilul. Prin urmare, 320.602,30 EUR nu este bugetul final cert.
+
+COSTURI CARE LIPSESC DIN CALCULUL DE BAZA
+Devizul trebuie sa stabileasca: montajul, lucrarile si instalatiile necesare, racordarea/transformatorul, proiectarea si studiile, autorizarea, terenul, auditul si comunicarea, taxele de import si comisioanele, dupa caz.
+Nu toate aceste costuri sunt eligibile. Racordarea la statia de transformare, terenul, studiile, consultanta, auditul, publicitatea, taxele si TVA sunt neeligibile conform ghidului.
+Pentru aceeasi capacitate de 5,22 MWh, costurile suplimentare nu ridica plafonul de 360.180 EUR pe capacitate.
+Contributia proprie finala = costul total al proiectului - grantul aprobat, cu separarea tratamentului TVA deductibile.
+
+CONDITIA ESENTIALA PRIVIND PROIECTUL AFIR
+Oferta este pastrata in dosarul AFIR, dar acest fapt nu dovedeste singur destinatia finala sau finantarea bateriilor.
+Fondul pentru Modernizare analizat finanteaza instalatii NOI, AUTONOME, cu racord si contorizare proprii, nu proiecte combinate fotovoltaic plus stocare sau instalatii integrate cu un loc de consum.
+Daca aceste baterii sunt integrate in proiectul fotovoltaic AFIR ori in autoconsumul fabricii, calculul de mai sus nu reprezinta o finantare accesibila pentru acea configuratie prin apelul de baterii independente.
+Aceeasi cheltuiala nu poate fi finantata si prin AFIR, si prin acest apel. Daca au fost deja asumate comenzi/lucrari ireversibile inainte de depunerea noii cereri, trebuie verificat si principiul demararii lucrarilor.
+Pentru un proiect neeligibil sau care nu este selectat, grantul prin acest apel este zero; firma trebuie sa acopere integral pachetul si celelalte costuri.
+
+SURSE
+Ghidul aprobat, sectiunea 1.7 p.16, sectiunea 2.3 pp.29-33, Anexa 4 pp.95-96 si Anexa 2.2 p.89:
+https://energie.gov.ro/wp-content/uploads/2026/08/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf
+Pagina oficiala a apelului, consultata la 13.10.2026:
+https://energie.gov.ro/lansare-apel-sprijinirea-investitiilor-in-dezvoltarea-instalatiilor-autonome-stand-alone-de-stocare-in-baterii-a-energiei-electrice-cu-finantare-din-fondul-pentru-modernizare-p/
+ANAF, informare privind cota standard TVA 21%:
+https://static.anaf.ro/static/10/Iasi/material_informativ_17-12-2025.pdf

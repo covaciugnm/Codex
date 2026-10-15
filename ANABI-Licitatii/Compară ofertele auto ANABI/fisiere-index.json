@@ -70,8 +70,8 @@
     "source_reference": "D:\\ANABI - Licitatii\\monitor-anabi.mjs",
     "status": "copiat",
     "saved_path": "fisiere/monitor-anabi--e38aaa54.mjs",
-    "bytes": 2957,
-    "sha256": "c0be7aaf0be10dfa640ac16cdfcbc2e3bd8efce926e125a3e94214d8eb6c9460"
+    "bytes": 3099,
+    "sha256": "61e05f20a956c7d70e770a6ce1c266f69ab48657474cef48a62056620766216c"
   },
   {
     "source_reference": "D:\\ANABI - Licitatii\\portal-build.mjs",
@@ -152,6 +152,14 @@
   },
   {
     "source_reference": "https://anabi.just.ro/licitatiionline/ads?page=1\\&shortBy=price_high_to_low",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/auction/1280/autoturism-mercedes-benz-gls-350-redus-cu-50",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/auction/1281/licitatie-mercedes-benz-s500-4matic-2",
     "status": "referinta_externa_necopiata"
   },
   {

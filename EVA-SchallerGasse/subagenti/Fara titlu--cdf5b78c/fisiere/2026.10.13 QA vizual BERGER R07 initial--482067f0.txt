@@ -1,0 +1,17 @@
+2026.10.13 — QA vizual BERGER R07, export inițial
+
+PDF: 00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Vertragsvorschlag R07/2026.10.13 Werkvertrag BERGER R07.pdf
+SHA-256: b067d8625bb9bc8a34607df54a432a1f867faf17b8149038cdce53df2cc7a200
+33 de pagini.
+
+Acoperire vizuală exactă: toate paginile 1–33 au fost deschise individual cu view_image, detail original, folosind PNG-urile 2026.10.13 BERGER R07-01.png până la -33.png. Nu s-a folosit numai un contact sheet. Hashurile celor 33 de imagini inițiale au fost salvate în 2026.10.13 QA BERGER R07 initial PNG hashes.json înainte de rerandarea corecției editoriale.
+
+Layout: PASS. Nu am identificat text tăiat, suprapuneri, depășiri de celule, cifre rupte, caractere lipsă, pagini goale sau antete de tabel izolate fără rânduri. Fonturile, diacriticele germane, cardurile, etichetele de continuare și numerotarea sunt lizibile. Tabelele cu paginare au antetele repetate și continuarea urmărită. Blocul de semnături de pe pagina 33 este complet și are loc pentru completare.
+
+Copertă: EUR 45.000,00 net + EUR 9.000,00 TVA = EUR 54.000,00 brut. 12 vizite incluse, până la 6 comandate individual și 18 luni calendaristice de la B0 real. Nu se presupune o comandă a opțiunilor sau o semnătură.
+
+Verificare PDF real: textul celor 33 de pagini, metadatele și toate cele 23 de marcaje/outlines au fost citite cu pypdf. Zero rădăcină «verhand», zero «Anbieter», zero «PECH» și nicio denumire a celeilalte societăți. Metadatele indică A&C Wohnart Immobilien GmbH, titlul propriei propuneri și Subject Vertragsvorschlag; nu există atribuire unui avocat. Paginarea vizibilă este Seite 1 von 33 până la Seite 33 von 33.
+
+Observație editorială minoră semnalată: § 3(7), paginile 4–5, păstra «alte interne Baukostenschätzung», «jeweiligen Paketpreis» și «Originalposition». Nu este comparație explicită sau defect vizual, dar root a decis neutralizarea completă. Se cere verificarea separată a hashului final și a paginilor schimbate; această notă nu aprobă prin transfer automat un export ulterior.
+
+Nu am modificat sursele, PDF-ul sau imaginile. Nu am cercetat norme noi. Această QA privește fidelitatea vizuală și prezentarea, nu acceptarea contractului, actualitatea rolurilor ori confirmarea completării câmpurilor înainte de semnare.

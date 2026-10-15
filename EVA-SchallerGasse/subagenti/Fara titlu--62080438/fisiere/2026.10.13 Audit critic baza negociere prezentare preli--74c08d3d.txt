@@ -1,0 +1,29 @@
+2026.10.13 — Audit critic al prezentării bazei comune de negociere
+
+Obiect: textul introductiv, tabelul economic și instrucțiunile publice din helperul «2026.10.13 Publicare baza negociere.py». Verificare față de proiectele R05 înghețate. Acest control este distinct de auditul matricei, care nu era încă disponibilă la prima citire. Nu au fost efectuate modificări în helper, contracte sau rapoarte.
+
+Concluzie: prezentarea separă corect poziția AG de acceptarea ofertantului și spune că R05 rămân nemodificate. Aceeași cerință pentru ambii este un obiectiv nou de negociere, nu o uniformitate care există deja în R05. Trebuie evitate următoarele echivocuri în documentul nou.
+
+P01. Originea tarifelor. Expresia «Diferențele economice păstrate sunt valorile și tarifele proprii fiecăruia» poate sugera că 2.000/12 EUR net/vizită BERGER este tarif ofertat. Este tarif nou propus AG, derivat din poziția de 2.000 EUR, neacceptat. PECH 450 EUR net este tarif ofertat, dar aplicarea sa noului pachet comun și regulii comune de numărare necesită acord. Tabelul ar trebui să exprime explicit această diferență de proveniență, nu doar cifrele.
+
+P02. Originea celor 12 vizite PECH. Oferta avea «12 Abnahmen», iar R05 extinde funcțiile și definește Ortstermin. Formula publică «Oferta inițială avea 12» trebuie să numească Abnahmen; nu dovedește că oferta originală includea 12 vizite fizice PI/BWB complete ale pachetului comun. Pentru BERGER, maximum 8 sunt vizitele de asistență din poziția de 2.000 EUR; nu sunt limita originală a PI.
+
+P03. Excluderile. Introducerea menționează BauKG și managementul general REALIG. Pentru coerență cu R05 trebuie să rămână clare și nepreluarea ÖBA/Bauführung și delimitarea execuției fizice de proiectare/verificare. Aceste delimitări nu exclud obligațiile PI și BWB efectiv asumate.
+
+P04. Durata. «18 luni de execuție» este mai precis «18 luni ale fazei de execuție de la B0 real», cu T0 separat. AN prestează proiectare/verificare, nu execuția de construcție în general. Orizontul de 18 luni și consumarea celor 18 termene planificate nu trebuie prezentate drept încetare automată, recepție fictivă sau plafon al controalelor legale necesare.
+
+P05. Asigurarea secundară. Preferința de a nu majora asigurarea este legitimă ca obiectiv de negociere. Nu dispensează de obligațiile imperative, de probele de eligibilitate pentru rolurile reale ori de identificarea semnatarului. Lipsa unei dovezi actuale nu devine confirmare prin includerea datelor în anexă. Nu se solicită un plafon uniform inventat pentru două regimuri profesionale diferite.
+
+P06. Costurile și remediile legale. Formula «numai comandate și prestate» este potrivită pentru cele șase opțiuni voluntare și pentru extra-scope contractual. Nu se aplică dreptului legal justificat de compensare pentru împiedicarea din sfera AG, decontului de încetare și urgențelor, reglementate separat. R05 §§ 11 și 15 păstrează aceste drepturi. § 1168 ABGB nu reduce automat remunerația la munca deja efectuată; § 1170b are caracter imperativ în ipotezele sale și nu se elimină prin lipsa unei aprobări AG.
+
+P07. Obiectul uniformizării. Din R05 rezultă deja diferența materială: la BERGER, PI complet inclus este distinct de cele 12 vizite de asistență; PECH poate taxa un nou termen PI neacoperit după numărătoarea comună. Noua matrice trebuie să aleagă aceeași regulă de delimitare și numărare pentru ambii, marcând-o drept propunere și explicând unde diferă de R05. Identitatea prețului de bază al fiecăruia nu rezolvă această diferență de conținut.
+
+P08. Regulile de răspuns. Cererea unui răspuns pe același ID, cu includere/rezervă motivată/preț/termen/document, este utilă și comparabilă. Răspunsul generic prin AGB nu rezolvă diferența. Acceptarea individuală «INCLUS» nu trebuie considerată contract încheiat fără pachetul final, ierarhia documentelor și semnăturile cerute de proiect.
+
+Surse: BERGER R05 §§ 2, 7, 11, 15, Anexa 4; PECH R05 aceleași secțiuni. PDF-urile înghețate: BERGER SHA-256 5b29581b6af90ec2413e491c0c4b28792bedd06e7cf2300a8eaf3898a8551d5b; PECH SHA-256 60cac119f679cf699c1951d42a833339608d5929c730288f2965d11cf0d9dc3d.
+
+Norme primare recitite în 2026.10.13:
+https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168/NOR12018908
+https://www.ris.bka.gv.at/eli/jgs/1811/946/P1170b/NOR40070129
+
+Observațiile sunt recomandări pentru prezentarea nouă și puncte de verificare a matricei. Nu constituie modificare sau denunțare a contractelor R05 și nu atestă acceptare comercială.

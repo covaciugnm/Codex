@@ -1,0 +1,41 @@
+2026.10.13 — QA vizuală independentă BERGER R06, exportul final
+
+Rezultat: PASS pentru toate paginile 9–33, inspectate individual la rezoluția originală. Această notă nu certifică inspecția proprie a paginilor 1–8, verificate separat de agentul principal.
+
+PDF verificat: 00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Verhandlungsentwurf R06/2026.10.13 Werkvertrag BERGER R06.pdf
+SHA-256 PDF, reconfirmat pe disc: b8b0e974c86dfe208e2f4dfd1d484a021d463b02e937bfd6e002636b51292a80
+Număr de pagini al exportului final: 33.
+Sursa JSON R06, verificată comercial separat: b2a5254c4806e4067eadd6d17613b815bcb5d7d85020f672cc32b1964a420d56.
+
+PNG inspectate: C:/Users/User/.codex/visualizations/2026/10/01/01a0f6eb-c105-7760-973e-241d6f6be8c1/2026.10.13 QA contracte elegante R06/BERGER final/2026.10.13 BERGER R06-09.png până la -33.png, inclusiv. Fiecare imagine a fost deschisă separat cu view_image, detail original; fără substituirea prin contact sheet sau numai extragere de text.
+
+Registrul paginilor:
+9 — PASS: § 7(1)–(5), carduri complete, margini și spațiere normale.
+10 — PASS: § 7(6), § 8(1)–(4), titlu și corp fără suprapuneri.
+11 — PASS: § 8(5)–(6), § 9(1)–(4); ruptura § 9(4) este explicit continuată pe pagina următoare.
+12 — PASS: continuarea § 9(4), apoi § 9(5)–(8), fără pierdere de text.
+13 — PASS: § 10(1)–(6), carduri lizibile și complete.
+14 — PASS: § 10(7), § 11(1)–(5); ultima clauză este explicit continuată.
+15 — PASS: continuarea § 11(5), § 12(1)–(5), fără suprapunere cu subsolul.
+16 — PASS: continuarea § 12(5), § 12(6)–(7), § 13(1)–(3), continuare identificată.
+17 — PASS: continuarea § 13(3), § 13(4)–(6), § 14(1)–(2).
+18 — PASS: continuarea § 14(2), § 14(3)–(5), § 15(1)–(2).
+19 — PASS: § 15(3)–(6), fără tăiere sau rânduri suprapuse.
+20 — PASS: § 16(1)–(5) și începutul anexei 1, fără titlu orfan.
+21 — PASS: anexa 1(2) și primele șapte rânduri ale tabelului 1. Spațiul alb excesiv al exportului inițial este eliminat.
+22 — PASS: antetul tabelului 1 este repetat corect; ultimele două rânduri sunt complete. Anexa 2 și primele șapte rânduri ale tabelului ei sunt lizibile.
+23 — PASS: antetul anexei 2 este repetat, ultimele două rânduri complete; anexa 3(1)–(5) fără pierdere de text.
+24 — PASS: anexa 3(6) și calendarul până la PI-Bekanntgabe. Coloana reperelor este suficient de lată, fără litere finale izolate. D1–D5 redau 3/6/8/10/12 săptămâni.
+25 — PASS: continuarea calendarului și vizitele 1–10; B0 efectiv, 18 luni și separarea T0 sunt vizibile. Prima vizită B0 privește Untergrund/Fundierung.
+26 — PASS: vizitele 11–12 cu antet repetat și anexa 4(1)–(5); continuarea ultimei clauze este indicată.
+27 — PASS: continuarea anexei 4(5), anexa 4(6)–(10), formulele opțiunilor și împărțirea E6 lizibile.
+28 — PASS: cele patru poziții originale și totalurile 45.000,00 / 9.000,00 / 54.000,00 EUR; reperele E1–E6 cu procentele și valorile corecte, fără tăiere.
+29 — PASS: E7 și total 100%; matricea de alocare cu șase coloane și începutul tabelului net/TVA/brut/retenție/plată. Numerele sunt aliniate, distincte și în întregime vizibile.
+30 — PASS: antet repetat al tabelului de plată, E7 și totalurile 45.000,00 net, 9.000,00 TVA, 54.000,00 brut, 2.250,00 retenție, 51.750,00 plată. Tarifele orare 150/135/95/75 EUR sunt corecte. Opțiunile arată 1.000,00 net / 1.200,00 brut pentru șase vizite și total 46.000,00 net / 55.200,00 brut, fără depășirea celulelor. Anexele 5 și 6 încep corect.
+31 — PASS: anexa 6(2)–(3) și formularul persoanelor/dovezilor, câmpuri libere lizibile, fără suprapuneri.
+32 — PASS: continuarea formularului cu antet repetat și tabelul condițiilor comune, rânduri întregi și margini corecte.
+33 — PASS: ultima continuare a tabelului cu antet repetat și blocul semnăturilor. Semnăturile sunt pe rânduri clare, nesemnate, iar pagina nu este goală.
+
+Constatări generale: nu au fost identificate clipping, suprapuneri, glife lipsă, pagini goale, rânduri pierdute în tabele sau numerotare greșită în intervalul inspectat. Antetele de tabele se repetă pe continuări; cardurile continuate sunt etichetate. Sumele, procentele și formulele vizibile din anexa 4 concordă cu auditul comercial separat. Nu s-a modificat niciun contract, PDF sau document sursă în cadrul acestei verificări.
+
+Separarea versiunilor: exportul inițial de 34 de pagini, SHA 01238165876330c1ba6fe12f24c303d9f250fc65997aef1252f16415fd909b9d, nu este obiectul acestei certificări finale. Pagini 9–14 ale acelui export fuseseră inspectate fără defecte; problemele de spațiu alb și etichete înguste raportate de ceilalți verificatori au fost remediate în noul renderer. Această notă se bazează direct pe toate cele 25 de PNG finale din intervalul 9–33, fără reutilizarea inspecției inițiale.

@@ -1,0 +1,38 @@
+[
+  {
+    "source_reference": "U:\\acc-florin",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "https://10.254.252.174/mgmt/tm/apm/oauth/oauth-client-app",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://eva-contab.ro/florin",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://eva-contab.ro/florin/anaf/callback",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://logincert.anaf.ro/anaf-oauth2/v1/authorize",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://logincert.anaf.ro/anaf-oauth2/v1/revoke",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://logincert.anaf.ro/anaf-oauth2/v1/token",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Anaf/Informatii_R/API/Oauth_procedura_inregistrare_aplicatii_portal_ANAF.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.anaf.ro/InregOauth/",
+    "status": "referinta_externa_necopiata"
+  }
+]

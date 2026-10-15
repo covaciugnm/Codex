@@ -1,0 +1,23 @@
+{
+  "id": "01a134b9-69cf-7543-90b8-2a636416f7a5",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\Dep. Resurse Umane\\CesiroSighi",
+  "created_at": 1791885928,
+  "updated_at": 1791887330,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică pozele caselor de marcat",
+  "project_id": "e3898c8c-1e2e-422a-a23f-35ea1ed61beb",
+  "project": "CesiroSighi",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 5197646,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 69,
+  "message_count": 18,
+  "content_sha256": "6a8d15919418a70e1fadfb8a600485455380ead8bc86b6d77a13533a11bfc987",
+  "files_copied": 20,
+  "references_not_copied": 11
+}

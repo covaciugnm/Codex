@@ -36,6 +36,24 @@
       "masked_values": {
         "signed_url_credential": 72
       }
+    },
+    {
+      "path": "subagenti/Fara titlu--62080438/fisiere/2026.10.13 Date firme pentru negociere registru--7f4b2f2f.py",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--62080438/istoric.json",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--62080438/rezultate.md",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
     }
   ]
 }

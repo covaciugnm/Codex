@@ -1,0 +1,23 @@
+{
+  "id": "01a13734-965d-7762-a41b-42d44cdee090",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791915478,
+  "updated_at": 1791916700,
+  "archived": 0,
+  "source": "vscode",
+  "title": "IP address Spamhaus blocklist issue",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 420495,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 138,
+  "message_count": 138,
+  "content_sha256": "5809c445c1436d39b85bc982a9733e9f2207c4512d7eb91fe111bd3fc33c3738",
+  "files_copied": 4,
+  "references_not_copied": 4
+}

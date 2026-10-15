@@ -42,3 +42,7 @@
 - [EVA Learn traducator Qwen](eva-learn-traducator-qwen.md) — traducere in masa RO-TOT cu Qwen pe PGX .160 (NU umbla la docker!), 37 limbi, GitHub cesiroproduction/Eva-Learn documentatie/traducator-qwen
 - [3dscan.eva-org.com server](3dscan-eva-org-server.md) — repo covaciugnm/3dscan.eva-org.com pe .151, git doar prin ops/git.sh, deploy 008 07.10.2026, backlog B01–B15 cu echipe paralele pe feat/*
 - [Decide autonom](decide-autonom-fara-intrebari.md) — user pe bypass: NU pune întrebări, decide și raportează; limite: fără ocolire sudo/parole, fără reboot server partajat
+- [licitatii.eva-org.com](licitatii-eva-org-site.md) — portal static licitatii (ANABI/Executori/Insolventa) pe U:\licitatii.eva-org.com, nginx 4170 + tunel CF, live 13.10.2026, actualizare automata zilnic 06:00 cron saga-server
+- [Stalwart releu hosterion Spamhaus](stalwart-releu-hosterion-spamhaus.md) — 13.10.2026: IP 5.15.130.140 listat CSS+PBL, iesire mutata pe releu mail.cesiro.ro (IP 185.199.175.100), SPF actualizat, rapoarte DMARC/TLS oprite; eva-org.com inca in DBL (formular Spamhaus = userul)
+- [Persoane si Firme: surse acte](persoane-firme-surse-acte.md) — MEREU cauta CI/CNP in Z:\00. Persoane si actele firmelor in Z:\00. Firme inainte de a lasa rubrici goale
+- [STURM Energie Schallergasse](sturm-energie-schallergasse.md) — litigiu facturi fara contract A&C, somatii 2.662,60 EUR termen 19.10.2026; solicitare R06 (10/10) + draft EVA creat 14.10.2026, NETRIMIS

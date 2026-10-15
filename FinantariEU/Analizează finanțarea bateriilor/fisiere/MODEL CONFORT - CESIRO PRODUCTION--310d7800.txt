@@ -1,0 +1,31 @@
+﻿MODEL DE LUCRU PENTRU INSTITUȚIA EMITENTĂ - NU ESTE SCRISOARE EMISĂ
+Sursa: Ghid FMST stand-alone, pagina 23. Textul obligatoriu este inclus mai jos.
+
+[ANTETUL INSTITUȚIEI DE CREDIT / INSTITUȚIEI FINANCIARE EMITENTE]
+Nr. [numărul documentului] / Data [data reală a emiterii]
+
+SCRISOARE DE CONFORT
+
+Solicitant: CESIRO PRODUCTION S.R.L.
+CUI: 45050734
+Sediu: [adresa completă a solicitantului]
+Proiect: [denumirea completă, identică în cererea de finanțare și hotărârea AGA/asociatului unic]
+Program: Fondul pentru Modernizare - instalații autonome (stand-alone) de stocare în baterii a energiei electrice
+
+[DENUMIREA COMPLETĂ A INSTITUȚIEI DE CREDIT/INSTITUȚIEI FINANCIARE] confirmă că a analizat preliminar proiectul [DENUMIREA COMPLETĂ A PROIECTULUI], depus de Solicitantul CESIRO PRODUCTION S.R.L. precum și capacitatea financiară a acestuia, și apreciază că proiectul poate face obiectul unei finanțări în valoare de până la [SUMA ÎN CIFRE ȘI ÎN LITERE, CU INDICAREA MONEDEI], destinată acoperirii contribuției proprii și a cheltuielilor neeligibile. Finanțarea va fi acordată ulterior încheierii contractului de finanțare cu Ministerul Energiei.
+
+Prezenta scrisoare servește ca document justificativ care atestă capacitatea Solicitantului pentru asigurarea cofinanțării și a cheltuielilor neeligibile pentru proiectul anterior menționat.
+
+[Valabilitate: de stabilit și completat de instituția emitentă; ghidul verificat nu fixează o durată minimă de șase luni.]
+[Datele instituției emitente și identificarea/autorizarea potrivit ghidului]
+[Nume, funcție și semnătură/semnătură electronică ale persoanei/persoanelor autorizate]
+
+INSTRUCȚIUNI PENTRU PREGĂTIRE - SE ELIMINĂ DIN DOCUMENTUL EMIS:
+1. Acest fișier este un model pregătit pentru bancă/IFN. El nu atestă efectuarea analizei sau acordarea vreunei finanțări.
+2. Instituția emitentă completează toate câmpurile și păstrează mențiunile obligatorii din ghid. Scrisoarea se emite pentru solicitant, nu pentru grup sau asociat.
+3. Suma se corelează cu necesarul pentru contribuția proprie și cheltuielile neeligibile din bugetul final. Nu se completează numai pe baza ofertei de baterii.
+4. Data este cea reală a emiterii. Scrisoarea se obține înainte de depunerea efectivă a cererii, nu abia la contractare.
+5. Scrisoarea nu înlocuiește bilanțurile, hotărârea AGA/asociatului unic, declarația unică sau condiția de neîncadrare în dificultate.
+6. Câmpurile privind numărul, data, antetul și semnătura sunt pentru identificarea documentului emis; rubrica de valabilitate este propusă pentru claritate și nu reprezintă o cerință de șase luni din ghid.
+
+Ghid oficial: https://energie.gov.ro/wp-content/uploads/2026/08/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf

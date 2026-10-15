@@ -2,7 +2,7 @@
 
 ID: `01a11589-044f-7c10-8ff4-8a1ccdf5b78c`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-13T08:28:59.767902+00:00
+Export UTC: 2026-10-15T09:33:11.760357+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -272,3 +272,435 @@ Statusul anterior și numărătorile sunt confirmate local: după salvarea noulu
 Nu am identificat probleme concrete. Textul `m.text` este păstrat exact în TXT, direcția PRIMIT și CC gol sunt corecte, iar imaginea are dimensiunea și SHA declarate.
 
 Raportul și jurnalele disting corect revenirea Frigo de o ofertă nouă sau acceptare. Registrele confirmă **802/826/783**, cu toate înregistrările anterioare păstrate neschimbate.
+
+## Asistent
+
+Cele patru Word/PDF au SHA-256 identice cu registrul final; sunt versiunile auditate.
+
+**Da, pentru dosare complete trebuie copiat separat și PDF-ul ofertei fiecăruia.** Ambele contracte îl desemnează explicit drept **Anlage 5**, fără încorporarea paginilor originale în PDF-ul propunerii:
+
+- BERGER: `2026.10.12 Oferta originala BERGER 2026.08.17.pdf` — SHA `b9d4297e…071fc80b`.
+- PECH: `2026.10.12 Oferta originala PECH 2026.09.17.pdf` — SHA `29495a44…2cb74ef1`.
+
+Copiile existente în dosarul comun sunt identice cu originalele și pot fi copiate în destinațiile indicate, păstrând numele. Statutul rămâne **propunere netrimisă și nesemnată**.
+
+## Asistent
+
+Elimină doar blocurile introductive românești:
+
+- **BERGER:** paragrafele 0–14; păstrează de la „Werkvertrag BERGER” — paragraful 15.
+- **PECH:** paragrafele 0–11; păstrează de la „Werkvertrag PECH” — paragraful 12.
+
+După acestea, corpul și subsolurile sunt germane; antetele sunt goale. Păstrează toate tabelele și clauzele. Singurele cuvinte românești rămase sunt în numele fișierelor ofertelor citate la Anlage 5, nu în proza contractuală.
+
+## Asistent
+
+**PASS.** Am verificat vizual toate cele **16 pagini BERGER**, la rezoluție originală, fără defecte de formatare.
+
+Ambele DOCX germane păstrează integral textul și tabelele sursă: **134/159 blocuri**, inclusiv proprietățile secțiunii, și **5/7 tabele**. Au fost eliminate exact **15/12 paragrafe introductive românești**, fără alte schimbări contractuale.
+
+## Asistent
+
+Audit final încheiat: **BERGER 10/10 și PECH 10/10 pentru calitatea proiectelor de negociere**. Observațiile R15/R16 sunt închise; textul și tabelele exportului final BERGER au fost revalidate independent.
+
+[Raport final R02](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/00.Proiect/09. Vertraege/2026.10.13 Reorganizare juridica si audit/2026.10.13 Audit juridic final R02.txt>)
+
+Am păstrat istoricul și sursele. Datele, reprezentarea, abilitările, independența, asigurarea și calendarul trebuie confirmate înainte de semnare. Contractele rămân propuneri neacceptate.
+
+## Asistent
+
+Verific polița BERGER și sursele PECH pentru a formula limita de asigurare exactă, fără să confund plafonul general cu limita pentru proiectare sau să presupun că polița veche este încă valabilă.
+
+## Asistent
+
+Folosesc verificarea PDF pentru paginile originale cu limitele de răspundere. Polița arată 3.500.000 EUR pentru răspunderea generală și 1.000.000 EUR la poziția „Pflichtversicherung Baumeister”; condițiile speciale și dovada valabilității actuale trebuie tratate separat.
+
+## Asistent
+
+Sursele BERGER confirmă declarația de **1.000.000 EUR**, cu plafon general separat de **3.500.000 EUR**. Agregatul anual și valabilitatea actuală nu sunt dovedite de polița din 2016. Pentru PECH nu am găsit o limită declarată în sursele consultate.
+
+Raportul și formularea germană sunt salvate în **2026.10.13 Verificare asigurare surse originale.txt**. R03 necesită audit separat; nota R02 nu se transferă automat.
+
+## Asistent
+
+Reiau auditul pe R03, inclusiv legătura dintre durata de 16 luni, prețul fix, recepțiile suplimentare și încetare. Verific separat că reducerea asigurării nu este prezentată drept dovadă a acoperirii actuale.
+
+## Asistent
+
+Auditul intermediar R03 este salvat, **fără notă finală**, deoarece instrucțiunea „12 + posibil 6” schimbă condițiile comerciale.
+
+Nu am identificat contradicții materiale noi privind cele 16 luni sau asigurarea. Textul și tabelele JSON/Word/PDF verificate concordă. Tariful și numărul vizitelor trebuie integrate în versiunea următoare și reauditate.
+
+## Asistent
+
+Noua versiune are acum 18 luni și 12 vizite incluse, plus cel mult 6 comandate separat. Verific că BERGER folosește formula nouă de 2.000/12 EUR, iar PECH păstrează cei 450 EUR din ofertă, fără costuri automate pentru vizitele neutilizate.
+
+## Asistent
+
+Comparația cu cererea inițială transmisă PECH arată un punct ce merită clarificat: aceasta separă o vizită pentru verificarea terenului de cele 12 recepții. Contractul trebuie citit atent pentru a stabili cum se numără vizita comună și ce prestații justifică cele două poziții, fără să presupun o dublă facturare.
+
+## Asistent
+
+Auditul R05 este salvat, fără modificarea contractelor:
+
+- **97 verificări** ale alineatelor și anexelor.
+- **80 comparații inverse** cu ofertele și cererea AG.
+- **12 obiecții plauzibile** ale prestatorilor.
+
+R17 este rezolvată în textul existent. Rămân sesizările R18 — Pos. 04/05 PECH, R19 — documentul tehnic referit, R20 — asigurarea actuală și minimele obligatorii. Nu acord o notă forțată și nu declar contractele gata de semnare.
+
+## Asistent
+
+Verific primele 23 de pagini ale raportului public și concordanța constatărilor cu auditul sursă. Restul paginilor este verificat separat; voi raporta exact acoperirea mea și orice problemă concretă.
+
+## Asistent
+
+Conținutul de început păstrează diferențele dintre oferta originală și propunere, inclusiv tariful nou BERGER și limitele probei de asigurare. Am identificat însă tabele care încep prea sus pe unele pagini; această problemă privește raportul de audit și trebuie corectată înainte de livrare.
+
+
+## Asistent
+
+Am verificat individual paginile 1–23 și semantic întregul Word: 80 condiții inverse, 97 rânduri contractuale, sume, constatări și hash-uri concordante cu auditul sursă.
+
+O singură sesizare: raportul public listează cele 6 hotărâri fără explicațiile aplicării lor. Aceste explicații există în secțiunea III a auditului TXT și trebuie preluate în raport.
+
+Nu am identificat un defect real de layout; decuparea aparentă provenea din afișarea imaginilor. Paginile 24–46 sunt verificate separat de redactor. Niciun contract sau raport nu a fost modificat de mine.
+
+## Asistent
+
+Verific acum cele trei pagini schimbate și aplicarea fiecărei hotărâri citate. Pentru paginile 1–23 voi reconfirma că imaginile sunt identice cu versiunea deja inspectată.
+
+
+## Asistent
+
+PASS pentru raportul final: cele 6 aplicații OGH sunt prezente integral și concordante în Word/PDF.
+
+Am verificat vizual paginile 1–23, identice cu versiunea anterioară, și paginile finale 44–46. Semantic, toate cele 80 + 97 rânduri și cele 12 obiecții juridice sunt păstrate.
+
+Nota QA separată a fost salvată. Nicio modificare a contractelor.
+
+## Asistent
+
+Voi reformula observațiile ca puncte de negociere pentru cerințe comune ambilor prestatori, cu diferențele economice indicate separat. Păstrez R05 nemodificat și voi preciza pentru fiecare punct poziția AG, marja de negociere și răspunsul scris necesar.
+
+
+## Asistent
+
+Scopul și livrabilele din Anexa 1 sunt deja identice. Diferențele care contează pentru noua bază comună sunt termenele D2–D5, definiția celor 12 vizite, plata controalelor PI suplimentare și penalitatea, prevăzută numai pentru PECH. Le voi trata ca puncte de aliniat în negociere, cu tarifele fiecărui prestator păstrate separat.
+
+
+## Asistent
+
+Cele 30 de observații au fost consolidate în 16 puncte, cu mapare completă la sursele inițiale. Documentul separat propune șapte repere comune de livrare și facturare și un formular de răspuns pe fiecare cerință: acceptare, contrapropunere cuantificată sau clarificare. Tăcerea și trimiterile generale la AGB nu vor fi tratate ca acceptare.
+
+
+## Asistent
+
+Salvate separat JSON/TXT „2026.10.13 Obiectii negociere reformulate”: 16 puncte comune, cu mapare completă a celor 30 observații.
+
+Incluse: șapte repere comune de facturare, calendar și penalitate comune propuse, reguli pentru 12 vizite fizice + 6 opționale și răspunsuri scrise fără excluderi tacite. D5 distinge proiectarea proprie de planurile de atelier primite ulterior.
+
+Asigurarea rămâne o verificare administrativă secundară. R05 nu a fost modificat.
+
+## Asistent
+
+Voi corecta aceste două formulări în materialul de negociere: regula facturării curente trebuie separată de decontul la încetare, iar § 1168 trebuie redat prin veniturile alternative efective sau omise intenționat. Păstrez versiunea anterioară și nu modific R05.
+
+
+## Asistent
+
+N01.2 este salvat: facturarea curentă este separată de decontul § 1168, iar veniturile alternative imputabile sunt definite precis, fără oportunități ipotetice.
+
+JSON SHA: `915fdd30edf10dc8628b9e8c073a325af9b44bb330c436740d5acc9300467740`.
+
+N01.1 păstrat în istoric; R05 nemodificat. Root și redactorul au fost informați.
+
+## Asistent
+
+Verific primele 15 criterii ale matricei față de N01.2, inclusiv cele șapte repere comune și regula pentru planurile de atelier primite ulterior. Voi semnala doar discrepanțele care schimbă cerințele sau lasă loc interpretării.
+
+
+## Asistent
+
+Primele 15 criterii RO sunt aliniate în mare parte N01.2.
+
+Rămâne o precizare substanțială la N013: nodurile și ancorele trebuie livrate la etapa elementului aferent — D2/D3/D4/D5 — nu generic la D4/D5.
+
+N014 RO redă corect regula planurilor de atelier tardive. Textele DE comune sunt momentan goale în draftul actual; le voi verifica după completare. Nicio editare efectuată.
+
+## Asistent
+
+Corectez doar trimiterea internă N07 → P07 și păstrez N01.2 în istoric. Fondul materialului și R05 rămân neschimbate.
+
+
+## Asistent
+
+N01.3 salvat: trimiterea P02 este corectată la P07. N01.2 păstrat în istoric; fondul și R05 neschimbate.
+
+JSON SHA: `13c996c46fadb2c523191565e2f487a4cde7a797a4ebc7ea74221cac9816d902`.
+
+## Asistent
+
+Verific criteriile N016–N055, cu accent pe numărarea vizitelor, termenele BWB, facturare și drepturile din §§ 1168/1170b. Compar cerințele comune cu N01.3 și semnalez orice diferență nouă nejustificată între prestatori.
+
+
+## Asistent
+
+N016–N055 sunt aliniate în esență N01.3. Sunt de precizat:
+
+- N020: referința suplimentelor trebuie să trimită la N036–N040.
+- N032: „5 zile” trebuie să fie „5 zile lucrătoare”.
+- N037/N038: plata după efectuare privește facturarea curentă; decontul justificat § 1168 rămâne distinct.
+- N027: „autor și Erstprüfer”, nu „doi autori”.
+
+Coada privind E1–E7 și verificarea administrativă a asigurării urmează la versiunea finală. Nicio editare efectuată.
+
+## Asistent
+
+Verific ultima parte a matricei: facturarea pe aceleași repere, garanțiile și penalitatea comune, decontul la încetare și verificarea administrativă a asigurării. La versiunea finală voi consemna și închiderea precizărilor semnalate anterior.
+
+
+## Asistent
+
+Cele 100 de criterii au fost parcurse. Regulile principale sunt comune, iar tarifele rămân distincte. Am semnalat câteva referințe interne și formulări de facturare care trebuie precizate pentru a păstra separat decontul legal și plata vizitelor PI suplimentare.
+
+
+## Asistent
+
+Auditul semantic final este PASS: 100 criterii, șapte repere comune și toate precizările închise, inclusiv T0/B0 și numărarea vizitelor PI.
+
+Nota este salvată în noul dosar de negociere. R05 rămâne nemodificat; verificarea Word/PDF urmează separat.
+
+## Asistent
+
+Voi verifica rectificarea de metadate și actualiza separat nota de audit cu noul hash. Pregătesc și un plan precis în germană pentru o eventuală versiune comună R06; nu creez contractele până la clarificarea opțiunii de către utilizator.
+
+
+## Asistent
+
+Pregătesc două versiuni R06 noi, cu aceleași cerințe tehnice și juridice. R05 rămâne intact; diferențele economice vor păstra prețurile și tarifele distincte ale celor două firme.
+
+
+
+## Asistent
+
+Cerințele comune sunt integrate în ambele proiecte R06, inclusiv cele șapte repere de facturare. Verific acum sumele, diferențele dintre texte și acoperirea celor 100 de criterii, apoi celălalt auditor verifică independent noile versiuni.
+
+
+
+## Asistent
+
+Verificarea sumelor a trecut: prețurile de bază, alocările pe poziții, TVA și retențiile se reconciliază pentru ambele firme. În corpul contractelor diferă doar identitatea prestatorului și sumele onorariului; anexele tehnice și condițiile comune sunt identice. R05 și ofertele originale au rămas neschimbate, verificat prin hash.
+
+
+
+## Asistent
+
+Ambii auditori au încheiat verificarea independentă. Nu au identificat alte probleme de fond; aplic doar precizarea comună că durata inclusă este în interiorul cadrului de 18 luni. Păstrez versiunile anterioare și verific din nou hashurile înaintea exportului.
+
+
+
+## Asistent
+
+R06 pregătite în noul dosar, cu 16 capitole și 6 anexe fiecare.
+
+- BERGER SHA: `b2a5254c4806e4067eadd6d17613b815bcb5d7d85020f672cc32b1964a420d56`
+- PECH SHA: `edf8d2831118f5137cb5e616df0a96172ff4aa3781617ded5291668bda84e101`
+
+Cerințele comune și anexele 1–3/6 sunt identice. Sumele, alocările, TVA și retențiile sunt verificate. Ultima modificare privește clarificarea cadrului de 18 luni și semnele ASCII; delta exactă este documentată.
+
+R05 și originalele sunt neschimbate. Reconfirmarea independentă finală este solicitată; documentele rămân propuneri de negociere, netrimise și nesemnate.
+
+## Asistent
+
+Verific textele R06 pentru toate trimiterile la comparație, negociere și diferențe față de ofertă. Propun formulări neutre în germană, păstrând condițiile operative; nu modific contractele.
+
+
+
+## Asistent
+
+Am identificat mențiunile care trebuie neutralizate, în principal în preambul, clauzele despre documente și anexele economice. Referințele tehnice la planuri istorice, defecte existente sau abateri de execuție au alt rol și trebuie păstrate.
+
+
+
+## Asistent
+
+Inventarul R07 este salvat: 83 de înlocuiri editoriale exacte, cu pointer JSON și formulare germană neutră.
+
+Controlul în memorie confirmă eliminarea referințelor la negociere, alți ofertanți și comparație. Cele 16 capitole, 96 de alineate și 6 anexe rămân păstrate.
+
+Nu am modificat contractele sau PDF-urile. Raport: `2026.10.13 Inventar editorial R07.json`, SHA `e1bd3564e30cfc0ad020adc8e610b756997c136436220b898bfac8622addc06c`.
+
+## Asistent
+
+Verific aplicarea exactă a celor 83 de înlocuiri în R07 și păstrarea sumelor, termenelor și clauzelor. După export voi inspecta separat toate paginile PDF-ului BERGER, fără să modific sursele.
+
+
+
+## Asistent
+
+Textele R07 corespund exact inventarului editorial, iar sumele și structura au trecut verificarea. În textul destinat fiecărei firme nu mai apar trimiteri la alți ofertanți sau negociere. Verificarea vizuală rămâne pentru PDF-urile exportate.
+
+
+
+## Asistent
+
+R07: PASS pentru aplicarea exactă a celor 83 de înlocuiri, structura și sumele păstrate. Textul public nu conține „verhand”, „Anbieter” sau numele celeilalte firme.
+
+Nota este salvată în `2026.10.13 Audit fidelitate editoriala R07.txt`. Verificarea vizuală a PDF-ului BERGER rămâne de făcut după export.
+
+## Asistent
+
+Inspectez toate cele 33 de pagini ale PDF-ului BERGER la rezoluția originală. Verific și textul, metadatele și marcajele PDF pentru formulări comparative, sumele de pe copertă și concordanța cu R07.
+
+
+
+## Asistent
+
+Primele 18 pagini sunt lizibile, fără text tăiat sau suprapuneri. Am semnalat o formulare comercială reziduală în § 3(7); va fi neutralizată fără schimbarea condițiilor. După rerandare voi reverifica paginile schimbate.
+
+
+
+## Asistent
+
+PDF-ul final BERGER a trecut verificarea vizuală. Am confirmat independent că 31 de pagini sunt identice cu versiunea deja inspectată și am reverificat paginile 4–5 modificate. Textul public, metadatele și marcajele PDF nu conțin referințe la negociere sau la cealaltă firmă.
+
+
+
+## Asistent
+
+BERGER R07: **PASS**, 33 de pagini acoperite integral. Paginile finale 4–5 sunt reverificate; celelalte 31 sunt identice cu versiunea inspectată.
+
+Nu am identificat defecte vizuale sau referințe publice la negociere ori cealaltă firmă. Nota finală este salvată în `2026.10.13 QA vizual BERGER R07.txt`.
+
+## Asistent
+
+Verific că cele trei paragrafe introductive sunt mutate integral în emailul fiecărei firme și că R08 păstrează toate clauzele, anexele și sumele. După export voi inspecta PDF-ul BERGER care începe direct cu contractul.
+
+
+
+## Asistent
+
+Transferul R08 este verificat: cele 3 paragrafe apar integral și în ordine în emailul fiecărei firme. Toate cele 16 capitole, 96 de alineate, 6 anexe, semnături și sume sunt identice cu R07 final.
+
+Notele TXT/JSON sunt salvate în dosarul intern R08. Verificarea PDF-ului BERGER urmează după export.
+
+## Asistent
+
+Inspectez toate cele 32 de pagini BERGER R08. Verific că PDF-ul începe direct cu „WERKVERTRAG”, proiectul și § 1, fără copertă-sinteză sau preambul, apoi verific tabelele, paginarea și semnăturile.
+
+
+
+## Asistent
+
+Prima pagină începe direct cu titlul, proiectul și § 1. Textul extras, metadatele și cele 22 de marcaje PDF nu mai conțin „Vorbemerkungen” sau „Vertragsvorschlag”. Paginile inspectate până acum nu au defecte de formatare; continui până la pagina 32.
+
+
+
+## Asistent
+
+Toate cele 32 de pagini au fost inspectate, fără defecte vizuale. Am verificat și textul PDF: toate cele 96 de alineate principale și paragrafele anexelor sunt prezente integral. Preambulul este absent din PDF, iar copia ofertei originale are hashul păstrat.
+
+
+
+## Asistent
+
+**BERGER R08: PASS**, toate cele 32 de pagini inspectate individual. PDF-ul începe direct cu contractul, fără preambul sau copertă-sinteză; nu am identificat defecte vizuale.
+
+Raportul este salvat în `2026.10.13 QA vizual BERGER R08.txt`, cu hashul PDF final și acoperirea exactă.
+
+## Asistent
+
+Verific oferta BERGER și legăturile dintre clauzele R08, ca să delimităm precis lucrările de excavație excluse de fundațiile și subzidirile păstrate. Verific și numărarea celor 8 vizite, inclusiv inspecția inițială T0, fără eliminarea controalelor PI obligatorii.
+
+
+
+## Asistent
+
+Oferta confirmă două poziții distincte: maximum 8 vizite pentru asistența statică, la 2.000 EUR net, și serviciile PI la 10.000 EUR net. În R09, inspecția T0 va consuma una dintre cele 8 vizite statice; controalele exclusiv PI vor avea propriul plan, fără plafon numeric. Excluderea sprijinirii excavației trebuie propagată și în livrabilul D2 și anexele tehnice, păstrând fundațiile și subzidirile clădirii.
+
+## Asistent
+
+Ghidul R09 și completarea comercială sunt salvate în dosarul intern.
+
+Confirm: 8 vizite statice, inclusiv T0; PI separat, fără plafon numeric. Verbau rămâne exclus, fundațiile și subzidirile clădirii incluse. Am identificat toate dependențele pentru eliminarea retenției, penalității și graficului procentual.
+
+Aștept sursa R09 stabilă pentru auditul final. PECH și R08 nu au fost modificate.
+
+## Asistent
+
+Verific acum versiunea BERGER R09 integral, cu accent pe delimitarea Verbau, cele 8 vizite statice și PI separat, apoi termenul de plată și eliminarea condițiilor comerciale retrase. Nu modific sursa sau documentele PECH.
+
+## Asistent
+
+Conținutul R09 este coerent: PI rămâne separat, Verbau este exclus, plata revine la 14 zile, iar retenția, penalitatea și ratele procentuale au fost eliminate. Cele 39 de modificări înregistrate reproduc exact sursa finală. Am găsit doar o referință veche „R08” în instrucțiunea internă pentru atașamentul emailului; aceasta trebuie corectată înainte de actualizarea draftului.
+
+## Asistent
+
+Exportul reflectă sursa finală, inclusiv corecția exclusiv tipografică din Anexa 1. Am inspectat primele 16 pagini individual: clauzele lungi, continuările între pagini și plata la 14 zile sunt lizibile, fără text tăiat sau suprapuneri. Continui cu anexele, tabelele de preț și semnăturile.
+
+## Asistent
+
+BERGER R09: verificarea conținutului și a tuturor celor 29 pagini este PASS. Nicio problemă de formatare; toate cele 356 fragmente verificate apar în PDF.
+
+Raportul vizual și adendumul pentru sursa finală sunt salvate în dosarul intern R09. PECH, contractele și Eva-Mail nu au fost modificate.
+
+## Asistent
+
+Citesc propunerea ca material de analizat și verific afirmațiile despre PECH în documentele existente. Nu modific niciun fișier, contract sau draft de email.
+
+## Asistent
+
+Două premise ale propunerii nu sunt confirmate: arhiva consultată nu arată un refuz expres PECH pentru PI/Bauwerksbuch, iar legea nu interzice automat funcția PI doar pentru că firma a participat la proiectare. Separarea acestor servicii este posibilă contractual, dar trebuie păstrate responsabilitățile și termenele pentru verificare, certificarea finală și Bauwerksbuch.
+
+## Asistent
+
+Propunerea poate susține separarea contractuală a PI și Bauwerksbuch, dar **justificările ei nu sunt suficient probate, iar textul nu este pregătit pentru aplicare mecanică**. Nu am modificat și nu am salvat nimic.
+
+1. **„Refuzul expres PECH” nu este identificat.** În arhiva indexată consultată apar șapte mesaje PECH distincte: cele primite la 2026.08.06 și 2026.09.17 nu refuză aceste servicii. Cererea separată Bauwerksbuch din 2026.09.29, ID `7dd1b621…`, este trimisă de A&C; jurnalul consemnează lipsa unui răspuns identificat. Oferta nu numește expres PI/BWB, dar pozițiile sale trimit la descrierea AG. Aceasta precizează PI separat și, la poziția 6, **contribuția la certificarea ZT**, fără asumarea completă a acelei funcții. Este susținută formularea „nu sunt expres ofertate ca funcții complete”; „au fost refuzate explicit” rămâne neprobată.
+
+2. **Participarea la proiectare nu produce automat incompatibilitate PI.** § 127 cere independență față de Bauwerber și Bauführer, inclusiv lipsa raporturilor de serviciu sau organice; nu interzice textual orice cumul cu proiectarea. § 128 reglementează distinct certificarea finală de către ZT. Bauwerksbuch adaugă independența față de proprietar. Alegerea unui terț este posibilă, dar propunerea nu poate prezenta „autoverificarea ilegală” drept concluzie automată. Surse: [§ 127](https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P127/LWI40016468), [§ 128](https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128/LWI40018216), [§ 128a](https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217).
+
+3. **„PECH a co-semnat Vorbemessung 2021” necesită nuanțare.** PDF-ul `Statische_Vorbemessung_2021_inkl_Mauerwerksgutachten.pdf` are coperta BERGER „Jänner 2022”; pagina PDF 2 numește Rainer Zeiss și ZTMoser ca prelucrători. Include separat documente PECH, GZ 2021-430. Acestea confirmă contribuții istorice PECH, dar textele examinate nu dovedesc co-semnarea întregii Vorbemessung în 2021.
+
+4. **Trei responsabilități trebuie separate explicit:** PI după § 127, certificarea completă ZT după § 128 și Bauwerksbuch după § 128a. Desemnarea unui PI extern nu atribuie automat aceluiași prestator certificarea ZT sau Bauwerksbuch. Eliminarea din PECH este posibilă, însă titularii, comenzile și livrabilele externe trebuie stabilite distinct; obligațiile legale ale A&C rămân.
+
+5. **Trimiterea § 5(2) la § 7 nu este greșită în R08 actual.** § 7(6) conține termenul RFI de două zile lucrătoare; trimiterea este doar prea generală. În schimb, noul § 6(3), „rechtzeitig” / „so, dass diese Fristen…”, elimină termenele concrete ale contribuțiilor. Sunt necesare date sau intervale determinate, responsabil pentru notificare și consecințele documentelor lipsă. Excluderea BWB din PECH nu șterge termenul legal aplicabil proprietarului. [§ 128a](https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217)
+
+6. **Sumele propuse se închid, procentele nu.** Rândurile însumează 69.300 EUR, iar coloana 01 însumează 42.000 EUR. Transferul de 2.440 EUR în E6 este aritmetic corect. Procentele `10/19,4/23,8/13,2/10/13,5/10` însumează însă **99,9%** și nu reproduc exact ratele. Sumele fixe trebuie să prevaleze. Afirmația „PECH poate factura maximum 59.930 EUR” descrie un risc condițional dacă serviciile respective nu sunt asumate/prestate; nu este un plafon juridic demonstrat.
+
+7. **Numerotarea capitolelor nu garantează trimiteri valide.** Reducerea § 5 de la opt la trei alineate și § 6 de la șapte la trei cere verificarea tuturor trimiterilor și sensurilor. Nu am identificat în corpul R08 o trimitere literală la alineatele eliminate, deci nu afirm existența unei asemenea erori. Totuși, înlocuirea integrală § 5 elimină inclusiv coordonarea pentru **Gebäudebeschreibung § 128b**; aceasta nu este acoperită suficient de instrucțiuni.
+
+8. **Condițiile comerciale păstrate sunt propuneri AG, nu condiții originale PECH.** Originalul prevede „Kein Haftrücklass”, 14 zile de la data facturii, facturi parțiale lunare și ZT-Index. Păstrarea a 30 zile, retenției și penalității necesită acordul prestatorului. Aceste condiții nu sunt automat neexecutabile, dar nici deja acceptate.
+
+Sursele locale principale: oferta originală PECH 2026.09.17, SHA `29495a44…74ef1`; descrierea AG `Anfrage_Ausfuehrungsstatik.docx`; mesajele PECH și jurnalul `2026.10.12 Log discutii - Pech.txt`; sursa `2026.10.13 Werkvertrag PECH R08.json`. Acoperirea este arhiva locală indexată, fără o verificare nouă în Eva-Mail.
+
+## Asistent
+
+Pregătesc observațiile pentru noua versiune PECH: cerințele complete PI/ZT/Bauwerksbuch rămân în propunere, însă asumarea lor și acoperirea onorariului trebuie marcate ca neconfirmate. Cele șase poziții tehnice proprii și contribuțiile PECH la documentele finale rămân distincte de aceste funcții suplimentare.
+
+## Asistent
+
+Ghidul PECH R09 este salvat în dosarul intern, cu 15 controale.
+
+PI/ZT/Bauwerksbuch rămân cerințe complete, cu asumarea și acoperirea onorariului neconfirmate. Cele șase poziții proprii rămân distincte, fără prețuri auxiliare inventate sau facturi blocate de funcții neasumate.
+
+Aștept sursa R09 stabilă pentru audit și verificarea PDF.
+
+## Asistent
+
+Verific integral PECH R09, inclusiv dacă marcajele de asumare neconfirmată sunt respectate de clauzele operative, facturare, termene și recepție. Nu mut documentele în public și nu actualizez Eva-Mail.
+
+## Asistent
+
+Rolurile complete sunt păstrate și condiționate consecvent de confirmarea înainte de semnare; facturile pentru lucrările proprii nu depind de servicii independente încă neasumate. Am identificat două greșeli editoriale minore și le-am transmis pentru corectare. Primele 15 pagini sunt lizibile, iar marcajele bold pentru punctele deschise apar corect.
+
+## Asistent
+
+Verificarea finală este încheiată: toate cele 35 pagini sunt acoperite, cele trei funcții deschise apar evidențiate, iar câmpurile lor de preț sunt goale. Cele 572 fragmente din sursă apar integral în PDF, iar verificările numerice au trecut. Cele două corecții editoriale și termenul de două zile pentru propriul Abnahmevermerk sunt integrate; nu am identificat un defect material rămas.
+
+## Asistent
+
+PECH R09 final: auditul de conținut și verificarea celor 35 pagini sunt PASS, fără defect material rămas. Toate cele 572 fragmente apar în PDF; verificările numerice au trecut.
+
+Rapoartele TXT/JSON sunt salvate în dosarul intern. Funcțiile complete, onorariul lor și calendarul rămân de confirmat expres înainte de semnare.

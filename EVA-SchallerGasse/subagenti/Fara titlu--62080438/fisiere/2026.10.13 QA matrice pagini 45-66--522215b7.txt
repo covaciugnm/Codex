@@ -1,0 +1,18 @@
+2026.10.13 — QA separat pentru matricea comună, paginile 45–66
+
+Document: 2026.10.13 Matrice explicita cerinte comune BERGER PECH.pdf
+Număr total pagini: 66.
+SHA-256 PDF: 763d5cfaddae1fe1e3449e328d46c3d24ec389953875663baddc1d7c4dcde368
+SHA-256 DOCX: ba67527052ee240a20eb86013a87cd57457d05ccd694b070782b93189c5b4389
+
+Acoperire personală: toate paginile 45–66, adică 22 de pagini. Fiecare PNG a fost deschis individual prin view_image, detail original, din directorul 2026.10.13 QA baza negociere/Matrice. Această notă nu revendică inspecția personală a paginilor 1–44, repartizate altor verificatori.
+
+Rezultat vizual: PASS. Tabelele sunt în margini, antetele și bordurile sunt complete și se repetă la continuare. Nu am identificat text tăiat, suprapuneri, rânduri confundate, pagini goale, titluri orfane sau rânduri rupte între pagini. Footer-ele sunt lizibile și indică succesiv 45/66–66/66. Linkurile și căile lungi se împart lizibil în interiorul celulelor. Ultima pagină cu trasabilitatea conține trei paragrafe complete; spațiul liber rămas nu ascunde conținut și nu este o pagină goală.
+
+Repere: paginile 45–57 conțin ultimele criterii contractuale și administrative; pagina 58 închide istoricul și începe anexa firmelor; paginile 58–63 prezintă A&C Wohnart, BERGER și PECH; paginile 64–65 prezintă cele 19 surse; pagina 66 închide trasabilitatea.
+
+Fidelitatea anexei firmelor: cele 45 de câmpuri, valorile, nivelurile confirmării și notele aferente sunt păstrate față de 2026.10.13 Date firme pentru negociere.json. Controlul textului PDF al anexei a comparat 135 de fragmente, fără omisiuni. Rezultatul tehnic este salvat separat în 2026.10.13 QA fidelitate firme in matrice.json.
+
+Limitele probelor sunt păstrate explicit: FBA A&C este snapshot 2026.04.01 și nu extras oficial live; UID A&C are document fiscal istoric; Parkring 2 este semnalat ca istoric/neconcordanță online; BERGER UID are suport secundar, WKO/GISA nu sunt numite extras live; reprezentarea gewerberechtlich și cea comercială sunt distincte; PECH are reprezentanți și mod de reprezentare publicați, fără certificarea unui extras oficial actual. Persoana de contact nu este declarată automat semnatar confirmat. Nu este inventată confirmarea actuală a unei licențe ori polițe.
+
+Controlul vizual al acestei porțiuni nu înlocuiește auditul integral juridic/comercial al celor 100 de criterii. Nu am modificat matricea DOCX/PDF/JSON, contractele R05, sursele originale, jurnalele sau indexul; au fost create exclusiv notele QA externe.

@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"id\": \"97ba03e1-6941-4bd3-bf85-58f640f2fcfd\",\n  \"filename\": \"2026.10.13 Werkvertrag PECH R09.pdf\",\n  \"size\": 219492,\n  \"mime_type\": \"application/pdf\",\n  \"format\": \"pdf\",\n  \"draft_id\": null,\n  \"note\": \"Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft.\"\n}"
+    }
+  ],
+  "structuredContent": {
+    "id": "97ba03e1-6941-4bd3-bf85-58f640f2fcfd",
+    "filename": "2026.10.13 Werkvertrag PECH R09.pdf",
+    "size": 219492,
+    "mime_type": "application/pdf",
+    "format": "pdf",
+    "draft_id": null,
+    "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+  },
+  "isError": false
+}

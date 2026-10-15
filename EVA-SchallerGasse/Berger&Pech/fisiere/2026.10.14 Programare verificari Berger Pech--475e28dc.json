@@ -1,0 +1,31 @@
+{
+  "data": "2026.10.14",
+  "intervale_locale": [
+    "10:00",
+    "16:00"
+  ],
+  "fus_orar": "Europe/Bucharest",
+  "user_request": "pune un reminder de verificare dimineata la ora 10.00 si la ora 16.00 daca sunt update de la cei doi Berger si PEch legat de discutii pe email",
+  "create_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Created automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"verificare-emailuri-berger-i-pech\",\"mode\":\"create\",\"status\":\"ACTIVE\"}"
+      }
+    ],
+    "isError": false
+  },
+  "view_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Rendered automation card in the app."
+      }
+    ],
+    "isError": false
+  }
+}

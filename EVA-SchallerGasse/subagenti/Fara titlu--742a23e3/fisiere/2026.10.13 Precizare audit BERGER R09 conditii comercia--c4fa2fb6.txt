@@ -1,0 +1,20 @@
+2026.10.13 — Precizare ulterioară: condițiile comerciale BERGER R09
+
+Această notă consemnează ultima instrucțiune a utilizatorului, transmisă de agentul principal după «2026.10.13 Audit oferta BERGER si recomandari R09.txt». Ea înlocuiește recomandarea de păstrare a E6 și a repartizării în șapte rate din secțiunea 6 a acelei note. Constatările din oferta originală, excluderea Baugrube/Verbau, cele 8 vizite de asistență statică și separarea funcției PI rămân valabile.
+
+De păstrat pentru noua versiune BERGER:
+- 45.000 EUR net, 9.000 EUR TVA la 20%, 54.000 EUR brut; pozițiile 13.000 / 20.000 / 2.000 / 10.000 EUR net și regia 150 / 135 / 95 / 75 EUR net/oră.
+- Formularea comercială originală de la p. 3: «Teilrechnungen und Abschlagszahlungen werden entsprechend der Erfüllung des Leistungsbildes gelegt.» și «Für jede Rechnung gilt folgendes Zahlungsziel: 14 Tage ohne Abzüge.»
+- Maximum 8 vizite de asistență statică pentru 2.000 EUR; T0 cu asistență fizică efectivă consumă un loc. PI de 10.000 EUR separat, fără plafon numeric 8 și fără pachet suplimentar pentru o inspecție PI-only. Pachetele suplimentare de 4 vizite statice / 1.000 EUR net sunt comenzi distincte, potrivit instrucțiunii utilizatorului.
+- Valabilitatea istorică originală de 8 săptămâni nu este reînnoită ori resetată prin redactarea R09. Nu se afirmă că prestatorul a reconfirmat oferta.
+
+De eliminat din BERGER R09:
+- Haftrücklass 5%, sumele de retenție și tabelul plății brut minus retenție.
+- Garanția bancară care înlocuia acel Haftrücklass; această eliminare nu reprezintă o derogare de la eventualele drepturi imperative de Werklohnsicherstellung.
+- Penalitatea contractuală de 0,1% pe zi și plafonul contractual 5%, fără suprimarea drepturilor legale aplicabile pentru întârziere.
+- Procentele și ratele obligatorii E1–E7, tabelul de alocare pe E1–E7 și orice scadență care păstrează implicit noua grilă. Livrabilele și termenele tehnice D1–D5 pot rămâne definite, fără a deveni o nouă grilă procentuală de plată.
+- Termenul de 30 de zile și formulările reziduale privind eliberarea/reținerea garanțiilor comerciale eliminate.
+
+Adăugările comerciale expres solicitate sunt garanția contractuală de 3 ani, fără indexare automată și cadrul de execuție de 18 luni de la B0 real. Garanția contractuală nu reduce drepturile ori termenele legale mai lungi. Plata rămâne legată de prestațiile efectiv îndeplinite conform modelului original, cu deconturile legal justificate de împiedicare/încetare tratate separat; nu se introduce o comandă automată de pachete necerute.
+
+Aceasta este o notă pentru redactarea și auditul viitorului BERGER R09, nu confirmarea că modificările sunt deja în fișierul final. Niciun contract, draft EVA sau document PECH nu a fost modificat de auditor.

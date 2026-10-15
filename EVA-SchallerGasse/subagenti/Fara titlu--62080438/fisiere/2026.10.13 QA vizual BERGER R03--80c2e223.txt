@@ -1,0 +1,15 @@
+2026.10.13 - Verificare vizuală BERGER R03
+
+Fișier PDF: 00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag BERGER R03.pdf
+SHA-256: f0f5a798c7c2cba761e721aeabd6a52c0db025626189d738e1bbf52dae4091c3
+Număr de pagini: 23
+Directorul imaginilor: C:/Users/User/.codex/visualizations/2026/10/01/01a0f6eb-c105-7760-973e-241d6f6be8c1/2026.10.13 QA R03/BERGER/
+Metodă: fiecare PNG, paginile 1-23, deschis și inspectat individual prin view_image la detail original. Nu s-a utilizat numai contact sheet sau extragerea textului.
+
+Rezultat: PASS vizual. Nu sunt pagini goale, suprapuneri, texte sau cifre tăiate, antete de tabel izolate ori câmpuri de semnare desprinse. Numerotarea subsolurilor este coerentă, 1-23.
+
+Verificări specifice: preambulul R03 este lizibil pe pagina 1; clauza celor 16 luni de la B0 și suplimentele sunt complete pe paginile 6-9; asigurarea de 1.000.000 EUR ca valoare contractuală de pornire și verificarea condițiilor actuale sunt lizibile pe pagina 11 și în Anexa 6, pagina 22. Semnăturile sunt integral pe pagina 13. Calendarul din Anexa 3 are antet repetat corect pe pagina 17; B0 și T0 sunt distincte și câmpurile sunt întregi. Anexa 4 are sumele 13.000/20.000/2.000/10.000 EUR net și totalurile 45.000/9.000/54.000 EUR integral pe pagina 18, ratele și alocarea completă pe pagina 19, tarifele originale 150/135/95/75 EUR net/oră pe pagina 20. Anexa 5 începe pe pagina 21; nu există un salt gol înaintea ei. Tabelul final de abateri este integral pe pagina 23.
+
+Observație de aspect, fără defect: pagina 20 conține numai tabelul scurt al tarifelor, iar pagina 21 numai identificarea Anexei 5; spațiul alb rezultă din separarea anexelor și nu ascunde conținut.
+
+Nicio modificare efectuată în contract, PDF, Word sau JSON. Această notă privește numai aspectul; auditul juridic independent și confirmarea comercială rămân distincte.

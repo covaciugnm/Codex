@@ -1,0 +1,50 @@
+{
+  "data": "2026.10.14",
+  "mailbox": {
+    "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+    "email": "office@ac-wohnart.at",
+    "provider": "imap",
+    "permission": "owner",
+    "searchable": true,
+    "is_active": true,
+    "last_sync": "2026-10-14T11:00:14.474938Z"
+  },
+  "destinatari_donau": [
+    {
+      "email": "donau@donauversicherung.at",
+      "sursa": "Expeditor DONAU Serviceline în corespondența din 2026.05–06"
+    },
+    {
+      "email": "c.loschy@donauversicherung.at",
+      "sursa": "Răspuns DONAU 2026.10.06, Eva 2c273256-a0bf-408b-bb22-09718372e888"
+    },
+    {
+      "email": "m.pfeiffer@donauversicherung.at",
+      "sursa": "Expeditor 2026.07.14, Eva d10bdd3f-8439-45f0-a061-e222c9290266"
+    },
+    {
+      "email": "geko.wien@donauversicherung.at",
+      "sursa": "CC real 2026.07.14, Eva d10bdd3f-8439-45f0-a061-e222c9290266"
+    }
+  ],
+  "cc": [
+    "bogdan.capra@cerhahempel.com",
+    "office@maritczak.at",
+    "s.gruber@commerz-inkasso.at"
+  ],
+  "excluderi": "Adresa automată noreply-meinedonau nu este folosită pentru cererea contractuală. Rezultatele regex nc.loschy/ndonau proveneau din secvențe JSON \\\\n; numerele lungi @donauversicherung erau Message-ID, nu destinatari.",
+  "pending_drafts_matches": 0,
+  "latest_donau_response": "2026.10.06",
+  "nou_status_identificat": {
+    "id": "3b3a2213-bc82-47ea-a023-4692db3da65c",
+    "status": "sent",
+    "subject": "2026.10.07 | Schallergasse 35 – opinie juridică asumată privind DONAU, rezilierea și acoperirea [COVACIU/42222000]",
+    "updated_at": "2026-10-13T17:15:27.357911Z"
+  },
+  "legal_sources": [
+    "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489",
+    "https://www.ris.bka.gv.at/eli/bgbl/1959/2/P8/NOR40138452",
+    "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40138449/NOR40138449.html",
+    "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20130717_OGH0002_0030OB00113_13H0000_000&IncludeSelf=True"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "01a13afe-7ce2-7263-ace3-2c2b1dede390",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun",
+  "created_at": 1791976936,
+  "updated_at": 1791991015,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Sturm Energie facturi și contracte",
+  "project_id": "5c179290-3222-4036-8042-710f2e84db88",
+  "project": "Comun",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 475570,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 144,
+  "message_count": 144,
+  "content_sha256": "66d3b85075e50a4b20afe25c04c5067baece0700b0b0a4f94d548b3e1aec8c05",
+  "files_copied": 19,
+  "references_not_copied": 11
+}

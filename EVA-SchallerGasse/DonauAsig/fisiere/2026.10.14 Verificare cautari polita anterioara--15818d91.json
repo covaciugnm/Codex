@@ -1,0 +1,1455 @@
+{
+  "data": "2026.10.14",
+  "limita": "Cautarea Eva-Mail nu cauta in continutul atasamentelor. Lipsa unui rezultat nu dovedeste inexistenta documentului.",
+  "results": {
+    "policyprior_X712": {
+      "items": [
+        {
+          "id": "1fa19552-d1fd-459e-92b3-57ed5319d18c",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "Commerz - Stefanie Gruber",
+          "from_address": "s.gruber@commerz-inkasso.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T12:51:10Z",
+          "snippet": "Sehr geehrter Herr Covaciu!\r\n\r\nWir haben Ihnen bereits am 17.09.2026 2x E-Mails mit der Stellungnahm",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Commerz - Stefanie Gruber",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Mail_nochmal_an_VN_02.EML",
+            "image002.jpg",
+            "Mail_an_VN_-_Kündigung_aufgrund_Eigentümer01.EML",
+            "Kostenaufstellung.pdf",
+            "Schreiben vom 17.09.2026.pdf"
+          ]
+        },
+        {
+          "id": "41c4c52a-2139-409e-9907-138cb81163ee",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@maritczak.at"
+          ],
+          "received_at": "2026-09-30T11:50:35.653299Z",
+          "snippet": "Sehr geehrter Herr Dr. Maritczak,\nwir kommen auf unsere E-Mail vom 2026.09.15 zum Aktenzeichen 26160",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "office@maritczak.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "b487e95f-8a9f-4865-9836-ae95481ce360",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Aktenzeichen 2616052 / Polizzennr. X712261-2 (Donau Versicherung AG) – A&C Wohnart Immobilien GmbH: aktuelle Kontaktdaten und Ersuchen um Übermittlung sämtlicher anspruchsbegründender Unterlagen",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@maritczak.at"
+          ],
+          "received_at": "2026-09-15T08:19:47.599991Z",
+          "snippet": "Sehr geehrter Herr Dr. Maritczak,\nwir nehmen Bezug auf das Schreiben der COMMERZ Inkasso GmbH vom 09",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "office@maritczak.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "6b7b1131-4ea1-482b-985c-deb6ec06fae8",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Notificare Creanta | Somatie de plata  | Schreiben A&C Wohnart\r\n [COVACIU/42222000]",
+          "from_name": "Capra Bogdan",
+          "from_address": "Bogdan.Capra@cerhahempel.com",
+          "to": [
+            "covaciu.gnm@gmail.com",
+            "office@ac-wohnart.at",
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2026-09-14T13:26:58Z",
+          "snippet": "Buna ziua,\r\n\r\nVă trimit acest e-mail pentru a vă informa cu privire la o scrisoare de somație primit",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Capra Bogdan",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Mitteilung Commerz-Inkasso_A&C Wohnart.pdf",
+            "image002.jpg",
+            "image003.jpg",
+            "image001.jpg"
+          ]
+        },
+        {
+          "id": "bda25164-cb20-47c9-a8e0-6c2cc8eea2ba",
+          "account_email": "covaciu.gnm@eva-org.com",
+          "subject": "Notificare Creanta | Somatie de plata  | Schreiben A&C Wohnart [COVACIU/42222000]",
+          "from_name": "Capra Bogdan",
+          "from_address": "Bogdan.Capra@cerhahempel.com",
+          "to": [
+            "covaciu.gnm@gmail.com",
+            "office@ac-wohnart.at",
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2026-09-14T13:25:39Z",
+          "snippet": "Buna ziua, Vă trimit acest e-mail pentru a vă informa cu privire la o scrisoare de somație primită astăzi, 14 septembrie",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Capra Bogdan",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Mitteilung Commerz-Inkasso_A&C Wohnart.pdf",
+            "image002.jpg",
+            "image003.jpg",
+            "image001.jpg"
+          ]
+        },
+        {
+          "id": "6fd019ac-52b7-4fcb-a569-2a9f3f54e9d1",
+          "account_email": "cosmin.covaciu@ipec.ro",
+          "subject": "Notificare Creanta | Somatie de plata  | Schreiben A&C Wohnart [COVACIU/42222000]",
+          "from_name": "Capra Bogdan",
+          "from_address": "Bogdan.Capra@cerhahempel.com",
+          "to": [
+            "covaciu.gnm@gmail.com",
+            "office@ac-wohnart.at",
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2026-09-14T10:27:06Z",
+          "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Capra Bogdan",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image001.jpg",
+            "image003.jpg",
+            "image002.jpg",
+            "Mitteilung Commerz-Inkasso_A&C Wohnart.pdf"
+          ]
+        },
+        {
+          "id": "1bc16469-dcb3-4cf3-819a-9a75f081bbc1",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "WG: Prämienzahlung Partnernummer: 2923354322 Polizze: 2044001194",
+          "from_name": "Loschy Cornelia",
+          "from_address": "C.Loschy@donauversicherung.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-07-20T10:19:53Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nwir haben auf Ihre beiliegende Nachricht vom 01.07.2026 am 10.07.2",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Loschy Cornelia",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte.pdf"
+          ]
+        },
+        {
+          "id": "d10bdd3f-8439-45f0-a061-e222c9290266",
+          "account_email": "cosmin@ig.ro",
+          "subject": "WG: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "Pfeiffer Mario",
+          "from_address": "M.Pfeiffer@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-07-14T04:54:54Z",
+          "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nbezugnehmend auf Ihre untenstehende Nachricht kann ich Ihnen mitteile",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Pfeiffer Mario",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "6706f86a-b245-495b-8637-f692156e29c7",
+          "account_email": "cosmin@ig.ro",
+          "subject": "WG: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "Loschy Cornelia",
+          "from_address": "C.Loschy@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-07-10T10:59:21Z",
+          "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nWir beziehen uns auf Ihr Schreiben zum Vertrag mit der Polizzennummer",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Loschy Cornelia",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "2dd29262-8d57-41c2-81e5-80e3b909d32e",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "cosmin@ig.ro",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "C.Loschy@donauversicherung.at"
+          ],
+          "received_at": "2026-07-01T04:42:36.971285Z",
+          "snippet": "Betreff: Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte Basisdeckung ab 01.07.2026 / Zahlung",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "C.Loschy@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "30da3512-03a0-4d68-b25b-a7c58ac482d8",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "C.Loschy@donauversicherung.at"
+          ],
+          "received_at": "2026-07-01T04:42:35Z",
+          "snippet": "Betreff: Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte Basisdeckung ab 01.07.2026 / Zahlung",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "C.Loschy@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f",
+          "account_email": "cosmin@ig.ro",
+          "subject": "WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "Loschy Cornelia",
+          "from_address": "C.Loschy@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-06-10T05:09:18Z",
+          "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nbezugnehmend auf Ihre untenstehende Nachricht teilen wir Ihnen mit, d",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Loschy Cornelia",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf",
+            "B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf",
+            "814BC40FC7831FE197E21FDA108A0CC3_Polizzenkopie.pdf"
+          ]
+        },
+        {
+          "id": "ba56aa79-8bcb-4d5b-92a1-89e6d2551df7",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: Eigentümerwechsel und Klärung des Versicherungsstatus – Polizze Nr. 2044001194 / X712261 – Schallergasse 35, 1120 Wien ID:12.828.728",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-06-09T03:13:18Z",
+          "snippet": "[cid:embedded0]\r\n\r\n\r\n\r\n​\r\n\r\nGuten Tag Cosmin Covaciu,\r\n\r\n\r\n\r\nwir danken für Ihre Nachricht.\r\n\r\n\r\n\r\nI",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "0f8353c0-eb5f-4414-8bd6-78528ace2b2c",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Ihre Nachricht: Eigentümerwechsel und Klärung des Versicherungsstatus – Polizze Nr. 2044001194 / X712261 – Schallergasse 35, 1120 Wien ID:12828728",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-06-08T12:53:35Z",
+          "snippet": "[cid:embedded4]\r\n\r\n\r\n\r\n​\r\n\r\n\r\n\r\n\r\n\r\nGuten Tag,\r\n\r\nschnelles Service ist uns wichtig! Unser Team kümm",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "78fa484e-d365-434a-946c-817ebf24a2b0",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Eigentümerwechsel und Klärung des Versicherungsstatus – Polizze Nr. 2044001194 / X712261 – Schallergasse 35, 1120 Wien",
+          "from_name": "cosmin@ig.ro",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "donau@donauversicherung.at"
+          ],
+          "received_at": "2026-06-08T12:43:11.849810Z",
+          "snippet": "Sehr geehrte Damen und Herren,\n\nwir wenden uns an Sie als neue Eigentümerseite der Liegenschaft Scha",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "f9f87af8-c7ae-4790-b898-d7b75a63a61e",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Eigentümerwechsel und Klärung des Versicherungsstatus – Polizze Nr. 2044001194 / X712261 – Schallergasse 35, 1120 Wien",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "donau@donauversicherung.at"
+          ],
+          "received_at": "2026-06-08T12:43:07Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\n\r\nwir wenden uns an Sie als neue Eigentümerseite der Liegenschaft ",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "e683de9b-2482-4559-92ef-643ed904e5d0",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35 / 2024-4/ ID:12.780.689",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-05-28T10:15:17Z",
+          "snippet": "[cid:embedded0]\r\n\r\n\r\n\r\n​\r\n\r\nGuten Tag Cosmin Covaciu,\r\n\r\n\r\n\r\nvielen Dank für Ihr E-Mail.\r\n\r\n\r\n\r\n\r\n\r\n",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "99a141bd-1a19-48f2-b225-d58f73b1fb89",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Ihre Nachricht: Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35 / 2024-4/ ID:12780689",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-05-27T14:58:56Z",
+          "snippet": "[cid:embedded4]\r\n\r\n\r\n\r\n​\r\n\r\n\r\n\r\n\r\n\r\nGuten Tag,\r\n\r\nschnelles Service ist uns wichtig! Unser Team kümm",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "d9216be2-1be9-493f-810e-8045d1e4cfd3",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "donau@donauversicherung.at",
+            "Bogdan.Capra@cerhahempel.com",
+            "Office@hofhans.at"
+          ],
+          "received_at": "2026-05-27T14:53:16Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nich bin der zuständige Verwalter / Vertreter der neuen Eigentümers",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "ee0380cd-33a7-4c5b-9ca9-bc4211004f4c",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Auctions of the week",
+          "from_name": "Vavato Online Auctions",
+          "from_address": "marketing@vavato.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2023-06-17T06:16:38Z",
+          "snippet": "body {font-family: sans-serif;font-size:12px;color:#595A5C;letter-spacing:1px;} Can't see this email? View in your brows",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "8: Marketing"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        }
+      ],
+      "total": 20,
+      "limit": 50,
+      "offset": 0
+    },
+    "policyprior_Ersatzvertrag": {
+      "items": [],
+      "total": 0,
+      "limit": 50,
+      "offset": 0
+    },
+    "policyprior_2044001194": {
+      "items": [
+        {
+          "id": "2c273256-a0bf-408b-bb22-09718372e888",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052",
+          "from_name": "Loschy Cornelia",
+          "from_address": "c.loschy@donauversicherung.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-10-06T13:25:34Z",
+          "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nwir beziehen uns auf Ihr Schreiben vom 01.10.2026 und nehmen dazu wie",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Loschy Cornelia",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Memoformat.pdf"
+          ]
+        },
+        {
+          "id": "23eaa675-18ad-45b1-b535-25f7583087b1",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Polizze 2044001194 – Kündigung / Ersuchen um sofortige einvernehmliche Auflösung – Schallergasse 35 – AZ 2616052",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "donau@donauversicherung.at",
+            "c.loschy@donauversicherung.at"
+          ],
+          "received_at": "2026-10-01T07:20:13.419503Z",
+          "snippet": "Sehr geehrte Damen und Herren,\nwir, die A&C Wohnart Immobilien GmbH, möchten die Wohnhausversicherun",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "1fa19552-d1fd-459e-92b3-57ed5319d18c",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "AW: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "Commerz - Stefanie Gruber",
+          "from_address": "s.gruber@commerz-inkasso.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-09-30T12:51:10Z",
+          "snippet": "Sehr geehrter Herr Covaciu!\r\n\r\nWir haben Ihnen bereits am 17.09.2026 2x E-Mails mit der Stellungnahm",
+          "category": "fyi",
+          "labels": [
+            "1: To respond",
+            "99: Important"
+          ],
+          "folder": "Commerz - Stefanie Gruber",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Mail_nochmal_an_VN_02.EML",
+            "image002.jpg",
+            "Mail_an_VN_-_Kündigung_aufgrund_Eigentümer01.EML",
+            "Kostenaufstellung.pdf",
+            "Schreiben vom 17.09.2026.pdf"
+          ]
+        },
+        {
+          "id": "41c4c52a-2139-409e-9907-138cb81163ee",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Re: Aktenzeichen 2616052 / Polizze 2044001194 – Erinnerung an unser Unterlagenersuchen vom 2026.09.15",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@maritczak.at"
+          ],
+          "received_at": "2026-09-30T11:50:35.653299Z",
+          "snippet": "Sehr geehrter Herr Dr. Maritczak,\nwir kommen auf unsere E-Mail vom 2026.09.15 zum Aktenzeichen 26160",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "office@maritczak.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "b487e95f-8a9f-4865-9836-ae95481ce360",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "Aktenzeichen 2616052 / Polizzennr. X712261-2 (Donau Versicherung AG) – A&C Wohnart Immobilien GmbH: aktuelle Kontaktdaten und Ersuchen um Übermittlung sämtlicher anspruchsbegründender Unterlagen",
+          "from_name": "office@ac-wohnart.at",
+          "from_address": "office@ac-wohnart.at",
+          "to": [
+            "office@maritczak.at"
+          ],
+          "received_at": "2026-09-15T08:19:47.599991Z",
+          "snippet": "Sehr geehrter Herr Dr. Maritczak,\nwir nehmen Bezug auf das Schreiben der COMMERZ Inkasso GmbH vom 09",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "office@maritczak.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "1bc16469-dcb3-4cf3-819a-9a75f081bbc1",
+          "account_email": "office@ac-wohnart.at",
+          "subject": "WG: Prämienzahlung Partnernummer: 2923354322 Polizze: 2044001194",
+          "from_name": "Loschy Cornelia",
+          "from_address": "C.Loschy@donauversicherung.at",
+          "to": [
+            "office@ac-wohnart.at"
+          ],
+          "received_at": "2026-07-20T10:19:53Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nwir haben auf Ihre beiliegende Nachricht vom 01.07.2026 am 10.07.2",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Loschy Cornelia",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte.pdf"
+          ]
+        },
+        {
+          "id": "d10bdd3f-8439-45f0-a061-e222c9290266",
+          "account_email": "cosmin@ig.ro",
+          "subject": "WG: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "Pfeiffer Mario",
+          "from_address": "M.Pfeiffer@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-07-14T04:54:54Z",
+          "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nbezugnehmend auf Ihre untenstehende Nachricht kann ich Ihnen mitteile",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Pfeiffer Mario",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "6706f86a-b245-495b-8637-f692156e29c7",
+          "account_email": "cosmin@ig.ro",
+          "subject": "WG: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "Loschy Cornelia",
+          "from_address": "C.Loschy@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-07-10T10:59:21Z",
+          "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nWir beziehen uns auf Ihr Schreiben zum Vertrag mit der Polizzennummer",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Loschy Cornelia",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "2dd29262-8d57-41c2-81e5-80e3b909d32e",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "cosmin@ig.ro",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "C.Loschy@donauversicherung.at"
+          ],
+          "received_at": "2026-07-01T04:42:36.971285Z",
+          "snippet": "Betreff: Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte Basisdeckung ab 01.07.2026 / Zahlung",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "C.Loschy@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "30da3512-03a0-4d68-b25b-a7c58ac482d8",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "C.Loschy@donauversicherung.at"
+          ],
+          "received_at": "2026-07-01T04:42:35Z",
+          "snippet": "Betreff: Polizze Nr. 2044001194 – Ersuchen um prämienreduzierte Basisdeckung ab 01.07.2026 / Zahlung",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "C.Loschy@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f",
+          "account_email": "cosmin@ig.ro",
+          "subject": "WG: A&C Wohnart Immobilien GmbH 2044001194 Sonstiges ID:12828728",
+          "from_name": "Loschy Cornelia",
+          "from_address": "C.Loschy@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-06-10T05:09:18Z",
+          "snippet": "Sehr geehrter Herr Covaciu,\r\n\r\nbezugnehmend auf Ihre untenstehende Nachricht teilen wir Ihnen mit, d",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Loschy Cornelia",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf",
+            "B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf",
+            "814BC40FC7831FE197E21FDA108A0CC3_Polizzenkopie.pdf"
+          ]
+        },
+        {
+          "id": "ba56aa79-8bcb-4d5b-92a1-89e6d2551df7",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: Eigentümerwechsel und Klärung des Versicherungsstatus – Polizze Nr. 2044001194 / X712261 – Schallergasse 35, 1120 Wien ID:12.828.728",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-06-09T03:13:18Z",
+          "snippet": "[cid:embedded0]\r\n\r\n\r\n\r\n​\r\n\r\nGuten Tag Cosmin Covaciu,\r\n\r\n\r\n\r\nwir danken für Ihre Nachricht.\r\n\r\n\r\n\r\nI",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "0f8353c0-eb5f-4414-8bd6-78528ace2b2c",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Ihre Nachricht: Eigentümerwechsel und Klärung des Versicherungsstatus – Polizze Nr. 2044001194 / X712261 – Schallergasse 35, 1120 Wien ID:12828728",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-06-08T12:53:35Z",
+          "snippet": "[cid:embedded4]\r\n\r\n\r\n\r\n​\r\n\r\n\r\n\r\n\r\n\r\nGuten Tag,\r\n\r\nschnelles Service ist uns wichtig! Unser Team kümm",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "78fa484e-d365-434a-946c-817ebf24a2b0",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Eigentümerwechsel und Klärung des Versicherungsstatus – Polizze Nr. 2044001194 / X712261 – Schallergasse 35, 1120 Wien",
+          "from_name": "cosmin@ig.ro",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "donau@donauversicherung.at"
+          ],
+          "received_at": "2026-06-08T12:43:11.849810Z",
+          "snippet": "Sehr geehrte Damen und Herren,\n\nwir wenden uns an Sie als neue Eigentümerseite der Liegenschaft Scha",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "f9f87af8-c7ae-4790-b898-d7b75a63a61e",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Eigentümerwechsel und Klärung des Versicherungsstatus – Polizze Nr. 2044001194 / X712261 – Schallergasse 35, 1120 Wien",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "donau@donauversicherung.at"
+          ],
+          "received_at": "2026-06-08T12:43:07Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\n\r\nwir wenden uns an Sie als neue Eigentümerseite der Liegenschaft ",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "e683de9b-2482-4559-92ef-643ed904e5d0",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35 / 2024-4/ ID:12.780.689",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-05-28T10:15:17Z",
+          "snippet": "[cid:embedded0]\r\n\r\n\r\n\r\n​\r\n\r\nGuten Tag Cosmin Covaciu,\r\n\r\n\r\n\r\nvielen Dank für Ihr E-Mail.\r\n\r\n\r\n\r\n\r\n\r\n",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "99a141bd-1a19-48f2-b225-d58f73b1fb89",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Ihre Nachricht: Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35 / 2024-4/ ID:12780689",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-05-27T14:58:56Z",
+          "snippet": "[cid:embedded4]\r\n\r\n\r\n\r\n​\r\n\r\n\r\n\r\n\r\n\r\nGuten Tag,\r\n\r\nschnelles Service ist uns wichtig! Unser Team kümm",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "d9216be2-1be9-493f-810e-8045d1e4cfd3",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "donau@donauversicherung.at",
+            "Bogdan.Capra@cerhahempel.com",
+            "Office@hofhans.at"
+          ],
+          "received_at": "2026-05-27T14:53:16Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nich bin der zuständige Verwalter / Vertreter der neuen Eigentümers",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        }
+      ],
+      "total": 18,
+      "limit": 50,
+      "offset": 0
+    },
+    "prior_extra_0": {
+      "items": [
+        {
+          "id": "bd2989fd-1afd-4b7d-901e-e9ca75e84024",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Country Lead eCommerce Operations (w/m/d) at XXXLdigital – Part of XXXL Group",
+          "from_name": "LinkedIn Job Alerts",
+          "from_address": "jobalerts-noreply@linkedin.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-05-17T10:24:16Z",
+          "snippet": "Your job alert for general manager in Vienna          \r\nNew jobs match your preferences.\r\nManage ale",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "9: Social"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "d5863696-b512-4fca-8224-796bf003898e",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Retail Director Central Europe at Fendi",
+          "from_name": "LinkedIn Job Alerts",
+          "from_address": "jobalerts-noreply@linkedin.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-05-13T10:24:09Z",
+          "snippet": "Your job alert for general manager in Vienna          \r\nNew jobs match your preferences.\r\nManage ale",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "9: Social"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "a94e153e-4866-41f5-a163-6dea4d85b8b8",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Assistant Manager m/w/d - Donau Zentrum, Hollister at Abercrombie &\r\n Fitch Co.",
+          "from_name": "LinkedIn Job Alerts",
+          "from_address": "jobalerts-noreply@linkedin.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-05-10T06:25:17Z",
+          "snippet": "Your job alert for asistant manager in Vienna          \r\nNew jobs match your preferences.\r\nManage al",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "9: Social"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "79985c1e-1dd5-4cc8-b909-936185071c35",
+          "account_email": "cosmin.covaciu@ipec.ro",
+          "subject": "Ihre April‑Highlights auf einen Blick",
+          "from_name": "Newsletter Raiffeisen",
+          "from_address": "no-reply@news.raiffeisen.at",
+          "to": [
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2026-04-30T04:25:28Z",
+          "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+          "category": "fyi",
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Newsletter Raiffeisen",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "889986dd-a9dd-4610-a9f5-e6039da6949c",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Geschäftleiter:in Markt at Raiffeisenlandesbank Oberösterreich AG",
+          "from_name": "LinkedIn Job Alerts",
+          "from_address": "jobalerts-noreply@linkedin.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-04-24T07:24:08Z",
+          "snippet": "Your job alert for Geschäftsführer in Austria          \r\nNew jobs match your preferences.\r\nManage al",
+          "category": null,
+          "labels": [
+            "9: Social"
+          ],
+          "folder": "LinkedIn Job Alerts",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "d2338da6-a013-4a13-9d0b-4972bdee7aab",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "“operations manager”: ÖBB - Process Automation Operations Manager and more",
+          "from_name": "LinkedIn Job Alerts",
+          "from_address": "jobalerts-noreply@linkedin.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-03-22T08:24:08Z",
+          "snippet": "Your job alert for operations manager in Vienna\r\n        \r\nNew jobs match your preferences.\r\nManage ",
+          "category": null,
+          "labels": [
+            "9: Social"
+          ],
+          "folder": "LinkedIn Job Alerts",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "c827d0d4-7964-483f-8603-98dad169279d",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Cosmin: 18 new jobs",
+          "from_name": "LinkedIn Job Alerts",
+          "from_address": "jobalerts-noreply@linkedin.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-03-20T08:25:33Z",
+          "snippet": "Your job alert\r\n        \r\n18 new jobs match your preferences.\r\nManage alerts: https://www.linkedin.c",
+          "category": null,
+          "labels": [
+            "9: Social"
+          ],
+          "folder": "LinkedIn Job Alerts",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "276acd1a-8709-473c-94ab-1d75e513a7f4",
+          "account_email": "covaciu.gnm@eva-org.com",
+          "subject": "WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "from_name": "Capra Bogdan",
+          "from_address": "Bogdan.Capra@cerhahempel.com",
+          "to": [
+            "covaciu.gnm@gmail.com"
+          ],
+          "received_at": "2026-03-19T10:12:20Z",
+          "snippet": "Buna ziua, Va trimit in atasament polita actuala de asigurare a cladirii. Sa-mi spuneti daca doriti sa continuati cu cei",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Capra Bogdan",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image004.png",
+            "image007.jpg",
+            "image008.jpg",
+            "image009.jpg",
+            "image010.jpg",
+            "image011.jpg",
+            "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+            "Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf"
+          ]
+        },
+        {
+          "id": "28a645e5-0363-4829-81a7-5934df740703",
+          "account_email": "cosmin.covaciu@ipec.ro",
+          "subject": "WG: 1120 Wien, Schallergasse 35 (gü) [COVACIU/42222000]",
+          "from_name": "Capra Bogdan",
+          "from_address": "Bogdan.Capra@cerhahempel.com",
+          "to": [
+            "covaciu.gnm@gmail.com"
+          ],
+          "received_at": "2026-03-19T08:13:21Z",
+          "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+          "category": null,
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Capra Bogdan",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image007.jpg",
+            "image004.png",
+            "image010.jpg",
+            "image011.jpg",
+            "image009.jpg",
+            "image008.jpg",
+            "Schalle_1080_DON_SHU_2044001194_2939905718.pdf",
+            "Traducere Schalle_1080_DON_SHU_2044001194_2939905718 ro.pdf"
+          ]
+        },
+        {
+          "id": "db046c44-6b10-4814-b2ff-39c4c268fa3e",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Ihr Paket von CROCS Europe B.V. Crocs Warehouse wurde durch GLS zugestellt",
+          "from_name": "GLS",
+          "from_address": "noreply@gls-group.eu",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2022-10-05T06:31:49Z",
+          "snippet": "IHR PAKET WURDE ZUGESTELLT PAKETNUMMER 95343452699 (https://gls-group.eu/track/95343452699) ZUSTELLUNG Heute 09:24 Uhr S",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "4: Notification"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "logo"
+          ]
+        },
+        {
+          "id": "f2cfb087-a0f4-4eee-a14a-1fb28e3fae9b",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Fw: Ihr Paket von CROCS Europe B.V. Crocs Warehouse konnte nicht zugestellt werden.",
+          "from_name": "cosmin covaciu",
+          "from_address": "link_covaciu@yahoo.com",
+          "to": [
+            "anastasia.covaciu@yahoo.com"
+          ],
+          "received_at": "2022-10-01T06:56:01Z",
+          "snippet": "Sent from Yahoo Mail for iPhone Begin forwarded message: On Tuesday, September 27, 2022, 11:21 AM, GLS wrote: @media scr",
+          "category": null,
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": true,
+          "attachment_names": [
+            "logo"
+          ]
+        },
+        {
+          "id": "b4560dd9-0fdc-4190-af0a-24bff3ac7268",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Fw: Ihr Paket von CROCS Europe B.V. Crocs Warehouse ist unterwegs",
+          "from_name": "cosmin covaciu",
+          "from_address": "link_covaciu@yahoo.com",
+          "to": [
+            "anastasia.covaciu@yahoo.com"
+          ],
+          "received_at": "2022-10-01T06:55:29Z",
+          "snippet": "Sent from Yahoo Mail for iPhone Begin forwarded message: On Wednesday, September 21, 2022, 4:54 PM, GLS wrote: @media sc",
+          "category": null,
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": true,
+          "attachment_names": [
+            "logo"
+          ]
+        },
+        {
+          "id": "64fc0b7b-3099-4927-ba21-a4f5e3d3fe33",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Ihr Paket von CROCS Europe B.V. Crocs Warehouse konnte nicht zugestellt werden.",
+          "from_name": "GLS",
+          "from_address": "noreply@gls-group.eu",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2022-09-27T07:21:14Z",
+          "snippet": "WIR KONNTEN IHR PAKET NICHT ZUSTELLEN PAKETNUMMER 95343452699 (https://gls-group.eu/track/95343452699) Sendung verfolgen",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "4: Notification"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "logo"
+          ]
+        },
+        {
+          "id": "db96666a-5d62-41c7-9747-61ddc92fda2a",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Ihr Paket von CROCS Europe B.V. Crocs Warehouse ist unterwegs",
+          "from_name": "GLS",
+          "from_address": "noreply@gls-group.eu",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2022-09-21T12:54:50Z",
+          "snippet": "IHR PAKET IST BALD DA PAKETNUMMER 95343452699 (https://gls-group.eu/track/95343452699) Sendung verfolgen (https://gls-gr",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "4: Notification"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "logo"
+          ]
+        },
+        {
+          "id": "f1f6aebc-1c16-4850-88ad-770a677478aa",
+          "account_email": "covaciu.gnm@eva-org.com",
+          "subject": "FW: Agerpres Monitoring 2008-08-14",
+          "from_name": "Garda Nationala de Mediu",
+          "from_address": "comunicare@gnm.ro",
+          "to": [
+            "covaciu.gnm@gmail.com"
+          ],
+          "received_at": "2008-08-14T06:07:29Z",
+          "snippet": "Daniel Alexandru FIŢA Purtator de cuvant Garda Nationala de Mediu Bd. Unirii nr.78, bl. J2, S3 Bucuresti Tel/fax: +40-21",
+          "category": null,
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Garda Nationala de Mediu",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        }
+      ],
+      "total": 15,
+      "limit": 50,
+      "offset": 0
+    },
+    "prior_extra_1": {
+      "items": [
+        {
+          "id": "2bea321f-a397-4c17-b8f6-cf7f9d181177",
+          "account_email": "covaciu.gnm@eva-org.com",
+          "subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+          "from_name": "Capra Bogdan",
+          "from_address": "Bogdan.Capra@cerhahempel.com",
+          "to": [
+            "covaciu.gnm@gmail.com",
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2026-05-27T07:59:22Z",
+          "snippet": "Buna dimineata, Va redirectionez mai departe corespondenta primita. Salutari, Bogdan Mag. Bogdan Capra Rechtsanwalt CERH",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Capra Bogdan",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image001.jpg",
+            "image002.jpg",
+            "image003.jpg",
+            "image004.jpg",
+            "20260526163520179.pdf"
+          ]
+        },
+        {
+          "id": "cb505d08-3562-4ad6-a659-ed10ce34b02d",
+          "account_email": "cosmin.covaciu@ipec.ro",
+          "subject": "WG: 1120 Wien, Schallergasse 35 (gü) ",
+          "from_name": "Capra Bogdan",
+          "from_address": "Bogdan.Capra@cerhahempel.com",
+          "to": [
+            "covaciu.gnm@gmail.com",
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2026-05-27T05:00:12Z",
+          "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Capra Bogdan",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "image001.png",
+            "image003.jpg",
+            "AT212011182936460800_E2AE148B6A01D0F3.pdf",
+            "image001.jpg",
+            "image002.jpg",
+            "image004.jpg",
+            "20260526163520179.pdf",
+            "20260526163706298.pdf",
+            "20260526163724473.pdf",
+            "20260526163700146.pdf"
+          ]
+        }
+      ],
+      "total": 2,
+      "limit": 50,
+      "offset": 0
+    },
+    "prior_extra_2": {
+      "items": [
+        {
+          "id": "e683de9b-2482-4559-92ef-643ed904e5d0",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Re: Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35 / 2024-4/ ID:12.780.689",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-05-28T10:15:17Z",
+          "snippet": "[cid:embedded0]\r\n\r\n\r\n\r\n​\r\n\r\nGuten Tag Cosmin Covaciu,\r\n\r\n\r\n\r\nvielen Dank für Ihr E-Mail.\r\n\r\n\r\n\r\n\r\n\r\n",
+          "category": "fyi",
+          "labels": [
+            "1: To respond"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "99a141bd-1a19-48f2-b225-d58f73b1fb89",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Ihre Nachricht: Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35 / 2024-4/ ID:12780689",
+          "from_name": "Donau Kundenservice",
+          "from_address": "donau@donauversicherung.at",
+          "to": [
+            "cosmin@ig.ro"
+          ],
+          "received_at": "2026-05-27T14:58:56Z",
+          "snippet": "[cid:embedded4]\r\n\r\n\r\n\r\n​\r\n\r\n\r\n\r\n\r\n\r\nGuten Tag,\r\n\r\nschnelles Service ist uns wichtig! Unser Team kümm",
+          "category": "fyi",
+          "labels": [
+            "3: Fyi"
+          ],
+          "folder": "Donau Kundenservice",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "d9216be2-1be9-493f-810e-8045d1e4cfd3",
+          "account_email": "cosmin@ig.ro",
+          "subject": "Dringend: Polizze Nr. 2044001194 / X712.261-2 – 1120 Wien, Schallergasse 35",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "cosmin@ig.ro",
+          "to": [
+            "donau@donauversicherung.at",
+            "Bogdan.Capra@cerhahempel.com",
+            "Office@hofhans.at"
+          ],
+          "received_at": "2026-05-27T14:53:16Z",
+          "snippet": "Sehr geehrte Damen und Herren,\r\n\r\nich bin der zuständige Verwalter / Vertreter der neuen Eigentümers",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "3: Fyi"
+          ],
+          "folder": "donau@donauversicherung.at",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        }
+      ],
+      "total": 3,
+      "limit": 50,
+      "offset": 0
+    }
+  }
+}

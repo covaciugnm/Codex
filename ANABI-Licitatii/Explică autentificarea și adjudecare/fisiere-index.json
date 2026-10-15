@@ -1,0 +1,71 @@
+[
+  {
+    "source_reference": "D:/ANABI - Licitatii/sources/document-1262-1.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/document-1262-1--79de2c20.pdf",
+    "bytes": 1565467,
+    "sha256": "d57f26b7e04b68096e04a85935e7dfe10d43980b7460baaaf79026977e987ee0"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\tmp\\pdfs\\1262-0.png",
+    "status": "copiat",
+    "saved_path": "fisiere/1262-0--9d11eccb.png",
+    "bytes": 982849,
+    "sha256": "86c307bddd1891be70baa7b26c7388ab59de31a6336d2d865bd20d8e5c31af35"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\tmp\\pdfs\\1262-1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/1262-1--0637c7eb.png",
+    "bytes": 1063852,
+    "sha256": "8bf17e017d18e52bb249343afb69975e78bebe3f2fa49c6dab483f330958aa4f"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\tmp\\pdfs\\1262-2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/1262-2--4eb5a1b2.png",
+    "bytes": 936105,
+    "sha256": "d138a06a898f7e56822eba62ae79c43ccbe4a940cb43f50e89b59bc4b89d80b1"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\tmp\\pdfs\\1262-3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/1262-3--60fa50a4.png",
+    "bytes": 1032227,
+    "sha256": "a04a9b9e51f2db3bd910705a373f358922f2a25f70a9eab05c8a88c779f5b631"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\tmp\\pdfs\\1262-4.png",
+    "status": "copiat",
+    "saved_path": "fisiere/1262-4--6f14dfba.png",
+    "bytes": 374861,
+    "sha256": "39499e905810ca94ee9b96db8ac8de2973c9e564ae86d936ca95f48c2c84cc73"
+  },
+  {
+    "source_reference": "D:\\ANABI - Licitatii\\tmp\\pdfs\\1262-5.png",
+    "status": "copiat",
+    "saved_path": "fisiere/1262-5--cedd2adf.png",
+    "bytes": 1416653,
+    "sha256": "4cb1038079dbabe8c6697ac4e6fe2b15c97db764215813619433a732d0aea88a"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/auction/1262/licitatie-porche-911-carrera-4-gts-redus-cu-25-1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/login",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/page/regulament-licitatii-publice",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://anabi.just.ro/licitatiionline/register",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://licitatii.eva-org.com/catalog/auto/1262.html",
+    "status": "referinta_externa_necopiata"
+  }
+]

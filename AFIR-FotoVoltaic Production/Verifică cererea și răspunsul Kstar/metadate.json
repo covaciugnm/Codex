@@ -1,0 +1,23 @@
+{
+  "id": "01a13578-7898-7362-aaf7-f9cefb8e4c53",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+  "created_at": 1791898450,
+  "updated_at": 1791902963,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică cererea și răspunsul Kstar",
+  "project_id": "a62819fc-eecd-41a3-acfa-724e26db8d88",
+  "project": "AFIR-FotoVoltaic Production",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 954796,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 43,
+  "message_count": 23,
+  "content_sha256": "b68eb671b3f46aa55ab76e323cf519425c11f057f0ba8b231b5c4bb49333488d",
+  "files_copied": 0,
+  "references_not_copied": 7
+}

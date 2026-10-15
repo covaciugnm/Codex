@@ -1,0 +1,196 @@
+Neplata primelor și acoperirea DONAU
+De ce pot fi cerute prime în perioada declarată fără protecție
+A&C Wohnart Immobilien GmbH | Polița 2044001194 | 2026.10.14
+
+1 Răspunsul direct
+
+În dreptul austriac, neplata unei prime ulterioare poate permite asigurătorului să refuze despăgubirea pentru un sinistru, deși contractul și obligația de plată a primei continuă. Această exonerare, numită Leistungsfreiheit, nu este o încetare automată și nici o suspendare convenită a primelor. Prin urmare, argumentul „nu mă despăgubiți, deci nu datorez nimic” nu este suficient. [L1 §§ 1,39, 40; J1]
+
+Corecție materială la 2026.10.14: dosarul conține și somația originală din 2026.05.20, care acordă expres o lună. Ea este adresată fostului proprietar prin Hofhans, poartă ștampila 2026.05.26 și a fost retransmisă de Capra la 2026.05.27. Somația ulterioară din 2026.06.05, adresată A&C, acordă două săptămâni. Retragem premisa versiunii anterioare privind existența unei singure somații cunoscute de două săptămâni și concluzia că diferența față de § 91 constituie, singură, o apărare concretă împotriva întregii exonerări. [P4, P5]
+
+Analiza din 2026.10.07 și prima versiune a prezentului studiu trebuie citite cu această corecție. Regula de o lună pentru incendiu-clădire rămâne aplicabilă în condițiile explicate mai jos, dar actul din mai o respectă textual. Problema decisivă este acum dacă această somație a produs efecte față de A&C după transfer: destinatar, mandat, acces, termen efectiv, restanță și relația cu actul din iunie. Nu confirmăm nici acoperirea, nici exonerarea. O somație ineficace poate afecta refuzul despăgubirii, fără a șterge automat prima contractuală.
+
+La 2026.10.14, situația documentată este: DONAU susține lipsa acoperirii și continuarea contractului; nu există confirmare de încetare, de suspendare a primelor sau de restabilire. Ultimul răspuns primit este 2026.10.06; ciorna din 2026.10.07 rămâne netrimisă. Ultima pretenție este 5.326,15 EUR, termen 2026.10.12 depășit. Suma trebuie reconciliată și nu reprezintă o obligație integral verificată printr-un extras bancar actual. [P3, P4]
+
+Documentul este o analiză juridică documentară, nu o opinie profesională semnată. Paginile indicate sunt paginile fizice PDF; extrasele germane sunt explicate în română. Regimul încetării este tratat separat în documentul 01.
+
+2 Cele trei raporturi care trebuie separate
+
+Existența contractului. Contractul poate continua până la expirarea convenită ori până la o încetare valabilă. Amenințarea că asigurătorul poate înceta nu este aceeași cu o declarație efectivă de încetare. [L1 § 39 alin. 3]
+
+Obligația de plată. § 1 alin. 2 VersVG spune: „Der Versicherungsnehmer hat die vereinbarte Prämie zu entrichten.” Primele exigibile pot continua să fie datorate. Contestarea întinderii unei datorii trebuie legată de durata, titularul, perioada, cuantumul, creditul sau alt temei concret. [L1]
+
+Obligația de despăgubire. § 39 alin. 2 permite exonerarea pentru un sinistru produs după expirarea somației calificate, dacă la acel moment persistă o întârziere culpabilă relevantă. Nu orice întârziere și nu orice factură activează această sancțiune. Trebuie controlate somația, primirea, termenul, restanța și culpa. [L1]
+
+Aceste efecte pot coexista deoarece legea sancționează neplata fără a îi permite asiguratului să transforme unilateral contractul într-o asigurare gratuită ori într-o încetare la alegere. Dacă asigurătorul vrea să păstreze contractul și cere prima, acest lucru nu este în sine incompatibil cu § 39. Dacă refuză nelegal despăgubirea, se contestă refuzul și eventual prejudiciul, nu se presupune automat dispariția contractului. [J1]
+
+3 Ce prevăd exact polița și condițiile DONAU
+
+Polița curentă, 2026.06.03, p. 6, indică „Folgeprämie zahlbar vierteljährlich” și 1.591,81 EUR. Termenul Folgeprämie înseamnă primă ulterioară. Pachetul istoric și corespondența arată continuitatea asigurării, cu schimbare de proprietar. Regula specială pentru prima inițială de pe p. 8 a poliței nu trebuie folosită automat pentru aceste restanțe. [P1, P2]
+
+ABS 1000A, forma 2018, art. 4.1: „Als Versicherungsperiode gilt ... der Zeitraum eines Jahres, und zwar auch dann, wenn die Jahresprämie vertragsgemäß in Teilbeträgen zu entrichten ist.” Perioada este anuală, chiar dacă există patru rate. Rata pentru 2026.10.01–2027.01.01 nu reprezintă un nou contract separat. [P2 p. 35]
+
+ABS art. 4.5: „Die Folgeprämien sind zu den jeweils vereinbarten Fälligkeitsterminen zu zahlen. Die Rechtsfolgen des Zahlungsverzugs mit Folgeprämien sind in den §§ 39, 39a und 91VersVG geregelt.” Acesta este textul contractual decisiv pentru neplată: trimite inclusiv la protecția specială a clădirii din § 91. [P2 p. 35]
+
+ABS art. 4.6: „Wird der Versicherungsvertrag während der Versicherungsperiode oder sonst vorzeitig aufgelöst, so gebührt dem Versicherer die Prämie für die bis dahin verstrichene Vertragslaufzeit, soweit nicht Sonderbestimmungen anderes vorsehen (§ 40 Satz 1 VersVG).” În română: când contractul încetează efectiv anticipat, prima este datorată pentru durata scursă, sub rezerva normelor speciale. Textul nu spune că primele se opresc când asigurătorul invocă exonerarea. [P2 p. 35]
+
+Același articol tratează separat dispariția interesului, prin § 68 alin. 2. Condițiile de răspundere AHVB au propriile reguli de primă și încetare; sfera unei eventuale lipse de acoperire trebuie delimitată pe ramuri. Fișierul separat AGB.pdf din anexele Capra aparține STURM ENERGIE, nu DONAU; analiza folosește condițiile din PDF-ul istoric de 89 pagini, identificate prin codurile poliței curente. [P1 p. 6–7; P2]
+
+4 Testul legal pentru o primă ulterioară neachitată
+
+§ 39 alin. 1 VersVG permite stabilirea în scris a unui termen de plată de cel puțin două săptămâni și cere indicarea consecințelor alin. 2 și 3. Extras: „Eine Fristbestimmung, ohne Beachtung dieser Vorschriften, ist unwirksam.” O simplă factură, un sold sau un email care spune doar „nu mai sunteți acoperit” nu înlocuiește automat somația legală. [L1 § 39]
+
+§ 39 alin. 2: „Tritt der Versicherungsfall nach dem Ablauf der Frist ein und ist der Versicherungsnehmer zur Zeit des Eintrittes mit der Zahlung der Folgeprämie im Verzug, so ist der Versicherer von der Verpflichtung zur Leistung frei, es sei denn, daß der Versicherungsnehmer an der rechtzeitigen Zahlung ohne sein Verschulden verhindert war.” Sunt relevante întârzierea la momentul sinistrului și lipsa culpei. Nemulțumirea față de poliță ori cererea de justificare nu suspendă singure scadența; nici simpla afirmație DONAU nu dovedește toate condițiile exonerării. [L1]
+
+Pentru o apărare validă trebuie verificate cumulativ: prima exigibilă identificabilă și suma corectă; destinatarul și adresa; forma legală; primirea; durata minimă aplicabilă; avertizarea clară a exonerării și posibilității de încetare; persistența restanței relevante la sinistru; culpa; eventualele excepții și plăți. Asigurătorul trebuie să dovedească elementele pe care își întemeiază exonerarea, iar asiguratul care invocă lipsa culpei trebuie să o susțină. [L1; J3]
+
+§ 39 alin. 3 acordă asigurătorului o facultate de încetare după termen, dacă prima este încă restantă. Dacă încetarea este combinată chiar cu somația și trebuie să opereze automat la expirarea ei, avertizarea asupra acestui efect trebuie să fie expresă. Textul mai permite înlăturarea efectelor încetării prin plata în intervalul legal de o lună, dacă nu s-a produs deja sinistrul; punctul de pornire depinde de modalitatea încetării. Nu se presupune că această fereastră este încă deschisă în octombrie. [L1]
+
+§ 39 alin. 4: „Die Nichtzahlung von Zinsen oder Kosten löst die Rechtsfolgen der Abs. 1 bis 3 nicht aus.” Numai dobânzile și costurile neachitate nu justifică exonerarea sau încetarea pentru neplata primei. Acest lucru nu șterge orice cost legal; separă costurile de protecția asigurată. [L1]
+
+§ 39a exclude exonerarea asigurătorului prevăzută de §§ 38/39 când restanța se încadrează simultan în 10% din prima anuală și maximum 60 EUR. Pentru prima anuală actuală de 6.367,24 EUR, plafonul practic este 60 EUR, nu 636,72 EUR. Restanțele pretinse de mii de euro nu intră în această excepție; după o plată/alocare trebuie verificat soldul real. [L1 § 39a]
+
+§ 42 protejează regulile indicate ale secțiunii împotriva derogărilor în defavoarea asiguratului. Nu trebuie extins automat la orice paragraf din alte capitole. § 91 cere analiza sa separată și a unei eventuale derogări valabile; versiunea actuală a § 108 nu enumeră § 91. [L1 §§ 42,91, 108, 187]
+
+5 Regula specială de o lună și aplicarea la pachet
+
+§ 91 VersVG spune integral: „Bei der Gebäudeversicherung muß die im Falle einer nicht rechtzeitigen Zahlung der Prämie nach § 39 zu bestimmende Zahlungsfrist mindestens einen Monat betragen.” Traducere: pentru asigurarea clădirii, termenul de plată stabilit conform § 39 în caz de neplată trebuie să fie de cel puțin o lună. [L1 § 91]
+
+Textul se află în capitolul asigurării de incendiu. Aplicarea legală este clară pentru componenta incendiu a clădirii; extinderea la apă, furtună, întrerupere și răspundere nu trebuie presupusă numai din titlul „Wohnhausversicherung”. ABS art. 4.5 face trimitere la § 91, dar efectul exact asupra fiecărei ramuri și eventualele derogări trebuie citite în contractul complet. [P2; L1]
+
+OGH 7 Ob 69/01z, 2001.04.27, descrie o asigurare grupată în care somația acorda o lună pentru Feuer-Gebäudeversicherung și două săptămâni pentru celelalte ramuri. Exemplul arată de ce analiza nu se poate face global pentru întregul pachet. Nu este o hotărâre care ar certifica validitatea somației DONAU de față. [J2 p. 4]
+
+§ 108 în forma actuală nu enumeră § 91 între dispozițiile de la care nu se poate deroga în defavoarea asiguratului. Nu susținem, așadar, că orice derogare ar fi automat nulă în această relație comercială. Totuși, somația unilaterală de două săptămâni nu dovedește singură existența unui acord contractual valabil care să reducă termenul. În actele analizate, ABS trimite la § 91; orice derogare invocată de DONAU trebuie identificată și dovedită. [L1; P2]
+
+Nici denumirea „Rahmenvertrag” nu activează automat excepția § 187 alin. 2. Aceasta privește contracte în care interesele sunt descrise generic și raportate ulterior individual. Trebuie verificat conținutul efectiv al cadrului 2900010498 și relația cu polița care identifică precis clădirea. Argumentul nu poate fi decis numai din numărul cadrului. [L1 § 187]
+
+Consecința practică: somația din 2026.05.20 acordă expres o lună și nu poate fi atacată pentru termenul de două săptămâni din actul ulterior. Dacă DONAU se întemeiază exclusiv pe somația din iunie pentru incendiu, termenul acesteia necesită explicație contractuală și legală. Dacă invocă somația din mai, trebuie analizate primirea și opozabilitatea ei după transfer. Nu presupunem nici că actul din iunie anulează actul anterior, nici că repară retroactiv eventuale deficiențe de comunicare. Rezultatul se stabilește pentru fiecare ramură și dată relevantă. [P4, P5]
+
+6 Controlul documentelor concrete din dosar
+
+Somația din 2026.05.20, p. 1, indică polița 2044001194 și numărul anterior X712.261-2, o primă restantă de 1.591,81 EUR și 10 EUR costuri. Destinatarul este Schallergasse 35 Immobilienbesitz GmbH & Co KG, prin Hofhans Immobilienmanagement GmbH, Albertgasse 32/9, 1080 Wien. Extras verificat vizual: „Zahlen Sie die offene Prämie bitte innerhalb von einem Monat ein (§ 39 Versicherungsvertragsgesetz).” Actul avertizează asupra exonerării după termen în caz de întârziere culpabilă și asupra posibilității încetării, precum și asupra plății în luna următoare unei eventuale încetări. Ștampila Hofhans arată 2026.05.26. [P5]
+
+Emailul Capra din 2026.05.27 transmite forwardul Hofhans și somația către cele două adrese ale lui Covaciu. Nu putem susține că somația de o lună lipsește ori că nu a circulat spre cumpărător. Ștampila dovedește o mențiune de primire la Hofhans, iar emailul dovedește retransmiterea; efectul juridic față de A&C cere verificarea mandatului, accesului efectiv în sfera destinatarului și regulilor aplicabile după transferul proprietății din martie. Data emiterii nu este automat începutul termenului. Nu calculăm o exonerare definitivă numai din ștampilă. [P5; L1 §§ 39, 69, 91]
+
+§ 69 alin. 3 leagă opozabilitatea înstrăinării față de asigurător, în privința creanțelor întemeiate împotriva sa prin asigurare, de cunoașterea acesteia. Extras: „Der Versicherer hat die Veräußerung in Ansehung der durch das Versicherungsverhältnis gegen ihn begründeten Forderungen erst dann gegen sich gelten zu lassen, wenn er von ihr Kenntnis erlangt”. Se cere deci data la care DONAU a cunoscut transferul și dovada notificării, împreună cu mandatele Hofhans și traseul comunicării. Numele fostului titular pe scrisoare nu permite, singur, declararea somației ca ineficace; nici alin. 3 nu dovedește automat valabilitatea ei în toate celelalte privințe. [L1 § 69 alin. 3]
+
+Somația din 2026.06.05, p. 1, privește 1.591,81 EUR primă și 20 EUR costuri, este adresată A&C la Parkring și acordă următoarele două săptămâni. Avertizează asupra lipsei despăgubirii și a posibilității încetării. Ea are elemente de somație calificată, dar trebuie examinată împreună cu actul din mai. Problema termenului mai scurt privește acest act, fără a exclude efectele unei somații anterioare valabile. [P4]
+
+Emailul Loschy din 2026.06.10 retransmite somația și cere plata până la 2026.06.18. Între aceste date sunt opt zile. Acest email nu dovedește, singur, acordarea termenului minim general și cu atât mai puțin a unei luni. Există însă somația anterioară din mai, de o lună; trebuie cerute dovezile accesului și explicația relației dintre acte, inclusiv dacă retransmiterea din iunie acorda un nou termen. [P3]
+
+OGH 7 Ob 83/21p, 2022.01.26, tratează riguros accesul somației la destinatar. Nu este întotdeauna necesar ca destinatarul să citească efectiv mesajul; adresa, sfera sa de control și conduita privind primirea pot conta. Se verifică și mandatul/adresa de corespondență, nu numai dacă utilizatorul își amintește scrisoarea. [J3]
+
+Notificarea de portal din 2026.07.07 indică un document nou de tip Mahnung, dar notificarea nu reproduce actul. Trebuie obținut PDF-ul efectiv, data încărcării, dovada notificării și acordul privind comunicarea electronică. § 5a și condițiile de formă contează; un titlu de email nu probează conținutul și nici nu demonstrează de unul singur comunicarea valabilă. [P3; L1 § 5a]
+
+Scrisoarea din 2026.09.17 și mesajul Gruber din 2026.09.30 susțin că primele continuă în pofida lipsei acoperirii. Au existat erori de livrare pentru atașamente EML și se afirmă expedierea poștală. Aceste fapte nu dovedesc o somație calificată suplimentară primită la o anumită dată. Textul cunoscut al acestor comunicări nu stabilește o nouă lună cu avertismente complete în sensul § 39 pentru componenta relevantă. [P3, P4]
+
+La 2026.10.06, DONAU declară: „Bitte beachten Sie, dass aufgrund des aktuellen Prämienverzugs derzeit kein Versicherungsschutz besteht.” Aceasta este poziția asigurătorului. Nu identifică în acel pasaj somația concretă, data începutului exonerării pe ramuri, efectul somației din mai față de A&C sau o încetare efectivă. Răspunsul trebuie contestat punctual și completat, nu considerat automat verdict juridic definitiv. [P3]
+
+7 De ce prima poate rămâne datorată
+
+OGH 3 Ob 722/54, 1954.11.17, privește un contract cu bunuri asigurate și prime restante după transfer. Principiul reținut este că, dacă nu s-a produs încetarea, obligația de primă continuă chiar când asigurătorul este liberat de prestație. Instanța a cerut însă verificarea completă a condițiilor somației; soluția procedurală a fost anularea și trimiterea spre rejudecare. Speța nu legitimează automat orice somație sau orice sold. [J1]
+
+Extras din motivarea OGH: „Ist auf Grund einer zugekommenen qualifizierten Mahnung gemäß §39 Abs.2 VersVG. Leistungsfreiheit eingetreten, ändert sich hiedurch am Bestand des Versicherungsverhältnisses selbst, also an der Vertragsdauer und der Prämienzahlungspflicht, nichts.” Traducere: exonerarea intervenită în baza unei somații calificate primite nu schimbă existența raportului, durata sau obligația de plată a primei. Condiția unei somații valabile este chiar în premisa principiului. [J1 p. 2]
+
+Hotărârea este veche, astfel că o folosim pentru principiul structurii contractului, verificat separat în §§ 1, 39 și 40 actuale. Nu importăm mecanic termene, monedă sau norme istorice. OGH 3 Ob 393/60 privind prima inițială nu trebuie confundată cu litigiul actual privind Folgeprämien; diferența dintre § 38 și § 39 este esențială. [L1; J1]
+
+Regula nu este o taxă pentru un serviciu niciodată contractat, ci efectul unui contract existent și al unei întârzieri căreia legea îi atașează o sancțiune. Dacă suspendarea legală a obligației de despăgubire nu s-a produs, DONAU poate fi obligată să acopere un sinistru conform contractului; atunci argumentul „n-am avut acoperire” se schimbă factual. Dacă suspendarea s-a produs, primele nu dispar numai din acest motiv.
+
+Poate asigurătorul să ceară o sumă care nu i se cuvine? O poate pretinde, dar pentru a o obține în justiție trebuie să dovedească temeiul și cuantumul. Emailul și decontul nu țin locul unui titlu judiciar. Încasarea unei sume nedatorate poate genera obligația de restituire, dacă sunt îndeplinite condițiile legale. Nu calificăm întreaga cerere drept nedatorată numai pentru că asigurătorul a invocat lipsa protecției.
+
+Excepția de neexecutare. § 1052 ABGB permite în anumite condiții refuzul propriei prestații până la contraprestația datorată. În asigurare trebuie aplicat și regimul special § 39 VersVG: dacă legea permite exonerarea ca urmare a neplății culpabile după somație valabilă, aceasta nu este pur și simplu o neexecutare ilicită a DONAU care ar șterge prima. Dacă DONAU refuză fără temei acoperirea datorată, pot exista remedii pentru neexecutare, despăgubire și, în caz grav, încetare extraordinară; întinderea și caracterul exigibil trebuie analizate concret. O afirmație generală de neacoperire nu justifică automat reținerea tuturor ratelor. [L1; L4; J1]
+
+Restituirea și îmbogățirea fără cauză. Contractul activ și § 1 alin. 2 constituie în principiu cauza primei, chiar în cazul exonerării valide. Dacă suma a fost plătită fără datorie, de exemplu după o încetare valabilă ori în dublu, § 1431 ABGB și regulile restituirii pot deveni relevante. Plata sub rezervă poate conserva contestarea și eventuala cerere de restituire; nu face singură suma nedatorată și nu garantează rambursarea. Se verifică și § 1432, cunoașterea situației și conținutul rezervei. [L4]
+
+Situațiile care pot reduce ori exclude o parte din pretenție sunt distincte: contract inexistent ori durată neconvenită; încetare deja valabilă; transfer/solidaritate aplicate greșit; plată ori credit omis; reducere convenită sau legală; dispariția interesului; calcul eronat; pretenție prescrisă; costuri nejustificate. Fiecare cere propriile probe. Lipsa somației calificate nu face neexigibilă prin ea însăși prima scadentă; privește în primul rând sancțiunile § 39.
+
+8 Diferența dintre prima inițială și primele ulterioare
+
+§ 38 privește prima inițială sau unică. Include un drept de retragere al asigurătorului și o ficțiune legată de neintroducerea acțiunii pentru primă într-un anumit termen. Textul generic despre prima inițială se găsește și la p. 8 a poliței curente. [L1; P1]
+
+§ 39 privește primele ulterioare și nu conține aceeași ficțiune generală de încetare după trei luni. Schimbarea proprietarului și emiterea unei copii noi nu transformă automat o primă ulterioară în primă inițială. Atât polița cât și somația se referă la Folgeprämie. Nu putem declara contractul încetat în vara 2026 numai pentru că DONAU nu ar fi acționat în judecată timp de trei luni. [P1, P4; L1]
+
+O încetare efectivă făcută de DONAU ar schimba calculul primelor viitoare și analiza plății de remediere. Trebuie cerută declarația exactă, dovada primirii și data efectului. Formularea ambelor somații cunoscute că asigurătorul „poate” înceta nu dovedește că a și încetat. [P5] Refuzul încetării din 2026.10.06 susține că DONAU tratează contractul ca activ. [P3, P4]
+
+9 Sumele și eventualele ajustări
+
+Pretenția din 2026.09.30 se reconciliază astfel: două rate trimestriale 3.183,62 EUR; rata următoare 1.591,81 EUR; total prime 4.775,43 EUR. La acestea se adaugă 30,00 EUR taxe ale creditorului, 501,58 EUR costuri de recuperare cu TVA și 19,14 EUR dobândă. Total accesorii 550,72 EUR; total pretins 5.326,15 EUR. Rata pentru trimestrul următor este deja inclusă și nu trebuie adăugată încă o dată. [P4]
+
+Situația pe perioade pentru decizia de plată. Datele sunt intervale ale primei; starea juridică a acoperirii se stabilește separat pe ramuri. Prima de trimestru este pentru întregul pachet. [P1, P3, P4]
+
+| Perioada | Pretenția cunoscută | Ce poate fi datorat și ce se verifică |
+| 2026.01.01–2026.04.01 | Nu este adăugată ca restanță în cererea de 5.326,15 EUR | Se cere contul pentru prima inițială și plățile fostului titular. Nu se presupune neplata numai din lipsa extrasului nostru. |
+| 2026.04.01–2026.07.01 | 1.591,81 EUR, inclusă în cele două rate restante | Prima poate fi datorată prin contract și transfer. Se verifică plata, repartizarea vânzător/cumpărător și efectele somațiilor din mai și iunie. Lipsa unei somații valabile afectează exonerarea, nu șterge automat rata. |
+| 2026.07.01–2026.10.01 | 1.591,81 EUR | Se verifică documentele portalului, orice încetare și cererea de reducere. Nu este dovedită o reducere acceptată de la începutul trimestrului. |
+| 2026.10.01–2027.01.01 | 1.591,81 EUR, deja inclusă | Contractul este tratat ca activ. Se verifică data unei eventuale încetări/reduceri și creditul proporțional; nu se dublează rata. |
+| După o încetare valabilă | Nicio încetare confirmată în prezent | Primele obișnuite viitoare se opresc/recalculează potrivit § 40 ori normei speciale. Data propusă unilateral nu este suficientă. |
+| Accesorii până la decontul cunoscut | 550,72 EUR | Se verifică 30 EUR creditor, 501,58 EUR recuperare și 19,14 EUR dobândă. Nu reprezintă integral primă și nu condiționează singure acoperirea. |
+
+În Kostenaufstellung, „Hauptforderung” 3.213,62 EUR include 3.183,62 EUR prime și 30,00 EUR taxe. Nu toată această etichetă reprezintă primă care ar putea menține exonerarea. Costurile de recuperare sunt 417,98 EUR net + 83,60 EUR TVA = 501,58 EUR. Sumele sunt cele pretinse, nu cuantumuri recunoscute sau confirmate ca plătite. [P4]
+
+§ 41b VersVG permite taxele asigurătorului numai pentru cheltuieli suplimentare cauzate de conduita asiguratului; aceasta trebuie verificată și pentru cei 30 EUR. Plafoanele tarifare de recuperare nu dovedesc singure necesitatea fiecărei poziții. § 1333 alin. 2 ABGB permite costuri de recuperare necesare, adecvate și proporționale, legate de întârzierea imputabilă. Se cer actele efective, baza tarifară, justificarea TVA și calculul dobânzii pe zile/scadențe. Ratele profesionale pot avea regimul UGB § 456; nu se presupune nici automat dobânda de consum de 4%, nici validitatea unei cote de 8% doar fiindcă apare în decont. [L1 § 41b; L2, L3]
+
+§ 41a și eventual § 68 pot susține reducerea unor componente, dar nu orice golire a clădirii elimină riscul. Pentru excluderea apei și a pierderii de chirie, DONAU a cerut trei acte tehnice; nu există o acceptare necondiționată a reducerii retroactive. 4.775,43 EUR este baza aritmetică a primelor din cererea cunoscută, nu recomandarea de a plăti mecanic această sumă fără reconciliere și alocare. [P3]
+
+§ 40 și ABS art. 4.6 permit limitarea primei la durata scursă numai când se stabilește o încetare valabilă. Nu toate primele până în 2036 devin exigibile acum. Costul eventual de durată 1000K se analizează separat; nu este inclus ca datorie certă în suma 5.326,15 EUR. [L1; P2]
+
+10 Plata și reluarea protecției
+
+Dacă contractul este activ și singurul impediment este restanța relevantă, înlăturarea acesteia poate restabili protecția pentru viitor. Ea nu transformă automat într-un sinistru acoperit un eveniment petrecut în perioada unei exonerări valabile. Dacă a existat încetare efectivă, trebuie verificată posibilitatea legală de remediere ori este necesară o nouă acceptare. [L1 § 39]
+
+Plata parțială trebuie pregătită printr-o alocare clară. § 1416 ABGB poate conduce, în lipsa unui acord eficient de imputare, la aplicarea sumei mai întâi asupra dobânzilor și apoi asupra principalului. AHVB art. 11.2.4 prevede și „Alle eingehenden Zahlungen werden auf die älteste Schuld angerechnet.” Regula contractuală de alocare pe datoria cea mai veche trebuie inclusă în analiză pentru ramura sa. Simplul text din ordin „numai prime” nu garantează lipsa oricărei dispute. [P2 p. 69] Se cere acord scris privind imputarea pe rate și confirmarea soldului de primă după încasare. [L2 § 1416]
+
+§ 36 VersVG distinge între plata la timp și efectele asupra sancțiunilor §§ 38/39. Pentru profesionist regula este încasarea la scadență; există însă excepția pentru plata inițiată până la scadență și intrată ulterior, în privința consecințelor legale indicate. OGH 7 Ob 103/97s a analizat un ordin bancar acceptat, acoperit și dat înaintea sinistrului, deși debitarea și creditarea au urmat. Nu este corectă o regulă absolută că numai data creditării contează în orice speță. [L1 § 36; J4]
+
+Nici nu putem promite că orice ordin emis acum, pentru restanțe vechi, restabilește imediat protecția. Trebuie documentate ordinul acceptat, disponibilul, transmiterea, încasarea și regimul juridic al contractului. Confirmarea DONAU a sumei, alocării și momentului efectului este proba operațională pe care trebuie să o obținem. Ordinul de plată nu va fi înregistrat ca încasare confirmată.
+
+Un termen nou de plată sau o înțelegere de eșalonare poate avea efecte juridice în funcție de text, mandatul celui care o acordă și existența unei veritabile amânări a scadenței. Nu îl excludem abstract. Dar mesajul Commerz care pune termenul la 2026.10.12 nu confirmă expres acoperirea, iar DONAU la 2026.10.06 afirmă contrariul. Nu se poate deduce sigur protecția din simpla extensie de termen pentru recuperare. Se cere clarificare expresă. [P3, P4]
+
+O poliță nouă potrivită pentru imobil neocupat și lucrări poate limita riscul curent, dar nu închide de la sine polița veche și nu șterge datoria. Se declară corect asigurarea existentă și riscurile, inclusiv pentru evitarea problemelor de asigurare multiplă și a excluderilor de șantier. [P2 ABS art. 6–7]
+
+11 Scenarii juridice și efectul lor
+
+Scenariul A: contract activ, somație valabilă pentru ramura respectivă, întârziere culpabilă relevantă. Primele pot rămâne datorate; despăgubirea pentru sinistrul produs în condițiile § 39 poate fi refuzată. Plata și alocarea trebuie stabilite pentru protecția viitoare.
+
+Scenariul B: contract activ, somație insuficientă ori necomunicată valabil. Prima poate rămâne exigibilă, dar exonerarea întemeiată pe acea somație este contestabilă. Termenul de două săptămâni din iunie poate conta pentru incendiu numai după examinarea actului din mai, care acordă o lună. Dacă acesta este opozabil A&C și toate celelalte condiții sunt îndeplinite, simpla critică a termenului din iunie nu înlătură efectele actului anterior.
+
+Scenariul C: contract încetat valabil la o dată dovedită. Se limitează primele conform § 40 sau regulii speciale, se separă restanțele anterioare și se verifică dacă plata poate înlătura efectul încetării în fereastra § 39 alin. 3. O sumă încasată ulterior nu înseamnă automat reluarea contractului.
+
+Scenariul D: numai costuri/dobânzi restante. Acestea nu declanșează efectele § 39 alin. 1–3. Dacă rămâne o primă mică în limita § 39a, nu intervine exonerarea; această regulă nu șterge restanța și nu trebuie extinsă automat la orice alt efect juridic. Este necesară reconcilierea și confirmarea că principalul relevant a fost stins.
+
+Scenariul E: reducere, credit ori dispariție de interes valabilă. Se recalculează numai componentele și perioadele afectate; nu se presupune ștergerea globală a datoriei. Regresul contra vânzătoarei rămâne distinct de creanța externă DONAU.
+
+12 Punct de vedere juridic și pași de urmat
+
+Punctul nostru de vedere este că refuzul global de plată numai pe motivul lipsei acoperirii ar fi o poziție slabă. Nu mai susținem că dosarul conține exclusiv o somație de două săptămâni: originalul din 2026.05.20 acordă o lună. Verificarea concretă privește acum opozabilitatea acestui act după transfer, mandatul Hofhans, accesul A&C prin retransmiterea Capra, relația cu somația din iunie, ramura asigurată și restanța. DONAU trebuie să precizeze actul și data pe care se întemeiază; existența actului de o lună nu dovedește singură toate condițiile exonerării.
+
+Această apărare trebuie păstrată concomitent cu limitarea riscului economic. Nici studiul, nici cererea de documente nu confirmă acoperirea și nu amână automat plata sau eventualele termene judiciare. Nu există acum temei suficient să consemnăm polița drept „suspendată” în sensul suspendării obligației de primă.
+
+1. Avocatul cere urgent statutul pe fiecare componentă, data exactă a pretinsei exonerări și identificarea somației invocate. Se prezintă ambele acte: 2026.05.20, o lună, către fostul proprietar prin Hofhans; 2026.06.05, două săptămâni, către A&C. Se cer temeiul opozabilității actului din mai, mandatul de primire, dovezile accesului și efectul retransmiterii din 2026.05.27. [P4, P5]
+
+2. Se obțin actul din portal 2026.07.07, orice somație suplimentară, dovezile poștale/electronice și orice declarație de încetare. Dacă DONAU se întemeiază pe termenul de două săptămâni pentru incendiu, se cer eventuala derogare contractuală de la § 91 și dovada acceptării. Somația din mai se examinează înaintea oricărei concluzii privind această obiecție.
+
+3. Se cere un sold actualizat separat pe primă/perioadă, credite, plăți, taxe, dobânzi și recuperare, fără dublarea ratei trimestriale incluse. Se verifică banca până la data efectivă a deciziei înaintea oricărei plăți.
+
+4. Se stabilește cu avocatul suma ce poate fi achitată sub rezervă, fără recunoașterea accesoriilor contestate, și se obține alocarea acceptată. Rezerva trebuie să păstreze contestarea și regresul, fără a presupune că ea garantează restituirea.
+
+5. Se solicită confirmarea efectului plății asupra acoperirii, cu dată/oră și ramuri. Dacă DONAU menține refuzul fără fundament, avocatul evaluează o cerere de constatare a protecției ori remediile adecvate. Dacă s-a produs un sinistru, acesta se notifică și se analizează separat; nu se renunță la pretenție doar din emailul general.
+
+6. Se continuă dosarul tehnic pentru reducerea primei și negocierea încetării; se verifică protecția potrivită șantierului și eventualele obligații față de creditor. Nu se folosește neplata ca metodă de reziliere.
+
+13 Surse și probe
+
+P1. Polița 2026.06.03, 9 pagini: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf. SHA-256 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd.
+P2. Polița 2026.02.03 și condițiile 89 pagini: 05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf. SHA-256 96e72aed3cb7fde8114be3ba1ecbd7f29b92bad8757aa89bac56886e710a3835. ABS art. 4 la PDF p. 35; condiții pe ramuri în același document.
+P3. Exporturi în 05. Asigurari/Asigurare cladire/2026.10.14 Situatie Donau/Surse: Loschy 2026.06.10 ID 16a82de2-ecdb-4c4a-ac9b-17a67ab3f24f; portal 2026.07.07 ID 4b3dab07-5c66-4488-8282-8badea1999e3; 2026.10.01 trimis ID 23eaa675-18ad-45b1-b535-25f7583087b1; 2026.10.06 primit ID 2c273256-a0bf-408b-bb22-09718372e888; draft 2026.10.07 ID aa653a96-7eee-4133-a41d-5892ea79788d pending la 2026.10.14.
+P4. Somație 2026.06.05, 1 pagină: 05. Asigurari/Asigurare cladire/B7280016C9961FE1988F3ADAC750FA7E_FolgeprämieStufe01.pdf, SHA-256 1af65af6d23d9c25cc9c0cccad8676df46ecb38e2e33f865e8cfe403a833dd67. Scrisoarea 2026.09.17 și Kostenaufstellung în Situație 2026.10.14/Anexe. Email Gruber 2026.09.30 ID 1fa19552-d1fd-459e-92b3-57ed5319d18c.
+P5. Somația DONAU 2026.05.20, 1 pagină: 05. Asigurari/Asigurare cladire/20260526163520179.pdf. SHA-256 8402921829c72536eabb94f8770ca913f7eefcfec1fe584206c62eea4415c791. Destinatar Schallergasse 35 Immobilienbesitz GmbH & Co KG, prin Hofhans; ștampilă 2026.05.26. Transmitere Capra 2026.05.27 către covaciu.gnm@gmail.com și cosmin.covaciu@ipec.ro, ID Eva-Mail cb505d08-3562-4ad6-a659-ed10ce34b02d, cu forward Hofhans și somația.
+
+L1. VersVG, RIS, forma 2026.10.14, în special §§ 1, 36, 38, 39, 39a, 40, 41a, 41b, 42, 68, 69, 91, 108, 187. https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&FassungVom=2026-10-14
+L2. ABGB § 1333 costuri: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1333/NOR40070130 ; § 1416 imputare: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1416/NOR12019162
+L4. ABGB §§ 1052, 1431, 1432, texte consolidate: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622
+L3. UGB § 456 dobândă între profesioniști. https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001702&Paragraf=456
+J1. OGH 3 Ob 722/54, 1954.11.17, p. 2, principiu și condițiile somației. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf
+J2. OGH 7 Ob 69/01z, 2001.04.27, p. 4 somație ramuri distincte. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20010427_OGH0002_0070OB00069_01Z0000_000/JJT_20010427_OGH0002_0070OB00069_01Z0000_000.pdf
+J3. OGH 7 Ob 83/21p, 2022.01.26, pct. 10–15, PDF p. 5–9. https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20220126_OGH0002_0070OB00083_21P0000_000/JJT_20220126_OGH0002_0070OB00083_21P0000_000.pdf
+J4. OGH 7 Ob 103/97s, 1997.04.16, plata înaintea sinistrului și drept istoric. https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_19970416_OGH0002_0070OB00103_97S0000_000&IncludeSelf=True

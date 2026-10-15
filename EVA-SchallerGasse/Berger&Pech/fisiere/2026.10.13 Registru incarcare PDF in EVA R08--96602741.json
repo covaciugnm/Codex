@@ -1,0 +1,74 @@
+{
+  "data": "2026.10.13",
+  "fisiere": [
+    {
+      "provider": "BERGER",
+      "filename": "2026.10.13 Werkvertrag BERGER R08.pdf",
+      "local_path": "00.Proiect\\09. Vertraege\\bmberger.at\\2026.10.13 Werkvertrag R08\\2026.10.13 Werkvertrag BERGER R08.pdf",
+      "sha256": "a1dc3efa2b83bfadde71e4446ef1ac7a8cfdf2607d4faefbeaecd9ae62b1bdd5",
+      "bytes": 185734,
+      "document_id": "56fd2478-5a94-48de-8dad-dfb42adc509d",
+      "upload_return": {
+        "id": "56fd2478-5a94-48de-8dad-dfb42adc509d",
+        "filename": "2026.10.13 Werkvertrag BERGER R08.pdf",
+        "size": 185734,
+        "mime_type": "application/pdf",
+        "format": "pdf",
+        "draft_id": null,
+        "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+      }
+    },
+    {
+      "provider": "BERGER",
+      "filename": "2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+      "local_path": "00.Proiect\\09. Vertraege\\bmberger.at\\2026.10.13 Werkvertrag R08\\2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+      "sha256": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+      "bytes": 174755,
+      "document_id": "9d4fc251-6221-4698-b1e8-3d26e0ab2a03",
+      "upload_return": {
+        "id": "9d4fc251-6221-4698-b1e8-3d26e0ab2a03",
+        "filename": "2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+        "size": 174755,
+        "mime_type": "application/pdf",
+        "format": "pdf",
+        "draft_id": null,
+        "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+      }
+    },
+    {
+      "provider": "PECH",
+      "filename": "2026.10.13 Werkvertrag PECH R08.pdf",
+      "local_path": "00.Proiect\\09. Vertraege\\zt-pech.at\\2026.10.13 Werkvertrag R08\\2026.10.13 Werkvertrag PECH R08.pdf",
+      "sha256": "9d0f0078728fe1f22ca2b3914335f8ddad049ecb11fbd2bf553c9da3670511b5",
+      "bytes": 186227,
+      "document_id": "bbdaea38-ae7f-4bf5-90a0-b10dc41657df",
+      "upload_return": {
+        "id": "bbdaea38-ae7f-4bf5-90a0-b10dc41657df",
+        "filename": "2026.10.13 Werkvertrag PECH R08.pdf",
+        "size": 186227,
+        "mime_type": "application/pdf",
+        "format": "pdf",
+        "draft_id": null,
+        "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+      }
+    },
+    {
+      "provider": "PECH",
+      "filename": "2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+      "local_path": "00.Proiect\\09. Vertraege\\zt-pech.at\\2026.10.13 Werkvertrag R08\\2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+      "sha256": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+      "bytes": 68147,
+      "document_id": "e1c7dabf-3dfd-465d-9db7-83ea7bc217ff",
+      "upload_return": {
+        "id": "e1c7dabf-3dfd-465d-9db7-83ea7bc217ff",
+        "filename": "2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+        "size": 68147,
+        "mime_type": "application/pdf",
+        "format": "pdf",
+        "draft_id": null,
+        "note": "Fișierul e în EVA. Pasează `id` în attachment_ids la eva_create_draft / eva_update_draft."
+      }
+    }
+  ]
+}
+

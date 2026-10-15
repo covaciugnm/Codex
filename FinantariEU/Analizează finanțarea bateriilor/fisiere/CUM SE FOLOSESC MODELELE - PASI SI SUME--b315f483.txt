@@ -1,0 +1,39 @@
+﻿REFACEREA CAPITALURILOR PROPRII - MODELE DE LUCRU
+Data pregătirii: 13.10.2026
+
+Acest dosar include modelul oficial ONRC, păstrat fără modificări, și modele de lucru pentru CESIRO PRODUCTION S.R.L. (CUI 45050734) și RED INTERNET SALES S.R.L. (CUI 47342670).
+Modelele pregătite nu sunt acte adoptate sau înregistrate. Se completează identitatea asociaților, structura capitalului și data reală a hotărârii. Se păstrează varianta corectă: decizie de asociat unic sau hotărâre AGA.
+
+A. APORT NOU ÎN NUMERAR
+Asociatul aduce efectiv fonduri pentru majorarea capitalului social. Hotărârea, vărsământul și înregistrarea se documentează. Simpla denumire dată unui transfer nu este suficientă.
+Banii care se află deja în contul firmei nu devin printr-o hotărâre un nou aport al asociatului. Trebuie verificat cum au fost înregistrați inițial: venituri, împrumut, aport subscris sau altă operațiune.
+
+B. CONVERSIA UNUI ÎMPRUMUT EXISTENT ÎN CAPITAL
+Dacă firma datorează asociatului sume documentate, se poate analiza majorarea prin compensarea unor creanțe CERTE, LICHIDE ȘI EXIGIBILE. Nu este necesară o nouă virare pentru suma convertită; se stinge datoria corespunzătoare în schimbul părților sociale.
+Trebuie să existe contractul/documentele împrumutului, confirmarea soldului și a scadenței și înregistrarea contabilă. Nu se presupune că toate datoriile din ANAF sunt datorii către asociat sau eligibile pentru conversie. Nu se antedatează documentele și nu se declară o nouă virare fictivă.
+
+DOCUMENTE ȘI PAȘI
+1. Contabilul stabilește capitalurile proprii actuale, capitalul social subscris și pierderile/profiturile din 2026, precum și soldul împrumuturilor asociaților.
+2. Se alege aportul nou, conversia sau o structură mixtă și se dimensionează suma. Modelele acestui dosar tratează fiecare variantă separat; nu se semnează ambele pentru aceeași sumă.
+3. Se adoptă decizia/hotărârea și se actualizează actul constitutiv cu capitalul, părțile sociale și procentele rezultate.
+4. Pentru aportul nou se documentează vărsământul; pentru conversie se documentează creanța și compensarea.
+5. Se depune dosarul la ONRC. Pagina oficială indică cererea de înregistrare, actul modificator, actul constitutiv actualizat și dovada vărsămintelor pentru aportul în numerar; pentru conversie, situațiile financiare și balanța însoțitoare, după caz, plus documentele aplicabile și tariful de publicitate. Verificați lista completă la data depunerii.
+6. Contabilul înregistrează operațiunea și pregătește o situație actualizată a capitalurilor proprii. Hotărârea singură nu este dovada finalizării remedierii.
+
+SUMELE ANTERIOARE SUNT SIMULĂRI, NU VALORI DE SEMNAT AUTOMAT
+Pe datele din 31.12.2025 și ipoteza că tot aportul majorează capitalul social nominal, fără alte schimbări, cu capital social de 200 lei:
+CESIRO: aport teoretic 304.802 lei; capital social rezultat 305.002 lei; capitaluri proprii rezultate 152.501 lei.
+RED: aport teoretic 15.362 lei; capital social rezultat 15.562 lei; capitaluri proprii rezultate 7.781 lei.
+Calcul: X >= capital social inițial - 2 x capitaluri proprii inițiale, pentru a ajunge cel puțin la jumătate din noul capital social.
+Aceste sume sunt exact la limită și trebuie recalculate pe balanța actuală, cu marjă pentru eventuale pierderi. Nu sunt sumele minime pentru orice metodă posibilă de recapitalizare și nu sunt contribuția proprie a proiectului.
+Conversia este limitată de valoarea creanțelor eligibile existente. De exemplu, datoriile totale CESIRO raportate pentru 2025 sunt 222.744 lei, mai mici decât aportul nominal teoretic de 304.802 lei; aceste date NU susțin acoperirea integrală a acelei simulări prin conversia datoriilor din 2025. Este necesară situația actuală și eventual un aport suplimentar.
+
+LEGĂTURA CU FINANȚAREA FMST
+Operațiunea urmărește refacerea capitalurilor proprii. Trebuie verificat separat întregul test al întreprinderii în dificultate, nu doar semnul capitalurilor proprii, și documentele pe care finanțatorul le acceptă pentru o remediere curentă.
+O majorare făcută în 2026 nu rescrie indicatorul de solvabilitate din 2024 și 2025. Pentru criteriul istoric neîndeplinit, ghidul FMST păstrează alternativa scrisorii de confort.
+Modelele nu reprezintă confirmarea eligibilității la grant și nu înlocuiesc verificarea contabilă și documentară a operațiunii.
+
+Surse oficiale:
+https://www.onrc.ro/index.php/ro/mentiuni/persoane-juridice/majorarea-capitalului-social
+Model ONRC: https://www.onrc.ro/templates/site/formulare/modele%20asistenta/hotarare_decizie_aga_asoc_unic%20cod%20002.rtf
+Ghid FMST: https://energie.gov.ro/wp-content/uploads/2026/08/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf

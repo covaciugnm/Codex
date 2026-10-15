@@ -1,0 +1,59 @@
+2026.10.14 — MEMO REDACTARE R02 (Solicitare justificare contractuala STURM ENERGIE GmbH)
+Statut: draft local NETRIMIS. Nu s-a creat draft Eva-Mail. Nu s-a trimis nimic.
+Fisier scrisoare: D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\06. Utilitati\UTILITATI Curent - Sturm Energie\2026.10.14 Solicitare justificare contractuala STURM\Redactare\2026.10.14 Solicitare STURM DE R02 NETRIMIS.txt
+
+1. CE S-A SCHIMBAT FATA DE R01
+- Antet complet (expeditor cu FN/UID/adresa Schallergasse 35, destinatar cu FN 432092 f, ambele adrese e-mail STURM, data, loc).
+- Betreff extins: Liegenschaft, ambele Kundennummern (cu mentiunea „ehemaliges Kundenkonto” preluata chiar din subiectul STURM 13.10.2026), toate ticketele relevante (365759, 365740, 339194, 323971), scrisoarea 24.09.2026, bestreitung + kein Anerkenntnis.
+- Structura noua in 5 sectiuni numerotate: I. Sachverhalt (7 puncte) / II. Rechtliche Position (7 puncte) / III. Forderungen (8 puncte) / IV. Vorbehalt (5 puncte) / V. Fristen. R01 avea doar 4 cereri si fara sectiune de drept.
+- Sachverhalt nou (R01 nu avea): Kaufvertrag 405/2026, Grundbuch martie 2026, extras CF trimis 08.06.2026; 21 instalatii / 2 Kundennummern / partener „HI 1120” / UID ATU76175979; confirmarile STURM 01.06 si 17.06.2026 (Kündigung, oferta fara raspuns, formular precompletat niciodata primit/semnat); exemplul decisiv Rechnung 29708/10/2026 (original p.a. Hofhans vs duplicat p.a. A&C); fiecare pretentie concreta (a)(b)(c) cu sume, Anlagen, Rechnungen, termene; Guthaben 846,92 EUR + Guthaben 4000112571; plata 115,36 EUR 06.08.2026; retururi Parkring 2 si adresa corecta.
+- Rechtliche Position noua: §859, §861, §862, §863 ABGB; §§1404–1406 ABGB; Beweislast; §1333 ABGB + §458 UGB conditionat; §1431 ABGB.
+- Forderungen: adaugate fata de R01 cererea 5 (Kontoblätter ambele conturi + 3 Guthaben/plati identificate individual + verrechnung), cererea 6 (Mahnspesen/Zinsen cu calcul, temei, data Verzug, dovada primirii facturii; refuz explicit al spezelor pentru trimiteri la adresa gresita), cererea 7 (corectarea adresei + confirmare + clauza ca corectarea adresei nu e Anerkenntnis + stop trimiteri la CERHA HEMPEL), cererea 8 (suspendare Mahn/Inkasso + fara transmitere la Inkasso/Auskunfteien + pozitia asupra termenului 19.10.2026). Cererile 1–4 din R01 pastrate si precizate (abschlussweg, Vertragsnummer, Laufzeit, Zählpunkt, AGB/Preisblatt cu data, Vertretungsbefugnis; delimitare perioade dupa Zählerstände cu referinta 20.02.2026/Einverleibung; Negativerklärung + stornarea somatiilor).
+- Vorbehalt extins: bestreitung Grund+Höhe, kein Anerkenntnis/keine Vertrags-/Schuldübernahme/kein Schuldbeitritt, plata 06.08.2026 unter Rückforderungsvorbehalt (§1431), toate Einwendungen, rezerva pasilor urmatori dupa 28.10.2026 (fara amenintari concrete, fara „povesti”).
+- Eliminat din R01: tonul de „ersuchen” pentru prelungire → inlocuit cu „fordern auf” + pozitie asupra termenului 19.10.2026 fara a afirma ca contestatia suspenda automat scadenta (vezi pct. 3).
+- BEILAGE 1: tabel complet cu 21 instalatii (TOP | Energieart | Kundennummer | Anlagennummer | Zählpunkt | Zählernummer | Lieferbeginn | Lieferende | Vertragsnummer A&C: — | Vertrag A&C vorgelegt: nein), sortat Strom apoi Gas, dupa TOP. Top 8 Strom si Top 13 Strom marcate „*” (Kundennummer neconfirmata in documente — de completat de STURM).
+- BEILAGE 2 (noua): tabel pozitii pretinse si Guthaben (A–G) cu ticket/scrisoare, Kundennummer, TOP/Energieart, Anlage, Rechnung, suma, termen STURM, statut A&C; nota anticumulare (Mahnungen/duplicate nu sunt datorii suplimentare).
+- Format date in scrisoare: DD.MM.YYYY (uz german); diacritice ä ö ü ß peste tot.
+- Semnatura: Cosmin-Adrian Covaciu, Geschäftsführer (R01 nu avea semnatar).
+
+2. NORME CITATE SI MOTIVUL
+- §859 ABGB — izvoarele obligatiilor (lege, Rechtsgeschäft, dauna): fundamenteaza „Zahlungspflicht nur aus Vertrag oder gesetzlichem Schuldgrund”.
+- §861 ABGB — contractul se incheie prin Versprechen (Antrag) si Annahme: pentru a cere Antrag + Annahme la fiecare pozitie.
+- §862 ABGB — oferta neacceptata in termen se stinge: aplicat ofertei STURM 25.03.2026 (Ticket 323971), despre care STURM insasi confirma (01.06 si 17.06.2026) ca nu a primit raspuns. Formulat prudent („nach Ihrer eigenen Darstellung nicht angenommen”).
+- §863 ABGB — Willenserklärung concludenta: conform deciziei din memo R01, NU negam posibilitatea unui contract concludent; cerem faptele concrete, imputarea catre societate si continutul contractual derivat. Sarcina probei la cel care invoca.
+- §§1404 ff. ABGB — §1404 Erfüllungsübernahme (intelegere interna vanzator–cumparator, nu da drept direct creditorului); §1405 Schuldübernahme cu Einwilligung des Gläubigers; §1406 preluare prin contract cu creditorul / Schuldbeitritt. Vertragsübernahme nu are norma expresa in ABGB (institut dezvoltat de jurisprudenta, tratat analog §§1405 ff.) — de aceea am scris „Vertragsübernahme ... oder ... Schuldübernahme (§§1404 ff., insbesondere §§1405, 1406 ABGB) bedarf der Zustimmung der A&C”, fara a atribui Vertragsübernahme unui paragraf anume. NU am citat §1409 (preluare de Vermögen/Unternehmen) — nu se aplica unei achizitii de imobil si ar deschide un argument nedorit.
+- §1333 Abs. 1 und 2 ABGB — dobanzi de intarziere si costuri de Betreibung (Abs. 2: costurile necesare ale masurilor extrajudiciare, in raport rezonabil cu creanta): temei pentru a cere calcul + Rechtsgrundlage + data Verzug.
+- §458 UGB — citat CONDITIONAT („soweit Sie §458 UGB heranziehen, auch dieser”): norma UGB privind Betreibungskosten pauschale la Unternehmergeschäfte; conditionarea evita afirmatia ca intre parti ar exista un Unternehmergeschäft (ceea ce ar presupune contractul pe care il contestam). Nu am citat §456 UGB (dobanzi intre Unternehmer) din acelasi motiv.
+- §1431 ABGB — plata unei non-datorii (condictio indebiti): pentru plata 115,36 EUR din 06.08.2026 si pentru Guthaben provenite din plati ale fostei administratii.
+- NU am citat paragrafe din ElWOG 2010 / GWG 2011: fara verificare in RIS a numerelor exacte (Rechnungslegung, AGB, Lieferantenwechsel), riscul unei citari gresite depaseste beneficiul; argumentul civil (ABGB) este suficient pentru scopul scrisorii. KSchG nu se aplica (mandanta e GmbH) — nu e mentionat.
+- Beweislast: principiu general procesual (cel care invoca un drept dovedeste faptele constitutive) — nu am citat o norma (nu exista una unica in ABGB/ZPO care sa merite citata aici).
+
+3. FAPTE FOLOSITE SI SURSELE (nume fisier)
+- Lista 21 instalatii (TOP, Strom/Gas, Kundennummer, Anlagennummer, Lieferbeginn, Lieferende, Zählpunkt, Zählernummer), concluzia „niciun Vertragsnummer / niciun contract A&C identificat”, Top 8 + Top 13 Strom cu Kundennummer neconfirmata, exemplul decisiv 29708/10/2026 (original p.a. Hofhans vs duplicat p.a. A&C), Anlagenliste 16.06.2026 cu partener „HI 1120, Schallergasse 35” fara coloana Vertragsnummer, UID ATU76175979 pe facturi: 2026.10.14 Identificatori si dovada contract\2026.10.14 Concluzie verificare contract STURM.txt
+- Pretentii deschise (2.662,60 incl. 98 Mahnspesen; 137,11 = 27,12 + 109,99; 432,66 cu 50457/49328/49327 + 7 EUR; Guthaben 846,92 / Rechnung 29707; plata 115,36 / Rechnung 29700 / 06.08.2026; retururi Parkring 2; cronologie): 2026.10.14 Situatie STURM\2026.10.14 Situatie STURM.txt
+- Oferta STURM 25.03.2026 (Ticket 323971, Larissa Weiss, tarif fix fara durata minima, „vorausgefüllte Vertragsunterlage” spre semnare dupa confirmarea adresei de facturare): 2026.10.14 Situatie STURM\Surse\2026.03.25 c49b8bb4.txt
+- STURM 01.06.2026 (Melanie Edelmann): contractele existente aufgekündigt din cauza Eigentümerwechsel; „auf ein ... Angebot erfolgte keine Reaktion”; intrebare cine e Rechnungsempfänger: 2026.10.14 Situatie STURM\Surse\2026.06.01 46501cec.txt
+- STURM 17.06.2026 (Ticket 339194): Kündigung Leerstände la 18.03.2026, oferta 323971 fara raspuns, Anlagenliste anexata, Guthaben Anlage 4000112571 din plata manuala a Vorverwaltung ian. 2026, bancare Hofhans sterse, recomandare Wiener Netze; in acelasi fisier emailul nostru din 08.06.2026 cu extras CF + Kaufvertrag 405/2026 din 20.02.2026: 2026.10.14 Situatie STURM\Surse\2026.06.17 f51d3f00.txt
+- STURM 07.10.2026 (Ticket 365740, cont 42018142, retur „unbekannt” Parkring 2, cerere verificare adresa): 2026.10.14 Situatie STURM\Surse\2026.10.07 97799dc8.txt
+- STURM 13.10.2026 (Ticket 365759, subiect „42017328 - Ihr ehemaliges Kundenkonto”, Mahnung retur „unbekannt”, plata pana la 19.10.2026, IBAN STURM): 2026.10.14 Situatie STURM\Surse\2026.10.13 0fed52e8.txt
+- Draft anterior si decizii juridice preluate: Redactare\2026.10.14 Solicitare STURM DE R01 NETRIMIS.txt si Redactare\2026.10.14 Memo surse si decizii R01.txt
+- Date mandanta (FN 668224 h, UID ATU83086125, adresa Schallergasse 35 din 15.09.2026, Parkring 2 = adresa CERHA HEMPEL, office@ac-wohnart.at, semnatar Cosmin-Adrian Covaciu): din instructiunile de redactare + memoria de proiect AC Wohnart.
+
+4. DECIZII R01 RESPECTATE
+- Nu afirmam ca lipsa semnaturii exclude contractul; cerem dovezile unui acord electronic/verbal/concludent + imputarea (§863).
+- Nu afirmam ca contestatia suspenda scadenta; suspendarea Mahn/Inkasso este o CERERE cu confirmare scrisa pana la 16.10.2026. Formularea despre termenul 19.10.2026 („wird mangels nachgewiesener Anspruchsgrundlage nicht als gegen A&C wirksam angesehen”) exprima pozitia noastra, nu un efect juridic automat.
+- Nu presupunem Kundennummer/Anlagennummer = Vertragsnummer; coloana „Vertragsnummer A&C: —” separata in Beilage 1.
+- Raportare inclusiv negativa pe fiecare pozitie (III.4 Negativerklärung + stornarea somatiilor).
+- Nu confundam alocarea interna vanzator/cumparator (afirmatia Capra 25.03.2026) cu un temei de raspundere fata de STURM — §1404 citat exact in acest sens.
+- Toate facturile (inclusiv platite/stornate/gutgeschrieben) incluse in cererea de Zuordnungstabelle; nota anticumulare in Beilage 2.
+
+5. IPOTEZE SI LIMITE
+- „HI 1120” din Anlagenliste este interpretat ca Hofhans Immobilienmanagement; in scrisoare este citat textual, fara interpretare.
+- Suma Guthaben Anlage 4000112571 nu e cunoscuta (Kontoauszug STURM 17.06.2026 nu a fost citit aici) → in Beilage 2 „Betrag von STURM anzugeben”.
+- Suma facturii 29708/10/2026 nu a fost preluata (nu era in surse) → „lt. Rechnung”.
+- Cele 14 Mahnungen din Ticket 365759 nu au fost defalcate pe Anlage (atasamentele nu au fost citite) → cerem explicit defalcarea de la STURM (Beilage 2 pos. A).
+- Lipsa documentelor gasite nu echivaleaza juridic cu inexistenta certa a oricarui acord; scrisoarea cere dovezi, nu afirma inexistenta absoluta.
+- Termenele 16.10.2026 si 28.10.2026 sunt calculate la data redactarii 14.10.2026; daca expedierea se amana, se actualizeaza (16.10 trebuie sa preceada 19.10).
+- Scrisoarea este Unternehmer-zu-Unternehmer; nu invoca KSchG si nu promite colaborare viitoara (eliminata fata de emailul nostru din 08.06.2026).
+- Nu a fost verificat in RIS textul actual al §458 UGB in aceasta sesiune (lipsa acces web aici); de aceea citarea este conditionata. Daca se doreste citare ferma, verificare RIS inainte de trimitere.
+- Inainte de trimitere: verificare vizuala diacritice, semnatura GF, eventual conversie in PDF cu antet si trimitere la ambele adrese STURM cu referire la ticketele 365759 si 365740.

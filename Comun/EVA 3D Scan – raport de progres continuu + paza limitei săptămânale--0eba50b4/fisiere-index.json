@@ -9,10 +9,7 @@
   },
   {
     "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/33ceb1ec-4232-453c-8ea0-7e327e480045/scratchpad/j.py",
-    "status": "copiat",
-    "saved_path": "fisiere/j--1236aeb0.py",
-    "bytes": 1048,
-    "sha256": "fc2a37175a13489af5c7ceb77423317618d48486470c464642eee524031ae4ee"
+    "status": "fisier_inexistent_sau_director"
   },
   {
     "source_reference": "C:\\Users\\User\\.claude\\projects\\--192-168-100-169-Comun-\\*\\subagents\\workflows\\*\\journal.jsonl",
@@ -38,9 +35,6 @@
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\--192-168-100-169-Comun-\\33ceb1ec-4232-453c-8ea0-7e327e480045\\scratchpad\\j.py",
-    "status": "copiat",
-    "saved_path": "fisiere/j--1236aeb0.py",
-    "bytes": 1048,
-    "sha256": "fc2a37175a13489af5c7ceb77423317618d48486470c464642eee524031ae4ee"
+    "status": "fisier_inexistent_sau_director"
   }
 ]

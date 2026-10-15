@@ -1,0 +1,30 @@
+2026.10.14 — DONAU: OPȚIUNEA SELECTATĂ DE UTILIZATOR
+Polița 2044001194 | A&C Wohnart Immobilien GmbH
+Statut: instrucțiune utilizator și procedură; document local NETRIMIS, fără acord DONAU.
+
+Se păstrează: incendiu (763,20 EUR/an), furtună cu toate extensiile existente inclusiv cutremur și catastrofe de apă (771,56 EUR/an), răspunderea proprietarului (1.638,36 EUR/an).
+Se solicită eliminarea: apă din conducte (3.127,72 EUR/an), pierderea chiriei (41,72 EUR/an), spații de înlocuire (24,68 EUR/an).
+Total aritmetic rămas: 3.173,12 EUR/an, respectiv 793,28 EUR/trimestru. Economie aritmetică: 3.194,12 EUR/an. Taxe incluse conform tarifelor actuale. Nu constituie ofertă nouă sau reducere acceptată; reducerile de pachet, indexarea și eventualele costuri trebuie clarificate.
+
+DE CÂND
+Cererea poate fi făcută acum. Modificarea poate produce efect imediat sau de la altă dată convenită dacă DONAU acceptă în scris. Se solicită efect de la primirea cererii, subsidiar de la 2027.01.01; aceasta este o dată solicitată, nu un drept demonstrat.
+Pe documentele disponibile nu este dovedit un drept de eliminare unilaterală imediată sau anuală a acestor trei componente. Preavizul special de o lună din 1242K/3031K privește exact suplimentele pe care utilizatorul dorește să le păstreze; nu se folosește pentru eliminarea apei din conducte, pierderii chiriei sau spațiilor de înlocuire.
+În caz de refuz, se cere temeiul și prima dată permisă pentru fiecare componentă, inclusiv regulile contractului-cadru 2900010498. Termenul general invocat de DONAU pentru contract este 2036.01.01; acesta nu dovedește inexistența unor drepturi speciale și nici că reducerea solicitată este deja permisă.
+
+PROCEDURĂ
+1. Cerere de modificare parțială către DONAU, cu cele trei componente păstrate și cele trei eliminate nominalizate; prin avocatul Capra se poate coordona relația cu recuperatorul. Nicio trimitere efectuată prin acest document.
+2. Anexe tehnice: autorizația și descrierea lucrărilor, confirmarea instalatorului privind oprirea/securizarea apei, situația reală a ocupării și a contractelor de închiriere. Nu se afirmă că apa este oprită sau că nu există chiriași fără dovezi.
+3. Solicitarea unei modificări scrise a poliței cu data exactă, primele/taxele pe componente, orice cost de modificare ori recuperare de reduceri și confirmarea că nu se introduce o nouă durată minimă. Se solicită lipsa penalităților, fără a o prezenta ca acordată.
+4. Separat, confirmarea situației acoperirii celor trei componente păstrate și a condițiilor de restabilire, deoarece ultimul răspuns DONAU, 2026.10.06, invocă lipsa acoperirii pentru neplată. Reducerea pachetului nu restabilește singură acoperirea și nu stinge restanțele.
+5. Până la stabilirea efectelor juridice și a recalculării, cei 793,28 EUR/trimestru nu sunt tratați ca nouă obligație certă de plată. Declarația de încetare integrală trimisă la 2026.10.01 și obiecțiile asupra creanței se păstrează; solicitarea subsidiară de reducere nu le retrage.
+
+TEMEIURI ALTERNATIVE DE EXAMINAT
+§41a VersVG: reducere adecvată pentru perioade viitoare dacă dispar împrejurările agravante care justificau prima mai mare. Nu conferă automat eliminarea întregii ramuri de apă.
+§68 VersVG: lipsa/dispariția interesului asigurat, de analizat pe fapte pentru pierderea chiriei și spațiile de înlocuire; lipsa temporară a chiriașilor nu dovedește singură aplicabilitatea.
+
+SURSE
+Polița originală 2026.06.03: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf, p.3–6; hash SHA-256 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd, identic verificării precedente.
+Analiza 2026.10.14 01 Incetarea politei Donau.txt, secțiunea 7; originalul istoric și clauzele 1242K/3031K verificate în etapa precedentă.
+RIS verificat la 2026.10.14: https://ris.bka.gv.at/eli/bgbl/1959/2/P41a/NOR12026460 și https://www.ris.bka.gv.at/eli/bgbl/1959/2/P68/NOR12037686
+Ultimul răspuns arhivat: 2026.10.06, primit, Eva-Mail ID 2c273256-a0bf-408b-bb22-09718372e888. Nu s-au preluat mesaje noi. Exporturile cu expeditor/destinatari/CC și anexele rămân în dosarul 2026.10.14 Situatie Donau.
+Documentul actual nu este email; expeditor, destinatari, CC și ID Eva-Mail propriu: neaplicabil.

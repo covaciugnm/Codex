@@ -1,0 +1,23 @@
+{
+  "id": "01a1350e-ddef-7d50-b018-ef8c241c8daf",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\Dep. Resurse Umane\\CesiroSighi",
+  "created_at": 1791891529,
+  "updated_at": 1791900956,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Redenumește fișierele angajaților",
+  "project_id": "e3898c8c-1e2e-422a-a23f-35ea1ed61beb",
+  "project": "CesiroSighi",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 21208927,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 209,
+  "message_count": 53,
+  "content_sha256": "5bbb2bff68cf53db045f0a74ff0b6cd9411badb5ef5526d7ee3b923b75b43eb6",
+  "files_copied": 78,
+  "references_not_copied": 7
+}

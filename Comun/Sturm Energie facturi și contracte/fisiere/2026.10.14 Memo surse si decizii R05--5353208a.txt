@@ -1,0 +1,49 @@
+2026.10.14 — MEMO REDACTARE R05 (Solicitare justificare contractuala STURM ENERGIE GmbH)
+Statut: draft local NETRIMIS. Nu s-a creat draft Eva-Mail. Nu s-a trimis nimic.
+Baza: R04 (audit R03 9/10 + 4 remedieri minore) + 3 completari cerute de client/coordonator. Textul R04 e preluat integral; modificarile sunt doar cele din tabelul de la pct. 1.
+Fisier scrisoare: D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\06. Utilitati\UTILITATI Curent - Sturm Energie\2026.10.14 Solicitare justificare contractuala STURM\Redactare\2026.10.14 Solicitare STURM DE R05 NETRIMIS.txt
+
+1. TABEL MODIFICARI R04 → R05
+
+Nr. | Loc | Modificare | Sursa / motiv
+----|-----|------------|---------------
+1 | II.4 (NOU) | Argument UID / Leistungsempfänger: o factura trebuie sa indice numele si adresa Empfänger-ului (§ 11 Abs. 1 Z 3 lit. b UStG 1994); facturile adresate A&C poarta UID ATU76175979, UID-ul A&C e ATU83086125; STURM a desemnat astfel ea insasi fosta partenera ca Leistungsempfängerin; readresarea „p.a. A&C” nu schimba Leistungsempfänger-ul si nu face din A&C debitoare. NU se cere re-emiterea facturilor pe numele A&C. Regula UID-ului Leistungsempfänger-ului pentru facturi > 10.000 EUR (tot lit. b) exista, dar NU a fost mentionata in scrisoare: facturile in cauza sunt sub prag, iar mentionarea ar fi sugerat ca UID-ul de pe factura e o obligatie legala neindeplinita, nu un fapt care tradeaza pozitia STURM. | Concluzie verificare contract STURM.txt (UID ATU76175979 pe facturi, inclusiv duplicatul 29708/10/2026 adresat A&C); date mandanta (UID ATU83086125). Norma verificata in RIS (pct. 3).
+2 | II.4–II.7 vechi → II.5–II.8 | Renumerotare. Continut neschimbat. Trimiterea interna „siehe IV.3” (I.6) neschimbata (IV nu s-a modificat). | —
+3 | III.3 (extins) | Titlu „Behauptete Vertrags- oder Schuldübernahme; Beendigung der Altverträge”. Adaugat: (i) Kündigungserklärungen/-bestätigungen catre fosta partenera, per Anlage, cu data, motiv, data efectului; (ii) confirmarea ca toate consumurile pana la Lieferende (18.03.2026 / 08.04.2026) au fost facturate pe contractele fostei partenere si nicio facturare nu s-a facut pe un contract A&C. Formulat fara data 20.02.2026 (evitata deja la audit R02 rem. 5) — referinta e Lieferende, data comunicata de STURM. | STURM 17.06.2026 (Kündigung Leerstände eingereicht zum 18.03.2026; „sämtliche Verträge ... aufgekündigt”); Anlagenliste 16.06.2026 (Lieferende); facturi cu UID vechi pe perioade pana la 08.04.2026.
+4 | III.4 (extins) | Titlu „Negativerklärung und Rücknahme”. Adaugat: stornarea/retragerea tuturor Rechnungen, Duplikate, Zahlungserinnerungen, Mahnungen adresate A&C + confirmare scrisa. (Coerent cu II.4: nu re-emitere, ci retragere.) | Cerere coordonator pct. 1.
+5 | III.7 (NOU) „Stammdaten aus Ihrem System” | Pentru fiecare din cele 21 Anlagen si fiecare Kundennummer, extras din sistemul STURM cu (a) Vertragspartner inregistrat (nume, adresa, UID, FN) la data facturarii si azi; (b) Rechnungsempfänger + Rechnungsanschrift cu istoricul modificarilor (data, vechi/nou, cine a dispus — Hofhans/CERHA HEMPEL/A&C/STURM intern — document-sursa); (c) existenta Vertragsnummer / Vertragsübernahme / Neuanmeldung pe numele A&C, cu data si document; (d) datele schimbate cu Wiener Netze per Zählpunkt (Lieferende, Abmeldung, Lieferantenwechsel); (e) Zahlungsreferenz/IBAN/SEPA-Mandate + confirmarea ca nu exista SEPA-Mandat A&C (formularul SEPA din 24.09.2026 nesemnat); (f) corespondenta interna/externa (ticket, data, expeditor) pe baza careia s-au adresat facturi A&C. | Cerere coordonator pct. 2. Faptul „SEPA-Formular nesemnat”: Concluzie verificare contract STURM.txt (pachet 24.09.2026 retransmis 01.10.2026, formular SEPA necompletat, fara semnatura A&C). Mentiunea Wiener Netze: STURM 17.06.2026 (Datenhoheit la Netzbetreiber).
+6 | III.7 vechi → III.8 (Korrespondenzadresse); III.8 vechi → III.9 (Aussetzung) | Renumerotare. | —
+7 | III.9 (extins) | Adaugat: confirmarea ca pana acum NU s-au transmis date A&C la Inkassounternehmen, Kreditschutzverbände sau Auskunfteien; in caz contrar: destinatar, data, continut + Widerruf imediat. Formulare generica („Kreditschutzverbände”), fara a numi KSV1870 — nu avem indiciu ca s-ar fi facut o raportare; cererea e defensibila ca masura preventiva. | Cerere coordonator pct. 3. STURM 13.10.2026 (Mahnungen, termen 19.10.2026) justifica riscul.
+8 | Trimiteri interne actualizate | III.9: „Punkt III.1 bis III.7 angeforderten Unterlagen und Erklärungen” (era III.1–III.6; noul III.7 e inclus, III.8 adresa exclusa). V: „Punkt III.9” (era III.8) si „Punkte III.1 bis III.8” (era III.1–III.7). Beilage 1 antet: „Punkte III.1, III.2, III.4 und III.7” (adaugat III.7). Beilage 2 antet: „Punkte III.1 bis III.7” (era III.1–III.6). | —
+9 | Neschimbate | Antet, Betreff, I (integral), II.1–II.3, III.1, III.2, III.5, III.6, III.8 (continut), IV (integral), semnatura cu placeholder telefon, Beilage 1 tabel (21 randuri, 3 coloane de completat), Beilage 2 tabel. | —
+
+Elemente luate in considerare dar NEADAUGATE (nesustinute documentar sau riscante):
+- Hauptsicherung ausgebaut / cladire „stromlos” (email Kornhofer/CP 19.03.2026): neconfirmat in dosar — exclus (decizie anterioara).
+- Afirmatie ca A&C nu a consumat energie: nu avem Zählerstände proprii — in loc, III.3 cere confirmarea facturarii pe contractele vechi.
+- Numirea KSV1870: fara indiciu de raportare — formulare generica.
+- Cerere de daune / costuri proprii: fara temei cuantificat — exclus.
+
+2. TRIMITERI INTERNE (harta finala R05)
+I.6 → IV.3 | III.1 → Beilage 1 | III.7 → Beilage 1 | III.9 → III.1–III.7 | V → III.9; III.1–III.8 | Beilage 1 → III.1, III.2, III.4, III.7 | Beilage 2 → III.1–III.7.
+
+3. NORME CITATE SI VERIFICARE RIS
+- § 11 Abs. 1 Z 3 lit. b UStG 1994 (NOU) — verificat in RIS la 14.10.2026: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&Paragraf=11 . Text lit. b: „den Namen und die Anschrift des Abnehmers der Lieferung oder des Empfängers der sonstigen Leistung”; aceeasi litera contine regula UID-ului Leistungsempfänger-ului pentru facturi cu Gesamtbetrag > 10.000 EUR (leistender Unternehmer im Inland, Umsatz an einen anderen Unternehmer) — corecta, dar neinvocata (facturi sub prag). Lit. a = Name/Anschrift des leistenden Unternehmers; lit. i = UID-ul furnizorului.
+- ABGB §§ 859, 861, 862, 863, 1405, 1406, 1333 Abs. 1 und 2, 1431 — neschimbate (verificate in RIS la auditul R02).
+- Necitate deliberat: § 1404, § 1409, § 1432 ABGB; § 458 UGB; ElWOG 2010 / GWG 2011 (numere de paragraf neverificate); KSchG (GmbH).
+
+4. FAPTE SI SURSE (completari fata de R04)
+- UID ATU76175979 pe facturile readresate A&C; duplicat 29708/10/2026 „p.a. A&C”: 2026.10.14 Identificatori si dovada contract\2026.10.14 Concluzie verificare contract STURM.txt
+- Formular SEPA nesemnat in pachetul 24.09.2026 (retransmis 01.10.2026): aceeasi sursa, sectiunea DOVEZI (08. Corespondenta\2026.10.05 Actualizare comunicari\2026.10.05 Atasamente\2026.10.05 75af73b7 Schreiben von Sturm Energie_A&C Wohnart.pdf).
+- Kündigung Leerstände zum 18.03.2026, Wiener Netze Datenhoheit: 2026.10.14 Situatie STURM\Surse\2026.06.17 f51d3f00.txt
+- Lieferende 18.03.2026 / 08.04.2026: Anlagenliste_Schallergasse_35_16.06.2026.pdf (via Concluzie).
+- Restul surselor: identice cu Memo R03/R04.
+
+5. LUNGIME
+Text inainte de anexe 1.829 cuvinte, numarat (R04: cca. 1.600) ≈ 3,2 pagini A4 la font 11 — sub limita de 3,5 pagini. Anexele neschimbate.
+
+6. VERIFICARI PRE-EXPEDIERE (neschimbate fata de R04)
+- Telefon: completeaza sau sterge „[vor Versand ergänzen]”.
+- Termene: 16.10.2026 presupune expediere 14.10.2026; la expediere 15.10 → „17.10.2026, 12:00 Uhr”. 28.10.2026 ramane.
+- Plata 115,36 EUR: confirma cu persoana care a platit descrierea neutra din IV.3.
+- Übergabestichtag: optional, data exacta din Kaufvertrag 405/2026 in III.3.
+- Diacritice (UTF-8 fara BOM), semnatura GF, antet PDF, trimitere la ambele adrese STURM cu ticketele 365759 si 365740 in subiect.

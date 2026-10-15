@@ -1,0 +1,114 @@
+2026.10.07 | PUNCT DE VEDERE JURIDIC DOCUMENTAR
+DONAU – polita 2044001194 / cadrul 2900010498 / Commerz 2616052
+Beneficiar: A&C Wohnart Immobilien GmbH; Schallergasse 35, 1120 Wien
+
+CONCLUZIA PENTRU DECIZIE
+
+Solicitarea corecta este incetarea prin acord la 2027.01.01, alternativ 2027.01.08, plus notificare subsidiara la prima data legal/contractual permisa. Nici implinirea a trei luni, nici plata restantelor nu produc singure incetarea. Cele doua date sunt propuneri, nu date de incetare confirmate.
+
+Lipsa actuala a obligatiei asiguratorului de a despagubi nu stinge automat contractul si primele. Argumentul „nu am acoperire, deci nu datorez nimic” este insuficient. In schimb, trebuie verificate conditiile concrete ale §39 VersVG, alocarea platilor, decontul si temeiul duratei pana in 2036. Nu se considera ca toate sumele cerute sunt acceptate sau ca refuzul DONAU este juridic validat.
+
+1. DOCUMENTELE CARE SCHIMBA EVALUAREA
+
+Polita din 2026.06.03, p.1, indica modificare pentru schimbarea proprietarului de la 2026.05.28, expirare 2036.01.01, ora 00:00, si scadenta principala anuala 01.01. Pagina 7 leaga preavizul de trei luni de expirarea duratei contractuale, nu de orice zi aleasa de asigurat.
+
+Polita vechiului proprietar din 2026.02.03, p.1, are deja inceputul modificarii 2026.01.01 si aceeasi expirare 2036.01.01; este intitulata Ersatzvertrag. Prin urmare, nu este demonstrat ca termenul pana in 2036 a fost adaugat abia la transferul catre A&C. Trebuie solicitate cererea, acceptarea, mandatul si conditiile complete care au fundamentat durata initiala.
+
+Raspunsul Cornelia Loschy primit la 2026.10.06 refuza incetarea, invoca 2036.01.01 si declara lipsa actuala a acoperirii din cauza primelor restante. Acest raspuns nu furnizeaza data exacta a inceperii lipsei acoperirii sau o confirmare a reactivarii la plata.
+
+Originalele relevante au fost deschise, comparate cu indexul si verificate vizual: polita curenta p.1 si 7; polita istorica p.1 si 12. Nu este necesara recitirea intregii arhive.
+
+2. ESTE SUFICIENT UN PREAVIZ DE TREI LUNI?
+
+Nu, singur nu este suficient. §8 alin.2 VersVG reglementeaza contractele pe durata nedeterminata si incetarea la sfarsitul perioadei de asigurare. El nu transforma automat un contract cu durata determinata pana in 2036 intr-un contract reziliabil oricand dupa trei luni.
+
+§8 alin.3 permite anumite incetari pentru consumatori dupa trei ani, cu preaviz de o luna. Nu poate fi invocat automat pentru aceasta operatiune comerciala a unei GmbH. Chiar daca s-ar demonstra statutul de consumator, nu ar rezulta o incetare dupa numai primul an. Sunt distincte durata contractului, perioada de asigurare si ratele trimestriale.
+
+O notificare noua din 2026.10.07 lasa mai putin de trei luni pana la 2027.01.01. Pana la 2027.01.08 exista calendaristic mai mult de trei luni daca notificarea ajunge suficient de devreme, dar acea zi nu devine automat termen contractual admis. Notificarea ramasa draft nu produce un preaviz comunicat. Data primirii notificarii din 2026.10.01 si efectele ei trebuie evaluate separat.
+
+Consecinta: cererea propune acordul pentru ambele date si pastreaza notificarea din 2026.10.01, cu notificare subsidiara la primul termen permis. Nu recunoaste ca 2036 este incontestabil si nici nu afirma ca incetarea in ianuarie 2027 este deja un drept demonstrat. [S1]
+
+3. TRANSFERUL PROPRIETATII SI EVENTUALE DREPTURI ANTERIOARE
+
+§69 VersVG prevede preluarea drepturilor si obligatiilor de catre cumparator. Lipsa unei semnaturi noi A&C nu elimina singura obligatia de prima. [S2]
+
+§70 alin.2 ofera cumparatorului un drept special de incetare, in principiu exercitabil intr-o luna de la dobandire sau de la cunoasterea asigurarii daca aceasta nu era cunoscuta. Arhiva arata comunicari privind polita in primavara/vara 2026; o noua cerere din octombrie nu poate fi prezentata ca demonstrat tempestiva. Trebuie verificate momentul dobandirii/cunoasterii si orice notificare efectiva anterioara, inclusiv prin vanzator sau administrator. Rezervarea drepturilor nu echivaleaza singura cu exercitarea lor. [S3]
+
+4. DE CE POT FI CERUTE PRIME FARA ACOPERIRE ACTUALA?
+
+§39 VersVG permite, pentru o prima ulterioara neachitata, o somatie scrisa calificata cu minimum doua saptamani si avertizarea consecintelor. Refuzul despagubirii depinde de conditiile legale concrete, inclusiv comunicarea somatiei si situatia neplatii la eveniment; nu rezulta exclusiv din existenta unei datorii.
+
+Exista local somatia din 2026.06.05 cu avertizare. Nu poate fi sustinut ca nu exista nicio somatie. Trebuie cerute exemplarul invocat, dovada primirii, data expirarii termenului si justificarea aplicarii. Sunt distincte contractul in vigoare, lipsa obligatiei de despagubire si incetarea efectiva. [S4]
+
+OGH, 3 Ob 722/54, explica faptul ca durata contractului si durata raspunderii asiguratorului nu coincid necesar: obligatia de prima poate continua cand obligatia de despagubire este suspendata. Hotararea nu valideaza automat somatiile din acest dosar; ea subliniaza si necesitatea verificarii comunicarii si continutului. [S5]
+
+Prin urmare, nu este prudent sa se refuze integral suma numai ca „serviciu neefectuat”. Cererea obliga DONAU sa precizeze perioadele, ramurile, temeiul si efectul concret al platii, fara acceptarea generala a soldului.
+
+5. DACA PLATIM, CE SE INTAMPLA CU ASIGURAREA?
+
+Daca raportul contractual exista in continuare si neplata primelor este singurul impediment, plata restantelor poate inlatura impedimentul pentru evenimente viitoare. Trebuie confirmate suma exacta, destinatarul, imputarea pe prime si data/ora acoperirii. Nu se presupune acoperire retroactiva pentru evenimente din intervalul anterior.
+
+Daca asiguratorul a si reziliat potrivit §39 alin.3, exista un regim distinct de inlaturare a efectelor rezilierii prin plata in termenul legal de o luna, sub conditiile textului. Nu se poate promite reactivarea prin orice plata, indiferent cat de tarziu este facuta.
+
+§39 alin.4 precizeaza ca neplata numai a dobanzilor/costurilor nu declanseaza consecintele alin.1–3. Plata trebuie insa alocata clar; o suma virata generic nu se presupune automat imputata exclusiv primelor. Se cere confirmare scrisa inaintea deciziei de plata. Nu s-a efectuat o plata. [S4]
+
+6. TOATE SUMELE PANA LA DATELE PROPUSE
+
+Soldul istoric comunicat la 2026.09.30 este 5.326,15 EUR:
+- prime Q2, Q3 si Q4: 4.775,43 EUR = 3 x 1.591,81 EUR;
+- costuri creditor: 30,00 EUR;
+- costuri Inkasso: 501,58 EUR;
+- dobanda indicata atunci: 19,14 EUR.
+Q4 pana la 2027.01.01 este deja cuprins. Acesta nu este un sold actual certificat si nu dovedeste oprirea dobanzilor.
+
+Se cer situatia la zi si doua deconturi distincte pentru 2027.01.01 si 2027.01.08, cu fiecare perioada, scadenta, impozit, plata, credit, dobanda, cost si reducere. Pentru al doilea scenariu nu se inventeaza suma pentru zilele suplimentare: DONAU trebuie sa arate formula si baza.
+
+§40 VersVG prevede, ca regula, prima aferenta duratei scurse la incetare anticipata efectiva, cu exceptiile si posibilitatea unei penalitati contractuale prevazute de text. Nu se opresc unilateral primele la data doar solicitata. [S1]
+
+7. RISC SEPARAT: KLAUSEL 1000K — LAUFZEITVORTEIL
+
+Polita istorica p.12 contine o clauza de prima suplimentara la incetarea anticipata: inainte de doi ani, 80% din prima anuala, apoi procente descrescatoare. Polita curenta include 1000K intre clauzele contractuale.
+
+Nu s-a stabilit ca o asemenea suma este valabil datorata de A&C. Trebuie verificate incorporarea clauzei, inceputul contractual relevant, ipoteza concreta de incetare, baza de calcul si validitatea. Nu o adaugam automat la 5.326,15 EUR si nu acceptam anticipat o astfel de datorie.
+
+Emailul cere explicarea separata a oricarei asemenea sume si renuntarea expresa la ea ca parte a acordului de incetare. Nu presupune ca renuntarea este deja acordata.
+
+8. REDUCEREA POLITEI SI PASII URMATORI
+
+§41a VersVG poate fundamenta o reducere adecvata pentru perioade viitoare cand dispar imprejurarile de risc relevante. Nu confirma automat o reducere retroactiva la 2026.07.01. Raspunsul Pfeiffer din 2026.07.14 cere autorizatia, descrierea lucrarilor si confirmarea instalatorului; acestea nu sunt anexate sau declarate ca deja furnizate prin noua cerere. [S1]
+
+Ciorna germana solicita:
+- acord de incetare la 2027.01.01, alternativ 2027.01.08;
+- temeiul duratei pana in 2036 si primul termen de incetare permis;
+- ambele deconturi, fara dublarea Q4;
+- dovada somatiei si suma/datele exacte pentru restabilirea acoperirii;
+- delimitarea primelor de accesorii si renuntarea la costul de incetare;
+- raspuns pana la 2026.10.09, 12:00 Viena / 13:00 Romania.
+Termenul este cerut, nu acceptat. Termenul Commerz 2026.10.12 nu este suspendat prin aceasta cerere.
+
+Status: DRAFT NETRIMIS in Eva-Mail, ID aa653a96-7eee-4133-a41d-5892ea79788d. Catre Loschy si DONAU; CC Maritczak si Gruber; Capra nu este in CC. Nu s-a trimis emailul, nu s-a semnat acord si nu s-a efectuat plata. Instrumentul Eva-Mail salveaza draftul; trimiterea se face din Eva-Mail.
+
+Aceasta este o evaluare documentara pentru formularea cererii. Validitatea obligatiilor si strategia de regularizare trebuie verificate de Capra pe dosarul complet, in special privind acoperirea, dreptul de incetare si clauza 1000K.
+
+SURSE JURIDICE OFICIALE — CONSULTATE LA 2026.10.07
+
+[S1] RIS, VersVG, forma curenta, §§8, 9, 40, 41a:
+https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979
+[S2] RIS, §69 VersVG:
+https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489
+[S3] RIS, §70 VersVG:
+https://www.ris.bka.gv.at/eli/bgbl/1959/2/P70/NOR12037688
+[S4] RIS, §39 VersVG:
+https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39
+[S5] OGH 3 Ob 722/54, hotarare din 1954.11.17:
+https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf
+
+SURSE DOCUMENTARE
+
+05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf — p.1, 6, 7.
+05. Asigurari/Asigurare cladire/Schalle_1080_DON_SHU_2044001194_2939905718.pdf — p.1, 12.
+10. Banci + Extrase de cont/Facturi neachitate/02 - 2026-06-05 DONAU Polizze 2044001194 Praemie Quartal 1.591,81 EUR (Q4 faellig 01.10.2026) - IBAN AT67 2011 1403 1004 1414 Ref 002044001194.pdf — somatia din 2026.06.05; numele local nu stabileste singur perioada datoriei.
+08. Corespondenta/2026.09.30 Raspuns Commerz - analiza Donau 2616052/2026.09.30 Analiza juridica Donau.txt — reconcilierea istorica a sumei si sursele ei.
+08. Corespondenta/2026.10.07 Verificare zilnica/2026.10.07 PRIMIT DONAU 2c273256.txt — raspunsul curent al asiguratorului.
+Confirmare utilizator in acest chat: data alternativa dorita este 2027.01.08, nu 2026.01.08.
+

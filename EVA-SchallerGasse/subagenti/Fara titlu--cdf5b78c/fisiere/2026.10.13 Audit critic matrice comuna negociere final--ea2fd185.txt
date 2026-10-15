@@ -1,0 +1,69 @@
+2026.10.13 — Audit critic independent al matricei comune de negociere
+Rol: auditor juridic AI independent. Notă separată de contractele R05.
+
+VERDICT
+PASS pentru coerența juridică și operațională a bazei comune RO de negociere, pe versiunea efectivă identificată mai jos. Scopul mai amplu propus de AG este o poziție legitimă de negociere; diferențele economice și eventualele contrapropuneri se confirmă în scris. Verdictul nu este o acceptare a prestatorilor și nu transformă documentele în contracte finalizate. Nu se acordă o notă forțată de 10/10.
+
+VERSIUNI EFECTIVE
+Matrice: 2026.10.13 Cerinte comune negociere matrice.json
+SHA-256: 8ad0abd035fb0a55ae18052f621bdd24ebe42b63968bf7fbec9c4effb69f2154
+Material de referință: 2026.10.13 Obiectii negociere reformulate.json, N01.3
+SHA-256: 13c996c46fadb2c523191565e2f487a4cde7a797a4ebc7ea74221cac9816d902
+Surse în 00.Proiect/09. Vertraege/2026.10.13 Reorganizare juridica si audit.
+
+ACOPERIRE EXACTĂ
+Au fost citite toate cele 100 de criterii comune, în intervalele N001–N015, N016–N055 și N056–N100. Cerințele au fost comparate cu cele 16 puncte P01–P16, cele 7 repere E1–E7 din N01.3 și diferențele/rezumatele R05 relevante.
+Toate ID-urile N001–N100 sunt prezente o singură dată. Ordinea finală mută administrativul la sfârșit; nu există ID lipsă. Cele 7 repere sunt identice integral cu N01.3.
+Matricea păstrează trasabilitatea declarată pentru 60 de teme și 401 componente R05. În această etapă nu s-a reluat de la zero auditul juridic al fiecărui citat sau lectura întregii arhive originale înghețate. Citatele originale/R05 rămân distincte de cerința comună nouă.
+Textul DE comun automat a fost eliminat. Nu declar o traducere DE comună verificată a celor 100 de cerințe RO. Citatele germane sunt surse; formulările DE ale celor 16 puncte N01.3 sunt material separat.
+
+ÎNCHIDEREA PRECIZĂRILOR
+1. N001/N003/N004: eliminat textul DE comun care reutiliza prețul, identitatea și oferta BERGER; acestea rămân date/citate ale prestatorului, fără impunerea prețului BERGER la PECH.
+2. N013: nodurile și ancorele se livrează la etapa elementului relevant — D2 fundație/lift/sprijiniri, D3 existent/goluri, D4 mansardă, D5 balcoane/rest — înainte de fabricație și execuție.
+3. N014 și E5: propriul set rămâne complet la termen; planurile de atelier primite ulterior se verifică în pachet înainte de fabricație, în termenul obișnuit ori la termen concret anunțat motivat pentru complexitate. Primirea tardivă singură nu produce supliment și nu amână propriile noduri/ancorări.
+4. N020: referința suplimentelor este N036–N040, cu N042 pentru prima vizită.
+5. N027: autorul și Erstprüfer sunt roluri nominalizate; nu se atribuie legii o interdicție generică a aceleiași persoane ori o regulă despre doi autori.
+6. N032: integrarea endbefunde este în 5 zile LUCRĂTOARE, înainte de Anzeige; termenul legal anterior prevalează.
+7. N037/N038: plata după comandă și efectuare este facturarea curentă; decontul justificat la împiedicare/încetare rămâne distinct. Nu se promite anulare gratuită a unei opțiuni deja comandate împotriva § 1168.
+8. N068/N069/N070: facturarea curentă și PI efectiv prestat sunt separate expres de împiedicările N054/N086 și decontul N088. Nu se facturează PI neprestat ca simplă planificare, fără a exclude prin aceasta decontul legal justificat.
+9. N070: documentele/verificările profesionale obișnuite și dosarul final sunt incluse; deplasările fizice urmează N034–N040, fără absorbirea opțiunilor 13–18 sub o includere generică PI.
+10. N073: dobânda și costurile urmează legea aplicabilă, fără condiție globală de întârziere culpabilă pentru toate sumele. §§ 456/458 UGB au fost recitite din surse primare RIS.
+11. N075: eliberarea banilor înlocuiți prin garanție este în 10 zile LUCRĂTOARE, cu verificare și fără dublă siguranță.
+12. N079: recepția părților la încetare trimite la N090, întârzierea culpabilă AG la N080.
+13. N088: formula § 1168 distinge economiile, venitul alternativ EFECTIV realizat și cel omis INTENȚIONAT; nu deduce orice oportunitate ipotetică și nici timpul propriu neprestat automat ca economie monetară.
+
+DELTA FINALĂ D01/D02 ȘI N034/N036
+Au fost reverificate cele două poziții comune D01/D02 și propagarea lor exactă în N034/N036.pozitie_negociere și în celulele publice. Propagarea este concordantă la hashul final.
+Regula este aceeași pentru ambii:
+- inspecția profesională inițială T0 pentru baze/BWB este inclusă separat și nu consumă cele 12 vizite fizice B0;
+- startul și coordonarea digitală nu consumă vizită;
+- prima vizită fizică B0 este Untergrund/Fundierung, numărată o dată în cele 12;
+- până la 6 vizite fizice suplimentare reale se comandă/aprobă individual și se remunerează la tariful propriu, inclusiv dacă îndeplinesc PI;
+- alocarea de 10.000 EUR PI BERGER nu introduce o regulă alternativă de numărare/tarif;
+- documentele normale, propriile corecturi și prestația deja remunerată nu se facturează din nou;
+- decontul legal justificat la împiedicare/încetare rămâne distinct.
+Inspecția inițială T0 este coerent separată în N034/N035/N044. Planul B0 nu plafonează controalele obligatorii. Nu se presupune efectuarea unei inspecții ori siguranța unei lucrări din existența unui calendar.
+
+COERENȚA NOII BAZE
+Scopul structural, livrabilele, 18 luni de la B0 distinct de T0, D1–D5, PI/dosarul ZT/BWB și drepturile de folosire sunt cerințe comune. E1–E7 leagă aceleași probe de facturare; sumele și alocările interne rămân economice și distincte.
+Plata 30 de zile calendaristice, verificarea 10 zile lucrătoare, retenția 5% net, garanția substitutivă și garanția contractuală de 3 ani sunt comune, cu repere determinate și drepturile legale distincte păstrate.
+Penalitatea N081 este propunere AG comună: 0,1% din netul etapei afectate/zi lucrătoare de întârziere culpabilă, plafon 5% din totalul net. Rezultă BERGER 2.250 EUR și PECH 3.465 EUR; moderarea legală și evitarea dublei despăgubiri rămân. Nu este termen acceptat anterior de prestatori.
+§ 1170b aplicabil și limitele de insolvență sunt păstrate. § 1168 este referință precisă de decont, fără etichetarea întregii norme drept nederogabilă. Nu se uniformizează împotriva drepturilor imperative.
+Asigurarea N084/A03 rămâne un punct administrativ secundar, fără prag numeric AG nou ori multiplicare anuală. Răspunderea N085 este distinctă de limita poliței. Calificările/datele se probează pe funcție; nu se presupune același regim legal ori aceeași identitate profesională.
+
+SURSE PRIMARE PENTRU PRECIZĂRILE NOI
+§ 1168 ABGB: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168/NOR12018908
+§ 1170b ABGB: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1170b/NOR40070129
+§ 1336 ABGB: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622&Paragraf=1336
+§ 456 UGB: https://www.ris.bka.gv.at/eli/drgbl/1897/219/P456/NOR40148644
+§ 458 UGB: https://www.ris.bka.gv.at/eli/drgbl/1897/219/P458/NOR40148646
+Celelalte norme/cazuri și probe sunt cele documentate în auditurile și N01.3 anterioare; nu se declară o reverificare live a registrelor profesionale/asigurătorilor ori o căutare generală EVA nouă.
+
+R05 NEMODIFICATE
+BERGER JSON SHA-256: fa98c77f34a4775b40d75a54731294d404e9b8e09140eda5e40597c435a2307b
+PECH JSON SHA-256: 61976fa684150acd5b862a134d974d60425034943453eeceaef739fbc3ab166a
+Aceste două hash-uri au fost reverificate. Noul material nu rescrie originalele/R05 și nu le prezintă drept texte comune deja acceptate.
+
+LIMITE ȘI FOLOSIRE
+Nu rămâne o discrepanță substanțială identificată în noua bază comună RO după precizările închise. Răspunsurile pe criterii, disponibilitatea, persoanele și eventualele contrapropuneri se obțin înainte de acord; sunt pași ai negocierii.
+Nota privește semantica JSON-ului final, nu randarea ulterioară Word/PDF. Concordanța publicațiilor și QA vizual se efectuează separat. Nu se declară trimitere, semnare, comandă, plată ori acceptare nouă.

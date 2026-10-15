@@ -1,0 +1,1699 @@
+{
+  "data": "2026.10.13",
+  "titlu": "Obiectii negociere reformulate",
+  "versiune": "N01.3 — corecție editorială de referință internă P02 către P07; fond N01.2 păstrat",
+  "rol": "Auditor juridic independent AI; analiză și propuneri separate, fără atribuire unui avocat",
+  "statut_negociere": "NETRIMIS / NESEMNAT. R05 este o bază de negociere, nu un contract finalizat; fișierele R05 nu sunt modificate.",
+  "principii_comune": [
+    "Aceleași cerințe de scop, livrabile, termene, drepturi și clauze pentru BERGER și PECH; diferențele de preț și de alocare economică sunt explicite.",
+    "Scopul mai amplu propus de AG este o opțiune de negociere legitimă, nu un defect în sine. Obiecțiile de mai jos sunt ipoteze motivate din surse, nu răspunsuri primite de la prestatori.",
+    "«Ferm AG» desemnează poziția actuală de negociere, nu o obligație deja acceptată de prestatori. «Imperativ legal» este distinct de această preferință.",
+    "Când AG adoptă o schimbare de scop ori calendar, noul reper comun se aplică ambilor; contrapropunerea unui ofertant nu se transformă automat în standardul celuilalt.",
+    "Fără excluderi tacite, fără suplimente vagi și fără renunțare împotriva drepturilor imperative. § 1168 este păstrat ca referință legală de decont, fără a eticheta orice parte drept nederogabilă.",
+    "Asigurarea apare într-un singur punct administrativ secundar; nu se propun sume sau multiplicări anuale noi."
+  ],
+  "puncte_negociere": [
+    {
+      "id": "P01",
+      "tema": "Același pachet complet de proiectare pentru ambii",
+      "provenienta_30": [
+        "C01",
+        "C18",
+        "J01"
+      ],
+      "de_ce_ar_obiecta": "BERGER a calculat discountul pentru conceptul inițial și a exclus calculul excavației; ambii pot considera detalierea și noul pachet mai costisitoare decât baza ofertată.",
+      "evaluare_echilibrata": "Este un răspuns comercial plauzibil, nu dovada că AG greșește propunând același scop. Scopul propus poate fi acceptat sau ofertat la alt preț; oferta veche nu decide singură termenii viitori.",
+      "pozitie_comuna_AG": "Același Leistungsblatt, inclusiv calcul, fundații/lift, goluri, consolidări, lemn/oțel, noduri/ancorări, sprijiniri temporare, planuri și liste, verificarea planurilor de atelier și as-built. Execuția fizică, BauKG și managementul general nu fac parte din acest pachet.",
+      "ferm_AG": "Scopul, livrabilele și criteriile de completitudine sunt comune; nu acceptăm o reducere tacită a unei ramuri numai pentru un ofertant.",
+      "imperativ_legal": "Persoana competentă rămâne răspunzătoare pentru propriul calcul și avertizarea privind baze necorespunzătoare; nu se certifică tehnic un concept înainte de verificare.",
+      "negociabil_economic": "Prețul total, repartizarea pe poziții și costul unei schimbări reale de concept ulterioare definirii bazei. Contrapropunerea trebuie să păstreze scopul sau să identifice separat fiecare abatere.",
+      "raspuns_scris_cerut": "Confirmare pentru fiecare rând al Leistungsblatt: inclus în preț / abatere motivată, livrabil concret, specialist responsabil; listă exhaustivă de excluderi și contrapropunere netă, dacă există.",
+      "formulare_comuna_DE": "Für beide Anbieter gilt dasselbe Leistungsblatt einschließlich vollständiger tragwerksbezogener Bemessung, Details, Anschlüsse, temporärer Sicherungen, Ausführungsunterlagen und Bestandsdokumentation. Abweichungen sind je Leistungs-ID ausdrücklich mit Auswirkung und Preis zu benennen; die frühere Kalkulationsgrundlage ersetzt keine Antwort auf den vorgeschlagenen Gesamtumfang.",
+      "referinte_R05": "§§ 2–4, 8, 10–11; Anexa 1 identică; BERGER oferta p. 2–3, PECH p. 2 și referința la cererea AG.",
+      "surse": [
+        "ABGB869",
+        "ABGB1168a",
+        "ABGB914"
+      ]
+    },
+    {
+      "id": "P02",
+      "tema": "PI până la final, dosar ZT și Bauwerksbuch complet",
+      "provenienta_30": [
+        "C04",
+        "C08",
+        "J05"
+      ],
+      "de_ce_ar_obiecta": "BERGER a delimitat PI până la Rohbau și o contribuție § 128; PECH nu a numit expres întregul BWB, cerut și separat ulterior. Niciun prestator nu poate promite semnarea tuturor domeniilor printr-o persoană necompetentă.",
+      "evaluare_echilibrata": "AG poate cere același rezultat complet și un interlocutor care organizează specialiștii. Prestatorul trebuie să precizeze persoanele și prețul, fără a simula o atestare. Referința PECH la Leistungsbeschreibung poate prelua unele componente și trebuie identificată exact.",
+      "pozitie_comuna_AG": "PI pe întreg parcursul necesar, verificări distincte de controlul intern al proiectantului, contribuțiile și ZT eligibil pentru dosarul final complet, BWB pentru întregul existent și noile intervenții, inclusiv anvelopă/geländer/brüstungen. Sunt incluse autorul, Erstprüfer, inspecțiile profesionale și specialiștii previzibili necesari cărții, documentarea, planul de remediere și înregistrarea aplicabilă; colectarea contribuțiilor altor proiectanți nu transformă AN în autorul tuturor specialităților.",
+      "ferm_AG": "Rezultat, organizare și conținut comune, cu persoane nominalizate și livrabile verificabile. Nu înlocuim BWB cu o carte numai pentru mansardă și nu transformăm planul de remediere în obligația de a executa toate reparațiile.",
+      "imperativ_legal": "Calificarea și independența se verifică după funcție; PI, ZT § 128, autor/Erstprüfer BWB și registrul § 128b sunt roluri/obligații distincte. Cumulul proiectant–PI nu este interzis generic. Legea aplicabilă procedurii și tranziția Art. V trebuie stabilite.",
+      "negociabil_economic": "Organizarea prin specialiști/subcontractori aprobați, repartiția honorariului și prețul pachetului complet; costurile previzibile profesionale BWB se includ și se declară în total. Investigațiile fizice autonome sunt delimitate la P07.",
+      "raspuns_scris_cerut": "Tabel cu numele, calificarea, rolul, înlocuitorul, relațiile relevante, disponibilitatea și contribuția fiecărei persoane; confirmarea includerii specialiștilor previzibili, registrului aplicabil și etapelor BWB; indicarea exactă a contribuțiilor cerute AG/terților.",
+      "formulare_comuna_DE": "Der gemeinsame Leistungsumfang umfasst das vollständige Prüfingenieurpaket bis zum erforderlichen Abschluss, die Organisation der geeigneten ZT-Person und des vollständigen Fertigstellungsdossiers sowie das Bauwerksbuch für das gesamte Bestandsgebäude und die neuen Eingriffe. Geeignete Ersteller-, Erstprüfer- und vorhersehbar erforderliche Fachpersonen, fachliche Besichtigungen, Dokumentation und anwendbare Registrierung sind im angegebenen Paketpreis zu berücksichtigen. Physische Reparaturen und gesonderte Untersuchungsleistungen werden dadurch nicht mitbeauftragt.",
+      "referinte_R05": "§§ 5–6, 8, 14; Anexele 1–3/6; BERGER p. 3; PECH Pos. 05–06, referința LB; cerere AG BWB 2026.09.29.",
+      "surse": [
+        "BO127",
+        "BO128",
+        "BO128a",
+        "BO128b",
+        "ZTG12",
+        "ZTG16",
+        "LGBl25ArtV"
+      ]
+    },
+    {
+      "id": "P03",
+      "tema": "12 vizite fizice incluse și până la 6 opționale",
+      "provenienta_30": [
+        "C02",
+        "C10",
+        "J02"
+      ],
+      "de_ce_ar_obiecta": "BERGER poate contesta trecerea de la maximum 8 vizite la 12 și tariful derivat. Ambii pot spune că succesiunea reală necesită mai multe controale decât numărul bugetat.",
+      "evaluare_echilibrata": "Numărul comun și prețul distinct sunt o bază legitimă de negociere. Un tarif nu poate fi transferat din oferta unui prestator în oferta celuilalt. Numărătoarea economică nu plafonează controalele necesare siguranței.",
+      "pozitie_comuna_AG": "12 vizite FIZICE incluse în total, pe același Beschauplan; discuția digitală și simpla coordonare nu consumă o vizită. La aceeași deplasare se numără un singur ID, chiar dacă se verifică mai multe elemente ori sunt îndeplinite funcții PI/statik. Pregătirea, deplasarea, protocolul/befund și postprelucrarea obișnuită sunt în tariful vizitei. Până la 6 vizite fizice reale suplimentare se comandă individual; corectarea propriilor greșeli, documentele normale și prestația deja remunerată nu se taxează din nou.",
+      "ferm_AG": "Aceeași definiție, numărătoare, conținut și procedură pentru ambii; fără comenzi automate, fără dublare PI/statik și fără transformarea lunilor în vizite.",
+      "imperativ_legal": "Nicio limită de vizite nu permite omiterea unui control obligatoriu. Un necesar suplimentar se notifică și se decide sigur, fără a executa lucrări critice neverificate; drepturile legale aplicabile rămân.",
+      "negociabil_economic": "BERGER: propunere AG n × 2.000/12 net, rotunjire cumulativă, maximum 1.000 net pentru 6; PECH: 450 net/vizită, 2.700 net pentru 6, tarif primit. Un alt tarif poate fi contrapropus explicit, pe același conținut. Peste cele 6 se cere preț și decizie distinctă, nu gratuitate nelimitată.",
+      "raspuns_scris_cerut": "Confirmarea celor 12 vizite fizice, conținutului unitar, tarifelor și planului comun; registru cu ID, dată, fază, funcții, livrabil, poziție remunerată, inclus/supliment, comandă și sumă. Clarificați că PI normal documentar este în pachet și care deplasare reală neacoperită declanșează suplimentul.",
+      "formulare_comuna_DE": "Im Grundhonorar sind zwölf physische Ortstermine nach dem gemeinsamen Beschauplan enthalten. Digitale Abstimmungen zählen nicht als Ortstermin. Ein gemeinsamer Termin mit mehreren Bauteilen oder PI-/Statikfunktionen wird nur einmal gezählt und vergütet. Bis zu sechs weitere tatsächliche Ortstermine können einzeln beauftragt werden; der jeweilige Anbieterpreis steht ausschließlich im Preisblatt. Vorbereitung, Reise, Befund und übliche Nachbearbeitung sind umfasst. Bereits vergütete Leistungen, normale Dokumentation und eigene Fehlerkorrekturen lösen keinen neuen Besuchspreis aus. Gesetzlich erforderliche Prüfungen werden nicht durch diese Budgetzahl begrenzt.",
+      "referinte_R05": "§ 5(3), § 7(1)/(4), § 11(1); Anexele 3–4/6 diferă în definiție și acoperirea PI; BERGER original 8/2.000, PECH 12/14.000 și 450 supliment.",
+      "surse": [
+        "BO127",
+        "ABGB869",
+        "ABGB1168"
+      ]
+    },
+    {
+      "id": "P04",
+      "tema": "Vizita Untergrund și PECH Pos. 04/05",
+      "provenienta_30": [
+        "C11",
+        "J03"
+      ],
+      "de_ce_ar_obiecta": "PECH poate arăta că 800 EUR pentru inspecția terenului și 14.000 EUR pentru 12 recepții sunt două poziții distincte cu rezultate diferite.",
+      "evaluare_echilibrata": "Argumentul este întemeiat în ofertă. Nu există dovadă că totalul conține o dublă factură și nu este justificată eliminarea automată a celor 800 EUR. Trebuie însă stabilit ce consumă o vizită în regula comună.",
+      "pozitie_comuna_AG": "Prima inspecție fizică Untergrund/Fundierung este identificată în același plan pentru ambii. O vizită comună se numără o singură dată; Befund geotehnic/Untergrund și verificarea PI pot rămâne livrabile distincte în pozițiile bugetare ale prestatorului. Identificarea lor nu creează o nouă taxă de deplasare.",
+      "ferm_AG": "Numărătoare comună și prestații nominalizate, fără suprataxă doar pentru dubla funcție.",
+      "imperativ_legal": "Se atestă numai ceea ce persoana competentă a verificat efectiv; simpla prezență comună nu înlocuiește două sarcini profesionale diferite.",
+      "negociabil_economic": "Alocarea între cele două poziții PECH este economică și se reconciliază în 69.300 net. Suma de 800 nu se scade automat; alt număr inclus ar necesita o contrapropunere explicită comparabilă.",
+      "raspuns_scris_cerut": "Confirmare nominală: vizita Pos. 04 intră sau nu în cele 12, care sunt cele două Befunde, cine le emite și cum se alocă prețul fără duplicare. Poziția comună AG este să intre în cele 12 vizite fizice, cu ambele livrabile incluse în total.",
+      "formulare_comuna_DE": "Die physische Untergrund-/Fundierungsbesichtigung wird im gemeinsamen Terminregister mit einer ID geführt und auf die zwölf enthaltenen physischen Termine angerechnet. Unterschiedliche Fachbefunde dürfen den ursprünglichen Honorarpositionen zugeordnet werden; derselbe Reise- oder Ortstermin wird nicht ein zweites Mal berechnet. Der Anbieter bezeichnet schriftlich die getrennten Befundinhalte und die wirtschaftliche Zuordnung.",
+      "referinte_R05": "PECH § 7(1), Anexa 3 Termin1 și Anexa4 Pos.04/05A; cererea AG Pos.4/5; R18.",
+      "surse": [
+        "ABGB914",
+        "ABGB915",
+        "BO127"
+      ]
+    },
+    {
+      "id": "P05",
+      "tema": "18 luni B0, planificare T0 și închiderea normală",
+      "provenienta_30": [
+        "C03",
+        "J04"
+      ],
+      "de_ce_ar_obiecta": "BERGER a indicat circa 12 luni; ambii pot teme o perioadă lungă de mobilizare și finalizare, fără o limită determinată de timp.",
+      "evaluare_echilibrata": "Cerința de 18 luni de execuție este o bază comună de negociere, nu o eroare a AG. Ea trebuie legată de B0 real și de o planificare credibilă, fără servicii gratuite perpetue.",
+      "pozitie_comuna_AG": "18 luni calendaristice de la începerea reală a execuției B0, distincte de planificarea T0 anterioară; documentarea și închiderea obișnuită aferente rămân în pachet. Nici semnarea, nici PI-Bestellung nu sunt B0. Înregistrările cu termen legal anterior nu așteaptă sfârșitul celor 18 luni.",
+      "ferm_AG": "Aceeași definiție, orizont și rezultat final; durata nu produce o rată lunară automată, expirare automată a contractului ori prelungirea automată a ofertei.",
+      "imperativ_legal": "Termenele legale aplicabile și continuitatea verificărilor de siguranță au prioritate. Compensația justificată pentru împiedicări ori dreptul legal la siguranță nu sunt eliminate de numărul 18.",
+      "negociabil_economic": "Costul pentru alte servicii reale după orizont, efectul unei suspendări și recalibrarea resurselor, pe notificare concretă. Nu toate depășirile sunt suplimente și nici toate trebuie absorbite fără analiză.",
+      "raspuns_scris_cerut": "B0 estimat, resursele disponibile pe 18 luni, confirmarea planificării T0 și a închiderii incluse, mecanismul de notificare cu 4 săptămâni înainte pentru costuri suplimentare previzibile și lista cauzelor relevante.",
+      "formulare_comuna_DE": "Der gemeinsame Leistungsrahmen umfasst die Planung ab T0, achtzehn Kalendermonate Bauphase ab tatsächlichem B0 und die zugehörigen üblichen Abschlussleistungen. B0 und T0 werden getrennt dokumentiert. Ein Ablauf der achtzehn Monate beendet den Vertrag nicht automatisch. Tatsächliche Änderungen und begründete Behinderungsfolgen werden gesondert, rechtzeitig und nachvollziehbar behandelt.",
+      "referinte_R05": "§ 9(2)/(7), § 11(1), § 15; Anexele 3/6.",
+      "surse": [
+        "ABGB1168",
+        "ABGB1170b",
+        "BO128a"
+      ]
+    },
+    {
+      "id": "P06",
+      "tema": "Calendar și timpi de răspuns identici, cu resurse confirmate",
+      "provenienta_30": [
+        "C07",
+        "C17",
+        "J09"
+      ],
+      "de_ce_ar_obiecta": "Ambii pot spune că termenele D1–D5, disponibilitatea urgentă și răspunsurile curente depășesc resursele ofertate. Cererea AG avea și plafoane pentru RFI/ședințe.",
+      "evaluare_echilibrata": "O cerință comună este necesară pentru comparabilitate. Calendarul trebuie confirmat înainte de atribuire, cu baze și puncte de oprire; nu declarăm întârzieri contractuale înainte de acord/T0.",
+      "pozitie_comuna_AG": "Aceleași D1–D5: propunere comună T0 + 3/6/8/10/12 săptămâni, cu 10 zile lucrătoare pentru verificarea livrabilelor și timp de corectare înainte de execuție. Aceleași verificări profesionale PI ale planurilor și rapoarte de etapă pentru ambii. RFI curent în 2 zile lucrătoare, befunde în 3, urgența de siguranță comunicată imediat; complexitatea reală impune anunț și termen concret. Coordonarea necesară scopului este inclusă; nu există un contor automat ascuns de 20 RFI sau 6/3 ședințe. D5 nu se condiționează de toate viitoarele planuri de atelier ale furnizorilor: propria proiectare rămâne completă la termen; se includ verificările planurilor primite în timp util, iar cele ulterioare sunt verificate în pachet la primire și înainte de fabricație, în 2 zile lucrătoare pentru verificarea obișnuită sau la termen concret anunțat motivat în același interval pentru complexitate.",
+      "ferm_AG": "Aceleași livrabile și termene inițiale, aceeași definiție a răspunsului util și aceleași excepții justificate. Dacă un calendar trebuie schimbat în negociere, se actualizează reperul comun pentru ambii, nu doar o coloană.",
+      "imperativ_legal": "Nu se eliberează pentru execuție o lucrare critică insuficient planificată/verificată; concediul sau lipsa răspunsului nu echivalează cu o atestare. Propria eroare nu produce supliment.",
+      "negociabil_economic": "Dimensionarea echipei și prețul capacității necesare, volume extraordinare produse de schimbări de scop; timpii alternativi se negociază numai ca modificare explicită a bazei comune, nu abatere tacită.",
+      "raspuns_scris_cerut": "Calendar complet acceptat ori contrapropus pe toate cele 5 livrabile, responsabil și înlocuitor; confirmare separată pentru RFI/befund/urgențe, capacitate, numărătoarea ședințelor și verificările PI înainte de execuție.",
+      "formulare_comuna_DE": "Beide Anbieter beantworten denselben Liefer- und Reaktionsplan: D1/D2/D3/D4/D5 ab T0 nach drei/sechs/acht/zehn/zwölf Kalenderwochen, jeweils mit Leistungsprüfung und angemessener Korrektur vor Ausführung. Übliche RFI werden binnen zwei Werktagen, Befunde binnen drei Werktagen bearbeitet; bei nachvollziehbarer Komplexität wird unverzüglich ein konkreter Ersatztermin genannt. Sicherheitsrelevante Warnungen erfolgen sofort. Notwendige normale Koordination und eigene Fehlerkorrekturen sind Teil des Pakets. D5 umfasst die vollständige eigene Tragwerksplanung des AN und die Prüfung rechtzeitig eingegangener Werkstattpläne. Später eingehende Lieferantenpläne werden im Paket vor Fertigung geprüft, bei üblichem Prüfungsumfang binnen zwei Werktagen ab Zugang; bei begründeter Komplexität wird innerhalb derselben Frist ein konkreter Prüftermin mitgeteilt. Der spätere Eingang rechtfertigt weder die Verschiebung eigener Berechnungen, Knoten- und Anschlussdetails noch allein ein Zusatzhonorar.",
+      "referinte_R05": "§ 7(2)/(3), § 9(2)/(6), Anexa3; BERGER D2–D5 determinate, PECH D2–D5 lăsate de confirmat; AG LB [20] RFI/[6] ședințe [3] pe teren, 2/3 zile.",
+      "surse": [
+        "ABGB1168a",
+        "ABGB869",
+        "BO127"
+      ]
+    },
+    {
+      "id": "P07",
+      "tema": "BWB profesional inclus, laborator și lucrări fizice delimitate",
+      "provenienta_30": [
+        "C15"
+      ],
+      "de_ce_ar_obiecta": "Un prestator poate obiecta că proiectarea și BWB nu reprezintă un buget pentru orice foraj, desfacere, test de laborator sau reparare fizică a clădirii.",
+      "evaluare_echilibrata": "Delimitarea este rezonabilă și trebuie aceeași pentru ambii. O carte completă include specialiștii profesionali previzibili și propriile inspecții, însă nu orice intervenție fizică autonomă descoperită ulterior.",
+      "pozitie_comuna_AG": "În bază: vizitele profesionale convenite, examinarea materialelor/documentelor/probelor existente în funcția PI, specialiștii BWB previzibili, colectarea și evaluarea contribuțiilor, cartea întregii clădiri și planul de remediere. Separat, numai după diagnostic și ofertă/comandă: foraje, desfaceri, reînchideri, geotehnic/geometru autonom, teste de laborator noi și reparații fizice. Energia: integrarea documentelor specialiștilor competenți, nu proiectare energetică generală.",
+      "ferm_AG": "Nicio excludere generală a specialiștilor BWB și nicio includere fictivă a tuturor lucrărilor fizice. AN identifică necesitățile și coordonează interfețele; nu garantează absența defectelor vechi nedetectabile.",
+      "imperativ_legal": "Datele insuficiente și constatările de siguranță se semnalează; nu se substituie o verificare obligatorie cu un raport bazat pe probe insuficiente.",
+      "negociabil_economic": "Prețurile terților pentru teste noi ori intervenții fizice, cu acordul AG și cost transparent; dacă o investigație era previzibilă și necesară scopului, includerea/excluderea se stabilește înainte de acord.",
+      "raspuns_scris_cerut": "Două liste: specialiști/inspecții incluse și investigații fizice externe neincluse; pentru «Materialprüfung» indicați exact dacă este verificare PI/documentară sau test fizic nou, cantitatea, terțul, momentul și costul. Fără supliment vag «după necesitate».",
+      "formulare_comuna_DE": "Im Paket enthalten sind die vereinbarten fachlichen Besichtigungen, die Prüfung vorhandener Materialnachweise sowie vorhersehbar erforderliche kompetente Fachbeiträge zum Gesamt-Bauwerksbuch. Neue Bohrungen, Öffnungen, Laborversuche, eigenständige geotechnische Untersuchungen und physische Instandsetzungsarbeiten bedürfen einer gesondert bezeichneten Kosten- und Auftragsentscheidung. Der Anbieter legt vorab offen, welche Prüfung dokumentarisch erfolgt und welche neue physische Untersuchung erforderlich ist.",
+      "referinte_R05": "§ 8(2)/(3), §§ 5–6, Anexa1; PECH Anexa4/05C «erforderliche Materialprüfung» de clarificat față de laboratorul terț; observație comercială O2.",
+      "surse": [
+        "BO127",
+        "BO128a",
+        "ABGB1168a"
+      ]
+    },
+    {
+      "id": "P08",
+      "tema": "Preț fix, cheltuieli incluse și suplimente precise",
+      "provenienta_30": [
+        "C09"
+      ],
+      "de_ce_ar_obiecta": "PECH poate invoca indexul ZT și cheltuielile separate din condițiile originale; ambii pot solicita regie pentru modificări sau împiedicări reale.",
+      "evaluare_echilibrata": "AG poate cere preț fix pentru un scop și o durată definite. Prestatorii pot contrapropune economic; originalul nu invalidează propunerea nouă și nu face suplimentul deja datorat.",
+      "pozitie_comuna_AG": "Același principiu de total fix pentru scopul convenit, fără index automat și cu cheltuielile obișnuite incluse. Fiecare schimbare reală are ID, cauză, cantitate, livrabil, tarif/preț maxim și efect de termen; un vizit-preț nu se dublează cu regie/deplasare.",
+      "ferm_AG": "Fără index ori suplimente vagi introduse prin trimitere generică la AGB. Modificarea de scop este distinctă de corectarea propriei greșeli și de documentația normală.",
+      "imperativ_legal": "Procedura comercială pentru comenzi suplimentare nu transformă tăcerea într-un refuz al unui drept legal aplicabil. O notificare nu dovedește singură creanța.",
+      "negociabil_economic": "Totalurile de pornire 45.000/69.300 net, tarifele distincte pe categorii profesionale, formulele extras și prețul unei schimbări reale; orice alternativă este completă și cuantificată.",
+      "raspuns_scris_cerut": "Total fix net și TVA separat; confirmarea cheltuielilor incluse; tabel exhaustiv de excluderi, tarife, unități și plafoane; pentru orice rezervă explicați ce eveniment o activează și costul calculabil.",
+      "formulare_comuna_DE": "Der Paketpreis gilt für den gemeinsamen bezeichneten Leistungs- und Zeitrahmen einschließlich üblicher Nebenkosten; eine automatische Indexierung wird nicht vorausgesetzt. Eine zusätzliche Leistung ist vor Ausführung mit Änderungs-ID, Ursache, Umfang, Preisgrundlage, Höchstbetrag und Terminwirkung zu bezeichnen. Dieselbe Leistung wird nicht nochmals als Besuch, Regie und Reisekosten berechnet. Gesetzlich begründete Ansprüche sind getrennt darzulegen.",
+      "referinte_R05": "§ 11(2)–(5), § 9/15; Anexa4; PECH AGB p. 4, BERGER regie p. 3.",
+      "surse": [
+        "ABGB869",
+        "ABGB914",
+        "ABGB1168"
+      ]
+    },
+    {
+      "id": "P09",
+      "tema": "Scadență obiectivă, retenție și garanție substitutivă",
+      "provenienta_30": [
+        "C13",
+        "J06"
+      ],
+      "de_ce_ar_obiecta": "Ofertanții au cerut 14 zile; PECH a exclus retenția. Reținerea de 5% poate apăsa fluxul de numerar pe durata proiectului și garanției.",
+      "evaluare_echilibrata": "Este o negociere financiară firească. Protecția AG trebuie să fie proporțională, cu termen de eliberare și alternativă bancară; nu o sumă blocată pe termen nedeterminat prin lipsa finalizării clădirii.",
+      "pozitie_comuna_AG": "Aceleași probe de prestare și scadență pentru aceleași livrabile, plata părții necontestate în 30 zile, verificare obiectivă a livrabilului în 10 zile lucrătoare; 5% din valoarea netă a facturii, fără dublarea siguranței. Înlocuire cu garanție echivalentă și eliberare la termenul contractual de 3 ani calculat de la recepția relevantă. La încetare înainte de finalul clădirii, recepția serviciilor livrate și eliberarea urmează repere determinate, nu Fertigstellungsanzeige imposibilă. Reperele exacte comune sunt E1/D1, E2/D2, E3/D3, E4/D4, E5/D5, E6/Bauphase și E7/Abschluss descrise în tabelul de mai jos. Pozițiile și sumele interne diferă economic, dar niciun prestator nu primește scadență pentru un livrabil ori o verificare PI încă neprestată. Aceleași reguli de recepție/remediere și garanție contractuală de 3 ani, cu păstrarea drepturilor legale mai lungi și a remediilor distincte ABGB §§ 932, 933 și 933a; termenul retenției nu este automat termenul prescripției tuturor drepturilor. Regula prestării înainte de scadență privește facturarea curentă pe livrabile și nu exclude decontul ori pretențiile legale distincte din împiedicare/încetare, în special § 1168 ABGB și P13/P14, cu îndeplinirea condițiilor și justificarea separată a fiecărei creanțe.",
+      "ferm_AG": "Aceeași procedură, termen și bază netă; fără aprobarea discreționară nelimitată a scadenței, fără dublă siguranță și fără începerea fictivă a garanției.",
+      "imperativ_legal": "Condițiile B2B de plată/verificare trebuie să evite dezavantajarea grosieră; retenția nu înlocuiește § 1170b. Termenele legale de remedii mai lungi rămân distincte de retenție.",
+      "negociabil_economic": "Forma bancară, costul și repartizarea economică pe poziții/etape, păstrând aceleași livrabile și fără avans pentru o funcție PI neprestată; orice schimbare a procentului/termenului necesită decizia AG, nu o concesie presupusă.",
+      "raspuns_scris_cerut": "Calendarul facturilor și documentele de scadență, reconcilierea la total, formularul/banca/durata/beneficiarul garanției echivalente și momentul eliberării la final ori încetare parțială.",
+      "formulare_comuna_DE": "Für beide Anbieter gelten dieselben objektiven Leistungs-, Prüf- und Fälligkeitskriterien. Die laufende leistungsbezogene Meilensteinabrechnung erfasst die tatsächlich erbrachten, zuordenbaren Leistungen; nicht erbrachte PI-Anteile werden nicht als Planlieferung vorgezogen. Davon unberührt bleiben gesondert zu begründende gesetzliche Entgelt-, Entschädigungs- und Abrechnungsansprüche aus Behinderung oder Beendigung, insbesondere nach § 1168 ABGB und den Punkten P13/P14, unter ihren jeweiligen Voraussetzungen. Vorgeschlagen sind dreißig Tage Zahlung und fünf Prozent Einbehalt vom Nettorechnungsbetrag, ersetzbar durch eine gleichwertige Garantie ohne doppelte Sicherung. Beginn und Ende der Sicherung sind auch für eine vorzeitige Beendigung bestimmt festzulegen. Gemeinsame Abrechnungspunkte sind D1 (Grundlagen), D2 (Fundierung/Lift/Sicherungen und PI-Beschauplan), D3 (Bestand/Öffnungen und eigenständiger PI-Prüfbericht), D4 (Holz/Stahl/Anschlüsse und dokumentierte PI-Prüfung), D5 (vollständiges Rest-/Gesamtset), Bauphase (tatsächlich erbrachte Ortstermine und Befunde) und Abschluss (As-built, vollständiges Fertigstellungsdossier und Gesamt-Bauwerksbuch mit anwendbarer Registrierung). Wirtschaftliche Positionszuordnungen und Eurobeträge werden je Anbieter diesen selben Leistungspunkten nachvollziehbar zugeordnet.",
+      "referinte_R05": "§§ 12–13, § 15(6); Anexa4: BERGER7etape+alocare4poziții, PECH15subetape/6poziții; sumele sunt economice, livrabilele comune.",
+      "surse": [
+        "UGB457",
+        "UGB459",
+        "ABGB933",
+        "OGH6Ob35",
+        "OGH6Ob121",
+        "ABGB932",
+        "ABGB933a"
+      ],
+      "repere_facturare_comune": [
+        {
+          "id": "E1 / D1",
+          "livrabil_comun": "Bazele de dimensionare, sistem/încărcări, clase, lista planurilor și calendarul complet de livrare; numai calculul și proiectarea efectiv livrate.",
+          "termen_propusa": "T0 + 3 săptămâni"
+        },
+        {
+          "id": "E2 / D2",
+          "livrabil_comun": "Fundații, lift, subzidiri și sprijiniri: calcul, planuri/liste/detalii complete; planul PI de Beschau/halte cu evaluarea documentată a bazelor.",
+          "termen_propusa": "T0 + 6 săptămâni"
+        },
+        {
+          "id": "E3 / D3",
+          "livrabil_comun": "Existent, planșee, pereți, goluri: proiectare completă; raport PI distinct asupra predimensionării, bazelor existentului și concordanței plan–statică.",
+          "termen_propusa": "T0 + 8 săptămâni"
+        },
+        {
+          "id": "E4 / D4",
+          "livrabil_comun": "Mansardă, lemn/oțel, contravântuiri și noduri: proiectare completă și verificare/liberare PI documentată a planurilor structurale aferente.",
+          "termen_propusa": "T0 + 10 săptămâni"
+        },
+        {
+          "id": "E5 / D5",
+          "livrabil_comun": "Balcoane, scări, restul structurii și setul propriu complet și coerent al AN pentru execuție la T0 + 12 săptămâni, inclusiv verificarea planurilor de atelier deja primite în timp util. Primirea ulterioară a planurilor de atelier ale furnizorilor nu amână propriul calcul, nodurile, ancorările și detaliile datorate de AN la D5. Verificarea planurilor de atelier primite ulterior rămâne în pachet și se face înainte de fabricație: în 2 zile lucrătoare pentru verificarea obișnuită; dacă volumul/complexitatea o impune, în același termen se anunță motivat un termen concret de verificare, după regula comună P06/§§ 4 și 7. Fără fabricație înaintea verificării necesare și fără supliment doar pentru primirea ulterioară; o schimbare reală de scop se analizează separat.",
+          "termen_propusa": "T0 + 12 săptămâni"
+        },
+        {
+          "id": "E6 / Bauphase",
+          "livrabil_comun": "Cele 12 vizite fizice convenite și verificările PI/Befunde efectiv realizate. Facturare proporțională/documentată pe prestația reală; nu scadență integrală după primul control și nu dublarea Pos.04/05 pentru aceeași prestație.",
+          "termen_propusa": "Conform aceluiași Beschauplan pe 18 luni B0"
+        },
+        {
+          "id": "E7 / Abschluss",
+          "livrabil_comun": "As-built, dosarul final ZT/Fertigstellung complet, coordonarea de închidere și BWB complet al întregii clădiri cu înregistrarea aplicabilă. Părțile cu termen legal anterior se livrează prioritar și pot fi decontate separabil numai după prestare; nu se facturează întreaga etapă finală pentru o carte încă incompletă.",
+          "termen_propusa": "Calendarul comun de închidere și termenele legale anterioare"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "tema": "Siguranța legală AN, distinctă de retenția AG",
+      "provenienta_30": [
+        "J07"
+      ],
+      "de_ce_ar_obiecta": "Prestatorul poate cere siguranța legală pentru honorariul restant de la începutul contractului și poate refuza o renunțare anticipată.",
+      "evaluare_echilibrata": "Când § 1170b se aplică, dreptul este expres nederogabil. O bază comună echilibrată îl păstrează; nu cerem prestatorului să finanțeze întregul risc AG fără acest drept.",
+      "pozitie_comuna_AG": "Același mecanism de cerere determinată, bază de calcul, termen rezonabil, instrument și costuri după lege; cererea este diferită de retenția de garanție a AG. Contestațiile temeinice se soluționează concret, nu printr-o interdicție absolută de apel al garanției.",
+      "ferm_AG": "Claritate, limite legale și cost documentat, fără dublare pentru aceeași creanță.",
+      "imperativ_legal": "Nu se exclude anticipat § 1170b când se aplică; se păstrează dreptul la refuz și încetare după procedura legală. Litigiul sau obiecția neîntemeiată nu blochează automat o garanție; nici orice apel nu devine valid prin această regulă.",
+      "negociabil_economic": "Instrumentul adecvat, banca și administrarea costurilor în limitele legale; nu dreptul însuși.",
+      "raspuns_scris_cerut": "Intenția de a solicita siguranță, suma și baza legală, forma preferată, termenul și costul estimat, fără a cere renunțarea generală la drept.",
+      "formulare_comuna_DE": "Zwingende Rechte nach § 1170b ABGB bleiben für beide Anbieter unberührt. Eine Sicherstellung wird mit gesetzlicher Berechnungsgrundlage, angemessener Frist und Instrument bezeichnet und ist vom Haftrücklass der AG zu unterscheiden. Die gesetzliche Kostenregelung sowie die Voraussetzungen einer Leistungsverweigerung oder Vertragsaufhebung bleiben erhalten.",
+      "referinte_R05": "§ 12(7), § 15; aceeași clauză în ambele R05.",
+      "surse": [
+        "ABGB1170b",
+        "OGH6Ob65",
+        "OGH9Ob30",
+        "OGH8Ob147"
+      ]
+    },
+    {
+      "id": "P11",
+      "tema": "Fișiere editabile și dreptul de a continua proiectul",
+      "provenienta_30": [
+        "C12",
+        "J08"
+      ],
+      "de_ce_ar_obiecta": "PECH a păstrat în original drepturi de execuție/alterare chiar după plată; ambii pot proteja bibliotecile, software-ul și licențele terților.",
+      "evaluare_echilibrata": "AG poate cere o licență suficientă pentru acest obiect și livrabile verificabile. Nu este necesară cedarea întregii biblioteci sau a unui program care nu poate fi transferat legal.",
+      "pozitie_comuna_AG": "Aceleași PDF/DWG/DXF, modele și date native/editabile utile verificării, exploatării și continuării obiectului; licență pentru obiect, modificare și prestator succesor. Protejarea instrumentelor AN nu blochează folosirea datelor proiectului, iar cesiunea autorului ori software-ului general nu este presupusă.",
+      "ferm_AG": "Acces util și verificabil la livrabile și continuarea proiectului; nu doar exporturi fără parametri necesari și nici suspendarea integrală a predării de siguranță printr-o dispută de honorariu.",
+      "imperativ_legal": "Drepturile personale și licențele terților sunt respectate. § 1170b și alte drepturi legale nu se declară înlăturate de licență.",
+      "negociabil_economic": "Formatele compatibile, modalitatea tehnică de export, licențe netransferabile și soluții echivalente; orice cost distinct se indică înainte, păstrând rezultatul comun.",
+      "raspuns_scris_cerut": "Listă exactă de formate/program/versiune, parametri și drepturi; restricțiile terților și soluția de continuare; momentul predării fiecărui livrabil, inclusiv as-built.",
+      "formulare_comuna_DE": "Beide Anbieter liefern die projektbezogenen prüfbaren und erforderlichen editierbaren Daten in bezeichneten kompatiblen Formaten und räumen die für Prüfung, Änderung und Fortführung dieses Objekts erforderlichen Nutzungsrechte ein. Allgemeine Software, fremde Lizenzen und unabhängige Bibliotheken werden nicht pauschal übertragen; Einschränkungen und eine funktionsgleiche Fortführungslösung sind vorab ausdrücklich zu nennen.",
+      "referinte_R05": "§ 10, identic în ambele; PECH oferta p. 4; LB modele la cerere.",
+      "surse": [
+        "ABGB869",
+        "ABGB914",
+        "ABGB1170b"
+      ]
+    },
+    {
+      "id": "P12",
+      "tema": "Aceeași penalitate și aceleași remedii pentru întârzieri culpabile",
+      "provenienta_30": [
+        "C14",
+        "J11"
+      ],
+      "de_ce_ar_obiecta": "PECH nu a oferit penalitatea, iar BERGER R05 nu o are. Un prestator poate contesta rata, plafonul și sancționarea unor termene pe care nu le controlează.",
+      "evaluare_echilibrata": "Este o condiție comercială comună propusă legitim de AG, nu o eroare a ofertei. Este dezechilibrat comparativ să păstrăm sancțiunea numai într-o coloană dacă ținta AG este identitatea clauzelor.",
+      "pozitie_comuna_AG": "Propunere comună pentru ambii: 0,1% din netul etapei afectate pentru fiecare zi lucrătoare de întârziere culpabilă a unui termen obligatoriu, plafon total 5% din honorariul net. Nu se aplică țintelor neobligatorii ori prelungirilor justificate; se deduce din dauna acoperită de aceeași sancțiune, cu dreptul de moderare păstrat.",
+      "ferm_AG": "Același principiu, condiții, mod de calcul și remedii; nu pretindem că textul este deja acceptat și nu folosim baze de calcul diferite pentru aceeași încălcare.",
+      "imperativ_legal": "Controlul clauzelor formular/AGB și moderarea excesului rămân; un tabel semnat nu certifică automat echilibrul juridic al oricărui cuantum.",
+      "negociabil_economic": "Rata și plafonul pot fi contrapropuse transparent, dar orice variantă AG adoptată se aplică pe același principiu ambilor. La propunerea 5% sumele rezultate sunt BERGER 2.250 / PECH 3.465 net, diferențe derivate din preț.",
+      "raspuns_scris_cerut": "Acceptare sau contrapropunere pentru rata/plafon/baza etapei și lista termenelor obligatorii, cu motivele excluderilor justificate și fără refuz generic al întregului calendar.",
+      "formulare_comuna_DE": "Vorgeschlagen wird für beide Anbieter dieselbe Vertragsstrafe: bei schuldhafter Überschreitung eines verbindlichen Liefertermins 0,1 Prozent des bezifferten Nettohonorars des betroffenen Meilensteins je Werktag, insgesamt höchstens fünf Prozent des Gesamtnettohonorars. Zieltermine und gerechtfertigte Verschiebungen lösen keine Strafe aus. Anrechnung auf denselben Schaden und gesetzliche Mäßigungsrechte bleiben erhalten.",
+      "referinte_R05": "§ 13(6), Anexa6 Verzug: BERGER fără penalitate; PECH clauză nouă și plafon3.465; nu modificăm R05.",
+      "surse": [
+        "ABGB1336",
+        "ABGB864a",
+        "ABGB879"
+      ]
+    },
+    {
+      "id": "P13",
+      "tema": "Împiedicări, schimbări AG și costuri de staționare",
+      "provenienta_30": [
+        "C16"
+      ],
+      "de_ce_ar_obiecta": "Accesul, documentele sau deciziile AG pot lipsi, șantierul poate fi întrerupt și resursele prestatorului pot rămâne rezervate.",
+      "evaluare_echilibrata": "Nici toate costurile sunt absorbite automat în total, nici orice tarif lunar pretins este datorat. Cauza, pregătirea efectivă de prestare, efectul și măsurile de limitare trebuie demonstrate.",
+      "pozitie_comuna_AG": "Aceeași notificare promptă, cauză/afectare concretă, activități sigure neafectate care continuă, măsuri de limitare, calcul transparent al costului și reper de reluare. Schimbarea de scop se tratează distinct de impediment și de greșeala AN.",
+      "ferm_AG": "Fără facturi de staționare nedocumentate și fără renunțare generală a prestatorului la orice consecință legală. Excepțiile comune și atribuirea cauzelor sunt explicite.",
+      "imperativ_legal": "§ 1168 oferă cadrul legal de referință; nu îl prezentăm integral drept nederogabil. Drepturile imperative distincte, în special § 1170b când este aplicabil, rămân.",
+      "negociabil_economic": "Prețul resurselor suplimentare justificate și al unei schimbări autorizate; perioada/rata numai dacă sunt cuantificate și expres convenite. Tăcerea nu este acceptare automată de tarif.",
+      "raspuns_scris_cerut": "Tipurile de impediment, termenul de notificare, dovezile, activitățile neafectate, metodologia costului și economiile/veniturile alternative relevante, durata estimată și condițiile reluării.",
+      "formulare_comuna_DE": "Behinderungen werden für beide Anbieter nach demselben Verfahren mit Ursache, betroffener Leistung, Bereitschaft zur Leistung, Terminwirkung und konkreter Kostenberechnung angezeigt. Nicht betroffene sichere Leistungen werden weitergeführt. Eine Anzeige allein begründet keinen pauschalen Monatsanspruch; gesetzlich oder ausdrücklich vereinbarte Folgen sind gesondert zu begründen.",
+      "referinte_R05": "§ 9(4)/(5)/(7), § 11, § 15; clauze de bază identice.",
+      "surse": [
+        "ABGB1168",
+        "ABGB1168a",
+        "ABGB1170b"
+      ]
+    },
+    {
+      "id": "P14",
+      "tema": "Încetare, decont și predarea serviciilor deja livrate",
+      "provenienta_30": [
+        "J12"
+      ],
+      "de_ce_ar_obiecta": "Prestatorul poate spune că renunțarea AG nu reduce întotdeauna plata la ceea ce a fost predat și că anumite rezerve de capacitate au cost.",
+      "evaluare_echilibrata": "Regula de decont trebuie discutată deschis. Încetarea justificată de neexecutare, renunțarea liberă AG și încetarea legală pentru lipsa siguranței sunt cazuri diferite; aceeași procedură nu înseamnă același rezultat financiar în orice caz.",
+      "pozitie_comuna_AG": "Aceleași cauze, notificări și termene de remediere, predarea ordonată a datelor și serviciilor efectiv existente; la renunțarea AG decont prin honorariul convenit cu creditele relevante din § 1168. Se verifică separat serviciile livrate în 10 zile lucrătoare la oprirea definitivă, se stabilesc garanția și eliberarea siguranței pe acea bază și nu se cer controale PI viitoare după încetarea valabilă. La aplicarea § 1168 se scad cheltuielile economisite, venitul alternativ efectiv realizat și venitul alternativ omis intenționat; nu orice oportunitate ipotetică de câștig. Condițiile legale ale pretenției și ale sumelor imputabile se verifică separat.",
+      "ferm_AG": "Decont motivat și documente utile continuării proiectului, fără promisiune de anulare gratis ori blocare perpetuă a retenției.",
+      "imperativ_legal": "§ 1170b când se aplică și limitele IO §§ 25a/25b rămân; insolvența nu declanșează o încetare automată contrară legii. Cadrul § 1168 este păstrat ca regulă legală de referință, nu redenumit integral normă imperativă.",
+      "negociabil_economic": "Bugetul unui transfer suplimentar real și modalitatea de reconciliere, cu economii/alte venituri relevante, fără schimbarea tacită a criteriului de decont.",
+      "raspuns_scris_cerut": "Confirmarea procedurii comune de încetare/decont; exemplu de calcul pentru oprire după D3, lista documentelor care se predau și momentul recepției/eliberării siguranței.",
+      "formulare_comuna_DE": "Für beide Anbieter gelten dieselben Beendigungs-, Abrechnungs- und geordneten Übergaberegeln. Eine freie Abbestellung wird nach der vereinbarten gesetzlichen Referenz des § 1168 ABGB abgerechnet; bei Vorliegen der gesetzlichen Voraussetzungen sind ersparte Aufwendungen, tatsächlich erzielter anderweitiger Erwerb und absichtlich versäumter anderweitiger Erwerb anzurechnen. Bloß hypothetische Erwerbsmöglichkeiten werden nicht pauschal als Abzug behandelt. Bereits gelieferte Teile erhalten einen bestimmten Prüf- und Sicherungsablauf. Zwingende Rechte nach § 1170b ABGB und insolvenzrechtliche Beschränkungen bleiben unberührt.",
+      "referinte_R05": "§ 15 și § 13(4), identice; OGH9Ob30 pentru încetarea justificată §1170b.",
+      "surse": [
+        "ABGB1168",
+        "ABGB1170b",
+        "IO25a",
+        "IO25b",
+        "OGH9Ob30"
+      ]
+    },
+    {
+      "id": "P15",
+      "tema": "Răspuns complet, valabilitate și disponibilitate actuală",
+      "provenienta_30": [
+        "C05"
+      ],
+      "de_ce_ar_obiecta": "BERGER poate solicita reconfirmarea prețului și capacității după valabilitatea inițială; ambii pot rezerva oferta prin AGB sau printr-o formulare generică.",
+      "evaluare_echilibrata": "Aceasta este administrarea negocierii, nu un defect al cerinței AG și nici dovada unui refuz actual. O bază comparabilă cere răspuns precis la aceeași matrice și valabilitatea contrapropunerii.",
+      "pozitie_comuna_AG": "Aceeași versiune/datată/hash a matricei comune, Leistungsblatt și calendarului, cu fiecare abatere identificată și bugetată. Nicio trimitere «conform ofertei/AGB» nu este acceptare fără rezerve dacă există termeni contrari. Documentul comun din 2026.07.20 se identifică și se reconciliază expres cu noua bază.",
+      "ferm_AG": "Fără excluderi tacite, fără preț rezervat vag și fără deducerea acordului din tăcere. Nu începe executarea ori atribuirea doar pentru că s-a răspuns la un chestionar.",
+      "imperativ_legal": "Acordul trebuie să fie determinat și inteligibil; răspunsul pe alte condiții este analizat ca o contrapropunere. Semnătura singură nu vindecă orice clauză formular disproporționată.",
+      "negociabil_economic": "Prețul și perioada de valabilitate explicită, capacitatea/datele de mobilizare, cu aceeași bază de scop și cu revizuirea comună dacă AG adoptă o schimbare.",
+      "raspuns_scris_cerut": "Răspuns pe fiecare ID, registru exhaustiv de abateri, oferta totală reconciliată, valabilitate, echipă și data disponibilității; numele persoanei autorizate să confirme. Nu solicitați acceptare prin lipsa răspunsului.",
+      "formulare_comuna_DE": "Bitte beantworten Sie jede ID der bezeichneten gemeinsamen Verhandlungsgrundlage mit Zustimmung, ausdrücklich bezifferter Abweichung oder begründetem Klärungsbedarf. Allgemeine Verweise auf frühere Angebote oder AGB ersetzen keine konkrete Antwort. Benennen Sie die abschließende Abweichungsliste, den vollständigen Nettopreis, die Gültigkeit und die verfügbare Mannschaft. Schweigen oder ein ungefülltes Feld gilt nicht als Zustimmung; ein Auftrag entsteht erst nach der vereinbarten ausdrücklichen Einigung.",
+      "referinte_R05": "§ 2, § 16, Anexele5/6; R19 referința LB; BERGER8săptămâni, PECH90zile.",
+      "surse": [
+        "ABGB869",
+        "ABGB864a",
+        "ABGB879",
+        "ABGB914"
+      ]
+    },
+    {
+      "id": "P16",
+      "tema": "O singură verificare administrativă de persoane și acoperire",
+      "provenienta_30": [
+        "C06",
+        "J10"
+      ],
+      "de_ce_ar_obiecta": "Prestatorul poate arăta că a declarat deja acoperirea și nu dorește o nouă cerință numerică de negociere.",
+      "evaluare_echilibrata": "Respectăm declarațiile făcute și eliminăm presiunea pentru o limită nouă. Confirmarea administrativă a poliței curente și a persoanelor/rolurilor asumate este separată de negocierea scopului.",
+      "pozitie_comuna_AG": "Aceeași verificare administrativă secundară pentru ambii: datele societății și persoanele care prestează, dovada curentă a acoperirii declarate pentru activitățile asumate și respectarea obligațiilor legale proprii. Nu introducem nicio sumă numerică ori multiplicare anuală nouă în această bază.",
+      "ferm_AG": "Date adevărate și document curent, fără a confunda limita poliței cu limita răspunderii. Acest punct nu domină negocierea și nu se repetă în fiecare tabel.",
+      "imperativ_legal": "Regimurile profesionale pot fi diferite, iar cerințele legale aplicabile nu se uniformizează prin renunțare; nu transferăm mecanic regimul Baumeister asupra societății ZT.",
+      "negociabil_economic": "Eventuale clauze de limitare a răspunderii ar fi o negociere separată, explicită și justificată; nu rezultă automat din certificatul de acoperire. Nu se cere creșterea cifrei de asigurare ca premisă nouă.",
+      "raspuns_scris_cerut": "Un certificat actual al acoperirii declarate și identificarea societății/persoanelor/funcțiilor relevante, în aceeași anexă administrativă; lista datelor de completat, fără reluarea unui chestionar numeric nou.",
+      "formulare_comuna_DE": "Als nachrangiger administrativer Nachweis werden für beide Anbieter die aktuellen Unternehmens- und Personendaten sowie eine aktuelle Bestätigung der angegebenen Versicherung für die übernommenen Tätigkeiten vorgelegt. Mit dieser Verhandlungsgrundlage wird keine neue numerische Deckungssumme oder Jahresvervielfachung gefordert. Die jeweils zwingenden gesetzlichen Pflichten und die eigenständige vertragliche Haftung bleiben unberührt.",
+      "referinte_R05": "§ 1, § 14(2)–(4), Anexa6; diferențele factuale/istorice și profesionale nu sunt tratate ca defecte.",
+      "surse": [
+        "ABGB869"
+      ]
+    }
+  ],
+  "diferente_R05": [
+    {
+      "id": "D01",
+      "clauze": "§ 1(2), § 14(2), Anexa 6 date profesionale",
+      "berger": "Date GmbH BERGER și semnatar de completat; mențiunea istorică rB nu dovedește licență activă.",
+      "pech": "Societate ZT cu date istorice indicate; persoanele efective rămân de confirmat.",
+      "natura": "Diferență factuală/profesională necesară, nu cerință diferită.",
+      "pozitie_comuna_propusa": "Aceleași funcții și aceeași probă actuală a persoanelor competente; nu se falsifică aceeași identitate, calificare ori formă de autorizare.",
+      "puncte": [
+        "P02",
+        "P16"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D02",
+      "clauze": "§ 5(3), § 7(1)/(4), § 11(1)",
+      "berger": "12 Betreuung, PI distinct în pachet; controalele PI deja datorate nu sunt opțiuni suplimentare.",
+      "pech": "12 Abnahmen fizice; controalele PI fizice suplimentare neacoperite pot fi remunerate cu prețul suplimentului.",
+      "natura": "Definiție operațională și acoperire economică diferite; prețurile singure nu fac cele două vizite identice.",
+      "pozitie_comuna_propusa": "12 vizite fizice comune, comasare PI/statik, 6 suplimente reale individual comandate, prețurile lor separate; verificările normale documentare/propriile corecturi incluse; fără dublarea unei prestații deja acoperite. Se cere răspuns explicit la acoperirea vizitelor PI, nu se presupune universal orice control gratuit.",
+      "puncte": [
+        "P03",
+        "P04"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D03",
+      "clauze": "§ 9(2)/(6), Anexa 3 D2–D5",
+      "berger": "D 1–D 5 la 3/6/8/10/12 săptămâni; fallback pe termenele relative convenite.",
+      "pech": "D 1 la 3 săptămâni; D 2–D 5 de confirmat dupăT 0, cu mecanism de Nachfrist.",
+      "natura": "Termene și declanșare diferite, incompatibile cu ținta unui singur calendar.",
+      "pozitie_comuna_propusa": "Pentru negociere: 3/6/8/10/12 săptămâni pentru ambii, calendar de verificare și corectare înainte de execuție; contrapropuneri motivate se evaluează comun înainte de acord.",
+      "puncte": [
+        "P06"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D04",
+      "clauze": "Anexa 3 lista celor 12 faze",
+      "berger": "Prima fază Startbesprechung; alte locuri pentru coordonare/închidere, PI separat.",
+      "pech": "Prima fază Untergrund/Fundierung; 12 faze de recepție fizică, inclusiv final.",
+      "natura": "Liste de faze și criterii de consum diferite.",
+      "pozitie_comuna_propusa": "Același Beschauplan fizic, începând cu Untergrund/Fundierung; întâlnirea digitală nu consumă o vizită. Fazele se stabilesc din elemente reale și opriri de siguranță; controlul necesar nu dispare dacă depășește bugetul de vizite.",
+      "puncte": [
+        "P03",
+        "P04",
+        "P06"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D05",
+      "clauze": "§ 11(1), Anexa 4 preț/poziții/opțiuni/regie",
+      "berger": "45.000 net, 4 poziții, extras propus 2.000/12 cu rotunjire cumulativă; 6=1.000 net.",
+      "pech": "69.300 net, 6 poziții, extras 450 net; 6=2.700 net.",
+      "natura": "Diferențe economice admisibile; originale și proveniența propunerii rămân transparente.",
+      "pozitie_comuna_propusa": "Aceeași acoperire și aceleași criterii de supliment, prețuri/tarife proprii; păstrarea totalurilor și a reconcilierii. Nu se atribuie BERGER un tarif original 166,67 ori 450 și nu se calculează PECHextra 14.000/12.",
+      "puncte": [
+        "P03",
+        "P08",
+        "P09"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D06",
+      "clauze": "Anexa 4 facturare",
+      "berger": "7 etape globale și matrice de alocare 4 poziții; verificări PI 500/1.000/1.500 laD 2–D 4.",
+      "pech": "15 subetape pe 6 poziții, inclusiv 04/05 A; livrabile PI de proiectare în scadențe mai puțin nominalizate.",
+      "natura": "Structură economică și evenimente de facturare diferite.",
+      "pozitie_comuna_propusa": "7 repere comune E 1–E 7 cu aceleași livrabile/PI efectiv prestate și aceeași regulă 30 zile/5%net. Sumele/alocarea pe pozițiile fiecăruia pot diferi numeric la aceleași evenimente; orice parte separabilă are probă și nu include un avans pentru PI neprestat.",
+      "puncte": [
+        "P06",
+        "P09"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D07",
+      "clauze": "§ 13(6), Anexa 6 Verzug",
+      "berger": "Nu se agreează penalitate distinctă.",
+      "pech": "0,1% din etapa afectată/zi lucrătoare culpabilă, max 5%honorariu=3.465 net.",
+      "natura": "Diferență juridică de remedii, nu doar preț.",
+      "pozitie_comuna_propusa": "Aceeași penalitate propusă AG ambilor:0,1%/zi și 5%plafon cu culpă, termene obligatorii, anrechnen și moderare. La bazele actuale plafonBERGER 2.250/PECH 3.465; sumele sunt derivate, principiul identic.",
+      "puncte": [
+        "P12"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D08",
+      "clauze": "§ 14(4), Anexa 6 acoperire",
+      "berger": "Bază contractuală 1 M ori altăsumă expresconvenită; declarații istorice specifice și fărăextra 2x.",
+      "pech": "Limita și agregatul încădecompletat.",
+      "natura": "Date/istoric diferite și condiție administrativă formulată diferit.",
+      "pozitie_comuna_propusa": "O singură verificare administrativă secundară cu acoperirea actuală declarată de fiecare și obligațiile proprii legale; fără cifre noi ori pretenția unei polițe identice.",
+      "puncte": [
+        "P16"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D09",
+      "clauze": "Anexa 5 originale și Anexa 6 deviații",
+      "berger": "Ofertă 2026.08.17,4 poziții/8 vizite/circa 12 luni, valabilitate 8 săptămâni.",
+      "pech": "AN 01din 2026.09.17,6 poziții/12 vizite/450, valabilitate 90 zile și trimitereLBAG.",
+      "natura": "Istoric de surse distinct necesar; nu diferență a cerinței comune viitoare.",
+      "pozitie_comuna_propusa": "Identificarea fiecărei surse și a matricei comune noi prin versiune/datǎ; registru complet de răspuns/excluderi, fără importarea tacită a condițiilor vechi contrare.",
+      "puncte": [
+        "P01",
+        "P15"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    },
+    {
+      "id": "D10",
+      "clauze": "§§ 2–4, 6, 8, 10, 12, 15, 16; Anexele 1–2",
+      "berger": "Aceleași cerințe de bază cu PECH în majoritatea alineatelor; Anexele 1și 2 identice.",
+      "pech": "Aceleași cerințe de bază cu BERGER în majoritatea alineatelor; Anexele 1și 2 identice.",
+      "natura": "Conținut deja comun; nu este necesară inventarea unei diferențe.",
+      "pozitie_comuna_propusa": "Păstrarea aceleiași structuri de scop, livrabile, drepturi, acceptare/garanție, împiedicare/încetare și comunicare. În negociere se uniformizează numai diferențele reale enumerate, fără modificareaR 05.",
+      "puncte": [
+        "P01",
+        "P02",
+        "P07",
+        "P09",
+        "P10",
+        "P11",
+        "P13",
+        "P14",
+        "P15"
+      ],
+      "fara_editare": "Observație și formulare pentru matricea de negociere; R05 nu este modificat."
+    }
+  ],
+  "repere_facturare_comune": [
+    {
+      "id": "E1 / D1",
+      "livrabil_comun": "Bazele de dimensionare, sistem/încărcări, clase, lista planurilor și calendarul complet de livrare; numai calculul și proiectarea efectiv livrate.",
+      "termen_propusa": "T0 + 3 săptămâni"
+    },
+    {
+      "id": "E2 / D2",
+      "livrabil_comun": "Fundații, lift, subzidiri și sprijiniri: calcul, planuri/liste/detalii complete; planul PI de Beschau/halte cu evaluarea documentată a bazelor.",
+      "termen_propusa": "T0 + 6 săptămâni"
+    },
+    {
+      "id": "E3 / D3",
+      "livrabil_comun": "Existent, planșee, pereți, goluri: proiectare completă; raport PI distinct asupra predimensionării, bazelor existentului și concordanței plan–statică.",
+      "termen_propusa": "T0 + 8 săptămâni"
+    },
+    {
+      "id": "E4 / D4",
+      "livrabil_comun": "Mansardă, lemn/oțel, contravântuiri și noduri: proiectare completă și verificare/liberare PI documentată a planurilor structurale aferente.",
+      "termen_propusa": "T0 + 10 săptămâni"
+    },
+    {
+      "id": "E5 / D5",
+      "livrabil_comun": "Balcoane, scări, restul structurii și setul propriu complet și coerent al AN pentru execuție la T0 + 12 săptămâni, inclusiv verificarea planurilor de atelier deja primite în timp util. Primirea ulterioară a planurilor de atelier ale furnizorilor nu amână propriul calcul, nodurile, ancorările și detaliile datorate de AN la D5. Verificarea planurilor de atelier primite ulterior rămâne în pachet și se face înainte de fabricație: în 2 zile lucrătoare pentru verificarea obișnuită; dacă volumul/complexitatea o impune, în același termen se anunță motivat un termen concret de verificare, după regula comună P06/§§ 4 și 7. Fără fabricație înaintea verificării necesare și fără supliment doar pentru primirea ulterioară; o schimbare reală de scop se analizează separat.",
+      "termen_propusa": "T0 + 12 săptămâni"
+    },
+    {
+      "id": "E6 / Bauphase",
+      "livrabil_comun": "Cele 12 vizite fizice convenite și verificările PI/Befunde efectiv realizate. Facturare proporțională/documentată pe prestația reală; nu scadență integrală după primul control și nu dublarea Pos.04/05 pentru aceeași prestație.",
+      "termen_propusa": "Conform aceluiași Beschauplan pe 18 luni B0"
+    },
+    {
+      "id": "E7 / Abschluss",
+      "livrabil_comun": "As-built, dosarul final ZT/Fertigstellung complet, coordonarea de închidere și BWB complet al întregii clădiri cu înregistrarea aplicabilă. Părțile cu termen legal anterior se livrează prioritar și pot fi decontate separabil numai după prestare; nu se facturează întreaga etapă finală pentru o carte încă incompletă.",
+      "termen_propusa": "Calendarul comun de închidere și termenele legale anterioare"
+    }
+  ],
+  "format_raspuns_comun": {
+    "titlu": "Antwortmatrix zur gemeinsamen Verhandlungsgrundlage — kein Auftrag",
+    "statusuri": [
+      "A — Zustimmung ohne Abweichung",
+      "B — Konkretes Gegenangebot mit bezeichneten Abweichungen",
+      "C — Klärungsbedarf mit konkreter Frage und Frist"
+    ],
+    "campuri_obligatorii": [
+      "Leistungs-/Klausel-ID și referința exactă la versiunea comună",
+      "A/B/C pentru fiecare rând",
+      "Scop/livrabil inclus și criteriu de completitudine",
+      "Persoana/rolul competent și contribuțiile terților",
+      "Termenul relativ și dependențele",
+      "Prețul net inclus/alocat ori suplimentul separat cu unitate și plafon",
+      "Cauza concretă a unei rezerve și impactul asupra costului/calendarului",
+      "Orice excludere explicită și soluția echivalentă propusă",
+      "Document/dovadă și persoana autorizată să confirme"
+    ],
+    "reguli": [
+      "Nu există acceptare prin tăcere sau câmp gol. «Conform ofertei/AGB» nu substituie răspunsul individual.",
+      "Răspunsul B este o contrapropunere, nu acceptare fără rezerve. AG verifică abaterile și decide înainte de acord.",
+      "Registrul de abateri se declară complet pentru răspunsul dat; orice altă rezervă trebuie identificată, nu importată printr-un link generic. Nici această confirmare nu validează o clauză contrară legii.",
+      "Un preț total se reconciliază cu toate pozițiile și orice excludere. Nu se adaugă cantități nedefinite sau «după necesitate» fără unitate/criteriu/preț ori plafon.",
+      "Opțiunile neutilizate nu sunt comandate prin răspunsul la matrice. Comenzile operative se dau ulterior de persoana împuternicită; pentru pretenții legale se indică temei și calcul distinct, fără acceptare automată.",
+      "Matricea negociată și registrul de abateri se nominalizează ulterior în documentul de acord final; răspunsul la chestionar nu produce singur atribuirea ori începerea lucrărilor."
+    ],
+    "declaratie_comuna_DE": "Wir antworten auf die gemeinsame Verhandlungsgrundlage mit genauer Versions- und Dateibezeichnung. Für jede ID erklären wir Zustimmung, ein konkret beziffertes Gegenangebot oder einen bestimmten Klärungsbedarf. Sämtliche für diese Antwort geltenden Abweichungen, Ausschlüsse, Preisvorbehalte und Terminfolgen sind in unserem abschließenden Abweichungsverzeichnis einzeln bezeichnet. Pauschale Verweise auf frühere Angebote oder AGB ersetzen keine Einzelantwort. Ein leeres Feld oder Schweigen gilt nicht als Zustimmung. Die Antwort dient der Verhandlung; ein Auftrag entsteht erst durch die ausdrücklich vereinbarte Einigung der befugten Parteien. Zwingende Rechte bleiben unberührt.",
+    "exemplu_supliment_DE": "Änderungs-ID; betroffene Leistungs-ID; Anlass und Ursache; Abgrenzung zur enthaltenen Leistung; Menge; Nettopreis je Einheit; Höchstbetrag; enthaltene Reise-/Dokumentationskosten; Terminwirkung; zuständige Person; erforderliche Entscheidung vor Ausführung. Gesetzliche Ansprüche werden mit eigener Grundlage und Berechnung getrennt ausgewiesen."
+  },
+  "mapare_30": [
+    {
+      "vechi": "C01",
+      "nou": "P01",
+      "tema_noua": "Același pachet complet de proiectare pentru ambii"
+    },
+    {
+      "vechi": "C02",
+      "nou": "P03",
+      "tema_noua": "12 vizite fizice incluse și până la 6 opționale"
+    },
+    {
+      "vechi": "C03",
+      "nou": "P05",
+      "tema_noua": "18 luni B0, planificare T0 și închiderea normală"
+    },
+    {
+      "vechi": "C04",
+      "nou": "P02",
+      "tema_noua": "PI până la final, dosar ZT și Bauwerksbuch complet"
+    },
+    {
+      "vechi": "C05",
+      "nou": "P15",
+      "tema_noua": "Răspuns complet, valabilitate și disponibilitate actuală"
+    },
+    {
+      "vechi": "C06",
+      "nou": "P16",
+      "tema_noua": "O singură verificare administrativă de persoane și acoperire"
+    },
+    {
+      "vechi": "C07",
+      "nou": "P06",
+      "tema_noua": "Calendar și timpi de răspuns identici, cu resurse confirmate"
+    },
+    {
+      "vechi": "C08",
+      "nou": "P02",
+      "tema_noua": "PI până la final, dosar ZT și Bauwerksbuch complet"
+    },
+    {
+      "vechi": "C09",
+      "nou": "P08",
+      "tema_noua": "Preț fix, cheltuieli incluse și suplimente precise"
+    },
+    {
+      "vechi": "C10",
+      "nou": "P03",
+      "tema_noua": "12 vizite fizice incluse și până la 6 opționale"
+    },
+    {
+      "vechi": "C11",
+      "nou": "P04",
+      "tema_noua": "Vizita Untergrund și PECH Pos. 04/05"
+    },
+    {
+      "vechi": "C12",
+      "nou": "P11",
+      "tema_noua": "Fișiere editabile și dreptul de a continua proiectul"
+    },
+    {
+      "vechi": "C13",
+      "nou": "P09",
+      "tema_noua": "Scadență obiectivă, retenție și garanție substitutivă"
+    },
+    {
+      "vechi": "C14",
+      "nou": "P12",
+      "tema_noua": "Aceeași penalitate și aceleași remedii pentru întârzieri culpabile"
+    },
+    {
+      "vechi": "C15",
+      "nou": "P07",
+      "tema_noua": "BWB profesional inclus, laborator și lucrări fizice delimitate"
+    },
+    {
+      "vechi": "C16",
+      "nou": "P13",
+      "tema_noua": "Împiedicări, schimbări AG și costuri de staționare"
+    },
+    {
+      "vechi": "C17",
+      "nou": "P06",
+      "tema_noua": "Calendar și timpi de răspuns identici, cu resurse confirmate"
+    },
+    {
+      "vechi": "C18",
+      "nou": "P01",
+      "tema_noua": "Același pachet complet de proiectare pentru ambii"
+    },
+    {
+      "vechi": "J01",
+      "nou": "P01",
+      "tema_noua": "Același pachet complet de proiectare pentru ambii"
+    },
+    {
+      "vechi": "J02",
+      "nou": "P03",
+      "tema_noua": "12 vizite fizice incluse și până la 6 opționale"
+    },
+    {
+      "vechi": "J03",
+      "nou": "P04",
+      "tema_noua": "Vizita Untergrund și PECH Pos. 04/05"
+    },
+    {
+      "vechi": "J04",
+      "nou": "P05",
+      "tema_noua": "18 luni B0, planificare T0 și închiderea normală"
+    },
+    {
+      "vechi": "J05",
+      "nou": "P02",
+      "tema_noua": "PI până la final, dosar ZT și Bauwerksbuch complet"
+    },
+    {
+      "vechi": "J06",
+      "nou": "P09",
+      "tema_noua": "Scadență obiectivă, retenție și garanție substitutivă"
+    },
+    {
+      "vechi": "J07",
+      "nou": "P10",
+      "tema_noua": "Siguranța legală AN, distinctă de retenția AG"
+    },
+    {
+      "vechi": "J08",
+      "nou": "P11",
+      "tema_noua": "Fișiere editabile și dreptul de a continua proiectul"
+    },
+    {
+      "vechi": "J09",
+      "nou": "P06",
+      "tema_noua": "Calendar și timpi de răspuns identici, cu resurse confirmate"
+    },
+    {
+      "vechi": "J10",
+      "nou": "P16",
+      "tema_noua": "O singură verificare administrativă de persoane și acoperire"
+    },
+    {
+      "vechi": "J11",
+      "nou": "P12",
+      "tema_noua": "Aceeași penalitate și aceleași remedii pentru întârzieri culpabile"
+    },
+    {
+      "vechi": "J12",
+      "nou": "P14",
+      "tema_noua": "Încetare, decont și predarea serviciilor deja livrate"
+    }
+  ],
+  "limite": [
+    "Nicio versiune R05, original de ofertă, registru ori jurnal nu este modificat de această reformulare.",
+    "Nu sunt mesaje trimise, acceptări noi, întâlniri, atestări, semnături sau plăți.",
+    "Rezultatele obligatorii de siguranță și persoanele competente nu sunt plafonate prin numărul de vizite ori prin buget. Un surplus economic se decide separat fără a autoriza execuția critică neverificată.",
+    "Propunerea de calendar comun și penalitate comună este AG, nu angajament anterior al ofertanților; prețurile economice diferențiate și istoricul surselor rămân vizibile.",
+    "Fermitatea AG poate fi schimbată numai prin decizia AG. Prestatorul poate răspunde cu contrapropunere; nu se afirmă că va accepta.",
+    "Controlul §§ 864a/879 ABGB, drepturile imperative și aplicabilitatea temporală concretă nu sunt anulate de formularul de răspuns. Cazurile OGH sunt comparatori verificați în auditul anterior, nu hotărâri asupra acestor proiecte."
+  ],
+  "surse": [
+    {
+      "id": "ABGB 1168",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168/NOR12018908",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB1168"
+    },
+    {
+      "id": "ABGB 1168a",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1168a/NOR12018909",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB1168a"
+    },
+    {
+      "id": "ABGB 1170b",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1170b/NOR40070129",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB1170b"
+    },
+    {
+      "id": "ABGB 1336",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P1336/NOR40070132",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB1336"
+    },
+    {
+      "id": "ABGB 864a",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P864a/NOR12018587",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB864a"
+    },
+    {
+      "id": "ABGB 869",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P869/NOR12018592",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB869"
+    },
+    {
+      "id": "ABGB 879",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P879/NOR12018602",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB879"
+    },
+    {
+      "id": "ABGB 914",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P914/NOR12018638",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB914"
+    },
+    {
+      "id": "ABGB 915",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P915/NOR12018639",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB915"
+    },
+    {
+      "id": "ABGB 932",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P932/NOR40237219",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB932"
+    },
+    {
+      "id": "ABGB 933",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P933/NOR40237220",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB933"
+    },
+    {
+      "id": "ABGB 933a",
+      "url": "https://www.ris.bka.gv.at/eli/jgs/1811/946/P933a/NOR40018132",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ABGB933a"
+    },
+    {
+      "id": "BO 127",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P127/LWI40016468",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "BO127"
+    },
+    {
+      "id": "BO 128",
+      "url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40018216/LWI40018216.html",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "BO128"
+    },
+    {
+      "id": "BO 128a",
+      "url": "https://ris.bka.gv.at/eli/lgbl/WI/1930/11/P128a/LWI40018217",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "BO128a"
+    },
+    {
+      "id": "BO 128b",
+      "url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1930/11/P128b/LWI40016471",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "BO128b"
+    },
+    {
+      "id": "IO 25a",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40117918/NOR40117918.html",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "IO25a"
+    },
+    {
+      "id": "IO 25b",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001736&ShowPrintPreview=True",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "IO25b"
+    },
+    {
+      "id": "LGBl 25/2026 Art. V",
+      "url": "https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20260714_25/LGBLA_WI_20260714_25.pdf",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "LGBl25ArtV"
+    },
+    {
+      "numar": "6Ob121/22w",
+      "data": "2023.03.24",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20230324_OGH0002_0060OB00121_22W0000_000/JJT_20230324_OGH0002_0060OB00121_22W0000_000.pdf",
+      "verificare": "Sursă primară RIS recitită la 2026.10.13; nu hotărâre asupra acestor propuneri",
+      "id_referinta": "OGH6Ob121"
+    },
+    {
+      "numar": "6Ob35/15p",
+      "data": "2015.03.19",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20150319_OGH0002_0060OB00035_15P0000_000&IncludeSelf=True&ShowPrintPreview=True",
+      "verificare": "Sursă primară RIS recitită la 2026.10.13; nu hotărâre asupra acestor propuneri",
+      "id_referinta": "OGH6Ob35"
+    },
+    {
+      "numar": "6Ob65/18d",
+      "data": "2018.04.26",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20180426_OGH0002_0060OB00065_18D0000_000/JJT_20180426_OGH0002_0060OB00065_18D0000_000.pdf",
+      "verificare": "Sursă primară RIS recitită la 2026.10.13; nu hotărâre asupra acestor propuneri",
+      "id_referinta": "OGH6Ob65"
+    },
+    {
+      "numar": "8 Ob 147/25p",
+      "data": "2026.03.24",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_20260324_OGH0002_0080OB00147_25P0000_000/JJT_20260324_OGH0002_0080OB00147_25P0000_000.html",
+      "verificare": "Sursă primară RIS recitită la 2026.10.13; nu hotărâre asupra acestor propuneri",
+      "id_referinta": "OGH8Ob147"
+    },
+    {
+      "numar": "9Ob30/21h",
+      "data": "2021.07.28",
+      "url": "https://www.ris.bka.gv.at/JustizEntscheidung.wxe?Abfrage=Justiz&Dokumentnummer=JJT_20210728_OGH0002_0090OB00030_21H0000_000&IncludeSelf=True",
+      "verificare": "Sursă primară RIS recitită la 2026.10.13; nu hotărâre asupra acestor propuneri",
+      "id_referinta": "OGH9Ob30"
+    },
+    {
+      "id": "UGB 457",
+      "url": "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40148645/NOR40148645.html",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "UGB457"
+    },
+    {
+      "id": "UGB 459",
+      "url": "https://www.ris.bka.gv.at/eli/drgbl/1897/219/P459/NOR40148647",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "UGB459"
+    },
+    {
+      "id": "ZTG 12",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40213938/NOR40213938.html",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ZTG12"
+    },
+    {
+      "id": "ZTG 16",
+      "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40213942/NOR40213942.html",
+      "data_verificarii": "2026.10.13",
+      "tip": "RIS primar",
+      "id_referinta": "ZTG16"
+    }
+  ],
+  "surse_reverificate_turn": [
+    "ABGB 869, 864a, 879, 1168, 1170b și 1336: RIS primar consultat la 2026.10.13; unele pagini afișează cache anterior.",
+    "§ 348 HGB istoric care excludea moderarea avea expirare 2006.12.31; nu este utilizat ca regulă actuală. § 1336 alin.2 actual păstrează moderarea.",
+    "2026.10.13: § 1168 alin.1 NOR12018908 reread; «erworben» și «absichtlich versäumt» sunt distincte de orice oportunitate ipotetică. Facturarea curentă nu substituie analiza dreptului la decont legal."
+  ],
+  "obiectii_initiale_30": [
+    {
+      "prestator": "BERGER",
+      "tema": "Scop și discount inițial",
+      "obiectie_probabila": "Am ofertat calculul 13.000 numai fără schimbare conceptuală; excavația și BWB nu erau în pachet.",
+      "evaluare": "Obiecție comercială întemeiată în original. Extinderea nu este nulă prin ea însăși, dar nu se poate impune unilateral pe baza ofertei vechi.",
+      "pozitie_recomandata": "Prioritate mare: confirmare explicită a conceptului/scopului și a capacității la 45.000, înainte de acord; niciun angajament că vor accepta.",
+      "sursa": "BERGER p. 2–3; §§ 2–4/11; ABGB 869/914.",
+      "id_vechi": "J01"
+    },
+    {
+      "prestator": "BERGER",
+      "tema": "12 vizite și preț derivat",
+      "obiectie_probabila": "2.000 era pentru maximum 8; acum 12 și suplimente cu drum/documentare la aproximativ 166,67.",
+      "evaluare": "Reducere unitară și extindere reale. Formula este precisă, însă prețul poate fi refuzat comercial; nu este tarif original.",
+      "pozitie_recomandata": "Concesie rezonabilă de discutat numai la cererea AG: preț sau delimitare de vizită; nu se schimbă automat. Cere evidență de timp și ce conține deplasarea.",
+      "sursa": "BERGER p. 2, § 7, Anexa 4; formula 2.000/12.",
+      "id_vechi": "J02"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Numărătoare Pos. 04/05",
+      "obiectie_probabila": "O vizită geotehnică și 12 recepții au fost cerute separat; nu sunt aceeași prestație.",
+      "evaluare": "R18: punct justificat. Totalul 69.300 conține ambele, dar trebuie separat scopul și numărătoarea vizitei comune.",
+      "pozitie_recomandata": "Clarificare de prioritate mare: un ID de vizită și befunde/funcții delimitate; nu două prețuri pentru aceeași prestație și nu presupunere că Pos. 04 devine gratuită.",
+      "sursa": "Q_AG Pos. 4/5; oferta PECH Pos. 04/05; R05 § 7 și Anexa 3/4.",
+      "id_vechi": "J03"
+    },
+    {
+      "prestator": "AMBII",
+      "tema": "18 luni și închidere după termen",
+      "obiectie_probabila": "Prețul a fost calculat pe alt interval; proiectul sau AG pot întârzia mult.",
+      "evaluare": "Orizontul și închiderea sunt clare în R05; temeiurile § 1168/1170b sunt păstrate, deci nu este gratuitate perpetuă implicită.",
+      "pozitie_recomandata": "Nu concede tarif lunar automat. Conveniți B0 previzibil, perioadele de acces și cine suportă ce schimbare reală; rezerva legală nu este preț nou acceptat.",
+      "sursa": "§ 9(2)/(7), § 11(1), § 15; ABGB 1168/1170b.",
+      "id_vechi": "J04"
+    },
+    {
+      "prestator": "AMBII",
+      "tema": "PI, ZT complet și BWB întreg",
+      "obiectie_probabila": "Nu putem semna toate domeniile ori anvelopa cu persoana prevăzută și prețul inițial.",
+      "evaluare": "Legea nu permite certificat în afara competenței. R05 cere persoane eligibile și contribuții, dar disponibilitatea și costul real nu sunt dovedite.",
+      "pozitie_recomandata": "Nicio concesie asupra competenței sau adevărului certificării. Sunt negociabile organizarea prin persoane aprobate și bugetul acceptat, cu confirmarea independenței.",
+      "sursa": "§§ 5–6/14, BO 127/128/128a, ZTG 12/16.",
+      "id_vechi": "J05"
+    },
+    {
+      "prestator": "AMBII",
+      "tema": "Retenție și garanție",
+      "obiectie_probabila": "5% net reținut pe durata proiectului plus 3 ani apasă numerarul, oferta mea nu avea această condiție.",
+      "evaluare": "Obiecție comercială legitimă; R05 are substituție, termen și eliberare, nu blocare perpetuă. Formularul nu este încă convenit.",
+      "pozitie_recomandata": "Concesie echilibrată: utilizarea unei garanții echivalente cu condiții concrete și fără dublare; păstrează protecția rezonabilă și dovada bancară.",
+      "sursa": "§ 12(5)/(6), § 13/15; OGH 6 Ob 35/15p, 6 Ob 121/22w.",
+      "id_vechi": "J06"
+    },
+    {
+      "prestator": "AMBII",
+      "tema": "Sicherstellung AN",
+      "obiectie_probabila": "Avem drept legal la garantarea onorariului chiar înainte de lucrări.",
+      "evaluare": "Obiecție juridică solidă când § 1170b se aplică; retenția AG nu o înlocuiește. Nici reclamațiile neîntemeiate nu blochează automat apelul garanției.",
+      "pozitie_recomandata": "Nu oferi renunțare obligatorie la § 1170b. Planifică instrumentul/costurile și nu promite blocarea oricărui apel până la hotărâre.",
+      "sursa": "§ 12(7), § 15; OGH 6 Ob 65/18d, 9 Ob 30/21h, 8 Ob 147/25p 2026.03.24.",
+      "id_vechi": "J07"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Licențe și fișiere native",
+      "obiectie_probabila": "Originalul păstra dreptul de execuție/alterare inclusiv după plată; nu transferăm biblioteci sau software.",
+      "evaluare": "R05 schimbă licența pentru obiect, păstrând drepturile personale și licențele terților. Cesiunea nu se presupune acceptată.",
+      "pozitie_recomandata": "Prioritate AG: continuarea proiectului și parametrii verificabili. Sunt negociabile formatele compatibile și protecția bibliotecii, fără blocarea întregului proiect prin disputa onorariului.",
+      "sursa": "PECH p. 4; § 10; drepturile AN și § 1170b rămân.",
+      "id_vechi": "J08"
+    },
+    {
+      "prestator": "AMBII",
+      "tema": "Timpi de răspuns și cantitate",
+      "obiectie_probabila": "Nu garantăm 24 h disponibilitate, 2 zile RFI ori număr nelimitat de schimbări/întrebări la prețul propus.",
+      "evaluare": "R05 are excepție pentru complexitate, dar nu preia quota inițială 20 RFI ori 6/3 ședințe. O limită operațională trebuie discutată, nu inventată ca deja oferită.",
+      "pozitie_recomandata": "Conveniți mecanism de urgență, înlocuire și numărătoare a prestațiilor normale; păstrați siguranța și excludeți plata corectării propriei greșeli.",
+      "sursa": "Q_AG Pos. 5/C; § 7(2)/(3), § 4(4), Anexa 3.",
+      "id_vechi": "J09"
+    },
+    {
+      "prestator": "AMBII",
+      "tema": "Asigurare și răspundere",
+      "obiectie_probabila": "1M este limita poliței, deci vrem și răspundere limitată la atât.",
+      "evaluare": "Polița nu plafonează automat răspunderea. Minimele GewO, când sunt aplicabile BERGER, nu pot fi coborâte prin acord; categoria și agregatul actual sunt nedovedite. PECH se verifică pe regimul ZT, nu prin transfer mecanic.",
+      "pozitie_recomandata": "Păstrează obligațiile imperative; dovadă actuală caz/an și roluri. Orice plafon al răspunderii ar cere analiză separată, nu rezultă din reducerea cerinței AG la 1M.",
+      "sursa": "§ 14 / Anexa 6; GewO § 99, UGB § 221, ZTG § 3(5); polița BERGER 2016 și declarația 81dd5c7e.",
+      "id_vechi": "J10"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Penalitate",
+      "obiectie_probabila": "Nu am ofertat 0,1% pe zi sau aceste termene de livrare.",
+      "evaluare": "Corect: condiție AG nouă, nu original. R05 limitează la culpă, termen obligatoriu, valoarea afectată și plafon; judecătorul păstrează moderarea.",
+      "pozitie_recomandata": "Concesie posibilă: negocierea calendarului și cuantumului, fără a elimina remediile legale. Nu spune că penalitatea este deja acceptată.",
+      "sursa": "§ 13(6), Anexa 6; ABGB 1336.",
+      "id_vechi": "J11"
+    },
+    {
+      "prestator": "AMBII",
+      "tema": "Încetare și onorariu rămas",
+      "obiectie_probabila": "Rezilierea proiectului nu înseamnă că se plătește doar ce am predat până atunci.",
+      "evaluare": "Obiecție juridică întemeiată în condițiile § 1168; R05 recunoaște economiile/veniturile alternative și decontul, fără excluderea legală.",
+      "pozitie_recomandata": "Păstrează mecanismul și justificarea sumelor; nu promite reziliere fără cost sau rambursare integrală a avansurilor prin simpla anulare.",
+      "sursa": "§ 15; ABGB 1168; OGH 9 Ob 30/21h pentru încetarea justificată § 1170b.",
+      "id_vechi": "J12"
+    },
+    {
+      "prestator": "BERGER",
+      "tema": "Scopul de 13.000 și excavarea",
+      "obiectie_probabila": "Prețul meu presupunea același concept; calculul excavării era exclus.",
+      "evaluare": "Obiecție comercială susținută expres de original, legitimă înaintea acceptării noului pachet. Nu dovedește drept la supliment după o acceptare fără rezerve a noului scop.",
+      "pozitie_recomandata": "Solicitați acceptare completă sau contrapropunere delimitată; nu numiți includerea deja ofertată.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C01"
+    },
+    {
+      "prestator": "BERGER",
+      "tema": "12 vizite la 2.000 și tariful 2.000/12",
+      "obiectie_probabila": "Am oferit maximum 8 vizite, nu 12; nu am oferit 166,67 suplimentar.",
+      "evaluare": "Susținut de original. Calculul AG este corect, dar nu tarif primit.",
+      "pozitie_recomandata": "Păstrați statutul AG nou și cereți acord expres; evitați conversia 2.000/8 sau preluarea tarifului PECH.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C02"
+    },
+    {
+      "prestator": "BERGER",
+      "tema": "18 luni de la B0, înainte și după",
+      "obiectie_probabila": "Oferta mea prevedea circa 12 luni pentru serviciile proprii; durata propusă și planificarea înainte sunt mai ample.",
+      "evaluare": "Obiecție probabilă și susținută de perioada originală; durata nu este contract acceptat.",
+      "pozitie_recomandata": "Confirmați B0 planificat, calendarul și echipa; prețul 18 luni rămâne propunere, nu constatare.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C03"
+    },
+    {
+      "prestator": "BERGER",
+      "tema": "PI extins, ZT §128 și BWB",
+      "obiectie_probabila": "PI era până la Rohbau plus anexă §128; BWB și alți specialiști nu au fost ofertate.",
+      "evaluare": "Parțial/expres susținut de original; prețul nou în același total e negociabil, nu impus retroactiv.",
+      "pozitie_recomandata": "Păstrați delimitarea contribuției originale versus funcțiile noi; cereți nominalizări și costul pachetului complet.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C04"
+    },
+    {
+      "prestator": "BERGER",
+      "tema": "Expirarea ofertei",
+      "obiectie_probabila": "Cele 8 săptămâni au trecut; disponibilitatea și prețul trebuie confirmate.",
+      "evaluare": "Susținut de original și de lipsa reconfirmării în jurnal; nu presupuneți o refuzare actuală.",
+      "pozitie_recomandata": "Cereți acceptarea noii propuneri; fără atribuire pe o acceptare pretinsă.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "BJ",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Parteneri/2026.10.13 Log discutii - Markus Berger.txt",
+          "hash": "9c8734fca3fcdec5935c9336f40dfad58fba55e7d21be143500fd6b84f21a657",
+          "data": "2026.10.13",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C05"
+    },
+    {
+      "prestator": "BERGER",
+      "tema": "1 milion / polița actuală",
+      "obiectie_probabila": "Am comunicat 1 milion, acceptat pentru ofertare; nu am acceptat orice limită sau agregat nou.",
+      "evaluare": "Susținut de emailuri; nu este dovadă de acoperire PI/BWB/§128 actuală.",
+      "pozitie_recomandata": "Respectați acceptarea pentru ofertare, dar verificați funcțiile, condițiile 6436, agregatul și sublimitele; nu presupuneți 3,5 milioane uniforme.",
+      "sursa": [
+        {
+          "id": "BI",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Markus Berger/2026.07.22 11-44 PRIMIT AW Angebotsanfrage Ausführungsstatik – 1 81dd5c7e.txt",
+          "hash": "16a19de90675f87cc7f0e6b609295f24d9c63efe0978564983295746a7060663",
+          "data": "2026.07.22",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "BA",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Markus Berger/2026.08.12 08-02 TRIMIS Re AW Angebotsanfrage Ausführungsstatik  4b71157d.txt",
+          "hash": "356d5ee03a14464dd156908ef5bdadbe8f0a32fe90ed5136d3877f2d832ea747",
+          "data": "2026.08.12",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "BINS",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Markus Berger/2026.07.22 d0ec91b4 POLSET_A559847312_2016-08-09_aktuell_Deckung.pdf",
+          "hash": "a30e10834517cf9812fafdb1bf9686983901c2095c024f85b67076dda6067194",
+          "data": "2016.08.09",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C06"
+    },
+    {
+      "prestator": "BERGER",
+      "tema": "Etape și PI înainte de execuție",
+      "obiectie_probabila": "Graficul AG și review-ul PI al planurilor nu erau oferite ca etape separate.",
+      "evaluare": "Grafic nou; sumele sunt reconciliate și R05 interzice avansul pentru PI neefectuat.",
+      "pozitie_recomandata": "Negociați livrabilele PI și scadența obiectivă; nu achitați doar pentru planurile elaborate de aceeași persoană fără prestația PI distinctă.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C07"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Bauwerksbuch și funcția PI",
+      "obiectie_probabila": "AN01 nu numește expres BWB sau asumarea integrală a PI; BWB a fost cerut ulterior separat.",
+      "evaluare": "Obiecție susținută de surse, cu nuanța că AN01 trimite la LB AG și cuprinde verificări și contribuții finale. Nu rezultă lipsa oricărei verificări.",
+      "pozitie_recomandata": "Obțineți acord explicit pentru funcțiile complete în 69.300; nu prezentați BWB ca ofertat la zero.",
+      "sursa": [
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "LB",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+          "hash": "a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b",
+          "data": "2026.07.20",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "PB",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Emailuri/Pech/2026.09.29 09-59 TRIMIS Angebotsanfrage Bauwerksbuch gemäß § 128 7dd1b621.txt",
+          "hash": "caf8ab4d24d007edc325d0869e8f5e84cbb838b5643319a77e82ec8ee2dc79d5",
+          "data": "2026.09.29",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C08"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Index și costuri conexe",
+      "obiectie_probabila": "AGB păstrează ZT-Index, cheile și costurile întârzierilor.",
+      "evaluare": "Condiții originale expres înlocuite de propunere; legitim de negociat înainte de acceptare.",
+      "pozitie_recomandata": "Preț fix pe scop și cheltuieli incluse doar după acord; păstrați efectele legale ale împiedicării distincte.",
+      "sursa": [
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C09"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Numărul controalelor necesare",
+      "obiectie_probabila": "Cele 12 pot să nu ajungă; controlul legal nu poate fi omis.",
+      "evaluare": "Susținut de realitatea etapizării, nu dovadă că sunt deja necesare toate cele 6 suplimentare. R05 remunerează 13–18 la 450 când sunt reale/neacoperite și aprobate, fără dubla plată.",
+      "pozitie_recomandata": "Confirmați Beschauplan și registrul de numărare; dacă este nevoie peste 18 termene, utilizați procedura de notificare/decizie sigură, nu o limită tehnică automată.",
+      "sursa": [
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "LB",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+          "hash": "a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b",
+          "data": "2026.07.20",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C10"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Teren 800 și recepția comună",
+      "obiectie_probabila": "Inspecția terenului este o prestație distinctă față de însoțirea execuției.",
+      "evaluare": "Pos. 04 și 05 sunt separate în original. Fără bază pentru a elimina automat 800; trebuie însă conținuturi distincte și numărare comună.",
+      "pozitie_recomandata": "Clarificați alocarea celor două livrabile; nu permiteți o nouă taxă de deplasare sau recepție în plus doar pentru faptul că există două funcții în aceeași vizită.",
+      "sursa": [
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "LB",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+          "hash": "a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b",
+          "data": "2026.07.20",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C11"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Formate și drepturi",
+      "obiectie_probabila": "Drepturile erau păstrate de PECH chiar după plată; toate formatele obligatorii/modelul nativ sunt cerințe mai ample.",
+      "evaluare": "Restricția de drepturi este expresă; LB cerea modele la cerere, nu toate livrabilele noi fără discuție.",
+      "pozitie_recomandata": "Confirmați licența pentru proiect, interoperabilitatea și limitele bibliotecilor; nu pretindeți transferul software-ului netransmisibil.",
+      "sursa": [
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "LB",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+          "hash": "a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b",
+          "data": "2026.07.20",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C12"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Plată și retenție",
+      "obiectie_probabila": "Am oferit 14 zile și Kein Haftrücklass, nu 30 zile și retenție 3 ani.",
+      "evaluare": "Obiecție susținută de original. Nu autorizează condiții mai rele decât cele ulterior acceptate.",
+      "pozitie_recomandata": "Negociați mecanismul obiectiv de scadență și alternativa bancară; controlați costurile și evitați dubla securizare.",
+      "sursa": [
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "LB",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+          "hash": "a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b",
+          "data": "2026.07.20",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C13"
+    },
+    {
+      "prestator": "PECH",
+      "tema": "Penalitate nouă",
+      "obiectie_probabila": "Nu am ofertat 0,1%/zi sau plafonul 3.465; BERGER nici nu are penalitate nouă.",
+      "evaluare": "Condiție AG nouă vizibilă și negociabilă, nu eroare a ofertei.",
+      "pozitie_recomandata": "Dacă rămâne în propunere, recunoașteți proveniența AG și condițiile limitate; evaluarea juridică este separată.",
+      "sursa": [
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C14"
+    },
+    {
+      "prestator": "Ambele",
+      "tema": "Investigații autonome / laborator / refacere",
+      "obiectie_probabila": "Un onorariu de proiectare nu este buget total pentru toate investigațiile și probele fizice.",
+      "evaluare": "Sursele și §8 separă aceste prestații. BWB complet poate necesita specialiști incluși în pachet, dar nu executarea fizică a tuturor reparațiilor.",
+      "pozitie_recomandata": "Pregătiți lista necesităților/terților cu acord și costuri; păstrați separarea controalelor documentare de teste noi.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "LB",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+          "hash": "a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b",
+          "data": "2026.07.20",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C15"
+    },
+    {
+      "prestator": "Ambele",
+      "tema": "Împiedicare din sfera AG și durata reală",
+      "obiectie_probabila": "Un șantier întrerupt sau documente/acces lipsă pot produce timp pierdut și costuri.",
+      "evaluare": "R05 păstrează analiza legală și probatorie; nici toate costurile sunt automat excluse, nici toate facturile de staționare sunt automat datorate.",
+      "pozitie_recomandata": "Notificare, cauză, pregătire de executare, costuri și economii documentate; fără tarif lunar fictiv și fără renunțare implicită la drepturi.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C16"
+    },
+    {
+      "prestator": "Ambele",
+      "tema": "D1 și celelalte termene noi",
+      "obiectie_probabila": "Datele relative și disponibilitatea în 24h pot depăși capacitatea noastră.",
+      "evaluare": "Nici oferta BERGER, nici PECH nu oferă acel calendar complet; LB conținea alte ipoteze.",
+      "pozitie_recomandata": "Confirmați resursele și calendarul pe livrabile înainte de acceptare; nu afirmați întârzieri contractuale înainte de T0 real.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "LB",
+          "cale": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+          "hash": "a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b",
+          "data": "2026.07.20",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C17"
+    },
+    {
+      "prestator": "Ambele",
+      "tema": "Prețurile originale nu garantează acceptarea extinderilor",
+      "obiectie_probabila": "Scopul, duratele și garanțiile sunt mai ample chiar dacă totalurile sunt păstrate.",
+      "evaluare": "Obiecție comercială plauzibilă. Nu înseamnă că propunerea AG este nelegală sau că o contrapropunere trebuie acceptată.",
+      "pozitie_recomandata": "Tratați R05 ca ofertă completă de negociere. Comparați eventualele contrapropuneri în aceeași matrice de scop/preț și decideți numai după probe.",
+      "sursa": [
+        {
+          "id": "B1",
+          "cale": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+          "hash": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b",
+          "data": "2026.08.17",
+          "pagina": "",
+          "citat_original": ""
+        },
+        {
+          "id": "P1",
+          "cale": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+          "hash": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1",
+          "data": "2026.09.17",
+          "pagina": "",
+          "citat_original": ""
+        }
+      ],
+      "id_vechi": "C18"
+    }
+  ],
+  "documente_sursa": [
+    {
+      "provider": "BERGER",
+      "files": {
+        "json": "00.Proiect/09. Vertraege/2026.10.13 Reorganizare juridica si audit/2026.10.13 Werkvertrag BERGER R05.json",
+        "docx": "00.Proiect/09. Vertraege/bmberger.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag BERGER R05.docx",
+        "pdf": "00.Proiect\\09. Vertraege\\bmberger.at\\2026.10.13 Juristischer Werkvertrag\\2026.10.13 Werkvertrag BERGER R05.pdf"
+      },
+      "sha256": {
+        "json": "fa98c77f34a4775b40d75a54731294d404e9b8e09140eda5e40597c435a2307b",
+        "docx": "dd3c3d8e1b68ac522cb643e0625dbbdc2a6aab681f8ab8317827f5cb5e5901a4",
+        "pdf": "5b29581b6af90ec2413e491c0c4b28792bedd06e7cf2300a8eaf3898a8551d5b"
+      },
+      "pages": 23,
+      "paragraph_count": 118,
+      "word_missing_paragraphs": [],
+      "tables_count": 11,
+      "tables_exact_order": true,
+      "pdf_missing_paragraphs": [],
+      "cell_count": 306,
+      "pdf_missing_cells": []
+    },
+    {
+      "provider": "PECH",
+      "files": {
+        "json": "00.Proiect/09. Vertraege/2026.10.13 Reorganizare juridica si audit/2026.10.13 Werkvertrag PECH R05.json",
+        "docx": "00.Proiect/09. Vertraege/zt-pech.at/2026.10.13 Juristischer Werkvertrag/2026.10.13 Werkvertrag PECH R05.docx",
+        "pdf": "00.Proiect\\09. Vertraege\\zt-pech.at\\2026.10.13 Juristischer Werkvertrag\\2026.10.13 Werkvertrag PECH R05.pdf"
+      },
+      "sha256": {
+        "json": "61976fa684150acd5b862a134d974d60425034943453eeceaef739fbc3ab166a",
+        "docx": "efa8d1e33fc92837344374e04a979c4880bf40611208f66c9a9aadf0ac1957d7",
+        "pdf": "60cac119f679cf699c1951d42a833339608d5929c730288f2965d11cf0d9dc3d"
+      },
+      "pages": 22,
+      "paragraph_count": 115,
+      "word_missing_paragraphs": [],
+      "tables_count": 10,
+      "tables_exact_order": true,
+      "pdf_missing_paragraphs": [],
+      "cell_count": 292,
+      "pdf_missing_cells": []
+    }
+  ],
+  "originale": {
+    "BERGER": {
+      "path": "00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Anlage 5 Originalangebot BERGER 2026.08.17.pdf",
+      "sha256": "b9d4297e8e68277cc146d00dc5527711640c0da61f1b32f74cddafa6071fc80b"
+    },
+    "PECH": {
+      "path": "00.Proiect\\09. Vertraege\\2026.10.13 Reorganizare juridica si audit\\2026.10.13 Anlage 5 Originalangebot PECH 2026.09.17.pdf",
+      "sha256": "29495a44171efd95e99b68de2b646d6f0eaf3ecf440e89bd00a9adb82cb74ef1"
+    },
+    "Q_AG": {
+      "path": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Pech/2026.07.20 a856a9fb Anfrage_Ausfuehrungsstatik.docx",
+      "sha256": "a5ad4c82158a77b49d72638a8f42127183bdae0ac84707ae88cca1e97a41c53b",
+      "status": "cerere AG TRIMISĂ, nu acceptare integrală a prestatorului; copie Berger identică b5073160"
+    },
+    "POL_B": {
+      "path": "08. Corespondenta/2026.09.30 Arhiva Eva-Mail/Atasamente/Markus Berger/2026.07.22 d0ec91b4 POLSET_A559847312_2016-08-09_aktuell_Deckung.pdf",
+      "sha256": "a30e10834517cf9812fafdb1bf9686983901c2095c024f85b67076dda6067194"
+    }
+  },
+  "comparatie_integrala_R05": {
+    "acoperire": "Comparate toate cele 16 capitole/alineate, toate cele 6 anexe, paragrafe și tabele. Diferențele sintetizate în D01–D10; Anexele 1 și 2 identice integral.",
+    "alineate_diferite": [
+      {
+        "clauza": "§ 1(2)",
+        "berger_original_R05": "Auftragnehmer (AN) ist Bmstr. Dipl.Ing.(FH) Markus BERGER GmbH, Schönbrunner Straße 123/2, 1050 Wien; E-Mail office@bmberger.at. Firmenbuchnummer, Firmenbuchgericht, UID und vertretungsberechtigte Person werden in Anlage 6 vor Unterzeichnung ergänzt.",
+        "pech_original_R05": "Auftragnehmer (AN) ist Dr. PECH Ziviltechnikergesellschaft mbH, FN 426034x, Handelsgericht Wien, UID ATU69226367; Johann Strauß-Gasse 32/11, 1040 Wien; E-Mail office@zt-pech.at; Telefon +43 1 505 36 80. Projektkontakt laut Angebot: DI Bernhard Ployer, ployer@zt-pech.at, +43 1 5053680-33. Die firmenmäßig vertretungsberechtigte Person und die verbindlich eingesetzten Fachpersonen werden in Anlage 6 bestätigt."
+      },
+      {
+        "clauza": "§ 5(3)",
+        "berger_original_R05": "Der Beschauplan wird aus Bewilligung, Tragwerk, Bauablauf und gesetzlichen Prüfpflichten entwickelt. Er umfasst erforderliche Prüfungen von Untergrund, Fundamenten, Bewehrung, Trägern, Stützen und Schweißverbindungen, Rohbaubeschau und Nachweise der konsens- und vorschriftsgemäßen Ausführung, einschließlich tragwerksrelevanter Ausbau- und Endprüfungen. Die Terminanzahl nach § 7 begrenzt keine gesetzlich oder sicherheitsbedingt notwendige Prüfung.",
+        "pech_original_R05": "Der Beschauplan wird aus Bewilligung, Tragwerk, Bauablauf und gesetzlichen Prüfpflichten entwickelt. Er umfasst erforderliche Prüfungen von Untergrund, Fundamenten, Bewehrung, Trägern, Stützen und Schweißverbindungen, Rohbaubeschau und Nachweise der konsens- und vorschriftsgemäßen Ausführung, einschließlich tragwerksrelevanter Ausbau- und Endprüfungen. Die Terminanzahl nach § 7 begrenzt keine gesetzlich oder sicherheitsbedingt notwendige Prüfung. Die gesetzliche Prüfpflicht wird durch die Terminzahl nicht begrenzt; die Vergütung zusätzlicher, nicht bereits abgegoltener Ortstermine richtet sich nach § 7."
+      },
+      {
+        "clauza": "§ 7(1)",
+        "berger_original_R05": "Die statische Betreuung enthält zwölf geplante Ortstermine einschließlich Startbesprechung. Abgedeckt werden Fundamentplatte, Aufzugsschacht, Deckenertüchtigung/Kernbohrungen, Dachstuhl, Balkone und Rohbauabschluss; weitere enthaltene Termine werden für Bestandswände/Anschlüsse, Holz-/Stahldetails, tragwerksrelevanten Ausbau und Abschluss nach Anlage 3 festgelegt. Erforderliche Prüfingenieur-Beschauen sind davon zu unterscheiden und werden im vereinbarten PI-Paket erbracht. Ein organisatorisch gemeinsamer Termin erfüllt nur dann beide Aufgaben, wenn beide vollständig dokumentiert sind; es gibt keine Doppelverrechnung.",
+        "pech_original_R05": "Position 05 umfasst die technische Begleitung und zwölf vor Ort durchgeführte Abnahmen einschließlich Vorbereitung, Anreise, Befund und notwendiger Nachbearbeitung. Mehrere an einem gemeinsamen Termin vollständig geprüfte Bauteile oder zugleich wahrgenommene PI-/Statikfunktionen zählen als ein Ortstermin. Ein gewöhnliches digitales Start- oder Abstimmungsgespräch ist keine zusätzliche kostenpflichtige Abnahme."
+      },
+      {
+        "clauza": "§ 7(4)",
+        "berger_original_R05": "Die AG kann zusätzlich zu den zwölf enthaltenen Betreuungsterminen bis zu sechs weitere echte Betreuungstermine nach Bedarf einzeln beauftragen. Der Preis ergibt sich je Termin aus EUR 2.000,00 / zwölf, als gerundeter Informationswert rund EUR 166,67 netto; die verbindliche kumulative Berechnung und Rundung regelt Anlage 4. Enthalten sind Vorbereitung, An- und Abreise, Terminwahrnehmung, Protokoll und übliche unmittelbare Nachbearbeitung. Anlass, Bauteil, Termin und Beauftragung durch eine befugte Person nach § 16 sind vor Durchführung nach § 11 zu dokumentieren. Die Option ist keine Vorausbestellung; nur tatsächlich beauftragte und ausgeführte Zusatztermine werden vergütet. Eigene Fehlerkorrekturen und bereits im PI-Paket geschuldete Beschauen sind keine solche Zusatzleistung; dieselbe Leistung darf nicht zusätzlich nach Regie oder als Nebenkosten verrechnet werden. Diese zwölf enthaltenen Termine und der abgeleitete Optionspreis sind neue Vertragsregelungen, keine im Originalangebot bereits zugesagten Bedingungen.",
+        "pech_original_R05": "Die AG kann zusätzlich zu den zwölf enthaltenen Abnahmen bis zu sechs weitere echte Abnahmen nach Bedarf einzeln zu EUR 450,00 netto je Termin, bei 20 % Umsatzsteuer EUR 540,00 brutto, beauftragen. Enthalten sind Vorbereitung, An- und Abreise, Terminwahrnehmung, Protokoll und übliche unmittelbare Nachbearbeitung. Anlass, Bauteil, Termin und Beauftragung durch eine befugte Person nach § 16 sind vor Durchführung nach § 11 zu dokumentieren. Die Option ist keine Vorausbestellung; nur tatsächlich beauftragte und ausgeführte Zusatztermine werden vergütet. Eigene Fehlerkorrekturen und bereits durch einen enthaltenen oder vergüteten Termin abgegoltene Beschauen sind keine Zusatzleistung. Eine gemeinsame PI-/Statik-Wahrnehmung zählt als ein Ortstermin; bei einem zusätzlichen erforderlichen, noch nicht abgegoltenen Ortstermin gilt die Vergütungsregel dieses Absatzes, ohne die gesetzliche Prüfpflicht einzuschränken. Dieselbe Leistung darf nicht zusätzlich nach Regie oder als Nebenkosten verrechnet werden. Bei vollständiger Beauftragung und Ausführung aller sechs Optionen beträgt der Zuschlag EUR 2.700,00 netto beziehungsweise EUR 3.240,00 brutto bei 20 % Umsatzsteuer."
+      },
+      {
+        "clauza": "§ 9(2)",
+        "berger_original_R05": "Die vereinbarte Bauphase umfasst achtzehn Kalendermonate ab B0 zum unveränderten Gesamtpauschalhonorar nach § 11. B0 ist der in Anlage 3 dokumentierte tatsächliche Beginn der baulichen Ausführung am Objekt; Vertragsunterzeichnung, Planungsbeginn T0, PI-Bestellung oder bloße administrative Vorbereitung sind kein B0. Vor Unterzeichnung ist der voraussichtliche B0 zu vereinbaren; der tatsächliche Beginn und das daraus errechnete Ende des achtzehnmonatigen Bauphasenrahmens werden bei Baubeginn schriftlich festgehalten. Die vor B0 erforderliche Planung ab T0 verbraucht diesen Zeitraum nicht. Die zwölf Betreuungstermine nach § 7 werden bedarfsgerecht über die Bauphase verteilt; gesetzliche PI-Prüfpflichten und vollständige Abschlussleistungen bleiben gesondert geschuldet. Der bestätigte phasenweise Ablauf innerhalb dieses Rahmens begründet für sich keine Behinderungs- oder Zusatzvergütung. Gesetzlich frühere Fristen, insbesondere für das Bauwerksbuch des bestehenden Gebäudes, gehen dem Bauphasenrahmen vor; die rechtzeitige Erstellung beziehungsweise Registrierung und anschließende Fortschreibung für die neuen Eingriffe sind im Grundumfang enthalten. D1 ist bis drei, D2 bis sechs, D3 bis acht, D4 bis zehn und D5 bis zwölf Kalenderwochen ab T0 zu liefern, sofern in Anlage 3 keine beiderseits unterschriebenen abweichenden relativen Fristen festgelegt werden.",
+        "pech_original_R05": "Die vereinbarte Bauphase umfasst achtzehn Kalendermonate ab B0 zum unveränderten Gesamtpauschalhonorar nach § 11. B0 ist der in Anlage 3 dokumentierte tatsächliche Beginn der baulichen Ausführung am Objekt; Vertragsunterzeichnung, Planungsbeginn T0, PI-Bestellung oder bloße administrative Vorbereitung sind kein B0. Vor Unterzeichnung ist der voraussichtliche B0 zu vereinbaren; der tatsächliche Beginn und das daraus errechnete Ende des achtzehnmonatigen Bauphasenrahmens werden bei Baubeginn schriftlich festgehalten. Die vor B0 erforderliche Planung ab T0 verbraucht diesen Zeitraum nicht. Zwölf Abnahmen nach § 7 werden bedarfsgerecht über die Bauphase verteilt; zwölf Abnahmen sind keine zwölf Monate. Gesetzliche PI-Prüfpflichten und vollständige Abschlussleistungen bleiben gesondert geschuldet. Der bestätigte phasenweise Ablauf innerhalb dieses Rahmens begründet für sich keine Behinderungs- oder Zusatzvergütung. Gesetzlich frühere Fristen, insbesondere für das Bauwerksbuch des bestehenden Gebäudes, gehen dem Bauphasenrahmen vor; die rechtzeitige Erstellung beziehungsweise Registrierung und anschließende Fortschreibung für die neuen Eingriffe sind im Grundumfang enthalten. Vereinbart werden D1 bis drei Kalenderwochen ab T0 und ein innerhalb von fünf Werktagen ab T0 beiderseits bestätigter Lieferplan für D2-D5 vor den jeweiligen Bestellungen und Ausführungsarbeiten; die ursprünglichen Angebotsfristen waren mit der AG abzustimmen."
+      },
+      {
+        "clauza": "§ 9(6)",
+        "berger_original_R05": "Der Lieferplan berücksichtigt die zehn Werktage für die vereinbarte Leistungsprüfung sowie die technisch angemessene Korrekturzeit vor Bestellung, Fertigung, Betonage oder Verdecken. Lieferdatum und Ausführungshaltepunkt werden getrennt festgelegt. Bis zur Klärung einer tatsächlich offenen Ausführungs- oder Mitwirkungsentscheidung werden nur sichere, davon nicht betroffene Leistungen bearbeitet. Die vereinbarten relativen Lieferfristen bleiben ohne wirksam vereinbarte Änderung maßgeblich; eine fehlende Abstimmung bedeutet keine Freigabe unzureichend geplanter kritischer Arbeiten. Gesetzlich begründete Folgen der Verzögerung richten sich nach diesem Vertrag und Gesetz.",
+        "pech_original_R05": "Der Lieferplan berücksichtigt die zehn Werktage für die vereinbarte Leistungsprüfung sowie die technisch angemessene Korrekturzeit vor Bestellung, Fertigung, Betonage oder Verdecken. Lieferdatum und Ausführungshaltepunkt werden getrennt festgelegt. Bleiben bei PECH die Termine D2 bis D5 innerhalb der vereinbarten fünf Werktage ungeklärt, fordern die Parteien unverzüglich eine konkrete Entscheidung mit angemessener Nachfrist an. Bis zur Klärung werden nur sichere, terminlich nicht betroffene Leistungen bearbeitet; es gilt weder ein erfundener Liefertermin noch eine Freigabe zum Beginn unzureichend geplanter kritischer Arbeiten. Gesetzlich begründete Folgen der Verzögerung richten sich nach diesem Vertrag und Gesetz."
+      },
+      {
+        "clauza": "§ 11(1)",
+        "berger_original_R05": "Das Gesamtpauschalhonorar beträgt EUR 45.000,00 netto, zuzüglich angebotener 20 % Umsatzsteuer EUR 9.000,00, insgesamt EUR 54.000,00 brutto. Die ursprünglichen Positionen sind in Anlage 4 unverändert erhalten. Sie umfassen den in diesem Vertrag beschriebenen Gesamtumfang einschließlich vollständigem Prüfingenieurpaket und Bauwerksbuch für Bestand und neue Eingriffe. Es entsteht hierfür kein zusätzliches gesondertes Bauwerksbuchhonorar. Im Gesamtpreis enthalten sind die vereinbarte Planung ab T0, die übernommenen Leistungen während der gesamten achtzehnmonatigen Bauphase ab B0 sowie die zugehörigen üblichen Abschluss- und Dokumentationsleistungen, auch bei ihrer Fertigstellung nach Ende dieses Zeitrahmens. Eine vereinbarte Bauphasenlänge ist keine monatliche Vergütung; die in §§ 9, 11 und 15 geregelten echten Änderungen und gesetzlichen Behinderungsfolgen bleiben getrennt.",
+        "pech_original_R05": "Das Gesamtpauschalhonorar beträgt EUR 69.300,00 netto, zuzüglich angebotener 20 % Umsatzsteuer EUR 13.860,00, insgesamt EUR 83.160,00 brutto. Die ursprünglichen Positionen sind in Anlage 4 unverändert erhalten. Sie umfassen den in diesem Vertrag beschriebenen Gesamtumfang einschließlich vollständigem Prüfingenieurpaket und Bauwerksbuch für Bestand und neue Eingriffe. Es entsteht hierfür kein zusätzliches gesondertes Bauwerksbuchhonorar. Im Gesamtpreis enthalten sind die vereinbarte Planung ab T0, die übernommenen Leistungen während der gesamten achtzehnmonatigen Bauphase ab B0 sowie die zugehörigen üblichen Abschluss- und Dokumentationsleistungen, auch bei ihrer Fertigstellung nach Ende dieses Zeitrahmens. Eine vereinbarte Bauphasenlänge ist keine monatliche Vergütung; die in §§ 9, 11 und 15 geregelten echten Änderungen und gesetzlichen Behinderungsfolgen bleiben getrennt. Zwölf Ortstermine sind im Grundhonorar enthalten. Die gesonderte Vergütung zusätzlicher, nicht bereits abgegoltener Ortstermine nach § 7 bleibt vorbehalten; sie umfasst deren dort genannte Vorbereitung, Durchführung und übliche Dokumentation, auch bei Wahrnehmung gesetzlicher PI-Prüfpflichten. Bereits enthaltene beziehungsweise bezahlte Leistungen werden nicht doppelt verrechnet."
+      },
+      {
+        "clauza": "§ 13(6)",
+        "berger_original_R05": "Eine besondere Vertragsstrafe wird nicht vereinbart; Ansprüche wegen Verzuges richten sich nach Gesetz und den vorstehenden Regelungen.",
+        "pech_original_R05": "Bei schuldhaftem Überschreiten eines verbindlichen Liefertermins beträgt die Vertragsstrafe 0,1 % des in Anlage 4 bezifferten Nettobetrags des betroffenen Liefermeilensteins je Werktag, insgesamt höchstens fünf Prozent des Gesamtnettohonorars, somit EUR 3.465,00. Für bloße Zieltermine oder gerechtfertigte Terminverschiebungen entsteht keine Strafe. Ersatz eines darüber hinausgehenden nachgewiesenen Schadens bleibt nach Gesetz möglich; die Strafe ist auf denselben Schaden anzurechnen. Gesetzliche Mäßigungsrechte bleiben erhalten."
+      },
+      {
+        "clauza": "§ 14(2)",
+        "berger_original_R05": "Die im ursprünglichen Angebot verwendete Ingenieurkonsulentenbezeichnung mit dem Zusatz «rB» ist kein Nachweis einer derzeit aktiven ZT-Befugnis. Für befugnispflichtige Leistungen und Urkunden muss der aktive Status belegt oder eine geeignete vorab benannte befugte Person im Paket eingesetzt werden.",
+        "pech_original_R05": "Die Firmenbezeichnung als Ziviltechnikergesellschaft und der im Angebot genannte Projektkontakt legen noch nicht automatisch die konkret eingesetzte Prüf- oder unterzeichnende Person fest. Aktuelle gesellschafts- und berufsrechtliche Berechtigungen sind für die jeweiligen übernommenen Funktionen nachzuweisen."
+      },
+      {
+        "clauza": "§ 14(4)",
+        "berger_original_R05": "Als vertraglicher Ausgangswert gilt eine Deckungssumme von EUR 1.000.000,00 je Versicherungsfall für die beauftragten beruflichen Tätigkeiten, sofern nicht anhand aktueller Versicherungsnachweise eine andere Deckungssumme in Anlage 6 ausdrücklich vereinbart wird. Zwingende gesetzliche Versicherungspflichten bleiben unberührt. Die maßgeblichen Jahreshöchstleistungen, gemeinsamen Versicherungssummen, Sublimits, Selbstbehalte und wesentlichen Ausschlüsse sind anhand aktueller Nachweise in Anlage 6 offenzulegen; eine zusätzliche Verpflichtung zur zweifachen Jahresdeckung wird nicht begründet. Eine historische Polizze oder eine bloße Erklärung des AN bestätigt nicht die aktuelle Deckung der einzelnen übernommenen Funktionen.",
+        "pech_original_R05": "Die erforderliche Mindestdeckung je Fall und Jahresmaximierung werden in Anlage 6 vor Unterzeichnung verbindlich ergänzt; eine bislang nicht nachgewiesene Versicherungssumme wird nicht unterstellt."
+      }
+    ]
+  },
+  "hash_surse_R05": {
+    "BERGER": "fa98c77f34a4775b40d75a54731294d404e9b8e09140eda5e40597c435a2307b",
+    "PECH": "61976fa684150acd5b862a134d974d60425034943453eeceaef739fbc3ab166a"
+  },
+  "clarificari_noi_material": [
+    {
+      "id": "K01",
+      "data": "2026.10.13",
+      "tema": "D5 și planuri de atelier ale furnizorilor primite ulterior",
+      "efect": "E5 și P06 precizate pentru a evita condiționarea termenului D5 de documente viitoare neprimite. Numai materialul separat de negociere este actualizat; R05 nemodificat."
+    },
+    {
+      "id": "K02",
+      "data": "2026.10.13",
+      "tema": "P09: facturare curentă distinctă de pretențiile din § 1168",
+      "efect": "Regula livrării efective limitează facturarea curentă pe etape; nu exclude pretențiile ori decontul justificat din împiedicare/încetare P13/P14."
+    },
+    {
+      "id": "K03",
+      "data": "2026.10.13",
+      "tema": "P14: venitul alternativ imputabil potrivit § 1168",
+      "efect": "Deductibil este venitul alternativ efectiv realizat sau omis intenționat; nu toate posibilitățile ipotetice. Normă RIS primară NOR12018908 recitită."
+    },
+    {
+      "id": "K04",
+      "data": "2026.10.13",
+      "tema": "Corecție editorială P02 către P07",
+      "efect": "Referința internă N07 este înlocuită cu P07; nicio modificare de fond."
+    }
+  ],
+  "istoric_material_negociere": [
+    {
+      "versiune": "N01.1",
+      "json": "2026.10.13 Obiectii negociere reformulate N01.1.json",
+      "sha256_json": "f417405a49d72b9a4f14d0bb87a53e97fbc64c8e3d2b0d5e85666e9d245d914b",
+      "txt": "2026.10.13 Obiectii negociere reformulate N01.1.txt",
+      "sha256_txt": "865da20458fb1f34c2b5bc62939387a9d7df3e8ee53a6ce4230196f62efffc98"
+    },
+    {
+      "versiune": "N01.2",
+      "json": "2026.10.13 Obiectii negociere reformulate N01.2.json",
+      "sha256_json": "915fdd30edf10dc8628b9e8c073a325af9b44bb330c436740d5acc9300467740",
+      "txt": "2026.10.13 Obiectii negociere reformulate N01.2.txt",
+      "sha256_txt": "13ca41a947163f7461ee526b71970c3741fb653b1cbb912447e227472d251a72"
+    }
+  ]
+}

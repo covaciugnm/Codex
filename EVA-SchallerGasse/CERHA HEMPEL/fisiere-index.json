@@ -1,0 +1,84 @@
+[
+  {
+    "source_reference": "D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\08. Corespondenta\\2026.10.13 CERHA notificare 26-30363\\2026.10.13 DRAFT raspuns plata CERHA.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 DRAFT raspuns plata CERHA--84feccf2.json",
+    "bytes": 1092,
+    "sha256": "fe08132daecd7b43277c12edee31d92a6b7422388126c6254113908fc46179d6"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.10.13 Verificare CERHA 26-30363\\2026.10.13 Control 2 pagina 1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Control 2 pagina 1--8113f345.png",
+    "bytes": 88449,
+    "sha256": "a5681d45565b4cce951dbbe758a936292d6f4fd70b8393c8c60d275ca1de14ef"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.10.13 Verificare CERHA 26-30363\\2026.10.13 Control 3 pagina 1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Control 3 pagina 1--97018441.png",
+    "bytes": 127624,
+    "sha256": "7c6c564af88f53442cfd043d0004dfbf39eae55daba2a070db7111aa35f49fb7"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.10.13 Verificare CERHA 26-30363\\2026.10.13 Control 3 pagina 2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Control 3 pagina 2--a669c219.png",
+    "bytes": 162120,
+    "sha256": "269fda65e77de1a6deb9cdec480fb0ba002fb9b262aff5f81f434bffe58f7dfd"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.10.13 Verificare CERHA 26-30363\\2026.10.13 Control 3 pagina 3.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Control 3 pagina 3--22ac1f08.png",
+    "bytes": 23792,
+    "sha256": "a6adbf926fb4fc3b563d7f723a44e5d9b611175eaaa0a03916bb43471668ac33"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.10.13 Verificare CERHA 26-30363\\2026.10.13 Control 4 pagina 1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Control 4 pagina 1--209f88c6.png",
+    "bytes": 149339,
+    "sha256": "6f7b391757d05c0e09a08c1c8bbb97142695ad63c30fdcc3799d259f3cfea49b"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\10. Banci + Extrase de cont\\2026.10.13 Verificare CERHA 26-30363\\2026.10.13 Control 4 pagina 2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 Control 4 pagina 2--9c85997a.png",
+    "bytes": 110577,
+    "sha256": "863620e7291fd7586d8187e520860ca9e20b7ec50ef7aaf0c25c7a55e7ce2852"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.13 CERHA octeti temporari.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 CERHA octeti temporari--17748e1d.json",
+    "bytes": 260325,
+    "sha256": "7ee8a2b4522e431b3185523f7d8261a2839c89c61dc93262ec41453942b5f675"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.13 CERHA surse temporare.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 CERHA surse temporare--6554e2a3.json",
+    "bytes": 23148,
+    "sha256": "762ef73004cda15c565b44e1e21d1e1f439f5222ea95d93196ca97abb39e31c4"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.10.13 verifica CERHA.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.10.13 verifica CERHA--990ca73c.py",
+    "bytes": 5633,
+    "sha256": "3acb5215bd5ecbc246d07e0202ff5f143f138527bc4bc4e04abd7ad5b7d486ec"
+  },
+  {
+    "source_reference": "http://www.cerhahempel.com/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "mailto:bogdan.capra@cerhahempel.com",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

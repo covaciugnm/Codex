@@ -1,0 +1,79 @@
+JURNAL TOMS — CONTRACT PROPUS 01.10.2026, VERSIUNEA 3
+Actualizat la 30.09.2026. Proiect: Schallergasse 35, 1120 Wien.
+Stare: propunere contractuală pregătită; două ciorne EVA netrimise; nu există în această verificare acceptarea sau semnătura TOMS pe v3.
+
+1. CE AM VERIFICAT
+- Dosarul local TOMS, contractul v2.2, ofertele ANG 839/855/891, chestionarele semnate la 23.09 și 28.09, documentele firmei și asigurarea.
+- Corespondența disponibilă în Eva-Mail, căsuța office@ac-wohnart.at.
+- Emailul Dagmar Zottl 23.09.2026, ID 424871d3-119b-4550-81cb-db46f02a3cd5, confirmă prelungirea ofertelor 839/840/855 până la 31.12.2026. Concluzia locală anterioară privind expirarea la 03.10 este depășită de această dovadă.
+- Emailul TOMS 24.09 cere toate planșele istorice complete, nu doar cartușele. Ultimul răspuns găsit este cel din 28.09 cu chestionarul 2 semnat. Căutarea TOMS din 29.09 încoace nu a returnat mesaje.
+- Vizita din 25.09 nu a fost acceptată de TOMS. Emailul trimis la 22.09 cerea alte propuneri; nu am găsit confirmarea efectuării vizitei.
+- Accesul la portal era într-o ciornă EVA din 29.09, ID 1fbc11b5-d71e-436f-8bac-7fa45cb4ecc4, status pending. Nu am găsit un email trimis cu parola furnizată. Existau 12 rezultate trimise relevante TOMS; cele recente nu confirmă expedierea accesului.
+- Nu am autentificat sau verificat independent conținutul privat al site-ului. Descrierea planurilor încărcate se bazează pe instrucțiunile beneficiarului și ciorna existentă; contractul cere confirmarea accesului și o listă a planurilor.
+
+2. CE AM PREGĂTIT
+Contract german v3, datat 01.10.2026, Word și PDF. Copiile principale locale sunt identice în bytes cu documentele generate și atașate în EVA. Varianta intermediară cu tabele este păstrată numai în _lucru și nu este atașamentul emailului.
+- 25.000 EUR net: proiectare; 1.500 EUR: asistență; 8.000 EUR: verificator; 3.400 EUR: Bauwerksbuch.
+- Total 37.900 EUR net + 7.580 EUR TVA = 45.480 EUR brut.
+- Calculul nodurilor/îmbinărilor metalice și din lemn, diblurile/ancorele, grosimile plăcilor și sudurilor sunt incluse fără supliment, la cererea beneficiarului. Acest lucru diferă de răspunsul TOMS din 28.09 și rămâne de acceptat prin semnare.
+- Forțele de îmbinare/reazem/ancorare trebuie înscrise explicit pe planuri. Emailul nu evidențiază separat această clauză.
+- Detaliile grafice, specificarea generală a elementelor de îmbinare în afara elementelor incluse expres, listele pe plan și detaliile contravântuirilor sunt separate, ofertabile contra cost. Nu sunt comandate automat.
+- O singură etapă de Planwechsel în contextul reducerii pereților și numărului de apartamente, ajustărilor necesare din calcule sau cerințelor autorităților. Afirmația privind lipsa extinderii structurale este premisa beneficiarului, nu un rezultat de calcul certificat.
+- Planurile de pe portal sunt descrise ca aproximativ 99% finale. Numele fișierelor, data și indexul trebuie fixate la semnare.
+- Bauwerksbuch: prețul ofertat acceptat în propunere; fără reducere cerută. Vorfasssung cu 20 zile lucrătoare înaintea notificării; predare finală și înregistrare cu 10 zile lucrătoare înainte; completarea constatărilor de final în maximum 5 zile lucrătoare, oricum înaintea notificării. Limita legală anterioară prevalează; pentru clădirea din 1905, cel târziu 31.12.2027. Documentația foto/fisuri și inventarul suplimentar de documente rămân excluse, fără a exclude conținutul legal obligatoriu.
+- Asigurarea Generali 03.03.2026 este acceptată ca prezentată: 1,5 milioane EUR, agregat anual dublu, valabilitate până la 01.01.2027, Nachdeckung nelimitată conform condițiilor. Franșiza de 10.000 EUR este declarația TOMS, nu un câmp confirmat în adeverința Generali. Se cere politicos confirmarea/noua anexare și condițiile poliței înainte de semnare; fără cerința de vechime maximă de trei luni.
+- BauKG și oferta ANG 840 au fost eliminate din noul contract. Originalele istorice păstrate separat nu au fost modificate.
+- Regula de prioritate a documentelor împiedică contradicțiile dintre v3 și răspunsurile istorice. Nu am pretins că v3 reproduce integral acordul deja acceptat.
+
+3. EMAILURI ÎN EVA — NETRIMISE
+A. Contract + cerere ofertă pentru detalierea separată
+ID b130fd95-bd0c-4005-89a6-77b9a90d6618
+De la office@ac-wohnart.at; către Dagmar Zottl; CC Ferdinand Toms, Simona Hotea și office@toms.at.
+5 atașamente: contract Word/PDF, cele două chestionare semnate, ANG 891.
+B. Acces portal
+ID 1fbc11b5-d71e-436f-8bac-7fa45cb4ecc4
+Ciorna existentă a fost actualizată pentru acces; destinatar principal office@toms.at, CC echipa TOMS.
+Conține adresa portalului și acreditările furnizate de beneficiar; parola nu este repetată în acest jurnal.
+Am eliminat din această ciornă cererile comerciale vechi, incompatibile cu instrucțiunile noi. Originalul este păstrat în 04 Dovezi EVA si surse.json.
+Am recitit ambele ciorne după salvare: status pending. Nu s-a trimis nimic.
+
+4. CE FACEM ȘI CE AȘTEPTĂM
+Beneficiar:
+- Revizuiește și trimite cele două ciorne din EVA.
+- Semnează cu data efectivă; 01.10 este data propusă, nu dovada unei semnări.
+- Confirmă planlista portalului și pune la dispoziție orice planșe istorice complete care lipsesc.
+TOMS:
+- Returnează v3 semnat sau observațiile; confirmă serviciile, prețul și calendarul.
+- Confirmă accesul și documentele folosite.
+- Dă prețuri și durate pentru serviciile separate, cu eventual preț de pachet.
+- Completează documentele lipsă: condiții de poliță/confirmare, autorizarea personală, echipă, înlocuitor, referințe și independență.
+- Propune două date pentru vizita la imobil.
+Nu considera obligațiile din v3 acceptate până la confirmare/semnare. Dacă semnarea are loc după 01.10, calendarul trebuie adaptat explicit, fără a antedata semnătura.
+
+5. CALENDAR PROPUS DE LIVRARE
+01.10.2026 — semnare și început contractual.
+06.10.2026 — cel târziu început efectiv; acces și planlistă; lipsuri de documentație.
+08.10.2026 — vizită/proces-verbal.
+09.10.2026 — D1.
+16.10.2026 — D2 complet.
+22.10.2026 — calculul static complet pentru D1–D5 (3 săptămâni).
+23.10.2026 — D3 cu planșe.
+28.10.2026 — D4/D5 cu planșe și predare completă.
+Plata rămâne legată de dosare complete și aprobate; transmiterea doar a calculelor nu declanșează plata unui dosar fără planșele datorate.
+Acestea sunt termene propuse, nu acceptări TOMS constatate în EVA.
+
+6. REMINDER ACTIV
+Prima verificare: 02.10.2026, ora 10:00 Europe/Bucharest = 09:00 Viena.
+Automatizare în acest task: verific-finalizarea-contractului-toms.
+O singură execuție, vineri, COUNT=1. Verifică trimiterea, semnarea, accesul, documentele, prețurile separate și vizita; nu trimite emailuri și nu modifică contracte.
+Data și ora au fost alese ca termen operațional pentru urmărirea semnării din 01.10; nu mai există presiunea expirării ofertei pe 03.10.
+Nu au fost create automatizări separate pentru fiecare livrare; termenele ulterioare rămân în acest jurnal și se confirmă după semnare.
+
+7. SURSE ȘI CONTROL
+Surse EVA și metadate: 04 Dovezi EVA si surse.json; verificarea ciornelor și reminderului: 06 Confirmari ciorne EVA si reminder.json.
+Surse legale consultate la 30.09.2026:
+https://www.wien.gv.at/wohnen/baupolizei/pdf/faq-bauwerksbuch.pdf
+https://www.wien.gv.at/amtswege/bauwerksbuch-registrierung
+Termenele de 20/10 zile lucrătoare sunt propuneri contractuale, nu termene citate din lege.
+Originalele contractuale, chestionarele, ofertele și documentele primite rămân păstrate. Noile documente sunt în acest dosar; indexul local se actualizează după salvare.
+

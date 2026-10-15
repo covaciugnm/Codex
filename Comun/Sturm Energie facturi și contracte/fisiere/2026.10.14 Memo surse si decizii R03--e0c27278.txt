@@ -1,0 +1,72 @@
+2026.10.14 — MEMO REDACTARE R03 (Solicitare justificare contractuala STURM ENERGIE GmbH)
+Statut: draft local NETRIMIS. Nu s-a creat draft Eva-Mail. Nu s-a trimis nimic.
+Baza: R02 + Audit juridic independent R02 (nota 7/10), fisier: 2026.10.14 Audit juridic R02.txt (acelasi folder Redactare).
+Fisier scrisoare: D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\06. Utilitati\UTILITATI Curent - Sturm Energie\2026.10.14 Solicitare justificare contractuala STURM\Redactare\2026.10.14 Solicitare STURM DE R03 NETRIMIS.txt
+
+1. TABEL REMEDIERI (nr. audit → aplicata / respinsa + motiv)
+
+Nr. | Tema | Decizie | Cum s-a aplicat in R03 / motiv
+----|------|---------|--------------------------------
+ 1 | IV.3 plata 115,36 EUR (personala, fara rezerva; risc §1432) | APLICATA | IV.3 inlocuit integral cu textul propus de audit: plata de o Privatperson, irrtümlich, fara Anerkenntnis, Rückforderung §1431 rezervata celui care a platit.
+ 2 | II.7 §1431 extins la platile tertilor | APLICATA | Teza a doua inlocuita: „Guthaben aus Zahlungen Dritter ... stehen nicht A&C zu und dürfen nicht ... verrechnet werden.” A&C nu mai revendica banii tertilor, doar interzice compensarea.
+ 3 | I.7 Parkring 2 doar ca adresa CERHA | APLICATA | „Diese Adresse (c/o CERHA HEMPEL Rechtsanwälte GmbH) war bis 15.09.2026 die im Firmenbuch eingetragene Geschäftsanschrift der A&C und ist seither nicht mehr aktuell.” Data 15.09.2026 confirmata de coordonator (schimbare sediu Firmenbuch).
+ 4 | III.6 refuz Mahnspesen pt „unrichtige Adresse” | APLICATA | Inlocuit cu „Mahnspesen für Mahnungen, deren Zugang bei A&C nicht nachgewiesen ist, werden nicht anerkannt.”
+ 5 | III.3 Abgrenzung dupa 20.02.2026 citibila ca admitere | APLICATA (cu precizarea coordonatorului) | Referinta la 20.02.2026/Einverleibung eliminata; introdus „ohne Anerkenntnis einer Zahlungspflicht für irgendeinen Zeitraum” si „bezogen auf den Übergabestichtag laut Kaufvertrag 405/2026 und auf das von Ihnen angegebene Lieferende”. NU s-a inventat o data de Übergabe.
+ 6 | II.4 §1404 deschide Kaufvertrag-ul | APLICATA | Teza a doua (§1404, Abreden Verkäuferin/Käuferin) stearsa. Prima teza corectata: „setzt eine entsprechende Erklärung der A&C voraus (§§ 1405, 1406 ABGB). Eine solche wurde nicht abgegeben.” §1404 nu mai e citat.
+ 7 | I.6 + Beilage 2 pos. G aliniere cu rem. 1 | APLICATA | I.6: „von einer Privatperson, nicht von A&C, bezahlt; ... (siehe IV.3)”. Beilage 2 G: „Zahlung durch Privatperson, nicht durch A&C; kein Anerkenntnis; Zuordnung zu bestätigen”.
+ 8 | I.3 atribuirea datelor Lieferende | APLICATA | „(Lieferende laut Ihrer Anlagenliste vom 16.06.2026: 18.03.2026 bzw. 08.04.2026)”.
+ 9 | I.5(c) scrisoarea 24.09.2026 continea si Top 5 Strom | APLICATA | Adaugat „sowie Top 5 Strom EUR 27,12 (ident mit Position (b))”. In Beilage 2 B1 adaugat „auch Schreiben 24.09.2026” si termenul 07.10.2026.
+10 | I.2 „Sämtliche 21 ... unter den Kundennummern” vs asterisc | APLICATA | „wurden ab 2023 beliefert, soweit ersichtlich unter den Kundennummern 42017328 und 42018142.”
+11 | II.2 inceput defensiv | APLICATA | „Soweit Sie einen schlüssigen Vertragsabschluss (§ 863 ABGB) behaupten, haben Sie ... Der Eigentumserwerb allein genügt nicht.”
+12 | Beilage 1 coloana „Vertragspartner laut STURM” | APLICATA | Coloana adaugata dupa „Lieferende”, valoare „—” pe toate 21 randuri; antet si legenda modificate la „drei letzten Spalten”.
+13 | III.6 dovada Zugang si pentru Mahnung | APLICATA | „Nachweis des Zugangs der zugrunde liegenden Rechnung und der jeweiligen Mahnung bei A&C”.
+14 | III.4 confirmare fata de Netzbetreiber | APLICATA | Adaugata fraza finala: „Weiters die Bestätigung, dass kein Zählpunkt der Liegenschaft beim Netzbetreiber als durch STURM ENERGIE auf den Namen der A&C versorgt gemeldet ist.”
+15 | IV.5 amenintare fara continut | APLICATA | Redus la „einschließlich der Befassung der zuständigen Stellen.”
+16 | II.6 §458 UGB inutil | APLICATA | Referinta la §458 UGB stearsa; ramane doar §1333 Abs. 1 und 2 ABGB.
+17 | Betreff 4 randuri → 2 | APLICATA | Betreff pe 2 randuri cu separatori „|”; paranteza „ehemaliges Kundenkonto” mutata in I.2 ca propozitie finala cu referinta Ticket 365759.
+18 | Redundanta adresa in I.7 | APLICATA | Propozitia „Die Geschäftsanschrift lautet: ...” stearsa din I.7 (adresa ramane in antet, III.7 si fraza finala).
+19 | Redundanta Vorbehalt in III.7 | APLICATA | Propozitia „Die Berichtigung der Zustelladresse stellt kein Anerkenntnis ...” stearsa (acoperita de IV.2).
+20 | III.1 si III.2 liste intr-o fraza | APLICATA | Ambele enumerari transformate in liste (a)–(f) pe randuri separate, continut identic.
+21 | Formula finala slaba | APLICATA | „Sämtliche weitere Korrespondenz ist unter Bezugnahme auf dieses Schreiben ausschließlich an die oben genannte Adresse bzw. E-Mail-Adresse zu richten.”
+22 | Antet „Zustellung per E-Mail” + telefon in semnatura | APLICATA PARTIAL | Rand „Zustellung per E-Mail; ein Postversand erfolgt nicht.” adaugat. Telefon: nu exista un numar confirmat in surse → placeholder „Tel.: [vor Versand ergänzen]” in semnatura; e-mailul ramane canalul unic clar. Daca nu se doreste telefon, se sterge placeholder-ul.
+23 | Verificare termene / Übergabestichtag | APLICATA CONFORM COORDONATOR | Termenul 16.10.2026 pastrat (expediere 14.10.2026). Nota de statut la final: la expediere 15.10 → „17.10.2026, 12:00 Uhr”. Übergabestichtag: nu s-a inserat o data, ci formularea „zum Übergabestichtag laut Kaufvertrag 405/2026”.
+24 | Hauptsicherung ausgebaut (Wiener Netze 19.03.2026) | RESPINSA | Decizie coordonator: faptul nu e confirmat documentar in dosar; nu se adauga (nici pentru gaz). Ramane argument de rezerva pentru o etapa ulterioara, dupa confirmare.
+
+Elemente confirmate de audit ca fiind corecte si pastrate neschimbate: §§ 859, 861, 862, 863, 1333, 1405, 1406, 1431 ABGB; evitarea §1409 si KSchG; tratarea termenului 19.10.2026 ca pozitie; separarea Kundennummer/Anlagennummer de Vertragsnummer; exemplul Rechnung 29708/10/2026; nota anticumulare Beilage 2.
+
+2. LUNGIME SI REDUNDANTE (criteriul C)
+- Text inainte de anexe redus prin: Betreff 2 randuri, II.2 scurtat, II.4 fara teza §1404, II.6 fara UGB, I.7 fara repetarea adresei, III.7 fara repetarea Vorbehalt-ului, IV.5 scurtat. Listele (a)–(f) din III.1/III.2 adauga randuri, nu cuvinte.
+- Bestreitung ramane in Betreff (identificare) si IV.1 (declaratie formala); din Sachverhalt lipseste. „Kein Anerkenntnis” ramane in Betreff si IV.2 (plus IV.3 pentru plata, unde e necesar specific). Adresa: antet, III.7 (cererea), fraza finala (canal de corespondenta) — fiecare cu functie distincta.
+- Estimare: cca. 2.000 de cuvinte text (fara anexe) ≈ 3 pagini A4 la font 11.
+
+3. NORME CITATE IN R03 SI MOTIV
+- §859 ABGB — izvoarele obligatiilor: Zahlungspflicht doar din contract sau temei legal.
+- §861 ABGB — Antrag + Annahme.
+- §862 ABGB — oferta neacceptata in termen se stinge (oferta STURM 25.03.2026, Ticket 323971, fara raspuns conform STURM 01.06/17.06.2026).
+- §863 ABGB — acord concludent: nu negat; sarcina de a dovedi faptele si imputarea la cel care il invoca.
+- §§1405, 1406 ABGB — Schuldübernahme/Schuldbeitritt presupun o declaratie/contract al preluatorului; Vertragsübernahme tratata analog, fara paragraf propriu. §1404 ELIMINAT (rem. 6). §1409 evitat deliberat.
+- §1333 Abs. 1 und 2 ABGB — Verzugszinsen si Betreibungskosten: cerere de calcul, temei, data Verzug, dovada Zugang factura + Mahnung.
+- §1431 ABGB — condictio indebiti: doar pentru plata din 06.08.2026, cu dreptul de restituire rezervat celui care a platit (Privatperson), nu A&C. Nu mai e aplicat la Guthaben din platile tertilor (rem. 2). §1432 ABGB nu e citat, dar formularea IV.3 („irrtümlich in der Annahme einer Zahlungspflicht”) e construita ca sa nu-i deschida aplicarea.
+- §458 UGB — ELIMINAT (rem. 16). ElWOG 2010 / GWG 2011 / KSchG — necitate (ca in R02).
+
+4. FAPTE SI SURSE (neschimbate fata de R02, cu completarile auditului)
+- 21 instalatii, identificatori, concluzia „niciun Vertragsnummer/contract A&C”, exemplul 29708/10/2026, partener „HI 1120”, UID ATU76175979: 2026.10.14 Identificatori si dovada contract\2026.10.14 Concluzie verificare contract STURM.txt
+- Pretentii (2.662,60 / 98,00 / 19.10.2026; 27,12 + 109,99; 432,66 + 7,00 cu 50457/49328/49327; Guthaben 846,92 / 29707; plata 115,36 / 29700 / 06.08.2026 „achitata personal” conform audit 30.09.2026; scrisoarea 24.09.2026 cu Top 5 Strom 27,12 si Top 17 Strom 432,66): 2026.10.14 Situatie STURM\2026.10.14 Situatie STURM.txt
+- Oferta STURM 25.03.2026 (Ticket 323971): 2026.10.14 Situatie STURM\Surse\2026.03.25 c49b8bb4.txt
+- STURM 01.06.2026 (Kündigung, oferta fara reactie): 2026.10.14 Situatie STURM\Surse\2026.06.01 46501cec.txt
+- STURM 17.06.2026 (Kündigung zum 18.03.2026, Anlagenliste, Guthaben 4000112571, Hofhans bancare sterse) + emailul nostru 08.06.2026 (extras CF, Kaufvertrag 405/2026 din 20.02.2026, Geschäftsanschrift Parkring 2 comunicata atunci de A&C — baza rem. 3): 2026.10.14 Situatie STURM\Surse\2026.06.17 f51d3f00.txt
+- Lieferende 18.03.2026 / 08.04.2026 provin din Anlagenliste 16.06.2026 (rem. 8), nu din textul emailurilor.
+- STURM 07.10.2026 (Ticket 365740, retur Parkring 2): 2026.10.14 Situatie STURM\Surse\2026.10.07 97799dc8.txt
+- STURM 13.10.2026 (Ticket 365759, „ehemaliges Kundenkonto”, termen 19.10.2026): 2026.10.14 Situatie STURM\Surse\2026.10.13 0fed52e8.txt
+- Date mandanta (FN 668224 h, UID ATU83086125, sediu Schallergasse 35 din 15.09.2026, anterior Parkring 2 c/o CERHA HEMPEL, office@ac-wohnart.at, GF Cosmin-Adrian Covaciu): instructiuni coordonator + memoria de proiect AC Wohnart.
+- Audit si lista remedierilor: Redactare\2026.10.14 Audit juridic R02.txt
+
+5. IPOTEZE SI LIMITE
+- Übergabestichtag din Kaufvertrag 405/2026 nu a fost citit; de aceea formularea generica „laut Kaufvertrag 405/2026”. Daca se cunoaste data exacta, poate fi inserata in III.3 inainte de trimitere (optional, nu obligatoriu).
+- Plata 115,36 EUR: calificarea „irrtümlich in der Annahme einer Zahlungspflicht” este formularea auditului; trebuie confirmata de persoana care a platit inainte de trimitere (daca plata a fost constienta si deliberata, fraza se reduce la „wurde nicht von A&C, sondern von einer Privatperson geleistet; sie begründet kein Anerkenntnis und keine Vertragspartnerstellung der A&C”).
+- Telefon in semnatura: placeholder; de completat sau sters inainte de trimitere.
+- Suma Guthaben 4000112571 si suma facturii 29708/10/2026 raman necunoscute („von STURM anzugeben” / „lt. Rechnung”).
+- Cele 14 Mahnungen (Ticket 365759) nu au fost defalcate pe Anlage; defalcarea e ceruta de la STURM (Beilage 2 pos. A).
+- Termene: 16.10.2026 (confirmare suspendare) si 28.10.2026 (documente), calculate la 14.10.2026; la expediere in 15.10 → 17.10.2026, 12:00 Uhr.
+- Hauptsicherung/„stromlos” (rem. 24): neinclus; de verificat documentar (email Kornhofer/CP 19.03.2026) pentru o eventuala R04 sau pentru raspunsul la replica STURM.
+- Lipsa documentelor gasite nu echivaleaza cu inexistenta certa a oricarui acord; scrisoarea cere dovezi, nu afirma inexistenta absoluta.

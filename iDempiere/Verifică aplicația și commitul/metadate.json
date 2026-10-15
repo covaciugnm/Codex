@@ -1,0 +1,23 @@
+{
+  "id": "01a134af-f72d-77b0-aed2-c46ddd68d3ae",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iDempiere",
+  "created_at": 1791885309,
+  "updated_at": 1791887510,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Verifică aplicația și commitul",
+  "project_id": "4bf5f961-e996-4dbc-8c36-d744d97c97db",
+  "project": "iDempiere",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-15T09:33:11.760357+00:00",
+  "source_bytes": 387214,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 26,
+  "message_count": 16,
+  "content_sha256": "a263df94474d29de1ee9663ab9a696515486a11f95c14ea42d30cdbe0496a255",
+  "files_copied": 0,
+  "references_not_copied": 9
+}

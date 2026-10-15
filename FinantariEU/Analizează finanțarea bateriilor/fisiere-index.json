@@ -4,6 +4,160 @@
     "status": "fisier_inexistent_sau_director"
   },
   {
+    "source_reference": "//192.168.100.169/Comun/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/CALCUL FINANTARE KSTAR - 2026.10.13.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/CALCUL FINANTARE KSTAR - 2026.10.13--8816ac69.txt",
+    "bytes": 5925,
+    "sha256": "089a88ac357854f47fcde957ac7ff8d49f08596446b4a3826a6c5388dd2ebd06"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\BCR_bonitate_cerere_QA.png",
+    "status": "copiat",
+    "saved_path": "fisiere/BCR_bonitate_cerere_QA--ce7c1bed.png",
+    "bytes": 127200,
+    "sha256": "fb794fd90d4ab7810439609e1e6985e71cbab697cff4cde1a2e153bbcecdd030"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\FMST_QA_fonduri_proprii_p45.png",
+    "status": "copiat",
+    "saved_path": "fisiere/FMST_QA_fonduri_proprii_p45--f473dd4f.png",
+    "bytes": 246014,
+    "sha256": "a9ec0e18145ccb4acf7cb445254feb3482ddb1ec79e68ab6171a0e1553f53621"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\FMST_clarificari_p86.png",
+    "status": "copiat",
+    "saved_path": "fisiere/FMST_clarificari_p86--927d7c23.png",
+    "bytes": 177285,
+    "sha256": "88e8d8f63445f5c99ea78625a3ad5ce6e51708247cf69e2857953b96b26bc5cc"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\FMST_clarificari_p9.png",
+    "status": "copiat",
+    "saved_path": "fisiere/FMST_clarificari_p9--89eb05d3.png",
+    "bytes": 206774,
+    "sha256": "ce76e89e8afdeda70d61e9373346168250e8ec562905e0204ab80e977c6c56e3"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\FMST_clarificari_p92.png",
+    "status": "copiat",
+    "saved_path": "fisiere/FMST_clarificari_p92--85290b3c.png",
+    "bytes": 150395,
+    "sha256": "0573150a48dfa44afb5ffb0f7caaf970fb6670d4794f40a948100c33a1d6c14c"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\FMST_model_confort_p23.png",
+    "status": "copiat",
+    "saved_path": "fisiere/FMST_model_confort_p23--1b888277.png",
+    "bytes": 193219,
+    "sha256": "0873ba740d8fff9a8af729950b8ebd670a0d8de36963beeb9145fa0fe4b4f5be"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\KSTAR_oferta_finala_20261013.png",
+    "status": "copiat",
+    "saved_path": "fisiere/KSTAR_oferta_finala_20261013--8946eb69.png",
+    "bytes": 222452,
+    "sha256": "64b767c0c3f81095b428c821331ace1386e9393f725acecd01c6df7bba4fe5d6"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\KSTAR_tehnic_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/KSTAR_tehnic_1--525173b4.png",
+    "bytes": 280117,
+    "sha256": "6f28fce3b0af40c177f7a9ea12e5b2073cfe654ae3f26acb3b67bea2b2a8e7a9"
+  },
+  {
+    "source_reference": "C:\\Windows\\Temp\\KSTAR_tehnic_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/KSTAR_tehnic_2--49ba373d.png",
+    "bytes": 121557,
+    "sha256": "9d07bf20dea8016e5b5860d239bc4ee981f97f6e2bf8fd36c135aed77b2c7fcd"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/0.1. Fise Tehnice/KStar/Oferta Finala KSTR-PI-A20260327-02.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Oferta Finala KSTR-PI-A20260327-02--6773d392.pdf",
+    "bytes": 366079,
+    "sha256": "9e5812669a2d0acc2b69870e44400bf3e52dc511c1b51a1d9196fc2bd31f4e1c"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/1.DOCUMENTE OFICIALE/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat--14689053.pdf",
+    "bytes": 901240,
+    "sha256": "9571fcbaea80c15e5d4d98cf1070c327d1c8dbb489506bf09a263a15c6c9d659"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/1.DOCUMENTE OFICIALE/Centralizator_consultare-publica_-Ghidul-solicitantului-stocare-stand-alone.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Centralizator_consultare-publica_-Ghidul-solicitantului--ee35f049.pdf",
+    "bytes": 1395880,
+    "sha256": "22b3959e8d1eb466cd2284cd9c4d11351b73782c342803282deb29874a9b819c"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/CLARIFICARI BONITATE BANCARA - 2026.10.13/BCR - Cerere oficiala emitere scrisoare bonitate.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/BCR - Cerere oficiala emitere scrisoare bonitate--8c0c7870.pdf",
+    "bytes": 147534,
+    "sha256": "e93bff78b048087db29205d30b5b698f2f6e1c0b143843bdf3662988f0f2d360"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/CLARIFICARI BONITATE BANCARA - 2026.10.13/EXPLICATIE BONITATE versus CONFORT.html",
+    "status": "copiat",
+    "saved_path": "fisiere/EXPLICATIE BONITATE versus CONFORT--e8fa6dae.html",
+    "bytes": 6052,
+    "sha256": "a8bfed14242c069f26105bc2f91133005f198e55113e8c28fb747319fb8649b6"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/CLARIFICARI BONITATE BANCARA - 2026.10.13/MODEL OFICIAL BONITATE - exemplu ANRMPSG - NU FMST.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/MODEL OFICIAL BONITATE - exemplu ANRMPSG - NU FMST--8451fdb6.txt",
+    "bytes": 3063,
+    "sha256": "708fb0d5f94e0841dd221bd82c748881b98de653566335e7b3b3e15579564b26"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/CLARIFICARI SCRISOARE CONFORT - 2026.10.13/CONCLUZII SCRISOARE CONFORT - 2026.10.13.html",
+    "status": "copiat",
+    "saved_path": "fisiere/CONCLUZII SCRISOARE CONFORT - 2026.10.13--352bdd0a.html",
+    "bytes": 12752,
+    "sha256": "818864ee4459c66459b8ffba5b016e0cdb1f8de8c5c905f4f1020c6ea7c8dc48"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/CLARIFICARI SCRISOARE CONFORT - 2026.10.13/Centralizator_oficial_verificat_2026-10-13.pdf",
+    "status": "copiat",
+    "saved_path": "fisiere/Centralizator_oficial_verificat_2026-10-13--7bba4a3e.pdf",
+    "bytes": 1395880,
+    "sha256": "22b3959e8d1eb466cd2284cd9c4d11351b73782c342803282deb29874a9b819c"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/CLARIFICARI SCRISOARE CONFORT - 2026.10.13/MODEL CONFORT - CESIRO PRODUCTION.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/MODEL CONFORT - CESIRO PRODUCTION--310d7800.txt",
+    "bytes": 2885,
+    "sha256": "0827c58e505ba63efc39a61493297ec7d31ee02f9529ffbd29bd57306b6e3dde"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/CLARIFICARI SCRISOARE CONFORT - 2026.10.13/MODEL CONFORT - RED INTERNET SALES.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/MODEL CONFORT - RED INTERNET SALES--b5a844eb.txt",
+    "bytes": 2887,
+    "sha256": "ae69b78b811460da61b0dab9b9e599eb143d08ceb0fc6d729c3fae57f77e04f3"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/MODELE REFACERE CAPITALURI - 2026.10.13/CUM SE FOLOSESC MODELELE - PASI SI SUME.txt",
+    "status": "copiat",
+    "saved_path": "fisiere/CUM SE FOLOSESC MODELELE - PASI SI SUME--b315f483.txt",
+    "bytes": 4905,
+    "sha256": "430219bbf4a5ff76038ea618a38f055a56ce59d2931539fb69191daaa99be218"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2026 EU/2026.10.30 - FMST - Fondul pentru Modernizare baterii independente/MODELE REFACERE CAPITALURI - 2026.10.13/MODEL OFICIAL ONRC - Hotarare AGA Decizie asociat unic.rtf",
+    "status": "copiat",
+    "saved_path": "fisiere/MODEL OFICIAL ONRC - Hotarare AGA Decizie asociat unic--b778627e.rtf",
+    "bytes": 295876,
+    "sha256": "8b445e28cccbf8f043daf10ce4d7135660caab77a641b3e8dcdaf5216e36bc23"
+  },
+  {
     "source_reference": "Z:\\00. Proiecte 2026 EU\\Fondul pentru Modernizare - Baterii independente 2026\\00_Status_documentare.txt",
     "status": "fisier_inexistent_sau_director"
   },
@@ -23,6 +177,82 @@
   },
   {
     "source_reference": "https://agerpres.ro/politic/2026/08/18/bolojan-150-de-milioane-euro-pentru-noi-instalatii-de-stocare-a-energiei--1585910",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://bslbatt.com/ro/bloguri/calcularea-capacit%C4%83%C8%9Bii-bateriei-de-stocare-la-domiciliu/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://cdn0.erstegroup.com/content/dam/ro/bcr/www_bcr_ro/Business/Informatii-utile/lista-documente-clienti-pj/Anexa%202%20Cerere%20de%20emitere%20scrisoare%20de%20bonitate.pdf?forceDownload=1",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://energie.gov.ro/wp-content/uploads/2026/08/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://energie.gov.ro/wp-content/uploads/2026/08/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf#page=125",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://energie.gov.ro/wp-content/uploads/2026/08/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf#page=23",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://energie.gov.ro/wp-content/uploads/2026/08/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf#page=85",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://energie.gov.ro/wp-content/uploads/2026/08/Anexa_OME_915_2026_Ghid-solicitant_stand-alone_publicat_M-Of_680-Bis.pdf#page=89",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://fabricadeenergie.ro/2025/10/07/cum-se-calculeaza-capacitatea-bateriilor-v-ah-kwh/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://kilowat.ro/blog/baterii-fotovoltaice/capacitate-baterie-de-stocare/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://legislatie.just.ro/Public/DetaliiDocument/299050",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://static.anaf.ro/static/10/Iasi/material_informativ_17-12-2025.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://webservicesp.anaf.ro/bilant?an=2025&cui=45050734",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://webservicesp.anaf.ro/bilant?an=2025&cui=47342670",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.4camping.ro/articole/glosar-de-termeni/ce-este-capacitatea-bateriei/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.aforenergy.com/ro/understanding-battery-capacity-converting-ah-to-kwh/",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.deyestore.com/ro-ro/blogs/deye-smart-ct-unlock-the-new-solar-storage-system/how-to-size-battery-for-solar-a-friendly-guide-to-power-calculations?srsltid=AU7gw4UdgHA8w8fpmMsfYVXPR0ZodFbV8pUqsgAslnVpbKhs6UT76dac",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.kstarnewenergy.com/DOWNLOADS/Datasheet_KAC%2880-125%29DP2-BC%28220-260%29DE2A_EN_V2.pdf",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.onrc.ro/index.php/ro/mentiuni/persoane-juridice/majorarea-capitalului-social",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.victronenergy.com/media/pg/SmartShunt/ro/battery-capacity-and-peukert-exponent.html",
     "status": "referinta_externa_necopiata"
   }
 ]

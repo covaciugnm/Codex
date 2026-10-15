@@ -1,0 +1,82 @@
+2026.09.30 | DONAU / COMMERZ INKASSO | Dosar 2616052, polita 2044001194
+
+CONCLUZIE
+
+Pe documentele disponibile, pretentia privind primele are o baza juridica serioasa. Nu este justificata respingerea integrala doar pentru ca A&C nu a semnat o polita noua sau pentru ca Donau invoca lipsa acoperirii din cauza neplatii. Suma exacta exigibila, costurile, comunicarea somatiilor si efectul eventualei reduceri trebuie verificate separat. Aceasta este o evaluare documentara; strategia de plata/contestare trebuie confirmata cu avocatul austriac care poate verifica mandatul, dosarul complet si eventualele acte judiciare.
+
+1. CE ESTE NOU SI CE ESTE DOVEDIT
+
+Revenirea pregatita anterior a fost ulterior TRIMISA la 2026.09.30, 11:50 UTC / 14:50 Romania, catre office@maritczak.at, CC bogdan.capra@cerhahempel.com. ID EVA 41c4c52a-2139-409e-9907-138cb81163ee. Fisierul anterior DRAFT ramane istoric, nu status curent.
+
+Stefanie Gruber, Commerz Inkasso, a raspuns la 2026.09.30, 12:51 UTC / 15:51 Romania, ID EVA 1fa19552-d1fd-459e-92b3-57ed5319d18c. Mesajul primit are ca destinatar office@ac-wohnart.at si nu afiseaza CC; nu rezulta ca raspunsul a fost trimis si domnului Capra.
+
+Ei afirma ca au incercat de doua ori comunicarea la 2026.09.17 si ca au expediat apoi scrisoarea prin posta. Textul disponibil contine doua notificari de eroare 550: serverul mail.ac-wohnart.at a respins extensia atasamentului Mail_nochmal_an_VN_02.EML. Aceste fragmente sustin existenta unei probleme tehnice; fara antetele complete nu certifica independent data fiecarei tentative. PDF-ul scrisorii este datat 2026.09.17. Nu este anexata o dovada de primire postala identificabila. Absenta raspunsului din casuta nu inseamna, prin urmare, absenta unei incercari de raspuns.
+
+Termenul nou comunicat pentru 5.326,15 EUR este 2026.10.12. Scrisoarea anterioara indica 2026.09.28. Formularea actuala acorda/propune explicit amanarea pana la 2026.10.12; este prudent sa fie confirmata in raspuns. Nu echivaleaza cu 14 zile dupa primirea tuturor actelor, nici cu renuntarea expresa la dobanda, costuri sau consecintele anterioare. Nu este confirmare de acoperire si nu este titlu executoriu.
+
+2. RECONCILIEREA SUMEI
+
+Prime 2026.04.01–2026.07.01:                         1.591,81 EUR
+Prime 2026.07.01–2026.10.01:                         1.591,81 EUR
+Prima urmatoare, octombrie 2026–ianuarie 2027:        1.591,81 EUR
+Subtotal prime:                                      4.775,43 EUR
+Costuri creditor:                                       30,00 EUR
+Costuri Inkasso cu TVA:                                501,58 EUR
+Dobanda indicata:                                       19,14 EUR
+Total cerut:                                         5.326,15 EUR
+
+5.326,15 - 3.734,34 = 1.591,81 EUR. Majorarea reprezinta matematic o prima trimestriala; nu rezulta o penalizare noua de 1.591,81 EUR. Q4 este acum solicitat expres in email, nu doar estimat. Trebuie totusi obtinuta prescriptia/factura pentru intervalul exact 2026.10.01–2027.01.01 si scadenta acesteia. Expresia din email nu indica patru luni intregi.
+
+Anexa Kostenaufstellung din 2026.09.17 numeste Hauptforderung suma de 3.213,62 EUR: aceasta include deja cele doua prime de 3.183,62 EUR si 30 EUR cost creditor. Nu trebuie adaugati cei 30 EUR inca o data peste 3.213,62 EUR.
+
+Detaliul Inkasso, verificat vizual in PDF: prima somatie 103,55 EUR net; posta 3,95; administrare ABG 257,08; evidenta 41,40; investigare adresa 12,00; telefon 0,00. Total net 417,98 + TVA 83,60 = 501,58. Cu dobanda 19,14: 520,72 EUR. Impreuna cu costul creditorului 30 EUR, accesoriile sunt 550,72 EUR. Dobanda de 19,14 este cea pastrata in cererea lor; nu certifica oprirea acumularii ulterioare.
+
+Polita locala din 2026.06.03 confirma prima anuala de 6.367,24 EUR si plata trimestriala de 1.591,81 EUR. Originalul are hash identic cu indexul; paginile relevante au fost deschise si verificate. Reconcilierea bancara anterioara nu identifica debitul; prezenta analiza nu este o noua verificare integrala a conturilor bancare.
+
+3. EVALUAREA JURIDICA
+
+Transferul politei. Potrivit §69 VersVG, cumparatorul bunului asigurat intra in drepturile si obligatiile contractului in perioada proprietatii sale; nu este necesara, ca regula, o semnatura noua. De aceea, argumentul «nu am semnat cu Donau» nu inlatura singur primele. Donau invoca transferul proprietatii la 2026.03.10; aceasta data este afirmatia lor, nereverificata aici in cartea funciara. Primele detaliate in corespondenta sunt de dupa 2026.04.01. O repartizare intre vanzator si cumparator in contractul de vanzare trebuie analizata separat de drepturile asiguratorului. [S1]
+
+Rezilierea la cumparare. §70 alin.2 VersVG permite rezilierea intr-o luna de la dobandire; daca asigurarea nu era cunoscuta, termenul curge de la cunoastere. Explicatia Donau, bazata exclusiv pe data dobandirii, este incompleta. Totusi, mesajul Capra din 2026.09.17 afirma transmiterea politei la 2026.03.19, iar mesajul propriu din 2026.06.08 arata cunoasterea existentei politei. Trebuie cautata o reziliere efectiva si tempestiva, inclusiv prin vanzator/administrator. Cererea de ajustare si rezervarea unor drepturi nu dovedesc singure rezilierea. Nu rezulta din materialul analizat ca polita ar fi incetat valabil. [S2]
+
+Lipsa acoperirii si primele. §39 VersVG permite, in conditiile legii, refuzul despagubirii pentru un eveniment intervenit dupa expirarea unei somatii calificate, daca prima ramane neachitata culpabil. Aceasta nu inseamna automat incetarea contractului sau disparitia obligatiei de plata a primelor. Principiul este confirmat de OGH. Dar Donau trebuie sa poata sustine conditiile concrete: somatie corecta, comunicare, cel putin doua saptamani si avertizarea consecintelor. Documentul local din 2026.06.05 contine avertizarea; data primirii si eventuala reziliere raman de verificat. [S3, S4]
+
+Neplata doar a dobanzilor/costurilor nu declanseaza consecintele §39 alin.1–3, conform alin.4. Acesta este un argument util pentru separarea clarificarii primelor de disputa accesoriilor. Totusi, o plata partiala nu trebuie presupusa automat imputata integral asupra primelor: trebuie confirmate alocarea si efectul asupra acoperirii, tinand cont de regulile de imputatie. Plata nu repară automat retroactiv toate perioadele fara acoperire. [S3, S8]
+
+Reducerea politei. Pfeiffer a oferit la 2026.07.14 posibilitatea excluderii Leitungswasser si Mieten-BU, cerand autorizatia de construire, descrierea lucrarilor si confirmarea instalatorului privind inchiderea/securizarea instalatiei de apa. Nu este o acceptare neconditionata sau retroactiva. Nu am identificat transmiterea ulterioara a acestor documente in cautarile EVA. Limita: cosmin@ig.ro este sincronizat numai pana la 2026.08.12. §41a VersVG poate fundamenta reducerea pentru perioade viitoare cand dispar circumstantele de risc care au justificat prima mai mare; nu autorizeaza automat reducerea la suma aleasa unilateral. Plata trimestriala nu inseamna neaparat perioada de asigurare trimestriala. [S2]
+
+Impact indicativ: apa costa in polita 3.127,72 EUR/an, iar pierderea chiriei 41,72 EUR/an. Eliminarea integrala a ambelor, cu toate celelalte componente neschimbate, ar reduce matematic 3.169,44 EUR/an, adica 792,36 EUR/trimestru. Este o simulare pe tariful existent, nu oferta acceptata sau credit deja datorat. Data de efect, inclusiv eventuala retroactivitate la 2026.07.01, necesita confirmare sau o baza juridica probata.
+
+Costuri si dobanda. §1333 alin.2 ABGB cere prejudiciu imputabil, masuri necesare si adecvate si proportionalitate. Un tabel de tarife nu dovedeste singur toate aceste conditii. Regulamentul Inkasso fixeaza plafoane, iar sumele fixe sunt indexabile conform §4; nu se compara mecanic cei 103,55 EUR cu vechiul plafon de 50,87 EUR fara indexare. ABG 257,08 EUR reprezinta aproximativ 8% din 3.213,62 EUR, compatibil ca ordin de marime cu plafonul procentual. Se pot cere justificarea bazei, activitatilor, costurilor de evidenta/adresa si celor 30 EUR. Nu exista deocamdata baza sa declaram automat toti cei 550,72 EUR ilegali. [S5, S6]
+
+Pentru dobanda de 8% trebuie cerute temeiul contractual/legal, capitalul, inceputul si sfarsitul calculului. A&C este societate comerciala; nu se presupune automat dobanda de consumator sau aplicarea tuturor protectiilor KSchG. §456 UGB prevede pentru intarzierea comerciala un regim distinct, dependent si de raspunderea pentru intarziere. [S7]
+
+4. CE RAMANE INCOMPLET
+
+Pachetul nou contine raspunsul de principiu, corespondenta Donau din iulie si detaliul costurilor. Nu identifica, de unul singur, predarea intregului contract-cadru 2900010498, tuturor conditiilor/clauzelor, extrasului complet al contului politei, tuturor somatiilor cu dovezi de primire si prescriptiei Q4. Copia politei exista deja local, deci nu trebuie sustinut ca nu avem absolut niciun document contractual. Nu exista confirmare scrisa noua a acoperirii efective sau a unei reduceri deja operate.
+
+Corpul mesajului EVA este limitat la 20.000 caractere. Partile noi relevante si anexele originale au fost citite; doua EML, doua PDF si imaginea de semnatura sunt salvate integral. Duplicatele de anexe din export sunt evidentiate prin nume/ID; nu reprezinta costuri sau documente suplimentare. EML-ul din iulie contine si propria anexa PDF, pastrata in interiorul originalului.
+
+5. PASUL RECOMANDAT
+
+Inainte de 2026.10.12, avocatul Capra ar trebui sa confirme strategia de regularizare: verificarea principalului si a perioadelor, confirmarea scrisa a sumei care reactiveaza acoperirea si a datei efective, plus verificarea/negocierea separata a accesoriilor. O eventuala plata sub rezerva trebuie formulata si alocata clar; nu se considera ca o simpla mentiune elimina orice efect juridic. Cererea de acte nu suspenda singura obligatia de plata.
+
+In paralel: completarea celor trei documente solicitate de Pfeiffer si obtinerea unei oferte/decizii de reducere, inclusiv raspuns explicit privind data de efect. Comunicarea viitoare sa contina PDF-uri sau text, evitand atasamente EML blocate. Cerut expres daca suma de 5.326,15 EUR ramane fixa pana la 2026.10.12 si daca sunt suspendate alte demersuri.
+
+Nu este recomandabil sa se mentina un refuz global bazat numai pe lipsa semnaturii sau pe lipsa acoperirii. Nu se recomanda nici acceptarea neconditionata a intregii sume fara verificarea restantelor, alocarii si acoperirii. Prioritatea practica este eliminarea incertitudinii privind asigurarea cladirii. Nu am trimis un nou raspuns si nu am efectuat vreo plata in cadrul acestei analize.
+
+SURSE JURIDICE VERIFICATE ONLINE LA 2026.09.30
+
+[S1] RIS, §69 VersVG: https://www.ris.bka.gv.at/eli/bgbl/1959/2/P69/NOR12026489
+[S2] RIS, VersVG, forma curenta, §§41a si 70: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979
+[S3] RIS, §39 VersVG: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Paragraf=39
+[S4] OGH 3 Ob 722/54, principiul continuarii obligatiei de prima in caz de Leistungsfreiheit: https://www.ris.bka.gv.at/Dokumente/Justiz/JJT_19541117_OGH0002_0030OB00722_5400000_000/JJT_19541117_OGH0002_0030OB00722_5400000_000.pdf
+[S5] RIS, §1333 ABGB: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001622&Paragraf=1333
+[S6] RIS, plafoane Inkasso, §§3–4: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10007798
+[S7] RIS, §456 UGB: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001702&Paragraf=456
+[S8] RIS, §1416 ABGB: https://www.ris.bka.gv.at/eli/jgs/1811/946/P1416/NOR12019162
+
+SURSE DOCUMENTARE
+
+Email primit 1fa19552-d1fd-459e-92b3-57ed5319d18c; email trimis 41c4c52a-2139-409e-9907-138cb81163ee; Pfeiffer d10bdd3f-8439-45f0-a061-e222c9290266; cererea initiala b487e95f-8a9f-4865-9836-ae95481ce360; Capra b8bab41b-0cd5-40a8-8467-ca9c98c344d4. Anexele originale si SHA-256 sunt in 2026.09.30 Registru anexe.json.
+Polita: 05. Asigurari/Asigurare cladire/814BC40FC7831FE197E21FDA1089ECC3_Polizzenkopie.pdf, SHA-256 fc4bdadaf2838af05c6eaeb7c5f77790b98cd4e3288e78a20a6a7a259a4a15bd.

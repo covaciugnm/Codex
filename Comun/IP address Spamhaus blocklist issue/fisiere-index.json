@@ -1,0 +1,46 @@
+[
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5d12f372-603b-4023-ac63-77aa21ed2409/scratchpad/cf_spf.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cf_spf--717ef991.py",
+    "bytes": 1427,
+    "sha256": "feb3ef9c22702c85c6d36fe41016b025d7da838639f450182afad5be59fa2432"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5d12f372-603b-4023-ac63-77aa21ed2409/scratchpad/test_e2e.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_e2e--5c2e2459.py",
+    "bytes": 1125,
+    "sha256": "fc43a09b0f33ec8231bf70fba8c796c08c56bf0652c4eddc12ae54088e08fa9a"
+  },
+  {
+    "source_reference": "C:/Users/User/AppData/Local/Temp/claude/--192-168-100-169-Comun-/5d12f372-603b-4023-ac63-77aa21ed2409/scratchpad/test_releu.py",
+    "status": "copiat",
+    "saved_path": "fisiere/test_releu--ef5fa46a.py",
+    "bytes": 1618,
+    "sha256": "a544b69a84ee84d96d0bd12f565c3af955de8c206ae07bdcbb612cfe40b72525"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\DOCUMENTATIE.md",
+    "status": "copiat",
+    "saved_path": "fisiere/DOCUMENTATIE--d0c67318.md",
+    "bytes": 3035,
+    "sha256": "e8d88a62ccc426a32453cd64320054df08ed611b33770302efc4638947d66f83"
+  },
+  {
+    "source_reference": "S:\\dracula-book\\reader\\data\\books\\",
+    "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "licitatii-eva-org-site.md",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "stalwart-releu-hosterion-spamhaus.md",
+    "status": "referinta_relativa_neconfirmata"
+  }
+]

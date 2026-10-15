@@ -1,0 +1,297 @@
+{
+  "date": "2026.10.13",
+  "purpose": "Redaktionelle Konkordanz außerhalb des operativen Vertrages; keine Behauptung einer gesetzlich vorgeschriebenen Kapitelordnung.",
+  "old_berger_to_new": {
+    "1": [
+      2,
+      3
+    ],
+    "2": [
+      3
+    ],
+    "3": [
+      4,
+      13
+    ],
+    "4": [
+      7,
+      9
+    ],
+    "5": [
+      5,
+      7
+    ],
+    "6": [
+      6
+    ],
+    "7": [
+      8
+    ],
+    "8": [
+      9
+    ],
+    "9": [
+      10
+    ],
+    "10": [
+      12,
+      13
+    ],
+    "11": [
+      11,
+      12
+    ],
+    "12": [
+      12,
+      13
+    ],
+    "13": [
+      14
+    ],
+    "14": [
+      4
+    ],
+    "15": [
+      8,
+      13,
+      14,
+      15
+    ],
+    "16": [
+      15
+    ],
+    "17": [
+      1,
+      16
+    ]
+  },
+  "old_pech_to_new": {
+    "1": [
+      2,
+      3
+    ],
+    "2": [
+      3,
+      8
+    ],
+    "3": [
+      3,
+      4
+    ],
+    "4": [
+      3,
+      8
+    ],
+    "5": [
+      5
+    ],
+    "6": [
+      7
+    ],
+    "7": [
+      7
+    ],
+    "8": [
+      6,
+      10
+    ],
+    "9": [
+      10
+    ],
+    "10": [
+      9
+    ],
+    "11": [
+      11
+    ],
+    "12": [
+      12
+    ],
+    "13": [
+      4,
+      11
+    ],
+    "14": [
+      13
+    ],
+    "15": [
+      14
+    ],
+    "16": [
+      1,
+      8,
+      16
+    ],
+    "17": [
+      15
+    ],
+    "18": [
+      16
+    ]
+  },
+  "scope_rows": [
+    [
+      "Stahlbetonplatte und Fundierungsanschluss",
+      "§ 3 Abs. 2; Anlage 1",
+      "30 cm bleibt Konzeptannahme mit fachlicher Bestätigung."
+    ],
+    [
+      "Liftgrube/Schacht über alle Geschosse",
+      "§ 3 Abs. 2; Anlage 1",
+      "Herstellerlasten integrieren; produktspezifische Fremdbemessung abgegrenzt."
+    ],
+    [
+      "Tram-/Dippelbaum und Verbunddecke über 3. OG",
+      "§ 3 Abs. 2; Anlage 1",
+      "Ausführungsplanung und Neu/Alt-Anschlüsse."
+    ],
+    [
+      "Wände/Pfeiler/Stürze/Öffnungen/Auswechslungen",
+      "§ 3 Abs. 2; Anlage 1",
+      "PECH Originalposition 02 erhalten."
+    ],
+    [
+      "DG Holz/Stahl/Dach/Gaupen/Attika/Terrassen",
+      "§ 3 Abs. 3; Anlage 1",
+      "Ausführungsreife Details, Kräfte und Listen."
+    ],
+    [
+      "Aussteifung/Wind/Lastpfad/Bestandsnachweise",
+      "§ 3 Abs. 3 und 5; Anlage 1",
+      "Keine stille Verlagerung eigener Detailnachweise."
+    ],
+    [
+      "Balkone/Anker/Stiegen/Podeste",
+      "§§ 3–4; Anlage 1",
+      "Vollständige Befestigungs- und Auflagernachweise."
+    ],
+    [
+      "Feuermauern/Nachbarn/Kamine",
+      "§ 3 Abs. 4; Anlage 1",
+      "Umfassende Nachbarbeweissicherung anderer Auftrag."
+    ],
+    [
+      "Unterfangungen/Baugrube/Verbau/Pölzung/temporäre Sicherungen",
+      "§ 3 Abs. 4; Anlage 1",
+      "Erweiterung BERGER gegenüber Original; PECH Position03 bleibt."
+    ],
+    [
+      "Brandschutz des Tragwerks/erforderliche Nachweisanpassung",
+      "§ 3 Abs. 5; Anlage 1",
+      "Kein allgemeines fachübergreifendes Brandschutzkonzept."
+    ],
+    [
+      "Nodes/Anker/Dübel/Bleche/Schweißnähte/wood connections",
+      "§ 4 Abs. 2; Anlage 1",
+      "Auf Rechnung und Plänen; statische Details AN, Fertigungspläne Betrieb."
+    ],
+    [
+      "Werkstatt-/Abbundfreigabe und Herstellerunterlagen",
+      "§ 4 Abs. 3; § 8 Abs. 4",
+      "Erstellung Fertigungsdateien ausgeschlossen; Prüfung bleibt."
+    ],
+    [
+      "Listen/Mengen/Fragen/2Korrekturzyklen/Planwechsel",
+      "§ 4; Anlage 1",
+      "Eigene Fehlerbehebung zusätzlich, nicht auf2 begrenzt."
+    ],
+    [
+      "Prüfingenieur bis Fertigstellung",
+      "§ 5; Anlage 3",
+      "Eignung/Unabhängigkeit und Kenntnisnahme; acht Betreuungstermine begrenzen PI nicht."
+    ],
+    [
+      "12Abnahmen und450extra PECH",
+      "§ 7; Anlagen3 und4",
+      "Ein gemeinsam wahrgenommener Termin zählt einmal; keine Vergütung eigener Wiederholungsfehler."
+    ],
+    [
+      "Bauwerksbuch Gesamtgebäude",
+      "§ 6; Anlage1",
+      "Bestand+Neu, Gebäudehülle/Geländer/Brüstungen, Erstprüfung, Intervalle, Qualifikationen, Defektplan, Registrierung."
+    ],
+    [
+      "BWB energetische Dokumentation und Übergangsrecht",
+      "§ 2 Abs. 2; § 6 Abs. 4",
+      "Art.VLGBl25/2026; keine pauschale rückwirkende energetische Nachrüstung."
+    ],
+    [
+      "PDF/DWG/DXF/IFC/native/XLSX/CSV/As-built",
+      "§ 10; Anlage1",
+      "FertigungsspezifischeNC-Daten nicht neu zu erstellen."
+    ],
+    [
+      "Nutzungsrechte/Änderung/terte/Nachfolger",
+      "§ 10; § 15",
+      "Retenție und rechtmäßige Streitbeträge verhindern Nutzung nicht; ANgesetzliche Rechte/Entgelt bestehen."
+    ],
+    [
+      "Fälligkeit/30Tage/Prüfung10Werktage",
+      "§ 12; § 13",
+      "Keine freie unbefristete AG-Freigabe;UGB457/456/458."
+    ],
+    [
+      "5%NET/3Jahre/Ersatzgarantie",
+      "§ 12; § 13",
+      "Keine Doppelbesicherung; Cashrelease5/10Werktage; gesetzliche Rechte bestehen."
+    ],
+    [
+      "Unterbrechung/1168/1170b",
+      "§§ 9,12 und15",
+      "Gesetzliche Rechte nicht auf zwingendeReste beschränkt; eigener Zeitwert nicht automatisch erspart."
+    ],
+    [
+      "Beendigung vor Fertigstellung",
+      "§ 13 Abs. 4; § 15 Abs. 6",
+      "Teilabnahme/Frist/Sicherung für erbrachte Teile; keine unbegrenzte Wartezeit auf AGbauende."
+    ],
+    [
+      "UGB/IO/Unterzeichnung/Textform",
+      "§§12,15 und16",
+      "Keine automatische Insolvenzauflösung;signinggate und definierte Emailvollmacht."
+    ]
+  ],
+  "removed_without_scope_reduction": [
+    "Rumänische Lesesynthese und ihr Verweis",
+    "Entstehungsgeschichte und wiederholte Metakommentare",
+    "Zwischengeschobene Anlagen im Hauptteil",
+    "Unbestimmte Verknüpfung von Rechnung mit freier AG-Genehmigung"
+  ],
+  "preserved_prices": {
+    "BERGER": {
+      "original": [
+        13000,
+        20000,
+        2000,
+        10000
+      ],
+      "net": 45000,
+      "tax": 9000,
+      "gross": 54000,
+      "assistance_visits": 8
+    },
+    "PECH": {
+      "original": [
+        42000,
+        6000,
+        5000,
+        800,
+        14000,
+        1500
+      ],
+      "net": 69300,
+      "tax": 13860,
+      "gross": 83160,
+      "included_abnahmen": 12,
+      "extra_abnahme_net": 450
+    }
+  },
+  "new_material_clarifications": [
+    "Zeitlich anwendbares Recht und Übergangsprüfung",
+    "AG-Verzug bei objektiv geschuldeter Abnahme",
+    "Beendigungsdossier und Teilabnahme bei endgültigem Projektstopp",
+    "Gewährleistungs-/Sicherungsbeginn für gelieferte Teile bei vorzeitigem Ende",
+    "Werklohnsicherstellung getrennt von AG-Haftrücklass",
+    "Dokumentenlizenz nicht von Auszahlung des Haftrücklasses abhängig"
+  ]
+}

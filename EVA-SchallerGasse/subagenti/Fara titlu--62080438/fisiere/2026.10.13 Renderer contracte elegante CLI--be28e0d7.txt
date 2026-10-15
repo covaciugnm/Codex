@@ -1,0 +1,40 @@
+2026.10.13 — Renderer PDF pentru contractele germane
+
+Script: 2026.10.13 Renderer contracte elegante.py
+Runtime: C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+
+DESIGN
+A4 portret, margini 18 mm; corp Cambria 11 pt / interliniere 14 pt. Calibri pentru titluri, repere și navigare. Fonturile sunt încărcate din C:/Windows/Fonts și încorporate în PDF. Cambria TTC subfont 0 a fost verificat ca Cambria. Chenare 0,35 pt #CDD4DA, accent #243746; casete albe cu padding 9 pt. Fiecare alineat primește numai reperul său § n(i) sau Anlage n(i). Nu se inventează clase de prestație, aprobări ori obligații. Paragrafele lungi se fragmentează cu aceeași referință și marcajul Fortsetzung. Titlul de capitol merge împreună cu prima parte a primului alineat. Tabelele păstrează toate celulele și proporția coloanelor, cu antet repetat și linii fine; tabelele dense de minimum 5 coloane folosesc Calibri 10/13 pentru lizibilitatea sumelor. Antetul și footer-ul poartă VERHANDLUNGSENTWURF; sunt incluse numerele totale de pagini și repere PDF pentru 16 capitole/6 anexe.
+
+SCHEMA JSON
+{
+  "provider": "BERGER sau PECH",
+  "title": "titlu german",
+  "version": "versiunea exactă",
+  "date": "YYYY.MM.DD",
+  "preamble": ["text original integral"],
+  "sections": [{"number": 1, "title": "titlu", "paragraphs": ["text fără numerotare adăugată"], "tables": [{"headers": ["..."], "rows": [["..."]], "widths_cm": [4, 12.5]}]}],
+  "annexes": [{"number": 1, "title": "titlu", "paragraphs": ["..."], "tables": []}],
+  "signatures": ["câmpurile originale"],
+  "sources": ["registru extern, nu inserat în clauzele operative"],
+  "presentation": {"cover": {"client": "opțional", "contractor": "opțional", "base_net": "EUR ...", "vat": "EUR ...", "base_gross": "EUR ...", "included_visits": "12", "optional_visits": "bis zu 6", "construction_months": "18 Kalendermonate ab tatsächlichem B0"}}
+}
+Schema păstrează exact 16 secțiuni și 6 anexe consecutiv numerotate. Sursele R05 actuale sunt compatibile. Câmpul presentation este opțional: fără el, scriptul extrage numai informațiile explicite din §§ 1, 7, 9 și 11 pentru copertă; când extragerea nu este sigură, câmpul este omis. Metadatele copertei sunt informaționale, fără a înlocui textul integral. R06 poate fi furnizat ca alt fișier fără schimbarea rendererului.
+
+MOD FĂRĂ PDF
+--validate-only este implicit. Pot fi repetate --source pentru cei doi prestatori; --manifest produce numai JSON cu hashuri, fonturi și inventarul textului. Preflight pe ambele R05 a trecut: sursele au hash identic, 16/6, fonturi disponibile, fragmente de paragraf funcționale. Au fost măsurate și toate tabelele BERGER, fără PDF/Canvas: niciun rând nu depășește înălțimea unui cadru. Nu s-a generat niciun PDF.
+
+CLI VALIDARE
+python.exe ".../2026.10.13 Renderer contracte elegante.py" --validate-only --source ".../2026.10.13 Werkvertrag BERGER R06.json" --source ".../2026.10.13 Werkvertrag PECH R06.json" --manifest ".../2026.10.13 Design R06 preflight.json"
+
+AUTORIZAREA GENERĂRII
+Imediat înainte de prima comandă de autorare PDF, root execută o singură dată markerul skillului PDF pentru cele două ieșiri:
+node "C:/Users/User/.codex/plugins/cache/openai-primary-runtime/pdf/26.915.20218/skills/pdf/container_tools/mark_artifact_operation_started.mjs" --operation-kind create --expected-output-count 2 --output-format pdf
+
+CLI AUTORARE, NUMAI DUPĂ MARKER
+python.exe ".../2026.10.13 Renderer contracte elegante.py" --render --source ".../2026.10.13 Werkvertrag BERGER R06.json" --output ".../2026.10.13 Werkvertrag BERGER R06 elegant.pdf" --source ".../2026.10.13 Werkvertrag PECH R06.json" --output ".../2026.10.13 Werkvertrag PECH R06 elegant.pdf" --manifest ".../2026.10.13 Export contracte elegante R06.json"
+
+--source și --output se repetă în aceeași ordine. Toate căile de ieșire/manifest trebuie să fie noi; scriptul refuză suprascrierea. --render este poarta explicită de generare; fără ea nu există PDF. Inventarul din manifest conține fiecare titlu, alineat, câmp de semnătură și celulă din JSON pentru controlul fidelității. Hashul sursei este verificat și după procesare. Scriptul nu modifică sursa și nu generează Word.
+
+ORIGINALE ȘI QA
+Ofertele originale se păstrează/copieză separat, cu hash identic și numele indicat în Anlage 5; rendererul nu introduce capturi ale logourilor și nu rescrie oferta. Root gestionează copiile originale în pachetul final. După autorare, PDF-urile trebuie randate cu Poppler bundled și fiecare pagină nouă inspectată la detail original; controlul textului se confruntă cu inventarul manifestului. Preflight-ul fără PDF nu este un aviz vizual de livrare.
