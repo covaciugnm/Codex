@@ -2,7 +2,7 @@
 
 ID: `01a0f194-572c-7490-a456-49150d14916a`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-15T15:26:13.346330+00:00
+Export UTC: 2026-10-16T07:48:40.585086+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -431,3 +431,29 @@ Am reverificat:
 **Următorul pas:** clarificăm dacă refuzul privește și v4.1 și pregătim o alternativă pentru proiectarea structurală și verificare. Termenul D1 nu poate fi considerat pornit fără semnare confirmată.
 
 Am actualizat [raportul și jurnalele locale](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.11 Reverificare TOMS/2026.10.11 Raport TOMS.txt>). **Nu am trimis emailuri.**
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verific-finalizarea-contractului-toms</automation_id>
+  <current_time_iso>2026-10-16T07:47:43.992Z</current_time_iso>
+  <instructions>
+Verificare unică programată pentru vineri 02.10.2026, ora 10:00 Europe/Bucharest (09:00 Viena). Citește jurnalul local 05 Jurnal TOMS - situatie si actiuni.txt din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\04. Firme + Executie\01. Verificator (Pruefingenieur)\TOMS\2026-10-01 Contract v3 - propunere și ultimele mesaje TOMS din Eva-Mail. Verifică dacă ciornele contract și acces portal au fost trimise, dacă există contract v3 semnat de ambele părți cu dată efectivă și calendar acceptat, confirmarea accesului și planului de bază, prețurile pentru detalierea separată, documentele de asigurare/echipă și programarea vizitei până la 08.10.2026. Calendar propus: D1 09.10, D2 16.10, calcul static complet 22.10, D3 23.10, D4/D5 28.10.2026. Distinge propunerea de acceptare. Notifică utilizatorul cu diferențele, întârzierile și acțiunile necesare; dacă totul este confirmat, raportează închiderea verificării. Nu trimite emailuri, nu semna contracte și nu modifica documentele comerciale. Execută o singură verificare.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific dacă TOMS a revenit după refuzul din 2026.10.08. Voi folosi situația ultimei versiuni, v4.1; termenele vechi din reminder au fost înlocuite și nu reprezintă obligații confirmate.
+
+
+## Asistent
+
+Nu am găsit nicio revenire TOMS după refuzul din 2026.10.08. Contractul și începerea lucrului rămân neconfirmate. Reminderul folosește încă v3, dar cererea de ofertare suplimentară și datele fixe din acea versiune au fost retrase; nu le voi raporta ca restante.
+
+
+## Asistent
+
+Raportul și jurnalele sunt salvate; se finalizează indexarea arhivei. Situația rămâne neschimbată: TOMS nu a revenit asupra refuzului, iar clarificarea privind v4.1 este încă deschisă.
+

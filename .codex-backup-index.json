@@ -2,8 +2,8 @@
   "projects": {
     "5c179290-3222-4036-8042-710f2e84db88": {
       "name": "Comun",
-      "content_sha256": "b548b3553f3242cfc0883f6025bbd3e54c04fd5919adeb6709dc4ddc29b1f37d",
-      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
+      "content_sha256": "e1187cdf7e3a0676746ecc6b1e043d87261f82d9e5d45845db2828bde51e850a",
+      "snapshot_utc": "2026-10-16T07:48:40.585086+00:00",
       "folder": "Comun"
     },
     "59b8aaaa-7677-449b-b80b-e79b02b3b9ab": {
@@ -38,8 +38,8 @@
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "ee0edaae0a11cd87b6e5e3b08085ca588ee873feb66003f9c099eb50e7bda92a",
-      "snapshot_utc": "2026-10-15T15:26:13.346330+00:00",
+      "content_sha256": "035bacd7d3b1efdea44684cca52cd9541cc6ea01491c8861a90cee816209d1a5",
+      "snapshot_utc": "2026-10-16T07:48:40.585086+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "04b77ecd9d3d1d6b2feb4a6e5d023e32859f6ac7087e2acc06dd0fae148e878f",
-      "snapshot_utc": "2026-10-15T15:26:13.346330+00:00",
+      "content_sha256": "205e8a4e9f9600b0bd009ca2db1bae9910d6875bb626105811d16532331efac4",
+      "snapshot_utc": "2026-10-16T07:48:40.585086+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -122,8 +122,8 @@
     },
     "5bad9d98-be40-4d1c-86ef-6d65a2e0d593": {
       "name": "ANABI-Licitatii",
-      "content_sha256": "960d11ff832aeacd3946fe2972bd2aea0d5f7fe81af8a5cb7983c568ce3d37dd",
-      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
+      "content_sha256": "8d277569f2def041b533556cc287fa0085959c697aaf2a1fe3c67ab35cf13940",
+      "snapshot_utc": "2026-10-16T07:48:40.585086+00:00",
       "folder": "ANABI-Licitatii"
     },
     "e3898c8c-1e2e-422a-a23f-35ea1ed61beb": {
@@ -133,5 +133,5 @@
       "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-15T15:36:30.189011+00:00"
+  "updated_at_utc": "2026-10-16T08:00:48.775949+00:00"
 }
