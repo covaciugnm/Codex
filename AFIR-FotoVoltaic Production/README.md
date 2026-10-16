@@ -1,6 +1,6 @@
 # AFIR-FotoVoltaic Production
 
-Conversații: 8; subagenți: 3; mesaje: 137; fișiere copiate: 70.
+Conversații: 8; subagenți: 3; mesaje: 141; fișiere copiate: 81.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -14,4 +14,4 @@ Conversații: 8; subagenți: 3; mesaje: 137; fișiere copiate: 70.
 | [Kstar](Kstar/conversatie.md) | Conversație | 26 |
 | [Salvează emailul și pregătește răsp](Salveaz%C4%83%20emailul%20%C8%99i%20preg%C4%83te%C8%99te%20r%C4%83sp/conversatie.md) | Conversație | 28 |
 | [Creează registrul AFIR Cesiro](Creeaz%C4%83%20registrul%20AFIR%20Cesiro/conversatie.md) | Conversație | 12 |
-| [Identifică fabrica de nuci](Identific%C4%83%20fabrica%20de%20nuci/conversatie.md) | Conversație | 10 |
+| [Identifică fabrica de nuci](Identific%C4%83%20fabrica%20de%20nuci/conversatie.md) | Conversație | 14 |

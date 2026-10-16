@@ -32,8 +32,8 @@
     },
     "a62819fc-eecd-41a3-acfa-724e26db8d88": {
       "name": "AFIR-FotoVoltaic Production",
-      "content_sha256": "68a0ce153ea3cc422832987d83b819799b5fa64ca688b321cc39f88deb915324",
-      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
+      "content_sha256": "0768e7e9e61b5227cc07a189f6abcb531bf221930eab7cfae5526956c809f6c2",
+      "snapshot_utc": "2026-10-16T19:52:15.937314+00:00",
       "folder": "AFIR-FotoVoltaic Production"
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "9fc48a74bd562b7f8f364183a91cc276a1d73b73e64c3a1582f47b4ad4c02599",
-      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
+      "content_sha256": "7f16759873ae8ccfca8366f95b75b93b2821e4635064f43b3bfd0de3626b0e67",
+      "snapshot_utc": "2026-10-16T19:52:15.937314+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -133,5 +133,5 @@
       "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-16T13:57:06.726023+00:00"
+  "updated_at_utc": "2026-10-16T20:00:27.947091+00:00"
 }

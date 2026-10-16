@@ -105,6 +105,13 @@
     "sha256": "495a09db7a7721f97ecf57e937cfd67cd85c5a26117721ebca7eaeed8f4bd992"
   },
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\compare.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/compare--8c5c74d3.mjs",
+    "bytes": 15644,
+    "sha256": "6608b11b595580b37a6215530cac135e63fc7e98257613547324064454722cf8"
+  },
+  {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\dosar-001.png",
     "status": "copiat",
     "saved_path": "fisiere/dosar-001--1dae204c.png",
@@ -126,11 +133,74 @@
     "sha256": "ab98e9e4d8b7eba8560cca6b128fd6b1364c70082f0f921506e216630f59e4c2"
   },
   {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\edit_179 11.10.2026 - 400_A1-L17.png",
+    "status": "copiat",
+    "saved_path": "fisiere/edit_179 11.10.2026 - 400_A1-L17--fabf0717.png",
+    "bytes": 100029,
+    "sha256": "7fbd96da5c1304207777cf3ac4d6f8e7e263b8270ad0bb0342dd0246e8ce63cf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\edit_82 16.04.2026 - 200_A1-L14.png",
+    "status": "copiat",
+    "saved_path": "fisiere/edit_82 16.04.2026 - 200_A1-L14--cda65600.png",
+    "bytes": 79893,
+    "sha256": "a3134d9986ef2647b1c097eff9662a18199329125a876a29e55526e1bf10c8a5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\edit_82 16.04.2026 - 400_A1-L15.png",
+    "status": "copiat",
+    "saved_path": "fisiere/edit_82 16.04.2026 - 400_A1-L15--3097696e.png",
+    "bytes": 92143,
+    "sha256": "1b922a53e42ce105ccf99bab43914205ebb1df311c9dab75b52c0e572db79b3c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\edit_Comparativ preturi_A1-G21.png",
+    "status": "copiat",
+    "saved_path": "fisiere/edit_Comparativ preturi_A1-G21--c1e61ae6.png",
+    "bytes": 119876,
+    "sha256": "2a8914737a9447d42fa251dc8a25c59482ed7e17ef6cef0e31ae102dede65397"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\edit_Comparativ preturi_A24-D34.png",
+    "status": "copiat",
+    "saved_path": "fisiere/edit_Comparativ preturi_A24-D34--e07ffff3.png",
+    "bytes": 44133,
+    "sha256": "9f7a6cb535ffda43c7ddd944b5f006fb2d35183770e0cccb8661ddadadf8746d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\edit_Matrice echipamente_A1-J20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/edit_Matrice echipamente_A1-J20--4a461c62.png",
+    "bytes": 104232,
+    "sha256": "3219a7a2a165585315997944c2e3d12469905a58d54a1aad410841cfc40ba6e0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\edit_Matrice echipamente_A62-Z69.png",
+    "status": "copiat",
+    "saved_path": "fisiere/edit_Matrice echipamente_A62-Z69--5ebb689b.png",
+    "bytes": 51426,
+    "sha256": "c2de797029ca6ff8518f22cf77d026e2d03cd80db2c559edbf1dd13a6f569883"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\edit_Matrice echipamente_K6-Z20.png",
+    "status": "copiat",
+    "saved_path": "fisiere/edit_Matrice echipamente_K6-Z20--2d6bc1fc.png",
+    "bytes": 40282,
+    "sha256": "f249f7cc32364646539913e1d537169775839f205f92f321786a2048aca6977f"
+  },
+  {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\emails.json",
     "status": "copiat",
     "saved_path": "fisiere/emails--2d05467e.json",
     "bytes": 202451,
     "sha256": "cfe7350f66ea968a7db83ed225974c24e48ed400657e111bd03a792dd5e6cdce"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\finalize_comparison.py",
+    "status": "copiat",
+    "saved_path": "fisiere/finalize_comparison--6f15419f.py",
+    "bytes": 4943,
+    "sha256": "aff516aa14d137187488d9b5c28fe9356a68ec6e36b385391277dcf466136ed4"
   },
   {
     "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a144d6-5235-7b32-a0ad-d075f50f44b4\\nuci\\finish.py",
@@ -157,8 +227,8 @@
     "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/nuttechnology.com/07_Centralizatoare/Echipamente_si_preturi_NutTechnology_2026-10-16.xlsx",
     "status": "copiat",
     "saved_path": "fisiere/Echipamente_si_preturi_NutTechnology_2026-10-16--c9f71098.xlsx",
-    "bytes": 30925,
-    "sha256": "8cce972297514e81391b078d1631371cf8536a94da706bd31590d28556557646"
+    "bytes": 67069,
+    "sha256": "df7a7d47b433417fd25e2771b92daf285539bfd394272a950ecb026f0271f89d"
   },
   {
     "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/50. Fabrica Nuci/nuttechnology.com/08_Dosar_tehnic/Dosar_tehnic_complet_2026-10-16.pdf",
@@ -170,6 +240,13 @@
   {
     "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\nuttechnology.com",
     "status": "fisier_inexistent_sau_director"
+  },
+  {
+    "source_reference": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1\\50. Fabrica Nuci\\nuttechnology.com\\07_Centralizatoare\\Echipamente_si_preturi_NutTechnology_2026-10-16.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Echipamente_si_preturi_NutTechnology_2026-10-16--c9f71098.xlsx",
+    "bytes": 67069,
+    "sha256": "df7a7d47b433417fd25e2771b92daf285539bfd394272a950ecb026f0271f89d"
   },
   {
     "source_reference": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/reconstructing-peles-lost-goal/",
