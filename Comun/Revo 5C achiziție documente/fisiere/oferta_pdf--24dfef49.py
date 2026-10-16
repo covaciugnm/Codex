@@ -19,17 +19,17 @@ OFERTANTI=[
       cui="52226710", j="J2025056106001", euid="EUID ROONRC.J2025056106001",
       adresa="Mun. Alba Iulia, Str. Septimius Severus, Nr. 47, Bl. TOR 3, Et. 3, Ap. 13, Jud. Alba",
       admin="Giurgiu Iulia-Elisabeta", contact="0748792524  ·  office@revo5c.ro", tva=False,
-      pu="75.188,24", val="225.564,71"),
+      pu="73.946,00", val="221.838,00"),
  dict(file="OFERTA_WM-ATV-016_MARIUS_CODE_WNK_SRL.pdf", nr="WM-ATV-016", inv="WM-ATV-010", firma="MARIUS CODE WNK SRL",
       cui="37707133", j="J2017000690010", euid="",
       adresa="Mun. Alba Iulia, Str. Ștefan Luchian, Nr. 15, Jud. Alba",
       admin="Vaida Elena", contact="", tva=True,
-      pu="75.398,32", val="226.194,96", tvaval="47.500,94", tot="273.695,90"),
+      pu="74.156,08", val="222.468,24", tvaval="46.718,33", tot="269.186,57"),
  dict(file="OFERTA_WM-ATV-017_ARIDE_RIDE_IT_SRL.pdf", nr="WM-ATV-017", inv="WM-ATV-011", firma="ARIDE RIDE IT SRL",
-      cui="37932526", j="J1/978/2017", euid="",
+      cui="37932526", j="J2017000978019", euid="EUID ROONRC.J2017000978019",
       adresa="Mun. Alba Iulia, Str. Ștefan Luchian, Nr. 18, Jud. Alba",
       admin="Roș Radu Ioan", contact="", tva=True,
-      pu="75.482,35", val="226.447,06", tvaval="47.553,88", tot="274.000,94"),
+      pu="74.240,11", val="222.720,33", tvaval="46.771,27", tot="269.491,60"),
 ]
 
 def build(C):

@@ -1,0 +1,23 @@
+{
+  "id": "01a13578-7898-7362-aaf7-f9cefb8e4c53",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+  "created_at": 1791898450,
+  "updated_at": 1792156263,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Kstar",
+  "project_id": "a62819fc-eecd-41a3-acfa-724e26db8d88",
+  "project": "AFIR-FotoVoltaic Production",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-16T13:46:40.036744+00:00",
+  "source_bytes": 1057138,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 51,
+  "message_count": 26,
+  "content_sha256": "89b897714123d5ec8205e59f95186614468e34a0d607f2e7444b71efaecf9bc4",
+  "files_copied": 0,
+  "references_not_copied": 7
+}

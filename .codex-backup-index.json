@@ -2,8 +2,8 @@
   "projects": {
     "5c179290-3222-4036-8042-710f2e84db88": {
       "name": "Comun",
-      "content_sha256": "e1187cdf7e3a0676746ecc6b1e043d87261f82d9e5d45845db2828bde51e850a",
-      "snapshot_utc": "2026-10-16T07:48:40.585086+00:00",
+      "content_sha256": "9d563da88bd4370e9e46c09f26d6b71c0c73e57466e8274298d7802e18664dd7",
+      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
       "folder": "Comun"
     },
     "59b8aaaa-7677-449b-b80b-e79b02b3b9ab": {
@@ -32,14 +32,14 @@
     },
     "a62819fc-eecd-41a3-acfa-724e26db8d88": {
       "name": "AFIR-FotoVoltaic Production",
-      "content_sha256": "80d3d3f0fe26d26917666c4718e52367cb0f6daeee20278c11f691391e5cfd5d",
-      "snapshot_utc": "2026-10-15T09:33:11.760357+00:00",
+      "content_sha256": "68a0ce153ea3cc422832987d83b819799b5fa64ca688b321cc39f88deb915324",
+      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
       "folder": "AFIR-FotoVoltaic Production"
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "035bacd7d3b1efdea44684cca52cd9541cc6ea01491c8861a90cee816209d1a5",
-      "snapshot_utc": "2026-10-16T07:48:40.585086+00:00",
+      "content_sha256": "4365647c1b36dd23bdbecfcb1166676d6126bf694eb6f5016fe8ec340caeb602",
+      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
@@ -68,8 +68,8 @@
     },
     "bad0be1d-5fae-412b-aa11-fef421eb951f": {
       "name": "EVA-Learn",
-      "content_sha256": "7a976ff1bcfce47812d4bd85da647486877843d922107f39e06306f0839d8b34",
-      "snapshot_utc": "2026-10-11T08:22:35.726694+00:00",
+      "content_sha256": "11f7bfeffbd3299e622c9143a70f9eba24e497b4892669dc8dc8ded7a481a073",
+      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
       "folder": "EVA-Learn"
     },
     "e56b444a-bcfc-4be0-8aef-18f33b0e3b74": {
@@ -86,14 +86,14 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "205e8a4e9f9600b0bd009ca2db1bae9910d6875bb626105811d16532331efac4",
-      "snapshot_utc": "2026-10-16T07:48:40.585086+00:00",
+      "content_sha256": "9fc48a74bd562b7f8f364183a91cc276a1d73b73e64c3a1582f47b4ad4c02599",
+      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
       "name": "iDempiere",
-      "content_sha256": "f42b83d956bb1352887f50707aebb2b2c7d75862ef98610558472c68b4ed5cac",
-      "snapshot_utc": "2026-10-15T15:26:13.346330+00:00",
+      "content_sha256": "8adbad9b4e0aa99d4dd3804e9ab620c2ebca975982f6c45066ea082f94201b9e",
+      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
       "folder": "iDempiere"
     },
     "a85004ee-5acd-4f38-b445-2289450e8065": {
@@ -104,8 +104,8 @@
     },
     "_Fara proiect": {
       "name": "_Fara proiect",
-      "content_sha256": "29965b93db4f4f99ef21670ab11742fc269c67844aa67342345fe21d323eec67",
-      "snapshot_utc": "2026-10-15T15:26:13.346330+00:00",
+      "content_sha256": "a7a540f18a7dbabcb03ca5b45891b4ec31bf4fac34dff837db003f5b1aef2ecb",
+      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
       "folder": "_Fara proiect"
     },
     "0342b0dc-be68-43fb-b135-3d436d2d009d": {
@@ -122,8 +122,8 @@
     },
     "5bad9d98-be40-4d1c-86ef-6d65a2e0d593": {
       "name": "ANABI-Licitatii",
-      "content_sha256": "8d277569f2def041b533556cc287fa0085959c697aaf2a1fe3c67ab35cf13940",
-      "snapshot_utc": "2026-10-16T07:48:40.585086+00:00",
+      "content_sha256": "fb1be8de9f511918f28637dff11d87a272acb286dede5770e0a6ae8966899a0d",
+      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
       "folder": "ANABI-Licitatii"
     },
     "e3898c8c-1e2e-422a-a23f-35ea1ed61beb": {
@@ -133,5 +133,5 @@
       "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-16T08:00:48.775949+00:00"
+  "updated_at_utc": "2026-10-16T13:57:06.726023+00:00"
 }

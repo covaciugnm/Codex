@@ -1,6 +1,6 @@
 # _Fara proiect
 
-Conversații: 10; subagenți: 9; mesaje: 281; fișiere copiate: 251.
+Conversații: 10; subagenți: 9; mesaje: 281; fișiere copiate: 245.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|

@@ -2,7 +2,7 @@
 
 ID: `01a0f194-572c-7490-a456-49150d14916a`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-16T07:48:40.585086+00:00
+Export UTC: 2026-10-16T13:46:40.036744+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -457,3 +457,15 @@ Nu am găsit nicio revenire TOMS după refuzul din 2026.10.08. Contractul și î
 
 Raportul și jurnalele sunt salvate; se finalizează indexarea arhivei. Situația rămâne neschimbată: TOMS nu a revenit asupra refuzului, iar clarificarea privind v4.1 este încă deschisă.
 
+
+## Asistent
+
+**2026.10.16: nicio revenire TOMS după refuzul din 2026.10.08.**
+
+- V4.1 a fost trimis, dar semnarea și începerea lucrului rămân neconfirmate.
+- Accesul efectiv la portal, planlista și vizita nu sunt confirmate.
+- Datele fixe din v3 au fost retrase; **D2 nu este o livrare restantă astăzi**.
+
+Rămân de clarificat aplicarea refuzului la v4.1 și alegerea unui prestator alternativ.
+
+Am salvat [raportul](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.16 Verificare TOMS/2026.10.16 Raport TOMS.txt>) și actualizat jurnalele. Nu am trimis emailuri sau modificat contractul.

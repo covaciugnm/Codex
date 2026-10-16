@@ -1,0 +1,23 @@
+{
+  "id": "01a14480-5331-7591-a3eb-c421adca7b39",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+  "created_at": 1792150623,
+  "updated_at": 1792151347,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Creează registrul AFIR Cesiro",
+  "project_id": "a62819fc-eecd-41a3-acfa-724e26db8d88",
+  "project": "AFIR-FotoVoltaic Production",
+  "assignment_method": "app_assignment",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-16T13:46:40.036744+00:00",
+  "source_bytes": 9834181,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 207,
+  "message_count": 12,
+  "content_sha256": "5210021585d827b9e654bce77d7260cd0df3e7ee28b2d8ee960d7acf7aff7f43",
+  "files_copied": 20,
+  "references_not_copied": 6
+}

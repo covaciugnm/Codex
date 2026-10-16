@@ -1,0 +1,23 @@
+{
+  "id": "01a144b5-b8d8-70c3-aa3b-f033e64a22e6",
+  "cwd": "S:\\3dscan.eva-org.com",
+  "created_at": 1792154122,
+  "updated_at": 1792155032,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Explică desincronizarea fluxurilor O",
+  "project_id": "e7854c92-2b47-41b6-811e-be76b04f4f39",
+  "project": "3D.AppleScan",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-10-16T13:46:40.036744+00:00",
+  "source_bytes": 544276,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 15,
+  "message_count": 9,
+  "content_sha256": "76193a607d30c6a4bc0e7b1b7b2d5c066373647997c52ac859b7f5d39fec0a05",
+  "files_copied": 0,
+  "references_not_copied": 10
+}

@@ -73,7 +73,7 @@ cell_lines(c0,[("CUMPĂRĂTOR",{"size":8,"bold":True,"color":NAVY,"after":3}),
  ("SC WILD MOTION S.R.L.",{"size":11,"bold":True,"after":2}),
  "Sediu: Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, județul Alba, cod poștal 517243",
  "CUI: 52786696   |   Nr. ONRC: J2025082656000",
- "Cont IBAN: RO42BTRLRONCRTODB3187901",
+ "Cont IBAN: RO42BTRLRONCRT0DB3187901",
  "Banca: Banca Transilvania",
  "Telefon: 0769982977",
  "Reprezentant legal: CAPOTA NICOLAE-IOAN, Administrator"])
@@ -101,7 +101,7 @@ desc=["CFMOTO CForce 1000 – ATV 4x4, nou",
       "Înmatriculabil, omologare Euro 5+, 962,6 cmc, 84 CP omologați, CVT",
       "Serii de identificare: REVO-WM-CFmoto1, REVO-WM-CFmoto2, REVO-WM-CFmoto3",
       "Contract WM-ATV-033 / 18.05.2026 · PV recepție WM-ATV-036 / 14.10.2026"]
-vals=[["1"],desc,["buc."],["3"],["75.188,24"],["225.564,71"]]
+vals=[["1"],desc,["buc."],["3"],["73.946,00"],["221.838,00"]]
 for i,lines in enumerate(vals):
     c=t.rows[1].cells[i]; c.width=w[i]; c.paragraphs[0].text=""
     for j,ln in enumerate(lines):
@@ -115,7 +115,7 @@ _sp=d.add_paragraph(); _sp.paragraph_format.space_after=Pt(2); _sp.add_run(' ').
 
 # ---- Totaluri
 t=d.add_table(rows=3,cols=2); borders(t,color="1F3A5F"); t.alignment=WD_TABLE_ALIGNMENT.RIGHT
-tot=[("Total valoare","225.564,71 lei",False),("TVA","nu se aplică",False),("TOTAL DE PLATĂ","225.564,71 lei",True)]
+tot=[("Total valoare","221.838,00 lei",False),("TVA","nu se aplică",False),("TOTAL DE PLATĂ","221.838,00 lei",True)]
 for i,(a,b,bold) in enumerate(tot):
     ca,cb=t.rows[i].cells; ca.width=Cm(5.2); cb.width=Cm(3.6)
     ca.paragraphs[0].text=""; ra=ca.paragraphs[0].add_run(a); ra.bold=bold; ra.font.size=Pt(11 if bold else 10)
@@ -125,7 +125,7 @@ for i,(a,b,bold) in enumerate(tot):
     else:
         shade(ca,"EEF2F7"); shade(cb,"EEF2F7")
 _sp=d.add_paragraph(); _sp.paragraph_format.space_after=Pt(2); _sp.add_run(' ').font.size=Pt(2)
-para("Total de plată în litere: douăsutedouăzecișicincimiicincisuteșaizecișipatru lei și 71 bani.",size=9,italic=True,color=GREY,space_after=2)
+para("Total de plată în litere: douăsutedouăzecișiunumiioptsutetreizecișiopt lei și 00 bani.",size=9,italic=True,color=GREY,space_after=2)
 para("Mențiuni: REVO 5C S.R.L. nu este plătitoare de TVA – nu se aplică TVA (art. 310 din Legea nr. 227/2015 privind Codul fiscal). Preț ferm conform art. 4 din Contract. Plata prin ordin de plată în maximum 30 de zile de la primirea facturii, după semnarea procesului-verbal de recepție fără obiecțiuni. Produse noi, livrate la Sat Hăpria, Strada Teilor, nr. 26, Comuna Ciugud, jud. Alba, cu certificate de garanție (minimum 24 luni), documente de conformitate/omologare și documente pentru înmatriculare.",size=8,color=GREY,space_after=5)
 
 # ---- Predare / primire

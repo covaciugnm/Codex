@@ -10,14 +10,14 @@
   "project": "_Fara proiect",
   "assignment_method": "explicitly_projectless",
   "parent_thread_id": null,
-  "export_started_at_utc": "2026-10-15T15:26:13.346330+00:00",
-  "source_bytes": 30845974,
+  "export_started_at_utc": "2026-10-16T13:46:40.036744+00:00",
+  "source_bytes": 7058715,
   "invalid_json_lines": 0,
   "history_source": "items",
   "rollout_exists": true,
   "item_count": 812,
   "message_count": 109,
   "content_sha256": "2f42d979d2cda295a0fcffdf443cc5df047b36543f8176ba7bb9b5898f03653a",
-  "files_copied": 8,
-  "references_not_copied": 30
+  "files_copied": 2,
+  "references_not_copied": 36
 }

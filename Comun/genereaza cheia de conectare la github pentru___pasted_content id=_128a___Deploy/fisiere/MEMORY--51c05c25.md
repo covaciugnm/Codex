@@ -46,3 +46,4 @@
 - [Stalwart releu hosterion Spamhaus](stalwart-releu-hosterion-spamhaus.md) — 13.10.2026: IP 5.15.130.140 listat CSS+PBL, iesire mutata pe releu mail.cesiro.ro (IP 185.199.175.100), SPF actualizat, rapoarte DMARC/TLS oprite; eva-org.com inca in DBL (formular Spamhaus = userul)
 - [Persoane si Firme: surse acte](persoane-firme-surse-acte.md) — MEREU cauta CI/CNP in Z:\00. Persoane si actele firmelor in Z:\00. Firme inainte de a lasa rubrici goale
 - [STURM Energie Schallergasse](sturm-energie-schallergasse.md) — litigiu facturi fara contract A&C, somatii 2.662,60 EUR termen 19.10.2026; solicitare R06 (10/10) + draft EVA creat 14.10.2026, NETRIMIS
+- [Wild Motion achizitie ATV](wild-motion-achizitie-atv.md) — dosar 3 ATV CFMOTO (SMIS 311779): variante REVO 5C / ARIDE, buget 221.838 fara TVA + 21%, IBAN corect RO42...0DB..., erori gasite, reguli user (TVA 21%, denumire scurta, specificatii doar din invitatie)

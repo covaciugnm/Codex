@@ -1,6 +1,6 @@
 # iDempiere
 
-Conversații: 15; subagenți: 0; mesaje: 472; fișiere copiate: 430.
+Conversații: 15; subagenți: 0; mesaje: 472; fișiere copiate: 417.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|

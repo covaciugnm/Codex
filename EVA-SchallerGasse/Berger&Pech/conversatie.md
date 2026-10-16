@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-16T07:48:40.585086+00:00
+Export UTC: 2026-10-16T13:46:40.036744+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -1731,3 +1731,120 @@ Verific mesajele și eventualele notificări de nelivrare pentru BERGER și PECH
 
 Nu am identificat noutăți BERGER/PECH în cele 18 căutări, cu toate cele 19 pagini parcurse. Dovada și jurnalele sunt salvate; se finalizează indexarea. EVA raportează sincronizarea office la 10:30 și Gmail la 07:30.
 
+
+## Asistent
+
+Rezultatul rămâne fără noutăți pentru cei doi parteneri. Raportul și jurnalele sunt salvate; actualizarea indexului durează mai mult și este încă în curs.
+
+
+## Asistent
+
+**2026.10.16:** Nu am identificat răspunsuri, contrapropuneri, termene sau atașamente noi de la **BERGER ori PECH**.
+
+Sincronizarea raportată de EVA: **office 10:30**, **Gmail 07:30**, ora României; mesajele nesincronizate pot lipsi.
+
+[Raportul verificării](</D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.16 Verificare Berger Pech/2026.10.16 10-49-40 Raport verificare BERGER PECH.txt>)
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-zilnic-schallergasse-35</automation_id>
+  <current_time_iso>2026-10-16T07:54:44.074Z</current_time_iso>
+  <instructions>
+Verifică zilnic la ora 08:00, Europe/Bucharest, comunicările și actualizările noi privind Schallergasse 35, 1120 Wien. Începe cu folder map/README.md și inventarul din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling), apoi cele mai recente statusuri, registre și jurnale datate. Caută în Eva-Mail mesajele primite și trimise după ultima verificare, cu suprapunere de o zi: toate mesajele office@ac-wohnart.at și căutări globale după adresă, firme și referințe relevante. Verifică ultima sincronizare și paginează toate rezultatele. Compară ID-urile cu arhiva, citește integral mesajele noi relevante și originalele pentru sume și decizii. Salvează mesajele și atașamentele relevante pe disc, cu dată, subiect, expeditor, destinatari, CC, ID Eva-Mail și statut primit/trimis/draft; păstrează textul original și datele tehnice. Folosește YYYY.MM.DD la începutul numelor documentelor noi și în rezumate. Păstrează istoricul; actualizează jurnalul proiectului și al partenerului cu status scurt, ultimul răspuns, următorul pas și sursa; actualizează incremental indexul. Afișează în acest chat, în română, doar noutățile față de ultima verificare, cu sume, termene, acțiuni necesare și surse. Dacă nu sunt noutăți, raportează concis că nu ai identificat comunicări noi și limitele acoperirii. Distinge draftul de mesajul trimis, oferta de contractul acceptat, invitația de întâlnirea efectuată și ordinul de plată de debitul/încasarea confirmată. Nu trimite emailuri, nu semna și nu efectua plăți.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific acum toate comunicările noi privind Schallergasse 35 și atașamentele relevante, apoi le compar cu arhiva pentru a raporta numai noutățile.
+
+
+## Asistent
+
+Am găsit o ofertă nouă WEIGL, o propunere de programare WÖHR și răspunsuri CERHA, DONAU și STURM. Citesc documentele originale pentru prețuri, termene și condiții; confirmările automate vor fi raportate separat de acceptări sau confirmări de plată.
+
+
+## Asistent
+
+Verific acum oferta WEIGL și înștiințarea STURM în fișierele originale, pentru a confirma valorile și termenele. Salvez și corespondența nouă, cu distincția dintre mesajele trimise, confirmările automate și răspunsurile efective.
+
+
+## Asistent
+
+WÖHR propune întreținerea pentru 2026.10.27, între 07:00 și 10:00, și cere confirmarea programării și eliberarea locurilor de parcare. Pentru DONAU și STURM am găsit confirmări automate de primire; acestea nu confirmă acceptarea solicitărilor sau încasarea banilor.
+
+
+## Asistent
+
+Răspunsul CERHA confirmă primirea mesajului despre plată și promite o verificare contabilă ulterioară. Nu am găsit confirmarea finală a încasării. Oferta nouă WEIGL privește o platformă pentru scări STRATOS NG, distinctă de ascensorul principal.
+
+
+## Asistent
+
+Documentele noi includ și o înștiințare STURM pentru TOP 5, transmisă prin CERHA, plus cererea de corectare a adresei de corespondență. Verific separat suma cerută și termenul, fără a considera datoria acceptată.
+
+
+## Asistent
+
+Am preluat originalele ofertei WEIGL, ale înștiințării STURM și ale programării WÖHR. Se finalizează arhivarea anexelor tehnice WEIGL, după care verific concordanța dintre documente și mesajele primite.
+
+
+## Asistent
+
+Oferta WEIGL este de **14.150 EUR net**, plus opțional **950 EUR net** pentru verificator, structurist și autorizații. Livrarea este propusă la 10 săptămâni de la comandă. STURM cere **27,12 EUR pentru TOP 5 până la 2026.10.22**; nu voi adăuga această sumă încă o dată la totalurile anterioare.
+
+
+## Asistent
+
+Verificarea este completă: **10 mesaje relevante noi și 8 documente originale**. Astăzi, 2026.10.16, expiră termenul cerut de noi pentru confirmarea suspendării demersurilor STURM; am găsit doar confirmări automate, fără acceptarea suspendării. Actualizez acum jurnalele și indexul arhivei.
+
+
+## Asistent
+
+Mesajele, cele opt documente originale și jurnalele sunt salvate. Raportul separă sumele cerute de cele declarate ca plătite și evidențiază acțiunile rămase: răspunsul WÖHR, confirmarea suspendării STURM și confirmările de încasare CERHA/DONAU.
+
+
+## Asistent
+
+**2026.10.16 — am identificat 10 mesaje relevante noi:**
+
+| Partener | Noutate și acțiune necesară |
+|---|---|
+| **WEIGL** | Ofertă pentru platforma de scări **STRATOS NG: 14.150 EUR net / 16.980 EUR cu TVA**. Opțional verificator, structurist și autorizații: **950 EUR net**. Livrare: **10 săptămâni de la comandă**; plată 50%/50%; service aproximativ 300 EUR net/an. Oferta nu este acceptată. |
+| **WÖHR** | Propune întreținerea parcării la **2026.10.27, 07:00–10:00, ora Vienei**. Cere confirmarea programării, eliberarea locurilor și afișarea anunțului. |
+| **STURM** | Înștiințare pentru TOP 5: **27,12 EUR**, termen **2026.10.22**. Suma era deja cunoscută; nu o cumulăm din nou. Contestația noastră este trimisă, dar suspendarea recuperării **nu este confirmată**. Termenul cerut pentru această confirmare este **astăzi, 2026.10.16**. |
+| **CERHA** | Capra a răspuns notificării privind plata de **2.640,22 EUR** și a promis confirmarea contabilă. Confirmarea finală a încasării nu a fost identificată. A solicitat STURM corectarea adresei. |
+| **DONAU** | Cererea privind plata declarată de **4.775,43 EUR**, acoperirea și documentele contractuale este **trimisă**. Există doar confirmare automată; încasarea, acoperirea și încetarea nu sunt confirmate. |
+
+Am salvat **8 documente originale**, mesajele și jurnalele și am actualizat indexul.
+
+[Raport complet și surse](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.16 Verificare zilnica/2026.10.16 Raport verificare zilnica.txt>) · [Oferta WEIGL](<D:/00. Downloads/Apartamente Viena/00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)/08. Corespondenta/2026.10.16 Verificare zilnica/2026.10.14 ORIGINAL 60dd5964 Angebot_AN10011519.pdf>)
+
+Acoperire limitată de sincronizarea raportată: **office 10:30**, **Gmail 07:30**, ora României.
+
+<heartbeat>
+  <automation_id>verificare-zilnic-schallergasse-35</automation_id>
+  <decision>NOTIFY</decision>
+  <message>Ofertă WEIGL nouă, programare WÖHR de confirmat și termen STURM astăzi; documentele și jurnalele sunt actualizate.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-emailuri-berger-i-pech</automation_id>
+  <current_time_iso>2026-10-16T12:57:48.755Z</current_time_iso>
+  <instructions>
+Verifică zilnic la orele 10:00 și 16:00, Europe/Bucharest, dacă există noutăți în discuțiile pe email cu BERGER și PECH pentru Schallergasse 35, 1120 Wien. Citește mai întâi folder map/README.md, inventarul și cele mai recente registre/statusuri din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling). În Eva-Mail verifică mesajele primite și trimise din office@ac-wohnart.at și covaciu.gnm@gmail.com și caută global după bmberger.at, zt-pech.at, office@bmberger.at, sekretariat@zt-pech.at, ployer@zt-pech.at, adresă și referințele din cele mai recente contracte/oferte. Include notificările de nelivrare pentru mesajele către acești doi parteneri. Caută de la ultima verificare cu suprapunere de o zi, verifică ultima sincronizare a căsuțelor, paginează toate rezultatele și compară ID-urile cu arhiva pentru a evita raportarea repetată a noutăților deja înregistrate, inclusiv la verificarea generală de la 08:00. Citește integral mesajele noi relevante și originalele pentru sume și decizii. Salvează mesajele și atașamentele relevante cu metadatele originale, dată, subiect, expeditor, destinatari, CC, ID Eva-Mail și statut primit/trimis/draft. Folosește YYYY.MM.DD la începutul numelor documentelor noi și în rezumate; păstrează istoricul, actualizează jurnalul proiectului și jurnalul partenerului cu status scurt, ultimul răspuns, următorul pas și sursa, apoi indexul incremental. Afișează în acest chat, în română, numai noutățile BERGER/PECH: răspunsuri și observații asupra contractelor, contrapropuneri, modificări de preț sau servicii, termene/calendar, atașamente noi și acțiuni necesare, cu surse. Distinge draftul de mesajul trimis, trimiterea de primirea confirmată și oferta/propunerea de contractul acceptat ori semnat. Dacă nu există noutăți, raportează concis acest lucru și limitele sincronizării. Nu trimite emailuri, nu modifica documentele comerciale, nu semna contracte și nu efectua plăți.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-emailuri-berger-i-pech</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu am identificat mesaje sau atașamente noi BERGER/PECH. Sincronizare raportată pentru 2026.10.16: office 15:30, Gmail 15:58, ora României; mesajele încă nesincronizate pot lipsi. Jurnalele și indexul sunt actualizate.</message>
+</heartbeat>

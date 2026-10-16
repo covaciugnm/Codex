@@ -1,0 +1,42 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\codex-remote-attachments\\01a144b5-b8d8-70c3-aa3b-f033e64a22e6\\6DD3F067-3FB2-45CD-A7EC-8FDEE2CD90CD\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "C:\\\\Users\\\\User\\\\.codex\\\\codex-remote-attachments\\\\01a144b5-b8d8-70c3-aa3b-f033e64a22e6\\\\6DD3F067-3FB2-45CD-A7EC-8FDEE2CD90CD\\\\1-Photo-1.jpg",
+    "status": "stare_interna_aplicatie_exclusa"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/hardware/platform/depth/configuring-stereo-depth",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/hardware/products/OAK-D%20Pro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software-v3/depthai/api/cpp",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://docs.luxonis.com/software-v3/depthai/depthai-components/messages/camera_control",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox/issues/106",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nvidia-isaac.github.io/nvblox/v0.0.10/pages/core_library_interface.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://nvidia-isaac.github.io/nvblox/v0.0.10/pages/torch_examples_voxel_access.html",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.nvidia.com/en-eu/geforce/laptops/50-series/",
+    "status": "referinta_externa_necopiata"
+  }
+]

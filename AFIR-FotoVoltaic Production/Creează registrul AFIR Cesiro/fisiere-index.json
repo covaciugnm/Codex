@@ -1,0 +1,166 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\aa2-page1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/aa2-page1--2129bd96.png",
+    "bytes": 425431,
+    "sha256": "ad09e6750cb9d033f3e64b9f38092587b10aac4d67c50d15ccd347c7f4c741c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\build.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/build--7e0fbf90.mjs",
+    "bytes": 8538,
+    "sha256": "b52a7305d8174cdd75263006f62aaf1a4c545dbe58746c42ac70a7c15061fa59"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\candidates.json",
+    "status": "copiat",
+    "saved_path": "fisiere/candidates--b9501bcb.json",
+    "bytes": 258411,
+    "sha256": "a24b04ffa0e730a543a3276a29fa330791ebe5b38bb3f3fa597b1878b448f5b1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\emails.json",
+    "status": "copiat",
+    "saved_path": "fisiere/emails--cb9f9a8f.json",
+    "bytes": 763536,
+    "sha256": "0d7480c7f21c0694e793a4322f7b7ffe66f8cca66807b014e30c6970e6ce7d41"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\emails_complete.json",
+    "status": "copiat",
+    "saved_path": "fisiere/emails_complete--d05ff777.json",
+    "bytes": 1068553,
+    "sha256": "c2a4fa634b3047f633c86910d0be5c42e48bf349522483ee0e60fb7c6a881e11"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\emails_full.json",
+    "status": "copiat",
+    "saved_path": "fisiere/emails_full--4205264e.json",
+    "bytes": 908135,
+    "sha256": "62b3d74414267effadacdc8a812c5dda28c99c550ca8126b49add6e12114a045"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\extract.py",
+    "status": "copiat",
+    "saved_path": "fisiere/extract--ccca149d.py",
+    "bytes": 2174,
+    "sha256": "5260488052114d151d9a468f4ec7d8bd75a768355738d7d740e4366750128ead"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\f34.png",
+    "status": "copiat",
+    "saved_path": "fisiere/f34--2793d411.png",
+    "bytes": 255293,
+    "sha256": "2c686f3f20bac191a4e931407e843092c2523915a1d507cd026580dd93e974ab"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\mem161.png",
+    "status": "copiat",
+    "saved_path": "fisiere/mem161--4a66bdc7.png",
+    "bytes": 234470,
+    "sha256": "af9af24b69cf0bc96ddf2da2090439627ab0ce1a85c6adfb198a348a2c63fb16"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\prepare.py",
+    "status": "copiat",
+    "saved_path": "fisiere/prepare--e85e0de7.py",
+    "bytes": 18676,
+    "sha256": "ad065b2ffc663fbb76281d3c481114cea289efc3526bc9eadc9a25d581a69972"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\preview-Atasamente_email.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-Atasamente_email--753c1cff.png",
+    "bytes": 35199,
+    "sha256": "5d6cb49b6672d47ecf1a62b1ff0450d8fd2a4daa52f5d526d4cb305a50bd5b1f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\preview-Continut_arhive.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-Continut_arhive--36e82481.png",
+    "bytes": 32951,
+    "sha256": "1787f9bf650218c18b99d398c91fefab734c34f6e572241d31fb8581681d6436"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\preview-Documente.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-Documente--3127669b.png",
+    "bytes": 26210,
+    "sha256": "5aa74c55ac722e70e77d16d7e7cd9dcc21f1a5213593d51ef594e235e7b7ae02"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\preview-Emailuri.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-Emailuri--04ae8047.png",
+    "bytes": 35109,
+    "sha256": "68599ea188af29d6773127f4a45d356ee617d3a6c735dce384a31f76fb6e8f80"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\preview-Inventar_local.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-Inventar_local--953aa78d.png",
+    "bytes": 25849,
+    "sha256": "00d84dc7c0a085fbfa991f9bfe43d2debf31f8b0f50dd03e62c80dc0c77adbf0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\preview-Registru_AFIR.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-Registru_AFIR--c133efe8.png",
+    "bytes": 24704,
+    "sha256": "9b9247dba2c63c088fdb1e3cba932f9362293a92ad7bcbdf28ea9cbf96ec08e1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\preview-Sinteza.png",
+    "status": "copiat",
+    "saved_path": "fisiere/preview-Sinteza--76bb0d75.png",
+    "bytes": 58256,
+    "sha256": "275275be297ebb21f2916e4c9033adf9bca4c914e3f945a33a7d4c630cd84889"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\raspuns816.png",
+    "status": "copiat",
+    "saved_path": "fisiere/raspuns816--edf6df58.png",
+    "bytes": 122195,
+    "sha256": "dbc26bc76344862c3fa3c7d1a40ad2ababdfcf7cbc61fbc24aa31d265d32bad5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\16\\01a14480-5331-7591-a3eb-c421adca7b39\\registru\\review_numbers.py",
+    "status": "copiat",
+    "saved_path": "fisiere/review_numbers--5e846530.py",
+    "bytes": 801,
+    "sha256": "049eea558341cc726955d80cbb062aa8e84f4b263fe514459032e657402316a7"
+  },
+  {
+    "source_reference": "Z:/00. Proiecte 2025/AFIR FotoVoltaic 1/outputs/registru-cesiro-2026-10-16/Registru_AFIR_Cesiro_Production_16.10.2026.xlsx",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_AFIR_Cesiro_Production_16.10.2026--79734169.xlsx",
+    "bytes": 355285,
+    "sha256": "7187a32e93a47ddc2305452acaec25dd9f25159c226fdf51e5f007e3a6ea3759"
+  },
+  {
+    "source_reference": "http\",\"category\":null,\"labels\":[\"INBOX\",\"8: Marketing\"],\"folder\":null,\"is_read\":true,\"is_starred\":false,\"is_sent\":false,\"has_attachments\":false,\"attachment_names\":[]},{\"id\":\"b29172c9-bb8d-4423-85d1-54138ab69fa3\",\"account_email\":\"covaciu.gnm@eva-org.com\",\"subject\":\"Re: Oferta Opel Zafira Life\",\"from_name\":\"Cosmin Covaciu\",\"from_address\":\"covaciu.gnm@gmail.com\",\"to\":[\"bogdan.simion@materom.ro\"],\"received_at\":\"2021-09-08T04:41:10Z\",\"snippet\":\"Buna ziua, Va rog sa îmi transmiteți și o oferta pentru un Opel Insignia Sport Tourer full options. Va mulțumesc Cosmin \",\"category\":\"fyi\",\"labels\":[\"SENT\",\"1: To respond\"],\"folder\":\"bogdan.simion@materom.ro\",\"is_read\":true,\"is_starred\":false,\"is_sent\":true,\"has_attachments\":true,\"attachment_names\":[\"image001.jpg\"]},{\"id\":\"ea5cb49a-db48-4c24-8240-ffdea9ede6d8\",\"account_email\":\"link_covaciu@yahoo.com\",\"subject\":\"Seria de autor, Marin Preda (9 titluri",
+    "status": "referinta_relativa_neconfirmata"
+  },
+  {
+    "source_reference": "http://www.cesiro.ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://fabify.com/ro",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://fabify.com/ro/309-special-sale",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://manage.kmail-lists.com/subscriptions/web-view?a=VBEavE&c=01HG\",\"category\":null,\"labels\":[\"INBOX\",\"8: Marketing\"],\"folder\":null,\"is_read\":true,\"is_starred\":false,\"is_sent\":false,\"has_attachments\":false,\"attachment_names\":[]},{\"id\":\"69612a2c-1529-4f04-8539-cd324e5fc32f\",\"account_email\":\"link_covaciu@yahoo.com\",\"subject\":\"Nicolae Iorga (3 volume",
+    "status": "referinta_externa_necopiata"
+  },
+  {
+    "source_reference": "https://www.licitatiipublice.ro/licitatiipublice/?usrc=nem&cca=#cha#",
+    "status": "referinta_externa_necopiata"
+  }
+]

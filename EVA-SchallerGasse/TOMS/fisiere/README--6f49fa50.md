@@ -1,3 +1,23 @@
+2026.10.16 16:00:38 — Verificare punctuală BERGER/PECH
+Status scurt: Nu au fost identificate comunicări, contrapropuneri, observații, schimbări de preț/servicii, calendare, atașamente sau notificări noi de nelivrare pentru cei doi parteneri.
+Ultimul răspuns: niciun răspuns nou. Propunerile R09 trimise la 2026.10.13 rămân fără primire ori acceptare confirmată. Nu există o confirmare nouă de contract semnat.
+Următorul pas: verificarea programată; nu este necesară o acțiune nouă pe baza acestei verificări.
+Acoperire: 2026.10.15–2026.10.16, 18 căutări/18 pagini, paginare completă; comparație cu registrul de 823 ID-uri, inclusiv verificarea generală de astăzi.
+Sincronizare raportată office: 2026.10.16 15:30:12 România; Gmail: 2026.10.16 15:58:28 România. Mesajele încă nesincronizate pot lipsi; căsuțele shared/team nesearchable nu sunt acoperite.
+Sursă: 08. Corespondenta/2026.10.16 Verificare Berger Pech/2026.10.16 16-00-38 Dovezi verificare EVA.json
+Nicio trimitere, modificare comercială, semnare ori plată. Această verificare nu extinde acoperirea generală la ceilalți parteneri.
+
+ISTORIC PĂSTRAT
+
+2026.10.16 — Verificare generala zilnica
+Status scurt: 10mesaje relevante noi; oferta WEIGL14150EUR net + optional950EUR; WOHR27Oct07–10Viena necesita confirmare; STURM27,12EUR termen22Oct; contestatie STURM si cerere DONAU trimise14Oct, numai confirmari automate.
+Ultimul raspuns: 2026.10.15 WOHR si CERHA pentru STURM. Plata CERHA2640,22EUR si prime DONAU4775,43EUR raman fara confirmare contabila explicita.
+Urmatorul pas: decizie WEIGL; confirmare WOHR; azi16Oct urmarire raspuns privind suspendarea STURM, documente cerute28Oct; confirmari plati si acoperire DONAU.
+Sursa: 08. Corespondenta/2026.10.16 Verificare zilnica/2026.10.16 Raport verificare zilnica.txt; 8documente originale salvate, registru comunicatii 823ID-uri.
+Acoperire: office10:30:17, Gmail07:30:31, IPEC10:48:48Romania; casutele nesincronizate si shared/team nesearchable pot lipsi. Nicio expediere, semnare, plata sau modificare comerciala prin aceasta verificare.
+
+ISTORIC PASTRAT
+
 # 2026.10.16 - TOMS: fara revenire dupa refuz
 
 Raport: ../08. Corespondenta/2026.10.16 Verificare TOMS/2026.10.16 Raport TOMS.txt. V4.1 trimis la 2026.10.02; ultimul raspuns 2026.10.08, refuz din lipsa resurselor. Nicio semnare sau incepere confirmata. Datele fixe din v3 si cererea de ofertare suplimentara sunt depasite. Jurnale TXT si registru comunicatii JSON 2026.10.16 actualizate numai pentru TOMS; office sincronizat 10:30:17 Romania. Nicio trimitere sau modificare comerciala.

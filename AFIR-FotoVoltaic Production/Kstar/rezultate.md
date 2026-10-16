@@ -1,0 +1,2926 @@
+# Rezultate — Kstar
+
+Răspunsuri și rezultate disponibile în istoricul local; fără limită de lungime aplicată de export.
+
+## Asistent
+
+Voi căuta cererea trimisă către Kstar și răspunsul de ieri, apoi voi verifica dacă au clarificat toate punctele solicitate.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-5f928577-44b7-4dce-9b96-899e475e9e65",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_emails",
+  "status": "completed",
+  "arguments": {
+    "query": "Kstar",
+    "limit": 20
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_emails"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n      \"account_email\": \"covaciu.gnm@gmail.com\",\n      \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n      \"from_name\": \"Sebastian B.\",\n      \"from_address\": \"sebastian.b@kstar.com\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-12T10:12:06Z\",\n      \"snippet\": \"Stimate domnule Cosmin Covaciu, Vă mulțumim pentru interesul acordat echipamentelor KSTAR și pentru analiza detaliată transmisă. Ca urmare a adresei dumneavoastră din data de 15.09.2026, vă prezentăm\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"IMPORTANT\",\n        \"CATEGORY_PERSONAL\",\n        \"INBOX\",\n        \"6: Travel\",\n        \"Label_43901\"\n      ],\n      \"folder\": \"Sebastian B.\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"43951a64-7650-4254-9305-b336e27488de\",\n      \"account_email\": \"vaidae104@gmail.com\",\n      \"subject\": \"Welcome to Claude Code\",\n      \"from_name\": \"Claude Team\",\n      \"from_address\": \"no-reply@email.claude.com\",\n      \"to\": [\n        \"vaidae104@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-09T00:31:14Z\",\n      \"snippet\": \"Ship your first commit in 5 minutes. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"CATEGORY_UPDATES\",\n        \"INBOX\",\n        \"8: Marketing\",\n        \"Label_85\"\n      ],\n      \"folder\": \"Claude Team\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"9d8f6834-087b-4704-b777-fa315676d6e1\",\n      \"account_email\": \"covaciu.gnm@eva-org.com\",\n      \"subject\": \"PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n      \"from_name\": \"Cosmin Covaciu\",\n      \"from_address\": \"covaciu.gnm@gmail.com\",\n      \"to\": [\n        \"Sebastian.b@kstar.com\"\n      ],\n      \"received_at\": \"2026-09-22T14:09:56.309631Z\",\n      \"snippet\": \"Bună ziua, domnule Babu, Vă transmitem mai jos punctele care trebuie clarificate înainte de confirmarea comenzii pentru \",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"SENT\",\n        \"1: To respond\"\n      ],\n      \"folder\": \"Sebastian.b@kstar.com\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": true,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"1eff0be7-4047-41f2-a6dd-e01404a11ae5\",\n      \"account_email\": \"cosmin.covaciu@ipec.ro\",\n      \"subject\": \"One of the World’s Greatest Champagnes – Frédéric Savart Le Mesnil-sur-Oger Grand Cru (Only 3,596 bottles)\",\n      \"from_name\": \"Nicolas Boldrini\",\n      \"from_address\": \"nicolas.boldrini@avu.swiss\",\n      \"to\": [\n        \"cosmin.covaciu@ipec.ro\"\n      ],\n      \"received_at\": \"2026-09-01T12:45:14Z\",\n      \"snippet\": \"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Nicolas Boldrini\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"ea174d2b-5234-401d-a58d-2817f5708ccc\",\n      \"account_email\": \"link_covaciu@yahoo.com\",\n      \"subject\": \"⏰Bigme HiBreak Dual2 Will Be Available On Kickstarter In 1 HOUR!!\",\n      \"from_name\": \"Bigme Official Store\",\n      \"from_address\": \"store+62913118387@g.shopifyemail.com\",\n      \"to\": [\n        \"link_covaciu@yahoo.com\"\n      ],\n      \"received_at\": \"2026-07-10T12:02:27Z\",\n      \"snippet\": \"Bigme Hibreak Dual 2 launches at 9:00 AM EDT. Don't miss the Super Early Bird!\\n\\r\\n ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ \",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Bigme Official Store\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"fb6735aa-1962-4d50-986e-2ba796c17449\",\n      \"account_email\": \"link_covaciu@yahoo.com\",\n      \"subject\": \"Save $30 on Hibreak Dual2 Smartphone & Pre-Order B251 PRO 60FPS Monitor for\\r\\n Only $1279!\",\n      \"from_name\": \"Bigme Official Store\",\n      \"from_address\": \"store+62913118387@g.shopifyemail.com\",\n      \"to\": [\n        \"link_covaciu@yahoo.com\"\n      ],\n      \"received_at\": \"2026-06-30T14:31:19Z\",\n      \"snippet\": \"Double E-Ink Breakthrough: Lock in Hibreak Dual2 VIP pricing and pre-order the world's fastest 60FPS\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Bigme Official Store\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"626c5eba-21ba-456c-9873-638138d3eb31\",\n      \"account_email\": \"cosmin.covaciu@cesiro.com\",\n      \"subject\": \"Cosmin Adrian, Welcome to Kickstarter 💚\",\n      \"from_name\": \"Kickstarter\",\n      \"from_address\": \"no-reply@kickstarter.com\",\n      \"to\": [\n        \"cosmin.covaciu@cesiro.com\"\n      ],\n      \"received_at\": \"2026-06-29T10:40:10Z\",\n      \"snippet\": \"Welcome to Kickstarter!\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\nSince 2009, Kickstarter has brought together over 22 million peop\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Kickstarter\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"9a548963-d8ec-4b39-bafb-7b6ec3522552\",\n      \"account_email\": \"link_covaciu@yahoo.com\",\n      \"subject\": \"Quick reminder: Claim your VIP access to the new Bigme Hibreak Dual2.Dimensity 8300 + Android 16🚀\",\n      \"from_name\": \"Bigme Official Store\",\n      \"from_address\": \"store+62913118387@g.shopifyemail.com\",\n      \"to\": [\n        \"link_covaciu@yahoo.com\"\n      ],\n      \"received_at\": \"2026-06-28T19:01:55Z\",\n      \"snippet\": \"Don't miss out on the Kickstarter Super Early Bird discount for our latest dual-screen smartphone.\\n\\r\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Bigme Official Store\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"3026ecd3-9e9b-48e4-92c4-0a4cf3b5df06\",\n      \"account_email\": \"link_covaciu@yahoo.com\",\n      \"subject\": \"📱 Dimensity 8300 +Large Dual screen+ Android 16 on an e-ink phone? Yes.Hibreak Dual2 is Coming!!🚀\",\n      \"from_name\": \"Bigme Official Store\",\n      \"from_address\": \"store+62913118387@g.shopifyemail.com\",\n      \"to\": [\n        \"link_covaciu@yahoo.com\"\n      ],\n      \"received_at\": \"2026-06-26T15:51:07Z\",\n      \"snippet\": \"Bigme Hibreak Dual2 is landing on Kickstarter. High-speed 80FPS, dual-screen, ultimate performance.\\n\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Bigme Official Store\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"2c44e256-5009-4986-bf37-5a87078603f8\",\n      \"account_email\": \"link_covaciu@yahoo.com\",\n      \"subject\": \"You have an invitation\",\n      \"from_name\": \"Sebastian Babu\",\n      \"from_address\": \"invitations@linkedin.com\",\n      \"to\": [\n        \"link_covaciu@yahoo.com\"\n      ],\n      \"received_at\": \"2026-05-21T08:24:08Z\",\n      \"snippet\": \"Sebastian, National Sales Manager from KSTAR New Energy is waiting for your response\\r\\n        \\r\\nHi C\",\n      \"category\": null,\n      \"labels\": [\n        \"INBOX\",\n        \"9: Social\"\n      ],\n      \"folder\": null,\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"7806927a-9b7f-45c1-add5-c06eea5e285a\",\n      \"account_email\": \"mariuscodewnk@yahoo.com\",\n      \"subject\": \"Make every click count  turn views into sales!\",\n      \"from_name\": \"eBay\",\n      \"from_address\": \"communications@export.ebay.com\",\n      \"to\": [\n        \"mariuscodewnk@yahoo.com\"\n      ],\n      \"received_at\": \"2026-04-08T13:06:40Z\",\n      \"snippet\": \"96 Learn how to create high-converting listings that attract buyers. Kickstart your business! VAIDA, successful listings\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"eBay\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"1efd6389-d1a3-4f31-b5e6-a2e865f1ac4c\",\n      \"account_email\": \"covaciu.gnm@eva-org.com\",\n      \"subject\": \"Offer: KSTR-PI-A20260310-04 and KSTR-PI-A20260310-05\",\n      \"from_name\": \"Andy Chen\",\n      \"from_address\": \"andy.luo@kstar.com\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-03-11T11:24:08Z\",\n      \"snippet\": \"Dear Cosmin, Please kindly find the Proforma Invoices (PI) as per your request one for 261kwh(eve) and one for 233(catl)\",\n      \"category\": null,\n      \"labels\": [\n        \"10: Invoices\"\n      ],\n      \"folder\": \"Andy Chen\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"KSTR-PI-A20260310-04.pdf\",\n        \"KSTR-PI-A20260310-05.pdf\"\n      ]\n    },\n    {\n      \"id\": \"dda4298f-a8c0-4332-bd9e-cc84708180d1\",\n      \"account_email\": \"cosmin.covaciu@ipec.ro\",\n      \"subject\": \"The Festive Airdrop is Still Live!\",\n      \"from_name\": \"Binance\",\n      \"from_address\": \"do_not_reply@mailersp1.binance.com\",\n      \"to\": [\n        \"cosmin.covaciu@ipec.ro\"\n      ],\n      \"received_at\": \"2025-12-23T11:13:57Z\",\n      \"snippet\": \"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame\",\n      \"category\": null,\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Binance\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"925cf35b-ef68-4dc0-9fbd-0f1acf849149\",\n      \"account_email\": \"cosmin.covaciu@ipec.ro\",\n      \"subject\": \"Win Binance Points & Solve Daily Puzzles: Hints Inside!\",\n      \"from_name\": \"Binance\",\n      \"from_address\": \"do_not_reply@mailersp1.binance.com\",\n      \"to\": [\n        \"cosmin.covaciu@ipec.ro\"\n      ],\n      \"received_at\": \"2023-10-16T06:07:29Z\",\n      \"snippet\": \"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame\",\n      \"category\": null,\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Binance\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"43e3033b-83eb-449f-9b42-7f4354826504\",\n      \"account_email\": \"cosmin.covaciu@ipec.ro\",\n      \"subject\": \"Win Binance Points & Solve Daily Puzzles: Hints Inside!\",\n      \"from_name\": \"Binance\",\n      \"from_address\": \"do_not_reply@mailersp1.binance.com\",\n      \"to\": [\n        \"cosmin.covaciu@ipec.ro\"\n      ],\n      \"received_at\": \"2023-10-09T07:15:25Z\",\n      \"snippet\": \"ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame\",\n      \"category\": null,\n      \"labels\": [\n        \"8: Marketing\"\n      ],\n      \"folder\": \"Binance\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"5929e7ae-b3b7-4797-b764-778c605a5ed6\",\n      \"account_email\": \"link_covaciu@yahoo.com\",\n      \"subject\": \"Cos, your Blink of the Day is here 📅\",\n      \"from_name\": \"Blinkist\",\n      \"from_address\": \"hello@mail.blinkist.com\",\n      \"to\": [\n        \"link_covaciu@yahoo.com\"\n      ],\n      \"received_at\": \"2023-03-18T04:12:06Z\",\n      \"snippet\": \"Find out what knowledge awaits inside the mail! :root { color-scheme: light dark; supported-color-schemes: light dark; }\",\n      \"category\": null,\n      \"labels\": [\n        \"INBOX\",\n        \"8: Marketing\"\n      ],\n      \"folder\": null,\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"8e525673-9223-4aeb-a69a-99050499b214\",\n      \"account_email\": \"link_covaciu@yahoo.com\",\n      \"subject\": \"♻️🤩 Kickstart your selling journey on eBay\",\n      \"from_name\": \"eBay\",\n      \"from_address\": \"ebay@reply.ebay.co.uk\",\n      \"to\": [\n        \"link_covaciu@yahoo.com\"\n      ],\n      \"received_at\": \"2023-01-06T11:14:51Z\",\n      \"snippet\": \"eBay Newsletter 96 Start the new year right by pocketing extra cash from past loves. Join eBay's ReSELLution this Januar\",\n      \"category\": null,\n      \"labels\": [\n        \"INBOX\",\n        \"8: Marketing\"\n      ],\n      \"folder\": null,\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    },\n    {\n      \"id\": \"dd49c7e9-24c8-497a-b3a0-4d0074bdcaaa\",\n      \"account_email\": \"link_covaciu@yahoo.com\",\n      \"subject\": \"Cos, the Year in a Blink is here!\",\n      \"from_name\": \"Blinkist\",\n      \"from_address\": \"hello@mail.blinkist.com\",\n      \"to\": [\n        \"link_covaciu@yahoo.com\"\n      ],\n      \"received_at\": \"2022-12-27T11:04:44Z\",\n      \"snippet\": \"Here’s what happened on Blinkist in 2022 ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ Blinkist Blinkist M\",\n      \"category\": null,\n      \"labels\": [\n        \"INBOX\",\n        \"8: Marketing\"\n      ],\n      \"folder\": null,\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    }\n  ],\n  \"total\": 18,\n  \"limit\": 20,\n  \"offset\": 0\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+          "account_email": "covaciu.gnm@gmail.com",
+          "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+          "from_name": "Sebastian B.",
+          "from_address": "sebastian.b@kstar.com",
+          "to": [
+            "covaciu.gnm@gmail.com"
+          ],
+          "received_at": "2026-10-12T10:12:06Z",
+          "snippet": "Stimate domnule Cosmin Covaciu, Vă mulțumim pentru interesul acordat echipamentelor KSTAR și pentru analiza detaliată transmisă. Ca urmare a adresei dumneavoastră din data de 15.09.2026, vă prezentăm",
+          "category": "fyi",
+          "labels": [
+            "UNREAD",
+            "IMPORTANT",
+            "CATEGORY_PERSONAL",
+            "INBOX",
+            "6: Travel",
+            "Label_43901"
+          ],
+          "folder": "Sebastian B.",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "43951a64-7650-4254-9305-b336e27488de",
+          "account_email": "vaidae104@gmail.com",
+          "subject": "Welcome to Claude Code",
+          "from_name": "Claude Team",
+          "from_address": "no-reply@email.claude.com",
+          "to": [
+            "vaidae104@gmail.com"
+          ],
+          "received_at": "2026-10-09T00:31:14Z",
+          "snippet": "Ship your first commit in 5 minutes. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+          "category": "fyi",
+          "labels": [
+            "UNREAD",
+            "CATEGORY_UPDATES",
+            "INBOX",
+            "8: Marketing",
+            "Label_85"
+          ],
+          "folder": "Claude Team",
+          "is_read": false,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "9d8f6834-087b-4704-b777-fa315676d6e1",
+          "account_email": "covaciu.gnm@eva-org.com",
+          "subject": "PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+          "from_name": "Cosmin Covaciu",
+          "from_address": "covaciu.gnm@gmail.com",
+          "to": [
+            "Sebastian.b@kstar.com"
+          ],
+          "received_at": "2026-09-22T14:09:56.309631Z",
+          "snippet": "Bună ziua, domnule Babu, Vă transmitem mai jos punctele care trebuie clarificate înainte de confirmarea comenzii pentru ",
+          "category": "fyi",
+          "labels": [
+            "SENT",
+            "1: To respond"
+          ],
+          "folder": "Sebastian.b@kstar.com",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": true,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "1eff0be7-4047-41f2-a6dd-e01404a11ae5",
+          "account_email": "cosmin.covaciu@ipec.ro",
+          "subject": "One of the World’s Greatest Champagnes – Frédéric Savart Le Mesnil-sur-Oger Grand Cru (Only 3,596 bottles)",
+          "from_name": "Nicolas Boldrini",
+          "from_address": "nicolas.boldrini@avu.swiss",
+          "to": [
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2026-09-01T12:45:14Z",
+          "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+          "category": "fyi",
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Nicolas Boldrini",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "ea174d2b-5234-401d-a58d-2817f5708ccc",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "⏰Bigme HiBreak Dual2 Will Be Available On Kickstarter In 1 HOUR!!",
+          "from_name": "Bigme Official Store",
+          "from_address": "store+62913118387@g.shopifyemail.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-07-10T12:02:27Z",
+          "snippet": "Bigme Hibreak Dual 2 launches at 9:00 AM EDT. Don't miss the Super Early Bird!\n\r\n ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ",
+          "category": "fyi",
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Bigme Official Store",
+          "is_read": false,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "fb6735aa-1962-4d50-986e-2ba796c17449",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Save $30 on Hibreak Dual2 Smartphone & Pre-Order B251 PRO 60FPS Monitor for\r\n Only $1279!",
+          "from_name": "Bigme Official Store",
+          "from_address": "store+62913118387@g.shopifyemail.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-06-30T14:31:19Z",
+          "snippet": "Double E-Ink Breakthrough: Lock in Hibreak Dual2 VIP pricing and pre-order the world's fastest 60FPS",
+          "category": "fyi",
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Bigme Official Store",
+          "is_read": false,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "626c5eba-21ba-456c-9873-638138d3eb31",
+          "account_email": "cosmin.covaciu@cesiro.com",
+          "subject": "Cosmin Adrian, Welcome to Kickstarter 💚",
+          "from_name": "Kickstarter",
+          "from_address": "no-reply@kickstarter.com",
+          "to": [
+            "cosmin.covaciu@cesiro.com"
+          ],
+          "received_at": "2026-06-29T10:40:10Z",
+          "snippet": "Welcome to Kickstarter!\r\n\r\n\r\n\r\n\r\n\r\nSince 2009, Kickstarter has brought together over 22 million peop",
+          "category": "fyi",
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Kickstarter",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "9a548963-d8ec-4b39-bafb-7b6ec3522552",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Quick reminder: Claim your VIP access to the new Bigme Hibreak Dual2.Dimensity 8300 + Android 16🚀",
+          "from_name": "Bigme Official Store",
+          "from_address": "store+62913118387@g.shopifyemail.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-06-28T19:01:55Z",
+          "snippet": "Don't miss out on the Kickstarter Super Early Bird discount for our latest dual-screen smartphone.\n\r",
+          "category": "fyi",
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Bigme Official Store",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "3026ecd3-9e9b-48e4-92c4-0a4cf3b5df06",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "📱 Dimensity 8300 +Large Dual screen+ Android 16 on an e-ink phone? Yes.Hibreak Dual2 is Coming!!🚀",
+          "from_name": "Bigme Official Store",
+          "from_address": "store+62913118387@g.shopifyemail.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-06-26T15:51:07Z",
+          "snippet": "Bigme Hibreak Dual2 is landing on Kickstarter. High-speed 80FPS, dual-screen, ultimate performance.\n",
+          "category": "fyi",
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Bigme Official Store",
+          "is_read": false,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "2c44e256-5009-4986-bf37-5a87078603f8",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "You have an invitation",
+          "from_name": "Sebastian Babu",
+          "from_address": "invitations@linkedin.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2026-05-21T08:24:08Z",
+          "snippet": "Sebastian, National Sales Manager from KSTAR New Energy is waiting for your response\r\n        \r\nHi C",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "9: Social"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "7806927a-9b7f-45c1-add5-c06eea5e285a",
+          "account_email": "mariuscodewnk@yahoo.com",
+          "subject": "Make every click count  turn views into sales!",
+          "from_name": "eBay",
+          "from_address": "communications@export.ebay.com",
+          "to": [
+            "mariuscodewnk@yahoo.com"
+          ],
+          "received_at": "2026-04-08T13:06:40Z",
+          "snippet": "96 Learn how to create high-converting listings that attract buyers. Kickstart your business! VAIDA, successful listings",
+          "category": "fyi",
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "eBay",
+          "is_read": false,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "1efd6389-d1a3-4f31-b5e6-a2e865f1ac4c",
+          "account_email": "covaciu.gnm@eva-org.com",
+          "subject": "Offer: KSTR-PI-A20260310-04 and KSTR-PI-A20260310-05",
+          "from_name": "Andy Chen",
+          "from_address": "andy.luo@kstar.com",
+          "to": [
+            "covaciu.gnm@gmail.com"
+          ],
+          "received_at": "2026-03-11T11:24:08Z",
+          "snippet": "Dear Cosmin, Please kindly find the Proforma Invoices (PI) as per your request one for 261kwh(eve) and one for 233(catl)",
+          "category": null,
+          "labels": [
+            "10: Invoices"
+          ],
+          "folder": "Andy Chen",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": true,
+          "attachment_names": [
+            "KSTR-PI-A20260310-04.pdf",
+            "KSTR-PI-A20260310-05.pdf"
+          ]
+        },
+        {
+          "id": "dda4298f-a8c0-4332-bd9e-cc84708180d1",
+          "account_email": "cosmin.covaciu@ipec.ro",
+          "subject": "The Festive Airdrop is Still Live!",
+          "from_name": "Binance",
+          "from_address": "do_not_reply@mailersp1.binance.com",
+          "to": [
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2025-12-23T11:13:57Z",
+          "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+          "category": null,
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Binance",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "925cf35b-ef68-4dc0-9fbd-0f1acf849149",
+          "account_email": "cosmin.covaciu@ipec.ro",
+          "subject": "Win Binance Points & Solve Daily Puzzles: Hints Inside!",
+          "from_name": "Binance",
+          "from_address": "do_not_reply@mailersp1.binance.com",
+          "to": [
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2023-10-16T06:07:29Z",
+          "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+          "category": null,
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Binance",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "43e3033b-83eb-449f-9b42-7f4354826504",
+          "account_email": "cosmin.covaciu@ipec.ro",
+          "subject": "Win Binance Points & Solve Daily Puzzles: Hints Inside!",
+          "from_name": "Binance",
+          "from_address": "do_not_reply@mailersp1.binance.com",
+          "to": [
+            "cosmin.covaciu@ipec.ro"
+          ],
+          "received_at": "2023-10-09T07:15:25Z",
+          "snippet": "ATENȚIE: Acest e-mail provine din afara companiei. Nu dati click pe linkuri și nu deschideți atașame",
+          "category": null,
+          "labels": [
+            "8: Marketing"
+          ],
+          "folder": "Binance",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "5929e7ae-b3b7-4797-b764-778c605a5ed6",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Cos, your Blink of the Day is here 📅",
+          "from_name": "Blinkist",
+          "from_address": "hello@mail.blinkist.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2023-03-18T04:12:06Z",
+          "snippet": "Find out what knowledge awaits inside the mail! :root { color-scheme: light dark; supported-color-schemes: light dark; }",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "8: Marketing"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "8e525673-9223-4aeb-a69a-99050499b214",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "♻️🤩 Kickstart your selling journey on eBay",
+          "from_name": "eBay",
+          "from_address": "ebay@reply.ebay.co.uk",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2023-01-06T11:14:51Z",
+          "snippet": "eBay Newsletter 96 Start the new year right by pocketing extra cash from past loves. Join eBay's ReSELLution this Januar",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "8: Marketing"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        },
+        {
+          "id": "dd49c7e9-24c8-497a-b3a0-4d0074bdcaaa",
+          "account_email": "link_covaciu@yahoo.com",
+          "subject": "Cos, the Year in a Blink is here!",
+          "from_name": "Blinkist",
+          "from_address": "hello@mail.blinkist.com",
+          "to": [
+            "link_covaciu@yahoo.com"
+          ],
+          "received_at": "2022-12-27T11:04:44Z",
+          "snippet": "Here’s what happened on Blinkist in 2022 ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ Blinkist Blinkist M",
+          "category": null,
+          "labels": [
+            "INBOX",
+            "8: Marketing"
+          ],
+          "folder": null,
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        }
+      ],
+      "total": 18,
+      "limit": 20,
+      "offset": 0
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 3006
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-3d21ff93-0143-45dc-919a-4f93973a8e31",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_email",
+  "status": "completed",
+  "arguments": {
+    "email_id": "18d8f682-5228-4e72-a484-bc2ef4fd107e"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_email"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n  \"account_email\": \"covaciu.gnm@gmail.com\",\n  \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n  \"from_name\": \"Sebastian B.\",\n  \"from_address\": \"sebastian.b@kstar.com\",\n  \"to\": [\n    \"covaciu.gnm@gmail.com\"\n  ],\n  \"cc\": [],\n  \"received_at\": \"2026-10-12T10:12:06Z\",\n  \"text\": \"Stimate domnule Cosmin Covaciu,\\n\\n \\n\\nVă mulțumim pentru interesul acordat echipamentelor KSTAR și pentru analiza detaliată transmisă. Ca urmare a adresei dumneavoastră din data de 15.09.2026, vă prezentăm mai jos răspunsurile punctuale ale producătorului și ale echipei noastre comerciale pentru toate cele 63 de întrebări, păstrând structura și numerotarea solicitată.\\n\\n \\n\\n---\\n\\n \\n\\nCAPITOLUL I. IDENTIFICAREA PRODUSULUI\\n\\n \\n\\n* Întrebarea 1: Modelul care se livrează efectiv este BC100DE2A.\\n\\n \\n\\n \\n\\n* Întrebarea 2: Energia nominală și utilizabilă a modelului livrat este de 100,48 kWh.\\n\\n \\n\\n \\n\\n* Întrebarea 3: Sufixul „A” în denumirea BC100DE2A specifică faptul că bateriile conțin celule fabricate de EVE.\\n\\n \\n\\n \\n\\n* Întrebarea 4: Da, dulapul livrat este destinat montajului la exterior.\\n\\n \\n\\n \\n\\n* Întrebarea 5: Da, cele două dispozitive de stingere din proformă corespund versiunii B a manualului, care a introdus unitatea suplimentară de protecție la incendiu.\\n\\n \\n\\n \\n\\n* Întrebarea 6: Da, vă punem la dispoziție manualul și fișa tehnică aferente modelului livrat (BC100DE2A).\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL II. CELULELE BATERIEI\\n\\n \\n\\n* Întrebarea 7: Producătorul este EVE. Deoarece achiziționăm celulele direct de la EVE și dezvoltăm integral designul dulapului și BMS-ul, furnizăm fișe tehnice doar la nivel de dulap. Fișa tehnică la nivel de celulă conține date confidențiale de producție ale producătorului.\\n\\n \\n\\n \\n\\n* Întrebarea 8: Confirmăm în scris că celulele sunt noi, clasa A, la prima utilizare, nefiind recondiționate, declasate sau din aplicații second-life.\\n\\n \\n\\n \\n\\n* Întrebarea 9: Data exactă de fabricație și vechimea în stoc vor fi confirmate oficial de echipa de vânzări la alocarea fizică din stocul european.\\n\\n \\n\\n \\n\\n* Întrebarea 10: Toate cabinele noastre sunt proiectate și funcționează într-un regim standard de 0,5C.\\n\\n \\n\\n \\n\\n* Întrebarea 11: Criteriile, toleranțele și rapoartele de testare ale fabricii pentru sortarea celulelor reprezintă informații interne confidențiale.\\n\\n \\n\\n \\n\\n* Întrebarea 12: Garanția celulelor este oferită direct de KSTAR, nu se transferă direct de la EVE. În calitate de integrator și producător al BESS, KSTAR asigură garanția integrală către clientul final, nefiind necesar să contactați direct producătorul EVE.\\n\\n \\n\\n \\n\\n* Întrebarea 13: Celulele CATL de 314 Ah nu sunt în prezent pe stoc, fiind disponibilă exclusiv varianta cu celule EVE.\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL III. PERFORMANȚĂ GARANTATĂ\\n\\n \\n\\n* Întrebarea 14: Sunt garantate 8.000 de cicluri la 95% DoD și o temperatură de referință de 25 °C.\\n\\n \\n\\n \\n\\n* Întrebarea 15: Se garantează o capacitate reziduală (SoH) de minimum 70% la finalul celor 10 ani sau cel puțin 8.000 de cicluri.\\n\\n \\n\\n \\n\\n* Întrebarea 16: Randamentul round-trip la bornele c.a. este de aproximativ 85% (cu sistemul HVAC funcțional, în regim de 0,5C și temperaturi exterioare între 0 °C și 25 °C).\\n\\n \\n\\n \\n\\n* Întrebarea 17: În funcție de temperatura ambiantă, puterea de funcționare a grupului de climatizare este între 1 kW și 2 kW.\\n\\n \\n\\n \\n\\n* Întrebarea 18: Măsurarea capacității se efectuează în conformitate cu procedurile și condițiile stipulate în certificatul oficial de garanție KSTAR.\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL IV. CONVERTORUL KAC50DP2 ȘI RACORDAREA LA REȚEA\\n\\n \\n\\n* Întrebarea 19: Da, vă transmitem fișa tehnică și manualul de utilizare ale convertorului KAC50DP2.\\n\\n \\n\\n \\n\\n* Întrebarea 20: Parametrii detaliați (tensiune, curent MPPT, putere aparentă, factor de putere) sunt specificați în fișa tehnică a echipamentului.\\n\\n \\n\\n \\n\\n* Întrebarea 21: Timpul de comutare rețea/insularizat este de cca. 10 ms pe sarcină pur rezistivă.\\n\\n \\n\\n \\n\\n* Întrebarea 22: Curentul maxim al generatorului ce poate fi comandat prin intrarea GEN pentru modelul KAC50DP2 este de 110 A.\\n\\n \\n\\n \\n\\n* Întrebarea 23: Vă putem pune la dispoziție toate certificatele de conformitate disponibile pentru regiunea UE.\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL V. ALIMENTAREA AUXILIARĂ ȘI FUNCȚIONAREA AUTONOMĂ\\n\\n \\n\\n* Întrebarea 24: Se recomandă ca alimentarea auxiliară de 220 V c.a. să fie racordată din ieșirea de rezervă (backup) a convertorului KAC.\\n\\n \\n\\n \\n\\n* Întrebarea 25: Când bateria este descărcată, sistemul HVAC își reduce consumul la minim. HVB rămâne alimentat cât timp bateria este pornită. Dacă bateria se oprește complet, componentele se opresc, iar repornirea este posibilă prin procedura manuală de Black Start.\\n\\n \\n\\n \\n\\n* Întrebarea 26: Consumul auxiliar permanent (inclusiv în standby) este sub 1 kW.\\n\\n \\n\\n \\n\\n* Întrebarea 27: Da, sistemul poate porni și funcționa exclusiv din producția fotovoltaică, cu condiția îndeplinirii tensiunii minime MPPT prevăzute în fișa tehnică.\\n\\n \\n\\n \\n\\n* Întrebarea 28: Protecția externă de 20 A și parametrii auxiliari sunt dimensionați conform schemelor de instalare din manual; vă rugăm să ne transmiteți dacă aveți nevoie de un detaliu specific pentru proiectare.\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL VI. RESTRICȚII DE AMPLASARE ȘI DE EXPLOATARE\\n\\n \\n\\n* Întrebarea 29: Da, regula de derating de 10% pentru fiecare grad peste 45 °C se aplică și modelului livrat.\\n\\n \\n\\n \\n\\n* Întrebarea 30: Da, sistemul HVAC încălzește bateria la peste 0 °C înainte ca procesul de încărcare să înceapă.\\n\\n \\n\\n \\n\\n* Întrebarea 31: Da, vă transmitem desenul de fundație cotat și schema de împământare.\\n\\n \\n\\n \\n\\n* Întrebarea 32: Distanțele de siguranță și cerințele de amplasare sunt detaliate în planul de instalare (site layout).\\n\\n \\n\\n \\n\\n* Întrebarea 33: Nu se recomandă descărcarea bateriei până la pragul de 100% DoD (se recomandă maxim 95% DoD). Calibrarea de încărcare 100% la punerea în funcțiune este executată de tehnicianul nostru.\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL VII. CONTORUL DE MĂSURĂ, CONTROLUL INJECȚIEI ÎN REȚEA ȘI INTEGRAREA ÎN EMS\\n\\n \\n\\n* Întrebarea 34: Da, vă transmitem schema de instalare. Contorul și transformatoarele de curent (CT) se montează pe partea de rețea, iar sensul CT este orientat către baterie.\\n\\n \\n\\n \\n\\n* Întrebarea 35: Transformatoarele de curent trebuie să aibă un curent secundar de 5 A. Distanța maximă a legăturii RS485 între contor și convertor este de 200 metri.\\n\\n \\n\\n \\n\\n* Întrebarea 36: Da, în modul autoconsum sistemul reglează automat puterea și dispune nativ de funcțiile Zero Export și Anti-Backflow.\\n\\n \\n\\n \\n\\n* Întrebarea 37: Limita de export poate fi setată la o valoare diferită de zero, iar timpul de răspuns tranzitoriu este de câteva secunde.\\n\\n \\n\\n \\n\\n* Întrebarea 38: Dacă funcția Zero Export este activată, la pierderea comunicației cu contorul sistemul oprește descărcarea pentru a nu injecta în rețea.\\n\\n \\n\\n \\n\\n* Întrebarea 39: Da, vă transmitem lista de registre Modbus TCP și RTU.\\n\\n \\n\\n \\n\\n* Întrebarea 40: Da, sistemul poate fi operat și monitorizat integral local, iar funcția de limitare a injecției rămâne activă.\\n\\n \\n\\n \\n\\n* Întrebarea 41: Da, aceste funcții sunt disponibile gratuit, fără abonament.\\n\\n \\n\\n \\n\\n* Întrebarea 42: Datele aparțin KSTAR, iar clientul le poate exporta direct prin aplicație/Sync.\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL VIII. DOCUMENTE DE CONFORMITATE\\n\\n \\n\\n* Întrebarea 43: Da, vă transmitem setul de certificate aplicabile pentru regiunea UE (CE, IEC etc.).\\n\\n \\n\\n \\n\\n* Întrebarea 44: Da, vă transmitem modelele (samples) de certificate și raportul de testare din fabrică la cerere.\\n\\n \\n\\n \\n\\n* Întrebarea 45: Vă vom transmite certificatele generale și un model al raportului de testare din fabrică.\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL IX. CADRUL CONTRACTUAL ȘI CONDIȚIILE DE PLATĂ\\n\\n \\n\\n* Întrebarea 46: Vom reveni către dumneavoastră cu draftul de Sales Agreement, care va reglementa cadrul contractual oficial.\\n\\n \\n\\n \\n\\n* Întrebarea 47: Echipamentul ofertat se află deja pe stoc în Europa. La cererea dumneavoastră, putem include în Sales Agreement un punct referitor la termenele ferme de livrare și clauze/penalități de întârziere.\\n\\n \\n\\n \\n\\n* Întrebările 48, 49 și 50: Detaliile privind transferul proprietății și al riscurilor, legea aplicabilă (KSTAR Poland sp. z o.o.) și structura de plată (inclusiv varianta 30% avans / 70% înainte de livrare) vor fi agreate de comun acord și formulate explicit în contractul comercial (Sales Agreement).\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL X. LIVRARE ȘI FACTURARE\\n\\n \\n\\n* Întrebarea 51: Confirmăm posibilitatea livrării cu o camionetă de maximum 3,5 tone (inverterul este ambalat în cutie separată de baterie), cu condiția ca la destinație să asigurați un utilaj adecvat pentru descărcarea bateriei.\\n\\n \\n\\n \\n\\n* Întrebarea 52: Toate componentele pot fi expediate într-un singur transport (vă atașăm cererea de expediție).\\n\\n \\n\\n \\n\\n* Întrebarea 53: Da, descărcarea la destinație este în sarcina cumpărătorului.\\n\\n \\n\\n \\n\\n* Întrebarea 54: Inelele de ridicare sunt poziționate pe partea superioară a bateriei, câte unul atașat pe fiecare dintre cele 4 colțuri.\\n\\n \\n\\n \\n\\n* Întrebarea 55: Bategoriile au un nivel de încărcare (SOC) de 30% la expedierea din fabrică. Atașăm documentele DGD aferente transportului de mărfuri periculoase.\\n\\n \\n\\n \\n\\n* Întrebarea 56: Proforma revizuită (cu adresele de facturare și livrare DAP Alba Iulia specificate separat) și oferta de transport refăcută vă vor fi transmise după agrearea condițiilor de avans.\\n\\n \\n\\n \\n\\n \\n\\nCAPITOLUL XI. ASISTENȚĂ LA MONTAJ, PUNERE ÎN FUNCȚIUNE, MENTENANȚĂ ȘI SERVICE\\n\\n \\n\\n* Întrebarea 57: Oferta include asistența tehnicianului KSTAR la punerea în funcțiune. Conform discuțiilor, montajul fizic va fi executat de către o firmă specializată desemnată de dumneavoastră.\\n\\n \\n\\n \\n\\n* Întrebarea 58: Timpul estimat pentru punerea în funcțiune și calibrare pe amplasament este de 1 zi.\\n\\n \\n\\n \\n\\n* Întrebarea 59: Asistența este asigurată de reprezentantul producătorului KSTAR, domnul Vlad Stanciu (vorbitor de limba română). Programarea intervenției se face cu cel puțin o săptămână înainte.\\n\\n \\n\\n \\n\\n* Întrebarea 60: Detaliile privind procesul-verbal de punere în funcțiune și data de la care curge garanția sunt reglementate conform condițiilor din certificatul de garanție KSTAR.\\n\\n \\n\\n \\n\\n* Întrebarea 61: Nu, garanția nu este condiționată de aceste elemente.\\n\\n \\n\\n \\n\\n* Întrebarea 62: Suportul de bază nu implică costuri suplimentare. Timpul de răspuns asumat în România este de 48 de ore pentru echipamente defecte și maximum 2 săptămâni pentru înlocuirea acestora.\\n\\n \\n\\n \\n\\n* Întrebarea 63: Disponibilitatea pieselor de schimb și condițiile privind transportul acestora în perioada de garanție vor fi anexate în acordul comercial.\\n\\n \\n\\n \\n\\n \\n\\n---\\n\\n \\n\\nAtașăm la prezentul e-mail documentele menționate (fișa tehnică KAC50DP2, ghidul de montaj, documentele DGD și detaliile de expediție).\\n\\n \\n\\nRămânem la dispoziția dumneavoastră pentru transmiterea draftului de Sales Agreement și pentru finalizarea comenzii ofertei.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n诚挚的问候/ Best Regards/ Cu stima, \\n\\n|\\n| |\\nSebastian Babu\\n\\nSales Manager Romania | \\n\\nKSTAR NEW ENERGY           \\n\\nsebastian.b@kstar.com\\n\\n+40765078172\\n\\nhttps://www.kstar.com/\\n\\n\\n|\\n|\\n| |\\n| Krakowski Park Technologiczny, ul.Podole 60, 30-394 Kraków, Poland\\n\\nKstar Industrial Park, Kelian Road, Guangming, Hi-Tech industrial Zone, Shenzhen 518132, China\\n      \\n\\n|\\n|\\n\\nShenzhen Kstar New Energy  Co., Ltd\\n\\n| | | | |\\n|\\n-----Original Message-----\\nFrom:\\\"Cosmin Covaciu\\\" <covaciu.gnm@gmail.com>\\nSent:Tuesday, 09/22/2026 17:09:55\\n\\nTo: Sebastian.b@kstar.com\\nSubject: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\\n\\n\\n\\n\\nBună ziua, domnule Babu,\\n\\nVă transmitem mai jos punctele care trebuie clarificate înainte de confirmarea comenzii pentru sistemul de stocare care face obiectul proformei KSTAR-PI-A20260915-01 din 15.09.2026. Intenția noastră de achiziție este fermă și dorim să lansăm comanda în interiorul termenului de valabilitate al ofertei.\\n\\nPentru a ușura răspunsul, fiecare capitol conține mai întâi contextul, respectiv ceea ce am reținut deja din documentele primite, iar apoi întrebările separate și numerotate continuu, de la 1 la 63. Vă rugăm să răspundeți punctual, păstrând numerotarea.\\n\\nCAPITOLUL 0. DOCUMENTELE ANALIZATE ȘI DATELE DEJA ÎNSUȘITE\\n\\nContext\\n\\nAm analizat integral documentele primite, respectiv User Manual for Industrial and Commercial Battery Cabinet BC107DE2, versiunea B din 01.07.2025, și ghidul de instalare rapidă pentru configurația 1 x KAC50DP2 cu 1 x BC107DE2. Pentru a nu vă solicita informații pe care le deținem deja, precizăm că am reținut următoarele: gabarit 1062 x 1371 x 2083 mm și masă de cca. 1430 kg, IP54, 70 dB; spații de operare de 1200 mm în față, 1200 mm lateral pentru PCS și 400 mm deasupra; regim climatic -30 … +50 grade C, umiditate 5-95 la sută fără condens, altitudine până la 3000 m; arhitectura dulapului BC107DE2, respectiv 120S1P, 384 Vcc nominal, domeniu 342-432 Vcc, 140 A la 0,5C, DoD recomandat 90 la sută, module de 17,92 kWh, 20S1P, 64 V, 137 kg; climatizare 220 V c.a. / 50 Hz, 3000 W răcire, 2000 W încălzire; interfețe CAN, Ethernet, RS485 și 4G; dotări de siguranță HVB, descărcător c.c., detector CO, senzor de inundare, aerosol, supapă de evacuare, racord de apă de incendiu, EPO; regim de exploatare cu inspecție lunară, curățarea condensatorului la 6 luni, calibrare SOC la 30 de zile, reîncărcare peste 50 la sută SOC la 6 luni de nefolosire și livrare la 40 la sută SOC.\\n\\nNu vă solicităm din nou aceste informații.\\n\\nCAPITOLUL I. IDENTIFICAREA PRODUSULUI\\n\\nContext\\n\\nDocumentația transmisă nu corespunde produsului din proformă. Proforma indică, la titlul poziției, un set de 50 kW / 102,4 kWh, iar la nivel de articol o baterie de 100,48 kWh, deci două valori diferite pentru același echipament. Proforma indică modelul BC100DE2A, în timp ce ambele documente transmise se referă la BC107DE2, cu energie nominală de 107,52 kWh. Proforma indică celule LFP EVE de 314 Ah, în timp ce manualul BC107DE2 specifică, la capitolul 2.2.1, celule LFP de 280 Ah, 3,2 V, 896 Wh. În plus, regulile de nomenclator de la capitolul 2.1.3 explică sufixele D, E și 2, dar nu explică sufixul A din denumirea BC100DE2A.\\n\\nPrecizăm că modelul, energia și tipul de celulă pe care ni le veți confirma vor fi preluate expres în confirmarea de comandă, ca elemente de conformitate a livrării.\\n\\nÎntrebarea 1: Care este modelul care se livrează efectiv, BC100DE2A sau BC107DE2?\\n\\nÎntrebarea 2: Care sunt energia nominală și energia utilizabilă ale modelului livrat, respectiv 102,4 kWh, 100,48 kWh sau 107,52 kWh?\\n\\nÎntrebarea 3: Ce semnificație are sufixul A din denumirea BC100DE2A?\\n\\nÎntrebarea 4: Dulapul livrat este destinat montajului exterior?\\n\\nÎntrebarea 5: Cele două dispozitive de stingere menționate în proformă corespund versiunii B a manualului, care a introdus unitatea suplimentară de protecție la incendiu?\\n\\nÎntrebarea 6: Ne puteți transmite manualul și fișa tehnică aferente modelului efectiv livrat?\\n\\nCAPITOLUL II. CELULELE BATERIEI\\n\\nContext\\n\\nSingura informație disponibilă despre celule este mențiunea LFP (EVE) 314 Ah din proformă. Manualul descrie celule de 280 Ah. Având în vedere că plata este solicitată integral în avans, aceste elemente trebuie confirmate în scris înainte de comandă.\\n\\nÎntrebarea 7: Care sunt producătorul și modelul exact al celulei și ne puteți transmite fișa tehnică la nivel de celulă, nu la nivel de dulap?\\n\\nÎntrebarea 8: Confirmați în scris că celulele sunt noi, de calitate A, de primă utilizare, nefiind recondiționate, declasate sau provenite din aplicații second-life?\\n\\nÎntrebarea 9: Care sunt anul și luna de fabricație a celulelor la momentul livrării și ce vechime maximă în stoc vă asumați?\\n\\nÎntrebarea 10: Care este configurația serie-paralel a modelului livrat, cu tensiunea nominală, domeniul de lucru și curenții maximi de încărcare și descărcare, în regim continuu și de vârf, exprimați și în valoare C?\\n\\nÎntrebarea 11: Care sunt criteriile și toleranțele de sortare a celulelor, respectiv capacitate, rezistență internă și rată de autodescărcare, și ne puteți transmite rapoartele de test din fabrică?\\n\\nÎntrebarea 12: Garanția producătorului de celule se transferă beneficiarului final și în ce condiții?\\n\\nÎntrebarea 13: Există și varianta cu celule CATL pentru aceeași configurație și care sunt diferențele de preț, de performanță și de garanție?\\n\\nCAPITOLUL III. PERFORMANȚĂ GARANTATĂ\\n\\nContext\\n\\nManualul indică un DoD recomandat de 90 la sută și un regim de 0,5C, dar nu conține niciun angajament privind durata de viață, degradarea sau randamentul. Proforma menționează doar 5 ani garanție de produs și 10 ani garanție de performanță, fără parametri. Răspunsurile de mai jos le considerăm elemente contractuale.\\n\\nÎntrebarea 14: Câte cicluri sunt garantate și la ce DoD, regim C și temperatură de referință?\\n\\nÎntrebarea 15: Ce capacitate reziduală, exprimată procentual, este garantată la finalul celor 10 ani și care este curba de degradare anuală asumată?\\n\\nÎntrebarea 16: Care este randamentul round-trip al sistemului, măsurat la bornele de curent alternativ, și în ce condiții de măsurare?\\n\\nÎntrebarea 17: Care este consumul propriu anual estimat al climatizării, pe regim de vară și de iarnă?\\n\\nÎntrebarea 18: Ce metodă și ce standard se aplică la măsurarea capacității în caz de reclamație de garanție și cine suportă costul testului?\\n\\nCAPITOLUL IV. CONVERTORUL KAC50DP2 ȘI RACORDAREA LA REȚEA\\n\\nContext\\n\\nPentru convertor nu am primit nicio fișă tehnică, ci doar schema de conexiuni din ghidul de instalare rapidă. Pentru proiectare și pentru dosarul de racordare la operatorul de distribuție avem nevoie de datele complete ale echipamentului.\\n\\nÎntrebarea 19: Ne puteți transmite fișa tehnică și manualul de utilizare ale convertorului KAC50DP2?\\n\\nÎntrebarea 20: Care sunt domeniul de tensiune și curentul pe fiecare MPPT, puterea aparentă, domeniul de reglaj al factorului de putere, capacitatea de suprasarcină și randamentul european?\\n\\nÎntrebarea 21: Care sunt modul și timpul de comutare între regimul racordat la rețea și cel insularizat?\\n\\nÎntrebarea 22: Care este puterea maximă a generatorului care poate fi comandat prin intrarea GEN?\\n\\nÎntrebarea 23: Ne puteți transmite certificatul de conformitate cu cerințele aplicabile în România pentru unități generatoare, emis conform Regulamentului (UE) 2016/631, împreună cu parametrii protecției de interfață și funcțiile de deconectare la insularizare?\\n\\nCAPITOLUL V. ALIMENTAREA AUXILIARĂ ȘI FUNCȚIONAREA AUTONOMĂ\\n\\nContext\\n\\nDin manual rezultă că dulapul de baterii nu este un echipament autonom. La capitolul 4.5 se precizează că schimbul de energie cu exteriorul se face exclusiv prin convertor, iar la capitolul 3.5.1 este prevăzută o alimentare auxiliară de 220 V c.a. monofazat, L/N/PE, categorie de supratensiune OVC II, care alimentează grupul de climatizare și modulul c.a./c.c. al HVB. În ghidul de instalare rapidă, alimentarea BAT-AC-POWER a dulapului apare racordată din partea de rețea, nu din ieșirea de rezervă a convertorului. Capitolul 4.3.2 descrie și o procedură de pornire fără rețea, prin separatorul c.c. și butonul DC START menținut 3-6 secunde, deci un black start în curent continuu. Manualul indică un curent de scurtcircuit de 6 kA și o protecție externă de 20 A pe intrarea de curent alternativ.\\n\\nÎntrebarea 24: Alimentarea auxiliară de 220 V c.a. poate fi preluată din ieșirea de rezervă a convertorului KAC50DP2, sau este obligatorie o sursă de alimentare separată și permanentă din rețea?\\n\\nÎntrebarea 25: Ce se întâmplă atunci când nu există nici rețea, nici producție fotovoltaică, iar bateria ajunge la un nivel scăzut de încărcare, respectiv se poate ajunge în situația în care climatizarea și HVB rămân nealimentate, iar repornirea este posibilă doar prin black start executat manual pe amplasament?\\n\\nÎntrebarea 26: Care este consumul auxiliar permanent al dulapului, inclusiv în regim de așteptare?\\n\\nÎntrebarea 27: Sistemul poate porni și funcționa exclusiv din producție fotovoltaică, fără rețea, și în ce condiții de putere minimă?\\n\\nÎntrebarea 28: Confirmați protecția externă de 20 A și curentul de scurtcircuit de 6 kA pe circuitul auxiliar și ne indicați secțiunea recomandată a cablului de alimentare?\\n\\nCAPITOLUL VI. RESTRICȚII DE AMPLASARE ȘI DE EXPLOATARE\\n\\nContext\\n\\nDin manual am reținut următoarele restricții: temperatura optimă a celulelor este de 20-30 grade C, se recomandă ca temperatura ambiantă să nu depășească 45 grade C, peste această valoa\",\n  \"truncated\": true,\n  \"labels\": [\n    \"UNREAD\",\n    \"IMPORTANT\",\n    \"CATEGORY_PERSONAL\",\n    \"INBOX\",\n    \"6: Travel\",\n    \"Label_43901\"\n  ],\n  \"category\": \"fyi\",\n  \"folder\": \"Sebastian B.\",\n  \"thread_id\": \"1a12f9945c01f7ea\",\n  \"is_read\": true,\n  \"is_sent\": false,\n  \"attachments\": [],\n  \"note\": \"\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+      "account_email": "covaciu.gnm@gmail.com",
+      "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+      "from_name": "Sebastian B.",
+      "from_address": "sebastian.b@kstar.com",
+      "to": [
+        "covaciu.gnm@gmail.com"
+      ],
+      "cc": [],
+      "received_at": "2026-10-12T10:12:06Z",
+      "text": "Stimate domnule Cosmin Covaciu,\n\n \n\nVă mulțumim pentru interesul acordat echipamentelor KSTAR și pentru analiza detaliată transmisă. Ca urmare a adresei dumneavoastră din data de 15.09.2026, vă prezentăm mai jos răspunsurile punctuale ale producătorului și ale echipei noastre comerciale pentru toate cele 63 de întrebări, păstrând structura și numerotarea solicitată.\n\n \n\n---\n\n \n\nCAPITOLUL I. IDENTIFICAREA PRODUSULUI\n\n \n\n* Întrebarea 1: Modelul care se livrează efectiv este BC100DE2A.\n\n \n\n \n\n* Întrebarea 2: Energia nominală și utilizabilă a modelului livrat este de 100,48 kWh.\n\n \n\n \n\n* Întrebarea 3: Sufixul „A” în denumirea BC100DE2A specifică faptul că bateriile conțin celule fabricate de EVE.\n\n \n\n \n\n* Întrebarea 4: Da, dulapul livrat este destinat montajului la exterior.\n\n \n\n \n\n* Întrebarea 5: Da, cele două dispozitive de stingere din proformă corespund versiunii B a manualului, care a introdus unitatea suplimentară de protecție la incendiu.\n\n \n\n \n\n* Întrebarea 6: Da, vă punem la dispoziție manualul și fișa tehnică aferente modelului livrat (BC100DE2A).\n\n \n\n \n\n \n\nCAPITOLUL II. CELULELE BATERIEI\n\n \n\n* Întrebarea 7: Producătorul este EVE. Deoarece achiziționăm celulele direct de la EVE și dezvoltăm integral designul dulapului și BMS-ul, furnizăm fișe tehnice doar la nivel de dulap. Fișa tehnică la nivel de celulă conține date confidențiale de producție ale producătorului.\n\n \n\n \n\n* Întrebarea 8: Confirmăm în scris că celulele sunt noi, clasa A, la prima utilizare, nefiind recondiționate, declasate sau din aplicații second-life.\n\n \n\n \n\n* Întrebarea 9: Data exactă de fabricație și vechimea în stoc vor fi confirmate oficial de echipa de vânzări la alocarea fizică din stocul european.\n\n \n\n \n\n* Întrebarea 10: Toate cabinele noastre sunt proiectate și funcționează într-un regim standard de 0,5C.\n\n \n\n \n\n* Întrebarea 11: Criteriile, toleranțele și rapoartele de testare ale fabricii pentru sortarea celulelor reprezintă informații interne confidențiale.\n\n \n\n \n\n* Întrebarea 12: Garanția celulelor este oferită direct de KSTAR, nu se transferă direct de la EVE. În calitate de integrator și producător al BESS, KSTAR asigură garanția integrală către clientul final, nefiind necesar să contactați direct producătorul EVE.\n\n \n\n \n\n* Întrebarea 13: Celulele CATL de 314 Ah nu sunt în prezent pe stoc, fiind disponibilă exclusiv varianta cu celule EVE.\n\n \n\n \n\n \n\nCAPITOLUL III. PERFORMANȚĂ GARANTATĂ\n\n \n\n* Întrebarea 14: Sunt garantate 8.000 de cicluri la 95% DoD și o temperatură de referință de 25 °C.\n\n \n\n \n\n* Întrebarea 15: Se garantează o capacitate reziduală (SoH) de minimum 70% la finalul celor 10 ani sau cel puțin 8.000 de cicluri.\n\n \n\n \n\n* Întrebarea 16: Randamentul round-trip la bornele c.a. este de aproximativ 85% (cu sistemul HVAC funcțional, în regim de 0,5C și temperaturi exterioare între 0 °C și 25 °C).\n\n \n\n \n\n* Întrebarea 17: În funcție de temperatura ambiantă, puterea de funcționare a grupului de climatizare este între 1 kW și 2 kW.\n\n \n\n \n\n* Întrebarea 18: Măsurarea capacității se efectuează în conformitate cu procedurile și condițiile stipulate în certificatul oficial de garanție KSTAR.\n\n \n\n \n\n \n\nCAPITOLUL IV. CONVERTORUL KAC50DP2 ȘI RACORDAREA LA REȚEA\n\n \n\n* Întrebarea 19: Da, vă transmitem fișa tehnică și manualul de utilizare ale convertorului KAC50DP2.\n\n \n\n \n\n* Întrebarea 20: Parametrii detaliați (tensiune, curent MPPT, putere aparentă, factor de putere) sunt specificați în fișa tehnică a echipamentului.\n\n \n\n \n\n* Întrebarea 21: Timpul de comutare rețea/insularizat este de cca. 10 ms pe sarcină pur rezistivă.\n\n \n\n \n\n* Întrebarea 22: Curentul maxim al generatorului ce poate fi comandat prin intrarea GEN pentru modelul KAC50DP2 este de 110 A.\n\n \n\n \n\n* Întrebarea 23: Vă putem pune la dispoziție toate certificatele de conformitate disponibile pentru regiunea UE.\n\n \n\n \n\n \n\nCAPITOLUL V. ALIMENTAREA AUXILIARĂ ȘI FUNCȚIONAREA AUTONOMĂ\n\n \n\n* Întrebarea 24: Se recomandă ca alimentarea auxiliară de 220 V c.a. să fie racordată din ieșirea de rezervă (backup) a convertorului KAC.\n\n \n\n \n\n* Întrebarea 25: Când bateria este descărcată, sistemul HVAC își reduce consumul la minim. HVB rămâne alimentat cât timp bateria este pornită. Dacă bateria se oprește complet, componentele se opresc, iar repornirea este posibilă prin procedura manuală de Black Start.\n\n \n\n \n\n* Întrebarea 26: Consumul auxiliar permanent (inclusiv în standby) este sub 1 kW.\n\n \n\n \n\n* Întrebarea 27: Da, sistemul poate porni și funcționa exclusiv din producția fotovoltaică, cu condiția îndeplinirii tensiunii minime MPPT prevăzute în fișa tehnică.\n\n \n\n \n\n* Întrebarea 28: Protecția externă de 20 A și parametrii auxiliari sunt dimensionați conform schemelor de instalare din manual; vă rugăm să ne transmiteți dacă aveți nevoie de un detaliu specific pentru proiectare.\n\n \n\n \n\n \n\nCAPITOLUL VI. RESTRICȚII DE AMPLASARE ȘI DE EXPLOATARE\n\n \n\n* Întrebarea 29: Da, regula de derating de 10% pentru fiecare grad peste 45 °C se aplică și modelului livrat.\n\n \n\n \n\n* Întrebarea 30: Da, sistemul HVAC încălzește bateria la peste 0 °C înainte ca procesul de încărcare să înceapă.\n\n \n\n \n\n* Întrebarea 31: Da, vă transmitem desenul de fundație cotat și schema de împământare.\n\n \n\n \n\n* Întrebarea 32: Distanțele de siguranță și cerințele de amplasare sunt detaliate în planul de instalare (site layout).\n\n \n\n \n\n* Întrebarea 33: Nu se recomandă descărcarea bateriei până la pragul de 100% DoD (se recomandă maxim 95% DoD). Calibrarea de încărcare 100% la punerea în funcțiune este executată de tehnicianul nostru.\n\n \n\n \n\n \n\nCAPITOLUL VII. CONTORUL DE MĂSURĂ, CONTROLUL INJECȚIEI ÎN REȚEA ȘI INTEGRAREA ÎN EMS\n\n \n\n* Întrebarea 34: Da, vă transmitem schema de instalare. Contorul și transformatoarele de curent (CT) se montează pe partea de rețea, iar sensul CT este orientat către baterie.\n\n \n\n \n\n* Întrebarea 35: Transformatoarele de curent trebuie să aibă un curent secundar de 5 A. Distanța maximă a legăturii RS485 între contor și convertor este de 200 metri.\n\n \n\n \n\n* Întrebarea 36: Da, în modul autoconsum sistemul reglează automat puterea și dispune nativ de funcțiile Zero Export și Anti-Backflow.\n\n \n\n \n\n* Întrebarea 37: Limita de export poate fi setată la o valoare diferită de zero, iar timpul de răspuns tranzitoriu este de câteva secunde.\n\n \n\n \n\n* Întrebarea 38: Dacă funcția Zero Export este activată, la pierderea comunicației cu contorul sistemul oprește descărcarea pentru a nu injecta în rețea.\n\n \n\n \n\n* Întrebarea 39: Da, vă transmitem lista de registre Modbus TCP și RTU.\n\n \n\n \n\n* Întrebarea 40: Da, sistemul poate fi operat și monitorizat integral local, iar funcția de limitare a injecției rămâne activă.\n\n \n\n \n\n* Întrebarea 41: Da, aceste funcții sunt disponibile gratuit, fără abonament.\n\n \n\n \n\n* Întrebarea 42: Datele aparțin KSTAR, iar clientul le poate exporta direct prin aplicație/Sync.\n\n \n\n \n\n \n\nCAPITOLUL VIII. DOCUMENTE DE CONFORMITATE\n\n \n\n* Întrebarea 43: Da, vă transmitem setul de certificate aplicabile pentru regiunea UE (CE, IEC etc.).\n\n \n\n \n\n* Întrebarea 44: Da, vă transmitem modelele (samples) de certificate și raportul de testare din fabrică la cerere.\n\n \n\n \n\n* Întrebarea 45: Vă vom transmite certificatele generale și un model al raportului de testare din fabrică.\n\n \n\n \n\n \n\nCAPITOLUL IX. CADRUL CONTRACTUAL ȘI CONDIȚIILE DE PLATĂ\n\n \n\n* Întrebarea 46: Vom reveni către dumneavoastră cu draftul de Sales Agreement, care va reglementa cadrul contractual oficial.\n\n \n\n \n\n* Întrebarea 47: Echipamentul ofertat se află deja pe stoc în Europa. La cererea dumneavoastră, putem include în Sales Agreement un punct referitor la termenele ferme de livrare și clauze/penalități de întârziere.\n\n \n\n \n\n* Întrebările 48, 49 și 50: Detaliile privind transferul proprietății și al riscurilor, legea aplicabilă (KSTAR Poland sp. z o.o.) și structura de plată (inclusiv varianta 30% avans / 70% înainte de livrare) vor fi agreate de comun acord și formulate explicit în contractul comercial (Sales Agreement).\n\n \n\n \n\n \n\nCAPITOLUL X. LIVRARE ȘI FACTURARE\n\n \n\n* Întrebarea 51: Confirmăm posibilitatea livrării cu o camionetă de maximum 3,5 tone (inverterul este ambalat în cutie separată de baterie), cu condiția ca la destinație să asigurați un utilaj adecvat pentru descărcarea bateriei.\n\n \n\n \n\n* Întrebarea 52: Toate componentele pot fi expediate într-un singur transport (vă atașăm cererea de expediție).\n\n \n\n \n\n* Întrebarea 53: Da, descărcarea la destinație este în sarcina cumpărătorului.\n\n \n\n \n\n* Întrebarea 54: Inelele de ridicare sunt poziționate pe partea superioară a bateriei, câte unul atașat pe fiecare dintre cele 4 colțuri.\n\n \n\n \n\n* Întrebarea 55: Bategoriile au un nivel de încărcare (SOC) de 30% la expedierea din fabrică. Atașăm documentele DGD aferente transportului de mărfuri periculoase.\n\n \n\n \n\n* Întrebarea 56: Proforma revizuită (cu adresele de facturare și livrare DAP Alba Iulia specificate separat) și oferta de transport refăcută vă vor fi transmise după agrearea condițiilor de avans.\n\n \n\n \n\n \n\nCAPITOLUL XI. ASISTENȚĂ LA MONTAJ, PUNERE ÎN FUNCȚIUNE, MENTENANȚĂ ȘI SERVICE\n\n \n\n* Întrebarea 57: Oferta include asistența tehnicianului KSTAR la punerea în funcțiune. Conform discuțiilor, montajul fizic va fi executat de către o firmă specializată desemnată de dumneavoastră.\n\n \n\n \n\n* Întrebarea 58: Timpul estimat pentru punerea în funcțiune și calibrare pe amplasament este de 1 zi.\n\n \n\n \n\n* Întrebarea 59: Asistența este asigurată de reprezentantul producătorului KSTAR, domnul Vlad Stanciu (vorbitor de limba română). Programarea intervenției se face cu cel puțin o săptămână înainte.\n\n \n\n \n\n* Întrebarea 60: Detaliile privind procesul-verbal de punere în funcțiune și data de la care curge garanția sunt reglementate conform condițiilor din certificatul de garanție KSTAR.\n\n \n\n \n\n* Întrebarea 61: Nu, garanția nu este condiționată de aceste elemente.\n\n \n\n \n\n* Întrebarea 62: Suportul de bază nu implică costuri suplimentare. Timpul de răspuns asumat în România este de 48 de ore pentru echipamente defecte și maximum 2 săptămâni pentru înlocuirea acestora.\n\n \n\n \n\n* Întrebarea 63: Disponibilitatea pieselor de schimb și condițiile privind transportul acestora în perioada de garanție vor fi anexate în acordul comercial.\n\n \n\n \n\n \n\n---\n\n \n\nAtașăm la prezentul e-mail documentele menționate (fișa tehnică KAC50DP2, ghidul de montaj, documentele DGD și detaliile de expediție).\n\n \n\nRămânem la dispoziția dumneavoastră pentru transmiterea draftului de Sales Agreement și pentru finalizarea comenzii ofertei.\n\n\n\n\n\n\n\n\n\n\n\n\n\n诚挚的问候/ Best Regards/ Cu stima, \n\n|\n| |\nSebastian Babu\n\nSales Manager Romania | \n\nKSTAR NEW ENERGY           \n\nsebastian.b@kstar.com\n\n+40765078172\n\nhttps://www.kstar.com/\n\n\n|\n|\n| |\n| Krakowski Park Technologiczny, ul.Podole 60, 30-394 Kraków, Poland\n\nKstar Industrial Park, Kelian Road, Guangming, Hi-Tech industrial Zone, Shenzhen 518132, China\n      \n\n|\n|\n\nShenzhen Kstar New Energy  Co., Ltd\n\n| | | | |\n|\n-----Original Message-----\nFrom:\"Cosmin Covaciu\" <covaciu.gnm@gmail.com>\nSent:Tuesday, 09/22/2026 17:09:55\n\nTo: Sebastian.b@kstar.com\nSubject: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\n\n\n\n\nBună ziua, domnule Babu,\n\nVă transmitem mai jos punctele care trebuie clarificate înainte de confirmarea comenzii pentru sistemul de stocare care face obiectul proformei KSTAR-PI-A20260915-01 din 15.09.2026. Intenția noastră de achiziție este fermă și dorim să lansăm comanda în interiorul termenului de valabilitate al ofertei.\n\nPentru a ușura răspunsul, fiecare capitol conține mai întâi contextul, respectiv ceea ce am reținut deja din documentele primite, iar apoi întrebările separate și numerotate continuu, de la 1 la 63. Vă rugăm să răspundeți punctual, păstrând numerotarea.\n\nCAPITOLUL 0. DOCUMENTELE ANALIZATE ȘI DATELE DEJA ÎNSUȘITE\n\nContext\n\nAm analizat integral documentele primite, respectiv User Manual for Industrial and Commercial Battery Cabinet BC107DE2, versiunea B din 01.07.2025, și ghidul de instalare rapidă pentru configurația 1 x KAC50DP2 cu 1 x BC107DE2. Pentru a nu vă solicita informații pe care le deținem deja, precizăm că am reținut următoarele: gabarit 1062 x 1371 x 2083 mm și masă de cca. 1430 kg, IP54, 70 dB; spații de operare de 1200 mm în față, 1200 mm lateral pentru PCS și 400 mm deasupra; regim climatic -30 … +50 grade C, umiditate 5-95 la sută fără condens, altitudine până la 3000 m; arhitectura dulapului BC107DE2, respectiv 120S1P, 384 Vcc nominal, domeniu 342-432 Vcc, 140 A la 0,5C, DoD recomandat 90 la sută, module de 17,92 kWh, 20S1P, 64 V, 137 kg; climatizare 220 V c.a. / 50 Hz, 3000 W răcire, 2000 W încălzire; interfețe CAN, Ethernet, RS485 și 4G; dotări de siguranță HVB, descărcător c.c., detector CO, senzor de inundare, aerosol, supapă de evacuare, racord de apă de incendiu, EPO; regim de exploatare cu inspecție lunară, curățarea condensatorului la 6 luni, calibrare SOC la 30 de zile, reîncărcare peste 50 la sută SOC la 6 luni de nefolosire și livrare la 40 la sută SOC.\n\nNu vă solicităm din nou aceste informații.\n\nCAPITOLUL I. IDENTIFICAREA PRODUSULUI\n\nContext\n\nDocumentația transmisă nu corespunde produsului din proformă. Proforma indică, la titlul poziției, un set de 50 kW / 102,4 kWh, iar la nivel de articol o baterie de 100,48 kWh, deci două valori diferite pentru același echipament. Proforma indică modelul BC100DE2A, în timp ce ambele documente transmise se referă la BC107DE2, cu energie nominală de 107,52 kWh. Proforma indică celule LFP EVE de 314 Ah, în timp ce manualul BC107DE2 specifică, la capitolul 2.2.1, celule LFP de 280 Ah, 3,2 V, 896 Wh. În plus, regulile de nomenclator de la capitolul 2.1.3 explică sufixele D, E și 2, dar nu explică sufixul A din denumirea BC100DE2A.\n\nPrecizăm că modelul, energia și tipul de celulă pe care ni le veți confirma vor fi preluate expres în confirmarea de comandă, ca elemente de conformitate a livrării.\n\nÎntrebarea 1: Care este modelul care se livrează efectiv, BC100DE2A sau BC107DE2?\n\nÎntrebarea 2: Care sunt energia nominală și energia utilizabilă ale modelului livrat, respectiv 102,4 kWh, 100,48 kWh sau 107,52 kWh?\n\nÎntrebarea 3: Ce semnificație are sufixul A din denumirea BC100DE2A?\n\nÎntrebarea 4: Dulapul livrat este destinat montajului exterior?\n\nÎntrebarea 5: Cele două dispozitive de stingere menționate în proformă corespund versiunii B a manualului, care a introdus unitatea suplimentară de protecție la incendiu?\n\nÎntrebarea 6: Ne puteți transmite manualul și fișa tehnică aferente modelului efectiv livrat?\n\nCAPITOLUL II. CELULELE BATERIEI\n\nContext\n\nSingura informație disponibilă despre celule este mențiunea LFP (EVE) 314 Ah din proformă. Manualul descrie celule de 280 Ah. Având în vedere că plata este solicitată integral în avans, aceste elemente trebuie confirmate în scris înainte de comandă.\n\nÎntrebarea 7: Care sunt producătorul și modelul exact al celulei și ne puteți transmite fișa tehnică la nivel de celulă, nu la nivel de dulap?\n\nÎntrebarea 8: Confirmați în scris că celulele sunt noi, de calitate A, de primă utilizare, nefiind recondiționate, declasate sau provenite din aplicații second-life?\n\nÎntrebarea 9: Care sunt anul și luna de fabricație a celulelor la momentul livrării și ce vechime maximă în stoc vă asumați?\n\nÎntrebarea 10: Care este configurația serie-paralel a modelului livrat, cu tensiunea nominală, domeniul de lucru și curenții maximi de încărcare și descărcare, în regim continuu și de vârf, exprimați și în valoare C?\n\nÎntrebarea 11: Care sunt criteriile și toleranțele de sortare a celulelor, respectiv capacitate, rezistență internă și rată de autodescărcare, și ne puteți transmite rapoartele de test din fabrică?\n\nÎntrebarea 12: Garanția producătorului de celule se transferă beneficiarului final și în ce condiții?\n\nÎntrebarea 13: Există și varianta cu celule CATL pentru aceeași configurație și care sunt diferențele de preț, de performanță și de garanție?\n\nCAPITOLUL III. PERFORMANȚĂ GARANTATĂ\n\nContext\n\nManualul indică un DoD recomandat de 90 la sută și un regim de 0,5C, dar nu conține niciun angajament privind durata de viață, degradarea sau randamentul. Proforma menționează doar 5 ani garanție de produs și 10 ani garanție de performanță, fără parametri. Răspunsurile de mai jos le considerăm elemente contractuale.\n\nÎntrebarea 14: Câte cicluri sunt garantate și la ce DoD, regim C și temperatură de referință?\n\nÎntrebarea 15: Ce capacitate reziduală, exprimată procentual, este garantată la finalul celor 10 ani și care este curba de degradare anuală asumată?\n\nÎntrebarea 16: Care este randamentul round-trip al sistemului, măsurat la bornele de curent alternativ, și în ce condiții de măsurare?\n\nÎntrebarea 17: Care este consumul propriu anual estimat al climatizării, pe regim de vară și de iarnă?\n\nÎntrebarea 18: Ce metodă și ce standard se aplică la măsurarea capacității în caz de reclamație de garanție și cine suportă costul testului?\n\nCAPITOLUL IV. CONVERTORUL KAC50DP2 ȘI RACORDAREA LA REȚEA\n\nContext\n\nPentru convertor nu am primit nicio fișă tehnică, ci doar schema de conexiuni din ghidul de instalare rapidă. Pentru proiectare și pentru dosarul de racordare la operatorul de distribuție avem nevoie de datele complete ale echipamentului.\n\nÎntrebarea 19: Ne puteți transmite fișa tehnică și manualul de utilizare ale convertorului KAC50DP2?\n\nÎntrebarea 20: Care sunt domeniul de tensiune și curentul pe fiecare MPPT, puterea aparentă, domeniul de reglaj al factorului de putere, capacitatea de suprasarcină și randamentul european?\n\nÎntrebarea 21: Care sunt modul și timpul de comutare între regimul racordat la rețea și cel insularizat?\n\nÎntrebarea 22: Care este puterea maximă a generatorului care poate fi comandat prin intrarea GEN?\n\nÎntrebarea 23: Ne puteți transmite certificatul de conformitate cu cerințele aplicabile în România pentru unități generatoare, emis conform Regulamentului (UE) 2016/631, împreună cu parametrii protecției de interfață și funcțiile de deconectare la insularizare?\n\nCAPITOLUL V. ALIMENTAREA AUXILIARĂ ȘI FUNCȚIONAREA AUTONOMĂ\n\nContext\n\nDin manual rezultă că dulapul de baterii nu este un echipament autonom. La capitolul 4.5 se precizează că schimbul de energie cu exteriorul se face exclusiv prin convertor, iar la capitolul 3.5.1 este prevăzută o alimentare auxiliară de 220 V c.a. monofazat, L/N/PE, categorie de supratensiune OVC II, care alimentează grupul de climatizare și modulul c.a./c.c. al HVB. În ghidul de instalare rapidă, alimentarea BAT-AC-POWER a dulapului apare racordată din partea de rețea, nu din ieșirea de rezervă a convertorului. Capitolul 4.3.2 descrie și o procedură de pornire fără rețea, prin separatorul c.c. și butonul DC START menținut 3-6 secunde, deci un black start în curent continuu. Manualul indică un curent de scurtcircuit de 6 kA și o protecție externă de 20 A pe intrarea de curent alternativ.\n\nÎntrebarea 24: Alimentarea auxiliară de 220 V c.a. poate fi preluată din ieșirea de rezervă a convertorului KAC50DP2, sau este obligatorie o sursă de alimentare separată și permanentă din rețea?\n\nÎntrebarea 25: Ce se întâmplă atunci când nu există nici rețea, nici producție fotovoltaică, iar bateria ajunge la un nivel scăzut de încărcare, respectiv se poate ajunge în situația în care climatizarea și HVB rămân nealimentate, iar repornirea este posibilă doar prin black start executat manual pe amplasament?\n\nÎntrebarea 26: Care este consumul auxiliar permanent al dulapului, inclusiv în regim de așteptare?\n\nÎntrebarea 27: Sistemul poate porni și funcționa exclusiv din producție fotovoltaică, fără rețea, și în ce condiții de putere minimă?\n\nÎntrebarea 28: Confirmați protecția externă de 20 A și curentul de scurtcircuit de 6 kA pe circuitul auxiliar și ne indicați secțiunea recomandată a cablului de alimentare?\n\nCAPITOLUL VI. RESTRICȚII DE AMPLASARE ȘI DE EXPLOATARE\n\nContext\n\nDin manual am reținut următoarele restricții: temperatura optimă a celulelor este de 20-30 grade C, se recomandă ca temperatura ambiantă să nu depășească 45 grade C, peste această valoa",
+      "truncated": true,
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX",
+        "6: Travel",
+        "Label_43901"
+      ],
+      "category": "fyi",
+      "folder": "Sebastian B.",
+      "thread_id": "1a12f9945c01f7ea",
+      "is_read": true,
+      "is_sent": false,
+      "attachments": [],
+      "note": ""
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 637
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-692089da-a4a4-4f48-8060-da78a3104475",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_email",
+  "status": "completed",
+  "arguments": {
+    "email_id": "9d8f6834-087b-4704-b777-fa315676d6e1"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_email"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"9d8f6834-087b-4704-b777-fa315676d6e1\",\n  \"account_email\": \"covaciu.gnm@eva-org.com\",\n  \"subject\": \"PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n  \"from_name\": \"Cosmin Covaciu\",\n  \"from_address\": \"covaciu.gnm@gmail.com\",\n  \"to\": [\n    \"Sebastian.b@kstar.com\"\n  ],\n  \"cc\": [],\n  \"received_at\": \"2026-09-22T14:09:56.309631Z\",\n  \"text\": \"Bună ziua, domnule Babu,\\nVă transmitem mai jos punctele care trebuie clarificate înainte de confirmarea comenzii pentru sistemul de stocare care face obiectul proformei KSTAR-PI-A20260915-01 din 15.09.2026. Intenția noastră de achiziție este fermă și dorim să lansăm comanda în interiorul termenului de valabilitate al ofertei.\\nPentru a ușura răspunsul, fiecare capitol conține mai întâi contextul, respectiv ceea ce am reținut deja din documentele primite, iar apoi întrebările separate și numerotate continuu, de la 1 la 63. Vă rugăm să răspundeți punctual, păstrând numerotarea.\\nCAPITOLUL 0. DOCUMENTELE ANALIZATE ȘI DATELE DEJA ÎNSUȘITE\\nContext\\nAm analizat integral documentele primite, respectiv User Manual for Industrial and Commercial Battery Cabinet BC107DE2, versiunea B din 01.07.2025, și ghidul de instalare rapidă pentru configurația 1 x KAC50DP2 cu 1 x BC107DE2. Pentru a nu vă solicita informații pe care le deținem deja, precizăm că am reținut următoarele: gabarit 1062 x 1371 x 2083 mm și masă de cca. 1430 kg, IP54, 70 dB; spații de operare de 1200 mm în față, 1200 mm lateral pentru PCS și 400 mm deasupra; regim climatic -30 … +50 grade C, umiditate 5-95 la sută fără condens, altitudine până la 3000 m; arhitectura dulapului BC107DE2, respectiv 120S1P, 384 Vcc nominal, domeniu 342-432 Vcc, 140 A la 0,5C, DoD recomandat 90 la sută, module de 17,92 kWh, 20S1P, 64 V, 137 kg; climatizare 220 V c.a. / 50 Hz, 3000 W răcire, 2000 W încălzire; interfețe CAN, Ethernet, RS485 și 4G; dotări de siguranță HVB, descărcător c.c., detector CO, senzor de inundare, aerosol, supapă de evacuare, racord de apă de incendiu, EPO; regim de exploatare cu inspecție lunară, curățarea condensatorului la 6 luni, calibrare SOC la 30 de zile, reîncărcare peste 50 la sută SOC la 6 luni de nefolosire și livrare la 40 la sută SOC.\\nNu vă solicităm din nou aceste informații.\\nCAPITOLUL I. IDENTIFICAREA PRODUSULUI\\nContext\\nDocumentația transmisă nu corespunde produsului din proformă. Proforma indică, la titlul poziției, un set de 50 kW / 102,4 kWh, iar la nivel de articol o baterie de 100,48 kWh, deci două valori diferite pentru același echipament. Proforma indică modelul BC100DE2A, în timp ce ambele documente transmise se referă la BC107DE2, cu energie nominală de 107,52 kWh. Proforma indică celule LFP EVE de 314 Ah, în timp ce manualul BC107DE2 specifică, la capitolul 2.2.1, celule LFP de 280 Ah, 3,2 V, 896 Wh. În plus, regulile de nomenclator de la capitolul 2.1.3 explică sufixele D, E și 2, dar nu explică sufixul A din denumirea BC100DE2A.\\nPrecizăm că modelul, energia și tipul de celulă pe care ni le veți confirma vor fi preluate expres în confirmarea de comandă, ca elemente de conformitate a livrării.\\nÎntrebarea 1: Care este modelul care se livrează efectiv, BC100DE2A sau BC107DE2?\\nÎntrebarea 2: Care sunt energia nominală și energia utilizabilă ale modelului livrat, respectiv 102,4 kWh, 100,48 kWh sau 107,52 kWh?\\nÎntrebarea 3: Ce semnificație are sufixul A din denumirea BC100DE2A?\\nÎntrebarea 4: Dulapul livrat este destinat montajului exterior?\\nÎntrebarea 5: Cele două dispozitive de stingere menționate în proformă corespund versiunii B a manualului, care a introdus unitatea suplimentară de protecție la incendiu?\\nÎntrebarea 6: Ne puteți transmite manualul și fișa tehnică aferente modelului efectiv livrat?\\nCAPITOLUL II. CELULELE BATERIEI\\nContext\\nSingura informație disponibilă despre celule este mențiunea LFP (EVE) 314 Ah din proformă. Manualul descrie celule de 280 Ah. Având în vedere că plata este solicitată integral în avans, aceste elemente trebuie confirmate în scris înainte de comandă.\\nÎntrebarea 7: Care sunt producătorul și modelul exact al celulei și ne puteți transmite fișa tehnică la nivel de celulă, nu la nivel de dulap?\\nÎntrebarea 8: Confirmați în scris că celulele sunt noi, de calitate A, de primă utilizare, nefiind recondiționate, declasate sau provenite din aplicații second-life?\\nÎntrebarea 9: Care sunt anul și luna de fabricație a celulelor la momentul livrării și ce vechime maximă în stoc vă asumați?\\nÎntrebarea 10: Care este configurația serie-paralel a modelului livrat, cu tensiunea nominală, domeniul de lucru și curenții maximi de încărcare și descărcare, în regim continuu și de vârf, exprimați și în valoare C?\\nÎntrebarea 11: Care sunt criteriile și toleranțele de sortare a celulelor, respectiv capacitate, rezistență internă și rată de autodescărcare, și ne puteți transmite rapoartele de test din fabrică?\\nÎntrebarea 12: Garanția producătorului de celule se transferă beneficiarului final și în ce condiții?\\nÎntrebarea 13: Există și varianta cu celule CATL pentru aceeași configurație și care sunt diferențele de preț, de performanță și de garanție?\\nCAPITOLUL III. PERFORMANȚĂ GARANTATĂ\\nContext\\nManualul indică un DoD recomandat de 90 la sută și un regim de 0,5C, dar nu conține niciun angajament privind durata de viață, degradarea sau randamentul. Proforma menționează doar 5 ani garanție de produs și 10 ani garanție de performanță, fără parametri. Răspunsurile de mai jos le considerăm elemente contractuale.\\nÎntrebarea 14: Câte cicluri sunt garantate și la ce DoD, regim C și temperatură de referință?\\nÎntrebarea 15: Ce capacitate reziduală, exprimată procentual, este garantată la finalul celor 10 ani și care este curba de degradare anuală asumată?\\nÎntrebarea 16: Care este randamentul round-trip al sistemului, măsurat la bornele de curent alternativ, și în ce condiții de măsurare?\\nÎntrebarea 17: Care este consumul propriu anual estimat al climatizării, pe regim de vară și de iarnă?\\nÎntrebarea 18: Ce metodă și ce standard se aplică la măsurarea capacității în caz de reclamație de garanție și cine suportă costul testului?\\nCAPITOLUL IV. CONVERTORUL KAC50DP2 ȘI RACORDAREA LA REȚEA\\nContext\\nPentru convertor nu am primit nicio fișă tehnică, ci doar schema de conexiuni din ghidul de instalare rapidă. Pentru proiectare și pentru dosarul de racordare la operatorul de distribuție avem nevoie de datele complete ale echipamentului.\\nÎntrebarea 19: Ne puteți transmite fișa tehnică și manualul de utilizare ale convertorului KAC50DP2?\\nÎntrebarea 20: Care sunt domeniul de tensiune și curentul pe fiecare MPPT, puterea aparentă, domeniul de reglaj al factorului de putere, capacitatea de suprasarcină și randamentul european?\\nÎntrebarea 21: Care sunt modul și timpul de comutare între regimul racordat la rețea și cel insularizat?\\nÎntrebarea 22: Care este puterea maximă a generatorului care poate fi comandat prin intrarea GEN?\\nÎntrebarea 23: Ne puteți transmite certificatul de conformitate cu cerințele aplicabile în România pentru unități generatoare, emis conform Regulamentului (UE) 2016/631, împreună cu parametrii protecției de interfață și funcțiile de deconectare la insularizare?\\nCAPITOLUL V. ALIMENTAREA AUXILIARĂ ȘI FUNCȚIONAREA AUTONOMĂ\\nContext\\nDin manual rezultă că dulapul de baterii nu este un echipament autonom. La capitolul 4.5 se precizează că schimbul de energie cu exteriorul se face exclusiv prin convertor, iar la capitolul 3.5.1 este prevăzută o alimentare auxiliară de 220 V c.a. monofazat, L/N/PE, categorie de supratensiune OVC II, care alimentează grupul de climatizare și modulul c.a./c.c. al HVB. În ghidul de instalare rapidă, alimentarea BAT-AC-POWER a dulapului apare racordată din partea de rețea, nu din ieșirea de rezervă a convertorului. Capitolul 4.3.2 descrie și o procedură de pornire fără rețea, prin separatorul c.c. și butonul DC START menținut 3-6 secunde, deci un black start în curent continuu. Manualul indică un curent de scurtcircuit de 6 kA și o protecție externă de 20 A pe intrarea de curent alternativ.\\nÎntrebarea 24: Alimentarea auxiliară de 220 V c.a. poate fi preluată din ieșirea de rezervă a convertorului KAC50DP2, sau este obligatorie o sursă de alimentare separată și permanentă din rețea?\\nÎntrebarea 25: Ce se întâmplă atunci când nu există nici rețea, nici producție fotovoltaică, iar bateria ajunge la un nivel scăzut de încărcare, respectiv se poate ajunge în situația în care climatizarea și HVB rămân nealimentate, iar repornirea este posibilă doar prin black start executat manual pe amplasament?\\nÎntrebarea 26: Care este consumul auxiliar permanent al dulapului, inclusiv în regim de așteptare?\\nÎntrebarea 27: Sistemul poate porni și funcționa exclusiv din producție fotovoltaică, fără rețea, și în ce condiții de putere minimă?\\nÎntrebarea 28: Confirmați protecția externă de 20 A și curentul de scurtcircuit de 6 kA pe circuitul auxiliar și ne indicați secțiunea recomandată a cablului de alimentare?\\nCAPITOLUL VI. RESTRICȚII DE AMPLASARE ȘI DE EXPLOATARE\\nContext\\nDin manual am reținut următoarele restricții: temperatura optimă a celulelor este de 20-30 grade C, se recomandă ca temperatura ambiantă să nu depășească 45 grade C, peste această valoare impunându-se derating de 10 la sută pentru fiecare grad, iar expunerea prelungită peste 50 grade C accelerează îmbătrânirea; încărcarea este interzisă sub 0 grade C; fundația trebuie realizată din beton armat, ridicată cu cca. 300 mm față de cota terenului, pe teren compactat la densitate relativă de 98 la sută, cu tuburi de trecere înglobate, plăci metalice înglobate și 6 prezoane M14 x 50, cu canal de cabluri și drenaj; sunt interzise amplasarea în medii cu praf, gaze volatile, substanțe corozive, salinitate ridicată, expunere directă la soare, surse de căldură, apă, zone inflamabile sau explozive și fundații instabile sau cu vibrații; spațiul trebuie să aibă elemente rezistente la foc, stingător portabil cu pulbere lângă dulap, împrejmuire de protecție și marcaje de avertizare, iar trecerile de cabluri se etanșează cu mastic ignifug; mentenanța bateriei sub tensiune este interzisă; la punerea în funcțiune se impune o calibrare de capacitate la 100 la sută DoD, prin descărcare până la 0 la sută SOC, repaus de minimum 2 ore și încărcare completă.\\nÎntrebarea 29: Regula de derating de 10 la sută pentru fiecare grad peste 45 grade C se aplică și modelului efectiv livrat?\\nÎntrebarea 30: Încălzirea integrată permite încărcarea bateriei la temperaturi exterioare negative și de la ce prag de temperatură?\\nÎntrebarea 31: Ne puteți transmite desenul de fundație cotat și schema de împământare, pentru a le preda proiectantului?\\nÎntrebarea 32: Care sunt distanțele minime de siguranță impuse față de clădiri, limite de proprietate și căi de acces, precum și cerințele de protecție la incendiu ale spațiului de amplasare?\\nÎntrebarea 33: Calibrarea de capacitate la 100 la sută DoD de la punerea în funcțiune este executată de tehnicianul dumneavoastră și este inclusă în preț?\\nCAPITOLUL VII. CONTORUL DE MĂSURĂ, CONTROLUL INJECȚIEI ÎN REȚEA ȘI INTEGRAREA ÎN EMS\\nContext\\nProforma include un contor trifazat inteligent YDS60-80, 90-1000 V, câte o bucată pentru fiecare sistem de stocare. În ghidul de instalare rapidă, contorul apare racordat pe partea de rețea, cu tensiunile A/B/C/N preluate din rețea și cu trei transformatoare de curent, iar comunicația cu convertorul se face pe RS485, prin legătura METER-RS485. Din această schemă înțelegem că rolul contorului este de a măsura schimbul cu rețeaua în punctul de racordare, nu producția bateriei, însă documentația nu precizează poziția și sensul transformatoarelor de curent și nu descrie funcția de limitare a injecției.\\nPrecizăm cerința noastră de exploatare: instalația trebuie să regleze automat puterea de descărcare a bateriei în funcție de consumul local, astfel încât în niciun regim, în special noaptea, să nu se injecteze energie în rețea.\\nÎntrebarea 34: Contorul YDS60-80 și transformatoarele de curent se montează în punctul de racordare la rețea, pe branșamentul general, pentru măsurarea importului și a exportului, sau pe circuitul bateriei? Ne puteți transmite schema de montaj cu poziția și sensul transformatoarelor de curent?\\nÎntrebarea 35: Ce raport de transformare și ce clasă de precizie trebuie să aibă transformatoarele de curent și care este lungimea maximă admisă a legăturii RS485 dintre contor și convertor?\\nÎntrebarea 36: Sistemul reglează automat puterea de descărcare a bateriei în funcție de consumul local măsurat, astfel încât să nu se injecteze energie în rețea, respectiv dispune de funcție de export zero sau anti-backflow?\\nÎntrebarea 37: Care este timpul de răspuns al acestui reglaj și ce putere poate fi injectată tranzitoriu în rețea la o variație bruscă a consumului, iar limita de export poate fi setată și la o altă valoare decât zero?\\nÎntrebarea 38: Ce se întâmplă la pierderea comunicației cu contorul, respectiv sistemul oprește descărcarea sau continuă cu riscul de injecție în rețea?\\nÎntrebarea 39: Ne puteți transmite documentația de protocol, respectiv lista de registre Modbus TCP și RTU pentru EMS și pentru BMS?\\nÎntrebarea 40: Sistemul poate fi operat și monitorizat integral local, fără conectare la platforma dumneavoastră cloud, iar funcția de limitare a injecției rămâne activă în acest caz?\\nÎntrebarea 41: Funcțiile de optimizare, de limitare a puterii injectate în rețea și de reducere a vârfului de consum sunt disponibile fără abonament?\\nÎntrebarea 42: Cui aparțin datele de funcționare colectate prin platformă și în ce condiții pot fi exportate?\\nCAPITOLUL VIII. DOCUMENTE DE CONFORMITATE\\nContext\\nManualul prevede, la capitolul 6, că fiecare dulap se livrează cu certificat de conformitate, raport de testare din fabrică și certificat de garanție, însă aceste documente nu ne-au fost prezentate. Avem nevoie de setul complet de conformitate pentru proiectare, racordare și recepție.\\nÎntrebarea 43: Ne puteți transmite setul de certificate pentru configurația livrată, respectiv marcaj CE cu declarația de conformitate, IEC 62619 și IEC 63056 sau echivalent pentru sistemul de baterii, IEC 62477 respectiv IEC 62109 pentru convertor, raportul UN 38.3, fișa cu date de securitate și rapoartele de încercare la foc ale ansamblului?\\nÎntrebarea 44: Ne puteți transmite în avans modelele certificatului de conformitate, ale raportului de testare din fabrică și ale certificatului de garanție?\\nÎntrebarea 45: Ne transmiteți raportul de testare din fabrică aferent echipamentului efectiv alocat comenzii noastre, înainte de expediere?\\nCAPITOLUL IX. CADRUL CONTRACTUAL ȘI CONDIȚIILE DE PLATĂ\\nContext\\nProforma prevede plata integrală în avans, anterior expedierii, fără ca între părți să existe un contract care să reglementeze termenul de livrare, răspunderea și remediile. Această structură plasează integral riscul de neexecutare în sarcina cumpărătorului și nu o putem accepta în forma actuală.\\nÎntrebarea 46: Dispuneți de un model de contract de furnizare pe care să ni-l transmiteți spre analiză, iar dacă nu, ce documente țin loc de contract în relația cu dumneavoastră?\\nÎntrebarea 47: Care este termenul de livrare ferm, calculat în zile de la încasarea plății, ce penalități de întârziere acceptați și de la ce dată limită cumpărătorul poate rezoluționa contractul cu restituirea integrală a sumelor plătite?\\nÎntrebarea 48: Cum se reglementează transferul proprietății și al riscurilor, rezerva dreptului de proprietate până la plata integrală, procedura de recepție cantitativă și calitativă la destinație, termenul de notificare a viciilor aparente și regimul viciilor ascunse?\\nÎntrebarea 49: Care sunt legea aplicabilă și modul de soluționare a litigiilor și confirmați că vânzător rămâne KSTAR Poland sp. z o.o.?\\nÎntrebarea 50: Acceptați o structură de plată de 30 la sută avans la confirmarea comenzii și 70 la sută înainte de expediere, contra raportului de testare din fabrică și a documentelor de expediție, iar dacă nu, ce garanție de restituire a avansului sau de bună execuție puteți acorda?\\nCAPITOLUL X. LIVRARE ȘI FACTURARE\\nContext\\nAdresa de facturare este diferită de adresa de livrare, iar proforma conține în prezent doar adresa de facturare. Facturarea se face către Neets Fotoshooting SRL, CUI 47362309, str. Ștefan Luchian nr. 3B, Alba Iulia, județul Alba, iar livrarea, montajul și punerea în funcțiune se execută în str. Theodor Pallady nr. 5, Alba Iulia, județul Alba. Condiția DAP Alba Iulia rămâne valabilă, urmând a fi precizată adresa exactă de livrare.\\nSemnalăm o cerință esențială: accesul la amplasament nu permite autovehicule de mare tonaj, astfel încât livrarea trebuie efectuată obligatoriu cu o camionetă de maximum 3,5 tone, nu cu autotren sau semiremorcă. Menționăm că masa netă a dulapului este de cca. 1430 kg, la care se adaugă convertorul, paletul și ambalajul, ceea ce poate depăși sarcina utilă a unui asemenea autovehicul.\\nÎntrebarea 51: Confirmați că livrarea poate fi efectuată cu o camionetă de maximum 3,5 tone, fără autotren sau semiremorcă?\\nÎntrebarea 52: Care sunt numărul de colete, masa brută și dimensiunile fiecăruia și este necesară împărțirea livrării în două transporturi succesive?\\nÎntrebarea 53: Descărcarea la destinație este asigurată de transportator sau cade în sarcina cumpărătorului, iar dulapul poate fi deplasat cu transpaletul după coborârea de pe palet?\\nÎntrebarea 54: Care sunt poziția și capacitatea inelelor de ridicare, pentru dimensionarea utilajului de ridicare la destinație?\\nÎntrebarea 55: Care este starea de încărcare a bateriei la livrare și ce documente de transport pentru mărfuri periculoase sunt aplicabile?\\nÎntrebarea 56: Ne puteți emite proforma revizuită, cu adresa de facturare și adresa de livrare indicate separat, cu mențiunea DAP Alba Iulia, str. Theodor Pallady nr. 5, conform Incoterms 2020, și se modifică valoarea transportului față de cei 1.650 EUR ofertați?\\nCAPITOLUL XI. ASISTENȚĂ LA MONTAJ, PUNERE ÎN FUNCȚIUNE, MENTENANȚĂ ȘI SERVICE\\nContext\\nSolicităm în mod expres prezența fizică a unui tehnician KSTAR pe amplasament, atât pe durata montajului, cât și la punerea în funcțiune, nu doar asistență de la distanță. Manualul impune, de altfel, verificări lunare, curățarea climatizării la 6 luni, verificarea periodică a unității de stingere și calibrarea SOC.\\nÎntrebarea 57: Asistența tehnicianului pe amplasament, la montaj și la punerea în funcțiune, este inclusă în prețul ofertat sau se tarifează separat, iar în acest caz care sunt tariful zilnic și cheltuielile de deplasare și cazare?\\nÎntrebarea 58: Câte zile de prezență pe amplasament estimați pentru montaj și pentru punerea în funcțiune, inclusiv pentru calibrarea de capacitate?\\nÎntrebarea 59: Ce entitate execută efectiv lucrarea pe teritoriul României, în ce limbă lucrează tehnicianul și în cât timp de la livrare poate fi programată intervenția?\\nÎntrebarea 60: Se emite un proces-verbal de punere în funcțiune și de la ce dată curge perioada de garanție?\\nÎntrebarea 61: Garanția este condiționată de executarea punerii în funcțiune și a mentenanței periodice de către un partener autorizat KSTAR și de menținerea conexiunii la platforma de monitorizare?\\nÎntrebarea 62: Care este costul unui contract anual de mentenanță și ce timp de răspuns este asumat în România?\\nÎntrebarea 63: Care sunt disponibilitatea și prețul pieselor de schimb critice, respectiv unitățile de stingere cu aerosol și cutia de declanșare, grupul de climatizare, modulul de baterii și placa BMU, și cine suportă costul transportului pieselor în perioada de garanție?\\nCAPITOLUL XII. TERMEN DE RĂSPUNS\\nSuntem pregătiți să confirmăm comanda imediat ce primim răspunsurile de mai sus, în special la întrebările 1, 2, 7, 8, 14, 15, 34, 36, 46, 50, 51 și 57. Vă rugăm să ne transmiteți răspunsul până cel târziu vineri, 26 septembrie 2026, astfel încât formalitățile să poată fi încheiate în interiorul termenului de valabilitate al ofertei, respectiv 30 septembrie 2026, cu menținerea prețului ofertat.\\nVă mulțumim pentru colaborare și rămânem în așteptarea răspunsului dumneavoastră.\\nCu deosebită considerație,\\nCosmin Adrian Covaciu\",\n  \"truncated\": false,\n  \"labels\": [\n    \"SENT\",\n    \"1: To respond\"\n  ],\n  \"category\": \"fyi\",\n  \"folder\": \"Sebastian.b@kstar.com\",\n  \"thread_id\": \"<CAJyf=oqj=60cTD8+h58FtovgDRZ389dkXLr_8HbAnuuZPL4z+Q@mail.gmail.com>\",\n  \"is_read\": true,\n  \"is_sent\": true,\n  \"attachments\": [],\n  \"note\": \"\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "9d8f6834-087b-4704-b777-fa315676d6e1",
+      "account_email": "covaciu.gnm@eva-org.com",
+      "subject": "PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+      "from_name": "Cosmin Covaciu",
+      "from_address": "covaciu.gnm@gmail.com",
+      "to": [
+        "Sebastian.b@kstar.com"
+      ],
+      "cc": [],
+      "received_at": "2026-09-22T14:09:56.309631Z",
+      "text": "Bună ziua, domnule Babu,\nVă transmitem mai jos punctele care trebuie clarificate înainte de confirmarea comenzii pentru sistemul de stocare care face obiectul proformei KSTAR-PI-A20260915-01 din 15.09.2026. Intenția noastră de achiziție este fermă și dorim să lansăm comanda în interiorul termenului de valabilitate al ofertei.\nPentru a ușura răspunsul, fiecare capitol conține mai întâi contextul, respectiv ceea ce am reținut deja din documentele primite, iar apoi întrebările separate și numerotate continuu, de la 1 la 63. Vă rugăm să răspundeți punctual, păstrând numerotarea.\nCAPITOLUL 0. DOCUMENTELE ANALIZATE ȘI DATELE DEJA ÎNSUȘITE\nContext\nAm analizat integral documentele primite, respectiv User Manual for Industrial and Commercial Battery Cabinet BC107DE2, versiunea B din 01.07.2025, și ghidul de instalare rapidă pentru configurația 1 x KAC50DP2 cu 1 x BC107DE2. Pentru a nu vă solicita informații pe care le deținem deja, precizăm că am reținut următoarele: gabarit 1062 x 1371 x 2083 mm și masă de cca. 1430 kg, IP54, 70 dB; spații de operare de 1200 mm în față, 1200 mm lateral pentru PCS și 400 mm deasupra; regim climatic -30 … +50 grade C, umiditate 5-95 la sută fără condens, altitudine până la 3000 m; arhitectura dulapului BC107DE2, respectiv 120S1P, 384 Vcc nominal, domeniu 342-432 Vcc, 140 A la 0,5C, DoD recomandat 90 la sută, module de 17,92 kWh, 20S1P, 64 V, 137 kg; climatizare 220 V c.a. / 50 Hz, 3000 W răcire, 2000 W încălzire; interfețe CAN, Ethernet, RS485 și 4G; dotări de siguranță HVB, descărcător c.c., detector CO, senzor de inundare, aerosol, supapă de evacuare, racord de apă de incendiu, EPO; regim de exploatare cu inspecție lunară, curățarea condensatorului la 6 luni, calibrare SOC la 30 de zile, reîncărcare peste 50 la sută SOC la 6 luni de nefolosire și livrare la 40 la sută SOC.\nNu vă solicităm din nou aceste informații.\nCAPITOLUL I. IDENTIFICAREA PRODUSULUI\nContext\nDocumentația transmisă nu corespunde produsului din proformă. Proforma indică, la titlul poziției, un set de 50 kW / 102,4 kWh, iar la nivel de articol o baterie de 100,48 kWh, deci două valori diferite pentru același echipament. Proforma indică modelul BC100DE2A, în timp ce ambele documente transmise se referă la BC107DE2, cu energie nominală de 107,52 kWh. Proforma indică celule LFP EVE de 314 Ah, în timp ce manualul BC107DE2 specifică, la capitolul 2.2.1, celule LFP de 280 Ah, 3,2 V, 896 Wh. În plus, regulile de nomenclator de la capitolul 2.1.3 explică sufixele D, E și 2, dar nu explică sufixul A din denumirea BC100DE2A.\nPrecizăm că modelul, energia și tipul de celulă pe care ni le veți confirma vor fi preluate expres în confirmarea de comandă, ca elemente de conformitate a livrării.\nÎntrebarea 1: Care este modelul care se livrează efectiv, BC100DE2A sau BC107DE2?\nÎntrebarea 2: Care sunt energia nominală și energia utilizabilă ale modelului livrat, respectiv 102,4 kWh, 100,48 kWh sau 107,52 kWh?\nÎntrebarea 3: Ce semnificație are sufixul A din denumirea BC100DE2A?\nÎntrebarea 4: Dulapul livrat este destinat montajului exterior?\nÎntrebarea 5: Cele două dispozitive de stingere menționate în proformă corespund versiunii B a manualului, care a introdus unitatea suplimentară de protecție la incendiu?\nÎntrebarea 6: Ne puteți transmite manualul și fișa tehnică aferente modelului efectiv livrat?\nCAPITOLUL II. CELULELE BATERIEI\nContext\nSingura informație disponibilă despre celule este mențiunea LFP (EVE) 314 Ah din proformă. Manualul descrie celule de 280 Ah. Având în vedere că plata este solicitată integral în avans, aceste elemente trebuie confirmate în scris înainte de comandă.\nÎntrebarea 7: Care sunt producătorul și modelul exact al celulei și ne puteți transmite fișa tehnică la nivel de celulă, nu la nivel de dulap?\nÎntrebarea 8: Confirmați în scris că celulele sunt noi, de calitate A, de primă utilizare, nefiind recondiționate, declasate sau provenite din aplicații second-life?\nÎntrebarea 9: Care sunt anul și luna de fabricație a celulelor la momentul livrării și ce vechime maximă în stoc vă asumați?\nÎntrebarea 10: Care este configurația serie-paralel a modelului livrat, cu tensiunea nominală, domeniul de lucru și curenții maximi de încărcare și descărcare, în regim continuu și de vârf, exprimați și în valoare C?\nÎntrebarea 11: Care sunt criteriile și toleranțele de sortare a celulelor, respectiv capacitate, rezistență internă și rată de autodescărcare, și ne puteți transmite rapoartele de test din fabrică?\nÎntrebarea 12: Garanția producătorului de celule se transferă beneficiarului final și în ce condiții?\nÎntrebarea 13: Există și varianta cu celule CATL pentru aceeași configurație și care sunt diferențele de preț, de performanță și de garanție?\nCAPITOLUL III. PERFORMANȚĂ GARANTATĂ\nContext\nManualul indică un DoD recomandat de 90 la sută și un regim de 0,5C, dar nu conține niciun angajament privind durata de viață, degradarea sau randamentul. Proforma menționează doar 5 ani garanție de produs și 10 ani garanție de performanță, fără parametri. Răspunsurile de mai jos le considerăm elemente contractuale.\nÎntrebarea 14: Câte cicluri sunt garantate și la ce DoD, regim C și temperatură de referință?\nÎntrebarea 15: Ce capacitate reziduală, exprimată procentual, este garantată la finalul celor 10 ani și care este curba de degradare anuală asumată?\nÎntrebarea 16: Care este randamentul round-trip al sistemului, măsurat la bornele de curent alternativ, și în ce condiții de măsurare?\nÎntrebarea 17: Care este consumul propriu anual estimat al climatizării, pe regim de vară și de iarnă?\nÎntrebarea 18: Ce metodă și ce standard se aplică la măsurarea capacității în caz de reclamație de garanție și cine suportă costul testului?\nCAPITOLUL IV. CONVERTORUL KAC50DP2 ȘI RACORDAREA LA REȚEA\nContext\nPentru convertor nu am primit nicio fișă tehnică, ci doar schema de conexiuni din ghidul de instalare rapidă. Pentru proiectare și pentru dosarul de racordare la operatorul de distribuție avem nevoie de datele complete ale echipamentului.\nÎntrebarea 19: Ne puteți transmite fișa tehnică și manualul de utilizare ale convertorului KAC50DP2?\nÎntrebarea 20: Care sunt domeniul de tensiune și curentul pe fiecare MPPT, puterea aparentă, domeniul de reglaj al factorului de putere, capacitatea de suprasarcină și randamentul european?\nÎntrebarea 21: Care sunt modul și timpul de comutare între regimul racordat la rețea și cel insularizat?\nÎntrebarea 22: Care este puterea maximă a generatorului care poate fi comandat prin intrarea GEN?\nÎntrebarea 23: Ne puteți transmite certificatul de conformitate cu cerințele aplicabile în România pentru unități generatoare, emis conform Regulamentului (UE) 2016/631, împreună cu parametrii protecției de interfață și funcțiile de deconectare la insularizare?\nCAPITOLUL V. ALIMENTAREA AUXILIARĂ ȘI FUNCȚIONAREA AUTONOMĂ\nContext\nDin manual rezultă că dulapul de baterii nu este un echipament autonom. La capitolul 4.5 se precizează că schimbul de energie cu exteriorul se face exclusiv prin convertor, iar la capitolul 3.5.1 este prevăzută o alimentare auxiliară de 220 V c.a. monofazat, L/N/PE, categorie de supratensiune OVC II, care alimentează grupul de climatizare și modulul c.a./c.c. al HVB. În ghidul de instalare rapidă, alimentarea BAT-AC-POWER a dulapului apare racordată din partea de rețea, nu din ieșirea de rezervă a convertorului. Capitolul 4.3.2 descrie și o procedură de pornire fără rețea, prin separatorul c.c. și butonul DC START menținut 3-6 secunde, deci un black start în curent continuu. Manualul indică un curent de scurtcircuit de 6 kA și o protecție externă de 20 A pe intrarea de curent alternativ.\nÎntrebarea 24: Alimentarea auxiliară de 220 V c.a. poate fi preluată din ieșirea de rezervă a convertorului KAC50DP2, sau este obligatorie o sursă de alimentare separată și permanentă din rețea?\nÎntrebarea 25: Ce se întâmplă atunci când nu există nici rețea, nici producție fotovoltaică, iar bateria ajunge la un nivel scăzut de încărcare, respectiv se poate ajunge în situația în care climatizarea și HVB rămân nealimentate, iar repornirea este posibilă doar prin black start executat manual pe amplasament?\nÎntrebarea 26: Care este consumul auxiliar permanent al dulapului, inclusiv în regim de așteptare?\nÎntrebarea 27: Sistemul poate porni și funcționa exclusiv din producție fotovoltaică, fără rețea, și în ce condiții de putere minimă?\nÎntrebarea 28: Confirmați protecția externă de 20 A și curentul de scurtcircuit de 6 kA pe circuitul auxiliar și ne indicați secțiunea recomandată a cablului de alimentare?\nCAPITOLUL VI. RESTRICȚII DE AMPLASARE ȘI DE EXPLOATARE\nContext\nDin manual am reținut următoarele restricții: temperatura optimă a celulelor este de 20-30 grade C, se recomandă ca temperatura ambiantă să nu depășească 45 grade C, peste această valoare impunându-se derating de 10 la sută pentru fiecare grad, iar expunerea prelungită peste 50 grade C accelerează îmbătrânirea; încărcarea este interzisă sub 0 grade C; fundația trebuie realizată din beton armat, ridicată cu cca. 300 mm față de cota terenului, pe teren compactat la densitate relativă de 98 la sută, cu tuburi de trecere înglobate, plăci metalice înglobate și 6 prezoane M14 x 50, cu canal de cabluri și drenaj; sunt interzise amplasarea în medii cu praf, gaze volatile, substanțe corozive, salinitate ridicată, expunere directă la soare, surse de căldură, apă, zone inflamabile sau explozive și fundații instabile sau cu vibrații; spațiul trebuie să aibă elemente rezistente la foc, stingător portabil cu pulbere lângă dulap, împrejmuire de protecție și marcaje de avertizare, iar trecerile de cabluri se etanșează cu mastic ignifug; mentenanța bateriei sub tensiune este interzisă; la punerea în funcțiune se impune o calibrare de capacitate la 100 la sută DoD, prin descărcare până la 0 la sută SOC, repaus de minimum 2 ore și încărcare completă.\nÎntrebarea 29: Regula de derating de 10 la sută pentru fiecare grad peste 45 grade C se aplică și modelului efectiv livrat?\nÎntrebarea 30: Încălzirea integrată permite încărcarea bateriei la temperaturi exterioare negative și de la ce prag de temperatură?\nÎntrebarea 31: Ne puteți transmite desenul de fundație cotat și schema de împământare, pentru a le preda proiectantului?\nÎntrebarea 32: Care sunt distanțele minime de siguranță impuse față de clădiri, limite de proprietate și căi de acces, precum și cerințele de protecție la incendiu ale spațiului de amplasare?\nÎntrebarea 33: Calibrarea de capacitate la 100 la sută DoD de la punerea în funcțiune este executată de tehnicianul dumneavoastră și este inclusă în preț?\nCAPITOLUL VII. CONTORUL DE MĂSURĂ, CONTROLUL INJECȚIEI ÎN REȚEA ȘI INTEGRAREA ÎN EMS\nContext\nProforma include un contor trifazat inteligent YDS60-80, 90-1000 V, câte o bucată pentru fiecare sistem de stocare. În ghidul de instalare rapidă, contorul apare racordat pe partea de rețea, cu tensiunile A/B/C/N preluate din rețea și cu trei transformatoare de curent, iar comunicația cu convertorul se face pe RS485, prin legătura METER-RS485. Din această schemă înțelegem că rolul contorului este de a măsura schimbul cu rețeaua în punctul de racordare, nu producția bateriei, însă documentația nu precizează poziția și sensul transformatoarelor de curent și nu descrie funcția de limitare a injecției.\nPrecizăm cerința noastră de exploatare: instalația trebuie să regleze automat puterea de descărcare a bateriei în funcție de consumul local, astfel încât în niciun regim, în special noaptea, să nu se injecteze energie în rețea.\nÎntrebarea 34: Contorul YDS60-80 și transformatoarele de curent se montează în punctul de racordare la rețea, pe branșamentul general, pentru măsurarea importului și a exportului, sau pe circuitul bateriei? Ne puteți transmite schema de montaj cu poziția și sensul transformatoarelor de curent?\nÎntrebarea 35: Ce raport de transformare și ce clasă de precizie trebuie să aibă transformatoarele de curent și care este lungimea maximă admisă a legăturii RS485 dintre contor și convertor?\nÎntrebarea 36: Sistemul reglează automat puterea de descărcare a bateriei în funcție de consumul local măsurat, astfel încât să nu se injecteze energie în rețea, respectiv dispune de funcție de export zero sau anti-backflow?\nÎntrebarea 37: Care este timpul de răspuns al acestui reglaj și ce putere poate fi injectată tranzitoriu în rețea la o variație bruscă a consumului, iar limita de export poate fi setată și la o altă valoare decât zero?\nÎntrebarea 38: Ce se întâmplă la pierderea comunicației cu contorul, respectiv sistemul oprește descărcarea sau continuă cu riscul de injecție în rețea?\nÎntrebarea 39: Ne puteți transmite documentația de protocol, respectiv lista de registre Modbus TCP și RTU pentru EMS și pentru BMS?\nÎntrebarea 40: Sistemul poate fi operat și monitorizat integral local, fără conectare la platforma dumneavoastră cloud, iar funcția de limitare a injecției rămâne activă în acest caz?\nÎntrebarea 41: Funcțiile de optimizare, de limitare a puterii injectate în rețea și de reducere a vârfului de consum sunt disponibile fără abonament?\nÎntrebarea 42: Cui aparțin datele de funcționare colectate prin platformă și în ce condiții pot fi exportate?\nCAPITOLUL VIII. DOCUMENTE DE CONFORMITATE\nContext\nManualul prevede, la capitolul 6, că fiecare dulap se livrează cu certificat de conformitate, raport de testare din fabrică și certificat de garanție, însă aceste documente nu ne-au fost prezentate. Avem nevoie de setul complet de conformitate pentru proiectare, racordare și recepție.\nÎntrebarea 43: Ne puteți transmite setul de certificate pentru configurația livrată, respectiv marcaj CE cu declarația de conformitate, IEC 62619 și IEC 63056 sau echivalent pentru sistemul de baterii, IEC 62477 respectiv IEC 62109 pentru convertor, raportul UN 38.3, fișa cu date de securitate și rapoartele de încercare la foc ale ansamblului?\nÎntrebarea 44: Ne puteți transmite în avans modelele certificatului de conformitate, ale raportului de testare din fabrică și ale certificatului de garanție?\nÎntrebarea 45: Ne transmiteți raportul de testare din fabrică aferent echipamentului efectiv alocat comenzii noastre, înainte de expediere?\nCAPITOLUL IX. CADRUL CONTRACTUAL ȘI CONDIȚIILE DE PLATĂ\nContext\nProforma prevede plata integrală în avans, anterior expedierii, fără ca între părți să existe un contract care să reglementeze termenul de livrare, răspunderea și remediile. Această structură plasează integral riscul de neexecutare în sarcina cumpărătorului și nu o putem accepta în forma actuală.\nÎntrebarea 46: Dispuneți de un model de contract de furnizare pe care să ni-l transmiteți spre analiză, iar dacă nu, ce documente țin loc de contract în relația cu dumneavoastră?\nÎntrebarea 47: Care este termenul de livrare ferm, calculat în zile de la încasarea plății, ce penalități de întârziere acceptați și de la ce dată limită cumpărătorul poate rezoluționa contractul cu restituirea integrală a sumelor plătite?\nÎntrebarea 48: Cum se reglementează transferul proprietății și al riscurilor, rezerva dreptului de proprietate până la plata integrală, procedura de recepție cantitativă și calitativă la destinație, termenul de notificare a viciilor aparente și regimul viciilor ascunse?\nÎntrebarea 49: Care sunt legea aplicabilă și modul de soluționare a litigiilor și confirmați că vânzător rămâne KSTAR Poland sp. z o.o.?\nÎntrebarea 50: Acceptați o structură de plată de 30 la sută avans la confirmarea comenzii și 70 la sută înainte de expediere, contra raportului de testare din fabrică și a documentelor de expediție, iar dacă nu, ce garanție de restituire a avansului sau de bună execuție puteți acorda?\nCAPITOLUL X. LIVRARE ȘI FACTURARE\nContext\nAdresa de facturare este diferită de adresa de livrare, iar proforma conține în prezent doar adresa de facturare. Facturarea se face către Neets Fotoshooting SRL, CUI 47362309, str. Ștefan Luchian nr. 3B, Alba Iulia, județul Alba, iar livrarea, montajul și punerea în funcțiune se execută în str. Theodor Pallady nr. 5, Alba Iulia, județul Alba. Condiția DAP Alba Iulia rămâne valabilă, urmând a fi precizată adresa exactă de livrare.\nSemnalăm o cerință esențială: accesul la amplasament nu permite autovehicule de mare tonaj, astfel încât livrarea trebuie efectuată obligatoriu cu o camionetă de maximum 3,5 tone, nu cu autotren sau semiremorcă. Menționăm că masa netă a dulapului este de cca. 1430 kg, la care se adaugă convertorul, paletul și ambalajul, ceea ce poate depăși sarcina utilă a unui asemenea autovehicul.\nÎntrebarea 51: Confirmați că livrarea poate fi efectuată cu o camionetă de maximum 3,5 tone, fără autotren sau semiremorcă?\nÎntrebarea 52: Care sunt numărul de colete, masa brută și dimensiunile fiecăruia și este necesară împărțirea livrării în două transporturi succesive?\nÎntrebarea 53: Descărcarea la destinație este asigurată de transportator sau cade în sarcina cumpărătorului, iar dulapul poate fi deplasat cu transpaletul după coborârea de pe palet?\nÎntrebarea 54: Care sunt poziția și capacitatea inelelor de ridicare, pentru dimensionarea utilajului de ridicare la destinație?\nÎntrebarea 55: Care este starea de încărcare a bateriei la livrare și ce documente de transport pentru mărfuri periculoase sunt aplicabile?\nÎntrebarea 56: Ne puteți emite proforma revizuită, cu adresa de facturare și adresa de livrare indicate separat, cu mențiunea DAP Alba Iulia, str. Theodor Pallady nr. 5, conform Incoterms 2020, și se modifică valoarea transportului față de cei 1.650 EUR ofertați?\nCAPITOLUL XI. ASISTENȚĂ LA MONTAJ, PUNERE ÎN FUNCȚIUNE, MENTENANȚĂ ȘI SERVICE\nContext\nSolicităm în mod expres prezența fizică a unui tehnician KSTAR pe amplasament, atât pe durata montajului, cât și la punerea în funcțiune, nu doar asistență de la distanță. Manualul impune, de altfel, verificări lunare, curățarea climatizării la 6 luni, verificarea periodică a unității de stingere și calibrarea SOC.\nÎntrebarea 57: Asistența tehnicianului pe amplasament, la montaj și la punerea în funcțiune, este inclusă în prețul ofertat sau se tarifează separat, iar în acest caz care sunt tariful zilnic și cheltuielile de deplasare și cazare?\nÎntrebarea 58: Câte zile de prezență pe amplasament estimați pentru montaj și pentru punerea în funcțiune, inclusiv pentru calibrarea de capacitate?\nÎntrebarea 59: Ce entitate execută efectiv lucrarea pe teritoriul României, în ce limbă lucrează tehnicianul și în cât timp de la livrare poate fi programată intervenția?\nÎntrebarea 60: Se emite un proces-verbal de punere în funcțiune și de la ce dată curge perioada de garanție?\nÎntrebarea 61: Garanția este condiționată de executarea punerii în funcțiune și a mentenanței periodice de către un partener autorizat KSTAR și de menținerea conexiunii la platforma de monitorizare?\nÎntrebarea 62: Care este costul unui contract anual de mentenanță și ce timp de răspuns este asumat în România?\nÎntrebarea 63: Care sunt disponibilitatea și prețul pieselor de schimb critice, respectiv unitățile de stingere cu aerosol și cutia de declanșare, grupul de climatizare, modulul de baterii și placa BMU, și cine suportă costul transportului pieselor în perioada de garanție?\nCAPITOLUL XII. TERMEN DE RĂSPUNS\nSuntem pregătiți să confirmăm comanda imediat ce primim răspunsurile de mai sus, în special la întrebările 1, 2, 7, 8, 14, 15, 34, 36, 46, 50, 51 și 57. Vă rugăm să ne transmiteți răspunsul până cel târziu vineri, 26 septembrie 2026, astfel încât formalitățile să poată fi încheiate în interiorul termenului de valabilitate al ofertei, respectiv 30 septembrie 2026, cu menținerea prețului ofertat.\nVă mulțumim pentru colaborare și rămânem în așteptarea răspunsului dumneavoastră.\nCu deosebită considerație,\nCosmin Adrian Covaciu",
+      "truncated": false,
+      "labels": [
+        "SENT",
+        "1: To respond"
+      ],
+      "category": "fyi",
+      "folder": "Sebastian.b@kstar.com",
+      "thread_id": "<CAJyf=oqj=60cTD8+h58FtovgDRZ389dkXLr_8HbAnuuZPL4z+Q@mail.gmail.com>",
+      "is_read": true,
+      "is_sent": true,
+      "attachments": [],
+      "note": ""
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 1028
+}
+````
+
+## Asistent
+
+Am găsit cererea cu 63 de întrebări și răspunsul din 12 octombrie. KSTAR confirmă mai multe puncte utile, dar rămân neclarități importante privind energia utilizabilă, injecția tranzitorie în rețea, garanția și condițiile de plată. Verific și anexele: mesajul spune că sunt atașate, însă în evidența de email consultată nu apar.
+
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-c763d6fb-0ac5-4da7-84e1-4f78e5dc4327",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content 'C:\\\\Users\\\\User\\\\.codex\\\\plugins\\\\cache\\\\openai-curated-remote\\\\plugin-management\\\\0.1.0\\\\skills\\\\plugin-management\\\\SKILL.md'\"",
+  "cwd": "Z:\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+  "processId": null,
+  "source": "unifiedExecStartup",
+  "status": "failed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content 'C:\\Users\\User\\.codex\\plugins\\cache\\openai-curated-remote\\plugin-management\\0.1.0\\skills\\plugin-management\\SKILL.md'",
+      "name": "SKILL.md",
+      "path": "C:\\Users\\User\\.codex\\plugins\\cache\\openai-curated-remote\\plugin-management\\0.1.0\\skills\\plugin-management\\SKILL.md"
+    }
+  ],
+  "aggregatedOutput": "Failed to create unified exec process: CreateProcessWithLogonW failed: 267",
+  "exitCode": -1,
+  "durationMs": 0
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-eef6487e-3772-47f7-863a-496fe51d573b",
+  "server": "codex_apps",
+  "tool": "gmail.search_emails",
+  "status": "completed",
+  "arguments": {
+    "query": "from:sebastian.b@kstar.com after:2026/10/11 before:2026/10/14",
+    "max_results": 10
+  },
+  "appContext": {
+    "connectorId": "connector_2128aebfecb84f64a069897515042a44",
+    "linkId": "link_6a38f5a4dd8c819191ce1e9602a9a9dd",
+    "resourceUri": null,
+    "appName": "Gmail",
+    "actionName": "search_emails"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "emails": [
+        {
+          "id": "1a12f9945c01f7ea",
+          "thread_id": "1a12f9945c01f7ea",
+          "from_": "\"Sebastian B.\" sebastian.b@kstar.com",
+          "to": [
+            "Cosmin Covaciu covaciu.gnm@gmail.com"
+          ],
+          "cc": [],
+          "bcc": [],
+          "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+          "snippet": "Stimate domnule Cosmin Covaciu, Vă mulțumim pentru interesul acordat echipamentelor KSTAR și pentru analiza detaliată transmisă. Ca urmare a adresei dumneavoastră din data de 15.09.2026, vă prezentăm",
+          "labels": [
+            "UNREAD",
+            "Label_43901",
+            "IMPORTANT",
+            "CATEGORY_PERSONAL",
+            "INBOX"
+          ],
+          "has_attachment": false,
+          "attachments": [],
+          "inline_images": [],
+          "email_ts": "2026-10-12T18:12:06+08:00",
+          "display_url": "https://mail.google.com/mail/u/?authuser=covaciu.gnm%40gmail.com#all/1a12f9945c01f7ea",
+          "display_title": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii"
+        }
+      ],
+      "next_page_token": null
+    },
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 2186
+}
+````
+
+## Asistent
+
+Am verificat cererea trimisă pe **22 septembrie 2026**, cu cele 63 de întrebări, și [răspunsul lui Sebastian Babu din 12 octombrie](https://mail.google.com/mail/u/?authuser=covaciu.gnm%40gmail.com#all/1a12f9945c01f7ea).
+
+**Răspunsul aduce clarificări utile, dar nu închide toate condițiile pe care le-ați pus înaintea confirmării comenzii.** Au păstrat numerotarea, însă mai multe răspunsuri sunt parțiale sau promit documente pentru mai târziu.
+
+**Problemele principale rămase:**
+
+| Punct | Ce au răspuns | Ce rămâne de clarificat |
+|---|---|---|
+| **Energia bateriei — întrebarea 2** | Energia nominală și utilizabilă ar fi ambele **100,48 kWh**. | Nu se corelează explicit cu limita recomandată de **95% DoD**. Dacă 100,48 kWh este energia nominală, 95% înseamnă **95,456 kWh**, înaintea pierderilor de conversie. Trebuie separate clar energia nominală, energia utilizabilă și energia livrată în c.a. |
+| **Celulele — 7–11** | EVE, noi, clasa A; regim 0,5C. | Lipsesc modelul exact, confirmarea explicită a capacității de 314 Ah, configurația serie/paralel, tensiunile și curenții. Data fabricației este amânată până la alocare, fără vechime maximă asumată. Refuză fișa celulei și datele de sortare, invocând confidențialitatea. |
+| **Garanția de performanță — 14–18** | 8.000 de cicluri la 95% DoD și 25°C; minimum 70% SoH la „10 ani sau cel puțin 8.000 de cicluri”. | Formularea cu „sau” este ambiguă: care limită închide garanția? Lipsesc curba anuală, condițiile complete de testare și cine plătește testul în caz de reclamație. |
+| **Zero export — 36–38** | Funcție disponibilă; reglaj în „câteva secunde”; descărcarea se oprește dacă se pierde comunicația cu contorul. | **Nu confirmă cerința voastră de a nu injecta în niciun regim.** Nu cuantifică puterea injectată tranzitoriu și nici timpul maxim de reacție. |
+| **Raportul de fabrică — 45** | Vor transmite certificate generale și un model de raport. | Voi ați cerut raportul **echipamentului efectiv alocat**, înainte de expediere. Un model de raport nu satisface cererea. |
+| **Contractul și plata — 46–50** | Vor trimite Sales Agreement; condițiile vor fi negociate. | **Plata 30%/70% nu este încă acceptată.** Nu sunt stabilite termenul ferm, penalitățile, restituirea avansului, recepția și celelalte condiții solicitate. |
+| **Transportul — 51–56** | Confirmă camionetă de maximum 3,5 t și un singur transport; descărcarea vă revine. | Lipsesc masele brute și dimensiunile coletelor pentru verificarea transportului. Nu precizează capacitatea inelelor de ridicare sau posibilitatea deplasării cu transpaletul. Costul final al transportului rămâne deschis. |
+| **Asistența la montaj — 57–60** | Includ tehnician la punerea în funcțiune, estimată la o zi. | Voi ați cerut prezență fizică **și pe durata montajului**. Aceasta nu este confirmată. Nici procesul-verbal și data începerii garanției nu sunt precizate efectiv. |
+
+**Anexele lipsesc din mesajul verificat.** Am verificat și direct în Gmail: emailul nu are atașamente, deși textul spune că atașează fișa KAC50DP2, ghidul de montaj, documentele DGD și detaliile de expediție. Prin urmare, nu am putut valida nici aceste documente, nici certificatele, schemele și registrele Modbus promise.
+
+Mai sunt câteva diferențe importante:
+
+- **Consum propriu:** 1–2 kW pentru climatizare și „sub 1 kW” în standby nu răspund cererii privind consumul anual vară/iarnă. Randamentul de aproximativ 85% este o estimare declarată, nu un prag minim garantat.
+- **Funcționare autonomă:** confirmă posibilitatea repornirii manuale după oprirea completă. Răspunsul despre pornirea din fotovoltaic nu precizează puterea minimă sau dacă repornirea este automată în această situație.
+- **Calibrare:** cererea citează o procedură din manual cu descărcare la 100% DoD; răspunsul recomandă maximum 95% DoD și vorbește despre încărcare la 100%. Trebuie furnizată procedura aplicabilă modelului livrat.
+- **Conformitate:** promisiunea unor certificate „pentru UE” nu identifică documentul solicitat pentru racordare în România și nici întregul set enumerat de voi.
+- **Mentenanță:** „suportul de bază gratuit” nu clarifică prețul și conținutul mentenanței anuale. Termenele declarate de 48 de ore pentru răspuns și două săptămâni pentru înlocuire trebuie păstrate în documentele finale.
+
+**Ce au confirmat clar:** modelul BC100DE2A, montajul exterior, celulele EVE noi/clasa A, garanția oferită prin KSTAR, funcționarea locală fără cloud, funcțiile fără abonament și oprirea descărcării la pierderea comunicației cu contorul atunci când Zero Export este activ. Au indicat și tehnicianul pentru punerea în funcțiune: Vlad Stanciu, vorbitor de română.
+
+În cererea voastră există și o mică eroare de calendar: **26 septembrie 2026 a fost sâmbătă, nu vineri**. Mai important, valabilitatea ofertei era indicată până la **30 septembrie**, iar răspunsul a venit pe 12 octombrie. Este necesară reconfirmarea prețului și a valabilității.
+
+**Pe baza acestei comparații, condițiile voastre pentru confirmarea comenzii nu sunt încă îndeplinite.** Următorul răspuns ar trebui să ceară anexele efective, clarificarea punctelor de mai sus și un contract/proformă revizuite care să includă explicit angajamentele acceptate.
+
+## Asistent
+
+Este relevant pentru **câtă energie poți folosi efectiv din baterie și ce capacitate îți garantează furnizorul**.
+
+Cele trei valori descriu lucruri diferite:
+
+- **Energia nominală** este capacitatea declarată a bateriei.
+- **Energia utilizabilă** este partea pe care sistemul îți permite să o consumi, între limitele de încărcare și descărcare.
+- **Energia livrată în curent alternativ** este energia care ajunge efectiv la consumatori, după conversie și consumurile auxiliare aferente.
+
+În cazul răspunsului KSTAR, dacă **100,48 kWh este energia nominală**, iar descărcarea se limitează la **95% DoD**, calculul este:
+
+**100,48 × 95% = 95,456 kWh utilizabili din baterie**, înaintea pierderilor ulterioare.
+
+Diferența este de **5,024 kWh pe o descărcare completă permisă**. La un consum de 10 kW, aceasta reprezintă aproximativ **30 de minute de autonomie**, înainte de pierderi.
+
+**Nu înseamnă automat că răspunsul lor este greșit.** Ar putea exista o rezervă de capacitate necuprinsă în valoarea declarată sau o definiție diferită a energiei utilizabile. Dar ei nu explică acest lucru, iar formularea „nominală și utilizabilă = 100,48 kWh” rămâne ambiguă.
+
+Întrebarea utilă pentru ei este simplă: **„Cei 100,48 kWh reprezintă energia nominală sau energia efectiv utilizabilă la limita recomandată de 95% DoD? Ce valoare utilizabilă garantați și unde se măsoară?”**
+
+O precizare: randamentul **round-trip de 85%** menționat de ei acoperă întregul ciclu încărcare–descărcare; nu trebuie aplicat automat ca pierdere doar la descărcare.
+
+## Asistent
+
+Este relevant în primul rând pentru că **oferta și manualul primit descriu baterii diferite**: oferta menționează celule EVE de **314 Ah**, iar manualul celule de **280 Ah**. Clarificarea stabilește ce cumpărați efectiv și ce documentație se aplică.
+
+Totuși, punctele acestea nu au aceeași importanță:
+
+| Informație | La ce vă ajută |
+|---|---|
+| **Modelul celulei și capacitatea de 314 Ah** | Identifică exact componenta promisă și rezolvă diferența față de manual. „EVE, clasa A” nu identifică modelul sau capacitatea. |
+| **Configurația serie/paralel** | Permite verificarea coerenței dintre capacitatea celulelor, tensiunea bateriei și energia totală declarată. Este în principal o informație pentru verificarea tehnică. |
+| **Tensiunile și curenții de funcționare** | Îi permit proiectantului să verifice compatibilitatea cu convertorul și dimensionarea circuitului de baterie. Aceste date ar trebui să apară în documentația sistemului livrat. |
+
+**Mențiunea „0,5C” nu înlocuiește toate aceste informații.** Ea descrie un regim de încărcare/descărcare raportat la capacitatea bateriei; nu precizează singură tensiunile, curenții de vârf sau durata permisă a acestora.
+
+Pentru voi, care cumpărați un **sistem complet KSTAR**, aș nuanța observația mea inițială: **nu este obligatoriu să primiți toate detaliile interne ale celulelor pentru a accepta echipamentul**. Esențial este să primiți:
+
+- confirmarea că echipamentul livrat are celulele EVE de 314 Ah din ofertă;
+- fișa tehnică și manualul modelului efectiv livrat;
+- capacitatea utilizabilă, puterea și garanția asumate pentru întregul sistem.
+
+**Lipsa modelului exact al celulei este mai puțin importantă decât lipsa unei documentații corecte și a performanțelor garantate ale ansamblului.** Nu aș bloca achiziția doar pentru că nu divulgă detalii interne de fabricație.
+
+## Asistent
+
+**Da, dacă cei 100,48 kWh reprezintă energia nominală totală, iar limita de utilizare este 95% DoD, cele două valori trebuie să fie diferite:**
+
+- **Energie nominală:** 100,48 kWh.
+- **Energie utilizabilă la 95% DoD:** 95,456 kWh, înaintea pierderilor de conversie.
+
+În aceste condiții, afirmația lor că ambele sunt 100,48 kWh este **inconsecventă**, nu doar ambiguă. Ai dreptate: formularea mea a fost prea permisivă.
+
+O eventuală rezervă internă ar necesita o explicație explicită și o capacitate totală mai mare; nu putem presupune că există.
+
+## Asistent
+
+Voi verifica fișele tehnice oficiale KSTAR, apoi voi redacta un email cald și politicos, concentrat pe energia utilizabilă și confirmarea celulelor din ofertă, împreună cu documentele și contractul cu plata 30%/70%.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-62af8654-43a6-4680-94ac-15ec36b261bc",
+  "query": "site.kstar.com BC100DE2A 100.48 314 datasheet ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.kstar.com BC100DE2A 100.48 314 datasheet",
+      "site.kstar.com KAC50DP2 BC100DE2A datasheet"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.kstar.com",
+      "ref_id": "turn0search0",
+      "snippet": "Kstar U series Datasheet Descargas ... KAC50DP-BC100DE Data Sheets Descargas",
+      "url": "https://www.kstar.com/es/ajax/download_ajax/0/0/0/2.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstar.com",
+      "ref_id": "turn0search1",
+      "snippet": "Kstar U series Datasheet 다운로드 ... KAC50DP-BC100DE Data Sheets 다운로드",
+      "url": "https://www.kstar.com/kr/ajax/download_ajax/0/0/0/2.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search12",
+      "snippet": "KAC20DP2 / KAC25DP2 / KAC29.9DP2 / KAC30DP2 / KAC40DP2 / KAC49.9DP2 / KAC50DP2BC80DE2A / BC100DE2A / BC120DE2A",
+      "title": "Datasheet_KAC(20_50)DP2-BC(80-120)DE2_EN_V1",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/Datasheet_KAC%2820_50%29DP2-BC%2880-120%29DE2_EN_V1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search2",
+      "snippet": "Certificate_KSTAR C&I ESS KAC50DP-BC100DE CEI0-21_Italy ... Datasheet_KAC(20~50)DP2-BC(80 100 120)DE2A_EN_V5",
+      "title": "Download Center",
+      "url": "https://www.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search13",
+      "snippet": "Technische Parameter Batterietyp | BC80DE2A LiFe (LiFePO4) | BC100DE2A None | BC120DE2A None --- | --- | --- | --- Technische Parameter Batteriemodulkapazität | BC80DE2A",
+      "title": "Datasheet_KAC(20_50)DP2-BC(80-120)DE2_DE_V1",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/Datasheet_KAC%2820_50%29DP2-BC%2880-120%29DE2_DE_V1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.kstarnewenergy.com",
+      "ref_id": "turn0search3",
+      "snippet": "2026 KSTAR Residential Brochure_DE_V1 ... Datasheet_KAC(20_50)DP2-BC(70-107)DE2_DE_V1",
+      "title": "Download-Center",
+      "url": "https://de.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstar.com",
+      "ref_id": "turn0search4",
+      "snippet": "﻿ Sistema de Almacenamiento de Energía Comercial-KSTAR iframe ... BC100DE KAC50DP-BC100DE KAC50DP C&I KESS20HG/40HG",
+      "url": "https://www.kstar.com/es/product/index/188.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "ua.kstarnewenergy.com",
+      "ref_id": "turn0search5",
+      "snippet": "KSTAR Case Study_UNEI_100kW C&I ESS_BluePulse_Spain_2024 ... Datasheet_KAC(20~50)DP2_BC(80~120)DE2A_AU_V1",
+      "title": "KSTAR New Energy",
+      "url": "https://ua.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search14",
+      "snippet": "3 4 | Rated capacity Rated energy | 314Ah 20.09kWh --- | --- | --- 3 5 | Rated capacity Rated charging voltage | 314Ah",
+      "title": "BC120DE2A series",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/INSTALLATION%20AND%20OPERATION%20MANUAL%20for%20BC120DE2A%20series.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search15",
+      "snippet": "<th>KAC50DP2</th> ... 1000 Vdc)</td> ... <td colspan=\"7\">45 A</td> ... KSTAR",
+      "title": "Datasheet_KAC(20_50)DP2-BC(70-107)DE2_EN_V1",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/Datasheet_KAC%2820_50%29DP2-BC%2870-107%29DE2_EN_V1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search16",
+      "snippet": "Operation Altitude | KAC20DP2 4000 m (> 3000 m Derating) | KAC25DP2 None | KAC29.9DP2 None | KAC30DP2 None | KAC40DP2 None | KAC49.9DP2 None",
+      "title": "Unlock new business mode independently",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/2026%20KSTAR%20C%26I%20Brochure_EN_V1.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search6",
+      "snippet": "- Datasheet_KAC(20-50)DP2-BC(70-107)DE2_KR_V1 ... - 4257-2137_BC107DE2 Kstar User Manual（EN）_2025.07.03 (1)",
+      "title": "BluePulse Air-cooling Battery System 20-50kW / BC70-107kWh",
+      "url": "https://www.kstarnewenergy.com/products/energy-storage-systems/commercial-energy-storage-systems/bluepulse-series-20kw-50kw---70-107kwh.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search17",
+      "snippet": "AC Continuous Input | KAC20DP2 64 A | KAC25DP2 80 A | KAC29.9DP2 87 A | KAC30DP2 96 A | KAC40DP2 128 A | KAC49.9DP2",
+      "title": "Datasheet_KAC(20-50)DP2-BC(70-107)DE2_EN_V2",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/Datasheet_KAC%2820-50%29DP2-BC%2870-107%29DE2_EN_V2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstar.com",
+      "ref_id": "turn0search7",
+      "snippet": "﻿ Technical Resources & Downloads | KSTAR-KSTAR iframe",
+      "url": "https://www.kstar.com/download/"
+    },
+    {
+      "type": "text_result",
+      "domain": "br.kstarnewenergy.com",
+      "ref_id": "turn0search8",
+      "snippet": "Image: KAC20DP2 / KAC25DP2 / KAC29.9DP2 / KAC30DP2 / KAC40DP2 / KAC49.9DP2 / KAC50DP2 BC80DE2A / BC100DE2A / BC120DE2A ... - Warranty of Kstar C&I",
+      "title": "BluePulse Sistema de baterias com resfriamento a ar de 20–50 kW / BC80–120 kWh",
+      "url": "https://br.kstarnewenergy.com/products/sistemas-de-armazenamento-de-energia/sistemas-de-armazenamento-de-energia-comercial/bluepulse-serie-20-50kw---80-120kwh.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "es.kstarnewenergy.com",
+      "ref_id": "turn0search9",
+      "snippet": "Kstar_CATL_BC-PACK-17.9-20S-140A_MH_Sea ... Datasheet_KAC(20_50)DP2-BC(80-120)DE2A_ES_V1",
+      "title": "Centro de descargas",
+      "url": "https://es.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "au.kstarnewenergy.com",
+      "ref_id": "turn0search10",
+      "snippet": "Safety Data Sheet_KSTAR_BC70DE2 ... Datasheet_KAC(20~50)DP2_BC(80~120)DE2A_AU_V1",
+      "title": "Download Center",
+      "url": "https://au.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn0search11",
+      "snippet": "Three Phase All-in-one GSM Series 2500-3125kW On-grid / 2500–3125kW BluE-G 1000S~3200S On-grid / 1–3 kW Three Phase Centralized Inverter GSM Series 2500-3125kW On-grid / 2500–3125kW",
+      "title": "Product Center",
+      "url": "https://www.kstarnewenergy.com/products.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-7dd070be-c6bb-409a-ab2e-6591870c64e3",
+  "query": "https://www.kstarnewenergy.com/support.html",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.kstarnewenergy.com/support.html"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 5406",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/AngqBWqNfzRcRtqdQYUF9NLRmZ-XaFzt01LPUduUnG66WML2ZIIMdt94VL9L8YU47urGnkDXq31dd5PKtUjmMQfxQvI38NLbraeIb3MjUys",
+      "title": "Download Center",
+      "url": "https://www.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 1986",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/INSTALLATION%20AND%20OPERATION%20MANUAL%20for%20BC120DE2A%20series.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-9cd3af4c-e8c0-46c7-96e9-dba0a1aab48b",
+  "query": "'80 100 120'",
+  "action": {
+    "type": "findInPage",
+    "url": null,
+    "pattern": "80 100 120"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 5406",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/JefIOh-eUWJDtCns72Xe1h5UlZDTOv_5-UX4K7n_brx4qXdkwQhi1cXgcBH2HWA4UTVznGrSwBA2cGmq8dCF66VKu2VwMiPQ_nYbU9NR-bw",
+      "title": "Download Center",
+      "url": "https://www.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn2view1",
+      "snippet": "Total lines: 1986",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/INSTALLATION%20AND%20OPERATION%20MANUAL%20for%20BC120DE2A%20series.pdf"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-e461839b-db58-40d6-afb1-399972f76911",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn3view0",
+      "snippet": "Total lines: 204",
+      "title": "Datasheet_KAC(20~50)DP2-BC(80 100 120)DE2A_26_V5",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/Datasheet_KAC%2820~50%29DP2-BC%2880%20100%20120%29DE2A_EN_V5.pdf"
+    },
+    {
+      "type": "text_result",
+      "ref_id": "turn3view1",
+      "snippet": "Total lines: 1",
+      "title": "Internal Error"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-aad3e3b6-65dd-4fa4-a5f1-0227cae8da1d",
+  "query": "",
+  "action": {
+    "type": "other"
+  },
+  "results": []
+}
+````
+
+## Asistent
+
+Fișa oficială KSTAR V5 confirmă 100,48 kWh capacitate totală, 95% DoD și celule de 314 Ah; publică deja și tensiunile și curentul standard. Voi cere doar confirmarea energiei utilizabile și că echipamentul livrat corespunde acestei fișe, cu celule EVE de 314 Ah, fără solicitări de date interne suplimentare.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-00498d2a-33b8-4a98-a469-c615ded0fffa",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_create_draft",
+  "status": "completed",
+  "arguments": {
+    "reply_to_email_id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+    "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\n\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am consultat și fișa tehnică oficială KSTAR pentru seria KAC(20–50)DP2 – BC80/100/120DE2A, versiunea 202607-V5, și vă rugăm să ne mai ajutați cu două scurte confirmări, pentru a avea aceleași date în documentație și în contract:\n\n1. Energia nominală și energia utilizabilă\nFișa oficială indică pentru BC100DE2A o capacitate totală de 100,48 kWh și un DoD de 95%, în timp ce în răspunsul la întrebarea 2 valoarea de 100,48 kWh este menționată atât pentru energia nominală, cât și pentru cea utilizabilă. Înțelegerea noastră este că, la 95% DoD, energia utilizabilă din baterie ar fi de aproximativ 95,46 kWh, înaintea pierderilor de conversie. Vă rugăm să confirmați această interpretare sau să ne indicați valoarea utilizabilă aplicabilă echipamentului livrat.\n\n2. Celulele și documentația modelului livrat\nVă mulțumim pentru confirmarea că celulele sunt EVE, noi, clasa A și la prima utilizare. Fișa oficială a seriei indică celule de 314 Ah. Vă rugăm doar să confirmați că BC100DE2A alocat comenzii noastre este echipat cu celule EVE de 314 Ah, conform ofertei, și că parametrii săi corespund fișei oficiale aplicabile acestui model. Această confirmare, împreună cu documentația oficială a echipamentului, este suficientă pentru noi, având în vedere că manualul primit inițial se referea la BC107DE2, cu celule de 280 Ah.\n\nAșteptăm cu interes și documentele menționate în răspunsul dumneavoastră: fișele tehnice și manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\n\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\n\nNe dorim să încheiem aceste ultime clarificări și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\n\nCu deosebită considerație,",
+    "include_original_attachments": false
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_create_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"d091e483-4942-4b33-8254-62e91b85eba3\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n  \"account_email\": \"covaciu.gnm@gmail.com\",\n  \"to\": [\n    \"sebastian.b@kstar.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n  \"body\": \"Bună ziua, domnule Babu,\\n\\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\\n\\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am consultat și fișa tehnică oficială KSTAR pentru seria KAC(20–50)DP2 – BC80/100/120DE2A, versiunea 202607-V5, și vă rugăm să ne mai ajutați cu două scurte confirmări, pentru a avea aceleași date în documentație și în contract:\\n\\n1. Energia nominală și energia utilizabilă\\nFișa oficială indică pentru BC100DE2A o capacitate totală de 100,48 kWh și un DoD de 95%, în timp ce în răspunsul la întrebarea 2 valoarea de 100,48 kWh este menționată atât pentru energia nominală, cât și pentru cea utilizabilă. Înțelegerea noastră este că, la 95% DoD, energia utilizabilă din baterie ar fi de aproximativ 95,46 kWh, înaintea pierderilor de conversie. Vă rugăm să confirmați această interpretare sau să ne indicați valoarea utilizabilă aplicabilă echipamentului livrat.\\n\\n2. Celulele și documentația modelului livrat\\nVă mulțumim pentru confirmarea că celulele sunt EVE, noi, clasa A și la prima utilizare. Fișa oficială a seriei indică celule de 314 Ah. Vă rugăm doar să confirmați că BC100DE2A alocat comenzii noastre este echipat cu celule EVE de 314 Ah, conform ofertei, și că parametrii săi corespund fișei oficiale aplicabile acestui model. Această confirmare, împreună cu documentația oficială a echipamentului, este suficientă pentru noi, având în vedere că manualul primit inițial se referea la BC107DE2, cu celule de 280 Ah.\\n\\nAșteptăm cu interes și documentele menționate în răspunsul dumneavoastră: fișele tehnice și manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\\n\\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\\n\\nNe dorim să încheiem aceste ultime clarificări și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\\n\\n\\nCu deosebită considerație,\\n\\nBest regards,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n  \"created_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"updated_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "d091e483-4942-4b33-8254-62e91b85eba3",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+      "account_email": "covaciu.gnm@gmail.com",
+      "to": [
+        "sebastian.b@kstar.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+      "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\n\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am consultat și fișa tehnică oficială KSTAR pentru seria KAC(20–50)DP2 – BC80/100/120DE2A, versiunea 202607-V5, și vă rugăm să ne mai ajutați cu două scurte confirmări, pentru a avea aceleași date în documentație și în contract:\n\n1. Energia nominală și energia utilizabilă\nFișa oficială indică pentru BC100DE2A o capacitate totală de 100,48 kWh și un DoD de 95%, în timp ce în răspunsul la întrebarea 2 valoarea de 100,48 kWh este menționată atât pentru energia nominală, cât și pentru cea utilizabilă. Înțelegerea noastră este că, la 95% DoD, energia utilizabilă din baterie ar fi de aproximativ 95,46 kWh, înaintea pierderilor de conversie. Vă rugăm să confirmați această interpretare sau să ne indicați valoarea utilizabilă aplicabilă echipamentului livrat.\n\n2. Celulele și documentația modelului livrat\nVă mulțumim pentru confirmarea că celulele sunt EVE, noi, clasa A și la prima utilizare. Fișa oficială a seriei indică celule de 314 Ah. Vă rugăm doar să confirmați că BC100DE2A alocat comenzii noastre este echipat cu celule EVE de 314 Ah, conform ofertei, și că parametrii săi corespund fișei oficiale aplicabile acestui model. Această confirmare, împreună cu documentația oficială a echipamentului, este suficientă pentru noi, având în vedere că manualul primit inițial se referea la BC107DE2, cu celule de 280 Ah.\n\nAșteptăm cu interes și documentele menționate în răspunsul dumneavoastră: fișele tehnice și manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\n\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\n\nNe dorim să încheiem aceste ultime clarificări și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\n\n\nCu deosebită considerație,\n\nBest regards,\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+      "created_at": "2026-10-13T14:36:54.631326Z",
+      "updated_at": "2026-10-13T14:36:54.631326Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 2803
+}
+````
+
+## Asistent
+
+Am verificat [fișa oficială KSTAR V5](https://www.kstarnewenergy.com/DOWNLOADS/Datasheet_KAC%2820~50%29DP2-BC%2880%20100%20120%29DE2A_EN_V5.pdf): indică **100,48 kWh capacitate totală, 95% DoD și celule de 314 Ah**. Am salvat răspunsul în **EVA → Drafts**, fără să îl trimit.
+
+:::writing{variant="email" id="59381" subject="Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW – clarificări finale și contract"}
+Bună ziua, domnule Babu,
+
+Vă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.
+
+Clarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am consultat și fișa tehnică oficială KSTAR pentru seria KAC(20–50)DP2 – BC80/100/120DE2A, versiunea 202607-V5, și vă rugăm să ne mai ajutați cu două scurte confirmări, pentru a avea aceleași date în documentație și în contract:
+
+**1. Energia nominală și energia utilizabilă**
+
+Fișa oficială indică pentru BC100DE2A o capacitate totală de 100,48 kWh și un DoD de 95%, în timp ce în răspunsul la întrebarea 2 valoarea de 100,48 kWh este menționată atât pentru energia nominală, cât și pentru cea utilizabilă. Înțelegerea noastră este că, la 95% DoD, energia utilizabilă din baterie ar fi de aproximativ 95,46 kWh, înaintea pierderilor de conversie. Vă rugăm să confirmați această interpretare sau să ne indicați valoarea utilizabilă aplicabilă echipamentului livrat.
+
+**2. Celulele și documentația modelului livrat**
+
+Vă mulțumim pentru confirmarea că celulele sunt EVE, noi, clasa A și la prima utilizare. Fișa oficială a seriei indică celule de 314 Ah. Vă rugăm doar să confirmați că BC100DE2A alocat comenzii noastre este echipat cu celule EVE de 314 Ah, conform ofertei, și că parametrii săi corespund fișei oficiale aplicabile acestui model. Această confirmare, împreună cu documentația oficială a echipamentului, este suficientă pentru noi, având în vedere că manualul primit inițial se referea la BC107DE2, cu celule de 280 Ah.
+
+Așteptăm cu interes și documentele menționate în răspunsul dumneavoastră: fișele tehnice și manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.
+
+În paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: **30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere**, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.
+
+Ne dorim să încheiem aceste ultime clarificări și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.
+
+Cu deosebită considerație,  
+Cosmin Adrian Covaciu
+:::
+
+## Asistent
+
+Voi verifica pe paginile oficiale KSTAR, EVE și CATL ce producător este asociat variantei de 280 Ah și la ce categorie se referă afirmația „numărul 1”.
+
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-864a83e6-9411-4cca-971d-2a5730647962",
+  "query": "site.kstarnewenergy.com BC107DE2 CATL 280 ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.kstarnewenergy.com BC107DE2 CATL 280",
+      "site.evebattery.com energy storage ranking 2025 second",
+      "site.catl.com 2025 energy storage battery market share first"
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.catl.com",
+      "ref_id": "turn5search0",
+      "snippet": "• Lithium-ion battery sales rose to 661 GWh, up 39%, with CATL maintaining the world's largest power battery market share at 39.2% for the ninth",
+      "title": "Zero-Carbon Technology Powers “All-Domain Growth”: CATL Releases 2025 Annual Report",
+      "url": "https://www.catl.com/en/news/6773.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn5search1",
+      "snippet": "Kstar_BC107DE2_CATL_Cell_MH_Road ... Warranty of Kstar C&I ESS Products-Standard-280Ah-V2.8.6-20260120",
+      "title": "Download Center",
+      "url": "https://www.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn5search12",
+      "snippet": "3 | Item Rated capacity | Characteristic 280Ah NO. ... 4 | Item Rated energy | Characteristic 17.92kWh（BC107DE2 series） 16.12kWh（BC96DE2-AU series）11",
+      "title": "BC107DE2/BC96DE2-AU series",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/INSTALLATION%20AND%20OPERATION%20MANUAL%20for%20BC107DE2_BC96DE2-AU%20series.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn5search13",
+      "snippet": "BluePulse Series NEW ... BC70DE2 / BC89DE2 / BC107DE2 ... ▶ 280ah large capacity cell, higher energy density ... <tr><td>Installation Site</td><td colspan=\"3\">Outdoor</td></tr>",
+      "title": "2026 KSTAR C&I Brochure_EN_V2_0327",
+      "url": "https://www.kstarnewenergy.com/DOWNLOADS/2026%20KSTAR%20C%26I%20Brochure_EN_V2.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn5search2",
+      "snippet": "At the core of KSTAR's C&I showcase was the BluePulse Series KAC50DP-BC107DE, an all-in-one energy storage solution built for performance and scalability.Available in 70/89/107 kWh",
+      "title": "KSTAR Showcases Advanced Clean Energy Solutions at ASIA Sustainable Energy Week 2025",
+      "url": "https://www.kstarnewenergy.com/news/kstar-showcases-advanced-clean-energy-solutions-at-asia-sustainable-energy-week-2025.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.catl.com",
+      "ref_id": "turn5search14",
+      "snippet": "power systems, power demand from data centers, advancements in energy storage ... Research, the EV battery usage of the Company achieved a global market share",
+      "title": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility",
+      "url": "https://www.catl.com/en/uploads/1/file/public/202507/20250730231151_fuityq6ysb.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.catl.com",
+      "ref_id": "turn5search3",
+      "snippet": "According to SNE Research, the consumption volume of CATL’s EV battery has ranked first in the world for seven consecutive years from 2017 to 2023,",
+      "title": "CATL achieves faster profit growth in Q2, with market share growing steadily",
+      "url": "https://www.catl.com/en/news/6278.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.catl.com",
+      "ref_id": "turn5search15",
+      "snippet": "In 2024, FTM energy storage accounted for over 75% of global ESS battery shipments. ... In China, government authorities including the NDRC and the NEA",
+      "title": "INDUSTRY OVERVIEW",
+      "url": "https://www.catl.com/en/uploads/1/file/public/202505/20250512071033_9of2dqw816.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn5search4",
+      "snippet": "Three Phase All-in-one GSM Series 2500-3125kW On-grid / 2500–3125kW BluE-G 1000S~3200S On-grid / 1–3 kW Three Phase Centralized Inverter GSM Series 2500-3125kW On-grid / 2500–3125kW",
+      "title": "Product Center",
+      "url": "https://www.kstarnewenergy.com/products.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.catl.com",
+      "ref_id": "turn5search5",
+      "snippet": "CATL is a global leader in zero-carbon new energy technology, committed to providing first-class solutions and services for global new energy applications, building a zero-carbon",
+      "title": "Company Profile",
+      "url": "https://www.catl.com/en/about/profile/?_sp=b96405a6-06a5-40eb-ac96-2620ff197f0e"
+    },
+    {
+      "type": "text_result",
+      "domain": "es.kstarnewenergy.com",
+      "ref_id": "turn5search6",
+      "snippet": "KS2504S1964B04_Kstar_BC107DE2_CATL_Cell_MSDS_EN_CN_Hazardous_Signed",
+      "title": "Centro de descargas",
+      "url": "https://es.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.catl.com",
+      "ref_id": "turn5search16",
+      "snippet": "global power battery usage volume was 1,187GWh in 2025, a year-on-year increase of ... global energy storage market is experiencing rapid growth. ... energy storage",
+      "title": "寧德時代新能源科技股份有限公司",
+      "url": "https://www.catl.com/en/uploads/1/file/public/202603/20260311182739_3924pj798y.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "au.kstarnewenergy.com",
+      "ref_id": "turn5search7",
+      "snippet": "Safety Data Sheet_KSTAR_BC70DE2 ... WARRANTY CONDITIONS - V1.2 For KSTAR C&I ESS products-Battery (Australia & New Zealand) ... Datasheet_KAC(20~50)DP2_BC(70~107)DE2_AU_V1",
+      "title": "Download Center",
+      "url": "https://au.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.catl.com",
+      "ref_id": "turn5search8",
+      "snippet": "* CATL Achieves Breakthrough in Lithium Metal Battery Research, Published in Nature Nanotechnology 5/28/2025 ... * CATL Launches World's First 9MWh Ultra-Large Capacity TENER Stack",
+      "title": "News",
+      "url": "https://www.catl.com/en/news/index_14.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "sneresearch.com",
+      "ref_id": "turn5search9",
+      "snippet": "Battery, Energy Storage System# Global LIB ESS Market Reaches 550 GWh in 2025; CATL Ranks 1st with 30% Market Share",
+      "title": "Press Release - Insight -SNE Research",
+      "url": "https://sneresearch.com/en/insight/release_view/583/page/0"
+    },
+    {
+      "type": "text_result",
+      "domain": "br.kstarnewenergy.com",
+      "ref_id": "turn5search10",
+      "snippet": "No centro da apresentação C&I da KSTAR estava a série BluePulse KAC50DP-BC107DE, uma solução de armazenamento de energia all-in-one desenvolvida para desempenho e escalabilidade.Disponível nas",
+      "title": "KSTAR apresenta soluções avançadas de energia limpa na Semana de Energia Sustentável da Ásia 2025",
+      "url": "https://br.kstarnewenergy.com/news/kstar-apresenta-solucoes-avancadas-de-energia-limpa-na-semana-de-energia-sustentavel-da-asia-2025.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evebattery.com",
+      "ref_id": "turn5search11",
+      "snippet": "EVE Open Source Battery: AI Battery Debuts at IAA TRANSPORTATION 2026 ... May 07,2025 EVE Energy & SPIC Yunnan International's 500MW/1000MWh Shared Energy Storage Project",
+      "title": "News-EVE",
+      "url": "https://www.evebattery.com/en/news_4"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn5search17",
+      "snippet": "CATL is the biggest EV and energy storage battery manufacturer in the world, with a global market share of around 37% and 36.8% in 2022",
+      "title": "CATL",
+      "url": "https://en.wikipedia.org/wiki/CATL"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn5search18",
+      "snippet": "According to a study done by SNE Research in 2024, Eve Energy was the 9th largest electric vehicle battery maker worldwide with 2.3% market share,",
+      "title": "EVE Energy",
+      "url": "https://en.wikipedia.org/wiki/EVE_Energy"
+    },
+    {
+      "type": "text_result",
+      "domain": "ru.wikipedia.org",
+      "ref_id": "turn5search19",
+      "snippet": "По итогам первого квартала 2025 год CATL являлся крупнейшим производителем аккумуляторов для электромобилей (38,3 % мирового рынка), значительно опережая своих ближайших конкурентов — китайскую BYD",
+      "title": "Contemporary Amperex Technology",
+      "url": "https://ru.wikipedia.org/wiki/Contemporary_Amperex_Technology"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit20",
+      "snippet": "I've been following the EV battery space for a while and CATL's 2025 annual report came out on March 9 with numbers that genuinely surprised",
+      "title": "CATL posted $10.4 billion in net profit last year and I barely see it discussed here",
+      "url": "https://www.reddit.com/r/stocks/comments/1s4xr0a/catl_posted_104_billion_in_net_profit_last_year/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit21",
+      "snippet": "As reported by SNE Research, a South Korean research firm, CATL ranked first with 36.5% shares in the global energy storage battery shipments of 2024",
+      "title": "If They Know They're Cannon Fodder, Why Are Lithium Battery Makers Rushing Into the Big Cell Battle?",
+      "url": "https://www.reddit.com/r/u_Alert-Broccoli-3500/comments/1letbxx"
+    },
+    {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn5search22",
+      "snippet": "Homepage: www.evebattery.com ... Seit September 2025 stellt EVE Festkörperbatterie n für Drohnen und humanoide Roboter her. ... - EVE Energy placed second in 1Q 24",
+      "title": "EVE Energy",
+      "url": "https://de.wikipedia.org/wiki/EVE_Energy"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn5academia23",
+      "snippet": "Date: Mon Sep 22 17:56:26 2025This article presents a mixed-integer second-order cone programming model to determine the optimal sizing of a community-shared photovoltaic and battery",
+      "title": "Optimal Sizing of Community Photovoltaic and Battery Energy Storage Systems with Second-Life Batteries in Peer-to-Peer Energy Communities",
+      "url": "https://arxiv.org/abs/2509.18082"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit24",
+      "snippet": "CATL (HKG: 3750) and BYD (HKG: 1211) continued to dominate the global electric vehicle (EV) battery market during January-August, according to latest data. ... The",
+      "title": "Global EV battery market share in Jan-Aug 2025: CATL 36.8% (254.5 GWh) BYD 18.0% (124.8 GWh)",
+      "url": "https://www.reddit.com/r/electricvehicles/comments/1obzioi"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn5search25",
+      "snippet": "SVOLT Energy Technology Co., Ltd () is a Chinese battery manufacturing subsidiary of Great Wall Motor spun off in 2018 that specializes in developing and",
+      "title": "SVOLT",
+      "url": "https://en.wikipedia.org/wiki/SVOLT"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn5search26",
+      "snippet": "By 2025, global grid battery power capacity was 267 GW with 610 GWh energy capacity, compared to the other major form of grid storage, pumped-storage",
+      "title": "Battery energy storage system",
+      "url": "https://en.wikipedia.org/wiki/Battery_energy_storage_system"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit27",
+      "snippet": "Three things explain that: storage batteries (which sell for less) now make up 25% of shipments, up from 17%; storage pricing lags EV battery pricing",
+      "title": "CATL's Q2: The Battery Boom Is Real — But So Is the Margin Squeeze",
+      "url": "https://www.reddit.com/r/u_Dolphin_research/comments/1v7wtwy/catls_q2_the_battery_boom_is_real_but_so_is_the/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit28",
+      "snippet": "> According to CATL, as its first strategic partner for energy storage sodium batteries, HyperStrong will collaborate with the battery giant in technology research and",
+      "title": "CATL secures world's largest sodium-ion battery order with 60 GWh deal",
+      "url": "https://www.reddit.com/r/electricvehicles/comments/1sx6okt/catl_secures_worlds_largest_sodiumion_battery/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit29",
+      "snippet": "CATL is the world’s top battery maker — with about 40% of global EV battery installs, roughly the same as the next five competitors combined,",
+      "title": "Betting on battery storage CATL 3750.HK",
+      "url": "https://www.reddit.com/r/ValueInvesting/comments/1ul7868/betting_on_battery_storage_catl_3750hk/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit30",
+      "snippet": "The global battery industry keeps compounding on the back of **energy storage + EVs**. ... * **2025 total battery demand:** \\~**19,163 GWh** (**+26% YoY**) ...",
+      "title": "Battery Sector: Global demand stays strong — CATL (3750 HK) & CALB (3931 HK) look best-positioned among EV names",
+      "url": "https://www.reddit.com/r/ChinaStocks/comments/1n9pdht"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit31",
+      "snippet": "- 44% of produced batteries were installed in vehicles (the rest went into Energy storage batteries and other industrial battery applications) ... - CATL has",
+      "title": "China’s EV battery output hits 1.1 TWh in the first nine months of 2025, up 44% year-on-year",
+      "url": "https://www.reddit.com/r/peakoil/comments/1oct4pm/chinas_ev_battery_output_hits_11_twh_in_the_first/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit32",
+      "snippet": "Storage systems were 53.26 billion yuan of first half revenue, up 87.5%, about 19% of the group's 276.9 billion, but nothing in the reporting splits",
+      "title": "What CATL's batteries actually do inside a Shanghai AI data centre, and why calling it backup power misses it",
+      "url": "https://www.reddit.com/r/stocks/comments/1w6eohk/what_catls_batteries_actually_do_inside_a/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit33",
+      "snippet": "**Battery Market Dynamics: CATL’s Continuous Advancements, Alongside Industry-Wide Production Expansion** ... Meanwhile, global energy storage battery shipments are estimated to surge from 2022 to 202",
+      "title": "Analysis on the Recent Development and Competition Landscape in the Energy Storage Industry Chain",
+      "url": "https://www.reddit.com/r/EnergyStorage/comments/15zx0s1"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit34",
+      "snippet": "Driven by strong sales growth, the overall electrification rate of the heavy-duty truck sector rose to 20.5% in 2025, an increase of 11.3 percentage points",
+      "title": "China Electric Heavy-Duty Truck Penetration Tops 20% in 2025, CATL Leads in Battery Supply.",
+      "url": "https://www.reddit.com/r/electricvehicles/comments/1r9r8cd/china_electric_heavyduty_truck_penetration_tops/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn5reddit35",
+      "snippet": "Chinese battery makers announced plans in early 2026 to add over 600 GWh of new production capacity for the energy storage system (ESS) market, with",
+      "title": "Chinese battery companies are expanding production capacity to 900 GWh per year, mainly for Battery Energy Storage",
+      "url": "https://www.reddit.com/r/climatechange/comments/1sn2p5h/chinese_battery_companies_are_expanding/"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn5academia36",
+      "snippet": "Title: Economic Optimal Power Management of Second-Life Battery Energy Storage Systems ... Date: Thu Aug 29 01:32:23 2024",
+      "title": "Economic Optimal Power Management of Second-Life Battery Energy Storage Systems",
+      "url": "https://arxiv.org/abs/2408.16197"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-26da1df1-bd20-4ea7-bc66-23e547dcf33b",
+  "query": "site.evebattery.com \"2025\" \"second\" \"storage\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.evebattery.com \"2025\" \"second\" \"storage\"",
+      "site.evebattery.com \"280Ah\" \"314Ah\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.evebattery.com",
+      "ref_id": "turn6search0",
+      "snippet": "# EVE Energy appeared at the 2025 High-tech Energy Storage Industry Summit to jointly usher in a new era of energy storage ... As a",
+      "title": "EVE Energy appeared at the 2025 High-tech Energy Storage Industry Summit to jointly usher in a new era of energy storage-News-EVE",
+      "url": "https://www.evebattery.com/en/news-1872"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evebattery.com",
+      "ref_id": "turn6search1",
+      "snippet": "Construction officially began on August 7, 2023; The second phase is an energy storage project.On January 15, 2024, a memorandum of understanding was signed in",
+      "title": "The first stop of global layout, the construction of EVE’s Malaysia factory is steadily advancing!-News-EVE",
+      "url": "https://www.evebattery.com/en/news-1813"
+    },
+    {
+      "type": "text_result",
+      "domain": "lfp-battery.com",
+      "ref_id": "turn6search2",
+      "snippet": "# EVE Battery Supplier ... ### Is LF280K the same as every EVE 280Ah cell? ... Product Name:EVE MB31 3.2V 314AH Shell Material：Al Rated capacity:314Ah",
+      "title": "EVE Battery Supplier | LF and MB Cell Sourcing",
+      "url": "https://lfp-battery.com/eve-battery-supplier.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evebatteries.co.uk",
+      "ref_id": "turn6search3",
+      "snippet": "3.2V | 314Ah | 8000 Cycles ... Image: Primary Lithium Battery ... EVE Batteries UK ... 3.2V | 280Ah | 8000 Cycles",
+      "title": "EVE Batteries UK | EVE MB31 | EVE LF280K",
+      "url": "https://www.evebatteries.co.uk/"
+    },
+    {
+      "type": "text_result",
+      "domain": "disc.static.szse.cn",
+      "ref_id": "turn6search12",
+      "snippet": "In 2025, EVE ranked second globally in energy storage battery shipments and sixth globally in power battery shipments.",
+      "title": "2025年亿纬锂能可持续发展报告-英文最终版z-3.27",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-03-28/6a9cf8eb-182f-4a15-8478-8abb82338aa9.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "www1.hkexnews.hk",
+      "ref_id": "turn6search13",
+      "snippet": "Note: 280Ah ESS battery, 314Ah ESS battery and 5MWh liquid-cooling energy storage system have achieved mass ... production in the second half of 2025.",
+      "title": "THIS DOCUMENT IS IN DRAFT FORM, INCOMPLETE AND SUBJECT TO CHANGE AND THE INFORMATION MUST BE",
+      "url": "https://www1.hkexnews.hk/app/sehk/2025/107228/a122505/sehk25032501784.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.energy-storage.news",
+      "ref_id": "turn6search4",
+      "snippet": "EVE Energy, which had held second place in 2024, dropped to third but remains strongly competitive: in 2025 the company secured more than ten cell",
+      "title": "2025 BESS cell and system shipments: BYD takes BESS crown, no Korean firms in top 10 cell suppliers - Energy-Storage.News",
+      "url": "https://www.energy-storage.news/2025-bess-cell-and-system-shipments-byd-takes-bess-crown-no-korean-firms-in-top-10-cell-suppliers/?jet_blog_ajax=1&nocache=1783615640"
+    },
+    {
+      "type": "text_result",
+      "domain": "evebatteryglobal.en.made-in-china.com",
+      "ref_id": "turn6search5",
+      "snippet": "Image: Eve 314ah LiFePO4 280ah 48V Lithium Battery Lithium Cell Battery Storage Battery for Home Solar Battery with Factory Price Image: Eve 314ah LiFePO4 280ah",
+      "title": "Eve 314ah LiFePO4 280ah 48V Lithium Battery Lithium Cell Battery Storage Battery for Home Solar Battery with Factory Price - 2026 Lithium Battery, Storage Battery price | Made-in-china.com",
+      "url": "https://evebatteryglobal.en.made-in-china.com/product/FmnYkhjdZSrU/China-Eve-314ah-LiFePO4-280ah-48V-Lithium-Battery-Lithium-Cell-Battery-Storage-Battery-for-Home-Solar-Battery-with-Factory-Price.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn6search6",
+      "snippet": "акумулятори LiFePo4 EVE 280AH, 314AH, 310AH, 200AH 3.2V EVE 92 ... o Install the battery in a dry, well-ventilated area, away from heat sources and",
+      "title": "акумулятори LiFePo4 EVE 280AH, 314AH, 310AH, 200AH 3.2V EVE 92 | PDF",
+      "url": "https://www.scribd.com/document/773749762/%D0%B0%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B8-LiFePo4-EVE-280AH-314AH-310AH-200AH-3-2V-EVE-92"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.xihobattery.com",
+      "ref_id": "turn6search7",
+      "snippet": "The 280Ah rated cell delivers a real tested capacity of up to 300Ah, with a 314Ah high-capacity version also available, guaranteeing no capacity attenuation and",
+      "title": "EVE 280Ah 3.2V LiFePo4 Prismatic Rechargeable Lithium Ion Battery",
+      "url": "https://www.xihobattery.com/products/eve-280ah-32v-lifepo4-prismatic-rechargeable-lithium-ion-battery"
+    },
+    {
+      "type": "text_result",
+      "domain": "bessmanufacturers.com",
+      "ref_id": "turn6search14",
+      "snippet": "Inside the numbers from China's second-largest ESS battery maker. ... EVE shipped 71.05 GWh of energy storage batteries in 2025, up 41 % year-on-year, ranking",
+      "title": "EVE Energy 2025 Annual Results: 71 GWh Shipped, Global #2 in Energy Storage — BESS Manufacturers",
+      "url": "https://bessmanufacturers.com/downloads/eve-energy-2025-annual-results-energy-storage.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.greensunbattery.com",
+      "ref_id": "turn6search8",
+      "snippet": "Home High Voltage(HV) LiFePO4 Battery High Voltage EVE REPT battery cells 280Ah 314Ah Rack Type Battery System ESS",
+      "title": "China High Voltage EVE REPT Battery Cells 280Ah 314Ah Rack Type Battery System ESS Manufacturer, Factory | Greensun",
+      "url": "https://www.greensunbattery.com/high-voltage-rack-type-battery-system-ess"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ampbird.com",
+      "ref_id": "turn6search9",
+      "snippet": "Image: DIY battery decision framework comparing 280Ah and 314Ah LiFePO4 cells by energy needs, enclosure fit, electrical compatibility, evidence and delivered system cost",
+      "title": "280Ah vs 314Ah LiFePO4 Cells: Full DIY Comparison – AmpBird",
+      "url": "https://www.ampbird.com/blogs/product-comparisons/280ah-vs-314ah-lifepo4-cells-which-capacity-is-right-for-your-diy-battery-build"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.ampbird.com",
+      "ref_id": "turn6search10",
+      "snippet": "Image: Technical comparison of 280Ah and 314Ah LiFePO4 cells in a 16S 51.2V battery build, showing nominal energy and the enclosure, BMS and system-fit checks",
+      "title": "280Ah vs 314Ah LiFePO4 Cells: Complete Comparison (2026) – AmpBird",
+      "url": "https://www.ampbird.com/blogs/industry-insights/280ah-vs-314ah-lifepo4-cells"
+    },
+    {
+      "type": "text_result",
+      "domain": "hakadilifepo4.com",
+      "ref_id": "turn6search11",
+      "snippet": "Brand [Input] 51.2V 280Ah-EVE [Input] 51.2V 314Ah-EVE [Input] 51.2V 280Ah-CATL [Input] 51.2V 314Ah-CATL ... Professional LiFePO4 battery solutions for solar, RV and energy storage.",
+      "title": "51.2V 280A 51.2V 314Ah 15-16kwh Home Energy EN BMS Standing Type 8000 – HAKADI LiFePo4",
+      "url": "https://hakadilifepo4.com/products/51-2v-280a-51-2v-314ah-15-16kwh-home-energy-en-bms-standing-type-8000-cycles"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit15",
+      "snippet": "I have some identical (same age, unused) 314ah EVE cells spare.Option 1: remove another 280ah cell from the other battery and run two 15s batteries",
+      "title": "Well that’s extremely annoying...",
+      "url": "https://www.reddit.com/r/diySolar/comments/1wyl18j/well_thats_extremely_annoying/"
+    },
+    {
+      "type": "text_result",
+      "domain": "es.greensunbattery.com",
+      "ref_id": "turn6search16",
+      "snippet": "Battery Chemistry ... 280Ah314Ah",
+      "title": "LiFePO4\n51.2V 280Ah/314Ah\nMobile Batteries\nFeature",
+      "url": "https://es.greensunbattery.com/download/7vFmFtXAkMTsA67CbR4wYPIXrmr8Db"
+    },
+    {
+      "type": "text_result",
+      "domain": "lugisagroup.co.za",
+      "ref_id": "turn6search17",
+      "snippet": "High-capacity cells,including CATL's 587Ah,EVE Energy's 628Ah,and CALB's 640Ah,are expected to enter mass production between Q2 2025 and Q2 2026. ... In the second half, the",
+      "title": "SOLAR PRO.\n\n# Shipment volume of communication ene",
+      "url": "https://lugisagroup.co.za/greencore/files/Shipment-volume-of-communication-energy-storage-batteries_Fri-19-Aug-2022-16191.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "electrification-solutions.com",
+      "ref_id": "turn6search18",
+      "snippet": "280Ah LFP ... 314Ah LFP",
+      "title": "ELECTRIFICATION SOLUTIONS",
+      "url": "https://electrification-solutions.com/wp-content/uploads/2024/11/electrification-solutions-catalogue-november-15-2024.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit19",
+      "snippet": "I am trying to buy a battery before the end of 2025 and no one has EG4 wall mounts in stock that I can find.",
+      "title": "Battery Sources and backorders",
+      "url": "https://www.reddit.com/r/diySolar/comments/1p5jx0b/battery_sources_and_backorders/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit20",
+      "snippet": "[Saturday May 17 2025] [+2 votes] ... Before the FiT dropped so much and daily charges got so high I was doing fine on exports",
+      "title": "Battery Size question",
+      "url": "https://www.reddit.com/r/EVAustralia/comments/1koor51"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit21",
+      "snippet": "[Thursday September 25 2025] [+64 votes] ... Our open-source **Battery-Emulator** project is now powering **over 1,000** second-life EV battery storage systems worldwide.",
+      "title": "We just passed 1,000 repurposed EV batteries with Battery-Emulator! v9 makes it easier than ever to get started.",
+      "url": "https://www.reddit.com/r/SolarDIY/comments/1nq4gz4/we_just_passed_1000_repurposed_ev_batteries_with/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit22",
+      "snippet": "In 2025 China doubled its battery storage capacity, installing more (190 GWh) than the rest of the world combined.In December 2025 alone China installed more",
+      "title": "From scale to system꞉ navigating the next phase of China's battery storage | Ember",
+      "url": "https://www.reddit.com/r/Renewable/comments/1uzq9on/from_scale_to_system_navigating_the_next_phase_of/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit23",
+      "snippet": "In 2025 China doubled its battery storage capacity, installing more (190 GWh) than the rest of the world combined.In December 2025 alone China installed more",
+      "title": "China's batteries move beyond capacity scale-up꞉ utility-scale storage could have shifted 23 TWh more clean power in 2025 | Ember",
+      "url": "https://www.reddit.com/r/energy/comments/1uzm3ty/chinas_batteries_move_beyond_capacity_scaleup/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit24",
+      "snippet": "Huawei and Sungrow use their 280/314ah cells on their 5MWh+ BESS products.",
+      "title": "are these legit?",
+      "url": "https://www.reddit.com/r/batteries/comments/1k18x74"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit25",
+      "snippet": "Kinda big advantage with Tesla keeping the same battery architecture under the S for so long - with just some software and minor hardware changes,",
+      "title": "Where do second life EV batteries go? [Felten Charge Qube storage & L2 / L3 charging]",
+      "url": "https://www.reddit.com/r/electricvehicles/comments/1j75hcv/where_do_second_life_ev_batteries_go_felten/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit26",
+      "snippet": "一、宁德时代商城更新：280Ah 0.470元/Wh起、314Ah 0.403元/Wh起、587Ah 0.415元/Wh起且首明码起订324颗；280/314较前值上调1.1%/2.0%。",
+      "title": "宁德时代线上商城更新280Ah 0.470元/Wh起",
+      "url": "https://www.reddit.com/r/u_Sharp-Permission-422/comments/1woc3hi/%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E7%BA%BF%E4%B8%8A%E5%95%86%E5%9F%8E%E6%9B%B4%E6%96%B0280ah_0470%E5%85%83wh%E8%B5%B7/"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn6academia27",
+      "snippet": "Date: Mon Sep 22 17:56:26 2025This article presents a mixed-integer second-order cone programming model to determine the optimal sizing of a community-shared photovoltaic and battery",
+      "title": "Optimal Sizing of Community Photovoltaic and Battery Energy Storage Systems with Second-Life Batteries in Peer-to-Peer Energy Communities",
+      "url": "https://arxiv.org/abs/2509.18082"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit28",
+      "snippet": "[Sunday December 14 2025] [+18 votes] ... If you look at the number of cycles they were designed for - i.e. how often you would",
+      "title": "Could second-life EV batteries realistically match Powerwall ROI for home energy storage?",
+      "url": "https://www.reddit.com/r/EnergyStorage/comments/1pm3cdd/could_secondlife_ev_batteries_realistically_match/"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn6search29",
+      "snippet": "- EVE Energy placed second in 1Q 24 energy storage cell shipment rankings. ... On June 15, 2023, Powin made a multi-year agreement for the",
+      "title": "EVE Energy",
+      "url": "https://en.wikipedia.org/wiki/EVE_Energy"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit30",
+      "snippet": "Emerging energy storage markets are positive, with the strongest growth in the Middle East and Africa.TrendForce expects that the Middle East and Africa will have",
+      "title": "TrendForce: Global Installations Outlook for Energy Storage Market in 2025",
+      "url": "https://www.reddit.com/r/EnergyStorage/comments/1i11x9r"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn6academia31",
+      "snippet": "Date: Mon Feb 24 05:10:04 2025 ... This is particularly compelling for Global South and other underdeveloped regions, where reliable energy storage is vital to",
+      "title": "PulseBat: A field-accessible dataset for second-life battery diagnostics from realistic histories using multidimensional rapid pulse test",
+      "url": "https://arxiv.org/abs/2502.16848"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn6academia32",
+      "snippet": "Date: Sat Jun 21 16:26:59 2025 ... Broadly, PIMOE framework offers a deployable, history-free solution for battery degradation trajectory computation, redefining how second-life energy storage",
+      "title": "Physics-informed mixture of experts network for interpretable battery degradation trajectory computation amid second-life complexities",
+      "url": "https://arxiv.org/abs/2506.17755"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn6reddit33",
+      "snippet": "i run my house on 16 EVE LF280K cells for a 14kwh 51.2vdc battery bank. ... Ie 280ah/304ah/314ah cells.",
+      "title": "I bought a 120ah lifepo4 online for 28 dollars",
+      "url": "https://www.reddit.com/r/batteries/comments/1km4nc2"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn6academia34",
+      "snippet": "Date: Sun Aug 17 23:33:36 2025 ... This study examines the role of the battery storage system (BSS) in mitigating these challenges by balancing power",
+      "title": "Techno-Economic Planning of Spatially-Resolved Battery Storage Systems in Renewable-Dominant Grids Under Weather Variability",
+      "url": "https://arxiv.org/abs/2508.12526"
+    },
+    {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn6search35",
+      "snippet": "Some developers are also utilizing retired electric vehicle batteries to build second-life storage systems, with costs potentially 50% lower than those of new battery installations.",
+      "title": "Battery energy storage system",
+      "url": "https://en.wikipedia.org/wiki/Battery_energy_storage_system"
+    },
+    {
+      "type": "text_result",
+      "domain": "sneresearch.com",
+      "ref_id": "turn6view0",
+      "snippet": "Total lines: 153",
+      "title": "Press Release - Insight -SNE Research",
+      "url": "https://sneresearch.com/en/insight/release_view/583/page/0"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-8f8c2c0c-553d-484a-ae20-04ad9e8f1994",
+  "query": "site.evebattery.com \"LF280K\" ...",
+  "action": {
+    "type": "search",
+    "query": null,
+    "queries": [
+      "site.evebattery.com \"LF280K\"",
+      "site.evebattery.com \"second globally\"",
+      "site.eveenergystorage.com \"2025\" \"second\""
+    ]
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.evebatteryusa.com",
+      "ref_id": "turn7search0",
+      "snippet": "### EVE LF280K One Page Data Sheet ... Product Questions: info@evebatteryusa.com",
+      "title": "Liquid Cooling ESS | EVE Energy North America",
+      "url": "https://www.evebatteryusa.com/liquid-cooling-ess"
+    },
+    {
+      "type": "text_result",
+      "domain": "bessmanufacturers.com",
+      "ref_id": "turn7search12",
+      "snippet": "Inside the numbers from China's second- ... EVE shipped 71.05 GWh of energy storage batteries in 2025, up 41 % year-on-year, ranking",
+      "title": "EVE Energy 2025 Annual Results: 71 GWh Shipped, Global #2 in Energy Storage — BESS Manufacturers",
+      "url": "https://bessmanufacturers.com/downloads/eve-energy-2025-annual-results-energy-storage.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www1.hkexnews.hk",
+      "ref_id": "turn7search13",
+      "snippet": "battery separators according to the same source, we have established relationships with global key ... Murata, SK On, SAFT, CATL, BYD, Gotion High-tech, CALB, EVE",
+      "title": "The Stock Exchange of Hong Kong Limited and the Securities and Futures Commission take no responsibility for the contents of",
+      "url": "https://www1.hkexnews.hk/app/sehk/2026/108174/documents/sehk26060303025.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.sec.gov",
+      "ref_id": "turn7search1",
+      "snippet": "(“ESS,” “ESS, Inc.” or the “Company”) (NYSE: GWH), a leading manufacturer of long-duration energy storage systems (LDES) for commercial and utility-scale applications, today announced financial",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819438/000181943825000012/a2025q2earningsrelease.htm"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.dnkpower.com",
+      "ref_id": "turn7search2",
+      "snippet": "EVE LF280K 3.2V 280Ah Prismatic LiFePO4 Battery Cell DNKPOWER 2026-06-15T08:20:58+00:00",
+      "title": "EVE LF280K 3.2V 280Ah Prismatic LiFePO4 Battery Cell - Lithium ion Battery Manufacturer and Supplier in China-DNK Power",
+      "url": "https://www.dnkpower.com/eve-lf280k-3-2v-280ah-prismatic-lifepo4-battery-cell/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evebatteries.co.uk",
+      "ref_id": "turn7search3",
+      "snippet": "MB31 | LF280K-V3 ... Image: Primary Lithium Battery ... EVE Batteries UK",
+      "title": "EVE Batteries UK | EVE MB31 | EVE LF280K",
+      "url": "https://www.evebatteries.co.uk/"
+    },
+    {
+      "type": "text_result",
+      "domain": "manuals.plus",
+      "ref_id": "turn7search4",
+      "snippet": "## EVE Energy Co., Ltd Product Specification ... LFP Power Battery LF280K",
+      "title": "Product document",
+      "url": "https://manuals.plus/m/f701edde32dcef94ca2964da210c0057176da59e0cdef9d33fb971c6f5fe881a"
+    },
+    {
+      "type": "text_result",
+      "domain": "patents.justia.com",
+      "ref_id": "turn7search5",
+      "snippet": "Patents Assigned to EVE ENERGY STORAGE CO., LTD. ... The combiner cabinet includes: a cabinet body provided with both a first isolation chamber and a",
+      "title": "Patents Assigned to EVE ENERGY STORAGE CO., LTD. - Justia Patents Search",
+      "url": "https://patents.justia.com/assignee/eve-energy-storage-co-ltd"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.energytrend.com",
+      "ref_id": "turn7search6",
+      "snippet": "In 2025, Eve Energy launched its 628Ah cell for utility scale energy storage station applications. ... Its energy storage business saw rapid growth in the",
+      "title": "Eve Energy and Gotion High\u001eTech Surge in Energy Storage Shipments - EnergyTrend",
+      "url": "https://www.energytrend.com/news/20260512-51369.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.battery-germany.de",
+      "ref_id": "turn7search7",
+      "snippet": "SKU: LFMP-280AH-EVE Categories: Batteries, eve ... Data source: evebattery.com",
+      "title": "InnoPower-LFP 280K EVE - EVE Battery Deutschland",
+      "url": "https://www.battery-germany.de/en/product/innopower-lfp-280k-eve/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.manualslib.com",
+      "ref_id": "turn7search8",
+      "snippet": "* Page 1 -EVE PowerCO.,LTD Confidential Proprietary- Version Model LF280K Specification No PBRI-LF280K-D06-01 Product Specification Prismatic LFP Cell Model:LF280K ：LF280K Product Design Quality Sales",
+      "title": "EVE LF280K MANUAL Pdf Download | ManualsLib",
+      "url": "https://www.manualslib.com/manual/3499281/Eve-Lf280k.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "bessmanufacturers.com",
+      "ref_id": "turn7search9",
+      "snippet": "EVE shipped 71.05 GWh of energy storage batteries in 2025, up from approximately 50.4 GWh in 2024 — a 40.84 % year-on-year increase.",
+      "title": "EVE Energy 2025 Annual Report: 71 GWh Shipped, Global #2 in Energy Storage",
+      "url": "https://bessmanufacturers.com/resources/eve-energy-2025-annual-results-energy-storage/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.energy-storage.news",
+      "ref_id": "turn7search10",
+      "snippet": "January 17, 2025 ... Moment Energy was among four second life battery storage companies interviewed and profiled for an Energy-Storage.news feature article in early 2023.",
+      "title": "Second life, Nuclear-BESS integration, ESS Inc new flow battery - Energy-Storage.News",
+      "url": "https://www.energy-storage.news/roundup-amazon-invests-in-second-life-nuclear-bess-for-data-centres-ess-incs-new-flow-battery/"
+    },
+    {
+      "type": "text_result",
+      "domain": "disc.static.szse.cn",
+      "ref_id": "turn7search14",
+      "snippet": "EVE is dedicated to driving the green transformation and intelligent upgrade of the global energy structure through diversified, high-quality lithium battery technologies and products, and",
+      "title": "2025年亿纬锂能可持续发展报告-英文最终版z-3.27",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-03-28/6a9cf8eb-182f-4a15-8478-8abb82338aa9.PDF"
+    },
+    {
+      "type": "text_result",
+      "domain": "www1.hkexnews.hk",
+      "ref_id": "turn7search15",
+      "snippet": "for energy storage remains robust, particularly driven by the rapid expansion of ... In January 2025, the Group entered into an agreement with Blue Oval",
+      "title": "THIS CIRCULAR IS IMPORTANT AND REQUIRES YOUR IMMEDIATE ATTENTION",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1209/2025120901206.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "thebatteryshop.eu",
+      "ref_id": "turn7search11",
+      "snippet": "# EVE LF280K (A grade) rechargeable LiFePO4 battery",
+      "title": "EVE LF280K (A grade) rechargeable LiFePO4 battery",
+      "url": "https://thebatteryshop.eu/EVE-LF280K-LiFePO4-battery-cell"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit16",
+      "snippet": "I am trying to buy a battery before the end of 2025 and no one has EG4 wall mounts in stock that I can find.",
+      "title": "Battery Sources and backorders",
+      "url": "https://www.reddit.com/r/diySolar/comments/1p5jx0b/battery_sources_and_backorders/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit17",
+      "snippet": "The battery is 16x Eve LF280K v3 Prismatic 280Ah - LiFePO4 - 3.2V grade A- single stud",
+      "title": "What do you think about my selfmade battery?",
+      "url": "https://www.reddit.com/r/batteries/comments/1iki95e"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit18",
+      "snippet": "TrendForce expects that the global installed capacity of energy storage will reach 86GW/221GWh in 2025, a year-on-year growth of 27%/36%, with an average energy storage",
+      "title": "TrendForce: Global Installations Outlook for Energy Storage Market in 2025",
+      "url": "https://www.reddit.com/r/EnergyStorage/comments/1i11x9r"
+    },
+    {
+      "type": "text_result",
+      "domain": "persianasaranda.es",
+      "ref_id": "turn7search19",
+      "snippet": "Jun 30, 2025 · Major Chinese lithium-ion battery manufacturer EVE Energy has announced plans build the second phase of its production facility in Malaysia for",
+      "title": "Malaysia EK 2025 Energy Storage Battery",
+      "url": "https://persianasaranda.es/index_htm_files/Malaysia-EK-2025-Energy-Storage-Battery_Thu-22-Aug-2019-14261.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.nordicenergyinformatics.academy",
+      "ref_id": "turn7search20",
+      "snippet": "Nordic Energy Informatics Academy Conference 2025Optimization of Second-Life Battery Energy Storage System in",
+      "title": "20-22 August 2025",
+      "url": "https://www.nordicenergyinformatics.academy/_files/ugd/8bf9db_0e93841d6bda4639963e05103be4fd5d.pdf"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit21",
+      "snippet": "Controversy #1: compression: in spec PBRI-MB31-D06-01 the author from EVE clearly states at page 17 paragraph 4.6 that compression exists **only in order to make",
+      "title": "The biggest controversies for LFP cells are settled by official EVE specifications",
+      "url": "https://www.reddit.com/r/batteries/comments/1n2kox5/the_biggest_controversies_for_lfp_cells_are/"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit22",
+      "snippet": "Controversy #1: compression: in spec PBRI-MB31-D06-01 the author from EVE clearly states at page 17 paragraph 4.6 that compression exists **only in order to make",
+      "title": "The biggest controversies for LFP cells are settled by official EVE specifications",
+      "url": "https://www.reddit.com/r/diybattery/comments/1n2kooy"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit23",
+      "snippet": "[Sunday December 14 2025] [+18 votes] ... If you look at the number of cycles they were designed for - i.e. how often you would",
+      "title": "Could second-life EV batteries realistically match Powerwall ROI for home energy storage?",
+      "url": "https://www.reddit.com/r/EnergyStorage/comments/1pm3cdd/could_secondlife_ev_batteries_realistically_match/"
+    },
+    {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn7academia24",
+      "snippet": "Date: Mon Sep 22 17:56:26 2025This article presents a mixed-integer second-order cone programming model to determine the optimal sizing of a community-shared photovoltaic and battery",
+      "title": "Optimal Sizing of Community Photovoltaic and Battery Energy Storage Systems with Second-Life Batteries in Peer-to-Peer Energy Communities",
+      "url": "https://arxiv.org/abs/2509.18082"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn7reddit25",
+      "snippet": "The reality is that the EVE company made the LF280K MODEL(not capacity: MODEL) specifically for a LOW C RATE and hence for residential use and",
+      "title": "Most youtubers are extremely confusing and misinformed about LFP Cells.",
+      "url": "https://www.reddit.com/r/diybattery/comments/1mz8axn"
+    },
+    {
+      "type": "text_result",
+      "domain": "sneresearch.com",
+      "ref_id": "turn7view0",
+      "snippet": "Total lines: 153",
+      "title": "Press Release - Insight -SNE Research",
+      "url": "https://sneresearch.com/en/insight/release_view/583/page/0"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn7view1",
+      "snippet": "Total lines: 5406",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/73mKfKv5UrfCwfn54_MT4-ZqL4dahLZ_2yhvROEDwkaGIdrjbaAvepO5LPouDcI7XAql5LQ7nAbH_LV8GTUg7FIaQOTKHdRgSDY6_20FGjM",
+      "title": "Download Center",
+      "url": "https://www.kstarnewenergy.com/support.html"
+    }
+  ]
+}
+````
+
+## webSearch
+
+````json
+{
+  "type": "webSearch",
+  "id": "exec-e718c4f8-a621-494f-9c8e-8dc4cfa0143a",
+  "query": "https://www.evebattery.com/en",
+  "action": {
+    "type": "openPage",
+    "url": "https://www.evebattery.com/en"
+  },
+  "results": [
+    {
+      "type": "text_result",
+      "domain": "www.evebattery.com",
+      "ref_id": "turn8view0",
+      "snippet": "Total lines: 425",
+      "title": "EVE",
+      "url": "https://www.evebattery.com/en"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.evebatteryusa.com",
+      "ref_id": "turn8view1",
+      "snippet": "Total lines: 151",
+      "title": "Liquid Cooling ESS | EVE Energy North America",
+      "url": "https://www.evebatteryusa.com/liquid-cooling-ess"
+    },
+    {
+      "type": "text_result",
+      "domain": "www.kstarnewenergy.com",
+      "ref_id": "turn8view2",
+      "snippet": "Total lines: 5406",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/9TZZha1F30MepeWpxttYJG9PzBR97v1tVK2YyRK8aavFxNT62pITAY5buKlfLvgfbCy5pSxF7xcTw3_IJeqBxpfd62OupNAPT1GHlzVURzM",
+      "title": "Download Center",
+      "url": "https://www.kstarnewenergy.com/support.html"
+    },
+    {
+      "type": "text_result",
+      "domain": "sneresearch.com",
+      "ref_id": "turn8view3",
+      "snippet": "Total lines: 153",
+      "title": "Press Release - Insight -SNE Research",
+      "url": "https://sneresearch.com/en/insight/release_view/583/page/0"
+    }
+  ]
+}
+````
+
+## Asistent
+
+**Da, varianta de 280 Ah poate fi CATL. Iar dacă te referi la liderul pieței bateriilor pentru stocare, acesta este CATL, nu EVE.** Totuși, capacitatea de 280 Ah nu identifică singură producătorul.
+
+Am verificat sursele oficiale:
+
+- **KSTAR prezintă explicit o configurație BluePulse de 70/89/107 kWh cu celule CATL de 280 Ah.** Așadar, observația ta are suport în documentația producătorului. [Prezentarea oficială KSTAR](https://www.kstarnewenergy.com/news/kstar-showcases-advanced-clean-energy-solutions-at-asia-sustainable-energy-week-2025.html)
+- **KSTAR publică documente pentru BC107DE2 atât cu celule CATL, cât și cu celule EVE.** Prin urmare, nu putem afirma că manualul primit era exclusiv pentru CATL doar fiindcă menționează 280 Ah. [Centrul oficial de documente KSTAR](https://www.kstarnewenergy.com/support.html)
+- **EVE produce și celule de 280 Ah**, precum LF280K, prezentate pe pagina sa nord-americană. Deci diferența „280 versus 314 Ah” nu echivalează automat cu „CATL versus EVE”. [EVE Energy North America](https://www.evebatteryusa.com/liquid-cooling-ess)
+
+În privința poziției pe piață:
+
+| Producător | Ce confirmă sursele pentru 2025 |
+|---|---|
+| **CATL** | **Locul 1 mondial la livrările de baterii pentru stocarea energiei**, cu aproximativ 30,4% din piață, conform comunicatului oficial care citează SNE Research. |
+| **EVE** | Raportul propriu de sustenabilitate declară **locul 2 mondial la livrările de baterii pentru stocare**. Este, așadar, un producător major, dar nu liderul acestei categorii. |
+
+Surse: [CATL — rezultatele anului 2025](https://www.catl.com/en/news/6773.html), [raportul EVE publicat la Bursa Shenzhen](https://disc.static.szse.cn/disc/disk03/finalpage/2026-03-28/6a9cf8eb-182f-4a15-8478-8abb82338aa9.PDF). Clasamentul măsoară volumul livrărilor, nu garantează superioritatea fiecărui model de celulă.
+
+**Pentru email, aș păstra solicitarea simplă:** confirmarea că exemplarul livrat este BC100DE2A cu **EVE de 314 Ah**, conform ofertei și fișei oficiale. Aș elimina ultima frază despre manualul de 280 Ah, fiindcă nu mai este necesară pentru această confirmare și poate redeschide inutil discuția.
+
+Nu avem dovezi că s-a înlocuit CATL cu EVE: **oferta voastră menționa deja EVE**, iar răspunsul lor confirmă EVE. Separat, la întrebarea 13, au precizat că varianta CATL de 314 Ah nu este disponibilă în stoc.
+
+## Asistent
+
+Voi elimina punctul despre energie și voi cere doar clarificarea producătorului și capacității celulelor, menționând preferința pentru CATL, împreună cu fișa tehnică oficială. Actualizez draftul existent.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-9841176c-bf0d-4c0b-b98d-dc8e57f7cb8d",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_draft",
+  "status": "completed",
+  "arguments": {
+    "draft_id": "d091e483-4942-4b33-8254-62e91b85eba3"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"d091e483-4942-4b33-8254-62e91b85eba3\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n  \"account_email\": \"covaciu.gnm@gmail.com\",\n  \"to\": [\n    \"sebastian.b@kstar.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n  \"body\": \"Bună ziua, domnule Babu,\\n\\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\\n\\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am consultat și fișa tehnică oficială KSTAR pentru seria KAC(20–50)DP2 – BC80/100/120DE2A, versiunea 202607-V5, și vă rugăm să ne mai ajutați cu două scurte confirmări, pentru a avea aceleași date în documentație și în contract:\\n\\n1. Energia nominală și energia utilizabilă\\nFișa oficială indică pentru BC100DE2A o capacitate totală de 100,48 kWh și un DoD de 95%, în timp ce în răspunsul la întrebarea 2 valoarea de 100,48 kWh este menționată atât pentru energia nominală, cât și pentru cea utilizabilă. Înțelegerea noastră este că, la 95% DoD, energia utilizabilă din baterie ar fi de aproximativ 95,46 kWh, înaintea pierderilor de conversie. Vă rugăm să confirmați această interpretare sau să ne indicați valoarea utilizabilă aplicabilă echipamentului livrat.\\n\\n2. Celulele și documentația modelului livrat\\nVă mulțumim pentru confirmarea că celulele sunt EVE, noi, clasa A și la prima utilizare. Fișa oficială a seriei indică celule de 314 Ah. Vă rugăm doar să confirmați că BC100DE2A alocat comenzii noastre este echipat cu celule EVE de 314 Ah, conform ofertei, și că parametrii săi corespund fișei oficiale aplicabile acestui model. Această confirmare, împreună cu documentația oficială a echipamentului, este suficientă pentru noi, având în vedere că manualul primit inițial se referea la BC107DE2, cu celule de 280 Ah.\\n\\nAșteptăm cu interes și documentele menționate în răspunsul dumneavoastră: fișele tehnice și manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\\n\\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\\n\\nNe dorim să încheiem aceste ultime clarificări și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\\n\\n\\nCu deosebită considerație,\\n\\nBest regards,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n  \"created_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"updated_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "d091e483-4942-4b33-8254-62e91b85eba3",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+      "account_email": "covaciu.gnm@gmail.com",
+      "to": [
+        "sebastian.b@kstar.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+      "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\n\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am consultat și fișa tehnică oficială KSTAR pentru seria KAC(20–50)DP2 – BC80/100/120DE2A, versiunea 202607-V5, și vă rugăm să ne mai ajutați cu două scurte confirmări, pentru a avea aceleași date în documentație și în contract:\n\n1. Energia nominală și energia utilizabilă\nFișa oficială indică pentru BC100DE2A o capacitate totală de 100,48 kWh și un DoD de 95%, în timp ce în răspunsul la întrebarea 2 valoarea de 100,48 kWh este menționată atât pentru energia nominală, cât și pentru cea utilizabilă. Înțelegerea noastră este că, la 95% DoD, energia utilizabilă din baterie ar fi de aproximativ 95,46 kWh, înaintea pierderilor de conversie. Vă rugăm să confirmați această interpretare sau să ne indicați valoarea utilizabilă aplicabilă echipamentului livrat.\n\n2. Celulele și documentația modelului livrat\nVă mulțumim pentru confirmarea că celulele sunt EVE, noi, clasa A și la prima utilizare. Fișa oficială a seriei indică celule de 314 Ah. Vă rugăm doar să confirmați că BC100DE2A alocat comenzii noastre este echipat cu celule EVE de 314 Ah, conform ofertei, și că parametrii săi corespund fișei oficiale aplicabile acestui model. Această confirmare, împreună cu documentația oficială a echipamentului, este suficientă pentru noi, având în vedere că manualul primit inițial se referea la BC107DE2, cu celule de 280 Ah.\n\nAșteptăm cu interes și documentele menționate în răspunsul dumneavoastră: fișele tehnice și manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\n\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\n\nNe dorim să încheiem aceste ultime clarificări și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\n\n\nCu deosebită considerație,\n\nBest regards,\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+      "created_at": "2026-10-13T14:36:54.631326Z",
+      "updated_at": "2026-10-13T14:36:54.631326Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 533
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-3af86492-8916-45be-92cc-2e2bce5efdca",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_update_draft",
+  "status": "completed",
+  "arguments": {
+    "draft_id": "d091e483-4942-4b33-8254-62e91b85eba3",
+    "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\n\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am mai dori o singură clarificare privind celulele bateriei: vă rugăm să ne confirmați producătorul și capacitatea acestora, exprimată în Ah, pentru echipamentul care va fi livrat. Sperăm să putem beneficia de varianta cu celule CATL; am reținut precizarea dumneavoastră privind disponibilitatea în stoc și v-am fi recunoscători dacă ne-ați confirma dacă această variantă poate fi asigurată pentru comanda noastră. Vă rugăm să ne transmiteți și fișa tehnică oficială aferentă configurației propuse.\n\nAșteptăm cu interes și celelalte documente menționate în răspunsul dumneavoastră: manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\n\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\n\nNe dorim să încheiem această ultimă clarificare și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\n\nCu deosebită considerație,"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_update_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"d091e483-4942-4b33-8254-62e91b85eba3\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n  \"account_email\": \"covaciu.gnm@gmail.com\",\n  \"to\": [\n    \"sebastian.b@kstar.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n  \"body\": \"Bună ziua, domnule Babu,\\n\\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\\n\\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am consultat și fișa tehnică oficială KSTAR pentru seria KAC(20–50)DP2 – BC80/100/120DE2A, versiunea 202607-V5, și vă rugăm să ne mai ajutați cu două scurte confirmări, pentru a avea aceleași date în documentație și în contract:\\n\\n1. Energia nominală și energia utilizabilă\\nFișa oficială indică pentru BC100DE2A o capacitate totală de 100,48 kWh și un DoD de 95%, în timp ce în răspunsul la întrebarea 2 valoarea de 100,48 kWh este menționată atât pentru energia nominală, cât și pentru cea utilizabilă. Înțelegerea noastră este că, la 95% DoD, energia utilizabilă din baterie ar fi de aproximativ 95,46 kWh, înaintea pierderilor de conversie. Vă rugăm să confirmați această interpretare sau să ne indicați valoarea utilizabilă aplicabilă echipamentului livrat.\\n\\n2. Celulele și documentația modelului livrat\\nVă mulțumim pentru confirmarea că celulele sunt EVE, noi, clasa A și la prima utilizare. Fișa oficială a seriei indică celule de 314 Ah. Vă rugăm doar să confirmați că BC100DE2A alocat comenzii noastre este echipat cu celule EVE de 314 Ah, conform ofertei, și că parametrii săi corespund fișei oficiale aplicabile acestui model. Această confirmare, împreună cu documentația oficială a echipamentului, este suficientă pentru noi, având în vedere că manualul primit inițial se referea la BC107DE2, cu celule de 280 Ah.\\n\\nAșteptăm cu interes și documentele menționate în răspunsul dumneavoastră: fișele tehnice și manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\\n\\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\\n\\nNe dorim să încheiem aceste ultime clarificări și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\\n\\n\\nCu deosebită considerație,\\n\\nBest regards,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n  \"created_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"updated_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "d091e483-4942-4b33-8254-62e91b85eba3",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+      "account_email": "covaciu.gnm@gmail.com",
+      "to": [
+        "sebastian.b@kstar.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+      "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\n\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am consultat și fișa tehnică oficială KSTAR pentru seria KAC(20–50)DP2 – BC80/100/120DE2A, versiunea 202607-V5, și vă rugăm să ne mai ajutați cu două scurte confirmări, pentru a avea aceleași date în documentație și în contract:\n\n1. Energia nominală și energia utilizabilă\nFișa oficială indică pentru BC100DE2A o capacitate totală de 100,48 kWh și un DoD de 95%, în timp ce în răspunsul la întrebarea 2 valoarea de 100,48 kWh este menționată atât pentru energia nominală, cât și pentru cea utilizabilă. Înțelegerea noastră este că, la 95% DoD, energia utilizabilă din baterie ar fi de aproximativ 95,46 kWh, înaintea pierderilor de conversie. Vă rugăm să confirmați această interpretare sau să ne indicați valoarea utilizabilă aplicabilă echipamentului livrat.\n\n2. Celulele și documentația modelului livrat\nVă mulțumim pentru confirmarea că celulele sunt EVE, noi, clasa A și la prima utilizare. Fișa oficială a seriei indică celule de 314 Ah. Vă rugăm doar să confirmați că BC100DE2A alocat comenzii noastre este echipat cu celule EVE de 314 Ah, conform ofertei, și că parametrii săi corespund fișei oficiale aplicabile acestui model. Această confirmare, împreună cu documentația oficială a echipamentului, este suficientă pentru noi, având în vedere că manualul primit inițial se referea la BC107DE2, cu celule de 280 Ah.\n\nAșteptăm cu interes și documentele menționate în răspunsul dumneavoastră: fișele tehnice și manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\n\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\n\nNe dorim să încheiem aceste ultime clarificări și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\n\n\nCu deosebită considerație,\n\nBest regards,\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+      "created_at": "2026-10-13T14:36:54.631326Z",
+      "updated_at": "2026-10-13T14:36:54.631326Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 737
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-30279c83-7943-4680-9a43-76ffbac52c4c",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_draft",
+  "status": "completed",
+  "arguments": {
+    "draft_id": "d091e483-4942-4b33-8254-62e91b85eba3"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"d091e483-4942-4b33-8254-62e91b85eba3\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n  \"account_email\": \"covaciu.gnm@gmail.com\",\n  \"to\": [\n    \"sebastian.b@kstar.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n  \"body\": \"Bună ziua, domnule Babu,\\n\\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\\n\\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am mai dori o singură clarificare privind celulele bateriei: vă rugăm să ne confirmați producătorul și capacitatea acestora, exprimată în Ah, pentru echipamentul care va fi livrat. Sperăm să putem beneficia de varianta cu celule CATL; am reținut precizarea dumneavoastră privind disponibilitatea în stoc și v-am fi recunoscători dacă ne-ați confirma dacă această variantă poate fi asigurată pentru comanda noastră. Vă rugăm să ne transmiteți și fișa tehnică oficială aferentă configurației propuse.\\n\\nAșteptăm cu interes și celelalte documente menționate în răspunsul dumneavoastră: manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\\n\\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\\n\\nNe dorim să încheiem această ultimă clarificare și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\\n\\n\\nCu deosebită considerație,\\n\\nBest regards,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n  \"created_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"updated_at\": \"2026-10-13T14:44:42.152891Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "d091e483-4942-4b33-8254-62e91b85eba3",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+      "account_email": "covaciu.gnm@gmail.com",
+      "to": [
+        "sebastian.b@kstar.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+      "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\n\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am mai dori o singură clarificare privind celulele bateriei: vă rugăm să ne confirmați producătorul și capacitatea acestora, exprimată în Ah, pentru echipamentul care va fi livrat. Sperăm să putem beneficia de varianta cu celule CATL; am reținut precizarea dumneavoastră privind disponibilitatea în stoc și v-am fi recunoscători dacă ne-ați confirma dacă această variantă poate fi asigurată pentru comanda noastră. Vă rugăm să ne transmiteți și fișa tehnică oficială aferentă configurației propuse.\n\nAșteptăm cu interes și celelalte documente menționate în răspunsul dumneavoastră: manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\n\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\n\nNe dorim să încheiem această ultimă clarificare și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\n\n\nCu deosebită considerație,\n\nBest regards,\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+      "created_at": "2026-10-13T14:36:54.631326Z",
+      "updated_at": "2026-10-13T14:44:42.152891Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 542
+}
+````
+
+## Asistent
+
+Am actualizat și verificat draftul în **EVA → Drafts**:
+
+- Am eliminat complet punctul despre energie.
+- Am cerut producătorul și capacitatea celulelor, exprimând preferința pentru **CATL**, și fișa tehnică oficială.
+- Am păstrat mulțumirile, solicitarea documentelor și contractul cu plata **30%/70%**.
+
+Emailul nu a fost trimis.
+
+## Asistent
+
+Voi pune fiecare frază pe un rând separat, voi enumera documentele cerute inițial și voi adăuga procedura de pornire de la zero. Voi preciza și că doriți să demarați semnarea contractului, apoi actualizez draftul.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-f566c3ef-e742-4dba-80fe-5e68b1d290a2",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_update_draft",
+  "status": "completed",
+  "arguments": {
+    "draft_id": "d091e483-4942-4b33-8254-62e91b85eba3",
+    "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat de dumneavoastră și de colegii din echipa tehnică și comercială KSTAR.\n\nApreciem atenția cu care ați analizat solicitarea noastră, deschiderea și sprijinul oferit pentru pregătirea acestui proiect.\n\nDorim să demarăm semnarea contractului și să avansăm către lansarea comenzii.\n\nÎn acest sens, vă rugăm să ne transmiteți proiectul de Sales Agreement, cu structura de plată propusă de 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție.\n\nÎn privința celulelor bateriei, vă rugăm să ne confirmați producătorul și capacitatea acestora, exprimată în Ah, pentru echipamentul care va fi livrat.\n\nSperăm să putem beneficia de celule CATL și v-am fi recunoscători dacă ne-ați confirma posibilitatea asigurării acestei variante pentru comanda noastră, ținând cont de precizarea dumneavoastră privind stocul disponibil.\n\nVă rugăm să ne transmiteți fișa tehnică oficială aferentă variantei propuse, cu identificarea producătorului și a capacității celulelor.\n\nPentru completarea documentației proiectului, revenim cu lista documentelor solicitate în mesajul inițial, păstrând referințele la întrebările respective:\n\n- Manualul și fișa tehnică ale modelului de baterie efectiv livrat, precum și fișa tehnică și manualul de utilizare ale convertorului KAC50DP2 (întrebările 6 și 19).\n\n- Certificatul de conformitate cu cerințele aplicabile în România pentru unități generatoare, emis conform Regulamentului (UE) 2016/631, împreună cu parametrii protecției de interfață și funcțiile de deconectare la insularizare (întrebarea 23).\n\n- Desenul de fundație cotat și schema de împământare, pentru a le preda proiectantului, precum și planul de amplasare cu distanțele minime de siguranță și cerințele de protecție la incendiu menționate în răspunsul dumneavoastră (întrebările 31 și 32).\n\n- Schema de montaj a contorului YDS60-80, cu poziția și sensul transformatoarelor de curent (întrebarea 34).\n\n- Documentația de protocol și listele de registre Modbus TCP și RTU pentru EMS și BMS (întrebarea 39).\n\n- Setul de documente de conformitate pentru configurația livrată: declarația de conformitate CE, certificatele IEC 62619 și IEC 63056 sau echivalent pentru sistemul de baterii, IEC 62477, respectiv IEC 62109 pentru convertor, raportul UN 38.3, fișa cu date de securitate și rapoartele de încercare la foc ale ansamblului (întrebarea 43).\n\n- Modelele certificatului de conformitate, raportului de testare din fabrică și certificatului de garanție, împreună cu condițiile oficiale de garanție la care faceți referire în răspuns (întrebările 18, 44 și 60).\n\n- Raportul de testare din fabrică aferent echipamentului efectiv alocat comenzii noastre, care să ne fie transmis înainte de expediere (întrebarea 45).\n\n- Detaliile de expediție, cu numărul de colete, masa brută și dimensiunile fiecăruia, precum și documentele DGD pentru transportul mărfurilor periculoase, menționate ca anexe în răspunsul dumneavoastră (întrebările 52 și 55).\n\n- Proforma revizuită, cu adresele de facturare și livrare indicate separat și condiția DAP Alba Iulia, str. Theodor Pallady nr. 5, conform Incoterms 2020, precum și confirmarea costului transportului față de cei 1.650 EUR ofertați (întrebarea 56).\n\n- Anexa la acordul comercial privind disponibilitatea și prețurile pieselor de schimb critice, respectiv unitățile de stingere cu aerosol și cutia de declanșare, grupul de climatizare, modulul de baterii și placa BMU, precum și suportarea costului transportului pieselor în garanție (întrebarea 63).\n\nSuplimentar, vă rugăm să ne transmiteți procedura oficială, pas cu pas, de pornire de la zero a configurației livrate, inclusiv pornirea fără rețea prin Black Start și repornirea după oprirea completă a bateriei.\n\nNe-ar fi util ca procedura să precizeze condițiile necesare, ordinea operațiunilor și situațiile în care este necesară intervenția manuală la amplasament, inclusiv atunci când revine producția fotovoltaică.\n\nSe pare că anexele menționate în mesajul dumneavoastră nu au ajuns la noi, astfel încât vă rugăm să ni le retransmiteți, eventual printr-un link de descărcare.\n\nVă rugăm să includeți în documentele comerciale actualizate confirmarea prețului și termenul ferm de livrare.\n\nVă mulțumim încă o dată pentru colaborare și pentru sprijinul acordat, iar noi suntem pregătiți să parcurgem împreună pașii necesari semnării contractului.\n\nCu deosebită considerație,"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_update_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": false,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"d091e483-4942-4b33-8254-62e91b85eba3\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n  \"account_email\": \"covaciu.gnm@gmail.com\",\n  \"to\": [\n    \"sebastian.b@kstar.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n  \"body\": \"Bună ziua, domnule Babu,\\n\\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\\n\\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am mai dori o singură clarificare privind celulele bateriei: vă rugăm să ne confirmați producătorul și capacitatea acestora, exprimată în Ah, pentru echipamentul care va fi livrat. Sperăm să putem beneficia de varianta cu celule CATL; am reținut precizarea dumneavoastră privind disponibilitatea în stoc și v-am fi recunoscători dacă ne-ați confirma dacă această variantă poate fi asigurată pentru comanda noastră. Vă rugăm să ne transmiteți și fișa tehnică oficială aferentă configurației propuse.\\n\\nAșteptăm cu interes și celelalte documente menționate în răspunsul dumneavoastră: manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\\n\\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\\n\\nNe dorim să încheiem această ultimă clarificare și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\\n\\n\\nCu deosebită considerație,\\n\\nBest regards,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n  \"created_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"updated_at\": \"2026-10-13T14:44:42.152891Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "d091e483-4942-4b33-8254-62e91b85eba3",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+      "account_email": "covaciu.gnm@gmail.com",
+      "to": [
+        "sebastian.b@kstar.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+      "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat, atât de dumneavoastră, cât și de colegii din echipa tehnică și comercială KSTAR. Apreciem atenția cu care ați parcurs întrebările noastre și disponibilitatea de a găsi împreună soluțiile potrivite pentru acest proiect.\n\nClarificările primite ne ajută să avansăm cu încredere către finalizarea achiziției. Am mai dori o singură clarificare privind celulele bateriei: vă rugăm să ne confirmați producătorul și capacitatea acestora, exprimată în Ah, pentru echipamentul care va fi livrat. Sperăm să putem beneficia de varianta cu celule CATL; am reținut precizarea dumneavoastră privind disponibilitatea în stoc și v-am fi recunoscători dacă ne-ați confirma dacă această variantă poate fi asigurată pentru comanda noastră. Vă rugăm să ne transmiteți și fișa tehnică oficială aferentă configurației propuse.\n\nAșteptăm cu interes și celelalte documente menționate în răspunsul dumneavoastră: manualele pentru configurația livrată, schemele de instalare, documentele de conformitate și garanție, precum și documentele de transport. Se pare că anexele nu au ajuns împreună cu mesajul; v-am fi recunoscători dacă ni le-ați retransmite, eventual printr-un link de descărcare.\n\nÎn paralel, vă rugăm să ne transmiteți proiectul de Sales Agreement și proforma actualizată, pentru a putea finaliza și semna contractul cu structura de plată propusă: 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție. Vă rugăm să reconfirmați în documentele actualizate prețul și termenul de livrare.\n\nNe dorim să încheiem această ultimă clarificare și să trecem cât mai curând la comandă. Vă mulțumim încă o dată pentru sprijin, pentru deschidere și pentru colaborarea de până acum.\n\n\nCu deosebită considerație,\n\nBest regards,\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+      "created_at": "2026-10-13T14:36:54.631326Z",
+      "updated_at": "2026-10-13T14:44:42.152891Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 870
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-99dd171f-f98e-4778-ad29-ddbecc28caa1",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_get_draft",
+  "status": "completed",
+  "arguments": {
+    "draft_id": "d091e483-4942-4b33-8254-62e91b85eba3"
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_get_draft"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"id\": \"d091e483-4942-4b33-8254-62e91b85eba3\",\n  \"kind\": \"reply\",\n  \"source\": \"chatgpt\",\n  \"status\": \"pending\",\n  \"account_id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n  \"account_email\": \"covaciu.gnm@gmail.com\",\n  \"to\": [\n    \"sebastian.b@kstar.com\"\n  ],\n  \"cc\": [],\n  \"bcc\": [],\n  \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n  \"body\": \"Bună ziua, domnule Babu,\\n\\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat de dumneavoastră și de colegii din echipa tehnică și comercială KSTAR.\\n\\nApreciem atenția cu care ați analizat solicitarea noastră, deschiderea și sprijinul oferit pentru pregătirea acestui proiect.\\n\\nDorim să demarăm semnarea contractului și să avansăm către lansarea comenzii.\\n\\nÎn acest sens, vă rugăm să ne transmiteți proiectul de Sales Agreement, cu structura de plată propusă de 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție.\\n\\nÎn privința celulelor bateriei, vă rugăm să ne confirmați producătorul și capacitatea acestora, exprimată în Ah, pentru echipamentul care va fi livrat.\\n\\nSperăm să putem beneficia de celule CATL și v-am fi recunoscători dacă ne-ați confirma posibilitatea asigurării acestei variante pentru comanda noastră, ținând cont de precizarea dumneavoastră privind stocul disponibil.\\n\\nVă rugăm să ne transmiteți fișa tehnică oficială aferentă variantei propuse, cu identificarea producătorului și a capacității celulelor.\\n\\nPentru completarea documentației proiectului, revenim cu lista documentelor solicitate în mesajul inițial, păstrând referințele la întrebările respective:\\n\\n- Manualul și fișa tehnică ale modelului de baterie efectiv livrat, precum și fișa tehnică și manualul de utilizare ale convertorului KAC50DP2 (întrebările 6 și 19).\\n\\n- Certificatul de conformitate cu cerințele aplicabile în România pentru unități generatoare, emis conform Regulamentului (UE) 2016/631, împreună cu parametrii protecției de interfață și funcțiile de deconectare la insularizare (întrebarea 23).\\n\\n- Desenul de fundație cotat și schema de împământare, pentru a le preda proiectantului, precum și planul de amplasare cu distanțele minime de siguranță și cerințele de protecție la incendiu menționate în răspunsul dumneavoastră (întrebările 31 și 32).\\n\\n- Schema de montaj a contorului YDS60-80, cu poziția și sensul transformatoarelor de curent (întrebarea 34).\\n\\n- Documentația de protocol și listele de registre Modbus TCP și RTU pentru EMS și BMS (întrebarea 39).\\n\\n- Setul de documente de conformitate pentru configurația livrată: declarația de conformitate CE, certificatele IEC 62619 și IEC 63056 sau echivalent pentru sistemul de baterii, IEC 62477, respectiv IEC 62109 pentru convertor, raportul UN 38.3, fișa cu date de securitate și rapoartele de încercare la foc ale ansamblului (întrebarea 43).\\n\\n- Modelele certificatului de conformitate, raportului de testare din fabrică și certificatului de garanție, împreună cu condițiile oficiale de garanție la care faceți referire în răspuns (întrebările 18, 44 și 60).\\n\\n- Raportul de testare din fabrică aferent echipamentului efectiv alocat comenzii noastre, care să ne fie transmis înainte de expediere (întrebarea 45).\\n\\n- Detaliile de expediție, cu numărul de colete, masa brută și dimensiunile fiecăruia, precum și documentele DGD pentru transportul mărfurilor periculoase, menționate ca anexe în răspunsul dumneavoastră (întrebările 52 și 55).\\n\\n- Proforma revizuită, cu adresele de facturare și livrare indicate separat și condiția DAP Alba Iulia, str. Theodor Pallady nr. 5, conform Incoterms 2020, precum și confirmarea costului transportului față de cei 1.650 EUR ofertați (întrebarea 56).\\n\\n- Anexa la acordul comercial privind disponibilitatea și prețurile pieselor de schimb critice, respectiv unitățile de stingere cu aerosol și cutia de declanșare, grupul de climatizare, modulul de baterii și placa BMU, precum și suportarea costului transportului pieselor în garanție (întrebarea 63).\\n\\nSuplimentar, vă rugăm să ne transmiteți procedura oficială, pas cu pas, de pornire de la zero a configurației livrate, inclusiv pornirea fără rețea prin Black Start și repornirea după oprirea completă a bateriei.\\n\\nNe-ar fi util ca procedura să precizeze condițiile necesare, ordinea operațiunilor și situațiile în care este necesară intervenția manuală la amplasament, inclusiv atunci când revine producția fotovoltaică.\\n\\nSe pare că anexele menționate în mesajul dumneavoastră nu au ajuns la noi, astfel încât vă rugăm să ni le retransmiteți, eventual printr-un link de descărcare.\\n\\nVă rugăm să includeți în documentele comerciale actualizate confirmarea prețului și termenul ferm de livrare.\\n\\nVă mulțumim încă o dată pentru colaborare și pentru sprijinul acordat, iar noi suntem pregătiți să parcurgem împreună pașii necesari semnării contractului.\\n\\n\\nCu deosebită considerație,\\n\\nBest regards,\\n\\nCosmin Adrian Covaciu\",\n  \"attachments\": [],\n  \"reply_to_email_id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n  \"created_at\": \"2026-10-13T14:36:54.631326Z\",\n  \"updated_at\": \"2026-10-13T14:50:34.444203Z\",\n  \"note\": \"Salvată în EVA → Drafts; trimiterea se face din EVA.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "id": "d091e483-4942-4b33-8254-62e91b85eba3",
+      "kind": "reply",
+      "source": "chatgpt",
+      "status": "pending",
+      "account_id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+      "account_email": "covaciu.gnm@gmail.com",
+      "to": [
+        "sebastian.b@kstar.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+      "body": "Bună ziua, domnule Babu,\n\nVă mulțumim foarte mult pentru răspunsul detaliat și pentru timpul acordat de dumneavoastră și de colegii din echipa tehnică și comercială KSTAR.\n\nApreciem atenția cu care ați analizat solicitarea noastră, deschiderea și sprijinul oferit pentru pregătirea acestui proiect.\n\nDorim să demarăm semnarea contractului și să avansăm către lansarea comenzii.\n\nÎn acest sens, vă rugăm să ne transmiteți proiectul de Sales Agreement, cu structura de plată propusă de 30% avans la semnarea contractului și confirmarea comenzii, respectiv 70% înainte de expediere, pe baza raportului de testare aferent echipamentului alocat și a documentelor de expediție.\n\nÎn privința celulelor bateriei, vă rugăm să ne confirmați producătorul și capacitatea acestora, exprimată în Ah, pentru echipamentul care va fi livrat.\n\nSperăm să putem beneficia de celule CATL și v-am fi recunoscători dacă ne-ați confirma posibilitatea asigurării acestei variante pentru comanda noastră, ținând cont de precizarea dumneavoastră privind stocul disponibil.\n\nVă rugăm să ne transmiteți fișa tehnică oficială aferentă variantei propuse, cu identificarea producătorului și a capacității celulelor.\n\nPentru completarea documentației proiectului, revenim cu lista documentelor solicitate în mesajul inițial, păstrând referințele la întrebările respective:\n\n- Manualul și fișa tehnică ale modelului de baterie efectiv livrat, precum și fișa tehnică și manualul de utilizare ale convertorului KAC50DP2 (întrebările 6 și 19).\n\n- Certificatul de conformitate cu cerințele aplicabile în România pentru unități generatoare, emis conform Regulamentului (UE) 2016/631, împreună cu parametrii protecției de interfață și funcțiile de deconectare la insularizare (întrebarea 23).\n\n- Desenul de fundație cotat și schema de împământare, pentru a le preda proiectantului, precum și planul de amplasare cu distanțele minime de siguranță și cerințele de protecție la incendiu menționate în răspunsul dumneavoastră (întrebările 31 și 32).\n\n- Schema de montaj a contorului YDS60-80, cu poziția și sensul transformatoarelor de curent (întrebarea 34).\n\n- Documentația de protocol și listele de registre Modbus TCP și RTU pentru EMS și BMS (întrebarea 39).\n\n- Setul de documente de conformitate pentru configurația livrată: declarația de conformitate CE, certificatele IEC 62619 și IEC 63056 sau echivalent pentru sistemul de baterii, IEC 62477, respectiv IEC 62109 pentru convertor, raportul UN 38.3, fișa cu date de securitate și rapoartele de încercare la foc ale ansamblului (întrebarea 43).\n\n- Modelele certificatului de conformitate, raportului de testare din fabrică și certificatului de garanție, împreună cu condițiile oficiale de garanție la care faceți referire în răspuns (întrebările 18, 44 și 60).\n\n- Raportul de testare din fabrică aferent echipamentului efectiv alocat comenzii noastre, care să ne fie transmis înainte de expediere (întrebarea 45).\n\n- Detaliile de expediție, cu numărul de colete, masa brută și dimensiunile fiecăruia, precum și documentele DGD pentru transportul mărfurilor periculoase, menționate ca anexe în răspunsul dumneavoastră (întrebările 52 și 55).\n\n- Proforma revizuită, cu adresele de facturare și livrare indicate separat și condiția DAP Alba Iulia, str. Theodor Pallady nr. 5, conform Incoterms 2020, precum și confirmarea costului transportului față de cei 1.650 EUR ofertați (întrebarea 56).\n\n- Anexa la acordul comercial privind disponibilitatea și prețurile pieselor de schimb critice, respectiv unitățile de stingere cu aerosol și cutia de declanșare, grupul de climatizare, modulul de baterii și placa BMU, precum și suportarea costului transportului pieselor în garanție (întrebarea 63).\n\nSuplimentar, vă rugăm să ne transmiteți procedura oficială, pas cu pas, de pornire de la zero a configurației livrate, inclusiv pornirea fără rețea prin Black Start și repornirea după oprirea completă a bateriei.\n\nNe-ar fi util ca procedura să precizeze condițiile necesare, ordinea operațiunilor și situațiile în care este necesară intervenția manuală la amplasament, inclusiv atunci când revine producția fotovoltaică.\n\nSe pare că anexele menționate în mesajul dumneavoastră nu au ajuns la noi, astfel încât vă rugăm să ni le retransmiteți, eventual printr-un link de descărcare.\n\nVă rugăm să includeți în documentele comerciale actualizate confirmarea prețului și termenul ferm de livrare.\n\nVă mulțumim încă o dată pentru colaborare și pentru sprijinul acordat, iar noi suntem pregătiți să parcurgem împreună pașii necesari semnării contractului.\n\n\nCu deosebită considerație,\n\nBest regards,\n\nCosmin Adrian Covaciu",
+      "attachments": [],
+      "reply_to_email_id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+      "created_at": "2026-10-13T14:36:54.631326Z",
+      "updated_at": "2026-10-13T14:50:34.444203Z",
+      "note": "Salvată în EVA → Drafts; trimiterea se face din EVA."
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 516
+}
+````
+
+## Asistent
+
+Am actualizat și verificat draftul în **EVA → Drafts**:
+
+- Fiecare frază este pe un rând separat.
+- Documentele sunt enumerate explicit, cu referire la întrebările inițiale.
+- Am cerut procedura de pornire de la zero, inclusiv **Black Start** și repornirea după oprirea completă.
+- Am precizat că vrem să demarăm semnarea contractului cu plata **30%/70%**.
+
+Mesajul rămâne netrimis.
+
+## Asistent
+
+Voi verifica dacă au sosit clarificări de la KSTAR și voi programa verificarea în EVA-Mail zilnic la 09:00 și 16:00, ora României, cu notificare când apar noutăți.
+
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-a513b1da-3366-40ac-8f5d-b84a0182be64",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_emails",
+  "status": "completed",
+  "arguments": {
+    "sender": "kstar.com",
+    "date_from": "2026-10-12",
+    "is_sent": false,
+    "limit": 30
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_emails"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"18d8f682-5228-4e72-a484-bc2ef4fd107e\",\n      \"account_email\": \"covaciu.gnm@gmail.com\",\n      \"subject\": \"Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii\",\n      \"from_name\": \"Sebastian B.\",\n      \"from_address\": \"sebastian.b@kstar.com\",\n      \"to\": [\n        \"covaciu.gnm@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-12T10:12:06Z\",\n      \"snippet\": \"Stimate domnule Cosmin Covaciu, Vă mulțumim pentru interesul acordat echipamentelor KSTAR și pentru analiza detaliată transmisă. Ca urmare a adresei dumneavoastră din data de 15.09.2026, vă prezentăm\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"IMPORTANT\",\n        \"CATEGORY_PERSONAL\",\n        \"INBOX\",\n        \"6: Travel\",\n        \"Label_43901\"\n      ],\n      \"folder\": \"Sebastian B.\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 30,\n  \"offset\": 0\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "18d8f682-5228-4e72-a484-bc2ef4fd107e",
+          "account_email": "covaciu.gnm@gmail.com",
+          "subject": "Re: PI KSTAR-PI-A20260915-01 / BESS 50 kW - solicitare de clarificari (63 intrebari numerotate) prealabil confirmarii comenzii",
+          "from_name": "Sebastian B.",
+          "from_address": "sebastian.b@kstar.com",
+          "to": [
+            "covaciu.gnm@gmail.com"
+          ],
+          "received_at": "2026-10-12T10:12:06Z",
+          "snippet": "Stimate domnule Cosmin Covaciu, Vă mulțumim pentru interesul acordat echipamentelor KSTAR și pentru analiza detaliată transmisă. Ca urmare a adresei dumneavoastră din data de 15.09.2026, vă prezentăm",
+          "category": "fyi",
+          "labels": [
+            "UNREAD",
+            "IMPORTANT",
+            "CATEGORY_PERSONAL",
+            "INBOX",
+            "6: Travel",
+            "Label_43901"
+          ],
+          "folder": "Sebastian B.",
+          "is_read": true,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        }
+      ],
+      "total": 1,
+      "limit": 30,
+      "offset": 0
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 663
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-90ffb8f5-1eb9-42f0-8ab2-d25dcc19689e",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content 'C:\\\\Users\\\\User\\\\.codex\\\\skills\\\\.system\\\\openai-docs\\\\SKILL.md'\"",
+  "cwd": "\\\\192.168.100.169\\Comun\\00. Proiecte 2025\\AFIR FotoVoltaic 1",
+  "processId": "66418",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "read",
+      "command": "Get-Content 'C:\\Users\\User\\.codex\\skills\\.system\\openai-docs\\SKILL.md'",
+      "name": "SKILL.md",
+      "path": "C:\\Users\\User\\.codex\\skills\\.system\\openai-docs\\SKILL.md"
+    }
+  ],
+  "aggregatedOutput": "---\r\nname: \"openai-docs\"\r\ndescription: \"Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding agent' when they refer to Codex—and for OpenAI APIs/products and ChatGPT Work. Also use for model choice/migration, prompting, SDKs, Responses, Realtime, agents, evals, and Chat/Work/Codex comparisons. Do not use for generic app/software tasks that merely mention Codex.\"\r\nmetadata:\r\n  short-description: \"Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, and self-knowledge; OpenAI APIs and ChatGPT Work. 'You'/'this app' means Codex only.\"\r\n---\r\n\r\n# OpenAI Docs\r\n\r\nProvide current, cited OpenAI product, API, model, and Codex guidance. Read zero or one primary reference.\r\n\r\n**First substantive action:** Search the user's exact requested official OpenAI documentation topic and any explicitly named model using a concise, topic-specific query of 2-6 essential terms. When an already-available direct official documentation search and page-retrieval capability is present, use it first: search, then fetch or open the matching official page before general web search. Otherwise, immediately use official-domain web search, then actually open or fetch the relevant official page. Complete this source order before reading a reference, inspecting local or repository files, running a Codex manual or model resolver, drafting a plan, or answering from memory. Use the actual fetched page, not a search snippet or an unopened link. If one official search or page does not establish the answer, search another appropriate official domain and actually open or fetch the result. Preserve the exact requested model; never substitute a newer model.\r\n\r\n**Only exception:** An explicitly requested, genuinely broad, cross-topic Codex setup, orientation, or system-map synthesis may use the manual first when shell execution and an allowed temporary cache are available. A specific Codex feature, setting, command, error, model, or requested citation remains docs-first. Mixed Chat/Work/Codex comparisons are official documentation questions, not manual-first Codex requests.\r\n\r\nFor generic software tasks, answer the software task directly. OpenAI implementation, debugging, SDK, API, prompting, agent, and eval requests are not generic.\r\n\r\nFor a straightforward factual or citation-only request, follow the source order and do not read a route reference. This includes straightforward API facts, ChatGPT Work or mixed Chat/Work/Codex comparisons, model tiers, aliases, Pro mode, reasoning settings, factual migration baselines, and narrow Codex facts. Prioritize `learn.chatgpt.com` for ChatGPT Work.\r\n\r\n## Choose one primary route\r\n\r\nUse the first matching route, and read its reference only when the requested task needs that specialized workflow:\r\n\r\n- **Explicitly requested local documentation integration:** Read [integration guidance](references/mcp-diagnostics.md) only when the user explicitly requests that local integration.\r\n- **Model migration, upgrades, or model-specific prompting:** Read [model-migration.md](references/model-migration.md) for actual migration planning, implementation, dynamic target resolution, or prompt changes. Preserve an explicitly requested target.\r\n- **Model selection and comparisons:** Read [model-selection.md](references/model-selection.md) only when nuanced current, latest, default, cost, latency, quality, or modality tradeoffs need more guidance. Do not run a migration resolver for selection alone.\r\n- **Product, API, ChatGPT Work, and mixed Chat/Work/Codex documentation:** Read [official-docs.md](references/official-docs.md) only when fetched official pages leave source selection, API schemas, or the requested implementation unresolved. This route is not manual-first.\r\n- **Explicitly broad Codex setup, orientation, or cross-topic synthesis:** Read [codex-self-knowledge.md](references/codex-self-knowledge.md) when the eligible Codex manual or deeper Codex procedures are needed.\r\n\r\nRead at most one primary reference. Do not open every route, bundled model guide, or helper script. Read a supporting reference or run a helper only when the chosen workflow demonstrably needs it.\r\n\r\n## Source and execution boundaries\r\n\r\n- Search, open, fetch, and cite only `developers.openai.com`, `platform.openai.com`, and `learn.chatgpt.com`. Cite the page that supports the claim. State uncertainty when official sources do not establish pricing, availability, account access, limits, or behavior.\r\n- Preserve an explicitly requested model for selection, migration, and prompting. Resolve an unspecified latest or current migration target only after searching and fetching current official guidance.\r\n- Use `references/latest-model.md` only as a disclosed fallback after current official model guidance does not answer the question. Read `references/upgrading-to-gpt-6-astra.md` only for an actual, requested GPT-6 migration; read `references/prompting-guide.md` only for requested prompting work.\r\n- Before building, running, editing, debugging, or testing an API-backed app or tool, use `openai-platform-api-key` first when available. Documentation, conceptual examples, model selection, and read-only guidance do not require an API key.\r\n- Say \"OpenAI Docs\" or \"official OpenAI documentation\" in user-facing answers. Keep exact official citations and examples concise.\r\n",
+  "exitCode": 0,
+  "durationMs": 765
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-6f75e74a-747d-4ebb-a126-ecb76bd1d1c0",
+  "server": "codex_apps",
+  "tool": "eva_mail.eva_search_emails",
+  "status": "completed",
+  "arguments": {
+    "query": "KSTAR",
+    "date_from": "2026-10-13",
+    "is_sent": false,
+    "limit": 30
+  },
+  "appContext": {
+    "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+    "linkId": "link_6abcd8be8710819187644402b40cbc40",
+    "resourceUri": null,
+    "appName": "Eva-Mail",
+    "actionName": "eva_search_emails"
+  },
+  "mcpAppUi": null,
+  "pluginId": null,
+  "readOnlyHint": true,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"items\": [\n    {\n      \"id\": \"60b50e65-41da-4ccc-ba6f-6c813024c364\",\n      \"account_email\": \"vaidae104@gmail.com\",\n      \"subject\": \"Welcome to the Claude Platform\",\n      \"from_name\": \"Claude Team\",\n      \"from_address\": \"no-reply@email.claude.com\",\n      \"to\": [\n        \"vaidae104@gmail.com\"\n      ],\n      \"received_at\": \"2026-10-14T17:16:51Z\",\n      \"snippet\": \"Get your API key, add credits, and make your first request in a few minutes. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"UNREAD\",\n        \"CATEGORY_UPDATES\",\n        \"INBOX\",\n        \"8: Marketing\",\n        \"Label_85\"\n      ],\n      \"folder\": \"Claude Team\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 30,\n  \"offset\": 0\n}"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "60b50e65-41da-4ccc-ba6f-6c813024c364",
+          "account_email": "vaidae104@gmail.com",
+          "subject": "Welcome to the Claude Platform",
+          "from_name": "Claude Team",
+          "from_address": "no-reply@email.claude.com",
+          "to": [
+            "vaidae104@gmail.com"
+          ],
+          "received_at": "2026-10-14T17:16:51Z",
+          "snippet": "Get your API key, add credits, and make your first request in a few minutes. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+          "category": "fyi",
+          "labels": [
+            "UNREAD",
+            "CATEGORY_UPDATES",
+            "INBOX",
+            "8: Marketing",
+            "Label_85"
+          ],
+          "folder": "Claude Team",
+          "is_read": false,
+          "is_starred": false,
+          "is_sent": false,
+          "has_attachments": false,
+          "attachment_names": []
+        }
+      ],
+      "total": 1,
+      "limit": 30,
+      "offset": 0
+    },
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "EVA",
+        "title": "EVA — asistentul tău de email",
+        "version": "1.0.0",
+        "websiteUrl": "https://mail.eva-org.com",
+        "icons": [
+          {
+            "src": "https://mail.eva-org.com/icons/icon-512.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "512x512"
+            ]
+          },
+          {
+            "src": "https://mail.eva-org.com/icons/icon-192.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "192x192"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "error": null,
+  "durationMs": 674
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-00235647-7089-4bb9-9bdb-788e7fd08e2f",
+  "server": "codex_app",
+  "tool": "automation_update",
+  "status": "failed",
+  "arguments": {
+    "mode": "create",
+    "kind": "heartbeat",
+    "name": "Verificare noutăți KSTAR în EVA-Mail",
+    "prompt": "Verifică în EVA-Mail dacă au sosit mesaje noi relevante de la KSTAR sau despre comanda BESS 50 kW, proforma KSTAR-PI-A20260915-01 și corespondența cu Sebastian Babu. Verifică mesajele primite, inclusiv cele deja citite, și citește integral mesajele noi și anexele accesibile. Ultimul răspuns cunoscut este emailul din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; verificarea din 16 octombrie nu a identificat răspunsuri ulterioare. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale, documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate pentru a evita notificările duplicate. Dacă apar noutăți, anunță utilizatorul în română, cu data și expeditorul, un rezumat al clarificărilor și documentelor primite și ce necesită atenția sa. Rămâi discret dacă nu există noutăți; notifică doar o schimbare relevantă, o eroare de verificare sau o acțiune necesară din partea utilizatorului. Nu trimite emailuri și nu modifica drafturi. Rulează zilnic la 09:00 și 16:00 în fusul Europe/Bucharest.",
+    "rrule": "FREQ=DAILY;BYHOUR=9,16;BYMINUTE=0;BYSECOND=0",
+    "status": "ACTIVE"
+  },
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "automation_update received invalid arguments: targetThreadId: Missing targetThreadId or destination=thread."
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 16
+}
+````
+
+## mcpToolCall
+
+````json
+{
+  "type": "mcpToolCall",
+  "id": "exec-81d3a88f-3074-40bd-8343-26b363fd78c6",
+  "server": "codex_app",
+  "tool": "automation_update",
+  "status": "completed",
+  "arguments": {
+    "mode": "create",
+    "kind": "heartbeat",
+    "destination": "thread",
+    "name": "Verificare noutăți KSTAR în EVA-Mail",
+    "prompt": "Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.",
+    "rrule": "FREQ=DAILY;BYHOUR=9,16;BYMINUTE=0;BYSECOND=0",
+    "status": "ACTIVE"
+  },
+  "appContext": null,
+  "mcpAppUi": null,
+  "pluginId": "codex-app-tools@openai-bundled",
+  "readOnlyHint": null,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Created automation in the app."
+      },
+      {
+        "type": "text",
+        "text": "{\"automationId\":\"verificare-nout-i-kstar-n-eva-mail\",\"mode\":\"create\",\"status\":\"ACTIVE\"}"
+      }
+    ],
+    "structuredContent": null,
+    "_meta": null
+  },
+  "error": null,
+  "durationMs": 69
+}
+````
+
+## Asistent
+
+Nu am găsit clarificări noi în EVA-Mail. Ultimul răspuns KSTAR rămâne cel din **12 octombrie**, pe care l-am analizat deja.
+
+Am activat verificarea zilnică la **09:00 și 16:00, ora României**. Te voi anunța când apar mesaje sau documente noi relevante.
