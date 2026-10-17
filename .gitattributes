@@ -875,3 +875,5 @@ AFIR-FotoVoltaic[[:space:]]Production/Identifică[[:space:]]fabrica[[:space:]]de
 AFIR-FotoVoltaic[[:space:]]Production/Verifică[[:space:]]obligativitatea[[:space:]]activității/fisiere/02_Pagini_originale_cu_toate_referintele--beb0147d.pdf filter=lfs diff=lfs merge=lfs -text
 3D.AppleScan/subagenti/Fara[[:space:]]titlu--08646673/istoric.json filter=lfs diff=lfs merge=lfs -text
 3D.AppleScan/subagenti/Fara[[:space:]]titlu--08646673/rezultate.md filter=lfs diff=lfs merge=lfs -text
+3D.AppleScan/subagenti/Fara[[:space:]]titlu--08646673/istoric.json filter=lfs diff=lfs merge=lfs -text
+3D.AppleScan/subagenti/Fara[[:space:]]titlu--08646673/rezultate.md filter=lfs diff=lfs merge=lfs -text

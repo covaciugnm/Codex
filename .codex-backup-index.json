@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "7f16759873ae8ccfca8366f95b75b93b2821e4635064f43b3bfd0de3626b0e67",
-      "snapshot_utc": "2026-10-16T19:52:15.937314+00:00",
+      "content_sha256": "2700b79badd96c1eaa982195d333c05a41efe881cac1556284e48559f7cd994b",
+      "snapshot_utc": "2026-10-17T01:55:17.264578+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -133,5 +133,5 @@
       "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-16T20:00:27.947091+00:00"
+  "updated_at_utc": "2026-10-17T02:03:13.440512+00:00"
 }
