@@ -2,7 +2,7 @@
 
 ID: `01a13578-7898-7362-aaf7-f9cefb8e4c53`  
 Proiect: AFIR-FotoVoltaic Production  
-Export UTC: 2026-10-16T19:52:15.937314+00:00
+Export UTC: 2026-10-17T07:58:52.527844+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -286,3 +286,23 @@ Voi verifica dacă au sosit clarificări de la KSTAR și voi programa verificare
 Nu am găsit clarificări noi în EVA-Mail. Ultimul răspuns KSTAR rămâne cel din **12 octombrie**, pe care l-am analizat deja.
 
 Am activat verificarea zilnică la **09:00 și 16:00, ora României**. Te voi anunța când apar mesaje sau documente noi relevante.
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-nout-i-kstar-n-eva-mail</automation_id>
+  <current_time_iso>2026-10-17T06:03:05.022Z</current_time_iso>
+  <instructions>
+Verifică în EVA-Mail mesajele noi relevante de la KSTAR și corespondența cu Sebastian Babu despre BESS 50 kW și proforma KSTAR-PI-A20260915-01, inclusiv mesajele deja citite. Ultimul răspuns cunoscut este din 12 octombrie 2026, ID 18d8f682-5228-4e72-a484-bc2ef4fd107e; la verificarea din 16 octombrie nu au fost identificate răspunsuri ulterioare. Citește integral mesajele noi și anexele accesibile. Urmărește clarificarea producătorului și capacității celulelor, preferința pentru CATL, fișele oficiale și documentele solicitate, procedura de pornire de la zero/Black Start și contractul cu plata propusă 30%/70%. Păstrează evidența mesajelor deja raportate. Anunță utilizatorul în română doar când apar noutăți relevante, o eroare de verificare sau o acțiune necesară; include data, expeditorul și un rezumat clar al mesajelor și documentelor noi. Rămâi discret dacă situația este neschimbată și evită notificările duplicate. Nu trimite emailuri și nu modifica drafturi. Verificările se fac zilnic la 09:00 și 16:00, ora Europe/Bucharest.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+Verific în EVA-Mail dacă au sosit noutăți de la KSTAR.
+
+
+## Asistent
+
+

@@ -1,10 +1,10 @@
 # ANABI-Licitatii
 
-Conversații: 2; subagenți: 4; mesaje: 40; fișiere copiate: 34.
+Conversații: 2; subagenți: 4; mesaje: 42; fișiere copiate: 34.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
-| [Compară ofertele auto ANABI](Compar%C4%83%20ofertele%20auto%20ANABI/conversatie.md) | Conversație | 28 |
+| [Compară ofertele auto ANABI](Compar%C4%83%20ofertele%20auto%20ANABI/conversatie.md) | Conversație | 30 |
 | [Fara titlu](subagenti/Fara%20titlu/conversatie.md) | Subagent | 1 |
 | [Fara titlu](subagenti/Fara%20titlu--bba8a3e3/conversatie.md) | Subagent | 3 |
 | [Fara titlu](subagenti/Fara%20titlu--ff113266/conversatie.md) | Subagent | 1 |

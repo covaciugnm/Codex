@@ -32,14 +32,14 @@
     },
     "a62819fc-eecd-41a3-acfa-724e26db8d88": {
       "name": "AFIR-FotoVoltaic Production",
-      "content_sha256": "0768e7e9e61b5227cc07a189f6abcb531bf221930eab7cfae5526956c809f6c2",
-      "snapshot_utc": "2026-10-16T19:52:15.937314+00:00",
+      "content_sha256": "cc43e66aa5ac9da43e18ae720b29d404b687f245fbc5360952b6f0ff6bf5cb62",
+      "snapshot_utc": "2026-10-17T07:58:52.527844+00:00",
       "folder": "AFIR-FotoVoltaic Production"
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "4365647c1b36dd23bdbecfcb1166676d6126bf694eb6f5016fe8ec340caeb602",
-      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
+      "content_sha256": "ea0de035faa65c336c714f65a9824fd3193df280431165ef285f8f3254d1384d",
+      "snapshot_utc": "2026-10-17T07:58:52.527844+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "2700b79badd96c1eaa982195d333c05a41efe881cac1556284e48559f7cd994b",
-      "snapshot_utc": "2026-10-17T01:55:17.264578+00:00",
+      "content_sha256": "34b52448fafc00dceced82f1f7b9da54f2a146b2f7b8cb418f8d7a3cd8d2164b",
+      "snapshot_utc": "2026-10-17T07:58:52.527844+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -122,8 +122,8 @@
     },
     "5bad9d98-be40-4d1c-86ef-6d65a2e0d593": {
       "name": "ANABI-Licitatii",
-      "content_sha256": "fb1be8de9f511918f28637dff11d87a272acb286dede5770e0a6ae8966899a0d",
-      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
+      "content_sha256": "da1c7f44744bea5a18a5d892d4e4225ef90e0cd761b3f4dd2f06382cc61e601a",
+      "snapshot_utc": "2026-10-17T07:58:52.527844+00:00",
       "folder": "ANABI-Licitatii"
     },
     "e3898c8c-1e2e-422a-a23f-35ea1ed61beb": {
@@ -133,5 +133,5 @@
       "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-17T02:03:13.440512+00:00"
+  "updated_at_utc": "2026-10-17T08:08:10.436155+00:00"
 }

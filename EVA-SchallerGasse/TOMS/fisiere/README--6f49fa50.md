@@ -1,3 +1,23 @@
+2026.10.17 09:57:41 — Verificare punctuală BERGER/PECH
+Status scurt: Nicio comunicare, observație contractuală, contrapropunere, modificare de preț/servicii, calendar, anexă ori notificare nouă de nelivrare identificată pentru BERGER/PECH.
+Ultimul răspuns: niciunul nou. Propunerile R09 sunt trimise la 2026.10.13; primirea și acceptarea nu sunt confirmate, iar un contract semnat nu este identificat.
+Următorul pas: următoarea verificare programată. Nicio acțiune nouă necesară pe baza acestei verificări.
+Acoperire: 2026.10.15–2026.10.17; 18 căutări, 18 pagini, paginate integral; comparație cu 824 ID-uri din arhivă, inclusiv actualizarea generală de la 08:00.
+Sincronizări raportate pentru 2026.10.17: office 09:30:15, Gmail 06:57:24, ora României. Mesajele încă nesincronizate pot lipsi; căsuțele shared/team nesearchable nu sunt acoperite.
+Sursă: 08. Corespondenta/2026.10.17 Verificare Berger Pech/2026.10.17 09-57-41 Dovezi verificare EVA.json
+Nu s-au trimis emailuri, modificat documente comerciale, semnat contracte sau efectuat plăți. Acoperirea generală a celorlalți parteneri rămâne la verificarea separată de astăzi.
+
+ISTORIC PĂSTRAT
+
+2026.10.17 — Verificare generală zilnică
+Status scurt: O comunicare relevantă nouă: CERHA HEMPEL confirmă primirea plății de 2.640,22 EUR aferente facturii 26/30363. Nu au fost identificate alte comunicări sau oferte noi în acoperirea verificată.
+Ultimul răspuns: 2026.10.16, Bogdan Capra: „Va confirmam ca am receptionat plata. Multumim.”; mesaj primit, fără CC, ID 361b1e1f-9eaf-4591-bb78-bf832ae4706b.
+Următorul pas: Arhivarea confirmării este finalizată. Nu mai este necesară o nouă cerere de confirmare pentru această plată; celelalte dosare/facturi se urmăresc separat.
+Sursă: 08. Corespondenta/2026.10.17 Verificare zilnica/2026.10.17 Raport verificare zilnica.txt; email integral: 08. Corespondenta/2026.10.17 Verificare zilnica/2026.10.16 08-38 PRIMIT CERHA HEMPEL 361b1e1f.txt
+Acoperire: 64 de căutări și 64 de pagini pentru 2026.10.15–2026.10.17; office 08:00:15, Gmail 04:50:34, IPEC 08:00:06, orele României. Fără expediere, semnare ori plată.
+
+ISTORIC PĂSTRAT
+
 2026.10.16 16:00:38 — Verificare punctuală BERGER/PECH
 Status scurt: Nu au fost identificate comunicări, contrapropuneri, observații, schimbări de preț/servicii, calendare, atașamente sau notificări noi de nelivrare pentru cei doi parteneri.
 Ultimul răspuns: niciun răspuns nou. Propunerile R09 trimise la 2026.10.13 rămân fără primire ori acceptare confirmată. Nu există o confirmare nouă de contract semnat.
