@@ -2,7 +2,7 @@
 
 ID: `01a0f6eb-c105-7760-973e-241d6f6be8c1`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-17T07:58:52.527844+00:00
+Export UTC: 2026-10-17T13:55:29.430689+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -1908,4 +1908,23 @@ Verifică zilnic la orele 10:00 și 16:00, Europe/Bucharest, dacă există nout�
   <automation_id>verificare-emailuri-berger-i-pech</automation_id>
   <decision>DONT_NOTIFY</decision>
   <message>Nu am identificat mesaje sau atașamente noi BERGER/PECH. Sincronizare raportată pentru 2026.10.17: office 09:30, Gmail 06:57, ora României; mesajele încă nesincronizate pot lipsi. Jurnalele și indexul sunt actualizate.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>verificare-emailuri-berger-i-pech</automation_id>
+  <current_time_iso>2026-10-17T12:58:11.452Z</current_time_iso>
+  <instructions>
+Verifică zilnic la orele 10:00 și 16:00, Europe/Bucharest, dacă există noutăți în discuțiile pe email cu BERGER și PECH pentru Schallergasse 35, 1120 Wien. Citește mai întâi folder map/README.md, inventarul și cele mai recente registre/statusuri din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling). În Eva-Mail verifică mesajele primite și trimise din office@ac-wohnart.at și covaciu.gnm@gmail.com și caută global după bmberger.at, zt-pech.at, office@bmberger.at, sekretariat@zt-pech.at, ployer@zt-pech.at, adresă și referințele din cele mai recente contracte/oferte. Include notificările de nelivrare pentru mesajele către acești doi parteneri. Caută de la ultima verificare cu suprapunere de o zi, verifică ultima sincronizare a căsuțelor, paginează toate rezultatele și compară ID-urile cu arhiva pentru a evita raportarea repetată a noutăților deja înregistrate, inclusiv la verificarea generală de la 08:00. Citește integral mesajele noi relevante și originalele pentru sume și decizii. Salvează mesajele și atașamentele relevante cu metadatele originale, dată, subiect, expeditor, destinatari, CC, ID Eva-Mail și statut primit/trimis/draft. Folosește YYYY.MM.DD la începutul numelor documentelor noi și în rezumate; păstrează istoricul, actualizează jurnalul proiectului și jurnalul partenerului cu status scurt, ultimul răspuns, următorul pas și sursa, apoi indexul incremental. Afișează în acest chat, în română, numai noutățile BERGER/PECH: răspunsuri și observații asupra contractelor, contrapropuneri, modificări de preț sau servicii, termene/calendar, atașamente noi și acțiuni necesare, cu surse. Distinge draftul de mesajul trimis, trimiterea de primirea confirmată și oferta/propunerea de contractul acceptat ori semnat. Dacă nu există noutăți, raportează concis acest lucru și limitele sincronizării. Nu trimite emailuri, nu modifica documentele comerciale, nu semna contracte și nu efectua plăți.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>verificare-emailuri-berger-i-pech</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Nu am identificat mesaje sau atașamente noi BERGER/PECH. Sincronizare raportată pentru 2026.10.17: office 15:30, Gmail 11:50, ora României; mesajele încă nesincronizate pot lipsi. Jurnalele și indexul sunt actualizate.</message>
 </heartbeat>

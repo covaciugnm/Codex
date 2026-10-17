@@ -32,14 +32,14 @@
     },
     "a62819fc-eecd-41a3-acfa-724e26db8d88": {
       "name": "AFIR-FotoVoltaic Production",
-      "content_sha256": "cc43e66aa5ac9da43e18ae720b29d404b687f245fbc5360952b6f0ff6bf5cb62",
-      "snapshot_utc": "2026-10-17T07:58:52.527844+00:00",
+      "content_sha256": "0f3ec8c0d0abc7ad8f54333aaf151979971f34a67a488e91c3bbbce1371a62d9",
+      "snapshot_utc": "2026-10-17T13:55:29.430689+00:00",
       "folder": "AFIR-FotoVoltaic Production"
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "ea0de035faa65c336c714f65a9824fd3193df280431165ef285f8f3254d1384d",
-      "snapshot_utc": "2026-10-17T07:58:52.527844+00:00",
+      "content_sha256": "90825fbf4ea33552ad01dee582897b7b94e8630a7ce9174941cb2ef6c1e80974",
+      "snapshot_utc": "2026-10-17T13:55:29.430689+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "34b52448fafc00dceced82f1f7b9da54f2a146b2f7b8cb418f8d7a3cd8d2164b",
-      "snapshot_utc": "2026-10-17T07:58:52.527844+00:00",
+      "content_sha256": "3f62554d95c8edb4bc49a57e0b2e53c9b821d2c7b6824136ddcaeaa99fde2a24",
+      "snapshot_utc": "2026-10-17T13:55:29.430689+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -133,5 +133,5 @@
       "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-17T08:08:10.436155+00:00"
+  "updated_at_utc": "2026-10-17T14:04:40.611198+00:00"
 }
