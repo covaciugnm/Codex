@@ -2,7 +2,7 @@
 
 ID: `01a139c8-1f14-7ca2-b3e9-86ad07c816f7`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-10-18T07:57:49.755838+00:00
+Export UTC: 2026-10-18T14:02:52.615363+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
