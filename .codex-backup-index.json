@@ -2,8 +2,8 @@
   "projects": {
     "5c179290-3222-4036-8042-710f2e84db88": {
       "name": "Comun",
-      "content_sha256": "9d563da88bd4370e9e46c09f26d6b71c0c73e57466e8274298d7802e18664dd7",
-      "snapshot_utc": "2026-10-16T13:46:40.036744+00:00",
+      "content_sha256": "f158a81bf045c6ccd3e7be2d6ec107251940398f6ff54f1d1a5d1d0cdfb5b61b",
+      "snapshot_utc": "2026-10-18T07:57:49.755838+00:00",
       "folder": "Comun"
     },
     "59b8aaaa-7677-449b-b80b-e79b02b3b9ab": {
@@ -32,14 +32,14 @@
     },
     "a62819fc-eecd-41a3-acfa-724e26db8d88": {
       "name": "AFIR-FotoVoltaic Production",
-      "content_sha256": "0f3ec8c0d0abc7ad8f54333aaf151979971f34a67a488e91c3bbbce1371a62d9",
-      "snapshot_utc": "2026-10-17T13:55:29.430689+00:00",
+      "content_sha256": "f6758dda3a36d2ce02d89441271494124bf0b969493038dc770786972c56f02a",
+      "snapshot_utc": "2026-10-18T07:57:49.755838+00:00",
       "folder": "AFIR-FotoVoltaic Production"
     },
     "88071415-6de0-43ab-a220-10f6d6515e0e": {
       "name": "EVA-SchallerGasse",
-      "content_sha256": "90825fbf4ea33552ad01dee582897b7b94e8630a7ce9174941cb2ef6c1e80974",
-      "snapshot_utc": "2026-10-17T13:55:29.430689+00:00",
+      "content_sha256": "2cd363b34dcec58baf4f7a6c5991214abbf38c2b17bcef308d79af91aa0688e1",
+      "snapshot_utc": "2026-10-18T07:57:49.755838+00:00",
       "folder": "EVA-SchallerGasse"
     },
     "31efd1b1-4971-46e2-b502-e0f2cc9d92b6": {
@@ -86,8 +86,8 @@
     },
     "e7854c92-2b47-41b6-811e-be76b04f4f39": {
       "name": "3D.AppleScan",
-      "content_sha256": "a5d3f77d4f69a0ef3e393d79a3ec21d860d690af832e6dd43de93e9912e362cd",
-      "snapshot_utc": "2026-10-17T19:57:36.500200+00:00",
+      "content_sha256": "678e6120f7190a6e97bc5e5f8b6e3653c2b3cdd28a3542b6a7de3776fb476d8e",
+      "snapshot_utc": "2026-10-18T07:57:49.755838+00:00",
       "folder": "3D.AppleScan"
     },
     "4bf5f961-e996-4dbc-8c36-d744d97c97db": {
@@ -122,8 +122,8 @@
     },
     "5bad9d98-be40-4d1c-86ef-6d65a2e0d593": {
       "name": "ANABI-Licitatii",
-      "content_sha256": "da1c7f44744bea5a18a5d892d4e4225ef90e0cd761b3f4dd2f06382cc61e601a",
-      "snapshot_utc": "2026-10-17T07:58:52.527844+00:00",
+      "content_sha256": "39420d5eacd72019b5c8680cd7ab80b1ae9058f430e85d7fd225b8665d92f1d3",
+      "snapshot_utc": "2026-10-18T07:57:49.755838+00:00",
       "folder": "ANABI-Licitatii"
     },
     "e3898c8c-1e2e-422a-a23f-35ea1ed61beb": {
@@ -133,5 +133,5 @@
       "folder": "CesiroSighi"
     }
   },
-  "updated_at_utc": "2026-10-17T20:05:30.495537+00:00"
+  "updated_at_utc": "2026-10-18T08:09:54.902939+00:00"
 }

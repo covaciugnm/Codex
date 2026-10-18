@@ -7891,3 +7891,111 @@ Salvarea a trecut verificările SHA-256 și ZIP: 236 de conversații principale,
   "durationMs": 725
 }
 ````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-63abd0a4-fb08-4281-8d3c-48eea5598021",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \".\\\\Salveaza-Codex.ps1\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "51697",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": ".\\Salveaza-Codex.ps1"
+    }
+  ],
+  "aggregatedOutput": "{\"id\": \"5c179290-3222-4036-8042-710f2e84db88\", \"name\": \"Comun\", \"conversations\": 162, \"subagents\": 38, \"messages\": 31088, \"files_copied\": 1913, \"folder\": \"Comun\", \"content_sha256\": \"9d563da88bd4370e9e46c09f26d6b71c0c73e57466e8274298d7802e18664dd7\"}\r\n{\"id\": \"59b8aaaa-7677-449b-b80b-e79b02b3b9ab\", \"name\": \"dracula-design\", \"conversations\": 0, \"subagents\": 0, \"messages\": 0, \"files_copied\": 0, \"folder\": \"dracula-design\", \"content_sha256\": \"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\"}\r\n{\"id\": \"95875198-03f4-4b10-8e79-934b195cc0e8\", \"name\": \"IndustryDeveloperPrinter\", \"conversations\": 0, \"subagents\": 0, \"messages\": 0, \"files_copied\": 0, \"folder\": \"IndustryDeveloperPrinter\", \"content_sha256\": \"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\"}\r\n{\"id\": \"fb3ecc5b-d79f-4ebd-8375-45b8acdeb7c5\", \"name\": \"Indunova\", \"conversations\": 2, \"subagents\": 0, \"messages\": 163, \"files_copied\": 87, \"folder\": \"Indunova\", \"content_sha256\": \"a1dec1599913dda44787cdbfb2eca9467828d572fa0d0377166947cc30194792\"}\r\n{\"id\": \"13771f36-ff54-4018-99b0-f69f8dfdd2f8\", \"name\": \"WildMotion\", \"conversations\": 3, \"subagents\": 1, \"messages\": 81, \"files_copied\": 56, \"folder\": \"WildMotion\", \"content_sha256\": \"0d895870677e7f67f28b1c3d6e256f4fb6ace00a8075e40a026ec982a1ba5b62\"}\r\n{\"id\": \"a62819fc-eecd-41a3-acfa-724e26db8d88\", \"name\": \"AFIR-FotoVoltaic Production\", \"conversations\": 8, \"subagents\": 3, \"messages\": 147, \"files_copied\": 81, \"folder\": \"AFIR-FotoVoltaic Production\", \"content_sha256\": \"0f3ec8c0d0abc7ad8f54333aaf151979971f34a67a488e91c3bbbce1371a62d9\"}\r\n{\"id\": \"88071415-6de0-43ab-a220-10f6d6515e0e\", \"name\": \"EVA-SchallerGasse\", \"conversations\": 10, \"subagents\": 11, \"messages\": 794, \"files_copied\": 1625, \"folder\": \"EVA-SchallerGasse\", \"content_sha256\": \"90825fbf4ea33552ad01dee582897b7b94e8630a7ce9174941cb2ef6c1e80974\"}\r\n{\"id\": \"31efd1b1-4971-46e2-b502-e0f2cc9d92b6\", \"name\": \"Bloc Centru\", \"conversations\": 1, \"subagents\": 0, \"messages\": 14, \"files_copied\": 4, \"folder\": \"Bloc Centru\", \"content_sha256\": \"61d8f693594c2d6ca0347dc880276732df656a2fe82a7645439845a1125cd685\"}\r\n{\"id\": \"b56f4502-5596-48b3-ab73-9624c7b0cd4a\", \"name\": \"eDrive\", \"conversations\": 1, \"subagents\": 0, \"messages\": 29, \"files_copied\": 8, \"folder\": \"eDrive\", \"content_sha256\": \"0bda73f9f5bec03f817cf03cc01e649595998e4d1d2a85ee6bac707893ef440b\"}\r\n{\"id\": \"7310b49a-fe03-4b49-b6de-1877255e0742\", \"name\": \"FinantariRO\", \"conversations\": 4, \"subagents\": 14, \"messages\": 138, \"files_copied\": 93, \"folder\": \"FinantariRO\", \"content_sha256\": \"9b6832b2ff1c0be1aefc317127435340c66a3526162005e56ecadefa61143768\"}\r\n{\"id\": \"ec58c433-8025-4835-8910-bab2f99b913f\", \"name\": \"FinantariEU\", \"conversations\": 4, \"subagents\": 0, \"messages\": 93, \"files_copied\": 39, \"folder\": \"FinantariEU\", \"content_sha256\": \"c1dc359f96c7d0839ff0a59c40bf705d6a0d16e00341fd8e9be0216b6cbbbb9f\"}\r\n{\"id\": \"bad0be1d-5fae-412b-aa11-fef421eb951f\", \"name\": \"EVA-Learn\", \"conversations\": 3, \"subagents\": 3, \"messages\": 285, \"files_copied\": 36, \"folder\": \"EVA-Learn\", \"content_sha256\": \"11f7bfeffbd3299e622c9143a70f9eba24e497b4892669dc8dc8ded7a481a073\"}\r\n{\"id\": \"e56b444a-bcfc-4be0-8aef-18f33b0e3b74\", \"name\": \"Persoane&Firme\", \"conversations\": 2, \"subagents\": 0, \"messages\": 61, \"files_copied\": 4, \"folder\": \"Persoane&Firme\", \"content_sha256\": \"3c196a30a3f2bd499fdf08d4d3dbf62b57147b2da47bd952dc3051fa1cf7ac33\"}\r\n{\"id\": \"5ecee0ff-6b67-4fba-b6fb-a38674476433\", \"name\": \"Print.eva-org,com\", \"conversations\": 1, \"subagents\": 0, \"messages\": 16, \"files_copied\": 36, \"folder\": \"Print.eva-org,com\", \"content_sha256\": \"4d1448443c0a728ca05c25beec658c7eb4446b9b0db21266eb7044305e81ea84\"}\r\n{\"id\": \"e7854c92-2b47-41b6-811e-be76b04f4f39\", \"name\": \"3D.AppleScan\", \"conversations\": 6, \"subagents\": 19, \"messages\": 518, \"files_copied\": 275, \"folder\": \"3D.AppleScan\", \"content_sha256\": \"a5d3f77d4f69a0ef3e393d79a3ec21d860d690af832e6dd43de93e9912e362cd\"}\r\n{\"id\": \"4bf5f961-e996-4dbc-8c36-d744d97c97db\", \"name\": \"iDempiere\", \"conversations\": 15, \"subagents\": 0, \"messages\": 472, \"files_copied\": 417, \"folder\": \"iDempiere\", \"content_sha256\": \"8adbad9b4e0aa99d4dd3804e9ab620c2ebca975982f6c45066ea082f94201b9e\"}\r\n{\"id\": \"a85004ee-5acd-4f38-b445-2289450e8065\", \"name\": \"EVA-Mail\", \"conversations\": 1, \"subagents\": 0, \"messages\": 7, \"files_copied\": 0, \"folder\": \"EVA-Mail\", \"content_sha256\": \"1d36635405a13d5ecfe4a2906d9013dd3fb5dbcdfd48c0d6016069bf3a787141\"}\r\n{\"id\": \"0342b0dc-be68-43fb-b135-3d436d2d009d\", \"name\": \"Hidroelectrica\", \"conversations\": 1, \"subagents\": 0, \"messages\": 17, \"files_copied\": 8, \"folder\": \"Hidroelectrica\", \"content_sha256\": \"acbf4513dc0e570c07d86789de9eba70d1ee0dca389944a17983dd33cafdcc6a\"}\r\n{\"id\": \"73685247-92a1-4212-a650-4fcf586fc1f4\", \"name\": \"MP3.Varvi\", \"conversations\": 2, \"subagents\": 0, \"messages\": 62, \"files_copied\": 61, \"folder\": \"MP3.Varvi\", \"content_sha256\": \"08b64733cad02c08b540d6e951358b738fa9e1742083b152ee10368171e7307e\"}\r\n{\"id\": \"5bad9d98-be40-4d1c-86ef-6d65a2e0d593\", \"name\": \"ANABI-Licitatii\", \"conversations\": 2, \"subagents\": 4, \"messages\": 42, \"files_copied\": 34, \"folder\": \"ANABI-Licitatii\", \"content_sha256\": \"da1c7f44744bea5a18a5d892d4e4225ef90e0cd761b3f4dd2f06382cc61e601a\"}\r\n{\"id\": \"e3898c8c-1e2e-422a-a23f-35ea1ed61beb\", \"name\": \"CesiroSighi\", \"conversations\": 3, \"subagents\": 0, \"messages\": 74, \"files_copied\": 102, \"folder\": \"CesiroSighi\", \"content_sha256\": \"0fe964c88e7303ef740f06a6e541bd7ea4e2cb56957af18e5e70ee4741fd9680\"}\r\n{\"id\": null, \"name\": \"_Fara proiect\", \"conversations\": 10, \"subagents\": 9, \"messages\": 281, \"files_copied\": 245, \"folder\": \"_Fara proiect\", \"content_sha256\": \"a7a540f18a7dbabcb03ca5b45891b4ec31bf4fac34dff837db003f5b1aef2ecb\"}\r\nTOTALS {\"projects\": 21, \"conversations\": 241, \"subagents\": 102, \"messages\": 34382, \"internal_sessions_excluded\": 384, \"missing_rollouts\": 0, \"invalid_json_lines\": 0, \"files_copied\": 5124, \"file_reference_statuses\": {\"fisier_inexistent_sau_director\": 2380, \"program_sau_endpoint_tehnic_exclus\": 123, \"copiat\": 5124, \"unitate_sau_server_inaccesibil\": 118, \"referinta_relativa_neconfirmata\": 305, \"cale_linux_indisponibila\": 30, \"referinta_externa_necopiata\": 1585, \"configuratie_sau_credentiale_excluse\": 4, \"export_curent_exclus_pentru_a_evita_recursia\": 10, \"stare_interna_aplicatie_exclusa\": 6}}\r\nOUTPUT C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\salvari\\2026-10-17_22-57-36\r\n{\"verified_files\": 6600, \"verified_threads\": 343, \"totals\": {\"projects\": 21, \"conversations\": 241, \"subagents\": 102, \"messages\": 34382, \"internal_sessions_excluded\": 384, \"missing_rollouts\": 0, \"invalid_json_lines\": 0, \"files_copied\": 5124, \"file_reference_statuses\": {\"fisier_inexistent_sau_director\": 2380, \"program_sau_endpoint_tehnic_exclus\": 123, \"copiat\": 5124, \"unitate_sau_server_inaccesibil\": 118, \"referinta_relativa_neconfirmata\": 305, \"cale_linux_indisponibila\": 30, \"referinta_externa_necopiata\": 1585, \"configuratie_sau_credentiale_excluse\": 4, \"export_curent_exclus_pentru_a_evita_recursia\": 10, \"stare_interna_aplicatie_exclusa\": 6}}}\r\nSalvare verificata: C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva\\salvari\\2026-10-17_22-57-36\r\nCititi manifest.json pentru fisiere indisponibile. Salvarea nu incarca automat date in GitHub.\r\n",
+  "exitCode": 0,
+  "durationMs": 404769
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-d43d5541-34b7-4df2-b196-6d6b2a987749",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport pathlib,json\nr=pathlib.Path.cwd(); receipt=json.loads((r/'ultima-incarcare.json').read_text(encoding='utf-8'))\na=json.loads((pathlib.Path(receipt['snapshot'])/'manifest.json').read_text(encoding='utf-8')); b=json.loads((r/'salvari/2026-10-17_22-57-36/manifest.json').read_text(encoding='utf-8'))\nold={t['id']:t for t in a['threads']}; new={t['id']:t for t in b['threads']}\nregress=[t['id'] for t in b['threads'] if t['id'] in old and t['item_count']<old[t['id']]['item_count']]\nchanged=[{'id':t['id'],'title':t['title'],'message_delta':t['message_count']-old[t['id']]['message_count']} for t in b['threads'] if t['id'] in old and t['content_sha256']\"'!=old[t['\"'id']]['content_sha256']]\nprint(json.dumps({'missing_previous_threads':list(set(old)-set(new)),'threads_with_fewer_items':regress,'changed_threads':changed},ensure_ascii=True))\nassert not regress and not set(old)-set(new)\n'@ | & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -\nif (\"'$LASTEXITCODE -ne 0) { throw '\"'History comparison failed' }\n& 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' '.\\\\sincronizeaza_github.py' '.\\\\salvari\\\\2026-10-17_22-57-36'\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "64583",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport pathlib,json\nr=pathlib.Path.cwd(); receipt=json.loads((r/'ultima-incarcare.json').read_text(encoding='utf-8'))\na=json.loads((pathlib.Path(receipt['snapshot'])/'manifest.json').read_text(encoding='utf-8')); b=json.loads((r/'salvari/2026-10-17_22-57-36/manifest.json').read_text(encoding='utf-8'))\nold={t['id']:t for t in a['threads']}; new={t['id']:t for t in b['threads']}\nregress=[t['id'] for t in b['threads'] if t['id'] in old and t['item_count']<old[t['id']]['item_count']]\nchanged=[{'id':t['id'],'title':t['title'],'message_delta':t['message_count']-old[t['id']]['message_count']} for t in b['threads'] if t['id'] in old and t['content_sha256']!=old[t['id']]['content_sha256']]\nprint(json.dumps({'missing_previous_threads':list(set(old)-set(new)),'threads_with_fewer_items':regress,'changed_threads':changed},ensure_ascii=True))\nassert not regress and not set(old)-set(new)\n'@ | & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -\nif ($LASTEXITCODE -ne 0) { throw 'History comparison failed' }\n& 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '.\\sincronizeaza_github.py' '.\\salvari\\2026-10-17_22-57-36'"
+    }
+  ],
+  "aggregatedOutput": "{\"missing_previous_threads\": [], \"threads_with_fewer_items\": [], \"changed_threads\": [{\"id\": \"01a1155d-f8a7-7ce1-8b61-7f365a73b769\", \"title\": \"Arhiveaz\\u0103 conversa\\u021biile Codex\", \"message_delta\": 2}]}\r\n{\"verified_files\": 6600, \"verified_threads\": 343, \"totals\": {\"projects\": 21, \"conversations\": 241, \"subagents\": 102, \"messages\": 34382, \"internal_sessions_excluded\": 384, \"missing_rollouts\": 0, \"invalid_json_lines\": 0, \"files_copied\": 5124, \"file_reference_statuses\": {\"fisier_inexistent_sau_director\": 2380, \"program_sau_endpoint_tehnic_exclus\": 123, \"copiat\": 5124, \"unitate_sau_server_inaccesibil\": 118, \"referinta_relativa_neconfirmata\": 305, \"cale_linux_indisponibila\": 30, \"referinta_externa_necopiata\": 1585, \"configuratie_sau_credentiale_excluse\": 4, \"export_curent_exclus_pentru_a_evita_recursia\": 10, \"stare_interna_aplicatie_exclusa\": 6}}}\r\n{\"changed_projects\": [\"3D.AppleScan\"]}\r\n{\"prepared_project\": \"3D.AppleScan\", \"credential_files_masked\": 6}\r\nPUSH_STARTED cd5d720f8f01cd95969bc511ac5ed9693926dac5\r\n{\"verified_remote_commit\": \"cd5d720f8f01cd95969bc511ac5ed9693926dac5\", \"repository\": \"https://github.com/covaciugnm/Codex.git\", \"changed_projects\": [\"3D.AppleScan\"], \"verified_at_utc\": \"2026-10-17T20:05:53.017340+00:00\"}\r\n",
+  "exitCode": 0,
+  "durationMs": 80422
+}
+````
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-6deb3dbd-0308-4980-88e6-30bdd96c8caa",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"@'\nimport pathlib,json,subprocess,datetime,shutil\nr=pathlib.Path.cwd(); repo=r/'GitHub-Codex'; snapshot=r/'salvari/2026-10-17_22-57-36'\nreceipt=json.loads((r/'ultima-incarcare.json').read_text(encoding='utf-8')); cfg=json.loads((r/'conexiune-github.json').read_text(encoding='utf-8'))\nsha=receipt['verified_remote_commit']\ntree=json.loads(subprocess.check_output([cfg['gh_executable'],'api',f'repos/covaciugnm/Codex/git/trees/{sha}?recursive=1']))\nassert not tree.get('truncated')\nremote={x['path'] for x in tree['tree'] if x['type']=='blob'}\nlocal=set(subprocess.check_output(['git','-C',str(repo),'ls-tree','-r','--name-only','-z','HEAD']).decode('utf-8').strip('\\\\0').split('\\\\0'))\nassert remote==local, 'Remote/local path mismatch'\nassert not subprocess.check_output(['git','-C',str(repo),'status','--porcelain']).strip()\nmanifest=json.loads((snapshot/'manifest.json').read_text(encoding='utf-8'))\nreceipt.update(verified_remote_file_count=len(remote),remote_file_list_matches_local_commit=True,snapshot=str(snapshot),previous_backups_preserved=True)\n(r/'ultima-incarcare.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')\nstatus={'checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'saved_and_pushed','free_bytes':shutil.disk_usage(r).free,'last_verified_snapshot':snapshot.relative_to(r).as_posix(),'last_verified_remote_commit':sha,'export_started':True,'push_attempted':True,'previous_backups_preserved':True,'verified_remote_file_count':len(remote),'totals':manifest['totals'],'new_primary_conversations_since_previous_upload':0,'changed_projects':receipt['changed_projects'],'notification':'Only the backup conversation changed. No new failures or user action required.'}\n(r/'ultima-verificare.json').write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding='utf-8')\nprint(json.dumps({'sha':sha,'remote_files':len(remote),'missing_rollouts':manifest['totals']['missing_rollouts'],'free_bytes':status['free_bytes']}))\n'@ | & 'C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe' -\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "89194",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "@'\nimport pathlib,json,subprocess,datetime,shutil\nr=pathlib.Path.cwd(); repo=r/'GitHub-Codex'; snapshot=r/'salvari/2026-10-17_22-57-36'\nreceipt=json.loads((r/'ultima-incarcare.json').read_text(encoding='utf-8')); cfg=json.loads((r/'conexiune-github.json').read_text(encoding='utf-8'))\nsha=receipt['verified_remote_commit']\ntree=json.loads(subprocess.check_output([cfg['gh_executable'],'api',f'repos/covaciugnm/Codex/git/trees/{sha}?recursive=1']))\nassert not tree.get('truncated')\nremote={x['path'] for x in tree['tree'] if x['type']=='blob'}\nlocal=set(subprocess.check_output(['git','-C',str(repo),'ls-tree','-r','--name-only','-z','HEAD']).decode('utf-8').strip('\\0').split('\\0'))\nassert remote==local, 'Remote/local path mismatch'\nassert not subprocess.check_output(['git','-C',str(repo),'status','--porcelain']).strip()\nmanifest=json.loads((snapshot/'manifest.json').read_text(encoding='utf-8'))\nreceipt.update(verified_remote_file_count=len(remote),remote_file_list_matches_local_commit=True,snapshot=str(snapshot),previous_backups_preserved=True)\n(r/'ultima-incarcare.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')\nstatus={'checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'saved_and_pushed','free_bytes':shutil.disk_usage(r).free,'last_verified_snapshot':snapshot.relative_to(r).as_posix(),'last_verified_remote_commit':sha,'export_started':True,'push_attempted':True,'previous_backups_preserved':True,'verified_remote_file_count':len(remote),'totals':manifest['totals'],'new_primary_conversations_since_previous_upload':0,'changed_projects':receipt['changed_projects'],'notification':'Only the backup conversation changed. No new failures or user action required.'}\n(r/'ultima-verificare.json').write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding='utf-8')\nprint(json.dumps({'sha':sha,'remote_files':len(remote),'missing_rollouts':manifest['totals']['missing_rollouts'],'free_bytes':status['free_bytes']}))\n'@ | & 'C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -"
+    }
+  ],
+  "aggregatedOutput": "{\"sha\": \"cd5d720f8f01cd95969bc511ac5ed9693926dac5\", \"remote_files\": 7034, \"missing_rollouts\": 0, \"free_bytes\": 21335756800}\r\n",
+  "exitCode": 0,
+  "durationMs": 2730
+}
+````
+
+## Asistent
+
+<heartbeat>
+  <automation_id>salvare-codex-i-push-la-6-ore</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>Salvarea și sincronizarea sunt verificate. S-a modificat doar conversația automatizării; nu există erori noi sau acțiuni necesare.</message>
+</heartbeat>
+
+## commandExecution
+
+````json
+{
+  "type": "commandExecution",
+  "id": "exec-5d690162-313c-408e-9164-9d919134a665",
+  "pluginId": null,
+  "scriptPath": null,
+  "command": "\"C:\\\\Users\\\\User\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\native\\\\powershell\\\\pwsh.exe\" -Command \"Get-Content -LiteralPath '.\\\\ultima-verificare.json'; Get-PSDrive -Name C | Select-Object Free\"",
+  "cwd": "C:\\Users\\User\\.codex\\visualizations\\2026\\10\\07\\01a1155d-f8a7-7ce1-8b61-7f365a73b769\\Codex-Arhiva",
+  "processId": "51587",
+  "source": "unifiedExecStartup",
+  "status": "completed",
+  "commandActions": [
+    {
+      "type": "unknown",
+      "command": "Get-Content -LiteralPath '.\\ultima-verificare.json'; Get-PSDrive -Name C | Select-Object Free"
+    }
+  ],
+  "aggregatedOutput": "{\r\n  \"checked_at_utc\": \"2026-10-17T20:06:09.409966+00:00\",\r\n  \"status\": \"saved_and_pushed\",\r\n  \"free_bytes\": 21335756800,\r\n  \"last_verified_snapshot\": \"salvari/2026-10-17_22-57-36\",\r\n  \"last_verified_remote_commit\": \"cd5d720f8f01cd95969bc511ac5ed9693926dac5\",\r\n  \"export_started\": true,\r\n  \"push_attempted\": true,\r\n  \"previous_backups_preserved\": true,\r\n  \"verified_remote_file_count\": 7034,\r\n  \"totals\": {\r\n    \"projects\": 21,\r\n    \"conversations\": 241,\r\n    \"subagents\": 102,\r\n    \"messages\": 34382,\r\n    \"internal_sessions_excluded\": 384,\r\n    \"missing_rollouts\": 0,\r\n    \"invalid_json_lines\": 0,\r\n    \"files_copied\": 5124,\r\n    \"file_reference_statuses\": {\r\n      \"fisier_inexistent_sau_director\": 2380,\r\n      \"program_sau_endpoint_tehnic_exclus\": 123,\r\n      \"copiat\": 5124,\r\n      \"unitate_sau_server_inaccesibil\": 118,\r\n      \"referinta_relativa_neconfirmata\": 305,\r\n      \"cale_linux_indisponibila\": 30,\r\n      \"referinta_externa_necopiata\": 1585,\r\n      \"configuratie_sau_credentiale_excluse\": 4,\r\n      \"export_curent_exclus_pentru_a_evita_recursia\": 10,\r\n      \"stare_interna_aplicatie_exclusa\": 6\r\n    }\r\n  },\r\n  \"new_primary_conversations_since_previous_upload\": 0,\r\n  \"changed_projects\": [\r\n    \"3D.AppleScan\"\r\n  ],\r\n  \"notification\": \"Only the backup conversation changed. No new failures or user action required.\"\r\n}\r\n\r\n       Free\r\n       ----\r\n21830238208\r\n\r\n",
+  "exitCode": 0,
+  "durationMs": 769
+}
+````
