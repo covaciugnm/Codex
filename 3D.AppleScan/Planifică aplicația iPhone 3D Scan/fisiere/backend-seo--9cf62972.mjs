@@ -151,6 +151,6 @@ test('SEO discovery excludes private routes and preserves account/project API be
   assert.equal(projects.status, 200);
   assert.equal((await projects.json()).projects[0].name, 'Private project');
   assert.equal((await fetch(`${base}/api/auth/me`, { headers: { Authorization: 'Bearer valid' } })).status, 200);
-  assert.equal((await fetch(`${base}/api/auth/login`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: 'test@example.test', password: 'test-only' }) })).status, 200);
+  assert.equal((await fetch(`${base}/api/auth/login`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: 'test@example.test', password: '[CREDENTIAL_REDACTED]' }) })).status, 200);
   assert.equal((await fetch(`${base}/api/auth/logout`, { method: 'POST' })).status, 200);
 });

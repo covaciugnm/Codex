@@ -1,0 +1,16 @@
+from a12_r10_publish import *
+import gzip
+P=E/'R11_plan_delta';reg=rd(P/'A12_registru_693_stari_alias_v2.json');act={x['technical']:x for x in reg['rows']};cat={q['path']:q for q in (json.loads(l)for l in gzip.open(P/'Catalog_Git_integral_per_fisier.jsonl.gz','rt',encoding='utf8'))};dv=rd(P/'Inventar_delta_1632.json');delt={q['path']:q for q in dv['rows']};xr={v['id']:v for v in rd(B/'Matrice_interfete.json')['contracts']};cc={};pp={};cases=[]
+for n in ['A01','A02','A03','A04','A05','A06','A07','A08','A09','A10']:
+ f=B/(n+'_plan.json');d=rd(f)
+ for container,types in [(cc,['controls','checklists','controale']),(pp,['pipelines','pipeline_catalog','pipeline','pipelineuri'])]:
+  k=next(k for k in types if k in d); 
+  for i,r in enumerate(d[k]):
+   z=r.get('id',r.get('pipeline_id',r.get('control_id')));container[z]={'file':S(f),'pointer':'/'+k+'/'+str(i),'title':next((r[k]for k in ['title','titlu','name','business_outcome','obiectiv','control','nume']if isinstance(r.get(k),str)),'')}
+def ref(name):
+ names=[name]if name in cat else[p for p in cat if p.endswith('/'+name) and p.startswith(('idempiere/plugins/','frontend/','backend/','tools/teste/','proxy/'))];assert names,name
+ return [{'path':n,'candidate_blob':cat[n]['git_object'],'delta_old_blob':(delt.get(n,{}).get('old')or{}).get('git_oid'),'directly_changed':n in delt}for n in names[:4]]
+def add(id,domain,owner,peer,ifs,cids,pids,tids,src,hist,actor,fixture,pre,step,neg,expected,forward,reverse,effect,cleanup):
+ con=cids.split();pis=pids.split();ts=tids.split();xs=ifs.split();assert all(k in cc for k in con),(id,[k for k in con if k not in cc]);assert all(k in pp for k in pis),(id,[k for k in pis if k not in pp]);assert all(k in act for k in ts);assert all(k in xr for k in xs)
+ cases.append({'id':id,'objective':domain,'owner':owner,'peer':peer,'frozen_interfaces':[{**xr[k],'at_R11':'PLAN_NOT_EXECUTED'}for k in xs],'controls':{k:cc[k]for k in con},'pipelines':{k:pp[k]for k in pis},'tasks':[{'technical':k,'canonical':act[k]['canonical'],'eligible_now':act[k]['eligible_now'],'current_state':act[k]['current_state']}for k in ts],'candidate_source_anchor':[x for n in src.split()for x in ref(n)],'historical_measurements_do_not_transfer':[S(E/r)for r in hist.split()],'actor_role':actor,'fixture':fixture,'preconditions':pre,'frontend_backend_db_execution':step,'negative_mutant':neg,'expected_acceptance_oracle':expected,'handoff_forward':{'producer':owner,'consumer':peer,'expected_receipt_and_terminal':forward},'handoff_reverse':{'producer':peer,'consumer':owner,'trace_back_and_reversal':reverse},'before_after_retry_keys_and_observation':effect,'cleanup_required':cleanup,'versions':{'source':dv['new_head'],'previous':dv['base'],'upstream_native':'13.0 build exact à confirmer par manifest au début de chaque dossier','candidate_installed':'UNKNOWN, vérifier bundle runtime, AD, image, route et contenu, par cabinet; confronter SHA deployé vs source; ne pas attribuer au SHA candidat les résultats historiques.'},'evidence_id_template':'R11-'+id+'-{TREE|NATIVE|FRONT|API|SQL|RETRY|REVERSE}; lier la preuve dans les deux sens et conserver échec de précondition, fixture, rôle, date, numérateur et dénominateur','state':'PLAN_NOT_EXECUTED','score':None})
+

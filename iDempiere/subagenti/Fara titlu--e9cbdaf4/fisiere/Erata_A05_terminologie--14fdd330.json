@@ -1,0 +1,7 @@
+{
+  "source": "A11_control_A05_R4.json",
+  "sha": "bd963b38b500d7f8c7c3ded220baf56a8fad18c6dd166eb5ac28d4f355c67828",
+  "pointer": "/responses_to_required_reaudit/R3-Q",
+  "read_as": "EX05 și T337 nu au aceeași origine cu W1. EXCLUS și header fără linii aparțin identității Q. Citirea unui aviz nativ din W1 nu probează livrarea Q.",
+  "reason": "Prefixul „365/” este o eroare materială de text. Concluzia, dovezile și nota rămân aceleași."
+}

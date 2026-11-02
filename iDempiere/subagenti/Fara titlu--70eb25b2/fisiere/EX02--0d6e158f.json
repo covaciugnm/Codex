@@ -1,0 +1,1109 @@
+{
+  "schema": "CESIRO1-A01-execution-v1",
+  "id": "EX02",
+  "executor": "A01",
+  "peer": "A08",
+  "independent_reviewer": "A11",
+  "peer_status": "PREDAT_PENTRU_VERIFICARE_A08",
+  "quality_score": null,
+  "observed_utc": "2026-11-02T16:38:31.766128+00:00",
+  "gate_sha256": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c",
+  "plan_sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+  "base_eva_git_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "signed_parent_bundle": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "external_corpus_provenance": {
+    "source": "Copie_verificata_CESIRO1.json",
+    "total": 850,
+    "hashes_recalculated_by_A01": 850,
+    "volatile_business_data_copied": false,
+    "manifest_sha256": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be",
+    "limit": "Corpusul extern este o copie de surse verificată prin hashuri, fără identificator Git suplimentar atribuit arbitrar."
+  },
+  "verdict": "CONTRACT_TEHNIC_GLOBAL_CONFIRMAT; DEFECT_PUNCTUAL_DE_INTEGRITATE_COPIL_CONFIRMAT; AUTORIZARE_COMISIONAR_NEDETERMINATĂ",
+  "objective": "Acces la comenzi și detalii cu cheie de citire",
+  "required_context": [
+    "Q-COM-01"
+  ],
+  "origin_criteria": [
+    {
+      "task": "T20",
+      "canonical": null,
+      "target": [
+        "P01.C10.T0011"
+      ],
+      "criterion_source": "executie/R3/taskuri/Fisa_T20.json",
+      "norm_pointer": "#/disposition_admin/successors",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX02"
+    },
+    {
+      "task": "T35",
+      "canonical": null,
+      "target": [
+        "P01.C10.T0002"
+      ],
+      "criterion_source": "executie/R3/taskuri/Fisa_T35.json",
+      "norm_pointer": "#/disposition_admin/successors",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX02"
+    }
+  ],
+  "base_links": [
+    {
+      "control": "A01.C03",
+      "pipeline": "A01.P01",
+      "owner": "A01",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/0/resolved_control_ids/1"
+    },
+    {
+      "control": "A01.C10",
+      "pipeline": "A01.P02",
+      "owner": "A01",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/1/resolved_control_ids/1"
+    },
+    {
+      "control": "A01.C13",
+      "pipeline": "A01.P04",
+      "owner": "A01",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/3/resolved_control_ids/2"
+    },
+    {
+      "control": "A08-C05",
+      "pipeline": "A08-P01",
+      "owner": "A08",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/53/resolved_control_ids/4"
+    },
+    {
+      "control": "A08-C16",
+      "pipeline": "A08-P04",
+      "owner": "A08",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/56/resolved_control_ids/0"
+    },
+    {
+      "control": "A06-C25",
+      "pipeline": "A06-P6",
+      "owner": "A06",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/45/resolved_control_ids/2"
+    }
+  ],
+  "source_anchors": [
+    {
+      "path": "backend/app/api/external_orders.py",
+      "sha256": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c",
+      "matches_manifest": true,
+      "symbols": {
+        "def _configured_hashes": 65,
+        "def _require_key": 70,
+        "def _clean": 83,
+        "def _read_only_session": 112,
+        "def _begin_read_only": 119,
+        "def _items_for": 138,
+        "def list_orders": 205,
+        "def order_detail": 262,
+        "WHERE x.order_id = CAST": 288
+      }
+    },
+    {
+      "path": "backend/app/db/session.py",
+      "sha256": "711f46fdd07916a83352695bd7a95ad6d82def799433c3045a3554ab7590a205",
+      "matches_manifest": true,
+      "symbols": {
+        "def set_session_context": 38,
+        "def session_scope": 66
+      }
+    },
+    {
+      "path": "backend/app/theme_preview.py",
+      "sha256": "43ea8bb03b037353879a55950e4a3ca3f4a397d89e8a2decf31c397411366ca8",
+      "matches_manifest": true,
+      "symbols": {
+        "def make_token": 53,
+        "def load_token": 60
+      }
+    },
+    {
+      "path": "database/migrations/sql/0029_shipments.sql",
+      "sha256": "f4298717d70da6ce9229fd4bc043e450d403ad3c47a591092ea5657fc5ba8eec",
+      "matches_manifest": true,
+      "symbols": {
+        "tenant_id          uuid": 21,
+        "order_id           uuid": 22
+      }
+    }
+  ],
+  "harness": "Blueprint Flask ext_bp și module DB originale conectate la PostgreSQL 16 din bucla locală. Identitățile canal-a/canal-b, comenzile și câmpurile personale sunt sintetice. Niciun apel la partener, instanță de producție sau cont real.",
+  "role_model": [
+    {
+      "actor": "Neautentificat, token inválid, doar host/Origin/header de rol",
+      "result": "401 la GET; antetele declarative nu sunt cheie API."
+    },
+    {
+      "actor": "K1/K2 tehnice valabile",
+      "result": "Fiecare poate selecta A sau B și lista ambele magazine, exact ca în contractul serviciului de citire la nivel de instanță. Nu există grant per comandă/client în registrul de hashuri."
+    },
+    {
+      "actor": "Suport/comisionar fără cheie tehnică",
+      "result": "Cookie sintetic/rol declarat și token semnat de preview nu autentifică API-ul de comenzi. Nu s-a creat o sesiune umană reală de comisionar. Drepturile de a vedea numai comenzile și situațiile proprii rămân de verificat în aplicația dedicată."
+    },
+    {
+      "actor": "Preview administrativ",
+      "result": "În registry sintetic temporar cu o temă existentă: semnătura bună pentru A este acceptată, pentru B/tamper/expirat este refuzată de load_token. Tokenul nu servește drept cheie ext_api; o cheie tehnică globală rămâne globală chiar dacă un cookie preview este prezent. Nu se certifică întregul UI de preview."
+    },
+    {
+      "actor": "Cheie eliminată sau registru gol",
+      "result": "Eliminarea K1 dă 401, K2 rămâne valabilă, registrul gol 503. Nu există TTL sau expirare datată pentru cheia tehnică; expirarea există separat pentru tokenul de preview."
+    }
+  ],
+  "bounded_results": {
+    "baseline_cases": [
+      {
+        "case": "no-key",
+        "path": "/tenants",
+        "http": 401,
+        "tenant_slugs": [],
+        "direct_tenant": null,
+        "origin_id": null,
+        "customer_marker": null,
+        "note": "unauthorized",
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "wrong-key",
+        "path": "/orders?tenant=canal-a",
+        "http": 401,
+        "tenant_slugs": [],
+        "direct_tenant": null,
+        "origin_id": null,
+        "customer_marker": null,
+        "note": "unauthorized",
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "valid-key-A-list",
+        "path": "/tenants",
+        "http": 200,
+        "tenant_slugs": [
+          "canal-a",
+          "canal-b"
+        ],
+        "direct_tenant": null,
+        "origin_id": null,
+        "customer_marker": null,
+        "note": {},
+        "contains_private_marker_B": false,
+        "total": 2,
+        "returned_rows": 2,
+        "cookie_present": false
+      },
+      {
+        "case": "valid-key-A-own",
+        "path": "/orders/ORD101?tenant=canal-a",
+        "http": 200,
+        "tenant_slugs": [],
+        "direct_tenant": "canal-a",
+        "origin_id": "a1000000-0000-4000-8000-000000000101",
+        "customer_marker": "CONTACT-A7",
+        "note": {},
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "valid-key-A-foreign",
+        "path": "/orders/ORD101?tenant=canal-b",
+        "http": 200,
+        "tenant_slugs": [],
+        "direct_tenant": "canal-b",
+        "origin_id": "b2000000-0000-4000-8000-000000000101",
+        "customer_marker": "CONTACT-B7",
+        "note": {},
+        "contains_private_marker_B": true,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "valid-key-B-foreign",
+        "path": "/orders/ORD101?tenant=canal-a",
+        "http": 200,
+        "tenant_slugs": [],
+        "direct_tenant": "canal-a",
+        "origin_id": "a1000000-0000-4000-8000-000000000101",
+        "customer_marker": "CONTACT-A7",
+        "note": {},
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "without-tenant-list",
+        "path": "/orders?per_page=0",
+        "http": 200,
+        "tenant_slugs": [
+          "canal-a",
+          "canal-b"
+        ],
+        "direct_tenant": null,
+        "origin_id": null,
+        "customer_marker": null,
+        "note": {},
+        "contains_private_marker_B": true,
+        "total": 4,
+        "returned_rows": 4,
+        "cookie_present": false
+      },
+      {
+        "case": "without-tenant-detail",
+        "path": "/orders/ORD101",
+        "http": 200,
+        "tenant_slugs": [],
+        "direct_tenant": "canal-a",
+        "origin_id": "a1000000-0000-4000-8000-000000000101",
+        "customer_marker": "CONTACT-A7",
+        "note": {},
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "unknown-tenant",
+        "path": "/orders?tenant=not-configured",
+        "http": 404,
+        "tenant_slugs": [],
+        "direct_tenant": null,
+        "origin_id": null,
+        "customer_marker": null,
+        "note": "not_found",
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "unsupported-write",
+        "path": "/orders",
+        "http": 405,
+        "tenant_slugs": [],
+        "direct_tenant": null,
+        "origin_id": null,
+        "customer_marker": null,
+        "note": {},
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "removed-key-A",
+        "path": "/orders?tenant=canal-a",
+        "http": 401,
+        "tenant_slugs": [],
+        "direct_tenant": null,
+        "origin_id": null,
+        "customer_marker": null,
+        "note": "unauthorized",
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "remaining-key-B",
+        "path": "/orders/ORD101?tenant=canal-b",
+        "http": 200,
+        "tenant_slugs": [],
+        "direct_tenant": "canal-b",
+        "origin_id": "b2000000-0000-4000-8000-000000000101",
+        "customer_marker": "CONTACT-B7",
+        "note": {},
+        "contains_private_marker_B": true,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      },
+      {
+        "case": "no-service-keys",
+        "path": "/tenants",
+        "http": 503,
+        "tenant_slugs": [],
+        "direct_tenant": null,
+        "origin_id": null,
+        "customer_marker": null,
+        "note": "disabled",
+        "contains_private_marker_B": false,
+        "total": null,
+        "returned_rows": 0,
+        "cookie_present": false
+      }
+    ],
+    "variant_case_count": 23,
+    "cases": [
+      {
+        "id": "Q01-anonymous",
+        "path": "/tenants",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 401,
+        "expected_http": [
+          401
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "unauthorized",
+        "content_type": "application/json",
+        "response_bytes": 107,
+        "body_sha256": "d315e47ad6b0b7c29d643a03b7077e11f200a86e6c87fb769e26725225679aad",
+        "export_request": false
+      },
+      {
+        "id": "Q02-invalid-key",
+        "path": "/orders?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 401,
+        "expected_http": [
+          401
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "unauthorized",
+        "content_type": "application/json",
+        "response_bytes": 61,
+        "body_sha256": "5da40c15542ffef5484d8153a87aac1eb620fffc6d8bddf7f2940a7e9f7e18d6",
+        "export_request": false
+      },
+      {
+        "id": "Q03-service-key-A-and-Origin",
+        "path": "/tenants",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": "https://unrelated.fixture",
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [
+          "canal-a",
+          "canal-b"
+        ],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 60,
+        "body_sha256": "75df21e23fbf81f395d4ac73bc260f3390ea178fef4b491b3c100bd5b4d741e3",
+        "export_request": false
+      },
+      {
+        "id": "Q04-order-A-same-ref",
+        "path": "/orders/ORD101?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": "canal-a",
+        "order_id": "a1000000-0000-4000-8000-000000000101",
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": true,
+        "foreign_child_canary": true,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 3851,
+        "body_sha256": "e1dfbd12f8136f524f62a3d8d1545edec62867ac7a200e54cbf96be4956d9c42",
+        "export_request": false
+      },
+      {
+        "id": "Q05-keyA-selects-B-and-cleans-markers",
+        "path": "/orders/ORD101?tenant=canal-b",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": "https://unrelated.fixture",
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": "canal-b",
+        "order_id": "b2000000-0000-4000-8000-000000000101",
+        "list_tenants": [],
+        "private_B_marker_in_response": true,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 3188,
+        "body_sha256": "1e2cfd9b1609b3caf961e0fac37f3a225c691cfdd2bc97d542b51200c03af1ad",
+        "export_request": false
+      },
+      {
+        "id": "Q06-keyB-selects-A-on-host-B",
+        "path": "/orders/ORD101?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-b.test",
+        "Origin": null,
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": "canal-a",
+        "order_id": "a1000000-0000-4000-8000-000000000101",
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": true,
+        "foreign_child_canary": true,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 3851,
+        "body_sha256": "e1dfbd12f8136f524f62a3d8d1545edec62867ac7a200e54cbf96be4956d9c42",
+        "export_request": false
+      },
+      {
+        "id": "Q07-internal-B-UUID-in-A-filter",
+        "path": "/orders/b2000000-0000-4000-8000-000000000101?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 404,
+        "expected_http": [
+          404
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "not_found",
+        "content_type": "application/json",
+        "response_bytes": 96,
+        "body_sha256": "48c025ea5db5cb3eb62a2472bf8fc7740810515f93b1f72f7f6ee3172afc7c1f",
+        "export_request": false
+      },
+      {
+        "id": "Q08-unknown-UUID-in-A-filter",
+        "path": "/orders/aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 404,
+        "expected_http": [
+          404
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "not_found",
+        "content_type": "application/json",
+        "response_bytes": 96,
+        "body_sha256": "7662107476a05aeb47dc8e7c3faadc6a0fc3caafd3a24a0113e1070b67bbcc60",
+        "export_request": false
+      },
+      {
+        "id": "Q09-global-order-list",
+        "path": "/orders?per_page=0",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [
+          "canal-a",
+          "canal-b"
+        ],
+        "private_B_marker_in_response": true,
+        "private_A_marker_in_response": true,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 11245,
+        "body_sha256": "804136e54c81c991ca3c494235cb9e8079d3f6c55b951bc645a901c4edc8fca9",
+        "export_request": false
+      },
+      {
+        "id": "Q10-reference-no-tenant",
+        "path": "/orders/ORD101",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": "canal-a",
+        "order_id": "a1000000-0000-4000-8000-000000000101",
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": true,
+        "foreign_child_canary": true,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 3851,
+        "body_sha256": "e1dfbd12f8136f524f62a3d8d1545edec62867ac7a200e54cbf96be4956d9c42",
+        "export_request": false
+      },
+      {
+        "id": "Q11-unknown-tenant",
+        "path": "/orders?tenant=no-such-tenant",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 404,
+        "expected_http": [
+          404
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "not_found",
+        "content_type": "application/json",
+        "response_bytes": 76,
+        "body_sha256": "d38b0e60c71f5efe0f2a861a033bd77c687759826222e171d58eebd819f57864",
+        "export_request": false
+      },
+      {
+        "id": "Q12-Bearer-priority-invalid",
+        "path": "/tenants",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 401,
+        "expected_http": [
+          401
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "unauthorized",
+        "content_type": "application/json",
+        "response_bytes": 61,
+        "body_sha256": "5da40c15542ffef5484d8153a87aac1eb620fffc6d8bddf7f2940a7e9f7e18d6",
+        "export_request": false
+      },
+      {
+        "id": "Q13-Bearer-priority-valid",
+        "path": "/tenants",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [
+          "canal-a",
+          "canal-b"
+        ],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 60,
+        "body_sha256": "75df21e23fbf81f395d4ac73bc260f3390ea178fef4b491b3c100bd5b4d741e3",
+        "export_request": false
+      },
+      {
+        "id": "Q14-POST-no-write",
+        "path": "/orders",
+        "method": "POST",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 405,
+        "expected_http": [
+          405
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 153,
+        "body_sha256": "bfb286554b24db87b6cbcb6e68be23f89dee1be4d7db544d1e7c97c45664e0df",
+        "export_request": false
+      },
+      {
+        "id": "Q15-DELETE-no-write",
+        "path": "/orders/ORD101",
+        "method": "DELETE",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 405,
+        "expected_http": [
+          405
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 153,
+        "body_sha256": "bfb286554b24db87b6cbcb6e68be23f89dee1be4d7db544d1e7c97c45664e0df",
+        "export_request": false
+      },
+      {
+        "id": "Q16-no-export-route",
+        "path": "/orders/export.csv",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 404,
+        "expected_http": [
+          404
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "not_found",
+        "content_type": "application/json",
+        "response_bytes": 70,
+        "body_sha256": "da06924ce69ab303da1e930d233f79ec551bfe076184e38d8bff7d1c2f3f100b",
+        "export_request": true
+      },
+      {
+        "id": "Q17-OPTIONS-preflight",
+        "path": "/orders",
+        "method": "OPTIONS",
+        "host": "canal-a.test",
+        "Origin": "https://unrelated.fixture",
+        "http": 200,
+        "expected_http": [
+          200,
+          204
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "text/html; charset=utf-8",
+        "response_bytes": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "export_request": false
+      },
+      {
+        "id": "Q18-support-cookie-only",
+        "path": "/orders?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": "https://unrelated.fixture",
+        "http": 401,
+        "expected_http": [
+          401
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "unauthorized",
+        "content_type": "application/json",
+        "response_bytes": 107,
+        "body_sha256": "d315e47ad6b0b7c29d643a03b7077e11f200a86e6c87fb769e26725225679aad",
+        "export_request": false
+      },
+      {
+        "id": "Q19-preview-as-API-key",
+        "path": "/orders?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": "https://unrelated.fixture",
+        "http": 401,
+        "expected_http": [
+          401
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "unauthorized",
+        "content_type": "application/json",
+        "response_bytes": 61,
+        "body_sha256": "5da40c15542ffef5484d8153a87aac1eb620fffc6d8bddf7f2940a7e9f7e18d6",
+        "export_request": false
+      },
+      {
+        "id": "Q20-preview-as-cookie-plus-global-key",
+        "path": "/orders/ORD101?tenant=canal-b",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": "canal-b",
+        "order_id": "b2000000-0000-4000-8000-000000000101",
+        "list_tenants": [],
+        "private_B_marker_in_response": true,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 3188,
+        "body_sha256": "1e2cfd9b1609b3caf961e0fac37f3a225c691cfdd2bc97d542b51200c03af1ad",
+        "export_request": false
+      },
+      {
+        "id": "Q21-removed-keyA",
+        "path": "/orders?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 401,
+        "expected_http": [
+          401
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "unauthorized",
+        "content_type": "application/json",
+        "response_bytes": 61,
+        "body_sha256": "5da40c15542ffef5484d8153a87aac1eb620fffc6d8bddf7f2940a7e9f7e18d6",
+        "export_request": false
+      },
+      {
+        "id": "Q22-other-key-stays-global",
+        "path": "/orders/ORD101?tenant=canal-a",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 200,
+        "expected_http": [
+          200
+        ],
+        "status_matches": true,
+        "response_tenant": "canal-a",
+        "order_id": "a1000000-0000-4000-8000-000000000101",
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": true,
+        "foreign_child_canary": true,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": null,
+        "content_type": "application/json",
+        "response_bytes": 3851,
+        "body_sha256": "e1dfbd12f8136f524f62a3d8d1545edec62867ac7a200e54cbf96be4956d9c42",
+        "export_request": false
+      },
+      {
+        "id": "Q23-API-disabled",
+        "path": "/orders",
+        "method": "GET",
+        "host": "canal-a.test",
+        "Origin": null,
+        "http": 503,
+        "expected_http": [
+          503
+        ],
+        "status_matches": true,
+        "response_tenant": null,
+        "order_id": null,
+        "list_tenants": [],
+        "private_B_marker_in_response": false,
+        "private_A_marker_in_response": false,
+        "foreign_child_canary": false,
+        "sensitive_field_markers_found": [],
+        "access_control_allow_origin": null,
+        "error": "disabled",
+        "content_type": "application/json",
+        "response_bytes": 98,
+        "body_sha256": "4870a5fec5d60b47e33f62dc9bcc955119426e364bff8a8cb0a8fe8ac74da85f",
+        "export_request": false
+      }
+    ],
+    "wire_cases_actual_loopback": [
+      {
+        "path": "/orders/ORD101?tenant=canal-b",
+        "HTTP": 200,
+        "contains_private_order_canary": true
+      },
+      {
+        "path": "/orders?q=EX02-LOG-POSITIVE&tenant=canal-a",
+        "HTTP": 200,
+        "contains_private_order_canary": false
+      },
+      {
+        "path": "/tenants",
+        "HTTP": 401,
+        "contains_private_order_canary": false
+      }
+    ],
+    "database": {
+      "database_transaction_read_only": "on",
+      "role_bypassrls": false,
+      "no_op_write_denial_SQLSTATE": "25006",
+      "snapshot_business_before_after_equal": true,
+      "before": {
+        "orders": [
+          [
+            "11000000-0000-4000-8000-000000000001",
+            3
+          ],
+          [
+            "22000000-0000-4000-8000-000000000002",
+            1
+          ]
+        ],
+        "order_items": [
+          [
+            "11000000-0000-4000-8000-000000000001",
+            6
+          ],
+          [
+            "22000000-0000-4000-8000-000000000002",
+            2
+          ]
+        ],
+        "shipments": [
+          [
+            "22000000-0000-4000-8000-000000000002",
+            1
+          ]
+        ]
+      },
+      "after": {
+        "orders": [
+          [
+            "11000000-0000-4000-8000-000000000001",
+            3
+          ],
+          [
+            "22000000-0000-4000-8000-000000000002",
+            1
+          ]
+        ],
+        "order_items": [
+          [
+            "11000000-0000-4000-8000-000000000001",
+            6
+          ],
+          [
+            "22000000-0000-4000-8000-000000000002",
+            2
+          ]
+        ],
+        "shipments": [
+          [
+            "22000000-0000-4000-8000-000000000002",
+            1
+          ]
+        ]
+      }
+    },
+    "preview": {
+      "own_valid": true,
+      "foreign_refused": true,
+      "tampered_refused": true,
+      "expired_refused": true
+    },
+    "canaries": {
+      "capture_source": "Python logging from actual loopback Werkzeug HTTP requests plus original blueprint/session in TestClient. Production reverse proxy, PostgreSQL, browser logs and ERP consumer are unobserved.",
+      "real_loopback_cases": [
+        {
+          "path": "/orders/ORD101?tenant=canal-b",
+          "HTTP": 200,
+          "contains_private_order_canary": true
+        },
+        {
+          "path": "/orders?q=EX02-LOG-POSITIVE&tenant=canal-a",
+          "HTTP": 200,
+          "contains_private_order_canary": false
+        },
+        {
+          "path": "/tenants",
+          "HTTP": 401,
+          "contains_private_order_canary": false
+        }
+      ],
+      "captured_records_or_lines": 3,
+      "public_query_scanner_positive": true,
+      "canary_in_capture": {
+        "CONTACT-A7": false,
+        "CONTACT-B7": false,
+        "EX02-B-child-of-A": false,
+        "EX02-private-token": false,
+        "EX02-private-password": false
+      },
+      "credential_in_capture": false,
+      "capture_sha256": "5c42d8559af6b9a0caea45beb524a4dd6586892c55444de68e7f763d9303af8d"
+    },
+    "cleanup": {
+      "own_DB_after": 0,
+      "own_role_after": 0
+    }
+  },
+  "findings": [
+    {
+      "id": "CESIRO1-EX02-I01",
+      "class": "DEFECT_DE_CONSISTENȚĂ_REPRODUS",
+      "same_as": "EX07.test_cases[tenant copil inconsistent]",
+      "input": "Un copil sales.shipments cu tenant_id=B și order_id=A, inserat în fixture prin owner pentru a verifica invariantul. FK independente acceptă asocierea.",
+      "expected": "Detaliul explicit tenant=A nu conține coletul copil al lui B.",
+      "observed": "Q04 și Q06 returnează markerul EX02-B-child-of-A în detaliul filtrat A. UUID-ul real al comenzii B cerut cu filtru A și UUID necunoscut sunt ambele 404. EX07 a identificat același mecanism în răspunsul Java/instalat.",
+      "impact": "Dacă date incoerente pot fi scrise prin import sau alt flux, detaliul A se poate amesteca cu datele de colet ale lui B. O cheie globală poate citi ambele separat, dar rezultatul filtrat nu mai reprezintă corect o singură comandă.",
+      "remediation": "Filtrează fiecare copil cu order_id și tenant_id, inclusiv order_items/returns/copii indirecți unde există coloana. Auditează istoricul de date inconsistent. Adaugă o cheie străină compusă pe tenant + id acolo unde schema o permite, după reconcilierea datelor. Reutilizează contextul tenant existent și testează selectarea canalului în adaptorul nativ, fără un registru secundar de comenzi.",
+      "limits": "Nu demonstrează un incident în producție sau o escaladare globală P0 a unei chei de comisionar. Nu s-a probat că un utilizator extern are o cale de a crea acel copil inconsistent."
+    },
+    {
+      "id": "CESIRO1-EX02-O02",
+      "class": "OBSERVAȚIE_DE_CONTRACT",
+      "observed": "La ORD101 existent în ambele magazine, fără selector tenant, endpointul returnează prima potrivire în ordinea slugurilor. Fără filtru pe listă, livrează ambele magazine.",
+      "consequence": "Consumatorul care importă într-o firmă să folosească explicit canalul și UUID-ul; numărul comercial singur nu este identificator global."
+    }
+  ],
+  "boundaries": [
+    "Canarul privat B este inclus intenționat în răspunsul tehnic global pentru B. Nu este inclus în erorile de autenticare sau în cele trei linii de access log din laborator. Un marker de control pozitiv a fost găsit în query-ul din log. Nu se auditează prin aceasta toate logurile reale, proxy sau ERP.",
+    "Câmpurile sintetice cu chei ip/password/auth_token incluse într-o structură imbricată nu au fost returnate; orice schemă nouă necesită reverificare.",
+    "Hostul și Origin sunt valori de cerere; accesul fără cheie rămâne refuzat, iar alegerea unui alt canal cu cheie tehnică este comportament documentat. Fără header ACAO în fixture nu se deduce configurația CORS din deployment.",
+    "Nu există rută de export dedicată în blueprint. URL-ul încercat /orders/export.csv se rezolvă ca referință neexistentă cu 404. Nu se pretinde audit de export al altor aplicații.",
+    "În prima încercare pentru preview, tema sintetică lipsea din registru și tokenul a fost respins chiar pentru A. Reluarea a adăugat exclusiv o configurație temporară cu acea temă. Sursa semnării și validării a rămas cea verificată."
+  ],
+  "handoff_A08": "Reconciliază referințele core, scopeul technical vs human, markerul EX02-I01 cu EX07, canarii în body vs log și limita pentru CORS/preview. Activează numai o cheie sintetică în fixture.",
+  "reproduction": {
+    "artifacts": {
+      "a01_cesiro_ex02.py": "e9f3b9ffc706421592ef765b32632885665fe8ff8a050b8775b6dde913eed445",
+      "p01-cesiro-security.py": "5d4036e4b67d4d11b40c6e031b45fd369c0456cc0e10c4ec2463f45c5f7ccabe",
+      "p01_cesiro_contract_lab.py": "e81035c01965bbf0f834ad869d90eea45b2f2301aa60b65bcd3da1a04955af06"
+    },
+    "steps": [
+      "Python workspace pe PG16 local cu template p01_cesiro_seed și rol audit_owner, PGPASSFILE local disponibil.",
+      "Păstrează helperul și cele două scripts în același director și copiază/ajustează numai destinația proprie de rezultate pentru re-audit.",
+      "Rulează mai întâi p01-cesiro-security.py, apoi a01_cesiro_ex02.py. Compară statusuri, selector tenant, markers, SQLSTATE 25006, numărul de rânduri și dispariția DB/rolului efemere."
+    ]
+  },
+  "evidence_manifest": {
+    "supliment_CESIRO1/Plan_CESIRO1_R3.json": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+    "A11_gate_CESIRO1_R3.json": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c",
+    "supliment_CESIRO1/Copie_verificata_CESIRO1.json": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be",
+    "supliment_CESIRO1/Inventar_CESIRO1.json": "acf3e60b55b0268e0cc98b80ef12a7b0031c32a28d79cd4a549bb80d06d203fd",
+    "supliment_CESIRO1/Migrari_dependente_fixture.json": "a36b714cf3ea3b7e72744642229a4806f485aadb919b9568c0dfc8ed8356ecb6",
+    "supliment_CESIRO1/Schema_fixture_CESIRO1.json": "5dda8ce6a9331ae604b54c6861218dfa89a538c161deff5c9aefce7c8d92e90a",
+    "supliment_CESIRO1/probe/EX02_coordonator_replay.json": "b0ff2ef98f7b0f22bfc0bf3f8b82944bbd05a9582954ac70755693820be4d18f",
+    "supliment_CESIRO1/probe/EX02_variant_A01.json": "99b75cf6b39e7c6c74c365f92d1766611e985c8dd325adf8a3b2bac581cae28a",
+    "supliment_CESIRO1/probe/EX07.json": "0c7815b21b143d328afa56f429b941b6043185fcdd1341f921a9b43a234337d2",
+    "R2_zone/A01/A01_raport.json": "8eafcf97bf0a56dee6017f2c2f02128a2da884fd7e5b47d70552c4869ea74b40",
+    "R2_zone/A08/A08_raport.json": "7b3af4169f25a6b3aee05965c0a7b5904ef645cc452e1042adedb92c04a873ff"
+  }
+}

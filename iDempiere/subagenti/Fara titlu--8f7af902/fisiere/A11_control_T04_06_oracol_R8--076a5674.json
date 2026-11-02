@@ -1,0 +1,150 @@
+{
+  "utc": "2026-11-02T18:16:24.078138+00:00",
+  "reviewer": "A11",
+  "round_score": null,
+  "criterion": "T04.06-R3-001",
+  "disposition": "ORACOL_RECUPERAT. eMAG whitelist tested in both JARs; CESIRO1 site transport contradicted the closed GET/TLS paths; production exposure and actual third-party transfer remain unverified.",
+  "input_hashes": {
+    "Recuperare_oracol_cai.json": "2f5ef9ab41ad9effcc4d50dbbd36e3043966a0d9e87c585362682c8f6c8af7a2",
+    "EVA_Export_CESIRO1_readonly.json": "4f290c7dbf16d097b86706e7b7fc6c4728d0e472bf7927a95375c411cb539a85",
+    "Index_883_relectura_surse.json": "a5c4bbda1eb09062e5908ba54dbfb5608505c3de799b707bd080ceab637c8a97"
+  },
+  "oracle_population": {
+    "total": 883,
+    "criteria_with_document": 283,
+    "distinct_pinned_documents": 80,
+    "anchors_checked": 1653,
+    "state_counts": {
+      "REGISTRU_JSON_MANUAL_SAU_ANCORĂ_ALTERNATIVĂ": 600,
+      "DOCUMENT_CITIT_CU_INDICII_DE_ORACOL": 265,
+      "DOCUMENT_CITIT_FĂRĂ_INDICIU_IMEDIAT": 18
+    },
+    "limit": "A keyword in ±6 lines is a retrieval lead and cannot count as an executed criterion or establish that 600 remaining lack an oracle."
+  },
+  "emag": {
+    "original_receipt_verified": "5+17 and 4 wrong verbs on each of both genuine JAR files. Plus separate transport mutations above and one successful permitted operation.",
+    "new_vectors": {
+      "git": {
+        "vectors": [
+          "denied /ORDER/read",
+          "denied /order/read/",
+          "denied //order/read",
+          "denied /order%2Fread",
+          "denied /order/read?",
+          "denied /order/read#x",
+          "denied /order/./read",
+          "denied /order/%2e%2e/awb/save",
+          "denied /awb/read%00",
+          "denied  /awb/read",
+          "denied /order/read%3fx",
+          "denied https://other.invalid/order/read",
+          "denied /rma/read;param=write"
+        ],
+        "result": "denied=13 sentDenied=0 control=200 sentControl=1",
+        "sha": "56508fc108dfb1fea019bbeb8f40f0fb7787407fcf8f0ff1041499d20288861e"
+      },
+      "installed": {
+        "vectors": [
+          "denied /ORDER/read",
+          "denied /order/read/",
+          "denied //order/read",
+          "denied /order%2Fread",
+          "denied /order/read?",
+          "denied /order/read#x",
+          "denied /order/./read",
+          "denied /order/%2e%2e/awb/save",
+          "denied /awb/read%00",
+          "denied  /awb/read",
+          "denied /order/read%3fx",
+          "denied https://other.invalid/order/read",
+          "denied /rma/read;param=write"
+        ],
+        "result": "denied=13 sentDenied=0 control=200 sentControl=1",
+        "sha": "56508fc108dfb1fea019bbeb8f40f0fb7787407fcf8f0ff1041499d20288861e"
+      }
+    },
+    "conclusion": "13 alternate paths refused before dispatcher per JAR; independent positive /awb/read reached the injected sender. No partner traffic."
+  },
+  "CESIRO1": {
+    "proof": "Original EvaClient.download -> default _urllib_transport -> urllib opener, with only the socket-facing HTTP/HTTPS handlers replaced in memory. Blank proxy map; socket and DNS explicitly fail. Standard redirect logic remains active. Verified files immutable against CESIRO1 source manifest.",
+    "service_references": [
+      355,
+      373
+    ],
+    "source_sha256": {
+      "backend/app/integrations/eva_docs/client.py": "750b779c629d3f467ba2c04c64e2a9338a7f05c4b6b43cdef9cde0be76ca7167",
+      "backend/app/integrations/eva_docs/service.py": "dba9827f1b28e64b197ab8d1d7fcf5460befa77dc896d2a1468e180fbea8dea2",
+      "backend/app/integrations/emag/client.py": "009f6fa2670bf7bce51f3196b75de61baca338547d2112a558fbda8bef447b79"
+    },
+    "python": "3.12.14",
+    "new_cases": [
+      {
+        "case": "exact",
+        "result": "REACHED_DEFAULT_DISPATCH",
+        "request_observations": [
+          {
+            "scheme": "https",
+            "host": "api.eva-org.com",
+            "path": "/api/v1/export/attachments/ref",
+            "synthetic_marker_forwarded": true,
+            "response": 200
+          }
+        ]
+      },
+      {
+        "case": "http",
+        "result": "REACHED_DEFAULT_DISPATCH",
+        "request_observations": [
+          {
+            "scheme": "http",
+            "host": "api.eva-org.com",
+            "path": "/api/v1/export/attachments/ref",
+            "synthetic_marker_forwarded": true,
+            "response": 200
+          }
+        ]
+      },
+      {
+        "case": "outside",
+        "result": "REACHED_DEFAULT_DISPATCH",
+        "request_observations": [
+          {
+            "scheme": "https",
+            "host": "api.eva-org.com",
+            "path": "/internal/never-listed-a11",
+            "synthetic_marker_forwarded": true,
+            "response": 200
+          }
+        ]
+      },
+      {
+        "case": "foreign",
+        "result": "write_refused",
+        "request_observations": []
+      },
+      {
+        "case": "redirect",
+        "result": "REACHED_DEFAULT_DISPATCH",
+        "request_observations": [
+          {
+            "scheme": "https",
+            "host": "api.eva-org.com",
+            "path": "/api/v1/export/attachments/redirect-a11",
+            "synthetic_marker_forwarded": true,
+            "response": 302
+          },
+          {
+            "scheme": "https",
+            "host": "foreign.invalid",
+            "path": "/synthetic-object",
+            "synthetic_marker_forwarded": true,
+            "response": 200
+          }
+        ]
+      }
+    ],
+    "finding": "Cu configurația laboratorului, conectorul marchează cerere HTTP pe gazda permisă, GET pe o cale nepermisă și, la 302 autentic în controlul de redirecționare Python, reemite marcajul de test către gazda diferită, deși refuză aceeași gazdă când este cerută direct. Rezultatul este la nivelul componentului CESIRO1 verificat cu transport de memorie. Nicio cerere de rețea, niciun secret și niciun incident real în acest test.",
+    "recommendation": "Verificați schema HTTPS, gazda și ruta admisă înainte de autentificarea fiecărei cereri și la fiecare redirecționare. Păstrați testele negative în conectorul de site și controalele ERP separate."
+  },
+  "audit_status": "Supliment verificat, fără recepție globală R8."
+}

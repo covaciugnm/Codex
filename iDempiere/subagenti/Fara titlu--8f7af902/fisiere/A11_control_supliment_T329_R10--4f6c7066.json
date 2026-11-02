@@ -1,0 +1,60 @@
+{
+  "utc": "2026-11-02T20:49:53.278784+00:00",
+  "reviewer": "A11",
+  "source": "A05/T329_raport_individual_A05.json",
+  "sha": "80a52a0972d5ef17ede41b4110148dee91d110cd0a60bdce93ceef49bc6ff775",
+  "files_verified": 14,
+  "nominal": {
+    "attempts_nominal_facts": [
+      1000318,
+      1000319
+    ],
+    "xid": 12133,
+    "basis_lot_cost": "60/5=12",
+    "residual_average": "(240+100-60)/(25-5)=14",
+    "only_USD_nominal_before_EUR": true,
+    "persisted_nominal_facts": 0,
+    "secondary_schema_note_observed": true
+  },
+  "contrasting_cases": [
+    {
+      "case": "witness",
+      "triple_ASI_and_lot_checks": 8,
+      "records": {
+        "(1000003, 'USD')": [
+          "60.0",
+          "60.0"
+        ],
+        "(1000003, 'EUR')": [
+          "57.8",
+          "57.8"
+        ],
+        "(1000004, 'USD')": [
+          "60.0",
+          "60.0"
+        ],
+        "(1000004, 'EUR')": [
+          "57.8",
+          "57.8"
+        ]
+      }
+    },
+    {
+      "case": "only_usd",
+      "triple_ASI_and_lot_checks": 4,
+      "records": {
+        "(1000005, 'USD')": [
+          "60.0",
+          "60.0"
+        ],
+        "(1000006, 'USD')": [
+          "60.0",
+          "60.0"
+        ]
+      }
+    }
+  ],
+  "scope": "Nominal: 2 încercări de inserare a câte unei linii USD în aceeași tranzacție, urmate de recalcul la 14 și eroare pe schema EUR. În citirea finală, ambele linii USD lipsesc. Controlul cu numai USD și un produs nou cu aceeași rețetă produce 2 linii contabile pe document, cu ASI citit direct din Fact_Acct. Martorul separat cu L2 evacuat produce 4 pe document. Reversarea schemei de test s-a făcut. Rezultatul delimitează condiția dovedită în cabinet și nu prescrie dezactivarea unei scheme reale. Trace de încercare și citire SQL după tranzacție rămân tipuri de evidență distincte.",
+  "R10_quality_score": null,
+  "implementation_score": null
+}

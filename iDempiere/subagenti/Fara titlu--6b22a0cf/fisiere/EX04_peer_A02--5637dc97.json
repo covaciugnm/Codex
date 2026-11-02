@@ -1,0 +1,257 @@
+{
+  "schema": "eva.audit.supplement.peer-review.v2",
+  "case": "EX04",
+  "peer": "A02",
+  "owner": "A06",
+  "reviewer": "A11",
+  "utc": "2026-11-02T16:53:19.944Z",
+  "subject_sha256": "1e60138c88ba48115f5d7c5cb0b239c7a0ecee33fd986e16315feb7b9c513f20",
+  "anchor": "EX04.json",
+  "timeout_addendum": {
+    "file": "EX04_timeout_addendum.json",
+    "sha256": "5baf533ec224790a896a255e888f7f03077b6bb68e3a2c81b9ce05d7bb495ba9",
+    "checked": [
+      {
+        "jar": "git",
+        "elapsed_s": 180.86,
+        "outcome": "RESULT\tERROR\tHttpTimeoutException\trequest timed out"
+      },
+      {
+        "jar": "installed",
+        "elapsed_s": 180.84,
+        "outcome": "RESULT\tERROR\tHttpTimeoutException\trequest timed out"
+      }
+    ]
+  },
+  "cleanup_evidence": {
+    "file": "EX04_EX05_cleanup.json",
+    "sha256": "252343035fec1362d64b452647647f8f72f7bd884f66af02abb3664f792acf51",
+    "remaining_producer_databases": 0,
+    "producer_container_cleanup": true,
+    "peer_own_database_removed": true,
+    "peer_own_jvm_and_http": "Exit 0 pentru ambele executabile, listener loopback oprit, scratch temporar înlăturat. Nu a fost rezervat cabinet ERP sau slot server nou."
+  },
+  "repo": {
+    "eva_git": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "EVA-git-JAR": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+    "EVA-installed-CESIRO-JAR": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+    "ERP-fixture-image": "sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235",
+    "CESIRO1-source-manifest": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be",
+    "container_network": "Intern, verificat prin Docker în gateway. Legătură dedicată fixture /api/ext/v1 GET; HTTP local de test; nicio interogare de producție sau nativitate TLS inferată."
+  },
+  "case_id": "CURSOR-01",
+  "contract_controls": [
+    "A06-C18",
+    "A02.C014",
+    "A02.C015",
+    "A10-CK-12"
+  ],
+  "contract_pipelines": [
+    "A06-P4",
+    "A02.P05",
+    "A10-F03"
+  ],
+  "parent_task_refs": [
+    {
+      "technical": "T20",
+      "canonical": null,
+      "successors": [
+        "P01.C10.T0011"
+      ]
+    },
+    {
+      "technical": "T22",
+      "canonical": null,
+      "successors": [
+        "P01.C10.T0007"
+      ]
+    },
+    {
+      "technical": "T35",
+      "canonical": null,
+      "successors": [
+        "P01.C10.T0002"
+      ]
+    }
+  ],
+  "scope": "EVA Git, JAR Git și JAR CESIRO, plus API CESIRO1 și cabinetul GardenWorld sintetic din proba producătorului. A02 a curs independent două JAR reale și un PostgreSQL propriu. Producția nu a fost accesată.",
+  "decision": "ACCEPT_COMPONENTĂ_CU_DIVERGENȚE; ACCEPT_RELANSAREA_NATIVĂ_DEMONSTRATĂ; RESPING_PASS_INTEGRAL",
+  "meaning": "Reconcilierea datelor și integritatea probei sunt suficiente pentru constatarea limitei contractului. A11 evaluează calitatea și punctajul separat.",
+  "integrity": {
+    "producer_manifest_count": 37,
+    "producer_manifest_hashes_recomputed": 37,
+    "eva_and_cesiro1_source_anchors_validated": 9,
+    "compiled_jar_hashes_and_relevant_class_hashes": {
+      "cod-master-contab.jar": {
+        "jar": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+        "classes": {
+          "com/eva/ro/contab/corelare/SursaCesiro1.class": "19013a4130e47c21a9193337f1ed405bcdc7176544264582038c46bbccea5086",
+          "com/eva/ro/contab/corelare/PreiaDinSite.class": "d1bd92331c9d72a84331dfb5bd10e2565e687b66877c89d64741eeee2fa32b35",
+          "com/eva/ro/contab/corelare/CorelareTabele.class": "1e5b23b5ed0c82b51cf90198b1039f456c51ea7412f063f4de12952f7cab3fd0",
+          "com/eva/ro/contab/corelare/SursaSiteConfig.class": "eb6d4c853eb4f91cab01489678b714ee8eb1ad9b04a93bae2458341fbf29cc94"
+        }
+      },
+      "com.eva.ro.contab_13.0.0.jar": {
+        "jar": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+        "classes": {
+          "com/eva/ro/contab/corelare/SursaCesiro1.class": "19013a4130e47c21a9193337f1ed405bcdc7176544264582038c46bbccea5086",
+          "com/eva/ro/contab/corelare/PreiaDinSite.class": "d1bd92331c9d72a84331dfb5bd10e2565e687b66877c89d64741eeee2fa32b35",
+          "com/eva/ro/contab/corelare/CorelareTabele.class": "1e5b23b5ed0c82b51cf90198b1039f456c51ea7412f063f4de12952f7cab3fd0",
+          "com/eva/ro/contab/corelare/SursaSiteConfig.class": "eb6d4c853eb4f91cab01489678b714ee8eb1ad9b04a93bae2458341fbf29cc94"
+        }
+      }
+    },
+    "independent_evidence": [
+      {
+        "file": "EX04-peer-A02-evidence/replica.json",
+        "sha256": "584fbc78da221fadf95c7dcb03fea8a0f01ed2bd1274405133dcbb008e156e1d"
+      },
+      {
+        "file": "EX04-peer-A02-evidence/A02Ex04Peer.java",
+        "sha256": "a3328ecc5971db7ceb6dc6daa9885daecd442106290e4764c92da42892ca50a1"
+      },
+      {
+        "file": "EX04-peer-A02-evidence/a02_ex04_independent.py",
+        "sha256": "ee771ec31c0b2589fb5cb7e5207dc686e4d57a9cf946a9b13394723bfbd3d3dd"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "id": "EX04-P01",
+      "method": "Recalcul din before/after și sursa Java, nu doar statusul HTTP.",
+      "source": "PreiaDinSite.java l139–154, l305–374; l318–320 lista completă; commitEx l365. Când fereastra a fost procesată, starea sursei se actualizează separat.",
+      "before": {
+        "rows": [],
+        "cursor": [
+          [
+            "CURSA",
+            ""
+          ],
+          [
+            "CURSB",
+            ""
+          ]
+        ]
+      },
+      "after_failure": {
+        "rows": [
+          [
+            "CURSA",
+            "ORD101",
+            "a1000000-0000-4000-8000-000000000101",
+            "1000011",
+            "2026-11-02 10:00:00",
+            "87.87"
+          ],
+          [
+            "CURSA",
+            "ORD102",
+            "a1000000-0000-4000-8000-000000000102",
+            "1000010",
+            "2026-11-02 10:00:00",
+            "87.87"
+          ],
+          [
+            "CURSA",
+            "ORD103",
+            "a1000000-0000-4000-8000-000000000103",
+            "1000009",
+            "2026-11-02 10:00:01",
+            "87.87"
+          ]
+        ],
+        "cursor": [
+          [
+            "CURSA",
+            ""
+          ],
+          [
+            "CURSB",
+            ""
+          ]
+        ]
+      },
+      "after_replay": {
+        "rows": [
+          [
+            "CURSA",
+            "ORD101",
+            "a1000000-0000-4000-8000-000000000101",
+            "1000011",
+            "2026-11-02 10:00:00",
+            "87.87"
+          ],
+          [
+            "CURSA",
+            "ORD102",
+            "a1000000-0000-4000-8000-000000000102",
+            "1000010",
+            "2026-11-02 10:00:00",
+            "87.87"
+          ],
+          [
+            "CURSA",
+            "ORD103",
+            "a1000000-0000-4000-8000-000000000103",
+            "1000009",
+            "2026-11-02 10:00:01",
+            "87.87"
+          ]
+        ],
+        "cursor": [
+          [
+            "CURSA",
+            "2026-11-02 10:00:01"
+          ],
+          [
+            "CURSB",
+            ""
+          ]
+        ]
+      },
+      "expected": "Persistarea lotului este durabilă, cursorul nereușit nu se avansează; reluarea nu recreează ID-uri.",
+      "observed": "Trei antete cu ID ERP 1000011/1000010/1000009, cursor A gol înainte de restart. După restart aceleași ID-uri și cursor A 10:00:01, cursor B încă gol. SQLSTATE simulat independent cu rollback checkpoint a păstrat două ID-uri identice la reluare.",
+      "qualifier": "Trigger controlat la cursor, nu un crash fizic al serverului. Paginile API externe nu sunt unitatea de commit pentru PreiaDinSite; este fereastra."
+    },
+    {
+      "id": "EX04-P02",
+      "method": "Verificare sursă + index și proiecție PG independentă.",
+      "source": "PreiaDinSite.java l330 caută (client, sursă, ID extern). CorelareTabele.java l263 indexul unic exact pe aceleași trei coloane.",
+      "observed": "Proba ERP a folosit același număr ORD101 în două surse și UUID-uri externe DIFERITE. A02 a reutilizat același UUID extern în două surse și alți clienți în proiecția indexului real. Repetarea cheii identice nu duplică rândul. Nu atribuim aceste ultime observații unor apeluri ERP native pe același UUID."
+    },
+    {
+      "id": "EX04-P03",
+      "method": "Replică independentă a adaptorului din ambele JAR-uri la HTTP loopback cu 6 variante de corp.",
+      "source": "SursaCesiro1.java l238–249. CESIRO1 external_orders.py l166/237; per_page=0 cere o singură fereastră cu items=0. PreiaDinSite trece updatedSince=null.",
+      "expected": "total=3 și items=[] sau items de lungime 1 trebuie semnalate ca incoerente; un total=0/items=[] poate fi valid.",
+      "observed": "Ambele JAR-uri returnează 3 din control, 0 din total=0/[], 0 din total=3/[], 1 din total=3/[un rând] și 0 când lipsește items; JSON trunchiat este refuzat. Un GET per fereastră și niciun updated_since în apelul testat.",
+      "native_check": "Procesul real pe corpul inconsistent a raportat succes, 0 noi, cu cursor încă gol. Nicio pierdere definitivă demonstrată: o reluare completă poate recupera fereastra."
+    },
+    {
+      "id": "EX04-P04",
+      "method": "Comparare stări înainte/după, timestamp egal, concurență și expirare.",
+      "observed": "A101/A102 au aceeași oră și ID-uri distincte. Actualizarea întârziată a păstrat ID pentru toate trei; replay identic nu modifică starea. Procese concurente 200/409, replay fără dublare. 429/500/trunchiere/eșec de detaliu conservă starea și checkpointul. Două timeouts reale la 180,86s/180,84s produc HttpTimeoutException în adaptor.",
+      "qualifier": "Timeout-ul de transport nu a rulat prin întregul PreiaDinSite și nu are snapshot ERP separat. Concurența verificată este între procesele ERP ale fixture-ului."
+    },
+    {
+      "id": "EX04-P05",
+      "method": "Contraproba versiunii din helperul nativ de actualizare.",
+      "observed": "PreiaDinSite.deActualizat din ambele JAR-uri refuză data egală, dar acceptă un updated_at al sursei cu 60 secunde mai vechi decât cel persistat; predicatul testează diferență, nu ordine.",
+      "scope": "Risc de suprascriere la un răspuns vechi. Nu s-a trimis acel răspuns prin procesul OSGi și nu a fost demonstrată regresia unei comenzi reale."
+    },
+    {
+      "id": "EX04-P06",
+      "method": "Verificare anulare.",
+      "observed": "comenzi: 0 noi, 1 actualizate, 2 neschimbate · AWB: 0 noi, 0 actualizate · 2 cereri GET",
+      "scope": "Comanda era deja importată, anulată apoi în sursă înaintea validării ERP. ID păstrat, fără C_Order; nu echivalează cu anulare în fiecare punct înainte de prima citire, cu stornare sau refund."
+    }
+  ],
+  "remaining": [
+    "Volumul maxim pentru per_page=0, consumul de memorie, SLA și comportamentul în ferestre suprapuse cu răspunsuri trunchiate semantic sunt deschise.",
+    "Demonstrație nativă a aceluiași UUID extern, în două surse reale distincte, și a ordinii de versiune regresive în OSGi nu face parte din acest peer.",
+    "Pentru remedieri, validați cardinalitatea total/items în contractul de fereastră, respingeți răspunsul incoerent înainte de succes și conservați checkpointul. Testați 0 real, 3→0 și 3→1, eroare/timeout, actualizare întârziată și aceeași cheie compusă fără duplicat."
+  ],
+  "next": "Predare la A11 pentru verdict independent. EX04 și addendumul timeout rămân nemodificate.",
+  "quality_score": null
+}

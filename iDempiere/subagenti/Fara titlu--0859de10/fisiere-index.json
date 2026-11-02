@@ -1,0 +1,51 @@
+[
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\r10doc_cross.py",
+    "status": "copiat",
+    "saved_path": "fisiere/r10doc_cross--1cdcb05a.py",
+    "bytes": 1843,
+    "sha256": "8f35f327d26127a4a531845703f2e7f55013ef0911320b1967b6fa9b81660d1d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\r10doc_details.py",
+    "status": "copiat",
+    "saved_path": "fisiere/r10doc_details--71571130.py",
+    "bytes": 689,
+    "sha256": "30089463b00c6e277966d224d91782ff69bce545c93631f78b0f2eab228836f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\r10doc_finalize.py",
+    "status": "copiat",
+    "saved_path": "fisiere/r10doc_finalize--fd627213.py",
+    "bytes": 11090,
+    "sha256": "a08d7f45c001aa976665b7f1398280920367b3267a67e21a8b47ca8a0bd743c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\r10doc_inventory.py",
+    "status": "copiat",
+    "saved_path": "fisiere/r10doc_inventory--64837091.py",
+    "bytes": 803,
+    "sha256": "60cf8f3b17dcb6622fcb84dee0884b18be8359f58a47522bf44c08fcff0a87fb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\r10doc_jvm.py",
+    "status": "copiat",
+    "saved_path": "fisiere/r10doc_jvm--dcdd7ef8.py",
+    "bytes": 648,
+    "sha256": "ff313e90be9394cd1167db51988fcf5794d0948927a946d95f3f1b75d74af171"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\r10doc_probe.py",
+    "status": "copiat",
+    "saved_path": "fisiere/r10doc_probe--2990a5eb.py",
+    "bytes": 874,
+    "sha256": "d820bdf8ce33604a7846c98fc156dd3657d6d8b69ca5c188d5b9f8597875a07f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R10_pregatire/A12/R10_documentar_supliment/Rezultat.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Rezultat--4bd50f66.json",
+    "bytes": 13563,
+    "sha256": "e0f8650fbc2a89cceec9e81e1fa8d72d2c4e36866761685ea40d46d09ae0569c"
+  }
+]

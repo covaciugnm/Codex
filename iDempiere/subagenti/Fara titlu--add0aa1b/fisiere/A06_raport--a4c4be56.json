@@ -1,0 +1,1662 @@
+{
+  "schema": "eva.audit.zone.report.v1",
+  "zone_id": "A06",
+  "cutoff_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "plan_manifest": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "arbitration_sha256": "7f2722b80ee1b1239aa860dca65892e7b418525c042ef2da101cfaac6bd29903",
+  "captured_utc": "2026-11-02T15:51:24.689465+00:00",
+  "reviewer": "A11",
+  "status": "PRIMA_REAUDITARE_PARTIALĂ",
+  "quality_score": null,
+  "implementation_verdict": "La nivel probat: două SO standard pe stoc de șase au rezervat 12 după retry, cu zero expedieri/facturi. Checkoutul local și API de resurse ERP sunt intrări distincte. Rămân coliziunea ID/SKU/EAN, lipsa idempotenței demonstrate în ambele intrări independente, și calculul Y al cantității furnizor în oferta din Git.",
+  "counts": {
+    "controls": 32,
+    "by_status": {
+      "FAIL_DOVEDIT": 8,
+      "FAIL_COMPONENTĂ": 2,
+      "PARȚIAL": 17,
+      "INCONCLUDENT": 5
+    },
+    "pipelines": 7,
+    "findings": 10,
+    "direct_or_component_findings": 8,
+    "cross_zone_owned_findings": 2,
+    "source_tasks_with_A12_individual_review": 87,
+    "sources_assigned_after_arbitration": 632,
+    "surfaces_after_arbitration": 126,
+    "runtime_complete_E2E": 0,
+    "component_suite_passed": 7,
+    "component_assertions_ok_lines": 1168,
+    "finding_rows_reclassified_observation": 1,
+    "a06_new_findings": 2,
+    "source_tasks_with_supplement": 88,
+    "native_standard_order_document_chain_r2": 1,
+    "T352_additional_suites": 3,
+    "T352_additional_ok_lines": 535
+  },
+  "provenance": {
+    "eva_code": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "native_reference": "da0730aec42f3e9f5f671e81a70ff71e24d5e534",
+    "native_jar_build": "13.0.0.202603090043",
+    "contab_installed_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+    "git_contab_jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+    "class_observations": "FisaCanalProces.class diferă. SetLista/RezervareStoc/CanalB2B și lista precisă sunt în E-JAR. Equalitatea octeților nu echivalează cu activarea sau comportamentul."
+  },
+  "evidence_index": {
+    "E-WEB": {
+      "path": "A06/checkout_cases.json",
+      "sha256": "e1a9b8bcc58c54e30bdaa8f28bcb2e8c8a7496e9d87d3b1470034cb1cf3f99ee"
+    },
+    "E-REPLAY": {
+      "path": "Checkout_probe.json",
+      "sha256": "253411b3b3b52cee21663dbdae62afcedfbec325f70cc697c8719a9d75b2e396"
+    },
+    "E-G3": {
+      "path": "A06/G3-results.txt",
+      "sha256": "cd270fe5ae60f6ac6c38e4ea5fd30f20abe5b935ca320d3ba384bccafc5add20"
+    },
+    "E-BOM": {
+      "path": "A06/bom-history.json",
+      "sha256": "a6afb71a757ffcda452582ca153f744ab9f39fb88bd99309cd72381eafca9024"
+    },
+    "E-PG": {
+      "path": "A06/bom-pg.json",
+      "sha256": "d3b7f6bc2b14d9e0f6912e23dd94ed31bcec3f9b018220b634bef023382fb7be"
+    },
+    "E-META": {
+      "path": "A06/meta.json",
+      "sha256": "aae64f26ad360c7b663bb480ce378961de3fbb2c3f96f24d010502bc8a0c263b"
+    },
+    "E-NATIVE": {
+      "path": "A06/native.json",
+      "sha256": "77d11b7dab4d5ad199a5296b9155123c27f64b33938286836c5b4695dfc040ba"
+    },
+    "E-SUITE": {
+      "path": "A06/suite.json",
+      "sha256": "4f99864245501a2242e56349bb92d5ac33b0a1f9941bbc900737295e7bfec65d"
+    },
+    "E-SRC": {
+      "path": "A06/source.json",
+      "sha256": "4f71aa60ba8dd7f80e1b07d310ed51432614cfbff5626a01df4edf170623b2b8"
+    },
+    "E-JAR": {
+      "path": "A06/bundle.json",
+      "sha256": "b67cbd9ad9a22f6d4ac16a326db5e5b49cfa77eb7e10f40d5cf9edcd8d07a0c1"
+    },
+    "E-A02": {
+      "path": "A02_raport.json",
+      "sha256": "b6894f76d4e8ed44f954ae08bd0d726e23bc207ad9d8c2e26ca169d5be9083d4"
+    },
+    "E-PG02": {
+      "path": "A02/PG_fixture_rezultate.json",
+      "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+    },
+    "E-A05": {
+      "path": "A05_raport.json",
+      "sha256": "3a59da8d4b4db5a535aed0f3fceeb4ce8123be28fac36ec92bd21154dc760d82"
+    },
+    "E-ID": {
+      "path": "A05/sandbox-product-identity.txt",
+      "sha256": "d3648e66d3e7695cefbc7e0f955759cb971864f1f7976fd2af05953fd8e3a408"
+    },
+    "E-A05J": {
+      "path": "A05/probe.txt",
+      "sha256": "9f149293a7d29082c35df8b679ddf43d52a2e25e0ef1035df8151c14344397cd"
+    },
+    "E-A01": {
+      "path": "A01_raport.json",
+      "sha256": "1e57c4b95b3457953a56558bcb5b8a588b87f1f682d8169187a754ba78d886cd"
+    },
+    "E-WEB-HASH": {
+      "path": "Provenienta_API_web.json",
+      "sha256": "f0702a817ba3b80bf255c7624229732c53c0fae88596ca97965f5ff9a803f135"
+    },
+    "E-ROUTE": {
+      "path": "Traefik_rute_active_config.json",
+      "sha256": "fa8c4e6bd8c76a2f9d6e0d27130e6b5ababa800a5772b79522ae97ef93f4707d"
+    },
+    "E-REG": {
+      "path": "Canale_instalate.json",
+      "sha256": "0ce7ded68464b1b8857496aa454408901e8e028f0c10bacdf9a5581f35c1d355"
+    },
+    "E-PERIM": {
+      "path": "A06/perimetru.json",
+      "sha256": "1d0c1fae6d7818b02b683b6ecff2f6db45fcdd623e69cd6a842ad6c65bf2eb57"
+    },
+    "E-TASKS": {
+      "path": "A06/taskuri.json",
+      "sha256": "19f7770a89eb865d92113f4c88b24a507655552a06abf5283be7317d2fe4b4bc"
+    },
+    "R2-NATIVE": {
+      "path": "R2_zone/A06/dovezi/so-native.json",
+      "sha256": "12f776b05dcd96db0f161d22f2b2b921d9e04df9becbc1c687c720f43b004bcf"
+    },
+    "R2-NATIVE2": {
+      "path": "R2_zone/A06/dovezi/so-native-retry.json",
+      "sha256": "29ba77f1466f75874cc31850b3212e14f7f27c19d379e9fc7e6cb57ad3ce84b6"
+    },
+    "R2-PRICELIST-REFUSAL": {
+      "path": "R2_zone/A06/dovezi/so-native-first-pricelist.json",
+      "sha256": "88e868cf8a7c1feb7ef8d3d52520667ac11338bb1b8384bd8e76429832510e76"
+    },
+    "R2-ALIAS": {
+      "path": "R2_zone/A06/dovezi/ids-restart.json",
+      "sha256": "3828f4c7900c876611ccd22b16aca7662eb5f657580221971bd22aa39c921f12"
+    },
+    "R2-G3": {
+      "path": "R2_zone/A06/dovezi/g3-pg.json",
+      "sha256": "c8d370bc9f4386bda39cb7a394c435bcec9c9a408fc3b04d0bbbf9a37a708c67"
+    },
+    "R2-SENDGIT": {
+      "path": "R2_zone/A06/dovezi/transport-git.txt",
+      "sha256": "323313450a55ae5db6f29666e901d4120a4def3f14a138fc5408c421aec7fa9c"
+    },
+    "R2-SENDINST": {
+      "path": "R2_zone/A06/dovezi/transport-installed.txt",
+      "sha256": "323313450a55ae5db6f29666e901d4120a4def3f14a138fc5408c421aec7fa9c"
+    },
+    "R2-PUBGIT": {
+      "path": "R2_zone/A06/dovezi/publication-git.txt",
+      "sha256": "30f253ac5f7a3c416e571d1f50be102eec6f1cf3a0a4c59451f357f10dffd811"
+    },
+    "R2-PUBINST": {
+      "path": "R2_zone/A06/dovezi/publication-installed.txt",
+      "sha256": "30f253ac5f7a3c416e571d1f50be102eec6f1cf3a0a4c59451f357f10dffd811"
+    },
+    "R2-AI": {
+      "path": "R2_zone/A06/dovezi/TestT352AI.log",
+      "sha256": "c349cc63ffba5094d7258323b8e66a5b522095c99c40138ddeb91fbcdcd0c96d"
+    },
+    "R2-MASA": {
+      "path": "R2_zone/A06/dovezi/TestT352Masa.log",
+      "sha256": "3f232fd682f86fc5e0c952dbc6531405cb84eed2f97b78038b88de7ccef292b8"
+    },
+    "R2-RULES": {
+      "path": "R2_zone/A06/dovezi/TestT352Reguli.log",
+      "sha256": "4474a593c1b3b8ab0c164c5306b8b9e05b010c4e9405701eb798a22656c52a5c"
+    },
+    "R2-G3ROOT": {
+      "path": "Reverificare_G3_rezervare_canal.json",
+      "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+    },
+    "R2-RMA": {
+      "path": "Reverificare_retur_concurent_colete.json",
+      "sha256": "0a19fa8c3a6b63624fcab645c6c6bd002cf2af830aae76cafedb7550350083e8"
+    },
+    "R2-PO": {
+      "path": "Reverificare_PO_receptie_match_storno.json",
+      "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01"
+    },
+    "R2-AUTH": {
+      "path": "Reverificare_rol_DocAction.json",
+      "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8"
+    },
+    "R2-ADDM": {
+      "path": "delta/2026-11-02T15-00-35-559Z/Addendum_plan_R2.json",
+      "sha256": "2596eb1314016d250a7250b23d3eed2b850dfe8212265779ced1a10a7f41d5ea"
+    },
+    "R2-GATE": {
+      "path": "A11_gate_delta_P01_R2.json",
+      "sha256": "906bf30d6001b237c0cb2c741962e602845a0f225b5c0b3759de1d2e5d81e7da"
+    },
+    "R2-REVIEW": {
+      "path": "A11_control_lot2.json",
+      "sha256": "68373245ec6c1580cdfc344218ff8b87208769b11fb85173892cc0d1ffa4339a"
+    },
+    "R2-A12": {
+      "path": "A11_control_A12_R3.json",
+      "sha256": "7f6da60c0ee1f648431c9f3df848de8a2d737de13776ba5d0ed329425fb6b3b4"
+    },
+    "R2-VERSION": {
+      "path": "R3/probe_delta/T352-9.json",
+      "sha256": "c2b8037926cab07875df93d9ede6d780820124a781bb3c35d02575ed2a4b9aa0"
+    },
+    "R2-VAL": {
+      "path": "R3/probe_sql/T352_dozare.json",
+      "sha256": "bf404184b451588768ab4d62cf5f06c4410eeeed9eb02ab8226017a4c5008d46"
+    },
+    "R2-SET": {
+      "path": "R3/probe_sql/T352_Postgres_local.json",
+      "sha256": "1f18d4e8a24550d6fb07f57516f0e3edffc5b167fca92b187212b7dd7184cadc"
+    },
+    "R2-352TASK": {
+      "path": "R3/taskuri/Fisa_T352.json",
+      "sha256": "332818e745d9700891741a74e13811c027ec1c6f6d593dc83102b3f58d219c2f"
+    },
+    "R3-352-1": {
+      "path": "R3/probe_delta/T352-1.json",
+      "sha256": "26de98b1ce68531420fbef14785b7f0824fe0df3f53d5f791938231e11ec5ac7"
+    },
+    "R3-352-2": {
+      "path": "R3/probe_delta/T352-2.json",
+      "sha256": "e4b6bdfeb32524f68f0f26394c6209c0f579fee27be4e485e4d32ad06f5d6d62"
+    },
+    "R3-352-3": {
+      "path": "R3/probe_delta/T352-3.json",
+      "sha256": "ff778f9e64205f701078f8484d1a5713a8c15252be5e54eaf211c48a94fc3209"
+    },
+    "R3-352-4": {
+      "path": "R3/probe_delta/T352-4.json",
+      "sha256": "9894b43be5a9a58b5e5bc6151871a02d731da1b0ecdf8f2a0c81203c9a58b2a4"
+    },
+    "R3-352-5": {
+      "path": "R3/probe_delta/T352-5.json",
+      "sha256": "953424b255f99bd64ceb4a3b8a626cf7fb876e0c37c6284eac61393443d961c8"
+    },
+    "R3-352-6": {
+      "path": "R3/probe_delta/T352-6.json",
+      "sha256": "2604fe0a65b882e6009473c9c342958ed93524a38dde8c1c82a371a6f8c899b7"
+    },
+    "R3-352-7": {
+      "path": "R3/probe_delta/T352-7.json",
+      "sha256": "ee6601a8f9065542db5268c7778d0d82eedbabf84f9c3972f5698c636eb6a206"
+    },
+    "R3-352-8": {
+      "path": "R3/probe_delta/T352-8.json",
+      "sha256": "f2ad412b1a46c477240cd7dc2f48d1a3b05eed1bc48222dffbb8e68f8a475898"
+    },
+    "R3-352-9": {
+      "path": "R3/probe_delta/T352-9.json",
+      "sha256": "c2b8037926cab07875df93d9ede6d780820124a781bb3c35d02575ed2a4b9aa0"
+    }
+  },
+  "findings": [
+    {
+      "finding_id": "A06-F01",
+      "title": "ID explicit rezolvat ca SKU al altui articol",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_COMPONENTĂ",
+      "evidence": [
+        "E-WEB",
+        "E-WEB-HASH",
+        "E-SRC",
+        "R2-ALIAS"
+      ],
+      "anchors": [
+        "D3",
+        "D1"
+      ],
+      "observed_fact": "Cererea pentru wp-test-1 se salvează cu wp-test-2 când al doilea SKU este wp-test-1, HTTP 200 pending_stock_mapping. Ordinea listei dictează câștigătorul. R2: și un EAN numeric al produsului al doilea poate suprascrie ID-ul primului. SKU/EAN fără coliziuni au controale pozitive.",
+      "remediation_native": "Separă căutarea după tip de identificator și autentifică mappingul per canal/firmă. Prioritate pentru ID explicit valid, conflictul trebuie respins. Păstrează M_Product_ID la ingestie.",
+      "retest": "Intervertește ordinea produselor și pune coliziune ID–SKU–EAN. Niciodată nu se înregistrează B pentru ID-ul A.",
+      "confidence": "ridicată exclusiv pentru nivelul indicat",
+      "review": "PRIMA_TRECERE_A11",
+      "product_change": false,
+      "round": "R2",
+      "previous_report": "A06_raport.json",
+      "lifecycle": "RECONFIRMAT"
+    },
+    {
+      "finding_id": "A06-F02",
+      "title": "Reîncercarea checkoutului persistă două cereri",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_COMPONENTĂ",
+      "evidence": [
+        "E-WEB",
+        "E-REPLAY",
+        "E-WEB-HASH",
+        "R2-ALIAS",
+        "R2-NATIVE2"
+      ],
+      "anchors": [
+        "D1",
+        "D6"
+      ],
+      "observed_fact": "Două răspunsuri HTTP 200 cu aceeași cheie și două fișiere ORD distincte. Rezultate din două rulări independente. C_Order nu a fost creat în această probă. R2: confirmat după restart independent al workerului pe același director. REST nativ generic a creat și el două DR cu aceeași cheie; nu există legătură cauzală între aceste două teste.",
+      "remediation_native": "Cheie stabilă pentru cabinet/firmă/canal, înregistrată tranzacțional la recepție. Dedup și transmitere către ERP folosind aceeași identitate.",
+      "retest": "Retry paralel, restart după commit, cheie refolosită cu alt payload și aceeași cheie în alt canal. Reconciliază cereri, C_Order și rezervări.",
+      "confidence": "ridicată exclusiv pentru nivelul indicat",
+      "review": "PRIMA_TRECERE_A11",
+      "product_change": false,
+      "round": "R2",
+      "previous_report": "A06_raport.json",
+      "lifecycle": "RECONFIRMAT"
+    },
+    {
+      "finding_id": "A06-F03",
+      "title": "Ce înseamnă starea new la depășirea stocului",
+      "severity": "DE_EVALUAT_DUPĂ_POLITICA_CANALULUI",
+      "status": "OBSERVAȚIE_POLITICĂ_DESCHISĂ",
+      "evidence": [
+        "E-WEB",
+        "E-REPLAY",
+        "E-WEB-HASH",
+        "R2-NATIVE2"
+      ],
+      "anchors": [
+        "D5",
+        "D6",
+        "web"
+      ],
+      "observed_fact": "Starea frontend new arată primire locală. Fără politica verificată pentru precomenzi sau o legătură cu rezervare ERP, nu indică supravânzare în producție. Două SO native distincte rezervă 12/6 separat în fixture.",
+      "remediation_native": "Formalizează primită/în verificare versus acceptată/alocată. Confirmă în ERP prin același contract de alocare G3, comunică restanța și păstrează răspunsul pe site.",
+      "retest": "3 disponibile, 7 cerute pe 2 canale concurente. Verifică semantica răspunsului și limita cumulată efectiv angajată, inclusiv după timeout.",
+      "confidence": "ridicată exclusiv pentru nivelul indicat",
+      "review": "PRIMA_TRECERE_A11",
+      "product_change": false,
+      "round": "R2",
+      "previous_report": "A06_raport.json",
+      "lifecycle": "RECALIFICAT"
+    },
+    {
+      "finding_id": "A06-F04",
+      "title": "Cantități negative, zero și fracționare sunt convertite în 1",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_COMPONENTĂ",
+      "evidence": [
+        "E-WEB",
+        "E-WEB-HASH",
+        "R2-ALIAS"
+      ],
+      "anchors": [
+        "D4",
+        "D6"
+      ],
+      "observed_fact": "-1, 0 și 1.75 primesc fiecare HTTP 200 și cantitate persistentă 1. Pentru 2, controlul pozitiv persistă 2. R2 a reprodus 2,5→2, 0→1, -9→1.",
+      "remediation_native": "Validează înainte de conversie. Aplică C_UOM și precizia admisă, refuză clar cantitățile invalide.",
+      "retest": "0, -1, 1.75, UM divizibilă și bucată indivizibilă. Compară cu QtyEntered, QtyOrdered și răspunsul către client.",
+      "confidence": "ridicată exclusiv pentru nivelul indicat",
+      "review": "PRIMA_TRECERE_A11",
+      "product_change": false,
+      "round": "R2",
+      "previous_report": "A06_raport.json",
+      "lifecycle": "RECONFIRMAT"
+    },
+    {
+      "finding_id": "A06-F05",
+      "title": "Checkoutul folosește aceeași fracție TVA pentru toate liniile",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_COMPONENTĂ",
+      "evidence": [
+        "E-WEB",
+        "E-SRC",
+        "E-META",
+        "E-NATIVE"
+      ],
+      "anchors": [
+        "D2",
+        "D1",
+        "price"
+      ],
+      "observed_fact": "În toate cele opt cereri fracția din documentul local este 0.19. Sursa o fixează la începutul funcției. Nicio factură fiscală din ERP nu a fost supusă acestui test.",
+      "remediation_native": "Folosește taxele și data/țara/categoria din C_Tax și listele native. Prezintă diferențele înaintea acceptării, cu referință către documentul ERP.",
+      "retest": "Două clase de taxă/configurații la date diferite plus retur parțial. Compară totalurile ERP și checkout la precizia monedei în fixture. A03 validează regula fiscală aplicabilă.",
+      "confidence": "ridicată exclusiv pentru nivelul indicat",
+      "review": "PRIMA_TRECERE_A11",
+      "product_change": false,
+      "round": "R2",
+      "previous_report": "A06_raport.json",
+      "lifecycle": "RECONFIRMAT"
+    },
+    {
+      "finding_id": "A06-F06",
+      "title": "Cererea de componente depinde de rețeta activă la data citirii",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_QUERY_FĂRĂ_E2E",
+      "evidence": [
+        "E-BOM",
+        "E-JAR",
+        "E-SRC",
+        "E-PG",
+        "R2-G3"
+      ],
+      "anchors": [
+        "D8",
+        "bom"
+      ],
+      "observed_fact": "Același rând sintetic cu 1 set rezervat: SELECT literal extras din JAR întoarce 6 componente inițial, 3 după modificare și 0 la inactivare. Calea UI care ar permite modificarea după rezervare nu este demonstrată. Reprodus în PostgreSQL pentru 2 sesiuni S1/S2: 90→80→30 pe componentă prin schimbarea rețetei active fără schimbarea comenzilor. Legătura prin UI nu e confirmată.",
+      "remediation_native": "Atașează versiunea BOM + cantitățile angajate liniei ori interzice înlocuirea rețetei folosite până la eliberare. Folosește versiunea BOM și documentele ERP native.",
+      "retest": "Pe PG și în UI autorizat confirmă o comandă pe v1, activează v2, anulează parțial și măsoară angajamentul vechi.",
+      "confidence": "ridicată exclusiv pentru nivelul indicat",
+      "review": "PRIMA_TRECERE_A11",
+      "product_change": false,
+      "round": "R2",
+      "previous_report": "A06_raport.json",
+      "lifecycle": "RECONFIRMAT"
+    },
+    {
+      "finding_id": "A06-F07",
+      "title": "Proiecția de canal scade și rezervarea de aprovizionare; alocarea pe mai multe G1 este o regulă distinctă",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_PARȚIAL_INTERZONĂ",
+      "evidence": [
+        "E-PG02",
+        "E-A02",
+        "E-A05J",
+        "R2-G3ROOT"
+      ],
+      "anchors": [
+        "reserve",
+        "set"
+      ],
+      "observed_fact": "Interogarea reală a publicării, cu 20 în două G1 și 7 deja angajate, dă 13. 6 este suma artificială a două disponibilități operaționale izolate. Când apare un PO cu qty=4/IsSOTrx=N, canalul dă 9 față de 13 pe criteriul rezervărilor numai de vânzare. Defect comun deja deținut de A02.F02. Standardizarea split-ului unei singure linii 80+40 aparține A05.",
+      "remediation_native": "A02/A05 dețin remedierea. Filtrare SO, distribuire pe gestiuni eligibile, consum global o singură dată și regulă de split explicită.",
+      "retest": "Reia 120(80+40), rețetă comună S1/S2 și linie cu atribute/livrare completă. Reconciliere pe componentă și tranzacție.",
+      "confidence": "ridicată exclusiv pentru nivelul indicat",
+      "review": "PRIMA_TRECERE_A11",
+      "product_change": false,
+      "round": "R2",
+      "previous_report": "A06_raport.json",
+      "lifecycle": "CORECTAT_DUPĂ_CONTRAEXEMPLU"
+    },
+    {
+      "finding_id": "A06-F08",
+      "title": "Codul afișat poate reveni la alt articol după redenumirea celui vechi",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_DE_A05",
+      "evidence": [
+        "E-ID",
+        "E-A02",
+        "E-PG02"
+      ],
+      "anchors": [
+        "mapping"
+      ],
+      "observed_fact": "API sandbox iDempiere blochează duplicatul cât timp Value este menținut, inclusiv pe articol inactiv. După redenumire același Value a fost creat pe alt M_Product_ID.",
+      "remediation_native": "A02 deține registrul immutable al codurilor business la domeniul de unicitate cerut. Distinge UUID/ID de Value și de SKU/EAN.",
+      "retest": "Creează CPP și CPA pentru același produs, încearcă redenumire/reutilizare prin import/API în două cabinete. Păstrează alias extern editabil.",
+      "confidence": "ridicată exclusiv pentru nivelul indicat",
+      "review": "PRIMA_TRECERE_A11",
+      "product_change": false,
+      "round": "R2",
+      "previous_report": "A06_raport.json",
+      "lifecycle": "RECONFIRMAT"
+    },
+    {
+      "finding_id": "A06-F09",
+      "title": "Activarea contribuției furnizorului nu schimbă calculul de publicare pentru articolul direct",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_COMPONENTĂ_GIT",
+      "lifecycle": "NOU_R2",
+      "evidence": [
+        "R2-PUBGIT",
+        "R2-PUBINST",
+        "R2-VAL",
+        "R2-VERSION",
+        "R2-SET"
+      ],
+      "observed_fact": "Caz de bază 8; N+7/N+25%=8 conform. Y+7/Y+25%=8, față de 15/33 așteptate când baza furnizorului este 100. Testul calculează cu aceeași metodă și urmărește apelantul din sursa Git. În JAR montat T352 ca funcție nu este implementată. Se confirmă limita calculatorului în Git, nu oferta transmisă de un furnizor.",
+      "remediation_native": "Păstrează disponibilitatea fermă ca sumă netă eligibilă și separă promisiunea cu termen furnizor. Folosește UM, PP_Product_BOM, datele furnizor și plafonul existent. Adaugă cantitatea doar când politica Y este aprobată și baza/termenul sunt explicite.",
+      "retest": "Folosește aceeași fișă în două canale, N vs Y, 7 bucăți, 25% pe baze 100 și 13, zero, expirare, rotunjire și disponibil fizic neschimbat. Urmărește starea trimisă și valoarea recepționată prin adaptor stub."
+    },
+    {
+      "finding_id": "A06-F10",
+      "title": "Prima completare simultană a două SO pe un articol nou poate returna HTTP 500 la inserarea rezervei",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT_SANDBOX_SO_NATIV",
+      "lifecycle": "NOU_R2",
+      "evidence": [
+        "R2-NATIVE",
+        "R2-NATIVE2"
+      ],
+      "observed_fact": "În două probe native cu articole noi și 6 fizice, două comenzi de câte 6 din sesiuni distincte primesc CO/500, iar eroarea indică PK M_StorageReservation. În a doua probă, retry al celeilalte comenzi a dat CO și rezervă 12. VO și repetarea VO pe una lasă 6. Posibilitatea de backorder a SO standard trebuie evaluată după politica vânzării, distinct de conflictul tehnic.",
+      "remediation_native": "Folosește resursa standard de rezervare și o singură decizie atomică asupra bugetului ferm înainte de confirmare. Erorile de concurență trebuie diferențiate de lipsa stocului. Evită repetarea cererii de creare. Raportează conflictul pe versiunea nativă testată; verifică actualizarea nativă înaintea unei extensii.",
+      "retest": "Două sesiuni, prima rezervare a unui produs/ASI/gestiune, răspuns pierdut, reluare cu identitate stabilă, backorder permis și interzis. Măsoară fizicul și angajamentele după fiecare commit."
+    }
+  ],
+  "controls": [
+    {
+      "id": "A06-C01",
+      "title": "Catalog",
+      "expected": "Două M_Product_ID, două coduri interne diferite. Selectarea liniei CPA regăsește numai CPA în comandă.",
+      "observed": "În cabinetul izolat s-au creat două M_Product cu ID-uri diferite pentru CPP/CPA. Produsul cu ID-ul numeric 10444 din checkout se confundă cu EAN-ul aceluiași șir al celui de-al doilea articol. SKU și EAN corecte, neambigue, rezolvă primul articol.",
+      "status": "FAIL_DOVEDIT",
+      "evidence": [
+        "E-ID",
+        "E-WEB",
+        "E-WEB-HASH",
+        "R2-NATIVE2",
+        "R2-ALIAS"
+      ],
+      "findings": [
+        "A06-F01"
+      ],
+      "anchors": [
+        "mapping",
+        "list"
+      ],
+      "pipelines": [
+        "A06-P1"
+      ],
+      "test_negative_planned": "Înlocuiește aliasul SKU și repetă căutarea. Niciun ID intern nu se unește.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C02",
+      "title": "Coduri nereutilizabile",
+      "expected": "Identitatea originală rămâne referibilă istoric. Domeniul de unicitate global cerut este demonstrat inclusiv între cabinete sau consemnat drept lipsă. Zero reatribuiri.",
+      "observed": "A05 Garden: un cod păstrat pe rând inactiv continuă să fie unic. După redenumirea rândului inițial, codul a putut identifica alt rând. Nereutilizarea în alte baze/cabinete rămâne nedemonstrată.",
+      "status": "FAIL_DOVEDIT",
+      "evidence": [
+        "E-ID",
+        "E-PG02",
+        "E-A02"
+      ],
+      "findings": [
+        "A06-F08"
+      ],
+      "anchors": [
+        "mapping",
+        "channel"
+      ],
+      "pipelines": [
+        "A06-P1"
+      ],
+      "test_negative_planned": "Import concurent a două fișe cu același cod și restaurarea unei arhive vechi. Verifică inclusiv import, API și clone izolate.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C03",
+      "title": "Rețetă și identitate",
+      "expected": "Selectarea CPA arată codul, ambalajul și timpul. Comanda consumă drept de vânzare numai o dată. Este vizibilă legătura cu operația G2.",
+      "observed": "J03/J04 din A05 resping ambalajul PK și 0,5 ore în nota testată. Dublarea operației G1 rămâne a se urmări pe documente.",
+      "status": "FAIL_DOVEDIT",
+      "evidence": [
+        "E-A05J",
+        "E-A05"
+      ],
+      "findings": [],
+      "anchors": [
+        "bom",
+        "explode"
+      ],
+      "pipelines": [
+        "A06-P1"
+      ],
+      "test_negative_planned": "Set cumpărat integral în CPP versus set alcătuit numai pentru vânzare. Schimbul celor două identități trebuie respins.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C04",
+      "title": "Versiune rețetă",
+      "expected": "Comanda veche poate fi refăcută la versiunea folosită. Noua comandă folosește rețeta valabilă. Nicio schimbare retroactivă a angajamentelor.",
+      "observed": "În PG16, liniile angajate în cele două canale nu se schimbă; la editarea coeficientului S1 de la 6 la 5 cererea per componentă recalculată trece de la 90 la 80, iar la inactivarea BOM S1 la 30. Query literal din JAR instalat. Nu se dovedește că este permisă editarea BOM în interfața normală după rezervare.",
+      "status": "FAIL_COMPONENTĂ",
+      "evidence": [
+        "E-BOM",
+        "E-JAR",
+        "E-PG",
+        "R2-G3"
+      ],
+      "findings": [
+        "A06-F06"
+      ],
+      "anchors": [
+        "bom",
+        "set"
+      ],
+      "pipelines": [
+        "A06-P1"
+      ],
+      "test_negative_planned": "Ciclu, componentă din alt client, rețetă ambiguă, coeficient nul sau unitate neconvertibilă. Respinge înainte de ofertare.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C05",
+      "title": "G3 alternative",
+      "expected": "Oferta arată 120 pe fiecare piesă, 20 S1, 40 S2. Sunt posibilități alternative. Publicarea adaugă zero M_Transaction și zero Fact_Acct.",
+      "observed": "R02: 120 de componente eligibile (2×60), JAR returnează 20 S1 sau 40 S2. Două angajamente injectate de 10 S1+10 S2 dau în PG 90 consumate pe componentă, 30 rămas, alternativ 5/10; la lipsa P3 oferta este 0/0. Scanarea publicării pe două site-uri nu s-a executat.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-G3",
+        "E-A05J",
+        "E-NATIVE",
+        "R2-G3"
+      ],
+      "findings": [],
+      "anchors": [
+        "set",
+        "reserve",
+        "rules"
+      ],
+      "pipelines": [
+        "A06-P2"
+      ],
+      "test_negative_planned": "Repetă cu P2 negativ literal, indisponibil sau absent. Ambele seturi au disponibil zero. Ambiguitatea liniuței din exemplul inițial e vizibilă.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C06",
+      "title": "Combinație mixtă",
+      "expected": "Rămân P1=83, P2=90, P3=90. Maximul alternativ este 13 S1 sau 27 S2. G1 fizic rămâne neschimbat până la evenimentul de ieșire.",
+      "observed": "Pentru cererea mixtă a controlului inițial, soldul calculat 83/90/90 dă 13/27 în JAR. În contractul suplimentar de 10+10 seturi, query instalat în clone cu două sesiuni dă 30/30/30. Documentarea acestor două exemple rămâne distinctă.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-G3",
+        "E-SUITE",
+        "R2-G3"
+      ],
+      "findings": [],
+      "anchors": [
+        "set",
+        "reserve",
+        "lock"
+      ],
+      "pipelines": [
+        "A06-P2"
+      ],
+      "test_negative_planned": "Solicită încă 14 S1 sau 28 S2. Nu se acceptă totalul imposibil, nu rămâne angajament parțial accidental.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C07",
+      "title": "Concurență între canale",
+      "expected": "O singură combinație acceptată și o singură rezervare economică. Suma angajamentelor pe orice componentă nu depășește 6.",
+      "observed": "Cursa SO nativă pe 6 bucăți, două documente distincte de câte 6: a doua completare primește 500 la creare simultană a cauzei PK; după reîncercare ambele sunt CO și totalul rezervat este 12, fizicul 6. Sunt Standard SO direct, nu rezervarea atomică pe S1/S2 din canal.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-SRC",
+        "E-PG02",
+        "E-PG",
+        "R2-NATIVE",
+        "R2-NATIVE2",
+        "R2-G3",
+        "E-G3"
+      ],
+      "findings": [
+        "A06-F10"
+      ],
+      "anchors": [
+        "lock",
+        "reserve",
+        "order"
+      ],
+      "pipelines": [
+        "A06-P2"
+      ],
+      "test_negative_planned": "Oprește tranzacția câștigătoare înainte de commit. A doua poate reîncerca. Nicio rezervă orfană sau blocare permanentă.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C08",
+      "title": "G1 multiple și G2",
+      "expected": "Dacă politica admite transfer, agregă doar G1 eligibile, cu plan fezabil de livrare. Dacă o singură origine este obligatorie, disponibilul se calculează pe origini fezabile. G2 nu dublează nicio cantitate.",
+      "observed": "Corecție F07: pentru 2×10 fizice și 7 ale canalului, publicarea produsului direct dă 13, nu 6. Formula operațională pe fiecare depozit dă 3 și 3; suma lor nu este calea de publicare. După un PO de 4, publicarea dă 9, nu 13 dacă se exclud aprovizionările. A05 separat: o singură linie pe 80+40 nu se alocă automat dacă trebuie distribuită pe mai multe gestiuni.",
+      "status": "FAIL_DOVEDIT",
+      "evidence": [
+        "E-G3",
+        "E-PG02",
+        "E-A05J",
+        "R2-G3ROOT"
+      ],
+      "findings": [
+        "A06-F07"
+      ],
+      "anchors": [
+        "reserve",
+        "rules",
+        "set"
+      ],
+      "pipelines": [
+        "A06-P2"
+      ],
+      "test_negative_planned": "P1 numai în G1.1 și P2/P3 numai în G1.2 cu transfer dezactivat. Nu promite o combinație imposibilă.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C09",
+      "title": "Restricții de ofertă",
+      "expected": "Cu 10 bucăți, rezervă 2, plafon 7, multiplu 3, conform ordinii stabilite în fixture rezultă 6. Afișează politica și valoarea restantă.",
+      "observed": "R04: 8 bucăți fizice, ofertă N implicită cu supliment 7 sau 25% dă corect 8. În ambele JAR-uri calculatorul rulează la 8 și cu parametrul Y/value, inclusiv reprezentările 7/25%. În codul T352 din Git, pentru contractul de adiționare cu furnizor confirmat 100 valorile de referință sunt 15/33. Primitiva face conversia independent. În JAR-ul din CESIRO clasele T352 lipsesc.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-G3",
+        "E-SRC",
+        "E-NATIVE",
+        "R2-PUBINST",
+        "R2-PUBGIT",
+        "R2-VAL",
+        "R2-VERSION"
+      ],
+      "findings": [
+        "A06-F09"
+      ],
+      "anchors": [
+        "rules",
+        "catalog"
+      ],
+      "pipelines": [
+        "A06-P2"
+      ],
+      "test_negative_planned": "Suprascriere peste limita fizică, cotă negativă ori limită expirată. Separă explicit precomanda de disponibil garantat.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C10",
+      "title": "Transfer angajament ERP",
+      "expected": "Până la ieșire, angajamentul economic al liniei este numărat exact o dată. La tranziție, disponibilul nu oscilează între 0 și stoc complet.",
+      "observed": "În ERP, DR nu are rezervare, CO creează exact 6 per linie, fizicul rămâne 6. Reîncercarea celeilalte comenzi rezervă 12; VO reduce la 6, VO repetat rămâne la 6. Veriga intent→EVA_ComandaSiteLinie→C_Order pe același ID de origine rămâne de dovedit.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-META",
+        "E-SRC",
+        "E-PG02",
+        "R2-NATIVE2",
+        "R2-G3ROOT"
+      ],
+      "findings": [
+        "A06-F07"
+      ],
+      "anchors": [
+        "reserve",
+        "gen",
+        "hist"
+      ],
+      "pipelines": [
+        "A06-P2",
+        "A06-P5"
+      ],
+      "test_negative_planned": "Retry, eșec după transfer în rezervarea nativă și înainte de confirmare. Identificatorii permit reconstruirea proprietarului rezervării.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C11",
+      "title": "Anulare și expirare",
+      "expected": "Eliberarea egală cu angajamentul inițial are loc o dată. Istoricul separă expirarea, anularea, persoana și timpul. Alte comenzi nu sunt afectate.",
+      "observed": "Anularea nativă VO a unei comenzi CO din două eliberează exact 6; VO repetat nu mai scade. Nicio factură/livrare pentru această pereche. Proba M_RMA separată privește numai autorizația de retur, nu storno automat și nici expirarea din canal.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-SRC",
+        "E-A05",
+        "R2-NATIVE2",
+        "R2-RMA"
+      ],
+      "findings": [],
+      "anchors": [
+        "reserve",
+        "hist",
+        "form"
+      ],
+      "pipelines": [
+        "A06-P5"
+      ],
+      "test_negative_planned": "După aviz CO respinge eliberarea prematură și predă la A07 pentru reconciliere fizică. Concurență anulare/pick nu generează stoc fictiv.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C12",
+      "title": "Conversii per canal",
+      "expected": "Pagina și cererea rezolvă ID intern corect și valorile canalului propriu. Revenirea la implicit produce valoarea nativă. Celălalt canal rămâne la valorile sale.",
+      "observed": "Coliziune ID numeric cu EAN demonstrată persistent; un ID 2727 fără produs canonic poate fi interpretat drept SKU numeric al altui articol. Probe pozitive pentru SKU străin neambiguu și EAN neambiguu.",
+      "status": "FAIL_DOVEDIT",
+      "evidence": [
+        "E-WEB",
+        "E-SUITE",
+        "E-WEB-HASH",
+        "R2-ALIAS"
+      ],
+      "findings": [
+        "A06-F01"
+      ],
+      "anchors": [
+        "mapping",
+        "catalog",
+        "channel"
+      ],
+      "pipelines": [
+        "A06-P1",
+        "A06-P7"
+      ],
+      "test_negative_planned": "Alias ambiguu sau expirat, SKU identic în alt canal, caractere de escape și câmp absent. Arată exact eroarea și acțiunea de corectare.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C13",
+      "title": "SKU extern schimbat",
+      "expected": "Linia istorică păstrează identitatea și mappingul de comandă. Linia nouă folosește maparea activă. Nu se schimbă în tăcere produsul vechi.",
+      "observed": "Maparea are amprentă în sursă. FisaCanalProces.class diferă între JAR din Git și instalat. Modificarea în timp în două canale și replayul unui SKU istoric necesită probă.",
+      "status": "INCONCLUDENT",
+      "evidence": [
+        "E-JAR",
+        "E-SRC",
+        "E-META"
+      ],
+      "findings": [],
+      "anchors": [
+        "mapping",
+        "hist"
+      ],
+      "pipelines": [
+        "A06-P1",
+        "A06-P7"
+      ],
+      "test_negative_planned": "Ștergere/inactivare mapare, două editări suprapuse. Conflict vizibil înainte de salvare.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C14",
+      "title": "UM și rotunjiri",
+      "expected": "QtyEntered=2 baxuri, efect economic=12 bucăți la factor 6. Identitatea setului rămâne distinctă de conversia UM.",
+      "observed": "Pe ruta de magazin 2,5 devine 2, -9/0 devin 1; dovadă de componentă refăcută în procese distincte. În ERP nativ 6 EA sunt confirmate și rezervate cu aceeași UM; încă lipsește transformarea cu un multiplicator de bax.",
+      "status": "FAIL_DOVEDIT",
+      "evidence": [
+        "E-WEB",
+        "E-NATIVE",
+        "E-META",
+        "R2-ALIAS",
+        "R2-NATIVE2",
+        "R2-VAL"
+      ],
+      "findings": [
+        "A06-F04"
+      ],
+      "anchors": [
+        "explode",
+        "price"
+      ],
+      "pipelines": [
+        "A06-P3"
+      ],
+      "test_negative_planned": "1/3 dintr-un bax de bun indivizibil sau factor lipsă. Nu trunchia fără mesaj și fără politica explicită.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C15",
+      "title": "Preț și monedă",
+      "expected": "O singură versiune aplicabilă la data comercială, moneda acelei liste și totalul calculat după precizia documentului, concordante între ecran și comandă.",
+      "observed": "Native ERP a refuzat C_OrderLine fără preț în lista Standard pentru articolul nou. Apoi M_ProductPrice a fost introdus prin API, iar linia SO cu preț 10 s-a salvat/confirmat. Afișaj B2B/B2C în două monede și valabilități nu a fost parcurs.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-SRC",
+        "E-SUITE",
+        "E-WEB",
+        "E-NATIVE",
+        "R2-PRICELIST-REFUSAL",
+        "R2-NATIVE2",
+        "R2-SET"
+      ],
+      "findings": [
+        "A06-F05"
+      ],
+      "anchors": [
+        "price",
+        "gen",
+        "b2b"
+      ],
+      "pipelines": [
+        "A06-P3"
+      ],
+      "test_negative_planned": "Listă din alt client, versiune viitoare și lipsa cursului. Refuz explicit sau conversie trasabilă conform politicii.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C16",
+      "title": "Promoții și credit",
+      "expected": "Preț efectiv explicabil prin regula nativă activă, o singură aplicare a reducerii și total reproducibil. Politica aprobării lasă rol și motiv.",
+      "observed": "Suite TestT316CanalB2B rulează 281 aserțiuni. M_DiscountSchema și C_PaymentTerm sunt candidați. Două comenzi reale simultane pe limita de credit și aprobarea excepției nu s-au exercitat.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-SUITE",
+        "E-NATIVE"
+      ],
+      "findings": [],
+      "anchors": [
+        "price",
+        "b2b",
+        "channel"
+      ],
+      "pipelines": [
+        "A06-P3"
+      ],
+      "test_negative_planned": "Două reguli suprapuse, client B2C care cere termeni B2B și credit depășit simultan prin două comenzi. Refuz sau trimitere la aprobare conform setării.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C17",
+      "title": "Total, TVA și finanțe",
+      "expected": "Diferența între totalul canalului și documentul ERP este 0 la precizia valutei sau apare motivul de reconciliere. Corectează prin documentul prevăzut, nu prin alterarea istoricului.",
+      "observed": "Documentele de checkout au rate 0.19 indiferent de linie în fixture și codul folosește constantă. Reconcilierea cu factura emisă de ERP nu a fost executată.",
+      "status": "FAIL_COMPONENTĂ",
+      "evidence": [
+        "E-WEB",
+        "E-REPLAY",
+        "E-NATIVE"
+      ],
+      "findings": [
+        "A06-F05"
+      ],
+      "anchors": [
+        "gen",
+        "order",
+        "report"
+      ],
+      "pipelines": [
+        "A06-P3"
+      ],
+      "test_negative_planned": "Cotă lipsă, rotunjire pe grup față de linie, livrare parțială și retur. A03 confirmă tratamentul fiscal aplicabil în fixture.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C18",
+      "title": "Idempotenta intrării",
+      "expected": "O singură comandă logică per cabinet/firmă/canal/identitate externă. Răspunsul repetat indică aceeași referință. O singură rezervare.",
+      "observed": "Aceeași cheie la checkout cu două procese și același registru persistent a produs două ORD distincte. Separat două POST /models/C_Order cu aceeași cheie și POReference au creat două DR în iDempiere. Sunt două intrări independente.",
+      "status": "FAIL_DOVEDIT",
+      "evidence": [
+        "E-WEB",
+        "E-REPLAY",
+        "E-WEB-HASH",
+        "R2-ALIAS",
+        "R2-NATIVE2"
+      ],
+      "findings": [
+        "A06-F02"
+      ],
+      "anchors": [
+        "web",
+        "order",
+        "hist"
+      ],
+      "pipelines": [
+        "A06-P4"
+      ],
+      "test_negative_planned": "Același ID extern în două canale este valid ca două comenzi. Aceeași cheie cu conținut diferit intră în rezolvare controlată.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C19",
+      "title": "Administrarea în ERP",
+      "expected": "Clientul vede referința și starea permisă. Numai ERP permite administrarea/pick/aviz/validare. Identitatea responsabilului se păstrează.",
+      "observed": "GardenAdmin a creat și confirmat SO, GardenUser poate citi SO și liniile proprii. Antetele directe de resursă permit mai multe SO la aceeași cheie. Nu s-a demonstrat un transfer de stare între checkoutul Python și această pereche de SO, nici toate drepturile comisionarilor.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-WEB",
+        "E-META",
+        "E-REG",
+        "E-ROUTE",
+        "E-SRC",
+        "R2-NATIVE2",
+        "R2-AUTH"
+      ],
+      "findings": [],
+      "anchors": [
+        "web",
+        "form",
+        "portal",
+        "rep"
+      ],
+      "pipelines": [
+        "A06-P4",
+        "A06-P7"
+      ],
+      "test_negative_planned": "Încearcă din site operații administrative directe și din ERP cu rol de comisionar. Refuz și zero modificări la document.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C20",
+      "title": "Revendicare concurentă",
+      "expected": "Un singur gestionar titular pentru acea etapă, un singur handoff per linie. Al doilea vede numele/starea în limitele rolului și poate reîncărca.",
+      "observed": "Clase de confirmare și validare identificate. Doi gestionari reali care ar revendica aceeași comandă pe ecran nu au fost simulați.",
+      "status": "INCONCLUDENT",
+      "evidence": [
+        "E-SRC",
+        "E-META"
+      ],
+      "findings": [],
+      "anchors": [
+        "form",
+        "order",
+        "gen"
+      ],
+      "pipelines": [
+        "A06-P4"
+      ],
+      "test_negative_planned": "Pierderea sesiunii înainte de commit și revocarea dreptului între selectare și salvare. Nicio listă activă duplicată.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C21",
+      "title": "Lipsă și livrare parțială",
+      "expected": "Livrat+restant+anulat reconciliază exact 10. Angajamentul celor 4 rămâne conform politicii. Expedierea comunică A07 liniile și cantitățile.",
+      "observed": "Native Standard SO CO este distinct de livrat: niciun M_InOutLine și nicio C_InvoiceLine în probele concurente. Returul autorizat și fluxul PO sunt alte documente. Split 6+4 și fluxul până la credit/ramburs pe aceeași comandă rămân deschise.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-SRC",
+        "E-NATIVE",
+        "R2-NATIVE2",
+        "R2-RMA",
+        "R2-PO"
+      ],
+      "findings": [],
+      "anchors": [
+        "gen",
+        "reserve",
+        "form"
+      ],
+      "pipelines": [
+        "A06-P4",
+        "A06-P5"
+      ],
+      "test_negative_planned": "Refuz client la split sau regula completă obligatorie. Nicio cantitate expediată/rezervată de două ori.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C22",
+      "title": "G2 integral în S1",
+      "expected": "A05 întoarce operație/locatori/linii confirmate. Pick devine permis doar pentru cantitățile eliberate. Cererea G3 rămâne angajată până la handoff.",
+      "observed": "A05 a demonstrat limitări de dezasamblare, amestec locatori și dublarea la retry în exercițiul J09–J11. Downstream pick și cost G1 rămân neconfirmate pe vânzare.",
+      "status": "FAIL_DOVEDIT",
+      "evidence": [
+        "E-A05",
+        "E-A05J"
+      ],
+      "findings": [],
+      "anchors": [
+        "reserve",
+        "form",
+        "gen"
+      ],
+      "pipelines": [
+        "A06-P4"
+      ],
+      "test_negative_planned": "Eroare după desfacere sau înregistrare dublă de manoperă/ambalaj. Creditează operația reală în G1 o dată în colaborare cu A03.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C23",
+      "title": "Oportunitate și atribuire",
+      "expected": "Un lanț trasabil de la oportunitate la comandă, fără a dubla partenerul. Discountul și condițiile comerciale provin din sursa selectată.",
+      "observed": "MOpportunity este în release/JAR, C_Opportunity are fereastră în CESIRO. Nu s-a legat o oportunitate reală de SalesRep și comandă prin UI.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-NATIVE",
+        "E-META"
+      ],
+      "findings": [],
+      "anchors": [
+        "b2b",
+        "gen",
+        "report"
+      ],
+      "pipelines": [
+        "A06-P6"
+      ],
+      "test_negative_planned": "Contact cu același e-mail în altă firmă și preluarea oportunității altui comisionar. Nu expune date sau atribuire străină.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C24",
+      "title": "Comisionari proprii",
+      "expected": "Comisionarul vede numai comenzile, liniile, sumele și comisioanele proprii aprobate pe canalul autorizat. Totalul listei se reproduce din înregistrările permise.",
+      "observed": "GardenUser are read asupra SO și liniei din propriul cabinet; rol de comisionar și rapoarte restrânse pe canal neprobate. Tranzacțiile în altă org din proba DocAction au alt obiect.",
+      "status": "INCONCLUDENT",
+      "evidence": [
+        "E-A01",
+        "E-META",
+        "E-SRC",
+        "R2-NATIVE2",
+        "R2-AUTH"
+      ],
+      "findings": [],
+      "anchors": [
+        "sales",
+        "report",
+        "channel"
+      ],
+      "pipelines": [
+        "A06-P6",
+        "A06-P7"
+      ],
+      "test_negative_planned": "Rută CUI/slug și identificatori ai unui comisionar sau firme străine. Nicio existență inferată prin export/total/paginare.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C25",
+      "title": "Comision și retur",
+      "expected": "Jurnalul păstrează baza brut/netă, moneda, rata, cine primește și ajustarea. Totalul comisionului egal cu suma pozițiilor eligibile după retur. Evenimentul repetat are delta zero.",
+      "observed": "Returnările M_RMA concurente au fost observate în proba transversală, process Generate Commission în AD. Lanțul real care ar ajusta comisionul la returul parțial al unei vânzări nu a fost rulat.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-NATIVE",
+        "E-META",
+        "R2-RMA"
+      ],
+      "findings": [],
+      "anchors": [
+        "report",
+        "hist",
+        "price"
+      ],
+      "pipelines": [
+        "A06-P6"
+      ],
+      "test_negative_planned": "Comision al platformei vs comision al agentului vs cost de transport. Nu amesteca bazele sau monedele. În lipsa politicii marchează BLOCAT.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C26",
+      "title": "Raport pe canal",
+      "expected": "Fiecare subtotal și numărătoare se reproduc pe canal, campanie și monedă. Exportul accesibil are exact filtrele rolului. A03/A07 pot regăsi documentele.",
+      "observed": "TestT214VanzariPeCanal 105 aserțiuni OK pe JAR. Metadatele confirmă formularul comercial activ, dar nu s-a reconciliat un export pe două monede din ERP cu C_Invoice/Fact_Acct.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-SUITE",
+        "E-META",
+        "E-NATIVE"
+      ],
+      "findings": [],
+      "anchors": [
+        "report",
+        "sales"
+      ],
+      "pipelines": [
+        "A06-P6"
+      ],
+      "test_negative_planned": "Multiplicare prin join la linii și sumarea RON cu EUR fără conversie. Erorile se afișează separat de cifra comercială.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C27",
+      "title": "Mesaj în ordine inversă",
+      "expected": "Versiunea veche nu rescrie starea nouă. Revizuirea ulterioară avizului/facturii creează traseu autorizat și păstrează istoricul inițial.",
+      "observed": "Transportul injectat a pierdut răspunsul după efect, iar reîncercarea a produs încă un apel cu aceeași cheie. Stub deduplicant: exact un efect și două jurnale. Aceasta nu dovedește reordonarea evenimentelor după livrare la partener sau persistența outboxului ERP.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-SRC",
+        "E-WEB",
+        "R2-SENDGIT",
+        "R2-SENDINST",
+        "R2-RMA"
+      ],
+      "findings": [],
+      "anchors": [
+        "hist",
+        "gen",
+        "order"
+      ],
+      "pipelines": [
+        "A06-P5",
+        "A06-P7"
+      ],
+      "test_negative_planned": "Același timestamp, versiuni incompatibile, dublă notificare după repornirea workerului. Pune în coadă de rezolvare o singură dată.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C28",
+      "title": "Setări și recuperare UX",
+      "expected": "Persoana găsește firma/canalul/rolul, vede unități și disponibil alternativ, află de ce s-a refuzat și ce poate face în ERP. Înregistrarea corectată rămâne unică.",
+      "observed": "Refuzul nativ al unui articol fără preț a oferit explicație utilizabilă prin REST. ERP ZK pe canal, parcurs tastatură și recuperarea fluxului complet nu au fost executate de A06; suita de ecran T352 a fost rulată pe JAR Git în R3.",
+      "status": "INCONCLUDENT",
+      "evidence": [
+        "E-A01",
+        "E-META",
+        "E-ROUTE",
+        "R2-PRICELIST-REFUSAL",
+        "R2-VERSION"
+      ],
+      "findings": [],
+      "anchors": [
+        "catalog",
+        "channel",
+        "form",
+        "sales"
+      ],
+      "pipelines": [
+        "A06-P7"
+      ],
+      "test_negative_planned": "Configurații concurente și referință dezactivată între deschiderea ecranului și salvare. Nu afișa succes după o excepție.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C29",
+      "title": "Ajustări în masă",
+      "expected": "Numai cele 3 identificatoare selectate și canalul ales se modifică la aplicarea autorizată. Filtrul altui canal și listele native rămân trasabile. Reluarea nu cumulează reducerea.",
+      "observed": "Pe JAR Git, TestT352AI/Reguli/Masa verifică dezactivare/DEMO, plafon, previzualizare, drept și confirmare ca funcții separate. Cele 33 de aserțiuni PG din R3 privesc parametrizare/lock/istoric. Clase T352 absente în JAR instalat.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-JAR",
+        "E-META",
+        "E-SRC",
+        "R2-AI",
+        "R2-MASA",
+        "R2-RULES",
+        "R2-SET",
+        "R2-VERSION"
+      ],
+      "findings": [],
+      "anchors": [
+        "catalog",
+        "mapping",
+        "price"
+      ],
+      "pipelines": [
+        "A06-P1",
+        "A06-P3",
+        "A06-P7"
+      ],
+      "test_negative_planned": "Preț sub cost, referință inactivată între previzualizare și aplicare, selecție prea mare. Confirmarea părții valide se face numai dacă politica declarată permite rezultat parțial.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C30",
+      "title": "Campanie și consimțământ",
+      "expected": "Numai contactul eligibil din firma/canalul selectat apare. Conversia/contactul poate fi atribuit unui document verificabil. A08 verifică comunicarea și localizarea.",
+      "observed": "C_Campaign apare în AD. Nu s-a reconstituit decizia de excludere a unui contact retras sau a altui cabinet la ultimul pas. Pentru trimitere ar trebui adaptor izolat și zero mesaje reale.",
+      "status": "INCONCLUDENT",
+      "evidence": [
+        "E-META",
+        "E-SRC"
+      ],
+      "findings": [],
+      "anchors": [
+        "sales",
+        "b2b",
+        "report"
+      ],
+      "pipelines": [
+        "A06-P6"
+      ],
+      "test_negative_planned": "Retragere după pregătire, alt canal și duplicat de contact. Suprimarea contactului în ultima verificare și deduplicarea nu afectează istoricul.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C31",
+      "title": "Cerere cu adrese și transport",
+      "expected": "Comanda păstrează partenerul, destinatarul, adresele, termenul și valorile acceptate, chiar dacă ulterior partenerul își modifică datele. PII este mascat în probe.",
+      "observed": "ERP SO a folosit partenerul GardenWorld și adresa sa fixată prin API în fixture. Document direct, nu importul adresei din checkout. Diferențierea facturare/livrare B2B rămâne deschisă.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-WEB",
+        "E-SRC",
+        "E-NATIVE",
+        "R2-NATIVE2"
+      ],
+      "findings": [],
+      "anchors": [
+        "web",
+        "gen",
+        "order"
+      ],
+      "pipelines": [
+        "A06-P4"
+      ],
+      "test_negative_planned": "Lipsa adresei obligatorii sau adresă din alt cabinet. Respinge și explică ce câmp trebuie reparat, fără a repeta o rezervare.",
+      "full_control_pass": false
+    },
+    {
+      "id": "A06-C32",
+      "title": "Actualizare ofertă și cache",
+      "expected": "Oferta este recalculată la angajare. Cel mult 19 S1 restante sunt acceptate. Cache-ul și UI se aliniază în termenul configurat și măsurat, cu marcarea timpului ultimei actualizări.",
+      "observed": "În checkoutul local 7/3 a primit new. Proba SO confirmă că rezervarea nativă standard poate depăși fizicul după retry. Nu s-a legat acest checkout la acel document ERP și nu s-a măsurat cache-ul. Nu calificăm existența unui order new singură drept supravânzare confirmată.",
+      "status": "PARȚIAL",
+      "evidence": [
+        "E-WEB",
+        "E-REPLAY",
+        "E-G3",
+        "R2-NATIVE2",
+        "R2-G3ROOT"
+      ],
+      "findings": [
+        "A06-F03"
+      ],
+      "anchors": [
+        "web",
+        "lock",
+        "catalog"
+      ],
+      "pipelines": [
+        "A06-P2",
+        "A06-P7"
+      ],
+      "test_negative_planned": "Ofertă expirată, semnal invalidare întârziat sau restart între commit și publicare. Nu permite vânzarea bazată doar pe copia memorată.",
+      "full_control_pass": false
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A06-P1",
+      "title": "Publicarea identității și a rețetei",
+      "expected": "Unește codul produsului, BOM, versiune mapping și canal cu identificatorul articolului din site. Confruntă sursa exactă cu câmpul publicat.",
+      "observed": "ID numeric și EAN pot desemna articole diferite, rezolvate greșit. CPP și CPA au primit în ERP identități distincte. În PG BOM activ schimbă angajamentele istorice ale setului.",
+      "controls": [
+        "A06-C01",
+        "A06-C02",
+        "A06-C03",
+        "A06-C04",
+        "A06-C12",
+        "A06-C13",
+        "A06-C29"
+      ],
+      "handoff_required": "A02 predă ID-uri și restricții de non-reutilizare. A05 semnează posibilitatea operației fizice. A08 regăsește ambele fișe din catalog și materialele de canal.",
+      "handoff_signed": false,
+      "status": "PARȚIAL_NEÎNCHIS"
+    },
+    {
+      "id": "A06-P2",
+      "title": "Calcul disponibil comun și rezervare",
+      "expected": "Cheie client/organizație/eligibilitate sursă/produs/ASI când e cazul. Explică unitatea și factorul BOM, bugetul economic unic, de la afișare la commit.",
+      "observed": "Calcul S1/S2 pentru 120 și două angajamente în PG reprodus. Native Standard SO după retry rezervă 12 când fizicul este 6, fără ieșire. Nu s-a realizat intrarea completă a celor două seturi prin magazin/ERP. R04 Y rămâne fără efect în calcul.",
+      "controls": [
+        "A06-C05",
+        "A06-C06",
+        "A06-C07",
+        "A06-C08",
+        "A06-C09",
+        "A06-C10",
+        "A06-C32"
+      ],
+      "handoff_required": "A05 reconciliază stocul fizic și cantitățile predate. A08 prezintă oferta fără sumarea G1+G2. A02 validează izolarea, ordinea lacătelor și rollback.",
+      "handoff_signed": false,
+      "status": "PARȚIAL_NEÎNCHIS"
+    },
+    {
+      "id": "A06-P3",
+      "title": "Ofertare, preț și termeni",
+      "expected": "Leagă ofertă la comandă și document prin M_Product_ID, preț/UM, cantități, taxă, curs și versiune. Recalculează manual la precizia valutei.",
+      "observed": "Lista Standard reală refuză cantitate nouă fără M_ProductPrice și permite salvarea după adăugare. Oferta nu schimbă contribuția furnizorului în modul Y. TVA hardcodat datează din checkout, nu din ERP.",
+      "controls": [
+        "A06-C14",
+        "A06-C15",
+        "A06-C16",
+        "A06-C17",
+        "A06-C29"
+      ],
+      "handoff_required": "A03 primește totalurile și documentele cu taxe. A08 reproduce valoarea afișată, inclusiv promoția și explicarea refuzului.",
+      "handoff_signed": false,
+      "status": "PARȚIAL_NEÎNCHIS"
+    },
+    {
+      "id": "A06-P4",
+      "title": "Acceptare comandă și administrare doar în ERP",
+      "expected": "ID extern/canal/firmă→cerere→C_Order_ID și C_OrderLine_ID→referință preluare și pick. Confruntă acțiunile UI cu permisiunile efective pe server.",
+      "observed": "ERP a creat și a confirmat două SO și a returnat prin GardenUser SO și linia din propria firmă. Checkout/REST generic demonstrează duplicare independent. Nu s-a observat o legătură dintre aceste două intrări sau un aviz pentru aceste SO.",
+      "controls": [
+        "A06-C18",
+        "A06-C19",
+        "A06-C20",
+        "A06-C21",
+        "A06-C22",
+        "A06-C31"
+      ],
+      "handoff_required": "A05 acceptă linii rezervate și locatori după dezasamblare, A07 acceptă avizul livrabil după confirmarea din ERP. A01 verifică refuzul administrării din site.",
+      "handoff_signed": false,
+      "status": "PARȚIAL_NEÎNCHIS"
+    },
+    {
+      "id": "A06-P5",
+      "title": "Anulare, modificare și reconciliere",
+      "expected": "Eveniment extern cu versiune → stare intermediară → C_OrderLine → rezervare → M_InOutLine → C_InvoiceLine dacă există. Probează suma eliberată și soldul.",
+      "observed": "SO nativ VO și VO repetat au păstrat soldul corect. M_RMA pe altă livrare a fost măsurat independent. Transportul cu pierdere de răspuns reface apelul cu aceeași cheie; deduplicarea efectivă aparține adaptorului stub.",
+      "controls": [
+        "A06-C10",
+        "A06-C11",
+        "A06-C21",
+        "A06-C27"
+      ],
+      "handoff_required": "A05 atestă starea fizică. A07 semnează decizia privind aviz, expediere, retur și plată. A03 reconciliază eventualul efect contabil.",
+      "handoff_signed": false,
+      "status": "PARȚIAL_NEÎNCHIS"
+    },
+    {
+      "id": "A06-P6",
+      "title": "CRM, comisionari și situații proprii",
+      "expected": "C_BPartner/AD_User/campanie→C_Order→C_InvoiceLine→bază eligibilă și run comision→raport pe monedă. Fixează baza din contract și data evenimentului.",
+      "observed": "Nativul Generate Commission și structurile CRM au fost inventariate. Niciun run de comision care integrează returul și soldul comisionarului.",
+      "controls": [
+        "A06-C23",
+        "A06-C24",
+        "A06-C25",
+        "A06-C26",
+        "A06-C30"
+      ],
+      "handoff_required": "A01 semnează filtrarea per comisionar în API, listă și export. A07 predă decont sau retur cu documentele originale. A03 verifică înregistrarea economică o dată.",
+      "handoff_signed": false,
+      "status": "PARȚIAL_NEÎNCHIS"
+    },
+    {
+      "id": "A06-P7",
+      "title": "Operarea și urmărirea erorilor în ERP",
+      "expected": "Leagă AD_Menu/formă/proces de evenimentul efectiv și identificatorul de comandă. Măsoară paginarea, conflictul, mesajul și ieșirea din starea de eroare.",
+      "observed": "Eroarea de preț şi conflictul PK au răspunsuri REST demonstrabile. Aplicarea T352/AI în Git a fost examinată la nivel de rol/componentă. Nu avem parcurs ZK de la propunere la publicare pentru canal.",
+      "controls": [
+        "A06-C12",
+        "A06-C13",
+        "A06-C19",
+        "A06-C24",
+        "A06-C27",
+        "A06-C28",
+        "A06-C29",
+        "A06-C32"
+      ],
+      "handoff_required": "A09 validează accesibilitatea, navigarea și meniurile. A10 urmărește observabilitate și reîncercare. Captură fără date personale și fără apeluri externe.",
+      "handoff_signed": false,
+      "status": "PARȚIAL_NEÎNCHIS"
+    }
+  ],
+  "per_task": "A06/taskuri.json",
+  "native_first": [
+    "Identitate M_Product, câmp Value separat de UUID, plus istoric nereutilizabil între cabinete. Folosește mapping extern tipizat cu referință canonică.",
+    "PP_Product_BOM, versiunea și snapshotul consumului per componentă; confirmă data și starea documentului. M_StorageReservation trebuie filtrată pe SO și gestiuni eligibile.",
+    "Reutilizează MProductPricing, MUOMConversion, M_PriceList, M_DiscountSchema și C_Tax. Elimină calculul fiscal uniform din proiecția de checkout când configurația nativă permite calculul cerut.",
+    "C_Order și componentele native din ERP dețin administrarea. Site-ul transmite intenția și afișează rezultatul ERP printr-un identificator idempotent.",
+    "Folosește C_BPartner, C_Opportunity, C_Campaign și Generate Commission; ADAccess și filtru per comisionar trebuie dovedite per rol și canal."
+  ],
+  "limits": [
+    "Dovezile fizice din două probe native vin din cabinetul privat GardenWorld, contextele GardenAdmin/GardenUser; sunt citite înainte și după. ERP nu a primit cererea din site în acele probe.",
+    "Producția CESIRO are alt build decât JAR Git. T352 e integrat în Git și declarat nemontat. Comparația include bytecode-ul, sursa Git și primitive comune.",
+    "Fixture G3 pe PostgreSQL 16.15 local, două sesiuni și query din JAR. Rânduri deja rezervate în schemă minimă, nu în ingresul ERP/OSGi cu gestionari reali.",
+    "Matricea R08 folosește expeditor injectat fără rețea, jurnale capturate în memorie. 1 efect după timeout e garantat numai de stub-ul care deduplică cheia; AUTO și autorizarea reală T352 la apăsare în ZK rămân neexecutate.",
+    "R2-PO și R2-RMA au alte documente și fluxuri. Nu închid P4/P5 pe aceleași SO. Recalcularea comisionului după retur, datele spațiale pe canale și livrarea ERP→site rămân neînchise."
+  ],
+  "next_actions": [
+    "Reia două comenzi în website-ul de canal configurat pe același cabinet izolat: cheie, cerere, lot și doc ID din ERP, cu aceeași origine, înainte/după. Confirmă politica promisiune/backorder.",
+    "În clonă cu JAR Git T352 configurat activează Y și verifică oferta/timpul furnizorului, actor C1/C2 la modificarea produsului/confirmarea AI și contorul adaptorului de test.",
+    "Rulează oportunitate→SO→livrare→factură→Generate Commission, retur și storno pe același comisionar, cu rol de canal și reconciliere A03/A07.",
+    "A11 trebuie să reauditeze pachetul R2 la digest. Nicio autoevaluare."
+  ],
+  "product_changes": 0,
+  "round": "R2_FOR_A11",
+  "created_utc": "2026-11-02T15:51:24.689465+00:00",
+  "supersedes_partially": "A06_raport.json",
+  "r1_hash": "da58f0a2cde15dee163c06ff7a61e896fb685bdbafb3358f66d26dc2a089a4f6",
+  "phase": "AUDIT_2",
+  "evidence_storage_basis": "Toate căile evidence_index se rezolvă în executie/. R1 și probele sale rămân imuabile.",
+  "review_actions": [
+    {
+      "requirement": "Lot2 P1 F01/F02/F04: ID, SKU, EAN, numeric, restart, quantity, documents and rights",
+      "result": "Zece procese Flask distincte, cu fișiere persistente. ID numeric 10444 a rezolvat EAN-ul celui de-al doilea articol. SKU și EAN corecte au rezolvat primul articol. 0/−9 au devenit 1, iar 2,5 a devenit 2. Aceeași cheie după restart a produs două ORD. Separat, două C_Order au fost create prin REST cu aceeași cheie, iar GardenUser a citit comanda din propriul cabinet. Conectorul ORD→C_Order și filtrarea per comisionar nu sunt demonstrate.",
+      "evidence": [
+        "R2-ALIAS",
+        "R2-NATIVE2",
+        "E-SRC",
+        "E-WEB-HASH"
+      ],
+      "remaining": "Doi comisionari reali în canale cu politici distincte. Conectorul dintre cele două intrări."
+    },
+    {
+      "requirement": "Lot2 P1 F03: ofertă/new versus confirmarea ERP, stoc/backorder",
+      "result": "New în checkout este starea recepției locale. Standard SO direct în GardenWorld rezervă 12 peste 6 după rerulare. Fee/invoice/shipment/Fact_Acct ale comenzilor =0 în martorii separați. Politica comercială a canalului și legătura celor două intrări încă necunoscute.",
+      "evidence": [
+        "R2-NATIVE",
+        "R2-NATIVE2",
+        "E-WEB",
+        "R2-G3ROOT"
+      ],
+      "remaining": "Oferta domeniului trebuie să distingă primire, rezervare garantată și backorder. Operatorul trebuie să confirme politica la checkout/web/API din cabinet de test al canalului."
+    },
+    {
+      "requirement": "Lot2 P1 F06/F07/F08: BOM istoric, multi-G1 și coduri",
+      "result": "Query literal din JAR instalat și două sesiuni PG; același set activ la rezervare devine 30 componente per produs după 90 angajate, apoi consumul se schimbă la 80 sau 30 numai prin editarea/inactivarea BOM, fără modificarea comenzii. Formula publicare multi-G1 produce 13 în control; abaterea 9 versus 13 ține de PO IsSOTrx=N. Redenumirea a permis reutilizare cod în proba Garden A05.",
+      "evidence": [
+        "R2-G3",
+        "R2-G3ROOT",
+        "E-ID",
+        "E-PG02"
+      ],
+      "remaining": "Dovedește protecția la modificarea rețetei în ERP cu o comandă deja angajată și echivalența corectă cu registrele entităților din alte cabinete."
+    }
+  ],
+  "current_findings": [
+    {
+      "id": "A06-F01",
+      "disposition": "RECONFIRMAT"
+    },
+    {
+      "id": "A06-F02",
+      "disposition": "RECONFIRMAT"
+    },
+    {
+      "id": "A06-F03",
+      "disposition": "RECALIFICAT"
+    },
+    {
+      "id": "A06-F04",
+      "disposition": "RECONFIRMAT"
+    },
+    {
+      "id": "A06-F05",
+      "disposition": "RECONFIRMAT"
+    },
+    {
+      "id": "A06-F06",
+      "disposition": "RECONFIRMAT"
+    },
+    {
+      "id": "A06-F07",
+      "disposition": "CORECTAT_DUPĂ_CONTRAEXEMPLU"
+    },
+    {
+      "id": "A06-F08",
+      "disposition": "RECONFIRMAT"
+    },
+    {
+      "id": "A06-F09",
+      "disposition": "NOU_R2"
+    },
+    {
+      "id": "A06-F10",
+      "disposition": "NOU_R2"
+    }
+  ],
+  "supplement": {
+    "task": "P01.C10.T0028",
+    "source": "T352",
+    "cohort": "Supplement 15:00:35.559Z; freeze 6df998aee0e514d30856c461962afe99ebd0d113",
+    "base_scope": 87,
+    "added": 1,
+    "source_task_total_with_supplement": 88,
+    "cross_controls": {
+      "T352-R01": {
+        "id": "T352-R01",
+        "requested": "Piese și seturi cu identitate CPP/CPA și ofertă per canal.",
+        "expected": "C1 are oferta activă; C2 are disponibil comercial 0; identitățile și stocul G1 nu se schimbă.",
+        "observed": "Oferta și selecția sunt probate pe rândurile sintetice. Riscul de coliziune ID/SKU din A06 apare în checkout, suprafață diferită de editor.",
+        "status": "PARȚIAL",
+        "owner": "A06",
+        "next_action": "Verifică două canale și identitățile CPP/CPA în editorul Git montat într-o clonă."
+      },
+      "T352-R02": {
+        "id": "T352-R02",
+        "requested": "Disponibil set calculat din componente, separat de cantitatea la furnizor.",
+        "expected": "Inițial 20 S1 sau 40 S2; după angajare rămân 30 din fiecare componentă înainte de suplimentul furnizor.",
+        "observed": "Cu 20 fizice și 7 rezervate, canalul direct dă 13 corect; suma artificială a două decizii operative ar da 6. La PO IsSOTrx=N de 4, calea de canal dă 9 în loc de 13. A02.F02 este un singur defect transversal; nu e defect nou al editorului. Restul fixture S1/S2 la două canale rămâne parțial.",
+        "status": "PARȚIAL",
+        "owner": "A06",
+        "next_action": "Execută rezervarea 10 S1 + 10 S2, scădere o singură dată, simultan în ambele canale, pe componentă eligibilă.",
+        "observed_r2": "120/120/120 din două origini de câte 60. Pentru două angajamente de 10×S1 și 10×S2 în două sesiuni PostgreSQL, cerere 90/90/90, rămas 30/30/30; 5/10 virtual, P3 absent→0/0. Linia este injectată după procesare, nu plasată din storefront.",
+        "status_r2": "PARȚIAL_DB+CALCUL",
+        "evidence_r2": [
+          "R2-G3",
+          "E-G3",
+          "R2-G3ROOT"
+        ]
+      },
+      "T352-R03": {
+        "id": "T352-R03",
+        "requested": "Preț și cantitate modificabile pe produs/canal de operator autorizat.",
+        "expected": "C1=110, C2=90, produsul martor neschimbat; moneda, net/brut și regulile TVA se păstrează.",
+        "observed": "Codul de lot exercită modificarea prețului și cazuri de refuz prin sursă injectată; niciun preț efectiv la partener.",
+        "status": "PARȚIAL",
+        "owner": "A06",
+        "next_action": "Verifică C1=110, C2=90, TVA, audit și al doilea articol; nu confunda testul la rând cu UI."
+      },
+      "T352-R04": {
+        "id": "T352-R04",
+        "requested": "Supliment disponibil la furnizor în bucăți și/sau procent.",
+        "expected": "În fixture cu procent din 100: supliment 25. În bucăți: 7. Dacă modurile sunt cumulative: 32, ofertă 40; separat 15 respectiv 33. Stoc contabil rămâne 8. Pentru 13×25%=3,25 se aplică regula explicită de rotunjire, iar disponibilul confirmat nu e depășit. Baza și regula se preiau din contractul aprobat; dacă lipsesc, verdict neconcludent, nu convenție arbitrară.",
+        "observed": "RezervareStoc acceptă 7 și 25%; pentru bază 100 → 7 și 25, pentru 13→3, baza 8→2. «7+25%» și −3 sunt refuzate. «101%» e acceptat și dă 101/100. Plan T352 §D-1/2: alternativă N sau N%, implicit informativ; integrarea în ofertă prin lot C și decizia proprietarului rămân distincte. Nu s-a probat publicarea unui stoc furnizor confirmat. Pe calculatorul de publicare al JAR-ului, 8 fizice și N/Y cu 7 sau 25% au dat mereu 8. Nu s-a identificat în cele patru fișiere Java cu cheile o citire a câmpului furnizor la publicare. Pentru opțiunea Y, legarea în calea testată nu este demonstrată; per PT-T352-2 valoarea implicită N rămâne corectă.",
+        "status": "PARȚIAL",
+        "owner": "A06",
+        "next_action": "Stabilește din PT-T352-1/2 baza, politica >100% și cumulul; rulează C1/C2 cu confirmare furnizor înainte de a certifica disponibilul.",
+        "observed_r2": "Caz de bază 8; N+7/N+25%=8 conform. Y+7/Y+25%=8, față de 15/33 așteptate când baza furnizorului este 100. Testul calculează cu aceeași metodă și urmărește apelantul din sursa Git. În JAR montat T352 ca funcție nu este implementată. Se confirmă limita calculatorului în Git, nu oferta transmisă de un furnizor.",
+        "status_r2": "N_CONFORM_CALCUL; Y_ECART_CALCUL_GIT; INSTALARE_T352_ABSENTĂ",
+        "evidence_r2": [
+          "R2-PUBGIT",
+          "R2-PUBINST",
+          "R2-VAL",
+          "R2-SET",
+          "R2-VERSION"
+        ]
+      },
+      "T352-R05": {
+        "id": "T352-R05",
+        "requested": "Termen de livrare pe perechea canal/articol.",
+        "expected": "C1/P devine 4, C2/P rămâne 7, C1/Q rămâne 5; istoricul include vechea și noua valoare.",
+        "observed": "Validarea parametrului și rotunjirea termenului sunt exercitate; atribuirea independentă 4/7/5 și istoricul online nu sunt demonstrate.",
+        "status": "PARȚIAL",
+        "owner": "A06",
+        "next_action": "Citește înainte și după ETA C1/P, C2/P, C1/Q și istoricul pe canal în clona cu bundle Git."
+      },
+      "T352-R06": {
+        "id": "T352-R06",
+        "requested": "Funcții rapide pentru selecția mai multor rânduri.",
+        "expected": "În fixture HALF_UP, 12,35×1,10=13,585→13,59. Anularea lasă toate valorile identice. La confirmare rândurile valide se modifică numai conform politicii atomic/parțial și rândul refuzat este vizibil; C2 neschimbat.",
+        "observed": "Masa exercită lot, preview, refuzuri și amprentă prin DAO injectat. Sesiunea reală și selecția concurentă trebuie probată.",
+        "status": "PARȚIAL",
+        "owner": "A06",
+        "next_action": "Rulează anulare, dublu click, editare concurentă și precizia listelor din UI."
+      },
+      "T352-R07": {
+        "id": "T352-R07",
+        "requested": "AI propune, omul autorizat confirmă.",
+        "expected": "0 scrieri la propunere și la refuz. După confirmare validă o singură schimbare stocată în P/C1 cu actor și audit; C2 rămâne neschimbat.",
+        "observed": "Transportul de propuneri mock și refuzurile se execută; confirmarea omului nu este observată într-un browser real.",
+        "status": "PARȚIAL",
+        "owner": "A06",
+        "next_action": "Captează selecția, propunerea anulată și confirmarea de rol în clonă; verifică înainte/după fără apel extern.",
+        "observed_r2": "Transport AI NECONFIGURAT implicit refuză, DEMO numai local. TestT352AI (92/0) verifică lipsa acordului, răspuns, timeout, propunerea și selecția; TestT352Masa (132/0) acoperă loturile și rolul. PG 33/0 verifică setări/istoric separat. Confirmarea umană pe două canale în runtime Git/OSGi rămâne neexecutată.",
+        "status_r2": "PARȚIAL_COMPONENTĂ",
+        "evidence_r2": [
+          "R2-AI",
+          "R2-MASA",
+          "R2-SET",
+          "R2-VERSION"
+        ]
+      },
+      "T352-R08": {
+        "id": "T352-R08",
+        "requested": "Scriere externă numai la buton și cu setarea Scriere permisă.",
+        "expected": "Combinațiile cu oricare condiție lipsă au 0 efecte; când ambele sunt prezente, tocmai 1 efect cu aceeași cheie, istoric și actor.",
+        "observed": "Suita de ecran verifică reguli de buton/etichetă, nu numărul de apeluri la poarta partenerului.",
+        "status": "PARȚIAL",
+        "owner": "A08",
+        "next_action": "Pe adaptor simulat contor cereri: scriere dezactivată, drept insuficient, confirmare explicită și retry.",
+        "observed_r2": "Poarta reală și expeditor fake în Git și instalat: clic+N=0, clic+Y=1, alt client=0. Răspuns pierdut după efect: 2 apeluri, 1 cheie, 2 jurnale, 1 efect doar în stub deduplicant. Fără clic în acest exercițiu înseamnă absența invocării. AUTO cu scheduler/mod AUTOMAT este admis de refuzAuto și cere verificare distinctă. Lotul T352 are ramură separată; nu extrapolăm că modificarea lotului trimite automat. Drepturi de rol în suite și citire GardenWorld, nu un clic real de administrator pe două canale.",
+        "status_r2": "PARȚIAL_ADAPTOR_ȘI_DREPTURI",
+        "evidence_r2": [
+          "R2-SENDGIT",
+          "R2-SENDINST",
+          "R2-AI",
+          "R2-MASA",
+          "R2-NATIVE2"
+        ]
+      },
+      "T352-R09": {
+        "id": "T352-R09",
+        "requested": "Închidere nemontată și atribuirea la ediții.",
+        "expected": "Separă integrat în server, în GitHub, instalat în cabinet, testat. Absența la CESIRO este compatibilă cu nemontat dacă nu există pretenție contrară.",
+        "observed": "Registrul trece integrat→închis nemontat. Commit și raportul de închidere există în istoricul server. Trei clase T352 prezente în JAR Git și absente în JAR montat, identic în cinci cabinete.",
+        "status": "DOVEDIT_DOAR_INSTALARE",
+        "owner": "A12",
+        "next_action": "Verifică la următorul rollout în clonă; nicio concluzie de montare T352 din imagini T366.",
+        "observed_r2": "Stare declarată INTEGRAT→FINALIZAT NEMONTAT, Git conține T352, în CESIRO lipsesc clasele specifice. Dovezi de proveniență și absență din JAR; NEINSTALAT_CONFIRMAT. Nu se declară implementarea testată în CESIRO și nici defect de deploy dacă montarea nu era promisă.",
+        "status_r2": "GIT_PREZENT+NEMONTAT_CONFIRMAT",
+        "evidence_r2": [
+          "R2-VERSION",
+          "R2-A12"
+        ]
+      }
+    }
+  },
+  "arbitration_hash": "7f2722b80ee1b1239aa860dca65892e7b418525c042ef2da101cfaac6bd29903"
+}

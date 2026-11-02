@@ -1,0 +1,485 @@
+{
+  "at": "2026-11-02T16:47:16.197052+00:00",
+  "method": "Real compiled admin SPA, local Flask test client and dedicated synthetic PG; requests away from this origin blocked. Browser relays its temporary cookie via isolated server-side test client; never persisted credentials or signed URLs. First theme-preview request receives Chromium timedout fault, then user invokes real reload action.",
+  "cases": [
+    {
+      "role": "owner",
+      "width": 360,
+      "calls": [
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/auth/refresh",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/me",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/refresh",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/login",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/assistant/staged",
+          "http": 500
+        },
+        {
+          "path": "/api/admin/v1/settings",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/notifications",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/settings",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders/sources",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/integrations",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/low-stock",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/dashboard/stats",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders",
+          "http": 500
+        },
+        {
+          "path": "/api/admin/v1/products",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders/statuses",
+          "http": 200
+        },
+        {
+          "path": "/preview/exit",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/themes",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": null,
+          "fault": "timedout"
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        }
+      ],
+      "themes": [
+        "marketplace_pro",
+        "season_spring_porcelain_garden",
+        "season_summer_azure_riviera",
+        "season_autumn_clay_atelier",
+        "season_winter_crystal_nocturne",
+        "event_new_year_midnight_gala",
+        "event_christmas_winter_story",
+        "event_easter_pastel_atelier",
+        "event_black_friday_impact"
+      ],
+      "default": "marketplace_pro",
+      "responsive": {
+        "inner": 360,
+        "scroll": 360,
+        "lang": "ro"
+      },
+      "alert_after_timeout": "A apărut o eroare",
+      "alert_after_retry": null,
+      "iframe_after_retry": 1,
+      "iframe_src_omitted_secret": true
+    },
+    {
+      "role": "viewer",
+      "width": 360,
+      "calls": [
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/auth/refresh",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/me",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/refresh",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/login",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/notifications",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/settings",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders/sources",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/settings",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/low-stock",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/dashboard/stats",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders",
+          "http": 500
+        },
+        {
+          "path": "/api/admin/v1/orders/statuses",
+          "http": 200
+        },
+        {
+          "path": "/preview/exit",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/themes",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": null,
+          "fault": "timedout"
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": 403
+        }
+      ],
+      "themes": [
+        "marketplace_pro",
+        "season_spring_porcelain_garden",
+        "season_summer_azure_riviera",
+        "season_autumn_clay_atelier",
+        "season_winter_crystal_nocturne",
+        "event_new_year_midnight_gala",
+        "event_christmas_winter_story",
+        "event_easter_pastel_atelier",
+        "event_black_friday_impact"
+      ],
+      "default": "marketplace_pro",
+      "responsive": {
+        "inner": 360,
+        "scroll": 360,
+        "lang": "ro"
+      },
+      "alert_after_timeout": "A apărut o eroare",
+      "alert_after_retry": "A apărut o eroare",
+      "iframe_after_retry": 0,
+      "iframe_src_omitted_secret": false
+    },
+    {
+      "role": "viewer",
+      "width": 1280,
+      "calls": [
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/auth/refresh",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/me",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/refresh",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/login",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/notifications",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/settings",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders/sources",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/settings",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/low-stock",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/dashboard/stats",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders",
+          "http": 500
+        },
+        {
+          "path": "/api/admin/v1/orders/statuses",
+          "http": 200
+        },
+        {
+          "path": "/preview/exit",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/themes",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": null,
+          "fault": "timedout"
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": 403
+        },
+        {
+          "path": "/api/admin/v1/orders",
+          "http": 500
+        }
+      ],
+      "themes": [
+        "marketplace_pro",
+        "season_spring_porcelain_garden",
+        "season_summer_azure_riviera",
+        "season_autumn_clay_atelier",
+        "season_winter_crystal_nocturne",
+        "event_new_year_midnight_gala",
+        "event_christmas_winter_story",
+        "event_easter_pastel_atelier",
+        "event_black_friday_impact"
+      ],
+      "default": "marketplace_pro",
+      "responsive": {
+        "inner": 1280,
+        "scroll": 1280,
+        "lang": "ro"
+      },
+      "alert_after_timeout": "A apărut o eroare",
+      "alert_after_retry": "A apărut o eroare",
+      "iframe_after_retry": 0,
+      "iframe_src_omitted_secret": false
+    },
+    {
+      "role": "owner",
+      "width": 1280,
+      "calls": [
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/auth/refresh",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/me",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/refresh",
+          "http": 401
+        },
+        {
+          "path": "/api/admin/v1/auth/login",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/assistant/staged",
+          "http": 500
+        },
+        {
+          "path": "/api/admin/v1/settings",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/notifications",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/settings",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders/sources",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/integrations",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/warehouse/low-stock",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/dashboard/stats",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders",
+          "http": 500
+        },
+        {
+          "path": "/api/admin/v1/products",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders/statuses",
+          "http": 200
+        },
+        {
+          "path": "/preview/exit",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/themes",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": null,
+          "fault": "timedout"
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        },
+        {
+          "path": "/api/admin/v1/orders",
+          "http": 500
+        },
+        {
+          "path": "/api/admin/v1/settings/theme-preview-link",
+          "http": 200
+        },
+        {
+          "path": "/",
+          "http": 200
+        }
+      ],
+      "themes": [
+        "marketplace_pro",
+        "season_spring_porcelain_garden",
+        "season_summer_azure_riviera",
+        "season_autumn_clay_atelier",
+        "season_winter_crystal_nocturne",
+        "event_new_year_midnight_gala",
+        "event_christmas_winter_story",
+        "event_easter_pastel_atelier",
+        "event_black_friday_impact"
+      ],
+      "default": "marketplace_pro",
+      "responsive": {
+        "inner": 1280,
+        "scroll": 1280,
+        "lang": "ro"
+      },
+      "alert_after_timeout": "A apărut o eroare",
+      "alert_after_retry": null,
+      "iframe_after_retry": 1,
+      "iframe_src_omitted_secret": true,
+      "removed_grant_in_open_window": 1,
+      "open_window_after_revoke": {
+        "requests": [
+          {
+            "path": "/api/admin/v1/settings/theme-preview-link",
+            "http": 200
+          },
+          {
+            "path": "/",
+            "http": 200
+          }
+        ],
+        "iframe": 1,
+        "error": null
+      }
+    }
+  ]
+}

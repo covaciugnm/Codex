@@ -1,0 +1,4 @@
+from a12_r10_publish import *
+import gzip
+p=E/'R11_plan_delta';q=rd(p/'Inventar_delta_1632.json')['rows'];print([z['path']for z in q if z['path'].endswith(('.java','.py','.sh','.sql'))and z['path'].startswith(('idempiere','frontend','proxy')) and '/test/'not in z['path']][:48]);t=rd(B/'Inventar_tehnic.json');print(str(t['versions'])[:580]);print([(k,str(v)[:80])for k,v in list(t['native_mapping'].items())[:4]]if isinstance(t['native_mapping'],dict)else str(t['native_mapping'])[:70]);print('hist',str(rd(E/'A12_istoric_git_stari.json')['rows'][0])[:280]);print('R10 dispositions',[(k,v[:90])for k,v in rd(E/'A11_control_A12_R10.json').items()if k in ['gate','remaining','hard_blockers'] and isinstance(v,str)]);mp=rd(B/'A08_plan.json')['controls'][0];print(str(mp)[:220]);cur=rd(B/'A01_plan.json');print(cur['controale'][0].keys(),cur['controale'][0].get('id'));print(rd(B/'Matrice_interfete.json')['contracts'][:1])
+

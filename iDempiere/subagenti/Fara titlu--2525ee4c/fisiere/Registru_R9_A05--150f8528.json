@@ -1,0 +1,753 @@
+{
+  "schema": "A05 R9 / două criterii C03",
+  "time_utc": "2026-11-02T18:41:03.330196+00:00",
+  "cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "R8_immutable_sha256": "0e9ec456c2b5d743b0b9492e2f85e6a02f52fa20a3959e390593f04550af67b9",
+  "denominator": {
+    "requested": 2,
+    "covered": 2,
+    "outside_this_supplement": 133,
+    "fully_reexecuted_original_historical_environment": 0
+  },
+  "score": null,
+  "reviewer": "A11 prin coordonator",
+  "rows": [
+    {
+      "criterion": "T329-R2-012",
+      "canonical": "P01.C03.T0015",
+      "source": {
+        "registered_path": "Documentatie/echipa-2026-10-09/T329-loturi/01_plan.md",
+        "position": 78,
+        "registered_hash": "6540c56bcdc6f04e1e781a16ce997b1f8e232389",
+        "dated_snapshot": "318778189acd7fcfb7da951edbe76adb1389ad4b",
+        "declared_closure": "2026-10-27T12:42:29+02:00",
+        "source_blob_at_cutoff": "6540c56bcdc6f04e1e781a16ce997b1f8e232389",
+        "source_blob_at_dated_snapshot": "6540c56bcdc6f04e1e781a16ce997b1f8e232389",
+        "literal_line_at_cutoff": "| C-11 | A-2 / RZ-2 | CMP: Z L1 10 @ 10, L1 10 @ 14, L2 5 @ 20 → ieșire 5 Z pe L1 ⇒ 60,00 | `pas0_cmp.py` rescris ca `ux_loturi.py cmp` + `fact_acct` | 60,00 (T0: 68,00, `pas0_cmp.txt` C2) | clonă 1000000, metoda A |",
+        "registered_blob_match": true
+      },
+      "oracle": "C-11 — A-2 / RZ-2 | CMP: Z L1 10 @ 10, L1 10 @ 14, L2 5 @ 20 → ieșire 5 Z pe L1 ⇒ 60,00 | `pas0_cmp.py` rescris ca `ux_loturi.py cmp` + `fact_acct` | 60,00 (T0: 68,00, `pas0_cmp.txt` C2) | clonă 1000000, metoda A",
+      "disposition": "COST MOTOR LOT REPRODUS. JURNAL IMEDIAT CONTRAZIS ÎN DOUĂ PROBE. LIMITĂ DE CONFIGURARE PENTRU SCHEMA SECUNDARĂ.",
+      "severity": "Ridicată în cabinetul demonstrativ cu două scheme: stocul și stornarea au efect, dar ambele jurnale ale cazului nominal sunt goale. Atribuirea la toate cabinetele sau la nucleul iDempiere nu este demonstrată.",
+      "actor": {
+        "client": 11,
+        "org": 11,
+        "role": 102,
+        "name": "GardenAdmin"
+      },
+      "canonical_trials": [
+        {
+          "product": 1000000,
+          "source_doc_line_transaction_lot": [
+            {
+              "m_inventory_id": 1000000,
+              "docstatus": "CO",
+              "processed": "Y",
+              "posted": "E",
+              "reversal_id": null,
+              "m_inventoryline_id": 1000000,
+              "reversalline_id": null,
+              "m_product_id": 1000000,
+              "m_locator_id": 101,
+              "m_attributesetinstance_id": 1000000,
+              "qtyinternaluse": 5,
+              "m_transaction_id": 1000004,
+              "movementtype": "I-",
+              "movementqty": -5,
+              "transaction_asi": 1000000,
+              "m_lot_id": 1000000,
+              "lot": "Z1-203301"
+            }
+          ],
+          "reversal": {
+            "m_inventory_id": 1000001,
+            "docstatus": "RE",
+            "processed": "Y",
+            "posted": "E",
+            "reversal_id": 1000000,
+            "m_inventoryline_id": 1000001,
+            "reversalline_id": 1000000,
+            "m_product_id": 1000000,
+            "m_locator_id": 101,
+            "m_attributesetinstance_id": 1000000,
+            "qtyinternaluse": -5,
+            "m_transaction_id": 1000005,
+            "movementtype": "I+",
+            "movementqty": 5,
+            "transaction_asi": 1000000,
+            "m_lot_id": 1000000,
+            "lot": "Z1-203301"
+          },
+          "erp_gl_explicit_rows_per_schema": {
+            "101_USD": 0,
+            "200000_EUR": 0
+          },
+          "post_code_original_and_reversal": "E/E",
+          "allocation_and_cost": [
+            [
+              "IESIRE",
+              -5,
+              -60.0,
+              1000000
+            ],
+            [
+              "STORNO",
+              5,
+              60.0,
+              1000000
+            ]
+          ],
+          "unique_products_used_across_two_canonical_trials": true,
+          "stock_after_rc": [
+            {
+              "m_locator_id": 101,
+              "m_attributesetinstance_id": 1000000,
+              "qtyonhand": 20.0
+            },
+            {
+              "m_locator_id": 101,
+              "m_attributesetinstance_id": 1000001,
+              "qtyonhand": 5.0
+            }
+          ],
+          "same_retry": true
+        },
+        {
+          "product": 1000001,
+          "source_doc_line_transaction_lot": [
+            {
+              "m_inventory_id": 1000002,
+              "docstatus": "CO",
+              "processed": "Y",
+              "posted": "E",
+              "reversal_id": null,
+              "m_inventoryline_id": 1000002,
+              "reversalline_id": null,
+              "m_product_id": 1000001,
+              "m_locator_id": 101,
+              "m_attributesetinstance_id": 1000002,
+              "qtyinternaluse": 5,
+              "m_transaction_id": 1000009,
+              "movementtype": "I-",
+              "movementqty": -5,
+              "transaction_asi": 1000002,
+              "m_lot_id": 1000002,
+              "lot": "Z1-203413"
+            }
+          ],
+          "reversal": {
+            "m_inventory_id": 1000006,
+            "docstatus": "RE",
+            "processed": "Y",
+            "posted": "E",
+            "reversal_id": 1000002,
+            "m_inventoryline_id": 1000006,
+            "reversalline_id": 1000002,
+            "m_product_id": 1000001,
+            "m_locator_id": 101,
+            "m_attributesetinstance_id": 1000002,
+            "qtyinternaluse": -5,
+            "m_transaction_id": 1000013,
+            "movementtype": "I+",
+            "movementqty": 5,
+            "transaction_asi": 1000002,
+            "m_lot_id": 1000002,
+            "lot": "Z1-203413"
+          },
+          "erp_gl_explicit_rows_per_schema": {
+            "101_USD": 0,
+            "200000_EUR": 0
+          },
+          "post_code_original_and_reversal": "E/E",
+          "allocation_and_cost": [
+            [
+              "IESIRE",
+              -5,
+              -60.0,
+              1000002
+            ],
+            [
+              "STORNO",
+              5,
+              60.0,
+              1000002
+            ]
+          ],
+          "unique_products_used_across_two_canonical_trials": true,
+          "stock_after_rc": [
+            {
+              "m_locator_id": 101,
+              "m_attributesetinstance_id": 1000002,
+              "qtyonhand": 20.0
+            },
+            {
+              "m_locator_id": 101,
+              "m_attributesetinstance_id": 1000003,
+              "qtyonhand": 5.0
+            }
+          ],
+          "same_retry": true
+        }
+      ],
+      "observed_explicit": {
+        "seed_schemas": [
+          {
+            "c_acctschema_id": 101,
+            "name": "GardenWorld US/A/US Dollar",
+            "costingmethod": "A",
+            "costinglevel": "C",
+            "isactive": "Y",
+            "c_currency_id": 100,
+            "iso_code": "USD",
+            "stdprecision": 2,
+            "costingprecision": 4,
+            "m_costtype_id": 100,
+            "cost_type": "Default"
+          },
+          {
+            "c_acctschema_id": 200000,
+            "name": "Second Schema GardenWorld Euro",
+            "costingmethod": "A",
+            "costinglevel": "C",
+            "isactive": "Y",
+            "c_currency_id": 102,
+            "iso_code": "EUR",
+            "stdprecision": 2,
+            "costingprecision": 4,
+            "m_costtype_id": 100,
+            "cost_type": "Default"
+          }
+        ],
+        "category": [
+          {
+            "m_product_id": 1000000,
+            "m_product_category_id": 110,
+            "category": "Patio ",
+            "c_acctschema_id": 101,
+            "costingmethod": null,
+            "costinglevel": null,
+            "override_category_id": 110
+          },
+          {
+            "m_product_id": 1000000,
+            "m_product_category_id": 110,
+            "category": "Patio ",
+            "c_acctschema_id": 200000,
+            "costingmethod": null,
+            "costinglevel": null,
+            "override_category_id": 110
+          }
+        ],
+        "positive_control": "Pe primul produs, după anularea bonului nominal, o ieșire suplimentară a tuturor celor 5 unități L2 lasă numai L1 la 12. Acest document intermediar a rămas E. Următorul bon L1 de 5 și stornarea sa sunt ambele postate Y. Cele patru linii de jurnal pe document sunt listate aici. Acest martor are o operație în plus și nu schimbă zero din scenariul nominal.",
+        "entries_positive_control": {
+          "1000004 / USD": {
+            "schema": 101,
+            "dr": "60.0",
+            "cr": "60.0",
+            "account_lines": [
+              {
+                "Fact_Acct_ID": 1000332,
+                "account": "14120",
+                "source_line": 1000004,
+                "DocLine_ASI": 1000000,
+                "lot": 1000000,
+                "transaction": 1000011,
+                "Dr": 0.0,
+                "Cr": 60.0
+              },
+              {
+                "Fact_Acct_ID": 1000333,
+                "account": "79600",
+                "source_line": 1000004,
+                "DocLine_ASI": 1000000,
+                "lot": 1000000,
+                "transaction": 1000011,
+                "Dr": 60.0,
+                "Cr": 0.0
+              }
+            ]
+          },
+          "1000004 / EUR": {
+            "schema": 200000,
+            "dr": "57.8",
+            "cr": "57.8",
+            "account_lines": [
+              {
+                "Fact_Acct_ID": 1000334,
+                "account": "14120",
+                "source_line": 1000004,
+                "DocLine_ASI": 1000000,
+                "lot": 1000000,
+                "transaction": 1000011,
+                "Dr": 0.0,
+                "Cr": 57.8
+              },
+              {
+                "Fact_Acct_ID": 1000335,
+                "account": "79600",
+                "source_line": 1000004,
+                "DocLine_ASI": 1000000,
+                "lot": 1000000,
+                "transaction": 1000011,
+                "Dr": 57.8,
+                "Cr": 0.0
+              }
+            ]
+          },
+          "1000005 / USD": {
+            "schema": 101,
+            "dr": "60.0",
+            "cr": "60.0",
+            "account_lines": [
+              {
+                "Fact_Acct_ID": 1000336,
+                "account": "14120",
+                "source_line": 1000005,
+                "DocLine_ASI": 1000000,
+                "lot": 1000000,
+                "transaction": 1000012,
+                "Dr": 60.0,
+                "Cr": 0.0
+              },
+              {
+                "Fact_Acct_ID": 1000337,
+                "account": "79600",
+                "source_line": 1000005,
+                "DocLine_ASI": 1000000,
+                "lot": 1000000,
+                "transaction": 1000012,
+                "Dr": 0.0,
+                "Cr": 60.0
+              }
+            ]
+          },
+          "1000005 / EUR": {
+            "schema": 200000,
+            "dr": "57.8",
+            "cr": "57.8",
+            "account_lines": [
+              {
+                "Fact_Acct_ID": 1000338,
+                "account": "14120",
+                "source_line": 1000005,
+                "DocLine_ASI": 1000000,
+                "lot": 1000000,
+                "transaction": 1000012,
+                "Dr": 57.8,
+                "Cr": 0.0
+              },
+              {
+                "Fact_Acct_ID": 1000339,
+                "account": "79600",
+                "source_line": 1000005,
+                "DocLine_ASI": 1000000,
+                "lot": 1000000,
+                "transaction": 1000012,
+                "Dr": 0.0,
+                "Cr": 57.8
+              }
+            ]
+          }
+        },
+        "primary_secondary_currency_comparison": {
+          "EUR_L1_receipt_details": [
+            [
+              1000091,
+              1000000,
+              1000001,
+              1000000,
+              10.0,
+              85.0
+            ],
+            [
+              1000094,
+              1000001,
+              1000002,
+              1000000,
+              10.0,
+              119.0
+            ],
+            [
+              1000097,
+              1000002,
+              1000003,
+              1000001,
+              5.0,
+              85.0
+            ]
+          ],
+          "EUR_per_lot_model": "(85 + 119) / 20 × 5 = 51,00 EUR",
+          "EUR_all_products_same_sku_model": "(85 + 119 + 85) / 25 × 5 = 57,80 EUR",
+          "EUR_observed_each_side_per_document": "57,80",
+          "USD_observed_each_side_per_document": "60,00",
+          "impact": "La aceeași cantitate, plus 6,80 EUR pe partea debit și pe partea credit față de costul ipotetic pe lot; soldul jurnalului rămâne echilibrat și stornarea îl inversează."
+        },
+        "native_policy": "P01.T329 cere separarea straturilor EVA după ASI; ambele scheme au metoda nativă Average PO (A), nivel Client (C), categoria 110 Patio fără override. M_Cost relevant folosește AD_Org_ID=0, ASI=0; M_CostDetail are ASI pe recepțiile identificate. Valoarea în schema EUR este compatibilă cu costul nativ pe articol la nivel client. Dacă politica firmei impune CMP pe lot și în fiecare valută contabilă, valoarea diferă cu 6,80 EUR. Nu este un verdict universal asupra contabilității EUR sau asupra nucleului.",
+        "direct_fact_asi": "Coloana Fact_Acct.M_AttributeSetInstance_ID EXISTĂ. Interogarea celor opt linii a proiectat ASI de pe M_InventoryLine, nu valoarea directă f.M_AttributeSetInstance_ID. Legătura monetară este exactă prin f.AD_Table_ID=321, f.Record_ID=antet, f.Line_ID=linie, tranzacție, ASI și M_Lot; rândurile directe din Facts sunt identificate prin chei. Valoarea directă ASI pentru cele opt fapte nu este verificată. Nativ FactLine.java:498–500,139 explică ce ar trebui copiat.",
+        "posting_failure": "Posting Error (documentul 10000000 se repostează doar din «Închidere lună → Înregistrare operații aferente stocurilor» (costul lui e cel din straturi)<br>) - .DocInventarEva (MMI - Document No=10000000 - Account Date=11/02/2026 - Amount=0.00 - Document Status=Completed - Period Open=Yes - Balanced=Yes - Accounting Schema=Second Schema GardenWorld Euro",
+        "month_close_ZK": "Într-un al doilea lot independent, GardenAdmin a selectat exact meniul Închidere lună, anul 2026 și noiembrie. Ecranul afișează 6 din 9 documente nestornate nepostate în perioada demo, surse cumulate. Clic Validez pe STOC comunică refuzul de ordine cronologică: februarie 2002 rămâne deschis. Repostarea din acest ecran nu a fost executată. Bonurile ulterior stornate au RE; în cod NoteStocuri.java:148–155 lista de repostare tratează CO/CL și omite RE. Efectul de persistență nu este extrapolat la o bază cu lunile închise normal."
+      },
+      "method": "Configurare seed de test (M_AttributeSet, marcaj T329-8, opțiune urmărire și motor). REST native / CO / RC / RC retry; SELECT corelate după client/doc/linie/lot. Costurile și jurnalul nu au fost generate prin INSERT al auditorului. Comparația istorică T0 din pas0_cmp.py are oracol 68; ieșirile NU din acel comparator sunt așteptate la costul corect 60.",
+      "limits": [
+        "GardenWorld client 11, două scheme și date de început istorice; nu este clientul q31 1000000 menționat în plan și nu s-a accesat compania reală.",
+        "Afirmația de impact privește postarea imediată și ecranul concret cu perioada precedentă deschisă; comportamentul în cabinete cu un singur exercițiu curent sau cu alte niveluri de cost rămâne deschis.",
+        "În trialul principal nu există niciun Fact_Acct pentru linii; cele opt linii cu valori provin exclusiv din martorul distinct.",
+        "Cauza tehnică sugerată: MotorStraturi.laPostare folosește o schemă și M_Cost la ASI 0; note și cod asociază refuzul cu schema secundară. Fără un trace al fiecărui callback, aceasta este explicație de investigat."
+      ],
+      "native_first_fix_plan": [
+        "Stabiliți prin politică ce scheme au cost pe lot și în ce valută. Verificați parametrii C_AcctSchema și categoria înaintea oricărei extensii.",
+        "Rulați aceeași fixtură cu perioade aliniate și CostingLevel Client vs Batch/Lot și documentați f.M_AttributeSetInstance_ID pentru fiecare Fact_Acct_ID. Folosiți DocAction, DocumentEngine, C_AcctSchema, M_CostDetail și NoteStocuri; verificați fiecare schemă înainte și după stornare.",
+        "Păstrați în regresie scenariul cu L2 încă în stoc și martorul cu L2 epuizat. Cereți zero documente Posted=E neexplicate, jurnalul așteptat în fiecare schemă și ID-uri neschimbate la retry."
+      ],
+      "evidence": [
+        {
+          "file": "T329_caz_nominal.json",
+          "sha256": "621a420186b5f82a7d36594967cd2cd6239d6b6bc95b829e4870f78d428160e1",
+          "bytes": 34433
+        },
+        {
+          "file": "T329_caz_repetat.json",
+          "sha256": "559f8da798505608038cebe40e9212d14631bc5e26b0e2f11696ed5c707c0a0f",
+          "bytes": 40565
+        },
+        {
+          "file": "T329_martor_limita_cost.json",
+          "sha256": "353bca06de6d0b0e53e867ccb5cb4f55ed4ee0fc46225ba1e7bb55dcbb36cb4c",
+          "bytes": 25522
+        },
+        {
+          "file": "T329_config_si_cost_nativ.json",
+          "sha256": "11dbd6998d0d5bd22c5fef344306d02685eca81a6b33e92260c3594411b4b447",
+          "bytes": 20654
+        },
+        {
+          "file": "T329_inchidere_luna_ZK.json",
+          "sha256": "0b3c581d603bee5889e4f05dcc9731007a1c7532ebb4a52a5a75426d648e7788",
+          "bytes": 13647
+        },
+        {
+          "file": "T329_erori_postare.json",
+          "sha256": "8e42a1d87e6cbcbea7da4147f52177104f2d4e840d37d2905969ce50fbd97473",
+          "bytes": 4187
+        },
+        {
+          "file": "T329_fixture.json",
+          "sha256": "98f5ae6d4c5c6226889c5696a609037ebe45fb71cd74d864ad2ffaa387afce72",
+          "bytes": 394
+        }
+      ]
+    },
+    {
+      "criterion": "T330-R2-025",
+      "canonical": "P01.C03.T0016",
+      "source": {
+        "registered_path": "Documentatie/echipa-2026-10-09/T330-termen-valabilitate/01_plan.md",
+        "position": 94,
+        "registered_hash": "032d71482e0ac17e4f7bf9aad75e8782fb7678ec",
+        "dated_snapshot": "f20847ca75ebda6ab87b91cde1910054e430ce29",
+        "declared_closure": "2026-10-28T15:12:07+02:00",
+        "source_blob_at_cutoff": "032d71482e0ac17e4f7bf9aad75e8782fb7678ec",
+        "source_blob_at_dated_snapshot": "032d71482e0ac17e4f7bf9aad75e8782fb7678ec",
+        "literal_line_at_cutoff": "| C-24 | A-5 / RZ-5 | suita din export verde, DIFF-CLASE, md5 jar container = `git show <vârf>:<jar> \\| md5sum`; resursele jarului = sursa (X140) | §R | 0 FAIL; listă lipită; md5 egale | — | export + clonă |",
+        "registered_blob_match": true
+      },
+      "oracle": "C-24 — A-5 / RZ-5 | suita din export verde, DIFF-CLASE, md5 jar container = `git show <vârf>:<jar> | md5sum`; resursele jarului = sursa (X140) | §R | 0 FAIL; listă lipită; md5 egale | — | export + clonă",
+      "disposition": "EGALITATEA ARTEFACTULUI CONTRAZISĂ ÎN R57. COMPARAȚIILE SHA SUNT EXECUTATE. TESTFEFO REEXECUTAT. SUITA TOTALĂ DE RELEASE RĂMÂNE NERULATĂ ÎN R9.",
+      "severity": "Ridicată pentru proveniența/identitatea release-ului declarat. Diferențele de alți dezvoltatori între revizii nu se atribuie automat T330.",
+      "diff_clase": {
+        "exact_target": "Parent 7a54374e8be4c0723285e66be4f8b4e858314248...squash 9c0faa4904e160ab9c4c7875dd3223a36a72c113",
+        "files_changed_in_exact_contribution": {
+          "base": "7a54374e8be4c0723285e66be4f8b4e858314248",
+          "tip": "9c0faa4904e160ab9c4c7875dd3223a36a72c113",
+          "stat": " .../plugins/com.eva.ro.contab/test/TestFefo.java   | 1198 ++++++++++++++++++++\n 1 file changed, 1198 insertions(+)\n",
+          "name_status": "A\tidempiere/plugins/com.eva.ro.contab/test/TestFefo.java\n",
+          "stat_sha256": "e5726de69016fa7735f68b2ab04dfbef21cb91f29640e8d8193a8e548016f899",
+          "changed_test_paths": 1
+        },
+        "files_changed_after_integration": 131,
+        "historical_reports": {
+          "35540ad649": {
+            "oid": "67e0b3da3bf50c5ca68dfd571967d957705c449f",
+            "sha256": "b653f96370002399ffc00ed98d0969e54c1c11aa96886cf3b0299e17fa956783",
+            "counts": [
+              "# contab: clase=217 verdict OK=216 FAIL=1",
+              "# saga: clase=18 verdict OK=18 FAIL=0"
+            ]
+          },
+          "be2e8374dd": {
+            "oid": "287392b5b279e3ee7eeb7274570fb39dda486827",
+            "sha256": "310498aa05dfe965ca9aca3e381390f8ffb7ac5a1102197602b6a61b816aae12",
+            "counts": [
+              "# contab: clase=219 verdict OK=219 FAIL=0",
+              "# saga: clase=18 verdict OK=18 FAIL=0"
+            ]
+          },
+          "578a41b754": {
+            "oid": "bf760915359c136a0fc0c706a766825099e5f615",
+            "sha256": "8ef149870f50844766fff75eb02899ffd83432e650d39f6dfdd794f91505956a",
+            "counts": [
+              "# contab: clase=219 verdict OK=218 FAIL=1",
+              "# saga: clase=18 verdict OK=18 FAIL=0"
+            ]
+          }
+        },
+        "fresh_targeted_runs": [
+          {
+            "target": "ist_integrat",
+            "git_revision_for_test_sources": "9c0faa4904e160ab9c4c7875dd3223a36a72c113",
+            "src_oid": "17bb20e42073330d4f27bfd11c8cecf8613a9e35",
+            "src_sha": "6578694e0918c01cce2f63ed17fc0d5c134df9986ab1db74c3e7c3baf27e907b",
+            "bundle_sha256": "f867620c4c2a4ffda8b1852ba56ea99fd3a41557b50e710c99832b91ceaf3f60",
+            "build_rc": 0,
+            "run_rc": 0,
+            "log": "TestFefo_ist_integrat.log",
+            "log_sha": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+            "ok_lines": 183,
+            "fail_lines": 0,
+            "summary": [
+              "REZULTAT TestFefo: 183 OK, 0 FAIL"
+            ],
+            "scope": "Only TestFefo from identified export; local isolated JVM, not full release suite."
+          },
+          {
+            "target": "git_cutoff",
+            "git_revision_for_test_sources": "6df998aee0e514d30856c461962afe99ebd0d113",
+            "src_oid": "17bb20e42073330d4f27bfd11c8cecf8613a9e35",
+            "src_sha": "6578694e0918c01cce2f63ed17fc0d5c134df9986ab1db74c3e7c3baf27e907b",
+            "bundle_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+            "build_rc": 0,
+            "run_rc": 0,
+            "log": "TestFefo_git_cutoff.log",
+            "log_sha": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+            "ok_lines": 183,
+            "fail_lines": 0,
+            "summary": [
+              "REZULTAT TestFefo: 183 OK, 0 FAIL"
+            ],
+            "scope": "Only TestFefo from identified export; local isolated JVM, not full release suite."
+          },
+          {
+            "target": "instalat_r57",
+            "git_revision_for_test_sources": "6df998aee0e514d30856c461962afe99ebd0d113",
+            "src_oid": "17bb20e42073330d4f27bfd11c8cecf8613a9e35",
+            "src_sha": "6578694e0918c01cce2f63ed17fc0d5c134df9986ab1db74c3e7c3baf27e907b",
+            "bundle_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+            "build_rc": 0,
+            "run_rc": 0,
+            "log": "TestFefo_instalat_r57.log",
+            "log_sha": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+            "ok_lines": 183,
+            "fail_lines": 0,
+            "summary": [
+              "REZULTAT TestFefo: 183 OK, 0 FAIL"
+            ],
+            "scope": "Only TestFefo from identified export; local isolated JVM, not full release suite."
+          }
+        ]
+      },
+      "bundles": {
+        "current_git": {
+          "com.eva.ro.contab": {
+            "md5": "431cf55f4634c06123e82ded6d79aaa7",
+            "sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+            "bytes": 37512262,
+            "oid": "cff75ae8eaa146ed00fdf22c950424f2627bc34e",
+            "labels": {
+              "rows": 26,
+              "sha256": "5520e4193468fa224a9bfb8c531ce8c00ad740ef988ad34b1025ca710fa0f8e5"
+            }
+          },
+          "com.eva.ro.saga.native": {
+            "md5": "978db6e48ddd5801399b2372fa49f10b",
+            "sha256": "24390f69ae33142fc1ed5d8cdb2228f910cbd9c09bb47e3945ad01e49ebf5d1d",
+            "bytes": 14712003,
+            "oid": "efb298cd5f14b2aa5a667469c31f4e84886a95ce",
+            "labels": null
+          },
+          "com.eva.ro.saga.theme": {
+            "md5": "c790270a604148e4c49bcb9f7f3e366c",
+            "sha256": "92675a18b5f5d17ec034edaff681bd4e4908ee2c6632f0452d9f7824b403506f",
+            "bytes": 369835,
+            "oid": "9e270f30f377baeb5d48f0be68cdcb95ceb53de4",
+            "labels": null
+          }
+        },
+        "own_r57_container": {
+          "com.eva.ro.contab": {
+            "md5": "32162eb0b4111b27a1e98fa52c2e367a",
+            "sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+            "bytes": 34891314,
+            "oid": null,
+            "labels": {
+              "rows": 26,
+              "sha256": "5520e4193468fa224a9bfb8c531ce8c00ad740ef988ad34b1025ca710fa0f8e5"
+            }
+          },
+          "com.eva.ro.saga.native": {
+            "md5": "c9cd524a54426ed9f88b2404d88a8900",
+            "sha256": "dbee5b1f67580b944e16faee3cb8757ad56b34e70ed172edaa35dae72494fe9b",
+            "bytes": 14712067,
+            "oid": null,
+            "labels": null
+          },
+          "com.eva.ro.saga.theme": {
+            "md5": "d4a0431c993a883bfc0b489be2fcdf74",
+            "sha256": "af35b0ac2770e83c682fa142069427502646c4d0884d12bbb9f329a3d677e976",
+            "bytes": 369811,
+            "oid": null,
+            "labels": null
+          }
+        },
+        "identical_frozen_current_git": true,
+        "identical_frozen_installed": true,
+        "summary": {
+          "com.eva.ro.contab": {
+            "md5_equal": false,
+            "all_entries_diff": 167,
+            "class_entries_diff": 76,
+            "nonclass_entries_diff": 91,
+            "t330_changed": [
+              "com/eva/ro/contab/form/WSagaIesiriForm.class"
+            ]
+          },
+          "com.eva.ro.saga.native": {
+            "md5_equal": false,
+            "all_entries_diff": 1,
+            "class_entries_diff": 1,
+            "nonclass_entries_diff": 0,
+            "t330_changed": []
+          },
+          "com.eva.ro.saga.theme": {
+            "md5_equal": false,
+            "all_entries_diff": 3,
+            "class_entries_diff": 3,
+            "nonclass_entries_diff": 0,
+            "t330_changed": []
+          }
+        },
+        "source_resources": {
+          "source_resources": {
+            "denominator": 342,
+            "same": 250,
+            "changed": 1,
+            "missing": 91
+          },
+          "META-INF": {
+            "denominator": 4,
+            "same": 3,
+            "changed": 1,
+            "missing": 0
+          },
+          "OSGI-INF": {
+            "denominator": 1,
+            "same": 1,
+            "changed": 0,
+            "missing": 0
+          },
+          "lib": {
+            "denominator": 3,
+            "same": 0,
+            "changed": 0,
+            "missing": 3
+          },
+          "web": {
+            "denominator": 0,
+            "same": 0,
+            "changed": 0,
+            "missing": 0
+          }
+        },
+        "release_files_missing_or_different": "Surse non-Java contab 342: 250 egale, 1 diferită (etichete.tsv complet), 91 absente vs r57. Una dintre cele absente este MD5.txt pentru documentele ANAF, exclusă explicit de selecția din build.sh; restul trebuie interpretate în raport cu versiunea și filtrele de ambalare. Nu sunt 91 defecte T330. Cele 26 de rânduri t330.* au SHA identic. Resursele web saga.theme 296/296 sunt identice; un schimb de hash al arhivei nu înseamnă că toate resursele funcționale diferă.",
+        "external_source": {
+          "historical_D": {
+            "path": "data/firme/config_declaratii.json",
+            "oid": "d52c8ed5802c91acafcb0383785a8768886c967e",
+            "sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "jar_entry": "firme/config_declaratii.json",
+            "jar_sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "same": true
+          },
+          "historic_integrated": {
+            "path": "data/firme/config_declaratii.json",
+            "oid": "d52c8ed5802c91acafcb0383785a8768886c967e",
+            "sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "jar_entry": "firme/config_declaratii.json",
+            "jar_sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "same": true
+          },
+          "historic_closed": {
+            "path": "data/firme/config_declaratii.json",
+            "oid": "d52c8ed5802c91acafcb0383785a8768886c967e",
+            "sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "jar_entry": "firme/config_declaratii.json",
+            "jar_sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "same": true
+          },
+          "cutoff": {
+            "path": "data/firme/config_declaratii.json",
+            "oid": "d52c8ed5802c91acafcb0383785a8768886c967e",
+            "sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "jar_entry": "firme/config_declaratii.json",
+            "jar_sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "same": true
+          },
+          "installed_r57": {
+            "source_ref": "6df998aee0e514d30856c461962afe99ebd0d113",
+            "path": "data/firme/config_declaratii.json",
+            "oid": "d52c8ed5802c91acafcb0383785a8768886c967e",
+            "source_sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "jar_sha256": "fe175fdaf29d778eed0ed45d84c53fe9e35c940f1eadb25c276cb9568342097d",
+            "same": true
+          }
+        }
+      },
+      "limits": [
+        "Originalul include build din export curat + întreaga suită contab/saga; R9 a reexecutat clasa TestFefo (183 OK în fiecare dintre cele 3 ținte). Nu echivalează cu toate clasele de release, cu instalarea variantei istorice în ERP sau cu rularea întreagă în containerul network none.",
+        "Comparația originală D cu HEAD raporta 49/49 clase și zero dif la etichete pentru HEAD intermediar identificat doar prin MD5 din acel document. Față de squash-ul final, patru clase diferă. Cele două comparații au baze distincte.",
+        "Exportul non-Java include și fișiere pe care scriptul de build intenționat nu le împachetează, manifest normalizat de jar sau materiale de build. Originalul a păstrat alte variante verzi și roșii.",
+        "Valoarea probată este binarul din containerul r57 propriu, identic cu binarul instalat înghețat în Inventar; niciun JAR nou nu a fost montat în producție."
+      ],
+      "native_first_fix_plan": [
+        "Declarați explicit în fișa de release SHA Git, SHA binar și manifestul de resurse al celor trei pluginuri. Comparați numai resursele din rețeta build pentru poarta de livrare și publicați separat diferențele suplimentare.",
+        "Rulați separat întreaga suită de export pe ținta declarată și conservați lista claselor, exit-code, plus compararea JAR-ului montat efectiv. Cereți un test direct al WSagaIesiriForm în completarea TestFefo."
+      ],
+      "evidence": [
+        {
+          "file": "T330_export_diff_clase.json",
+          "sha256": "35d38c262359dfea3bbd18e2d03126ca0d20fb8e9c6ce3ab6d688eef22e90089",
+          "bytes": 110216
+        },
+        {
+          "file": "Git_Resurse_si_clase.json.gz",
+          "sha256": "b17ff3ab7114a23ee8eb39a2ba3c492f67f918d34ab0e8815458bba58ce85fe8",
+          "bytes": 873349
+        },
+        {
+          "file": "Intregul_bundle_instalat.json.gz",
+          "sha256": "290ad1bb51ee2f37193e99df5fa8058294a34b91efcea9f52f9a75bab63e23e4",
+          "bytes": 184224
+        },
+        {
+          "file": "T330_lista_claselor_rulate_R9.json",
+          "sha256": "9e4ee3ee3d06cf0e5e70dabe55160e3822de14e1219f2a439fad0b5ab1442067",
+          "bytes": 2195
+        },
+        {
+          "file": "TestFefo_ist_integrat.log",
+          "sha256": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+          "bytes": 14344
+        },
+        {
+          "file": "TestFefo_git_cutoff.log",
+          "sha256": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+          "bytes": 14344
+        },
+        {
+          "file": "TestFefo_instalat_r57.log",
+          "sha256": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+          "bytes": 14344
+        }
+      ]
+    }
+  ]
+}

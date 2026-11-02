@@ -1,0 +1,3140 @@
+{
+  "schema": "EVA.P01.UX.native.R6",
+  "at": "2026-11-02T17:15:38.198380+00:00",
+  "primary_git": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "slot_root": "suita~eva-contab-codex-p01uizkr5~P01.T259~3879447~1793638874",
+  "environment": "GardenWorld clona p01uizkr5, numai selecturi în tranzacții explicite read-only și deschiderea unor forme de test. Procesele de business, stocurile, note și contabilitatea nu sunt probate prin navigare.",
+  "summary": {
+    "forms": 15,
+    "users": 2,
+    "cases": 30,
+    "unique_business_criteria": 23,
+    "form_criterion_links": 24,
+    "results": {
+      "DESCHIDERE_CONFIRMATA": 30
+    },
+    "by_user": {
+      "GardenAdmin": {
+        "DESCHIDERE_CONFIRMATA": 15
+      },
+      "GardenUser": {
+        "DESCHIDERE_CONFIRMATA": 15
+      }
+    },
+    "formerly_missing_now_verified": 16,
+    "distinct_sessions": 35,
+    "image_count": 31
+  },
+  "method": [
+    "Fiecare intrare eligibilă trebuie să fie unică după numele complet în AD_Menu activ, să fie o acțiune X și să conducă la clasa identificată prin AD_Form. Se apasă eticheta exactă din rezultatul de tip Form. Unele intrări sunt aliasuri, iar numele de marketing din meniu nu coincide cu titlul AD_Form.",
+    "Titlul complet din DOM trebuie să fie identic cu metadatele și cu tooltipul widgetului ZK. ID-ul tabului selectat și ID-ul panoului returnat de getLinkedPanel() sunt ambele noi. Se cer conținut vizibil și minimum două texte din clasă, din care cel puțin unul distinct în populația de 15 clase, sau un lanț explicit de delegare în sursă. Modalele și erorile tehnice împiedică validarea.",
+    "Login standard în context nou per ecran. X-Forwarded-For folosește o adresă rezervată TEST-NET doar în clone pentru a lega sesiunea browser de AD_Session: exact o sesiune nouă, același utilizator, tenant 11 și rol efectiv. Nu se transmit roluri prin header. Controale SQL read-only, niciun token sau cookie în dovezi.",
+    "Controlul separat Archive Viewer distinge căutare goală și lipsă de grant explicit. Nu se deduce HTTP 403 din căutare, nici dintre permisiunile pe o formă și permisiunile asupra unui document sau a unei acțiuni.",
+    "Deschiderea confirmată acoperă identitatea și accesibilitatea la interfața ZK. Criterii ca soldurile, exportul, validarea, datările, rollbackul și stocul necesită dovezi funcționale independente."
+  ],
+  "matrix": [
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WEvaComparatieBancaForm",
+      "role_session": 1000047,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T06-R2-002",
+          "task": "T06",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/2/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000047,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000361,
+              "form": 1000132,
+              "menu_name": "Comparație bancă EvA ↔ SAGA",
+              "full_title": "EvA — Comparație bancă EvA ↔ SAGA",
+              "visible_title": "EvA — Comparație bancă EvA ...",
+              "active_tab": "kJDH8j2",
+              "linked_panel": "kJDH9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaComparatieBancaForm.java",
+                "sha256": "4a16fb9cf4b0504f5426dd2f12a97c0468878c40ff9dcd5635017cdab40614d0"
+              },
+              "specific_controls": [
+                {
+                  "observed": "rulează în fundal procesul de comparație pe contul și lunile din bară: citește arhiva SAGA (doar citire) și scrie doar tabela de rezultate",
+                  "line": 160,
+                  "key": "compsaga.buton.compar.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 11911,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "nicio comparație rulată pe acest cont și interval — apasă «Compar cu SAGA»",
+                  "line": 261,
+                  "key": "compsaga.necalculat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 11918,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "rezumatul și jurnalul ultimei rulări din această sesiune",
+                  "line": 162,
+                  "key": "compsaga.buton.jurnal.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 11913,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000361.png",
+                "sha256": "6735000b0ff62829a41a7f308292138fc41653c816b3a67162ecab1085f7f1de"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WEvaRegesAplicatieForm",
+      "role_session": 1000048,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 2,
+      "criteria": [
+        {
+          "criterion": "T11-R2-007",
+          "task": "T11",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T11-R2-022",
+          "task": "T11",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/3/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000048,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000121,
+              "form": 1000103,
+              "menu_name": "REGES › Acasă",
+              "full_title": "EvA — REGES — aplicația angajator",
+              "visible_title": "EvA — REGES — aplicația ang...",
+              "active_tab": "jSOC8j2",
+              "linked_panel": "jSOC9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaRegesAplicatieForm.java",
+                "sha256": "46471c508dfb4c0549a68a74f759487b64680463f30d1028a82973f4ae5e93d1"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Ajutor",
+                  "line": 96,
+                  "key": "app.ajutor",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 7,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [
+                {
+                  "observed": "Cheile REGES",
+                  "key": "acasa.sec.chei",
+                  "call": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/PaginaAcasa.java",
+                    "sha256": "4166638c0dd2ca3d1bc7bd89f997f88d7d4d45c237cdf48f28c7ecf37aa04657",
+                    "line": 91,
+                    "source_excerpt": "v.appendChild(Stil.sectiune(EticheteReges.t(\"acasa.sec.chei\")));"
+                  },
+                  "translation": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                    "sha256": "584741cd904381f879503d8c55a8ab6f4684193ffc1370905248aa714ee1a2f8",
+                    "line": 532,
+                    "source_excerpt": "acasa.sec.chei\tCheile REGES\tREGES keys"
+                  }
+                },
+                {
+                  "observed": "Acțiuni frecvente",
+                  "key": "acasa.sec.actiuni",
+                  "call": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/PaginaAcasa.java",
+                    "sha256": "4166638c0dd2ca3d1bc7bd89f997f88d7d4d45c237cdf48f28c7ecf37aa04657",
+                    "line": 93,
+                    "source_excerpt": "v.appendChild(Stil.sectiune(EticheteReges.t(\"acasa.sec.actiuni\")));"
+                  },
+                  "translation": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                    "sha256": "584741cd904381f879503d8c55a8ab6f4684193ffc1370905248aa714ee1a2f8",
+                    "line": 533,
+                    "source_excerpt": "acasa.sec.actiuni\tAcțiuni frecvente\tFrequent actions"
+                  }
+                },
+                {
+                  "observed": "Mesaje recente (trimise / primite)",
+                  "key": "acasa.sec.mesaje",
+                  "call": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/PaginaAcasa.java",
+                    "sha256": "4166638c0dd2ca3d1bc7bd89f997f88d7d4d45c237cdf48f28c7ecf37aa04657",
+                    "line": 104,
+                    "source_excerpt": "v.appendChild(Stil.sectiune(EticheteReges.t(\"acasa.sec.mesaje\")));"
+                  },
+                  "translation": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                    "sha256": "584741cd904381f879503d8c55a8ab6f4684193ffc1370905248aa714ee1a2f8",
+                    "line": 534,
+                    "source_excerpt": "acasa.sec.mesaje\tMesaje recente (trimise / primite)\tRecent messages (sent / received)"
+                  }
+                }
+              ],
+              "delegation_chain": [
+                {
+                  "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaRegesAplicatieForm.java",
+                  "sha256": "46471c508dfb4c0549a68a74f759487b64680463f30d1028a82973f4ae5e93d1",
+                  "line": 141,
+                  "source_excerpt": "Component ec = EcraneReges.ecran(cheie).construieste(cx);"
+                },
+                {
+                  "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/EcraneReges.java",
+                  "sha256": "1971d416f06998a340c567dd2774660e8f9b7dcee228f21cc9942b86e5d4f59b",
+                  "line": 20,
+                  "source_excerpt": "E.put(\"acasa\", PaginaAcasa::construieste);"
+                }
+              ],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000121.png",
+                "sha256": "f6072a4336d67ed7deb47d728542b7ca979c31ad743b152fc6152bcb415878ce"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WEvaRegesForm",
+      "role_session": 1000078,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-retry.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T03-R2-063",
+          "task": "T03",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/0/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000045,
+          "grant_on_form": true,
+          "result": "EXACT_MENU_OR_ACTIVATION_UNOBSERVED",
+          "observed": [],
+          "failures": [
+            {
+              "menu": 1000189,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "RuntimeError: No new selected ZK tab and linked panel",
+              "selected": [
+                {
+                  "id": "u88Y02",
+                  "title": "Home (5)",
+                  "panel": "u88Y12"
+                }
+              ],
+              "popup": null,
+              "messages": null
+            },
+            {
+              "menu": 1000104,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "TimeoutError: Locator.wait_for: Timeout 3700ms exceeded.",
+              "selected": null,
+              "popup": null,
+              "messages": null
+            }
+          ]
+        },
+        {
+          "method": "ui-retry.json",
+          "raw_pointer": "#/runs/0/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000078,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000189,
+              "form": 1000102,
+              "menu_name": "REGES › Operațiuni (coada EvA)",
+              "full_title": "EvA — REGES — operațiuni (Inspecția Muncii)",
+              "visible_title": "EvA — REGES — operațiuni (I...",
+              "active_tab": "gA4P8j2",
+              "linked_panel": "gA4P9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaRegesForm.java",
+                "sha256": "b65806f9abdf7169edfd097877257db0419e6beb082fc1220c726cd6698a6714"
+              },
+              "specific_controls": [
+                {
+                  "observed": "încărcați fișierul «Export salariați» sau «Export contracte» (JSON / XML) din aplicația Angajator REGES (Setări → Angajator → Utile); se leagă referințele REGES de salariații și contractele EvA — nu se creează nimic în REGES",
+                  "line": 126,
+                  "key": "t03.reges.cl.btn.reconciliere.sfat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 612,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Reconciliere (export REGES)…",
+                  "line": 124,
+                  "key": "t03.reges.cl.btn.reconciliere",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 611,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Detectez modificările",
+                  "line": 122,
+                  "key": "t03.reges.cl.btn.detectez",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 609,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/retry-GardenAdmin-1000189.png",
+                "sha256": "a49457dc57de48ecd1e95eba176bda4ca581bd7a3f743aa4e9011305316a19a4"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaBilantForm",
+      "role_session": 1000055,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T204-R2-016",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/10/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000055,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000080,
+              "form": 1000078,
+              "menu_name": "Bilanț (6 taburi)",
+              "full_title": "EvA — Bilanț (6 taburi)",
+              "visible_title": "EvA — Bilanț (6 taburi)",
+              "active_tab": "iNoJ8j2",
+              "linked_panel": "iNoJ9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaBilantForm.java",
+                "sha256": "be793e1019207ea06a782303d199a0ce7f85d69492ff9eb9d6f766da551f3c20"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Auto = formularul după plafoanele de mărime (S1005 / S1003 / S1002); S1046 și S1015 se generează doar dacă firma e setată «fără activitate de la constituire», respectiv e ONG în «Fiscalitate pe luni» — altfel generatorul spune de ce nu",
+                  "line": 138,
+                  "key": "bilant.formular.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 455,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "rd.19 = rd.20 — o verifică motorul la rulare (tab 10)",
+                  "line": 270,
+                  "key": "a13b.bil.corelatie_val",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 834,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Tip entitate (OMFP 1802/2014 pct. 9)",
+                  "line": 265,
+                  "key": "bilant.info.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 219,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000080.png",
+                "sha256": "ca43a7ddc941962cb9f21afa3da2665fa986a93ce735423e7a8ba757630de020"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaBonConsumForm",
+      "role_session": 1000059,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T340-R2-003",
+          "task": "T340",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/14/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000059,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000026,
+              "form": 1000024,
+              "menu_name": "Bonuri de consum",
+              "full_title": "EvA — Bonuri de consum",
+              "visible_title": "EvA — Bonuri de consum",
+              "active_tab": "fGiF8j2",
+              "linked_panel": "fGiF9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaBonConsumForm.java",
+                "sha256": "2dcde455af4df8a77fcd0f31af066170ef60dfc51c1be01b724a86a3af54327f"
+              },
+              "specific_controls": [
+                {
+                  "observed": "pornește un document nou: pune un RÂND NOU editabil chiar în tabelul de sus (Data = azi, gestiunea implicită, contul propus din tipul articolelor); Enter/Tab/săgeată-jos trec la câmpul următor, «Salvez» creează documentul și deschide zona liniilor",
+                  "line": 542,
+                  "key": "t36.txte.bon.sfat_adaug",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 8445,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "motorul iDempiere nu reactivează un inventar completat (reActivateIt e neimplementat în core) — devalidarea se face prin STORNARE: document-pereche cu semn invers, stoc și postare readuse exact",
+                  "line": 501,
+                  "key": "t36.txte.bon.sfat_devalidez",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 8444,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "adaugă o linie nouă în documentul curent, cu cursorul chiar în celula «Cod»; Enter/Tab/săgeată-jos trec la câmpul următor, iar de pe ultima celulă Enter deschide linia următoare",
+                  "line": 478,
+                  "key": "t36.txte.bon.sfat_adaug_rand",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 8442,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000026.png",
+                "sha256": "e9257bc38e4345666a602d44d345f591884d5258c1e4f6ee397d5ebb1b6c8a94"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaCalculSalariiForm",
+      "role_session": 1000053,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T196-R2-021",
+          "task": "T196",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/8/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000053,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000059,
+              "form": 1000057,
+              "menu_name": "Calcul salarii (AMN)",
+              "full_title": "EvA — Calcul salarii (AMN)",
+              "visible_title": "EvA — Calcul salarii (AMN)",
+              "active_tab": "qZTO8j2",
+              "linked_panel": "qZTO9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaCalculSalariiForm.java",
+                "sha256": "c956b4c0d4fb87384091e3c36b98b1694f92105dfad00fcddfa0b0130a56986b"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Luna de lucru a ecranului — se alege cu ▾ / săgeata-jos, sau se tastează (2026-09). Lista merge de la prima lună cu date până la luna următoare celei curente, fără goluri, iar lângă fiecare lună scrie de unde vin datele: «calculată» (are perioadă de calcul), «istoric SAGA» (doar reperul importat, coloanele motorului rămân hașurate până la «Calculează luna») sau «lună nouă (fără date încă)» — o lună de lucru obișnuită, în care «Calculează luna» își face singură perioada, salariile și statul.",
+                  "line": 181,
+                  "key": "t21.cals.luna_lucru_ecranului_alege",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3787,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Fundal galben = se poate modifica, dar numai pentru luna în curs   ·   verde = calculat automat de motor, nu se modifică din stat   ·   gri = reper istoric SAGA (HR_Movement, conceptul SAL_NET — aceeași sursă ca «State salarii»)   ·   roșu = diferență peste un ban   ·   hașurat = motorul AMN n-a calculat încă luna (help SAGA p. 156)",
+                  "line": 150,
+                  "key": "t21.cals.fundal_galben_poate_modifica",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3781,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Contribuția asiguratorie pentru muncă (angajator)",
+                  "line": 144,
+                  "key": "t21.cals.contributia_asiguratorie_pentru_munca",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3765,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000059.png",
+                "sha256": "b6ca683da24f4ff6f166e587cc6f6b71e6b0afe9e6862b0f87e99346a47b3f9e"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaConfigSalariiForm",
+      "role_session": 1000049,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T159-R2-020",
+          "task": "T159",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/4/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000049,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000058,
+              "form": 1000056,
+              "menu_name": "Configurare salarii (AMN)",
+              "full_title": "EvA — Configurare salarii (AMN)",
+              "visible_title": "EvA — Configurare salarii (...",
+              "active_tab": "kOwB8j2",
+              "linked_panel": "kOwB9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaConfigSalariiForm.java",
+                "sha256": "b42d2ede57af689ae4604677a7e7c6090a88642bc6c15b867f81e7bbabe6a62f"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Ce se pune pe statul de plată. Cele conduse de lege (salariu, CAS, CASS, deducere personală, impozit, CAM) se calculează singure, din registrul legislativ, la data lunii — nu se ating. Sporurile, primele, tichetele și reţinerile firmei se adaugă cu «Modific conceptul», completând un formular simplu: felul sumei, valoarea și ce taxe atinge; formula se scrie singură. «Avansat…» arată ordinea calculului și formula, pentru cine chiar are nevoie de ele.",
+                  "line": 321,
+                  "key": "t21.cfgs.ce_pune_statul_plata",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3122,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "arată coloanele tehnice — «Ordinea calculului» și «Formulă JavaScript». Nu sunt necesare pentru lucrul obișnuit: ordinea se deduce singură (veniturile înaintea contribuţiilor, contribuţiile înaintea impozitului, reţinerile după net), iar formula se scrie singură din formularul simplu.",
+                  "line": 244,
+                  "key": "t21.cfgs.arata_coloanele_tehnice_ordinea",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3112,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Salariaţii din modelul de calcul, aduși din importul SAGA. Salariul de încadrare NU se editează aici: e al persoanei, se schimbă în «Salariați» (dublu-click pe un rând deschide ecranul acela). Conturile tehnice de login ale cabinetului nu apar: nu sunt salariaţi.",
+                  "line": 335,
+                  "key": "t21.cfgs.salariatii_modelul_calcul_adusi",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3224,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000058.png",
+                "sha256": "b91eab565cc0bef52cd3a2f55167a1976e29089b344c2265216a4c057d9a8aac"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaConfigSocietatiForm",
+      "role_session": 1000051,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T186-R2-020",
+          "task": "T186",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/6/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000051,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000076,
+              "form": 1000074,
+              "menu_name": "Configurare societăți",
+              "full_title": "EvA — Configurare societăți",
+              "visible_title": "EvA — Configurare societăți",
+              "active_tab": "wTcN8j2",
+              "linked_panel": "wTcN9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaConfigSocietatiForm.java",
+                "sha256": "081a643b7981975bd49c07234e7d5014b884d45f066221d97010d457837641b8"
+              },
+              "specific_controls": [
+                {
+                  "observed": "dosarul monografiei contabile în vigoare: identificarea, cadrul contabil, capitolele și registrele",
+                  "line": 80,
+                  "key": "t41.l2.cfg.buton.sfat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7600,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "activează sau reface straturile de cost FIFO / LIFO / CMP de la o dată (cu previzualizare)",
+                  "line": 73,
+                  "key": "t40.l2.cfg.buton.sfat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7510,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "locațiile firmei, codurile CAEN autorizate pe fiecare locație și autorizațiile sectoriale",
+                  "line": 87,
+                  "key": "t41.cfg.buton.sfat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 6548,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000076.png",
+                "sha256": "85209eb708c828810ae7b6ac424e72df2274810cc5f6065edacd8319b49064c0"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaCorelareForm",
+      "role_session": 1000056,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 2,
+      "criteria": [
+        {
+          "criterion": "T204-R2-024",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T221-R2-020",
+          "task": "T221",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/11/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000056,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000332,
+              "form": 1000109,
+              "menu_name": "Corelare — comenzi",
+              "full_title": "EvA — Corelare site / facturi / AWB / deconturi",
+              "visible_title": "EvA — Corelare site / factu...",
+              "active_tab": "i5sW8j2",
+              "linked_panel": "i5sW9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaCorelareForm.java",
+                "sha256": "e011863dd701478997d19dab3f3ad92749d54dd2ba4170a509aa760c2995fe93"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Încasări Stripe",
+                  "line": 243,
+                  "key": "corelare.etapa.tab.stripe",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 9617,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Tipărire",
+                  "line": 222,
+                  "key": "corelare.etapa.bara.tiparire",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1632,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Comenzi",
+                  "line": 242,
+                  "key": "corelare.etapa.tab.comenzi",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1627,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000332.png",
+                "sha256": "791881101ebc38c144227a5728da94b57fb5aedd26f381121ad59dee018889dc"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaEFacturiForm",
+      "role_session": 1000046,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T03-R2-104",
+          "task": "T03",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/1/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000046,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000060,
+              "form": 1000058,
+              "menu_name": "e-Facturi (SPV)",
+              "full_title": "EvA — e-Facturi (SPV)",
+              "visible_title": "EvA — e-Facturi (SPV)",
+              "active_tab": "h63T8j2",
+              "linked_panel": "h63T9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaEFacturiForm.java",
+                "sha256": "bd47e4804e0084849b419b11cac26b5beafb7f2e63291d43d8d87b4230dcd6f1"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Data documentului din contabilitate (c_invoice.dateinvoiced) — după ea filtrează perioada de sus. Dacă rândul din coadă n-are factură legată, se arată data intrării în coadă.",
+                  "line": 619,
+                  "key": "t21.efct.data_documentului_contabilitate_c",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3892,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Se completează după «Trimit (SPV)» — indexul de încărcare primit de la ANAF. Gol până atunci (inclusiv pe facturile Invalide, care n-au fost încă trimise).",
+                  "line": 608,
+                  "key": "t21.efct.completeaza_dupa_trimit_spv",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3891,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "arată răspunsul ANAF ÎNTREG pentru înregistrarea selectată (în grilă e tăiat la 400 de caractere); același lucru îl face dublu-clicul pe rând",
+                  "line": 121,
+                  "key": "t21.efct.arata_raspunsul_anaf_intreg",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3884,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000060.png",
+                "sha256": "4bdcf879215771c4b02453f15db3d9ffe8dbf08c3e4d5cbca18c5cfac8567415"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaIesiriForm",
+      "role_session": 1000050,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 5,
+      "criteria": [
+        {
+          "criterion": "T186-R2-007",
+          "task": "T186",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T325-R2-012",
+          "task": "T325",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T329-R2-009",
+          "task": "T329",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T329-R2-027",
+          "task": "T329",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T330-R2-011",
+          "task": "T330",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/5/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000050,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000023,
+              "form": 1000021,
+              "menu_name": "Ieșiri - lei",
+              "full_title": "EvA — Ieșiri - lei",
+              "visible_title": "EvA — Ieșiri - lei",
+              "active_tab": "iMhC8j2",
+              "linked_panel": "iMhC9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIesiriForm.java",
+                "sha256": "da07c7c35dcb5e316291ff03015f9bf350145d5c4b3a0b6781094d5dc2ace4f9"
+              },
+              "specific_controls": [
+                {
+                  "observed": "se completează din prețul de vânzare al articolului (lista de prețuri de vânzare) sau completat manual pe linie; fără listă de prețuri încărcată rămân goale — adaosul cere prețul de vânzare",
+                  "line": 996,
+                  "key": "t21.iesf.completeaza_pretul_vanzare_articolului",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 4618,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "suma adaosurilor de pe liniile documentului; adaosul se pune pe linie (coloana «Adaos» din tabelul de jos) sau vine din prețul de vânzare al articolului — fără listă de prețuri rămâne zero",
+                  "line": 888,
+                  "key": "t21.iesf.suma_adaosurilor_liniile_documentului",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 4906,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "filtrează lista (perioadă / stare / text); din fereastra de filtrare se pot valida sau devalida în masă rândurile selectate (help p.16)",
+                  "line": 841,
+                  "key": "t21.iesf.filtreaza_lista_perioada_stare",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 4733,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000023.png",
+                "sha256": "e9b9bb2c9e925d7cda3051f19289793a5621fc195a4316ebdc0fc9378cdbdabf"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaImportExtrasForm",
+      "role_session": 1000057,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T204-R2-025",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/12/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000057,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000089,
+              "form": 1000087,
+              "menu_name": "Import extras de cont",
+              "full_title": "EvA — Import extras de cont",
+              "visible_title": "EvA — Import extras de cont",
+              "active_tab": "f1JL8j2",
+              "linked_panel": "f1JL9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaImportExtrasForm.java",
+                "sha256": "939bb7b2315d0e86ae343bdfe79b4e4c0324d5ae0a82b7775a992c268bfb110c"
+              },
+              "specific_controls": [
+                {
+                  "observed": "extrasele contului bancar ales, în intervalul din bară — și cele importate din SAGA, și cele încărcate aici; clic pe un rând îi arată liniile în panoul de jos",
+                  "line": 215,
+                  "key": "t21.imex.extrasele_contului_bancar_ales",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3560,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "liniile extrasului selectat (Analizez → propuneri; verde=SIGUR, galben=PROPUS, albastru=CONT, roșu=de lămurit)",
+                  "line": 240,
+                  "key": "t21.imex.liniile_extrasului_selectat_analizez",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3583,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Încarc fișierul (MT940 / CSV / XLSX / XML)",
+                  "line": 94,
+                  "key": "t21.imex.incarc_fisierul_mt940_csv",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3572,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000089.png",
+                "sha256": "2bcc45eb9a96cb99324f0d921b3c964ea5c919ac1b375f35c6dc77d8cf0a8190"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaReconciliereForm",
+      "role_session": 1000054,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 3,
+      "criteria": [
+        {
+          "criterion": "T204-R2-004",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T204-R2-008",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T204-R2-024",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/9/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000054,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000062,
+              "form": 1000060,
+              "menu_name": "Reconciliere bancă",
+              "full_title": "EvA — Reconciliere bancă",
+              "visible_title": "EvA — Reconciliere bancă",
+              "active_tab": "k6mY8j2",
+              "linked_panel": "k6mY9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaReconciliereForm.java",
+                "sha256": "0325c26d6fa03465bc840b93510ff8e85a248f8bcb7a9b8ee3ad4cb2ea3c2766"
+              },
+              "specific_controls": [
+                {
+                  "observed": "alege contul și apasă «Caută potriviri»",
+                  "line": 229,
+                  "key": "t36.txt.recon.stare.start",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7585,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Bifează tot ce e sigur",
+                  "line": 94,
+                  "key": "t36.txt.recon.bifeaza_sigure",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7570,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Caută potriviri",
+                  "line": 92,
+                  "key": "t36.txt.recon.cauta",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7568,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000062.png",
+                "sha256": "ab9673334857b272a0c0a86790dbcadbded0b591127ce22faf0e223a6d83e8f8"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaStateSalariiForm",
+      "role_session": 1000052,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 2,
+      "criteria": [
+        {
+          "criterion": "T191-R2-010",
+          "task": "T191",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T196-R2-013",
+          "task": "T196",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/7/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000052,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000109,
+              "form": 1000107,
+              "menu_name": "State salarii",
+              "full_title": "EvA — State salarii",
+              "visible_title": "EvA — State salarii",
+              "active_tab": "zCTM8j2",
+              "linked_panel": "zCTM9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaStateSalariiForm.java",
+                "sha256": "d0f1c339fbe0bfb9fc4c9a72ced6d51695d982a0eb5f7a5160dc4f88d2b5b35e"
+              },
+              "specific_controls": [
+                {
+                  "observed": "PONTAJUL lunii alese, de completat MANUAL: zile lucrate, ore lucrate, zile de concediu de odihnă, zile de concediu medical, zile de absențe nemotivate, sărbători legale lucrate, ore lucrate sâmbăta și duminica. Zilele lucrătoare și sărbătorile legale ale lunii vin din «Calendar zile libere». Se salvează în istoricul de salarii (HR_Movement) și, de acolo, «Calcul salarii» proratează brutul pe timpul efectiv lucrat.",
+                  "line": 387,
+                  "key": "t21.ssalf.btn.pontaj.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 2409,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "«Sume de plată…» — lista sumelor de plată ale lunii: restul de plată pe fiecare salariat plus contribuțiile și impozitul de virat, cu «Tipărire». ATENȚIE: în acest val NU se generează documente de trezorerie (ordinele de plată pe 421 / 4315 / 4316 / 444 vin într-un pachet separat) — e o listă de plătit, nu o plată.",
+                  "line": 403,
+                  "key": "t21.ssalf.btn.plata.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 2407,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Va redeschide statul lunii selectate pentru recalculare (devalidare + recalcul în «Calcul salarii» + revalidare), într-un singur pas. Rămâne gri până la lotul care leagă cele două ecrane; azi aceleași trei operații se fac de mână, cu «Devalidez» aici și «Calculează luna» dincolo.",
+                  "line": 384,
+                  "key": "t21.ssalf.btn.modific.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 2403,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000109.png",
+                "sha256": "ac325f2454d660b0da96e196bdc280ca6a92dbfc9f29cac368f7d7bccfeb4266"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenAdmin",
+      "role": 102,
+      "class": "WSagaVerificareInchideriForm",
+      "role_session": 1000058,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T227-R2-005",
+          "task": "T227",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/13/cases/0",
+          "user": "GardenAdmin",
+          "actor": 102,
+          "session_id": 1000058,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000100,
+              "form": 1000098,
+              "menu_name": "Verificare închideri (SAGA vs EvA)",
+              "full_title": "EvA — Verificare închideri (SAGA vs EvA)",
+              "visible_title": "EvA — Verificare închideri ...",
+              "active_tab": "k3IX8j2",
+              "linked_panel": "k3IX9j2",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaVerificareInchideriForm.java",
+                "sha256": "dc80b3e128da0c149b3836fa0225a8bbc5b30cbabc0ce19541465d4f4664ae80"
+              },
+              "specific_controls": [
+                {
+                  "observed": "generează TOATE declarațiile datorate (D300, D394, D390, D100, D101, D205, D112, D406 — după «Fiscalitate pe luni»), de la primul an cu date până azi (poate dura minute — fiecare trece prin validarea ANAF), apoi confruntă banii cu ce a întocmit SAGA atunci",
+                  "line": 141,
+                  "key": "t26.vi.btn.generez.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1703,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "implicit se generează DOAR ce lipsește din registru (sau ce a rămas în eroare). Bifat, se reface și ce e deja generat cu bine — util după o schimbare de configurare sau de legislație.",
+                  "line": 146,
+                  "key": "t26.vi.regen.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1706,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "fără regenerare: confruntă arhiva SAGA cu tot ce e DEJA generat în registrul declarațiilor, pe toate tipurile",
+                  "line": 142,
+                  "key": "t26.vi.btn.compar.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1704,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenAdmin-1000100.png",
+                "sha256": "de990ae93bc59143449727f36c28df9a15c8910f4e00dea03ac7f0cb421937e7"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WEvaComparatieBancaForm",
+      "role_session": 1000080,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-retry.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T06-R2-002",
+          "task": "T06",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/17/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000062,
+          "grant_on_form": true,
+          "result": "EXACT_MENU_OR_ACTIVATION_UNOBSERVED",
+          "observed": [],
+          "failures": [
+            {
+              "menu": 1000361,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "RuntimeError: No new selected ZK tab and linked panel",
+              "selected": [
+                {
+                  "id": "cNeJ02",
+                  "title": "Home",
+                  "panel": "cNeJ12"
+                }
+              ],
+              "popup": null,
+              "messages": null
+            }
+          ]
+        },
+        {
+          "method": "ui-retry.json",
+          "raw_pointer": "#/runs/2/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000080,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000361,
+              "form": 1000132,
+              "menu_name": "Comparație bancă EvA ↔ SAGA",
+              "full_title": "EvA — Comparație bancă EvA ↔ SAGA",
+              "visible_title": "EvA — Comparație bancă EvA ...",
+              "active_tab": "f1AIzw1",
+              "linked_panel": "f1AI_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaComparatieBancaForm.java",
+                "sha256": "4a16fb9cf4b0504f5426dd2f12a97c0468878c40ff9dcd5635017cdab40614d0"
+              },
+              "specific_controls": [
+                {
+                  "observed": "rulează în fundal procesul de comparație pe contul și lunile din bară: citește arhiva SAGA (doar citire) și scrie doar tabela de rezultate",
+                  "line": 160,
+                  "key": "compsaga.buton.compar.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 11911,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "nicio comparație rulată pe acest cont și interval — apasă «Compar cu SAGA»",
+                  "line": 261,
+                  "key": "compsaga.necalculat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 11918,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "rezumatul și jurnalul ultimei rulări din această sesiune",
+                  "line": 162,
+                  "key": "compsaga.buton.jurnal.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 11913,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/retry-GardenUser-1000361.png",
+                "sha256": "62ab608c3f045ff35e0a8ec81d935011e1c301407f4b4804d50b1807da489976"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WEvaRegesAplicatieForm",
+      "role_session": 1000084,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-same-alias.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 2,
+      "criteria": [
+        {
+          "criterion": "T11-R2-007",
+          "task": "T11",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T11-R2-022",
+          "task": "T11",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/18/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000063,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000162,
+              "form": 1000103,
+              "menu_name": "REGES › Extrase › Salariat",
+              "full_title": "EvA — REGES — aplicația angajator",
+              "visible_title": "EvA — REGES — aplicația ang...",
+              "active_tab": "xYJRrx1",
+              "linked_panel": "xYJRsx1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaRegesAplicatieForm.java",
+                "sha256": "46471c508dfb4c0549a68a74f759487b64680463f30d1028a82973f4ae5e93d1"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Ajutor",
+                  "line": 96,
+                  "key": "app.ajutor",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 7,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [
+                {
+                  "observed": "Generează raport — PDF (tipărire)",
+                  "key": "ext.genereaza.pdf",
+                  "call": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/Extrase.java",
+                    "sha256": "66317b176f4cfb423c21fe271e15edc193a52d49ec0b448c3301a8edb1b77f69",
+                    "line": 56,
+                    "source_excerpt": "Button pdf = new Button(EticheteReges.t(\"ext.genereaza.pdf\"));"
+                  },
+                  "translation": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                    "sha256": "584741cd904381f879503d8c55a8ab6f4684193ffc1370905248aa714ee1a2f8",
+                    "line": 414,
+                    "source_excerpt": "ext.genereaza.pdf\tGenerează raport — PDF (tipărire)\tGenerate report — PDF (print)"
+                  }
+                },
+                {
+                  "observed": "Generează raport — CSV / Excel",
+                  "key": "ext.genereaza.csv",
+                  "call": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/Extrase.java",
+                    "sha256": "66317b176f4cfb423c21fe271e15edc193a52d49ec0b448c3301a8edb1b77f69",
+                    "line": 57,
+                    "source_excerpt": "Button csv = new Button(EticheteReges.t(\"ext.genereaza.csv\"));"
+                  },
+                  "translation": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                    "sha256": "584741cd904381f879503d8c55a8ab6f4684193ffc1370905248aa714ee1a2f8",
+                    "line": 415,
+                    "source_excerpt": "ext.genereaza.csv\tGenerează raport — CSV / Excel\tGenerate report — CSV / Excel"
+                  }
+                }
+              ],
+              "delegation_chain": [
+                {
+                  "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaRegesAplicatieForm.java",
+                  "sha256": "46471c508dfb4c0549a68a74f759487b64680463f30d1028a82973f4ae5e93d1",
+                  "line": 141,
+                  "source_excerpt": "Component ec = EcraneReges.ecran(cheie).construieste(cx);"
+                },
+                {
+                  "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/EcraneReges.java",
+                  "sha256": "1971d416f06998a340c567dd2774660e8f9b7dcee228f21cc9942b86e5d4f59b",
+                  "line": 58,
+                  "source_excerpt": "E.put(\"ext.salariat\", Extrase::salariat);"
+                }
+              ],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000162.png",
+                "sha256": "bb66eadf63d53fed02a7095f649058c8041b1fe11d7c6fd0452a4db2ec5c8173"
+              }
+            }
+          ],
+          "failures": [
+            {
+              "menu": 1000121,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "RuntimeError: No new selected ZK tab and linked panel",
+              "selected": [
+                {
+                  "id": "xYJR02",
+                  "title": "Home",
+                  "panel": "xYJR12"
+                }
+              ],
+              "popup": null,
+              "messages": null
+            },
+            {
+              "menu": 1000119,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "TimeoutError: Locator.wait_for: Timeout 3700ms exceeded.",
+              "selected": null,
+              "popup": null,
+              "messages": null
+            },
+            {
+              "menu": 1000190,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "TimeoutError: Locator.wait_for: Timeout 3700ms exceeded.",
+              "selected": null,
+              "popup": null,
+              "messages": null
+            }
+          ]
+        },
+        {
+          "method": "ui-same-alias.json",
+          "raw_pointer": "#/runs/0/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000084,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000121,
+              "form": 1000103,
+              "menu_name": "REGES › Acasă",
+              "full_title": "EvA — REGES — aplicația angajator",
+              "visible_title": "EvA — REGES — aplicația ang...",
+              "active_tab": "cVBNzw1",
+              "linked_panel": "cVBN_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaRegesAplicatieForm.java",
+                "sha256": "46471c508dfb4c0549a68a74f759487b64680463f30d1028a82973f4ae5e93d1"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Ajutor",
+                  "line": 96,
+                  "key": "app.ajutor",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 7,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [
+                {
+                  "observed": "Cheile REGES",
+                  "key": "acasa.sec.chei",
+                  "call": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/PaginaAcasa.java",
+                    "sha256": "4166638c0dd2ca3d1bc7bd89f997f88d7d4d45c237cdf48f28c7ecf37aa04657",
+                    "line": 91,
+                    "source_excerpt": "v.appendChild(Stil.sectiune(EticheteReges.t(\"acasa.sec.chei\")));"
+                  },
+                  "translation": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                    "sha256": "584741cd904381f879503d8c55a8ab6f4684193ffc1370905248aa714ee1a2f8",
+                    "line": 532,
+                    "source_excerpt": "acasa.sec.chei\tCheile REGES\tREGES keys"
+                  }
+                },
+                {
+                  "observed": "Acțiuni frecvente",
+                  "key": "acasa.sec.actiuni",
+                  "call": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/PaginaAcasa.java",
+                    "sha256": "4166638c0dd2ca3d1bc7bd89f997f88d7d4d45c237cdf48f28c7ecf37aa04657",
+                    "line": 93,
+                    "source_excerpt": "v.appendChild(Stil.sectiune(EticheteReges.t(\"acasa.sec.actiuni\")));"
+                  },
+                  "translation": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                    "sha256": "584741cd904381f879503d8c55a8ab6f4684193ffc1370905248aa714ee1a2f8",
+                    "line": 533,
+                    "source_excerpt": "acasa.sec.actiuni\tAcțiuni frecvente\tFrequent actions"
+                  }
+                },
+                {
+                  "observed": "Mesaje recente (trimise / primite)",
+                  "key": "acasa.sec.mesaje",
+                  "call": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/PaginaAcasa.java",
+                    "sha256": "4166638c0dd2ca3d1bc7bd89f997f88d7d4d45c237cdf48f28c7ecf37aa04657",
+                    "line": 104,
+                    "source_excerpt": "v.appendChild(Stil.sectiune(EticheteReges.t(\"acasa.sec.mesaje\")));"
+                  },
+                  "translation": {
+                    "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                    "sha256": "584741cd904381f879503d8c55a8ab6f4684193ffc1370905248aa714ee1a2f8",
+                    "line": 534,
+                    "source_excerpt": "acasa.sec.mesaje\tMesaje recente (trimise / primite)\tRecent messages (sent / received)"
+                  }
+                }
+              ],
+              "delegation_chain": [
+                {
+                  "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaRegesAplicatieForm.java",
+                  "sha256": "46471c508dfb4c0549a68a74f759487b64680463f30d1028a82973f4ae5e93d1",
+                  "line": 141,
+                  "source_excerpt": "Component ec = EcraneReges.ecran(cheie).construieste(cx);"
+                },
+                {
+                  "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/EcraneReges.java",
+                  "sha256": "1971d416f06998a340c567dd2774660e8f9b7dcee228f21cc9942b86e5d4f59b",
+                  "line": 20,
+                  "source_excerpt": "E.put(\"acasa\", PaginaAcasa::construieste);"
+                }
+              ],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/retry-GardenUser-1000121.png",
+                "sha256": "b35a9408e4a3f1b2397388fccbef292074ccbe60575146f6635d74656cc7c4bc"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WEvaRegesForm",
+      "role_session": 1000079,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-retry.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T03-R2-063",
+          "task": "T03",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/15/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000060,
+          "grant_on_form": true,
+          "result": "EXACT_MENU_OR_ACTIVATION_UNOBSERVED",
+          "observed": [],
+          "failures": [
+            {
+              "menu": 1000189,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "RuntimeError: No new selected ZK tab and linked panel",
+              "selected": [
+                {
+                  "id": "wTQM02",
+                  "title": "Home",
+                  "panel": "wTQM12"
+                }
+              ],
+              "popup": null,
+              "messages": null
+            },
+            {
+              "menu": 1000104,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "TimeoutError: Locator.wait_for: Timeout 3700ms exceeded.",
+              "selected": null,
+              "popup": null,
+              "messages": null
+            }
+          ]
+        },
+        {
+          "method": "ui-retry.json",
+          "raw_pointer": "#/runs/1/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000079,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000189,
+              "form": 1000102,
+              "menu_name": "REGES › Operațiuni (coada EvA)",
+              "full_title": "EvA — REGES — operațiuni (Inspecția Muncii)",
+              "visible_title": "EvA — REGES — operațiuni (I...",
+              "active_tab": "uHhOzw1",
+              "linked_panel": "uHhO_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WEvaRegesForm.java",
+                "sha256": "b65806f9abdf7169edfd097877257db0419e6beb082fc1220c726cd6698a6714"
+              },
+              "specific_controls": [
+                {
+                  "observed": "încărcați fișierul «Export salariați» sau «Export contracte» (JSON / XML) din aplicația Angajator REGES (Setări → Angajator → Utile); se leagă referințele REGES de salariații și contractele EvA — nu se creează nimic în REGES",
+                  "line": 126,
+                  "key": "t03.reges.cl.btn.reconciliere.sfat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 612,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Reconciliere (export REGES)…",
+                  "line": 124,
+                  "key": "t03.reges.cl.btn.reconciliere",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 611,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Detectez modificările",
+                  "line": 122,
+                  "key": "t03.reges.cl.btn.detectez",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/reges/res/etichete.tsv",
+                  "translation_line": 609,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/retry-GardenUser-1000189.png",
+                "sha256": "37aa4180e669237b17abd6ba8fe4b68b7af64d843e1926cc364324b9d38c977a"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaBilantForm",
+      "role_session": 1000073,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T204-R2-016",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/25/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000073,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000080,
+              "form": 1000078,
+              "menu_name": "Bilanț (6 taburi)",
+              "full_title": "EvA — Bilanț (6 taburi)",
+              "visible_title": "EvA — Bilanț (6 taburi)",
+              "active_tab": "fSGQzw1",
+              "linked_panel": "fSGQ_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaBilantForm.java",
+                "sha256": "be793e1019207ea06a782303d199a0ce7f85d69492ff9eb9d6f766da551f3c20"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Auto = formularul după plafoanele de mărime (S1005 / S1003 / S1002); S1046 și S1015 se generează doar dacă firma e setată «fără activitate de la constituire», respectiv e ONG în «Fiscalitate pe luni» — altfel generatorul spune de ce nu",
+                  "line": 138,
+                  "key": "bilant.formular.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 455,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "rd.19 = rd.20 — o verifică motorul la rulare (tab 10)",
+                  "line": 270,
+                  "key": "a13b.bil.corelatie_val",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 834,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Tip entitate (OMFP 1802/2014 pct. 9)",
+                  "line": 265,
+                  "key": "bilant.info.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 219,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000080.png",
+                "sha256": "4cf63f3f6d62551c7e298d853ad8e36b27e336a7e93f1cd5cae937d771f77ec1"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaBonConsumForm",
+      "role_session": 1000077,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T340-R2-003",
+          "task": "T340",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/29/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000077,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000026,
+              "form": 1000024,
+              "menu_name": "Bonuri de consum",
+              "full_title": "EvA — Bonuri de consum",
+              "visible_title": "EvA — Bonuri de consum",
+              "active_tab": "nZAYzw1",
+              "linked_panel": "nZAY_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaBonConsumForm.java",
+                "sha256": "2dcde455af4df8a77fcd0f31af066170ef60dfc51c1be01b724a86a3af54327f"
+              },
+              "specific_controls": [
+                {
+                  "observed": "pornește un document nou: pune un RÂND NOU editabil chiar în tabelul de sus (Data = azi, gestiunea implicită, contul propus din tipul articolelor); Enter/Tab/săgeată-jos trec la câmpul următor, «Salvez» creează documentul și deschide zona liniilor",
+                  "line": 542,
+                  "key": "t36.txte.bon.sfat_adaug",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 8445,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "motorul iDempiere nu reactivează un inventar completat (reActivateIt e neimplementat în core) — devalidarea se face prin STORNARE: document-pereche cu semn invers, stoc și postare readuse exact",
+                  "line": 501,
+                  "key": "t36.txte.bon.sfat_devalidez",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 8444,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "adaugă o linie nouă în documentul curent, cu cursorul chiar în celula «Cod»; Enter/Tab/săgeată-jos trec la câmpul următor, iar de pe ultima celulă Enter deschide linia următoare",
+                  "line": 478,
+                  "key": "t36.txte.bon.sfat_adaug_rand",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 8442,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000026.png",
+                "sha256": "bf539585c20b52ba1d5488bd681231a344819c800a4b263a0e3dd4391b5e0794"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaCalculSalariiForm",
+      "role_session": 1000081,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-retry.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T196-R2-021",
+          "task": "T196",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/23/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000069,
+          "grant_on_form": true,
+          "result": "EXACT_MENU_OR_ACTIVATION_UNOBSERVED",
+          "observed": [],
+          "failures": [
+            {
+              "menu": 1000059,
+              "step": "EXACT_HIT_OR_PANEL_NOT_OBSERVED",
+              "exception": "RuntimeError: No new selected ZK tab and linked panel",
+              "selected": [
+                {
+                  "id": "iZgF02",
+                  "title": "Home",
+                  "panel": "iZgF12"
+                }
+              ],
+              "popup": null,
+              "messages": null
+            }
+          ]
+        },
+        {
+          "method": "ui-retry.json",
+          "raw_pointer": "#/runs/3/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000081,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000059,
+              "form": 1000057,
+              "menu_name": "Calcul salarii (AMN)",
+              "full_title": "EvA — Calcul salarii (AMN)",
+              "visible_title": "EvA — Calcul salarii (AMN)",
+              "active_tab": "d1jEzw1",
+              "linked_panel": "d1jE_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaCalculSalariiForm.java",
+                "sha256": "c956b4c0d4fb87384091e3c36b98b1694f92105dfad00fcddfa0b0130a56986b"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Luna de lucru a ecranului — se alege cu ▾ / săgeata-jos, sau se tastează (2026-09). Lista merge de la prima lună cu date până la luna următoare celei curente, fără goluri, iar lângă fiecare lună scrie de unde vin datele: «calculată» (are perioadă de calcul), «istoric SAGA» (doar reperul importat, coloanele motorului rămân hașurate până la «Calculează luna») sau «lună nouă (fără date încă)» — o lună de lucru obișnuită, în care «Calculează luna» își face singură perioada, salariile și statul.",
+                  "line": 181,
+                  "key": "t21.cals.luna_lucru_ecranului_alege",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3787,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Fundal galben = se poate modifica, dar numai pentru luna în curs   ·   verde = calculat automat de motor, nu se modifică din stat   ·   gri = reper istoric SAGA (HR_Movement, conceptul SAL_NET — aceeași sursă ca «State salarii»)   ·   roșu = diferență peste un ban   ·   hașurat = motorul AMN n-a calculat încă luna (help SAGA p. 156)",
+                  "line": 150,
+                  "key": "t21.cals.fundal_galben_poate_modifica",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3781,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Contribuția asiguratorie pentru muncă (angajator)",
+                  "line": 144,
+                  "key": "t21.cals.contributia_asiguratorie_pentru_munca",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3765,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/retry-GardenUser-1000059.png",
+                "sha256": "88e7bf23d670812edd8e91c37d9b03479f11c32e7b5cc9fe4e19539b49650f3e"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaConfigSalariiForm",
+      "role_session": 1000064,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 1,
+      "prior_verdict": "TARGET_OR_CONTENT_UNCONFIRMED",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T159-R2-020",
+          "task": "T159",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/19/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000064,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000058,
+              "form": 1000056,
+              "menu_name": "Configurare salarii (AMN)",
+              "full_title": "EvA — Configurare salarii (AMN)",
+              "visible_title": "EvA — Configurare salarii (...",
+              "active_tab": "jTiGzw1",
+              "linked_panel": "jTiG_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaConfigSalariiForm.java",
+                "sha256": "b42d2ede57af689ae4604677a7e7c6090a88642bc6c15b867f81e7bbabe6a62f"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Ce se pune pe statul de plată. Cele conduse de lege (salariu, CAS, CASS, deducere personală, impozit, CAM) se calculează singure, din registrul legislativ, la data lunii — nu se ating. Sporurile, primele, tichetele și reţinerile firmei se adaugă cu «Modific conceptul», completând un formular simplu: felul sumei, valoarea și ce taxe atinge; formula se scrie singură. «Avansat…» arată ordinea calculului și formula, pentru cine chiar are nevoie de ele.",
+                  "line": 321,
+                  "key": "t21.cfgs.ce_pune_statul_plata",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3122,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "arată coloanele tehnice — «Ordinea calculului» și «Formulă JavaScript». Nu sunt necesare pentru lucrul obișnuit: ordinea se deduce singură (veniturile înaintea contribuţiilor, contribuţiile înaintea impozitului, reţinerile după net), iar formula se scrie singură din formularul simplu.",
+                  "line": 244,
+                  "key": "t21.cfgs.arata_coloanele_tehnice_ordinea",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3112,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Salariaţii din modelul de calcul, aduși din importul SAGA. Salariul de încadrare NU se editează aici: e al persoanei, se schimbă în «Salariați» (dublu-click pe un rând deschide ecranul acela). Conturile tehnice de login ale cabinetului nu apar: nu sunt salariaţi.",
+                  "line": 335,
+                  "key": "t21.cfgs.salariatii_modelul_calcul_adusi",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3224,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000058.png",
+                "sha256": "0b9f30914cc4202969159cff182514ab564a52b5812bc5191768928e0d7c2bf2"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaConfigSocietatiForm",
+      "role_session": 1000067,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T186-R2-020",
+          "task": "T186",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/21/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000067,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000076,
+              "form": 1000074,
+              "menu_name": "Configurare societăți",
+              "full_title": "EvA — Configurare societăți",
+              "visible_title": "EvA — Configurare societăți",
+              "active_tab": "uMlYzw1",
+              "linked_panel": "uMlY_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaConfigSocietatiForm.java",
+                "sha256": "081a643b7981975bd49c07234e7d5014b884d45f066221d97010d457837641b8"
+              },
+              "specific_controls": [
+                {
+                  "observed": "dosarul monografiei contabile în vigoare: identificarea, cadrul contabil, capitolele și registrele",
+                  "line": 80,
+                  "key": "t41.l2.cfg.buton.sfat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7600,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "activează sau reface straturile de cost FIFO / LIFO / CMP de la o dată (cu previzualizare)",
+                  "line": 73,
+                  "key": "t40.l2.cfg.buton.sfat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7510,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "locațiile firmei, codurile CAEN autorizate pe fiecare locație și autorizațiile sectoriale",
+                  "line": 87,
+                  "key": "t41.cfg.buton.sfat",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 6548,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000076.png",
+                "sha256": "6bc793dfe502b42da682a92619f888cf6a1d9306c0198664ccd78da7d10356c1"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaCorelareForm",
+      "role_session": 1000074,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 2,
+      "criteria": [
+        {
+          "criterion": "T204-R2-024",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T221-R2-020",
+          "task": "T221",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/26/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000074,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000332,
+              "form": 1000109,
+              "menu_name": "Corelare — comenzi",
+              "full_title": "EvA — Corelare site / facturi / AWB / deconturi",
+              "visible_title": "EvA — Corelare site / factu...",
+              "active_tab": "dTtTzw1",
+              "linked_panel": "dTtT_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaCorelareForm.java",
+                "sha256": "e011863dd701478997d19dab3f3ad92749d54dd2ba4170a509aa760c2995fe93"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Încasări Stripe",
+                  "line": 243,
+                  "key": "corelare.etapa.tab.stripe",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 9617,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Tipărire",
+                  "line": 222,
+                  "key": "corelare.etapa.bara.tiparire",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1632,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Comenzi",
+                  "line": 242,
+                  "key": "corelare.etapa.tab.comenzi",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1627,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000332.png",
+                "sha256": "edbeef2c541a684bfe2480fbe50fcc4657b826dc1d3d9a58e355ec04d4473d1b"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaEFacturiForm",
+      "role_session": 1000061,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T03-R2-104",
+          "task": "T03",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/16/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000061,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000060,
+              "form": 1000058,
+              "menu_name": "e-Facturi (SPV)",
+              "full_title": "EvA — e-Facturi (SPV)",
+              "visible_title": "EvA — e-Facturi (SPV)",
+              "active_tab": "oWKKzw1",
+              "linked_panel": "oWKK_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaEFacturiForm.java",
+                "sha256": "bd47e4804e0084849b419b11cac26b5beafb7f2e63291d43d8d87b4230dcd6f1"
+              },
+              "specific_controls": [
+                {
+                  "observed": "Data documentului din contabilitate (c_invoice.dateinvoiced) — după ea filtrează perioada de sus. Dacă rândul din coadă n-are factură legată, se arată data intrării în coadă.",
+                  "line": 619,
+                  "key": "t21.efct.data_documentului_contabilitate_c",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3892,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Se completează după «Trimit (SPV)» — indexul de încărcare primit de la ANAF. Gol până atunci (inclusiv pe facturile Invalide, care n-au fost încă trimise).",
+                  "line": 608,
+                  "key": "t21.efct.completeaza_dupa_trimit_spv",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3891,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "arată răspunsul ANAF ÎNTREG pentru înregistrarea selectată (în grilă e tăiat la 400 de caractere); același lucru îl face dublu-clicul pe rând",
+                  "line": 121,
+                  "key": "t21.efct.arata_raspunsul_anaf_intreg",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3884,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000060.png",
+                "sha256": "ea410c666eda2e642acaad1ac000a914297d4660e5a66003b137de2ca6c45697"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaIesiriForm",
+      "role_session": 1000065,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 5,
+      "criteria": [
+        {
+          "criterion": "T186-R2-007",
+          "task": "T186",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T325-R2-012",
+          "task": "T325",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T329-R2-009",
+          "task": "T329",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T329-R2-027",
+          "task": "T329",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T330-R2-011",
+          "task": "T330",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/20/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000065,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000023,
+              "form": 1000021,
+              "menu_name": "Ieșiri - lei",
+              "full_title": "EvA — Ieșiri - lei",
+              "visible_title": "EvA — Ieșiri - lei",
+              "active_tab": "mMdYzw1",
+              "linked_panel": "mMdY_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaIesiriForm.java",
+                "sha256": "da07c7c35dcb5e316291ff03015f9bf350145d5c4b3a0b6781094d5dc2ace4f9"
+              },
+              "specific_controls": [
+                {
+                  "observed": "se completează din prețul de vânzare al articolului (lista de prețuri de vânzare) sau completat manual pe linie; fără listă de prețuri încărcată rămân goale — adaosul cere prețul de vânzare",
+                  "line": 996,
+                  "key": "t21.iesf.completeaza_pretul_vanzare_articolului",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 4618,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "suma adaosurilor de pe liniile documentului; adaosul se pune pe linie (coloana «Adaos» din tabelul de jos) sau vine din prețul de vânzare al articolului — fără listă de prețuri rămâne zero",
+                  "line": 888,
+                  "key": "t21.iesf.suma_adaosurilor_liniile_documentului",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 4906,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "filtrează lista (perioadă / stare / text); din fereastra de filtrare se pot valida sau devalida în masă rândurile selectate (help p.16)",
+                  "line": 841,
+                  "key": "t21.iesf.filtreaza_lista_perioada_stare",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 4733,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000023.png",
+                "sha256": "4163ed9bd63b7e2bedcd81664490578ad0920fa9484659a5b1e1ab5d96d67b55"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaImportExtrasForm",
+      "role_session": 1000075,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T204-R2-025",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/27/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000075,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000089,
+              "form": 1000087,
+              "menu_name": "Import extras de cont",
+              "full_title": "EvA — Import extras de cont",
+              "visible_title": "EvA — Import extras de cont",
+              "active_tab": "sHcOzw1",
+              "linked_panel": "sHcO_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaImportExtrasForm.java",
+                "sha256": "939bb7b2315d0e86ae343bdfe79b4e4c0324d5ae0a82b7775a992c268bfb110c"
+              },
+              "specific_controls": [
+                {
+                  "observed": "extrasele contului bancar ales, în intervalul din bară — și cele importate din SAGA, și cele încărcate aici; clic pe un rând îi arată liniile în panoul de jos",
+                  "line": 215,
+                  "key": "t21.imex.extrasele_contului_bancar_ales",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3560,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "liniile extrasului selectat (Analizez → propuneri; verde=SIGUR, galben=PROPUS, albastru=CONT, roșu=de lămurit)",
+                  "line": 240,
+                  "key": "t21.imex.liniile_extrasului_selectat_analizez",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3583,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Încarc fișierul (MT940 / CSV / XLSX / XML)",
+                  "line": 94,
+                  "key": "t21.imex.incarc_fisierul_mt940_csv",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 3572,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000089.png",
+                "sha256": "ef29fdef565a8abd95569527311e3c8a52d11eb3ba0099b96b241176fd9be52d"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaReconciliereForm",
+      "role_session": 1000072,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 3,
+      "criteria": [
+        {
+          "criterion": "T204-R2-004",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T204-R2-008",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T204-R2-024",
+          "task": "T204",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/24/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000072,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000062,
+              "form": 1000060,
+              "menu_name": "Reconciliere bancă",
+              "full_title": "EvA — Reconciliere bancă",
+              "visible_title": "EvA — Reconciliere bancă",
+              "active_tab": "fCIAzw1",
+              "linked_panel": "fCIA_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaReconciliereForm.java",
+                "sha256": "0325c26d6fa03465bc840b93510ff8e85a248f8bcb7a9b8ee3ad4cb2ea3c2766"
+              },
+              "specific_controls": [
+                {
+                  "observed": "alege contul și apasă «Caută potriviri»",
+                  "line": 229,
+                  "key": "t36.txt.recon.stare.start",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7585,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Bifează tot ce e sigur",
+                  "line": 94,
+                  "key": "t36.txt.recon.bifeaza_sigure",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7570,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Caută potriviri",
+                  "line": 92,
+                  "key": "t36.txt.recon.cauta",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 7568,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000062.png",
+                "sha256": "752b435dbcab6af95f160905af66e2e780018734ab6a0befa5f2dfef55a13e2a"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaStateSalariiForm",
+      "role_session": 1000068,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 2,
+      "criteria": [
+        {
+          "criterion": "T191-R2-010",
+          "task": "T191",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        },
+        {
+          "criterion": "T196-R2-013",
+          "task": "T196",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/22/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000068,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000109,
+              "form": 1000107,
+              "menu_name": "State salarii",
+              "full_title": "EvA — State salarii",
+              "visible_title": "EvA — State salarii",
+              "active_tab": "vICPzw1",
+              "linked_panel": "vICP_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaStateSalariiForm.java",
+                "sha256": "d0f1c339fbe0bfb9fc4c9a72ced6d51695d982a0eb5f7a5160dc4f88d2b5b35e"
+              },
+              "specific_controls": [
+                {
+                  "observed": "PONTAJUL lunii alese, de completat MANUAL: zile lucrate, ore lucrate, zile de concediu de odihnă, zile de concediu medical, zile de absențe nemotivate, sărbători legale lucrate, ore lucrate sâmbăta și duminica. Zilele lucrătoare și sărbătorile legale ale lunii vin din «Calendar zile libere». Se salvează în istoricul de salarii (HR_Movement) și, de acolo, «Calcul salarii» proratează brutul pe timpul efectiv lucrat.",
+                  "line": 387,
+                  "key": "t21.ssalf.btn.pontaj.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 2409,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "«Sume de plată…» — lista sumelor de plată ale lunii: restul de plată pe fiecare salariat plus contribuțiile și impozitul de virat, cu «Tipărire». ATENȚIE: în acest val NU se generează documente de trezorerie (ordinele de plată pe 421 / 4315 / 4316 / 444 vin într-un pachet separat) — e o listă de plătit, nu o plată.",
+                  "line": 403,
+                  "key": "t21.ssalf.btn.plata.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 2407,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "Va redeschide statul lunii selectate pentru recalculare (devalidare + recalcul în «Calcul salarii» + revalidare), într-un singur pas. Rămâne gri până la lotul care leagă cele două ecrane; azi aceleași trei operații se fac de mână, cu «Devalidez» aici și «Calculează luna» dincolo.",
+                  "line": 384,
+                  "key": "t21.ssalf.btn.modific.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 2403,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000109.png",
+                "sha256": "123a575f4f65cc5280775119d4da30ffb2c023096f41f330357116e16207ce50"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "user": "GardenUser",
+      "role": 103,
+      "class": "WSagaVerificareInchideriForm",
+      "role_session": 1000076,
+      "state": "DESCHIDERE_CONFIRMATA",
+      "winning_method": "ui-exact.json",
+      "ad_form_grant": true,
+      "prior_search_matches": 0,
+      "prior_verdict": "No exact visible target in role search",
+      "classes_in_taskmap": 1,
+      "criteria": [
+        {
+          "criterion": "T227-R2-005",
+          "task": "T227",
+          "effect_oracle": "NEEVALUAT PRIN DESCHIDERE"
+        }
+      ],
+      "observations": [
+        {
+          "method": "ui-exact.json",
+          "raw_pointer": "#/runs/28/cases/0",
+          "user": "GardenUser",
+          "actor": 103,
+          "session_id": 1000076,
+          "grant_on_form": true,
+          "result": "DESCHIDERE_CONFIRMATA",
+          "observed": [
+            {
+              "menu": 1000100,
+              "form": 1000098,
+              "menu_name": "Verificare închideri (SAGA vs EvA)",
+              "full_title": "EvA — Verificare închideri (SAGA vs EvA)",
+              "visible_title": "EvA — Verificare închideri ...",
+              "active_tab": "iRUXzw1",
+              "linked_panel": "iRUX_x1",
+              "checks": {
+                "exact_unique_menu_record": true,
+                "active_actor": true,
+                "new_tab_and_linked_panel": true,
+                "complete_title": true,
+                "distinct_controls": true,
+                "no_display_error_or_modal": true,
+                "content_nonempty": true
+              },
+              "source": {
+                "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaVerificareInchideriForm.java",
+                "sha256": "dc80b3e128da0c149b3836fa0225a8bbc5b30cbabc0ce19541465d4f4664ae80"
+              },
+              "specific_controls": [
+                {
+                  "observed": "generează TOATE declarațiile datorate (D300, D394, D390, D100, D101, D205, D112, D406 — după «Fiscalitate pe luni»), de la primul an cu date până azi (poate dura minute — fiecare trece prin validarea ANAF), apoi confruntă banii cu ce a întocmit SAGA atunci",
+                  "line": 141,
+                  "key": "t26.vi.btn.generez.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1703,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "implicit se generează DOAR ce lipsește din registru (sau ce a rămas în eroare). Bifat, se reface și ce e deja generat cu bine — util după o schimbare de configurare sau de legislație.",
+                  "line": 146,
+                  "key": "t26.vi.regen.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1706,
+                  "unique_among_15": true
+                },
+                {
+                  "observed": "fără regenerare: confruntă arhiva SAGA cu tot ce e DEJA generat în registrul declarațiilor, pe toate tipurile",
+                  "line": 142,
+                  "key": "t26.vi.btn.compar.tip",
+                  "translation_file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+                  "translation_line": 1704,
+                  "unique_among_15": true
+                }
+              ],
+              "delegated_controls": [],
+              "delegation_chain": [],
+              "png": {
+                "file": "executie/R6_pregatire/ERP/UX/GardenUser-1000100.png",
+                "sha256": "94f5cfea078c1c592a8eac0f23afd3941db06a207181f052d29a746ddb6bd823"
+              }
+            }
+          ],
+          "failures": []
+        }
+      ]
+    }
+  ],
+  "native_grant_control": {
+    "evidence": {
+      "file": "executie/R6_pregatire/ERP/UX/native-negative-control.json",
+      "sha256": "8ee1e897b95f741d5719f19c390afed2c8cfaf4f5a98a763fc930ef916d1225e"
+    },
+    "results": [
+      [
+        "GardenAdmin",
+        1,
+        true
+      ],
+      [
+        "GardenUser",
+        0,
+        false
+      ]
+    ],
+    "interpretation": "Compară explicit grantul AD_Form și observarea de meniu; absența din căutare nu este echivalentă cu răspuns HTTP 403."
+  },
+  "inputs": [
+    {
+      "file": "executie/R5_pregatire/ZK_form_criteria_map.json",
+      "sha256": "ce29121cf4aaf402b16b850b2a5174f4af951d0dc1caede2ead2675aa9d5fb3e"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/ui/ui-data/zk-role-ui.json",
+      "sha256": "c747051ef7701fde9c408b74ba01b7a4419345344fbc765e387204419570d46d"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/UX/ui-exact.json",
+      "sha256": "d829adf83466eea3ff8201c6737e9cceb29b3666e7cf2e4ebb23eb2868e508db"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/UX/ui-same-alias.json",
+      "sha256": "e773f226948a2ede71aac7a75f13626d0fa7b72edfd22cdb67145f92747dd562"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/UX/extra_alias.py",
+      "sha256": "b32e9a9f7cf1e03bd02faae62e31d7a2709d94958e4342b701d64df8b15185e9"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/UX/attempt1-incomplete.json",
+      "sha256": "db0c51a1bd66e268d8ff6df0ff89f6236120187e59e741193ca8eb610d513cd8"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/UX/source_labels.json",
+      "sha256": "c5c174eaa02405b6259788c572a74153e0a25aef5b5aeab799206c98b68b1f1a"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/UX/native_ui_roles_v2.py",
+      "sha256": "23f90193704d2b968c048f9cbc9a11377583014270af4d06da93f733b3f9701b"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/UX/native_ui_retry.py",
+      "sha256": "e65d50f2cd54ce5d2f8f96bc4deaa2f653a270037dedeb92252511bc3e0d458e"
+    },
+    {
+      "file": "executie/R6_pregatire/ERP/UX/ui-retry.json",
+      "sha256": "405e72d4c73adf4efd8d469420a7793d0d8a53d0430978735c116623af3e071e"
+    }
+  ],
+  "retries": "Prima variantă cu taburi multiple nu a oferit condiții stabile; raw-ul parțial este păstrat separat. Rularea principală izolată și repetările sunt distincte, fără suprascrierea dovezilor anterioare.",
+  "independent_review": "A12 primește maparea pentru criterii și A11 decide auditul independent.",
+  "score": null
+}

@@ -1,0 +1,118 @@
+{
+  "edition": "A05 R10 manifest",
+  "utc": "2026-11-02T20:57:27.982111+00:00",
+  "cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "files": [
+    {
+      "name": "Registru_R10_A05.json",
+      "sha256": "1ae21ec5304b26c17d1b5797a3d029dc3dc048fd94c2a7c6802a3872dffe6669",
+      "size": 5114
+    },
+    {
+      "name": "T325_miscare_intre_locatori.json",
+      "sha256": "bc7b7fa7687bb64f9043f031206ee75ac1d3f6917c5f99e77af78b6f1804b35d",
+      "size": 25751
+    },
+    {
+      "name": "T325_regresii_native.json",
+      "sha256": "14807747fc7fab64975294dd1054c51d8efd65ca9d0fb7dd5a9c12a2fc82c363",
+      "size": 3543
+    },
+    {
+      "name": "T329_actiuni_martor.json",
+      "sha256": "10443b8e3236983d2c72d20bb10b04149121fc6d499ebc71aee1459b9f50d7f5",
+      "size": 25522
+    },
+    {
+      "name": "T329_actiuni_numai_USD.json",
+      "sha256": "90fb5a36d1f41f7c0ff78e01e20befc18ac49db201419d6f7cd7208d04376b60",
+      "size": 44054
+    },
+    {
+      "name": "T329_cautare_diag_storno.json",
+      "sha256": "6c19120f40222af3fc3ad30efbd3099a55c6b2ed9d1215b42ca165361f59c9bf",
+      "size": 1369
+    },
+    {
+      "name": "T329_comparatie_pe_schema.json",
+      "sha256": "8a0f360e692e858a81fc6d5ee313d582aee75669fb63b4588ee8637ad6f4ad46",
+      "size": 55435
+    },
+    {
+      "name": "T329_control_schimbare_schema.json",
+      "sha256": "5da5646e1437e2a94df9da6ba63571a836578a8dbe95c4bb15a8edb8903e3a95",
+      "size": 929
+    },
+    {
+      "name": "T329_diag_postare.json",
+      "sha256": "28060d307230b1977a33b463812d94655046c92e377fda77267830778350a8d8",
+      "size": 2100
+    },
+    {
+      "name": "T329_document_actiuni.json",
+      "sha256": "38316a1d18732147850f1b1827fe34993aa8b6a5d146b53865976a6ece176bf2",
+      "size": 34199
+    },
+    {
+      "name": "T329_metoda_observare.json",
+      "sha256": "1621ed24a77263cd4908e5347c080c16ae4109d1aabbb8c4b08ab717856e1db6",
+      "size": 698
+    },
+    {
+      "name": "T329_raport_individual_A05.json",
+      "sha256": "80a52a0972d5ef17ede41b4110148dee91d110cd0a60bdce93ceef49bc6ff775",
+      "size": 12830
+    },
+    {
+      "name": "T329_restituire_finala.txt",
+      "sha256": "b9401aabc69573053d9e4acfef98a295b263b7042925478e323c65fbd814aaf1",
+      "size": 537
+    },
+    {
+      "name": "T329_restituire_prima_incercare.txt",
+      "sha256": "7c4e573684e430da2e08a363e1d9482493dba8dccddc64b7384fb434a0fbcc8c",
+      "size": 2069
+    },
+    {
+      "name": "T329_semantica_cod_si_JAR.json",
+      "sha256": "8682b41af07927717268cb408a73846164b2a2ebddfc221cdf7787d3f9d59ec2",
+      "size": 18871
+    },
+    {
+      "name": "T329_trace_caz.json",
+      "sha256": "07677043192a4b08d1a03df41b03b6de0e682a11f6ba6edbe35fa640a6df7387",
+      "size": 27343
+    },
+    {
+      "name": "T329_trace_martor.json",
+      "sha256": "523c35e2b5642e9d5f25ff73e9effe1207cc773aba9375c3567e12800e47040d",
+      "size": 50774
+    },
+    {
+      "name": "T329_trace_numai_USD.json",
+      "sha256": "a5de089eb832b27d4907a05aeb9d198a988d1253b0edab238e09c01c1ebca8dc",
+      "size": 69870
+    },
+    {
+      "name": "T330_admitere_si_resurse.txt",
+      "sha256": "ae9e245fcb4cacefeccced7889e6c14ffa549926f0a715e62600832c8d351aef",
+      "size": 1880
+    },
+    {
+      "name": "T330_numitor_declarat.json",
+      "sha256": "393354507a5a7a5597f9cb8979efe29626a442878201031e86ac32eb05b19406",
+      "size": 9945
+    },
+    {
+      "name": "T330_suita_rezultat.json",
+      "sha256": "4ae939edc275feef2000b0df9c601977972341de9e97a91c5d704a049262956f",
+      "size": 112732
+    }
+  ],
+  "register_sha256": "1ae21ec5304b26c17d1b5797a3d029dc3dc048fd94c2a7c6802a3872dffe6669",
+  "score": null,
+  "excludes": [
+    "T330_suita_in_progres.json, stare intermediară fără credit, înlocuită prin rezultatul formal."
+  ],
+  "product_changed": false
+}

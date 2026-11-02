@@ -1,0 +1,222 @@
+{
+  "schema": "A08-R3-erratum-trace/1",
+  "scope": "A08R3-Q1. Erată documentară la R3, integritatea profilului la checkout anonim W",
+  "utc": "2026-11-02T17:41:36.393Z",
+  "executor": "A08",
+  "reviewer": "A11",
+  "baseline": {
+    "report_sha256": "9ad85559dc071920d0bb7bd75720489da621fd2beba14d7c9ea0da235ce823d0",
+    "verdict_sha256": "c2ae2e2241e526dd5542e922ba8ef02da48e8f7778abdea416ef90973de07c99",
+    "reported_verdict": "RELUARE; F11 confirmat în limite",
+    "reported_quality": 6.6,
+    "quality_assigned_here": null,
+    "product_score": null,
+    "git_sha": "6df998aee0e514d30856c461962afe99ebd0d113"
+  },
+  "change": "Corelează o constatare deja probată cu cerința aplicabilă și punctul de intrare al fluxului. Niciun test funcțional nou; s-au recitit dovezile, recalculate hashurile și verificate simbolurile la linie.",
+  "inputs": [
+    {
+      "id": "r3",
+      "path": "executie/R3_zone/A08/A08_raport.json",
+      "sha256": "9ad85559dc071920d0bb7bd75720489da621fd2beba14d7c9ea0da235ce823d0"
+    },
+    {
+      "id": "a11",
+      "path": "executie/A11_control_A08_R3.json",
+      "sha256": "c2ae2e2241e526dd5542e922ba8ef02da48e8f7778abdea416ef90973de07c99"
+    },
+    {
+      "id": "plan",
+      "path": "A08_plan.json",
+      "sha256": "dce61fdc9a94ca209010032b30cde26777d01e90bdc70e28ebef65ba5282863a"
+    },
+    {
+      "id": "fixture",
+      "path": "executie/A08/fixture_rezultate.json",
+      "sha256": "6364fda90f16962a6a32e4dddafec4e70b78ce662ee02e30d508c7c16cd1d735"
+    },
+    {
+      "id": "probe",
+      "path": "executie/A08/probe_A08.py",
+      "sha256": "243854d624bee7a3a142bac8a883e75a8445f9578fac54fd8fa968d07de5d7b1"
+    },
+    {
+      "id": "sourceManifest",
+      "path": "D:/CodexWork/eva-audit-p01-readonly-20261102/SOURCE_MANIFEST.json",
+      "sha256": "92913cb2d26fc933e17b8946651f0750518c868a6f73ebdf3cd7f96b39ac8b8a"
+    },
+    {
+      "id": "cms",
+      "path": "D:/CodexWork/eva-audit-p01-readonly-20261102/frontend/storefront/app/cms.py",
+      "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf"
+    },
+    {
+      "id": "factory",
+      "path": "D:/CodexWork/eva-audit-p01-readonly-20261102/frontend/storefront/app/factory.py",
+      "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795"
+    }
+  ],
+  "pointers": {
+    "plan_control": "A08_plan.json#/controls/4",
+    "plan_pipeline": "A08_plan.json#/pipelines/2",
+    "r3_ctrl": "executie/R3_zone/A08/A08_raport.json#/controls/4",
+    "r3_p03": "executie/R3_zone/A08/A08_raport.json#/pipelines/2",
+    "r3_f03": "executie/R3_zone/A08/A08_raport.json#/findings/2",
+    "r3_p01": "executie/R3_zone/A08/A08_raport.json#/pipelines/0",
+    "verdict": "executie/A11_control_A08_R3.json#/corrections/0",
+    "fixture": "executie/A08/fixture_rezultate.json#/observations/profile_unauth_checkout",
+    "source": "D:/CodexWork/eva-audit-p01-readonly-20261102/SOURCE_MANIFEST.json#/files/875"
+  },
+  "source_identity": {
+    "file_sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf",
+    "computed_git_blob_oid": "011971457522745e4a03722422e9a2ef93dd7801",
+    "manifest_file_oid": "011971457522745e4a03722422e9a2ef93dd7801"
+  },
+  "anchors": [
+    {
+      "input": "factory",
+      "line": 359,
+      "text": "@app.post(\"/api/orders\")"
+    },
+    {
+      "input": "factory",
+      "line": 374,
+      "text": "result = cms.save_order(tenant, payload)"
+    },
+    {
+      "input": "cms",
+      "line": 186,
+      "text": "def ensure_customer_account(tenant: str, customer: dict[str, Any], shipping_address: dict[str, str] | None = None) -> dict[str, Any]:"
+    },
+    {
+      "input": "cms",
+      "line": 189,
+      "text": "path = tenant_path(tenant, \"accounts\", f\"{account_id}.json\")"
+    },
+    {
+      "input": "cms",
+      "line": 191,
+      "text": "existing = read_json(path, {})"
+    },
+    {
+      "input": "cms",
+      "line": 205,
+      "text": "existing.update({"
+    },
+    {
+      "input": "cms",
+      "line": 208,
+      "text": "\"name\": str(customer.get(\"name\") or \"\"),"
+    },
+    {
+      "input": "cms",
+      "line": 216,
+      "text": "write_json(path, existing)"
+    },
+    {
+      "input": "cms",
+      "line": 1024,
+      "text": "account = ensure_customer_account(tenant, {**customer, \"email\": email, \"customer_type\": customer_type}, shipping_address)"
+    },
+    {
+      "input": "probe",
+      "line": 46,
+      "text": "order=lambda cu,**extra: c.post(\"/api/orders\",base_url=A,json={\"customer\":cu.copy(),\"shipping_address\":{\"address\":\"Adresă livrare B\",\"country\":\"RO\"},\"items\":[{\"id\":p[\"mapped\"][\"id\"],\"qty\":1}],**extra},headers={\"Idempotency-Key\":\"K-FIXX\"})"
+    },
+    {
+      "input": "probe",
+      "line": 61,
+      "text": "q=load(accountpath);q[\"status\"]=\"inactive\";save(accountpath,q);cms._JSON_CACHE.clear()"
+    },
+    {
+      "input": "probe",
+      "line": 64,
+      "text": "r=order({**customer,\"name\":\"Foreign writer\"});after=load(accountpath)"
+    },
+    {
+      "input": "probe",
+      "line": 65,
+      "text": "obs[\"profile_unauth_checkout\"]={\"http\":r.status_code,\"existing_name_before\":q.get(\"name\"),\"name_after\":after.get(\"name\"),\"status_before\":q.get(\"status\"),\"status_after\":after.get(\"status\")}"
+    }
+  ],
+  "subrequirement": {
+    "local_id": "OWN-W-GUEST",
+    "parent_id": "R-A08-C05",
+    "parent_objective": "Acces responsabil și comisionar",
+    "parent_norm": "API aplică organizație, canal, proprietar și permisiune; comisionarul are catalog, comandă și situațiile proprii.",
+    "pipeline_title": "Coș, checkout și înregistrare ERP",
+    "scope": "Pentru W, plasarea unei comenzi ca invitat într-un tenant cu un e-mail deja alocat nu autorizează modificarea numelui profilului persistent al titularului, inclusiv când profilul este inactiv.",
+    "applicability": "Aplicabil la condiția «proprietar și permisiune» a lui C05 și la pasul checkout al P03. Scenariul nu verifică într-o sesiune autentificată accesul responsabilului, comisionarului ori gestionarului.",
+    "specific_noncoverage": [
+      "C11: criteriul este persistența celor două adrese ale comenzii, nu proprietarul profilului.",
+      "C12: criteriul este recalcularea și reconfirmarea prețului/stocului.",
+      "C13: criteriul este idempotenta reluării, nu o verificare a titularului.",
+      "C14: criteriul este controlul administrării ERP. O mutație a numelui la checkout anonim nu demonstrează o operație de administrare a comenzii."
+    ],
+    "na": "C05 și P03 rămân aplicabile. Pentru criteriile specifice C11–C14, F03 nu este o probă de evaluare; stările acestor controale rămân cele din R3."
+  },
+  "observation": {
+    "origin": "W, storefront Flask EVA. Fixture direct, tenant sintetic; fișier de cont local.",
+    "before_and_after": {
+      "http": 200,
+      "existing_name_before": "A Synthetic",
+      "name_after": "Foreign writer",
+      "status_before": "inactive",
+      "status_after": "inactive"
+    },
+    "endpoint": "POST /api/orders",
+    "identity": "E-mail de profil existent în același tenant; cererea din helperul de checkout nu trimite customer_token ori credențiale.",
+    "effect": "Numele profilului s-a modificat, iar starea a rămas inactive. Proba măsoară numele și starea; alte atribute actualizabile în cod nu sunt declarate modificate de această observație.",
+    "limits": [
+      "Identitatea unei sesiuni ori parola nu au fost obținute prin această probă.",
+      "Nu stabilește acces între canale, incident în producție, comportamentul site-ului C, al unui cont autentificat ori persistența în ERP.",
+      "Nicio cerere de checkout în această erată."
+    ]
+  },
+  "edges": [
+    {
+      "a": "A08-F03",
+      "b": "A08-C05",
+      "type": "finding_control",
+      "subcase": "OWN-W-GUEST",
+      "why": "R-A08-C05 cere ca API să aplice proprietarul și permisiunea. Același e-mail dintr-un checkout anonim a schimbat numele profilului existent și inactiv în tenantul sintetic. Aceasta este o încălcare punctuală a integrității datelor proprietarului; identitatea comisionarului și drepturile sale rămân de demonstrat separat."
+    },
+    {
+      "a": "A08-F03",
+      "b": "A08-P03",
+      "type": "finding_pipeline",
+      "subcase": "OWN-W-GUEST",
+      "why": "POST /api/orders din W execută salvarea profilului în timpul plasării comenzii. Efectul apare la intrarea în checkout, înaintea oricărei predări către ERP. Proba acoperă numai această etapă din P03."
+    },
+    {
+      "a": "A08-C05",
+      "b": "A08-P03",
+      "type": "cross_control_pipeline",
+      "subcase": "OWN-W-GUEST",
+      "why": "La etapa checkout din P03 se aplică și limita de proprietate din C05. Muchia transversală suplimentară nu atribuie C05 răspunderea pentru preț, adresele comenzii, mandat, transport, reluarea ei sau procesarea ERP."
+    },
+    {
+      "a": "A08-C05",
+      "b": "A08-P01",
+      "type": "original_control_pipeline",
+      "subcase": "PLAN_ORIGINAL",
+      "why": "C05 aparține în continuare fluxului de identitate și rutare P01 conform planului. F03 privește checkout din P03 și nu se transferă la P01 prin tranzitivitate."
+    }
+  ],
+  "regression_proposed": "La un checkout invitat cu același e-mail, păstrează numele și starea profilului inactiv identice cu valorile inițiale. Salvează datele solicitantului pe comandă. Modificarea profilului cere o acțiune autenticată cu proprietar verificat; testează separat acest caz. Legarea de C_BPartner/locație existentă în ERP trebuie făcută prin identitate confirmată.",
+  "other_A11_requests": [
+    {
+      "id": "A08R3-Q2",
+      "scope": "F11 dovedește adăugarea unei note în istoricul unei comenzi, cu stare placed→placed.",
+      "next": "Politica utilizatorului rezervă administrarea iDempiere. Separă afișarea locală și plasarea comenzii de operații administrative; urmărește în ERP identitatea, dreptul și efectul unei note. Nu folosi drepturile owner/editor ale site-ului pentru a certifica comisionarul. Nu se solicită o anulare reală sau un test pe marketplace.",
+      "state": "DESCHIS; fără probă adăugată prin prezenta erată"
+    },
+    {
+      "id": "A08R3-Q3",
+      "scope": "C16 și granița publică a F01.",
+      "next": "Configurează două identități de comisionar în același canal și un al doilea canal; verifică filtrele DB, exportul și refuzurile pe alt agent. Pe F01 confruntă read-only topologia instalată și rutele active, păstrează diferența dintre expunerea la serviciu și expunerea publică.",
+      "state": "DESCHIS; fără probă adăugată prin prezenta erată"
+    }
+  ],
+  "global_status": "R3 și avizul A11 sunt păstrate. Fluxul complet, produsul și taskurile nu sunt certificate prin erată."
+}

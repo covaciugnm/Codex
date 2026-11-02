@@ -1,5 +1,12 @@
 [
   {
+    "source_reference": "D:\\CodexWork\\A05Ex05Peer.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A05Ex05Peer--36c7fc8d.java",
+    "bytes": 1796,
+    "sha256": "c44fd99d2ca866a485bd7f6e5dcf32e69da7f124635ef2d3498c8f9ef4debee9"
+  },
+  {
     "source_reference": "D:\\CodexWork\\a05-cleanup.sh",
     "status": "copiat",
     "saved_path": "fisiere/a05-cleanup--63f1816e.sh",
@@ -26,6 +33,13 @@
     "saved_path": "fisiere/a05-enrich-report--e14c4d3e.cjs",
     "bytes": 10152,
     "sha256": "7f178e97b35d9f5272c2590165d0b33e498926b3ae2a3aff6bc0cee76cd31f5b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05-ex05-peer.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/a05-ex05-peer--f5fb73c9.cjs",
+    "bytes": 9713,
+    "sha256": "0d938220e66bff756b172bb0c6ba38ccfcff7959d1119f2ab8dc198d5f6bccd9"
   },
   {
     "source_reference": "D:\\CodexWork\\a05-final-report.cjs",
@@ -105,6 +119,13 @@
     "sha256": "5f43013e6b2815169ef64b2b09e7b382084c0a850d74994123d98a5cc3276aa0"
   },
   {
+    "source_reference": "D:\\CodexWork\\a05-r4-reconcile.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05-r4-reconcile--5667b4bb.py",
+    "bytes": 19929,
+    "sha256": "62baa547ea501caf87cd7e33c9bd1963afa3f500f0dcf4c5a5b4bf6641df4668"
+  },
+  {
     "source_reference": "D:\\CodexWork\\a05-report.cjs",
     "status": "copiat",
     "saved_path": "fisiere/a05-report--18bd60ca.cjs",
@@ -182,6 +203,20 @@
     "sha256": "b668b8fd01a8b178c18c931be4137f6efbc934ad68c45b6ffcafc5a452535398"
   },
   {
+    "source_reference": "D:\\CodexWork\\a05r2-avd.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-avd--63f8014b.py",
+    "bytes": 1918,
+    "sha256": "11657ff61042c2c58d80b2c482863ea19aadcf71dc163ab97a05c69c8f088f34"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r2-barriers-confirm.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-barriers-confirm--4ecf7fd1.py",
+    "bytes": 3425,
+    "sha256": "43d28c84cd96c2cde7091d5ce7c85591d1dc095d7ab59627bb734c0f171a5daa"
+  },
+  {
     "source_reference": "D:\\CodexWork\\a05r2-barriers.py",
     "status": "copiat",
     "saved_path": "fisiere/a05r2-barriers--2e2e6e11.py",
@@ -189,11 +224,25 @@
     "sha256": "dd6dd8989890a6269e35661fe94527ef7a93b3a590de08f26bc5b9f4cfae4abe"
   },
   {
+    "source_reference": "D:\\CodexWork\\a05r2-client-ui.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-client-ui--37b4b552.py",
+    "bytes": 2015,
+    "sha256": "c40c071f49f1f30934b0f22f7fe26b6cb89b753fa02922f08f4c31d9d7e647ae"
+  },
+  {
     "source_reference": "D:\\CodexWork\\a05r2-identity.py",
     "status": "copiat",
     "saved_path": "fisiere/a05r2-identity--df17fbc3.py",
     "bytes": 2778,
     "sha256": "90130b98b787b1913730b7daca632cc9e8503c4b4999dd3b38c6d526b9d961b1"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r2-import.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-import--4f566597.py",
+    "bytes": 1389,
+    "sha256": "53fc778d3e0d2af53f23317f00ffc59b7ede031fe4043daa5c9224bd35fc91cd"
   },
   {
     "source_reference": "D:\\CodexWork\\a05r2-lab.py",
@@ -217,6 +266,13 @@
     "sha256": "3dc49167121cbe53c865d44ef886be55578eb800b521cd5c77f8466b4eba763a"
   },
   {
+    "source_reference": "D:\\CodexWork\\a05r2-period.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-period--6164584a.py",
+    "bytes": 2712,
+    "sha256": "07c8c7d8b46d588e21e0738f812bc6df4f5bfafaa831d87a7d9301ba987147eb"
+  },
+  {
     "source_reference": "D:\\CodexWork\\a05r2-policy.cjs",
     "status": "copiat",
     "saved_path": "fisiere/a05r2-policy--2c5892e6.cjs",
@@ -224,11 +280,200 @@
     "sha256": "e9bd1510c8e2f4db1d076ab42f65d4db51bfcd85db0cb1c6ffe255d3a1399642"
   },
   {
+    "source_reference": "D:\\CodexWork\\a05r2-recipe.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-recipe--d3e0aa5a.py",
+    "bytes": 3648,
+    "sha256": "62894a28cc359783fc8040d09c72466c35ae6ed7aab0f5706c5218639d06768d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r2-report.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-report--b7e266c0.cjs",
+    "bytes": 23913,
+    "sha256": "f10b8bcc6319caa1e41571258dd55a550dc3e276c0c1412b071ab80d145da4b3"
+  },
+  {
     "source_reference": "D:\\CodexWork\\a05r2-supervisor.sh",
     "status": "copiat",
     "saved_path": "fisiere/a05r2-supervisor--00d5306b.sh",
     "bytes": 5654,
     "sha256": "89635782bcb3a8db08a690caebb1ec3da7c8b3003d9260c9686042ba3e579367"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r2-t366.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-t366--d49accfe.py",
+    "bytes": 5042,
+    "sha256": "309d55d7010025f0fbf6fa2909060c2d8c796e4aaf620241dfe049540e1c8b49"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r2-t366b.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-t366b--6726b73d.py",
+    "bytes": 5561,
+    "sha256": "7d155140c7279763113e164700871ab6ce0588c10d7d66c91a1c4967c0839fdf"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r2-tenant.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r2-tenant--f5af075f.py",
+    "bytes": 3581,
+    "sha256": "25281b3c1db618387fabe530b9904a53e0d8bcc5bc880690c863259b8d3ad601"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r3-avd-readback.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r3-avd-readback--c4c9082b.py",
+    "bytes": 828,
+    "sha256": "46a14ad2ca2ef65a087203d886c98f55d417cb70aa7b79c55a5f19453c0725c7"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r5-chain.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r5-chain--65f85a2d.py",
+    "bytes": 16357,
+    "sha256": "3de836f60ece2a925e65c0a9284b5959adff56288191d528a4972b84e76b310c"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-c163-muts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-c163-muts--c6368cda.py",
+    "bytes": 5293,
+    "sha256": "04cf96085982d12bea80f82f20e2aef91f9454b65b7711152a20331217c37c9d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-git.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-git--c005bf1a.py",
+    "bytes": 8395,
+    "sha256": "29d2b73d00c049c690e65a11e788bfc399e079a5e7c50b6bec841a984abb4194"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-more.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-more--95401a3d.py",
+    "bytes": 2472,
+    "sha256": "77d603e8ac380c58e4f77fae9ce2526583dd0e4f272285508f0500cb272d60d4"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-mut.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-mut--262c0c5a.py",
+    "bytes": 3894,
+    "sha256": "c9d768154dbfa175a90f802ad2476516928c4db7fa7d076a53a627ca8091e795"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-oracles.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-oracles--2e83f164.py",
+    "bytes": 1706,
+    "sha256": "99d3fe72f406644b1903e1cbe47534a65cc703cbf6eeb715edd52bb52be29f71"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-register.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-register--8faf73bd.py",
+    "bytes": 15831,
+    "sha256": "8bef9dacccc082761c0e8517574371df375936bc97cc6891379151bfc524ebf8"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-run.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-run--92bd05b9.py",
+    "bytes": 4726,
+    "sha256": "94406a36ae2bc99cc6f99199c2493202f8fc2fc2b7f87891d5b62217e333b597"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-seal--9a26b5b5.py",
+    "bytes": 12253,
+    "sha256": "1bad927a16070408e35b7145e593ed9bbe2af0ae4afd54e646d9815de5888da8"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-start.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-start--48992433.cjs",
+    "bytes": 1338,
+    "sha256": "e498978be9f3cde11c78ea2f4a7be931850e4e7b2fd8432e993b14fcc6da84ec"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8-v2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a05r8-v2--ae8fe6e1.py",
+    "bytes": 4443,
+    "sha256": "a3636d279cb540c9076d3f58f3a816c100f9b81a03960a662544a3be3597ea80"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\cabinet_probe.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cabinet_probe--21c784f4.py",
+    "bytes": 7054,
+    "sha256": "de0148b3c4164dd1a63c86cf3e0ae71e862ceb68ac8ce5ff65d383efca1e04ca"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\cmp_driver.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cmp_driver--c990678b.py",
+    "bytes": 4437,
+    "sha256": "be7db85880e84e36eb6e95d0f58e1f9044bd71664f63fd396f96900165968fe2"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\extra_native.py",
+    "status": "copiat",
+    "saved_path": "fisiere/extra_native--a77ec68b.py",
+    "bytes": 4855,
+    "sha256": "ac1ab5b0a2eecdf4ef1b29b2f767b5abc164e9253f19e6fdb20d19e76d380bcb"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\guard_posix.py",
+    "status": "copiat",
+    "saved_path": "fisiere/guard_posix--9de92947.py",
+    "bytes": 1228,
+    "sha256": "25e77843e56f20517c84c8072453dd287a1c5e3216cafc35284b89aa4cfb7de2"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\lots_native.py",
+    "status": "copiat",
+    "saved_path": "fisiere/lots_native--dce95204.py",
+    "bytes": 4402,
+    "sha256": "b56d38cfcd302491c8c58aa637326ec4ab9702ebb24ed8299ed5add688ecd183"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\t326_driver.py",
+    "status": "copiat",
+    "saved_path": "fisiere/t326_driver--2b4b4b3e.py",
+    "bytes": 2350,
+    "sha256": "fd506792a645e8910f36b853064962be52581693832590d0d6dbeec4a10a3fc0"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\t354_b.py",
+    "status": "copiat",
+    "saved_path": "fisiere/t354_b--92825f80.py",
+    "bytes": 1044,
+    "sha256": "36e5d35cc0ea86b2732012a134588347821032362fb94d8afec35f4ebf681900"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\t354_driver.py",
+    "status": "copiat",
+    "saved_path": "fisiere/t354_driver--89a98f22.py",
+    "bytes": 1831,
+    "sha256": "22bf418e3acd8282ed8371ecc8ab4115e6569f52790095adfe2cfa5ffd776f65"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\ui_probe.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ui_probe--a35d6237.py",
+    "bytes": 4288,
+    "sha256": "47eb08e572f1a166e2590d4e7d819b491b80a7ef1a0aae29e01d856754a990cb"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a05r8\\wms_native.py",
+    "status": "copiat",
+    "saved_path": "fisiere/wms_native--9eb773e8.py",
+    "bytes": 5084,
+    "sha256": "5387b6f5b5b5680047a771c250afdba46661df5b2b19ba5bf1ae332501f2e30b"
   },
   {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A05_plan.json",
@@ -252,6 +497,76 @@
     "sha256": "3a59da8d4b4db5a535aed0f3fceeb4ce8123be28fac36ec92bd21154dc760d82"
   },
   {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R10_pregatire/A05/Manifest_R10_A05.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Manifest_R10_A05--f9607e21.json",
+    "bytes": 3917,
+    "sha256": "df89e93d94466389b572a84bc5eb2d10793c77ee53ba8471267f080d6297e603"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R10_pregatire/A05/Registru_R10_A05.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_R10_A05--759719e4.json",
+    "bytes": 5114,
+    "sha256": "1ae21ec5304b26c17d1b5797a3d029dc3dc048fd94c2a7c6802a3872dffe6669"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R2_zone/A05_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A05_raport--d5828d1f.json",
+    "bytes": 251090,
+    "sha256": "fd871b4a22b753ea42d25ecb6935426d4612f76ed05a531d4aa97b9e189f9a26"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R3_zone/A05/Predare_cabinet_A05.md",
+    "status": "copiat",
+    "saved_path": "fisiere/Predare_cabinet_A05--6ec8b7dd.md",
+    "bytes": 3586,
+    "sha256": "fd820f995f333894bca68ac5d6a064254cae46ddbde71f1ebb1d7de68e64a95d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R4_zone/A05/A05_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A05_raport--cc6e4515.json",
+    "bytes": 153399,
+    "sha256": "bde6e5863d568a28dee2b6eb23a56e5ae4da807912361fa42a4f5f40fe0ebf53"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R5_pregatire/A05_S1_pick_aviz_RMA.py",
+    "status": "copiat",
+    "saved_path": "fisiere/A05_S1_pick_aviz_RMA--8e00a717.py",
+    "bytes": 16357,
+    "sha256": "3de836f60ece2a925e65c0a9284b5959adff56288191d528a4972b84e76b310c"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R8_pregatire/A05/Registru_nominal_final_A05_v2.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_nominal_final_A05_v2--7fb27676.json",
+    "bytes": 661496,
+    "sha256": "0e9ec456c2b5d743b0b9492e2f85e6a02f52fa20a3959e390593f04550af67b9"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R9_pregatire/A05/Manifest_R9_A05.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Manifest_R9_A05--0048d388.json",
+    "bytes": 7853,
+    "sha256": "f560be6987ff3bdd9b6af305f7a36f76bff33f14605fd8bb75f36db445318f30"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R9_pregatire/A05/Registru_R9_A05.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_R9_A05--150f8528.json",
+    "bytes": 33985,
+    "sha256": "9d98a0081daadd5400bdb69a6a0739eb0f1b10880c3c37ad65fab79ec8995a5a"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX05_peer_A05.json",
+    "status": "copiat",
+    "saved_path": "fisiere/EX05_peer_A05--7c8f02ec.json",
+    "bytes": 10562,
+    "sha256": "65c4105e490b49d103ac17a6b276856a9a4c57b0e11b0f33b0f721145c692834"
+  },
+  {
     "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A05\\REPRODUCERE.md",
     "status": "copiat",
     "saved_path": "fisiere/REPRODUCERE--3574f1c8.md",
@@ -264,5 +579,12 @@
     "saved_path": "fisiere/WmsProbe--9f42934f.java",
     "bytes": 4623,
     "sha256": "2e2730cb3a8cc6fdec9c2e2437811b6b57f1076330257dcef37ce1d1f7067fbd"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A05\\Predare_cabinet_A05.md",
+    "status": "copiat",
+    "saved_path": "fisiere/Predare_cabinet_A05--6ec8b7dd.md",
+    "bytes": 3586,
+    "sha256": "fd820f995f333894bca68ac5d6a064254cae46ddbde71f1ebb1d7de68e64a95d"
   }
 ]

@@ -1,0 +1,25 @@
+{
+  "reviewer": "A11",
+  "source": "c9bdb90413f8c8df9b1faee3a7e30529839910b9b41c23435ff1ab91b20e7e64",
+  "input": "30ae292908f1a5d03c5c8270cdbea92b7e1d77fbe5b9bd54c36af70ccc9c39cc",
+  "controls": [
+    {
+      "jar": "cod-master-contab.jar",
+      "sha": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+      "own_witness": "equal-total 1 vs 2 lines: header equal, detail 1 versus 2; +0.01 second line and header: both distinguish value",
+      "source_sha": "38a13ff66e2b710e3f00230b04f6189663f0210adef1a582acef48ef09b0a742"
+    },
+    {
+      "jar": "com.eva.ro.contab_13.0.0.jar",
+      "sha": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "own_witness": "equal-total 1 vs 2 lines: header equal, detail 1 versus 2; +0.01 second line and header: both distinguish value",
+      "source_sha": "38a13ff66e2b710e3f00230b04f6189663f0210adef1a582acef48ef09b0a742"
+    }
+  ],
+  "synthetic_payload_hashes": [
+    "e877970621d6c7aaf227c8badbba90533f3c3f4a22e86e40457e8022b9e1ed5a",
+    "4e3b8cedfb915abc7479b8221fc53e695a446c0ceb22218d4cd878e6112df043"
+  ],
+  "conclusion": "La aceeași valoare totală 24,20 am înlocuit o linie (2 buc.) cu două SKU distincte ×1. În ambele JAR, cititorii SursaCesiro1.comanda/detaliu păstrează același rezultat, iar DetaliuComanda.din citește ambele poziții. La variația de 0,01 a liniei a doua și a antetului, ambele componente reflectă schimbarea din domeniul lor. Reutilizarea cititorului de detaliu deja existent este susținută pentru componentă. Autorizarea firmei, scrierea liniilor, idempotency și Q până la plată nu sunt probate de acest test. Nu se adaugă o cerință executată integral.",
+  "round_score": null
+}

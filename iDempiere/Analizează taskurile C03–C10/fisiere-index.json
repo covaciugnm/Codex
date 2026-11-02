@@ -127,6 +127,27 @@
     "sha256": "c9958cc8de035be5db1b7563d07f6d5b639c9e360ff11fdfd5b5b2df80e00b4f"
   },
   {
+    "source_reference": "D:\\CodexWork\\p01-visualQA\\390.png",
+    "status": "copiat",
+    "saved_path": "fisiere/390--b18b22be.png",
+    "bytes": 40281,
+    "sha256": "487b85fe3ce0cde5606894d6445110a513254367b10a66df4fb082634b0c8912"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\tmp\\pdfs\\alex-petrutiu\\contact_1.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_1--e23222e2.png",
+    "bytes": 726838,
+    "sha256": "a18d2a271eebaa0544f048e1897bf7dc486e4a94ce5c907c4e03e2b7389543ed"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\tmp\\pdfs\\alex-petrutiu\\contact_2.png",
+    "status": "copiat",
+    "saved_path": "fisiere/contact_2--d2c4b2d4.png",
+    "bytes": 410761,
+    "sha256": "cd63f5787d88e269c3801cb1a121675d31be32dfc29d928335b20c9caef974b4"
+  },
+  {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/2026.10.22 Task C03-C10/Analiza_C03_C10_reutilizare_2026-10-23.html",
     "status": "copiat",
     "saved_path": "fisiere/Analiza_C03_C10_reutilizare_2026-10-23--9ed4ef4d.html",
@@ -209,6 +230,90 @@
     "saved_path": "fisiere/Plan_final_C10_2026-10-23--f2d539de.html",
     "bytes": 625076,
     "sha256": "22067a91b60ce4e09c0578cf5e8e334a33ae98a02431c7546ec20752452a278f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Audit_C03.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_C03--9a1f2a15.html",
+    "bytes": 443811,
+    "sha256": "81fa7cd7ad9c2db00c4826ec71ae7fbe2cf5090e9200b00ffc724a6d3816aa03"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Audit_C10.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_C10--2131ab07.html",
+    "bytes": 472504,
+    "sha256": "0167deab9a4b433cd8839916b35dcf461603b4bbb0460e1af9ca16e60d007d7a"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Raport_audit.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_audit--ccd4e750.html",
+    "bytes": 75664,
+    "sha256": "049eb1f26d4e08e149dc356f83604ed3a8ada70c2b8144ba45693f990eb56ec9"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/Runda_9_stare.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Runda_9_stare--189c0534.json",
+    "bytes": 5175,
+    "sha256": "cfb35df5793446ec993c795b823712eb999e708d5b761f640507eec8c72c6580"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A08_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A08_R3--2c9c45f0.json",
+    "bytes": 40510,
+    "sha256": "c2ae2e2241e526dd5542e922ba8ef02da48e8f7778abdea416ef90973de07c99"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A09_R4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A09_R4--9feebd68.json",
+    "bytes": 43641,
+    "sha256": "95a7f372bafa3e5cf84cc468f027bb59f904285a294025a7dd4489c218bc7457"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R8.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R8--85b62669.json",
+    "bytes": 29050,
+    "sha256": "3b95e64a91a2031d325155847a42c18b9e3a05e7adacbb344981051ca8784be0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_G3_C20_postR9.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_G3_C20_postR9--72114641.json",
+    "bytes": 3246,
+    "sha256": "462da69ec92ecf955548f78ad99a65f5ee8bf3477b8285c18ef240bd527d9319"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_T06_UX_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_T06_UX_R10--871a861b.json",
+    "bytes": 1261,
+    "sha256": "e4eac1e6712360c1940f33b3e50a323424cc306caa61165799deae33d61a0d9f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_T216_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_T216_R10--884a5117.json",
+    "bytes": 2732,
+    "sha256": "3c1c56a04ec0a9babe3fa6debe8293d9a17d91e0cf62c67f9e6b6d9603958c67"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_T329_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_T329_R10--4f6c7066.json",
+    "bytes": 1959,
+    "sha256": "fe2fcfbe25f075a8cb8670176be3796373de9d3f3e18c8230d35b24838321a11"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_suplimente_R9_A03_177_CESIRO1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_suplimente_R9_A03_177_CESIRO1--44db7c9f.json",
+    "bytes": 8381,
+    "sha256": "5b393c7775d1b527f2d29fc5a78b6c69dc40be4c2cefa1922b0cb63eec4003e2"
   },
   {
     "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\2026.10.22 Task C03-C10\\Audit_extins_2026-10-24\\Preview_audit_extins_desktop.png",

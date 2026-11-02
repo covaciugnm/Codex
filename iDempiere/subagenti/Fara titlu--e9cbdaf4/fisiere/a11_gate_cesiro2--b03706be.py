@@ -1,0 +1,20 @@
+import json,hashlib,pathlib,datetime,re,collections
+R=pathlib.Path('Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01');E=R/'executie';D=E/'supliment_CESIRO1'
+def rd(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def h(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def wr(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+p=D/'Plan_CESIRO1_R2.json';expected='600fd30163abce42f78f99abb9ffbae8706056ca0b05c992d01d5b8c2c9b17a2';assert h(p)==expected
+q=rd(p);idx=rd(R/'Index_trasabilitate.json');reg=rd(R/'Inventar_P01.json');rub=rd(R/'A11_rubrica_control.json');assert q['signed_base_bundle']==rd(R/'Manifest_plan.json')['bundle_sha256'] and h(R/'A11_rubrica_control.json')==q['rubric_sha256']
+a=D/'Inventar_CESIRO1.json';b=D/'Inventar_CESIRO1_UI.json';assert h(a)==q['source_census_sha256'] and h(b)==q['ui_inventory']['sha256'];a,b=rd(a),rd(b)
+backend=[(kind,row['path'],row['sha256']) for kind,arr in a['snapshot']['paths'].items() for row in arr];ui=[(kind,row[0],row[1])for kind,arr in b['scoped_files'].items() for row in arr];bundles=[tuple(x.split(maxsplit=1)) for x in b['admin_build']]
+assert len(backend)==363 and len(ui)==392 and len(bundles)==95;assert len(set((k,v) for k,v,h in backend+ui))==755 and all(re.fullmatch('[a-f0-9]{64}',h) for h in [x[2] for x in backend+ui]+[x[0] for x in bundles])
+pipes={x['id']:set(x['resolved_control_ids']) for x in idx['pipelines']};ct={x['id']for x in idx['controls']};orph={};bad={}
+for c in q['controls']:
+ assert all(f in ct for f in c['parent_controls']) and all(f in pipes for f in c['parent_pipelines'])
+ o1=[i for i in c['parent_controls'] if not any(i in pipes[p] for p in c['parent_pipelines'])];o2=[p for p in c['parent_pipelines'] if not set(c['parent_controls'])&pipes[p]];orph[c['id']]=[o1,o2]
+assert sum(len(v[0])for v in orph.values())==14 and sum(len(v[1])for v in orph.values())==3
+gaps={'QC02-P2':'14 contr./3 fluxuri fără pereche din indexul semnat; lipsește relația verificabilă între task/criteriu și controalele EX.','QC02-P4':'T20/T22/T35 sunt agregate, nu au cod canonic comun, lipsesc destinațiile și situația normelor la închidere vs actual.','QC04-P2':'Contractul checkout/API/ERP necesită fixture de identitate contact, două adrese, două linii/monedă, discount/TVA/transport/rotunjire cu total măsurabil și diferență persistentă.','QC06-P3':'Fiecare EX are 2 roluri, dar backreferences incomplet și atribuirea explicită a interfețelor față de parent/consumator nu este demonstrată pentru rezultatul comun.','QC09-P1':'EX03/EX05 au pași și negative dar nu oracol independent pentru diferențe contabile/contract; legați EX04 prin exemplu cursor/egalitate timestamp la retry.','QC10-P1':'Șablonul generic nu conține matrice control–pipeline–criteriu rezolvabilă efectiv pentru toate cele 8.'}
+cs=[{'id':s['id'],'award':0 if s['id']in gaps else 0.2,'reason':gaps.get(s['id'],'Cerință a planului semnat menținută sau definită în măsurarea acestui supliment; fără a pretinde test executat.')} for k in rub['criteria']for s in k['plan_subchecks']]
+v={'schema':'A11-gate-CESIRO1-v1','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'reviewer':'A11','phase':'PLAN_ONLY','plan':str(p.relative_to(R)).replace(chr(92),'/'),'plan_sha256':h(p),'base_plan_sha256':q['signed_base_bundle'],'rubric_sha256':q['rubric_sha256'],'result':'RESPINS_REPLANIFICARE','score':(50-len(gaps))/5,'approved_subchecks':50-len(gaps),'maximum_subchecks':50,'subcheck_rows':cs,'hard_blockers':['HB04','HB09'],'inventory_control':{'backend_py':len(backend),'ui_sources':len(ui),'admin_bundles':len(bundles),'manifests_verified':2,'content_read_or_controls_executed':0,'level':'Validare exclusivă a metadatelor și a SHA declarate, nu certificare import din serviciu/ERP.'},'orphan_mapping':orph,'source_status':{r['technical']:{'code':r['code'],'state':r['category'],'merged_into':r['merged_into']}for r in reg['rows'] if r['technical'] in ['T20','T22','T35','T352','T354']},'required_changes':list(gaps.values()),'product_score':None}
+file=E/'A11_gate_CESIRO1_R2.json';wr(file,v);print(h(file),v['score'],v['approved_subchecks'])
+

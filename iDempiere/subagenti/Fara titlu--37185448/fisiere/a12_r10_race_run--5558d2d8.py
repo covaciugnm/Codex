@@ -1,0 +1,2 @@
+from a12_r10_lease import *
+w=current();xx=Path(__file__).parent/'a12_r10_bankrace.py';q=ssh('cat > '+w+'/race-worker.py',xx.read_bytes());q.check_returncode();q=ssh('cd '+w+' && python3 race-worker.py >race-worker-log 2>&1',timeout=170);rs=ssh('cd '+w+' && tail -10 race-worker-log');print(q.returncode,rs.stdout.decode('utf8','replace')[-580:]);j=ssh('cat '+w+'/race-result.json');f=P10/'T06_concurrence_deux_roles.json';f.write_bytes(j.stdout);print(sha(f))

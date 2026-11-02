@@ -1,0 +1,20 @@
+from pathlib import Path
+p=Path(__file__).with_name('a12_r10_publish.py');s=p.read_text(encoding='utf8').replace("P10/'Zone_A02_A10/Rezultat.json'","P10/'Zone_A02_A10/Rezultat.json',P10/'Zone_A02_A10/T254_receptie.json'")
+old="if not qual:return pr\n if c=='T354-R2-021':"
+new="""if not qual:return pr
+ direct={
+ 'T06-R2-016':'ETALON_1_1_10_60_ȘI_RESULT_1_MĂSURAT_NATIV_R10',
+ 'T06-R2-018':'RELUARE_ZK_168_TOATE_CU_INSTANȚA_NOUĂ_R10',
+ 'T06-R2-019':'FORMULAR_NATIV_DOAR_VERIFICĂ_0_SCRIERI_HASH_IDENTIC_R10',
+ 'T06-R2-022':'ORACOLE_ZK_ȘI_CSV_MĂSURATE_DEFECT_SUBSOL_FILTRAT_R10',
+ 'T201-R2-013':'ORACOL_JDBC_2X20_CONCURENȚĂ_ȘI_MUTANT_MĂSURAT_R10',
+ 'T201-R2-014':'ORACOL_JDBC_FĂRĂ_GOL_41_41_ȘI_MUTANT_MĂSURAT_R10',
+ 'T211.03-R2-003':'INVARIANTĂ_OFERTĂ_12960_CAZURI_PE_FIECARE_JAR_R10',
+ 'T210-R2-004':'POST_ANONIM_REFUZAT_ÎN_ROUTERUL_ASGI_EXERCITAT_R10',
+ 'T11-R2-019':'ZERO_ZERO_PE_CELE_DOUĂ_FIȘIERE_ÎN_INTERVALUL_EXACT_R10',
+ 'T06-R2-024':'MERGE_VÂRF_ISTORIC_DOCUMENTAT_VÂRF_ABSENT_PENTRU_REEXECUȚIE_R10',
+ 'T254-R2-004':'ETALOANE_BYTECODE_ORIGINALE_5_0_ȘI_CELE_AMENDATE_SEPARATE_R10'}
+ if c in direct:return direct[c]
+ if c=='T354-R2-021':"""
+assert old in s;s=s.replace(old,new);p.write_text(s,encoding='utf8')
+

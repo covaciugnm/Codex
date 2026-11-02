@@ -70,6 +70,20 @@
     "sha256": "5eb77a2843209e1f6ae6305989bed5aedffc883185e7a5cb182de0b79ed501a9"
   },
   {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_gate_cesiro2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_gate_cesiro2--b03706be.py",
+    "bytes": 4185,
+    "sha256": "d675cbc0ed9a4066fd4193f12083514d08d942ee53c08a966fb3589de1f4701e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_gate_cesiro3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_gate_cesiro3--64a33eb3.py",
+    "bytes": 5825,
+    "sha256": "89a98b8d0cda516511039b13a3b9954e89b2f9854f8ef0834f0ca59a2241a3e5"
+  },
+  {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_integrity_plan.cjs",
     "status": "copiat",
     "saved_path": "fisiere/a11_integrity_plan--14eee1e3.cjs",
@@ -140,6 +154,55 @@
     "sha256": "e77d0c40a273458b0f7a01cf319522b04c77981ec6a78a08a58e390cf4734535"
   },
   {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_r3_aliases.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_r3_aliases--b2b621cf.py",
+    "bytes": 640,
+    "sha256": "d1bb8c2f33e8947a010a37c17f393ce657cf141f397ba9d0cef1b1534a42f148"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_r4_explore.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_r4_explore--41a12df6.py",
+    "bytes": 1272,
+    "sha256": "2dc6d59a7145f2e1d83f12c14e279efcc652e3d22d791fdc814941c5d040e667"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_r5_108.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_r5_108--bd1e028a.py",
+    "bytes": 797,
+    "sha256": "db11ae5ff55d3cac1fb7983fbe8b166b70a8cce36768d77d8c26de16bbb2e363"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_r5_data.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_r5_data--2dfada52.py",
+    "bytes": 903,
+    "sha256": "5ba10281a1d0095b16442e5d220ee6e63929b5051f7f320409ed13ce944ed281"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_r5_focus.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_r5_focus--7e673a81.py",
+    "bytes": 272,
+    "sha256": "435b20f177565191462beba1abe57b92b57a303b94fb13c1361a11966fe97b74"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_r5_scenario.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_r5_scenario--82cda8ef.py",
+    "bytes": 458,
+    "sha256": "5aa715767bc1f351e41074d5324de6d015fc0e51452aeefed1798ef152fdbf0d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_r5_shapes.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a11_r5_shapes--51d97ad2.py",
+    "bytes": 794,
+    "sha256": "7c942334d0101fa488ca128464120a175950683265460df3568b59bcb9a7b84d"
+  },
+  {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a11_recheck_plan.cjs",
     "status": "copiat",
     "saved_path": "fisiere/a11_recheck_plan--12f58a30.cjs",
@@ -196,6 +259,13 @@
     "sha256": "22110a722f4fe5c0b6979252b31f7881de2457a1428168cc3479c45a80101821"
   },
   {
+    "source_reference": "D:\\CodexWork\\a11-a08r3-sheets.png",
+    "status": "copiat",
+    "saved_path": "fisiere/a11-a08r3-sheets--7b4e0125.png",
+    "bytes": 80734,
+    "sha256": "0a55842dc860d0a189603eaf49ee6c7537059dfbe1606354067d580f74fcb49f"
+  },
+  {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A11_verdict_arbitraj.json",
     "status": "copiat",
     "saved_path": "fisiere/A11_verdict_arbitraj--cbe6ddf2.json",
@@ -210,11 +280,102 @@
     "sha256": "8551b07b5e6a242baf4ffa09ff880a4203892283a6bbb1448e6a72edbe766bfe"
   },
   {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A03_R4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A03_R4--a8c84d2d.json",
+    "bytes": 66456,
+    "sha256": "827df0b65a6e3c6584859fd4d4c07e6be24674ee2ef415f40c28e7a225c2bd4e"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A04_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A04_R3--8fe6f428.json",
+    "bytes": 37271,
+    "sha256": "431bc2a9e8fc130d8f8d00a4987dc1a16ffc99e658a659e2fc8c2dc57a1f9fc3"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A05_R4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A05_R4--f9365ca8.json",
+    "bytes": 35521,
+    "sha256": "bd963b38b500d7f8c7c3ded220baf56a8fad18c6dd166eb5ac28d4f355c67828"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A06_R4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A06_R4--1ef4f1c6.json",
+    "bytes": 46920,
+    "sha256": "42b95aa6c5e4497684a3063d277b0a162ff6ef5f1de8f359fb45cc33cf9874ba"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A07_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A07_R3--66da3312.json",
+    "bytes": 35677,
+    "sha256": "02ed02867a72981be1ebf2f1aed42f0b824f9db86ce7baeef19cc48f5c071b48"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A08_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A08_R3--2c9c45f0.json",
+    "bytes": 40510,
+    "sha256": "c2ae2e2241e526dd5542e922ba8ef02da48e8f7778abdea416ef90973de07c99"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A09_R4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A09_R4--9feebd68.json",
+    "bytes": 43641,
+    "sha256": "95a7f372bafa3e5cf84cc468f027bb59f904285a294025a7dd4489c218bc7457"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A10_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A10_R3--427ec7fd.json",
+    "bytes": 38233,
+    "sha256": "6341d841d6cb54eb58c3f13386247f145b7fe1307bb0148805a556d23051a68e"
+  },
+  {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R2.json",
     "status": "copiat",
     "saved_path": "fisiere/A11_control_A12_R2--d5508eea.json",
     "bytes": 19425,
     "sha256": "e16edbb9c0c67a51c22981b4f269d1b2c7fbcb191e88faeabf11d8e3415363e4"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R3--87e2de50.json",
+    "bytes": 33278,
+    "sha256": "7f6da60c0ee1f648431c9f3df848de8a2d737de13776ba5d0ed329425fb6b3b4"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R4--0075ff7a.json",
+    "bytes": 24648,
+    "sha256": "c4aaff47d10edd6de3c7ecefe9377f00076c193967933298b61ecdbf6abc6cb2"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R5.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R5--d4bea68d.json",
+    "bytes": 30588,
+    "sha256": "8c88ca705968761dd0217a887462a76df906561a7aceff9e284ed3d2a9a5813c"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R6.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R6--8f97ba2f.json",
+    "bytes": 23649,
+    "sha256": "becb2a61e494c79cabb44ec47ad6b7fb3baec43e9474fa14158bbbf467dfa632"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R7.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R7--c7de8868.json",
+    "bytes": 23900,
+    "sha256": "2163495072d49a920ef8e0ce52d32f099ea5f78d7bbfc79b834e80813e1c27ab"
   },
   {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_lot1.json",
@@ -229,6 +390,41 @@
     "saved_path": "fisiere/A11_control_lot2--205d2434.json",
     "bytes": 93075,
     "sha256": "68373245ec6c1580cdfc344218ff8b87208769b11fb85173892cc0d1ffa4339a"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_G3_CPP_S1_S2.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_G3_CPP_S1_S2--1fe1a8cf.json",
+    "bytes": 1291,
+    "sha256": "d795bcbe561ec436956cf3c93b600a15cbead9b8dae8c3a137c4371162c2d7f5"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_zone_R2_lotA.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_zone_R2_lotA--0513b090.json",
+    "bytes": 212735,
+    "sha256": "fee4ad8906d5dd1ef229a32a1d55cf032bfea4cfe50a82cdef91a76a1af074ce"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_zone_R2_lotB.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_zone_R2_lotB--1e093c0b.json",
+    "bytes": 122742,
+    "sha256": "adfa300dab0c426e4977ec2a9f5927221fdd528873878a8e0418214266b63556"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_dispozitii_C03_C10_R7.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_dispozitii_C03_C10_R7--f3ebbbeb.json",
+    "bytes": 828970,
+    "sha256": "07cbede70e7557716d8aabb7cffac458fcadeb3a647cb18eee8b1de1e58f8683"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_gate_CESIRO1_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_gate_CESIRO1_R3--1757a8dd.json",
+    "bytes": 10618,
+    "sha256": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c"
   },
   {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_gate_android_R2.json",
@@ -257,6 +453,328 @@
     "saved_path": "fisiere/A11_ledger_651_fise--5d2eb50d.json",
     "bytes": 3798247,
     "sha256": "342f125ddec2fa73f7ca69ce5d68ae2ed1f2332ecf27d9b3cf5871901a182a5d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_ledger_652_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_ledger_652_R3--ac15f64c.json",
+    "bytes": 1905410,
+    "sha256": "e26cbd26f9dbe921884fddcbd974b7123d1907361df1a4e427c7773d9415ba19"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_ledger_652_R4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_ledger_652_R4--382ce7f7.json",
+    "bytes": 2647453,
+    "sha256": "e8660f72e5523d4237629c1f7e63efb42342dcc61230f04f50be9cff15a14a16"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_ledger_652_R5.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_ledger_652_R5--9fdc247f.json",
+    "bytes": 3098381,
+    "sha256": "d493858cc52e01a560ce6267cbb11ed57420e8da1abdf92cee8c453512df0fe0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_reproduceri_R3/A11_evidente_transversale.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_evidente_transversale--d0cf0454.json",
+    "bytes": 5263,
+    "sha256": "c6654f86e20626e19d5f3e96b7c013845998adf4690c1186c8a4fa134584ac4b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\android_R2\\avd-samples\\inv_14a_A7_fara_legatura.png",
+    "status": "copiat",
+    "saved_path": "fisiere/inv_14a_A7_fara_legatura--4a2447c5.png",
+    "bytes": 73616,
+    "sha256": "6981352d8697ecb0997623ccf2b680359ee67218af96e25ba38dbeb9e4b714c2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A03R4\\decision.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decision--34c9f2c4.py",
+    "bytes": 9631,
+    "sha256": "ef80c1d294b2a662b329b0be4ed10efcbf6150ce1e8faf10734572eb39d304a3"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A03R4\\duk.py",
+    "status": "copiat",
+    "saved_path": "fisiere/duk--b2bd41e0.py",
+    "bytes": 2243,
+    "sha256": "f2ee43e3b94416289a555c6434cfad2c91163e0d9b8097f632c8c75a4a68f59d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A06R4\\OwnerMatrix.java",
+    "status": "copiat",
+    "saved_path": "fisiere/OwnerMatrix--91feb7bb.java",
+    "bytes": 1738,
+    "sha256": "3669f6a9129f3c46b6f8a8a9015311e5a5b46f29d77e088daaf9a6bc31f06f52"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A06R4\\decision.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decision--b6cb1f47.py",
+    "bytes": 10858,
+    "sha256": "f76c86af16ff638f1d01c2d921e5b8d360edad629cc120c919dca81a623a3031"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A06R4\\run.py",
+    "status": "copiat",
+    "saved_path": "fisiere/run--c6e457f8.py",
+    "bytes": 3678,
+    "sha256": "2e5c38b07bac6c31ee22d7d89f9c0191942df4e2efcf7288b007890f1ab701af"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A07R3\\CashMatrix.java",
+    "status": "copiat",
+    "saved_path": "fisiere/CashMatrix--e6365fcf.java",
+    "bytes": 1622,
+    "sha256": "b45b4a63df6ed7c24b85416d9722dab0fa5d4adc66e021109434bdde54154b94"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A07R3\\bank.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank--e9ddbe33.py",
+    "bytes": 1486,
+    "sha256": "5f4b0d57dfcaccdcc837d8fbd32c754df23ca68280c707783fafb80fd392beee"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A07R3\\cash.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cash--9e377925.py",
+    "bytes": 1432,
+    "sha256": "45c0e9cd5943e8cc9a9afe97c20b88f64bbd8f2c8c65ac8d1dd2539e0191c39e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A07R3\\decision.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decision--ed4ae002.py",
+    "bytes": 6199,
+    "sha256": "a58b5d71ae3e462a37e2c51b055e9992e9b6c7d97bc7161ef60c7c9d535d16f8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A08R3\\audit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/audit--1f257685.py",
+    "bytes": 11273,
+    "sha256": "c87092d71caddc36e3356ab402f37ff2d28fa15389800b957cc22fae5888416e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A10R3\\decision.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decision--c0f19423.py",
+    "bytes": 7662,
+    "sha256": "ecc1ec3fef09572ee19b71f71fd36742f0576ebbd3ff22aefd791304727e726f"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_A10R3\\ux.js",
+    "status": "copiat",
+    "saved_path": "fisiere/ux--a95a18a4.js",
+    "bytes": 2411,
+    "sha256": "1f0130283d01b57740b71ab6669c5832e6d89f946bb0a0a7be43fa7486bfc0d6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_CESIRO1\\A11Contract.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A11Contract--fd6a3163.java",
+    "bytes": 957,
+    "sha256": "4174f056124f960edf91b87280e7c26dcc8df1af841fed363e68800722502f36"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_CESIRO1\\check.py",
+    "status": "copiat",
+    "saved_path": "fisiere/check--2f50225e.py",
+    "bytes": 4742,
+    "sha256": "3b399f885c67450795147aaa1300c7d8bbf4e6db7ab00145198d4cff4edbf675"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_CESIRO1\\cross_child.py",
+    "status": "copiat",
+    "saved_path": "fisiere/cross_child--2ec9c5b3.py",
+    "bytes": 2641,
+    "sha256": "dd42126110c759cb6209b35ecdbcb6ad31e921471c73e8a59b4469f836325432"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_CESIRO1\\final.py",
+    "status": "copiat",
+    "saved_path": "fisiere/final--947e3881.py",
+    "bytes": 9864,
+    "sha256": "341517b17f4d2f4b80c81d8b0187eb86dc5355a1206b212fc9049791ae040eda"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R3\\crosscheck.py",
+    "status": "copiat",
+    "saved_path": "fisiere/crosscheck--ad84016d.py",
+    "bytes": 5317,
+    "sha256": "70983e6823a35c855caa9b81ee9dfe2a235a6f5958293e2ca04a2df2a305a43d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R3\\final_verdict.py",
+    "status": "copiat",
+    "saved_path": "fisiere/final_verdict--ddc6ccfc.py",
+    "bytes": 14481,
+    "sha256": "8efa3370f1dacc1e61169e32c48fdd1218a4f886c78e6f1a9337199ad394c03e"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R3\\ledger.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ledger--e9ba2dbc.py",
+    "bytes": 12202,
+    "sha256": "5b84d98985b45ff559c16bed6eafa36c6ac4a284d1941c06f12528a2008283a0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R3\\local_clone.py",
+    "status": "copiat",
+    "saved_path": "fisiere/local_clone--cf8acf52.py",
+    "bytes": 7516,
+    "sha256": "682e0368ed2ab20c332e3d478874abaf627a50c92948158d79875224cc9819df"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R3\\preflight.py",
+    "status": "copiat",
+    "saved_path": "fisiere/preflight--2e4aae55.py",
+    "bytes": 1413,
+    "sha256": "2de2e92a1f239922e1b2630c95e7892c6b430617ba5906aa95c1ea05c8962ec0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R3\\provenance.py",
+    "status": "copiat",
+    "saved_path": "fisiere/provenance--544d3313.py",
+    "bytes": 3467,
+    "sha256": "d11c1be6d56dbbd8b88fb849b77f1c8b06010d4b0d71af9c209b022e883af585"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R4\\final.py",
+    "status": "copiat",
+    "saved_path": "fisiere/final--cd7dee16.py",
+    "bytes": 10617,
+    "sha256": "88ea66e75bc3eedfd999aa05cef918b9a7f1ca62ceabee722a543416bd92f4e6"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R4\\followup_tiers.py",
+    "status": "copiat",
+    "saved_path": "fisiere/followup_tiers--c4f51f31.py",
+    "bytes": 2169,
+    "sha256": "a4032b4b7f5bc7f37a81aa1880d430df5c913c185d7e97e07ddf0ee236498f72"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R4\\historical.py",
+    "status": "copiat",
+    "saved_path": "fisiere/historical--e9a71f4e.py",
+    "bytes": 2081,
+    "sha256": "65db0842e3606fb29aa30b2a4013779ba23e0377de9173dc01a10d301da2f859"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R4\\ledger.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ledger--8c97fea3.py",
+    "bytes": 10475,
+    "sha256": "ed29a7fb70ec96298b459fa96b146ec6d6f9f28c712291161259c5aa2c31f10d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R4\\verify.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verify--9c63b279.py",
+    "bytes": 3775,
+    "sha256": "2c447d912290d74d63c632c69080e56f1645bba578e592f7d8ae0b65db718357"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R5\\A11Measured.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A11Measured--3bea6a7e.java",
+    "bytes": 1551,
+    "sha256": "ff419c1348478b4740db8dcb34319866d3675fce54d0aad77cc1b19e219955b4"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R5\\decision.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decision--faecedc5.py",
+    "bytes": 12165,
+    "sha256": "be43ad14d66bdc4f64b7d276619bc884b45741f5297126a8cc0f00b25f3c33bf"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R5\\ledger.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ledger--2e0c44f6.py",
+    "bytes": 9206,
+    "sha256": "0c769f9fa43e6ab74c96b3569ccab7cafebed6177db2b326435be6974e9b5950"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R5\\locators.py",
+    "status": "copiat",
+    "saved_path": "fisiere/locators--02a5447a.py",
+    "bytes": 2635,
+    "sha256": "0c5fef0c8979f4d9e88605290873007806ce3d06f5a70fc14f54c2da67675902"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R6\\A11Job.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A11Job--80eafe0d.java",
+    "bytes": 1286,
+    "sha256": "555ee09db3fc76f6a56425116afe50d792251a2401833b75c8236d20844eabe0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R6\\Erata_A05_terminologie.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Erata_A05_terminologie--14fdd330.json",
+    "bytes": 461,
+    "sha256": "36228e68c4e990fa931aec1a8e97122909cb871258e75b7cf97dce2eb21a5106"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R6\\decision.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decision--55d0cc6d.py",
+    "bytes": 10812,
+    "sha256": "66cac2776657ced50d39e0a1e3f82cfb844545797106c60e86dfa6ce6e9c1425"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R6\\jvm.py",
+    "status": "copiat",
+    "saved_path": "fisiere/jvm--26b5e019.py",
+    "bytes": 1866,
+    "sha256": "cd4a5a9889a28735bf55f4a2c78edaf2169e655a2da3b23b90821a3ce17b5436"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R6\\ledger.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ledger--25552190.py",
+    "bytes": 9380,
+    "sha256": "37223a05af5461525dd7cca4043f9e7c849de85befb6528bdb126062d9cd20cf"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R6\\zones.py",
+    "status": "copiat",
+    "saved_path": "fisiere/zones--fde764b8.py",
+    "bytes": 16984,
+    "sha256": "761cd288adb0c0afda3e1c3966be49791c7c7857aa6348bc61941974568fa7f5"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R7\\decision.py",
+    "status": "copiat",
+    "saved_path": "fisiere/decision--70c45372.py",
+    "bytes": 12155,
+    "sha256": "8ff1a9de29ca5f9793a857ae20d76e111aec2c1e487f50300728f0348ad007dc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R7\\errataf03.py",
+    "status": "copiat",
+    "saved_path": "fisiere/errataf03--554a5255.py",
+    "bytes": 2182,
+    "sha256": "d47ad42728661e0c1e8df06270798bc89f8d05b6ec8d494577476bb7d7b26f01"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R7\\ledger.py",
+    "status": "copiat",
+    "saved_path": "fisiere/ledger--b4ff48a3.py",
+    "bytes": 9504,
+    "sha256": "a24c908fe5122301d7868ce099cc4d882f116d6aeb97dda6fd787b3dab34e700"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_R7\\repro_pg.py",
+    "status": "copiat",
+    "saved_path": "fisiere/repro_pg--8148b162.py",
+    "bytes": 3412,
+    "sha256": "e4178cdc7ea2e6f1f1f25e681bcce46fbae66a1da192910fc1483e6734f57e06"
   },
   {
     "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_lot2\\a12_history.py",
@@ -320,5 +838,138 @@
     "saved_path": "fisiere/verify_reports--8138d94f.py",
     "bytes": 2451,
     "sha256": "36e71f163f74f4e2de43f249b4587d53e21df2b097fa237e871024a33e6cc388"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2\\A01_PG.py",
+    "status": "copiat",
+    "saved_path": "fisiere/A01_PG--a4c32e64.py",
+    "bytes": 2659,
+    "sha256": "b4aa110ffd6420fb783a14121dccc1844de0896e6fb6b83a579799fe3dab89ef"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2\\A05_marker.py",
+    "status": "copiat",
+    "saved_path": "fisiere/A05_marker--ed6881ff.py",
+    "bytes": 2877,
+    "sha256": "24f26b25dd9e5c02509755d49a6899c794c877378e7d827f9e2e11e82a812cdf"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2\\A11Publicare.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A11Publicare--aa47615b.java",
+    "bytes": 1082,
+    "sha256": "f882dfe7ae10867a8ce7008456e24a026c95033ad08897f29e85f137a73d1665"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2\\adjudication_findings.json",
+    "status": "copiat",
+    "saved_path": "fisiere/adjudication_findings--bd7d258f.json",
+    "bytes": 6655,
+    "sha256": "80ffb93be43424948b1b5edf66dc293e23eeee01f424576f53e928c1315e82dd"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2\\adjudication_matrix.json",
+    "status": "copiat",
+    "saved_path": "fisiere/adjudication_matrix--812b23e2.json",
+    "bytes": 10013,
+    "sha256": "cc32c1e1ae9b470499133f7fe9b1d3b0a19e757727d10ac3031bb96ed7661094"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2\\final.py",
+    "status": "copiat",
+    "saved_path": "fisiere/final--e393e6d4.py",
+    "bytes": 12783,
+    "sha256": "a49c7a059fd6c6738425c9330a275c3c054ecde7617e08901ac391ce8aa26936"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2\\integrity.py",
+    "status": "copiat",
+    "saved_path": "fisiere/integrity--2ad42059.py",
+    "bytes": 2651,
+    "sha256": "070859ef8907ab501373ca2026cc423af47c64b1e12284c69a7e6ebed89cab78"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2\\more_proofs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/more_proofs--612beced.py",
+    "bytes": 5686,
+    "sha256": "069b5d2ccb1ede81e4e1f1edf450dffc5b72ba087036ccba8cd1c7605d86452d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_B\\A11Precision.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A11Precision--51a62833.java",
+    "bytes": 441,
+    "sha256": "319a91751a9fbd92bc45365e9d9d9746998afaa21ee1ad659e05ed68a8903eb7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_B\\assessment_matrix.json",
+    "status": "copiat",
+    "saved_path": "fisiere/assessment_matrix--a1ddf403.json",
+    "bytes": 9640,
+    "sha256": "67febbee48a75487ccfe451d2913d8fb6d57f41393f14ca79ff80b0f87b9d5ff"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_B\\final.py",
+    "status": "copiat",
+    "saved_path": "fisiere/final--1da7fa2b.py",
+    "bytes": 7351,
+    "sha256": "b8c74263d19723b668cc581c8cb178da9bdfdd06f55bb9047c9678759695cf29"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_B\\pg.py",
+    "status": "copiat",
+    "saved_path": "fisiere/pg--f3ffa177.py",
+    "bytes": 4273,
+    "sha256": "ee3a2a9a652e93b8c029732011b72baaacf5040215105635bd7072df9ae0c91c"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_B\\provenance.py",
+    "status": "copiat",
+    "saved_path": "fisiere/provenance--94720793.py",
+    "bytes": 3893,
+    "sha256": "865bb30c56203a897bc1a2420e9228fb5458726e4d7f38a5a95a4dd2a5eacf13"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_C\\A07_repro.py",
+    "status": "copiat",
+    "saved_path": "fisiere/A07_repro--d34008c3.py",
+    "bytes": 1638,
+    "sha256": "70fa54f41c19263c29ecc0b318c772dc62cc5ff18c8903c359ac60ae62f65797"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_C\\A08_publication.py",
+    "status": "copiat",
+    "saved_path": "fisiere/A08_publication--005e9cfc.py",
+    "bytes": 1102,
+    "sha256": "e6c038d7f20381d5e77708798a2d9b4510b5fea1a1d11e7da42775590245655b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_C\\A10_repeat.py",
+    "status": "copiat",
+    "saved_path": "fisiere/A10_repeat--7b155f40.py",
+    "bytes": 1403,
+    "sha256": "256fd704965e33917ad22e5df88f2dc0ab3d17364526d133a1b65511218e695b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_C\\check.py",
+    "status": "copiat",
+    "saved_path": "fisiere/check--8f4c204a.py",
+    "bytes": 5250,
+    "sha256": "2685bc5fd32de94e3414fb02c6dd6836cf25b8e140872532c11cdbdb18e6abbc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_C\\final.py",
+    "status": "copiat",
+    "saved_path": "fisiere/final--0e6ae496.py",
+    "bytes": 8144,
+    "sha256": "ba614d7167b8bcd635fac6884623bbcaa5a8d680c4ecc9c4954e3e6554a33fdf"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A11_reproduceri_zone_R2_C\\score.json",
+    "status": "copiat",
+    "saved_path": "fisiere/score--9bfbe37b.json",
+    "bytes": 9677,
+    "sha256": "087a12889a8c1434e4beb688fcb9160e1ace446a45cde3b0139f3f1433851d4e"
   }
 ]

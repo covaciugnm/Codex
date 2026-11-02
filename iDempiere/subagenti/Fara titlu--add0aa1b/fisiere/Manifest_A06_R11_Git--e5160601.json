@@ -1,0 +1,190 @@
+{
+  "protocol": "eva.audit.r11.code-A06/1",
+  "pins": {
+    "plan": "676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd",
+    "gate": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+    "jar": "82099cd7f436a8fb4d532d8a46b83c62ae0e0176d86d9345c08598299d01d558",
+    "source": "2fe90ed3f128c33dff7cf9f8674e664a70679390"
+  },
+  "time": "2026-11-02T21:33:23.312083+00:00",
+  "files": {
+    "A06.GIT.1.json": {
+      "sha256": "9b9e9d2759dd563b2db4ac94787f30e73b8059dba7dfe449939cd0aa45527b81",
+      "bytes": 3677
+    },
+    "A06.GIT.2.json": {
+      "sha256": "bcce7e6d17163a8024d692215ebffc1afd5552a4b784b6b3f5644fce5e4afefa",
+      "bytes": 3231
+    },
+    "A06.GIT.3.json": {
+      "sha256": "9eebaabfa65b432373a370e286a046774df04af9e7fec370045380011396b49d",
+      "bytes": 3413
+    },
+    "Fisa_DetaliuComanda.json": {
+      "sha256": "4443cf2292506b446ccd3717559091510c5bfe1b99d9707aa310332693ff8f96",
+      "bytes": 5623
+    },
+    "Fisa_PreiaDinSite.json": {
+      "sha256": "bd2264c4e7c11aca1f09f70ebd0dfd373fc6bb9fb1a7fed59ce0d32b8ccf526e",
+      "bytes": 5857
+    },
+    "Fisa_SursaCesiro1.json": {
+      "sha256": "6adb07e3b7e20a40c13fc62193a5ad5bd7fe4c7ef07ed92634c1ad4ca92a47b8",
+      "bytes": 8297
+    },
+    "Fisa_ValidareComanda.json": {
+      "sha256": "930f41f9046f08257878fd4f952333d40cc006c33f83d928de086fde3cda6780",
+      "bytes": 8587
+    },
+    "Fisa_ValideazaComenzi.json": {
+      "sha256": "e9369188016203efe36f15c113dff6f6e64e8861c61ff53db3ca1ad83dbf4cd5",
+      "bytes": 8591
+    },
+    "probe/Ancore_commit.json": {
+      "sha256": "7d9fa9731b4b5d3a4a7d016d6df01236278e912d0487e24e5d46702fc4585146",
+      "bytes": 3369
+    },
+    "probe/git-jar-1.log": {
+      "sha256": "c0bc315f4a4d10c22135cb829a0b02dd733a88c3a460b13fc982ab66325c7da6",
+      "bytes": 1616
+    },
+    "probe/git-jar-2.log": {
+      "sha256": "c0bc315f4a4d10c22135cb829a0b02dd733a88c3a460b13fc982ab66325c7da6",
+      "bytes": 1616
+    },
+    "probe/head-source-1.log": {
+      "sha256": "c0bc315f4a4d10c22135cb829a0b02dd733a88c3a460b13fc982ab66325c7da6",
+      "bytes": 1616
+    },
+    "probe/head-source-2.log": {
+      "sha256": "c0bc315f4a4d10c22135cb829a0b02dd733a88c3a460b13fc982ab66325c7da6",
+      "bytes": 1616
+    },
+    "probe/Producator_CESIRO1_timestamps.json": {
+      "sha256": "121ce1cbcad265e8dec6c6de5af384834a8f05111fac2da40be01c8ae4d61341",
+      "bytes": 3951
+    },
+    "probe/results.json": {
+      "sha256": "42e374a0184a5a4d74853f8999fde66936d88488baa6794a8a2c3b57f60d245c",
+      "bytes": 3624
+    },
+    "probe/seed_line_ddl.sql": {
+      "sha256": "f64acd243bda768c953c89517c2ae76f4b6b1729f59dfb98ddad7ffaf684fe1c",
+      "bytes": 4867
+    },
+    "probe/sources_v02.json": {
+      "sha256": "2258e3b05a0e9f4dfefd78753828a382b9cadabf820cda4dce4d6337c230aea6",
+      "bytes": 2955
+    },
+    "Raport_A06_R11_Git.json": {
+      "sha256": "cdb303f88eec1ae47f36c3c0e96ca18d06839af17e781439631adaa9edbda354",
+      "bytes": 2667
+    },
+    "repro/DB.java": {
+      "sha256": "93d420e512ee93ba546ad1f7276e9e6132a8b9f35f2dbe6cf7f362880f824768",
+      "bytes": 798
+    },
+    "repro/INSTRUCTIUNI.txt": {
+      "sha256": "135f3de82dd210640d68036197a931578adc2ff1d589aa539f43cf77636d4908",
+      "bytes": 1536
+    },
+    "repro/materialize_bundle.py": {
+      "sha256": "d11b95b7d4bf390a4afba0bb8ca52022a2faa82f0b3e6df139c98f9cf58ec0d6",
+      "bytes": 904
+    },
+    "repro/Probe.java": {
+      "sha256": "4a8e03d6975921576329f8f85532e63168085c7c6b2c9bbfcaca9109b366a7d8",
+      "bytes": 5949
+    },
+    "repro/Run.py": {
+      "sha256": "87f39111d824ad642ae910d8bf3e4b7db9d9e0293357b0d5ce116f87cb4d91f1",
+      "bytes": 9421
+    },
+    "surse/AdaptorPlatforma.java": {
+      "sha256": "f6ede293afb763b204ef9ec9f430d410f6376c929e86ab1f2138d44e7326ae12",
+      "bytes": 5269
+    },
+    "surse/bundle.json": {
+      "sha256": "4a0d62e09c1e8b24bb7c57b42856eb395d8e3a28f5903cda16c50fd4c7aa6cfa",
+      "bytes": 275
+    },
+    "surse/CitirePlatforma.java": {
+      "sha256": "0c2588d3123b4deab7e38bde2b8f5a45150af6234ebd12acb4340ec49e94a382",
+      "bytes": 19961
+    },
+    "surse/CorelareTabele.java": {
+      "sha256": "39fbf04dee33e5f780cbe151712a121500dea0c4b6cde874d69ac38f8badd041",
+      "bytes": 34059
+    },
+    "surse/DetaliuComanda.java": {
+      "sha256": "17bd13da0d2e91e96dfe9cb3f86d94d5cc29d27d49131d079cda5e5a70ab39ec",
+      "bytes": 10939
+    },
+    "surse/DomeniiT22.java": {
+      "sha256": "135cc090101d5246cd469e725522eb214716bffe741745c1bd63d92ff9023ac0",
+      "bytes": 16513
+    },
+    "surse/GeneratorDocumente.java": {
+      "sha256": "fdfc21ef59a5886a558403ff3b480ee2e0fca88d28456aa120676530ecae5131",
+      "bytes": 55148
+    },
+    "surse/IdentitateFirma.java": {
+      "sha256": "d8dbf05ed076ba7d976a3845ff07d7dcee2e697ba5740a8951e16b6fd53b202b",
+      "bytes": 2928
+    },
+    "surse/PlatformeVanzari.java": {
+      "sha256": "e866333115d62017d1a686e4fa14507f40a406e2e32dba33b5884863d4c42d78",
+      "bytes": 41250
+    },
+    "surse/PotrivireProdus.java": {
+      "sha256": "d8ba7470c5db010d6b7b962cce111551f1ec91660dd1fc8e052732ebfc23bb8b",
+      "bytes": 13029
+    },
+    "surse/PreiaDinSite.java": {
+      "sha256": "58e797ba04809d429daba902ec7c6d135c361fdc6bdb4dda034f29ea45aee8c7",
+      "bytes": 32844
+    },
+    "surse/provenance.json": {
+      "sha256": "750af61ac36ac98ed9e3a798d0ec54c2f053db21a13d8601aeadcdc221cbcb97",
+      "bytes": 5003
+    },
+    "surse/SursaBaseLinker.java": {
+      "sha256": "fc6201ac973f19b013fcaac54898224febe98ea940ab5669a903189486fa3a58",
+      "bytes": 13875
+    },
+    "surse/SursaCesiro1.java": {
+      "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8",
+      "bytes": 13574
+    },
+    "surse/SursaEasySales.java": {
+      "sha256": "2c3d3dfe74c899fac57440c23cf15e3bc651d87ba38ba7b9e78901a3dc67cb56",
+      "bytes": 18083
+    },
+    "surse/SursaEmag.java": {
+      "sha256": "11681c490264fc28b7b4013f467862e462f12875a4c77cae402a70bcfd658deb",
+      "bytes": 16340
+    },
+    "surse/SursaOkazii.java": {
+      "sha256": "c3d6fb689bfeadecea8c80cc64b742ab36925c1eb1e7422b04033ffb7d375f08",
+      "bytes": 42470
+    },
+    "surse/SursaSiteConfig.java": {
+      "sha256": "26e8f4b1f0b0dfd55fce24580188f9504337f36d51fe955852bc9cd04528d54f",
+      "bytes": 47248
+    },
+    "surse/ValidareComanda.java": {
+      "sha256": "7c786dec4b81d695587e48a7e889cc75df93833ffb15b315ed2bfbce5f9ac644",
+      "bytes": 15000
+    },
+    "surse/ValideazaComenzi.java": {
+      "sha256": "d4495f9c4e84acf649d9e0b25cf7c1a6ebc1e5a2841dcea92f9f345861b14434",
+      "bytes": 85034
+    }
+  },
+  "readback": "Verificarea fiecărui fișier şi confirmarea celor patru hashuri egale, fără punctaj.",
+  "limitations": [
+    "HEAD Git pin bazat pe master la momentul fixării; nu este starea instalată de producție şi nu modifică R10.",
+    "Testele au folosit doar PG16/JVM locale pe date sintetice. Clasa DB de laborator acceptă o singură formă de interogare și o execută prin JDBC; procesul complet nu rulează. Instrucțiunea UPDATE a fost extrasă verbatim din ramura EXCLUS, executată în tranzacție și verificată după rollback.",
+    "Pentru reproducere: repro/INSTRUCTIUNI.txt. Cheile de business ale cazurilor C20/Q nu sunt reutilizate pentru aceste rezultate."
+  ]
+}

@@ -1,5 +1,103 @@
 [
   {
+    "source_reference": "D:\\CodexWork\\A02DocStatusProbe.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A02DocStatusProbe--d0d4c283.java",
+    "bytes": 853,
+    "sha256": "9080899657aeb9c1e7d2c9e6304f9b5b19c62ed50116cf455b397b09aa034304"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\A02Ex04Peer.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A02Ex04Peer--9a862524.java",
+    "bytes": 2110,
+    "sha256": "a3328ecc5971db7ceb6dc6daa9885daecd442106290e4764c92da42892ca50a1"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02-historic-r6\\closure_scan.py",
+    "status": "copiat",
+    "saved_path": "fisiere/closure_scan--f8265993.py",
+    "bytes": 8493,
+    "sha256": "d58fe5b4e57ab87862843f88de1d246b7138370b3ce29826d0a56bdd51afb2c2"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02-historic-r6\\historical_report.py",
+    "status": "copiat",
+    "saved_path": "fisiere/historical_report--e99d22e5.py",
+    "bytes": 10994,
+    "sha256": "1350777ae92d60d613d66cd509a90deb5e8d6d3a28579124d848c8c0e6d1371d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02-historic-r6\\read-xlsx.mjs",
+    "status": "copiat",
+    "saved_path": "fisiere/read-xlsx--b9b07caf.mjs",
+    "bytes": 589,
+    "sha256": "ef2dae891e97839e7968d25555a4cf7c42a09b78dd1243afeedf8fab5092589e"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02-historic-r6\\supplement.py",
+    "status": "copiat",
+    "saved_path": "fisiere/supplement--0479014c.py",
+    "bytes": 5445,
+    "sha256": "39e19a907bbfc58634e02724d52138641ff39128fab6e6e222e8fbcdc8c9f42d"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02-historic-r6\\xlsx_readonly.py",
+    "status": "copiat",
+    "saved_path": "fisiere/xlsx_readonly--d3f87880.py",
+    "bytes": 3721,
+    "sha256": "6575135b52af6f444e4369f15eaee018b173ff88208a102ddf5a53308575ef0a"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02_ex04_independent.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a02_ex04_independent--13ee531f.py",
+    "bytes": 8963,
+    "sha256": "ee771ec31c0b2589fb5cb7e5207dc686e4d57a9cf946a9b13394723bfbd3d3dd"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02_r10_close.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a02_r10_close--90e2155c.py",
+    "bytes": 12311,
+    "sha256": "202b62b9026c01dad8dbf7124d172f4e58c94601ff4113243a3e920b9db265b4"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02_r10_dictionary.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a02_r10_dictionary--43ddaac7.py",
+    "bytes": 10134,
+    "sha256": "9ee2132f9de725b8cc72aa9b3bc45eeb26a5f5752a1edb91fad17658d5bac12c"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02r2_asgi.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a02r2_asgi--55247ea8.py",
+    "bytes": 3100,
+    "sha256": "41ffba628c2adbbeb877dc4a0dfcdf3c6fd34d9baac6eda0d6af08a15abbd0a7"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02r2_build.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/a02r2_build--98656595.cjs",
+    "bytes": 36513,
+    "sha256": "1918476e054f5c22665a60a24553292cf32b8483e26d2f014b0d1a0d6f1699b2"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02r2_perf.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a02r2_perf--1fc483ec.py",
+    "bytes": 4516,
+    "sha256": "e7bd3e8b4043dc1db907a7e321735a2f15ab4c9bc09cd9b2297d04e1d15f7e34"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a02r2_probes.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a02r2_probes--c8c41a95.py",
+    "bytes": 4825,
+    "sha256": "1d9be58c018d1f2f294d4af23dba1d5101a4ce2082688141f4bdc40413bb06bf"
+  },
+  {
     "source_reference": "D:\\CodexWork\\build_a02_plan.js",
     "status": "copiat",
     "saved_path": "fisiere/build_a02_plan--38ce2ba7.js",
@@ -75,6 +173,62 @@
     "saved_path": "fisiere/A02_raport--ec3f8e0c.json",
     "bytes": 70270,
     "sha256": "b6894f76d4e8ed44f954ae08bd0d726e23bc207ad9d8c2e26ca169d5be9083d4"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R10_supliment/A02_Dictionar/Raport_A02_dictionar_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Raport_A02_dictionar_R10--62d7b8c7.json",
+    "bytes": 33743,
+    "sha256": "2a94c06433a1d3432c730f6aa8627abf49d824d412a4f16dd9578542d2fe490f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R10_supliment/A02_Dictionar/SHA256SUMS",
+    "status": "copiat",
+    "saved_path": "fisiere/SHA256SUMS--c1741185",
+    "bytes": 177,
+    "sha256": "991cf8dfb3e7915a5b7eba924608bc3486987d3c5bc4b3d0ded0ebcd1ee63494"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R2_zone/A02/A02_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A02_raport--5775584a.json",
+    "bytes": 117991,
+    "sha256": "c39a7d3eaa3c21c906680e637a2f7172d8d1ec4b85ad31409446b5e37a7bdd1c"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6_pregatire/Istoric/Manifest_Istoric.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Manifest_Istoric--0b4e6e77.json",
+    "bytes": 958,
+    "sha256": "9954af43a5601841d10f1797629417a034d5003c3348fac36907d07336568623"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6_pregatire/Istoric/Provenienta_si_evenimente_nominale.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Provenienta_si_evenimente_nominale--2f3d210f.json",
+    "bytes": 7412,
+    "sha256": "b60449e29e6ee93a645f7cddfc3227b5f4b9b818e2c628bbfea20ea320e28873"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6_pregatire/Istoric/T110_T111_documentar.json",
+    "status": "copiat",
+    "saved_path": "fisiere/T110_T111_documentar--49094b71.json",
+    "bytes": 15891,
+    "sha256": "0aa1d41674d7ba0102873239e3cb2d1298bc154d91c263b5e2aca81438a6badb"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX04_peer_A02.json",
+    "status": "copiat",
+    "saved_path": "fisiere/EX04_peer_A02--5637dc97.json",
+    "bytes": 11586,
+    "sha256": "d7e531e76b2cba5e78067f983468be19b6c198109f8f41a4f41ac98fe6c0a111"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R2_zone\\A05\\tenant-B-native-UI.png",
+    "status": "copiat",
+    "saved_path": "fisiere/tenant-B-native-UI--120ce5f4.png",
+    "bytes": 73200,
+    "sha256": "5465094b63558ed2c5aab5327f7530eafc5fbe37067814bfc4de1500eebc8280"
   },
   {
     "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\A02_plan.json",

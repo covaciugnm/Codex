@@ -1,0 +1,376 @@
+{
+  "schema": "EVA.P01.EX06.peer.v1",
+  "at": "2026-11-02T16:48:27.251560+00:00",
+  "case": "EX06",
+  "consumer": "A09",
+  "producer": "A08",
+  "reviewer": "A11",
+  "decision": "RETURN_FOR_BOUNDED_ERRATUM",
+  "score": null,
+  "source_input": {
+    "file": "executie/supliment_CESIRO1/probe/EX06.json",
+    "sha256": "9ee27f74ef867752f896ef4f54426c336f12ae23654a4f90e93956e461b5d945"
+  },
+  "plan": {
+    "file": "executie/supliment_CESIRO1/Plan_CESIRO1_R3.json",
+    "sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef"
+  },
+  "case_aliases": [
+    {
+      "task": "T35",
+      "canonical": null,
+      "target": [
+        "P01.C10.T0002"
+      ],
+      "criterion_source": "executie/R3/taskuri/Fisa_T35.json",
+      "norm_pointer": "#/disposition_admin/successors",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX06"
+    },
+    {
+      "task": "T352",
+      "canonical": "P01.C10.T0028",
+      "target": [],
+      "criterion_source": "executie/R3/taskuri/Fisa_T352.json",
+      "norm_pointer": "#/source_literal",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX06"
+    }
+  ],
+  "source_freeze": {
+    "manifest": {
+      "file": "executie/supliment_CESIRO1/Copie_verificata_CESIRO1.json",
+      "sha256": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be"
+    },
+    "files_rehashed": 850,
+    "mismatches": [],
+    "anchors": [
+      {
+        "origin": "C",
+        "file": "backend/app/api/storefront.py",
+        "line": 914,
+        "symbol": "def get_order_detail",
+        "sha256": "35966359e383e138de025966d89ce59f5bf6276530ce2fc8aa6c076c3e93e677"
+      },
+      {
+        "origin": "C",
+        "file": "backend/app/api/admin/deps.py",
+        "line": 96,
+        "symbol": "def require_role",
+        "sha256": "3d5e1a6b82473b944323cdbcb9d39313daae6fb620659438091aa7640f3d50fa"
+      },
+      {
+        "origin": "C",
+        "file": "backend/app/api/admin/resources/settings.py",
+        "line": 443,
+        "symbol": "def theme_preview_link",
+        "sha256": "9d24744518d4cb627d03e30dafc4163a5932caacbd938340356831b3d0093a45"
+      },
+      {
+        "origin": "C",
+        "file": "backend/app/theme_preview.py",
+        "line": 60,
+        "symbol": "def load_token",
+        "sha256": "43ea8bb03b037353879a55950e4a3ca3f4a397d89e8a2decf31c397411366ca8"
+      },
+      {
+        "origin": "C",
+        "file": "frontend/src/types/auth.ts",
+        "line": 1,
+        "symbol": "export type UserRole",
+        "sha256": "f4df7a68e3507663a893c7adc4dc641e093b2c2b13e72ac205c3e5509ee4a2fb"
+      },
+      {
+        "origin": "C",
+        "file": "frontend/src/features/integrations/EmagPage.tsx",
+        "line": 41,
+        "symbol": "export function EmagPage",
+        "sha256": "f94f31f3d51b4be1140d9e5672a747079fe276e7d1b92d1a0a87cc67fb00586c"
+      },
+      {
+        "origin": "C",
+        "file": "backend/templates/themes/generic/checkout.html",
+        "line": 39,
+        "symbol": "data-checkout-form",
+        "sha256": "f93945f62c97bbb0e97395d9e4c50f55e2d97172691929b65e8f50e386004592"
+      },
+      {
+        "origin": "W",
+        "file": "frontend/storefront/app/factory.py",
+        "line": 399,
+        "symbol": "def api_account_orders",
+        "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795"
+      }
+    ],
+    "primary_git_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "theme_registry": {
+      "origin": "auxiliary public-theme-fixture, copied by EX03_C header; none of the 850 paths is theme_registry.json",
+      "sha256": "c6f975abcd55611a4500ab41faecc30fdc43406fee737322dfa38e06691c0343",
+      "ids": [
+        "marketplace_pro",
+        "season_spring_porcelain_garden",
+        "season_summer_azure_riviera",
+        "season_autumn_clay_atelier",
+        "season_winter_crystal_nocturne",
+        "event_new_year_midnight_gala",
+        "event_christmas_winter_story",
+        "event_easter_pastel_atelier",
+        "event_black_friday_impact"
+      ]
+    }
+  },
+  "producer_evidence_rehashed": [
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_roles.py",
+      "sha256": "97c3ec66ac9fb3353dca93ad56c3ca173f5c80de7b3c57d5d0a05fa7fbe9953a"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_roles.json",
+      "sha256": "dd0587874444f48353c731d426ccb9d5d31dfa9ce06226a3b1ec89c039043a43"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_browser.json",
+      "sha256": "55496bb83fc43ab1830e67d829d4ac41dd8122277e72d8e75965e0874d45aacb"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_W_browser.json",
+      "sha256": "d63733cb1a81f871f868dd1795c57f333fff95bb3f84c801712546dfa5bef908"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_browser.py",
+      "sha256": "7d494cdb05404784a7a3c96b501e95c84f4e38918425c4f4d00647d09e9ee05d"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_360_ro.png",
+      "sha256": "70830ecfa719f91c3c1d1e746d27ec4fc725a5f42febbcff955c55846fb281dd"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_1280_en.png",
+      "sha256": "c29507bf0f42348af4f345c9c7eb084f257e41b7be1e944d06239df97a187f37"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_W_360_ro.png",
+      "sha256": "d3f31e7bd98839b0c34424a006cf4bf80bcc8bcdeaf1ce65eed541d2dcabe139"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_W_1280_en.png",
+      "sha256": "9a5eea2d8ccce4e2682f7e2610df9288fcc90ef5ced34ad9da04c76d34635b20"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_connector_structure.json",
+      "sha256": "90b7f5ec941817bbbd5aa30204dd8f3eec221430832bc6802c60b32e9167d2f1"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_account_A.html",
+      "sha256": "a7ecb3d5248c34cd16b86691a5ee8f9be12352042d34ac836027d2c262f3ba8e"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_account_B.html",
+      "sha256": "d5a8f3b2006d425bb0dbe4aeaad223aa5e299c4a31e43600321ab4a4143cb449"
+    }
+  ],
+  "findings": [
+    {
+      "area": "Conector vs temă",
+      "result": "În A, GET owner eMag 200, Trendyol 409 state_unreadable pentru cheie criptografică diferită. În B cu grant owner nou Trendyol 200. Nu atribui lipsa unei funcții erorii de configurare. Componentele eMag și Trendyol au integrări administrative proprii, iar marketplace_pro este un preview de magazin generic. Trecerea originală nu poate susține 200 pentru ambele console în A. Rutele /CUI/CUI/eMag și /Trendyol din routerul C au dat 404. Routerul extern acc.eva-org.com nu a fost probat aici."
+    },
+    {
+      "area": "Roluri distincte",
+      "result": "owner și viewer creați separat în SQL și autentificați prin HTTP. Owner obține tema în A, viewer 403, anonim 401. Owner A pe B înainte de grant separat =403. A08 a probat separat doi store_customer, 6 versus 1 comenzi. Nu există rol de comisionar în catalogul de roluri admin al acestei surse sau în fixture. Nici viewer, nici store_customer nu demonstrează comenzi, comisioane ori situații proprii de comisionar."
+    },
+    {
+      "area": "Revocare",
+      "result": "Grant owner șters și comis, 0 granturi rămase în A la readback. Token vechi emite semnătură 200, token nou 403. Cu ceasul de verificare la exp+5s, tokenul autentic expirat 401. TTL bearer 900 sec și TTL link 3600 sec sunt domenii distincte. Link emis postrevocare selectează cookie A, fără cookie pe B. În SPA reală deja deschisă, după eliminarea grantului, alegerea unei alte teme produce din nou HTTP200 și afișează iframe."
+    },
+    {
+      "area": "Frontend mobil și desktop",
+      "result": "Owner și viewer autentificați pe bundle-ul admin înghețat la 360 și 1280 (4 sesiuni), fără apeluri la parteneri. La timeout sintetic butonul Reîncarcă reia cererea: owner 200 și iframe, viewer 403 cu același mesaj generic «A apărut o eroare», fără iframe. Interfața nu distinge pentru utilizator între lipsa dreptului și eroarea de transport. Lățimea documentului admin coincide cu viewportul. Capturile checkout separate probează C 377/360, 1280/1280 și W 360/360,1280/1280; traducerile fixturei pot influența lățimea."
+    },
+    {
+      "area": "Teme și capacități",
+      "result": "eMag/emag/Trendyol/trendyol nu sunt theme_id-uri în registrul auxiliar cu nouă teme; route preview returnează 400 pentru toate cele patru. PreviewApp are listă de teme și iframe magazin; nu reconstruiește fidel pagina unei listări eMag/Trendyol. Absența a două ID-uri din registrul auxiliar nu certifică absența din orice alt registru sau deployment."
+    }
+  ],
+  "scope_limits": [
+    "Nicio probă live pe comercianți, platforme, publicare în marketplace sau site cu setările reale; niciun telefon fizic și niciun cabinet iDempiere folosit în această probă.",
+    "În schema sintetică sunt și răspunsuri 500 pe dashboard /orders și /assistant/staged. Acestea sunt enumerate în raw, nu sunt atribuite producției sau lui EX06.",
+    "Cronologia de la închiderea T35 se deosebește de situația actuală a succesorului P01.C10.T0002 și de P01.C10.T0028/T352. Decizia de task rămâne la A12/A11."
+  ],
+  "recovery": {
+    "original_needs": "Emite erratum separat, păstrează EX06 original. Înlocuiește afirmația generică 200/200 cu rezultatele per tenant. Identifică registrul temelor auxiliar și cele două probe runtime noile trimise; păstrează interfața de comisionar și fidelitatea ca necertificate.",
+    "acceptance": "După revocare, același browser și bearerul anterior nu mai emit preview-uri. Politica precizează și invalidează, dacă trebuie, linkurile active și cookie-urile. Folosește drepturile native iDempiere pe firmă/canal/agent pentru proiecția comisioanelor. Testează separat ledger/raport actor + canal, cu refuz la acces străin."
+  },
+  "visual_crosscheck": [
+    {
+      "source": "C",
+      "viewport": 360,
+      "scroll_width": 377,
+      "lang": "ro",
+      "route": "/checkout",
+      "fields": 11,
+      "png": {
+        "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_C_360_ro.png",
+        "sha256": "70830ecfa719f91c3c1d1e746d27ec4fc725a5f42febbcff955c55846fb281dd"
+      },
+      "png_size": [
+        360,
+        800
+      ]
+    },
+    {
+      "source": "C",
+      "viewport": 1280,
+      "scroll_width": 1280,
+      "lang": "en",
+      "route": "/checkout",
+      "fields": 12,
+      "png": {
+        "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_C_1280_en.png",
+        "sha256": "c29507bf0f42348af4f345c9c7eb084f257e41b7be1e944d06239df97a187f37"
+      },
+      "png_size": [
+        1280,
+        900
+      ]
+    },
+    {
+      "source": "W",
+      "viewport": 360,
+      "scroll_width": 360,
+      "lang": "ro",
+      "route": "/checkout",
+      "fields": 7,
+      "png": {
+        "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_W_360_ro.png",
+        "sha256": "d3f31e7bd98839b0c34424a006cf4bf80bcc8bcdeaf1ce65eed541d2dcabe139"
+      },
+      "png_size": [
+        360,
+        800
+      ]
+    },
+    {
+      "source": "W",
+      "viewport": 1280,
+      "scroll_width": 1280,
+      "lang": "en",
+      "route": "/checkout",
+      "fields": 7,
+      "png": {
+        "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_W_1280_en.png",
+        "sha256": "9a5eea2d8ccce4e2682f7e2610df9288fcc90ef5ced34ad9da04c76d34635b20"
+      },
+      "png_size": [
+        1280,
+        900
+      ]
+    }
+  ],
+  "runtime": {
+    "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/runtime.json",
+    "sha256": "7e917ef4f221a5ada3fd1387e4b2c82c77844833f95ba68ab79fa6e6e2c8e628"
+  },
+  "compiled_ui": {
+    "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin-ui.json",
+    "sha256": "fdea8a419db28c7f68b03776d9b9feab5d854d5618f7b41c08f4328acd2248dc"
+  },
+  "zk_r5_setup": {
+    "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/ZK_R5_setup_peer.json",
+    "sha256": "a6f29b76cc741e1a362e4153082a755496183a7852a9a819e5a47357d1f78f1e"
+  },
+  "independent_artifacts": [
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin-ui.json",
+      "sha256": "fdea8a419db28c7f68b03776d9b9feab5d854d5618f7b41c08f4328acd2248dc"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_owner_1280.png",
+      "sha256": "4ca5a9118c1f7385e533ed86394456b187f4a8db619c7a3172eb486103127522"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_owner_1280_retry.png",
+      "sha256": "349fd97a3f377de98a0b59433840b6a1e67d1491faa81ed180051fca55a4c738"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_owner_360.png",
+      "sha256": "f058496467fdab287b9311a64793c5083522359634939af1d694a31de5a30123"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_owner_360_retry.png",
+      "sha256": "d72481a5bcb0c927481f586676b60acd4b5798706efa2e3cdfda4560ec22de94"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_ui.py",
+      "sha256": "71bcb3f08129a3310bcfed7b4876df1ea009b1f279f123ba05313ea003e80608"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_viewer_1280.png",
+      "sha256": "dbbe323478e83c45b03cef890d86d1ff624846443408fb7c2aeea837f8425342"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_viewer_1280_retry.png",
+      "sha256": "8995853ef41d5e1250e9ae5dc08ddc7de8656852b869a99854bb140242808f6f"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_viewer_360.png",
+      "sha256": "92be69ade4b421e7f1b66d653ee97a09aa68b6c550617f27acff96955960acc3"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin_viewer_360_retry.png",
+      "sha256": "3ceaf8c5ef16e5a3db30adf5cc17ceac93033580fab8458b675237f88427cf75"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX03_C.py",
+      "sha256": "27036ba428990e43073159139ed67d73d082e0f84dd70ddfb1b3a676ea4f124b"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX03_C_raw.json",
+      "sha256": "5ba6b48cb9839f2617cbff78b8606f305f3b6e19100ce231ec0c45184160c512"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX03_W.py",
+      "sha256": "37e0418bc0eb20173311d81501444356b9146f9a61ab0643f92c4f57d7b9f3b4"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_browser.py",
+      "sha256": "7d494cdb05404784a7a3c96b501e95c84f4e38918425c4f4d00647d09e9ee05d"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_C_1280_en.png",
+      "sha256": "c29507bf0f42348af4f345c9c7eb084f257e41b7be1e944d06239df97a187f37"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_C_360_ro.png",
+      "sha256": "70830ecfa719f91c3c1d1e746d27ec4fc725a5f42febbcff955c55846fb281dd"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_C_browser.json",
+      "sha256": "b43d69be6ca819ef5f5ece141303fc33f4abc380ebf686b18d3e8a7bb0268a0d"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_W_1280_en.png",
+      "sha256": "9a5eea2d8ccce4e2682f7e2610df9288fcc90ef5ced34ad9da04c76d34635b20"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_W_360_ro.png",
+      "sha256": "d3f31e7bd98839b0c34424a006cf4bf80bcc8bcdeaf1ce65eed541d2dcabe139"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/EX06_W_browser.json",
+      "sha256": "eb1f65afe91c81b3690203561e3c4c3617163932a056756ece3179cf4b90f171"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/peer_runtime.py",
+      "sha256": "f8c4b80cff8be4dc5126e50f38cc2728fdc78bde5ea076f2240d9a085e0fc1d1"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/runtime.json",
+      "sha256": "7e917ef4f221a5ada3fd1387e4b2c82c77844833f95ba68ab79fa6e6e2c8e628"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/ZK_R5_setup_peer.json",
+      "sha256": "a6f29b76cc741e1a362e4153082a755496183a7852a9a819e5a47357d1f78f1e"
+    }
+  ],
+  "final": "Rezultatele observate sunt reproductibile în limitele mediului. A11 poate decide după errata A08. Nicio notă locală."
+}

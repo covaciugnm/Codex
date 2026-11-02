@@ -452,6 +452,13 @@
     "sha256": "fe691f55ea625ce46d803cac4d6fa00d43f2655c4a35a7af002f495011489788"
   },
   {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.11.02 Inchidere control PECH seara.py",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.11.02 Inchidere control PECH seara--50ab494f.py",
+    "bytes": 11651,
+    "sha256": "431a22f61f9af210ca1fc2ebc1c1f01ca3024da8f23fbecdaf51015004a3f6be"
+  },
+  {
     "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.11.02 Integrare PECH 13.py",
     "status": "copiat",
     "saved_path": "fisiere/2026.11.02 Integrare PECH 13--537057aa.py",
@@ -471,6 +478,13 @@
     "saved_path": "fisiere/2026.11.02 Sursa control PECH 13--d22e77ee.json",
     "bytes": 24228,
     "sha256": "8dd4354b8f93a7464eadafd7caea6abf859e9bd2df699b8439e09c0603805886"
+  },
+  {
+    "source_reference": "D:\\00. Downloads\\Apartamente Viena\\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling)\\folder map\\2026.11.02 Surse PECH control seara.json",
+    "status": "copiat",
+    "saved_path": "fisiere/2026.11.02 Surse PECH control seara--17ec1f1c.json",
+    "bytes": 266619,
+    "sha256": "e528098324a04de3139f19c374a693ab8a6f3d0888fdbf5e7b2d0d9468f3adf7"
   },
   {
     "source_reference": "https://ris.bka.gv.at/eli/bgbl/1991/51/P17/NOR40148215",

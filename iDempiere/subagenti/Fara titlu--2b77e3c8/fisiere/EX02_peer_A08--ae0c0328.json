@@ -1,0 +1,151 @@
+{
+  "reviewer": "A08",
+  "case": "EX02",
+  "sha256_EX02": "3244d3609f23d97c003de3de5f7c98418b200cda155fa10845cfd9b444a77e85",
+  "immutable_hash_verified": true,
+  "when": "2026-11-02T16:43:22.404700+00:00",
+  "peer_verdict": "ACCEPTAT ÎN LIMITELE INDICATE, FĂRĂ SCOR. A11 decide.",
+  "checks": {
+    "evidence_manifest": {
+      "supliment_CESIRO1/Plan_CESIRO1_R3.json": true,
+      "A11_gate_CESIRO1_R3.json": true,
+      "supliment_CESIRO1/Copie_verificata_CESIRO1.json": true,
+      "supliment_CESIRO1/Inventar_CESIRO1.json": true,
+      "supliment_CESIRO1/Migrari_dependente_fixture.json": true,
+      "supliment_CESIRO1/Schema_fixture_CESIRO1.json": true,
+      "supliment_CESIRO1/probe/EX02_coordonator_replay.json": true,
+      "supliment_CESIRO1/probe/EX02_variant_A01.json": true,
+      "supliment_CESIRO1/probe/EX07.json": true,
+      "R2_zone/A01/A01_raport.json": true,
+      "R2_zone/A08/A08_raport.json": true
+    },
+    "source_anchors": 4,
+    "local_replay": [
+      {
+        "case": "no key",
+        "http": 401,
+        "expected": 401,
+        "returned_tenant": null,
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": null,
+        "result_fingerprint": "d315e47ad6b0b7c29d643a03b7077e11f200a86e6c87fb769e26725225679aad"
+      },
+      {
+        "case": "wrong key",
+        "http": 401,
+        "expected": 401,
+        "returned_tenant": null,
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": null,
+        "result_fingerprint": "5da40c15542ffef5484d8153a87aac1eb620fffc6d8bddf7f2940a7e9f7e18d6"
+      },
+      {
+        "case": "global K1 selecting A sees mismatched B shipment",
+        "http": 200,
+        "expected": 200,
+        "returned_tenant": "a08a2434a60e",
+        "marker_in_result": true,
+        "acao": null,
+        "order_id": "04255ef2-38dd-446f-89a7-d369a1a67335",
+        "result_fingerprint": "22eecefe591a161490fb52d597bdc97df1a02e21e48ab1f87961c35fc6e579f7"
+      },
+      {
+        "case": "global K1 selecting B from host A",
+        "http": 200,
+        "expected": 200,
+        "returned_tenant": "a08b2434a60e",
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": "75689988-4660-4966-a4bd-032d8773e95d",
+        "result_fingerprint": "6a7c466e00a534a1d3817b23cec1d10e3c164e210fd575d22fe84069b3c293de"
+      },
+      {
+        "case": "B UUID filtered to A",
+        "http": 404,
+        "expected": 404,
+        "returned_tenant": null,
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": null,
+        "result_fingerprint": "f4681c100328e563e5e44cd61811ccc3a5d258ed55d148bdc519c92575572cc6"
+      },
+      {
+        "case": "nonexistent export",
+        "http": 404,
+        "expected": 404,
+        "returned_tenant": null,
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": null,
+        "result_fingerprint": "e9639e3c4681ce85f852fbac48e2eeee5ba51296dbfec57c200d59b76237ab80"
+      },
+      {
+        "case": "unsupported method",
+        "http": 405,
+        "expected": 405,
+        "returned_tenant": null,
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": null,
+        "result_fingerprint": "bfb286554b24db87b6cbcb6e68be23f89dee1be4d7db544d1e7c97c45664e0df"
+      },
+      {
+        "case": "preflight",
+        "http": 200,
+        "expected": 200,
+        "returned_tenant": null,
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": null,
+        "result_fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "case": "removed key",
+        "http": 401,
+        "expected": 401,
+        "returned_tenant": null,
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": null,
+        "result_fingerprint": "5da40c15542ffef5484d8153a87aac1eb620fffc6d8bddf7f2940a7e9f7e18d6"
+      },
+      {
+        "case": "different valid technical key",
+        "http": 200,
+        "expected": 200,
+        "returned_tenant": "a08b2434a60e",
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": "75689988-4660-4966-a4bd-032d8773e95d",
+        "result_fingerprint": "6a7c466e00a534a1d3817b23cec1d10e3c164e210fd575d22fe84069b3c293de"
+      },
+      {
+        "case": "disabled registry",
+        "http": 503,
+        "expected": 503,
+        "returned_tenant": null,
+        "marker_in_result": false,
+        "acao": null,
+        "order_id": null,
+        "result_fingerprint": "4870a5fec5d60b47e33f62dc9bcc955119426e364bff8a8cb0a8fe8ac74da85f"
+      }
+    ],
+    "local_test_identity": "Original ext_bp + PG16 in a08_cesiro; new, transient service keys. This peer DB uses audit_owner (separate test role); A01 additionally proved non-bypass transaction read-only denial 25006. No real site or production merchant used.",
+    "families_verified": "401 lipsă/invalid/revocat; 200 cheie globală validă cu tenant selectat; 404 UUID din B filtrat în A și export inexistent; 405 POST /orders; 200 OPTIONS fără antet CORS permis; 503 fără chei configurate. Un 200 la preflight nu certifică o lectură browser cross-origin."
+  },
+  "contradiction_arbitration": "Cheile de serviciu autentifică citirea la nivelul instanței. Host, etichete și tenant ca parametru nu creează un grant uman. Un rezultat 200 pentru B cu o cheie globală nu este o încălcare a unui mandat demonstrat de comisionar. Nu se oferă această cheie comisionarului din acest motiv. Drepturi de comisionar și rapoarte/exporturi proprii rămân neconfirmate.",
+  "conditional_defect": {
+    "same_finding_as": "EX07, tenant copil inconsistent",
+    "reproduction": "În baza sintetică proprie am inserat relația permisă B.tenant_id și A.order_id, apoi GET explicit cu tenant A și o cheie de serviciu a întors chiar canarul B în livrările comenzii A. UUID-ul B ca antet când se filtrează la A a dat 404.",
+    "EX07_observed": "Inserare acceptată; în GET autorizat pentru canal-a și în ambele JAR-uri a apărut B-TRACK-for-A-order. Martor corect canal-b păstrează propriul ORD101. Fără cheie se întoarce 401.",
+    "root_condition": "Cheile independente nu exclud perechea inconsistentă; filtrarea copilului prin order_id nu adaugă constrângerea de tenant. Nu demonstrează existența unor asemenea rânduri în producție sau divulgarea fără cheie.",
+    "cleanup": "Canarul inserat în a08_cesiro a fost eliminat după proba sintetică, număr rămas 0"
+  },
+  "other_limits": [
+    "EX02 validează numai logurile de laborator și ipoteza preview-ului, nu cache/CDN/proxy reale.",
+    "PREVIEW: independent EX06 a probat în C cookie pentru A, niciun cookie de preview pentru B, owner A pe B 403, client customer 401. Token preview nu este o cheie tehnică ext/v1."
+  ],
+  "forward_to": "A01 → A11"
+}

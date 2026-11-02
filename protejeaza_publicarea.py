@@ -31,8 +31,15 @@ PATTERNS.update({
     'telegram_token': re.compile(rb'\b[0-9]{7,12}:[A-Za-z0-9_-]{34,}'),
 })
 
+TEXT_EXTENSIONS.update({'.java','.properties','.conf','.config','.js','.jsx','.tsx','.xml','.cs','.kt','.kts','.rb','.php','.psm1','.gradle'})
+LITERAL_CREDENTIAL = re.compile(rb"""(?i)(\b(?:password|passwd|api[_-]?key|client[_-]?secret|access[_-]?token)\b(?:\\*["'])?\s*[:=]\s*\\*["'])([A-Za-z0-9_./+=!@%:$-]{8,255})(\\*["'])""")
+
 def mask(data):
     counts = collections.Counter()
+    if any(k in data.lower() for k in (b'pass',b'api',b'client',b'access')):
+        data,n=LITERAL_CREDENTIAL.subn(lambda m:m[1]+b'[CREDENTIAL_REDACTED]'+m[3],data)
+        if n:
+            counts['literal_authentication_value']=n
     for name, pattern in PATTERNS.items():
         data, count = pattern.subn(b'[CREDENTIAL_REDACTED]', data)
         if count:

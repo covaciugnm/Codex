@@ -3,7 +3,7 @@
     "id": "01a1811a-6404-7bf0-83dc-9c569339ad57",
     "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00. Proiecte 2025\\2025.06.12 Ionel Capota SES",
     "created_at": 1793167352,
-    "updated_at": 1793375095,
+    "updated_at": 1793652051,
     "archived": 0,
     "source": "vscode",
     "title": "Pregătește e-mail ATV-uri",
@@ -11,14 +11,14 @@
     "project": "WildMotion",
     "assignment_method": "workspace_path",
     "parent_thread_id": null,
-    "export_started_at_utc": "2026-11-02T15:26:35.221418+00:00",
-    "source_bytes": 3476600,
+    "export_started_at_utc": "2026-11-02T21:26:40.664214+00:00",
+    "source_bytes": 3850403,
     "invalid_json_lines": 0,
     "history_source": "items",
     "rollout_exists": true,
-    "item_count": 82,
-    "message_count": 23,
-    "content_sha256": "ce57603a96221a737428a19ef90e44b5f1f28cc2b22a80cde4d41acbc01a5bd1"
+    "item_count": 95,
+    "message_count": 29,
+    "content_sha256": "f9fb792cbfa9374ceed8e170e6a0a6b8e840bcc3f9a7136c96c088b3382393c7"
   },
   "items": [
     {
@@ -6200,6 +6200,1031 @@
         "questions": null
       },
       "created_at_ms": 1793291907434
+    },
+    {
+      "ordinal": 377,
+      "timestamp": "2026-11-02T20:38:33.425Z",
+      "turn_id": "01a19dfc-30f9-70d1-bda4-a8ea8f2a3818",
+      "item": {
+        "type": "userMessage",
+        "id": "01a19dfc-32cc-7701-bf41-125c60322144",
+        "clientId": "C12FCE15-2024-4FEA-84BC-43A8B9AB6CFC",
+        "content": [
+          {
+            "type": "text",
+            "text": "Am primit facturi proforma de la vânzători de ATV pe production@cesiro.ro din Timișoara ?",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1793651913425
+    },
+    {
+      "ordinal": 378,
+      "timestamp": "2026-11-02T20:38:38.613Z",
+      "turn_id": "01a19dfc-30f9-70d1-bda4-a8ea8f2a3818",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_08928d1c60254550016ae8f4cf0c108191a0dab7583c4e0c9b",
+        "text": "Verific mesajele primite pe production@cesiro.ro și atașamentele lor, ca să disting facturile proforme de simplele oferte și să confirm dacă provin din Timișoara.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1793651917880
+    },
+    {
+      "ordinal": 386,
+      "timestamp": "2026-11-02T20:38:44.211Z",
+      "turn_id": "01a19dfc-30f9-70d1-bda4-a8ea8f2a3818",
+      "item": {
+        "type": "mcpToolCall",
+        "id": "exec-79952b29-cd34-4883-b917-fc09b23f756f",
+        "server": "codex_apps",
+        "tool": "eva_mail.eva_search_emails",
+        "status": "completed",
+        "arguments": {
+          "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "account_id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+          "is_sent": false,
+          "limit": 50,
+          "query": "ATV"
+        },
+        "appContext": {
+          "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+          "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "resourceUri": null,
+          "appName": "Eva-Mail",
+          "actionName": "eva_search_emails"
+        },
+        "mcpAppUi": null,
+        "pluginId": null,
+        "readOnlyHint": true,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\n  \"items\": [\n    {\n      \"id\": \"714954d1-2366-4c07-926f-fd5b640a661f\",\n      \"account_email\": \"production@cesiro.ro\",\n      \"subject\": \"RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\",\n      \"from_name\": \"cristian.margeanu@atvrom.ro\",\n      \"from_address\": \"cristian.margeanu@atvrom.ro\",\n      \"to\": [\n        \"production@cesiro.ro\"\n      ],\n      \"received_at\": \"2026-10-30T11:42:09Z\",\n      \"snippet\": \"Buna ziua, \\r\\n\\r\\n \\r\\n\\r\\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"1: To respond\",\n        \"99: Important\"\n      ],\n      \"folder\": \"cristian.margeanu@atvrom.ro\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"CUI Cesiro Production 2025.pdf\",\n        \"Factura proforma - CMC cesiro production.PDF\",\n        \"Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf\",\n        \"x10 premium euro 5 royal blue.png\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+            }
+          ],
+          "structuredContent": {
+            "items": [
+              {
+                "id": "714954d1-2366-4c07-926f-fd5b640a661f",
+                "account_email": "production@cesiro.ro",
+                "subject": "RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL",
+                "from_name": "cristian.margeanu@atvrom.ro",
+                "from_address": "cristian.margeanu@atvrom.ro",
+                "to": [
+                  "production@cesiro.ro"
+                ],
+                "received_at": "2026-10-30T11:42:09Z",
+                "snippet": "Buna ziua, \r\n\r\n \r\n\r\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+",
+                "category": "fyi",
+                "labels": [
+                  "1: To respond",
+                  "99: Important"
+                ],
+                "folder": "cristian.margeanu@atvrom.ro",
+                "is_read": true,
+                "is_starred": false,
+                "is_sent": false,
+                "has_attachments": true,
+                "attachment_names": [
+                  "CUI Cesiro Production 2025.pdf",
+                  "Factura proforma - CMC cesiro production.PDF",
+                  "Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf",
+                  "x10 premium euro 5 royal blue.png"
+                ]
+              }
+            ],
+            "total": 1,
+            "limit": 50,
+            "offset": 0
+          },
+          "_meta": {
+            "io.modelcontextprotocol/serverInfo": {
+              "name": "EVA",
+              "title": "EVA — asistentul tău de email",
+              "version": "1.0.0",
+              "websiteUrl": "https://mail.eva-org.com",
+              "icons": [
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-512.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "512x512"
+                  ]
+                },
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-192.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "192x192"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "error": null,
+        "durationMs": 1938
+      },
+      "created_at_ms": 1793651922272
+    },
+    {
+      "ordinal": 387,
+      "timestamp": "2026-11-02T20:38:44.303Z",
+      "turn_id": "01a19dfc-30f9-70d1-bda4-a8ea8f2a3818",
+      "item": {
+        "type": "mcpToolCall",
+        "id": "exec-cf99cc7a-a2f8-47bd-8dd9-265a4ea81def",
+        "server": "codex_apps",
+        "tool": "eva_mail.eva_list_mailboxes",
+        "status": "completed",
+        "arguments": {
+          "link_id": "link_6ae19b6ebad08191ba9bbfe616469187"
+        },
+        "appContext": {
+          "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+          "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "resourceUri": null,
+          "appName": "Eva-Mail",
+          "actionName": "eva_list_mailboxes"
+        },
+        "mcpAppUi": null,
+        "pluginId": null,
+        "readOnlyHint": true,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\n  \"mailboxes\": [\n    {\n      \"id\": \"79db1e1a-c6e9-44b7-89ad-c9cd76899528\",\n      \"email\": \"factura3@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-05-28T15:05:35.568110Z\"\n    },\n    {\n      \"id\": \"137dbd8c-3cd2-48ff-8e86-db5c0290663d\",\n      \"email\": \"admin@nova-robotics.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-09-29T17:38:56.048744Z\"\n    },\n    {\n      \"id\": \"94f39814-f872-470a-a4b6-b3601c96e414\",\n      \"email\": \"factura1@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"3af45560-d448-4125-97cd-f12519882779\",\n      \"email\": \"office@alba-vision.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-11-01T21:30:03.842118Z\"\n    },\n    {\n      \"id\": \"61d34ecc-27ac-48b0-98c6-0dbf637edf9a\",\n      \"email\": \"cosmin@ig.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-09T23:30:10.009451Z\"\n    },\n    {\n      \"id\": \"30b3ba70-9bd8-46a2-993c-18ea0e621036\",\n      \"email\": \"vaidae104@gmail.com\",\n      \"provider\": \"gmail\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-30T17:34:06.427405Z\"\n    },\n    {\n      \"id\": \"ba383b29-35b8-402b-b73f-208dd01d03c6\",\n      \"email\": \"covaciu.gnm@gmail.com\",\n      \"provider\": \"gmail\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-11-02T18:20:10.548004Z\"\n    },\n    {\n      \"id\": \"a784aaf0-c0e1-422a-8b01-303f74660c56\",\n      \"email\": \"covaciu.gnm@eva-org.com\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-10-05T20:30:06.421684Z\"\n    },\n    {\n      \"id\": \"4fa7391b-56f5-4e3f-9985-1838429347b8\",\n      \"email\": \"mariuscodewnk@yahoo.com\",\n      \"provider\": \"yahoo\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-11-02T20:30:07.147369Z\"\n    },\n    {\n      \"id\": \"16488f9f-3815-4e45-8947-39d52637fb6f\",\n      \"email\": \"production@cesiro.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-11-02T20:30:08.529708Z\"\n    },\n    {\n      \"id\": \"4387d9c0-409c-48ca-8afc-ee4fff7d41ed\",\n      \"email\": \"factura2@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-06-21T23:30:06.079888Z\"\n    },\n    {\n      \"id\": \"07ce0e1a-529f-40aa-90e1-3b99b52d89d1\",\n      \"email\": \"factura@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-06-25T10:00:12.428091Z\"\n    },\n    {\n      \"id\": \"cc655410-6d31-4ff6-a01f-2bd267bbe840\",\n      \"email\": \"cosmin.covaciu@ipec.ro\",\n      \"provider\": \"exchange\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-11-02T20:30:08.576910Z\"\n    },\n    {\n      \"id\": \"476c2aa5-b01c-48d1-9647-4e8b4be4ad61\",\n      \"email\": \"office@ac-wohnart.at\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-11-02T20:30:18.815910Z\"\n    },\n    {\n      \"id\": \"5cbbba25-f4d8-4b0b-b726-f33324e355d4\",\n      \"email\": \"cosmin.covaciu@cesiro.ro\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-11-02T20:30:10.277702Z\"\n    },\n    {\n      \"id\": \"d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5\",\n      \"email\": \"cosmin.covaciu@cesiro.com\",\n      \"provider\": \"imap\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-11-02T20:30:11.076491Z\"\n    },\n    {\n      \"id\": \"54f7feea-ba99-47bb-99f1-c441f9eeafea\",\n      \"email\": \"link_covaciu@yahoo.com\",\n      \"provider\": \"yahoo\",\n      \"permission\": \"owner\",\n      \"searchable\": true,\n      \"is_active\": true,\n      \"last_sync\": \"2026-08-02T20:30:05.901517Z\"\n    },\n    {\n      \"id\": \"shared:cesiro.horeca@gmail.com\",\n      \"email\": \"cesiro.horeca@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"team\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:dancorproiectsrl@gmail.com\",\n      \"email\": \"dancorproiectsrl@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:3dspacearideit@gmail.com\",\n      \"email\": \"3dspacearideit@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    },\n    {\n      \"id\": \"shared:3dspacearide@gmail.com\",\n      \"email\": \"3dspacearide@gmail.com\",\n      \"provider\": \"\",\n      \"permission\": \"shared\",\n      \"searchable\": false,\n      \"is_active\": true,\n      \"last_sync\": null\n    }\n  ]\n}"
+            }
+          ],
+          "structuredContent": {
+            "mailboxes": [
+              {
+                "id": "79db1e1a-c6e9-44b7-89ad-c9cd76899528",
+                "email": "factura3@ipec.ro",
+                "provider": "exchange",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-05-28T15:05:35.568110Z"
+              },
+              {
+                "id": "137dbd8c-3cd2-48ff-8e86-db5c0290663d",
+                "email": "admin@nova-robotics.ro",
+                "provider": "imap",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-09-29T17:38:56.048744Z"
+              },
+              {
+                "id": "94f39814-f872-470a-a4b6-b3601c96e414",
+                "email": "factura1@ipec.ro",
+                "provider": "exchange",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": null
+              },
+              {
+                "id": "3af45560-d448-4125-97cd-f12519882779",
+                "email": "office@alba-vision.ro",
+                "provider": "imap",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-11-01T21:30:03.842118Z"
+              },
+              {
+                "id": "61d34ecc-27ac-48b0-98c6-0dbf637edf9a",
+                "email": "cosmin@ig.ro",
+                "provider": "exchange",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-10-09T23:30:10.009451Z"
+              },
+              {
+                "id": "30b3ba70-9bd8-46a2-993c-18ea0e621036",
+                "email": "vaidae104@gmail.com",
+                "provider": "gmail",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-10-30T17:34:06.427405Z"
+              },
+              {
+                "id": "ba383b29-35b8-402b-b73f-208dd01d03c6",
+                "email": "covaciu.gnm@gmail.com",
+                "provider": "gmail",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-11-02T18:20:10.548004Z"
+              },
+              {
+                "id": "a784aaf0-c0e1-422a-8b01-303f74660c56",
+                "email": "covaciu.gnm@eva-org.com",
+                "provider": "imap",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-10-05T20:30:06.421684Z"
+              },
+              {
+                "id": "4fa7391b-56f5-4e3f-9985-1838429347b8",
+                "email": "mariuscodewnk@yahoo.com",
+                "provider": "yahoo",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-11-02T20:30:07.147369Z"
+              },
+              {
+                "id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+                "email": "production@cesiro.ro",
+                "provider": "imap",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-11-02T20:30:08.529708Z"
+              },
+              {
+                "id": "4387d9c0-409c-48ca-8afc-ee4fff7d41ed",
+                "email": "factura2@ipec.ro",
+                "provider": "exchange",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-06-21T23:30:06.079888Z"
+              },
+              {
+                "id": "07ce0e1a-529f-40aa-90e1-3b99b52d89d1",
+                "email": "factura@ipec.ro",
+                "provider": "exchange",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-06-25T10:00:12.428091Z"
+              },
+              {
+                "id": "cc655410-6d31-4ff6-a01f-2bd267bbe840",
+                "email": "cosmin.covaciu@ipec.ro",
+                "provider": "exchange",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-11-02T20:30:08.576910Z"
+              },
+              {
+                "id": "476c2aa5-b01c-48d1-9647-4e8b4be4ad61",
+                "email": "office@ac-wohnart.at",
+                "provider": "imap",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-11-02T20:30:18.815910Z"
+              },
+              {
+                "id": "5cbbba25-f4d8-4b0b-b726-f33324e355d4",
+                "email": "cosmin.covaciu@cesiro.ro",
+                "provider": "imap",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-11-02T20:30:10.277702Z"
+              },
+              {
+                "id": "d2f8dc89-ab6d-4497-9f7e-6fdb2bce99d5",
+                "email": "cosmin.covaciu@cesiro.com",
+                "provider": "imap",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-11-02T20:30:11.076491Z"
+              },
+              {
+                "id": "54f7feea-ba99-47bb-99f1-c441f9eeafea",
+                "email": "link_covaciu@yahoo.com",
+                "provider": "yahoo",
+                "permission": "owner",
+                "searchable": true,
+                "is_active": true,
+                "last_sync": "2026-08-02T20:30:05.901517Z"
+              },
+              {
+                "id": "shared:cesiro.horeca@gmail.com",
+                "email": "cesiro.horeca@gmail.com",
+                "provider": "",
+                "permission": "team",
+                "searchable": false,
+                "is_active": true,
+                "last_sync": null
+              },
+              {
+                "id": "shared:dancorproiectsrl@gmail.com",
+                "email": "dancorproiectsrl@gmail.com",
+                "provider": "",
+                "permission": "shared",
+                "searchable": false,
+                "is_active": true,
+                "last_sync": null
+              },
+              {
+                "id": "shared:3dspacearideit@gmail.com",
+                "email": "3dspacearideit@gmail.com",
+                "provider": "",
+                "permission": "shared",
+                "searchable": false,
+                "is_active": true,
+                "last_sync": null
+              },
+              {
+                "id": "shared:3dspacearide@gmail.com",
+                "email": "3dspacearide@gmail.com",
+                "provider": "",
+                "permission": "shared",
+                "searchable": false,
+                "is_active": true,
+                "last_sync": null
+              }
+            ]
+          },
+          "_meta": {
+            "io.modelcontextprotocol/serverInfo": {
+              "name": "EVA",
+              "title": "EVA — asistentul tău de email",
+              "version": "1.0.0",
+              "websiteUrl": "https://mail.eva-org.com",
+              "icons": [
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-512.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "512x512"
+                  ]
+                },
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-192.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "192x192"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "error": null,
+        "durationMs": 2031
+      },
+      "created_at_ms": 1793651922271
+    },
+    {
+      "ordinal": 388,
+      "timestamp": "2026-11-02T20:38:44.348Z",
+      "turn_id": "01a19dfc-30f9-70d1-bda4-a8ea8f2a3818",
+      "item": {
+        "type": "mcpToolCall",
+        "id": "exec-cb2516a0-946e-4016-9ff7-742fd21c8cb2",
+        "server": "codex_apps",
+        "tool": "eva_mail.eva_search_emails",
+        "status": "completed",
+        "arguments": {
+          "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "account_id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+          "is_sent": false,
+          "limit": 50,
+          "date_from": "2026-10-28"
+        },
+        "appContext": {
+          "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+          "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "resourceUri": null,
+          "appName": "Eva-Mail",
+          "actionName": "eva_search_emails"
+        },
+        "mcpAppUi": null,
+        "pluginId": null,
+        "readOnlyHint": true,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\n  \"items\": [\n    {\n      \"id\": \"c4f799c6-bb48-4000-8c98-af47a8ac5d26\",\n      \"account_email\": \"production@cesiro.ro\",\n      \"subject\": \"Mulțumim pentru întâlnirea de la INDAGRA 2026 | G&Partners \",\n      \"from_name\": \"Igor Auriglietti\",\n      \"from_address\": \"igor@g-partners.com\",\n      \"to\": [\n        \"production@cesiro.ro\"\n      ],\n      \"received_at\": \"2026-11-02T14:55:05Z\",\n      \"snippet\": \"Bună ziua, Cosmin Cavacio,\\r\\n\\r\\nA fost o plăcere să discutăm cu dumneavoastră la târgul INDAGRA 2026.\\r\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"3: Fyi\"\n      ],\n      \"folder\": \"Igor Auriglietti\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"G&P Footer Angelo.png\"\n      ]\n    },\n    {\n      \"id\": \"9a8cf016-12b5-4851-8031-1677d4bae34a\",\n      \"account_email\": \"production@cesiro.ro\",\n      \"subject\": \"Sortare optica miez de nuca MEYER\",\n      \"from_name\": \"Andrei Badea\",\n      \"from_address\": \"andrei.badea@meyer-corp.eu\",\n      \"to\": [\n        \"production@cesiro.ro\"\n      ],\n      \"received_at\": \"2026-11-02T14:25:46Z\",\n      \"snippet\": \"Buna ziua Domnule Covaciu,\\r\\n\\r\\nVa multumim pentru vizita la standul nostru de la Indagra si pentru in\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"4: Notification\"\n      ],\n      \"folder\": \"Andrei Badea\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"image002.jpg\",\n        \"Specification of 60KI4.pdf\",\n        \"6SXZ-60KI4_+_Small_Vibrator_Feeder.pdf\",\n        \"Commercial Offer n. 197.11.2026.RO.60KI4.pdf\",\n        \"image001.png\"\n      ]\n    },\n    {\n      \"id\": \"714954d1-2366-4c07-926f-fd5b640a661f\",\n      \"account_email\": \"production@cesiro.ro\",\n      \"subject\": \"RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\",\n      \"from_name\": \"cristian.margeanu@atvrom.ro\",\n      \"from_address\": \"cristian.margeanu@atvrom.ro\",\n      \"to\": [\n        \"production@cesiro.ro\"\n      ],\n      \"received_at\": \"2026-10-30T11:42:09Z\",\n      \"snippet\": \"Buna ziua, \\r\\n\\r\\n \\r\\n\\r\\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"1: To respond\",\n        \"99: Important\"\n      ],\n      \"folder\": \"cristian.margeanu@atvrom.ro\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"CUI Cesiro Production 2025.pdf\",\n        \"Factura proforma - CMC cesiro production.PDF\",\n        \"Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf\",\n        \"x10 premium euro 5 royal blue.png\"\n      ]\n    },\n    {\n      \"id\": \"44be13e4-4a88-47f4-bba9-025b12ae325f\",\n      \"account_email\": \"production@cesiro.ro\",\n      \"subject\": \"Test reconectare EVA 30.10.2026 12:59: cosmin.covaciu@cesiro.ro → production@cesiro.ro\",\n      \"from_name\": \"cosmin.covaciu@cesiro.ro\",\n      \"from_address\": \"cosmin.covaciu@cesiro.ro\",\n      \"to\": [\n        \"production@cesiro.ro\"\n      ],\n      \"received_at\": \"2026-10-30T10:59:06Z\",\n      \"snippet\": \"Test automat după reconectarea pe mx.eva-org.com (30.10.2026 12:59). Trimis de pe cosmin.covaciu@ces\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"3: Fyi\"\n      ],\n      \"folder\": \"cosmin.covaciu@cesiro.ro\",\n      \"is_read\": false,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": false,\n      \"attachment_names\": []\n    }\n  ],\n  \"total\": 4,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+            }
+          ],
+          "structuredContent": {
+            "items": [
+              {
+                "id": "c4f799c6-bb48-4000-8c98-af47a8ac5d26",
+                "account_email": "production@cesiro.ro",
+                "subject": "Mulțumim pentru întâlnirea de la INDAGRA 2026 | G&Partners ",
+                "from_name": "Igor Auriglietti",
+                "from_address": "igor@g-partners.com",
+                "to": [
+                  "production@cesiro.ro"
+                ],
+                "received_at": "2026-11-02T14:55:05Z",
+                "snippet": "Bună ziua, Cosmin Cavacio,\r\n\r\nA fost o plăcere să discutăm cu dumneavoastră la târgul INDAGRA 2026.\r",
+                "category": "fyi",
+                "labels": [
+                  "3: Fyi"
+                ],
+                "folder": "Igor Auriglietti",
+                "is_read": false,
+                "is_starred": false,
+                "is_sent": false,
+                "has_attachments": true,
+                "attachment_names": [
+                  "G&P Footer Angelo.png"
+                ]
+              },
+              {
+                "id": "9a8cf016-12b5-4851-8031-1677d4bae34a",
+                "account_email": "production@cesiro.ro",
+                "subject": "Sortare optica miez de nuca MEYER",
+                "from_name": "Andrei Badea",
+                "from_address": "andrei.badea@meyer-corp.eu",
+                "to": [
+                  "production@cesiro.ro"
+                ],
+                "received_at": "2026-11-02T14:25:46Z",
+                "snippet": "Buna ziua Domnule Covaciu,\r\n\r\nVa multumim pentru vizita la standul nostru de la Indagra si pentru in",
+                "category": "fyi",
+                "labels": [
+                  "4: Notification"
+                ],
+                "folder": "Andrei Badea",
+                "is_read": false,
+                "is_starred": false,
+                "is_sent": false,
+                "has_attachments": true,
+                "attachment_names": [
+                  "image002.jpg",
+                  "Specification of 60KI4.pdf",
+                  "6SXZ-60KI4_+_Small_Vibrator_Feeder.pdf",
+                  "Commercial Offer n. 197.11.2026.RO.60KI4.pdf",
+                  "image001.png"
+                ]
+              },
+              {
+                "id": "714954d1-2366-4c07-926f-fd5b640a661f",
+                "account_email": "production@cesiro.ro",
+                "subject": "RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL",
+                "from_name": "cristian.margeanu@atvrom.ro",
+                "from_address": "cristian.margeanu@atvrom.ro",
+                "to": [
+                  "production@cesiro.ro"
+                ],
+                "received_at": "2026-10-30T11:42:09Z",
+                "snippet": "Buna ziua, \r\n\r\n \r\n\r\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+",
+                "category": "fyi",
+                "labels": [
+                  "1: To respond",
+                  "99: Important"
+                ],
+                "folder": "cristian.margeanu@atvrom.ro",
+                "is_read": true,
+                "is_starred": false,
+                "is_sent": false,
+                "has_attachments": true,
+                "attachment_names": [
+                  "CUI Cesiro Production 2025.pdf",
+                  "Factura proforma - CMC cesiro production.PDF",
+                  "Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf",
+                  "x10 premium euro 5 royal blue.png"
+                ]
+              },
+              {
+                "id": "44be13e4-4a88-47f4-bba9-025b12ae325f",
+                "account_email": "production@cesiro.ro",
+                "subject": "Test reconectare EVA 30.10.2026 12:59: cosmin.covaciu@cesiro.ro → production@cesiro.ro",
+                "from_name": "cosmin.covaciu@cesiro.ro",
+                "from_address": "cosmin.covaciu@cesiro.ro",
+                "to": [
+                  "production@cesiro.ro"
+                ],
+                "received_at": "2026-10-30T10:59:06Z",
+                "snippet": "Test automat după reconectarea pe mx.eva-org.com (30.10.2026 12:59). Trimis de pe cosmin.covaciu@ces",
+                "category": "fyi",
+                "labels": [
+                  "3: Fyi"
+                ],
+                "folder": "cosmin.covaciu@cesiro.ro",
+                "is_read": false,
+                "is_starred": false,
+                "is_sent": false,
+                "has_attachments": false,
+                "attachment_names": []
+              }
+            ],
+            "total": 4,
+            "limit": 50,
+            "offset": 0
+          },
+          "_meta": {
+            "io.modelcontextprotocol/serverInfo": {
+              "name": "EVA",
+              "title": "EVA — asistentul tău de email",
+              "version": "1.0.0",
+              "websiteUrl": "https://mail.eva-org.com",
+              "icons": [
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-512.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "512x512"
+                  ]
+                },
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-192.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "192x192"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "error": null,
+        "durationMs": 2075
+      },
+      "created_at_ms": 1793651922271
+    },
+    {
+      "ordinal": 389,
+      "timestamp": "2026-11-02T20:38:44.355Z",
+      "turn_id": "01a19dfc-30f9-70d1-bda4-a8ea8f2a3818",
+      "item": {
+        "type": "mcpToolCall",
+        "id": "exec-57553f4b-d87c-4926-bc88-bfa87d0ec185",
+        "server": "codex_apps",
+        "tool": "eva_mail.eva_search_emails",
+        "status": "completed",
+        "arguments": {
+          "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "account_id": "16488f9f-3815-4e45-8947-39d52637fb6f",
+          "is_sent": false,
+          "limit": 50,
+          "query": "proform"
+        },
+        "appContext": {
+          "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+          "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "resourceUri": null,
+          "appName": "Eva-Mail",
+          "actionName": "eva_search_emails"
+        },
+        "mcpAppUi": null,
+        "pluginId": null,
+        "readOnlyHint": true,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\n  \"items\": [\n    {\n      \"id\": \"714954d1-2366-4c07-926f-fd5b640a661f\",\n      \"account_email\": \"production@cesiro.ro\",\n      \"subject\": \"RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\",\n      \"from_name\": \"cristian.margeanu@atvrom.ro\",\n      \"from_address\": \"cristian.margeanu@atvrom.ro\",\n      \"to\": [\n        \"production@cesiro.ro\"\n      ],\n      \"received_at\": \"2026-10-30T11:42:09Z\",\n      \"snippet\": \"Buna ziua, \\r\\n\\r\\n \\r\\n\\r\\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+\",\n      \"category\": \"fyi\",\n      \"labels\": [\n        \"1: To respond\",\n        \"99: Important\"\n      ],\n      \"folder\": \"cristian.margeanu@atvrom.ro\",\n      \"is_read\": true,\n      \"is_starred\": false,\n      \"is_sent\": false,\n      \"has_attachments\": true,\n      \"attachment_names\": [\n        \"CUI Cesiro Production 2025.pdf\",\n        \"Factura proforma - CMC cesiro production.PDF\",\n        \"Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf\",\n        \"x10 premium euro 5 royal blue.png\"\n      ]\n    }\n  ],\n  \"total\": 1,\n  \"limit\": 50,\n  \"offset\": 0\n}"
+            }
+          ],
+          "structuredContent": {
+            "items": [
+              {
+                "id": "714954d1-2366-4c07-926f-fd5b640a661f",
+                "account_email": "production@cesiro.ro",
+                "subject": "RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL",
+                "from_name": "cristian.margeanu@atvrom.ro",
+                "from_address": "cristian.margeanu@atvrom.ro",
+                "to": [
+                  "production@cesiro.ro"
+                ],
+                "received_at": "2026-10-30T11:42:09Z",
+                "snippet": "Buna ziua, \r\n\r\n \r\n\r\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+",
+                "category": "fyi",
+                "labels": [
+                  "1: To respond",
+                  "99: Important"
+                ],
+                "folder": "cristian.margeanu@atvrom.ro",
+                "is_read": true,
+                "is_starred": false,
+                "is_sent": false,
+                "has_attachments": true,
+                "attachment_names": [
+                  "CUI Cesiro Production 2025.pdf",
+                  "Factura proforma - CMC cesiro production.PDF",
+                  "Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf",
+                  "x10 premium euro 5 royal blue.png"
+                ]
+              }
+            ],
+            "total": 1,
+            "limit": 50,
+            "offset": 0
+          },
+          "_meta": {
+            "io.modelcontextprotocol/serverInfo": {
+              "name": "EVA",
+              "title": "EVA — asistentul tău de email",
+              "version": "1.0.0",
+              "websiteUrl": "https://mail.eva-org.com",
+              "icons": [
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-512.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "512x512"
+                  ]
+                },
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-192.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "192x192"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "error": null,
+        "durationMs": 2080
+      },
+      "created_at_ms": 1793651922272
+    },
+    {
+      "ordinal": 394,
+      "timestamp": "2026-11-02T20:38:49.023Z",
+      "turn_id": "01a19dfc-30f9-70d1-bda4-a8ea8f2a3818",
+      "item": {
+        "type": "mcpToolCall",
+        "id": "exec-a752c2d2-f5b8-4f9c-9096-b4e31f9eae72",
+        "server": "codex_apps",
+        "tool": "eva_mail.eva_get_email",
+        "status": "completed",
+        "arguments": {
+          "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "email_id": "714954d1-2366-4c07-926f-fd5b640a661f"
+        },
+        "appContext": {
+          "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+          "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "resourceUri": null,
+          "appName": "Eva-Mail",
+          "actionName": "eva_get_email"
+        },
+        "mcpAppUi": null,
+        "pluginId": null,
+        "readOnlyHint": true,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\n  \"id\": \"714954d1-2366-4c07-926f-fd5b640a661f\",\n  \"account_email\": \"production@cesiro.ro\",\n  \"subject\": \"RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\",\n  \"from_name\": \"cristian.margeanu@atvrom.ro\",\n  \"from_address\": \"cristian.margeanu@atvrom.ro\",\n  \"to\": [\n    \"production@cesiro.ro\"\n  ],\n  \"cc\": [],\n  \"received_at\": \"2026-10-30T11:42:09Z\",\n  \"text\": \"Buna ziua, \\r\\n\\r\\n \\r\\n\\r\\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26 Royal Blue.\\r\\n\\r\\n   Aveti atasate documentele tehnice, precum si factura proforma.\\r\\n\\r\\n \\r\\n\\r\\n \\r\\n\\r\\nFrom: production@cesiro.ro <production@cesiro.ro> \\r\\nSent: None\\r\\nTo: cristian.margeanu@atvrom.ro\\r\\nSubject: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\\r\\n\\r\\n \\r\\n\\r\\nCătre CMC Moto Class Company SRL – ATVRom\\r\\nÎn atenția domnului Cristian Margeanu\\r\\n\\r\\nBună ziua,\\r\\n\\r\\nÎn urma discuției telefonice, vă rugăm să ne transmiteți oferta, factura proformă și contractul pentru achiziționarea a trei ATV-uri CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod produs CF1000AU-2 EPS Basic, pe societatea CESIRO PRODUCTION SRL, CUI 45050734.\\r\\n\\r\\nVă rugăm să includeți în documentele transmise toate detaliile tehnice și comerciale aferente achiziției, conform celor discutate telefonic.\\r\\n\\r\\nVă mulțumim.\\r\\n\\r\\nCu stimă,\\r\\nAdministrator\\r\\n\\r\\nBest regards,\\r\\n\\r\\nCosmin Adrian Covaciu\\r\\n\\r\\n\",\n  \"truncated\": false,\n  \"labels\": [\n    \"1: To respond\",\n    \"99: Important\"\n  ],\n  \"category\": \"fyi\",\n  \"folder\": \"cristian.margeanu@atvrom.ro\",\n  \"thread_id\": \"<e2a2ba16-f958-44bb-ab97-9d29d4a43da1@cesiro.ro>\",\n  \"is_read\": true,\n  \"is_sent\": false,\n  \"attachments\": [\n    {\n      \"id\": \"28a45e13-8643-4ea0-8cea-4688c0bd289a\",\n      \"name\": \"Factura proforma - CMC cesiro production.PDF\",\n      \"size\": 68106,\n      \"content_type\": \"application/pdf\",\n      \"has_text\": true,\n      \"text_chars\": 3718,\n      \"page_count\": null,\n      \"text\": \"  Factura Proforma Client: CESIRO PRODUCTION S.R.L. Nr.ord.reg.com/an: J2021001328014    Cod fiscal: RO45050734Sediu:THEODOR PALLADY Nr. 5   Localitate:ALBA IULIA,ABCont: Banca: ,   CMC MOTO CLASS COMPANY SRL Registru comert: J2016002266234Cod fiscal: RO36145193Sediu: TUNARI, BRADULUI Nr.2B CP.077180    Judet: IFCont: RO06BACX0000001904159000Banca: UNICREDIT BANKCont: RO54BRDE450SV57805164500Banca: Banca Romana pentru Dezvoltare Capital social: 59.000 RON  Serie/Numar: /24961Data: 29.10.2026  NrDenumire ArticoleCantPretDiscPret unitarPret unitarValoareValoareTotalcrt Docvanzare lei%cu discfara TVAfara TVATVA 1V CIV Cartea de Identitate a Vehiculului3,00400,00400,00330,5785991,74208,261.200,002CFMOTO CFORCE 1000 X10 PREMIUM EURO5+MY2026 Royal Blue3,0067.817,00-365.782,4954365,6942163097,0834250,39197.347,47TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL: 164088,82 34458,65 198.547,47\\n  WinMENTOR ENTERPRISE v26,091\\n \\n \\nNotes: \\n            \\n            \\n             \\n* Pretul unitar de referinta este exprimat in EURO, conform afisarii pe site-ul oficial ATVROM.RO din ziua emiterii facturii proforme. \\nContravaloarea in RON se calculeaza la cursul de vanzare EURO/RON (BNR+1,5%) valabil in aceeasi zi.\\nTotalul in RON reprezinta contravaloarea in lei a sumei exprimate in EURO (inclusiv TVA), calculata la cursul de vanzare EURO/RON (BNR+1,5%) \\ndin ziua emiterii prezentei facturi proforme.\\nValabilitatea ofertei: 3 (trei) zile lucratoare de la data emiterii.\\nIn cazul in care cursul de vanzare EURO/RON variaza cu peste 1,5% fata de cursul aplicat la emiterea acestei proforme, valoarea totala \\nin RON va fi ajustata corespunzator.\\n \\n \\n \\nUNITATE NOUA, 0 KM, FOND MARFA. Factura tine loc de contract cu termeni generali. Transferul de proprietate se efectueaza dupa plata integrala\\na contravalorii bunului. Sunt de acord cu prelucrarea datelor cu caracter personal conform Regulamentului General privind protectia Datelor (UE)\\n2016/679 (GDPR) si legii 677/2001 / Factura circula fara stampila si semnatura cf art V alin(2) din Ordonanta 17/2015 si art 319 alin (29) din \\nLegea nr 227/2015, privindCodul Fiscal. Curs BNR+1.5%* In cazul renuntarii la comanda, avansul se pierde! CMC Moto Class Company SRL este \\noperator de date cu caracter personal. Respectam confidentialitatea datelor persoanelor fizice cu care interactionam in conformitate cu legislatia \\ninterna si europeana in vigoare.Prelucrarea datelor cu caracter personal este limitata la ceea ce este necesar in raport cu scopurile pentru care \\neste realizata, in conformitate cu dispozitiile art. 6 alin. 1 din Regulamentul 679/27-apr-2016 privind protectiapersoanelor fizice în ceea ce \\npriveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date.Puteti obtine informatii suplimentare privind prelucrarea\\ndatelor cu caracter personal prin accesarea paginii noastre de internet: www.atvrom.ro, sectiunea: \\\"Mai multeinformatii privind politica de \\nconfidentialitate\\\" sau ne puteti adresa intrebari cu privire la modul in care datele dumneavoastra sunt prelucrate si/sau pentru a va exercita \\ndrepturile de care dispuneti (dreptul de acces, de corectare, de stergere, de restrictionare, de obiectie sau de portabilitate a datelor cu caracter \\npersonal) la adresa de e-mail: financiar@atvrom.ro \\n \\n*Aceasta proforma este valabila 48 de ore.\\n \\n \\n \\n \\nSemnatura\\n de primire:\\n Total de plata:\\n \\n 198.547,47  RON\\n  \\n \\n \\n Semnatura \\n si stampila\\n furnizoruluiDate privind expeditia:\\nNumele Delegatului: \\n B.I./C.I.seria: , nr.  eliberat(a)\\nMijlocul de transport nr. \\nExpeditia s-a efectuat in prezenta noastra la\\ndata de        29.10.2026        ora    \\nSemnaturile\\n \\n \\n\"\n    },\n    {\n      \"id\": \"b14d6240-9c1a-47da-8b39-789eecbbf558\",\n      \"name\": \"Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf\",\n      \"size\": 990218,\n      \"content_type\": \"application/pdf\",\n      \"has_text\": true,\n      \"text_chars\": 13,\n      \"page_count\": null,\n      \"text\": \"NO_TEXT_FOUND\"\n    },\n    {\n      \"id\": \"6ebe840b-9fab-495e-be9a-8b8d1e802582\",\n      \"name\": \"x10 premium euro 5 royal blue.png\",\n      \"size\": 282499,\n      \"content_type\": \"image/png\",\n      \"has_text\": true,\n      \"text_chars\": 656,\n      \"page_count\": null,\n      \"text\": \"CFMOTO CFORCE 1000 X10 EPS Premium Euro 5+ '26\\n□\\nCompara\\nReferinta: CF1000AU-2 EPS Premium\\n\\n\\nAlege culoare: Royal Blue\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nRate 100% online\\n\\n\\nRate cu dobanda 7.9% prin tbi bank\\n\\n\\nLeasing cu *Marja 2.9% + Euribor la 3 luni\\n\\n\\nCFMOTO - Cel mai vandut ATV din EUROPA\\n\\n\\nGarantie 2+3 ani\\n\\n\\nOmologare tip \\\"Euro5\\\"\\n\\n\\nPosibilitate BUY BACK\\n\\n\\nECHIVALAM ORICE PRET\\n\\n\\nRate fara avans\\nRRP: 11.231 €\\n10.322 €\\n(Fara TVA)\\nRRP: 73.790 RON\\n67.817 RON\\n(TVA inclus)\\n\\n\\nAi un pret mai bun? Echivalam orice pret!\\nSOLICITA OFERTA\\n\\n\\nADAUGA IN COS\\n\\n\\n\\n\\n\\n\\nCUMPARA ACUM\\n\\n\\n\\n\\nSolicitare publicare produs in SEAP\\n\\n\\nSolicitare cerere de fonduri Europene\\n\\n\\nCentru de inchiriere\"\n    }\n  ],\n  \"note\": \"\"\n}"
+            }
+          ],
+          "structuredContent": {
+            "id": "714954d1-2366-4c07-926f-fd5b640a661f",
+            "account_email": "production@cesiro.ro",
+            "subject": "RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL",
+            "from_name": "cristian.margeanu@atvrom.ro",
+            "from_address": "cristian.margeanu@atvrom.ro",
+            "to": [
+              "production@cesiro.ro"
+            ],
+            "cc": [],
+            "received_at": "2026-10-30T11:42:09Z",
+            "text": "Buna ziua, \r\n\r\n \r\n\r\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26 Royal Blue.\r\n\r\n   Aveti atasate documentele tehnice, precum si factura proforma.\r\n\r\n \r\n\r\n \r\n\r\nFrom: production@cesiro.ro <production@cesiro.ro> \r\nSent: None\r\nTo: cristian.margeanu@atvrom.ro\r\nSubject: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\r\n\r\n \r\n\r\nCătre CMC Moto Class Company SRL – ATVRom\r\nÎn atenția domnului Cristian Margeanu\r\n\r\nBună ziua,\r\n\r\nÎn urma discuției telefonice, vă rugăm să ne transmiteți oferta, factura proformă și contractul pentru achiziționarea a trei ATV-uri CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod produs CF1000AU-2 EPS Basic, pe societatea CESIRO PRODUCTION SRL, CUI 45050734.\r\n\r\nVă rugăm să includeți în documentele transmise toate detaliile tehnice și comerciale aferente achiziției, conform celor discutate telefonic.\r\n\r\nVă mulțumim.\r\n\r\nCu stimă,\r\nAdministrator\r\n\r\nBest regards,\r\n\r\nCosmin Adrian Covaciu\r\n\r\n",
+            "truncated": false,
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "category": "fyi",
+            "folder": "cristian.margeanu@atvrom.ro",
+            "thread_id": "<e2a2ba16-f958-44bb-ab97-9d29d4a43da1@cesiro.ro>",
+            "is_read": true,
+            "is_sent": false,
+            "attachments": [
+              {
+                "id": "28a45e13-8643-4ea0-8cea-4688c0bd289a",
+                "name": "Factura proforma - CMC cesiro production.PDF",
+                "size": 68106,
+                "content_type": "application/pdf",
+                "has_text": true,
+                "text_chars": 3718,
+                "page_count": null,
+                "text": "  Factura Proforma Client: CESIRO PRODUCTION S.R.L. Nr.ord.reg.com/an: J2021001328014    Cod fiscal: RO45050734Sediu:THEODOR PALLADY Nr. 5   Localitate:ALBA IULIA,ABCont: Banca: ,   CMC MOTO CLASS COMPANY SRL Registru comert: J2016002266234Cod fiscal: RO36145193Sediu: TUNARI, BRADULUI Nr.2B CP.077180    Judet: IFCont: RO06BACX0000001904159000Banca: UNICREDIT BANKCont: RO54BRDE450SV57805164500Banca: Banca Romana pentru Dezvoltare Capital social: 59.000 RON  Serie/Numar: /24961Data: 29.10.2026  NrDenumire ArticoleCantPretDiscPret unitarPret unitarValoareValoareTotalcrt Docvanzare lei%cu discfara TVAfara TVATVA 1V CIV Cartea de Identitate a Vehiculului3,00400,00400,00330,5785991,74208,261.200,002CFMOTO CFORCE 1000 X10 PREMIUM EURO5+MY2026 Royal Blue3,0067.817,00-365.782,4954365,6942163097,0834250,39197.347,47TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL: 164088,82 34458,65 198.547,47\n  WinMENTOR ENTERPRISE v26,091\n \n \nNotes: \n            \n            \n             \n* Pretul unitar de referinta este exprimat in EURO, conform afisarii pe site-ul oficial ATVROM.RO din ziua emiterii facturii proforme. \nContravaloarea in RON se calculeaza la cursul de vanzare EURO/RON (BNR+1,5%) valabil in aceeasi zi.\nTotalul in RON reprezinta contravaloarea in lei a sumei exprimate in EURO (inclusiv TVA), calculata la cursul de vanzare EURO/RON (BNR+1,5%) \ndin ziua emiterii prezentei facturi proforme.\nValabilitatea ofertei: 3 (trei) zile lucratoare de la data emiterii.\nIn cazul in care cursul de vanzare EURO/RON variaza cu peste 1,5% fata de cursul aplicat la emiterea acestei proforme, valoarea totala \nin RON va fi ajustata corespunzator.\n \n \n \nUNITATE NOUA, 0 KM, FOND MARFA. Factura tine loc de contract cu termeni generali. Transferul de proprietate se efectueaza dupa plata integrala\na contravalorii bunului. Sunt de acord cu prelucrarea datelor cu caracter personal conform Regulamentului General privind protectia Datelor (UE)\n2016/679 (GDPR) si legii 677/2001 / Factura circula fara stampila si semnatura cf art V alin(2) din Ordonanta 17/2015 si art 319 alin (29) din \nLegea nr 227/2015, privindCodul Fiscal. Curs BNR+1.5%* In cazul renuntarii la comanda, avansul se pierde! CMC Moto Class Company SRL este \noperator de date cu caracter personal. Respectam confidentialitatea datelor persoanelor fizice cu care interactionam in conformitate cu legislatia \ninterna si europeana in vigoare.Prelucrarea datelor cu caracter personal este limitata la ceea ce este necesar in raport cu scopurile pentru care \neste realizata, in conformitate cu dispozitiile art. 6 alin. 1 din Regulamentul 679/27-apr-2016 privind protectiapersoanelor fizice în ceea ce \npriveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date.Puteti obtine informatii suplimentare privind prelucrarea\ndatelor cu caracter personal prin accesarea paginii noastre de internet: www.atvrom.ro, sectiunea: \"Mai multeinformatii privind politica de \nconfidentialitate\" sau ne puteti adresa intrebari cu privire la modul in care datele dumneavoastra sunt prelucrate si/sau pentru a va exercita \ndrepturile de care dispuneti (dreptul de acces, de corectare, de stergere, de restrictionare, de obiectie sau de portabilitate a datelor cu caracter \npersonal) la adresa de e-mail: financiar@atvrom.ro \n \n*Aceasta proforma este valabila 48 de ore.\n \n \n \n \nSemnatura\n de primire:\n Total de plata:\n \n 198.547,47  RON\n  \n \n \n Semnatura \n si stampila\n furnizoruluiDate privind expeditia:\nNumele Delegatului: \n B.I./C.I.seria: , nr.  eliberat(a)\nMijlocul de transport nr. \nExpeditia s-a efectuat in prezenta noastra la\ndata de        29.10.2026        ora    \nSemnaturile\n \n \n"
+              },
+              {
+                "id": "b14d6240-9c1a-47da-8b39-789eecbbf558",
+                "name": "Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf",
+                "size": 990218,
+                "content_type": "application/pdf",
+                "has_text": true,
+                "text_chars": 13,
+                "page_count": null,
+                "text": "NO_TEXT_FOUND"
+              },
+              {
+                "id": "6ebe840b-9fab-495e-be9a-8b8d1e802582",
+                "name": "x10 premium euro 5 royal blue.png",
+                "size": 282499,
+                "content_type": "image/png",
+                "has_text": true,
+                "text_chars": 656,
+                "page_count": null,
+                "text": "CFMOTO CFORCE 1000 X10 EPS Premium Euro 5+ '26\n□\nCompara\nReferinta: CF1000AU-2 EPS Premium\n\n\nAlege culoare: Royal Blue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRate 100% online\n\n\nRate cu dobanda 7.9% prin tbi bank\n\n\nLeasing cu *Marja 2.9% + Euribor la 3 luni\n\n\nCFMOTO - Cel mai vandut ATV din EUROPA\n\n\nGarantie 2+3 ani\n\n\nOmologare tip \"Euro5\"\n\n\nPosibilitate BUY BACK\n\n\nECHIVALAM ORICE PRET\n\n\nRate fara avans\nRRP: 11.231 €\n10.322 €\n(Fara TVA)\nRRP: 73.790 RON\n67.817 RON\n(TVA inclus)\n\n\nAi un pret mai bun? Echivalam orice pret!\nSOLICITA OFERTA\n\n\nADAUGA IN COS\n\n\n\n\n\n\nCUMPARA ACUM\n\n\n\n\nSolicitare publicare produs in SEAP\n\n\nSolicitare cerere de fonduri Europene\n\n\nCentru de inchiriere"
+              }
+            ],
+            "note": ""
+          },
+          "_meta": {
+            "io.modelcontextprotocol/serverInfo": {
+              "name": "EVA",
+              "title": "EVA — asistentul tău de email",
+              "version": "1.0.0",
+              "websiteUrl": "https://mail.eva-org.com",
+              "icons": [
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-512.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "512x512"
+                  ]
+                },
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-192.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "192x192"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "error": null,
+        "durationMs": 889
+      },
+      "created_at_ms": 1793651928133
+    },
+    {
+      "ordinal": 397,
+      "timestamp": "2026-11-02T20:38:52.898Z",
+      "turn_id": "01a19dfc-30f9-70d1-bda4-a8ea8f2a3818",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_08928d1c60254550016ae8f4db6d2c8191b93b9e57393825ea",
+        "text": "Da. Pe **production@cesiro.ro** a sosit **o factură proformă** de la Cristian Margeanu (ATVRom), pe **30 octombrie 2026, la 13:42**, ca răspuns la solicitarea pentru cele trei ATV-uri. Nu pot confirma că provine din Timișoara: pe proformă, emitentul **CMC Moto Class Company SRL** figurează cu sediul în **Tunari, Ilfov**, iar mesajul nu indică punctul de vânzare.\n\nProforma **nr. 24961 din 29.10.2026** este emisă pe CESIRO PRODUCTION SRL, pentru **198.547,47 lei cu TVA**, inclusiv cele trei cărți de identitate ale vehiculelor.\n\n**Diferență față de contract:** proforma și fișa tehnică indică varianta **CFMOTO CFORCE 1000 X10 Premium, Royal Blue**, în timp ce solicitarea preciza codul **CF1000AU-2 EPS Basic**. Furnizorul nu confirmă în răspuns că varianta ofertată corespunde acestui cod. Nu a atașat un contract separat.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1793651930281
+    },
+    {
+      "ordinal": 406,
+      "timestamp": "2026-11-02T20:40:40.780Z",
+      "turn_id": "01a19dfe-2414-7ba0-a027-62113e1aa7c5",
+      "item": {
+        "type": "userMessage",
+        "id": "01a19dfe-2444-74f0-8076-f55eccc9a061",
+        "clientId": "C5EB66A6-07D0-4247-A519-4188AB36C9DB",
+        "content": [
+          {
+            "type": "text",
+            "text": "Dă-mi factura proforma să o văd",
+            "text_elements": []
+          }
+        ]
+      },
+      "created_at_ms": 1793652040780
+    },
+    {
+      "ordinal": 407,
+      "timestamp": "2026-11-02T20:40:43.539Z",
+      "turn_id": "01a19dfe-2414-7ba0-a027-62113e1aa7c5",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_08928d1c60254550016ae8f54c424c81918547e6126e62cc3e",
+        "text": "Deschid atașamentul original din răspunsul ATVRom și îți dau linkul către PDF.",
+        "phase": "commentary",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1793652043127
+    },
+    {
+      "ordinal": 411,
+      "timestamp": "2026-11-02T20:40:45.253Z",
+      "turn_id": "01a19dfe-2414-7ba0-a027-62113e1aa7c5",
+      "item": {
+        "type": "mcpToolCall",
+        "id": "exec-2c1dae8c-404f-4a0a-9065-0f15c999ed97",
+        "server": "codex_apps",
+        "tool": "eva_mail.eva_get_email",
+        "status": "completed",
+        "arguments": {
+          "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "email_id": "714954d1-2366-4c07-926f-fd5b640a661f"
+        },
+        "appContext": {
+          "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+          "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "resourceUri": null,
+          "appName": "Eva-Mail",
+          "actionName": "eva_get_email"
+        },
+        "mcpAppUi": null,
+        "pluginId": null,
+        "readOnlyHint": true,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\n  \"id\": \"714954d1-2366-4c07-926f-fd5b640a661f\",\n  \"account_email\": \"production@cesiro.ro\",\n  \"subject\": \"RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\",\n  \"from_name\": \"cristian.margeanu@atvrom.ro\",\n  \"from_address\": \"cristian.margeanu@atvrom.ro\",\n  \"to\": [\n    \"production@cesiro.ro\"\n  ],\n  \"cc\": [],\n  \"received_at\": \"2026-10-30T11:42:09Z\",\n  \"text\": \"Buna ziua, \\r\\n\\r\\n \\r\\n\\r\\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26 Royal Blue.\\r\\n\\r\\n   Aveti atasate documentele tehnice, precum si factura proforma.\\r\\n\\r\\n \\r\\n\\r\\n \\r\\n\\r\\nFrom: production@cesiro.ro <production@cesiro.ro> \\r\\nSent: None\\r\\nTo: cristian.margeanu@atvrom.ro\\r\\nSubject: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\\r\\n\\r\\n \\r\\n\\r\\nCătre CMC Moto Class Company SRL – ATVRom\\r\\nÎn atenția domnului Cristian Margeanu\\r\\n\\r\\nBună ziua,\\r\\n\\r\\nÎn urma discuției telefonice, vă rugăm să ne transmiteți oferta, factura proformă și contractul pentru achiziționarea a trei ATV-uri CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod produs CF1000AU-2 EPS Basic, pe societatea CESIRO PRODUCTION SRL, CUI 45050734.\\r\\n\\r\\nVă rugăm să includeți în documentele transmise toate detaliile tehnice și comerciale aferente achiziției, conform celor discutate telefonic.\\r\\n\\r\\nVă mulțumim.\\r\\n\\r\\nCu stimă,\\r\\nAdministrator\\r\\n\\r\\nBest regards,\\r\\n\\r\\nCosmin Adrian Covaciu\\r\\n\\r\\n\",\n  \"truncated\": false,\n  \"labels\": [\n    \"1: To respond\",\n    \"99: Important\"\n  ],\n  \"category\": \"fyi\",\n  \"folder\": \"cristian.margeanu@atvrom.ro\",\n  \"thread_id\": \"<e2a2ba16-f958-44bb-ab97-9d29d4a43da1@cesiro.ro>\",\n  \"is_read\": true,\n  \"is_sent\": false,\n  \"attachments\": [\n    {\n      \"id\": \"28a45e13-8643-4ea0-8cea-4688c0bd289a\",\n      \"name\": \"Factura proforma - CMC cesiro production.PDF\",\n      \"size\": 68106,\n      \"content_type\": \"application/pdf\",\n      \"has_text\": true,\n      \"text_chars\": 3718,\n      \"page_count\": null,\n      \"text\": \"  Factura Proforma Client: CESIRO PRODUCTION S.R.L. Nr.ord.reg.com/an: J2021001328014    Cod fiscal: RO45050734Sediu:THEODOR PALLADY Nr. 5   Localitate:ALBA IULIA,ABCont: Banca: ,   CMC MOTO CLASS COMPANY SRL Registru comert: J2016002266234Cod fiscal: RO36145193Sediu: TUNARI, BRADULUI Nr.2B CP.077180    Judet: IFCont: RO06BACX0000001904159000Banca: UNICREDIT BANKCont: RO54BRDE450SV57805164500Banca: Banca Romana pentru Dezvoltare Capital social: 59.000 RON  Serie/Numar: /24961Data: 29.10.2026  NrDenumire ArticoleCantPretDiscPret unitarPret unitarValoareValoareTotalcrt Docvanzare lei%cu discfara TVAfara TVATVA 1V CIV Cartea de Identitate a Vehiculului3,00400,00400,00330,5785991,74208,261.200,002CFMOTO CFORCE 1000 X10 PREMIUM EURO5+MY2026 Royal Blue3,0067.817,00-365.782,4954365,6942163097,0834250,39197.347,47TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL: 164088,82 34458,65 198.547,47\\n  WinMENTOR ENTERPRISE v26,091\\n \\n \\nNotes: \\n            \\n            \\n             \\n* Pretul unitar de referinta este exprimat in EURO, conform afisarii pe site-ul oficial ATVROM.RO din ziua emiterii facturii proforme. \\nContravaloarea in RON se calculeaza la cursul de vanzare EURO/RON (BNR+1,5%) valabil in aceeasi zi.\\nTotalul in RON reprezinta contravaloarea in lei a sumei exprimate in EURO (inclusiv TVA), calculata la cursul de vanzare EURO/RON (BNR+1,5%) \\ndin ziua emiterii prezentei facturi proforme.\\nValabilitatea ofertei: 3 (trei) zile lucratoare de la data emiterii.\\nIn cazul in care cursul de vanzare EURO/RON variaza cu peste 1,5% fata de cursul aplicat la emiterea acestei proforme, valoarea totala \\nin RON va fi ajustata corespunzator.\\n \\n \\n \\nUNITATE NOUA, 0 KM, FOND MARFA. Factura tine loc de contract cu termeni generali. Transferul de proprietate se efectueaza dupa plata integrala\\na contravalorii bunului. Sunt de acord cu prelucrarea datelor cu caracter personal conform Regulamentului General privind protectia Datelor (UE)\\n2016/679 (GDPR) si legii 677/2001 / Factura circula fara stampila si semnatura cf art V alin(2) din Ordonanta 17/2015 si art 319 alin (29) din \\nLegea nr 227/2015, privindCodul Fiscal. Curs BNR+1.5%* In cazul renuntarii la comanda, avansul se pierde! CMC Moto Class Company SRL este \\noperator de date cu caracter personal. Respectam confidentialitatea datelor persoanelor fizice cu care interactionam in conformitate cu legislatia \\ninterna si europeana in vigoare.Prelucrarea datelor cu caracter personal este limitata la ceea ce este necesar in raport cu scopurile pentru care \\neste realizata, in conformitate cu dispozitiile art. 6 alin. 1 din Regulamentul 679/27-apr-2016 privind protectiapersoanelor fizice în ceea ce \\npriveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date.Puteti obtine informatii suplimentare privind prelucrarea\\ndatelor cu caracter personal prin accesarea paginii noastre de internet: www.atvrom.ro, sectiunea: \\\"Mai multeinformatii privind politica de \\nconfidentialitate\\\" sau ne puteti adresa intrebari cu privire la modul in care datele dumneavoastra sunt prelucrate si/sau pentru a va exercita \\ndrepturile de care dispuneti (dreptul de acces, de corectare, de stergere, de restrictionare, de obiectie sau de portabilitate a datelor cu caracter \\npersonal) la adresa de e-mail: financiar@atvrom.ro \\n \\n*Aceasta proforma este valabila 48 de ore.\\n \\n \\n \\n \\nSemnatura\\n de primire:\\n Total de plata:\\n \\n 198.547,47  RON\\n  \\n \\n \\n Semnatura \\n si stampila\\n furnizoruluiDate privind expeditia:\\nNumele Delegatului: \\n B.I./C.I.seria: , nr.  eliberat(a)\\nMijlocul de transport nr. \\nExpeditia s-a efectuat in prezenta noastra la\\ndata de        29.10.2026        ora    \\nSemnaturile\\n \\n \\n\"\n    },\n    {\n      \"id\": \"b14d6240-9c1a-47da-8b39-789eecbbf558\",\n      \"name\": \"Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf\",\n      \"size\": 990218,\n      \"content_type\": \"application/pdf\",\n      \"has_text\": true,\n      \"text_chars\": 13,\n      \"page_count\": null,\n      \"text\": \"NO_TEXT_FOUND\"\n    },\n    {\n      \"id\": \"6ebe840b-9fab-495e-be9a-8b8d1e802582\",\n      \"name\": \"x10 premium euro 5 royal blue.png\",\n      \"size\": 282499,\n      \"content_type\": \"image/png\",\n      \"has_text\": true,\n      \"text_chars\": 656,\n      \"page_count\": null,\n      \"text\": \"CFMOTO CFORCE 1000 X10 EPS Premium Euro 5+ '26\\n□\\nCompara\\nReferinta: CF1000AU-2 EPS Premium\\n\\n\\nAlege culoare: Royal Blue\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nRate 100% online\\n\\n\\nRate cu dobanda 7.9% prin tbi bank\\n\\n\\nLeasing cu *Marja 2.9% + Euribor la 3 luni\\n\\n\\nCFMOTO - Cel mai vandut ATV din EUROPA\\n\\n\\nGarantie 2+3 ani\\n\\n\\nOmologare tip \\\"Euro5\\\"\\n\\n\\nPosibilitate BUY BACK\\n\\n\\nECHIVALAM ORICE PRET\\n\\n\\nRate fara avans\\nRRP: 11.231 €\\n10.322 €\\n(Fara TVA)\\nRRP: 73.790 RON\\n67.817 RON\\n(TVA inclus)\\n\\n\\nAi un pret mai bun? Echivalam orice pret!\\nSOLICITA OFERTA\\n\\n\\nADAUGA IN COS\\n\\n\\n\\n\\n\\n\\nCUMPARA ACUM\\n\\n\\n\\n\\nSolicitare publicare produs in SEAP\\n\\n\\nSolicitare cerere de fonduri Europene\\n\\n\\nCentru de inchiriere\"\n    }\n  ],\n  \"note\": \"\"\n}"
+            }
+          ],
+          "structuredContent": {
+            "id": "714954d1-2366-4c07-926f-fd5b640a661f",
+            "account_email": "production@cesiro.ro",
+            "subject": "RE: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL",
+            "from_name": "cristian.margeanu@atvrom.ro",
+            "from_address": "cristian.margeanu@atvrom.ro",
+            "to": [
+              "production@cesiro.ro"
+            ],
+            "cc": [],
+            "received_at": "2026-10-30T11:42:09Z",
+            "text": "Buna ziua, \r\n\r\n \r\n\r\nRevin cu oferta finala pentru cele 3 unitati  CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26 Royal Blue.\r\n\r\n   Aveti atasate documentele tehnice, precum si factura proforma.\r\n\r\n \r\n\r\n \r\n\r\nFrom: production@cesiro.ro <production@cesiro.ro> \r\nSent: None\r\nTo: cristian.margeanu@atvrom.ro\r\nSubject: Solicitare ofertă, proformă și contract – 3 ATV-uri – CESIRO PRODUCTION SRL\r\n\r\n \r\n\r\nCătre CMC Moto Class Company SRL – ATVRom\r\nÎn atenția domnului Cristian Margeanu\r\n\r\nBună ziua,\r\n\r\nÎn urma discuției telefonice, vă rugăm să ne transmiteți oferta, factura proformă și contractul pentru achiziționarea a trei ATV-uri CFMOTO CFORCE 1000 X10 EPS Euro 5+ '26, cod produs CF1000AU-2 EPS Basic, pe societatea CESIRO PRODUCTION SRL, CUI 45050734.\r\n\r\nVă rugăm să includeți în documentele transmise toate detaliile tehnice și comerciale aferente achiziției, conform celor discutate telefonic.\r\n\r\nVă mulțumim.\r\n\r\nCu stimă,\r\nAdministrator\r\n\r\nBest regards,\r\n\r\nCosmin Adrian Covaciu\r\n\r\n",
+            "truncated": false,
+            "labels": [
+              "1: To respond",
+              "99: Important"
+            ],
+            "category": "fyi",
+            "folder": "cristian.margeanu@atvrom.ro",
+            "thread_id": "<e2a2ba16-f958-44bb-ab97-9d29d4a43da1@cesiro.ro>",
+            "is_read": true,
+            "is_sent": false,
+            "attachments": [
+              {
+                "id": "28a45e13-8643-4ea0-8cea-4688c0bd289a",
+                "name": "Factura proforma - CMC cesiro production.PDF",
+                "size": 68106,
+                "content_type": "application/pdf",
+                "has_text": true,
+                "text_chars": 3718,
+                "page_count": null,
+                "text": "  Factura Proforma Client: CESIRO PRODUCTION S.R.L. Nr.ord.reg.com/an: J2021001328014    Cod fiscal: RO45050734Sediu:THEODOR PALLADY Nr. 5   Localitate:ALBA IULIA,ABCont: Banca: ,   CMC MOTO CLASS COMPANY SRL Registru comert: J2016002266234Cod fiscal: RO36145193Sediu: TUNARI, BRADULUI Nr.2B CP.077180    Judet: IFCont: RO06BACX0000001904159000Banca: UNICREDIT BANKCont: RO54BRDE450SV57805164500Banca: Banca Romana pentru Dezvoltare Capital social: 59.000 RON  Serie/Numar: /24961Data: 29.10.2026  NrDenumire ArticoleCantPretDiscPret unitarPret unitarValoareValoareTotalcrt Docvanzare lei%cu discfara TVAfara TVATVA 1V CIV Cartea de Identitate a Vehiculului3,00400,00400,00330,5785991,74208,261.200,002CFMOTO CFORCE 1000 X10 PREMIUM EURO5+MY2026 Royal Blue3,0067.817,00-365.782,4954365,6942163097,0834250,39197.347,47TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL:TOTAL GENERAL: 164088,82 34458,65 198.547,47\n  WinMENTOR ENTERPRISE v26,091\n \n \nNotes: \n            \n            \n             \n* Pretul unitar de referinta este exprimat in EURO, conform afisarii pe site-ul oficial ATVROM.RO din ziua emiterii facturii proforme. \nContravaloarea in RON se calculeaza la cursul de vanzare EURO/RON (BNR+1,5%) valabil in aceeasi zi.\nTotalul in RON reprezinta contravaloarea in lei a sumei exprimate in EURO (inclusiv TVA), calculata la cursul de vanzare EURO/RON (BNR+1,5%) \ndin ziua emiterii prezentei facturi proforme.\nValabilitatea ofertei: 3 (trei) zile lucratoare de la data emiterii.\nIn cazul in care cursul de vanzare EURO/RON variaza cu peste 1,5% fata de cursul aplicat la emiterea acestei proforme, valoarea totala \nin RON va fi ajustata corespunzator.\n \n \n \nUNITATE NOUA, 0 KM, FOND MARFA. Factura tine loc de contract cu termeni generali. Transferul de proprietate se efectueaza dupa plata integrala\na contravalorii bunului. Sunt de acord cu prelucrarea datelor cu caracter personal conform Regulamentului General privind protectia Datelor (UE)\n2016/679 (GDPR) si legii 677/2001 / Factura circula fara stampila si semnatura cf art V alin(2) din Ordonanta 17/2015 si art 319 alin (29) din \nLegea nr 227/2015, privindCodul Fiscal. Curs BNR+1.5%* In cazul renuntarii la comanda, avansul se pierde! CMC Moto Class Company SRL este \noperator de date cu caracter personal. Respectam confidentialitatea datelor persoanelor fizice cu care interactionam in conformitate cu legislatia \ninterna si europeana in vigoare.Prelucrarea datelor cu caracter personal este limitata la ceea ce este necesar in raport cu scopurile pentru care \neste realizata, in conformitate cu dispozitiile art. 6 alin. 1 din Regulamentul 679/27-apr-2016 privind protectiapersoanelor fizice în ceea ce \npriveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date.Puteti obtine informatii suplimentare privind prelucrarea\ndatelor cu caracter personal prin accesarea paginii noastre de internet: www.atvrom.ro, sectiunea: \"Mai multeinformatii privind politica de \nconfidentialitate\" sau ne puteti adresa intrebari cu privire la modul in care datele dumneavoastra sunt prelucrate si/sau pentru a va exercita \ndrepturile de care dispuneti (dreptul de acces, de corectare, de stergere, de restrictionare, de obiectie sau de portabilitate a datelor cu caracter \npersonal) la adresa de e-mail: financiar@atvrom.ro \n \n*Aceasta proforma este valabila 48 de ore.\n \n \n \n \nSemnatura\n de primire:\n Total de plata:\n \n 198.547,47  RON\n  \n \n \n Semnatura \n si stampila\n furnizoruluiDate privind expeditia:\nNumele Delegatului: \n B.I./C.I.seria: , nr.  eliberat(a)\nMijlocul de transport nr. \nExpeditia s-a efectuat in prezenta noastra la\ndata de        29.10.2026        ora    \nSemnaturile\n \n \n"
+              },
+              {
+                "id": "b14d6240-9c1a-47da-8b39-789eecbbf558",
+                "name": "Fisa_tehnica_cfmoto-cforce-1000-x10-eps-premium-euro-5-26.pdf",
+                "size": 990218,
+                "content_type": "application/pdf",
+                "has_text": true,
+                "text_chars": 13,
+                "page_count": null,
+                "text": "NO_TEXT_FOUND"
+              },
+              {
+                "id": "6ebe840b-9fab-495e-be9a-8b8d1e802582",
+                "name": "x10 premium euro 5 royal blue.png",
+                "size": 282499,
+                "content_type": "image/png",
+                "has_text": true,
+                "text_chars": 656,
+                "page_count": null,
+                "text": "CFMOTO CFORCE 1000 X10 EPS Premium Euro 5+ '26\n□\nCompara\nReferinta: CF1000AU-2 EPS Premium\n\n\nAlege culoare: Royal Blue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRate 100% online\n\n\nRate cu dobanda 7.9% prin tbi bank\n\n\nLeasing cu *Marja 2.9% + Euribor la 3 luni\n\n\nCFMOTO - Cel mai vandut ATV din EUROPA\n\n\nGarantie 2+3 ani\n\n\nOmologare tip \"Euro5\"\n\n\nPosibilitate BUY BACK\n\n\nECHIVALAM ORICE PRET\n\n\nRate fara avans\nRRP: 11.231 €\n10.322 €\n(Fara TVA)\nRRP: 73.790 RON\n67.817 RON\n(TVA inclus)\n\n\nAi un pret mai bun? Echivalam orice pret!\nSOLICITA OFERTA\n\n\nADAUGA IN COS\n\n\n\n\n\n\nCUMPARA ACUM\n\n\n\n\nSolicitare publicare produs in SEAP\n\n\nSolicitare cerere de fonduri Europene\n\n\nCentru de inchiriere"
+              }
+            ],
+            "note": ""
+          },
+          "_meta": {
+            "io.modelcontextprotocol/serverInfo": {
+              "name": "EVA",
+              "title": "EVA — asistentul tău de email",
+              "version": "1.0.0",
+              "websiteUrl": "https://mail.eva-org.com",
+              "icons": [
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-512.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "512x512"
+                  ]
+                },
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-192.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "192x192"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "error": null,
+        "durationMs": 818
+      },
+      "created_at_ms": 1793652044434
+    },
+    {
+      "ordinal": 416,
+      "timestamp": "2026-11-02T20:40:47.721Z",
+      "turn_id": "01a19dfe-2414-7ba0-a027-62113e1aa7c5",
+      "item": {
+        "type": "mcpToolCall",
+        "id": "exec-c5d2c4ee-828f-4498-b1e3-e8de7d9e0589",
+        "server": "codex_apps",
+        "tool": "eva_mail.eva_get_download_link",
+        "status": "completed",
+        "arguments": {
+          "link_id": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "document_id": "28a45e13-8643-4ea0-8cea-4688c0bd289a",
+          "ttl_hours": 24
+        },
+        "appContext": {
+          "connectorId": "asdk_app_6aa3eadee6ec8191a9bc3b9608c0f1bc",
+          "linkId": "link_6ae19b6ebad08191ba9bbfe616469187",
+          "resourceUri": null,
+          "appName": "Eva-Mail",
+          "actionName": "eva_get_download_link"
+        },
+        "mcpAppUi": null,
+        "pluginId": null,
+        "readOnlyHint": true,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\n  \"url\": \"https://api.eva-org.com/api/v1/files/eyJkIjoiMjhhNDVlMTMtODY0My00ZWEwLThjZWEtNDY4OGMwYmQyODlhIiwiZSI6MTc5MzczODQ0OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.h4AW3y4eo7t08kq8QxUua3abBB9cTbGfUd9aenUhSn0\",\n  \"expires_at\": \"2026-11-03T20:40:48Z\",\n  \"filename\": \"Factura proforma - CMC cesiro production.PDF\",\n  \"size\": 68106,\n  \"mime\": \"application/pdf\",\n  \"note\": \"Show the user this link as a clickable URL (it opens without login). If YOU need the file bytes and cannot fetch URLs, call eva_download_attachment(attachment_id=<same id>, mode='base64') and reassemble the chunks — do not tell the user the file cannot be downloaded. When saving/attaching, name it by content (see suggested_filename), never by the raw id.\",\n  \"suggested_filename\": \"Factura Proforma Client CESIRO PRODUCTION S.R.L - 2026-10-30.pdf\"\n}"
+            }
+          ],
+          "structuredContent": {
+            "url": "https://api.eva-org.com/api/v1/files/eyJkIjoiMjhhNDVlMTMtODY0My00ZWEwLThjZWEtNDY4OGMwYmQyODlhIiwiZSI6MTc5MzczODQ0OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.h4AW3y4eo7t08kq8QxUua3abBB9cTbGfUd9aenUhSn0",
+            "expires_at": "2026-11-03T20:40:48Z",
+            "filename": "Factura proforma - CMC cesiro production.PDF",
+            "size": 68106,
+            "mime": "application/pdf",
+            "note": "Show the user this link as a clickable URL (it opens without login). If YOU need the file bytes and cannot fetch URLs, call eva_download_attachment(attachment_id=<same id>, mode='base64') and reassemble the chunks — do not tell the user the file cannot be downloaded. When saving/attaching, name it by content (see suggested_filename), never by the raw id.",
+            "suggested_filename": "Factura Proforma Client CESIRO PRODUCTION S.R.L - 2026-10-30.pdf"
+          },
+          "_meta": {
+            "io.modelcontextprotocol/serverInfo": {
+              "name": "EVA",
+              "title": "EVA — asistentul tău de email",
+              "version": "1.0.0",
+              "websiteUrl": "https://mail.eva-org.com",
+              "icons": [
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-512.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "512x512"
+                  ]
+                },
+                {
+                  "src": "https://mail.eva-org.com/icons/icon-192.png",
+                  "mimeType": "image/png",
+                  "sizes": [
+                    "192x192"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "error": null,
+        "durationMs": 550
+      },
+      "created_at_ms": 1793652047171
+    },
+    {
+      "ordinal": 419,
+      "timestamp": "2026-11-02T20:40:51.085Z",
+      "turn_id": "01a19dfe-2414-7ba0-a027-62113e1aa7c5",
+      "item": {
+        "type": "agentMessage",
+        "id": "msg_08928d1c60254550016ae8f55223548191ac25138afea5387d",
+        "text": "[Deschide factura proformă ATVRom nr. 24961 din 29.10.2026 (PDF original)](https://api.eva-org.com/api/v1/files/eyJkIjoiMjhhNDVlMTMtODY0My00ZWEwLThjZWEtNDY4OGMwYmQyODlhIiwiZSI6MTc5MzczODQ0OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.h4AW3y4eo7t08kq8QxUua3abBB9cTbGfUd9aenUhSn0)\n\n**Total: 198.547,47 lei cu TVA.** Proforma indică varianta **Premium Royal Blue**, în timp ce solicitarea preciza **CF1000AU-2 EPS Basic**. Linkul este valabil 24 de ore.",
+        "phase": "final_answer",
+        "memoryCitation": null,
+        "delivery": null,
+        "questions": null
+      },
+      "created_at_ms": 1793652048969
     }
   ]
 }

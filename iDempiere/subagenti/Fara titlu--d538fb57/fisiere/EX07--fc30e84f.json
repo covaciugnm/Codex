@@ -1,0 +1,861 @@
+{
+  "case": "Q-COM-01 / EX07",
+  "control": "EX07",
+  "base_source": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "plan": {
+    "path": "supliment_CESIRO1/Plan_CESIRO1_R3.json",
+    "sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef"
+  },
+  "gate": {
+    "path": "A11_gate_CESIRO1_R3.json",
+    "sha256": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c"
+  },
+  "code_provenance": {
+    "path": "supliment_CESIRO1/Copie_verificata_CESIRO1.json",
+    "sha256": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be"
+  },
+  "executor": "A07",
+  "peer": "A03",
+  "reviewer": "A11",
+  "peer_status": "MATERIAL_PREDAT_PENTRU_REVIZUIRE",
+  "self_score": null,
+  "created_utc": "2026-11-02T16:31:04.178Z",
+  "verdict": "DEFECTE DE CONTRACT ȘI DE STARE. HTTP produs și adaptor dovedite end-to-end până la DTO; persistarea pe același document ERP și acceptanța contabilă finală sunt parțiale.",
+  "end_to_end_scope": "Traseul dovedit direct este SursaCesiro1.deschide + client HTTP original → blueprint original /api/ext/v1/orders/ORD101?tenant=canal-a → PostgreSQL 16 prin _read_only_session. Nu se declară că ORD101 a creat în aceeași sesiune o factură ori o etichetă prin codul de producție.",
+  "origin_criteria": [
+    {
+      "task": "T20",
+      "canonical": null,
+      "target": [
+        "P01.C10.T0011"
+      ],
+      "criterion_source": "executie/R3/taskuri/Fisa_T20.json",
+      "norm_pointer": "#/disposition_admin/successors",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX07"
+    },
+    {
+      "task": "T22",
+      "canonical": null,
+      "target": [
+        "P01.C10.T0007"
+      ],
+      "criterion_source": "executie/R3/taskuri/Fisa_T22.json",
+      "norm_pointer": "#/disposition_admin/successors",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX07"
+    }
+  ],
+  "parent_links": [
+    {
+      "control": "A07.K02",
+      "pipeline": "A07.P1",
+      "owner": "A07",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/47/resolved_control_ids/1"
+    },
+    {
+      "control": "A07.K06",
+      "pipeline": "A07.P2",
+      "owner": "A07",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/48/resolved_control_ids/0"
+    },
+    {
+      "control": "A07.K12",
+      "pipeline": "A07.P3",
+      "owner": "A07",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/49/resolved_control_ids/1"
+    },
+    {
+      "control": "A07.K21",
+      "pipeline": "A07.P5",
+      "owner": "A07",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/51/resolved_control_ids/0"
+    },
+    {
+      "control": "A03.CK11",
+      "pipeline": "A03.PL03",
+      "owner": "A03",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/19/resolved_control_ids/2"
+    }
+  ],
+  "customer_requirement": "G2 pick și aviz, aprobare comercială ERP, AWB pe expediție și factură la validare sau după livrare reală fără retururi/probleme. Comisionarul vinde, responsabilul administrează în ERP.",
+  "actor_context": "Tenant test canal-a, martor canal-b cu aceeași referință ORD101; rol dedicat de citire prin API, worker pe clonă sintetică. GardenWorld are roluri 102/103 pentru probele native distincte. Nu s-au folosit date de client real.",
+  "catalog_origin": "ORD101 are EXT7 / CPP-1001 (2) și EXT8 / CPA-1002 (1), conform helperului semnat, fără deducție din SKU/EAN.",
+  "preparation": "8 capturi prin testclient pentru reconectare/negative și trei prin worker. În proba independentă wire două JAR-uri au folosit TransportDoarGet real la un server loopback. Worker original; singurul răspuns al furnizorului este fixture, iar trimiterea de notificări și conturile marketplace sunt suprimate.",
+  "production_reference": "6df998aee0e514d30856c461962afe99ebd0d113; CESIRO1 verificat prin manifest separat (850 fișiere). Datele înainte/după ale GET, hashuri de răspuns, stări și JAR-urile sunt în probe.",
+  "negative_coverage": {
+    "no_token": {
+      "stage": "no_api_key",
+      "url": "/api/ext/v1/orders/ORD101?tenant=canal-a",
+      "status": 401,
+      "before": "4|3|2|1",
+      "after": "4|3|2|1",
+      "detail": "unauthorized"
+    },
+    "same_provider": {
+      "accepted": false,
+      "sqlstate": "23505",
+      "constraint": "shipments_order_active_uk"
+    },
+    "foreign_child": {
+      "inserted": true,
+      "returned": true
+    },
+    "no_source_line": {
+      "inserted": true,
+      "api_null_line": true
+    },
+    "retry": {
+      "step": "duplicate",
+      "worker": {
+        "verificate": 0,
+        "schimbate": 0,
+        "livrate": 0,
+        "retur": 0
+      },
+      "detail": {
+        "order": "delivered",
+        "packages": [
+          [
+            "C1",
+            "delivered",
+            35
+          ],
+          [
+            "C2",
+            "in_transit",
+            22.87
+          ]
+        ],
+        "returns": 1,
+        "invoices": 0,
+        "payments": [
+          [
+            30,
+            "paid"
+          ]
+        ]
+      }
+    },
+    "stale_snapshot": "Fixture late_event_fixture a schimbat explicit starea sursei și este analizată distinct de workerul real. PreiaDinSite.expediere ignoră aceleași timestamp-uri, nu testează explicit mai vechi în filtrul local; nu s-a demonstrat import suprascris prin proces nativ.",
+    "net_cod": "Primul experiment a injectat intenționat date COD 40+50 față de totalul 87,87; este martor de reconciliere, nu cazul pozitiv. Experimentul numeric separat fixează avans 30 și COD pozitiv 35+22,87."
+  },
+  "test_cases": [
+    {
+      "case": "wire ACTUAL",
+      "input": "ORD101 comercial, două colete, COD 35+22,87, un avans 30, o factură și 1 unitate returnată din două bucăți de pe linia 1.",
+      "expected": "Contractul descrie facturile, liniile de retur, sursa și cantitățile; aceiași doi identificatori de colet ajung la adaptor.",
+      "actual": "Cele două JAR-uri au emis GET/200. 2 colete cu ID/TrackingNo/COD corecte. API-ul întoarce 1 factură emisă și 1 return_item cu qty=1. Detaliu.facturi întoarce [], iar DetaliuComanda.Retur expune doar id, stare, creat; procesul nu are aici linia/qty/aviz necesare.",
+      "evidence": [
+        "wire-result",
+        "wire-raw",
+        "fixture-trace",
+        "java-installed-delivered_one_return_partial"
+      ],
+      "status": "CONFIRMAT_HTTP_COMPONENTĂ; NECONFORM contract pentru acoperirea integrală a returului și a facturii proprie site-ului"
+    },
+    {
+      "case": "cash 87,87",
+      "input": "Plată în fixture de 30, suma rămasă 57,87. Prima expediție 35 a doua 22,87.",
+      "expected": "Cu plata parțială păstrată, suma COD totală rămâne 57,87 și se alocă numai pe expedițiile eligibile.",
+      "actual": "Shipping.cod_amount_for pentru comanda cu plată parțială returnează default 87,87; pentru status integral paid returnează 0. create_awb permite o valoare explicită în locul celei implicite. Nu s-a apelat furnizorul și nu s-a emis un AWB pe suma mare.",
+      "status": "DEFECT_COMPONENTĂ",
+      "evidence": [
+        "worker-result"
+      ]
+    },
+    {
+      "case": "livrat 1 din 2",
+      "input": "shipped, 2 colete în transport, retur aprobat. Un curier simulat raportează delivered pentru C1.",
+      "expected": "Starea integrală de livrare necesită toate expedițiile eligibile confirmate, iar politica întârziată rămâne oprită la colet în tranzit sau retur deschis.",
+      "actual": "Workerul real refresh_tracking a trecut comanda shipped→delivered cu C2 încă in_transit și retur aprobat. Poll repetat: 0 verificate, 0 tranziții noi; facturi sursă 0 în această probă. În consecință starea agregată nu este dovadă adecvată pentru activarea facturii.",
+      "status": "DEFECT_COMPORTAMENT_REPRODUS",
+      "evidence": [
+        "worker-result",
+        "numeric-first",
+        "numeric-duplicate"
+      ]
+    },
+    {
+      "case": "identitate colet simultan",
+      "input": "Două package_id și două TrackingNo distincte, același tenant/order/provider.",
+      "expected": "A doua expediție poate să aibă propriul colet, păstrând protecția împotriva reîncercărilor aceleiași emiteri.",
+      "actual": "Indexul shipments_order_active_uk refuză al doilea colet cu 23505. Cu doi provideri apar două rânduri; stări non-cancelled includ și delivered. Distingeți un singur AWB cu packages_count>1 de două expediții fizice distincte cu AWB-uri distincte.",
+      "status": "LIMITĂ_DE_MODEL_DOVEDITĂ",
+      "evidence": [
+        "fixture-trace"
+      ]
+    },
+    {
+      "case": "tenant copil inconsistent",
+      "input": "Fixture de date defecte intenționat: copil cu tenant B și order_id A.",
+      "expected": "Sursa blochează asocierea, ori detaliul tenantului A nu întoarce coletul tenantului B.",
+      "actual": "Inserare acceptată; în GET autorizat pentru canal-a și în ambele JAR-uri a apărut B-TRACK-for-A-order. Martor corect canal-b păstrează propriul ORD101. Fără cheie se întoarce 401.",
+      "status": "DEFECT_SEPARARE_CONDIȚIONAT_DE_DATE",
+      "evidence": [
+        "foreign_child",
+        "java-installed-foreign_child",
+        "other_tenant",
+        "no_api_key"
+      ]
+    },
+    {
+      "case": "retur fără linie + cantitate cumulată",
+      "input": "return_item NULL → http/JAR. Probe native pe aviz 100, respectiv 101.",
+      "expected": "Pentru un retur comercial cunoscut sunt necesare linia exactă și plafonul cumulat; autorizat nu înseamnă primit.",
+      "actual": "API permite return_item fără linie; Java utilizează numai antetul. În Garden A07: fără sursă 2 CO din 1 livrat, cu sursă refuz. Pe sursa 101 de 2, două autorizații 2+2 ambele CO cu QtyDelivered=0; acestea nu sunt retururi recepționate.",
+      "status": "DEFECT_CONFIRMAT_ÎN_PROBE_SEPARATE",
+      "evidence": [
+        "without_order_line",
+        "java-installed-without_order_line"
+      ]
+    }
+  ],
+  "policy_matrix": [
+    {
+      "policy": "la validare internă",
+      "event": "approved=true numai în ERP",
+      "expected": "C_Invoice eligibilă după aprobarea internă, idempotent pe liniile expediate.",
+      "observed": "GET /orders/{ref} nu certifică acea aprobare. R1 generator T22 creează factură după CO. Nu s-a înregistrat aprobare/comandă ORD101 end-to-end pe ERP."
+    },
+    {
+      "policy": "la livrare fără incidente",
+      "event": "un colet delivered, unul in_transit, retur approved",
+      "expected": "0 facturi eligibile până la rezolvarea incidențelor conform politicii și granularității configurate.",
+      "observed": "Workerul a transmis delivered pentru comandă; în fixture numeric au rămas 0 facturi în sursă. Returul și coletul rămas împiedică recunoașterea comenzii integral livrate. R1 T22 nu verifică POD în ramura CO; nu s-a produs o factură în ERP pentru această comandă."
+    }
+  ],
+  "handoff_table": [
+    [
+      "API shipments.id/package_id/tracking_number",
+      "PreiaDinSite.expediere pe (AD_Client_ID,EVA_Sursa,EVA_IdExtern)",
+      "M_Package și M_PackageLine de pe M_InOut la nivel de linie. Nicio mapare dovedită pentru acest id extern concret; sursa și reconcilierea trebuie să păstreze o cheie separată per expediție."
+    ],
+    [
+      "return_items.order_item_id,qty",
+      "DetaliuComanda.Retur păstrează id/status/created_at",
+      "M_RMALine.M_InOutLine_ID plus Qty; R2 A07 reproduce pierderea și garda cumulativă."
+    ],
+    [
+      "invoices.series/number/external_ref",
+      "Detaliu.facturi citește facturi/attachments din payload marketplace autorizat",
+      "C_Invoice/C_InvoiceLine pe aviz, cu ID nativ și cheie externă separată; nu echivala CTG-RO 2932 cu ID ERP."
+    ],
+    [
+      "payments și COD pe expediție",
+      "MotorCorelare verifică 90/8/82 în alt martor",
+      "C_Payment/C_AllocationHdr/C_BankStatement cu rol și status eligibil, fără dublarea avansului."
+    ]
+  ],
+  "actions": [
+    "A08/A01: FK compus pe tenant și părinte sau validare la scriere, plus predicate tenant în GET pentru fiecare copil și legături ale liniilor. Includeți testul rândului corupt.",
+    "A07/A02: decideți cardinalitatea expediție versus colet/AWB. Unicitate pe identitatea de business a emiterii; return_items cu sursă obligatorie pentru retururi comerciale; rezervare cumulată sub blocare.",
+    "A06/A07: factura propriu-zisă din sales.invoices și liniile returului trebuie transportate prin contract versionat, ori documentată explicit neaplicabilitatea pentru fluxul respectiv.",
+    "A03/A07: suma COD reziduală după plăți și avans, alocare per expediție, confirmare granulară și politică versionată înainte de facturare. Nu generați a doua factură în ERP dacă cea din sursă este exclusiv oglindă.",
+    "A11: reproduceți comparatorul cu ambele variante de colet, tenant diferit, plata 30, prima livrare și worker duplicat."
+  ],
+  "frontend": "Ecranul operatorului nu a fost parcurs pentru ORD101. Contract testat la API/worker/DB; nu se atașează o captură UX ca substitut pentru confirmarea de livrare.",
+  "native_evidence": [
+    {
+      "path": "R2_zone/A07/A07_raport.json",
+      "sha256": "1f65dab4c56d1f1aa3523e8e1e6c879e33ada2182a347ae7a974a29b243d233d"
+    },
+    {
+      "path": "Reverificare_retur_concurent_colete.json",
+      "sha256": "0a19fa8c3a6b63624fcab645c6c6bd002cf2af830aae76cafedb7550350083e8"
+    },
+    {
+      "path": "Reverificare_alocare_incasari_stari.json",
+      "sha256": "2f6297678fd27b77d42296d3994cfcf8a4eab89e801671a92442314346088a1c"
+    },
+    {
+      "path": "R2_zone/A04/native-return.json",
+      "sha256": "cb7da0781fb8aec06cefaf649b7d327b47c4e8846f61d0ac1c973e1e07205258"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/before_delivery.json",
+      "sha256": "71bffef10831aa7b19b02ae25f9094dfd3c0a5ceea97443f914d39d6267289a7"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/cesiro-ext07.py",
+      "sha256": "a8b3ad89680244f38e327e38d84257d683ce6528b1fdbab79fb1f65bc4914d08"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/cod_mismatch.json",
+      "sha256": "ecfb38592d5c46738dbdcb200b5ec214e6d8546c789c1fcbab60cc5be0b0f140"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/delivered_one_return_partial.json",
+      "sha256": "93eab17ddebc78017098504be3cf3fbf402bfb7815bca29bb00b36d1e3aac0ab"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/Ex07Actual.java",
+      "sha256": "b6406163b1354da4941ea8773dd5ce355fd7c87c539af80769cc93432b238665"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/Ex07Wire.java",
+      "sha256": "94cc0cf3ee402fcaf230b14df2ee8682850feb15b979c3d93b2d6fd85608cfd0"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/fixture-trace.json",
+      "sha256": "02f15d0d82f29f8d3535db7f7b9448d29a3cd4e5eb60eb252ebd3380d6190aac"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/foreign_child.json",
+      "sha256": "1892f33924853c4776cd7444411ef349bb157e11f4220776f2d38e024d701515"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-before_delivery.json",
+      "sha256": "b64e80e17cc22801c281f489923f0d8b676e33e88fdde80f098e7eb652c49d26"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-cod_mismatch.json",
+      "sha256": "7755eb9ce19fa4e223b02bde10bd8074a8051fda19b2417da73a08f382c8b393"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-delivered_one_return_partial.json",
+      "sha256": "5c49c820dde3cff037834e4a7bee6417d93531a86c173c79687515edbde2def1"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-foreign_child.json",
+      "sha256": "668d300ea6a94305206630abad0de6662bf598f193c4670e8f4b3f3d59be2d81"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-late_event_fixture.json",
+      "sha256": "9839f0093bf4d5dd40cb38ea93cbf10bf8a82460309228dcf948bb4a18a2397a"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-numeric-before.json",
+      "sha256": "49dcb087e8addf47e67760b8ccf2937783b90aa205e9f0be7e3d004459ae20df"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-numeric-duplicate.json",
+      "sha256": "13cb9cae753dad8c4b22266d28e5f7fb5fac84320758ce5fc5d910d42f9631fd"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-numeric-first.json",
+      "sha256": "13cb9cae753dad8c4b22266d28e5f7fb5fac84320758ce5fc5d910d42f9631fd"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-other_tenant.json",
+      "sha256": "68007aab992b0aa7e9a1fd6f8898c6b2f10163affec07c24f74e0afbc10d981f"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-repeat_same_snapshot.json",
+      "sha256": "5c49c820dde3cff037834e4a7bee6417d93531a86c173c79687515edbde2def1"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-without_order_line.json",
+      "sha256": "668d300ea6a94305206630abad0de6662bf598f193c4670e8f4b3f3d59be2d81"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-before_delivery.json",
+      "sha256": "b64e80e17cc22801c281f489923f0d8b676e33e88fdde80f098e7eb652c49d26"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-cod_mismatch.json",
+      "sha256": "7755eb9ce19fa4e223b02bde10bd8074a8051fda19b2417da73a08f382c8b393"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-delivered_one_return_partial.json",
+      "sha256": "5c49c820dde3cff037834e4a7bee6417d93531a86c173c79687515edbde2def1"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-foreign_child.json",
+      "sha256": "668d300ea6a94305206630abad0de6662bf598f193c4670e8f4b3f3d59be2d81"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-late_event_fixture.json",
+      "sha256": "9839f0093bf4d5dd40cb38ea93cbf10bf8a82460309228dcf948bb4a18a2397a"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-numeric-before.json",
+      "sha256": "49dcb087e8addf47e67760b8ccf2937783b90aa205e9f0be7e3d004459ae20df"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-numeric-duplicate.json",
+      "sha256": "13cb9cae753dad8c4b22266d28e5f7fb5fac84320758ce5fc5d910d42f9631fd"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-numeric-first.json",
+      "sha256": "13cb9cae753dad8c4b22266d28e5f7fb5fac84320758ce5fc5d910d42f9631fd"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-other_tenant.json",
+      "sha256": "68007aab992b0aa7e9a1fd6f8898c6b2f10163affec07c24f74e0afbc10d981f"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-repeat_same_snapshot.json",
+      "sha256": "5c49c820dde3cff037834e4a7bee6417d93531a86c173c79687515edbde2def1"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-without_order_line.json",
+      "sha256": "668d300ea6a94305206630abad0de6662bf598f193c4670e8f4b3f3d59be2d81"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/late_event_fixture.json",
+      "sha256": "7141f6ae32073921fbd3ea00fa0aec00f38b753397efa0640aff8d7c83e5a6c7"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/no_api_key.json",
+      "sha256": "30624152ba8457df4c58eea788397993fb2b402ca91f9596323f72b53aa95190"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/numeric-before.json",
+      "sha256": "86b7c748373704a9ac936ac05e86d95dcb4e69cb32ef3d0e3ab45a1870456cdf"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/numeric-duplicate.json",
+      "sha256": "951855520f3de0ab78fbcd8ca5aa3564c8c59bec0bffad4fcf7cc0f3e658979c"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/numeric-first.json",
+      "sha256": "951855520f3de0ab78fbcd8ca5aa3564c8c59bec0bffad4fcf7cc0f3e658979c"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/other_tenant.json",
+      "sha256": "41e65c18d9e8235340d8835d5da739cd830029711156785551415b5240c1a309"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/repeat_same_snapshot.json",
+      "sha256": "93eab17ddebc78017098504be3cf3fbf402bfb7815bca29bb00b36d1e3aac0ab"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/wire-raw.json",
+      "sha256": "7ba4487c6df1d4d034078347bce946650abdebb0b1ea7991d4d1aecf0b5f4bfa"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/wire-result.json",
+      "sha256": "d10786ff62e0c35834b6e0bef44c1489c718b65122e2bb63f8c6727cae1f59a5"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/wire-test.py",
+      "sha256": "e406a4699c0ed0f7ed379165768a2b24ca7a29375eb269d9142d080fb0ff640d"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/without_order_line.json",
+      "sha256": "4e397a364fab2366b875055874011516cf22ca7f6dbfc2ff4460bd509f2da011"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/worker-result.json",
+      "sha256": "61a4d28a051db3ff280d74d04a863bc058cc255762250a843ccf4ad69db1c4b9"
+    },
+    {
+      "path": "supliment_CESIRO1/probe/EX07-evidence/worker-test.py",
+      "sha256": "cc3ea01aab30a3918ba84ec50584689d32c318b5a56bea2862fe584b94b6c1d4"
+    }
+  ],
+  "direct_wire_sha256": [
+    "7ba4487c6df1d4d034078347bce946650abdebb0b1ea7991d4d1aecf0b5f4bfa",
+    "7ba4487c6df1d4d034078347bce946650abdebb0b1ea7991d4d1aecf0b5f4bfa"
+  ],
+  "jar_parity": [
+    {
+      "stage": "before_delivery",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/before_delivery.json",
+        "sha256": "71bffef10831aa7b19b02ae25f9094dfd3c0a5ceea97443f914d39d6267289a7"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-before_delivery.json",
+        "sha256": "b64e80e17cc22801c281f489923f0d8b676e33e88fdde80f098e7eb652c49d26"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-before_delivery.json",
+        "sha256": "b64e80e17cc22801c281f489923f0d8b676e33e88fdde80f098e7eb652c49d26"
+      }
+    },
+    {
+      "stage": "delivered_one_return_partial",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/delivered_one_return_partial.json",
+        "sha256": "93eab17ddebc78017098504be3cf3fbf402bfb7815bca29bb00b36d1e3aac0ab"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-delivered_one_return_partial.json",
+        "sha256": "5c49c820dde3cff037834e4a7bee6417d93531a86c173c79687515edbde2def1"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-delivered_one_return_partial.json",
+        "sha256": "5c49c820dde3cff037834e4a7bee6417d93531a86c173c79687515edbde2def1"
+      }
+    },
+    {
+      "stage": "repeat_same_snapshot",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/repeat_same_snapshot.json",
+        "sha256": "93eab17ddebc78017098504be3cf3fbf402bfb7815bca29bb00b36d1e3aac0ab"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-repeat_same_snapshot.json",
+        "sha256": "5c49c820dde3cff037834e4a7bee6417d93531a86c173c79687515edbde2def1"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-repeat_same_snapshot.json",
+        "sha256": "5c49c820dde3cff037834e4a7bee6417d93531a86c173c79687515edbde2def1"
+      }
+    },
+    {
+      "stage": "late_event_fixture",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/late_event_fixture.json",
+        "sha256": "7141f6ae32073921fbd3ea00fa0aec00f38b753397efa0640aff8d7c83e5a6c7"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-late_event_fixture.json",
+        "sha256": "9839f0093bf4d5dd40cb38ea93cbf10bf8a82460309228dcf948bb4a18a2397a"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-late_event_fixture.json",
+        "sha256": "9839f0093bf4d5dd40cb38ea93cbf10bf8a82460309228dcf948bb4a18a2397a"
+      }
+    },
+    {
+      "stage": "cod_mismatch",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/cod_mismatch.json",
+        "sha256": "ecfb38592d5c46738dbdcb200b5ec214e6d8546c789c1fcbab60cc5be0b0f140"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-cod_mismatch.json",
+        "sha256": "7755eb9ce19fa4e223b02bde10bd8074a8051fda19b2417da73a08f382c8b393"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-cod_mismatch.json",
+        "sha256": "7755eb9ce19fa4e223b02bde10bd8074a8051fda19b2417da73a08f382c8b393"
+      }
+    },
+    {
+      "stage": "foreign_child",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/foreign_child.json",
+        "sha256": "1892f33924853c4776cd7444411ef349bb157e11f4220776f2d38e024d701515"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-foreign_child.json",
+        "sha256": "668d300ea6a94305206630abad0de6662bf598f193c4670e8f4b3f3d59be2d81"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-foreign_child.json",
+        "sha256": "668d300ea6a94305206630abad0de6662bf598f193c4670e8f4b3f3d59be2d81"
+      }
+    },
+    {
+      "stage": "without_order_line",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/without_order_line.json",
+        "sha256": "4e397a364fab2366b875055874011516cf22ca7f6dbfc2ff4460bd509f2da011"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-without_order_line.json",
+        "sha256": "668d300ea6a94305206630abad0de6662bf598f193c4670e8f4b3f3d59be2d81"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-without_order_line.json",
+        "sha256": "668d300ea6a94305206630abad0de6662bf598f193c4670e8f4b3f3d59be2d81"
+      }
+    },
+    {
+      "stage": "other_tenant",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/other_tenant.json",
+        "sha256": "41e65c18d9e8235340d8835d5da739cd830029711156785551415b5240c1a309"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-other_tenant.json",
+        "sha256": "68007aab992b0aa7e9a1fd6f8898c6b2f10163affec07c24f74e0afbc10d981f"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-other_tenant.json",
+        "sha256": "68007aab992b0aa7e9a1fd6f8898c6b2f10163affec07c24f74e0afbc10d981f"
+      }
+    },
+    {
+      "stage": "numeric-before",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/numeric-before.json",
+        "sha256": "86b7c748373704a9ac936ac05e86d95dcb4e69cb32ef3d0e3ab45a1870456cdf"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-numeric-before.json",
+        "sha256": "49dcb087e8addf47e67760b8ccf2937783b90aa205e9f0be7e3d004459ae20df"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-numeric-before.json",
+        "sha256": "49dcb087e8addf47e67760b8ccf2937783b90aa205e9f0be7e3d004459ae20df"
+      }
+    },
+    {
+      "stage": "numeric-first",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/numeric-first.json",
+        "sha256": "951855520f3de0ab78fbcd8ca5aa3564c8c59bec0bffad4fcf7cc0f3e658979c"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-numeric-first.json",
+        "sha256": "13cb9cae753dad8c4b22266d28e5f7fb5fac84320758ce5fc5d910d42f9631fd"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-numeric-first.json",
+        "sha256": "13cb9cae753dad8c4b22266d28e5f7fb5fac84320758ce5fc5d910d42f9631fd"
+      }
+    },
+    {
+      "stage": "numeric-duplicate",
+      "same_output": true,
+      "input": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/numeric-duplicate.json",
+        "sha256": "951855520f3de0ab78fbcd8ca5aa3564c8c59bec0bffad4fcf7cc0f3e658979c"
+      },
+      "master": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-master-numeric-duplicate.json",
+        "sha256": "13cb9cae753dad8c4b22266d28e5f7fb5fac84320758ce5fc5d910d42f9631fd"
+      },
+      "installed": {
+        "path": "supliment_CESIRO1/probe/EX07-evidence/java-installed-numeric-duplicate.json",
+        "sha256": "13cb9cae753dad8c4b22266d28e5f7fb5fac84320758ce5fc5d910d42f9631fd"
+      }
+    }
+  ],
+  "jar_hashes_native": [
+    {
+      "jar": "cod-master-contab.jar",
+      "sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69"
+    },
+    {
+      "jar": "com.eva.ro.contab_13.0.0.jar",
+      "sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2"
+    }
+  ],
+  "cleanup": "Cele trei clone de test CESIRO1 au fost create și închise prin create_fixture/close_fixture. Cererile GET nu au schimbat numărul documentelor. Procesarea workerului s-a făcut pe transportul de test; notificările și inițierea apelurilor către marketplace au fost interceptate. Nicio etichetă reală și nicio operație externă.",
+  "at_closure_vs_now": "T20 și T22 păstrează istoricul închiderii administrative. Constatările prezente descriu versiunea analizată. Nu se acordă retroactiv un verdict general pentru implementările T216 și T220.",
+  "close_condition": "A03 trebuie să verifice independent rezultatele pentru factură, avans și condiția de livrare. A11 trebuie să aplice rubrica aprobată. Nu s-a atribuit o notă.",
+  "source_anchors": [
+    {
+      "corpus": "CESIRO1",
+      "file": "backend/app/api/external_orders.py",
+      "sha256": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c",
+      "symbols": [
+        {
+          "symbol": "def order_detail",
+          "line": 262
+        },
+        {
+          "symbol": "for key, table, order_col in _ORDER_CHILDREN",
+          "line": 279
+        },
+        {
+          "symbol": "WHERE x.order_id = CAST(:o AS uuid)",
+          "line": 288
+        },
+        {
+          "symbol": "FROM sales.return_items x WHERE x.return_id",
+          "line": 294
+        },
+        {
+          "symbol": "def _read_only_session()",
+          "line": 112
+        }
+      ]
+    },
+    {
+      "corpus": "CESIRO1",
+      "file": "database/migrations/sql/0029_shipments.sql",
+      "sha256": "f4298717d70da6ce9229fd4bc043e450d403ad3c47a591092ea5657fc5ba8eec",
+      "symbols": [
+        {
+          "symbol": "CREATE UNIQUE INDEX IF NOT EXISTS shipments_order_active_uk",
+          "line": 63
+        },
+        {
+          "symbol": "CREATE POLICY superadmin_all",
+          "line": 91
+        }
+      ]
+    },
+    {
+      "corpus": "CESIRO1",
+      "file": "database/migrations/sql/0001_initial.sql",
+      "sha256": "93f6e8bb1e555a7fb70a40d58fa3fa39056404ebc3dc52d4d1d263c96181eacc",
+      "symbols": [
+        {
+          "symbol": "CREATE TABLE sales.return_items",
+          "line": 832
+        },
+        {
+          "symbol": "order_item_id bigint REFERENCES sales.order_items",
+          "line": 835
+        },
+        {
+          "symbol": "CREATE UNIQUE INDEX invoices_order_uk",
+          "line": 853
+        }
+      ]
+    },
+    {
+      "corpus": "CESIRO1",
+      "file": "backend/app/integrations/baselinker/shipping.py",
+      "sha256": "3d58aa483832e314d3fb4b2d2bbd515e67f0c4d4f7d78264bae27c8d8b5fde92",
+      "symbols": [
+        {
+          "symbol": "def cod_amount_for",
+          "line": 340
+        },
+        {
+          "symbol": "cod_value = float(cod if cod is not None else cod_amount_for(order))",
+          "line": 404
+        },
+        {
+          "symbol": "def refresh_tracking",
+          "line": 668
+        },
+        {
+          "symbol": "if state == \"delivered\" and auto_delivered:",
+          "line": 736
+        },
+        {
+          "symbol": "if apply_status(session, tenant_id, row, \"delivered\"",
+          "line": 738
+        }
+      ]
+    },
+    {
+      "corpus": "EVA Git",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SursaCesiro1.java",
+      "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8",
+      "symbols": [
+        {
+          "symbol": "public Detaliu detaliu(String id)",
+          "line": 253
+        },
+        {
+          "symbol": "static Detaliu detaliu(Object j",
+          "line": 198
+        },
+        {
+          "symbol": "return new Detaliu(f, livrari",
+          "line": 213
+        },
+        {
+          "symbol": "static List<ExpediereSursa> livrari",
+          "line": 186
+        }
+      ]
+    },
+    {
+      "corpus": "EVA Git",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/DetaliuComanda.java",
+      "sha256": "17bd13da0d2e91e96dfe9cb3f86d94d5cc29d27d49131d079cda5e5a70ab39ec",
+      "symbols": [
+        {
+          "symbol": "public record Retur(",
+          "line": 45
+        },
+        {
+          "symbol": "ret.add(new Retur",
+          "line": 136
+        }
+      ]
+    },
+    {
+      "corpus": "EVA Git",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823",
+      "symbols": [
+        {
+          "symbol": "d = s.detaliu(c.id())",
+          "line": 344
+        },
+        {
+          "symbol": "int idEva = comanda(ctx",
+          "line": 346
+        },
+        {
+          "symbol": "AD_Client_ID=? AND EVA_Sursa=? AND EVA_IdExtern=?",
+          "line": 330
+        },
+        {
+          "symbol": "actualizat.equals(p.get_Value(\"EVA_ActualizatSursa\"))",
+          "line": 466
+        },
+        {
+          "symbol": "p.set_ValueOfColumn(\"EVA_StareColet\"",
+          "line": 481
+        }
+      ]
+    },
+    {
+      "corpus": "EVA Git",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/GeneratorDocumente.java",
+      "sha256": "fdfc21ef59a5886a558403ff3b480ee2e0fca88d28456aa120676530ecae5131",
+      "symbols": [
+        {
+          "symbol": "switch (Culegere.dupaComplete",
+          "line": 554
+        },
+        {
+          "symbol": "return facturaSiLegaturi(ctx",
+          "line": 563
+        },
+        {
+          "symbol": "o.setBill_Location_ID(bp[1])",
+          "line": 393
+        }
+      ]
+    }
+  ],
+  "native_ids_details": {
+    "RMA_legitimate": {
+      "sale_shipment": 100,
+      "sale_line": 100,
+      "qty_shipped": 1,
+      "linked_RMA": 1000001,
+      "physical_return_inout": 1000000,
+      "first_complete": "IP",
+      "confirmation": 1000000,
+      "final_docstatus": "CO"
+    },
+    "two_parcels": {
+      "source_line": 101,
+      "qty_shipped": 2,
+      "packages": [
+        1000001,
+        1000002
+      ],
+      "qty_per_package": [
+        1,
+        1
+      ],
+      "rma_headers": [
+        1000002,
+        1000003
+      ],
+      "qty_authorised": [
+        2,
+        2
+      ],
+      "qty_received": [
+        0,
+        0
+      ]
+    },
+    "supplier_control": {
+      "independent_credit_id": 1000018,
+      "owner": "A04 / A03",
+      "evidence": "R2_zone/A04/native-return.json; document furnizor, nu factură de client ORD101"
+    },
+    "correlation": "În cazul CU ORD101, ID-urile native de mai sus sunt martori separați. Nu s-a observat înregistrarea efectivă în iDempiere a acelui order UUID prin SvrProcess."
+  }
+}

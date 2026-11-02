@@ -1,0 +1,948 @@
+{
+  "reviewer": "A11",
+  "source": "R3_zone/A10/A10_raport.json",
+  "sha256": "387cebd98f4e6e5c19e7220b46466aed4dad8a991096eed0698730364f8dc402",
+  "gate": "RELUARE; F04/F10 confirmate în fixturile individuale",
+  "quality_score": 7.0,
+  "verified_subchecks": 35,
+  "out_of": 50,
+  "R2_quality": 6.4,
+  "product_score": null,
+  "rubric": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "earned": 1.0,
+      "subchecks": [
+        {
+          "id": "QC01-R1",
+          "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC01-R2",
+          "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC01-R3",
+          "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC01-R4",
+          "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC01-R5",
+          "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ],
+      "rationale": "40 artefacte și scripturile, 28 controale, 6 fluxuri. Din 48 referințe C15, 42 fișe sunt efectiv în populația finală R7, șase sunt în inventarul capitolului cu altă stare."
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "earned": 0.2,
+      "subchecks": [
+        {
+          "id": "QC02-R1",
+          "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC02-R2",
+          "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC02-R3",
+          "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC02-R4",
+          "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC02-R5",
+          "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+          "earned": 0,
+          "R2": 0.0
+        }
+      ],
+      "rationale": "R7 și momentul istoric sunt separate prin amprente. F10 rămâne raportat la titularul UX; acoperirea textuală nu dovedește toate sarcinile."
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "earned": 0.4,
+      "subchecks": [
+        {
+          "id": "QC03-R1",
+          "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC03-R2",
+          "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+          "earned": 0.2,
+          "R2": 0.0
+        },
+        {
+          "id": "QC03-R3",
+          "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC03-R4",
+          "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC03-R5",
+          "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ],
+      "rationale": "Mesaj de succes reprodus independent cu JS original și martor already=false ca diferențiere de deja existent. Calea de eroare păstrează modalul. QC03-R2 acordat pentru această probă. Nu se creditează conexiunea live cu DB prin browserul controlat."
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC04-R1",
+          "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC04-R2",
+          "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC04-R3",
+          "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+          "earned": 0.2,
+          "R2": 0.0
+        },
+        {
+          "id": "QC04-R4",
+          "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC04-R5",
+          "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+          "earned": 0,
+          "R2": 0.0
+        }
+      ],
+      "rationale": "După commit, partenerul nativ rămâne unic și identic între retry, GET UUID și catalog. Oglinda/receipt-ul inițial nu sunt reparate prin API disponibil. QC04-R3 acum acceptat pentru citiri după efect; nu se deduce flux de restaurare instalat."
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC05-R1",
+          "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC05-R2",
+          "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC05-R3",
+          "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC05-R4",
+          "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC05-R5",
+          "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ],
+      "rationale": "Două sesiuni reale PG ale procedurii experimentale au dat adopted/replayed; 1 cheie și 1 oglindă după experiment. Negative distincte, exact aceeași identitate înregistrată. Defectul F04 rămâne."
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "earned": 0.4,
+      "subchecks": [
+        {
+          "id": "QC06-R1",
+          "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC06-R2",
+          "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC06-R3",
+          "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC06-R4",
+          "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC06-R5",
+          "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+          "earned": 0,
+          "R2": 0.0
+        }
+      ],
+      "rationale": "Procesul de recuperare după un efect nativ este legat la UUID. Produsul nu a închis automat acest flux; recuperarea operatorului și integrarea CESIRO1 sunt delimitate."
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "earned": 1.0,
+      "subchecks": [
+        {
+          "id": "QC07-R1",
+          "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC07-R2",
+          "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC07-R3",
+          "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC07-R4",
+          "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC07-R5",
+          "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ],
+      "rationale": "Tenant greșit, corp schimbat și UUID diferit sunt refuzate în experiment și au stare nemodificată; nu sunt protecții postulate pentru toate rutele instalate."
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC08-R1",
+          "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC08-R2",
+          "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC08-R3",
+          "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC08-R4",
+          "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC08-R5",
+          "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ],
+      "rationale": "Reutilizarea căutării native după UUID/Value este probată; implementarea unei adopții atomice nu este în produsul fixat."
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC09-R1",
+          "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC09-R2",
+          "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC09-R3",
+          "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC09-R4",
+          "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC09-R5",
+          "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ],
+      "rationale": "Timpii restaurați în laborator sunt 130 s și 33 s downtime, fără țintă de RTO/RPO. Nu este probată achitarea unui SLA și nu există pierdere maximă demonstrată."
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC10-R1",
+          "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC10-R2",
+          "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC10-R3",
+          "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC10-R4",
+          "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+          "earned": 0.2,
+          "R2": 0.0
+        },
+        {
+          "id": "QC10-R5",
+          "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+          "earned": 0,
+          "R2": 0.0
+        }
+      ],
+      "rationale": "Reexecuția cerută la R2 este completă ca investigație: regăsire nativă, retry normal și adopție experimentală separate. S-au căutat, fără a inventa, obiectivele RTO/RPO. QC10-R4 acordat în această arie; verificările funcționale deschise rămân în program."
+    }
+  ],
+  "verified": {
+    "source_index_hashes": 40,
+    "code_script_hashes": 9,
+    "C15_domain": 48,
+    "C15_final_R7": 42,
+    "additional_chapter_not_in_final_R7": {
+      "T247": "integrat",
+      "T248": "integrat",
+      "T249": "integrat",
+      "T250": "integrat",
+      "T349": "neînceput",
+      "T356": "neînceput"
+    },
+    "partner_readback": {
+      "native_uuid": "01a19d62-7a29-7f8b-9650-4943cd112a12",
+      "native_id": "1000004",
+      "original_http_500_retry_http_500": true,
+      "catalog_http201_returned_already": true,
+      "stock_products_or_partners_created_by_retry": 0,
+      "fresh_receipt_before_operator": 0,
+      "mirror_before_operator": 0,
+      "operator_adopted_replayed": true,
+      "after_synthetic_operator_retry": 201,
+      "operator_is_audit_prototype": true
+    },
+    "independent_UX_probe": {
+      "artifact": "A11_reproduceri_A10R3/ux_independent.json",
+      "hash": "b6226c3c6acb8fca22e09bd6dbe084e6cfb9a25ecabfcc6aa4d4a862d23c5016",
+      "fixture_hash": "1f0130283d01b57740b71ab6669c5832e6d89f946bb0a0a7be43fa7486bfc0d6",
+      "first_three_test_messages": [
+        "✅ Creat în iDempiere — ID 1000004",
+        "✅ Creat în iDempiere — ID 1000004",
+        "✅ Creat în iDempiere — ID 1000004"
+      ],
+      "negative_fourth_modal_remains": true,
+      "level": "Handler JavaScript fixat, DOM și răspunsuri simulate din probele REST originale. Chrome original separat."
+    },
+    "RTO_RPO": {
+      "real_repost": {
+        "invoice": 1000015,
+        "line": 1000013,
+        "http": 200,
+        "status": [
+          [
+            "CO",
+            "Y"
+          ]
+        ],
+        "scheme_postings": [
+          [
+            "101",
+            "2",
+            "23.75",
+            "23.75"
+          ],
+          [
+            "200000",
+            "2",
+            "20.19",
+            "20.19"
+          ]
+        ]
+      },
+      "attachment_identical": true,
+      "code_scope": "GardenWorld izolat. Baza din copia salvată a înlocuit baza activă a cabinetului de test. Aplicația a repornit pe baza restaurată cu același plugin și aceleași drepturi native.",
+      "test_seconds": 130,
+      "test_ERP_downtime": 33,
+      "role_negative": 403,
+      "known_target": "Niciun prag contractual identificat în cele 2332 fișiere text descrise. Timpii de 130s și 33s sunt două observații distincte ale singurului exercițiu. Pierderea tolerată și intervalul până la recuperare nu au țintă aprobată în dosar.",
+      "rpo": "Witnessurile de la momentul backup restaurate identic. Fereastra reală dintre copii și pierderea tolerată după ultimele tranzacții sunt necunoscute.",
+      "limits": "Fișierul anexat, două scheme contabile, rolurile și postarea unei facturi noi au fost verificate. JAR-ul a fost reutilizat din imaginea de test existentă, nu recreat din backup. Duratele sunt ale laboratorului, fără obiectiv SLA pentru producție. Nu declară recuperarea unei alte instanțe sau un exercițiu DR cu centre de date separate."
+    }
+  },
+  "controls": [
+    {
+      "id": "A10-CK-01",
+      "observed": [
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Delta între ediții nu este singură o eroare de implementare.",
+        "Eșantion materializat, nu stabilește identitate completă a întregii imagini."
+      ],
+      "state": "PARTIAL",
+      "open": "Validarea exactă a istoricului build/livrării pentru fiecare cabinet și ramurile UI la versiunile vechi.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-02",
+      "observed": [
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Delta între ediții nu este singură o eroare de implementare.",
+        "Limitele rubricii native sunt moștenite."
+      ],
+      "state": "PARTIAL",
+      "open": "Echivalența OSGi/class loader pentru fiecare metodă și toate configurațiile multi-bundle.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-03",
+      "observed": [
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Limitele rubricii native sunt moștenite.",
+        "Delta între ediții nu este singură o eroare de implementare."
+      ],
+      "state": "PARTIAL",
+      "open": "Nu s-a dovedit versiunea sursă exactă a întregului build core din martie și toate semnăturile de business folosite de fiecare document.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-04",
+      "observed": [
+        "Constatare a zonei A05, citată pentru readiness.",
+        "5 cabinete; nu stabilește execuția fiecărui simbol."
+      ],
+      "state": "PARTIAL",
+      "open": "Rularea dublă AD pe două versiuni complete, întreruperea și reconcilierea duplicatelor pentru toate obiectele cerute.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-05",
+      "observed": [
+        "Build Maven real, OSGi și deploy nu sunt exercițiul acestor teste.",
+        "Raportul inițial nu înlocuiește reluările țintite.",
+        "Delta între ediții nu este singură o eroare de implementare."
+      ],
+      "state": "PARTIAL",
+      "open": "Build reproductibil complet, inclusiv injectarea unei clase vechi și verificarea JAR-ului încărcat în OSGi.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-06",
+      "observed": [
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Constatare a zonei A05, citată pentru readiness.",
+        "Delta între ediții nu este singură o eroare de implementare."
+      ],
+      "state": "PARTIAL",
+      "open": "Upgrade parțial intenționat și login/smoke pe clone distincte pentru fiecărui cabinet.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-07",
+      "observed": [
+        "Fără modificări ale cozii reale."
+      ],
+      "state": "PARTIAL",
+      "open": "Caz simultan pe ultimul slot și variație sub prag de RAM în fixture.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-08",
+      "observed": [
+        "Fără modificări ale cozii reale.",
+        "Defect de infrastructură reprodus în scenariul nume/TTY."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "A11 reproduce separat validarea numelui și clasificarea sesiunii.",
+      "linked_findings": [
+        "A10-F01",
+        "A10-F02"
+      ]
+    },
+    {
+      "id": "A10-CK-09",
+      "observed": [
+        "Fără modificări ale cozii reale."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Nu s-au făcut montări de producție. Fereastra de transfer între două montări reale rămâne neexercitată.",
+      "linked_findings": [
+        "A10-F01"
+      ]
+    },
+    {
+      "id": "A10-CK-10",
+      "observed": [
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site.",
+        "5 cabinete; nu stabilește execuția fiecărui simbol.",
+        "Raportul inițial nu înlocuiește reluările țintite.",
+        "Rezultat de comparație pentru infrastructură.",
+        "Defect de infrastructură reprodus în scenariul nume/TTY."
+      ],
+      "state": "PARTIAL",
+      "open": "Verificare exhaustivă a schedulere-lor și a montărilor tuturor sui­telor de partener.",
+      "linked_findings": [
+        "A10-F02"
+      ]
+    },
+    {
+      "id": "A10-CK-11",
+      "observed": [
+        "Build Maven real, OSGi și deploy nu sunt exercițiul acestor teste.",
+        "Raportul inițial nu înlocuiește reluările țintite."
+      ],
+      "state": "PARTIAL",
+      "open": "Cei doi mutanți exacți pentru toate suitele de efecte operaționale și falsul succes UI.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-12",
+      "observed": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Raportul inițial nu înlocuiește reluările țintite."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Starea celorlalte PO native la crash rămâne nedovedită. Nu se inferă două efecte în cabinet.",
+      "linked_findings": [
+        "A10-F03"
+      ]
+    },
+    {
+      "id": "A10-CK-13",
+      "observed": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Starea celorlalte PO native la crash rămâne nedovedită. Nu se inferă două efecte în cabinet.",
+      "linked_findings": [
+        "A10-F04",
+        "A10-F10"
+      ]
+    },
+    {
+      "id": "A10-CK-14",
+      "observed": [
+        "Raportul inițial nu înlocuiește reluările țintite.",
+        "Distincte de benchmarkul A10; proveniență proprie."
+      ],
+      "state": "PARTIAL",
+      "open": "Transportul semnat prin procesul ERP, de la început la sfârșit, cu evenimente inverse și retururi.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-15",
+      "observed": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Starea celorlalte PO native la crash rămâne nedovedită. Nu se inferă două efecte în cabinet.",
+      "linked_findings": [
+        "A10-F04",
+        "A10-F10"
+      ]
+    },
+    {
+      "id": "A10-CK-16",
+      "observed": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Suprafața tuturor registrelor de erori, vizibilitatea prin UI și eventualul secret real din câmpurile respective.",
+      "linked_findings": [
+        "A10-F06"
+      ]
+    },
+    {
+      "id": "A10-CK-17",
+      "observed": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Raportul inițial nu înlocuiește reluările țintite."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Sesiuni suprapuse simulate, nu doi workeri compleți și provider extern.",
+      "linked_findings": [
+        "A10-F05"
+      ]
+    },
+    {
+      "id": "A10-CK-18",
+      "observed": [
+        "Raportul inițial nu înlocuiește reluările țintite.",
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate."
+      ],
+      "state": "PARTIAL",
+      "open": "Backoff 429 Retry-After, 503 și erori definitive pe toate adaptoarele, cu aviz operator.",
+      "linked_findings": [
+        "A10-F05"
+      ]
+    },
+    {
+      "id": "A10-CK-19",
+      "observed": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Constatare a zonei A05, citată pentru readiness."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Influența acestui endpoint asupra unei sonde de deploy depinde de consumator. Nicio stare contabilă reală nu e inferată.",
+      "linked_findings": [
+        "A10-F07",
+        "A10-F10"
+      ]
+    },
+    {
+      "id": "A10-CK-20",
+      "observed": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Raportul inițial nu înlocuiește reluările țintite."
+      ],
+      "state": "PARTIAL",
+      "open": "Alarma operator și recuperare automată a unui job blocat sunt neconfirmate.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-21",
+      "observed": [
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site."
+      ],
+      "state": "PARTIAL",
+      "open": "Nu demonstrează backup fizic simultan al tuturor volumelor Spree, toate cabinetele și toate anexele.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-22",
+      "observed": [
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site."
+      ],
+      "state": "PARTIAL",
+      "open": "Anexa a fost redeschisă prin endpoint-ul ERP sub rol verificat; nu există captură de utilizator în browser pentru acest pas.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-23",
+      "observed": [
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site."
+      ],
+      "state": "PARTIAL",
+      "open": "JAR-ul a fost reutilizat din imagine, nu recuperat exclusiv din backup. SLA/RTO/RPO de producție lipsesc.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-24",
+      "observed": [
+        "Distincte de benchmarkul A10; proveniență proprie.",
+        "Inventar la data probei.",
+        "Schemă martor și fișier sintetic, nu backup integral ERP sau site."
+      ],
+      "state": "PARTIAL",
+      "open": "Arhivare realizată de auditor; fără dovadă de produs pentru proprietăți Redis/Meili/Spree ori automatizare de restaurare.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-25",
+      "observed": [
+        "Măsurare locală fără CDN/DB nativ; prag intern nu este SLA de producție."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Timpul utilizatorului final cu CDN, browser și ERP ori capacitatea comercială pe producție.",
+      "linked_findings": [
+        "A10-F09"
+      ]
+    },
+    {
+      "id": "A10-CK-26",
+      "observed": [
+        "Măsurare locală fără CDN/DB nativ; prag intern nu este SLA de producție."
+      ],
+      "state": "FAIL_DOVEDIT",
+      "open": "Export complet simultan cu scrieri, plan SQL și ordinea paginării tuturor endpointurilor.",
+      "linked_findings": [
+        "A10-F08"
+      ]
+    },
+    {
+      "id": "A10-CK-27",
+      "observed": [
+        "Măsurare locală fără CDN/DB nativ; prag intern nu este SLA de producție.",
+        "Distincte de benchmarkul A10; proveniență proprie."
+      ],
+      "state": "PARTIAL",
+      "open": "Inducerea lentorii la motorul extern și verificarea restaurării căutării în UI după timeout.",
+      "linked_findings": []
+    },
+    {
+      "id": "A10-CK-28",
+      "observed": [
+        "ERP și identitatea sunt simulate conform condițiilor înregistrate.",
+        "Amprenta/citirea automată nu echivalează cu analiza semantică a fiecărei linii.",
+        "Nu extind verificarea la rute care n-au fost testate.",
+        "Distincte de benchmarkul A10; proveniență proprie."
+      ],
+      "state": "PARTIAL",
+      "open": "Confirmarea exhaustivă a drepturilor și limitelor de intrare pe toate cele 117 suprafețe de responsabilitate A10.",
+      "linked_findings": []
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A10-F01",
+      "state": "PARTIAL",
+      "observed": "Proveniența JAR diferă Git/CESIRO și au fost verificate amprentele pe 5 cabinete. Instalarea de probă și testul AD repetabil complet sunt încă necesare.",
+      "remaining": [
+        "Validarea exactă a istoricului build/livrării pentru fiecare cabinet și ramurile UI la versiunile vechi.",
+        "Echivalența OSGi/class loader pentru fiecare metodă și toate configurațiile multi-bundle.",
+        "Nu s-a dovedit versiunea sursă exactă a întregului build core din martie și toate semnăturile de business folosite de fiecare document.",
+        "Rularea dublă AD pe două versiuni complete, întreruperea și reconcilierea duplicatelor pentru toate obiectele cerute.",
+        "Build reproductibil complet, inclusiv injectarea unei clase vechi și verificarea JAR-ului încărcat în OSGi.",
+        "Upgrade parțial intenționat și login/smoke pe clone distincte pentru fiecărui cabinet."
+      ],
+      "full_E2E": false
+    },
+    {
+      "id": "A10-F02",
+      "state": "FAIL_DOVEDIT",
+      "observed": "Coada admite limitele și FIFO în replica izolată. Panoul de eliberare acceptă traversare pe ambele scripturi, iar clasificarea orfan poate opri un test activ.",
+      "remaining": [
+        "Caz simultan pe ultimul slot și variație sub prag de RAM în fixture.",
+        "A11 reproduce separat validarea numelui și clasificarea sesiunii.",
+        "Nu s-au făcut montări de producție. Fereastra de transfer între două montări reale rămâne neexercitată.",
+        "Verificare exhaustivă a schedulere-lor și a montărilor tuturor sui­telor de partener.",
+        "Cei doi mutanți exacți pentru toate suitele de efecte operaționale și falsul succes UI."
+      ],
+      "full_E2E": false
+    },
+    {
+      "id": "A10-F03",
+      "state": "FAIL_DOVEDIT",
+      "observed": "POST /partners a creat C_BPartner și a pierdut receipt local după injecție. Retry a întors 500 păstrând 1 ID/UUID, 0 mirror, 0 chei ale endpointului. În corpul delimitat pentru acest endpoint, cele două alternative nu închid cheile celeilalte operații. Lipsa unui receipt durabil lasă identitatea cererii originale incompletă chiar dacă partenerul este regăsit.",
+      "remaining": [
+        "Starea celorlalte PO native la crash rămâne nedovedită. Nu se inferă două efecte în cabinet.",
+        "Starea celorlalte PO native la crash rămâne nedovedită. Nu se inferă două efecte în cabinet.",
+        "Transportul semnat prin procesul ERP, de la început la sfârșit, cu evenimente inverse și retururi.",
+        "Starea celorlalte PO native la crash rămâne nedovedită. Nu se inferă două efecte în cabinet.",
+        "Suprafața tuturor registrelor de erori, vizibilitatea prin UI și eventualul secret real din câmpurile respective."
+      ],
+      "full_E2E": false
+    },
+    {
+      "id": "A10-F04",
+      "state": "FAIL_DOVEDIT",
+      "observed": "SQLite în doi pași și apoi două sesiuni PostgreSQL suprapuse au revendicat același identificator și au produs două rezultate. În PostgreSQL identificatorul este A10-TEST. Readiness rămâne HTTP200 cu reachable false. T03 are gardă în memorie JVM. Două conexiuni distincte în test nu probează excludere între două JVM. Cele două probleme de concurență au mecanisme diferite.",
+      "remaining": [
+        "Sesiuni suprapuse simulate, nu doi workeri compleți și provider extern.",
+        "Backoff 429 Retry-After, 503 și erori definitive pe toate adaptoarele, cu aviz operator.",
+        "Influența acestui endpoint asupra unei sonde de deploy depinde de consumator. Nicio stare contabilă reală nu e inferată.",
+        "Alarma operator și recuperare automată a unui job blocat sunt neconfirmate."
+      ],
+      "full_E2E": false
+    },
+    {
+      "id": "A10-F05",
+      "state": "PARTIAL",
+      "observed": "Restaurare GardenWorld cu anexa, rol, digest JAR și factură postată în două scheme. Restore separat al unui canal Flask cu conservarea B. Sunt probe de laborator. Politicile RPO/RTO comerciale nu sunt stabilite. Martorii și postarea au fost măsurați în clonă, iar RPO/RTO sunt nedeterminate în lipsa unei politici aprobate.",
+      "remaining": [
+        "Nu demonstrează backup fizic simultan al tuturor volumelor Spree, toate cabinetele și toate anexele.",
+        "Anexa a fost redeschisă prin endpoint-ul ERP sub rol verificat; nu există captură de utilizator în browser pentru acest pas.",
+        "JAR-ul a fost reutilizat din imagine, nu recuperat exclusiv din backup. SLA/RTO/RPO de producție lipsesc.",
+        "Arhivare realizată de auditor; fără dovadă de produs pentru proprietăți Redis/Meili/Spree ori automatizare de restaurare."
+      ],
+      "full_E2E": false
+    },
+    {
+      "id": "A10-F06",
+      "state": "FAIL_DOVEDIT",
+      "observed": "Concurența 10 la 10k depășește pragul intern. Valori invalide întorc 500 în catalog. Canarii au rămas separați în ambele contexte din proba măsurată.",
+      "remaining": [
+        "Timpul utilizatorului final cu CDN, browser și ERP ori capacitatea comercială pe producție.",
+        "Export complet simultan cu scrieri, plan SQL și ordinea paginării tuturor endpointurilor.",
+        "Inducerea lentorii la motorul extern și verificarea restaurării căutării în UI după timeout.",
+        "Confirmarea exhaustivă a drepturilor și limitelor de intrare pe toate cele 117 suprafețe de responsabilitate A10."
+      ],
+      "full_E2E": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "A10-F01",
+      "source_state": "DESCHIS",
+      "disposition": "MENȚINUT_PE_DOVADA_VERIFICATĂ",
+      "controls": [
+        "A10-CK-08",
+        "A10-CK-09"
+      ]
+    },
+    {
+      "id": "A10-F02",
+      "source_state": "DESCHIS",
+      "disposition": "MENȚINUT_PE_DOVADA_VERIFICATĂ",
+      "controls": [
+        "A10-CK-08",
+        "A10-CK-10"
+      ]
+    },
+    {
+      "id": "A10-F03",
+      "source_state": "DESCHIS",
+      "disposition": "MENȚINUT_PE_DOVADA_VERIFICATĂ",
+      "controls": [
+        "A10-CK-12"
+      ]
+    },
+    {
+      "id": "A10-F04",
+      "source_state": "DESCHIS",
+      "disposition": "F04_CONFIRMAT_ORFAN_NATIVE_UNIC_RECEIPT_ORIGINAL_ABSENT; NU_EXISTĂ_DUPLICAT_PROBAT",
+      "controls": [
+        "A10-CK-13",
+        "A10-CK-15"
+      ]
+    },
+    {
+      "id": "A10-F05",
+      "source_state": "DESCHIS",
+      "disposition": "MENȚINUT_PE_DOVADA_VERIFICATĂ",
+      "controls": [
+        "A10-CK-17",
+        "A10-CK-18"
+      ]
+    },
+    {
+      "id": "A10-F06",
+      "source_state": "DESCHIS",
+      "disposition": "MENȚINUT_PE_DOVADA_VERIFICATĂ",
+      "controls": [
+        "A10-CK-16"
+      ]
+    },
+    {
+      "id": "A10-F07",
+      "source_state": "DESCHIS",
+      "disposition": "MENȚINUT_PE_DOVADA_VERIFICATĂ",
+      "controls": [
+        "A10-CK-19"
+      ]
+    },
+    {
+      "id": "A10-F08",
+      "source_state": "DESCHIS",
+      "disposition": "MENȚINUT_PE_DOVADA_VERIFICATĂ",
+      "controls": [
+        "A10-CK-26"
+      ]
+    },
+    {
+      "id": "A10-F09",
+      "source_state": "DESCHIS",
+      "disposition": "MENȚINUT_PE_DOVADA_VERIFICATĂ",
+      "controls": [
+        "A10-CK-25"
+      ]
+    },
+    {
+      "id": "A10-F10",
+      "source_state": "DESCHIS",
+      "disposition": "F10_CONFIRMAT_MESAJ_UI_INCORECT_LA_ALREADY_TRUE; ACEEAȘI_IDENTITATE",
+      "controls": [
+        "A10-CK-13",
+        "A10-CK-15",
+        "A10-CK-19"
+      ]
+    }
+  ],
+  "required": [
+    "Testează după corecție o recuperare instalată la aceeași cheie și tenant/UUID, cu lipsa și schimbarea identității, retry după commit și două tranzacții simultane. Programul din laborator rămâne probă pentru proiectarea soluției.",
+    "Predă F10 la A09 cu trei rezultate UI diferențiate: nou, regăsit, eroare. Verifică interfața autentificată până la readback DB pe aceeași operație.",
+    "Pentru acceptarea obiectivelor de recuperare, titularul stabilește praguri și componentele acoperite, inclusiv reconstrucția JAR/start serviciu. Timpii observați și fișierul restaurat sunt probe separate."
+  ]
+}

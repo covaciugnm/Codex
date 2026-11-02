@@ -1,0 +1,558 @@
+{
+  "schema": "A08-R3-index-erata/1",
+  "utc": "2026-11-02T17:41:36.393Z",
+  "reader": "Citește R3 împreună cu erata. Indexul combinat recalculează graful complet pentru constatările locale A08; referințele transversale A01/A06 rămân lizibile în controale/fluxuri. Oriunde apare C05↔P03, legătura se limitează la OWN-W-GUEST.",
+  "inputs": [
+    {
+      "id": "r3",
+      "path": "executie/R3_zone/A08/A08_raport.json",
+      "sha256": "9ad85559dc071920d0bb7bd75720489da621fd2beba14d7c9ea0da235ce823d0"
+    },
+    {
+      "id": "a11",
+      "path": "executie/A11_control_A08_R3.json",
+      "sha256": "c2ae2e2241e526dd5542e922ba8ef02da48e8f7778abdea416ef90973de07c99"
+    },
+    {
+      "id": "plan",
+      "path": "A08_plan.json",
+      "sha256": "dce61fdc9a94ca209010032b30cde26777d01e90bdc70e28ebef65ba5282863a"
+    },
+    {
+      "id": "fixture",
+      "path": "executie/A08/fixture_rezultate.json",
+      "sha256": "6364fda90f16962a6a32e4dddafec4e70b78ce662ee02e30d508c7c16cd1d735"
+    },
+    {
+      "id": "probe",
+      "path": "executie/A08/probe_A08.py",
+      "sha256": "243854d624bee7a3a142bac8a883e75a8445f9578fac54fd8fa968d07de5d7b1"
+    },
+    {
+      "id": "sourceManifest",
+      "path": "D:/CodexWork/eva-audit-p01-readonly-20261102/SOURCE_MANIFEST.json",
+      "sha256": "92913cb2d26fc933e17b8946651f0750518c868a6f73ebdf3cd7f96b39ac8b8a"
+    },
+    {
+      "id": "cms",
+      "path": "D:/CodexWork/eva-audit-p01-readonly-20261102/frontend/storefront/app/cms.py",
+      "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf"
+    },
+    {
+      "id": "factory",
+      "path": "D:/CodexWork/eva-audit-p01-readonly-20261102/frontend/storefront/app/factory.py",
+      "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795"
+    },
+    {
+      "id": "erratum",
+      "path": "executie/R3_zone/A08/Erata_F03_R3.json",
+      "sha256": "a890da467d7ff274c9338e7d8051eab58ae9d5b31f274545edc1de772bb7320d"
+    }
+  ],
+  "counts": {
+    "controls": 27,
+    "pipelines": 7,
+    "local_findings": 11,
+    "local_findings_orphan_after": 0
+  },
+  "new_functional_tests": 0,
+  "effective_control_index": [
+    {
+      "id": "A08-C01",
+      "findings": [
+        "A01.F13"
+      ],
+      "pipeline_ids": [
+        "A08-P01"
+      ]
+    },
+    {
+      "id": "A08-C02",
+      "findings": [],
+      "pipeline_ids": [
+        "A08-P01"
+      ]
+    },
+    {
+      "id": "A08-C03",
+      "findings": [
+        "A08-F08"
+      ],
+      "pipeline_ids": [
+        "A08-P01"
+      ]
+    },
+    {
+      "id": "A08-C04",
+      "findings": [
+        "A08-F01",
+        "A08-F08"
+      ],
+      "pipeline_ids": [
+        "A08-P01"
+      ]
+    },
+    {
+      "id": "A08-C05",
+      "findings": [
+        "A08-F01",
+        "A08-F03"
+      ],
+      "pipeline_ids": [
+        "A08-P01",
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-C06",
+      "findings": [
+        "A06-F01"
+      ],
+      "pipeline_ids": [
+        "A08-P02"
+      ]
+    },
+    {
+      "id": "A08-C07",
+      "findings": [
+        "A08-F10",
+        "A06-F05"
+      ],
+      "pipeline_ids": [
+        "A08-P02"
+      ]
+    },
+    {
+      "id": "A08-C08",
+      "findings": [
+        "A06-F03",
+        "A06-F07"
+      ],
+      "pipeline_ids": [
+        "A08-P02"
+      ]
+    },
+    {
+      "id": "A08-C09",
+      "findings": [
+        "A08-F07"
+      ],
+      "pipeline_ids": [
+        "A08-P02"
+      ]
+    },
+    {
+      "id": "A08-C10",
+      "findings": [
+        "A06-F05"
+      ],
+      "pipeline_ids": [
+        "A08-P02"
+      ]
+    },
+    {
+      "id": "A08-C11",
+      "findings": [
+        "A08-F02"
+      ],
+      "pipeline_ids": [
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-C12",
+      "findings": [
+        "A06-F05",
+        "A08-F10"
+      ],
+      "pipeline_ids": [
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-C13",
+      "findings": [
+        "A06-F02"
+      ],
+      "pipeline_ids": [
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-C14",
+      "findings": [
+        "A08-F01",
+        "A08-F11"
+      ],
+      "pipeline_ids": [
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-C15",
+      "findings": [
+        "A08-F09",
+        "A08-F10"
+      ],
+      "pipeline_ids": [
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-C16",
+      "findings": [
+        "A08-F06"
+      ],
+      "pipeline_ids": [
+        "A08-P04"
+      ]
+    },
+    {
+      "id": "A08-C17",
+      "findings": [
+        "A08-F04"
+      ],
+      "pipeline_ids": [
+        "A08-P04"
+      ]
+    },
+    {
+      "id": "A08-C18",
+      "findings": [
+        "A08-F05"
+      ],
+      "pipeline_ids": [
+        "A08-P04"
+      ]
+    },
+    {
+      "id": "A08-C19",
+      "findings": [],
+      "pipeline_ids": [
+        "A08-P05"
+      ]
+    },
+    {
+      "id": "A08-C20",
+      "findings": [],
+      "pipeline_ids": [
+        "A08-P05"
+      ]
+    },
+    {
+      "id": "A08-C21",
+      "findings": [
+        "A08-F01",
+        "A08-F07"
+      ],
+      "pipeline_ids": [
+        "A08-P05"
+      ]
+    },
+    {
+      "id": "A08-C22",
+      "findings": [],
+      "pipeline_ids": [
+        "A08-P06"
+      ]
+    },
+    {
+      "id": "A08-C23",
+      "findings": [
+        "A08-F06"
+      ],
+      "pipeline_ids": [
+        "A08-P06"
+      ]
+    },
+    {
+      "id": "A08-C24",
+      "findings": [],
+      "pipeline_ids": [
+        "A08-P06"
+      ]
+    },
+    {
+      "id": "A08-C25",
+      "findings": [
+        "A06-F02",
+        "A08-F07"
+      ],
+      "pipeline_ids": [
+        "A08-P07"
+      ]
+    },
+    {
+      "id": "A08-C26",
+      "findings": [],
+      "pipeline_ids": [
+        "A08-P07"
+      ]
+    },
+    {
+      "id": "A08-C27",
+      "findings": [],
+      "pipeline_ids": [
+        "A08-P07"
+      ]
+    }
+  ],
+  "effective_pipeline_index": [
+    {
+      "id": "A08-P01",
+      "controls": [
+        "A08-C01",
+        "A08-C02",
+        "A08-C03",
+        "A08-C04",
+        "A08-C05"
+      ],
+      "findings": [
+        "A01.F13",
+        "A08-F08",
+        "A08-F01"
+      ]
+    },
+    {
+      "id": "A08-P02",
+      "controls": [
+        "A08-C06",
+        "A08-C07",
+        "A08-C08",
+        "A08-C09",
+        "A08-C10"
+      ],
+      "findings": [
+        "A06-F01",
+        "A08-F10",
+        "A06-F05",
+        "A06-F03",
+        "A06-F07",
+        "A08-F07"
+      ]
+    },
+    {
+      "id": "A08-P03",
+      "controls": [
+        "A08-C11",
+        "A08-C12",
+        "A08-C13",
+        "A08-C14",
+        "A08-C15",
+        "A08-C05"
+      ],
+      "findings": [
+        "A08-F02",
+        "A06-F05",
+        "A08-F10",
+        "A06-F02",
+        "A08-F01",
+        "A08-F11",
+        "A08-F09",
+        "A08-F03"
+      ]
+    },
+    {
+      "id": "A08-P04",
+      "controls": [
+        "A08-C16",
+        "A08-C17",
+        "A08-C18"
+      ],
+      "findings": [
+        "A08-F06",
+        "A08-F04",
+        "A08-F05"
+      ]
+    },
+    {
+      "id": "A08-P05",
+      "controls": [
+        "A08-C19",
+        "A08-C20",
+        "A08-C21"
+      ],
+      "findings": [
+        "A08-F01",
+        "A08-F07"
+      ]
+    },
+    {
+      "id": "A08-P06",
+      "controls": [
+        "A08-C22",
+        "A08-C23",
+        "A08-C24"
+      ],
+      "findings": [
+        "A08-F06"
+      ]
+    },
+    {
+      "id": "A08-P07",
+      "controls": [
+        "A08-C25",
+        "A08-C26",
+        "A08-C27"
+      ],
+      "findings": [
+        "A06-F02",
+        "A08-F07"
+      ]
+    }
+  ],
+  "reverse_local_finding_index": [
+    {
+      "id": "A08-F01",
+      "controls": [
+        "A08-C04",
+        "A08-C05",
+        "A08-C14",
+        "A08-C21"
+      ],
+      "pipelines": [
+        "A08-P01",
+        "A08-P03",
+        "A08-P05"
+      ]
+    },
+    {
+      "id": "A08-F02",
+      "controls": [
+        "A08-C11"
+      ],
+      "pipelines": [
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-F03",
+      "controls": [
+        "A08-C05"
+      ],
+      "pipelines": [
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-F04",
+      "controls": [
+        "A08-C17"
+      ],
+      "pipelines": [
+        "A08-P04"
+      ]
+    },
+    {
+      "id": "A08-F05",
+      "controls": [
+        "A08-C18"
+      ],
+      "pipelines": [
+        "A08-P04"
+      ]
+    },
+    {
+      "id": "A08-F06",
+      "controls": [
+        "A08-C16",
+        "A08-C23"
+      ],
+      "pipelines": [
+        "A08-P04",
+        "A08-P06"
+      ]
+    },
+    {
+      "id": "A08-F07",
+      "controls": [
+        "A08-C09",
+        "A08-C21",
+        "A08-C25"
+      ],
+      "pipelines": [
+        "A08-P02",
+        "A08-P05",
+        "A08-P07"
+      ]
+    },
+    {
+      "id": "A08-F08",
+      "controls": [
+        "A08-C03",
+        "A08-C04"
+      ],
+      "pipelines": [
+        "A08-P01"
+      ]
+    },
+    {
+      "id": "A08-F09",
+      "controls": [
+        "A08-C15"
+      ],
+      "pipelines": [
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-F10",
+      "controls": [
+        "A08-C07",
+        "A08-C12",
+        "A08-C15"
+      ],
+      "pipelines": [
+        "A08-P02",
+        "A08-P03"
+      ]
+    },
+    {
+      "id": "A08-F11",
+      "controls": [
+        "A08-C14"
+      ],
+      "pipelines": [
+        "A08-P03"
+      ]
+    }
+  ],
+  "delta_edge_scope": [
+    {
+      "a": "A08-F03",
+      "b": "A08-C05",
+      "type": "finding_control",
+      "subcase": "OWN-W-GUEST"
+    },
+    {
+      "a": "A08-F03",
+      "b": "A08-P03",
+      "type": "finding_pipeline",
+      "subcase": "OWN-W-GUEST"
+    },
+    {
+      "a": "A08-C05",
+      "b": "A08-P03",
+      "type": "cross_control_pipeline",
+      "subcase": "OWN-W-GUEST"
+    },
+    {
+      "a": "A08-C05",
+      "b": "A08-P01",
+      "type": "original_control_pipeline",
+      "subcase": "PLAN_ORIGINAL"
+    }
+  ],
+  "new_finding_assignments": {
+    "A08-F03": {
+      "controls": [
+        "A08-C05"
+      ],
+      "pipelines": [
+        "A08-P03"
+      ]
+    }
+  },
+  "quality_score_assigned_here": null,
+  "review": "Înaintat spre A11 pentru reverificare."
+}

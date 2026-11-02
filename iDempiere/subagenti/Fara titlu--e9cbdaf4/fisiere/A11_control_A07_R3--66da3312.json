@@ -1,0 +1,772 @@
+{
+  "reviewer": "A11",
+  "source": "R3_zone/A07/A07_raport.json",
+  "sha256": "f25a89eee10d9f02df20b3e791e5f43f6f65eb78c6a1d837ca3a5cd245d89c2a",
+  "gate": "RELUARE; A07-F09 confirmat la nivelul porții de decontare",
+  "quality_score": 6.8,
+  "subchecks": 34,
+  "out_of": 50,
+  "R2_quality": 6.6,
+  "product_score": null,
+  "criteria": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "earned": 1.0,
+      "rationale": "27 controale și șase fluxuri, nouă constatări; probe versionate cu continuitate R2 și EX07 și marcate după R7.",
+      "subchecks": [
+        {
+          "id": "QC01-R1",
+          "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC01-R2",
+          "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC01-R3",
+          "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC01-R4",
+          "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC01-R5",
+          "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "earned": 0.2,
+      "rationale": "T06-R2-005/006 în registrul R7 nu aveau execuție. Au acum separat două teste de componentă cu 24 și 6 marcaje. Nu demonstrează închiderea din trecut.",
+      "subchecks": [
+        {
+          "id": "QC02-R1",
+          "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC02-R2",
+          "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC02-R3",
+          "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC02-R4",
+          "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC02-R5",
+          "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+          "earned": 0,
+          "R2": 0.0
+        }
+      ]
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "earned": 0.2,
+      "rationale": "ROL, AWB, ramburs și restituire nu au parcurs interfața cu aceeași identitate în toate situațiile. Creditați numai fixture-ul simulat.",
+      "subchecks": [
+        {
+          "id": "QC03-R1",
+          "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC03-R2",
+          "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC03-R3",
+          "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC03-R4",
+          "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC03-R5",
+          "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "earned": 0.8,
+      "rationale": "A07-F09 este dovedit în logică reală MotorCorelare/AplicareDecont. Relația dintre alocări și identitatea coletului este verificată la nivelul declarat. Nu se deduce postare contabilă.",
+      "subchecks": [
+        {
+          "id": "QC04-R1",
+          "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC04-R2",
+          "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC04-R3",
+          "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC04-R4",
+          "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC04-R5",
+          "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+          "earned": 0,
+          "R2": 0.0
+        }
+      ]
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "earned": 0.8,
+      "rationale": "La returul nativ, mișcările și Fact_Acct au rămas identice la retry; nu se confundă cele două probe bancare după R7 cu efect nativ identic.",
+      "subchecks": [
+        {
+          "id": "QC05-R1",
+          "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC05-R2",
+          "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC05-R3",
+          "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC05-R4",
+          "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC05-R5",
+          "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "earned": 0.6,
+      "rationale": "Cazul S1, Q și decontul de curier au ID-uri și condiții diferite. Rămân deschise plata/factura/AWB pe aceeași origine.",
+      "subchecks": [
+        {
+          "id": "QC06-R1",
+          "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC06-R2",
+          "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC06-R3",
+          "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC06-R4",
+          "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC06-R5",
+          "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "earned": 1.0,
+      "rationale": "Atacul RMA păstrează DOI tenant/cabinete cu CUI comun și key cunoscută. Actorul cabinet/rol și dependența ERP sunt alocate la titular.",
+      "subchecks": [
+        {
+          "id": "QC07-R1",
+          "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC07-R2",
+          "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC07-R3",
+          "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC07-R4",
+          "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC07-R5",
+          "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "earned": 1.0,
+      "rationale": "Reutilizare M_InOut/RMA, C_Payment și C_AllocationHdr. Comparația brut/net se face per colet înainte de postare standard.",
+      "subchecks": [
+        {
+          "id": "QC08-R1",
+          "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC08-R2",
+          "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC08-R3",
+          "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC08-R4",
+          "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC08-R5",
+          "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "earned": 0.6,
+      "rationale": "Test originale și reexecuția independentă, șase permutări noi × două JAR-uri. Nicio concluzie de performanță globală.",
+      "subchecks": [
+        {
+          "id": "QC09-R1",
+          "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC09-R2",
+          "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC09-R3",
+          "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC09-R4",
+          "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC09-R5",
+          "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+          "earned": 0.2,
+          "R2": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "earned": 0.6,
+      "rationale": "Constatările au reexecuții, condiții, efect, limite și remediere nativă. F09 și F06 sunt calificate distinct la titular. Acord QC10-R1. Rămân cereri metodologice end-to-end deschise.",
+      "subchecks": [
+        {
+          "id": "QC10-R1",
+          "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+          "earned": 0.2,
+          "R2": 0.0
+        },
+        {
+          "id": "QC10-R2",
+          "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC10-R3",
+          "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+          "earned": 0.2,
+          "R2": 0.2
+        },
+        {
+          "id": "QC10-R4",
+          "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+          "earned": 0,
+          "R2": 0.0
+        },
+        {
+          "id": "QC10-R5",
+          "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+          "earned": 0,
+          "R2": 0.0
+        }
+      ]
+    }
+  ],
+  "num": {
+    "distinct_EVs_files_rehashed": 23,
+    "source_files": 6,
+    "base_control_count": 27,
+    "base_flows": 6,
+    "findings": 9
+  },
+  "proof": {
+    "COD_original": "Originalul cu 40/50 și comisioane 3/5: 37+45 = 82. Schimbate 50/40, 47+35 = 82; diferența brută per colet totalizează 20 absolut. Poarta acceptă și cazul schimbat.",
+    "independent_new_permutations": "Alte trei colete 31,57,73, costuri 3,5,4, valoare netă 149. În fiecare JAR, 6 permutări trimit același total. Cinci permutări greșite (abateri absolute 32,52,84,84,84) trec poarta. Plata existentă sau alt total bancar blochează în toate șase.",
+    "qualifier": "Funcțiile reale sunt apelate direct pe cele două JAR-uri. Absența gărzii per colet în acest traseu nu dovedește o postare, pagubă sau colectare greșită în exploatare.",
+    "bank_native_after_r7": {
+      "ids": [
+        "T06-R2-005",
+        "T06-R2-006"
+      ],
+      "new_builds": [
+        "T06-R2-005 block cumulative ok=24 fail=0",
+        "T06-R2-006 block ok=6 fail=0"
+      ],
+      "scope": "Am recompilat cu TestComparatieSaga.java original; R7 rămâne înghețat. Nu este o probă de debit real sau citire din bancă."
+    },
+    "local_evidence_sha256": {
+      "cash_primary.json": "c83c15df06f503e8d76ee9cb26b96cf7cdcbe3153a7ea8c3c995cc8a4bde9825",
+      "bank_primary.json": "d45abdc807cf42b5d5b3e11f08706994c143ad7e7c12d0370fb2189b8d755057",
+      "CashMatrix.java": "b45b4a63df6ed7c24b85416d9722dab0fa5d4adc66e021109434bdde54154b94",
+      "cash.py": "45c0e9cd5943e8cc9a9afe97c20b88f64bbd8f2c8c65ac8d1dd2539e0191c39e",
+      "bank.py": "5f4b0d57dfcaccdcc837d8fbd32c754df23ca68280c707783fafb80fd392beee"
+    }
+  },
+  "controls": [
+    {
+      "id": "A07.K01",
+      "state": "PARTIAL",
+      "scope": "În GardenWorld, rezervarea SO 1000000 a trecut de la 1 rezervat și 0 livrat la 0 rezervat și 1 livrat pe avizul 1000001. Nu este o comandă de site și nu acoperă livrarea parțială 7 din 10.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K02",
+      "state": "PARTIAL",
+      "scope": "Avizul 1000001 IP a devenit CO după PC 1000001. Recepția retur 1000002 a avut SC distinct, prima acțiune CO rămânând IP. Starea documentului persistată și accesul la acțiune sunt probe distincte.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K03",
+      "state": "PARTIAL",
+      "scope": "În S1, t337_erp_staging_link este gol. Validarea comercială a responsabilului de vânzări și AWB pe aceeași comandă nu au fost demonstrate în acest circuit.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K04",
+      "state": "PARTIAL",
+      "scope": "Un canal a marcat comanda livrată la primul colet, celălalt încă în tranzit și retur aprobat. Politica manuală sau automată din ERP nu rezultă din starea site-ului.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K05",
+      "state": "PARTIAL",
+      "scope": "Stornarea recepției client a păstrat mișcările +1/−1 și notele pe două scheme la retry. Acesta este un retur după mișcare fizică, distinct de respingerea avizului deja CO înainte de curier.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K06",
+      "state": "PARTIAL",
+      "scope": "Două colete native de câte 1 există pe linia 101 de 2; EX07 arată că aceeași comandă cu două AWB active în același provider nu este reprezentabilă în indexul site-ului examinat. Nu confundați un AWB cu două pachete și două expediții cu etichete proprii.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K07",
+      "state": "BLOCAT",
+      "scope": "Clasificare granulară: citirea AWB din sursă și reluarea pollului sunt testate. Emiterea fizică, pierderea răspunsului după acceptarea curierului și regăsirea prin cheia expediției rămân nedemonstrate.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K08",
+      "state": "FAIL",
+      "scope": "La 70+50 și avans 30, drepturile sunt 40+50. La 50+40 încasate pe cele două AWB, aceleași taxe 3+5 și banca 82, poarta acceptă borderoul pentru liniile deja legate. Diferența individuală 10+10 ar rămâne mascată dacă se verifică doar totalul. În EX07, la total 87,87/avans 30, valoarea implicită a site-ului este 87,87 în loc de 57,87. Etapele de emitere și decontare au cauze și proprietari separați.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": [
+        "A07-F09"
+      ]
+    },
+    {
+      "id": "A07.K09",
+      "state": "FAIL",
+      "scope": "R2 a dovedit cele două settere cu bp[1]. Nu există o dovadă nouă a adresei de pe o etichetă fizică reală, iar copia comercială a comenzii rămâne obligatorie.",
+      "limit": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "findings": [
+        "A07-F03"
+      ]
+    },
+    {
+      "id": "A07.K10",
+      "state": "PARTIAL",
+      "scope": "Martor comandă integral achitată → COD 0; plata parțială rămasă unpaid → funcția site-ului nu deduce avansul. În JAR este blocată nepotrivirea monedei de decont.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K11",
+      "state": "PARTIAL",
+      "scope": "Creditul/notele furnizorului sunt probe native autentice cu referințe. Nu demonstrează emiterea unică a facturii de vânzare la aprobarea comenzilor în ERP.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K12",
+      "state": "FAIL",
+      "scope": "CO pe aviz nu confirmă livrarea la client. În EX07 prima livrare a mutat comanda integrală la delivered în condițiile unui retur aprobat; nu s-a emis automat o factură în fixture. Ramura T22 care ajunge la factură după CO rămâne problemă pentru politica târzie.",
+      "limit": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "findings": [
+        "A07-F04"
+      ]
+    },
+    {
+      "id": "A07.K13",
+      "state": "PARTIAL",
+      "scope": "Notele pe două scheme din retururile native sunt confirmate. TVA și transportul din aceeași comandă comercială Q-COM-01 până la factura emisă rămân parțiale.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K14",
+      "state": "PARTIAL",
+      "scope": "Existența unui RMA aprobat ori CO și livrarea fizică sunt independente. La retur deschis și C2 în tranzit, condiția politicii târzii rămâne falsă înaintea facturării.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": [
+        "A07-F04"
+      ]
+    },
+    {
+      "id": "A07.K15",
+      "state": "PARTIAL",
+      "scope": "Matcherul găsește AWB exact A/B și exclude coletul blocat. Același borderou net este acceptat de poarta componentă și când sumele apar inversate între expedieri. Importul dublu prin UI cu două fișiere și două roluri nu a fost reprodus aici.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": [
+        "A07-F09"
+      ]
+    },
+    {
+      "id": "A07.K16",
+      "state": "PARTIAL",
+      "scope": "T06-R2-005 și -006: valorile R7 nominale au fost confirmate pe JVM pentru comparatorul de extras pe ambele pachete. Acesta nu este importul unui extras prin UI pe două conturi bancare și nu înlocuiește controlul per IBAN.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K17",
+      "state": "PARTIAL",
+      "scope": "Clasările comparatorului corespund corpusului istoric: 218 identice, 21 metodă SAGA, 92 de lămurit. Excluderea manuală a unei expediții nu leagă automat alt AWB. Se păstrează lipsa probei UI cu două facturi echivalente în aceeași firmă.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K18",
+      "state": "FAIL",
+      "scope": "Rolul nativ 103 a alocat pe DR/IP/VO cu CO/E și pe RE cu CO/Y; martorul CO a fost postat Y. Existența unei plăți anterioare blochează poarta de borderou a componentei testate. Nu deduceți de aici protecție la concurența alocării aceluiași avans.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": [
+        "A07-F05",
+        "A07-F09"
+      ]
+    },
+    {
+      "id": "A07.K19",
+      "state": "PARTIAL",
+      "scope": "Regulile de diferență și taxă au produs rezultatele nominale pe ambele JAR-uri. Discrepanța pe colet poate fi mascată la total, chiar în aceeași monedă. Fact_Acct pe diferențe de curs pentru un retur comercial complet nu a fost verificat.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K20",
+      "state": "PARTIAL",
+      "scope": "Repetarea pollului nu a generat o a doua tranziție, iar o repetare PSP/refund diferită de chargeback nu a fost tratată ca dovadă de rambursare fizică.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K21",
+      "state": "FAIL",
+      "scope": "Aceeași linie 1000001 a produs RMA 1000002 CO Qty=1/QtyDelivered=0 în R6, urmat ulterior de recepție. Separat, 2+2 autorizații concurente pe o linie de 2 și omisiunea referinței din adaptor sunt ambele reproduse și au cauze diferite.",
+      "limit": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "findings": [
+        "A07-F01",
+        "A07-F07"
+      ]
+    },
+    {
+      "id": "A07.K22",
+      "state": "PARTIAL",
+      "scope": "Recepția S1 pentru 1 a ajuns CO după confirmarea SC, cu referință RMA. Stornarea a creat inversa −1 fără multiplicare la reluare. Nu sunt probate în acest audit distribuția unei a doua unități între carantină și locator vandabil ori o creditare pentru unitate neprimita.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": [
+        "A07-F07"
+      ]
+    },
+    {
+      "id": "A07.K23",
+      "state": "PARTIAL",
+      "scope": "Furnizor: nota de credit 1000018 CO/Y, legată la factura 1000017 și RMA 1000006, note pe două scheme. Client S1: aceeași origine are retur și stornare, fără factură ori virament. A03 peer confirmă limita; acestea nu constituie o notă de credit la vânzare pentru ORD101.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": [
+        "A07-F01"
+      ]
+    },
+    {
+      "id": "A07.K24",
+      "state": "PARTIAL",
+      "scope": "M_InOut de retur și inversa sa au aceleași două mișcări și note după retry. Stornările celor cinci alocări au RE/Y. Acestea sunt documente diferite de reversarea unei plăți bancare în perioadă închisă.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": []
+    },
+    {
+      "id": "A07.K25",
+      "state": "FAIL",
+      "scope": "403 pe factura altei organizații; în alt caz, răspunsul la aceeași cheie este refolosit între cabinete cu același CUI. Filtrarea copiilor CESIRO1 este un incident separat (EX02-I01, referință unică). Nu a fost verificat un tur UI complet al comisionarului pentru aceeași comandă.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": [
+        "A07-F06"
+      ]
+    },
+    {
+      "id": "A07.K26",
+      "state": "FAIL",
+      "scope": "Retry după antet fără linii, după finalizarea cu succes, după schimbare de payload și după alt cabinet au dispoziții documentate separat în R2. Retry al reversării fizice native a rămas stabil la S1. Nu se transferă verdictul native la idempotency API.",
+      "limit": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "findings": [
+        "A07-F02",
+        "A07-F06",
+        "A07-F08"
+      ]
+    },
+    {
+      "id": "A07.K27",
+      "state": "FAIL",
+      "scope": "Refuzuri server-side dovedite pe cabinete distincte. Anomalia copil tenant B sub comanda A este EX02-I01/EX07, nu o a doua constatare A07. Pentru un export UI de AWB/IBAN redactat și pentru verificarea rolului comisionarului pe acel export rămâne nevoie de probă.",
+      "limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "findings": [
+        "A07-F06"
+      ]
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A07.P1",
+      "state": "PARȚIAL",
+      "coverage": "SO→aviz și PC demonstrat în S1; aprobarea comercială ERP nu face parte din aceeași probă.",
+      "remaining": "Documente DR/IP/WP, răspuns pierdut și doi operatori simultan.",
+      "full": false
+    },
+    {
+      "id": "A07.P2",
+      "state": "DEFECT_IDENTIFICAT",
+      "coverage": "2 colete demonstrate în nativ și în API sursă, fără emisiune fizică la curier; comparație nouă COD la repartizare și la decont.",
+      "remaining": "Timeout după emitere și răspuns duplicat, colet schimbat, eșec parțial.",
+      "full": false
+    },
+    {
+      "id": "A07.P3",
+      "state": "DEFECT_IDENTIFICAT",
+      "coverage": "CO aviz, starea agregată a site-ului și POD rămân fapte distincte. După politica târzie returul deschis și al doilea colet în tranzit nu permit facturarea integrală.",
+      "remaining": "CO fără dovadă transport, litigiu/retur deschis, evenimente în ordine inversă.",
+      "full": false
+    },
+    {
+      "id": "A07.P4",
+      "state": "DEFECT_IDENTIFICAT",
+      "coverage": "Compararea extraselor, decontul cu sume swapate, DR/IP/VO/CO/RE în alocare, stornările și Posted sunt probate în trasee separate.",
+      "remaining": "Același fișier redenumit, AWB cu zero inițial, cont greșit, monedă diferită, potrivire ambiguă.",
+      "full": false
+    },
+    {
+      "id": "A07.P5",
+      "state": "DEFECT_IDENTIFICAT",
+      "coverage": "Același SO leagă aviz, RMA, recepție și inversă în S1. Credit furnizor postat separat, credit comercial client și restituire completă pentru ORD101 neînchise.",
+      "remaining": "Anulare înainte de predare sau marfă nerecepționată, credit deja alocat, retur în altă firmă.",
+      "full": false
+    },
+    {
+      "id": "A07.P6",
+      "state": "DEFECT_IDENTIFICAT",
+      "coverage": "JWT/roluri și izolarea nativă au probe. Trecerea operatorului și navigarea cu toate documentele la capăt, în aceeași comandă, sunt incomplete.",
+      "remaining": "Schimbare firmă din adresă, rescriere meniu, retry/reluare după restart.",
+      "full": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "A07-F01",
+      "disposition": "MENȚINUT_LA_NIVELUL_CITAT",
+      "controls": [
+        "A07.K21",
+        "A07.K23"
+      ],
+      "expected_native": "Folosește M_RMALine.M_InOutLine_ID după verificarea firmei, avizului și articolului. Definește separat returul autorizat fără sursă, cu motiv și rol."
+    },
+    {
+      "id": "A07-F02",
+      "disposition": "MENȚINUT_LA_NIVELUL_CITAT",
+      "controls": [
+        "A07.K26"
+      ],
+      "expected_native": "Preferă un SvrProcess tranzacțional pentru antet+linii, cu identificator de cerere persistent și unic pe cabinet, firmă și operație."
+    },
+    {
+      "id": "A07-F03",
+      "disposition": "MENȚINUT_LA_NIVELUL_CITAT",
+      "controls": [
+        "A07.K09"
+      ],
+      "expected_native": "Determină separat Ship-To și Bill-To, persistă pe C_Order și păstrează copia aferentă comenzii la import."
+    },
+    {
+      "id": "A07-F04",
+      "disposition": "MENȚINUT_LA_NIVELUL_CITAT",
+      "controls": [
+        "A07.K12",
+        "A07.K14"
+      ],
+      "expected_native": "Folosește M_InOut pentru aviz și eveniment separat de livrare/incident, cu politica pe canal și C_Invoice generat exclusiv pentru liniile eligibile."
+    },
+    {
+      "id": "A07-F05",
+      "disposition": "MENȚINUT_LA_NIVELUL_CITAT",
+      "controls": [
+        "A07.K18"
+      ],
+      "expected_native": "Validează în procesul nativ de alocare starea/semnul/soldul real al facturii și disponibilul plății în aceeași tranzacție; expune avans nealocat în UI."
+    },
+    {
+      "id": "A07-F06",
+      "disposition": "MENȚINUT_LA_NIVELUL_CITAT",
+      "controls": [
+        "A07.K25",
+        "A07.K26",
+        "A07.K27"
+      ],
+      "expected_native": "Leagă idempotency de ID-ul imuabil al cabinetului, firmei, operației și cheii. Migrează intrările vechi cu domeniul verificabil, altfel nu le reutiliza."
+    },
+    {
+      "id": "A07-F07",
+      "disposition": "MENȚINUT_LA_NIVELUL_CITAT",
+      "controls": [
+        "A07.K21",
+        "A07.K22"
+      ],
+      "expected_native": "Sub blocarea liniei sursă, recitește suma deja autorizată și stările eligibile când eliberezi autorizația, în același proces/tranzacție. Menține documentele native și eliberarea prin stornare."
+    },
+    {
+      "id": "A07-F08",
+      "disposition": "MENȚINUT_LA_NIVELUL_CITAT",
+      "controls": [
+        "A07.K26"
+      ],
+      "expected_native": "Păstrează hashul unei reprezentări canonice a cererii; replay identic recuperează documentul iar payload diferit e refuzat explicit."
+    },
+    {
+      "id": "A07-F09",
+      "disposition": "CONFIRMAT_COMPONENTĂ_FĂRĂ_POSTARE_PROBATĂ",
+      "controls": [
+        "A07.K08",
+        "A07.K15",
+        "A07.K18"
+      ],
+      "expected_native": "Înaintea alocării native, confruntă identitatea M_InOut/M_Package și suma exigibilă pe acea expediție după avans, rambursări și modificări aprobate. Îngheață versiunea de calcul și trimite abaterile la clarificare. Păstrează plata și alocarea în C_Payment/C_AllocationHdr."
+    }
+  ],
+  "issues": [
+    "A07-F09: testează ulterior în cabinet pe M_InOut/M_Package și C_Payment/C_AllocationHdr, cu avans și așteptări înghețate per expediție; diferența per colet trebuie reconciliată chiar dacă suma netă este zero. Distinge defectul deja probat de o postare nedemonstrată.",
+    "Reia decontul bancar real pe un client de probă și permisiuni nominale pe aceeași origine; păstrează separat cele două praguri de componentă T06.",
+    "Închideți lanțul cu drepturi valide, AWB/retur și credit pe aceleași identificatoare. Cele șase fluxuri sunt încă incomplete."
+  ]
+}

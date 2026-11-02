@@ -1,0 +1,18 @@
+from a03_r8_scripts import run, w, p, iv, d2, sha, g,tr, path, doc,work,out, J, UTC, ssh,H,repo
+import pathlib,re,shlex,json
+def extras():
+ cmds={}
+ # The original isolated repository holds only audit-fixed; pin the optional merge baseline to the task's documented historical parent.
+ cmds['256-kstatic-explicit']='bash tools/teste/t256/k_static.sh '+w+' '+sha+' 1ba1029296'
+ cmds['256-raw-BRE']="git show "+sha+":"+p+'/anaf/GenD394.java | grep -c "substring(COALESCE(i.description,\x27\x27) from \x27nr=(\\[^·\\]+)\x27)"'
+ c0=next(x for x in doc(path('T256','03_r0_criterii_T256.md')).splitlines() if x.startswith('| C0-02 |')); orig=re.search(r'`(for r in [^`]+)`',c0)[1]; cmd=orig.replace('02_plan.md',path('T256','02_plan.md')); cmds['256-inventory']=f"""git grep -n -E "poreference|'nr=|nr=\\(|Storneaza factura" {sha} -- {p}/anaf {p}/fiscal > T256-cititori.txt; grep -c . T256-cititori.txt; {cmd}"""
+ cmds['186-pair']=(f"""set -e; test -s {iv}; mkdir -p baseline186 cls186; git archive 1b9a18466d -- {p} | tar -xf - -C baseline186; javac -encoding UTF-8 -d cls186 idempiere/plugins/com.eva.ro.contab/test/TestT186CatchGoale.java; for tag in now baseline; do src={p}; if [ "$tag" = baseline ]; then src=baseline186/{p}; fi; java -cp cls186 TestT186CatchGoale --raport "$src" > "$tag.j"; python3 -I {d2}/detector_catch_t186.py "$src" --tsv > "$tag.p"; awk -F'\t' 'NF>1 && $2 ~ /^[0-9]+$/ {{print $1 "\t" $2}}' "$tag.j" | LC_ALL=C sort -u > "$tag.js"; awk -F'\t' 'NF>1 && $2 ~ /^[0-9]+$/ {{print $1 "\t" $2}}' "$tag.p" | LC_ALL=C sort -u > "$tag.ps"; awk -F'\t' 'NF>1 && $2 ~ /^[0-9]+$/ {{print $1 "\t" $2}}' {iv} | LC_ALL=C sort -u > inventory.pairs; echo "$tag Java/Python/inventory counts"; wc -l "$tag.js" "$tag.ps" inventory.pairs; printf 'Java-Python symmetric difference '; comm -3 "$tag.js" "$tag.ps" | wc -l; printf 'current inventory-Python symmetric difference '; comm -3 inventory.pairs "$tag.ps" | wc -l; done; git rev-parse 1b9a18466d; sha256sum now.js now.ps baseline.js baseline.ps inventory.pairs""")
+ cmds['186-historical-inv']=f"""git show 1b9a18466d:{iv} >/dev/null 2>&1; echo original_inventar_exists=$?; git log -1 --format='%h %s' {sha} -- {iv}; git log --format='%h %s' {sha} -- {iv} | tail -10"""
+ cmds['159-readers-groups']=f"""{g} cititori {sha} > reader-original.txt; r=$?; echo detector_rc=$r; for pat in '^anaf/(AcoperireDeclaratii|FirmaInfo|GenBilant|GenD394)' '^(anaf/GenD112|fiscal/MotorSalariiRO|form/WSagaConfigSalariiForm)' '^anaf/GenD101'; do sed -E 's#^.*src/com/eva/ro/contab/##' reader-original.txt | grep -cE "$pat"; done"""
+ cmds['256-JAR-resource']=f"""jarpath=idempiere/plugins/com.eva.ro.contab/com.eva.ro.contab_13.0.0.jar; git show {sha}:$jarpath > frozen.jar; git show {sha}:{p}/documente/res/etichete.tsv > frozen.tsv; echo export_jar; md5sum frozen.jar; git show {sha}:$jarpath | md5sum; echo tsv; unzip -p frozen.jar com/eva/ro/contab/documente/res/etichete.tsv | md5sum; md5sum frozen.tsv"""
+ cmds['159-frozen-diagnostic']=f"""git show b7e563428c:{tr} | sha256sum; git show {sha}:{tr} | sha256sum; git grep -n -e 'amanaCheieArhiva' {sha} -- idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ConfigDeclaratii.java | head -3; git show {sha}:idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/table/SalariatiImporter.java | sed -n '824,830p'"""
+ cmds['159-keys-seeds']=f"""git grep -n -E '"REZERVA_LEGALA_' {sha} -- {p}/fiscal/ParametriModel.java | cut -d: -f2- | head -8"""
+ data=[]
+ for k,v in cmds.items():data.append(run((k,(v,140))));J(out/'Scripturi_supliment.json',{'utc':UTC(),'sha':sha,'results':data})
+if __name__=='__main__':extras()
+

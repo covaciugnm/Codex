@@ -1,0 +1,1134 @@
+{
+  "zone": "A09",
+  "source": "R4_zone/A09/A09_raport.json",
+  "sha256": "b3e157dae22a5c6a13e568db082ef605f755272ac9d5fb8a21893cdd15ffc4c2",
+  "reviewer": "A11",
+  "utc": "2026-11-02T17:23:23.784704+00:00",
+  "prior_score": 7.2,
+  "product_score": null,
+  "gate": "RELUARE; probele menționate sunt acceptate în aria lor",
+  "quality_definition": "Calitatea auditului se măsoară prin 50 subcontroale; o deficiență demonstrată poate satisface un subcontrol de audit.",
+  "new_evidence": {
+    "hashed_evidence": 90,
+    "sheets": 42,
+    "chapters_indexed": 20,
+    "forms_and_roles": 30,
+    "UX_source": "8e6bdfe4a723a57c57b29fadd4f226cee4e34e6e62b6927cf7f9c422e47dd83d"
+  },
+  "reproduction_readback": {
+    "all_23_A12_criteria_navigation_provenance_separate": "f2f837d6bc4a28d7d72dfdfda3e4d138d579b8ec03198f1b2e66e9c8d35dcc1c",
+    "native_negative": [
+      [
+        "GardenAdmin",
+        1,
+        true
+      ],
+      [
+        "GardenUser",
+        0,
+        false
+      ]
+    ],
+    "Android_stage": {
+      "JVM": 311,
+      "instrumented_AAndroid_cases": 119,
+      "instrumented_fail": 0,
+      "instrumented_skipped": 0,
+      "native_E9_DocAction_0021": "DR, QtyCount18, 0 trx/GL; readback R3 A05.",
+      "signed_source": "560fd59cef68112bc15a392ce5e81f7ff9dfbdd6"
+    },
+    "EX06": {
+      "root": "Raportul R4 păstrează R3 imutabil. Pentru EX06 ordinea este proba inițială A08, returul A09, erata A08, apoi C1–C3 verificate de A11. Pentru accesul la formele nominale, matricea R6 înlocuiește numai rezultatul de căutare anterior.",
+      "C1": "A08 inițial în A: eMag 200, Trendyol 409. A09 a reprodus ambele valori; control separat Trendyol/B 200.",
+      "C2": "În fereastra owner deja deschisă după retragerea grantului, preview 200, pagina / 200, iframe 1, fără alertă.",
+      "C3": "Selectorul JSON corect este /results/theme_invalid~1a.",
+      "F07": "Problema era documentată în AND04. Eticheta A09-F07 se indexează în R4; remedierea aparține A01.",
+      "sources": [
+        "A09-E-R4-ZK30",
+        "A09-E-R4-AND04X",
+        "A09-E-R4-AND04A01",
+        "A09-E-R4-EXT0",
+        "A09-E-R4-EXT1",
+        "A09-E-R4-EXT2",
+        "A09-E-R4-EXT3",
+        "A09-E-R4-EXT6"
+      ]
+    },
+    "control_states": {
+      "INCONCLUDENT": 17,
+      "FAIL_DOVEDIT": 9,
+      "BLOCAT_ACCES": 3
+    },
+    "full_business_pipelines": 0
+  },
+  "responses_to_required_reaudit": {
+    "A09-F06": "CONFIRMAT vizibil pe AVD; nu se extrapolează la cititor de ecran sau scaner fizic.",
+    "A09-F07": "Constatarea A01-AND04, fresh403/cunoscut409. Un singur defect transversal. Nu este probată expunere de registru contabil.",
+    "R3-index": "Închidere metodologică a etichetelor de etapă și a fișelor AND; EX06 conform C1-C3.",
+    "R3-Timing": "R5/F05 are comparație JVM, nu timpul operației adulte UI/DB. Lipsesc criteriile de business pe cele 23 și hardware."
+  },
+  "required_next": [
+    "Măsoară timpul end-to-end al F05 pe volume reprezentative, după ce stabilești starea și actorul.",
+    "Pe cele 23 criterii exercită efectele, refuzul, anularea și recuperarea. Menține C18/C19/C20 și iOS/hardware ca dependențe separate; noile deschideri nu țin loc de operare."
+  ],
+  "quality_subchecks": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC01-R1",
+          "rule": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC01-R2",
+          "rule": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC01-R3",
+          "rule": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC01-R4",
+          "rule": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC01-R5",
+          "rule": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "90 dovezi, 42 fișe. Capitolele și versiunile delimitate."
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "points": 0.4,
+      "subchecks": [
+        {
+          "id": "QC02-R1",
+          "rule": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC02-R2",
+          "rule": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC02-R3",
+          "rule": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC02-R4",
+          "rule": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC02-R5",
+          "rule": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "Matrice 20 capitole și fișe nominale, 23 criterii păstrate ca necertificate prin navigare."
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC03-R1",
+          "rule": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC03-R2",
+          "rule": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC03-R3",
+          "rule": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC03-R4",
+          "rule": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC03-R5",
+          "rule": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "30 perechi, 15 forme, două roluri individualizate; recuperări și clase specifice observate. Nu creditați procesele doar prin deschidere."
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "points": 0.6,
+      "subchecks": [
+        {
+          "id": "QC04-R1",
+          "rule": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC04-R2",
+          "rule": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC04-R3",
+          "rule": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC04-R4",
+          "rule": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC04-R5",
+          "rule": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+          "earned": 0,
+          "previous": 0.0
+        }
+      ],
+      "rationale": "E-ACTION/drepturi dovedite la nivelul declarat. Lipsesc configurații și contractele end-to-end pentru toate procesele."
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "points": 0.6,
+      "subchecks": [
+        {
+          "id": "QC05-R1",
+          "rule": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC05-R2",
+          "rule": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC05-R3",
+          "rule": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC05-R4",
+          "rule": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC05-R5",
+          "rule": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "Datele și mutațiile sunt corelate numai în aria bateriei. Nu există reconciliere multietapă pentru întreaga arie."
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "points": 0.4,
+      "subchecks": [
+        {
+          "id": "QC06-R1",
+          "rule": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC06-R2",
+          "rule": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC06-R3",
+          "rule": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC06-R4",
+          "rule": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC06-R5",
+          "rule": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+          "earned": 0,
+          "previous": 0.0
+        }
+      ],
+      "rationale": "Șapte fluxuri încă incomplete. EX06, auditul de autentificare și medierea mobilă sunt frontiere distincte."
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC07-R1",
+          "rule": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC07-R2",
+          "rule": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC07-R3",
+          "rule": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC07-R4",
+          "rule": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC07-R5",
+          "rule": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "403 versus 409 pe cheia cunoscută; același eveniment e regăsit la A01. Control Archive Viewer confirmă grant și căutare, nu 403 HTTP."
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "points": 0.8,
+      "subchecks": [
+        {
+          "id": "QC08-R1",
+          "rule": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC08-R2",
+          "rule": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC08-R3",
+          "rule": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC08-R4",
+          "rule": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC08-R5",
+          "rule": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "Nativ investigat prin versiuni, JAR, AVD și medii; cost/efect contabil integral neconfirmat."
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "points": 0.8,
+      "subchecks": [
+        {
+          "id": "QC09-R1",
+          "rule": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC09-R2",
+          "rule": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC09-R3",
+          "rule": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC09-R4",
+          "rule": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC09-R5",
+          "rule": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "JVM, instrumentație AVD și navigare actor nominal distincte. E2E de performanță și hardware insuficiente."
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "points": 0.6,
+      "subchecks": [
+        {
+          "id": "QC10-R1",
+          "rule": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC10-R2",
+          "rule": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC10-R3",
+          "rule": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC10-R4",
+          "rule": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC10-R5",
+          "rule": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+          "earned": 0,
+          "previous": 0.0
+        }
+      ],
+      "rationale": "A fost rezolvat indexul dovezilor, dar încă nu sunt închise toate reexecuțiile de performanță/activități efective. Scorul rubricii rămâne identic cu R3."
+    }
+  ],
+  "decision_each_control": [
+    {
+      "id": "A09-C01",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Căutarea nominală R6 confirmă 15 forme, 30/30, în două roluri; 20 capitole au fișe individuale, fără acoperire integrală de funcționalitate.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30",
+          "A09-E-R4-ZKMAP"
+        ]
+      },
+      "qualification": "Exercită în continuare fiecare parcurs cu rolul nominal și compară limbile.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A09-F01"
+      ]
+    },
+    {
+      "id": "A09-C02",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Registrul nativ și query-ul corectat păstrează defectul X/F. 30 deschideri native identifică țintele fără a valida portalul.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30",
+          "A09-E-R4-ZKDICT"
+        ]
+      },
+      "qualification": "Comparația de nume nu dovedește drept efectiv pentru fiecare rol și limbă; reconciliază pe AUUID per cabinet.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A09-F01"
+      ]
+    },
+    {
+      "id": "A09-C03",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Structura meniurilor și separarea G1/G2/G3 nu se rezolvă prin deschiderea nominală a formelor de stoc.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Testează traseul fiecăruia dintre cei patru operatori în cabinet, pe rol.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A09-F01",
+        "A09-F02",
+        "A09-F04"
+      ]
+    },
+    {
+      "id": "A09-C04",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Archive Viewer are martor 102/103; EX06 dovedește grant retras și link 200. AND04 semnalează 409 versus 403 fără date de document.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZKNEG",
+          "A09-E-R4-EXT3",
+          "A09-E-R4-EXT4",
+          "A09-E-R4-EXT5",
+          "A09-E-R4-AND04X"
+        ]
+      },
+      "qualification": "Repetă intrarea din acest meniu și încercarea prin ID cu rolurile denumite; nu presupune că dicționarul filtrează automat API.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A01.F02",
+        "A01.F03",
+        "A09-F07"
+      ]
+    },
+    {
+      "id": "A09-C05",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Între taburi au fost dovedite identitatea și asocierea cu un panou nou. Menținerea contextului la modificări concurente rămâne neprobată.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZKDICT",
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Două sesiuni ZK simultane în firme distincte și revenire Back/Forward neobservate.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A09-F02"
+      ]
+    },
+    {
+      "id": "A09-C06",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Configurare societăți se deschide, ceea ce nu dovedește cele trei tipuri de taburi ori validările între gestiuni.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Nici dovada relansării după salvare din taburi distincte G1/G2/G3, nici refuzul celei de-a doua G3 nu sunt acoperite.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A05-F06"
+      ]
+    },
+    {
+      "id": "A09-C07",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Nu s-a verificat alocarea unui cod nou CPP/CPA în această rundă.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": []
+      },
+      "qualification": "Picker-ul și mesajul la alias ambiguu necesită probe UI distincte.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A05-F08",
+        "A06-F01"
+      ]
+    },
+    {
+      "id": "A09-C08",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Deschiderea Bonuri de consum nu probează consumul unic și costul în G1.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Rerulează pe document cu cost cutii și manoperă pe G1; reperul e per operație persistentă.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A05-F01"
+      ]
+    },
+    {
+      "id": "A09-C09",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Păstrează rezultatul G3 anterior. EX06 nu măsoară disponibilul comun al seturilor.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-EXT1"
+        ]
+      },
+      "qualification": "Vizualizarea efectivă pe ecran și două sesiuni de rezervare rămân de probat.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A06-F07"
+      ]
+    },
+    {
+      "id": "A09-C10",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Niciun caz nou de modificare a setării inactive.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": []
+      },
+      "qualification": "Schimbarea simultană a regulii și salvarea unui locator dezactivat printr-un formular deja deschis nu au probă.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C11",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Deschiderea Ieșiri nu execută aprovizionarea, rezervarea ori pickingul.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Preluare de un gestionar, alegerea locatorului nou și handoff către pick în aceeași comandă rămân obligatorii.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A05-F07"
+      ]
+    },
+    {
+      "id": "A09-C12",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Accesul la e-Facturi nu dovedește validarea avizului, generarea AWB sau emiterea facturii.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Sunt necesare comparații end-to-end pe Aviz→validare→AWB și pe cele două politici, inclusiv retur/callback tardiv.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C13",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Sunt verificate conturi store_customer, owner și viewer în CESIRO1. Un actor comisionar real, raportul și drepturile lui comerciale rămân necertificate.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-EXT3",
+          "A09-E-R4-EXT4",
+          "A09-E-R4-EXT5",
+          "A09-E-R4-EXT6"
+        ]
+      },
+      "qualification": "Verifică apoi rolurile efective și fiecare acțiune ERP interzisă pe site.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A01.F03",
+        "A01.F13"
+      ]
+    },
+    {
+      "id": "A09-C14",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Cale AVD și client/ERP; fără cameră sau scaner fizic.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-EXREAD"
+        ]
+      },
+      "qualification": "Scanner industrial, permisiuni cameră pe echipament fizic și tranzacție completă pe cabinet; vezi rezultatul individual AND02/03.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A09-F06"
+      ]
+    },
+    {
+      "id": "A09-C15",
+      "source_state": "BLOCAT_ACCES",
+      "new_evidence": {
+        "status_R3": "BLOCAT_ACCES",
+        "update": "Nu există o nouă probă pe iPhone WMS.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": []
+      },
+      "qualification": "Necesită client iOS distribuibil, simulator/device identificat, condiții cameră și reluare.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C16",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "0021 a păstrat cantitatea 18 la retry, DR, zero tranzacții; 0011/0012 testate de A05 sunt cazuri distincte.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-EXREAD",
+          "A09-E-R4-AND04X"
+        ]
+      },
+      "qualification": "Nu se deduce gestionarea conflictului din două telefoane. Politica Android online va fi confirmată cu suplimentul.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C17",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Diferența 403/409 este documentată în AND04 fără efect pentru cititor; cazul dispozitiv revocat este 403. Criteriul complet de mesaj și audit pe hardware rămâne deschis.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-AND04X",
+          "A09-E-R4-AND04A01"
+        ]
+      },
+      "qualification": "Revocarea din UI pe un dispozitiv asociat și reluarea cererii pe acel dispozitiv nu au fost executate.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A09-F07"
+      ]
+    },
+    {
+      "id": "A09-C18",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Import extras se deschide. Procesul complet și semnalizarea progresului nu sunt demonstrate de deschidere.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Retestează efectele din ecranul efectiv și păstrează numărul de rânduri/familie.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F03",
+        "A04-F04"
+      ]
+    },
+    {
+      "id": "A09-C19",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Rămâne proba JVM la 100 vs 10.001 rânduri; timpul complet browser+DB la volum nu a fost măsurat.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Rămâne timp până la vizibilitate în ZK real/SQL/rețea, test de export comparat cu toate rândurile.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A09-F05"
+      ]
+    },
+    {
+      "id": "A09-C20",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Ecranele cu funcții de raport se deschid. Totalurile, PDF/XLSX și lizibilitatea tiparului necesită propriile rezultate.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30",
+          "A09-E-R4-ZKMAP"
+        ]
+      },
+      "qualification": "Niciun PDF sau XLSX mare generat din rolul expus nu a fost confruntat rând-cu-rând aici.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C21",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Reconciliere și verificare închideri se deschid; totalurile și blocarea perioadei sunt distincte.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Rerulează pentru rol numai citire la limita perioadei și verifică selecția după revenire.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C22",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Clic și selectare exactă în ZK nu demonstrează traversarea integrală cu tastatura sau SR. EX06 are teste limitate de focus.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30",
+          "A09-E-R4-EXT1"
+        ]
+      },
+      "qualification": "Focus programatic și existența shortcuturilor nu certifică Tab/Shift+Tab/Escape ori absența unei capcane; necesar traseu pe tastatură reală/simulată pe ZK.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C23",
+      "source_state": "FAIL_DOVEDIT",
+      "new_evidence": {
+        "status_R3": "FAIL_DOVEDIT",
+        "update": "Mesajul generic după timeout și 403 este vizibil în SPA. TalkBack și VoiceOver nu au probe noi.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-EXT5",
+          "A09-E-R4-EXT3"
+        ]
+      },
+      "qualification": "Cititor de ecran real, VoiceOver/TalkBack și conturile nominale rămân de verificat.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A09-F03",
+        "A08-F09",
+        "A09-F06"
+      ]
+    },
+    {
+      "id": "A09-C24",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "SPA și checkout măsurate la 360/1280; 377/360 la checkout C în fixture. Această observație nu este o măsură a site-urilor reale sau a hardware-ului.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-EXT1",
+          "A09-E-R4-EXT5"
+        ]
+      },
+      "qualification": "Vizualizează la zoom 200%, tastatură virtuală și orientare pe ZK și pe dispozitive.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A09-F06"
+      ]
+    },
+    {
+      "id": "A09-C25",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "Identitatea formei a fost verificată prin două texte din cod; ajutorul contextual și traducerile generale nu au trecut un audit complet.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-ZK30"
+        ]
+      },
+      "qualification": "Verifică termenii CPP/CPA, aviz/livrat și ghidul contabil în limba utilizatorului pe fiecare ecran propus.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C26",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "La timeout utilizatorul poate reîncărca. Owner primește 200 și iframe, viewer 403 cu mesaj identic erorii de transport. Nu s-a exercitat salvarea duplicată sau toate stările de formular.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": [
+          "A09-E-R4-EXT3",
+          "A09-E-R4-EXT5"
+        ]
+      },
+      "qualification": "Pentru §15 cere comparații înainte/după pe ecranele transformate; măsurare separată la expirarea sesiunii.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A09-F03"
+      ]
+    },
+    {
+      "id": "A09-C27",
+      "source_state": "BLOCAT_ACCES",
+      "new_evidence": {
+        "status_R3": "BLOCAT_ACCES",
+        "update": "Android ERP general nu a primit un client de test.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": []
+      },
+      "qualification": "Necesită build Android ERP general, două firme, rol contabil și probă revocare/logout/deep link.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C28",
+      "source_state": "BLOCAT_ACCES",
+      "new_evidence": {
+        "status_R3": "BLOCAT_ACCES",
+        "update": "iPhone ERP general fără sesiune de test.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": []
+      },
+      "qualification": "Necesită build iOS, simulator/telefon dedicat, VoiceOver și rol contabil.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A09-C29",
+      "source_state": "INCONCLUDENT",
+      "new_evidence": {
+        "status_R3": "INCONCLUDENT",
+        "update": "WMS și ERP general păstrate explicit ca produse și stadii separate.",
+        "verdict_global": "Păstrat. Rezultatele punctuale sunt precizate per suprafață.",
+        "evidence_ids": []
+      },
+      "qualification": "Înregistrează proveniența separată a clienților și testele de refuz pentru roluri între suprafețe; addendum în curs.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    }
+  ],
+  "decision_each_pipeline": [
+    {
+      "id": "A09-P1",
+      "source_state": "FAIL_DOVEDIT",
+      "full_e2e_accepted": false,
+      "remaining": {
+        "status_R3": "FAIL_DOVEDIT",
+        "delta": "Navigarea nominală s-a confirmat 30/30 în două roluri, iar dispatcherul EVA-Web rămâne afectat; nu se închide pipeline-ul.",
+        "E2E_complet": false
+      },
+      "controls": [
+        "A09-C01",
+        "A09-C02",
+        "A09-C03",
+        "A09-C04",
+        "A09-C05"
+      ]
+    },
+    {
+      "id": "A09-P2",
+      "source_state": "FAIL_DOVEDIT",
+      "full_e2e_accepted": false,
+      "remaining": {
+        "status_R3": "FAIL_DOVEDIT",
+        "delta": "Deschiderea formelor din gestiuni și configurare nu probează regulile G1/G2/G3.",
+        "E2E_complet": false
+      },
+      "controls": [
+        "A09-C06",
+        "A09-C07",
+        "A09-C08",
+        "A09-C09",
+        "A09-C10"
+      ]
+    },
+    {
+      "id": "A09-P3",
+      "source_state": "FAIL_DOVEDIT",
+      "full_e2e_accepted": false,
+      "remaining": {
+        "status_R3": "FAIL_DOVEDIT",
+        "delta": "Ieșiri și e-Facturi deschise; pick, aviz, AWB, rambursări și factura necesită propriul traseu corelat.",
+        "E2E_complet": false
+      },
+      "controls": [
+        "A09-C11",
+        "A09-C12",
+        "A09-C13"
+      ]
+    },
+    {
+      "id": "A09-P4",
+      "source_state": "INCONCLUDENT",
+      "full_e2e_accepted": false,
+      "remaining": {
+        "status_R3": "INCONCLUDENT",
+        "delta": "E9 0021 pe client Android instrumentat, DR. AND04 cu 403 vs 409 documentat. Fără hardware/iPhone sau închiderea funcțională integrală.",
+        "E2E_complet": false
+      },
+      "controls": [
+        "A09-C14",
+        "A09-C15",
+        "A09-C16",
+        "A09-C17"
+      ]
+    },
+    {
+      "id": "A09-P5",
+      "source_state": "FAIL_DOVEDIT",
+      "full_e2e_accepted": false,
+      "remaining": {
+        "status_R3": "FAIL_DOVEDIT",
+        "delta": "Formele import/reconciliere se deschid; testul JVM este separat de măsurarea întregului browser și de verificarea fișierului final.",
+        "E2E_complet": false
+      },
+      "controls": [
+        "A09-C18",
+        "A09-C19",
+        "A09-C20",
+        "A09-C21"
+      ]
+    },
+    {
+      "id": "A09-P6",
+      "source_state": "FAIL_DOVEDIT",
+      "full_e2e_accepted": false,
+      "remaining": {
+        "status_R3": "FAIL_DOVEDIT",
+        "delta": "Diferența dintre 403 și timeout nu se vede în mesajul viewer. Cititor de ecran și remediere per toate suprafețele rămân deschise.",
+        "E2E_complet": false
+      },
+      "controls": [
+        "A09-C22",
+        "A09-C23",
+        "A09-C24",
+        "A09-C25",
+        "A09-C26"
+      ]
+    },
+    {
+      "id": "A09-P7",
+      "source_state": "INCONCLUDENT",
+      "full_e2e_accepted": false,
+      "remaining": {
+        "status_R3": "INCONCLUDENT",
+        "delta": "Android/iOS ERP general rămân distincte de WMS. Nu există client nou în R4 pentru P7.",
+        "E2E_complet": false
+      },
+      "controls": [
+        "A09-C27",
+        "A09-C28",
+        "A09-C29"
+      ]
+    }
+  ],
+  "decision_each_finding": [
+    {
+      "id": "A09-F01",
+      "scope": "Tipurile native Form și Workflow sunt inversate în portal",
+      "source_state": "CONFIRMAT",
+      "decision": "MENȚIN_DISPOZIȚIA_ANTERIOARĂ_PE_DOVADA_CITATĂ",
+      "controls": [
+        "A09-C01",
+        "A09-C02",
+        "A09-C03"
+      ]
+    },
+    {
+      "id": "A09-F02",
+      "scope": "Canale distincte primesc etichete identice în tema de meniu",
+      "source_state": "CONFIRMAT",
+      "decision": "MENȚIN_DISPOZIȚIA_ANTERIOARĂ_PE_DOVADA_CITATĂ",
+      "controls": [
+        "A09-C03",
+        "A09-C05"
+      ]
+    },
+    {
+      "id": "A09-F03",
+      "scope": "La eroare temporară cardul de meniu nu oferă reluare și nu anunță schimbarea",
+      "source_state": "CONFIRMAT",
+      "decision": "MENȚIN_DISPOZIȚIA_ANTERIOARĂ_PE_DOVADA_CITATĂ",
+      "controls": [
+        "A09-C23",
+        "A09-C26"
+      ]
+    },
+    {
+      "id": "A09-F04",
+      "scope": "Deschiderea formei alese prin portal pierde ținta ERP",
+      "source_state": "CONFIRMAT",
+      "decision": "MENȚIN_DISPOZIȚIA_ANTERIOARĂ_PE_DOVADA_CITATĂ",
+      "controls": [
+        "A09-C03"
+      ]
+    },
+    {
+      "id": "A09-F05",
+      "scope": "Verificarea importului construiește lista completă înainte de afișare",
+      "source_state": "CONFIRMAT",
+      "decision": "MENȚIN_DISPOZIȚIA_ANTERIOARĂ_PE_DOVADA_CITATĂ",
+      "controls": [
+        "A09-C19"
+      ]
+    },
+    {
+      "id": "A09-F06",
+      "scope": "Eticheta cantității de numărat dispare după completarea câmpului",
+      "source_state": "CONFIRMAT",
+      "decision": "CONFIRMAT vizibil pe AVD; nu se extrapolează la cititor de ecran sau scaner fizic.",
+      "controls": [
+        "A09-C14",
+        "A09-C23",
+        "A09-C24"
+      ]
+    },
+    {
+      "id": "A09-F07",
+      "scope": "Răspunsul către un cititor fără drept pe gestiune diferă pentru o cheie existentă",
+      "source_state": "CONFIRMAT_CROSS_OWNER",
+      "decision": "Constatarea A01-AND04, fresh403/cunoscut409. Un singur defect transversal. Nu este probată expunere de registru contabil.",
+      "controls": [
+        "A09-C04",
+        "A09-C17"
+      ]
+    }
+  ],
+  "score_quality": 7.2,
+  "quality_score": 7.2,
+  "verified_subchecks": 36,
+  "out_of": 50
+}

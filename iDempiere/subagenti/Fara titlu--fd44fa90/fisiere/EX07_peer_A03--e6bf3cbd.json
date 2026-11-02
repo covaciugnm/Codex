@@ -1,0 +1,497 @@
+{
+  "case": "EX07 independent peer A03",
+  "created_utc": "2026-11-02T16:52:35.607565+00:00",
+  "reviewer": "A03",
+  "producer": "A07",
+  "reviewed_file": "supliment_CESIRO1\\probe\\EX07.json",
+  "reviewed_sha256": "0c7815b21b143d328afa56f429b941b6043185fcdd1341f921a9b43a234337d2",
+  "audit_quality_grade": null,
+  "decision": "CONFIRMARE PE COMPONENTE CU LIMITE; A11 decide nivelul de acceptare.",
+  "hash_proof": {
+    "files_checked": 44,
+    "errors": [],
+    "sources": [
+      {
+        "path": "backend/app/api/external_orders.py",
+        "hash_ok": true,
+        "sha256": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c",
+        "symbols": [
+          {
+            "symbol": "def order_detail",
+            "line": 262,
+            "match": true
+          },
+          {
+            "symbol": "for key, table, order_col in _ORDER_CHILDREN",
+            "line": 279,
+            "match": true
+          },
+          {
+            "symbol": "WHERE x.order_id = CAST(:o AS uuid)",
+            "line": 288,
+            "match": true
+          },
+          {
+            "symbol": "FROM sales.return_items x WHERE x.return_id",
+            "line": 294,
+            "match": true
+          },
+          {
+            "symbol": "def _read_only_session()",
+            "line": 112,
+            "match": true
+          }
+        ]
+      },
+      {
+        "path": "database/migrations/sql/0029_shipments.sql",
+        "hash_ok": true,
+        "sha256": "f4298717d70da6ce9229fd4bc043e450d403ad3c47a591092ea5657fc5ba8eec",
+        "symbols": [
+          {
+            "symbol": "CREATE UNIQUE INDEX IF NOT EXISTS shipments_order_active_uk",
+            "line": 63,
+            "match": true
+          },
+          {
+            "symbol": "CREATE POLICY superadmin_all",
+            "line": 91,
+            "match": true
+          }
+        ]
+      },
+      {
+        "path": "database/migrations/sql/0001_initial.sql",
+        "hash_ok": true,
+        "sha256": "93f6e8bb1e555a7fb70a40d58fa3fa39056404ebc3dc52d4d1d263c96181eacc",
+        "symbols": [
+          {
+            "symbol": "CREATE TABLE sales.return_items",
+            "line": 832,
+            "match": true
+          },
+          {
+            "symbol": "order_item_id bigint REFERENCES sales.order_items",
+            "line": 835,
+            "match": true
+          },
+          {
+            "symbol": "CREATE UNIQUE INDEX invoices_order_uk",
+            "line": 853,
+            "match": true
+          }
+        ]
+      },
+      {
+        "path": "backend/app/integrations/baselinker/shipping.py",
+        "hash_ok": true,
+        "sha256": "3d58aa483832e314d3fb4b2d2bbd515e67f0c4d4f7d78264bae27c8d8b5fde92",
+        "symbols": [
+          {
+            "symbol": "def cod_amount_for",
+            "line": 340,
+            "match": true
+          },
+          {
+            "symbol": "cod_value = float(cod if cod is not None else cod_amount_for(order))",
+            "line": 404,
+            "match": true
+          },
+          {
+            "symbol": "def refresh_tracking",
+            "line": 668,
+            "match": true
+          },
+          {
+            "symbol": "if state == \"delivered\" and auto_delivered:",
+            "line": 736,
+            "match": true
+          },
+          {
+            "symbol": "if apply_status(session, tenant_id, row, \"delivered\"",
+            "line": 738,
+            "match": true
+          }
+        ]
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SursaCesiro1.java",
+        "hash_ok": true,
+        "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8",
+        "symbols": [
+          {
+            "symbol": "public Detaliu detaliu(String id)",
+            "line": 253,
+            "match": true
+          },
+          {
+            "symbol": "static Detaliu detaliu(Object j",
+            "line": 198,
+            "match": true
+          },
+          {
+            "symbol": "return new Detaliu(f, livrari",
+            "line": 213,
+            "match": true
+          },
+          {
+            "symbol": "static List<ExpediereSursa> livrari",
+            "line": 186,
+            "match": true
+          }
+        ]
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/DetaliuComanda.java",
+        "hash_ok": true,
+        "sha256": "17bd13da0d2e91e96dfe9cb3f86d94d5cc29d27d49131d079cda5e5a70ab39ec",
+        "symbols": [
+          {
+            "symbol": "public record Retur(",
+            "line": 45,
+            "match": true
+          },
+          {
+            "symbol": "ret.add(new Retur",
+            "line": 136,
+            "match": true
+          }
+        ]
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+        "hash_ok": true,
+        "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823",
+        "symbols": [
+          {
+            "symbol": "d = s.detaliu(c.id())",
+            "line": 344,
+            "match": true
+          },
+          {
+            "symbol": "int idEva = comanda(ctx",
+            "line": 346,
+            "match": true
+          },
+          {
+            "symbol": "AD_Client_ID=? AND EVA_Sursa=? AND EVA_IdExtern=?",
+            "line": 330,
+            "match": true
+          },
+          {
+            "symbol": "actualizat.equals(p.get_Value(\"EVA_ActualizatSursa\"))",
+            "line": 466,
+            "match": true
+          },
+          {
+            "symbol": "p.set_ValueOfColumn(\"EVA_StareColet\"",
+            "line": 481,
+            "match": true
+          }
+        ]
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/GeneratorDocumente.java",
+        "hash_ok": true,
+        "sha256": "fdfc21ef59a5886a558403ff3b480ee2e0fca88d28456aa120676530ecae5131",
+        "symbols": [
+          {
+            "symbol": "switch (Culegere.dupaComplete",
+            "line": 554,
+            "match": true
+          },
+          {
+            "symbol": "return facturaSiLegaturi(ctx",
+            "line": 563,
+            "match": true
+          },
+          {
+            "symbol": "o.setBill_Location_ID(bp[1])",
+            "line": 393,
+            "match": true
+          }
+        ]
+      }
+    ],
+    "wire_bytes_sha256": "7ba4487c6df1d4d034078347bce946650abdebb0b1ea7991d4d1aecf0b5f4bfa",
+    "raw_sha_witnesses": [
+      "7ba4487c6df1d4d034078347bce946650abdebb0b1ea7991d4d1aecf0b5f4bfa",
+      "7ba4487c6df1d4d034078347bce946650abdebb0b1ea7991d4d1aecf0b5f4bfa"
+    ],
+    "all_raw_identical": true
+  },
+  "cash_reconciliation": {
+    "source_function": "backend/app/integrations/baselinker/shipping.py::cod_amount_for, funcția efectivă extrasă prin AST și executată fără adaptor sau emitere AWB.",
+    "source_function_sha256": "b3215150ca511989e7ba6bf3f620280c53ae7d72384dfba37ead4eeb9f37ca3b",
+    "total": "87.87",
+    "paid": "30.0",
+    "cod_total": "57.87",
+    "parcels": [
+      {
+        "id": "b4d9b957-7252-4758-9839-132b9c03cd5f",
+        "cod": "35.0"
+      },
+      {
+        "id": "8864c3a0-8019-4577-977a-2a0968aaa273",
+        "cod": "22.87"
+      }
+    ],
+    "cases": [
+      {
+        "method": "cash_on_delivery",
+        "status": "partial",
+        "advance": "30",
+        "expected": "57.87",
+        "observed": "87.87",
+        "match": false
+      },
+      {
+        "method": "cash_on_delivery",
+        "status": "paid",
+        "advance": "87.87",
+        "expected": "0.00",
+        "observed": "0.0",
+        "match": true
+      },
+      {
+        "method": "card",
+        "status": "partial",
+        "advance": "30",
+        "expected": "0",
+        "observed": "0.0",
+        "match": true
+      },
+      {
+        "method": "cash_on_delivery",
+        "status": "pending",
+        "advance": "0",
+        "expected": "87.87",
+        "observed": "87.87",
+        "match": true
+      }
+    ],
+    "implication": "După avans30, rambursul restant este57,87 (35 +22,87). Valoarea implicită obținută este87,87. Diferența 30 aparține alegerii implicite a sumei. Nu au fost emise AWB-uri cu această valoare și nu se prezumă creanță dublă în GL. create_awb permite sumă explicită."
+  },
+  "java_replay": {
+    "method": "Client nou, compilat independent; servește octeții din wire-raw la un endpoint HTTP strict loopback, fără acces la DB sau furnizor. Se exercită transportul și deserializarea originale în ambele JAR-uri.",
+    "requests": [
+      {
+        "method": "GET",
+        "path": "/api/ext/v1/orders/ORD101?tenant=canal-a"
+      },
+      {
+        "method": "GET",
+        "path": "/api/ext/v1/orders/ORD101?tenant=canal-a"
+      }
+    ],
+    "results": [
+      {
+        "kind": "git",
+        "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+        "result": {
+          "invoices_in_dto": 0,
+          "returns_in_dto": 1,
+          "return_fields": [
+            "id",
+            "stare",
+            "creat"
+          ],
+          "payment_fields": [
+            "furnizor",
+            "stare",
+            "paymentIntent",
+            "livemode"
+          ],
+          "packages": [
+            [
+              "b4d9b957-7252-4758-9839-132b9c03cd5f",
+              "AWB-A",
+              "delivered",
+              35.0
+            ],
+            [
+              "8864c3a0-8019-4577-977a-2a0968aaa273",
+              "AWB-B",
+              "in_transit",
+              22.87
+            ]
+          ],
+          "items": 2
+        },
+        "rc": 0
+      },
+      {
+        "kind": "installed",
+        "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+        "result": {
+          "invoices_in_dto": 0,
+          "returns_in_dto": 1,
+          "return_fields": [
+            "id",
+            "stare",
+            "creat"
+          ],
+          "payment_fields": [
+            "furnizor",
+            "stare",
+            "paymentIntent",
+            "livemode"
+          ],
+          "packages": [
+            [
+              "b4d9b957-7252-4758-9839-132b9c03cd5f",
+              "AWB-A",
+              "delivered",
+              35.0
+            ],
+            [
+              "8864c3a0-8019-4577-977a-2a0968aaa273",
+              "AWB-B",
+              "in_transit",
+              22.87
+            ]
+          ],
+          "items": 2
+        },
+        "rc": 0
+      }
+    ],
+    "harness_source": "package com.eva.ro.contab.corelare;\nimport java.util.*;import com.google.gson.Gson;\npublic class Ex07PeerA03 {public static void main(String[] z)throws Exception{\n  var cfg=new SursaSiteConfig.Config(z[0],\"fake-peer-readonly\",\"canal-a\",List.of(),List.of(),null);var adapter=SursaCesiro1.deschide(cfg);var item=adapter.detaliu(\"ORD101\"); var commercial=DetaliuComanda.din(java.nio.file.Files.readString(java.nio.file.Path.of(z[1])));\n  var m=new LinkedHashMap<String,Object>();m.put(\"invoices_in_dto\",item.facturi().size());m.put(\"returns_in_dto\",commercial.retururi().size());m.put(\"return_fields\",Arrays.stream(DetaliuComanda.Retur.class.getRecordComponents()).map(java.lang.reflect.RecordComponent::getName).toList());m.put(\"payment_fields\",Arrays.stream(DetaliuComanda.Plata.class.getRecordComponents()).map(java.lang.reflect.RecordComponent::getName).toList());\n  m.put(\"packages\",item.expedieri().stream().map(p->List.of(p.id(),p.awb(),p.stareColet(),p.ramburs())).toList());m.put(\"items\",commercial.linii().size());System.out.println(new Gson().toJson(m));}}",
+    "java_source_sha256": "07b684aaba50d15a1716f65995e0ee37b006df97020450e450ab29589f2d7993",
+    "source_invoice_count": 1,
+    "source_return_items": [
+      {
+        "order_item_id": 1,
+        "qty": 1
+      }
+    ],
+    "scope": "GET-ul original complet cu Flask/PG aparține probei A07, reprodus aici de la octeții lui până la DTO. Un tablou gol din DTO nu demonstrează lipsa facturii în iDempiere, iar politica poate trata factura canalului doar ca referință externă."
+  },
+  "delivery_and_returns": {
+    "authenticated_hash_evidence": "61a4d28a051db3ff280d74d04a863bc058cc255762250a843ccf4ad69db1c4b9",
+    "worker_runs": [
+      {
+        "step": "first",
+        "worker": {
+          "verificate": 1,
+          "schimbate": 1,
+          "livrate": 1,
+          "retur": 0
+        },
+        "detail": {
+          "order": "delivered",
+          "packages": [
+            [
+              "C1",
+              "delivered",
+              35.0
+            ],
+            [
+              "C2",
+              "in_transit",
+              22.87
+            ]
+          ],
+          "returns": 1,
+          "invoices": 0,
+          "payments": [
+            [
+              30.0,
+              "paid"
+            ]
+          ]
+        }
+      },
+      {
+        "step": "duplicate",
+        "worker": {
+          "verificate": 0,
+          "schimbate": 0,
+          "livrate": 0,
+          "retur": 0
+        },
+        "detail": {
+          "order": "delivered",
+          "packages": [
+            [
+              "C1",
+              "delivered",
+              35.0
+            ],
+            [
+              "C2",
+              "in_transit",
+              22.87
+            ]
+          ],
+          "returns": 1,
+          "invoices": 0,
+          "payments": [
+            [
+              30.0,
+              "paid"
+            ]
+          ]
+        }
+      }
+    ],
+    "own_worker_reexecution": false,
+    "native_comparators": {
+      "RMA_legitimate": {
+        "sale_shipment": 100,
+        "sale_line": 100,
+        "qty_shipped": 1,
+        "linked_RMA": 1000001,
+        "physical_return_inout": 1000000,
+        "first_complete": "IP",
+        "confirmation": 1000000,
+        "final_docstatus": "CO"
+      },
+      "two_parcels": {
+        "source_line": 101,
+        "qty_shipped": 2,
+        "packages": [
+          1000001,
+          1000002
+        ],
+        "qty_per_package": [
+          1,
+          1
+        ],
+        "rma_headers": [
+          1000002,
+          1000003
+        ],
+        "qty_authorised": [
+          2,
+          2
+        ],
+        "qty_received": [
+          0,
+          0
+        ]
+      },
+      "supplier_control": {
+        "independent_credit_id": 1000018,
+        "owner": "A04 / A03",
+        "evidence": "R2_zone/A04/native-return.json; document furnizor, nu factură de client ORD101"
+      },
+      "correlation": "În cazul CU ORD101, ID-urile native de mai sus sunt martori separați. Nu s-a observat înregistrarea efectivă în iDempiere a acelui order UUID prin SvrProcess."
+    },
+    "conclusion": "Starea delivered la nivel comandă coexistă cu al doilea colet in_transit. Tipul de retur al DTO nu are linia originală, avizul și qty la nivel articol. Pentru stoc și storno este necesară urmă până la linia de expediție, RMA aprobat, recepția fizică, factura/creditul corespunzător și alocare. Cantitate autorizată nu implică primită sau rambursată."
+  },
+  "accounting_boundary": {
+    "facts_actual_for_ORD101": null,
+    "status": "NEEXECUTAT pentru potrivirea reală ORD101→C_Order→M_InOut→C_Invoice/credit→C_Payment/C_Allocation→Fact_Acct pe aceeași identitate.",
+    "separate_supplier_invoice": {
+      "independent_credit_id": 1000018,
+      "owner": "A04 / A03",
+      "evidence": "R2_zone/A04/native-return.json; document furnizor, nu factură de client ORD101"
+    },
+    "invoice_issue_policy": "Validarea vânzărilor sau setarea documentului trebuie dovedite. Un colet livrat și un retur aprobat nu dovedesc expediție completă, nici eligibilitatea facturii după politica fără incidente.",
+    "native_action": "Reutilizează MPackage/MPackageLine la sursa MInOutLine, MRMA/MRMALine, MInvoice/credit memo și MPayment/MAllocationHdr. Păstrează idempotency pe eveniment/colet și reconciliere în moneda schemei.",
+    "next_test": "Un pilot pe aceeași comandă cu două colete, avans și retur parțial după livrare, prin procesul EVA real. Verifică înainte/după/retry DocStatus, Posted și Fact_Acct per schemă. Pentru decizia de facturare, leagă dovada curierului și excepțiile deschise."
+  },
+  "safety": "Exclusiv citire + calcule locale + server loopback temporar. Fără rețea parteneri, fără AWB/retur/factură contabilă externă, fără modificare ERP.",
+  "freeze": "Fișierul se creează exclusiv și nu se suprascrie."
+}

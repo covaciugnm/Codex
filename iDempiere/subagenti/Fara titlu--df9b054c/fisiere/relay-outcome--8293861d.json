@@ -1,0 +1,172 @@
+{
+  "utc": "2026-11-02T15:55:08.059394+00:00",
+  "level": "AVD actual client ApiInventar → TLS local test transport, workspace driver/client-specific test certificate → separately authenticated native GardenWorld servlet → real DB → native JSON interpreted by actual Kotlin class. This is not release UI login or physical hardware; only the relay substitutes the opaque Authorization header with a synthetic native session.",
+  "E5": [
+    [
+      1,
+      200,
+      {
+        "gestiuni": "OK",
+        "requests": 1
+      }
+    ],
+    [
+      7,
+      200,
+      {
+        "gestiuni": "OK",
+        "requests": 1
+      }
+    ]
+  ],
+  "E9_version": 1,
+  "emulated_device": true,
+  "workflow": "K0021 distinct native draft 1000023, line1000023, product 125, ASI 0; book20 and qtycount20 initially, qtycount18 at first response and at replay, same line and updated timestamp. DR, no M_Transaction or Fact_Acct.",
+  "app_result": {
+    "gestiuni": "OK",
+    "first": {
+      "qty": "18",
+      "ver": "1793634861453:18"
+    },
+    "second": {
+      "qty": "18",
+      "ver": "1793634861453:18"
+    },
+    "requests": 3
+  },
+  "first": {
+    "seq": 2,
+    "method": "POST",
+    "route": "/eva-mobil/v1/inventar/pozitii",
+    "http": 200,
+    "body_request_sha256": "9deb2856d394aaf990fb56f6ffddee9fb04fd1059f56c559ba80b5cec0cde017",
+    "canonical_body_hash": "e8df738c46c2e6e157ef30ccc2790aed40b98f534653f3aac1013aba434baddd",
+    "body_return_sha256": "5d9057c122c0ee2413c4cacfa17fa1028a22adbcffb3e17104c9edb9d950226b",
+    "synthetic_result_only": {
+      "cantitate": "18",
+      "versiune": "1793634861453:18"
+    },
+    "key": "15afe7bc-45e0-487b-ac36-050000000021",
+    "version": "1",
+    "db_after": {
+      "asi": 0,
+      "org": 11,
+      "line": 1000023,
+      "facts": 0,
+      "status": "DR",
+      "tenant": 11,
+      "locator": 1000036,
+      "product": 125,
+      "updated": "2026-11-02T15:54:21.453",
+      "document": 1000023,
+      "qty_book": 20,
+      "qty_count": 18,
+      "transaction_count": 0
+    }
+  },
+  "repeat": {
+    "seq": 3,
+    "method": "POST",
+    "route": "/eva-mobil/v1/inventar/pozitii",
+    "http": 200,
+    "body_request_sha256": "9deb2856d394aaf990fb56f6ffddee9fb04fd1059f56c559ba80b5cec0cde017",
+    "canonical_body_hash": "e8df738c46c2e6e157ef30ccc2790aed40b98f534653f3aac1013aba434baddd",
+    "body_return_sha256": "5d9057c122c0ee2413c4cacfa17fa1028a22adbcffb3e17104c9edb9d950226b",
+    "synthetic_result_only": {
+      "cantitate": "18",
+      "versiune": "1793634861453:18"
+    },
+    "key": "15afe7bc-45e0-487b-ac36-050000000021",
+    "version": "1",
+    "db_after": {
+      "asi": 0,
+      "org": 11,
+      "line": 1000023,
+      "facts": 0,
+      "status": "DR",
+      "tenant": 11,
+      "locator": 1000036,
+      "product": 125,
+      "updated": "2026-11-02T15:54:21.453",
+      "document": 1000023,
+      "qty_book": 20,
+      "qty_count": 18,
+      "transaction_count": 0
+    }
+  },
+  "before": {
+    "asi": 0,
+    "org": 11,
+    "line": 1000023,
+    "facts": 0,
+    "status": "DR",
+    "tenant": 11,
+    "locator": 1000036,
+    "product": 125,
+    "updated": "2026-11-02T15:41:04.378",
+    "document": 1000023,
+    "qty_book": 20,
+    "qty_count": 20,
+    "transaction_count": 0
+  },
+  "independent_native_readback": {
+    "file": "executie/R3_zone/A05/avd21-after.json",
+    "sha256": "83970d12cdef29badf1d9a705cae884081f9e28f59820442c8e45f6c6fc897a3",
+    "observed": {
+      "key": "15afe7bc-45e0-487b-ac36-050000000021",
+      "captured_utc": "2026-11-02T15:54:45.016155+00:00",
+      "doc": 1000023,
+      "line": 1000023,
+      "payload_sha256": "e8df738c46c2e6e157ef30ccc2790aed40b98f534653f3aac1013aba434baddd",
+      "state": {
+        "read_at_utc": "2026-11-02T15:54:45.016174+00:00",
+        "wal_pos": "0/B2665F8|23928:23928:",
+        "g1": "20.0",
+        "g2": "0",
+        "inventory": [
+          [
+            "DR",
+            "N",
+            "N",
+            "19269"
+          ]
+        ],
+        "transactions": [],
+        "facts": [],
+        "mirror": []
+      },
+      "line_rows": [
+        [
+          "1000023",
+          "125",
+          "1000036",
+          "0",
+          "20",
+          "18",
+          "2026-11-02 15:54:21.453"
+        ]
+      ],
+      "key_journal": [
+        [
+          "11",
+          "15afe7bc-45e0-487b-ac36-050000000021",
+          "200",
+          "ok",
+          "b6a1dedc2dcb91f1bd2c7f51903b93918f170c1685713328a9516e6d8e36693e",
+          "2026-11-02 15:54:21.461",
+          "2026-11-02 15:54:21.461"
+        ]
+      ],
+      "active_schedulers": 0
+    }
+  },
+  "fixture_source_sha256": "5213fa32117c31510122020635cc212bc366e1922059991ed79ddafe1a31ab4a",
+  "hash_terms": "body_request_sha256 = exact Android HTTP JSON bytes, canonical_body_hash = independently sorted logical JSON representation, native journal hash uses the ERP canonicalizer; compare as distinct domains. HTTP POST wire hashes agree between first call and replay, as do logical hashes. Do not assume native db digest must equal wire digest.",
+  "transport": {
+    "dest": "10.250.13.3:8443",
+    "container_none_egress": true,
+    "internal_network": "eva-test-a05r2-evacontabcodexa05r2uxmd3",
+    "peer_certificate": "22a83772a05c144902291a0f7eaeea3f81976cadbae3e2019c5d6e68838f2572"
+  },
+  "reported_errors": "The first transport bootstrap contained an http name-shadowing exception before any upstream call. Trace preserved in relay-attempt1.log; corrected and performed successful reads and a single write with replay."
+}

@@ -42,6 +42,776 @@
     "sha256": "225d1977a3f9b3a5e2dc3da155be6116667e89de6520f8fa407ea78513920dfc"
   },
   {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_254.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_254--4b93700f.py",
+    "bytes": 4697,
+    "sha256": "642a37a6f0b34cc8cc5fb0fb73547656b71e6b9339688adcd21367dcdd63ecc6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_873.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_873--e4e2da9c.py",
+    "bytes": 3993,
+    "sha256": "21a3708cc101b492a1da0a429580118bbd1645a363e6839d2be57206006115ae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_a04historic.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_a04historic--e0041385.py",
+    "bytes": 5014,
+    "sha256": "fa386ffb89a15af72d14d20070aec8b191ad37afc265dc1d5db2e4265dde2cd0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_a05_handoff.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_a05_handoff--53621db0.py",
+    "bytes": 1792,
+    "sha256": "55fdd8c691f3c68e75a9398cc1b1d0e18f6403e743c0c4cd800451a0c6ef922c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_a07source.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_a07source--3c6e4468.py",
+    "bytes": 786,
+    "sha256": "3ae40d9f509e93cfcbfc6a6427b85fa90adf83672e95cc9b50984b1bbfd9f8f8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_a08.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_a08--327520e6.py",
+    "bytes": 3031,
+    "sha256": "2acd5a89ee07b1d65c1c9998d5bbbdd7f765a11d9e0551e10172898451bafb9a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_a08rec.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_a08rec--415adaee.py",
+    "bytes": 5605,
+    "sha256": "b6cfb49723b2a30ec0b7cb66226f1fdd38cd96f116a733333cbb8f57aa4a5952"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_auth.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_auth--e556c33f.py",
+    "bytes": 3632,
+    "sha256": "576fba060fbb24f6546c9bae894ec6024247480b115c72e1ed27e7e08f938611"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_bank_eurmeta.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_bank_eurmeta--1a9b5a5f.py",
+    "bytes": 1119,
+    "sha256": "3f1f53470db6d785021b245eb3ade6419453a5f312f62b98e2a818a3b51c6f89"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_bank_meta.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_bank_meta--488c365c.py",
+    "bytes": 751,
+    "sha256": "4311598aba02487e5b147f9ffa0c63e3500206f841f18a83103f6581288f8fe0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_bank_progress.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_bank_progress--01a68c9a.py",
+    "bytes": 179,
+    "sha256": "ec90edc3a2cc82c0c39f9ea065c4178fa060169b9fe2b0f5d6ed4e1c46582e15"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_bank_receipts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_bank_receipts--41f1b87b.py",
+    "bytes": 7493,
+    "sha256": "42cec7b994ada40638e97ed7ffbdd2e0d58f145e3995581a46d6594c2cfd9d44"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_bank_run.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_bank_run--5e7a871e.py",
+    "bytes": 669,
+    "sha256": "68aab029ec32fc9350d3daab3a9f2b0b411ebe71083960503cac7711670fcd1e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_bank_state.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_bank_state--19d67674.py",
+    "bytes": 163,
+    "sha256": "97e390e7ca353bf54225be14a0fedb0b275cf2d5310e6629a449fd64cbb0a006"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_bank_ui_receipts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_bank_ui_receipts--68311597.py",
+    "bytes": 983,
+    "sha256": "f90dc8a1668d46c2b3be8d94132ef67a564056082717394fb2c765272df27f10"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_bankrace.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_bankrace--9c8cb2ec.py",
+    "bytes": 3823,
+    "sha256": "e1b8d0f63ed3197d623852f63167df1584bef052fa429b23197e0040ce473a19"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_base.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_base--f638f7bf.py",
+    "bytes": 1012,
+    "sha256": "e4e479c820070c61667a8a85b35b0fbe2923079488fdc3778adec3d6e755516f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_c330_alternatives.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_c330_alternatives--0880b62c.py",
+    "bytes": 3603,
+    "sha256": "89aadeb5c27a1b616bec1cbb090055edaf289be97a41f2c0b25427cc6c110d1f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_cleanup.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_cleanup--702d3c3e.py",
+    "bytes": 785,
+    "sha256": "8e12f93082a21624f6bdaaf95b398c99af32dfd1aaa6a92fc0972e7f8e39d222"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_delta_apply.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_delta_apply--10530e57.py",
+    "bytes": 2061,
+    "sha256": "bb4dc836fdddac55caa3d6ac17a67a735a8ee6c23922075871b47f804357a93c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_docadd.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_docadd--9c392dbb.py",
+    "bytes": 1034,
+    "sha256": "461c25943d026fda011743474be0dd9c63e49179d8d5e06e294b32f18ad9085c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_eur_run.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_eur_run--61e37921.py",
+    "bytes": 456,
+    "sha256": "81310299a4e3fb30ee6189018d407405e93d9ace053e191fa84ff106330c90cc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_eur_worker.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_eur_worker--b75b1ff2.py",
+    "bytes": 5285,
+    "sha256": "46072cd9ad39c1389953999c3184847cb66ec5021a9eef28b87e82d416ac22ef"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_ext.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_ext--19978bfe.py",
+    "bytes": 305,
+    "sha256": "da761af19e3f5e4fac6800ed95d9424d3387fa0c504f4acdffff2c05631be236"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_ext_patch.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_ext_patch--766bf515.py",
+    "bytes": 1050,
+    "sha256": "f32590a9ec9a71b41515ac59243a6617ea0989d72c1f77068eae64ad2f49742e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_final_read.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_final_read--ad14c35d.py",
+    "bytes": 501,
+    "sha256": "a4be8bf93d48f3d99fc6361f0f61002b3da82401d87c67e7dd4338aa55d4161e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_find171.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_find171--8d76f555.py",
+    "bytes": 442,
+    "sha256": "2132f4d8f32ae0d4ee30e3600b12f213cc741baf99043508edb53653cfcb3bae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_five_actions.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_five_actions--b8def3c3.py",
+    "bytes": 1957,
+    "sha256": "1eff67011f580de1fe8141d5a3040f9c3f230bd9fc1e25a6ee45047724c42a70"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_fullchap.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_fullchap--378fb1a1.py",
+    "bytes": 327,
+    "sha256": "79d1cacabb049270ee688b2f05c1b00761b6fdbce095377f50a5a8caf731851f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_fullhandoff.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_fullhandoff--a817992a.py",
+    "bytes": 2317,
+    "sha256": "b68f75bf048b259fc0c4f13e67bae95d808c98ca855f6ddb5941a69411e94bba"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_git171life.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_git171life--798c82e3.py",
+    "bytes": 242,
+    "sha256": "653166a5621ca54f34fc14faad148d917a8cb19db7af5d701b57703bae94001f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_gitbatch.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_gitbatch--55476d0b.py",
+    "bytes": 2797,
+    "sha256": "5f0557721d9266a1bd527efd41bc3a6d490a4c21d5e4919b02e951c8b22f8e91"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_guard_cal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_guard_cal--86e3981c.py",
+    "bytes": 596,
+    "sha256": "8051455daca30b8633cdfc0ad01a2490c8772502fe679448ecea5fa4bc8ca05b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_guard_context.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_guard_context--eb645583.py",
+    "bytes": 416,
+    "sha256": "e11865db3807ea85b7090d50c5927b32bba330490b0a627c78abd1ee31f7b515"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_guard_diag.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_guard_diag--8ed0ad63.py",
+    "bytes": 1232,
+    "sha256": "30745cb9bfcf56fcd04ab44b9ec8e54a727092a41c8b2baef88c56cd860b99b1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_guard_test.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_guard_test--fc5496ee.py",
+    "bytes": 1795,
+    "sha256": "385f4a442917a6432373e29b1f2ba0d91b6d4d140df3afa111a1a8887b6b6855"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_httptrace.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_httptrace--3e30b2b3.py",
+    "bytes": 2764,
+    "sha256": "653b8a013dbe6f5a10e39742e37e050fc4cde7236b6f7c0169ae63d188321531"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_independent.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_independent--cad2f05c.py",
+    "bytes": 1711,
+    "sha256": "3144ba6f1f3253be4c6aca940225590879e926daf86f5a3061d8729e2564c7bd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_interim.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_interim--e3941603.py",
+    "bytes": 1008,
+    "sha256": "108a399c702747f5b4878c7311882f99f24ab1b2422a038b525920205c32013c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_jar171.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_jar171--c0fcadcf.py",
+    "bytes": 2206,
+    "sha256": "2bbc1f86dcde62c3ec68d39f28559cd94ca3d3918bc26ac63fdc0b54e8b039e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_jvm.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_jvm--a7cfe293.py",
+    "bytes": 670,
+    "sha256": "44850323c5eafc659e801e7bcf24d0520ec0131c092d5becae4461f730212c64"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_jvmreg.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_jvmreg--d429e5ed.py",
+    "bytes": 454,
+    "sha256": "29b13d2b67ba29577ed3a3c9194463a0fb7373c5b81251a82b5e095e5e444b8c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_label_patch.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_label_patch--90cc948a.py",
+    "bytes": 1239,
+    "sha256": "d0c1e211b657725633416122dc51b3a5651acbc7f449b7b605f25a47a9b7133c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_lease.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_lease--5b05f2f5.py",
+    "bytes": 1828,
+    "sha256": "d6c3defa4652ce9afbf13d4d28b3ddcfa630a8c16952853f30ab618d4583e1d1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_method.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_method--e77960c7.py",
+    "bytes": 4506,
+    "sha256": "c0432886be97b97f0aff86c3ad094edabdc13b280705d6d73595daa09509cdb2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_native_worker.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_native_worker--a1e6f615.py",
+    "bytes": 10998,
+    "sha256": "6caeddd958481a4e7dc608776151418fc6770da1de42b342ce4eb5ae069b37c3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_otherareas.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_otherareas--c10abf92.py",
+    "bytes": 230,
+    "sha256": "62dcc68250aeb6e800c6d51221d9189be064171bac7344fa1566b3d039068282"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_patch_worker.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_patch_worker--7e9d0599.py",
+    "bytes": 1096,
+    "sha256": "641235f5263764f62c1dc9c41ec711d52ac852f0ee026979e6b9a0de3987d11e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_pdf_harness.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_pdf_harness--1209a146.py",
+    "bytes": 2840,
+    "sha256": "c3bf45ab48db0034e4ecb5725b793571b7d3307113f2d4b58b9eb477452dbd58"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_pdf_mut.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_pdf_mut--1b1508c4.py",
+    "bytes": 3450,
+    "sha256": "c60c8ed5f9f3051711339da5e881bb5f789127816dc5ddd74b185c16f51423f9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_pdf_windows.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_pdf_windows--1ae5d2d9.py",
+    "bytes": 2432,
+    "sha256": "19b62e51c489f3a7b66f6b27e7ae68d6aca4a6ad65f33f046a870f61998e709d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_pg201.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_pg201--b0f52b22.py",
+    "bytes": 4203,
+    "sha256": "7162efe2858ca5d4c04795240d3bcff4922fa30dc1b81034ec938c7f6062a989"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_pg_reciept.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_pg_reciept--21606f58.py",
+    "bytes": 2130,
+    "sha256": "be13104246a0d97b47fb93fdb15fdfefc412cd3073daaae8f4889118bc18a688"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_plan.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_plan--247bc5aa.py",
+    "bytes": 5730,
+    "sha256": "301a1fc95e553cd833204de356cb9c58959a02aa9ffab8817c6c462d6b8fa595"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_portal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_portal--72b0606d.py",
+    "bytes": 2562,
+    "sha256": "aff3aedb415ff34e2a68e706e16a0959e23e5cdab9f1bbfe6b61fd3880b4cfb7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_pos.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_pos--516d58fe.py",
+    "bytes": 3532,
+    "sha256": "1d175dbff5a30c16e4ae861531412f446238543eb61608073450aa9a605e19a0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_preview_ui.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_preview_ui--ee3bf112.py",
+    "bytes": 96,
+    "sha256": "acf00a3aa5e23a986d969e5b67d61534430f40f6fc44cde2e721df51bb0512ac"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_printrec.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_printrec--45b96281.py",
+    "bytes": 2607,
+    "sha256": "2e2c75d79b57a81d8f6bda5b3a61d1e666090e586f12845d73363d455c3e00e8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_publish.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_publish--0c91b1f1.py",
+    "bytes": 18813,
+    "sha256": "1a8c1917aee5668a97d62ed044c61b7237c167786f5e2f848c32791e4fbd3118"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_pubpatch.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_pubpatch--401f5da5.py",
+    "bytes": 629,
+    "sha256": "7a0e44eb078a6fdd0219262e49c2dc109587519f67f2173d9840519ef4a14e07"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_qa--378cca04.py",
+    "bytes": 3001,
+    "sha256": "9bc9796578a641b9a7d9263fb4910e94cff9b8c5a2380c643cd3f313a72aae2a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_race_run.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_race_run--5558d2d8.py",
+    "bytes": 461,
+    "sha256": "d83f0b3f7593f4a07dd42920e275ecc593da783a5064fba41f0417c2f19c22de"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_receipt.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_receipt--2c2fa1cf.py",
+    "bytes": 10322,
+    "sha256": "641d92913e49e6bcaaed115cbc16508aef070c34a58369bfb39ecef8e8bfd7f7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_registry_receipts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_registry_receipts--1313c3b2.py",
+    "bytes": 5140,
+    "sha256": "1818f4939af529b1fc0303dda4bb2586dcaac1792b2e0ca25e49d73ba3b3fa62"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_rootproof.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_rootproof--753481e0.py",
+    "bytes": 1222,
+    "sha256": "6d2efd53a7c10fe8a7a7f844dcd728e7b38a180333ecdcb3c5ea4cd21e6f47a3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_seal--f0d241d7.py",
+    "bytes": 1296,
+    "sha256": "9fd79e23e73cc14e72a69c8899a6918c9e3a6e01a32a34010b2a1624792663dd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_skim.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_skim--5d38899c.py",
+    "bytes": 893,
+    "sha256": "5f0ab6f4861651f7f75d3d1c1ac45be2c04f2d96c468cec6e8efadf067a23fa9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_stock.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_stock--e97b9d4d.py",
+    "bytes": 2899,
+    "sha256": "71633cedf3f8cdf215800476ce9cceb68424f42b4e52de89f3eed2f302313ea1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_sweepfields.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_sweepfields--ecd471c6.py",
+    "bytes": 527,
+    "sha256": "b7c89566927f5e3638956aea5606de7b71881d8267296db266efeef64c1cd01e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_t11init.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_t11init--4d72c2fe.py",
+    "bytes": 417,
+    "sha256": "c8094755ce7f9f49c0554a425ce73bbbc9ab7e01b0bcf0c5f6a172996f24864b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_t159role.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_t159role--0177671c.py",
+    "bytes": 3627,
+    "sha256": "93c33b11435e70444a5507d3b2a554a19e72dc371318c9c21c51e6e594175129"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_t201ref.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_t201ref--a6753d33.py",
+    "bytes": 140,
+    "sha256": "8e5a17716e142fda1b1afe0b70d01b9f3dacc852de66afc133980b232d4698e5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_t227_mut.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_t227_mut--af92f882.py",
+    "bytes": 3925,
+    "sha256": "1f3d1cc4221b964c8e75fd28c4565ad8ec116678bb63b7aa2a2229a1feba13a6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_t314_gates.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_t314_gates--c002b6dc.py",
+    "bytes": 5298,
+    "sha256": "8412723746f1a7b16a1e1938ea19279359c94773bc2eaf0b418fb503717e5d6f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_t58_bound.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_t58_bound--63020e88.py",
+    "bytes": 3347,
+    "sha256": "0f7c7c6324e7b347848aab80c3315a0085e8618a5c740e0a6ea4d87489f201e9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_techzones.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_techzones--0d7a729e.py",
+    "bytes": 3290,
+    "sha256": "e6023457579b185fed2e1ebc9329cad6a710c6e1b3fbdada7618a3f8cae27cfc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_tip.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_tip--f9d667f6.py",
+    "bytes": 424,
+    "sha256": "da2dd2773c77eeda3707dadd2667d78b63e70c1f68006a5625f6e30fdc649fc8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_tip_real.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_tip_real--c70c6db7.py",
+    "bytes": 2352,
+    "sha256": "40bf5d5b05b46e95b188d670667961b1a6f19a879d509155063648efe1218286"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_trace.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_trace--a257d933.py",
+    "bytes": 572,
+    "sha256": "efc895b77de96fb800214c497824127190a6a02222f3e704087c61d937c0b8a3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_trans.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_trans--a681416c.py",
+    "bytes": 1317,
+    "sha256": "06db09dce34cfa18215e0b605fefcac1029f84accdb94a1d87ca0e0cb7942cbe"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_two_boots.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_two_boots--8c7221e3.py",
+    "bytes": 4663,
+    "sha256": "afb5a9536dcea264ec06c9d3a24cd097bddb281938e478586938e79eb7ae7551"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_ui_activate.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_ui_activate--afce62c9.py",
+    "bytes": 384,
+    "sha256": "4e83cb7fc07e389704c2f3351f3225d882aa8e7b5b088d1c420f0b46f2295c36"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_ui_config.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_ui_config--34f9f2e1.py",
+    "bytes": 2354,
+    "sha256": "fd99f94d42e1480d9422e9ddeab282d1c048be2dbd6b5a68e53b0107b49645a3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r10_version.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r10_version--d76653ec.py",
+    "bytes": 739,
+    "sha256": "e76f6b65c74f64cb0b1c25d108979eb18481becd9d6e4cf9edbb1f766ac1ea12"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_catalogue.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_catalogue--c63c66f4.py",
+    "bytes": 855,
+    "sha256": "56f3d6dcf32e5c708f24ad2e39bdf12599285298f7727e898845c839baa3f388"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_core.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_core--3777a402.py",
+    "bytes": 3251,
+    "sha256": "1c85fe3f5daa146fc1bef8fc7727452d7d735c150d64f2354bffba3a6d530508"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_explore.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_explore--05d6d571.py",
+    "bytes": 1268,
+    "sha256": "101216b72a1e63748d69022324358f558ace5b5be11c7f69c90fab663cd7b6dc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_fields.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_fields--f4c7b289.py",
+    "bytes": 1470,
+    "sha256": "ea7709dff41075d02f9eb1450bbb33cc036dd24955fca3e9356869e905cf8bcc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_finish.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_finish--9b7fc15f.py",
+    "bytes": 9976,
+    "sha256": "a6ea71b79059abb95626f2108507742267ac972b0df30889346ca8efcc29d0ad"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_gap.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_gap--7373f789.py",
+    "bytes": 361,
+    "sha256": "27cffa5394477b5677b0308a23606ee1dafadd0f770f080ab92d53f875a8c6e6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_inventory.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_inventory--7e74ce27.py",
+    "bytes": 7219,
+    "sha256": "609084852385e4956f41fe31bd39cdb8d0702e8a022331e7eb5df5a4b0588b32"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_paths.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_paths--0579e635.py",
+    "bytes": 568,
+    "sha256": "316b54e3c5c5333ddc8726ef2db2a0ba1ac1aa5406d807729c891ba7e7f8444c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_pop0.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_pop0--c5c95bb3.py",
+    "bytes": 934,
+    "sha256": "b5d73ad5a6a128e27f87ce5627ed5027d87d1b19177fea676e74bfe0bd434731"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_rows_a.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_rows_a--53cee5a8.py",
+    "bytes": 8755,
+    "sha256": "43d84ff089ac20ca2462e53d3340d3648d1a21de6f98cc040c6ea92c9ab97c65"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_rows_b.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_rows_b--5d92ad26.py",
+    "bytes": 12244,
+    "sha256": "bf833adaecf40eefed562e82a5b381acf3615afe460e4fa05d3c5cab30cd998d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_rows_c.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_rows_c--f6377b1a.py",
+    "bytes": 4831,
+    "sha256": "1875a4401fc4f750b75e2652018e282aa6c9beebd8ef59f4cb2e1cea89c2ba18"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_snapshot.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_snapshot--01121336.py",
+    "bytes": 2665,
+    "sha256": "8cf39964adcaa38a0ef44c7c68992395ac7d9435490064eb086e2317f24644f7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11_sourceinfo.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11_sourceinfo--114ddddd.py",
+    "bytes": 922,
+    "sha256": "2eac1dc6605f6db4593e5455475b63ce6cdd69ba584b1daf89622451b745929f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_base.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_base--b1e4be97.py",
+    "bytes": 1644,
+    "sha256": "e1bdc211438f90b4b0685fee687c7e55b0d52682dbf9e5c9be52ca419a8b3dfd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_cal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_cal--ea6339ab.py",
+    "bytes": 4177,
+    "sha256": "a31c70de64d9fe52f3772befcd12ea8152313baf7710879e47cf35fb5e77672e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_discover.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_discover--cdc8b62e.py",
+    "bytes": 857,
+    "sha256": "b390c611cb07bddac3da2da7c3cef1548d188fca50bd3dfb5f6a8fad84586059"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_evschema.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_evschema--faff0148.py",
+    "bytes": 347,
+    "sha256": "97c3ae224659f69fc76ca95b289842ec6f2213bb9d3c2ac840c3af4cc14da279"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_fetch.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_fetch--06ec3dc5.py",
+    "bytes": 1582,
+    "sha256": "3b47c0df1ec4a057dd4bad6c4e3cdbcc59080b1990b9b714a49f40265accca31"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_fetch_social.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_fetch_social--799475eb.py",
+    "bytes": 1742,
+    "sha256": "068415a1e3903069d88733ad5d8992fd1676bc84e0e1bb484ea932574109255b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_java.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_java--5aa536ad.py",
+    "bytes": 4510,
+    "sha256": "45251b70a37f0a12dbb58f43786d4fd84538b81ff1ccef1f67fcc45f67fd1803"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_pg.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_pg--9e4b3451.py",
+    "bytes": 4517,
+    "sha256": "38f82eb8d2a2f332d4700bb78743bc0040507405a8bf9fb71fe8db49cd9e43fc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_register.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_register--c7ec47db.py",
+    "bytes": 4442,
+    "sha256": "69d88181b8d5c19482b34e222253d4249a2796f2c93453731d1ed146b6f19298"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_rows.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_rows--851e463a.py",
+    "bytes": 676,
+    "sha256": "12dbbc245a4244a0ba73ff25bcc8fdb76147fb1376dfc0b5d7346feb650636c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_t232.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_t232--3f0b6e05.py",
+    "bytes": 3321,
+    "sha256": "9c52a12fa47a7cef6466a89f11a2abedb6d8c388f132da3b331583520695b7e1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r11x_win.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r11x_win--a1daf379.py",
+    "bytes": 4433,
+    "sha256": "8480a8688cb276d14c72d5f1fa3a8e1e53f2a64b62675f6fb715a9e4c7ee99ac"
+  },
+  {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r2_cases.py",
     "status": "copiat",
     "saved_path": "fisiere/a12_r2_cases--422e5ca5.py",
@@ -61,6 +831,986 @@
     "saved_path": "fisiere/a12_r2_verify--d35c4fc4.py",
     "bytes": 11476,
     "sha256": "526580aea7bfe937d58b00cd289801f96d5ffa31cc076fa14a0c221e60398d3a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_ad.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_ad--481c8a7d.py",
+    "bytes": 2485,
+    "sha256": "632d01704bd2af092191bf26799c99702a7d3665469a06c3519e507bcd932920"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_ai.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_ai--313b2d02.py",
+    "bytes": 2438,
+    "sha256": "a947a0a94d265e7835b54a4d6b60431962188d1148206b6b5f87d6871a2e0ffc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_anchors.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_anchors--d4ed9851.py",
+    "bytes": 3165,
+    "sha256": "70a8b298fbed7f211470f71fb6ddee16d4310d2bd818ee4d03a896be29e711fd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_android.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_android--f6740a21.py",
+    "bytes": 1160,
+    "sha256": "f559a9daa94305d9687458ecd3e444ecc948afee3fa0113528f8683ed4889802"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_archive_criteria.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_archive_criteria--7591679b.py",
+    "bytes": 4115,
+    "sha256": "e1e9d13bf33170b754720cf4d68841ae57dc59b3e84db39a63ccac09535845e3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_attribution.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_attribution--c27deb37.py",
+    "bytes": 2220,
+    "sha256": "1d25fbfc6f4b20ff1725a36c5c0c36dcb62473a4119fe2de5cb5c5938a68e29c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_dependencies.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_dependencies--928e8c1d.py",
+    "bytes": 6995,
+    "sha256": "b12d4f070a219c97131fc91da2c2b7e9927f75a03fea5ae2e526d4499721bbe4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_devicesuites.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_devicesuites--bb696332.py",
+    "bytes": 413,
+    "sha256": "289917ae4de20144922775ebaa28b158022a665c98597cb7a19df5458beb92c0"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_extra.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_extra--980298df.py",
+    "bytes": 2798,
+    "sha256": "ba409b67a5974c38746be90dc6f7213f0b4794a9a53698062356929937a77b34"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_finalize.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_finalize--1a8030da.py",
+    "bytes": 5596,
+    "sha256": "09c0b4d844ab73ed729ed82ab8c92f5cf7800f9fbb5842abb016751b1ff2b197"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_gatemerge.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_gatemerge--b4897653.py",
+    "bytes": 4195,
+    "sha256": "c8d44e22525106d01cb9ba83fa41337c6dfa6e52343f2387fb922965cea13713"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_history.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_history--24096697.py",
+    "bytes": 2909,
+    "sha256": "805aef71778cc4d347bc17e084495567c765ff34c4a46906e63ac3b2086b9676"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_last_inputs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_last_inputs--5b9f4707.py",
+    "bytes": 3037,
+    "sha256": "d03826972c3dd42c28c5736ee6df4bec65ecd2271e7cf8d58e79e20bb8e0074b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_legacy.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_legacy--417757ed.py",
+    "bytes": 4038,
+    "sha256": "cc4f344777c3849bccc092847ecc17231c9828f9cdf02d5c4ebf49dbe4ea7179"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_more.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_more--d1fee43d.py",
+    "bytes": 2983,
+    "sha256": "bdf9bc688f463136382dedb044c3c2aa4e3d22eb0f7d497d51405b39b6ccb677"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_more_suites.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_more_suites--e2b2d7b6.py",
+    "bytes": 1251,
+    "sha256": "8f733699377114283fc96130237995ab9e41e292cab46c35b622fa2d29424563"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_qa--d22c494e.py",
+    "bytes": 6678,
+    "sha256": "21e7f679c8178e27204c6d7aca906ea7da89af7e7ec1e2a5fa375a726f63e4ff"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_recovery_map.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_recovery_map--6f8e71e3.py",
+    "bytes": 6851,
+    "sha256": "b7f7e0cfca816d5fddfb7cd9600e984cf8d7f93e31155ac6907c316bb38a5cff"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_retry.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_retry--3d9c8e55.py",
+    "bytes": 2298,
+    "sha256": "04fdb9b4dacee5643b7ae38f5ea82438955f5507e664c0e0d484ad9dac681900"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_run_tail.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_run_tail--c0d4be54.py",
+    "bytes": 22791,
+    "sha256": "e129003f965a8cfd1e0dd055ace7c688b54b5aff6d5d1cafafed97c8081e583a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_scan_retry.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_scan_retry--c5862542.py",
+    "bytes": 1239,
+    "sha256": "33828e88be307a2f733c821307f392c65d9df86cce649ced23d81f3badad431d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_static.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_static--dcca0aa1.py",
+    "bytes": 2990,
+    "sha256": "f675ace7ff015940e26b1be6785227e2ae10ebdf0e9827888a6252512a727f65"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_suites.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_suites--2f138e48.py",
+    "bytes": 3022,
+    "sha256": "7a29ad8b5a565eb9205df6ebc9fb57f07c66876ac988e994acbd76431dc73e07"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_t259_archive.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_t259_archive--2e1a4c6f.py",
+    "bytes": 2021,
+    "sha256": "5b7af4f5a8777f78c4b3c74ba536eb462fb175fc50e82c28f0dbd1f757313968"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_uitest.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_uitest--9ea9c368.py",
+    "bytes": 1761,
+    "sha256": "e571576717c01864385cc773f5941ec156b1a2b9e0c9ba4c2077b67e882709ad"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_upd.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_upd--a2650e12.py",
+    "bytes": 8066,
+    "sha256": "db2e3b98482899226ec85eac7a9921d1217dd452df48f434468266eba4b81a0d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r4_zk.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r4_zk--2985fd1c.py",
+    "bytes": 5521,
+    "sha256": "075b4697d8ea69206a4a8eb94321672afa50679eba20f1a6482642652da0f7e7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_calibrated.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_calibrated--775efb60.py",
+    "bytes": 3042,
+    "sha256": "0eefb0d3f6b98a3c02abc80889b81fc77cc014de47960b235b6f36a6adc3fac5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_cases.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_cases--925864bc.py",
+    "bytes": 17362,
+    "sha256": "11292fd9bb18ef7cf7e363f6bee878ee6cf4523ab0df5f8cab64c6bfa9016ec4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_core.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_core--b7e87c26.py",
+    "bytes": 9760,
+    "sha256": "615bbb580237c74b5077207c03b9db72454015fa500ba861e25be9d3b6979b58"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_ex08peer.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_ex08peer--74595d29.py",
+    "bytes": 6610,
+    "sha256": "768ebfb6af0bc34406369fb7d704e7edb2a9599526583154a83cdfbf540559fc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_fetchcal3.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_fetchcal3--95966539.py",
+    "bytes": 445,
+    "sha256": "b5e80d1de634d6ba401085fc42b0cca580d6f52b1a51ba0444c9eeb0d09eea3f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_locators.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_locators--bbc27f11.py",
+    "bytes": 2326,
+    "sha256": "4a2cf19fffe1b057bb5d8d0ab00f37c686e2b2c4817863824f6185d54465fc3f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_make_matches.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_make_matches--0d7f0e33.py",
+    "bytes": 8229,
+    "sha256": "d7e73a907274af6038d8c08e486117deee1dd8db079da5f9f570ed2212530da9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_profiles.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_profiles--29a53676.py",
+    "bytes": 8591,
+    "sha256": "6e9566e3fec41ce602963ed422f228879a2ddf53e324a70db6285aa46cdb0243"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_qa--80a61d4e.py",
+    "bytes": 7255,
+    "sha256": "987f37a9213b1e2a9a15902aa491ceecefd31c915bc54e35a1dbb21841fc2230"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_sql_repair.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_sql_repair--9451424f.py",
+    "bytes": 770,
+    "sha256": "8e4f5d2e5b88cec0163388f28835933b1a7bb4771e9485e9d688a4d697722777"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_sql_suite.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_sql_suite--b26c116a.py",
+    "bytes": 5915,
+    "sha256": "8a52857985507f0d2993fc3638c0e411e24747dba89dbe4fb560a3690b968c85"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r5_vectors.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r5_vectors--30d10f46.py",
+    "bytes": 4421,
+    "sha256": "0fecc5235c753c74938e1c8d50028a0564453eb8ff82159885b48c0341e6ee8d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_compare108.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_compare108--444943cc.py",
+    "bytes": 15684,
+    "sha256": "fd4ea1bdbe85fb724fc0ec3fcfb40b3f43fce13177db56cde9f98c7ed253ab5e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_dataset.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_dataset--6b2d3bf1.py",
+    "bytes": 16419,
+    "sha256": "25c9ec75f661a1d383f67ba8e750ff4842f4ca240ed0e89b739332bcf179aebf"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_extras13.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_extras13--ced84036.py",
+    "bytes": 1709,
+    "sha256": "2fc4d4af166e1c3545668e3b6e651e82ebe09b32078fcc8d43630edb280ea957"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_independent.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_independent--f5534f89.py",
+    "bytes": 6016,
+    "sha256": "2d0f0ed087b1d08541f4c69f56853fbc83006da3e69b32917592ac73f9569ea3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_instrument.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_instrument--bafe3fc6.py",
+    "bytes": 4277,
+    "sha256": "97a6ad73fd95407f591b19e1dc488d47ddc41444f14210a7ca329cfc590ff150"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_jobfundal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_jobfundal--9ea3e8eb.py",
+    "bytes": 5980,
+    "sha256": "d617ab0ebe89c509a9f41b27f57f28726db40432420ab93c705bc66487405203"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_oracles.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_oracles--afb84672.py",
+    "bytes": 6789,
+    "sha256": "cdaca16299a1053c5e13ecc7f95ce1152ed703c4a8a9fd30400f9d4e2e8367f7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_postscript.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_postscript--f76c8599.py",
+    "bytes": 1406,
+    "sha256": "c8ca4bb9d9dae4e99c73e160eaf8d21070afdd4c3e68f9c4b457932d14147661"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_pre_retry.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_pre_retry--733351f7.py",
+    "bytes": 770,
+    "sha256": "ebeee5b3abc54adbe3528df6c31c581f9d8a2dd06a03c5d3594c6de81c365067"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_publish.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_publish--7460ae1c.py",
+    "bytes": 16794,
+    "sha256": "0ae3dbb635997eee507a6153c07a99573e79818a0369e2246a90646928b1cad6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_qa--f4163c35.py",
+    "bytes": 5995,
+    "sha256": "6094f4934ca6b921a69d474c34e708b34e748c2adf13d31a73f5a7645cef0168"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_screen.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_screen--0b1ef7ea.py",
+    "bytes": 108,
+    "sha256": "fc5cc183895f22e37ad27649dc76e97f02da3e3e96136056c0eff53ed128439e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_t06_add.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_t06_add--ea53f845.py",
+    "bytes": 1222,
+    "sha256": "2cbd1604730e4cbcece6bf76c49521da93f3b2260606d9cdb165e590e39428d6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_t06_erp.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_t06_erp--f6ec9d4f.py",
+    "bytes": 3630,
+    "sha256": "4236a1ac589008086eb532529359603191b8f9b9f18f91948f642d96aea8169b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_t29deps.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_t29deps--ea282c00.py",
+    "bytes": 1536,
+    "sha256": "1157fc98395cfe8b9642afb2600b5ba3eda71a311d4a3b071e93b5a7e4a3f3fb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r6_ux_add.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r6_ux_add--1021d092.py",
+    "bytes": 2464,
+    "sha256": "cb244cb269d260ad021524c3ef1275dd673183eda7968449d43e327554653dbb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_atomic.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_atomic--c8915533.py",
+    "bytes": 5959,
+    "sha256": "35720a1dc9bf7a10d90eba14c877ea686bd38212a934be1c6962dc1db6c57778"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_cab168.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_cab168--ebe99f04.py",
+    "bytes": 2561,
+    "sha256": "3bec0e1f867121939bd1221dad4798fed74a557777a1db8e16f1045e619e2f4f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_cab_sig.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_cab_sig--583ab72c.py",
+    "bytes": 2658,
+    "sha256": "6cfc7b13916a5cade3b60906f57c57d9e889c49a99128875ec873ea03fd4b933"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_cabinet_test.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_cabinet_test--e7654f4b.py",
+    "bytes": 4096,
+    "sha256": "4fc2158e14129c8131833cb45262b12cb1a9b12b6961e5d1e593507b69000bef"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_classify.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_classify--deb6e04f.py",
+    "bytes": 14495,
+    "sha256": "27dc9ca5e5667c0d7b2506e1a9422f8bbe4d694f997b37885222f181239aeca5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_lease.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_lease--d08f28a6.py",
+    "bytes": 1527,
+    "sha256": "07f2e7e982a6b3fc7defcd893451cafd21208d78112ae1c360ec97f65135bbbb"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_ledger.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_ledger--ca395a67.py",
+    "bytes": 7349,
+    "sha256": "6d695113e38336ee43c18c8d4403eeed7da79a9827cf0d5dc8f56dc2ebfaaab4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_metadata.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_metadata--314999ad.py",
+    "bytes": 2023,
+    "sha256": "364729026adc334ea11f9d53ec30e10c79ba9a4d395fc0a5f9e8ff8b4b4b8424"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_pg_cui.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_pg_cui--ded1b543.py",
+    "bytes": 4037,
+    "sha256": "483cfcbf0b332bfbaa467a095a267a0944cbe161071c155fef2925c11b8b8bde"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_pg_joblock.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_pg_joblock--eeb65086.py",
+    "bytes": 4834,
+    "sha256": "563e2def6111235b2dfcb66012db6468533108bdfbcc8f7115e3314ec1b86f36"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_pg_suites.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_pg_suites--2d0a2aec.py",
+    "bytes": 4874,
+    "sha256": "86454bf06868171d55173aa9aec178300fb3e5699950fb5db6c06b43a7dcc41c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_prepare_results.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_prepare_results--54c9dbb0.py",
+    "bytes": 15006,
+    "sha256": "e53e389dd70a277a516d7f9920a7b9959f75fcf59dcfa02aca07e7ac8806c9e2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_publish.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_publish--29ad3427.py",
+    "bytes": 14973,
+    "sha256": "df4570449bce321498c984bb5636b2ae2e74487b3e562b27317c56523c9462ae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_qa--9628189c.py",
+    "bytes": 7515,
+    "sha256": "942b11abaf6063171867fd59187d3200d6a0c6d26ce96342eb6042757202fbad"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_run_cab.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_run_cab--1ed7b12e.py",
+    "bytes": 1520,
+    "sha256": "d90ebbf4556e135e06fcb8b92d9725544313d91ed6ae487e3a2e4c67a8be6c4b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_sourcechecks.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_sourcechecks--d4a70ad0.py",
+    "bytes": 6416,
+    "sha256": "f5107924a13c137d2d670f227ebb55e9d9285fb22ec75477b2f4deb41fad747a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_stack.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_stack--2e47a209.py",
+    "bytes": 3129,
+    "sha256": "f92b567fcfed25d9a3aebd3d6b86eb9511c5477391081ea95764913a9a331ccd"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_stack79.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_stack79--247822c7.py",
+    "bytes": 1039,
+    "sha256": "c5388ed1b9e9d8dc76c36a261d1cc6e5ca02478a97c474aad907858882784d4a"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r7_stack_recover.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r7_stack_recover--b3f0bc81.py",
+    "bytes": 4814,
+    "sha256": "6fdb4fa042e2721b40fd141e933881c347f501cffee0761ee2ad9f91498e6a51"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_alt.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_alt--84b5895b.py",
+    "bytes": 540,
+    "sha256": "b564676016b3e66a25f0f3362fcd36c0225c5826b17bbf3d38853b8f2d0353dc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_arch.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_arch--59e18ec3.py",
+    "bytes": 2440,
+    "sha256": "cf47d583fccfeef60c54e18c622faf55db26cac302e549e8859e3b503db2790b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_arch_more.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_arch_more--adc9dbe0.py",
+    "bytes": 723,
+    "sha256": "2bdf50864510ef3acb2c2b9e79bf4386401fbd8ebd032c7243a398b56e1fed62"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_arch_survs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_arch_survs--488f4885.py",
+    "bytes": 860,
+    "sha256": "6c3a2261e234ce698d7d3de162aa0aa454901039a20367919d56d24ce210099b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_calib.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_calib--3707a4ce.py",
+    "bytes": 1284,
+    "sha256": "4d1965cc8eaed85a1cdeeda5abd7a1d82f0611ddd1ee1f9a5496484c4f7e2082"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_cases.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_cases--bd5a01a1.py",
+    "bytes": 9938,
+    "sha256": "5bb79dd2f94019c00c8bc57a6267ce107b1611e73e83224118a9f682dd268cc9"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_cov.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_cov--9c12bc1c.py",
+    "bytes": 8696,
+    "sha256": "72cfb0d9fc82544ffc1bab70f39c43ab0c4f8a1fe94bd2fb2b3a53b55546b4b6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_emit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_emit--03d5f92d.py",
+    "bytes": 369,
+    "sha256": "67700520d5436f3d6fd90aabf12d259a1e28cde637cd0f40d453c035a371be6e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_erratum.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_erratum--05c90be1.py",
+    "bytes": 2858,
+    "sha256": "2d6d032239d65bbba5590968b60ef4a70242c866f4ed3f5d563fbaa4e530a3f3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_extend.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_extend--c775446f.py",
+    "bytes": 6413,
+    "sha256": "4bebd2e4cd2533b6510222bf2dd767f54f6ab8a78b6773d3a29eccf6aeb77c03"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_extra_docs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_extra_docs--1c5c21f8.py",
+    "bytes": 1787,
+    "sha256": "ba684fbafab3e6f845fa08e3e0ca7d9fda6620c60b96c742714c8b38e003c164"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_extra_jvm.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_extra_jvm--a99e7974.py",
+    "bytes": 398,
+    "sha256": "c850b88cbdc778e7d06546d00276015547073bbaec8ca922a1c15f84acadcf23"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_historical_select.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_historical_select--ae8134e8.py",
+    "bytes": 843,
+    "sha256": "a908dc7a64e91961cf7666647857379fc8ac58e07bfe2cab42d87937a2092651"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_inspect2.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_inspect2--d9eb4531.py",
+    "bytes": 1130,
+    "sha256": "19c4ee1c77e86a9cd8ede4aeb20ffd86838f35287cb9297accf7400daa56f0f6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_inspect_tab.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_inspect_tab--1f8ce6b5.py",
+    "bytes": 234,
+    "sha256": "3071a057eaf2c00d1947f5e3b9066a761d93f03c7b02d850b1ab06cd7e210980"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_jvm.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_jvm--19788f59.py",
+    "bytes": 2251,
+    "sha256": "0aee1909cb1992ddada8223a7cbc9d23e314148b55b4a93d6f7a94b8d7d27345"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_list.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_list--6f2da3cf.py",
+    "bytes": 705,
+    "sha256": "3a109723a738456e8dce687053fa0607db991ee9f20a639b8c898e409a4f0a6b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_measurements.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_measurements--778df2c0.py",
+    "bytes": 17472,
+    "sha256": "75234d93bd71458671cd5feae5e80abed7164019f9f2064b16906d62ba5a37b7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_menu_case.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_menu_case--2358904e.py",
+    "bytes": 2186,
+    "sha256": "a200a17a1a057abba015f02d946bbe577160f025309f9dee7097c9aef4410e35"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_methods.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_methods--80e4ca04.py",
+    "bytes": 3636,
+    "sha256": "c82cd6f51d35c8ddeb566841f59da66993c896f0eee2c4d8774b2a8a7404df76"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_mock.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_mock--c3d486c6.py",
+    "bytes": 1554,
+    "sha256": "8df73ca0e8cd4ccc3146826c466a75ddaa31d4e2eec8b3ce374bf7eba6cb285f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_morearch.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_morearch--a94849b8.py",
+    "bytes": 492,
+    "sha256": "847abdc2cba468cbe9ae8ffd080bc9c4d647bc099941563496dfee58da757742"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_moreviews.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_moreviews--1b189970.py",
+    "bytes": 449,
+    "sha256": "8eaa9c098f5249f718c80b97abfae066b40db9848024430904c2c048d96d89e3"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_native.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_native--102ad868.py",
+    "bytes": 2621,
+    "sha256": "1175ae264ffbcf04d426bc49f7b1fddcf2c8adbccbbe70f296b764f21a6f81da"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_offline.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_offline--614b8f22.py",
+    "bytes": 2100,
+    "sha256": "0caba9de643c78253e9839bc212e8d47c0f64937e1b2f184e2c0be46a593fa70"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_pg.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_pg--549363e1.py",
+    "bytes": 6416,
+    "sha256": "01bcc3d155041acdd76361fceeeb5a7cf6368d4aa734cc31af63fdc3801b9ba4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_preview_ui.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_preview_ui--2c35b7c9.py",
+    "bytes": 686,
+    "sha256": "67fc3a2781594f4b3fce19e9372276b73eca630affdc4766599f09fb6779b2c6"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_profiles.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_profiles--c209fbc8.py",
+    "bytes": 417,
+    "sha256": "4019cd73fca87dd57a1c6392d38f2043438398c4573341b2349e2b5fc54c12d2"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_publish.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_publish--c45c561a.py",
+    "bytes": 17275,
+    "sha256": "d529f982c05d0a3b1dff97a9c4d4e3921713bfc57e507d4e15fca0ca97f99b23"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_q_alt.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_q_alt--b27c42be.py",
+    "bytes": 923,
+    "sha256": "b83935f06eb572cd81c96b0f40cdf0e6aecb87b4725caaa8a990acdc00e1399c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_qa--558865a9.py",
+    "bytes": 5492,
+    "sha256": "baee2ffd8aaf993debd761f1ba98d637b979b51d969e2564a92a762adb329294"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_review.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_review--dd26b5da.py",
+    "bytes": 1276,
+    "sha256": "80f89ec099cbd00d521c51d84dfaead9274d97e703e79a5ea5588d07cae516d5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_sanity.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_sanity--ee6261ee.py",
+    "bytes": 370,
+    "sha256": "fade4c23e56b8d11d2df4bc6778714a30381ffb3e341f0407dcb0bc196a3c244"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_seal--f2bed175.py",
+    "bytes": 1170,
+    "sha256": "dafff97925be04db03f709f307646c73c188cfe4beb6e573c765a8580fc0e9a7"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_static.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_static--bc6c1acb.py",
+    "bytes": 2859,
+    "sha256": "3649fcd70f97569fa0bbe8802c5b672de02a3c41838732398b5b0e4b864ad03c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_static_tail.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_static_tail--b1a004d3.py",
+    "bytes": 419,
+    "sha256": "3d29cdd970faa4adb59ba5f9dfee5c25d003575ef48c549f373c69af23c8e673"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_t06_count.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_t06_count--6cac41de.py",
+    "bytes": 2336,
+    "sha256": "1c5921133ebc9460127fa41652b7547f0685f2ef9bec2c7d767ba0f5a523d186"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_ui.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_ui--6fd9852a.py",
+    "bytes": 2398,
+    "sha256": "696e9c27138e897ae93c86c8e2d0f9604da4e8890bf69d09c8f91dad40f2fd84"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_views.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_views--04e733f6.py",
+    "bytes": 676,
+    "sha256": "1267fbdc94179ed39f9e1e52d306ec78d527321589323fa4768e4827527b90bc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r8_zones.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r8_zones--bdbfe1b4.py",
+    "bytes": 5790,
+    "sha256": "7dcc3fba1a1fab64e6433777a6564c1a9572abe70bcc215752251f2122f585ae"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_alias.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_alias--3f23c972.py",
+    "bytes": 3730,
+    "sha256": "589ecdbb6f1c66426e0dc9d84001f39e6dd4e97da7a5f4989052f0e504f23856"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_alias_inspect.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_alias_inspect--3e3bc2bf.py",
+    "bytes": 1066,
+    "sha256": "e173b57085046c33577ea1d258b6d4e224499292aef88240ffd001596dd4ed63"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_cesiro_dict.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_cesiro_dict--27489bac.py",
+    "bytes": 1861,
+    "sha256": "9d732edbcb20f3a30e918a4c98bff37f0c245e73bdba931cf7ec686b9f50ca88"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_checks.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_checks--0eaeed6f.py",
+    "bytes": 1898,
+    "sha256": "a3b8b488f3a51f3ee156b8fee1537a0641e8adce25441cd87c5b2a98030e419f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_det.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_det--315f1336.py",
+    "bytes": 3790,
+    "sha256": "05f0afed15095231f8ff311269f732f03a1dab573a0e0a906bcc8367c9deac13"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_git_controls.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_git_controls--a5e32a15.py",
+    "bytes": 2779,
+    "sha256": "8015a0596fc5fbfb585784008e21d0437dd4589178c13c296f1d1fcc579831f4"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_method.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_method--920c5b5f.py",
+    "bytes": 2653,
+    "sha256": "636db275b45b1e1eed56d1d84fbd3841f89e5c9d4fcda00e550f3f99d9213b3b"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_orig.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_orig--49863367.py",
+    "bytes": 1469,
+    "sha256": "d6d725a5850d9597b73a4a079c3897f3428f55b228d0cc24064528fb96b896f1"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_plan.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_plan--d755594b.py",
+    "bytes": 13988,
+    "sha256": "e58364a8f3dbfadc9b03cc2d2ff250b93c8f5cad44eef8d1cb1f420a2fa17b26"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_publish.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_publish--bc1cb935.py",
+    "bytes": 18673,
+    "sha256": "607b18470ca80ccd088d749d0fdadee2e34c517250b7b9afc558534070c6da42"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_qa.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_qa--7eb8dade.py",
+    "bytes": 3913,
+    "sha256": "6baac451f5dbbad8963f59e6fb51fba581a2d901dc0e66616c53c9c7a7699565"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_read.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_read--9a631b88.py",
+    "bytes": 1442,
+    "sha256": "6568db33e6900b8796d7dd22d16ca4bb78f186f3d287b2845dc025bf4650be95"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_receipts.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_receipts--ccdb0a53.py",
+    "bytes": 7931,
+    "sha256": "3530661598462bd7d2170825d7c46c5b9d3073d40be1bbc6c4fd81ee6e2d676d"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_script_scan.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_script_scan--6402dfda.py",
+    "bytes": 727,
+    "sha256": "78a6ca70cc1bcb9921f15afaa03e5de611a2e50baa790d1a45c89d851e463279"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_seal--a2eb3073.py",
+    "bytes": 1067,
+    "sha256": "a70a8e15e29f7affc3245a809b144aafaba1c369f04bacf53393b28f353d2797"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_searchsource.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_searchsource--c243699d.py",
+    "bytes": 740,
+    "sha256": "3072af72b37e6cd68a65cbc60d61e625ec1c9292e32f996ac8203ca268a901c8"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_source882.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_source882--d1a6447c.py",
+    "bytes": 3707,
+    "sha256": "bb3db3680281ca1738bdd4df8eddc42612817ff1c6a13ee3e37742d84ce6b81c"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_t0409_jvm.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_t0409_jvm--aa79983f.py",
+    "bytes": 1817,
+    "sha256": "b66fa094ed7302c3c1f82e7e2581757f9752117477375939763a680edf72cb67"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_t204_retry.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_t204_retry--f5680065.py",
+    "bytes": 1007,
+    "sha256": "ba85069d4141af347813058578ec3b84b991a2e3a2b14e9d0c82e8a3e657cccc"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_t314_final.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_t314_final--090e19bd.py",
+    "bytes": 857,
+    "sha256": "500e6cf60761e4127f9037f2c456cb5eacd8df599589a32c65cd39c03d266a95"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_t314refs.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_t314refs--87dd1a9d.py",
+    "bytes": 410,
+    "sha256": "e13e57b250453289e5b80ea06dd2a8e79c902ce9447cfdc980a42db5c267879e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_t35089_audit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_t35089_audit--80ae4cf9.py",
+    "bytes": 898,
+    "sha256": "463898e73cb0a6f8f62106701b56df050de2eb221628c8050c0d924a0255ed76"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_t35_anchors.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_t35_anchors--e510010a.py",
+    "bytes": 767,
+    "sha256": "06640f683dd2d424dbba0b162c94434ac7648b97df97a694d8417b38a2baf48f"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_t35_doc_check.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_t35_doc_check--c70e116f.py",
+    "bytes": 4333,
+    "sha256": "193093f92fa47e6a77c0b50b90b4f6a636bd53e919325cb01566f033fcada4c5"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_ui.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_ui--a78eba26.py",
+    "bytes": 2123,
+    "sha256": "8b9c922816e98fa21ae2f3c78abaf0b767003e48c155ff1ab8ec6f9a2ea4b33e"
+  },
+  {
+    "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_r9_xlsx.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a12_r9_xlsx--4abdd581.py",
+    "bytes": 7068,
+    "sha256": "81d02b5da58cb25a25cb72c88f08200ebd98afea8dcfebae9cf97799993dbd27"
   },
   {
     "source_reference": "C:\\Users\\User\\AppData\\Local\\Temp\\a12_reconcile_nov02.py",
@@ -133,11 +1883,144 @@
     "sha256": "398506aa85ffe7d2d46af9bb7f802212f9922dadf3e812dea14bf8288e2e80ca"
   },
   {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R10/Audit_individual_P01_R10.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R10--8acbcd7f.html",
+    "bytes": 125741,
+    "sha256": "ffc310374f0ea0e25a966d84d34a769adbb7e0f4f313a90ffa14fd2bf4b0e41b"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R10/MANIFEST_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/MANIFEST_R10--abd52fe8.json",
+    "bytes": 6418,
+    "sha256": "92577020e8d8647c617b4a6dd098c82004eb66fe5dde3c6f4a1d3900e14380fd"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta/A12_inventar_si_receptie_v2.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_inventar_si_receptie_v2--b088a453.json",
+    "bytes": 163914,
+    "sha256": "57390599dc4bf914e06ea03d21ccd50035367a030add6ada02f0361c313d2b8d"
+  },
+  {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R2/Audit_individual_P01_R2.html",
     "status": "copiat",
     "saved_path": "fisiere/Audit_individual_P01_R2--9d8b7d00.html",
     "bytes": 128823,
     "sha256": "9de4bda46667cd9fdf3679109a03730a16575175ac40bfdb35ed14854ebe4935"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R3/Audit_individual_P01_R3.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R3--33cb897a.html",
+    "bytes": 108528,
+    "sha256": "f32448a3a2922ba3a809681164e3689c69399631b49600bc35516b908958e78b"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R4/Audit_individual_P01_R4.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R4--0516941b.html",
+    "bytes": 108344,
+    "sha256": "1bdd77f2723b72154dbf140f84e976fd8368f8fdafc4dc97e8bc654c325cebc0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R5/A12_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_raport--f058b424.json",
+    "bytes": 362269,
+    "sha256": "ec00d36e6ee2eb4755981e22c0c332279b8319cb58080f535e6879de44de97cd"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R5/Audit_individual_P01_R5.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R5--76657f52.html",
+    "bytes": 121075,
+    "sha256": "c3a8c76c7661e0552ea4d2d3ec9927ff404695dc26aecb7ae519140e0a6f3378"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R5/Registru_reexecutare_R5.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_reexecutare_R5--a045379b.json",
+    "bytes": 5908011,
+    "sha256": "0960b117ae005eeafe193f9993d3579ccafb751392bd8f18ddb3389eecb085c4"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6/A12_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_raport--6af038ec.json",
+    "bytes": 374615,
+    "sha256": "605241436af8ba8a4030bc127b81c993b36e4cc6ce06b119fd12ebbbdef03c09"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6/Audit_individual_P01_R6.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R6--49f27c7b.html",
+    "bytes": 120985,
+    "sha256": "81fa692b3f55fef94b853fd75f47a220770b0b3622d209693438a34a21087be1"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6_supliment/A12_T36_T36_31.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_T36_T36_31--42ba6404.json",
+    "bytes": 22393,
+    "sha256": "df544b14b484290f1b1f15f9c51f5340c6efb4c5e525f34268e3ed934eca4bd3"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6_supliment/A12_UX_NIR_provenienta.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_UX_NIR_provenienta--0632b3f1.json",
+    "bytes": 54830,
+    "sha256": "ca3c3d2c975ae2d11774d6d11e5ca4c560682816e22f7ebb084dee57e82e5882"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R7/A12_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A12_raport--0f4e244c.json",
+    "bytes": 388523,
+    "sha256": "04c62ea2a020515ca6c20210eb450be343a56fd1dada2be253bb3b41297626ec"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R7/Audit_individual_P01_R7.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R7--e8b119b0.html",
+    "bytes": 121171,
+    "sha256": "43562153c662127dd0ca2a4b3da1362a2c5801b5b03e4781388bcef9c4aafe64"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R7/Registru_reexecutare_R7.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Registru_reexecutare_R7--a4c24ff5.json",
+    "bytes": 10924016,
+    "sha256": "57b0417fe20d4a74e0c02e00970a6ed883ca4db43074044ed085d03305c1f821"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R8/Audit_individual_P01_R8.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R8--bf9a3a23.html",
+    "bytes": 129066,
+    "sha256": "5646431f25a561877679f0c186088286d13a036c24cacba488165b32bfdab3b3"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R8/MANIFEST_R8.json",
+    "status": "copiat",
+    "saved_path": "fisiere/MANIFEST_R8--b645a061.json",
+    "bytes": 6836,
+    "sha256": "b9e24fe605a2a195808323ba05ede35ba3d17a0e034e2243d3451365fa7bd9d6"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R9/Audit_individual_P01_R9.html",
+    "status": "copiat",
+    "saved_path": "fisiere/Audit_individual_P01_R9--02abb709.html",
+    "bytes": 122302,
+    "sha256": "e1194aef175e95976093089cbb250dc58b761e5afc054dc505fcd1208b8c9f12"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R9/MANIFEST_R9.json",
+    "status": "copiat",
+    "saved_path": "fisiere/MANIFEST_R9--425f32f8.json",
+    "bytes": 6575,
+    "sha256": "750aefa14bacb710cd366a8ebf35613cf52c3564e73ff9ccf455d7e05a3f8c1f"
   },
   {
     "source_reference": "\\\\192.168.100.169\\Comun\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\A12_plan_taskuri.json",

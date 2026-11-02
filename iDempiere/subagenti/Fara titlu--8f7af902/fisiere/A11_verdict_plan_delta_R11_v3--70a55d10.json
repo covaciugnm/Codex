@@ -1,0 +1,533 @@
+{
+  "reviewer": "A11",
+  "utc": "2026-11-02T21:27:21.097581+00:00",
+  "subject": "Plan independent R11 v3, exclusiv pentru auditul pe noul candidat",
+  "file": "Plan_delta_R11_v3.json",
+  "source_sha256": "676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd",
+  "base": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "candidate": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "former_plan_sha256": "12a81d97de0f8e5ed18cb0a46ce7bd8a116c509fb36a0bc54cd7b2862966ce1f",
+  "former_verdict_sha256": "ebacc89c4326df301f8f3f78fcdb94a68d1c2f15b1533209642aeb254de57ece",
+  "quality_score_plan": 10.0,
+  "earned_subchecks": 50,
+  "out_of": 50,
+  "decision": "APROBAT_PLAN_10_DIN_10",
+  "execution_gate": "DESCHIS_PENTRU_EXECUȚIA_AUDITULUI_CONTROLAT_R11_LA_SHA_2FE90ED3",
+  "eligible_to_execute_candidate_audit": true,
+  "checks": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC01-P1",
+          "criterion": "Repository-uri, ramură implicită, SHA curent și moment colectare fixate; Git și versiunea instalată sunt câmpuri separate.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "27 artefacte fixate, catalog Git integral și dispatch tehnic, 10 domenii distincte, registrul nou 693 reconciliat individual cu 652 precedente; runtime instalat rămâne separat, refresh explicit."
+        },
+        {
+          "id": "QC01-P2",
+          "criterion": "Cele 10 zone au responsabil, includeri/excluderi și granițe; A11 și A12 sunt roluri distincte.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "27 artefacte fixate, catalog Git integral și dispatch tehnic, 10 domenii distincte, registrul nou 693 reconciliat individual cu 652 precedente; runtime instalat rămâne separat, refresh explicit."
+        },
+        {
+          "id": "QC01-P3",
+          "criterion": "Inventarul modulelor, UI, API, joburilor, DB, migrațiilor și mediilor are numitori de acoperire.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "27 artefacte fixate, catalog Git integral și dispatch tehnic, 10 domenii distincte, registrul nou 693 reconciliat individual cu 652 precedente; runtime instalat rămâne separat, refresh explicit."
+        },
+        {
+          "id": "QC01-P4",
+          "criterion": "Inventarul P01 păstrează capitol/cod/stare, paginare, filtre, total declarat/extras și reconcilierea diferențelor.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "27 artefacte fixate, catalog Git integral și dispatch tehnic, 10 domenii distincte, registrul nou 693 reconciliat individual cu 652 precedente; runtime instalat rămâne separat, refresh explicit."
+        },
+        {
+          "id": "QC01-P5",
+          "criterion": "Matricea accesurilor disponibile/lipsă și politica de refresh la schimbarea SHA/taskurilor sunt explicite.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "27 artefacte fixate, catalog Git integral și dispatch tehnic, 10 domenii distincte, registrul nou 693 reconciliat individual cu 652 precedente; runtime instalat rămâne separat, refresh explicit."
+        }
+      ]
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC02-P1",
+          "criterion": "Sursa autoritativă a taskurilor, captura și criteriile originale sunt definite și păstrate nemodificate.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "35 legături la registrul Git și 26 canonice directe verificate, aliasuri și baseline 1.140 R10 păstrate. Egalitatea integrală a relațiilor din ambele sensuri are o singură lacună obligatorie, detaliată la P2."
+        },
+        {
+          "id": "QC02-P2",
+          "criterion": "Matrice bidirecțională cerință→task→cod→UI/API→DB→test→constatare→control A11, cu ID stabile.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "A11 a refăcut independent toate perechile finale din 10 grupuri. 3.210 fișier/control, 1.951 fișier/pipeline, 3.210 fișier/control|pipeline, 1.518 fișier/task, 1.266 canonice directe, 254 canonice prin relație. 0 lipsă/suplimentare/duplicate. Contraexemplul cu o pereche eliminată este detectat."
+        },
+        {
+          "id": "QC02-P3",
+          "criterion": "Codul canonic include proiect/capitol, de exemplu P01.C03.T0001; codul original/aliasurile se păstrează; T0001 nu este unic global.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "35 legături la registrul Git și 26 canonice directe verificate, aliasuri și baseline 1.140 R10 păstrate. Egalitatea integrală a relațiilor din ambele sensuri are o singură lacună obligatorie, detaliată la P2."
+        },
+        {
+          "id": "QC02-P4",
+          "criterion": "Ideile și corecțiile istorice au dispoziție explicită: menținut, înlocuit prin clarificare, de verificat, amânat ori exclus justificat.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "35 legături la registrul Git și 26 canonice directe verificate, aliasuri și baseline 1.140 R10 păstrate. Egalitatea integrală a relațiilor din ambele sensuri are o singură lacună obligatorie, detaliată la P2."
+        },
+        {
+          "id": "QC02-P5",
+          "criterion": "Criteriile sunt rezultate observabile; finalizat în portal, commit existent, test trecut și instalat sunt stări distincte.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "35 legături la registrul Git și 26 canonice directe verificate, aliasuri și baseline 1.140 R10 păstrate. Egalitatea integrală a relațiilor din ambele sensuri are o singură lacună obligatorie, detaliată la P2."
+        }
+      ]
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC03-P1",
+          "criterion": "Fiecare zonă definește ecran/rută, rol/context firmă/canal, pași, rezultat și ieșirea din flux.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Protocol pe runtime/rol/stare, profiluri UI și 17 cazuri delimitate; formularul per fișier leagă stare goală, eșec, acces, recuperare și efectele API/DB; cazuri portal și WMS cu probe nominale."
+        },
+        {
+          "id": "QC03-P2",
+          "criterion": "Checklistul include empty/loading/error/timeout/partial/success, mesaje, păstrarea datelor și recuperare.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Protocol pe runtime/rol/stare, profiluri UI și 17 cazuri delimitate; formularul per fișier leagă stare goală, eșec, acces, recuperare și efectele API/DB; cazuri portal și WMS cu probe nominale."
+        },
+        {
+          "id": "QC03-P3",
+          "criterion": "Probe pentru roluri, tastatură, scanner unde aplicabil, mobil/responsive, accesibilitate și prevenirea contextului greșit.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Protocol pe runtime/rol/stare, profiluri UI și 17 cazuri delimitate; formularul per fișier leagă stare goală, eșec, acces, recuperare și efectele API/DB; cazuri portal și WMS cu probe nominale."
+        },
+        {
+          "id": "QC03-P4",
+          "criterion": "Meniurile/setările existente sunt inventariate; funcțiile contabile rămân accesibile și zonele gestiuni/WMS/comenzi/canale sunt clare.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Protocol pe runtime/rol/stare, profiluri UI și 17 cazuri delimitate; formularul per fișier leagă stare goală, eșec, acces, recuperare și efectele API/DB; cazuri portal și WMS cu probe nominale."
+        },
+        {
+          "id": "QC03-P5",
+          "criterion": "Concordanța UI-server este obligatorie: buton ascuns nu înseamnă autorizare, succes vizual nu înseamnă persistare.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Protocol pe runtime/rol/stare, profiluri UI și 17 cazuri delimitate; formularul per fișier leagă stare goală, eșec, acces, recuperare și efectele API/DB; cazuri portal și WMS cu probe nominale."
+        }
+      ]
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC04-P1",
+          "criterion": "Endpointurile/procesele/evenimentele/joburile au intrări, ieșiri, validare, stare persistentă și titular.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Fișele de contract D01–D17 au intrare, rol, fixture, dovadă, prag și control negativ. Timeout, retry, migrare, comparații de SKU/monedă/DocAction sunt planificate explicit, fără execuție pe acest SHA."
+        },
+        {
+          "id": "QC04-P2",
+          "criterion": "Probe valide/invalide, limite, câmpuri lipsă, UOM, monede, perioade/date, sortare/paginare și rezultate parțiale.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Fișele de contract D01–D17 au intrare, rol, fixture, dovadă, prag și control negativ. Timeout, retry, migrare, comparații de SKU/monedă/DocAction sunt planificate explicit, fără execuție pe acest SHA."
+        },
+        {
+          "id": "QC04-P3",
+          "criterion": "Pentru documente se verifică DocAction/DocStatus, commit/rollback și reluare, nu numai processIt boolean.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Fișele de contract D01–D17 au intrare, rol, fixture, dovadă, prag și control negativ. Timeout, retry, migrare, comparații de SKU/monedă/DocAction sunt planificate explicit, fără execuție pe acest SHA."
+        },
+        {
+          "id": "QC04-P4",
+          "criterion": "Efectele materiale au timeout, duplicate, idempotency key/scope, concurență și ordinea evenimentelor.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Fișele de contract D01–D17 au intrare, rol, fixture, dovadă, prag și control negativ. Timeout, retry, migrare, comparații de SKU/monedă/DocAction sunt planificate explicit, fără execuție pe acest SHA."
+        },
+        {
+          "id": "QC04-P5",
+          "criterion": "Versiuni DTO/API și import/export sunt urmărite end-to-end fără pierdere tacită de date.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Fișele de contract D01–D17 au intrare, rol, fixture, dovadă, prag și control negativ. Timeout, retry, migrare, comparații de SKU/monedă/DocAction sunt planificate explicit, fără execuție pe acest SHA."
+        }
+      ]
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC05-P1",
+          "criterion": "Inventarul include tabele/coloane, PK/UUID/FK/unique/check/index, trigger/proceduri, AD Dictionary și migrații.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D02/D03/D04/D08/D11/D13/D15 acoperă identitățile, costul, rezervarea, jurnalizarea, schema și rollback, chei și aceeași origine, ordinea/retry în clone; actor și restitutire sunt câmpuri obligatorii."
+        },
+        {
+          "id": "QC05-P2",
+          "criterion": "Sunt definite invariante înainte/după pentru cantitate, cost, sold, taxe, rezervări, documente și audit trail.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D02/D03/D04/D08/D11/D13/D15 acoperă identitățile, costul, rezervarea, jurnalizarea, schema și rollback, chei și aceeași origine, ordinea/retry în clone; actor și restitutire sunt câmpuri obligatorii."
+        },
+        {
+          "id": "QC05-P3",
+          "criterion": "Sunt prevăzute tranzacții, locking/izolare, race conditions, stări parțiale, reexecutare migrare/backfill.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D02/D03/D04/D08/D11/D13/D15 acoperă identitățile, costul, rezervarea, jurnalizarea, schema și rollback, chei și aceeași origine, ordinea/retry în clone; actor și restitutire sunt câmpuri obligatorii."
+        },
+        {
+          "id": "QC05-P4",
+          "criterion": "Identități permanente, CPP/CPA distincte, G1/G2/G3, multi-G1/G2, ASI/MA și genealogie sunt controale explicite.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D02/D03/D04/D08/D11/D13/D15 acoperă identitățile, costul, rezervarea, jurnalizarea, schema și rollback, chei și aceeași origine, ordinea/retry în clone; actor și restitutire sunt câmpuri obligatorii."
+        },
+        {
+          "id": "QC05-P5",
+          "criterion": "DB producție read-only este separat de fixture-urile care scriu; curățarea/backup/restaurarea și datele de test sunt definite.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D02/D03/D04/D08/D11/D13/D15 acoperă identitățile, costul, rezervarea, jurnalizarea, schema și rollback, chei și aceeași origine, ordinea/retry în clone; actor și restitutire sunt câmpuri obligatorii."
+        }
+      ]
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC06-P1",
+          "criterion": "Fiecare pipeline are trigger/actor/precondiții/pași/stări/UI/API/servicii/tabele/efecte și rezultat final de business.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Cele 17 contracte au ambele sensuri, furnizor/consumator, martor și efect final. 79 controale și 45 pipeline-uri distincte, 14 interfețe X01–X14 reconfirmate față de obiectele de origine; indexul A12 al contractelor este simetric independent de indexul la nivel de cale."
+        },
+        {
+          "id": "QC06-P2",
+          "criterion": "Include normal, anulare, respingere, retur, livrare parțială, timeout ambiguu, retry și evenimente în ordine greșită.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Cele 17 contracte au ambele sensuri, furnizor/consumator, martor și efect final. 79 controale și 45 pipeline-uri distincte, 14 interfețe X01–X14 reconfirmate față de obiectele de origine; indexul A12 al contractelor este simetric independent de indexul la nivel de cale."
+        },
+        {
+          "id": "QC06-P3",
+          "criterion": "Contractele între zone au furnizor, consumator, câmpuri/invariante și test de integrare.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Cele 17 contracte au ambele sensuri, furnizor/consumator, martor și efect final. 79 controale și 45 pipeline-uri distincte, 14 interfețe X01–X14 reconfirmate față de obiectele de origine; indexul A12 al contractelor este simetric independent de indexul la nivel de cale."
+        },
+        {
+          "id": "QC06-P4",
+          "criterion": "Ordinea evită cicluri artificiale; retur contract→fizic→financiar și pilot comun au porți explicite.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Cele 17 contracte au ambele sensuri, furnizor/consumator, martor și efect final. 79 controale și 45 pipeline-uri distincte, 14 interfețe X01–X14 reconfirmate față de obiectele de origine; indexul A12 al contractelor este simetric independent de indexul la nivel de cale."
+        },
+        {
+          "id": "QC06-P5",
+          "criterion": "Reconcilierea și recuperarea după întrerupere urmăresc efectele reziduale până la starea finală corectă.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Cele 17 contracte au ambele sensuri, furnizor/consumator, martor și efect final. 79 controale și 45 pipeline-uri distincte, 14 interfețe X01–X14 reconfirmate față de obiectele de origine; indexul A12 al contractelor este simetric independent de indexul la nivel de cale."
+        }
+      ]
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC07-P1",
+          "criterion": "Modelul drepturilor acoperă cabinet/client/org/firmă/canal/comisionar, service accounts și privilegii.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D01 și cele cinci căi ale A01: rol/cabinet/canal, rute directe sau codate, refuz și zero efect, proxy propus versus deployment, autentificare/sesiuni + erori/secrets. Parteneri numai în clone și service account limitat. Controalele inițiale rămân pin-uite în 27 de ancore."
+        },
+        {
+          "id": "QC07-P2",
+          "criterion": "Probe pozitive/negative de izolare UI/API/DB, ID ghicit, traversare și schimbare de context.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D01 și cele cinci căi ale A01: rol/cabinet/canal, rute directe sau codate, refuz și zero efect, proxy propus versus deployment, autentificare/sesiuni + erori/secrets. Parteneri numai în clone și service account limitat. Controalele inițiale rămân pin-uite în 27 de ancore."
+        },
+        {
+          "id": "QC07-P3",
+          "criterion": "Autentificare/sesiune/CSRF/XSS/injection/upload/secrets/loguri sunt acoperite după suprafețele reale.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D01 și cele cinci căi ale A01: rol/cabinet/canal, rute directe sau codate, refuz și zero efect, proxy propus versus deployment, autentificare/sesiuni + erori/secrets. Parteneri numai în clone și service account limitat. Controalele inițiale rămân pin-uite în 27 de ancore."
+        },
+        {
+          "id": "QC07-P4",
+          "criterion": "CUI/nume canal din rută nu reprezintă autorizare/identitate internă; coliziunile/rename/normalizarea sunt tratate.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D01 și cele cinci căi ale A01: rol/cabinet/canal, rute directe sau codate, refuz și zero efect, proxy propus versus deployment, autentificare/sesiuni + erori/secrets. Parteneri numai în clone și service account limitat. Controalele inițiale rămân pin-uite în 27 de ancore."
+        },
+        {
+          "id": "QC07-P5",
+          "criterion": "Efectele fiscale/AWB/refund/modificări producție sunt excluse fără mediu și autorizare explicite; datele sunt minimizate.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "D01 și cele cinci căi ale A01: rol/cabinet/canal, rute directe sau codate, refuz și zero efect, proxy propus versus deployment, autentificare/sesiuni + erori/secrets. Parteneri numai în clone și service account limitat. Controalele inițiale rămân pin-uite în 27 de ancore."
+        }
+      ]
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC08-P1",
+          "criterion": "Pentru fiecare funcție se compară core nativ, plugin, EVA existent, configurare și diferența minimă necesară.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Matricea nativă, versiunea Git și comparația cu instalările sunt fixate; fișele planifică verificarea native/configurare/EVA și limitele, inclusiv T216, T329, G3 și repo-ul CESIRO1. 4.882 fișiere tehnice comune fără task unic sunt etichete de triere; au control, peer și condiție pentru atribuire ori excludere."
+        },
+        {
+          "id": "QC08-P2",
+          "criterion": "Existența are cale/simbol/SHA sau bundle/AD metadata; absența are corpus/metodă delimitate.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Matricea nativă, versiunea Git și comparația cu instalările sunt fixate; fișele planifică verificarea native/configurare/EVA și limitele, inclusiv T216, T329, G3 și repo-ul CESIRO1. 4.882 fișiere tehnice comune fără task unic sunt etichete de triere; au control, peer și condiție pentru atribuire ori excludere."
+        },
+        {
+          "id": "QC08-P3",
+          "criterion": "Mecanismele reutilizate au configurații, efecte și compatibilitate planificate, nu doar nume de clase.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Matricea nativă, versiunea Git și comparația cu instalările sunt fixate; fișele planifică verificarea native/configurare/EVA și limitele, inclusiv T216, T329, G3 și repo-ul CESIRO1. 4.882 fișiere tehnice comune fără task unic sunt etichete de triere; au control, peer și condiție pentru atribuire ori excludere."
+        },
+        {
+          "id": "QC08-P4",
+          "criterion": "Integrările au contract/versionare, timeout/rate limit/webhook/retry/reconciliere și sandbox/producție distincte.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Matricea nativă, versiunea Git și comparația cu instalările sunt fixate; fișele planifică verificarea native/configurare/EVA și limitele, inclusiv T216, T329, G3 și repo-ul CESIRO1. 4.882 fișiere tehnice comune fără task unic sunt etichete de triere; au control, peer și condiție pentru atribuire ori excludere."
+        },
+        {
+          "id": "QC08-P5",
+          "criterion": "Dezvoltarea nouă se recomandă după demonstrarea diferenței neacoperite și evaluarea alternativei native/EVA.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Matricea nativă, versiunea Git și comparația cu instalările sunt fixate; fișele planifică verificarea native/configurare/EVA și limitele, inclusiv T216, T329, G3 și repo-ul CESIRO1. 4.882 fișiere tehnice comune fără task unic sunt etichete de triere; au control, peer și condiție pentru atribuire ori excludere."
+        }
+      ]
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC09-P1",
+          "criterion": "Fiecare control are metodă, fixture, precondiții, pași/comandă, rezultat așteptat, probă și cleanup.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șablonul de probă include fixture, precondiții, intrare, oracol/negativ, pointer, cleanup; profile concrete pentru runtime/build/SQL, scară/latency, regresii pe binare. Exemplul D09 fixează numitorul candidaților T330 după versiune. O lipsă de slot nu produce note pe clase."
+        },
+        {
+          "id": "QC09-P2",
+          "criterion": "Build/static/unit/integration/E2E/manual sunt alese după risc; nu se bazează pe teste care repetă implementarea.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șablonul de probă include fixture, precondiții, intrare, oracol/negativ, pointer, cleanup; profile concrete pentru runtime/build/SQL, scară/latency, regresii pe binare. Exemplul D09 fixează numitorul candidaților T330 după versiune. O lipsă de slot nu produce note pe clase."
+        },
+        {
+          "id": "QC09-P3",
+          "criterion": "Performanța are volume/bugete/latente/concurență/paginare/export/query plan aplicabile.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șablonul de probă include fixture, precondiții, intrare, oracol/negativ, pointer, cleanup; profile concrete pentru runtime/build/SQL, scară/latency, regresii pe binare. Exemplul D09 fixează numitorul candidaților T330 după versiune. O lipsă de slot nu produce note pe clase."
+        },
+        {
+          "id": "QC09-P4",
+          "criterion": "Regresia acoperă mecanisme native/EVA reutilizate și vecinătățile, cu ținte și numitori expliciți.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șablonul de probă include fixture, precondiții, intrare, oracol/negativ, pointer, cleanup; profile concrete pentru runtime/build/SQL, scară/latency, regresii pe binare. Exemplul D09 fixează numitorul candidaților T330 după versiune. O lipsă de slot nu produce note pe clase."
+        },
+        {
+          "id": "QC09-P5",
+          "criterion": "Se definesc reproducerea independentă și tratarea flaky/cache/date istorice/mediu incomplet.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șablonul de probă include fixture, precondiții, intrare, oracol/negativ, pointer, cleanup; profile concrete pentru runtime/build/SQL, scară/latency, regresii pe binare. Exemplul D09 fixează numitorul candidaților T330 după versiune. O lipsă de slot nu produce note pe clase."
+        }
+      ]
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC10-P1",
+          "criterion": "Șabloanele audit/constatare/pipeline/task/evidență/re-audit sunt concrete și coerente semantic.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șabloane și proces de recepție independente, represupuneri și versionare, diferențiere state/grad/risc, revizuire după respingere și manifest de livrare. SHA nou necesar la schimbarea unui index."
+        },
+        {
+          "id": "QC10-P2",
+          "criterion": "Severitate, încredere, statut și nota calității sunt separate; falsul pozitiv are procedură cu istoric păstrat.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șabloane și proces de recepție independente, represupuneri și versionare, diferențiere state/grad/risc, revizuire după respingere și manifest de livrare. SHA nou necesar la schimbarea unui index."
+        },
+        {
+          "id": "QC10-P3",
+          "criterion": "A11 verifică planul înaintea execuției și fiecare raport înaintea acceptării; autorul nu este singurul verificator.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șabloane și proces de recepție independente, represupuneri și versionare, diferențiere state/grad/risc, revizuire după respingere și manifest de livrare. SHA nou necesar la schimbarea unui index."
+        },
+        {
+          "id": "QC10-P4",
+          "criterion": "Bucla respins→corectat→reverificat păstrează versiuni/hashuri și nu aprobă automat după un număr de iterații.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șabloane și proces de recepție independente, represupuneri și versionare, diferențiere state/grad/risc, revizuire după respingere și manifest de livrare. SHA nou necesar la schimbarea unui index."
+        },
+        {
+          "id": "QC10-P5",
+          "criterion": "Livrarea explică limitele, neexecutatele și riscurile clar, cu index și dovezi navigabile.",
+          "points": 0.2,
+          "decision": "PREGĂTIT",
+          "evidence": "Șabloane și proces de recepție independente, represupuneri și versionare, diferențiere state/grad/risc, revizuire după respingere și manifest de livrare. SHA nou necesar la schimbarea unui index."
+        }
+      ]
+    }
+  ],
+  "review_summary": {
+    "anchors_rehashed": 30,
+    "unchanged_legacy_anchors": 26,
+    "changed_manifest_fields": [
+      "QC02-P2_reconciliation",
+      "anchors_sha256",
+      "blocked_amendments_closed_by_plan_evidence",
+      "schema",
+      "supersedes_plan_only",
+      "utc"
+    ],
+    "r11_scope_unchanged": "182.912 poziții Git, 6.709 fișiere tehnice, 205 tehnice în delta și 6.504 neschimbate; toate 1.632 modificări au dispoziții planificate. 693 taskuri P01 în inventarul capturat. Cele 135 fixturi vin din R10. Cele 17 contracte folosesc 79 controale și 45 pipeline-uri originale, cu toate interfețele X01–X14.",
+    "independent_inverse": {
+      "owner": {
+        "keys": 11,
+        "pairs": 1632,
+        "missing": 0,
+        "extra": 0
+      },
+      "peer": {
+        "keys": 9,
+        "pairs": 1632,
+        "missing": 0,
+        "extra": 0
+      },
+      "technical_task": {
+        "keys": 35,
+        "pairs": 1518,
+        "missing": 0,
+        "extra": 0
+      },
+      "canonical_direct": {
+        "keys": 26,
+        "pairs": 1266,
+        "missing": 0,
+        "extra": 0
+      },
+      "canonical_via_relation": {
+        "keys": 11,
+        "pairs": 254,
+        "missing": 0,
+        "extra": 0
+      },
+      "control": {
+        "keys": 30,
+        "pairs": 3210,
+        "missing": 0,
+        "extra": 0
+      },
+      "pipeline": {
+        "keys": 19,
+        "pairs": 1951,
+        "missing": 0,
+        "extra": 0
+      },
+      "control_pipeline": {
+        "keys": 31,
+        "pairs": 3210,
+        "missing": 0,
+        "extra": 0
+      },
+      "disposition": {
+        "keys": 11,
+        "pairs": 1632,
+        "missing": 0,
+        "extra": 0
+      },
+      "interface": {
+        "keys": 5,
+        "pairs": 33,
+        "missing": 0,
+        "extra": 0
+      }
+    },
+    "negative_control": {
+      "removed": [
+        "A09-C25",
+        "Documentatie/echipa-2026-10-09/T240-ajutor-ecrane-rest/dovezi-31/03_tabele_vechi_refs.txt"
+      ],
+      "detected": true
+    },
+    "conditions_consistent": [
+      "P1, P3, P4 și instrucțiunile de sigilare, rollback, izolare, execuție pe fixture și dovezi sunt identice cu v2.",
+      "Singurul punct respins la v2, QC02-P2, este închis de verificarea perechilor pe fișierul indicat de v3."
+    ]
+  },
+  "execution_conditions": [
+    "Aplicați acest verdict numai pentru SHA candidat 2fe90ed3f128c33dff7cf9f8674e664a70679390 și planul 676bb543… . La alt cap de ramură sau alt perimetru, reconciliere și gate de plan pentru delta materială înainte de revendicarea acoperirii.",
+    "Este permisă execuția de audit descrisă, în mediile izolate autorizate. O atribuire provizorie sau un fișier inventariat nu are credit de execuție până la proba proprie și controlul peer.",
+    "A11 judecă rezultatele după manifestul executat; R10 rămâne 6,6/10 pe 6df998a, iar produsul și raportul executat R11 nu au încă o notă."
+  ],
+  "product_score": null,
+  "audit_execution_score": null,
+  "R10_unchanged": true
+}

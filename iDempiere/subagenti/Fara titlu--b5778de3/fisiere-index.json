@@ -1,5 +1,19 @@
 [
   {
+    "source_reference": "D:\\CodexWork\\a04-pdf-blank.png",
+    "status": "copiat",
+    "saved_path": "fisiere/a04-pdf-blank--f393a35d.png",
+    "bytes": 41885,
+    "sha256": "05b5b6b7ef8db09d784b00b09b97df925eac29efd314b8801f1dbd509e19c7bf"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a04-pdf-control.png",
+    "status": "copiat",
+    "saved_path": "fisiere/a04-pdf-control--44481a7c.png",
+    "bytes": 41837,
+    "sha256": "40be853212949ce87acbbb330bad3dac5442c371e8e8dee539e4184c6087abe1"
+  },
+  {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/A04_plan.json",
     "status": "copiat",
     "saved_path": "fisiere/A04_plan--d7f1fb4d.json",
@@ -12,6 +26,34 @@
     "saved_path": "fisiere/A04_raport--72707721.json",
     "bytes": 119128,
     "sha256": "9078e48bb4f4c05930f632a3642fc155704af177ef07f05d66ee20213a36fb42"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R2_zone/A04/A04_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A04_raport--c98f1353.json",
+    "bytes": 98310,
+    "sha256": "c6735a465847be3f0fd42056cbc85ec7815382aa04f84c91949511a5a110d154"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R3_zone/A04/A04_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A04_raport--c5a4e947.json",
+    "bytes": 92984,
+    "sha256": "b25ef21808a12b5569c91ce2dfdc57b46da18afe6263f5ad9dc97174e3abc001"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R3_zone/A04/Addendum_moneda_NIR.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Addendum_moneda_NIR--c2a0ce7a.json",
+    "bytes": 9374,
+    "sha256": "39598d287747a4751303653db4b79803888764f070b2900c0c1cc34d1fdde4a8"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6_pregatire/ERP/nir/postconfig_A04/rezultat.json",
+    "status": "copiat",
+    "saved_path": "fisiere/rezultat--168b3d3c.json",
+    "bytes": 7664,
+    "sha256": "8b8e6e2c31e50677ba3bf1598ca7e0cb1f012c906ff2f8e976bf55893cb62433"
   },
   {
     "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\A04_plan.json",
@@ -89,5 +131,131 @@
     "saved_path": "fisiere/recon_verdict--ded5960a.py",
     "bytes": 1101,
     "sha256": "9301cf182271ff83d051447beb2cc3f226db83d15e6fb8c6e7e4dbbc9dee0ffc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R2_zone\\A04\\A04NirRendered.java",
+    "status": "copiat",
+    "saved_path": "fisiere/A04NirRendered--b7e10769.java",
+    "bytes": 1494,
+    "sha256": "1d5c26e888ec4b679434eacce0006138941234e8764d0859608c73356d531b61"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R2_zone\\A04\\R2_observatii_control.json",
+    "status": "copiat",
+    "saved_path": "fisiere/R2_observatii_control--e3146c3c.json",
+    "bytes": 13356,
+    "sha256": "dba8713cc21e42c83268337bdc9cfc3406d3bac638dec3fbcc11527d30f8a142"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R2_zone\\A04\\a04_native_return.py",
+    "status": "copiat",
+    "saved_path": "fisiere/a04_native_return--7266814b.py",
+    "bytes": 6499,
+    "sha256": "e3f135303d99705bc860bac160bb7819fbde0981280bf033075e939aa75f028a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R2_zone\\A04\\callers.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/callers--b4042a7b.cjs",
+    "bytes": 3162,
+    "sha256": "8afee0317ff3c40b0aa7364e8a9a9f5c26abb9312588dde7c93dbd2ffd4ebf96"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R2_zone\\A04\\compile-R2.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/compile-R2--105e77c9.cjs",
+    "bytes": 14669,
+    "sha256": "2cd95f04f7b86f02182ab126284163d9d696a571238f2782c1fa5fa21e713ec8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R2_zone\\A04\\zip_http.py",
+    "status": "copiat",
+    "saved_path": "fisiere/zip_http--5473274a.py",
+    "bytes": 5743,
+    "sha256": "b47397414df73eb11e19c7bbf041c177b47cbe8de6de34c699df265963abdcd8"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\a04-r3-roluri-zk\\GardenAdmin-X-1000038.png",
+    "status": "copiat",
+    "saved_path": "fisiere/GardenAdmin-X-1000038--140c16a2.png",
+    "bytes": 72803,
+    "sha256": "9292ef380f0f03c994a4d564bc27b285f670529680460f66850cc971491604b0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\a04-r3-roluri-zk\\GardenUser-X-1000064.png",
+    "status": "copiat",
+    "saved_path": "fisiere/GardenUser-X-1000064--e9609d9a.png",
+    "bytes": 70823,
+    "sha256": "5fd07c48d07a7fb734238a884e8e0f4efa13adebb4f7be7a3a44b78c29290645"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\audit_moneda.py",
+    "status": "copiat",
+    "saved_path": "fisiere/audit_moneda--61a65361.py",
+    "bytes": 4679,
+    "sha256": "64175db16bd6a9e403eed03d7d8bed18c81962ba5f460f760681203642fc47b1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\compile-R3.cjs",
+    "status": "copiat",
+    "saved_path": "fisiere/compile-R3--f0f6bc62.cjs",
+    "bytes": 20051,
+    "sha256": "e1d338c2a892bc0f4be008cda08dcc2fa0d5eb098aabdd5e621d298f29731d80"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\job_gate.py",
+    "status": "copiat",
+    "saved_path": "fisiere/job_gate--8c1d8cac.py",
+    "bytes": 3334,
+    "sha256": "f3fcfe2e13127f3c4742e756730308c4cac6f62e6437587cd528ef554467498a"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\nominal_roles.py",
+    "status": "copiat",
+    "saved_path": "fisiere/nominal_roles--d66b367e.py",
+    "bytes": 687,
+    "sha256": "536edc773056eea98cea65c530842e21a0da578509659fbe023eefec4a2eefba"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\read_currency.py",
+    "status": "copiat",
+    "saved_path": "fisiere/read_currency--3507db4b.py",
+    "bytes": 1364,
+    "sha256": "144e542f4705f8f39915a17758dccad1e184ecb0526ceb6dcb94e8285b47b7a7"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\role_probe.py",
+    "status": "copiat",
+    "saved_path": "fisiere/role_probe--2f2f2cf9.py",
+    "bytes": 1872,
+    "sha256": "5e52667f4687f1c7883734b2e21015b5e4e76e463140e5a9617460500dd9004b"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R3_zone\\A04\\run_zero_recovery.py",
+    "status": "copiat",
+    "saved_path": "fisiere/run_zero_recovery--994fba33.py",
+    "bytes": 1535,
+    "sha256": "87127a911aa5e85fdfc0546d577bc472ea7d9bae7880e5f59b3a17fa2050e2b0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R6_pregatire\\ERP\\nir\\postconfig_A04\\nir_post_ui.py",
+    "status": "copiat",
+    "saved_path": "fisiere/nir_post_ui--c60f4778.py",
+    "bytes": 6441,
+    "sha256": "14e823f50de0972f1d1698cd340ed355174905f6714662d9dc831f4702ba550d"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R6_pregatire\\ERP\\nir\\postconfig_A04\\seed_config.py",
+    "status": "copiat",
+    "saved_path": "fisiere/seed_config--a7b62390.py",
+    "bytes": 1728,
+    "sha256": "4cb6aeb47d6b22693800a3328e7ddf3f7d5960eff7cd0c9803db23e1155e22bc"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R6_pregatire\\ERP\\nir\\postconfig_A04\\verify_nir.py",
+    "status": "copiat",
+    "saved_path": "fisiere/verify_nir--b316c575.py",
+    "bytes": 4034,
+    "sha256": "f9e6617de20ae3c2783caf9e1bebdd38b1ff0364d65e666a4f4a58d48637bc08"
   }
 ]

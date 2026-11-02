@@ -1,0 +1,23 @@
+{
+  "id": "01a19df3-7524-7b63-b89a-6b4f40ee5ed8",
+  "cwd": "\\\\?\\UNC\\192.168.100.169\\Comun\\00.Roboti\\iFLYTEK",
+  "created_at": 1793651340,
+  "updated_at": 1793651830,
+  "archived": 0,
+  "source": "vscode",
+  "title": "Scrie emailuri pentru colaborare iFL",
+  "project_id": "76acd93b-901e-4001-b83e-7e13c116d7e1",
+  "project": "iFLYTEK",
+  "assignment_method": "workspace_path",
+  "parent_thread_id": null,
+  "export_started_at_utc": "2026-11-02T21:26:40.664214+00:00",
+  "source_bytes": 690313,
+  "invalid_json_lines": 0,
+  "history_source": "items",
+  "rollout_exists": true,
+  "item_count": 19,
+  "message_count": 7,
+  "content_sha256": "81b131d3dc3b398daa9454a1f40e60d0f40ef7f02b5d932c0e20b9dadc117a2b",
+  "files_copied": 0,
+  "references_not_copied": 1
+}

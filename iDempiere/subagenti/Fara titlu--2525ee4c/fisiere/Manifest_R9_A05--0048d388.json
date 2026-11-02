@@ -1,0 +1,203 @@
+{
+  "edition": "A05 R9 / manifest final",
+  "utc": "2026-11-02T18:41:03.775844+00:00",
+  "product_write": false,
+  "production_access": "no production reads/writes during this supplement; git reads, dedicated synthetic-only cabinet and local JVM",
+  "git_cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "source_reference_roots": {
+    "modules": "D:/CodexWork/eva-audit-p01-readonly-20261102",
+    "native": "D:/CodexWork/eva-audit-secondary-20261102/native"
+  },
+  "source_provenance": {
+    "MotorStraturi": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/fiscal/MotorStraturi.java",
+      "oid": "68d622822767382332bbab2d19b9ba66d77a51d1",
+      "sha256": "b1d0798db2b7f058a4dbf98941b744a04c40530a94fbc2e5846a9b6ab945398f"
+    },
+    "NoteStocuri": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/process/NoteStocuri.java",
+      "oid": "2cc3295e0c4b063663e6f4a3ee5242a5797ced3c",
+      "sha256": "dd8cf27bc3a791de7ddf68ac8e60a081169b9bff31b1f4073db74d383a8a3083"
+    },
+    "DocInventarEva": {
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/component/DocInventarEva.java",
+      "oid": "2e35d3f9d9ac18a0f7b1df2b2b6aa414b8c0410a",
+      "sha256": "6e556337305eac910dfd5a5411e394b368a6c50d304f18198c118809cfbaf3aa"
+    },
+    "T330_plan": {
+      "path": "Documentatie/echipa-2026-10-09/T330-termen-valabilitate/01_plan.md",
+      "oid": "032d71482e0ac17e4f7bf9aad75e8782fb7678ec",
+      "sha256": "c87225fc142d9a85f8124a5515ad01b9daf631064b6e763f732e2ea7ee0d70e5"
+    },
+    "Sect_R": {
+      "path": "Documentatie/echipa-2026-10-09/T330-termen-valabilitate/01a_anexa_plan.md",
+      "oid": "9ec676789fb4199c25bab1e97a9c57aa27dd1f93",
+      "sha256": "f9e2d59fe8bf19b25e1365dcbfa1b681422421d13948428d6be7039a60273930"
+    },
+    "T329_plan": {
+      "path": "Documentatie/echipa-2026-10-09/T329-loturi/01_plan.md",
+      "oid": "6540c56bcdc6f04e1e781a16ce997b1f8e232389",
+      "sha256": "a2201cb13fb3b46000198cea6cea7fce13ffbb222d6be71c96127d23eb34b50c"
+    },
+    "build_contab": {
+      "path": "idempiere/plugins/com.eva.ro.contab/build.sh",
+      "oid": "eb623773324454ec445773104f8e90d891c92625",
+      "sha256": "01b9bde4b7bb9e1bdf48c19697ad80e2f245b541339fb58c52e63bdb615b6e00"
+    },
+    "cutoff_FO": {
+      "path": "tools/teste/ruleaza_teste_contab.sh",
+      "oid": "8a1a1240978f3d1745ba53a49c2bf00cf402cb05",
+      "sha256": "1d674f73bf6fe0f160d9d6df71a8cd7bd44881bb0ae2f6adaf0e74440abb9e19"
+    },
+    "runit": {
+      "path": "tools/teste/baza_teste.sh",
+      "oid": "61df9fc4c512bcd80224814d6a73b5d7b5758963",
+      "sha256": "659d2e97ac01398f4253d3ef31ea3bab2a9e85fd30192f275dd5eb97075c2a1c"
+    },
+    "native_FactLine": {
+      "path": "native-release13-src.zip / org.adempiere.base/src/org/compiere/acct/FactLine.java",
+      "sha256": "a612f7ffc8f1a7a3adfc0923201898d52339c99f03dddee61d0eb958dcec6dd6",
+      "lines": [
+        139,
+        498,
+        500,
+        1417
+      ],
+      "interpretation": "Codul nativ copiază ASI de pe linie sau document și la stornare. Ancoră statică. Proba contabilă nu a proiectat cele opt valori f.M_AttributeSetInstance_ID."
+    }
+  },
+  "runner_sources_in_local_scratch": [
+    {
+      "path": "D:/CodexWork/a05r9/cmp.py",
+      "sha256": "d7b307c250807bd5d9d7888fdf330ac20b6ad6a01781d3a5cad5aa9b5f43a774"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/cmp_second.py",
+      "sha256": "57b7a2229e45c83b65cc4ea874a7f2fd5317106ea759d0d646670f4a73e8d9c7"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/control.py",
+      "sha256": "5f1dcc16d681062d1234059df30ceb8363d9800637e3a10693b1f9395fe1ac71"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/rates.py",
+      "sha256": "3cc013041979b757a87707069bca2bbc93cca83b6e9ab3f140553b5a235a08e1"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/fixture.py",
+      "sha256": "6a0b23b89bf1acd166029fbe1470c3dbcb34628e15464d6e6174b6e43232e0cf"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/diagnose.py",
+      "sha256": "04635c1147db77c5c34d7edb022f1c2c7d5eb3522e0a0b5fe2eb0d6a8c6078c5"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/close2.py",
+      "sha256": "687da4bac056d3a08bdef0c96d71462568c9a1242989b82629f85ac10db56009"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/export.py",
+      "sha256": "55a2baec174e58d3b77bad439baca373338d85bb20fbd2dfdb78ea836e27ddbb"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/geometry.py",
+      "sha256": "e87c7f82a10f9d359df4c55ace90fba8979bebcc159232d2600d2d0bee2ccd10"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/fefo.py",
+      "sha256": "97a53dc80052f8917f87dd818cabc703003b5439760eb38dfe200e19781886da"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/lab.py",
+      "sha256": "c5d3d142c0af8ebe1b8b84819a9df1bc18382638b2d0aa7f6e023ebc34267099"
+    },
+    {
+      "path": "D:/CodexWork/a05r9/supervisor.sh",
+      "sha256": "3afa4d4774a93ffc9befec5dde564f7f341ec1877c2d57ad5ac09f0bea1ffda5"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "Git_Resurse_si_clase.json.gz",
+      "sha256": "b17ff3ab7114a23ee8eb39a2ba3c492f67f918d34ab0e8815458bba58ce85fe8",
+      "bytes": 873349
+    },
+    {
+      "file": "Intregul_bundle_instalat.json.gz",
+      "sha256": "290ad1bb51ee2f37193e99df5fa8058294a34b91efcea9f52f9a75bab63e23e4",
+      "bytes": 184224
+    },
+    {
+      "file": "Registru_R9_A05.json",
+      "sha256": "9d98a0081daadd5400bdb69a6a0739eb0f1b10880c3c37ad65fab79ec8995a5a",
+      "bytes": 33985
+    },
+    {
+      "file": "Restituire_R9.txt",
+      "sha256": "326f1285e104b3ab789fffb263243417634aa37c26a518941c58637843ce56a6",
+      "bytes": 607
+    },
+    {
+      "file": "T329_caz_nominal.json",
+      "sha256": "621a420186b5f82a7d36594967cd2cd6239d6b6bc95b829e4870f78d428160e1",
+      "bytes": 34433
+    },
+    {
+      "file": "T329_caz_repetat.json",
+      "sha256": "559f8da798505608038cebe40e9212d14631bc5e26b0e2f11696ed5c707c0a0f",
+      "bytes": 40565
+    },
+    {
+      "file": "T329_config_si_cost_nativ.json",
+      "sha256": "11dbd6998d0d5bd22c5fef344306d02685eca81a6b33e92260c3594411b4b447",
+      "bytes": 20654
+    },
+    {
+      "file": "T329_erori_postare.json",
+      "sha256": "8e42a1d87e6cbcbea7da4147f52177104f2d4e840d37d2905969ce50fbd97473",
+      "bytes": 4187
+    },
+    {
+      "file": "T329_fixture.json",
+      "sha256": "98f5ae6d4c5c6226889c5696a609037ebe45fb71cd74d864ad2ffaa387afce72",
+      "bytes": 394
+    },
+    {
+      "file": "T329_inchidere_luna_ZK.json",
+      "sha256": "0b3c581d603bee5889e4f05dcc9731007a1c7532ebb4a52a5a75426d648e7788",
+      "bytes": 13647
+    },
+    {
+      "file": "T329_martor_limita_cost.json",
+      "sha256": "353bca06de6d0b0e53e867ccb5cb4f55ed4ee0fc46225ba1e7bb55dcbb36cb4c",
+      "bytes": 25522
+    },
+    {
+      "file": "T330_export_diff_clase.json",
+      "sha256": "35d38c262359dfea3bbd18e2d03126ca0d20fb8e9c6ce3ab6d688eef22e90089",
+      "bytes": 110216
+    },
+    {
+      "file": "T330_lista_claselor_rulate_R9.json",
+      "sha256": "9e4ee3ee3d06cf0e5e70dabe55160e3822de14e1219f2a439fad0b5ab1442067",
+      "bytes": 2195
+    },
+    {
+      "file": "TestFefo_git_cutoff.log",
+      "sha256": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+      "bytes": 14344
+    },
+    {
+      "file": "TestFefo_instalat_r57.log",
+      "sha256": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+      "bytes": 14344
+    },
+    {
+      "file": "TestFefo_ist_integrat.log",
+      "sha256": "2fcd8d5e3a613b186b04374c463732fc331235ff0c87e7d7513bf282ce78cc73",
+      "bytes": 14344
+    }
+  ],
+  "nominal_register_sha256": "9d98a0081daadd5400bdb69a6a0739eb0f1b10880c3c37ad65fab79ec8995a5a",
+  "score": null
+}

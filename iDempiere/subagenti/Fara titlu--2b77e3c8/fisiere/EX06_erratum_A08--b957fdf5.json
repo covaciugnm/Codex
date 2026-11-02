@@ -1,0 +1,423 @@
+{
+  "schema": "eva.P01.EX06.erratum.v1",
+  "object": "EX06",
+  "owner": "A08",
+  "reviewer": "A11",
+  "quality_score": null,
+  "at": "2026-11-02T16:56:29.141Z",
+  "state": "ERRATUM_EMIS_SPRE_A11",
+  "chain": {
+    "original": {
+      "file": "EX06.json",
+      "sha256": "9ee27f74ef867752f896ef4f54426c336f12ae23654a4f90e93956e461b5d945"
+    },
+    "returned_peer": {
+      "file": "EX06_peer_A09.json",
+      "sha256": "2df1bee8066dbe34a754cbde9d1ebf4612d0931765abc892ba356f94732cdd32",
+      "decision": "RETURN_FOR_BOUNDED_ERRATUM"
+    },
+    "gate": {
+      "file": "executie/supliment_CESIRO1/Plan_CESIRO1_R3.json",
+      "sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef"
+    },
+    "evidence": [
+      {
+        "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/runtime.json",
+        "sha256": "7e917ef4f221a5ada3fd1387e4b2c82c77844833f95ba68ab79fa6e6e2c8e628"
+      },
+      {
+        "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin-ui.json",
+        "sha256": "fdea8a419db28c7f68b03776d9b9feab5d854d5618f7b41c08f4328acd2248dc"
+      },
+      {
+        "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/ZK_R5_setup_peer.json",
+        "sha256": "a6f29b76cc741e1a362e4153082a755496183a7852a9a819e5a47357d1f78f1e"
+      }
+    ],
+    "rehashed": {
+      "original_evidence": 12,
+      "independent_artifacts": 23
+    }
+  },
+  "replacement": {
+    "field": "EX06.json#/comparison/1 (atribuirea HTTP200 pentru ambele integrări owner în A) și #/actual_roles; concluzia despre conector se citește stratificat pe stare și tenant.",
+    "original_observation": "Proba A08 avea un tenant cu stare compatibilă, o cheie de criptare sintetică și un registru proiectat de scheme de conector. A dat 200 în acea rulare. Generalizarea la un proprietar din A, indiferent de stare, a fost prea largă.",
+    "corrected": "În reproducerea A09 proprietarul A a obținut 200 la eMag și 409 state_unreadable la Trendyol. În B, după grant owner separat și cu stare compatibilă, aceeași familie de rută a răspuns 200 la Trendyol. HTTP 409 în A înseamnă că serviciul nu poate citi starea configurată în fixture; nu dovedește lipsa integrării, și nu se presupune schimbarea unei chei în producție.",
+    "payloads": [
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/connector_emag_owner",
+        "http": 200,
+        "code": null,
+        "message": "",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/connector_trendyol_owner",
+        "http": 409,
+        "code": "state_unreadable",
+        "message": "Starea conectorului Trendyol nu poate fi citită (SECRETS_KEY schimbată?)",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/trendyol_owner_B_separate",
+        "http": 200,
+        "code": null,
+        "message": "",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/emag_owner_B_separate",
+        "http": 200,
+        "code": null,
+        "message": "",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/connector_emag_viewer",
+        "http": 403,
+        "code": "forbidden",
+        "message": "Rol insuficient (ai 'viewer', trebuie 'owner')",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/connector_trendyol_viewer",
+        "http": 403,
+        "code": "forbidden",
+        "message": "Rol insuficient (ai 'viewer', trebuie 'owner')",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      }
+    ],
+    "impact": "Administratorul trebuie să poată distinge cheia/starea conectorului incompatibilă de lipsa grantului. Ecranul de integrare, contractul GET și preview-ul produsului sunt puncte distincte."
+  },
+  "preview": {
+    "registry": "Nouă teme în registrul auxiliar public-theme-fixture. Rezultatul este limitat la acest registru. Nu susține un inventar complet de teme din toate instalările comercianților.",
+    "generic_and_invalid": [
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/owner_generic",
+        "http": 200,
+        "code": null,
+        "message": "",
+        "theme_id": "marketplace_pro",
+        "preview_ttl": 3600,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/viewer_generic",
+        "http": 403,
+        "code": "forbidden",
+        "message": "Rol insuficient (ai 'viewer', trebuie 'editor')",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/owner_foreign",
+        "http": 403,
+        "code": "forbidden",
+        "message": "Fără acces la tenantul 'a08b918cb825'",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/anonymous",
+        "http": 401,
+        "code": "unauthorized",
+        "message": "Autentificare necesară",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/theme_eMag",
+        "http": 400,
+        "code": "validation_failed",
+        "message": "Tema 'eMag' nu există",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/theme_emag",
+        "http": 400,
+        "code": "validation_failed",
+        "message": "Tema 'emag' nu există",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/theme_Trendyol",
+        "http": 400,
+        "code": "validation_failed",
+        "message": "Tema 'Trendyol' nu există",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/theme_trendyol",
+        "http": 400,
+        "code": "validation_failed",
+        "message": "Tema 'trendyol' nu există",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/theme_invalid/a",
+        "http": 400,
+        "code": "validation_failed",
+        "message": "Tema 'invalid/a' nu există",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      }
+    ],
+    "scope": "Proprietarul A poate emite un link generic marketplace_pro. Viewer primește 403, vizitatorul fără autentificare 401, iar owner A fără grant B primește 403. Numele eMag și Trendyol, în cele patru variante de caz testate, primesc 400 validation_failed ca theme_id. Consola de integrare sau un iframe de magazin nu probează fidelitatea unei listări marketplace ori raportul unui comisionar."
+  },
+  "revocation": {
+    "state_after_commit": 0,
+    "bearer_ttl_s": 900,
+    "preview_ttl_s": 3600,
+    "sequence": [
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/old_after_revoke",
+        "http": 200,
+        "code": null,
+        "message": "",
+        "theme_id": "marketplace_pro",
+        "preview_ttl": 3600,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/new_after_revoke",
+        "http": 403,
+        "code": "forbidden",
+        "message": "Fără acces la tenantul 'a08a918cb825'",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/expired_old_token_shifted_5s_past_exp",
+        "http": 401,
+        "code": "token_expired",
+        "message": "Token expirat",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/new_signed_link_after_revoke_A",
+        "http": 302,
+        "code": null,
+        "message": "",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": true
+      },
+      {
+        "selector": "EX06_A09_evidence/runtime.json#/results/new_signed_link_after_revoke_B",
+        "http": 302,
+        "code": null,
+        "message": "",
+        "theme_id": null,
+        "preview_ttl": null,
+        "cookie_preview": false
+      }
+    ],
+    "interpretation": "După ștergerea grantului și confirmarea tranzacției, browserul SPA deja deschis și bearerul anterior pot emite încă un preview 200. Login nou → bearer nou, fără grant, primește 403. Cu verificarea la exp+5 secunde, bearerul expirat primește 401. Linkul generat după revocare selectează cookie de preview pe A, nu pe B. TTL bearer de 900 secunde și TTL link de 3600 secunde se testează separat. Nu este o testare la scară de timp reală de o oră, nici dovadă că logout singur revocă toate linkurile.",
+    "remediation": "Verifică dreptul server-side și starea grantului înainte de fiecare emitere. Stabilește explicit dacă și când se invalidează linkurile și cookie-urile deja emise; testează sesiunea existentă și loginul nou."
+  },
+  "compiled_ui": {
+    "source": {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin-ui.json",
+      "sha256": "fdea8a419db28c7f68b03776d9b9feab5d854d5618f7b41c08f4328acd2248dc"
+    },
+    "cases": [
+      {
+        "role": "owner",
+        "viewport": 360,
+        "responsive": {
+          "inner": 360,
+          "scroll": 360,
+          "lang": "ro"
+        },
+        "alert_after_timeout": "A apărut o eroare",
+        "alert_after_retry": null,
+        "iframe_after_retry": 1,
+        "postrevocation_ui": null,
+        "http_preview_timeline": [
+          {
+            "http": null,
+            "fault": "timedout"
+          },
+          {
+            "http": 200,
+            "fault": null
+          }
+        ]
+      },
+      {
+        "role": "viewer",
+        "viewport": 360,
+        "responsive": {
+          "inner": 360,
+          "scroll": 360,
+          "lang": "ro"
+        },
+        "alert_after_timeout": "A apărut o eroare",
+        "alert_after_retry": "A apărut o eroare",
+        "iframe_after_retry": 0,
+        "postrevocation_ui": null,
+        "http_preview_timeline": [
+          {
+            "http": null,
+            "fault": "timedout"
+          },
+          {
+            "http": 403,
+            "fault": null
+          }
+        ]
+      },
+      {
+        "role": "viewer",
+        "viewport": 1280,
+        "responsive": {
+          "inner": 1280,
+          "scroll": 1280,
+          "lang": "ro"
+        },
+        "alert_after_timeout": "A apărut o eroare",
+        "alert_after_retry": "A apărut o eroare",
+        "iframe_after_retry": 0,
+        "postrevocation_ui": null,
+        "http_preview_timeline": [
+          {
+            "http": null,
+            "fault": "timedout"
+          },
+          {
+            "http": 403,
+            "fault": null
+          }
+        ]
+      },
+      {
+        "role": "owner",
+        "viewport": 1280,
+        "responsive": {
+          "inner": 1280,
+          "scroll": 1280,
+          "lang": "ro"
+        },
+        "alert_after_timeout": "A apărut o eroare",
+        "alert_after_retry": null,
+        "iframe_after_retry": 1,
+        "postrevocation_ui": null,
+        "http_preview_timeline": [
+          {
+            "http": null,
+            "fault": "timedout"
+          },
+          {
+            "http": 200,
+            "fault": null
+          },
+          {
+            "http": 200,
+            "fault": null
+          }
+        ]
+      }
+    ],
+    "observation": "Patru sesiuni reale ale bundle-ului admin înghețat: owner și viewer la 360 și 1280 px. După un timeout injectat, Reîncarcă reia cererea: owner 200 cu iframe, viewer 403 fără iframe și mesaj generic „A apărut o eroare”. UI nu diferențiază refuzul de drepturi de transport. În SPA rămasă deschisă după revocare, owner a obținut din nou 200. Checkoutul C a măsurat 377 px la viewport 360 în fixture cu traduceri nepopulate; W a măsurat 360. Nu se atribuie acest overflow instalării comerciale.",
+    "remediation": "Separă mesajele pentru acces refuzat și indisponibilitate temporară. Propune reîncercare pentru eroarea trecătoare, menține focusul la control și ascunde iframe la acces refuzat."
+  },
+  "traceability": {
+    "norms": [
+      {
+        "task": "T35",
+        "canonical": null,
+        "target": [
+          "P01.C10.T0002"
+        ],
+        "criterion_source": "executie/R3/taskuri/Fisa_T35.json",
+        "norm_pointer": "#/disposition_admin/successors",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX06"
+      },
+      {
+        "task": "T352",
+        "canonical": "P01.C10.T0028",
+        "target": [],
+        "criterion_source": "executie/R3/taskuri/Fisa_T352.json",
+        "norm_pointer": "#/source_literal",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX06"
+      }
+    ],
+    "edges": [
+      {
+        "control": "A08-C05",
+        "pipeline": "A08-P01",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/53/resolved_control_ids/4"
+      },
+      {
+        "control": "A08-C14",
+        "pipeline": "A08-P03",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/3"
+      },
+      {
+        "control": "A08-C16",
+        "pipeline": "A08-P04",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/56/resolved_control_ids/0"
+      },
+      {
+        "control": "A08-C20",
+        "pipeline": "A08-P05",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/57/resolved_control_ids/1"
+      },
+      {
+        "control": "A09-C01",
+        "pipeline": "A09-P1",
+        "owner": "A09",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/60/resolved_control_ids/0"
+      },
+      {
+        "control": "A06-C25",
+        "pipeline": "A06-P6",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/45/resolved_control_ids/2"
+      }
+    ],
+    "historical": "T35 este un alias istoric agregat cu legătură spre P01.C10.T0002. T352 corespunde P01.C10.T0028. Nicio stare de implementare sau acceptare istorică nu se transferă prin această erată. Tabela produs × canal și fișa platformei nu demonstrează existența situațiilor proprii ale comisionarului ori paritatea vizuală a site-ului.",
+    "test_now": "EX06 verifică actori tehnici concreți, drepturi și ferestre curente. Se păstrează distinct rolurile store_customer, viewer, owner și comisionar ERP."
+  },
+  "remaining": [
+    "Nicio probă live pe comercianți, platforme, publicare în marketplace sau site cu setările reale; niciun telefon fizic și niciun cabinet iDempiere folosit în această probă.",
+    "În schema sintetică sunt și răspunsuri 500 pe dashboard /orders și /assistant/staged. Acestea sunt enumerate în raw, nu sunt atribuite producției sau lui EX06.",
+    "Cronologia de la închiderea T35 se deosebește de situația actuală a succesorului P01.C10.T0002 și de P01.C10.T0028/T352. Decizia de task rămâne la A12/A11.",
+    "Reproducere în fixture; niciun transfer către platforme, nicio dovadă de incident public sau de acces la comenzi reale. Un comisionar ERP autentic, raportul său și previzualizarea fidelă eMag/Trendyol rămân neconfirmate.",
+    "ZK R5 este pregătire pentru un audit separat. Reachability-ul de formă sau tab nu probează un criteriu comercial ori un grant selectat fără dovadă AD_Session."
+  ],
+  "decision": "Accept corecția A09 pentru rezultatele per tenant și extinderea UX/revocare. Evaluarea independentă aparține A11."
+}

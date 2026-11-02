@@ -1,0 +1,56 @@
+{
+  "utc": "2026-11-02T20:49:53.278784+00:00",
+  "reviewer": "A11",
+  "source": "A07_T216/T216_raport.json",
+  "sha": "02101779827b2d1b07411de6a9d42f97c4f4fb7635ec7b20f0bfa455a2f073cd",
+  "files_verified": 38,
+  "source_amount": "24.2",
+  "input_lines": 1,
+  "inserted_lines": 0,
+  "after_counterexamples": [
+    "N",
+    "EXCLUS",
+    "V01;V08"
+  ],
+  "same_staging_after_retry": true,
+  "scoped_counts": {
+    "staging_lines": 0,
+    "linked_native_SO": 0,
+    "linked_ship": 0,
+    "linked_package": 0,
+    "web_store_shipment": 0,
+    "linked_invoice": 0,
+    "allocation_invoice": 0,
+    "rma_for_origin": 0,
+    "fact_accounting_through_invoice": 0,
+    "SO_by_ref": 0,
+    "negative_control_in_erp": 0,
+    "wrong_tenant_docs_not_examined": 0
+  },
+  "owned_flag_and_items_actual_independent_jvm": {
+    "cod-master-contab": {
+      "jar_sha": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+      "rows": [
+        "own=true lines=true state=AUTO V01=false V08=false C23=false",
+        "own=true lines=false state=COADA V01=false V08=true C23=false",
+        "own=false lines=true state=EXCLUS V01=true V08=false C23=true",
+        "own=false lines=false state=EXCLUS V01=true V08=true C23=true"
+      ],
+      "stdout_sha": "1723ce91e91ea77609de6599988ce2eb8163b6c1e40dfee94b98aceb3059f658"
+    },
+    "com.eva.ro.contab_13.0.0": {
+      "jar_sha": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "rows": [
+        "own=true lines=true state=AUTO V01=false V08=false C23=false",
+        "own=true lines=false state=COADA V01=false V08=true C23=false",
+        "own=false lines=true state=EXCLUS V01=true V08=false C23=true",
+        "own=false lines=false state=EXCLUS V01=true V08=true C23=true"
+      ],
+      "stdout_sha": "1723ce91e91ea77609de6599988ce2eb8163b6c1e40dfee94b98aceb3059f658"
+    }
+  },
+  "evidence": "La procedura EVA_PreiaDinSite, GET întoarce aceeași origine, proprie, 2×12,10; staging conține un singur antet marcat nepropriu și nicio linie. După corectarea firmei/perioadei, V01/V08 persistă. UI afișează comanda și C23 Marketplace la reîncărcare. În ambele bundle-uri: proprietate + linii ⇒ AUTO; proprietate fără linii ⇒ COADA V08; fără proprietate și cu linii ⇒ EXCLUS V01/C23; fără ambele ⇒ EXCLUS V01,V08/C23.",
+  "scope": "Refuzul înaintea conversiei este confirmat pentru această origine. Nu derivă un verdict pentru factură, plată, AWB sau retur după validarea unei comenzi eligibile. P93 și Q reprezintă alte probe. Testul JVM folosește contextul de test al validării și nu scrie în ERP.",
+  "R10_quality_score": null,
+  "implementation_score": null
+}

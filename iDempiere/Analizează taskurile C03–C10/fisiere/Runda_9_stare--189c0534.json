@@ -1,0 +1,108 @@
+{
+  "utc": "2026-11-02T18:42:26.802Z",
+  "last_graded_round": 9,
+  "A11_report": "executie/A11_control_A12_R9.json",
+  "independent_grade": 6.4,
+  "scope_population": [
+    652,
+    2619
+  ],
+  "grade_version": "5d621f45b8a950488219056223b80f80f37041de67da657a6f5ac510fbf07209",
+  "working_round": 9,
+  "working_round_grade": 6.4,
+  "queues": {
+    "all_remaining": 1226,
+    "executable_prior": 177,
+    "partial_R8_separate": 218,
+    "missing_oracle_not_verified": 882,
+    "historical": 167,
+    "partly_external_in_remaining": 38
+  },
+  "review": [
+    {
+      "id": "R8-Q1",
+      "priority": "P1",
+      "action": "Alocați cele 177 de criterii din cohorta inițială 467 încă neexecutate unui responsabil pe punct de intrare, rol, fixture, oracol și contraexemplu. Păstrați separat cele 218 subcazuri parțiale nou etichetate. Adăugați cele 38 condiții parțial externe numai la taskurile cărora le aparțin."
+    },
+    {
+      "id": "R8-Q2",
+      "priority": "P1",
+      "action": "Refaceți identificarea etaloanelor pentru 882 cazuri încă neexecutate. Identificați toate pozițiile Git, anexele și JSON din manual; cele 1.653 indicii de linie pentru 283 criterii nu acordă PASS și cele 600 fără document imediat nu justifică o declarație de imposibilitate. Porniți de la câte o condiție verificabilă și validați-o independent."
+    },
+    {
+      "id": "R8-Q3",
+      "priority": "P1",
+      "action": "În C03 repetați C20 cu două C_Order persistente distincte și rezervările lor până la retry, apoi introduceți două G1 și condițiile de cost G1/G2. În C10 folosiți aceeași origine eligibilă în două trasee: vânzare/aviz/AWB/factură/încasare și retur. Păstrați separat Q, martorul P93 și comenzile inițializate în staging."
+    },
+    {
+      "id": "R8-Q4",
+      "priority": "P1",
+      "action": "În T04.06 diferențiați pluginul eMAG și conectorul CESIRO1. Reproduceți politica de căi, TLS și redirecționare cu marcaj sintetic pentru fiecare implementare și runtime confirmat. Când se autorizează o remediere de produs, adăugați la regresie destinația finală și eliminarea marcajului la schimbarea originii."
+    },
+    {
+      "id": "R8-Q5",
+      "priority": "P2",
+      "action": "În T159-R2-050 mențineți distincția dintre 0 rezultate pe intersecție goală și protecția celor 302 intrări dispărute. În T329-R2-012 confruntați costul motorului 60 cu liniile Fact_Acct explicite pe lot; în T330-R2-025 efectuați întregul export DIFF-CLASE și hashurile de resurse înainte de recepție."
+    }
+  ],
+  "assigned": {
+    "A03": "T159 și cazuri țintite de contabilitate/fiscalitate",
+    "A05": "T329 cost pe lot până la Fact_Acct, T330 exportul și resursele",
+    "A06": "R8-Q3: două C_Order persistente și rezervări concurente. Supliment separat de ediția R9 A12.",
+    "A12": "Repartizare nominală, recuperarea condițiilor, separarea istoricelor și a probelor",
+    "A11": "Control independent al rezultatelor; accesează edițiile noi după SHA, fără rescrierea R8."
+  },
+  "sources": [
+    {
+      "file": "Coada_reverificari_P01_R8.json",
+      "sha256": "63ad608e4639846cd21c9cb8621ce165eef2d42645b2a27c7ec1cbfc93618486"
+    },
+    {
+      "file": "executie/A11_control_A06_oracole_postR8.json",
+      "sha256": "f7e24915399e59a94cefe9611d839749530178747799f71c44be24a9308e5cf0"
+    },
+    {
+      "file": "executie/R9_pregatire/EVA_Export/Runtime_CESIRO1_izolat.json",
+      "sha256": "716e1f0c7faf8f6ce4d3c2c7416a5453f58c3f177a95132381dbb5936d826c6e"
+    },
+    {
+      "file": "executie/R9_pregatire/A12/Repartizare_177_R9.json",
+      "sha256": "653ba1eaadc2c4232b82baac91a051aedd2d8c325809fb92e601899927a3b653"
+    },
+    {
+      "file": "executie/A11_control_suplimente_R9_A03_177_CESIRO1.json",
+      "sha256": "5b393c7775d1b527f2d29fc5a78b6c69dc40be4c2cefa1922b0cb63eec4003e2"
+    },
+    {
+      "file": "executie/R9_pregatire/A03/A03_raport_R9.json",
+      "sha256": "da8469b42bca9047ccdfb822fe586aa9569666f51ef039a577933d8334cc9140"
+    },
+    {
+      "file": "executie/R9_pregatire/A12/Relectura_882_pointeri.json",
+      "sha256": "fd845a2b6b67622b3dbc35975f44280abe0545e951dbe481a8aae6cb7c41fa20"
+    },
+    {
+      "file": "executie/R9_pregatire/A05/Manifest_R9_A05.json",
+      "sha256": "f560be6987ff3bdd9b6af305f7a36f76bff33f14605fd8bb75f36db445318f30"
+    },
+    {
+      "file": "executie/R9_pregatire/A05/Registru_R9_A05.json",
+      "sha256": "9d98a0081daadd5400bdb69a6a0739eb0f1b10880c3c37ad65fab79ec8995a5a"
+    }
+  ],
+  "heartbeat": {
+    "kind": "thread heartbeat",
+    "id": "continuare-audit-p01-eva-idempiere-p-n-la-recep-ie",
+    "interval": "o oră, când chatul poate relua lucrul"
+  },
+  "R9_signed": {
+    "auditor": "executie/A11_control_A12_R9.json",
+    "verdict_sha": "5d621f45b8a950488219056223b80f80f37041de67da657a6f5ac510fbf07209",
+    "manifest": "executie/R9/MANIFEST_R9.json",
+    "manifest_sha": "750aefa14bacb710cd366a8ebf35613cf52c3564e73ff9ccf455d7e05a3f8c1f",
+    "unexecuted": 1204,
+    "as_of": "2026-11-02T19:00:00.045825+00:00"
+  },
+  "status": "EDIȚIE R9 SIGILATĂ",
+  "next_round": "Runda_10_stare.json"
+}

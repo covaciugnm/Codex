@@ -1,0 +1,3 @@
+from a12_r10_base import *
+import subprocess
+p=P10/'Version_git_ultima_verificare.json';cmd=['ssh','-o','BatchMode=yes','saga-server@192.168.100.151','export GIT_TERMINAL_PROMPT=0; timeout 20s git -C /home/saga-server/Documents/EvA-Contab ls-remote origin refs/heads/master'];r=subprocess.run(cmd,capture_output=True,timeout=30);assert r.returncode==0,r.stderr.decode()[:180];s=r.stdout.decode().strip();f=E/'delta/2026-11-02T19-45-29-330Z/Delta.json';assert s.split()[0]==BASE;wr(p,{'utc':now(),'actual_remote_master':s,'fixed_head':BASE,'same':True,'tracker_scope_service_capture':source(f),'fetch_command':'git ls-remote origin refs/heads/master (Git server authorized, without ref edits)','admissible_population':652});print(sha(p),s)

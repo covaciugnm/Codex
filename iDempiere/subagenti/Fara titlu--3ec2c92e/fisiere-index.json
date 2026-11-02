@@ -1,0 +1,65 @@
+[
+  {
+    "source_reference": "D:\\CodexWork\\a12-r10-local\\bank_dbl_actions.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank_dbl_actions--30f252c7.py",
+    "bytes": 1706,
+    "sha256": "7eee1255256704c0a75896db2983a2bd3093c7695756305a1fbd89faf339e632"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a12-r10-local\\bank_ui.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank_ui--4a3e4416.py",
+    "bytes": 7484,
+    "sha256": "b80aed899dad9cd78372e831d02b0d31a582fec87e350bd19b51222971ce2b9b"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a12-r10-local\\bank_ui_actions.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank_ui_actions--c60a0dd6.py",
+    "bytes": 5189,
+    "sha256": "be9134e1d216bfabcfbc345ad7f7fe6fedbcbcbb2508f170ffac32ea3f11f084"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a12-r10-local\\bank_ui_readonly_actions.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank_ui_readonly_actions--3067fe39.py",
+    "bytes": 1862,
+    "sha256": "b8156a7c415c51c1181c5aaaa409e299f78dbe534feed9ff768febd6221f56a8"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a12-r10-local\\bank_ui_readonly_submit.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank_ui_readonly_submit--544185c2.py",
+    "bytes": 2888,
+    "sha256": "ed5f186ddfdeb082e7a8cc73f5a88b7b988cbdcb841e07d76384efae8b0683fb"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a12-r10-local\\bank_ui_run_actions.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank_ui_run_actions--8d6f7ba6.py",
+    "bytes": 4417,
+    "sha256": "223c0c46850e418cc6cafa2b5dfef17f561ca1979ea2ab1a073cb3454f2fef26"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a12-r10-local\\bank_ui_seal.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank_ui_seal--8dfead2f.py",
+    "bytes": 7247,
+    "sha256": "675afd78186531e6de745b3b1847fa1ba30c0080db419a521a14b5d09d7bea1e"
+  },
+  {
+    "source_reference": "D:\\CodexWork\\a12-r10-local\\bank_ui_stale.py",
+    "status": "copiat",
+    "saved_path": "fisiere/bank_ui_stale--be440826.py",
+    "bytes": 2143,
+    "sha256": "161226bcb128d48518416eaa3ffbb458982a5e336d9251ee928909bb5ffe3f63"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R10_pregatire/A12/T06_UI/Rezultat.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Rezultat--e6775339.json",
+    "bytes": 10287,
+    "sha256": "090ba565629093ca34b866fec4b932b1d5833f229eaa514693441bdf747cb63c"
+  }
+]

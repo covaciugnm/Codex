@@ -1,0 +1,19 @@
+{
+  "evaluated_at": "2026-11-02T16:48:27.243591+00:00",
+  "runner_sha256": "1095762362d847630986e5346cc73cad885806474f84a64eaa0060788a24fe60",
+  "mapping": {
+    "file": "executie/R5_pregatire/ZK_form_criteria_map.json",
+    "sha256": "ce29121cf4aaf402b16b850b2a5174f4af951d0dc1caede2ead2675aa9d5fb3e"
+  },
+  "forms": 15,
+  "unique_criteria": 23,
+  "criterion_form_links": 24,
+  "role_observation": "GardenAdmin and GardenUser are synthetic principals. Header/name inference can match several roles. Use AD_Session or explicit role selector + active directory, count GardenAdmin as a user without stable active-role evidence until proven.",
+  "positive": "Authorizes synthetic IP/ownership and task labels, read-only SQL, dispatch only native X, now checks selected tab+new tab+panel body+absence of visible error. Records concrete UI controls and keyboard even for X.",
+  "limits": [
+    "Missing AD_Menu/AD_Form row or grant ⇒ UNEVALUATED for that actor, not business failure. A successful open provides reachability only; tie a displayed control to the criterion, not merely the tab.",
+    "The shortest AD_Menu title may be an alias. Keep all candidate IDs, visible alias and role. If display names collide, distinguish via menu or AD_Form ID and use role-aware picker. A case not found can also be localization/translation.",
+    "Queries cover 15 X forms; SQL alone omits missing forms. Materialize the 15×2 rows even if target misses. 24 criterion–form edges refer to 23 unique criteria; T204-R2-024 refers to two forms; do not infer workflow, amounts, print output, rollback or legal rules from open.",
+    "Testing processes and writes is out of scope for discovery. Distinguish hard refusal, technical errors, unverified actor, absent grant, absent menu and verified view. External slot §61/lease and cleanup remain coordinated by root."
+  ]
+}

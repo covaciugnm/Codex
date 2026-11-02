@@ -1,0 +1,374 @@
+{
+  "utc": "2026-11-02T18:41:35.503772+00:00",
+  "reviewer": "A11",
+  "edition": "R9 supplementary audit only",
+  "source": "executie/R9_pregatire/A12/Relectura_882_pointeri.json",
+  "sha256": "fd845a2b6b67622b3dbc35975f44280abe0545e951dbe481a8aae6cb7c41fa20",
+  "R8_immutable": "3b95e64a91a2031d325155847a42c18b9e3a05e7adacbb344981051ca8784be0",
+  "verified_criteria": 882,
+  "distinct_documents": 161,
+  "distinct_file_positions": 858,
+  "distinct_record_ids": 882,
+  "verified_by_source": {
+    "captured_json": 383,
+    "git_text": 283,
+    "git_json": 144,
+    "other_json": 1,
+    "manual_json": 71
+  },
+  "basis_883_removed": [
+    "T04.06-R3-001"
+  ],
+  "repeated_positions": [
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/0",
+      "criteria": [
+        "T01-R3-001",
+        "T01-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/15",
+      "criteria": [
+        "T02.01-R3-001",
+        "T02.01-R3-002",
+        "T02.01-R3-003"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/18",
+      "criteria": [
+        "T02.06-R3-001",
+        "T02.06-R3-002",
+        "T02.06-R3-003"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/43",
+      "criteria": [
+        "T07-R3-001",
+        "T07-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/50",
+      "criteria": [
+        "T08-R3-001",
+        "T08-R3-002"
+      ]
+    },
+    {
+      "file": "Documentatie/echipa-2026-10-09/T01-plan-general/15_manager_plan_v3.md",
+      "position": "397",
+      "criteria": [
+        "T08.07-R3-001",
+        "T08.08-R3-001"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/59",
+      "criteria": [
+        "T09-R3-001",
+        "T09-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/293",
+      "criteria": [
+        "T36.56-R3-001",
+        "T36.56-R3-002",
+        "T36.56-R3-003"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/350",
+      "criteria": [
+        "T42.02-R3-001",
+        "T42.02-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/352",
+      "criteria": [
+        "T42.04-R3-001",
+        "T42.04-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/509",
+      "criteria": [
+        "T104.01-R3-001",
+        "T104.01-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/651",
+      "criteria": [
+        "T154.04-R3-001",
+        "T154.04-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/693",
+      "criteria": [
+        "T176.02-R3-001",
+        "T176.02-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/732",
+      "criteria": [
+        "T200.01-R3-001",
+        "T200.01-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/734",
+      "criteria": [
+        "T200.03-R3-001",
+        "T200.03-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/735",
+      "criteria": [
+        "T200.04-R3-001",
+        "T200.04-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/808",
+      "criteria": [
+        "T231.01-R3-001",
+        "T231.01-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/809",
+      "criteria": [
+        "T231.02-R3-001",
+        "T231.02-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/829",
+      "criteria": [
+        "T239.02-R3-001",
+        "T239.02-R3-002"
+      ]
+    },
+    {
+      "file": "capturi/00_STATUS_TASKURI.json",
+      "position": "/923",
+      "criteria": [
+        "T313-R3-001",
+        "T313-R3-002",
+        "T313-R3-003"
+      ]
+    }
+  ],
+  "same_location_multirow_explanation": "Criteriile rămân distincte ca identificatori. Mai multe criterii pot indica același obiect de registru și aceeași descriere generică; acestea nu trebuie numărate ca probe independente de acceptare.",
+  "identity_checks": {
+    "explicit_task_ids_read": 389,
+    "differences": [
+      {
+        "criterion": "T08.01-R3-001",
+        "task": "T08.01",
+        "anchor_local_id": "T08.1",
+        "file": "Documentatie/echipa-2026-10-09/00_STATUS_RAMASE.json",
+        "pos": "ramase/14/copii/0/",
+        "adjudication": "FORMAT_NUMERIC_ECHIVALENT",
+        "explicit_alias_field_confirmation": false
+      },
+      {
+        "criterion": "T10.01-R3-001",
+        "task": "T10.01",
+        "anchor_local_id": "T10.1",
+        "file": "Documentatie/echipa-2026-10-09/00_STATUS_RAMASE.json",
+        "pos": "ramase/3/copii/0/",
+        "adjudication": "FORMAT_NUMERIC_ECHIVALENT",
+        "explicit_alias_field_confirmation": false
+      },
+      {
+        "criterion": "T10.02-R3-001",
+        "task": "T10.02",
+        "anchor_local_id": "T10.2",
+        "file": "Documentatie/echipa-2026-10-09/00_STATUS_RAMASE.json",
+        "pos": "ramase/3/copii/1/",
+        "adjudication": "FORMAT_NUMERIC_ECHIVALENT",
+        "explicit_alias_field_confirmation": false
+      },
+      {
+        "criterion": "T22.15-R3-001",
+        "task": "T22.15",
+        "anchor_local_id": "T22.1",
+        "file": "Documentatie/echipa-2026-10-09/00_STATUS_RAMASE.json",
+        "pos": "ramase/5/copii/0/",
+        "adjudication": "ALIAS_CONFIRMAT_ÎN_REGISTRUL_CAPTURAT_ID_VECHI",
+        "explicit_alias_field_confirmation": true
+      },
+      {
+        "criterion": "T28.01-R3-001",
+        "task": "T28.01",
+        "anchor_local_id": "T28.1",
+        "file": "Documentatie/echipa-2026-10-09/00_STATUS_RAMASE.json",
+        "pos": "ramase/10/copii/0/",
+        "adjudication": "FORMAT_NUMERIC_ECHIVALENT",
+        "explicit_alias_field_confirmation": false
+      },
+      {
+        "criterion": "T36.18-R3-001",
+        "task": "T36.18",
+        "anchor_local_id": "T36.7",
+        "file": "Documentatie/echipa-2026-10-09/00_STATUS_RAMASE.json",
+        "pos": "ramase/0/copii/5/",
+        "adjudication": "ALIAS_CONFIRMAT_ÎN_REGISTRUL_CAPTURAT_ID_VECHI",
+        "explicit_alias_field_confirmation": true
+      }
+    ],
+    "boundaries": "Un obiect JSON/literal de registru anonim poate stabili localizarea, dar nu conferă prin sine trasabilitate semantică între toate cerințele.",
+    "unresolved_explicit_task_mismatch": 0
+  },
+  "historic_blob_older_than_current_path": 68,
+  "older_blob_criterion_ids": [
+    "T01.04-R3-001",
+    "T01.05-R3-001",
+    "T01.06-R3-001",
+    "T01.07-R3-001",
+    "T01.08-R3-001",
+    "T01.09-R3-001",
+    "T01.10-R3-001",
+    "T01.11-R3-001",
+    "T01.12-R3-001",
+    "T01.13-R3-001",
+    "T07.05-R3-001",
+    "T08.01-R3-001",
+    "T10.01-R3-001",
+    "T10.02-R3-001",
+    "T22.15-R3-001",
+    "T27.35-R3-001",
+    "T28.01-R3-001",
+    "T32.10-R3-001",
+    "T32.11-R3-001",
+    "T32.12-R3-001",
+    "T32.13-R3-001",
+    "T32.14-R3-001",
+    "T32.15-R3-001",
+    "T32.16-R3-001",
+    "T32.17-R3-001",
+    "T32.18-R3-001",
+    "T33.02-R3-001",
+    "T33.03-R3-001",
+    "T33.04-R3-001",
+    "T33.05-R3-001",
+    "T33.09-R3-001",
+    "T36.18-R3-001",
+    "T36.19-R3-001",
+    "T36.20-R3-001",
+    "T36.21-R3-001",
+    "T36.22-R3-001",
+    "T36.23-R3-001",
+    "T36.24-R3-001",
+    "T36.25-R3-001",
+    "T36.26-R3-001",
+    "T36.28-R3-001",
+    "T36.29-R3-001",
+    "T36.30-R3-001",
+    "T36.32-R3-001",
+    "T36.33-R3-001",
+    "T36.34-R3-001",
+    "T36.35-R3-001",
+    "T36.36-R3-001",
+    "T36.37-R3-001",
+    "T36.38-R3-001",
+    "T36.39-R3-001",
+    "T36.40-R3-001",
+    "T36.41-R3-001",
+    "T36.42-R3-001",
+    "T36.43-R3-001",
+    "T36.44-R3-001",
+    "T36.45-R3-001",
+    "T36.46-R3-001",
+    "T36.47-R3-001",
+    "T36.48-R3-001",
+    "T36.49-R3-001",
+    "T36.50-R3-001",
+    "T36.51-R3-001",
+    "T39.02-R3-001",
+    "T39.03-R3-001",
+    "T39.04-R3-001",
+    "T40.13-R3-001",
+    "T42.05-R3-001"
+  ],
+  "negative_controls": [
+    {
+      "control": "path to existing neighbor",
+      "nominal_task": "T01",
+      "observed_task": "T01.01",
+      "result": "rejected_identity_and_digest"
+    },
+    {
+      "control": "missing JSON property",
+      "result": "rejected"
+    },
+    {
+      "control": "append one byte to original document",
+      "result": "rejected_git_oid"
+    },
+    {
+      "control": "out-of-range Git line",
+      "result": "rejected"
+    }
+  ],
+  "recoveries": {
+    "A06_previously_reviewed": [
+      "T22.07-R2-001",
+      "T22.09-R2-001",
+      "T22.08-R2-001",
+      "T35-R2-001"
+    ],
+    "A06_receipt_sha": "f7e24915399e59a94cefe9611d839749530178747799f71c44be24a9308e5cf0",
+    "A12_five_related_inputs": {
+      "T04.07-R3-001": "T04_07_08_parser_oracles.json",
+      "T04.08-R3-001": "T04_07_08_parser_oracles.json",
+      "T04.09-R3-001": "T04_09_reconcilieri.json",
+      "T35.08-R3-001": "T35_08_acord_bilateral.json",
+      "T35.09-R3-001": "T35_09_predare_commituri.json"
+    },
+    "A12_inputs_sha": {
+      "T35_09_predare_commituri.json": "30fe88d0ea88b182bf3270c8363c25a10363b8d9aea79657b75dc14852eee312",
+      "T04_09_reconcilieri.json": "463d11d6599d5f2460375ad8e33dfc430efb9226f8ed5116837a7fe7e3a0562d",
+      "T35_08_acord_bilateral.json": "f3334ec839da9b62c07e475fb65e81a2e1751f42af76e8cf853601d32b81105c",
+      "T04_07_08_parser_oracles.json": "03b3916b754430782421381a82099bc066544dc5465bb4baf948b2932513bc4b"
+    },
+    "other_without_new_comparator": 873,
+    "status": "Cele nouă sunt subcondiții, fără credit generic pentru cerința integrală; distingerea documentară/funcțională rămâne per caz.",
+    "A12_sample_readback": {
+      "T04.07_08": "Dosarul înregistrează 8 încercări pe cele 2 JAR. Fișierul de transfer cu 2 rânduri dă 312,02 pe ambele. Fișierul invalid refuză cu zero rânduri; nu demonstrează importul persistent sau întregul decont.",
+      "T35.08": "Două semnături distincte pe același digest; modificarea unui octet rupe potrivirea în martorul înregistrat; o semnătură singură nu este acord bilateral.",
+      "T35.09": "31 commituri Git din raport, 30 apar în celula exactă de commit. Menționarea în proză a celui de-al 31-lea nu închide acordul T10."
+    }
+  },
+  "scope": "Fără audit ca round global, fără decizie de implementare, fără certificarea rezultatelor comerciale. R8 nu se modifică.",
+  "round_score": null,
+  "product_score": null,
+  "historical_source_warning": "68 criterii au un blob Git istoric diferit de blobul aceluiași fișier la HEAD. Valoarea, pointerul și hashul sunt verificate în versiunea citată, nu înlocuite cu HEAD."
+}

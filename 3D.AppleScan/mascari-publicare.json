@@ -40,6 +40,7 @@
     {
       "path": "Planifică aplicația iPhone 3D Scan/fisiere/backend-seo--9cf62972.mjs",
       "masked_values": {
+        "literal_authentication_value": 1,
         "url_userinfo": 1
       }
     },
@@ -58,30 +59,35 @@
     {
       "path": "subagenti/Fara titlu--6e49f7d3/istoric.json",
       "masked_values": {
+        "literal_authentication_value": 1,
         "url_userinfo": 1
       }
     },
     {
       "path": "subagenti/Fara titlu--6e49f7d3/rezultate.md",
       "masked_values": {
+        "literal_authentication_value": 1,
         "url_userinfo": 1
       }
     },
     {
       "path": "subagenti/Fara titlu--83aa5d7e/fisiere/backend-seo--9cf62972.mjs",
       "masked_values": {
+        "literal_authentication_value": 1,
         "url_userinfo": 1
       }
     },
     {
       "path": "subagenti/Fara titlu--83aa5d7e/istoric.json",
       "masked_values": {
+        "literal_authentication_value": 1,
         "url_userinfo": 2
       }
     },
     {
       "path": "subagenti/Fara titlu--83aa5d7e/rezultate.md",
       "masked_values": {
+        "literal_authentication_value": 1,
         "url_userinfo": 2
       }
     },

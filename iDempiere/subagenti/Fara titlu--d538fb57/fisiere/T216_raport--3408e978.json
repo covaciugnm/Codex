@@ -1,0 +1,469 @@
+{
+  "schema": "EVA.A07.R10.T216.1",
+  "utc": "2026-11-02T19:59:48.917493+00:00",
+  "task": "P01.C10.T0007",
+  "technical_key": "P01.T216",
+  "title": "Comenzile de pe site, facturate și încasate automat",
+  "state": "EXECUȚIE_ÎNCHEIATĂ_CU_REFUZ_REPRODUS",
+  "product_result": "Traseul automat de canal a eșuat pentru comanda nominală R10-A07-001. Originea se oprește înaintea comenzii ERP.",
+  "review": "Predat coordonatorului pentru A12/A11.",
+  "independent_quality_score": null,
+  "cutoff": {
+    "historical_primary_inventory_utc": "2026-11-02T14:06:00.673Z",
+    "git_read_only": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "run_start": "2026-11-02T19:49:41.471894+00:00",
+    "final_db_observation_utc": "2026-11-02T19:56:08.218482+00:00",
+    "environment": "GardenWorld AD_Client_ID=11, AD_Org_ID=11, rețea Docker internă, adresă de origin loopback; teste 2026-11-02.",
+    "observed_image": "/eva-test-p01-t216-auditor-app-20261102214634 sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235 eva-idempiere-rest:r57-20261102",
+    "jar_evidence": "evidence-code.json",
+    "native_test_dump_sha256": "54d2a646a663949df78e24206a4dc2a30b7eab609aafba1229c1e6c28e97c6a4",
+    "comparison": "Cele două JAR-uri au hashuri de fișier diferite. Inventarul static cuprinde clasele relevante identificate în fiecare. Experimentul folosește pachetul instalat în imaginea indicată.",
+    "source_verification": "Manifestul exportului Git și cat-file blob pe commitul fixat confirmă independent toți cei cinci fișieri citați, prin SHA-256. Manifestul sursei: 92913cb2d26fc933e17b8946651f0750518c868a6f73ebdf3cd7f96b39ac8b8a"
+  },
+  "frozen_documents": [
+    {
+      "relative": "R9/taskuri/Fisa_T216.json",
+      "sha256": "cb0523ca9cb03bef8d500378a22c1cc7dcfe9c935b9f6ffec1f2979eeb5d9365"
+    },
+    {
+      "relative": "R3_zone/A07/A07_raport.json",
+      "sha256": "f25a89eee10d9f02df20b3e791e5f43f6f65eb78c6a1d837ca3a5cd245d89c2a"
+    },
+    {
+      "relative": "R10_pregatire/A12/Plan_R10_164_et_dix_zones.json",
+      "sha256": "75f57318cb04346e90d8cfcd6be48717082f9ee3b23b1882979e90e050eda859"
+    }
+  ],
+  "boundary": "Doar intrarea standard EVA_PreiaDinSite și procesele/formularele ERP ale laboratorului. Nu am scris direct stare sau linii în EVA_ComandaSite, nu am anexat documente ERP ale altor comenzi și nu am folosit servicii de curier/PSP reale. Securizarea scheduler-elor în clona proprie și configurarea firmei/rolurilor sunt documentate separat. 0 alți clienți ERP, 0 schedulere active.",
+  "origin": {
+    "business_key": "R10SALE / R10ACCOUNT / r10alpha / r10-a07-001 / R10-A07-001",
+    "EVA_SursaSite_ID": 1000000,
+    "EVA_ComandaSite_ID": 1000000,
+    "source_flags": [
+      "CESIRO1",
+      "own=Y",
+      "online=Y",
+      "write=N"
+    ],
+    "actor_and_role": "GardenAdmin AD_User_ID=101, AD_Role_ID=102 la preluare. Validările distincte 102, 103 (GardenUser), 1000001 (Administrator vânzări online) și 1000002 (Operator vânzări online). Atribuirea celor două roluri comerciale este demonstrată în revalidation.json.",
+    "entry": "R10Origin.java este un emițător HTTP sintetic care acceptă doar GET pe localhost. Procesul Java real din ERP a citit GET /health, /orders și /orders/r10-a07-001.",
+    "request": "O comandă pozitivă, paid/card, total 24,20 RON, un articol Oak/poziția 1, ID r10-p123, 2 × 12,10 lei. CUI 22999188 după corectarea parametrilor, client sintetic cu adrese distincte.",
+    "negative": "r10-a07-wrong este martorul filtrat pe contul FOREIGN-CONTROL, cu zero antete importate. Nu constituie altă origine pozitivă."
+  },
+  "preconditions": [
+    {
+      "result": "REALIZAT",
+      "evidence": "Fișa sursei și seria facturii au returnat HTTP 201. Tipuri document setate în fișă. Sursa și seria sunt recitite în runtime-configuration.log."
+    },
+    {
+      "result": "REALIZAT_DUPĂ_INIȚIALIZARE",
+      "evidence": "Inițial instalarea rolurilor semnala EVA_MonoValidare indisponibil; apoi PI 1003141 a creat rolurile și drepturile, iar atribuirile au returnat 201."
+    },
+    {
+      "result": "REALIZAT",
+      "evidence": "AD_OrgInfo permite corectarea CUI ? → 22999188. Seria R10INV există. Deschiderea perioadei prin PI 1003149: 32 controale N → O. Codurile finale V01/V08 rămân."
+    },
+    {
+      "result": "LIMITĂ_FISCALĂ_DISTINCTĂ",
+      "evidence": "POST C_Tax pentru TVA de 21% a returnat HTTP 500. Jurnalul PI 1003150 avertizează că nu există o cotă unică aplicabilă. Nu pretindem configurarea fiscală completă sau că remedierea importului ar fi suficientă pentru emiterea facturii."
+    }
+  ],
+  "boundary_proof": [
+    {
+      "phase": "1. Importul și actorul",
+      "expected": "Sursa proprie și articolul nominal ajung în starea necesară validării.",
+      "actual": "Fișă Y + intrare own=true, antet creat 1000000 de utilizatorul 101. EVA_Proprie=N și zero linii persistate; valoare AD implicită N.",
+      "evidence": [
+        "setup.json",
+        "order.json",
+        "origin-validation.json",
+        "evidence-code.json"
+      ]
+    },
+    {
+      "phase": "2. Validarea și contraexemplele",
+      "expected": "AUTO selectează comanda eligibilă, iar un operator autorizat poate iniția conversia în ERP.",
+      "actual": "AUTO PI 1003137 a selectat 0. Pentru ID explicit PI 1003138 și 1003140, apoi PI 1003146–1003148 în trei roluri, toate exclud. După înlăturarea V02 și V13 prin configurare, PI 1003150 păstrează EXCLUS V01;V08.",
+      "evidence": [
+        "origin-validation.json",
+        "revalidation.json",
+        "period-and-terminal.json"
+      ]
+    },
+    {
+      "phase": "3. Retry",
+      "expected": "Același identificator nu multiplică comenzile, iar o actualizare de sursă păstrează asocierile și liniile.",
+      "actual": "La timestamp schimbat PI 1003145 actualizează același antet. PI 1003152 la date neschimbate raportează 1 neschimbată, 0 noi; după ambele încercări rămân zero linii.",
+      "evidence": [
+        "revalidation.json",
+        "period-and-terminal.json"
+      ]
+    },
+    {
+      "phase": "4. UI și trimitere",
+      "expected": "Operatorul poate vedea cauza și diferența. Trimiterea trebuie să aibă un document eligibil.",
+      "actual": "Formularul Corelare — comenzi arată „Exclusă V01;V08”, paid/card, 24.20 RON, zero net, diferență 24.20 și „C23 — Marketplace (în afara fluxului)”. Rândul rămâne unic după Reîncarcă. TRIMIT PI 1003151 cu scriere oprită a emis 0 cereri. Nu demonstrăm izolarea gărzii de scriere de garda documentului lipsă.",
+      "evidence": [
+        "corelare-dom.json",
+        "cor-ui-Comenzi.png",
+        "cor-ui-Reîncarcă.png",
+        "period-and-terminal.json"
+      ]
+    }
+  ],
+  "downstream": [
+    [
+      "C_Order",
+      "0 legate, 0 după POReference și AD_Client_ID; conversia a eșuat în cazul testat."
+    ],
+    [
+      "M_InOut / M_Package / AWB",
+      "0 avize legate, 0 colete legate, 0 înregistrări de expediție site. Fără solicitare către curier, etichetă sau dovadă de livrare."
+    ],
+    [
+      "C_Invoice / număr pe site",
+      "0 facturi conectate. Site extern simulat exclusiv pentru citire. Nu a fost posibilă certificarea numărului afișat în storefront."
+    ],
+    [
+      "C_Payment / C_AllocationLine",
+      "Sursa spune paid și are payments gol; nicio plată contabilă atribuibilă nu este dovedită. 0 linii de alocare legate prin factura acestei comenzi. Soldul contului clientului nu a fost extrapolat."
+    ],
+    [
+      "Fact_Acct",
+      "0 postări ale facturii legate de această origine prin AD_Table_ID 318. Nu am interogat întreg registrul pentru a atribui plăți fără referință."
+    ],
+    [
+      "M_RMA / stornare / retur / retry",
+      "0 RMA pe avizul acestei origini. Fără aviz și factură, returul, creditul și stornarea nu pot fi exercitate pe același fir. Retry-ul importului a fost exercitat, retry-ul returului nu."
+    ]
+  ],
+  "query_counters": {
+    "staging_lines": 0,
+    "linked_native_SO": 0,
+    "linked_ship": 0,
+    "linked_package": 0,
+    "web_store_shipment": 0,
+    "linked_invoice": 0,
+    "allocation_invoice": 0,
+    "rma_for_origin": 0,
+    "fact_accounting_through_invoice": 0,
+    "SO_by_ref": 0,
+    "negative_control_in_erp": 0,
+    "wrong_tenant_docs_not_examined": 0
+  },
+  "sql_full": "final-effects.json",
+  "criteria": [
+    {
+      "id": "T216-R2-001",
+      "normative_content": "sa implementam functiile de corelare a comenzilor transcrise de pe site-ul cesiro.com - in comenzi in idempiere - trebuie sa existe un mecanism de validare a comenzilor si transmitere automata in iDempiere",
+      "r10_scope": "CONTRAEXEMPLU_EXECUTAT",
+      "r10_observation": "Importul normal a preluat antetul, însă validarea automată nu a selectat comanda. Validarea explicită cu trei roluri a exclus-o și nu a creat C_Order.",
+      "r9_reference_status": "CONTRAEXEMPLU_PENTRU_ORIGINEA_Q"
+    },
+    {
+      "id": "T216-R2-002",
+      "normative_content": "Fiecare comandă validată devine factură în program, numărul facturii se întoarce pe site, iar plata se potrivește cu comanda.",
+      "r10_scope": "PRECONDIȚIE_NEREALIZATĂ",
+      "r10_observation": "Originea nu s-a validat. Nicio factură asociată, niciun număr din această origine confirmat la site, nicio încasare atribuibilă sau alocare dovedită. Nu demonstrează comportamentul fiecărei comenzi care a trecut validarea.",
+      "r9_reference_status": "CONTRAEXEMPLU_PENTRU_ORIGINEA_Q"
+    },
+    {
+      "id": "T216-R2-003",
+      "normative_content": "planul taskului auditat",
+      "r10_scope": "DOCUMENTAR_PREEXISTENT",
+      "r10_observation": "Criteriul privește auditul vechi al planului. R10 nu reevaluează acea acceptare.",
+      "r9_reference_status": "DOCUMENTAR_PARȚIAL_DOSAR_ACTUAL"
+    },
+    {
+      "id": "T216-R2-004",
+      "normative_content": "testul facturării — T0 = 26 de verificări `chk(` în `TestT22Factura.java`; ținta = 26 OK / 0 FAIL; comenzi validate fără factură pe q31 — T0 se măsoară la pornire cu SELECT pe `EVA_ComandaSite` fără `C_Invoice` legat, ținta = 0 după proba din buton (același SELECT).",
+      "r10_scope": "SUBCAZURI_PREEXISTENTE_NEREEXECUTATE",
+      "r10_observation": "Această execuție nu este suita T0 cu 26 de verificări și nu este baza q31. Numărul zero de facturi ale unei comenzi excluse nu este testul „zero comenzi validate fără factură”.",
+      "r9_reference_status": "R7_SUBCAZ_EXECUTAT_CU_ORACOL_EXPLICIT"
+    },
+    {
+      "id": "T216-R2-005",
+      "normative_content": "site-ul de test afișează seria și numărul facturii.",
+      "r10_scope": "AFIȘAREA_NUMĂRULUI_INACCESIBILĂ",
+      "r10_observation": "Sursa este un API de laborator cu citire, fără storefront complet. În ERP, rândul nominal are câmpurile documentelor goale. Nu a existat o factură pentru verificarea DOM-ului site-ului.",
+      "r9_reference_status": "CONTRAEXEMPLU_PENTRU_ORIGINEA_Q"
+    },
+    {
+      "id": "T216-R2-006",
+      "normative_content": "fiecare comandă validată de pe site devine factură în program, numărul facturii se întoarce pe site, iar plata se potrivește cu comanda.",
+      "r10_scope": "PRECONDIȚIE_NEREALIZATĂ",
+      "r10_observation": "Conversia se oprește la antet. Trimiterea cerută pentru acest antet a raportat zero cereri. Testul nu poate atribui o plată sau un mesaj unei facturi inexistente.",
+      "r9_reference_status": "CONTRAEXEMPLU_PENTRU_ORIGINEA_Q"
+    },
+    {
+      "id": "T216-R2-007",
+      "normative_content": "sa implementam functiile de corelare a comenzilor transcrise de pe site-ul cesiro[.]com - in comenzi in idempiere - trebuie sa existe un mecanism de validare a comenzilor si transmitere automata in iDempiere - aici se genereaza automat factura si se transmite automat numarul inapoi catre cesiro[.]com …",
+      "r10_scope": "CONTRAEXEMPLU_LA_IMPORT_RESTUL_CONDIȚIONAT",
+      "r10_observation": "Origine proprie validă la nivel de intrare; după import pierde statutul propriu și liniile. Capătul automat al fluxului nu este realizat.",
+      "r9_reference_status": "CONTRAEXEMPLU_PENTRU_ORIGINEA_Q"
+    },
+    {
+      "id": "T216-R2-008",
+      "normative_content": "Importul comercial păstrează distinct clientul și adresa de facturare față de destinația reală a comenzii.",
+      "r10_scope": "PARȚIAL_DATE_DISTINCTE_LA_INTRARE",
+      "r10_observation": "În sursă clientul și adresele de facturare/livrare sunt distincte. Nu există C_Order pe care să verificăm valorile Bill_Location_ID și C_BPartner_Location_ID. Dovada istorică privind GeneratorDocumente rămâne separată.",
+      "r9_reference_status": "CONTRAEXEMPLU_COMERCIAL_ÎN_ARIA_MĂSURATĂ"
+    },
+    {
+      "id": "T216-R2-009",
+      "normative_content": "Pentru politica după livrarea reală, factura așteaptă livrarea curierului și lipsa incidentului conform configurației.",
+      "r10_scope": "POLITICA_NEATINSĂ",
+      "r10_observation": "Nu există M_InOut, eveniment de predare, incident sau retur al acestei origini. Istoricul altor origini privind politica după livrare nu devine execuție a politicii în R10.",
+      "r9_reference_status": "CONTRAEXEMPLU_COMERCIAL_ÎN_ARIA_MĂSURATĂ"
+    }
+  ],
+  "comparison_boundary": "Q este originea anterior blocată. P93-095157 a obținut o factură CO 1000357/T216P-1 și confirmare POST201 → GET503 → GET200, pe o origine distinctă. R10-A07-001 este o origine nouă și nu moștenește documentele sau postările acestor cazuri. Nu se rescriu R1–R9 sau scorurile stabilite de A11.",
+  "finding": {
+    "id": "A07-R10-T216-F01",
+    "severity": "RIDICATĂ – blochează transformarea automată pentru originea proprie testată",
+    "statement": "Procesul de import pierde statutul propriu și nu persistă liniile comerciale. Filtrul AUTO nu poate selecta antetul, iar validarea explicită folosește EVA_Proprie=N și zero linii, cu V01 și V08. Efect UX observat: formularul clasifică sursa proprie ca Marketplace.",
+    "causal_constraints": "Adresele și plata sintetică au fost oferite la intrare. Citirea explicită a detaliului poate recupera CUI-ul vânzătorului și unele câmpuri, dar nu schimbă antetul și liniile persistate în această rută. Avertizarea de TVA rămâne o condiție distinctă, ulterioară în demonstrația temporală.",
+    "references": [
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SursaCesiro1.java",
+        "lines": "169–184, 253–257",
+        "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8",
+        "observation": "DTO-ul de sumar și GET /orders/{id}."
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/DetaliuComanda.java",
+        "lines": "102–115, 143–149",
+        "sha256": "17bd13da0d2e91e96dfe9cb3f86d94d5cc29d27d49131d079cda5e5a70ab39ec",
+        "observation": "Parserul detaliat înțelege items, qty, sume și seller.cui."
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+        "lines": "337–353, 427–459",
+        "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823",
+        "observation": "La import se salvează antetul și eventualele expediții; aici nu se atribuie EVA_Proprie și nu se salvează liniile comerciale."
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ValideazaComenzi.java",
+        "lines": "424–441, 591–606, 710–716",
+        "sha256": "d4495f9c4e84acf649d9e0b25cf7c1a6ebc1e5a2841dcea92f9f345861b14434",
+        "observation": "AUTO filtrează antete proprii cu linii; validarea explicită recitește detaliul și construiește regulile din antet și din liniile persistate."
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ValidareComanda.java",
+        "lines": "117–126, 182–192",
+        "sha256": "7c786dec4b81d695587e48a7e889cc75df93833ffb15b315ed2bfbce5f9ac644",
+        "observation": "V01 exclude pentru lipsă proprietate; V08 verifică sumele produselor și antetului."
+      }
+    ],
+    "owner": "Echipa adaptorului de canal și a procesului EVA_PreiaDinSite, cu responsabilul fiscal pentru datele de taxă și reprezentantul WMS pentru acceptarea avizului.",
+    "suggested_correction": "În adaptorul și procesul existente, maparea proprietății trebuie să folosească fișa ERP a canalului și contul admis; afirmația own din sursă nu acordă singură drepturi. Preia liniile DetaliuComanda și identitatea vânzătorului prin PO în tranzacția de import. Cheie stabilă pe client+sursă+ID extern+identitate poziție, verificare de versiune, retry și protecție contra dublării. ValideazaComenzi continuă prin mecanismele native C_Order/M_InOut/C_Invoice/C_Payment/C_Allocation.",
+    "retest": "Pe o origine nouă: AUTO și rol autorizat, linii la 2×12,10; cont străin absent; retry același ID inclusiv concurent fără duplicate. Cu TVA și serii valide, verifică POReference, aviz/colete, factura pentru politica aleasă, callback și afișarea pe site, alocarea, retur parțial și stornarea cu postări echilibrate pe aceeași origine."
+  },
+  "resources_returned": [
+    "2026-11-02T21:58:13+02:00",
+    "containers=0",
+    "nets=0",
+    "fixture-key-present=0",
+    "[release-task]",
+    "AVERTISMENT (titlu terminal, rc 3): AVERTISMENT (titlu terminal): niciun proces claude cu tty pentru contul audit; titlul calculat «audit» nu a fost scris",
+    "OK: P01.T216 eliberat de eva-contab-codex-a07r10 la 2026-11-02T21:58:12+02:00",
+    "[release-slot]",
+    "eliberat: suita~eva-contab-codex-a07r10~P01.T216~2364359~1793648762",
+    "slots=0",
+    "COD PE CAPITOL: P01.C10.T0007 (id tehnic T216, §42 pct. 10)",
+    "LIBER: P01.T216 (cheia T216; nici părinte, nici sub-taskuri ocupate)"
+  ],
+  "handoff": "A12 primește rezultatul nominal prin coordonator; A11 arbitrează independent.",
+  "artifacts": [
+    {
+      "file": "cleanup.txt",
+      "bytes": 540,
+      "sha256": "22695f26bd25353ef1871a46df35884088011c3e821fdebac754242260ce325e"
+    },
+    {
+      "file": "cor-ui-before.png",
+      "bytes": 64397,
+      "sha256": "ac865b00dc129b776589daf4c78a0239002338b9c7ab709875ebfbbab122420e"
+    },
+    {
+      "file": "cor-ui-Comenzi.png",
+      "bytes": 64334,
+      "sha256": "28a59f80bce4f3e6d7a1ae9ce80ab6ad37d5f6cf04175ab5a151bb1151a5a7aa"
+    },
+    {
+      "file": "cor-ui-Reîncarcă.png",
+      "bytes": 64742,
+      "sha256": "08bb4a1e3800bbe51cc4da8dba18a3f297b8c64e0029c18a5572839111b97b56"
+    },
+    {
+      "file": "coredom.log",
+      "bytes": 136,
+      "sha256": "ecac46498b241e42142469da5d745782e9226bb6a84d3f20621522624c83ecc9"
+    },
+    {
+      "file": "coredom.py",
+      "bytes": 3087,
+      "sha256": "381349c23c2031ec56136909adbe8ccc76c5ad00818e6ad311a6776a7dc4b73f"
+    },
+    {
+      "file": "corelare-dom.json",
+      "bytes": 5850,
+      "sha256": "41c2d98d19515a718f795373733168486bf7e478e051f635880f264e5f8e40b5"
+    },
+    {
+      "file": "dom.json",
+      "bytes": 4045,
+      "sha256": "407fa77f80e6e6b1daad06ffd7ba074ebde580f8168caf72a43054341c825437"
+    },
+    {
+      "file": "dom.log",
+      "bytes": 263,
+      "sha256": "5cfe926f137c367f8e304c12030a3604c747ff4661b08f3a88b603a6346b37df"
+    },
+    {
+      "file": "dom.py",
+      "bytes": 3079,
+      "sha256": "7a0fc0ba2198a8edadbd1593c77bc2287b753016b0ea39bfaeeae13817a92fa9"
+    },
+    {
+      "file": "effects.log",
+      "bytes": 327,
+      "sha256": "b8e63616afc485ff044077505e91124907603cbf6d927990c04ddeb85dab8bbe"
+    },
+    {
+      "file": "effects.py",
+      "bytes": 3534,
+      "sha256": "12d79677335c5719454d9007bb5224e57f62385ad818d80b1f2ed32d197d4623"
+    },
+    {
+      "file": "events-complete.log",
+      "bytes": 1318,
+      "sha256": "92ba4c449c209d767816a2a48cf06e9a236147e316ca58ef4470805a4415e2f9"
+    },
+    {
+      "file": "events.log",
+      "bytes": 1255,
+      "sha256": "aaa7594309ad715c2857c3435df32ab47244e1f6e8d2f931a9e03b8dc3a1fe2d"
+    },
+    {
+      "file": "evidence-code.json",
+      "bytes": 14385,
+      "sha256": "e5b226264fa99efc5a3cfeaa0b0e62f3957b3ee37c89eed117b043561c2f8d04"
+    },
+    {
+      "file": "final-effects.json",
+      "bytes": 4460,
+      "sha256": "d7161505357142c8b4b1d0dfd5613c91910d12a681ed62bd206bd394b4e5d0d8"
+    },
+    {
+      "file": "lab.py",
+      "bytes": 3403,
+      "sha256": "5f9bb1df524cb6a6ed34d66aae53afbd2dc5268f205369bbb28f5d762b8c660d"
+    },
+    {
+      "file": "list.json",
+      "bytes": 2046,
+      "sha256": "0ae730ccbf74aabedbb5146af7d1010087653acd3b1cafbe3384a2370d53d464"
+    },
+    {
+      "file": "order.json",
+      "bytes": 1012,
+      "sha256": "30ae292908f1a5d03c5c8270cdbea92b7e1d77fbe5b9bd54c36af70ccc9c39cc"
+    },
+    {
+      "file": "origin-validation.json",
+      "bytes": 6323,
+      "sha256": "2b4304d48df21f52bfd2cbc40bfe42a9398fb889dc0d91195e174da3186c7207"
+    },
+    {
+      "file": "period-and-terminal.json",
+      "bytes": 2752,
+      "sha256": "1625120f1f02731dd08b4669e7b7575052f8ab025d5036910661e925bf2ba8db"
+    },
+    {
+      "file": "R10Origin.java",
+      "bytes": 1561,
+      "sha256": "f437271904e788e0b4ea0eaddffb6fca4de3281c0a871815847a592fda1e3c42"
+    },
+    {
+      "file": "revalidate.log",
+      "bytes": 1413,
+      "sha256": "b41cbf832040f254614db1caab67d9d2fa4b0f0da5b4e78bda8de9e10ab86a44"
+    },
+    {
+      "file": "revalidate.py",
+      "bytes": 4032,
+      "sha256": "1d00bf91325a13ac3dd63256877f02876b9af74b262df7721c0306b37758e384"
+    },
+    {
+      "file": "revalidation.json",
+      "bytes": 5897,
+      "sha256": "73573517136ee0dcfd198e95e05c2437348a886cc79e5b2d66ab03f1f293ec21"
+    },
+    {
+      "file": "runtime-configuration.log",
+      "bytes": 511,
+      "sha256": "101c44f77dd39eb2ac2ce43d409dfcc7a395524f582fe4ed37718b7f818967ba"
+    },
+    {
+      "file": "setup.json",
+      "bytes": 1864,
+      "sha256": "d6e82a53600c76fae03d3f697ea1acc1c800b49e226816886433a832094efb4d"
+    },
+    {
+      "file": "setup.log",
+      "bytes": 555,
+      "sha256": "b35ed9ace70d54ff65576d5c419698623eb59147b679b52f1ec13f5dec92b88e"
+    },
+    {
+      "file": "setup.py",
+      "bytes": 6171,
+      "sha256": "ba2aff1cab2a0417a0cddc1c76dabb1ef95f2f6d4f4c374be5428d08cab8c4cb"
+    },
+    {
+      "file": "source-evidence.py",
+      "bytes": 2510,
+      "sha256": "a57414aed5c1a0f3687a19501728ba9658fa3416692273f866e52e5bd97c66d7"
+    },
+    {
+      "file": "supervisor.sh",
+      "bytes": 5679,
+      "sha256": "49aaeb60b1cd67256c7194ae13066a3c9205e93aef7a4539cd4cd6bfcbc0d1ed"
+    },
+    {
+      "file": "terminal.log",
+      "bytes": 592,
+      "sha256": "8d5223c55201d48dc49e95447a9135374c61bcf3eb6131da4d6a1c2be6749b0a"
+    },
+    {
+      "file": "terminal.py",
+      "bytes": 3316,
+      "sha256": "0f52e466c1afb23d1f8ad6d8c6e2777a711fe05487848d98c9b1a8f5ee97f88c"
+    },
+    {
+      "file": "ui-before.png",
+      "bytes": 65163,
+      "sha256": "d509b85fd2a74230b9467315ecd212696e647a66a5cb59a022d4ee82ce34af88"
+    },
+    {
+      "file": "ui-Documente.png",
+      "bytes": 70349,
+      "sha256": "b631d95cdd199d9067e8402e8cb5495bbd9dc78a660976282773d353f30bc290"
+    },
+    {
+      "file": "ui-Stare.png",
+      "bytes": 64838,
+      "sha256": "a64f315cf87457840ebaf20188ba67625ba2c24eb2348abc2cf50dce44700bd3"
+    },
+    {
+      "file": "validation.log",
+      "bytes": 2619,
+      "sha256": "79f434429441190b59c799669a29a65f68cb21a35950f0b3f952b6d83f579e92"
+    },
+    {
+      "file": "validation.py",
+      "bytes": 4020,
+      "sha256": "de7c8df2e372aa0bcd75fe58f5ef47fbdaa21fe3e8dbf10b77ccbc3beb5153c7"
+    }
+  ]
+}

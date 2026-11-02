@@ -1,0 +1,66 @@
+{
+  "source_commit": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "review": "depus pentru control independent A11, fără punctaj propriu",
+  "files": {
+    "assertions.json": {
+      "sha256": "6b8060bb22969c739310b701e2161f5a350bb18c65be3676a8b63137936697e8",
+      "bytes": 2765
+    },
+    "cleanup.txt": {
+      "sha256": "ce5a6f74d465158157d9c81693acb927de16b91859cc6cae9f4bba4420a55961",
+      "bytes": 554
+    },
+    "component.py": {
+      "sha256": "bdfe3d1dbdbded930621df4690d79d9514e65b44ffd13c39bdac3a6117452e06",
+      "bytes": 11000
+    },
+    "components.json": {
+      "sha256": "7bdbeb5a7be6b3fa1044655ab22f8a3ae51dcaad353448510de8caf2af6acc75",
+      "bytes": 123718
+    },
+    "driver.py": {
+      "sha256": "229318cf7143f9c01a01d33e586daef6bbb698823b5471bf88dc8a6fba6b32ac",
+      "bytes": 13254
+    },
+    "finish.sh": {
+      "sha256": "8410d6d323e84243088982e11e09ba484b9f88f5701cf333a6958299a47b7363",
+      "bytes": 1086
+    },
+    "lab.py": {
+      "sha256": "b6eda94be2adea59b642aca7ca9409daaf6f7c7673edede7eb683d81a7900c18",
+      "bytes": 3407
+    },
+    "lifecycle.log": {
+      "sha256": "24fd4a0d03808ff8065199c06b0a3cf704f69d0be1101b3328985285b9610235",
+      "bytes": 1450
+    },
+    "lineage.json": {
+      "sha256": "7f873d09a57f8b61a3b6501d8e554580ed514d4f9fbe5d61cfa64152332d8af1",
+      "bytes": 29475
+    },
+    "policy.json": {
+      "sha256": "932d50aafd7016e601d3006d61e457a16351acecb82f7be88df684d93fe73e2e",
+      "bytes": 9179
+    },
+    "policy.py": {
+      "sha256": "4ec14210288c6c25d8b0e88f351247ba22f8c68460085439d5287c4ad4d47126",
+      "bytes": 1665
+    },
+    "Raport_G3_C20.json": {
+      "sha256": "330f2911e777fb6ba1a750055302385d5d0b532b4c7dc43c3198093e1356447b",
+      "bytes": 12555
+    },
+    "raw.json": {
+      "sha256": "c9ffe863e00d936085695a52ac35038fe755fc6cb0f48077aecac5417afee7bb",
+      "bytes": 79033
+    },
+    "supervisor.sh": {
+      "sha256": "3937917d9857f67d56d8ba5147a46764f78a321c4f223ce6c71a86207a7c7a2b",
+      "bytes": 5680
+    },
+    "verify.py": {
+      "sha256": "e0d65a4c8f6ac1606bc0e94bec01aa388cba4ecd75c96e123f055fb2597fa964",
+      "bytes": 6917
+    }
+  }
+}

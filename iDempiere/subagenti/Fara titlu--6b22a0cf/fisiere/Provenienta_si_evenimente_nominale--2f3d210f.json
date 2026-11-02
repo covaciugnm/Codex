@@ -1,0 +1,166 @@
+{
+  "schema": "eva.audit.r6.historical-supplement.v1",
+  "utc": "2026-11-02T17:07:09.681797+00:00",
+  "cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "provenance": [
+    {
+      "path": "Documentatie/audit-2026-10-08/00_RAPORT_A73_INVERS.md",
+      "history_until_cutoff": [
+        {
+          "commit": "238d4ec19f6424b4dc02347056dbc0b68d32851e",
+          "commit_timestamp": "2026-10-08T17:14:49+03:00",
+          "blob": "4efad130e36d87d9eced2c8347e84a303301965a"
+        }
+      ]
+    },
+    {
+      "path": "Documentatie/audit-2026-10-08/00_RAPORT_A74_MODULE.md",
+      "history_until_cutoff": [
+        {
+          "commit": "238d4ec19f6424b4dc02347056dbc0b68d32851e",
+          "commit_timestamp": "2026-10-08T17:14:49+03:00",
+          "blob": "a480eaa2812c74d09a2b00622d1b87470bbc3182"
+        }
+      ]
+    },
+    {
+      "path": "Documentatie/audit-2026-10-08/A75_AUDIT_INVERS.md",
+      "history_until_cutoff": [
+        {
+          "commit": "238d4ec19f6424b4dc02347056dbc0b68d32851e",
+          "commit_timestamp": "2026-10-08T17:14:49+03:00",
+          "blob": "a17f64357140318a1525d8fa966364b596ff2eee"
+        }
+      ]
+    },
+    {
+      "path": "Documentatie/audit-2026-10-08/A76_AUDIT_MODULE.md",
+      "history_until_cutoff": [
+        {
+          "commit": "238d4ec19f6424b4dc02347056dbc0b68d32851e",
+          "commit_timestamp": "2026-10-08T17:14:49+03:00",
+          "blob": "aecb932f649d09e4a46427454ac2f9be7bf42ac5"
+        }
+      ]
+    },
+    {
+      "path": "Documentatie/audit-2026-10-08/INVENTAR_IDEMPIERE_SAGA_EVA_2026-10-08.xlsx",
+      "history_until_cutoff": [
+        {
+          "commit": "238d4ec19f6424b4dc02347056dbc0b68d32851e",
+          "commit_timestamp": "2026-10-08T17:14:49+03:00",
+          "blob": "266cb17d2f94812f58034ef309750aec28683d20"
+        },
+        {
+          "commit": "603dc6ed8e60c319f87fde489fe1dcdf0f562250",
+          "commit_timestamp": "2026-10-08T14:18:21+03:00",
+          "blob": "24239a545a913f71bbe79f00450717b496df8604"
+        }
+      ]
+    },
+    {
+      "path": "tools/inventar_idempiere_saga_eva/invers_idempiere_saga.csv",
+      "history_until_cutoff": [
+        {
+          "commit": "238d4ec19f6424b4dc02347056dbc0b68d32851e",
+          "commit_timestamp": "2026-10-08T17:14:49+03:00",
+          "blob": "0135d3d71714d811bd82984010c4524673420ed8"
+        }
+      ]
+    },
+    {
+      "path": "tools/inventar_idempiere_saga_eva/module_idempiere.csv",
+      "history_until_cutoff": [
+        {
+          "commit": "238d4ec19f6424b4dc02347056dbc0b68d32851e",
+          "commit_timestamp": "2026-10-08T17:14:49+03:00",
+          "blob": "64fed4cb25bacb8fa80cc4de3e638918f1df424b"
+        }
+      ]
+    }
+  ],
+  "observation": "Commit 238d4ec19f6424b4dc02347056dbc0b68d32851e este ultima modificare înainte de cutoff pentru originalele A73–A76 și cele două CSV-uri; toate au bloburi identice cu documentele citite. Data commitului este 08.10.2026 17:14:49 +03:00, dar chiar textul A76 din acel blob spune 17:20. Păstrează diferența de 5m11s; nu deduce ordinea reală a evenimentelor sau timestampul închiderii P01 din această contradicție.",
+  "criteria_for_A12": [
+    {
+      "id": "T110-R3-001",
+      "result": "CONFIRMAT_DOCUMENTAR",
+      "evidence": "Subtotalurile 198+326, 138+25+361, 524 ID-uri în ambele direcții și fiecare rând în XLSX/CSV, inclusiv referințele de meniu; cu limita documentară SAGA/EVA din nota principală."
+    },
+    {
+      "id": "T111-R3-001",
+      "result": "CONFIRMAT_PENTRU_378_FUNCȚII_227_MODULE; BENEFICIUL_EXPLICIT_PENTRU_FIECARE_RÂND_RĂMÂNE_PARȚIAL",
+      "evidence": "Toate cele 378 au nume de funcție și Observații nevidă, dar schema nu are o coloană Beneficiu sau Rezultat de utilizare. La exemplele indicate nota identifică doar starea; titlul poate sugera beneficiul fără a-l explica. Nu acorda un verdict global pentru beneficiu explicit 378/378 doar din numărătoare.",
+      "examples": [
+        {
+          "cell": "G254",
+          "module": "Stocuri și logistică",
+          "function": "Inventar perpetuu (Perpetual Inventory)",
+          "observations_exact_excerpt": "fereastra inactivă pe q31"
+        },
+        {
+          "cell": "G301",
+          "module": "POS",
+          "function": "Web POS (Web POS Terminal / Menu / Properties)",
+          "observations_exact_excerpt": "ferestre inactive pe q31"
+        },
+        {
+          "cell": "G376",
+          "module": "BOMDrop Configurator",
+          "function": "Configurator de produs peste BOM Drop",
+          "observations_exact_excerpt": "nefolosit"
+        }
+      ],
+      "all_observations_nonempty": 378
+    }
+  ],
+  "new_nominal_observations": [
+    {
+      "technical": "T262",
+      "canonical": "P01.C13.T0011",
+      "event_time": "2026-10-20T09:34:46+03:00",
+      "first_dated_final_registry_observation": "2026-10-20T23:05:28+03:00",
+      "scope": "Eveniment nominal de eliberare cu motiv ce începe «anulat», înregistrat pentru proiectul P01 și acest task. Dovadă că anularea era consemnată la momentul eliberării; ora tranziției efective în registru nu este specificată.",
+      "related_predecessor_or_successor_named": "P01.T261",
+      "event_row": 356,
+      "row_sha256": "85a4238ffda3aea7523de02d81b060ab103e0a77b84bf833fc21cd1a3bea9891",
+      "earlier_observation_seconds": 48642.0,
+      "decision": "STRÂNGE_LIMITA_SUPERIOARĂ; NU PROMOVEAZĂ O DATĂ EXACTĂ"
+    },
+    {
+      "technical": "T367",
+      "canonical": "P01.C13.T0028",
+      "event_time": "2026-10-30T13:29:05+02:00",
+      "first_dated_final_registry_observation": "2026-10-30T23:40:06+02:00",
+      "scope": "Eveniment nominal de eliberare cu motiv ce începe «anulat», înregistrat pentru proiectul P01 și acest task. Dovadă că anularea era consemnată la momentul eliberării; ora tranziției efective în registru nu este specificată.",
+      "related_predecessor_or_successor_named": "P01.T372",
+      "event_row": 679,
+      "row_sha256": "23141a2b1446dd79978b469e468f27b25629ac50e6c58ccb530a69af46cb24b0",
+      "earlier_observation_seconds": 36661.0,
+      "decision": "STRÂNGE_LIMITA_SUPERIOARĂ; NU PROMOVEAZĂ O DATĂ EXACTĂ"
+    }
+  ],
+  "unpromoted_quality_event": {
+    "technical": "T58",
+    "source": "00_LOG_PROBLEME_CALITATE.jsonl:35",
+    "why": "Închis este starea unei probleme de calitate, iar taskul are stare agregat. Nu datează închiderea taskului."
+  },
+  "privacy": "Nu au fost copiate logurile, comentariile și notele integrale. Numai registrele de proveniență, referințe locale și rezultate punctuale.",
+  "requests": [
+    "Inserează dovezile noi doar în R6 pentru cele două criterii și pentru cele două limite superioare.",
+    "Păstrează separat datele auditului istoric, observația de statut și data exactă a finalizării P01."
+  ],
+  "bound_artifacts": [
+    [
+      "T110_T111_documentar.json",
+      "0aa1d41674d7ba0102873239e3cb2d1298bc154d91c263b5e2aca81438a6badb"
+    ],
+    [
+      "T110_T111_randuri_corelationate.json",
+      "4ca5b7fb8be72aa81267f1c51ecb9d5705676ed93a57e58d641546b77bcc803d"
+    ],
+    [
+      "Cautare_evenimente_244.json",
+      "089d1470aab8e8688c6bc6ccd52710ecdd629d6eff3bb863b6875d57263b2a9f"
+    ]
+  ]
+}

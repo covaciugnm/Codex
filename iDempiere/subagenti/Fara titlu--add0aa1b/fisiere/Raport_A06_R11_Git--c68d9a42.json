@@ -1,0 +1,52 @@
+{
+  "title": "R11. Importul liniilor de comandă şi izolarea vânzătorului",
+  "commit": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "base": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "when": "2026-11-02T21:33:23.312083+00:00",
+  "gate": {
+    "plan": "676bb5437b47c66835c842b6909e288ccd916388272d69d541d823b36a887edd",
+    "gate": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14",
+    "jar": "82099cd7f436a8fb4d532d8a46b83c62ae0e0176d86d9345c08598299d01d558",
+    "source": "2fe90ed3f128c33dff7cf9f8674e664a70679390"
+  },
+  "finding_files": [
+    "A06.GIT.1.json",
+    "A06.GIT.2.json",
+    "A06.GIT.3.json"
+  ],
+  "physical_file_records": [
+    "Fisa_ValideazaComenzi.json",
+    "Fisa_DetaliuComanda.json",
+    "Fisa_ValidareComanda.json",
+    "Fisa_PreiaDinSite.json",
+    "Fisa_SursaCesiro1.json"
+  ],
+  "counts": {
+    "new_hypotheses_executed": 3,
+    "partial_file_records": 5,
+    "unique_observations_each_JVM": 22,
+    "identical_replays": 4,
+    "full_runtime_erp": 0,
+    "operational_writes": 0,
+    "product_scores": 0
+  },
+  "results": [
+    "1. FAIL SQL/DAO plus validare: inactivul şi clientul străin sub părinte admis sunt vizibile şi actualizabile în ramura EXCLUS; nu se atribuie documente ERP.",
+    "2. FAIL condițional la decizia V02 în caz de conflict; snapshot și GET nu sunt reconciliate. Martorii de control funcționează, iar autoritatea după o schimbare de vânzător rămâne de stabilit.",
+    "3. Timestamp fără offset pierde ora în parser. Contractul CESIRO1 observat emite timestamptz cu fus; nu este un defect confirmat de canal."
+  ],
+  "provenance": [
+    "HEAD Git pin bazat pe master la momentul fixării; nu este starea instalată de producție şi nu modifică R10.",
+    "Testele au folosit doar PG16/JVM locale pe date sintetice. Clasa DB de laborator acceptă o singură formă de interogare și o execută prin JDBC; procesul complet nu rulează. Instrucțiunea UPDATE a fost extrasă verbatim din ramura EXCLUS, executată în tranzacție și verificată după rollback.",
+    "Pentru reproducere: repro/INSTRUCTIUNI.txt. Cheile de business ale cazurilor C20/Q nu sunt reutilizate pentru aceste rezultate."
+  ],
+  "cleanup": {
+    "owned_pg_stopped_or_never_started": true,
+    "cluster_directory_absent": true,
+    "pwfile_removed": true,
+    "external_calls": 0,
+    "erp_cabinets_or_slots": 0
+  },
+  "additional_teardown": "Inclusiv folderul primei încercări Windows/pg_ctl a fost restituit; niciun folder isolated-pg-* nu exista la sigilare.",
+  "peer_status": "A11/A01/A02/A07/A08 în așteptare. Fără punctaj propriu."
+}

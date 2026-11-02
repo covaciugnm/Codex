@@ -1,0 +1,209 @@
+{
+  "utc": "2026-11-02T18:36:34.822155+00:00",
+  "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "reviewer": "A03",
+  "round": 9,
+  "queue": {
+    "global_executable": 177,
+    "A03_executable_remaining_at_R8": 126,
+    "rows_exercised_from_this_queue": 5,
+    "separate_A11_reopened_case": 1
+  },
+  "R8_immutable": {
+    "file": "executie/R8_pregatire/A03/Registru_A03_R8_final.json",
+    "sha256": "7bdfc31bf06daed0f4f1c7bc19250981c787bf1cdbe13a677f63cf5ee9420e4d",
+    "bytes": 423978
+  },
+  "method_inputs": [
+    {
+      "file": "Coada_reverificari_P01_R8.json",
+      "sha256": "63ad608e4639846cd21c9cb8621ce165eef2d42645b2a27c7ec1cbfc93618486",
+      "bytes": 1902717
+    },
+    {
+      "file": "executie/A11_control_A12_R8.json",
+      "sha256": "3b95e64a91a2031d325155847a42c18b9e3a05e7adacbb344981051ca8784be0",
+      "bytes": 29050
+    },
+    {
+      "file": "executie/A11_control_suplimente_R7_R8.json",
+      "sha256": "c366e8657d346b2ef52127b9a4249a91850b50b02733bae3bb0f9bb639ccaa95",
+      "bytes": 11945
+    }
+  ],
+  "observations": [
+    {
+      "criterion": "T159-R2-050",
+      "original_requirement": "C-47: 0 verdicte MUTA/TEXT reclasificate față de triajul înghețat. Caz redeschis separat de A11 după R8.",
+      "r9_scope": "ORACOLUL_CLI_CONFIRMAT_PROTECȚIA_COPIEI_RESPINSĂ_MIGRARE_PARȚIAL_TRASATĂ",
+      "observed": "Triajul are 3028 rânduri înainte și 2845 la HEAD. Toate cele 302 perechi protejate dispar ca identități exacte. Nu există nici un text neschimbat trecut în triajul nou doar sub alt nume de fișier. În șase muchii comit–prim părinte ale ramurilor s-au identificat disparițiile tuturor celor 302. În 233 din fișierele-sursă ale perechilor (perechi numărate, nu 233 fișiere distincte) se găsește cel puțin un nume-țintă; pentru 69 nu se găsește. Trei trasee funcționale sunt documentate pentru D100, eTVA și D230.",
+      "negative_or_contrasting_test": "Copie identică: ambele gărzi acceptă. La o copie din care se scoate o singură pereche, CLI original rc 0, garda de conservare rc 1. Editarea valorii reintroduse MUTA în TEHNIC dă rc 1 original; în TEXT rămâne rc 0. Redenumirea sintetică a unui fișier pierde perechea pentru garda strictă, dar CLI acceptă.",
+      "dependency_to_expand": "Pentru echivalență de calcul pe toate cele 302 trebuie validată funcția care consumă fiecare valoare, data și comportamentul la lipsă. 233 apariții de nume în același fișier nu dovedesc migrarea a 233 apeluri. Ramurile nu sunt însumate ca evenimente distincte.",
+      "accounting_effect": "D230: din corpurile Git, formula selectează registrul după 31 decembrie; valori sintetice 3,5 și 4,25, opțiunea explicită 2 păstrată, parametru lipsă propagat. Pentru D100 și eTVA traseul către parametru este static. Nu există declarație fiscală depusă.",
+      "display_effect": "D230: denumirea și nota răspunsului arată procentul din registru, chiar dacă valoarea opțiunii explicite este diferită. Nu este un ecran ZK sau o captură.",
+      "evidence": [
+        {
+          "file": "executie/R9_pregatire/A03/T159_R2_050_traseu.json",
+          "sha256": "a7b37f91a3659ab517b29f669edfcbd1d2638a520a2fe91656ab1bf9d75c2789",
+          "bytes": 332315
+        },
+        {
+          "file": "executie/R9_pregatire/A03/T159_inlocuiri_si_D230.json",
+          "sha256": "7d6669b1fb338ee9840d0799d1c1f8b890dc6adf711885fe3055fe12fe2f6c78",
+          "bytes": 7739
+        }
+      ]
+    },
+    {
+      "criterion": "T58-R2-007",
+      "original_requirement": "C-06 — A-1 | «simularea din portal» = aceeași cerere REST pe care o trimite proxyul | `git show HEAD:frontend/app.py | sed -n 2453p` + C-04 cu exact corpul cererii portalului | proxy fără logică proprie; refuz identic | export + clonă",
+      "r9_scope": "SUBCONDIȚIE_PROXY_EXECUTATĂ_ERP_NEREEXECUTAT",
+      "observed": "Ruta Flask originală la SHA fix primește corpul exact din anexă, păstrează datele și operația VC și transmite firma 99999958 și timeout 600. Refuzul sintetic este transmis neschimbat.",
+      "negative_or_contrasting_test": "Firma 99999959 cu altă perioadă se transmite separat. Fără cookie se răspunde 302 și nu se cheamă transportul; la timeout răspunsul este 504.",
+      "dependency_to_expand": "Verificarea identică a refuzului contabil cere serviciu ERP real în situația AMORT neefectuată.",
+      "accounting_effect": "Nu s-au calculat/determinat note. Nu rezultă din transport că ar fi apărut ori lipsit un jurnal.",
+      "display_effect": "Rută Flask și decorator real, autentificarea de serviciu este simulată. Nicio captură browser.",
+      "evidence": [
+        {
+          "file": "executie/R9_pregatire/A03/T58_proxy_intrare.json",
+          "sha256": "98987e1003fd6a499c373cdb6cf0454e7ed67a1992b5502d3e5d05f94cce41ff",
+          "bytes": 4148
+        }
+      ]
+    },
+    {
+      "criterion": "T58-R2-008",
+      "original_requirement": "C-06b — A-1 | (A) calea portalului rulată efectiv: cererea R-NEG prin proxy-ul `/app/api/operare/…` | 12a §A5 R-A pe containerul portalului (R-B0) + SELECT-ul din C-04 | același refuz `t58.ord.refuz`; 0 | container",
+      "r9_scope": "SUBCONDIȚIE_TRANSPORT_REPRODUSĂ_LANȚ_ISTORIC_DELIMITAT",
+      "observed": "R-NEG a trecut prin endpointul efectiv al portalului la HEAD. A fost folosit corpul exact din proba originală, nu un DTO inventat. Anexa de la 1358b7329a conține separat refuzul nativ și interogarea istorică pentru zero note.",
+      "negative_or_contrasting_test": "Timeout verificat la limita transportului; firma și corpul sunt observate la ieșirea din Flask. Schimbarea răspunsului mock schimbă rezultatul fără a spune nimic despre registrul contabil.",
+      "dependency_to_expand": "Procesul iDempiere și SELECT post-cerere în aceeași execuție și firmă lipsesc în R9.",
+      "accounting_effect": "Nu atribui 0 note GL perioadei curente.",
+      "display_effect": "Ruta /app este exercitată cu client Flask, fără UI interactiv.",
+      "evidence": [
+        {
+          "file": "executie/R9_pregatire/A03/T58_proxy_intrare.json",
+          "sha256": "98987e1003fd6a499c373cdb6cf0454e7ed67a1992b5502d3e5d05f94cce41ff",
+          "bytes": 4148
+        }
+      ]
+    },
+    {
+      "criterion": "T156-R2-010",
+      "original_requirement": "C-7 — A-3 / RZ-3 | jurnalul: +1 rând de mutare (utilizator, data / ora, A, B, perioada, numărul rândurilor) + câte un rând-copil per înregistrare mutată (identitatea ei + contul vechi) | `Q-JRN` + numărul copiilor = `Q-A-IN` înainte (al treilea câmp) | +1; copii = n | clonă",
+      "r9_scope": "DELTA_ANTET_DOVEDIT_NUMĂR_COPII_NEDEMONSTRAT",
+      "observed": "În execuția implementatorului sunt 29 rânduri A și jurnalul trece 0→1. În fotografiile primare ale auditorului sunt 28 rânduri A și jurnalul trece 6→7. În ambele ΔB (debit, credit, număr) este exact vectorul A inițial. Fișa rezumativă C-7 a auditorului arată însă 29 rânduri și 0→1.",
+      "negative_or_contrasting_test": "Control relational sintetic cu 28 apoi 27 copii; interogarea originală Q-JRN returnează 1 în ambele cazuri; numărarea copiilor distinge stările.",
+      "dependency_to_expand": "Identități distincte tabel/document/linie și contul vechi pentru fiecare copil al evenimentului real, plus actor, dată, conturi și perioadă.",
+      "accounting_effect": "Reconciliere istorică pe două scenarii. Nu s-a mutat nicio înregistrare în R9.",
+      "display_effect": "Fotografii text ale datelor din două rulări istorice; nu există click relansat.",
+      "evidence": [
+        {
+          "file": "executie/R9_pregatire/A03/T156_R2_010_jurnal.json",
+          "sha256": "df79c3b98f6869143810a74a6d44eb1f54693bc1f9df36ab78c721798de7e2f2",
+          "bytes": 4532
+        }
+      ]
+    },
+    {
+      "criterion": "T256-R2-001",
+      "original_requirement": "K-01 — C0-01 | integrabilitate la predare și la fiecare verdict | `git -C W merge-tree --write-tree master V; echo rc=$?` + `git -C W rev-parse --short master` | `rc=0` | depozit",
+      "r9_scope": "TREI_PERECHI_ISTORICE_RECALCULATE_PREDARE_INCOMPLET_ANCORATĂ",
+      "observed": "Git merge-tree returnează rc 0 pentru be7279cc24/2e20fce5a7, 4eb0274efb/5d8e2c8777 și 371a520fdb/5d8e2c8777. Arborii rezultați sunt în anexă.",
+      "negative_or_contrasting_test": "Un fișier modificat diferit pe două ramuri sintetice cu strămoș comun produce conflict adevărat, rc 1.",
+      "dependency_to_expand": "O pereche concretă de ref-uri master/V pentru fiecare predare și verdict rămas; nu inferați ref-urile istorice din HEAD curent.",
+      "accounting_effect": "Acest test măsoară integrabilitatea Git; nu validează date fiscale.",
+      "display_effect": "Nu este un flux de interfață.",
+      "evidence": [
+        {
+          "file": "executie/R9_pregatire/A03/T256_R2_001_merge.json",
+          "sha256": "7be59648898cc4ee5404495d094804b87f1edd07bcf44a775f1c1017dd30f57e",
+          "bytes": 1732
+        }
+      ]
+    },
+    {
+      "criterion": "T256-R2-023",
+      "original_requirement": "K-23 — C0-23 | planul pe șablon | `valideaza --auto-audit --faza plan --catalog <(master)` | `rc=0` | depozit",
+      "r9_scope": "CONFORM_STRUCTURĂ_CATALOG_ACTUAL_ȘI_POST_X191_NECORELARE_ANTET",
+      "observed": "Planul validat cu catalogul de după introducerea X191 la 10:40:06, cu masterul R1 de la 12:34 și cu cel actual obține rc 0. Rezultatul reproduce 79 ID-uri și o rundă. Catalogul din antet, MD5 8c716e7e9f0332a62385bbb06897522e, nu avea X191; același plan dă rc 1 cu acel catalog. Ora din antet (10:40) are numai precizie de minut.",
+      "negative_or_contrasting_test": "Eliminarea din copia planului a unei linii X necesare provoacă rc 1 pe cele trei cataloage care acceptă originalul. Controlul cu masterul vechi folosește același blob ca MD5 din antet; nu este o a doua confirmare independentă.",
+      "dependency_to_expand": "Pentru identificarea catalogului exact utilizat la verificarea de la 12:11 este necesar hashul comenzii/rulării de la acel moment. Se propune corelarea MD5-ului antetului cu catalogul folosit.",
+      "accounting_effect": "Control documentar. Nicio concluzie privind D394 calculată sau depusă.",
+      "display_effect": "Nu este un test al interfeței.",
+      "evidence": [
+        {
+          "file": "executie/R9_pregatire/A03/T256_R2_023_validator.json",
+          "sha256": "9f5e2e70736150aadcea1f777826d047ca7ca33d2901155c7e15c162ecf89ce8",
+          "bytes": 13779
+        }
+      ]
+    }
+  ],
+  "sources_and_artifacts": [
+    {
+      "file": "executie/R9_pregatire/A03/T159_R2_050_traseu.json",
+      "sha256": "a7b37f91a3659ab517b29f669edfcbd1d2638a520a2fe91656ab1bf9d75c2789",
+      "bytes": 332315
+    },
+    {
+      "file": "executie/R9_pregatire/A03/T159_inlocuiri_si_D230.json",
+      "sha256": "7d6669b1fb338ee9840d0799d1c1f8b890dc6adf711885fe3055fe12fe2f6c78",
+      "bytes": 7739
+    },
+    {
+      "file": "executie/R9_pregatire/A03/T58_proxy_intrare.json",
+      "sha256": "98987e1003fd6a499c373cdb6cf0454e7ed67a1992b5502d3e5d05f94cce41ff",
+      "bytes": 4148
+    },
+    {
+      "file": "executie/R9_pregatire/A03/T156_R2_010_jurnal.json",
+      "sha256": "df79c3b98f6869143810a74a6d44eb1f54693bc1f9df36ab78c721798de7e2f2",
+      "bytes": 4532
+    },
+    {
+      "file": "executie/R9_pregatire/A03/T256_R2_001_merge.json",
+      "sha256": "7be59648898cc4ee5404495d094804b87f1edd07bcf44a775f1c1017dd30f57e",
+      "bytes": 1732
+    },
+    {
+      "file": "executie/R9_pregatire/A03/T256_R2_023_validator.json",
+      "sha256": "9f5e2e70736150aadcea1f777826d047ca7ca33d2901155c7e15c162ecf89ce8",
+      "bytes": 13779
+    }
+  ],
+  "reproduction": [
+    {
+      "file": "executie/R9_pregatire/A03/reproducere/a03_r8_base.py",
+      "sha256": "bfb7e4d352d2f91f61388affad1bf5e0662dbc7ef3ece3992fd0e82a06091125",
+      "bytes": 2339
+    },
+    {
+      "file": "executie/R9_pregatire/A03/reproducere/a03_r9_examples.py",
+      "sha256": "4cd4290bedd9312858da2e18232a6a15997401f4346722ebf167a1a024b57ed5",
+      "bytes": 4566
+    },
+    {
+      "file": "executie/R9_pregatire/A03/reproducere/a03_r9_finish.py",
+      "sha256": "c916ca0f4c399f2338a3281f9967fcc7b2d4ea7e0ac8de1d3b5a4135aa939f9e",
+      "bytes": 8625
+    },
+    {
+      "file": "executie/R9_pregatire/A03/reproducere/a03_r9_other.py",
+      "sha256": "fd19bf74d1d56ca8aa4deee606eadbb947bd30604a1ebdde6ede881d656920b7",
+      "bytes": 8772
+    },
+    {
+      "file": "executie/R9_pregatire/A03/reproducere/a03_r9_proxy.py",
+      "sha256": "6bb4b6cdf38255e5a52db2c10fe82788a962aa89d6808760585dc93fbe31e71b",
+      "bytes": 4240
+    },
+    {
+      "file": "executie/R9_pregatire/A03/reproducere/a03_r9_trace.py",
+      "sha256": "e71216b3f091d1eebfda4150283b99475430a5cfda78262a4e825a57aebf1a8c",
+      "bytes": 8084
+    }
+  ],
+  "runtime": "Niciun cabinet și nicio conexiune productivă. Arhive Git, comparer, Flask în proces local cu IP blocat, SQLite în memorie și repo Git temporar distrus automat după testul merge-tree. Nu s-a pornit PostgreSQL.",
+  "grading": "Decizia A11 pentru R9 rămâne independentă. Rezultatele parțiale și defectele de documentație nu se traduc în notă de produs."
+}

@@ -1,0 +1,29 @@
+{
+  "subject": [
+    "EX04",
+    "EX05"
+  ],
+  "subject_hashes": {
+    "EX04": "1e60138c88ba48115f5d7c5cb0b239c7a0ecee33fd986e16315feb7b9c513f20",
+    "EX05": "ccef80210b8570ca094c5249704e74141e7dfe49a0b8534205105303a352073b"
+  },
+  "utc": "2026-11-02T16:48:29.065467+00:00",
+  "owner": "eva-contab-codex-p01ex05r1",
+  "cubicle": "P01.T220 GardenWorld synthetic",
+  "server_clean_report": [
+    "webui=200 clone_ip=10.250.15.3",
+    "remaining_owned_containers=0",
+    "2026-11-02T18:47:51+02:00",
+    "CLEANED",
+    "eliberat: suita~eva-contab-codex-p01ex05r1~P01.T220~3674377~1793637217",
+    "0",
+    "0",
+    "ephemeral-secrets-removed"
+  ],
+  "ended_fixture_databases": [
+    "cesiro_ex_c8fe56c6",
+    "cesiro_ex_5749dfd6"
+  ],
+  "still_existing": 0,
+  "other_database": "A08 synthetic a08_cesiro read-only: original fixture preserved, no changes from A06 gateway."
+}

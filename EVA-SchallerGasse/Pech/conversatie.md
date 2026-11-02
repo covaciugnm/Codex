@@ -2,7 +2,7 @@
 
 ID: `01a17d72-f016-7252-8121-a17345dfc047`  
 Proiect: EVA-SchallerGasse  
-Export UTC: 2026-11-02T15:26:35.221418+00:00
+Export UTC: 2026-11-02T21:26:40.664214+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -506,4 +506,23 @@ Am verificat scrisoarea originală MA37 transmisă de Capra. Autoritatea permite
   <automation_id>check-email-pech</automation_id>
   <decision>NOTIFY</decision>
   <message>MA37 permite consultarea dosarului. Capra poate cere acum verificarea exemplarului vizat Parie C înainte de programare.</message>
+</heartbeat>
+
+## Utilizator
+
+<heartbeat>
+  <automation_id>check-email-pech</automation_id>
+  <current_time_iso>2026-11-02T21:14:47.401Z</current_time_iso>
+  <instructions>
+Verifică emailurile pentru noutăți privind PECH și proiectul Schallergasse 35, 1120 Wien. Începe cu folder map/README.md, inventarul și cele mai recente registre și statusuri din D:\00. Downloads\Apartamente Viena\00. Cladire 1 Schallergasse 35, 1120 Wien (Meidling). În Eva-Mail verifică mesajele primite și trimise din office@ac-wohnart.at și covaciu.gnm@gmail.com; caută global după zt-pech.at, office@zt-pech.at, sekretariat@zt-pech.at, ployer@zt-pech.at, Bernhard Ployer, Schallergasse și referințele ofertelor/contractelor PECH. Include notificările de nelivrare pentru mesajele către PECH. Caută de la ultima verificare cu suprapunere de o zi, verifică ultima sincronizare a căsuțelor, paginează rezultatele și compară ID-urile cu arhiva și verificările generale pentru a evita raportarea repetată. Citește integral mesajele noi relevante și originalele pentru sume, termene și decizii. Salvează mesajele și atașamentele relevante cu dată, subiect, expeditor, destinatari, CC, ID Eva-Mail și statut primit/trimis/draft; păstrează originalele și versiunile istorice. Folosește YYYY.MM.DD la începutul numelor documentelor noi și în rezumate. Actualizează jurnalul proiectului și jurnalul PECH cu status scurt, ultimul răspuns, următorul pas și sursă, apoi indexul incremental. Prezintă în română numai noutățile relevante: răspunsuri, observații contractuale, contrapropuneri, prețuri, servicii, termene, programări, atașamente și acțiuni necesare, cu surse. Dacă nu există noutăți, consemnează concis acest lucru și limitele sincronizării. Distinge draftul de mesajul trimis, trimiterea de confirmarea primirii, oferta de contractul acceptat și invitația de întâlnirea efectuată. Continuă verificările până la oprirea explicită de către utilizator. Nu trimite emailuri, nu modifica documente comerciale, nu semna contracte și nu efectua plăți.
+  </instructions>
+</heartbeat>
+
+
+## Asistent
+
+<heartbeat>
+  <automation_id>check-email-pech</automation_id>
+  <decision>DONT_NOTIFY</decision>
+  <message>2026.11.02, 23:17: niciun răspuns nou de la PECH și nicio nelivrare către PECH. Ciorna de amânare rămâne netrimisă; întâlnirea din 2026.11.03 nu este confirmată. Ultima sincronizare: office 23:00, Gmail 21:08, ora României.</message>
 </heartbeat>

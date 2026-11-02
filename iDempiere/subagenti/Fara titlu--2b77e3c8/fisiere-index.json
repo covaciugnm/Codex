@@ -26,5 +26,68 @@
     "saved_path": "fisiere/A08_raport--bce803fa.json",
     "bytes": 107246,
     "sha256": "2b01142eeec982c6e75b3b3f43b27100579af4f2edcfa3c7d218be5c21a51bf8"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R2_zone/A08/A08_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A08_raport--56c836cf.json",
+    "bytes": 126243,
+    "sha256": "7b3af4169f25a6b3aee05965c0a7b5904ef645cc452e1042adedb92c04a873ff"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R3_zone/A08/A08_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A08_raport--34d93685.json",
+    "bytes": 217722,
+    "sha256": "9ad85559dc071920d0bb7bd75720489da621fd2beba14d7c9ea0da235ce823d0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R3_zone/A08/Erata_F03_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Erata_F03_R3--1dcf52ed.json",
+    "bytes": 10866,
+    "sha256": "a890da467d7ff274c9338e7d8051eab58ae9d5b31f274545edc1de772bb7320d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R3_zone/A08/Manifest_erata_F03_R3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/Manifest_erata_F03_R3--e144b46f.json",
+    "bytes": 9985,
+    "sha256": "7f0728f5fd90ab035cb37e6022ccd171093398e12253d38fc5e028626e0517da"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX02_peer_A08.json",
+    "status": "copiat",
+    "saved_path": "fisiere/EX02_peer_A08--ae0c0328.json",
+    "bytes": 6990,
+    "sha256": "0947e3ac27dc16841b9c11560a01f6db15911c5427d0fe3c4cb68a34b1dfcce0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX03.json",
+    "status": "copiat",
+    "saved_path": "fisiere/EX03--4109eaff.json",
+    "bytes": 21821,
+    "sha256": "8b291ebb7f75afcae83a6d9f7606f5b016e3a9594b302d0f4320fe0a4ce9dfb7"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX06.json",
+    "status": "copiat",
+    "saved_path": "fisiere/EX06--53902288.json",
+    "bytes": 25580,
+    "sha256": "9ee27f74ef867752f896ef4f54426c336f12ae23654a4f90e93956e461b5d945"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX06_erratum_A08.json",
+    "status": "copiat",
+    "saved_path": "fisiere/EX06_erratum_A08--b957fdf5.json",
+    "bytes": 16505,
+    "sha256": "1d00f21beb0e69ee459dd3683f0b2298ccbbfb02752bf16773aae28a3fcda983"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\supliment_CESIRO1\\probe\\EX06_C_360_ro.png",
+    "status": "copiat",
+    "saved_path": "fisiere/EX06_C_360_ro--fe605be9.png",
+    "bytes": 29739,
+    "sha256": "70830ecfa719f91c3c1d1e746d27ec4fc725a5f42febbcff955c55846fb281dd"
   }
 ]

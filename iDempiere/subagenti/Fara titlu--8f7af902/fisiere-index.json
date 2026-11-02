@@ -1,0 +1,142 @@
+[
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A06_oracole_postR8.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A06_oracole_postR8--6bae34f4.json",
+    "bytes": 6669,
+    "sha256": "f7e24915399e59a94cefe9611d839749530178747799f71c44be24a9308e5cf0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R10--626098a3.json",
+    "bytes": 31370,
+    "sha256": "b82db1fe2f1becc076faec9cc51579d7b652498d9d64ca0eb9405b49c96e5600"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R8.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R8--85b62669.json",
+    "bytes": 29050,
+    "sha256": "3b95e64a91a2031d325155847a42c18b9e3a05e7adacbb344981051ca8784be0"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_A12_R9.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_A12_R9--21d088f4.json",
+    "bytes": 29002,
+    "sha256": "5d621f45b8a950488219056223b80f80f37041de67da657a6f5ac510fbf07209"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_R9_882_pointeri.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_R9_882_pointeri--e41695ed.json",
+    "bytes": 11207,
+    "sha256": "56c63710546f928b002de9478ac535d4d80c684de111561e8233148db0e14c23"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_T04_06_oracol_R8.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_T04_06_oracol_R8--076a5674.json",
+    "bytes": 6379,
+    "sha256": "56458e22a15b5f4aa0cb588da97b21dd9d5ba36d9323f96e6aad4d4a76f4d4d9"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_cititori_T216_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_cititori_T216_R10--c7e0eff4.json",
+    "bytes": 1742,
+    "sha256": "4105d8ec341f73b56b7f3677a44e670a85f292099fdb834c4ce985c6b27c7609"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_A05_R9.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_A05_R9--5054bca2.json",
+    "bytes": 4264,
+    "sha256": "388f566748234367673b48dd112b58d424ef40463c29f7b66371d3e645110a9c"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_G3_C20_postR9.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_G3_C20_postR9--72114641.json",
+    "bytes": 3246,
+    "sha256": "462da69ec92ecf955548f78ad99a65f5ee8bf3477b8285c18ef240bd527d9319"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_T06_UX_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_T06_UX_R10--871a861b.json",
+    "bytes": 1261,
+    "sha256": "e4eac1e6712360c1940f33b3e50a323424cc306caa61165799deae33d61a0d9f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_T216_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_T216_R10--884a5117.json",
+    "bytes": 2732,
+    "sha256": "3c1c56a04ec0a9babe3fa6debe8293d9a17d91e0cf62c67f9e6b6d9603958c67"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_supliment_T329_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_supliment_T329_R10--4f6c7066.json",
+    "bytes": 1959,
+    "sha256": "fe2fcfbe25f075a8cb8670176be3796373de9d3f3e18c8230d35b24838321a11"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_suplimente_R7_R8.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_suplimente_R7_R8--f03a995a.json",
+    "bytes": 11945,
+    "sha256": "c366e8657d346b2ef52127b9a4249a91850b50b02733bae3bb0f9bb639ccaa95"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_control_suplimente_R9_A03_177_CESIRO1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_control_suplimente_R9_A03_177_CESIRO1--44db7c9f.json",
+    "bytes": 8381,
+    "sha256": "5b393c7775d1b527f2d29fc5a78b6c69dc40be4c2cefa1922b0cb63eec4003e2"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_dispozitii_C03_C10_R10.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_dispozitii_C03_C10_R10--6041be6b.json",
+    "bytes": 1148004,
+    "sha256": "96feacb22fc1b068ffea2ab0b93659a48bff92a60c55ac39d709ac4f80543825"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_dispozitii_C03_C10_R8.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_dispozitii_C03_C10_R8--5d6dcaf8.json",
+    "bytes": 1246808,
+    "sha256": "c1d63f529f16ae52abe5347b2f7a1d8fb635637df190844b2d3078e186aa0d10"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_dispozitii_C03_C10_R9.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_dispozitii_C03_C10_R9--4b926e85.json",
+    "bytes": 1101622,
+    "sha256": "25b3a38b82d6ff4e8dba27c0f5470247095c561b0232951d4208836bed9bf93c"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A11_ledger_652_R8.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_ledger_652_R8--56fe06f2.json",
+    "bytes": 3447847,
+    "sha256": "82ab37c4dee63e20866117a8a3072be09a5b75baceea905b9a6773f41af6f380"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta/A11_verdict_plan_delta_R11_v1.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_verdict_plan_delta_R11_v1--8f13fa84.json",
+    "bytes": 26275,
+    "sha256": "da4d587cd15d18904ca07542c4a94b54eb46aa088a0fff948cdda45d20194f47"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R11_plan_delta/A11_verdict_plan_delta_R11_v3.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A11_verdict_plan_delta_R11_v3--70a55d10.json",
+    "bytes": 31366,
+    "sha256": "57b63643abcea8fcb1c716465a9dcb86e9f89a59ec3940d42035df940db2dd14"
+  }
+]

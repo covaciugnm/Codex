@@ -1,0 +1,20 @@
+{
+  "reviewer": "A11",
+  "submission": "R7_pregatire/G3/Combinatii_CPP_S1_S2.json",
+  "input_sha": "77d068975f239f73f61861e23bbd65634c49aacb9a89b5ae569eca8413e070fb",
+  "decision": "ACCEPTAT_COMPONENTĂ_ARITMETICĂ",
+  "scope": "Executat pe ambele JAR-uri fixate. Alocare componentă în memorie, fără DB/rezervare concurentă, ofertă publicată, acțiune gestionar ori vindere fizică. Matricea locală owner/seller folosește valoarea explicită proprie a Q și intrări contrafactuale, nu scrie ERP.",
+  "declared_cases_verified_on_each_build": 16632,
+  "independent_added_reverse_permutations_per_build": 864,
+  "n_case_builds": 2,
+  "new_case": {
+    "input": "351,10,19,60,321",
+    "result": "351,ROSU,REZERVAT,REZERVAT,3,63,63,0,1"
+  },
+  "witness_hash": "aee59c1e46c51bd18f13f238cb0401666d2ae2c15cef60a9fa493f0f37eec610",
+  "source_harness_hash": "cc4c7c1aee12dd52244b3cb51c17c088ee7192f7ed6569e5f8c8396c2e058585",
+  "expected_index_hash": "e9f174160f73efd29c1cb73f2ac75d0e96dec00e7f9195661f2292ec0b000e53",
+  "grade_e2e": null,
+  "credit_to_A06_R4": false,
+  "classification": "Rezervare atomică a liniilor unui grup în memorie. Două JAR-uri nu dublează numărul de scenarii de business; alocarea simultană DB și izolarea canalelor nu sunt testate."
+}

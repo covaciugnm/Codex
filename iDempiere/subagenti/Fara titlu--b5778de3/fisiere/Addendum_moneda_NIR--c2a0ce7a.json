@@ -1,0 +1,243 @@
+{
+  "schema": "eva.A04.NIR.currency-corrigendum.v1",
+  "time_utc": "2026-11-02T17:14:03.700628+00:00",
+  "finding": "A04-F01",
+  "corrects_immutable_source": {
+    "path": "R6_pregatire/ERP/nir/postconfig_A04/rezultat.json",
+    "sha256": "8b8e6e2c31e50677ba3bf1598ca7e0cb1f012c906ff2f8e976bf55893cb62433"
+  },
+  "invoice_db_source": {
+    "path": "R3_zone/A04/moneda-sursa.json",
+    "sha256": "019e031911fb1c0615dd59cdd3f0bb625e885c3457dfe29ae98b2295be193596"
+  },
+  "invoice": {
+    "id": 1000002,
+    "document": "NIR-P01-R6-002",
+    "client": 11,
+    "org": 11,
+    "docstatus": "CO",
+    "currency_id": 100,
+    "ISO_Code": "USD",
+    "TotalLines": "570.0",
+    "GrandTotal": "570.0",
+    "lines": "7×10 USD și 5×100 USD"
+  },
+  "correction": "Afirmația anterioară „370 lei, 530 lei, diferență 160 lei” atribuie în mod greșit moneda RON totalurilor și este înlocuită de observațiile de față. Factura sursă este în USD. În previzualizare, totalurile sunt afișate numeric fără unitate: 370,00 și 530,00. Diferența aritmetică este 160,00 în unitățile prețurilor preluate din liniile facturii USD. Nu există în aceste dovezi un curs, o conversie sau o justificare pentru exprimarea totalurilor în lei.",
+  "observed_currency_label": "Parantezele din rubrica diferențelor conțin literal «lei». Textul vizibil al TOTAL și antetele «Preț unitar», «Valoare» nu indică o monedă. Nici PDF-ul, nici HTML-ul nu afișează un cod ISO USD sau RON. Sumele din rubrica diferențelor reproduc numeric diferențele × prețul din factura USD și poartă o etichetă inconsecventă; linia «Azalea Bush Azalea Bush: -4 Ea (-40,00 lei)» este imprimată în cazul gol/invalid.",
+  "recovery": "În aceeași sesiune ZK: 0 urmat de 3 → 300,00; invalida urmat de 3 → 530,00 fără blocaj; corectarea manuală în formular la 7 și 3 → 370,00. Valoarea zero numerică nu echivalează cu un rând gol. Nu s-a dovedit că operatorul primește vreun avertisment sau îndrumare automată; recuperarea demonstrată este manuală.",
+  "monetary_scope": "Acest caz demonstrează poziționarea greșită a cantităților și eticheta monetară afișată. Nu există dovadă că o sumă de 160 RON/USD a fost postată sau pierdută. Nu a fost emis documentul și nici nu s-a mutat stoc.",
+  "cases": [
+    {
+      "id": "control",
+      "input": "7\n3",
+      "total_cells_exact": [
+        "TOTAL",
+        "370,00"
+      ],
+      "unit_on_total": "nespecificată",
+      "headers_no_currency": [
+        "Preț unitar",
+        "Valoare"
+      ],
+      "visible_html_difference_text": [
+        "Elm Elm Tree: -2 Ea (-200,00 lei)"
+      ],
+      "visible_pdf_lines_with_currency": [
+        "Elm Elm Tree: -2 Ea (-200,00 lei)"
+      ],
+      "ISO_USD_or_RON_visible_in_HTML_or_PDF": false,
+      "role_ui_title_subset": null,
+      "source_links": [
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/control.html",
+          "sha256": "54621ee59a5f891eecab72c26a4ac5287b711aa1155a0a1cebc3ad88221fef27"
+        },
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/control.pdf",
+          "sha256": "029fd24367d977a02d3c392d5d56516ec1d08ee40cef7f228dc8738dbac2b4d7"
+        },
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/obs.json",
+          "sha256": "c3baaab016e0f08bf16628506e98d06035a8e44f4de5e2bd99029253e89bfc02"
+        }
+      ]
+    },
+    {
+      "id": "blank",
+      "input": "\n3",
+      "total_cells_exact": [
+        "TOTAL",
+        "530,00"
+      ],
+      "unit_on_total": "nespecificată",
+      "headers_no_currency": [
+        "Preț unitar",
+        "Valoare"
+      ],
+      "visible_html_difference_text": [
+        "Azalea Bush Azalea Bush: -4 Ea (-40,00 lei)"
+      ],
+      "visible_pdf_lines_with_currency": [
+        "Azalea Bush Azalea Bush: -4 Ea (-40,00 lei)"
+      ],
+      "ISO_USD_or_RON_visible_in_HTML_or_PDF": false,
+      "role_ui_title_subset": null,
+      "source_links": [
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/blank.html",
+          "sha256": "e36d4d540870eaf7c35aafc9c3d95c0eee9979b45d6cd23d268a7761f4bac099"
+        },
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/blank.pdf",
+          "sha256": "5fa64d4a027f59dc0c0d792265f70033036fd2eb851330d37a397f841857598d"
+        },
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/obs.json",
+          "sha256": "c3baaab016e0f08bf16628506e98d06035a8e44f4de5e2bd99029253e89bfc02"
+        }
+      ]
+    },
+    {
+      "id": "invalid",
+      "input": "invalida\n3",
+      "total_cells_exact": [
+        "TOTAL",
+        "530,00"
+      ],
+      "unit_on_total": "nespecificată",
+      "headers_no_currency": [
+        "Preț unitar",
+        "Valoare"
+      ],
+      "visible_html_difference_text": [
+        "Azalea Bush Azalea Bush: -4 Ea (-40,00 lei)"
+      ],
+      "visible_pdf_lines_with_currency": [
+        "Azalea Bush Azalea Bush: -4 Ea (-40,00 lei)"
+      ],
+      "ISO_USD_or_RON_visible_in_HTML_or_PDF": false,
+      "role_ui_title_subset": null,
+      "source_links": [
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/invalid.html",
+          "sha256": "e36d4d540870eaf7c35aafc9c3d95c0eee9979b45d6cd23d268a7761f4bac099"
+        },
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/invalid.pdf",
+          "sha256": "5fa64d4a027f59dc0c0d792265f70033036fd2eb851330d37a397f841857598d"
+        },
+        {
+          "path": "R6_pregatire/ERP/nir/postconfig_A04/run3/obs.json",
+          "sha256": "c3baaab016e0f08bf16628506e98d06035a8e44f4de5e2bd99029253e89bfc02"
+        }
+      ]
+    },
+    {
+      "id": "zero-first",
+      "input": "0\n3",
+      "total_cells_exact": [
+        "TOTAL",
+        "300,00"
+      ],
+      "unit_on_total": "nespecificată",
+      "headers_no_currency": [
+        "Preț unitar",
+        "Valoare"
+      ],
+      "visible_html_difference_text": [
+        "Azalea Bush Azalea Bush: -7 Ea (-70,00 lei) Elm Elm Tree: -2 Ea (-200,00 lei)"
+      ],
+      "visible_pdf_lines_with_currency": [
+        "Azalea Bush Azalea Bush: -7 Ea (-70,00 lei)",
+        "Elm Elm Tree: -2 Ea (-200,00 lei)"
+      ],
+      "ISO_USD_or_RON_visible_in_HTML_or_PDF": false,
+      "role_ui_title_subset": [],
+      "source_links": [
+        {
+          "path": "R3_zone/A04/a04-nir-r3/zero-first.html",
+          "sha256": "edf0e1d316e26439528bb11d199d92e31d330c971dd1b5cf42de15c74d1cbd1e"
+        },
+        {
+          "path": "R3_zone/A04/a04-nir-r3/zero-first.pdf",
+          "sha256": "bbb5156b26e7b13dea1652c9cddfd69f944891c017f88157ed7698ab278aef15"
+        },
+        {
+          "path": "R3_zone/A04/a04-nir-r3/obs.json",
+          "sha256": "02ad5c5c8438708465c334c8e333d0fa7d582ce96e4a48c727594fe959b2b1a3"
+        }
+      ]
+    },
+    {
+      "id": "invalid-first",
+      "input": "invalida\n3",
+      "total_cells_exact": [
+        "TOTAL",
+        "530,00"
+      ],
+      "unit_on_total": "nespecificată",
+      "headers_no_currency": [
+        "Preț unitar",
+        "Valoare"
+      ],
+      "visible_html_difference_text": [
+        "Azalea Bush Azalea Bush: -4 Ea (-40,00 lei)"
+      ],
+      "visible_pdf_lines_with_currency": [
+        "Azalea Bush Azalea Bush: -4 Ea (-40,00 lei)"
+      ],
+      "ISO_USD_or_RON_visible_in_HTML_or_PDF": false,
+      "role_ui_title_subset": [],
+      "source_links": [
+        {
+          "path": "R3_zone/A04/a04-nir-r3/invalid-first.html",
+          "sha256": "ed580f831f1a76af9e82cd8f8a6e744f612daddeffb1ea96272dbad2e088c265"
+        },
+        {
+          "path": "R3_zone/A04/a04-nir-r3/invalid-first.pdf",
+          "sha256": "8eee9bb55ffe7e91a682e5b27a895235d42c4c56fc678a80c0a21fff13bc2984"
+        },
+        {
+          "path": "R3_zone/A04/a04-nir-r3/obs.json",
+          "sha256": "02ad5c5c8438708465c334c8e333d0fa7d582ce96e4a48c727594fe959b2b1a3"
+        }
+      ]
+    },
+    {
+      "id": "manual-recovery",
+      "input": "7\n3",
+      "total_cells_exact": [
+        "TOTAL",
+        "370,00"
+      ],
+      "unit_on_total": "nespecificată",
+      "headers_no_currency": [
+        "Preț unitar",
+        "Valoare"
+      ],
+      "visible_html_difference_text": [
+        "Elm Elm Tree: -2 Ea (-200,00 lei)"
+      ],
+      "visible_pdf_lines_with_currency": [
+        "Elm Elm Tree: -2 Ea (-200,00 lei)"
+      ],
+      "ISO_USD_or_RON_visible_in_HTML_or_PDF": false,
+      "role_ui_title_subset": [],
+      "source_links": [
+        {
+          "path": "R3_zone/A04/a04-nir-r3/manual-recovery.html",
+          "sha256": "8e1d8642a6edf545e75e5a0b7b0d877fade7703ad15023873698ee22bfed6f4f"
+        },
+        {
+          "path": "R3_zone/A04/a04-nir-r3/manual-recovery.pdf",
+          "sha256": "b852d306470ed17a3582a338d1967140519b7b4ff41c22c8ca5cbd33e5b26008"
+        },
+        {
+          "path": "R3_zone/A04/a04-nir-r3/obs.json",
+          "sha256": "02ad5c5c8438708465c334c8e333d0fa7d582ce96e4a48c727594fe959b2b1a3"
+        }
+      ]
+    }
+  ],
+  "review_status": "Predat către A12 și A11 pentru reevaluare; raportul inițial este păstrat."
+}

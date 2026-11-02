@@ -1,0 +1,8 @@
+from collections import Counter
+end=panel.locator('input.z-datebox-input:visible').nth(1);end.fill('30.06.2026');end.press('Tab');page.wait_for_timeout(320);panel.get_by_role('button',name='Încarcă',exact=True).click();page.wait_for_timeout(450);panel.locator('select[title="Nivel"]').select_option(label='Linii');page.wait_for_timeout(600)
+key='A12-R10-147';cell=panel.get_by_text(key,exact=True);assert cell.count()==1
+exact='Rândul e doar de citire; cauza diferenței se vede în coloana «Cauză».'
+r=cell.locator('xpath=ancestor::tr[1]');record['clicked_row']={'transaction_key':key,'cells':r.locator('td').all_text_contents(),'prior_exact_message':panel.get_by_text(exact,exact=True).count()}
+db=sql("select json_build_object('id',eva_comparatiebanca_id,'source_key',eva_idtranzactie,'verdict',eva_verdict,'cause',eva_cauza,'pid',ad_pinstance_id) from eva_comparatiebanca where ad_client_id=11 and eva_idtranzactie='A12-R10-147' and eva_luna between '2026-01' and '2026-06'");assert len(db)==1
+record['db_before']=db;cell.dblclick();result=panel.get_by_text(exact,exact=True);result.first.wait_for(timeout=5500);record['message']={'expected_literal':exact,'actual_literal':result.first.inner_text(),'match_count':result.count(),'dialogs':page.locator('.z-window-modal:visible,.z-window-highlighted:visible').all_text_contents()};record['db_after']=sql("select json_build_object('id',eva_comparatiebanca_id,'source_key',eva_idtranzactie,'verdict',eva_verdict,'cause',eva_cauza,'pid',ad_pinstance_id) from eva_comparatiebanca where ad_client_id=11 and eva_idtranzactie='A12-R10-147' and eva_luna between '2026-01' and '2026-06'");snap(page,'01-rand-numai-citire');saved();event(record['message'])
+

@@ -1,0 +1,997 @@
+{
+  "schema": "A06.R8.independent_recovered_suboracles.v1",
+  "date_utc": "2026-11-02T18:23:47.141102+00:00",
+  "code_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "parent_queue_sha256": "a5c4bbda1eb09062e5908ba54dbfb5608505c3de799b707bd080ceab637c8a97",
+  "scope": "Exact 4 criterii din coada nominală 883, trei din capitolul T22 și unul T35. Etalon recuperat și exercitat doar pentru subcondițiile enumerate. Nu se modifică înregistrările R1–R8 sau verdictele A12/A11.",
+  "archive_protocol": "Recuperare locală fără rețea: tree Git la SHA fixat, bloburi din arhivă gzip sau preexistente în Git, SHA-1 blob Git = hash(header blob+octeți). S-au verificat rândurile de registru și contexte de plan/spec primare. Fragmentele sunt scurte, rândul complet este identificat prin SHA-256.",
+  "runtime_protocol": "JDK 21, cele două JAR concrete cu aceeași suită offline. Driverul nominal e inclus integral. TestT22Pagina și dependența sa TestT22Flux din copia de cod au fost compilate pentru fiecare JAR; TestT22Flux nu a fost executat ca suită independentă. Nu se atestă zero modificări istorice prin trecerea unei aserțiuni actuale.",
+  "contracts": [
+    {
+      "case_id": "K07",
+      "criterion_id": "T22.07-R2-001",
+      "task": "T22.07",
+      "title": "Bulinele operaționale la începutul și închiderea reconcilierii",
+      "original_R7/R8_queue_record": {
+        "criterion": "T22.07-R2-001",
+        "task": "T22.07",
+        "owner": "A06",
+        "chapter": "P01.C10",
+        "file": "capturi/00_STATUS_TASKURI.json",
+        "position": "/103/cerere_proprietar",
+        "state": "REGISTRU_JSON_MANUAL_SAU_ANCORĂ_ALTERNATIVĂ"
+      },
+      "registry_source": {
+        "path": "Documentatie/echipa-2026-10-09/00_STATUS_TASKURI.json",
+        "git_oid": "2c022d178bb94f0a52d74ab16172f0aa59474c6c",
+        "sha256": "9ab54547a9c37341e0abe94cbc5aecf5711ed62a6417a83e60ecbc2b8da5fb86",
+        "json_pointer": "/103/cerere_proprietar",
+        "captured_registry_sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf",
+        "captured_pointer_matches_criterion": true,
+        "literal": "«…totul trebuie sa fie clar afisate intrun tabel cu fiecare / toti pasi si completate sumele si documentul si sa poti face click pe ele sa poti accesa direct documentul - la inceput si la  final cu bulina rosie daca nu sunt inchise si cu verde daca sunt inchise corect - atentie la comisioane bancare…» (proprietar, 09.10.2026 22:30; sursa: Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/00_cerinta_proprietar.md)"
+      },
+      "historical_support_at_frozen_sha": [
+        {
+          "path": "Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/00_cerinta_proprietar.md",
+          "git_oid": "0aee8a0f5bd025a021340e583f22b55cf9a80c6c",
+          "sha256": "a02ebf3b0484c01170a6c20f4dbc9c931ef9d4e3e5caf757c6a8c73c8efee367",
+          "lines": [
+            {
+              "line": 4,
+              "line_sha256": "5201ee56dcbc344944f7751d4ae498a0c4dbc904301d140b8ab1f1a206c2ab32",
+              "excerpt": "i la  final cu bulina rosie daca nu sunt inchise si cu verde daca sunt inchise corect - atentie la comisioane bancare / cheltuieli deduse de curieri - totul trebuie specificat in coloane sa se inchida sumele - inclusiv coloana de diferente - si stabilite toate cazurile si sa fie "
+            }
+          ]
+        },
+        {
+          "path": "Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/06_manager_plan_v2.md",
+          "git_oid": "3ecb979aeb544c7c4ac30b43d27416425afd6071",
+          "sha256": "95bdebddc61256b6121b236754bb2a6075bd7a685d50c99802dc566ce4c1f55d",
+          "lines": [
+            {
+              "line": 25,
+              "line_sha256": "cf9060d8e71b9601236c57b170437bb5f1b5813440a0a8f168f4d8e056a29010",
+              "excerpt": "| 10 | D-PL5-1: bulina de început la C05 și C18 | C05 și C18 au bulina de început = **ROȘU** (rând fără comandă, ca C17); `TestT22Flux` verifică AMBELE buline pe toate cele 26 de coduri (52 de aserțiuni) | §15 (catalog), §13.7 |"
+            },
+            {
+              "line": 563,
+              "line_sha256": "6df3ed6d117973d822097489525756f4a489b3eb06240097d3f31cf1605f38e2",
+              "excerpt": "`DIF = (Total comandă − Rambursat) − Total încasat net − (Comision Stripe + Comision curier + Comision bancar DEDUS + Alte cheltuieli deduse)`. Sumele de grup (payout, borderou, linie de extras pe mai multe comenzi) se repartizează pe comenzi după partea exactă a fiecăreia (`net` al balance_transaction, `virat` al liniei de decont); un comision bancar dedus la nivel de grup se repartizează proporțional cu partea netă, restul de rotunjire pe cea mai mare parte (regulă testată). Toleranța de închidere: `|DI"
+            },
+            {
+              "line": 566,
+              "line_sha256": "d1abc929d2d8b64a48e19c9424494dce6ab92ed02eee9c713ac87c6cf57931ac",
+              "excerpt": "- **Început** = VERDE ⇔ toți pașii de DOCUMENTARE aplicabili cazului sunt închiși: (a) validare = VALIDAT (auto/manual) sau N/A (marketplace / exclus corect), (b) factura CO există (proprii: creată de T22; marketplace: `LEGAT_*` prin R1), (c) proprii: număr `CONFIRMAT` pe site; altfel ROȘU. Rândurile FĂRĂ comandă (C05, C17, C18) au bulina de început ROȘU (nu există comandă documentată)."
+            },
+            {
+              "line": 567,
+              "line_sha256": "ecd37b364ec965b2b84afa11b1186c59d27d191268135eecb2ea49c34c1b7476",
+              "excerpt": "- **Final** = VERDE ⇔ cazul liniei e marcat «închis» în catalog ȘI `|DIF| ≤ 0,01` ȘI toate încasările aplicabile sunt legate (`STINS` / `LEGAT_*`); altfel ROȘU."
+            }
+          ]
+        },
+        {
+          "path": "Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/09_auditor_verdict_plan_v2.md",
+          "git_oid": "61f7ab0153f1d15a0bc6ee83f6baeee4072e8fea",
+          "sha256": "b3914236923adf09584c41ec2a8c90ef8de114198f54f79bc89c3865805c43e6",
+          "lines": [
+            {
+              "line": 28,
+              "line_sha256": "69fa667467856c958978c03546406bc6fc311f1b9d6866e6b7208ed696634422",
+              "excerpt": "| 10 | D-PL5-1 (bulina C05 / C18) | **ÎNCHISĂ** | §15: C05 și C18 au «**ROȘU**». §13.5 definește regula pentru rândurile fără comandă. `TestT22Flux` verifică 26 × 2 buline (în cele 104 aserțiuni). |"
+            }
+          ]
+        }
+      ],
+      "historical_evidence_class": "Cerință și documentație istorică (nu probe de execuție la data închiderii).",
+      "recoverable_expected": "C05/C18 trebuie să fie roșii la început chiar dacă baza este verde; C26 este martor verde. Pentru un caz configurat ca închis cu încasări legate se admite |DIF|≤0,01; peste 0,01 sau dacă lipsește legătura rămâne roșu.",
+      "product_sources": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/CazFlux.java",
+          "line": 168,
+          "pattern": "static String bulinaInceput(",
+          "sha256": "cb4393186d85090d743a9a85a7e6fbbc4146ff73d906a5c8966b09a30e85f39f"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/CazFlux.java",
+          "line": 180,
+          "pattern": "static String bulinaFinal(",
+          "sha256": "cb4393186d85090d743a9a85a7e6fbbc4146ff73d906a5c8966b09a30e85f39f"
+        }
+      ],
+      "production_tests_here": "none",
+      "actual_component_runs": [
+        {
+          "jar": "git",
+          "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+          "producer_source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+          "jvm_exit": 0,
+          "rows": [
+            {
+              "input": "C05 start",
+              "expected": "rosu",
+              "actual": "rosu",
+              "matched": true
+            },
+            {
+              "input": "C18 start",
+              "expected": "rosu",
+              "actual": "rosu",
+              "matched": true
+            },
+            {
+              "input": "C26 start",
+              "expected": "verde",
+              "actual": "verde",
+              "matched": true
+            },
+            {
+              "input": "closed, linked, DIF=.01",
+              "expected": "verde",
+              "actual": "verde",
+              "matched": true
+            },
+            {
+              "input": "closed, linked, DIF=.02",
+              "expected": "rosu",
+              "actual": "rosu",
+              "matched": true
+            },
+            {
+              "input": "closed, not linked, DIF=0",
+              "expected": "rosu",
+              "actual": "rosu",
+              "matched": true
+            }
+          ]
+        },
+        {
+          "jar": "installed",
+          "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+          "producer_source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+          "jvm_exit": 0,
+          "rows": [
+            {
+              "input": "C05 start",
+              "expected": "rosu",
+              "actual": "rosu",
+              "matched": true
+            },
+            {
+              "input": "C18 start",
+              "expected": "rosu",
+              "actual": "rosu",
+              "matched": true
+            },
+            {
+              "input": "C26 start",
+              "expected": "verde",
+              "actual": "verde",
+              "matched": true
+            },
+            {
+              "input": "closed, linked, DIF=.01",
+              "expected": "verde",
+              "actual": "verde",
+              "matched": true
+            },
+            {
+              "input": "closed, linked, DIF=.02",
+              "expected": "rosu",
+              "actual": "rosu",
+              "matched": true
+            },
+            {
+              "input": "closed, not linked, DIF=0",
+              "expected": "rosu",
+              "actual": "rosu",
+              "matched": true
+            }
+          ]
+        }
+      ],
+      "classification": "ETALON_RECUPERAT_PENTRU_SUBCONDIȚIE; COMPONENTĂ_EXERCITATĂ; CRITERIUL_TOTAL_PARȚIAL",
+      "unrecovered_or_unexecuted": "Au fost exercitate codul de culoare și condiția de închidere, nu tabelul redat pe ecran, toate cele 26 de cazuri, agregările sau culorile vizuale/etichetele accesibile."
+    },
+    {
+      "case_id": "K09",
+      "criterion_id": "T22.09-R2-001",
+      "task": "T22.09",
+      "title": "Identificatorul documentului și legătura pe pagina individuală",
+      "original_R7/R8_queue_record": {
+        "criterion": "T22.09-R2-001",
+        "task": "T22.09",
+        "owner": "A06",
+        "chapter": "P01.C10",
+        "file": "capturi/00_STATUS_TASKURI.json",
+        "position": "/105/cerere_proprietar",
+        "state": "REGISTRU_JSON_MANUAL_SAU_ANCORĂ_ALTERNATIVĂ"
+      },
+      "registry_source": {
+        "path": "Documentatie/echipa-2026-10-09/00_STATUS_TASKURI.json",
+        "git_oid": "2c022d178bb94f0a52d74ab16172f0aa59474c6c",
+        "sha256": "9ab54547a9c37341e0abe94cbc5aecf5711ed62a6417a83e60ecbc2b8da5fb86",
+        "json_pointer": "/105/cerere_proprietar",
+        "captured_registry_sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf",
+        "captured_pointer_matches_criterion": true,
+        "literal": "«…toate aceste informatii trebuie sa para si intro pagina de comanda individuala - unde sa vedem detaliat toate informatiile si dand click pe ceva sa ne duca la acel document - deschide fereastra noua…» (proprietar, 09.10.2026 22:30; sursa: Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/00_cerinta_proprietar.md)"
+      },
+      "historical_support_at_frozen_sha": [
+        {
+          "path": "Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/00_cerinta_proprietar.md",
+          "git_oid": "0aee8a0f5bd025a021340e583f22b55cf9a80c6c",
+          "sha256": "a02ebf3b0484c01170a6c20f4dbc9c931ef9d4e3e5caf757c6a8c73c8efee367",
+          "lines": [
+            {
+              "line": 4,
+              "line_sha256": "5201ee56dcbc344944f7751d4ae498a0c4dbc904301d140b8ab1f1a206c2ab32",
+              "excerpt": " para si intro pagina de comanda individuala - unde sa vedem detaliat toate informatiile si dand click pe ceva sa ne duca la acel document - deschide fereastra noua»"
+            }
+          ]
+        },
+        {
+          "path": "Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/06_manager_plan_v2.md",
+          "git_oid": "3ecb979aeb544c7c4ac30b43d27416425afd6071",
+          "sha256": "95bdebddc61256b6121b236754bb2a6075bd7a685d50c99802dc566ce4c1f55d",
+          "lines": [
+            {
+              "line": 64,
+              "line_sha256": "e69dcd1e3554520f5d5a0b80c6b097114138b965e9dcdc4f1b993ed3b8bfb747",
+              "excerpt": "ice document → fereastră nouă de browser."
+            },
+            {
+              "line": 65,
+              "line_sha256": "af3755c65bc1838cd4f9d4004aada75c60ef40bb6e1629093a4ad23f3a894db1",
+              "excerpt": "ași linkuri în fereastră nouă + «Deschid în fereastră nouă» (pagina ca HTML)."
+            },
+            {
+              "line": 145,
+              "line_sha256": "8df475f67a14e2b52a91d3113c5b96da13895489718bc38668cce28cdca57261",
+              "excerpt": " pe celule, în fereastră nouă (F, G); deep-link în adminul site-ului (`C1/frontend/src/features/orders/OrdersPage.tsx:29-48` citește doar `source`, `source_account` din URL) |"
+            },
+            {
+              "line": 596,
+              "line_sha256": "ce80bb7fee9a1b6b6a90a0708a42f7f8d7e3c1148856dbc750da55fb5460ad5d",
+              "excerpt": "| G-BE1 | backend EvA | `RaportFluxComenzi.paginaComanda(client, idComanda)` → HTML (escape complet cu `AjutorEcran.esc`, `AjutorEcran.java:290`, sau echivalent din spec): antet (comanda, canal, firma, totaluri, liniile de produs: SKU, denumire produs, cantitate, preț, TVA), cronologia pașilor (data, pasul, suma, documentul, starea, motivul), cazul, DIF, bulinele; fiecare document = link `target=\"_blank\"` | `P/corelare/RaportFluxComenzi.java` | `TestT22Pagina` ≥ 20 |"
+            },
+            {
+              "line": 597,
+              "line_sha256": "4c0165ad24424873ed44ef220c6998a7369eea785c6656c2475e609a3e689632",
+              "excerpt": "le «Deschid în fereastră nouă» (`window.open`, precedent `EvaTiparire.java:127`), «Tipărire», «Închid» | nou: `P/form/DialogPaginaComenzii.java`; modificate: `P/form/PanouFluxComenzi.java`, `P/form/WSagaCorelareForm.java` (componenta din bară) | `TestT22Ecran` (grupul G); dialogu"
+            }
+          ]
+        }
+      ],
+      "historical_evidence_class": "Cerință și documentație istorică (nu probe de execuție la data închiderii).",
+      "recoverable_expected": "Factura validă are link iDempiere Zoom către C_Invoice și Record_UU corect. UUID absent sau malformed nu generează legătură. HTML-ul paginii trebuie să trimită într-o fereastră nouă; suitei actuale îi corespunde o factură FV-77, 121,00 și un link URL distinct.",
+      "product_sources": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RaportFluxComenzi.java",
+          "line": 181,
+          "pattern": "static Legatura zoom(",
+          "sha256": "67aad90348ab32cf7387138defac24db6c7d2e786fa9507ccf8fdaabbba41337"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RaportFluxComenzi.java",
+          "line": 187,
+          "pattern": "&Record_UU=",
+          "sha256": "67aad90348ab32cf7387138defac24db6c7d2e786fa9507ccf8fdaabbba41337"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RaportFluxComenzi.java",
+          "line": 1045,
+          "pattern": "target=\\\"_blank\\\"",
+          "sha256": "67aad90348ab32cf7387138defac24db6c7d2e786fa9507ccf8fdaabbba41337"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/PanouFluxComenzi.java",
+          "line": 536,
+          "pattern": "window.open(",
+          "sha256": "2abe031578edf43937130a6de09aff18267cd676ce1c5d140dc968e47bce10aa"
+        }
+      ],
+      "production_tests_here": "none",
+      "actual_component_runs": [
+        {
+          "jar": "git",
+          "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+          "producer_source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+          "jvm_exit": 0,
+          "rows": [
+            {
+              "input": "known invoice uuid",
+              "expected": "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+              "actual": "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+              "matched": true
+            },
+            {
+              "input": "missing UU",
+              "expected": "null",
+              "actual": "null",
+              "matched": true
+            },
+            {
+              "input": "malformed identifier",
+              "expected": "null",
+              "actual": "null",
+              "matched": true
+            }
+          ]
+        },
+        {
+          "jar": "installed",
+          "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+          "producer_source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+          "jvm_exit": 0,
+          "rows": [
+            {
+              "input": "known invoice uuid",
+              "expected": "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+              "actual": "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+              "matched": true
+            },
+            {
+              "input": "missing UU",
+              "expected": "null",
+              "actual": "null",
+              "matched": true
+            },
+            {
+              "input": "malformed identifier",
+              "expected": "null",
+              "actual": "null",
+              "matched": true
+            }
+          ]
+        }
+      ],
+      "classification": "ETALON_RECUPERAT_PENTRU_SUBCONDIȚIE; COMPONENTĂ_EXERCITATĂ; CRITERIUL_TOTAL_PARȚIAL",
+      "unrecovered_or_unexecuted": "Autorul istoric cere pagina pentru operator; «client web»/comisionar nu e un rol documentat în acea propoziție. Helperul validează forma UUID, nu apartenența la cabinet ori permisiunea pentru document. Nu s-a făcut click și nu s-a demonstrat autorizarea la destinație.",
+      "fixture_page": [
+        {
+          "jar": "git",
+          "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+          "suite": "TestT22Pagina",
+          "source_sha256": "24d5534fdfacaf980c12ee343d2f6f378758cdf65d303b61bc2383a45f82c44e",
+          "compile_return": 0,
+          "run_return": 0,
+          "stdout_sha256": "cf1dabb995f85eacb716271dc4d920aa11d78fd6444501246aa3b4cc7e06354a",
+          "ok_lines": 33,
+          "fail_lines": [],
+          "observations": [
+            "OK   cronologia c11: data 29.09.2026, suma 121.00, documentul = textul, legătura zoom C_Invoice",
+            "OK   legăturile din pagină: 2 (zoom + URL) cu target=\"_blank\" rel=\"noopener\"; HTML-ul generat (c14) fără <a>",
+            "OK   X8 DialogPaginaComenzii: fereastra «saga-dialog» primește clasa eva-pagina-cmd prin EvaStil.clasa (o dată, după setSclass)"
+          ]
+        },
+        {
+          "jar": "installed",
+          "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+          "suite": "TestT22Pagina",
+          "source_sha256": "24d5534fdfacaf980c12ee343d2f6f378758cdf65d303b61bc2383a45f82c44e",
+          "compile_return": 0,
+          "run_return": 0,
+          "stdout_sha256": "cf1dabb995f85eacb716271dc4d920aa11d78fd6444501246aa3b4cc7e06354a",
+          "ok_lines": 33,
+          "fail_lines": [],
+          "observations": [
+            "OK   cronologia c11: data 29.09.2026, suma 121.00, documentul = textul, legătura zoom C_Invoice",
+            "OK   legăturile din pagină: 2 (zoom + URL) cu target=\"_blank\" rel=\"noopener\"; HTML-ul generat (c14) fără <a>",
+            "OK   X8 DialogPaginaComenzii: fereastra «saga-dialog» primește clasa eva-pagina-cmd prin EvaStil.clasa (o dată, după setSclass)"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "K08",
+      "criterion_id": "T22.08-R2-001",
+      "task": "T22.08",
+      "title": "Proveniența prețului din fișa pe canal",
+      "original_R7/R8_queue_record": {
+        "criterion": "T22.08-R2-001",
+        "task": "T22.08",
+        "owner": "A06",
+        "chapter": "P01.C10",
+        "file": "capturi/00_STATUS_TASKURI.json",
+        "position": "/104/cerere_proprietar",
+        "state": "REGISTRU_JSON_MANUAL_SAU_ANCORĂ_ALTERNATIVĂ"
+      },
+      "registry_source": {
+        "path": "Documentatie/echipa-2026-10-09/00_STATUS_TASKURI.json",
+        "git_oid": "2c022d178bb94f0a52d74ab16172f0aa59474c6c",
+        "sha256": "9ab54547a9c37341e0abe94cbc5aecf5711ed62a6417a83e60ecbc2b8da5fb86",
+        "json_pointer": "/104/cerere_proprietar",
+        "captured_registry_sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf",
+        "captured_pointer_matches_criterion": true,
+        "literal": "«Exista date contabile si WMS si certificate etc care sunt in iDempiere / si date de prezentare legate de descrieri / poze / dimensiuni care sunt in site si unelecomune stocuri pret de achizitie - pret de vanzare - discopunturi etc care le avem in ambele - TREBUIE sa ai o analiza mai adanca» (proprietar, 10.10.2026 12:31; sursa: Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/57_decizii_proprietar_v5_si_orchestrator_A0.md)"
+      },
+      "historical_support_at_frozen_sha": [
+        {
+          "path": "Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/74k_arhitect_spec_v3_faza_K.md",
+          "git_oid": "ec530e7aed693e8fee50cf36a3bbf1527144744b",
+          "sha256": "61d118c7b407a6ed7fd10c4f5efd32100848d00a8b48c2470a3f3a18fd48a32f",
+          "lines": [
+            {
+              "line": 569,
+              "line_sha256": "c809b6291ae0e7d447b693806ff681c5946a3729630708a7dcad19301cd4ddba",
+              "excerpt": "Valoarea efectivă a unui câmp = `TabelaFisaCanal.valoareEfectiva(idempiere, suprascriereaPlatformei, suprascriereaCanalului)` (§C C.9), chemată de `FisaCanalProces` și de citirile ecranului; `FisaCanalCalcul` primește rezultatul (`RandFisa.origine`)."
+            },
+            {
+              "line": 571,
+              "line_sha256": "955a135b21f9fe8526427895d169634dd5e32963ccc472e545f10bd69a8897d2",
+              "excerpt": "### 6.2 `CAMP_CANAL` coloană cu coloană (sursa iDempiere → corp → validarea suprascrierii; `90` D-K8: STRICT iDempiere → canale)"
+            },
+            {
+              "line": 574,
+              "line_sha256": "fa60f0093fd34852df6af41f3fa80f9a9c76c8ac9a994c51dbb063966f37815c",
+              "excerpt": "`DIFERENTA` pe valoarea efectivă de dedesubt (K.2: 121.00 × 0.90 = 108.90) |"
+            }
+          ]
+        },
+        {
+          "path": "Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/66g_auditor_verdict_plan_addendum_K_erata.md",
+          "git_oid": "deb095adc94cb66be9962c6235084dad89aef696",
+          "sha256": "0a0c08591c459b592ef3374acbc74760345efdc27fc5bfcfb31d34c3db164287",
+          "lines": [
+            {
+              "line": 92,
+              "line_sha256": "536ffe608b9d464785995af41916d6f2bd210a04399ba487c5f27849bbf92acd",
+              "excerpt": "E` pe valoarea EFECTIVĂ de trimis (§C C.9: canal › «`*`» › iDempiere) cu preț fără TVA < cost [Q-M10] ``"
+            }
+          ]
+        }
+      ],
+      "historical_evidence_class": "Cerință și documentație istorică (nu probe de execuție la data închiderii).",
+      "recoverable_expected": "Câmp PRET_VANZARE. Baza iDempiere 121,00; aplicarea −10% dă 108,90. Nicio suprascriere → IDEMPIERE; suprascriere de platformă fără valoare de canal → PLATFORMA; valoare explicită 100,00 pe canal → CANAL; spațiile albe pe canal lasă activă valoarea platformei.",
+      "product_sources": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/TabelaFisaCanal.java",
+          "line": 140,
+          "pattern": "static ValoareEfectiva valoareEfectiva(",
+          "sha256": "9282c9b0e45ece8c301fe5499e72bb694a345a1024864436b4f8db071d19d2e7"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalCalcul.java",
+          "line": 263,
+          "pattern": "static String valoareModificata(",
+          "sha256": "f87fcb7facf39781f7cfe48b63eb39421903481ac4cfd5f3597268f7eb0b7b37"
+        }
+      ],
+      "production_tests_here": "none",
+      "actual_component_runs": [
+        {
+          "jar": "git",
+          "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+          "producer_source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+          "jvm_exit": 0,
+          "rows": [
+            {
+              "input": "native rule -10pct",
+              "expected": "108.90",
+              "actual": "108.90",
+              "matched": true
+            },
+            {
+              "input": "native only",
+              "expected": "IDEMPIERE|121.00",
+              "actual": "IDEMPIERE|121.00",
+              "matched": true
+            },
+            {
+              "input": "platform only",
+              "expected": "PLATFORMA|108.90",
+              "actual": "PLATFORMA|108.90",
+              "matched": true
+            },
+            {
+              "input": "channel on top",
+              "expected": "CANAL|100.00",
+              "actual": "CANAL|100.00",
+              "matched": true
+            },
+            {
+              "input": "channel blank falls back",
+              "expected": "PLATFORMA|108.90",
+              "actual": "PLATFORMA|108.90",
+              "matched": true
+            }
+          ]
+        },
+        {
+          "jar": "installed",
+          "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+          "producer_source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+          "jvm_exit": 0,
+          "rows": [
+            {
+              "input": "native rule -10pct",
+              "expected": "108.90",
+              "actual": "108.90",
+              "matched": true
+            },
+            {
+              "input": "native only",
+              "expected": "IDEMPIERE|121.00",
+              "actual": "IDEMPIERE|121.00",
+              "matched": true
+            },
+            {
+              "input": "platform only",
+              "expected": "PLATFORMA|108.90",
+              "actual": "PLATFORMA|108.90",
+              "matched": true
+            },
+            {
+              "input": "channel on top",
+              "expected": "CANAL|100.00",
+              "actual": "CANAL|100.00",
+              "matched": true
+            },
+            {
+              "input": "channel blank falls back",
+              "expected": "PLATFORMA|108.90",
+              "actual": "PLATFORMA|108.90",
+              "matched": true
+            }
+          ]
+        }
+      ],
+      "classification": "ETALON_RECUPERAT_PENTRU_SUBCONDIȚIE; COMPONENTĂ_EXERCITATĂ; CRITERIUL_TOTAL_PARȚIAL",
+      "unrecovered_or_unexecuted": "Cerința inițială solicită analiză mai amplă de câmpuri, fotografii, dimensiuni, certificate și proprietari. Această subprobă privește un singur câmp și calculul în memorie; nu dovedește fișa UI sau publicarea externă."
+    },
+    {
+      "case_id": "K35",
+      "criterion_id": "T35-R2-001",
+      "task": "T35",
+      "title": "Activare, permisiune de scriere și izolare firmă",
+      "original_R7/R8_queue_record": {
+        "criterion": "T35-R2-001",
+        "task": "T35",
+        "owner": "A06",
+        "chapter": "P01.C10",
+        "file": "capturi/00_STATUS_TASKURI.json",
+        "position": "/230/cerere_proprietar",
+        "state": "REGISTRU_JSON_MANUAL_SAU_ANCORĂ_ALTERNATIVĂ"
+      },
+      "registry_source": {
+        "path": "Documentatie/echipa-2026-10-09/00_STATUS_TASKURI.json",
+        "git_oid": "2c022d178bb94f0a52d74ab16172f0aa59474c6c",
+        "sha256": "9ab54547a9c37341e0abe94cbc5aecf5711ed62a6417a83e60ecbc2b8da5fb86",
+        "json_pointer": "/230/cerere_proprietar",
+        "captured_registry_sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf",
+        "captured_pointer_matches_criterion": true,
+        "literal": "«trebuie sa existe in iDempiere - pluginurile - setabile din setarile aplicatiei iDempiere - bifa de activare si loc de inserare cheie etc. proiect pentru fiecare platforma si fiecare platforma de consolidare comenzi etc.» (proprietar, 10.10.2026; sursa: Documentatie/echipa-2026-10-09/T35-cadru-platforme-vanzari/00_cerinta_proprietar.md (Î2))"
+      },
+      "historical_support_at_frozen_sha": [
+        {
+          "path": "Documentatie/echipa-2026-10-09/T35-cadru-platforme-vanzari/00_cerinta_proprietar.md",
+          "git_oid": "de9ab86c261d5ba506b87e5826a08994eb090249",
+          "sha256": "5d53d106ee44893fc4117455ae62aaaf336025682ae2665c86c9ce773b7a58fc",
+          "lines": [
+            {
+              "line": 6,
+              "line_sha256": "bbd1611a8440b8bff9a7b5d6f3c10e37b6ee919225b04dc8cedc6de9a4db64f6",
+              "excerpt": "ei iDempiere - bifa de activare si loc de inserare cheie etc. proiect pentru fiecare platforma si fiecare platforma de consolidare comenzi etc.»"
+            }
+          ]
+        },
+        {
+          "path": "Documentatie/echipa-2026-10-09/T35-cadru-platforme-vanzari/04_manager_plan.md",
+          "git_oid": "1242115b5e26c19ce1236b24417cbbd6af5c469d",
+          "sha256": "c98c13ff162af293b077c99c3a88563d06ef0111172713fca6e2c77e6f3a66d1",
+          "lines": [
+            {
+              "line": 590,
+              "line_sha256": "a40b4d3b0400563486fb92092a8c67485d162c405c7bd0ae8813f21ea2be2c87",
+              "excerpt": "v ⇒ refuz; (3) altă firmă ⇒ refuz; (4) `N` ⇒ refuz; (5) `Y` + adaptor necunoscut ⇒ refuz; (6) `Y` + capabilitate lipsă ⇒ refuz; (7) `Y` + capabilitate ⇒ `null`; (8) `EVA_Platforma` NULL ⇒ adaptorul = `EVA_Sursa`, deci (7) pentru `CESIRO1`. Fiecare refuz = o cheie distinctă | 8 |"
+            }
+          ]
+        }
+      ],
+      "historical_evidence_class": "Cerință și documentație istorică (nu probe de execuție la data închiderii).",
+      "recoverable_expected": "Fișă proprie activă+Scriere permisă Y+capabilitate FISA → fără motiv de refuz. Aceeași fișă citită ca alt client → alta_firma; fișa dezactivată → inactiva; N → scriere_nepermisa. Este poarta unității înainte de expeditor.",
+      "product_sources": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PlatformeVanzari.java",
+          "line": 286,
+          "pattern": "static String scrierePermisa(RandPoarta",
+          "sha256": "dbc5c3c10db02920408266364a63eebc7a78f6895617a2a3353b99dd89b5ee61"
+        }
+      ],
+      "production_tests_here": "none",
+      "actual_component_runs": [
+        {
+          "jar": "git",
+          "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+          "producer_source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+          "jvm_exit": 0,
+          "rows": [
+            {
+              "input": "same firm Y FISA",
+              "expected": "null",
+              "actual": "null",
+              "matched": true
+            },
+            {
+              "input": "other firm",
+              "expected": "platforma.poarta.alta_firma",
+              "actual": "platforma.poarta.alta_firma",
+              "matched": true
+            },
+            {
+              "input": "inactive",
+              "expected": "platforma.poarta.inactiva",
+              "actual": "platforma.poarta.inactiva",
+              "matched": true
+            },
+            {
+              "input": "writing disabled",
+              "expected": "platforma.poarta.scriere_nepermisa",
+              "actual": "platforma.poarta.scriere_nepermisa",
+              "matched": true
+            }
+          ]
+        },
+        {
+          "jar": "installed",
+          "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+          "producer_source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+          "jvm_exit": 0,
+          "rows": [
+            {
+              "input": "same firm Y FISA",
+              "expected": "null",
+              "actual": "null",
+              "matched": true
+            },
+            {
+              "input": "other firm",
+              "expected": "platforma.poarta.alta_firma",
+              "actual": "platforma.poarta.alta_firma",
+              "matched": true
+            },
+            {
+              "input": "inactive",
+              "expected": "platforma.poarta.inactiva",
+              "actual": "platforma.poarta.inactiva",
+              "matched": true
+            },
+            {
+              "input": "writing disabled",
+              "expected": "platforma.poarta.scriere_nepermisa",
+              "actual": "platforma.poarta.scriere_nepermisa",
+              "matched": true
+            }
+          ]
+        }
+      ],
+      "classification": "ETALON_RECUPERAT_PENTRU_SUBCONDIȚIE; COMPONENTĂ_EXERCITATĂ; CRITERIUL_TOTAL_PARȚIAL",
+      "unrecovered_or_unexecuted": "Nu s-au apelat servicii, nici nu s-a citit/introdus o cheie. Nu sunt probate UI pentru setări, toate platformele, criptarea secretului, transportul, autorizarea unui utilizator real sau izolarea a două baze fizice."
+    }
+  ],
+  "raw_run_evidence": [
+    {
+      "jar": "git",
+      "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+      "suite": "OracleProbe",
+      "source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+      "compile_return": 0,
+      "run_return": 0,
+      "stderr": "",
+      "stdout_sha256": "7144342eac80db37586e038b01e43997233663825837df2bf1b756df929f542a",
+      "ok_lines": 0,
+      "fail_lines": [],
+      "observations": [
+        [
+          "K07",
+          "C05 start",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "C18 start",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "C26 start",
+          "verde",
+          "verde",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, linked, DIF=.01",
+          "verde",
+          "verde",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, linked, DIF=.02",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, not linked, DIF=0",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K09",
+          "known invoice uuid",
+          "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+          "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+          "true"
+        ],
+        [
+          "K09",
+          "missing UU",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K09",
+          "malformed identifier",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K08",
+          "native rule -10pct",
+          "108.90",
+          "108.90",
+          "true"
+        ],
+        [
+          "K08",
+          "native only",
+          "IDEMPIERE|121.00",
+          "IDEMPIERE|121.00",
+          "true"
+        ],
+        [
+          "K08",
+          "platform only",
+          "PLATFORMA|108.90",
+          "PLATFORMA|108.90",
+          "true"
+        ],
+        [
+          "K08",
+          "channel on top",
+          "CANAL|100.00",
+          "CANAL|100.00",
+          "true"
+        ],
+        [
+          "K08",
+          "channel blank falls back",
+          "PLATFORMA|108.90",
+          "PLATFORMA|108.90",
+          "true"
+        ],
+        [
+          "K35",
+          "same firm Y FISA",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K35",
+          "other firm",
+          "platforma.poarta.alta_firma",
+          "platforma.poarta.alta_firma",
+          "true"
+        ],
+        [
+          "K35",
+          "inactive",
+          "platforma.poarta.inactiva",
+          "platforma.poarta.inactiva",
+          "true"
+        ],
+        [
+          "K35",
+          "writing disabled",
+          "platforma.poarta.scriere_nepermisa",
+          "platforma.poarta.scriere_nepermisa",
+          "true"
+        ]
+      ]
+    },
+    {
+      "jar": "git",
+      "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+      "suite": "TestT22Pagina",
+      "source_sha256": "24d5534fdfacaf980c12ee343d2f6f378758cdf65d303b61bc2383a45f82c44e",
+      "compile_return": 0,
+      "run_return": 0,
+      "stderr": "",
+      "stdout_sha256": "cf1dabb995f85eacb716271dc4d920aa11d78fd6444501246aa3b4cc7e06354a",
+      "ok_lines": 33,
+      "fail_lines": [],
+      "observations": [
+        "OK   cronologia c11: data 29.09.2026, suma 121.00, documentul = textul, legătura zoom C_Invoice",
+        "OK   legăturile din pagină: 2 (zoom + URL) cu target=\"_blank\" rel=\"noopener\"; HTML-ul generat (c14) fără <a>",
+        "OK   X8 DialogPaginaComenzii: fereastra «saga-dialog» primește clasa eva-pagina-cmd prin EvaStil.clasa (o dată, după setSclass)"
+      ]
+    },
+    {
+      "jar": "installed",
+      "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "suite": "OracleProbe",
+      "source_sha256": "44d7f6d96f808a39ed6b610ee52c94fddbb7c9e6584003fdce429f864aefa4b8",
+      "compile_return": 0,
+      "run_return": 0,
+      "stderr": "",
+      "stdout_sha256": "7144342eac80db37586e038b01e43997233663825837df2bf1b756df929f542a",
+      "ok_lines": 0,
+      "fail_lines": [],
+      "observations": [
+        [
+          "K07",
+          "C05 start",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "C18 start",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "C26 start",
+          "verde",
+          "verde",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, linked, DIF=.01",
+          "verde",
+          "verde",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, linked, DIF=.02",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, not linked, DIF=0",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K09",
+          "known invoice uuid",
+          "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+          "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+          "true"
+        ],
+        [
+          "K09",
+          "missing UU",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K09",
+          "malformed identifier",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K08",
+          "native rule -10pct",
+          "108.90",
+          "108.90",
+          "true"
+        ],
+        [
+          "K08",
+          "native only",
+          "IDEMPIERE|121.00",
+          "IDEMPIERE|121.00",
+          "true"
+        ],
+        [
+          "K08",
+          "platform only",
+          "PLATFORMA|108.90",
+          "PLATFORMA|108.90",
+          "true"
+        ],
+        [
+          "K08",
+          "channel on top",
+          "CANAL|100.00",
+          "CANAL|100.00",
+          "true"
+        ],
+        [
+          "K08",
+          "channel blank falls back",
+          "PLATFORMA|108.90",
+          "PLATFORMA|108.90",
+          "true"
+        ],
+        [
+          "K35",
+          "same firm Y FISA",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K35",
+          "other firm",
+          "platforma.poarta.alta_firma",
+          "platforma.poarta.alta_firma",
+          "true"
+        ],
+        [
+          "K35",
+          "inactive",
+          "platforma.poarta.inactiva",
+          "platforma.poarta.inactiva",
+          "true"
+        ],
+        [
+          "K35",
+          "writing disabled",
+          "platforma.poarta.scriere_nepermisa",
+          "platforma.poarta.scriere_nepermisa",
+          "true"
+        ]
+      ]
+    },
+    {
+      "jar": "installed",
+      "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "suite": "TestT22Pagina",
+      "source_sha256": "24d5534fdfacaf980c12ee343d2f6f378758cdf65d303b61bc2383a45f82c44e",
+      "compile_return": 0,
+      "run_return": 0,
+      "stderr": "",
+      "stdout_sha256": "cf1dabb995f85eacb716271dc4d920aa11d78fd6444501246aa3b4cc7e06354a",
+      "ok_lines": 33,
+      "fail_lines": [],
+      "observations": [
+        "OK   cronologia c11: data 29.09.2026, suma 121.00, documentul = textul, legătura zoom C_Invoice",
+        "OK   legăturile din pagină: 2 (zoom + URL) cu target=\"_blank\" rel=\"noopener\"; HTML-ul generat (c14) fără <a>",
+        "OK   X8 DialogPaginaComenzii: fereastra «saga-dialog» primește clasa eva-pagina-cmd prin EvaStil.clasa (o dată, după setSclass)"
+      ]
+    }
+  ],
+  "harness_source": "package com.eva.ro.contab.corelare;\nimport java.math.*;import java.util.*;\npublic class OracleProbe {\n static void show(String k,String n,Object want,Object got){System.out.println(k+\"\\t\"+n+\"\\t\"+want+\"\\t\"+got+\"\\t\"+Objects.equals(want,got));}\n static void precedence(String n,String star,String ch,String expected){var v=TabelaFisaCanal.valoareEfectiva(\"121.00\",star,ch);show(\"K08\",n,expected,v.origine()+\"|\"+v.valoare());}\n static String gate(boolean active,boolean write,int actual,int actor){return PlatformeVanzari.scrierePermisa(new PlatformeVanzari.RandPoarta(true,actual,active,write,\"CESIRO1\"),actor,AdaptorPlatforma.Capabilitate.FISA);}\n public static void main(String[] args){\n  show(\"K07\",\"C05 start\",\"rosu\",CazFlux.bulinaInceput(\"C05\",\"verde\"));show(\"K07\",\"C18 start\",\"rosu\",CazFlux.bulinaInceput(\"C18\",\"verde\"));\n  show(\"K07\",\"C26 start\",\"verde\",CazFlux.bulinaInceput(\"C26\",\"rosu\"));\n  var closed=Set.of(\"C01\");var threshold=new BigDecimal(\"0.01\");\n  show(\"K07\",\"closed, linked, DIF=.01\",\"verde\",CazFlux.bulinaFinal(\"C01\",new BigDecimal(\"0.01\"),true,closed,threshold));\n  show(\"K07\",\"closed, linked, DIF=.02\",\"rosu\",CazFlux.bulinaFinal(\"C01\",new BigDecimal(\"0.02\"),true,closed,threshold));\n  show(\"K07\",\"closed, not linked, DIF=0\",\"rosu\",CazFlux.bulinaFinal(\"C01\",BigDecimal.ZERO,false,closed,threshold));\n  String uu=\"12345678-1234-4123-8123-123456789012\";\n  show(\"K09\",\"known invoice uuid\",\"index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=\"+uu,RaportFluxComenzi.adresaZoom(RaportFluxComenzi.zoom(\"C_Invoice\",uu)));show(\"K09\",\"missing UU\",null,RaportFluxComenzi.zoom(\"C_Invoice\",null));show(\"K09\",\"malformed identifier\",null,RaportFluxComenzi.zoom(\"C_Invoice\",\"CI-42\"));\n  show(\"K08\",\"native rule -10pct\",\"108.90\",FisaCanalCalcul.valoareModificata(\"121.00\",\"PROCENT\",\"-10\"));\n  precedence(\"native only\",null,null,\"IDEMPIERE|121.00\");precedence(\"platform only\",\"108.90\",null,\"PLATFORMA|108.90\");precedence(\"channel on top\",\"108.90\",\"100.00\",\"CANAL|100.00\");precedence(\"channel blank falls back\",\"108.90\",\" \",\"PLATFORMA|108.90\");\n  show(\"K35\",\"same firm Y FISA\",null,gate(true,true,11,11));show(\"K35\",\"other firm\",\"platforma.poarta.alta_firma\",gate(true,true,11,22));show(\"K35\",\"inactive\",\"platforma.poarta.inactiva\",gate(false,true,11,11));show(\"K35\",\"writing disabled\",\"platforma.poarta.scriere_nepermisa\",gate(true,false,11,11));\n }\n}\n",
+  "run_recipe": "from pathlib import Path\nimport subprocess,json,hashlib,time,os,re\nw=Path('D:/CodexWork/a06-oracles');r=Path('D:/CodexWork/eva-audit-p01-readonly-20261102/idempiere/plugins/com.eva.ro.contab');s=Path('D:/CodexWork/eva-audit-secondary-20261102');jdk=Path('C:/Program Files/Java/jdk-21/bin')\nh=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()\nres=[]\nfor k,j in [('git','cod-master-contab.jar'),('installed','com.eva.ro.contab_13.0.0.jar')]:\n cls=w/('classes-'+k);cls.mkdir(exist_ok=True)\n cp=';'.join(str(x) for x in [cls,s/j,s/'org.adempiere.base_13.0.0.202603090043.jar',s/'org.adempiere.base.process_13.0.0.202603090043.jar','D:/CodexWork/a05-support-jars/*','D:/CodexWork/eva-a01-java/lib/*'])\n for suite,f in [('OracleProbe',w/'OracleProbe.java'),('TestT22Pagina',r/'test/TestT22Pagina.java')]:\n  c=subprocess.run([jdk/'javac.exe','-encoding','UTF-8','-cp',cp,'-d',cls,f,*([r/'test/TestT22Flux.java'] if suite=='TestT22Pagina' else [])],cwd=r,capture_output=True,timeout=12);result={'jar':k,'jar_sha256':h(s/j),'suite':suite,'source_sha256':h(f),'compile_return':c.returncode}\n  if c.returncode==0:\n   y=subprocess.run([jdk/'java.exe','-Dstdout.encoding=UTF-8','-Dstderr.encoding=UTF-8','-Duser.timezone=UTC','-Djava.net.useSystemProxies=false','-cp',cp,('com.eva.ro.contab.corelare.' if suite=='OracleProbe' else '')+suite],cwd=r,capture_output=True,timeout=18);txt=y.stdout.decode('utf8','replace');result.update(run_return=y.returncode,stderr=y.stderr.decode('utf8','replace')[:400],stdout_sha256=hashlib.sha256(y.stdout).hexdigest(),ok_lines=sum(bool(re.match(r'^\\s*OK\\s',z)) for z in txt.splitlines()),fail_lines=[z for z in txt.splitlines() if re.match(r'^\\s*FAIL\\s',z)],observations=([z.split('\\t') for z in txt.splitlines()] if suite=='OracleProbe' else [z.strip() for z in txt.splitlines() if re.search(r'target|<a>|Record_UU|cronologia c11|href=|fereast',z,re.I)]))\n  else:result['compiler_message']=c.stderr.decode('utf8','replace')[:650]\n  res.append(result)\n  print(k,suite,result.get('run_return'),result.get('ok_lines'),result.get('fail_lines'),result.get('compiler_message'),result.get('stderr','')[:70])\n(w/'actual.json').write_text(json.dumps(res,ensure_ascii=False,indent=2),encoding='utf8')\n\n",
+  "input_gloss": "K07 6, K09 3, K08 5, K35 4 aserțiuni nominale pe JAR. TestT22Pagina are 33 verificări pe JAR, din care sunt izolate probele de HTML/link. Acestea nu devin 33 criterii noi și nici 8 cazuri funcționale.",
+  "case_count": 4,
+  "unique_R7_criteria": 4,
+  "whole_criteria_promoted": 0,
+  "user_interfaces_or_ERPs_modified": 0,
+  "score": null,
+  "independent_reviewer": "A11"
+}

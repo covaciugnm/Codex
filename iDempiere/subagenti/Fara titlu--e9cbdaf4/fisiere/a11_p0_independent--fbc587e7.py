@@ -13,7 +13,7 @@ def call(method,url,token=None,body=None,extra=None):
 def item(fid,steps,expected,actual,conditions):
  cases.append(dict(id=fid,steps=steps,expected=expected,observed=actual,scope=conditions))
 # F01: same cabinet vs unknown unique code, new email and persisted identity assessed separately.
-reg=call('POST','/auth/register',body={'name':'A11 probe person','email':'a11-independent@example.invalid','password':'A11-Only-local-Pass!','cui':'RO71000002'})
+reg=call('POST','/auth/register',body={'name':'A11 probe person','email':'a11-independent@example.invalid','password':'[CREDENTIAL_REDACTED]','cui':'RO71000002'})
 with SessionLocal() as se:
  result=se.query(IamUser).filter_by(email='a11-independent@example.invalid').one_or_none()
  account=[result.managing_uuid,result.role] if result else None

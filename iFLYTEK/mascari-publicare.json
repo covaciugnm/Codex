@@ -32,6 +32,12 @@
       }
     },
     {
+      "path": "subagenti/Fara titlu--8d70ecec/fisiere/AliasMethodInventory--b3373aa2.java",
+      "masked_values": {
+        "signed_url_credential": 1
+      }
+    },
+    {
       "path": "subagenti/Fara titlu--8d70ecec/fisiere/repair-method-map-smoke-20261101--d595f1b0.cjs",
       "masked_values": {
         "signed_url_credential": 1

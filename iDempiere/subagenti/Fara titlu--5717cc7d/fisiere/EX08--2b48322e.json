@@ -1,0 +1,772 @@
+{
+  "schema": "cesiro1.EX08.execution.v1",
+  "case": "EX08",
+  "owner": "A10",
+  "consumer": "A12",
+  "reviewer": "A11",
+  "quality_score": null,
+  "state": "A_REVERIFICA_DE_A12",
+  "signed_plan_sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+  "base": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "origin": "C external_orders.ext_bp original, postgres local restaurat din schema cu 93 migrații. Frontul W și serviciul C sunt separate în EX01/EX03.",
+  "sources": {
+    "before": "2026-11-02T16:18:15.585334+00:00",
+    "after": "2026-11-02T16:34:25.398901+00:00",
+    "primary_artifacts": 850,
+    "schema_fixture_migrations": 93,
+    "all_sha_verified": true,
+    "phases": {
+      "DELEGAT_INTERFATA": 487,
+      "EXCLUS_EXECUTIE_EX08_FARA_LEGATURA_STATICA": 48,
+      "EXCLUS_EXECUTIE_EX08_TEST_ALTE_RUTE": 114,
+      "INCLUS_DEPENDENTA_IMPORT_A_API_EXT": 173,
+      "INCLUS_DEPENDENTA_STATICA_TRANZITIVA": 8,
+      "INCLUS_RUTA_SAU_TEST_NOMINAL": 20
+    },
+    "graph_limit": "Analyse statique par AST des imports Python et marqueurs structurés. Imports dynamiques signalés; aucune acceptation implicite de chaque fichier ou du front end. Les migrations hors corpus 850 sont reliées à leur manifeste séparé."
+  },
+  "cases": [
+    {
+      "id": "EX08-POS-A",
+      "actor_role": "cheie sintetică de citire C, rol PG SELECT-only și default_transaction_read_only",
+      "tenant": "canal-a / canal-b, fără conturi reale",
+      "expected": "Setul corect de (tenant, PK, număr) fără dubluri. ID afișat nu este o cheie globală.",
+      "actual": [
+        {
+          "size": 1,
+          "measured": 15,
+          "warmup": 3,
+          "median_ms": 3.2072,
+          "p95_ms": 4.0635,
+          "errors": 0,
+          "stable_signature": "257515a9bff96af5cece869e982b2475caae25e36b7317f0a15c40c5f4eb927a",
+          "all_expected_unique": true,
+          "ledger_unchanged_all_three": true
+        },
+        {
+          "size": 100,
+          "measured": 15,
+          "warmup": 3,
+          "median_ms": 19.4011,
+          "p95_ms": 22.2691,
+          "errors": 0,
+          "stable_signature": "7fdc5fb166386c5ef0ecfdd2f61ed2f7105a1a0d1990f9102eb5cb814cfcf5d5",
+          "all_expected_unique": true,
+          "ledger_unchanged_all_three": true
+        },
+        {
+          "size": 1000,
+          "measured": 15,
+          "warmup": 3,
+          "median_ms": 171.6311,
+          "p95_ms": 193.7774,
+          "errors": 0,
+          "stable_signature": "fe3510416896c27e68138faa625880514de6c52e0fe407bea9c3df965a95b9f8",
+          "all_expected_unique": true,
+          "ledger_unchanged_all_three": true
+        }
+      ],
+      "entries_per_trial": "3 repetări, 1 warm-up și 5 cereri măsurate pentru fiecare volum și per repetare",
+      "DB": "ledger tenant/count/total verificat înainte și după citire; propriile DB și rolurile temporare eliberate",
+      "front": "HTTP Flask in-process fără trafic la comerciant. EX01/EX03 documentează interfața fiecărei origini.",
+      "idempotency": "Aceleași rezultate canonice în trei procese și baze noi; nu dovedește E2E POST iDempiere la retry."
+    },
+    {
+      "id": "EX08-M1-M2",
+      "actor_role": "executant de laborator; schimbări în copii ale modulului original în memorie",
+      "expected": "Suita trebuie să eșueze pentru livrare repetată și pentru lipsa filtrului de canal.",
+      "actual": [
+        {
+          "run": 1,
+          "id": "duplicate_origin",
+          "detector": "duplicate_origin",
+          "killed": true,
+          "failure_modes": [
+            "duplicate_origin",
+            "count_changed"
+          ],
+          "fixture_only": true
+        },
+        {
+          "run": 1,
+          "id": "remove_channel_filter",
+          "detector": "foreign_channel",
+          "killed": true,
+          "failure_modes": [
+            "foreign_channel",
+            "count_changed"
+          ],
+          "fixture_only": true
+        },
+        {
+          "run": 2,
+          "id": "duplicate_origin",
+          "detector": "duplicate_origin",
+          "killed": true,
+          "failure_modes": [
+            "duplicate_origin",
+            "count_changed"
+          ],
+          "fixture_only": true
+        },
+        {
+          "run": 2,
+          "id": "remove_channel_filter",
+          "detector": "foreign_channel",
+          "killed": true,
+          "failure_modes": [
+            "foreign_channel",
+            "count_changed"
+          ],
+          "fixture_only": true
+        },
+        {
+          "run": 3,
+          "id": "duplicate_origin",
+          "detector": "duplicate_origin",
+          "killed": true,
+          "failure_modes": [
+            "duplicate_origin",
+            "count_changed"
+          ],
+          "fixture_only": true
+        },
+        {
+          "run": 3,
+          "id": "remove_channel_filter",
+          "detector": "foreign_channel",
+          "killed": true,
+          "failure_modes": [
+            "foreign_channel",
+            "count_changed"
+          ],
+          "fixture_only": true
+        }
+      ],
+      "source_unmodified": true,
+      "technical_oracle": "Filtrare prin API și SQL al modulului real; mutații deliberate pe implementarea din copie, validate prin cardinalitate, unicitate și slug tenant.",
+      "DB": "Înregistrările business sintetice rămân în clonele temporare. Nu se propagă în registru."
+    }
+  ],
+  "hardware": {
+    "machine": "AMD64",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cpu_logical": 24
+  },
+  "latency": "N=15 măsurători agregate per volum, locale, p95 nearest-rank fără SLA; 3 probe worker independente, aceleași ID de input.",
+  "crosswalk": {
+    "P01_completed_population_reviewed_by_A12": 652,
+    "R4_original_criteria": 1868,
+    "distinct_records": 1868,
+    "real_cases": 652,
+    "prior_reverse_edges": 7274,
+    "previous_symmetric_difference": 0,
+    "tasks": {
+      "T20": {
+        "canonical": null,
+        "approved_EX": [
+          "EX01",
+          "EX02",
+          "EX03",
+          "EX04",
+          "EX07",
+          "EX08"
+        ],
+        "at_cutoff": "agregat",
+        "source_literal": [
+          "«AWB-urile de la curieri, de la e-mailuri fișierele ce vin cu plățile, de la cele bancare plățile cu comisioane cu tot — exemplu: de la el a plecat 5 lei, la noi au ajuns 3 lei — și comenzile care vin de pe site și facturile emise care au fost emise în trecut» (proprietar, 09.10.2026 14:32; sursa: Documentatie/echipa-2026-10-09/T20-corelare-comenzi-facturi-awb-incasari/01_brief_echipa.md)"
+        ],
+        "belongs_to_EX08": true,
+        "actual_successors": [
+          {
+            "target": "T220",
+            "state": "montat",
+            "canonical": "P01.C10.T0011",
+            "literal_original_request": "«AWB-urile de la curieri, de la e-mailuri fișierele ce vin cu plățile, de la cele bancare plățile cu comisioane cu tot — exemplu: de la el a plecat 5 lei, la noi au ajuns 3 lei — și comenzile care vin de pe site și facturile emise care au fost emise în trecut» (proprietar, 09.10.2026 14:32; sursa: Documentatie/echipa-2026-10-09/T20-corelare-comenzi-facturi-awb-incasari/01_brief_echipa.md)",
+            "origin_request_literal_equal": true,
+            "functional_verdict": "NEDETERMINAT_SEPARAT"
+          }
+        ],
+        "current_fisa": {
+          "file": "executie/R4/taskuri/Fisa_T20.json",
+          "sha256": "977ae2218e2999cfe39232320e82c301dbaf99d47c7e43b4616919bdb8091baa"
+        },
+        "criteria_1868": [
+          "T20-R2-001"
+        ],
+        "decision": "A12 citește decizia agregării și criteriile sursă; contractul de azi nu retroactivează probe la data închiderii."
+      },
+      "T22": {
+        "canonical": null,
+        "approved_EX": [
+          "EX03",
+          "EX04",
+          "EX05",
+          "EX07",
+          "EX08"
+        ],
+        "at_cutoff": "agregat",
+        "source_literal": [
+          "«sa implementam functiile de corelare a comenzilor transcrise de pe site-ul cesiro.com - in comenzi in idempiere - trebuie sa existe un mecanism de validare a comenzilor si transmitere automata in iDempiere» (proprietar, 09.10.2026 22:30; sursa: Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/00_cerinta_proprietar.md)"
+        ],
+        "belongs_to_EX08": true,
+        "actual_successors": [
+          {
+            "target": "T216",
+            "state": "montat",
+            "canonical": "P01.C10.T0007",
+            "literal_original_request": "«sa implementam functiile de corelare a comenzilor transcrise de pe site-ul cesiro.com - in comenzi in idempiere - trebuie sa existe un mecanism de validare a comenzilor si transmitere automata in iDempiere» (proprietar, 09.10.2026 22:30; sursa: Documentatie/echipa-2026-10-09/T22-flux-comenzi-cesiro-reconciliere-incasari/00_cerinta_proprietar.md)",
+            "origin_request_literal_equal": true,
+            "functional_verdict": "NEDETERMINAT_SEPARAT"
+          }
+        ],
+        "current_fisa": {
+          "file": "executie/R4/taskuri/Fisa_T22.json",
+          "sha256": "2d6502efcf21029eeb9d06ddce097d213eeb62d6fb3e9e89ba5073db8f6b1276"
+        },
+        "criteria_1868": [
+          "T22-R2-001",
+          "T22-R2-002"
+        ],
+        "decision": "A12 citește decizia agregării și criteriile sursă; contractul de azi nu retroactivează probe la data închiderii."
+      },
+      "T35": {
+        "canonical": null,
+        "approved_EX": [
+          "EX01",
+          "EX02",
+          "EX04",
+          "EX06",
+          "EX08"
+        ],
+        "at_cutoff": "agregat",
+        "source_literal": [
+          "«trebuie sa existe in iDempiere - pluginurile - setabile din setarile aplicatiei iDempiere - bifa de activare si loc de inserare cheie etc. proiect pentru fiecare platforma si fiecare platforma de consolidare comenzi etc.» (proprietar, 10.10.2026; sursa: Documentatie/echipa-2026-10-09/T35-cadru-platforme-vanzari/00_cerinta_proprietar.md (Î2))"
+        ],
+        "belongs_to_EX08": true,
+        "actual_successors": [
+          {
+            "target": "T211",
+            "state": "integrat",
+            "canonical": "P01.C10.T0002",
+            "literal_original_request": "«trebuie sa existe in iDempiere - pluginurile - setabile din setarile aplicatiei iDempiere - bifa de activare si loc de inserare cheie etc. proiect pentru fiecare platforma si fiecare platforma de consolidare comenzi etc.» (proprietar, 10.10.2026; sursa: Documentatie/echipa-2026-10-09/T35-cadru-platforme-vanzari/00_cerinta_proprietar.md (Î2))",
+            "origin_request_literal_equal": true,
+            "functional_verdict": "NEDETERMINAT_SEPARAT"
+          }
+        ],
+        "current_fisa": {
+          "file": "executie/R4/taskuri/Fisa_T35.json",
+          "sha256": "42ba46eec05ce7323ec573f08b77ca3b2667e449105696f19bb9feaa7ae92d73"
+        },
+        "criteria_1868": [
+          "T35-R2-001",
+          "T35-R2-003",
+          "T35-R2-004",
+          "T35-R2-005",
+          "T35-R2-006",
+          "T35-R2-007"
+        ],
+        "decision": "A12 citește decizia agregării și criteriile sursă; contractul de azi nu retroactivează probe la data închiderii."
+      },
+      "T352": {
+        "canonical": "P01.C10.T0028",
+        "approved_EX": [
+          "EX05",
+          "EX06"
+        ],
+        "at_cutoff": "integrat",
+        "source_literal": "«pe fiecare canal operatori responsabili pot modifica pretul si/sau cantitatile - vom introduce o coloana aferenta unor cantitati suplimentare in bucati  si/sau procent - care sa fie la furnizor si usor de aprovizionat - tot aici se va putea seta si termenul de livrare toate astea pe tabele specifice fiecarui canal + fiecarui articol din lista canalului - inclusiv sa introducem o interfata de modificare cu AI + niste functi rapide» (23.10.2026, `21_` tranșa 1, D-4)",
+        "belongs_to_EX08": false,
+        "actual_successors": [],
+        "current_fisa": {
+          "file": "executie/R4/taskuri/Fisa_T352.json",
+          "sha256": "f899ae1e7bb9ff0d62396c87a701b4bfe707b78fc382603fba97cc47aea87b23"
+        },
+        "criteria_1868": [],
+        "decision": "Delimitare explicită; T352/T354 nu primesc credit EX08."
+      },
+      "T354": {
+        "canonical": "P01.C03.T0028",
+        "approved_EX": [
+          "EX05"
+        ],
+        "at_cutoff": "montat",
+        "source_literal": "«1 corelat cu faptul ca prima data facem inventar la produse + seturi - dar in idempiere ele stau ca si bucati si se scad ca si bucati - in WMS pot sa stea atat ca si produse cat si ca si seturi - tabela de gestiune WMS - in cazul in care este nevoie doar de o componenta dintrun set intaii trebuie facuta miscare de stoc in gestiune -1 set + 6 farf.i + 6 farf.d+6 farf.a -- totul cu nota de dezambalare - asa cum se pot crea seturi prin nota de ambalare» (23.10.2026, `21_` tranșa 2, D-5) + «la vanzare chiar daca vindem seturi cand se vinde si un set contien x z y bucati din 3 prfoduse diferite sev inde setul se scade apoi din produsele independete din bucatile lor» (23.10.2026, `21_` tranșa 5, Î-2)",
+        "belongs_to_EX08": false,
+        "actual_successors": [],
+        "current_fisa": {
+          "file": "executie/R4/taskuri/Fisa_T354.json",
+          "sha256": "29631bc6ad3a1a1cbb65b2fe364599b7e0ed17ae2d303cca9e06e837f4b83240"
+        },
+        "criteria_1868": [
+          "T354-R2-001",
+          "T354-R2-002",
+          "T354-R2-003",
+          "T354-R2-004",
+          "T354-R2-007",
+          "T354-R2-008",
+          "T354-R2-009",
+          "T354-R2-010",
+          "T354-R2-011",
+          "T354-R2-012",
+          "T354-R2-014",
+          "T354-R2-015",
+          "T354-R2-016",
+          "T354-R2-017",
+          "T354-R2-019",
+          "T354-R2-020",
+          "T354-R2-021",
+          "T354-R2-023",
+          "T354-R2-025",
+          "T354-R2-026"
+        ],
+        "decision": "Delimitare explicită; T352/T354 nu primesc credit EX08."
+      }
+    }
+  },
+  "signed_parent_edges": [
+    {
+      "EX": "EX01",
+      "control": "A10-CK-01",
+      "pipeline": "A10-F01",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/67/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A10",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX01",
+      "control": "A08-C03",
+      "pipeline": "A08-P01",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/53/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A10",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX01",
+      "control": "A08-C27",
+      "pipeline": "A08-P07",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/59/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A10",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX02",
+      "control": "A01.C03",
+      "pipeline": "A01.P01",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/0/resolved_control_ids/1",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A01",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX02",
+      "control": "A01.C10",
+      "pipeline": "A01.P02",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/1/resolved_control_ids/1",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A01",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX02",
+      "control": "A01.C13",
+      "pipeline": "A01.P04",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/3/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A01",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX02",
+      "control": "A08-C05",
+      "pipeline": "A08-P01",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/53/resolved_control_ids/4",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A01",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX02",
+      "control": "A08-C16",
+      "pipeline": "A08-P04",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/56/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A01",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX02",
+      "control": "A06-C25",
+      "pipeline": "A06-P6",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/45/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A01",
+      "consumer": "A08"
+    },
+    {
+      "EX": "EX03",
+      "control": "A08-C11",
+      "pipeline": "A08-P03",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A06"
+    },
+    {
+      "EX": "EX03",
+      "control": "A08-C13",
+      "pipeline": "A08-P03",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A06"
+    },
+    {
+      "EX": "EX03",
+      "control": "A08-C14",
+      "pipeline": "A08-P03",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/3",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A06"
+    },
+    {
+      "EX": "EX03",
+      "control": "A06-C10",
+      "pipeline": "A06-P2",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/41/resolved_control_ids/5",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A06"
+    },
+    {
+      "EX": "EX03",
+      "control": "A06-C18",
+      "pipeline": "A06-P4",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/43/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A06"
+    },
+    {
+      "EX": "EX04",
+      "control": "A06-C18",
+      "pipeline": "A06-P4",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/43/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A02"
+    },
+    {
+      "EX": "EX04",
+      "control": "A02.C014",
+      "pipeline": "A02.P05",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/13/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A02"
+    },
+    {
+      "EX": "EX04",
+      "control": "A02.C015",
+      "pipeline": "A02.P05",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/13/resolved_control_ids/1",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A02"
+    },
+    {
+      "EX": "EX04",
+      "control": "A10-CK-12",
+      "pipeline": "A10-F03",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/69/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A02"
+    },
+    {
+      "EX": "EX05",
+      "control": "A06-C07",
+      "pipeline": "A06-P2",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/41/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A05"
+    },
+    {
+      "EX": "EX05",
+      "control": "A06-C10",
+      "pipeline": "A06-P2",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/41/resolved_control_ids/5",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A05"
+    },
+    {
+      "EX": "EX05",
+      "control": "A06-C18",
+      "pipeline": "A06-P4",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/43/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A05"
+    },
+    {
+      "EX": "EX05",
+      "control": "A06-C25",
+      "pipeline": "A06-P6",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/45/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A05"
+    },
+    {
+      "EX": "EX05",
+      "control": "A02.C022",
+      "pipeline": "A02.P05",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/13/resolved_control_ids/3",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A05"
+    },
+    {
+      "EX": "EX05",
+      "control": "A05-C01",
+      "pipeline": "A05-P01",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/33/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A06",
+      "consumer": "A05"
+    },
+    {
+      "EX": "EX06",
+      "control": "A08-C05",
+      "pipeline": "A08-P01",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/53/resolved_control_ids/4",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A09"
+    },
+    {
+      "EX": "EX06",
+      "control": "A08-C14",
+      "pipeline": "A08-P03",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/3",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A09"
+    },
+    {
+      "EX": "EX06",
+      "control": "A08-C16",
+      "pipeline": "A08-P04",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/56/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A09"
+    },
+    {
+      "EX": "EX06",
+      "control": "A08-C20",
+      "pipeline": "A08-P05",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/57/resolved_control_ids/1",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A09"
+    },
+    {
+      "EX": "EX06",
+      "control": "A09-C01",
+      "pipeline": "A09-P1",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/60/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A09"
+    },
+    {
+      "EX": "EX06",
+      "control": "A06-C25",
+      "pipeline": "A06-P6",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/45/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A08",
+      "consumer": "A09"
+    },
+    {
+      "EX": "EX07",
+      "control": "A07.K02",
+      "pipeline": "A07.P1",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/47/resolved_control_ids/1",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A07",
+      "consumer": "A03"
+    },
+    {
+      "EX": "EX07",
+      "control": "A07.K06",
+      "pipeline": "A07.P2",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/48/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A07",
+      "consumer": "A03"
+    },
+    {
+      "EX": "EX07",
+      "control": "A07.K12",
+      "pipeline": "A07.P3",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/49/resolved_control_ids/1",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A07",
+      "consumer": "A03"
+    },
+    {
+      "EX": "EX07",
+      "control": "A07.K21",
+      "pipeline": "A07.P5",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/51/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A07",
+      "consumer": "A03"
+    },
+    {
+      "EX": "EX07",
+      "control": "A03.CK11",
+      "pipeline": "A03.PL03",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/19/resolved_control_ids/2",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A07",
+      "consumer": "A03"
+    },
+    {
+      "EX": "EX08",
+      "control": "A10-CK-12",
+      "pipeline": "A10-F03",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/69/resolved_control_ids/0",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A10",
+      "consumer": "A12"
+    },
+    {
+      "EX": "EX08",
+      "control": "A10-CK-22",
+      "pipeline": "A10-F05",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/71/resolved_control_ids/1",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A10",
+      "consumer": "A12"
+    },
+    {
+      "EX": "EX08",
+      "control": "A06-C32",
+      "pipeline": "A06-P7",
+      "base_pointer": "Index_trasabilitate.json#/pipelines/46/resolved_control_ids/7",
+      "forward_verified": true,
+      "backward_verified": true,
+      "executor": "A10",
+      "consumer": "A12"
+    }
+  ],
+  "scope_change": "Niciun nou task finalizat. EX08 verifică noul contract transversal și probele mutate, nu reemite verdict pentru 652 taskuri.",
+  "evidence": [
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX08_trials.py",
+      "sha256": "cf41f7824fa67ead6af0ab67134c26ed0d928b21b7e98822bbe5cd941001029f"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX08_trial_1.json",
+      "sha256": "de02134e1da8bbd35c6959274d925a29a799a165ec49079b1b253401edceb5a1"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX08_trial_2.json",
+      "sha256": "6a51c30bb9c206743b2fc14d428ede2ffd93cfbd6709632b4a0690d8c050db61"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX08_trial_3.json",
+      "sha256": "c3dffee06458d7625aca7def6ef537fa516848c59c089799abaf43abf4b18320"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX08_manifest.py",
+      "sha256": "c1772ab576102c048def0e03ee5b2a65d2a37e591bd6b40e88cf16fc226897ee"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX08_manifest.json",
+      "sha256": "6dee111f05d91fa7479f781b7f9f07482303dc735ed6f2f65c181352b5887901"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX01.json",
+      "sha256": "e5db251b0ddf22e4302061cf478b6ca0eaaad527ec587ae761f88ec85b772fd4"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX01_peer_A08.json",
+      "sha256": "2b6f526518d8e922f8958bc1afd58a1e54bbf24c8b358179915603ab733b89c4"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/Copie_verificata_CESIRO1.json",
+      "sha256": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/Migrari_dependente_fixture.json",
+      "sha256": "a36b714cf3ea3b7e72744642229a4806f485aadb919b9568c0dfc8ed8356ecb6"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/Plan_CESIRO1_R3.json",
+      "sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef"
+    },
+    {
+      "file": "executie/R4/Registru_1868.json",
+      "sha256": "ef764ed18874939b45c17fecdf824afec9d535f1aee6d19de679c789273beab6"
+    },
+    {
+      "file": "executie/A11_ledger_652_R4.json",
+      "sha256": "e8660f72e5523d4237629c1f7e63efb42342dcc61230f04f50be9cff15a14a16"
+    }
+  ],
+  "dependencies": [
+    "Urmărește rezultatele celorlalte EX și semnăturile pereche separat; EX08 nu le aprobă și nu se substituie lor.",
+    "Teste API active pe copie C, nu reclădire/probare integrală site/ERP. Nu se deduce realitatea rutării publice C din aceste măsurători."
+  ],
+  "rework": [
+    "Prima proiectare a insertului sintetic a fost refuzată de SQL pentru tipul generate_series, JSON client obligatoriu și numele coloanei external_id. Fixture corectată și rerulată complet din baze noi; aceste erori nu sunt constatari de produs."
+  ],
+  "next": "A12 confirmă sau contestă normele T20/T22/T35, delimitarea celorlalte taskuri și reproducerea mutanților. A11 decide."
+}

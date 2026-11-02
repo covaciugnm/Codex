@@ -1,0 +1,652 @@
+{
+  "schema": "eva.audit.supplement.A02.dictionary.R10.v1",
+  "created_utc": "2026-11-02T20:54:41.728128+00:00",
+  "target": "Supliment distinct, fără retroactivitate sau notă R10. Criteriile R10 deja acoperite nu au fost recalculate ca probe ERP noi.",
+  "cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "provisional_A12_register": {
+    "file": "D:\\CodexWork\\a12-r10-preview\\Registru_reexecutare_R10.json",
+    "sha256": "be4626e6c9503f4f65226174026201d323a7d98a8b75d86c831553baf668bf6a",
+    "selected": [
+      {
+        "task": "T11",
+        "canonical": null,
+        "criterion": "T11-R2-019",
+        "R10": "ZERO_ZERO_PE_CELE_DOUĂ_FIȘIERE_ÎN_INTERVALUL_EXACT_R10",
+        "R10_associated_evidence_ids": [
+          "EV10-3ba99e5e95359d8c65eb96b5",
+          "EV10-daf8a6af48cac6b8ccb6353a"
+        ],
+        "next": "Contract static despre două fișiere concrete. Nu implică absența vreunui nou AD_Element introdus prin alt mecanism sau în altă versiune."
+      },
+      {
+        "task": "T227",
+        "canonical": "P01.C11.T0005",
+        "criterion": "T227-R2-021",
+        "R10": "NEEXECUTAT",
+        "R10_associated_evidence_ids": [
+          "EV10-c4bd7fff80600ac68ed28031"
+        ],
+        "next": "Reproduce SELECT + grep. Confruntă independent cu 1 / 1 / egal."
+      },
+      {
+        "task": "T326",
+        "canonical": "P01.C03.T0012",
+        "criterion": "T326-R2-032",
+        "R10": "SUBCONDIȚIE_NOMINALĂ_REEXECUTATĂ_R10",
+        "R10_associated_evidence_ids": [
+          "EV10-f410e359facac9bbc0ed3612",
+          "EV10-f618f5c20aa3151a30239f34"
+        ],
+        "next": "La reevaluare nu au fost repornite containere operaționale. Rândul zero de jurnal în boot 2 arată ce a înregistrat versiunea istorică. Existența indexului curent nu dovedește singură idempotența la următoarea pornire."
+      },
+      {
+        "task": "T333",
+        "canonical": "P01.C03.T0019",
+        "criterion": "T333-R2-044",
+        "R10": "SUBCONDIȚIE_NOMINALĂ_REEXECUTATĂ_R10",
+        "R10_associated_evidence_ids": [
+          "EV10-bdb9fd6e9d8ed0cd3f14b7b3",
+          "EV10-9e25bb5384e5dad6ea0e17b9"
+        ],
+        "next": "Numărul global create=0 nu enumeră individual toate tabelele și nu garantează următoarea actualizare. Confruntați actorul, versiunea și dicționarul înainte de achitarea completă."
+      }
+    ],
+    "plan": {
+      "file": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R10_pregatire\\A12\\Plan_R10_164_et_dix_zones.json",
+      "sha256": "75f57318cb04346e90d8cfcd6be48717082f9ee3b23b1882979e90e050eda859",
+      "assigned_A02": [
+        "T11-R2-019",
+        "T227-R2-021",
+        "T256-R2-013",
+        "T314-R2-016",
+        "T326-R2-032",
+        "T333-R2-044"
+      ]
+    }
+  },
+  "T11-R2-019": {
+    "expected": "0 linii diff EvaMetadata; 0 linii adăugate RegesTabele în afara EVA_Actiune.",
+    "previous_A12": "Caz deja executat cu rezultat 0/0 în intervalul exact, cu mutant +1 din A12. Suplimentul verifică identitatea obiectelor și separă driftul ulterior.",
+    "independent_git": {
+      "rev_objects": {
+        "7012faab29c474c00c00768ccc52c9f224bffa4b": [
+          {
+            "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/setup/EvaMetadata.java",
+            "oid": "22318b0ab714e17bb2a5c4dc7d0a4271166b83e3"
+          },
+          {
+            "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/reges/RegesTabele.java",
+            "oid": "3bede85291524755d1c3caeebd43b973478e31f4"
+          }
+        ],
+        "faa1b5424df1cc854c93398110a7216049d83b4e": [
+          {
+            "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/setup/EvaMetadata.java",
+            "oid": "22318b0ab714e17bb2a5c4dc7d0a4271166b83e3"
+          },
+          {
+            "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/reges/RegesTabele.java",
+            "oid": "5db9a081003852c21274cf914ea38ca7fb0a0598"
+          }
+        ],
+        "6df998aee0e514d30856c461962afe99ebd0d113": [
+          {
+            "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/setup/EvaMetadata.java",
+            "oid": "9a013f7ecfa68478c3e2b1bc8786fe816ae2659a"
+          },
+          {
+            "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/reges/RegesTabele.java",
+            "oid": "2111559ce5050aadb2a0e25f297d8007846f97de"
+          }
+        ]
+      },
+      "integration_interval": {
+        "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/setup/EvaMetadata.java": {
+          "sha256_diff": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "total_patch_lines": 0,
+          "removed_source_lines": 0,
+          "added_source_lines": 0,
+          "added_not_allowed_EVA_Actiune": 0,
+          "excerpt_only_for_short_patch": null
+        },
+        "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/reges/RegesTabele.java": {
+          "sha256_diff": "348c45af76b95e1c336ea3596e2d1b0391d34612dd9f52416a85017df82d66c7",
+          "total_patch_lines": 7,
+          "removed_source_lines": 1,
+          "added_source_lines": 1,
+          "added_not_allowed_EVA_Actiune": 0,
+          "excerpt_only_for_short_patch": {
+            "removed": [
+              "        {\"EVA_Actiune\", REF_STRING, 60, \"Apelul: trimitere / citire rezultate / confirmare citire\"},"
+            ],
+            "added": [
+              "        {\"EVA_Actiune\", REF_STRING, 60, \"Apelul: token / trimitere / citire rezultate / confirmare citire\"},"
+            ]
+          }
+        }
+      },
+      "post_integration_drift": {
+        "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/setup/EvaMetadata.java": {
+          "sha256_diff": "e23fc64a3a2159c82d5e0dcd1fdcbf4884744ab98dc89f522e0f29efcedc7633",
+          "total_patch_lines": 5348,
+          "removed_source_lines": 67,
+          "added_source_lines": 5238,
+          "added_not_allowed_EVA_Actiune": 5238,
+          "excerpt_only_for_short_patch": null
+        },
+        "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/reges/RegesTabele.java": {
+          "sha256_diff": "0a748ced7ea3d63149263647f8da660e07eab161e0932edbaff9031fac965243",
+          "total_patch_lines": 38,
+          "removed_source_lines": 8,
+          "added_source_lines": 22,
+          "added_not_allowed_EVA_Actiune": 22,
+          "excerpt_only_for_short_patch": null
+        }
+      },
+      "merge_base": "7012faab29c474c00c00768ccc52c9f224bffa4b",
+      "branch_commits": 7
+    },
+    "disposition": "CONFIRMAT_0_0_STRICT_ÎN_INTERVALUL_ISTORIC_DIN_PLAN",
+    "scope": "Diferența la cutoff față de vârful T11 arată modificări ulterioare ale ambelor fișiere. Nu aplica oracle 0/0 între commituri alese arbitrar. Comparația de cod nu probează dicționarul instalat ori inexistența altor AD-uri."
+  },
+  "T227-R2-021": {
+    "expected": "Un AD_Menu activ al formei; un nod din arborele meniu cu seqno 298; numele AD egal cu ținta item din tema Administrare.",
+    "prior_A12": "NEEXECUTAT în preview, atribuire A02, fără execuție nominală asociată.",
+    "historical_receipts": [
+      {
+        "path": "Documentatie/echipa-2026-10-09/T227-verificare-cifre-saga/02_plan.md",
+        "git_blob": "83cbb3a10ea92002faab7aa601ba4c4ddebf3d36",
+        "sha256": "62dc2e3e5d08c9c68943ba38d5f331fac9a8c4f1367bc44ad2aa6cd58a68a46f",
+        "line_count": 474,
+        "relevant": [
+          {
+            "line": 132,
+            "text": "| K-12c | pe cabinetul cu jarul vârfului: 1 `AD_Menu`, nod seqno 298, `item(…)` = `AD_Menu.name` | SELECT + grep | 1 / 1 / egal |"
+          }
+        ]
+      },
+      {
+        "path": "Documentatie/echipa-2026-10-09/T227-verificare-cifre-saga/dovezi-06/20_proba/jurnal_r1.txt",
+        "git_blob": "079ee03d6b061f8d1662439d91e0807f4b093563",
+        "sha256": "45a44aee7db62f608ccb0ee772ad0f16a475633340458978b0e231ac93600178",
+        "line_count": 147,
+        "relevant": [
+          {
+            "line": 5,
+            "text": "PAS K-12c | pe cabinetul cu jarul vârfului: 1 AD_Menu activ al ecranului, nodul cu seqno 298 în arborele meniului, numele = item(t227.meniu) | așteptat: 1|298|Verificare import SAGA | observat: 1|298|Verificare import SAGA | DA"
+          }
+        ]
+      },
+      {
+        "path": "Documentatie/echipa-2026-10-09/T227-verificare-cifre-saga/dovezi-07-r1/06_proba/jurnal_r1.txt",
+        "git_blob": "c1ebef3322b672d34cbbbc2ae511de392f67493d",
+        "sha256": "ade68a5a30860aa6d16812064a8bc8b1358e8f79f02269efc9cda1477e2add4c",
+        "line_count": 147,
+        "relevant": [
+          {
+            "line": 5,
+            "text": "PAS K-12c | pe cabinetul cu jarul vârfului: 1 AD_Menu activ al ecranului, nodul cu seqno 298 în arborele meniului, numele = item(t227.meniu) | așteptat: 1|298|Verificare import SAGA | observat: 1|298|Verificare import SAGA | DA"
+          }
+        ]
+      },
+      {
+        "path": "Documentatie/echipa-2026-10-09/T227-verificare-cifre-saga/dovezi-07-r1/06_proba/jurnal_r2.txt",
+        "git_blob": "7d991dec2b10307b1bfa5dacd5d5c0f640dbef82",
+        "sha256": "0f2414ba069e4ecf28af19f89b27006d6520f5838d70029c8f9e4159790d392b",
+        "line_count": 147,
+        "relevant": [
+          {
+            "line": 5,
+            "text": "PAS K-12c | pe cabinetul cu jarul vârfului: 1 AD_Menu activ al ecranului, nodul cu seqno 298 în arborele meniului, numele = item(t227.meniu) | așteptat: 1|298|Verificare import SAGA | observat: 1|298|Verificare import SAGA | DA"
+          }
+        ]
+      },
+      {
+        "path": "Documentatie/echipa-2026-10-09/T227-verificare-cifre-saga/dovezi-07-r1/06_proba/jurnal_r3.txt",
+        "git_blob": "5fd40eaac7fc5d7da5b28ddf99ceae1b37e5cebf",
+        "sha256": "62b34bf5be94d887e812472ccbcc0f2c143565a62e14defb87b46567e5ce2116",
+        "line_count": 147,
+        "relevant": [
+          {
+            "line": 5,
+            "text": "PAS K-12c | pe cabinetul cu jarul vârfului: 1 AD_Menu activ al ecranului, nodul cu seqno 298 în arborele meniului, numele = item(t227.meniu) | așteptat: 1|298|Verificare import SAGA | observat: 1|298|Verificare import SAGA | DA"
+          }
+        ]
+      },
+      {
+        "path": "Documentatie/echipa-2026-10-09/T227-verificare-cifre-saga/dovezi-08-r2/10_proba/jurnal_r1.txt",
+        "git_blob": "64697847cbd82f373eeb32d41aa98d424a60d457",
+        "sha256": "d27f0a75f4fa04a4e89b0960a2a6126c7a00e1844f9401041ea9e4eb555413a1",
+        "line_count": 147,
+        "relevant": [
+          {
+            "line": 5,
+            "text": "PAS K-12c | pe cabinetul cu jarul vârfului: 1 AD_Menu activ al ecranului, nodul cu seqno 298 în arborele meniului, numele = item(t227.meniu) | așteptat: 1|298|Verificare import SAGA | observat: 1|298|Verificare import SAGA | DA"
+          }
+        ]
+      },
+      {
+        "path": "Documentatie/echipa-2026-10-09/T227-verificare-cifre-saga/dovezi-08-r2/10_proba/jurnal_v007.txt",
+        "git_blob": "5b5948e81eab3e2b50e1c327ed12570ad417f8f1",
+        "sha256": "e8998b9e0ffb643b667fd7f9c27e1041464b31a4f206f0d3643f5ab5c0bc1471",
+        "line_count": 147,
+        "relevant": [
+          {
+            "line": 5,
+            "text": "PAS K-12c | pe cabinetul cu jarul vârfului: 1 AD_Menu activ al ecranului, nodul cu seqno 298 în arborele meniului, numele = item(t227.meniu) | așteptat: 1|298|Verificare import SAGA | observat: 1|298|Verificare import SAGA | DA"
+          }
+        ]
+      }
+    ],
+    "current_source": [
+      {
+        "path": "idempiere/plugins/com.eva.ro.saga.theme/src/com/eva/ro/saga/theme/EvaSagaMenuDef.java",
+        "sha256": "278f8ea569695be3ff14e97d5d877035bcfc589f4feac2f130c18c0331d0d87c",
+        "lines": [
+          {
+            "line": 636,
+            "text": ", item(\"Verificare import SAGA\", \"Verificare import SAGA\") // P01.T227 (02_ A-5, D-4.3)"
+          }
+        ]
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/setup/EvaMetadata.java",
+        "sha256": "6362b90bf7ccbd51729fcd276d02209ebb45880a97c5bf597faa1720879b6fd9",
+        "lines": [
+          {
+            "line": 359,
+            "text": "{com.eva.ro.contab.documente.Etichete.tInLimba(\"ro_RO\", \"t227.meniu\"), \"WSagaVerificareImportForm\", \"298\"},   // P01.T227 (02_ A-5, D-3.4 / D-4.3): «Verificare import SAGA», nume RO fix (ținta temei)"
+          }
+        ]
+      },
+      {
+        "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+        "sha256": "f7273418c203ac0464032d691ad998d76525b414d6f9a2c8c68923e46e43c03e",
+        "lines": [
+          {
+            "line": 15213,
+            "text": "t227.meniu\tVerificare import SAGA\tSAGA import check"
+          }
+        ]
+      }
+    ],
+    "theme_label": [
+      "Verificare import SAGA",
+      "Verificare import SAGA"
+    ],
+    "resolved_ro_label": "Verificare import SAGA",
+    "jars": [
+      {
+        "role": "frozen_git_contab",
+        "name": "cod-master-contab.jar",
+        "sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+        "class": "com/eva/ro/contab/setup/EvaMetadata.class",
+        "class_sha256": "bab70cd6e8c134b4f56ebacbb55a9f35a98a679b742c31eda5965bc488f57de7",
+        "class_contains_strings": {
+          "t227.meniu": true,
+          "WSagaVerificareImportForm": true,
+          "298": true
+        },
+        "ro_label": [
+          "t227.meniu\tVerificare import SAGA\tSAGA import check"
+        ]
+      },
+      {
+        "role": "cesiro_captured_contab",
+        "name": "com.eva.ro.contab_13.0.0.jar",
+        "sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+        "class": "com/eva/ro/contab/setup/EvaMetadata.class",
+        "class_sha256": "0bb045774de67c8929ac7393a6007862b763182932c6a7a5a801729db2242950",
+        "class_contains_strings": {
+          "t227.meniu": false,
+          "WSagaVerificareImportForm": false,
+          "298": false
+        },
+        "ro_label": []
+      },
+      {
+        "role": "captured_theme_copy_identical_to_q31_and_CESIRO",
+        "name": "com.eva.ro.saga.theme_13.0.0.jar",
+        "sha256": "af35b0ac2770e83c682fa142069427502646c4d0884d12bbb9f329a3d677e976",
+        "class": "com/eva/ro/saga/theme/EvaSagaMenuDef.class",
+        "class_sha256": "dae20db73941c34340140624c436611150732cfed573bcc0698a179eb1f12cd0",
+        "class_contains_strings": {
+          "Verificare import SAGA": false
+        }
+      }
+    ],
+    "minimal_read_only_query": "SELECT json_build_object('read_only',current_setting('transaction_read_only'),'metadata',COALESCE(json_agg(row_to_json(s)),'[]'::json))::text FROM (SELECT f.ad_form_id,f.classname,f.isactive AS form_active,m.ad_menu_id,m.name,m.isactive AS menu_active,m.action,n.ad_tree_id,n.seqno FROM adempiere.ad_form f LEFT JOIN adempiere.ad_menu m ON m.ad_form_id=f.ad_form_id LEFT JOIN adempiere.ad_treenodemm n ON n.node_id=m.ad_menu_id AND n.ad_tree_id=10 WHERE f.classname='com.eva.ro.contab.form.WSagaVerificareImportForm' ORDER BY f.ad_form_id,m.ad_menu_id) s;",
+    "db_observations": [
+      {
+        "cabinet": "q31",
+        "result": {
+          "read_only": "on",
+          "metadata": []
+        },
+        "exit": 0,
+        "error_type": null
+      },
+      {
+        "cabinet": "cesiro",
+        "result": {
+          "read_only": "on",
+          "metadata": []
+        },
+        "exit": 0,
+        "error_type": null
+      }
+    ],
+    "earlier_CESIRO_capture": {
+      "file": "Inventar_tehnic.json",
+      "sha256": "699883736e2d69ee16c05df0ced57bd1cade492c0ecf46f6c5260900ecab0d57",
+      "capture_utc": "2026-11-02T14:08:23.824Z",
+      "AD_Menu_count": 1185,
+      "exact_name_matches": []
+    },
+    "scope": "Dovezile istorice (cabinet cu jarul vârfului), Git la cutoff și metadatele observate acum sunt trei etaloane distincte. Identitatea JAR de temă implică doar bytes dacă originea copiei nu este legată de cabinet.",
+    "historical_result": "6 jurnale de proces de la clonele istorice au rândul nominal K-12c. Observat 1|298|Verificare import SAGA în toate. Este dovada directă din acele clone. Commitul de arhivare nu constituie o dată a desfășurării în producție.",
+    "git_current_result": "Sursa EvaMetadata și tema statică, resursa în română și JAR-urile de la cutoff au ținta corectă. Confirmarea constantelor ori a codului nu validează singură instalarea.",
+    "installed_result": "FAIL_ÎN_CELE_DOUĂ_CABINETE_OBSERVATE. Predicatul original din tools/teste/t227/proba_fe.py:451–456 returnează 0|| în q31 și CESIRO în loc de 1|298|Verificare import SAGA. AD_Form lipsește și meniul activ cu numele exact are count=0, deci nu este doar o diferență de sortare. Hashurile pachetelor instalate sunt diferite de pachetele din Git; tema instalată și bootstrapul contab capturat nu conțin ținta T227. Nicio afirmație despre alte cabinete.",
+    "original_query_and_witnesses": {
+      "sql": "SELECT json_build_object('readonly', current_setting('transaction_read_only'), 'MM_tree_first', (SELECT ad_tree_id FROM adempiere.ad_tree WHERE treetype='MM' AND ad_client_id=0 AND isactive='Y' ORDER BY ad_tree_id LIMIT 1),'menu_exact_active_by_name',(SELECT count(*) FROM adempiere.ad_menu WHERE name='Verificare import SAGA' AND isactive='Y'),'form_exact_class',(SELECT count(*) FROM adempiere.ad_form WHERE classname='com.eva.ro.contab.form.WSagaVerificareImportForm'),'original_concat',(SELECT count(*) || '|' || COALESCE(max(tn.seqno::text),'') || '|' || COALESCE(max(m.name),'') FROM adempiere.ad_menu m JOIN adempiere.ad_form f ON f.ad_form_id=m.ad_form_id LEFT JOIN adempiere.ad_treenodemm tn ON tn.node_id=m.ad_menu_id AND tn.ad_tree_id=(SELECT ad_tree_id FROM adempiere.ad_tree WHERE treetype='MM' AND ad_client_id=0 AND isactive='Y' ORDER BY ad_tree_id LIMIT 1) WHERE f.classname='com.eva.ro.contab.form.WSagaVerificareImportForm' AND m.isactive='Y'));",
+      "results": {
+        "q31": {
+          "checked_utc": "2026-11-02T20:57:34.705850+00:00",
+          "sql_result": {
+            "readonly": "on",
+            "MM_tree_first": 10,
+            "menu_exact_active_by_name": 0,
+            "form_exact_class": 0,
+            "original_concat": "0||"
+          },
+          "installed_hashes": {
+            "com.eva.ro.contab_13.0.0.jar": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+            "com.eva.ro.saga.theme_13.0.0.jar": "af35b0ac2770e83c682fa142069427502646c4d0884d12bbb9f329a3d677e976"
+          }
+        },
+        "cesiro": {
+          "checked_utc": "2026-11-02T20:57:35.349231+00:00",
+          "sql_result": {
+            "readonly": "on",
+            "MM_tree_first": 10,
+            "menu_exact_active_by_name": 0,
+            "form_exact_class": 0,
+            "original_concat": "0||"
+          },
+          "installed_hashes": {
+            "com.eva.ro.contab_13.0.0.jar": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+            "com.eva.ro.saga.theme_13.0.0.jar": "af35b0ac2770e83c682fa142069427502646c4d0884d12bbb9f329a3d677e976"
+          }
+        }
+      }
+    },
+    "git_theme_compiled": {
+      "git_path": "idempiere/plugins/com.eva.ro.saga.theme/com.eva.ro.saga.theme_13.0.0.jar",
+      "git_oid": "9e270f30f377baeb5d48f0be68cdcb95ceb53de4",
+      "jar_sha256": "92675a18b5f5d17ec034edaff681bd4e4908ee2c6632f0452d9f7824b403506f",
+      "class_sha256": "b71a5056b688d120c63668bb85ab11ac5bcdd9ed31d6b0770099d630340608bb",
+      "target_utf8_present": true
+    },
+    "observed_historical_pass_rows": 6,
+    "next": "Dacă instalarea trebuie să preia funcția, verificați împreună artefactele contab și theme și rulați reconcilierea native AD/meniu pe clonă, apoi aceeași verificare nominală. Nu adăugați manual o a doua fereastră."
+  },
+  "T326-R2-032_AND_T333-R2-044": {
+    "case_ids": [
+      "T326-R2-032",
+      "T333-R2-044"
+    ],
+    "A12_primary_receipt": "executie/R10_pregatire/A12/Zone_A02_A10/T326_T333_receptie.json",
+    "A12_primary_receipt_sha256": "bdc6f461dac9fbd0e9b2a5389e648e90059c1966e3705c4d30aae53ecbdaaca2",
+    "original_evidence_manifest": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R10_pregatire\\A12\\Zone_A02_A10\\T326_T333_boot_istoric_si_q31.json",
+    "original_evidence_hash": "b4aca79c0d2cb27fd1a2be91844e990b81543a17752078bc8e95b77ab493ea5f",
+    "prior_case_sources": {
+      "T326A": {
+        "path": "Documentatie/echipa-2026-10-09/T326-lista-culegere-wms/dovezi-11/proba_clona.txt",
+        "blob": "542f7298ba7a526b654851986bb84f76f7b95d53",
+        "sha256": "9142879ae4e30191b1a64a8b7a244ae8265f3cd232fd7f7d09d58d6369dfd7ab"
+      },
+      "T326B": {
+        "path": "Documentatie/echipa-2026-10-09/T326-lista-culegere-wms/dovezi-11c/proba_clona.txt",
+        "blob": "fd2a8f12d2d1061c1a8e770022a335a988b51ce6",
+        "sha256": "74578ebaa57c6ba05c934f69444849ae67f5d2647b72e0e6884bf0f966436711"
+      },
+      "T333RAW": {
+        "path": "Documentatie/echipa-2026-10-09/T333-mobil-autentificare-drepturi-gestiune/dovezi-21/atribuire_a_varf/atrib_iesire.txt",
+        "blob": "7085e98a4903da25d54bf9bc28a33acd67cd0fd9",
+        "sha256": "398549ae2b06a4088a0642b663af4c59e6cfcbd65a46faa336c8430827e6afc2"
+      },
+      "T333LOG": {
+        "path": "Documentatie/echipa-2026-10-09/T333-mobil-autentificare-drepturi-gestiune/dovezi-21/atribuire_a_varf/atribuire_a_jurnal.txt",
+        "blob": "39427c9aa5112b60cfefb8d963031045803127d6",
+        "sha256": "b923b10b5ac4878e3f9e621f0428a876b076b0950dcc90a28de8c907a5b5a11a"
+      },
+      "T333spec": {
+        "path": "Documentatie/echipa-2026-10-09/T333-mobil-autentificare-drepturi-gestiune/02_plan.md",
+        "blob": "78aab4e507eec7ffadd9f73822340ac5f1ea9575",
+        "sha256": "69f449374fad179d72f285be6a3640d76f473c35885c028e935370943aa2ada2"
+      }
+    },
+    "historical_and_q31_receipt_already_examined": [
+      "index|1",
+      "eva_accesgestiune|15|15",
+      "eva_jurnalmobil|16|16",
+      "eva_linieculegere|26|26",
+      "ad_role.eva_aplicatiemobila|1"
+    ],
+    "new_scope": "Căutare de exporturi nominale înainte/după la taskurile T326/T333 pe arborele SHA fixat. Nicio pornire de cabinet nou. Vezi secțiunea de exporturi adiționale independentă dacă există.",
+    "additional_archival_receipts": [
+      {
+        "case": "T326",
+        "role": "K-31 A",
+        "path": "Documentatie/echipa-2026-10-09/T326-lista-culegere-wms/dovezi-11/auto-verificare/K-31.txt",
+        "blob": "1e8d5fbf7b74e7c8555eb6398198fd9f0465bc33",
+        "sha256": "e62459a814985f54f8eeaf68f684edfe5591908e6be03c4cc5386c5b81ec2045",
+        "lines": 7,
+        "scope_specific_lines": [
+          {
+            "line": 1,
+            "text": "# P01.T326 lotul A — auto-verificarea criteriului K-31 (r1, vârful predat 7e76c64adbb5bb), extrasă din 11_ §2 (E11 / §35, mutată aici la RR r1)"
+          },
+          {
+            "line": 3,
+            "text": "criteriu: K-31"
+          },
+          {
+            "line": 5,
+            "text": "ieșirea reală: `jurnalul pornirii (pornirea 1, jar T326): 1 rânduri; EVA_LinieCulegere: 19 obiecte de dicționar`; `(pornirea 2, jar T326): 0 rânduri`; `SEVERE ale listei: 0` × 2; `RAND K-31 \\| indexul listei ⇒ 1`"
+          },
+          {
+            "line": 6,
+            "text": "așteptat: a doua pornire 0"
+          }
+        ]
+      },
+      {
+        "case": "T326",
+        "role": "K-31 B",
+        "path": "Documentatie/echipa-2026-10-09/T326-lista-culegere-wms/dovezi-11c/auto-verificare/K-31.txt",
+        "blob": "0ef642b0cd47b751d2b13fcd22f6294a2d8696a5",
+        "sha256": "eb764c2772caa3ce222aa857520e2eb623332c06090df2c289a494af8b9fd216",
+        "lines": 3,
+        "scope_specific_lines": [
+          {
+            "line": 1,
+            "text": "# P01.T326 lotul A RR r1 — auto-verificarea K-31: rândurile RAND din dovezi-11c/proba_clona.txt (rețeta comisă, rularea 2, clonă nouă q31 r55)"
+          },
+          {
+            "line": 3,
+            "text": "RAND K-31 | indexul listei | observat: 1 | așteptat: 1 | OK"
+          }
+        ]
+      },
+      {
+        "case": "T326",
+        "role": "mișcări master",
+        "path": "Documentatie/echipa-2026-10-09/T326-lista-culegere-wms/dovezi-11/amprenta_master.txt",
+        "blob": "d1d138367aa8793de9814b6eb0e4d375960b18fb",
+        "sha256": "5690f968007003c8b37c810fe6c450a8fc3729f71b46e893d480a1d25eb8c62c",
+        "lines": 3,
+        "lines_start_with_move_markers": true
+      },
+      {
+        "case": "T326",
+        "role": "mișcări T326",
+        "path": "Documentatie/echipa-2026-10-09/T326-lista-culegere-wms/dovezi-11/amprenta_t326.txt",
+        "blob": "d1d138367aa8793de9814b6eb0e4d375960b18fb",
+        "sha256": "5690f968007003c8b37c810fe6c450a8fc3729f71b46e893d480a1d25eb8c62c",
+        "lines": 3,
+        "lines_start_with_move_markers": true
+      },
+      {
+        "case": "T333",
+        "role": "înainte",
+        "path": "Documentatie/echipa-2026-10-09/T333-mobil-autentificare-drepturi-gestiune/dovezi-13/fundatie_T0_inainte.txt",
+        "blob": "45655a72f6d94bbded5f3a96d3c83a19625000ae",
+        "sha256": "5eaf7556d6e6234908974e1cfc13b9e4c75ff5098ab2efd6afcf307109ecdea1",
+        "lines": 13,
+        "measured_counts": [
+          "1450|36227|10287|23604|183|1178|8|996|2112|19"
+        ],
+        "nominal_ad_vs_physical": {},
+        "unique_index_names": [],
+        "physical_or_dictionary_mismatch_lines": 0,
+        "baseline_missing_object": true
+      },
+      {
+        "case": "T333",
+        "role": "boot 1",
+        "path": "Documentatie/echipa-2026-10-09/T333-mobil-autentificare-drepturi-gestiune/dovezi-13/fundatie_pornirea1.txt",
+        "blob": "8898a1740badf4188bc5d6d3f56e894886b95d50",
+        "sha256": "0f2a7314eff60a79ac10553c3655398e9d635fc4c5a5702a37aa0297bbab107c",
+        "lines": 52,
+        "measured_counts": [
+          "1452|36260|10301|23605|184|1179|9|1004|2113|20"
+        ],
+        "nominal_ad_vs_physical": {
+          "eva_accesgestiune": 15,
+          "eva_jurnalmobil": 15
+        },
+        "unique_index_names": [
+          "eva_accesgestiune_uk",
+          "eva_jurnalmobil_uk"
+        ],
+        "physical_or_dictionary_mismatch_lines": 0,
+        "baseline_missing_object": false
+      },
+      {
+        "case": "T333",
+        "role": "boot 2",
+        "path": "Documentatie/echipa-2026-10-09/T333-mobil-autentificare-drepturi-gestiune/dovezi-13/fundatie_pornirea2.txt",
+        "blob": "8898a1740badf4188bc5d6d3f56e894886b95d50",
+        "sha256": "0f2a7314eff60a79ac10553c3655398e9d635fc4c5a5702a37aa0297bbab107c",
+        "lines": 52,
+        "measured_counts": [
+          "1452|36260|10301|23605|184|1179|9|1004|2113|20"
+        ],
+        "nominal_ad_vs_physical": {
+          "eva_accesgestiune": 15,
+          "eva_jurnalmobil": 15
+        },
+        "unique_index_names": [
+          "eva_accesgestiune_uk",
+          "eva_jurnalmobil_uk"
+        ],
+        "physical_or_dictionary_mismatch_lines": 0,
+        "baseline_missing_object": false
+      },
+      {
+        "case": "T333",
+        "role": "contrast acces pe tabele",
+        "path": "Documentatie/echipa-2026-10-09/T333-mobil-autentificare-drepturi-gestiune/dovezi-13/create34_explicatie.txt",
+        "blob": "f3ad57c548648479130caf12c8580e5c0b717a39",
+        "sha256": "d5f59f48a26a5170e8853dbadc62cfbc9a81314348efc5a4c46759ac968e0e7d",
+        "lines": 62,
+        "ref_lines": [
+          {
+            "line": 1,
+            "text": "# P01.T333 — «pornirea 2: create=34» explicat la sursă (26.10.2026 20:42, clona eva-test-p01-t333-executant1-pg, dump r55, q31 neatins)"
+          },
+          {
+            "line": 2,
+            "text": "## 1. Toate tabelele cu rânduri create după 18:10 (UTC), pe secundă — ad_table_access e SINGURA cu rânduri la pornirea 2 (18:18:05)"
+          },
+          {
+            "line": 12,
+            "text": "ad_table_access: 18:16:52×7, 18:16:53×24, 18:18:05×34"
+          },
+          {
+            "line": 16,
+            "text": "## 2. Cele 34 de rânduri ale pornirii 2: rolul, firma, tabela, IsExclude+IsReadOnly"
+          },
+          {
+            "line": 56,
+            "text": "909:        try { int nT42 = ensureT42(ctx, trxName, r, nod); r.create += nT42; } catch (RuntimeException e) { r.log.append(com.eva.ro.contab.documente.Etichete.t(\"t42.meta.eroare\", e.getMessage())).append('\\n'); }   // T42 L1"
+          },
+          {
+            "line": 57,
+            "text": "969:        try { int nT333 = ensureT333(ctx, trxName, r); r.create += nT333; } catch (RuntimeException e) { r.log.append(com.eva.ro.contab.documente.Etichete.t(\"t333.meta.eroare\", e.getClass().getSimpleName())).append('\\n'); }"
+          },
+          {
+            "line": 60,
+            "text": "4095:        int nA = com.eva.ro.contab.audit.AuditRoluri.asiguraAccesRoluri(ctx, trxName); create += nA; (în ensureT42, care începe la :4027)"
+          },
+          {
+            "line": 61,
+            "text": "## 5. Concluzie"
+          },
+          {
+            "line": 62,
+            "text": "create=34 al pornirii 2 = cele 34 de reguli AD_Table_Access {A, IsExclude=Y, IsReadOnly=N} ale tabelelor EVA_Audit* (T42, 01c_amendament_5) puse pe rolul NOU «Gestionar»: la pornirea 1 rolul nu exista când a rulat ensureT42 (înaintea ensureT333), la pornirea 2 l-a găsit. Dicționarul (AD_Table/Column/Element/Field/Form/Menu/Role/Form_Access/Message/"
+          }
+        ],
+        "acl_rows": 34,
+        "non_eva_audit_rows_under_gestionar": []
+      },
+      {
+        "case": "T333",
+        "role": "control la vârf ulterior",
+        "path": "Documentatie/echipa-2026-10-09/T333-mobil-autentificare-drepturi-gestiune/dovezi-21/atribuire_a_varf/atrib_iesire.txt",
+        "blob": "7085e98a4903da25d54bf9bc28a33acd67cd0fd9",
+        "sha256": "398549ae2b06a4088a0642b663af4c59e6cfcbd65a46faa336c8430827e6afc2",
+        "lines": 33,
+        "scope_specific_lines": [
+          {
+            "line": 31,
+            "text": "CONTROL-a-doua-pornire (jarul vârfului) | VERDE | REZULTAT a doua pornire: OK · EvA metadate: create=0 (așteptat 0)"
+          },
+          {
+            "line": 32,
+            "text": "TOTAL 11 · roșii 6 · {\"A-6\": \"ROȘU\", \"A-7\": \"ROȘU\", \"A-9\": \"ROȘU\", \"A-10\": \"ROȘU\", \"A-12\": \"ROȘU\", \"A-13\": \"ROȘU\", \"CONTROL-bara\": \"VERDE\", \"CONTROL-c11\": \"VERDE\", \"CONTROL-c12\": \"VERDE\", \"CONTROL-tinta\": \"VERDE\", \"CONTROL-a-doua-pornire\": \"VERDE\"}"
+          }
+        ]
+      }
+    ],
+    "T326-R2-032": "Exporturile K-31 din dovezi-11 și 11c indică 19 obiecte EVA_LinieCulegere la prima pornire, 0 rânduri și 0 SEVERE a doua oară, conform jurnalelor lui A12. Perechea «amprenta_master/t326» conține mișcări V-A/B/C, nu exporturi de metadate înainte și după; nu o numărăm ca verificare DB distinctă. Fără două porniri independente la cutoff în acest supliment.",
+    "T333-R2-044": "Dovezile istorice de etapă 13 conțin două exporturi comparabile de 52 linii, identice pe toate bytes: coloane AD/fizic, două indexuri, rol, meniu și zece totaluri AD enumerate de fundatie_probe.sh. Cele zece totaluri nu includ AD_Table_Access. Raportul nominal al aceleiași etape arată +34 reguli AD_Table_Access pentru accesul la EVA_Audit* al noului rol Gestionar la a doua pornire; asigurarea T42 precede crearea rolului T333 la prima pornire. Rezultat FĂRĂ_DIFERENȚE pentru proiecția fundației mobile; FALS pentru zero rânduri AD noi în toate tabelele la etapa 13. Martorul ulterior de la vârf (dovezi-21) raportează create=0 și nu a fost confundat cu etapa 13. Nicio probă nouă de dublă pornire pentru distribuția instalată astăzi.",
+    "recipe": {
+      "path": "tools/teste/t333/fundatie_probe.sh",
+      "sha256": "a003230e27b9ae81bc98d7e65bc69e131f3479ceb85e7ce6058e75253d689adf",
+      "counter_family": "ad_table, ad_column, ad_element, ad_field, ad_form, ad_menu, ad_role, ad_form_access, ad_message, ad_user_roles. AD_Table_Access este în afara listei."
+    }
+  },
+  "score": null,
+  "finalized_utc": "2026-11-02T20:57:35.935110+00:00",
+  "changes_vs_A12": [
+    {
+      "id": "T11-R2-019",
+      "delta": "Confirmare independentă pe OID, plus separarea driftului dintre vârful implementării și cutoff."
+    },
+    {
+      "id": "T227-R2-021",
+      "delta": "Șase jurnale istorice nominale; sursă și JAR Git versus JAR instalat; două interogări actuale strict read-only disting 0|| de 1|298|nume."
+    },
+    {
+      "id": "T326-R2-032",
+      "delta": "Calificarea amprentelor mișcărilor și confirmarea martorilor de listă. Nu se adaugă o rulare ERP."
+    },
+    {
+      "id": "T333-R2-044",
+      "delta": "Pereche de exporturi de fundație mobilă plus contraindicația de 34 ACL în etapa istorică distinctă, reconciliată cu vârful ulterior."
+    }
+  ]
+}

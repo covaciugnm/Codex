@@ -14,6 +14,20 @@
     "sha256": "182f638890c9642e26524ac6e00f3a266530217d30492cee604ca5b534dba081"
   },
   {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A09/R2_quality_report.json",
+    "status": "copiat",
+    "saved_path": "fisiere/R2_quality_report--16524a04.json",
+    "bytes": 351,
+    "sha256": "b60dbdb59d910dd815932517561d53e25ffac4639ba5e9ce2706a6ad4c1a514f"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A09/android_R2/relay-outcome.json",
+    "status": "copiat",
+    "saved_path": "fisiere/relay-outcome--8293861d.json",
+    "bytes": 5693,
+    "sha256": "cbbabee8e8ceaa9043715e8342c5cd7aa265f024ea11cfa369c7f0d491c157ad"
+  },
+  {
     "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A09/native_actions.json",
     "status": "copiat",
     "saved_path": "fisiere/native_actions--8693bce5.json",
@@ -28,11 +42,102 @@
     "sha256": "d1950b3eb92043ba76509d85f4ff1b193e52bf474972b091294db870a912d476"
   },
   {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/A09_raport_R2.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A09_raport_R2--cde6ef4c.json",
+    "bytes": 175769,
+    "sha256": "18c36baf10a9c965cefb50a5324026126b02f2ffdb812f885967e91cf301f47e"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R4_zone/A09/A09_raport.json",
+    "status": "copiat",
+    "saved_path": "fisiere/A09_raport--50949202.json",
+    "bytes": 254317,
+    "sha256": "b3e157dae22a5c6a13e568db082ef605f755272ac9d5fb8a21893cdd15ffc4c2"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R4_zone/A09/QA_A09_R4.json",
+    "status": "copiat",
+    "saved_path": "fisiere/QA_A09_R4--37656701.json",
+    "bytes": 721,
+    "sha256": "b30d864690d30c3b6e1cc4fc6cc1ffe4ebcda19afd08ff1f561b829b6c29225b"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6_pregatire/ERP/UX/UX_15_forme_roluri.json",
+    "status": "copiat",
+    "saved_path": "fisiere/UX_15_forme_roluri--1884fece.json",
+    "bytes": 139268,
+    "sha256": "8e6bdfe4a723a57c57b29fadd4f226cee4e34e6e62b6927cf7f9c422e47dd83d"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/R6_pregatire/ERP/UX/UX_15_forme_roluri.md",
+    "status": "copiat",
+    "saved_path": "fisiere/UX_15_forme_roluri--05f6e1d4.md",
+    "bytes": 2373,
+    "sha256": "877ed1ec68700874e6a4593d5bc5d9f7cd41759b68404e4de88117f6c72437dd"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX06_A09_evidence/ZK_R5_setup_peer.json",
+    "status": "copiat",
+    "saved_path": "fisiere/ZK_R5_setup_peer--ae0d4f6b.json",
+    "bytes": 1877,
+    "sha256": "a6f29b76cc741e1a362e4153082a755496183a7852a9a819e5a47357d1f78f1e"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin-ui.json",
+    "status": "copiat",
+    "saved_path": "fisiere/admin-ui--56c80090.json",
+    "bytes": 12112,
+    "sha256": "fdea8a419db28c7f68b03776d9b9feab5d854d5618f7b41c08f4328acd2248dc"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX06_acceptare_erata_A09.json",
+    "status": "copiat",
+    "saved_path": "fisiere/EX06_acceptare_erata_A09--abd8f0c1.json",
+    "bytes": 5336,
+    "sha256": "e51d8ae5ad0baeacd48eb1d8e6c15a14cd05ea1566ba1c1a1da668bccf0d9fef"
+  },
+  {
+    "source_reference": "Z:/00.Roboti/EVA.Pro/Eva-contab/Audit_P01_2026-11-01/executie/supliment_CESIRO1/probe/EX06_peer_A09.json",
+    "status": "copiat",
+    "saved_path": "fisiere/EX06_peer_A09--329b291a.json",
+    "bytes": 16925,
+    "sha256": "2df1bee8066dbe34a754cbde9d1ebf4612d0931765abc892ba356f94732cdd32"
+  },
+  {
     "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A05\\physical-inventory.png",
     "status": "copiat",
     "saved_path": "fisiere/physical-inventory--226b57ad.png",
     "bytes": 161446,
     "sha256": "8e5b8acd587191feaebe00e6764cd1f29d4a969f0edc299be6ae5df89d725fcd"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\android_R2\\avd-samples\\inv_14a_A7_fara_legatura.png",
+    "status": "copiat",
+    "saved_path": "fisiere/inv_14a_A7_fara_legatura--4a2447c5.png",
+    "bytes": 73616,
+    "sha256": "6981352d8697ecb0997623ccf2b680359ee67218af96e25ba38dbeb9e4b714c2"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\android_R2\\ux\\05-error.png",
+    "status": "copiat",
+    "saved_path": "fisiere/05-error--4d5a6bdf.png",
+    "bytes": 165769,
+    "sha256": "a00bd6dd5fa9f860d6d1bf45fe6d6ce33d0c014107ff678b53274336315e58d0"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\android_R2\\ux\\06-landscape.png",
+    "status": "copiat",
+    "saved_path": "fisiere/06-landscape--031b292c.png",
+    "bytes": 165783,
+    "sha256": "ec886fe4115418756ac0721a6fdf0203e7043d536db53bc324f9c2d89e430c11"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\android_R2\\ux\\08-sensor.png",
+    "status": "copiat",
+    "saved_path": "fisiere/08-sensor--2dd90cfd.png",
+    "bytes": 60512,
+    "sha256": "1a4db5be9fca6dd756d0fccdaeaa4a590dfccee5d4f89a51388eeb65bd76094b"
   },
   {
     "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\portal-error-360.png",
@@ -47,5 +152,54 @@
     "saved_path": "fisiere/portal-ok-360--74c8f576.png",
     "bytes": 25155,
     "sha256": "dfbb75bb917cd54f775f6324b853fcb2777059a65067eb7c09382e26fa8b42be"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\zk_R2\\GardenAdmin-X-508.png",
+    "status": "copiat",
+    "saved_path": "fisiere/GardenAdmin-X-508--1aa7b083.png",
+    "bytes": 42349,
+    "sha256": "7f614e585b85a5d7c21d76c7bd35c172d6ba79d8c4c242920db5f889d8196dba"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\zk_R2\\GardenUser-F-269.png",
+    "status": "copiat",
+    "saved_path": "fisiere/GardenUser-F-269--7d0deaa7.png",
+    "bytes": 30531,
+    "sha256": "a7f9200249d2e98cc8f07410a4fc92f9d45a12016325f9cefbb9eff6c3d5a3ef"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\A09\\zk_R2\\GardenUser-X-1000204.png",
+    "status": "copiat",
+    "saved_path": "fisiere/GardenUser-X-1000204--99a252c7.png",
+    "bytes": 69971,
+    "sha256": "34b4d206c940d91e9562058e0c324d0179ec1cbf2a7c460556314f118fb855fe"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R6_pregatire\\ERP\\UX\\GardenUser-1000076.png",
+    "status": "copiat",
+    "saved_path": "fisiere/GardenUser-1000076--ebaa36d1.png",
+    "bytes": 103732,
+    "sha256": "6bc793dfe502b42da682a92619f888cf6a1d9306c0198664ccd78da7d10356c1"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\R6_pregatire\\ERP\\UX\\GardenUser-1000162.png",
+    "status": "copiat",
+    "saved_path": "fisiere/GardenUser-1000162--315a9095.png",
+    "bytes": 55086,
+    "sha256": "bb66eadf63d53fed02a7095f649058c8041b1fe11d7c6fd0452a4db2ec5c8173"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\supliment_CESIRO1\\probe\\EX06_A09_evidence\\admin_owner_1280_retry.png",
+    "status": "copiat",
+    "saved_path": "fisiere/admin_owner_1280_retry--50597371.png",
+    "bytes": 90152,
+    "sha256": "349fd97a3f377de98a0b59433840b6a1e67d1491faa81ed180051fca55a4c738"
+  },
+  {
+    "source_reference": "Z:\\00.Roboti\\EVA.Pro\\Eva-contab\\Audit_P01_2026-11-01\\executie\\supliment_CESIRO1\\probe\\EX06_A09_evidence\\admin_viewer_360_retry.png",
+    "status": "copiat",
+    "saved_path": "fisiere/admin_viewer_360_retry--d5f5c832.png",
+    "bytes": 35865,
+    "sha256": "3ceaf8c5ef16e5a3db30adf5cc17ceac93033580fab8458b675237f88427cf75"
   }
 ]

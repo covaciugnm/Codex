@@ -1,0 +1,959 @@
+{
+  "zone": "A04",
+  "source": "R3_zone/A04/A04_raport.json",
+  "sha256": "b25ef21808a12b5569c91ce2dfdc57b46da18afe6263f5ad9dc97174e3abc001",
+  "reviewer": "A11",
+  "utc": "2026-11-02T17:23:21.357640+00:00",
+  "prior_score": 7.0,
+  "product_score": null,
+  "gate": "RELUARE; probele menționate sunt acceptate în aria lor",
+  "quality_definition": "Calitatea auditului se măsoară prin 50 subcontroale; o deficiență demonstrată poate satisface un subcontrol de audit.",
+  "new_evidence": [
+    "A11R2",
+    "R1",
+    "R2",
+    "NIRC",
+    "USD",
+    "NIR6",
+    "NIR3",
+    "ROLES",
+    "JOBS",
+    "ZKROLE",
+    "SURF",
+    "A12",
+    "SCHPOL"
+  ],
+  "reproduction_readback": {
+    "nir_primary_independent_parse": [
+      {
+        "case": "control",
+        "input": "7\n3",
+        "product_rows": [
+          "1 Azalea Bush (Azalea Bush) Ea 7 7 10,00 70,00",
+          "2 Elm Tree (Elm) Ea 5 3 100,00 300,00"
+        ],
+        "total": "370,00",
+        "html": "54621ee59a5f891eecab72c26a4ac5287b711aa1155a0a1cebc3ad88221fef27",
+        "PDF": "029fd24367d977a02d3c392d5d56516ec1d08ee40cef7f228dc8738dbac2b4d7"
+      },
+      {
+        "case": "blank",
+        "input": "\n3",
+        "product_rows": [
+          "1 Azalea Bush (Azalea Bush) Ea 7 3 10,00 30,00",
+          "2 Elm Tree (Elm) Ea 5 5 100,00 500,00"
+        ],
+        "total": "530,00",
+        "html": "e36d4d540870eaf7c35aafc9c3d95c0eee9979b45d6cd23d268a7761f4bac099",
+        "PDF": "5fa64d4a027f59dc0c0d792265f70033036fd2eb851330d37a397f841857598d"
+      },
+      {
+        "case": "invalid",
+        "input": "invalida\n3",
+        "product_rows": [
+          "1 Azalea Bush (Azalea Bush) Ea 7 3 10,00 30,00",
+          "2 Elm Tree (Elm) Ea 5 5 100,00 500,00"
+        ],
+        "total": "530,00",
+        "html": "e36d4d540870eaf7c35aafc9c3d95c0eee9979b45d6cd23d268a7761f4bac099",
+        "PDF": "5fa64d4a027f59dc0c0d792265f70033036fd2eb851330d37a397f841857598d"
+      },
+      {
+        "case": "zero-first",
+        "input": "0\n3",
+        "product_rows": [
+          "1 Azalea Bush (Azalea Bush) Ea 7 0 10,00 0,00",
+          "2 Elm Tree (Elm) Ea 5 3 100,00 300,00"
+        ],
+        "total": "300,00",
+        "html": "edf0e1d316e26439528bb11d199d92e31d330c971dd1b5cf42de15c74d1cbd1e",
+        "PDF": "bbb5156b26e7b13dea1652c9cddfd69f944891c017f88157ed7698ab278aef15"
+      },
+      {
+        "case": "invalid-first",
+        "input": "invalida\n3",
+        "product_rows": [
+          "1 Azalea Bush (Azalea Bush) Ea 7 3 10,00 30,00",
+          "2 Elm Tree (Elm) Ea 5 5 100,00 500,00"
+        ],
+        "total": "530,00",
+        "html": "ed580f831f1a76af9e82cd8f8a6e744f612daddeffb1ea96272dbad2e088c265",
+        "PDF": "8eee9bb55ffe7e91a682e5b27a895235d42c4c56fc678a80c0a21fff13bc2984"
+      },
+      {
+        "case": "manual-recovery",
+        "input": "7\n3",
+        "product_rows": [
+          "1 Azalea Bush (Azalea Bush) Ea 7 7 10,00 70,00",
+          "2 Elm Tree (Elm) Ea 5 3 100,00 300,00"
+        ],
+        "total": "370,00",
+        "html": "8e1d8642a6edf545e75e5a0b7b0d877fade7703ad15023873698ee22bfed6f4f",
+        "PDF": "b852d306470ed17a3582a338d1967140519b7b4ff41c22c8ca5cbd33e5b26008"
+      }
+    ],
+    "raw_ZK_role_ID_observed_at_A04": 0,
+    "six_named_account_and_form_openings": 6,
+    "direct_REST_reads_two_roles": 10,
+    "nominal_surfaces_run": 8,
+    "all": 146,
+    "A04_R5_registry_fwd_reverse_criteria": 117,
+    "A04_R5_tasks_own": 55,
+    "aggregate_separate": "T07.03",
+    "credit": 47.5,
+    "secondary_FIDEL_before": 20.19,
+    "secondary_after": "absent; mandatul contabil de conservare în această configurație neconfirmat"
+  },
+  "responses_to_required_reaudit": {
+    "A04-F01": "CONFIRMAT; un singur defect de aliniere cu etichetă monetară inconsecventă. 370/530/300 și recuperare manuală 370; nicio pierdere contabilă de 160.",
+    "A04-F04": "MENȚINUT, diferența de 401/404 și garda 423 nu echivalează cu scriere reușită.",
+    "A04-F06": "Unit cu A03-F05 în registrul transversal; lipsa postărilor secundare observată pe import SAGA-FIDEL; nu etichetez drept obligație contabilă fără politica titularului.",
+    "R2-Q1": "Rezolvat recitind HTML și PDF pe fiecare celor șase cazuri.",
+    "R2-Q2": "Executate aria credit/retur și comparația cu două scheme, zece citiri cu rol real și șase navigări ale conturilor; păstrează explicit politica și rolurile UI neconfirmate."
+  },
+  "required_next": [
+    "Indexează AD_Session_ID/corelarea rolului în cele 6 navigări A04. Testează apăsarea butoanelor și efectele din DB pentru rutele nominale.",
+    "Exercită importul prin poarta pozitivă autorizată în laborator și testează eșec/reluare la comutare; urmărește NIR emis și RfQ sau marchează blocajul independent cu martor.",
+    "Solicită oracolul de politică multischema pentru SAGA înainte de concluzie normativă."
+  ],
+  "quality_subchecks": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC01-R1",
+          "rule": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC01-R2",
+          "rule": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC01-R3",
+          "rule": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC01-R4",
+          "rule": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC01-R5",
+          "rule": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "29 controale, 6 fluxuri; 146 interfețe cu statut distinct, 8 cu arie observată."
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "points": 0.4,
+      "subchecks": [
+        {
+          "id": "QC02-R1",
+          "rule": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC02-R2",
+          "rule": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC02-R3",
+          "rule": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC02-R4",
+          "rule": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC02-R5",
+          "rule": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+          "earned": 0.2,
+          "previous": 0.0
+        }
+      ],
+      "rationale": "Reconciliere exactă inversă 55/56 taskuri, 117 criterii și agregatul T07.03 separat; QC02-R5 câștigat. Certificarea individuală aparține A12."
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "points": 0.6,
+      "subchecks": [
+        {
+          "id": "QC03-R1",
+          "rule": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC03-R2",
+          "rule": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC03-R3",
+          "rule": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC03-R4",
+          "rule": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC03-R5",
+          "rule": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "Conturi ZK observate, 6 roluri active lipsesc din capturi A04; nu se substituie autentificarea REST distinctă. Recuperare manuală. NIR urmărit până la preview, fără emitere."
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "points": 0.8,
+      "subchecks": [
+        {
+          "id": "QC04-R1",
+          "rule": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC04-R2",
+          "rule": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC04-R3",
+          "rule": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC04-R4",
+          "rule": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC04-R5",
+          "rule": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+          "earned": 0,
+          "previous": 0.0
+        }
+      ],
+      "rationale": "Refuz 423 și 401/404, citiri autentice și procese native; contractele și rutele pozitive incomplete."
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "points": 0.8,
+      "subchecks": [
+        {
+          "id": "QC05-R1",
+          "rule": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC05-R2",
+          "rule": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC05-R3",
+          "rule": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC05-R4",
+          "rule": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC05-R5",
+          "rule": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "Credit 47,50 și mișcări +7/+5/−2. Schema secundară SAGA-FIDEL verificată separat de creditul nativ; politica normativă lipsește."
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "points": 0.6,
+      "subchecks": [
+        {
+          "id": "QC06-R1",
+          "rule": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC06-R2",
+          "rule": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC06-R3",
+          "rule": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC06-R4",
+          "rule": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC06-R5",
+          "rule": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "PO/recepție/RMA/credit R2 legate; lipsesc RfQ, cutover, avansuri și toate granițele."
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "points": 0.8,
+      "subchecks": [
+        {
+          "id": "QC07-R1",
+          "rule": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC07-R2",
+          "rule": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC07-R3",
+          "rule": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC07-R4",
+          "rule": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC07-R5",
+          "rule": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "Aceeași organizație pentru ambele conturi. Proba de rol în REST nu este izolare între firme."
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "points": 1.0,
+      "subchecks": [
+        {
+          "id": "QC08-R1",
+          "rule": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC08-R2",
+          "rule": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC08-R3",
+          "rule": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC08-R4",
+          "rule": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC08-R5",
+          "rule": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "Folosește M_InOut, C_Invoice, RMA, Fact_Acct și configurarea schemei; scope și surse nominale."
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "points": 0.6,
+      "subchecks": [
+        {
+          "id": "QC09-R1",
+          "rule": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC09-R2",
+          "rule": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC09-R3",
+          "rule": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC09-R4",
+          "rule": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+          "earned": 0,
+          "previous": 0.0
+        },
+        {
+          "id": "QC09-R5",
+          "rule": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+          "earned": 0.2,
+          "previous": 0.2
+        }
+      ],
+      "rationale": "Predicții și ieșiri PDF/HTML și zece GET. Nu atribuim profil de performanță întregii rute."
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "points": 0.8,
+      "subchecks": [
+        {
+          "id": "QC10-R1",
+          "rule": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC10-R2",
+          "rule": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC10-R3",
+          "rule": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+          "earned": 0.2,
+          "previous": 0.2
+        },
+        {
+          "id": "QC10-R4",
+          "rule": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+          "earned": 0.2,
+          "previous": 0.0
+        },
+        {
+          "id": "QC10-R5",
+          "rule": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+          "earned": 0,
+          "previous": 0.0
+        }
+      ],
+      "rationale": "Două cereri metodologice R2 au fost reexaminate și închise pentru aria demonstrată, deci QC10-R4 câștigat; F02/F03/F05 anterioare păstrate."
+    }
+  ],
+  "decision_each_control": [
+    {
+      "id": "A04-C01",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "ZKROLE",
+        "ROLES"
+      ],
+      "qualification": "Mai lipsesc doi furnizori omonimi în două firme și proba de acces refuzat prin rol în cealaltă organizație, respectiv termenele furnizorului.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C02",
+      "source_state": "PARȚIAL",
+      "new_evidence": null,
+      "qualification": "Nu avem RfQ cu două oferte, valabilitate expirată, MOQ și UOM fără conversie în UI. Prețul de fixture diferențiază listă și preț acordat, fără a proba selecția ofertei.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C03",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "ROLES"
+      ],
+      "qualification": "Calea DocumentAction și stocul sunt probate. Mai lipsesc dublu Complete și încercarea de ștergere a liniei confirmate prin interfața rolului utilizatorului.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C04",
+      "source_state": "NECONFORMITATE_CONFIRMATĂ",
+      "new_evidence": [
+        "NIRC",
+        "NIR3",
+        "USD"
+      ],
+      "qualification": "Defectul F01 afectează NIR tipizabil. Separat de această constatare, nu s-a repetat aceeași recepție după timeout și nu s-a probat un al treilea aviz care depășește toleranța de recepție.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F01"
+      ]
+    },
+    {
+      "id": "A04-C05",
+      "source_state": "PARȚIAL",
+      "new_evidence": null,
+      "qualification": "Scenariul set indivizibil cumpărat și ambalare reversibilă în G2, SKU ambiguu și reconcilierea G1/G2/G3 rămân necesare.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C06",
+      "source_state": "PARȚIAL",
+      "new_evidence": null,
+      "qualification": "Nu au fost alocate ASI distincte 4+3 sau locator incompatibil; probele pentru ERP nativ nu demonstrează aceste două negative. Coordonare A05.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C07",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "SCHPOL"
+      ],
+      "qualification": "Ordinea inversă (factură înainte de recepție), navigare documentară prin rol și prețul de etalon distinct de 10 trebuie încă exercitate. Nu au fost folosite date reale.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C08",
+      "source_state": "NECONFORMITATE_CONFIRMATĂ",
+      "new_evidence": [
+        "NIRC",
+        "NIR3",
+        "USD"
+      ],
+      "qualification": "Lipsesc factura pentru 8 la 11 pe recepție de 7, comparația dintre regula strictă și cea tolerantă și rolul care aprobă diferența.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F01"
+      ]
+    },
+    {
+      "id": "A04-C09",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "SCHPOL",
+        "USD"
+      ],
+      "qualification": "Încă lipsesc documentul în EUR cu ramura curs 5, cost de transport distribuit în două linii, rotunjire/TVA și curs expirat. F06 aparține în principal C16/C24 și nu dovedește distribuția cheltuielilor accesorii.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C10",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "SCHPOL"
+      ],
+      "qualification": "Lipsesc retransmiterea identică după timeout și stingerea efectivă a creditului în registrul de plăți. A07 preia ultima verigă.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C11",
+      "source_state": "NECONFORMITATE_CONFIRMATĂ",
+      "new_evidence": [
+        "JOBS"
+      ],
+      "qualification": "S-au folosit contexte simulate de identitate/disponibilitate țintă și comparator explicit de nume de fișier Linux pe Windows. Nu s-a trimis un import în producție. Proba prin portal fără acești adaptoare rămâne de confirmat.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F05"
+      ]
+    },
+    {
+      "id": "A04-C12",
+      "source_state": "NECONFORMITATE_CONFIRMATĂ",
+      "new_evidence": null,
+      "qualification": "Nu există o reconciliere integrală pentru toate tabelele dintr-o arhivă reprezentativă și din cabinete cu variante. Nu se extinde rezultatul instrumentului auxiliar asupra procesului Java.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F03",
+        "A04-F05"
+      ]
+    },
+    {
+      "id": "A04-C13",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "JOBS"
+      ],
+      "qualification": "Mai lipsesc ordine inversată antet/detalii, FK de furnizor nerezolvat pe factură și divergențe calendar/schemă care trebuie prezentate operatorului.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C14",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "JOBS"
+      ],
+      "qualification": "Nu a fost demonstrat pe buildul montat refuzul same-run în alt client, expirarea jobului între preview și apply ori garda pe arhivă modificată.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C15",
+      "source_state": "PARȚIAL",
+      "new_evidence": null,
+      "qualification": "Încă trebuie documentul la limita zilei, periodizare separată de data document, perioada închisă și evitarea contabilizării duble a istoriei și soldurilor.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C16",
+      "source_state": "NECONFORMITATE_CONFIRMATĂ",
+      "new_evidence": [
+        "SCHPOL"
+      ],
+      "qualification": "F06 se suprapune zonei A03 pentru contabilitate. Mai lipsesc datoria specifică de 100 și stingerea 40, precum și reconcilierea cu soldurile analitice ale aceleiași surse.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F02",
+        "A04-F06"
+      ]
+    },
+    {
+      "id": "A04-C17",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "ZKROLE",
+        "ROLES"
+      ],
+      "qualification": "Fixtura nu are două denumiri identice, partener cu ambele roluri ori două produse CPP/CPA cu SKU egal. Identitatea acestora rămâne de verificat.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C18",
+      "source_state": "NECONFORMITATE_CONFIRMATĂ",
+      "new_evidence": [
+        "SCHPOL",
+        "USD"
+      ],
+      "qualification": "Nu există în acest test combinația factură și credit în valută la curs/date istorice, nici lipsă detalii cu același număr la doi furnizori. Defectele sunt delimitate pe implementare.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F02",
+        "A04-F03",
+        "A04-F06"
+      ]
+    },
+    {
+      "id": "A04-C19",
+      "source_state": "PARȚIAL",
+      "new_evidence": null,
+      "qualification": "Nu s-a importat o arhivă de stoc inițial în G1.1/G1.2 cu ASI și opțiuni istorice, astfel că nu este demonstrată această inițializare.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C20",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "SURF",
+        "ZKROLE"
+      ],
+      "qualification": "Lipsesc corpus pe toate familiile, consultarea arhivă vs. document operațional și încercarea de acces la salarizare cu rol gestionar.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C21",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "JOBS"
+      ],
+      "qualification": "Idempotența secvențială pentru cele două cazuri este dovedită. Nu există două cereri concurente, cădere după commit și reîncărcare sub alt nume în același test.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C22",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "JOBS"
+      ],
+      "qualification": "Eroarea de proces în staging nu este echivalentă cu pierderea workerului după commit și înaintea lineage. Lipsesc acest tip de întrerupere și reluarea după client deconectat.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": [
+        "A04-F04"
+      ]
+    },
+    {
+      "id": "A04-C23",
+      "source_state": "PARȚIAL",
+      "new_evidence": null,
+      "qualification": "Restaurarea completă de cabinet este probată pe fixture demonstrată. Mai trebuie anularea specifică a unui import parțial cu aceeași arhivă și reconcilierea rezultatului per rând până la checkpoint.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C24",
+      "source_state": "NECONFORMITATE_CONFIRMATĂ",
+      "new_evidence": [
+        "SCHPOL"
+      ],
+      "qualification": "Acceptul cutover necesită reconciliere independentă pe toate dimensiunile, inclusiv TVA și solduri, și semnătura responsabilului.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F02",
+        "A04-F03",
+        "A04-F06"
+      ]
+    },
+    {
+      "id": "A04-C25",
+      "source_state": "NECONFORMITATE_CONFIRMATĂ",
+      "new_evidence": [
+        "JOBS",
+        "ZKROLE"
+      ],
+      "qualification": "Nu există SLO agreat și măsurare P50/P95 pe lot reprezentativ, inspectare log cu marcator HR și teste de utilizabilitate cu rolurile finale. Timpii restaurării nu sunt SLA import.",
+      "decision": "ÎNREGISTREZ_ABATEREA_PROBATĂ_ȘI_LIMITA",
+      "findings": [
+        "A04-F04"
+      ]
+    },
+    {
+      "id": "A04-C26",
+      "source_state": "PARȚIAL",
+      "new_evidence": null,
+      "qualification": "M_Requisition→PO cu aprobare/refuz pe limită de buget și rol de aprobator necesită scenariu propriu. Nu se extrapolează PO CO la trecerea prin workflow de aprobare.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C27",
+      "source_state": "PARȚIAL",
+      "new_evidence": null,
+      "qualification": "Nu s-a verificat document vamal, taxare inversă sau TVA parțial deductibil cu temei aplicabil perioadei și alocarea costurilor accesorii. A03 acordă verdict fiscal separat.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C28",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "ZKROLE",
+        "SCHPOL"
+      ],
+      "qualification": "Lipsește configurarea prin UI a două firme și încercarea salvării unui locator G2 la importul unui stoc contabil în G1. Nu este validată întreaga listă de setări.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    },
+    {
+      "id": "A04-C29",
+      "source_state": "PARȚIAL",
+      "new_evidence": [
+        "ZKROLE",
+        "SCHPOL"
+      ],
+      "qualification": "Lipsesc avansul de 30, factura de 100 și plata 70 cu o singură stingere, reconciliate din arhivă și fișa partenerului, inclusiv valută și dublură extras/registru.",
+      "decision": "ACCEPT_DOVEZILE_DISPONIBILE; FĂRĂ_ACCEPTARE_INTEGRALĂ",
+      "findings": []
+    }
+  ],
+  "decision_each_pipeline": [
+    {
+      "id": "A04-P1",
+      "source_state": "PARȚIAL; segmentul probat este delimitat în observație.",
+      "full_e2e_accepted": false,
+      "remaining": "Necesitatea/RfQ cu două oferte, buget și autorizare nu au traseu în această probă.",
+      "controls": [
+        "A04-C01",
+        "A04-C02",
+        "A04-C03",
+        "A04-C26"
+      ]
+    },
+    {
+      "id": "A04-P2",
+      "source_state": "PARȚIAL; segmentul probat este delimitat în observație.",
+      "full_e2e_accepted": false,
+      "remaining": "Loturi MA, warehouse multi-G1, over-receipt și retry concurent pe aceeași recepție.",
+      "controls": [
+        "A04-C04",
+        "A04-C05",
+        "A04-C06"
+      ]
+    },
+    {
+      "id": "A04-P3",
+      "source_state": "PARȚIAL; segmentul probat este delimitat în observație.",
+      "full_e2e_accepted": false,
+      "remaining": "Ordine inversă factură/recepție, toleranțe, DVI/TVA și costuri accesorii, stingerea și reluarea aceleiași operații.",
+      "controls": [
+        "A04-C07",
+        "A04-C08",
+        "A04-C09",
+        "A04-C10",
+        "A04-C27"
+      ]
+    },
+    {
+      "id": "A04-P4",
+      "source_state": "PARȚIAL; segmentul probat este delimitat în observație.",
+      "full_e2e_accepted": false,
+      "remaining": "Inventar pe toate familiile unei arhive mari, restricții de rol/fază și comportamentul prin portalul instalat în firma țintă.",
+      "controls": [
+        "A04-C11",
+        "A04-C12",
+        "A04-C13",
+        "A04-C14",
+        "A04-C28"
+      ]
+    },
+    {
+      "id": "A04-P5",
+      "source_state": "PARȚIAL; segmentul probat este delimitat în observație.",
+      "full_e2e_accepted": false,
+      "remaining": "Restul familiilor, cutover pe perioadă, solduri, G1.1/G1.2 și avansuri.",
+      "controls": [
+        "A04-C15",
+        "A04-C16",
+        "A04-C17",
+        "A04-C18",
+        "A04-C19",
+        "A04-C20",
+        "A04-C29"
+      ]
+    },
+    {
+      "id": "A04-P6",
+      "source_state": "PARȚIAL; segmentul probat este delimitat în observație.",
+      "full_e2e_accepted": false,
+      "remaining": "Concurență după commit/înainte de lineage, anularea importului parțial, P95 și semnătura de acceptare a unei arhive complete.",
+      "controls": [
+        "A04-C21",
+        "A04-C22",
+        "A04-C23",
+        "A04-C24",
+        "A04-C25"
+      ]
+    }
+  ],
+  "decision_each_finding": [
+    {
+      "id": "A04-F01",
+      "scope": "NIR deplasează cantitatea la alt articol după rând gol sau invalid și afișează diferențe etichetate „lei” la factura USD",
+      "source_state": "CONFIRMAT în limitele descrise",
+      "decision": "CONFIRMAT; un singur defect de aliniere cu etichetă monetară inconsecventă. 370/530/300 și recuperare manuală 370; nicio pierdere contabilă de 160.",
+      "controls": [
+        "A04-C04",
+        "A04-C08"
+      ]
+    },
+    {
+      "id": "A04-F02",
+      "scope": "Verificatorul auxiliar reduce două facturi diferite la un număr de document",
+      "source_state": "CONFIRMAT în limitele descrise",
+      "decision": "MENȚIN_DISPOZIȚIA_ANTERIOARĂ_PE_DOVADA_CITATĂ",
+      "controls": [
+        "A04-C16",
+        "A04-C18",
+        "A04-C24"
+      ]
+    },
+    {
+      "id": "A04-F03",
+      "scope": "Raportul auxiliar poate declara DATE COMPLETE cu rânduri lipsă ori cu citirea unei familii eșuată",
+      "source_state": "CONFIRMAT în limitele descrise",
+      "decision": "MENȚIN_DISPOZIȚIA_ANTERIOARĂ_PE_DOVADA_CITATĂ",
+      "controls": [
+        "A04-C12",
+        "A04-C18",
+        "A04-C24"
+      ]
+    },
+    {
+      "id": "A04-F04",
+      "scope": "Portalul continuă să interogheze un job după 401 sau 404",
+      "source_state": "CONFIRMAT în limitele descrise",
+      "decision": "MENȚINUT, diferența de 401/404 și garda 423 nu echivalează cu scriere reușită.",
+      "controls": [
+        "A04-C25",
+        "A04-C22"
+      ]
+    },
+    {
+      "id": "A04-F05",
+      "scope": "Două intrări ZIP cu aceeași destinație lasă pe disc numai ultima tabelă",
+      "source_state": "CONFIRMAT în limitele descrise",
+      "decision": "MENȚIN_DISPOZIȚIA_ANTERIOARĂ_PE_DOVADA_CITATĂ",
+      "controls": [
+        "A04-C11",
+        "A04-C12"
+      ]
+    },
+    {
+      "id": "A04-F06",
+      "scope": "Importul SAGA-FIDEL poate înlocui postările din ambele scheme cu nota numai în schema principală",
+      "source_state": "REPRODUS ÎN CABINETUL DE TEST; A11 stabilește consolidarea și verdictul.",
+      "decision": "Unit cu A03-F05 în registrul transversal; lipsa postărilor secundare observată pe import SAGA-FIDEL; nu etichetez drept obligație contabilă fără politica titularului.",
+      "controls": [
+        "A04-C16",
+        "A04-C18",
+        "A04-C24"
+      ]
+    }
+  ],
+  "score_quality": 7.4,
+  "quality_score": 7.4,
+  "verified_subchecks": 37,
+  "out_of": 50
+}

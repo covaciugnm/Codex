@@ -7,6 +7,10 @@
     "sha256": "2503cfd654f58b34f965faa2b772df068394410ee4816db130f977a38acddd19"
   },
   {
+    "source_reference": "https://api.eva-org.com/api/v1/files/eyJkIjoiMjhhNDVlMTMtODY0My00ZWEwLThjZWEtNDY4OGMwYmQyODlhIiwiZSI6MTc5MzczODQ0OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.h4AW3y4eo7t08kq8QxUua3abBB9cTbGfUd9aenUhSn0",
+    "status": "referinta_externa_necopiata"
+  },
+  {
     "source_reference": "https://www.atvrom.ro/help/termeni-si-conditii",
     "status": "referinta_externa_necopiata"
   }

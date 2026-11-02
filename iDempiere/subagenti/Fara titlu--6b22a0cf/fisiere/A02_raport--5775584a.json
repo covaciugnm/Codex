@@ -1,0 +1,2834 @@
+{
+  "schema": "eva.audit.executor-reaudit.v2",
+  "zone": "A02",
+  "cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "approval_plan_hash": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "created_utc": "2026-11-02T16:08:55.449Z",
+  "phase": "R2_EXECUTAT_PRIMAR_LIBER_PENTRU_A11",
+  "reviewer": "A11",
+  "independent_score": null,
+  "product_score": null,
+  "r1": {
+    "file": "executie/A02_raport.json",
+    "sha256": "b6894f76d4e8ed44f954ae08bd0d726e23bc207ad9d8c2e26ca169d5be9083d4",
+    "old_a11_quality": 4.2
+  },
+  "review_replies": [
+    {
+      "request": "P1 – Legați fiecare dintre F01–F08 de ID canonic integral (ex. A02.C022, validat în plan), fișier/simbol/linii, scenariu, așteptat/observat, mediu și test de regresie; separați părțile probate din cele 27 controale NEEXECUTAT.",
+      "reply": "F01–F09 au control canonic, sursă, simbol, linie, stare inițială, procedură, oracol, observat, contra-probă, corecție și regresie, plus legăturile de task efectiv identificate."
+    },
+    {
+      "request": "P1 – A02.F03 nulurile/unicitate, F04 editabilitatea alias/SKU, F05 combinația tenant/product, F06 negativ doar prin SQL, F07 verificarea CO și F08 ctid necesită contraprobele pe căile reale, fixtures PostgreSQL și ediția/migrarea exactă. Confirmați ce politică de business este obligatorie.",
+      "reply": "F03/F06 au POST nativ real; F04 ASGI+REST+ImportProduct; F05 SQL real cu 23505/contra-CUI; F07 bytecode plus motor nativ cu patru stări și factură CO de control; F08 cod Python și tranzacții reale cu două ordini și control fără duplicate."
+    },
+    {
+      "request": "P1 – Rulați concurență și retry la rezervare cu două G1 și rezultat distribuit, plus retur/eliberare și tabele native, autorizații și UI.",
+      "reply": "SQL G3: două G1, anulare, PO, 55P03/retry. Returul nativ este probă separată. Traseul integral de la checkout simultan până la return/încasare și UI comisionar rămâne deschis."
+    }
+  ],
+  "scope": "Audit DB/dicționar/identitate. Atașează numai probele realizate și proprietarul lor; separă semnalul de cod, model, API, UI și operația completă.",
+  "owned_surface_ledger": {
+    "path": "R2_zone/A02/suprafete_A02_R2.json",
+    "sha256": "16bc6f19a372d8a5264dd9fa3d681d55b6028788744e88ab6c67002d98c8cc36",
+    "counts": {
+      "source": 99,
+      "endpoints": 100,
+      "migration_files": 19
+    }
+  },
+  "controls": [
+    {
+      "id": "A02.C001",
+      "expected": "Fiecare observație DB poate fi atribuită unei versiuni instalate și unui cabinet exact.",
+      "requirements": [
+        "A12.U05",
+        "A12.U33"
+      ],
+      "execution_coverage": "COMPLET_PENTRU_CRITERIUL_DECLARAT",
+      "verdict_integral": "PASS",
+      "observed": "Captura read-only din cabinet fixează PostgreSQL 16.14, dicționarul și hashul JAR. Gate A11 validează cutoff-ul și dovezile R1.",
+      "remaining_or_scope": "SHA exact din care a fost compilat core nu a fost dedus din eticheta release.",
+      "previous_status": "PASS",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-B",
+          "file": "Diferente_bundle_CESIRO.json",
+          "sha256": "5886c14611c9903696a7c0c0d1395a6e5a3108ed5a3eb307786cdb74b1867358"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C002",
+      "expected": "Fiecare tabel/coloană din suprafața A02 are sursă, proprietar și corespondență explicită cu AD și schema fizică.",
+      "requirements": [
+        "A12.U04",
+        "A12.U05",
+        "A12.U10"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "104 candidate reconciliate, 91 tabele fizice în adempiere. 10 câmpuri doar AD și 8 doar fizice au listă distinctă. SQL-ul portal a fost testat separat.",
+      "remaining_or_scope": "Domeniul runtime-only al întregului cabinet și alte baze portal/Spree nu sunt complet atribuite câmp-cu-câmp.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-R",
+          "file": "A02/reconciliere_AD.json",
+          "sha256": "766bd64d3a908a118dd1afdd8849ca9caf2b126c6d5c88b6a9491c2ec27bb836"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C003",
+      "expected": "Fiecare câmp persistent acceptă exact domeniul de valori definit în AD și contractul de business.",
+      "requirements": [
+        "A12.U10",
+        "A12.U11"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "Ruta nativă generică admite Qty negativă și dimensiuni NULL deși procesul EVA validează formele normale.",
+      "remaining_or_scope": "Celelalte limite fizice și de afișare (toate câmpurile/valutele/Unicode) nu sunt acoperite prin aceeași probă.",
+      "previous_status": "FAIL",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-J",
+          "file": "A02/Java_suite.json",
+          "sha256": "15068f97389f2e62e3b9471513f45c073706a8d18284f6bdfeb809c77fd36d82"
+        }
+      ],
+      "finding_ids": [
+        "A02.F03",
+        "A02.F06"
+      ],
+      "pipeline_ids": [
+        "A02.P01",
+        "A02.P04",
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C004",
+      "expected": "O referință persistentă nu poate conecta date între firme/cabinete neautorizate.",
+      "requirements": [
+        "A12.U11",
+        "A12.U25"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Org0 este vizibil celor două organizații ale clientului și facturile străine au 403 pe proba țintită. Extensia portal intră în conflict SQLSTATE 23505 între cabinete cu același CUI/ID numeric.",
+      "remaining_or_scope": "Coliziunea storage nu demonstrează FK străină sau citire neautorizată. Schimb R1 FAIL în criteriu global neînchis, păstrând F05.",
+      "previous_status": "FAIL",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-ORG",
+          "file": "Reverificare_ASGI_Org0_DocAction.json",
+          "sha256": "1f6277a4fc630b355da10aa517fb433f129c4a8f256fdb66a44a081650ffcc5e"
+        },
+        {
+          "id": "EV-A02-R2-ROLE",
+          "file": "Reverificare_rol_DocAction.json",
+          "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8"
+        },
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-PROXY",
+          "file": "Reverificare_import_catalog_prin_proxy.json",
+          "sha256": "18cde511afdcf3219ef968c6ff58e60175b6c51d0bfb6bdb5471ee572a7a73fb"
+        }
+      ],
+      "finding_ids": [
+        "A02.F05"
+      ],
+      "pipeline_ids": [
+        "A02.P01",
+        "A02.P02",
+        "A02.P04"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C005",
+      "expected": "Produsul primar și forma asamblată comercială au identități interne diferite chiar când denumirea este identică.",
+      "requirements": [
+        "A12.U15",
+        "A12.U16"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Două produse CPP/CPA sunt create sub ID 1000000/1000001. Reutilizarea după rename schimbă ținta importului într-un alt ID.",
+      "remaining_or_scope": "S-au creat produse distincte în scenariu; nu există dovadă de clasificare obligatorie CPP/CPA la toate intrările.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-SKU",
+          "file": "R2_zone/A02/probe_ASGI_produs.json",
+          "sha256": "082568fea862813b39694fb831787ba575c06a10d07520ff50a0a9519cc02e22"
+        }
+      ],
+      "finding_ids": [
+        "A02.F04"
+      ],
+      "pipeline_ids": [
+        "A02.P01",
+        "A02.P07"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C006",
+      "expected": "Un identificator intern alocat nu este reutilizat pentru alt produs după cicluri de viață și restaurare.",
+      "requirements": [
+        "A12.U15"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "Value vechi acceptat pe ID1000003; import nativ îl folosește, originalul 1000000 reactivat păstrează doar noua valoare. PATCH sku scrie Value.",
+      "remaining_or_scope": "Relațiile externe după restaurare completă nu au fost epuizate.",
+      "previous_status": "FAIL",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-SKU",
+          "file": "R2_zone/A02/probe_ASGI_produs.json",
+          "sha256": "082568fea862813b39694fb831787ba575c06a10d07520ff50a0a9519cc02e22"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "finding_ids": [
+        "A02.F04"
+      ],
+      "pipeline_ids": [
+        "A02.P01",
+        "A02.P07",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C007",
+      "expected": "Două alocări concurente nu produc aceeași identitate/cod în domeniul de unicitate acceptat.",
+      "requirements": [
+        "A12.U15",
+        "A12.U22"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Indexul (AD_Client_ID,Value) a respins duplicatul pentru articol inactiv. Secvența nativă și indexul UUID au fost identificate.",
+      "remaining_or_scope": "Lipsesc două tranzacții simultane de alocare produs pe toate punctele de intrare și dovada de nereutilizare după restore.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P01",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C008",
+      "expected": "Aceeași firmă prezentă în mai multe cabinete se rezolvă exclusiv în cabinetul solicitant.",
+      "requirements": [
+        "A12.U24",
+        "A12.U25"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "Migratorul real poate selecta 110 în loc de 210 pentru un conflict din același cabinet, după ordinea fizică. Căile de autorizare independente au delimitat org0/11/12.",
+      "remaining_or_scope": "Impune date legacy duplicabile; nu e dovadă de selecție a altui cabinet în toate rezolvările normale.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-ORG",
+          "file": "Reverificare_ASGI_Org0_DocAction.json",
+          "sha256": "1f6277a4fc630b355da10aa517fb433f129c4a8f256fdb66a44a081650ffcc5e"
+        },
+        {
+          "id": "EV-A02-R2-ROLE",
+          "file": "Reverificare_rol_DocAction.json",
+          "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8"
+        }
+      ],
+      "finding_ids": [
+        "A02.F08"
+      ],
+      "pipeline_ids": [
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C009",
+      "expected": "Instalarea pe o bază curată produce schema și AD complete necesare fluxurilor declarate.",
+      "requirements": [
+        "A12.U06",
+        "A12.U33"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Cinci scripturi portal pe PostgreSQL, 29 tabele, 821 coloane, 165 indexuri și un rând martor păstrat. CESIRO are formele/procesele WMS active.",
+      "remaining_or_scope": "Instalare ERP extinsă complet de la zero, toate 2Pack și validarea UI la prima deschidere rămân separate.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-M",
+          "file": "A02/PG_migrari_rezultate.json",
+          "sha256": "753846562407397ca8d13fe8b985b802a676afc78defdf73b8489441f649a9e3"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P02",
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C010",
+      "expected": "Upgrade-ul din fiecare schemă anterioară suportată păstrează datele și sensul lor.",
+      "requirements": [
+        "A12.U33",
+        "A12.U34"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "Pe date legacy duplicabile migrarea neschimbată pierde maparea semantic mai nouă; ordinea inversă este contraproba.",
+      "remaining_or_scope": "Nu implică pierderi la upgrade pe input cu o singură mapare. Restul versiunilor suportate nu au fost migrate exhaustiv.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-M",
+          "file": "A02/PG_migrari_rezultate.json",
+          "sha256": "753846562407397ca8d13fe8b985b802a676afc78defdf73b8489441f649a9e3"
+        },
+        {
+          "id": "EV-A02-R2-R",
+          "file": "A02/reconciliere_AD.json",
+          "sha256": "766bd64d3a908a118dd1afdd8849ca9caf2b126c6d5c88b6a9491c2ec27bb836"
+        }
+      ],
+      "finding_ids": [
+        "A02.F08"
+      ],
+      "pipeline_ids": [
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C011",
+      "expected": "Reluarea unei migrări complete sau întrerupte converge la aceeași schemă și aceleași date.",
+      "requirements": [
+        "A12.U07",
+        "A12.U33"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Rerun portal și restaurează aceeași amprentă; după deduplicare greșită rerun rămâne stabil dar nu recuperează maparea. Fluxul furnizorilor a fost întrerupt și reluat în cabinetul separat.",
+      "remaining_or_scope": "Fiecare punct AD→DDL→index/coliziune și startup concurent nu a fost exercitat.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-M",
+          "file": "A02/PG_migrari_rezultate.json",
+          "sha256": "753846562407397ca8d13fe8b985b802a676afc78defdf73b8489441f649a9e3"
+        },
+        {
+          "id": "EV-A02-R2-SUP",
+          "file": "Reverificare_import_furnizori_SAGA.json",
+          "sha256": "64e6f27b86b733e79c98ad87d6dda2d4e7d32d4df98d7fa94290e0e6bff97576"
+        },
+        {
+          "id": "EV-A02-R2-CRASH",
+          "file": "Reverificare_crash_PG_ERP.json",
+          "sha256": "c8a674fe40dd1f497b77683c159f017f962a3ef7b04fa98ed2b2f0ed15b3d7de"
+        }
+      ],
+      "finding_ids": [
+        "A02.F08"
+      ],
+      "pipeline_ids": [
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C012",
+      "expected": "Rollback-ul artefactului nu pornește peste o schemă incompatibilă fără barieră explicită.",
+      "requirements": [
+        "A12.U15",
+        "A12.U33"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Restore GardenWorld cu rebind app, roluri, anexă și factură nouă verificat; schema portal cu marker a supraviețuit pg_dump/restore.",
+      "remaining_or_scope": "Downgrade al binarului peste fiecare schemă, reconciliere coduri alocate ulterior și replay extern nu sunt demonstrate.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-REST",
+          "file": "Reverificare_restaurare_integrala.json",
+          "sha256": "929014e4bdc00e74607a64cda60e5d5ec70df00431f4383813067c8bde578dcd"
+        },
+        {
+          "id": "EV-A02-R2-M",
+          "file": "A02/PG_migrari_rezultate.json",
+          "sha256": "753846562407397ca8d13fe8b985b802a676afc78defdf73b8489441f649a9e3"
+        },
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P06",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C013",
+      "expected": "O operație WMS fie persistă toate efectele necesare, fie nu persistă niciun efect material parțial.",
+      "requirements": [
+        "A12.U13",
+        "A12.U18"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Procesul real de ambalare modifică stoc și jurnal; T366 produce un singur document la validare concurentă. Rollback SQL sintetic lasă zero rânduri.",
+      "remaining_or_scope": "Aceste probe nu injectează failure între fiecare write al notei reale.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        },
+        {
+          "id": "EV-A02-R2-T",
+          "file": "R2_zone/A05/t366-confirmation.json",
+          "sha256": "36af943cad0930cc732b21e45ddbd4e8cb015a22c33e21a429d5ff0aed67187e"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        }
+      ],
+      "finding_ids": [
+        "A02.F09"
+      ],
+      "pipeline_ids": [
+        "A02.P02",
+        "A02.P03",
+        "A02.P04",
+        "A02.P07"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C014",
+      "expected": "Concurența pe aceeași poziție/lot nu poate consuma mai mult decât cantitatea permisă.",
+      "requirements": [
+        "A12.U22",
+        "A12.U32"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "SQL real de blocare: a doua conexiune primește 55P03, retry după commit recitește 10. Confirmările paralele T366 produc o singură validare.",
+      "remaining_or_scope": "Nu s-au trimis două checkout-uri concurente prin UI pentru aceeași ultimă componentă.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-G",
+          "file": "Reverificare_G3_rezervare_canal.json",
+          "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+        },
+        {
+          "id": "EV-A02-R2-T",
+          "file": "R2_zone/A05/t366-confirmation.json",
+          "sha256": "36af943cad0930cc732b21e45ddbd4e8cb015a22c33e21a429d5ff0aed67187e"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P03",
+        "A02.P05"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C015",
+      "expected": "Repetarea aceluiași eveniment logic are zero efect material nou, iar o operație nouă legitimă rămâne posibilă.",
+      "requirements": [
+        "A12.U18",
+        "A12.U28",
+        "A12.U30"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "Același payload și aceeași cheie ale notei reale G2 au produs a doua ambalare. Cazul T366, cu refuz la confirmarea repetată, și crash/retry din orchestrare sunt controale contrare pe alte trasee.",
+      "remaining_or_scope": "Nu extinde verdictul notei G2 la restul webhookurilor și documentelor.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        },
+        {
+          "id": "EV-A02-R2-T",
+          "file": "R2_zone/A05/t366-confirmation.json",
+          "sha256": "36af943cad0930cc732b21e45ddbd4e8cb015a22c33e21a429d5ff0aed67187e"
+        },
+        {
+          "id": "EV-A02-R2-CRASH",
+          "file": "Reverificare_crash_PG_ERP.json",
+          "sha256": "c8a674fe40dd1f497b77683c159f017f962a3ef7b04fa98ed2b2f0ed15b3d7de"
+        }
+      ],
+      "finding_ids": [
+        "A02.F09"
+      ],
+      "pipeline_ids": [
+        "A02.P03",
+        "A02.P05",
+        "A02.P07",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C016",
+      "expected": "Cheia de stoc identifică fără ambiguitate poziția, produsul, ASI și versiunea rețetei.",
+      "requirements": [
+        "A12.U15",
+        "A12.U32"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "Prin REST nativ trei rânduri cu dimensiuni omise/NULL sunt acceptate la aceeași cheie. Indicele funcționează când ambele sunt 0.",
+      "remaining_or_scope": "Rol 102; calea procesului și alte drepturi au condiții distincte.",
+      "previous_status": "FAIL",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        }
+      ],
+      "finding_ids": [
+        "A02.F03",
+        "A02.F06"
+      ],
+      "pipeline_ids": [
+        "A02.P03",
+        "A02.P04"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C017",
+      "expected": "Aceeași cantitate fizică nu este contabilizată încă o dată prin reprezentarea G2/CPA/G3.",
+      "requirements": [
+        "A12.U12",
+        "A12.U13",
+        "A12.U14",
+        "A12.U20",
+        "A12.U34"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Prima ambalare are G1 (12,12,0) constant și G2 (11,11,1); compensare recalculează doar perspectiva fizică în scenariul exercitat.",
+      "remaining_or_scope": "Nu a fost reconciliat până la Fact_Acct fiecare retur, set indivizibil CPP și consum real de ambalaje/manoperă.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        },
+        {
+          "id": "EV-A02-R2-PO",
+          "file": "Reverificare_PO_receptie_match_storno.json",
+          "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01"
+        },
+        {
+          "id": "EV-A02-R2-T",
+          "file": "R2_zone/A05/t366-confirmation.json",
+          "sha256": "36af943cad0930cc732b21e45ddbd4e8cb015a22c33e21a429d5ff0aed67187e"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P03",
+        "A02.P05"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C018",
+      "expected": "Fiecare gestiune/locator/legătură WMS aparține contextului și cardinalității aprobate.",
+      "requirements": [
+        "A12.U11",
+        "A12.U12",
+        "A12.U13"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Indexurile G și W impun 1:1 în cabinet. Procesul de activare a creat o pereche, trei zone și două rânduri de baseline.",
+      "remaining_or_scope": "Sunt necesare două perechi activate și dezactivare/mutare cu documente în curs pentru toate permisiunile.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P02"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C019",
+      "expected": "Stocul asamblat păstrează rețeta și componentele efectiv folosite, indiferent de editarea ulterioară a rețetei.",
+      "requirements": [
+        "A12.U17",
+        "A12.U19"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Nota înregistrează BOM și păstrează inventarul pe locator. Componentele urmărite pe lot sunt refuzate explicit de această cale.",
+      "remaining_or_scope": "Nu s-a demonstrat ce se întâmplă la editarea liniilor aceleiași versiuni după ambalare.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        },
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P03"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C020",
+      "expected": "Fiecare operație reală recunoaște consumul și costul o singură dată în G1.",
+      "requirements": [
+        "A12.U17",
+        "A12.U18",
+        "A12.U34"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Nu se observă cost/Fact_Acct nou în ciclul controlat. Fixture-ul conține două componente de stoc; nu identifică separat cutia și jumătatea de oră de manoperă.",
+      "remaining_or_scope": "Costul unic pentru cutie/manoperă/repack necesită rețetă cu aceste elemente și document contabil corelat.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P03"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C021",
+      "expected": "Cantitatea inventariată urmărește loturile/seriile reale inclusiv când alocarea este în tabela MA.",
+      "requirements": [
+        "A12.U20",
+        "A12.U32"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "M_InventoryLineMA fiică are ASI/cantitate, iar validatorul T366 are document nativ de inventar pe traseul real.",
+      "remaining_or_scope": "Ciclul concret cu aceeași cantitate, linie ASI0, MA validă versus MA incompletă, postare și inversare per lot rămâne deschis.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        },
+        {
+          "id": "EV-A02-R2-T",
+          "file": "R2_zone/A05/t366-confirmation.json",
+          "sha256": "36af943cad0930cc732b21e45ddbd4e8cb015a22c33e21a429d5ff0aed67187e"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P04",
+        "A02.P07"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C022",
+      "expected": "Disponibilul agregat scade fiecare rezervare o singură dată în domeniul ei real.",
+      "requirements": [
+        "A12.U22"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "Formula canalului pentru 20−7=13 este corectă. Filtrul lipsă IsSOTrx scade și PO4: 9 în loc de 13; anularea revine la 20.",
+      "remaining_or_scope": "Checkout, rezervare comercială și release prin UI nu sunt sinonime cu verificarea SQL canal/lock.",
+      "previous_status": "FAIL",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-G",
+          "file": "Reverificare_G3_rezervare_canal.json",
+          "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+        },
+        {
+          "id": "EV-A02-R2-B",
+          "file": "Diferente_bundle_CESIRO.json",
+          "sha256": "5886c14611c9903696a7c0c0d1395a6e5a3108ed5a3eb307786cdb74b1867358"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        }
+      ],
+      "finding_ids": [
+        "A02.F01",
+        "A02.F02"
+      ],
+      "pipeline_ids": [
+        "A02.P05"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C023",
+      "expected": "Combinațiile virtuale publicate consumă același buget de componente la rezervare.",
+      "requirements": [
+        "A12.U14",
+        "A12.U21",
+        "A12.U22"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Formula și eliberarea comenzii simple au contra-probă. TestT354Set trece 197 verificări în JVM pentru seturi.",
+      "remaining_or_scope": "Nu s-au executat două canale cu checkout mixt simultan S1/S2 și livrare/retur complet pe aceeași bază comună.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-G",
+          "file": "Reverificare_G3_rezervare_canal.json",
+          "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+        },
+        {
+          "id": "EV-A02-R2-J",
+          "file": "A02/Java_suite.json",
+          "sha256": "15068f97389f2e62e3b9471513f45c073706a8d18284f6bdfeb809c77fd36d82"
+        },
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        }
+      ],
+      "finding_ids": [
+        "A02.F01",
+        "A02.F02"
+      ],
+      "pipeline_ids": [
+        "A02.P05"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C024",
+      "expected": "Datele păstrează independent forma, calitatea, locația, tranzitul și angajamentul stocului.",
+      "requirements": [
+        "A12.U13",
+        "A12.U32",
+        "A12.U34"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Delta de formă și locator este măsurată; folosirea modelului generic permite poziții cu dimensiuni nevalidate.",
+      "remaining_or_scope": "Separarea calitate, carantină, tranzit și rezervare simultane nu a fost exercitată în toate combinațiile.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        },
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P03"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C025",
+      "expected": "Starea documentului și efectele contabile sunt confirmate persistent, nu deduse dintr-un boolean de proces.",
+      "requirements": [
+        "A12.U27",
+        "A12.U28",
+        "A12.U29",
+        "A12.U30",
+        "A12.U34"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "Ramura GeneratorDocumente nu verifică starea după processIt al facturii și înainte de marcarea LIVRAT. Motor real True pentru IP/WP/WC; factura nativă de control ajunge CO, primește postare și poate fi stornată.",
+      "remaining_or_scope": "FAIL se referă la garda lipsă în cod. Nu există o factură standard observată LIVRAT în WP pe exact această ramură.",
+      "previous_status": "FAIL",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-DOC",
+          "file": "R2_zone/A02/probe_DocEngine_Generator.json",
+          "sha256": "1ebaec7f75335321a6831b400a68574279fe84e4951e39e88f636e3e77d1a3a9"
+        },
+        {
+          "id": "EV-A02-R2-PO",
+          "file": "Reverificare_PO_receptie_match_storno.json",
+          "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01"
+        },
+        {
+          "id": "EV-A02-R2-ROLE",
+          "file": "Reverificare_rol_DocAction.json",
+          "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8"
+        },
+        {
+          "id": "EV-A02-R2-POST",
+          "file": "Reverificare_T257_import_fidel_si_protectie.json",
+          "sha256": "004c12f75f5005148d81cf1b224cc4c66cdbe152c895690ccf785418571f554e"
+        }
+      ],
+      "finding_ids": [
+        "A02.F07"
+      ],
+      "pipeline_ids": [
+        "A02.P03",
+        "A02.P04",
+        "A02.P05",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C026",
+      "expected": "Orice modificare materială are autor, context, timp și legătură cu operația/documentul sursă.",
+      "requirements": [
+        "A12.U07",
+        "A12.U30",
+        "A12.U33"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Documentele și postările T257 au legături păstrate. Mișcările WMS au PInstance diferit la replay. Jurnalele sunt active la tabelele inspectate.",
+      "remaining_or_scope": "Retenția, actorii tuturor joburilor și proveniența completă a triggerilor externi rămân deschise.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-POST",
+          "file": "Reverificare_T257_import_fidel_si_protectie.json",
+          "sha256": "004c12f75f5005148d81cf1b224cc4c66cdbe152c895690ccf785418571f554e"
+        },
+        {
+          "id": "EV-A02-R2-T",
+          "file": "R2_zone/A05/t366-confirmation.json",
+          "sha256": "36af943cad0930cc732b21e45ddbd4e8cb015a22c33e21a429d5ff0aed67187e"
+        },
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P02",
+        "A02.P03",
+        "A02.P04",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C027",
+      "expected": "Niciun trigger/rule/default/event observer material nu rămâne în afara modelului de efecte.",
+      "requirements": [
+        "A12.U05",
+        "A12.U06",
+        "A12.U33"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Au fost inventariate trigger-ele reale din cele 91 tabele și regulile pg_rules, separat de ascultătorii OSGi.",
+      "remaining_or_scope": "Nu este finalizată atribuirea fiecărui handler OSGi și implicit fiecărui eveniment UI/API.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-R",
+          "file": "A02/reconciliere_AD.json",
+          "sha256": "766bd64d3a908a118dd1afdd8849ca9caf2b126c6d5c88b6a9491c2ec27bb836"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C028",
+      "expected": "Importul păstrează identitățile și referințele fără a ocoli regulile native de persistare.",
+      "requirements": [
+        "A12.U15",
+        "A12.U20",
+        "A12.U33"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "SAGA supplier retry pe același material păstrează efectul unic. ImportProduct după reutilizarea Value rezolvă vechiul cod în produsul 1000003 și îl actualizează.",
+      "remaining_or_scope": "Cazul confirmă pierderea semanticii codului permanent; nu implică că toate importurile ERP sunt neconforme.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-SUP",
+          "file": "Reverificare_import_furnizori_SAGA.json",
+          "sha256": "64e6f27b86b733e79c98ad87d6dda2d4e7d32d4df98d7fa94290e0e6bff97576"
+        },
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P01",
+        "A02.P07"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C029",
+      "expected": "Alocarea numerelor respectă contextul serie/perioadă și nu produce dubluri sub concurență/retry.",
+      "requirements": [
+        "A12.U29",
+        "A12.U30"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "20 verificări de plaje trecute și factură reală CO/Posted de control; există MSequence și backfill.",
+      "remaining_or_scope": "Două documente fiscale concurente la sfârșit de an, reîncercare după timeout și interval epuizat nu au fost exercitate în aceeași probă.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-J",
+          "file": "A02/Java_suite.json",
+          "sha256": "15068f97389f2e62e3b9471513f45c073706a8d18284f6bdfeb809c77fd36d82"
+        },
+        {
+          "id": "EV-A02-R2-PO",
+          "file": "Reverificare_PO_receptie_match_storno.json",
+          "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C030",
+      "expected": "Persistarea sumelor și datelor conservă regula contabilă aplicabilă documentului.",
+      "requirements": [
+        "A12.U30",
+        "A12.U32"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Facturile sintetice T257 produc note fidele și protecție la repostare. La retur/inversare documentele se pot urmări independent.",
+      "remaining_or_scope": "Rotunjiri la limite, valute multiple și DST Europe/Bucharest necesită oracle contabile pe fiecare scenariu.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-POST",
+          "file": "Reverificare_T257_import_fidel_si_protectie.json",
+          "sha256": "004c12f75f5005148d81cf1b224cc4c66cdbe152c895690ccf785418571f554e"
+        },
+        {
+          "id": "EV-A02-R2-PO",
+          "file": "Reverificare_PO_receptie_match_storno.json",
+          "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P04",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C031",
+      "expected": "Interogările critice respectă bugetul acceptat la volume și distribuții reprezentative fără pierderea izolării.",
+      "requirements": [
+        "A12.U07",
+        "A12.U22",
+        "A12.U32"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Query SQL real de stoc canal verificat la 1k/100k/1m rânduri, 1/10/50 sesiuni și până la 3 conexiuni simultane. Fiecare răspuns a coincis cu oracolul. Percentilele sunt în dovadă.",
+      "remaining_or_scope": "10 și 50 concurenți efectiv nu au fost susținuți. Nu există SLA aprobat, benchmark peste UI, export sau interogări complete de canal.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-PERF",
+          "file": "R2_zone/A02/probe_perf_sql.json",
+          "sha256": "03fbda5302036138443eb2ab1555ace336fe5d8638b87b5a5a85ace6e838477b"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P05",
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C032",
+      "expected": "După commit/migrare/context switch, citirile prezintă datele și metadata versiunii corecte.",
+      "requirements": [
+        "A12.U11",
+        "A12.U22",
+        "A12.U31"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "CacheMgt.reset și revizia WMS sunt în sursă; restore/rebind din GardenWorld a folosit același bundle.",
+      "remaining_or_scope": "Nu s-au validat două noduri cu cache stale pe versiuni simultane sau schimbare cabinet în UI.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-REST",
+          "file": "Reverificare_restaurare_integrala.json",
+          "sha256": "929014e4bdc00e74607a64cda60e5d5ec70df00431f4383813067c8bde578dcd"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P05",
+        "A02.P06"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C033",
+      "expected": "Fiecare câmp replicat are o sursă autoritativă și o regulă de reconciliere explicită.",
+      "requirements": [
+        "A12.U15",
+        "A12.U16",
+        "A12.U31"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "FAIL",
+      "observed": "SKU modifică Value și cheia portal nu separă două cabinete cu același CUI/produs; importul nativ folosește vechiul Value pe alt ID.",
+      "remaining_or_scope": "Autorizarea org0 și firme separate a fost verificată pe mai multe rute; topologia fizică a fiecărui portal rămâne distinctă.",
+      "previous_status": "FAIL",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-SKU",
+          "file": "R2_zone/A02/probe_ASGI_produs.json",
+          "sha256": "082568fea862813b39694fb831787ba575c06a10d07520ff50a0a9519cc02e22"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-ORG",
+          "file": "Reverificare_ASGI_Org0_DocAction.json",
+          "sha256": "1f6277a4fc630b355da10aa517fb433f129c4a8f256fdb66a44a081650ffcc5e"
+        }
+      ],
+      "finding_ids": [
+        "A02.F04",
+        "A02.F05"
+      ],
+      "pipeline_ids": [
+        "A02.P01"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C034",
+      "expected": "Fiecare diferență recomandată este susținută de o verificare în cod nativ și una în instalarea reală.",
+      "requirements": [
+        "A12.U05",
+        "A12.U06"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Sunt prezentate codul, JAR, AD și efecte native pentru rezervări, identificatori, proces WMS și DocumentEngine; limitele sunt precizate per constatare.",
+      "remaining_or_scope": "Dublă verificare pentru toate fluxurile de UI, fiecare versiune de instalare și migrări multiple nu este încheiată.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-DOC",
+          "file": "R2_zone/A02/probe_DocEngine_Generator.json",
+          "sha256": "1ebaec7f75335321a6831b400a68574279fe84e4951e39e88f636e3e77d1a3a9"
+        },
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-G",
+          "file": "Reverificare_G3_rezervare_canal.json",
+          "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+        },
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-B",
+          "file": "Diferente_bundle_CESIRO.json",
+          "sha256": "5886c14611c9903696a7c0c0d1395a6e5a3108ed5a3eb307786cdb74b1867358"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P03",
+        "A02.P04",
+        "A02.P06",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    },
+    {
+      "id": "A02.C035",
+      "expected": "Niciun control sau obiect DB in-scope nu este declarat verificat fără probă reproductibilă.",
+      "requirements": [
+        "A12.U02",
+        "A12.U04",
+        "A12.U07",
+        "A12.U35"
+      ],
+      "execution_coverage": "EXECUTAT_PARȚIAL_CU_DOVEZI",
+      "verdict_integral": "NEEXECUTAT",
+      "observed": "Raportul R2 are numitori pentru toate suprafețele A02, rezultate pentru 35/35 criterii, 8/8 fluxuri și hashuri verificabile.",
+      "remaining_or_scope": "Suprafețele și cazurile de business cu NEEXECUTAT rămân explicit deschise, iar A11 acordă nota după revizie.",
+      "previous_status": "NEEXECUTAT",
+      "observed_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-G",
+          "file": "Reverificare_G3_rezervare_canal.json",
+          "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+        },
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-SKU",
+          "file": "R2_zone/A02/probe_ASGI_produs.json",
+          "sha256": "082568fea862813b39694fb831787ba575c06a10d07520ff50a0a9519cc02e22"
+        },
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-DOC",
+          "file": "R2_zone/A02/probe_DocEngine_Generator.json",
+          "sha256": "1ebaec7f75335321a6831b400a68574279fe84e4951e39e88f636e3e77d1a3a9"
+        },
+        {
+          "id": "EV-A02-R2-PERF",
+          "file": "R2_zone/A02/probe_perf_sql.json",
+          "sha256": "03fbda5302036138443eb2ab1555ace336fe5d8638b87b5a5a85ace6e838477b"
+        }
+      ],
+      "finding_ids": [],
+      "pipeline_ids": [
+        "A02.P01",
+        "A02.P02",
+        "A02.P03",
+        "A02.P04",
+        "A02.P05",
+        "A02.P06",
+        "A02.P07",
+        "A02.P08"
+      ],
+      "independent_review": "A11 ÎN AȘTEPTARE"
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A02.P01",
+      "title": "Identitate produs CPP/CPA și mapare canal",
+      "trigger": "Operator creează P1 în CPP și P1 în CPA, apoi mapare canal",
+      "actor": "Administrator catalog al firmei; acces separat canal",
+      "expected": "Două identități distincte, mapare stabilă, fără mutație SKU→ID",
+      "steps_verified": "Catalog ERP → model REST / ASGI → M_Product și extensie portal.",
+      "observed": "ASGI a transmis actualizările către transport. REST/ImportProduct au demonstrat separat schimbarea țintei codului vechi; coliziune DDL între cabinete.",
+      "result": "FAIL",
+      "area_interfaces": "A02/A06/A08/A01/A09",
+      "crosscheck_evidence": [
+        {
+          "id": "EV-A02-R2-SKU",
+          "file": "R2_zone/A02/probe_ASGI_produs.json",
+          "sha256": "082568fea862813b39694fb831787ba575c06a10d07520ff50a0a9519cc02e22"
+        },
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-ORG",
+          "file": "Reverificare_ASGI_Org0_DocAction.json",
+          "sha256": "1f6277a4fc630b355da10aa517fb433f129c4a8f256fdb66a44a081650ffcc5e"
+        },
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        }
+      ],
+      "controls": [
+        "A02.C003",
+        "A02.C004",
+        "A02.C005",
+        "A02.C006",
+        "A02.C007",
+        "A02.C028",
+        "A02.C033",
+        "A02.C035"
+      ],
+      "remaining": "Captură într-un browser de canal și conversie catalog până la factura finală rămân deschise.",
+      "bilateral_verdict": "Rezultatele omologilor sunt citate unde există, fără a declara acceptare bilaterală formală sau E2E dacă nu există o semnătură."
+    },
+    {
+      "id": "A02.P02",
+      "title": "Creare G1/G2 și activare pereche/locatori",
+      "trigger": "Administrator configurează G1.1/G1.2/G2.1/G2.2 și activează WMS",
+      "actor": "Administrator gestiuni cu drept proces; fără schimbare firmă implicită",
+      "expected": "Perechi și locatori valizi în cardinalitatea aprobată; snapshot inițial reconciliat",
+      "steps_verified": "Administrare gestiune → proces EVA_ActivareWms → pereche și stoc vs. POST generic al modelului.",
+      "observed": "Procesul nativ de activare a creat pereche/zone; calea generică de model a acceptat duplicate și Qty negativă.",
+      "result": "FAIL",
+      "area_interfaces": "A02/A05/A01/A09",
+      "crosscheck_evidence": [
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        }
+      ],
+      "controls": [
+        "A02.C004",
+        "A02.C009",
+        "A02.C013",
+        "A02.C018",
+        "A02.C026",
+        "A02.C035"
+      ],
+      "remaining": "Nu au fost mutate/dezactivate două perechi din interfața reală cu documente active.",
+      "bilateral_verdict": "Rezultatele omologilor sunt citate unde există, fără a declara acceptare bilaterală formală sau E2E dacă nu există o semnătură."
+    },
+    {
+      "id": "A02.P03",
+      "title": "Ambalare/dezambalare cu genealogie și cost",
+      "trigger": "Gestionar ambalează S1, schimbă rețeta curentă, apoi dezambalează stocul anterior",
+      "actor": "Gestionar G2 cu drept proces și gestiune",
+      "expected": "Conservare componente pe lot/locator/BOM; consum cutii și cost o dată G1; fără stoc contabil CPA duplicat",
+      "steps_verified": "G2 → NotaSetWmsProces → registru/mișcări; native storage/Fact_Acct separat.",
+      "observed": "Nota originală produce primul set; retry identic produce al doilea; compensarea fizică nu este reversare economică referențiată.",
+      "result": "FAIL",
+      "area_interfaces": "A02/A05/A03",
+      "crosscheck_evidence": [
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        },
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        }
+      ],
+      "controls": [
+        "A02.C013",
+        "A02.C014",
+        "A02.C015",
+        "A02.C016",
+        "A02.C017",
+        "A02.C019",
+        "A02.C020",
+        "A02.C024",
+        "A02.C025",
+        "A02.C026",
+        "A02.C034",
+        "A02.C035"
+      ],
+      "remaining": "Costurile cutie și manoperă și imutabilitatea liniilor BOM rămân deschise.",
+      "bilateral_verdict": "Rezultatele omologilor sunt citate unde există, fără a declara acceptare bilaterală formală sau E2E dacă nu există o semnătură."
+    },
+    {
+      "id": "A02.P04",
+      "title": "Inventar cu ASI/MA și postare",
+      "trigger": "Gestionar importă/numără stoc cu lot/serie și finalizează inventarul",
+      "actor": "Gestionar inventar; contabil pentru validări/postare după rol",
+      "expected": "Delta numărării corectă și auditabilă, MA validă recunoscută, stări de document și postare distincte",
+      "steps_verified": "WInventarForm / proces → inventar și validare → tabele MA/stoc/contabilitate.",
+      "observed": "T366 confirmă documente native, refuz de autoaprobare și concurență. Existența M_InventoryLineMA confirmată separat.",
+      "result": "NEEXECUTAT",
+      "area_interfaces": "A02/A05/A03/A09",
+      "crosscheck_evidence": [
+        {
+          "id": "EV-A02-R2-T",
+          "file": "R2_zone/A05/t366-confirmation.json",
+          "sha256": "36af943cad0930cc732b21e45ddbd4e8cb015a22c33e21a429d5ff0aed67187e"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        }
+      ],
+      "controls": [
+        "A02.C003",
+        "A02.C004",
+        "A02.C013",
+        "A02.C016",
+        "A02.C021",
+        "A02.C025",
+        "A02.C026",
+        "A02.C030",
+        "A02.C034",
+        "A02.C035"
+      ],
+      "remaining": "Nu este închis scenariul ASI0/MA complet până la inversare per lot.",
+      "bilateral_verdict": "Rezultatele omologilor sunt citate unde există, fără a declara acceptare bilaterală formală sau E2E dacă nu există o semnătură."
+    },
+    {
+      "id": "A02.P05",
+      "title": "Rezervare G3 până la livrare parțială",
+      "trigger": "Două comenzi mixte P1/S1/S2 din canale pe aceeași resursă comună",
+      "actor": "Comisionar inițiază; gestionar administrează exclusiv din ERP",
+      "expected": "Fără oversell; 10+10−7=13; livrare parțială și anulare eliberează exact rezervarea corectă",
+      "steps_verified": "Comandă/canal → rezervări → două gestiuni → checkout/pick/livrare/eliberare.",
+      "observed": "20→13→9→20 pentru produs direct. 6 este artificial. Lock 55P03, retry 10; PO inclus greșit în canal și în evaluarea per gestiune.",
+      "result": "FAIL",
+      "area_interfaces": "A02/A06/A05/A07/A08",
+      "crosscheck_evidence": [
+        {
+          "id": "EV-A02-R2-G",
+          "file": "Reverificare_G3_rezervare_canal.json",
+          "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        },
+        {
+          "id": "EV-A02-R2-RET",
+          "file": "Reverificare_retur_concurent_colete.json",
+          "sha256": "0a19fa8c3a6b63624fcab645c6c6bd002cf2af830aae76cafedb7550350083e8"
+        }
+      ],
+      "controls": [
+        "A02.C014",
+        "A02.C015",
+        "A02.C017",
+        "A02.C022",
+        "A02.C023",
+        "A02.C025",
+        "A02.C032",
+        "A02.C031",
+        "A02.C035"
+      ],
+      "remaining": "Testul de lock nu e checkout simultan. UI comisionar și clientul platformei nu au fost exercitate în același E2E.",
+      "bilateral_verdict": "Rezultatele omologilor sunt citate unde există, fără a declara acceptare bilaterală formală sau E2E dacă nu există o semnătură."
+    },
+    {
+      "id": "A02.P06",
+      "title": "Upgrade metadate și schema instalată",
+      "trigger": "Versiune nouă bundle/portal introdusă în cabinet efemer",
+      "actor": "Operator A10; auditor A02 observă şi validează",
+      "expected": "AD/schema compatibile și idempotente, date/identități păstrate și rollback definit",
+      "steps_verified": "Startup portal/ERP → ALTER/backfill AD/model → validarea/migrarea fizică.",
+      "observed": "Cinci migrări portal ×2 și restore păstrează schema. Migratorul real client_map pierde versiunea mai nouă pe un input duplicat legacy.",
+      "result": "FAIL",
+      "area_interfaces": "A02/A10/A04",
+      "crosscheck_evidence": [
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-M",
+          "file": "A02/PG_migrari_rezultate.json",
+          "sha256": "753846562407397ca8d13fe8b985b802a676afc78defdf73b8489441f649a9e3"
+        },
+        {
+          "id": "EV-A02-R2-REST",
+          "file": "Reverificare_restaurare_integrala.json",
+          "sha256": "929014e4bdc00e74607a64cda60e5d5ec70df00431f4383813067c8bde578dcd"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "controls": [
+        "A02.C001",
+        "A02.C002",
+        "A02.C003",
+        "A02.C008",
+        "A02.C009",
+        "A02.C010",
+        "A02.C011",
+        "A02.C012",
+        "A02.C027",
+        "A02.C032",
+        "A02.C031",
+        "A02.C034",
+        "A02.C035"
+      ],
+      "remaining": "Nu acoperă toate versiunile, răcirea cache și rollback binar al fiecărui plugin.",
+      "bilateral_verdict": "Rezultatele omologilor sunt citate unde există, fără a declara acceptare bilaterală formală sau E2E dacă nu există o semnătură."
+    },
+    {
+      "id": "A02.P07",
+      "title": "Import produs/stoc și reimport",
+      "trigger": "Operator migrează sursă SAGA cu produse/loturi/stoc și reia o întrerupere",
+      "actor": "Operator import în cabinet test; fără SQL write de business",
+      "expected": "Identități stabile, stoc și sold reconciliate, reluare fără dubluri",
+      "steps_verified": "Import/preflight → registry produse → doc/import nativ → jurnal și reconciliere.",
+      "observed": "Retry import furnizori păstrează un singur efect; ImportProduct după reciclare reperează vechiul Value pe alt produs.",
+      "result": "FAIL",
+      "area_interfaces": "A02/A04/A05",
+      "crosscheck_evidence": [
+        {
+          "id": "EV-A02-R2-SUP",
+          "file": "Reverificare_import_furnizori_SAGA.json",
+          "sha256": "64e6f27b86b733e79c98ad87d6dda2d4e7d32d4df98d7fa94290e0e6bff97576"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        }
+      ],
+      "controls": [
+        "A02.C005",
+        "A02.C006",
+        "A02.C013",
+        "A02.C015",
+        "A02.C021",
+        "A02.C028",
+        "A02.C035"
+      ],
+      "remaining": "Fără acoperire completă a tuturor fișierelor SAGA și balanțelor de deschidere.",
+      "bilateral_verdict": "Rezultatele omologilor sunt citate unde există, fără a declara acceptare bilaterală formală sau E2E dacă nu există o semnătură."
+    },
+    {
+      "id": "A02.P08",
+      "title": "Număr document, finalizare, fact contabil și restore",
+      "trigger": "Două facturi concurente, una cu timeout, urmate de restore controlat",
+      "actor": "Contabil; operator recovery A10 în test",
+      "expected": "Numere fără coliziune în domeniul fiscal, document existent reluat, restaurare reconciliată",
+      "steps_verified": "Documente/serii → processIt/DocStatus → Fact_Acct → restore.",
+      "observed": "Factura standard CO și postare/storno sunt reale. Garda GeneratorDocumente este absentă la ieșirea din processIt; cazul WP pe factura standard rămâne nedemonstrat.",
+      "result": "FAIL",
+      "area_interfaces": "A02/A03/A07/A10",
+      "crosscheck_evidence": [
+        {
+          "id": "EV-A02-R2-DOC",
+          "file": "R2_zone/A02/probe_DocEngine_Generator.json",
+          "sha256": "1ebaec7f75335321a6831b400a68574279fe84e4951e39e88f636e3e77d1a3a9"
+        },
+        {
+          "id": "EV-A02-R2-PO",
+          "file": "Reverificare_PO_receptie_match_storno.json",
+          "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01"
+        },
+        {
+          "id": "EV-A02-R2-POST",
+          "file": "Reverificare_T257_import_fidel_si_protectie.json",
+          "sha256": "004c12f75f5005148d81cf1b224cc4c66cdbe152c895690ccf785418571f554e"
+        },
+        {
+          "id": "EV-A02-R2-REST",
+          "file": "Reverificare_restaurare_integrala.json",
+          "sha256": "929014e4bdc00e74607a64cda60e5d5ec70df00431f4383813067c8bde578dcd"
+        },
+        {
+          "id": "EV-A02-R2-J",
+          "file": "A02/Java_suite.json",
+          "sha256": "15068f97389f2e62e3b9471513f45c073706a8d18284f6bdfeb809c77fd36d82"
+        },
+        {
+          "id": "EV-A02-R2-ROLE",
+          "file": "Reverificare_rol_DocAction.json",
+          "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8"
+        }
+      ],
+      "controls": [
+        "A02.C006",
+        "A02.C007",
+        "A02.C012",
+        "A02.C015",
+        "A02.C025",
+        "A02.C026",
+        "A02.C029",
+        "A02.C030",
+        "A02.C034",
+        "A02.C035"
+      ],
+      "remaining": "Două facturi concurente la limita seriei și reconcilierea evenimentelor externe după restore rămân deschise.",
+      "bilateral_verdict": "Rezultatele omologilor sunt citate unde există, fără a declara acceptare bilaterală formală sau E2E dacă nu există o semnătură."
+    }
+  ],
+  "findings": [
+    {
+      "id": "A02.F01",
+      "controls": [
+        "A02.C022",
+        "A02.C023"
+      ],
+      "pipelines": [
+        "A02.P05"
+      ],
+      "canonical_task_links": [
+        {
+          "technical_id": "T22",
+          "canonical": null,
+          "chapter": "P01.C10",
+          "portal_state": "agregat",
+          "title": "Comenzile de pe site, facturate și încasate automat",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T35",
+          "canonical": null,
+          "chapter": "P01.C10",
+          "portal_state": "agregat",
+          "title": "Fișa fiecărei platforme de vânzări și stocul pe canal",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T211",
+          "canonical": "P01.C10.T0002",
+          "chapter": "P01.C10",
+          "portal_state": "integrat",
+          "title": "Fișa fiecărei platforme de vânzări și canalele ei",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T352",
+          "canonical": "P01.C10.T0028",
+          "chapter": "P01.C10",
+          "portal_state": "integrat",
+          "title": "Tabelul produs × canal: preț, cantitate, termen",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        }
+      ],
+      "previous_title": "Rezerva comună se deduce din fiecare G1 când se compun disponibilitățile.",
+      "disposition": "RETRACTAT_CA_DEFECT_DE_PUBLICARE; RISC DE AGREGAȚIE DOCUMENTAT",
+      "severity": "FĂRĂ SEVERITATE DE PRODUS DEMONSTRATĂ",
+      "anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RezervareStoc.java",
+          "symbol": "RezervareStoc.disponibil",
+          "lines": [
+            {
+              "line": 214,
+              "token": "public static BigDecimal disponibil"
+            },
+            {
+              "line": 217,
+              "token": "BigDecimal t22 = suma"
+            }
+          ],
+          "source_sha256": "4b4a24d2802f1e93f32911d2b7dd3bbeae9d1ccbc52436a5331814ed22f2e9e0",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalCalcul.java",
+          "symbol": "FisaCanalCalcul calcul disponibil",
+          "lines": [
+            {
+              "line": 169,
+              "token": "BigDecimal disponibil = suma.subtract"
+            }
+          ],
+          "source_sha256": "f87fcb7facf39781f7cfe48b63eb39421903481ac4cfd5f3597268f7eb0b7b37",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalProces.java",
+          "symbol": "FisaCanalProces surse stoc/canal",
+          "lines": [
+            {
+              "line": 368,
+              "token": "FROM m_storageonhand"
+            }
+          ],
+          "source_sha256": "357523ffba21d600026d6b7e62316f4f615e5dff7541d766c353d87b5e6e87fc",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-G",
+          "file": "Reverificare_G3_rezervare_canal.json",
+          "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        }
+      ],
+      "reproduction": {
+        "before": "G1.1=10 și G1.2=10, o rezervare comună de 7.",
+        "action": "Calculează disponibilul per gestiune și separat formula reală a canalului.",
+        "expected": "13 la canal. Nu interpreta suma deciziilor operative ca total publicat.",
+        "observed": "3 și 3 în metoda per gestiune. 6 este suma artificială a celor două valori. Formula de canal produce 13. Fără rezervare produce 20 și la anulare revine la 20."
+      },
+      "contrary_test": "Cea mai puternică infirmare a afirmației R1 este calculul canalului propriu la aceiași parametri. Nu s-a identificat un consumator activ care însumează metoda operațională.",
+      "scope": "SQL extras și tabele GardenWorld. Nu s-a măsurat pagina publică sau push către marketplace.",
+      "corrective_action": "Păstrează totalul corect existent și testează că un consumator nou alege formula canalului.",
+      "regression_acceptance": "10+10−7=13 după publicare; anulare 20; nu atribui 6 canalului fără un apel real dovedit.",
+      "reviewer": "A11",
+      "approval": null
+    },
+    {
+      "id": "A02.F02",
+      "controls": [
+        "A02.C022",
+        "A02.C023"
+      ],
+      "pipelines": [
+        "A02.P05"
+      ],
+      "canonical_task_links": [
+        {
+          "technical_id": "T22",
+          "canonical": null,
+          "chapter": "P01.C10",
+          "portal_state": "agregat",
+          "title": "Comenzile de pe site, facturate și încasate automat",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T35",
+          "canonical": null,
+          "chapter": "P01.C10",
+          "portal_state": "agregat",
+          "title": "Fișa fiecărei platforme de vânzări și stocul pe canal",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T211",
+          "canonical": "P01.C10.T0002",
+          "chapter": "P01.C10",
+          "portal_state": "integrat",
+          "title": "Fișa fiecărei platforme de vânzări și canalele ei",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T352",
+          "canonical": "P01.C10.T0028",
+          "chapter": "P01.C10",
+          "portal_state": "integrat",
+          "title": "Tabelul produs × canal: preț, cantitate, termen",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        }
+      ],
+      "previous_title": "RezervareStoc însumează și cantitățile comandate de la furnizor (IsSOTrx=N).",
+      "disposition": "CONFIRMAT_DOUĂ_CĂI_SQL",
+      "severity": "HIGH",
+      "anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RezervareStoc.java",
+          "symbol": "RezervareStoc.SQL_REZ_NATIVA / disponibil",
+          "lines": [
+            {
+              "line": 203,
+              "token": "String SQL_REZ_NATIVA"
+            },
+            {
+              "line": 216,
+              "token": "BigDecimal nativ = suma"
+            }
+          ],
+          "source_sha256": "4b4a24d2802f1e93f32911d2b7dd3bbeae9d1ccbc52436a5331814ed22f2e9e0",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/FisaCanalProces.java",
+          "symbol": "FisaCanalProces cantitatea nativă",
+          "lines": [
+            {
+              "line": 370,
+              "token": "FROM m_storagereservation"
+            }
+          ],
+          "source_sha256": "357523ffba21d600026d6b7e62316f4f615e5dff7541d766c353d87b5e6e87fc",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "org.adempiere.base/src/org/compiere/model/MStorageReservation.java",
+          "symbol": "MStorageReservation.getQty / getQtyAvailable",
+          "lines": [
+            {
+              "line": 52,
+              "token": "boolean isSOTrx, String trxName)"
+            },
+            {
+              "line": 198,
+              "token": "AND sr.IsSOTrx=?"
+            },
+            {
+              "line": 229,
+              "token": "M_AttributeSetInstance_ID, true, trxName"
+            }
+          ],
+          "source_sha256": "1904e5e9746d8136d5164dbf7e0ac3c36fa1bd061f52aa6c6844788ceff7f6c5",
+          "version": "core release-13 din inventarul secundar, distinct de bytecode instalat"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-G",
+          "file": "Reverificare_G3_rezervare_canal.json",
+          "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        },
+        {
+          "id": "EV-A02-R2-B",
+          "file": "Diferente_bundle_CESIRO.json",
+          "sha256": "5886c14611c9903696a7c0c0d1395a6e5a3108ed5a3eb307786cdb74b1867358"
+        }
+      ],
+      "reproduction": {
+        "before": "20 fizic, cerere comercială 7, comandă furnizor 4 cu IsSOTrx=N.",
+        "action": "Aplică interogările operative și de canal cu PO, apoi elimină PO și eliberează rezervarea.",
+        "expected": "13 la canal, deoarece achiziția deschisă nu rezervă stocul de vânzare.",
+        "observed": "Formula canalului dă 9; oracolul după filtru IsSOTrx=Y dă 13. Pe o gestiune: 10 fizic, true=2 și false=4, disponibil EVA 4 față de 8 nativ."
+      },
+      "contrary_test": "Fără PO: 13 la canal. După eliminarea PO și a cererii: 20. A doua conexiune cu lock obține 55P03, apoi recitește 10 după commit.",
+      "scope": "SQL real pe baza GardenWorld și două conexiuni. Nu reprezintă un checkout complet sau un tarif transmis extern.",
+      "corrective_action": "Folosește getQty(...,true,trx) ori același predicat SO în ambele căi, păstrând scope-ul ASI, client și rezervarea proprie.",
+      "regression_acceptance": "Reproduce 13→13 la introducerea PO4, apoi 20 după eliberare, cu două cereri concurente și firme distincte.",
+      "reviewer": "A11",
+      "approval": null
+    },
+    {
+      "id": "A02.F03",
+      "controls": [
+        "A02.C016",
+        "A02.C003"
+      ],
+      "pipelines": [
+        "A02.P02",
+        "A02.P03"
+      ],
+      "canonical_task_links": [
+        {
+          "technical_id": "T331",
+          "canonical": "P01.C03.T0017",
+          "chapter": "P01.C03",
+          "portal_state": "montat",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T355",
+          "canonical": "P01.C03.T0029",
+          "chapter": "P01.C03",
+          "portal_state": "închis",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        }
+      ],
+      "previous_title": "Indexul WMS permite două poziții logice cu ASI/BOM NULL.",
+      "disposition": "CONFIRMAT_MODEL_REST_ȘI_DB",
+      "severity": "HIGH",
+      "anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ModelWms.java",
+          "symbol": "ModelWms.INDEXURI",
+          "lines": [
+            {
+              "line": 75,
+              "token": "eva_stocwms_uk"
+            },
+            {
+              "line": 76,
+              "token": "m_attributesetinstance_id, pp_product_bom_id"
+            }
+          ],
+          "source_sha256": "24f6a4a281deb2f31ad1771729c713f79ad7472e3cbb29565a52f35420fc574e",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "symbol": "StocWms.DepozitBd",
+          "lines": [
+            {
+              "line": 203,
+              "token": "String SQL_BLOCAT"
+            },
+            {
+              "line": 275,
+              "token": "r.set_ValueOfColumn(\"M_AttributeSetInstance_ID\", asi)"
+            },
+            {
+              "line": 276,
+              "token": "r.set_ValueOfColumn(\"PP_Product_BOM_ID\", bom)"
+            }
+          ],
+          "source_sha256": "87fbb7904157baac8a1fd26cc7c1e2ddb5467b3a2fd589ca52eaf17f1da48af2",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "reproduction": {
+        "before": "Rol GardenAdmin 102, aceeași cheie produs 123/locator 101, ASI și BOM nedefinite.",
+        "action": "POST nativ de două ori cu dimensiuni omise și încă o dată cu NULL explicit.",
+        "expected": "O poziție logică pentru 9 bucăți.",
+        "observed": "Trei răspunsuri HTTP 201, ID distincte 1000000–1000002, 9 pe fiecare, total 27."
+      },
+      "contrary_test": "Cu 0/0, indexul a permis un singur rând în fixture-ul SQL. Writerul oficial setează explicit dimensiunile și blochează cheia.",
+      "scope": "Model REST cu rol 102 în GardenWorld. Fără extrapolare la drepturile unui gestionar din CESIRO sau la cantitățile din producție.",
+      "corrective_action": "Normalizează identic cele două dimensiuni sau impune unicitate compatibilă cu NULL. Reconciliază întâi dublurile și verifică permisiunea REST generic.",
+      "regression_acceptance": "Prin modelul nativ, a doua creare identică trebuie refuzată sau idempotentă; două loturi ori versiuni distincte trebuie să rămână distincte.",
+      "reviewer": "A11",
+      "approval": null
+    },
+    {
+      "id": "A02.F04",
+      "controls": [
+        "A02.C005",
+        "A02.C006",
+        "A02.C033"
+      ],
+      "pipelines": [
+        "A02.P01",
+        "A02.P07"
+      ],
+      "canonical_task_links": [
+        {
+          "technical_id": "T324",
+          "canonical": "P01.C03.T0010",
+          "chapter": "P01.C03",
+          "portal_state": "montat",
+          "title": "Inventarul de pornire din fișier, pe poziție și lot",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T354",
+          "canonical": "P01.C03.T0028",
+          "chapter": "P01.C03",
+          "portal_state": "montat",
+          "title": "Inventarul pe produse, seturile pe lista de materiale",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T366",
+          "canonical": "P01.C03.T0030",
+          "chapter": "P01.C03",
+          "portal_state": "închis",
+          "title": "Inventarul validat pe produs, cu confirmarea validării",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        }
+      ],
+      "previous_title": "Ruta POST tratează SKU drept cod intern, iar PATCH poate modifica Value prin sku.",
+      "disposition": "CONFIRMAT_ROUTE_ALIAS_ȘI_REUTILIZARE_NATIVĂ",
+      "severity": "HIGH",
+      "anchors": [
+        {
+          "path": "backend/app/routers/product_full.py",
+          "symbol": "create_product / patch_product",
+          "lines": [
+            {
+              "line": 280,
+              "token": "sku = (body.get(\"sku\")"
+            },
+            {
+              "line": 326,
+              "token": "\"sku\": \"Value\""
+            },
+            {
+              "line": 254,
+              "token": "\"sku_native\": \"SKU\""
+            },
+            {
+              "line": 369,
+              "token": "update_product(id, ws_fields)"
+            }
+          ],
+          "source_sha256": "e66bf4759b71eaf3b0b141f7756a1e741b52b4218904aeb2f0af38041415b63b",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ArticolNou.java",
+          "symbol": "ArticolNou.nou",
+          "lines": [
+            {
+              "line": 153,
+              "token": "p.setValue(cod.trim())"
+            }
+          ],
+          "source_sha256": "c598c5818f70cb27a946a97dbdbcc949b20cca056e2dd924be697150f1fe0d8e",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-SKU",
+          "file": "R2_zone/A02/probe_ASGI_produs.json",
+          "sha256": "082568fea862813b39694fb831787ba575c06a10d07520ff50a0a9519cc02e22"
+        },
+        {
+          "id": "EV-A02-R2-I",
+          "file": "R2_zone/A05/identity-real.json",
+          "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c"
+        },
+        {
+          "id": "EV-A02-R2-II",
+          "file": "R2_zone/A05/identity-import.json",
+          "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        }
+      ],
+      "reproduction": {
+        "before": "CPP ID1000000 și CPA ID1000001. În proba ASGI există Value=FIX-PRIMARY și SKU=ALIAS-A.",
+        "action": "PATCH sku_native apoi sku; repetă cu aceeași cheie. Nativ: dezactivează CPP, redenumește-l, creează alt articol cu vechiul Value, reactivează și rulează importul nativ.",
+        "expected": "Aliasul comercial nu schimbă codul intern. Un cod vechi nu se mai atribuie altei identități.",
+        "observed": "HTTP 200 pentru ambele PATCH: sku_native schimbă SKU, sku schimbă Value; retry fără scriere. REST nativ a permis alt articol 1000003 cu Value anterior, iar importul nativ a țintit 1000003."
+      },
+      "contrary_test": "Cât timp originalul e doar inactiv, indexul respinge duplicatul. CPP și CPA au ID distincte; reactivarea originalului sub noul cod reușește.",
+      "scope": "ASGI exercită ruta autentică, dar transportul către ERP și contextul rolului sunt controlate. REST/ImportProduct sunt probe native independente, în cabinet de test.",
+      "corrective_action": "Păstrează M_Product separat CPP/CPA; tratează SKU nativ drept alias și mapările canalului separat. Blochează reatribuirea codului prin politica de ciclu de viață, inclusiv import și restore.",
+      "regression_acceptance": "Cerere SKU schimbă doar SKU, codul nu se reciclează după rename/restore și importul nu creditează articolul înlocuitor.",
+      "reviewer": "A11",
+      "approval": null
+    },
+    {
+      "id": "A02.F05",
+      "controls": [
+        "A02.C004",
+        "A02.C033"
+      ],
+      "pipelines": [
+        "A02.P01"
+      ],
+      "canonical_task_links": [],
+      "previous_title": "Cheia de extensie portal nu identifică două cabinete ce conțin același CUI și același ID local produs.",
+      "disposition": "CONFIRMAT_COLIZIUNE_SCHEMA_COMUNĂ; SCURGERE_LIVE_NEDEMONSTRATĂ",
+      "severity": "HIGH",
+      "anchors": [
+        {
+          "path": "backend/migrations/eva_product_ext.sql",
+          "symbol": "uq_prodext_scope",
+          "lines": [
+            {
+              "line": 21,
+              "token": "CREATE TABLE IF NOT EXISTS eva_product_ext"
+            },
+            {
+              "line": 97,
+              "token": "CONSTRAINT uq_prodext_scope"
+            }
+          ],
+          "source_sha256": "00e7fd8864c48b4dd2c74a9d897558b18795ff894671dc5781614718014c6504",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "backend/app/idempiere/client_map_migration.py",
+          "symbol": "migrate_client_map_per_cabinet",
+          "lines": [
+            {
+              "line": 139,
+              "token": "ON eva_idempiere_client_map (managing_uuid, tenant_cui)"
+            }
+          ],
+          "source_sha256": "25f2def54e8346968f1ee4b3cee5eadbca2c77e7f0732466a33b5e9b55a40d6e",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-M",
+          "file": "A02/PG_migrari_rezultate.json",
+          "sha256": "753846562407397ca8d13fe8b985b802a676afc78defdf73b8489441f649a9e3"
+        },
+        {
+          "id": "EV-A02-R2-ORG",
+          "file": "Reverificare_ASGI_Org0_DocAction.json",
+          "sha256": "1f6277a4fc630b355da10aa517fb433f129c4a8f256fdb66a44a081650ffcc5e"
+        },
+        {
+          "id": "EV-A02-R2-ROLE",
+          "file": "Reverificare_rol_DocAction.json",
+          "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8"
+        }
+      ],
+      "reproduction": {
+        "before": "Două cabinete, aceeași firmă/CUI și același ID numeric local 123.",
+        "action": "Aplică DDL portal neschimbat, inserează extensia A apoi cea a cabinetului B cu alt AD_Client.",
+        "expected": "Două extensii independent adresabile dacă portalul este comun.",
+        "observed": "A doua inserare returnează SQLSTATE 23505; rămâne o extensie. Pentru un CUI diferit al doilea rând reușește."
+      },
+      "contrary_test": "ASGI și rolurile native separă org 11/12 și interzic DocAction străin; configurarea org0 este globală pentru client. Acest lucru nu extinde cheia uQ de portal.",
+      "scope": "Demonstrează coliziune la nivel de DDL în topologie comună. Nu demonstrează citire neautorizată, topologia efectivă a tuturor portalurilor sau o pierdere reală în CESIRO.",
+      "corrective_action": "Folosește același cabinet stabil ca în mapping-ul per-cabinet, inclusiv la căutări, chei, backfill și API; dacă portalurile sunt fizic separate, dovedește separarea cu două cabinete.",
+      "regression_acceptance": "Aceeași firmă și același ID local au două extensii și niciun schimb de rol/cabinet nu permite citire străină.",
+      "reviewer": "A11",
+      "approval": null
+    },
+    {
+      "id": "A02.F06",
+      "controls": [
+        "A02.C003",
+        "A02.C016"
+      ],
+      "pipelines": [
+        "A02.P02",
+        "A02.P03"
+      ],
+      "canonical_task_links": [
+        {
+          "technical_id": "T331",
+          "canonical": "P01.C03.T0017",
+          "chapter": "P01.C03",
+          "portal_state": "montat",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T355",
+          "canonical": "P01.C03.T0029",
+          "chapter": "P01.C03",
+          "portal_state": "închis",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        }
+      ],
+      "previous_title": "Tabela WMS nu garantează la nivel DB valoarea nenegativă pentru Qty, deși writerul oficial o validează.",
+      "disposition": "CONFIRMAT_MODEL_REST_ȘI_CONTRAPROBĂ_WRITER",
+      "severity": "HIGH",
+      "anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "symbol": "StocWms.noua / aplicaPeCheie",
+          "lines": [
+            {
+              "line": 123,
+              "token": "static BigDecimal noua"
+            },
+            {
+              "line": 37,
+              "token": "R_NEGATIV"
+            },
+            {
+              "line": 206,
+              "token": "SQL_ACTUALIZEZ"
+            }
+          ],
+          "source_sha256": "87fbb7904157baac8a1fd26cc7c1e2ddb5467b3a2fd589ca52eaf17f1da48af2",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ModelWms.java",
+          "symbol": "ModelWms definiția Qty",
+          "lines": [
+            {
+              "line": 41,
+              "token": "\"Qty\""
+            }
+          ],
+          "source_sha256": "24f6a4a281deb2f31ad1771729c713f79ad7472e3cbb29565a52f35420fc574e",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-W",
+          "file": "Reverificare_WMS_dimensiuni_native.json",
+          "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96"
+        },
+        {
+          "id": "EV-A02-R2-F",
+          "file": "A02/PG_fixture_rezultate.json",
+          "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7"
+        },
+        {
+          "id": "EV-A02-R2-D",
+          "file": "A02/CESIRO_metadate.json",
+          "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442"
+        },
+        {
+          "id": "EV-A02-R2-J",
+          "file": "A02/Java_suite.json",
+          "sha256": "15068f97389f2e62e3b9471513f45c073706a8d18284f6bdfeb809c77fd36d82"
+        }
+      ],
+      "reproduction": {
+        "before": "Aceeași poziție de test după cele trei POST de câte 9.",
+        "action": "POST model nativ cu Qty=-4, apoi recitire SQL din cabinetul de test.",
+        "expected": "O poziție stoc nu acceptă cantitate negativă; o mișcare de ieșire este alt obiect.",
+        "observed": "HTTP 201, rândul 1000003 persistă Qty=-4. Modelul generic poate ocoli garda procesului."
+      },
+      "contrary_test": "StocWms.noua refuză rezultatul negativ. FK/check actuale nu impun Qty>=0.",
+      "scope": "Acces prin rol GardenAdmin 102, nu prin formularul gestionarului. Niciun rând de producție nu a fost modificat.",
+      "corrective_action": "Protejează modelul și tabela conform politicii stocului validat; păstrează cantitățile cu semn în jurnalul de mișcări separat.",
+      "regression_acceptance": "POST/PUT negative refuzate; ieșirea legitimă din registru funcționează și soldul nu devine negativ.",
+      "reviewer": "A11",
+      "approval": null
+    },
+    {
+      "id": "A02.F07",
+      "controls": [
+        "A02.C025"
+      ],
+      "pipelines": [
+        "A02.P08"
+      ],
+      "canonical_task_links": [
+        {
+          "technical_id": "T212",
+          "canonical": "P01.C10.T0003",
+          "chapter": "P01.C10",
+          "portal_state": "montat",
+          "title": "Comenzile online urmărite până la încasare",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        },
+        {
+          "technical_id": "T337",
+          "canonical": "P01.C03.T0023",
+          "chapter": "P01.C03",
+          "portal_state": "montat",
+          "title": "Confirmarea culegerii înaintea livrării comenzilor",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        }
+      ],
+      "previous_title": "După completeIt→saveEx al facturii GeneratorDocumente poate continua fără recitirea CO/DocStatus efectiv.",
+      "disposition": "GARDA_LIPSEȘTE_ÎN_BYTECODE; IMPACT_FACTURĂ_WP_NEDEMONSTRAT",
+      "severity": "MEDIUM",
+      "anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/GeneratorDocumente.java",
+          "symbol": "GeneratorDocumente.facturaSiLegaturi",
+          "lines": [
+            {
+              "line": 611,
+              "token": "private static Rezultat facturaSiLegaturi"
+            },
+            {
+              "line": 654,
+              "token": "if (!inv.processIt(DocAction.ACTION_Complete))"
+            },
+            {
+              "line": 661,
+              "token": "// 6. legăturile pe liniile valului"
+            },
+            {
+              "line": 665,
+              "token": "DomeniiT22.LIVRAT, l.idLinie()"
+            }
+          ],
+          "source_sha256": "fdfc21ef59a5886a558403ff3b480ee2e0fca88d28456aa120676530ecae5131",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        },
+        {
+          "path": "org.adempiere.base/src/org/compiere/process/DocumentEngine.java",
+          "symbol": "DocumentEngine.processIt / completeIt",
+          "lines": [
+            {
+              "line": 332,
+              "token": "|| STATUS_WaitingPayment.equals(status)"
+            },
+            {
+              "line": 560,
+              "token": "m_status = m_document.completeIt()"
+            }
+          ],
+          "source_sha256": "67a7ea6be7d9d616057bb9af6f001964665c4eecdbe0781fac8668909b91b063",
+          "version": "core release-13 din inventarul secundar, distinct de bytecode instalat"
+        },
+        {
+          "path": "org.adempiere.base/src/org/compiere/model/MInvoice.java",
+          "symbol": "MInvoice.completeIt",
+          "lines": [
+            {
+              "line": 1948,
+              "token": "public String completeIt()"
+            },
+            {
+              "line": 2330,
+              "token": "return DocAction.STATUS_Completed;"
+            }
+          ],
+          "source_sha256": "236f4f9404405023e1a419b004b46b12b2578a93e83cd05ad9dc94d7ad67fed2",
+          "version": "core release-13 din inventarul secundar, distinct de bytecode instalat"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-DOC",
+          "file": "R2_zone/A02/probe_DocEngine_Generator.json",
+          "sha256": "1ebaec7f75335321a6831b400a68574279fe84e4951e39e88f636e3e77d1a3a9"
+        },
+        {
+          "id": "EV-A02-R2-PO",
+          "file": "Reverificare_PO_receptie_match_storno.json",
+          "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01"
+        },
+        {
+          "id": "EV-A02-R2-ROLE",
+          "file": "Reverificare_rol_DocAction.json",
+          "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8"
+        }
+      ],
+      "reproduction": {
+        "before": "Motorul nativ este actualul JAR CESIRO. La același contract DocAction controlează doar starea întoarsă de document.",
+        "action": "Rulează motorul real cu document martor pentru IP/WP/WC/IN. Dezasamblează metoda efectivă facturaSiLegaturi; urmărește success branch până la UPDATE comanda site.",
+        "expected": "Mai întâi confirmă CO în starea persistentă a facturii, apoi marchează LIVRAT și eliberează rezerva.",
+        "observed": "IP,WP,WC produc true; IN produce false. Bytecode-ul GeneratorDocumente face processIt (offset 486), saveEx (526), UPDATE comanda site (638) fără recitire MInvoice.getDocStatus între ele."
+      },
+      "contrary_test": "Factura standard din exercitiul PO trece CO și se postează; inversarea funcționează. Codul MInvoice standard inspectat are cale normală spre CO și căi invalide; nu s-a reprodus factura standard în WP pe exact GeneratorDocumente.",
+      "scope": "Defectul de gardă este dovedit. DocAction martor controlat nu este MInvoice cu validatorul din CESIRO. Nu se declară document real etichetat LIVRAT în WP.",
+      "corrective_action": "Aplică la factură aceeași verificare de stare deja folosită pentru expediție. Păstrează ID factura existentă pentru reluare.",
+      "regression_acceptance": "Test pozitiv CO, refuz IN, caz WP/WC/IP prin extensie sau date autorizate; verifică că rezervarea și statusul comenzii nu se modifică înainte de CO.",
+      "reviewer": "A11",
+      "approval": null
+    },
+    {
+      "id": "A02.F08",
+      "controls": [
+        "A02.C008",
+        "A02.C010",
+        "A02.C011"
+      ],
+      "pipelines": [
+        "A02.P06"
+      ],
+      "canonical_task_links": [],
+      "previous_title": "client_map_migration.py deduplică rânduri după ctid, care nu identifică data de business a ultimei mapări.",
+      "disposition": "CONFIRMAT_MIGRATOR_REAL_PE_DUBLURI_LEGACY",
+      "severity": "MEDIUM",
+      "anchors": [
+        {
+          "path": "backend/app/idempiere/client_map_migration.py",
+          "symbol": "migrate_client_map_per_cabinet",
+          "lines": [
+            {
+              "line": 82,
+              "token": "def migrate_client_map_per_cabinet"
+            },
+            {
+              "line": 130,
+              "token": "delete from eva_idempiere_client_map a using"
+            },
+            {
+              "line": 131,
+              "token": "a.ctid < b.ctid"
+            },
+            {
+              "line": 138,
+              "token": "CREATE UNIQUE INDEX IF NOT EXISTS uq_client_map_cabinet_cui"
+            }
+          ],
+          "source_sha256": "25f2def54e8346968f1ee4b3cee5eadbca2c77e7f0732466a33b5e9b55a40d6e",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-PG",
+          "file": "R2_zone/A02/probe_pg_migration_portal.json",
+          "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9"
+        },
+        {
+          "id": "EV-A02-R2-S",
+          "file": "A02/cod_si_nativ.json",
+          "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93"
+        }
+      ],
+      "reproduction": {
+        "before": "Legacy cu două mapări pentru (cabA,SYNTH), client 210 data 20 octombrie și client 110 data 10 ianuarie, inserate în două tranzacții separate.",
+        "action": "Rulează funcția Python nemodificată și repetă. Inversează ordinea inserării într-un al doilea caz.",
+        "expected": "Dacă regula declarată este „păstrează rândul cel mai recent”, rezultatul este 210 în ambele cazuri. În lipsa datei autoritative se raportează conflictul.",
+        "observed": "Când 210 este inserat primul, se păstrează 110. Când 210 se introduce ultimul, se păstrează 210. A doua rulare este stabilă în ambele cazuri și nu remediază pierderea inițială."
+      },
+      "contrary_test": "Cu o singură mapare, 210 rămâne intactă. Data de business este martor sintetic; un vechi PK pe CUI care chiar interzice duplicatele nu declanșează această ramură.",
+      "scope": "Proba necesită duplicate legacy înaintea migrării. Nu afirmă existența lor în producție ori că orice upgrade pierde date. Nu au existat hosturi externe/managed_firms de sondat în clonă.",
+      "corrective_action": "Abandonează deduplicarea după ctid; folosește timestamp/versiune de sursă demonstrabilă și păstrează conflictele ambigue pentru reconciliere.",
+      "regression_acceptance": "Data/versiunea mai nouă supraviețuiește indiferent de ordine, actualizări fizice, rerun și reordonare; ambiguitatea nu declanșează ștergere silențioasă.",
+      "reviewer": "A11",
+      "approval": null
+    },
+    {
+      "id": "A02.F09",
+      "controls": [
+        "A02.C015",
+        "A02.C013"
+      ],
+      "pipelines": [
+        "A02.P03"
+      ],
+      "canonical_task_links": [
+        {
+          "technical_id": "T355",
+          "canonical": "P01.C03.T0029",
+          "chapter": "P01.C03",
+          "portal_state": "închis",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "binding": "Legătură funcțională din registru. Verdictul este pentru SHA fixat și nu dovedește retrospectiv implementarea la data închiderii."
+        }
+      ],
+      "previous_title": null,
+      "disposition": "CONFIRMAT_R2_PE_RUTA_PROCES_NATIVE; PRELUAT_A05",
+      "severity": "HIGH",
+      "anchors": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/NotaSetWmsProces.java",
+          "symbol": "NotaSetWmsProces.doIt",
+          "lines": [
+            {
+              "line": 239,
+              "token": "protected String doIt()"
+            },
+            {
+              "line": 252,
+              "token": "getAD_PInstance_ID(), trx"
+            },
+            {
+              "line": 253,
+              "token": "s.inregistreaza(ctx, client, pl.miscari(), trx)"
+            }
+          ],
+          "source_sha256": "ad57afa1ef4e9a47ce7bede1cf54bfdeba43f81e6e72a4e0194a7407bf0f4b74",
+          "version": "6df998aee0e514d30856c461962afe99ebd0d113"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "EV-A02-R2-WK",
+          "file": "R2_zone/A05/recipe-cost-cycle.json",
+          "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b"
+        }
+      ],
+      "reproduction": {
+        "before": "Set ambalat în G2 cu o cheie de operație.",
+        "action": "Retrimite exact cererea după primul succes și compară cu un repack legitim pe altă cheie și cu o compensare.",
+        "expected": "Replay păstrează prima operație. Repack-ul intenționat este nou.",
+        "observed": "Primul apel produce un set, replay cu aceeași cheie și același payload produce încă unul. Al treilea apel intenționat produce al treilea set. O dezambalare de compensare aduce totalul la 2."
+      },
+      "contrary_test": "O cheie nouă trebuie să permită repack; reversarea fizică o singură dată nu este o dovadă a deduplicării inițiale.",
+      "scope": "Proces REST nativ pe cabinet de test și snapshot DB, nu toate extensiile externe. Fact_Acct agregat nemodificat nu dovedește costul unei rețete cu manoperă absentă din fixture.",
+      "corrective_action": "Adaugă o cheie de business persistentă acceptată în proces sau intrare nativă unică; reia documentul inițial la retry, păstrează ID nou pentru operație distinctă.",
+      "regression_acceptance": "Aceeași cheie și payload creează exact un set; altă cheie creează al doilea; aceeași cheie cu payload diferit este conflict.",
+      "reviewer": "A11",
+      "approval": null
+    }
+  ],
+  "evidence_index": [
+    {
+      "id": "D",
+      "path": "A02/CESIRO_metadate.json",
+      "sha256": "d21cb5229a0894094336076bab7b12da2a5a87097759688b6cd73a71ef097442",
+      "origin": "A02 R1"
+    },
+    {
+      "id": "R",
+      "path": "A02/reconciliere_AD.json",
+      "sha256": "766bd64d3a908a118dd1afdd8849ca9caf2b126c6d5c88b6a9491c2ec27bb836",
+      "origin": "A02 R1"
+    },
+    {
+      "id": "S",
+      "path": "A02/cod_si_nativ.json",
+      "sha256": "84241208aa4632f78bc9517c357ee67f1e0130b0b447262e306ad290860c2a93",
+      "origin": "A02 R1"
+    },
+    {
+      "id": "F",
+      "path": "A02/PG_fixture_rezultate.json",
+      "sha256": "ffb00c29a1b78dc0339453e8141eebaebce8c481a2c9cd3f847b06e618015bb7",
+      "origin": "A02 R1"
+    },
+    {
+      "id": "J",
+      "path": "A02/Java_suite.json",
+      "sha256": "15068f97389f2e62e3b9471513f45c073706a8d18284f6bdfeb809c77fd36d82",
+      "origin": "A02 R1"
+    },
+    {
+      "id": "M",
+      "path": "A02/PG_migrari_rezultate.json",
+      "sha256": "753846562407397ca8d13fe8b985b802a676afc78defdf73b8489441f649a9e3",
+      "origin": "A02 R1"
+    },
+    {
+      "id": "B",
+      "path": "Diferente_bundle_CESIRO.json",
+      "sha256": "5886c14611c9903696a7c0c0d1395a6e5a3108ed5a3eb307786cdb74b1867358",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "G",
+      "path": "Reverificare_G3_rezervare_canal.json",
+      "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "W",
+      "path": "Reverificare_WMS_dimensiuni_native.json",
+      "sha256": "249948e251e2ca8b9f7c6b55e257922badd0054195bf9c5ac2a82eaf47769d96",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "I",
+      "path": "R2_zone/A05/identity-real.json",
+      "sha256": "016cb9f3c7fd641fdbd4721dba4af39830fd4e32f3dd79534ddf3ce2571fae2c",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "II",
+      "path": "R2_zone/A05/identity-import.json",
+      "sha256": "e7770ce7aee8a33a697c8ffecd0fc7a46329b6eb7da88f69c9b91c9cf5be7256",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "WK",
+      "path": "R2_zone/A05/recipe-cost-cycle.json",
+      "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "T",
+      "path": "R2_zone/A05/t366-confirmation.json",
+      "sha256": "36af943cad0930cc732b21e45ddbd4e8cb015a22c33e21a429d5ff0aed67187e",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "ORG",
+      "path": "Reverificare_ASGI_Org0_DocAction.json",
+      "sha256": "1f6277a4fc630b355da10aa517fb433f129c4a8f256fdb66a44a081650ffcc5e",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "ROLE",
+      "path": "Reverificare_rol_DocAction.json",
+      "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "PO",
+      "path": "Reverificare_PO_receptie_match_storno.json",
+      "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "SUP",
+      "path": "Reverificare_import_furnizori_SAGA.json",
+      "sha256": "64e6f27b86b733e79c98ad87d6dda2d4e7d32d4df98d7fa94290e0e6bff97576",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "POST",
+      "path": "Reverificare_T257_import_fidel_si_protectie.json",
+      "sha256": "004c12f75f5005148d81cf1b224cc4c66cdbe152c895690ccf785418571f554e",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "REST",
+      "path": "Reverificare_restaurare_integrala.json",
+      "sha256": "929014e4bdc00e74607a64cda60e5d5ec70df00431f4383813067c8bde578dcd",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "CRASH",
+      "path": "Reverificare_crash_PG_ERP.json",
+      "sha256": "c8a674fe40dd1f497b77683c159f017f962a3ef7b04fa98ed2b2f0ed15b3d7de",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "RET",
+      "path": "Reverificare_retur_concurent_colete.json",
+      "sha256": "0a19fa8c3a6b63624fcab645c6c6bd002cf2af830aae76cafedb7550350083e8",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "PROXY",
+      "path": "Reverificare_import_catalog_prin_proxy.json",
+      "sha256": "18cde511afdcf3219ef968c6ff58e60175b6c51d0bfb6bdb5471ee572a7a73fb",
+      "origin": "probă omolog / coordonator, reverificată la R2"
+    },
+    {
+      "id": "PG",
+      "path": "R2_zone/A02/probe_pg_migration_portal.json",
+      "sha256": "d903c18efcbb47b55b310399054255c0d21289208eb9c1fe5c664f6961c70ab9",
+      "origin": "A02 R2 independent"
+    },
+    {
+      "id": "SKU",
+      "path": "R2_zone/A02/probe_ASGI_produs.json",
+      "sha256": "082568fea862813b39694fb831787ba575c06a10d07520ff50a0a9519cc02e22",
+      "origin": "A02 R2 independent"
+    },
+    {
+      "id": "DOC",
+      "path": "R2_zone/A02/probe_DocEngine_Generator.json",
+      "sha256": "1ebaec7f75335321a6831b400a68574279fe84e4951e39e88f636e3e77d1a3a9",
+      "origin": "A02 R2 independent"
+    },
+    {
+      "id": "PERF",
+      "path": "R2_zone/A02/probe_perf_sql.json",
+      "sha256": "03fbda5302036138443eb2ab1555ace336fe5d8638b87b5a5a85ace6e838477b",
+      "origin": "A02 R2 independent"
+    }
+  ],
+  "coverage": {
+    "controls": 35,
+    "pipelines": 8,
+    "findings": 9,
+    "by_verdict": {
+      "PASS": 1,
+      "NEEXECUTAT": 24,
+      "FAIL": 10
+    },
+    "criterion_vs_probe": "NEEXECUTAT în verdict înseamnă că verificarea globală nu este închisă. Câmpurile execution_coverage și observed_evidence identifică ce s-a rulat efectiv."
+  },
+  "ux": {
+    "observed": "Captura ZK de la A05 arată formularul Initial Tenant Setup cu Tenant Name, Organization Name și opțiunile contabile. Acesta este ecranul de configurare, nu ecranul G3 ori de editare produs.",
+    "file": "R2_zone/A05/tenant-B-native-UI.png",
+    "sha256": "5465094b63558ed2c5aab5327f7530eafc5fbe37067814bfc4de1500eebc8280",
+    "limit": "Nu au fost vizualizate în R2 toate rutele în browser pe toate rolurile. TestClient verifică HTTP, nu focus, scanner sau aspect vizual."
+  },
+  "open": [
+    "Probele complete de SKU/CPP/CPA, alocarea la restore și toate canalele necesită continuarea prin UI și service concret deployed.",
+    "G3: test de checkout comercial simultan, pick, expediere parțială, retur și eliberare cu doi actori nu este închis.",
+    "F07: nicio factură standard WP demonstrată prin exact GeneratorDocumente. Închidere economică C020 necesită rețetă cu cutie și manoperă probată separat.",
+    "Nu este acoperită integral fiecare suprafață runtime, migrare istorică și schema externă Spree/portal. SLA numeric nu a fost aprobat."
+  ],
+  "fixture_cleanup": {
+    "pg_migrator": true,
+    "pg_perf": true,
+    "production_writes": 0
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "reviewer": "A11",
+  "utc": "2026-11-02T19:00:00.045825+00:00",
+  "report": "executie/R9/A12_raport.json",
+  "source_sha256": "cffc0581a658bfc998d4112258595cfd82de46a99d4e2285dfd3f7590cab93a6",
+  "manifest_sha256": "750aefa14bacb710cd366a8ebf35613cf52c3564e73ff9ccf455d7e05a3f8c1f",
+  "gate": "RELUARE; 10/10 neacordat",
+  "quality_score": 6.4,
+  "R8_quality": 6.4,
+  "verified_subchecks": 32,
+  "out_of": 50,
+  "product_score": null,
+  "criteria": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "score": 1.0,
+      "rationale": "Manifest, 24 surse, 8 artefacte, 652 JSON și 652 HTML au SHA verificate. Toate cele 2.619 criterii au identitatea și originea în registrul R8.",
+      "subchecks": [
+        {
+          "id": "QC01-R1",
+          "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC01-R2",
+          "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC01-R3",
+          "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC01-R4",
+          "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC01-R5",
+          "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+          "earned": 0.2,
+          "R8": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "score": 0.4,
+      "rationale": "A11 a reconstruit toate valorile celor 882: 858 poziții distincte, 68 ancore istorice din alt blob decât HEAD, 4 diferențe tipografice și 2 aliasuri documentate. Nouă subcondiții recuperate, dar 873 ancore nu adaugă un comparator. 1.204 criterii rămân neexecutate.",
+      "subchecks": [
+        {
+          "id": "QC02-R1",
+          "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC02-R2",
+          "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC02-R3",
+          "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC02-R4",
+          "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC02-R5",
+          "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+          "earned": 0.2,
+          "R8": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "score": 0.4,
+      "rationale": "Arhivele și rapoartele delimitează ce există ca text, ecran sau componentă. Verificările fișelor HTML sunt în materialul de audit, nu o probă a traseului de lucru ZK al tuturor utilizatorilor.",
+      "subchecks": [
+        {
+          "id": "QC03-R1",
+          "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC03-R2",
+          "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC03-R3",
+          "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC03-R4",
+          "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC03-R5",
+          "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+          "earned": 0.2,
+          "R8": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "score": 0.8,
+      "rationale": "Parserul real pentru două fișiere de transfer, refuzurile și reconcilierea sunt măsurate delimitat. Datele despre un staging sau despre un alt document istoric nu închid facturarea și plata în fluxul Q.",
+      "subchecks": [
+        {
+          "id": "QC04-R1",
+          "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC04-R2",
+          "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC04-R3",
+          "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC04-R4",
+          "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC04-R5",
+          "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+          "earned": 0,
+          "R8": 0
+        }
+      ]
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "score": 0.6,
+      "rationale": "T329 contabilitatea și motorul de lot sunt distinse: două cazuri cu postare E și zero linii în jurnal, un martor separat cu 60 USD/57,80 EUR. ASI este al liniei de inventar. T156 arată 29 versus 28, iar martorul distinct dovedește că numărul de antete nu verifică unicitatea copiilor.",
+      "subchecks": [
+        {
+          "id": "QC05-R1",
+          "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC05-R2",
+          "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC05-R3",
+          "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC05-R4",
+          "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC05-R5",
+          "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+          "earned": 0.2,
+          "R8": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "score": 0.2,
+      "rationale": "Criteriul T216 pentru o comandă Q validată, vizibilitatea facturii și plata în aceeași origine rămân deschise. C20 post-R9 nu intră în raportul sigilat; o alocare pe componente nu documentează avizul și plata canalului.",
+      "subchecks": [
+        {
+          "id": "QC06-R1",
+          "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC06-R2",
+          "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC06-R3",
+          "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC06-R4",
+          "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC06-R5",
+          "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+          "earned": 0,
+          "R8": 0
+        }
+      ]
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "score": 0.8,
+      "rationale": "A11 a verificat direct SHA sursei existente în imaginea CESIRO1, Python 3.12.13 și refuz/permitere la destinații diferite, cu expeditor și marcaj sintetice. Aceasta întărește QC07-R2 deja acordat; rolurile tuturor taskurilor rămân neacoperite.",
+      "subchecks": [
+        {
+          "id": "QC07-R1",
+          "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC07-R2",
+          "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC07-R3",
+          "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC07-R4",
+          "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC07-R5",
+          "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+          "earned": 0.2,
+          "R8": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "score": 1.0,
+      "rationale": "Reutilizarea proceselor native de stoc și document este demonstrată numai în configurațiile și epocile măsurate. Diferența dintre 167 intrări JAR și 76 clase nu este sinonimă cu lipsa a 76 funcții.",
+      "subchecks": [
+        {
+          "id": "QC08-R1",
+          "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC08-R2",
+          "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC08-R3",
+          "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC08-R4",
+          "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC08-R5",
+          "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+          "earned": 0.2,
+          "R8": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "score": 0.6,
+      "rationale": "A11 a recitit 25 recepții A03/A12 și a reconciliat 54 linii atomice, 26 criterii cu dovezi delimitate și 1.357 legături noi. Volumul și regresia completă a exportului nu sunt demonstrate: 164 criterii cu fixtură încă neexecutate.",
+      "subchecks": [
+        {
+          "id": "QC09-R1",
+          "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC09-R2",
+          "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC09-R3",
+          "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC09-R4",
+          "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC09-R5",
+          "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+          "earned": 0.2,
+          "R8": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "score": 0.6,
+      "rationale": "Cele 50 de praguri binare au fost reaplicate. Proveniența ancorelor, aliasuri și două cazuri de cost sunt mai precis delimitate; condițiile de corecție obligatorii Q1–Q5 nu sunt închise integral. Niciun prag global anterior neacordat nu a devenit integral satisfăcut în acest hash.",
+      "subchecks": [
+        {
+          "id": "QC10-R1",
+          "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC10-R2",
+          "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC10-R3",
+          "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+          "earned": 0.2,
+          "R8": 0.2
+        },
+        {
+          "id": "QC10-R4",
+          "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+          "earned": 0,
+          "R8": 0
+        },
+        {
+          "id": "QC10-R5",
+          "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+          "earned": 0.2,
+          "R8": 0.2
+        }
+      ]
+    }
+  ],
+  "ledger": {
+    "file": "A11_ledger_652_R9.json",
+    "sha256": "8461de2461c6103c5a0d67abef6f3d4250731c608262cefe37f694e6078b859d",
+    "all_652_and_2619_examined": true,
+    "symmetric_edges": 11745,
+    "asymmetric": 0,
+    "chapter_ledger": "A11_dispozitii_C03_C10_R9.json",
+    "chapter_ledger_sha": "25b3a38b82d6ff4e8dba27c0f5470247095c561b0232951d4208836bed9bf93c",
+    "zero_10_10_tasks": true
+  },
+  "population": {
+    "task_count": 652,
+    "criterion_count": 2619,
+    "current_unexecuted": 1204,
+    "prior_unexecuted": 1226,
+    "labeled_direct": 26,
+    "labeled_context": 1315,
+    "previous_unexecuted_moved": 22,
+    "signed_states": {
+      "DOCUMENTAR_PARȚIAL_DOSAR_ACTUAL": 83,
+      "PASS_DOVEDIT": 309,
+      "INCONCLUDENT": 327,
+      "NEEXECUTAT": 1204,
+      "ARTEFACT_DOCUMENTAR_PARȚIAL": 12,
+      "COMANDĂ_STATICĂ_OBSERVATĂ": 41,
+      "PROBĂ_PARȚIALĂ_R5_COMPONENTĂ": 68,
+      "ORACOL_NOMINAL_ACOPERIT_ÎN_PROBELE_A03": 13,
+      "GARDĂ_PER_JVM_ȘI_LACĂT_PG_CONDIȚIONAL_ABATERE_STATICĂ_RĂMÂNE": 1,
+      "ABATERE_DE_PRAG_DELIMITATĂ_LA_COD_SAU_FIXTURĂ": 3,
+      "R7_SUBCAZ_EXECUTAT_CU_ORACOL_EXPLICIT": 45,
+      "SUBCAZ_EXERCITAT_CU_LIMITĂ_INDIVIDUALĂ": 216,
+      "CONTRACT_REDIRECT_SEPARAT_EMAG_ȘI_CESIRO1_R9": 1,
+      "SUBCAZ_INDIVIDUAL_RULAT_R9": 14,
+      "PARȚIAL_OBSERVAȚIE_STRAT_DELIMITAT": 9,
+      "DICȚIONAR_50_TOTALE_40_EVA_ISTORIC_ȘI_CESIRO": 1,
+      "SCRIPT_LIMITĂ_DIFF_ISTORIC_REEXECUTAT_R9": 1,
+      "R7_PROBĂ_SUPLIMENTARĂ_CU_LIMITE": 6,
+      "R6_SUBCAZ_EXERCITAT_LIMITE_NOMINALE": 19,
+      "CONTROL_LINUX_LIVRARE_DISTINCT_DE_EXECUȚIA_WINDOWS_CU_EȘECURI": 1,
+      "REFUZ_CUI_STRĂIN_NATIV_168_168_CONFIRMARE_ȘI_RETRY": 1,
+      "PASS_PROBĂ_LITERALĂ_CURENTĂ": 1,
+      "ȚINTĂ_DOCUMENTARĂ_NESATISFĂCUTĂ": 1,
+      "SEGMENT_COD_DOVEDIT": 1,
+      "ARTEFACT_MONTAT_VERIFICAT": 1,
+      "ORACOL_EXERCITAT_LA_STRATUL_DIN_CERINȚĂ": 44,
+      "R6_CONTEXTE_NATIVE_FĂRĂ_TESTUL_INTEGRAL": 4,
+      "SUBCONDIȚIE_A06_PREEXISTENTĂ_REVERIFICATĂ_A11_R9": 4,
+      "PARȚIAL_SEGMENT": 24,
+      "LIVRABIL_ISTORIC_ATTRIBUȚIE_VERIFICATĂ": 4,
+      "ACORD_DOCUMENTAR_2_PĂRȚI_PE_ACELAȘI_TEXT_CONFIRMAT_R9": 1,
+      "31_OBIECTE_GIT_30_CELULE_T10_RECONFIRMATE_R9": 1,
+      "DISPOZIȚIE_DOCUMENTARĂ_DOVEDITĂ": 2,
+      "ISTORIC_DOCUMENTAT_IMAGINE_CURENTĂ_INDISPONIBILĂ": 2,
+      "REFUZ_ERP_CONFIRMAT_LA_STRATUL_NOMINAL": 2,
+      "PROCES_NATIV_NOTĂ_VC_CO_POSTATĂ": 1,
+      "REFUZ_INVERSARE_AMORT_COMPONENTĂ_NATIVĂ": 1,
+      "ABATERE_ORACOL_EXECUTAT_ÎN_STRATUL_NOMINAL": 14,
+      "DOCUMENTAR_R6_DOMENIU_VERIFICAT": 4,
+      "ASERȚIUNE_DE_COMPONENTĂ_EXECUTATĂ": 19,
+      "CLI_VID_302_TRASE_ISTORIC_MIGRARE_PARȚIALĂ_R9": 1,
+      "DIVERGENȚĂ_DOCUMENTATĂ_ÎNTRE_EPOCI": 2,
+      "DIFERENȚĂ_ÎNTRE_JAR_GIT_ȘI_INSTALAT_REPRODUSĂ": 1,
+      "CERINȚĂ_UNITARĂ_8_DIN_8_REPRODUSĂ_PE_AMBELE_JAR": 1,
+      "R7_CONDIȚIE_TEST_IDENTIFICATĂ": 19,
+      "METADATE_DIRECTE_LA_NIVEL_DE_SIMBOL": 9,
+      "DOCUMENTAR_RECALCULAT_FĂRĂ_EXECUȚIE_DE_PRODUS": 3,
+      "COMPARAȚIE_GIT_12_LINII_VS_4_SITURI_ETALON_UNITĂȚI_DISTINCTE": 1,
+      "CONTRAEXEMPLU_PENTRU_ORIGINEA_Q": 2,
+      "DEPENDENȚĂ_Q_NEEXECUTAT_DUPĂ_VALIDARE": 2,
+      "AFIȘAREA_SERIEI_NUMĂRULUI_NEEXECUTATĂ_PE_Q": 1,
+      "CONTRAEXEMPLU_COMERCIAL_ÎN_ARIA_MĂSURATĂ": 2,
+      "ARBORE_ISTORIC_NOMINAL_VERIFICAT_ÎN_R5": 1,
+      "BLOCAT_ACCES": 2,
+      "FAIL_DOVEDIT": 1,
+      "PROBĂ_NATIVĂ_MULTISTADIU_LIMITATĂ": 2,
+      "PASS_NATIV_PE_ORACOLUL_LITERAL": 2,
+      "CONFLICT_D107_PG_DOUĂ_SESIUNI_ȘI_JAR_CONFIRMĂ_FĂRĂ_CLICK_NOU": 1,
+      "INCONCLUDENT_PRECONDIȚIE_SAU_BAZĂ_DE_COMPARAȚIE_ABSENTĂ": 6,
+      "14_CĂI_ÎN_EXPORT_VS_ZERO_ÎN_FIXTURA_PLAN_R9": 1,
+      "COMPONENTĂ_SCANARE_DOVEDITĂ_HARDWARE_NEEXECUTAT": 3,
+      "REVERIFICARE_A05_LA_STRATUL_NOMINAL_R9": 2,
+      "ABATERE_DOCUMENTARĂ_RECALCULATĂ": 4,
+      "PARȚIAL_ANDROID_POST_R3": 21,
+      "CONTRAEXEMPLU_AND04_REPLAY_AUTORIZARE": 2,
+      "CONTRACT_LOCAL_PROBAT_POS_REAL_NEEXECUTAT": 1,
+      "DOUĂ_COMENZI_STAGING_REZERVATE_CERERE_4_CAZURILE_6_5_NATIVE": 1,
+      "DOUĂ_G1_PUBLICARE_13_PO_DIVERGENȚĂ_9_SEPARAT_DE_EV7": 1,
+      "FAIL_DOVEDIT_LA_NIVEL_COMPONENTĂ": 2,
+      "PARȚIAL_NATIV": 3,
+      "NATIV_SEGMENT_DOVEDIT": 3,
+      "DOVEDIT_DOAR_INSTALARE": 1,
+      "PARȚIAL": 4,
+      "PARȚIAL_DB+CALCUL": 1,
+      "N_CONFORM_CALCUL; Y_ECART_CALCUL_GIT; INSTALARE_T352_ABSENTĂ": 1,
+      "PARȚIAL_COMPONENTĂ": 1,
+      "PARȚIAL_ADAPTOR_ȘI_DREPTURI": 1,
+      "PROVENIENȚĂ_VERIFICATĂ_T352_NEMONTAT_5_DIN_5": 1
+    }
+  },
+  "chapters": {
+    "P01.C03": {
+      "task_count": 51,
+      "criterion_count": 412,
+      "current_unexecuted": 126,
+      "prior_unexecuted": 126,
+      "labeled_direct": 2,
+      "labeled_context": 216,
+      "previous_unexecuted_moved": 0,
+      "signed_states": {
+        "NEEXECUTAT": 126,
+        "PASS_DOVEDIT": 11,
+        "INCONCLUDENT": 28,
+        "ARTEFACT_DOCUMENTAR_PARȚIAL": 1,
+        "PARȚIAL_SEGMENT": 5,
+        "DOCUMENTAR_PARȚIAL_DOSAR_ACTUAL": 6,
+        "ORACOL_EXERCITAT_LA_STRATUL_DIN_CERINȚĂ": 13,
+        "DIVERGENȚĂ_DOCUMENTATĂ_ÎNTRE_EPOCI": 2,
+        "PROBĂ_PARȚIALĂ_R5_COMPONENTĂ": 31,
+        "R7_SUBCAZ_EXECUTAT_CU_ORACOL_EXPLICIT": 10,
+        "SUBCAZ_EXERCITAT_CU_LIMITĂ_INDIVIDUALĂ": 97,
+        "ASERȚIUNE_DE_COMPONENTĂ_EXECUTATĂ": 5,
+        "DIFERENȚĂ_ÎNTRE_JAR_GIT_ȘI_INSTALAT_REPRODUSĂ": 1,
+        "R6_SUBCAZ_EXERCITAT_LIMITE_NOMINALE": 5,
+        "PARȚIAL_OBSERVAȚIE_STRAT_DELIMITAT": 1,
+        "R7_CONDIȚIE_TEST_IDENTIFICATĂ": 15,
+        "COMPONENTĂ_SCANARE_DOVEDITĂ_HARDWARE_NEEXECUTAT": 3,
+        "REVERIFICARE_A05_LA_STRATUL_NOMINAL_R9": 2,
+        "INCONCLUDENT_PRECONDIȚIE_SAU_BAZĂ_DE_COMPARAȚIE_ABSENTĂ": 5,
+        "ABATERE_DOCUMENTARĂ_RECALCULATĂ": 4,
+        "METADATE_DIRECTE_LA_NIVEL_DE_SIMBOL": 3,
+        "PARȚIAL_ANDROID_POST_R3": 21,
+        "CONTRAEXEMPLU_AND04_REPLAY_AUTORIZARE": 2,
+        "R6_CONTEXTE_NATIVE_FĂRĂ_TESTUL_INTEGRAL": 1,
+        "R7_PROBĂ_SUPLIMENTARĂ_CU_LIMITE": 3,
+        "DOUĂ_COMENZI_STAGING_REZERVATE_CERERE_4_CAZURILE_6_5_NATIVE": 1,
+        "DOUĂ_G1_PUBLICARE_13_PO_DIVERGENȚĂ_9_SEPARAT_DE_EV7": 1,
+        "FAIL_DOVEDIT_LA_NIVEL_COMPONENTĂ": 2,
+        "PARȚIAL_NATIV": 3,
+        "NATIV_SEGMENT_DOVEDIT": 3,
+        "DOVEDIT_DOAR_INSTALARE": 1
+      }
+    },
+    "P01.C10": {
+      "task_count": 88,
+      "criterion_count": 382,
+      "current_unexecuted": 172,
+      "prior_unexecuted": 186,
+      "labeled_direct": 15,
+      "labeled_context": 194,
+      "previous_unexecuted_moved": 14,
+      "signed_states": {
+        "PASS_DOVEDIT": 61,
+        "NEEXECUTAT": 172,
+        "SUBCAZ_EXERCITAT_CU_LIMITĂ_INDIVIDUALĂ": 17,
+        "INCONCLUDENT": 61,
+        "CONTRACT_REDIRECT_SEPARAT_EMAG_ȘI_CESIRO1_R9": 1,
+        "SUBCAZ_INDIVIDUAL_RULAT_R9": 7,
+        "R6_SUBCAZ_EXERCITAT_LIMITE_NOMINALE": 2,
+        "SUBCONDIȚIE_A06_PREEXISTENTĂ_REVERIFICATĂ_A11_R9": 4,
+        "ARTEFACT_DOCUMENTAR_PARȚIAL": 2,
+        "DOCUMENTAR_PARȚIAL_DOSAR_ACTUAL": 8,
+        "ACORD_DOCUMENTAR_2_PĂRȚI_PE_ACELAȘI_TEXT_CONFIRMAT_R9": 1,
+        "31_OBIECTE_GIT_30_CELULE_T10_RECONFIRMATE_R9": 1,
+        "CONTRAEXEMPLU_PENTRU_ORIGINEA_Q": 2,
+        "DEPENDENȚĂ_Q_NEEXECUTAT_DUPĂ_VALIDARE": 2,
+        "R7_SUBCAZ_EXECUTAT_CU_ORACOL_EXPLICIT": 5,
+        "AFIȘAREA_SERIEI_NUMĂRULUI_NEEXECUTATĂ_PE_Q": 1,
+        "CONTRAEXEMPLU_COMERCIAL_ÎN_ARIA_MĂSURATĂ": 2,
+        "R7_PROBĂ_SUPLIMENTARĂ_CU_LIMITE": 1,
+        "PROBĂ_PARȚIALĂ_R5_COMPONENTĂ": 3,
+        "ARBORE_ISTORIC_NOMINAL_VERIFICAT_ÎN_R5": 1,
+        "PARȚIAL_OBSERVAȚIE_STRAT_DELIMITAT": 1,
+        "METADATE_DIRECTE_LA_NIVEL_DE_SIMBOL": 4,
+        "ASERȚIUNE_DE_COMPONENTĂ_EXECUTATĂ": 10,
+        "R7_CONDIȚIE_TEST_IDENTIFICATĂ": 1,
+        "INCONCLUDENT_PRECONDIȚIE_SAU_BAZĂ_DE_COMPARAȚIE_ABSENTĂ": 1,
+        "14_CĂI_ÎN_EXPORT_VS_ZERO_ÎN_FIXTURA_PLAN_R9": 1,
+        "CONTRACT_LOCAL_PROBAT_POS_REAL_NEEXECUTAT": 1,
+        "PARȚIAL": 4,
+        "PARȚIAL_DB+CALCUL": 1,
+        "N_CONFORM_CALCUL; Y_ECART_CALCUL_GIT; INSTALARE_T352_ABSENTĂ": 1,
+        "PARȚIAL_COMPONENTĂ": 1,
+        "PARȚIAL_ADAPTOR_ȘI_DREPTURI": 1,
+        "PROVENIENȚĂ_VERIFICATĂ_T352_NEMONTAT_5_DIN_5": 1
+      }
+    }
+  },
+  "independent_evidence": {
+    "A11_control_suplimente_R9_A03_177_CESIRO1.json": "5b393c7775d1b527f2d29fc5a78b6c69dc40be4c2cefa1922b0cb63eec4003e2",
+    "A11_control_R9_882_pointeri.json": "56c63710546f928b002de9478ac535d4d80c684de111561e8233148db0e14c23",
+    "A11_control_supliment_A05_R9.json": "388f566748234367673b48dd112b58d424ef40463c29f7b66371d3e645110a9c",
+    "A11_control_A06_oracole_postR8.json": "f7e24915399e59a94cefe9611d839749530178747799f71c44be24a9308e5cf0"
+  },
+  "semantic_adjudication": {
+    "actual_vs_planning": "1.357 legături noi: 882 localizări sursă, 177 planuri, 218 evidențe parțiale păstrate și 38 condiții externe. Numărătoarea include 21 legături de runtime/script, 2 recalculări documentare, 4 subcondiții deja acceptate și controale/proveniență independente.",
+    "actual_measured": 26,
+    "prior_NEEXECUTAT_to_other_disposition": 22,
+    "not_equal_to_pass": true,
+    "fresh_A12_or_A03_receipts_verified": 25,
+    "fresh_atomic_assertion_lines": 54,
+    "quality_unchanged": "R9 adaugă probe reale și delimitează constatările, dar nu schimbă niciunul dintre cele 18 praguri globale încă neacordate; 6,4/10 rămâne nota calculată din cele 50.",
+    "verified_relabels": "Doi timpi de evaluare: cost motor în T329 versus GL și T330 binar versus suită. Distincțiile sunt semnate în A11_control_supliment_A05_R9.json."
+  },
+  "remaining_reaudit": [
+    {
+      "id": "R9-Q1",
+      "priority": "P1",
+      "action": "Pentru cele 164 de criterii cu fixtură rămase, începeți cu cazurile care pot schimba o decizie de recepție. Executați intrarea și martorul negativ; anunțați numitor, rol, document și starea observată înainte/după/retry. Păstrați separat cele 873 ancore fără comparator și cele 167 documentare."
+    },
+    {
+      "id": "R9-Q2",
+      "priority": "P1",
+      "action": "Pentru T216 construiți o origine de canal eligibilă și urmăriți același C_Order în aviz, factură, DOM și încasare; verificați fluxul de retur, lipsă de linii și rezolvare după eroare. Țineți separate Q și P93."
+    },
+    {
+      "id": "R9-Q3",
+      "priority": "P1",
+      "action": "Pentru T354 încorporați explicit în ediția următoare suplimentul G3 post-R9, înainte de o decizie privind două C_Order concurente, backorder la 5 și POST versus reluarea CO. Păstrați separate vânzarea unui set, vânzarea componentelor și politica de blocaj din staging."
+    },
+    {
+      "id": "R9-Q4",
+      "priority": "P1",
+      "action": "În T329 demonstrați condiția precisă de postare pe fiecare schemă și citiți ASI direct din Fact_Acct dacă se cere. În T330 executați întreaga suită a exportului identificat și comparați tranzacții înainte de a certifica rezultatul."
+    },
+    {
+      "id": "R9-Q5",
+      "priority": "P2",
+      "action": "Din cele 873 fișe ancorați comparatorul la cerința concretă; verificați release istoric, registrul de aliasuri și capetele tranzacției separat. Păstrați consecințele cererilor externe și scenariile cu efect comercial în regim sintetic conform accesului acordat."
+    }
+  ],
+  "remaining": {
+    "noexecution": 1204,
+    "r8": 1226,
+    "current_fixture": 164,
+    "without_new_comparator": 873,
+    "historic": 167,
+    "without_partial_external": 1166,
+    "with_partial_external": 38
+  },
+  "hard_blockers": {
+    "HB04": "1.204 criterii neexecutate din 2.619.",
+    "HB09": "164 cu fixture încă neexecutate; 873 semnale de origine fără comparator nou; 167 de natură istorică.",
+    "HB11": "Recepția 10/10 nu este încă eligibilă."
+  },
+  "dispositions_previous": {
+    "R8-Q1": "PARȚIAL: toate cele 177 repartizate nominal; 13 au execuție în această categorie și 164 rămân neexecutate.",
+    "R8-Q2": "PARȚIAL: 882 ancore recitite; nouă subcondiții au comparator, 873 încă nu.",
+    "R8-Q3": "DESCHIS: R9 nu include proba G3 ulterioară; C10 nu atinge un flux integral cu plată.",
+    "R8-Q4": "PROBĂ DE IMAGINE ȘI RUNTIME ADMISĂ; efect extern real și remedierea în produs nu sunt demonstrate.",
+    "R8-Q5": "PARȚIAL: divergența T159 și costul nominal T329 sunt caracterizate; suita integrală T330 rămâne deschisă."
+  },
+  "separate_post_freeze": "A11_control_supliment_G3_C20_postR9.json este independent, pe materiale ulterioare raportului A12; nu intră în numărătoare sau nota R9.",
+  "reproduction_scripts": {
+    "A11_readback_independent_R9.json": "55d222798bd0cd2cb03e1fac4ce17ff2d698c830783c2e7840356084c2875079",
+    "p01-a11-r9-ledger.py": "746dd7af01122825d6b8d32f7fe3453d87c29fd42bef0c03bdd1e9fb209c8aa4",
+    "p01-a11-r9-publish.py": "f17e488549ef9482b582a91ba41769777d3ddfd1c20494b4793f4e86c365fc74"
+  }
+}

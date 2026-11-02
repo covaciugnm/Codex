@@ -1,0 +1,6 @@
+from a12_r4_suites import *
+hh=o/'scan_calibrat';hh.mkdir(exist_ok=True);res=[]
+for tag,jar in [('git',sec/'cod-master-contab.jar'),('instalat',sec/'com.eva.ro.contab_13.0.0.jar')]:
+ f=plug/'test/TestScanareEcrane.java';ds=tt/(tag+f.stem);cp=';'.join([str(ds),str(jar),str(base),str(next(sec.glob('org.adempiere.base.process_*.jar'))),'D:/CodexWork/eva-a01-java/lib/*','D:/CodexWork/a05-support-jars/*',str(plug/'src')]);cc=cmd([java/'java.exe','-Xmx256m','-Dline.separator=\n','-Djava.security.manager','-Djava.security.policy=='+policy.as_uri(),'-Djava.io.tmpdir='+str(tmp),'-Dfile.encoding=UTF-8','-Dstdout.encoding=UTF-8','-Dstderr.encoding=UTF-8','-cp',cp,'com.eva.ro.contab.form.'+f.stem]);log=hh/(tag+'.log');log.write_text(cc.stdout,encoding='utf8');ll=cc.stdout.splitlines();res.append({'suite':f.stem,'target':tag,'rc':cc.returncode,'raw_source_sha256':sha(f),'jar_sha256':sha(jar),'only_change':'Proprietatea de prezentare line.separator a JVM = LF pentru parserul javap împărțit după \\n. Clasele testului și pluginului rămân originale.','log':log.name,'log_sha256':sha(log),'screen_connection':[s for s in ll if 'legatura:'in s],'result':[s for s in ll if 'REZULTAT' in s][-1:]})
+wr(hh/'observat.json',res);print(res)
+

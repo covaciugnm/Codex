@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-02T16:01:00.594566+00:00",
+  "file": "executie/A09_raport_R2.json",
+  "sha256": "18c36baf10a9c965cefb50a5324026126b02f2ffdb812f885967e91cf301f47e",
+  "errors": [],
+  "evidence_index_count": 73,
+  "controls_count": 29,
+  "pipelines_count": 7,
+  "findings_count": 6,
+  "individual_sheets_count": 36,
+  "status": "QA_OK"
+}

@@ -1,0 +1,26 @@
+import json,pathlib,hashlib,collections,datetime
+from decimal import Decimal
+O=pathlib.Path(__file__).parent;E=O.parent
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def h(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+r3=read(E/'R3/Dovezi_criterii.json')['evidence'];r={}
+def attach(kind,p,tests,comment,limits):
+ r[kind]={'file':p.name,'sha256':h(p),'present_in_frozen_R3':[(k,v['pointer']) for k,v in r3.items() if str(v['source']).endswith(p.name)],'tests':tests,'interpretation':comment,'not_proven':limits}
+def money(x):return Decimal(x)
+p=E/'Reverificare_G3_rezervare_canal.json';j=read(p);v=[(money(x['channel_without_rules']),money(x['channel_if_native_sales_only']),money(x['arithmetic_sum_not_a_production_caller'])) for x in j['observations']];assert [a for a,b,c in v]==[20,13,9,20] and v[1][2]==6 and v[2][1]==13
+attach('G3',p,{'channel':v,'A11_independent_input':'A11_PG_independent.json, 26 fizic/6 rezervat: 20 publicat, 14 sumă operațională; cu achiziție 3 și vânzare 2: 15 publicat, 18 oracol doar vânzări.'},'Dovadă existentă deja în R3 pentru T354 și T352; SQL publisher și suma unor operații de gestiune sunt trasee distincte.','Nu există operație OSGi de publicare sau citire a canalului extern în această probă.')
+p=E/'Reverificare_T257_repostare_si_storno.json';j=read(p);f=j['after_repost']['notes']; replay=j['after_replay']['notes']; rev=j['after_reversal_repost']['notes'];assert f==replay and len(f)==4 and len(rev)==8
+balances=collections.defaultdict(lambda:Decimal('0')); 
+for doc,line,sch,acc,dr,cr,rowid in rev:balances[(sch,acc)]+=money(dr)-money(cr)
+assert all(q==0 for q in balances.values()) and len(balances)==4 and all(x[0]=='RE' for x in j['after_reversal_repost']['doc'])
+attach('T257_nativ',p,{'four_repost_records_identical_on_retry':True,'eight_after_reverse':True,'matched_reverse_balance_by_schema_account':{str(k):str(v) for k,v in balances.items()}},'Factura ordinară a fost completată și postată în două scheme, repostul repetat a fost refuzat, RC și postarea reversării au compensat notele.','Nu este un import SAGA. Această probă singură nu exercită resetarea cu marcaj SAGA-FIDEL.')
+p=E/'Reverificare_T257_martor_SAGA_FIDEL.json';j=read(p);a,b=j['before'],j['after'];assert a==b;notes=a['witness_note_ids_and_values'];balance=a['ledger_by_account_schema'];assert len(notes)==4 and len(balance)==41 and len({x[0] for x in notes})==4 and all(x[8].startswith('SAGA-FIDEL') for x in notes)
+assert sum(money(x[6]) for x in notes)==Decimal('131.81') and j['process_result']['http']==200 and j['process_result']['isError'] is True and '131.81' in j['process_result']['summary']
+attach('T257_reset_protejat',p,{'exact_matching_rows':4,'account_schema_snapshots_unchanged':41,'sum_debit':'131.81','native_HTTP':200,'application_error':True,'schemas':sorted({x[4] for x in notes})},'Procesul nativ de resetare refuză ștergerea celor patru note sintetice marcate. Am comparat valorile și ID-urile, nu numai flagurile same_notes/same_balances.','Marcajele sunt precondiție SQL. Nu verifică importul original din SAGA, toate căile/permisiunile de repostare sau toate firmele. Proba de slug 404 nu este în acest fișier și nu i se acordă credit.')
+p=E/'Reverificare_PO_receptie_match_storno.json';j=read(p);a,b,c=j['before_reversal'],j['invoice_reversal'],j['receipt_reversal'];assert [money(x) for x in a['po'][0][2:5]]==[12,7,7];assert [money(x) for x in b['po'][0][2:5]]==[12,7,0];assert [money(x) for x in c['po'][0][2:5]]==[12,0,0];assert sum(money(x[4]) for x in c['matchpo'])==0 and sum(money(x[3]) for x in c['matchinv'])==0; assert len(a['cost'])>=2
+attach('PO',p,{'ordered':12,'received_initial':7,'invoiced_initial':7,'remaining_initial':5,'invoiced_after_invoice_reversal':0,'received_after_receipt_reversal':0,'residual_match_po_qty':0,'residual_match_invoice_qty':0,'cost_initial':a['cost']},'Probe noi A04 nativ: PO CO→recepție parțială→factură→match/cost/facts→storno. Notele și legăturile inițiale sunt păstrate; nu este echivalent cu lipsa rândurilor.', 'Nu probează automat importul SAGA, fiecare task C11, toate rolurile, conversia fiscală, UI sau formatele istorice.')
+p=E/'Reverificare_rol_DocAction.json';j=read(p);assert [x['status'] for x in j['checks']][-4:]==[200,200,403,403] and j['foreign_invoice_after_action'][0][2]=='DR' and int(j['foreign_facts_after_action'])==0
+attach('rol',p,{'positive_reads_admin_and_scoped_user':2,'foreign_GET':403,'foreign_PUT_DocAction':403,'foreign_final_state':'DR','foreign_facts':0},'Rolurile GardenAdmin și GardenUser pot citi în contexte proprii; utilizatorul org11 este refuzat în org12 și starea străină nu se schimbă.', 'Nu acoperă matricea cabinet/firmă/canal/comisionar în EVA, accesul la toate tipurile AD sau cele patru defecte A01.')
+out={'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'reviewer':'A11','frozen_scope':'Conținutul R3 nu este rescris prin aceste dovezi; operațiile fără legătură în catalog se raportează ulterior, chiar dacă au rulat cronologic înainte de semnare.','observations':r}
+(O/'A11_evidente_transversale.json').write_text(json.dumps(out,ensure_ascii=False,indent=2,default=str),encoding='utf8');print({k:len(v['present_in_frozen_R3']) for k,v in r.items()})
+

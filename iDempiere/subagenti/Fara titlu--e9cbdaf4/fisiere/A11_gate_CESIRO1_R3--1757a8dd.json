@@ -1,0 +1,289 @@
+{
+  "schema": "A11-gate-CESIRO1-R3-v1",
+  "utc": "2026-11-02T16:17:26.339948+00:00",
+  "subject": "executie/supliment_CESIRO1/Plan_CESIRO1_R3.json",
+  "plan_sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+  "previous_review_sha256": "c7bf226349cd7ab03649be9d6333ede5b0deb155bdcced816f4112cc878c413d",
+  "base_bundle": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "result": "ACCEPTAT_PLAN_EX01_EX08",
+  "quality_plan": 10,
+  "approved_subchecks": 50,
+  "maximum_subchecks": 50,
+  "subcheck_rows": [
+    {
+      "id": "QC01-P1",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC01-P2",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC01-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC01-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC01-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC02-P1",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC02-P2",
+      "award": 0.2,
+      "evidence": "38 muchii EX/control/pipeline, 5 fișe de origine, norm pointers și matricea inversă validate."
+    },
+    {
+      "id": "QC02-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC02-P4",
+      "award": 0.2,
+      "evidence": "T20/T22/T35 legate de succesorii documentați, fără transfer funcțional retroactiv."
+    },
+    {
+      "id": "QC02-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC03-P1",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC03-P2",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC03-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC03-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC03-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC04-P1",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC04-P2",
+      "award": 0.2,
+      "evidence": "Calcul independent la 2 linii/transport/TVA: net 73,64 + taxe 14,23 = 87,87. Contact, bill-to/ship-to și /B negative distincte."
+    },
+    {
+      "id": "QC04-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC04-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC04-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC05-P1",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC05-P2",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC05-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC05-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC05-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC06-P1",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC06-P2",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC06-P3",
+      "award": 0.2,
+      "evidence": "8 interfețe cu furnizor/consumator și legături corecte; ACK de primire separat de acceptarea rezultatului."
+    },
+    {
+      "id": "QC06-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC06-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC07-P1",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC07-P2",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC07-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC07-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC07-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC08-P1",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC08-P2",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC08-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC08-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC08-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC09-P1",
+      "award": 0.2,
+      "evidence": "EX03/05 au caz numeric măsurabil; EX04 include cheie compusă, tie de timp, A/101 & B/101 distincte și retry cu cursor neavansat."
+    },
+    {
+      "id": "QC09-P2",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC09-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC09-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC09-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC10-P1",
+      "award": 0.2,
+      "evidence": "Șablon de probă și registru individual cu criteriu, artefact și expected; rubrică/hash validate."
+    },
+    {
+      "id": "QC10-P2",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC10-P3",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC10-P4",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    },
+    {
+      "id": "QC10-P5",
+      "award": 0.2,
+      "evidence": "Cerință menținută din planul de bază și suplimentul anterior, fără execuție înainte de gate."
+    }
+  ],
+  "source_inventory_metadata_counts": [
+    363,
+    392,
+    95
+  ],
+  "verified_parent_edges": 38,
+  "edge_issues": 0,
+  "source_task_fixtures": 5,
+  "commercial_oracle": {
+    "line_net": "68.64",
+    "net_with_transport": "73.64",
+    "tax": "14.23",
+    "gross": "87.87"
+  },
+  "cursor_expected": [
+    "A/101",
+    "A/102",
+    "A/103",
+    "B/101"
+  ],
+  "open_hard_blockers": [],
+  "external_checks_executed_at_gate": 0,
+  "product_or_report_score": null,
+  "limits": "Autorizează execuția izolată EX01–EX08 pe corpusul înghețat și condițiile declarate. Nicio afirmație de compatibilitate a conectorului, livrare, acceptare a taskurilor istorice sau acces real la comerciant.",
+  "rubric_sha256": "4b1937a2f46606f29e4db10e7105806d0b7b462168c7ab7c03cbc5cafad0215d"
+}

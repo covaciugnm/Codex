@@ -1,0 +1,6 @@
+from pathlib import Path
+import os
+p=Path(os.environ['TEMP'])/'a12_r10_plan.py';s=p.read_text(encoding='utf8');m={'Version spécifique, actor, denominateur, PK avant/après/retry et refus témoins selon le contrat. Une probe statique est rapportée avec arbre et variante positive/négative, sans prétendre à des écritures ERP.':'Versiunea, actorul, numitorul, PK înainte/după/retry și refuzul-martor sunt definite de contract. O probă statică înregistrează arborele și varianta pozitivă/negativă; nu primește credit de scriere în ERP.','T216 origen eligible; source P93, Q and current lab separated.':'T216, origine eligibilă; originea P93, Q și laboratorul curent se păstrează distincte.','T329 coût et ASI par schéma; T330 export et suite.':'T329, cost și ASI pe schemă; T330, export și suită.','Supplément G3 C20 déjà exécuté, à reseigner aux conditions propres.':'Suplimentul G3 C20 este executat și privește numai condițiile proprii.','Séparer 873, observer références natives par catégorie et exécuter un lot indépendant. Une répartition ne vaut pas exécution.':'Separă cele 873 de ancore, identifică funcțiile native și execută independent un lot. Repartizarea nu reprezintă execuție.'}; 
+for a,b in m.items():s=s.replace(a,b)
+p.write_text(s,encoding='utf8')
+

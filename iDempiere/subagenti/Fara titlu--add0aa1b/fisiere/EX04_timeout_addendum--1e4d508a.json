@@ -1,0 +1,44 @@
+{
+  "schema": "eva.audit.EX04.timeout.addendum",
+  "base_EX04_sha256": "1e60138c88ba48115f5d7c5cb0b239c7a0ecee33fd986e16315feb7b9c513f20",
+  "at": "2026-11-02T16:50:22.863641+00:00",
+  "case": "CURSOR-01, timeout",
+  "expected": "configured Java HTTP request timeout (~180s), no successful list or swallowed empty page",
+  "execution": "Two concurrent original Java clients call an isolated loopback listener which accepts TCP and deliberately sends no headers/body. No partners, no source or ERP writes. This steps past native Java network stack and connector; no new native PreiaDinSite execution in this timed scenario. Its throw/checkpoint handling on 429/500/truncation is in separate evidence.",
+  "results": [
+    {
+      "jar": "git",
+      "jar_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+      "elapsed_s": 180.86,
+      "java_returncode": 0,
+      "result": [
+        "RESULT\tERROR\tHttpTimeoutException\trequest timed out",
+        "HTTP\tGET /orders?tenant=canal-a&since=2026-11-02&until=2026-11-03&per_page=0&items=0"
+      ]
+    },
+    {
+      "jar": "installed",
+      "jar_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "elapsed_s": 180.84,
+      "java_returncode": 0,
+      "result": [
+        "RESULT\tERROR\tHttpTimeoutException\trequest timed out",
+        "HTTP\tGET /orders?tenant=canal-a&since=2026-11-02&until=2026-11-03&per_page=0&items=0"
+      ]
+    }
+  ],
+  "http_accepts": [
+    {
+      "method": "GET",
+      "path": "/api/ext/v1/orders?tenant=canal-a&since=2026-11-02&until=2026-11-03&per_page=0&items=0",
+      "when": "2026-11-02T16:47:21.828559+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/v1/orders?tenant=canal-a&since=2026-11-02&until=2026-11-03&per_page=0&items=0",
+      "when": "2026-11-02T16:47:21.828559+00:00"
+    }
+  ],
+  "cleanup": "Listener and both Java process handles closed.",
+  "quality_score": null
+}

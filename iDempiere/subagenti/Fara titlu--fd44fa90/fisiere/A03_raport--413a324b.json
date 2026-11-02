@@ -1,0 +1,2716 @@
+{
+  "schema": "EVA-P01-A03-round4",
+  "zone_id": "A03",
+  "round": "R4",
+  "captured_utc": "2026-11-02T17:46:45.924430+00:00",
+  "sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "primary_plan_sha256": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "R3_sealed_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+  "A11_decision_R3": {
+    "grade": 6.0,
+    "review_file": "A11_control_consolidari_A01_A03_R3.json",
+    "hash": "a797d0bfb8680ce61dd54b07dce2c59a94126edb6b2499533e736181d0b74074",
+    "individual_R6_A12_quality": 5.8
+  },
+  "quality_grade_r4": null,
+  "product_score": null,
+  "A11_grading": "Evaluare independentă pe acest hash, nu notă acordată de executor.",
+  "status": "R4_PUBLICAT_PENTRU_REAUDIT_A11",
+  "summary": {
+    "original_controls": 36,
+    "original_pipelines": 10,
+    "worklist_R7_attributed_unexecuted": 599,
+    "worklist_task_count": 151,
+    "complete_oracle_claims": 18,
+    "new_review_rows": 26,
+    "status_counts_exact": {
+      "PASS_ORACOL_CURENT": 18,
+      "PARȚIAL_NU_TRANSFERĂ_VERDICT": 7,
+      "NEEXECUTAT": 1
+    },
+    "remaining_outside_selected_rows": 573,
+    "new_results_are_individual_not_global_acceptance": true
+  },
+  "R6_task_reconciliation": {
+    "401_task_bridge": "dovezi/Legaturi_401_R6_verificate.json",
+    "R6_pending_population": "dovezi/A03_R6_criterii.json",
+    "individual_criteria": "dovezi/Registru_subcriterii_R4.json",
+    "historic_corrected_pointers": [
+      {
+        "source": "R4/A12_raport.json",
+        "old_sha256": "0f54da9c0a4c5d0a38db4600037cd6ea8958c28a1f537671748e55007d9b1ab7",
+        "new_sha256": "a81a12d23f080685a21690fba2377948fa3a9c7823022ebb55959bdf141583ab",
+        "use": "HISTORIC/INCIDENȚĂ, NU ORACOL FUNCȚIONAL"
+      },
+      {
+        "source": "R4/Dovezi_criterii.json",
+        "old_sha256": "9b99b6ad4e427ceb0b01a69807f01e3b5fe55b25b0b05bf31fabbca1d9937cc9",
+        "new_sha256": "08993eda3a2777eaf80c531ecb04fa60cc6a886895e32e373b2b7cfefc594fbd",
+        "use": "HISTORIC/INCIDENȚĂ, NU ORACOL FUNCȚIONAL"
+      },
+      {
+        "source": "R4/Registru_1868.json",
+        "old_sha256": "bf050b379d1211d8824a389003b9dc0d3e828c081e2be3f2e771dd84abc338d5",
+        "new_sha256": "ef764ed18874939b45c17fecdf824afec9d535f1aee6d19de679c789273beab6",
+        "use": "HISTORIC/INCIDENȚĂ, NU ORACOL FUNCȚIONAL"
+      }
+    ],
+    "R4_R6_central_integrity": "Fiecare dintre cele 401 referințe R4 și R6 a fost citită și hashurile au fost confruntate cu registrele înghețate. Puntea nu este verdict de implementare pentru fișă."
+  },
+  "evidence_manifest": {
+    "R4_zone/A03/dovezi/A03_R6_criterii.json": {
+      "sha256": "163b5687c70678748997f49e6df53175019c876691ac2ef22f066f912c830b69",
+      "bytes": 3473889
+    },
+    "R4_zone/A03/dovezi/A03R4_git_0.xml": {
+      "sha256": "bfac79376f6fb3408b6b3f39e4915f7bfa82de36a54fa14658e05e3f3d698ada",
+      "bytes": 438
+    },
+    "R4_zone/A03/dovezi/A03R4_git_150.xml": {
+      "sha256": "030d131c9a6e59ea5f22749d31886345f95ccb689f6fa3ad52d2e9f9a601f337",
+      "bytes": 454
+    },
+    "R4_zone/A03/dovezi/A03R4_git_NEG.xml": {
+      "sha256": "b833d515dbb631c8700a48519d89de571b887fb52af6037fd5ea49e03db8bdda",
+      "bytes": 414
+    },
+    "R4_zone/A03/dovezi/A03R4_installed_0.xml": {
+      "sha256": "bfac79376f6fb3408b6b3f39e4915f7bfa82de36a54fa14658e05e3f3d698ada",
+      "bytes": 438
+    },
+    "R4_zone/A03/dovezi/A03R4_installed_150.xml": {
+      "sha256": "030d131c9a6e59ea5f22749d31886345f95ccb689f6fa3ad52d2e9f9a601f337",
+      "bytes": 454
+    },
+    "R4_zone/A03/dovezi/A03R4_installed_NEG.xml": {
+      "sha256": "b833d515dbb631c8700a48519d89de571b887fb52af6037fd5ea49e03db8bdda",
+      "bytes": 414
+    },
+    "R4_zone/A03/dovezi/CO_27_dec_5_jan.json": {
+      "sha256": "ad4954145c91813f3aa7eba912243e0dacbcc0b3c5054cefe7799532229d54dc",
+      "bytes": 2780
+    },
+    "R4_zone/A03/dovezi/CO_27_fixture_incomplete.json": {
+      "sha256": "097d53851c4dbe73e6e406deb33f95eb0c685b16d6ecbb88b36d91e2ef59f9ca",
+      "bytes": 3747
+    },
+    "R4_zone/A03/dovezi/conversion_native.json": {
+      "sha256": "1cdc83fe4d268742983a756301dd2a36179d906e6aa47c7586a6f4e714523f98",
+      "bytes": 3548
+    },
+    "R4_zone/A03/dovezi/D100_officiel_R4.json": {
+      "sha256": "3053ad1fad5cf03a38d902a6b8f4a9a372ebbbf473b006a36d5518c53c306442",
+      "bytes": 7380
+    },
+    "R4_zone/A03/dovezi/git_contracts_and_S3.json": {
+      "sha256": "4bf7985cba96f2311e39494626decf6d58456d9f970032e21ff7cf26e563acb9",
+      "bytes": 1691
+    },
+    "R4_zone/A03/dovezi/git_D100R4_2023-06_0.log": {
+      "sha256": "c08962d2a3c74a13c49e53f23cca6488b18ffde5276b57a745f67d5fe24b0591",
+      "bytes": 652
+    },
+    "R4_zone/A03/dovezi/git_D100R4_2023-06_150.log": {
+      "sha256": "1bc8559c6dd83cda76413a403c78d54b0a5a9fea03bd5618af2bc51172c4bad3",
+      "bytes": 668
+    },
+    "R4_zone/A03/dovezi/git_R4SalCasescoA_R4.log": {
+      "sha256": "8031adab55889af1beb4f9be27aa1ce43939d1e51bd5e117a8efb724430aa930",
+      "bytes": 1749
+    },
+    "R4_zone/A03/dovezi/git_R4SalCasescoB_R4.log": {
+      "sha256": "5627dcd2897e16b172093d95098ab01f0866a40e67f53d668b2dfad1ff3b6c81",
+      "bytes": 270
+    },
+    "R4_zone/A03/dovezi/git_R4SalCasessimB_R4.log": {
+      "sha256": "4d88a0a633a480d8840aa1b5af4913396554c5aa3f324b3b8f044354cf00bcd6",
+      "bytes": 2705
+    },
+    "R4_zone/A03/dovezi/git_R4SalCasessimC_R4.log": {
+      "sha256": "32042313d09e2e0381b513b9ac2fd1fd91cd6bd79135aefac37e3ec3b465550a",
+      "bytes": 2705
+    },
+    "R4_zone/A03/dovezi/git_R4SalCasessimH_R4.log": {
+      "sha256": "bc620653f27692ef706365802683224c2a12c0393111d7fe18b1bda9e5c1493f",
+      "bytes": 1947
+    },
+    "R4_zone/A03/dovezi/git_R4SalSeed_coA.log": {
+      "sha256": "2e317cc351facc66a7812d6ad66ac328d59a5ac27ff0455fc012df0e15692fbc",
+      "bytes": 1759
+    },
+    "R4_zone/A03/dovezi/git_R4SalSeed_coB.log": {
+      "sha256": "44b860933efa46309dadf14d42138ee5ac923515236350952ebdf7daebb75b1d",
+      "bytes": 280
+    },
+    "R4_zone/A03/dovezi/git_R4SalSeed_simA.log": {
+      "sha256": "ccb1ad55870aa761dc618a4a7d7f0d694f31036c8d6da2b4efa6a2a4a8cb4fb7",
+      "bytes": 622
+    },
+    "R4_zone/A03/dovezi/git_R4SalSeed_simB.log": {
+      "sha256": "5e1ab76d0284d31d06596716e6073eb7a3a6ec9f167e2769dbaafb9a901d648c",
+      "bytes": 1337
+    },
+    "R4_zone/A03/dovezi/git_R4SalSeed_simC.log": {
+      "sha256": "509dd5996c95a75989db8b6cbc8af71e35bd565fa40f2bfc7dbc4eab6f56fe01",
+      "bytes": 602
+    },
+    "R4_zone/A03/dovezi/git_R4SalSeed_simD.log": {
+      "sha256": "25d2091d0dfb7ed2ed83e7c8dc3221b9e3dcdb06265a5584ed4295e45f79f9be",
+      "bytes": 1455
+    },
+    "R4_zone/A03/dovezi/git_R4SalSeed_simH.log": {
+      "sha256": "368be0d54a67d2e6c68e6f637fef9800e17ebf3ab9fdc2d7ea0ac83de6ff54bc",
+      "bytes": 817
+    },
+    "R4_zone/A03/dovezi/git_retry.json": {
+      "sha256": "e63bd7d714b6b2a56eb766e4dde59001cab841df14b37434304a6027310d13d2",
+      "bytes": 6177
+    },
+    "R4_zone/A03/dovezi/git_runs.json": {
+      "sha256": "aa76a55efbc4c10f8fe01a86ad853b94c834af00d916b510fc3ca93084d26d24",
+      "bytes": 8771
+    },
+    "R4_zone/A03/dovezi/git_TestT03Front_R4.log": {
+      "sha256": "6b9acefcec3e3178f413e9f4a891dedfc99fcee0ff4251f395b9b6300b2733f6",
+      "bytes": 10099
+    },
+    "R4_zone/A03/dovezi/git_TestT03Lot5_R4.log": {
+      "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4",
+      "bytes": 27615
+    },
+    "R4_zone/A03/dovezi/git_TestT153Interimar_R4.log": {
+      "sha256": "ccf8bde0f1f1d10479df39c392dfe58ff22ee887a4c3dc386e220e543ef4312f",
+      "bytes": 9515
+    },
+    "R4_zone/A03/dovezi/git_TestT154BilantCredite_helper.log": {
+      "sha256": "a4e9aaa01c9033282076ddb2b2c664eae5ea663e860844a20458b72abc36d50a",
+      "bytes": 8475
+    },
+    "R4_zone/A03/dovezi/git_TestT154BilantCredite_R4.log": {
+      "sha256": "a4e9aaa01c9033282076ddb2b2c664eae5ea663e860844a20458b72abc36d50a",
+      "bytes": 8475
+    },
+    "R4_zone/A03/dovezi/git_TestT159LotA_helper.log": {
+      "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18",
+      "bytes": 28744
+    },
+    "R4_zone/A03/dovezi/git_TestT159LotA_R4.log": {
+      "sha256": "102f93cb2c609de9920a6f8271558771307e680312cccbebed8c8608ecb60df6",
+      "bytes": 26269
+    },
+    "R4_zone/A03/dovezi/git_TestT159LotB_R4.log": {
+      "sha256": "9dc39aee297b1955358f15aea404c2c8e65a523b49290ab8069f17cb30ce8432",
+      "bytes": 22011
+    },
+    "R4_zone/A03/dovezi/git_TestT159LotC_R4.log": {
+      "sha256": "46860b2a8e21ef3054b5bc37d1c9ac52c309851099d4ab888d9c7b0aa5936742",
+      "bytes": 23641
+    },
+    "R4_zone/A03/dovezi/git_TestT199Parametri_helper.log": {
+      "sha256": "449f8edb98e5a6a07fbdbb1f3afeebdd918289cff5f69d53d2c10dd7699cf9fc",
+      "bytes": 8566
+    },
+    "R4_zone/A03/dovezi/git_TestT199Parametri_R4.log": {
+      "sha256": "f76f6c56757ca93eabe42eab812feeff5ed3bdb60403cadfec5883bd949caa20",
+      "bytes": 8566
+    },
+    "R4_zone/A03/dovezi/git_TestT256D394_R4.log": {
+      "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec",
+      "bytes": 4181
+    },
+    "R4_zone/A03/dovezi/git_TestT58Inchidere_R4.log": {
+      "sha256": "8a6dc95ff25a3b9ad80feb8b30ed59106502262dee62d67c80b680363ac74abe",
+      "bytes": 6817
+    },
+    "R4_zone/A03/dovezi/installed_D100R4_2023-06_0.log": {
+      "sha256": "c08962d2a3c74a13c49e53f23cca6488b18ffde5276b57a745f67d5fe24b0591",
+      "bytes": 652
+    },
+    "R4_zone/A03/dovezi/installed_D100R4_2023-06_150.log": {
+      "sha256": "1bc8559c6dd83cda76413a403c78d54b0a5a9fea03bd5618af2bc51172c4bad3",
+      "bytes": 668
+    },
+    "R4_zone/A03/dovezi/installed_R4SalCasescoA_R4.log": {
+      "sha256": "8031adab55889af1beb4f9be27aa1ce43939d1e51bd5e117a8efb724430aa930",
+      "bytes": 1749
+    },
+    "R4_zone/A03/dovezi/installed_R4SalCasescoB_R4.log": {
+      "sha256": "5627dcd2897e16b172093d95098ab01f0866a40e67f53d668b2dfad1ff3b6c81",
+      "bytes": 270
+    },
+    "R4_zone/A03/dovezi/installed_R4SalCasessimB_R4.log": {
+      "sha256": "4d88a0a633a480d8840aa1b5af4913396554c5aa3f324b3b8f044354cf00bcd6",
+      "bytes": 2705
+    },
+    "R4_zone/A03/dovezi/installed_R4SalCasessimC_R4.log": {
+      "sha256": "32042313d09e2e0381b513b9ac2fd1fd91cd6bd79135aefac37e3ec3b465550a",
+      "bytes": 2705
+    },
+    "R4_zone/A03/dovezi/installed_R4SalCasessimH_R4.log": {
+      "sha256": "bc620653f27692ef706365802683224c2a12c0393111d7fe18b1bda9e5c1493f",
+      "bytes": 1947
+    },
+    "R4_zone/A03/dovezi/installed_R4SalSeed_coA.log": {
+      "sha256": "2e317cc351facc66a7812d6ad66ac328d59a5ac27ff0455fc012df0e15692fbc",
+      "bytes": 1759
+    },
+    "R4_zone/A03/dovezi/installed_R4SalSeed_coB.log": {
+      "sha256": "44b860933efa46309dadf14d42138ee5ac923515236350952ebdf7daebb75b1d",
+      "bytes": 280
+    },
+    "R4_zone/A03/dovezi/installed_R4SalSeed_simA.log": {
+      "sha256": "ccb1ad55870aa761dc618a4a7d7f0d694f31036c8d6da2b4efa6a2a4a8cb4fb7",
+      "bytes": 622
+    },
+    "R4_zone/A03/dovezi/installed_R4SalSeed_simB.log": {
+      "sha256": "5e1ab76d0284d31d06596716e6073eb7a3a6ec9f167e2769dbaafb9a901d648c",
+      "bytes": 1337
+    },
+    "R4_zone/A03/dovezi/installed_R4SalSeed_simC.log": {
+      "sha256": "509dd5996c95a75989db8b6cbc8af71e35bd565fa40f2bfc7dbc4eab6f56fe01",
+      "bytes": 602
+    },
+    "R4_zone/A03/dovezi/installed_R4SalSeed_simD.log": {
+      "sha256": "25d2091d0dfb7ed2ed83e7c8dc3221b9e3dcdb06265a5584ed4295e45f79f9be",
+      "bytes": 1455
+    },
+    "R4_zone/A03/dovezi/installed_R4SalSeed_simH.log": {
+      "sha256": "368be0d54a67d2e6c68e6f637fef9800e17ebf3ab9fdc2d7ea0ac83de6ff54bc",
+      "bytes": 817
+    },
+    "R4_zone/A03/dovezi/installed_retry.json": {
+      "sha256": "feb2878e30decae2e3e38f932fc24c3ad0c03a498aed59b39cdfad46cafd9d44",
+      "bytes": 6256
+    },
+    "R4_zone/A03/dovezi/installed_runs.json": {
+      "sha256": "b767a32c820ef0295816e13b059bc0a78bfd0ef21ac1d892108dfcdb25014f88",
+      "bytes": 8868
+    },
+    "R4_zone/A03/dovezi/installed_TestT03Front_R4.log": {
+      "sha256": "6b9acefcec3e3178f413e9f4a891dedfc99fcee0ff4251f395b9b6300b2733f6",
+      "bytes": 10099
+    },
+    "R4_zone/A03/dovezi/installed_TestT03Lot5_R4.log": {
+      "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4",
+      "bytes": 27615
+    },
+    "R4_zone/A03/dovezi/installed_TestT153Interimar_R4.log": {
+      "sha256": "ccf8bde0f1f1d10479df39c392dfe58ff22ee887a4c3dc386e220e543ef4312f",
+      "bytes": 9515
+    },
+    "R4_zone/A03/dovezi/installed_TestT154BilantCredite_helper.log": {
+      "sha256": "a4e9aaa01c9033282076ddb2b2c664eae5ea663e860844a20458b72abc36d50a",
+      "bytes": 8475
+    },
+    "R4_zone/A03/dovezi/installed_TestT154BilantCredite_R4.log": {
+      "sha256": "a4e9aaa01c9033282076ddb2b2c664eae5ea663e860844a20458b72abc36d50a",
+      "bytes": 8475
+    },
+    "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log": {
+      "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18",
+      "bytes": 28744
+    },
+    "R4_zone/A03/dovezi/installed_TestT159LotA_R4.log": {
+      "sha256": "102f93cb2c609de9920a6f8271558771307e680312cccbebed8c8608ecb60df6",
+      "bytes": 26269
+    },
+    "R4_zone/A03/dovezi/installed_TestT159LotB_R4.log": {
+      "sha256": "c5497131915586fbbe9576c48546d6aecc850068bb5bc94579b2aa7d788c2795",
+      "bytes": 22011
+    },
+    "R4_zone/A03/dovezi/installed_TestT159LotC_R4.log": {
+      "sha256": "6cc17fc66c572d89b0b6aa59ea0df5c336141f3f5914f3b50a1ac4f1661d9a96",
+      "bytes": 23641
+    },
+    "R4_zone/A03/dovezi/installed_TestT199Parametri_helper.log": {
+      "sha256": "449f8edb98e5a6a07fbdbb1f3afeebdd918289cff5f69d53d2c10dd7699cf9fc",
+      "bytes": 8566
+    },
+    "R4_zone/A03/dovezi/installed_TestT199Parametri_R4.log": {
+      "sha256": "f76f6c56757ca93eabe42eab812feeff5ed3bdb60403cadfec5883bd949caa20",
+      "bytes": 8566
+    },
+    "R4_zone/A03/dovezi/installed_TestT256D394_R4.log": {
+      "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec",
+      "bytes": 4181
+    },
+    "R4_zone/A03/dovezi/installed_TestT58Inchidere_R4.log": {
+      "sha256": "8a6dc95ff25a3b9ad80feb8b30ed59106502262dee62d67c80b680363ac74abe",
+      "bytes": 6817
+    },
+    "R4_zone/A03/dovezi/istoria_T58.json": {
+      "sha256": "4f48e50c527ba1b78f12e4ebee47d3cdc75129e0c5666ce9bb7d679d7740b8f4",
+      "bytes": 3008
+    },
+    "R4_zone/A03/dovezi/Legaturi_401_R6_verificate.json": {
+      "sha256": "842015ea2e1179f819d4503f33913a17479df74fc0d8aa929c1b387d78808540",
+      "bytes": 209149
+    },
+    "R4_zone/A03/dovezi/pg_native_readback.json": {
+      "sha256": "83ffe006f635071581c6ae72ce447e5ed31d2e6fd4095659b75e0c16dca46f7d",
+      "bytes": 17235
+    },
+    "R4_zone/A03/dovezi/Registru_incremental_01.json": {
+      "sha256": "5e7b30984f6f23da6d686764317f2e8c8f98a16a9f042d136b81cace7227cfa6",
+      "bytes": 35368
+    },
+    "R4_zone/A03/dovezi/Registru_subcriterii_R4.json": {
+      "sha256": "c8c495210f25eed5221a60a8fc112269ceb91b4b001da8ec4381746262e94457",
+      "bytes": 42481
+    },
+    "R4_zone/A03/dovezi/static_contracts_R4.json": {
+      "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a",
+      "bytes": 3118
+    },
+    "R4_zone/A03/dovezi/T58-r2-native-august.png": {
+      "sha256": "eca8a61deebdb115f962052cd43d83f5455401372e483a40811b6670a214e0d4",
+      "bytes": 91550
+    },
+    "R4_zone/A03/dovezi/T58-r2-native-form.png": {
+      "sha256": "e879aaac9947684fa1fd52d613794c83a5b69d8874a584aebdf0174a6faa80d8",
+      "bytes": 94198
+    },
+    "R4_zone/A03/dovezi/T58_2schema_setup.json": {
+      "sha256": "6260ef76814c4f55b611ee938d40598948e3b0a1bdfa48869ba256f4ffc7385a",
+      "bytes": 442
+    },
+    "R4_zone/A03/dovezi/T58_asset_account_fix.json": {
+      "sha256": "f6b437d1278378588cebeb23bef2e9635113626987ff1e4d151a9a273691adec",
+      "bytes": 343
+    },
+    "R4_zone/A03/dovezi/T58_native_first_period_guard.json": {
+      "sha256": "573d183d9bbbf110c77343b726b9a4ca698eaf78d1f742fdd2b87186bcc92197",
+      "bytes": 1962
+    },
+    "R4_zone/A03/dovezi/T58_native_gate.json": {
+      "sha256": "eacd475b6c161289a40af690fa061f5dcdaa77a58971b0a2f2b96a83c5a8a7b1",
+      "bytes": 1275
+    },
+    "R4_zone/A03/dovezi/T58_positive_and_reverse.json": {
+      "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a",
+      "bytes": 8238
+    },
+    "R4_zone/A03/dovezi/T58_positive_first_controlled_account.json": {
+      "sha256": "9035de3f0bb60f305ee2ef525c3885696ccf0d2aeaf2421832387f606d8d68cd",
+      "bytes": 798
+    },
+    "R4_zone/A03/dovezi/T58_race_native.json": {
+      "sha256": "35667b62271a2b1246a9a7a675eafe0cc77287ce91bfa7b6400103593d52787f",
+      "bytes": 63252
+    },
+    "R4_zone/A03/dovezi/T58_refuz_istoric.json": {
+      "sha256": "8a0fa18349926af627d8da36e70223a364eda8f2b357f2c1c6ee9f75c636caf8",
+      "bytes": 605
+    },
+    "R4_zone/A03/dovezi/T58_restitution.json": {
+      "sha256": "c57294f8ec51859c2ddcdb9ec3d6d932565dfb44b1c7c15dabe7580091326ec0",
+      "bytes": 2377
+    },
+    "R4_zone/A03/dovezi/T58_slot_status.json": {
+      "sha256": "137fd1936ad22d1856424e77492caef31f77348cdfd3a86703c5ee3106498623",
+      "bytes": 839
+    },
+    "R4_zone/A03/dovezi/T58_static_historic_delta.json": {
+      "sha256": "e813663fc5495b5afdddc35f7019b23fb6de3040e28c7439ab473eac964828dc",
+      "bytes": 1228
+    },
+    "R4_zone/A03/dovezi/T58_ZK.json": {
+      "sha256": "d9eeb704ec6e67ddb1aa17057891dc3952f701ff5d5df5464e967dfebd10cfe7",
+      "bytes": 12582
+    },
+    "R4_zone/A03/dovezi/T58_ZK_first_attempt.json": {
+      "sha256": "940980424568e5d6319222f9b5e18c3e527322041bd5766fff2a887048f6f256",
+      "bytes": 12680
+    },
+    "R3_zone/A03/A03_raport.json": {
+      "sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "bytes": 571168
+    },
+    "R3_zone/A03/Legaturi_A12_R4.json": {
+      "sha256": "bff17a855c15af269544eef6a7f01a3dfaad5541a0c0be042b346d09b9b4393a",
+      "bytes": 3057006
+    },
+    "A11_control_consolidari_A01_A03_R3.json": {
+      "sha256": "a797d0bfb8680ce61dd54b07dce2c59a94126edb6b2499533e736181d0b74074",
+      "bytes": 35614
+    },
+    "A11_control_A12_R6.json": {
+      "sha256": "becb2a61e494c79cabb44ec47ad6b7fb3baec43e9474fa14158bbbf467dfa632",
+      "bytes": 23649
+    },
+    "R6/A12_raport.json": {
+      "sha256": "605241436af8ba8a4030bc127b81c993b36e4cc6ce06b119fd12ebbbdef03c09",
+      "bytes": 374615
+    },
+    "R6/Registru_reexecutare_R6.json": {
+      "sha256": "9d1c1b578200af0d4d8e3d710909fee86f83b2b38dc4ea63d4cd9ade5ba84167",
+      "bytes": 8949171
+    },
+    "R5/A12_raport.json": {
+      "sha256": "ec00d36e6ee2eb4755981e22c0c332279b8319cb58080f535e6879de44de97cd",
+      "bytes": 362269
+    },
+    "R5/calibrare/executii.json": {
+      "sha256": "25bad2b62782b9f8b88a0efb495112d9c5558e4fdc94ccf35ba8b1ac88e9deae",
+      "bytes": 35075
+    },
+    "R6_supliment/A12_UX_NIR_provenienta.json": {
+      "sha256": "ca3c3d2c975ae2d11774d6d11e5ca4c560682816e22f7ebb084dee57e82e5882",
+      "bytes": 54830
+    },
+    "R3_zone/A04/Addendum_moneda_NIR.json": {
+      "sha256": "39598d287747a4751303653db4b79803888764f070b2900c0c1cc34d1fdde4a8",
+      "bytes": 9374
+    },
+    "A11_control_A04_R3.json": {
+      "sha256": "431bc2a9e8fc130d8f8d00a4987dc1a16ffc99e658a659e2fc8c2dc57a1f9fc3",
+      "bytes": 37271
+    },
+    "Reverificare_SAGA_schema_secundara.json": {
+      "sha256": "2f66afa695d8e04116028888f80a157f7442fc5e52e65ef24d457987e2ac13ee",
+      "bytes": 4372
+    },
+    "Reverificare_balanta_si_receptie_nativa.json": {
+      "sha256": "d3c309f15cca2f49ea23310b92534780630fa440fc1347b97687d0f7413dd4ad",
+      "bytes": 12262
+    },
+    "Reverificare_inchidere_GL_doua_scheme.json": {
+      "sha256": "e97d12d427e5abc897438f6c14be61a6295a38eb7ab28510c6ad19c2f2e302e3",
+      "bytes": 7994
+    },
+    "Reverificare_T257_import_fidel_si_protectie.json": {
+      "sha256": "004c12f75f5005148d81cf1b224cc4c66cdbe152c895690ccf785418571f554e",
+      "bytes": 10877
+    },
+    "Reverificare_devalidare_GL.json": {
+      "sha256": "e60066663a0201efa1a896679f7c61b34f74470cd7b54173f8e8a1f43c80431a",
+      "bytes": 692
+    },
+    "R2_zone/A05_raport.json": {
+      "sha256": "fd871b4a22b753ea42d25ecb6935426d4612f76ed05a531d4aa97b9e189f9a26",
+      "bytes": 251090
+    },
+    "Reverificare_PO_receptie_match_storno.json": {
+      "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01",
+      "bytes": 20184
+    },
+    "Reverificare_alocare_incasari_stari.json": {
+      "sha256": "2f6297678fd27b77d42296d3994cfcf8a4eab89e801671a92442314346088a1c",
+      "bytes": 17993
+    },
+    "supliment_CESIRO1/probe/EX07_peer_A03.json": {
+      "sha256": "52080bf8cefdd2e02ec85463a0fa91d8105669276c68fa2a9819c5321be2687a",
+      "bytes": 16993
+    },
+    "R4/Registru_1868.json": {
+      "sha256": "ef764ed18874939b45c17fecdf824afec9d535f1aee6d19de679c789273beab6",
+      "bytes": 5664124
+    },
+    "R4/Dovezi_criterii.json": {
+      "sha256": "08993eda3a2777eaf80c531ecb04fa60cc6a886895e32e373b2b7cfefc594fbd",
+      "bytes": 8542380
+    },
+    "R4/A12_raport.json": {
+      "sha256": "a81a12d23f080685a21690fba2377948fa3a9c7823022ebb55959bdf141583ab",
+      "bytes": 406863
+    },
+    "R5/calibrare/git_TestT03Lot5.log": {
+      "sha256": "9a1e72608f7d5b342a4e961acba5743804c33abe7158192ce92f3a8dc16da147",
+      "bytes": 1144
+    },
+    "R5/calibrare/instalat_TestT03Lot5.log": {
+      "sha256": "9a1e72608f7d5b342a4e961acba5743804c33abe7158192ce92f3a8dc16da147",
+      "bytes": 1144
+    },
+    "R5/calibrare/git_TestT159LotA.log": {
+      "sha256": "eee0f89d4a76be70d9575e709a2cc502c935a7f744972e26e064ee34ef8a1150",
+      "bytes": 749
+    },
+    "R5/calibrare/instalat_TestT159LotA.log": {
+      "sha256": "eee0f89d4a76be70d9575e709a2cc502c935a7f744972e26e064ee34ef8a1150",
+      "bytes": 749
+    },
+    "R4_zone/A03/reproducere/a03_r4_exec.py": {
+      "sha256": "1d41d7ce8950519873137a8565fe8ed2c0a206a29625c2b796c60cbef180a45c",
+      "bytes": 7721
+    },
+    "R4_zone/A03/reproducere/a03_r4_retest.py": {
+      "sha256": "399e10b225ddf4cd8fc118bbfd666b9b81ef4fc71f79c2b7071bb40bc2fe5d3b",
+      "bytes": 5596
+    },
+    "R4_zone/A03/reproducere/a03_r4_extra.py": {
+      "sha256": "e10f5204e762a7d9f2a33c4998919d452f4c6191dc061c23e299763f395d3cc0",
+      "bytes": 6354
+    },
+    "R4_zone/A03/reproducere/a03_r4_anchors.py": {
+      "sha256": "f606b428b1dd6bbff30c2000378b4ebe0c6629a15da1f03445f27c8be751a273",
+      "bytes": 4221
+    },
+    "R4_zone/A03/reproducere/a03_r4_register.py": {
+      "sha256": "dc6bcc6e34488fb1fa95538c96132addd81cc54b56783d92bbecebe7eeb4b2c2",
+      "bytes": 15290
+    },
+    "R4_zone/A03/reproducere/a03_r4_pick.py": {
+      "sha256": "8fec4e1955b105f6b4a8be1bf37189fc59eb924813dafccc0a710d77074d8ecc",
+      "bytes": 2253
+    },
+    "R4_zone/A03/reproducere/a03_r4_report.py": {
+      "sha256": "6b2b24b35e93fdc69e3b97daeb512c40f93c01f716b87fe5fca2c84c8e67e242",
+      "bytes": 19661
+    }
+  },
+  "criteria": [
+    {
+      "criterion_id": "T159-R2-006",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-03 — A-1 | paritatea: fiecare valoare mutată = valoarea codului de azi la granițe (ziua dinainte / ziua pragului) și azi | `TestT159LotA` cazul «paritate» | 0 FAIL | test",
+      "R6_oracle": "paritatea: fiecare valoare mutată = valoarea codului de azi la granițe (ziua dinainte / ziua pragului) și azi | 0 FAIL",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "Cazul „paritate” rulează din TestT159LotA pe ambele JAR-uri; verifică limite datate și schimbarea pragului. Suita: 79 OK și 0 FAIL pe fiecare binar.",
+      "method_and_actor": "Test real al clasei EVA; registrul este în memorie, derivat din seed-ul înghețat.",
+      "remaining": "Acoperirea se aplică exact setului de tranziții din test. Nu dovedește configurația unui cabinet real.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T159-R2-009",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-06 — A-1 | aliasul `UK` → `UE_TARA_GB` (S2 S-B4) | `TestT159LotA` «UK» | `esteUE(\"UK\", 2020-12-31)` = true, `2021-01-01` = false | test",
+      "R6_oracle": "aliasul `UK` → `UE_TARA_GB` (S2 S-B4) | `esteUE(\"UK\", 2020-12-31)` = true, `2021-01-01` = false",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "esteUE(UK,31.12.2020)=true; esteUE(UK,01.01.2021)=false pe ambele binare.",
+      "method_and_actor": "TestT159LotA, fixare dată/perioadă în registrul sintetic.",
+      "remaining": "Niciun pas lipsă din oracolul binar al criteriului.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T159-R2-010",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-07 — A-1 | amprenta D300 / D390 / D394 / D406 cuprinde cheile noi folosite | `TestT159LotA` «amprenta» (`cheiPentruDeclaratie`) | cheile din 12_ §3.1 | test",
+      "R6_oracle": "amprenta D300 / D390 / D394 / D406 cuprinde cheile noi folosite | cheile din 12_ §3.1",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "Testul „amprenta” compară setul cheilor din cheiPentruDeclaratie pentru D300/D390/D394/D406 și martorii D112/D101. 0 FAIL.",
+      "method_and_actor": "Clase native EVA din ambele JAR-uri.",
+      "remaining": "Nu se deduce că declarațiile complete au fost depuse.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T159-R2-011",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-08 — A-2 | rd.33 editabil și citit la data perioadei | `TestT159LotA` «rd33» | `SetariFirma.seteaza(…, \"D300_ACH9_RD33\", \"N\", …)` acceptat; `peRd33` urmează setarea | test",
+      "R6_oracle": "rd.33 editabil și citit la data perioadei | `SetariFirma.seteaza(…, \"D300_ACH9_RD33\", \"N\", …)` acceptat; `peRd33` urmează setarea",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "În registrul sintetic: rd.33 implicit Y în 03.2026; setare N din 04.2026 acceptată, luna martie rămâne Y, aprilie devine N, peRd33 și amprenta D300 urmează data.",
+      "method_and_actor": "TestT159LotA + TestT29Perioade + seed încărcat cu ajutorul real TestT16Declaratii.",
+      "remaining": "Oracolul cerut este la nivel de test; forma live și DUK ale declarației constituie un alt criteriu.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T159-R2-018",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-15 — A-3 | paritatea B (vârste, trepte, CM, norma, F2, sărbătorile 2010–2035 cu cele 3 coliziuni S2) | `TestT159LotB` | 0 FAIL | test",
+      "R6_oracle": "paritatea B (vârste, trepte, CM, norma, F2, sărbătorile 2010–2035 cu cele 3 coliziuni S2) | 0 FAIL",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "TestT159LotB executat pe ambele JAR-uri: 145 OK, 0 FAIL, inclusiv limite calendar, vârste și sărbători.",
+      "method_and_actor": "Testul nominal din criteriu, seed sintetic, fără scriere în ERP.",
+      "remaining": "Nu certifică salariile unei firme operative.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotB_R4.log",
+          "sha256": "9dc39aee297b1955358f15aea404c2c8e65a523b49290ab8069f17cb30ce8432"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotB_R4.log",
+          "sha256": "c5497131915586fbbe9576c48546d6aecc850068bb5bc94579b2aa7d788c2795"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T159-R2-019",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-16 — A-3 | grupa D112 C2 după procentul registrului | `TestT159LotB` «grupa» (registru cu 0.60 în loc de 0.55) | grupa 0 se alege pentru 0.60 | test",
+      "R6_oracle": "grupa D112 C2 după procentul registrului | grupa 0 se alege pentru 0.60",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "Înlocuirea procentului din registrul fixture cu 0,60 (față de 0,55) selectează grupa D112 C2 cerută de fixture; suita 145/0 pe ambele JAR-uri.",
+      "method_and_actor": "Cazul „grupa” al testului nominal, regiștri de test injectați.",
+      "remaining": "Nu interpretează numerele fixture drept rate legale în vigoare.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotB_R4.log",
+          "sha256": "9dc39aee297b1955358f15aea404c2c8e65a523b49290ab8069f17cb30ce8432"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotB_R4.log",
+          "sha256": "c5497131915586fbbe9576c48546d6aecc850068bb5bc94579b2aa7d788c2795"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T159-R2-024",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-21 — A-5 | cota micro din registru (registru de test cu 2 % ⇒ cota 2) | `TestT159LotC` «micro» | 0 FAIL | test",
+      "R6_oracle": "cota micro din registru (registru de test cu 2 % ⇒ cota 2) | 0 FAIL",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "Valoarea micro sintetică din registru 2% a condus la cota 2. TestT159LotC a verificat penalizările la parametru lipsă și revenirea la seed; 81 OK/0 FAIL în fiecare JAR.",
+      "method_and_actor": "Test nominal corelat cu markerul C-21, nu cu totalul unei suite fără legătură.",
+      "remaining": "Nicio afirmație privind obligația fiscală a unei firme reale.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotC_R4.log",
+          "sha256": "46860b2a8e21ef3054b5bc37d1c9ac52c309851099d4ab888d9c7b0aa5936742"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotC_R4.log",
+          "sha256": "6cc17fc66c572d89b0b6aa59ea0df5c336141f3f5914f3b50a1ac4f1661d9a96"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T159-R2-031",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-28 — A-7 | coloanele `Origine`, `Motiv` | SELECT pe `information_schema.columns` | 2 | container",
+      "R6_oracle": "coloanele `Origine`, `Motiv`",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "În information_schema.columns al GardenWorld, EVA_ParametriFiscali conține exact cele două coloane solicitate Origine și Motiv.",
+      "method_and_actor": "SELECT fizic, PG16 read-only.",
+      "remaining": "Nu certifică drepturile de editare; acestea fac obiectul C-31.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/pg_native_readback.json",
+          "sha256": "83ffe006f635071581c6ae72ce447e5ed31d2e6fd4095659b75e0c16dca46f7d"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T159-R2-042",
+      "task": "T159",
+      "canonical_task": "P01.C02.T0003",
+      "R6_case": "R6\\taskuri\\Fisa_T159.json",
+      "R6_case_sha256": "e2e41871164ed87eacd75e80dcfebc219999b24d113af0d324de8cd9e545f269",
+      "R6_requirement_verbatim": "C-39 — A-8 | etichetele | `cut -f1 P/documente/res/etichete.tsv | grep -v '^#' | sort | uniq -d | wc -l` ; verificarea `%s` ro = en pe blocurile `# T159` | 0 ; 0 | export",
+      "R6_oracle": "etichetele | 0 ; 0",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "Fișierul documente/res/etichete.tsv are 0 chei duplicate, iar blocurile #T159 au 0 diferențe de substituții %s între RO și EN.",
+      "method_and_actor": "Scanare opțional completă și probe numerice pe fișierul SHA fix.",
+      "remaining": null,
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T03-R2-019",
+      "task": "T03",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T03.json",
+      "R6_case_sha256": "57c64c010e76dc895a5b16f359ea7b56007243f2a3fd57141e976d5c5db9ca34",
+      "R6_requirement_verbatim": "R-18 — Etichete: format | Pe fiecare din cele 2 `.tsv`: rânduri non-comentariu cu ≠ 3 coloane = `0`; chei duplicate = `0`; chei noi cu ro sau en gol = `0` | `0` / `0` / `0`",
+      "R6_oracle": "Etichete: format | `0` / `0` / `0`",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "Dicționarul contabil are 14.780 chei și cel REGES 870. În ambele: 0 duplicate, 0 linii active cu număr diferit de 3 coloane, 0 traduceri RO/EN goale, inclusiv pentru cheile noi.",
+      "method_and_actor": "Verificare lexicală pe ambii TSV în commitul auditat.",
+      "remaining": "Nu certifică terminologia sau accesibilitatea formularelor.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T03-R2-065",
+      "task": "T03",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T03.json",
+      "R6_case_sha256": "57c64c010e76dc895a5b16f359ea7b56007243f2a3fd57141e976d5c5db9ca34",
+      "R6_requirement_verbatim": "R-36 — (la integrare, Fable) coliziuni de chei | pe fișierele rezultate: `cut -f1 P/documente/res/etichete.tsv | grep -v '^#' | sort | uniq -d | wc -l` și la fel pe `P/form/reges/res/etichete.tsv` | `0`/`0` | `0`/`0`",
+      "R6_oracle": "(la integrare, Fable) coliziuni de chei | `0`/`0`",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "observed_and_expected": "În cele două TSV actuale sunt 0/0 coliziuni. R-36 specifică momentul integrării istorice Fable.",
+      "method_and_actor": "Scanare actuală pe SHA înghețat.",
+      "remaining": "Lipsește snapshotul și repetarea execuției la evenimentul de integrare specificat.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T58-R2-003",
+      "task": "T58",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T58.json",
+      "R6_case_sha256": "3b8395596c6a3569b2ee4be36edaf99d18d317fa6ad7cc4dd117c627d366756f",
+      "R6_requirement_verbatim": "C-02 — A-1 | `valideaza` cheamă poarta înaintea oricărei scrieri | `awk '/public static String valideaza\\(Properties/,/^    }$/' InchidereLuna.java | grep -nE \"potValida|posteaza|NotaInchidere.scrie|inregistreaza\" | head -1` | rândul conține `potValida` | export",
+      "R6_oracle": "`valideaza` cheamă poarta înaintea oricărei scrieri | rândul conține `potValida`",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "În corpul valideaza(Properties...), prima potrivire dintre potValida/posteaza/NotaInchidere.scrie/inregistreaza este apelul de gardă potValida la linia3424.",
+      "method_and_actor": "Oracle static de export conform comenzii cerute; separat testul T58 executat pe ambele JAR-uri.",
+      "remaining": "Alte operații sau criterii REST/ZK nu sunt atribuite acestei căutări.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT58Inchidere_R4.log",
+          "sha256": "8a6dc95ff25a3b9ad80feb8b30ed59106502262dee62d67c80b680363ac74abe"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT58Inchidere_R4.log",
+          "sha256": "8a6dc95ff25a3b9ad80feb8b30ed59106502262dee62d67c80b680363ac74abe"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T194-R2-009",
+      "task": "T194",
+      "canonical_task": "P01.C07.T0006",
+      "R6_case": "R6\\taskuri\\Fisa_T194.json",
+      "R6_case_sha256": "8043a66b40a6cd0ff95c9f1623bf338704d81f302533a73ded54faa5588d56b1",
+      "R6_requirement_verbatim": "K-6 — C0-06 | net→brut ±1 pe minim, mediu, mare, fără funcție de bază; brut−1 nu îndeplinește | SIM-B | 4/4",
+      "R6_oracle": "4/4",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "SIM-B executat cu registru inițializat, pe două JAR-uri. Net→brut pentru minim/mediu/mare și fără funcție de bază: răspuns egal oracolului bruteforce, |net−țintă|≤1, brut−1 nu îndeplinește, cu reevaluarea netului. 9 OK/0 FAIL.",
+      "method_and_actor": "Subtestul C0-06/SIM-B, fără interfață sau document.",
+      "remaining": "Nu certifică plăți sau note de salarii.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simB.log",
+          "sha256": "5e1ab76d0284d31d06596716e6073eb7a3a6ec9f167e2769dbaafb9a901d648c"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_simB.log",
+          "sha256": "5e1ab76d0284d31d06596716e6073eb7a3a6ec9f167e2769dbaafb9a901d648c"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T194-R2-008",
+      "task": "T194",
+      "canonical_task": "P01.C07.T0006",
+      "R6_case": "R6\\taskuri\\Fisa_T194.json",
+      "R6_case_sha256": "8043a66b40a6cd0ff95c9f1623bf338704d81f302533a73ded54faa5588d56b1",
+      "R6_requirement_verbatim": "K-5 — C0-05 | mutantul de cotă (registrul injectat: `CAS` +0,01 ⇒ Δ simulare = Δ `calculeaza`) + mutantul «`intrarePentru` → `new Intrare()` doar cu brutul» | SIM-A + harness | egal / roșu",
+      "R6_oracle": "egal / roșu",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "observed_and_expected": "SIM-A: +0,01 la CAS a modificat CAS calculată cu60 atât în simulare, cât și în motor; 4 OK/0 FAIL în ambele.",
+      "method_and_actor": "Câmpuri și mutant de parametru real.",
+      "remaining": "Mutantul de cod intrarePentru înlocuit cu un obiect care păstrează doar brutul trebuie rulat înainte de închiderea criteriului.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simA.log",
+          "sha256": "ccb1ad55870aa761dc618a4a7d7f0d694f31036c8d6da2b4efa6a2a4a8cb4fb7"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_simA.log",
+          "sha256": "ccb1ad55870aa761dc618a4a7d7f0d694f31036c8d6da2b4efa6a2a4a8cb4fb7"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T194-R2-010",
+      "task": "T194",
+      "canonical_task": "P01.C07.T0006",
+      "R6_case": "R6\\taskuri\\Fisa_T194.json",
+      "R6_case_sha256": "8043a66b40a6cd0ff95c9f1623bf338704d81f302533a73ded54faa5588d56b1",
+      "R6_requirement_verbatim": "K-7 — C0-07 | tabelarea (§2.9) + net atins de doi bruți ⇒ cel mai mic; neatins ⇒ `t194.sim.refuz.exact` cu «cel mai apropiat», în ≤ 5 779 evaluări (+2 în afara buclei, F-r3-2); mutanții «bisecție naivă», «fără punctul minim», «fără pasul +1», «fără oprire» roșii | tabelarea + SIM-C, SIM-H | brutul minim / mesajul; 4 roșii",
+      "R6_oracle": "brutul minim / mesajul; 4 roșii",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "observed_and_expected": "SIM-C și SIM-H au rulat pe ambele JAR-uri cu registre de test și oracole pentru prag/țintă; jurnalele păstrează toate marcajele de rezultat.",
+      "method_and_actor": "Selecție directă de subcazuri din suite reale.",
+      "remaining": "Cei patru mutanți separați ai implementării nu au fost executați în această trecere. Nu echivalăm rezultatul nominal cu rezistența la mutații.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simC.log",
+          "sha256": "509dd5996c95a75989db8b6cbc8af71e35bd565fa40f2bfc7dbc4eab6f56fe01"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_simC.log",
+          "sha256": "509dd5996c95a75989db8b6cbc8af71e35bd565fa40f2bfc7dbc4eab6f56fe01"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simH.log",
+          "sha256": "368be0d54a67d2e6c68e6f637fef9800e17ebf3ab9fdc2d7ea0ac83de6ff54bc"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_simH.log",
+          "sha256": "368be0d54a67d2e6c68e6f637fef9800e17ebf3ab9fdc2d7ea0ac83de6ff54bc"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T194-R2-017",
+      "task": "T194",
+      "canonical_task": "P01.C07.T0006",
+      "R6_case": "R6\\taskuri\\Fisa_T194.json",
+      "R6_case_sha256": "8043a66b40a6cd0ff95c9f1623bf338704d81f302533a73ded54faa5588d56b1",
+      "R6_requirement_verbatim": "K-14 — C0-14 | 27.12.Y–05.01.Y+1 | CO-B + S3 | Σ ani = total",
+      "R6_oracle": "Σ ani = total",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "observed_and_expected": "Oracol de cod CORRECTAT la data solicitată 27.12.2026–05.01.2027, nu doar intervalul repo 28.12–05.01. Cele două JAR-uri: [(0, '== CO-B'), (0, '== CO-B')].",
+      "method_and_actor": "Metoda SituatieCO pe intrări sintetice.",
+      "remaining": "Nu înlocuim documentul S3 din arhiva operațională cu numărul obținut din această persoană sintetică.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/CO_27_dec_5_jan.json",
+          "sha256": "ad4954145c91813f3aa7eba912243e0dacbcc0b3c5054cefe7799532229d54dc"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_contracts_and_S3.json",
+          "sha256": "4bf7985cba96f2311e39494626decf6d58456d9f970032e21ff7cf26e563acb9"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_coB.log",
+          "sha256": "44b860933efa46309dadf14d42138ee5ac923515236350952ebdf7daebb75b1d"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_coB.log",
+          "sha256": "44b860933efa46309dadf14d42138ee5ac923515236350952ebdf7daebb75b1d"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T256-R2-017",
+      "task": "T256",
+      "canonical_task": "P01.C06.T0014",
+      "R6_case": "R6\\taskuri\\Fisa_T256.json",
+      "R6_case_sha256": "552972bdfe8ec186226c2363713cbf0579549beba5be018747ef062bc64065af",
+      "R6_requirement_verbatim": "K-17 — C0-17 | `TestT256D394` comportamental, ultimul în rulator, cele 6 cazuri ale C0-17 + fixtura cu cele trei surse diferite (X189) | `git -C W show V:tools/teste/ruleaza_teste_contab.sh | grep -n TestT256D394` + rularea | ultimul bloc; `0 FAIL` | export",
+      "R6_oracle": "`TestT256D394` comportamental, ultimul în rulator, cele 6 cazuri ale C0-17 + fixtura cu cele trei surse diferite (X189) | ultimul bloc; `0 FAIL`",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "observed_and_expected": "TestT256D394:34 OK/0 FAIL în ambele JAR-uri. Scriptul rulează suita la linia722, însă nu mai este ultimul bloc în SHA actual.",
+      "method_and_actor": "Compararea comportamentului cu testul declarat și a poziției în rulator.",
+      "remaining": "Momentul predării V și cerința „ultimul bloc” la acel moment nu sunt infirmate de adăugarea ulterioară a unor suite. Fără verdict global fiscal.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT256D394_R4.log",
+          "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT256D394_R4.log",
+          "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T176.01-R3-001",
+      "task": "T176.01",
+      "canonical_task": "P01.C06.T0001.01",
+      "R6_case": "R6\\taskuri\\Fisa_T176.01.json",
+      "R6_case_sha256": "246247003a677d8ac6279a7d667de9a9467072a48dac8ee6afdfda50f806b620",
+      "R6_requirement_verbatim": "D100 conține sponsorizarea admisă pentru perioada aplicabilă.",
+      "R6_oracle": "D100 conține sponsorizarea admisă pentru perioada aplicabilă.",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "În ambele JAR-uri GenD100 emite pentru iunie2023 baza1000, sponsorizare150, plată850; martorul fără sponsorizare produce plată1000. Soft J oficial potrivit perioadei acceptă ambele și respinge copia cu suma_plata=999. Exit singur nu decide.",
+      "method_and_actor": "Generator real + validator ANAF offline, cu obligație sintetică; testele de regulă R1/R5 și XML sunt delimitate de posting real.",
+      "remaining": "Urmărirea de la o cheltuială reală la nota contabilă și calculul de eligibilitate al unei firme nu sunt probate; acest criteriu cere conținutul D100 pentru perioada aplicabilă.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/D100_officiel_R4.json",
+          "sha256": "3053ad1fad5cf03a38d902a6b8f4a9a372ebbbf473b006a36d5518c53c306442"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_D100R4_2023-06_150.log",
+          "sha256": "1bc8559c6dd83cda76413a403c78d54b0a5a9fea03bd5618af2bc51172c4bad3"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_D100R4_2023-06_150.log",
+          "sha256": "1bc8559c6dd83cda76413a403c78d54b0a5a9fea03bd5618af2bc51172c4bad3"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT03Lot5_R4.log",
+          "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT03Lot5_R4.log",
+          "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T176.01-R3-002",
+      "task": "T176.01",
+      "canonical_task": "P01.C06.T0001.01",
+      "R6_case": "R6\\taskuri\\Fisa_T176.01.json",
+      "R6_case_sha256": "246247003a677d8ac6279a7d667de9a9467072a48dac8ee6afdfda50f806b620",
+      "R6_requirement_verbatim": "Progresul jobului reflectă execuția reală.",
+      "R6_oracle": "Progresul jobului reflectă execuția reală.",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "NEEXECUTAT",
+      "observed_and_expected": "XML-ul sintetic nu măsoară progresul afișat de job.",
+      "method_and_actor": "Diferență între generator și UI.",
+      "remaining": "Este necesar jobul real, cu progres și observații în sesiunea operatorului.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/D100_officiel_R4.json",
+          "sha256": "3053ad1fad5cf03a38d902a6b8f4a9a372ebbbf473b006a36d5518c53c306442"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T58-R2-009",
+      "task": "T58",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T58.json",
+      "R6_case_sha256": "3b8395596c6a3569b2ee4be36edaf99d18d317fa6ad7cc4dd117c627d366756f",
+      "R6_requirement_verbatim": "C-07 — A-1 | ordinea respectată ⇒ VC se validează | 12_ §5.2 R-POZ: AMORT apoi VC | 1 notă VC nouă | clonă",
+      "R6_oracle": "ordinea respectată ⇒ VC se validează | 1 notă VC nouă",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "În august, după AMORT CO/Y 100 EUR, SAL și IMP sunt neaplicabile, CURS nu are diferențe. Procesul VC cu EvaVerificOrdinea=true a produs exact încă un jurnal CO/Y (1000003, INCH-2). Faptul că valorile sunt afectate de F02 este separat de condiția critică „1 notă VC după AMORT”.",
+      "method_and_actor": "GardenAdmin în laborator sintetic exclusiv, org11, REST nativ și DB după commit.",
+      "remaining": "Nu dovedește independența sumelor între scheme. VC220 EUR include eroarea demonstrată separat în F02.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_first_controlled_account.json",
+          "sha256": "9035de3f0bb60f305ee2ef525c3885696ccf0d2aeaf2421832387f606d8d68cd"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_asset_account_fix.json",
+          "sha256": "f6b437d1278378588cebeb23bef2e9635113626987ff1e4d151a9a273691adec"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_2schema_setup.json",
+          "sha256": "6260ef76814c4f55b611ee938d40598948e3b0a1bdfa48869ba256f4ffc7385a"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T03.05-R3-001",
+      "task": "T03.05",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T03.05.json",
+      "R6_case_sha256": "0d67d0325525341f737e1f1f465c319fa64e2c8d948a0916df0a918c8712209a",
+      "R6_requirement_verbatim": "Fiecare rând L5 are clasă/metodă/cheie/test asociate.",
+      "R6_oracle": "Fiecare rând L5 are clasă/metodă/cheie/test asociate.",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "observed_and_expected": "TestT03Front și martorii L5 din TestT03Lot5 parcurg componente ZK și calcule simulate. TestT03Lot5 a ajuns la etapa DUK și a primit AccessControlException pentru calea contractuală /duk din harness Windows; componentele anterioare au rezultate măsurate.",
+      "method_and_actor": "Probă de componentă; artefactele R5 sunt păstrate separat.",
+      "remaining": "Nu demonstrează că fiecare rând L5 are corespondență completă din actor/meniu până la document/Fact_Acct.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT03Front_R4.log",
+          "sha256": "6b9acefcec3e3178f413e9f4a891dedfc99fcee0ff4251f395b9b6300b2733f6"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT03Front_R4.log",
+          "sha256": "6b9acefcec3e3178f413e9f4a891dedfc99fcee0ff4251f395b9b6300b2733f6"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT03Lot5_R4.log",
+          "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT03Lot5_R4.log",
+          "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T58-R2-005",
+      "task": "T58",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T58.json",
+      "R6_case_sha256": "3b8395596c6a3569b2ee4be36edaf99d18d317fa6ad7cc4dd117c627d366756f",
+      "R6_requirement_verbatim": "C-04 — A-1 | **REST: VC înaintea AMORT ⇒ refuz, 0 note** | 12_ §5.2 R-NEG (POST `/api/v1/processes/eva_inchiderevenituri`, `Operatie=VC`) + `SELECT count(*) FROM gl_journal WHERE ad_client_id=:CA AND description LIKE concat('INCHIDERE-VC ', :M, '%') AND created>:t0` | răspuns de eroare cu textul cheii `t58.ord.refuz` care numește «5.» ; 0 | eva-test-t58",
+      "R6_oracle": "**REST: VC înaintea AMORT ⇒ refuz, 0 note** | răspuns de eroare cu textul cheii `t58.ord.refuz` care numește «5.» ; 0",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "[{'month': '2026-08', 'http': 200, 'isError': True, 'summary': '«Închidere conturi de venituri și cheltuieli» nu se validează încă: pasul 5 «Înregistrare amortizare imobilizări» stă înaintea lui în lanțul închiderii și e «nefăcută». Validează întâi pasul acela — ordinea închiderii lunii se respectă pe toate căile (ecran, procese, REST).', 'new_journals': [['0']]}]",
+      "method_and_actor": "REST real în cabinet exclusiv §61, GardenAdmin client11/rol102/org11, activ sintetic înainte de cerere, gardă de ordine activată.",
+      "remaining": "Concluzia este limitată la pasul/mesajul și numitorul dovedite.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_native_gate.json",
+          "sha256": "eacd475b6c161289a40af690fa061f5dcdaa77a58971b0a2f2b96a83c5a8a7b1"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/istoria_T58.json",
+          "sha256": "4f48e50c527ba1b78f12e4ebee47d3cdc75129e0c5666ce9bb7d679d7740b8f4"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T58-R2-006",
+      "task": "T58",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T58.json",
+      "R6_case_sha256": "3b8395596c6a3569b2ee4be36edaf99d18d317fa6ad7cc4dd117c627d366756f",
+      "R6_requirement_verbatim": "C-05 — A-1 | ecran: aceeași încercare din «Închidere lună» | 12_ §5.3 pașii U-1…U-4, captură / pas | refuz în fereastră; 0 note (același SELECT) | eva-test-t58",
+      "R6_oracle": "ecran: aceeași încercare din «Închidere lună» | refuz în fereastră; 0 note (același SELECT)",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "Validarea VC este dezactivată înainte de scriere. Se reține motivul afișat. Nu se forțează click-ul prin script.",
+      "method_and_actor": "Sesiunea nativă ZK proprie, click și readback documentate.",
+      "remaining": "Evaluarea depinde de dovada refuzului exact, nu doar de deschiderea meniului.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_ZK.json",
+          "sha256": "d9eeb704ec6e67ddb1aa17057891dc3952f701ff5d5df5464e967dfebd10cfe7"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/istoria_T58.json",
+          "sha256": "4f48e50c527ba1b78f12e4ebee47d3cdc75129e0c5666ce9bb7d679d7740b8f4"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T58-R2-010",
+      "task": "T58",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T58.json",
+      "R6_case_sha256": "3b8395596c6a3569b2ee4be36edaf99d18d317fa6ad7cc4dd117c627d366756f",
+      "R6_requirement_verbatim": "C-08 — A-1 | devalidarea inversă neschimbată | `git diff 6313291eb7 HEAD -- fiscal/InchidereLuna.java | grep -c \"^[-+].*potDevalida|^[-+].*deSubEa\"` ; R-DEV pe clonă | 0 ; refuz `t03.ist.devalid_ordine` | export + clonă",
+      "R6_oracle": "devalidarea inversă neschimbată | 0 ; refuz `t03.ist.devalid_ordine`",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "observed_and_expected": "Cu VC activă, devalidarea AMORT a fost refuzată indicând VC/pas8; nu a modificat jurnalul. Diff semantic față de 6313291eb7 la cutoff actual are 2 linii modificate care conțin simbolurile vizate; grep-ul BRE literal cu | nu este o probă de neschimbare semantică.",
+      "method_and_actor": "Traseu nativ operațional plus comparație între două revizii Git.",
+      "remaining": "Condiția istorică a diff-ului la momentul predării nu se extinde la master actual.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_contracts_and_S3.json",
+          "sha256": "4bf7985cba96f2311e39494626decf6d58456d9f970032e21ff7cf26e563acb9"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T58-R2-013",
+      "task": "T58",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T58.json",
+      "R6_case_sha256": "3b8395596c6a3569b2ee4be36edaf99d18d317fa6ad7cc4dd117c627d366756f",
+      "R6_requirement_verbatim": "C-11 — A-1 | concurența: devalidare AMORT ∥ validare VC pe aceeași lună | 12_ §5.2 R-CONC (2 cereri simultane) + invariantul SQL | niciodată VC făcut cu AMORT nefăcut (0 rânduri) | clonă",
+      "R6_oracle": "concurența: devalidare AMORT ∥ validare VC pe aceeași lună | niciodată VC făcut cu AMORT nefăcut (0 rânduri)",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "10 perechi concurente, două sesiuni GardenAdmin și câte 5 porniri preferențiale în fiecare sens. 0 fotografii după pereche cu VC activă și AMORT inactivă. Fiecare apel păstrează timpul UTC, starea și documentele înainte/după.",
+      "method_and_actor": "Procese native, stare persistentă după concurență; GLJ deschis prin procesul nativ C_PeriodControl.",
+      "remaining": "Nu se afirmă că nu există alte intercalări posibile.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_race_native.json",
+          "sha256": "35667b62271a2b1246a9a7a675eafe0cc77287ce91bfa7b6400103593d52787f"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        }
+      ]
+    },
+    {
+      "criterion_id": "T58-R2-014",
+      "task": "T58",
+      "canonical_task": null,
+      "R6_case": "R6\\taskuri\\Fisa_T58.json",
+      "R6_case_sha256": "3b8395596c6a3569b2ee4be36edaf99d18d317fa6ad7cc4dd117c627d366756f",
+      "R6_requirement_verbatim": "C-11b — A-1 | concurența în sens invers (devalidare AMORT pornită prima ∥ validare VC) + verificarea de ordine SUB lacăt în `devalideaza` | 12_ §5.2 R-CONC (10 perechi, ambele ordini) + `bash Documentatie/echipa-2026-10-09/T58-ghid-inchidere-pas-cu-pas/dovezi-51-auditor/test_clasa_LR-2.sh cod <vârf>` | 0 rânduri «VC activă ∧ AMORT inactivă»; rc 0 (T0: rc 1) | container + export",
+      "R6_oracle": "concurența în sens invers (devalidare AMORT pornită prima ∥ validare VC) + verificarea de ordine SUB lacăt în `devalideaza` | 0 rânduri «VC activă ∧ AMORT inactivă»; rc 0 (T0: rc 1)",
+      "R6_before": "NEEXECUTAT",
+      "R4_classification": "PASS_ORACOL_CURENT",
+      "observed_and_expected": "10 perechi în ambele ordini de pornire, 0/10 încălcări la citirea după commit. Scriptul exact de clasă LR-2 din SHA înghețat, mod cod: rc0, valideaza lacat@19 înainte de potValida@20; devalideaza lacat@9 înainte de potDevalida@10.",
+      "method_and_actor": "Ordinea de pornire este cea a cererilor; nu se pretinde ordinea efectivă internă de commit a celor două tranzacții.",
+      "remaining": "Observație controlată pe clone + dovada de cod.",
+      "claim_period": "actual cutoff; no inference about completion date",
+      "evidence_refs": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_race_native.json",
+          "sha256": "35667b62271a2b1246a9a7a675eafe0cc77287ce91bfa7b6400103593d52787f"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_contracts_and_S3.json",
+          "sha256": "4bf7985cba96f2311e39494626decf6d58456d9f970032e21ff7cf26e563acb9"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_static_historic_delta.json",
+          "sha256": "e813663fc5495b5afdddc35f7019b23fb6de3040e28c7439ab473eac964828dc"
+        }
+      ]
+    }
+  ],
+  "prior_findings": [
+    {
+      "finding_id": "A03-F01",
+      "title": "Balanța cumulează valori din scheme contabile și monede distincte",
+      "severity": "P1",
+      "classification": "DEFECT_REPRODUS_LA_NIVELUL_INDICAT",
+      "confidence": "RIDICATĂ pentru fixture/cod; efect real în firmă neverificat",
+      "status": "CONFIRMAT_DE_EXECUTOR_PENTRU_A11",
+      "control_ids": [
+        "A03.CK02",
+        "A03.CK05",
+        "A03.CK06",
+        "A03.CK18",
+        "A03.CK33"
+      ],
+      "task_candidates": [
+        "P01.C01.T0001",
+        "P01.C01.T0002",
+        "P01.C01.T0002.02",
+        "P01.C01.T0002.04",
+        "P01.C01.T0002.05",
+        "P01.C01.T0003",
+        "P01.C04.T0006",
+        "P01.C09.T0001.01",
+        "P01.C09.T0001.03",
+        "P01.C09.T0005",
+        "P01.C09.T0006",
+        "P01.C09.T0007",
+        "P01.C09.T0008",
+        "P01.C09.T0009"
+      ],
+      "preconditions": "Același cont, același client/org, două scheme: 100 și 20, de exemplu RON și EUR. Tipurile actual și buget sunt separate.",
+      "expected_requirement": "Balanță pentru schema aleasă:100 sau20 separat.",
+      "observed_fact": "Am repetat SQL-ul efectiv al procesului de balanță pe datele native GardenWorld și oracolul per schemă: 7.802,38 la credit în raport, față de 4.217,50 USD și 3.584,88 EUR. Cele două sume nu au o unitate comună. Am repetat pragurile monetare pe ambele JAR-uri.",
+      "impact": "Unicul total de credit7.802,38 nu poate fi interpretat în USD sau EUR. Captura de la GardenWorld + replay independent.",
+      "file_symbol_lines_sha": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/date/BalantaService.java",
+          "line": 82,
+          "line_text": "+ \"  SUM(CASE WHEN f.dateacct >= ? AND f.dateacct <= ? THEN f.amtacctcr ELSE 0 END) AS ru_c \"",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "d6779264e0eb64cac846f47c2b9eae35c5ffee155e43aee1b6b45194cc91bfd9"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/date/BalantaService.java",
+          "line": 94,
+          "line_text": "int k = 1;",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "d6779264e0eb64cac846f47c2b9eae35c5ffee155e43aee1b6b45194cc91bfd9"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WBalantaForm.java",
+          "line": 193,
+          "line_text": "List<BalantaService.Rand> perioada = BalantaService.incarca(",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "d243061b16c7180e2282d2b6db6cfe9e21f5080013917748750661b179d42ded"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/process/BalantaVerificare.java",
+          "line": 94,
+          "line_text": "\"SELECT ev.value, ev.name, \"",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "96a5f63321582c261f69b47913e2260ba3363f00c2e0774ea8187d8a34d0fa71"
+        }
+      ],
+      "evidence_ids": [
+        "A03/readonly_database.json",
+        "A03/metadata_and_fixture.sql",
+        "Reverificare_balanta_si_receptie_nativa.json",
+        "R2_zone/A03/dovezi/pg_replay.json"
+      ],
+      "remediation_native_first": "Solicită C_AcctSchema_ID în UI/proces/export, filtrează Fact_Acct după schemă, utilizează moneda din MAcctSchema și verifică MRole pentru org. Menține o sursă comună de agregare pentru forme și raport.",
+      "regression_test": "SQL sintetic cu două scheme, două firme, buget și două organizații. Drill-down UI + export pe schema selectată.",
+      "independent_review": {
+        "reviewer": "A11",
+        "status": "DE_REPRODUS",
+        "score": null
+      },
+      "counterproofs_and_scope": "Semnificația este limitată la condiția și nivelul probat. Alternativele cu o singură schemă sau cu alt regim fiscal se tratează separat.",
+      "R1_observed": "SQL-ul extras textual din BalantaService a produs120. Aceeași interogare exclude rândul de buget1000 și clientul distinct de700.",
+      "R1_limits": "O sumă de tip 120 poate amesteca monede ori dubla aceeași operație în două scheme. Metadatele agregate arată că o configurație dintre șase are mai multe scheme active. Nu identifică firma și nu arată că aceasta are documente efectiv afectate.",
+      "quality_grade": null,
+      "reviewer": "A11",
+      "R2_evidence": [
+        "Reverificare_balanta_si_receptie_nativa.json",
+        "R2_zone/A03/dovezi/pg_replay.json"
+      ],
+      "reproduction": "Reexecută/inspectează pașii și ID-urile din R2_evidence. Pentru F03 rulează PrecisionR2.java în cele două JAR-uri. Pentru F04 folosește replay-ul Flask și oracolul datat din tva_oracol.json."
+    },
+    {
+      "finding_id": "A03-F02",
+      "title": "Închiderea calculează din toate schemele și selectează un singur jurnal fără o alegere deterministă a schemei",
+      "severity": "P1",
+      "classification": "DEFECT_REPRODUS_LA_NIVELUL_INDICAT",
+      "confidence": "RIDICATĂ pentru fixture/cod; efect real în firmă neverificat",
+      "status": "CONFIRMAT_DE_EXECUTOR_PENTRU_A11",
+      "control_ids": [
+        "A03.CK03",
+        "A03.CK15",
+        "A03.CK17"
+      ],
+      "task_candidates": [
+        "P01.C01.T0002.03",
+        "P01.C01.T0004",
+        "P01.C02.T0001",
+        "P01.C02.T0001.01",
+        "P01.C02.T0002",
+        "P01.C02.T0003",
+        "P01.C02.T0004",
+        "P01.C06.T0001",
+        "P01.C06.T0003.08",
+        "P01.C12.T0001",
+        "P01.C12.T0001.01",
+        "P01.C12.T0001.03"
+      ],
+      "preconditions": "Două scheme în același client cu rulaje/monede diferite.",
+      "expected_requirement": "Rulajele/soldurile perioadei și nota care le închide au aceeași schemă, org și monedă.",
+      "observed_fact": "Dovadă nouă la nivel scriere: INCH-1 real 1000000 CO/Y în schema200000/EUR, suma120 derivată din100USD+20EUR, două linii GL și două rânduri Fact_Acct. Duplicatul refuzat de două ori. INCH-2 1000001 a stornat jurnalul. Mesajul procesului afirmă 120,00 lei, deși headerul este EUR.",
+      "impact": "Efect contabil demonstrat în GardenWorld: Jurnal CO/Y efectiv în EUR cu120 EUR din două monede. Retry fără duplicare și reversare RE/Y au funcționat. Nu este o observație asupra contabilității unei firme reale.",
+      "file_symbol_lines_sha": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/fiscal/NotaInchidere.java",
+          "line": 221,
+          "line_text": "private static Map<String, BigDecimal> net(int client, String[] tipare,",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "e8e41646143fc18b11c12d50899381c081251c0ed0f1fadae74f9c1ff7445d83"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/fiscal/NotaInchidere.java",
+          "line": 231,
+          "line_text": "+ \" GROUP BY ev.value HAVING ABS(SUM(f.amtacctdr - f.amtacctcr)) >= 0.005\"",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "e8e41646143fc18b11c12d50899381c081251c0ed0f1fadae74f9c1ff7445d83"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/fiscal/NotaInchidere.java",
+          "line": 362,
+          "line_text": "int acs = DB.getSQLValue(trxName,",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "e8e41646143fc18b11c12d50899381c081251c0ed0f1fadae74f9c1ff7445d83"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/fiscal/NotaInchidere.java",
+          "line": 387,
+          "line_text": "j.setC_DocType_ID(doctype);",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "e8e41646143fc18b11c12d50899381c081251c0ed0f1fadae74f9c1ff7445d83"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/process/InchidereTVA.java",
+          "line": 152,
+          "line_text": "Map<String, BigDecimal> net = NotaInchidere.solduri(client,",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "953f52bfc806c316d81c812c7c8acba35d1716630308bc1247d511cbf4931198"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/process/InchidereVenituri.java",
+          "line": 174,
+          "line_text": "Map<String, BigDecimal> net = NotaInchidere.rulaje(client,",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "6446008b708ed492e784740c1924a04419542c9c28de64266ff68f04a5ca9d77"
+        }
+      ],
+      "evidence_ids": [
+        "A03/closing_synthetic.json",
+        "A03/closing_synthetic.sql",
+        "Reverificare_inchidere_GL_doua_scheme.json",
+        "Reverificare_devalidare_GL.json",
+        "Reverificare_T257_repostare_si_storno.json"
+      ],
+      "remediation_native_first": "Propagă schema și organizația pe precheck, calcul și scriere. Rezolvă explicit MAcctSchema/currency și C_PeriodControl. Include schema în identificatorul de închidere; păstrează documentele native GL_Journal.",
+      "regression_test": "Două scheme în valute diferite și două sesiuni. Rezultate separate înainte/după reluare, storno și reînchidere.",
+      "independent_review": {
+        "reviewer": "A11",
+        "status": "DE_REPRODUS",
+        "score": null
+      },
+      "counterproofs_and_scope": "Semnificația este limitată la condiția și nivelul probat. Alternativele cu o singură schemă sau cu alt regim fiscal se tratează separat.",
+      "R1_observed": "Interogarea aferentă helperului net cu 707.SYN obține−120 față de−100 și−20 separat. Selectarea C_AcctSchema_ID a jurnalului folosește numai AD_Client_ID, fără selecție de schemă/primară sau ORDER BY.",
+      "R1_limits": "O configurație multischema poate genera o propunere fiscală/contabilă distribuită greșit. Nu a fost emis un jurnal real și nu a fost observată o pierdere financiară reală.",
+      "quality_grade": null,
+      "reviewer": "A11",
+      "R2_evidence": [
+        "Reverificare_inchidere_GL_doua_scheme.json",
+        "Reverificare_devalidare_GL.json",
+        "Reverificare_T257_repostare_si_storno.json"
+      ],
+      "reproduction": "Reexecută/inspectează pașii și ID-urile din R2_evidence. Pentru F03 rulează PrecisionR2.java în cele două JAR-uri. Pentru F04 folosește replay-ul Flask și oracolul datat din tva_oracol.json."
+    },
+    {
+      "finding_id": "A03-F03",
+      "title": "Verdictul de echilibru ascunde diferențe valide la precizia monetară de trei zecimale",
+      "severity": "P2",
+      "classification": "DEFECT_REPRODUS_LA_NIVELUL_INDICAT",
+      "confidence": "RIDICATĂ pentru fixture/cod; efect real în firmă neverificat",
+      "status": "CONFIRMAT_DE_EXECUTOR_PENTRU_A11",
+      "control_ids": [
+        "A03.CK06",
+        "A03.CK18"
+      ],
+      "task_candidates": [
+        "P01.C01.T0001",
+        "P01.C01.T0002",
+        "P01.C01.T0002.02",
+        "P01.C01.T0002.04",
+        "P01.C01.T0002.05",
+        "P01.C04.T0006"
+      ],
+      "preconditions": "C_AcctSchema folosește o monedă cu Standard Precision=3.",
+      "expected_requirement": "În fixture, debit10,004 și credit10,000 au diferența0,004, deci rulajele nu sunt egale.",
+      "observed_fact": "JAR Git și instalat consideră egale diferențele ±0,004 și +0,001, dar disting +0,005. O monedă contabilă cu 3 zecimale trebuie să distingă toate aceste diferențe nenule. Schema GardenWorld activă are moneda USD/EUR, ambele cu precizie2. Controlul de volum a rămas pe date sintetice.",
+      "impact": "Diferența monetară există la 3 zecimale. Rămâne aplicabilă numai schemelor cu acest nivel de precizie, nu celor două scheme ale GardenWorld în USD/EUR cu2 zecimale.",
+      "file_symbol_lines_sha": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/date/BalantaService.java",
+          "line": 57,
+          "line_text": "return a.subtract(b).abs().compareTo(new BigDecimal(\"0.005\")) < 0;",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "d6779264e0eb64cac846f47c2b9eae35c5ffee155e43aee1b6b45194cc91bfd9"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/date/BalantaService.java",
+          "line": 64,
+          "line_text": "public boolean echilibrata() {",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "d6779264e0eb64cac846f47c2b9eae35c5ffee155e43aee1b6b45194cc91bfd9"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WBalantaForm.java",
+          "line": 197,
+          "line_text": "BalantaService.Total tGlobal = BalantaService.totalizeaza(perioada);",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "d243061b16c7180e2282d2b6db6cfe9e21f5080013917748750661b179d42ded"
+        }
+      ],
+      "evidence_ids": [
+        "A03/git_retry2_A03Fixture.txt",
+        "A03/installed_retry2_A03Fixture.txt",
+        "R2_zone/A03/dovezi/precision3.json",
+        "R2_zone/A03/dovezi/pg_replay.json"
+      ],
+      "remediation_native_first": "Folosește precizia monedei din schema selectată și compară la scara contabilă convenită; evită toleranța globală.",
+      "regression_test": "Probe exacte pentru precizie0,2,3, diferențe sub/la/peste unitatea minimă.",
+      "independent_review": {
+        "reviewer": "A11",
+        "status": "DE_REPRODUS",
+        "score": null
+      },
+      "counterproofs_and_scope": "Semnificația este limitată la condiția și nivelul probat. Alternativele cu o singură schemă sau cu alt regim fiscal se tratează separat.",
+      "R1_observed": "BalantaService.Total.egalitateRulaje întoarce true pentru diferența0,004 atât cu JAR Git cât și cu JAR-ul CESIRO. Pragul este fix0,005.",
+      "R1_limits": "Verdict de echilibru eronat la rezoluție de trei zecimale. Catalogul are 7 monede active cu această precizie. Un document CESIRO în acea valută nu a fost inspectat.",
+      "quality_grade": null,
+      "reviewer": "A11",
+      "R2_evidence": [
+        "R2_zone/A03/dovezi/precision3.json",
+        "R2_zone/A03/dovezi/pg_replay.json"
+      ],
+      "reproduction": "Reexecută/inspectează pașii și ID-urile din R2_evidence. Pentru F03 rulează PrecisionR2.java în cele două JAR-uri. Pentru F04 folosește replay-ul Flask și oracolul datat din tva_oracol.json."
+    },
+    {
+      "finding_id": "A03-F04",
+      "title": "Checkout impune 19% la toate liniile și calculează netul prin aceeași cotă",
+      "severity": "P1",
+      "classification": "DEFECT_REPRODUS_LA_NIVELUL_INDICAT",
+      "confidence": "RIDICATĂ pentru fixture/cod; efect real în firmă neverificat",
+      "status": "CONFIRMAT_DE_EXECUTOR_PENTRU_A11",
+      "control_ids": [
+        "A03.CK07",
+        "A03.CK08"
+      ],
+      "task_candidates": [
+        "P01.C05.T0001",
+        "P01.C05.T0001.01",
+        "P01.C05.T0001.02",
+        "P01.C05.T0002",
+        "P01.C05.T0003",
+        "P01.C06.T0003",
+        "P01.C06.T0003.07",
+        "P01.C08.T0003"
+      ],
+      "preconditions": "Comandă de bun intern românesc cu prețuri brute, pentru care se aplică cota standard într-o perioadă în care este21%. Nu se aplică tuturor categoriilor și perioadelor; operațiunea este ipotetică, comenzile sunt sintetice.",
+      "expected_requirement": "Pentru reperul fiscal datat după1august2025, 12,50 RON brut la21% înseamnă net10,33 și taxă2,17, rotunjite la2zecimale. Categoria sau regimul derogatoriu se rezolvă separat pe fiecare linie.",
+      "observed_fact": "Patru checkout-uri sintetice și replay-ul independent persistă 19% cu preț inclus. La 12,50 brut, caz intern românesc standard din 15.09.2025, oracolul dă net10,33/taxă2,17, versus10,50/2,00 la19%. La87,50 brut:72,31/15,19 versus73,53/13,97. Legea nr.141/2025 și materialul ANAF fixează data și categoria.",
+      "impact": "Cota configurată per bun/perioadă și factura reală nu se deduc din checkout. Riscul de transmitere a netului/taxei este demonstrat la limita storefront.",
+      "file_symbol_lines_sha": [
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 935,
+          "line_text": "",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf"
+        },
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 1014,
+          "line_text": "products_total_net_ron = round(products_total_gross_ron / (1 + vat_rate), 2)",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf"
+        },
+        {
+          "path": "frontend/storefront/app/cms.py",
+          "line": 1071,
+          "line_text": "\"prices_include_vat\": True,",
+          "source_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+          "file_sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf"
+        }
+      ],
+      "evidence_ids": [
+        "Checkout_probe.json",
+        "A03/ANAF_cote_TVA_2025_09.pdf",
+        "R2_zone/A03/dovezi/tva_oracol.json",
+        "A11_reproduceri_lot1/A03_checkout_replay.json"
+      ],
+      "remediation_native_first": "Rezolvă taxa pe produs/canal/jurisdicție/data operației și tip preț din configurația iDempiere C_Tax/C_TaxCategory/M_PriceList sau serviciul EVA deja configurat. Validează pe server suma primită. Stochează cota/regimul și decizia per linie.",
+      "regression_test": "Comandă cu rate standard/reduse/scutirile aplicabile, regiuni distincte, discount și transport separat, preț inclus/exclus și rectificare.",
+      "independent_review": {
+        "reviewer": "A11",
+        "status": "DE_REPRODUS",
+        "score": null
+      },
+      "counterproofs_and_scope": "Semnificația este limitată la condiția și nivelul probat. Alternativele cu o singură schemă sau cu alt regim fiscal se tratează separat.",
+      "R1_observed": "Patru comenzi Flask de probă au persistat vat_rate=0.19, prices_include_vat=true. Pentru12,50 brut, calculul codului produce net10,50 și TVA2,00.",
+      "R1_limits": "Contractul canalului poate transmite către ERP net și TVA incompatibile cu politica fiscală. Dovada privește comenzile de test și codul instalat al site-ului, nu facturi emise efectiv.",
+      "quality_grade": null,
+      "reviewer": "A11",
+      "R2_evidence": [
+        "R2_zone/A03/dovezi/tva_oracol.json",
+        "Checkout_probe.json",
+        "A11_reproduceri_lot1/A03_checkout_replay.json"
+      ],
+      "reproduction": "Reexecută/inspectează pașii și ID-urile din R2_evidence. Pentru F03 rulează PrecisionR2.java în cele două JAR-uri. Pentru F04 folosește replay-ul Flask și oracolul datat din tva_oracol.json."
+    },
+    {
+      "finding_id": "A03-F05",
+      "title": "Importul fidel înlocuiește și contabilitatea schemei secundare",
+      "severity": "P1",
+      "classification": "CONFIRMAT_ÎN_MEDIUL_SINTETIC",
+      "confidence": "RIDICATĂ pentru cazul și unitatea indicată",
+      "control_ids": [
+        "A03.CK05",
+        "A03.CK06",
+        "A03.CK30"
+      ],
+      "observed_fact": "Factura importată INTRARI-98401 a avut 4 linii, două linii în fiecare schemă, 23,75 USD și20,19 EUR. FidelPosting a lăsat doar2 în prima schemă. Repetarea nu a restaurat EUR. Pe aceeași factură fidelă, devalidarea și Reset au fost refuzate, iar IDurile și soldurile au rămas identice.",
+      "impact": "Arhiva este sintetică și factura are o singură linie. Conservarea schemei secundare ori refuzul explicit trebuie stabilite la configurare; incident real în producție nedemonstrat.",
+      "file_symbol_lines_sha": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/ImportCtx.java",
+          "range": [
+            134,
+            138
+          ],
+          "excerpt": [
+            "        this.acctSchemaId = DB.getSQLValue(null,",
+            "            \"SELECT C_AcctSchema1_ID FROM AD_ClientInfo WHERE AD_Client_ID=?\", adClientId);",
+            "        this.currencyId = DB.getSQLValue(null,",
+            "            \"SELECT c.C_Currency_ID FROM C_AcctSchema a JOIN C_Currency c\"",
+            "            + \" ON c.C_Currency_ID=a.C_Currency_ID WHERE a.C_AcctSchema_ID=?\", acctSchemaId);"
+          ],
+          "sha256": "6abf3354b4e784cf2e67d3c6d6058ba1351370b3e4803de9d8109335ff602b04"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/FidelPosting.java",
+          "range": [
+            1154,
+            1161
+          ],
+          "excerpt": [
+            "            // depostarea, pe cale nativă: deleteEx mută rândurile în T_Fact_Acct_History",
+            "            MFactAcct.deleteEx(tabela, d.id(), t.getTrxName());",
+            "            int glCategory = DB.getSQLValue(t.getTrxName(),",
+            "                \"SELECT GL_Category_ID FROM GL_Category WHERE AD_Client_ID=?\"",
+            "                + \" ORDER BY IsDefault DESC, GL_Category_ID LIMIT 1\", ctx.clientId());",
+            "            for (RandNota r : randuri) {",
+            "                java.sql.Timestamp data = r.data();",
+            "                int perioada = MPeriod.getC_Period_ID(ctx.ctx(), data, ctx.orgId());"
+          ],
+          "sha256": "1e6ab6aa8bd30a985f73f3d4f99007c88eba52246a8374aa1b59ccd7b31846e3"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.saga.native/src/com/eva/ro/saga/core/FidelPosting.java",
+          "range": [
+            1213,
+            1218
+          ],
+          "excerpt": [
+            "        fa.set_ValueNoCheck(\"AD_Client_ID\", Integer.valueOf(ctx.clientId()));",
+            "        fa.setAD_Org_ID(ctx.orgId());",
+            "        fa.setC_AcctSchema_ID(ctx.acctSchemaId());",
+            "        fa.setAccount_ID(contId.intValue());",
+            "        fa.setDateTrx(r.data());",
+            "        fa.setDateAcct(r.data());"
+          ],
+          "sha256": "1e6ab6aa8bd30a985f73f3d4f99007c88eba52246a8374aa1b59ccd7b31846e3"
+        }
+      ],
+      "remediation_native_first": "Păstrează rândurile native secundare ori refuză explicit înainte de orice depostare dacă importul nu definește o politică pentru toate schemele. Reutilizează MAcctSchema, MFactAcct și istoricul nativ. Evită reconstruirea unei cărți mari paralele.",
+      "regression_test": "O factură cu4 linii pe2scheme și două monede. Import fidel cu/ fără policy, rollback la o mapare invalidă, retry și reconcilierea ambelor scheme și a istoricului.",
+      "evidence_ids": [
+        "Reverificare_SAGA_schema_secundara.json",
+        "Reverificare_T257_import_fidel_si_protectie.json",
+        "Reverificare_import_factura_SAGA.json"
+      ],
+      "R2_evidence": [
+        "Reverificare_SAGA_schema_secundara.json",
+        "Reverificare_T257_import_fidel_si_protectie.json",
+        "Reverificare_import_factura_SAGA.json"
+      ],
+      "related_owner": "A04 import / A02 DB; observația multischema se urmărește o singură dată.",
+      "independent_review": {
+        "reviewer": "A11",
+        "decision": null
+      },
+      "status": "PROPUS_PENTRU_A11"
+    },
+    {
+      "finding_id": "A03-F06",
+      "title": "Rezumatul procesului afișează lei pentru un jurnal contabilizat în EUR",
+      "severity": "P2",
+      "classification": "CONFIRMAT_ÎN_MEDIUL_SINTETIC",
+      "confidence": "RIDICATĂ pentru cazul și unitatea indicată",
+      "control_ids": [
+        "A03.CK06",
+        "A03.CK17",
+        "A03.CK32"
+      ],
+      "observed_fact": "Procesul VC raportează total 120.00 lei. GL_Journal.C_Currency_ID=102 este EUR în GardenWorld. Mesajul de validare folosește eticheta t21.inch.val.nota, cu unitatea lei literală în ro/en.",
+      "impact": "Afectează explicația rezultatului pentru utilizator. Poate exista independent de eroarea de agregare F02. Nu este dovada schimbării monedei unui document real.",
+      "file_symbol_lines_sha": [
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/fiscal/InchidereLuna.java",
+          "line": 3527,
+          "sha256": "a3ceb9db484b90faf802b78b2bcee68383fceb46c021f3daf078511fd4510cea"
+        },
+        {
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/documente/res/etichete.tsv",
+          "line": 2195,
+          "sha256": "f7273418c203ac0464032d691ad998d76525b414d6f9a2c8c68923e46e43c03e"
+        }
+      ],
+      "remediation_native_first": "Formatează totalul prin moneda jurnalului și precizia C_Currency/M* folosite în postare; transmite codul ISO la traducere și la dialogul de confirmare.",
+      "regression_test": "Același jurnal în RON și EUR, verificări RO/EN ale confirmării și rezultatului, egalitate între headerul postat și unitatea din mesaj.",
+      "evidence_ids": [
+        "Reverificare_inchidere_GL_doua_scheme.json",
+        "Reverificare_balanta_si_receptie_nativa.json"
+      ],
+      "R2_evidence": [
+        "Reverificare_inchidere_GL_doua_scheme.json",
+        "Reverificare_balanta_si_receptie_nativa.json"
+      ],
+      "related_owner": "A09 UX/limbă; legat de A03-F02, impact distinct.",
+      "independent_review": {
+        "reviewer": "A11",
+        "decision": null
+      },
+      "status": "PROPUS_PENTRU_A11"
+    }
+  ],
+  "test_environment": {
+    "local_pg": "GardenWorld PostgreSQL16 local, doar citire. A03 a confirmat că nu mai necesită clusterul local.",
+    "native_lab": "Cabinet separat real, sesiunea eva-contab-codex-a03r4. Docker networking intern fără parteneri și schedulere dezactivate. Actor GardenAdmin, client11, rol102, org11; sesiune ZK nouă pe formă.",
+    "actor_limit": "Două sesiuni de același rol pentru concurență. Aceasta nu demonstrează separarea drepturilor contabil/revizor sau izolarea tuturor firmelor.",
+    "resource_identity": {
+      "utc": "2026-11-02T17:42:52.253496+00:00",
+      "legacy_owner_task": "P01.T58",
+      "actual_official_task": "P01.T158",
+      "actual_canonical_task": "P01.C02.T0002",
+      "research_criteria": [
+        "T58-R2-005",
+        "T58-R2-006",
+        "T58-R2-009",
+        "T58-R2-010",
+        "T58-R2-013",
+        "T58-R2-014"
+      ],
+      "registry_sha": "e58366630b040f7037b39e418c084377358847890587c123cf693acb9e9919a9",
+      "relationships": [
+        {
+          "technical": "T58",
+          "code": null,
+          "raw_state": "agregat",
+          "merged_into": "T158",
+          "alias_legacy": [],
+          "registry_json_pointer": "/446"
+        },
+        {
+          "technical": "T158",
+          "code": "P01.C02.T0002",
+          "raw_state": "montat",
+          "merged_into": null,
+          "alias_legacy": [
+            "P01.T58"
+          ],
+          "registry_json_pointer": "/658"
+        }
+      ],
+      "original_refusal": {
+        "utc": "2026-11-02T17:30:48.519033+00:00",
+        "owner": "eva-contab-codex-a03r4",
+        "task": "P01.T58",
+        "status": [
+          "verified A07 seed hash + mode",
+          "slot=suita~eva-contab-codex-a03r4~P01.T58~2710940~1793640648",
+          "REFUZ: P01.T58 e «agregat» (finalizat, mutat în P01.C02.T0002 (P01.T158)) — taskurile vechi nu se mai ocupă (§42 pct. 10 (6) c); ocupă destinația: P01.T158",
+          "remaining_owned_containers=0",
+          "CLEANED",
+          "supervisor finished"
+        ],
+        "pilot_captured": false,
+        "owner_containers": [],
+        "working_dir": "/tmp/eva-contab-codex-a03r4.Umwpwf9l"
+      },
+      "case_limit": "Aliasul istoric este confirmat prin registru. ID-ul criteriului T58-R2-xxx rămâne cel al fișei A12 T58, distinct de ocuparea fizică a destinației P01.T158. Nicio sarcină de implementare nu a fost redeschisă în portal.",
+      "teardown_log": [
+        "schedulers/foreign clients|0|0",
+        "webui=200 clone_ip=10.250.12.3",
+        "remaining_owned_containers=0",
+        "CLEANED"
+      ],
+      "containers_after": [],
+      "released_task": "AVERTISMENT (titlu terminal, rc 3): AVERTISMENT (titlu terminal): niciun proces claude cu tty pentru contul audit; titlul calculat «audit» nu a fost scris\nOK: P01.T158 eliberat de eva-contab-codex-a03r4 la 2026-11-02T19:43:04+02:00\n",
+      "released_slot": "eliberat: suita~eva-contab-codex-a03r4~P01.T158~2719132~1793640664\n",
+      "teardown_checked_utc": "2026-11-02T17:43:04.693861+00:00",
+      "cleanup_complete": true
+    },
+    "read_r1_r2": "Historiile nu au fost rescrise. Addendumurile semnate sunt verificate pe fiecare fișier."
+  },
+  "changes_relative_R3": [
+    {
+      "finding": "A03-F01",
+      "current": "Repetarea balanței: cont21101 raportează credit7802,38, deși schemele separate au4217,50 USD și3584,88 EUR; conversia nativă de test100USD→85EUR este corectă. Problema este agregarea fără schemă, nu funcția nativă de curs.",
+      "evidence": [
+        "pg_native_readback.json",
+        "conversion_native.json"
+      ],
+      "recommendation": "Selectează schema/moneda per raport, agregă apoi Fact_Acct în aceeași unitate."
+    },
+    {
+      "finding": "A03-F02",
+      "current": "Ori de câte ori există două scheme, validarea reală VC citește împreună. În R4, AMORT100EUR + două intrări sintetice de100USD/20EUR au condus la un jurnal VC220EUR. Intrările sintetice sunt delimitate de jurnalul real postat.",
+      "evidence": [
+        "T58_2schema_setup.json",
+        "T58_positive_and_reverse.json"
+      ],
+      "recommendation": "Propagă C_AcctSchema_ID la precheck, citire și scriere GL_Journal, păstrează MAccount/MPeriod/MFactAcct."
+    },
+    {
+      "finding": "A03-F03",
+      "current": "Toleranța0,005 în JAR-urile existente rămâne problema raportată pentru moneda cu3zecimale. Noua probă nativă de curs este în USD/EUR cu2 zecimale.",
+      "evidence": [
+        "conversion_native.json"
+      ],
+      "recommendation": "Menține precizia monedei-schemă; nu scădea numărul constatărilor prin folosirea unei alte monede."
+    },
+    {
+      "finding": "A03-F04",
+      "current": "Cazul 19% versus21%, obligația și limita datei rămân cele verificate în R2. D100 din iunie2023 este o probă distinctă pe impozitul micro și nu dovedește TVA comercial.",
+      "evidence": [
+        "D100_officiel_R4.json"
+      ],
+      "recommendation": "Folosește configurația nativă C_Tax/C_TaxCategory, preț inclus/exclus și data operațiunii."
+    },
+    {
+      "finding": "A03-F05",
+      "current": "Caz păstrat fără dublare: SAGA fidel 4 linii pe 2 scheme→2 numai în principala; politica secundară din firma reală nu este dedusă din laborator.",
+      "evidence": [
+        "Reverificare_SAGA_schema_secundara.json",
+        "Reverificare_T257_import_fidel_si_protectie.json"
+      ],
+      "recommendation": "Politică explicită a firmei: păstrează sau regenerează contabilitatea secundară; în lipsa unei reguli, refuză înainte de depostare."
+    },
+    {
+      "finding": "A03-F06",
+      "current": "În R4 nota AMORT100EUR și VC220EUR au rezumate în „lei”. NIR distinct A04-F01: factura1000002 este USD, 7×10+5×100=570USD; TOTAL și antetele nu indică moneda, iar exact diferența −4×10USD este tipărită −40,00 lei. Nu etichetăm ca RON întregul total și nu afirmăm o notă fiscală eronată.",
+      "evidence": [
+        "T58_positive_and_reverse.json",
+        "R3_zone/A04/Addendum_moneda_NIR.json",
+        "R6_supliment/A12_UX_NIR_provenienta.json"
+      ],
+      "recommendation": "Folosește în șabloane C_Currency din document/poziția contabilă și un singur formatter. A04-F01 rămâne titularul problemei NIR. Niciun criteriu nominal nou T227 din această observație."
+    }
+  ],
+  "cross_observations": [
+    {
+      "name": "Perioada manuală N vs automată",
+      "scope": "În GardenWorld ambele scheme au AutoPeriodControl=Y. Existau 32 controale manuale N în august. AMORT și VC au putut fi contabilizate CO/Y; devalidarea VC a refuzat luna NEÎNCEPUTĂ. GLJ a fost deschis cu procesul nativ C_PeriodControl (N→O), apoi reversările au fost folosite în probele concurente. Aceasta este o asimetrie condițională dovedită în UX/operare, cu posibilă explicație prin cele două politici; nu o declarăm automat eroare legală sau capabilitate generală de postare în perioade închise.",
+      "evidence": [
+        "T58_positive_and_reverse.json",
+        "T58_race_native.json"
+      ],
+      "native_action": "Afișează politica auto/manual înainte de validare și explică operatorului care control trebuie deschis pentru reversare; testează același set în regim auto și manual."
+    },
+    {
+      "name": "Sponsorizare D100 și natura dovezii",
+      "scope": "Obligația sintetică transmisă la GenD100 a produs XML valid DUK. Sursa T03 folosește mockuri și calcule locale; nu s-a generat prin aceasta un venit/cheltuială/GL pentru sponsorizarea unei firme reale. Jurnalele autentice separate sunt AMORT și VC, nu documente T03 de sponsorizare."
+    },
+    {
+      "name": "Sold, valută și curs",
+      "scope": "100USD→85EUR,85EUR→100USD, conversie identitate, caz−100USD și dată fără curs confirmate prin funcțiile native currencyrate/currencyconvert. Nu constituie curs BNR actual. A03-F01 și A03-F02 nu se rezolvă convertind retroactiv suma din două monede.",
+      "evidence": [
+        "conversion_native.json",
+        "pg_native_readback.json"
+      ]
+    }
+  ],
+  "source_official_D100": "https://static.anaf.ro/static/10/Anaf/Declaratii_R/AplicatiiDec/D100_17012024.zip",
+  "resource_cleanup": true,
+  "controls": [
+    {
+      "control_id": "A03.CK01",
+      "title": "Versiuni, acoperire funcțională și oracol fiscal datat",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Hashurile 401 fișe R4 și R6 au fost comparate cu registrele; denominatorul R7 A03=599.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/Legaturi_401_R6_verificate.json",
+          "sha256": "842015ea2e1179f819d4503f33913a17479df74fc0d8aa929c1b387d78808540"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/D100_officiel_R4.json",
+          "sha256": "3053ad1fad5cf03a38d902a6b8f4a9a372ebbbf473b006a36d5518c53c306442"
+        }
+      ],
+      "still_open": "Regulile fiscale din alte perioade și compatibilitatea exactă a buildului nativ nu au fost reevaluate integral.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK02",
+      "title": "Izolare cabinet, firmă, organizație și schemă în contabilitate",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Un singur actor autentic GardenWorld și două sesiuni de același rol. Nu s-a testat traversarea tuturor drepturilor.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_ZK.json",
+          "sha256": "d9eeb704ec6e67ddb1aa17057891dc3952f701ff5d5df5464e967dfebd10cfe7"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/pg_native_readback.json",
+          "sha256": "83ffe006f635071581c6ae72ce447e5ed31d2e6fd4095659b75e0c16dca46f7d"
+        }
+      ],
+      "still_open": "Cele două scheme aparțin aceluiași client. Ele nu demonstrează expunerea între două firme sau drepturi active pe fiecare meniu.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK03",
+      "title": "Plan de conturi, dimensiuni și monografie configurată",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Contul document-controlled 21101 a refuzat jurnalul. După maparea nativă 17500/18250/67250 s-a înregistrat amortizare de100.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_first_controlled_account.json",
+          "sha256": "9035de3f0bb60f305ee2ef525c3885696ccf0d2aeaf2421832387f606d8d68cd"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_asset_account_fix.json",
+          "sha256": "f6b437d1278378588cebeb23bef2e9635113626987ff1e4d151a9a273691adec"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        }
+      ],
+      "still_open": "Alte reguli de cont/dimensiuni și istoric la modificarea monografiei nu sunt închise de acest caz.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK04",
+      "title": "Nota contabilă: DocAction, commit și postare reală",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Jurnalele native AMORT/VC CO/Y, Fact_Acct pe document/linie și reversările sunt vizibile.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_race_native.json",
+          "sha256": "35667b62271a2b1246a9a7a675eafe0cc77287ce91bfa7b6400103593d52787f"
+        }
+      ],
+      "still_open": "Acest martor demonstrează de ce CO și Posted trebuie citite separat. Rămân deschise WP/WC pe GLJ și fluxul ZK.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK05",
+      "title": "Echilibru Fact_Acct, proveniență și semnificația zero net",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "2 scheme; Fail F01/F02. Ambele jurnale noi sunt în EUR; nu se confundă zero net cu zero linii.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/pg_native_readback.json",
+          "sha256": "83ffe006f635071581c6ae72ce447e5ed31d2e6fd4095659b75e0c16dca46f7d"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        }
+      ],
+      "still_open": "Nu se poate concluziona din debit=credit la nivel de client că fiecare schemă și proveniență au rămas corecte.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK06",
+      "title": "Monedă, rotunjiri și date document/contabilizare/curs",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "5 cazuri de conversie nativă trecute; problema F01/F02/F03 rămâne și este distinctă de conversie.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/conversion_native.json",
+          "sha256": "1cdc83fe4d268742983a756301dd2a36179d906e6aa47c7586a6f4e714523f98"
+        },
+        {
+          "file": "Reverificare_balanta_si_receptie_nativa.json",
+          "sha256": "d3c309f15cca2f49ea23310b92534780630fa440fc1347b97687d0f7413dd4ad"
+        },
+        {
+          "file": "R3_zone/A04/Addendum_moneda_NIR.json",
+          "sha256": "39598d287747a4751303653db4b79803888764f070b2900c0c1cc34d1fdde4a8"
+        }
+      ],
+      "still_open": "Nu s-a emis un document într-o schemă GardenWorld de trei zecimale. Există un defect de calcul pentru configurația descrisă, nu dovada unei diferențe reale la un client CESIRO.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK07",
+      "title": "Factura: net/brut, taxe, discount și transport integral",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Criteriul T176 XML D100 este o altă temă decât factura comercială; pilotul ORD101 rămâne fără Fact urmărit end-to-end.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/D100_officiel_R4.json",
+          "sha256": "3053ad1fad5cf03a38d902a6b8f4a9a372ebbbf473b006a36d5518c53c306442"
+        },
+        {
+          "file": "supliment_CESIRO1/probe/EX07_peer_A03.json",
+          "sha256": "52080bf8cefdd2e02ec85463a0fa91d8105669276c68fa2a9819c5321be2687a"
+        }
+      ],
+      "still_open": "Factura comercială RO nu a fost produsă din checkout-ul Flask. Achiziția GardenWorld nu dovedește prin substituție factura de vânzare, AWB sau factura efectivă dintr-o firmă reală.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK08",
+      "title": "Parametri fiscali și vector: intervale, revizii, explicabilitate",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Loturile de registru T159 A/B/C și coloanele Origine/Motiv au oracole concrete. Nu sunt validate toate jurisdicțiile și configurațiile.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_retry.json",
+          "sha256": "e63bd7d714b6b2a56eb766e4dde59001cab841df14b37434304a6027310d13d2"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_retry.json",
+          "sha256": "feb2878e30decae2e3e38f932fc24c3ad0c03a498aed59b39cdfad46cafd9d44"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/pg_native_readback.json",
+          "sha256": "83ffe006f635071581c6ae72ce447e5ed31d2e6fd4095659b75e0c16dca46f7d"
+        }
+      ],
+      "still_open": "Nu sunt probate toate datele-limită ale vectorului fiscal sau un produs dintr-un catalog real căruia îi este obligatorie o anumită cotă.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK09",
+      "title": "Jurnale TVA: regimuri și reconciliere document–taxă–cont",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "T256 D394 34/0; predarea istorică și poziția în script nu sunt confundate.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT256D394_R4.log",
+          "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT256D394_R4.log",
+          "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec"
+        }
+      ],
+      "still_open": "Fără reconstrucție completă a jurnalului românesc până la documente, regimuri mixte, TVA la încasare și declarație.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK10",
+      "title": "TVA la încasare și solduri preluate: alocare parțială/storno",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Niciun nou ciclu TVA la încasare/600+400. Păstrăm stările cancelărilor și legătura A07.",
+      "specific_evidence": [
+        {
+          "file": "Reverificare_alocare_incasari_stari.json",
+          "sha256": "2f6297678fd27b77d42296d3994cfcf8a4eab89e801671a92442314346088a1c"
+        }
+      ],
+      "still_open": "Nu s-au urmărit combinațiile de TVA neexigibilă inițială, 600+400 și corecțiile ulterioare pentru toate regimurile.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK11",
+      "title": "Încasări, plăți, avansuri și reconciliere financiară",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Rambursul per colet ORD101 verificat separat. Niciun document nativ nou de plată pentru acel UUID.",
+      "specific_evidence": [
+        {
+          "file": "Reverificare_alocare_incasari_stari.json",
+          "sha256": "2f6297678fd27b77d42296d3994cfcf8a4eab89e801671a92442314346088a1c"
+        },
+        {
+          "file": "supliment_CESIRO1/probe/EX07_peer_A03.json",
+          "sha256": "52080bf8cefdd2e02ec85463a0fa91d8105669276c68fa2a9819c5321be2687a"
+        }
+      ],
+      "still_open": "Ramburs pe colete cu avans/comision/decont bancar rămâne distinct de acest caz ERP. Nu este demonstrat că toate rutele comerciale ale EVA permit aceeași intrare.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK12",
+      "title": "Achiziții: recepție–factură–cost–plată și matching nativ",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "NIR etichetă defectă „lei” numai la diferențe, factură USD. Rămâne A04-F01.",
+      "specific_evidence": [
+        {
+          "file": "Reverificare_PO_receptie_match_storno.json",
+          "sha256": "051f3784dc3dc421fa3fc9bf4b39fbca7853b6ae5b9d19a2f83abfac47b39c01"
+        },
+        {
+          "file": "R3_zone/A04/Addendum_moneda_NIR.json",
+          "sha256": "39598d287747a4751303653db4b79803888764f070b2900c0c1cc34d1fdde4a8"
+        }
+      ],
+      "still_open": "Lanțul a trecut prin REST/PO, nu printr-o apăsare ZK, și nu acoperă toate politicile costurilor sau importurile reale.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK13",
+      "title": "G1/G2/G3, CPP/CPA: bun unic, consum unic și identități distincte",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Nu există o probă nouă a costului unic de manoperă G2.",
+      "specific_evidence": [
+        {
+          "file": "R2_zone/A05_raport.json",
+          "sha256": "fd871b4a22b753ea42d25ecb6935426d4612f76ed05a531d4aa97b9e189f9a26"
+        }
+      ],
+      "still_open": "Aceste ajustări de inventar nu închid ambalare, costul manoperei și cutiilor o singură dată în G1 sau toate proiecțiile G3. Registrele G2/G3 nu trebuie tratate ca active contabile suplimentare.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK14",
+      "title": "Straturi, inventariere, transfer și ajustări de valoare",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "T366 rămâne dovadă anterioară distinctă. Nu dublăm F09/F10.",
+      "specific_evidence": [
+        {
+          "file": "R2_zone/A05_raport.json",
+          "sha256": "fd871b4a22b753ea42d25ecb6935426d4612f76ed05a531d4aa97b9e189f9a26"
+        }
+      ],
+      "still_open": "Nu extrapolăm aceste fixture-uri la toate loturile/ASI, CMP/FIFO și transferurile cu toate configurațiile de cost.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK15",
+      "title": "Preînchidere lună: documente nepostate și perioade deschise",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Guardă anterioară 2002, apoi setare luna de început 2026-08 și pas5 AMORT. Nicio notă înainte de îndeplinirea precondiției.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_native_first_period_guard.json",
+          "sha256": "573d183d9bbbf110c77343b726b9a4ca698eaf78d1f742fdd2b87186bcc92197"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_native_gate.json",
+          "sha256": "eacd475b6c161289a40af690fa061f5dcdaa77a58971b0a2f2b96a83c5a8a7b1"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_ZK.json",
+          "sha256": "d9eeb704ec6e67ddb1aa17057891dc3952f701ff5d5df5464e967dfebd10cfe7"
+        }
+      ],
+      "still_open": "Nu s-au verificat toate tipurile de document, joburile și rolurile într-o închidere completă standard cu verificarea ordinii activată.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK16",
+      "title": "Închidere/reînchidere/reluare: idempotency și concurență",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "10 perechi concurente, 0 stări VC activă fără AMORT. Opening GLJ N→O prin proces. Nu e test exhaustiv pe toate intercalările.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_race_native.json",
+          "sha256": "35667b62271a2b1246a9a7a675eafe0cc77287ce91bfa7b6400103593d52787f"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        }
+      ],
+      "still_open": "Acesta este retry după commit, nu cursă între job și UI. Redeschiderea completă și detectarea unui document adăugat concomitent nu sunt închise.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK17",
+      "title": "Note de închidere venituri/cheltuieli/TVA și rezultat",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "AMORT100EUR, VC220EUR; duplicarea valorilor schemei secundare rămâne dovedită. Devalidarea AMORT când VC este activă este refuzată.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_2schema_setup.json",
+          "sha256": "6260ef76814c4f55b611ee938d40598948e3b0a1bdfa48869ba256f4ffc7385a"
+        }
+      ],
+      "still_open": "Consecința este demonstrată pe fixture-ul nativ GardenWorld. Sursele inițiale sunt patru poziții de fixture, nu patru documente create în UI. Nu pretind pierderi reale sau închiderea integrală a lunii.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK18",
+      "title": "Balanță, jurnal, fișă cont și bilanț: oracol independent",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "SQL-ul balanței și comparația nativă reconfirmă credit7.802,38 versus 4.217,50USD și3.584,88EUR.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/pg_native_readback.json",
+          "sha256": "83ffe006f635071581c6ae72ce447e5ed31d2e6fd4095659b75e0c16dca46f7d"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/conversion_native.json",
+          "sha256": "1cdc83fe4d268742983a756301dd2a36179d906e6aa47c7586a6f4e714523f98"
+        }
+      ],
+      "still_open": "Bilanțul anual, toate rubricile și exportul rămân distincte. Interogarea în clona actuală nu simulează o sesiune ZK.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK19",
+      "title": "D300/D390/D394: surse, revizii, validator oficial și corelări",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "LotA și D394 confirmă date și mapping. Nu este generare din toate documentele de jurnal pe trei formulare.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT256D394_R4.log",
+          "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec"
+        }
+      ],
+      "still_open": "Nu s-au generat D300/D390/D394 din setul GardenWorld cu AG, stornare, taxare inversă și reconcilierea fiecărei rubrici.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK20",
+      "title": "D100/D101/D205 și bilanț anual: obligație versus generare",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "D100 sponsorizare 150/1000, plată850 verificată cu 2 JAR și DUK plus negativ. Nu este postare financiară dintr-un stat real.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/D100_officiel_R4.json",
+          "sha256": "3053ad1fad5cf03a38d902a6b8f4a9a372ebbbf473b006a36d5518c53c306442"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotC_R4.log",
+          "sha256": "46860b2a8e21ef3054b5bc37d1c9ac52c309851099d4ab888d9c7b0aa5936742"
+        }
+      ],
+      "still_open": "Nu există verdict pentru fiecare beneficiar și formular sau toate deducerile/rectificările; nu tratăm un reper bugetar ca verdict de conformitate fiscală.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK21",
+      "title": "D406 SAF-T: master data, tranzacții și reconciliere de volum",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Niciun nou SAF-T generat din aceleași documente. Se păstrează R1/R2.",
+      "specific_evidence": [],
+      "still_open": "Generarea D406 din noile documente ERP și reconcilierea master data/active pentru toate secțiunile nu sunt executate.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK22",
+      "title": "e-Factura primită: document original, deduplicare și înregistrare",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Nicio recepție eFactura nouă din circuit complet.",
+      "specific_evidence": [],
+      "still_open": "Nu probează descărcarea SPV, deduplicarea ID extern eFactura sau atașarea originalului eFactura în ERP.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK23",
+      "title": "e-Factura emisă: coadă, credit note și recipisă fără efect extern",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Nicio depunere sau recipisă reală; doar probele permise din rundele anterioare.",
+      "specific_evidence": [],
+      "still_open": "Nicio confirmare de depunere, timeout ambiguu, acceptare/respins sau retry la ANAF nu se deduce din nota CO/Y.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK24",
+      "title": "e-Transport și e-TVA: obligații, legături și diferențe",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Niciun transport/UIT/compensare eTVA verificat în această rundă.",
+      "specific_evidence": [],
+      "still_open": "Recepția nu probează UIT sau diferențele unei perioade eTVA. Nu se declară depuneri sau aplicabilitatea vreunei obligații reale.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK25",
+      "title": "Salarizare: contract datat, calcul, D112 și excepții",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Salariu net→brut comparat cu căutare exhaustivă 4 profiluri; mutant CAS+0,01 și concediu între ani executate în JVM. Fără D112 din stat complet.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simA.log",
+          "sha256": "ccb1ad55870aa761dc618a4a7d7f0d694f31036c8d6da2b4efa6a2a4a8cb4fb7"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simB.log",
+          "sha256": "5e1ab76d0284d31d06596716e6073eb7a3a6ec9f167e2769dbaafb9a901d648c"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/CO_27_dec_5_jan.json",
+          "sha256": "ad4954145c91813f3aa7eba912243e0dacbcc0b3c5054cefe7799532229d54dc"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotB_R4.log",
+          "sha256": "9dc39aee297b1955358f15aea404c2c8e65a523b49290ab8069f17cb30ce8432"
+        }
+      ],
+      "still_open": "Calculul contractelor multiple și CM, payroll→GL→D112 pe un același stat complet rămâne neexecutat.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK26",
+      "title": "Salarii în contabilitate, plată și manoperă G2 fără dublare",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "SAL neaplicabilă în clona fără stat calculat, deci nu se revendică notă salarială. AMORT este alt document.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        }
+      ],
+      "still_open": "Nu există urmă pentru stat finalizat→notă→plată→alocare manoperă, care să dovedească recunoașterea unică a salariilor.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK27",
+      "title": "REGES și HR: evenimente datate, impact salarial, fără transmisii",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "TestT03Front nu transmisie REGES; păstrăm delimitarea.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT03Front_R4.log",
+          "sha256": "6b9acefcec3e3178f413e9f4a891dedfc99fcee0ff4251f395b9b6300b2733f6"
+        }
+      ],
+      "still_open": "Nu există eveniment REGES cu acceptare/rectificare corelată end-to-end cu salariul și declarația.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK28",
+      "title": "Active: intrare, amortizare contabilă/fiscală și registru",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Activ de1200/12 a generat fișă de amortizare reală de100 și GL_Journal CO/Y în EUR; mapare incorectă refuzată, apoi mapare nativă corectă.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_asset_account_fix.json",
+          "sha256": "f6b437d1278378588cebeb23bef2e9635113626987ff1e4d151a9a273691adec"
+        }
+      ],
+      "still_open": "Contabil/fiscal, punere în funcțiune și postarea A_Depreciation_Exp nu au încă un lanț echivalent celui pentru GL.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK29",
+      "title": "Active: ieșire, casare, vânzare, anulare și import istoric",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Nu s-a vândut sau casat acest activ în runda curentă.",
+      "specific_evidence": [],
+      "still_open": "Ieșirea activului cu valoare netă400 și importul unui activ deja casat nu s-au executat prin ERP.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK30",
+      "title": "Pornire firmă și import SAGA: solduri, cutover și reconciliere",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Importul SAGA rupt la schema secundară rămâne F05; firma reală trebuie să ofere politica de import.",
+      "specific_evidence": [
+        {
+          "file": "Reverificare_SAGA_schema_secundara.json",
+          "sha256": "2f66afa695d8e04116028888f80a157f7442fc5e52e65ef24d457987e2ac13ee"
+        }
+      ],
+      "still_open": "Arhiva este sintetică și factura are o singură linie. Conservarea schemei secundare ori refuzul explicit trebuie stabilite la configurare; incident real în producție nedemonstrat.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK31",
+      "title": "Audit trail, monografie și dovadă regenerabilă",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Urme de la jurnal la Fact_Acct și per cerere; nu toate drepturile/expirarea/drepturile de arhivă.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_race_native.json",
+          "sha256": "35667b62271a2b1246a9a7a675eafe0cc77287ce91bfa7b6400103593d52787f"
+        }
+      ],
+      "still_open": "Semnătura artefactelor audit și păstrarea unui ID nu demonstrează politica de retenție sau drepturile tuturor utilizatorilor.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK32",
+      "title": "Meniuri, drepturi, setări și experiență contabilă completă",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "ZK autentic în 1366×768, mesajul „după pasul5” pe buton dezactivat, nicio operație forțată. Sunt arhivate capturile. Ruperea lei/EUR rămâne independentă.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_ZK.json",
+          "sha256": "d9eeb704ec6e67ddb1aa17057891dc3952f701ff5d5df5464e967dfebd10cfe7"
+        },
+        {
+          "file": "R3_zone/A04/Addendum_moneda_NIR.json",
+          "sha256": "39598d287747a4751303653db4b79803888764f070b2900c0c1cc34d1fdde4a8"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ],
+      "still_open": "Un răspuns din REST nu înlocuiește testarea celor două rezoluții și tastaturii pe toate formele contabile.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK33",
+      "title": "Export/PDF/registre și performanță pe volume reale sintetice",
+      "R3_status": "FAIL_DOVEDIT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "FAIL_DOVEDIT",
+      "observed_R4": "Nu s-a măsurat exportul contabil pe 100k/1m rânduri în această rundă.",
+      "specific_evidence": [
+        {
+          "file": "R3_zone/A04/Addendum_moneda_NIR.json",
+          "sha256": "39598d287747a4751303653db4b79803888764f070b2900c0c1cc34d1fdde4a8"
+        }
+      ],
+      "still_open": "Benchmarkul SQL nu măsoară p95 al aplicației, paginare UI/export PDF, memorie job sau plan pe indecșii tabelului fizic.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK34",
+      "title": "Bugete, angajamente și comparație realizat–buget",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Nicio nouă comparație buget–angajament–realizat.",
+      "specific_evidence": [],
+      "still_open": "Nicio confirmare a disponibilului pe versiune de buget/angajament și nici a întregii aplicații GL Budget.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK35",
+      "title": "Regresie contabilă la modificări DB/migrare/backfill",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "Schema verificată fără migrare sau schimbare de produs. Clona și slotul restituite.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/pg_native_readback.json",
+          "sha256": "83ffe006f635071581c6ae72ce447e5ed31d2e6fd4095659b75e0c16dca46f7d"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_restitution.json",
+          "sha256": "c57294f8ec51859c2ddcdb9ec3d6d932565dfb44b1c7c15dabe7580091326ec0"
+        }
+      ],
+      "still_open": "Restaurarea nu este migrare/backfill. Două versiuni succesive, migrarea întreruptă și regresia contabilă per schema țintă nu sunt executate.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    },
+    {
+      "control_id": "A03.CK36",
+      "title": "Acoperirea fiecărui task finalizat și închiderea auditului",
+      "R3_status": "INCONCLUDENT",
+      "R3_report_sha256": "dee84c287b3e4f979e24ee49ce3c5b8d0151f78478ae9ffe4e519ca16f421ccb",
+      "R4_status": "INCONCLUDENT",
+      "observed_R4": "R6 fișe verificate individual; 599 nu sunt considerate auditate integral.",
+      "specific_evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/Legaturi_401_R6_verificate.json",
+          "sha256": "842015ea2e1179f819d4503f33913a17479df74fc0d8aa929c1b387d78808540"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/Registru_subcriterii_R4.json",
+          "sha256": "c8c495210f25eed5221a60a8fc112269ceb91b4b001da8ec4381746262e94457"
+        }
+      ],
+      "still_open": "Nu există certificare a tuturor criteriilor A12 prin enumerare. Fișele finale și arbitrajul individual rămân responsabilitatea A12/A11.",
+      "source_actor_scope": "Mediul și actorul sunt identificați în fișierul nominal. O probă per mecanism nu închide restul controlului transversal."
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline_id": "A03.PL01",
+      "title": "Notă contabilă→Fact_Acct→jurnal/balanță/buget",
+      "trigger_actor": "Contabil A, orgA1, schemaRON; revizor și rol interzis",
+      "R4_observation": "GL nativ AMORT/VC→Fact_Acct pe document și linie, refuzuri și concurență.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK02",
+        "A03.CK03",
+        "A03.CK04",
+        "A03.CK05",
+        "A03.CK18",
+        "A03.CK31",
+        "A03.CK33",
+        "A03.CK34",
+        "A03.CK01",
+        "A03.CK30",
+        "A03.CK32",
+        "A03.CK35",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL02",
+      "title": "Comandă/livrare→factură→taxe/posting→jurnal și e-Factura",
+      "trigger_actor": "Gestionar→responsabil vânzări/automat configurat→contabil",
+      "R4_observation": "Nu s-a urmărit aceeași comandă storefront la factura/eFactura nativă.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK05",
+        "A03.CK06",
+        "A03.CK07",
+        "A03.CK09",
+        "A03.CK22",
+        "A03.CK23",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL03",
+      "title": "Plată/decont/ramburs→alocare→Fact_Acct→sold și TVA",
+      "trigger_actor": "Responsabil trezorerie; A07 proprietar eveniment plăți",
+      "R4_observation": "EX07 ramburs per colet și nativ payments separate, fără identificator comun până în Fact_Acct.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK06",
+        "A03.CK10",
+        "A03.CK11",
+        "A03.CK26",
+        "A03.CK30",
+        "A03.CK02",
+        "A03.CK05",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL04",
+      "title": "Date contabile→jurnale→declarații și reconciliere oficială",
+      "trigger_actor": "Contabil pregătitor/revizor; drept de depunere neexercitat",
+      "R4_observation": "D100 în perioada 06/2023 generat și verificat DUK. Baza prețurilor este un input sintetic, nu un document economic creat în acest lanț.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK01",
+        "A03.CK08",
+        "A03.CK09",
+        "A03.CK10",
+        "A03.CK19",
+        "A03.CK20",
+        "A03.CK21",
+        "A03.CK24",
+        "A03.CK31",
+        "A03.CK32",
+        "A03.CK33",
+        "A03.CK35",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL05",
+      "title": "HR/contract/pontaj→salarizare→notă→Fact_Acct→plată/D112",
+      "trigger_actor": "HR, salarizare, contabil și trezorerie cu separare drepturi",
+      "R4_observation": "Subcazuri salarii/jurnal fiscal/date efective. Fără un stat complet→GL→D112→plată.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK08",
+        "A03.CK25",
+        "A03.CK26",
+        "A03.CK27",
+        "A03.CK32",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL06",
+      "title": "Activ→amortizare/ieșire→Fact_Acct→registru/SAF-T",
+      "trigger_actor": "Responsabil active și contabil",
+      "R4_observation": "Activ sintetic în GardenWorld→proces AMORT→fișă→jurnal și rânduri Fact_Acct verificate. Achiziția activului/SAF-T și fiscal vs contabil nu sunt incluse.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK28",
+        "A03.CK29",
+        "A03.CK30",
+        "A03.CK05",
+        "A03.CK08",
+        "A03.CK32",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL07",
+      "title": "Import/achiziție→PO/document→cost/sold→Fact_Acct→reconciliere",
+      "trigger_actor": "Operator import/achiziții, gestionar și contabil",
+      "R4_observation": "Lanțul nativ de recepție/retur, SAGA și limitele a două scheme din A03/A04 sunt păstrate, fără dublare.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK12",
+        "A03.CK30",
+        "A03.CK35",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL08",
+      "title": "Operație G2/inventar→document contabil eligibil→Fact_Acct→balanță stoc",
+      "trigger_actor": "Gestionar G2 și contabil G1, A05 proprietar operației fizice",
+      "R4_observation": "Nu transformăm ajustarea T366 într-o probă de reasamblare G2 ori manoperă.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK05",
+        "A03.CK13",
+        "A03.CK14",
+        "A03.CK26",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL09",
+      "title": "Preînchidere→note→Fact_Acct→control perioadă→raport final",
+      "trigger_actor": "Contabil pregătitor și responsabil închidere cu drept separat",
+      "R4_observation": "ZK arată refuzul înainte de scriere. AMORT100EUR→VC220EUR CO/Y, devalidare și 10 perechi concurente. Luna de început și perioada GLJ sunt explicit separate.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK15",
+        "A03.CK16",
+        "A03.CK17",
+        "A03.CK18",
+        "A03.CK34",
+        "A03.CK35",
+        "A03.CK20",
+        "A03.CK31",
+        "A03.CK32",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    },
+    {
+      "pipeline_id": "A03.PL10",
+      "title": "Document fiscal→registru/coadă→mock recipisă→reconciliere cu sursa",
+      "trigger_actor": "Contabil cu drepturi și responsabil integrare; fără transmisie externă",
+      "R4_observation": "Zero efecte externe; document XML+DUK și finanțare internă au urme distincte.",
+      "tier": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "linked_controls": [
+        "A03.CK22",
+        "A03.CK23",
+        "A03.CK24",
+        "A03.CK27",
+        "A03.CK36"
+      ],
+      "full_role_device_coverage": false
+    }
+  ],
+  "limitations": [
+    "Runda privește un lot nominal din 599, nu toate cele 599. Nu s-au modificat stări A12 sau produsul.",
+    "Lipsa modelelor istorice sau a probelor UI pentru alte roluri nu este PASS și nu este neconformitate automată.",
+    "Zero transmiteri, plăți, AWB sau efecte fiscale către parteneri. G1/G2/G3, eTransport/eTVA și latura site/canal rămân în domeniul mai larg.",
+    "Procesul extern QA A11 notează rezultatul. Rezultatele și hashurile sunt pregătite pentru reproducere."
+  ],
+  "next_required_by_A11": [
+    "Sunt reconciliate cele 401 fișe către R4 și R6 semnate.",
+    "R4 păstrează politica secundară L12 ca decizie explicită a titularului firmei; opțiunile sunt refuz sau reconciliere nativă a tuturor schemelor.",
+    "Pilotul real acoperă un formular critic și un rol. Meniurile și rolurile celorlalte fluxuri rămân de probat."
+  ]
+}

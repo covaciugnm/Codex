@@ -1,0 +1,581 @@
+{
+  "schema": "cesiro1.EX01.execution.v1",
+  "case": "EX01",
+  "owner": "A10",
+  "consumer": "A08",
+  "reviewer": "A11",
+  "score": null,
+  "status": "TRIMIS_LA_PEER_A08",
+  "signed_plan_sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+  "base": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "role_boundaries": "W și C sunt cele două servicii web care au fiecare checkout; E este consumatorul iDempiere SursaCesiro1 cu URL/tenant configurate. Spree admin separat nu trebuie confundat cu adminul C.",
+  "capture_utc": "2026-11-02T16:30:52.658337+00:00",
+  "route_registry": {
+    "traefik": [
+      {
+        "router": "backend-admin-cesiro1",
+        "rule": "(Host(`cesiro1.eva-contab.ro`) || Host(`cesiro1.eva-org.com`)) && PathPrefix(`/admin`)",
+        "service": "spree-backend",
+        "priority": 100,
+        "middlewares": [
+          "spree-https"
+        ],
+        "file": "firm-cesiro1-next.yml",
+        "file_sha256": "f24501424397869f100e42cc19f54733d329d293c37f84f1d87c0f45fd518d66",
+        "targets": [
+          {
+            "host": "spree-web",
+            "port": 3000
+          }
+        ]
+      },
+      {
+        "router": "storefront-next-cesiro1",
+        "rule": "(Host(`cesiro1.eva-contab.ro`) || Host(`cesiro1.eva-org.com`))",
+        "service": "storefront-next",
+        "priority": 1,
+        "middlewares": [
+          "spree-https"
+        ],
+        "file": "firm-cesiro1-next.yml",
+        "file_sha256": "f24501424397869f100e42cc19f54733d329d293c37f84f1d87c0f45fd518d66",
+        "targets": [
+          {
+            "host": "eva-contab-storefront",
+            "port": 4020
+          }
+        ]
+      }
+    ],
+    "cloudflared": [],
+    "public_C_hostname": "Nedeterminat din configurația de ingress a tunelului administrat la distanță. Nu s-au citit credențiale sau date din comenzile comercianților. Reproducerea directă din fixture și portul din inventar nu demonstrează ce hostname public folosește un cabinet anume.",
+    "admin_W": {
+      "container": "spree-web",
+      "image": "sha256:ce8dce27cf1f882888f6bbfe9c35f605d9580050fcacb0587eaf728abf689c0e",
+      "port_mapping": {
+        "3000/tcp": [
+          {
+            "HostIp": "0.0.0.0",
+            "HostPort": "3002"
+          },
+          {
+            "HostIp": "::",
+            "HostPort": "3002"
+          }
+        ]
+      },
+      "mount_destinations": [
+        "/rails/storage"
+      ],
+      "started_at": "2026-10-15T21:12:10.972132567Z"
+    },
+    "admin_C": {
+      "container": "cesiro1-admin-1",
+      "image": "sha256:7aa9ba705413bb28b8f07a61ea2f0b4494dd83c7a26355f5c83b9580fa44bcd9",
+      "port_mapping": {
+        "80/tcp": [
+          {
+            "HostIp": "127.0.0.1",
+            "HostPort": "4121"
+          }
+        ]
+      },
+      "mount_destinations": [],
+      "started_at": "2026-11-02T15:07:27.838419748Z"
+    }
+  },
+  "cases": [
+    {
+      "id": "EX01-W-CHECKOUT",
+      "actor": "comercial, tenant cesiro1 de fixture",
+      "route": "GET /checkout; POST /api/orders",
+      "expected": "W afișează checkout și creează martor în registrul local W",
+      "observed": {
+        "http": 200,
+        "body_sha": "74c19ea4af57e464a4cb61d08068ee281be98114b85d517a1f9c4f373e70cb0f"
+      },
+      "additional_checkout": {
+        "case": "submit",
+        "key": "K1",
+        "payload": {
+          "items": [
+            {
+              "id": "CPP-1001",
+              "qty": 2,
+              "discount_pct": 10
+            },
+            {
+              "id": "CPA-1002",
+              "qty": 1
+            }
+          ],
+          "customer": {
+            "customer_type": "individual",
+            "name": "CONTACT-A7",
+            "email": "audit-w@example.test",
+            "phone": "+40723000002",
+            "address": "Str. Contabilă 11 / Cluj",
+            "country": "RO",
+            "payment_method": "bank_transfer"
+          },
+          "billing_address": {
+            "address": "Str. Contabilă 11 / Cluj",
+            "country": "RO"
+          },
+          "shipping_address": {
+            "address": "Str. Depozit 22 / Reșița",
+            "country": "RO"
+          },
+          "source": "CANAL_A",
+          "marketing_consent": false,
+          "shipping_net": "5.00",
+          "shipment_ref": "SHIP-A7"
+        },
+        "http": 200,
+        "order_id": "ORD-20261102-162148-56d71344",
+        "http_status": "saved",
+        "before_count": 0,
+        "after_count": 1,
+        "observed": {
+          "tenant": "cesiro1",
+          "status": "new",
+          "customer": {
+            "customer_type": "individual",
+            "name": "CONTACT-A7",
+            "phone": "+40723000002",
+            "email": "audit-w@example.test",
+            "country": "RO",
+            "address": "Str. Depozit 22 / Reșița",
+            "shipping_address_id": "addr-774c83c291ff",
+            "company_name": "",
+            "company_vat": "",
+            "company_reg": ""
+          },
+          "shipping_address": {
+            "id": "addr-774c83c291ff",
+            "label": "Str. Depozit 22 / Reșița",
+            "address": "Str. Depozit 22 / Reșița",
+            "country": "RO"
+          },
+          "idempiere": {
+            "stock_mapping_ready": true,
+            "warehouse_id": 103,
+            "warehouse_status": "validated_partial",
+            "product_match_key": "sku_normalized",
+            "last_stock_audit": {
+              "status": "validated_partial",
+              "matched_distinct_site_skus": 1,
+              "matched_skus": [
+                "EXT7",
+                "EXT8"
+              ]
+            },
+            "missing_required_skus": [],
+            "export_status": "pending"
+          },
+          "items": [
+            {
+              "id": "CPP-1001",
+              "sku": "EXT7",
+              "ean": "EXT7",
+              "name": "CPP-1001",
+              "price_gross_ron": 34.05,
+              "price_gross": 34.05,
+              "price": 34.05,
+              "currency": "RON",
+              "qty": 2,
+              "line_total_gross": 68.1,
+              "url": "",
+              "image": ""
+            },
+            {
+              "id": "CPA-1002",
+              "sku": "EXT8",
+              "ean": "EXT8",
+              "name": "CPA-1002",
+              "price_gross_ron": 13.71,
+              "price_gross": 13.71,
+              "price": 13.71,
+              "currency": "RON",
+              "qty": 1,
+              "line_total_gross": 13.71,
+              "url": "",
+              "image": ""
+            }
+          ],
+          "totals": {
+            "prices_include_vat": true,
+            "vat_rate": 0.19,
+            "products_total_gross": 81.81,
+            "products_total_net": 68.75,
+            "vat_total": 13.06,
+            "shipping_total": 29.99,
+            "invoice_total": 111.8,
+            "products_total_gross_ron": 81.81,
+            "products_total_net_ron": 68.75,
+            "vat_total_ron": 13.06,
+            "shipping_total_ron": 29.99,
+            "invoice_total_ron": 111.8,
+            "exchange_rate": 1,
+            "exchange_rate_date": "fallback"
+          },
+          "total": 111.8,
+          "currency": "RON",
+          "source": "storefront-next"
+        }
+      },
+      "origin": "W / Flask eva-contab-storefront:4020",
+      "data_boundary": "/app/data (registru documente site și fișiere pe tenant)",
+      "routing_proof": [
+        {
+          "router": "storefront-next-cesiro1",
+          "rule": "(Host(`cesiro1.eva-contab.ro`) || Host(`cesiro1.eva-org.com`))",
+          "service": "storefront-next",
+          "priority": 1,
+          "middlewares": [
+            "spree-https"
+          ],
+          "file": "firm-cesiro1-next.yml",
+          "file_sha256": "f24501424397869f100e42cc19f54733d329d293c37f84f1d87c0f45fd518d66",
+          "targets": [
+            {
+              "host": "eva-contab-storefront",
+              "port": 4020
+            }
+          ]
+        }
+      ],
+      "upstream": {
+        "container": "eva-contab-storefront",
+        "image": "sha256:8915f62ce46beb3309c7e4a90890e0fc6900ffc508ed88b00d3c202840ec82da",
+        "port_mapping": {
+          "4020/tcp": [
+            {
+              "HostIp": "0.0.0.0",
+              "HostPort": "4020"
+            },
+            {
+              "HostIp": "::",
+              "HostPort": "4020"
+            }
+          ]
+        },
+        "mount_destinations": [
+          "/app",
+          "/app/data"
+        ],
+        "started_at": "2026-10-29T12:34:15.737980571Z"
+      },
+      "status": "VERIFICAT_In_FIXTURE"
+    },
+    {
+      "id": "EX01-C-READ",
+      "actor": "cheie sintetică read-only, două tenanturi din clone PG",
+      "route": "GET /api/ext/v1/orders?tenant=...; GET /api/ext/v1/orders/<uuid>",
+      "expected": "Martor A vizibil în C doar pentru tenantul ales la listare. ID de tenant, PK nativ și număr separate.",
+      "observed": {
+        "at": "2026-11-02T16:30:35.639243+00:00",
+        "origin": "C, original external_orders.ext_bp + original DB session module, test-only PostgreSQL clone and synthetic read-only credential",
+        "results": {
+          "canal-a": {
+            "http": 200,
+            "list_items": [
+              [
+                "a1000000-0000-4000-8000-000000000103",
+                "ORD103",
+                null,
+                "canal-a"
+              ],
+              [
+                "a1000000-0000-4000-8000-000000000102",
+                "ORD102",
+                null,
+                "canal-a"
+              ],
+              [
+                "a1000000-0000-4000-8000-000000000101",
+                "ORD101",
+                null,
+                "canal-a"
+              ]
+            ],
+            "total": 3
+          },
+          "canal-b": {
+            "http": 200,
+            "list_items": [
+              [
+                "b2000000-0000-4000-8000-000000000101",
+                "ORD101",
+                null,
+                "canal-b"
+              ]
+            ],
+            "total": 1
+          }
+        },
+        "missing_token": 401,
+        "order_detail": {
+          "http": 200,
+          "body_sha": "56a8546a6665984c6bf8d4a4d89e62118077fa3c94876b9d8685c08f92f4a354",
+          "lookup_uuid": "a1000000-0000-4000-8000-000000000101"
+        },
+        "expected_tenant_ids": [
+          "11000000-0000-4000-8000-000000000001",
+          "22000000-0000-4000-8000-000000000002"
+        ],
+        "role": "cesiro_ex_ro_266f9465",
+        "fixture_database": "cesiro_ex_266f9465",
+        "network": "loopback only; no merchant HTTP",
+        "limit": "Le montage du routeur réel est testé sans initialisation des intégrations de paiement et messagerie du site complet. A08 teste le checkout complet dans EX03.",
+        "cleanup": "database and synthetic read-only role removed"
+      },
+      "origin": "C / Flask cesiro1-backend-1:4120",
+      "data_boundary": "PostgreSQL sales.orders + sales.order_items și ținerea separată a tenantului. Product DB cesiro1-db-1 nu este citită.",
+      "upstream": {
+        "container": "cesiro1-backend-1",
+        "image": "sha256:8f94aacb857b3980bf0acf936c1b1a59a3f587503a915f3990611f33fb7cc96e",
+        "port_mapping": {
+          "4120/tcp": [
+            {
+              "HostIp": "127.0.0.1",
+              "HostPort": "4120"
+            }
+          ]
+        },
+        "mount_destinations": [
+          "/var/run/cups",
+          "/app/app",
+          "/app/templates",
+          "/app/static",
+          "/app/tests",
+          "/app/data",
+          "/app/database",
+          "/app/docs"
+        ],
+        "started_at": "2026-11-02T14:47:05.485134173Z"
+      },
+      "database": {
+        "container": "cesiro1-db-1",
+        "image": "sha256:4b7183ac05f8ef417db21fd72d71047a4238340c261d3cc3ddb6d579ab5071ae",
+        "port_mapping": {
+          "5432/tcp": [
+            {
+              "HostIp": "127.0.0.1",
+              "HostPort": "5439"
+            }
+          ]
+        },
+        "mount_destinations": [
+          "/var/lib/postgresql/data",
+          "/docker-entrypoint-initdb.d"
+        ],
+        "started_at": "2026-10-23T08:29:55.247631895Z"
+      },
+      "status": "VERIFICAT_In_FIXTURE"
+    },
+    {
+      "id": "EX01-C-CHECKOUT",
+      "route": "POST /api/orders în C, GET /checkout",
+      "actor": "client C sintetic cu Host fixture",
+      "expected": "Numărul returnat și registrul de citire C se corelează cu tenant și PK; numărul singur este ambiguu între A/B.",
+      "observed": {
+        "first": "ORD-2026-000001",
+        "first_http": 201,
+        "second_tenant": "ORD-2026-000001",
+        "items": [
+          {
+            "pk": "aca3eaff-f2bd-46a2-93ad-b99f92654c52",
+            "tenant": "a08a918cb825",
+            "number": "ORD-2026-000001"
+          }
+        ]
+      },
+      "origin": "C, site extern/sursă checkout+citire, integrat separat de W și E",
+      "status": "PROBĂ_TRANSVERSALĂ_A08"
+    },
+    {
+      "id": "EX01-SWAP",
+      "route": "GET /api/ext/v1/orders?tenant=canal-a pe W în loc de C",
+      "expected": "Martorul C nu poate fi găsit în W.",
+      "observed": {
+        "http": 404,
+        "json": false,
+        "contains_C_id": false
+      },
+      "positive": {
+        "http": 200,
+        "list_items": [
+          [
+            "a1000000-0000-4000-8000-000000000103",
+            "ORD103",
+            null,
+            "canal-a"
+          ],
+          [
+            "a1000000-0000-4000-8000-000000000102",
+            "ORD102",
+            null,
+            "canal-a"
+          ],
+          [
+            "a1000000-0000-4000-8000-000000000101",
+            "ORD101",
+            null,
+            "canal-a"
+          ]
+        ],
+        "total": 3
+      },
+      "status": "NEGATIV_DOVEDIT"
+    }
+  ],
+  "anchors": [
+    {
+      "origin": "W",
+      "file": "app/factory.py",
+      "line": 27,
+      "symbol": "def create_app() -> Flask:",
+      "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795"
+    },
+    {
+      "origin": "W",
+      "file": "app/factory.py",
+      "line": 359,
+      "symbol": "@app.post(\"/api/orders\")",
+      "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795"
+    },
+    {
+      "origin": "W",
+      "file": "app/cms.py",
+      "line": 927,
+      "symbol": "def save_order(tenant: str, payload: dict[str, Any]) -> dict[str, Any]:",
+      "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf"
+    },
+    {
+      "origin": "C",
+      "file": "app/factory.py",
+      "line": 31,
+      "symbol": "def create_app() -> Flask:",
+      "sha256": "0fc79a5b37c0e94d3c41e83be083ffbe45a441e8dedd13e82ff8ad069d658904"
+    },
+    {
+      "origin": "C",
+      "file": "app/factory.py",
+      "line": 1470,
+      "symbol": "from .api.external_orders import ext_bp",
+      "sha256": "0fc79a5b37c0e94d3c41e83be083ffbe45a441e8dedd13e82ff8ad069d658904"
+    },
+    {
+      "origin": "C",
+      "file": "app/api/external_orders.py",
+      "line": 204,
+      "symbol": "@ext_bp.get(\"/orders\")",
+      "sha256": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c"
+    },
+    {
+      "origin": "E",
+      "file": "SursaCesiro1.java",
+      "line": 36,
+      "symbol": "public final class SursaCesiro1 implements AdaptorPlatforma {",
+      "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8"
+    },
+    {
+      "origin": "E",
+      "file": "SursaSiteConfig.java",
+      "line": 76,
+      "symbol": "p.get_ValueAsString(\"EVA_Tenant\"), lista(p.get_ValueAsString(\"EVA_Conturi\")),",
+      "sha256": "e372a46a340959592ea2e65724089c7f97c97aca37607b1dc4d467fa553c3ec8"
+    }
+  ],
+  "actual_runtime_hash_samples": {
+    "C_factory": "0fc79a5b37c0e94d3c41e83be083ffbe45a441e8dedd13e82ff8ad069d658904",
+    "C_ext": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c",
+    "W_factory": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795",
+    "W_cms": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf"
+  },
+  "users_norms": [
+    {
+      "task": "T20",
+      "canonical": null,
+      "target": [
+        "P01.C10.T0011"
+      ],
+      "criterion_source": "executie/R3/taskuri/Fisa_T20.json",
+      "norm_pointer": "#/disposition_admin/successors",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX01"
+    },
+    {
+      "task": "T35",
+      "canonical": null,
+      "target": [
+        "P01.C10.T0002"
+      ],
+      "criterion_source": "executie/R3/taskuri/Fisa_T35.json",
+      "norm_pointer": "#/disposition_admin/successors",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX01"
+    }
+  ],
+  "interfaces": [
+    {
+      "control": "A10-CK-01",
+      "pipeline": "A10-F01",
+      "owner": "A10",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/67/resolved_control_ids/0"
+    },
+    {
+      "control": "A08-C03",
+      "pipeline": "A08-P01",
+      "owner": "A08",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/53/resolved_control_ids/2"
+    },
+    {
+      "control": "A08-C27",
+      "pipeline": "A08-P07",
+      "owner": "A08",
+      "signed_pointer": "Index_trasabilitate.json#/pipelines/59/resolved_control_ids/2"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX01_C_fixture.py",
+      "sha256": "60dce41e8496e43e5ca7bb5e2f6b26689b6ae73f8e133a5445e7ffedc247749d"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX01_W_fixture.py",
+      "sha256": "93df37fc0045842ca12c9476ae5e5d77c02ca022f34da180d6d2b6653a231729"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX01_C_fixture.json",
+      "sha256": "fc3ecf7b88fef5cf001ef9054ce3ffb681a5e0a4d05b3dfa048f88c501ae8871"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX01_W_fixture.json",
+      "sha256": "0d8cea4f9d35745e15fbe0145d728df3433f52460aa5fb73cf155702e9fc55bb"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX01_deployment.py",
+      "sha256": "d1747dc365731816845f1e4b2d162675b77d98e1e2cd4ee14164848646cac3e7"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX01_deployment.json",
+      "sha256": "7c810560fb293bcfd457df0b48101c6c06dbe270f25bbc74292bf9db26ab352b"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_C_raw.json",
+      "sha256": "5ba6b48cb9839f2617cbff78b8606f305f3b6e19100ce231ec0c45184160c512"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_W_raw.json",
+      "sha256": "296952d9551bbab630e76bbd0a44eb8a5518718b3b15378c4d9afcc317b63503"
+    }
+  ],
+  "a11_dependencies": "Peer A08 semnează după verificarea originilor și limitelor. A11 decide.",
+  "boundaries": [
+    "Două tenanturi A/B în fixture, separate din punct de vedere al canalului. Nu au fost montate două cabinete ERP cu CUI egal în EX01.",
+    "Niciun HTTP către serviciile din producție, niciun token comercial; rutele declarate și deploymentul sunt documentate separat.",
+    "Cloudflare public pentru C neconfirmat la această probă. Cazurile de pană și retry operațional complet se tratează în EX04/EX07."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "Pregătire documentară numai citire. Versiunea R5 rămâne distinctă.",
+  "input_commit": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "created": "2026-11-02T17:07:16.364Z",
+  "validated_counts": {
+    "xlsx_vs_csv_cells": 11202,
+    "field_mismatches": 0,
+    "canonical_new_closure_dates": 0,
+    "improved_datetime_upper_bounds": 2
+  },
+  "files": [
+    {
+      "file": "Cautare_evenimente_244.json",
+      "sha256": "089d1470aab8e8688c6bc6ccd52710ecdd629d6eff3bb863b6875d57263b2a9f"
+    },
+    {
+      "file": "Provenienta_si_evenimente_nominale.json",
+      "sha256": "b60449e29e6ee93a645f7cddfc3227b5f4b9b818e2c628bbfea20ea320e28873"
+    },
+    {
+      "file": "T110_T111_documentar.json",
+      "sha256": "0aa1d41674d7ba0102873239e3cb2d1298bc154d91c263b5e2aca81438a6badb"
+    },
+    {
+      "file": "T110_T111_randuri_corelationate.json",
+      "sha256": "4ca5b7fb8be72aa81267f1c51ecb9d5705676ed93a57e58d641546b77bcc803d"
+    }
+  ]
+}

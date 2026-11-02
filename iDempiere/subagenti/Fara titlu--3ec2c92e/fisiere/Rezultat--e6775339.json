@@ -1,0 +1,290 @@
+{
+  "utc": "2026-11-02T20:13:00.746591+00:00",
+  "schema": "A12.R10.T06.UI",
+  "environment": "Cabinet sintetic propriu GardenWorld, client 11, rol Garden Admin 102. Acces țintit prin SSH loopback și HTTPS la adresa privată confirmată a containerului autorizat. PostgreSQL folosit prin tranzacții de citire; cele două apăsări autorizate au executat procesul mutator exclusiv în cabinet.",
+  "source_cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "menu": [
+    {
+      "ad_menu_id": 1000361,
+      "name": "Comparație bancă EvA ↔ SAGA",
+      "ad_form_id": 1000132,
+      "classname": "com.eva.ro.contab.form.WEvaComparatieBancaForm"
+    }
+  ],
+  "forms": {
+    "comparison": "EvA — Comparație bancă EvA ↔ SAGA",
+    "process_AD": {
+      "AD_Menu_ID": 1000360,
+      "AD_Process_ID": 1000218,
+      "name": "Bancă: compară cu SAGA (proces)"
+    },
+    "opened_journal": {
+      "old_tabs": [
+        "Home (4)",
+        " EvA — Comparație bancă EvA ..."
+      ],
+      "new_tabs": [
+        "Home (4)",
+        " EvA — Comparație bancă EvA ...",
+        " EvA — Jurnal de bancă"
+      ],
+      "selected_tooltip": "EvA — Jurnal de bancă",
+      "dialogs": []
+    }
+  },
+  "claims": {
+    "T06-R2-014": {
+      "expected": "Butonul Compar cu SAGA, toate conturile, ianuarie-iunie, 10/6/168 şi 22 diferențe pe martor q31 cu fixtură sau țintă recalculată anterior.",
+      "observed": {
+        "first": 1003142,
+        "second": 1003143,
+        "result_text": "✔ 10 conturi · 6 luni · 168 rânduri scrise · 22 diferențe",
+        "physical_snapshot": {
+          "count": 168,
+          "groups": 13,
+          "differences": 22,
+          "instances": [
+            1003143
+          ],
+          "amounts": "b786cfa9c366b136c7f262af34eb0ccc"
+        },
+        "log_opened_each_time": true
+      },
+      "limit": "Sursă contabilă SQLite sintetică. MD5 nu este cel al arhivei istorice q31 și nu pretinde cod-terț sau conturi de producție."
+    },
+    "T06-R2-018": {
+      "expected": "A doua rulare păstrează 168 de rânduri și toate se leagă exclusiv de noua instanță.",
+      "observed": [
+        [
+          1003142,
+          {
+            "count": 168,
+            "groups": 13,
+            "differences": 22,
+            "instances": [
+              1003142
+            ],
+            "amounts": "b786cfa9c366b136c7f262af34eb0ccc"
+          }
+        ],
+        [
+          1003143,
+          {
+            "count": 168,
+            "groups": 13,
+            "differences": 22,
+            "instances": [
+              1003143
+            ],
+            "amounts": "b786cfa9c366b136c7f262af34eb0ccc"
+          }
+        ]
+      ],
+      "limit": "Două rulări noi din sesiune, nu numărul total al tuturor instanțelor istorice din DB. Alte execuții A12 au precedat."
+    },
+    "T06-R2-019": {
+      "expected": "DoarVerifica activ în formularul nativ; nu scrie rânduri.",
+      "observed": {
+        "form_configured": {
+          "LunaDeLa": "2026-01",
+          "LunaPanaLa": "2026-06",
+          "DoarVerifica": true,
+          "account_empty": true
+        },
+        "complete_and_unchanged": true,
+        "after": {
+          "ad_pinstance_id": 1003144,
+          "result": 1,
+          "isprocessing": "N",
+          "errormsg": "10 conturi · 6 luni · 0 rânduri scrise · 22 diferențe"
+        },
+        "messages": [
+          {
+            "log_id": 1805,
+            "p_msg": "doar verificare — nu s-a scris nimic"
+          },
+          {
+            "log_id": 1674,
+            "p_msg": "arhiva …_168.sqlite · md5 47aaf832a4066957c90644faf3a09500 · CUI verificat · codificare: 0/0"
+          },
+          {
+            "log_id": 1673,
+            "p_msg": "parametri: cont=0 · luni=2026-01…2026-06 · arhivă=168.sqlite · toleranțe=0.00/0.05/0.10 · zile=3/10 · doar verificare=Y"
+          }
+        ],
+        "params": [
+          {
+            "parametername": "LunaDeLa",
+            "p_string": "2026-01",
+            "p_number": null
+          },
+          {
+            "parametername": "LunaPanaLa",
+            "p_string": "2026-06",
+            "p_number": null
+          },
+          {
+            "parametername": "DoarVerifica",
+            "p_string": "Y",
+            "p_number": null
+          }
+        ]
+      },
+      "limit": "Dovada DoarVerifica folosește formularul nativ de proces și verifică numai rezultatele comparației pe intervalul. Arhiva este sintetică."
+    },
+    "T06-R2-022": {
+      "expected": "13 grupe în Luni; 168 linii; 22 diferențe în sumar; export CSV cu 168 de rânduri; jurnalul inițial dezactivat și butonul Jurnal de bancă deschide următorul ecran.",
+      "observed": {
+        "displayed_month_rows": 13,
+        "displayed_line_rows": 168,
+        "csv_rows": 168,
+        "verdicts": {
+          "identic": 146,
+          "de lămurit": 5,
+          "EvA diferă de nota-sursă": 1,
+          "EvA incomplet": 16
+        },
+        "monthly": {
+          "2026-01": 15,
+          "2026-02": 31,
+          "2026-03": 34,
+          "2026-04": 53,
+          "2026-05": 19,
+          "2026-06": 16
+        },
+        "monthly_footer": [
+          "22 diferențe · Δ sold -4 163.00",
+          "6 luni · 168 rânduri · ultima rulare 02.11.2026"
+        ],
+        "disabled_before": true,
+        "enabled_after": true,
+        "bank_journal_tab": "EvA — Jurnal de bancă",
+        "first_account_positive": [
+          137,
+          6
+        ],
+        "empty_account": [
+          0,
+          0
+        ],
+        "doubleclick": {
+          "expected_literal": "Rândul e doar de citire; cauza diferenței se vede în coloana «Cauză».",
+          "actual_literal": "Rândul e doar de citire; cauza diferenței se vede în coloana «Cauză».",
+          "match_count": 1,
+          "dialogs": []
+        },
+        "doubleclick_same_source_key_and_pk_before_after": [
+          {
+            "id": 1000989,
+            "source_key": "A12-R10-147",
+            "verdict": "DE_LAMURIT",
+            "cause": "OGLINDA_SUMA_DIFERITA",
+            "pid": 1003143
+          }
+        ]
+      },
+      "limit": "Liniile/CSV aparțin perioadei ian–iun; alte conturi demo din listă și înregistrările Iul–Sep au fost excluse prin perioadă și reconcilieri. Selectorul contului poate fi gol la început; sumarul său trebuie verificat separat în martorul UX."
+    }
+  },
+  "finding": {
+    "id": "A12-R10-T06-UX-01",
+    "observed": "După contul A12R10-1 cu 137 rânduri, contul A12R10-10 nu afișează nicio linie, dar indicatorul păstrează valoarea precedentei selecții inclusiv la reîncărcarea explicită. Revenirea la toate conturile restabilește 168.",
+    "steps": [
+      {
+        "control": "prima-grila-137",
+        "elapsed_s": 1.22,
+        "selected": "A12R10-1",
+        "datefilter": [
+          "01.01.2026",
+          "30.06.2026"
+        ],
+        "dom_data_rows": 137,
+        "footer_and_explanation": [
+          "toate lunile se închid: 0 diferențe",
+          "6 luni · 137 rânduri · ultima rulare 02.11.2026"
+        ]
+      },
+      {
+        "control": "a-doua-grila-0",
+        "elapsed_s": 3.8,
+        "selected": "A12R10-10",
+        "datefilter": [
+          "01.01.2026",
+          "30.06.2026"
+        ],
+        "dom_data_rows": 0,
+        "footer_and_explanation": [
+          "6 luni · 137 rânduri · ultima rulare 02.11.2026"
+        ]
+      },
+      {
+        "control": "reincarca-cont-gol",
+        "elapsed_s": 3.8,
+        "selected": "A12R10-10",
+        "datefilter": [
+          "01.01.2026",
+          "30.06.2026"
+        ],
+        "dom_data_rows": 0,
+        "footer_and_explanation": [
+          "6 luni · 137 rânduri · ultima rulare 02.11.2026"
+        ]
+      },
+      {
+        "control": "revenire-toate",
+        "elapsed_s": 1.8,
+        "selected": "(toate conturile)",
+        "datefilter": [
+          "01.01.2026",
+          "30.06.2026"
+        ],
+        "dom_data_rows": 168,
+        "footer_and_explanation": [
+          "22 diferențe · Δ sold -4 163.00",
+          "6 luni · 168 rânduri · ultima rulare 02.11.2026"
+        ]
+      }
+    ],
+    "db": [
+      {
+        "name": "A12R10-1",
+        "rows": 137,
+        "groups": 6
+      },
+      {
+        "name": "A12R10-10",
+        "rows": 0,
+        "groups": 0
+      }
+    ],
+    "consequence": "Contabilul vede un număr de rânduri care aparține altui cont. Măsurarea nu a găsit o schimbare de date în lista contabilă.",
+    "code_reference": "WEvaComparatieBancaForm.java:265–270 (calea pentru lista goală revine după nota); :300 (indicatorul actualizat pe calea cu date).",
+    "proposed_retest": "Selectează 137 → 0 → Încarcă → toate conturile. Indicatorul perioadei și grila trebuie să arate 0 împreună, apoi 168. Include martorul și în nivelul Luni."
+  },
+  "controls": {
+    "dom_csv_rows_same_order": 168,
+    "columns": 25,
+    "compared_cells": 4200,
+    "normalized_whitespace_only": true,
+    "different_cells": 0,
+    "form_selected_dates": [
+      "01.01.2026",
+      "30.06.2026"
+    ],
+    "account_selection": "(toate conturile)",
+    "db_monthly_current_origin_instances": [
+      1003141
+    ],
+    "real_clicks": 2,
+    "files": {
+      "DOM_sesiune_verificata.json": "f3f79d61f31bd3eb71d23cebc479069d55e852a777183e845c77dc0f2e1e2b43",
+      "export_linii_ian_iunie.csv": "e7aa450c72eea0f27b0eb20674f53813ed1ae6fa46a0402b362f72820ac8a8ab",
+      "buton/capture_ui.json": "1349725d568a428070aa2d066d2ac771353d0d237a23a322accd5dc471b44228",
+      "martor_cont_gol/capture_ui.json": "a49646de6ff295c7aafd42ceed4b379df1203dd3f1eda65476dfbcd12a3ff186",
+      "doar_verifica/capture_ui.json": "8f8df2568ab5c0fb15004ef4b002473278e5cf57c86d6a6c228a688e834e9709",
+      "dubluclic/capture_ui.json": "ef30d0472a9026f1e035a88a486ee0aed93f5e5dfb1d363282ef36fb78dda289"
+    }
+  },
+  "implementation_grade": null,
+  "audit_grade": null
+}

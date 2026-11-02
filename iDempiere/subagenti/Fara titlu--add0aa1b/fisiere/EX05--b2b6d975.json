@@ -1,0 +1,582 @@
+{
+  "schema": "eva.audit.supplement.case.v3",
+  "case": "EX05",
+  "producer": "A06",
+  "consumer": "A05",
+  "reviewer": "A11",
+  "at": "2026-11-02T16:46:36.550091+00:00",
+  "status": "PARTIAL_CU_DIVERGENȚE_DEMONSTRATE",
+  "score": null,
+  "frozen_plan_sha": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+  "plan_gate_sha": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c",
+  "contract": {
+    "id": "EX05",
+    "executor": "A06",
+    "peer": "A05",
+    "objective": "Comandă de site, comandă ERP și rezervare G3",
+    "parent_controls": [
+      "A06-C07",
+      "A06-C10",
+      "A06-C18",
+      "A06-C25",
+      "A02.C022",
+      "A05-C01"
+    ],
+    "parent_pipelines": [
+      "A06-P2",
+      "A06-P4",
+      "A02.P05",
+      "A06-P6",
+      "A05-P01"
+    ],
+    "setup": "Două G1, un G2, CPP/CPA distincte, S1/S2 cu componente comune. Un responsabil preia în ERP și un actor fără drept rămâne pe site.",
+    "positive": "Urmărește exact o origine externă prin EVA_ComandaSite, C_Order/Line, M_StorageReservation, livrare și Fact_Acct înainte/după. Validează regula unei singure gestiuni pe linie și rezervarea fără a include achizițiile.",
+    "negative": "Aceeași origine în două cabinete; cerere nouă cu aceleași bunuri; retry după commit și anulare; comandă nouă locală fără C_Order; nu declara vânzare dacă nu se ajunge la DocAction.",
+    "expected_oracle": "Join păstrat prin ID extern/canal/firma până la stare/diferență, inclusiv lipsa efectului la actor străin.",
+    "independent": "A11",
+    "status": "BLOCAT DE GATE PÂNĂ LA NOTA 10/10 A PLANULUI SUPLIMENTAR",
+    "trace_task_or_boundary": "T22/T354 (P01.C03.T0028); T352 numai dacă regula de ofertă intervine",
+    "modules_tables": "EVA_ComandaSite, C_Order, C_OrderLine, M_StorageReservation, M_StorageOnHand, M_InOut, Fact_Acct; execuții A06 R2 și A05 R2",
+    "run_recipe": "Cabinet nativ dedicat cu două gestiuni, jurnal solicitat înainte+după. Corelează documentele prin originea lor, nu după apropiere în timp; dacă lipsesc configurațiile, listează cheia exactă și martorul configurației.",
+    "target_artifact": "executie/supliment_CESIRO1/probe/EX05.json",
+    "acceptance_peer_reviewer": "Sursele și rezultatele trebuie reconfirmate de A05 înainte ca A11 să evalueze EX05. Nicio auto-acceptare.",
+    "parent_edges": [
+      {
+        "control": "A06-C07",
+        "pipeline": "A06-P2",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/41/resolved_control_ids/2"
+      },
+      {
+        "control": "A06-C10",
+        "pipeline": "A06-P2",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/41/resolved_control_ids/5"
+      },
+      {
+        "control": "A06-C18",
+        "pipeline": "A06-P4",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/43/resolved_control_ids/0"
+      },
+      {
+        "control": "A06-C25",
+        "pipeline": "A06-P6",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/45/resolved_control_ids/2"
+      },
+      {
+        "control": "A02.C022",
+        "pipeline": "A02.P05",
+        "owner": "A02",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/13/resolved_control_ids/3"
+      },
+      {
+        "control": "A05-C01",
+        "pipeline": "A05-P01",
+        "owner": "A05",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/33/resolved_control_ids/0"
+      }
+    ],
+    "child_parent_criteria": [
+      {
+        "task": "T22",
+        "canonical": null,
+        "target": [
+          "P01.C10.T0007"
+        ],
+        "criterion_source": "executie/R3/taskuri/Fisa_T22.json",
+        "norm_pointer": "#/disposition_admin/successors",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX05"
+      },
+      {
+        "task": "T352",
+        "canonical": "P01.C10.T0028",
+        "target": [],
+        "criterion_source": "executie/R3/taskuri/Fisa_T352.json",
+        "norm_pointer": "#/source_literal",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX05"
+      },
+      {
+        "task": "T354",
+        "canonical": "P01.C03.T0028",
+        "target": [],
+        "criterion_source": "executie/R3/taskuri/Fisa_T354.json",
+        "norm_pointer": "#/source_literal",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX05"
+      }
+    ],
+    "fixture_cases": [
+      "Q-COM-01"
+    ],
+    "required_expected_fields": [
+      "customer/ship-to/bill-to identități + locații native, fără substituția adresei",
+      "cod CPP/CPA distinct ≠ SKU/EAN; cantitate și preț pe fiecare linie",
+      "sume net/discount/TVA/transport/gross în payload, obiectul persistat la sursă, C_Order/Line, C_OrderTax, document și Fact_Acct numai dacă se generează",
+      "zero acces B și consimțământ numai dacă se cere în contract; documentați lipsa mapării fără a inventa câmpuri native"
+    ],
+    "consumer_acceptance": {
+      "assignment": {
+        "dispatcher": "Coordonator P01",
+        "owner": "A06",
+        "consumer": "A05",
+        "object": "executie/supliment_CESIRO1/probe/EX05.json",
+        "status": "Alocare fermă în plan. Confirmarea de primire de către titular/consumator este înregistrată separat la predarea efectivă, înainte de execuția lui EX."
+      },
+      "result": {
+        "producer": "A06",
+        "consumer": "A05",
+        "what_to_sign": "versiune, case_id, hashes, rezultate negative/pozitive, ID-uri în ambele servicii, divergențe, judecată asupra oracolului și starea următorului pas",
+        "on_missing": "NECONFIRMAT; niciun PASS integral, revenire la executor și A11"
+      },
+      "independent": "A11"
+    }
+  },
+  "repos": {
+    "eva_git": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "EVA-git-JAR": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+    "EVA-installed-CESIRO-JAR": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+    "ERP-fixture-image": "sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235",
+    "CESIRO1-source-manifest": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be",
+    "container_network": "Intern, verificat prin Docker în gateway. Legătură dedicată fixture /api/ext/v1 GET; HTTP local de test; nicio interogare de producție sau nativitate TLS inferată."
+  },
+  "as_of_at_closure": "Aceste execuții sunt pe etalonul fixat și utilizatorii sintetici curenți. Nu atestă ce rula în producție la închiderea taskurilor istorice.",
+  "scope": "După deschiderea porții, API/PG/ERP native pe date de test; fără trafic spre parteneri. Capturi UI native din meniu nu fac parte din aceste probe, sunt înlocuite doar pentru acest nivel de intrări de procese native documentate.",
+  "case_family": "Q-COM-01",
+  "actor": "Operator ERP GardenAdmin și GardenUser, rol de releu creat separat în cabinetul de test; Q provine din checkoutul real C al A08; nu s-a folosit W pentru a popula C.",
+  "anchors": [
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SursaCesiro1.java",
+      "line": 244,
+      "symbol_or_text": "p.put(\"items\", \"0\")",
+      "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SursaCesiro1.java",
+      "line": 198,
+      "symbol_or_text": "static Detaliu detaliu(Object j",
+      "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "line": 89,
+      "symbol_or_text": "if (COMENZI.equals(ce))",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "line": 447,
+      "symbol_or_text": "p.set_ValueOfColumn(\"EVA_TotalComanda\"",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ValideazaComenzi.java",
+      "line": 29,
+      "symbol_or_text": "EVA_ValideazaComenzi",
+      "sha256": "d4495f9c4e84acf649d9e0b25cf7c1a6ebc1e5a2841dcea92f9f345861b14434"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PrimesteEvenimentSite.java",
+      "line": 204,
+      "symbol_or_text": "p.set_ValueOfColumn(\"EVA_StareEveniment\"",
+      "sha256": "52334f3e8c8fab0ba8b3fba4ab141fecd2998ef8be7f8da80aa03a6659abefec"
+    },
+    {
+      "source": "CESIRO1",
+      "path": "backend/app/api/external_orders.py",
+      "line": 166,
+      "symbol_or_text": "o.updated_at >= CAST(:updated_since AS timestamptz)",
+      "sha256": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c"
+    }
+  ],
+  "numeric_oracle": {
+    "ID": "Q-COM-01",
+    "currency": "RON, două zecimale. Rate și convenții sintetice de test; contract de test, fără interpretare ca regulă fiscală generală.",
+    "cabinet": "CAB_A",
+    "firm": "F_A",
+    "channel": "CANAL_A",
+    "actor": "comisionar_A nu poate vedea contactul ori comanda omonimă din B; responsabil ERP este alt actor",
+    "identity": {
+      "customer": "CONTACT-A7",
+      "shipping_contact": "SHIP-A7",
+      "bill": "Str. Contabilă 11 / Cluj",
+      "ship": "Str. Depozit 22 / Reșița",
+      "other_cabinet_customer": "CONTACT-B7, adresă-martor",
+      "marketing_consent": false
+    },
+    "product": [
+      {
+        "id": "CPP-1001",
+        "sku": "EXT7",
+        "quantity": 2,
+        "unit_net": "31.27",
+        "discount_pct": 10,
+        "round": "half-up pe linie net apoi TVA",
+        "net": "56.29",
+        "rate": "21%",
+        "tax": "11.82"
+      },
+      {
+        "id": "CPA-1002",
+        "sku": "EXT8",
+        "quantity": 1,
+        "unit_net": "12.35",
+        "discount_pct": 0,
+        "net": "12.35",
+        "rate": "11%",
+        "tax": "1.36"
+      }
+    ],
+    "transport": {
+      "net": "5.00",
+      "rate": "21%",
+      "tax": "1.05"
+    },
+    "expected": {
+      "lines_net": "68.64",
+      "net_with_transport": "73.64",
+      "tax": "14.23",
+      "gross": "87.87"
+    },
+    "compare_list": [
+      "customer/ship-to/bill-to identități + locații native, fără substituția adresei",
+      "cod CPP/CPA distinct ≠ SKU/EAN; cantitate și preț pe fiecare linie",
+      "sume net/discount/TVA/transport/gross în payload, obiectul persistat la sursă, C_Order/Line, C_OrderTax, document și Fact_Acct numai dacă se generează",
+      "zero acces B și consimțământ numai dacă se cere în contract; documentați lipsa mapării fără a inventa câmpuri native"
+    ],
+    "negative": "Schimbați exclusiv adresa de livrare, unitatea monedei sau transportul cu +0,01. Probele trebuie să detecteze locul precis al diferenței chiar dacă totalul general pare egal. Depozit/canal B livrează alt SKU local cu cifră identică și alt cumpărător."
+  },
+  "origin": {
+    "W": {
+      "order_id": "ORD-20261102-162148-56d71344",
+      "total_local": 111.8,
+      "presence_in_C": {
+        "id": "ORD-20261102-162148-56d71344",
+        "http": 404,
+        "body": {
+          "error": "not_found",
+          "message": "Comanda 'ORD-20261102-162148-56d71344' nu există"
+        }
+      },
+      "join_status": "ABSENT pentru această origine W în C, ERP nu acceptă o atribuire pe asemănare de sumă/oră."
+    },
+    "C": {
+      "order_uuid": "04255ef2-38dd-446f-89a7-d369a1a67335",
+      "business_number": "ORD-2026-000001",
+      "source_slug": "a08a2434a60e",
+      "source_fields_before_ERP": {
+        "billing": {
+          "address": "Str. Contabilă 11, Cluj-Napoca, Cluj, 400001",
+          "city": "Cluj-Napoca",
+          "country": "RO",
+          "county": "Cluj",
+          "label": "Cluj-Napoca",
+          "line1": "Str. Contabilă 11",
+          "line2": "",
+          "postal_code": "400001",
+          "postcode": "400001"
+        },
+        "shipping": {
+          "address": "Str. Depozit 22, Reșița, Caraș-Severin, 320001",
+          "city": "Reșița",
+          "country": "RO",
+          "county": "Caraș-Severin",
+          "label": "Reșița",
+          "line1": "Str. Depozit 22",
+          "line2": "",
+          "postal_code": "320001",
+          "postcode": "320001"
+        },
+        "items": [
+          {
+            "discount_ron": 0.0,
+            "ean": null,
+            "external_id": "CPP-1001",
+            "image": null,
+            "line_total_gross_ron": 68.12,
+            "list_unit_price_gross_ron": 34.06,
+            "name": "A CPP-1001",
+            "offer_id": "29db24c9-6dae-4d0e-8524-43a4abaa1df0",
+            "offer_label": "-10% Q sintetic",
+            "offer_percent": 10,
+            "product_id": "be6b7763-fd36-4434-9879-a307eef1ba69",
+            "qty": 2,
+            "regular_price_ron": 37.84,
+            "sku": "EXT7",
+            "unit_price_gross_ron": 34.06
+          },
+          {
+            "discount_ron": 0.0,
+            "ean": null,
+            "external_id": "CPA-1002",
+            "image": null,
+            "line_total_gross_ron": 13.71,
+            "list_unit_price_gross_ron": 13.71,
+            "name": "A CPA-1002",
+            "offer_id": null,
+            "offer_label": null,
+            "offer_percent": null,
+            "product_id": "0a6aac1d-c23f-440a-82cb-1f05e2697130",
+            "qty": 1,
+            "regular_price_ron": 13.71,
+            "sku": "EXT8",
+            "unit_price_gross_ron": 13.71
+          }
+        ],
+        "totals": {
+          "currency": "RON",
+          "discount_total_ron": 0.0,
+          "exchange_rate": 1.0,
+          "products_gross_ron": 81.83,
+          "products_net_ron": 67.63,
+          "products_subtotal_ron": 81.83,
+          "shipping_total_ron": 6.05,
+          "total_display": 87.88,
+          "total_ron": 87.88,
+          "vat_rate": 0.21,
+          "vat_total_ron": 14.2
+        }
+      },
+      "source_snapshot_current": "A08 a adăugat ulterior un mutant C în A; de aceea ingestia reală a văzut 7 în A, captura EX03_C_Q inițială avea 6."
+    },
+    "ERP": {
+      "source": "EX05A",
+      "staging_id": "1000006",
+      "external_id": "04255ef2-38dd-446f-89a7-d369a1a67335",
+      "number": "ORD-2026-000001",
+      "total": "87.88",
+      "currency": "RON",
+      "owned": "N",
+      "validation": "EXCLUS",
+      "stage_line_count": "0",
+      "C_Order_ID": null,
+      "M_InOut_ID": null,
+      "C_Invoice_ID": null,
+      "warehouse_or_reservation_id_linked": null,
+      "commission_or_fact_linked": null
+    }
+  },
+  "steps": [
+    {
+      "operation": "Set source accounts and permissions via PO; configure both private synthetic tenants",
+      "expected": "Citirea trebuie să funcționeze doar pentru sursele configurate, fără scriere platformă.",
+      "actual": "Cu EVA_Conturi lipsă, procesul răspunde HTTP 200/isError=true. După completare nativă, A și B pot fi citite separat; ambele au EVA_SursaProprie=Y, EVA_VanzariOnline=Y, EVA_ScrierePermisa=N."
+    },
+    {
+      "operation": "EVA_PreiaDinSite COMENZI on Q A, replay, B",
+      "expected": "1 origin per qualified source and no double posting.",
+      "actual": [
+        "comenzi: 7 noi, 0 actualizate, 0 neschimbate · AWB: 0 noi, 0 actualizate · 8 cereri GET",
+        "comenzi: 0 noi, 0 actualizate, 7 neschimbate · AWB: 0 noi, 0 actualizate · 1 cereri GET",
+        "comenzi: 1 noi, 0 actualizate, 0 neschimbate · AWB: 0 noi, 0 actualizate · 2 cereri GET"
+      ]
+    },
+    {
+      "operation": "EVA_ValideazaComenzi on exact EVA_ComandaSite_ID",
+      "expected": "Controlul cere legare cu C_Order și bugetul componentelor, sau motiv urmărit al refuzului.",
+      "actual": "Comenzi: 1; cu documente emise: 0; propuse / reținute: 0; în coadă: 0; excluse: 1.; rezultat EXCLUS, fără linii. Au rămas 8 C_Order native existente înainte/după, numărul Fact_Acct și pozițiile M_StorageReservation au rămas la valorile de control. Verificarea decisivă este legătura nulă pe antet și 0 linii pentru același ID."
+    },
+    {
+      "operation": "Rol de releu și eveniment semnat controlat cu nr exact",
+      "expected": "Separă simpla primire a evenimentului de procesarea comercială.",
+      "actual": {
+        "missing_by_default": [],
+        "added_in_fixture_only": "Rol minim conform numelui programat, o organizație și o singură permisiune de proces, fără cascadă de drepturi comerciale.",
+        "results": [
+          {
+            "case": "wrong_role",
+            "error": true,
+            "text": "Procesul primește evenimente doar cu rolul «Releu evenimente site»."
+          },
+          {
+            "case": "signed_relay",
+            "error": false,
+            "text": "primit: Eveniment primit: order.updated, comanda ORD-2026-000001"
+          },
+          {
+            "case": "replay_relay",
+            "error": false,
+            "text": "replay: Eveniment refuzat: replay (0 rânduri scrise)"
+          },
+          {
+            "case": "role_read",
+            "error": true,
+            "text": "Procesul primește evenimente doar cu rolul «Releu evenimente site»."
+          }
+        ],
+        "event_rows": [
+          [
+            "order.updated",
+            "ORD-2026-000001",
+            "PRIMIT"
+          ]
+        ],
+        "sales_result": [
+          [
+            "1000006",
+            "N",
+            "EXCLUS",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "scheduler_state": "Dezactivat prin garda clonei; rezultatul nu demonstrează ce ar procesa o altă instalație ulterior. Emiterea automată din checkout C nu a fost observată."
+      }
+    }
+  ],
+  "arithmetic": {
+    "source_expected": "net produse 68.64 + transport 5.00, TVA total 14.23, total 87.87",
+    "source_C": "ERP preia 87.88 din C (68.12+13.71+6.05); mutația și configurația categoriei C sunt documentate de A08. C.products_net_ron=67.63 și vat_total_ron=14.20 au sensul câmpurilor sursă. Nu adăuga de două ori TVA transport; rubrica de taxă din site poate acoperi alte linii decât oracolul.",
+    "ERP": "Fără C_OrderLine/C_OrderTax nu se poate afirma net/brut/TVA pe document sau comision."
+  },
+  "verdict_by_boundary": {
+    "W_to_C": "INFIRMAT_PENTRU_ID_W_TESTAT_404",
+    "C_to_EVA_ComandaSite": "CONFIRMAT_E2E_API_C→PROCES_ERP→ANTET_PERSISTAT_SEPARAT_PER_SURSĂ",
+    "idempotency_staging": "CONFIRMAT la replay al aceleiași surse. Checkoutul care a creat un UUID extern nou la fiecare retry este altă problemă.",
+    "header_to_line_and_native_order": "INFIRMAT pentru traseul efectiv COMENZI+VALIDEZ în această configurație. Nicio linie, antetul preluat din sursa proprie de test rămâne marcat N; fără legătură native.",
+    "webhook_to_customer_document": "Semnătura controlată este primită de rol minim; a doua primire este respinsă ca replay; nu implică generare de comandă. Este eveniment sintetizat în mod explicit, nu atribuit checkoutului.",
+    "warehouse_and_document_side": "BLOCAT_DEPENDENȚĂ pe această origine; comparația R2 cu SO standard și stoc disponibil este separată.",
+    "cross_tenant_scope": "În aceeași firmă ERP, două fișe private de canal cu același număr comercial, dar UUID-uri externe distincte, rămân separate. Două cabinete fizice și drepturile unui comisionar nu au fost probate de această configurație."
+  },
+  "handoff": {
+    "A05": "confirmă refuzul și lipsa rezervării/mișcării până când există C_Order/Line pentru ID extern exact. Nu atribui cei 12/6 din două SO sintetice altui flux.",
+    "A08": "trimite ID-ul nativ antet consumatorului; separă W JSON de C/Postgres și de ruta nativă de validare.",
+    "A03/A07": "nu există document ori efect financiar după simpla ingestie pentru Q; probele lor native H/RMA sunt alte documente."
+  },
+  "native_first": "Păstrează MOrder/MOrderLine, MProduct, preț/UM/TVA nativă și Application Dictionary. Rezolvă frontieră lipsă prin maparea canal+origine+partener+locații+produse și autorizare documentată în ERP. Dacă un alt consumator existent poate popula linii, dovedește-l pe același UUID, inclusiv anulare/retur, înaintea unei extensii noi.",
+  "evidence": [
+    {
+      "file": "executie/A11_gate_CESIRO1_R3.json",
+      "sha256": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c"
+    },
+    {
+      "file": "executie/R2_zone/A06/A06_raport.json",
+      "sha256": "a910d1d6d72550dea69d0e6514cb98d954183d28c2328bcc6b895abbdfe48def"
+    },
+    {
+      "file": "executie/Reverificare_G3_rezervare_canal.json",
+      "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/Plan_CESIRO1_R3.json",
+      "sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03.json",
+      "sha256": "8b291ebb7f75afcae83a6d9f7606f5b016e3a9594b302d0f4320fe0a4ce9dfb7"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_C_Q_raw.json",
+      "sha256": "90cb48df960c71ef1c07186dda10402e2c455c89f2d13c0930d05dae677182b1"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_mutant.json",
+      "sha256": "8bfdfc9264e522577bc981ee220566d852da245e8ae3fc0a817fa1cfdbe9a9bf"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_peer_A06.json",
+      "sha256": "ee67030a950c8500aa4711f715a63bb90755d01f7f3b2888a0dcca56f4f14dda"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_W_raw.json",
+      "sha256": "296952d9551bbab630e76bbd0a44eb8a5518718b3b15378c4d9afcc317b63503"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-commit-before-cursor.json",
+      "sha256": "48f3d5a5314fc03b488f1cc39ecd570b0716c642d41f62c2f3437d6837a3673c"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-race.json",
+      "sha256": "9af56b31f7f673561e7cafa66a8f5aa28249a36558990e97981c50a8f75420f5"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/alt.py",
+      "sha256": "c3e40b08f5c1f2a95563347a32e06638804428aed62b9e03d0c336612630fdd6"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/ex05-webhook-configured.json",
+      "sha256": "7045b574bcd4aff35d08635f1dfc72cf67b72a61a174b285789672168280d428"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/ex05-webhook.json",
+      "sha256": "017ae4448ffa479d23a020f6e0b2406f0ea3cadebcd806fba05bec4291a9ed01"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/fixture-q.json",
+      "sha256": "40fe303137a49745161ecde27318d8db6930a286c168c4d0b0dc2781b482eb04"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/gateway.py",
+      "sha256": "999023f69bab0777c62ab488213d1b27f8fdd871f759efd33a675e0a7f813d95"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/meta.json",
+      "sha256": "0ac78a49daac852ffc92c52db1896486d3a47183035671f03b33fea78dffa959"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/native-ex05-alt.json",
+      "sha256": "ca7912781912f8990489d19003ba969c2afca1b5ad0c15ed231145e45e52616a"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/native-ex05.json",
+      "sha256": "d9b7e69ab14134c80088446beb29028724a7be64b5d2e1ecd0fe373a75bc13f2"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/native-ex05.py",
+      "sha256": "3bf4ba03a7cb605b60eb839290e09479f04de94430ff2ec1084f3b55233b8e0c"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/native-meta.py",
+      "sha256": "aca5104487718c5e536545a7e3eb31ba1620b6bc6a870b8b43e68e1e47895b04"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/native-source-unconfigured.json",
+      "sha256": "c528704786ee2aa4d202b9f1ce2b69d8504d34c2e26b9a503e0d6e6eb976e5c4"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/relay-local-Q.json",
+      "sha256": "8a812be4efb63138707f0e6e271a7e5a8ec1eb06414a8b7d02e9e661da14c456"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/relay-role.json",
+      "sha256": "866f9a6afa7bfc2cb5706271d4a4e59d4786c3a574f763c5fb3d2c37d0364fad"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/relay.py",
+      "sha256": "c9c6d566394c0566ed4e33261c8e9025dcbd3d45806a2167721e42bd128d4b1a"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/role-webhook.py",
+      "sha256": "de23af4f69bed174389c65e0e79a6cc036e7b21fe7ebd48a7b0ec15fa973b18a"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/run-erp.py",
+      "sha256": "38bf268f15aff7af2a2510ccd2e495ed211df4955946db52efbcb7f38614119e"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/supervisor.sh",
+      "sha256": "b420b9c919a9a41507ba9c893851a9309cc6ae3b4e1b9ac0cd8902e007a31cb9"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX05-evidence/webhook-native.py",
+      "sha256": "62ca65de2f436120e4a4778949aeddb7e03db083cd49a62834bb7c56b5fe991f"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX07-evidence/wire-result.json",
+      "sha256": "d10786ff62e0c35834b6e0bef44c1489c718b65122e2bb63f8c6727cae1f59a5"
+    }
+  ],
+  "cleanup": "Container ERP și rețea private sunt în curs de restituire la sigilare, cu gard §40. Dovezile de cleanup se adaugă separat și nu schimbă acest hash.",
+  "peer_acceptance": "Pending at signature, needs independent file.",
+  "quality_score": null
+}

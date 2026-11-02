@@ -2,7 +2,7 @@
 
 ID: `01a1811a-6404-7bf0-83dc-9c569339ad57`  
 Proiect: WildMotion  
-Export UTC: 2026-11-02T15:26:35.221418+00:00
+Export UTC: 2026-11-02T21:26:40.664214+00:00
 
 Mesajele sunt redate integral mai jos. Rezultatele instrumentelor sunt în rezultate.md și istoric.json. Fișierele recuperate sunt în fisiere/.
 
@@ -144,3 +144,33 @@ Verific dacă a venit un răspuns de la ATVRom la solicitarea pentru cele trei A
 Încă nu apare niciun răspuns sau ofertă de la ATVRom în **production@cesiro.ro**.
 
 Solicitarea a fost trimisă astăzi, **29 octombrie, la 13:22**, către Cristian Margeanu, cu certificatul CUI atașat. Verificarea acoperă mesajele sincronizate până la **18:30**.
+
+## Utilizator
+
+Am primit facturi proforma de la vânzători de ATV pe production@cesiro.ro din Timișoara ?
+
+## Asistent
+
+Verific mesajele primite pe production@cesiro.ro și atașamentele lor, ca să disting facturile proforme de simplele oferte și să confirm dacă provin din Timișoara.
+
+## Asistent
+
+Da. Pe **production@cesiro.ro** a sosit **o factură proformă** de la Cristian Margeanu (ATVRom), pe **30 octombrie 2026, la 13:42**, ca răspuns la solicitarea pentru cele trei ATV-uri. Nu pot confirma că provine din Timișoara: pe proformă, emitentul **CMC Moto Class Company SRL** figurează cu sediul în **Tunari, Ilfov**, iar mesajul nu indică punctul de vânzare.
+
+Proforma **nr. 24961 din 29.10.2026** este emisă pe CESIRO PRODUCTION SRL, pentru **198.547,47 lei cu TVA**, inclusiv cele trei cărți de identitate ale vehiculelor.
+
+**Diferență față de contract:** proforma și fișa tehnică indică varianta **CFMOTO CFORCE 1000 X10 Premium, Royal Blue**, în timp ce solicitarea preciza codul **CF1000AU-2 EPS Basic**. Furnizorul nu confirmă în răspuns că varianta ofertată corespunde acestui cod. Nu a atașat un contract separat.
+
+## Utilizator
+
+Dă-mi factura proforma să o văd
+
+## Asistent
+
+Deschid atașamentul original din răspunsul ATVRom și îți dau linkul către PDF.
+
+## Asistent
+
+[Deschide factura proformă ATVRom nr. 24961 din 29.10.2026 (PDF original)](https://api.eva-org.com/api/v1/files/eyJkIjoiMjhhNDVlMTMtODY0My00ZWEwLThjZWEtNDY4OGMwYmQyODlhIiwiZSI6MTc5MzczODQ0OCwicyI6InRlbmFudF9jb3ZhY2l1X2dubV9nbWFpbF9jb20iLCJ1IjoiNDA0ZDliMTUtOWYzZS00ZWFkLThhZjgtMjA0YmVhNzJhZWQ3In0.h4AW3y4eo7t08kq8QxUua3abBB9cTbGfUd9aenUhSn0)
+
+**Total: 198.547,47 lei cu TVA.** Proforma indică varianta **Premium Royal Blue**, în timp ce solicitarea preciza **CF1000AU-2 EPS Basic**. Linkul este valabil 24 de ore.

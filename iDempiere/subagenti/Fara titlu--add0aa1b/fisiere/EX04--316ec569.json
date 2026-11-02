@@ -1,0 +1,579 @@
+{
+  "schema": "eva.audit.supplement.case.v3",
+  "case": "EX04",
+  "producer": "A06",
+  "consumer": "A02",
+  "reviewer": "A11",
+  "at": "2026-11-02T16:46:36.087363+00:00",
+  "status": "PARTIAL_CU_DIVERGENȚE_DEMONSTRATE",
+  "score": null,
+  "frozen_plan_sha": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+  "plan_gate_sha": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c",
+  "contract": {
+    "id": "EX04",
+    "executor": "A06",
+    "peer": "A02",
+    "objective": "Cursor, paginare, reluare și deduplicarea sursei",
+    "parent_controls": [
+      "A06-C18",
+      "A02.C014",
+      "A02.C015",
+      "A10-CK-12"
+    ],
+    "parent_pipelines": [
+      "A06-P4",
+      "A02.P05",
+      "A10-F03"
+    ],
+    "setup": "Comenzi sintetice cu ID extern repetat pe canale, pagină plină, două timestampuri egale și actualizare târzie.",
+    "positive": "Invocă SursaCesiro1 din JAR Git și din JAR instalat față de serverul de fixture; înregistrează cursor, companie, canal, monedă, identificatori, cantități. Reia înainte și după persistarea fiecărei pagini.",
+    "negative": "429, 500, JSON trunchiat, timeouts, mutație în timpul paginării, anulat înainte de procesare.",
+    "expected_oracle": "Zero pierderi/dublări pentru contractul identificat sau diferență demonstrată și punct de reluare documentat; înregistrează diferențele de JAR.",
+    "independent": "A11",
+    "status": "BLOCAT DE GATE PÂNĂ LA NOTA 10/10 A PLANULUI SUPLIMENTAR",
+    "trace_task_or_boundary": "T20/T35; cursor și citire externă",
+    "modules_tables": "SursaCesiro1.java, TransportDoarGet, PreiaDinSite, CitirePlatforma; exactitatea a două JAR-uri verificate prima dată",
+    "run_recipe": "Driver java -cp pentru JAR instalat și versiune Git; furnizor HTTP de test cu TLS sau transport Java injectabil; adnotare explicită dacă nu se folosește circuitul TLS real.",
+    "target_artifact": "executie/supliment_CESIRO1/probe/EX04.json",
+    "acceptance_peer_reviewer": "Sursele și rezultatele trebuie reconfirmate de A02 înainte ca A11 să evalueze EX04. Nicio auto-acceptare.",
+    "parent_edges": [
+      {
+        "control": "A06-C18",
+        "pipeline": "A06-P4",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/43/resolved_control_ids/0"
+      },
+      {
+        "control": "A02.C014",
+        "pipeline": "A02.P05",
+        "owner": "A02",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/13/resolved_control_ids/0"
+      },
+      {
+        "control": "A02.C015",
+        "pipeline": "A02.P05",
+        "owner": "A02",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/13/resolved_control_ids/1"
+      },
+      {
+        "control": "A10-CK-12",
+        "pipeline": "A10-F03",
+        "owner": "A10",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/69/resolved_control_ids/0"
+      }
+    ],
+    "child_parent_criteria": [
+      {
+        "task": "T20",
+        "canonical": null,
+        "target": [
+          "P01.C10.T0011"
+        ],
+        "criterion_source": "executie/R3/taskuri/Fisa_T20.json",
+        "norm_pointer": "#/disposition_admin/successors",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX04"
+      },
+      {
+        "task": "T22",
+        "canonical": null,
+        "target": [
+          "P01.C10.T0007"
+        ],
+        "criterion_source": "executie/R3/taskuri/Fisa_T22.json",
+        "norm_pointer": "#/disposition_admin/successors",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX04"
+      },
+      {
+        "task": "T35",
+        "canonical": null,
+        "target": [
+          "P01.C10.T0002"
+        ],
+        "criterion_source": "executie/R3/taskuri/Fisa_T35.json",
+        "norm_pointer": "#/disposition_admin/successors",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX04"
+      }
+    ],
+    "fixture_cases": [
+      "CURSOR-01"
+    ],
+    "consumer_acceptance": {
+      "assignment": {
+        "dispatcher": "Coordonator P01",
+        "owner": "A06",
+        "consumer": "A02",
+        "object": "executie/supliment_CESIRO1/probe/EX04.json",
+        "status": "Alocare fermă în plan. Confirmarea de primire de către titular/consumator este înregistrată separat la predarea efectivă, înainte de execuția lui EX."
+      },
+      "result": {
+        "producer": "A06",
+        "consumer": "A02",
+        "what_to_sign": "versiune, case_id, hashes, rezultate negative/pozitive, ID-uri în ambele servicii, divergențe, judecată asupra oracolului și starea următorului pas",
+        "on_missing": "NECONFIRMAT; niciun PASS integral, revenire la executor și A11"
+      },
+      "independent": "A11"
+    }
+  },
+  "repos": {
+    "eva_git": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "EVA-git-JAR": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+    "EVA-installed-CESIRO-JAR": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+    "ERP-fixture-image": "sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235",
+    "CESIRO1-source-manifest": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be",
+    "container_network": "Intern, verificat prin Docker în gateway. Legătură dedicată fixture /api/ext/v1 GET; HTTP local de test; nicio interogare de producție sau nativitate TLS inferată."
+  },
+  "as_of_at_closure": "Aceste execuții sunt pe etalonul fixat și utilizatorii sintetici curenți. Nu atestă ce rula în producție la închiderea taskurilor istorice.",
+  "scope": "După deschiderea porții, API/PG/ERP native pe date de test; fără trafic spre parteneri. Capturi UI native din meniu nu fac parte din aceste probe, sunt înlocuite doar pentru acest nivel de intrări de procese native documentate.",
+  "case_family": "CURSOR-01",
+  "objective": "3+1 origini, egalitate temporală, reluare și refuzuri fără pierderea poziției",
+  "actor": "Serviciu de citire CESIRO1, exclusiv GET; nativ GardenAdmin în cabinet sintetic GardenWorld.",
+  "anchors": [
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SursaCesiro1.java",
+      "line": 243,
+      "symbol_or_text": "p.put(\"per_page\", \"0\")",
+      "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SursaCesiro1.java",
+      "line": 246,
+      "symbol_or_text": "for (Object o : lista(cere(\"/orders\", p), \"items\"))",
+      "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "line": 291,
+      "symbol_or_text": "static List<Timestamp[]> ferestre",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "line": 320,
+      "symbol_or_text": "for (SursaCesiro1.ComandaSursa c0 : s.comenzi(f[0], f[1], null))",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "line": 332,
+      "symbol_or_text": "if (!deActualizat(c,",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "line": 365,
+      "symbol_or_text": "commitEx();",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823"
+    },
+    {
+      "source": "EVA",
+      "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "line": 154,
+      "symbol_or_text": "marcheazaSursa(ctx, idFisa, true",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823"
+    },
+    {
+      "source": "CESIRO1",
+      "path": "backend/app/api/external_orders.py",
+      "line": 166,
+      "symbol_or_text": "o.updated_at >= CAST(:updated_since AS timestamptz)",
+      "sha256": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c"
+    },
+    {
+      "source": "CESIRO1",
+      "path": "backend/app/api/external_orders.py",
+      "line": 237,
+      "symbol_or_text": "keys = keys[(page - 1) * per_page",
+      "sha256": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c"
+    }
+  ],
+  "positive": {
+    "expected": "A 3 comenzi, B 1 cu același nr ca A101, ID diferit; crash după persistare, la replay A101/A102/A103 păstrate, update A102 o singură dată.",
+    "actual": {
+      "raw_paged_order_and_ids": [
+        {
+          "page": 1,
+          "status": 200,
+          "total": 3,
+          "pages": 3,
+          "ids": [
+            "a1000000-0000-4000-8000-000000000103"
+          ]
+        },
+        {
+          "page": 2,
+          "status": 200,
+          "total": 3,
+          "pages": 3,
+          "ids": [
+            "a1000000-0000-4000-8000-000000000102"
+          ]
+        },
+        {
+          "page": 3,
+          "status": 200,
+          "total": 3,
+          "pages": 3,
+          "ids": [
+            "a1000000-0000-4000-8000-000000000101"
+          ]
+        }
+      ],
+      "other_tenant": {
+        "page": 1,
+        "status": 200,
+        "total": 1,
+        "pages": 1,
+        "ids": [
+          "b2000000-0000-4000-8000-000000000101"
+        ]
+      },
+      "native_rows": [
+        [
+          "CURSA",
+          "ORD101",
+          "a1000000-0000-4000-8000-000000000101",
+          "1000011",
+          "2026-11-02 10:00:00",
+          "87.87"
+        ],
+        [
+          "CURSA",
+          "ORD102",
+          "a1000000-0000-4000-8000-000000000102",
+          "1000010",
+          "2026-11-02 16:42:53.977366",
+          "87.87"
+        ],
+        [
+          "CURSA",
+          "ORD103",
+          "a1000000-0000-4000-8000-000000000103",
+          "1000009",
+          "2026-11-02 10:00:01",
+          "87.87"
+        ],
+        [
+          "CURSB",
+          "ORD101",
+          "b2000000-0000-4000-8000-000000000101",
+          "1000012",
+          "2026-11-02 10:00:00",
+          "87.87"
+        ]
+      ],
+      "restart_same_ids": true,
+      "before_restart_cursor": [
+        [
+          "CURSA",
+          ""
+        ],
+        [
+          "CURSB",
+          ""
+        ]
+      ],
+      "after_restart_cursor": [
+        [
+          "CURSA",
+          "2026-11-02 10:00:01"
+        ],
+        [
+          "CURSB",
+          ""
+        ]
+      ],
+      "late_change": {
+        "http": 200,
+        "error": false,
+        "summary": "comenzi: 0 noi, 1 actualizate, 2 neschimbate · AWB: 0 noi, 0 actualizate · 2 cereri GET",
+        "instance": null
+      },
+      "transport": "Ambele JAR SursaCesiro1 au citit 3 și 1 separat; procesul instalat în cabinetul dedicat a persistat antetele în EVA_ComandaSite.",
+      "window_semantics": "Conectorul cere per_page=0, items=0; procesul PreiaDinSite a folosit date [zi,zi+1) și nu a trimis updated_since. Captarea API cu page size 1 a întors 103,102,101 deoarece ordonarea serverului este descrescătoare. Direct până în aceeași zi cu capăt exclusiv dă zero, procesul normal adaugă ziua următoare."
+    },
+    "verdict": "CONFIRMAT PE TRASEU GET→ERP→DB pentru acest interval, inclusiv persist/retry."
+  },
+  "negative": [
+    {
+      "case": "fault after durable order batch before cursor update",
+      "actual": "Trigger numai pe clona de test refuză schimbarea checkpointului după commit. 3 rânduri persistă, cursor gol; apoi altă sesiune a procesului revede 3 existente, fără ID-uri noi; cursor trece la 10:00:01. Trigger eliminat în finally.",
+      "verdict": "CONFIRMAT"
+    },
+    {
+      "case": "429 / 500 / malformed JSON / failure during detail",
+      "actual": "La toate ERP isError=true, zero rânduri sau cursor prematur în execuția test. Reușita nouă a recuperat întreaga fereastră.",
+      "verdict": "CONFIRMAT"
+    },
+    {
+      "case": "valid but partial envelope",
+      "actual": "total=3, pages=3, per_page=1, items=[]. Ambii adaptori tratează rezultatul ca OK cu 0 rânduri; procesul nativ a raportat succes. În test cursorul virgin a rămas gol: nu a fost demonstrată o pierdere permanentă. Contractul cere diferențiere între listă goală legitimă și răspuns incomplet.",
+      "verdict": "INFIRMAT"
+    },
+    {
+      "case": "Mutation during offset pagination, external API consumer only",
+      "actual": {
+        "pages": [
+          {
+            "page": 1,
+            "status": 200,
+            "total": 3,
+            "pages": 3,
+            "ids": [
+              "a1000000-0000-4000-8000-000000000103"
+            ]
+          },
+          {
+            "page": 2,
+            "status": 200,
+            "total": 3,
+            "pages": 3,
+            "ids": [
+              "a1000000-0000-4000-8000-000000000103"
+            ]
+          },
+          {
+            "page": 3,
+            "status": 200,
+            "total": 3,
+            "pages": 3,
+            "ids": [
+              "a1000000-0000-4000-8000-000000000101"
+            ]
+          }
+        ],
+        "observed_ids": [
+          "a1000000-0000-4000-8000-000000000103",
+          "a1000000-0000-4000-8000-000000000103",
+          "a1000000-0000-4000-8000-000000000101"
+        ]
+      },
+      "verdict": "INFIRMAT pentru consumatorul paginat la ordinea mutată; nu este algoritmul normal al adaptorului care cere fereastra integrală."
+    },
+    {
+      "case": "Genuine concurrent import plus retry",
+      "actual": {
+        "process_outcomes": [
+          {
+            "http": 200,
+            "error": false,
+            "summary": "comenzi: 3 noi, 0 actualizate, 0 neschimbate · AWB: 0 noi, 0 actualizate · 4 cereri GET"
+          },
+          {
+            "http": 409,
+            "error": null,
+            "summary": "eva_preiadinsite"
+          }
+        ],
+        "after": [
+          [
+            "a1000000-0000-4000-8000-000000000101",
+            "ORD101",
+            "placed",
+            "1000015",
+            "",
+            "0"
+          ],
+          [
+            "a1000000-0000-4000-8000-000000000102",
+            "ORD102",
+            "placed",
+            "1000014",
+            "",
+            "0"
+          ],
+          [
+            "a1000000-0000-4000-8000-000000000103",
+            "ORD103",
+            "cancelled",
+            "1000013",
+            "",
+            "0"
+          ]
+        ],
+        "retry": {
+          "http": 200,
+          "error": false,
+          "summary": "comenzi: 0 noi, 0 actualizate, 3 neschimbate · AWB: 0 noi, 0 actualizate · 1 cereri GET"
+        }
+      },
+      "verdict": "3 ori un ID, un apel concurent 409, retry revede aceleași trei, nicio triplare sau coliziune de număr cross-tenant observată."
+    },
+    {
+      "case": "cancelled order",
+      "actual": "A103 anulat în sursă după prima ingestie și înainte de validarea ERP: reconsultarea antetului a schimbat exact 1 rând la anulare, păstrând ID-ul nativ; nicio legătură C_Order pentru origine.",
+      "verdict": "CONFIRMAT_PENTRU_ANTET"
+    },
+    {
+      "case": "timeout",
+      "actual": "Timpul de expirare standard al HTTP Java este 180 s. Testarea exactă a expirării la 180s nu este echivalentă cu un HTTP 500. Test separat pe transport injectat sau socket de timeout trebuie dovedit înainte de închidere integrală.",
+      "verdict": "NEEXECUTAT_E2E_TIMEOUT_NATIV"
+    }
+  ],
+  "handoff": {
+    "A02": "confirmă domeniul cheii (client, sursă, ID extern), tranzacția, egalitatea cursorului și identitatea la reluare pe fișierele native-*",
+    "A10": "confirmă erorile, răspunsul valid incomplet, reluările și limita de timp/volum"
+  },
+  "retained_risk": "Pentru un volum mare per fereastră, per_page=0 ține răspunsul întreg în memorie. Volumul maxim și SLA nu au fost măsurate. Ora sursei la update este gestionată de trigger și poate fi diferită de valoarea sintetică cerută.",
+  "evidence": [
+    {
+      "file": "executie/A11_gate_CESIRO1_R3.json",
+      "sha256": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c"
+    },
+    {
+      "file": "executie/R2_zone/A06/A06_raport.json",
+      "sha256": "a910d1d6d72550dea69d0e6514cb98d954183d28c2328bcc6b895abbdfe48def"
+    },
+    {
+      "file": "executie/Reverificare_G3_rezervare_canal.json",
+      "sha256": "431459a0ed11eaad663c67d0877e0f7ac7d106a1bb3184078f6bb8d4d4ec5885"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/Plan_CESIRO1_R3.json",
+      "sha256": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03.json",
+      "sha256": "8b291ebb7f75afcae83a6d9f7606f5b016e3a9594b302d0f4320fe0a4ce9dfb7"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_peer_A06.json",
+      "sha256": "ee67030a950c8500aa4711f715a63bb90755d01f7f3b2888a0dcca56f4f14dda"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/Ex04Wire.java",
+      "sha256": "c8cd93a8f61a66e84e7e658f0ff75e99d9da15bfae064fd5dc0a1bca09fa1772"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-429-empty.json",
+      "sha256": "3a780b7be36a461f37bd5cc715c06083c928f03af3496ac63de07387dae5661e"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-500-empty.json",
+      "sha256": "644b5cb11e8e04257cf261872a2c550f60114f4d56fa5c00bc946549409adc82"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-B-identity.json",
+      "sha256": "1d460599eb7db33f2a32c5de58c38a2dd87883692b85fcb6bc578e0cc1bb1f71"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-cancel.json",
+      "sha256": "0231622c60b0299b24eaaefeacdf91e0cd60fb7bd326976aa4815628898c738b"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-commit-before-cursor.json",
+      "sha256": "48f3d5a5314fc03b488f1cc39ecd570b0716c642d41f62c2f3437d6837a3673c"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-cursor.py",
+      "sha256": "8da9f71c01ad605a95d26b5ff2ba745933ac1df03e04951f173b44c638752461"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-fault-in-detail.json",
+      "sha256": "68e290f27b9c91f07c6e97e0b6a37e95efc5cc3785c7a224fda4ae0e555ab266"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-late-update.json",
+      "sha256": "1ee35b3a193859221703fc6452e25d7d688f285fecd2b9142c8cdbe3f4f6bcdc"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-partial-empty.json",
+      "sha256": "98a5874ffa71c121be63b4afec0a227f0a387f8751d9fdf6bb74b8cf8f87e422"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-race.json",
+      "sha256": "9af56b31f7f673561e7cafa66a8f5aa28249a36558990e97981c50a8f75420f5"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-restart.json",
+      "sha256": "fa756d73c8a78b8c6ddcf7337cda2dd43ff4562b5b196d63e85104e84d1f8aef"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-setup.json",
+      "sha256": "78035a2d424684cdd3eafda91d47680cd4b9f227c28a2b14ad94ac80aeefd419"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-stable-replay.json",
+      "sha256": "610e4e138719f2c4e773b8ab0c41a0cda6aa9df47f9c189a4cdff24fdab17657"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/native-truncated-empty.json",
+      "sha256": "47afe8409abb63327feccc3f7028b372945f138b5feb21d7026924c609b565bc"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/race.py",
+      "sha256": "15428d437227a21b8d3626f5a64e0361cc93ae1cc91d383a9f144c6763f9dacf"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-a-a1000000-0000-4000-8000-000000000101.json",
+      "sha256": "b6f60e251055a6035648a34a9cfcc1310907c9b0e07351d8febf72974ad77b08"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-a-a1000000-0000-4000-8000-000000000102.json",
+      "sha256": "3eab57b04c81f910647ecab1b10c3d136c0d0220a7cced9e2bbd6f50aa4dc620"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-a-a1000000-0000-4000-8000-000000000103.json",
+      "sha256": "b3e9ec966f062772fb8cffe49b1052bd4859aa278efc86a72c672081f80ba485"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-a-health.json",
+      "sha256": "d9f55764f8e9a4a5a1ae9f363760dbff24d86d8d6a5c36c835b35d3bd8ec341e"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-a-orders.json",
+      "sha256": "662fece97d0766594dc62de0d3ac0c1f0067f9f2a6b1b754a539522f17b45257"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-a-tenants.json",
+      "sha256": "b61f56b5b4bc071db6f71a4cdbe594d74e96b477069e6112ebaa9fa634c7b046"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-b-b2000000-0000-4000-8000-000000000101.json",
+      "sha256": "e0eaba0ffe8f731359644b790ec3b498c26d0ce7befda056df2246a2b78bfd5e"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-b-health.json",
+      "sha256": "d9f55764f8e9a4a5a1ae9f363760dbff24d86d8d6a5c36c835b35d3bd8ec341e"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-b-orders.json",
+      "sha256": "f33c79e70e7af1cc5bba017e69901122133f3c4266c79cfd0e5b1546a2215237"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/raw-canal-b-tenants.json",
+      "sha256": "b61f56b5b4bc071db6f71a4cdbe594d74e96b477069e6112ebaa9fa634c7b046"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/relay-cursor.json",
+      "sha256": "d627c198e0278298aaa44da2fc858b63871dfeb526c33d8ea746cf2f3860c7f5"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/run-native-cursor.py",
+      "sha256": "df77e8b73587cbbe0d96d2c76516b38647ab1b67e431a16c24c9a81508bd5c91"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/wire.json",
+      "sha256": "2fc6a4614b7a32a2a1806f13c708e610f9070f2f5d3e91ef30a6469bbc7b96ab"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX04-evidence/wire.py",
+      "sha256": "bcbab717e5530e5220b6d5cd9c6d8f9b076c03927b1044a5e1bca533789fc5c6"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX07-evidence/wire-result.json",
+      "sha256": "d10786ff62e0c35834b6e0bef44c1489c718b65122e2bb63f8c6727cae1f59a5"
+    }
+  ],
+  "cleanup": "Container ERP și rețea private sunt în curs de restituire la sigilare, cu gard §40. Dovezile de cleanup se adaugă separat și nu schimbă acest hash.",
+  "peer_acceptance": "Pending at signature, needs independent file.",
+  "quality_score": null
+}

@@ -1,0 +1,12 @@
+from a12_r10_jvm import *
+from a12_r8_jvm import java,sec,base,repo,plug,policy,T,execute,tr
+from concurrent.futures import ThreadPoolExecutor
+import re,hashlib
+des=P10/'Zone_A09';scratch=Path('D:/CodexWork/a12-r10-local');fonts=scratch/'fonts'
+def run(k):
+ d=scratch/('print-observe-'+k);jar=sec/('cod-master-contab.jar'if k=='git'else'com.eva.ro.contab_13.0.0.jar');cp=';'.join(map(str,[d,jar,'D:/CodexWork/a05-support-jars/pdfbox-3.0.7.jar','D:/CodexWork/a05-support-jars/fontbox-3.0.7.jar','D:/CodexWork/a05-support-jars/pdfbox-io-3.0.7.jar',base,next(sec.glob('org.adempiere.base.process_*.jar')),'D:/CodexWork/a12-r6-preprobes/deps/*','D:/CodexWork/eva-a01-java/lib/*','D:/CodexWork/a05-support-jars/*',plug/'src']));src=plug/'test/TestT204Documente.java';p=d/src.name;orig=src.read_text(encoding='utf8');old="c.getProtectionDomain().getCodeSource().getLocation().getPath()";new="java.nio.file.Path.of(c.getProtectionDomain().getCodeSource().getLocation().toURI()).toString()";assert orig.count(old)==1
+ st=orig.replace('if (c)\n            ok++;','if (c) { ok++; System.out.println("OK   " + m); }').replace(old,new);p.write_text(st,encoding='utf8')
+ cc=execute([java/'javac.exe','-proc:none','-encoding','UTF-8','-cp',cp,'-sourcepath',plug/'test','-d',d,p],plug);assert cc.returncode==0,cc.stdout[:1500]
+ rr=execute([java/'java.exe','-Xmx290m','-Djava.security.manager','-Djava.security.policy=='+policy.as_uri(),'-Djava.io.tmpdir='+str(T),'-Dstdout.encoding=UTF-8','-Dstderr.encoding=UTF-8','-cp',cp,'FontHarnessR10',fonts,'com.eva.ro.contab.form.TestT204Documente'],plug);f=des/(k+'_TestT204Documente_windows.log');f.write_text(rr.stdout,encoding='utf8');q=rr.stdout.splitlines();return{'target':k,'jar_sha':sha(jar),'original_source':sha(src),'test_source_adapted':sha(p),'transport_changed':{'from':old,'to':new},'code':rr.returncode,'result':[l for l in q if l.startswith(('REZULTAT','FAIL'))][-8:],'output':source(f),'unexpected_errors':[l[:220]for l in q if 'Caused by:' in l][:2]}
+with ThreadPoolExecutor(max_workers=2)as ex:z=list(ex.map(run,['git','instalat']))
+f=des/'Calibrare_cale_javap_Windows.json';wr(f,{'utc':now(),'runs':z,'previous_stage':source(des/'Calibrare_fonts_PDFBox3_T204.json'),'qualifier':'Recompile the test only to use native filesystem path for javap and print original successful labels. Product, PDF text and data unchanged.'});print(sha(f),[(x['target'],x['code'],x['result'])for x in z])

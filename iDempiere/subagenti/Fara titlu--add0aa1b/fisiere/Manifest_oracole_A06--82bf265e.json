@@ -1,0 +1,18 @@
+{
+  "schema": "A06.R8.oracle_manifest.v1",
+  "date_utc": "2026-11-02T18:23:47.141102+00:00",
+  "git": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "signed_file": "Raport_oracole_A06.json",
+  "sha256": "0da0f2f6c7f75e2ab4f4eea74ba6f0465aea80457965299f21e2c9bb45bd448a",
+  "file_bytes": 48659,
+  "nominal_case_ids": [
+    "K07",
+    "K09",
+    "K08",
+    "K35"
+  ],
+  "case_count": 4,
+  "primary_queue_sha256": "a5c4bbda1eb09062e5908ba54dbfb5608505c3de799b707bd080ceab637c8a97",
+  "r1_to_r8_unchanged": true,
+  "scope": "Manifestul semnează raportul final cu tot codul și rezultatele incluse. Manifestul nu își include propriul hash."
+}

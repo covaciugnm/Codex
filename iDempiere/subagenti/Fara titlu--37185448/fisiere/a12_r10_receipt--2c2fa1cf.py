@@ -1,0 +1,50 @@
+from a12_r10_base import *
+from collections import defaultdict
+import re,hashlib
+out=defaultdict(list)
+def ab(f):return {'file':f.relative_to(B).as_posix(),'sha256':sha(f)}
+def jr(f,pt=''):return ab(f)|{'pointer':pt}
+def lines(f,rg,trim=390):
+ ss=f.read_text(encoding='utf8',errors='replace').splitlines(); return [ab(f)|{'line':n,'line_sha256':hashlib.sha256(t.encode()).hexdigest(),'text':t[:trim],'source_stack_anchor':ss[n][:550]if n<len(ss)and ss[n].startswith('ANCHOR:')else None}for n,t in enumerate(ss,1)if re.search(rg,t,re.I)and not t.startswith('ANCHOR:')]
+def add(c,what,exp,obs,neg,lim,refs,extent='subcase'):
+ assert c in r9 and refs,(c,refs)
+ out[c].append({'criterion':c,'source_normative':r9[c]['text'],'kind':what,'expected':exp,'observed':obs,'negative_or_control':neg,'limits':lim,'references':refs,'extent':extent})
+j=P10/'JVM';t27=j/'git_TestT227VerificareImport.log';ins=j/'instalat_TestT227VerificareImport.log';mut=P10/'T227_mutanti_nominali.json';mt=rd(mut)['controls']
+guard=P10/'Garda_T220_T224_domeniu_reconstituit.log';g2=P10/'Evaluare_T201_T220_T224.log';g3=P10/'Etalon_garda_parteneri_si_T33.log'
+for k,rg,mutid,expected,lim in [
+('006',r'OK.*(K-3: md5|K-3:.*apeleaz)',[],'md5 pentru sql(true) și sql(false) reproduce separarea primită din master.','Analiza structurală despre toate familiile de mapare și numărul de linii șterse necesită comparația istorică separată.'),
+('010',r'OK.*(K-5 /|K-5: Δ|(FX-15: tol 0))',[],'Testul acoperă toleranțele +tol, +tol+0,01, –tol–0,01 și tol zero.','Clase din JAR Git; nu există o probă de interfață pe cabinet cu T227 instalat.'),
+('011',r'OK.*(FX-5 / M-13|FX-12: doar|clienți: 6 rânduri|0/0)',[],'Perechile numai SAGA și numai EVA primesc verdicte diferite; șase rânduri în distribuția fixturei clienți.','Citirea prin buton cerută rămâne distinctă de răspunsul motorului cu sursa sintetică.'),
+('012',r'OK.*(R-11: tabela|R-11 / M-10|R-11 / M-18|coloaneNeconcordante|balanta ⇒ 8)',[],'Sunt distincte tabela absentă, tabela disponibilă și coloanele neconcordante; firma intră în parametri.','Verificare Java SQL la adaptor simulat, fără interfață sau DB reală în această rundă.'),
+('028',r'OK.*(K-18 / R-12|K-18: cu sursa goală)', ['M-27a','M-27b'],'Mesaj de sursă SAGA goală; niciun rând în cele două secțiuni cu date absente.','Calculatorul cu date sintetice; lipsesc clona fără fixtură, introducerea manuală a datei și clickul din K-18.'),
+('029',r'OK.*(K-19 / M-7|FX-8.*analitic)', ['M-7'],'Două analitice ale aceluiași terț rămân două chei, iar mutantul care unifică după CUI este detectat.','Testul de clasă și M-7 în Git; identificarea rândurilor este despre rezultatul fixturei, fără certificarea instalării.'),
+('030',r'OK.*K-20 / FX-7', ['M-21'],'Partener inactiv este afișat în rezultatul de calcul cu explicație diferită de «doar SAGA».','JAR Git; nu este mesaj citit din browser.'),
+('039',r'OK.*(ajutorul|ajutor.*(T227|Verific|catalog)|K-29)',[],'Ajutorul T227 este înregistrat și verificat în suita de la commitul fixat.','Confirmarea prezenței obiectului/resursei Git se adaugă separat, fără instalare în cabinet.'),
+('042',r'OK.*(M-28: D|D-4.1: D|FX-14: D editată|K-32: D implicită)', ['M-28a','M-28b'],'Data implicită existentă: fără avertisment; editată ori absentă: apare avertismentul.','Formula și controlul de dată se execută; butonul real din cabinet cu plug-in instalat rămâne datorat.')]:
+ hits=lines(t27,rg)
+ if not hits:
+  print('no hits',k);continue
+ rr=hits+lines(ins,'cannot find symbol',90)[:1]; neg=[]
+ for m in mutid:
+  i=next(i for i,v in enumerate(mt)if v['id']==m); z=mt[i];assert z['compiled']==0 and z['exit']!=0
+  f=B/z['run_log']['file'];assert sha(f)==z['run_log']['sha256']; sel=lines(f,{'M-7':r'FAIL.*(K-19|FX-8)','M-21':r'FAIL.*(K-20|FX-7)','M-27a':r'FAIL.*(K-18|R-12)','M-27b':r'FAIL.*(K-18|R-12)','M-28a':r'FAIL.*(M-28|FX-14)','M-28b':r'FAIL.*(M-28|FX-14)'}[m])[:2];rr+=[jr(mut,'/controls/'+str(i))]+sel;neg.append(m+' compilat, exit '+str(z['exit'])+', '+(sel[0]['text']if sel else'urmă de refuz în fișierul nominal'))
+ add('T227-R2-'+k,'JVM şi teste nominale T227',expected,[{"line":u['line'],'text':u['text']}for u in hits],neg or 'Valorile limită sunt păstrate în etichetele originale testate; comparația build instalat nu produce clasa.',lim,rr)
+tr=P10/'T210_auth_trace_routes.json';tx=P10/'T210_auth_original_et_mutant.json';d=rd(tr)
+for n,criterion,exp,limit in [('001','ambele scrieri din routerul enumerat refuză cererea anonimă','Verificarea privește routerul Python de la commitul fixat; alte rute și migrarea iDempiere cer propriile probe.',''),('003','9/9 în suita originală de autentificare, controlul cu rutele publice este sensibil','Rularea ASGI folosește socket intern și o politică de test pentru ieșiri. Forma cerută docker --network none nu a fost executată.',''),('004','POST push-order fără autentificare și call fără grant sunt refuzate','Rezultat în aplicația Python de la SHA, cu transport ASGI; fără apel la BaseLinker.',''),('005','refuz înainte de migrarea conexiunii în plugin','Nu s-a executat o mutare a conectorului sau o rută scriere nativă a pluginului.','')]:
+ add('T210-R2-'+n,'ASGI original și control cu excepții de autentificare',criterion,{'primary':rd(tx)['rows'],'router_count':len(d['routes_in_target_router']),'observed':d['replays']},'Deschiderea artificială a celor două căi produce patru eșecuri dintre nouă, inclusiv POST care trece de autentificare.',exp,[jr(tr,'/replays'),jr(tx,'/rows')])
+stk=P10/'Invarianta_T211_03.json';b=rd(stk);add('T211.03-R2-003','Două JAR, matrice independentă de calcul ofertă','0 ≤ oferit ≤ stoc calculat, inclusiv bază8 și supliment7 doar unde permis.',b['observations'],'Parametri negativi, tolerează cerere > disponibil; 12.960 combinații pe JAR.',b['qualifier'],[jr(stk,'/observations')],'comparator_only')
+g=E/'A11_control_supliment_G3_C20_postR9.json';gd=rd(g);assert sha(g)=='462da69ec92ecf955548f78ad99a65f5ee8bf3477b8285c18ef240bd527d9319'
+for n,ex,keys,lim in [('021','Două comenzi persistente cu linii și stoc comun, tranzacții suprapuse și reluare.', ['native_primary_product_reconciliation','thresholds','key_retry'],'Articole primare create direct prin API. S1/S2 nu pot fi vândute manual pe această cale. Lipsesc comenzile set din canal. Originea Q este alta.'),('027','Două G1 cu componente distribuite; rezervări urmărite distinct per depozit.',['native_primary_product_reconciliation','prior_staging_experiment'],'C_Orders reale în două depozite, însă nicio publicare ofertă sau agregare G3 între depozite nu s-a executat. Legătură contextuală pentru publicarea G3.'),('004','Pentru kiturile manuale păstrează refuzul documentelor și deosebirea față de comenzile din staging.', ['manual_disassemblable_kit','prior_staging_experiment'],'Un refuz manual HTTP500 nu verifică fluxul de comandă venită de pe site și nu se promovează drept defect al acelui flux.')]:
+ add('T354-R2-'+n,'A06 C20, control independent A11',ex,{k:gd[k]for k in keys},gd['thresholds'],lim,[jr(g,'/'+k)for k in keys],'context_only'if n!='021'else'subcase')
+for n,target,amount in [('T220-R2-010','T220',173),('T224-R2-012','T224',1723)]:
+ a=lines(guard,r'(fișiere verificate: '+str(amount)+r'\b|zona strictă.*'+target+r')')
+ b=lines(g2,r'(linii verificate: (13732|72686)|secrete.*'+target+r')')
+ a=[u for u in a if 'fișiere verificate:'in u['text']or target in u['text']];b=[u for u in b if target in u['text']or ('13732'if target=='T220'else'72686')in u['text']]
+ add(n,'Gărzi originale după reconstituirea întregii căi de fișiere a taskului','Date personale 0/0/0/0 și zero secrete în documentația taskului, plus un detector care vede încercarea de a scrie.','Domeniu '+str(amount)+' fișiere, fiecare numărătoare de date 0; garda de secrete returnează 0 în dosarul fixat.',['Canar text POST Stripe rc1, GET rc0; cele două comenzi nu fac rețea.','Rularea fără lista locală a produs FileNotFoundError, iar decuparea numai a subdirectorului a lăsat zona verificată goală (rc2).'],'Control la cutoff și în dosarul nominal. Gărzi la fiecare commit, capturi mascate, număr exact de parteneri și activitatea containerelor cer probe separat.',a+b+lines(g3,r'file=cases/')+[ab(P10/'Diagnostic_garda_date_personale.log'),ab(P10/'Reprise_garda_scope_historic.log')])
+add('T201-R2-029','git numstat și merge-tree în două integrări reale','Compararea celor opt fișiere comune între integrare și părintele ei; diff --check și merge-tree cod zero.',[u['text']for u in lines(g2,r'^(VERSION|FILE |DIFFCHECK|MERGE_TREE)')], 'Părinți diferiți; o comparație a unei integrări ulterioare nu înlocuiește un merge cu fiecare vecin al lotului inițial.','Repetați exact master...vârf și toți vecinii documentați la momentul istoric pentru a judeca toate ștergerile.',lines(g2,r'^(VERSION|FILE |DIFFCHECK|MERGE_TREE)'))
+for n,tag in [('002',r'OK.*exact 4'),('003',r'OK.*A12 vanzari.oprit')]:
+ f1='TestT211Garda'if n=='002'else'TestT22FisaCanal';matches=[] 
+ for t in ['git','instalat']:matches+=lines(j/(t+'_'+f1+'.log'),tag)
+ add('T211.01-R2-'+n,'Gardă categorică și exersare livrare oprită în două JAR','Patru categorii suportate, respectiv flag N conduce la cheie de refuz înainte de expediere.',[u['text']for u in matches],'Testul original separă cele patru categorii de operațiile de citire și de sursa de setări per fișă.','Pentru K2 nu verifică definiția coloanei în fiecare tip; pentru K3 nu observă un rând de jurnal în simulatorul ERP. Concluzia este la nivelul existent în firul de execuție al probei.',matches,'subcase'if n=='003'else'context_only')
+dest=P10/'Raport_preliminar_A12.json';wr(dest,{'utc':now(),'edition':'R10_PRELIMINAR_SANS_SCORE','fixed_head':BASE,'R9_manifest':ab(R9/'MANIFEST_R9.json'),'plan164':ab(P10/'Plan_R10_164_et_dix_zones.json'),'routes873':ab(P10/'Cai_nominale_873_fara_dublare.json'),'covered':len(out),'all_receipts':sum(map(len,out.values())),'receipts':out,'no_grade':True,'pending':['T06 bancaire native §61','A05 et A07 fini et reçu','R10 reception A11']})
+print('PRELIM',len(out),sha(dest),[k for k in out if k not in {z['criterion']for z in missing}])

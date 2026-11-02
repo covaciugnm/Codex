@@ -1,0 +1,1274 @@
+{
+  "reviewer": "A11",
+  "source": "R4_zone/A03/A03_raport.json",
+  "sha256": "6ba5483f9812384eba26aae19daf1b1a35f4c9b77e3b3339ab47f8793fa8c834",
+  "gate": "RELUARE; 26 criterii adjudecate, dintre care 18 oracole tehnice satisfăcute în aria exactă.",
+  "quality_score": 6.6,
+  "verified_subchecks": 33,
+  "out_of": 50,
+  "product_score": null,
+  "R3_quality": 6.0,
+  "criteria": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "earned": 1.0,
+      "subchecks": [
+        {
+          "id": "QC01-R1",
+          "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC01-R2",
+          "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC01-R3",
+          "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+          "earned": 0.2,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC01-R4",
+          "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC01-R5",
+          "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        }
+      ],
+      "rationale": "36 controale și 10 fluxuri, toate 125 amprente rehash. 401 legături de task pe R4 și R6 și 599 crit./151 taskuri regăsite. Cele trei referințe la draft sunt corectate și editările istorice păstrate. QC01-R3 acum acceptat."
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "earned": 0.2,
+      "subchecks": [
+        {
+          "id": "QC02-R1",
+          "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC02-R2",
+          "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC02-R3",
+          "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC02-R4",
+          "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC02-R5",
+          "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+          "earned": 0,
+          "R3_earned": 0.0
+        }
+      ],
+      "rationale": "26 criterii nominale din 599, dintre care 18 la oracolul declarat numai. Niciuna dintre cele 573 din afara lotului nu își schimbă starea."
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "earned": 0.4,
+      "subchecks": [
+        {
+          "id": "QC03-R1",
+          "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+          "earned": 0.2,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC03-R2",
+          "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC03-R3",
+          "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC03-R4",
+          "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC03-R5",
+          "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        }
+      ],
+      "rationale": "Deschidere ZK T58 autentică; lângă pasul VC buton dezactivat, explicație privind pasul 5 și 0→0. QC03-R1 acordat în domeniul observat. Nu sunt demonstrate toate rolurile, recuperările sau capitolele."
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC04-R1",
+          "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC04-R2",
+          "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC04-R3",
+          "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC04-R4",
+          "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+          "earned": 0.2,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC04-R5",
+          "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+          "earned": 0,
+          "R3_earned": 0.0
+        }
+      ],
+      "rationale": "AMORT, VC și inversarea interzisă sunt măsurate. 10 perechi, cinci preferințe de lansare în fiecare sens, toate cu suprapunere HTTP și zero anomalii după rezultat. QC04-R4 acum acordat în domeniul declarat."
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC05-R1",
+          "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC05-R2",
+          "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC05-R3",
+          "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC05-R4",
+          "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC05-R5",
+          "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        }
+      ],
+      "rationale": "ERP real de test, note CO/Y cu scheme și monede. Balanța 7802,38 este suma aritmetică 4217,50 și 3584,88 în două monede; operația contabilă nu poate agrega neselectiv USD și EUR."
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "earned": 0.6,
+      "subchecks": [
+        {
+          "id": "QC06-R1",
+          "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC06-R2",
+          "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC06-R3",
+          "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC06-R4",
+          "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC06-R5",
+          "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        }
+      ],
+      "rationale": "Sunt legături pe jurnal/închidere nativă, dar nicio certificare tuturor celor 10 fluxuri și/cazuri economice."
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "earned": 0.6,
+      "subchecks": [
+        {
+          "id": "QC07-R1",
+          "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC07-R2",
+          "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC07-R3",
+          "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC07-R4",
+          "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC07-R5",
+          "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        }
+      ],
+      "rationale": "Un rol nominal dintr-o organizație. Comportamentele de vizibilitate pe alte roluri rămân neacoperite."
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC08-R1",
+          "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC08-R2",
+          "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC08-R3",
+          "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC08-R4",
+          "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC08-R5",
+          "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        }
+      ],
+      "rationale": "Distinge politica modelelor contabile native și urmarea ei în plugin. F05 constatată la SAGA, fără oracol aprobat care afirmă că schema secundară trebuie redusă ori păstrată pe toate firmele."
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "earned": 0.8,
+      "subchecks": [
+        {
+          "id": "QC09-R1",
+          "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC09-R2",
+          "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC09-R3",
+          "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC09-R4",
+          "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC09-R5",
+          "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        }
+      ],
+      "rationale": "Independent DUK Offline pe două produse XML, pozitiv/zero și mutant, plus loguri ale ferestrei de concurență. Nu se certifică încercările extremale nepuse în probă."
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "earned": 0.6,
+      "subchecks": [
+        {
+          "id": "QC10-R1",
+          "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC10-R2",
+          "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC10-R3",
+          "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+          "earned": 0.2,
+          "R3_earned": 0.2
+        },
+        {
+          "id": "QC10-R4",
+          "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+          "earned": 0,
+          "R3_earned": 0.0
+        },
+        {
+          "id": "QC10-R5",
+          "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+          "earned": 0,
+          "R3_earned": 0.0
+        }
+      ],
+      "rationale": "F01–F06 rămân nominal, fără dublare NIR/scheme; pilotul UI și politica secundară sunt încă deschise."
+    }
+  ],
+  "selected": [
+    {
+      "id": "T159-R2-006",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-03 — A-1 | paritatea: fiecare valoare mutată = valoarea codului de azi la granițe (ziua dinainte / ziua pragului) și azi | `TestT159LotA` cazul «paritate» | 0 FAIL | test",
+      "scope": "Acoperirea se aplică exact setului de tranziții din test. Nu dovedește configurația unui cabinet real.",
+      "specific_readback": "Cazul „paritate” rulează din TestT159LotA pe ambele JAR-uri; verifică limite datate și schimbarea pragului. Suita: 79 OK și 0 FAIL pe fiecare binar.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T159-R2-009",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-06 — A-1 | aliasul `UK` → `UE_TARA_GB` (S2 S-B4) | `TestT159LotA` «UK» | `esteUE(\"UK\", 2020-12-31)` = true, `2021-01-01` = false | test",
+      "scope": "Niciun pas lipsă din oracolul binar al criteriului.",
+      "specific_readback": "esteUE(UK,31.12.2020)=true; esteUE(UK,01.01.2021)=false pe ambele binare.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T159-R2-010",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-07 — A-1 | amprenta D300 / D390 / D394 / D406 cuprinde cheile noi folosite | `TestT159LotA` «amprenta» (`cheiPentruDeclaratie`) | cheile din 12_ §3.1 | test",
+      "scope": "Nu se deduce că declarațiile complete au fost depuse.",
+      "specific_readback": "Testul „amprenta” compară setul cheilor din cheiPentruDeclaratie pentru D300/D390/D394/D406 și martorii D112/D101. 0 FAIL.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T159-R2-011",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-08 — A-2 | rd.33 editabil și citit la data perioadei | `TestT159LotA` «rd33» | `SetariFirma.seteaza(…, \"D300_ACH9_RD33\", \"N\", …)` acceptat; `peRd33` urmează setarea | test",
+      "scope": "Oracolul cerut este la nivel de test; forma live și DUK ale declarației constituie un alt criteriu.",
+      "specific_readback": "În registrul sintetic: rd.33 implicit Y în 03.2026; setare N din 04.2026 acceptată, luna martie rămâne Y, aprilie devine N, peRd33 și amprenta D300 urmează data.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotA_helper.log",
+          "sha256": "47283c7a7cef8d6ee2f7b98e4f4f70d10d733403b600fd295efc7d205cee0b18"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T159-R2-018",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-15 — A-3 | paritatea B (vârste, trepte, CM, norma, F2, sărbătorile 2010–2035 cu cele 3 coliziuni S2) | `TestT159LotB` | 0 FAIL | test",
+      "scope": "Nu certifică salariile unei firme operative.",
+      "specific_readback": "TestT159LotB executat pe ambele JAR-uri: 145 OK, 0 FAIL, inclusiv limite calendar, vârste și sărbători.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotB_R4.log",
+          "sha256": "9dc39aee297b1955358f15aea404c2c8e65a523b49290ab8069f17cb30ce8432"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotB_R4.log",
+          "sha256": "c5497131915586fbbe9576c48546d6aecc850068bb5bc94579b2aa7d788c2795"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T159-R2-019",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-16 — A-3 | grupa D112 C2 după procentul registrului | `TestT159LotB` «grupa» (registru cu 0.60 în loc de 0.55) | grupa 0 se alege pentru 0.60 | test",
+      "scope": "Nu interpretează numerele fixture drept rate legale în vigoare.",
+      "specific_readback": "Înlocuirea procentului din registrul fixture cu 0,60 (față de 0,55) selectează grupa D112 C2 cerută de fixture; suita 145/0 pe ambele JAR-uri.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotB_R4.log",
+          "sha256": "9dc39aee297b1955358f15aea404c2c8e65a523b49290ab8069f17cb30ce8432"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotB_R4.log",
+          "sha256": "c5497131915586fbbe9576c48546d6aecc850068bb5bc94579b2aa7d788c2795"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T159-R2-024",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-21 — A-5 | cota micro din registru (registru de test cu 2 % ⇒ cota 2) | `TestT159LotC` «micro» | 0 FAIL | test",
+      "scope": "Nicio afirmație privind obligația fiscală a unei firme reale.",
+      "specific_readback": "Valoarea micro sintetică din registru 2% a condus la cota 2. TestT159LotC a verificat penalizările la parametru lipsă și revenirea la seed; 81 OK/0 FAIL în fiecare JAR.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT159LotC_R4.log",
+          "sha256": "46860b2a8e21ef3054b5bc37d1c9ac52c309851099d4ab888d9c7b0aa5936742"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT159LotC_R4.log",
+          "sha256": "6cc17fc66c572d89b0b6aa59ea0df5c336141f3f5914f3b50a1ac4f1661d9a96"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T159-R2-031",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-28 — A-7 | coloanele `Origine`, `Motiv` | SELECT pe `information_schema.columns` | 2 | container",
+      "scope": "Nu certifică drepturile de editare; acestea fac obiectul C-31.",
+      "specific_readback": "În information_schema.columns al GardenWorld, EVA_ParametriFiscali conține exact cele două coloane solicitate Origine și Motiv.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/pg_native_readback.json",
+          "sha256": "83ffe006f635071581c6ae72ce447e5ed31d2e6fd4095659b75e0c16dca46f7d"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T159-R2-042",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-39 — A-8 | etichetele | `cut -f1 P/documente/res/etichete.tsv | grep -v '^#' | sort | uniq -d | wc -l` ; verificarea `%s` ro = en pe blocurile `# T159` | 0 ; 0 | export",
+      "scope": null,
+      "specific_readback": "Fișierul documente/res/etichete.tsv are 0 chei duplicate, iar blocurile #T159 au 0 diferențe de substituții %s între RO și EN.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T03-R2-019",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "R-18 — Etichete: format | Pe fiecare din cele 2 `.tsv`: rânduri non-comentariu cu ≠ 3 coloane = `0`; chei duplicate = `0`; chei noi cu ro sau en gol = `0` | `0` / `0` / `0`",
+      "scope": "Nu certifică terminologia sau accesibilitatea formularelor.",
+      "specific_readback": "Dicționarul contabil are 14.780 chei și cel REGES 870. În ambele: 0 duplicate, 0 linii active cu număr diferit de 3 coloane, 0 traduceri RO/EN goale, inclusiv pentru cheile noi.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T03-R2-065",
+      "decision_source": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "norm": "R-36 — (la integrare, Fable) coliziuni de chei | pe fișierele rezultate: `cut -f1 P/documente/res/etichete.tsv | grep -v '^#' | sort | uniq -d | wc -l` și la fel pe `P/form/reges/res/etichete.tsv` | `0`/`0` | `0`/`0`",
+      "scope": "Lipsește snapshotul și repetarea execuției la evenimentul de integrare specificat.",
+      "specific_readback": "În cele două TSV actuale sunt 0/0 coliziuni. R-36 specifică momentul integrării istorice Fable.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ],
+      "A11": "PARȚIAL_NU_TRANSFERĂ_VERDICT"
+    },
+    {
+      "id": "T58-R2-003",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-02 — A-1 | `valideaza` cheamă poarta înaintea oricărei scrieri | `awk '/public static String valideaza\\(Properties/,/^    }$/' InchidereLuna.java | grep -nE \"potValida|posteaza|NotaInchidere.scrie|inregistreaza\" | head -1` | rândul conține `potValida` | export",
+      "scope": "Alte operații sau criterii REST/ZK nu sunt atribuite acestei căutări.",
+      "specific_readback": "În corpul valideaza(Properties...), prima potrivire dintre potValida/posteaza/NotaInchidere.scrie/inregistreaza este apelul de gardă potValida la linia3424.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT58Inchidere_R4.log",
+          "sha256": "8a6dc95ff25a3b9ad80feb8b30ed59106502262dee62d67c80b680363ac74abe"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT58Inchidere_R4.log",
+          "sha256": "8a6dc95ff25a3b9ad80feb8b30ed59106502262dee62d67c80b680363ac74abe"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T194-R2-009",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "K-6 — C0-06 | net→brut ±1 pe minim, mediu, mare, fără funcție de bază; brut−1 nu îndeplinește | SIM-B | 4/4",
+      "scope": "Nu certifică plăți sau note de salarii.",
+      "specific_readback": "SIM-B executat cu registru inițializat, pe două JAR-uri. Net→brut pentru minim/mediu/mare și fără funcție de bază: răspuns egal oracolului bruteforce, |net−țintă|≤1, brut−1 nu îndeplinește, cu reevaluarea netului. 9 OK/0 FAIL.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simB.log",
+          "sha256": "5e1ab76d0284d31d06596716e6073eb7a3a6ec9f167e2769dbaafb9a901d648c"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_simB.log",
+          "sha256": "5e1ab76d0284d31d06596716e6073eb7a3a6ec9f167e2769dbaafb9a901d648c"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T194-R2-008",
+      "decision_source": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "norm": "K-5 — C0-05 | mutantul de cotă (registrul injectat: `CAS` +0,01 ⇒ Δ simulare = Δ `calculeaza`) + mutantul «`intrarePentru` → `new Intrare()` doar cu brutul» | SIM-A + harness | egal / roșu",
+      "scope": "Mutantul de cod intrarePentru înlocuit cu un obiect care păstrează doar brutul trebuie rulat înainte de închiderea criteriului.",
+      "specific_readback": "SIM-A: +0,01 la CAS a modificat CAS calculată cu60 atât în simulare, cât și în motor; 4 OK/0 FAIL în ambele.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simA.log",
+          "sha256": "ccb1ad55870aa761dc618a4a7d7f0d694f31036c8d6da2b4efa6a2a4a8cb4fb7"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_simA.log",
+          "sha256": "ccb1ad55870aa761dc618a4a7d7f0d694f31036c8d6da2b4efa6a2a4a8cb4fb7"
+        }
+      ],
+      "A11": "PARȚIAL_NU_TRANSFERĂ_VERDICT"
+    },
+    {
+      "id": "T194-R2-010",
+      "decision_source": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "norm": "K-7 — C0-07 | tabelarea (§2.9) + net atins de doi bruți ⇒ cel mai mic; neatins ⇒ `t194.sim.refuz.exact` cu «cel mai apropiat», în ≤ 5 779 evaluări (+2 în afara buclei, F-r3-2); mutanții «bisecție naivă», «fără punctul minim», «fără pasul +1», «fără oprire» roșii | tabelarea + SIM-C, SIM-H | brutul minim / mesajul; 4 roșii",
+      "scope": "Cei patru mutanți separați ai implementării nu au fost executați în această trecere. Nu echivalăm rezultatul nominal cu rezistența la mutații.",
+      "specific_readback": "SIM-C și SIM-H au rulat pe ambele JAR-uri cu registre de test și oracole pentru prag/țintă; jurnalele păstrează toate marcajele de rezultat.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simC.log",
+          "sha256": "509dd5996c95a75989db8b6cbc8af71e35bd565fa40f2bfc7dbc4eab6f56fe01"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_simC.log",
+          "sha256": "509dd5996c95a75989db8b6cbc8af71e35bd565fa40f2bfc7dbc4eab6f56fe01"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_simH.log",
+          "sha256": "368be0d54a67d2e6c68e6f637fef9800e17ebf3ab9fdc2d7ea0ac83de6ff54bc"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_simH.log",
+          "sha256": "368be0d54a67d2e6c68e6f637fef9800e17ebf3ab9fdc2d7ea0ac83de6ff54bc"
+        }
+      ],
+      "A11": "PARȚIAL_NU_TRANSFERĂ_VERDICT"
+    },
+    {
+      "id": "T194-R2-017",
+      "decision_source": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "norm": "K-14 — C0-14 | 27.12.Y–05.01.Y+1 | CO-B + S3 | Σ ani = total",
+      "scope": "Nu înlocuim documentul S3 din arhiva operațională cu numărul obținut din această persoană sintetică.",
+      "specific_readback": "Oracol de cod CORRECTAT la data solicitată 27.12.2026–05.01.2027, nu doar intervalul repo 28.12–05.01. Cele două JAR-uri: [(0, '== CO-B'), (0, '== CO-B')].",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/CO_27_dec_5_jan.json",
+          "sha256": "ad4954145c91813f3aa7eba912243e0dacbcc0b3c5054cefe7799532229d54dc"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_contracts_and_S3.json",
+          "sha256": "4bf7985cba96f2311e39494626decf6d58456d9f970032e21ff7cf26e563acb9"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_R4SalSeed_coB.log",
+          "sha256": "44b860933efa46309dadf14d42138ee5ac923515236350952ebdf7daebb75b1d"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_R4SalSeed_coB.log",
+          "sha256": "44b860933efa46309dadf14d42138ee5ac923515236350952ebdf7daebb75b1d"
+        }
+      ],
+      "A11": "PARȚIAL_NU_TRANSFERĂ_VERDICT"
+    },
+    {
+      "id": "T256-R2-017",
+      "decision_source": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "norm": "K-17 — C0-17 | `TestT256D394` comportamental, ultimul în rulator, cele 6 cazuri ale C0-17 + fixtura cu cele trei surse diferite (X189) | `git -C W show V:tools/teste/ruleaza_teste_contab.sh | grep -n TestT256D394` + rularea | ultimul bloc; `0 FAIL` | export",
+      "scope": "Momentul predării V și cerința „ultimul bloc” la acel moment nu sunt infirmate de adăugarea ulterioară a unor suite. Fără verdict global fiscal.",
+      "specific_readback": "TestT256D394:34 OK/0 FAIL în ambele JAR-uri. Scriptul rulează suita la linia722, însă nu mai este ultimul bloc în SHA actual.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT256D394_R4.log",
+          "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT256D394_R4.log",
+          "sha256": "2625703e30b9e9e1a6676dc70618a67ae187e1e52eb6fb7617e6e14a9f50e8ec"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/static_contracts_R4.json",
+          "sha256": "b28b91194503cb32c698e5befd7a8a7ffb9385574a673e207de15c7c06695c1a"
+        }
+      ],
+      "A11": "PARȚIAL: 34/0 în familie; scriptul la linia722 nu mai este ultima comandă. Condiția statică „ultimul bloc” NU este atinsă la cutoff, chiar dacă restul funcționează."
+    },
+    {
+      "id": "T176.01-R3-001",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "D100 conține sponsorizarea admisă pentru perioada aplicabilă.",
+      "scope": "Urmărirea de la o cheltuială reală la nota contabilă și calculul de eligibilitate al unei firme nu sunt probate; acest criteriu cere conținutul D100 pentru perioada aplicabilă.",
+      "specific_readback": "În ambele JAR-uri GenD100 emite pentru iunie2023 baza1000, sponsorizare150, plată850; martorul fără sponsorizare produce plată1000. Soft J oficial potrivit perioadei acceptă ambele și respinge copia cu suma_plata=999. Exit singur nu decide.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/D100_officiel_R4.json",
+          "sha256": "3053ad1fad5cf03a38d902a6b8f4a9a372ebbbf473b006a36d5518c53c306442"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_D100R4_2023-06_150.log",
+          "sha256": "1bc8559c6dd83cda76413a403c78d54b0a5a9fea03bd5618af2bc51172c4bad3"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_D100R4_2023-06_150.log",
+          "sha256": "1bc8559c6dd83cda76413a403c78d54b0a5a9fea03bd5618af2bc51172c4bad3"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT03Lot5_R4.log",
+          "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT03Lot5_R4.log",
+          "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4"
+        }
+      ],
+      "A11": "ACCEPT_XML_D100_DIN_2023: 150 pe bază1000 și plata850, martor fără sponsor1000 și mutant999 respins. Eligibilitatea unei cheltuieli în firma reală, transmiterea și certificarea perioadelor diferite nu se deduc."
+    },
+    {
+      "id": "T176.01-R3-002",
+      "decision_source": "NEEXECUTAT",
+      "norm": "Progresul jobului reflectă execuția reală.",
+      "scope": "Este necesar jobul real, cu progres și observații în sesiunea operatorului.",
+      "specific_readback": "XML-ul sintetic nu măsoară progresul afișat de job.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/D100_officiel_R4.json",
+          "sha256": "3053ad1fad5cf03a38d902a6b8f4a9a372ebbbf473b006a36d5518c53c306442"
+        }
+      ],
+      "A11": "NEEXECUTAT: progresul jobului în UI nu a fost măsurat."
+    },
+    {
+      "id": "T58-R2-009",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-07 — A-1 | ordinea respectată ⇒ VC se validează | 12_ §5.2 R-POZ: AMORT apoi VC | 1 notă VC nouă | clonă",
+      "scope": "Nu dovedește independența sumelor între scheme. VC220 EUR include eroarea demonstrată separat în F02.",
+      "specific_readback": "În august, după AMORT CO/Y 100 EUR, SAL și IMP sunt neaplicabile, CURS nu are diferențe. Procesul VC cu EvaVerificOrdinea=true a produs exact încă un jurnal CO/Y (1000003, INCH-2). Faptul că valorile sunt afectate de F02 este separat de condiția critică „1 notă VC după AMORT”.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_first_controlled_account.json",
+          "sha256": "9035de3f0bb60f305ee2ef525c3885696ccf0d2aeaf2421832387f606d8d68cd"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_asset_account_fix.json",
+          "sha256": "f6b437d1278378588cebeb23bef2e9635113626987ff1e4d151a9a273691adec"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_2schema_setup.json",
+          "sha256": "6260ef76814c4f55b611ee938d40598948e3b0a1bdfa48869ba256f4ffc7385a"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T03.05-R3-001",
+      "decision_source": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "norm": "Fiecare rând L5 are clasă/metodă/cheie/test asociate.",
+      "scope": "Nu demonstrează că fiecare rând L5 are corespondență completă din actor/meniu până la document/Fact_Acct.",
+      "specific_readback": "TestT03Front și martorii L5 din TestT03Lot5 parcurg componente ZK și calcule simulate. TestT03Lot5 a ajuns la etapa DUK și a primit AccessControlException pentru calea contractuală /duk din harness Windows; componentele anterioare au rezultate măsurate.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT03Front_R4.log",
+          "sha256": "6b9acefcec3e3178f413e9f4a891dedfc99fcee0ff4251f395b9b6300b2733f6"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT03Front_R4.log",
+          "sha256": "6b9acefcec3e3178f413e9f4a891dedfc99fcee0ff4251f395b9b6300b2733f6"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_TestT03Lot5_R4.log",
+          "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/installed_TestT03Lot5_R4.log",
+          "sha256": "b2ac023eeeedf2cdd30e97467b1173d72647c3af3c9428b91d5b39cc9eb712f4"
+        }
+      ],
+      "A11": "PARȚIAL: accesul la etapa DUK a eșuat în execuția nominală; validarea separată de D100 nu suplimentează acel traseu."
+    },
+    {
+      "id": "T58-R2-005",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-04 — A-1 | **REST: VC înaintea AMORT ⇒ refuz, 0 note** | 12_ §5.2 R-NEG (POST `/api/v1/processes/eva_inchiderevenituri`, `Operatie=VC`) + `SELECT count(*) FROM gl_journal WHERE ad_client_id=:CA AND description LIKE concat('INCHIDERE-VC ', :M, '%') AND created>:t0` | răspuns de eroare cu textul cheii `t58.ord.refuz` care numește «5.» ; 0 | eva-test-t58",
+      "scope": "Concluzia este limitată la pasul/mesajul și numitorul dovedite.",
+      "specific_readback": "[{'month': '2026-08', 'http': 200, 'isError': True, 'summary': '«Închidere conturi de venituri și cheltuieli» nu se validează încă: pasul 5 «Înregistrare amortizare imobilizări» stă înaintea lui în lanțul închiderii și e «nefăcută». Validează întâi pasul acela — ordinea închiderii lunii se respectă pe toate căile (ecran, procese, REST).', 'new_journals': [['0']]}]",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_native_gate.json",
+          "sha256": "eacd475b6c161289a40af690fa061f5dcdaa77a58971b0a2f2b96a83c5a8a7b1"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/istoria_T58.json",
+          "sha256": "4f48e50c527ba1b78f12e4ebee47d3cdc75129e0c5666ce9bb7d679d7740b8f4"
+        }
+      ],
+      "A11": "ACCEPT_LA_ORACOLUL_LITERAL_ÎN_ARIA_SUITĂ/TEST"
+    },
+    {
+      "id": "T58-R2-006",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-05 — A-1 | ecran: aceeași încercare din «Închidere lună» | 12_ §5.3 pașii U-1…U-4, captură / pas | refuz în fereastră; 0 note (același SELECT) | eva-test-t58",
+      "scope": "Evaluarea depinde de dovada refuzului exact, nu doar de deschiderea meniului.",
+      "specific_readback": "Validarea VC este dezactivată înainte de scriere. Se reține motivul afișat. Nu se forțează click-ul prin script.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_ZK.json",
+          "sha256": "d9eeb704ec6e67ddb1aa17057891dc3952f701ff5d5df5464e967dfebd10cfe7"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/istoria_T58.json",
+          "sha256": "4f48e50c527ba1b78f12e4ebee47d3cdc75129e0c5666ce9bb7d679d7740b8f4"
+        }
+      ],
+      "A11": "ACCEPT_REFUZ_UI_PREVENTIV: buton dezactivat cu motiv și numărătoare 0→0; nicio cerere forțată."
+    },
+    {
+      "id": "T58-R2-010",
+      "decision_source": "PARȚIAL_NU_TRANSFERĂ_VERDICT",
+      "norm": "C-08 — A-1 | devalidarea inversă neschimbată | `git diff 6313291eb7 HEAD -- fiscal/InchidereLuna.java | grep -c \"^[-+].*potDevalida|^[-+].*deSubEa\"` ; R-DEV pe clonă | 0 ; refuz `t03.ist.devalid_ordine` | export + clonă",
+      "scope": "Condiția istorică a diff-ului la momentul predării nu se extinde la master actual.",
+      "specific_readback": "Cu VC activă, devalidarea AMORT a fost refuzată indicând VC/pas8; nu a modificat jurnalul. Diff semantic față de 6313291eb7 la cutoff actual are 2 linii modificate care conțin simbolurile vizate; grep-ul BRE literal cu | nu este o probă de neschimbare semantică.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_contracts_and_S3.json",
+          "sha256": "4bf7985cba96f2311e39494626decf6d58456d9f970032e21ff7cf26e563acb9"
+        }
+      ],
+      "A11": "PARȚIAL_NU_TRANSFERĂ_VERDICT"
+    },
+    {
+      "id": "T58-R2-013",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-11 — A-1 | concurența: devalidare AMORT ∥ validare VC pe aceeași lună | 12_ §5.2 R-CONC (2 cereri simultane) + invariantul SQL | niciodată VC făcut cu AMORT nefăcut (0 rânduri) | clonă",
+      "scope": "Nu se afirmă că nu există alte intercalări posibile.",
+      "specific_readback": "10 perechi concurente, două sesiuni GardenAdmin și câte 5 porniri preferențiale în fiecare sens. 0 fotografii după pereche cu VC activă și AMORT inactivă. Fiecare apel păstrează timpul UTC, starea și documentele înainte/după.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_race_native.json",
+          "sha256": "35667b62271a2b1246a9a7a675eafe0cc77287ce91bfa7b6400103593d52787f"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_positive_and_reverse.json",
+          "sha256": "96372c11017e17ca94b78f1ab290ff9c52e8807a282489c2198af5d8a06d422a"
+        }
+      ],
+      "A11": "ACCEPT_10_PERECHI_OBSERVATE: 5 preferințe de pornire pe sens, intervale HTTP suprapuse; nu toate intercalările posibile în DB."
+    },
+    {
+      "id": "T58-R2-014",
+      "decision_source": "PASS_ORACOL_CURENT",
+      "norm": "C-11b — A-1 | concurența în sens invers (devalidare AMORT pornită prima ∥ validare VC) + verificarea de ordine SUB lacăt în `devalideaza` | 12_ §5.2 R-CONC (10 perechi, ambele ordini) + `bash Documentatie/echipa-2026-10-09/T58-ghid-inchidere-pas-cu-pas/dovezi-51-auditor/test_clasa_LR-2.sh cod <vârf>` | 0 rânduri «VC activă ∧ AMORT inactivă»; rc 0 (T0: rc 1) | container + export",
+      "scope": "Observație controlată pe clone + dovada de cod.",
+      "specific_readback": "10 perechi în ambele ordini de pornire, 0/10 încălcări la citirea după commit. Scriptul exact de clasă LR-2 din SHA înghețat, mod cod: rc0, valideaza lacat@19 înainte de potValida@20; devalideaza lacat@9 înainte de potDevalida@10.",
+      "evidence": [
+        {
+          "file": "R4_zone/A03/dovezi/T58_race_native.json",
+          "sha256": "35667b62271a2b1246a9a7a675eafe0cc77287ce91bfa7b6400103593d52787f"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/git_contracts_and_S3.json",
+          "sha256": "4bf7985cba96f2311e39494626decf6d58456d9f970032e21ff7cf26e563acb9"
+        },
+        {
+          "file": "R4_zone/A03/dovezi/T58_static_historic_delta.json",
+          "sha256": "e813663fc5495b5afdddc35f7019b23fb6de3040e28c7439ab473eac964828dc"
+        }
+      ],
+      "A11": "ACCEPT_10_PERECHI_OBSERVATE: 5 preferințe de pornire pe sens, intervale HTTP suprapuse; nu toate intercalările posibile în DB."
+    }
+  ],
+  "denominators": {
+    "R6_A03_NEEXECUTAT": 599,
+    "distinct_tasks_R6_A03": 151,
+    "historic_401_task_bridge_not_acceptance": 401,
+    "selected_results": {
+      "PASS_ORACOL_CURENT": 18,
+      "PARȚIAL_NU_TRANSFERĂ_VERDICT": 7,
+      "NEEXECUTAT": 1
+    },
+    "outside_selected_lot": 573,
+    "unexecuted_in_selected": 1
+  },
+  "controls": [
+    {
+      "id": "A03.CK01",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Hashurile 401 fișe R4 și R6 au fost comparate cu registrele; denominatorul R7 A03=599.",
+      "open": "Regulile fiscale din alte perioade și compatibilitatea exactă a buildului nativ nu au fost reevaluate integral.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK02",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Un singur actor autentic GardenWorld și două sesiuni de același rol. Nu s-a testat traversarea tuturor drepturilor.",
+      "open": "Cele două scheme aparțin aceluiași client. Ele nu demonstrează expunerea între două firme sau drepturi active pe fiecare meniu.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK03",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Contul document-controlled 21101 a refuzat jurnalul. După maparea nativă 17500/18250/67250 s-a înregistrat amortizare de100.",
+      "open": "Alte reguli de cont/dimensiuni și istoric la modificarea monografiei nu sunt închise de acest caz.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK04",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Jurnalele native AMORT/VC CO/Y, Fact_Acct pe document/linie și reversările sunt vizibile.",
+      "open": "Acest martor demonstrează de ce CO și Posted trebuie citite separat. Rămân deschise WP/WC pe GLJ și fluxul ZK.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK05",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "2 scheme; Fail F01/F02. Ambele jurnale noi sunt în EUR; nu se confundă zero net cu zero linii.",
+      "open": "Nu se poate concluziona din debit=credit la nivel de client că fiecare schemă și proveniență au rămas corecte.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK06",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "5 cazuri de conversie nativă trecute; problema F01/F02/F03 rămâne și este distinctă de conversie.",
+      "open": "Nu s-a emis un document într-o schemă GardenWorld de trei zecimale. Există un defect de calcul pentru configurația descrisă, nu dovada unei diferențe reale la un client CESIRO.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK07",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Criteriul T176 XML D100 este o altă temă decât factura comercială; pilotul ORD101 rămâne fără Fact urmărit end-to-end.",
+      "open": "Factura comercială RO nu a fost produsă din checkout-ul Flask. Achiziția GardenWorld nu dovedește prin substituție factura de vânzare, AWB sau factura efectivă dintr-o firmă reală.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK08",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Loturile de registru T159 A/B/C și coloanele Origine/Motiv au oracole concrete. Nu sunt validate toate jurisdicțiile și configurațiile.",
+      "open": "Nu sunt probate toate datele-limită ale vectorului fiscal sau un produs dintr-un catalog real căruia îi este obligatorie o anumită cotă.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK09",
+      "R4_state": "INCONCLUDENT",
+      "scope": "T256 D394 34/0; predarea istorică și poziția în script nu sunt confundate.",
+      "open": "Fără reconstrucție completă a jurnalului românesc până la documente, regimuri mixte, TVA la încasare și declarație.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK10",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Niciun nou ciclu TVA la încasare/600+400. Păstrăm stările cancelărilor și legătura A07.",
+      "open": "Nu s-au urmărit combinațiile de TVA neexigibilă inițială, 600+400 și corecțiile ulterioare pentru toate regimurile.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK11",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Rambursul per colet ORD101 verificat separat. Niciun document nativ nou de plată pentru acel UUID.",
+      "open": "Ramburs pe colete cu avans/comision/decont bancar rămâne distinct de acest caz ERP. Nu este demonstrat că toate rutele comerciale ale EVA permit aceeași intrare.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK12",
+      "R4_state": "INCONCLUDENT",
+      "scope": "NIR etichetă defectă „lei” numai la diferențe, factură USD. Rămâne A04-F01.",
+      "open": "Lanțul a trecut prin REST/PO, nu printr-o apăsare ZK, și nu acoperă toate politicile costurilor sau importurile reale.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK13",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Nu există o probă nouă a costului unic de manoperă G2.",
+      "open": "Aceste ajustări de inventar nu închid ambalare, costul manoperei și cutiilor o singură dată în G1 sau toate proiecțiile G3. Registrele G2/G3 nu trebuie tratate ca active contabile suplimentare.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK14",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "T366 rămâne dovadă anterioară distinctă. Nu dublăm F09/F10.",
+      "open": "Nu extrapolăm aceste fixture-uri la toate loturile/ASI, CMP/FIFO și transferurile cu toate configurațiile de cost.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK15",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Guardă anterioară 2002, apoi setare luna de început 2026-08 și pas5 AMORT. Nicio notă înainte de îndeplinirea precondiției.",
+      "open": "Nu s-au verificat toate tipurile de document, joburile și rolurile într-o închidere completă standard cu verificarea ordinii activată.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK16",
+      "R4_state": "INCONCLUDENT",
+      "scope": "10 perechi concurente, 0 stări VC activă fără AMORT. Opening GLJ N→O prin proces. Nu e test exhaustiv pe toate intercalările.",
+      "open": "Acesta este retry după commit, nu cursă între job și UI. Redeschiderea completă și detectarea unui document adăugat concomitent nu sunt închise.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK17",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "AMORT100EUR, VC220EUR; duplicarea valorilor schemei secundare rămâne dovedită. Devalidarea AMORT când VC este activă este refuzată.",
+      "open": "Consecința este demonstrată pe fixture-ul nativ GardenWorld. Sursele inițiale sunt patru poziții de fixture, nu patru documente create în UI. Nu pretind pierderi reale sau închiderea integrală a lunii.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK18",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "SQL-ul balanței și comparația nativă reconfirmă credit7.802,38 versus 4.217,50USD și3.584,88EUR.",
+      "open": "Bilanțul anual, toate rubricile și exportul rămân distincte. Interogarea în clona actuală nu simulează o sesiune ZK.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK19",
+      "R4_state": "INCONCLUDENT",
+      "scope": "LotA și D394 confirmă date și mapping. Nu este generare din toate documentele de jurnal pe trei formulare.",
+      "open": "Nu s-au generat D300/D390/D394 din setul GardenWorld cu AG, stornare, taxare inversă și reconcilierea fiecărei rubrici.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK20",
+      "R4_state": "INCONCLUDENT",
+      "scope": "D100 sponsorizare 150/1000, plată850 verificată cu 2 JAR și DUK plus negativ. Nu este postare financiară dintr-un stat real.",
+      "open": "Nu există verdict pentru fiecare beneficiar și formular sau toate deducerile/rectificările; nu tratăm un reper bugetar ca verdict de conformitate fiscală.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK21",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Niciun nou SAF-T generat din aceleași documente. Se păstrează R1/R2.",
+      "open": "Generarea D406 din noile documente ERP și reconcilierea master data/active pentru toate secțiunile nu sunt executate.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK22",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Nicio recepție eFactura nouă din circuit complet.",
+      "open": "Nu probează descărcarea SPV, deduplicarea ID extern eFactura sau atașarea originalului eFactura în ERP.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK23",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Nicio depunere sau recipisă reală; doar probele permise din rundele anterioare.",
+      "open": "Nicio confirmare de depunere, timeout ambiguu, acceptare/respins sau retry la ANAF nu se deduce din nota CO/Y.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK24",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Niciun transport/UIT/compensare eTVA verificat în această rundă.",
+      "open": "Recepția nu probează UIT sau diferențele unei perioade eTVA. Nu se declară depuneri sau aplicabilitatea vreunei obligații reale.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK25",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Salariu net→brut comparat cu căutare exhaustivă 4 profiluri; mutant CAS+0,01 și concediu între ani executate în JVM. Fără D112 din stat complet.",
+      "open": "Calculul contractelor multiple și CM, payroll→GL→D112 pe un același stat complet rămâne neexecutat.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK26",
+      "R4_state": "INCONCLUDENT",
+      "scope": "SAL neaplicabilă în clona fără stat calculat, deci nu se revendică notă salarială. AMORT este alt document.",
+      "open": "Nu există urmă pentru stat finalizat→notă→plată→alocare manoperă, care să dovedească recunoașterea unică a salariilor.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK27",
+      "R4_state": "INCONCLUDENT",
+      "scope": "TestT03Front nu transmisie REGES; păstrăm delimitarea.",
+      "open": "Nu există eveniment REGES cu acceptare/rectificare corelată end-to-end cu salariul și declarația.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK28",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Activ de1200/12 a generat fișă de amortizare reală de100 și GL_Journal CO/Y în EUR; mapare incorectă refuzată, apoi mapare nativă corectă.",
+      "open": "Contabil/fiscal, punere în funcțiune și postarea A_Depreciation_Exp nu au încă un lanț echivalent celui pentru GL.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK29",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Nu s-a vândut sau casat acest activ în runda curentă.",
+      "open": "Ieșirea activului cu valoare netă400 și importul unui activ deja casat nu s-au executat prin ERP.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK30",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Importul SAGA rupt la schema secundară rămâne F05; firma reală trebuie să ofere politica de import.",
+      "open": "Arhiva este sintetică și factura are o singură linie. Conservarea schemei secundare ori refuzul explicit trebuie stabilite la configurare; incident real în producție nedemonstrat.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK31",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Urme de la jurnal la Fact_Acct și per cerere; nu toate drepturile/expirarea/drepturile de arhivă.",
+      "open": "Semnătura artefactelor audit și păstrarea unui ID nu demonstrează politica de retenție sau drepturile tuturor utilizatorilor.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK32",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "ZK autentic în 1366×768, mesajul „după pasul5” pe buton dezactivat, nicio operație forțată. Sunt arhivate capturile. Ruperea lei/EUR rămâne independentă.",
+      "open": "Un răspuns din REST nu înlocuiește testarea celor două rezoluții și tastaturii pe toate formele contabile.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK33",
+      "R4_state": "FAIL_DOVEDIT",
+      "scope": "Nu s-a măsurat exportul contabil pe 100k/1m rânduri în această rundă.",
+      "open": "Benchmarkul SQL nu măsoară p95 al aplicației, paginare UI/export PDF, memorie job sau plan pe indecșii tabelului fizic.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK34",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Nicio nouă comparație buget–angajament–realizat.",
+      "open": "Nicio confirmare a disponibilului pe versiune de buget/angajament și nici a întregii aplicații GL Budget.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK35",
+      "R4_state": "INCONCLUDENT",
+      "scope": "Schema verificată fără migrare sau schimbare de produs. Clona și slotul restituite.",
+      "open": "Restaurarea nu este migrare/backfill. Două versiuni succesive, migrarea întreruptă și regresia contabilă per schema țintă nu sunt executate.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    },
+    {
+      "id": "A03.CK36",
+      "R4_state": "INCONCLUDENT",
+      "scope": "R6 fișe verificate individual; 599 nu sunt considerate auditate integral.",
+      "open": "Nu există certificare a tuturor criteriilor A12 prin enumerare. Fișele finale și arbitrajul individual rămân responsabilitatea A12/A11.",
+      "decision": "ACCEPT_DOVADA_NOMINALĂ; FĂRĂ_PASS_GLOBAL"
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A03.PL01",
+      "observation": "GL nativ AMORT/VC→Fact_Acct pe document și linie, refuzuri și concurență.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL02",
+      "observation": "Nu s-a urmărit aceeași comandă storefront la factura/eFactura nativă.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL03",
+      "observation": "EX07 ramburs per colet și nativ payments separate, fără identificator comun până în Fact_Acct.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL04",
+      "observation": "D100 în perioada 06/2023 generat și verificat DUK. Baza prețurilor este un input sintetic, nu un document economic creat în acest lanț.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL05",
+      "observation": "Subcazuri salarii/jurnal fiscal/date efective. Fără un stat complet→GL→D112→plată.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL06",
+      "observation": "Activ sintetic în GardenWorld→proces AMORT→fișă→jurnal și rânduri Fact_Acct verificate. Achiziția activului/SAF-T și fiscal vs contabil nu sunt incluse.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL07",
+      "observation": "Lanțul nativ de recepție/retur, SAGA și limitele a două scheme din A03/A04 sunt păstrate, fără dublare.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL08",
+      "observation": "Nu transformăm ajustarea T366 într-o probă de reasamblare G2 ori manoperă.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL09",
+      "observation": "ZK arată refuzul înainte de scriere. AMORT100EUR→VC220EUR CO/Y, devalidare și 10 perechi concurente. Luna de început și perioada GLJ sunt explicit separate.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    },
+    {
+      "id": "A03.PL10",
+      "observation": "Zero efecte externe; document XML+DUK și finanțare internă au urme distincte.",
+      "scope": "TRASEE_SPECIFICE_PROBATE, PIPELINE_COMPLET_NU_ECHIVALEAZĂ_CU_TOATE_CRITERIILE",
+      "full": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "A03-F01",
+      "result": "PĂSTREZ CONSTATAREA ȘI LIMITA",
+      "factual_r4": "Repetarea balanței: cont21101 raportează credit7802,38, deși schemele separate au4217,50 USD și3584,88 EUR; conversia nativă de test100USD→85EUR este corectă. Problema este agregarea fără schemă, nu funcția nativă de curs."
+    },
+    {
+      "id": "A03-F02",
+      "result": "PĂSTREZ CONSTATAREA ȘI LIMITA",
+      "factual_r4": "Ori de câte ori există două scheme, validarea reală VC citește împreună. În R4, AMORT100EUR + două intrări sintetice de100USD/20EUR au condus la un jurnal VC220EUR. Intrările sintetice sunt delimitate de jurnalul real postat."
+    },
+    {
+      "id": "A03-F03",
+      "result": "PĂSTREZ CONSTATAREA ȘI LIMITA",
+      "factual_r4": "Toleranța0,005 în JAR-urile existente rămâne problema raportată pentru moneda cu3zecimale. Noua probă nativă de curs este în USD/EUR cu2 zecimale."
+    },
+    {
+      "id": "A03-F04",
+      "result": "PĂSTREZ CONSTATAREA ȘI LIMITA",
+      "factual_r4": "Cazul 19% versus21%, obligația și limita datei rămân cele verificate în R2. D100 din iunie2023 este o probă distinctă pe impozitul micro și nu dovedește TVA comercial."
+    },
+    {
+      "id": "A03-F05",
+      "result": "CONFIRMARE DELIMITATĂ ȘI RECONCILIERE CU TITULARUL",
+      "factual_r4": "Caz păstrat fără dublare: SAGA fidel 4 linii pe 2 scheme→2 numai în principala; politica secundară din firma reală nu este dedusă din laborator."
+    },
+    {
+      "id": "A03-F06",
+      "result": "CONFIRMARE DELIMITATĂ ȘI RECONCILIERE CU TITULARUL",
+      "factual_r4": "În R4 nota AMORT100EUR și VC220EUR au rezumate în „lei”. NIR distinct A04-F01: factura1000002 este USD, 7×10+5×100=570USD; TOTAL și antetele nu indică moneda, iar exact diferența −4×10USD este tipărită −40,00 lei. Nu etichetăm ca RON întregul total și nu afirmăm o notă fiscală eronată."
+    }
+  ],
+  "issues": [
+    "T256-R2-017: condiția statică „testul să fie ultimul bloc” nesatisfăcută la head. Etichetează explicit subcondiția la următoarea revizie; păstrează 34/0 drept rezultat separat al suitei.",
+    "Pentru F01/F02 rulați balanță și VC cu schema explicită per firmă și contra-moneda, cu reconciliere pe fiecare cont. Pentru F05 solicitați politica normativă, nu infereți din efectul observat.",
+    "Continuați prioritizat cele 573 netestate în lotul A03, cumulat cu registrul A12 curent, fără dublare. Pentru rolurile contabile și non-contabile exercitați revenirea din refuz în aceeași navigare și starea documentelor după proces."
+  ],
+  "scope": "T58 este identificator agregat al cerințelor istorice și T158 succesor. Acest raport validează oracolele selectate în versiunea curentă, nu stare de montare istorică. Rezumatul în lei și moneda reală EUR rămân lucruri diferite.",
+  "independent": {
+    "file": "readback_A03_R4.json",
+    "sha": "d7d099a51ce15f6ab4dc8d88915d3b5a7b73c1cf7dccf4b49dfa119aabd893fe",
+    "D100": "2e245979371597260341908ab82a78f4307f81878152647dd1716ec98fe1f9c3",
+    "scripts": {
+      "duk.py": "f2ee43e3b94416289a555c6434cfad2c91163e0d9b8097f632c8c75a4a68f59d",
+      "decision.py": "ef80c1d294b2a662b329b0be4ed10efcbf6150ce1e8faf10734572eb39d304a3"
+    }
+  }
+}

@@ -1,0 +1,1336 @@
+{
+  "schema": "eva.audit.r11.dispatch-all/1",
+  "utc": "2026-11-02T21:16:38.872882+00:00",
+  "mode": "PLANIFICAT; nu reprezintă inspecție de conținut, execuție, dovadă de activare sau verdict de produs.",
+  "head": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "base": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "register": {
+    "file": "Dispatch_tehnic_integral.jsonl.gz",
+    "rows": 6709,
+    "sha256_gzip": "a80806a944bbf23147427085b2d433d6bbaf5d3b7f73ceaa3d9d7f42487bae60",
+    "sha256_jsonl": "9bfed1c360b5c08e1f4054eb3e582dfa233aa749f30cf8c8fd9e26cd459edd3f"
+  },
+  "input_sha256": {
+    "Catalog_Git_integral_per_fisier.jsonl.gz": "9458c44d7c5da02ad764f37608758003d614ed92b3a98f1333c8e545e537fd8a",
+    "Perimetru_tuturor_fisierelor.json": "b1e34d6bffdfa7a808a9dc90f6353ee88fe769999dfeebce7a2c9d721a26d934",
+    "Trasabilitate_delta_v2.json": "f46a41bd8f4464460c8eccd7898a8d09651882ae00274cbd9e37dcef89e1f0d2",
+    "A12_registru_693_stari_alias_v2.json": "7c3f579de1ddecbee9b3a4a1634ebc643101db49167b502618856fc093e582ae",
+    "A06_protocol_fisier_cu_fisier.json": "630270ecdd382c9cae2d95c52fcd36890b9fc2eeab635f09bc260acd79d0fcad",
+    "A06_sablon_fisa_fisier.json": "50589ee880ed6779a82d51c91472715349651d5d31621783aea7b035c4a1298b"
+  },
+  "original_plans_sha256": {
+    "A01": "f6e1c63bff86dc03d48dd2539ca0918a7979b3a8a9f69b54dfe6067023aa8f64",
+    "A02": "7adf2db648b7529b82bd0402b0d1070261efaacf34b12e9d65503af11a613859",
+    "A03": "9c1698348ec2fe3f626e6d9a5b2dd943434975bfef04af60f93ddb37cd6867a1",
+    "A04": "4341589148c4f8f2d7453fe00b49a5bc0b10f3f72ddab4dbb4a34778540ffb8e",
+    "A05": "e58253794438071a5b864543a9a698b7a5fcd687ec7c6e75eef722fb8f41e09e",
+    "A06": "e84c75e2e22c5af4eca4617f5dd26489646fecd88cb6926c5d4cc05d935bb6f2",
+    "A07": "8509be814b660849e239f42e0b7b2c7b9f7b0b42b58bb0760ee57cd8050b48f2",
+    "A08": "dce61fdc9a94ca209010032b30cde26777d01e90bdc70e28ebef65ba5282863a",
+    "A09": "46ff16ae0213ef2204b0fb476e8bf0f1a6562dc587b01f5111efa66811464dfb",
+    "A10": "0cff0732ccb2372279c5ec9b6b30e281bfc8010813b9df25e56897d723294c1a"
+  },
+  "universe": {
+    "HEAD_paths": 182912,
+    "historical_Documentatie_LogIstoric": 175911,
+    "outside_archives": 7001,
+    "outside_metadata_only": 292,
+    "technical_in_dispatch": 6709,
+    "technical_paths_present_in_delta": 205,
+    "technical_unchanged": 6504,
+    "delta_total_paths_independent": 1632,
+    "delta_deleted_not_in_tree": 7,
+    "independent_git_ls_tree_head_count": 182912,
+    "modes_objects_exact_match": true,
+    "unique_paths_file_ids": true,
+    "excluded_categories": "Cele 292 documente/metadate externe şi 175911 articole Documentatie/Log-Istoric rămân în catalog integral. Cer promovare dacă un build/runner/loader sau client le folosește; cazurile promovate nu măresc retrospectiv numitorul semnat fără anexă de perimetru. Datele istorice/client/SSO/parteneri nu se accesează pentru dispatch."
+  },
+  "by_family": {
+    "FRONTEND_WEB": 659,
+    "BACKEND_PY": 480,
+    "LIVRARE_PROBE": 1480,
+    "SCHEMĂ_DATE": 16,
+    "RĂDĂCINĂ": 1,
+    "ERP_OSGI": 3901,
+    "RUTARE": 172
+  },
+  "by_class": {
+    "BINAR_SAU_ARHIVĂ": 259,
+    "SURSĂ_CONFIG_SAU_RESURSĂ_TEHNICĂ": 3784,
+    "RESURSĂ_VIZUALĂ_ȘI_FONT": 717,
+    "TEST_FIXTURĂ_RUNNER": 1949
+  },
+  "by_priority": {
+    "P2_ACOPERIRE_INTEGRALA": 5206,
+    "P1_INTRARE_ACTIVA": 1298,
+    "P0_DELTA_INTERFATA": 34,
+    "P1_DELTA_SUPORT": 171
+  },
+  "by_owner": {
+    "A08": 604,
+    "A01": 324,
+    "A10": 1505,
+    "A03": 1713,
+    "A06": 313,
+    "A07": 189,
+    "A09": 1152,
+    "A02": 142,
+    "A04": 473,
+    "A05": 294
+  },
+  "by_peer": {
+    "A06": 900,
+    "A02": 2386,
+    "A01": 1614,
+    "A08": 306,
+    "A05": 189,
+    "A10": 140,
+    "A03": 33,
+    "A09": 862,
+    "A04": 279
+  },
+  "by_unique_pair": {
+    "A08+A06": 604,
+    "A01+A02": 298,
+    "A10+A01": 741,
+    "A03+A02": 877,
+    "A06+A08": 306,
+    "A07+A05": 189,
+    "A09+A01": 873,
+    "A02+A10": 140,
+    "A04+A03": 33,
+    "A05+A06": 294,
+    "A04+A02": 440,
+    "A01+A09": 26,
+    "A10+A02": 764,
+    "A03+A09": 836,
+    "A02+A06": 2,
+    "A06+A02": 7,
+    "A09+A04": 279
+  },
+  "by_profile": {
+    "BINARY": 259,
+    "CONFIG": 143,
+    "RESOURCE": 548,
+    "PY_SERVICE": 379,
+    "WEB_UI": 1056,
+    "PY_ROUTE": 68,
+    "DB_SQL": 212,
+    "REPORT": 268,
+    "FIXTURE": 1949,
+    "RUNNER": 70,
+    "JAVA_OSGI": 1410,
+    "ZK_UI": 347
+  },
+  "by_routing_rule": {
+    "STOREFRONT": 519,
+    "FAMILY_SHARED": 989,
+    "INFRA": 666,
+    "ACCT": 687,
+    "SALE": 213,
+    "AUTH": 88,
+    "LOGISTIC": 138,
+    "UX": 280,
+    "DBDICT": 140,
+    "PURCHASE": 33,
+    "MARKET": 54,
+    "WMS": 126,
+    "SAGA_BRIDGE": 440,
+    "TASK_TITLE_WMS": 168,
+    "TASK_TITLE_ACCT": 190,
+    "R11_DELTA_EXPLICIT": 205,
+    "HR_VENDOR": 836,
+    "CORE_ORDER": 3,
+    "ERP_UI": 344,
+    "TASK_TITLE_SALE": 66,
+    "TASK_TITLE_MARKET": 27,
+    "TASK_TITLE_LOGISTIC": 51,
+    "TASK_TITLE_UX": 13,
+    "TASK_TITLE_AUTH": 33,
+    "SAGA_UI": 279,
+    "PROXY_SCREEN": 51,
+    "TRAEFIK": 70
+  },
+  "by_association": {
+    "SHARED_NO_TASK_ASSIGNED": 4882,
+    "LOCATOR_LITERAL_TO_VERIFY": 1622,
+    "R11_DELTA_EXPLICIT": 86,
+    "DELTA_CROSSCHECK": 119
+  },
+  "teams": {
+    "A01": [
+      "A02",
+      "A01.C13",
+      "auth, birou/cabinet, acces şi IAM"
+    ],
+    "A02": [
+      "A01",
+      "A02.C004",
+      "DB, dicționar AD, model şi referințe"
+    ],
+    "A03": [
+      "A02",
+      "A03.CK05",
+      "contabilitate, fiscalitate, HR şi postări"
+    ],
+    "A04": [
+      "A03",
+      "A04-C13",
+      "achiziții, import SAGA şi aprovizionare"
+    ],
+    "A05": [
+      "A06",
+      "A05-C13",
+      "G1/G2, WMS, BOM şi inventar"
+    ],
+    "A06": [
+      "A08",
+      "A06-C18",
+      "G3, CRM şi comandă comercială"
+    ],
+    "A07": [
+      "A03",
+      "A07.K25",
+      "livrare, AWB, încasare şi retur"
+    ],
+    "A08": [
+      "A06",
+      "A08-C27",
+      "site/canal, marketing şi checkout"
+    ],
+    "A09": [
+      "A01",
+      "A09-C04",
+      "UX ERP, ZK/mobil şi accesibilitate"
+    ],
+    "A10": [
+      "A02",
+      "A10-CK-01",
+      "runtime, infrastructură şi probe"
+    ]
+  },
+  "routing_precedence": [
+    "Pentru cele 205 căi tehnice modificate, owner/peer sunt cei ai rândului semnat din Trasabilitate_delta_v2. Pentru restul, reguli fixe de subarbore, reguli tematice ale căii, denumirea taskului numai pentru un ID literal existent, apoi familia/consumatorul provizoriu.",
+    "Titular unic şi peer diferit pentru fiecare rând. Un caz între zone aparține titularului şi merge la peer indicat; A11 face adjudicare independentă. Relația la un task nu este demonstrată doar de numele căii; fără ID verificabil nu se asignează task fictiv.",
+    "Pentru unități comune, analiza statică trebuie să confirme consumatorul concret din association_condition şi să păstreze separat numărătoarea acoperirii per fișier. Rezolvarea la altă zonă se jurnalizează imutabil cu before/after şi motiv; fișierul nu dispare."
+  ],
+  "controls": {
+    "C/A01.C02": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C02",
+      "label": "Login, parole și recuperare fără enumerare",
+      "candidate_pipelines": [
+        "A01.P01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A01.C03": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C03",
+      "label": "Integritatea și separarea tokenurilor",
+      "candidate_pipelines": [
+        "A01.P01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A01.C07": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C07",
+      "label": "Roluri, aliasuri și refuz implicit",
+      "candidate_pipelines": [
+        "A01.P01",
+        "A01.P03",
+        "A01.P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A01.C09": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C09",
+      "label": "Rute cabinet/CUI firmă/canal și canonicalizare",
+      "candidate_pipelines": [
+        "A01.P02",
+        "A01.P07"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A01.C10": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C10",
+      "label": "Același CUI în cabinete diferite și AD_Client_ID repetat",
+      "candidate_pipelines": [
+        "A01.P02",
+        "A01.P08"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A01.C13": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C13",
+      "label": "Apartenența obiectului la fiecare acces direct",
+      "candidate_pipelines": [
+        "A01.P04",
+        "A01.P07",
+        "A01.P09"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A01.C20": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C20",
+      "label": "Grant/revoke și prevenirea auto-escaladării",
+      "candidate_pipelines": [
+        "A01.P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A01.C23": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C23",
+      "label": "Acces mobil: dispozitiv, token, sesiune și API",
+      "candidate_pipelines": [
+        "A01.P05"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A01.C27": {
+      "zone_plan": "A01_plan.json",
+      "control_id": "A01.C27",
+      "label": "Sesiuni web, cookie, CSRF, CORS și redirect",
+      "candidate_pipelines": [
+        "A01.P01",
+        "A01.P03",
+        "A01.P07"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C002": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C002",
+      "label": "Inventar închis AD–schemă",
+      "candidate_pipelines": [
+        "A02.P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C003": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C003",
+      "label": "Tip și nulabilitate",
+      "candidate_pipelines": [
+        "A02.P01",
+        "A02.P04",
+        "A02.P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C004": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C004",
+      "label": "Chei și referințe tenant",
+      "candidate_pipelines": [
+        "A02.P01",
+        "A02.P02",
+        "A02.P04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C005": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C005",
+      "label": "Identități CPP/CPA distincte",
+      "candidate_pipelines": [
+        "A02.P01",
+        "A02.P07"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C009": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C009",
+      "label": "Migrare fresh",
+      "candidate_pipelines": [
+        "A02.P02",
+        "A02.P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C014": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C014",
+      "label": "Locking fără supraconsum",
+      "candidate_pipelines": [
+        "A02.P03",
+        "A02.P05"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C016": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C016",
+      "label": "Unicitate poziție și NULL/zero",
+      "candidate_pipelines": [
+        "A02.P03",
+        "A02.P04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C021": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C021",
+      "label": "Inventar ASI/MA corect",
+      "candidate_pipelines": [
+        "A02.P04",
+        "A02.P07"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C026": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C026",
+      "label": "Jurnal audit integral",
+      "candidate_pipelines": [
+        "A02.P02",
+        "A02.P03",
+        "A02.P04",
+        "A02.P08"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C028": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C028",
+      "label": "Import master data reversibil logic",
+      "candidate_pipelines": [
+        "A02.P01",
+        "A02.P07"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C029": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C029",
+      "label": "Numere documente și secvențe",
+      "candidate_pipelines": [
+        "A02.P08"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C030": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C030",
+      "label": "Monedă, precizie și dată",
+      "candidate_pipelines": [
+        "A02.P04",
+        "A02.P08"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A02.C031": {
+      "zone_plan": "A02_plan.json",
+      "control_id": "A02.C031",
+      "label": "Performanță interogări și indexuri",
+      "candidate_pipelines": [
+        "A02.P05",
+        "A02.P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK03": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK03",
+      "label": "Plan de conturi, dimensiuni și monografie configurată",
+      "candidate_pipelines": [
+        "A03.PL01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK04": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK04",
+      "label": "Nota contabilă: DocAction, commit și postare reală",
+      "candidate_pipelines": [
+        "A03.PL01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK05": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK05",
+      "label": "Echilibru Fact_Acct, proveniență și semnificația zero net",
+      "candidate_pipelines": [
+        "A03.PL01",
+        "A03.PL02",
+        "A03.PL03",
+        "A03.PL06",
+        "A03.PL08"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK06": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK06",
+      "label": "Monedă, rotunjiri și date document/contabilizare/curs",
+      "candidate_pipelines": [
+        "A03.PL02",
+        "A03.PL03"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK07": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK07",
+      "label": "Factura: net/brut, taxe, discount și transport integral",
+      "candidate_pipelines": [
+        "A03.PL02"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK08": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK08",
+      "label": "Parametri fiscali și vector: intervale, revizii, explicabilitate",
+      "candidate_pipelines": [
+        "A03.PL04",
+        "A03.PL05",
+        "A03.PL06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK09": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK09",
+      "label": "Jurnale TVA: regimuri și reconciliere document–taxă–cont",
+      "candidate_pipelines": [
+        "A03.PL02",
+        "A03.PL04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK15": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK15",
+      "label": "Preînchidere lună: documente nepostate și perioade deschise",
+      "candidate_pipelines": [
+        "A03.PL09"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK18": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK18",
+      "label": "Balanță, jurnal, fișă cont și bilanț: oracol independent",
+      "candidate_pipelines": [
+        "A03.PL01",
+        "A03.PL09"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK19": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK19",
+      "label": "D300/D390/D394: surse, revizii, validator oficial și corelări",
+      "candidate_pipelines": [
+        "A03.PL04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK20": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK20",
+      "label": "D100/D101/D205 și bilanț anual: obligație versus generare",
+      "candidate_pipelines": [
+        "A03.PL04",
+        "A03.PL09"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK21": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK21",
+      "label": "D406 SAF-T: master data, tranzacții și reconciliere de volum",
+      "candidate_pipelines": [
+        "A03.PL04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK23": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK23",
+      "label": "e-Factura emisă: coadă, credit note și recipisă fără efect extern",
+      "candidate_pipelines": [
+        "A03.PL02",
+        "A03.PL10"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK24": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK24",
+      "label": "e-Transport și e-TVA: obligații, legături și diferențe",
+      "candidate_pipelines": [
+        "A03.PL04",
+        "A03.PL10"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK25": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK25",
+      "label": "Salarizare: contract datat, calcul, D112 și excepții",
+      "candidate_pipelines": [
+        "A03.PL05"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A03.CK27": {
+      "zone_plan": "A03_plan.json",
+      "control_id": "A03.CK27",
+      "label": "REGES și HR: evenimente datate, impact salarial, fără transmisii",
+      "candidate_pipelines": [
+        "A03.PL05",
+        "A03.PL10"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C03": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C03",
+      "label": "Comanda de aprovizionare",
+      "candidate_pipelines": [
+        "A04-P1"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C04": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C04",
+      "label": "Recepție parțială și NIR",
+      "candidate_pipelines": [
+        "A04-P2"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C07": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C07",
+      "label": "Potrivire comandă, recepție și factură",
+      "candidate_pipelines": [
+        "A04-P3"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C11": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C11",
+      "label": "Preluare arhivă sigură",
+      "candidate_pipelines": [
+        "A04-P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C12": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C12",
+      "label": "Universul tabelelor SAGA și al rândurilor",
+      "candidate_pipelines": [
+        "A04-P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C13": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C13",
+      "label": "Ordine și dependențe",
+      "candidate_pipelines": [
+        "A04-P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C18": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C18",
+      "label": "Facturi, conversie și semne istorice",
+      "candidate_pipelines": [
+        "A04-P5"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C19": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C19",
+      "label": "Stoc la data tranziției",
+      "candidate_pipelines": [
+        "A04-P5"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A04-C22": {
+      "zone_plan": "A04_plan.json",
+      "control_id": "A04-C22",
+      "label": "Reluare și tranzacții",
+      "candidate_pipelines": [
+        "A04-P6"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C01": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C01",
+      "label": "Configurarea G1/G2 și drepturile gestionarului",
+      "candidate_pipelines": [
+        "A05-P01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C06": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C06",
+      "label": "Transfer, tranzit și destinație între G1 distincte",
+      "candidate_pipelines": [
+        "A05-P02"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C09": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C09",
+      "label": "Asamblare reversibilă S1",
+      "candidate_pipelines": [
+        "A05-P03"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C13": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C13",
+      "label": "G3 alternative complete și angajament global",
+      "candidate_pipelines": [
+        "A05-P04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C14": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C14",
+      "label": "Concurența între canale și valurile de pick",
+      "candidate_pipelines": [
+        "A05-P04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C15": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C15",
+      "label": "Lot, serie, expirare și ASI zero",
+      "candidate_pipelines": [
+        "A05-P04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C16": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C16",
+      "label": "Pick în ERP și aviz de expediție",
+      "candidate_pipelines": [
+        "A05-P04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C18": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C18",
+      "label": "Numărare și diferență aprobată",
+      "candidate_pipelines": [
+        "A05-P05"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C22": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C22",
+      "label": "Scanare pe suprafețele ERP inventariate",
+      "candidate_pipelines": [
+        "A05-P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C24": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C24",
+      "label": "Același contract WMS pe mobil și ERP",
+      "candidate_pipelines": [
+        "A05-P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A05-C27": {
+      "zone_plan": "A05_plan.json",
+      "control_id": "A05-C27",
+      "label": "Retur parțial cu control calitate",
+      "candidate_pipelines": [
+        "A05-P07"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C01": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C01",
+      "label": "Catalog",
+      "candidate_pipelines": [
+        "A06-P1"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C05": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C05",
+      "label": "G3 alternative",
+      "candidate_pipelines": [
+        "A06-P2"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C10": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C10",
+      "label": "Transfer angajament ERP",
+      "candidate_pipelines": [
+        "A06-P2",
+        "A06-P5"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C12": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C12",
+      "label": "Conversii per canal",
+      "candidate_pipelines": [
+        "A06-P1",
+        "A06-P7"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C15": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C15",
+      "label": "Preț și monedă",
+      "candidate_pipelines": [
+        "A06-P3"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C16": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C16",
+      "label": "Promoții și credit",
+      "candidate_pipelines": [
+        "A06-P3"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C18": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C18",
+      "label": "Idempotenta intrării",
+      "candidate_pipelines": [
+        "A06-P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C19": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C19",
+      "label": "Administrarea în ERP",
+      "candidate_pipelines": [
+        "A06-P4",
+        "A06-P7"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A06-C23": {
+      "zone_plan": "A06_plan.json",
+      "control_id": "A06-C23",
+      "label": "Oportunitate și atribuire",
+      "candidate_pipelines": [
+        "A06-P6"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K06": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K06",
+      "label": "Identitatea coletului și etichetei",
+      "candidate_pipelines": [
+        "A07.P2"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K07": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K07",
+      "label": "Rezultat necunoscut la curier",
+      "candidate_pipelines": [
+        "A07.P2"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K08": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K08",
+      "label": "Ramburs net repartizat",
+      "candidate_pipelines": [
+        "A07.P2"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K15": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K15",
+      "label": "Import decont curier",
+      "candidate_pipelines": [
+        "A07.P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K16": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K16",
+      "label": "Import extras și proprietatea contului",
+      "candidate_pipelines": [
+        "A07.P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K17": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K17",
+      "label": "Potrivire ambiguă",
+      "candidate_pipelines": [
+        "A07.P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K18": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K18",
+      "label": "Avans, plăți parțiale și alocări",
+      "candidate_pipelines": [
+        "A07.P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K19": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K19",
+      "label": "Valută, comisioane și diferențe",
+      "candidate_pipelines": [
+        "A07.P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K20": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K20",
+      "label": "Contestație PSP și restituire duplicată",
+      "candidate_pipelines": [
+        "A07.P4"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K21": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K21",
+      "label": "Autorizare retur parțial",
+      "candidate_pipelines": [
+        "A07.P5"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A07.K25": {
+      "zone_plan": "A07_plan.json",
+      "control_id": "A07.K25",
+      "label": "Lanț operator dintr-o singură comandă",
+      "candidate_pipelines": [
+        "A07.P6"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C06": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C06",
+      "label": "Mapare CPP și CPA",
+      "candidate_pipelines": [
+        "A08-P02"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C07": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C07",
+      "label": "Preț și conversii pe canal",
+      "candidate_pipelines": [
+        "A08-P02"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C08": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C08",
+      "label": "Alternative G3 și concurență la ultimul set",
+      "candidate_pipelines": [
+        "A08-P02"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C11": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C11",
+      "label": "Checkout complet cu adrese diferite",
+      "candidate_pipelines": [
+        "A08-P03"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C19": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C19",
+      "label": "Template Cesiro și teme independente",
+      "candidate_pipelines": [
+        "A08-P05"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C20": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C20",
+      "label": "Preview specific eMag/Trendyol",
+      "candidate_pipelines": [
+        "A08-P05"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C22": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C22",
+      "label": "Disponibilitate pentru șase limbi",
+      "candidate_pipelines": [
+        "A08-P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C23": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C23",
+      "label": "Canonical și sitemap pe canal",
+      "candidate_pipelines": [
+        "A08-P06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C25": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C25",
+      "label": "Coada și exportul ordinelor eșuate",
+      "candidate_pipelines": [
+        "A08-P07"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A08-C27": {
+      "zone_plan": "A08_plan.json",
+      "control_id": "A08-C27",
+      "label": "Proveniența instanțelor și sursa versiunii active",
+      "candidate_pipelines": [
+        "A08-P07"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C02": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C02",
+      "label": "Meniu real față de inventarul q31",
+      "candidate_pipelines": [
+        "A09-P1"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C04": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C04",
+      "label": "Dreptul în meniu și în serviciu",
+      "candidate_pipelines": [
+        "A09-P1"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C06": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C06",
+      "label": "Taburi pentru configurarea G1/G2/G3",
+      "candidate_pipelines": [
+        "A09-P2"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C07": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C07",
+      "label": "Identitate CPP/CPA în câmpurile de căutare",
+      "candidate_pipelines": [
+        "A09-P2"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C11": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C11",
+      "label": "Comandă ERP și deficit fizic",
+      "candidate_pipelines": [
+        "A09-P3"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C12": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C12",
+      "label": "Aprobare aviz, AWB și factură",
+      "candidate_pipelines": [
+        "A09-P3"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C18": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C18",
+      "label": "Import cu progres și erori",
+      "candidate_pipelines": [
+        "A09-P5"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C19": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C19",
+      "label": "Filtrare și paginare mare",
+      "candidate_pipelines": [
+        "A09-P5"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C20": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C20",
+      "label": "Fișier tipărit și export",
+      "candidate_pipelines": [
+        "A09-P5"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C22": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C22",
+      "label": "Navigare completă cu tastatură",
+      "candidate_pipelines": [
+        "A09-P6"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C23": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C23",
+      "label": "Etichete și mesaje pentru tehnologie asistivă",
+      "candidate_pipelines": [
+        "A09-P6"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C24": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C24",
+      "label": "Redimensionare și atingere",
+      "candidate_pipelines": [
+        "A09-P6"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A09-C25": {
+      "zone_plan": "A09_plan.json",
+      "control_id": "A09-C25",
+      "label": "Ajutor și vocabular contabil",
+      "candidate_pipelines": [
+        "A09-P6"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-01": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-01",
+      "label": "Versiunea sursă și a imaginii",
+      "candidate_pipelines": [
+        "A10-F01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-02": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-02",
+      "label": "Integritatea claselor OSGi",
+      "candidate_pipelines": [
+        "A10-F01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-04": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-04",
+      "label": "Actualizare AD repetabilă",
+      "candidate_pipelines": [
+        "A10-F01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-05": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-05",
+      "label": "Garda build și teste regresie",
+      "candidate_pipelines": [
+        "A10-F01"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-07": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-07",
+      "label": "Slotul §61",
+      "candidate_pipelines": [
+        "A10-F02"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-10": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-10",
+      "label": "Izolarea mediului de probă",
+      "candidate_pipelines": [
+        "A10-F02"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-17": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-17",
+      "label": "Revendicare unică a jobului",
+      "candidate_pipelines": [
+        "A10-F04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-19": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-19",
+      "label": "Readiness și mesaje operator",
+      "candidate_pipelines": [
+        "A10-F04"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-21": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-21",
+      "label": "Copie coerentă între DB și volume",
+      "candidate_pipelines": [
+        "A10-F05"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-24": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-24",
+      "label": "Spree, worker, index și storage pe canal",
+      "candidate_pipelines": [
+        "A10-F05"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    },
+    "C/A10-CK-28": {
+      "zone_plan": "A10_plan.json",
+      "control_id": "A10-CK-28",
+      "label": "Suprafață API și politici de acces",
+      "candidate_pipelines": [
+        "A10-F06"
+      ],
+      "requirement": "Consultați oracolul și cazul negativ ale controlului inițial, apoi confirmați intrarea reală, actorul și ID-ul pentru acest fișier. Asocierea tematică singură nu acordă acoperire."
+    }
+  },
+  "profiles": {
+    "PY_ROUTE": {
+      "S/PY_ROUTE": "Urmează modulul Python până la router/blueprint, middleware, serviciu şi efect; consemnează numele rutei şi toate variantele de actor.",
+      "T/PY_ROUTE": "Script HTTP sintetic pe routerul efectiv cu actor autorizat/străin, payload invalid, retry.",
+      "E/PY_ROUTE": "Acelaşi ID de la request la răspuns/DB; fără framework montat, doar componentă. Dacă aplicația folosește FastAPI, testează ASGI/dependency overrides; la Flask testează WSGI/blueprint."
+    },
+    "PY_SERVICE": {
+      "S/PY_SERVICE": "Inventariază apelanți, efecte, tranzacții şi joburi ai modulului Python; pentru __init__ verifică exportul şi efectele la import.",
+      "T/PY_SERVICE": "Invocare din router/worker/CLI autorizat, martor excepție/rollback/retry.",
+      "E/PY_SERVICE": "Intrarea montată, argumente/ID, rezultat și readback. Pentru modul nemontat: static şi motiv."
+    },
+    "JAVA_OSGI": {
+      "S/JAVA_OSGI": "Inventariază clasa/metodele și urmărește factory/listener/AD până la apelant; compară nativul cu override-ul.",
+      "T/JAVA_OSGI": "Test Java din pachet, apoi intrarea SvrProcess/DocAction/event normală, actor şi rollback.",
+      "E/JAVA_OSGI": "Blob sursă ≠ clasă livrată. Cere hash membru JAR, registru activ/AD, rezultat şi efect pe acelaşi ID."
+    },
+    "ZK_UI": {
+      "S/ZK_UI": "Inventariază form/window, câmpuri/recunoaştere rol, listener/action şi flux invers.",
+      "T/ZK_UI": "Deschidere meniu sau zoom sub rol permis/refuzat; clic, stări de eroare/gol şi refresh.",
+      "E/ZK_UI": "Captură widget+proces+ID şi DB dacă acțiunea scrie; bytecode sau model singur nu închid UI."
+    },
+    "WEB_UI": {
+      "S/WEB_UI": "Leagă template/CSS/js/media/i18n de router, manifest, locale şi componentele care-l încarcă.",
+      "T/WEB_UI": "Browser pe profil sintetic, tastatură + zoom/resize, loading/error, actor/canal şi API dacă există.",
+      "E/WEB_UI": "Asset efectiv încărcat sau HTML/render, stare calculată, rezultat screenshot/HTTP; write cere readback. Static dacă lipsesc."
+    },
+    "DB_SQL": {
+      "S/DB_SQL": "Clasifică DDL/query/migrare/fixture şi inventariază tipuri, chei, indexuri, izolare şi consumatori.",
+      "T/DB_SQL": "Motor/dialect real într-o fixtură autorizată, upgrade, replay/rollback, două sesiuni, rând inactiv/străin.",
+      "E/DB_SQL": "Snapshot catalog şi date înainte/după; pentru SQL de test verifică şi eşecul la mutant. SQLite nu substitie PostgreSQL."
+    },
+    "CONFIG": {
+      "S/CONFIG": "Identifică loader-ul efectiv, precedența profilurilor, rute, hooks/dependency şi trimiterile dinamice.",
+      "T/CONFIG": "Render/boot pe configurație sintetică; negativ alt profil, context/tenant, cale lipsă sau cheie invalidă.",
+      "E/CONFIG": "Exemplul de config, descriptorul şi health nu sunt binding: cere consumator activ şi martor de refuz."
+    },
+    "BINARY": {
+      "S/BINARY": "Manifest intrări/hash/clase, proveniență/build sau media; identificați binding nativ/OSGi și diferențe față de instalat.",
+      "T/BINARY": "Extrage fără execuție binar necunoscut; la artefact executabil autorizat invocă un membru pe calea încărcată, mutant membre lipsă.",
+      "E/BINARY": "Probe distincte de conținut şi activare; membrul exercitat nu acordă verdict tuturor membrilor."
+    },
+    "FIXTURE": {
+      "S/FIXTURE": "Inventariază producătorul fixture-ului/runnerului/datelor şi consumatorul, praguri, original vs mock, ce strat ocoleşte.",
+      "T/FIXTURE": "Rulează în mediul aprobat cazul nominal, control negativ şi un mutant care trebuie detectat; repetă cu originalul.",
+      "E/FIXTURE": "Jurnal + sursa oracolului şi bounding. Testul verde dovedeşte doar cazul fixat şi nu execuția căii business fără legătură."
+    },
+    "RESOURCE": {
+      "S/RESOURCE": "Documentează schema, format, locale, generatorul, consumatorul şi fallback-urile; caută legătura inversă.",
+      "T/RESOURCE": "Parsează/render din consumatorul sintetic, schimbă o intrare deliberat (local), verifică fallback/absența.",
+      "E/RESOURCE": "Hash şi parsare nu dovedește folosirea. Binding efectiv la ecran/proces, ori static/indeterminat."
+    },
+    "RUNNER": {
+      "S/RUNNER": "Identifică intrarea shell/CLI, fişiere atinse, garduri de autorizare şi rollback, apelant.",
+      "T/RUNNER": "Fixtură temporară, argument greşit, întrerupere, replay şi resurse zero după execuție.",
+      "E/RUNNER": "Exit code, comandă, operator şi registrul efectelor; dacă lipsesc permisiunile păstrează blocajul nominal."
+    },
+    "REPORT": {
+      "S/REPORT": "Identifică sursa raportului/modelului, versiunea de şablon şi operația de generare ori consum (captură arhivată).",
+      "T/REPORT": "Generează date si output de test prin consumator, verifică total, paginare/font şi drepturi; pentru captură documentară, identifică producătorul fără credit automat.",
+      "E/REPORT": "Acelaşi document/ID şi hash output; PDF/imagine deja exportată nu certifică sursa sau ecranul curent."
+    }
+  },
+  "evidence_resolution": "Fiecare rând se rezolvă prin id+path+mode+git_object, iar S/T/E şi C se rezolvă în acest manifest. Proba se completează după poartă în A06_sablon_fisa_fisier.json: actor, ID, intrarea, observații înainte/după, direct negative, hashuri şi peer; fără binding runtime rămâne static/indeterminat. Clasa fixture suprapune funcția de test asupra limbajului, deci se cere şi dovada execuției pe engine-ul real/corespunzător din extensie.",
+  "delta_controls_relation": "A06.GIT.1–3 sunt ipoteze preregistrate, nu scoruri. Contribuția A01/A06 şi planul v2 decid admiterea.",
+  "specialized_dispatch": {
+    "distinct_owner_and_peer_controls": 112,
+    "rows_with_topic_owner_trigger": 3248,
+    "rows_with_direct_area_pipeline_pointer": 6709,
+    "specialization": "În fiecare zonă, expresiile specifice din numele de fișier/subarbore selectează controale reale. Câmpurile control_match și peer_control_match arată potrivirea efectivă; la lipsă, ownerul soluționează condiția explicită de asociere înainte de verdict."
+  }
+}

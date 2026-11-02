@@ -1,0 +1,383 @@
+{
+  "schema": "eva.audit.r6.historical-document-review.v1",
+  "cutoff_git": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "utc": "2026-11-02T17:04:42.163473+00:00",
+  "documents_read_only": true,
+  "original_xlsx": {
+    "oid": "266cb17d2f94812f58034ef309750aec28683d20",
+    "path": "Documentatie/audit-2026-10-08/INVENTAR_IDEMPIERE_SAGA_EVA_2026-10-08.xlsx",
+    "sha256": "e70ddfad93e04a1a65f4f55342fcce5bda90e2fec40ddebd3577dad9f207ca81",
+    "bytes": 237905
+  },
+  "method": [
+    "git ls-tree la cutoff, recuperare prin cat-file după OID, reverificare SHA1 Git peste fiecare blob și SHA256 de conținut.",
+    "În gazda acestui subagent pachetul JS @oai/artifact-tool nu este disponibil la calea deps raportată. Citire fără modificare cu Python bundled: ZIP și XML OOXML, rezolvarea relațiilor sheet, stringurilor inline/shared și a valorilor numerice.",
+    "Comparare rând-cu-rând și celulă-cu-celulă cu cele două CSV primare. Echivalarea numerică se aplică numai dacă șirurile diferă dar ambele sunt numere egale.",
+    "Semantica AD este ancorată în exportul înghețat q31 și în generator. Corespondențele SAGA/EVA și compatibilitățile modulelor sunt clasificări documentare istorice. Nu s-au redeschis toate sursele de manual/licență și nu s-au exercitat produsele/programul SAGA."
+  ],
+  "provenance": [
+    {
+      "oid": "7d1c2d520a04947bb1a49da9ed9d3e9c2a6c53a9",
+      "path": "Documentatie/audit-2026-10-08/00_RAPORT_A70_INVENTAR.md",
+      "sha256": "6f752de9fe18a705c806f338b4f8b5862744e0441952b551447aa7d6e689facd",
+      "bytes": 8534
+    },
+    {
+      "oid": "4efad130e36d87d9eced2c8347e84a303301965a",
+      "path": "Documentatie/audit-2026-10-08/00_RAPORT_A73_INVERS.md",
+      "sha256": "08e99380cc2553fe1eefbdc1252eb81693572ec8286f5f3a22aa311fce7e8d1c",
+      "bytes": 13648
+    },
+    {
+      "oid": "a480eaa2812c74d09a2b00622d1b87470bbc3182",
+      "path": "Documentatie/audit-2026-10-08/00_RAPORT_A74_MODULE.md",
+      "sha256": "9b0e2cee64dc48d707fc7819fcd3c6bc131d3fd796c1ce98c14d21f8b53d3d3b",
+      "bytes": 13650
+    },
+    {
+      "oid": "a17f64357140318a1525d8fa966364b596ff2eee",
+      "path": "Documentatie/audit-2026-10-08/A75_AUDIT_INVERS.md",
+      "sha256": "c3cca0d2023352205f190987df2340c3386c2ec7d8fe6cc66e165ae6e74003c1",
+      "bytes": 24857
+    },
+    {
+      "oid": "aecb932f649d09e4a46427454ac2f9be7bf42ac5",
+      "path": "Documentatie/audit-2026-10-08/A76_AUDIT_MODULE.md",
+      "sha256": "932391388eaf40f68f1586d11599fd9915c6ec41500141bce8c4a362f232183a",
+      "bytes": 29524
+    },
+    {
+      "oid": "266cb17d2f94812f58034ef309750aec28683d20",
+      "path": "Documentatie/audit-2026-10-08/INVENTAR_IDEMPIERE_SAGA_EVA_2026-10-08.xlsx",
+      "sha256": "e70ddfad93e04a1a65f4f55342fcce5bda90e2fec40ddebd3577dad9f207ca81",
+      "bytes": 237905
+    },
+    {
+      "oid": "35006f12386608343bae84a1e474b7257ed3d7fb",
+      "path": "tools/inventar_idempiere_saga_eva/auto_eva_meniu.csv",
+      "sha256": "945324e85c4fc5ab11d1e94461c6e98d1697b05030f2946e39162780650b6ec0",
+      "bytes": 29427
+    },
+    {
+      "oid": "e818afaa9ece6365cf8dcd1fd3257ea784b48e1f",
+      "path": "tools/inventar_idempiere_saga_eva/auto_q31_dictionar.csv",
+      "sha256": "a582bb8314e02cad72e0870bea66d4e117ee1e19d77158a3a9b7366496398ac1",
+      "bytes": 4817
+    },
+    {
+      "oid": "aefca669753760b88831520ffb8454f57e782dd8",
+      "path": "tools/inventar_idempiere_saga_eva/auto_q31_eva_forme.csv",
+      "sha256": "43cb43ab13d3f5f73349a7646eb63c801fa55d5638db544636a9eebb0b8841a1",
+      "bytes": 11094
+    },
+    {
+      "oid": "41a16ce1a1f29d8ff0db73a8ef8d34957573c5f2",
+      "path": "tools/inventar_idempiere_saga_eva/auto_q31_eva_procese.csv",
+      "sha256": "0b0e29c527affc6db6023741482d12bcc155a435806d516a16c5a24112eede42",
+      "bytes": 9110
+    },
+    {
+      "oid": "e0d85665d873e872fbe7f24eb562532e3e4d6bbc",
+      "path": "tools/inventar_idempiere_saga_eva/auto_q31_meniu.csv",
+      "sha256": "e6a06895903ed9e7210fc6d8e7ecc12f0e45aab0357cdaff25188e194d811b94",
+      "bytes": 122797
+    },
+    {
+      "oid": "b220815bd66764400a410120fe50dbb8946acae4",
+      "path": "tools/inventar_idempiere_saga_eva/auto_q31_sistem.csv",
+      "sha256": "aac5f343a94d35da3e704635fa14ca1cc50cb4ec68af18619cc9f1b8a99ee139",
+      "bytes": 3893
+    },
+    {
+      "oid": "ab0d03ec872b41c5da8bc5372cddbdeb75629b66",
+      "path": "tools/inventar_idempiere_saga_eva/eva_extra.csv",
+      "sha256": "24f4353e7674b00172874a0ca79fbaa96eaf722cced7a7424a5639f79e8ad4cb",
+      "bytes": 5993
+    },
+    {
+      "oid": "4366b0dcd74d536e3c9398a32e7fbfc0e297459d",
+      "path": "tools/inventar_idempiere_saga_eva/eva_stare.csv",
+      "sha256": "b39c8ee300d81442ae4a2a1c0a999b8ba8124a25bcf52048e0bbe27446200475",
+      "bytes": 19197
+    },
+    {
+      "oid": "ca167b640a5f9d13d32ce4269079739fa16a0fc5",
+      "path": "tools/inventar_idempiere_saga_eva/genereaza_inventar.py",
+      "sha256": "892c5401db899b7601f627d1fc6670143572d6f3b21ebfb3619425a7b3eab1cb",
+      "bytes": 32914
+    },
+    {
+      "oid": "14db2d3a74c96db20c325ae0c2b477a784033315",
+      "path": "tools/inventar_idempiere_saga_eva/idempiere_lipsuri_ro.csv",
+      "sha256": "6601246e697af7343378a9f358499d04fe017007a856382e1970393a99bd23cd",
+      "bytes": 4064
+    },
+    {
+      "oid": "7cf5298b1facbe992f8c8fb82b171dda2d257d9a",
+      "path": "tools/inventar_idempiere_saga_eva/idempiere_zone.csv",
+      "sha256": "c5624a701ad364b8b8cb10f2ebb2f7604f18993491e9f62376e4d961ce844d79",
+      "bytes": 4264
+    },
+    {
+      "oid": "0135d3d71714d811bd82984010c4524673420ed8",
+      "path": "tools/inventar_idempiere_saga_eva/invers_idempiere_saga.csv",
+      "sha256": "1883dc6cfa7caac788074e72b47b5ad600ff15e1cd029a11bbaf2a2fd3ab4b9e",
+      "bytes": 548533
+    },
+    {
+      "oid": "24a92880fc3024a4b4632c62238e0543bdeb6bb2",
+      "path": "tools/inventar_idempiere_saga_eva/matrice.csv",
+      "sha256": "e37d495ca35fadbd2aad07827fbd5ca60ddebf8cf76b382b08623b4d4037ba20",
+      "bytes": 22283
+    },
+    {
+      "oid": "64fed4cb25bacb8fa80cc4de3e638918f1df424b",
+      "path": "tools/inventar_idempiere_saga_eva/module_idempiere.csv",
+      "sha256": "a592ce80730030e6aeec5a18d54aa01c2246fd91baff9da7dd598676981696e8",
+      "bytes": 227934
+    },
+    {
+      "oid": "d20db37fc3a6563f9bd4c01917f89d492a245722",
+      "path": "tools/inventar_idempiere_saga_eva/saga_functii.csv",
+      "sha256": "d0803d4897f96644864ec57569fba94d10ab04468a5e5663af0461673f83985b",
+      "bytes": 33179
+    },
+    {
+      "oid": "dddb81b58178a93118ae656cda6f78e70b963bef",
+      "path": "tools/inventar_idempiere_saga_eva/versiuni.csv",
+      "sha256": "dc6236e8a2d7d29031d7896f577781795e46dc661e0c1938f96fc483505968b0",
+      "bytes": 5262
+    }
+  ],
+  "workbook_measurements": {
+    "sheets": [
+      {
+        "name": "Versiuni și repere",
+        "first_row": 1,
+        "last_row": 123,
+        "physical_nonempty_rows": 120
+      },
+      {
+        "name": "iDempiere 13 nativ",
+        "first_row": 1,
+        "last_row": 60,
+        "physical_nonempty_rows": 58
+      },
+      {
+        "name": "SAGA C 3.0 nativ",
+        "first_row": 1,
+        "last_row": 96,
+        "physical_nonempty_rows": 95
+      },
+      {
+        "name": "EvA-Contab acum",
+        "first_row": 1,
+        "last_row": 278,
+        "physical_nonempty_rows": 275
+      },
+      {
+        "name": "Matrice SAGA → iDempiere → EvA",
+        "first_row": 1,
+        "last_row": 117,
+        "physical_nonempty_rows": 115
+      },
+      {
+        "name": "iDempiere → SAGA (invers)",
+        "first_row": 1,
+        "last_row": 546,
+        "physical_nonempty_rows": 544
+      },
+      {
+        "name": "Module iDempiere instalabile",
+        "first_row": 1,
+        "last_row": 582,
+        "physical_nonempty_rows": 579
+      },
+      {
+        "name": "Sinteză",
+        "first_row": 1,
+        "last_row": 24,
+        "physical_nonempty_rows": 23
+      }
+    ],
+    "comparison": {
+      "inverse": {
+        "sheet": "iDempiere → SAGA (invers)",
+        "header_row": 22,
+        "first_data_row": 23,
+        "last_csv_row": 546,
+        "columns": 12,
+        "csv_records": 524,
+        "sheet_data_rows_below_header": 524,
+        "mismatched_cells": 0,
+        "first_mismatch_examples": []
+      },
+      "module": {
+        "sheet": "Module iDempiere instalabile",
+        "header_row": 204,
+        "first_data_row": 205,
+        "last_csv_row": 582,
+        "columns": 13,
+        "csv_records": 378,
+        "sheet_data_rows_below_header": 378,
+        "mismatched_cells": 0,
+        "first_mismatch_examples": []
+      }
+    },
+    "summary_rows": [
+      {
+        "row": 21,
+        "name": "iDempiere nativ — frunze active în meniu",
+        "value": "524",
+        "source": "auto_q31_meniu.csv"
+      },
+      {
+        "row": 24,
+        "name": "Module iDempiere instalabile: funcții / da / parțial / nu / n.a. RO / zile-om total",
+        "value": "378 / 77 / 125 / 119 / 57 / 485",
+        "source": "foaia «Module iDempiere instalabile» (module_idempiere.csv)"
+      }
+    ]
+  },
+  "T110": {
+    "technical": "T110",
+    "canonical": null,
+    "documentary_criterion": "Inventarul pornește de la fiecare frunză activă nativă din arborele 10 al q31, descrie funcția, corespondentul SAGA și tratamentul EVA.",
+    "documentary_result": "CONFIRMAT_PENTRU_INVENTARUL_DECLARAT",
+    "erp_verdict": "NEDETERMINAT DIN ACESTE DOCUMENTE",
+    "total": 524,
+    "unique_ad_menu_ids": 524,
+    "export_q31_origin_counts": {
+      "nativ": 524,
+      "adăugat": 233
+    },
+    "native_entitytypes": {
+      "D": 512,
+      "EE04": 1,
+      "EE01": 1,
+      "EE05": 10
+    },
+    "ids_missing_on_either_side": 0,
+    "mismatched_folder_name_type": 0,
+    "by_type": {
+      "fereastră": 325,
+      "proces": 89,
+      "raport": 69,
+      "formă": 22,
+      "workflow": 12,
+      "info": 4,
+      "task": 3
+    },
+    "saga_status": {
+      "are corespondent SAGA": 198,
+      "fără corespondent SAGA (funcție doar iDempiere)": 326
+    },
+    "eva_classification": {
+      "înlocuită": 138,
+      "neatinsă": 361,
+      "refolosită": 25
+    },
+    "all_rows_refer_to_own_ad_menu_id_in_citation": 524,
+    "explicit_saga_csv_line_and_Sx_expressions_in_source_column": 82,
+    "referenced_Sx_ids_present_in_original_saga_export": 82,
+    "cited_saga_csv_line_and_ID_exactly_match": 82,
+    "cited_Sx_mismatched_location": [],
+    "oracle_limit": "„524” numără AD_Menu_ID active, nu toate capabilitățile sau toate înregistrările AD. Un ID de meniu nu este un ID de fereastră. Exportul auto_q31_dictionar este agregat; auto_q31_meniu păstrează numele obiectului, tipul și ID-ul din arbore.",
+    "comparison_native_runtime_separate": {
+      "scope": "Triangulare distinctă pe template local GardenWorld, citire dicționar în tranzacție READ ONLY; nu reface retrospectiv q31 din 08.10.2026.",
+      "sql": "SELECT m.ad_menu_id,m.name,m.entitytype,m.action,COALESCE(p.isreport,''),COALESCE(m.ad_window_id,0),COALESCE(m.ad_process_id,0),COALESCE(m.ad_form_id,0),COALESCE(m.ad_workflow_id,0),COALESCE(m.ad_infowindow_id,0),COALESCE(m.ad_task_id,0) FROM adempiere.ad_treenodemm t JOIN adempiere.ad_menu m ON m.ad_menu_id=t.node_id LEFT JOIN adempiere.ad_process p ON p.ad_process_id=m.ad_process_id WHERE t.ad_tree_id=10 AND m.isactive='Y' AND m.issummary='N' AND m.entitytype=ANY(%s) ORDER BY m.ad_menu_id",
+      "params_entitytype": [
+        "D",
+        "EE01",
+        "EE02",
+        "EE04",
+        "EE05"
+      ],
+      "observed_utc": "2026-11-02T17:04:42.162473+00:00",
+      "count": 524,
+      "intersection": 524,
+      "same_name_in_intersection": 524,
+      "archived_q31_only_ids": [],
+      "current_template_only_ids": [],
+      "action_entitytype_distribution": {
+        "D/F": 11,
+        "D/I": 4,
+        "D/P": 85,
+        "D/R": 69,
+        "D/T": 3,
+        "D/W": 318,
+        "D/X": 22,
+        "EE01/W": 1,
+        "EE04/P": 1,
+        "EE05/F": 1,
+        "EE05/P": 3,
+        "EE05/W": 6
+      },
+      "no_object_id_in_six_reference_columns": 0,
+      "read_only_confirmed": "on"
+    }
+  },
+  "T111": {
+    "technical": "T111",
+    "canonical": null,
+    "documentary_criterion": "Catalogul funcțiilor și modulelor identificabile, cu stare și planuri pentru lipsuri.",
+    "documentary_result": "CONFIRMAT_PENTRU_NUMITOR ȘI DISTRIBUȚII; PRECIZARE PENTRU CELE TREI COLOANE DE PLAN",
+    "erp_verdict": "NEDETERMINAT DIN ACESTE DOCUMENTE",
+    "rows": 378,
+    "unique_modules": 227,
+    "unique_module_function_pairs": 378,
+    "id_scope": "Fișa nu atribuie identificator plugin ori AD_Menu_ID unic fiecărei funcții instalabile. Cheia reproductibilă este perechea (Modul, Funcție) + rând Excel/CSV. Nu substitui o etichetă de modul cu bundle instalat.",
+    "states": {
+      "da": 77,
+      "parțial": 125,
+      "nu": 119,
+      "n.a. RO": 57
+    },
+    "compatibility_prefix": {
+      "da": 154,
+      "nedeterminat": 187,
+      "probabil": 14,
+      "nu": 19,
+      "parțial": 2,
+      "n.a.": 2
+    },
+    "gaps": 244,
+    "effort_days_recorded": {
+      "parțial": "236.5",
+      "n.a. RO": "0",
+      "nu": "248.5",
+      "da": "0"
+    },
+    "effort_total": "485.0",
+    "zero_gap_omit_count": 15,
+    "zero_gap_included_count": 8,
+    "zero_gap_count": 23,
+    "gap_rows_with_at_least_one_plan_field_beyond_bare_dash": 244,
+    "gap_rows_with_all_three_beyond_bare_dash": 152,
+    "gap_rows_with_at_least_one_bare_dash": 92,
+    "plan_literal_empty_or_bare_dash": {
+      "DB": 59,
+      "backend": 13,
+      "frontend": 70
+    },
+    "gap_rows_missing_verification_source": 0,
+    "scope_limit": "Nu confunda «parțial/nu = 244 rânduri catalog module» cu «244 taskuri P01 fără dată exactă». 485 este o estimare istorică și suma ei, nu ore executate. Disponibilitatea externă sau instalarea celor 227 module nu s-a demonstrat prin numărătoare: 187 rânduri au compatibilitate „nedeterminat”."
+  },
+  "A73_A76": {
+    "A73": "Raportul A73 documentează selectarea arborelui 10 din q31. Unele rezumate interimare citează 361 de module-funcții; versiunea finală a foii și Sinteză!B24 au 378. Recomandă citarea celulelor finale.",
+    "A75": "Audit istoric al A73: 8,5 la început, 9,5 la reverificare, 10 consemnat final la linia 240. Nota este documentară și internă.",
+    "A74": "378/227/77/125/119/57 și 485 calculate independent din fișa finală; 43 pagini wiki inaccesibile reprezintă o limită consemnată de autori, nu o reverificare externă nouă.",
+    "A76": "Raportul A76 linia 1 și secțiunea de la linia 366 declară închiderea auditului A74 la 08.10.2026 17:20. Log-Istoric/LOG_ISTORIC.md:1019 rezumă deja în aceeași zi la 17:14 un verdict 10/10. Tratați cele două textele ca surse retrospective, fără a deduce ordinea la minut a evenimentelor ori data exactă a unei tranziții de registru P01.",
+    "log": {
+      "path": "Log-Istoric/LOG_ISTORIC.md",
+      "blob": "ceebca959fbf6a1b6be252c07fc5991d96222f38",
+      "line": 1019,
+      "displayed_timestamp": "08.10.2026 17:14",
+      "declared_scope": "inventar și audit intern A73–A76",
+      "does_not_prove": "închiderea nominală a înregistrării T110/T111 la ora 17:14 ori funcționarea ERP"
+    }
+  },
+  "expected_archival_rows": "T110_T111_randuri_corelationate.json",
+  "quality_score": null,
+  "crosswalk_sha256": "4ca5b7fb8be72aa81267f1c51ecb9d5705676ed93a57e58d641546b77bcc803d"
+}

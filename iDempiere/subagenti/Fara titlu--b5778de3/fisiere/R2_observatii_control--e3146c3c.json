@@ -1,0 +1,234 @@
+[
+  [
+    "01",
+    "PARTIEL",
+    "P1,P4",
+    "Furnizorul 114 și adresa 109 sunt folosite de PO/recepție/factură în GardenWorld. L4 creează și păstrează 2 parteneri distincți în clientul și organizația 11 (1000003/1000004).",
+    "Mai lipsesc doi furnizori omonimi în două firme și proba de acces refuzat prin rol în cealaltă organizație, respectiv termenele furnizorului.",
+    "ROLE,PO,IMP"
+  ],
+  [
+    "02",
+    "PARTIEL",
+    "P1",
+    "Comanda folosește lista de preț 101, articol 128, preț real 23,75 și preț de listă 25. Rutele native Purchase Order și AD sunt identificabile.",
+    "Nu avem RfQ cu două oferte, valabilitate expirată, MOQ și UOM fără conversie în UI. Prețul de fixture diferențiază listă și preț acordat, fără a proba selecția ofertei.",
+    "RET,PO"
+  ],
+  [
+    "03",
+    "PARTIEL",
+    "P1",
+    "PO 1000006 CO; după completare stocul locatorului rămâne la referința de dinaintea PO. Cantitățile trec de la comandat 12/livrat 0 la 7 și 12. În proba coordonatorului, PO 1000000 a încheiat separat inversarea cu livrat 0.",
+    "Calea DocumentAction și stocul sunt probate. Mai lipsesc dublu Complete și încercarea de ștergere a liniei confirmate prin interfața rolului utilizatorului.",
+    "PO,RET"
+  ],
+  [
+    "04",
+    "FAIL",
+    "P2",
+    "PO 1000006 → recepții 1000005 și 1000006 pentru 7 și 5; liniile provin din PO. După prima recepție rămân 5, după a doua 0. Șablonul D0901 din JAR afișează 530 lei pentru gol/abc urmat de 3; controlul explicit 7 și 3 afișează 370.",
+    "Defectul F01 afectează NIR tipizabil. Separat de această constatare, nu s-a repetat aceeași recepție după timeout și nu s-a probat un al treilea aviz care depășește toleranța de recepție.",
+    "RET,NIR,PO"
+  ],
+  [
+    "05",
+    "PARTIEL",
+    "P2",
+    "Recepțiile native mișcă doar articolul 128 în locator 101. Nu conțin un set reversibil sau două identități CPP/CPA.",
+    "Scenariul set indivizibil cumpărat și ambalare reversibilă în G2, SKU ambiguu și reconcilierea G1/G2/G3 rămân necesare.",
+    "RET"
+  ],
+  [
+    "06",
+    "PARTIEL",
+    "P2",
+    "M_Transaction din noile recepții arată 7 și 5 în locator 101. Cantitatea este măsurată în această locație.",
+    "Nu au fost alocate ASI distincte 4+3 sau locator incompatibil; probele pentru ERP nativ nu demonstrează aceste două negative. Coordonare A05.",
+    "RET,PO"
+  ],
+  [
+    "07",
+    "PARTIEL",
+    "P3",
+    "Comandă, două recepții și două linii de factură: M_MatchPO și M_MatchInv prezintă 7 și 5. AP Invoice 1000017 este CO/Y, 285 în prima schemă și 242,25 în a doua. Prima probă separată confirmă 166,25/7 și inversările.",
+    "Ordinea inversă (factură înainte de recepție), navigare documentară prin rol și prețul de etalon distinct de 10 trebuie încă exercitate. Nu au fost folosite date reale.",
+    "RET,PO"
+  ],
+  [
+    "08",
+    "FAIL",
+    "P3",
+    "NIR cu diferență numerică reproduce F01 în rezultat HTML. REST refuză RMA pentru 8 din cele 7 bucăți ale primei recepții, dar un asemenea refuz nu verifică toleranța de facturare.",
+    "Lipsesc factura pentru 8 la 11 pe recepție de 7, comparația dintre regula strictă și cea tolerantă și rolul care aprobă diferența.",
+    "NIR,RET"
+  ],
+  [
+    "09",
+    "PARTIEL",
+    "P3",
+    "Facturile GardenWorld generează note în două scheme native. Importul L8 păstrează 23,75/20,19 în două scheme. R2 arată că L12 lasă numai schema primară pentru factura SAGA, cu risc de reconciliere F06.",
+    "Încă lipsesc documentul în EUR cu ramura curs 5, cost de transport distribuit în două linii, rotunjire/TVA și curs expirat. F06 aparține în principal C16/C24 și nu dovedește distribuția cheltuielilor accesorii.",
+    "RET,SCHEMA,FS"
+  ],
+  [
+    "10",
+    "PARTIEL",
+    "P3",
+    "RMA 1000006 CO pentru 2 din prima recepție de 7; RMA pentru 8 respins. Retur 1000007 CO cu mișcare −2, credit 1000018 CO/Y 47,50 legat de factura 1000017 și RMA. M_MatchInv −2 și note 47,50/40,38 în două scheme. Delta stoc 7+5−2=10.",
+    "Lipsesc retransmiterea identică după timeout și stingerea efectivă a creditului în registrul de plăți. A07 preia ultima verigă.",
+    "RET,PO"
+  ],
+  [
+    "11",
+    "FAIL",
+    "P4",
+    "F05 a fost reprodus prin handlerul FastAPI POST dry-run, cu două tabele DBF valide și conținut diferit în două intrări la aceeași cale. Garda acceptă doi membri; preview returnează 200 și analizează un singur partener. Controlul cu nume diferite analizează doi, ../ returnează 400. Separat, arhiva nativă fără 22 coloane este refuzată la FURNIZORI.",
+    "S-au folosit contexte simulate de identitate/disponibilitate țintă și comparator explicit de nume de fișier Linux pe Windows. Nu s-a trimis un import în producție. Proba prin portal fără acești adaptoare rămâne de confirmat.",
+    "ZIP,WIN,INC,IMP"
+  ],
+  [
+    "12",
+    "FAIL",
+    "P4",
+    "Manifestul portalului poate conține doi membri diferiți cu aceeași destinație și un singur partener valid; pierderea numitorului este confirmată F05. Recon auxiliar declară complet cu ≤100 lipsuri ori cu o familie necitită (F03). Procesul Java nativ raportează separat refuzul unei tabele fără coloane și succesul celor doi furnizori.",
+    "Nu există o reconciliere integrală pentru toate tabelele dintr-o arhivă reprezentativă și din cabinete cu variante. Nu se extinde rezultatul instrumentului auxiliar asupra procesului Java.",
+    "ZIP,IMP,INC,CALL"
+  ],
+  [
+    "13",
+    "PARTIEL",
+    "P4",
+    "În L4, șirul cu eroare a raportat 2 sursă/1 ok/1 eroare, însă tranzacția nu a păstrat nici parteneri, nici staging. După corectare 2/2 persistă. L8 creează factura pe partener, apoi L12 reia registrul.",
+    "Mai lipsesc ordine inversată antet/detalii, FK de furnizor nerezolvat pe factură și divergențe calendar/schemă care trebuie prezentate operatorului.",
+    "IMP,FS"
+  ],
+  [
+    "14",
+    "PARTIEL",
+    "P4",
+    "Garda de arhivă fără coloane întoarce mesaj detaliat și zero furnizori țintă. Dry-run autentic pe ruta FastAPI creează numai jobul și raportul sintetic; modelul de apel extern al fixturei e configurat să eșueze la scriere. R1 include 18 teste pentru stage-0.",
+    "Nu a fost demonstrat pe buildul montat refuzul same-run în alt client, expirarea jobului între preview și apply ori garda pe arhivă modificată.",
+    "ZIP,INC,IMP"
+  ],
+  [
+    "15",
+    "PARTIEL",
+    "P5",
+    "În arhiva sintetică factura și jurnalul păstrează contextul lunii pe L8/L12. Avantajul de cutover cu istoric versus solduri nu reiese din simpla preluare a acestei facturi.",
+    "Încă trebuie documentul la limita zilei, periodizare separată de data document, perioada închisă și evitarea contabilizării duble a istoriei și soldurilor.",
+    "FS,FID"
+  ],
+  [
+    "16",
+    "FAIL",
+    "P5",
+    "Pe factura 1000016, L8 generează două scheme. L12 înlocuiește Fact_Acct cu două linii în schema 101 și elimină perechea de 20,19 din schema 200000; reluarea păstrează cele două ID-uri. Protecția postării, devalidării și resetului păstrează nota deja importată.",
+    "F06 se suprapune zonei A03 pentru contabilitate. Mai lipsesc datoria specifică de 100 și stingerea 40, precum și reconcilierea cu soldurile analitice ale aceleiași surse.",
+    "FS,SCHEMA,FID,CALL"
+  ],
+  [
+    "17",
+    "PARTIEL",
+    "P5",
+    "După eșec, reimportul creează 2 C_BPartner la aceleași ID-uri la reluare, client și organizație 11, IsVendor=Y. Nu se dublează furnizorii.",
+    "Fixtura nu are două denumiri identice, partener cu ambele roluri ori două produse CPP/CPA cu SKU egal. Identitatea acestora rămâne de verificat.",
+    "IMP"
+  ],
+  [
+    "18",
+    "FAIL",
+    "P5",
+    "L8 importă o factură furnizor sintetică de 23,75, cu o linie și conturi în două scheme; L12 produce nota fidelă și o păstrează la repetare. F02 este reproductibil doar în operatorul recon.py; F06 este reproductibil în importul nativ multi-schemă.",
+    "Nu există în acest test combinația factură și credit în valută la curs/date istorice, nici lipsă detalii cu același număr la doi furnizori. Defectele sunt delimitate pe implementare.",
+    "FS,SCHEMA,FID,CALL"
+  ],
+  [
+    "19",
+    "PARTIEL",
+    "P5",
+    "Stocul de control 405 este constant în L4 înainte/după eroare și după reluare, fără schimbare nejustificată la importul furnizorilor. Proba nativă separată arată tranzacții G1 pe locator pentru recepțiile 7+5.",
+    "Nu s-a importat o arhivă de stoc inițial în G1.1/G1.2 cu ASI și opțiuni istorice, astfel că nu este demonstrată această inițializare.",
+    "IMP,RET"
+  ],
+  [
+    "20",
+    "PARTIEL",
+    "P5",
+    "Arhiva exercitată acoperă două entități de tip furnizor și o factură/AP cu notă. AD inventariat oferă obiecte pentru alte familii.",
+    "Lipsesc corpus pe toate familiile, consultarea arhivă vs. document operațional și încercarea de acces la salarizare cu rol gestionar.",
+    "IMP,FS"
+  ],
+  [
+    "21",
+    "PARTIEL",
+    "P6",
+    "L4 relansează aceeași arhivă cu exact doi furnizori la ID 1000003/1000004 și același stoc total. L12 repetat păstrează două Fact_Acct; reluarea nu reface schema secundară.",
+    "Idempotența secvențială pentru cele două cazuri este dovedită. Nu există două cereri concurente, cădere după commit și reîncărcare sub alt nume în același test.",
+    "IMP,FID,SCHEMA"
+  ],
+  [
+    "22",
+    "PARTIEL",
+    "P6",
+    "Eșecul nativ din L4 după prima linie este compensat înainte de recovery (zero BP și staging persistate). Relansarea validă și repetarea păstrează doi parteneri și aceleași ID-uri. Separat, portalul polling are F04.",
+    "Eroarea de proces în staging nu este echivalentă cu pierderea workerului după commit și înaintea lineage. Lipsesc acest tip de întrerupere și reluarea după client deconectat.",
+    "IMP,POLL"
+  ],
+  [
+    "23",
+    "PARTIEL",
+    "P6",
+    "Baza de test a fost restaurată și repornită, atașamentul cu același SHA și accesul prin rol au fost verificate (403 la negativ). Factura nouă 1000015 CO/Y are 23,75/20,19 în două scheme. Probele de stornare arată și corecția nativă. JAR reutilizat din imaginea laboratorului.",
+    "Restaurarea completă de cabinet este probată pe fixture demonstrată. Mai trebuie anularea specifică a unui import parțial cu aceeași arhivă și reconcilierea rezultatului per rând până la checkpoint.",
+    "REST,PO,IMP"
+  ],
+  [
+    "24",
+    "FAIL",
+    "P6",
+    "F06: în schema secundară a facturii importate debitul și creditul scad simultan cu 20,19, astfel încât balanța rămâne echilibrată, dar nu mai are liniile facturii. F02/F03 din helper pot ascunde reziduuri. Probe T227 separă comparația pe sursa Java. T257 protejează nota existentă, fără a recrea schema lipsă.",
+    "Acceptul cutover necesită reconciliere independentă pe toate dimensiunile, inclusiv TVA și solduri, și semnătura responsabilului.",
+    "SCHEMA,FS,FID,CALL"
+  ],
+  [
+    "25",
+    "FAIL",
+    "P6",
+    "F04 în Chromium: HTTP401 și 404 conduc fiecare la cinci cereri în 14 s, spinner pornit și «stare: ?». HTTP200 sănătos se oprește din prima. Proba de restaurare măsoară 130 s și 33 s indisponibilitate în lab.",
+    "Nu există SLO agreat și măsurare P50/P95 pe lot reprezentativ, inspectare log cu marcator HR și teste de utilizabilitate cu rolurile finale. Timpii restaurării nu sunt SLA import.",
+    "POLL,REST"
+  ],
+  [
+    "26",
+    "PARTIEL",
+    "P1",
+    "Am exercitat crearea comenzilor 1000000 și 1000006 în serviciul nativ cu rolul 102, fără cerere de achiziție prealabilă.",
+    "M_Requisition→PO cu aprobare/refuz pe limită de buget și rol de aprobator necesită scenariu propriu. Nu se extrapolează PO CO la trecerea prin workflow de aprobare.",
+    "PO,RET"
+  ],
+  [
+    "27",
+    "PARTIEL",
+    "P3",
+    "Două scheme native evidențiază valorile și conversia unei facturi sintetice; costurile și notele pot fi urmărite pe scheme pentru recepție/retur. Aceste sume nu sunt un DVI.",
+    "Nu s-a verificat document vamal, taxare inversă sau TVA parțial deductibil cu temei aplicabil perioadei și alocarea costurilor accesorii. A03 acordă verdict fiscal separat.",
+    "RET,PO"
+  ],
+  [
+    "28",
+    "PARTIEL",
+    "P4",
+    "Procesele au rulat în GardenWorld/client 11/org 11; două scheme active. Restaurarea păstrează roluri și 403 pe acces refuzat. Arhiva nativă cu structură incompletă este refuzată.",
+    "Lipsește configurarea prin UI a două firme și încercarea salvării unui locator G2 la importul unui stoc contabil în G1. Nu este validată întreaga listă de setări.",
+    "IMP,REST,SCHEMA"
+  ],
+  [
+    "29",
+    "PARTIEL",
+    "P5",
+    "A04 a creat creditul furnizorului 47,50 purtând legătură la factura și RMA, în două scheme. T227 a exercitat SQL pentru plăți/facturi nepostate. Aceste probe nu creează un avans sau o alocare.",
+    "Lipsesc avansul de 30, factura de 100 și plata 70 cu o singură stingere, reconciliate din arhivă și fișa partenerului, inclusiv valută și dublură extras/registru.",
+    "RET,PO"
+  ]
+]

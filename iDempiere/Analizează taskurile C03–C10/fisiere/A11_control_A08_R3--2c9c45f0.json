@@ -1,0 +1,910 @@
+{
+  "reviewer": "A11",
+  "utc": "2026-11-02T17:39:09.334538+00:00",
+  "scope": "A08-R3",
+  "source": "R3_zone/A08/A08_raport.json",
+  "sha256": "9ad85559dc071920d0bb7bd75720489da621fd2beba14d7c9ea0da235ce823d0",
+  "quality_score": 6.6,
+  "eligible_subchecks": 33,
+  "out_of": 50,
+  "previous_quality": 6.0,
+  "product_score": null,
+  "gate": "RELUARE; F11 confirmat în limite",
+  "criteria": [
+    {
+      "id": "QC01",
+      "title": "Domeniu, inventare și versiuni",
+      "earned": 1.0,
+      "rationale": "49 amprente de evidență, roluri și frontiere ale scope-ului. Dumpul SQL conține realmente șase comenzi, din care patru aparțin celor două execuții valide citate.",
+      "subchecks": [
+        {
+          "id": "QC01-R1",
+          "text": "Manifestul fixează SHA și hashuri, intervalul verificării și versiunea instalată observată ori necunoscută.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC01-R2",
+          "text": "Numitorii inventarului sunt reconciliați; eșantionul nu este prezentat ca total.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC01-R3",
+          "text": "Fiecare suprafață are titular și statut; elementele noi sunt înregistrate și realocate.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC01-R4",
+          "text": "A12 are fișă pentru fiecare task finalizat, cu total sursă/extras/auditat/neexecutat și coduri ambigue.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC01-R5",
+          "text": "Limitele de acces și schimbările de versiune sunt tratate în verdict și reevaluate înaintea închiderii.",
+          "earned": 0.2,
+          "prior": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC02",
+      "title": "Cerințe, istoric și taskuri",
+      "earned": 0.2,
+      "rationale": "18 taskuri candidate, 10 fișe secundare, cu delimitare; niciun credit comercial transferat din EX. F03 lipsește din indexurile inverse.",
+      "subchecks": [
+        {
+          "id": "QC02-R1",
+          "text": "Fiecare task finalizat are text sursă, criterii, URL/export, data/starea și hashul capturii.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC02-R2",
+          "text": "Fiecare criteriu are implementare/configurație și probă ori dovadă de lipsă; nu se omite tacit.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC02-R3",
+          "text": "Atribuirea unui commit unui task este verificată prin efecte și dependențe, nu doar prin titlu.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC02-R4",
+          "text": "Clarificările și istoricul sunt confruntate semantic cu rezultatul actual; contradicțiile sunt consemnate.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC02-R5",
+          "text": "Matricea inversă arată cerințe orfane, cod fără cerință, duplicate și finalizări fără probă suficientă.",
+          "earned": 0,
+          "prior": 0.0
+        }
+      ]
+    },
+    {
+      "id": "QC03",
+      "title": "Frontend, UX și roluri",
+      "earned": 1.0,
+      "rationale": "R3 leagă browser → POST cu actor/grant confirmat → ID persistent din sales.order_status_history. Două execuții separate, ferestre și o tentativă inițială cu erori păstrate. QC03-R1 și R4 sunt acordate pentru observațiile UI verificate în domeniul declarat.",
+      "subchecks": [
+        {
+          "id": "QC03-R1",
+          "text": "Fiecare observație UI identifică rută, rol, context, versiune și captură fără date inutile.",
+          "earned": 0.2,
+          "prior": 0.0
+        },
+        {
+          "id": "QC03-R2",
+          "text": "Pașii sunt reproductibili pentru utilizatorul de bază și includ erori/recuperare, nu doar pagina de intrare.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC03-R3",
+          "text": "Există probe negative și de schimbare context; confuziile de terminologie sunt documentate.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC03-R4",
+          "text": "UI este urmărit până la API și efect DB/backend, inclusiv stări intermediare și persistare.",
+          "earned": 0.2,
+          "prior": 0.0
+        },
+        {
+          "id": "QC03-R5",
+          "text": "Lectura componentelor UI nu este numită test UX executat; dispozitivele/rolurile/mediile neobservate sunt declarate.",
+          "earned": 0.2,
+          "prior": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC04",
+      "title": "Backend, API și contracte",
+      "earned": 0.8,
+      "rationale": "Stările comenzii A și comenzii de control B sunt confruntate după scriere împreună cu actorul, fără vreo schimbare de status. QC04-R3 acordat. Niciun ordin administrat în ERP sau marketplace nu este dedus din aceasta.",
+      "subchecks": [
+        {
+          "id": "QC04-R1",
+          "text": "Metodele și call-chain-ul efectiv sunt citate cu SHA/fișier/simbol/linii, inclusiv erorile.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC04-R2",
+          "text": "Probe reproductibile cu rezultate așteptate și observate distincte acoperă contractele și limitele.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC04-R3",
+          "text": "Stările documentelor sunt citite după persistare și corelate cu configurația, inclusiv IP/WP/WC/CO/VO/RE unde relevante.",
+          "earned": 0.2,
+          "prior": 0.0
+        },
+        {
+          "id": "QC04-R4",
+          "text": "Retry/concurența sunt dovedite în condițiile declarate; analiza statică rămâne etichetată statică.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC04-R5",
+          "text": "Contractul comercial păstrează identități, adrese distincte, monedă, net/brut, TVA, discount și transport; nu inventează valori generice.",
+          "earned": 0,
+          "prior": 0.0
+        }
+      ]
+    },
+    {
+      "id": "QC05",
+      "title": "DB, integritate și contabilitate",
+      "earned": 0.4,
+      "rationale": "Înregistrări SQL confirmate pe copie offline; 9 efecte conexe rămân zero în acest fixture. Nu sunt certificate toate rutele, declanșatoarele și registrele de produs.",
+      "subchecks": [
+        {
+          "id": "QC05-R1",
+          "text": "Dovada DB identifică schema/versiunea/query/parametrii și rezultatul; SQL în Git nu dovedește migrare aplicată.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC05-R2",
+          "text": "Constrângerile sunt urmărite pe UI/API/import/job; ocolirile și orfanii sunt documentați.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC05-R3",
+          "text": "Cantitățile/valorile se reconciliază înainte/după/reversare/repostare; zero net nu înseamnă zero Fact_Acct.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC05-R4",
+          "text": "Se verifică dublarea bunurilor, rezervelor și costurilor, global/alocat și retry versus reambalare fizică nouă.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC05-R5",
+          "text": "Migrarea/query plan/volumele au dovezi la nivelul declarat; citirea statică și DB live sunt separate.",
+          "earned": 0.2,
+          "prior": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC06",
+      "title": "Pipeline-uri și granițe",
+      "earned": 0.2,
+      "rationale": "O singură operație locală trasabilă; 7 fluxuri rămân incomplete și canalele reale/ERP nu sunt substituite de administratorul local.",
+      "subchecks": [
+        {
+          "id": "QC06-R1",
+          "text": "Urmele sunt corelate prin ID document/comandă/operație până la rezultat de business, nu doar HTTP 200.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC06-R2",
+          "text": "Fiecare graniță este verificată și acceptată de titularii ambelor părți; golurile dintre rapoarte sunt înregistrate.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC06-R3",
+          "text": "Excepțiile au stare persistentă și recuperare probată, cu terminal/intermediar separat.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC06-R4",
+          "text": "AWB/factură/retur/plată urmează politica și dovada reală; aviz CO nu dovedește livrare curier.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC06-R5",
+          "text": "Conservarea sumelor/stocului este verificată pe coș mixt, expedieri, avans/plată/ramburs/retur parțial unde aplicabil.",
+          "earned": 0,
+          "prior": 0.0
+        }
+      ]
+    },
+    {
+      "id": "QC07",
+      "title": "Securitate și efecte",
+      "earned": 1.0,
+      "rationale": "Actor și apartenență înregistrate server-side, actor viewer A403/B403, editor/owner B404, fără sesiune 401; nimic despre rolul de comisionar pe acest token.",
+      "subchecks": [
+        {
+          "id": "QC07-R1",
+          "text": "Drepturile au actor/context și rezultat backend dovedit; filtrarea UI nu este suficientă.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC07-R2",
+          "text": "Riscurile au intrare, condiții, impact și dovadă proporțională fără secrete divulgate.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC07-R3",
+          "text": "Izolarea între cabinete/firme/canale/comisionari este probată ori marcată neexecutată.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC07-R4",
+          "text": "Logurile și capturile sunt mascate/minimizate; lipsesc tokenuri/parole/date personale inutile.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC07-R5",
+          "text": "Auditul nu produce efecte neautorizate; mediul, fixture-ul, limitele și curățarea sunt documentate.",
+          "earned": 0.2,
+          "prior": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC08",
+      "title": "Reutilizare iDempiere/EVA și integrări",
+      "earned": 0.8,
+      "rationale": "5 modele de comision și procesul CommissionCalc se regăsesc în Git și JAR-urile instalate. AD nu dovedește configurare operațională, situații private, cote sau export.",
+      "subchecks": [
+        {
+          "id": "QC08-R1",
+          "text": "Reutilizarea are dovadă actuală, configurație și limite; sursa disponibilă nu este declarată instalată.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC08-R2",
+          "text": "Clasele/tabelele/citările există în versiunea fixată; istoricul este marcat și delta verificată.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC08-R3",
+          "text": "Efectele de stoc/cost/document și compatibilitatea mecanismelor native/EVA sunt probate în aria declarată.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC08-R4",
+          "text": "Nivelul integrării este exact: static/contract/mock/sandbox/live read-only, fără echivalare.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC08-R5",
+          "text": "Nu se recomandă registre/motoare duplicate de stoc/contabilitate/identitate/adresă/plată/rezervare dacă adaptarea existentului este justificabilă.",
+          "earned": 0.2,
+          "prior": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC09",
+      "title": "Probe, performanță și regresii",
+      "earned": 0.6,
+      "rationale": "Dovezi reproductibile pentru efecte și controale în fixture, inclusiv prima tentativă cu 500; test de încărcare și recuperare cross-system lipsesc.",
+      "subchecks": [
+        {
+          "id": "QC09-R1",
+          "text": "Comenzile/versiunile/fixture-urile/outputurile permit refacerea probei; nu sunt inventate sau extrapolate.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC09-R2",
+          "text": "Test executat are log/timp/rezultat; test citit sau propus rămâne distinct.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC09-R3",
+          "text": "Performanța este măsurată pe volumul/condițiile declarate, nu dedusă exclusiv din cod.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC09-R4",
+          "text": "Cazurile-limită și regresia planificate sunt acoperite; abaterile au justificare și control A11.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC09-R5",
+          "text": "Contradicțiile/flaky sunt investigate; reexecutarea nu șterge eșecul inițial și nu selectează doar succesul.",
+          "earned": 0.2,
+          "prior": 0.2
+        }
+      ]
+    },
+    {
+      "id": "QC10",
+      "title": "Control independent și închidere",
+      "earned": 0.6,
+      "rationale": "F11 confirmat în limite. Eșecurile sunt păstrate; F03 apare în tabel dar nicio legătură către control/flux. Nu se poate închide registrul sau nota globală.",
+      "subchecks": [
+        {
+          "id": "QC10-R1",
+          "text": "Constatările au cerință/condiții/cauză/locație/impact/reproducere/recomandare nativă/regresie și încredere justificată.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC10-R2",
+          "text": "A11 verifică dovezile și reproduce cazurile obligatorii; aprobarea rezumatului nu este suficientă.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC10-R3",
+          "text": "Constatările contestate/false pozitive au contra-dovezi și decizie motivată, fără ștergerea istoricului.",
+          "earned": 0.2,
+          "prior": 0.2
+        },
+        {
+          "id": "QC10-R4",
+          "text": "Corecțiile obligatorii de calitate sunt închise prin re-audit cu versiuni și rezultate păstrate.",
+          "earned": 0,
+          "prior": 0.0
+        },
+        {
+          "id": "QC10-R5",
+          "text": "Pachetul conține scor calculabil, gate, limite, registru constatări, matrice acoperire și manifest; nu certifică ce nu a probat.",
+          "earned": 0,
+          "prior": 0.0
+        }
+      ]
+    }
+  ],
+  "independent_readback": {
+    "path": "A11_reproduceri_A08R3/offline.json",
+    "sha256": "e6cc4fd78e5b311d6a8fe9b11ed08715f1727c7116533778dd38125064bc895a",
+    "method_hash": "c87092d71caddc36e3356ab402f37ff2d28fa15389800b957cc22fae5888416e",
+    "source_anchors": 17,
+    "native_classes": 6,
+    "hashes_of_index": 49,
+    "new_notes": 6,
+    "certified_business_order_status_changes": 0,
+    "network_or_marketplace_status_test": false,
+    "viewports": [
+      360,
+      1280
+    ],
+    "cross_scope": "store_customer, agent comercial, administrator C și utilizator ERP sunt identități distincte."
+  },
+  "correction_history": {
+    "C1_to_C3": "Owner A eMag200/Trendyol409, B Trendyol200 separat; revocare cu fereastră SPA 200/200 iframe 1; pointer /results/theme_invalid~1a.",
+    "initial_clone": "GET detaliu 500 la prima încercare. Datele nu se agregă cu cohorta celor două rulări valide."
+  },
+  "controls": [
+    {
+      "id": "A08-C01",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "C: rutele cabinet/firmă/eMag/Trendyol 404 în clona sursei. Nu înlocuiește routerul extern.",
+      "remaining": "Demonstrează ulterior aliasurile/domeniile externe într-un cabinet izolat.",
+      "findings": [
+        "A01.F13"
+      ]
+    },
+    {
+      "id": "A08-C02",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Nomele actuale de host sunt mapate la ținte. Configurarea schimbării de nume și conservarea ID-ului intern pe parcursul redenumirii nu au fost exercitate în ERP. URL complet lipsă în fixture.",
+      "remaining": "Repetă redenumirea și coliziunea în două firme cu aceeași denumire; urmărește cheia DB și comenzile.",
+      "findings": []
+    },
+    {
+      "id": "A08-C03",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "19 intrări HTTP pe hosturile modelate aleg alt upstream pentru /admin. Topologia routerelor și procesul partajat de storefront nu echivalează cu accesul la date.",
+      "remaining": "Demonstrează Docker per canal din ERP și sănătatea fiecărei rute cu două clone.",
+      "findings": [
+        "A08-F08"
+      ]
+    },
+    {
+      "id": "A08-C04",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Cheia API de citire este de serviciu la nivel de instanță, distinctă de sesiune, depozitare și cache. Nu deduce acces privat din topologie.",
+      "remaining": "Proxy sanitation, cache-uri partajate și test restaurare separate rămân neconfirmate.",
+      "findings": [
+        "A08-F01",
+        "A08-F08"
+      ]
+    },
+    {
+      "id": "A08-C05",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "C diferențiază store_customer și rolurile viewer/editor/owner cu grant pe tenant. Ecranul de editor poate scrie notă; fără grant B răspuns 403/404. Identitatea comisionarului propriu rămâne nedemonstrată.",
+      "remaining": "Fără E2E cu rolul ERP comisionar. Expunerea diferențiată per router/host/ACL se păstrează explicit.",
+      "findings": [
+        "A08-F01"
+      ]
+    },
+    {
+      "id": "A08-C06",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "W și C au autorități diferite. C Q folosește două UUID-uri de produse și două SKU-uri. W poate rezolva un alias; R1-A06 documentează o coliziune reală în componentă.",
+      "remaining": "Verifică apoi CPP/CPA pe toate canalele și mapează M_Product_ID în C_OrderLine.",
+      "findings": [
+        "A06-F01"
+      ]
+    },
+    {
+      "id": "A08-C07",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "EX03: două linii și ofertă 10%, total C=87,88 pentru oracol 87,87. Verifică precis de ce CPP 56,30 vs 56,29 și CPA 11,33+2,38 la 21%, în loc de 12,35+1,36 la 11%. Taxe sintetice ale cazului, nu taxă legală presupusă.",
+      "remaining": "Testează și promoții, precizie pe monedă și livrări după configurarea de canal.",
+      "findings": [
+        "A08-F10",
+        "A06-F05"
+      ]
+    },
+    {
+      "id": "A08-C08",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Cu 20 fizic și 7 angajate, valoarea SQL de publicare este 13. Cu achiziție 4 devine 9; nu declarăm că site-ul însumează două disponibilități locale și nici că un stoc fizic s-a consumat.",
+      "remaining": "Concurență sincronizată online/ERP cu angajament atomic S1/S2, două firme, stoc 120.",
+      "findings": [
+        "A06-F03",
+        "A06-F07"
+      ]
+    },
+    {
+      "id": "A08-C09",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Secvența v1,v2,v2,v1,v3 s-a persistat V1,V2,V2,V1,V3; A neschimbat. Repetarea v2 nu deteriorază conținutul verificat, dar v1 tardiv inversează oferta.",
+      "remaining": "Repetă retragere și replay pe cache real, alte adaptoare și documente vechi.",
+      "findings": [
+        "A08-F07"
+      ]
+    },
+    {
+      "id": "A08-C10",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "A06 a executat componentele B2B. Aceasta nu probează preț personalizat și lipsa de scurgeri la cache-ul portalului. La site price_ron/preț și VAT fix sunt reconfirmate pentru comanda locală.",
+      "remaining": "Fixture public/preț K1/preț K2 cu două grupuri și istoric de listă ERP; urmărește răspuns crud și index public.",
+      "findings": [
+        "A06-F05"
+      ]
+    },
+    {
+      "id": "A08-C11",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "C păstrează separat adresele și le returnează în GET detaliu. W le suprascrie la persistență locală. Două origini, un UUID C_Order nativ al aceleiași comenzi nu este demonstrat.",
+      "remaining": "Comparație cu două locații reale în C_Order și cu factura emisă ulterior în sandbox.",
+      "findings": [
+        "A08-F02"
+      ]
+    },
+    {
+      "id": "A08-C12",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Sunt confirmate calculul C și mutația +0,01 tarif păstrat în total, nu reconfirmarea clientului după schimbarea ofertei.",
+      "remaining": "Simulează ajustarea listelor în timp ce coșul e deschis, reconfirmare explicită și valoarea în ERP.",
+      "findings": [
+        "A06-F05",
+        "A08-F10"
+      ]
+    },
+    {
+      "id": "A08-C13",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "După reinițializarea aplicației și aceeași cheie au rezultat încă un ORD în W și încă o înregistrare sales.orders în C; operația legitimă distinctă se păstrează separat. A11 menține limita C_Order/contabilitate.",
+      "remaining": "Reia după commitul efectiv al C_Order, înainte de ACK și după relansarea workerului.",
+      "findings": [
+        "A06-F02"
+      ]
+    },
+    {
+      "id": "A08-C14",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "CONFIRMAT_COMPONENTĂ_LOCALĂ",
+      "observed": "R2 verificase numai rute/roluri generale. În R3, pe canalul C, o modificare a istoricului comenzii poate fi făcută integral în adminul site-ului prin două roluri locale. Notele persistă cu identificatorul actorului și fără schimbare de stare; un viewer putea iniția cererea, refuzată 403, alt tenant refuzat și B intact. Codul oferă separat o rută de stare și acces condiționat la adaptoare, neexecutate. Preluare/pick/aviz/AWB/factură din ERP pentru această comandă nu sunt probate.",
+      "remaining": "Cu responsabil/comisionar și gestionar în laborator, testează fiecare endpoint de administrare, C_Order → pick → aviz → validare → AWB/factură.",
+      "findings": [
+        "A08-F01",
+        "A08-F11"
+      ]
+    },
+    {
+      "id": "A08-C15",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "R3 separă probele de checkout W/C de cele patru sesiuni SPA admin owner/viewer cu timeout și retry. Viewer primește 403 fără iframe și mesaj generic; în cazul notei rezultatele HTTP/DB sunt distincte de reacția vizuală.",
+      "remaining": "Execută reader și eroarea de API după confirmare, inclusiv restabilirea focusului și starea de retry.",
+      "findings": [
+        "A08-F09",
+        "A08-F10"
+      ]
+    },
+    {
+      "id": "A08-C16",
+      "source_state": "PARȚIAL",
+      "decision": "NATIVE_IDENTIFICATE; SITUAȚIILE_PRIVATE_RĂMÂN_NEEXECUTATE",
+      "observed": "C store_customer a văzut șase comenzi în A și una în B; tokenul A pe B primește 403. Aceasta nu testează comisionarii K1/K2 în aceeași firmă/canal și nu verifică exportul situațiilor de comision, total sau paginare. Există VanzariPeCanal și modelele iDempiere C_Commission/Line/Run/Detail/Amt, clase instalate și tabele active; existența nu demonstrează o proiecție autorizată per comisionar.",
+      "remaining": "Confruntă raport, total, export, paginare și cote comerciale pentru K1/K2 în ERP.",
+      "findings": [
+        "A08-F06"
+      ]
+    },
+    {
+      "id": "A08-C17",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "C: după retragere, bearerul vechi a continuat să emită preview, tokenul nou 403, la exp+5s 401. Nu confunda efectul cu contul W și nu contoriza ca aceeași deficiență de autentificare.",
+      "remaining": "Exercită revocarea grantului unui singur canal în două sesiuni și servere distribuite.",
+      "findings": [
+        "A08-F04"
+      ]
+    },
+    {
+      "id": "A08-C18",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Rolurile documentare și returul rămân distincte. EX07 este transport HTTP→DTO în fixture, cu inconsistență copil condițională și ramburs parțial; nu atestă emiterea unui retur sau AWB. Nu s-au testat retururi în R3.",
+      "remaining": "Retest Linux izolat, M_RMA aprobat, document financiar de retur, recalcul comision.",
+      "findings": [
+        "A08-F05"
+      ]
+    },
+    {
+      "id": "A08-C19",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Preview semnat al temei în C, nu a unei listări de platformă. Politica prețurilor și coșul după switch/restore rămân de verificat.",
+      "remaining": "Compară două teme Cesiro și două coșuri persistente în aceeași identitate.",
+      "findings": []
+    },
+    {
+      "id": "A08-C20",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "A11 arbitraj C1/C2/C3: proprietar A eMag 200, Trendyol 409 (stare neinterpretabillă); B cu stare și grant distincte 200. Teme eMag/Trendyol și variantele lowercase 400 în registrul auxiliar cu nouă teme. SPA și ecran de integrare nu sunt dovadă de preview fidel al listărilor.",
+      "remaining": "Identifică și testează ruta dedicată fiecărei platforme, inclusiv preview privat pentru responsabil, cu referințe aprobate.",
+      "findings": []
+    },
+    {
+      "id": "A08-C21",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Test de drepturi preview semnat cu A și B. Nu validează licențele/URL-urile media, markup neîncrezător sau toate actualizările de catalog.",
+      "remaining": "Testează URL media din alt canal, scheme disallowed și descriere HTML adversarială pe pagină reală.",
+      "findings": [
+        "A08-F01",
+        "A08-F07"
+      ]
+    },
+    {
+      "id": "A08-C22",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "RO/EN au fost efectiv randate în checkout C; W are probe de fallback/existență pentru șase limbi. Dicționarul de date sintetice și lățimea nu dovedște traducerile comerciale complete.",
+      "remaining": "Testează toate mesajele de erori, checkout, campanii și situația comisionarului, cu politică de fallback vizibilă.",
+      "findings": []
+    },
+    {
+      "id": "A08-C23",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "C întoarce no-store pe cont și pe preview, diferit de W. Inversarea dintre origini este exclusă. Nicio divulgare prin CDN demonstrată.",
+      "remaining": "Cache și canonical pe host/limbă, pagini private și crawler real de laborator.",
+      "findings": [
+        "A08-F06"
+      ]
+    },
+    {
+      "id": "A08-C24",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Starea conectorului, preview și programul comercial al platformelor nu constituie consimțământ sau probă de conversie reală. Marketingul este încă separat/parțial.",
+      "remaining": "În laborator Spree și CDN, instrumentează traficul înainte/după accept, refuz și retragere. Verifică pe două magazine care folosesc aceleași sluguri și date de campanie diferite.",
+      "findings": []
+    },
+    {
+      "id": "A08-C25",
+      "source_state": "FAIL_DOVEDIT",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "C furnizează GET detaliu pentru propriile comenzi, W ID local nu a fost identificat în C. Există PreiaDinSite și alte bridge-uri; 404 nu demonstrează inexistența unui transport alternativ.",
+      "remaining": "Identifică inbox/outbox și verifică retry după commit într-un worker izolat, cu raport de reconciliere.",
+      "findings": [
+        "A06-F02",
+        "A08-F07"
+      ]
+    },
+    {
+      "id": "A08-C26",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Mecanismul de laborator a restabilit exact 7 fișiere A, catalogul și comanda A, iar noua comandă și amprentele B au rămas neschimbate. Acoperire a datelor locale, nu funcție de backup a produsului, RPO/PITR ERP/CDN, indexuri sau reconciliere evenimente.",
+      "remaining": "Se cere backup anonimizat restaurabil în laborator separat și două canale cu canari; dovedește că B este neschimbat.",
+      "findings": []
+    },
+    {
+      "id": "A08-C27",
+      "source_state": "PARȚIAL",
+      "decision": "ACCEPT_ÎN_STRATUL_DECLARAT; FĂRĂ_PROMOVARE_GLOBALĂ",
+      "observed": "Au fost confruntate pachetul extern înghețat 850 fișiere și dovezile EX ale serviciilor W, C și E. Nu atribui magazinului C imaginea W sau meniul Spree.",
+      "remaining": "Leagă pentru fiecare canal versiunea reală de widget/API extern, worker, tema și politica deployed.",
+      "findings": []
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A08-P01",
+      "source_status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "full_accepted": false,
+      "remaining": [
+        "Demonstrează ulterior aliasurile/domeniile externe într-un cabinet izolat.",
+        "Repetă redenumirea și coliziunea în două firme cu aceeași denumire; urmărește cheia DB și comenzile.",
+        "Demonstrează Docker per canal din ERP și sănătatea fiecărei rute cu două clone.",
+        "Proxy sanitation, cache-uri partajate și test restaurare separate rămân neconfirmate.",
+        "Fără E2E cu rolul ERP comisionar. Expunerea diferențiată per router/host/ACL se păstrează explicit."
+      ]
+    },
+    {
+      "id": "A08-P02",
+      "source_status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "full_accepted": false,
+      "remaining": [
+        "Verifică apoi CPP/CPA pe toate canalele și mapează M_Product_ID în C_OrderLine.",
+        "Testează și promoții, precizie pe monedă și livrări după configurarea de canal.",
+        "Concurență sincronizată online/ERP cu angajament atomic S1/S2, două firme, stoc 120.",
+        "Repetă retragere și replay pe cache real, alte adaptoare și documente vechi.",
+        "Fixture public/preț K1/preț K2 cu două grupuri și istoric de listă ERP; urmărește răspuns crud și index public."
+      ]
+    },
+    {
+      "id": "A08-P03",
+      "source_status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "full_accepted": false,
+      "remaining": [
+        "Comparație cu două locații reale în C_Order și cu factura emisă ulterior în sandbox.",
+        "Simulează ajustarea listelor în timp ce coșul e deschis, reconfirmare explicită și valoarea în ERP.",
+        "Reia după commitul efectiv al C_Order, înainte de ACK și după relansarea workerului.",
+        "Cu responsabil/comisionar și gestionar în laborator, testează fiecare endpoint de administrare, C_Order → pick → aviz → validare → AWB/factură.",
+        "Execută reader și eroarea de API după confirmare, inclusiv restabilirea focusului și starea de retry."
+      ]
+    },
+    {
+      "id": "A08-P04",
+      "source_status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "full_accepted": false,
+      "remaining": [
+        "Confruntă raport, total, export, paginare și cote comerciale pentru K1/K2 în ERP.",
+        "Exercită revocarea grantului unui singur canal în două sesiuni și servere distribuite.",
+        "Retest Linux izolat, M_RMA aprobat, document financiar de retur, recalcul comision."
+      ]
+    },
+    {
+      "id": "A08-P05",
+      "source_status": "PARȚIAL",
+      "full_accepted": false,
+      "remaining": [
+        "Compară două teme Cesiro și două coșuri persistente în aceeași identitate.",
+        "Identifică și testează ruta dedicată fiecărei platforme, inclusiv preview privat pentru responsabil, cu referințe aprobate.",
+        "Testează URL media din alt canal, scheme disallowed și descriere HTML adversarială pe pagină reală."
+      ]
+    },
+    {
+      "id": "A08-P06",
+      "source_status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "full_accepted": false,
+      "remaining": [
+        "Testează toate mesajele de erori, checkout, campanii și situația comisionarului, cu politică de fallback vizibilă.",
+        "Cache și canonical pe host/limbă, pagini private și crawler real de laborator.",
+        "În laborator Spree și CDN, instrumentează traficul înainte/după accept, refuz și retragere. Verifică pe două magazine care folosesc aceleași sluguri și date de campanie diferite."
+      ]
+    },
+    {
+      "id": "A08-P07",
+      "source_status": "ABATERE_DOVEDITĂ; E2E parțial",
+      "full_accepted": false,
+      "remaining": [
+        "Identifică inbox/outbox și verifică retry după commit într-un worker izolat, cu raport de reconciliere.",
+        "Se cere backup anonimizat restaurabil în laborator separat și două canale cu canari; dovedește că B este neschimbat.",
+        "Leagă pentru fiecare canal versiunea reală de widget/API extern, worker, tema și politica deployed."
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "A08-F01",
+      "title": "Importul administrativ acceptă catalogul altui canal fără sesiune",
+      "edge_controls": [
+        "A08-C04",
+        "A08-C05",
+        "A08-C14",
+        "A08-C21"
+      ],
+      "edge_pipelines": [
+        "A08-P01",
+        "A08-P03",
+        "A08-P05"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F02",
+      "title": "Comanda pierde adresa distinctă de facturare",
+      "edge_controls": [
+        "A08-C11"
+      ],
+      "edge_pipelines": [
+        "A08-P03"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F03",
+      "title": "Un checkout public rescrie datele unui cont existent",
+      "edge_controls": [],
+      "edge_pipelines": [],
+      "disposition": "CONFIRMAT_PROFIL_MUTAT_PE_CHECKOUT_ANONIM_DAR_FĂRĂ_TRASABILITATE_STRUCTURATĂ"
+    },
+    {
+      "id": "A08-F04",
+      "title": "Schimbarea parolei nu invalidează sesiunea persistentă a magazinului",
+      "edge_controls": [
+        "A08-C17"
+      ],
+      "edge_pipelines": [
+        "A08-P04"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F05",
+      "title": "Returul normalizează greșit ID-ul și nu are idempotency la reîncercare",
+      "edge_controls": [
+        "A08-C18"
+      ],
+      "edge_pipelines": [
+        "A08-P04"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F06",
+      "title": "Paginile de cont/checkout sunt declarate indexabile și răspunsurile de cont au cache public",
+      "edge_controls": [
+        "A08-C16",
+        "A08-C23"
+      ],
+      "edge_pipelines": [
+        "A08-P04",
+        "A08-P06"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F07",
+      "title": "O publicare veche poate înlocui oferta mai nouă",
+      "edge_controls": [
+        "A08-C09",
+        "A08-C21",
+        "A08-C25"
+      ],
+      "edge_pipelines": [
+        "A08-P02",
+        "A08-P05",
+        "A08-P07"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F08",
+      "title": "Site-uri configurate cu același proces storefront în loc de instanțe per canal",
+      "edge_controls": [
+        "A08-C03",
+        "A08-C04"
+      ],
+      "edge_pipelines": [
+        "A08-P01"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F09",
+      "title": "Cinci câmpuri de checkout își pierd indicația vizibilă după introducere",
+      "edge_controls": [
+        "A08-C15"
+      ],
+      "edge_pipelines": [
+        "A08-P03"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F10",
+      "title": "Coșul prezintă anticipat factura și o singură cotă TVA",
+      "edge_controls": [
+        "A08-C07",
+        "A08-C12",
+        "A08-C15"
+      ],
+      "edge_pipelines": [
+        "A08-P02",
+        "A08-P03"
+      ],
+      "disposition": "MENȚIN_DISPOZIȚIA_PE_COMPONENTA_PROBATĂ"
+    },
+    {
+      "id": "A08-F11",
+      "title": "Panoul CESIRO1 permite administrarea istoriei comenzilor în afara iDempiere",
+      "edge_controls": [
+        "A08-C14"
+      ],
+      "edge_pipelines": [
+        "A08-P03"
+      ],
+      "disposition": "CONFIRMAT_NOTĂ_SITE_OPERARE_LOCALĂ; FĂRĂ_TRANZIȚIE_DE_STARE/ERP/CURIER"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "A08R3-Q1",
+      "scope": "A08-F03 este singurul finding orfan în indexul control/pipeline: 0 și 0.",
+      "next": "Leagă proba checkout anonim cu e-mail existent de un control real pentru integritatea identității/datele de checkout și A08-P03. Evaluează dacă C11/C05 acoperă explicit condiția; altfel înregistrează subcerința de integritate la controlul aplicabil. Confirmă invers prin ID și păstrează scenariul cu cont inactiv."
+    },
+    {
+      "id": "A08R3-Q2",
+      "scope": "F11 dovedește adăugarea unei note în istoricul unei comenzi, cu stare placed→placed.",
+      "next": "Politica utilizatorului rezervă administrarea iDempiere. Separă afișarea locală și plasarea comenzii de operații administrative; urmărește în ERP identitatea, dreptul și efectul unei note. Nu folosi drepturile owner/editor ale site-ului pentru a certifica comisionarul. Nu se solicită o anulare reală sau un test pe marketplace."
+    },
+    {
+      "id": "A08R3-Q3",
+      "scope": "C16 și granița publică a F01.",
+      "next": "Configurează două identități de comisionar în același canal și un al doilea canal; verifică filtrele DB, exportul și refuzurile pe alt agent. Pe F01 confruntă read-only topologia instalată și rutele active, păstrează diferența dintre expunerea la serviciu și expunerea publică."
+    }
+  ]
+}

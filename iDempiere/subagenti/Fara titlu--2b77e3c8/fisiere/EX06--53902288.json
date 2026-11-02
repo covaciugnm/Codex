@@ -1,0 +1,784 @@
+{
+  "schema": "eva.external.source-supplement.v3",
+  "case": "EX06",
+  "status": "EXECUTAT_CU_LIMITE_PREDAT_PEER",
+  "producer": "A08",
+  "consumer": "A09",
+  "reviewer": "A11",
+  "score": null,
+  "at": "2026-11-02T16:34:11.450Z",
+  "frozen_plan_sha": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+  "primary_repo": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "secondary_source": "850/850 file hashes from external source and admin build. Additional DDL identified by exact structural SELECT in dedicated local PG with no production business data read.",
+  "contract": {
+    "objective": "Ecran responsabil/comisionar și drepturile de canal",
+    "setup": "Interfețe efectiv detectate, rol responsabil și rol comisionar cu drept la un canal; eMag/Trendyol ca canale distincte dacă există ecrane.",
+    "expected": "URL/ecran, mesaj și stare persistentă pentru fiecare rol, sau limită de acces explicită. Nu echivala retailerul de origine cu orice site sau cu toate template-urile.",
+    "negative": "Caracter neacceptat în denumire, acces la canal străin, schimbare de rol cu browser deschis, timeout și reluarea, desktop/mobil.",
+    "requirements": [
+      {
+        "task": "T35",
+        "canonical": null,
+        "target": [
+          "P01.C10.T0002"
+        ],
+        "criterion_source": "executie/R3/taskuri/Fisa_T35.json",
+        "norm_pointer": "#/disposition_admin/successors",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX06"
+      },
+      {
+        "task": "T352",
+        "canonical": "P01.C10.T0028",
+        "target": [],
+        "criterion_source": "executie/R3/taskuri/Fisa_T352.json",
+        "norm_pointer": "#/source_literal",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX06"
+      }
+    ],
+    "edges": [
+      {
+        "control": "A08-C05",
+        "pipeline": "A08-P01",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/53/resolved_control_ids/4"
+      },
+      {
+        "control": "A08-C14",
+        "pipeline": "A08-P03",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/3"
+      },
+      {
+        "control": "A08-C16",
+        "pipeline": "A08-P04",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/56/resolved_control_ids/0"
+      },
+      {
+        "control": "A08-C20",
+        "pipeline": "A08-P05",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/57/resolved_control_ids/1"
+      },
+      {
+        "control": "A09-C01",
+        "pipeline": "A09-P1",
+        "owner": "A09",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/60/resolved_control_ids/0"
+      },
+      {
+        "control": "A06-C25",
+        "pipeline": "A06-P6",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/45/resolved_control_ids/2"
+      }
+    ],
+    "case_fixtures": [
+      "Q-COM-01"
+    ],
+    "at_completion": "Taskuri istorice și succesorii rămân separați: normele de closure și starea actuală nu se transferă automat. A12 și A11 stabilesc verdictul individual, nu un 10/10 local."
+  },
+  "evidence": [
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_roles.py",
+      "sha256": "97c3ec66ac9fb3353dca93ad56c3ca173f5c80de7b3c57d5d0a05fa7fbe9953a"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_roles.json",
+      "sha256": "dd0587874444f48353c731d426ccb9d5d31dfa9ce06226a3b1ec89c039043a43"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_browser.json",
+      "sha256": "55496bb83fc43ab1830e67d829d4ac41dd8122277e72d8e75965e0874d45aacb"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_W_browser.json",
+      "sha256": "d63733cb1a81f871f868dd1795c57f333fff95bb3f84c801712546dfa5bef908"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_browser.py",
+      "sha256": "7d494cdb05404784a7a3c96b501e95c84f4e38918425c4f4d00647d09e9ee05d"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_360_ro.png",
+      "sha256": "70830ecfa719f91c3c1d1e746d27ec4fc725a5f42febbcff955c55846fb281dd"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_1280_en.png",
+      "sha256": "c29507bf0f42348af4f345c9c7eb084f257e41b7be1e944d06239df97a187f37"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_W_360_ro.png",
+      "sha256": "d3f31e7bd98839b0c34424a006cf4bf80bcc8bcdeaf1ce65eed541d2dcabe139"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_W_1280_en.png",
+      "sha256": "9a5eea2d8ccce4e2682f7e2610df9288fcc90ef5ced34ad9da04c76d34635b20"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_connector_structure.json",
+      "sha256": "90b7f5ec941817bbbd5aa30204dd8f3eec221430832bc6802c60b32e9167d2f1"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_account_A.html",
+      "sha256": "a7ecb3d5248c34cd16b86691a5ee8f9be12352042d34ac836027d2c262f3ba8e"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_account_B.html",
+      "sha256": "d5a8f3b2006d425bb0dbe4aeaad223aa5e299c4a31e43600321ab4a4143cb449"
+    }
+  ],
+  "scope_limits": [
+    "În C nu am găsit un rol intitulat comisionar între rolurile administrative owner/editor/viewer și nu am tratat automat store_customer ca agent comercial. Catalog și istoric demonstrat pentru cont client, integrarea admin separată.",
+    "Testul role revoke este imediat; durata maximă de expunere se deduce din TTL token, nu din așteptare efectivă de 15 minute.",
+    "Unele etichete în randarea C sunt chei brute deoarece schema goală nu conține dicționarul de traduceri comerciale al producției. Măsurarea layoutului nu trebuie atribuită direct paginii reale în producție.",
+    "Nu au fost trimise ordine către platforme. GET administrațional Trendyol folosește registrul de definiții proiectat sintetic, numai ID-uri și scheme fără credențiale. Au fost importate exclusiv migrațiile 0022 și 0078 în a08_cesiro pentru tabelele de notificări."
+  ],
+  "execution_environment": {
+    "db": "a08_cesiro, izolată de toate mediile comercianților, PG16 loopback. Rol tehnic audit_owner cu drepturi în clonă; izolarea RLS sub rolurile exacte de producție nu se deduce.",
+    "network": "No production checkout; no production orders, accounts, partner APIs or emails. SMTP/MX and network external are disabled in fixture; no production tokens. Code/examples and synthetic payloads preserved. Postgres-backed C, file-backed W tested separately.",
+    "cleanup": "Nu există operații în productie sau documente fiscale emise. Date sintetice distincte în baza dedicată a08_cesiro, păstrată pentru reexecutarea auditorului. Tariful modificat la mutant a fost restabilit; fluxul în checker nu expediază mesaje."
+  },
+  "actors": {
+    "customer": "Două conturi reale store_customer generate în bază sintetică, unul per tenant (nu comisionari).",
+    "owner": "Un administrator local autentic cu grant owner numai pentru A; token emis prin /api/admin/v1/auth/login.",
+    "commissioner": "Nedemonstrat ca actor distinct în C sau W în aceste probe. Trebuie un cont cu grant comisionar real, legarea raport–vânzări și filtrarea după actor, firmă, canal în ERP/portal."
+  },
+  "actual_roles": {
+    "login_A": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "account_type": "store_customer",
+      "session_received": true
+    },
+    "own_A": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "count": 6,
+      "numbers": [
+        "ORD-2026-000006",
+        "ORD-2026-000005",
+        "ORD-2026-000004",
+        "ORD-2026-000003",
+        "ORD-2026-000002",
+        "ORD-2026-000001"
+      ]
+    },
+    "accountPage_A": {
+      "http": 200,
+      "location": "",
+      "private_cache": "private, no-store, max-age=0",
+      "content_type": "text/html; charset=utf-8",
+      "length": 27752,
+      "hash": "a7ecb3d5248c34cd16b86691a5ee8f9be12352042d34ac836027d2c262f3ba8e"
+    },
+    "login_B": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "account_type": "store_customer",
+      "session_received": true
+    },
+    "own_B": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "count": 1,
+      "numbers": [
+        "ORD-2026-000001"
+      ]
+    },
+    "accountPage_B": {
+      "http": 200,
+      "location": "",
+      "private_cache": "private, no-store, max-age=0",
+      "content_type": "text/html; charset=utf-8",
+      "length": 27752,
+      "hash": "d5a8f3b2006d425bb0dbe4aeaad223aa5e299c4a31e43600321ab4a4143cb449"
+    },
+    "session_A_on_host_B": {
+      "http": 403,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json"
+    },
+    "anonymous_orders": {
+      "http": 403,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json"
+    },
+    "homonymous_number": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "result_in_A_scope_only": true,
+      "note": "Same order number exists in both tenants; legitimate request in A may return A reference."
+    },
+    "owner_login": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "keys_no_values": [
+        "access_token",
+        "expires_in",
+        "token_type",
+        "user"
+      ],
+      "token_obtained": true
+    },
+    "preview_owner_marketplace_pro": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "expires_at",
+        "theme_id",
+        "ttl_seconds",
+        "url"
+      ]
+    },
+    "signed_preview_A": {
+      "http": 302,
+      "location": "/",
+      "private_cache": "private, no-store, max-age=0",
+      "content_type": "text/html; charset=utf-8",
+      "set_preview_cookie": true
+    },
+    "signed_preview_B": {
+      "http": 302,
+      "location": "/",
+      "private_cache": "private, no-store, max-age=0",
+      "content_type": "text/html; charset=utf-8",
+      "set_preview_cookie": false
+    },
+    "preview_owner_eMag": {
+      "http": 400,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "details",
+        "message"
+      ]
+    },
+    "preview_owner_Trendyol": {
+      "http": 400,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "details",
+        "message"
+      ]
+    },
+    "preview_owner_invalid/a": {
+      "http": 400,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "details",
+        "message"
+      ]
+    },
+    "preview_foreign_owner": {
+      "http": 403,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "message"
+      ]
+    },
+    "preview_customer": {
+      "http": 401,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "message"
+      ]
+    },
+    "integration_emag_customer": {
+      "http": 401,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "message"
+      ]
+    },
+    "integration_emag_owner": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "account_id",
+        "accounts",
+        "active",
+        "api_code",
+        "auto_acknowledge",
+        "cancel_reason",
+        "cancel_reasons",
+        "configured",
+        "credentials",
+        "egress_ip",
+        "id",
+        "import_history_days",
+        "label",
+        "markets",
+        "name",
+        "poll_interval",
+        "provider",
+        "worker",
+        "worker_running"
+      ]
+    },
+    "integration_trendyol_customer": {
+      "http": 401,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "message"
+      ]
+    },
+    "integration_trendyol_owner": {
+      "http": 409,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "details",
+        "message"
+      ]
+    },
+    "path/RO11000000": {
+      "http": 404,
+      "location": "",
+      "private_cache": "public, max-age=300",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "path/RO11000000/RO22000000": {
+      "http": 404,
+      "location": "",
+      "private_cache": "public, max-age=300",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "path/RO11000000/RO22000000/eMag": {
+      "http": 404,
+      "location": "",
+      "private_cache": "public, max-age=300",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "path/RO11000000/RO22000000/Trendyol": {
+      "http": 404,
+      "location": "",
+      "private_cache": "public, max-age=300",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "owner_revoked_old_token": {
+      "http": 200,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "expires_at",
+        "theme_id",
+        "ttl_seconds",
+        "url"
+      ]
+    },
+    "owner_revoked_fresh_token": {
+      "http": 403,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json",
+      "error": null,
+      "payload_keys_sorted": [
+        "code",
+        "message"
+      ]
+    },
+    "owner_old_token_lifetime_s": {
+      "seconds": 900
+    },
+    "customer_revoked": {
+      "http": 403,
+      "location": "",
+      "private_cache": "no-store, no-cache, must-revalidate, max-age=0",
+      "content_type": "application/json"
+    }
+  },
+  "visual": {
+    "C": [
+      {
+        "requested": 360,
+        "lang": "ro",
+        "path": "/checkout",
+        "measured": 360,
+        "content": 377,
+        "langActual": "ro",
+        "title": "checkout.title",
+        "bodyLength": 1648,
+        "visible_fields": 11,
+        "keyboard_focus": [
+          [
+            "BUTTON",
+            "",
+            ""
+          ],
+          [
+            "A",
+            "",
+            ""
+          ],
+          [
+            "BUTTON",
+            "",
+            ""
+          ],
+          [
+            "BUTTON",
+            "",
+            ""
+          ]
+        ],
+        "blur_samples": [
+          {
+            "name": "first_name",
+            "labels": [
+              "checkout.first_name *"
+            ],
+            "aria": null,
+            "placeholder": "checkout.first_name",
+            "placeholderShown": false,
+            "valid": true
+          },
+          {
+            "name": "last_name",
+            "labels": [
+              "checkout.last_name *"
+            ],
+            "aria": null,
+            "placeholder": "checkout.last_name",
+            "placeholderShown": false,
+            "valid": true
+          },
+          {
+            "name": "email",
+            "labels": [
+              "checkout.email *"
+            ],
+            "aria": null,
+            "placeholder": "checkout.email",
+            "placeholderShown": false,
+            "valid": true
+          }
+        ],
+        "png": "EX06_C_360_ro.png",
+        "png_sha256": "70830ecfa719f91c3c1d1e746d27ec4fc725a5f42febbcff955c55846fb281dd",
+        "after_reload": "/checkout"
+      },
+      {
+        "requested": 1280,
+        "lang": "en",
+        "path": "/checkout",
+        "measured": 1280,
+        "content": 1280,
+        "langActual": "en",
+        "title": "checkout.title",
+        "bodyLength": 1106,
+        "visible_fields": 12,
+        "keyboard_focus": [
+          [
+            "A",
+            "",
+            ""
+          ],
+          [
+            "INPUT",
+            "q",
+            ""
+          ],
+          [
+            "BUTTON",
+            "",
+            ""
+          ],
+          [
+            "A",
+            "",
+            ""
+          ]
+        ],
+        "blur_samples": [
+          {
+            "name": "first_name",
+            "labels": [
+              "checkout.first_name *"
+            ],
+            "aria": null,
+            "placeholder": "checkout.first_name",
+            "placeholderShown": false,
+            "valid": true
+          },
+          {
+            "name": "last_name",
+            "labels": [
+              "checkout.last_name *"
+            ],
+            "aria": null,
+            "placeholder": "checkout.last_name",
+            "placeholderShown": false,
+            "valid": true
+          },
+          {
+            "name": "email",
+            "labels": [
+              "checkout.email *"
+            ],
+            "aria": null,
+            "placeholder": "checkout.email",
+            "placeholderShown": false,
+            "valid": true
+          }
+        ],
+        "png": "EX06_C_1280_en.png",
+        "png_sha256": "c29507bf0f42348af4f345c9c7eb084f257e41b7be1e944d06239df97a187f37",
+        "after_reload": "/checkout"
+      }
+    ],
+    "W": [
+      {
+        "requested": 360,
+        "lang": "ro",
+        "path": "/checkout",
+        "measured": 360,
+        "content": 360,
+        "langActual": "ro",
+        "title": "CESIRO",
+        "bodyLength": 1468,
+        "visible_fields": 7,
+        "keyboard_focus": [
+          [
+            "A",
+            "",
+            ""
+          ],
+          [
+            "INPUT",
+            "q",
+            ""
+          ],
+          [
+            "BUTTON",
+            "",
+            ""
+          ],
+          [
+            "BUTTON",
+            "",
+            ""
+          ]
+        ],
+        "blur_samples": [
+          {
+            "name": "name",
+            "labels": [],
+            "aria": null,
+            "placeholder": "Nume si prenume",
+            "placeholderShown": false,
+            "valid": true
+          },
+          {
+            "name": "email",
+            "labels": [],
+            "aria": null,
+            "placeholder": "Email",
+            "placeholderShown": false,
+            "valid": true
+          },
+          {
+            "name": "phone",
+            "labels": [],
+            "aria": null,
+            "placeholder": "Telefon",
+            "placeholderShown": false,
+            "valid": true
+          }
+        ],
+        "png": "EX06_W_360_ro.png",
+        "png_sha256": "d3f31e7bd98839b0c34424a006cf4bf80bcc8bcdeaf1ce65eed541d2dcabe139",
+        "after_reload": "/checkout"
+      },
+      {
+        "requested": 1280,
+        "lang": "en",
+        "path": "/checkout",
+        "measured": 1280,
+        "content": 1280,
+        "langActual": "en",
+        "title": "CESIRO",
+        "bodyLength": 1556,
+        "visible_fields": 7,
+        "keyboard_focus": [
+          [
+            "A",
+            "",
+            ""
+          ],
+          [
+            "INPUT",
+            "q",
+            ""
+          ],
+          [
+            "BUTTON",
+            "",
+            ""
+          ],
+          [
+            "BUTTON",
+            "",
+            ""
+          ]
+        ],
+        "blur_samples": [
+          {
+            "name": "name",
+            "labels": [],
+            "aria": null,
+            "placeholder": "Full name",
+            "placeholderShown": false,
+            "valid": true
+          },
+          {
+            "name": "email",
+            "labels": [],
+            "aria": null,
+            "placeholder": "Email",
+            "placeholderShown": false,
+            "valid": true
+          },
+          {
+            "name": "phone",
+            "labels": [],
+            "aria": null,
+            "placeholder": "Phone",
+            "placeholderShown": false,
+            "valid": true
+          }
+        ],
+        "png": "EX06_W_1280_en.png",
+        "png_sha256": "9a5eea2d8ccce4e2682f7e2610df9288fcc90ef5ced34ad9da04c76d34635b20",
+        "after_reload": "/checkout"
+      }
+    ]
+  },
+  "comparison": [
+    "C: contul A vede șase comenzi ale lui și B una; acces A pe host B și lipsă cont = 403. C are header no-store pentru cont; W are în R1 header public pe răspunsuri de cont.",
+    "C: owner A poate genera link semnat de preview temă marketplace_pro. Cookie de preview în A, nu în B; owner A pe B primește 403, client obișnuit primește 401. ID eMag/Trendyol ca temă primește 400. Consolele eMag și Trendyol răspund 200 operațiilor administrative de citire ale proprietarului, nu dovedște randarea fidelă a listării de platformă pentru comisionar.",
+    "În C, după ștergerea grantului owner în schema fixture, tokenul vechi emite încă link semnat (200); un nou token primește 403. Durată de viață configurată de 900s; linkul de preview are o durată separată. Dezactivarea contului-client îi refuză istoricul (403).",
+    "Rutele CUI/cabinet/firmă/eMag și Trendyol nu conduc la spațiul cerut în routerul C testat (404). La 360px pagina C are scrollWidth 377 cu etichetele nepopulate din fixture; la 1280 conținutul încape. W are 360/1280. C păstrează etichetele nume/email după blur; W rămâne cu placeholder. RO/EN și acces tastatură/reload probate în browsere separate.",
+    "Toate materialele disting consola de integrare, preview semnat al unei teme, previzualizarea reală a unei listări eMag/Trendyol, cont client și situații de comisionar. Cerința din urmă nu a primit PASS."
+  ],
+  "anchors": [
+    {
+      "origin": "C",
+      "rel": "backend/app/api/storefront.py",
+      "line": 914,
+      "symbol": "def get_order_detail",
+      "sha256": "35966359e383e138de025966d89ce59f5bf6276530ce2fc8aa6c076c3e93e677",
+      "frozen_C": true
+    },
+    {
+      "origin": "C",
+      "rel": "backend/app/api/admin/deps.py",
+      "line": 96,
+      "symbol": "def require_role",
+      "sha256": "3d5e1a6b82473b944323cdbcb9d39313daae6fb620659438091aa7640f3d50fa",
+      "frozen_C": true
+    },
+    {
+      "origin": "C",
+      "rel": "backend/app/api/admin/resources/settings.py",
+      "line": 443,
+      "symbol": "def theme_preview_link",
+      "sha256": "9d24744518d4cb627d03e30dafc4163a5932caacbd938340356831b3d0093a45",
+      "frozen_C": true
+    },
+    {
+      "origin": "C",
+      "rel": "backend/app/theme_preview.py",
+      "line": 60,
+      "symbol": "def load_token",
+      "sha256": "43ea8bb03b037353879a55950e4a3ca3f4a397d89e8a2decf31c397411366ca8",
+      "frozen_C": true
+    },
+    {
+      "origin": "C",
+      "rel": "frontend/src/types/auth.ts",
+      "line": 1,
+      "symbol": "export type UserRole",
+      "sha256": "f4df7a68e3507663a893c7adc4dc641e093b2c2b13e72ac205c3e5509ee4a2fb",
+      "frozen_C": true
+    },
+    {
+      "origin": "C",
+      "rel": "frontend/src/features/integrations/EmagPage.tsx",
+      "line": 41,
+      "symbol": "export function EmagPage",
+      "sha256": "f94f31f3d51b4be1140d9e5672a747079fe276e7d1b92d1a0a87cc67fb00586c",
+      "frozen_C": true
+    },
+    {
+      "origin": "C",
+      "rel": "backend/templates/themes/generic/checkout.html",
+      "line": 39,
+      "symbol": "data-checkout-form",
+      "sha256": "f93945f62c97bbb0e97395d9e4c50f55e2d97172691929b65e8f50e386004592",
+      "frozen_C": true
+    },
+    {
+      "origin": "W",
+      "rel": "frontend/storefront/app/factory.py",
+      "line": 399,
+      "symbol": "def api_account_orders",
+      "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795"
+    }
+  ],
+  "final": "Confirmat pentru componentele și rolurile testate. Situațiile proprii ale comisionarului și fidelitatea previewului de marketplace nu sunt certificate. Faceți control de acces la fiecare apel backend și invalidați tokenul la retragerea grantului, utilizând drepturile native iDempiere și proiecții sub identitate stabilă."
+}

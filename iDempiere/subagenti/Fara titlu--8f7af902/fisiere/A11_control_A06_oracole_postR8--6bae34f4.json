@@ -1,0 +1,285 @@
+{
+  "reviewer": "A11",
+  "utc": "2026-11-02T18:27:40.363660+00:00",
+  "after_frozen_R8": true,
+  "score_change": false,
+  "signed_A06": "0da0f2f6c7f75e2ab4f4eea74ba6f0465aea80457965299f21e2c9bb45bd448a",
+  "signed_manifest": "3bb024bdaa17b11fbc8e1ae3f3ccbf129c086a0abbbf868fc16094dcddacd773",
+  "confirmed_delimited_criteria": [
+    "T22.07-R2-001",
+    "T22.09-R2-001",
+    "T22.08-R2-001",
+    "T35-R2-001"
+  ],
+  "original_docs": 7,
+  "doc_lines_indexed": 18,
+  "independent_rerun": [
+    {
+      "jar": "git",
+      "sha": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+      "ok": 18,
+      "observed": [
+        [
+          "K07",
+          "C05 start",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "C18 start",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "C26 start",
+          "verde",
+          "verde",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, linked, DIF=.01",
+          "verde",
+          "verde",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, linked, DIF=.02",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, not linked, DIF=0",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K09",
+          "known invoice uuid",
+          "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+          "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+          "true"
+        ],
+        [
+          "K09",
+          "missing UU",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K09",
+          "malformed identifier",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K08",
+          "native rule -10pct",
+          "108.90",
+          "108.90",
+          "true"
+        ],
+        [
+          "K08",
+          "native only",
+          "IDEMPIERE|121.00",
+          "IDEMPIERE|121.00",
+          "true"
+        ],
+        [
+          "K08",
+          "platform only",
+          "PLATFORMA|108.90",
+          "PLATFORMA|108.90",
+          "true"
+        ],
+        [
+          "K08",
+          "channel on top",
+          "CANAL|100.00",
+          "CANAL|100.00",
+          "true"
+        ],
+        [
+          "K08",
+          "channel blank falls back",
+          "PLATFORMA|108.90",
+          "PLATFORMA|108.90",
+          "true"
+        ],
+        [
+          "K35",
+          "same firm Y FISA",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K35",
+          "other firm",
+          "platforma.poarta.alta_firma",
+          "platforma.poarta.alta_firma",
+          "true"
+        ],
+        [
+          "K35",
+          "inactive",
+          "platforma.poarta.inactiva",
+          "platforma.poarta.inactiva",
+          "true"
+        ],
+        [
+          "K35",
+          "writing disabled",
+          "platforma.poarta.scriere_nepermisa",
+          "platforma.poarta.scriere_nepermisa",
+          "true"
+        ]
+      ]
+    },
+    {
+      "jar": "installed",
+      "sha": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+      "ok": 18,
+      "observed": [
+        [
+          "K07",
+          "C05 start",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "C18 start",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "C26 start",
+          "verde",
+          "verde",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, linked, DIF=.01",
+          "verde",
+          "verde",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, linked, DIF=.02",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K07",
+          "closed, not linked, DIF=0",
+          "rosu",
+          "rosu",
+          "true"
+        ],
+        [
+          "K09",
+          "known invoice uuid",
+          "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+          "index.zul?Action=Zoom&TableName=C_Invoice&Record_UU=12345678-1234-4123-8123-123456789012",
+          "true"
+        ],
+        [
+          "K09",
+          "missing UU",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K09",
+          "malformed identifier",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K08",
+          "native rule -10pct",
+          "108.90",
+          "108.90",
+          "true"
+        ],
+        [
+          "K08",
+          "native only",
+          "IDEMPIERE|121.00",
+          "IDEMPIERE|121.00",
+          "true"
+        ],
+        [
+          "K08",
+          "platform only",
+          "PLATFORMA|108.90",
+          "PLATFORMA|108.90",
+          "true"
+        ],
+        [
+          "K08",
+          "channel on top",
+          "CANAL|100.00",
+          "CANAL|100.00",
+          "true"
+        ],
+        [
+          "K08",
+          "channel blank falls back",
+          "PLATFORMA|108.90",
+          "PLATFORMA|108.90",
+          "true"
+        ],
+        [
+          "K35",
+          "same firm Y FISA",
+          "null",
+          "null",
+          "true"
+        ],
+        [
+          "K35",
+          "other firm",
+          "platforma.poarta.alta_firma",
+          "platforma.poarta.alta_firma",
+          "true"
+        ],
+        [
+          "K35",
+          "inactive",
+          "platforma.poarta.inactiva",
+          "platforma.poarta.inactiva",
+          "true"
+        ],
+        [
+          "K35",
+          "writing disabled",
+          "platforma.poarta.scriere_nepermisa",
+          "platforma.poarta.scriere_nepermisa",
+          "true"
+        ]
+      ]
+    }
+  ],
+  "verdict": "Cele 4 subcondiții nominale au etalon în documentele de implementare și rezultate executabile pe ambele JAR. Identificator valid/invalid la zoom, preț de canal cu revenire pe platformă, refuz de altă firmă și stări ale reconcilierii sunt componente; nu atestă sesiuni UI, postări reale sau funcționarea întregului canal. Nu sunt incluse în nota R8 și nu schimbă numărătoarea lui R8."
+}

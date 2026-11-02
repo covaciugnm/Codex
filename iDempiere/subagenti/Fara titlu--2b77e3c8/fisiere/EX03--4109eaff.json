@@ -1,0 +1,579 @@
+{
+  "schema": "eva.external.source-supplement.v3",
+  "case": "EX03",
+  "status": "EXECUTAT_CU_LIMITE_PREDAT_PEER",
+  "producer": "A08",
+  "consumer": "A06",
+  "reviewer": "A11",
+  "score": null,
+  "at": "2026-11-02T16:34:11.311Z",
+  "frozen_plan_sha": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+  "primary_repo": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "secondary_source": "850/850 file hashes from external source and admin build. Additional DDL identified by exact structural SELECT in dedicated local PG with no production business data read.",
+  "contract": {
+    "objective": "Care checkout creează comanda consumată de adaptor",
+    "setup": "Fixture W: storefront EVA cu aceeași structură; fixture C: site cesiro.com și schema sa de test. Canonicul comercial și ID-urile sursă trebuie păstrate.",
+    "expected": "Pentru fiecare dintre W și C: fie dovadă de handoff, fie punctul exact de întrerupere și căutarea celorlalți importatori/transporturi. Nu deduce absența dintr-un singur 404.",
+    "negative": "Aceeași cheie după pierderea răspunsului / restart, două comenzi reale legitime cu aceleași produse, zero, cantitate negativă și alias de SKU.",
+    "requirements": [
+      {
+        "task": "T20",
+        "canonical": null,
+        "target": [
+          "P01.C10.T0011"
+        ],
+        "criterion_source": "executie/R3/taskuri/Fisa_T20.json",
+        "norm_pointer": "#/disposition_admin/successors",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX03"
+      },
+      {
+        "task": "T22",
+        "canonical": null,
+        "target": [
+          "P01.C10.T0007"
+        ],
+        "criterion_source": "executie/R3/taskuri/Fisa_T22.json",
+        "norm_pointer": "#/disposition_admin/successors",
+        "at_closure": "Separare decizie administrativă/funcționalitate.",
+        "test_now": "EX03"
+      }
+    ],
+    "edges": [
+      {
+        "control": "A08-C11",
+        "pipeline": "A08-P03",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/0"
+      },
+      {
+        "control": "A08-C13",
+        "pipeline": "A08-P03",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/2"
+      },
+      {
+        "control": "A08-C14",
+        "pipeline": "A08-P03",
+        "owner": "A08",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/55/resolved_control_ids/3"
+      },
+      {
+        "control": "A06-C10",
+        "pipeline": "A06-P2",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/41/resolved_control_ids/5"
+      },
+      {
+        "control": "A06-C18",
+        "pipeline": "A06-P4",
+        "owner": "A06",
+        "signed_pointer": "Index_trasabilitate.json#/pipelines/43/resolved_control_ids/0"
+      }
+    ],
+    "case_fixtures": [
+      "Q-COM-01"
+    ],
+    "at_completion": "Taskuri istorice și succesorii rămân separați: normele de closure și starea actuală nu se transferă automat. A12 și A11 stabilesc verdictul individual, nu un 10/10 local."
+  },
+  "evidence": [
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_W.py",
+      "sha256": "37e0418bc0eb20173311d81501444356b9146f9a61ab0643f92c4f57d7b9f3b4"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_W_raw.json",
+      "sha256": "296952d9551bbab630e76bbd0a44eb8a5518718b3b15378c4d9afcc317b63503"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_C.py",
+      "sha256": "27036ba428990e43073159139ed67d73d082e0f84dd70ddfb1b3a676ea4f124b"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_C_raw.json",
+      "sha256": "5ba6b48cb9839f2617cbff78b8606f305f3b6e19100ce231ec0c45184160c512"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_C_Q.py",
+      "sha256": "3ea62d96c23de2ed1968f53be9f8ddc29742b3da00a895a6dc789689a6059f4f"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_C_Q_raw.json",
+      "sha256": "90cb48df960c71ef1c07186dda10402e2c455c89f2d13c0930d05dae677182b1"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_mutant.py",
+      "sha256": "7d6341c26cea2288e891b5fd0b3af823d2ba0f8f5d8787377c66a0332d1e5997"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_mutant.json",
+      "sha256": "8bfdfc9264e522577bc981ee220566d852da245e8ae3fc0a817fa1cfdbe9a9bf"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_schema_first.json",
+      "sha256": "e31f4bbd47b84cb39666b31d8fbc714794d56d70a8499d7136c0bd66a8de3524"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_schema_second.json",
+      "sha256": "e7557934c5b2c21af2c6644c3289391a5ea50c7529a554d7a0a7e615df351e2e"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_schema.json",
+      "sha256": "226955400e51ade69bc1d4bfd2d445f63aa3404b57e08f4ad21ee88f6d39915b"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_schema.py",
+      "sha256": "689166743e6a481302c471a3417b71183ede3ccfcaa6d9db11727b570db79bbe"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_offer_structure.json",
+      "sha256": "b90d383647c9bafe01e69a55dd6ad2876e7961d7fbc7f2dd2df3910647f4f4d1"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX03_offer_structure.py",
+      "sha256": "14bb14cc0ee2c6f9a98f827081bb7dc54722612ff002231ee6f73f4180b06c89"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_W_360_ro.png",
+      "sha256": "d3f31e7bd98839b0c34424a006cf4bf80bcc8bcdeaf1ce65eed541d2dcabe139"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_360_ro.png",
+      "sha256": "70830ecfa719f91c3c1d1e746d27ec4fc725a5f42febbcff955c55846fb281dd"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_W_browser.json",
+      "sha256": "d63733cb1a81f871f868dd1795c57f333fff95bb3f84c801712546dfa5bef908"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_browser.json",
+      "sha256": "55496bb83fc43ab1830e67d829d4ac41dd8122277e72d8e75965e0874d45aacb"
+    }
+  ],
+  "scope_limits": [
+    "Atât W cât și C au trimiteri din handlerul real de checkout. Browserele au deschis /checkout și verificat interacțiuni UX; confirmările scrise în aceste probe sunt prin clientul HTTP de laborator, nu o revendicare de checkout complet prin aprobarea unui comisionar în browser.",
+    "Testele M_InOut, Fact_Acct, C_OrderTax sau C_Order pentru exact aceleași documente de origine nu sunt observate în această comandă. E este un consumator separat; fără ID nativ demonstrat nu există acceptare completă.",
+    "Restart este o nouă aplicație și sesiune HTTP pe aceeași bază, nu repornire server/OS. Schema ofertelor extrasă din catalogul de producție conține CREATE TABLE nativ; nu s-au copiat ACL, politici sau rândurile comerciantului.",
+    "Criteriile numerice sunt date de test; suprafețele care ignoră reducerile per linie sau folosesc alt model de preț sunt marcate, nu se ascund prin toleranțe."
+  ],
+  "execution_environment": {
+    "db": "a08_cesiro, izolată de toate mediile comercianților, PG16 loopback. Rol tehnic audit_owner cu drepturi în clonă; izolarea RLS sub rolurile exacte de producție nu se deduce.",
+    "network": "No production checkout; no production orders, accounts, partner APIs or emails. SMTP/MX and network external are disabled in fixture; no production tokens. Code/examples and synthetic payloads preserved. Postgres-backed C, file-backed W tested separately.",
+    "cleanup": "Nu există operații în productie sau documente fiscale emise. Date sintetice distincte în baza dedicată a08_cesiro, păstrată pentru reexecutarea auditorului. Tariful modificat la mutant a fost restabilit; fluxul în checker nu expediază mesaje."
+  },
+  "numeric_contract": {
+    "ID": "Q-COM-01",
+    "currency": "RON, două zecimale. Rate și convenții sintetice de test; contract de test, fără interpretare ca regulă fiscală generală.",
+    "cabinet": "CAB_A",
+    "firm": "F_A",
+    "channel": "CANAL_A",
+    "actor": "comisionar_A nu poate vedea contactul ori comanda omonimă din B; responsabil ERP este alt actor",
+    "identity": {
+      "customer": "CONTACT-A7",
+      "shipping_contact": "SHIP-A7",
+      "bill": "Str. Contabilă 11 / Cluj",
+      "ship": "Str. Depozit 22 / Reșița",
+      "other_cabinet_customer": "CONTACT-B7, adresă-martor",
+      "marketing_consent": false
+    },
+    "product": [
+      {
+        "id": "CPP-1001",
+        "sku": "EXT7",
+        "quantity": 2,
+        "unit_net": "31.27",
+        "discount_pct": 10,
+        "round": "half-up pe linie net apoi TVA",
+        "net": "56.29",
+        "rate": "21%",
+        "tax": "11.82"
+      },
+      {
+        "id": "CPA-1002",
+        "sku": "EXT8",
+        "quantity": 1,
+        "unit_net": "12.35",
+        "discount_pct": 0,
+        "net": "12.35",
+        "rate": "11%",
+        "tax": "1.36"
+      }
+    ],
+    "transport": {
+      "net": "5.00",
+      "rate": "21%",
+      "tax": "1.05"
+    },
+    "expected": {
+      "lines_net": "68.64",
+      "net_with_transport": "73.64",
+      "tax": "14.23",
+      "gross": "87.87"
+    },
+    "compare_list": [
+      "customer/ship-to/bill-to identități + locații native, fără substituția adresei",
+      "cod CPP/CPA distinct ≠ SKU/EAN; cantitate și preț pe fiecare linie",
+      "sume net/discount/TVA/transport/gross în payload, obiectul persistat la sursă, C_Order/Line, C_OrderTax, document și Fact_Acct numai dacă se generează",
+      "zero acces B și consimțământ numai dacă se cere în contract; documentați lipsa mapării fără a inventa câmpuri native"
+    ],
+    "negative": "Schimbați exclusiv adresa de livrare, unitatea monedei sau transportul cu +0,01. Probele trebuie să detecteze locul precis al diferenței chiar dacă totalul general pare egal. Depozit/canal B livrează alt SKU local cu cifră identică și alt cumpărător."
+  },
+  "actual": {
+    "W": {
+      "id": "ORD-20261102-162148-56d71344",
+      "local_file_count_after": 1,
+      "billing_address": "Str. Depozit 22 / Reșița",
+      "shipping_address": "Str. Depozit 22 / Reșița",
+      "totals": {
+        "prices_include_vat": true,
+        "vat_rate": 0.19,
+        "products_total_gross": 81.81,
+        "products_total_net": 68.75,
+        "vat_total": 13.06,
+        "shipping_total": 29.99,
+        "invoice_total": 111.8,
+        "products_total_gross_ron": 81.81,
+        "products_total_net_ron": 68.75,
+        "vat_total_ron": 13.06,
+        "shipping_total_ron": 29.99,
+        "invoice_total_ron": 111.8,
+        "exchange_rate": 1,
+        "exchange_rate_date": "fallback"
+      },
+      "erp_export_status": "pending"
+    },
+    "C": {
+      "uuid": "04255ef2-38dd-446f-89a7-d369a1a67335",
+      "reference": "ORD-2026-000001",
+      "tenant": "a08a2434a60e",
+      "bill": {
+        "address": "Str. Contabilă 11, Cluj-Napoca, Cluj, 400001",
+        "city": "Cluj-Napoca",
+        "country": "RO",
+        "county": "Cluj",
+        "label": "Cluj-Napoca",
+        "line1": "Str. Contabilă 11",
+        "line2": "",
+        "postal_code": "400001",
+        "postcode": "400001"
+      },
+      "ship": {
+        "address": "Str. Depozit 22, Reșița, Caraș-Severin, 320001",
+        "city": "Reșița",
+        "country": "RO",
+        "county": "Caraș-Severin",
+        "label": "Reșița",
+        "line1": "Str. Depozit 22",
+        "line2": "",
+        "postal_code": "320001",
+        "postcode": "320001"
+      },
+      "line_amounts": [
+        {
+          "sku": "EXT7",
+          "qty": 2,
+          "product_id": "be6b7763-fd36-4434-9879-a307eef1ba69",
+          "gross": 68.12,
+          "net": 56.3,
+          "tax": 11.82,
+          "vat": 0.21,
+          "offer_percent": 10,
+          "discount_ron": 0
+        },
+        {
+          "sku": "EXT8",
+          "qty": 1,
+          "product_id": "0a6aac1d-c23f-440a-82cb-1f05e2697130",
+          "gross": 13.71,
+          "net": 11.33,
+          "tax": 2.38,
+          "vat": 0.21,
+          "offer_percent": null,
+          "discount_ron": 0
+        }
+      ],
+      "products_net": 67.63,
+      "products_gross": 81.83,
+      "header_tax": 14.2,
+      "shipping_gross": 6.05,
+      "order_gross": 87.88,
+      "ERP_link": {}
+    },
+    "cross": {
+      "A": {
+        "tenant": "62f18134-9e50-41e4-bda3-8be8172783f6",
+        "id": "aca3eaff-f2bd-46a2-93ad-b99f92654c52",
+        "no": "ORD-2026-000001"
+      },
+      "B": {
+        "tenant": "27abbc49-1544-4004-a18c-3a63f5cfe021",
+        "id": "e30f9b33-e540-4ad0-85be-f77f2fdf2fe2",
+        "no": "ORD-2026-000001"
+      },
+      "C_api_list_A_count": 6,
+      "C_api_list_B_count": 1,
+      "W_id_in_C": {
+        "id": "ORD-20261102-162148-56d71344",
+        "http": 404,
+        "body": {
+          "error": "not_found",
+          "message": "Comanda 'ORD-20261102-162148-56d71344' nu există"
+        }
+      },
+      "ext_api_on_W_status": 404
+    }
+  },
+  "differences": [
+    "W răspunde 200 saved și persistă un fișier, total 111,80 RON, transport 29,99. Adresa de facturare a fost înlocuită cu adresa de livrare; nu este dovedit un transfer către C. Calculul comercial al componentei utilizează 19%.",
+    "C aplică oferta reală de 10% pe CPP folosind prețul de bază brut rotunjit la 37,84. Linia CPP are net 56,30 față de 56,29 în oracol. CPA are net 11,33 și TVA 2,38 la 21%; se așteptau net 12,35 și TVA 1,36 la 11%. Categoria CPA este configurată la 11%, dar SalesRepo aplică rata țării tuturor liniilor.",
+    "Transportul local C are valoare brută 6,05, iar totalul comercial 87,88 față de 87,87. Câmpul vat_total_ron este 14,20. Compare separat compunerea TVA transport: egalitatea aproximativă a totalului nu garantează identitatea liniilor."
+  ],
+  "samples": {
+    "W": [
+      {
+        "case": "submit",
+        "http": 200,
+        "id": "ORD-20261102-162148-56d71344",
+        "requested": 2,
+        "stored": 2,
+        "before": 0,
+        "after": 1
+      },
+      {
+        "case": "replay",
+        "http": 200,
+        "id": "ORD-20261102-162148-632a6a64",
+        "requested": 2,
+        "stored": 2,
+        "before": 1,
+        "after": 2
+      },
+      {
+        "case": "legitimate",
+        "http": 200,
+        "id": "ORD-20261102-162148-6737f45b",
+        "requested": 2,
+        "stored": 2,
+        "before": 2,
+        "after": 3
+      },
+      {
+        "case": "zero",
+        "http": 200,
+        "id": "ORD-20261102-162148-6932a775",
+        "requested": 0,
+        "stored": 1,
+        "before": 3,
+        "after": 4
+      },
+      {
+        "case": "negative",
+        "http": 200,
+        "id": "ORD-20261102-162148-738390d5",
+        "requested": -1,
+        "stored": 1,
+        "before": 4,
+        "after": 5
+      },
+      {
+        "case": "alias",
+        "http": 200,
+        "id": "ORD-20261102-162148-de67d0a1",
+        "requested": 2,
+        "stored": 2,
+        "before": 5,
+        "after": 6
+      }
+    ],
+    "C": [
+      {
+        "case": "first",
+        "http": 201,
+        "id": "ORD-2026-000001",
+        "uuid": "04255ef2-38dd-446f-89a7-d369a1a67335",
+        "requested": 2,
+        "stored": 2,
+        "before": 0,
+        "after": 1,
+        "ext": 200
+      },
+      {
+        "case": "replay_new_app",
+        "http": 201,
+        "id": "ORD-2026-000002",
+        "uuid": "776e4e47-3231-473a-8e40-96e3b8769c36",
+        "requested": 2,
+        "stored": 2,
+        "before": 1,
+        "after": 2,
+        "ext": 200
+      },
+      {
+        "case": "legitimate",
+        "http": 201,
+        "id": "ORD-2026-000003",
+        "uuid": "c8a4e10d-49f0-4da9-824d-e4a723455d8c",
+        "requested": 2,
+        "stored": 2,
+        "before": 2,
+        "after": 3,
+        "ext": 200
+      },
+      {
+        "case": "zero",
+        "http": 201,
+        "id": "ORD-2026-000004",
+        "uuid": "653a8213-df16-4195-9d71-adae0d21542e",
+        "requested": 0,
+        "stored": 1,
+        "before": 3,
+        "after": 4,
+        "ext": 200
+      },
+      {
+        "case": "negative",
+        "http": 201,
+        "id": "ORD-2026-000005",
+        "uuid": "1e1e8c7e-6e11-448e-9aca-f8bfae56d493",
+        "requested": -1,
+        "stored": 1,
+        "before": 4,
+        "after": 5,
+        "ext": 200
+      },
+      {
+        "case": "alias",
+        "http": 400,
+        "requested": 2,
+        "before": 5,
+        "after": 5
+      },
+      {
+        "case": "mutable_ship",
+        "http": 201,
+        "id": "ORD-2026-000006",
+        "uuid": "e2c3158a-1ab4-4b9c-85a0-c8162e576fa0",
+        "requested": 2,
+        "stored": 2,
+        "before": 5,
+        "after": 6,
+        "ext": 200
+      },
+      {
+        "case": "B-same-SKU",
+        "http": 201,
+        "id": "ORD-2026-000001",
+        "uuid": "75689988-4660-4966-a4bd-032d8773e95d",
+        "requested": 2,
+        "stored": 2,
+        "before": 0,
+        "after": 1,
+        "ext": 200
+      }
+    ],
+    "mutation_shipping": {
+      "at": "2026-11-02T16:33:15.523858+00:00",
+      "mutation": "Only synthetic delivery tariff changed from 6.05 to 6.06, same IDs/quantities and contact/billing/shipping. Native checkout + ext detail are both called; numeric oracle evaluated per layer. Restored prior config after submission.",
+      "underlying": "EX03_C_Q.py",
+      "$before": {
+        "order_number": "ORD-2026-000001",
+        "shipping_total_ron": 6.05,
+        "products_gross_ron": 81.83,
+        "vat_total_ron": 14.2,
+        "total_ron": 87.88
+      },
+      "$after": {
+        "order_number": "ORD-2026-000007",
+        "shipping_total_ron": 6.06,
+        "products_gross_ron": 81.83,
+        "vat_total_ron": 14.2,
+        "total_ron": 87.89
+      },
+      "http": 201,
+      "ext_http": 200,
+      "same_addresses": true,
+      "source_standard": "target Q-COM-01 amount/identity are normative fixture only; comparison tolerance RON 0.00."
+    },
+    "identity_mutation": [
+      {
+        "ref": "ORD-2026-000006",
+        "actual": "Str. Depozit 23",
+        "billing": "Str. Contabilă 11"
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "origin": "W",
+      "rel": "frontend/storefront/app/factory.py",
+      "line": 360,
+      "symbol": "def api_orders",
+      "sha256": "6e93fbec4b552461b6e9c3316e6370a36638a00d5f954474d40fb584d167d795"
+    },
+    {
+      "origin": "W",
+      "rel": "frontend/storefront/app/cms.py",
+      "line": 927,
+      "symbol": "def save_order",
+      "sha256": "10349168a40fff6d7ae223417f1c1f8446cb95546fa017c758e29ad79f5b62bf"
+    },
+    {
+      "origin": "W",
+      "rel": "frontend/storefront/scripts/invoice_bridge.py",
+      "line": 10,
+      "symbol": "/invoice-drafts",
+      "sha256": "c3ed7bfa7eed972aff392316063a9266f73cd03c952c47f66eac3112044c095d"
+    },
+    {
+      "origin": "C",
+      "rel": "backend/app/api/storefront.py",
+      "line": 1784,
+      "symbol": "def _checkout_guest",
+      "sha256": "35966359e383e138de025966d89ce59f5bf6276530ce2fc8aa6c076c3e93e677",
+      "frozen_C": true
+    },
+    {
+      "origin": "C",
+      "rel": "backend/app/repositories/sales_repo.py",
+      "line": 222,
+      "symbol": "vat = vat_rate_for_country",
+      "sha256": "45e013fa6cd3048e3da7f872dea69f1e716ef03306db33cfd7c6d78f10fd5e40",
+      "frozen_C": true
+    },
+    {
+      "origin": "C",
+      "rel": "backend/app/api/external_orders.py",
+      "line": 262,
+      "symbol": "def order_detail",
+      "sha256": "465e72ad3fc592657733a18835fca758014cfd0aafba07fb7a8d771a2b67d62c",
+      "frozen_C": true
+    },
+    {
+      "origin": "E",
+      "rel": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "line": 30,
+      "symbol": "public class PreiaDinSite",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823"
+    },
+    {
+      "origin": "E",
+      "rel": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SursaCesiro1.java",
+      "line": 36,
+      "symbol": "class SursaCesiro1",
+      "sha256": "6c45f9fd301d5f9e7248fcd2c646ba18b36bcbf66e244e9a1619c441ad2d80c8"
+    },
+    {
+      "origin": "E",
+      "rel": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PrimesteEvenimentSite.java",
+      "line": 37,
+      "symbol": "class PrimesteEvenimentSite",
+      "sha256": "52334f3e8c8fab0ba8b3fba4ab141fecd2998ef8be7f8da80aa03a6659abefec"
+    }
+  ],
+  "disposition": {
+    "C": "Confirmat pentru checkout → rows sales.orders/order_items → GET ext/v1 listă și detaliu cu UUID și adrese distincte. Retry identic produce încă o comandă în ambele origini. Qty zero și negativ în ambele servicii devin 1 în probele respective. Alias EXT7 ca product_id este respins în C; în W este rezolvat la SKU. ID tehnic și tipul cheii rămân criterii separate.",
+    "W": "Confirmat pentru W checkout și salvare fișier distinct, dar W /api/ext/v1/orders nu există pe aplicația testată; vechiul invoice_bridge.py prevede factură draft EVA din fișiere, nu dovedește introducerea în sales.orders CESIRO1 sau conectarea automată pentru toate canalele.",
+    "E": "Sursele PreiaDinSite, SursaCesiro1 și PrimesteEvenimentSite definesc citirea/staging în tabelele EVA; un conector sau un draft alternativ nu este același lucru cu ID-ul C_Order. A06/A12/A11 corelează lanțul și testele native efectuate la alte controale.",
+    "remediation": "Reutilizează un import comercial idempotent în jurul C_Order/C_OrderLine, M_PriceList, C_Tax și locații BPartner distincte. Cheia trebuie să fie tenant + canal + sursă + ID extern + hash revizie. Publică o referință durabilă și afișează aceeași confirmare după timeout; nu repeta rezervarea sau factura."
+  }
+}

@@ -1,6 +1,6 @@
 # iFLYTEK
 
-Conversații: 9; subagenți: 9; mesaje: 784; fișiere copiate: 365.
+Conversații: 10; subagenți: 9; mesaje: 791; fișiere copiate: 365.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -22,3 +22,4 @@ Conversații: 9; subagenți: 9; mesaje: 784; fișiere copiate: 365.
 | [Elaborează și validează planul de](Elaboreaz%C4%83%20%C8%99i%20valideaz%C4%83%20planul%20de/conversatie.md) | Conversație | 15 |
 | [Fara titlu](subagenti/Fara%20titlu--b94c9054/conversatie.md) | Subagent | 1 |
 | [Fara titlu](subagenti/Fara%20titlu--0f97234a/conversatie.md) | Subagent | 0 |
+| [Scrie emailuri pentru colaborare iFL](Scrie%20emailuri%20pentru%20colaborare%20iFL/conversatie.md) | Conversație | 7 |

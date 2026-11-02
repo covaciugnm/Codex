@@ -1,0 +1,131 @@
+{
+  "title": "R8-Q3. Rezervarea C20 și comenzile native în G1",
+  "phase": "Supliment separat R9; nu suprascrie niciun raport de rundă",
+  "immutable_parent_task": "P01.C10/T354 — C-20, plan original linia 71. Niciun verdict extins la întregul T354 sau întregul WMS.",
+  "score": null,
+  "reviewer": "A11 independent",
+  "commit": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "client": "GardenWorld 11, org 11 și 12, iDempiere 13; PG16; rețea Docker internal=true, niciun alt client în sandbox, zero schedulere active, fără parteneri/site sau sisteme de business",
+  "observed_runtime": {
+    "owner": "eva-contab-codex-a06g3c20",
+    "docker_app": "eva-test-p01-t354-auditor-app-20261102204849",
+    "docker_pg": "eva-test-p01-t354-auditor-pg-20261102204839",
+    "net_internal": "true",
+    "app_image": "sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235",
+    "clients": [
+      [
+        "0",
+        "System"
+      ],
+      [
+        "11",
+        "GardenWorld"
+      ]
+    ],
+    "schedulers": 0,
+    "core_sha": "86c82f54299f55e8f5089e0c48f13dc29432fdecec205a51560eb48dc54ac8c3  /opt/idempiere/plugins/org.adempiere.base_13.0.0.202603090043.jar\n00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2  /opt/idempiere/plugins/com.eva.ro.contab_13.0.0.jar"
+  },
+  "evidence_method": "Modele și procese REST native sub roluri GardenWorld; POST pentru fixtura explicit sintetică, PUT doc-action CO/VO, două conexiuni și barieră pentru fiecare scenariu. Fiecare snapshot se citește printr-o singură instrucțiune SELECT PostgreSQL; valorile sunt reconciliate pe WH, produs, ASI și IsSOTrx. Acoperirea concurenței este suprapunerea client HTTP și în ART_ONE există suplimentar coliziunea verificabilă în DB.",
+  "cases": [
+    {
+      "id": "C20-STA",
+      "actor": "Administrator vânzări online în fixtura A05",
+      "entry": "AUTO pentru două comenzi T22 cu același set, apoi VALIDEZ a treia",
+      "expected": "Două cereri 2+2=4 pe A, la stoc 6 emite, la 5 rămâne ROȘU.",
+      "observed": "A05 a măsurat perechea REZERVAT cu ord=0 în ambele variante. La 6, a treia a generat C_Order 1000089 și a livrat 2A. La 5, a treia a rămas în COADA, ord=0 și stocul 5.",
+      "decision": "Criteriul original este probat aici pe staging și pe a treia comandă. Cele două anterioare nu aveau C_Order.",
+      "proof": "lineage.json: previous_C20, normative, prior[0]"
+    },
+    {
+      "id": "KIT-DIRECT",
+      "actor": "GardenAdmin 102 în org 11; GardenUser 103 drept control",
+      "entry": "C_Order standard cu S1/S1 în 103 și S1/S2 în 103/HQ Transit. Ambele BOM Master/Current Active au fost verificate de procesul nativ pp_product_bom.",
+      "expected": "Garda T354 refuză CO manual și indică traseul permis, fără mișcări în caz de retry.",
+      "observed": "Patru comenzi distincte: [1000000,1000001] și [1000002,1000003]. Pentru fiecare, încercarea concurentă și cele două reluări CO au fost respinse HTTP 500 cu motivul concret «nu se vinde pe un document introdus manual» și trimitere la «Vânzări online → Validez…». Două perechi au avut suprapunere HTTP 227.1 și 229.8 ms. Cele patru comenzi au rămas DR cu liniile seturilor originale, fără rând în M_StorageReservation și fără expediții, facturi sau postări ale comenzii.",
+      "decision": "Refuz funcțional justificat pe aplicația instalată, anterior exploziei standard iDempiere. HTTP 500 reprezintă modul în care API-ul prezintă o validare de business. A doua magazie din această contra-probă este de tranzit.",
+      "proof": "raw.json: boms, cases, role_own_action; lineage.json: EvaSetLinieEvents.java:19–26,42–52,102–122"
+    },
+    {
+      "id": "NATIVE-COLLISION",
+      "actor": "Două sesiuni GardenAdmin 102",
+      "entry": "C_Order/1000008 și 1000009, fiecare cu linii introduse direct A2,B4, în aceeași magazie 103. Început cu A3/B16.",
+      "expected": "Rezervările trebuie să se reconcilieze integral per document. La eroare, reluarea pe același ID și aceeași cheie evită o cantitate suplimentară.",
+      "observed": "Interval HTTP comun 223.1 ms. Primul CO reușește; celălalt HTTP 500, m_storagereservation_pkey pe A, magazie 103, IsSOTrx=Y, ASI=0; comanda sa rămâne DR. Primul snapshot are A2/B4. O singură reluare pe același C_Order rezolvă eroarea. Ambele CO însumează A4/B8 în linii și stoc rezervat, față de A3/B16 fizic. Repetarea CO pentru ambele păstrează aceleași linii și solduri.",
+      "decision": "Coliziune tehnică reproductibilă la prima creare concurentă a rândului de rezervare. Creanța de disponibil nu e un refuz al motorului comercial T22.",
+      "proof": "components.json: ART_ONE.concurrent, retry_first_failure și snapshots; lineage.json: MStorageReservation.java:265–286,372–385"
+    },
+    {
+      "id": "NATIVE-LIMIT-6-5",
+      "actor": "GardenAdmin 102",
+      "entry": "După cele două CO (A4 rezervate), stoc fizic ajustat prin M_Inventory la 6 și apoi 5. Comenzi noi distincte doar pentru bucăți A2,B4.",
+      "expected": "Comparam limita documentată T22 6→verde/5→roșu cu efectul real al comenzii native standard.",
+      "observed": "C_Order 1000010 (A6 fizic) și 1000011 (A5 fizic) au trecut CO. Ambele duc rezervarea pe A la 6; disponibil calculat fizic minus rezervat este 0 și respectiv −1. La fiecare prag, reluarea CO nu adaugă nimic și VO eliberează numai cele 2A ale comenzii respective. B a avut 16 fizic pentru a izola pragul pe A.",
+      "decision": "Standard SO poate păstra restanță; nu poate fi folosit singur drept promisiune de stoc pentru G3. Fiecare prag are trei C_Order reale cu articole primare, fără o comandă de canal nouă.",
+      "proof": "components.json: ART_ONE.thresholds[6,5], before/after/after_repeat/after_void"
+    },
+    {
+      "id": "TWO-PHYSICAL-WH",
+      "actor": "GardenAdmin 102",
+      "entry": "Comenzi 1000012/1000013 cu vectori A2+B4 în 103 și A1+B2 în 1000000, a doua G1.2 fizică creată explicit prin API iDempiere și M_Locator distinct.",
+      "expected": "Două G1 fizice ne-tranzit păstrează angajamente locale pe componentă. Eliberarea unei comenzi lasă cealaltă rezervare intactă.",
+      "observed": "Cele două HTTP s-au suprapus 194.0 ms și cele două CO au reușit. 103 are A2/B4; 1000000 are A1/B2. Fiecare sold corespunde C_OrderLine.QtyReserved pentru aceeași magazie și același articol. VO în 103, apoi retry VO, lasă în 1000000 A1/B2; VO în a doua gestiune o eliberează. În toate capturile sunt zero livrări/facturi/note contabile de comandă.",
+      "decision": "Distribuție explicită a două comenzi distincte în două gestiuni native. Alegerea automată pentru un singur canal, împărțirea unei comenzi între magazii și vânzarea unui set nu au intrat în acest experiment.",
+      "proof": "components.json: warehouses, ART_TWO, snapshots"
+    },
+    {
+      "id": "NEG-STOCK-POLICY",
+      "actor": "GardenAdmin 102",
+      "entry": "Magazia obișnuită 1000000, IsDisallowNegativeInv=Y, A3 fizic, o comandă standard A4+B2.",
+      "expected": "Se disting limita de stoc fizic și limita la rezervarea pentru o viitoare expediție.",
+      "observed": "DocAction CO reușește, stocul A rămâne 3 fizic, A4 rezervate, disponibil −1. Reluarea nu schimbă soldul, VOID îl eliberează. Nu s-a livrat niciun articol.",
+      "decision": "Setarea nativă privind stocul fizic negativ nu a impus un plafon la rezervarea SO în acest caz.",
+      "proof": "policy.json și components.json: warehouses.stock_policy"
+    },
+    {
+      "id": "ACTOR-RETRY",
+      "actor": "GardenUser 103 în org 11 față de org 12, și GardenAdmin 102",
+      "entry": "Citire/CO în org proprie sau străină; două POST C_Order cu același corp și același Idempotency-Key într-un caz separat de control.",
+      "expected": "Dreptul se verifică la înregistrarea documentului. Reluarea documentului existent și deduplicarea creării se evaluează separat.",
+      "observed": "GardenUser a citit comanda proprie (200), a putut completa propriul SO cu articole (200/CO) și a primit refuzul T354 pentru setul manual. Altă organizație a aceluiași client: GET și CO ambele 403, starea DR nemodificată. Aceeași cheie/body la POST a generat antetele DR 1000006 și 1000007, două UUID diferite, câte zero linii. În perechile de articole primare, POReference s-a trunchiat la același text de 20 caractere, deci verificarea după cheia completă nu a regăsit niciunul; identitatea persistentă este probată prin ID și UU.",
+      "decision": "Refuz de rol între organizații, nu probă cross-client. Headerul HTTP singur nu deduplică generic crearea unui SO și POReference nu este cheie unică. Reluarea nativă pe ID este distinctă.",
+      "proof": "raw.json: role_own_read/role_negative/duplicate_draft_negative; components.json: role_standard, snapshots.draft.orders, keys"
+    },
+    {
+      "id": "SITE-Q",
+      "actor": "Fixture CESIRO1 și procesul ERP din EX05",
+      "entry": "UUID 04255ef2-38dd-446f-89a7-d369a1a67335 / ORD-2026-000001, total 87,88.",
+      "expected": "Pentru a dovedi originea comună se cer liniile și C_Order legate de același UUID.",
+      "observed": "Rularea EX05 a recuperat antetul EVA_ComandaSite 1000006, EVA_Proprie=N, apoi EXCLUS; zero linii staging și C_Order_ID nul. Numerele interne se pot repeta între clone GardenWorld, iar un C_Order/1000006 din prezentul experiment nu este comanda Q.",
+      "decision": "Rămâne blocat lanțul Q → linii, rezervare și client final. Nicio injectare de proprietate, niciun apel la site sau platformă aici.",
+      "proof": "lineage.json: prior[2,3], separare prin UUID extern, bază și AD_Table_ID"
+    }
+  ],
+  "native_first": [
+    "Păstrați M_Product/PP_Product_BOM/PP_Product_BOMLine, M_Warehouse/M_Locator, MOrder/Line, DocAction și M_StorageReservation. Baza pentru promisiunea pe canal este procesul T22 de rezervare/validare înainte de emitere. Configurați o politică explicită de acceptare a restanțelor pe canal și testați pragul 6/5 după blocare în aceeași tranzacție.",
+    "Pentru ERP manual păstrați garda T354 și prezentați operatorului ruta «Vânzări online → Validez…» din motivul existent. La integrare diferențiați validarea de business de eroarea tranzitorie cu cheia compusă de stoc și evitați repetarea oricărei erori HTTP 500 fără clasificare.",
+    "În propagarea externă folosiți cheia stabilă client/sursă/UUID și păstrați C_Order_ID/UU rezultat. Reluați aceeași operație pe documentul existent. Evitați deduplicarea după POReference ori după un antet HTTP fără contract testat.",
+    "Într-un canal multi-G1 verificați maparea efectivă și tratarea rezervărilor pe componentă și magazie. La data auditului RezervareStoc.gestiuni citește un singur M_Warehouse_ID pentru sursă; proba multi-G1 aici este nativă și deliberat explicită, nu o selecție automată de canal."
+  ],
+  "limits": [
+    "Un cabinet sintetic; nicio comandă comercială de producție, nicio verificare vizuală UX nouă sau cross-cabinet; rolul străin este altă organizație din GardenWorld.",
+    "A05 C20 și CESIRO1 Q au alte origini și trebuie raportate individual. Nicio eșantionare a unei combinații de stoc în producție sau dovadă de integrare site pentru comenzile acestui experiment.",
+    "Pe perechile de SO-uri din acest raport nu s-a procesat M_InOut, C_Invoice, picking, AWB, returnare sau contabilizare. Nicio inferență de postare sau efecte contabile din simpla rezervare.",
+    "O coliziune determină o problemă reproductibilă pe această instalare, nu o estimare a frecvenței. CORE poate accepta restanțe ca opțiune de lucru."
+  ],
+  "retirement": {
+    "at": "2026-11-02 20:54:03 Europe/Bucharest",
+    "remaining_owned_containers": 0,
+    "remaining_owned_networks": 0,
+    "remaining_suite_slots": 0,
+    "temporary_db_secret_removed": true,
+    "remaining_positive_reservations_before_close": [],
+    "remaining_delivered_or_invoiced_order_lines_tagged": "0",
+    "cleanup": "cleanup.txt",
+    "lifecycle": "lifecycle.log"
+  },
+  "arithmetic_checks": {
+    "count": 32,
+    "artifact": "verify.py + assertions.json",
+    "rerun": "python verify.py din acest director, verifică probele arhivate fără acces la server"
+  }
+}

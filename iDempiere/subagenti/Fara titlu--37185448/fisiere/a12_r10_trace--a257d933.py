@@ -1,0 +1,2 @@
+from a12_r10_lease import *
+w=current();s='cd '+w+' && ls -ld ready auditor-app auditor-pg restore.err 2>/dev/null; test ! -f '+w+'/restore.err || tail -1 '+w+'/restore.err; if test -f '+w+'/auditor-pg;then c=$(cat '+w+'/auditor-pg);docker exec -i "$c" sh -c \'exec psql -XqAt -v ON_ERROR_STOP=1 -U "$POSTGRES_USER" -d idempiere\' <<\'SQL\'\nBEGIN READ ONLY;\nselect count(*) from pg_class c join pg_namespace n on n.oid=c.relnamespace where n.nspname=\'adempiere\' and c.relkind=\'r\';ROLLBACK;\nSQL\nfi';p=ssh(s);print(p.stdout.decode()[-430:],p.stderr.decode()[-230:])

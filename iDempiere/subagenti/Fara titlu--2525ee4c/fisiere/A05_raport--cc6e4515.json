@@ -1,0 +1,3723 @@
+{
+  "schema": "eva.audit.zone.execution.r4",
+  "zone_id": "A05",
+  "revision": "R4",
+  "reviewer": "A11",
+  "submitted_utc": "2026-11-02T17:20:59.076665+00:00",
+  "status": "PARȚIAL_CU_RAMURI_FUNCȚIONALE_BLOCATE",
+  "cutoff_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "native_baseline": "da0730aec42f3e9f5f671e81a70ff71e24d5e534",
+  "plan_manifest": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "audit_quality_score": null,
+  "product_score": null,
+  "scope": "Consolidare executată de A05 din R3, contraproba coordinatorului din cabinetul GardenWorld și EX05 cu peer și auditor separat. R4 revalidează hashurile și rezultatele brute. Nu a fost recreată clona sau accesată producția. Notele istorice A11 califică versiunile indicate.",
+  "independent_reviews": {
+    "R1_A05": 5.8,
+    "R2_A05": 6.8,
+    "R3_A05": {
+      "quality_score": 7.0,
+      "source": "A11_R3#/reports/A05",
+      "r3_hash": "3986fd91b4f4f5d5079fa0002c23f3e05b63b11ca1233e719f9af7ed0b6c27af",
+      "A11_residual_at_R3": [
+        "Înscrieți A05-R2-F11 în câmpul findings al A05-C15/C20/C24; în hash fiecare îl omite. Specificați proprietățile native și politica T329-8 înaintea etichetării drept defect de produs.",
+        "F10 este confirmat pe suprapunerea instrumentată: 18/20 vs 18/18 în ambele ordini seriale, inclusiv după repeat. Nightly/seed, baseline pozitiv și absenta incidentelor production sunt distincte.",
+        "F01 divergența replay este dovedită cu aceeași intenție, iar evenimentul nou este legitim; dați probă de anulare economică legată de documentul original, nu doar dezambalare de compensare.",
+        "E9 server pentru 0011/0012 scade fizic 20→18 și ajunge la CO, Posted=E fără cost; nu îl confundați cu E9 0021 din A09, unde documentul rămâne DR. Închideți fluxul transversal S1→putaway→scan→aviz→retur cu cost configurat și corelare."
+      ]
+    },
+    "EX05_component": {
+      "source": "A11_SITE#/cases/EX05",
+      "peer": "SITE_PEER",
+      "quality": 6.8,
+      "verified_subchecks": 34,
+      "out_of": 50,
+      "disposition": "C→EVA_COMANDASITE_ANTET_CONFIRMAT; BLOCAT_DEPENDENȚĂ_PENTRU_LINII_SI_C_ORDER",
+      "supplement_gate": "RAPOARTE_COMPONENTĂ_ACCEPTATE_PENTRU_CONSTĂRILE_LISTATE; SUPLIMENT_END_TO_END_NEACCEPTAT",
+      "not_transferable_to_A05_R4": true
+    },
+    "R4_A05": "PENDING_A11"
+  },
+  "versioned_lineage": {
+    "r3": "R3",
+    "r2": "R2",
+    "r2_evidence_rehashed": 29,
+    "r3_supplement_rehashed": 4,
+    "legacy_rehashed": 5,
+    "source_paths": "Căile evidence_manifest R4 sunt relative la executie/. Căile moștenite se rezolvă la ediția indicată în fiecare pointer."
+  },
+  "counts": {
+    "controls": 29,
+    "pipeline_count": 7,
+    "finding_count": 11,
+    "controls_by_status": {
+      "INCONCLUDENT": 20,
+      "FAIL_DOVEDIT": 8,
+      "BLOCAT_ACCES": 1
+    },
+    "pipelines_by_status": {
+      "FAIL_DOVEDIT": 5,
+      "INCONCLUDENT": 2
+    },
+    "controls_with_new_boundary_evidence": 16,
+    "new_boundary_tests": 8,
+    "physical_origins": {
+      "warehouse_native_W1": "SO 1000000",
+      "warehouse_native_W2": "SO 1000001",
+      "site_CQ": "UUID 04255ef2-38dd-446f-89a7-d369a1a67335, fără SO"
+    }
+  },
+  "controls": [
+    {
+      "control_id": "A05-C01",
+      "title": "Configurarea G1/G2 și drepturile gestionarului",
+      "expected": "Două surse contabile identificabile și două perimetre fizice. Selectoarele nu amestecă tipurile, cererea modificată este refuzată fără rând orfan.",
+      "status": "INCONCLUDENT",
+      "findings": [
+        "A05-F06"
+      ],
+      "pipeline_ids": [
+        "A05-P01"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0017",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/941",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/38",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0009",
+          "title": "Pozițiile magaziei, generate pe rafturi și niveluri",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/933",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/30",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "WSagaGestiuniForm",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaGestiuniForm.java",
+          "anchor_lines": [
+            31
+          ]
+        },
+        {
+          "symbol": "PerecheWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/PerecheWms.java",
+          "anchor_lines": [
+            243,
+            66,
+            186,
+            338,
+            32,
+            89,
+            265
+          ]
+        },
+        {
+          "symbol": "ModelWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ModelWms.java",
+          "anchor_lines": [
+            73,
+            74,
+            77
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MWarehouse",
+        "MProduct",
+        "MUOMConversion"
+      ],
+      "regression_steps": [
+        "Creează în cabinetul de test G1.1 și G1.2, apoi zonele G2.1 și G2.2. Alege gestionarul și locatorii de recepție, raft, expediție. Încearcă un locator din cealaltă firmă.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/0",
+      "prior_observation": "Tenant A și B distincte create prin configurarea nativă în cabinetul sintetic. Warehouse noi și perechi activate pentru fiecare traseu concurent. Acces între firme verificat în backend; UX de administrare pe fiecare gestionar nu este complet.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [
+        "G07"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C02",
+      "title": "Număr independent de gestiuni și politica explicită a legăturilor",
+      "expected": "Pentru fiecare topologie solicitată, cantități urmărite o singură dată și proveniență până la G1. Limitările unei legături 1:1 au exemplu reproductibil și diferență față de cerință. Un locator nu substituie automat dreptul de gestionar.",
+      "status": "INCONCLUDENT",
+      "findings": [
+        "A05-F06"
+      ],
+      "pipeline_ids": [
+        "A05-P01"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0017",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/941",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/38",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0009",
+          "title": "Pozițiile magaziei, generate pe rafturi și niveluri",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/933",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/30",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "PerecheWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/PerecheWms.java",
+          "anchor_lines": [
+            243,
+            66,
+            186,
+            338,
+            32,
+            89,
+            265
+          ]
+        },
+        {
+          "symbol": "ModelWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ModelWms.java",
+          "anchor_lines": [
+            73,
+            74,
+            77
+          ]
+        },
+        {
+          "symbol": "DialogLocatoriGestiune",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogLocatoriGestiune.java",
+          "anchor_lines": [
+            42,
+            53,
+            62,
+            74
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MWarehouse",
+        "MProduct",
+        "MUOMConversion"
+      ],
+      "regression_steps": [
+        "Compară cazul două G1/două G2 cu cazul unei G1 având două zone fizice gestionate distinct și cazul transferului între responsabili. Identifică dacă modelarea folosește warehouse, locator sau pereche și ce vede fiecare gestionar.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/1",
+      "prior_observation": "Decizia documentată T331 și indexul instalat probează relația 1:1. Cele două perechi din R1 și noile warehouse separate din R2 demonstrează topologia multiple G1/G2 în perechi. Cerința de mai multe warehouse G2 pentru o singură G1 nu se presupune.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C03",
+      "title": "Activare repetată sau concurentă cu stoc inițial",
+      "expected": "Sold inițial total fizic 120 în cele două perimetre. Aceeași activare nu produce 160 pe G1.1. Situația cu negativ primește o decizie explicită și nu modifică parțial perechea.",
+      "status": "FAIL_DOVEDIT",
+      "findings": [
+        "A05-F10"
+      ],
+      "pipeline_ids": [
+        "A05-P01"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0017",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/941",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/38",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0025",
+          "title": "Validarea pe produs din WMS în contabilitate",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/949",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/46",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "PerecheWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/PerecheWms.java",
+          "anchor_lines": [
+            243,
+            66,
+            186,
+            338,
+            32,
+            89,
+            265
+          ]
+        },
+        {
+          "symbol": "StocWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "anchor_lines": [
+            70,
+            85,
+            92,
+            29,
+            81,
+            109
+          ]
+        },
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MWarehouse",
+        "MProduct",
+        "MUOMConversion"
+      ],
+      "regression_steps": [
+        "Activează simultan aceeași pereche pe G1.1 cu 80 P1 și pe G1.2 cu 40, inițial fără evidență G2. Reia după răspuns pierdut. Introdu separat un sold negativ înainte de activare.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/2",
+      "prior_observation": "La două sesiuni native cu bariere observabile: G1/G2 finale 18/20 în intercalare și nicio mișcare oglindită aferentă; 18/18 dacă documentul G1 se comite înainte de snapshot și 18/18 dacă activarea se comite înainte de document. O a doua activare nu corectează diferența. Modelul SQL cu trei sesiuni este probă separată.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C04",
+      "title": "CPP și CPA cu identități distincte, permanente",
+      "expected": "Identificatori interni distinct și trasabili în rețetă, etichetă, selectoare. Zero realocări după dezactivare. Ambiguitatea cere alegere sau refuz, fără liniile altui produs.",
+      "status": "FAIL_DOVEDIT",
+      "findings": [
+        "A05-F08"
+      ],
+      "pipeline_ids": [
+        "A05-P01"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0018",
+          "title": "Articol nou cu cost inițial și preț de vânzare",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/942",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/39",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0028",
+          "title": "Inventarul pe produse, seturile pe lista de materiale",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/964",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/49",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "SetLista",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+          "anchor_lines": [
+            43,
+            146,
+            258,
+            39,
+            165,
+            184
+          ]
+        },
+        {
+          "symbol": "CampScanare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/CampScanare.java",
+          "anchor_lines": [
+            23
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MWarehouse",
+        "MProduct",
+        "MUOMConversion"
+      ],
+      "regression_steps": [
+        "Configurează P1 CPP și P1 ambalat CPA cu două coduri diferite. Arhivează produsul și încearcă realocarea codului pe alt SKU și reimportul aceluiași EAN ambiguu.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/3",
+      "prior_observation": "După arhivarea/redenunțirea CPP, codul a fost alocat altui produs. Reactivarea primului îl păstrează cu noul său Value; restaurarea Value vechi pe primul produs e refuzată pentru duplicat. Import nativ I_Product/Import_Product a rezolvat vechiul cod la ID 1000003 și a actualizat acel produs, nu ID 1000000 al produsului inițial.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C05",
+      "title": "Recepție, amplasare și reluarea evenimentului",
+      "expected": "G1 +10, G2 total +10 împărțit 7 și 3. Nicio a doua recepție, mutarea pe raft nu dublează cantitatea ori costul.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P02"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0011",
+          "title": "Propunerea poziției la recepție și amplasarea pe raft",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/935",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/32",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0017",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/941",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/38",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "OglindaWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+          "anchor_lines": [
+            262,
+            313,
+            298,
+            263
+          ]
+        },
+        {
+          "symbol": "StocWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "anchor_lines": [
+            70,
+            85,
+            92,
+            29,
+            81,
+            109
+          ]
+        },
+        {
+          "symbol": "EvaWmsOglindaEvents",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/component/EvaWmsOglindaEvents.java",
+          "anchor_lines": [
+            16,
+            19,
+            22,
+            28
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MMovement",
+        "MStorageOnHand",
+        "Doc_Movement"
+      ],
+      "regression_steps": [
+        "Pornește cu sold zero. Primește 10 P1 în G1, completează recepția, amplasează 7 și 3 pe rafturi G2. Retrimite același eveniment.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/4",
+      "prior_observation": "R2 nu a reevaluat distribuirea unei recepții în 7+3 pe rafturi. Activarea perechilor și mișcările T366 nu substituie această probă.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G05"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C06",
+      "title": "Transfer, tranzit și destinație între G1 distincte",
+      "expected": "La sosirea finală, sursa −5, destinația +5, tranzit 0. Nicio cantitate în două locuri simultan disponibilă. Pentru aceeași schemă, reconciliază debit și credit și conturile fiecărui document, inclusiv posibile linii net zero.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P02"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0017",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/941",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/38",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "OglindaWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+          "anchor_lines": [
+            262,
+            313,
+            298,
+            263
+          ]
+        },
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MMovement",
+        "MStorageOnHand",
+        "Doc_Movement"
+      ],
+      "regression_steps": [
+        "Transferă 5 din G1.1 în G1.2 cu tranzit configurat. Confirmă 3 și ulterior 2. Reia prima confirmare și evaluează în fiecare etapă disponibilul comercial.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/5",
+      "prior_observation": "Rezultatul R1 pentru transfer 5, −5/+5 și 4 Fact_Acct rămâne valabil pentru fixture. Confirmările 3+2 rămân neexercitate în acest raport.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C07",
+      "title": "Cost și preț după importul soldului",
+      "expected": "Zero modificări ale prețului la schimbarea izolată a costului și invers. Costul inițial este reconciliat pe cantitate și metodă, fără postarea G2 drept stoc suplimentar.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P02"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0005",
+          "title": "Costul complet al mărfurilor din import",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/670",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/26",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0007",
+          "title": "Straturile de cost la preluarea stocurilor de pornire",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/672",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/28",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0018",
+          "title": "Articol nou cu cost inițial și preț de vânzare",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/942",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/39",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        },
+        {
+          "symbol": "ImportInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ImportInventar.java",
+          "anchor_lines": [
+            99,
+            897,
+            959,
+            966
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MMovement",
+        "MStorageOnHand",
+        "Doc_Movement"
+      ],
+      "regression_steps": [
+        "Importă două articole cu aceeași valoare numerică inițială setată explicit ca valoare de stoc respectiv preț de canal. Compară document, schemă de cost și listă de prețuri cu A03/A06.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/6",
+      "prior_observation": "Importul de produs R2 a identificat articolul pe Value. Nu este probă de separare cost/preț inițial; A03 și A06 rămân titulare pentru celelalte efecte.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G06"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C08",
+      "title": "Unitate de bază, conversie aprobată și compoziție",
+      "expected": "6 bucăți rămân 6 în stocul de bază. Conversia comercială nu creează identitatea CPA. Definiția invalidă nu produce nicio mișcare.",
+      "status": "FAIL_DOVEDIT",
+      "findings": [
+        "A05-F02",
+        "A05-F09"
+      ],
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0028",
+          "title": "Inventarul pe produse, seturile pe lista de materiale",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/964",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/49",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0029",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/965",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/50",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "SetLista",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+          "anchor_lines": [
+            43,
+            146,
+            258,
+            39,
+            165,
+            184
+          ]
+        },
+        {
+          "symbol": "ListaMaterialeWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ListaMaterialeWms.java",
+          "anchor_lines": []
+        },
+        {
+          "symbol": "NotaSetWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/NotaSetWms.java",
+          "anchor_lines": [
+            50,
+            75,
+            20,
+            38,
+            49,
+            188,
+            193
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MProduction",
+        "MUOMConversion",
+        "MInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Înregistrează 6 bucăți ca 1 unitate comercială conform conversiei aprobate pe produs. Încearcă conversie lipsă, circularitate BOM și împărțire la zero.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/7",
+      "prior_observation": "BOM cu componente întregi permite recipe-cod. Probe anterioare pe JAR refuză tip PK și fracția 0,5h. Scenariul complet nu a primit o dovadă de conversie acceptată pentru manoperă.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C09",
+      "title": "Asamblare reversibilă S1",
+      "expected": "În G2 există +1 S1 și −6 din fiecare componentă. În G1 piesele au rămas proprietate contabilă, iar S1 reversibil nu are stoc contabil suplimentar. Dacă P3 lipsește, fluxul este integral refuzat sau rămâne explicit în proiect, fără mișcări parțiale.",
+      "status": "FAIL_DOVEDIT",
+      "findings": [
+        "A05-F01",
+        "A05-F03"
+      ],
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0028",
+          "title": "Inventarul pe produse, seturile pe lista de materiale",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/964",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/49",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0029",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/965",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/50",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "DialogNotaSetWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogNotaSetWms.java",
+          "anchor_lines": [
+            44
+          ]
+        },
+        {
+          "symbol": "NotaSetWmsProces",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/NotaSetWmsProces.java",
+          "anchor_lines": [
+            252,
+            39,
+            164,
+            253,
+            239,
+            105,
+            274,
+            209
+          ]
+        },
+        {
+          "symbol": "NotaSetWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/NotaSetWms.java",
+          "anchor_lines": [
+            50,
+            75,
+            20,
+            38,
+            49,
+            188,
+            193
+          ]
+        },
+        {
+          "symbol": "StocWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "anchor_lines": [
+            70,
+            85,
+            92,
+            29,
+            81,
+            109
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MProduction",
+        "MUOMConversion",
+        "MInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Pornește de la șase bucăți din fiecare P în G2 și asamblează un S1; identifică versiunea BOM. Reia după pierderea răspunsului și simulează pe altă clonă lipsa P3.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/8",
+      "prior_observation": "Proces real: 1 CPA după asamblare; 2 după repetarea cu același payload și aceeași cheie; 3 după o intenție nouă. O dezambalare compensatoare lasă 2. G1 piesa și cutia rămân la 12/12. O compensare fizică nouă nu este un buton de anulare cu referință la nota inițială.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [
+        "G01",
+        "G02",
+        "G08"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C10",
+      "title": "Set cumpărat indivizibil și set doar CPA",
+      "expected": "Setul cumpărat rămâne o unitate în G1. Setul exclusiv CPA apare doar în disponibilitatea comercială și evidența fizică potrivită. Producția nativă care generează produs stocat necesită rezultat contabil real și justificare documentată.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0028",
+          "title": "Inventarul pe produse, seturile pe lista de materiale",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/964",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/49",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0029",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/965",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/50",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "SetLista",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+          "anchor_lines": [
+            43,
+            146,
+            258,
+            39,
+            165,
+            184
+          ]
+        },
+        {
+          "symbol": "NotaSetWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/NotaSetWms.java",
+          "anchor_lines": [
+            50,
+            75,
+            20,
+            38,
+            49,
+            188,
+            193
+          ]
+        },
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MProduction",
+        "MUOMConversion",
+        "MInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Recepționează un set cumpărat ca atare fără dezmembrare și configurează separat un set doar CPA. Compară rezultat în G1/CPP și G2/CPA, apoi încearcă producția contabilă pentru setul reversibil.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/9",
+      "prior_observation": "Comparația R1 dintre setul reversibil și MProduction rămâne delimitată de documentele propuse. În R2 CPA are stoc 0 în G1, iar produsul/cutia se modifică doar în G2 la asamblare.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [
+        "G01"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C11",
+      "title": "Dezasamblare înainte de pick și rețetă istorică",
+      "expected": "Înainte de pregătire nu există P1 liber. După dezambalare rămân 19 S1 și câte 6 piese brute în G2; după pick P1 liber scade la 5, iar 1 este în expediție. Noua rețetă nu rescrie istoricul.",
+      "status": "INCONCLUDENT",
+      "findings": [
+        "A05-F01",
+        "A05-F07"
+      ],
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0029",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/965",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/50",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0012",
+          "title": "Lista de culegere a comenzilor, din pozițiile WMS",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/936",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/33",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "NotaSetWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/NotaSetWms.java",
+          "anchor_lines": [
+            50,
+            75,
+            20,
+            38,
+            49,
+            188,
+            193
+          ]
+        },
+        {
+          "symbol": "ListaMaterialeWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/ListaMaterialeWms.java",
+          "anchor_lines": []
+        },
+        {
+          "symbol": "StocWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "anchor_lines": [
+            70,
+            85,
+            92,
+            29,
+            81,
+            109
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MProduction",
+        "MUOMConversion",
+        "MInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Cu toate cele 120 piese din fiecare P ambalate în 20 S1, solicită 1 P1. Modifică acum BOM, apoi desfă 1 S1 bazat pe rețeta folosită la asamblare și indică locatorii pentru componente.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/10",
+      "prior_observation": "Decizia D-05a-3 cere retur pe locatorul inițial al setului. R2 confirmă compensarea cu dezambalare în acel locator. Pick-ul trebuie ordonat după amplasarea pe locatori noi dacă politica actuală o cere; F07 se reclasifică din defect al notei în probă lipsă a fluxului cu amplasare.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [
+        "G01",
+        "G02",
+        "G03",
+        "G08"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C12",
+      "title": "Cutii și manoperă de asamblare",
+      "expected": "Prima operație și reluarea consumă împreună 1 cutie și 0,5 h. Operațiunea nouă are identificator nou și consumul real propriu. Un singur traseu contabil pentru fiecare cost. A03 verifică delimitarea manoperei deja înregistrate prin salarii.",
+      "status": "FAIL_DOVEDIT",
+      "findings": [
+        "A05-F01",
+        "A05-F02"
+      ],
+      "pipeline_ids": [
+        "A05-P03"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0029",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/965",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/50",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0018",
+          "title": "Articol nou cu cost inițial și preț de vânzare",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/942",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/39",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "NotaSetWmsProces",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/NotaSetWmsProces.java",
+          "anchor_lines": [
+            252,
+            39,
+            164,
+            253,
+            239,
+            105,
+            274,
+            209
+          ]
+        },
+        {
+          "symbol": "DialogNotaSetWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogNotaSetWms.java",
+          "anchor_lines": [
+            44
+          ]
+        },
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MProduction",
+        "MUOMConversion",
+        "MInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Împachetează P1 CPA din P1 CPP + cutie A1 + 0,5 h. Înregistrează operațiunea și costul, repetă același identificator, apoi execută o nouă reambalare care consumă fizic altă cutie.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/11",
+      "prior_observation": "Rețetă cu 1 componentă CPP și 1 articol reprezentând cutia, ambele linii de material obișnuite. G1 și contorul faptelor/costurilor au rămas neschimbate după toate cele patru operații; în G2 s-a format CPA. Deci acest proces singur nu execută consumul economic solicitat. PK și 0,5h sunt refuzate în R1.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G01",
+        "G02",
+        "G06",
+        "G08"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C13",
+      "title": "G3 alternative complete și angajament global",
+      "expected": "G3 inițial P1 120, S1 20, S2 40, neaditive. După rezervări rămân 30 din fiecare și alternativele S1 5 sau S2 10. A 31-a bucată disponibilă nu poate fi angajată fără aprobare de politică distinctă. G3 nu generează M_Transaction.",
+      "status": "INCONCLUDENT",
+      "findings": [
+        "A05-F05"
+      ],
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0028",
+          "title": "Inventarul pe produse, seturile pe lista de materiale",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/964",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/49",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C10.T0002.03",
+          "title": "Stocul oferit fiecărui canal, articol cu articol",
+          "source_state": "agregat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/753",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/128",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "RezervareStoc",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RezervareStoc.java",
+          "anchor_lines": [
+            71,
+            128,
+            92
+          ]
+        },
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        },
+        {
+          "symbol": "SetLista",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/SetLista.java",
+          "anchor_lines": [
+            43,
+            146,
+            258,
+            39,
+            165,
+            184
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MStorageReservation",
+        "MStorageOnHand"
+      ],
+      "regression_steps": [
+        "Începe cu 120 din fiecare P distribuite 80+40 pe cele două G1. Citește G3. Rezervă 10 S1 și 10 S2. Solicită în același context încă 31 P1.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/12",
+      "prior_observation": "Politica Q-74m-5 (T22/71 §307 și T22/74n §96) însumează pentru publicarea stocului și cere onorarea integrală a liniei dintr-o gestiune. Refuzul la 80+40 nu contrazice acel contract. Oracol pentru split intergestiuni nou nu există în acest mandat; A06-F07 despre deducerea cererii și afișarea efectiv livrabilă se urmărește separat.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G07"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C14",
+      "title": "Concurența între canale și valurile de pick",
+      "expected": "Din cele două ordine concurente cel mult una poate angaja ultimele 6 P1. Cealaltă primește lipsă/propune așteptare. Retry nu dublează angajamentul. Nicio rezervare blocată după rollback.",
+      "status": "INCONCLUDENT",
+      "findings": [
+        "A05-F05"
+      ],
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0012",
+          "title": "Lista de culegere a comenzilor, din pozițiile WMS",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/936",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/33",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0028",
+          "title": "Inventarul pe produse, seturile pe lista de materiale",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/964",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/49",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C10.T0002.03",
+          "title": "Stocul oferit fiecărui canal, articol cu articol",
+          "source_state": "agregat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/753",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/128",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "RezervareStoc",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/RezervareStoc.java",
+          "anchor_lines": [
+            71,
+            128,
+            92
+          ]
+        },
+        {
+          "symbol": "StocWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "anchor_lines": [
+            70,
+            85,
+            92,
+            29,
+            81,
+            109
+          ]
+        },
+        {
+          "symbol": "AlegerePozitii",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/AlegerePozitii.java",
+          "anchor_lines": [
+            14,
+            39
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MStorageReservation",
+        "MStorageOnHand"
+      ],
+      "regression_steps": [
+        "Lasă un singur S1 echivalent și pornește comenzi concurente în două canale pentru S1 și 6 P1. Reia evenimentul câștigător și simulează inversarea ordinii de blocare.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/13",
+      "prior_observation": "Aceeași cerere economică la note WMS a fost reprodusă, nu și două angajamente comerciale durabile din canale independente. Subrezultatul pur de alocare R1 este păstrat.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G03",
+        "G04",
+        "G07"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C15",
+      "title": "Lot, serie, expirare și ASI zero",
+      "expected": "Pentru loturile eligibile 4+2 sau alternativa justificată prin setări. Nicio serie sau cantitate repetată. ASI 0 fără lot este urmărit, nu pierdut prin join. Lotul expirat izolat și nesubstituit fără drept.",
+      "status": "FAIL_DOVEDIT",
+      "findings": [
+        "A05-F03",
+        "A05-F04",
+        "A05-R2-F11"
+      ],
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0003",
+          "title": "Seriile articolelor la ieșirea din gestiune",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/667",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/23",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0015",
+          "title": "Loturi pe intrări, mișcări și ieșiri",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/939",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/36",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0016",
+          "title": "Termenul de valabilitate și ieșirea după expirare",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/940",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/37",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0029",
+          "title": "Seturile în WMS, cu ambalarea și dezambalarea lor",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/965",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/50",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "Fefo",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/Fefo.java",
+          "anchor_lines": [
+            114,
+            94
+          ]
+        },
+        {
+          "symbol": "LoturiArticole",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/LoturiArticole.java",
+          "anchor_lines": [
+            17,
+            23,
+            26,
+            29
+          ]
+        },
+        {
+          "symbol": "StocWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "anchor_lines": [
+            70,
+            85,
+            92,
+            29,
+            81,
+            109
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MStorageReservation",
+        "MStorageOnHand"
+      ],
+      "regression_steps": [
+        "Folosește două loturi cu 4 și 8 bucăți. Solicită 6 și configurează FEFO, un lot neeligibil și un produs fără ASI. Compară suma liniilor MA + reprezentarea validă cu ASI 0.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/14",
+      "prior_observation": "Cu ASI pozitiv și un set nativ de lot neetichetat EVA, E9 a refuzat payload-ul de numărare. Pe un nou produs cu set explicit EVA-P01.T329-LOT și M_Lot + ASI native, aceeași cale semantică a reușit. Aceasta verifică inventarul cu lot, nu asamblarea seturilor cu ASI. F03/F04 rămân întemeiate la nivelurile indicate.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C16",
+      "title": "Pick în ERP și aviz de expediție",
+      "expected": "Un traseu identificabil comandă–linii–loturi–locator–pick–aviz. Avizul conține livratul, păstrează restul deschis. În fluxul configurat, AWB se inițiază numai după validare. CO document nu dovedește primirea de client.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0012",
+          "title": "Lista de culegere a comenzilor, din pozițiile WMS",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/936",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/33",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0023",
+          "title": "Confirmarea culegerii înaintea livrării comenzilor",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/947",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/44",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C10.T0011",
+          "title": "Legarea comenzilor de facturi, livrări și încasări",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/777",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/152",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "WSagaComenziForm",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WSagaComenziForm.java",
+          "anchor_lines": [
+            84
+          ]
+        },
+        {
+          "symbol": "ApiAmbalare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiAmbalare.java",
+          "anchor_lines": [
+            56,
+            60,
+            72,
+            330
+          ]
+        },
+        {
+          "symbol": "OglindaWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+          "anchor_lines": [
+            262,
+            313,
+            298,
+            263
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MStorageReservation",
+        "MStorageOnHand"
+      ],
+      "regression_steps": [
+        "Gestionează comanda din iDempiere, validează stoc și pregătiri, mută doar cantitatea efectiv culeasă pe locatorul expediție, confirmă pick și avizul, apoi predă A07 pentru validare comercială.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/15",
+      "prior_observation": "M_InOut/AWB din fluxul complet nu au fost reexecutate în această revizie A05. A07 deține efectele curierului, A06 alocarea; există dovadă separată a operațiilor native și a pregătirii fizice. Nu se deduce conformitatea întregului pipeline din ele.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G07"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C17",
+      "title": "Colet anulat între aviz și curier",
+      "expected": "Rezervarea este eliberată numai în acord cu starea fizică și documentară; traseu de inversare aprobat, fără a crea automat retur fictiv sau livrare dublă. Identificator original păstrat.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P04"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0023",
+          "title": "Confirmarea culegerii înaintea livrării comenzilor",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/947",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/44",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C10.T0011",
+          "title": "Legarea comenzilor de facturi, livrări și încasări",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/777",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/152",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "OglindaWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+          "anchor_lines": [
+            262,
+            313,
+            298,
+            263
+          ]
+        },
+        {
+          "symbol": "ApiAmbalare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiAmbalare.java",
+          "anchor_lines": [
+            56,
+            60,
+            72,
+            330
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MStorageReservation",
+        "MStorageOnHand"
+      ],
+      "regression_steps": [
+        "Respinge expedierea după documentul CO înainte de predarea curierului. Reia același eveniment; urmărește document compensator și confirmarea locației reale.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/16",
+      "prior_observation": "R2 include dezasamblarea fizică compensatoare și reversarea nativă a diferenței de inventar; nu este un retur RMA sau o anulare post-aviz înainte de predarea coletului. Rămâne necesară proba colocată A07.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G04",
+        "G07"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C18",
+      "title": "Numărare și diferență aprobată",
+      "expected": "Numărarea G2 nu postează pierderea în GL. După aprobare, ajustarea nativă este −2 în G1 exact o dată și este legată de constatare. Abaterea neaprobată rămâne vizibilă.",
+      "status": "FAIL_DOVEDIT",
+      "findings": [
+        "A05-F09",
+        "A05-F10"
+      ],
+      "pipeline_ids": [
+        "A05-P05"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0004",
+          "title": "Fereastra-ghid pentru plusurile și minusurile de inventar",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/669",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/25",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0025",
+          "title": "Validarea pe produs din WMS în contabilitate",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/949",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/46",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0030",
+          "title": "Inventarul validat pe produs, cu confirmarea validării",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/976",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/51",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "WInventarForm",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WInventarForm.java",
+          "anchor_lines": [
+            100
+          ]
+        },
+        {
+          "symbol": "RegistruWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegistruWms.java",
+          "anchor_lines": [
+            57,
+            164,
+            212
+          ]
+        },
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInventory",
+        "ImportInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Numără 8 față de 10 scriptic în G2. Deschide diferența; la aprobarea pentru G1 compară MInventory, tranzacția și impactul contabil cu A03. Retrimite validarea.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/17",
+      "prior_observation": "În T366 diferențe +2 și −2 confirmate de al doilea actor au produs câte un document CO/Posted=Y. Reversarea a fost blocată în luna neîncepută, apoi executată prin DocAction nativ într-o perioadă deschisă în fixture, cu inverse RE/Posted=Y și G1=G2=20. Intercalarea ajustării cu activarea G2 pierde însă −2 din oglindă.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C19",
+      "title": "Import de numărători cu document în DR",
+      "expected": "O singură înregistrare per cheia țintă document/locator/produs/lot. Cantități și erori reconciliate per rând. Se documentează dacă procesul nativ creează document nou sau poate actualiza DR. Un CO nu se suprascrie.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P05"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0010",
+          "title": "Inventarul de pornire din fișier, pe poziție și lot",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/934",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/31",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0020",
+          "title": "API-ul aplicației mobile pentru inventariere",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/944",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/41",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0030",
+          "title": "Inventarul validat pe produs, cu confirmarea validării",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/976",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/51",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "ImportInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ImportInventar.java",
+          "anchor_lines": [
+            99,
+            897,
+            959,
+            966
+          ]
+        },
+        {
+          "symbol": "ScriereInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ScriereInventar.java",
+          "anchor_lines": [
+            58,
+            63,
+            101
+          ]
+        },
+        {
+          "symbol": "WInventarForm",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WInventarForm.java",
+          "anchor_lines": [
+            100
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInventory",
+        "ImportInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Pe draftul unei numărători deschise importă două loturi ale aceluiași produs în doi locatori. Reia fișierul și importă un rând invalid. Compară Import Inventory nativ cu actualizarea documentului țintă existent.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/18",
+      "prior_observation": "Ruta mobilă a modificat M_InventoryLine din draftul existent. Importul nativ I_Product s-a executat pe produs, nu reprezintă test Import Inventory cu fișier de numărători pe mai multe loturi.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C20",
+      "title": "Două numărători simultane și tastare offline",
+      "expected": "Un singur câștigător la versiunea inițială. Conflictul arată cantitate curentă și permite recitire, nu suprascrie în tăcere. Retry identic nu dublează inventarul și documentul CO refuză editare.",
+      "status": "INCONCLUDENT",
+      "findings": [
+        "A05-R2-F11"
+      ],
+      "pipeline_ids": [
+        "A05-P05"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0020",
+          "title": "API-ul aplicației mobile pentru inventariere",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/944",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/41",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0022",
+          "title": "Aplicația Android: inventarierea și locul articolului",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/946",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/43",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "ScriereInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ScriereInventar.java",
+          "anchor_lines": [
+            58,
+            63,
+            101
+          ]
+        },
+        {
+          "symbol": "RegistruWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegistruWms.java",
+          "anchor_lines": [
+            57,
+            164,
+            212
+          ]
+        },
+        {
+          "symbol": "ApiInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiInventar.java",
+          "anchor_lines": [
+            38,
+            44,
+            49,
+            52
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInventory",
+        "ImportInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Același locator și versiune citită de două dispozitive. Unul salvează 8 și celălalt 9 după reconectare. Reia prima cerere cu aceeași cheie și simulează închiderea documentului în interval.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/19",
+      "prior_observation": "AND03: ASI pozitiv; trigger exclusiv pe linia sintetică a forțat rollback 500 fără modificare. După eliminarea triggerului, prima cerere a returnat 200 și a actualizat aceeași linie 20→18; retry 200 și cele două replay-uri concurente post-commit nu adaugă efecte. Payload diferit cu aceeași cheie→409; K2 pe altă ciornă are o linie nouă. Un act nou efectuat nativ CO produce o singură tranzacție −2 la acel ASI. Eroarea de postare E/0 Fact_Acct are cauza „No Costs” pentru produsul sintetic nou. Două terminale în conflict pe versiune inițială și transport offline Android complet nu sunt confundate cu replay server.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C21",
+      "title": "Etichete și reproduceri",
+      "expected": "Trei entități identificabile distinct. Retipărirea nu creează produs sau mișcare. Codul intern rămâne același și vechea etichetă se tratează conform valabilității setate.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0013",
+          "title": "Etichete cu cod de bare și QR pentru poziții și articole",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/937",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/34",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "GeneratorEticheteCoduri",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/GeneratorEticheteCoduri.java",
+          "anchor_lines": [
+            40,
+            46,
+            47,
+            98
+          ]
+        },
+        {
+          "symbol": "DialogEticheteCoduri",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogEticheteCoduri.java",
+          "anchor_lines": [
+            55
+          ]
+        },
+        {
+          "symbol": "CampScanare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/CampScanare.java",
+          "anchor_lines": [
+            23
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MInventory",
+        "MProduct"
+      ],
+      "regression_steps": [
+        "Tipărește o etichetă pentru produs CPP, pentru CPA și pentru locator. Scanează fiecare și retipărește aceeași etichetă după schimbarea aliasului SKU.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/20",
+      "prior_observation": "R2 nu schimbă concluzia din R1 privind PDF-ul, imprimanta fizică și etichetele înainte/după schimbarea aliasurilor. AVD dedicat separat.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C22",
+      "title": "Scanare pe suprafețele ERP inventariate",
+      "expected": "Pentru fiecare ecran activ există probă cu codul corect, o eroare în limba cerută și zero salvări la cod ambiguu. Ecranele înlocuite au succesor documentat.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0014",
+          "title": "Citirea codurilor de bare în ecranele iDempiere",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/938",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/35",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "CampScanare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/CampScanare.java",
+          "anchor_lines": [
+            23
+          ]
+        },
+        {
+          "symbol": "PoliticaScanare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/PoliticaScanare.java",
+          "anchor_lines": []
+        },
+        {
+          "symbol": "GazdaScanare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/GazdaScanare.java",
+          "anchor_lines": []
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MInventory",
+        "MProduct"
+      ],
+      "regression_steps": [
+        "Reconciliază cele 15 ecrane istorice cu cele active în AD. Pe fiecare, scanează cod valid, necunoscut și ambiguu prin tastatură/HID. Verifică focus și protecția împotriva apăsării Enter automate.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/21",
+      "prior_observation": "15 ecrane native distincte, HID și navigare de eroare nu sunt acoperite integral în A05. A09 separă AVD/Suite de jurnalul server.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C23",
+      "title": "Gestionari, dispozitive revocate și acces la locatori",
+      "expected": "Zero date sau mișcări în tenantul străin, zero înregistrări după revocare. Schimbarea firmei în UI golește selecțiile anterioare, mesaj fără detaliile firmei străine.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0019",
+          "title": "Autentificarea telefoanelor și drepturile pe gestiune",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/943",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/40",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0020",
+          "title": "API-ul aplicației mobile pentru inventariere",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/944",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/41",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "ApiInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiInventar.java",
+          "anchor_lines": [
+            38,
+            44,
+            49,
+            52
+          ]
+        },
+        {
+          "symbol": "ApiAmbalare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiAmbalare.java",
+          "anchor_lines": [
+            56,
+            60,
+            72,
+            330
+          ]
+        },
+        {
+          "symbol": "DialogLocatoriGestiune",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/DialogLocatoriGestiune.java",
+          "anchor_lines": [
+            42,
+            53,
+            62,
+            74
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MInventory",
+        "MProduct"
+      ],
+      "regression_steps": [
+        "Alege o firmă, rol și locator permis. Modifică identificatorii spre altă firmă; revocă dispozitivul și reîncearcă cu cererea nedifuzată anterior.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/22",
+      "prior_observation": "AND04 cu utilizator B autentic dintr-un tenant nou, rol și dispozitiv proprii: citire Gestiune B=200; prezentare K1 și IDs din A=404; A solicită locatorii B GET/POST=404; zero variații documente/stoc/GL A și B. Reader prezentând cheia writerului a primit 409, aceeași cerere pe cheie nouă 403. D2 revocat→403. Nu s-au returnat valori ale documentului străin. Schimbarea vizuală a firmei nu se deduce din API.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G07"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C24",
+      "title": "Același contract WMS pe mobil și ERP",
+      "expected": "Un rezultat economic pentru fiecare eveniment, aceeași validare a lotului și unității. Contractul diferențiază lipsă, conflict, neautorizat, document închis și permite recuperare în UX.",
+      "status": "INCONCLUDENT",
+      "findings": [
+        "A05-R2-F11"
+      ],
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0020",
+          "title": "API-ul aplicației mobile pentru inventariere",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/944",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/41",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0023",
+          "title": "Confirmarea culegerii înaintea livrării comenzilor",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/947",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/44",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0024",
+          "title": "Aplicația Android: culegerea și ambalarea comenzilor",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/948",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/45",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "ScriereInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ScriereInventar.java",
+          "anchor_lines": [
+            58,
+            63,
+            101
+          ]
+        },
+        {
+          "symbol": "ApiInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiInventar.java",
+          "anchor_lines": [
+            38,
+            44,
+            49,
+            52
+          ]
+        },
+        {
+          "symbol": "ApiAmbalare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiAmbalare.java",
+          "anchor_lines": [
+            56,
+            60,
+            72,
+            330
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MInventory",
+        "MProduct"
+      ],
+      "regression_steps": [
+        "Execută aceeași numărătoare, apoi același pick, din suprafețe echivalente. Verifică unitate, revizie, lot, proiect și drepturi în traseul până la PO.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/23",
+      "prior_observation": "E9/POST, citire/scriere și control la conflict/revocare au fost executate în ERP pe date persistente. Confirmarea pick în API ambalare, apoi în aceeași interfață ERP, nu este dovedită complet.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C25",
+      "title": "Acoperirea dispozitivelor Android și iPhone",
+      "expected": "Android și iPhone primesc rezultate separate și identificator build. La refuz cameră se poate continua prin metoda permisă ori apare remediu. Lipsa clientului sau a dispozitivului este consemnată separat.",
+      "status": "BLOCAT_ACCES",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0021",
+          "title": "Aplicația Android: intrarea, meniul și scanarea",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/945",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/42",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0022",
+          "title": "Aplicația Android: inventarierea și locul articolului",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/946",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/43",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0024",
+          "title": "Aplicația Android: culegerea și ambalarea comenzilor",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/948",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/45",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "ApiInventar",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiInventar.java",
+          "anchor_lines": [
+            38,
+            44,
+            49,
+            52
+          ]
+        },
+        {
+          "symbol": "CampScanare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/CampScanare.java",
+          "anchor_lines": [
+            23
+          ]
+        },
+        {
+          "symbol": "ApiAmbalare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiAmbalare.java",
+          "anchor_lines": [
+            56,
+            60,
+            72,
+            330
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MInventory",
+        "MProduct"
+      ],
+      "regression_steps": [
+        "Mapează clientul nativ ori web efectiv instalat per platformă și versiune cu A09. În fixture autorizat testează instalare, permisiune cameră refuzată, alternativă HID și reconectare pe fiecare.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/24",
+      "prior_observation": "Există fixture AVD separată 0021, fără a pretinde execuție Android/iPhone în această revizie a zonei. Rămâne blocat integral pentru cele două platforme și hardware până la rezultatele A09.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [],
+      "r4_coverage": "RELUAT_DIN_R3_FĂRĂ_NOUĂ_EXECUȚIE"
+    },
+    {
+      "control_id": "A05-C26",
+      "title": "Pick mobil cu scanare dublă sau cantitate parțială",
+      "expected": "Cel mult 4 confirmate, 2 încă deschise; nici duplicarea seriei, nici replay nu consumă mai mult. Lista mobilă indică sursa lotului și soldul rămas.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P06"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0024",
+          "title": "Aplicația Android: culegerea și ambalarea comenzilor",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/948",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/45",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0023",
+          "title": "Confirmarea culegerii înaintea livrării comenzilor",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/947",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/44",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "ApiAmbalare",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/acces/ApiAmbalare.java",
+          "anchor_lines": [
+            56,
+            60,
+            72,
+            330
+          ]
+        },
+        {
+          "symbol": "Fefo",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/Fefo.java",
+          "anchor_lines": [
+            114,
+            94
+          ]
+        },
+        {
+          "symbol": "OglindaWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+          "anchor_lines": [
+            262,
+            313,
+            298,
+            263
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInOut",
+        "MInventory",
+        "MProduct"
+      ],
+      "regression_steps": [
+        "Pregătește 6 bucăți din două loturi. Scanează prima serie de două ori, confirmă numai 4 și reconectează terminalul. Compară pick, aviz și rest.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/25",
+      "prior_observation": "Scanarea reală serializată, loturile și restul de avizat cer probă suplimentară în procesul de ambalare. AND03/E9 nu înseamnă pick.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G03",
+        "G04"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C27",
+      "title": "Retur parțial cu control calitate",
+      "expected": "Recepție fizică o singură dată, legătură la aviz și lotul concret. Disponibilul vandabil crește numai după acceptare. A07/A03 documentează corecția financiară separat.",
+      "status": "INCONCLUDENT",
+      "findings": [],
+      "pipeline_ids": [
+        "A05-P07"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0017",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/941",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/38",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C10.T0016",
+          "title": "Retururile clienților pe documentele programului",
+          "source_state": "audit",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/925",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/157",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "OglindaWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+          "anchor_lines": [
+            262,
+            313,
+            298,
+            263
+          ]
+        },
+        {
+          "symbol": "StocWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "anchor_lines": [
+            70,
+            85,
+            92,
+            29,
+            81,
+            109
+          ]
+        },
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MRMA",
+        "MInOut",
+        "MInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Returnează o bucată dintr-o comandă a cărei origine include două loturi. Orientează în carantină, apoi aprobă repunerea sau rebutul. Rulează returul duplicat cu același identificator.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/26",
+      "prior_observation": "Returul financiar și linia-sursă se urmăresc în A07. Reversările T366 sunt ajustări de inventar și nu se reclasifică drept retur de client.",
+      "prior_limit": "Constatările pozitive la nivelul metodelor nu acoperă UI sau documentele persistente. Vezi observația individuală și rezultatele cabinetului sintetic unde disponibile.",
+      "r4_tests": [
+        "G05",
+        "G06"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C28",
+      "title": "Reconciliere și probă operațională completă",
+      "expected": "Diferența cantitativă nejustificată este zero pe produs/lot/perimetru după exprimare în piesele CPP. Cost contabil fără dublare. Timpii reali și numărul erorilor au bază de comparație; ținte SLA aprobate separat.",
+      "status": "FAIL_DOVEDIT",
+      "findings": [
+        "A05-F04",
+        "A05-F10"
+      ],
+      "pipeline_ids": [
+        "A05-P07"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0027",
+          "title": "Proba pilot a programului și indicatorii",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/951",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/48",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0017",
+          "title": "Gestiunea WMS pereche a fiecărei gestiuni contabile",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/941",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/38",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        },
+        {
+          "symbol": "StocWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/StocWms.java",
+          "anchor_lines": [
+            70,
+            85,
+            92,
+            29,
+            81,
+            109
+          ]
+        },
+        {
+          "symbol": "OglindaWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+          "anchor_lines": [
+            262,
+            313,
+            298,
+            263
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MRMA",
+        "MInOut",
+        "MInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Execută traseul recepție→asamblare→dezasamblare→pick→aviz→retur și reconciliază fiecare eveniment cu document, lot și cost. Măsoară p50/p95 pentru operațiunile pilot și exportă cazurile nereconciliate.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/27",
+      "prior_observation": "Diferența F10 rămâne 18/20 chiar și după apelarea idempotentă a activării. Cele două execuții seriale dau 18/18. În demonstratorul T366, G2 și G1 revin la 20 după reversarea controlată. Indicatorii p95 ai operatorilor și o lansare cu pilot complet rămân deschise.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [
+        "G04",
+        "G05",
+        "G06",
+        "G08"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    },
+    {
+      "control_id": "A05-C29",
+      "title": "Document nativ, rezultat de proces și postare",
+      "expected": "Un rezultat boolean adevărat se compară explicit cu DocStatus, Processed, Posted, M_Transaction și Fact_Acct. Status nefinal/în așteptare nu este tratat ca ajustare finală. Perioada închisă permite numai traseul explicit acceptat.",
+      "status": "INCONCLUDENT",
+      "findings": [
+        "A05-F09"
+      ],
+      "pipeline_ids": [
+        "A05-P05"
+      ],
+      "task_links": [
+        {
+          "id": "P01.C03.T0004",
+          "title": "Fereastra-ghid pentru plusurile și minusurile de inventar",
+          "source_state": "închis",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/669",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/25",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        },
+        {
+          "id": "P01.C03.T0025",
+          "title": "Validarea pe produs din WMS în contabilitate",
+          "source_state": "montat",
+          "registry": [
+            {
+              "file": "00_STATUS_TASKURI.json",
+              "pointer": "/949",
+              "sha256": "8c664275e4dd53cc8c563b1458c3af46c3fe1976f23592acf549da536945fcaf"
+            },
+            {
+              "file": "00_CORESPONDENTA_COD_CAPITOL.json",
+              "pointer": "/coduri/46",
+              "sha256": "d434f9c6ecf2739560cb3f34705ca8fc97cca0c56582749a9e0f8625815eb6a1"
+            }
+          ],
+          "reason": "Legătură de domeniu; nu atribuie verdict integral taskului."
+        }
+      ],
+      "source_symbols": [
+        {
+          "symbol": "RegulaLegatura",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/RegulaLegatura.java",
+          "anchor_lines": [
+            36,
+            40,
+            51
+          ]
+        },
+        {
+          "symbol": "OglindaWms",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/OglindaWms.java",
+          "anchor_lines": [
+            262,
+            313,
+            298,
+            263
+          ]
+        },
+        {
+          "symbol": "WInventarForm",
+          "path": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/form/WInventarForm.java",
+          "anchor_lines": [
+            100
+          ]
+        }
+      ],
+      "native_anchors": [
+        "MInventory",
+        "ImportInventory",
+        "Doc_Inventory"
+      ],
+      "regression_steps": [
+        "Pentru document DR cu lipsă de aprobare rulează procesul autorizat și observă booleanul, statutul persistent, mesajul și postarea. Reia apoi pe document pregătit corespunzător.",
+        "Citește valorile înainte și după pentru entitățile enumerate, în aceeași firmă, org și schemă. La concurență notează ordinea commiturilor și efectul retry."
+      ],
+      "prior_pointer": "R3_zone/A05/A05_raport.json#/controls/28",
+      "prior_observation": "Cazurile T366 arată separat documentul-sursă în DR și documentele generate CO → RE, cu rânduri contabile și stoc. Inventarul mobil face o singură tranzacție −2 la finalizare; pentru acel articol nou e Posted=E și nu s-a forțat corectarea retroactivă a fixturii. Majoritatea fluxurilor au avut o singură schemă GardenWorld.",
+      "prior_limit": "Dovedit la nivelul indicat pentru probele efective. Cerințele fără probe rămân deschise.",
+      "r4_tests": [
+        "G05",
+        "G06"
+      ],
+      "r4_coverage": "MARTORI_NOI_PARȚIALI"
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline_id": "A05-P01",
+      "business_outcome": "Configurarea gestiunilor, identităților și soldului inițial",
+      "expected": "80+40=120 P1 cu două G1, sold inițial fizic total 120, idempotent la dublă activare.",
+      "status": "FAIL_DOVEDIT",
+      "cross_zone_owners": "A01 acces gestionar, A02 identități și AD, A06 G3, A09 UI",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/pipelines/0",
+      "controls": [
+        "A05-C01",
+        "A05-C02",
+        "A05-C03",
+        "A05-C04"
+      ],
+      "r4_tests": [
+        "G07"
+      ],
+      "status_basis": "Păstrează verdictul integral R3, inclusiv ramurile încă neprobate; R4 creditează numai subtestele nominale."
+    },
+    {
+      "pipeline_id": "A05-P02",
+      "business_outcome": "Recepția și transferul între locații",
+      "expected": "Recepție 10 produce 10; transfer 5 prin tranzit cu livrări 3+2 nu lasă cantitate în tranzit la final.",
+      "status": "INCONCLUDENT",
+      "cross_zone_owners": "A04 achiziție, A02 AD și SQL, A03 cost/postare, A06 disponibil, A09 UX",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/pipelines/1",
+      "controls": [
+        "A05-C05",
+        "A05-C06",
+        "A05-C07"
+      ],
+      "r4_tests": [
+        "G05",
+        "G06"
+      ],
+      "status_basis": "Păstrează verdictul integral R3, inclusiv ramurile încă neprobate; R4 creditează numai subtestele nominale."
+    },
+    {
+      "pipeline_id": "A05-P03",
+      "business_outcome": "Asamblare și dezasamblare cu cost și proveniență",
+      "expected": "Un S1 = 6 din fiecare P; G2 +1 S1/−6×3; G1 piesele neschimbate. P1 ambalat consumă exact 1 cutie și 0,5 h per operație distinctă.",
+      "status": "FAIL_DOVEDIT",
+      "cross_zone_owners": "A02 BOM/ID, A03 cost unic și salarii, A06 catalog, A09 formular",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/pipelines/2",
+      "controls": [
+        "A05-C08",
+        "A05-C09",
+        "A05-C10",
+        "A05-C11",
+        "A05-C12"
+      ],
+      "r4_tests": [
+        "G01",
+        "G02",
+        "G03",
+        "G06",
+        "G08"
+      ],
+      "status_basis": "Păstrează verdictul integral R3, inclusiv ramurile încă neprobate; R4 creditează numai subtestele nominale."
+    },
+    {
+      "pipeline_id": "A05-P04",
+      "business_outcome": "Rezervare, pick și predare a avizului",
+      "expected": "120→20 S1 SAU 40 S2. Rezervare 10 S1 +10 S2 lasă 30 buc din fiecare. Confirmarea parțială nu închide restul.",
+      "status": "FAIL_DOVEDIT",
+      "cross_zone_owners": "A06 comandă/G3, A07 aviz și AWB, A03 efecte financiare, A01 acces, A09 listă",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/pipelines/3",
+      "controls": [
+        "A05-C13",
+        "A05-C14",
+        "A05-C15",
+        "A05-C16",
+        "A05-C17"
+      ],
+      "r4_tests": [
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G07"
+      ],
+      "status_basis": "Păstrează verdictul integral R3, inclusiv ramurile încă neprobate; R4 creditează numai subtestele nominale."
+    },
+    {
+      "pipeline_id": "A05-P05",
+      "business_outcome": "Inventariere, import și aprobare",
+      "expected": "Diferență 8−10=−2. Sold GL modificat o singură dată după aprobare; două scrieri pe aceeași versiune nu pot ambele confirma.",
+      "status": "FAIL_DOVEDIT",
+      "cross_zone_owners": "A02 model, A03 ajustare/GL, A04 import, A09 UX și dispozitive",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/pipelines/4",
+      "controls": [
+        "A05-C18",
+        "A05-C19",
+        "A05-C20",
+        "A05-C29"
+      ],
+      "r4_tests": [
+        "G05",
+        "G06"
+      ],
+      "status_basis": "Păstrează verdictul integral R3, inclusiv ramurile încă neprobate; R4 creditează numai subtestele nominale."
+    },
+    {
+      "pipeline_id": "A05-P06",
+      "business_outcome": "Etichete, scanare, mobil și cale de revenire",
+      "expected": "Repetarea scanării aceluiași eveniment nu produce efect suplimentar. Fiecare suprafață activă din inventarul reconciliat are probă separată.",
+      "status": "INCONCLUDENT",
+      "cross_zone_owners": "A09 UI Android/iPhone și C17–C20, A01 dispozitive, A02 AD, A07 handoff colet",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/pipelines/5",
+      "controls": [
+        "A05-C21",
+        "A05-C22",
+        "A05-C23",
+        "A05-C24",
+        "A05-C25",
+        "A05-C26"
+      ],
+      "r4_tests": [
+        "G03",
+        "G04",
+        "G07"
+      ],
+      "status_basis": "Păstrează verdictul integral R3, inclusiv ramurile încă neprobate; R4 creditează numai subtestele nominale."
+    },
+    {
+      "pipeline_id": "A05-P07",
+      "business_outcome": "Retur și reconciliere operațională",
+      "expected": "1 bucată întoarsă rămâne o singură bucată. Disponibil vandabil +0 înainte de aprobare; +1 după acceptare sau 0 la rebut.",
+      "status": "FAIL_DOVEDIT",
+      "cross_zone_owners": "A07 origine/retur, A03 financiar, A06 reofertare G3, A09 UX",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/pipelines/6",
+      "controls": [
+        "A05-C27",
+        "A05-C28"
+      ],
+      "r4_tests": [
+        "G04",
+        "G05",
+        "G06",
+        "G08"
+      ],
+      "status_basis": "Păstrează verdictul integral R3, inclusiv ramurile încă neprobate; R4 creditează numai subtestele nominale."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "A05-F01",
+      "title": "Procesarea duplicată a notei WMS scade stocul fizic a doua oară",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT",
+      "classification": "diferență funcțională sau limită de proiectare față de arhitectura cerută",
+      "control_ids": [
+        "A05-C09",
+        "A05-C11",
+        "A05-C12"
+      ],
+      "native_first_remediation": "Păstrează PO/Trx și StocWms. Introdu identificarea durabilă a operației comerciale și verificarea unică, atomică, la nivelul notei și al rezultatului; o a doua execuție cu alt payload la aceeași cheie trebuie respinsă.",
+      "regression_test": "Repornește după commit, retrimite de două ori în paralel. Un document și patru mișcări originale, zero costuri noi. Reambalarea autentică are cheie nouă.",
+      "impact": "Procesarea duplicată a notei WMS scade stocul fizic a doua oară",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/0",
+      "r4_related_tests": [
+        "G01",
+        "G02",
+        "G06",
+        "G08"
+      ]
+    },
+    {
+      "finding_id": "A05-F02",
+      "title": "Nota existentă refuză ambalajul PK și jumătatea de oră de muncă",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT",
+      "classification": "diferență funcțională sau limită de proiectare față de arhitectura cerută",
+      "control_ids": [
+        "A05-C08",
+        "A05-C12"
+      ],
+      "native_first_remediation": "Păstrează BOM și nota EVA pentru operația fizică. Delimitează materialul consumabil și resursa/serviciul de componenta exprimată în bucăți. Folosește documentul de consum și cost nativ numai la operația reală și leagă-l o singură dată de notă cu A03.",
+      "regression_test": "1 P1 CPP, 1 cutie și 0,5 h → 1 CPA. Retry păstrează 1 cutie și 0,5 h. Reambalare reală consumă o nouă cutie dacă e cazul.",
+      "impact": "Nota existentă refuză ambalajul PK și jumătatea de oră de muncă",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/1",
+      "r4_related_tests": [
+        "G01",
+        "G08"
+      ]
+    },
+    {
+      "finding_id": "A05-F03",
+      "title": "Rețetele cu componente urmărite pe lot nu pot trece prin nota WMS",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT",
+      "classification": "diferență funcțională sau limită de proiectare față de arhitectura cerută",
+      "control_ids": [
+        "A05-C09",
+        "A05-C15"
+      ],
+      "native_first_remediation": "Reutilizează M_AttributeSetInstance/M*_LineMA pentru alocarea efectivă a loturilor. Păstrează versiunea BOM și id-ul mișcării fizice; validează resturile per lot inclusiv ASI zero legitim.",
+      "regression_test": "Lot 4 + lot 8, pick de 6, dezasamblare și retur. Fiecare cantitate urmărită până la lotul real.",
+      "impact": "Rețetele cu componente urmărite pe lot nu pot trece prin nota WMS",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/2",
+      "r4_related_tests": [
+        "G01",
+        "G02"
+      ]
+    },
+    {
+      "finding_id": "A05-F04",
+      "title": "Reconcilierea prin produs nu distinge un schimb între loturi",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT",
+      "classification": "diferență funcțională sau limită de proiectare față de arhitectura cerută",
+      "control_ids": [
+        "A05-C15",
+        "A05-C28"
+      ],
+      "native_first_remediation": "Păstrează controlul sumar și adaugă o treaptă distinctă de reconciliere pe ASI/serie cu M_StorageOnHand/M_Transaction și proveniența seturilor. Include soldurile ASI 0 în mod explicit.",
+      "regression_test": "Produs cu total egal și două ASI inversate trebuie să genereze două abateri de ±4 și nicio abatere artificială la ASI=0.",
+      "impact": "Reconcilierea prin produs nu distinge un schimb între loturi",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/3",
+      "r4_related_tests": [
+        "G05",
+        "G06"
+      ]
+    },
+    {
+      "finding_id": "A05-F05",
+      "title": "Alocarea automată a unei linii nu poate însuma 80+40 din două gestiuni",
+      "severity": "MEDIU",
+      "status": "FALS_POZITIV_DOVEDIT",
+      "classification": "Comportament explicit în sursa deciziei; reîncadrare a presupusului defect al funcției de alocare.",
+      "control_ids": [
+        "A05-C13",
+        "A05-C14"
+      ],
+      "native_first_remediation": "Cu A06, alege per canal dacă permite livrări/rezervări parțiale. Unde este permisă, folosește documente native per sursă și aceeași comandă, cu trasabilitatea capacității globale. Dacă este interzisă, afișează disponibilul efectiv livrabil per politică.",
+      "regression_test": "80+40: politica single-source explică refuzul, politica split alocă exact 80 și 40 și nu suprarezervă la concurență.",
+      "impact": "Alocarea automată a unei linii nu poate însuma 80+40 din două gestiuni",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/4",
+      "r4_related_tests": [
+        "G04",
+        "G07"
+      ]
+    },
+    {
+      "finding_id": "A05-F06",
+      "title": "Modelul perechilor admite direct numai o G2 pentru fiecare G1",
+      "severity": "MEDIU",
+      "status": "CONFIRMAT",
+      "classification": "Limită de cardinalitate demonstrată, necesitatea modificării nu este dovedită.",
+      "control_ids": [
+        "A05-C01",
+        "A05-C02"
+      ],
+      "native_first_remediation": "Testează întâi locatori și permisiuni native pentru zone cu aceeași gestiune. Dacă sunt cerute două gestiuni fizice distincte cu gestionari diferiți și o sursă contabilă unică, extinde legătura existentă și regula de conservare, fără dublarea soldului.",
+      "regression_test": "Două perimetre independente, drept diferit de gestionar, un singur sold contabil și trasabilitate per locator.",
+      "impact": "Modelul perechilor admite direct numai o G2 pentru fiecare G1",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/5",
+      "r4_related_tests": [
+        "G01"
+      ]
+    },
+    {
+      "finding_id": "A05-F07",
+      "title": "Dezasamblarea depune toate componentele în același locator",
+      "severity": "MEDIU",
+      "status": "FALS_POZITIV_DOVEDIT",
+      "classification": "Specificarea locatorului inițial este intenționată; verificarea treptei ulterioare de amplasare rămâne separată.",
+      "control_ids": [
+        "A05-C11"
+      ],
+      "native_first_remediation": "Reutilizează amplasarea și scannerul existente pentru confirmarea destinației fiecărei piese înainte de disponibilitatea la pick. Dacă procesul permite alt pas valid de amplasare, leagă-l de nota inițială.",
+      "regression_test": "1 S1 → 6 piese în L1, 6 în L2, 6 în L3; pick refuzat până la confirmarea lor, apoi 1 P1 livrabil.",
+      "impact": "Dezasamblarea depune toate componentele în același locator",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/6",
+      "r4_related_tests": [
+        "G02"
+      ]
+    },
+    {
+      "finding_id": "A05-F08",
+      "title": "Codul produsului poate fi realocat după redenumirea produsului vechi",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT",
+      "classification": "Cerință EVA de identitate permanentă; unicitatea unui ID numeric sau UUID nu echivalează cu nereutilizarea codului Value.",
+      "control_ids": [
+        "A05-C04"
+      ],
+      "native_first_remediation": "Păstrează M_Product și identificatori nativi. Decide dacă Value este codul permanent. Dacă da, împiedică schimbarea valorii și reutilizarea prin orice cale PO/import. Dacă redenumirea este necesară, rezervă vechile valori într-un registru persistent. Constrângerea trebuie să reziste la concurență și revenire din arhivă.",
+      "regression_test": "Același cod rămâne indisponibil la dezactivare, redenumire, import, ștergere permisă și două alocări simultane. SKU/EAN pot evolua independent.",
+      "impact": "Codul produsului poate fi realocat după redenumirea produsului vechi",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/7",
+      "r4_related_tests": []
+    },
+    {
+      "finding_id": "A05-F09",
+      "title": "ERP acceptă operații înainte ca extensia WMS să își fi instalat tabelele",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT",
+      "classification": "Pornire/upgrade pe seed GardenWorld, nu starea cabinetului CESIRO.",
+      "control_ids": [
+        "A05-C08",
+        "A05-C18",
+        "A05-C29"
+      ],
+      "native_first_remediation": "Aplică pachetele/dicționarul și verifică explicit tabelele, procesele, FormFactory și drepturile înainte de a permite documente sau a activa validatori dependenti. Folosește mecanismul nativ de migrații și o verificare de disponibilitate pentru WMS. Obiectivele G1 dependente de validare trebuie refuzate controlat, fără a ocoli inventarul.",
+      "regression_test": "Seed nativ curat, extensie instalată, două salvări în fereastra de inițializare. Verifică refuzul explicabil și după disponibilitate retestează aceleași documente, cu un singur efect.",
+      "impact": "ERP acceptă operații înainte ca extensia WMS să își fi instalat tabelele",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/8",
+      "r4_related_tests": []
+    },
+    {
+      "finding_id": "A05-F10",
+      "title": "Ajustarea postată în G1 în timpul activării WMS poate lipsi din G2",
+      "severity": "RIDICAT",
+      "status": "CONFIRMAT",
+      "classification": "Concurență la activarea unei perechi, distinctă de nota de asamblare",
+      "control_ids": [
+        "A05-C03",
+        "A05-C18",
+        "A05-C28"
+      ],
+      "native_first_remediation": "Păstrează M_Inventory/M_Transaction și oglinda EVA. Fă activarea și documentele concurente să respecte același mecanism de serializare pe gestiune, ori aplică o etapă de reconciliere cu watermark și recuperare a tranzacțiilor care sosesc între fotografia inițială și activarea efectivă. Marchează G2 disponibilă numai după reconciliere. Nu dubla costul și nu modifica retroactiv tranzacția G1.",
+      "regression_test": "Orchestrează T1 activare G2, T2 completare MInventory −2, testează ordinele ambelor commituri și returul după retry. G1 18 = G2 18 în ambele ordini, un singur document și o singură transpunere fizică; al doilea inventar menține egalitatea.",
+      "impact": "Stocul fizic folosit pentru alocare și pick poate fi supraevaluat la pornirea unei gestiuni chiar dacă documentul contabil este corect.",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/9",
+      "r4_related_tests": [
+        "G01"
+      ]
+    },
+    {
+      "finding_id": "A05-R2-F11",
+      "title": "API mobil admite setul de lot EVA marcat, dar refuză un set nativ de lot configurat echivalent",
+      "severity": "MEDIU",
+      "status": "LIMITĂ_DE_INTEROPERABILITATE_CONDIȚIONATĂ",
+      "classification": "Setul selectat intenționat prin marcaj conform D-T329-8. Testul cu proprietăți native identice și descrieri diferite dă 0/1/0. Dacă s-a cerut migrarea seturilor preexistente, aceasta necesită o decizie și o probă distincte.",
+      "control_ids": [
+        "A05-C15",
+        "A05-C20",
+        "A05-C24"
+      ],
+      "native_first_remediation": "Documentați eligibilitatea și verificați dacă poate fi bazată pe proprietățile native ale setului și pe dreptul firmei, fără marker textual obligatoriu; dacă migrarea este necesară, conservați M_Lot, ASI, trasabilitatea și etichetele existente.",
+      "regression_test": "Două seturi cu proprietăți native identice, cu și fără marker, aceeași cerere cu lot verificabil și un caz cu lot lipsă. Distingeți eroarea de configurare de lipsa fizică.",
+      "impact": "Cu un ASI nativ eligibil funcțional dar fără marcajul T329, endpointul mobil refuză în fixture poziția; limita depinde de politica aprobată.",
+      "r3_pointer": "R3_zone/A05/A05_raport.json#/findings/10",
+      "r4_related_tests": []
+    }
+  ],
+  "r4_boundary_results": {
+    "G01": {
+      "controls": [
+        "A05-C09",
+        "A05-C10",
+        "A05-C11",
+        "A05-C12"
+      ],
+      "pipelines": [
+        "A05-P03"
+      ],
+      "proofs": [
+        "W1_RAW",
+        "R6_CHAIN",
+        "RECIPE_R2"
+      ],
+      "verdict": "CONFIRMAT_COMPONENTĂ; F01/F02 MENȚINUTE",
+      "expected": "S1 reversibil ocupă numai G2, componentele rămân contabile; fiecare operație are o singură consecință economică.",
+      "observed": "BOM 1000000: P123 + P124 tratat ca ambalaj obișnuit. Pe G2 1000003, P123/124 trec 1→0 și S1 devine 1 pe raft 1000004. În G1 rămân câte 1 și nu apare stoc contabil S1. Soldurile sursă, cele 4 costuri și cele 8 fapte contabilizate exclusiv pentru inventarele inițiale legate rămân identice până la dezambalare.",
+      "limit_or_next": "Nu se testează aici S1=6×P1/P2/P3, S2, componenta lipsă, set cumpărat sau preț/cost de 0,5 h. Proba R2 pe ambalaj CO și retry a dublat evenimentul. C12 rămâne FAIL."
+    },
+    "G02": {
+      "controls": [
+        "A05-C09",
+        "A05-C11",
+        "A05-C12",
+        "A05-C16"
+      ],
+      "pipelines": [
+        "A05-P03",
+        "A05-P04"
+      ],
+      "proofs": [
+        "W1_RAW",
+        "R6_CHAIN"
+      ],
+      "verdict": "CONFIRMAT_SOLD; LEGĂTURĂ_NOTĂ_SO_NEDEMONSTRATĂ",
+      "expected": "Toate bucățile disponibile sunt împachetate; după comanda pentru CPP se dezambalează și se găsesc înainte de pick pe locatorul corect.",
+      "observed": "SO 1000000/linia 1000000 CO rezervă 1 CPP când G2 avea 0 CPP liber. Notele AD_PInstance 1002675/1002711 se deduc din Record_ID al celor 3+3 mișcări, chiar dacă răspunsul API nu a expus ID. Pe locator 1000004 setul scade 1→0 iar CPP și ambalaj cresc 0→1.",
+      "limit_or_next": "Același locator al setului (nou față de zona Neamplasat); nu s-a testat mutarea separată după dezasamblare. C_Order_ID și mișcarea inversată sunt nule pe ambele note. Ordinea în timp nu dovedește legătură nativă note→SO sau anulare/reversare documentară a notei de ambalare."
+    },
+    "G03": {
+      "controls": [
+        "A05-C11",
+        "A05-C14",
+        "A05-C16",
+        "A05-C26"
+      ],
+      "pipelines": [
+        "A05-P03",
+        "A05-P04",
+        "A05-P06"
+      ],
+      "proofs": [
+        "W1_RAW",
+        "W2_RAW",
+        "W2_SOURCE",
+        "R6_T337"
+      ],
+      "verdict": "NEGATIVE_AMBELE_CONFIRMATE; POZITIV_T337_NEDEMONSTRAT",
+      "expected": "Garda trebuie să refuze când vânzările sunt oprite sau când livrarea nu are exact un val de site al firmei. Un val real autorizat trebuie să scrie CULEGERE și să urmeze documentele aceleiași comenzi.",
+      "observed": "G1/SO 1000000 aviz/PC 1000001: HTTP 200, process_error=true, vânzări oprite, zero mutații PC/jurnal. Caz SEPARAT cu sursa creată prin API 201, vânzări pornite și scriere externă oprită: SO 1000001, aviz 1000004, PC 1000003, fără staging, HTTP 200/process_error=true, «Livrarea nu aparține unui singur val de comenzi din site». Sursa sintetică a fost dezactivată la final.",
+      "limit_or_next": "Separați garda conformă de defectul de ingestie. Nu s-au scanat mobil linii sau confirmat un val real T22; nu declarați defect T337 ori întrerupere pentru toate comenzile."
+    },
+    "G04": {
+      "controls": [
+        "A05-C14",
+        "A05-C16",
+        "A05-C17",
+        "A05-C26",
+        "A05-C28"
+      ],
+      "pipelines": [
+        "A05-P04",
+        "A05-P06",
+        "A05-P07"
+      ],
+      "proofs": [
+        "W1_RAW",
+        "R6_CHAIN"
+      ],
+      "verdict": "CONFIRMAT_PCȘIAVIZ_NATIVE; T337/SCAN/AWB_NEACOPERITE",
+      "expected": "Confirmarea și avizul trebuie să aibă aceeași comandă, linie și cantitate, apoi predarea fizică și curierul trasabili.",
+      "observed": "PC 1000001 (target=confirmed=1) trece DR→CO. Aviz 1000001/linie 1000001 leagă SO/linie 1000000; IP→CO, Posted=Y. Linia SO trece rezervat 1→0/livrat 0→1. Mișcarea G2 1000008 = IESIRE, C_Order_ID=1000000, EVA_FaraCulegere=Y, P123 −1 în G1 și G2.",
+      "limit_or_next": "Flux intern de 1/1 ASI 0, fără T337 CULEGERE, rotație lot, scan, expediere parțială, AWB sau livrare la client. Nu declarați completarea P04."
+    },
+    "G05": {
+      "controls": [
+        "A05-C05",
+        "A05-C16",
+        "A05-C27",
+        "A05-C28",
+        "A05-C29"
+      ],
+      "pipelines": [
+        "A05-P02",
+        "A05-P04",
+        "A05-P05",
+        "A05-P07"
+      ],
+      "proofs": [
+        "RMA_RAW",
+        "W1_RAW",
+        "R6_CHAIN"
+      ],
+      "verdict": "CONFIRMAT_DOCUMENTAR_ÎN_FIXTURE",
+      "expected": "Recepția fizică presupune primirea unei confirmări native și o mișcare a stocului; RMA aprobat singur are efect fizic zero.",
+      "observed": "RMA 1000002/linie 1000002 la linia aviz 1000001: CO și QtyDelivered 0. Recepția 1000002/linie 1000002, IP/N, confirmare SC 1000002 DR. După SC CO, tot IP/N, 0 M_Transaction și 0 Fact_Acct. După finalizarea recepției CO/Y, M_Transaction 1000004, +1 P123 pe locator 1000000; QtyDelivered al liniei RMA 1.",
+      "limit_or_next": "Se confirmă 1 din 1 fără identificator lot și fără etapă distinctă de calitate comercială. Etapa de vandabilitate/rebut, retur parțial, factura, viramentul și rambursarea nu au fost observate."
+    },
+    "G06": {
+      "controls": [
+        "A05-C07",
+        "A05-C12",
+        "A05-C27",
+        "A05-C28",
+        "A05-C29"
+      ],
+      "pipelines": [
+        "A05-P02",
+        "A05-P03",
+        "A05-P05",
+        "A05-P07"
+      ],
+      "proofs": [
+        "RMA_RAW",
+        "R6_CHAIN"
+      ],
+      "verdict": "CONFIRMAT_STORNO_RECEPȚIE; F01_DESCHIS",
+      "expected": "Un RC creează inversa legată de înregistrarea inițială, stoc ±1, sume contabilizate pe scheme și replay fără efect suplimentar.",
+      "observed": "M_InOut 1000002 ↔ 1000003 (Reversal_ID reciproc), ambele RE/Y. M_Transaction 1000004 +1 și 1000005 −1. Fiecare dintre cele două documente are câte 2 rânduri în schema 101 (Dr=Cr=51,45) și 2 în schema 200000 (Dr=Cr=43,73). M_CostDetail 101 +51,4500/−51,45; 200000 +43,7325/−43,73, diferență de precizie +0,0025 în aceste rânduri. QtyDelivered RMA revine la 0. După al doilea RC întregul snapshot (ID, cantități, fapte, cost) este identic.",
+      "limit_or_next": "Readback-ul de întoarcere agregă Fact_Acct pe schemă. Nu atestă reciprocitate rând-la-rând per cont, oglinda G2 după retur/storno, sau lipsa unui cost de rotunjire. Acesta este RC al recepției returului, nu storno al notei sau înregistrare a manoperei."
+    },
+    "G07": {
+      "controls": [
+        "A05-C01",
+        "A05-C13",
+        "A05-C14",
+        "A05-C16",
+        "A05-C17",
+        "A05-C23"
+      ],
+      "pipelines": [
+        "A05-P01",
+        "A05-P04",
+        "A05-P06"
+      ],
+      "proofs": [
+        "SITE_EX05",
+        "SITE_PEER",
+        "A11_SITE",
+        "OWNERSHIP"
+      ],
+      "verdict": "C→ANTET_CONFIRMAT; DOCUMENT_COMERCIAL_BLOCAT",
+      "expected": "Originea de site trebuie să producă în mod idempotent liniile văzute la checkout și documentele aceleiași vânzări, cu drepturi de firmă și canal.",
+      "observed": "Q-COM-01 UUID 04255ef2-38dd-446f-89a7-d369a1a67335 în C: 2 linii, EXT7×2 / EXT8×1, ambele cotă 0,21, 87,88 RON față de 87,87 oracol. ERP 1000006, EVA_Proprie=N, 0 linii, EXCLUS și FK C_Order/M_InOut/C_Invoice nule. 8 antete (7A,1B), 7 UUID-uri în subsetul urmărit, doar 1 validat. 8 ordine și 308 fapte globale înainte/după; 2 rânduri rezervări exclusiv IsSOTrx=N, qty total 0. W=111,80 cu propriul ID, lookup în C 404. Evenimentul semnat PRIMIT/replay este frontieră separată.",
+      "limit_or_next": "Două canale sursă în aceeași firmă ERP, nu două cabinete; încrederea comisionarului și anularea de site fără comandă ERP nu au fost probate. A11 a recompilat propriul driver; nici W1, nici W2 nu provin din Q. Matricea Java acoperă 1043 fișiere, fără a exclude mecanisme dinamice/extensii."
+    },
+    "G08": {
+      "controls": [
+        "A05-C09",
+        "A05-C11",
+        "A05-C12",
+        "A05-C28"
+      ],
+      "pipelines": [
+        "A05-P03",
+        "A05-P07"
+      ],
+      "proofs": [
+        "RECIPE_R2",
+        "W1_RAW",
+        "R6_CHAIN"
+      ],
+      "verdict": "FAIL_CUTIE_PE_CAZUL_TESTAT; MANOPERĂ_ȘI_STORNO_NOTĂ_DESCHISE",
+      "expected": "O cutie și 0,5 h per operație, consum/cost o singură dată în G1, fără stoc contabil adițional S1, reluare și anulare legate.",
+      "observed": "În fixture R6, cutia ca articol CO rămâne contabil 1 și după ambalare și după dezambalare; nu există linie de muncă. În R2 original/retry/operație nouă au produs 1/2/3 CPA în G2; dezambalarea compensatoare a lăsat 2 fără referință la original. În R6 stornarea recepției are cost real, dar privește alt document.",
+      "limit_or_next": "F01/F02 rămân deschise. Nu deduceți costul de muncă zero din absența articolului în fixture. Reutilizați documentul nativ pentru consumul fizic/centrele de cost, cu politică salarială A03, identificați evenimentul economic inițial și testați simultan anulare/retry."
+    }
+  },
+  "evidence_manifest": {
+    "R3": {
+      "file": "R3_zone/A05/A05_raport.json",
+      "sha256": "3986fd91b4f4f5d5079fa0002c23f3e05b63b11ca1233e719f9af7ed0b6c27af",
+      "bytes": 254664
+    },
+    "A11_R3": {
+      "file": "A11_control_consolidari_A05_A06_A09_R3.json",
+      "sha256": "e57d22ae8d28ed4ead45c4995a774f9dc19e7af7860d8dc5d127e0beeff54978",
+      "bytes": 53919
+    },
+    "R2": {
+      "file": "R2_zone/A05_raport.json",
+      "sha256": "fd871b4a22b753ea42d25ecb6935426d4612f76ed05a531d4aa97b9e189f9a26",
+      "bytes": 251090
+    },
+    "R6_CHAIN": {
+      "file": "Reverificare_Flux_S1_aviz_retur_R6.json",
+      "sha256": "1a2e23d14bd8a85105153e2ca951290f712bea83b6a6936bdbfcf7122d026033",
+      "bytes": 19764
+    },
+    "R6_T337": {
+      "file": "Reverificare_T337_setare_si_val.json",
+      "sha256": "7231faed8f1c3281ba76808ca5020407e757830f488326375bab8db3e8bf5bcc",
+      "bytes": 3035
+    },
+    "W1_RAW": {
+      "file": "R6_pregatire/ERP/wms/a05-chain-R5W99513d7c.json",
+      "sha256": "80dbb6982505e7b926c145de40ac4adf96b4ef28a6535a958080d74189bd14d3",
+      "bytes": 102723
+    },
+    "RMA_RAW": {
+      "file": "R6_pregatire/ERP/wms2/a05-return-retry.json",
+      "sha256": "646beaf35b2d10afdb3f0e7758d91a568ca74cb4da5bd45267dc9f7e26787806",
+      "bytes": 6195
+    },
+    "W2_RAW": {
+      "file": "R6_pregatire/ERP/wms3/a05-chain-R5Wc3b5373b.json",
+      "sha256": "684208eb5858483c80652dea2c007868822076a18c7dd712e77fa0ebe30fcedd",
+      "bytes": 102667
+    },
+    "W2_SOURCE": {
+      "file": "R6_pregatire/ERP/wms3/r6-t337-source.json",
+      "sha256": "9b786da22f90434f75fae2b0a51057344e0a6968560425596a708946583a8970",
+      "bytes": 654
+    },
+    "SITE_EX05": {
+      "file": "supliment_CESIRO1/probe/EX05.json",
+      "sha256": "ccef80210b8570ca094c5249704e74141e7dfe49a0b8534205105303a352073b",
+      "bytes": 26780
+    },
+    "SITE_PEER": {
+      "file": "supliment_CESIRO1/probe/EX05_peer_A05.json",
+      "sha256": "65c4105e490b49d103ac17a6b276856a9a4c57b0e11b0f33b0f721145c692834",
+      "bytes": 10562
+    },
+    "A11_SITE": {
+      "file": "A11_control_CESIRO1_EX01_EX08.json",
+      "sha256": "9e5fe0b5938dfb4e8fefb4f3b12723e2a05bcf9d72fca7f695bec17530184101",
+      "bytes": 121481
+    },
+    "RECIPE_R2": {
+      "file": "R2_zone/A05/recipe-cost-cycle.json",
+      "sha256": "a24f89f021326850913b807b80c624ebd694c0e998c9f3e3bf8b3bc90e54b38b",
+      "bytes": 12165
+    },
+    "HELPER": {
+      "file": "R5_pregatire/A05_S1_pick_aviz_RMA.py",
+      "sha256": "3de836f60ece2a925e65c0a9284b5959adff56288191d528a4972b84e76b310c",
+      "bytes": 16357
+    },
+    "OWNERSHIP": {
+      "file": "R6_pregatire/ERP/Harta_apeluri_proprietar_comanda.json",
+      "sha256": "96e149a708b1c506532f4e61c2612a5e523f136c5cf5bc1af7e63f7d892183ca",
+      "bytes": 6133
+    },
+    "CLEANUP": {
+      "file": "R6_pregatire/ERP/Restituire_clona_R6.json",
+      "sha256": "646d2e43d62b2c6a5fd44d33e499c113c37497d1b8a120888cfc70518404c28d",
+      "bytes": 1142
+    }
+  },
+  "code_and_native_anchors": [
+    {
+      "tree": "EVA",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/wms/NotaSetWms.java",
+      "sha256": "07f59b59cb640b19656325113caa59188fe458a177f745a643c5519a7f81c16c",
+      "lines": [
+        [
+          82,
+          85
+        ],
+        [
+          164,
+          165
+        ],
+        [
+          188,
+          195
+        ]
+      ]
+    },
+    {
+      "tree": "EVA",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/NotaSetWmsProces.java",
+      "sha256": "ad57afa1ef4e9a47ce7bede1cf54bfdeba43f81e6e72a4e0194a7407bf0f4b74",
+      "lines": [
+        [
+          49,
+          51
+        ],
+        [
+          209,
+          225
+        ]
+      ]
+    },
+    {
+      "tree": "EVA",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/Culegere.java",
+      "sha256": "6cd3bed2f5e5fbeebe894bc5621f93c2cf284cf789807718023753e40ffa64d9",
+      "lines": [
+        [
+          104,
+          107
+        ],
+        [
+          330,
+          337
+        ]
+      ]
+    },
+    {
+      "tree": "EVA",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/ValideazaComenzi.java",
+      "sha256": "d4495f9c4e84acf649d9e0b25cf7c1a6ebc1e5a2841dcea92f9f345861b14434",
+      "lines": [
+        [
+          589,
+          604
+        ],
+        [
+          998,
+          1015
+        ],
+        [
+          1036,
+          1056
+        ]
+      ]
+    },
+    {
+      "tree": "EVA",
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/PreiaDinSite.java",
+      "sha256": "2491d6bea36fce89c875efb07f234ffd46dbbfc71bbecde0d3d7b8193494a823",
+      "lines": [
+        [
+          330,
+          350
+        ],
+        [
+          427,
+          457
+        ]
+      ]
+    },
+    {
+      "tree": "iDempiere release-13",
+      "file": "org.adempiere.base/src/org/compiere/model/MInOut.java",
+      "sha256": "a3c6801b77bea90c2fa65e49cb0a28d224cdc41e1699fba93f4d598a10d78eda",
+      "lines": [
+        [
+          1160,
+          1212
+        ],
+        [
+          1536,
+          1536
+        ],
+        [
+          1615,
+          1620
+        ],
+        [
+          2696,
+          2710
+        ]
+      ]
+    },
+    {
+      "tree": "iDempiere release-13",
+      "file": "org.adempiere.base/src/org/compiere/model/MInOutConfirm.java",
+      "sha256": "777bdfb140b3d5f1654445a80c7d94fcc74ccf4c822ea5c25590177995d1cf09",
+      "lines": [
+        [
+          394,
+          414
+        ]
+      ]
+    },
+    {
+      "tree": "iDempiere release-13",
+      "file": "org.adempiere.base/src/org/compiere/model/MRMALine.java",
+      "sha256": "4915c16b4dadf9a303d4a07d74436b1e16705edc984f69306eac06190587fbc3",
+      "lines": [
+        [
+          39,
+          47
+        ]
+      ]
+    }
+  ],
+  "A11_residual_disposition": [
+    {
+      "item": "F11",
+      "verdict": "CORECȚIE NOMINALĂ CONFIRMATĂ ÎN R3, RECONTROLATĂ R4; F11 limită condiționată de politica T329-8",
+      "proof": "controls C15/C20/C24 ↔ F11"
+    },
+    {
+      "item": "F10",
+      "verdict": "MENȚINUT FAIL numai la suprapunerea 18/20; martori seriali 18/18. Nu se generalizează la producție.",
+      "proof": "R2 + A11_R3"
+    },
+    {
+      "item": "F01 + manoperă",
+      "verdict": "Dublarea economică rămâne deschisă; anularea recepției are FK, anularea notei economice nu este dovedită; componentă de manoperă absentă.",
+      "proof": "G01,G02,G06,G08"
+    },
+    {
+      "item": "E9",
+      "verdict": "Menținute separate: 0011/0012 CO cu E fără cost pe acel produs; 0021 AVD a rămas DR 20/18, fără stoc/GL.",
+      "proof": "R3#/revision_consolidated/evidence"
+    },
+    {
+      "item": "E2E",
+      "verdict": "Legături documentare SO→PC→aviz→RMA→SC→recepție→inversă probate pe W1. Intrarea de site Q și T337 nu sunt același lanț; nu există scanare confirmată pentru W1.",
+      "proof": "G03–G07"
+    }
+  ],
+  "next_regressions": [
+    "A06 + A05: un singur UUID într-un canal autorizat, CUI de vânzător vizibil, 2 linii persistate cu identități CPP/CPA, adresă de livrare și facturare distincte, costuri și TVA. Validați, reluați, anulați și verificați la nivelul IDs; proba unui alt SO rămâne distinctă.",
+    "A05 + A09: pe exact acea livrare și un singur val T22, scanare dispatcher autorizat pe locator/ASI, PC țintă/confirmată, jurnal G2 CULEGERE apoi LIVRARE, dublu click, scan duplicat, rol străin și cantitate parțială; AWB și moment de facturare prin A07.",
+    "A05 + A03: 1 cutie și 0,5 h, eveniment semantic unic, reîncercare după commit și anulare parțială cu FK la nota inițială, cost și facte pe fiecare schemă, separarea cheltuielii salariale de alocarea internă; prioritar mecanismele existente de document, cost și BOM.",
+    "Pe retur configurați ASI real, control calitate accept/rebut, o fracțiune a livrării și reconciliere pe cont/schemă/monedă; obțineți readback G2 după recepție și stornare, plus vânzabilitate. Verificați rotunjirea diferenței 0,0025 față de precizia schemei înainte de a eticheta un defect."
+  ],
+  "constraints": "Raportul nu echivalează acoperirea celor 29 controale și 7 fluxuri cu certificarea execuției complete. Rezultatele sunt pentru versiunea și rutele testate. Noile probe nu acordă PASS funcțional global; A11 decide nota raportului R4."
+}

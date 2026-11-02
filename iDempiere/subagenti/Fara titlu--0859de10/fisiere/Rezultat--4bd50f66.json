@@ -1,0 +1,283 @@
+{
+  "time_utc": "2026-11-02T20:05:03.171811+00:00",
+  "commit": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "scope": "3 subcriterii selectate nominal din 873; martori negativi pe intrări în memorie; nicio modificare repo/producție. Detectarea unei abateri în comparator nu certifică întreaga implementare.",
+  "count": 3,
+  "rows": [
+    {
+      "criterion": "T35.11-R3-001",
+      "normative": "Revizia lotului L1 verifică stratul comun al canalelor; reportează separat acoperirea codului și integrării.",
+      "kind": "Recalcul static al documentelor sau codului, domeniu explicit",
+      "expected": "R1 cod și merge, R2 remediere G8 cu loc separat de integrare și probă din buton. Pentru controlul documentar G8 sunt necesare 3 rezultate distincte A=70/0/0, B și C=69/1/1.",
+      "observed": {
+        "archived_G8": {
+          "A_alta_metoda": [
+            70,
+            0,
+            0
+          ],
+          "B_in_ensureT35": [
+            69,
+            1,
+            1
+          ],
+          "C_r1_alta_metoda": [
+            69,
+            1,
+            1
+          ]
+        },
+        "r1_headers": 12,
+        "r1_physical_assertions": 70,
+        "both_r1_logs_share_same_blob": true,
+        "gate_history": "R1 cod 9/10 refuzat; R2 cod 10/10 la 4b77dfaee1. Merge simulat cu master avea conflict de etichete; probele din buton erau explicit transferate testerului 12-L1.",
+        "independent_JVM_now": [
+          {
+            "jar": "git",
+            "source_sha256": "cc77a0bd68082325a6e50b5c5ddd351f53f7f0a2ab749ad8763db20dea3b8bf3",
+            "target_sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+            "result": "REZULTAT: 71 OK, 0 FAIL",
+            "g8": "  OK   (5) E8 (E10: doar corpul ensureT35 + rândul apelului lui): «r.create += ensure…(…, r…)» = 0; ensureT35 după ensureParametriT22 → «0|true»"
+          },
+          {
+            "jar": "instalat",
+            "source_sha256": "cc77a0bd68082325a6e50b5c5ddd351f53f7f0a2ab749ad8763db20dea3b8bf3",
+            "target_sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+            "result": "REZULTAT: 71 OK, 0 FAIL",
+            "g8": "  OK   (5) E8 (E10: doar corpul ensureT35 + rândul apelului lui): «r.create += ensure…(…, r…)» = 0; ensureT35 după ensureParametriT22 → «0|true»"
+          }
+        ]
+      },
+      "negative_or_control": {
+        "mutant_B_claimed_green": {
+          "A_alta_metoda": [
+            70,
+            0,
+            0
+          ],
+          "B_in_ensureT35": [
+            70,
+            0,
+            0
+          ],
+          "C_r1_alta_metoda": [
+            69,
+            1,
+            1
+          ]
+        },
+        "matches_oracle": false,
+        "location": "replace only the first B red score in memory; historical file unchanged"
+      },
+      "limit": "Comparația statică validează cifrele din înscris, iar cele 71 de verificări curente rulează clasa din sursa fixată pe JAR Git și pe copia instalată. Rulările sunt de componentă; fără tranzacție ERP, ERP UI sau probă de partener. Nota veche aparține acelei porți istorice.",
+      "references": [
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/require_T35.11"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/G1"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/G2"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/G3"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/G4"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/G5"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/jvm/git_TestT35Cadru.log",
+          "sha256": "e547258d07bfb80f6acf8eae46bf8eff06f2551c8782a2fabd30827905656c2d",
+          "line": 168,
+          "line_sha256": "d5c6e9b5283c09e2fe5123142dd90b20ea2fa5be46658fc1087dbc703c445ba7"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/jvm/git_TestT35Cadru.log",
+          "sha256": "e547258d07bfb80f6acf8eae46bf8eff06f2551c8782a2fabd30827905656c2d",
+          "line": 114,
+          "line_sha256": "112de615ae492071f51f79bd7d65d09d1c8c3f1cb8ed45426543d5d0ad8bddad"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/jvm/instalat_TestT35Cadru.log",
+          "sha256": "e547258d07bfb80f6acf8eae46bf8eff06f2551c8782a2fabd30827905656c2d",
+          "line": 168,
+          "line_sha256": "d5c6e9b5283c09e2fe5123142dd90b20ea2fa5be46658fc1087dbc703c445ba7"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/jvm/instalat_TestT35Cadru.log",
+          "sha256": "e547258d07bfb80f6acf8eae46bf8eff06f2551c8782a2fabd30827905656c2d",
+          "line": 114,
+          "line_sha256": "112de615ae492071f51f79bd7d65d09d1c8c3f1cb8ed45426543d5d0ad8bddad"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/Cai_nominale_873_fara_dublare.json",
+          "sha256": "af3580e1483d5db1ef4efe0fb0fe6f92a65afa7523263c7e7821afdcba78c41d",
+          "pointer": "/records/266"
+        }
+      ],
+      "implementation_verdict": null
+    },
+    {
+      "criterion": "T22.15-R3-001",
+      "normative": "Reconstrucția site-ului după pierderea depozitului este urmărită prin decizia și ținta exacte, fără a atribui versiunii pierdute verificarea aplicației.",
+      "kind": "Recalcul static al documentelor sau codului, domeniu explicit",
+      "expected": "Piste diferite: refacerea variantă (a) a B-SBE din spec pe copie durabilă, alias vechi T22.1, iar hashul de pas1 nu dovedește proba site de pas2.",
+      "observed": {
+        "positive_checks": {
+          "authenticated_historical_alias": true,
+          "decision": true,
+          "integration_gate_step_1_and_step_2": true,
+          "forbidden_old_hash_conflation": true
+        },
+        "date_decision": "15.10.2026 13:44",
+        "historical_row_state": "de făcut",
+        "decision_author": "decorelegantromania",
+        "old_lost_hash": "59d88ca",
+        "integration_step1_hash": "039a336fec",
+        "followup_report": "105 pasul 1 apt de integrare; pasul 2 blocat de pierderea codului B."
+      },
+      "negative_or_control": {
+        "mutant_wrong_alias_and_positive_second_step": {
+          "authenticated_historical_alias": false,
+          "decision": true,
+          "integration_gate_step_1_and_step_2": false,
+          "forbidden_old_hash_conflation": true
+        },
+        "expected_two_rejections": true
+      },
+      "limit": "Decizia și separarea hashurilor/pasului 2 sunt demonstrabile documentar. Nu s-a auditat sistemul de fișiere al site-ului ori codul pierdut și nu s-a dovedit în acest test că reconstrucția a avut loc ulterior.",
+      "references": [
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/require_T22.15"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/cap"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/T22Verdict"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/Cai_nominale_873_fara_dublare.json",
+          "sha256": "af3580e1483d5db1ef4efe0fb0fe6f92a65afa7523263c7e7821afdcba78c41d",
+          "pointer": "/records/147"
+        }
+      ],
+      "implementation_verdict": null
+    },
+    {
+      "criterion": "T04.12-R3-001",
+      "normative": "Execută probe automate pentru bancă/parteneri, documente și comparația SAGA precizate în L9.",
+      "kind": "Recalcul static al documentelor sau codului, domeniu explicit",
+      "expected": "Cele patru nume concrete din L9 al planului inițial; planul v2 repartizează explicit TestConectoriCitire la eMAG și TestComparatieSaga la bancă. Caută în întreaga versiune fixată, apoi separă forma numelui de atingerea funcției.",
+      "observed": {
+        "exact_name_matches": {
+          "TestConectoriCitire": [],
+          "TestDocumentePartener": [],
+          "TestCorelareDecontari": [],
+          "TestComparatieSaga": [
+            "idempiere/plugins/com.eva.ro.contab/test/TestComparatieSaga.java"
+          ]
+        },
+        "whole_tree_entries": 181492,
+        "implementation_behavior_from_filenames": null,
+        "B_previous_JVM": "TestComparatieSaga din R10 are o încercare Windows cu eșec T-03 /proc/self/fd; nu este un defect al motorului demonstrat.",
+        "alternatives_not_proven_equivalent": {
+          "TestCorelareComenzi": [
+            "idempiere/plugins/com.eva.ro.contab/test/TestCorelareComenzi.java"
+          ],
+          "TestT32D6ImportExtrasIban": [
+            "idempiere/plugins/com.eva.ro.contab/test/TestT32D6ImportExtrasIban.java"
+          ],
+          "TestComparatieSagaEcran": [
+            "idempiere/plugins/com.eva.ro.contab/test/TestComparatieSagaEcran.java"
+          ]
+        }
+      },
+      "negative_or_control": {
+        "removed_only_real_sourcepath_in_in_memory_tree": [
+          "idempiere/plugins/com.eva.ro.contab/test/TestComparatieSaga.java"
+        ],
+        "remaining_reference_class_matches": {
+          "TestConectoriCitire": [],
+          "TestDocumentePartener": [],
+          "TestCorelareDecontari": [],
+          "TestComparatieSaga": []
+        },
+        "expected_count": 0
+      },
+      "limit": "3 nume exacte absente din arbore; există teste cu alte nume, însă echivalența semantică a celor patru domenii nu a fost demonstrată. Recuperarea etalonului L9 și numele v2 sunt rezultate documentare, nu o execuție calificată a celor patru suite.",
+      "references": [
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/require_T04.12"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/T04v2"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/T04decision"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/FullTree"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+          "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd",
+          "pointer": "/extracts/T04cmp"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/JVM/git_TestComparatieSaga.log",
+          "sha256": "8ec6d17dee1c4748496749fdbee10ce972b6b5047642be82169a2eb98089f7f3",
+          "line": 26,
+          "line_sha256": "dbfb42f8b6c4aafc4556bedd5f1b57943fbc9945497d91a7a2696108bbbba5ac"
+        },
+        {
+          "file": "executie/R10_pregatire/A12/Cai_nominale_873_fara_dublare.json",
+          "sha256": "af3580e1483d5db1ef4efe0fb0fe6f92a65afa7523263c7e7821afdcba78c41d",
+          "pointer": "/records/78"
+        }
+      ],
+      "implementation_verdict": null
+    }
+  ],
+  "sources": [
+    {
+      "file": "executie/R10_pregatire/A12/R10_documentar_supliment/Extras_Git.json",
+      "sha256": "67f93c755125df072161f72c6a8bd31318d727cc89f98a04c726d0f758a4bcbd"
+    },
+    {
+      "file": "executie/R10_pregatire/A12/R10_documentar_supliment/JVM_T35Cadru.json",
+      "sha256": "c4ec88bb9e0e0e44b995553375e32bf7f9a9b63a50f52a1202ae72055a658a1e"
+    }
+  ],
+  "score": null
+}

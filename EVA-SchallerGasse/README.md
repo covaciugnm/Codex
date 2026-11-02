@@ -1,6 +1,6 @@
 # EVA-SchallerGasse
 
-Conversații: 17; subagenți: 13; mesaje: 1376; fișiere copiate: 1999.
+Conversații: 17; subagenți: 13; mesaje: 1378; fișiere copiate: 2001.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -28,7 +28,7 @@ Conversații: 17; subagenți: 13; mesaje: 1376; fișiere copiate: 1999.
 | [Sturm Energie facturi și contracte](Sturm%20Energie%20facturi%20%C8%99i%20contracte/conversatie.md) | Conversație | 144 |
 | [Berger](Berger--d90ad5e7/conversatie.md) | Conversație | 12 |
 | [woehrparking.at hidraulica garaj](woehrparking.at%20hidraulica%20garaj/conversatie.md) | Conversație | 9 |
-| [Pech](Pech/conversatie.md) | Conversație | 68 |
+| [Pech](Pech/conversatie.md) | Conversație | 70 |
 | [Acte autorizație Capra](Acte%20autoriza%C8%9Bie%20Capra/conversatie.md) | Conversație | 28 |
 | [Găsește actul de autorizare](G%C4%83se%C8%99te%20actul%20de%20autorizare/conversatie.md) | Conversație | 3 |
 | [Fara titlu](subagenti/Fara%20titlu--b3fd14af/conversatie.md) | Subagent | 2 |

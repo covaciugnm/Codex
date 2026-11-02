@@ -1,0 +1,363 @@
+{
+  "kind": "ADDENDUM DE PLANIFICARE · A01/A06 · fără execuție sau constatări",
+  "base_git": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "candidate_git": "2fe90ed3f128c33dff7cf9f8674e664a70679390",
+  "net_tree_diff_sha256": "c39b7efd3642b6c00e3e58240a34ed81b8e13c50385c3844977ae5e34a941542",
+  "signed_inventory_P01": "e58366630b040f7037b39e418c084377358847890587c123cf693acb9e9919a9",
+  "signed_task_pipeline_index": "7bdc186d3d2520eaf6c80b030490a5df7cc5ad1b152a80081ac8ca9d11ce21aa",
+  "gate": {
+    "state": "NEEXECUTAT",
+    "execution_permitted_by_this_file": false,
+    "required": "Verdictul independent A11 10/10 pe hashul exact al planului și manifestului delta. A11 va judeca planul și apoi raportul; niciun scor acordat aici."
+  },
+  "ancestry_scope": "Comparație netă între doi arbori Git. Clona locală este shallow, iar vechiul commit este boundary; nicio afirmație privind numărul de commituri livrate în interval.",
+  "registered_five_paths": [
+    {
+      "path": "frontend/app.py",
+      "change": "M",
+      "old_oid": "3528d02aaf6b4f7c3f368e2024a7d6762048a0f8",
+      "new_oid": "d0a644826634d6022e49d9c6a0dd24b270f34f93",
+      "new_sha256": "b0762d05bf76b38b74d4c35ece3d962641d2df4075aa8feb777dce2d8cc2692a",
+      "new_bytes": 508850,
+      "source_lines": {
+        "def _cale_bruta_permisa": 1169,
+        "def cale_trimisa_in_webui": 1177,
+        "def cale_webui_permisa": 1189,
+        "def _idm_proxy": 1216
+      },
+      "owner": "A01",
+      "peer": "A09",
+      "state": "PLAN_NON_EXECUTAT",
+      "technical_task": {
+        "source_id": "T232",
+        "canonical": "P01.C13.T0001",
+        "state_at_primary_capture": "implementare",
+        "pointer": "Inventar_P01.json#/rows/582",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "subtask_context": {
+        "source_id": "T232.01",
+        "canonical": "P01.C13.T0001.01",
+        "state_at_primary_capture": "agregat",
+        "pointer": "Inventar_P01.json#/rows/583",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "parent_edges": [
+        {
+          "control": "A01.C16",
+          "pipeline": "A01.P03",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/2/resolved_control_ids/4"
+        },
+        {
+          "control": "A01.C27",
+          "pipeline": "A01.P03",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/2/resolved_control_ids/5"
+        },
+        {
+          "control": "A01.C09",
+          "pipeline": "A01.P02",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/1/resolved_control_ids/0"
+        },
+        {
+          "control": "A01.C28",
+          "pipeline": "A01.P09",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/8/resolved_control_ids/4"
+        }
+      ],
+      "scope": "COD/TEST",
+      "review_interfaces": [],
+      "criterion": "Numai traficul a cărui țintă efectivă rămâne sub /webui și aparține sesiunii autorizate merge la upstream.",
+      "roles_fixture": [
+        "anonim fără cookie",
+        "member/manager autorizat pentru cabinet A",
+        "rol suspendat ori sesiune revocată",
+        "cabinet B ca martor distinct / slug și CUI sintetic"
+      ],
+      "positive_and_negative_cases": "Pentru /webui și /idmp compară vechi/nou; URL ZK legitim și resurse normale, plus `..`, slash/backslash, segmente matriciale, delimitatori query/fragment, UTF-8 invalid și codificări succesive. Înregistrează valoarea primită efectiv de Werkzeug și URL-ul trimis către upstream martor. Testează query legitim și nume cu două puncte consecutive pentru a separa fals pozitivele. Verifică separat cookie cab A/B și jurnal după refuz.",
+      "test_boundary": "Nu deduce login în B numai din selectarea upstream B. Pentru rute cabinet/CUI/canal, upload/export/cache rămas fără delta în blocurile selectate, indică păstrarea sau rerularea unor martori țintiți, fără verdict global. Fără cont real, fără cerere către instanțe sau protocoale de producție.",
+      "result_expected_artifact": "executie/R11_supliment/A01_delta_Git; caz→actor→URL brut/decodat→strat→apel upstream/cod HTTP→trace→efect. Hash și oră separate pentru vechi/nou."
+    },
+    {
+      "path": "frontend/tests/test_t232_aud_portal_ocolire.py",
+      "change": "A",
+      "old_oid": null,
+      "new_oid": "3f9f68ce8890b0cabbbf5f8012a9300391ae0e77",
+      "new_sha256": "2ec6208327d5761536944b2e60a4e0e4b19088af533c8c9120feca082751e189",
+      "new_bytes": 4581,
+      "source_lines": {
+        "import unittest": 15,
+        "def test_": 88
+      },
+      "owner": "A01",
+      "peer": "A09",
+      "state": "PLAN_NON_EXECUTAT",
+      "technical_task": {
+        "source_id": "T232",
+        "canonical": "P01.C13.T0001",
+        "state_at_primary_capture": "implementare",
+        "pointer": "Inventar_P01.json#/rows/582",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "subtask_context": {
+        "source_id": "T232.01",
+        "canonical": "P01.C13.T0001.01",
+        "state_at_primary_capture": "agregat",
+        "pointer": "Inventar_P01.json#/rows/583",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "parent_edges": [
+        {
+          "control": "A01.C08",
+          "pipeline": "A01.P03",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/2/resolved_control_ids/2"
+        },
+        {
+          "control": "A01.C28",
+          "pipeline": "A01.P09",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/8/resolved_control_ids/4"
+        }
+      ],
+      "scope": "COD/TEST",
+      "review_interfaces": [],
+      "criterion": "Contraexemplele trec prin ruta și parserul reale și separă rejectionarea de schimbarea accidentală a URL-ului în clientul de test.",
+      "roles_fixture": [
+        "anonim fără cookie",
+        "member/manager autorizat pentru cabinet A",
+        "rol suspendat ori sesiune revocată",
+        "cabinet B ca martor distinct / slug și CUI sintetic"
+      ],
+      "positive_and_negative_cases": "După gate: execută testul existent nemodificat și cazul independent cu request-target brut; martor upstream înregistrează 0 apeluri pentru refuzuri și 1 pentru calea validă. Mutant numai pe o copie temporară care scoate verificarea finală; identifică exact testul care îl detectează.",
+      "test_boundary": "Un test existent sau verde nu demonstrează contractul întreg. Dacă un client normalizează calea înainte de Flask, rezultatul este o probă separată de request-target brut.",
+      "result_expected_artifact": "executie/R11_supliment/A01_delta_Git; caz→actor→URL brut/decodat→strat→apel upstream/cod HTTP→trace→efect. Hash și oră separate pentru vechi/nou."
+    },
+    {
+      "path": "frontend/tests/test_t232_l1_cale_webui.py",
+      "change": "A",
+      "old_oid": null,
+      "new_oid": "c90b544c073341b531e5a695e6d2055b48b8585b",
+      "new_sha256": "6a77ab51c6ea96ab408d295fdc2b79c494fd1abbe02462694c16d3c8ad56a5fa",
+      "new_bytes": 9752,
+      "source_lines": {
+        "import unittest": 14,
+        "def test_": 76
+      },
+      "owner": "A01",
+      "peer": "A09",
+      "state": "PLAN_NON_EXECUTAT",
+      "technical_task": {
+        "source_id": "T232",
+        "canonical": "P01.C13.T0001",
+        "state_at_primary_capture": "implementare",
+        "pointer": "Inventar_P01.json#/rows/582",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "subtask_context": {
+        "source_id": "T232.01",
+        "canonical": "P01.C13.T0001.01",
+        "state_at_primary_capture": "agregat",
+        "pointer": "Inventar_P01.json#/rows/583",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "parent_edges": [
+        {
+          "control": "A01.C16",
+          "pipeline": "A01.P03",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/2/resolved_control_ids/4"
+        },
+        {
+          "control": "A01.C28",
+          "pipeline": "A01.P04",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/3/resolved_control_ids/6"
+        }
+      ],
+      "scope": "COD/TEST",
+      "review_interfaces": [],
+      "criterion": "Clasificarea pură și fluxul Flask au același contract de autorizare și recuperare.",
+      "roles_fixture": [
+        "anonim fără cookie",
+        "member/manager autorizat pentru cabinet A",
+        "rol suspendat ori sesiune revocată",
+        "cabinet B ca martor distinct / slug și CUI sintetic"
+      ],
+      "positive_and_negative_cases": "Pozitiv root/fișier static/auRequest; negativ simplu, dublu, triplu și peste limita de decodare, segment `;param`, slash encoded și raw; verifică precisionarea 401/302 login vs 403 refuz path folosind role distincte. Construiește mutant local fără blocarea delimitatorilor și cere contraexemplu observabil.",
+      "test_boundary": "Păstrează toate rezultatele, inclusiv test care ratează mutantul. Captura UX nu este înlocuită cu simplul rezultat al funcției pure.",
+      "result_expected_artifact": "executie/R11_supliment/A01_delta_Git; caz→actor→URL brut/decodat→strat→apel upstream/cod HTTP→trace→efect. Hash și oră separate pentru vechi/nou."
+    },
+    {
+      "path": "proxy/traefik/propuneri-t232/_erp-admin-blocat.yml",
+      "change": "A",
+      "old_oid": null,
+      "new_oid": "0c5807fbd6f3e55d34ebc6adb1c2fa1121b07d5b",
+      "new_sha256": "7ec10dc071be2c9069773663ec8fdb82fff10f2b4983e916b260bd0e8db3cd66",
+      "new_bytes": 2167,
+      "source_lines": {
+        "erp-admin-blocat:": 16,
+        "HostRegexp": 18,
+        "PathRegexp": 20,
+        "priority: 10000": 24,
+        "sourceRange": 30
+      },
+      "owner": "A01",
+      "peer": "A09",
+      "state": "PLAN_NON_EXECUTAT",
+      "technical_task": {
+        "source_id": "T232",
+        "canonical": "P01.C13.T0001",
+        "state_at_primary_capture": "implementare",
+        "pointer": "Inventar_P01.json#/rows/582",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "subtask_context": {
+        "source_id": "T232.01",
+        "canonical": "P01.C13.T0001.01",
+        "state_at_primary_capture": "agregat",
+        "pointer": "Inventar_P01.json#/rows/583",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "parent_edges": [
+        {
+          "control": "A01.C16",
+          "pipeline": "A01.P03",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/2/resolved_control_ids/4"
+        },
+        {
+          "control": "A01.C31",
+          "pipeline": "A01.P03",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/2/resolved_control_ids/6"
+        },
+        {
+          "control": "A10-CK-01",
+          "pipeline": "A10-F01",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/67/resolved_control_ids/0"
+        }
+      ],
+      "scope": "PROPUNERE_NEMONTATĂ_DIN_SURSĂ",
+      "review_interfaces": [
+        "A10",
+        "A09"
+      ],
+      "criterion": "Propunerea limitează traficul pe hosturile, entrypointurile și căile semnate, fără a bloca accidental rutele permise și fără a prezenta fișierul drept montat.",
+      "roles_fixture": [
+        "anonim fără cookie",
+        "member/manager autorizat pentru cabinet A",
+        "rol suspendat ori sesiune revocată",
+        "cabinet B ca martor distinct / slug și CUI sintetic"
+      ],
+      "positive_and_negative_cases": "Matrice în laborator exclusiv după gate: host ERP, Java site, host nețintă; cale /osgi, /idempiereMonitor, /server, variantă case/matrix/raw-encoding; control /webui real și nume cu prefix similar (/server-status etc.) pentru a decide suprablocare vs politica intenționată. Pentru fiecare verificați router, upstream/dummy, răspuns, log și efectele de normalizare. Evaluați `web` vs HTTPS real numai cu topologia dovedită, adresă percepută și X-Forwarded-For.",
+      "test_boundary": "Nu porni cabinet/slot sau Traefik operațional. Folosește infrastructura localhost existentă numai dacă disponibilă; altfel cod/config static sau NEEXECUTAT. `propuneri-t232/` indică propunere; montarea cere hash fișier în dynamic → config runtime real (router + entrypoint + provider + timestamp), comparat cu propunerea. O copie Git sau un 403 generic singur nu dovedește montarea.",
+      "result_expected_artifact": "executie/R11_supliment/A01_delta_Git; caz→actor→URL brut/decodat→strat→apel upstream/cod HTTP→trace→efect. Hash și oră separate pentru vechi/nou."
+    },
+    {
+      "path": "proxy/traefik/propuneri-t232/aplica.sh",
+      "change": "A",
+      "old_oid": null,
+      "new_oid": "0d3120249bffa510ce659eddcd8655fbb47dfe8c",
+      "new_sha256": "ed2661a3eeeb1e772bb3a1ed89894dbbb6aeecf9a8d99a23246ffabc1178c96a",
+      "new_bytes": 3141,
+      "source_lines": {
+        "--simulare)": 23,
+        "--cuvant-proprietar)": 29,
+        "cp \"$F\"": 36,
+        "md5sum \"$TINTA": 37
+      },
+      "owner": "A01",
+      "peer": "A09",
+      "state": "PLAN_NON_EXECUTAT",
+      "technical_task": {
+        "source_id": "T232",
+        "canonical": "P01.C13.T0001",
+        "state_at_primary_capture": "implementare",
+        "pointer": "Inventar_P01.json#/rows/582",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "subtask_context": {
+        "source_id": "T232.01",
+        "canonical": "P01.C13.T0001.01",
+        "state_at_primary_capture": "agregat",
+        "pointer": "Inventar_P01.json#/rows/583",
+        "reason": "P01.T232 L1 este etichetat explicit în produs/teste/propunerea proxy. Codul de task este cel capturat, fără a deduce starea implementării la noul SHA."
+      },
+      "parent_edges": [
+        {
+          "control": "A01.C31",
+          "pipeline": "A01.P03",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/2/resolved_control_ids/6"
+        },
+        {
+          "control": "A10-CK-01",
+          "pipeline": "A10-F01",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/67/resolved_control_ids/0"
+        },
+        {
+          "control": "A10-CK-21",
+          "pipeline": "A10-F05",
+          "signed_pointer": "Index_trasabilitate.json#/pipelines/71/resolved_control_ids/0"
+        }
+      ],
+      "scope": "SCRIPT_DE_APLICARE",
+      "review_interfaces": [
+        "A10",
+        "A09"
+      ],
+      "criterion": "Modul simulation/refuz este verificabil fără efect, iar verificarea existenței autorizației explicite pentru producție rămâne separată de controlul tehnic al scriptului.",
+      "roles_fixture": [
+        "anonim fără cookie",
+        "member/manager autorizat pentru cabinet A",
+        "rol suspendat ori sesiune revocată",
+        "cabinet B ca martor distinct / slug și CUI sintetic"
+      ],
+      "positive_and_negative_cases": "Static: condiții MOD/argument, țintă și jurnal, digest înainte/după, eșec la precondiție/validare și efect potențial la copie parțială. Dacă shell-ul sigur este disponibil după gate, numai `--simulare` cu director temporar absolut, monitor fără schimbări pe fișier. În această misiune NU apela ramura `--cuvant-proprietar`.",
+      "test_boundary": "Un șir nevid nu dovedește că proprietarul a autorizat publicarea. Nu folosi live mount, log extern, Docker sau orice script de aplicare reală. Simularea nu dovedește rollback/deploy.",
+      "result_expected_artifact": "executie/R11_supliment/A01_delta_Git; caz→actor→URL brut/decodat→strat→apel upstream/cod HTTP→trace→efect. Hash și oră separate pentru vechi/nou."
+    }
+  ],
+  "handoff": "Censusul semnat separat acoperă 1.632 căi. Aceste cinci rânduri au fundament semantic și muchii canonice validate; nu sunt cinci constatări de produs. A09 peer pe toate 5, A10 suplimentar pe Traefik/aplicare. A11 arbitrează limite/abateri.",
+  "A06_receipt": {
+    "name": "A06 — cerințe suplimentare de import transmise și confirmate de titular",
+    "state": "CANDIDATE_PLAN_NON_EXECUTAT",
+    "rules": [
+      "Etichetează fiecare sursă ca DELTA ori CONTEXT_NESCHIMBAT conform arborilor, inclusiv când validatorul existent nu s-a schimbat. Aplicabilitatea la introducere de defect se decide numai după teste vechi/nou.",
+      "Fiecare caz are rezultat pozitiv, negativ, starea DB/tranzacție înainte/după și verdict separat pentru cod/JAR/instalare. Criteriul rezultat actual nu este probă de finalizare la data istorică."
+    ],
+    "cases": [
+      {
+        "id": "A06.GIT.1",
+        "owner": "A06",
+        "peer": [
+          "A02",
+          "A05",
+          "A01"
+        ],
+        "surface": "ValideazaComenzi.java:500–523,603–610,698–713,750–762",
+        "objective": "Validez operează numai linii active, autorizate și neemise ale antetului și clientului curent.",
+        "fixture": "C_Staging header100 client11; L11 eligibilă, L12 inactivă client11, L13 client22 cu același părinte sintetic (dovedește acceptabilitatea/restricția schemei), L14 header101; martor deja emis/document legat. Nicio emitere ori stoc pentru cele trei negative.",
+        "evidence": "SQL exact din sursă în fixture, egalitate efecte negative, bytecode/JAR separat. Nu falsifica o precondiție imposibilă; marchează cazul neaplicabil dacă DB îl exclude demonstrat."
+      },
+      {
+        "id": "A06.GIT.2",
+        "owner": "A06",
+        "peer": [
+          "A01",
+          "A07",
+          "A08"
+        ],
+        "surface": "ValideazaComenzi 590–597,709–714; ValidareComanda 118–125; DetaliuComanda 101–108,147",
+        "objective": "CUI vânzător din captura inițială vs GET curent este reconciliat pentru aceeași comandă înainte de emitere.",
+        "fixture": "Matrice snapshot/live A/A,A/B,null/B,B/A; verifică exact V02 în JAR. Dacă contractul nu numește autoritatea validă, înregistrează decizie business necesară și niciun certificat de emitere greșită pe baza unei ipoteze.",
+        "evidence": "ID comandă, context magazin, câmpurile vechi/noi, rezultat V02 și absența efectului neautorizat."
+      },
+      {
+        "id": "A06.GIT.3",
+        "owner": "A06",
+        "peer": [
+          "A02",
+          "A08"
+        ],
+        "surface": "SursaCesiro1 143–155,180–182; PreiaDinSite 193–199,330–345",
+        "objective": "Două modificări aceeași zi nu se pierd la filtrul de reimport; tipul de timestamp admis de producător este condiție de verdict.",
+        "fixture": "Două ore în aceeași zi fără offset, apoi echivalent cu offset, repetare identică și ordine inversată. Verifică datele emise efectiv de producător înainte de a raporta defect.",
+        "evidence": "ID+updated_at la sursă→decizie de skip→stare persistată; efect/retry și contract de format."
+      }
+    ]
+  }
+}

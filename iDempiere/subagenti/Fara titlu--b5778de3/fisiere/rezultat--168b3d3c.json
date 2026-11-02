@@ -1,0 +1,259 @@
+{
+  "schema": "eva.A04.NIR.R6.after_configuration",
+  "created_utc": "2026-11-02T17:11:55.739268+00:00",
+  "finding": "A04-F01",
+  "code_cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "image_id": "sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235",
+  "bundle": {
+    "path": "/opt/idempiere/plugins/com.eva.ro.contab_13.0.0.jar",
+    "sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2"
+  },
+  "native_window": "com.eva.ro.contab.form.WSagaIntrariForm / Intrări - lei → NIR-P01-R6-002 (C_Invoice_ID=1000002) → Documente… → NOTĂ DE RECEPȚIE ȘI CONSTATARE DE DIFERENȚE (14-3-1A) → Previzualizez",
+  "actor": "GardenAdmin, rol 102, organizația 11, clientul sintetic GardenWorld. Scheduler-e inactive, fără rută la parteneri.",
+  "setup": "Flag sintetic explicit EVA_SETARI_FIRMA_MIGRAT=Y, AD_SysConfig_ID 2000095005 pentru clientul 11/org 0, singura modificare de configurare. Zero rânduri EVA_SetareFirmaPerioada. Cache reîncărcat prin callback-ul normal din WSagaSetariFirmaPerioadeForm (SetariFirma.dupaCommit și reset AD_SysConfig) la încheierea încercării de migrare refuzate în clientul demo. Fanionul nu provine dintr-o migrare executată cu succes.",
+  "cases": [
+    {
+      "case": "control",
+      "input_exact": "7\n3",
+      "rows_HTML": [
+        [
+          "1",
+          "Azalea Bush (Azalea Bush)",
+          "Ea",
+          "7",
+          "7",
+          "10,00",
+          "70,00"
+        ],
+        [
+          "2",
+          "Elm Tree (Elm)",
+          "Ea",
+          "5",
+          "3",
+          "100,00",
+          "300,00"
+        ]
+      ],
+      "total_HTML": "370,00",
+      "total_PDF": "370,00",
+      "expected": "370,00",
+      "delta_against_control_lei": 0,
+      "artifacts": [
+        {
+          "path": "run3\\control.html",
+          "sha256": "54621ee59a5f891eecab72c26a4ac5287b711aa1155a0a1cebc3ad88221fef27",
+          "bytes": 5740
+        },
+        {
+          "path": "run3\\control.pdf",
+          "sha256": "029fd24367d977a02d3c392d5d56516ec1d08ee40cef7f228dc8738dbac2b4d7",
+          "bytes": 34826
+        },
+        {
+          "path": "run3\\control.png",
+          "sha256": "e65bf0952318d8658e79f461862ea2811c7c979b195b74d422eb315c7cbe4b4a",
+          "bytes": 79877
+        }
+      ],
+      "pdf_pages": 1
+    },
+    {
+      "case": "blank",
+      "input_exact": "\n3",
+      "rows_HTML": [
+        [
+          "1",
+          "Azalea Bush (Azalea Bush)",
+          "Ea",
+          "7",
+          "3",
+          "10,00",
+          "30,00"
+        ],
+        [
+          "2",
+          "Elm Tree (Elm)",
+          "Ea",
+          "5",
+          "5",
+          "100,00",
+          "500,00"
+        ]
+      ],
+      "total_HTML": "530,00",
+      "total_PDF": "530,00",
+      "expected": "370,00",
+      "delta_against_control_lei": 160,
+      "artifacts": [
+        {
+          "path": "run3\\blank.html",
+          "sha256": "e36d4d540870eaf7c35aafc9c3d95c0eee9979b45d6cd23d268a7761f4bac099",
+          "bytes": 5749
+        },
+        {
+          "path": "run3\\blank.pdf",
+          "sha256": "5fa64d4a027f59dc0c0d792265f70033036fd2eb851330d37a397f841857598d",
+          "bytes": 34865
+        },
+        {
+          "path": "run3\\blank.png",
+          "sha256": "ba87bbdd2786883421dd32e1b950ec2a4ecf4ee5cd0b332d80eb6af454b6cc06",
+          "bytes": 80550
+        }
+      ],
+      "pdf_pages": 1
+    },
+    {
+      "case": "invalid",
+      "input_exact": "invalida\n3",
+      "rows_HTML": [
+        [
+          "1",
+          "Azalea Bush (Azalea Bush)",
+          "Ea",
+          "7",
+          "3",
+          "10,00",
+          "30,00"
+        ],
+        [
+          "2",
+          "Elm Tree (Elm)",
+          "Ea",
+          "5",
+          "5",
+          "100,00",
+          "500,00"
+        ]
+      ],
+      "total_HTML": "530,00",
+      "total_PDF": "530,00",
+      "expected": "Mesaj de respingere sau corecție fără transferul cantității între linii",
+      "delta_against_control_lei": 160,
+      "artifacts": [
+        {
+          "path": "run3\\invalid.html",
+          "sha256": "e36d4d540870eaf7c35aafc9c3d95c0eee9979b45d6cd23d268a7761f4bac099",
+          "bytes": 5749
+        },
+        {
+          "path": "run3\\invalid.pdf",
+          "sha256": "5fa64d4a027f59dc0c0d792265f70033036fd2eb851330d37a397f841857598d",
+          "bytes": 34865
+        },
+        {
+          "path": "run3\\invalid.png",
+          "sha256": "ba87bbdd2786883421dd32e1b950ec2a4ecf4ee5cd0b332d80eb6af454b6cc06",
+          "bytes": 80550
+        }
+      ],
+      "pdf_pages": 1
+    }
+  ],
+  "document_source": {
+    "scope": "Independent A04 printed NIR test using native vendor invoice with two lines in synthetic role 102/org11; no change to production",
+    "started": "2026-11-02T17:04:22.354836+00:00",
+    "invoice": 1000002,
+    "complete": [
+      200,
+      {
+        "propertyLabel": "Document Status",
+        "id": "CO",
+        "identifier": "Completed",
+        "model-name": "ad_ref_list"
+      },
+      ""
+    ],
+    "snapshot": [
+      [
+        "NIR-P01-R6-002",
+        "CO",
+        "570.0",
+        "10",
+        "7",
+        "10",
+        "70"
+      ],
+      [
+        "NIR-P01-R6-002",
+        "CO",
+        "570.0",
+        "20",
+        "5",
+        "100",
+        "500"
+      ]
+    ],
+    "source_forms": [
+      [
+        "1000024",
+        "Intrări - lei",
+        "com.eva.ro.contab.form.WSagaIntrariForm"
+      ]
+    ],
+    "finished": "2026-11-02T17:04:23.708838+00:00"
+  },
+  "source_after": [
+    [
+      "1000002",
+      "NIR-P01-R6-002",
+      "CO",
+      "570.0",
+      "10",
+      "7",
+      "10",
+      "70"
+    ],
+    [
+      "1000002",
+      "NIR-P01-R6-002",
+      "CO",
+      "570.0",
+      "20",
+      "5",
+      "100",
+      "500"
+    ]
+  ],
+  "execution_result": "POSTCONFIGURARE ZK REPRODUS. Control 7/3 emite previzualizare 370 lei; gol/3 și invalida/3 afișează ambele 530 lei și atribuie diferența primului articol.",
+  "impact": "Diferență de 160 lei în previzualizarea documentului. Factura-sursă rămâne CO și 570 lei cu cantitățile 7 și 5. Nu a fost exercitat butonul Emit și tipăresc sau dovedită o mișcare eronată de stoc/contabilitate. PDF reprezintă imprimarea Chromium a previzualizării generate de ERP.",
+  "quality_review": null,
+  "artifacts": [
+    {
+      "path": "config.json",
+      "sha256": "af0d9dcc71be00dc56e1267c370848f9d1beb580afe8048384c4b40fa63cb645",
+      "bytes": 649
+    },
+    {
+      "path": "runtime.json",
+      "sha256": "bd1a36381eafe1fcf264638d15aa88b3df10c1a1d4253fb06950933e96242a7d",
+      "bytes": 952
+    },
+    {
+      "path": "run3\\obs.json",
+      "sha256": "c3baaab016e0f08bf16628506e98d06035a8e44f4de5e2bd99029253e89bfc02",
+      "bytes": 8626
+    },
+    {
+      "path": "run3\\form.png",
+      "sha256": "a52f2f31717bdfa710e74bc2a683ca626be700e02ac8df4386efc26e308fa400",
+      "bytes": 128842
+    },
+    {
+      "path": "run3\\callback.png",
+      "sha256": "f8658fd67616de9842ce9bd4ea51dd78a82f8514de603117129924baf91c3ec3",
+      "bytes": 69281
+    },
+    {
+      "path": "seed_config.py",
+      "sha256": "4cb6aeb47d6b22693800a3328e7ddf3f7d5960eff7cd0c9803db23e1155e22bc",
+      "bytes": 1728
+    },
+    {
+      "path": "nir_post_ui.py",
+      "sha256": "14e823f50de0972f1d1698cd340ed355174905f6714662d9dc831f4702ba550d",
+      "bytes": 6441
+    }
+  ]
+}

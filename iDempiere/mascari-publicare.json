@@ -4,25 +4,42 @@
     {
       "path": "Alege un WMS gratuit pentru iDempi/fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip",
       "masked_values": {
-        "jwt": 6
+        "literal_authentication_value": 1,
+        "jwt": 5
       }
     },
     {
       "path": "Alege un WMS gratuit pentru iDempi/fisiere/Cash_Flow_2026-10-08--d6b8c741.zip",
       "masked_values": {
+        "literal_authentication_value": 1,
         "jwt": 2
       }
     },
     {
       "path": "Alege un WMS gratuit pentru iDempi/fisiere/ERP_Productie_2026-10-08--268cd8be.zip",
       "masked_values": {
-        "jwt": 10
+        "url_userinfo": 1,
+        "literal_authentication_value": 3,
+        "jwt": 8
+      }
+    },
+    {
+      "path": "Analizează taskurile C03–C10/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 10
+      }
+    },
+    {
+      "path": "Analizează taskurile C03–C10/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 10
       }
     },
     {
       "path": "Compară 3 programe HR gratuite/fisiere/Analiza_iDempiere_HR_SSM_SU_2026-10-08--ec7ec1f8.zip",
       "masked_values": {
-        "jwt": 6
+        "literal_authentication_value": 1,
+        "jwt": 5
       }
     },
     {
@@ -42,12 +59,15 @@
     {
       "path": "Compară ERP-uri pentru producție/fisiere/ERP_Productie_2026-10-08--268cd8be.zip",
       "masked_values": {
-        "jwt": 10
+        "url_userinfo": 1,
+        "literal_authentication_value": 3,
+        "jwt": 8
       }
     },
     {
       "path": "Compară soluții Cash Flow/fisiere/Cash_Flow_2026-10-08--d6b8c741.zip",
       "masked_values": {
+        "literal_authentication_value": 1,
         "jwt": 2
       }
     },
@@ -65,15 +85,139 @@
       }
     },
     {
+      "path": "subagenti/Fara titlu--2525ee4c/fisiere/a05-context--2c935a7e.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--2525ee4c/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--2525ee4c/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--2b77e3c8/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 3
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--2b77e3c8/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 3
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--37185448/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--37185448/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
       "path": "subagenti/Fara titlu--5717cc7d/istoric.json",
       "masked_values": {
+        "literal_authentication_value": 3,
         "signed_url_credential": 2
       }
     },
     {
       "path": "subagenti/Fara titlu--5717cc7d/rezultate.md",
       "masked_values": {
+        "literal_authentication_value": 3,
         "signed_url_credential": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--70eb25b2/fisiere/a01_cesiro_ex02--2d249a57.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--70eb25b2/fisiere/a01_probe--5119e5c9.py",
+      "masked_values": {
+        "literal_authentication_value": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--70eb25b2/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 3
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--70eb25b2/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 3
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--8f7af902/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--8f7af902/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--d538fb57/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 8
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--d538fb57/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 8
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--df9b054c/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--df9b054c/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 2
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--e9cbdaf4/fisiere/a11_p0_independent--fbc587e7.py",
+      "masked_values": {
+        "literal_authentication_value": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--e9cbdaf4/istoric.json",
+      "masked_values": {
+        "literal_authentication_value": 5,
+        "signed_url_credential": 1
+      }
+    },
+    {
+      "path": "subagenti/Fara titlu--e9cbdaf4/rezultate.md",
+      "masked_values": {
+        "literal_authentication_value": 5,
+        "signed_url_credential": 1
       }
     }
   ]

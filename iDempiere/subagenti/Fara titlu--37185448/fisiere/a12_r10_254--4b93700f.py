@@ -1,0 +1,23 @@
+from a12_r10_base import *
+from a12_r6_exec import sec
+from tempfile import TemporaryDirectory
+a=Path(__file__).parent/'a12_r10_receipt.py';exec(a.read_text(encoding='utf8').split("j=P10/")[0]);import sys,subprocess
+des=P10/'Zone_A02_A10';ssc='saga-server@192.168.100.151';repor='/home/saga-server/Documents/EvA-Contab';prefix='Documentatie/echipa-2026-10-09/T254-erori-inghitite-inchidere/';repo='git -C '+repor+' ';fjar='idempiere/plugins/com.eva.ro.contab/com.eva.ro.contab_13.0.0.jar';refs={}
+def get(ver,n):
+ z=subprocess.run(['ssh','-o','BatchMode=yes',ssc,repo+'show '+ver+':'+n],capture_output=True,timeout=50);z.check_returncode();return z.stdout
+def fetch(prefixfile,local,loc):
+ b=get(BASE,prefix+prefixfile);path=loc/local;path.write_bytes(b);refs[local]={'file':prefix+prefixfile,'blob':hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest(),'sha':hashlib.sha256(b).hexdigest()};return path
+with TemporaryDirectory(prefix='bytecode-r10-',dir='D:/CodexWork')as tmp:
+ w=Path(tmp);tool=fetch('dovezi-03-spec/inventar_bytecode.py','byte.py',w);s0=fetch('dovezi-02-plan/inventar_stare_f3d26dc272.tsv.txt','baseI',w);s1=fetch('dovezi-02-plan/inventar_fara_catch_f3d26dc272.tsv.txt','baseII',w);v0=fetch('dovezi-11-r2/inventar_stare_V.tsv.txt','VI',w);v1=fetch('dovezi-11-r2/inventar_fara_catch_V.tsv.txt','VII',w);doc=fetch('03_spec.md','spec',w);dec=fetch('14_audit_cod_r2.md','decision',w);baseline=fetch('dovezi-03-spec/inventar_bytecode_f3d26dc272.txt','basetext',w);jj=w/'originalBase.jar';jj.write_bytes(get('f3d26dc272',fjar));assert hashlib.md5(jj.read_bytes()).hexdigest()=='d71cbbb0c6d258145f2a070bf2481e77'
+ ss=baseline.read_text(encoding='utf8');starts=re.findall(r'metode în închiderea bytecode din (.*?): \d+;',ss);assert len(starts)==2;accept=[]
+ for n,jar,inv,i2 in [('base',jj,s0,s1),('git-current',sec/'cod-master-contab.jar',v0,v1),('installed-current',sec/'com.eva.ro.contab_13.0.0.jar',v0,v1)]:
+  for scope,start in zip(['full','14_direct'],starts):
+   for mode in (['positive','empty_inventory_mutant']if n=='base'and scope=='14_direct'else['positive']):
+    a,b=inv,i2
+    if mode!='positive':a=b=w/'emp';a.write_text('',encoding='utf8')
+    pp=subprocess.run([sys.executable,'-X','utf8','-I',str(tool),str(jar),str(a),str(b),start],capture_output=True,timeout=35);log=pp.stdout.decode('utf8','replace')+pp.stderr.decode('utf8','replace');log=log.replace(str(w),'SYNTHETIC_LOCAL_DIR');fn=des/(n+'_'+scope+'_'+mode+'.log');fn.write_text(log,encoding='utf8');m=re.search(r'^LIPSA (\d+)\s*$',log,re.M);assert pp.returncode==0 and m,(n,scope,log[:200])
+    accept.append({'target':n,'jar_sha256':sha(jar),'from_criteria_fixture':scope,'mode':mode,'status_code':pp.returncode,'LIPSA':int(m[1]),'log':ab(fn),'method_lines':[l for l in log.splitlines()if l.startswith('LIPSA-')]})
+ minus=[v for v in accept if v['mode']=='empty_inventory_mutant'][0];assert accept[0]['LIPSA']==5 and accept[1]['LIPSA']==0 and minus['LIPSA']>0
+ outj=des/'T254_bytecode.json';wr(outj,{'utc':now(),'cutoff':BASE,'frozen_source':refs,'actual_program':'python -I inventar_bytecode.py <jar> <INV> <INV2> [<root methods>]','runs':accept,'spec_authority':[{'line':i,'text':s[:1350]}for i,s in enumerate(doc.read_text(encoding='utf8').splitlines(),1)if ('| S-1 |'in s or '**CRITERII:** C-3' in s or 'LIPSA 5' in s)][:8],'ending_amendment':[{'line':i,'text':s[:1350]}for i,s in enumerate(dec.read_text(encoding='utf8').splitlines(),1)if '4 SUB' in s][:4],'unavailable_exact_V':'f75d13fed2 și 9363c76fc6 nu rezolvă prin git rev-parse de pe server la data rulării. V. Ambele JAR-uri actuale sunt comparate explicit cu inventarele arhivate ale V, care nu reprezintă o extragere actualizată din aceste două JAR-uri.'})
+ add('T254-R2-004','Comparatorul oficial de bytecode, două liste de metode și trei JAR datate.','Ținta inițială 0 a fost precizată în 03_spec.md și LR-4 din 14_audit_cod_r2.md. Controlează distinct closure completă și cele 14 metode directe.',[{'target':r['target'],'scope':r['from_criteria_fixture'],'mode':r['mode'],'LIPSA':r['LIPSA']}for r in accept],'Pe baza istorică, eliminarea listei de inventar scoate metodele lipsă. Exitul scriptului rămâne 0; verdictul numeric trebuie citit chiar din text.','JAR V original indisponibil pe commitul f75d13fed2. Comparațiile dintre JAR actual și inventar istoric nu sunt probă de regresie în produs. Criteriul trebuie citit cu amendamentul 4 SUB plus handlere fail-closed.',[jr(outj,'/runs'),jr(outj,'/spec_authority'),jr(outj,'/ending_amendment')]);p=des/'T254_receptie.json';wr(p,{'utc':now(),'receipts':out});print(sha(p),[(r['target'],r['from_criteria_fixture'],r['mode'],r['LIPSA'])for r in accept])
+

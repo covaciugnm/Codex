@@ -1,0 +1,1691 @@
+{
+  "schema": "eva.audit.zone.r3.immutable",
+  "zone_id": "A07",
+  "revision": "R3",
+  "issued_utc": "2026-11-02T17:54:04.291Z",
+  "cutoff_git_sha": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "plan_manifest": "df251d54425833e941ddf85ddf0e376ed7f2fb20312702919956a0b582f3b397",
+  "R1_immutable": {
+    "path": "A07_raport.json",
+    "sha256": "4d7ef81968dd14e44803da5f252facc278fa20aedbc8e11a2018eb5ac834dff6"
+  },
+  "R2_immutable": {
+    "path": "R2_zone/A07/A07_raport.json",
+    "sha256": "1f65dab4c56d1f1aa3523e8e1e6c879e33ada2182a347ae7a974a29b243d233d"
+  },
+  "A11_R2_immutable": {
+    "path": "A11_control_zone_R2_lotC.json",
+    "sha256": "9bc358efb03418cfc7daaf96278b0aa81f4c7d9707783e7f5f1109b844bf21a0"
+  },
+  "prior_A11_review": {
+    "score_of_R2": 6.6,
+    "hard": [
+      "HB04: probe obligatorii de proces și interfață incomplete; 10/10 indisponibil."
+    ],
+    "not_a_current_grade": true
+  },
+  "quality_score": null,
+  "product_score": null,
+  "decision": "PREDAT_SPRE_A11. Defecte, limitări de contract și probe parțiale rămân deschise.",
+  "counts": {
+    "controls": 27,
+    "pipelines": 6,
+    "findings": 9,
+    "control_status": {
+      "PARTIAL": 18,
+      "BLOCAT": 1,
+      "FAIL": 8
+    },
+    "new_R7_component_cases": 2,
+    "new_cod_scenarios": 11
+  },
+  "response_to_A11": [
+    {
+      "request": "Continuați traseul comercial complet API→nativ cu rollback/recepție/credit/AWB, rolurile efective și un contract de idempotency pentru cabinet+firmă+endpoint+payload.",
+      "done": "S1 leagă comanda nativă, avizul, autorizația, recepția și stornarea. EX07 leagă adevărata citire HTTP de DTO, dublu colet și stările. A07 R2 acoperă drepturi și reluări. R3 adaugă verificarea granulară de borderou și două oracole R7.",
+      "residual": "Lipsește un singur traseu ORD101 luat din site în procesul ERP real, cu autorizare comercială, AWB, factură/credit de vânzare și plată pentru același document, inclusiv UX pe roluri. Un nou cabinet tehnic generic fără aceste contracte nu ar închide cerința.",
+      "evidence": [
+        "S6",
+        "PAR",
+        "AL",
+        "ROLE",
+        "EX07",
+        "PEER",
+        "R2",
+        "COD",
+        "BANK"
+      ]
+    },
+    {
+      "request": "Separarea stub/ERP și a returului autorizat de cel fizic este închisă ca metodă. Expunerea curier/PSP reală sau date reale nu trebuie mimată prin redeclararea fixtureului.",
+      "done": "Au fost păstrate separat răspunsurile HTTP ale funcțiilor sursă, valorile pure JVM, documentele native și efectele fizice sau contabile.",
+      "residual": "Nu există emitere sau anulare AWB la un partener real, nicio restituire reală PSP și nicio constatare asupra datelor de producție.",
+      "evidence": [
+        "R1",
+        "R2",
+        "EX07",
+        "A11EX",
+        "PEER"
+      ]
+    }
+  ],
+  "counts_policy": "FAIL înseamnă că existe cel puțin o diferență dovedită pe control; PARTIAL nu certifică întregul rol/flux. O sumă de asserturi nu este nota auditului.",
+  "controls": [
+    {
+      "control_id": "A07.K01",
+      "pipeline_id": "A07.P1",
+      "title": "Prag de avizare",
+      "expected": "Aviz cu 7, rest de livrat 3, totalul liniilor/MA corespunde tranzacțiilor.",
+      "observed": "Pentru 10 cerute, motorul împarte stocul 7+3 pe doi locatori și refuză dacă găsește doar 7 (rezultat null). TestT337Confirmare validează recalculul restului, dar nu există în această probă comanda din interfață cu 7 culese și 3 restante.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "R1",
+        "CO"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "RET PO A04 folosește 12 comandate, recepții 7+5; perechea nu demonstrează G2 pick vânzări 7/10. Se păstrează proba numerică JVM R1.",
+      "audit_evidence_disposition": "LIMITĂ",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "În GardenWorld, rezervarea SO 1000000 a trecut de la 1 rezervat și 0 livrat la 0 rezervat și 1 livrat pe avizul 1000001. Nu este o comandă de site și nu acoperă livrarea parțială 7 din 10.",
+      "r3_evidence": [
+        "S6"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K02",
+      "pipeline_id": "A07.P1",
+      "title": "Starea reală a documentului",
+      "expected": "Dacă DocStatus rămâne IP/WP, 0 AWB și 0 facturi, aceeași rezervare și document pentru reluare.",
+      "observed": "Pentru returul nativ M_InOut 1000000, prima acțiune CO a returnat HTTP 200, însă DocStatus a rămas IP. După M_InOutConfirm 1000000 CO, a doua acțiune a produs M_InOut CO. Matricea Culegere tratează IP cu PC ca fază distinctă. Negativele prin ecranul PC de livrare către client nu au fost exercitate.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "R1",
+        "AL"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "M_InOut retur 1000000 a rămas IP la Complete cu HTTP 200. Confirmarea SC și o nouă acțiune au produs CO; pentru factura/alocarea din registrul R2, Posted rămâne independent E/Y.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Avizul 1000001 IP a devenit CO după PC 1000001. Recepția retur 1000002 a avut SC distinct, prima acțiune CO rămânând IP. Starea documentului persistată și accesul la acțiune sunt probe distincte.",
+      "r3_evidence": [
+        "S6",
+        "ROLE"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K03",
+      "pipeline_id": "A07.P1",
+      "title": "Aprobare comercială manuală",
+      "expected": "Succesiune jurnalizată, actor și oră pentru fiecare pas. Emiterea disponibilă numai după aprobare.",
+      "observed": "Traseul T22 face validare internă și, după CO, facturează. Aprobarea comercială înainte de emitere AWB cu separarea celor două roluri nu a fost reprodusă. T342 este plan în registru.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "API",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Endpointul de retur a refuzat anonim 401 și firmă străină 403 înaintea transportului. Pe campul AWB lipsește proba autentificare gestionar→vânzări→emitere; T342 era plan.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "În S1, t337_erp_staging_link este gol. Validarea comercială a responsabilului de vânzări și AWB pe aceeași comandă nu au fost demonstrate în acest circuit.",
+      "r3_evidence": [
+        "S6",
+        "EX07"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K04",
+      "pipeline_id": "A07.P1",
+      "title": "Aprobare automată configurabilă",
+      "expected": "Regula se aplică doar canalului țintă, păstrează versiunea și motivul.",
+      "observed": "Forma instalată Vânzări online are setări, iar generatorul are tip de factură, gestiune și preț; reprodusă clasificarea după CO. Nu există probă runtime pentru o regulă de aprobare automată și alt canal manual.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Setările T22 includ documente fiscale dar în calea analizată nu apare o alegere probată între aprobarea manuală și automată pe canal. Setarea și cele două roluri din acea cale rămân de testat.",
+      "audit_evidence_disposition": "LIMITĂ",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Un canal a marcat comanda livrată la primul colet, celălalt încă în tranzit și retur aprobat. Politica manuală sau automată din ERP nu rezultă din starea site-ului.",
+      "r3_evidence": [
+        "EX07",
+        "PEER"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K05",
+      "pipeline_id": "A07.P1",
+      "title": "Respingere după CO înainte de curier",
+      "expected": "0 AWB și 0 RMA automat. Stoc fizic, rezervare și mișcare se reconciliază prin document nativ corelat.",
+      "observed": "RE și VO se clasifică REFUZ. T337 tratează confirmarea de culegere; nu s-a reprodus refuzul comercial după aviz și înainte de predare, fără dublare de stoc.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "PO",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "M_InOut nativ inversat în achiziție este un martor de document corectiv. Nu există echivalență cu respingerea după CO și înainte de predarea la curier a unei expedieri comerciale.",
+      "audit_evidence_disposition": "LIMITĂ",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Stornarea recepției client a păstrat mișcările +1/−1 și notele pe două scheme la retry. Acesta este un retur după mișcare fizică, distinct de respingerea avizului deja CO înainte de curier.",
+      "r3_evidence": [
+        "S6"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K06",
+      "pipeline_id": "A07.P2",
+      "title": "Identitatea coletului și etichetei",
+      "expected": "Cardinalitatea respectă contractul curierului, fiecare colet are referință persistată; reimprimarea refolosește aceeași etichetă.",
+      "observed": "În clona izolată, M_Package 1000000 și M_PackageLine 1000000 au fost salvate prin REST PO, pe avizul și linia 100. TrackingNo A07-INTERNAL-01 a fost confirmat prin SELECT. Emisiunea curierului pentru două colete și reimprimarea nu au probe.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "RC",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Colet 1000001 și 1000002, ambele cu câte 1 pentru linia 101 de 2. Numerele CROSS-SYNTHETIC sunt TrackingNo interne. Nu există o emisiune ori reimprimare curier.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Două colete native de câte 1 există pe linia 101 de 2; EX07 arată că aceeași comandă cu două AWB active în același provider nu este reprezentabilă în indexul site-ului examinat. Nu confundați un AWB cu două pachete și două expediții cu etichete proprii.",
+      "r3_evidence": [
+        "PAR",
+        "EX07"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K07",
+      "pipeline_id": "A07.P2",
+      "title": "Rezultat necunoscut la curier",
+      "expected": "Operatorul vede în reconciliere; regăsirea aceleiași referințe evită al doilea transport plătibil.",
+      "observed": "Contractul de citire și potrivire AWB s-a verificat; emiterea cu rezultat necunoscut și regăsirea după cheie nu are intrare de scriere executabilă demonstrată pentru T342 la acest SHA.",
+      "status": "BLOCAT",
+      "evidence_ids": [
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "BLOCAT",
+      "r2_observed": "Fluxul contractual de rezultat necunoscut la emiterea AWB nu are comandă de scriere dovedită în acest cutoff. Am delimitat lipsa simulatorului conectat, T342 plan și contractul AdaptorPlatforma de citire.",
+      "audit_evidence_disposition": "BLOCAT",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "BLOCAT",
+      "r3_actual": "Clasificare granulară: citirea AWB din sursă și reluarea pollului sunt testate. Emiterea fizică, pierderea răspunsului după acceptarea curierului și regăsirea prin cheia expediției rămân nedemonstrate.",
+      "r3_evidence": [
+        "EX07",
+        "A11EX"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K08",
+      "pipeline_id": "A07.P2",
+      "title": "Ramburs net repartizat",
+      "expected": "COD1=40, COD2=50, total=90. Totalul pe colete nu depășește creanța eligibilă.",
+      "observed": "Oracolul sintetic produce 40 și 50, total 90. MotorCorelare verifică încasări deja existente, distinct de emiterea AWB. Calculul acestor sume la emitere după avans 30 nu are probă de produs.",
+      "status": "FAIL",
+      "evidence_ids": [
+        "J2",
+        "RC"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Decontul deja emis cu 40/50 și comisioane 3/5 a fost parsat efectiv în ambele JAR-uri. Nu există probă de alocare a avansului de 30 la momentul generării AWB: în acest punct rămâne numai oracolul 70−30 și 50.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "La 70+50 și avans 30, drepturile sunt 40+50. La 50+40 încasate pe cele două AWB, aceleași taxe 3+5 și banca 82, poarta acceptă borderoul pentru liniile deja legate. Diferența individuală 10+10 ar rămâne mascată dacă se verifică doar totalul. În EX07, la total 87,87/avans 30, valoarea implicită a site-ului este 87,87 în loc de 57,87. Etapele de emitere și decontare au cauze și proprietari separați.",
+      "r3_evidence": [
+        "COD",
+        "EX07"
+      ],
+      "r3_finding_ids": [
+        "A07-F09"
+      ],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K09",
+      "pipeline_id": "A07.P2",
+      "title": "Adrese și opțiuni pe expediție",
+      "expected": "AWB păstrează copia de livrare a comenzii; factura folosește adresa de facturare; tariful efectiv include opțiunile canalului.",
+      "observed": "GeneratorDocumente setează adresa de livrare și cea de facturare la același bp[1] în comanda creată. Clasele ambelor JAR-uri conțin ambele apeluri. O comandă care solicită două adrese distincte nu le poate transmite separat prin această cale.",
+      "status": "FAIL",
+      "evidence_ids": [
+        "PG",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F03"
+      ],
+      "residual": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "r1_status": "FAIL",
+      "r2_observed": "C_Order are două coloane active distincte, însă GeneratorDocumente pasează același argument bp[1] ambelor settere. Nu există în seed o comandă de vânzări cu două adrese diferite, astfel că verificarea rezultată nu constituie captura unui incident de producție.",
+      "audit_evidence_disposition": "DEFECT",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "FAIL",
+      "r3_actual": "R2 a dovedit cele două settere cu bp[1]. Nu există o dovadă nouă a adresei de pe o etichetă fizică reală, iar copia comercială a comenzii rămâne obligatorie.",
+      "r3_evidence": [
+        "R2",
+        "EX07"
+      ],
+      "r3_finding_ids": [
+        "A07-F03"
+      ],
+      "material_limit": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K10",
+      "pipeline_id": "A07.P2",
+      "title": "Ramburs zero și monedă",
+      "expected": "Rambursul solicitat este 0 pentru colet plătit; valută neacceptată cere rezolvare înainte de emitere.",
+      "observed": "Motorul cotează EUR vs RON drept moneda_diferita. Suma de ramburs 0 pe cealaltă cale, la emiterea etichetei pentru un colet achitat, nu este acoperită de calculul decontului.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "R1",
+        "SUP",
+        "RC",
+        "J2"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Martorii R1 validează moneda diferită în reconcilierea după expediere. Creditul furnizor A04 și două colete proprii nu confirmă un AWB la zero peste avans sau valuta suportată de curier.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Martor comandă integral achitată → COD 0; plata parțială rămasă unpaid → funcția site-ului nu deduce avansul. În JAR este blocată nepotrivirea monedei de decont.",
+      "r3_evidence": [
+        "EX07",
+        "COD"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K11",
+      "pipeline_id": "A07.P3",
+      "title": "Factură la validarea internă",
+      "expected": "Exact o facturare pentru liniile eligibile și trimitere la aviz; reluarea arată documentul existent.",
+      "observed": "Ramura CO a generatorului cheamă facturaSiLegaturi. AVizul IP cu PC deschis se întoarce fără factură. Varianta manuală versus cea automată la nivel de canal și repetarea acțiunii operatorului nu au probă UI.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "SUP",
+        "PO",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Soldurile și creditul furnizor arată documente native cu postări, dar nu probează declanșarea unei singure facturi la validare comercială A07 în două sesiuni.",
+      "audit_evidence_disposition": "LIMITĂ",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Creditul/notele furnizorului sunt probe native autentice cu referințe. Nu demonstrează emiterea unică a facturii de vânzare la aprobarea comenzilor în ERP.",
+      "r3_evidence": [
+        "SUP",
+        "EX07"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K12",
+      "pipeline_id": "A07.P3",
+      "title": "Factură după livrare fără incidente",
+      "expected": "0 facturi la simplul CO. După confirmare se facturează strict setul eligibil definit de politică; restul rămâne vizibil.",
+      "observed": "Pe JVM la ambele versiuni Culegere.dupaComplete(CO,false) produce LIVRAT; după această decizie GeneratorDocumente ajunge la facturaSiLegaturi și setează liniile LIVRAT. Ramura nu cere evenimentul confirmat al livrării de curier ori rezolvarea incidentului.",
+      "status": "FAIL",
+      "evidence_ids": [
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F04"
+      ],
+      "residual": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "r1_status": "FAIL",
+      "r2_observed": "În artefacte generatorul T22 continuă din CO la facturaSiLegaturi, fără caz al politicii de confirmare reală pe acea ramură. Se păstrează caracterul condiționat de calea utilizată. Nu s-a simulat un status de curier ca dovadă fizică.",
+      "audit_evidence_disposition": "DEFECT",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "FAIL",
+      "r3_actual": "CO pe aviz nu confirmă livrarea la client. În EX07 prima livrare a mutat comanda integrală la delivered în condițiile unui retur aprobat; nu s-a emis automat o factură în fixture. Ramura T22 care ajunge la factură după CO rămâne problemă pentru politica târzie.",
+      "r3_evidence": [
+        "EX07",
+        "PEER",
+        "S6"
+      ],
+      "r3_finding_ids": [
+        "A07-F04"
+      ],
+      "material_limit": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K13",
+      "pipeline_id": "A07.P3",
+      "title": "TVA și cost de transport",
+      "expected": "Suma liniilor net+TVA+transport cohérează cu comanda în toleranța de rotunjire configurată; A03 confirmă separat.",
+      "observed": "Teste Java pentru transport/cost mărfuri disponibile, dar nici testul local, nici probele de checkout A03 nu validează factura finală a acestui traseu pe două cote/transport după politica exactă.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "SUP",
+        "PO",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "A04 a obținut postări echilibrate pe două scheme pentru creditul furnizorului. Efectele TVA/transport ale vânzării cu două cote rămân de verificat cu factura de client din comanda respectivă.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Notele pe două scheme din retururile native sunt confirmate. TVA și transportul din aceeași comandă comercială Q-COM-01 până la factura emisă rămân parțiale.",
+      "r3_evidence": [
+        "SUP",
+        "S6"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K14",
+      "pipeline_id": "A07.P3",
+      "title": "Retur anterior facturării",
+      "expected": "Cantitatea contestată are blocare vizibilă. După decizie și reconciliere, suma eligibilă este documentată.",
+      "observed": "Lanțul verificat aviz-CO-factură nu are condiție pe un incident de transport sau retur deschis și nu completează proba de anulare a facturii la cantitatea contestată.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "RC",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F04"
+      ],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Limita F04 rămâne pe generatorul T22 care nu consultă confirmarea transportatorului sau incidentul. R2 a diferențiat autorizații RMA CO cu QtyDelivered zero de recepția fizică. Nu există test UI de blocare a facturii pentru returul deschis al aceleiași comenzi.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Existența unui RMA aprobat ori CO și livrarea fizică sunt independente. La retur deschis și C2 în tranzit, condiția politicii târzii rămâne falsă înaintea facturării.",
+      "r3_evidence": [
+        "EX07",
+        "S6",
+        "PAR"
+      ],
+      "r3_finding_ids": [
+        "A07-F04"
+      ],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K15",
+      "pipeline_id": "A07.P4",
+      "title": "Import decont curier",
+      "expected": "Aceleași linii sursă, 1 decont economic, 90 brut, 8 cost, 82 net; fără plată dublă.",
+      "observed": "MotorCorelare(90,82,8,RON,RON) produce comision_dedus, diferență 8, iar 90/90 dă diferență 0. Există procesul ImportDecontCurier. Nu s-a probat dublul import al aceluiași decont schimbând numele din UI.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "PG",
+        "J2"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Aceiași octeți cu două nume diferite dau aceleași 2 linii și 90/8/82. Procesul calculează SHA-256 pe conținut, iar baza are index unic (AD_Client_ID,EVA_Sha256). Scrierea/atașamentul și cursa a doi importatori nu au fost executate de această probă.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Matcherul găsește AWB exact A/B și exclude coletul blocat. Același borderou net este acceptat de poarta componentă și când sumele apar inversate între expedieri. Importul dublu prin UI cu două fișiere și două roluri nu a fost reprodus aici.",
+      "r3_evidence": [
+        "COD",
+        "R2"
+      ],
+      "r3_finding_ids": [
+        "A07-F09"
+      ],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K16",
+      "pipeline_id": "A07.P4",
+      "title": "Import extras și proprietatea contului",
+      "expected": "Unică identitatea tranzacției pe IBAN, extras, dată și referință conform profilului. Suma se reconciliază cu soldul.",
+      "observed": "Procesul de import extras, forma și reconcilierea active, iar TestT32D6ImportExtrasIban execută 23 verificări. Lipsesc importul partial repetat din UI pe două conturi și înainte/după pe extrasul real din fixture.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "R1",
+        "PG"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "R1 confirmă importul extrasului, formatul IBAN și existența formei/process. Nu s-a importat prin ecran extrasul parțial de două ori și nu s-au verificat două IBAN economice similare.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "T06-R2-005 și -006: valorile R7 nominale au fost confirmate pe JVM pentru comparatorul de extras pe ambele pachete. Acesta nu este importul unui extras prin UI pe două conturi bancare și nu înlocuiește controlul per IBAN.",
+      "r3_evidence": [
+        "BANK",
+        "R2"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K17",
+      "pipeline_id": "A07.P4",
+      "title": "Potrivire ambiguă",
+      "expected": "0 alocări automate; UI prezintă candidații, contextul și motivul pentru alegerea umană.",
+      "observed": "TestCorelareComenzi și TestT220Corelez testează candidați, stare „de lămurit” și cazuri negative. Nu s-a probat un atac prin ID între două firme și o alegere umană în ecranul de reconciliere.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "J2",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Pentru două refunduri la aceeași comandă și sumă, metoda actuală leagă determinist 11→501 și 12→502; schimbarea comenzii nu leagă. Este cazul distinct de două facturi ambigue la extras, pentru care rămân controalele de operator.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Clasările comparatorului corespund corpusului istoric: 218 identice, 21 metodă SAGA, 92 de lămurit. Excluderea manuală a unei expediții nu leagă automat alt AWB. Se păstrează lipsa probei UI cu două facturi echivalente în aceeași firmă.",
+      "r3_evidence": [
+        "BANK",
+        "COD"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K18",
+      "pipeline_id": "A07.P4",
+      "title": "Avans, plăți parțiale și alocări",
+      "expected": "Sold prima factură 0. Avans consumat o singură dată; sold alocabil al plății nu este negativ.",
+      "observed": "GardenWorld: C_Payment 1000000 30, CO; C_Invoice 1000001 74,20, DR după refuzul validării. C_AllocationHdr 1000000 cu linie către acea ciornă se completează CO cu 30, confirmat prin SELECT. Pe contractul auditat, alocarea necesită factura eligibilă; nu s-a demonstrat că toate rolurile EVA pot accesa această cale directă.",
+      "status": "FAIL",
+      "evidence_ids": [
+        "AL",
+        "PG",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F05"
+      ],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "FAIL",
+      "r2_observed": "Rol 103: alocări de 10 pe DR, IP, VO ajung CO/Posted=E cu plata alocată; pe CO ajunge CO/Y; pe RE CO/Y. Snapshotul local confirmă separat A07 R1 la 30 de lei: alocare CO/E către DR/N. Toate cele cinci reversări din R2 au RE/Y. Expunerea în rolurile efectiv acordate fiecărui cabinet rămâne separată.",
+      "audit_evidence_disposition": "DEFECT",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "FAIL",
+      "r3_actual": "Rolul nativ 103 a alocat pe DR/IP/VO cu CO/E și pe RE cu CO/Y; martorul CO a fost postat Y. Existența unei plăți anterioare blochează poarta de borderou a componentei testate. Nu deduceți de aici protecție la concurența alocării aceluiași avans.",
+      "r3_evidence": [
+        "AL",
+        "COD"
+      ],
+      "r3_finding_ids": [
+        "A07-F05",
+        "A07-F09"
+      ],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K19",
+      "pipeline_id": "A07.P4",
+      "title": "Valută, comisioane și diferențe",
+      "expected": "Moneda, cursul, data și diferența de curs sunt explicite; diferența sau rotunjirea apare într-un document potrivit.",
+      "observed": "Pentru 90/91, motorul clasifică supraplata, pentru 90/82 în monede diferite apare moneda_diferita. Diferențele de curs în documentele și jurnalul contabil ale scenariului necesită probă integrată.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "J2",
+        "AL",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Metoda reală MotorCorelare și parserul au confirmat netul 82 după comisionul 8 și clasificarea monedei. Cursurile și documentele de diferență de curs în cele două scheme nu sunt probate pentru acest client.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Regulile de diferență și taxă au produs rezultatele nominale pe ambele JAR-uri. Discrepanța pe colet poate fi mascată la total, chiar în aceeași monedă. Fact_Acct pe diferențe de curs pentru un retur comercial complet nu a fost verificat.",
+      "r3_evidence": [
+        "BANK",
+        "COD",
+        "AL"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K20",
+      "pipeline_id": "A07.P4",
+      "title": "Contestație PSP și restituire duplicată",
+      "expected": "Istoricul distinge refund, chargeback, încasarea inițială și orice comision. Aceeași referință are efect unic.",
+      "observed": "Clasificarea ramburs și stingerea sunt acoperite parțial în suite. Nu s-a reprodus un chargeback în altă ordine față de refund, cu două retransmisii și confirmare DB.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "J2",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "LegaturaRamburs.leaga nu leagă altă comandă, iar reaplicarea identității deja asociate nu produce o a doua legătură. Un chargeback distinct și două webhook-uri PSP nu sunt acoperite de necesarul F20.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Repetarea pollului nu a generat o a doua tranziție, iar o repetare PSP/refund diferită de chargeback nu a fost tratată ca dovadă de rambursare fizică.",
+      "r3_evidence": [
+        "EX07",
+        "R2"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K21",
+      "pipeline_id": "A07.P5",
+      "title": "Autorizare retur parțial",
+      "expected": "RMA cu firma, partenerul, documentul, motivul și cantitatea; total autorizat/recepționat nu depășește livrat minus retururile anterioare.",
+      "observed": "În GardenWorld s-a livrat 1 pe linia 100. Fără M_InOutLine_ID, o linie pentru 2 a primit HTTP 201, iar RMA 1000000 a ajuns CO cu 2 unități. Cu linia 100 furnizată, aceeași cantitate a fost respinsă HTTP 500 „Amount to be returned is greater than the amount shipped”, fără linie persistentă; 1 a primit HTTP 201 și CO. RMA de la API EVA emite forma fără linia sursă, reprodusă prin transport simulat și AST al imaginii. Nu s-au acceptat fizic 2 bucăți în acest test.",
+      "status": "FAIL",
+      "evidence_ids": [
+        "RC",
+        "API",
+        "PG",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F01",
+        "A07-F07"
+      ],
+      "residual": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "r1_status": "FAIL",
+      "r2_observed": "Adaptorul omite linia sursă din RMA comercial. Separat de omisiune, două autorizări concurente legate de linia 101 au CO cu 2+2 față de sursa 2; QtyDelivered=0. Martor 3 a fost refuzat. Returul fără sursă se tratează distinct prin politică explicită.",
+      "audit_evidence_disposition": "DEFECT",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "FAIL",
+      "r3_actual": "Aceeași linie 1000001 a produs RMA 1000002 CO Qty=1/QtyDelivered=0 în R6, urmat ulterior de recepție. Separat, 2+2 autorizații concurente pe o linie de 2 și omisiunea referinței din adaptor sunt ambele reproduse și au cauze diferite.",
+      "r3_evidence": [
+        "S6",
+        "PAR",
+        "R2"
+      ],
+      "r3_finding_ids": [
+        "A07-F01",
+        "A07-F07"
+      ],
+      "material_limit": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K22",
+      "pipeline_id": "A07.P5",
+      "title": "Primirea fizică și carantina",
+      "expected": "Recepție documentată pe lot/locator și stare. Disponibilul crește doar pentru marfa eliberată efectiv.",
+      "observed": "Cazul corect: linie RMA pentru 1, RMA confirmat, recepție retur 1000000 la locator 101: IP → confirmare SC CO → CO, cu referință persistentă RMA 1000001. Nu s-a împărțit returul între locatori bun/carantină și nu s-a verificat disponibilul pentru a doua unitate.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "RC",
+        "SUP",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F07"
+      ],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "R1 a dus recepția vânzării IP→SC CO→CO pentru 1; A04 confirmă independent returul furnizor CO și credit pe 2. R2 RMA concurente CO au QtyDelivered=0. Carantina și disponibilul nu pot fi inferate din aprobări.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Recepția S1 pentru 1 a ajuns CO după confirmarea SC, cu referință RMA. Stornarea a creat inversa −1 fără multiplicare la reluare. Nu sunt probate în acest audit distribuția unei a doua unități între carantină și locator vandabil ori o creditare pentru unitate neprimita.",
+      "r3_evidence": [
+        "S6",
+        "PAR",
+        "SUP"
+      ],
+      "r3_finding_ids": [
+        "A07-F07"
+      ],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K23",
+      "pipeline_id": "A07.P5",
+      "title": "Notă de credit și respectarea facturii",
+      "expected": "Credit ≤ 2 și valorile/TVA sunt corelate cu factura și perioada. O singură compensare sau restituire ulterioară.",
+      "observed": "Creditul nativ DR 1000000 identifică o linie de retur. Prima încercare CO a întâlnit migrarea în curs; după existența EVA_SeriiPlaje, mesajul explicit este lipsă plajă activă „AR Credit Memo”. Documentul a rămas DR, 50,35, Posted=N. Finalizarea și nota contabilă sunt neexecutate până la configurarea plajei în cabinetul propriu.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "SUP",
+        "PO",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F01"
+      ],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Credit furnizor 1000018 a ajuns în CO cu postări pe schemele 101 și 200000; vânzarea A07 R1 a refuzat nota de credit la plajă lipsă. Nu există probă pentru creditul comercial de client în aceeași comandă, cu două unități și refund PSP.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "Furnizor: nota de credit 1000018 CO/Y, legată la factura 1000017 și RMA 1000006, note pe două scheme. Client S1: aceeași origine are retur și stornare, fără factură ori virament. A03 peer confirmă limita; acestea nu constituie o notă de credit la vânzare pentru ORD101.",
+      "r3_evidence": [
+        "SUP",
+        "S6",
+        "PEER"
+      ],
+      "r3_finding_ids": [
+        "A07-F01"
+      ],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K24",
+      "pipeline_id": "A07.P5",
+      "title": "Storno încasare și realocare",
+      "expected": "Legătură la plata inițială, sold redeschis corect, documente și postări echilibrate per schemă.",
+      "observed": "A fost verificată o plată nativă de 30 în CO și starea alocării după un refuz de factură. Stornarea plății, redeschiderea soldului și factura în perioadă închisă rămân de reprodus separat.",
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "AL",
+        "R1"
+      ],
+      "finding_ids": [],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Cele cinci alocări au fost stornate, rezultat RE și Posted=Y. Nu sunt cinci stornări ale C_Payment. Reîncercarea în perioadă închisă, soldul ulterior, plata refăcută și realocarea trebuie validate ca atare.",
+      "audit_evidence_disposition": "PARȚIAL-REPRODUS",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "PARTIAL",
+      "r3_actual": "M_InOut de retur și inversa sa au aceleași două mișcări și note după retry. Stornările celor cinci alocări au RE/Y. Acestea sunt documente diferite de reversarea unei plăți bancare în perioadă închisă.",
+      "r3_evidence": [
+        "S6",
+        "AL"
+      ],
+      "r3_finding_ids": [],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K25",
+      "pipeline_id": "A07.P6",
+      "title": "Lanț operator dintr-o singură comandă",
+      "expected": "Nu există link fără drept, țintă fără ID sau sumă diferită. Fiecare stare permite identificarea responsabilului și acțiunii următoare.",
+      "observed": "Dicționarul confirmă patru formulare active; WEvaVanzariOnlineForm declară Documente și Aprobări. Nu există captură de traversare completă și izolată „comandă → sold” cu rol contabil versus comisionar.",
+      "status": "FAIL",
+      "evidence_ids": [
+        "RB",
+        "API",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F06"
+      ],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "GET și DocAction la factura altei organizații au fost refuzate 403 și au lăsat ciorna nemodificată. Endpointul de retur a răspuns 403 unui alt CUI. Pentru același CUI în două cabinete și aceeași cheie, cabinetul B primește ID din A. Traseul complet contabil/comisionar prin GUI nu este reconstituit.",
+      "audit_evidence_disposition": "DEFECT",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "FAIL",
+      "r3_actual": "403 pe factura altei organizații; în alt caz, răspunsul la aceeași cheie este refolosit între cabinete cu același CUI. Filtrarea copiilor CESIRO1 este un incident separat (EX02-I01, referință unică). Nu a fost verificat un tur UI complet al comisionarului pentru aceeași comandă.",
+      "r3_evidence": [
+        "ROLE",
+        "R2",
+        "EX02"
+      ],
+      "r3_finding_ids": [
+        "A07-F06"
+      ],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K26",
+      "pipeline_id": "A07.P6",
+      "title": "Eșec la granița tranzacțională",
+      "expected": "Reprocesarea folosește ID-ul persistent și produce o singură factură/platǎ/alocare. Operațiile incomplete apar într-o coadă justificată.",
+      "observed": "Pe metoda reală, refuzul primei linii lasă primul antet la transport. Repetarea produce un al doilea antet. În ruta create_return idempotency.store și commit local vin numai după create_rma; AST-ul rutei și clientului coincide cu containerul instalat.",
+      "status": "FAIL",
+      "evidence_ids": [
+        "API",
+        "RC",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F02",
+        "A07-F06",
+        "A07-F08"
+      ],
+      "residual": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "r1_status": "FAIL",
+      "r2_observed": "Eroarea după antet a produs HTTP 500 și un antet persistent în transport. Reluarea a produs alt antet și HTTP 201. După succes aceeași cheie și același payload reiau rezultatul fără scriere. Cu cantitate schimbată ori cu al doilea cabinet pe același CUI, aceeași cheie reia primul rezultat.",
+      "audit_evidence_disposition": "DEFECT",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "FAIL",
+      "r3_actual": "Retry după antet fără linii, după finalizarea cu succes, după schimbare de payload și după alt cabinet au dispoziții documentate separat în R2. Retry al reversării fizice native a rămas stabil la S1. Nu se transferă verdictul native la idempotency API.",
+      "r3_evidence": [
+        "R2",
+        "S6",
+        "AL"
+      ],
+      "r3_finding_ids": [
+        "A07-F02",
+        "A07-F06",
+        "A07-F08"
+      ],
+      "material_limit": "A11 reproduce și verifică efectul în cabinet și interfață cu roluri.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    },
+    {
+      "control_id": "A07.K27",
+      "pipeline_id": "A07.P6",
+      "title": "Jurnal și dovezi confidențiale",
+      "expected": "Sunt vizibile numai ID-urile permise și momentele etapelor; se maschează conturile/adresele și se păstrează corelarea.",
+      "observed": "Probele A07 consemnează IDs/fixturi fără date personale. Fişierele A01/A12 documentează alte controale de acces, însă căutarea după AWB/IBAN între firme și redactarea exportului din UI nu au fost reproduse aici.",
+      "status": "FAIL",
+      "evidence_ids": [
+        "RB",
+        "API",
+        "R1"
+      ],
+      "finding_ids": [
+        "A07-F06"
+      ],
+      "residual": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "r1_status": "PARTIAL",
+      "r2_observed": "Negativul nativ 403 pentru factură și refuzul altui CUI sunt dovedite. Replay-ul RMA dezvăluie ID-urile antet și linie ale altei firme administrate în alt cabinet pe același CUI; nu este dovedită citirea documentului integral. Redactarea exportului AWB/IBAN din UI nu a fost executată.",
+      "audit_evidence_disposition": "DEFECT",
+      "r2_scope": "Concluzie de control pe porțiunea demonstrată; limitările și probele restante sunt explicite în descriere.",
+      "prior_r2_status": "FAIL",
+      "r3_actual": "Refuzuri server-side dovedite pe cabinete distincte. Anomalia copil tenant B sub comanda A este EX02-I01/EX07, nu o a doua constatare A07. Pentru un export UI de AWB/IBAN redactat și pentru verificarea rolului comisionarului pe acel export rămâne nevoie de probă.",
+      "r3_evidence": [
+        "ROLE",
+        "EX02",
+        "R2"
+      ],
+      "r3_finding_ids": [
+        "A07-F06"
+      ],
+      "material_limit": "Pentru ACCEPTAT se cere executarea pasului rămas din descriere, captură UI cu rol, ID-uri persistente și stare finală.",
+      "quality_review": "A11 neacordat pentru versiunea R3"
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "A07.P1",
+      "title": "Aviz, aprobare și expediere",
+      "steps": "IU pick și aviz → serviciul documentelor → M_InOut/Line/MA → aprobare → comandă AWB",
+      "handoff": "A05 livrează cantități/locator/lot și proprietarul rezervării. A06 livrează comanda și adresele.",
+      "expected": "CO confirmat, 7 livrate, 3 rămase din 10.",
+      "controls": [
+        "A07.K01",
+        "A07.K02",
+        "A07.K03",
+        "A07.K04",
+        "A07.K05"
+      ],
+      "state": "PARȚIAL",
+      "required_retest": "Documente DR/IP/WP, răspuns pierdut și doi operatori simultan.",
+      "r2_controls": [
+        {
+          "id": "A07.K01",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K02",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K03",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K04",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K05",
+          "status": "PARTIAL"
+        }
+      ],
+      "remaining": "Documente DR/IP/WP, răspuns pierdut și doi operatori simultan.",
+      "r3_scope": "SO→aviz și PC demonstrat în S1; aprobarea comercială ERP nu face parte din aceeași probă.",
+      "r3_control_ids": [
+        "A07.K01",
+        "A07.K02",
+        "A07.K03",
+        "A07.K04",
+        "A07.K05"
+      ]
+    },
+    {
+      "id": "A07.P2",
+      "title": "Colete și ramburs la emitere",
+      "steps": "aprobare → colet și cheie de corelare → adaptor curier simulat → rezultat AWB → reconciliere",
+      "handoff": "A05 predă expediție fizică și colete. A10 preia retry și monitorizare.",
+      "expected": "Valorile brute 70+50, avans 30 alocat primei expediții, ramburs 40+50=90.",
+      "controls": [
+        "A07.K06",
+        "A07.K07",
+        "A07.K08",
+        "A07.K09",
+        "A07.K10"
+      ],
+      "state": "DEFECT_IDENTIFICAT",
+      "required_retest": "Timeout după emitere și răspuns duplicat, colet schimbat, eșec parțial.",
+      "r2_controls": [
+        {
+          "id": "A07.K06",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K07",
+          "status": "BLOCAT"
+        },
+        {
+          "id": "A07.K08",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K09",
+          "status": "FAIL"
+        },
+        {
+          "id": "A07.K10",
+          "status": "PARTIAL"
+        }
+      ],
+      "remaining": "Timeout după emitere și răspuns duplicat, colet schimbat, eșec parțial.",
+      "r3_scope": "2 colete demonstrate în nativ și în API sursă, fără emisiune fizică la curier; comparație nouă COD la repartizare și la decont.",
+      "r3_control_ids": [
+        "A07.K06",
+        "A07.K07",
+        "A07.K08",
+        "A07.K09",
+        "A07.K10"
+      ]
+    },
+    {
+      "id": "A07.P3",
+      "title": "Facturare și confirmare de livrare",
+      "steps": "politica canalului → aviz eligibil → confirmare semnată → factură → legături pe linii → contabilizare",
+      "handoff": "A06 furnizează preț/TVA la comandă. A03 verifică postul și perioada.",
+      "expected": "Niciun document pozitiv peste cantitatea și suma eligibile. Factura, stornarea și TVA ajung în capitolul corect.",
+      "controls": [
+        "A07.K11",
+        "A07.K12",
+        "A07.K13",
+        "A07.K14"
+      ],
+      "state": "DEFECT_IDENTIFICAT",
+      "required_retest": "CO fără dovadă transport, litigiu/retur deschis, evenimente în ordine inversă.",
+      "r2_controls": [
+        {
+          "id": "A07.K11",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K12",
+          "status": "FAIL"
+        },
+        {
+          "id": "A07.K13",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K14",
+          "status": "PARTIAL"
+        }
+      ],
+      "remaining": "CO fără dovadă transport, litigiu/retur deschis, evenimente în ordine inversă.",
+      "r3_scope": "CO aviz, starea agregată a site-ului și POD rămân fapte distincte. După politica târzie returul deschis și al doilea colet în tranzit nu permit facturarea integrală.",
+      "r3_control_ids": [
+        "A07.K11",
+        "A07.K12",
+        "A07.K13",
+        "A07.K14"
+      ]
+    },
+    {
+      "id": "A07.P4",
+      "title": "Decont și potrivire cu încasare",
+      "steps": "fișier curier/PSP → normalizare → excepții → extras → plată → alocare → balanță",
+      "handoff": "A04 deține parserul general. A03 preia reconcilierea contabilă. A01 controlează firma și IBAN.",
+      "expected": "Încasare 90, comision 8, virament 82. Soldul băncii și suma plăților se justifică separat.",
+      "controls": [
+        "A07.K15",
+        "A07.K16",
+        "A07.K17",
+        "A07.K18",
+        "A07.K19",
+        "A07.K20"
+      ],
+      "state": "DEFECT_IDENTIFICAT",
+      "required_retest": "Același fișier redenumit, AWB cu zero inițial, cont greșit, monedă diferită, potrivire ambiguă.",
+      "r2_controls": [
+        {
+          "id": "A07.K15",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K16",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K17",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K18",
+          "status": "FAIL"
+        },
+        {
+          "id": "A07.K19",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K20",
+          "status": "PARTIAL"
+        }
+      ],
+      "remaining": "Același fișier redenumit, AWB cu zero inițial, cont greșit, monedă diferită, potrivire ambiguă.",
+      "r3_scope": "Compararea extraselor, decontul cu sume swapate, DR/IP/VO/CO/RE în alocare, stornările și Posted sunt probate în trasee separate.",
+      "r3_control_ids": [
+        "A07.K15",
+        "A07.K16",
+        "A07.K17",
+        "A07.K18",
+        "A07.K19",
+        "A07.K20"
+      ]
+    },
+    {
+      "id": "A07.P5",
+      "title": "Retur, credit și restituire",
+      "steps": "cerere → autorizare RMA → recepție → decizie calitate/stoc → credit → sold/restituire",
+      "handoff": "A05 confirmă custodia și locatorul. A03 asigură tratamentul financiar.",
+      "expected": "Returnate 2 din 7, credit ≤ 2, nicio a doua restituire pentru evenimentul reluat.",
+      "controls": [
+        "A07.K21",
+        "A07.K22",
+        "A07.K23",
+        "A07.K24"
+      ],
+      "state": "DEFECT_IDENTIFICAT",
+      "required_retest": "Anulare înainte de predare sau marfă nerecepționată, credit deja alocat, retur în altă firmă.",
+      "r2_controls": [
+        {
+          "id": "A07.K21",
+          "status": "FAIL"
+        },
+        {
+          "id": "A07.K22",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K23",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "A07.K24",
+          "status": "PARTIAL"
+        }
+      ],
+      "remaining": "Anulare înainte de predare sau marfă nerecepționată, credit deja alocat, retur în altă firmă.",
+      "r3_scope": "Același SO leagă aviz, RMA, recepție și inversă în S1. Credit furnizor postat separat, credit comercial client și restituire completă pentru ORD101 neînchise.",
+      "r3_control_ids": [
+        "A07.K21",
+        "A07.K22",
+        "A07.K23",
+        "A07.K24"
+      ]
+    },
+    {
+      "id": "A07.P6",
+      "title": "Trasabilitate operator și continuitate",
+      "steps": "comandă → aviz → colet → factură → încasare → alocare → stornare → jurnal",
+      "handoff": "A09 asigură navigare și accesibilitate. A01 verifică izolarea, A10 recuperează coada.",
+      "expected": "Toate documentele afișate aparțin firmei, iar suma deschisă coincide cu documentele native.",
+      "controls": [
+        "A07.K25",
+        "A07.K26",
+        "A07.K27"
+      ],
+      "state": "DEFECT_IDENTIFICAT",
+      "required_retest": "Schimbare firmă din adresă, rescriere meniu, retry/reluare după restart.",
+      "r2_controls": [
+        {
+          "id": "A07.K25",
+          "status": "FAIL"
+        },
+        {
+          "id": "A07.K26",
+          "status": "FAIL"
+        },
+        {
+          "id": "A07.K27",
+          "status": "FAIL"
+        }
+      ],
+      "remaining": "Schimbare firmă din adresă, rescriere meniu, retry/reluare după restart.",
+      "r3_scope": "JWT/roluri și izolarea nativă au probe. Trecerea operatorului și navigarea cu toate documentele la capăt, în aceeași comandă, sunt incomplete.",
+      "r3_control_ids": [
+        "A07.K25",
+        "A07.K26",
+        "A07.K27"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "A07-F01",
+      "title": "Adaptorul comercial omite linia de expediție",
+      "severity": "RIDICAT",
+      "product_disposition": "CONFIRMAT",
+      "audit_disposition": "DOVEZI_CONSEMNATE_PENTRU_A11",
+      "observed": "Pe API cu drepturi și tenant reale, pentru linia comercială cunoscută metoda create_rma transmite produs+Qty fără M_InOutLine_ID. Prin model nativ, 2 au ajuns în CO la 1 livrat când lipsea linia; cu linie sursă, 2 au fost respinse. Procedura legitimă fără referință trebuie separată explicit.",
+      "evidence_ids": [
+        "R1",
+        "API",
+        "PG",
+        "SUP"
+      ],
+      "native_first": "Folosește M_RMALine.M_InOutLine_ID după verificarea firmei, avizului și articolului. Definește separat returul autorizat fără sursă, cu motiv și rol.",
+      "regression": "1 livrat, 2 cerute; sursă din alt client; retur fără sursă permis versus interzis.",
+      "limits": "Nu a fost exercitat același request HTTP FastAPI direct cu ERP pornit în R2; niveluri separate transport și ERP.",
+      "r3_disposition": "Menținut în limitele stabilite; nu s-a modificat produsul.",
+      "canonical_issue": "A07-F01",
+      "curator": "A07"
+    },
+    {
+      "finding_id": "A07-F02",
+      "title": "Reluarea după refuz de linie creează un al doilea antet RMA",
+      "severity": "RIDICAT",
+      "product_disposition": "CONFIRMAT",
+      "audit_disposition": "DOVEZI_CONSEMNATE_PENTRU_A11",
+      "observed": "FastAPI injectat cu eroare după antet dă 500. La aceeași cheie, retry dă 201 și al doilea antet. După succes replay identic nu adaugă rânduri.",
+      "evidence_ids": [
+        "API",
+        "R1"
+      ],
+      "native_first": "Preferă un SvrProcess tranzacțional pentru antet+linii, cu identificator de cerere persistent și unic pe cabinet, firmă și operație.",
+      "regression": "Eroare după antet, după prima linie, după CO/timeout; maximum un document pentru o singură cerere.",
+      "limits": "Persistența după eroare în R2 folosește transport CRUD simulat; scrierea individuală HTTP a clientului este demonstrată în cod identic cu imaginea.",
+      "r3_disposition": "Menținut în limitele stabilite; nu s-a modificat produsul.",
+      "canonical_issue": "A07-F02",
+      "curator": "A07"
+    },
+    {
+      "finding_id": "A07-F03",
+      "title": "Calea T22 utilizează aceeași locație pentru livrare și facturare",
+      "severity": "RIDICAT",
+      "product_disposition": "CONFIRMAT_PE_CALE",
+      "audit_disposition": "DOVEZI_CONSEMNATE_PENTRU_A11",
+      "observed": "Ambele settere primesc bp[1] (GeneratorDocumente.java 391/393). Coloane active distincte la native. Pe snapshot Garden nu a existat comandă de vânzare cu două valori diferite.",
+      "evidence_ids": [
+        "R1",
+        "PG"
+      ],
+      "native_first": "Determină separat Ship-To și Bill-To, persistă pe C_Order și păstrează copia aferentă comenzii la import.",
+      "regression": "Adrese diferite, actualizare master după comandă, reimprimare și retur.",
+      "limits": "Nu măsoară ce canale invocă acest generator sau incidente de expediție din producție.",
+      "r3_disposition": "Menținut în limitele stabilite; nu s-a modificat produsul.",
+      "canonical_issue": "A07-F03",
+      "curator": "A07"
+    },
+    {
+      "finding_id": "A07-F04",
+      "title": "Politica de facturare târzie nu este respectată pe ramura examinată T22",
+      "severity": "RIDICAT",
+      "product_disposition": "CONFIRMAT_CONDIȚIONAT",
+      "audit_disposition": "DOVEZI_CONSEMNATE_PENTRU_A11",
+      "observed": "Culegere.dupaComplete(CO,false) => LIVRAT; generatorul apelează facturaSiLegaturi după CO și după faza 2. Nu există în acea decizie o confirmare de livrare de la curier. Faptul contează pentru canalele cu facturare târzie.",
+      "evidence_ids": [
+        "R1",
+        "RC",
+        "PO"
+      ],
+      "native_first": "Folosește M_InOut pentru aviz și eveniment separat de livrare/incident, cu politica pe canal și C_Invoice generat exclusiv pentru liniile eligibile.",
+      "regression": "CO fără predare; livrare parțială; retur deschis și retry.",
+      "limits": "Reversarea furnizor și colet cu TrackingNo nu reprezintă confirmare POD.",
+      "r3_disposition": "Menținut în limitele stabilite; nu s-a modificat produsul.",
+      "canonical_issue": "A07-F04",
+      "curator": "A07"
+    },
+    {
+      "finding_id": "A07-F05",
+      "title": "Alocarea poate stinge plata pe o factură neeligibilă",
+      "severity": "RIDICAT",
+      "product_disposition": "CONFIRMAT_EXTINS",
+      "audit_disposition": "DOVEZI_CONSEMNATE_PENTRU_A11",
+      "observed": "GardenUser 103: DR/IP/VO => CO/E, plata alocată; factură CO => CO/Y; RE => CO/Y. Storno alocare RE/Y în toate cinci cazuri. R1 local confirmă CO/E 30 pe factură DR.",
+      "evidence_ids": [
+        "AL",
+        "PG",
+        "R1"
+      ],
+      "native_first": "Validează în procesul nativ de alocare starea/semnul/soldul real al facturii și disponibilul plății în aceeași tranzacție; expune avans nealocat în UI.",
+      "regression": "DR/IP/VO/RE refuz conform operației, CO cu sold eligibil; retry și stornare în perioade diferite.",
+      "limits": "Reconcilierea plății nu garantează Posted=Y. Accesul tuturor rolurilor de producție nu a fost dedus.",
+      "r3_disposition": "Menținut în limitele stabilite; nu s-a modificat produsul.",
+      "canonical_issue": "A07-F05",
+      "curator": "A07"
+    },
+    {
+      "finding_id": "A07-F06",
+      "title": "Aceeași cheie de reluare dezvăluie ID-uri între cabinete cu același CUI",
+      "severity": "RIDICAT",
+      "product_disposition": "NOU_CONFIRMAT_HTTP",
+      "audit_disposition": "DOVEZI_CONSEMNATE_PENTRU_A11",
+      "observed": "Cabinet B cu CUI comun și aceeași cheie primește HTTP 201, RMA 11002 al cabinetului A și ID-ul liniei; către B nu se trimite cerere ERP. Cu cheie proprie B primește 21001. Niciun impact asupra datelor reale.",
+      "evidence_ids": [
+        "API"
+      ],
+      "native_first": "Leagă idempotency de ID-ul imuabil al cabinetului, firmei, operației și cheii. Migrează intrările vechi cu domeniul verificabil, altfel nu le reutiliza.",
+      "regression": "Aceeași firmă atribuită la două cabinete, aceeași cheie; niciun replay încrucișat.",
+      "limits": "Este un test HTTP local al răspunsului, cu transport de documente simulat. Nu demonstrează citirea conținutului întregului RMA din alt cabinet.",
+      "r3_disposition": "Menținut în limitele stabilite; nu s-a modificat produsul.",
+      "canonical_issue": "A01.F04 / rută RMA A07-F06",
+      "curator": "A01 securitate; A07 pentru fluxul retur"
+    },
+    {
+      "finding_id": "A07-F07",
+      "title": "Aprobarea cumulată concurentă depășește cantitatea expediată chiar cu linie sursă",
+      "severity": "RIDICAT",
+      "product_disposition": "NOU_CONFIRMAT_NATIV",
+      "audit_disposition": "DOVEZI_CONSEMNATE_PENTRU_A11",
+      "observed": "Pe aceeași linie 101 (livrat 2), două sesiuni au obținut CO de câte 2. Total autorizat 4, cantitatea primită încă zero. Martorul unic 3 a primit refuz. Distinct de F01.",
+      "evidence_ids": [
+        "RC",
+        "SUP",
+        "R1"
+      ],
+      "native_first": "Sub blocarea liniei sursă, recitește suma deja autorizată și stările eligibile când eliberezi autorizația, în același proces/tranzacție. Menține documentele native și eliberarea prin stornare.",
+      "regression": "Două sesiuni 2+2 pe sursa 2; numai una primește CO. 1+1 este permis. Recepție ulterioară conservă cantitățile.",
+      "limits": "Nu s-a primit fizic cantitate 4 și nu s-a creditat o asemenea cantitate.",
+      "r3_disposition": "Menținut în limitele stabilite; nu s-a modificat produsul.",
+      "canonical_issue": "A07-F07",
+      "curator": "A07"
+    },
+    {
+      "finding_id": "A07-F08",
+      "title": "Reutilizarea cheii cu alt conținut returnează succes pentru cererea veche",
+      "severity": "MEDIU",
+      "product_disposition": "NOU_CONFIRMAT_HTTP",
+      "audit_disposition": "DOVEZI_CONSEMNATE_PENTRU_A11",
+      "observed": "După succes la Qty=2, aceeași cheie cu Qty=9 primește 201 și același ID fără nicio scriere. Idempotency verifică tenant, rută și cheie, nu amprenta datelor.",
+      "evidence_ids": [
+        "API"
+      ],
+      "native_first": "Păstrează hashul unei reprezentări canonice a cererii; replay identic recuperează documentul iar payload diferit e refuzat explicit.",
+      "regression": "Qty diferit sau altă linie; eroare 409 fără efect și cu identificator de audit.",
+      "limits": "Această probă include numai ruta retururilor; alte rute cu același mecanism necesită control separat.",
+      "r3_disposition": "Menținut în limitele stabilite; nu s-a modificat produsul.",
+      "canonical_issue": "A07-F08",
+      "curator": "A07"
+    },
+    {
+      "finding_id": "A07-F09",
+      "title": "Poarta de reconciliere verifică borderoul și viramentul, dar nu detectează COD mutat de pe o expediție pe alta",
+      "severity": "RIDICAT dacă această poartă este folosită pentru stingere automată după asocierea AWB",
+      "canonical_issue": "A07-F09",
+      "product_disposition": "DIFERENȚĂ REPRODUSĂ LA NIVEL DE COMPONENTĂ",
+      "confidence": "Ridicată pentru cele două JAR-uri și funcțiile exercitate; nu s-a postat un borderou incorect în ERP.",
+      "input": "Expedițiile 21/22 au brut 70/50, avans de 30 alocat primei. Drepturi 40/50, comision 3/5, viramente 37/45. Varianta eronată prezintă 50/40, viramente 47/35 și aceeași bancă 82. Liniile au identitate AWB exactă, legătură și ID-uri de factură sintetice.",
+      "expected": "Semnalează ±10 pe expedițiile individuale și cere reconcilierea; suma erorilor absolute este 20 iar diferența netă totală este 0.",
+      "observed": "MotorCorelare recunoaște numerele de AWB și cauzele comisionului; AplicareDecont.poarta returnează null atât pentru cazul corect, cât și pentru cel cu sumele redistribuite. Dublura cu plată existentă, suma nereconciliată la bancă, moneda necorespunzătoare și luna închisă sunt martori negativi separați.",
+      "source": "CoreleazaComenzi.linie/decontare selectează expediția, comanda și factura și transmite valorile liniei de decont. În acest traseu nu reconciliază cu suma exigibilă înghețată pentru fiecare document de expediție. AplicareDecont.poarta validează sumele și starea liniilor.",
+      "owner": "A07 pentru corelare; A06 furnizează repartizarea soldului; A03 confirmă soldurile/alocările.",
+      "native_remediation": "Înaintea alocării native, confruntă identitatea M_InOut/M_Package și suma exigibilă pe acea expediție după avans, rambursări și modificări aprobate. Îngheață versiunea de calcul și trimite abaterile la clarificare. Păstrează plata și alocarea în C_Payment/C_AllocationHdr.",
+      "regression": "Sume swapate, două colete cu același total, avans parțial, reluare după plata existentă, expediție înlocuită și perioadă închisă. Abaterea de 20 absolut nu trebuie să dispară în net zero.",
+      "dedup": "EX07 testează suma la stabilirea rambursului înainte de expediție. A07-F09 privește reconcilierea unui borderou deja emis. Nu se numără drept incident de colectare reală și nici drept repetare a riscului între cabinete.",
+      "evidence": [
+        "COD",
+        "R2",
+        "EX07"
+      ]
+    }
+  ],
+  "r3_evidence_index": {
+    "R2": [
+      {
+        "path": "R2_zone/A07/A07_raport.json",
+        "sha256": "1f65dab4c56d1f1aa3523e8e1e6c879e33ada2182a347ae7a974a29b243d233d"
+      }
+    ],
+    "R1": [
+      {
+        "path": "A07_raport.json",
+        "sha256": "4d7ef81968dd14e44803da5f252facc278fa20aedbc8e11a2018eb5ac834dff6"
+      }
+    ],
+    "PEER": [
+      {
+        "path": "supliment_CESIRO1/probe/EX07_peer_A03.json",
+        "sha256": "52080bf8cefdd2e02ec85463a0fa91d8105669276c68fa2a9819c5321be2687a"
+      }
+    ],
+    "EX07": [
+      {
+        "path": "supliment_CESIRO1/probe/EX07.json",
+        "sha256": "0c7815b21b143d328afa56f429b941b6043185fcdd1341f921a9b43a234337d2"
+      },
+      {
+        "path": "A11_control_CESIRO1_EX01_EX08.json",
+        "sha256": "9e5fe0b5938dfb4e8fefb4f3b12723e2a05bcf9d72fca7f695bec17530184101"
+      }
+    ],
+    "EX02": [
+      {
+        "path": "supliment_CESIRO1/probe/EX02.json",
+        "sha256": "3244d3609f23d97c003de3de5f7c98418b200cda155fa10845cfd9b444a77e85"
+      },
+      {
+        "path": "A11_control_CESIRO1_EX01_EX08.json",
+        "sha256": "9e5fe0b5938dfb4e8fefb4f3b12723e2a05bcf9d72fca7f695bec17530184101"
+      }
+    ],
+    "AL": [
+      {
+        "path": "Reverificare_alocare_incasari_stari.json",
+        "sha256": "2f6297678fd27b77d42296d3994cfcf8a4eab89e801671a92442314346088a1c"
+      }
+    ],
+    "ROLE": [
+      {
+        "path": "Reverificare_rol_DocAction.json",
+        "sha256": "1f13aa9d19c636545f535fa1c7d8de8f10c4791e6db44103338b5260437d4fa8"
+      }
+    ],
+    "SUP": [
+      {
+        "path": "R2_zone/A04/native-return.json",
+        "sha256": "cb7da0781fb8aec06cefaf649b7d327b47c4e8846f61d0ac1c973e1e07205258"
+      },
+      {
+        "path": "R3_zone/A04/credit_si_politica_schema.json",
+        "sha256": "a523268feb2974b47255c6dae984a754dfe78223a543179274895f3346e128ab"
+      }
+    ],
+    "S6": [
+      {
+        "path": "Reverificare_Flux_S1_aviz_retur_R6.json",
+        "sha256": "1a2e23d14bd8a85105153e2ca951290f712bea83b6a6936bdbfcf7122d026033"
+      },
+      {
+        "path": "R3_zone/A07/probe/reconciliere_independenta.json",
+        "sha256": "708fbf12c40745989b02c895a8c7f8ae6e04bacbe332c6b5afc8727ba9febe93"
+      }
+    ],
+    "PAR": [
+      {
+        "path": "Reverificare_retur_concurent_colete.json",
+        "sha256": "0a19fa8c3a6b63624fcab645c6c6bd002cf2af830aae76cafedb7550350083e8"
+      }
+    ],
+    "BANK": [
+      {
+        "path": "R3_zone/A07/probe/A07R7Bank.java",
+        "sha256": "7ef3e1b68df23928fbb0781ea0150ef5abb224779cbb226371bf013e684b4750"
+      },
+      {
+        "path": "R3_zone/A07/probe/r7-bank-master.txt",
+        "sha256": "3e55cbac451cc8c1414e9922111ce997fdc8887979e36a774a32408ef6ae1d3d"
+      },
+      {
+        "path": "R3_zone/A07/probe/r7-bank-installed.txt",
+        "sha256": "3e55cbac451cc8c1414e9922111ce997fdc8887979e36a774a32408ef6ae1d3d"
+      },
+      {
+        "path": "R3_zone/A07/probe/check-original-case.cjs",
+        "sha256": "00b8c262be30370e54c986bedae41600e3f9d3e1f611ca0ae10a5682e79babd3"
+      },
+      {
+        "path": "R3_zone/A07/probe/reconciliere_independenta.json",
+        "sha256": "708fbf12c40745989b02c895a8c7f8ae6e04bacbe332c6b5afc8727ba9febe93"
+      },
+      {
+        "path": "R7/Registru_reexecutare_R7.json",
+        "sha256": "57b0417fe20d4a74e0c02e00970a6ed883ca4db43074044ed085d03305c1f821"
+      }
+    ],
+    "COD": [
+      {
+        "path": "R3_zone/A07/probe/A07R3COD.java",
+        "sha256": "97199b08ccaa775a5cd0c4b5c7dd5c405b050b144d4d4735882738deb618deb5"
+      },
+      {
+        "path": "R3_zone/A07/probe/cod-master.txt",
+        "sha256": "0ee67b3415dd6050d2852c7cb3a18d3f1e241951c04215964bdda1be27a74fa8"
+      },
+      {
+        "path": "R3_zone/A07/probe/cod-installed.txt",
+        "sha256": "0ee67b3415dd6050d2852c7cb3a18d3f1e241951c04215964bdda1be27a74fa8"
+      }
+    ],
+    "A11": [
+      {
+        "path": "A11_control_zone_R2_lotC.json",
+        "sha256": "9bc358efb03418cfc7daaf96278b0aa81f4c7d9707783e7f5f1109b844bf21a0"
+      }
+    ],
+    "DEDUP": [
+      {
+        "path": "R3_zone/A01/A01_raport.json",
+        "sha256": "ccdd07ee02778eaa874f6fe276aa41c4f83c831562e33e1c5a4e853eab979026"
+      },
+      {
+        "path": "supliment_CESIRO1/probe/EX02.json",
+        "sha256": "3244d3609f23d97c003de3de5f7c98418b200cda155fa10845cfd9b444a77e85"
+      }
+    ],
+    "A11EX": [
+      {
+        "path": "A11_control_CESIRO1_EX01_EX08.json",
+        "sha256": "9e5fe0b5938dfb4e8fefb4f3b12723e2a05bcf9d72fca7f695bec17530184101"
+      }
+    ]
+  },
+  "source_index": [
+    {
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/MotorCorelare.java",
+      "sha256": "c287e9084aebfaa271afb761d9290059db7d0a67ea75b5393fae84f59af4f38f",
+      "anchors": [
+        {
+          "term": "public static List<Integer> candidatiAwb",
+          "line": 116
+        },
+        {
+          "term": "public static Decontare evalueazaDecontare",
+          "line": 152
+        }
+      ]
+    },
+    {
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/CoreleazaComenzi.java",
+      "sha256": "b31e84fc361861d1ae4ad7f738b080f0df3cb1c23361a65dff5d220c1e306666",
+      "anchors": [
+        {
+          "term": "int cmd = DB.getSQLValueEx",
+          "line": 451
+        },
+        {
+          "term": "MotorCorelare.Decontare d = decontare(l, monedaComanda)",
+          "line": 458
+        },
+        {
+          "term": "MotorCorelare.evalueazaDecontare((BigDecimal)",
+          "line": 495
+        }
+      ]
+    },
+    {
+      "file": "idempiere/plugins/com.eva.ro.contab/src/com/eva/ro/contab/corelare/AplicareDecont.java",
+      "sha256": "2459aec07f0621084652751db7176cf25054010f3038d1209b74b030544273ef",
+      "anchors": [
+        {
+          "term": "public static String poarta(",
+          "line": 40
+        },
+        {
+          "term": "if (sumaLinie == null ||",
+          "line": 48
+        },
+        {
+          "term": "if (arePlata)",
+          "line": 60
+        }
+      ]
+    },
+    {
+      "file": "idempiere/plugins/com.eva.ro.contab/test/TestComparatieSaga.java",
+      "sha256": "d85dfdb31c780c4dff32b254a762e80bdf073e6e203018c06c9b28d87173f9b5",
+      "anchors": [
+        {
+          "term": "static void fixtura()",
+          "line": 209
+        },
+        {
+          "term": "static void t01t02()",
+          "line": 85
+        },
+        {
+          "term": "static void t20()",
+          "line": 445
+        }
+      ]
+    },
+    {
+      "file": "idempiere/plugins/com.eva.ro.contab/test/fixtures/banca/comparatie_eva_2026.tsv",
+      "sha256": "083c689cd4f04840b318f17ae3af3cddf5caf19384eb729dc96555c02df887e8",
+      "anchors": []
+    },
+    {
+      "file": "idempiere/plugins/com.eva.ro.contab/test/fixtures/banca/comparatie_saga_2026.tsv",
+      "sha256": "78425f295791230c4d1afca565d3a1d105f2bfd3bad80aab9702592cdaed1e2c",
+      "anchors": []
+    }
+  ],
+  "package_identities": [
+    {
+      "name": "cod-master-contab.jar",
+      "sha256": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69"
+    },
+    {
+      "name": "com.eva.ro.contab_13.0.0.jar",
+      "sha256": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2"
+    },
+    {
+      "name": "org.adempiere.base_13.0.0.202603090043.jar",
+      "sha256": "86c82f54299f55e8f5089e0c48f13dc29432fdecec205a51560eb48dc54ac8c3"
+    },
+    {
+      "name": "org.adempiere.base.process_13.0.0.202603090043.jar",
+      "sha256": "dd1792b315d85732c8da386dab49bfb94b794547bc2b2d8b93a375532044a8b2"
+    }
+  ],
+  "ownership_and_dedup": [
+    {
+      "key": "A01.F04",
+      "also": "A07-F06",
+      "rule": "Aceeași familie de izolări la CUI comun, rută retur. A01.F04 este eticheta canonică în sumarul transversal; A07 păstrează ID-ul istoric pentru trasabilitate."
+    },
+    {
+      "key": "CESIRO1-EX02-I01",
+      "also": "EX07 tenant copil inconsistent",
+      "rule": "Unicul incident pe filtrarea copiilor cu alt tenant. Nu se adaugă la numărul A07 și nu se unește cu idempotency RMA."
+    },
+    {
+      "key": "A07-F07",
+      "rule": "Concurență cumulată cu linie furnizată. A07-F01 este lipsa liniei din adaptor, alt mecanism."
+    },
+    {
+      "key": "A07-F08",
+      "rule": "Același cabinet + alt payload; distinct de F06 expunerea între cabinete."
+    },
+    {
+      "key": "A07-F09",
+      "rule": "Reconcilierea borderoului față de dreptul pe fiecare expediție. Implicitul site COD pentru avans (EX07) este la emitere, nu aceeași condiție."
+    }
+  ],
+  "traceability": {
+    "R7": [
+      {
+        "case": "T06-R2-005",
+        "historical_alias": "T06, planul anterior pentru P01.T171 / P01.C04.T0005",
+        "prior_R7": "NEEXECUTAT",
+        "new": "EXECUTAT_COMPONENTĂ comparator și ținte T04–T13",
+        "exclude": "Nu atestă montarea, debitul bancar, importul în UI sau întregul task."
+      },
+      {
+        "case": "T06-R2-006",
+        "historical_alias": "T06, planul anterior pentru P01.T171 / P01.C04.T0005",
+        "prior_R7": "NEEXECUTAT",
+        "new": "EXECUTAT_COMPONENTĂ reguli TSV și runtime plus localizare",
+        "exclude": "Nu rescrie dosarul R7 sigilat și nu transformă subcontrolul într-o acceptare de implementare."
+      }
+    ],
+    "S1": {
+      "source_sha256": "1a2e23d14bd8a85105153e2ca951290f712bea83b6a6936bdbfcf7122d026033",
+      "SO": 1000000,
+      "ship": 1000001,
+      "confirmation": 1000001,
+      "source_line": 1000001,
+      "rma": 1000002,
+      "customer_return_native": 1000002,
+      "link_to_T337_staging": [],
+      "CO_after_SC": [
+        [
+          "1000002",
+          "CO",
+          "Y",
+          "",
+          "1000002"
+        ]
+      ],
+      "after_RC": [
+        [
+          "1000002",
+          "RE",
+          "Y",
+          "1000003",
+          "1000002"
+        ],
+        [
+          "1000003",
+          "RE",
+          "Y",
+          "1000002",
+          "1000002"
+        ]
+      ],
+      "moves_and_posted": [
+        [
+          "1000004",
+          "1000002",
+          "123",
+          "1.0",
+          "1000000"
+        ],
+        [
+          "1000005",
+          "1000003",
+          "123",
+          "-1.0",
+          "1000000"
+        ]
+      ],
+      "accounting": [
+        [
+          "1000002",
+          "101",
+          "2",
+          "51.45",
+          "51.45"
+        ],
+        [
+          "1000002",
+          "200000",
+          "2",
+          "43.73",
+          "43.73"
+        ],
+        [
+          "1000003",
+          "101",
+          "2",
+          "51.45",
+          "51.45"
+        ],
+        [
+          "1000003",
+          "200000",
+          "2",
+          "43.73",
+          "43.73"
+        ]
+      ],
+      "qty_net": 0,
+      "idempotent_movement_and_FactAcct_sets_on_retry": true
+    },
+    "threshold": "zero mișcări suplimentare și același set de Fact_Acct după retry pe recepția de retur; acesta este retur fizic și stornare, fără factură client."
+  },
+  "open_conditions": [
+    {
+      "owner": "A07 + A06 + A03",
+      "what": "Pornește de la comanda importată prin procesul autorizat; păstrează aceeași identitate prin facturare client și retur pe linii. ERP și site trebuie configurate cu politica și numerotarea specifică. C-urile existente nu trebuie dublate."
+    },
+    {
+      "owner": "A07 + A10",
+      "what": "Pentru riscul F09, verifică o alocare ERP în mediu cu repartizarea COD pe expediție persistată și borderoul discrepant imputat. Nu folosi un test cu totalul nemodificat drept dovadă de ramburs încasat greșit."
+    },
+    {
+      "owner": "A09 + A01",
+      "what": "Audit UI pentru aceleași documente pe gestionar/vânzări/contabil/comisionar, inclusiv refuz și recuperare în ecran. Confirmarea nativă 403, DTO și SELECT nu înlocuiesc aceste acțiuni."
+    },
+    {
+      "owner": "A11",
+      "what": "Reexecută cele două criterii R7 și comparația de COD, verifică manifestul și dispozițiile F06/F09. Zero note autoatribuite."
+    }
+  ],
+  "environment": "Test suplimentar local pe JDK21 și JAR-uri Git/instalate; fără ERP nou, tranzacții partener, server nou sau modificare de produs. Documentele anterioare rămân în copiile originale."
+}

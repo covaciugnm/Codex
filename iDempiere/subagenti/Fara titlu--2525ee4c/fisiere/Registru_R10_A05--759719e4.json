@@ -1,0 +1,101 @@
+{
+  "edition": "R10 A05",
+  "utc": "2026-11-02T20:57:27.982111+00:00",
+  "cutoff": "6df998aee0e514d30856c461962afe99ebd0d113",
+  "score": null,
+  "requested_primary_rows": 2,
+  "additional_native_rows": 3,
+  "rows": [
+    {
+      "id": "T329-R2-012",
+      "canonical": "P01.C03.T0015",
+      "disposition": "NECONFORMITATE_DEMONSTRATĂ_CU_DOUĂ_SCHEME",
+      "evidence": {
+        "name": "T329_raport_individual_A05.json",
+        "sha256": "80a52a0972d5ef17ede41b4110148dee91d110cd0a60bdce93ceef49bc6ff775",
+        "size": 12830
+      },
+      "observed": "Două linii USD încercate la 60 se pierd la refuzul schemei secundare. Jurnalul stornării nominale rămâne gol. Pe martorul postat cu două scheme, 8/8 valori directe f.M_AttributeSetInstance_ID sunt egale cu ASI de pe linie, tranzacție și lot. Cu numai USD, pe caz nominal nou, bon și stornare au fiecare două linii contabilizate.",
+      "boundary": "Mesajul intern al stornării nominale nu a fost capturat; mecanismul se delimitează prin urmele fizice, sursa nativă și controlul doar USD."
+    },
+    {
+      "id": "T330-R2-025",
+      "canonical": "P01.C03.T0016",
+      "disposition": "SUITĂ_NEEXECUTATĂ_REFUZ_INFRASTRUCTURĂ",
+      "execution_conditions": {
+        "exact_source": "git archive din 6df998aee0e514d30856c461962afe99ebd0d113, lansator oficial baza_teste.sh. Cereri private prin §40/61. Fără arhive SAGA de producție; doar mount gol/fixtură și --network none la runner.",
+        "denominator": "282 contab, 18 saga.native și Garda.",
+        "evidence": {
+          "name": "T330_suita_rezultat.json",
+          "sha256": "4ae939edc275feef2000b0df9c601977972341de9e97a91c5d704a049262956f",
+          "size": 112732
+        },
+        "resource_log": {
+          "name": "T330_admitere_si_resurse.txt",
+          "sha256": "ae9e245fcb4cacefeccced7889e6c14ffa549926f0a715e62600832c8d351aef",
+          "size": 1880
+        },
+        "prior_formal_discrepancy": "În R9 binarul Git și cel r57 au MD5 diferit. Diferența este independentă de starea suitei R10."
+      },
+      "independent_component_only": {
+        "A12": {
+          "relative": "executie/R10_pregatire/A12/T330_reconciliere_de_componente_301.json",
+          "sha256": "b52215c75488c649e54c7379d1f8d7e368105a705f93a50c681719fff1614a1c",
+          "nominal_java_classes": 300,
+          "both_binaries_with_an_exit_zero": 82,
+          "one_binary_with_an_exit_zero": 7,
+          "only_unsuccessful_runs_in_selected_corpus": 65,
+          "no_logs_in_selected_corpus": 146,
+          "interpretation": "Reconcilierea R5/R10 a verificat 455 de loguri, cu rezultate care se pot suprapune între ediții. Niciun test din această comparație nu dovedește execuția suitei complete în exportul R10."
+        },
+        "TestFefo_R9": {
+          "relative": "executie/R9_pregatire/A05/T330_lista_claselor_rulate_R9.json",
+          "sha256": "9e4ee3ee3d06cf0e5e70dabe55160e3822de14e1219f2a439fad0b5ab1442067",
+          "assertions_by_target": [
+            183,
+            183,
+            183
+          ],
+          "integral_release_suites": 0
+        }
+      },
+      "boundary": "Numitorul de 301 nu este un număr de clase verificate. O cerere refuzată înaintea suitei nu este un test de produs eșuat și nici un skip al runnerului."
+    },
+    {
+      "id": "T325-R2-010",
+      "canonical": "P01.C03.T0011",
+      "disposition": "COMPONENTĂ_NATIVĂ_RERULATĂ",
+      "evidence": {
+        "name": "T325_regresii_native.json",
+        "sha256": "14807747fc7fab64975294dd1054c51d8efd65ca9d0fb7dd5a9c12a2fc82c363",
+        "size": 3543
+      },
+      "observed": "Transfer cu cost în aceeași gestiune, NIR/jurnal neschimbat, 0 straturi/miscări EVA noi și jurnal nativ cu 4 fapte nenule, net zero per cont/schemă.",
+      "boundary": "Lipsește chemarea EVA_Amplasez de pe factura furnizor."
+    },
+    {
+      "id": "T325-R2-018",
+      "canonical": "P01.C03.T0011",
+      "disposition": "COMPONENTĂ_NATIVĂ_RERULATĂ",
+      "evidence": {
+        "name": "T325_regresii_native.json",
+        "sha256": "14807747fc7fab64975294dd1054c51d8efd65ca9d0fb7dd5a9c12a2fc82c363",
+        "size": 3543
+      },
+      "observed": "Transfer cu cost în aceeași gestiune, NIR/jurnal neschimbat, 0 straturi/miscări EVA noi și jurnal nativ cu 4 fapte nenule, net zero per cont/schemă.",
+      "boundary": "Lipsește chemarea EVA_Amplasez de pe factura furnizor."
+    },
+    {
+      "id": "T325-R2-028",
+      "canonical": "P01.C03.T0011",
+      "disposition": "COMPONENTĂ_NATIVĂ_RERULATĂ",
+      "evidence": {
+        "name": "T325_regresii_native.json",
+        "sha256": "14807747fc7fab64975294dd1054c51d8efd65ca9d0fb7dd5a9c12a2fc82c363",
+        "size": 3543
+      },
+      "observed": "Transfer cu cost în aceeași gestiune, NIR/jurnal neschimbat, 0 straturi/miscări EVA noi și jurnal nativ cu 4 fapte nenule, net zero per cont/schemă.",
+      "boundary": "Lipsește chemarea EVA_Amplasez de pe factura furnizor."
+    }
+  ]
+}

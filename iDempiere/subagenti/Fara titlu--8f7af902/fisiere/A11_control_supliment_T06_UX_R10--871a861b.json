@@ -1,0 +1,46 @@
+{
+  "utc": "2026-11-02T20:49:53.278784+00:00",
+  "reviewer": "A11",
+  "source": "A12/T06_UI/Rezultat.json",
+  "sha": "090ba565629093ca34b866fec4b932b1d5833f229eaa514693441bdf747cb63c",
+  "receipts_verified": 6,
+  "dom_rows": 168,
+  "export_rows": 168,
+  "comparable_cells": 4200,
+  "mismatched_cells": 0,
+  "altered_copy_one_cell_detected": [
+    [
+      17,
+      6
+    ]
+  ],
+  "negative_filter": [
+    [
+      "A12R10-1",
+      137,
+      137
+    ],
+    [
+      "A12R10-10",
+      0,
+      137
+    ],
+    [
+      "A12R10-10",
+      0,
+      137
+    ],
+    [
+      "(toate conturile)",
+      168,
+      168
+    ]
+  ],
+  "count_from_database_control": {
+    "A12R10-1": 137,
+    "A12R10-10": 0
+  },
+  "scope": "Pentru selecția concretă toate conturile, intervalul ianuarie–iunie 2026, cele 4.200 de valori DOM/CSV coincid după normalizarea spațiilor. După filtrarea pe un cont cu zero rezultate, grila devine goală iar subsolul păstrează 137 inclusiv la reîncărcare. Revenirea la toate conturile afișează 168. Este o deficiență de indicator UI; nu este o eroare de cuantum contabil și nu afectează prin ea însăși CSV-ul verificat.",
+  "R10_quality_score": null,
+  "implementation_score": null
+}

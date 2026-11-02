@@ -1,6 +1,6 @@
 import urllib.request,urllib.error,urllib.parse,ssl,json,pathlib,re
 exec(pathlib.Path('/tmp/codex-a05.ObWQES/fixture.py').read_text().split('if __name__')[0])
-st,x=request('POST','auth/tokens',{'userName':'GardenAdmin','password':'GardenAdmin'}); t=x['token']
+st,x=request('POST','auth/tokens',{'userName':'GardenAdmin','password':'[CREDENTIAL_REDACTED]'}); t=x['token']
 def get(m,route,data=None):
  h={'Authorization':'Bearer '+t,'Content-Type':'application/json','Accept':'application/json'}
  r=urllib.request.Request('https://'+ip+':8443/api/v1/'+route,data=json.dumps(data).encode() if data is not None else None,method=m,headers=h)

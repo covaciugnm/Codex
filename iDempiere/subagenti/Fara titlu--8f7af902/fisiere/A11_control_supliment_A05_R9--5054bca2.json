@@ -1,0 +1,159 @@
+{
+  "utc": "2026-11-02T18:43:48.139791+00:00",
+  "reviewer": "A11",
+  "registry_sha": "9d98a0081daadd5400bdb69a6a0739eb0f1b10880c3c37ad65fab79ec8995a5a",
+  "manifest_sha": "f560be6987ff3bdd9b6af305f7a36f76bff33f14605fd8bb75f36db445318f30",
+  "proof_files_hashed": 16,
+  "independent_cost_observation": {
+    "nominal": {
+      "CO": {
+        "unique_posted_states": [
+          "E"
+        ],
+        "n_docs": 1,
+        "facts_by_document_line": 0,
+        "moves": [
+          [
+            "IESIRE",
+            -5,
+            -60.0
+          ]
+        ]
+      },
+      "RC": {
+        "unique_posted_states": [
+          "E"
+        ],
+        "n_docs": 2,
+        "facts_by_document_line": 0,
+        "moves": [
+          [
+            "IESIRE",
+            -5,
+            -60.0
+          ],
+          [
+            "STORNO",
+            5,
+            60.0
+          ]
+        ]
+      },
+      "retry": {
+        "unique_posted_states": [
+          "E"
+        ],
+        "n_docs": 2,
+        "facts_by_document_line": 0,
+        "moves": [
+          [
+            "IESIRE",
+            -5,
+            -60.0
+          ],
+          [
+            "STORNO",
+            5,
+            60.0
+          ]
+        ]
+      }
+    },
+    "repeat": {
+      "CO": {
+        "unique_posted_states": [
+          "E"
+        ],
+        "n_docs": 1,
+        "facts_by_document_line": 0,
+        "moves": [
+          [
+            "IESIRE",
+            -5,
+            -60.0
+          ]
+        ]
+      },
+      "RC": {
+        "unique_posted_states": [
+          "E"
+        ],
+        "n_docs": 2,
+        "facts_by_document_line": 0,
+        "moves": [
+          [
+            "IESIRE",
+            -5,
+            -60.0
+          ],
+          [
+            "STORNO",
+            5,
+            60.0
+          ]
+        ]
+      },
+      "retry": {
+        "unique_posted_states": [
+          "E"
+        ],
+        "n_docs": 2,
+        "facts_by_document_line": 0,
+        "moves": [
+          [
+            "IESIRE",
+            -5,
+            -60.0
+          ],
+          [
+            "STORNO",
+            5,
+            60.0
+          ]
+        ]
+      }
+    }
+  },
+  "positive_control": {
+    "n_facts": 8,
+    "retry_same_eight": true,
+    "schema_totals_by_doc": {
+      "(1000004, 'USD')": [
+        60.0,
+        60.0,
+        2
+      ],
+      "(1000004, 'EUR')": [
+        57.8,
+        57.8,
+        2
+      ],
+      "(1000005, 'USD')": [
+        60.0,
+        60.0,
+        2
+      ],
+      "(1000005, 'EUR')": [
+        57.8,
+        57.8,
+        2
+      ]
+    },
+    "raw_observation": "Sumele de 60 USD și 57,80 EUR sunt din cele două scheme ale martorului distinct. În cele două încercări nominale nu există jurnal imediat pentru liniile documentelor deși motorul a înregistrat ieșire și stornare. E este starea de postare observată; cauza exactă nu este dovedită global."
+  },
+  "ASI_attribution": "Condiția Fact_Acct din cabinet este urmărită prin f.Record_ID/Line_ID. ASI din rezultate provine din l.M_AttributeSetInstance_ID (linia M_InventoryLine), nu din coloana f.M_AttributeSetInstance_ID. Prezența coloanei în dictionar nu stabilește valoarea stocată în jurnal.",
+  "jar_compare": {
+    "git_sha": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+    "installed_sha": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+    "all_differences": 167,
+    "class_differences": 76,
+    "other_entries": 91,
+    "different_contents": 33,
+    "only_git": 134,
+    "scope": "Această numărătoare este exclusiv pentru com.eva.ro.contab. Nu reprezintă 76 funcții defecte, atribuirea diferențelor exclusiv T330 sau execuția tuturor testelor exportului."
+  },
+  "tests_rerun_and_hashed": 3,
+  "gate": "T329 constatările delimitate sunt acceptate, iar capacitatea generală de postare rămâne deschisă. T330 comparația binară este confirmată; cerința întregului export și regresia integrală sunt neînchise. Ambele sunt suplimente R9, fără note sau modificări ale R8.",
+  "round_score": null,
+  "product_score": null
+}

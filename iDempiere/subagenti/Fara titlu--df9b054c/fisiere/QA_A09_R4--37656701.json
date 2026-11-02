@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-02T17:18:57.654186+00:00",
+  "status": "QA_OK",
+  "report": {
+    "path": "executie/R4_zone/A09/A09_raport.json",
+    "sha256": "b3e157dae22a5c6a13e568db082ef605f755272ac9d5fb8a21893cdd15ffc4c2",
+    "bytes": 254317
+  },
+  "immutable_parent": {
+    "path": "executie/R3_zone/A09/A09_raport.json",
+    "sha256": "713657960dbd4bf998d4bab49de05213b4e665b01453b1c1baf5f6bfc0b70e91",
+    "bytes": 176292,
+    "revision": "R3",
+    "A11_previous_report_quality": 7.2,
+    "A11_evidence": "A09-E-R4-R3QA"
+  },
+  "probes_rehashed": 90,
+  "sheets_rehashed": 42,
+  "chapters": 20,
+  "controls": 29,
+  "pipelines": 7,
+  "cases_ux": 30,
+  "A11_quality_decision_R4": null,
+  "errors": []
+}

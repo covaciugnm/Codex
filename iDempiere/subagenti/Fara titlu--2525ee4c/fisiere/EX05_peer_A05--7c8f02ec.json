@@ -1,0 +1,208 @@
+{
+  "schema": "eva.audit.supplement.peer-review.v2",
+  "case": "EX05",
+  "peer": "A05",
+  "owner": "A06",
+  "reviewer": "A11",
+  "utc": "2026-11-02T16:57:08.453Z",
+  "subject_sha256": "ccef80210b8570ca094c5249704e74141e7dfe49a0b8534205105303a352073b",
+  "decision": "ACCEPT_COMPONENTA_DEMONSTRATĂ; REFUZ_PASS_INTEGRAL",
+  "quality_score": null,
+  "case_id": "Q-COM-01",
+  "task_refs": [
+    {
+      "task": "T22",
+      "canonical": null,
+      "target": [
+        "P01.C10.T0007"
+      ],
+      "criterion_source": "executie/R3/taskuri/Fisa_T22.json",
+      "norm_pointer": "#/disposition_admin/successors",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX05"
+    },
+    {
+      "task": "T352",
+      "canonical": "P01.C10.T0028",
+      "target": [],
+      "criterion_source": "executie/R3/taskuri/Fisa_T352.json",
+      "norm_pointer": "#/source_literal",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX05"
+    },
+    {
+      "task": "T354",
+      "canonical": "P01.C03.T0028",
+      "target": [],
+      "criterion_source": "executie/R3/taskuri/Fisa_T354.json",
+      "norm_pointer": "#/source_literal",
+      "at_closure": "Separare decizie administrativă/funcționalitate.",
+      "test_now": "EX05"
+    }
+  ],
+  "controls": [
+    "A06-C07",
+    "A06-C10",
+    "A06-C18",
+    "A06-C25",
+    "A02.C022",
+    "A05-C01"
+  ],
+  "pipelines": [
+    "A06-P2",
+    "A06-P4",
+    "A02.P05",
+    "A06-P6",
+    "A05-P01"
+  ],
+  "repo": {
+    "eva_git": "6df998aee0e514d30856c461962afe99ebd0d113",
+    "EVA-git-JAR": "a406a14d01385f3c137ce82c749dabfe70d56920950dafaa4cac0446d6626f69",
+    "EVA-installed-CESIRO-JAR": "00f261462636475c1612a5d4afde76515d7ed8c8dab0dd53e19fd6811cecbee2",
+    "ERP-fixture-image": "sha256:72eb56ecdd7953c05efebe2f7641c8a98eced0fbcf8eef0d673fb6152f432235",
+    "CESIRO1-source-manifest": "0d3560c3bdaa105f6cec264e70d53379f3fb33c2c7226844485d72ef141003be",
+    "container_network": "Intern, verificat prin Docker în gateway. Legătură dedicată fixture /api/ext/v1 GET; HTTP local de test; nicio interogare de producție sau nativitate TLS inferată."
+  },
+  "integrity": {
+    "producer_files_verified": 30,
+    "anchors_verified": 7,
+    "plan": "54474212aabea451aa6b8d01adf471bac7a4a3de24158988f705bc7d7512c5ef",
+    "gate": "20c9fe20ac028bb7876a261ceed63a9e3617ba413456c080e001f3d46b77ff8c",
+    "cleanup_sha256": "252343035fec1362d64b452647647f8f72f7bd884f66af02abb3664f792acf51"
+  },
+  "method": [
+    "Interogare SELECT actuală în a08_cesiro pe loopback, tranzacții read-only; două tenant_id distincte și UUID, trei comenzi pentru comparație.",
+    "Reexecuție independentă JVM 21 din ambele JAR reale asupra corpului extern al aceluiași UUID plus martori alterați numai în memorie.",
+    "Recalcularea tuturor hashurilor și reconcilierea rând-cu-rând a snapshoturilor ERP autentificate. Cabinetul producătorului a fost închis și nu am repetat PreiaDinSite într-un al doilea cabinet."
+  ],
+  "observations": [
+    {
+      "id": "A05-PEER-01",
+      "boundary": "C → antet",
+      "expected": "aceeași origine, canal și firmă",
+      "observed": {
+        "origin": "04255ef2-38dd-446f-89a7-d369a1a67335",
+        "id": "1000006",
+        "number": "ORD-2026-000001",
+        "source": "EX05A",
+        "cs_rows": [
+          [
+            "CPP-1001",
+            "EXT7",
+            2,
+            0.21
+          ],
+          [
+            "CPA-1002",
+            "EXT8",
+            1,
+            0.21
+          ]
+        ],
+        "sql_source": [
+          {
+            "id": "04255ef2-38dd-446f-89a7-d369a1a67335",
+            "tenant_id": "e5d6ce7b-3ad8-438b-907d-5381c0d32e31",
+            "order_number": "ORD-2026-000001",
+            "products_net_ron": 67.63,
+            "products_gross_ron": 81.83,
+            "vat_total_ron": 14.2,
+            "shipping_total_ron": 6.05,
+            "total_ron": 87.88,
+            "bill": "Str. Contabilă 11",
+            "ship": "Str. Depozit 22",
+            "line_count": 2,
+            "lines": "CPP-1001 / EXT7 x 2, CPA-1002 / EXT8 x 1"
+          },
+          {
+            "id": "6f0f81cd-cd45-4be3-bc22-9dc779d01aae",
+            "tenant_id": "e5d6ce7b-3ad8-438b-907d-5381c0d32e31",
+            "order_number": "ORD-2026-000007",
+            "products_net_ron": 67.63,
+            "products_gross_ron": 81.83,
+            "vat_total_ron": 14.2,
+            "shipping_total_ron": 6.06,
+            "total_ron": 87.89,
+            "bill": "Str. Contabilă 11",
+            "ship": "Str. Depozit 22",
+            "line_count": 2,
+            "lines": "CPP-1001 / EXT7 x 2, CPA-1002 / EXT8 x 1"
+          },
+          {
+            "id": "75689988-4660-4966-a4bd-032d8773e95d",
+            "tenant_id": "8c537c86-4b52-4932-aff6-0b8de482fb6f",
+            "order_number": "ORD-2026-000001",
+            "products_net_ron": 67.63,
+            "products_gross_ron": 81.83,
+            "vat_total_ron": 14.2,
+            "shipping_total_ron": 6.05,
+            "total_ron": 87.88,
+            "bill": "Str. Contabilă 11",
+            "ship": "Str. Depozit 22",
+            "line_count": 2,
+            "lines": "CPP-1001 / EXT7 x 2, CPA-1002 / EXT8 x 1"
+          }
+        ],
+        "staging": [
+          "04255ef2-38dd-446f-89a7-d369a1a67335",
+          "ORD-2026-000001",
+          "1000006",
+          "EX05A",
+          "N",
+          "EXCLUS",
+          "87.88",
+          "",
+          "",
+          "",
+          "0"
+        ]
+      },
+      "decision": "CONFIRMAT pentru preluarea antetului. Alt tenant al site-ului cu același număr are UUID diferit și antet ERP 1000007. W are ID distinct, total 111,80 și 404 la lookup pe C."
+    },
+    {
+      "id": "A05-PEER-02",
+      "boundary": "Numărător/numitor",
+      "observed": "Procesul raportează 7 noi A + 1 nou B. Snapshoturile native restrânse celor 7 UUID-uri inițiale au 6 A + 1 B. Interogarea nerestrânsă la cele două canale enumeră 7 A + 1 B inclusiv mutantul +0,01 (1000000); există 8 antete distincte. Numai Q/1000006 a primit VALIDEZ, o cerere, unul exclus, zero documente. Celelalte 7 fără stare de validare. Retry A observat identic pe cele 6 rânduri din captura restrânsă; sumarul de proces spune 7 neschimbate."
+    },
+    {
+      "id": "A05-PEER-03",
+      "boundary": "Detaliu extern → linii persistate → documente",
+      "observed": "Două linii sunt în DB C, notate distinct intern/SKU, facturare și livrare distincte în C. Ambele JAR-uri parsează 2 linii la validator și stocarea detailului de import extrage doar facturi/expedieri (0/0). ValideazaComenzi.java:592,603,710 recitește detaliul, dar verifică liniile deja persistate și indicatorul din antet. PreiaDinSite.java:346,427–453 persistă antetul; ValidareComanda.java:118–125 condiționează EXCLUS de proprietate și vânzător. În C seller={} pentru Q. Martorul izolat cu aceeași identitate fiscală și fals/adevărat dă EXCLUS/V01 respectiv AUTO fără linii eligibile. Nu este demonstrat că V01 a fost singurul motiv real și schimbarea flagului ar genera documente."
+    },
+    {
+      "id": "A05-PEER-04",
+      "boundary": "Stoc, gestiuni, contabilitate",
+      "observed": "Q 0 linii de staging, legături C_Order/M_InOut/C_Invoice NULL; 8 C_Order existente, 308 Fact_Acct, înainte și după. M_StorageReservation are doar IsSOTrx=N (achiziții), 2 rânduri însumând 0. Niciun rând SO în ambele instantanee. Nu există aviz, rezervare, factură sau postare atribuibilă UUID prin relațiile probate. Nu există test pe această origine pentru disponibilitate G3 cu două G1, alocare pe gestiune, cost, anulare comercială, retur/expediere. Numărătorile globale nu trebuie prezentate drept număr de ordine ori Facts generate sau drept dovada imposibilității unor documente orfane. Nu au fost înregistrate contoarele globale M_InOut/C_Invoice/M_Transaction și nici efecte de compensare intermediare."
+    },
+    {
+      "id": "A05-PEER-05",
+      "boundary": "Roluri, replay și încredere",
+      "observed": "Operator ERP GardenAdmin/client11/org11; două fișe ale aceleiași firme în ERP, doi tenanți ai site-ului. Rolul tehnic a fost creat în fixture. GardenAdmin/GardenUser rol obișnuit primesc HTTP 200 cu process_error=true; rol tehnic 200/PRIMIT o singură dată, 200/replay fără al doilea eveniment. Textul de replay nu garantează zero jurnal tehnic. Webhookul semnat de harness pe număr comercial și sursă nu dovedește emisie automată la checkout și nici autentificarea unui comisionar, izolare între două cabinete ERP ori lipsa expunerii datelor către un comisionar. Toate schedulerele oprite."
+    },
+    {
+      "id": "A05-PEER-06",
+      "boundary": "Sume și identități",
+      "observed": "Oracle 87,87, total C/ERP 87,88 și W 111,80. C stochează brut produse 81,83, net 67,63 și TVA produse 14,20; transport 6,05 (mutant 6,06). TVA C la ambele linii 0,21; a doua are net 11,33 și TVA 2,38 față de oracle 12,35 și 1,36. C_OrderLine/Tax absente: nu echivala câmpurile de transport/discount ori identitățile cu un document ERP. G1/G2, cost și anulare nu au ajuns la DocAction."
+    }
+  ],
+  "independent_files": [
+    {
+      "file": "EX05-peer-A05-evidence/db-read.json",
+      "sha256": "16476c229e0a2151cfe468f27200f35ca9db8cd4e428da5255d5eb58109f5ee7"
+    },
+    {
+      "file": "EX05-peer-A05-evidence/cod-master-contab.jar.out",
+      "sha256": "3b8987d3ed0c132bcd1fa323267d251544149e75cb3d1da538f5fc88997b1236"
+    },
+    {
+      "file": "EX05-peer-A05-evidence/com.eva.ro.contab_13.0.0.jar.out",
+      "sha256": "3b8987d3ed0c132bcd1fa323267d251544149e75cb3d1da538f5fc88997b1236"
+    },
+    {
+      "file": "EX05-peer-A05-evidence/A05Ex05Peer.java",
+      "sha256": "c44fd99d2ca866a485bd7f6e5dcf32e69da7f124635ef2d3498c8f9ef4debee9"
+    }
+  ],
+  "native_first": "Reutilizați cititorul DetaliuComanda existent, verificarea identității fiscale și mapările native înainte de o extensie. Dovediți trecerea de la detaliu citibil la liniile staging cu deduplicare per firmă/canal/UUID/poziție. Apoi validați C_Order→rezervare→pick/aviz și marcare contabilă pe exact aceeași origine. Nici documente injectate în SQL, nici drepturi ale operatorului ERP nu pot înlocui controlul comisionarului.",
+  "next": "Cazul trece la A11 pentru audit independent. Acceptarea privește fidelitatea divergenței și a antetului, nu calitatea integrală a produsului sau acoperirea tuturor criteriilor din contract."
+}

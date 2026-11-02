@@ -1,0 +1,93 @@
+{
+  "utc": "2026-11-02T18:57:22.543766+00:00",
+  "reviewer": "A11",
+  "report": "330f2911e777fb6ba1a750055302385d5d0b532b4c7dc43c3198093e1356447b",
+  "manifest": "f87741a497877428a87fb77286079070cba6b0346d8700b5f5385fac62db32d0",
+  "formal_relation_to_R9": "post-freeze, no effect on score/dossier R9",
+  "verified_reports": 15,
+  "prior_staging_experiment": "2× staging ord=0 versus the persistent C_Order primary-items fixture; invoice, shipping and source Q are outside this test.",
+  "manual_disassemblable_kit": "4 distinct manual documents rejected, HTTP 500, no positive kit sell through ERP on this path.",
+  "native_primary_product_reconciliation": {
+    "ART_ONE": {
+      "ids": [
+        1000008,
+        1000009
+      ],
+      "warehouses": [
+        103,
+        103
+      ],
+      "expected_by_warehouse": {
+        "(103, 1000000)": 4,
+        "(103, 1000001)": 8
+      },
+      "remaining_after_void_second": {},
+      "overlap_ms": 223.132896
+    },
+    "ART_TWO": {
+      "ids": [
+        1000012,
+        1000013
+      ],
+      "warehouses": [
+        103,
+        1000000
+      ],
+      "expected_by_warehouse": {
+        "(103, 1000000)": 2,
+        "(103, 1000001)": 4,
+        "(1000000, 1000000)": 1,
+        "(1000000, 1000001)": 2
+      },
+      "remaining_after_void_second": {},
+      "overlap_ms": 194.013813
+    }
+  },
+  "thresholds": [
+    {
+      "physical": 6.0,
+      "reserved_before": 4.0,
+      "reserved_after": 6.0,
+      "available": 0.0,
+      "state": "CO",
+      "after_repeat_no_new": true
+    },
+    {
+      "physical": 5.0,
+      "reserved_before": 4.0,
+      "reserved_after": 6.0,
+      "available": -1.0,
+      "state": "CO",
+      "after_repeat_no_new": true
+    }
+  ],
+  "independent_mutants": [
+    {
+      "modified_copy": "quantity",
+      "outcome": "rejected by grouping on both product and warehouse"
+    },
+    {
+      "modified_copy": "warehouse",
+      "outcome": "rejected by grouping on both product and warehouse"
+    }
+  ],
+  "negative_role": {
+    "get": 403,
+    "co": 403
+  },
+  "key_retry": "Un POST repetat cu aceeași cheie a creat două antete draft. CO repetat pe același C_Order nu a duplicat rezervarea din aceste probe; eroarea concurentă la cheia primară a fost recuperată la reluare.",
+  "interpretation": "La stoc fizic 6 cu 4 rezervate, o cerere suplimentară de 2 lasă disponibil 0. La 5 fizice, comanda nativă ajunge tot la CO, disponibil −1. Aceasta diferă de respingerea rândului emis din staging și nu dovedește că blocajul aplicației se aplică tuturor comenzilor native. Două gestiuni reale au rezerve independente. Nicio validare a site-ului Q, AWB, facturii sau fluxului financiar în aceste probe.",
+  "retirement": {
+    "at": "2026-11-02 20:54:03 Europe/Bucharest",
+    "remaining_owned_containers": 0,
+    "remaining_owned_networks": 0,
+    "remaining_suite_slots": 0,
+    "temporary_db_secret_removed": true,
+    "remaining_positive_reservations_before_close": [],
+    "remaining_delivered_or_invoiced_order_lines_tagged": "0",
+    "cleanup": "cleanup.txt",
+    "lifecycle": "lifecycle.log"
+  },
+  "product_score": null,
+  "round_score": null
+}

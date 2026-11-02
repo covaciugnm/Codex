@@ -1,6 +1,6 @@
 # iDempiere
 
-Conversații: 16; subagenți: 24; mesaje: 817; fișiere copiate: 650.
+Conversații: 16; subagenți: 27; mesaje: 1132; fișiere copiate: 1306.
 
 | Conversație | Tip | Mesaje |
 |---|---|---|
@@ -19,7 +19,7 @@ Conversații: 16; subagenți: 24; mesaje: 817; fișiere copiate: 650.
 | [Creează monografia contabilă](Creeaz%C4%83%20monografia%20contabil%C4%83/conversatie.md) | Conversație | 25 |
 | [Create audit checklist and workspace](Create%20audit%20checklist%20and%20workspace/conversatie.md) | Conversație | 16 |
 | [Verifică aplicația și commitul](Verific%C4%83%20aplica%C8%9Bia%20%C8%99i%20commitul/conversatie.md) | Conversație | 16 |
-| [Analizează taskurile C03–C10](Analizeaz%C4%83%20taskurile%20C03%E2%80%93C10/conversatie.md) | Conversație | 161 |
+| [Analizează taskurile C03–C10](Analizeaz%C4%83%20taskurile%20C03%E2%80%93C10/conversatie.md) | Conversație | 226 |
 | [Fara titlu](subagenti/Fara%20titlu/conversatie.md) | Subagent | 3 |
 | [Fara titlu](subagenti/Fara%20titlu--a72c16ce/conversatie.md) | Subagent | 4 |
 | [Fara titlu](subagenti/Fara%20titlu--ceb74854/conversatie.md) | Subagent | 23 |
@@ -32,15 +32,18 @@ Conversații: 16; subagenți: 24; mesaje: 817; fișiere copiate: 650.
 | [Fara titlu](subagenti/Fara%20titlu--f701f5ea/conversatie.md) | Subagent | 2 |
 | [Fara titlu](subagenti/Fara%20titlu--4453f12a/conversatie.md) | Subagent | 2 |
 | [Fara titlu](subagenti/Fara%20titlu--46b614d5/conversatie.md) | Subagent | 1 |
-| [Fara titlu](subagenti/Fara%20titlu--e9cbdaf4/conversatie.md) | Subagent | 14 |
-| [Fara titlu](subagenti/Fara%20titlu--37185448/conversatie.md) | Subagent | 14 |
-| [Fara titlu](subagenti/Fara%20titlu--70eb25b2/conversatie.md) | Subagent | 5 |
-| [Fara titlu](subagenti/Fara%20titlu--6b22a0cf/conversatie.md) | Subagent | 7 |
-| [Fara titlu](subagenti/Fara%20titlu--fd44fa90/conversatie.md) | Subagent | 6 |
-| [Fara titlu](subagenti/Fara%20titlu--b5778de3/conversatie.md) | Subagent | 6 |
-| [Fara titlu](subagenti/Fara%20titlu--2525ee4c/conversatie.md) | Subagent | 13 |
-| [Fara titlu](subagenti/Fara%20titlu--add0aa1b/conversatie.md) | Subagent | 6 |
-| [Fara titlu](subagenti/Fara%20titlu--d538fb57/conversatie.md) | Subagent | 6 |
-| [Fara titlu](subagenti/Fara%20titlu--2b77e3c8/conversatie.md) | Subagent | 7 |
-| [Fara titlu](subagenti/Fara%20titlu--df9b054c/conversatie.md) | Subagent | 9 |
-| [Fara titlu](subagenti/Fara%20titlu--5717cc7d/conversatie.md) | Subagent | 8 |
+| [Fara titlu](subagenti/Fara%20titlu--e9cbdaf4/conversatie.md) | Subagent | 41 |
+| [Fara titlu](subagenti/Fara%20titlu--37185448/conversatie.md) | Subagent | 58 |
+| [Fara titlu](subagenti/Fara%20titlu--70eb25b2/conversatie.md) | Subagent | 18 |
+| [Fara titlu](subagenti/Fara%20titlu--6b22a0cf/conversatie.md) | Subagent | 19 |
+| [Fara titlu](subagenti/Fara%20titlu--fd44fa90/conversatie.md) | Subagent | 23 |
+| [Fara titlu](subagenti/Fara%20titlu--b5778de3/conversatie.md) | Subagent | 16 |
+| [Fara titlu](subagenti/Fara%20titlu--2525ee4c/conversatie.md) | Subagent | 39 |
+| [Fara titlu](subagenti/Fara%20titlu--add0aa1b/conversatie.md) | Subagent | 31 |
+| [Fara titlu](subagenti/Fara%20titlu--d538fb57/conversatie.md) | Subagent | 18 |
+| [Fara titlu](subagenti/Fara%20titlu--2b77e3c8/conversatie.md) | Subagent | 21 |
+| [Fara titlu](subagenti/Fara%20titlu--df9b054c/conversatie.md) | Subagent | 25 |
+| [Fara titlu](subagenti/Fara%20titlu--5717cc7d/conversatie.md) | Subagent | 15 |
+| [Fara titlu](subagenti/Fara%20titlu--8f7af902/conversatie.md) | Subagent | 21 |
+| [Fara titlu](subagenti/Fara%20titlu--0859de10/conversatie.md) | Subagent | 3 |
+| [Fara titlu](subagenti/Fara%20titlu--3ec2c92e/conversatie.md) | Subagent | 3 |

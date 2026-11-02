@@ -1,0 +1,114 @@
+{
+  "schema": "EVA.P01.EX06.Peer.Acceptare.v1",
+  "issued_utc": "2026-11-02T16:57:41.112235+00:00",
+  "producer": "A08",
+  "peer": "A09",
+  "reviewer": "A11",
+  "object": "EX06, retur A09",
+  "self_score": null,
+  "decision": "ACCEPTARE_PEER_A_PACHETULUI_CU_CELE_TREI_CORECTII_A09_DE_MAI_JOS",
+  "standalone_A08": "Erata A08 cu SHA 1d00f21b nu satisface integral returul când este citită singură. Pachetul de dovezi împreună cu C1–C3 satisface cererea de corecție documentară și poate fi evaluat independent de A11.",
+  "chain": [
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06.json",
+      "sha256": "9ee27f74ef867752f896ef4f54426c336f12ae23654a4f90e93956e461b5d945"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_peer_A09.json",
+      "sha256": "2df1bee8066dbe34a754cbde9d1ebf4612d0931765abc892ba356f94732cdd32"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_erratum_A08.json",
+      "sha256": "1d00f21beb0e69ee459dd3683f0b2298ccbbfb02752bf16773aae28a3fcda983"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_C_roles.json",
+      "sha256": "dd0587874444f48353c731d426ccb9d5d31dfa9ce06226a3b1ec89c039043a43"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/runtime.json",
+      "sha256": "7e917ef4f221a5ada3fd1387e4b2c82c77844833f95ba68ab79fa6e6e2c8e628"
+    },
+    {
+      "file": "executie/supliment_CESIRO1/probe/EX06_A09_evidence/admin-ui.json",
+      "sha256": "fdea8a419db28c7f68b03776d9b9feab5d854d5618f7b41c08f4328acd2248dc"
+    }
+  ],
+  "checks": {
+    "immutability": "Hashurile originalului, ale returului A09 și ale eratei A08 au fost recalculate. Au fost reverificate 12 dovezi ale producătorului și 23 probe independente, alături de planul și cele 3 referințe semnate din erată.",
+    "payload_rows_verified": 20,
+    "wrong_pointers_before_correction": [
+      "/results/theme_invalid/a"
+    ],
+    "ui_cases_verified": 4,
+    "criteria": [
+      {
+        "id": "tenant",
+        "result": "A: owner eMag 200, Trendyol 409 state_unreadable. B: Trendyol 200. Distinge un conector administrativ de previzualizarea paginii unei platforme. Corecția C1 stabilește atribuirea istorică."
+      },
+      {
+        "id": "theme",
+        "result": "Registru auxiliar public-theme-fixture, nouă identificatoare. Absența ID-urilor platformelor în acest registru nu se extrapolează la toate instalările."
+      },
+      {
+        "id": "roles",
+        "result": "Owner și viewer testate real la 360 și 1280. Un store_customer nu demonstrează situația comisionarului. Fidelitatea eMag/Trendyol și actorul comisionar rămân necertificate."
+      },
+      {
+        "id": "revoke",
+        "result": "Zero granturi în A după commit. Token vechi 200, token nou 403, token expirat 401 prin deplasarea ceasului de verificare. TTL-uri 900/3600 secunde. Fereastra deschisă obține 200 și afișează iframe; proba completă este în C2."
+      },
+      {
+        "id": "recovery",
+        "result": "După timeout, owner 200/iframe, viewer 403/mesaj generic; rămâne o problemă de prezentare a refuzului. Cerința comercială și defectul de revocare nu sunt remediate prin corectarea raportului."
+      },
+      {
+        "id": "task_norm",
+        "result": "T35 trimite la P01.C10.T0002, T352 corespunde P01.C10.T0028. Starea istorică distinctă de proba prezentă."
+      }
+    ]
+  },
+  "normative_corrections": [
+    {
+      "id": "C1",
+      "erratum_pointer": "#/replacement/original_observation",
+      "replace_with": "Proba A08 păstrată la EX06_C_roles.json a înregistrat pentru proprietarul din A eMag 200 și Trendyol 409. Analiza A09 a reprodus aceste rezultate în A și a obținut pentru Trendyol 200 în B, cu grant distinct și stare citibilă. Formularea inițială din EX06.json#/comparison/1 generaliza contrar probelor brute din același document.",
+      "verified_source": [
+        "EX06_C_roles.json#/states/integration_trendyol_owner/http",
+        "EX06.json#/actual_roles/integration_trendyol_owner/http",
+        "EX06_A09_evidence/runtime.json#/results/trendyol_owner_B_separate/http"
+      ]
+    },
+    {
+      "id": "C2",
+      "erratum_pointer": "#/compiled_ui/cases/3/postrevocation_ui",
+      "replace_with": {
+        "requests": [
+          {
+            "path": "/api/admin/v1/settings/theme-preview-link",
+            "http": 200
+          },
+          {
+            "path": "/",
+            "http": 200
+          }
+        ],
+        "iframe": 1,
+        "error": null
+      },
+      "verified_source": [
+        "EX06_A09_evidence/admin-ui.json#/cases/3/open_window_after_revoke",
+        "EX06_A09_evidence/admin-ui.json#/cases/3/removed_grant_in_open_window"
+      ]
+    },
+    {
+      "id": "C3",
+      "erratum_pointer": "#/preview/generic_and_invalid/8/selector",
+      "replace_with": "EX06_A09_evidence/runtime.json#/results/theme_invalid~1a",
+      "verified_source": [
+        "EX06_A09_evidence/runtime.json#/results/theme_invalid~1a/http"
+      ]
+    }
+  ],
+  "rule": "Pentru câmpurile identificate, consumatorii folosesc valorile din C1–C3. Toate cele trei surse A08/A09 rămân imutabile. Verdictul de calitate rămâne la A11."
+}

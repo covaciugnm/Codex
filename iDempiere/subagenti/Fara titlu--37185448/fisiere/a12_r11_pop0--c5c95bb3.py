@@ -1,0 +1,4 @@
+from a12_r10_publish import *
+p=E/'R11_plan_delta/A12_tracker_snapshot_v2';rd0=rd(p/'00_STATUS_TASKURI.json');x0=rd(E/'delta/2026-11-02T20-46-47-993Z/00_STATUS_TASKURI.json');new={z['id']:z for z in rd0 if z.get('proiect')=='P01'};old={z['id']:z for z in x0 if z.get('proiect')=='P01'};print('DELTA',len(rd0),len(new),len(old),[(k,old[k]['stare_generala'],v['stare_generala'])for k,v in new.items()if k in old and old[k]!=v]);print('add/drop', set(new)-set(old),set(old)-set(new))
+print('states-now',Counter(z['stare_generala']for z in new.values()));print('12 init summary',rd(B/'Inventar_P01.json')['summary']);print('transitions',rd(p/'00_STARI_TASKURI.json')['stari']);ls=rd(p/'00_STATUS_FINALIZATE.json')['finalizate'];print('aux',[(list(v),str(v)[:125])for v in ls[:2]]);print('T352row', [(j,x)for j,x in enumerate(rd0)if x['id']=='T352'][0][1].keys());print('R10all',rd(E/'A11_control_A12_R10.json')['remaining_reaudit'][:2])
+
